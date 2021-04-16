@@ -1,0 +1,3356 @@
+- name: 元件物件模型 (COM)
+  href: component-object-model--com--portal.md
+  items:
+    - name: COM 基本概念
+      href: com-fundamentals.md
+      items:
+        - name: 指南
+          href: guide.md
+          items:
+            - name: COM 的新功能
+              href: what-s-new-in-com.md
+              items:
+                - name: Windows 7 中的 COM 變更
+                  href: changes-to-com-in-windows-7.md
+                - name: Windows Vista 中的 COM 變更
+                  href: changes-to-com-in-windows-vista.md
+            - name: 元件物件模型
+              href: the-component-object-model.md
+              items:
+                - name: COM 技術總覽
+                  href: com-technical-overview.md
+                - name: COM 物件和介面
+                  href: com-objects-and-interfaces.md
+                  items:
+                    - name: 介面和介面的實現
+                      href: interfaces-and-interface-implementations.md
+                    - name: 介面指標和介面
+                      href: interface-pointers-and-interfaces.md
+                    - name: IUnknown 和介面繼承
+                      href: iunknown-and-interface-inheritance.md
+                - name: 使用和執行 IUnknown
+                  href: using-and-implementing-iunknown.md
+                  items:
+                    - name: QueryInterface：在物件中流覽
+                      href: queryinterface--navigating-in-an-object.md
+                    - name: 執行 QueryInterface 的規則
+                      href: rules-for-implementing-queryinterface.md
+                    - name: 透過參考計數來管理物件存留期
+                      href: managing-object-lifetimes-through-reference-counting.md
+                      items:
+                        - name: 正在執行參考計數
+                          href: implementing-reference-counting.md
+                        - name: 管理參考計數的規則
+                          href: rules-for-managing-reference-counts.md
+                - name: 重複使用物件
+                  href: reusing-objects.md
+                  items:
+                    - name: 內含專案/委派
+                      href: containment-delegation.md
+                    - name: 彙總
+                      href: aggregation.md
+                - name: COM 程式庫
+                  href: the-com-library.md
+                - name: 管理記憶體配置
+                  href: managing-memory-allocation.md
+                  items:
+                    - name: OLE 記憶體配置器
+                      href: the-ole-memory-allocator.md
+                    - name: 記憶體管理規則
+                      href: memory-management-rules.md
+                    - name: 調試記憶體配置
+                      href: debugging-memory-allocations.md
+            - name: 進程、執行緒和單元
+              href: processes--threads--and-apartments.md
+              items:
+                - name: 選擇執行緒模型
+                  href: choosing-the-threading-model.md
+                - name: Single-Threaded 單元
+                  href: single-threaded-apartments.md
+                - name: 多執行緒單元
+                  href: multithreaded-apartments.md
+                - name: Single-Threaded 和多執行緒通訊
+                  href: single-threaded-and-multithreaded-communication.md
+                - name: In-Process 伺服器執行緒問題
+                  href: in-process-server-threading-issues.md
+                - name: 跨單元存取介面
+                  href: accessing-interfaces-across-apartments.md
+                  items:
+                    - name: 建立全域介面資料表
+                      href: creating-the-global-interface-table.md
+                    - name: 使用全域介面資料表的時機
+                      href: when-to-use-the-global-interface-table.md
+            - name: COM 用戶端和伺服器
+              href: com-clients-and-servers.md
+              items:
+                - name: 取得物件的指標
+                  href: getting-a-pointer-to-an-object.md
+                - name: 透過類別物件建立物件
+                  href: creating-an-object-through-a-class-object.md
+                  items:
+                    - name: COM 類別物件和 Clsid
+                      href: com-class-objects-and-clsids.md
+                    - name: 尋找遠端物件
+                      href: locating-a-remote-object.md
+                    - name: 實例建立 Helper 函數
+                      href: instance-creation-helper-functions.md
+                - name: COM 伺服器責任
+                  href: com-server-responsibilities.md
+                  items:
+                    - name: 執行 IClassFactory
+                      href: implementing-iclassfactory.md
+                    - name: 授權和 IClassFactory2
+                      href: licensing-and-iclassfactory2.md
+                    - name: 註冊 COM 伺服器
+                      href: registering-com-servers.md
+                      items:
+                        - name: 在安裝時註冊類別
+                          href: registering-a-class-at-installation.md
+                        - name: 註冊正在執行的 EXE 伺服器
+                          href: registering-a-running-exe-server.md
+                        - name: 在 ROT 中註冊物件
+                          href: registering-objects-in-the-rot.md
+                        - name: Self-Registration
+                          href: self-registration.md
+                        - name: 安裝為服務應用程式
+                          href: installing-as-a-service-application.md
+                    - name: 跨進程伺服器執行協助程式
+                      href: out-of-process-server-implementation-helpers.md
+                    - name: 建立和優化 GUID
+                      href: guid-creation-and-optimizations.md
+                - name: 持續性物件狀態
+                  href: persistent-object-state.md
+                  items:
+                    - name: 持續性物件介面
+                      href: persistent-object-interfaces.md
+                    - name: 初始化持續性物件
+                      href: initializing-persistent-objects.md
+                - name: 提供類別資訊
+                  href: providing-class-information.md
+                - name: Inter-Object 通訊
+                  href: inter-object-communication.md
+                  items:
+                    - name: 封送處理詳細資料
+                      href: marshaling-details.md
+                    - name: Proxy
+                      href: proxy.md
+                    - name: 存根
+                      href: stub.md
+                    - name: 管道
+                      href: channel.md
+                    - name: Microsoft RPC
+                      href: microsoft-rpc.md
+            - name: 製作和處理非同步呼叫
+              href: making-and-processing-asynchronous-calls.md
+              items:
+                - name: 進行非同步呼叫
+                  href: making-an-asynchronous-call.md
+                  items:
+                    - name: 非同步呼叫期間的用戶端安全性
+                      href: client-security-during-an-asynchronous-call.md
+                    - name: 模擬和非同步呼叫
+                      href: impersonation-and-asynchronous-calls.md
+                - name: 取消非同步呼叫
+                  href: canceling-an-asynchronous-call.md
+                - name: 取消方法呼叫
+                  href: canceling-method-calls.md
+                - name: 呼叫同步處理
+                  href: call-synchronization.md
+            - name: 定義 COM 介面
+              href: defining-com-interfaces.md
+              items:
+                - name: 介面封送處理
+                  href: interface-marshaling.md
+                - name: IDL 檔案的剖析
+                  href: anatomy-of-an-idl-file.md
+                - name: MIDL 編譯
+                  href: midl-compilation.md
+                - name: MIDL 編譯器選項
+                  href: midl-compiler-options.md
+                - name: 載入和註冊類型程式庫
+                  href: loading-and-registering-a-type-library.md
+                - name: 建立和註冊 Proxy DLL
+                  href: building-and-registering-a-proxy-dll.md
+                - name: 介面設計規則
+                  href: interface-design-rules.md
+                  items:
+                    - name: 設計可遠端處理的介面
+                      href: designing-remotable-interfaces.md
+                    - name: 使用 COM 介面
+                      href: using-a-com-interface.md
+            - name: 註冊 COM 應用程式
+              href: registering-com-applications.md
+              items:
+                - name: 登錄階層
+                  href: registry-hierarchy.md
+                - name: 類別和伺服器
+                  href: classes-and-servers.md
+                - name: 分類元件
+                  href: classifying-components.md
+                - name: 使用 OleView
+                  href: using-oleview.md
+                - name: 註冊元件
+                  href: registering-components.md
+                - name: 正在檢查註冊
+                  href: checking-registration.md
+                - name: 未知的使用者類型
+                  href: unknown-user-types.md
+                - name: COM 登錄機碼
+                  href: com-registry-keys.md
+            - name: COM 中的安全性
+              href: security-in-com.md
+              items:
+                - name: 判斷您的安全性需求
+                  href: determining-your-security-needs.md
+                - name: COM 安全性預設值
+                  href: com-security-defaults.md
+                - name: 啟用安全性
+                  href: activation-security.md
+                - name: 安全性值
+                  href: security-values.md
+                  items:
+                    - name: 驗證等級
+                      href: authentication-level.md
+                    - name: 委派和模擬
+                      href: delegation-and-impersonation.md
+                      items:
+                        - name: 模擬
+                          href: impersonation.md
+                        - name: 模擬層級
+                          href: impersonation-levels.md
+                        - name: 隱形
+                          href: cloaking.md
+                    - name: 應用程式識別碼
+                      href: application-identity.md
+                      items:
+                        - name: 互動式使用者
+                          href: interactive-user.md
+                        - name: 正在啟動使用者
+                          href: launching-user.md
+                        - name: 指定的使用者
+                          href: specified-user.md
+                        - name: 服務身分識別
+                          href: service-identity.md
+                    - name: 軟體限制原則
+                      href: software-restriction-policy.md
+                    - name: 參考追蹤
+                      href: reference-tracking.md
+                - name: 設定 COM 應用程式的安全性
+                  href: setting-security-for-com-applications.md
+                  items:
+                    - name: 修改電腦的安全性預設值
+                      href: modifying-the-security-defaults-for-a-computer.md
+                      items:
+                        - name: System-Wide 安全性的登錄值
+                          href: registry-values-for-machine-wide-security.md
+                        - name: 使用 DCOMCNFG 設定 System-Wide 安全性
+                          href: setting-machine-wide-security-using-dcomcnfg.md
+                    - name: 設定 Process-Wide 安全性
+                      href: setting-processwide-security.md
+                      items:
+                        - name: 使用 DCOMCNFG 設定 Process-Wide 安全性
+                          href: setting-processwide-security-using-dcomcnfg.md
+                        - name: 使用 CoInitializeSecurity 設定 Process-Wide 安全性
+                          href: setting-processwide-security-with-coinitializesecurity.md
+                        - name: 透過登錄設定 Process-Wide 安全性
+                          href: setting-processwide-security-through-the-registry.md
+                    - name: 在介面 Proxy 層級設定安全性
+                      href: setting-security-at-the-interface-proxy-level.md
+                - name: 使用 DCOMCNFG 啟用 COM 安全性
+                  href: enabling-com-security-using-dcomcnfg.md
+                - name: 關閉安全性
+                  href: turning-off-security.md
+                  items:
+                    - name: 關閉啟用安全性
+                      href: turning-off-activation-security.md
+                    - name: 關閉通話安全性
+                      href: turning-off-call-security.md
+                - name: Server-Side 安全性
+                  href: server-side-security.md
+                - name: 安全性的總協商
+                  href: security-blanket-negotiation.md
+                - name: COM 和安全性封裝
+                  href: com-and-security-packages.md
+                  items:
+                    - name: NTLMSSP
+                      href: ntlmssp.md
+                    - name: Kerberos v5 通訊協定
+                      href: kerberos-v5-protocol.md
+                    - name: Schannel
+                      href: schannel.md
+                    - name: Snego
+                      href: snego.md
+                - name: Windows XP Service Pack 2 和 Windows Server 2003 Service Pack 1 中的 DCOM 安全性增強功能
+                  href: dcom-security-enhancements-in-windows-xp-service-pack-2-and-windows-server-2003-service-pack-1.md
+                - name: COM 的存取控制清單
+                  href: access-control-lists-for-com.md
+                - name: COM 提高許可權的標記
+                  href: the-com-elevation-moniker.md
+            - name: COM 中的錯誤處理
+              href: error-handling-in-com.md
+              items:
+                - name: COM 錯誤碼的結構
+                  href: structure-of-com-error-codes.md
+                - name: FACILITY_ITF 中的代碼
+                  href: codes-in-facility-itf.md
+                - name: 使用宏進行錯誤處理
+                  href: using-macros-for-error-handling.md
+                - name: JAVA 和 Visual Basic 中的 COM 錯誤處理
+                  href: com-error-handling-in-java-and-visual-basic.md
+                  items:
+                    - name: 傳回錯誤資訊
+                      href: returning-error-information.md
+                    - name: 擷取錯誤資訊
+                      href: retrieving-error-information.md
+                - name: 錯誤處理策略
+                  href: error-handling-strategies.md
+                - name: 處理未知的錯誤
+                  href: handling-unknown-errors.md
+            - name: COM 處理常式
+              href: com-handlers.md
+              items:
+                - name: OLE 處理常式
+                  href: the-ole-handler.md
+                - name: 輕量 Client-Side 處理常式
+                  href: the-lightweight-client-side-handler.md
+                  items:
+                    - name: 不使用額外的伺服器資料來執行和啟用處理常式
+                      href: implementing-and-activating-a-handler-with-no-extra-server-data.md
+                    - name: 使用伺服器提供的額外資料來執行和啟用處理常式
+                      href: implementing-and-activating-a-handler-with-extra-data-supplied-by-server.md
+                    - name: QueryInterface 委派
+                      href: delegation-of-queryinterface.md
+            - name: DLL 代理
+              href: dll-surrogates.md
+              items:
+                - name: DLL 伺服器需求
+                  href: dll-server-requirements.md
+                  items:
+                    - name: 代理共用
+                      href: surrogate-sharing.md
+                    - name: 註冊 DLL 伺服器以進行代理程式啟用
+                      href: registering-the-dll-server-for-surrogate-activation.md
+                - name: 使用 System-Supplied 代理
+                  href: using-the-system-supplied-surrogate.md
+                - name: 撰寫自訂代理
+                  href: writing-a-custom-surrogate.md
+            - name: 名字
+              href: monikers.md
+              items:
+                - name: 標記用戶端
+                  href: moniker-clients.md
+                - name: 標記提供者
+                  href: moniker-providers.md
+                - name: OLE 標記執行
+                  href: ole-moniker-implementations.md
+                  items:
+                    - name: 檔案名字
+                      href: file-monikers.md
+                    - name: 複合的名字
+                      href: composite-monikers.md
+                    - name: 專案的名字
+                      href: item-monikers.md
+                    - name: 反標記
+                      href: anti-monikers.md
+                    - name: 指標標記
+                      href: pointer-monikers.md
+                    - name: 類別名字標記
+                      href: class-monikers.md
+                    - name: 非同步名字
+                      href: asynchronous-monikers.md
+                      items:
+                        - name: 非同步和同步的名字標記
+                          href: asynchronous-vs.-synchronous-monikers.md
+                        - name: 非同步和同步系結
+                          href: asynchronous-vs.-synchronous-binding.md
+                        - name: 非同步和同步儲存體
+                          href: asynchronous-vs.-synchronous-storage.md
+                        - name: Data-Pull 模型和 Data-Push 模型
+                          href: data-pull-model-vs.-data-push-model.md
+                    - name: URL 的名字
+                      href: url-monikers.md
+                      items:
+                        - name: 回呼同步處理
+                          href: callback-synchronization.md
+                        - name: Media-Type 協商
+                          href: media-type-negotiation.md
+                        - name: URL 標記函數
+                          href: url-moniker-api-functions.md
+            - name: COM 和可連線物件中的事件
+              href: events-in-com-and-connectable-objects.md
+              items:
+                - name: 可連線物件的架構
+                  href: architecture-of-connectable-objects.md
+                - name: 可連線物件介面
+                  href: connectable-object-interfaces.md
+                  items:
+                    - name: 使用 IConnectionPointContainer
+                      href: using-iconnectionpointcontainer.md
+                    - name: 使用 IConnectionPoint
+                      href: using-iconnectionpoint.md
+                    - name: 使用 IProvideClassInfo
+                      href: using-iprovideclassinfo.md
+            - name: 元件類別管理員執行
+              href: component-categories-manager-implementation.md
+              items:
+                - name: 依元件功能分類
+                  href: categorizing-by-component-capabilities.md
+                - name: 依容器功能分類
+                  href: categorizing-by-container-capabilities.md
+                - name: 元件類別管理員
+                  href: the-component-categories-manager.md
+                - name: 預設類別和關聯
+                  href: default-classes-and-associations.md
+                - name: 定義元件類別
+                  href: defining-component-categories.md
+                - name: 將圖示與類別產生關聯
+                  href: associating-icons-with-a-category.md
+        - name: 參考
+          href: reference.md
+          items:
+            - name: 常數
+              href: constants.md
+              items:
+                - name: 存取旗標
+                  href: com-access-flags.md
+                - name: 驗證層級常數
+                  href: com-authentication-level-constants.md
+                - name: 驗證服務常數
+                  href: com-authentication-service-constants.md
+                - name: 授權常數
+                  href: com-authorization-constants.md
+                - name: COM 錯誤碼
+                  href: com-error-codes.md
+                  items:
+                    - name: 'COM 錯誤碼 (一般) '
+                      href: com-error-codes-1.md
+                    - name: 'COM 錯誤碼 (交易、已計畫、OLE) '
+                      href: com-error-codes-2.md
+                    - name: 'COM 錯誤碼 (STG.，RPC) '
+                      href: com-error-codes-3.md
+                    - name: 'COM 錯誤碼 (安全性和設定) '
+                      href: com-error-codes-4.md
+                    - name: 'COM 錯誤碼 (COMADMIN、篩選、圖形) '
+                      href: com-error-codes-5.md
+                    - name: 'COM 錯誤碼 (TPM、PLA、FVE) '
+                      href: com-error-codes-6.md
+                    - name: 'COM 錯誤碼 (.FWP、WS、NDIS、HyperV) '
+                      href: com-error-codes-7.md
+                    - name: 'COM 錯誤碼 (VOLMGR、BCD、VHD、SDIAG) '
+                      href: com-error-codes-8.md
+                    - name: 'COM 錯誤碼 (WPN、MBN、P2P、藍牙) '
+                      href: com-error-codes-9.md
+                    - name: 'COM 錯誤碼 (UI、音訊、DirectX、編解碼器) '
+                      href: com-error-codes-10.md
+                - name: 模擬層級常數
+                  href: com-impersonation-level-constants.md
+            - name: 列舉
+              href: enumerations.md
+              items:
+                - name: CWMO_FLAGS
+                  href: /windows/desktop/api/combaseapi/ne-combaseapi-cwmo_flags
+                - name: APTTYPE
+                  href: /windows/desktop/api/objidl/ne-objidl-apttype
+                - name: APTTYPEQUALIFIER
+                  href: /windows/desktop/api/objidl/ne-objidl-apttypequalifier
+                - name: BIND_FLAGS
+                  href: /windows/win32/api/Objidl/ne-objidl-bind_flags
+                - name: BINDSPEED
+                  href: /windows/win32/api/Oleidl/ne-oleidl-bindspeed
+                - name: CALLFRAME_COPY
+                  href: /windows/win32/api/CallObj/ne-callobj-callframe_copy
+                - name: CALLFRAME_FREE
+                  href: /windows/desktop/api/CallObj/ne-callobj-callframe_free
+                - name: CALLFRAME_Null
+                  href: /windows/desktop/api/CallObj/ne-callobj-callframe_null
+                - name: CALLFRAME_WALK
+                  href: /windows/desktop/api/CallObj/ne-callobj-callframe_walk
+                - name: CALLTYPE
+                  href: /windows/win32/api/Objidl/ne-objidl-calltype
+                - name: CLSCTX
+                  href: /windows/desktop/api/wtypesbase/ne-wtypesbase-clsctx
+                - name: CO_MARSHALING_CONTEXT_ATTRIBUTES
+                  href: /windows/desktop/api/objidl/ne-objidl-co_marshaling_context_attributes
+                - name: COINIT
+                  href: /windows/win32/api/Objbase/ne-objbase-coinit
+                - name: COMSD
+                  href: /windows/win32/api/Objbase/ne-objbase-comsd
+                - name: COWAIT_FLAGS
+                  href: /windows/win32/api/combaseapi/ne-combaseapi-cowait_flags
+                - name: EOC_ChangeType
+                  href: /windows/win32/api/EventSys/ne-eventsys-eoc_changetype
+                - name: EOLE_AUTHENTICATION_CAPABILITIES
+                  href: /windows/desktop/api/objidl/ne-objidl-eole_authentication_capabilities
+                - name: EXTCONN
+                  href: /windows/desktop/api/objidl/ne-objidl-extconn
+                - name: GLOBALOPT_PROPERTIES
+                  href: /windows/win32/api/objidl/ne-objidl-globalopt_properties
+                - name: GLOBALOPT_UNMARSHALING_POLICY_VALUES
+                  href: /windows/win32/api/objidl/ne-objidl-globalopt_unmarshaling_policy_values
+                - name: MKRREDUCE
+                  href: /windows/win32/api/Objidl/ne-objidl-mkrreduce
+                - name: MKSYS
+                  href: /windows/win32/api/Objidl/ne-objidl-mksys
+                - name: MSHCTX
+                  href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshctx
+                - name: MSHLFLAGS
+                  href: /windows/win32/api/wtypesbase/ne-wtypesbase-mshlflags
+                - name: PENDINGMSG
+                  href: /windows/win32/api/Objidl/ne-objidl-pendingmsg
+                - name: PENDINGTYPE
+                  href: /windows/win32/api/Objidl/ne-objidl-pendingtype
+                - name: RECORD_READING_POLICY
+                  href: /windows/desktop/api/TxLogpub/ne-txlogpub-record_reading_policy
+                - name: REGCLS
+                  href: /windows/win32/api/combaseapi/ne-combaseapi-regcls
+                - name: SERVERCALL
+                  href: /windows/win32/api/Objidl/ne-objidl-servercall
+                - name: THDTYPE
+                  href: /windows/desktop/api/objidl/ne-objidl-thdtype
+                - name: TYSPEC
+                  href: /windows/win32/api/WTypes/ne-wtypes-tyspec
+            - name: 介面
+              href: interfaces.md
+              items:
+                - name: IAccessibilityDockingService
+                  href: /windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservice
+                  items:
+                    - name: GetAvailableSize 方法
+                      href: iaccessibilitydockingservice-getavailablesize.md
+                    - name: DockWindow 方法
+                      href: /windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-dockwindow
+                    - name: UndockWindow 方法
+                      href: /windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservice-undockwindow
+                - name: IAccessibilityDockingServiceCallback
+                  href: /windows/desktop/api/shobjidl/nn-shobjidl-iaccessibilitydockingservicecallback
+                  items:
+                    - name: 未移除的方法
+                      href: /windows/desktop/api/shobjidl/nf-shobjidl-iaccessibilitydockingservicecallback-undocked
+                - name: IAccessControl
+                  href: /windows/desktop/api/IAccess/nn-iaccess-iaccesscontrol
+                  items:
+                    - name: GetAllAccessRights 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-getallaccessrights
+                    - name: GrantAccessRights 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-grantaccessrights
+                    - name: IsAccessAllowed 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-isaccessallowed
+                    - name: RevokeAccessRights 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-revokeaccessrights
+                    - name: SetAccessRights 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-setaccessrights
+                    - name: SetOwner 方法
+                      href: /windows/desktop/api/IAccess/nf-iaccess-iaccesscontrol-setowner
+                - name: IAgileObject
+                  href: /windows/desktop/api/objidl/nn-objidl-iagileobject
+                - name: IBindCtx
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ibindctx
+                  items:
+                    - name: EnumObjectParam 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-enumobjectparam
+                    - name: GetBindOptions 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-getbindoptions
+                    - name: GetObjectParam 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-getobjectparam
+                    - name: GetRunningObjectTable 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-getrunningobjecttable
+                    - name: RegisterObjectBound 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-registerobjectbound
+                    - name: RegisterObjectParam 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-registerobjectparam
+                    - name: ReleaseBoundObjects 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-releaseboundobjects
+                    - name: RevokeObjectBound 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-revokeobjectbound
+                    - name: RevokeObjectParam 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-revokeobjectparam
+                    - name: SetBindOptions 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ibindctx-setbindoptions
+                - name: IBlockingLock
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iblockinglock
+                  items:
+                    - name: Lock 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iblockinglock-lock
+                    - name: Unlock 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iblockinglock-unlock
+                - name: ICallFactory
+                  href: /windows/desktop/api/objidl/nn-objidl-icallfactory
+                  items:
+                    - name: CreateCall 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icallfactory-createcall
+                - name: ICallFrame
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallframe
+                  items:
+                    - name: 複製方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-copy
+                    - name: Free 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-free
+                    - name: FreeParam 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-freeparam
+                    - name: GetIIDAndMethod 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getiidandmethod
+                    - name: GetInfo 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getinfo
+                    - name: GetMarshalSizeMax 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getmarshalsizemax
+                    - name: GetNames 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getnames
+                    - name: GetParam 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getparam
+                    - name: GetParamInfo 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getparaminfo
+                    - name: GetReturnValue 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getreturnvalue
+                    - name: GetStackLocation 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-getstacklocation
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-invoke
+                    - name: 封送處理方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-marshal
+                    - name: ReleaseMarshalData 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-releasemarshaldata
+                    - name: SetParam 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-setparam
+                    - name: SetReturnValue 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-setreturnvalue
+                    - name: SetStackLocation 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-setstacklocation
+                    - name: Unmarshal 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-unmarshal
+                    - name: WalkFrame 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframe-walkframe
+                - name: ICallFrameEvents
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallframeevents
+                  items:
+                    - name: OnCall 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframeevents-oncall
+                - name: ICallFrameWalker
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallframewalker
+                  items:
+                    - name: OnWalkInterface 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallframewalker-onwalkinterface
+                - name: ICallIndirect
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallindirect
+                  items:
+                    - name: CallIndirect 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallindirect-callindirect
+                    - name: GetIID 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallindirect-getiid
+                    - name: GetMethodInfo 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallindirect-getmethodinfo
+                    - name: GetStackSize 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallindirect-getstacksize
+                - name: ICallInterceptor
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallinterceptor
+                  items:
+                    - name: GetRegisteredSink 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallinterceptor-getregisteredsink
+                    - name: RegisterSink 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallinterceptor-registersink
+                - name: ICallUnmarshal
+                  href: /windows/desktop/api/Callobj/nn-callobj-icallunmarshal
+                  items:
+                    - name: ReleaseMarshalData 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallunmarshal-releasemarshaldata
+                    - name: Unmarshal 方法
+                      href: /windows/desktop/api/Callobj/nf-callobj-icallunmarshal-unmarshal
+                - name: ICancelMethodCalls
+                  href: /windows/desktop/api/objidl/nn-objidl-icancelmethodcalls
+                  items:
+                    - name: Cancel 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-cancel
+                    - name: TestCancel 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icancelmethodcalls-testcancel
+                - name: ICatInformation
+                  href: /windows/desktop/api/ComCat/nn-comcat-icatinformation
+                  items:
+                    - name: EnumCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-enumcategories
+                    - name: EnumClassesOfCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-enumclassesofcategories
+                    - name: EnumImplCategoriesOfClass 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-enumimplcategoriesofclass
+                    - name: EnumReqCategoriesOfClass 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-enumreqcategoriesofclass
+                    - name: GetCategoryDesc 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-getcategorydesc
+                    - name: IsClassOfCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatinformation-isclassofcategories
+                - name: ICatRegister
+                  href: /windows/desktop/api/ComCat/nn-comcat-icatregister
+                  items:
+                    - name: RegisterCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-registercategories
+                    - name: RegisterClassImplCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-registerclassimplcategories
+                    - name: RegisterClassReqCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-registerclassreqcategories
+                    - name: UnRegisterCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-unregistercategories
+                    - name: UnRegisterClassImplCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-unregisterclassimplcategories
+                    - name: UnRegisterClassReqCategories 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-icatregister-unregisterclassreqcategories
+                - name: IClassActivator
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iclassactivator
+                  items:
+                    - name: GetClassObject 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iclassactivator-getclassobject
+                - name: IClassFactory
+                  href: /windows/desktop/api/unknwnbase/nn-unknwnbase-iclassfactory
+                  items:
+                    - name: CreateInstance 方法
+                      href: /windows/desktop/api/Unknwn/nf-unknwn-iclassfactory-createinstance
+                    - name: LockServer 方法
+                      href: /windows/desktop/api/unknwnbase/nf-unknwnbase-iclassfactory-lockserver
+                - name: IClassFactory2
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iclassfactory2
+                  items:
+                    - name: CreateInstanceLic 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-createinstancelic
+                    - name: GetLicInfo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-getlicinfo
+                    - name: RequestLicKey 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iclassfactory2-requestlickey
+                - name: IClientSecurity
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iclientsecurity
+                  items:
+                    - name: CopyProxy 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iclientsecurity-copyproxy
+                    - name: QueryBlanket 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iclientsecurity-queryblanket
+                    - name: SetBlanket 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iclientsecurity-setblanket
+                - name: IComThreadingInfo
+                  href: /windows/desktop/api/objidl/nn-objidl-icomthreadinginfo
+                  items:
+                    - name: GetCurrentApartmentType 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentapartmenttype
+                    - name: GetCurrentLogicalThreadId 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentlogicalthreadid
+                    - name: GetCurrentThreadType 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-getcurrentthreadtype
+                    - name: SetCurrentLogicalThreadId 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icomthreadinginfo-setcurrentlogicalthreadid
+                - name: IConnectionPoint
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iconnectionpoint
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-advise
+                    - name: EnumConnections 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-enumconnections
+                    - name: GetConnectionInterface 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-getconnectioninterface
+                    - name: GetConnectionPointContainer 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-getconnectionpointcontainer
+                    - name: Unadvise 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpoint-unadvise
+                - name: IConnectionPointContainer
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iconnectionpointcontainer
+                  items:
+                    - name: EnumConnectionPoints 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpointcontainer-enumconnectionpoints
+                    - name: FindConnectionPoint 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iconnectionpointcontainer-findconnectionpoint
+                - name: ICoNtext
+                  href: /windows/desktop/api/objidl/nn-objidl-icontext
+                  items:
+                    - name: EnumCoNtextProps 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icontext-enumcontextprops
+                    - name: GetProperty 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icontext-getproperty
+                    - name: RemoveProperty 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icontext-removeproperty
+                    - name: SetProperty 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-icontext-setproperty
+                - name: ICoNtextCallback
+                  href: /windows/desktop/api/Ctxtcall/nn-ctxtcall-icontextcallback
+                  items:
+                    - name: CoNtextCallback 方法
+                      href: /windows/desktop/api/Ctxtcall/nf-ctxtcall-icontextcallback-contextcallback
+                - name: IContinueCallback
+                  href: /windows/desktop/api/DocObj/nn-docobj-icontinuecallback
+                  items:
+                    - name: FContinue 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-icontinuecallback-fcontinue
+                    - name: FContinuePrinting 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-icontinuecallback-fcontinueprinting
+                - name: IEnumCATEGORYINFO
+                  href: /windows/desktop/api/ComCat/nn-comcat-ienumcategoryinfo
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumcategoryinfo-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumcategoryinfo-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumcategoryinfo-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumcategoryinfo-skip
+                - name: IEnumConnectionPoints
+                  href: /windows/desktop/api/ocidl/nn-ocidl-ienumconnectionpoints
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnectionpoints-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnectionpoints-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnectionpoints-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnectionpoints-skip
+                - name: IEnumConnections
+                  href: /windows/desktop/api/ocidl/nn-ocidl-ienumconnections
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnections-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnections-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnections-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ocidl/nf-ocidl-ienumconnections-skip
+                - name: IEnumCoNtextProps
+                  href: /windows/desktop/api/objidl/nn-objidl-ienumcontextprops
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumcontextprops-clone
+                    - name: Count 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumcontextprops-count
+                    - name: Next 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumcontextprops-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumcontextprops-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumcontextprops-skip
+                - name: IEnumGUID
+                  href: /windows/desktop/api/ComCat/nn-comcat-ienumguid
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumguid-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumguid-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumguid-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ComCat/nf-comcat-ienumguid-skip
+                - name: IEnumString
+                  href: /windows/desktop/api/objidl/nn-objidl-ienumstring
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumstring-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumstring-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumstring-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumstring-skip
+                - name: IEnumUnknown
+                  href: /windows/desktop/api/objidl/nn-objidl-ienumunknown
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumunknown-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumunknown-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumunknown-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ienumunknown-skip
+                - name: IEventProperty
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ieventproperty
+                  items:
+                    - name: Name 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventproperty-get_name
+                    - name: 值屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventproperty-get_value
+                - name: IEventPublisher
+                  href: /windows/desktop/api/EventSys/nn-eventsys-ieventpublisher
+                  items:
+                    - name: Description 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-get_description
+                    - name: GetDefaultProperty 方法
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-getdefaultproperty
+                    - name: GetDefaultPropertyCollection 方法
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-getdefaultpropertycollection
+                    - name: OwnerSID 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-get_ownersid
+                    - name: PublisherID 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-put_publisherid
+                    - name: PublisherName 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-get_publishername
+                    - name: PublisherType 屬性
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-get_publishertype
+                    - name: PutDefaultProperty 方法
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-putdefaultproperty
+                    - name: RemoveDefaultProperty 方法
+                      href: /windows/desktop/api/EventSys/nf-eventsys-ieventpublisher-removedefaultproperty
+                - name: IExternalConnection
+                  href: /windows/desktop/api/objidl/nn-objidl-iexternalconnection
+                  items:
+                    - name: AddConnection 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iexternalconnection-addconnection
+                    - name: ReleaseConnection 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iexternalconnection-releaseconnection
+                - name: IFastRundown
+                  href: /windows/desktop/api/objidl/nn-objidl-ifastrundown
+                - name: IFileBasedLogInit
+                  href: /windows/desktop/api/Txlogpub/nn-txlogpub-ifilebasedloginit
+                  items:
+                    - name: InitNew 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ifilebasedloginit-initnew
+                - name: IForegroundTransfer
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iforegroundtransfer
+                  items:
+                    - name: AllowForegroundTransfer 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iforegroundtransfer-allowforegroundtransfer
+                - name: IGlobalInterfaceTable
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iglobalinterfacetable
+                  items:
+                    - name: GetInterfaceFromGlobal 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-getinterfacefromglobal
+                    - name: RegisterInterfaceInGlobal 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-registerinterfaceinglobal
+                    - name: RevokeInterfaceFromGlobal 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iglobalinterfacetable-revokeinterfacefromglobal
+                - name: IGlobalOptions
+                  href: /windows/desktop/api/objidl/nn-objidl-iglobaloptions
+                  items:
+                    - name: 查詢方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iglobaloptions-query
+                    - name: Set 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iglobaloptions-set
+                - name: IInitializeSpy
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iinitializespy
+                  items:
+                    - name: PostInitialize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iinitializespy-postinitialize
+                    - name: PostUninitialize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iinitializespy-postuninitialize
+                    - name: 將方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iinitializespy-preinitialize
+                    - name: PreUninitialize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iinitializespy-preuninitialize
+                - name: IInternalUnknown
+                  href: /windows/desktop/api/objidl/nn-objidl-iinternalunknown
+                  items:
+                    - name: QueryInternalInterface 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iinternalunknown-queryinternalinterface
+                - name: ILog
+                  href: /windows/desktop/api/Txlogpub/nn-txlogpub-ilog
+                  items:
+                    - name: AppendRecord 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-appendrecord
+                    - name: Force 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-force
+                    - name: GetLogLimits 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-getloglimits
+                    - name: ReadRecord 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-readrecord
+                    - name: ReadRecordPrefix 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-readrecordprefix
+                    - name: SetAccessPolicyHint 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-setaccesspolicyhint
+                    - name: TruncatePrefix 方法
+                      href: /windows/desktop/api/Txlogpub/nf-txlogpub-ilog-truncateprefix
+                - name: IMalloc
+                  href: /windows/desktop/api/objidl/nn-objidl-imalloc
+                  items:
+                    - name: Alloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imalloc-alloc
+                    - name: DidAlloc 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imalloc-didalloc
+                    - name: Free 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imalloc-free
+                    - name: GetSize 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imalloc-getsize
+                    - name: HeapMinimize 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imalloc-heapminimize
+                    - name: Realloc 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imalloc-realloc
+                - name: IMallocSpy
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-imallocspy
+                  items:
+                    - name: PostAlloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postalloc
+                    - name: PostDidAlloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postdidalloc
+                    - name: PostFree 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postfree
+                    - name: PostGetSize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postgetsize
+                    - name: PostHeapMinimize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postheapminimize
+                    - name: PostRealloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-postrealloc
+                    - name: PreAlloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-prealloc
+                    - name: PreDidAlloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-predidalloc
+                    - name: PreFree 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-prefree
+                    - name: PreGetSize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-pregetsize
+                    - name: PreHeapMinimize 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-preheapminimize
+                    - name: PreRealloc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imallocspy-prerealloc
+                - name: IMarshal
+                  href: /windows/desktop/api/objidl/nn-objidl-imarshal
+                  items:
+                    - name: DisconnectObject 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imarshal-disconnectobject
+                    - name: GetMarshalSizeMax 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imarshal-getmarshalsizemax
+                    - name: GetUnmarshalClass 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imarshal-getunmarshalclass
+                    - name: MarshalInterface 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imarshal-marshalinterface
+                    - name: ReleaseMarshalData 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imarshal-releasemarshaldata
+                    - name: UnmarshalInterface 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imarshal-unmarshalinterface
+                - name: IMarshalingStream
+                  href: /windows/desktop/api/objidl/nn-objidl-imarshalingstream
+                  items:
+                    - name: GetMarshalingCoNtextAttribute 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imarshalingstream-getmarshalingcontextattribute
+                - name: IMessageDispatcher
+                  href: /windows/desktop/api/imessagedispatcher/nn-imessagedispatcher-imessagedispatcher
+                  items:
+                    - name: PumpMessages 方法
+                      href: /windows/desktop/api/imessagedispatcher/nf-imessagedispatcher-imessagedispatcher-pumpmessages
+                - name: Imessagefilter.prefiltermessage
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-imessagefilter
+                  items:
+                    - name: HandleInComingCall 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imessagefilter-handleincomingcall
+                    - name: MessagePending 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imessagefilter-messagepending
+                    - name: RetryRejectedCall 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imessagefilter-retryrejectedcall
+                - name: IMoniker
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-imoniker
+                  items:
+                    - name: BindToObject 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtoobject
+                    - name: BindToStorage 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage
+                    - name: CommonPrefixWith 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-commonprefixwith
+                    - name: ComposeWith 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-composewith
+                    - name: Enum 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-enum
+                    - name: GetDisplayName 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-getdisplayname
+                    - name: GetTimeOfLastChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-gettimeoflastchange
+                    - name: Hash 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-hash
+                    - name: 反向方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-inverse
+                    - name: IsEqual 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-isequal
+                    - name: IsRunning 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-isrunning
+                    - name: IsSystemMoniker 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-issystemmoniker
+                    - name: ParseDisplayName 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-parsedisplayname
+                    - name: 縮減方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-reduce
+                    - name: RelativePathTo 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-imoniker-relativepathto
+                - name: IMultiQI
+                  href: /windows/desktop/api/objidl/nn-objidl-imultiqi
+                  items:
+                    - name: QueryMultipleInterfaces 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-imultiqi-querymultipleinterfaces
+                - name: INoMarshal
+                  href: /windows/desktop/api/objidl/nn-objidl-inomarshal
+                - name: IObjCoNtext
+                  href: /windows/desktop/api/objidl/nn-objidl-iobjcontext
+                - name: IOleItemContainer
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleitemcontainer
+                  items:
+                    - name: GetObject 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleitemcontainer-getobject
+                    - name: GetObjectStorage 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleitemcontainer-getobjectstorage
+                    - name: IsRunning 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleitemcontainer-isrunning
+                - name: IOrpcDebugNotify
+                  href: iorpcdebugnotify.md
+                  items:
+                    - name: ClientGetBufferSize 方法
+                      href: iorpcdebugnotify-clientgetbuffersize.md
+                    - name: ClientFillBuffer 方法
+                      href: iorpcdebugnotify-clientfillbuffer.md
+                    - name: ClientNotify 方法
+                      href: iorpcdebugnotify-clientnotify.md
+                    - name: ServerNotify 方法
+                      href: iorpcdebugnotify-servernotify.md
+                    - name: ServerGetBufferSize 方法
+                      href: iorpcdebugnotify-servergetbuffersize.md
+                    - name: ServerFillBuffer 方法
+                      href: iorpcdebugnotify-serverfillbuffer.md
+                - name: IParseDisplayName
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iparsedisplayname
+                  items:
+                    - name: ParseDisplayName 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iparsedisplayname-parsedisplayname
+                - name: IPersist
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ipersist
+                  items:
+                    - name: GetClassID 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersist-getclassid
+                - name: IPersistFile
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ipersistfile
+                  items:
+                    - name: GetCurFile 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersistfile-getcurfile
+                    - name: IsDirty 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersistfile-isdirty
+                    - name: 載入方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersistfile-load
+                    - name: Save 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersistfile-save
+                    - name: SaveCompleted 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersistfile-savecompleted
+                - name: IPersistStorage
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage
+                  items:
+                    - name: HandsOffStorage 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-handsoffstorage
+                    - name: InitNew 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-initnew
+                    - name: IsDirty 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-isdirty
+                    - name: 載入方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-load
+                    - name: Save 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-save
+                    - name: SaveCompleted 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststorage-savecompleted
+                - name: IPersistStream
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ipersiststream
+                  items:
+                    - name: GetSizeMax 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax
+                    - name: IsDirty 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-isdirty
+                    - name: 載入方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-load
+                    - name: Save 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-save
+                - name: IPersistStreamInit
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipersiststreaminit
+                  items:
+                    - name: GetSizeMax 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax
+                    - name: InitNew 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-initnew
+                    - name: IsDirty 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-isdirty
+                    - name: 載入方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-load
+                    - name: Save 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-save
+                - name: IPipeByte
+                  href: /windows/desktop/api/objidl/nn-objidl-ipipebyte
+                  items:
+                    - name: Pull 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipebyte-pull
+                    - name: Push 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipebyte-push
+                - name: IPipeDouble
+                  href: /windows/desktop/api/objidl/nn-objidl-ipipedouble
+                  items:
+                    - name: Pull 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipedouble-pull
+                    - name: Push 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipedouble-push
+                - name: IPipeLong
+                  href: /windows/desktop/api/objidl/nn-objidl-ipipelong
+                  items:
+                    - name: Pull 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipelong-pull
+                    - name: Push 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipipelong-push
+                - name: IProcessInitControl
+                  href: /windows/desktop/api/objidl/nn-objidl-iprocessinitcontrol
+                  items:
+                    - name: ResetInitializerTimeout 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iprocessinitcontrol-resetinitializertimeout
+                - name: IProcessLock
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iprocesslock
+                  items:
+                    - name: AddRefOnProcess 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iprocesslock-addrefonprocess
+                    - name: ReleaseRefOnProcess 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iprocesslock-releaserefonprocess
+                - name: IProgressNotify
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iprogressnotify
+                  items:
+                    - name: OnProgress 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iprogressnotify-onprogress
+                - name: IProvideClassInfo
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iprovideclassinfo
+                  items:
+                    - name: GetClassInfo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iprovideclassinfo-getclassinfo
+                - name: Iprovideclassinfo2.getguid
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iprovideclassinfo2
+                  items:
+                    - name: GetGUID 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iprovideclassinfo2-getguid
+                - name: IProvideMultipleClassInfo
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iprovidemultipleclassinfo
+                  items:
+                    - name: GetInfoOfIndex 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iprovidemultipleclassinfo-getinfoofindex
+                    - name: GetMultiTypeInfoCount 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iprovidemultipleclassinfo-getmultitypeinfocount
+                - name: IPSFactoryBuffer
+                  href: /windows/desktop/api/objidl/nn-objidl-ipsfactorybuffer
+                  items:
+                    - name: CreateProxy 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createproxy
+                    - name: CreateStub 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-ipsfactorybuffer-createstub
+                - name: IROTData
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-irotdata
+                  items:
+                    - name: GetComparisonData 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irotdata-getcomparisondata
+                - name: IRpcChannelBuffer
+                  href: /windows/desktop/api/objidl/nn-objidl-irpcchannelbuffer
+                  items:
+                    - name: FreeBuffer 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-freebuffer
+                    - name: GetBuffer 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getbuffer
+                    - name: GetDestCtx 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-getdestctx
+                    - name: IsConnected 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-isconnected
+                    - name: SendReceive 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcchannelbuffer-sendreceive
+                - name: IRpcOptions
+                  href: /windows/desktop/api/objidl/nn-objidl-irpcoptions
+                  items:
+                    - name: 查詢方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcoptions-query
+                    - name: Set 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcoptions-set
+                - name: IRpcProxyBuffer
+                  href: /windows/desktop/api/objidl/nn-objidl-irpcproxybuffer
+                  items:
+                    - name: Connect 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-connect
+                    - name: Disconnect 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcproxybuffer-disconnect
+                - name: IRpcStubBuffer
+                  href: /windows/desktop/api/objidl/nn-objidl-irpcstubbuffer
+                  items:
+                    - name: Connect 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-connect
+                    - name: CountRefs 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-countrefs
+                    - name: DebugServerQueryInterface 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverqueryinterface
+                    - name: DebugServerRelease 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-debugserverrelease
+                    - name: Disconnect 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-disconnect
+                    - name: Invoke 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-invoke
+                    - name: IsIIDSupported 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-irpcstubbuffer-isiidsupported
+                - name: IRunnableObject
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-irunnableobject
+                  items:
+                    - name: GetRunningClass 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-getrunningclass
+                    - name: IsRunning 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-isrunning
+                    - name: LockRunning 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-lockrunning
+                    - name: Run 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-run
+                    - name: SetContainedObject 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunnableobject-setcontainedobject
+                - name: IRunningObjectTable
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-irunningobjecttable
+                  items:
+                    - name: EnumRunning 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-enumrunning
+                    - name: GetObject 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-getobject
+                    - name: GetTimeOfLastChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-gettimeoflastchange
+                    - name: IsRunning 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-isrunning
+                    - name: NoteChangeTime 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-notechangetime
+                    - name: Register 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-register
+                    - name: Revoke 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-irunningobjecttable-revoke
+                - name: IServerSecurity
+                  href: /windows/desktop/api/objidl/nn-objidl-iserversecurity
+                  items:
+                    - name: ImpersonateClient 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iserversecurity-impersonateclient
+                    - name: IsImpersonating 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iserversecurity-isimpersonating
+                    - name: QueryBlanket 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iserversecurity-queryblanket
+                    - name: RevertToSelf 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-iserversecurity-reverttoself
+                - name: IStdMarshalInfo
+                  href: /windows/desktop/api/objidl/nn-objidl-istdmarshalinfo
+                  items:
+                    - name: GetClassForHandler 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-istdmarshalinfo-getclassforhandler
+                - name: ISurrogate
+                  href: /windows/desktop/api/objidl/nn-objidl-isurrogate
+                  items:
+                    - name: FreeSurrogate 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isurrogate-freesurrogate
+                    - name: LoadDllServer 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isurrogate-loaddllserver
+                - name: ISurrogateService
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-isurrogateservice
+                  items:
+                    - name: ApplicationFree 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-applicationfree
+                    - name: ApplicationLaunch 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-applicationlaunch
+                    - name: CatalogRefresh 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-catalogrefresh
+                    - name: Init 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-init
+                    - name: ProcessShutdown 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-isurrogateservice-processshutdown
+                - name: ISynchronize
+                  href: /windows/desktop/api/objidl/nn-objidl-isynchronize
+                  items:
+                    - name: Reset 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronize-reset
+                    - name: 信號方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronize-signal
+                    - name: Wait 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronize-wait
+                - name: ISynchronizeContainer
+                  href: /windows/desktop/api/objidl/nn-objidl-isynchronizecontainer
+                  items:
+                    - name: AddSynchronize 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-addsynchronize
+                    - name: WaitMultiple 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronizecontainer-waitmultiple
+                - name: ISynchronizeEvent
+                  href: /windows/desktop/api/objidl/nn-objidl-isynchronizeevent
+                  items:
+                    - name: SetEventHandle 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronizeevent-seteventhandle
+                - name: ISynchronizeHandle
+                  href: /windows/desktop/api/objidl/nn-objidl-isynchronizehandle
+                  items:
+                    - name: GetHandle 方法
+                      href: /windows/desktop/api/objidl/nf-objidl-isynchronizehandle-gethandle
+                - name: IUnknown
+                  href: /windows/desktop/api/Unknwn/nn-unknwn-iunknown
+                  items:
+                    - name: AddRef 方法
+                      href: /windows/desktop/api/unknwn/nf-unknwn-iunknown-addref
+                    - name: QueryInterface 方法
+                      href: /windows/desktop/api/unknwn/nf-unknwn-iunknown-queryinterface(q)
+                    - name: Release 方法
+                      href: /windows/desktop/api/unknwn/nf-unknwn-iunknown-release
+            - name: 巨集
+              href: macros.md
+              items:
+                - name: FAILED
+                  href: /windows/desktop/api/Winerror/nf-winerror-failed
+                - name: HRESULT_CODE
+                  href: /windows/desktop/api/Winerror/nf-winerror-hresult_code
+                - name: HRESULT_FACILITY
+                  href: /windows/desktop/api/Winerror/nf-winerror-hresult_facility
+                - name: HRESULT_FROM_NT
+                  href: /windows/desktop/api/Winerror/nf-winerror-hresult_from_nt
+                - name: HRESULT_FROM_WIN32
+                  href: /windows/desktop/api/Winerror/nf-winerror-hresult_from_win32
+                - name: HRESULT_SEVERITY
+                  href: /windows/desktop/api/Winerror/nf-winerror-hresult_severity
+                - name: IS_ERROR
+                  href: /windows/desktop/api/Winerror/nf-winerror-is_error
+                - name: MAKE_HRESULT
+                  href: /windows/desktop/api/dmerror/nf-dmerror-make_hresult
+                - name: MAKE_SCODE
+                  href: /windows/desktop/api/Winerror/nf-winerror-make_scode
+                - name: OLESTR
+                  href: /windows/desktop/api/wtypesbase/nf-wtypesbase-olestr
+                - name: SCODE_CODE
+                  href: /windows/desktop/api/Winerror/nf-winerror-scode_code
+                - name: SCODE_FACILITY
+                  href: /windows/desktop/api/Winerror/nf-winerror-scode_facility
+                - name: SCODE_SEVERITY
+                  href: /windows/desktop/api/Winerror/nf-winerror-scode_severity
+                - name: 已成功
+                  href: /windows/desktop/api/Winerror/nf-winerror-succeeded
+            - name: 登錄項目
+              href: registry-entries.md
+              items:
+                - name: HKEY_LOCAL_MACHINE_SOFTWARE\Classes
+                  href: hkey-local-machine-software-classes.md
+                  items:
+                    - name: AppID 金鑰
+                      href: appid-key.md
+                      items:
+                        - name: AccessPermission
+                          href: accesspermission.md
+                        - name: ActivateAtStorage
+                          href: activateatstorage.md
+                        - name: AppID
+                          href: appid.md
+                        - name: AppIDFlags
+                          href: appidflags.md
+                        - name: AuthenticationLevel
+                          href: authenticationlevel.md
+                        - name: DllSurrogate
+                          href: dllsurrogate.md
+                        - name: DllSurrogateExecutable
+                          href: dllsurrogateexecutable.md
+                        - name: 端點
+                          href: endpoints.md
+                        - name: LaunchPermission
+                          href: launchpermission.md
+                        - name: LoadUserSettings
+                          href: loadusersettings.md
+                        - name: LocalService
+                          href: localservice.md
+                        - name: PreferredServerBitness
+                          href: preferredserverbitness.md
+                        - name: RemoteServerName
+                          href: remoteservername.md
+                        - name: ROTFlags
+                          href: rotflags.md
+                        - name: RunAs
+                          href: runas.md
+                        - name: ServiceParameters
+                          href: serviceparameters.md
+                        - name: SRPTrustLevel
+                          href: srptrustlevel.md
+                    - name: CLSID 金鑰
+                      href: clsid-key-hklm.md
+                      items:
+                        - name: AppID
+                          href: appid-clsid.md
+                        - name: AutoConvertTo
+                          href: autoconvertto.md
+                        - name: AutoTreatAs
+                          href: autotreatas.md
+                        - name: AuxUserType
+                          href: auxusertype.md
+                        - name: 控制
+                          href: control.md
+                        - name: 轉換
+                          href: conversion.md
+                        - name: DataFormats
+                          href: dataformats.md
+                        - name: DefaultIcon
+                          href: defaulticon.md
+                        - name: InprocHandler
+                          href: inprochandler.md
+                        - name: InprocHandler32
+                          href: inprochandler32.md
+                        - name: InprocServer
+                          href: inprocserver.md
+                        - name: InprocServer32
+                          href: inprocserver32.md
+                        - name: 插入
+                          href: insertable.md
+                        - name: 介面
+                          href: interface.md
+                        - name: LocalServer
+                          href: localserver.md
+                        - name: LocalServer32
+                          href: localserver32.md
+                        - name: MiscStatus
+                          href: miscstatus.md
+                        - name: ProgID
+                          href: progid.md
+                        - name: ToolBoxBitmap32
+                          href: toolboxbitmap32.md
+                        - name: TreatAs
+                          href: treatas.md
+                        - name: 動詞命令
+                          href: verb.md
+                        - name: 版本
+                          href: version.md
+                        - name: VersionIndependentProgID
+                          href: versionindependentprogid.md
+                    - name: <file_extension> 金鑰
+                      href: '-file-extension--key.md'
+                    - name: 密碼類型索引鍵
+                      href: filetype-key.md
+                    - name: 介面金鑰
+                      href: interface-key.md
+                      items:
+                        - name: Typeinterface
+                          href: baseinterface.md
+                        - name: NumMethods
+                          href: nummethods.md
+                        - name: ProxyStubClsid
+                          href: proxystubclsid.md
+                        - name: ProxyStubClsid32
+                          href: proxystubclsid32.md
+                    - name: <ProgID> 關鍵
+                      href: '-progid--key.md'
+                      items:
+                        - name: CLSID
+                          href: clsid.md
+                        - name: 插入
+                          href: insertable-progid.md
+                        - name: 通訊協定
+                          href: protocol.md
+                        - name: 殼層
+                          href: shell.md
+                    - name: <與版本無關的 ProgID> 金鑰
+                      href: '-version-independent-progid--key.md'
+                - name: HKEY_LOCAL_MACHINE_SOFTWARE\Microsoft\Ole
+                  href: hkey-local-machine-software-microsoft-ole.md
+                  items:
+                    - name: ActivationFailureLoggingLevel
+                      href: activationfailurelogginglevel.md
+                    - name: CallFailureLoggingLevel
+                      href: callfailurelogginglevel.md
+                    - name: DCOMSCMRemoteCallFlags
+                      href: dcomscmremotecallflags.md
+                    - name: DefaultAccessPermission
+                      href: defaultaccesspermission.md
+                    - name: DefaultLaunchPermission
+                      href: defaultlaunchpermission.md
+                    - name: DoNotAddAllApplicationPackagesToRestrictions
+                      href: donotaddallapplicationpackagestorestrictions.md
+                    - name: EnableDCOM
+                      href: enabledcom.md
+                    - name: InvalidSecurityDescriptorLoggingLevel
+                      href: invalidsecuritydescriptorlogginglevel.md
+                    - name: LegacyAuthenticationLevel
+                      href: legacyauthenticationlevel.md
+                    - name: LegacyImpersonationLevel
+                      href: legacyimpersonationlevel.md
+                    - name: LegacySecureReferences
+                      href: legacysecurereferences.md
+                    - name: MachineAccessRestriction
+                      href: machineaccessrestriction.md
+                    - name: MachineLaunchRestriction
+                      href: machinelaunchrestriction.md
+                    - name: NONREDIST
+                      href: nonredist.md
+                    - name: SRPActivateAsActivatorChecks
+                      href: srpactivateasactivatorchecks.md
+                    - name: SRPRunningObjectChecks
+                      href: srprunningobjectchecks.md
+                - name: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion
+                  href: hkey-local-machine-software-microsoft-windows-nt-currentversion.md
+                  items:
+                    - name: DebugObjectRPCEnabled
+                      href: debugobjectrpcenabled.md
+                      items:
+                        - name: AeDebug
+                          href: aedebug.md
+                          items:
+                            - name: 自動
+                              href: auto.md
+                            - name: 偵錯工具
+                              href: debugger.md
+            - name: 結構
+              href: structures.md
+              items:
+                - name: ACTRL_ACCESS
+                  href: /windows/desktop/api/AccCtrl/ns-accctrl-actrl_accessa
+                - name: ACTRL_ACCESS_ENTRY
+                  href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entrya
+                - name: ACTRL_ACCESS_ENTRY_LIST
+                  href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_access_entry_lista
+                - name: ACTRL_PROPERTY_ENTRY
+                  href: /windows/win32/api/AccCtrl/ns-accctrl-actrl_property_entrya
+                - name: BIND_OPTS
+                  href: /windows/win32/api/Objidl/ns-objidl-bind_opts
+                - name: BIND_OPTS2
+                  href: /windows/win32/api/Objidl/ns-objidl-bind_opts2~r1
+                - name: BIND_OPTS3
+                  href: /windows/win32/api/Objidl/ns-objidl-bind_opts3~r1
+                - name: CALLFRAME_MARSHALCONTEXT
+                  href: /windows/win32/api/callobj/ns-callobj-callframe_marshalcontext
+                - name: CALLFRAMEINFO
+                  href: /windows/win32/api/callobj/ns-callobj-callframeinfo
+                - name: CALLFRAMEPARAMINFO
+                  href: /windows/win32/api/callobj/ns-callobj-callframeparaminfo
+                - name: CATEGORYINFO
+                  href: /windows/win32/api/Comcat/ns-comcat-categoryinfo
+                - name: COAUTHIDENTITY
+                  href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthidentity
+                - name: COAUTHINFO
+                  href: /windows/win32/api/wtypesbase/ns-wtypesbase-coauthinfo
+                - name: CONNECTDATA
+                  href: /windows/win32/api/Ocidl/ns-ocidl-connectdata
+                - name: COSERVERINFO
+                  href: /windows/desktop/api/objidl/ns-objidl-coserverinfo
+                - name: CSPLATFORM
+                  href: /windows/win32/api/WTypes/ns-wtypes-csplatform
+                - name: INTERFACEINFO
+                  href: /windows/win32/api/Objidl/ns-objidl-interfaceinfo
+                - name: MULTI_QI
+                  href: /windows/desktop/api/objidl/ns-objidl-multi_qi
+                - name: ORPC_DBG_ALL
+                  href: orpc-dbg-all.md
+                - name: ORPC_DBG_BUFFER
+                  href: orpc-dbg-buffer.md
+                - name: ORPC_INIT_ARGS
+                  href: orpc-init-args.md
+                - name: '>QUERYCONTEXT'
+                  href: /windows/win32/api/WTypes/ns-wtypes-querycontext
+                - name: RPCOLEMESSAGE
+                  href: /windows/desktop/api/objidl/ns-objidl-rpcolemessage
+                - name: SOLE_AUTHENTICATION_INFO
+                  href: /windows/desktop/api/objidl/ns-objidl-sole_authentication_info
+                - name: SOLE_AUTHENTICATION_LIST
+                  href: /windows/desktop/api/objidl/ns-objidl-sole_authentication_list
+                - name: SOLE_AUTHENTICATION_SERVICE
+                  href: /windows/desktop/api/objidl/ns-objidl-sole_authentication_service
+                - name: SOleTlsData
+                  href: /previous-versions/windows/desktop/legacy/ms690269(v=vs.85)
+            - name: 函式
+              href: functions.md
+              items:
+                - name: BindMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-bindmoniker
+                - name: CLSIDFromProgID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid
+                - name: CLSIDFromProgIDEx
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogidex
+                - name: CLSIDFromString
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-clsidfromstring
+                - name: CoAddRefServerProcess
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coaddrefserverprocess
+                - name: CoAllowSetForegroundWindow
+                  href: /windows/desktop/api/Objbase/nf-objbase-coallowsetforegroundwindow
+                - name: CoAllowUnmarshalerCLSID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coallowunmarshalerclsid
+                - name: CoCancelCall
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocancelcall
+                - name: CoCopyProxy
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocopyproxy
+                - name: CoCreateFreeThreadedMarshaler
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler
+                - name: CoCreateGuid
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocreateguid
+                - name: CoCreateInstance
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance
+                - name: CoCreateInstanceEx
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstanceex
+                - name: CoCreateInstanceFromApp
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstancefromapp
+                - name: CoDecrementMTAUsage
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-codecrementmtausage
+                - name: CoDisableCallCancellation
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-codisablecallcancellation
+                - name: CoDisconnectCoNtext
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-codisconnectcontext
+                - name: CoDisconnectObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-codisconnectobject
+                - name: CoDosDateTimeToFileTime
+                  href: /windows/desktop/api/Objbase/nf-objbase-codosdatetimetofiletime
+                - name: CoEnableCallCancellation
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coenablecallcancellation
+                - name: CoFileTimeNow
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cofiletimenow
+                - name: CoFileTimeToDosDateTime
+                  href: /windows/desktop/api/Objbase/nf-objbase-cofiletimetodosdatetime
+                - name: CoFreeAllLibraries
+                  href: /windows/desktop/api/Objbase/nf-objbase-cofreealllibraries
+                - name: CoFreeLibrary
+                  href: /windows/desktop/api/Objbase/nf-objbase-cofreelibrary
+                - name: CoFreeUnusedLibraries
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibraries
+                - name: CoFreeUnusedLibrariesEx
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cofreeunusedlibrariesex
+                - name: CoGetApartmentType
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetapartmenttype
+                - name: CoGetCallCoNtext
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext
+                - name: CoGetCallerTID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcallertid
+                - name: CoGetCancelObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcancelobject
+                - name: CoGetClassObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetclassobject
+                - name: CoGetCoNtextToken
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcontexttoken
+                - name: CoGetCurrentLogicalThreadId
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentlogicalthreadid
+                - name: CoGetCurrentProcess
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetcurrentprocess
+                - name: CoGetInstanceFromFile
+                  href: /windows/desktop/api/Objbase/nf-objbase-cogetinstancefromfile
+                - name: CoGetInstanceFromIStorage
+                  href: /windows/desktop/api/Objbase/nf-objbase-cogetinstancefromistorage
+                - name: CoGetInterceptor
+                  href: /windows/desktop/api/Callobj/nf-callobj-cogetinterceptor
+                - name: CoGetInterfaceAndReleaseStream
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetinterfaceandreleasestream
+                - name: CoGetMalloc
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetmalloc
+                - name: CoGetMarshalSizeMax
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetmarshalsizemax
+                - name: CoGetObject
+                  href: /windows/desktop/api/Objbase/nf-objbase-cogetobject
+                - name: CoGetObjectCoNtext
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetobjectcontext
+                - name: CoGetPSClsid
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetpsclsid
+                - name: CoGetStandardMarshal
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetstandardmarshal
+                - name: CoGetStdMarshalEx
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogetstdmarshalex
+                - name: CoGetSystemSecurityPermissions
+                  href: /windows/desktop/api/Objbase/nf-objbase-cogetsystemsecuritypermissions
+                - name: CoGetTreatAsClass
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cogettreatasclass
+                - name: CoHandlePriorityEventsFromMessagePump
+                  href: /windows/desktop/api/messagedispatcherapi/nf-messagedispatcherapi-cohandlepriorityeventsfrommessagepump
+                - name: CoImpersonateClient
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coimpersonateclient
+                - name: CoIncrementMTAUsage
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coincrementmtausage
+                - name: CoInitialize
+                  href: /windows/desktop/api/Objbase/nf-objbase-coinitialize
+                - name: CoInitializeEx
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex
+                - name: CoInitializeSecurity
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity
+                - name: CoInstall
+                  href: /windows/desktop/api/Objbase/nf-objbase-coinstall
+                - name: CoInvalidateRemoteMachineBindings
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coinvalidateremotemachinebindings
+                - name: CoIsHandlerConnected
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coishandlerconnected
+                - name: CoIsOle1Class
+                  href: /windows/desktop/api/Objbase/nf-objbase-coisole1class
+                - name: CoLoadLibrary
+                  href: /windows/desktop/api/Objbase/nf-objbase-coloadlibrary
+                - name: CoLockObjectExternal
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-colockobjectexternal
+                - name: CoMarshalHresult
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-comarshalhresult
+                - name: CoMarshalInterface
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterface
+                - name: CoMarshalInterThreadInterfaceInStream
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-comarshalinterthreadinterfaceinstream
+                - name: CoQueryAuthenticationServices
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coqueryauthenticationservices
+                - name: CoQueryClientBlanket
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coqueryclientblanket
+                - name: CoQueryProxyBlanket
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coqueryproxyblanket
+                - name: CoRegisterActivationFilter
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coregisteractivationfilter
+                - name: CoRegisterChannelHook
+                  href: /windows/desktop/api/objbase/nf-objbase-coregisterchannelhook
+                - name: CoRegisterClassObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coregisterclassobject
+                - name: CoRegisterInitializeSpy
+                  href: /windows/desktop/api/Objbase/nf-objbase-coregisterinitializespy
+                - name: CoRegisterMallocSpy
+                  href: /windows/desktop/api/Objbase/nf-objbase-coregistermallocspy
+                - name: CoRegisterMessageFilter
+                  href: /windows/desktop/api/Objbase/nf-objbase-coregistermessagefilter
+                - name: CoRegisterPSClsid
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coregisterpsclsid
+                - name: CoRegisterSurrogate
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coregistersurrogate
+                - name: CoReleaseMarshalData
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coreleasemarshaldata
+                - name: CoReleaseServerProcess
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coreleaseserverprocess
+                - name: CoResumeClassObjects
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coresumeclassobjects
+                - name: CoRevertToSelf
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coreverttoself
+                - name: CoRevokeClassObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-corevokeclassobject
+                - name: CoRevokeInitializeSpy
+                  href: /windows/desktop/api/Objbase/nf-objbase-corevokeinitializespy
+                - name: CoRevokeMallocSpy
+                  href: /windows/desktop/api/Objbase/nf-objbase-corevokemallocspy
+                - name: CoSetCancelObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cosetcancelobject
+                - name: CoSetMessageDispatcher
+                  href: /windows/desktop/api/messagedispatcherapi/nf-messagedispatcherapi-cosetmessagedispatcher
+                - name: CoSetProxyBlanket
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket
+                - name: CoSuspendClassObjects
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cosuspendclassobjects
+                - name: CoSwitchCallCoNtext
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-coswitchcallcontext
+                - name: CoTaskMemAlloc
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemalloc
+                - name: CoTaskMemFree
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemfree
+                - name: CoTaskMemRealloc
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cotaskmemrealloc
+                - name: CoTestCancel
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cotestcancel
+                - name: CoTreatAsClass
+                  href: /windows/desktop/api/Objbase/nf-objbase-cotreatasclass
+                - name: CoUninitialize
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-couninitialize
+                - name: CoUnmarshalHresult
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-counmarshalhresult
+                - name: CoUnmarshalInterface
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-counmarshalinterface
+                - name: CoWaitForMultipleHandles
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultiplehandles
+                - name: CoWaitForMultipleObjects
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-cowaitformultipleobjects
+                - name: CreateAntiMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createantimoniker
+                - name: CreateAsyncBindCtx
+                  href: /windows/desktop/api/Urlmon/nf-urlmon-createasyncbindctx
+                - name: CreateBindCtx
+                  href: /windows/desktop/api/Objbase/nf-objbase-createbindctx
+                - name: CreateClassMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createclassmoniker
+                - name: CreateFileMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createfilemoniker
+                - name: CreateGenericComposite
+                  href: /windows/desktop/api/Objbase/nf-objbase-creategenericcomposite
+                - name: CreateItemMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createitemmoniker
+                - name: CreateObjrefMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createobjrefmoniker
+                - name: CreatePointerMoniker
+                  href: /windows/desktop/api/Objbase/nf-objbase-createpointermoniker
+                - name: LPFNCANUNLOADNOW
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-dllcanunloadnow
+                - name: DllDebugObjectRPCHook
+                  href: dlldebugobjectrpchook.md
+                - name: DllGetClassObject
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-dllgetclassobject
+                - name: DllRegisterServer
+                  href: /windows/desktop/api/olectl/nf-olectl-dllregisterserver
+                - name: DllUnregisterServer
+                  href: /windows/desktop/api/olectl/nf-olectl-dllunregisterserver
+                - name: GetClassFile
+                  href: /windows/desktop/api/Objbase/nf-objbase-getclassfile
+                - name: GetRunningObjectTable
+                  href: /windows/desktop/api/Objbase/nf-objbase-getrunningobjecttable
+                - name: IIDFromString
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-iidfromstring
+                - name: 初始化
+                  href: /windows/desktop/api/roapi/nf-roapi-initialize
+                - name: IsAccelerator
+                  href: /windows/desktop/api/Ole2/nf-ole2-isaccelerator
+                - name: IsEqualCLSID
+                  href: /windows/desktop/api/GuidDef/nf-guiddef-isequalclsid
+                - name: IsEqualGUID
+                  href: /windows/desktop/api/guiddef/nf-guiddef-isequalguid
+                - name: IsEqualIID
+                  href: /windows/desktop/api/GuidDef/nf-guiddef-isequaliid
+                - name: MkParseDisplayName
+                  href: /windows/desktop/api/Objbase/nf-objbase-mkparsedisplayname
+                - name: MonikerCommonPrefixWith
+                  href: /windows/desktop/api/Objbase/nf-objbase-monikercommonprefixwith
+                - name: MonikerRelativePathTo
+                  href: /windows/desktop/api/Objbase/nf-objbase-monikerrelativepathto
+                - name: OleBuildVersion
+                  href: /windows/desktop/api/Ole2/nf-ole2-olebuildversion
+                - name: OleDoAutoConvert
+                  href: /windows/desktop/api/Ole2/nf-ole2-oledoautoconvert
+                - name: OleGetAutoConvert
+                  href: /windows/desktop/api/Ole2/nf-ole2-olegetautoconvert
+                - name: OleGetIconOfClass
+                  href: /windows/desktop/api/Ole2/nf-ole2-olegeticonofclass
+                - name: OleGetIconOfFile
+                  href: /windows/desktop/api/Ole2/nf-ole2-olegeticonoffile
+                - name: OleIconToCursor
+                  href: /windows/desktop/api/Olectl/nf-olectl-oleicontocursor
+                - name: OleRegGetMiscStatus
+                  href: /windows/desktop/api/Ole2/nf-ole2-olereggetmiscstatus
+                - name: OleRegGetUserType
+                  href: /windows/desktop/api/Ole2/nf-ole2-olereggetusertype
+                - name: OleSetAutoConvert
+                  href: /windows/desktop/api/Ole2/nf-ole2-olesetautoconvert
+                - name: ProgIDFromCLSID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid
+                - name: StringFromCLSID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-stringfromclsid
+                - name: StringFromGUID2
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-stringfromguid2
+                - name: StringFromIID
+                  href: /windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid
+    - name: OLE 和資料傳輸
+      href: ole-and-data-transfer.md
+      items:
+        - name: 指南
+          href: guide-odt.md
+          items:
+            - name: 複合檔案
+              href: compound-documents.md
+              items:
+                - name: 容器和伺服器
+                  href: containers-and-servers.md
+                - name: 連結和內嵌
+                  href: linking-and-embedding.md
+                  items:
+                    - name: 連結化物件
+                      href: linked-objects.md
+                    - name: 内嵌物件
+                      href: embedded-objects.md
+                - name: 物件處理常式
+                  href: object-handlers.md
+                  items:
+                    - name: 預設處理常式和自訂處理常式
+                      href: the-default-handler-and-custom-handlers.md
+                - name: In-Process 伺服器
+                  href: in-process-servers.md
+                  items:
+                    - name: 優點
+                      href: advantages.md
+                    - name: 缺點
+                      href: disadvantages.md
+                - name: 連結的物件和名字
+                  href: linked-objects-and-monikers.md
+                - name: 通知
+                  href: notifications.md
+                  items:
+                    - name: 通知類型
+                      href: types-of-notifications.md
+                    - name: 通知的運作方式
+                      href: how-notifications-work.md
+                - name: 複合檔案介面
+                  href: compound-document-interfaces.md
+                - name: 物件狀態
+                  href: object-states.md
+                  items:
+                    - name: 進入載入的狀態
+                      href: entering-the-loaded-state.md
+                    - name: 正在進入執行狀態
+                      href: entering-the-running-state.md
+                    - name: 進入被動狀態
+                      href: entering-the-passive-state.md
+                - name: 執行 In-Place 啟用
+                  href: implementing-in-place-activation.md
+                - name: 從現有資料建立連結和內嵌物件
+                  href: creating-linked-and-embedded-objects-from-existing-data.md
+                - name: 視圖快取
+                  href: view-caching.md
+            - name: 資料轉送
+              href: data-transfer.md
+              items:
+                - name: 資料傳輸介面
+                  href: data-transfer-interfaces.md
+                - name: 資料格式和傳輸媒體
+                  href: data-formats-and-transfer-media.md
+                  items:
+                    - name: FORMATETC 結構
+                      href: the-formatetc-structure.md
+                    - name: STGMEDIUM 結構
+                      href: the-stgmedium-structure.md
+                - name: 拖放
+                  href: drag-and-drop.md
+                  items:
+                    - name: 拖曳來源責任
+                      href: drag-source-responsibilities.md
+                - name: 資料通知
+                  href: data-notification.md
+        - name: 參考
+          href: reference-odt.md
+          items:
+            - name: 常數
+              href: constants-odt.md
+              items:
+                - name: DROPEFFECT 常數
+                  href: dropeffect-constants.md
+            - name: 列舉
+              href: enumerations-odt.md
+              items:
+                - name: ACTI加值稅EFLAGS
+                  href: /windows/win32/api/OCIdl/ne-ocidl-activateflags
+                - name: ADVF
+                  href: /windows/win32/api/ObjIdl/ne-objidl-advf
+                - name: DATADIR
+                  href: /windows/win32/api/ObjIdl/ne-objidl-datadir
+                - name: DISCARDCACHE
+                  href: /windows/win32/api/OleIdl/ne-oleidl-discardcache
+                - name: DOCMISC
+                  href: /windows/win32/api/DocObj/ne-docobj-docmisc
+                - name: '>DVASPECT'
+                  href: /windows/win32/api/WTypes/ne-wtypes-dvaspect
+                - name: DVASPECT2
+                  href: /windows/win32/api/OCIdl/ne-ocidl-dvaspect2
+                - name: DVASPECTINFOFLAG
+                  href: /windows/win32/api/OCIdl/ne-ocidl-dvaspectinfoflag
+                - name: DVEXTENTMODE
+                  href: /windows/win32/api/OCIdl/ne-ocidl-dvextentmode
+                - name: HITRESULT
+                  href: /windows/win32/api/OCIdl/ne-ocidl-hitresult
+                - name: OLECLOSE
+                  href: /windows/desktop/api/oleidl/ne-oleidl-oleclose
+                - name: OLECMDEXECOPT
+                  href: /windows/desktop/api/DocObj/ne-docobj-olecmdexecopt
+                - name: OLECMDF
+                  href: /windows/desktop/api/DocObj/ne-docobj-olecmdf
+                - name: OLECMDID
+                  href: /windows/desktop/api/DocObj/ne-docobj-olecmdid
+                - name: OLECMDID_WINDOWSTATE_FLAG
+                  href: /windows/desktop/api/DocObj/ne-docobj-olecmdid_windowstate_flag
+                - name: OLECMDTEXTF
+                  href: /windows/desktop/api/DocObj/ne-docobj-olecmdtextf
+                - name: OLECONTF
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olecontf
+                - name: OLEDCFLAGS
+                  href: /windows/win32/api/OCIdl/ne-ocidl-oledcflags
+                - name: OLEGETMONIKER
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olegetmoniker
+                - name: OLELINKBIND
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olelinkbind
+                - name: OLEMISC
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olemisc
+                - name: OLERENDER
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olerender
+                - name: OLEUIPASTEFLAG
+                  href: /windows/win32/api/OleDlg/ne-oledlg-oleuipasteflag
+                - name: OLEUPDATE
+                  href: /windows/desktop/api/oleidl/ne-oleidl-oleupdate
+                - name: OLEVERBATTRIB
+                  href: /windows/win32/api/OleIdl/ne-oleidl-oleverbattrib
+                - name: OLEWHICHMK
+                  href: /windows/win32/api/OleIdl/ne-oleidl-olewhichmk
+                - name: TYMED
+                  href: /windows/win32/api/ObjIdl/ne-objidl-tymed
+                - name: UASFLAGS
+                  href: /windows/win32/api/OCIdl/ne-ocidl-uasflags
+                - name: USERCLASSTYPE
+                  href: /windows/win32/api/OleIdl/ne-oleidl-userclasstype
+                - name: VIEWSTATUS
+                  href: /windows/win32/api/OCIdl/ne-ocidl-viewstatus
+            - name: 函式
+              href: functions-odt.md
+              items:
+                - name: CreateDataAdviseHolder
+                  href: /windows/desktop/api/ole2/nf-ole2-createdataadviseholder
+                - name: CreateDataCache
+                  href: /windows/desktop/api/ObjBase/nf-objbase-createdatacache
+                - name: CreateFormatEnumerator
+                  href: /windows/desktop/api/Urlmon/nf-urlmon-createformatenumerator
+                - name: CreateOleAdviseHolder
+                  href: /windows/desktop/api/Ole2/nf-ole2-createoleadviseholder
+                - name: DoDragDrop
+                  href: /windows/desktop/api/Ole2/nf-ole2-dodragdrop
+                - name: OleCreate
+                  href: /windows/desktop/api/ole/nf-ole-olecreate
+                - name: OleCreateDefaultHandler
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatedefaulthandler
+                - name: OleCreateEmbeddingHelper
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreateembeddinghelper
+                - name: OleCreateEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreateex
+                - name: OleCreateFontIndirect
+                  href: /windows/desktop/api/OleCtl/nf-olectl-olecreatefontindirect
+                - name: OleCreateFromData
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatefromdata
+                - name: OleCreateFromDataEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatefromdataex
+                - name: OleCreateFromFile
+                  href: /windows/desktop/api/ole/nf-ole-olecreatefromfile
+                - name: OleCreateFromFileEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatefromfileex
+                - name: OleCreateLink
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelink
+                - name: OleCreateLinkEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelinkex
+                - name: OleCreateLinkFromData
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelinkfromdata
+                - name: OleCreateLinkFromDataEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelinkfromdataex
+                - name: OleCreateLinkToFile
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelinktofile
+                - name: OleCreateLinkToFileEx
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatelinktofileex
+                - name: OleCreateMenuDescriptor
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatemenudescriptor
+                - name: OleCreatePictureIndirect
+                  href: /windows/desktop/api/OleCtl/nf-olectl-olecreatepictureindirect
+                - name: OleCreateStaticFromData
+                  href: /windows/desktop/api/Ole2/nf-ole2-olecreatestaticfromdata
+                - name: OleDestroyMenuDescriptor
+                  href: /windows/desktop/api/Ole2/nf-ole2-oledestroymenudescriptor
+                - name: OleDraw
+                  href: /windows/desktop/api/ole/nf-ole-oledraw
+                - name: OleDuplicateData
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleduplicatedata
+                - name: OleFlushClipboard
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleflushclipboard
+                - name: OleGetClipboard
+                  href: /windows/desktop/api/Ole2/nf-ole2-olegetclipboard
+                - name: OleGetClipboardWithEnterpriseInfo
+                  href: /windows/desktop/api/Ole2/nf-ole2-olegetclipboardwithenterpriseinfo
+                - name: OleInitialize
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleinitialize
+                - name: OleIsCurrentClipboard
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleiscurrentclipboard
+                - name: OleIsRunning
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleisrunning
+                - name: OleLoad
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleload
+                - name: OleLoadFromStream
+                  href: /windows/desktop/api/ole/nf-ole-oleloadfromstream
+                - name: OleLoadPicture
+                  href: /windows/desktop/api/OleCtl/nf-olectl-oleloadpicture
+                - name: OleLoadPictureEx
+                  href: /windows/desktop/api/OleCtl/nf-olectl-oleloadpictureex
+                - name: OleLockRunning
+                  href: /windows/desktop/api/Ole2/nf-ole2-olelockrunning
+                - name: OleMetafilePictFromIconAndLabel
+                  href: /windows/desktop/api/Ole2/nf-ole2-olemetafilepictfromiconandlabel
+                - name: OleNoteObjectVisible
+                  href: /windows/desktop/api/Ole2/nf-ole2-olenoteobjectvisible
+                - name: OleQueryCreateFromData
+                  href: /windows/desktop/api/Ole2/nf-ole2-olequerycreatefromdata
+                - name: OleQueryLinkFromData
+                  href: /windows/desktop/api/Ole2/nf-ole2-olequerylinkfromdata
+                - name: OleRegEnumFormatEtc
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleregenumformatetc
+                - name: OleRegEnumVerbs
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleregenumverbs
+                - name: OleRun
+                  href: /windows/desktop/api/Ole2/nf-ole2-olerun
+                - name: OleSave
+                  href: /windows/desktop/api/Ole2/nf-ole2-olesave
+                - name: OleSaveToStream
+                  href: /windows/desktop/api/ole/nf-ole-olesavetostream
+                - name: OleSetClipboard
+                  href: /windows/desktop/api/Ole2/nf-ole2-olesetclipboard
+                - name: OleSetContainedObject
+                  href: /windows/desktop/api/Ole2/nf-ole2-olesetcontainedobject
+                - name: OleSetMenuDescriptor
+                  href: /windows/desktop/api/Ole2/nf-ole2-olesetmenudescriptor
+                - name: OleTranslateAccelerator
+                  href: /windows/desktop/api/Ole2/nf-ole2-oletranslateaccelerator
+                - name: OleUIAddVerbMenu
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuiaddverbmenua
+                - name: OleUIBusy
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuibusya
+                - name: OleUICanConvertOrActivateAs
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuicanconvertoractivateas
+                - name: OleUIChangeIcon
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuichangeicona
+                - name: OleUIChangeSource
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuichangesourcea
+                - name: OleUIConvert
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuiconverta
+                - name: OleUIEditLinks
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuieditlinksa
+                - name: OleUIInsertObject
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuiinsertobjecta
+                - name: OleUIObjectProperties
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuiobjectpropertiesa
+                - name: OleUIPasteSpecial
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuipastespeciala
+                - name: OleUIPromptUser
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuipromptusera
+                - name: OleUIUpdateLinks
+                  href: /windows/desktop/api/OleDlg/nf-oledlg-oleuiupdatelinksa
+                - name: OleUninitialize
+                  href: /windows/desktop/api/Ole2/nf-ole2-oleuninitialize
+                - name: RegisterDragDrop
+                  href: /windows/desktop/api/Ole2/nf-ole2-registerdragdrop
+                - name: ReleaseStgMedium
+                  href: /windows/desktop/api/Ole2/nf-ole2-releasestgmedium
+                - name: RevokeDragDrop
+                  href: /windows/desktop/api/Ole2/nf-ole2-revokedragdrop
+            - name: 介面
+              href: interfaces-odt.md
+              items:
+                - name: IAdviseSink
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iadvisesink
+                  items:
+                    - name: OnClose 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-onclose
+                    - name: OnDataChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-ondatachange
+                    - name: OnRename 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-onrename
+                    - name: OnSave 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-onsave
+                    - name: OnViewChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink-onviewchange
+                - name: IAdviseSink2
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-iadvisesink2
+                  items:
+                    - name: OnLinkSrcChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-iadvisesink2-onlinksrcchange
+                - name: IAdviseSinkEx
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iadvisesinkex
+                  items:
+                    - name: OnViewStatusChange 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iadvisesinkex-onviewstatuschange
+                - name: IDataAdviseHolder
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-idataadviseholder
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataadviseholder-advise
+                    - name: EnumAdvise 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataadviseholder-enumadvise
+                    - name: SendOnDataChange 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataadviseholder-sendondatachange
+                    - name: Unadvise 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataadviseholder-unadvise
+                - name: IDataObject
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-idataobject
+                  items:
+                    - name: DAdvise 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-dadvise
+                    - name: DUnadvise 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-dunadvise
+                    - name: EnumDAdvise 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-enumdadvise
+                    - name: EnumFormatEtc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-enumformatetc
+                    - name: GetCanonicalFormatEtc 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-getcanonicalformatetc
+                    - name: 的一種方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdata
+                    - name: GetDataHere 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-getdatahere
+                    - name: QueryGetData 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-querygetdata
+                    - name: SetData 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-idataobject-setdata
+                - name: IDropSource
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-idropsource
+                  items:
+                    - name: System.windows.dragdrop.givefeedback> 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idropsource-givefeedback
+                    - name: System.windows.dragdrop.querycontinuedrag> 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idropsource-querycontinuedrag
+                - name: IDropSourceNotify
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-idropsourcenotify
+                  items:
+                    - name: DragEnterTarget 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idropsourcenotify-dragentertarget
+                    - name: DragLeaveTarget 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idropsourcenotify-dragleavetarget
+                - name: IDropTarget
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-idroptarget
+                  items:
+                    - name: System.windows.dragdrop.dragenter> 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idroptarget-dragenter
+                    - name: DragLeave 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idroptarget-dragleave
+                    - name: System.windows.dragdrop.dragover> 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idroptarget-dragover
+                    - name: Drop 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-idroptarget-drop
+                - name: IEnterpriseDropTarget
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ienterprisedroptarget
+                  items:
+                    - name: SetDropSourceEnterpriseId 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienterprisedroptarget-setdropsourceenterpriseid
+                    - name: IsEvaluatingEdpPolicy 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienterprisedroptarget-isevaluatingedppolicy
+                - name: IEnumFORMATETC
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ienumformatetc
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumformatetc-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumformatetc-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumformatetc-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumformatetc-skip
+                - name: IEnumMoniker
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ienummoniker
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienummoniker-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienummoniker-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienummoniker-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienummoniker-skip
+                - name: IEnumOleDocumentViews
+                  href: /windows/desktop/api/DocObj/nn-docobj-ienumoledocumentviews
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ienumoledocumentviews-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ienumoledocumentviews-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ienumoledocumentviews-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ienumoledocumentviews-skip
+                - name: IEnumOleUndoUnits
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ienumoleundounits
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ienumoleundounits-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ienumoleundounits-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ienumoleundounits-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ienumoleundounits-skip
+                - name: IEnumOLEVERB
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ienumoleverb
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienumoleverb-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienumoleverb-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienumoleverb-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ienumoleverb-skip
+                - name: IEnumSTATDATA
+                  href: /windows/desktop/api/ObjIdl/nn-objidl-ienumstatdata
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumstatdata-clone
+                    - name: Next 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumstatdata-next
+                    - name: Reset 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumstatdata-reset
+                    - name: Skip 方法
+                      href: /windows/desktop/api/ObjIdl/nf-objidl-ienumstatdata-skip
+                - name: IObjectWithSite
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iobjectwithsite
+                  items:
+                    - name: GetSite 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iobjectwithsite-getsite
+                    - name: SetSite 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iobjectwithsite-setsite
+                - name: IOleAdviseHolder
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleadviseholder
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-advise
+                    - name: EnumAdvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-enumadvise
+                    - name: SendOnClose 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-sendonclose
+                    - name: SendOnRename 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-sendonrename
+                    - name: SendOnSave 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-sendonsave
+                    - name: Unadvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleadviseholder-unadvise
+                - name: IOleCache
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolecache
+                  items:
+                    - name: Cache 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache-cache
+                    - name: EnumCache 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache-enumcache
+                    - name: InitCache 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache-initcache
+                    - name: SetData 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache-setdata
+                    - name: 取消快取方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache-uncache
+                - name: IOleCache2
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolecache2
+                  items:
+                    - name: DiscardCache 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache2-discardcache
+                    - name: UpdateCache 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecache2-updatecache
+                - name: IOleCacheControl
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolecachecontrol
+                  items:
+                    - name: OnRun 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecachecontrol-onrun
+                    - name: OnStop 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecachecontrol-onstop
+                - name: IOleClientSite
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleclientsite
+                  items:
+                    - name: GetContainer 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-getcontainer
+                    - name: GetMoniker 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-getmoniker
+                    - name: OnShowWindow 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-onshowwindow
+                    - name: RequestNewObjectLayout 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-requestnewobjectlayout
+                    - name: SaveObject 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-saveobject
+                    - name: ShowObject 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleclientsite-showobject
+                - name: IOleCommandTarget
+                  href: /windows/desktop/api/DocObj/nn-docobj-iolecommandtarget
+                  items:
+                    - name: Exec 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-iolecommandtarget-exec
+                    - name: QueryStatus 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-iolecommandtarget-querystatus
+                - name: IOleContainer
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolecontainer
+                  items:
+                    - name: EnumObjects 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-enumobjects
+                    - name: LockContainer 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolecontainer-lockcontainer
+                - name: IOleDocument
+                  href: /windows/desktop/api/DocObj/nn-docobj-ioledocument
+                  items:
+                    - name: CreateView 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocument-createview
+                    - name: EnumViews 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocument-enumviews
+                    - name: GetDocMiscStatus 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocument-getdocmiscstatus
+                - name: IOleDocumentSite
+                  href: /windows/desktop/api/DocObj/nn-docobj-ioledocumentsite
+                  items:
+                    - name: ActivateMe 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentsite-activateme
+                - name: IOleDocumentView
+                  href: /windows/desktop/api/DocObj/nn-docobj-ioledocumentview
+                  items:
+                    - name: ApplyViewState 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-applyviewstate
+                    - name: Clone 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-clone
+                    - name: CloseView 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-closeview
+                    - name: GetDocument 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-getdocument
+                    - name: GetInPlaceSite 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-getinplacesite
+                    - name: GetRect 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-getrect
+                    - name: Open 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-open
+                    - name: SaveViewState 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-saveviewstate
+                    - name: SetInPlaceSite 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-setinplacesite
+                    - name: SetRect 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-setrect
+                    - name: SetRectComplex 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-setrectcomplex
+                    - name: Show 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-show
+                    - name: UIActivate 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-ioledocumentview-uiactivate
+                - name: IOleInPlaceActiveObject
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceactiveobject
+                  items:
+                    - name: EnableModeless 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-enablemodeless
+                    - name: OnDocWindowActivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-ondocwindowactivate
+                    - name: OnFrameWindowActivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-onframewindowactivate
+                    - name: ResizeBorder 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-resizeborder
+                    - name: TranslateAccelerator 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceactiveobject-translateaccelerator
+                - name: IOleInPlaceFrame
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceframe
+                  items:
+                    - name: EnableModeless 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-enablemodeless
+                    - name: InsertMenus 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-insertmenus
+                    - name: RemoveMenus 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-removemenus
+                    - name: SetMenu 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-setmenu
+                    - name: SetStatusText 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-setstatustext
+                    - name: TranslateAccelerator 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceframe-translateaccelerator
+                - name: IOleInPlaceObject
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceobject
+                  items:
+                    - name: InPlaceDeactivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceobject-inplacedeactivate
+                    - name: ReactivateAndUndo 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceobject-reactivateandundo
+                    - name: SetObjectRects 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceobject-setobjectrects
+                    - name: UIDeactivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceobject-uideactivate
+                - name: IOleInPlaceObjectWindowless
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleinplaceobjectwindowless
+                  items:
+                    - name: GetDropTarget 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplaceobjectwindowless-getdroptarget
+                    - name: OnWindowMessage 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplaceobjectwindowless-onwindowmessage
+                - name: IOleInPlaceSite
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleinplacesite
+                  items:
+                    - name: CanInPlaceActivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-caninplaceactivate
+                    - name: DeactivateAndUndo 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-deactivateandundo
+                    - name: DiscardUndoState 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-discardundostate
+                    - name: GetWindowCoNtext 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-getwindowcontext
+                    - name: OnInPlaceActivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-oninplaceactivate
+                    - name: OnInPlaceDeactivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-oninplacedeactivate
+                    - name: OnPosRectChange 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-onposrectchange
+                    - name: OnUIActivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-onuiactivate
+                    - name: OnUIDeactivate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-onuideactivate
+                    - name: Scroll 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplacesite-scroll
+                - name: IOleInPlaceSiteEx
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleinplacesiteex
+                  items:
+                    - name: OnInPlaceActivateEx 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesiteex-oninplaceactivateex
+                    - name: OnInPlaceDeactivateEx 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesiteex-oninplacedeactivateex
+                    - name: RequestUIActivate 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesiteex-requestuiactivate
+                - name: IOleInPlaceSiteWindowless
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleinplacesitewindowless
+                  items:
+                    - name: AdjustRect 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-adjustrect
+                    - name: CanWindowlessActivate 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-canwindowlessactivate
+                    - name: GetCapture 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getcapture
+                    - name: GetDC 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getdc
+                    - name: GetFocus 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-getfocus
+                    - name: InvalidateRect 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-invalidaterect
+                    - name: InvalidateRgn 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-invalidatergn
+                    - name: OnDefWindowMessage 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-ondefwindowmessage
+                    - name: ReleaseDC 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-releasedc
+                    - name: ScrollRect 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-scrollrect
+                    - name: SetCapture 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-setcapture
+                    - name: SetFocus 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleinplacesitewindowless-setfocus
+                - name: IOleInPlaceUIWindow
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleinplaceuiwindow
+                  items:
+                    - name: GetBorder 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-getborder
+                    - name: RequestBorderSpace 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-requestborderspace
+                    - name: SetActiveObject 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-setactiveobject
+                    - name: SetBorderSpace 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleinplaceuiwindow-setborderspace
+                - name: IOleLink
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolelink
+                  items:
+                    - name: BindIfRunning 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-bindifrunning
+                    - name: BindToSource 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-bindtosource
+                    - name: GetBoundSource 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-getboundsource
+                    - name: GetSourceDisplayName 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-getsourcedisplayname
+                    - name: GetSourceMoniker 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-getsourcemoniker
+                    - name: GetUpdateOptions 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-getupdateoptions
+                    - name: SetSourceDisplayName 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-setsourcedisplayname
+                    - name: SetSourceMoniker 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-setsourcemoniker
+                    - name: SetUpdateOptions 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-setupdateoptions
+                    - name: UnbindSource 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-unbindsource
+                    - name: Update 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolelink-update
+                - name: IOleObject
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-ioleobject
+                  items:
+                    - name: 建議方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-advise
+                    - name: Close 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-close
+                    - name: DoVerb 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-doverb
+                    - name: EnumAdvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-enumadvise
+                    - name: EnumVerbs 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-enumverbs
+                    - name: GetClientSite 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getclientsite
+                    - name: GetClipboardData 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getclipboarddata
+                    - name: GetExtent 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getextent
+                    - name: GetMiscStatus 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmiscstatus
+                    - name: GetMoniker 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getmoniker
+                    - name: GetUserClassID 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getuserclassid
+                    - name: GetUserType 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-getusertype
+                    - name: InitFromData 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-initfromdata
+                    - name: IsUpToDate 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-isuptodate
+                    - name: SetClientSite 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-setclientsite
+                    - name: SetColorScheme 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-setcolorscheme
+                    - name: SetExtent 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-setextent
+                    - name: SetHostNames 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-sethostnames
+                    - name: SetMoniker 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-setmoniker
+                    - name: Unadvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-unadvise
+                    - name: Update 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-ioleobject-update
+                - name: IOleParentUndoUnit
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleparentundounit
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleparentundounit-add
+                    - name: Close 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleparentundounit-close
+                    - name: FindUnit 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleparentundounit-findunit
+                    - name: GetParentState 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleparentundounit-getparentstate
+                    - name: Open 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleparentundounit-open
+                - name: IOleUILinkContainer
+                  href: /windows/desktop/api/OleDlg/nn-oledlg-ioleuilinkcontainera
+                  items:
+                    - name: CancelLink 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-cancellink
+                    - name: GetLinkSource 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getlinksource
+                    - name: GetLinkUpdateOptions 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getlinkupdateoptions
+                    - name: GetNextLink 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-getnextlink
+                    - name: OpenLinkSource 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-openlinksource
+                    - name: SetLinkSource 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-setlinksource
+                    - name: SetLinkUpdateOptions 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-setlinkupdateoptions
+                    - name: UpdateLink 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkcontainera-updatelink
+                - name: IOleUILinkInfo
+                  href: /windows/desktop/api/OleDlg/nn-oledlg-ioleuilinkinfoa
+                  items:
+                    - name: GetLastUpdate 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuilinkinfoa-getlastupdate
+                - name: IOleUIObjInfo
+                  href: /windows/desktop/api/OleDlg/nn-oledlg-ioleuiobjinfoa
+                  items:
+                    - name: ConvertObject 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuiobjinfoa-convertobject
+                    - name: GetConvertInfo 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getconvertinfo
+                    - name: GetObjectInfo 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getobjectinfo
+                    - name: GetViewInfo 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuiobjinfoa-getviewinfo
+                    - name: SetViewInfo 方法
+                      href: /windows/desktop/api/OleDlg/nf-oledlg-ioleuiobjinfoa-setviewinfo
+                - name: IOleUndoManager
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleundomanager
+                  items:
+                    - name: 新增方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-add
+                    - name: Close 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-close
+                    - name: DiscardFrom 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-discardfrom
+                    - name: Enable 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-enable
+                    - name: EnumRedoable 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-enumredoable
+                    - name: EnumUndoable 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-enumundoable
+                    - name: GetLastRedoDescription 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-getlastredodescription
+                    - name: GetLastUndoDescription 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-getlastundodescription
+                    - name: GetOpenParentState 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-getopenparentstate
+                    - name: Open 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-open
+                    - name: RedoTo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-redoto
+                    - name: UndoTo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundomanager-undoto
+                - name: IOleUndoUnit
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ioleundounit
+                  items:
+                    - name: Do 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundounit-do
+                    - name: GetDescription 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundounit-getdescription
+                    - name: GetUnitType 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundounit-getunittype
+                    - name: OnNextAdd 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ioleundounit-onnextadd
+                - name: IOleWindow
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iolewindow
+                  items:
+                    - name: CoNtextSensitiveHelp 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolewindow-contextsensitivehelp
+                    - name: GetWindow 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iolewindow-getwindow
+                - name: IViewObject
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iviewobject
+                  items:
+                    - name: Draw 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-draw
+                    - name: 凍結方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-freeze
+                    - name: GetAdvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-getadvise
+                    - name: GetColorSet 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-getcolorset
+                    - name: SetAdvise 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-setadvise
+                    - name: 解除凍結方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject-unfreeze
+                - name: IViewObject2
+                  href: /windows/desktop/api/OleIdl/nn-oleidl-iviewobject2
+                  items:
+                    - name: GetExtent 方法
+                      href: /windows/desktop/api/OleIdl/nf-oleidl-iviewobject2-getextent
+                - name: IViewObjectEx
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iviewobjectex
+                  items:
+                    - name: GetNaturalExtent 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iviewobjectex-getnaturalextent
+                    - name: GetRect 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iviewobjectex-getrect
+                    - name: GetViewStatus 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iviewobjectex-getviewstatus
+                    - name: QueryHitPoint 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iviewobjectex-queryhitpoint
+                    - name: QueryHitRect 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iviewobjectex-queryhitrect
+            - name: 結構
+              href: structures-odt.md
+              items:
+                - name: DVASPECTINFO
+                  href: /windows/desktop/api/OCIdl/ns-ocidl-dvaspectinfo
+                - name: DVEXTENTINFO
+                  href: /windows/win32/api/OCIdl/ns-ocidl-dvextentinfo
+                - name: DVTARGETDEVICE
+                  href: /windows/win32/api/ObjIdl/ns-objidl-dvtargetdevice
+                - name: FORMATETC
+                  href: /windows/win32/api/ObjIdl/ns-objidl-formatetc
+                - name: OBJECTDESCRIPTOR
+                  href: /windows/win32/api/OleIdl/ns-oleidl-objectdescriptor
+                - name: OLECMD
+                  href: /windows/desktop/api/DocObj/ns-docobj-olecmd
+                - name: OLECMDTEXT
+                  href: /windows/desktop/api/DocObj/ns-docobj-olecmdtext
+                - name: OLEINPLACEFRAMEINFO
+                  href: /windows/win32/api/OleIdl/ns-oleidl-oleinplaceframeinfo
+                - name: OLEMENUGROUPWIDTHS
+                  href: /windows/win32/api/OleIdl/ns-oleidl-olemenugroupwidths
+                - name: OLEUIBUSY
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuibusya
+                - name: OLEUICHANGEICON
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangeicona
+                - name: OLEUICHANGESOURCE
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuichangesourcea
+                - name: OLEUICONVERT
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuiconverta
+                - name: OLEUIEDITLINKS
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuieditlinksa
+                - name: OLEUIGNRLPROPS
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuignrlpropsa
+                - name: OLEUIINSERTOBJECT
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuiinsertobjecta
+                - name: OLEUILINKPROPS
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuilinkpropsa
+                - name: OLEUIOBJECTPROPS
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuiobjectpropsa
+                - name: OLEUIPASTEENTRY
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuipasteentrya
+                - name: OLEUIPASTESPECIAL
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuipastespeciala
+                - name: OLEUIVIEWPROPS
+                  href: /windows/win32/api/OleDlg/ns-oledlg-oleuiviewpropsa
+                - name: OLEVERB
+                  href: /windows/win32/api/OleIdl/ns-oleidl-oleverb
+                - name: POINTF
+                  href: /windows/win32/api/OCIdl/ns-ocidl-pointf
+                - name: STATDATA
+                  href: /windows/win32/api/ObjIdl/ns-objidl-statdata
+                - name: STGMEDIUM
+                  href: /windows/win32/api/objidl/ns-objidl-ustgmedium-r1
+    - name: 控制項和屬性頁
+      href: controls-and-property-pages.md
+      items:
+        - name: 指南
+          href: guide-ctrls.md
+          items:
+            - name: ActiveX 控制項
+              href: activex-controls.md
+              items:
+                - name: ActiveX 控制項架構
+                  href: activex-controls-architecture.md
+                - name: ActiveX 控制項介面
+                  href: activex-controls-interfaces.md
+                - name: 屬性和方法
+                  href: properties-and-methods.md
+                  items:
+                    - name: 控制項屬性
+                      href: control-properties.md
+                      items:
+                        - name: 標準屬性
+                          href: standard-properties.md
+                        - name: 標準字型物件
+                          href: standard-font-object.md
+                        - name: 標準圖片物件
+                          href: standard-picture-object.md
+                    - name: 控制項方法
+                      href: control-methods.md
+                - name: 控制項事件
+                  href: control-events.md
+                - name: 視覺標記法
+                  href: visual-representation.md
+                - name: 控制項的鍵盤處理
+                  href: keyboard-handling-for-controls.md
+                - name: 持續性
+                  href: persistence.md
+                - name: 註冊和授權
+                  href: registration-and-licensing.md
+                  items:
+                    - name: ActiveX 控制項登錄資訊
+                      href: activex-controls-registry-information.md
+            - name: 屬性頁和屬性工作表
+              href: property-pages-and-property-sheets.md
+              items:
+                - name: 屬性工作表和屬性頁
+                  href: property-sheets-and-property-pages.md
+                - name: 透過 IPropertyNotifySink 的資料系結
+                  href: data-binding-through-ipropertynotifysink.md
+            - name: ActiveX 控制項和控制項容器指導方針
+              href: activex-control-and-control-container-guidelines.md
+              items:
+                - name: 控制和控制容器指導方針
+                  href: overview-of-control-and-control-container-guidelines.md
+                - name: 控制項
+                  href: controls.md
+                  items:
+                    - name: 控制項的自我註冊
+                      href: self-registration-for-controls.md
+                    - name: 介面的支援代表
+                      href: what-support-for-an-interface-means.md
+                    - name: 持續性介面
+                      href: persistence-interfaces.md
+                    - name: 控制項介面中的選擇性方法
+                      href: optional-methods-in-control-interfaces.md
+                    - name: Class Factory 選項
+                      href: class-factory-options.md
+                    - name: 透過 IDispatch 公開屬性
+                      href: properties.md
+                    - name: 透過 IDispatch 公開方法
+                      href: exposing-methods-through-idispatch.md
+                    - name: 控制項中的事件
+                      href: events-in-controls.md
+                    - name: 屬性頁
+                      href: property-pages.md
+                    - name: 控制項的環境屬性
+                      href: ambient-properties-for-controls.md
+                    - name: 使用容器的功能
+                      href: using-the-container-s-functionality.md
+                - name: 容器
+                  href: containers.md
+                  items:
+                    - name: 必要的介面
+                      href: required-interfaces.md
+                    - name: 選擇性方法
+                      href: optional-methods.md
+                    - name: 其他狀態位支援
+                      href: miscellaneous-status-bits-support.md
+                    - name: 控制項中的鍵盤處理
+                      href: keyboard-handling-in-controls.md
+                    - name: 儲存體介面
+                      href: storage-interfaces.md
+                    - name: 環境屬性
+                      href: ambient-properties.md
+                    - name: 擴充屬性、事件和方法
+                      href: extended-properties--events-and-methods.md
+                    - name: 訊息反映
+                      href: message-reflection.md
+                    - name: 自動裁剪
+                      href: automatic-clipping.md
+                    - name: 在沒有介面時正常降級
+                      href: degrading-gracefully-in-the-absence-of-an-interface.md
+                - name: 元件類別
+                  href: component-categories.md
+                  items:
+                    - name: 元件類別及其運作方式
+                      href: component-categories-and-how-they-work.md
+                    - name: 簡易框架網站內含專案
+                      href: simple-frame-site-containment.md
+                    - name: 簡單資料繫結
+                      href: simple-data-binding.md
+                    - name: Advanced Data Binding
+                      href: advanced-data-binding.md
+                    - name: Visual Basic 私用介面
+                      href: visual-basic-private-interfaces.md
+                      items:
+                        - name: IGetOleObject
+                          href: /windows/desktop/api/VbInterf/nn-vbinterf-igetoleobject
+                          items:
+                            - name: GetOleObject 方法
+                              href: /windows/desktop/api/VbInterf/nf-vbinterf-igetoleobject-getoleobject
+                        - name: IGetVBAObject
+                          href: /windows/desktop/api/VbInterf/nn-vbinterf-igetvbaobject
+                          items:
+                            - name: GetObject 方法
+                              href: /windows/desktop/api/VbInterf/nf-vbinterf-igetvbaobject-getobject
+                        - name: IVBFormat
+                          href: /windows/desktop/api/VbInterf/nn-vbinterf-ivbformat
+                          items:
+                            - name: Format 方法
+                              href: /windows/desktop/api/VbInterf/nf-vbinterf-ivbformat-format
+                        - name: IVBGetControl
+                          href: /windows/desktop/api/VbInterf/nn-vbinterf-ivbgetcontrol
+                          items:
+                            - name: EnumControls 方法
+                              href: /windows/desktop/api/VbInterf/nf-vbinterf-ivbgetcontrol-enumcontrols
+                    - name: Internet-Aware 物件
+                      href: internet-aware-objects.md
+                    - name: 無視窗控制項
+                      href: windowless-controls.md
+                    - name: 分類 DCOM proxy 和存根
+                      href: categorizing-dcom-proxies-and-stubs.md
+                - name: 一般準則
+                  href: general-guidelines.md
+                  items:
+                    - name: 多載 IPropertyNotifySink
+                      href: overloading-ipropertynotifysink.md
+                    - name: Container-Specific 私用介面
+                      href: container-specific-private-interfaces.md
+                    - name: 多執行緒問題
+                      href: multithreaded-issues.md
+                    - name: 事件凍結
+                      href: event-freezing.md
+                    - name: 容器控制項
+                      href: container-controls.md
+                    - name: 控制項中的 WS_GROUP 和 WS_TABSTOP 旗標
+                      href: ws-group-and-ws-tabstop-flags-in-controls.md
+                    - name: 一個 DLL 中的多個控制項
+                      href: multiple-controls-in-one-dll.md
+                    - name: IOleContainer：： EnumObjects 方法
+                      href: the-iolecontainer--enumobjects-method.md
+                    - name: 增強的中繼檔
+                      href: enhanced-metafiles.md
+                    - name: 授權
+                      href: licensing.md
+                    - name: 雙重介面
+                      href: dual-interfaces.md
+                    - name: IPropertyBag 和 IPersistPropertyBag
+                      href: ipropertybag-and-ipersistpropertybag.md
+                - name: 事件座標轉譯
+                  href: event-coordinate-translation.md
+                - name: 標準 DISPID
+                  href: standard-dispids.md
+                - name: 資料繫結
+                  href: databinding.md
+        - name: 參考
+          href: reference-ctrls.md
+          items:
+            - name: 常數
+              href: constants-ctrls.md
+              items:
+                - name: PICTYPE 常數
+                  href: pictype-constants.md
+            - name: 列舉
+              href: enumerations-ctrls.md
+              items:
+                - name: GUIDKIND
+                  href: /windows/win32/api/OCIdl/ne-ocidl-guidkind
+                - name: PICTUREATTRIBUTES
+                  href: /windows/win32/api/OCIdl/ne-ocidl-pictureattributes
+                - name: POINTERINACTIVE
+                  href: /windows/win32/api/OCIdl/ne-ocidl-pointerinactive
+                - name: QACONTAINERFLAGS
+                  href: /windows/win32/api/OCIdl/ne-ocidl-qacontainerflags
+            - name: 函式
+              href: functions-ctrls.md
+              items:
+                - name: OleCreatePropertyFrame
+                  href: /windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframe
+                - name: OleCreatePropertyFrameIndirect
+                  href: /windows/desktop/api/OleCtl/nf-olectl-olecreatepropertyframeindirect
+                - name: OleLoadPicturePath
+                  href: /windows/desktop/api/OleCtl/nf-olectl-oleloadpicturepath
+                - name: OleTranslateColor
+                  href: /windows/desktop/api/OleCtl/nf-olectl-oletranslatecolor
+            - name: 介面
+              href: interfaces-ctrls.md
+              items:
+                - name: '>ifont'
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ifont
+                  items:
+                    - name: AddRefHfont 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-addrefhfont
+                    - name: Clone 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-clone
+                    - name: get_Bold 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_bold
+                    - name: get_Charset 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_charset
+                    - name: get_hFont 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_hfont
+                    - name: get_Italic 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_italic
+                    - name: get_Name 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_name
+                    - name: get_Size 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_size
+                    - name: get_Strikethrough 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_strikethrough
+                    - name: get_Underline 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_underline
+                    - name: get_Weight 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-get_weight
+                    - name: IsEqual 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-isequal
+                    - name: put_Bold 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_bold
+                    - name: put_Charset 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_charset
+                    - name: put_Italic 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_italic
+                    - name: put_Name 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_name
+                    - name: put_Size 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_size
+                    - name: put_Strikethrough 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_strikethrough
+                    - name: put_Underline 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_underline
+                    - name: put_Weight 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-put_weight
+                    - name: QueryTextMetrics 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-querytextmetrics
+                    - name: ReleaseHfont 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-releasehfont
+                    - name: SetHdc 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-sethdc
+                    - name: SetRatio 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ifont-setratio
+                - name: '>ifontdisp'
+                  href: /windows/desktop/api/ocidl/nn-ocidl-ifontdisp
+                - name: IOleControl
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iolecontrol
+                  items:
+                    - name: FreezeEvents 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrol-freezeevents
+                    - name: GetControlInfo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrol-getcontrolinfo
+                    - name: OnAmbientPropertyChange 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrol-onambientpropertychange
+                    - name: OnMnemonic 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrol-onmnemonic
+                - name: '>iolecontrolsite'
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iolecontrolsite
+                  items:
+                    - name: GetExtendedControl 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-getextendedcontrol
+                    - name: LockInPlaceActive 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-lockinplaceactive
+                    - name: OnControlInfoChanged 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-oncontrolinfochanged
+                    - name: OnFocus 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-onfocus
+                    - name: ShowPropertyFrame 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-showpropertyframe
+                    - name: TransformCoords 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-transformcoords
+                    - name: TranslateAccelerator 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iolecontrolsite-translateaccelerator
+                - name: IPerPropertyBrowsing
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iperpropertybrowsing
+                  items:
+                    - name: GetDisplayString 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iperpropertybrowsing-getdisplaystring
+                    - name: GetPredefinedStrings 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iperpropertybrowsing-getpredefinedstrings
+                    - name: GetPredefinedValue 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iperpropertybrowsing-getpredefinedvalue
+                    - name: MapPropertyToPage 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iperpropertybrowsing-mappropertytopage
+                - name: 圖片
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipicture
+                  items:
+                    - name: get_Attributes 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_attributes
+                    - name: get_CurDC 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_curdc
+                    - name: get_Handle 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_handle
+                    - name: get_Height 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_height
+                    - name: get_hPal 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_hpal
+                    - name: get_KeepOriginalFormat 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_keeporiginalformat
+                    - name: get_Type 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_type
+                    - name: get_Width 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-get_width
+                    - name: PictureChanged 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-picturechanged
+                    - name: put_KeepOriginalFormat 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-put_keeporiginalformat
+                    - name: Render 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-render
+                    - name: SaveAsFile 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-saveasfile
+                    - name: SelectPicture 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-selectpicture
+                    - name: set_hPal 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipicture-set_hpal
+                - name: IPictureDisp
+                  href: /windows/desktop/api/ocidl/nn-ocidl-ipicturedisp
+                - name: IPointerInactive
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipointerinactive
+                  items:
+                    - name: GetActivationPolicy 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipointerinactive-getactivationpolicy
+                    - name: OnInactiveMouseMove 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipointerinactive-oninactivemousemove
+                    - name: OnInactiveSetCursor 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipointerinactive-oninactivesetcursor
+                - name: IPrint
+                  href: /windows/desktop/api/DocObj/nn-docobj-iprint
+                  items:
+                    - name: GetPageInfo 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-iprint-getpageinfo
+                    - name: Print 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-iprint-print
+                    - name: SetInitialPageNum 方法
+                      href: /windows/desktop/api/DocObj/nf-docobj-iprint-setinitialpagenum
+                - name: IPropertyNotifySink
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipropertynotifysink
+                  items:
+                    - name: OnChanged 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertynotifysink-onchanged
+                    - name: OnRequestEdit 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertynotifysink-onrequestedit
+                - name: IPropertyPage
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipropertypage
+                  items:
+                    - name: Activate 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-activate
+                    - name: Apply 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-apply
+                    - name: Deactivate 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-deactivate
+                    - name: GetPageInfo 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-getpageinfo
+                    - name: 說明方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-help
+                    - name: IsPageDirty 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-ispagedirty
+                    - name: Move 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-move
+                    - name: SetObjects 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-setobjects
+                    - name: SetPageSite 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-setpagesite
+                    - name: Show 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-show
+                    - name: TranslateAccelerator 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage-translateaccelerator
+                - name: IPropertyPage2
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipropertypage2
+                  items:
+                    - name: EditProperty 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypage2-editproperty
+                - name: IPropertyPageSite
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ipropertypagesite
+                  items:
+                    - name: GetLocaleID 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypagesite-getlocaleid
+                    - name: GetPageContainer 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypagesite-getpagecontainer
+                    - name: OnStatusChange 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypagesite-onstatuschange
+                    - name: TranslateAccelerator 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ipropertypagesite-translateaccelerator
+                - name: IQuickActivate
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-iquickactivate
+                  items:
+                    - name: GetContentExtent 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iquickactivate-getcontentextent
+                    - name: QuickActivate 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iquickactivate-quickactivate
+                    - name: SetContentExtent 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-iquickactivate-setcontentextent
+                - name: ISimpleFrameSite
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-isimpleframesite
+                  items:
+                    - name: PostMessageFilter 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-postmessagefilter
+                    - name: PreMessageFilter 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-isimpleframesite-premessagefilter
+                - name: ISpecifyPropertyPages
+                  href: /windows/desktop/api/OCIdl/nn-ocidl-ispecifypropertypages
+                  items:
+                    - name: GetPages 方法
+                      href: /windows/desktop/api/OCIdl/nf-ocidl-ispecifypropertypages-getpages
+            - name: 結構
+              href: structures-ctrls.md
+              items:
+                - name: CADWORD
+                  href: /windows/win32/api/OCIdl/ns-ocidl-cadword
+                - name: CALPOLESTR
+                  href: /windows/win32/api/OCIdl/ns-ocidl-calpolestr
+                - name: CAUUID
+                  href: /windows/win32/api/OCIdl/ns-ocidl-cauuid
+                - name: CONTROLINFO
+                  href: /windows/win32/api/OCIdl/ns-ocidl-controlinfo
+                - name: FONTDESC
+                  href: /windows/win32/api/Olectl/ns-olectl-fontdesc
+                - name: LICINFO
+                  href: /windows/win32/api/OCIdl/ns-ocidl-licinfo
+                - name: OCPFIPARAMS
+                  href: /windows/win32/api/Olectl/ns-olectl-ocpfiparams
+                - name: PAGERANGE
+                  href: /windows/win32/api/Docobj/ns-docobj-pagerange
+                - name: PAGESET
+                  href: /windows/win32/api/Docobj/ns-docobj-pageset
+                - name: PICTDESC
+                  href: /windows/win32/api/Olectl/ns-olectl-pictdesc
+                - name: PROPPAGEINFO
+                  href: /windows/win32/api/OCIdl/ns-ocidl-proppageinfo
+                - name: QACONTAINER
+                  href: /windows/win32/api/OCIdl/ns-ocidl-qacontainer
+                - name: QACONTROL
+                  href: /windows/win32/api/OCIdl/ns-ocidl-qacontrol
+    - name: COM 語言翻譯
+      href: com-language-translations.md
+      items:
+        - name: 語法差異
+          href: syntax-differences.md
+        - name: 資料類型轉換
+          href: data-type-conversions.md
+        - name: IDL 檔案
+          href: idl-files.md
+        - name: 轉換程式設計語言的 COM 物件語法
+          href: translating-com-object-syntax-for-programming-languages.md
+          items:
+            - name: 類型程式庫檢視器和轉換工具
+              href: type-library-viewers-and-conversion-tools.md
+            - name: 開發人員工具如何使用類型程式庫
+              href: how-developer-tools-use-type-libraries.md
+            - name: 轉換成 c + +
+              href: translating-to-c--.md
+              items:
+                - name: 從 Visual Basic 轉換成 c + +
+                  href: translating-to-c---from-visual-basic.md
+                - name: 從 JAVA 轉換成 c + +
+                  href: translating-to-c---from-java.md
+                - name: 將 ActiveX 控制項新增至 Visual C++ 專案
+                  href: adding-an-activex-control-to-a-visual-c---project.md
+                - name: MIDL 編譯器
+                  href: midl-compiler.md
+                - name: Mktyplib.exe Command-Line 工具
+                  href: mktyplib-command-line-tool.md
+                - name: OLE COM 物件檢視器
+                  href: ole-com-object-viewer.md
+            - name: 翻譯為 Visual Basic
+              href: translating-to-visual-basic.md
+              items:
+                - name: 從 c + + 翻譯為 Visual Basic
+                  href: translating-to-visual-basic-from-c--.md
+                - name: 從 JAVA 轉譯為 Visual Basic
+                  href: translating-to-visual-basic-from-java.md
+                - name: 將元件新增至 Visual Basic 專案
+                  href: adding-a-component-to-a-visual-basic-project.md
+                - name: 加入 Visual Basic 專案的參考
+                  href: adding-a-reference-to-a-visual-basic-project.md
+                - name: Visual Basic 物件瀏覽器
+                  href: visual-basic-object-browser.md
+            - name: 轉換成 JAVA
+              href: translating-to-java.md
+              items:
+                - name: 從 c + + 轉換成 JAVA
+                  href: translating-to-java-from-c--.md
+                - name: 從 Visual Basic 轉換為 JAVA
+                  href: translating-to-java-from-visual-basic.md
+                - name: JActiveX Command-Line 工具
+                  href: jactivex-command-line-tool.md
+                - name: JAVA 類型程式庫嚮導
+                  href: java-type-library-wizard.md
+                - name: JAVATLB Command-Line 工具
+                  href: javatlb-command-line-tool.md
+        - name: 使用 COM 物件編寫腳本
+          href: scripting-with-com-objects.md
+          items:
+            - name: 在網頁中內嵌 COM 物件
+              href: embedding-com-objects-in-web-pages.md
+            - name: 使用 Active Server Pages 中的 COM 物件
+              href: using-com-objects-in-active-server-pages.md
+            - name: 在 Windows Script Host 中使用 COM 物件
+              href: using-com-objects-in-windows-script-host.md
+            - name: 在自訂應用程式中編寫 COM 物件的腳本
+              href: scripting-com-objects-in-custom-applications.md
+            - name: 翻譯為 VBScript
+              href: translating-to-vbscript.md
+              items:
+                - name: 從 JScript 轉換成 VBScript
+                  href: translating-to-vbscript-from-jscript.md
+                - name: 從 JavaScript 轉換成 VBScript
+                  href: translating-to-vbscript-from-javascript.md
+            - name: 翻譯為 JScript
+              href: translating-to-jscript.md
+              items:
+                - name: 從 VBScript 轉換成 JScript
+                  href: translating-to-jscript-from-vbscript.md
+                - name: 從 JavaScript 翻譯為 JScript
+                  href: translating-to-jscript-from-javascript.md
+            - name: 翻譯為 JavaScript
+              href: translating-to-javascript.md
+              items:
+                - name: 從 VBScript 轉換成 JavaScript
+                  href: translating-to-javascript-from-vbscript.md
+                - name: 從 JScript 轉換成 JavaScript
+                  href: translating-to-javascript-from-jscript.md
+    - name: COM 詞彙
+      href: com-glossary.md
