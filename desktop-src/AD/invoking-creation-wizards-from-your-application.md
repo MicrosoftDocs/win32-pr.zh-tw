@@ -1,0 +1,155 @@
+---
+title: 從您的應用程式叫用建立嚮導
+description: 應用程式或元件可以使用 Active Directory 系統管理 MMC 嵌入式管理單元所使用的相同目錄服務物件建立嚮導。這是透過 IDsAdminCreateObj 介面完成的。
+ms.assetid: be4b6101-f795-403b-b93e-960759ac4f14
+ms.tgt_platform: multiple
+keywords:
+- 從您的應用程式 AD 叫用建立嚮導
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: fa523d3b861d1d4a7588455b04c1a9633734253a
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "104462848"
+---
+# <a name="invoking-creation-wizards-from-your-application"></a><span data-ttu-id="f4186-104">從您的應用程式叫用建立嚮導</span><span class="sxs-lookup"><span data-stu-id="f4186-104">Invoking Creation Wizards from Your Application</span></span>
+
+<span data-ttu-id="f4186-105">應用程式或元件可以使用 Active Directory 系統管理 MMC 嵌入式管理單元所使用的相同目錄服務物件建立嚮導。這是透過 [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) 介面完成的。</span><span class="sxs-lookup"><span data-stu-id="f4186-105">An application or component can use the same directory service object creation wizards used by the Active Directory administrative MMC snap-ins. This is accomplished with the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) interface.</span></span>
+
+## <a name="using-the-idsadmincreateobj-interface"></a><span data-ttu-id="f4186-106">使用 IDsAdminCreateObj 介面</span><span class="sxs-lookup"><span data-stu-id="f4186-106">Using the IDsAdminCreateObj Interface</span></span>
+
+<span data-ttu-id="f4186-107">應用程式或元件 (用戶端) 使用 **CLSID \_ DsAdminCreateObj** 類別識別碼呼叫 [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance)來建立 [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj)介面的實例。</span><span class="sxs-lookup"><span data-stu-id="f4186-107">An application or component (client) creates an instance of the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) interface by calling [**CoCreateInstance**](/windows/win32/api/combaseapi/nf-combaseapi-cocreateinstance) with the **CLSID\_DsAdminCreateObj** class identifier.</span></span> <span data-ttu-id="f4186-108">在呼叫 **CoCreateInstance** 之前，必須先呼叫 [**COINITIALIZE**](/windows/win32/api/objbase/nf-objbase-coinitialize)來初始化 COM。</span><span class="sxs-lookup"><span data-stu-id="f4186-108">COM must be initialized by calling [**CoInitialize**](/windows/win32/api/objbase/nf-objbase-coinitialize) before **CoCreateInstance** is called.</span></span>
+
+<span data-ttu-id="f4186-109">然後，用戶端會呼叫 [**IDsAdminCreateObj：： initialize**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize) 來初始化 [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) 物件。</span><span class="sxs-lookup"><span data-stu-id="f4186-109">The client then calls [**IDsAdminCreateObj::Initialize**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-initialize) to initialize the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) object.</span></span> <span data-ttu-id="f4186-110">**IDsAdminCreateObj：： Initialize** 接受 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 介面指標，該指標代表應該在其中建立物件的容器，以及要建立之物件的類別名稱。</span><span class="sxs-lookup"><span data-stu-id="f4186-110">**IDsAdminCreateObj::Initialize** accepts an [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) interface pointer that represents the container that the object should be created in, and the class name of the object to be created.</span></span> <span data-ttu-id="f4186-111">建立使用者物件時，也可以指定將複製到新物件的現有物件。</span><span class="sxs-lookup"><span data-stu-id="f4186-111">When creating user objects, it is also possible to specify an existing object that will be copied to the new object.</span></span>
+
+<span data-ttu-id="f4186-112">當 [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) 物件已初始化時，用戶端會呼叫 [**IDsAdminCreateObj：： CreateModal**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal) 以顯示物件建立嚮導。</span><span class="sxs-lookup"><span data-stu-id="f4186-112">When the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) object has been initialized, the client calls [**IDsAdminCreateObj::CreateModal**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadmincreateobj-createmodal) to display the object creation wizard.</span></span>
+
+<span data-ttu-id="f4186-113">不同于大部分的類別和介面識別碼， **CLSID \_ DsAdminCreateObj** 和 **IID \_ ADsAdminCreateObj** 並未定義于程式庫檔案中。</span><span class="sxs-lookup"><span data-stu-id="f4186-113">Unlike most class and interface identifiers, **CLSID\_DsAdminCreateObj** and **IID\_ADsAdminCreateObj** are not defined in a library file.</span></span> <span data-ttu-id="f4186-114">這表示您必須在應用程式內定義這些識別碼的儲存體。</span><span class="sxs-lookup"><span data-stu-id="f4186-114">This means you must define the storage for these identifiers within your application.</span></span> <span data-ttu-id="f4186-115">若要這樣做，您必須在包含 dsadmin 之前立即包含 initguid 檔案。</span><span class="sxs-lookup"><span data-stu-id="f4186-115">To do this, you must include the file initguid.h immediately before including dsadmin.h.</span></span> <span data-ttu-id="f4186-116">Initguid .h 檔案只能包含在應用程式中。</span><span class="sxs-lookup"><span data-stu-id="f4186-116">The initguid.h file must only be included once in an application.</span></span> <span data-ttu-id="f4186-117">下列程式碼範例顯示如何包含這些檔案。</span><span class="sxs-lookup"><span data-stu-id="f4186-117">The following code example shows how to include these files.</span></span>
+
+
+```C++
+#include <initguid.h>
+#include <dsadmin.h>
+```
+
+
+
+<span data-ttu-id="f4186-118">下列程式碼範例會示範如何建立 [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) 介面，以及如何使用這些介面來啟動使用者物件的物件建立 wizard。</span><span class="sxs-lookup"><span data-stu-id="f4186-118">The following code example shows how the [**IDsAdminCreateObj**](/windows/desktop/api/DSAdmin/nn-dsadmin-idsadmincreateobj) interface can be created and used to start the object creation wizard for a user object.</span></span>
+
+
+```C++
+//  Add activeds.lib to your project
+//  Add adsiid.lib to your project
+
+#include "stdafx.h"
+#include <atlbase.h>
+#include <atlstr.h>
+#include "activeds.h"
+#include <initguid.h> // Only include this in one source file
+#include <dsadmin.h>
+
+//  GetUserContainer() function binds to the user container
+IADsContainer* GetUserContainer(void)
+{
+    IADsContainer *pUsers = NULL;
+    HRESULT hr;
+    IADs *pRoot;
+
+    //  Bind to the rootDSE.
+    hr = ADsGetObject(L"LDAP://rootDSE", IID_IADs, (LPVOID*)&pRoot);
+
+    if(SUCCEEDED(hr))
+    {
+        VARIANT var;
+        VariantInit(&var);
+        CComBSTR sbstr(L"defaultNamingContext");
+
+        //  Get the default naming context (domain) DN.
+        hr = pRoot->Get(sbstr, &var);
+        if(SUCCEEDED(hr) && (VT_BSTR == var.vt))
+        {
+            CStringW sstr(L"LDAP://CN=Users,");
+            sstr += var.bstrVal;
+
+            //  Bind to the User container.
+            hr = ADsGetObject(sstr, IID_IADsContainer, (LPVOID*)&pUsers);
+
+            VariantClear(&var);
+        }
+    }
+
+    return pUsers;
+}
+
+
+//  The LaunchNewUserWizard() function launches the user wizard.
+HRESULT LaunchNewUserWizard(IADs** ppAdsOut)
+{
+    if(NULL == ppAdsOut)
+    {
+        return E_INVALIDARG;
+    }
+
+    HRESULT hr;
+    IDsAdminCreateObj* pCreateObj = NULL;
+
+    hr = ::CoCreateInstance(CLSID_DsAdminCreateObj,
+                            NULL, 
+                            CLSCTX_INPROC_SERVER,
+                            IID_IDsAdminCreateObj,
+                            (void**)&pCreateObj);
+
+    if(SUCCEEDED(hr))
+    {
+        IADsContainer *pContainer;
+
+        pContainer = GetUserContainer();
+
+        if(pContainer)
+        {
+            hr = pCreateObj->Initialize(pContainer, NULL, L"user");
+            if(SUCCEEDED(hr))
+            {
+                HWND    hwndParent;
+
+                hwndParent = GetDesktopWindow();
+
+                hr = pCreateObj->CreateModal(hwndParent, ppAdsOut);
+            }
+
+            pContainer->Release();
+        }
+
+        pCreateObj->Release();
+    }
+
+    return hr;    
+}
+
+//  Entry point to the application
+int main(void)
+{
+    HRESULT hr;
+    IADs *pAds = NULL;
+
+    CoInitialize(NULL);
+
+    hr = LaunchNewUserWizard(&pAds);
+    if((S_OK == hr) && (NULL != pAds))
+    {
+        pAds->Release();
+    }
+
+    CoUninitialize();
+
+    return 0;
+}
+```
+
+
+
+ 
+
+ 
