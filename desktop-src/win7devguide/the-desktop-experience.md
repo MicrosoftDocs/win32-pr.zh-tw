@@ -1,0 +1,75 @@
+---
+title: 桌面體驗
+description: 全新的 Windows 7 desktop 讓您的應用程式實現生命。
+ms.assetid: e706167a-435b-4c32-bb64-87113f368866
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 3476f70c46aecceb365e17dba1803b876fd51e8d
+ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 02/06/2021
+ms.locfileid: "104550058"
+---
+# <a name="the-desktop-experience"></a><span data-ttu-id="40f4b-103">桌面體驗</span><span class="sxs-lookup"><span data-stu-id="40f4b-103">The Desktop Experience</span></span>
+
+<span data-ttu-id="40f4b-104">全新的 Windows 7 desktop 讓您的應用程式實現生命。</span><span class="sxs-lookup"><span data-stu-id="40f4b-104">The new Windows 7 desktop brings your applications to life.</span></span> <span data-ttu-id="40f4b-105">應用程式現在更容易探索、資訊和互動。</span><span class="sxs-lookup"><span data-stu-id="40f4b-105">Applications are now more discoverable, informative, and interactive.</span></span> <span data-ttu-id="40f4b-106">新式和直覺的使用者介面可讓您更輕鬆地使用 Windows 7 進行開發。</span><span class="sxs-lookup"><span data-stu-id="40f4b-106">Modern and intuitive user interfaces are easier to develop with Windows 7.</span></span> <span data-ttu-id="40f4b-107">新的桌面和應用程式體驗包含下列各項：</span><span class="sxs-lookup"><span data-stu-id="40f4b-107">New desktop and application experiences include the following:</span></span>
+
+-   <span data-ttu-id="40f4b-108">增強的工作列引進了互動式縮圖，並可讓應用程式進行最小化的動畫和互動。</span><span class="sxs-lookup"><span data-stu-id="40f4b-108">The enhanced taskbar introduces interactive thumbnails, and enables animation and interaction for minimized applications.</span></span>
+-   <span data-ttu-id="40f4b-109">目的地概念讓使用者只要按一下，就能點擊最常使用的檔案、位置或工作。</span><span class="sxs-lookup"><span data-stu-id="40f4b-109">The Destinations concept lets users jump with one click to the files, locations, or tasks that they use most frequently.</span></span>
+-   <span data-ttu-id="40f4b-110">*功能區* 的新控制項和 api （以 OFFICE 流暢 UI 為基礎）可讓您輕鬆地將 *功能區* 樣式控制項、功能表和資源庫新增至您的應用程式。</span><span class="sxs-lookup"><span data-stu-id="40f4b-110">New controls and APIs for the *Ribbon*, based on the Office Fluent UI, are available for easily adding *Ribbon*-style controls, menus, and galleries to your applications.</span></span>
+-   <span data-ttu-id="40f4b-111">動畫架構可協助您增強自訂動畫。</span><span class="sxs-lookup"><span data-stu-id="40f4b-111">An animation framework helps you enhance custom animations.</span></span>
+
+<span data-ttu-id="40f4b-112">小工具平臺的增強功能可讓應用程式在安裝或首次執行體驗期間安裝隨附的小工具。</span><span class="sxs-lookup"><span data-stu-id="40f4b-112">Enhancements to the gadgets platform enable applications to install companion gadgets during the setup or first-run experience.</span></span>
+
+![顯示 Windows 7 desktop 的螢幕擷取畫面。](images/windows7-6.jpg)
+
+<span data-ttu-id="40f4b-114">全新的 Windows 7 desktop 將應用程式帶入生活</span><span class="sxs-lookup"><span data-stu-id="40f4b-114">The new Windows 7 desktop brings your applications to life</span></span>
+
+## <a name="jump-listsgetting-users-into-your-application-quickly"></a><span data-ttu-id="40f4b-115">跳躍清單-快速讓使用者進入您的應用程式</span><span class="sxs-lookup"><span data-stu-id="40f4b-115">Jump Lists—Getting Users into Your Application Quickly</span></span>
+
+<span data-ttu-id="40f4b-116">跳躍清單可協助使用者進入想要更快的位置。</span><span class="sxs-lookup"><span data-stu-id="40f4b-116">Jump Lists help users get to where they want to go faster.</span></span> <span data-ttu-id="40f4b-117">跳躍清單是在應用程式內開啟的檔案、Url、工作或自訂專案。</span><span class="sxs-lookup"><span data-stu-id="40f4b-117">Jump Lists are files, URLs, tasks, or custom items that open within the application.</span></span> <span data-ttu-id="40f4b-118">[ *開始* ] 功能表和工作列中的新跳躍清單功能表，可讓您只需按一下就能使用一般的目的地和按鍵工作。</span><span class="sxs-lookup"><span data-stu-id="40f4b-118">The new Jump Lists menu in the *Start* menu and taskbar makes common destinations and key tasks available with a single click.</span></span> <span data-ttu-id="40f4b-119">[快捷方式清單] 功能表會根據所使用的頻率和最近使用的專案，自動填入。</span><span class="sxs-lookup"><span data-stu-id="40f4b-119">The Jump Lists menu is automatically populated based on how frequently and how recently items have been used.</span></span> <span data-ttu-id="40f4b-120">開發人員可以根據自己的語義提供自訂跳躍清單。</span><span class="sxs-lookup"><span data-stu-id="40f4b-120">Developers can provide custom Jump Lists based on their own semantics.</span></span> <span data-ttu-id="40f4b-121">應用程式也可以 *定義要* 出現在功能表中的工作，這些是使用者想要直接存取之應用程式的動作，例如撰寫電子郵件。</span><span class="sxs-lookup"><span data-stu-id="40f4b-121">Applications can also define *Tasks* to appear in their menus—these are actions of the application that users want to access directly, such as composing an email.</span></span> <span data-ttu-id="40f4b-122"> (參閱 [工作列擴充](../shell/taskbar-extensions.md) 功能和 [ICustomDestinationList 介面](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist)。 ) </span><span class="sxs-lookup"><span data-stu-id="40f4b-122">(See [Taskbar Extensions](../shell/taskbar-extensions.md) and [ICustomDestinationList Interface](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icustomdestinationlist).)</span></span>
+
+![跳躍清單](images/windows7-7.jpg)
+
+<span data-ttu-id="40f4b-124">跳躍清單可協助使用者取得他們想要更快執行的位置</span><span class="sxs-lookup"><span data-stu-id="40f4b-124">Jump Lists help users get to where they want to go faster</span></span>
+
+## <a name="enhanced-taskbar"></a><span data-ttu-id="40f4b-125">增強的工作列</span><span class="sxs-lookup"><span data-stu-id="40f4b-125">Enhanced Taskbar</span></span>
+
+<span data-ttu-id="40f4b-126">有了 Windows 7 的新工作列之後，應用程式就能以更直覺的方式，為使用者提供更多的資訊。</span><span class="sxs-lookup"><span data-stu-id="40f4b-126">With the new taskbar in Windows 7, applications can provide more information to the user in more intuitive ways.</span></span> <span data-ttu-id="40f4b-127">例如，應用程式可以在其工作列按鈕中顯示進度列，讓使用者可以隨時留意進度，而不需要讓視窗保持可見。</span><span class="sxs-lookup"><span data-stu-id="40f4b-127">For example, applications can show progress bars in their taskbar buttons so that users can stay aware of progress without having to keep the window visible.</span></span> <span data-ttu-id="40f4b-128">這有助於追蹤耗時的作業，例如檔案複製、下載、安裝或媒體燒錄。</span><span class="sxs-lookup"><span data-stu-id="40f4b-128">This is useful for tracking time-consuming operations such as file copying, downloads, installations, or media burning.</span></span> <span data-ttu-id="40f4b-129">圖示重迭可顯示在應用程式工作列按鈕的右下方區域，用來傳達狀態或通知 (例如新的郵件) 。</span><span class="sxs-lookup"><span data-stu-id="40f4b-129">Icon overlays can be displayed on the lower-right area of the application's taskbar button, and are used to communicate status or notifications (such as new mail).</span></span> <span data-ttu-id="40f4b-130">新的縮圖 Api 可讓應用程式針對這些視窗定義子視窗和對應的縮圖影像。</span><span class="sxs-lookup"><span data-stu-id="40f4b-130">New thumbnail APIs enable an application to define child windows and corresponding thumbnail images for those windows.</span></span> <span data-ttu-id="40f4b-131">縮圖工具列提供了控制一般動作的位置，而不需要進行視窗還原，例如媒體的 *播放/停止* 。</span><span class="sxs-lookup"><span data-stu-id="40f4b-131">The thumbnail toolbar provides a place to control common actions without requiring window restoration, such as *Play/Stop* for media.</span></span> <span data-ttu-id="40f4b-132"> (參閱 [工作列擴充](../shell/taskbar-extensions.md) 功能和 [Windows 7：開發人員資源](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples)。 ) </span><span class="sxs-lookup"><span data-stu-id="40f4b-132">(See [Taskbar Extensions](../shell/taskbar-extensions.md) and [Windows 7: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples).)</span></span>
+
+## <a name="gadgets-platform"></a><span data-ttu-id="40f4b-133">小工具平臺</span><span class="sxs-lookup"><span data-stu-id="40f4b-133">Gadgets Platform</span></span>
+
+<span data-ttu-id="40f4b-134">小工具是 Windows Vista 桌面的常用功能，在 Windows 7 中，應用程式更容易安裝小工具。</span><span class="sxs-lookup"><span data-stu-id="40f4b-134">Gadgets are a popular feature of the Windows Vista desktop, and in Windows 7, it is even easier for applications to install gadgets.</span></span> <span data-ttu-id="40f4b-135">在 Windows 7 中，應用程式可以在應用程式安裝期間，以程式設計的方式將小工具新增至 Windows 桌面，或是先執行。</span><span class="sxs-lookup"><span data-stu-id="40f4b-135">In Windows 7, an application can programmatically add a gadget to the Windows desktop during application setup or first run.</span></span> <span data-ttu-id="40f4b-136">這表示應用程式的現成體驗可以包含簡單的核取方塊，例如，在應用程式準備好可供使用的情況下，立即安裝可在桌面上使用的輔助小工具。</span><span class="sxs-lookup"><span data-stu-id="40f4b-136">This means that an application's out-of-the-box experience can include a simple check box, for example, to install a companion gadget that is available on the desktop as soon as the application is ready to be used.</span></span> <span data-ttu-id="40f4b-137"> (請參閱 [小工具平臺簡介](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform)) 。</span><span class="sxs-lookup"><span data-stu-id="40f4b-137">(See [Introduction to the Gadget Platform](/previous-versions/windows/desktop/gadgetplatform/introduction-to-the-gadget-platform).)</span></span>
+
+![windows 小工具](images/windows7-8.jpg)
+
+<span data-ttu-id="40f4b-139">在 Windows 7 中，應用程式更容易安裝小工具</span><span class="sxs-lookup"><span data-stu-id="40f4b-139">In Windows 7, it is even easier for applications to install gadgets</span></span>
+
+## <a name="windows-ribbon"></a><span data-ttu-id="40f4b-140">Windows 功能區</span><span class="sxs-lookup"><span data-stu-id="40f4b-140">Windows Ribbon</span></span>
+
+
+
+<span data-ttu-id="40f4b-141">Windows 功能區控制項可協助開發人員將應用程式最常存取的功能直接公開給使用者，以提升可用性。</span><span class="sxs-lookup"><span data-stu-id="40f4b-141">The Windows Ribbon control helps developers improve usability by exposing your application's most frequently accessed features directly to end-users.</span></span> <span data-ttu-id="40f4b-142">功能區可讓使用者更輕鬆地尋找和使用應用程式功能，因為隱藏了較少的功能，進而提高生產力。</span><span class="sxs-lookup"><span data-stu-id="40f4b-142">The Ribbon makes it easier for end-users to find and use application features because less functionality is hidden, leading to increased productivity.</span></span> <span data-ttu-id="40f4b-143">功能區是設計成在標準 Windows 應用程式中，功能表、工具列、工作窗格和對話方塊的命令展示模型的意圖型替代方案。</span><span class="sxs-lookup"><span data-stu-id="40f4b-143">The Ribbon is designed as an intent-based alternative to the command presentation model of menus, toolbars, task panes, and dialog boxes in standard Windows-based applications.</span></span>
+
+<span data-ttu-id="40f4b-144">功能區控制項包含一組 Win32APIs，可覆寫最上層的功能表列功能，並改為轉譯功能區樣式的命令 UI。</span><span class="sxs-lookup"><span data-stu-id="40f4b-144">The Ribbon controls consist of a set of Win32APIs that override the top-level menu bar functionality and render a ribbon-style command UI instead.</span></span> <span data-ttu-id="40f4b-145">它類似于 2007 Office system 中 *功能區* 的功能和外觀。</span><span class="sxs-lookup"><span data-stu-id="40f4b-145">It is similar in functionality and appearance to the *Ribbon* in the 2007 Office system.</span></span> <span data-ttu-id="40f4b-146">UI 是由數個子控制項所組成，其中包括下列各項：</span><span class="sxs-lookup"><span data-stu-id="40f4b-146">The UI is composed of several sub-controls that include the following:</span></span>
+
+-   <span data-ttu-id="40f4b-147">應用程式按鈕 (或 pearl) </span><span class="sxs-lookup"><span data-stu-id="40f4b-147">Application button (or pearl)</span></span>
+-   <span data-ttu-id="40f4b-148">快速存取工具列</span><span class="sxs-lookup"><span data-stu-id="40f4b-148">Quick-access toolbar</span></span>
+-   <span data-ttu-id="40f4b-149">內容索引標籤的 *功能區* 控制項</span><span class="sxs-lookup"><span data-stu-id="40f4b-149">*Ribbon* control of contextual tabs</span></span>
+-   <span data-ttu-id="40f4b-150">迷你工具列</span><span class="sxs-lookup"><span data-stu-id="40f4b-150">Mini-toolbars</span></span>
+-   <span data-ttu-id="40f4b-151">樣式庫</span><span class="sxs-lookup"><span data-stu-id="40f4b-151">Style galleries</span></span>
+
+<span data-ttu-id="40f4b-152">範本和標記撰寫可供開發人員用來快速開發和整合功能區功能。</span><span class="sxs-lookup"><span data-stu-id="40f4b-152">Templates and markup authoring are available to developers for rapid development and integration of Ribbon functionality.</span></span> <span data-ttu-id="40f4b-153"> (參閱 [Windows 功能區架構](../windowsribbon/-uiplat-windowsribbon-entry.md) 和 [Windows 功能區架構：開發人員資源](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsRibbon)。 ) </span><span class="sxs-lookup"><span data-stu-id="40f4b-153">(See [Windows Ribbon Framework](../windowsribbon/-uiplat-windowsribbon-entry.md) and [Windows Ribbon Framework: Developer Resources](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsRibbon).)</span></span>
+
+![功能區工具列](images/windows7-9.jpg)
+
+<span data-ttu-id="40f4b-155">功能區控制項可協助開發人員藉由公開應用程式最常存取的功能來改善可用性</span><span class="sxs-lookup"><span data-stu-id="40f4b-155">The Ribbon control helps developers improve usability by exposing your application's most frequently accessed features</span></span>
+
+## <a name="animation"></a><span data-ttu-id="40f4b-156">動畫</span><span class="sxs-lookup"><span data-stu-id="40f4b-156">Animation</span></span>
+
+<span data-ttu-id="40f4b-157">平滑動畫是許多圖形化 UI 應用程式的基礎，而 Windows 7 引進了原生動畫架構來管理動畫的排程和執行。</span><span class="sxs-lookup"><span data-stu-id="40f4b-157">Smooth animations are fundamental to many graphical UI applications, and Windows 7 introduces a native animation framework for managing the scheduling and execution of animations.</span></span> <span data-ttu-id="40f4b-158">動畫 framework 提供實用數學函式的程式庫，可在一段時間內指定行為，也可讓開發人員提供自己的行為函數。</span><span class="sxs-lookup"><span data-stu-id="40f4b-158">The animation framework supplies a library of useful mathematical functions for specifying behavior over time and also lets developers provide their own behavior functions.</span></span> <span data-ttu-id="40f4b-159">當多個動畫嘗試同時處理相同值時，此架構可支援複雜的衝突解決。</span><span class="sxs-lookup"><span data-stu-id="40f4b-159">The framework supports sophisticated resolution of conflicts when multiple animations try to manipulate the same value at the same time.</span></span> <span data-ttu-id="40f4b-160">應用程式可以指定必須先完成一個動畫，才能開始另一個動畫，並可在設定的時間內強制完成。</span><span class="sxs-lookup"><span data-stu-id="40f4b-160">An application can specify that one animation must be completed before another can start and can force completion within a set time.</span></span> <span data-ttu-id="40f4b-161">新的架構也有助於動畫決定適當的持續時間。</span><span class="sxs-lookup"><span data-stu-id="40f4b-161">The new framework also helps animations determine appropriate durations.</span></span> <span data-ttu-id="40f4b-162"> (參閱 [Windows 動畫管理員](../uianimation/-main-portal.md)) 。</span><span class="sxs-lookup"><span data-stu-id="40f4b-162">(See [Windows Animation Manager](../uianimation/-main-portal.md).)</span></span>
+
+ 
+
+ 
