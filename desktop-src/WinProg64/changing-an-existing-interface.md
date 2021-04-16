@@ -1,0 +1,30 @@
+---
+title: 變更現有介面
+description: 盡可能針對您的應用程式執行新的介面，而不是對現有的應用程式進行變更。
+ms.assetid: 29845cf5-445c-403d-b298-d4e07c3536b7
+keywords:
+- 變更現有介面64位 Windows 程式設計
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 51a656ee768dcc2e88725d2cff0ddc5604fd771f
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "104508003"
+---
+# <a name="changing-an-existing-interface"></a><span data-ttu-id="0a950-104">變更現有介面</span><span class="sxs-lookup"><span data-stu-id="0a950-104">Changing an Existing Interface</span></span>
+
+<span data-ttu-id="0a950-105">盡可能針對您的應用程式執行新的介面，而不是對現有的應用程式進行變更。</span><span class="sxs-lookup"><span data-stu-id="0a950-105">Whenever possible, implement a new interface for your application, rather than making changes to an existing one.</span></span> <span data-ttu-id="0a950-106">如果您無法避免變更現有的介面，請只在新的方法中使用新的資料類型。</span><span class="sxs-lookup"><span data-stu-id="0a950-106">If you cannot avoid changing an existing interface, use new data types in new methods only.</span></span> <span data-ttu-id="0a950-107">引進新的資料類型或修改現有的類型是最常見的不相容問題來源。</span><span class="sxs-lookup"><span data-stu-id="0a950-107">Introducing a new data type or modifying an existing type is the most common source of incompatibility problems.</span></span> <span data-ttu-id="0a950-108">RPC 執行時間模型假設接收應用程式知道其所接收的資料類型，因此資料會放在不含一般資料描述的網路上。</span><span class="sxs-lookup"><span data-stu-id="0a950-108">The RPC run-time model assumes that the receiving application knows about the types of data that it receives, so data is put onto the wire without a generic data description.</span></span> <span data-ttu-id="0a950-109">當收件者所預期的資料類型不同于傳送者放置於網路上的資料類型時，存根會引發例外狀況 (或傳輸會以較不正常的方式) 。</span><span class="sxs-lookup"><span data-stu-id="0a950-109">When the recipient expects a different data type than what the sender has put on the wire, the stub raises an exception (or transmission fails in some other less graceful manner).</span></span>
+
+<span data-ttu-id="0a950-110">RPC 介面是由其 UUID 及其主要和次要版本號碼所定義。</span><span class="sxs-lookup"><span data-stu-id="0a950-110">An RPC interface is defined by its UUID and its major and minor version numbers.</span></span> <span data-ttu-id="0a950-111">當您變更現有的介面時，您應該在介面結尾新增方法，並變更次要版本號碼。</span><span class="sxs-lookup"><span data-stu-id="0a950-111">When you change an existing interface, you should add the new methods at the end of the interface and change the minor version number.</span></span> <span data-ttu-id="0a950-112">如果您在其他任何地方新增方法，或對介面進行任何其他變更，您也必須變更主要版本號碼。</span><span class="sxs-lookup"><span data-stu-id="0a950-112">If you add methods anywhere else or make any other changes to the interface, you will also need to change the major version number.</span></span>
+
+<span data-ttu-id="0a950-113">實際上，有時候您無法變更次要版本號碼，因為新的用戶端將無法與舊的伺服器通訊，而且您無法補救伺服器。</span><span class="sxs-lookup"><span data-stu-id="0a950-113">Realistically, there are times when you cannot change even the minor version number, because a new client will not be able to communicate with an old server and you cannot update the server.</span></span> <span data-ttu-id="0a950-114">\_ \_ \_ \_ \_ 當用戶端呼叫的方法超過與伺服器的介面所指定的方法時，rpc 執行時間會引發 PROCNUM 超出範圍的例外狀況。</span><span class="sxs-lookup"><span data-stu-id="0a950-114">The RPC run time raises an exception, RPC\_S\_PROCNUM\_OUT\_OF\_RANGE, when a client calls a method beyond the ones specified for its interface with the server.</span></span> <span data-ttu-id="0a950-115">因應措施是讓版本號碼保持不變，並撰寫用戶端程式代碼以正常方式處理此例外狀況，因為用戶端會降低其效能，例如，或任何適合您應用程式的方式。</span><span class="sxs-lookup"><span data-stu-id="0a950-115">The workaround is to leave the version numbers unchanged and write your client code to handle this exception gracefully—by the client degrading its performance, for example, or by whatever means are appropriate for your application.</span></span>
+
+<span data-ttu-id="0a950-116">在現有方法中變更資料類型的特殊案例有類似的因應措施。</span><span class="sxs-lookup"><span data-stu-id="0a950-116">There is a similar workaround for one special case of changing a data type in an existing method.</span></span> <span data-ttu-id="0a950-117">如果 [**您的等**](/windows/desktop/Midl/union) 位的分支是指標，而且沒有無法辨識之類型的預設分支，您可以加入新的分支，以使用新的資料類型。</span><span class="sxs-lookup"><span data-stu-id="0a950-117">If you have a [**union**](/windows/desktop/Midl/union) whose branches are pointers and that does not have a default branch for unrecognized types, you can add a new branch that uses the new data type.</span></span> <span data-ttu-id="0a950-118">這不會變更資料結構的大小。</span><span class="sxs-lookup"><span data-stu-id="0a950-118">This will not change the size of the data structure.</span></span> <span data-ttu-id="0a950-119">當您的用戶端與新的伺服器交談時，可以使用新的資料類型。</span><span class="sxs-lookup"><span data-stu-id="0a950-119">When your client talks to a new server, it can use the new data type.</span></span> <span data-ttu-id="0a950-120">不過，當您的用戶端與舊伺服器交談時，執行時間會引發例外狀況 RPC \_ S \_ 無效 \_ 標記。</span><span class="sxs-lookup"><span data-stu-id="0a950-120">However, when your client talks to an old server, the run time will raise the exception RPC\_S\_INVALID\_TAG.</span></span> <span data-ttu-id="0a950-121">同樣地，您必須撰寫用戶端程式代碼，以適當地處理此例外狀況。</span><span class="sxs-lookup"><span data-stu-id="0a950-121">Again, you will need to write your client code to handle this exception appropriately.</span></span>
+
+<span data-ttu-id="0a950-122">DCOM 介面是由其 GUID 識別。</span><span class="sxs-lookup"><span data-stu-id="0a950-122">A DCOM interface is identified by its GUID.</span></span> <span data-ttu-id="0a950-123">在 DCOM 中，系統會將介面視為不可變，而且您只能藉由建立繼承自舊介面的新介面來進行變更。</span><span class="sxs-lookup"><span data-stu-id="0a950-123">In DCOM, interfaces are considered immutable and you can make changes only by creating a new interface that inherits from the old one.</span></span> <span data-ttu-id="0a950-124">這些規則可確保用戶端和伺服器保持相容。</span><span class="sxs-lookup"><span data-stu-id="0a950-124">These rules ensure that clients and servers remain compatible.</span></span>
+
+ 
+
+ 
