@@ -1517,7 +1517,7 @@
                   href: windowsvolume.md
             - name: 作業系統屬性值
               href: operating-system-property-values.md
-            - name: 卸載登錄機碼
+            - name: 卸載登錄機碼的屬性
               href: uninstall-registry-key.md
         - name: 摘要資訊串流
           href: summary-information-stream.md
