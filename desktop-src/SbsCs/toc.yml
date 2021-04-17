@@ -1,0 +1,276 @@
+- name: 隔離應用程式和並存組件
+  href: isolated-applications-and-side-by-side-assemblies-portal.md
+  items:
+    - name: 關於隔離應用程式和並存元件
+      href: about-isolated-applications-and-side-by-side-assemblies.md
+      items:
+        - name: 隔離的應用程式
+          href: isolated-applications.md
+        - name: 關於並存元件
+          href: about-side-by-side-assemblies-.md
+        - name: 資訊清單
+          href: manifests.md
+        - name: 關於共用元件
+          href: about-shared-assemblies-.md
+        - name: 關於私用元件
+          href: about-private-assemblies-.md
+        - name: 元件搜尋順序
+          href: assembly-searching-sequence.md
+        - name: 並存元件共用
+          href: side-by-side-assembly-sharing.md
+        - name: 組態
+          href: configuration.md
+          items:
+            - name: 預設組態
+              href: default-configuration.md
+            - name: 發行者設定
+              href: publisher-configuration.md
+            - name: 每個應用程式設定
+              href: per-application-configuration.md
+            - name: Windows XP 上的每個應用程式設定
+              href: per-application-configuration-on-windows-xp.md
+        - name: 啟用內容
+          href: activation-contexts.md
+        - name: 元件版本
+          href: assembly-versions.md
+        - name: Windows 上的 DLL/COM 重新導向
+          href: dll-com-redirection-on-windows.md
+    - name: 使用隔離的應用程式和並存元件
+      href: using-isolated-applications-and-side-by-side-assemblies.md
+      items:
+        - name: 使用並存元件
+          href: using-side-by-side-assemblies.md
+        - name: 安裝並存元件
+          href: installing-side-by-side-assemblies.md
+          items:
+            - name: 將並存元件安裝為私用元件
+              href: installing-side-by-side-assemblies-as-private-assemblies.md
+            - name: 將並存元件安裝為共用元件
+              href: installing-side-by-side-assemblies-as-shared-assemblies.md
+              items:
+                - name: 建立已簽署的檔案和目錄
+                  href: creating-signed-files-and-catalogs.md
+                - name: 組件簽署範例
+                  href: assembly-signing-example.md
+        - name: 在裝載 DLL、副檔名或主控台的應用程式中啟用元件
+          href: enabling-an-assembly-in-an-application-hosting-a-dll-extension-or-control-panel.md
+        - name: 在不含擴充功能的應用程式中啟用元件
+          href: enabling-an-assembly-in-an-application-without-extensions.md
+        - name: 啟用更新的通用控制項、視覺化樣式和主題
+          href: enabling-updated-common-controls-visual-styles-and-themes.md
+        - name: 使用啟用內容 API
+          href: using-the-activation-context-api.md
+          items:
+            - name: 參考計數啟用內容
+              href: reference-counting-activation-contexts.md
+            - name: 搜尋元件
+              href: searching-for-assemblies.md
+            - name: 搜尋元件檔
+              href: searching-for-assembly-files.md
+            - name: 建立並存的 Windows 類別
+              href: creating-side-by-side-windows-classes.md
+            - name: 建立 Registration-Free COM 物件
+              href: creating-registration-free-com-objects.md
+            - name: 使用執行緒、非同步程式和視窗訊息
+              href: using-threads--asynchronous-procedures--and-window-messages.md
+            - name: 指定預設啟用內容
+              href: specifying-a-default-activation-context.md
+            - name: 更新應用程式元件
+              href: updating-application-components.md
+            - name: 呼叫元件
+              href: calling-into-assemblies.md
+            - name: 在元件外部呼叫
+              href: calling-outside-an-assembly.md
+            - name: 使用託管元件的回呼
+              href: using-callbacks-from-hosted-components.md
+            - name: 隔離元件
+              href: isolating-components.md
+        - name: 使用具有多語系消費者介面的元件
+          href: using-assemblies-with-a-multilanguage-user-interface.md
+        - name: 使用並存元件作為資源
+          href: using-side-by-side-assemblies-as-a-resource.md
+        - name: 使用私用元件來修正現有的應用程式
+          href: fixing-an-existing-application-using-a-private-assembly.md
+    - name: 建立並存元件的指導方針
+      href: guidelines-for-creating-side-by-side-assemblies.md
+      items:
+        - name: 您是否應該提供共用元件作為並存元件？
+          href: should-you-provide-a-shared-component-as-a-side-by-side-assembly.md
+        - name: 撰寫並存元件的 DLL
+          href: authoring-a-dll-for-a-side-by-side-assembly.md
+        - name: 撰寫並存元件的狀態儲存體
+          href: authoring-state-storage-for-side-by-side-assemblies.md
+    - name: 並存元件參考
+      href: side-by-side-assemblies-reference.md
+      items:
+        - name: 並存元件 API
+          href: side-by-side-assembly-api.md
+          items:
+            - name: 並存元件列舉
+              href: enumerations.md
+              items:
+                - name: ASM_CMP_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_cmp_flags
+                - name: ASM_DISPLAY_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_display_flags
+                - name: ASM_NAME
+                  href: /windows/win32/api/Winsxs/ne-winsxs-asm_name
+                - name: CREATE_ASM_NAME_OBJ_FLAGS
+                  href: /windows/win32/api/Winsxs/ne-winsxs-create_asm_name_obj_flags
+            - name: 並存元件函數
+              href: side-by-side-assembly-functions.md
+              items:
+                - name: CreateAssemblyCache
+                  href: /windows/desktop/api/Winsxs/nf-winsxs-createassemblycache
+                - name: CreateAssemblyNameObject
+                  href: /windows/desktop/api/Winsxs/nf-winsxs-createassemblynameobject
+            - name: 並存元件介面
+              href: side-by-side-assembly-interfaces.md
+              items:
+                - name: IAssemblyCache
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblycache
+                  items:
+                    - name: CreateAssemblyCacheItem 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-createassemblycacheitem
+                    - name: InstallAssembly 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-installassembly
+                    - name: QueryAssemblyInfo 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-queryassemblyinfo
+                    - name: UninstallAssembly 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycache-uninstallassembly
+                - name: IAssemblyCacheItem
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblycacheitem
+                  items:
+                    - name: Commit 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-commit
+                    - name: CreateStream 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblycacheitem-createstream
+                - name: IAssemblyName
+                  href: /windows/desktop/api/winsxs/nn-winsxs-iassemblyname
+                  items:
+                    - name: Clone 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-clone
+                    - name: Finalize 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-finalize
+                    - name: GetDisplayName 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getdisplayname
+                    - name: GetName 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getname
+                    - name: GetProperty 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-getproperty
+                    - name: IsEqual 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-isequal
+                    - name: SetProperty 方法
+                      href: /windows/desktop/api/winsxs/nf-winsxs-iassemblyname-setproperty
+            - name: 並存元件結構
+              href: structures.md
+              items:
+                - name: ASSEMBLY_INFO
+                  href: /windows/win32/api/Winsxs/ns-winsxs-assembly_info
+                - name: FUSION_INSTALL_REFERENCE
+                  href: /windows/win32/api/winsxs/ns-winsxs-fusion_install_reference
+        - name: '  資訊清單檔案參考'
+          href: manifest-files-reference.md
+          items:
+            - name: 組件資訊清單
+              href: assembly-manifests.md
+            - name: 應用程式資訊清單
+              href: application-manifests.md
+            - name: 應用程式組態檔
+              href: application-configuration-files.md
+            - name: 發行者設定檔
+              href: publisher-configuration-files.md
+            - name: 資訊清單檔案架構
+              href: manifest-file-schema.md
+            - name: 應用程式佈建檔架構
+              href: application-configuration-file-schema.md
+            - name: 發行者設定檔架構
+              href: publisher-configuration-file-schema.md
+        - name: 啟用內容參考
+          href: activation-context-reference.md
+          items:
+            - name: ActivateActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-activateactctx
+            - name: AddRefActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-addrefactctx
+            - name: CreateActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-createactctxa
+            - name: DeactivateActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-deactivateactctx
+            - name: FindActCtxSectionGuid
+              href: /windows/desktop/api/Winbase/nf-winbase-findactctxsectionguid
+            - name: FindActCtxSectionString
+              href: /windows/desktop/api/Winbase/nf-winbase-findactctxsectionstringa
+            - name: GetCurrentActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-getcurrentactctx
+            - name: IsolationAwareCleanup
+              href: /previous-versions/windows/desktop/legacy/aa375204(v=vs.85)
+            - name: QueryActCtxW
+              href: /windows/desktop/api/Winbase/nf-winbase-queryactctxw
+            - name: QueryActCtxSettingsW
+              href: /windows/desktop/api/Winbase/nf-winbase-queryactctxsettingsw
+            - name: ReleaseActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-releaseactctx
+            - name: ZombifyActCtx
+              href: /windows/desktop/api/Winbase/nf-winbase-zombifyactctx
+            - name: ACTI加值稅ION_CONTEXT_ASSEMBLY_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_assembly_detailed_information
+            - name: ACTI加值稅ION_CONTEXT_COMPATIBILITY_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_compatibility_information
+            - name: ACTI加值稅ION_CONTEXT_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_detailed_information
+            - name: ACTI加值稅ION_CONTEXT_QUERY_INDEX
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_query_index
+            - name: ACTCTX
+              href: /windows/win32/api/Winbase/ns-winbase-actctxa
+            - name: ACTCTX_SECTION_KEYED_DATA
+              href: /windows/win32/api/Winbase/ns-winbase-actctx_section_keyed_data
+            - name: ASSEMBLY_FILE_DETAILED_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-assembly_file_detailed_information
+            - name: ACTI加值稅ION_CONTEXT_RUN_LEVEL_INFORMATION
+              href: /windows/win32/api/Winnt/ns-winnt-activation_context_run_level_information
+            - name: COMPATIBILITY_CONTEXT_ELEMENT
+              href: /windows/win32/api/Winnt/ns-winnt-compatibility_context_element
+            - name: ACTCTX_COMPATIBILITY_ELEMENT_TYPE
+              href: /windows/desktop/api/Winnt/ne-winnt-actctx_compatibility_element_type
+            - name: ACTCTX_REQUESTED_RUN_LEVEL
+              href: /windows/desktop/api/Winnt/ne-winnt-actctx_requested_run_level
+        - name: 支援的 Microsoft 並存元件
+          href: supported-microsoft-side-by-side-assemblies.md
+        - name: 並存元件開發工具
+          href: side-by-side-assembly-development-tools.md
+          items:
+            - name: Manifestchk.vbs
+              href: manifestchk-vbs.md
+            - name: Mt.exe
+              href: mt-exe.md
+            - name: Pktextract.exe
+              href: pktextract-exe.md
+        - name: ActCtx 物件
+          href: microsoft-windows-actctx-object.md
+          items:
+            - name: Manifest 屬性
+              href: manifest.md
+            - name: CreateObject 方法
+              href: createobject.md
+            - name: GetObject 方法
+              href: getobject.md
+    - name: 詞彙
+      href: glossary-sbscs.md
+      items:
+        - name: A
+          href: a-sbscs-gly.md
+        - name: D
+          href: d-sbscs-gly.md
+        - name: G
+          href: g-sbscs-gly.md
+        - name: I
+          href: i-sbscs-gly.md
+        - name: M
+          href: m-sbscs-gly.md
+        - name: P
+          href: p-sbscs-gly.md
+        - name: R
+          href: r-sbscs-gly.md
+        - name: S
+          href: s-sbscs-gly.md
