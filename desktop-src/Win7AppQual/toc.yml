@@ -1,0 +1,181 @@
+- name: Windows 7 和 Windows Server 2008 R2 應用程式品質操作手冊
+  href: windows-7-application-quality-cookbook.md
+  items:
+    - name: 相容性
+      href: compatibility.md
+      items:
+        - name: 一般相容性
+          href: general-compatibility.md
+          items:
+            - name: 512 位元組模擬 (512e) 磁碟相容性更新
+              href: 512-byte-emulation--512e--disk-compatibility-update.md
+            - name: 作業系統版本控制
+              href: operating-system-versioning.md
+            - name: 移除 Windows Mail
+              href: removal-of-windows-mail.md
+            - name: 移除 Windows Movie Maker
+              href: removal-of-windows-movie-maker.md
+            - name: NLS 排序變更
+              href: nls-sorting-changes.md
+            - name: Internet Explorer 8-使用者代理程式字串
+              href: internet-explorer-8---user-agent-string.md
+            - name: 登錄機碼上的額外 Windows 資源保護
+              href: additional-windows-resource-protection-on-registry-keys.md
+            - name: 移除 Microsoft 代理程式
+              href: removal-of-microsoft-agent.md
+            - name: 搭配使用 .NET Framework 4 與舊版的應用程式
+              href: using--net-framework-4-with-applications-built-on-earlier-versions.md
+            - name: Windows 7 和 Windows Server 2008 R2 中的 AppInit_DLLs
+              href: appinit-dlls-in-windows-7-and-windows-server-2008-r2.md
+            - name: 移除 Windows 登錄反映
+              href: removal-of-windows-registry-reflection.md
+            - name: 移除 Windows 可攜式裝置的 WPDUSB.SYS 驅動程式
+              href: removal-of-wpdusb-sys-driver-for-windows-portable-devices.md
+            - name: Microsoft Message Queuing (MSMQ) -SHA 2 是預設的雜湊演算法
+              href: microsoft-message-queuing--msmq----sha-2-is-the-default-hash-algorithm.md
+        - name: 在遷移至 Internet Explorer 8 時解決應用程式相容性問題
+          href: addressing-application-compatibility-when-migrating-to-internet-explorer-8.md
+          items:
+            - name: 簡介
+              href: introduction.md
+            - name: 瞭解應用程式相容性挑戰
+              href: understanding-the-application-compatibility-challenge.md
+            - name: Web 標準和應用程式相容性
+              href: web-standards-and-application-compatibility.md
+            - name: 設計影響瀏覽器相容性的更新
+              href: design-updates-that-impact-compatibility-between-browsers.md
+              items:
+                - name: 版本控制
+                  href: versioning.md
+                - name: 標準
+                  href: standards.md
+                - name: 安全性
+                  href: security.md
+                - name: 架構
+                  href: architecture.md
+            - name: 修正 Web 應用程式和 Add-Ons 的相容性問題
+              href: remediating-web-applications-and-add-ons.md
+              items:
+                - name: 使用相容性檢視修正 Web 應用程式中的相容性問題
+                  href: remediating-web-applications-with-compatibility-view.md
+                  items:
+                    - name: 什麼是相容性檢視？
+                      href: what-is-compatibility-view-.md
+                    - name: 為什麼需要相容性檢視？
+                      href: why-do-you-need-compatibility-view-.md
+                    - name: 使用中繼標記以確保未來的相容性
+                      href: use-the-meta-tag-to-ensure-future-compatibility.md
+                - name: 修正標準使用者的 ActiveX 安裝相容性問題
+                  href: remediating-activex-installation-for-standard-users.md
+                - name: 轉譯和版面配置變更
+                  href: rendering-and-layout-changes.md
+                - name: 版本向量
+                  href: version-vectors.md
+                - name: 使用者代理程式字串
+                  href: user-agent-string.md
+                - name: DEP/NX 保護
+                  href: dep-nx-protection.md
+                - name: 相容性
+                  href: remediating-compatibility.md
+                - name: AJAX
+                  href: ajax.md
+                - name: 受保護模式
+                  href: protected-mode.md
+                - name: JavaScript 物件標記法 (JSON)
+                  href: javascript-object-notation--json-.md
+            - name: 用於調試 Web 應用程式和 Add-Ons 的工具
+              href: tools-for-debugging-web-applications-and-add-ons.md
+              items:
+                - name: Microsoft Expression Web SuperPreview
+                  href: microsoft-expression-web-superpreview.md
+                - name: Internet Explorer 相容性測試工具 (IECTT)
+                  href: inernet-explorer-compatibility-test-tool--iectt-.md
+                - name: Internet Explorer 8 開發人員工具
+                  href: internet-explorer-8-developer-tools.md
+                - name: 'Internet Explorer 8 相容性 Wizard (Aggiorno) '
+                  href: inernet-explorer-8-compatibility-wizard--aggiorno-.md
+                - name: Fiddler Web 偵錯工具工具
+                  href: fiddler-web-debugger-tool.md
+                - name: 使用 Virtual PC 映射的應用程式相容性測試
+                  href: application-compatibility-testing-using-virtual-pc-images.md
+            - name: 附錄1： Internet Explorer 6 至 Internet Explorer 8 瀏覽器變更
+              href: appendix-1--internet-explorer-6-to-internet-explorer-8-browser-changes.md
+            - name: 附錄2：測試腳本案例
+              href: appendix-2--test-script-scenarios.md
+        - name: Windows Server 2008 R2 相容性
+          href: windows-server-2008-r2-compatibility.md
+          items:
+            - name: Windows Server 2008 R2 中的檔案複寫服務 (FRS) 已淘汰
+              href: file-replication-service--frs--is-deprecated-in-windows-server-2008-r2.md
+            - name: Microsoft Message Queuing (MSMQ) 移除 Windows 2000 用戶端支援服務
+              href: microsoft-message-queuing--msmq----removal-of-windows-2000-client-support-ser.md
+            - name: 新的 Low-Level 二進位檔
+              href: new-low-level-binaries.md
+            - name: 從伺服器 OS 移除 UDDI 服務
+              href: removal-of-uddi-services-from-server-os.md
+            - name: 僅限64位
+              href: 64-bit-only.md
+            - name: WoW64 現在是 Server Core 的選擇性功能
+              href: wow64-is-now-an-optional-feature-for-server-core.md
+            - name: 現在是在 Server Core 上的 .Net 2.0 子集
+              href: subset-of--net-2-0-now-on-server-core.md
+            - name: .Net 3.0 和3.5 現在在 Server Core 上
+              href: '-net-3-0-and-3-5-now-on-server-core.md'
+    - name: 新功能和增強功能
+      href: new-features-and-enhancements.md
+      items:
+        - name: 檔案庫取代檔資料夾
+          href: file-library-replaces-document-folder.md
+        - name: 使用者介面 - 高 DPI 感知
+          href: user-interface---high-dpi-awareness.md
+        - name: 容錯堆積
+          href: fault-tolerant-heap.md
+        - name: Internet Explorer 8-資料執行防止/NX
+          href: internet-explorer-8---data-execution-protection-nx.md
+        - name: 動態記憶體
+          href: dynamic-memory.md
+        - name: 消費者介面-使用者帳戶控制對話方塊更新
+          href: user-interface---user-account-control-dialog-updates.md
+        - name: ChooseFont () Win32 通用對話方塊
+          href: choosefont-win32-common-dialog.md
+        - name: 應用程式資訊清單
+          href: compatibility---application-manifest.md
+        - name: 伺服器 Hyper-v
+          href: server-hyper-v.md
+        - name: 啟用 Intel AVX 的 Windows 7 支援
+          href: enable-windows-7-support-for-intel-avx.md
+        - name: Microsoft Message Queuing (MSMQ) 改善的佇列處理
+          href: microsoft-message-queuing--msmq----improved-queue-handling.md
+        - name: 遠端桌面服務問題
+          href: terminal-services.md
+    - name: 工具、最佳作法和指導方針
+      href: tools--resources--and-guidance.md
+      items:
+        - name: '應用程式相容性工具組 (ACT) '
+          href: application-compatibility-toolkit--act-.md
+        - name: 相容性系統管理員
+          href: compatibility-administrator.md
+        - name: 標準使用者分析器 (SUA) 工具和標準使用者分析器精靈 (SUA 精靈)
+          href: standard-user-analyzer--sua--tool-and-standard-user-analyzer-wizard--sua-wizard-.md
+        - name: 應用程式驗證器
+          href: application-verifier.md
+        - name: On/Off 效能的最佳作法
+          href: best-practices-for-on-off-performance.md
+        - name: 防止 Windows 應用程式中的記憶體流失
+          href: preventing-memory-leaks-in-windows-applications.md
+        - name: 防止 Windows 應用程式停止回應
+          href: preventing-hangs-in-windows-applications.md
+        - name: 部署映像服務與管理 (DISM)
+          href: dism-replaces-pkgmgr-peimg-and-intlconfg-tools.md
+        - name: Windows 疑難排解
+          href: compatibility---windows-troubleshooting.md
+        - name: Windows 錯誤報告問題步驟收錄程式
+          href: windows-error-reporting-problem-steps-recorder.md
+        - name: 能源效率的最佳作法
+          href: energy-efficiency-best-practices.md
+        - name: 將沒有回應的服務降至最低的最佳作法
+          href: performance-improvement---minimizing-unresponsive-services.md
+        - name: Windows 7 用戶端軟體標誌計畫
+          href: certification-for-windows-7-and-windows-server-2008-r2-applications.md
+        - name: 適用于軟體的 Windows Server 2008 R2 標誌方案
+          href: windows-server-2008-r2-logo-program-for-software.md
