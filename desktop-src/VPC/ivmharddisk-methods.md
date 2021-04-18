@@ -1,0 +1,29 @@
+---
+title: IVMHardDisk 方法
+description: IVMHardDisk 介面會公開下列方法。
+ms.assetid: 92E2EA31-FD4B-4898-9F44-1C0198B5B2B9
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: b7d3c858fdc1fb1e37e29142573f57f070096a30
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106965445"
+---
+# <a name="ivmharddisk-methods"></a>IVMHardDisk 方法
+
+\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+
+[**IVMHardDisk**](ivmharddisk.md)介面會公開下列方法。
+
+## <a name="in-this-section"></a>本節內容
+
+-   [**Compact 方法**](ivmharddisk-compact.md)
+-   [**Convert 方法**](ivmharddisk-convert.md)
+-   [**Merge 方法**](ivmharddisk-merge.md)
+-   [**MergeTo 方法**](ivmharddisk-mergeto.md)
+
+ 
+
+ 
