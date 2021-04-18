@@ -1,0 +1,86 @@
+---
+description: 建立 IAnalysisRegion 的複本。
+ms.assetid: eb94e1ce-7801-409d-9ae6-e7db0a9b861f
+title: 'IAnalysisRegion：： Clone 方法 (IACom .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IAnalysisRegion.Clone
+api_type:
+- COM
+api_location:
+- IACom.dll
+ms.openlocfilehash: fb069ddb461ab4422f8cbbc8990fb6d735808e62
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106971420"
+---
+# <a name="ianalysisregionclone-method"></a>IAnalysisRegion：： Clone 方法
+
+建立 [**IAnalysisRegion**](ianalysisregion.md)的複本。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT Clone(
+  [out] IAnalysisRegion **pClonedRegion
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*pClonedRegion* \[擴展\]
+</dt> <dd>
+
+[**IAnalysisRegion**](ianalysisregion.md)複本的指標。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+如需傳回值的描述，請參閱 [類別和介面-筆跡分析](classes-and-interfaces---ink-analysis.md)。
+
+## <a name="remarks"></a>備註
+
+在 .NET Framework 中，此方法會 eqivalent 至 AnalysisCore. AnalysisRegionBase。
+
+> [!Caution]  
+> 若要避免記憶體流失，請在 pClonedRegion 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （ \* 當您不再需要使用複製的分析區域時）。
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
+| 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
+| DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IAnalysisRegion**](ianalysisregion.md)
+</dt> <dt>
+
+[筆跡分析參考](ink-analysis-reference.md)
+</dt> </dl>
+
+ 
+
