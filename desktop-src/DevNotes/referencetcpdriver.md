@@ -1,0 +1,82 @@
+---
+description: 取得 TCP v4 驅動程式物件的參考。
+ms.assetid: 8f12fa58-1622-40d0-9a99-e7c8ede08b38
+title: ReferenceTcpDriver 函式
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ReferenceTcpDriver
+api_type:
+- LibDef
+api_location:
+- Drvref.lib
+ms.openlocfilehash: 4a9068739517cceedee72a675739b2d8b067b2ef
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106996278"
+---
+# <a name="referencetcpdriver-function"></a><span data-ttu-id="132d0-103">ReferenceTcpDriver 函式</span><span class="sxs-lookup"><span data-stu-id="132d0-103">ReferenceTcpDriver function</span></span>
+
+<span data-ttu-id="132d0-104">取得 TCP v4 驅動程式物件的參考。</span><span class="sxs-lookup"><span data-stu-id="132d0-104">Obtains a reference to a TCP v4 driver object.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="132d0-105">語法</span><span class="sxs-lookup"><span data-stu-id="132d0-105">Syntax</span></span>
+
+
+```C++
+NTSTATUS WINAPI ReferenceTcpDriver(
+  _Out_ PDRIVER_OBJECT *ppDriverObject
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="132d0-106">參數</span><span class="sxs-lookup"><span data-stu-id="132d0-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="132d0-107">*ppDriverObject* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="132d0-107">*ppDriverObject* \[out\]</span></span>
+</dt> <dd>
+
+<span data-ttu-id="132d0-108">**驅動程式 \_ 物件** 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="132d0-108">A pointer to a **DRIVER\_OBJECT** structure.</span></span> <span data-ttu-id="132d0-109">如需詳細資訊，請參閱 WDK 的檔。</span><span class="sxs-lookup"><span data-stu-id="132d0-109">For more information, see the documentation for the WDK.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="132d0-110">傳回值</span><span class="sxs-lookup"><span data-stu-id="132d0-110">Return value</span></span>
+
+<span data-ttu-id="132d0-111">如果函式成功，則會傳回 **狀態 \_ 成功**。</span><span class="sxs-lookup"><span data-stu-id="132d0-111">If the function succeeds, it returns **STATUS\_SUCCESS**.</span></span> <span data-ttu-id="132d0-112">如果失敗，則會傳回適當的狀態碼。</span><span class="sxs-lookup"><span data-stu-id="132d0-112">If it fails, it will return the appropriate status code.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="132d0-113">備註</span><span class="sxs-lookup"><span data-stu-id="132d0-113">Remarks</span></span>
+
+<span data-ttu-id="132d0-114">您只能從核心模式呼叫此函式。</span><span class="sxs-lookup"><span data-stu-id="132d0-114">This function can be called only from kernel mode.</span></span> <span data-ttu-id="132d0-115">呼叫端必須在物件完成時呼叫 **ObDereferenceObject** 函式，以遞減參考計數。</span><span class="sxs-lookup"><span data-stu-id="132d0-115">The caller must decrement the reference count by calling the **ObDereferenceObject** function when it has finished with the object.</span></span>
+
+<span data-ttu-id="132d0-116">這個函式會在可供下載的 Drvref 中執行。</span><span class="sxs-lookup"><span data-stu-id="132d0-116">This function is implemented in Drvref.lib, which is available for download.</span></span> <span data-ttu-id="132d0-117">請參閱 [Windows 網路驅動程式參考 API 程式庫](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0)。</span><span class="sxs-lookup"><span data-stu-id="132d0-117">See [Windows Network Driver Reference API Library](https://www.microsoft.com/downloads/details.aspx?FamilyID=85037e05-f8f8-46b4-a013-3aa6248396c0).</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="132d0-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="132d0-118">Requirements</span></span>
+
+
+
+| <span data-ttu-id="132d0-119">需求</span><span class="sxs-lookup"><span data-stu-id="132d0-119">Requirement</span></span> | <span data-ttu-id="132d0-120">值</span><span class="sxs-lookup"><span data-stu-id="132d0-120">Value</span></span> |
+|--------------------|---------------------------------------------------------------------------------------|
+| <span data-ttu-id="132d0-121">程式庫</span><span class="sxs-lookup"><span data-stu-id="132d0-121">Library</span></span><br/> | <dl> <span data-ttu-id="132d0-122"><dt>Drvref .lib</dt></span><span class="sxs-lookup"><span data-stu-id="132d0-122"><dt>Drvref.lib</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="132d0-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="132d0-123">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="132d0-124">**ReferenceTcpDriverV6**</span><span class="sxs-lookup"><span data-stu-id="132d0-124">**ReferenceTcpDriverV6**</span></span>](referencetcpdriverv6.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
