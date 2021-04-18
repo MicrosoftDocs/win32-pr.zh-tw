@@ -1,0 +1,68 @@
+---
+description: 在 Windows 的每個主要版本中，都有新增的字型可支援國際語言和腳本。
+ms.assetid: 77b8c200-2682-4651-855a-602f768edc9b
+title: 國際字型列舉和選取
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 63e5d0d07a0953f72f097f8578f5e32b3ee49093
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "104321087"
+---
+# <a name="international-font-enumeration-and-selection"></a><span data-ttu-id="9a91a-103">國際字型列舉和選取</span><span class="sxs-lookup"><span data-stu-id="9a91a-103">International Font Enumeration and Selection</span></span>
+
+<span data-ttu-id="9a91a-104">在 Windows 的每個主要版本中，都有新增的字型可支援國際語言和腳本。</span><span class="sxs-lookup"><span data-stu-id="9a91a-104">In each major release of Windows, there are fonts added to support international languages and scripts.</span></span> <span data-ttu-id="9a91a-105">請參閱 [windows 中的腳本與字型支援](https://msdn.microsoft.com/globalization/mt791278) ，以瞭解自 windows 2000 之後的每個 windows 版本中新增的字型，以及其支援的腳本、區域和語言。</span><span class="sxs-lookup"><span data-stu-id="9a91a-105">Please reference [Script and Font Support in Windows](https://msdn.microsoft.com/globalization/mt791278) for the fonts that have been added in each Windows version since Windows 2000, as well as their supported scripts, regions, and languages.</span></span>
+
+## <a name="enumfontfamiliesex"></a><span data-ttu-id="9a91a-106">EnumFontFamiliesEx</span><span class="sxs-lookup"><span data-stu-id="9a91a-106">EnumFontFamiliesEx</span></span>
+
+<span data-ttu-id="9a91a-107">若要列舉應用程式中的國際字型，您可以使用 [**EnumFontFamiliesEx**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesexa) 函數。</span><span class="sxs-lookup"><span data-stu-id="9a91a-107">To enumerate international fonts in your application, you can use the [**EnumFontFamiliesEx**](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesexa) function.</span></span> <span data-ttu-id="9a91a-108">**EnumFontFamiliesEx** 可讓您將指標傳遞至包含字型名稱和字元集資訊的 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) 結構，以根據字樣名稱和字元集來列舉字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-108">**EnumFontFamiliesEx** allows you to enumerate fonts based on typeface name and charset by passing in a pointer to a [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure that contains the typeface name and charset information.</span></span> <span data-ttu-id="9a91a-109">若要呼叫 **EnumFontFamiliesEx**，您可以指定字樣名稱或字元集，也可以詢問是否有任何可用的。</span><span class="sxs-lookup"><span data-stu-id="9a91a-109">To call **EnumFontFamiliesEx**, you can either specify a typeface name or a charset, or you can ask for whatever is available.</span></span> <span data-ttu-id="9a91a-110">將 **LOGFONT** 的字樣名稱設定為 **Null** 會列舉所有的字樣名稱。</span><span class="sxs-lookup"><span data-stu-id="9a91a-110">Setting the typeface name of the **LOGFONT** to **NULL** enumerates all typeface names.</span></span> <span data-ttu-id="9a91a-111">將 [字元集] 欄位設定為 [ **預設 \_ 字元集** ] 會列舉所有字元集。</span><span class="sxs-lookup"><span data-stu-id="9a91a-111">Setting the charset field to **DEFAULT\_CHARSET** enumerates all charsets.</span></span>
+
+<span data-ttu-id="9a91a-112">請注意，字元集是對應到預先 Unicode 字元集的舊版概念。</span><span class="sxs-lookup"><span data-stu-id="9a91a-112">Note that charsets are a legacy notion corresponding to pre-Unicode character sets.</span></span> <span data-ttu-id="9a91a-113">目前沒有任何機制可列舉以 Unicode 支援任意腳本或字元範圍的字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-113">At this time, there is no mechanism to enumerate fonts supporting arbitrary scripts or character ranges in Unicode.</span></span> <span data-ttu-id="9a91a-114">由 [**EnumFontFamExProc**](/previous-versions//dd162618(v=vs.85))傳遞的 [**NEWTEXTMETRICEX**](/windows/win32/api/wingdi/ns-wingdi-newtextmetricexa)結構包含 [**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature)結構，其中包含字型開發人員所提供的更詳細宣告，以做為該字型所支援的字碼頁和 Unicode 範圍。</span><span class="sxs-lookup"><span data-stu-id="9a91a-114">The [**NEWTEXTMETRICEX**](/windows/win32/api/wingdi/ns-wingdi-newtextmetricexa) structure passed by [**EnumFontFamExProc**](/previous-versions//dd162618(v=vs.85)) includes the [**FONTSIGNATURE**](/windows/win32/api/wingdi/ns-wingdi-fontsignature) structure, which includes more detailed declarations provided by the font developer as to what code pages and what Unicode ranges the font supports.</span></span> <span data-ttu-id="9a91a-115">若要更精確地判斷特定字型所支援的字元範圍，請在裝置內容中選取字型，然後呼叫 [**GetFontUnicodeRanges**](/windows/win32/api/wingdi/nf-wingdi-getfontunicoderanges)。</span><span class="sxs-lookup"><span data-stu-id="9a91a-115">To determine more precisely what character ranges a given font supports, select the font into a device context and call [**GetFontUnicodeRanges**](/windows/win32/api/wingdi/nf-wingdi-getfontunicoderanges).</span></span> <span data-ttu-id="9a91a-116">請注意，此 API 不支援 Unicode 補充平面。</span><span class="sxs-lookup"><span data-stu-id="9a91a-116">Note that this API does not support Unicode supplementary planes.</span></span>
+
+## <a name="choosefont"></a><span data-ttu-id="9a91a-117">ChooseFont</span><span class="sxs-lookup"><span data-stu-id="9a91a-117">ChooseFont</span></span>
+
+<span data-ttu-id="9a91a-118">您可以使用 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) 函式來顯示通用對話方塊，讓使用者可以根據字元集選取國際字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-118">You can use the [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) function to display a common dialog box that allows the user to select international fonts based on charset.</span></span> <span data-ttu-id="9a91a-119">您可以指定三個旗標中的其中一個，根據字元集（ChooseFont 對話方塊中顯示的字型： **CF \_ SCRIPTSONLY**、 **CF \_ SELECTSCRIPT** 或 **CF \_ NOSCRIPTSEL**）來決定。</span><span class="sxs-lookup"><span data-stu-id="9a91a-119">You can specify one of three flags to determine, based on charset, which fonts are displayed in the ChooseFont dialog: **CF\_SCRIPTSONLY**, **CF\_SELECTSCRIPT**, or **CF\_NOSCRIPTSEL**.</span></span>
+
+<span data-ttu-id="9a91a-120">**CF \_ SCRIPTSONLY** 旗標會告知 API 針對非符號或 OEM 的所有字元集列出字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-120">The **CF\_SCRIPTSONLY** flag tells the API to list fonts for all character sets that are not Symbol or OEM.</span></span>
+
+<span data-ttu-id="9a91a-121">如果您只想要顯示涵蓋特定字元集的字型，您必須指定旗標 **CF \_ SELECTSCRIPT**。</span><span class="sxs-lookup"><span data-stu-id="9a91a-121">If you want to display only fonts that cover a particular charset, you need to specify the flag **CF\_SELECTSCRIPT**.</span></span> <span data-ttu-id="9a91a-122">在呼叫 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))之前，請先初始化 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構的 *lfCharSet* 欄位。</span><span class="sxs-lookup"><span data-stu-id="9a91a-122">Before calling [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)), initialize the *lfCharSet* field of the [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta) structure.</span></span> <span data-ttu-id="9a91a-123">如果您只想要指定字元集，請將 **LOGFONT** 結構的其他欄位設為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="9a91a-123">If you are interested in specifying only the charset, set the other fields of the **LOGFONT** structure to **NULL**.</span></span> <span data-ttu-id="9a91a-124">若要讓 **ChooseFont** 查看 **LOGFONT** 結構，您也必須指定 **CF \_ INITTOLOGFONTSTRUCT** 旗標。</span><span class="sxs-lookup"><span data-stu-id="9a91a-124">To have **ChooseFont** look at the **LOGFONT** structure, you also need to specify the **CF\_INITTOLOGFONTSTRUCT** flag.</span></span>
+
+<span data-ttu-id="9a91a-125">最後，如同 [字型] 對話方塊中的任何其他欄位，您可以選擇顯示 [空白腳本] 清單方塊。</span><span class="sxs-lookup"><span data-stu-id="9a91a-125">Finally, as with any other field in the Font dialog box, you might choose to display a blank script list box.</span></span> <span data-ttu-id="9a91a-126">如果使用者反白顯示數個橫跨數個字元集的不同字型，這項功能就很有用。</span><span class="sxs-lookup"><span data-stu-id="9a91a-126">This capability is useful if the user has highlighted several different fonts spanning several charsets.</span></span> <span data-ttu-id="9a91a-127">在此情況下，您會使用 **CF \_ NOSCRIPTSEL** 旗標來呼叫 [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) 。</span><span class="sxs-lookup"><span data-stu-id="9a91a-127">In this case, you would call [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) with the **CF\_NOSCRIPTSEL** flag.</span></span>
+
+<span data-ttu-id="9a91a-128">從 Windows 7 開始， [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) 可支援從字型挑選清單隱藏字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-128">Starting with Windows 7, [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) implements support for the hiding of fonts from font selection lists.</span></span> <span data-ttu-id="9a91a-129">**ChooseFont** 只會列出顯示的字型，並篩選出隱藏的字型，同時在清單方塊中顯示字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-129">**ChooseFont** will only list the shown fonts and filter out the hidden fonts while displaying fonts in the list box.</span></span> <span data-ttu-id="9a91a-130">[**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))結構之 Flags 成員中的其他旗標 (**CF \_ INACTIVEFONTS**) ，可讓您在 [字型] 清單中顯示所有已安裝的字型，與 Windows 7 之前的 **ChooseFont** 行為相同。</span><span class="sxs-lookup"><span data-stu-id="9a91a-130">The additional flag (**CF\_INACTIVEFONTS**) in the flags member of the [**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85)) structure is added to allow you to display all the installed fonts in the font list, the same as **ChooseFont** behaved before Windows 7.</span></span> <span data-ttu-id="9a91a-131">如需 Windows 7 中 **ChooseFont** 函式的行為差異詳細資料，請參閱 [Windows 7 應用程式品質操作手冊](../win7appqual/windows-7-application-quality-cookbook.md)中的 [**ChooseFont () Win32 通用對話方塊**](../win7appqual/choosefont-win32-common-dialog.md)。</span><span class="sxs-lookup"><span data-stu-id="9a91a-131">For the details of behavior differences in Windows 7 for the **ChooseFont** function, please see [**ChooseFont() Win32 Common Dialog**](../win7appqual/choosefont-win32-common-dialog.md) in the [Windows 7 Application Quality Cookbook](../win7appqual/windows-7-application-quality-cookbook.md).</span></span> <span data-ttu-id="9a91a-132">請參考 **ChooseFont** 函式和 **ChooseFont** 結構，以瞭解 Windows 7 中的終端使用者體驗差異。</span><span class="sxs-lookup"><span data-stu-id="9a91a-132">Please reference **ChooseFont** function and **CHOOSEFONT** structure for the end user experience differences in Windows 7.</span></span>
+
+<span data-ttu-id="9a91a-133">請注意，字元集是對應到預先 Unicode 字元集的舊版概念。</span><span class="sxs-lookup"><span data-stu-id="9a91a-133">Note that charsets are a legacy notion corresponding to pre-Unicode character sets.</span></span> <span data-ttu-id="9a91a-134">目前沒有任何機制可根據 Unicode 腳本或字元範圍來篩選字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-134">At this time, there is no mechanism to filter fonts based on Unicode scripts or character ranges.</span></span>
+
+## <a name="font-controls-in-windows-scenic-ribbon"></a><span data-ttu-id="9a91a-135">Windows Scenic 功能區中的字型控制項</span><span class="sxs-lookup"><span data-stu-id="9a91a-135">Font Controls in Windows Scenic Ribbon</span></span>
+
+<span data-ttu-id="9a91a-136">Windows 7 引進了 Windows Scenic 功能區，其中包含一組以字型選取為目標的控制項。</span><span class="sxs-lookup"><span data-stu-id="9a91a-136">Windows 7 introduces the Windows Scenic Ribbon which comes with a set of controls targeted to font selection.</span></span> <span data-ttu-id="9a91a-137">這些字型控制項支援新的 Windows 7 字型隱藏行為。</span><span class="sxs-lookup"><span data-stu-id="9a91a-137">These font controls support the new Windows 7 font hiding behavior.</span></span> <span data-ttu-id="9a91a-138">您可以使用這些字型控制項只列出顯示的字型，並允許使用者選取字型。</span><span class="sxs-lookup"><span data-stu-id="9a91a-138">You can use those font controls to list only shown fonts and allow the user to select the font.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="9a91a-139">當 Windows Scenic 功能區在 Windows 7 之前的任何平臺上執行時，無法使用隱藏字型的支援。</span><span class="sxs-lookup"><span data-stu-id="9a91a-139">Support for hiding fonts is not available when the Windows Scenic Ribbon is running on any platform prior to Windows 7.</span></span>
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="9a91a-140">相關主題</span><span class="sxs-lookup"><span data-stu-id="9a91a-140">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="9a91a-141">**EnumFontFamiliesEx**</span><span class="sxs-lookup"><span data-stu-id="9a91a-141">**EnumFontFamiliesEx**</span></span>](/windows/win32/api/wingdi/nf-wingdi-enumfontfamiliesexa)
+</dt> <dt>
+
+<span data-ttu-id="9a91a-142">[**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="9a91a-142">[**ChooseFont**](/previous-versions/windows/desktop/legacy/ms646914(v=vs.85))</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="9a91a-143">**CHOOSEFONT 結構**</span><span class="sxs-lookup"><span data-stu-id="9a91a-143">**CHOOSEFONT structure**</span></span>](/windows/win32/api/commdlg/ns-commdlg-choosefonta)
+</dt> <dt>
+
+[<span data-ttu-id="9a91a-144">**Windows Scenic 功能區中的字型控制項**</span><span class="sxs-lookup"><span data-stu-id="9a91a-144">**Font Controls in Windows Scenic Ribbon**</span></span>](../windowsribbon/windowsribbon-element-fontcontrol.md)
+</dt> <dt>
+
+[<span data-ttu-id="9a91a-145">**ChooseFont () Win32 通用對話方塊**</span><span class="sxs-lookup"><span data-stu-id="9a91a-145">**ChooseFont() Win32 Common Dialog**</span></span>](../win7appqual/choosefont-win32-common-dialog.md)
+</dt> </dl>
+
+ 
+
+ 
