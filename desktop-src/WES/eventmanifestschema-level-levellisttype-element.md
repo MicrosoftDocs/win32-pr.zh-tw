@@ -1,0 +1,66 @@
+---
+title: 層級 (LevelListType) 元素
+description: 定義嚴重性值，以判斷記錄期間事件的詳細程度。
+ms.assetid: 898b4784-7acc-45b5-8ff9-485e919fe9c6
+keywords:
+- level 元素 EventLog
+topic_type:
+- apiref
+api_name:
+- level
+api_type:
+- Schema
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 469ed05f6acb7b4189afdadda772982441fdb435
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "106968988"
+---
+# <a name="level-levellisttype-element"></a>層級 (LevelListType) 元素
+
+定義嚴重性值，以判斷記錄期間事件的詳細程度。
+
+``` syntax
+<xs:element name="level"
+    type="LevelType"
+ />
+```
+
+**Level** 元素是由 [**LevelListType**](eventmanifestschema-levellisttype-complextype.md)複雜型別定義。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+**父元素**
+</dt> <dt>
+
+[**層級 (ProviderType)**](eventmanifestschema-levels-providertype-element.md)
+</dt> <dt>
+
+[**層級 (MetadataType)**](eventmanifestschema-levels-metadatatype-element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
