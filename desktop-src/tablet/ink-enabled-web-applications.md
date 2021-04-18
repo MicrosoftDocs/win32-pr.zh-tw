@@ -1,0 +1,34 @@
+---
+description: 筆墨 Blog 範例會示範幾個實用的技巧，可用於啟用筆墨的 Web 應用程式。
+ms.assetid: 4a5a453d-e3c1-40e6-b0eb-99009f0024dd
+title: Ink-Enabled Web 應用程式
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5b14e368c1d2e97e35afa6d72a0fe082f304c5fe
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106971390"
+---
+# <a name="ink-enabled-web-applications"></a><span data-ttu-id="5ccd6-103">Ink-Enabled Web 應用程式</span><span class="sxs-lookup"><span data-stu-id="5ccd6-103">Ink-Enabled Web Applications</span></span>
+
+<span data-ttu-id="5ccd6-104">[筆墨 Blog](ink-blog-web-sample.md)範例會示範幾個實用的技巧，可用於啟用筆墨的 Web 應用程式。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-104">The [Ink Blog](ink-blog-web-sample.md) sample demonstrates several useful techniques that can be used in ink-enabled Web applications.</span></span> <span data-ttu-id="5ccd6-105">這些包括：測試用戶端電腦是否可以支援啟用筆墨的控制項、將筆墨資料提交至伺服器，以及在網頁上顯示筆墨資料。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-105">These include: testing if the client machine can support ink-enabled controls, submitting ink data to a server, and displaying ink data on a Web page.</span></span>
+
+## <a name="testing-ink-enablement"></a><span data-ttu-id="5ccd6-106">測試筆墨啟用</span><span class="sxs-lookup"><span data-stu-id="5ccd6-106">Testing Ink Enablement</span></span>
+
+<span data-ttu-id="5ccd6-107">測試用戶端電腦是否可以顯示啟用筆墨的控制項可能很有用。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-107">It can be useful to test if the client machine can display ink-enabled controls.</span></span> <span data-ttu-id="5ccd6-108">這可讓您在用戶端為 Tablet PC 或不同的電腦時，thewebpageshow 一個控制項。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-108">This allows you to have thewebpageshow one control if the client is a Tablet PC or a different one if it is not.</span></span> <span data-ttu-id="5ccd6-109">測試這項作業的其中一種方式，是嘗試建立一個物件， [例如，您](/previous-versions/ms833057(v=msdn.10))只能在已安裝 windows Vista、Windows XP Tablet pc edition 作業系統或 Windows XP Tablet Pc Edition 軟體發展工具組 (SDK) 的電腦上建立該物件。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-109">One way to test this is to attempt to create an object such as a [InkOverlay](/previous-versions/ms833057(v=msdn.10)), which can only be created on a machine that has the Windows Vista, Windows XP Tablet PC Edition operating system or the Windows XP Tablet PC Edition Software Development Kit (SDK) installed.</span></span> <span data-ttu-id="5ccd6-110">如果您在 try/catch 區塊中建立物件，並攔截任何擲回的例外狀況 (通常會擲回 [FileNotFoundException](/previous-versions/windows/) ，表示找不到具有此控制項的元件) ，您可以偵測用戶端電腦是否可以支援啟用筆墨的控制項。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-110">If you create the object inside a try/catch block and catch any exceptions that are thrown (often a [FileNotFoundException](/previous-versions/windows/) is thrown to indicate that the assembly with this control cannot be found), you can detect whether the client machine can support ink-enabled controls.</span></span> <span data-ttu-id="5ccd6-111">在此範例中，您可以在類別的函式中找到此程式碼 `InkArea` 。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-111">In the sample, this code can be found in the constructor of the `InkArea` class.</span></span>
+
+## <a name="submitting-ink-data"></a><span data-ttu-id="5ccd6-112">提交筆墨資料</span><span class="sxs-lookup"><span data-stu-id="5ccd6-112">Submitting Ink Data</span></span>
+
+<span data-ttu-id="5ccd6-113">提交資料的簡單方法是從啟用筆墨的控制項取出資料，將它傳送至隱藏的表單，然後提交表單。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-113">A simple way to submit data is to take the data from your ink-enabled control, transfer it into a hidden form, and then submit the form.</span></span> <span data-ttu-id="5ccd6-114">您可以使用 [Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) 方法將筆墨序列化，然後轉換成字串。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-114">The ink can be serialized using the [Save](/previous-versions/dotnet/netframework-3.5/ms571335(v=vs.90)) method, and then converted into a String.</span></span> <span data-ttu-id="5ccd6-115">在範例中，隱藏的表單是在 AddBlog 中定義，而筆墨序列化則是在中處理 `InkArea.SerializeInkData` ，其中筆墨會序列化為 GIF 影像。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-115">In the sample, the hidden form is defined in AddBlog.aspx, and the ink serialization is handled in `InkArea.SerializeInkData`, where the ink is serialized into a GIF image.</span></span> <span data-ttu-id="5ccd6-116"> (請注意，它也可以用類似于其他格式的方式序列化，例如筆墨序列化格式 (ISF) 。 ) </span><span class="sxs-lookup"><span data-stu-id="5ccd6-116">(Note that it could be serialized similarly in other formats as well, such as ink serialized format (ISF).)</span></span>
+
+## <a name="displaying-ink-data"></a><span data-ttu-id="5ccd6-117">顯示筆墨資料</span><span class="sxs-lookup"><span data-stu-id="5ccd6-117">Displaying Ink Data</span></span>
+
+<span data-ttu-id="5ccd6-118">在範例中，AddBlog 會有一個方法，這個方法會抓取 `Page_Load` 張貼至伺服器的資料，並將它儲存到檔案中。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-118">In the sample, AddBlog.aspx.cs has a method called `Page_Load` that retrieves the data that is posted to the server and saves it into files.</span></span> <span data-ttu-id="5ccd6-119">然後，它會在伺服器上產生網頁，其中包含以 GIF 影像參考檔案的 img 標記。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-119">It then generates Web pages on the server that contains img tags that reference the files with the GIF images.</span></span> <span data-ttu-id="5ccd6-120">現在您只需要流覽至這些頁面，即可看到筆墨的影像。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-120">Now you only need to navigate to those pages to see images of the ink.</span></span> <span data-ttu-id="5ccd6-121"> (請注意，如果您已使用不同的格式（例如筆跡序列化格式 (ISF) ）將筆墨序列化，就必須將筆墨轉換成伺服器上的影像，才能將它顯示在非平板電腦的用戶端上。 ) </span><span class="sxs-lookup"><span data-stu-id="5ccd6-121">(Note that if you had serialized the ink with a different format, such as Ink Serialized Format (ISF), then you would need to convert the ink to an image on the server in order to display it on clients that are not tablets.)</span></span>
+
+<span data-ttu-id="5ccd6-122">Tablet PC 用戶端可以將筆墨載入啟用筆墨的控制項，並允許使用者使用 ISF 來編輯筆墨。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-122">Tablet PC clients can load the ink back into an ink-enabled control and allow the user to edit the ink by using ISF.</span></span> <span data-ttu-id="5ccd6-123">即使是使用 [PersistenceFormat](/previous-versions/ms827245(v=msdn.10))列舉的 **Gif** 值所儲存的筆墨也是如此，因為 ISF 資料是包含在 gif 中繼資料中。</span><span class="sxs-lookup"><span data-stu-id="5ccd6-123">This is true even for ink saved using the **Gif** value of the [PersistenceFormat](/previous-versions/ms827245(v=msdn.10)) enumeration, because the ISF data is contained in the GIF metadata.</span></span>
+
+ 
+
+ 
