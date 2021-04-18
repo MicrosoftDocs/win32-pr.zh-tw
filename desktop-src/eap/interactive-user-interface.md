@@ -1,0 +1,34 @@
+---
+title: 互動式消費者介面
+description: 實作為驗證通訊協定的廠商也可以為通訊協定提供互動式使用者介面 (UI) 。
+ms.assetid: 4f8ba0a4-3b52-4e7c-9e67-748f8d81d7a2
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 761799969f4e439a65534ab551f09b3788e95ba7
+ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/19/2020
+ms.locfileid: "106968897"
+---
+# <a name="interactive-user-interface"></a><span data-ttu-id="f5946-103">互動式消費者介面</span><span class="sxs-lookup"><span data-stu-id="f5946-103">Interactive User Interface</span></span>
+
+<span data-ttu-id="f5946-104">實作為驗證通訊協定的廠商也可以為通訊協定提供互動式使用者介面 (UI) 。</span><span class="sxs-lookup"><span data-stu-id="f5946-104">The vendor that implements the authentication protocol may also provide an interactive user interface (UI) for the protocol.</span></span> <span data-ttu-id="f5946-105">互動式 UI 可讓驗證通訊協定在驗證會話期間，視需要從使用者取得其他資訊。</span><span class="sxs-lookup"><span data-stu-id="f5946-105">The interactive UI allows the authentication protocol to obtain additional information from the user as needed during the course of the authentication session.</span></span>
+
+<span data-ttu-id="f5946-106">互動式 UI 可以在與驗證通訊協定相同的 DLL 或個別的 DLL 中執行。</span><span class="sxs-lookup"><span data-stu-id="f5946-106">The interactive UI can be implemented in the same DLL as the authentication protocol or in a separate DLL.</span></span> <span data-ttu-id="f5946-107">此外，用來執行互動式 UI 的 DLL 可支援一個以上的驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="f5946-107">Also, the DLL that implements the interactive UI can support more than one authentication protocol.</span></span> <span data-ttu-id="f5946-108">互動式 UI 的 DLL 路徑會儲存在「 [RAS \_ EAP \_ VALUENAME \_ INTERACTIVEUI](authentication-protocol-registry-values.md) 登錄」值的「驗證通訊協定」機碼下。</span><span class="sxs-lookup"><span data-stu-id="f5946-108">The path to the DLL for the interactive UI is stored in the [RAS\_EAP\_VALUENAME\_INTERACTIVEUI](authentication-protocol-registry-values.md) registry value, under the key for the authentication protocol.</span></span> <span data-ttu-id="f5946-109">如需有關建立此登錄值的詳細資訊，請參閱 [EAP 安裝](eap-installation.md)。</span><span class="sxs-lookup"><span data-stu-id="f5946-109">For more information about creating this registry value, see [EAP Installation](eap-installation.md).</span></span>
+
+<span data-ttu-id="f5946-110">互動式 UI 的 DLL 應匯出下列函數的進入點：</span><span class="sxs-lookup"><span data-stu-id="f5946-110">The DLL for the interactive UI should export entry points for the following functions:</span></span><dl>
+
+[<span data-ttu-id="f5946-111">**RasEapInvokeInteractiveUI**</span><span class="sxs-lookup"><span data-stu-id="f5946-111">**RasEapInvokeInteractiveUI**</span></span>](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui)  
+[<span data-ttu-id="f5946-112">**RasEapFreeMemory**</span><span class="sxs-lookup"><span data-stu-id="f5946-112">**RasEapFreeMemory**</span></span>](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory)  
+</dl>
+
+<span data-ttu-id="f5946-113">互動式使用者介面必須支援 [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85)) (*WPARAM*) 等於 IDCANCEL 的 [**WM \_ 命令**](../menurc/wm-command.md)訊息。</span><span class="sxs-lookup"><span data-stu-id="f5946-113">The interactive user interface must support [**WM\_COMMAND**](../menurc/wm-command.md) messages where [**LOWORD**](/previous-versions/windows/desktop/legacy/ms632659(v=vs.85))(*wParam*) equals IDCANCEL.</span></span>
+
+<span data-ttu-id="f5946-114">若要顯示互動式 UI，驗證通訊協定應該將 [**PPP \_ EAP \_ 輸出**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output)結構的 **fInvokeInteractiveUI** 成員設定為 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="f5946-114">To display the interactive UI, the authentication protocol should set the **fInvokeInteractiveUI** member of the [**PPP\_EAP\_OUTPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_output) structure to **TRUE**.</span></span> <span data-ttu-id="f5946-115">驗證通訊協定也可以選擇性地將 **pUICoNtextData** 和 **dwSizeOfUICoNtextData** 成員設為 **TRUE** 。</span><span class="sxs-lookup"><span data-stu-id="f5946-115">The authentication protocol may optionally set the **pUIContextData** and **dwSizeOfUIContextData** members to **TRUE** as well.</span></span> <span data-ttu-id="f5946-116">驗證服務會使用這些成員的值將內容資料傳遞給互動式 UI。</span><span class="sxs-lookup"><span data-stu-id="f5946-116">The authentication service uses the values of these members to pass context data to the interactive UI.</span></span> <span data-ttu-id="f5946-117">驗證通訊協定會以 [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85))函數中的參數傳回 **PPP \_ EAP \_ 輸出** 結構。</span><span class="sxs-lookup"><span data-stu-id="f5946-117">The authentication protocol returns the **PPP\_EAP\_OUTPUT** structure as a parameter in the [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)) function.</span></span>
+
+<span data-ttu-id="f5946-118">驗證服務會藉由呼叫 [**RasEapInvokeInteractiveUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui)來叫用互動式 UI。</span><span class="sxs-lookup"><span data-stu-id="f5946-118">The authentication service invokes the interactive UI by calling [**RasEapInvokeInteractiveUI**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapinvokeinteractiveui).</span></span> <span data-ttu-id="f5946-119">接著，服務會在後續呼叫 [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85))時，將互動式 UI 所傳回的資料指標傳遞給驗證通訊協定。</span><span class="sxs-lookup"><span data-stu-id="f5946-119">The service then passes the authentication protocol a pointer to the data returned by the interactive UI in the subsequent call to [**RasEapMakeMessage**](/previous-versions/windows/desktop/legacy/aa363532(v=vs.85)).</span></span> <span data-ttu-id="f5946-120">指標會以 [**PPP \_ EAP \_ 輸入**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) 結構的成員形式傳遞。</span><span class="sxs-lookup"><span data-stu-id="f5946-120">The pointer is passed as a member of a [**PPP\_EAP\_INPUT**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input) structure.</span></span> <span data-ttu-id="f5946-121">**RasEapMakeMessage** 傳回之後，服務會呼叫 [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory)來釋放資訊所佔用的記憶體。</span><span class="sxs-lookup"><span data-stu-id="f5946-121">After **RasEapMakeMessage** returns, the service calls [**RasEapFreeMemory**](/previous-versions/windows/desktop/api/Raseapif/nf-raseapif-raseapfreememory) to free the memory occupied by the information.</span></span> <span data-ttu-id="f5946-122">因此，在呼叫 **RasEapMakeMessage** 期間，驗證通訊協定應該會將資訊複製到私用記憶體緩衝區。</span><span class="sxs-lookup"><span data-stu-id="f5946-122">Therefore, the authentication protocol should copy the information into a private memory buffer during the call to **RasEapMakeMessage**.</span></span>
+
+ 
+
+ 

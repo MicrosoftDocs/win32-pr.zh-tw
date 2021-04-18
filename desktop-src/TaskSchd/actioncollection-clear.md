@@ -1,0 +1,77 @@
+---
+title: Actioncollection 動作 Clear 方法
+description: 針對腳本，會從集合中清除所有動作。
+ms.assetid: e2cdf2eb-72ca-42cf-bfbe-2234153ba3b4
+keywords:
+- Clear 方法工作排程器
+- Clear 方法工作排程器，Actioncollection 動作物件
+- Actioncollection 動作物件工作排程器、Clear 方法
+topic_type:
+- apiref
+api_name:
+- ActionCollection.Clear
+api_location:
+- taskschd.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: bd44fac1e86188de6d1c549dc517630cf1094fe4
+ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/12/2020
+ms.locfileid: "106968573"
+---
+# <a name="actioncollectionclear-method"></a><span data-ttu-id="6d3ff-106">Actioncollection 動作 Clear 方法</span><span class="sxs-lookup"><span data-stu-id="6d3ff-106">ActionCollection.Clear method</span></span>
+
+<span data-ttu-id="6d3ff-107">針對腳本，會從集合中清除所有動作。</span><span class="sxs-lookup"><span data-stu-id="6d3ff-107">For scripting, clears all the actions from the collection.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="6d3ff-108">語法</span><span class="sxs-lookup"><span data-stu-id="6d3ff-108">Syntax</span></span>
+
+
+```VB
+ActionCollection.Clear()
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="6d3ff-109">參數</span><span class="sxs-lookup"><span data-stu-id="6d3ff-109">Parameters</span></span>
+
+<span data-ttu-id="6d3ff-110">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="6d3ff-110">This method has no parameters.</span></span>
+
+## <a name="return-value"></a><span data-ttu-id="6d3ff-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="6d3ff-111">Return value</span></span>
+
+<span data-ttu-id="6d3ff-112">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="6d3ff-112">This method does not return a value.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="6d3ff-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="6d3ff-113">Requirements</span></span>
+
+
+
+| <span data-ttu-id="6d3ff-114">需求</span><span class="sxs-lookup"><span data-stu-id="6d3ff-114">Requirement</span></span> | <span data-ttu-id="6d3ff-115">值</span><span class="sxs-lookup"><span data-stu-id="6d3ff-115">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="6d3ff-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6d3ff-116">Minimum supported client</span></span><br/> | <span data-ttu-id="6d3ff-117">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d3ff-117">Windows Vista \[desktop apps only\]</span></span><br/>                                          |
+| <span data-ttu-id="6d3ff-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6d3ff-118">Minimum supported server</span></span><br/> | <span data-ttu-id="6d3ff-119">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6d3ff-119">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                    |
+| <span data-ttu-id="6d3ff-120">類型程式庫</span><span class="sxs-lookup"><span data-stu-id="6d3ff-120">Type library</span></span><br/>             | <dl> <span data-ttu-id="6d3ff-121"><dt>Taskschd.msc .tlb</dt></span><span class="sxs-lookup"><span data-stu-id="6d3ff-121"><dt>Taskschd.tlb</dt></span></span> </dl> |
+| <span data-ttu-id="6d3ff-122">DLL</span><span class="sxs-lookup"><span data-stu-id="6d3ff-122">DLL</span></span><br/>                      | <dl> <span data-ttu-id="6d3ff-123"><dt>Taskschd.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6d3ff-123"><dt>Taskschd.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="6d3ff-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6d3ff-124">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="6d3ff-125">工作排程器</span><span class="sxs-lookup"><span data-stu-id="6d3ff-125">Task Scheduler</span></span>](task-scheduler-start-page.md)
+</dt> <dt>
+
+[<span data-ttu-id="6d3ff-126">**Actioncollection 動作**</span><span class="sxs-lookup"><span data-stu-id="6d3ff-126">**ActionCollection**</span></span>](actioncollection.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
