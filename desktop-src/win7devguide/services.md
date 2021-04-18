@@ -1,0 +1,50 @@
+---
+title: '服務 (Windows 7 開發人員指南) '
+description: Windows 7 提供功能強大、高度可擴充且可管理的平臺，讓您建立及整合未來的 web 服務和應用程式。Windows 7 提供 managed 程式碼 Api 和原生 Api 來建立和執行 web 服務。
+ms.assetid: 6a027e0c-28a0-41cf-b96f-ed988c64c92a
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7aab84cbb522f21b9a09a85d80ef25bf1c858baf
+ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "106965050"
+---
+# <a name="services-windows-7-developer-guide"></a><span data-ttu-id="a6694-103">服務 (Windows 7 開發人員指南) </span><span class="sxs-lookup"><span data-stu-id="a6694-103">Services (Windows 7 Developer Guide)</span></span>
+
+<span data-ttu-id="a6694-104">Windows 7 提供功能強大、高度可擴充且可管理的平臺，讓您建立及整合未來的 web 服務和應用程式。</span><span class="sxs-lookup"><span data-stu-id="a6694-104">Windows 7 provides a powerful, highly extensible, and manageable platform for building and integrating the web services and applications of the future.</span></span>
+
+<span data-ttu-id="a6694-105">Windows 7 提供 managed 程式碼 Api 和原生 Api 來建立和執行 web 服務。</span><span class="sxs-lookup"><span data-stu-id="a6694-105">Windows 7 offers both managed-code APIs and native APIs for building and running web services.</span></span> <span data-ttu-id="a6694-106">新的擴充性層級上建有各種新功能，可讓開發人員擴充所有 Api、原生程式碼或 Microsoft .NET Framework 內的應用程式。</span><span class="sxs-lookup"><span data-stu-id="a6694-106">A variety of new features are built on top of a new extensibility layer that allows developers to extend all APIs, in native code or within the Microsoft .NET Framework.</span></span>
+
+<span data-ttu-id="a6694-107">Windows 7 也可讓開發人員利用更佳的快取和搜尋功能。</span><span class="sxs-lookup"><span data-stu-id="a6694-107">Windows 7 also lets developers take advantage of better caching and searching capabilities.</span></span> <span data-ttu-id="a6694-108">藉由這些增強功能，開發人員可以更快地取出資料，並減少網路頻寬使用量。</span><span class="sxs-lookup"><span data-stu-id="a6694-108">With these enhancements, developers can retrieve data faster and reduce network bandwidth usage.</span></span>
+
+## <a name="windows-web-services"></a><span data-ttu-id="a6694-109">Windows Web 服務</span><span class="sxs-lookup"><span data-stu-id="a6694-109">Windows Web Services</span></span>
+
+<span data-ttu-id="a6694-110">有了 [Windows Web 服務](/windows/desktop/wsw/portal)，您就可以建立與本機電腦或遠端 Web 服務輕鬆通訊的應用程式。</span><span class="sxs-lookup"><span data-stu-id="a6694-110">With [Windows Web Services](/windows/desktop/wsw/portal), you can create applications that communicate easily with a local computer or a remote web service.</span></span> <span data-ttu-id="a6694-111">Windows Web 服務是 SOAP 的原生程式碼執行，藉由支援一組廣泛的 Web 服務 (*WS*) 系列的通訊協定，提供核心網路通訊。</span><span class="sxs-lookup"><span data-stu-id="a6694-111">Windows Web Services is a native-code implementation of SOAP and provides core network communication by supporting a broad set of the web services (*WS*) family of protocols.</span></span> <span data-ttu-id="a6694-112">Windows Web 服務是對 [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) (*wcf*、managed 程式碼的 Web 服務) ，並提供高效能的 *wcf* 功能子集。</span><span class="sxs-lookup"><span data-stu-id="a6694-112">Windows Web Services is a peer to [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) (*WCF*, managed-code web services), and provides a high-performance subset of *WCF* functionality.</span></span> <span data-ttu-id="a6694-113">Windows Web 服務提供下列優點：</span><span class="sxs-lookup"><span data-stu-id="a6694-113">Windows Web Services provides the following benefits:</span></span>
+
+-   <span data-ttu-id="a6694-114">在 Windows 用戶端和伺服器的 C/c + + 中建立機器碼 web 服務的能力。</span><span class="sxs-lookup"><span data-stu-id="a6694-114">The ability to build native code web services in C/C++ in Windows client and server.</span></span>
+-   <span data-ttu-id="a6694-115">與 [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) services 的廣泛整合。</span><span class="sxs-lookup"><span data-stu-id="a6694-115">Extensive integration with [Windows Communication Foundation](/previous-versions/windows/desktop/cc907054(v=vs.85)) services.</span></span>
+-   <span data-ttu-id="a6694-116">能夠以最短的啟動時間來建立 web 服務。</span><span class="sxs-lookup"><span data-stu-id="a6694-116">The ability to build web services with minimal startup time.</span></span>
+-   <span data-ttu-id="a6694-117">能夠 *根據核心的* 通訊協定系列和 *W3C* 標準來建立服務。</span><span class="sxs-lookup"><span data-stu-id="a6694-117">The ability to build services based on the core *WS* family of protocols and *W3C* standards.</span></span>
+-   <span data-ttu-id="a6694-118">在資源受限的環境中使用 web 服務的能力。</span><span class="sxs-lookup"><span data-stu-id="a6694-118">The ability to use web services in resource-constrained environments.</span></span>
+
+<span data-ttu-id="a6694-119">如需詳細資訊，請參閱 [Windows Web 服務 api](../wsw/portal.md) 和 [使用 WINDOWS web 服務 Api 來執行 Web 服務](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/web/WWSAPI)。</span><span class="sxs-lookup"><span data-stu-id="a6694-119">For more information, see [Windows Web Services API](../wsw/portal.md) and [Implement Web Services with the Windows Web Services API](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/web/WWSAPI).</span></span>
+
+## <a name="distributed-routing-table"></a><span data-ttu-id="a6694-120">分散式路由表</span><span class="sxs-lookup"><span data-stu-id="a6694-120">Distributed Routing Table</span></span>
+
+<span data-ttu-id="a6694-121">Windows 7 可讓您更輕鬆地建立複雜的點對點應用程式，例如分散式檔案系統和使用 [分散式路由表](/windows/desktop/P2PSdk/distributed-routing-table-api-reference)的內容散發網路。</span><span class="sxs-lookup"><span data-stu-id="a6694-121">Windows 7 makes it easier to build sophisticated peer-to-peer applications like distributed file systems and content distribution networks with the [Distributed Routing Table](/windows/desktop/P2PSdk/distributed-routing-table-api-reference).</span></span> <span data-ttu-id="a6694-122">分散式路由表提供安全且可擴充的機制，可在對等系統中發佈和搜尋金鑰。</span><span class="sxs-lookup"><span data-stu-id="a6694-122">The Distributed Routing Table provides a secure, scalable mechanism for publishing and searching for keys in a peer-to-peer system.</span></span> <span data-ttu-id="a6694-123">您可以使用它來建立分散式雜湊表，並針對重迭網路建立拓撲。</span><span class="sxs-lookup"><span data-stu-id="a6694-123">It can be used to build distributed hash tables and construct topologies for overlay networks.</span></span> <span data-ttu-id="a6694-124"> (參閱 [分散式路由資料表 API](../p2psdk/distributed-routing-table-api.md)。 ) </span><span class="sxs-lookup"><span data-stu-id="a6694-124">(See [Distributed Routing Table API](../p2psdk/distributed-routing-table-api.md).)</span></span>
+
+## <a name="windows-branchcache"></a><span data-ttu-id="a6694-125">**Windows BranchCache**</span><span class="sxs-lookup"><span data-stu-id="a6694-125">**Windows BranchCache**</span></span>
+
+<span data-ttu-id="a6694-126">Windows 7 改進了中央伺服器與分公司電腦之間的應用程式回應性。</span><span class="sxs-lookup"><span data-stu-id="a6694-126">Windows 7 improves application responsiveness between central servers and branch-office computers.</span></span> <span data-ttu-id="a6694-127">在現今的網路中，中央伺服器與分公司之間的通訊通常是擁塞的，這會導致分公司的應用程式效能變慢。</span><span class="sxs-lookup"><span data-stu-id="a6694-127">In today's networks, communication between central servers and branch offices is often congested, which leads to slower performance for applications in the branch office.</span></span> <span data-ttu-id="a6694-128">使用 Windows BranchCache 時，用戶端可以從其本身分支中已下載資料的其他用戶端取出資料，而不需要透過遠端伺服器取得資料。</span><span class="sxs-lookup"><span data-stu-id="a6694-128">With Windows BranchCache, clients can retrieve data from other clients in their own branch that have already downloaded the data, instead of having to retrieve the data over remote servers.</span></span> <span data-ttu-id="a6694-129">如此一來，廣域網路 (WAN) 連結流量降低，而應用程式的回應能力也會提高。</span><span class="sxs-lookup"><span data-stu-id="a6694-129">As a result, wide area network (WAN) link traffic decreases and application responsiveness improves.</span></span> <span data-ttu-id="a6694-130">快取會保留分支中用戶端所要求的所有內容複本，並確保只有由內容伺服器授權的用戶端可以存取要求的資料，同時保留資料的端對端加密。</span><span class="sxs-lookup"><span data-stu-id="a6694-130">The cache keeps a copy of all content that clients in the branch have requested and ensures that only the clients that are authorized by the content server can access the requested data, while preserving end-to-end encryption of the data.</span></span>
+
+<span data-ttu-id="a6694-131">Windows BranchCache 已與 HTTP 和伺服器訊息區整合 (SMB) 。</span><span class="sxs-lookup"><span data-stu-id="a6694-131">Windows BranchCache is already integrated with HTTP and Server Message Block (SMB).</span></span> <span data-ttu-id="a6694-132">如果應用程式使用這其中一種通訊協定的 WindowsAPIs，Windows BranchCache 將有助於提高此應用程式在 Windows 7 上的效能，而不需要對其進行任何變更。</span><span class="sxs-lookup"><span data-stu-id="a6694-132">If an application uses the WindowsAPIs for either of these protocols, Windows BranchCache can help increase the performance of this application on Windows 7 without making any changes to it.</span></span>
+
+<span data-ttu-id="a6694-133">如果您的應用程式從伺服器透過 WAN 連結抓取相同的資料，而不是使用 Windows 7 自動優化，則使用 Windows BranchCacheAPIs 可讓您輕鬆地將應用程式優化以在 Windows 7 上更快速地運作，並滿足您的分支使用者。</span><span class="sxs-lookup"><span data-stu-id="a6694-133">If your application retrieves the same data multiple times from a server over a WAN link and is not automatically optimized using Windows 7, it is easy for you to use the Windows BranchCacheAPIs to optimize your application to work faster on Windows 7 and satisfy your branch users.</span></span>
+
+<span data-ttu-id="a6694-134">這些新功能可協助降低 WAN 流量和延遲，同時確保符合安全性規定。</span><span class="sxs-lookup"><span data-stu-id="a6694-134">These new features help reduce WAN traffic and latency while ensuring compliance with security mandates.</span></span> <span data-ttu-id="a6694-135"> (請參閱 [對等散發](../p2psdk/peer-distribution.md)。 ) </span><span class="sxs-lookup"><span data-stu-id="a6694-135">(See [Peer Distribution](../p2psdk/peer-distribution.md).)</span></span>
+
+ 
+
+ 
