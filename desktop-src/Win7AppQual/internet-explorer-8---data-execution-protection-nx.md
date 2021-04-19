@@ -4,19 +4,19 @@ ms.assetid: 56a4889c-5dcf-416f-b46e-5c48277d5636
 title: Internet Explorer 8-資料執行防止/NX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bf23ba40be518e3d4c1421012e6b46fdb7b5e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc73fcd70a244288aceaead426bf09f07656740d
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849859"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314771"
 ---
 # <a name="internet-explorer-8---data-execution-protectionnx"></a>Internet Explorer 8-資料執行防止/NX
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP \| windows Vista \| windows 7  
-**伺服器** -windows server 2003 \| windows Server 2008 \| windows server 2008 R2  
+ **客戶** 端-windows XP、windows Vista、windows 7  
+**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "103849859"
 
  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 DEP/NX 是一種安全性功能，可協助減輕記憶體相關弱點。 從 Internet Explorer 8，所有 Internet Explorer 進程預設都會啟用 DEP/NX 功能。
 

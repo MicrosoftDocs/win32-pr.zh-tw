@@ -1,0 +1,63 @@
+---
+title: ITEMSPLAYLIST
+description: 這是具有下列預設值的預先定義播放清單元素。 |ITEMSPLAYLIST
+ms.assetid: 0621885c-04e3-4de7-a4cc-2eb4e94de53c
+keywords:
+- ITEMSPLAYLIST Windows Media Player
+topic_type:
+- apiref
+api_name:
+- ITEMSPLAYLIST
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 76ac19cc914fa154c2800fab9f9b784cc3f0d809
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106994735"
+---
+# <a name="itemsplaylist"></a>ITEMSPLAYLIST
+
+這是具有下列預設值的預先定義 **播放清單** 元素。
+
+``` syntax
+backgroundColor="black"
+columns="name=Name;Duration=Time"
+columnsVisible="false"
+dropDownVisible="false"
+foregroundColor="white"
+```
+
+## <a name="remarks"></a>備註
+
+這將會建立簡單的 **播放清單** ，以顯示播放清單中的專案，而不顯示任何下拉式清單或欄標題。 此 **播放清單** 的所有屬性都可以透過明確指定來覆寫。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|----------------------------------------------|
+| 版本<br/> | Windows Media Player 7.0 或更新版本<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**播放清單元素**](playlist-element.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
