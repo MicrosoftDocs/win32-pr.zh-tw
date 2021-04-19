@@ -1,0 +1,84 @@
+---
+description: 深入瞭解： JET_INDEXID 結構
+title: JET_INDEXID 結構
+TOCTitle: JET_INDEXID Structure
+ms:assetid: 8b1d90f0-bc93-4b30-90d1-b9e93ad26654
+ms:mtpsurl: https://msdn.microsoft.com/library/Gg269327(v=EXCHG.10)
+ms:contentKeyID: 32765617
+ms.date: 04/11/2016
+ms.topic: reference
+api_name: ''
+topic_type:
+- apiref
+- kbArticle
+api_type:
+- COM
+api_location: ''
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: e1a9c6a971e44604240d750163f0570937f9d4db
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106999954"
+---
+# <a name="jet_indexid-structure"></a>JET_INDEXID 結構
+
+
+_**適用于：** Windows |Windows Server_
+
+## <a name="jet_indexid-structure"></a>JET_INDEXID 結構
+
+**JET_INDEXID** 結構會保存索引識別碼。 索引識別碼是用來加速使用 [JetSetCurrentIndex](./jetsetcurrentindex-function.md)來選取目前索引的提示。 當資料表的索引數量非常龐大時，最有用。 您可以使用 [JetGetIndexInfo](./jetgetindexinfo-function.md) 或 [JetGetTableIndexInfo](./jetgettableindexinfo-function.md)來取出索引識別碼。
+
+```cpp
+    typedef struct tagJET_INDEXID {
+      unsigned long cbStruct;
+      char rgbIndexId[sizeof(JET_API_PRT) + sizeof(unsigned long) + sizeof(unsigned long)];
+    } JET_INDEXID;
+```
+
+### <a name="members"></a>成員
+
+**cbStruct**
+
+索引識別碼的大小（以位元組為單位）。
+
+這是在 [JetGetIndexInfo](./jetgetindexinfo-function.md) 或 [JetGetTableIndexInfo](./jetgettableindexinfo-function.md)輸出緩衝區中傳回的索引識別碼實際大小。
+
+**rgbIndexId**
+
+引擎用來快速識別其架構快取中索引的不透明資訊 BLOB。
+
+請勿嘗試解讀資訊的 BLOB。 它不是設定的大小。
+
+### <a name="requirements"></a>規格需求
+
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><p><strong>用戶端</strong></p></td>
+<td><p>需要 Windows Vista、Windows XP 或 Windows 2000 Professional。</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>伺服器</strong></p></td>
+<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+</tr>
+<tr class="odd">
+<td><p><strong>標頭</strong></p></td>
+<td><p>宣告于 Esent. h 中。</p></td>
+</tr>
+</tbody>
+</table>
+
+
+### <a name="see-also"></a>另請參閱
+
+[JetGetIndexInfo](./jetgetindexinfo-function.md)  
+[JetGetTableIndexInfo](./jetgettableindexinfo-function.md)  
+[JetGetTableInfo](./jetgettableinfo-function.md)  
+[JetSetCurrentIndex](./jetsetcurrentindex-function.md)
