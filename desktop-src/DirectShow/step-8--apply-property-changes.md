@@ -1,0 +1,43 @@
+---
+description: 步驟 8。
+ms.assetid: c54745ef-beeb-40b6-9db6-6e3b5da860f8
+title: 步驟 8。 套用屬性變更
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 46425613b8f23981a7b288121dc1a4ab0945452e
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "107001741"
+---
+# <a name="step-8-apply-property-changes"></a>步驟 8。 套用屬性變更
+
+覆寫 [**CBasePropertyPage：： OnApplyChanges**](cbasepropertypage-onapplychanges.md) 方法，以認可任何屬性變更。 在此範例中， \_ 每當使用者滾動滑動軸時，就會更新 m lNewVal 變數。 **OnApplyChanges** 方法會將此值複製到 m \_ lVal 變數，並覆寫原始值：
+
+
+```C++
+HRESULT CGrayProp::OnApplyChanges(void)
+{
+    m_lVal = m_lNewVal;
+    return S_OK;
+} 
+```
+
+
+
+下一 [步：步驟9。中斷屬性頁面的連接](step-9--disconnect-the-property-page.md)。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[建立篩選屬性頁](creating-a-filter-property-page.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
