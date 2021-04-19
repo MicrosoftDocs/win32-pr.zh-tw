@@ -11,12 +11,12 @@ keywords:
 - IDWriteTextLayout 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30fcf884c15015af2645c32e217d3b4a6b433554
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9e5790742a3d3caf7f962a6b5e2b3111c626f28
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186077"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380752"
 ---
 # <a name="text-formatting-and-layout"></a>文字格式設定和版面配置
 
@@ -43,7 +43,7 @@ ms.locfileid: "104186077"
 
 一旦建立 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 介面之後，就無法變更部分值：字型系列、集合、粗細和大小，以及地區設定名稱。 若要變更這些值，必須建立新的 **IDWriteTextFormat** 物件。
 
-[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 可讓您變更上述屬性，而不需要重新建立 anthing。 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 可讓您進行套用至整個文字的格式變更，例如文字對齊。 如果您想要將格式設定套用至特定字元範圍，您應該使用 **IDWriteTextLayout**。
+[**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 可讓您變更上述屬性，而不需要重新建立任何內容。 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 可讓您進行套用至整個文字的格式變更，例如文字對齊。 如果您想要將格式設定套用至特定字元範圍，您應該使用 **IDWriteTextLayout**。
 
 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat) 提供的方法可設定文字對齊、流動方向、累加式定位停駐點、行間距、段落對齊、修剪和自動換行。 這些屬性可以在建立 **IDWriteTextFormat** 物件之後隨時變更。
 
@@ -107,6 +107,6 @@ if (SUCCEEDED(hr))
 2.  [使用自訂文字](how-to-implement-a-custom-text-renderer.md)轉譯器進行轉譯。
 3.  轉譯[為 GDI 表面](render-to-a-gdi-surface.md)。
 
- 
+ 
 
- 
+ 
