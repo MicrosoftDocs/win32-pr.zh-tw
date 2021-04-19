@@ -62,12 +62,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 510f718608363c547c8333279826cc8bac141358
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e8979b4e4842a4c84317b456802ed8f1beefea35
+ms.sourcegitcommit: 1d3c59a7066a75facc0565027251cad1ca1dd9c9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195799"
+ms.lasthandoff: 04/18/2021
+ms.locfileid: "107594163"
 ---
 # <a name="semantics"></a>語意
 
@@ -98,7 +98,9 @@ Direct3D 9 和 Direct3D 10 和更新版本都支援下列類型的語法。
 | PSIZE \[ n\] | 點大小 | FLOAT |
 | 正切函數 \[ n\] | 正切值 | float4 |
 | TEXCOORD \[ n\] | 材質座標 | float4 |
+
 | 輸出 | 描述 | 類型 |
+|-|-|-|
 | 色彩 \[ n\] | 擴散或反射色彩 | float4 |
 | 霧 | 頂點霧化 | FLOAT |
 | 位置 \[ n\] | 頂點在同質空間中的位置。 藉由將 (x、y、z) 除以 w 來計算螢幕空間中的位置。 每個頂點著色器都必須寫出具有此語義的參數。 | float4 |
@@ -150,22 +152,22 @@ Direct3D 9 和 Direct3D 10 和更新版本都支援下列類型的語法。
 <td>圖元位置 (x，y) 在螢幕空間中。 若要將使用此語義) 的 Direct3D 9 著色器 (轉換為 Direct3D 10 和更新版本的著色器，請參閱 <a href="#direct3d-9-vpos-and-direct3d-10-sv_position">direct3d 9 VPOS 和 direct3d 10 SV_Position</a>) </td>
 <td>float2</td>
 </tr>
-<tr class="odd">
-<td>輸出</td>
-<td>描述</td>
-<td>類型</td>
+</tbody>
+</table>
+
+<table>
+<th>輸出</th>
+<th>描述</th>
+<th>類型</th>
 </tr>
-<tr class="even">
 <td>色彩 [n]</td>
 <td>輸出色彩</td>
 <td>float4</td>
 </tr>
-<tr class="odd">
 <td>深度 [n]</td>
 <td>輸出深度</td>
 <td>FLOAT</td>
 </tr>
-</tbody>
 </table>
 
 `n` 這是介於0和支援的資源數目之間的選擇性整數。 例如，PSIZE0、COLOR1 等。
