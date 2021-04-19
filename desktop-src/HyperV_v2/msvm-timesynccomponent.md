@@ -1,0 +1,886 @@
+---
+description: 代表時間同步處理服務的狀態，此服務負責同步處理虛擬機器的系統時間與管理作業系統中執行之作業系統的系統時間。
+ms.assetid: 551A81E9-E924-4A9C-965D-02FF25EE4A49
+title: Msvm_TimeSyncComponent 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Msvm_TimeSyncComponent
+- Msvm_TimeSyncComponent.SetPowerState
+- Msvm_TimeSyncComponent.EnableDevice
+- Msvm_TimeSyncComponent.OnlineDevice
+- Msvm_TimeSyncComponent.QuiesceDevice
+- Msvm_TimeSyncComponent.SaveProperties
+- Msvm_TimeSyncComponent.RestoreProperties
+- Msvm_TimeSyncComponent.InstanceID
+- Msvm_TimeSyncComponent.Caption
+- Msvm_TimeSyncComponent.Description
+- Msvm_TimeSyncComponent.ElementName
+- Msvm_TimeSyncComponent.InstallDate
+- Msvm_TimeSyncComponent.Name
+- Msvm_TimeSyncComponent.OperationalStatus
+- Msvm_TimeSyncComponent.StatusDescriptions
+- Msvm_TimeSyncComponent.Status
+- Msvm_TimeSyncComponent.HealthState
+- Msvm_TimeSyncComponent.CommunicationStatus
+- Msvm_TimeSyncComponent.DetailedStatus
+- Msvm_TimeSyncComponent.OperatingStatus
+- Msvm_TimeSyncComponent.PrimaryStatus
+- Msvm_TimeSyncComponent.EnabledState
+- Msvm_TimeSyncComponent.OtherEnabledState
+- Msvm_TimeSyncComponent.RequestedState
+- Msvm_TimeSyncComponent.EnabledDefault
+- Msvm_TimeSyncComponent.TimeOfLastStateChange
+- Msvm_TimeSyncComponent.AvailableRequestedStates
+- Msvm_TimeSyncComponent.TransitioningToState
+- Msvm_TimeSyncComponent.SystemCreationClassName
+- Msvm_TimeSyncComponent.SystemName
+- Msvm_TimeSyncComponent.CreationClassName
+- Msvm_TimeSyncComponent.DeviceID
+- Msvm_TimeSyncComponent.PowerManagementSupported
+- Msvm_TimeSyncComponent.PowerManagementCapabilities
+- Msvm_TimeSyncComponent.Availability
+- Msvm_TimeSyncComponent.StatusInfo
+- Msvm_TimeSyncComponent.LastErrorCode
+- Msvm_TimeSyncComponent.ErrorDescription
+- Msvm_TimeSyncComponent.ErrorCleared
+- Msvm_TimeSyncComponent.OtherIdentifyingInfo
+- Msvm_TimeSyncComponent.PowerOnHours
+- Msvm_TimeSyncComponent.TotalPowerOnHours
+- Msvm_TimeSyncComponent.IdentifyingDescriptions
+- Msvm_TimeSyncComponent.AdditionalAvailability
+- Msvm_TimeSyncComponent.MaxQuiesceTime
+api_type:
+- DllExport
+api_location:
+- vmms.exe
+ms.openlocfilehash: ea9a33d665a315861d9e6c51fd529f10f07b4aab
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106987419"
+---
+# <a name="msvm_timesynccomponent-class"></a>Msvm \_ TimeSyncComponent 類別
+
+代表時間同步處理服務的狀態，此服務負責同步處理虛擬機器的系統時間與管理作業系統中執行之作業系統的系統時間。
+
+下列語法已簡化受控物件格式 (MOF) 程式碼，並且包含所有繼承的屬性。
+
+## <a name="syntax"></a>語法
+
+``` syntax
+[Dynamic, Provider("VmmsWmiInstanceAndMethodProvider"), AMENDMENT]
+class Msvm_TimeSyncComponent : CIM_LogicalDevice
+{
+  string   InstanceID;
+  string   Caption = "Time Synchronization";
+  string   Description = "Microsoft Time Synchronization Service";
+  string   ElementName = "Time Synchronization";
+  datetime InstallDate;
+  string   Name = "Time Synchronization";
+  uint16   OperationalStatus[] = { 2 };
+  string   StatusDescriptions[] = {"OK"};
+  string   Status;
+  uint16   HealthState = 5;
+  uint16   CommunicationStatus;
+  uint16   DetailedStatus;
+  uint16   OperatingStatus;
+  uint16   PrimaryStatus;
+  uint16   EnabledState = 2;
+  string   OtherEnabledState;
+  uint16   RequestedState = 12;
+  uint16   EnabledDefault = 7;
+  datetime TimeOfLastStateChange;
+  uint16   AvailableRequestedStates[];
+  uint16   TransitioningToState = 12;
+  string   SystemCreationClassName = "Msvm_ComputerSystem";
+  string   SystemName;
+  string   CreationClassName = "Msvm_TimeSyncComponent";
+  string   DeviceID;
+  boolean  PowerManagementSupported;
+  uint16   PowerManagementCapabilities[];
+  uint16   Availability = 6;
+  uint16   StatusInfo;
+  uint32   LastErrorCode;
+  string   ErrorDescription;
+  boolean  ErrorCleared;
+  string   OtherIdentifyingInfo[];
+  uint64   PowerOnHours;
+  uint64   TotalPowerOnHours;
+  string   IdentifyingDescriptions[];
+  uint16   AdditionalAvailability[] = {6};
+  uint64   MaxQuiesceTime;
+};
+```
+
+## <a name="members"></a>成員
+
+**Msvm \_ TimeSyncComponent** 類別具有下列類型的成員：
+
+-   [方法](#methods)
+-   [屬性](#properties)
+
+### <a name="methods"></a>方法
+
+**Msvm \_ TimeSyncComponent** 類別具有這些方法。
+
+
+
+| 方法                                                                  | 描述                              |
+|:------------------------------------------------------------------------|:-----------------------------------------|
+| **EnableDevice**                                                        | 不支援這個方法。<br/> |
+| **OnlineDevice**                                                        | 不支援這個方法。<br/> |
+| **QuiesceDevice**                                                       | 不支援這個方法。<br/> |
+| [**RequestStateChange**](msvm-timesynccomponent-requeststatechange.md) | 要求狀態變更。<br/>      |
+| [**重設**](msvm-timesynccomponent-reset.md)                           | 重設元件。<br/>         |
+| **RestoreProperties**                                                   | 不支援這個方法。<br/> |
+| **SaveProperties**                                                      | 不支援這個方法。<br/> |
+| **SetPowerState**                                                       | 不支援這個方法。<br/> |
+
+
+
+ 
+
+### <a name="properties"></a>屬性
+
+**Msvm \_ TimeSyncComponent** 類別具有這些屬性。
+
+<dl> <dt>
+
+**AdditionalAvailability**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+裝置的任何額外可用性和狀態。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 6 (不適用) 。
+
+</dd> <dt>
+
+**可用性**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+裝置的主要可用性和狀態。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。
+
+
+
+| 值                                                                        | 意義                   |
+|------------------------------------------------------------------------------|---------------------------|
+| <dl> <dt>6</dt> </dl> | 不適用<br/> |
+
+
+
+ 
+
+</dd> <dt>
+
+**AvailableRequestedStates**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出 **RequestStateChange** 方法的 *RequestedState* 參數可能的值。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。
+
+</dd> <dt>
+
+**標題**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+物件的簡短描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。
+
+</dd> <dt>
+
+**CommunicationStatus**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出檢測與基礎受管理元素通訊的能力。 **Null** 值表示不會執行此屬性。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+<dl> <dt>
+
+<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) 
+</dt> <dt>
+
+<span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**
+</dt> <dt>
+
+<span id="Communication_OK"></span><span id="communication_ok"></span><span id="COMMUNICATION_OK"></span>**通訊正常** (2) 
+</dt> <dt>
+
+<span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span>**遺失通訊** (3) 
+</dt> <dt>
+
+<span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span>**沒有連絡人** (4) 
+</dt> <dt>
+
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) 
+</dt> <dt>
+
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。 )
+</dt> </dl>
+
+</dd> <dt>
+
+**CreationClassName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+範圍系統的建立類別名稱。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。
+
+</dd> <dt>
+
+**說明**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+對物件的描述。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。
+
+</dd> <dt>
+
+**DetailedStatus**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+補充 **PrimaryStatus** 屬性與其他狀態詳細資料。 **Null** 值表示不會執行此屬性。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+<dl> <dt>
+
+<span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (0) **無法使用**
+</dt> <dt>
+
+<span id="No_Additional_Information"></span><span id="no_additional_information"></span><span id="NO_ADDITIONAL_INFORMATION"></span>**沒有其他資訊** (1) 
+</dt> <dt>
+
+<span id="Stressed"></span><span id="stressed"></span><span id="STRESSED"></span>**壓力** (2) 
+</dt> <dt>
+
+<span id="Predictive_Failure"></span><span id="predictive_failure"></span><span id="PREDICTIVE_FAILURE"></span>**預測性失敗** (3) 
+</dt> <dt>
+
+<span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span>**無法復原的錯誤** (4) 
+</dt> <dt>
+
+<span id="Supporting_Entity_in_Error"></span><span id="supporting_entity_in_error"></span><span id="SUPPORTING_ENTITY_IN_ERROR"></span>**錯誤中的支援實體** (5) 
+</dt> <dt>
+
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) 
+</dt> <dt>
+
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。 )
+</dt> </dl>
+
+</dd> <dt>
+
+**DeviceID**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+用來唯一命名邏輯裝置的位址或其他識別資訊。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，而且一律設定為 "Microsoft：*VMGUID* \\ *GUID*"，其中 *VMGUID* 是與此裝置相關聯之 [**Msvm 實例 \_**](msvm-computersystem.md) **名稱的名稱** 屬性。
+
+</dd> <dt>
+
+**ElementName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+物件的顯示名稱。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。
+
+</dd> <dt>
+
+**EnabledDefault**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+系統管理員的預設或啟動設定，適用于元素的 **EnabledState** 。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。
+
+
+
+| 值                                                                        | 意義               |
+|------------------------------------------------------------------------------|-----------------------|
+| <dl> <dt>7</dt> </dl> | 沒有預設值<br/> |
+
+
+
+ 
+
+</dd> <dt>
+
+**EnabledState**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+專案的已啟用和停用狀態。 這個屬性會繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)) ，而且會設定為 2 (啟用) 或 3 (停用) 。
+
+
+
+| 值                                                                        | 意義             |
+|------------------------------------------------------------------------------|---------------------|
+| <dl> <dt>2</dt> </dl> | 已啟用<br/>  |
+| <dl> <dt>3</dt> </dl> | Disabled<br/> |
+
+
+
+ 
+
+</dd> <dt>
+
+**ErrorCleared**
+</dt> <dd> <dl> <dt>
+
+資料類型： **布林值**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出現在是否已清除 **LastErrorCode** 屬性中所報告的錯誤。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**ErrorDescription**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+字串，提供 **LastErrorCode** 屬性中所記錄錯誤的詳細資訊，以及任何可能採取之矯正措施的相關資訊。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**HealthState**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+專案目前的健康情況。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+
+
+| 值                                                                        | 意義       |
+|------------------------------------------------------------------------------|---------------|
+| <dl> <dt>5</dt> </dl> | 確定<br/> |
+
+
+
+ 
+
+</dd> <dt>
+
+**IdentifyingDescriptions**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+自由格式字串的陣列，可提供 **OtherIdentifyingInfo** 屬性陣列中專案背後的說明和詳細資料。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**InstallDate**
+</dt> <dd> <dl> <dt>
+
+資料類型： **datetime**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+整合服務安裝到虛擬機器的日期和時間。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+</dd> <dt>
+
+**InstanceID**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞：索引 **鍵**
+</dt> </dl>
+
+唯一識別此類別的實例。 這個屬性繼承自 [**CIM \_ ManagedElement**](/previous-versions/windows/desktop/iscsitarg/cim-managedelement)。
+
+</dd> <dt>
+
+**LastErrorCode**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+邏輯裝置所報告的最後一個錯誤碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**MaxQuiesceTime**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint64**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+這個屬性已被取代。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。
+
+</dd> <dt>
+
+**名稱**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+已知物件的標籤。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+</dd> <dt>
+
+**OperatingStatus**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+提供專案操作條件的目前狀態資訊，並可用於提供關於 **EnabledState** 屬性值的詳細資料。 **Null** 值表示不會執行此屬性。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+<dl> <dt>
+
+<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) 
+</dt> <dt>
+
+<span id="Not_Available"></span><span id="not_available"></span><span id="NOT_AVAILABLE"></span> (1) **無法使用**
+</dt> <dt>
+
+<span id="Servicing"></span><span id="servicing"></span><span id="SERVICING"></span>**服務** (2) 
+</dt> <dt>
+
+<span id="Starting"></span><span id="starting"></span><span id="STARTING"></span>**開始** (3) 
+</dt> <dt>
+
+<span id="Stopping"></span><span id="stopping"></span><span id="STOPPING"></span>**停止** (4) 
+</dt> <dt>
+
+<span id="Stopped"></span><span id="stopped"></span><span id="STOPPED"></span>**已停止** (5) 
+</dt> <dt>
+
+<span id="Aborted"></span><span id="aborted"></span><span id="ABORTED"></span>已 **中止** (6) 
+</dt> <dt>
+
+<span id="Dormant"></span><span id="dormant"></span><span id="DORMANT"></span>**休眠** (7) 
+</dt> <dt>
+
+<span id="Completed"></span><span id="completed"></span><span id="COMPLETED"></span>**已完成** (8) 
+</dt> <dt>
+
+<span id="Migrating"></span><span id="migrating"></span><span id="MIGRATING"></span>**遷移** (9) 
+</dt> <dt>
+
+<span id="Emigrating"></span><span id="emigrating"></span><span id="EMIGRATING"></span>**Emigrating** (10) 
+</dt> <dt>
+
+<span id="Immigrating"></span><span id="immigrating"></span><span id="IMMIGRATING"></span>**Immigrating** (11) 
+</dt> <dt>
+
+<span id="Snapshotting"></span><span id="snapshotting"></span><span id="SNAPSHOTTING"></span>**快照** (12) 
+</dt> <dt>
+
+<span id="Shutting_Down"></span><span id="shutting_down"></span><span id="SHUTTING_DOWN"></span>正在 **關閉** (13) 
+</dt> <dt>
+
+<span id="In_Test"></span><span id="in_test"></span><span id="IN_TEST"></span>**在測試** (14) 
+</dt> <dt>
+
+<span id="Transitioning"></span><span id="transitioning"></span><span id="TRANSITIONING"></span>**轉換** (15) 
+</dt> <dt>
+
+<span id="In_Service"></span><span id="in_service"></span><span id="IN_SERVICE"></span>**在服務** (16) 
+</dt> <dt>
+
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) 
+</dt> <dt>
+
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。 )
+</dt> </dl>
+
+</dd> <dt>
+
+**OperationalStatus**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+專案的目前狀態。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+以下是「 **OperationalStatus** \[ 0」屬性值的可能值 \] 。
+
+
+
+| 值                                                                                                                                                                                                                                                                               | 意義                                                                                                                                                                                                                                  |
+|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <dl> <dt>二級</dt> </dl>                                                                                                                                                                                                    |                                                                                                                                                                                                                                          |
+| <span id="OK"></span><span id="ok"></span><dl> <dt>**確定**</dt> <dt>2</dt> </dl>                                                                                                  | 服務正常運作。 **OperationalStatus** \[ 1 \] 和 **StatusDescriptions** \[ 1 \] 屬性值可能包含詳細資訊。<br/>                                                                               |
+| <span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span><dl> <dt>**降級**</dt> <dt>3</dt> </dl>                                                     | 服務正常運作，但來賓服務已協商相容的通訊協定版本。 **OperationalStatus** \[ 1 \] 和 **StatusDescriptions** \[ 1 \] 屬性值可能包含詳細資訊。<br/> |
+| <span id="Non-Recoverable_Error"></span><span id="non-recoverable_error"></span><span id="NON-RECOVERABLE_ERROR"></span><dl> <dt>**無法復原的錯誤**</dt> <dt>7</dt> </dl> | 來賓不支援相容的通訊協定版本。 **OperationalStatus** \[ 1 \] 和 **StatusDescriptions** \[ 1 \] 屬性值可能包含詳細資訊。<br/>                                                        |
+| <span id="No_Contact"></span><span id="no_contact"></span><span id="NO_CONTACT"></span><dl> <dt>**無連絡人**</dt> <dt>12</dt> </dl>                                            | 尚未安裝或尚未連線到來賓服務。<br/>                                                                                                                                                             |
+| <span id="Lost_Communication"></span><span id="lost_communication"></span><span id="LOST_COMMUNICATION"></span><dl> <dt>**遺失的通訊**</dt> <dt>13</dt> </dl>            | 來賓服務已不會再回應正常。<br/>                                                                                                                                                                           |
+
+
+
+ 
+
+</dd> <dt>
+
+**OtherEnabledState**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+當 **EnabledState** 屬性設定為 1 (其他) 時，元素的啟用或停用狀態。 當 **EnabledState** 屬性是1以外的任何值時，這個屬性必須設定為 **Null** 。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85)) ，一律設為 **Null**。
+
+</dd> <dt>
+
+**OtherIdentifyingInfo**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+除了裝置識別碼資訊以外的任何其他資料，可用來識別邏輯裝置。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) ，一律設為 **Null**。
+
+</dd> <dt>
+
+**PowerManagementCapabilities**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+裝置的電源管理功能。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**PowerManagementSupported**
+</dt> <dd> <dl> <dt>
+
+資料類型： **布林值**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出裝置是否可以受電源管理。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**PowerOnHours**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint64**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+此裝置自上一次電源週期起開啟電源的連續小時數。 這個屬性會繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice) ，但不會使用。
+
+</dd> <dt>
+
+**PrimaryStatus**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+提供高層級的狀態資訊。 這個屬性應該與 **DetailedStatus** 屬性一起使用，以提供元素和其子元件的高階和詳細健全狀況狀態。 **Null** 值表示不會執行此屬性。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+<dl> <dt>
+
+<span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span>**未知** 的 (0) 
+</dt> <dt>
+
+<span id="OK"></span><span id="ok"></span>**確定** (1) 
+</dt> <dt>
+
+<span id="Degraded"></span><span id="degraded"></span><span id="DEGRADED"></span> (2) **降級**
+</dt> <dt>
+
+<span id="Error"></span><span id="error"></span><span id="ERROR"></span>**錯誤** (3) 
+</dt> <dt>
+
+<span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>**DMTF 保留** ( .。。) 
+</dt> <dt>
+
+<span id="Vendor_Reserved_"></span><span id="vendor_reserved_"></span><span id="VENDOR_RESERVED_"></span>**廠商保留** (0x8000。 )
+</dt> </dl>
+
+</dd> <dt>
+
+**RequestedState**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+上次要求或預期的專案狀態。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。
+
+
+
+| 值                                                                         | 意義                   |
+|-------------------------------------------------------------------------------|---------------------------|
+| <dl> <dt>12</dt> </dl> | 不適用<br/> |
+
+
+
+ 
+
+</dd> <dt>
+
+**狀態**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+字串，指定物件的目前狀態。 這個屬性會繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement) ，但不會使用。
+
+</dd> <dt>
+
+**StatusDescriptions**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+描述各種 **OperationalStatus** 陣列值的字串。 這個屬性繼承自 [**CIM \_ ManagedSystemElement**](/windows/desktop/CIMWin32Prov/cim-managedsystemelement)。
+
+</dd> <dt>
+
+**StatusInfo**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+邏輯裝置的目前狀態。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**SystemCreationClassName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+範圍系統的建立類別名稱。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。
+
+</dd> <dt>
+
+**SystemName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+範圍系統的名稱。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)。
+
+</dd> <dt>
+
+**TimeOfLastStateChange**
+</dt> <dd> <dl> <dt>
+
+資料類型： **datetime**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+專案的已啟用狀態上次變更的日期或時間。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))，而且一律設定為 **Null**。
+
+</dd> <dt>
+
+**TotalPowerOnHours**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint64**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+此裝置已獲得電源的總時數。 這個屬性繼承自 [**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)，但不會使用它。
+
+</dd> <dt>
+
+**TransitioningToState**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint16**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+指出實例正在轉換的目標狀態。 這個屬性繼承自 [**CIM \_ EnabledLogicalElement**](/previous-versions//cc136818(v=vs.85))。
+
+
+
+| 值                                                                         | 意義                   |
+|-------------------------------------------------------------------------------|---------------------------|
+| <dl> <dt>12</dt> </dl> | 不適用<br/> |
+
+
+
+ 
+
+</dd> </dl>
+
+## <a name="remarks"></a>備註
+
+存取 **Msvm \_ TimeSyncComponent** 類別可能受 UAC 篩選所限制。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](/windows/desktop/WmiSdk/user-account-control-and-wmi)。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|---------------------------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
+| MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**CIM \_ LogicalDevice**](cim-logicaldevice.md)
+</dt> <dt>
+
+[**CIM \_ LogicalDevice**](/windows/desktop/CIMWin32Prov/cim-logicaldevice)
+</dt> </dl>
+
+ 
+
