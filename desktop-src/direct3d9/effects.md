@@ -1,0 +1,68 @@
+---
+description: Microsoft DirectX 效果可讓頂點和圖元著色器與管線狀態整合，以轉譯物件。 效果是合併著色器以產生獨特轉譯條件的下一個邏輯步驟。
+ms.assetid: vs|directx_sdk|~\effects.htm
+title: " (Direct3D 9) 的效果"
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d48d2ff5548dff29ede4b360bd2c319f85fafa3e
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "106972527"
+---
+# <a name="effects-direct3d-9"></a><span data-ttu-id="f9a91-104"> (Direct3D 9) 的效果</span><span class="sxs-lookup"><span data-stu-id="f9a91-104">Effects (Direct3D 9)</span></span>
+
+<span data-ttu-id="f9a91-105">Microsoft DirectX 效果可讓頂點和圖元著色器與管線狀態整合，以轉譯物件。</span><span class="sxs-lookup"><span data-stu-id="f9a91-105">A Microsoft DirectX effect enables the integration of vertex and pixel shaders with pipeline state to render objects.</span></span> <span data-ttu-id="f9a91-106">效果是合併著色器以產生獨特轉譯條件的下一個邏輯步驟。</span><span class="sxs-lookup"><span data-stu-id="f9a91-106">Effects are the next logical step in combining shaders to produce unique render conditions.</span></span>
+
+<span data-ttu-id="f9a91-107">效果也提供方便的方式來撰寫不同硬體版本的著色器。</span><span class="sxs-lookup"><span data-stu-id="f9a91-107">Effects also provide a convenient way to write shaders for different hardware versions.</span></span> <span data-ttu-id="f9a91-108">因為不同的視訊卡支援不同的功能，所以應用程式可以撰寫數個可在各種裝置上執行的技術。</span><span class="sxs-lookup"><span data-stu-id="f9a91-108">Because different video cards support different functionalities, an application can write several techniques that will run on a variety of devices.</span></span> <span data-ttu-id="f9a91-109">如此一來，如果應用程式是在最新且最棒的硬體上執行，則應用程式可以執行最複雜的效果技巧。</span><span class="sxs-lookup"><span data-stu-id="f9a91-109">This way, if the application is running on the latest and greatest hardware, the application can run the most sophisticated effect technique.</span></span> <span data-ttu-id="f9a91-110">另一方面，較不復雜的效果技巧也可以自動選擇在成本較低或功能較低的硬體上執行。</span><span class="sxs-lookup"><span data-stu-id="f9a91-110">On the other hand, less sophisticated effect techniques can automatically be chosen to run on less-expensive or less-capable hardware.</span></span>
+
+<span data-ttu-id="f9a91-111">效果可以取代頂點處理和圖形管線所執行之圖元處理的一部分。</span><span class="sxs-lookup"><span data-stu-id="f9a91-111">An effect can replace the vertex processing and part of the pixel processing performed by the graphics pipeline.</span></span> <span data-ttu-id="f9a91-112">BasicHLSL 範例中使用頂點著色器和圖元著色器的效果範例。</span><span class="sxs-lookup"><span data-stu-id="f9a91-112">An example of an effect that uses a vertex shader and a pixel shader is in the BasicHLSL Sample.</span></span> <span data-ttu-id="f9a91-113">您可以從 DirectX SDK 取得此範例並瞭解它。</span><span class="sxs-lookup"><span data-stu-id="f9a91-113">You can get this sample and learn about it from the DirectX SDK.</span></span> <span data-ttu-id="f9a91-114">如需有關 DirectX SDK 的資訊，請參閱 [什麼是 DIRECTX sdk？](../directx-sdk--august-2009-.md)。</span><span class="sxs-lookup"><span data-stu-id="f9a91-114">For info about the DirectX SDK, see [Where is the DirectX SDK?](../directx-sdk--august-2009-.md).</span></span>
+
+<span data-ttu-id="f9a91-115">如需效果的詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="f9a91-115">For more information about effects, see these topics:</span></span>
+
+-   [<span data-ttu-id="f9a91-116">寫入效果</span><span class="sxs-lookup"><span data-stu-id="f9a91-116">Writing an Effect</span></span>](writing-an-effect.md)
+-   [<span data-ttu-id="f9a91-117">使用效果</span><span class="sxs-lookup"><span data-stu-id="f9a91-117">Using an Effect</span></span>](using-an-effect.md)
+
+## <a name="effects-and-the-3d-pipeline"></a><span data-ttu-id="f9a91-118">效果和3D 管線</span><span class="sxs-lookup"><span data-stu-id="f9a91-118">Effects and the 3D Pipeline</span></span>
+
+<span data-ttu-id="f9a91-119">下圖顯示管線。</span><span class="sxs-lookup"><span data-stu-id="f9a91-119">The following diagram shows the pipeline.</span></span>
+
+![3d 管線的圖表](images/effects-block-diagram.png)
+
+<span data-ttu-id="f9a91-121">管線會將輸入資料轉換成填滿框架緩衝區的輸出圖元。</span><span class="sxs-lookup"><span data-stu-id="f9a91-121">The pipeline transforms input data into output pixels that fill the frame buffer.</span></span> <span data-ttu-id="f9a91-122">輸入資料來自物件空間中的頂點所組成的物件，或是從 N 個修補程式、矩形修補程式和三角形修補程式所建立的更高順序的表面。</span><span class="sxs-lookup"><span data-stu-id="f9a91-122">The input data comes from objects that are made up of vertices in object space, or higher-order surfaces created from N-patches, rectangle patches, and triangle patches.</span></span> <span data-ttu-id="f9a91-123">鑲嵌輸入資料之後，管線會在產生最終圖元色彩之前，先執行頂點處理、基本處理和圖元處理。</span><span class="sxs-lookup"><span data-stu-id="f9a91-123">Once the input data has been tessellated, the pipeline performs vertex processing, primitive processing, and pixel processing before generating the final pixel colors.</span></span>
+
+<span data-ttu-id="f9a91-124">頂點和圖元處理可以由固定函式管線執行，也可以使用可程式化著色器來執行。</span><span class="sxs-lookup"><span data-stu-id="f9a91-124">Vertex and pixel processing can be performed by the fixed function pipeline, or can be implemented with programmable shaders.</span></span> <span data-ttu-id="f9a91-125">輸入資料鑲嵌、基本處理和資料輸出都是由管線狀態所控制。</span><span class="sxs-lookup"><span data-stu-id="f9a91-125">The input data tessellation, primitive processing, and data outputs are controlled by pipeline state.</span></span> <span data-ttu-id="f9a91-126">這一切都可以整合到效果中。</span><span class="sxs-lookup"><span data-stu-id="f9a91-126">All this can be integrated into an effect.</span></span> <span data-ttu-id="f9a91-127">效果會設定控制管線功能的狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-127">An effect sets the state that controls how the pipeline functions.</span></span> <span data-ttu-id="f9a91-128">效果會管理可程式化著色器以及固定的函式狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-128">Effects manage programmable shaders as well as fixed function state.</span></span>
+
+<span data-ttu-id="f9a91-129">效果可以儲存和還原狀態，讓裝置處於效果執行之前的相同狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-129">Effects can save and restore state, leaving the device in the same state as before the effect was run.</span></span> <span data-ttu-id="f9a91-130">效果可以管理的狀態類型包括：</span><span class="sxs-lookup"><span data-stu-id="f9a91-130">The types of state that an effect can manage include:</span></span>
+
+-   <span data-ttu-id="f9a91-131">著色器狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-131">Shader state.</span></span> <span data-ttu-id="f9a91-132">這包括建立和刪除著色器、設定著色器常數、設定著色器狀態，以及使用著色器呈現。</span><span class="sxs-lookup"><span data-stu-id="f9a91-132">This includes creating and deleting shaders, setting shader constants, setting shader state, and rendering with shaders.</span></span>
+-   <span data-ttu-id="f9a91-133">材質和取樣器狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-133">Texture and sampler state.</span></span> <span data-ttu-id="f9a91-134">這包括指定材質檔、初始化材質階段、建立取樣器物件，以及設定取樣器狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-134">This includes specifying texture files, initializing texture stages, creating sampler objects, and setting sampler state.</span></span>
+-   <span data-ttu-id="f9a91-135">其他管線狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-135">Other pipeline state.</span></span> <span data-ttu-id="f9a91-136">這包括設定轉換、光源、材質和轉譯選項的狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-136">This includes states for setting transformations, lighting, materials, and rendering options.</span></span> <span data-ttu-id="f9a91-137">這些可以是全域變數或區域變數。</span><span class="sxs-lookup"><span data-stu-id="f9a91-137">These can be global or local variables.</span></span> <span data-ttu-id="f9a91-138">變數可以由效果本身或應用程式來設定。</span><span class="sxs-lookup"><span data-stu-id="f9a91-138">The variables can be set by either the effect itself or by the application.</span></span>
+
+<span data-ttu-id="f9a91-139">效果包含多種轉譯選項，稱為技術。</span><span class="sxs-lookup"><span data-stu-id="f9a91-139">Effects contain multiple rendering options called techniques.</span></span> <span data-ttu-id="f9a91-140">每個技巧都會封裝全域變數、管線狀態、材質和取樣器狀態，以及著色器狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-140">Each technique encapsulates global variables, pipeline state, texture and sampler state, and shader state.</span></span> <span data-ttu-id="f9a91-141">單一樣式是在轉譯階段中執行。</span><span class="sxs-lookup"><span data-stu-id="f9a91-141">A single style is implemented in a rendering pass.</span></span> <span data-ttu-id="f9a91-142">一或多個傳遞可封裝在技術中。</span><span class="sxs-lookup"><span data-stu-id="f9a91-142">One or more passes can be encapsulated in a technique.</span></span> <span data-ttu-id="f9a91-143">您可以驗證所有的傳遞和技術，以查看效果程式碼是否會在硬體裝置上執行。</span><span class="sxs-lookup"><span data-stu-id="f9a91-143">All of the passes and techniques can be validated to see if the effect code will run on the hardware device.</span></span>
+
+## <a name="effects-save-and-restore-state"></a><span data-ttu-id="f9a91-144">效果儲存與還原狀態</span><span class="sxs-lookup"><span data-stu-id="f9a91-144">Effects Save and Restore State</span></span>
+
+<span data-ttu-id="f9a91-145">效果：管理狀態。</span><span class="sxs-lookup"><span data-stu-id="f9a91-145">Effects manage state.</span></span> <span data-ttu-id="f9a91-146">此字組在此非常廣泛使用，因為它包含管線需要用來指定轉譯條件的所有資訊類型。</span><span class="sxs-lookup"><span data-stu-id="f9a91-146">The word state is used very broadly here as it includes all kinds of information that the pipeline needs to specify the render conditions.</span></span> <span data-ttu-id="f9a91-147">這包括幾乎所有管線的功能區域。</span><span class="sxs-lookup"><span data-stu-id="f9a91-147">This includes nearly all the functional areas of the pipeline.</span></span>
+
+<span data-ttu-id="f9a91-148">轉譯選項是由技術和傳遞所控制。</span><span class="sxs-lookup"><span data-stu-id="f9a91-148">Rendering options are controlled by techniques and passes.</span></span> <span data-ttu-id="f9a91-149">應用程式會藉由設定一項作用中的技術，以及轉譯一或多個階段來呈現效果。</span><span class="sxs-lookup"><span data-stu-id="f9a91-149">An application renders an effect by setting one active technique, and rendering one or more passes.</span></span> <span data-ttu-id="f9a91-150">效果中的所有轉譯都是在成對的 [**Begin**](id3dxeffect--begin.md) 和 [**End**](id3dxeffect--end.md) 呼叫中完成。</span><span class="sxs-lookup"><span data-stu-id="f9a91-150">All rendering in an effect is done within a matching pair of [**Begin**](id3dxeffect--begin.md) and [**End**](id3dxeffect--end.md) calls.</span></span> <span data-ttu-id="f9a91-151">呼叫 **Begin** 時，會建立 stateblock，並將裝置狀態儲存 (除非您另行指定) 。</span><span class="sxs-lookup"><span data-stu-id="f9a91-151">When **Begin** is called, a stateblock is created and device state is saved (unless you specify otherwise).</span></span> <span data-ttu-id="f9a91-152">在技術轉譯應用程式所指定要呈現的傳遞之後，會呼叫 **end** 以結束使用中的技術。</span><span class="sxs-lookup"><span data-stu-id="f9a91-152">After a technique renders the passes that the application specifies to render, **End** is called to end the active technique.</span></span> <span data-ttu-id="f9a91-153">如果您選擇停用此儲存和還原功能) ，效果系統就會自動還原在狀態欄塊 (中所捕捉的管線狀態，以進行回應。</span><span class="sxs-lookup"><span data-stu-id="f9a91-153">The effect system responds by automatically restoring the pipeline state that was captured in the state block (unless you choose to disable this save and restore functionality).</span></span>
+
+<span data-ttu-id="f9a91-154">當程式設計多重傳遞轉譯順序時，每一個都需要它自己的狀態設定，效果可以減少追蹤狀態變更所需的維護。</span><span class="sxs-lookup"><span data-stu-id="f9a91-154">When programming multiple-pass rendering sequences, each of which requires its own state setup, effects can reduce the housekeeping required for tracking state changes.</span></span> <span data-ttu-id="f9a91-155">若要查看可透過效果儲存和還原之狀態的詳細資訊，請參閱 [效果狀態 (Direct3D 9) ](effect-states.md)。</span><span class="sxs-lookup"><span data-stu-id="f9a91-155">To see more information about the states that can be saved and restored by effects, see [Effect States (Direct3D 9)](effect-states.md).</span></span>
+
+## <a name="effects-can-share-parameters"></a><span data-ttu-id="f9a91-156">效果可以共用參數</span><span class="sxs-lookup"><span data-stu-id="f9a91-156">Effects Can Share Parameters</span></span>
+
+<span data-ttu-id="f9a91-157">效果參數是在效果中宣告的所有非靜態變數。</span><span class="sxs-lookup"><span data-stu-id="f9a91-157">Effect parameters are all the non-static variables declared in an effect.</span></span> <span data-ttu-id="f9a91-158">這可能包括全域變數和批註。</span><span class="sxs-lookup"><span data-stu-id="f9a91-158">This can include global variables and annotations.</span></span> <span data-ttu-id="f9a91-159">您可以使用 shared 關鍵字宣告參數，然後使用效果集區來建立效果，以在不同效果之間共用效果參數。</span><span class="sxs-lookup"><span data-stu-id="f9a91-159">Effect parameters can be shared between different effects by declaring parameters with the shared keyword and then creating the effect with an effect pool.</span></span>
+
+<span data-ttu-id="f9a91-160">複製的效果會使用與複製的效果相同的效果集區。</span><span class="sxs-lookup"><span data-stu-id="f9a91-160">Cloned effects use the same effect pool as the effect from which they are cloned.</span></span> <span data-ttu-id="f9a91-161">複製效果會產生效果的完整複本，包括全域變數、技術、傳遞和批註。</span><span class="sxs-lookup"><span data-stu-id="f9a91-161">Cloning an effect makes an exact copy of an effect, including global variables, techniques, passes, and annotations.</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="f9a91-162">相關主題</span><span class="sxs-lookup"><span data-stu-id="f9a91-162">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="f9a91-163">Direct3D 9 程式設計指南</span><span class="sxs-lookup"><span data-stu-id="f9a91-163">Programming Guide for Direct3D 9</span></span>](dx9-graphics-programming-guide.md)
+</dt> </dl>
+
+ 
+
+ 

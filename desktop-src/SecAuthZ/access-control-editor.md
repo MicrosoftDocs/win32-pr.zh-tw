@@ -1,0 +1,41 @@
+---
+description: 一組屬性工作表和屬性頁，可讓使用者查看和修改物件安全描述項的元件。
+ms.assetid: ca709f27-8463-4f11-92ac-2148796e640a
+title: 存取控制編輯器
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 65117fe086b6a374dbd973f2cb657ec9c19cc3a7
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106992054"
+---
+# <a name="access-control-editor"></a><span data-ttu-id="858ce-103">存取控制編輯器</span><span class="sxs-lookup"><span data-stu-id="858ce-103">Access Control Editor</span></span>
+
+<span data-ttu-id="858ce-104">存取控制編輯器是一組屬性工作表和屬性頁，可讓使用者查看及修改物件 [*安全描述項*](/windows/desktop/SecGloss/s-gly)的元件。</span><span class="sxs-lookup"><span data-stu-id="858ce-104">The access control editor is a set of property sheets and property pages that enable the user to view and modify the components of an object's [*security descriptor*](/windows/desktop/SecGloss/s-gly).</span></span> <span data-ttu-id="858ce-105">編輯器是由兩個主要部分所組成：</span><span class="sxs-lookup"><span data-stu-id="858ce-105">The editor consists of two main parts:</span></span>
+
+-   <span data-ttu-id="858ce-106">[基本的安全性屬性頁](basic-security-property-page.md)，提供簡單的介面，可讓您在物件的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly)中編輯 [*存取控制專案*](/windows/desktop/SecGloss/a-gly) (ace)  (DACL) 。</span><span class="sxs-lookup"><span data-stu-id="858ce-106">A [basic security property page](basic-security-property-page.md) that provides a simple interface for editing the [*access control entries*](/windows/desktop/SecGloss/a-gly) (ACEs) in an object's [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL).</span></span> <span data-ttu-id="858ce-107">此頁面可以包含可顯示 [advanced security] 屬性工作表的選擇性 [ **advanced** ] 按鈕。</span><span class="sxs-lookup"><span data-stu-id="858ce-107">This page can include an optional **Advanced** button that displays the advanced security property sheet.</span></span>
+-   <span data-ttu-id="858ce-108">具有屬性頁的 [advanced security 屬性工作表](advanced-security-property-sheet.md) ，可讓使用者編輯物件的 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly) (SACL) 、變更物件的擁有者，或執行物件 DACL 的先進編輯。</span><span class="sxs-lookup"><span data-stu-id="858ce-108">An [advanced security property sheet](advanced-security-property-sheet.md) with property pages that enable the user to edit the object's [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL), change the object's owner, or perform advanced editing of the object's DACL.</span></span>
+
+<span data-ttu-id="858ce-109">[**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage)函式會建立 [基本安全性] 屬性頁。</span><span class="sxs-lookup"><span data-stu-id="858ce-109">The [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) function creates the basic security property page.</span></span> <span data-ttu-id="858ce-110">然後，您可以使用 [**PropertySheet**](/windows/win32/api/prsht/nf-prsht-propertysheeta) 函式或 [**PSM \_ ADDPAGE**](../controls/psm-addpage.md) 訊息，將此頁面加入至屬性工作表。</span><span class="sxs-lookup"><span data-stu-id="858ce-110">You can then use the [**PropertySheet**](/windows/win32/api/prsht/nf-prsht-propertysheeta) function or the [**PSM\_ADDPAGE**](../controls/psm-addpage.md) message to add this page to a property sheet.</span></span>
+
+<span data-ttu-id="858ce-111">或者，您可以使用 [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity) 函式來顯示包含 [基本安全性] 屬性頁的屬性工作表。</span><span class="sxs-lookup"><span data-stu-id="858ce-111">Alternatively, you can use the [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity) function to display a property sheet that contains the basic security property page.</span></span>
+
+<span data-ttu-id="858ce-112">針對 [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) 和 [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity)，呼叫端必須將指標傳遞至 [**ISecurityInformation**](/windows/win32/api/aclui/nn-aclui-isecurityinformation) 介面的執行。</span><span class="sxs-lookup"><span data-stu-id="858ce-112">For both [**CreateSecurityPage**](/windows/desktop/api/Aclui/nf-aclui-createsecuritypage) and [**EditSecurity**](/windows/desktop/api/Aclui/nf-aclui-editsecurity), the caller must pass a pointer to an implementation of the [**ISecurityInformation**](/windows/win32/api/aclui/nn-aclui-isecurityinformation) interface.</span></span> <span data-ttu-id="858ce-113">存取控制編輯器會呼叫這個介面的方法，以抓取正在編輯之物件的存取控制資訊，以及將使用者的輸入傳遞回您的應用程式。</span><span class="sxs-lookup"><span data-stu-id="858ce-113">The access control editor calls the methods of this interface to retrieve access control information about the object being edited and to pass the user's input back to your application.</span></span> <span data-ttu-id="858ce-114">**ISecurityInformation** 方法具有下列用途：</span><span class="sxs-lookup"><span data-stu-id="858ce-114">The **ISecurityInformation** methods have the following purposes:</span></span>
+
+-   <span data-ttu-id="858ce-115">初始化屬性頁。</span><span class="sxs-lookup"><span data-stu-id="858ce-115">To initialize the property pages.</span></span>
+
+    <span data-ttu-id="858ce-116">您的 [**GetObjectInformation**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getobjectinformation) 方法執行會將 [**SI \_ 物件 \_ 資訊**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) 結構傳遞給編輯器。</span><span class="sxs-lookup"><span data-stu-id="858ce-116">Your implementation of the [**GetObjectInformation**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getobjectinformation) method passes an [**SI\_OBJECT\_INFO**](/windows/desktop/api/Aclui/ns-aclui-si_object_info) structure to the editor.</span></span> <span data-ttu-id="858ce-117">此結構會指定您想要編輯器顯示的屬性頁，以及決定使用者可使用之編輯選項的其他資訊。</span><span class="sxs-lookup"><span data-stu-id="858ce-117">This structure specifies the property pages that you want the editor to display and other information that determines the editing options available to the user.</span></span>
+
+-   <span data-ttu-id="858ce-118">提供有關正在編輯之物件的安全性資訊。</span><span class="sxs-lookup"><span data-stu-id="858ce-118">To provide security information about the object being edited.</span></span>
+
+    <span data-ttu-id="858ce-119">您的 [**GetSecurity**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getsecurity) 執行會將物件的初始 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 傳遞給編輯器。</span><span class="sxs-lookup"><span data-stu-id="858ce-119">Your [**GetSecurity**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getsecurity) implementation passes the object's initial [*security descriptor*](/windows/desktop/SecGloss/s-gly) to the editor.</span></span> <span data-ttu-id="858ce-120">[**GetAccessRights**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getaccessrights)和 [**MapGeneric**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-mapgeneric)方法會提供物件存取權限的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="858ce-120">The [**GetAccessRights**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getaccessrights) and [**MapGeneric**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-mapgeneric) methods provide information about the object's access rights.</span></span> <span data-ttu-id="858ce-121">[**GetInheritTypes**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getinherittypes)方法會提供子物件如何繼承物件之 ace 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="858ce-121">The [**GetInheritTypes**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-getinherittypes) method provides information about how the object's ACEs can be inherited by child objects.</span></span>
+
+-   <span data-ttu-id="858ce-122">將使用者的輸入傳遞回您的應用程式。</span><span class="sxs-lookup"><span data-stu-id="858ce-122">To pass the user's input back to your application.</span></span>
+
+    <span data-ttu-id="858ce-123">當 **使用者按一下 [** 確定] **或 [** 套用] 時，編輯器會呼叫您的 [**SetSecurity**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-setsecurity) 方法，以傳回包含使用者變更的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="858ce-123">When the user clicks **Okay** or **Apply**, the editor calls your [**SetSecurity**](/windows/win32/api/aclui/nf-aclui-isecurityinformation-setsecurity) method to pass back a security descriptor containing the user's changes.</span></span>
+
+ 
+
+ 
