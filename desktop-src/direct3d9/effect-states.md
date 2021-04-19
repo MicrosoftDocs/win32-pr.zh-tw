@@ -4,12 +4,12 @@ ms.assetid: b62a6ccc-a1ea-455c-9659-544d4bcaf6a2
 title: '效果狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674e72d818cd280bfe75a2cb02733576bc68319e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e208c0c7c14564a9967562ff2fd04a400cb7901
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025728"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314761"
 ---
 # <a name="effect-states-direct3d-9"></a>效果狀態 (Direct3D 9) 
 
@@ -216,51 +216,56 @@ MaterialPower = 3.0f;
 <td>與沒有 D3DBLEND_ 前置詞的 <a href="/windows/desktop/direct3d9/d3dblend"><strong>D3DBLEND</strong></a> 相同的值。</td>
 </tr>
 <tr class="even">
+<td>SRGBWriteEnable</td>
+<td>bool</td>
+<td>是非題。 與 D3DRS_SRGBWRITEENABLE 的值相同。</td>
+</tr>
+<tr class="odd">
 <td>StencilEnable</td>
 <td>bool</td>
 <td>是非題。 與 D3DRS_STENCILENABLE 的值相同。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilFail</td>
 <td>dword</td>
 <td>與沒有 D3DSTENCILCAP_ 前置詞的 <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> 相同的值。 請參閱 D3DRS_STENCILFAIL。</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilFunc</td>
 <td>dword</td>
 <td>與沒有 D3DCMP_ 前置詞的 <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> 相同的值。 請參閱 D3DRS_STENCILFUNC。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilMask</td>
 <td>dword</td>
 <td>與 D3DRS_STENCILMASK 的值相同。</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilPass</td>
 <td>dword</td>
 <td>與沒有 D3DSTENCILCAP_ 前置詞的 <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> 相同的值。 請參閱 D3DRS_STENCILPASS。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilRef</td>
 <td>int</td>
 <td>與 D3DRS_STENCILREF 的值相同。</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>StencilWriteMask</td>
 <td>dword</td>
 <td>與 D3DRS_STENCILWRITEMASK 的值相同。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>StencilZFail</td>
 <td>dword</td>
 <td>與沒有 D3DSTENCILCAP_ 前置詞的 <a href="d3dstencilcaps.md">D3DSTENCILCAPS</a> 相同的值。 請參閱 D3DRS_STENCILZFAIL。</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>TextureFactor</td>
 <td>dword</td>
 <td>與 <a href="d3dcolor.md"><strong>D3DCOLOR</strong></a>相同的值。 與 D3DRS_TEXTUREFACTOR 的值相同。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>Wrap0 - Wrap15</td>
 <td>dword</td>
 <td>值與 D3DRS_WRAP0 所使用的值相同。 有效值為：
@@ -274,17 +279,17 @@ MaterialPower = 3.0f;
 <li>對應至 D3DWRAP_W 的 W () </li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ZEnable</td>
 <td>dword</td>
 <td>與沒有 D3DZB_ 前置詞的 <a href="/windows/desktop/direct3d9/d3dzbuffertype"><strong>D3DZBUFFERTYPE</strong></a> 相同的值。</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>ZFunc</td>
 <td>dword</td>
 <td>與沒有 D3DCMP_ 前置詞的 <a href="/windows/desktop/direct3d9/d3dcmpfunc"><strong>D3DCMPFUNC</strong></a> 相同的值。 請參閱 D3DRS_ZFUNC。</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>ZWriteEnable</td>
 <td>bool</td>
 <td>是非題。 請參閱 D3DRS_ZWRITEENABLE。</td>
@@ -404,7 +409,7 @@ FogColor = 0xff0000;
 | MinFilter \[ 16\]     | dword                        | 與 \_ 沒有 D3DSAMP 前置詞的 D3DSAMP MINFILTER 相同的值 \_ 。                                                                   |
 | MipFilter \[ 16\]     | dword                        | 與 \_ 沒有 D3DSAMP 前置詞的 D3DSAMP MIPFILTER 相同的值 \_ 。                                                                   |
 | MipMapLodBias \[ 16\] | FLOAT                        | 與 \_ 沒有 D3DSAMP 前置詞的 D3DSAMP MIPMAPLODBIAS 相同的值 \_ 。                                                               |
-| SRGBTexture         | FLOAT                        | 與 D3DSAMP SRGBTEXTURE 的值相同， \_ 不含 D3DSAMP \_ 前置詞。                                                                  |
+| SRGBTexture         | bool                         | 與 D3DSAMP SRGBTEXTURE 的值相同， \_ 不含 D3DSAMP \_ 前置詞。                                                                   |
 
 
 
