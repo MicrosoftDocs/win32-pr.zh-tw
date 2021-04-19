@@ -1,0 +1,45 @@
+---
+description: 本節說明與 MXDC ESCAPE 函式搭配使用的結構 \_ ，以及 MICROSOFT XPS 檔轉換器 (MXDC) 。
+ms.assetid: 102dc056-7f65-47d4-8bcd-3b11608bdb9c
+title: MXDC Escape 程式碼結構
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5b35c393d00dab227a91cbbb55eeca62039b41ad
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106983894"
+---
+# <a name="mxdc-escape-code-structures"></a><span data-ttu-id="15d25-103">MXDC Escape 程式碼結構</span><span class="sxs-lookup"><span data-stu-id="15d25-103">MXDC Escape Code Structures</span></span>
+
+<span data-ttu-id="15d25-104">本節說明與 [**MXDC \_ ESCAPE**](mxdc-escape.md) 函式搭配使用的結構，以及 Microsoft XPS 檔轉換器 (MXDC) 。</span><span class="sxs-lookup"><span data-stu-id="15d25-104">This section describes the structures that are used with the [**MXDC\_ESCAPE**](mxdc-escape.md) function and the Microsoft XPS Document Converter (MXDC).</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="15d25-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="15d25-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="15d25-106">結構</span><span class="sxs-lookup"><span data-stu-id="15d25-106">Structure</span></span>                                                                              | <span data-ttu-id="15d25-107">Description</span><span class="sxs-lookup"><span data-stu-id="15d25-107">Description</span></span>                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="15d25-108">**MXDC \_ ESCAPE \_ HEADER \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-108">**MXDC\_ESCAPE\_HEADER\_T**</span></span>](mxdcescapeheader.md)<br/>                         | <span data-ttu-id="15d25-109">[**MXDC \_ escape \_ HEADER \_ T**](/windows/desktop/printdocs/mxdcescapeheader)結構會保存使用 [**MXDC \_ ESCAPE**](mxdc-escape.md)作為 *nEscape* 參數之 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)呼叫的作業程式碼。</span><span class="sxs-lookup"><span data-stu-id="15d25-109">The [**MXDC\_ESCAPE\_HEADER\_T**](/windows/desktop/printdocs/mxdcescapeheader) structure holds the operation code for a call to [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape) with [**MXDC\_ESCAPE**](mxdc-escape.md) as the *nEscape* parameter.</span></span> <span data-ttu-id="15d25-110">它也會提供輸入和輸出緩衝區的大小。</span><span class="sxs-lookup"><span data-stu-id="15d25-110">It also provides the sizes of the input and output buffers.</span></span><br/>  |
+| [<span data-ttu-id="15d25-111">**MXDC \_ 取得 \_ 檔案名 \_ 資料 \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-111">**MXDC\_GET\_FILENAME\_DATA\_T**</span></span>](mxdcgetfilenamedata.md)<br/>                 | <span data-ttu-id="15d25-112">[**MXDC \_ 取得 \_ 檔案名 \_ 資料 \_ T**](/windows/desktop/printdocs/mxdcgetfilenamedata)結構會保存 Microsoft XPS 檔轉換器的完整路徑和檔案名， (MXDC) 輸出檔。</span><span class="sxs-lookup"><span data-stu-id="15d25-112">The [**MXDC\_GET\_FILENAME\_DATA\_T**](/windows/desktop/printdocs/mxdcgetfilenamedata) structure holds the full path and file name of a Microsoft XPS Document Converter (MXDC) output file.</span></span><br/>                                                                                                     |
+| [<span data-ttu-id="15d25-113">**MXDC \_ PRINTTICKET \_ ESCAPE \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-113">**MXDC\_PRINTTICKET\_ESCAPE\_T**</span></span>](mxdcprintticketescape.md)<br/>               | <span data-ttu-id="15d25-114">[**MXDC 的 \_ printticket \_ escape \_ t**](mxdcprintticketescape.md)結構是與 [**MXDC 的 \_ printticket \_ 資料 \_ t**](mxdcprintticketpassthrough.md)結構串連的 [**MXDC \_ ESCAPE \_ HEADER \_ t**](mxdcescapeheader.md)結構。</span><span class="sxs-lookup"><span data-stu-id="15d25-114">The [**MXDC\_PRINTTICKET\_ESCAPE\_T**](mxdcprintticketescape.md) structure is a [**MXDC\_ESCAPE\_HEADER\_T**](mxdcescapeheader.md) structure concatenated with a [**MXDC\_PRINTTICKET\_DATA\_T**](mxdcprintticketpassthrough.md) structure.</span></span><br/>                            |
+| [<span data-ttu-id="15d25-115">**MXDC 的 \_ PRINTTICKET \_ 資料 \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-115">**MXDC\_PRINTTICKET\_DATA\_T**</span></span>](mxdcprintticketpassthrough.md)<br/>            | <span data-ttu-id="15d25-116">[**MXDC 的 \_ PRINTTICKET \_ 資料 \_ T**](/windows/desktop/printdocs/mxdcprintticketpassthrough)結構會保存 XPS 檔列印票證，其中包含的印表機和列印工作設定，可傳遞給 MICROSOFT XPS 檔轉換器 (MXDC) 輸出檔，而不需要任何處理。</span><span class="sxs-lookup"><span data-stu-id="15d25-116">The [**MXDC\_PRINTTICKET\_DATA\_T**](/windows/desktop/printdocs/mxdcprintticketpassthrough) structure holds an XPS document print ticket, which contains printer and print job settings, to pass to the Microsoft XPS Document Converter (MXDC) output file without any processing.</span></span><br/>              |
+| [<span data-ttu-id="15d25-117">**MXDC \_ S0PAGE \_ 資料 \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-117">**MXDC\_S0PAGE\_DATA\_T**</span></span>](mxdcs0pagedata.md)<br/>                             | <span data-ttu-id="15d25-118">[**MXDC \_ S0PAGE \_ DATA \_ T**](/windows/desktop/printdocs/mxdcs0pagedata)結構會保存 XPS 檔頁面，以傳遞至 MICROSOFT xps 檔轉換器 (MXDC) 輸出檔，而不需要任何處理。</span><span class="sxs-lookup"><span data-stu-id="15d25-118">The [**MXDC\_S0PAGE\_DATA\_T**](/windows/desktop/printdocs/mxdcs0pagedata) structure holds an XPS document page to be passed to the Microsoft XPS Document Converter (MXDC) output file without any processing.</span></span><br/>                                                                                  |
+| [<span data-ttu-id="15d25-119">**MXDC \_ S0PAGE \_ 傳遞 \_ ESCAPE \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-119">**MXDC\_S0PAGE\_PASSTHROUGH\_ESCAPE\_T**</span></span>](mxdcs0pagepassthroughescape.md)<br/> | <span data-ttu-id="15d25-120">[**MXDC \_ S0PAGE \_ 傳遞 \_ escape \_ t**](/windows/desktop/printdocs/mxdcs0pagepassthroughescape)結構是與 [**MXDC \_ S0PAGE \_ 資料 \_ T**](mxdcs0pagedata.md)結構串連的 [**MXDC \_ ESCAPE \_ HEADER \_ t**](mxdcescapeheader.md)結構。</span><span class="sxs-lookup"><span data-stu-id="15d25-120">The [**MXDC\_S0PAGE\_PASSTHROUGH\_ESCAPE\_T**](/windows/desktop/printdocs/mxdcs0pagepassthroughescape) structure is an [**MXDC\_ESCAPE\_HEADER\_T**](mxdcescapeheader.md) structure concatenated with an [**MXDC\_S0PAGE\_DATA\_T**](mxdcs0pagedata.md) structure.</span></span><br/>                             |
+| [<span data-ttu-id="15d25-121">**MXDC \_ S0PAGE \_ 資源 \_ ESCAPE \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-121">**MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T**</span></span>](mxdcs0pageresourceescape.md)<br/>       | <span data-ttu-id="15d25-122">[**MXDC \_ S0PAGE \_ 資源 \_ ESCAPE \_ t**](/windows/desktop/printdocs/mxdcs0pageresourceescape)結構是與 [**MXDC \_ XPS \_ S0PAGE \_ 資源 \_ t**](mxdcxpss0pageresource.md)結構串連的 [**MXDC \_ ESCAPE \_ HEADER \_ t**](mxdcescapeheader.md)結構。</span><span class="sxs-lookup"><span data-stu-id="15d25-122">The [**MXDC\_S0PAGE\_RESOURCE\_ESCAPE\_T**](/windows/desktop/printdocs/mxdcs0pageresourceescape) structure is an [**MXDC\_ESCAPE\_HEADER\_T**](mxdcescapeheader.md) structure concatenated with an [**MXDC\_XPS\_S0PAGE\_RESOURCE\_T**](mxdcxpss0pageresource.md) structure.</span></span><br/>                   |
+| [<span data-ttu-id="15d25-123">**MXDC \_ XPS \_ S0PAGE \_ 資源 \_ T**</span><span class="sxs-lookup"><span data-stu-id="15d25-123">**MXDC\_XPS\_S0PAGE\_RESOURCE\_T**</span></span>](mxdcxpss0pageresource.md)<br/>             | <span data-ttu-id="15d25-124">[**MXDC \_ XPS \_ S0PAGE \_ 資源 \_ T**](/windows/desktop/printdocs/mxdcxpss0pageresource)結構會保存與 XPS 檔頁面相關聯的資源（例如影像或字型）相關資訊，並將其傳遞至 Microsoft xps 檔轉換器 (MXDC) 輸出檔。</span><span class="sxs-lookup"><span data-stu-id="15d25-124">The [**MXDC\_XPS\_S0PAGE\_RESOURCE\_T**](/windows/desktop/printdocs/mxdcxpss0pageresource) structure holds information about a resource, such as an image or font, that is associated with an XPS document page, and is to be passed to the Microsoft XPS Document Converter (MXDC) output file.</span></span><br/> |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="15d25-125">相關主題</span><span class="sxs-lookup"><span data-stu-id="15d25-125">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="15d25-126">**MXDC \_ ESCAPE**</span><span class="sxs-lookup"><span data-stu-id="15d25-126">**MXDC\_ESCAPE**</span></span>](mxdc-escape.md)
+</dt> </dl>
+
+ 
+
