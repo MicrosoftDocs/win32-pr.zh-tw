@@ -1,0 +1,110 @@
+---
+description: 從 Windows Vista 開始，許多安全物件都有取得或設定安全描述項的方法。 使用適當的許可權，您可以讀取或變更安全物件的安全描述項。
+ms.assetid: da660e7e-f32d-4b7d-b979-f7b482a73fa2
+ms.tgt_platform: multiple
+title: 變更安全物件的存取安全性
+ms.topic: article
+ms.date: 05/31/2018
+topic_type:
+- kbArticle
+api_name: ''
+api_type: ''
+api_location: ''
+ms.openlocfilehash: 9682c259fc2f7e45409f7ddcaaa95dac2cba1b54
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106980310"
+---
+# <a name="changing-access-security-on-securable-objects"></a><span data-ttu-id="d20fc-104">變更安全物件的存取安全性</span><span class="sxs-lookup"><span data-stu-id="d20fc-104">Changing Access Security on Securable Objects</span></span>
+
+<span data-ttu-id="d20fc-105">印表機、服務、登錄機碼、DCOM 應用程式和 WMI 命名空間都是安全物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-105">Printers, services, registry keys, DCOM applications, and WMI namespaces are securable objects.</span></span> <span data-ttu-id="d20fc-106">安全物件的存取會受到 [*安全描述項*](/windows/desktop/SecGloss/s-gly)的保護，以指定具有存取權的使用者。</span><span class="sxs-lookup"><span data-stu-id="d20fc-106">The access to securable objects is protected by [*security descriptors*](/windows/desktop/SecGloss/s-gly), which specify the users who have access.</span></span> <span data-ttu-id="d20fc-107">從 Windows Vista 開始，許多安全物件都有取得或設定安全描述項的方法。</span><span class="sxs-lookup"><span data-stu-id="d20fc-107">Starting with Windows Vista, many securable objects have methods for getting or setting the security descriptor.</span></span> <span data-ttu-id="d20fc-108">使用適當的許可權，您可以讀取或變更安全物件的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="d20fc-108">With appropriate permissions, you can read or change security descriptors on securable objects.</span></span> <span data-ttu-id="d20fc-109">您可以使用這些方法來控制哪些使用者帳戶或群組可以存取印表機、服務、WMI 命名空間或其他物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-109">Using these methods, you can control which user accounts or groups have access to a printer, service, WMI namespace, or other object.</span></span> <span data-ttu-id="d20fc-110">如需有關安全描述項及其在 WMI 中使用方式的詳細資訊，請參閱 [Wmi 安全物件的存取](access-to-wmi-securable-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-110">For more information about security descriptors and their use in WMI, see [Access to WMI Securable Objects](access-to-wmi-securable-objects.md).</span></span>
+
+<span data-ttu-id="d20fc-111">本主題將討論下列各節：</span><span class="sxs-lookup"><span data-stu-id="d20fc-111">The following sections are discussed in this topic:</span></span>
+
+-   [<span data-ttu-id="d20fc-112">物件和安全描述項方法</span><span class="sxs-lookup"><span data-stu-id="d20fc-112">Objects and Security Descriptor Methods</span></span>](#objects-and-security-descriptor-methods)
+-   [<span data-ttu-id="d20fc-113">在安全描述項格式之間轉換</span><span class="sxs-lookup"><span data-stu-id="d20fc-113">Converting Between Security Descriptor Formats</span></span>](#converting-between-security-descriptor-formats)
+-   [<span data-ttu-id="d20fc-114">安全性問題</span><span class="sxs-lookup"><span data-stu-id="d20fc-114">Security Issues</span></span>](#security-issues)
+-   [<span data-ttu-id="d20fc-115">相關主題</span><span class="sxs-lookup"><span data-stu-id="d20fc-115">Related topics</span></span>](#related-topics)
+
+## <a name="objects-and-security-descriptor-methods"></a><span data-ttu-id="d20fc-116">物件和安全描述項方法</span><span class="sxs-lookup"><span data-stu-id="d20fc-116">Objects and Security Descriptor Methods</span></span>
+
+<span data-ttu-id="d20fc-117">下列清單包含安全物件必須讓您讀取或變更安全描述項的方法：</span><span class="sxs-lookup"><span data-stu-id="d20fc-117">The following list contains the methods that securable objects have to enable you to read or change the security descriptor:</span></span>
+
+-   <span data-ttu-id="d20fc-118">WMI 命名空間</span><span class="sxs-lookup"><span data-stu-id="d20fc-118">WMI Namespaces</span></span>
+
+    <span data-ttu-id="d20fc-119">提供者可以建立只允許某些群組存取 WMI 命名空間中資料的安全性。</span><span class="sxs-lookup"><span data-stu-id="d20fc-119">A provider can establish security that only allows certain groups to have access to the data in a WMI namespace.</span></span> <span data-ttu-id="d20fc-120">命名空間安全性是由 [**\_ \_ SystemSecurity**](--systemsecurity.md)類別上的方法所控制。</span><span class="sxs-lookup"><span data-stu-id="d20fc-120">Namespace security is controlled by methods on the [**\_\_SystemSecurity**](--systemsecurity.md) class.</span></span> <span data-ttu-id="d20fc-121">從 Windows Vista 開始， [**GetSecurityDescriptor**](getsecuritydescriptor-method-in-class---systemsecurity-.md)和 [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class---systemsecurity.md)方法會傳回並寫入 [**\_ \_ SecurityDescriptor**](--securitydescriptor.md)物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-121">Starting with Windows Vista, the [**GetSecurityDescriptor**](getsecuritydescriptor-method-in-class---systemsecurity-.md) and [**SetSecurityDescriptor**](setsecuritydescriptor-method-in-class---systemsecurity.md) methods return and write [**\_\_SecurityDescriptor**](--securitydescriptor.md) objects.</span></span> <span data-ttu-id="d20fc-122">如需詳細資訊，請參閱 [設定命名空間安全描述項](setting-namespace-security-descriptors.md)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-122">For more information, see [Setting Namespace Security Descriptors](setting-namespace-security-descriptors.md).</span></span>
+
+-   <span data-ttu-id="d20fc-123">登錄機碼</span><span class="sxs-lookup"><span data-stu-id="d20fc-123">Registry keys</span></span>
+
+    <span data-ttu-id="d20fc-124">從 Windows Vista 開始，您可以保護登錄機碼，使其無法被未經授權的使用者變更。</span><span class="sxs-lookup"><span data-stu-id="d20fc-124">Starting with Windows Vista, you can secure registry keys so that they cannot be changed by unauthorized users.</span></span> <span data-ttu-id="d20fc-125">[**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov)類別具有 [**GetSecurityDescriptor**](/previous-versions/windows/desktop/regprov/getsecuritydescriptor-method-in-class-stdregprov)和 [**SetSecurityDescriptor**](/previous-versions/windows/desktop/regprov/setsecuritydescriptor-method-in-class-stdregprov)方法。</span><span class="sxs-lookup"><span data-stu-id="d20fc-125">The [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) class has the [**GetSecurityDescriptor**](/previous-versions/windows/desktop/regprov/getsecuritydescriptor-method-in-class-stdregprov) and [**SetSecurityDescriptor**](/previous-versions/windows/desktop/regprov/setsecuritydescriptor-method-in-class-stdregprov) methods.</span></span> <span data-ttu-id="d20fc-126">這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-126">These methods return and write [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) objects.</span></span>
+
+-   <span data-ttu-id="d20fc-127">印表機</span><span class="sxs-lookup"><span data-stu-id="d20fc-127">Printers</span></span>
+
+    <span data-ttu-id="d20fc-128">從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-printer)方法來保護對 [**Win32 \_ 印表機**](/windows/desktop/CIMWin32Prov/win32-printer)類別實例的存取。</span><span class="sxs-lookup"><span data-stu-id="d20fc-128">Starting with Windows Vista, you can secure access to instances of the [**Win32\_Printer**](/windows/desktop/CIMWin32Prov/win32-printer) class using the [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-printer) and [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-printer) methods.</span></span> <span data-ttu-id="d20fc-129">這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-129">These methods return and write [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) objects.</span></span>
+
+-   <span data-ttu-id="d20fc-130">服務</span><span class="sxs-lookup"><span data-stu-id="d20fc-130">Services</span></span>
+
+    <span data-ttu-id="d20fc-131">從 Windows Vista 開始，您可以使用 [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service)和 [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service)方法來保護對 [**Win32 \_ 服務**](/windows/desktop/CIMWin32Prov/win32-service)類別實例的存取。</span><span class="sxs-lookup"><span data-stu-id="d20fc-131">Starting with Windows Vista, you can secure access to instances of the [**Win32\_Service**](/windows/desktop/CIMWin32Prov/win32-service) class using the [**GetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getsecuritydescriptor-method-in-class-win32-service) and [**SetSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setsecuritydescriptor-method-in-class-win32-service) methods.</span></span> <span data-ttu-id="d20fc-132">這些方法會傳回和寫入 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 物件。</span><span class="sxs-lookup"><span data-stu-id="d20fc-132">These methods return and write [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) objects.</span></span>
+
+-   <span data-ttu-id="d20fc-133">DCOM 應用程式</span><span class="sxs-lookup"><span data-stu-id="d20fc-133">DCOM applications</span></span>
+
+    <span data-ttu-id="d20fc-134">DCOM 應用程式實例有數個安全描述項。</span><span class="sxs-lookup"><span data-stu-id="d20fc-134">DCOM application instances have several security descriptors.</span></span> <span data-ttu-id="d20fc-135">從 Windows Vista 開始，使用 [**Win32 \_ DCOMApplicationSetting**](/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting) 類別的方法來取得或變更不同的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="d20fc-135">Starting with Windows Vista, use methods of the [**Win32\_DCOMApplicationSetting**](/windows/desktop/CIMWin32Prov/win32-dcomapplicationsetting) class to get or change the various security descriptors.</span></span> <span data-ttu-id="d20fc-136">系統會以 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 類別的實例傳回安全描述項。</span><span class="sxs-lookup"><span data-stu-id="d20fc-136">Security descriptors are returned as instances of the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) class.</span></span>
+
+    <span data-ttu-id="d20fc-137">若要取得或變更設定許可權，請呼叫 [**GetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 或 [**SetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 方法。</span><span class="sxs-lookup"><span data-stu-id="d20fc-137">To get or change the configuration permissions, call the [**GetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) or [**SetConfigurationSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setconfigurationsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) methods.</span></span>
+
+    <span data-ttu-id="d20fc-138">若要取得或變更存取權限，請呼叫 [**GetAccessSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 或 [**SetAccessSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 方法。</span><span class="sxs-lookup"><span data-stu-id="d20fc-138">To get or change the access permissions, call the [**GetAccessSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting) or [**SetAccessSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setaccesssecuritydescriptor-method-in-class-win32-dcomapplicationsetting) methods.</span></span>
+
+    <span data-ttu-id="d20fc-139">若要取得或變更啟動和啟用許可權，請呼叫 [**GetLaunchSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting) 或 [**SetLaunchSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) 方法。</span><span class="sxs-lookup"><span data-stu-id="d20fc-139">To get or change the startup and activation permissions, call the [**GetLaunchSecurityDescriptor**](/windows/desktop/CIMWin32Prov/getlaunchsecuritydescriptor-in-class-win32-dcomapplicationsetting) or [**SetLaunchSecurityDescriptor**](/windows/desktop/CIMWin32Prov/setlaunchsecuritydescriptor-method-in-class-win32-dcomapplicationsetting) methods,</span></span>
+
+-   <span data-ttu-id="d20fc-140">檔案</span><span class="sxs-lookup"><span data-stu-id="d20fc-140">Files</span></span>
+
+    <span data-ttu-id="d20fc-141">[**GetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/getsecuritydescriptor-method-in-class-win32-logicalfilesecuritysetting)和 [**SetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/setsecuritydescriptor-method-in-class-win32-logicalfilesecuritysetting)方法位於 [**Win32 \_ LogicalFileSecuritySetting**](/previous-versions/windows/desktop/secrcw32prov/win32-logicalfilesecuritysetting)類別中，而不是在 [**CIM \_ 資料檔案**](/windows/desktop/CIMWin32Prov/cim-datafile)類別中。</span><span class="sxs-lookup"><span data-stu-id="d20fc-141">The [**GetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/getsecuritydescriptor-method-in-class-win32-logicalfilesecuritysetting) and [**SetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/setsecuritydescriptor-method-in-class-win32-logicalfilesecuritysetting) methods are in the [**Win32\_LogicalFileSecuritySetting**](/previous-versions/windows/desktop/secrcw32prov/win32-logicalfilesecuritysetting) class, rather than in the [**CIM\_DataFile**](/windows/desktop/CIMWin32Prov/cim-datafile) class.</span></span>
+
+-   <span data-ttu-id="d20fc-142">共用</span><span class="sxs-lookup"><span data-stu-id="d20fc-142">Shares</span></span>
+
+    <span data-ttu-id="d20fc-143">[**GetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/getsecuritydescriptor-method-in-class-win32-logicalsharesecuritysetting)和 [**SetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/setsecuritydescriptor-method-in-class-win32-logicalsharesecuritysetting)方法位於 [**win32 \_ LogicalShareSecuritySetting**](/previous-versions/windows/desktop/secrcw32prov/win32-logicalsharesecuritysetting)類別中，而不是 [**win32 \_ Share**](/windows/desktop/CIMWin32Prov/win32-share)類別中。</span><span class="sxs-lookup"><span data-stu-id="d20fc-143">The [**GetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/getsecuritydescriptor-method-in-class-win32-logicalsharesecuritysetting) and [**SetSecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/setsecuritydescriptor-method-in-class-win32-logicalsharesecuritysetting) methods are in the [**Win32\_LogicalShareSecuritySetting**](/previous-versions/windows/desktop/secrcw32prov/win32-logicalsharesecuritysetting) class, rather than in the [**Win32\_Share**](/windows/desktop/CIMWin32Prov/win32-share) class.</span></span>
+
+> [!Note]  
+> <span data-ttu-id="d20fc-144">如果未在 **SetSecurityDescriptor** 方法的呼叫中指定新的 [*安全性存取控制清單 (SACL)*](/windows/desktop/SecGloss/s-gly) ，則目標安全物件上的安全描述項 SACL 會設定為 **Null** ，因此不會保存先前的 SACL 設定。</span><span class="sxs-lookup"><span data-stu-id="d20fc-144">When a new [*Security Access Control List (SACL)*](/windows/desktop/SecGloss/s-gly) is not specified in a call to a **SetSecurityDescriptor** method, then the security descriptor SACL on the target securable object is set to **NULL** so that the previous SACL setting does not persist.</span></span>
+
+ 
+
+## <a name="converting-between-security-descriptor-formats"></a><span data-ttu-id="d20fc-145">在安全描述項格式之間轉換</span><span class="sxs-lookup"><span data-stu-id="d20fc-145">Converting Between Security Descriptor Formats</span></span>
+
+<span data-ttu-id="d20fc-146">安全描述項是複雜的二進位位元組陣列，通常必須在 c + + 中建立和變更。</span><span class="sxs-lookup"><span data-stu-id="d20fc-146">Security descriptors are complex binary byte arrays that must normally be created and changed in C++.</span></span> <span data-ttu-id="d20fc-147">使用其中一個 Get 方法取得安全描述項之後， [**Win32 \_ SecurityDescriptorHelper**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) 類別會提供方法，將安全描述項轉換成 [安全描述項定義語言 (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language) 或 [**win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例。</span><span class="sxs-lookup"><span data-stu-id="d20fc-147">After you have used one of the Get methods to obtain the security descriptor, the [**Win32\_SecurityDescriptorHelper**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper) class supplies methods that convert security descriptors into either [Security Descriptor Definition Language (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language) or to [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instances.</span></span>
+
+<span data-ttu-id="d20fc-148">您可以更輕鬆地在 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例或 SDDL 中操作 (ACL) 的存取控制清單。</span><span class="sxs-lookup"><span data-stu-id="d20fc-148">You can manipulate the Access Control Lists (ACL) more easily in [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instances or in SDDL.</span></span> <span data-ttu-id="d20fc-149">如需有關 WMI 中安全描述項的結構和使用方式的詳細資訊，請參閱 [Wmi 安全描述項物件](wmi-security-descriptor-objects.md)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-149">For more information about the structure and use of security descriptors in WMI, see [WMI Security Descriptor Objects](wmi-security-descriptor-objects.md).</span></span>
+
+<span data-ttu-id="d20fc-150">在 c + + 或 c # 中，使用轉換函式將二進位安全描述項轉換成 [安全描述項定義語言 (SDDL) ](/windows/desktop/SecAuthZ/security-descriptor-definition-language)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-150">In C++ or C# use conversion functions to convert binary security descriptors to [Security Descriptor Definition Language (SDDL)](/windows/desktop/SecAuthZ/security-descriptor-definition-language).</span></span> <span data-ttu-id="d20fc-151">若要在 c + + 應用程式中修改安全描述項值，請使用 [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) 和 [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-151">To modify security descriptor values in C++ applications, use [**ConvertSecurityDescriptorToStringSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertsecuritydescriptortostringsecuritydescriptora) and [**ConvertStringSecurityDescriptorToSecurityDescriptor**](/windows/desktop/api/sddl/nf-sddl-convertstringsecuritydescriptortosecuritydescriptora).</span></span>
+
+## <a name="security-issues"></a><span data-ttu-id="d20fc-152">安全性問題</span><span class="sxs-lookup"><span data-stu-id="d20fc-152">Security Issues</span></span>
+
+<span data-ttu-id="d20fc-153">建議您務必小心完成安全描述項的變更，讓物件的安全性不會受到危害。</span><span class="sxs-lookup"><span data-stu-id="d20fc-153">It is recommended that changes to security descriptors be done with great caution so that the security of the object is not compromised.</span></span> <span data-ttu-id="d20fc-154">請注意，存取控制專案的順序 (Ace) 在任意存取控制清單 (DACL) 可能會影響存取安全性。</span><span class="sxs-lookup"><span data-stu-id="d20fc-154">Be aware that the order of access control entries (ACEs) in a discretionary access control list (DACL) can affect access security.</span></span> <span data-ttu-id="d20fc-155">如需詳細資訊，請參閱 [DACL 中的 Ace 順序](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl)。</span><span class="sxs-lookup"><span data-stu-id="d20fc-155">For more information, see [Order of ACEs in a DACL](/windows/desktop/SecAuthZ/order-of-aces-in-a-dacl).</span></span>
+
+## <a name="related-topics"></a><span data-ttu-id="d20fc-156">相關主題</span><span class="sxs-lookup"><span data-stu-id="d20fc-156">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="d20fc-157">WMI 安全描述項物件</span><span class="sxs-lookup"><span data-stu-id="d20fc-157">WMI Security Descriptor Objects</span></span>](wmi-security-descriptor-objects.md)
+</dt> <dt>
+
+[<span data-ttu-id="d20fc-158">安全描述項協助程式類別</span><span class="sxs-lookup"><span data-stu-id="d20fc-158">Security Descriptor Helper Class</span></span>](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptorhelper)
+</dt> <dt>
+
+[<span data-ttu-id="d20fc-159">安全性最佳作法</span><span class="sxs-lookup"><span data-stu-id="d20fc-159">Security Best Practices</span></span>](/windows/desktop/SecBP/best-practices-for-the-security-apis)
+</dt> <dt>
+
+[<span data-ttu-id="d20fc-160">維護 WMI 安全性</span><span class="sxs-lookup"><span data-stu-id="d20fc-160">Maintaining WMI Security</span></span>](maintaining-wmi-security.md)
+</dt> <dt>
+
+[<span data-ttu-id="d20fc-161">存取控制</span><span class="sxs-lookup"><span data-stu-id="d20fc-161">Access Control</span></span>](/windows/desktop/SecAuthZ/access-control)
+</dt> <dt>
+
+[<span data-ttu-id="d20fc-162">存取 WMI 命名空間</span><span class="sxs-lookup"><span data-stu-id="d20fc-162">Access to WMI Namespaces</span></span>](access-to-wmi-namespaces.md)
+</dt> </dl>
+
+ 
+
+ 
