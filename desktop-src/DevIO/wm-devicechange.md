@@ -4,12 +4,12 @@ ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
 title: 'WM_DEVICECHANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f631d75f89f306adc0594a3df6c63d63753e163
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 91cc45d7a7978d5501e51cc1355c43afcf12b956
+ms.sourcegitcommit: 8c1942ac6731488abbeae46a7dbe3da166fee2d6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385909"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107581500"
 ---
 # <a name="wm_devicechange-message"></a>WM \_ DEVICECHANGE 訊息
 
@@ -17,15 +17,12 @@ ms.locfileid: "104385909"
 
 視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。
 
-
 ```C++
 LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
                             UINT   uMsg,     // WM_DEVICECHANGE
                             WPARAM wParam,   // device-change event
                             LPARAM lParam ); // event-specific data
 ```
-
-
 
 ## <a name="parameters"></a>參數
 
@@ -50,26 +47,20 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 已發生的事件。 此參數可以是 Dbt .h 標頭檔中的下列其中一個值。
 
-
-
-| 值                                                                                                                                                                                                                                                                                                  | 意義                                                                                                                                |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="DBT_CONFIGCHANGECANCELED"></span><span id="dbt_configchangecanceled"></span><dl> <dt>**[DBT \_CONFIGCHANGECANCELED](dbt-configchangecanceled.md)**</dt> <dt>0x0019</dt> </dl>             | 已取消變更目前設定 (dock 或取消停駐) 的要求。<br/>                                           |
-| <span id="DBT_CONFIGCHANGED"></span><span id="dbt_configchanged"></span><dl> <dt>**[DBT \_CONFIGCHANGED](dbt-configchanged.md)**</dt> <dt>0x0018</dt> </dl>                                         | 目前的設定已變更，因為停駐或解除卸載。<br/>                                                             |
-| <span id="DBT_CUSTOMEVENT"></span><span id="dbt_customevent"></span><dl> <dt>**[DBT \_CUSTOMEVENT](dbt-customevent.md)**</dt> <dt>0x8006</dt> </dl>                                                 | 發生自訂事件。<br/>                                                                                                |
-| <span id="DBT_DEVICEARRIVAL"></span><span id="dbt_devicearrival"></span><dl> <dt>**[DBT \_DEVICEARRIVAL](dbt-devicearrival.md)**</dt> <dt>0x8000</dt> </dl>                                         | 已插入裝置或媒體片段，且現在已可供使用。<br/>                                                          |
-| <span id="DBT_DEVICEQUERYREMOVE"></span><span id="dbt_devicequeryremove"></span><dl> <dt>**[DBT \_DEVICEQUERYREMOVE](dbt-devicequeryremove.md)**</dt> <dt>0x8001</dt> </dl>                         | 要求移除裝置或媒體部分的許可權。 任何應用程式都可以拒絕此要求，並取消移除。<br/> |
-| <span id="DBT_DEVICEQUERYREMOVEFAILED"></span><span id="dbt_devicequeryremovefailed"></span><dl> <dt>**[DBT \_DEVICEQUERYREMOVEFAILED](dbt-devicequeryremovefailed.md)**</dt> <dt>0x8002</dt> </dl> | 移除裝置或媒體片段的要求已取消。<br/>                                                           |
-| <span id="DBT_DEVICEREMOVECOMPLETE"></span><span id="dbt_deviceremovecomplete"></span><dl> <dt>**[DBT \_DEVICEREMOVECOMPLETE](dbt-deviceremovecomplete.md)**</dt> <dt>0x8004</dt> </dl>             | 已移除裝置或媒體片段。<br/>                                                                                |
-| <span id="DBT_DEVICEREMOVEPENDING"></span><span id="dbt_deviceremovepending"></span><dl> <dt>**[DBT \_DEVICEREMOVEPENDING](dbt-deviceremovepending.md)**</dt> <dt>0x8003</dt> </dl>                 | 即將移除的裝置或媒體片段。 無法拒絕。<br/>                                                        |
-| <span id="DBT_DEVICETYPESPECIFIC"></span><span id="dbt_devicetypespecific"></span><dl> <dt>**[DBT \_DEVICETYPESPECIFIC](dbt-devicetypespecific.md)**</dt> <dt>0x8005</dt> </dl>                     | 發生裝置特定事件。<br/>                                                                                       |
-| <span id="DBT_DEVNODES_CHANGED"></span><span id="dbt_devnodes_changed"></span><dl> <dt>**[DBT \_DEVNODES \_ 已變更](dbt-devnodes-changed.md)**</dt> <dt>0x0007</dt> </dl>                            | 已在系統中新增或移除裝置。<br/>                                                                      |
-| <span id="DBT_QUERYCHANGECONFIG"></span><span id="dbt_querychangeconfig"></span><dl> <dt>**[DBT \_QUERYCHANGECONFIG](dbt-querychangeconfig.md)**</dt> <dt>0x0017</dt> </dl>                         | 已要求許可權來變更目前的設定 (dock 或移除) 。<br/>                                               |
-| <span id="DBT_USERDEFINED"></span><span id="dbt_userdefined"></span><dl> <dt>**[DBT \_使用者](dbt-userdefined.md)**</dt>的 <dt>0xffff</dt> </dl>                                                 | 此訊息的意義是使用者定義的。<br/>                                                                                |
-
-
-
- 
+| 值 | 意義 |
+|-------|---------|
+| **[DBT \_ DEVNODES \_ 已變更](dbt-devnodes-changed.md)**</br>0x0007 | 已在系統中新增或移除裝置。 |
+| **[DBT \_ QUERYCHANGECONFIG](dbt-querychangeconfig.md)**</br>0x0017 | 已要求許可權來變更目前的設定 (dock 或移除) 。 |
+| **[DBT \_ CONFIGCHANGED](dbt-configchanged.md)**</br>0x0018 | 目前的設定已變更，因為停駐或解除卸載。 |
+| **[DBT \_ CONFIGCHANGECANCELED](dbt-configchangecanceled.md)**</br>0x0019 | 已取消變更目前設定 (dock 或取消停駐) 的要求。 |
+| **[DBT \_ DEVICEARRIVAL](dbt-devicearrival.md)**</br>0x8000 | 已插入裝置或媒體片段，且現在已可供使用。 |
+| **[DBT \_ DEVICEQUERYREMOVE](dbt-devicequeryremove.md)**</br>0x8001 | 要求移除裝置或媒體部分的許可權。 任何應用程式都可以拒絕此要求，並取消移除。 |
+| **[DBT \_ DEVICEQUERYREMOVEFAILED](dbt-devicequeryremovefailed.md)**</br>0x8002 | 移除裝置或媒體片段的要求已取消。 |
+| **[DBT \_ DEVICEREMOVEPENDING](dbt-deviceremovepending.md)**</br>0x8003 | 即將移除的裝置或媒體片段。 無法拒絕。 |
+| **[DBT \_ DEVICEREMOVECOMPLETE](dbt-deviceremovecomplete.md)**</br>0x8004 | 已移除裝置或媒體片段。 |
+| **[DBT \_ DEVICETYPESPECIFIC](dbt-devicetypespecific.md)**</br>0x8005 | 發生裝置特定事件。 |
+| **[DBT \_ CUSTOMEVENT](dbt-customevent.md)**</br>0x8006 | 發生自訂事件。 |
+| **[DBT 的 \_ 使用者](dbt-userdefined.md)**</br>0xFFFF | 此訊息的意義是使用者定義的。 |
 
 </dd> <dt>
 
@@ -92,15 +83,11 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 ## <a name="requirements"></a>規格需求
 
-
-
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP<br/>                                                                                             |
-| 最低支援的伺服器<br/> | Windows Server 2003<br/>                                                                                    |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h 或 Dbt) </dt> </dl> |
-
-
+| 最低支援的用戶端 | Windows XP |
+| 最低支援的伺服器 | Windows Server 2003|
+| 標頭 | <dl> <dt>Winuser (包含 Windows .h 或 Dbt) </dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱
 
@@ -141,6 +128,3 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 
 [DBT 的 \_ 使用者](dbt-userdefined.md)
 </dt> </dl>
-
- 
-
