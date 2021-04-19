@@ -1,0 +1,43 @@
+---
+title: RAS 使用者管理
+description: RAS 伺服器使用包含一組使用者帳戶相關資訊的使用者帳戶資料庫。
+ms.assetid: b58767b0-9b76-4d43-953a-ea772643745e
+keywords:
+- RAS 系統管理 RRAS，使用者管理
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 742bf3e357ef813a60c67f991b6e5829879d3e1a
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106968300"
+---
+# <a name="ras-user-administration"></a><span data-ttu-id="cef08-104">RAS 使用者管理</span><span class="sxs-lookup"><span data-stu-id="cef08-104">RAS User Administration</span></span>
+
+<span data-ttu-id="cef08-105">RAS 伺服器使用包含一組使用者帳戶相關資訊的使用者帳戶資料庫。</span><span class="sxs-lookup"><span data-stu-id="cef08-105">A RAS server uses a user account database that contains information about a set of user accounts.</span></span> <span data-ttu-id="cef08-106">此資訊包含使用者的 RAS 許可權，這是一組位旗標，可決定當使用者呼叫以連接時，RAS 伺服器的回應方式。</span><span class="sxs-lookup"><span data-stu-id="cef08-106">The information includes a user's RAS privileges, which are a set of bit flags that determine how the RAS server responds when the user calls to connect.</span></span> <span data-ttu-id="cef08-107">RAS 伺服器管理功能會找出使用者帳戶資料庫，並取得並設定使用者帳戶的 RAS 許可權。</span><span class="sxs-lookup"><span data-stu-id="cef08-107">The RAS server administration functions locate the user account database, and get and set the RAS privileges for user accounts.</span></span>
+
+<span data-ttu-id="cef08-108">RAS 伺服器可以是作業系統網域的一部分，也可以是執行伺服器或專業版作業系統的獨立電腦。</span><span class="sxs-lookup"><span data-stu-id="cef08-108">A RAS server can be part of an operating system domain or it can be a stand-alone machine that runs the server or professional version of the operating system.</span></span> <span data-ttu-id="cef08-109">若是屬於網域的伺服器，使用者帳戶資料庫會儲存在伺服器上，也就是主域控制站 (PDC) 。</span><span class="sxs-lookup"><span data-stu-id="cef08-109">For a server that is part of a domain, the user account database is stored on the server that is the primary domain controller (PDC).</span></span> <span data-ttu-id="cef08-110">獨立伺服器會儲存自己的本機使用者帳戶資料庫。</span><span class="sxs-lookup"><span data-stu-id="cef08-110">A stand-alone server stores its own local user account database.</span></span> <span data-ttu-id="cef08-111">若要取得儲存指定的 RAS 伺服器所使用的使用者帳戶資料庫之伺服器的名稱，您可以呼叫 [**MprAdminGetPDCServer**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) 函數。</span><span class="sxs-lookup"><span data-stu-id="cef08-111">To get the name of the server that stores the user account database used by a specified RAS server, you can call the [**MprAdminGetPDCServer**](/windows/desktop/api/Mprapi/nf-mprapi-mpradmingetpdcserver) function.</span></span> <span data-ttu-id="cef08-112">然後，您可以在 [**NetQueryDisplayInformation**](/windows/win32/api/lmaccess/nf-lmaccess-netquerydisplayinformation) 函式的呼叫中使用使用者帳戶伺服器的名稱，以列舉使用者帳戶資料庫中的使用者。</span><span class="sxs-lookup"><span data-stu-id="cef08-112">You can then use the name of the user account server in a call to the [**NetQueryDisplayInformation**](/windows/win32/api/lmaccess/nf-lmaccess-netquerydisplayinformation) function to enumerate the users in a user account database.</span></span> <span data-ttu-id="cef08-113">您也可以在 [**MprAdminUserGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo) 和 [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo) 函式的呼叫中使用伺服器名稱，以取得並設定所指定使用者帳戶的 RAS 許可權。</span><span class="sxs-lookup"><span data-stu-id="cef08-113">You can also use the server name in calls to the [**MprAdminUserGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo) and [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo) functions to get and set the RAS privileges for a specified user account.</span></span>
+
+<span data-ttu-id="cef08-114">[**MprAdminUserGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo)和 [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo)函式會使用 [**ras \_ 使用者 \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0)結構來指定使用者的 RAS 許可權和回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="cef08-114">The [**MprAdminUserGetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusergetinfo) and [**MprAdminUserSetInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminusersetinfo) functions use the [**RAS\_USER\_0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) structure to specify a user's RAS privileges and call-back phone number.</span></span> <span data-ttu-id="cef08-115">RAS 許可權會指出下列資訊：</span><span class="sxs-lookup"><span data-stu-id="cef08-115">The RAS privileges indicate the following information:</span></span>
+
+-   <span data-ttu-id="cef08-116">使用者是否可以對伺服器或伺服器所屬的網域進行遠端連線。</span><span class="sxs-lookup"><span data-stu-id="cef08-116">Whether the user can make a remote connection to the server or the domain to which the server belongs.</span></span>
+-   <span data-ttu-id="cef08-117">使用者是否透過回呼來建立連線，RAS 伺服器會在該伺服器上停止回應，然後再回呼給使用者以建立連接。</span><span class="sxs-lookup"><span data-stu-id="cef08-117">Whether the user establishes a connection through a call back, in which the RAS server hangs up and then calls back to the user to establish the connection.</span></span>
+
+<span data-ttu-id="cef08-118">每個使用者帳戶會指定下列其中一個旗標，以指出使用者的回呼許可權。</span><span class="sxs-lookup"><span data-stu-id="cef08-118">Each user account specifies one of the following flags to indicate the user's call-back privileges.</span></span>
+
+
+
+| <span data-ttu-id="cef08-119">值</span><span class="sxs-lookup"><span data-stu-id="cef08-119">Value</span></span>                      | <span data-ttu-id="cef08-120">意義</span><span class="sxs-lookup"><span data-stu-id="cef08-120">Meaning</span></span>                                                                                                                                                                                                                                                                        |
+|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="cef08-121">RASPRIV \_ NoCallback</span><span class="sxs-lookup"><span data-stu-id="cef08-121">RASPRIV\_NoCallback</span></span>        | <span data-ttu-id="cef08-122">RAS 伺服器不會回呼使用者以建立連線。</span><span class="sxs-lookup"><span data-stu-id="cef08-122">The RAS server does not call back the user to establish a connection.</span></span>                                                                                                                                                                                                          |
+| <span data-ttu-id="cef08-123">RASPRIV \_ AdminSetCallback</span><span class="sxs-lookup"><span data-stu-id="cef08-123">RASPRIV\_AdminSetCallback</span></span>  | <span data-ttu-id="cef08-124">當使用者呼叫時，RAS 伺服器會停止回應，並呼叫儲存在使用者帳戶資料庫中的預設回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="cef08-124">When the user calls, the RAS server hangs up and calls a preset call-back phone number stored in the user account database.</span></span> <span data-ttu-id="cef08-125">[**RAS \_ USER \_ 0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0)結構的 **szPhoneNumber** 成員包含使用者的回撥電話號碼。</span><span class="sxs-lookup"><span data-stu-id="cef08-125">The **szPhoneNumber** member of the [**RAS\_USER\_0**](/windows/desktop/api/Mprapi/ns-mprapi-ras_user_0) structure contains the user's call-back phone number.</span></span>                       |
+| <span data-ttu-id="cef08-126">RASPRIV \_ CallerSetCallback</span><span class="sxs-lookup"><span data-stu-id="cef08-126">RASPRIV\_CallerSetCallback</span></span> | <span data-ttu-id="cef08-127">當使用者呼叫時，RAS 伺服器會提供選項來指定回呼使用者的電話號碼。</span><span class="sxs-lookup"><span data-stu-id="cef08-127">When the user calls, the RAS server provides the option of specifying a phone number at which to call back the user.</span></span> <span data-ttu-id="cef08-128">使用者也可以選擇立即連接，而不需要回呼。</span><span class="sxs-lookup"><span data-stu-id="cef08-128">The user can also choose to connect immediately without the call back.</span></span> <span data-ttu-id="cef08-129">**SzPhoneNumber** 成員包含使用者可覆寫的預設數位。</span><span class="sxs-lookup"><span data-stu-id="cef08-129">The **szPhoneNumber** member contains a default number that the user can override.</span></span> |
+
+
+
+ 
+
+ 
+
+ 
