@@ -4,12 +4,12 @@ description: 變動率陰影 &mdash; 或粗圖元陰影 &mdash; 是一種機制�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 04/08/2019
-ms.openlocfilehash: be2367ceb72d2e693d86b6f279b627f3bffa9e1c
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 2f207cddee978915788291fc0ffe55160e6a93c6
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104548471"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380762"
 ---
 # <a name="variable-rate-shading-vrs"></a>可變速率陰影 (VRS) 
 
@@ -34,14 +34,14 @@ Supersampling 會讓圖元著色器針對每個樣本叫用一次，以較高的
 
 以下的表格描述支援哪些 MSAA 層級，以及哪個粗略圖元大小。 在任何平臺上都不支援部分;有些則是根據功能 (*AdditionalShadingRatesSupported*) （以「Cap」表示）有條件地啟用。
 
-![coarsePixelSizeSupport](images/CoarsePixelSizeSupport.PNG "粗圖元大小")
+![表格顯示 M A 層級的粗略圖元大小。](images/CoarsePixelSizeSupport.PNG "粗圖元大小")
 
 針對下一節所討論的功能層，沒有任何粗略圖元大小和樣本計陣列合，其中硬體需要追蹤每個圖元著色器調用的16個樣本。 這些組合在上表中是以半色調為網底的。
 
 ## <a name="feature-tiers"></a>功能層
 VRS 的執行有兩個層級，還有兩個可供您查詢的功能。 資料表之後會更詳細地說明每一層。
 
-![層](images/Tiers.PNG "VRS 層")
+![表格顯示第1層和第2層中可用的功能。](images/Tiers.PNG "VRS 層")
 
 ### <a name="tier-1"></a>第 1 層
 - 您只能以每一繪製為基礎來指定網底比例;比起更細微。
@@ -175,7 +175,7 @@ VRS 的執行有兩個層級，還有兩個可供您查詢的功能。 資料表
 ### <a name="combining-shading-rate-factors"></a>組合網底比例因數
 使用此圖表時，會依序套用不同的陰影速率來源。
 
-![結合器](images/Combiners.PNG "網底結合器")
+![圖表會顯示標示為 A、誘發頂點網底速率、標示為 B、在結合器套用的管線狀態，然後以影像為基礎的陰影速率（標示為 B）套用於結合器。](images/Combiners.PNG "網底結合器")
 
 A 和 B 的每一對都會使用結合器結合。
 
@@ -447,7 +447,7 @@ numeric EvaluateAttributeSnapped(
 ### <a name="number-of-coverage-bits-needed"></a>所需的涵蓋範圍位數目
 下表指出每個粗略圖元大小和 MSAA 層級組合需要多少涵蓋區位。
 
-![NumberOfCoverageBits](images/NumberOfCoverageBits.PNG "涵蓋範圍位")
+![表格顯示粗的圖元大小、精細圖元數，以及 M S 的層級。](images/NumberOfCoverageBits.PNG "涵蓋範圍位")
 
 如表格中所示，使用透過 Direct3D 12 公開的變動率陰影功能，一次不能使用粗略圖元來寫入超過16個樣本。 This restriction is due to Direct3D 12's constraints regarding which MSAA levels are allowed with which coarse pixel size (see the table in the [With variable-rate shading (VRS)](#with-variable-rate-shading-vrs) section in this topic).
 
@@ -456,17 +456,17 @@ numeric EvaluateAttributeSnapped(
 
 下表顯示支援的粗略圖元大小和 MSAA 層級組合的涵蓋範圍遮罩格式。
 
-![Coverage1x](images/Coverage1x.PNG "涵蓋範圍：1x")
+![表格顯示粗略的圖元大小、粗略圖元的圖表，以及 1 x M S 的涵蓋範圍位。](images/Coverage1x.PNG "涵蓋範圍：1x")
 
 下表會 2x MSAA 圖元，其中每個圖元都有兩個索引0和1的樣本。
 
 在圖元上放置樣本標籤的位置是為了說明之用，不一定要在該圖元上傳達樣本的空間 {X，Y} 位置;尤其是假設範例位置可以用程式設計方式變更。 範例是由其以0為基礎的索引所參考。
 
-![Coverage2x](images/Coverage2x.PNG "涵蓋範圍：2倍")
+![表格顯示粗略的圖元大小、粗圖元圖表，以及 2 x M S 的涵蓋範圍位。](images/Coverage2x.PNG "涵蓋範圍：2倍")
 
 下表顯示4x 個 MSAA 圖元，其中的每個圖元都有四個範例的索引0、1、2和3。
 
-![Coverage4x](images/Coverage4x.PNG "涵蓋範圍：4x")
+![表格顯示粗略的圖元大小、粗圖元圖表，以及 4 x M S 的涵蓋範圍位。](images/Coverage4x.PNG "涵蓋範圍：4x")
 
 ## <a name="discard"></a>捨棄
 使用 HLSL 語義搭配 `discard` 粗略的圖元陰影時，會捨棄粗略的圖元。

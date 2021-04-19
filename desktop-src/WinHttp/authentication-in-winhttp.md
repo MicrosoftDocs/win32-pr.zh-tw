@@ -4,12 +4,12 @@ ms.assetid: 077d6275-8600-4091-b78e-419a41a2101a
 title: WinHTTP 中的驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4dd40e6da1f455e04e24fa740cf4d83da7e0472e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a75c6703e9d28902c5705f0b8ab8433193c4d085
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192916"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380824"
 ---
 # <a name="authentication-in-winhttp"></a>WinHTTP 中的驗證
 
@@ -21,7 +21,7 @@ ms.locfileid: "104192916"
 
 每個驗證標頭都包含支援的驗證配置，以及適用于基本和摘要式配置的領域。 如果支援多個驗證配置，伺服器會傳回多個驗證標頭。 領域值會區分大小寫，而且會定義一組接受相同認證的伺服器或 proxy。 例如，在需要伺服器驗證時，可能會傳回標頭 "WWW-驗證：基本領域 =" 範例 ""。 此標頭會指定必須提供「範例」網域的使用者認證。
 
-HTTP 應用程式可包含授權標頭欄位，並將要求傳送至伺服器。 授權標頭包含驗證配置，以及該配置所需的適當回應。 例如，如果用戶端收到回應標頭 "WWW-驗證：基本領域 =" 範例 ""，就會將 "Authorization： Basic <username： password>" 標頭新增至要求，並傳送至伺服器。
+HTTP 應用程式可包含授權標頭欄位，並將要求傳送至伺服器。 授權標頭包含驗證配置，以及該配置所需的適當回應。 例如， \<username:password> 如果用戶端收到回應標頭 "WWW-驗證：基本領域 =" 範例 ""，就會將標頭 "Authorization： basic" 新增至要求，並傳送至伺服器。
 
 > [!Note]  
 > 雖然在此以純文字形式顯示，但使用者名稱和密碼實際上是以 [*base64 編碼*](glossary.md)。

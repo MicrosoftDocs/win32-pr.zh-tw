@@ -4,12 +4,12 @@ ms.assetid: 386ecdb9-dde5-470e-9ae8-d2e0acc065b1
 title: 依字母順序排列的媒體基礎屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da1fad31eef65843fcb6eb95600d2cd0454818f1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f4e33338ca60258551f59a7a52615fa56f10c639
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982155"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222916"
 ---
 # <a name="alphabetical-list-of-media-foundation-attributes"></a>依字母順序排列的媒體基礎屬性清單
 
@@ -309,6 +309,7 @@ ms.locfileid: "106982155"
 | [MF \_ READWRITE \_ MMCSS \_ 類別 \_ 音訊](mf-readwrite-mmcss-class-audio.md)<br/>                                                                         | 指定 [多媒體類別](/windows/desktop/ProcThread/multimedia-class-scheduler-service) 排程器服務 (MMCSS 來源讀取器或接收寫入器中音訊處理執行緒的) 類別。<br/>                                                                                                                                                                                                                      |
 | [MF \_ READWRITE \_ MMCSS \_ 優先順序](mf-readwrite-mmcss-priority.md)<br/>                                                                                | 設定來源讀取器或接收寫入器的基底線程優先順序。<br/>                                                                                                                                                                                                                                                                                                                            |
 | [MF \_ READWRITE \_ MMCSS \_ 優先順序 \_ 音訊](mf-readwrite-mmcss-priority-audio.md)<br/>                                                                   | 設定來源讀取器或接收寫入器所建立之音訊處理執行緒的基本優先權。<br/>                                                                                                                                                                                                                                                                                               |
+| [MF \_ SA \_ D3D 配置可顯示的 \_ \_ \_ 資源](mf-sa-d3d11-allocate-displayable-resources.md)<br/>                                                                                     | 指定 MFT 的範例配置器 (SA) 是否應使用 D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE 旗標配置基礎 Direct3D 材質。<br/>                                                                                                                                                                                                                                                                                                          |
 | [\_ \_ \_ 每個樣本的 MF SA 緩衝區 \_](mf-sa-buffers-per-sample.md)<br/>                                                                                     | 指定影片範例配置器為每個影片範例建立的緩衝區數目。 <br/>                                                                                                                                                                                                                                                                                                          |
 | [MF \_ SA \_ D3D \_ 感知](mf-sa-d3d-aware-attribute.md)<br/>                                                                                              | 指定媒體基礎轉換 (MFT) 是否支援 (DXVA) 的 DirectX Video 加速。 這個屬性只適用于影片 MFTs。 <br/>                                                                                                                                                                                                                                                   |
 | [MF \_ SA \_ D3D11 \_ 感知](mf-sa-d3d11-aware.md)<br/>                                                                                                    | 指定媒體基礎轉換 (MFT) 是否支援 Microsoft Direct3D 11。<br/>                                                                                                                                                                                                                                                                                                           |

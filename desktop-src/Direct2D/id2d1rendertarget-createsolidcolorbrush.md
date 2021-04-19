@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: db0cf0913bc347cb36ac44cbd1befd7edb418a90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f49876a5eb9d7700aeb347e5168ca3e8c1e239e0
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000714"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380622"
 ---
 # <a name="id2d1rendertargetcreatesolidcolorbrush-methods"></a>ID2D1RenderTarget：： CreateSolidColorBrush 方法
 
@@ -29,9 +29,9 @@ ms.locfileid: "107000714"
 
 | 方法                                                                                                                                                                                                           | 描述                                                                                                                             |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F&、ID2D1SolidColorBrush \* \*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | 建立新的 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) ，其具有指定的色彩和 1.0 f 的基底不透明度。 <br/> |
-| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F&、D2D1 \_ 筆刷 \_ 屬性&、ID2D1SolidColorBrush \* \*)**](id2d1rendertarget-createsolidcolorbrush-ref-color-f-ref-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | 建立具有指定之色彩和不透明度的新 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) 。 <br/>                |
-| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F \* 、D2D1 \_ 筆刷 \_ 屬性 \* 、ID2D1SolidColorBrush \* \*)**](id2d1rendertarget-createsolidcolorbrush-ptr-color-f-ptr-d2d1-brush-properties-ptr-ptr-https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | 建立具有指定之色彩和不透明度的新 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) 。 <br/>                |
+| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F&、ID2D1SolidColorBrush \* \*)**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)                                                      | 建立新的 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) ，其具有指定的色彩和 1.0 f 的基底不透明度。 <br/> |
+| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F&、D2D1 \_ 筆刷 \_ 屬性&、ID2D1SolidColorBrush \* \*)**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx)   | 建立具有指定之色彩和不透明度的新 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) 。 <br/>                |
+| [**CreateSolidColorBrush (D2D1 \_ COLOR \_ F \* 、D2D1 \_ 筆刷 \_ 屬性 \* 、ID2D1SolidColorBrush \* \*)**](https://msdn.microsoft.com/library/Dd371867(v=VS.85).aspx) | 建立具有指定之色彩和不透明度的新 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createsolidcolorbrush(constd2d1_color_f__constd2d1_brush_properties__id2d1solidcolorbrush)) 。 <br/>                |
 
 
 
