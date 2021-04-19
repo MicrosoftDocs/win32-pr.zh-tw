@@ -1,0 +1,203 @@
+---
+description: 設定球形四邊形插補的控制點。
+ms.assetid: c66227bd-8cc1-4173-9dc2-5aab9d57301e
+title: 'D3DXQuaternionSquadSetup 函式 (D3DX10Math) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- D3DXQuaternionSquadSetup
+api_type:
+- LibDef
+api_location:
+- D3DX10.lib
+- D3DX10.dll
+ms.openlocfilehash: 4a0683bce3642b0300e68be348d8aed39b3c333d
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "106982038"
+---
+# <a name="d3dxquaternionsquadsetup-function-d3dx10mathh"></a>D3DXQuaternionSquadSetup 函式 (D3DX10Math) 
+
+設定球形四邊形插補的控制點。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+void D3DXQuaternionSquadSetup(
+  _In_       D3DXQUATERNION *pAOut,
+  _In_       D3DXQUATERNION *pBOut,
+  _In_       D3DXQUATERNION *pCOut,
+  _In_ const D3DXQUATERNION *pQ0,
+  _In_ const D3DXQUATERNION *pQ1,
+  _In_ const D3DXQUATERNION *pQ2,
+  _In_ const D3DXQUATERNION *pQ3
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*pAOut* \[在\]
+</dt> <dd>
+
+類型： **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
+
+有關的指標。
+
+</dd> <dt>
+
+*pBOut* \[在\]
+</dt> <dd>
+
+類型： **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
+
+Bout about 的指標。
+
+</dd> <dt>
+
+*pCOut* \[在\]
+</dt> <dd>
+
+類型： **[ **D3DXQUATERNION**](../direct3d9/d3dxquaternion.md)\***
+
+COut 的指標。
+
+</dd> <dt>
+
+*pQ0* \[在\]
+</dt> <dd>
+
+Type： **Const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md) \***
+
+輸入控制點的指標，Q0。
+
+</dd> <dt>
+
+*pQ1* \[在\]
+</dt> <dd>
+
+Type： **Const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md) \***
+
+輸入控制點的指標，Q1。
+
+</dd> <dt>
+
+*pQ2* \[在\]
+</dt> <dd>
+
+Type： **Const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md) \***
+
+輸入控制點的指標，Q2。
+
+</dd> <dt>
+
+*pQ3* \[在\]
+</dt> <dd>
+
+Type： **Const [**D3DXQUATERNION**](../direct3d9/d3dxquaternion.md) \***
+
+輸入控制點的指標，第3季。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+無。
+
+## <a name="remarks"></a>備註
+
+此函式會採用四個控制點，提供給輸入 pQ0、pQ1、pQ2 和 pQ3。 然後，此函式會改變這些值，以找出沿著最短路徑流動的曲線。 Q0、q2 和 q3 的值的計算方式如下所示。
+
+
+```
+q0 = |Q0 + Q1| < |Q0 - Q1| ? -Q0 : Q0
+q2 = |Q1 + Q2| < |Q1 - Q2| ? -Q2 : Q2
+q3 = |Q2 + Q3| < |Q2 - Q3| ? -Q3 : Q3
+```
+
+
+
+在計算新的 Q 值之後，有關、Bout about 和 COut 的值的計算方式如下：
+
+有關 = q1 \* e<sup> \[ -0.25 \ \* ( \ Ln \[ exp (q1) \* q2 \] \ + \ ln \[ exp (q1) \* q0 \] \ ) \ \] </sup>
+
+Bout about = q2 \* e<sup> \[ -0.25 \ \* ( \ Ln \[ Exp (q2) \* q3 \ \] + \ ln \[ exp (q2) \* q1 \] \ ) \ \] </sup>
+
+COut = q2
+
+> [!Note]  
+> Ln 是 API 方法 [**D3DXQuaternionLn**](d3d10-d3dxquaternionln.md) ，而 EXP 是 Api 方法 [**D3DXQuaternionExp**](d3d10-d3dxquaternionexp.md)。
+
+ 
+
+針對尚未正規化的任何四元數輸入，請使用 [**D3DXQuaternionNormalize**](d3d10-d3dxquaternionnormalize.md) 。
+
+### <a name="examples"></a>範例
+
+下列範例示範如何使用一組四元數索引鍵 (Q0、Q1、Q2、Q3) 來計算內部四邊形點 (A，B，C) 。 這可確保相鄰區段之間的切線是連續的。
+
+
+```
+      A     B
+Q0    Q1    Q2    Q3
+```
+
+
+
+下列程式碼範例將示範如何在 Q1 和 Q2 之間進行插補。
+
+
+```
+// Rotation about the z-axis
+D3DXQUATERNION Q0 = D3DXQUATERNION(0,  0, 0.707f, -.707f);
+D3DXQUATERNION Q1 = D3DXQUATERNION(0,  0, 0.000f, 1.000f);
+D3DXQUATERNION Q2 = D3DXQUATERNION(0,  0, 0.707f, 0.707f);
+D3DXQUATERNION Q3 = D3DXQUATERNION(0,  0, 1.000f, 0.000f);
+D3DXQUATERNION A, B, C, Qt;
+FLOAT time = 0.5f;
+
+D3DXQuaternionSquadSetup(&A, &B, &C, &Q0, &Q1, &Q2, &Q3);
+D3DXQuaternionSquad(&Qt, &Q1, &A, &B, &C, time);
+```
+
+
+
+> [!Note]
+>
+> -   C 是 +/-Q2，視函數的結果而定。
+> -   Qt 是函數的結果。
+>
+> 結果是時間 = 0.5 的 Z 軸周圍的45度旋轉。
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|-----------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>D3DX10Math。h</dt> </dl> |
+| 程式庫<br/> | <dl> <dt>D3DX10 .lib</dt> </dl>   |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[數學函數](d3d10-graphics-reference-d3dx10-functions-math.md)
+</dt> </dl>
+
+ 
+
+ 
