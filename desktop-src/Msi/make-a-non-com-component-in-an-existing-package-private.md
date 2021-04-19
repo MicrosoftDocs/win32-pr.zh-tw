@@ -1,0 +1,27 @@
+---
+description: 系統管理員可以強制用戶端應用程式一律使用現有封裝中的相同非 COM 伺服器複本&\# 郵件，而不會影響其他應用程式&\# 郵件; 方法是指定伺服器與用戶端之間的隔離元件關聯性。
+ms.assetid: e10d7942-b13c-46a3-a8ca-cb7bc021c76b
+title: 將現有封裝中的非 COM 元件設為私用
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 5d87a74a4f9fe7c3770100f78dd0fcd154772943
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106972265"
+---
+# <a name="make-a-non-com-component-in-an-existing-package-private"></a><span data-ttu-id="ee0bc-103">將現有封裝中的非 COM 元件設為私用</span><span class="sxs-lookup"><span data-stu-id="ee0bc-103">Make a non-COM Component in an Existing Package Private</span></span>
+
+<span data-ttu-id="ee0bc-104">系統管理員可以藉由指定伺服器與用戶端之間的 [隔離元件](isolated-components.md) 關聯性，來強制用戶端應用程式一律使用現有封裝中的相同非 COM 伺服器複本，而不會影響其他應用程式。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-104">An administrator can force a client application to always use the same copy of a non-COM server in an existing package—without affecting other applications—by specifying an [isolated components](isolated-components.md) relationship between the server and client.</span></span> <span data-ttu-id="ee0bc-105">這會將伺服器元件的私用複本安裝至用戶端應用程式專用的位置。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-105">This installs a private copy of the server component to a location used exclusively by the client application.</span></span> <span data-ttu-id="ee0bc-106">系統管理員必須使用轉換或封裝撰寫工具來執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="ee0bc-106">The administrator needs to use transforms or a package authoring tool to do the following:</span></span>
+
+-   <span data-ttu-id="ee0bc-107">將伺服器 DLL 和 .exe 用戶端放在不同的元件中。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-107">Put the server DLL and the .exe client in separate components.</span></span>
+-   <span data-ttu-id="ee0bc-108">在 [元件共用] [](isolatedcomponent-table.md)資料行中的用戶端元件和 [ \_ 元件應用程式] 資料行中的用戶端應用程式中，輸入 IsolatedComponent 資料表中的記錄 \_ 。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-108">Enter a record in the [IsolatedComponent table](isolatedcomponent-table.md) with the client component in the Component\_Shared column and the client application in the Component\_Application column.</span></span> <span data-ttu-id="ee0bc-109">在順序資料表中包含 [IsolateComponents 動作](isolatecomponents-action.md) 。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-109">Include the [IsolateComponents action](isolatecomponents-action.md) in the sequence tables.</span></span>
+-   <span data-ttu-id="ee0bc-110">在元件 [資料表](component-table.md)記錄中，為共用的元件設定 **msidbComponentAttributesSharedDllRefCount** 位 \_ 。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-110">Set the **msidbComponentAttributesSharedDllRefCount** bit in the [Component table](component-table.md) record for Component\_Shared.</span></span> <span data-ttu-id="ee0bc-111">在與其他安裝技術共用的情況下，安裝程式需要在共用位置上使用此全域 refcount 來保護共用檔案和註冊。</span><span class="sxs-lookup"><span data-stu-id="ee0bc-111">The installer requires this global refcount on the shared location to protect the shared files and registration in cases where there is sharing with other installation technologies.</span></span>
+
+ 
+
+ 
+
+
+
