@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e2f0f5a7860c7d729340a84bd80bc4e5713c733
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d5a5c7aed47d02fb7c7fcf2232b144e7a99e7c46
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465281"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590751"
 ---
 # <a name="cdn_selchange-notification-code"></a>CDN \_ SELCHANGE 通知碼
 
-\[從 Windows Vista 開始，[[一般專案] 對話方塊](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85))已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
+\[從 Windows Vista 開始，[[一般專案] 對話方塊](/windows/win32/shell/common-file-dialog)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
 
 當清單方塊中顯示目前開啟的資料夾或目錄的內容時，由 Explorer 樣式的 [ **開啟** ] 或 [ **另存** 新檔] 對話方塊所傳送。
 

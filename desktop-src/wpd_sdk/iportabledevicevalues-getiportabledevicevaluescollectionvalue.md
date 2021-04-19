@@ -1,0 +1,108 @@
+---
+description: GetIPortableDeviceValuesCollectionValue 方法會抓取索引鍵所指定的 IPortableDeviceValuesCollection 值， (類型 \_ 為 VT 未知) 。
+ms.assetid: 07b41ef8-d299-4d69-98ad-f1818c09ef6c
+title: 'IPortableDeviceValues：： GetIPortableDeviceValuesCollectionValue 方法 (PortableDeviceTypes .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IPortableDeviceValues.GetIPortableDeviceValuesCollectionValue
+api_type:
+- COM
+api_location:
+- PortableDeviceGUIDs.lib
+- PortableDeviceGUIDs.dll
+ms.openlocfilehash: 3db3b8410ca82a97a41fdf45ee3f866cb8d2e4b5
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106994247"
+---
+# <a name="iportabledevicevaluesgetiportabledevicevaluescollectionvalue-method"></a>IPortableDeviceValues：： GetIPortableDeviceValuesCollectionValue 方法
+
+**GetIPortableDeviceValuesCollectionValue** 方法會抓取索引鍵所指定的 **IPortableDeviceValuesCollection** 值， (類型 \_ 為 VT 未知) 。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT GetIPortableDeviceValuesCollectionValue(
+  [in]  REFPROPERTYKEY                  key,
+  [out] IPortableDeviceValuesCollection **ppValue
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*金鑰* \[在\]
+</dt> <dd>
+
+指定要取出之專案的 **REFPROPERTYKEY** 索引鍵。
+
+</dd> <dt>
+
+*ppValue* \[擴展\]
+</dt> <dd>
+
+接收已抓取 [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md) 介面指標的變數位址。 呼叫端負責在抓取的介面上呼叫 **Release** 。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+方法會傳回 **HRESULT**。 可能的值包括 (但不限於) 下表中的這些值。
+
+
+
+| 傳回碼                                                                                                            | Description                                                                                         |
+|------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                                                    |
+| <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 所指定的屬性不是 **IPortableDeviceValuesCollection** 介面。<br/> |
+| <dl> <dt>**\_ \_ \_ 找不到 WIN32 (錯誤 \_) 的 HRESULT**</dt> </dl> | 索引 *鍵* 所指定的屬性不在集合中。<br/>                                |
+
+
+
+ 
+
+## <a name="examples"></a>範例
+
+如需如何使用此方法的範例，請參閱抓取 [裝置所支援的轉譯功能](retrieving-the-rendering-capabilities-supported-by-a-device.md)。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|----------------------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>PortableDeviceTypes。h</dt> </dl>   |
+| 程式庫<br/> | <dl> <dt>PortableDeviceGUIDs .lib</dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IPortableDeviceValues 介面**](iportabledevicevalues.md)
+</dt> <dt>
+
+[正在抓取裝置所支援的轉譯功能](retrieving-the-rendering-capabilities-supported-by-a-device.md)
+</dt> <dt>
+
+[**SetIPortableDeviceValuesCollectionValue**](iportabledevicevalues-setiportabledevicevaluescollectionvalue.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

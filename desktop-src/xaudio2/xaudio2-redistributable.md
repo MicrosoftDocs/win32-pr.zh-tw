@@ -4,12 +4,12 @@ ms.assetid: ''
 title: XAudio 2.9 的可轉散發版本開發人員指南
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: a87c2dc44179f2c189270dfa91d2cf2696ea98a7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
+ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945752"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107583819"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>XAudio 2.9 的可轉散發版本開發人員指南
 
@@ -32,6 +32,8 @@ DLL 並非適用于 UWP 應用程式。 UWP 應用程式應該使用屬於 \_ �
 程式庫 XAPOBASEREDIST。只有當您想要 impement 自訂 XAudio 處理物件 (XAPO) ，而且如果未使用，也可以將它從 *XAudio2* 的可轉散發套件中移除時，才需要 LIB。
 
 您也可以使用其他工具來解壓縮 NuGet 套件的內容，甚至將副檔名重新命名為 .zip，並使用任何 ZIP 解壓縮程式工具將檔案解壓縮。
+
+> 另外還有一個 ``xaudio2redist`` 可供 [VC + + 封裝管理員](https://github.com/microsoft/vcpkg)使用的埠。
 
 ## <a name="compiling-your-app"></a>編譯您的應用程式
 
