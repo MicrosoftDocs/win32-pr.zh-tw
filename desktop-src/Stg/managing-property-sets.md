@@ -1,0 +1,45 @@
+---
+title: 管理屬性集
+description: 持續性屬性集包含相關的資料做為屬性。
+ms.assetid: 19ff2751-87f3-43d8-9307-ce2dd399f694
+keywords:
+- 管理屬性集
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: af3f9862d3074a5221bf1d5d975754486a562f87
+ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "106968099"
+---
+# <a name="managing-property-sets"></a><span data-ttu-id="1a844-104">管理屬性集</span><span class="sxs-lookup"><span data-stu-id="1a844-104">Managing Property Sets</span></span>
+
+<span data-ttu-id="1a844-105">持續性屬性集包含相關的資料做為屬性。</span><span class="sxs-lookup"><span data-stu-id="1a844-105">A persistent property set contains related data as properties.</span></span> <span data-ttu-id="1a844-106">每個屬性集都是使用 FMTID 來識別，而全域唯一識別碼 (GUID) ，可讓應用程式存取屬性集來識別屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-106">Each property set is identified with an FMTID, and a globally unique identifier (GUID) that enables applications, accessing the property set, to identify the property set.</span></span> <span data-ttu-id="1a844-107">透過此識別，應用程式會解讀該集合所包含的屬性。</span><span class="sxs-lookup"><span data-stu-id="1a844-107">Through this identification, the application interprets the properties that the set contains.</span></span>
+
+<span data-ttu-id="1a844-108">例如，文字處理器中的字元格式設定屬性，或繪圖程式中專案的轉譯屬性是屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-108">For example, the character-formatting properties in a word processor or the rendering attributes of an element in a drawing program are property sets.</span></span>
+
+<span data-ttu-id="1a844-109">COM 會定義 [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) 介面，以協助管理屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-109">COM defines the [**IPropertySetStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertysetstorage) interface to facilitate management of property sets.</span></span> <span data-ttu-id="1a844-110">透過這個介面的方法，您可以建立新的屬性集，或開啟或刪除現有的屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-110">Through the methods of this interface, you can create a new property set, or open or delete an existing property set.</span></span> <span data-ttu-id="1a844-111">此外，它還提供建立列舉值的方法，並提供其 [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) 介面的指標。</span><span class="sxs-lookup"><span data-stu-id="1a844-111">In addition, it provides a method that creates an enumerator and supplies a pointer to its [**IEnumSTATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) interface.</span></span> <span data-ttu-id="1a844-112">您可以呼叫此介面的方法來列舉物件上的 [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) 結構，以提供物件上所有屬性集的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="1a844-112">You can call the methods of this interface to enumerate [**STATPROPSETSTG**](/windows/win32/api/propidlbase/nn-propidlbase-ienumstatpropsetstg) structures on your object, which will provide information about all of the property sets on the object.</span></span>
+
+<span data-ttu-id="1a844-113">當您建立或開啟 [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage)實例時，它類似于開啟支援 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 或 [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream)的物件，因為您需要指定開啟介面的儲存模式。</span><span class="sxs-lookup"><span data-stu-id="1a844-113">When you create or open an instance of [**IPropertyStorage**](/windows/desktop/api/Propidl/nn-propidl-ipropertystorage), it is similar to opening an object that supports [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) or [**IStream**](/windows/desktop/api/Objidl/nn-objidl-istream), because you need to specify the storage mode in which you are opening the interface.</span></span> <span data-ttu-id="1a844-114">若為 **IStorage**，這些包括交易模式、讀取/寫入模式以及共用模式。</span><span class="sxs-lookup"><span data-stu-id="1a844-114">For **IStorage**, these include the transaction mode, the read/write mode, and the sharing mode.</span></span>
+
+<span data-ttu-id="1a844-115">當您使用 [**IPropertySetStorage：： create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create)的呼叫來建立屬性集時，請指定屬性集是否為 simple 或簡單。</span><span class="sxs-lookup"><span data-stu-id="1a844-115">When you create a property set with a call to [**IPropertySetStorage::Create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create), specify whether the property set is to be simple or nonsimple.</span></span> <span data-ttu-id="1a844-116">簡單的屬性集包含的型別，可以完全寫在屬性集資料流程中，它的大小會限制，而且在 Windows NT 4.0 和更早版本中可能不會超過 256 KB，在 Windows 2000、Windows XP 及 Windows Server 2003 中則為 1 MB。</span><span class="sxs-lookup"><span data-stu-id="1a844-116">A simple property set contains types that can be written fully within the property set stream, which is intended to be limited in size, and can be no larger than 256 KB in Windows NT 4.0 and earlier, or 1 MB in Windows 2000, Windows XP, and Windows Server 2003.</span></span> <span data-ttu-id="1a844-117">但是，當您需要在屬性集中儲存較大量的資訊時，可以指定要簡單的屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-117">However, when you need to store a larger amount of information in the property set, you can specify that the property set be nonsimple.</span></span> <span data-ttu-id="1a844-118">這可讓您使用一或多個類型，只指定儲存或資料流程物件的指標。</span><span class="sxs-lookup"><span data-stu-id="1a844-118">This allows you to use one or more of the types that specify only a pointer to a storage or stream object.</span></span> <span data-ttu-id="1a844-119">這些類型為 VT \_ 串流、vt 資料流程 \_ 物件、vt \_ 儲存和 vt \_ 儲存的 \_ 物件。</span><span class="sxs-lookup"><span data-stu-id="1a844-119">These types are VT\_STREAM, VT\_STREAMED OBJECT, VT\_STORAGE and VT\_STORED\_OBJECT.</span></span>
+
+<span data-ttu-id="1a844-120">儲存在這些屬性中的資料不會計入 Windows NT 4.0 或更早版本中的 256 KB 屬性集大小限制，或 Windows 2000、Windows XP 和 Windows Server 2003 中的 1 MB 限制。</span><span class="sxs-lookup"><span data-stu-id="1a844-120">Data stored in these properties is not counted against the 256 KB property-set size limit in Windows NT 4.0 or earlier, or the 1 MB limit in Windows 2000, Windows XP, and Windows Server 2003.</span></span> <span data-ttu-id="1a844-121">但是，屬性的相關資料（例如其名稱）則適用。</span><span class="sxs-lookup"><span data-stu-id="1a844-121">However, data about the property, such as its name, does apply.</span></span> <span data-ttu-id="1a844-122">此外，如果您需要交易更新，則必須簡單屬性集。</span><span class="sxs-lookup"><span data-stu-id="1a844-122">Also, if you need a transacted update, the property set must be nonsimple.</span></span> <span data-ttu-id="1a844-123">當然，開啟這些類型的效能會受到影響，因為它需要開啟您擁有指標的資料流程或儲存物件。</span><span class="sxs-lookup"><span data-stu-id="1a844-123">There is, of course, a certain performance penalty for opening these types, because it requires opening the stream or storage object to which you have the pointer.</span></span>
+
+<span data-ttu-id="1a844-124">如果您的應用程式使用複合檔案，您可以使用這些介面的 COM 提供執行，這些介面是在 COM 複合檔案儲存物件上所執行。</span><span class="sxs-lookup"><span data-stu-id="1a844-124">If your application uses compound files, you can use the COM-provided implementation of these interfaces, which are implemented on the COM compound file storage object.</span></span>
+
+<span data-ttu-id="1a844-125">每個屬性集都是由邏輯連接的屬性群組所組成，如 [管理屬性](managing-properties.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="1a844-125">Each property set consists primarily of a logically connected group of properties, as described in [Managing Properties](managing-properties.md).</span></span>
+
+<span data-ttu-id="1a844-126">如需 COM 中屬性集的詳細資訊，請參閱：</span><span class="sxs-lookup"><span data-stu-id="1a844-126">For more information about property sets in COM, see:</span></span>
+
+-   [<span data-ttu-id="1a844-127">COM 中的屬性集執行</span><span class="sxs-lookup"><span data-stu-id="1a844-127">Property Set Implementations in COM</span></span>](property-set-implementations-in-com.md)
+-   [<span data-ttu-id="1a844-128">屬性集考慮</span><span class="sxs-lookup"><span data-stu-id="1a844-128">Property Set Considerations</span></span>](property-set-considerations.md)
+-   [<span data-ttu-id="1a844-129">IPropertySetStorage 實行考慮</span><span class="sxs-lookup"><span data-stu-id="1a844-129">IPropertySetStorage Implementation Considerations</span></span>](ipropertysetstorage-implementation-considerations.md)
+-   [<span data-ttu-id="1a844-130">儲存屬性集</span><span class="sxs-lookup"><span data-stu-id="1a844-130">Storing Property Sets</span></span>](storing-property-sets.md)
+-   [<span data-ttu-id="1a844-131">效能特色</span><span class="sxs-lookup"><span data-stu-id="1a844-131">Performance Characteristics</span></span>](performance-characteristics.md)
+-   [<span data-ttu-id="1a844-132">執行摘要資訊屬性集</span><span class="sxs-lookup"><span data-stu-id="1a844-132">Implementing the Summary Information Property Set</span></span>](implementing-the-summary-information-property-set.md)
+
+ 
+
+ 
