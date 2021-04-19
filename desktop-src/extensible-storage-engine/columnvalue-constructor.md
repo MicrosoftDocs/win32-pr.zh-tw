@@ -1,0 +1,63 @@
+---
+description: 深入瞭解： ColumnValue 的函式
+title: ColumnValue 函式
+TOCTitle: 'ColumnValue constructor '
+ms:assetid: M:Microsoft.Isam.Esent.Interop.ColumnValue.#ctor
+ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.columnvalue.columnvalue(v=EXCHG.10)
+ms:contentKeyID: 55101201
+ms.date: 07/30/2014
+ms.topic: reference
+f1_keywords:
+- Microsoft.Isam.Esent.Interop.ColumnValue.ColumnValue
+dev_langs:
+- CSharp
+- JScript
+- VB
+- other
+api_name:
+- Microsoft.Isam.Esent.Interop.ColumnValue..ctor
+topic_type:
+- kbSyntax
+- apiref
+api_type:
+- Managed
+api_location:
+- Microsoft.Isam.Esent.Interop.dll
+ROBOTS: INDEX,FOLLOW
+ms.openlocfilehash: a18c1a11410f3277669f6abf33a05c3d33d54400
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106978170"
+---
+# <a name="columnvalue-constructor"></a>ColumnValue 函式
+
+初始化 ColumnValue 類別的新實例。
+
+**命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
+**元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。
+
+## <a name="syntax"></a>語法
+
+``` vb
+'Declaration
+Protected Sub New
+'Usage
+
+Dim instance As New ColumnValue()
+```
+
+``` csharp
+protected ColumnValue()
+```
+
+## <a name="see-also"></a>另請參閱
+
+#### <a name="reference"></a>參考
+
+[ColumnValue 類別](./columnvalue-class.md)
+
+[ColumnValue 成員](./columnvalue-members.md)
+
+[Microsoft. Esent 命名空間](./microsoft.isam.esent.interop-namespace.md)
