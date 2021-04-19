@@ -4,12 +4,12 @@ description: IAgentAudioOutputPropertiesEx GetStatus
 ms.assetid: 29bf1379-eebe-4b8b-b8d0-b86d2da78b64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd89f4b3d8101ff15b868551626775e6f2e341f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f851c8fc73e9f427bd725d7ef647b84a68be13e4
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372353"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380742"
 ---
 # <a name="iagentaudiooutputpropertiesexgetstatus"></a>IAgentAudioOutputPropertiesEx：： GetStatus
 
@@ -50,7 +50,7 @@ HRESULT GetStatus(
 
 </dd> </dl>
 
-這項設定可讓您的用戶端應用程式查詢音訊輸出通道的狀態。 您可以使用此資訊來判斷是否要使用 [**IAgentCharacterEx：：接聽**](lwef.iagentcharacterex::listen_method)) 來說出要使用的字元，或嘗試開啟接聽模式 (。
+這項設定可讓您的用戶端應用程式查詢音訊輸出通道的狀態。 您可以使用此資訊來判斷是否要使用 **IAgentCharacterEx：：接聽**) 來說出要使用的字元，或嘗試開啟接聽模式 (。
 
  
 
