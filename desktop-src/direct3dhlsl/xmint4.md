@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 302d820428fafb1561bd38850c4f75240ce9094f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d532f3a2a2332874f7b7c22f17992c22984e3f86
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323128"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222836"
 ---
 # <a name="xmint4-structure"></a>XMINT4 結構
 
@@ -83,6 +83,12 @@ w-向量的元件。
 
 
 
+## <a name="remarks"></a>備註
+
+此結構定義于 ``D3DX\_DXGIFormatConvert.inl`` DIRECTX SDK 的標頭中， (2010 年6月) ，以從 c + + 使用。 在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中，此標頭的最新版本不會再定義它，而會改為依賴 DirectXMath 中的 [DIRECTX：： XMINT4](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmint4) 。
+
+
+
 ## <a name="see-also"></a>另請參閱
 
 <dl> <dt>
@@ -92,12 +98,3 @@ w-向量的元件。
 
 [\_針對 In-Place 影像編輯解壓縮和封裝 DXGI 格式](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-
