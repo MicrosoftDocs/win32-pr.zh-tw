@@ -1,0 +1,96 @@
+---
+description: 在安裝封裝的摘要資訊中，[字數統計] 屬性會指出來源檔案映射的類型。
+ms.assetid: 1eeece25-4f24-4efe-879d-66ebbb6a9391
+title: 字數統計摘要屬性
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 2c4200cb946f6948770d0c900c2df651b8fbff11
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106995767"
+---
+# <a name="word-count-summary-property"></a><span data-ttu-id="848fa-103">字數統計摘要屬性</span><span class="sxs-lookup"><span data-stu-id="848fa-103">Word Count Summary property</span></span>
+
+<span data-ttu-id="848fa-104">在安裝封裝的摘要資訊中，[ **字數統計** ] 屬性會指出來源檔案映射的類型。</span><span class="sxs-lookup"><span data-stu-id="848fa-104">In the summary information of an installation package, the **Word Count Summary** property indicates the type of source file image.</span></span> <span data-ttu-id="848fa-105">如果這個屬性不存在，則預設為零 (0) 。</span><span class="sxs-lookup"><span data-stu-id="848fa-105">If this property is not present, it defaults to zero (0).</span></span>
+
+<span data-ttu-id="848fa-106">這個屬性是位欄位。</span><span class="sxs-lookup"><span data-stu-id="848fa-106">This property is a bit field.</span></span> <span data-ttu-id="848fa-107">未來可能會加入新的位。</span><span class="sxs-lookup"><span data-stu-id="848fa-107">New bits may be added in the future.</span></span> <span data-ttu-id="848fa-108">目前提供下列位。</span><span class="sxs-lookup"><span data-stu-id="848fa-108">At present the following bits are available.</span></span>
+
+
+
+| <span data-ttu-id="848fa-109">bit</span><span class="sxs-lookup"><span data-stu-id="848fa-109">Bit</span></span>   | <span data-ttu-id="848fa-110">值</span><span class="sxs-lookup"><span data-stu-id="848fa-110">Value</span></span>          | <span data-ttu-id="848fa-111">描述</span><span class="sxs-lookup"><span data-stu-id="848fa-111">Description</span></span>                                                                                                                                                                                                                                      |
+|-------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="848fa-112">位0</span><span class="sxs-lookup"><span data-stu-id="848fa-112">Bit 0</span></span> | <span data-ttu-id="848fa-113">0 1</span><span class="sxs-lookup"><span data-stu-id="848fa-113">0 1</span></span><br/> | <span data-ttu-id="848fa-114">長檔名。</span><span class="sxs-lookup"><span data-stu-id="848fa-114">Long file names.</span></span> <span data-ttu-id="848fa-115">簡短檔案名。</span><span class="sxs-lookup"><span data-stu-id="848fa-115">Short file names.</span></span><br/>                                                                                                                                                                                                    |
+| <span data-ttu-id="848fa-116">位1</span><span class="sxs-lookup"><span data-stu-id="848fa-116">Bit 1</span></span> | <span data-ttu-id="848fa-117">0 2</span><span class="sxs-lookup"><span data-stu-id="848fa-117">0 2</span></span><br/> | <span data-ttu-id="848fa-118">來源未壓縮。</span><span class="sxs-lookup"><span data-stu-id="848fa-118">Source is uncompressed.</span></span> <span data-ttu-id="848fa-119">來源已壓縮。</span><span class="sxs-lookup"><span data-stu-id="848fa-119">Source is compressed.</span></span><br/>                                                                                                                                                                                         |
+| <span data-ttu-id="848fa-120">位2</span><span class="sxs-lookup"><span data-stu-id="848fa-120">Bit 2</span></span> | <span data-ttu-id="848fa-121">0 4</span><span class="sxs-lookup"><span data-stu-id="848fa-121">0 4</span></span><br/> | <span data-ttu-id="848fa-122">來源是原始媒體。</span><span class="sxs-lookup"><span data-stu-id="848fa-122">Source is original media.</span></span> <span data-ttu-id="848fa-123">來源是系統管理安裝所建立的系統管理映射。</span><span class="sxs-lookup"><span data-stu-id="848fa-123">Source is a administrative image created by an administrative installation.</span></span><br/>                                                                                                                                 |
+| <span data-ttu-id="848fa-124">位3</span><span class="sxs-lookup"><span data-stu-id="848fa-124">Bit 3</span></span> | <span data-ttu-id="848fa-125">0 8</span><span class="sxs-lookup"><span data-stu-id="848fa-125">0 8</span></span><br/> | <span data-ttu-id="848fa-126">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-126">Elevated privileges can be required to install this package.</span></span> <span data-ttu-id="848fa-127">安裝此套件不需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-127">Elevated privileges are not required to install this package.</span></span><br/> <span data-ttu-id="848fa-128">從 Windows Installer 4.0 版和 Windows Vista 或 Windows Server 2008 開始提供。</span><span class="sxs-lookup"><span data-stu-id="848fa-128">Available starting with Windows Installer version 4.0 and Windows Vista or Windows Server 2008.</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="848fa-129">這些會合並以提供 [ **字數統計** ] 屬性的下列其中一個值，表示來源檔案影像的類型。</span><span class="sxs-lookup"><span data-stu-id="848fa-129">These are combined to give the **Word Count Summary** property one of the following values that indicate a type of source file image.</span></span>
+
+
+
+| <span data-ttu-id="848fa-130">值</span><span class="sxs-lookup"><span data-stu-id="848fa-130">Value</span></span> | <span data-ttu-id="848fa-131">類型</span><span class="sxs-lookup"><span data-stu-id="848fa-131">Type</span></span>                                                                                                                                                                                                                                                                                            |
+|-------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="848fa-132">0</span><span class="sxs-lookup"><span data-stu-id="848fa-132">0</span></span>     | <span data-ttu-id="848fa-133">使用長檔名的原始來源。</span><span class="sxs-lookup"><span data-stu-id="848fa-133">Original source using long file names.</span></span> <span data-ttu-id="848fa-134">符合 [目錄資料表](directory-table.md)中的樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="848fa-134">Matches tree in [Directory Table](directory-table.md).</span></span> <span data-ttu-id="848fa-135">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-135">Elevated privileges can be required to install this package.</span></span>                                                                                                                                     |
+| <span data-ttu-id="848fa-136">1</span><span class="sxs-lookup"><span data-stu-id="848fa-136">1</span></span>     | <span data-ttu-id="848fa-137">使用短檔案名的原始來源。</span><span class="sxs-lookup"><span data-stu-id="848fa-137">Original source using short file names.</span></span> <span data-ttu-id="848fa-138">符合 [目錄資料表](directory-table.md)中的樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="848fa-138">Matches tree in [Directory Table](directory-table.md).</span></span> <span data-ttu-id="848fa-139">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-139">Elevated privileges can be required to install this package.</span></span>                                                                                                                                    |
+| <span data-ttu-id="848fa-140">2</span><span class="sxs-lookup"><span data-stu-id="848fa-140">2</span></span>     | <span data-ttu-id="848fa-141">使用長檔名的壓縮原始檔。</span><span class="sxs-lookup"><span data-stu-id="848fa-141">Compressed source files using long file names.</span></span> <span data-ttu-id="848fa-142">符合 [媒體資料表](media-table.md)中的封包和檔案。</span><span class="sxs-lookup"><span data-stu-id="848fa-142">Matches cabinets and files in the [Media Table](media-table.md).</span></span> <span data-ttu-id="848fa-143">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-143">Elevated privileges can be required to install this package.</span></span>                                                                                                                   |
+| <span data-ttu-id="848fa-144">3</span><span class="sxs-lookup"><span data-stu-id="848fa-144">3</span></span>     | <span data-ttu-id="848fa-145">使用短檔案名的壓縮原始檔。</span><span class="sxs-lookup"><span data-stu-id="848fa-145">Compressed source files using short file names.</span></span> <span data-ttu-id="848fa-146">符合 [媒體資料表](media-table.md)中的封包和檔案。</span><span class="sxs-lookup"><span data-stu-id="848fa-146">Matches cabinets and files in the [Media Table](media-table.md).</span></span> <span data-ttu-id="848fa-147">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-147">Elevated privileges can be required to install this package.</span></span>                                                                                                                  |
+| <span data-ttu-id="848fa-148">4</span><span class="sxs-lookup"><span data-stu-id="848fa-148">4</span></span>     | <span data-ttu-id="848fa-149">使用長檔名的系統管理映射。</span><span class="sxs-lookup"><span data-stu-id="848fa-149">Administrative image using long file names.</span></span> <span data-ttu-id="848fa-150">符合 [目錄資料表](directory-table.md)中的樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="848fa-150">Matches tree in [Directory Table](directory-table.md).</span></span> <span data-ttu-id="848fa-151">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-151">Elevated privileges can be required to install this package.</span></span>                                                                                                                                |
+| <span data-ttu-id="848fa-152">5</span><span class="sxs-lookup"><span data-stu-id="848fa-152">5</span></span>     | <span data-ttu-id="848fa-153">使用簡短檔案名的系統管理映射。</span><span class="sxs-lookup"><span data-stu-id="848fa-153">Administrative image using short file names.</span></span> <span data-ttu-id="848fa-154">符合 [目錄資料表](directory-table.md)中的樹狀結構。</span><span class="sxs-lookup"><span data-stu-id="848fa-154">Matches tree in [Directory Table](directory-table.md).</span></span> <span data-ttu-id="848fa-155">若要安裝此套件，可能需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-155">Elevated privileges can be required to install this package.</span></span>                                                                                                                               |
+| <span data-ttu-id="848fa-156">8</span><span class="sxs-lookup"><span data-stu-id="848fa-156">8</span></span>     | <span data-ttu-id="848fa-157">安裝此套件不需要較高的許可權。</span><span class="sxs-lookup"><span data-stu-id="848fa-157">Elevated privileges are not required to install this package.</span></span> <span data-ttu-id="848fa-158">在 [不使用 UAC 對話方塊的情況下撰寫套件](authoring-packages-without-the-uac-dialog-box.md)時，請使用此值。從 Windows Installer 4.0 版和 Windows Vista 或 Windows Server 2008 開始提供。</span><span class="sxs-lookup"><span data-stu-id="848fa-158">Use this value when [Authoring Packages without the UAC Dialog Box](authoring-packages-without-the-uac-dialog-box.md).Available starting with Windows Installer version 4.0 and Windows Vista or Windows Server 2008.</span></span><br/> |
+
+
+
+ 
+
+<span data-ttu-id="848fa-159">請注意，如果封裝標示為壓縮 (位1設定) ，則 Windows Installer 只會安裝位於來源根目錄的檔案。</span><span class="sxs-lookup"><span data-stu-id="848fa-159">Note that if the package is marked as compressed (Bit 1 is set), the Windows Installer only installs files located at the root of the source.</span></span> <span data-ttu-id="848fa-160">在此情況下，即使檔案 [資料表](file-table.md) 中標示為未壓縮的檔案，都必須位於要安裝的根目錄。</span><span class="sxs-lookup"><span data-stu-id="848fa-160">In this case, even files marked as uncompressed in the [File Table](file-table.md) must be located at the root to be installed.</span></span> <span data-ttu-id="848fa-161">若要指定同時具有封包檔 (壓縮檔案的來源映射) 和與 [目錄資料表](directory-table.md)中的樹狀結構相符的未壓縮檔案，請在 [**字數統計] 摘要** 內容中保留位1取消設定 (值 =) 0，並在檔案 [資料表](file-table.md)的 [屬性] 資料行中為封包中的每個檔案設定 **msidbFileAttributesCompressed** (value = 16384) 。</span><span class="sxs-lookup"><span data-stu-id="848fa-161">To specify a source image that has both a cabinet file (compressed files) and uncompressed files that match the tree in the [Directory Table](directory-table.md), mark the package as uncompressed by leaving Bit 1 unset (value=0) in the **Word Count Summary** property and set **msidbFileAttributesCompressed** (value=16384) in the Attributes column of the [File Table](file-table.md) for each file in the cabinet.</span></span>
+
+<span data-ttu-id="848fa-162">在轉換中，[ **字數統計摘要** ] 屬性應該是 Null。</span><span class="sxs-lookup"><span data-stu-id="848fa-162">In a transform, the **Word Count Summary** property should be Null.</span></span>
+
+<span data-ttu-id="848fa-163">在 patch 封裝的摘要資訊資料流程中，[ **字數統計** ] 屬性會指出安裝修補程式所需的最小 Windows Installer 版本。</span><span class="sxs-lookup"><span data-stu-id="848fa-163">In the summary information stream of a patch package, the **Word Count Summary** property indicates the minimum Windows Installer version that is required to install the patch.</span></span>
+
+
+
+| <span data-ttu-id="848fa-164">值</span><span class="sxs-lookup"><span data-stu-id="848fa-164">Value</span></span> | <span data-ttu-id="848fa-165">意義</span><span class="sxs-lookup"><span data-stu-id="848fa-165">Meaning</span></span>                                                                                                                                                                              |
+|-------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="848fa-166">1</span><span class="sxs-lookup"><span data-stu-id="848fa-166">1</span></span>     | <span data-ttu-id="848fa-167">預設值，表示已使用 MSPATCH 來建立修補程式。</span><span class="sxs-lookup"><span data-stu-id="848fa-167">The default value, which indicates that MSPATCH was used to create the patch.</span></span>                                                                                                        |
+| <span data-ttu-id="848fa-168">2</span><span class="sxs-lookup"><span data-stu-id="848fa-168">2</span></span>     | <span data-ttu-id="848fa-169">需要至少 Windows Installer 1.2，才能套用修補程式。</span><span class="sxs-lookup"><span data-stu-id="848fa-169">Requires at minimum Windows Installer 1.2 for the patch to be applied.</span></span> <span data-ttu-id="848fa-170">如果與1.2 之前的 Windows Installer 版本搭配使用，則字數為 "2" 的 patch 會立即失敗。</span><span class="sxs-lookup"><span data-stu-id="848fa-170">A patch with a Word Count of "2" fails immediately if used with a Windows Installer version earlier than 1.2.</span></span> |
+| <span data-ttu-id="848fa-171">3</span><span class="sxs-lookup"><span data-stu-id="848fa-171">3</span></span>     | <span data-ttu-id="848fa-172">需要至少 Windows Installer 2.0，才能套用修補程式。</span><span class="sxs-lookup"><span data-stu-id="848fa-172">Requires at minimum Windows Installer 2.0 for the patch to be applied.</span></span> <span data-ttu-id="848fa-173">如果與2.0 之前的 Windows Installer 版本搭配使用，則字數為 "3" 的 patch 會立即失敗。</span><span class="sxs-lookup"><span data-stu-id="848fa-173">A patch with a Word Count of "3" fails immediately if used with a Windows Installer version earlier than 2.0.</span></span> |
+| <span data-ttu-id="848fa-174">4</span><span class="sxs-lookup"><span data-stu-id="848fa-174">4</span></span>     | <span data-ttu-id="848fa-175">需要至少 Windows Installer 3.0，才能套用修補程式。</span><span class="sxs-lookup"><span data-stu-id="848fa-175">Requires at minimum Windows Installer 3.0 for the patch to be applied.</span></span> <span data-ttu-id="848fa-176">如果與3.0 之前的 Windows Installer 版本搭配使用，則字數為 "4" 的 patch 會失敗。</span><span class="sxs-lookup"><span data-stu-id="848fa-176">A patch with a Word Count of "4" fails if used with a Windows Installer version earlier than 3.0.</span></span>             |
+| <span data-ttu-id="848fa-177">5</span><span class="sxs-lookup"><span data-stu-id="848fa-177">5</span></span>     | <span data-ttu-id="848fa-178">需要至少 Windows Installer 3.1，才能套用修補程式。</span><span class="sxs-lookup"><span data-stu-id="848fa-178">Requires at minimum Windows Installer 3.1 for the patch to be applied.</span></span>                                                                                                               |
+
+
+
+ 
+
+<span data-ttu-id="848fa-179">這是必要的摘要屬性。</span><span class="sxs-lookup"><span data-stu-id="848fa-179">This summary property is REQUIRED.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="848fa-180">規格需求</span><span class="sxs-lookup"><span data-stu-id="848fa-180">Requirements</span></span>
+
+
+
+| <span data-ttu-id="848fa-181">需求</span><span class="sxs-lookup"><span data-stu-id="848fa-181">Requirement</span></span> | <span data-ttu-id="848fa-182">值</span><span class="sxs-lookup"><span data-stu-id="848fa-182">Value</span></span> |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="848fa-183">版本</span><span class="sxs-lookup"><span data-stu-id="848fa-183">Version</span></span><br/> | <span data-ttu-id="848fa-184">Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。</span><span class="sxs-lookup"><span data-stu-id="848fa-184">Windows Installer 5.0 on Windows Server 2012, Windows 8, Windows Server 2008 R2 or Windows 7.</span></span> <span data-ttu-id="848fa-185">Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。</span><span class="sxs-lookup"><span data-stu-id="848fa-185">Windows Installer 4.0 or Windows Installer 4.5 on Windows Server 2008 or Windows Vista.</span></span> <span data-ttu-id="848fa-186">Windows Server 2003 或 Windows XP 上的 Windows Installer</span><span class="sxs-lookup"><span data-stu-id="848fa-186">Windows Installer on Windows Server 2003 or Windows XP</span></span><br/> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="848fa-187">另請參閱</span><span class="sxs-lookup"><span data-stu-id="848fa-187">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="848fa-188">摘要屬性描述</span><span class="sxs-lookup"><span data-stu-id="848fa-188">Summary Property Descriptions</span></span>](summary-property-descriptions.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

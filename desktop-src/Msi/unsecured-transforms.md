@@ -1,0 +1,35 @@
+---
+description: 未受安全轉換所述保護的轉換預設為不安全的轉換。
+ms.assetid: feace6c3-7828-44d0-8d2b-482a02e8e0c0
+title: 不安全的轉換
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 6743898142197d87d4e3fef5d0f48778f6261ff4
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106975546"
+---
+# <a name="unsecured-transforms"></a><span data-ttu-id="c8e9f-103">不安全的轉換</span><span class="sxs-lookup"><span data-stu-id="c8e9f-103">Unsecured Transforms</span></span>
+
+<span data-ttu-id="c8e9f-104">未受安全 [轉換](secured-transforms.md) 所述保護的轉換預設為不安全的轉換。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-104">Transforms that have not been secured as described in [Secured Transforms](secured-transforms.md) are unsecured transforms by default.</span></span>
+
+<span data-ttu-id="c8e9f-105">若要在安裝封裝時套用不安全的轉換，請在 [ [**轉換**](transforms.md) ] 屬性或命令列字串中傳遞轉換檔名稱。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-105">To apply an unsecured transform when installing a package, pass the transform file names in the [**TRANSFORMS**](transforms.md) property or command line string.</span></span> <span data-ttu-id="c8e9f-106">請勿以 @ 或字元開頭字串， \| 或設定 [TransformsSecure 原則](transformssecure-policy.md) 或 [**TransformsSecure**](transformssecure.md) 屬性。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-106">Do not begin the string with the @ or \| characters or set the [TransformsSecure policy](transformssecure-policy.md) or the [**TRANSFORMSSECURE**](transformssecure.md) property.</span></span> <span data-ttu-id="c8e9f-107">請注意，您無法在相同的轉換清單中結合不安全的轉換和 [安全的轉換](secured-transforms.md) 。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-107">Note that you cannot combine unsecured transforms and [secured transforms](secured-transforms.md) in the same transforms list.</span></span>
+
+<span data-ttu-id="c8e9f-108">如果封裝是在每個使用者 [安裝內容](installation-context.md)中安裝或通告，並且具有不安全的轉換，則安裝程式會將轉換來源儲存在使用者設定檔中的應用程式資料檔案夾。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-108">If the package is installed or advertised in the per-user [installation context](installation-context.md), and has unsecured transforms, the installer saves the transform source in the Application Data folder in the user's profile.</span></span> <span data-ttu-id="c8e9f-109">這可讓使用者在電腦之間移動時，維護其產品的自訂。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-109">This enables a user to maintain their customization of a product while moving between computers.</span></span>
+
+<span data-ttu-id="c8e9f-110">如果封裝是在每部電腦 [安裝內容](installation-context.md)中安裝或通告，並且使用不安全的轉換，則安裝程式會將轉換來源儲存在% windir% \\ installer 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-110">If the package is installed or advertised in the per-machine [installation context](installation-context.md), and uses unsecured transforms, the installer saves the transform source in the %windir%\\Installer folder.</span></span>
+
+<span data-ttu-id="c8e9f-111">在第一次安裝封裝期間，安裝程式會先在 [**轉換**](transforms.md) 屬性或命令列字串所提供的來源搜尋轉換。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-111">During a first-time installation of the package, the installer first searches for the transform at the source supplied by the [**TRANSFORMS**](transforms.md) property or command line string.</span></span> <span data-ttu-id="c8e9f-112">如果無法使用此來源，則安裝程式會在 .msi 檔案旁的封裝來源搜尋轉換。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-112">If this source is unavailable, the installer then searches for the transform at the source of the package next to the .msi file.</span></span>
+
+<span data-ttu-id="c8e9f-113">在 [維護安裝](maintenance-installation.md)期間，安裝程式會在快取位置搜尋轉換。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-113">During a [maintenance installation](maintenance-installation.md), the installer searches for the transform at the cache location.</span></span> <span data-ttu-id="c8e9f-114">如果無法使用轉換的快取副本，安裝程式會在 .msi 檔案旁的封裝來源搜尋轉換。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-114">If the cached copy of the transform becomes unavailable, the installer searches for the transform at the source of the package next to the .msi file.</span></span>
+
+<span data-ttu-id="c8e9f-115">如需詳細資訊，請參閱套用 [轉換](applying-transforms.md) 和 [來源復原](source-resiliency.md)。</span><span class="sxs-lookup"><span data-stu-id="c8e9f-115">For more information, see [Applying Transforms](applying-transforms.md) and [Source Resiliency](source-resiliency.md).</span></span>
+
+ 
+
+ 
+
+
+

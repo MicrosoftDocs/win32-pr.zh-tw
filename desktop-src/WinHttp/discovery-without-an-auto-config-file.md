@@ -1,0 +1,33 @@
+---
+description: 如果未在區域網路上部署 proxy 自動設定檔案，WinHttpGetProxyForUrl 就會找不到 proxy 伺服器。
+ms.assetid: a170e63a-8586-47df-af5e-4ee3621795b2
+title: 沒有自動設定檔的探索
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: b6a5ec281c2ef74e2a377cecbd30f16cbc49bd79
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106981897"
+---
+# <a name="discovery-without-an-auto-config-file"></a><span data-ttu-id="dd92e-103">沒有自動設定檔的探索</span><span class="sxs-lookup"><span data-stu-id="dd92e-103">Discovery Without an Auto-Config File</span></span>
+
+<span data-ttu-id="dd92e-104">如果未在區域網路上部署 proxy 自動設定檔案， [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) 就會找不到 proxy 伺服器。</span><span class="sxs-lookup"><span data-stu-id="dd92e-104">If a proxy auto-configuration file has not been deployed on the local network, [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) cannot find a proxy server.</span></span> <span data-ttu-id="dd92e-105">如果 **WinHttpGetProxyForUrl** 失敗，則會根據其執行時間環境，取得可取得可行 proxy 設定的一些可能回溯策略。</span><span class="sxs-lookup"><span data-stu-id="dd92e-105">If **WinHttpGetProxyForUrl** fails, there are several possible fall-back strategies for obtaining a viable proxy configuration, depending on its runtime environment.</span></span> <span data-ttu-id="dd92e-106">這些包括提示您透過使用者介面進行 proxy 設定、要求某人使用 WinHTTP "ProxyCfg.exe" 公用程式將 proxy 設定儲存在登錄中，或使用 [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) 來檢查 proxy 伺服器是否列在 Internet Explorer 的設定中。</span><span class="sxs-lookup"><span data-stu-id="dd92e-106">These include prompting for the proxy setting through a user interface, requiring someone to store the proxy configuration in the registry using the WinHTTP "ProxyCfg.exe" utility, or using [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) to check whether a proxy server is listed in Internet Explorer's settings.</span></span>
+
+<span data-ttu-id="dd92e-107">由於用戶端具有直接網際網路連線（例如透過 ISP），而且不需要 proxy 伺服器，因此可能沒有 proxy 自動設定檔案。</span><span class="sxs-lookup"><span data-stu-id="dd92e-107">It is possible that there is no proxy auto-configuration file because the client has a direct Internet connection, such as through an ISP, and does not need a proxy server.</span></span>
+
+<span data-ttu-id="dd92e-108">相反地，可能需要 proxy 伺服器，但區域網路可能不支援 WPAD。</span><span class="sxs-lookup"><span data-stu-id="dd92e-108">A proxy server may be required, on the other hand, but the local network may not support WPAD.</span></span> <span data-ttu-id="dd92e-109">在此情況下，必須從使用者取得 proxy 設定，或在用戶端電腦上找到它。</span><span class="sxs-lookup"><span data-stu-id="dd92e-109">In this case, the proxy configuration must be obtained from the user or found somewhere on the client machine.</span></span>
+
+<span data-ttu-id="dd92e-110">在仲介層伺服器環境中執行的 WinHTTP 應用程式（例如 COM + 或 ASP 應用程式）應該依賴伺服器管理員，在登錄中使用 "ProxyCfg.exe" 公用程式設定預設 proxy 設定。</span><span class="sxs-lookup"><span data-stu-id="dd92e-110">A WinHTTP-based application running in a middle-tier server environment, such as a COM+ or ASP application, should rely on a server administrator setting a default proxy configuration in the registry using the "ProxyCfg.exe" utility.</span></span> <span data-ttu-id="dd92e-111">然後，您可以使用 [**WinHttpGetDefaultProxyConfiguration**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)函式來抓取此預設設定資訊，或直接在 [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen)呼叫中指定 **WINHTTP \_ 存取 \_ 類型 \_ PRECONFIG** 旗標。</span><span class="sxs-lookup"><span data-stu-id="dd92e-111">This default configuration information can then be retrieved either by using the [**WinHttpGetDefaultProxyConfiguration**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration) function, or simply by specifying the **WINHTTP\_ACCESS\_TYPE\_PRECONFIG** flag in the [**WinHttpOpen**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopen) call.</span></span>
+
+<span data-ttu-id="dd92e-112">另一方面，在用戶端桌上型電腦上執行的 WinHTTP 應用程式可能會嘗試檢查 Internet Explorer 的 proxy 設定。</span><span class="sxs-lookup"><span data-stu-id="dd92e-112">On the other hand, a WinHTTP application running on a client desktop machine can attempt to examine Internet Explorer's proxy settings.</span></span> <span data-ttu-id="dd92e-113">[**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) 會在目前使用中連線 (撥號、VPN 或 LAN) 的目前使用者 Internet Explorer PROXY 設定中，填入呼叫端提供的 [**WINHTTP \_ 目前 \_ 使用者 \_ IE \_ PROXY \_**](/windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config) 設定結構。</span><span class="sxs-lookup"><span data-stu-id="dd92e-113">[**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) fills in a caller-supplied [**WINHTTP\_CURRENT\_USER\_IE\_PROXY\_CONFIG**](/windows/win32/api/winhttp/ns-winhttp-winhttp_current_user_ie_proxy_config) structure with the current user's Internet Explorer proxy settings for the current active connection (dial-up, VPN or LAN).</span></span> <span data-ttu-id="dd92e-114">這項設定可能表示使用自動偵測，或可能指定 proxy 自動設定檔案的 URL，或者可以指定要使用的實際 proxy 伺服器，或指定三個的組合。</span><span class="sxs-lookup"><span data-stu-id="dd92e-114">This configuration may indicate that auto-detection is used, or it may specify a URL for a proxy auto-configuration file, or it may specify an actual proxy server to use, or it may specify a combination of the three.</span></span> <span data-ttu-id="dd92e-115">如果此資訊包含 PAC URL 或 proxy 伺服器，WinHTTP 應用程式可以嘗試使用這些 URL。</span><span class="sxs-lookup"><span data-stu-id="dd92e-115">If this information includes a PAC URL or a proxy server, the WinHTTP application can try using those.</span></span>
+
+<span data-ttu-id="dd92e-116">您可以在平臺軟體發展工具組 (SDK) WinHTTP 範例中找到使用 [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) 和 [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) 函數的範例。</span><span class="sxs-lookup"><span data-stu-id="dd92e-116">A sample that uses the [**WinHttpGetProxyForUrl**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetproxyforurl) and [**WinHttpGetIEProxyConfigForCurrentUser**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetieproxyconfigforcurrentuser) functions can be found in the Platform Software Development Kit (SDK) WinHTTP samples.</span></span>
+
+ 
+
+ 
+
+
+
