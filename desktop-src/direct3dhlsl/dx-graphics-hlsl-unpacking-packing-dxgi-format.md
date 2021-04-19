@@ -9,16 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c613a3f0068537733961b58a8a4c2b4528d21f25
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04f3729bbeda5b0677da9d52e595e621523ff2d1
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300415"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106979642"
 ---
 # <a name="unpacking-and-packing-dxgi_format-for-in-place-image-editing"></a>\_針對 In-Place 影像編輯解壓縮和封裝 DXGI 格式
 
 D3DX \_ DXGIFormatConvert. .inl 檔案包含內嵌格式轉換函式，您可以在 Direct3D 11 硬體上的計算著色器或圖元著色器中使用這些函數。 您可以在應用程式中使用這些函式，同時讀取和寫入材質。 也就是說，您可以執行就地影像編輯。 若要使用這些內嵌格式轉換函式，請將 D3DX \_ DXGIFormatConvert. .inl 檔案包含在您的應用程式中。
+
+> D3DX \_ DXGIFormatConvert. .inl 標頭隨附于舊版 DIRECTX SDK 中。 它也包含在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中。
 
 Direct3D 11 的未排序存取視圖 (UAV) 的 Texture1D、Texture2D 或 Texture3D 資源支援從計算著色器或圖元著色器隨機存取讀取和寫入記憶體。 不過，Direct3D 11 同時支援讀取和寫入僅限 DXGI \_ 格式的 \_ R32 \_ UINT 材質格式。 例如，Direct3D 11 不支援同時讀取和寫入其他更實用的格式，例如 DXGI \_ FORMAT \_ R8G8B8A8 \_ UNORM。 您只能使用 UAV 來隨機寫入這類其他格式，也可以只使用著色器資源檢視 (SRV) 從這類其他格式讀取隨機存取。 格式轉換硬體無法同時從這類其他格式讀取和寫入。
 
@@ -63,7 +65,7 @@ Direct3D 11 的未排序存取視圖 (UAV) 的 Texture1D、Texture2D 或 Texture
 > [!Note]  
 > 如果著色器必須僅寫入至 UAV，或讀取為 SRV，則不需要這項轉換工作，因為您可以使用完整類型的 UAVs 或 SRVs。 D3DX DXGIFormatConvert 中提供的格式轉換函式， \_ 只有在您想要執行同時讀取和寫入材質的 UAV 時，才有可能有用。
 
- 
+ 
 
 以下是包含在 D3DX DXGIFormatConvert. .inl 檔案中的格式轉換函式清單 \_ 。 這些函式會根據它們解壓縮和封裝的 DXGI 格式進行分類 \_ 。 每個支援的格式都會從上述案例中所列的其中一種非型別格式進行遞減，並支援轉換成 DXGI \_ 格式的 \_ R32 \_ UINT 作為 UAV。
 
@@ -123,7 +125,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 > [!Note]  
 > 不精確的型別函 \_ 式會使用沒有足夠精確度的著色器指令來提供確切的答案。 替代函數會使用儲存在著色器中的查閱資料表，提供確切的 SRGB >浮點數轉換。
 
- 
+ 
 
 </dd> <dt>
 
@@ -194,7 +196,7 @@ UINT     D3DX_FLOAT4_to_R8G8B8A8_UNORM_SRGB(hlsl_precise XMFLOAT4 unpackedInput)
 > [!Note]  
 > 不精確的型別函 \_ 式會使用沒有足夠精確度的著色器指令來提供確切的答案。 替代函數會使用儲存在著色器中的查閱資料表，提供確切的 SRGB >浮點數轉換。
 
- 
+ 
 
 </dd> <dt>
 
@@ -226,7 +228,7 @@ UINT     D3DX_FLOAT3_to_B8G8R8X8_UNORM_SRGB(hlsl_precise XMFLOAT3 unpackedInput)
 > [!Note]  
 > 不精確的型別函 \_ 式會使用沒有足夠精確度的著色器指令來提供確切的答案。 替代函數會使用儲存在著色器中的查閱資料表，提供確切的 SRGB >浮點數轉換。
 
- 
+ 
 
 </dd> <dt>
 
@@ -307,9 +309,9 @@ UINT   D3DX_INT2_to_R16G16_SINT(XMINT2 unpackedInput)
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
