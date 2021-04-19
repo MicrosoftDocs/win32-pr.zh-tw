@@ -1,0 +1,86 @@
+---
+description: Get \_ top 方法會抓取頂端視窗座標。
+ms.assetid: 1e7910bd-e38e-4586-9dd6-701f69c0f6e7
+title: 'CBaseControlWindow.get_Top 方法 (Ctlutil) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CBaseControlWindow.get_Top
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 9861d930cdb2d93e5e0b73ffad625885c082cb6f
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "107001933"
+---
+# <a name="cbasecontrolwindowget_top-method"></a><span data-ttu-id="9e5fe-103">CBaseControlWindow. 取得 \_ Top 方法</span><span class="sxs-lookup"><span data-stu-id="9e5fe-103">CBaseControlWindow.get\_Top method</span></span>
+
+<span data-ttu-id="9e5fe-104">方法會抓取 `get_Top` 頂端視窗座標。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-104">The `get_Top` method retrieves the top window coordinate.</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="9e5fe-105">語法</span><span class="sxs-lookup"><span data-stu-id="9e5fe-105">Syntax</span></span>
+
+
+```C++
+HRESULT get_Top(
+   long *pTop
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="9e5fe-106">參數</span><span class="sxs-lookup"><span data-stu-id="9e5fe-106">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="9e5fe-107">*pTop*</span><span class="sxs-lookup"><span data-stu-id="9e5fe-107">*pTop*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="9e5fe-108">頂端座標的指標（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-108">Pointer to the top coordinate, in pixels.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="9e5fe-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="9e5fe-109">Return value</span></span>
+
+<span data-ttu-id="9e5fe-110">傳回 **HRESULT** 值。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-110">Returns an **HRESULT** value.</span></span>
+
+## <a name="remarks"></a><span data-ttu-id="9e5fe-111">備註</span><span class="sxs-lookup"><span data-stu-id="9e5fe-111">Remarks</span></span>
+
+<span data-ttu-id="9e5fe-112">視窗具有桌面上的位置。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-112">The window has a position on the desktop.</span></span> <span data-ttu-id="9e5fe-113">這是以圖元為單位來表示， (左、上、右和下) 。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-113">This is expressed in pixels by four coordinates (left, top, right, and bottom).</span></span> <span data-ttu-id="9e5fe-114">OLE 自動化的介面通常會以左、上、寬度和高度表示此位置;這是用於 DirectShow 的慣例。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-114">Interfaces that are automated by OLE typically express this position through left, top, width, and height; this is the convention used in DirectShow.</span></span> <span data-ttu-id="9e5fe-115">所有座標都會以圖元表示，而變更任何座標都會立即更新視窗。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-115">All coordinates are expressed in pixels, and changing any coordinate will update the window immediately.</span></span>
+
+<span data-ttu-id="9e5fe-116">設定左方或上座標會分別將視窗向左或上移動;這些座標不會影響視窗的寬度和高度。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-116">Setting the left or top coordinates moves the window left or up, respectively; these coordinates have no effect on the width and height of the window.</span></span> <span data-ttu-id="9e5fe-117">同樣地，設定寬度和高度並不會影響左邊和上座標。</span><span class="sxs-lookup"><span data-stu-id="9e5fe-117">Likewise, setting the width and height does not affect the left and top coordinates.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="9e5fe-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="9e5fe-118">Requirements</span></span>
+
+
+
+| <span data-ttu-id="9e5fe-119">需求</span><span class="sxs-lookup"><span data-stu-id="9e5fe-119">Requirement</span></span> | <span data-ttu-id="9e5fe-120">值</span><span class="sxs-lookup"><span data-stu-id="9e5fe-120">Value</span></span> |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="9e5fe-121">標頭</span><span class="sxs-lookup"><span data-stu-id="9e5fe-121">Header</span></span><br/>  | <dl> <span data-ttu-id="9e5fe-122"><dt>Ctlutil (包含： .h) </dt></span><span class="sxs-lookup"><span data-stu-id="9e5fe-122"><dt>Ctlutil.h (include Streams.h)</dt></span></span> </dl>                                                                                   |
+| <span data-ttu-id="9e5fe-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="9e5fe-123">Library</span></span><br/> | <dl> <span data-ttu-id="9e5fe-124"><dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt></span><span class="sxs-lookup"><span data-stu-id="9e5fe-124"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="9e5fe-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9e5fe-125">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="9e5fe-126">**CBaseControlWindow 類別**</span><span class="sxs-lookup"><span data-stu-id="9e5fe-126">**CBaseControlWindow Class**</span></span>](cbasecontrolwindow.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
