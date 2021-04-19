@@ -1,0 +1,116 @@
+---
+description: GetFilterGraph 方法會抓取轉譯引擎所建立的篩選圖形（如果有的話）。
+ms.assetid: 509b2c9c-c21b-4855-880f-f09ad342e758
+title: 'IRenderEngine：： GetFilterGraph 方法 (Qedit .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IRenderEngine.GetFilterGraph
+api_type:
+- COM
+api_location:
+- strmiids.lib
+- strmiids.dll
+ms.openlocfilehash: 4c4750e6127c0d57758e46b2309f4d91afc110e0
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106983953"
+---
+# <a name="irenderenginegetfiltergraph-method"></a>IRenderEngine：： GetFilterGraph 方法
+
+> [!Note]  
+> \[廢棄。 此 API 可能會從 Windows 的未來版本中移除。\]
+
+ 
+
+方法會抓取轉譯引擎所建立的 `GetFilterGraph` 篩選圖形（如果有的話）。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT GetFilterGraph(
+  [out] IGraphBuilder **ppFG
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*ppFG* \[擴展\]
+</dt> <dd>
+
+接收篩選圖形的 [**IGraphBuilder**](/windows/desktop/api/Strmif/nn-strmif-igraphbuilder) 介面指標。 如果沒有篩選圖形，則會接收 **Null** 值。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+傳回下列其中一個 **HRESULT** 值：
+
+
+
+| 傳回碼                                                                                            | Description                                    |
+|--------------------------------------------------------------------------------------------------------|------------------------------------------------|
+| <dl> <dt>**S \_ 確定**</dt> </dl>                   | 成功。<br/>                            |
+| <dl> <dt>**E \_ 必須 \_ INIT 轉譯器 \_**</dt> </dl> | 轉譯引擎無法初始化。<br/> |
+| <dl> <dt>**E \_ 指標**</dt> </dl>              | 指標無效。<br/>                    |
+
+
+
+ 
+
+## <a name="remarks"></a>備註
+
+使用 [**IRenderEngine：： ConnectFrontEnd**](irenderengine-connectfrontend.md) 方法來建立篩選圖形的前端。 若為預覽版本，請使用 [**IRenderEngine：： RenderOutputPins**](irenderengine-renderoutputpins.md) 來完成圖形。 針對檔案輸出，將前端連接至 mux/檔案寫入器組合。 如需詳細資訊，請參閱 [呈現專案](rendering-a-project.md)。
+
+產生的圖形可以執行、暫停、停止和 seeked;不過，播放速率無法變更。
+
+傳回時，如果 *\* ppFG* 的值為非 **Null**，則 **IGraphBuilder** 介面具有未處理的參考計數。 使用完畢後，請務必釋放介面。
+
+> [!Note]  
+> 標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。
+
+ 
+
+> [!Note]  
+> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|-----------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>Qedit。h</dt> </dl>      |
+| 程式庫<br/> | <dl> <dt>Strmiids .lib</dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IRenderEngine 介面**](irenderengine.md)
+</dt> <dt>
+
+[錯誤和成功碼](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

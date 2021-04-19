@@ -1,0 +1,68 @@
+---
+title: PeakValue 屬性
+description: PeakValue 屬性是16位的波幅值，表示尖峰磁片區層級。
+ms.assetid: 5d80a1f3-015c-4740-bd1c-f3bbf88a9df2
+keywords:
+- PeakValue 屬性 Windows Media Player
+topic_type:
+- apiref
+api_name:
+- PeakValue
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 74fde522e043adb8b11c25bede763bed6b252f2f
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106997793"
+---
+# <a name="peakvalue-attribute"></a>PeakValue 屬性
+
+**PeakValue** 屬性是16位的波幅值，表示尖峰磁片區層級。
+
+## <a name="applies-to"></a>套用至
+
+-   [音訊專案](audio-item-attributes.md)
+-   [常用的 Windows Media 檔案](commonly-used-windows-media-file-attributes.md)
+
+## <a name="remarks"></a>備註
+
+這個屬性會儲存在文件庫和數位媒體檔案中。
+
+Windows Media Player 會在下列其中一個實例中設定此值：
+
+-   完成檔案的翻錄之後。
+-   當已啟用自動磁片區調節增強功能時，它會在播放檔 () 。
+
+這個屬性的 Windows Media Format SDK 常數是 g \_ wszPeakValue。
+
+若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|---------------------------------------------------|
+| 版本<br/> | Windows Media Player 9 系列或更新版本<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**屬性參考**](attribute-reference.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+

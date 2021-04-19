@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 841c30be827ddabc40bd8af50423c844ce927e6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae50ad570211303cdfb7aa8e86908593ab48537d
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510768"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106984496"
 ---
 # <a name="wowshellexecute-function"></a>WOWShellExecute 函式
 
@@ -165,148 +165,16 @@ HINSTANCE WOWShellExecute(
 
 類型： **INT**
 
-旗標，指定應用程式在開啟時的顯示方式。 如果 *lpFile* 指定檔檔，旗標就會直接傳遞至相關聯的應用程式。 應用程式會決定如何處理它。
-
-<dt>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>
-
-<span id="SW_HIDE"></span><span id="sw_hide"></span>**SW \_ 隱藏**
-
-
-</dt> <dd>
-
-隱藏視窗並啟用另一個視窗。
+旗標，指定應用程式在開啟時的顯示方式。 如果 *lpFile* 指定檔檔，旗標就會直接傳遞至相關聯的應用程式。 應用程式會決定如何處理它。 它可以是任何可在 [ShowWindow](/windows/desktop/api/winuser/nf-winuser-showwindow)函數的 *nCmdShow* 參數中指定的值。
 
 </dd> <dt>
-
-<span id="SW_MAXIMIZE"></span><span id="sw_maximize"></span>
-
-<span id="SW_MAXIMIZE"></span><span id="sw_maximize"></span>**軟體 \_ 最大化**
-
-
-</dt> <dd>
-
-將指定的視窗最大化。
-
-</dd> <dt>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>
-
-<span id="SW_MINIMIZE"></span><span id="sw_minimize"></span>**軟體 \_ 最小化**
-
-
-</dt> <dd>
-
-將指定的視窗最小化，並以迭置順序啟用下一個最上層視窗。
-
-</dd> <dt>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>
-
-<span id="SW_RESTORE"></span><span id="sw_restore"></span>**SW \_ 還原**
-
-
-</dt> <dd>
-
-啟用並顯示視窗。 如果視窗最小化或最大化，Windows 會將其還原為其原始大小和位置。 在還原最小化的視窗時，應用程式應該指定此旗標。
-
-</dd> <dt>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>
-
-<span id="SW_SHOW"></span><span id="sw_show"></span>**SW \_ 節目**
-
-
-</dt> <dd>
-
-啟用視窗，並以其目前的大小和位置顯示。
-
-</dd> <dt>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>
-
-<span id="SW_SHOWDEFAULT"></span><span id="sw_showdefault"></span>**SW \_ SHOWDEFAULT**
-
-
-</dt> <dd>
-
-根據 \_ 啟動應用程式的程式傳遞給 [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)函式的 [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa)結構中指定的 SW 旗標，設定顯示狀態。 應用程式應該使用此旗標來呼叫 [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) ，以設定其主視窗的初始顯示狀態。
-
-</dd> <dt>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>
-
-<span id="SW_SHOWMAXIMIZED"></span><span id="sw_showmaximized"></span>**SW \_ SHOWMAXIMIZED**
-
-
-</dt> <dd>
-
-啟用視窗，並將它顯示為最大化的視窗。
-
-</dd> <dt>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>
-
-<span id="SW_SHOWMINIMIZED"></span><span id="sw_showminimized"></span>**SW \_ SHOWMINIMIZED**
-
-
-</dt> <dd>
-
-啟用視窗，並將它顯示為最小化的視窗。
-
-</dd> <dt>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>
-
-<span id="SW_SHOWMINNOACTIVE"></span><span id="sw_showminnoactive"></span>**SW \_ SHOWMINNOACTIVE**
-
-
-</dt> <dd>
-
-將視窗顯示為最小化的視窗。 使用中視窗仍維持使用中狀態。
-
-</dd> <dt>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>
-
-<span id="SW_SHOWNA"></span><span id="sw_showna"></span>**SW \_ SHOWNA**
-
-
-</dt> <dd>
-
-顯示處於目前狀態的視窗。 使用中視窗仍維持使用中狀態。
-
-</dd> <dt>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>
-
-<span id="SW_SHOWNOACTIVATE"></span><span id="sw_shownoactivate"></span>**SW \_ SHOWNOACTI加值稅E**
-
-
-</dt> <dd>
-
-以最新的大小和位置顯示視窗。 使用中視窗仍維持使用中狀態。
-
-</dd> <dt>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>
-
-<span id="SW_SHOWNORMAL"></span><span id="sw_shownormal"></span>**SW \_ SHOWNORMAL**
-
-
-</dt> <dd>
-
-啟用並顯示視窗。 如果視窗最小化或最大化，Windows 會將其還原為其原始大小和位置。 當第一次顯示視窗時，應用程式應該指定此旗標。
-
-</dd> </dl> </dd> <dt>
 
 *lpfnCBWinExec* 
 </dt> <dd>
 
-類型： **void \** _
+類型： **void \***
 
-用來在16位核心中呼叫 [_ *CreateProcess* *](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)的回呼函數。
+用來在16位核心中呼叫 [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa) 的回呼函數。
 
 </dd> </dl>
 
