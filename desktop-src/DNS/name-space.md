@@ -1,0 +1,26 @@
+---
+title: 命名空間
+description: 命名空間是指必須明確解析所有物件名稱的內容。
+ms.assetid: 7731f6b5-1efa-43bc-bd31-9b5183ec90dc
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: eb79ba44bfaab1ea50dd89961503176dc8fbd1a7
+ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "106988157"
+---
+# <a name="namespace"></a><span data-ttu-id="1a984-103">命名空間</span><span class="sxs-lookup"><span data-stu-id="1a984-103">Namespace</span></span>
+
+<span data-ttu-id="1a984-104">命名空間是指必須明確解析所有物件名稱的內容。</span><span class="sxs-lookup"><span data-stu-id="1a984-104">A namespace is a context within which the names of all objects must be unambiguously resolvable.</span></span> <span data-ttu-id="1a984-105">例如，網際網路是單一的 DNS 命名空間，其中具有 DNS 名稱的所有網路裝置都可以解析為特定位址 (例如， `www.microsoft.com` 解析為 207.46.131.13) 。</span><span class="sxs-lookup"><span data-stu-id="1a984-105">For example, the internet is a single DNS name space, within which all network devices with a DNS name can be resolved to a particular address (for example, `www.microsoft.com` resolves to 207.46.131.13).</span></span>
+
+## <a name="flat-namespace"></a><span data-ttu-id="1a984-106">一般命名空間</span><span class="sxs-lookup"><span data-stu-id="1a984-106">Flat namespace</span></span>
+
+<span data-ttu-id="1a984-107">命名空間可以是平坦的或階層式。</span><span class="sxs-lookup"><span data-stu-id="1a984-107">A namespace can be flat or hierarchical.</span></span> <span data-ttu-id="1a984-108">一般命名空間無法適當地進行調整，因為在所有可用的名稱都能用完之前，它只會變得很大。</span><span class="sxs-lookup"><span data-stu-id="1a984-108">A flat namespace doesn't scale well because it can grow only so large before all available names are used up.</span></span> <span data-ttu-id="1a984-109">一旦在命名空間中使用一次以上的名稱，命名空間就會違反明確可解析的需求。</span><span class="sxs-lookup"><span data-stu-id="1a984-109">Once a name is used more than once in a namespace, the namespace violates the unambiguously resolvable requirement.</span></span>
+
+## <a name="hierarchical-namespace"></a><span data-ttu-id="1a984-110">階層式命名空間</span><span class="sxs-lookup"><span data-stu-id="1a984-110">Hierarchical namespace</span></span>
+
+<span data-ttu-id="1a984-111">階層命名空間會分割成不同的區域，可視為子命名空間。</span><span class="sxs-lookup"><span data-stu-id="1a984-111">A hierarchical namespace is divided into different areas, which can be thought of as sub-namespaces.</span></span> <span data-ttu-id="1a984-112">每個區域在整體命名空間內都是它自己的子命名空間。</span><span class="sxs-lookup"><span data-stu-id="1a984-112">Each area is its own sub-namespace within the overall namespace.</span></span> <span data-ttu-id="1a984-113">因此，每個物件在其子命名空間內都必須有唯一的名稱，才能在命名空間階層內具有可明確解析的名稱。</span><span class="sxs-lookup"><span data-stu-id="1a984-113">Therefore, each object must have a unique name only within its sub-namespace in order to have an unambiguously resolvable name within the namespace hierarchy.</span></span> <span data-ttu-id="1a984-114">然後，階層命名空間可以調整為極大型的網路 &mdash; ，因為當您將更多物件新增至整體命名空間時，您只需要在它們所屬的子命名空間中尋找其唯一的名稱。</span><span class="sxs-lookup"><span data-stu-id="1a984-114">Hierarchical namespaces, then, can scale to extremely large networks&mdash;as you add more objects to the overall name space, you have to find unique names for them within only the sub-namespace to which they belong.</span></span>
+
+<span data-ttu-id="1a984-115">所有 DNS 命名空間都是階層式的。</span><span class="sxs-lookup"><span data-stu-id="1a984-115">All DNS namespaces are hierarchical.</span></span> <span data-ttu-id="1a984-116">DNS 階層命名空間中的子命名空間稱為 *網域*。</span><span class="sxs-lookup"><span data-stu-id="1a984-116">The sub-namespaces in the DNS hierarchical namespace are called *domains*.</span></span> <span data-ttu-id="1a984-117">網域內的電腦唯一名稱稱為「 *相對辨別名稱*」。</span><span class="sxs-lookup"><span data-stu-id="1a984-117">The unique name of a computer within a domain is called a *relative distinguished name*.</span></span> <span data-ttu-id="1a984-118">具有相同相對辨別名稱的電腦可以存在於命名空間階層的不同子命名空間 (網域) ，因為它們可以完整地解析成整個 DNS 階層內的唯一物件，並使用完整功能變數名稱)  (FQDN。</span><span class="sxs-lookup"><span data-stu-id="1a984-118">Computers with the same relative distinguished name can exist in different sub-namespaces (domains) of the namespace hierarchy because they can be fully resolved to a unique object within the entire DNS hierarchy, using a fully-qualified domain name (FQDN).</span></span> <span data-ttu-id="1a984-119">例如，您可以在 *widgets.microsoft.com* 網域中有一個名為 *server1* 的伺服器 (*widgets.microsoft.com* 命名空間) ，而且在 *gadgets.widgets.microsoft.com* 命名空間中可以有 *server1* 。</span><span class="sxs-lookup"><span data-stu-id="1a984-119">For example, you could have a server named *server1* in the *widgets.microsoft.com* domain (the *widgets.microsoft.com* namespace), and you could have *server1* in the *gadgets.widgets.microsoft.com* namespace.</span></span> <span data-ttu-id="1a984-120">因為它們位於階層式命名空間的不同子命名空間中，所以可以解析為不同的 Fqdn &mdash; *server1.widgets.microsoft.com* 和 *server1.gadgets.widgets.microsoft.com*。</span><span class="sxs-lookup"><span data-stu-id="1a984-120">Because they are in different sub-namespaces in the hierarchical namespace, they can be resolved to different FQDNs&mdash;*server1.widgets.microsoft.com* and *server1.gadgets.widgets.microsoft.com*.</span></span>

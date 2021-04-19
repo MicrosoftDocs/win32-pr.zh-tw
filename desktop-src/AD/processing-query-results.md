@@ -1,0 +1,32 @@
+---
+title: 處理搜尋結果
+description: 在第一次呼叫 >idirectorysearch GetFirstRow 或 >idirectorysearch GetNextRow 之後，可能 \_ 會傳回 s OK、s \_ ADS \_ NOMORE \_ ROWS 或 error 結果。
+ms.assetid: 3a84f394-a256-4815-901c-eaaae3d54b75
+ms.tgt_platform: multiple
+keywords:
+- 處理搜尋結果廣告
+- Active Directory、搜尋、處理搜尋結果
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 732128438162f5ee8f6fe75bb4d2ce53e0d43070
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "106968087"
+---
+# <a name="processing-the-search-results"></a><span data-ttu-id="71b7e-105">處理搜尋結果</span><span class="sxs-lookup"><span data-stu-id="71b7e-105">Processing the Search Results</span></span>
+
+<span data-ttu-id="71b7e-106">在第一次呼叫 [**>idirectorysearch：： GetFirstRow**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow) 或 [**>idirectorysearch：： GetNextRow**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow)之後， **s \_ OK**、 **s \_ ADS \_ NOMORE 資料 \_ 列** 或傳回錯誤結果。</span><span class="sxs-lookup"><span data-stu-id="71b7e-106">After the first call to [**IDirectorySearch::GetFirstRow**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getfirstrow) or [**IDirectorySearch::GetNextRow**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextrow), either **S\_OK**, **S\_ADS\_NOMORE\_ROWS**, or an error result is returned.</span></span>
+
+<span data-ttu-id="71b7e-107">如果傳回值是的 **\_ ADS \_ NOMORE 資料 \_ 列**，則找不到符合篩選準則的物件。</span><span class="sxs-lookup"><span data-stu-id="71b7e-107">If the return value is **S\_ADS\_NOMORE\_ROWS**, no more objects matching the filter were found.</span></span> <span data-ttu-id="71b7e-108">如果傳回錯誤結果，查詢就會失敗。</span><span class="sxs-lookup"><span data-stu-id="71b7e-108">If an error result is returned, the query failed.</span></span> <span data-ttu-id="71b7e-109">在這兩種情況下，您都不需要處理結果中的資料列，因為沒有傳回任何資料列。</span><span class="sxs-lookup"><span data-stu-id="71b7e-109">In both cases, you are not required to process the rows in the result because nothing was returned.</span></span>
+
+<span data-ttu-id="71b7e-110">如果傳回 **S \_ OK** ，則已取出資料列。</span><span class="sxs-lookup"><span data-stu-id="71b7e-110">If **S\_OK** is returned, a row has been retrieved.</span></span> <span data-ttu-id="71b7e-111">您可以使用 [**>idirectorysearch：： GetColumn**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn)，依名稱剖析資料行。</span><span class="sxs-lookup"><span data-stu-id="71b7e-111">You can parse the columns by name using [**IDirectorySearch::GetColumn**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn).</span></span> <span data-ttu-id="71b7e-112">名稱是資料行中屬性的 **lDAPDisplayName** 。</span><span class="sxs-lookup"><span data-stu-id="71b7e-112">The name is the **lDAPDisplayName** of the attribute in the column.</span></span> <span data-ttu-id="71b7e-113">所有資料行的集合都是由 [**>idirectorysearch：： ExecuteSearch**](/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) 方法的 pAttributeNames 參數所定義。</span><span class="sxs-lookup"><span data-stu-id="71b7e-113">The set of all columns was defined by the pAttributeNames parameter of the [**IDirectorySearch::ExecuteSearch**](/windows/desktop/api/iads/nf-iads-idirectorysearch-executesearch) method.</span></span> <span data-ttu-id="71b7e-114">如果指定 **Null** ，則所有資料行的集合都是所有傳回之物件的所有屬性的聯集。</span><span class="sxs-lookup"><span data-stu-id="71b7e-114">If **NULL** was specified, the set of all columns is the union of all properties found for all the objects returned.</span></span> <span data-ttu-id="71b7e-115">若要讀取為物件傳回的整組資料行，請使用 [**>idirectorysearch：： GetNextColumnName**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextcolumnname) 逐一查看每個資料行，並使用傳回的資料行名稱來呼叫 **>idirectorysearch：： GetColumn**。</span><span class="sxs-lookup"><span data-stu-id="71b7e-115">To read the entire set of columns returned for an object, use the [**IDirectorySearch::GetNextColumnName**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getnextcolumnname) to iterate each column, and use the column name returned to call **IDirectorySearch::GetColumn**.</span></span>
+
+<span data-ttu-id="71b7e-116">[**>idirectorysearch：： GetColumn**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn)方法會傳回 [**ADS 搜尋 \_ 資料 \_ 行**](/windows/desktop/api/iads/ns-iads-ads_search_column)結構，其中包含屬性名稱、屬性類型、值的計數，以及包含值之 [**ADSVALUE**](/windows/desktop/api/iads/ns-iads-adsvalue)結構陣列的指標。</span><span class="sxs-lookup"><span data-stu-id="71b7e-116">The [**IDirectorySearch::GetColumn**](/windows/desktop/api/iads/nf-iads-idirectorysearch-getcolumn) method returns an [**ADS\_SEARCH\_COLUMN**](/windows/desktop/api/iads/ns-iads-ads_search_column) structure that contains the attribute name, the type of the attribute, count of values, and a pointer to an array of [**ADSVALUE**](/windows/desktop/api/iads/ns-iads-adsvalue) structures that contain the values.</span></span> <span data-ttu-id="71b7e-117">您可以對 **ADSVALUE** 結構執行迴圈，以讀取資料行所傳回之屬性的值。</span><span class="sxs-lookup"><span data-stu-id="71b7e-117">You can loop through the **ADSVALUE** structures to read the values for the property returned by the column.</span></span> <span data-ttu-id="71b7e-118">您必須根據 **ADS \_ 搜尋資料 \_ 行** 結構的 **DwADsType** 成員所指定的 [**ADSTYPE**](/windows/win32/api/iads/ne-iads-adstypeenum) ，讀取 **ADSVALUE** 結構的適當成員 (或 **ADSVALUE** 結構) 的 **dwType** 成員。</span><span class="sxs-lookup"><span data-stu-id="71b7e-118">You must read the appropriate member of the **ADSVALUE** structure based on the [**ADSTYPE**](/windows/win32/api/iads/ne-iads-adstypeenum) specified by the **dwADsType** member of the **ADS\_SEARCH\_COLUMN** structure (or the **dwType** member of the **ADSVALUE** structure).</span></span> <span data-ttu-id="71b7e-119">例如，如果 **dwADsType** 是 **ADSTYPE \_ 整數**，您會讀取每個 **ADSVALUE** 結構的 **整數** 成員。</span><span class="sxs-lookup"><span data-stu-id="71b7e-119">For example, if **dwADsType** was **ADSTYPE\_INTEGER**, you would read the **Integer** member of each **ADSVALUE** structure.</span></span>
+
+<span data-ttu-id="71b7e-120">如需詳細資訊和程式碼範例，請參閱 [搜尋使用者的範例程式碼](example-code-for-searching-for-users.md)。</span><span class="sxs-lookup"><span data-stu-id="71b7e-120">For more information and a code example, see [Example Code for Searching for Users](example-code-for-searching-for-users.md).</span></span>
+
+ 
+
+ 
