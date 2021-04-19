@@ -1,0 +1,102 @@
+---
+title: Windows Media 格式 SDK 的媒體類型識別碼
+description: 瞭解用來定義 Windows Media Format SDK 所使用媒體格式的媒體類型識別碼。
+ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
+keywords:
+- Windows Media Format SDK，媒體類型識別碼
+- Advanced Systems Format (ASF) 、媒體類型識別碼
+- ASF (Advanced 系統格式) 、媒體類型識別碼
+- 媒體類型、識別碼
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: f8e4c01ba134dec4d4474a1949310fd5217cf7e6
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106993255"
+---
+# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a><span data-ttu-id="a750c-107">Windows Media 格式 SDK 的媒體類型識別碼</span><span class="sxs-lookup"><span data-stu-id="a750c-107">Media Type Identifiers for the Windows Media Format SDK</span></span>
+
+<span data-ttu-id="a750c-108">您必須使用媒體類型來定義 Windows Media Format SDK 所使用的媒體格式。</span><span class="sxs-lookup"><span data-stu-id="a750c-108">You must use media types to define the format of media used with the Windows Media Format SDK.</span></span> <span data-ttu-id="a750c-109">如需各種媒體類型的說明，請參閱 [媒體類型](media-types.md)。</span><span class="sxs-lookup"><span data-stu-id="a750c-109">For descriptions of the various media types, see [Media Types](media-types.md).</span></span>
+
+<span data-ttu-id="a750c-110">下表列出所有支援的媒體類型及其對應 GUID 值的全域識別碼。</span><span class="sxs-lookup"><span data-stu-id="a750c-110">The following table lists the global identifiers for all supported media types and their corresponding GUID values.</span></span>
+
+
+
+| <span data-ttu-id="a750c-111">全域媒體類型識別碼</span><span class="sxs-lookup"><span data-stu-id="a750c-111">Global media type identifier</span></span>      | <span data-ttu-id="a750c-112">GUID</span><span class="sxs-lookup"><span data-stu-id="a750c-112">GUID</span></span>                                 |
+|-----------------------------------|--------------------------------------|
+| <span data-ttu-id="a750c-113">MEDIASUBTYPE \_ I420</span><span class="sxs-lookup"><span data-stu-id="a750c-113">MEDIASUBTYPE\_I420</span></span>                | <span data-ttu-id="a750c-114">30323449-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-114">30323449-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-115">MEDIASUBTYPE \_ IYUV</span><span class="sxs-lookup"><span data-stu-id="a750c-115">MEDIASUBTYPE\_IYUV</span></span>                | <span data-ttu-id="a750c-116">56555949-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-116">56555949-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-117">MEDIASUBTYPE \_ RGB1</span><span class="sxs-lookup"><span data-stu-id="a750c-117">MEDIASUBTYPE\_RGB1</span></span>                | <span data-ttu-id="a750c-118">e436eb78-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-118">e436eb78-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-119">MEDIASUBTYPE \_ RGB24</span><span class="sxs-lookup"><span data-stu-id="a750c-119">MEDIASUBTYPE\_RGB24</span></span>               | <span data-ttu-id="a750c-120">e436eb7d-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-120">e436eb7d-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-121">MEDIASUBTYPE \_ RGB32</span><span class="sxs-lookup"><span data-stu-id="a750c-121">MEDIASUBTYPE\_RGB32</span></span>               | <span data-ttu-id="a750c-122">e436eb7e-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-122">e436eb7e-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-123">MEDIASUBTYPE \_ RGB4</span><span class="sxs-lookup"><span data-stu-id="a750c-123">MEDIASUBTYPE\_RGB4</span></span>                | <span data-ttu-id="a750c-124">e436eb79-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-124">e436eb79-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-125">MEDIASUBTYPE \_ RGB555</span><span class="sxs-lookup"><span data-stu-id="a750c-125">MEDIASUBTYPE\_RGB555</span></span>              | <span data-ttu-id="a750c-126">e436eb7c-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-126">e436eb7c-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-127">MEDIASUBTYPE \_ RGB565</span><span class="sxs-lookup"><span data-stu-id="a750c-127">MEDIASUBTYPE\_RGB565</span></span>              | <span data-ttu-id="a750c-128">e436eb7b-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-128">e436eb7b-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-129">MEDIASUBTYPE \_ RGB8</span><span class="sxs-lookup"><span data-stu-id="a750c-129">MEDIASUBTYPE\_RGB8</span></span>                | <span data-ttu-id="a750c-130">e436eb7a-524f-11ce-9f53-0020af0ba770</span><span class="sxs-lookup"><span data-stu-id="a750c-130">e436eb7a-524f-11ce-9f53-0020af0ba770</span></span> |
+| <span data-ttu-id="a750c-131">MEDIASUBTYPE \_ UYVY</span><span class="sxs-lookup"><span data-stu-id="a750c-131">MEDIASUBTYPE\_UYVY</span></span>                | <span data-ttu-id="a750c-132">59565955-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-132">59565955-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-133">MEDIASUBTYPE \_ VIDEOIMAGE</span><span class="sxs-lookup"><span data-stu-id="a750c-133">MEDIASUBTYPE\_VIDEOIMAGE</span></span>          | <span data-ttu-id="a750c-134">1d4a45f2-e5f6-4b44-8388-f0ae5c0e0c37</span><span class="sxs-lookup"><span data-stu-id="a750c-134">1d4a45f2-e5f6-4b44-8388-f0ae5c0e0c37</span></span> |
+| <span data-ttu-id="a750c-135">MEDIASUBTYPE \_ YUY2</span><span class="sxs-lookup"><span data-stu-id="a750c-135">MEDIASUBTYPE\_YUY2</span></span>                | <span data-ttu-id="a750c-136">32595559-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-136">32595559-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-137">MEDIASUBTYPE \_ YV12</span><span class="sxs-lookup"><span data-stu-id="a750c-137">MEDIASUBTYPE\_YV12</span></span>                | <span data-ttu-id="a750c-138">31313259-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-138">31313259-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-139">MEDIASUBTYPE \_ YVU9</span><span class="sxs-lookup"><span data-stu-id="a750c-139">MEDIASUBTYPE\_YVU9</span></span>                | <span data-ttu-id="a750c-140">39555659-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-140">39555659-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-141">MEDIASUBTYPE \_ YVYU</span><span class="sxs-lookup"><span data-stu-id="a750c-141">MEDIASUBTYPE\_YVYU</span></span>                | <span data-ttu-id="a750c-142">55595659-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-142">55595659-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-143">WMFORMAT \_ MPEG2Video</span><span class="sxs-lookup"><span data-stu-id="a750c-143">WMFORMAT\_MPEG2Video</span></span>              | <span data-ttu-id="a750c-144">e06d80e3-db46-11cf-b4d1-00805f6cbbea</span><span class="sxs-lookup"><span data-stu-id="a750c-144">e06d80e3-db46-11cf-b4d1-00805f6cbbea</span></span> |
+| <span data-ttu-id="a750c-145">WMFORMAT \_ 腳本</span><span class="sxs-lookup"><span data-stu-id="a750c-145">WMFORMAT\_Script</span></span>                  | <span data-ttu-id="a750c-146">5C8510F2-DEBE-4ca7-BBA5-F07A104F8DFF</span><span class="sxs-lookup"><span data-stu-id="a750c-146">5C8510F2-DEBE-4ca7-BBA5-F07A104F8DFF</span></span> |
+| <span data-ttu-id="a750c-147">WMFORMAT \_ VideoInfo</span><span class="sxs-lookup"><span data-stu-id="a750c-147">WMFORMAT\_VideoInfo</span></span>               | <span data-ttu-id="a750c-148">05589f80-c356-11ce-bf01-00aa0055595a</span><span class="sxs-lookup"><span data-stu-id="a750c-148">05589f80-c356-11ce-bf01-00aa0055595a</span></span> |
+| <span data-ttu-id="a750c-149">WMFORMAT \_ WaveFormatEx</span><span class="sxs-lookup"><span data-stu-id="a750c-149">WMFORMAT\_WaveFormatEx</span></span>            | <span data-ttu-id="a750c-150">05589f81-c356-11ce-bf01-00aa0055595a</span><span class="sxs-lookup"><span data-stu-id="a750c-150">05589f81-c356-11ce-bf01-00aa0055595a</span></span> |
+| <span data-ttu-id="a750c-151">WMFORMAT \_ WebStream</span><span class="sxs-lookup"><span data-stu-id="a750c-151">WMFORMAT\_WebStream</span></span>               | <span data-ttu-id="a750c-152">da1e6b13-8359-4050-b398-388e965bf00c</span><span class="sxs-lookup"><span data-stu-id="a750c-152">da1e6b13-8359-4050-b398-388e965bf00c</span></span> |
+| <span data-ttu-id="a750c-153">WMMEDIASUBTYPE \_ ACELPnet</span><span class="sxs-lookup"><span data-stu-id="a750c-153">WMMEDIASUBTYPE\_ACELPnet</span></span>          | <span data-ttu-id="a750c-154">00000130-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-154">00000130-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-155">WMMEDIASUBTYPE \_ 基底</span><span class="sxs-lookup"><span data-stu-id="a750c-155">WMMEDIASUBTYPE\_Base</span></span>              | <span data-ttu-id="a750c-156">00000000-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-156">00000000-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-157">WMMEDIASUBTYPE \_ DRM</span><span class="sxs-lookup"><span data-stu-id="a750c-157">WMMEDIASUBTYPE\_DRM</span></span>               | <span data-ttu-id="a750c-158">00000009-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-158">00000009-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-159">WMMEDIASUBTYPE \_ MP3</span><span class="sxs-lookup"><span data-stu-id="a750c-159">WMMEDIASUBTYPE\_MP3</span></span>               | <span data-ttu-id="a750c-160">00000055-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-160">00000055-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-161">WMMEDIASUBTYPE \_ MP43</span><span class="sxs-lookup"><span data-stu-id="a750c-161">WMMEDIASUBTYPE\_MP43</span></span>              | <span data-ttu-id="a750c-162">3334504D-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-162">3334504D-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-163">WMMEDIASUBTYPE \_ mp4</span><span class="sxs-lookup"><span data-stu-id="a750c-163">WMMEDIASUBTYPE\_MP4S</span></span>              | <span data-ttu-id="a750c-164">5334504D-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-164">5334504D-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-165">WMMEDIASUBTYPE \_ M4S2</span><span class="sxs-lookup"><span data-stu-id="a750c-165">WMMEDIASUBTYPE\_M4S2</span></span>              | <span data-ttu-id="a750c-166">3253344D-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-166">3253344D-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-167">WMMEDIASUBTYPE \_ P422</span><span class="sxs-lookup"><span data-stu-id="a750c-167">WMMEDIASUBTYPE\_P422</span></span>              | <span data-ttu-id="a750c-168">32323450-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-168">32323450-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-169">WMMEDIASUBTYPE \_ MPEG2 \_ 影片</span><span class="sxs-lookup"><span data-stu-id="a750c-169">WMMEDIASUBTYPE\_MPEG2\_VIDEO</span></span>      | <span data-ttu-id="a750c-170">e06d8026-db46-11cf-b4d1-00805f6cbbea</span><span class="sxs-lookup"><span data-stu-id="a750c-170">e06d8026-db46-11cf-b4d1-00805f6cbbea</span></span> |
+| <span data-ttu-id="a750c-171">WMMEDIASUBTYPE \_ MSS1</span><span class="sxs-lookup"><span data-stu-id="a750c-171">WMMEDIASUBTYPE\_MSS1</span></span>              | <span data-ttu-id="a750c-172">3153534D-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-172">3153534D-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-173">WMMEDIASUBTYPE \_ MSS2</span><span class="sxs-lookup"><span data-stu-id="a750c-173">WMMEDIASUBTYPE\_MSS2</span></span>              | <span data-ttu-id="a750c-174">3253534D-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-174">3253534D-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-175">WMMEDIASUBTYPE \_ PCM</span><span class="sxs-lookup"><span data-stu-id="a750c-175">WMMEDIASUBTYPE\_PCM</span></span>               | <span data-ttu-id="a750c-176">00000001-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-176">00000001-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-177">WMMEDIASUBTYPE \_ WebStream</span><span class="sxs-lookup"><span data-stu-id="a750c-177">WMMEDIASUBTYPE\_WebStream</span></span>         | <span data-ttu-id="a750c-178">776257d4-c627-41cb-8f81-7ac7ff1c40cc</span><span class="sxs-lookup"><span data-stu-id="a750c-178">776257d4-c627-41cb-8f81-7ac7ff1c40cc</span></span> |
+| <span data-ttu-id="a750c-179">WMMEDIASUBTYPE \_ WMAudio \_ 無損</span><span class="sxs-lookup"><span data-stu-id="a750c-179">WMMEDIASUBTYPE\_WMAudio\_Lossless</span></span> | <span data-ttu-id="a750c-180">00000163-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-180">00000163-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-181">WMMEDIASUBTYPE \_ WMAudioV2</span><span class="sxs-lookup"><span data-stu-id="a750c-181">WMMEDIASUBTYPE\_WMAudioV2</span></span>         | <span data-ttu-id="a750c-182">00000161-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-182">00000161-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-183">WMMEDIASUBTYPE \_ WMAudioV7</span><span class="sxs-lookup"><span data-stu-id="a750c-183">WMMEDIASUBTYPE\_WMAudioV7</span></span>         | <span data-ttu-id="a750c-184">00000161-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-184">00000161-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-185">WMMEDIASUBTYPE \_ WMAudioV8</span><span class="sxs-lookup"><span data-stu-id="a750c-185">WMMEDIASUBTYPE\_WMAudioV8</span></span>         | <span data-ttu-id="a750c-186">00000161-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-186">00000161-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-187">WMMEDIASUBTYPE \_ WMAudioV9</span><span class="sxs-lookup"><span data-stu-id="a750c-187">WMMEDIASUBTYPE\_WMAudioV9</span></span>         | <span data-ttu-id="a750c-188">00000162-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-188">00000162-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-189">WMMEDIASUBTYPE \_ WMSP1</span><span class="sxs-lookup"><span data-stu-id="a750c-189">WMMEDIASUBTYPE\_WMSP1</span></span>             | <span data-ttu-id="a750c-190">0000000A-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-190">0000000A-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-191">WMMEDIASUBTYPE \_ WMV1</span><span class="sxs-lookup"><span data-stu-id="a750c-191">WMMEDIASUBTYPE\_WMV1</span></span>              | <span data-ttu-id="a750c-192">31564D57-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-192">31564D57-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-193">WMMEDIASUBTYPE \_ WMV2</span><span class="sxs-lookup"><span data-stu-id="a750c-193">WMMEDIASUBTYPE\_WMV2</span></span>              | <span data-ttu-id="a750c-194">32564D57-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-194">32564D57-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-195">WMMEDIASUBTYPE \_ WMV3</span><span class="sxs-lookup"><span data-stu-id="a750c-195">WMMEDIASUBTYPE\_WMV3</span></span>              | <span data-ttu-id="a750c-196">33564D57-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-196">33564D57-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-197">WMMEDIASUBTYPE \_ WMVA</span><span class="sxs-lookup"><span data-stu-id="a750c-197">WMMEDIASUBTYPE\_WMVA</span></span>              | <span data-ttu-id="a750c-198">41564D57-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-198">41564D57-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-199">WMMEDIASUBTYPE \_ WMVP</span><span class="sxs-lookup"><span data-stu-id="a750c-199">WMMEDIASUBTYPE\_WMVP</span></span>              | <span data-ttu-id="a750c-200">50564D57-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-200">50564D57-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-201">WMMEDIASUBTYPE \_ WVP2</span><span class="sxs-lookup"><span data-stu-id="a750c-201">WMMEDIASUBTYPE\_WVP2</span></span>              | <span data-ttu-id="a750c-202">32505657-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-202">32505657-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-203">WMMEDIATYPE \_ 音訊</span><span class="sxs-lookup"><span data-stu-id="a750c-203">WMMEDIATYPE\_Audio</span></span>                | <span data-ttu-id="a750c-204">73647561-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-204">73647561-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-205">WMMEDIATYPE \_ FileTransfer</span><span class="sxs-lookup"><span data-stu-id="a750c-205">WMMEDIATYPE\_FileTransfer</span></span>         | <span data-ttu-id="a750c-206">D9E47579-930E-4427-ADFC-AD80F290E470</span><span class="sxs-lookup"><span data-stu-id="a750c-206">D9E47579-930E-4427-ADFC-AD80F290E470</span></span> |
+| <span data-ttu-id="a750c-207">WMMEDIATYPE \_ 影像</span><span class="sxs-lookup"><span data-stu-id="a750c-207">WMMEDIATYPE\_Image</span></span>                | <span data-ttu-id="a750c-208">34A50FD8-8AA5-4386-81FE-A0EFE0488E31</span><span class="sxs-lookup"><span data-stu-id="a750c-208">34A50FD8-8AA5-4386-81FE-A0EFE0488E31</span></span> |
+| <span data-ttu-id="a750c-209">WMMEDIATYPE \_ 腳本</span><span class="sxs-lookup"><span data-stu-id="a750c-209">WMMEDIATYPE\_Script</span></span>               | <span data-ttu-id="a750c-210">73636d64-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-210">73636d64-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-211">WMMEDIATYPE \_ 文字</span><span class="sxs-lookup"><span data-stu-id="a750c-211">WMMEDIATYPE\_Text</span></span>                 | <span data-ttu-id="a750c-212">9BBA1EA7-5AB2-4829-BA57-0940209BCF3E</span><span class="sxs-lookup"><span data-stu-id="a750c-212">9BBA1EA7-5AB2-4829-BA57-0940209BCF3E</span></span> |
+| <span data-ttu-id="a750c-213">WMMEDIATYPE \_ 影片</span><span class="sxs-lookup"><span data-stu-id="a750c-213">WMMEDIATYPE\_Video</span></span>                | <span data-ttu-id="a750c-214">73646976-0000-0010-8000-00AA00389B71</span><span class="sxs-lookup"><span data-stu-id="a750c-214">73646976-0000-0010-8000-00AA00389B71</span></span> |
+| <span data-ttu-id="a750c-215">WMSCRIPTTYPE \_ TwoStrings</span><span class="sxs-lookup"><span data-stu-id="a750c-215">WMSCRIPTTYPE\_TwoStrings</span></span>          | <span data-ttu-id="a750c-216">82f38a70-c29f-11d1-97ad-00a0c95ea850</span><span class="sxs-lookup"><span data-stu-id="a750c-216">82f38a70-c29f-11d1-97ad-00a0c95ea850</span></span> |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="a750c-217">相關主題</span><span class="sxs-lookup"><span data-stu-id="a750c-217">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="a750c-218">**GUID 值**</span><span class="sxs-lookup"><span data-stu-id="a750c-218">**GUID Values**</span></span>](guid-values.md)
+</dt> <dt>
+
+[<span data-ttu-id="a750c-219">**媒體類型**</span><span class="sxs-lookup"><span data-stu-id="a750c-219">**Media Types**</span></span>](media-types.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
