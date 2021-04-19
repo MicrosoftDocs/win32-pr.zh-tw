@@ -1,0 +1,64 @@
+---
+description: COMPADDLOCAL 屬性的值是元件資料表的 [元件] 資料行中的元件 Guid 清單（以逗號分隔），這些是要在本機安裝的元件。
+ms.assetid: 10c178c5-1eae-4191-b79c-9285810efb6a
+title: COMPADDLOCAL 屬性
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 3e403459f0355c28d66da00170b9c649084afbb1
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106984470"
+---
+# <a name="compaddlocal-property"></a>COMPADDLOCAL 屬性
+
+**COMPADDLOCAL** 屬性的值是元件 [資料表](component-table.md)的 [元件] 資料行中的元件 guid 清單（以逗號分隔），這些是要在本機安裝的元件。 安裝程式會使用這份清單來判斷哪些功能已設定為根據指定的元件安裝在本機。 針對每個列出的元件識別碼，安裝程式會檢查透過 [FeatureComponents](featurecomponents-table.md) 資料表連結至該元件的所有功能，並安裝需要最少磁碟空間才能安裝的功能。 列出的元件必須存在於 [元件](component-table.md) 資料表的元件資料行中。
+
+## <a name="remarks"></a>備註
+
+請注意，元件名稱會區分大小寫。 另請注意，如果在 [元件資料表的 [屬性](component-table.md) ] 資料行中設定 SourceOnly 位旗標，則元件會安裝成從來源執行。
+
+安裝程式一律會依下列順序評估下列屬性。
+
+1.  [**ADDLOCAL**](addlocal.md)
+2.  [**刪除**](remove.md)
+3.  [**ADDSOURCE**](addsource.md)
+4.  [**ADDDEFAULT**](adddefault.md)
+5.  [**REINSTALL**](reinstall.md)
+6.  [**做廣告**](advertise.md)
+7.  **COMPADDLOCAL**
+8.  [**COMPADDSOURCE**](compaddsource.md)
+9.  [**COMPADDDEFAULT**](compadddefault.md)
+10. [**FILEADDLOCAL**](fileaddlocal.md)
+11. [**FILEADDSOURCE**](fileaddsource.md)
+12. [**FILEADDDEFAULT**](fileadddefault.md)
+
+例如，如果命令列指定： ADDLOCAL = ALL、ADDSOURCE = MyFeature，則所有功能都會先設定為執行本機，然後 MyFeature 設定為從來源執行。 如果命令列是： ADDSOURCE = ALL、ADDLOCAL = MyFeature、first MyFeature 設定為 run-local，則當 ADDSOURCE = ALL 進行評估時，包括 MyFeature) 在內的所有 (功能都會重設為從來源執行。
+
+安裝程式在停用的安裝期間，或在命令列上指定了上述任何屬性時，會將 [**預先**](preselected.md) 選取的屬性設定為 "1" 的值。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[屬性](properties.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
