@@ -4,16 +4,16 @@ ms.assetid: 8e31526a-639f-481b-91f1-fcd376818cbf
 title: nameSpace 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a8747a25988b880d5287d959273fa0f4d144045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2414919f699bb60c2cf1e48bc52030c36cf67a0
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513048"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380842"
 ---
 # <a name="namespace-element"></a>nameSpace 元素
 
-描述命名空間。 這個命名空間可用於產生程式碼或處理 <wsdl： import> 指示詞。
+描述命名空間。 這個命名空間可用於產生程式碼或處理指示詞 \<wsdl:import> 。
 
 ## <a name="usage"></a>使用方式
 
@@ -30,7 +30,7 @@ ms.locfileid: "104513048"
 
 | 屬性          | 類型                         | 必要       | 描述                                             |
 |--------------------|------------------------------|----------------|---------------------------------------------------------|
-| **uri**<br/> | 字元 \_ 字串<br/> | Yes<br/> | 命名空間的唯一 URI。<br/> <br/> |
+| **uri**<br/> | 字元 \_ 字串<br/> | 是<br/> | 命名空間的唯一 URI。<br/> <br/> |
 
 
 

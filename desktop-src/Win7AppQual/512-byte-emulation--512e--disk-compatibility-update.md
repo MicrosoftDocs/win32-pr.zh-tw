@@ -4,19 +4,19 @@ ms.assetid: 1D2847A7-15E9-42E0-90EB-7F43E76D3E44
 title: 512 位元組模擬 (512e) 磁碟相容性更新
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94fbdce2937e2d121d892d8566755dfcb7f20f01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74b654473fa8be5fbea997bd063df2c1f898a7d1
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027523"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107315001"
 ---
 # <a name="512-byte-emulation-512e-disk-compatibility-update"></a>512 位元組模擬 (512e) 磁碟相容性更新
 
 ## <a name="platform"></a>平台
 
- **客戶** 端-windows Vista windows \| 7 \| windows 7 SP1  
-**伺服器** -windows server 2008 \| Windows server 2008 R2 \| WINDOWS server 2008 R2 SP1  
+ **客戶** 端-windows Vista、windows 7、WINDOWS 7 SP1  
+**伺服器** -windows server 2008、windows Server 2008 R2、windows Server 2008 R2 SP1  
 
 ## <a name="feature-impact"></a>功能影響
 
@@ -31,7 +31,7 @@ ms.locfileid: "104027523"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Areal 密度是每年增加的，而最近一次出現 3 TB 的磁片時，用來處理遞減信號對雜訊比率 (SNR) 的錯誤修正機制會變得沒有效率，也就是為了確保媒體可供使用，需要增加的額外負荷量。 其中一個用來改善此錯誤修正機制的儲存體產業解決方案，是引進不同的實體媒體格式，其中包含較大的實體磁區大小。 這種新的實體媒體格式稱為 *Advanced format*。 因此，若要對新式儲存裝置的磁區大小做出任何假設，開發人員將需要研究其程式碼的基礎，以判斷是否有影響。
 

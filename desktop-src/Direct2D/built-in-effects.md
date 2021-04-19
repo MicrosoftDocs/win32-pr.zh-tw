@@ -4,12 +4,12 @@ description: Direct2D 效果會提供這組內建效果。
 ms.assetid: A76F6AB8-16E9-45C9-A768-5E4AA072D534
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94937d64c97506ebba56fde2334d09374228bac1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6001dda5985a1fa221a472ca1f1d9cca042f5041
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384501"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380862"
 ---
 # <a name="built-in-effects"></a>內建效果
 
@@ -47,7 +47,7 @@ ms.locfileid: "104384501"
 
 ## <a name="filter"></a>篩選
 
--   [>convolve 矩陣效果](convolve-matrix.md) -CLSID \_ D2D1ConvolveMatrix
+-   [>Convolve 矩陣效果](convolve-matrix.md) -CLSID \_ D2D1ConvolveMatrix
 -   [方向模糊效果](directional-blur.md) -CLSID \_ D2D1DirectionalBlur
 -   [Edge 偵測效果](edge-detection-effect.md) -CLSID \_ D2D1EdgeDetection
 -   [高斯模糊效果](gaussian-blur.md) -CLSID \_ D2D1GaussianBlur
@@ -90,7 +90,7 @@ ms.locfileid: "104384501"
 ## <a name="transform"></a>轉換
 
 -   [2d 仿射轉換效果](2d-affine-transform.md) -CLSID \_ D2D12DAffineTransform
--   [3d 轉換效果](3d-perspective-transform.md) -CLSID \_ D2D13DTransform
+-   [3d 轉換效果](3d-transform.md) -CLSID \_ D2D13DTransform
 -   [3d 透視圖轉換效果](3d-perspective-transform.md) -CLSID \_ D2D13DPerspectiveTransform
 -   [框線效果](border.md) -CLSID \_ D2D1Border
 -   [裁剪效果](crop.md) -CLSID \_ D2D1Crop

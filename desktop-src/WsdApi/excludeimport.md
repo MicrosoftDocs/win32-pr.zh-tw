@@ -1,21 +1,21 @@
 ---
-description: 防止在 WSDL 檔案的 <wsdl： import> 專案中，為指定的目標產生 import 語句。
+description: 防止針對 WSDL 檔中 wsdl： import 專案所命名的指定目標產生 import 語句。
 ms.assetid: 9a50ee38-fadf-4112-8430-cb5a07ae04ce
 title: excludeImport 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c08d8880029d9e03917e48b61561e3ab3eb2815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf511a24ad4007deb886900843991364fcf03a5a
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848731"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380772"
 ---
 # <a name="excludeimport-element"></a>excludeImport 元素
 
-防止在 WSDL 檔案的 <wsdl： import> 專案中，為指定的目標產生 import 語句。 這可以用來防止 WsdCodeGen 匯入已知的目標，例如 WS-Addressing 和 WS-Eventing 的規格，即使 WSDL 中參考了這些目標也是一樣。
+防止在 WSDL 檔案中的元素中，針對指定的目標產生 import 語句 \<wsdl:import> 。 這可以用來防止 WsdCodeGen 匯入已知的目標，例如 WS-Addressing 和 WS-Eventing 的規格，即使 WSDL 中參考了這些目標也是一樣。
 
-這個元素的值必須設定為要排除的 <wsdl： import> 元素中所命名的命名空間。
+這個元素的值必須設定為要排除的元素中所指定的命名空間 \<wsdl:import> 。
 
 ## <a name="usage"></a>使用方式
 
