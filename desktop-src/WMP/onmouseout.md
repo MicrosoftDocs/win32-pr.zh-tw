@@ -1,0 +1,59 @@
+---
+title: onmouseout
+description: Onmouseout 事件處理常式會處理使用者將指標移出元素時所發生的事件。
+ms.assetid: 8d4c5aec-0d4e-4912-a5e6-9aa1cf3e0971
+keywords:
+- onmouseout Windows Media Player
+topic_type:
+- apiref
+api_name:
+- onmouseout
+api_type:
+- NA
+ms.topic: reference
+ms.date: 05/31/2018
+api_location: ''
+ms.openlocfilehash: 172865ad8a6255ff18d52369058ecb9bdbbeb09a
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106982973"
+---
+# <a name="onmouseout"></a>onmouseout
+
+**Onmouseout** 事件處理常式會處理使用者將指標移出元素時所發生的事件。
+
+``` syntax
+onmouseout
+```
+
+## <a name="remarks"></a>備註
+
+此事件處理常式不適用於 **播放清單** 元素。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|-----------------------------------------------------|
+| 版本<br/> | Windows Media Player 70 版或更新版本<br/> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**環境事件處理常式**](ambient-event-handlers.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
