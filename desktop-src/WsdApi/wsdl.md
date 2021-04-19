@@ -4,12 +4,12 @@ ms.assetid: d8f630cd-0541-431b-86a8-792846a85ea0
 title: wsdl 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eb54f946f32fb4962b8384dea7c6cf4b3c0ebe3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbcb96e063a289e16d5e459b59cb8808a763618a
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192895"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380732"
 ---
 # <a name="wsdl-element"></a>wsdl 元素
 
@@ -33,8 +33,8 @@ ms.locfileid: "104192895"
 
 | 元素                                           | 描述                                                                                                                                       |
 |---------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**excludeImport**](excludeimport.md)<br/> | 防止在 WSDL 檔案的 <wsdl： import> 專案中，為指定的目標產生 import 語句。 <br/> <br/> |
-| [**importHint**](importhint.md)<br/>       | 指定未明確指定位置之 <wsdl： import> 指示詞的下載位置。<br/> <br/>           |
+| [**excludeImport**](excludeimport.md)<br/> | 防止在 WSDL 檔案中的元素中，針對指定的目標產生 import 語句 \<wsdl:import> 。 <br/> <br/> |
+| [**importHint**](importhint.md)<br/>       | 指定 \<wsdl:import> 未明確指定位置之指示詞的下載位置。<br/> <br/>           |
 | [**路徑**](path.md)<br/>                   | WSDL 輸入檔的檔案和路徑。<br/> <br/>                                                                                      |
 
 

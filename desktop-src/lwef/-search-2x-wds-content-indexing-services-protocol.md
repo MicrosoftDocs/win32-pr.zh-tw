@@ -4,12 +4,12 @@ description: 本檔是內容索引服務通訊協定的規格。
 ms.assetid: b91c8038-5ace-441d-8523-60f849ff1458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c22bbda912333368e50d3e4a8ace2cd98856ea
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 5265d9d8c802b278b4349ef4b8248b068dc7edc4
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "103681589"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492290"
 ---
 # <a name="content-indexing-services-protocol"></a>內容索引服務通訊協定
 
@@ -6324,7 +6324,7 @@ PropSpec (變數)
 
  
 
-**\_ wid**：代表檔識別碼的32位不帶正負號整數，該檔識別碼可識別應提取屬性的檔。
+**\_ wid**：32位不帶正負號的整數，其中包含可識別應提取屬性之檔識別碼的相關資訊。
 
 **\_ cbSoFar**：32位不帶正負號的整數，其中包含先前針對此屬性傳送的位元組數目。 在第一則訊息中必須設定為0x00000000。
 
