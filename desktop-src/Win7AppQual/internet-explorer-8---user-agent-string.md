@@ -4,19 +4,19 @@ ms.assetid: 1cb0456d-501a-4272-b89d-35e79d29d13a
 title: Internet Explorer 8-使用者代理程式字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7be481cf409468d9d182d37ae7636b167bc71d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aea44572f32e252a4e1d4dc2209e411834c12d4
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849855"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314791"
 ---
 # <a name="internet-explorer-8---user-agent-string"></a>Internet Explorer 8-使用者代理程式字串
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP \| windows Vista \| windows 7  
-**伺服器** -windows server 2003 \| windows Server 2008 \| windows server 2008 R2  
+ **客戶** 端-windows XP、windows Vista、windows 7  
+**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
 
 
 
@@ -42,7 +42,7 @@ ms.locfileid: "103849855"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 使用者代理字串是 Internet Explorer 的識別碼，可提供其版本和其他屬性的相關資料給 web 伺服器。 許多 web 應用程式都依賴和操作 IE 使用者代理字串。 這樣做並相依于較早的版本號碼將會受到影響。 使用者代理程式字串現在包含字串 ' Trident/4.0 '，以便在 Internet Explorer 7 相容性檢視中執行時，允許 Internet Explorer 7 的使用者代理程式字串和 Internet Explorer 8 的使用者代理程式字串之間的差異。 如需詳細資訊，請參閱瞭解使用者代理字串。
 
