@@ -5,12 +5,12 @@ ms.assetid: 45281b42-5cb2-42f9-9c7c-f3e3174b0f9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6d0303ee933b81f0c8553b6b0adae64db7f48d
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7e1099028bc85dc6492eade0315b7308b4c6aaa9
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103841919"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314611"
 ---
 # <a name="joining-heterogeneous-data"></a>聯結異質資料
 
@@ -69,7 +69,7 @@ ms.locfileid: "103841919"
 
     在上述範例中，LDAP 查詢有四個部分：
 
-    -   " <LDAP://DC=Fabrikam,DC=COM> " 是要搜尋之目錄伺服器的分辨名稱。
+    -   " \<LDAP://DC=Fabrikam,DC=COM> " 是要搜尋之目錄伺服器的分辨名稱。
     -   「 (& (objectCategory = Person)  (objectClass = user) ) 」是 LDAP 搜尋篩選 (查看 [搜尋篩選語法](search-filter-syntax.md)) 。
     -   「名稱，adspath」是使用 LDAP 顯示名稱格式 (的名稱，) 要取出的屬性。
     -   「子樹」表示搜尋的 [範圍](scope-of-query.md) 。
@@ -81,9 +81,9 @@ ms.locfileid: "103841919"
 [建立和執行視圖](creating-and-executing-a-view.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

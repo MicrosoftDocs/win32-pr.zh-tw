@@ -4,19 +4,19 @@ ms.assetid: 287E25AD-A560-40DA-A4E6-C46A3123914E
 title: 搭配使用 .NET Framework 4 與舊版的應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef252d128ae5d3c8f5b85ef486828fb82e152d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b30eb8f4be1c50904b8d5760f456f3fe20bdd3da
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976371"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314941"
 ---
 # <a name="using-net-framework-4-with-applications-built-on-earlier-versions"></a>搭配使用 .NET Framework 4 與舊版的應用程式
 
 ## <a name="platform"></a>平台
 
- **客戶** 端-windows XP \| windows Vista \| windows 7  
-**伺服器** -windows server 2003 \| windows Server 2008 \| windows server 2008 R2  
+ **客戶** 端-windows XP、windows Vista、windows 7  
+**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
 
 
 ## <a name="feature-impact"></a>功能影響
@@ -29,7 +29,7 @@ ms.locfileid: "106976371"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 .NET Framework 4 與使用先前的 .NET Framework 版本所建立的應用程式具有高度相容性。 .NET Framework 4 的主要變更是改善安全性、標準合規性、正確性、可靠性和效能。
 

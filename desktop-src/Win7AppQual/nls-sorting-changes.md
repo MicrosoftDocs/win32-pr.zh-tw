@@ -4,19 +4,19 @@ ms.assetid: 24617b5f-14f1-4f1b-a288-7d20a8166da0
 title: NLS 排序變更
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0805eae753c1e312d26f8c84e13d19041458cf26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa4935a6874e28270e73904eb352cd6332e650b7
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514092"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314951"
 ---
 # <a name="nls-sorting-changes"></a>NLS 排序變更
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-windows XP \| windows Vista \| windows 7  
-**伺服器** -windows server 2003 \| windows Server 2008 \| windows server 2008 R2  
+ **客戶** 端-windows XP、windows Vista、windows 7  
+**伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
 
 
 
@@ -33,7 +33,7 @@ ms.locfileid: "104514092"
 **頻率** -低 (少數應用程式受到影響，但如果受到影響，一律會中斷)   
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
  (NLS) 函式的國家語言支援可協助應用程式支援世界各地使用者的不同語言和地區設定特定需求。 新的 Windows 版本幾乎都包含 NLS 變更。 此變更會影響定序和排序，因此具有持續性索引的應用程式。
 
