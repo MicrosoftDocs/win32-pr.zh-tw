@@ -1,0 +1,61 @@
+---
+description: 當您要開始使用時，由原則引擎引發。 您可以使用 IMFContentProtectionManager 介面的應用程式執行來執行個人化。
+ms.assetid: a3ba98ee-4d2e-466d-be9a-c7e3b5f920a7
+title: 'MEIndividualizationStart 事件 (Mfobjects) '
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: dbb8d50bbc2081c4efa41d8b15cc3e41a14ab5eb
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106997108"
+---
+# <a name="meindividualizationstart-event"></a><span data-ttu-id="44643-104">MEIndividualizationStart 事件</span><span class="sxs-lookup"><span data-stu-id="44643-104">MEIndividualizationStart event</span></span>
+
+<span data-ttu-id="44643-105">當您要開始使用時，由原則引擎引發。</span><span class="sxs-lookup"><span data-stu-id="44643-105">Raised by the policy engine when individualization is about to begin.</span></span> <span data-ttu-id="44643-106">您可以使用應用程式的 [**IMFContentProtectionManager**](/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager) 介面執行來執行個人化。</span><span class="sxs-lookup"><span data-stu-id="44643-106">Individualization is performed using the application's implementation of the [**IMFContentProtectionManager**](/windows/desktop/api/mfidl/nn-mfidl-imfcontentprotectionmanager) interface.</span></span>
+
+<span data-ttu-id="44643-107">個別的應用程式是指其數位版權管理的升級 (DRM) 元件，其與相同應用程式的所有其他複本有所區別。</span><span class="sxs-lookup"><span data-stu-id="44643-107">An individualized application is one that has received an upgrade to its digital rights management (DRM) components that differentiates it from all other copies of the same application.</span></span> <span data-ttu-id="44643-108">內容擁有者可以要求只能在已個人化的應用程式上播放其受保護的檔案。</span><span class="sxs-lookup"><span data-stu-id="44643-108">Content owners can require that their protected files be played only on an application that has been individualized.</span></span>
+
+## <a name="event-values"></a><span data-ttu-id="44643-109">事件值</span><span class="sxs-lookup"><span data-stu-id="44643-109">Event values</span></span>
+
+<span data-ttu-id="44643-110">從 [**IMFMediaEvent：： GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) 取出的可能值包括下列各項。</span><span class="sxs-lookup"><span data-stu-id="44643-110">Possible values retrieved from [**IMFMediaEvent::GetValue**](/windows/desktop/api/mfobjects/nf-mfobjects-imfmediaevent-getvalue) include the following.</span></span>
+
+
+
+| <span data-ttu-id="44643-111">VARTYPE</span><span class="sxs-lookup"><span data-stu-id="44643-111">VARTYPE</span></span>              | <span data-ttu-id="44643-112">Description</span><span class="sxs-lookup"><span data-stu-id="44643-112">Description</span></span>                           |
+|----------------------|---------------------------------------|
+| <span data-ttu-id="44643-113">VT \_ 空白</span><span class="sxs-lookup"><span data-stu-id="44643-113">VT\_EMPTY</span></span><br/> | <span data-ttu-id="44643-114">沒有事件資料。</span><span class="sxs-lookup"><span data-stu-id="44643-114">No event data.</span></span><br/> <br/> |
+
+
+
+## <a name="remarks"></a><span data-ttu-id="44643-115">備註</span><span class="sxs-lookup"><span data-stu-id="44643-115">Remarks</span></span>
+
+<span data-ttu-id="44643-116">當授權取得完成時，原則引擎會引發 [MEIndividualizationCompleted](meindividualizationcompleted.md) 事件。</span><span class="sxs-lookup"><span data-stu-id="44643-116">When license acquisition is completed, the policy engine raises the [MEIndividualizationCompleted](meindividualizationcompleted.md) event.</span></span>
+
+## <a name="requirements"></a><span data-ttu-id="44643-117">規格需求</span><span class="sxs-lookup"><span data-stu-id="44643-117">Requirements</span></span>
+
+
+
+| <span data-ttu-id="44643-118">需求</span><span class="sxs-lookup"><span data-stu-id="44643-118">Requirement</span></span> | <span data-ttu-id="44643-119">值</span><span class="sxs-lookup"><span data-stu-id="44643-119">Value</span></span> |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="44643-120">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="44643-120">Minimum supported client</span></span><br/> | <span data-ttu-id="44643-121">\[僅限 Windows Vista 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="44643-121">Windows Vista \[desktop apps only\]</span></span><br/>                                                           |
+| <span data-ttu-id="44643-122">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="44643-122">Minimum supported server</span></span><br/> | <span data-ttu-id="44643-123">僅限 Windows Server 2008 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="44643-123">Windows Server 2008 \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="44643-124">標頭</span><span class="sxs-lookup"><span data-stu-id="44643-124">Header</span></span><br/>                   | <dl> <span data-ttu-id="44643-125"><dt>Mfobjects (包含 Mfidl) </dt></span><span class="sxs-lookup"><span data-stu-id="44643-125"><dt>Mfobjects.h (include Mfidl.h)</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="44643-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="44643-126">See also</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="44643-127">媒體基礎事件</span><span class="sxs-lookup"><span data-stu-id="44643-127">Media Foundation Events</span></span>](media-foundation-events.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
