@@ -4,18 +4,18 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: " (WinHTTP. h) 的查詢資訊旗標"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9ffc8f4ba4a947fe6fb277617c99460c43ffb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
+ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026967"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107385886"
 ---
 # <a name="query-info-flags-winhttph"></a> (WinHTTP. h) 的查詢資訊旗標
 
-[**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders)會使用這些屬性和修飾詞。
+[**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders)會使用這些屬性和修飾詞。
 
-[**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders)會使用屬性旗標來指出要取出的資訊。 大部分的屬性旗標會直接對應至特定的 HTTP 標頭。 另外還有一些特殊旗標（例如 WINHTTP \_ 查詢 \_ 原始 \_ 標頭）與特定標頭無關。
+[**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders)會使用屬性旗標來指出要取出的資訊。 大部分的屬性旗標會直接對應至特定的 HTTP 標頭。 另外還有一些特殊旗標（例如 WINHTTP \_ 查詢 \_ 原始 \_ 標頭）與特定標頭無關。
 
 <dl> <dt>
 
@@ -84,7 +84,7 @@ ms.locfileid: "104026967"
 
 
 
-接收伺服器所支援的 [*HTTP 動詞*](glossary.md)命令。
+接收伺服器所支援的 [**HTTP 動詞**](glossary.md) 命令。
 
 
 </dt> </dl> </dd> <dt>
@@ -274,7 +274,7 @@ ms.locfileid: "104026967"
 
 
 
-使 [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) 搜尋 *pwszName* 參數中指定的標頭名稱，並將標頭資訊儲存在 *lpBuffer* 中。 應用程式可以使用 **WINHTTP \_ 選項 \_ 接收 \_ 回應 \_ 超時** ，來限制此查詢等候接收所有標頭的時間上限。
+使 [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) 搜尋 *pwszName* 參數中指定的標頭名稱，並將標頭資訊儲存在 *lpBuffer* 中。 應用程式可以使用 **WINHTTP \_ 選項 \_ 接收 \_ 回應 \_ 超時** ，來限制此查詢等候接收所有標頭的時間上限。
 
 
 </dt> </dl> </dd> <dt>
@@ -769,7 +769,7 @@ ms.locfileid: "104026967"
 
 </dt> </dl> </dd> </dl>
 
-修飾詞旗標會與屬性旗標搭配使用，以修改要求。 修飾詞旗標可修改傳回的資料格式，或指出 [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders) 函式應該搜尋資訊的位置。
+修飾詞旗標會與屬性旗標搭配使用，以修改要求。 修飾詞旗標可修改傳回的資料格式，或指出 [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) 函式應該搜尋資訊的位置。
 
 <dl> <dt>
 
@@ -798,29 +798,19 @@ ms.locfileid: "104026967"
 
 
 
-傳回標頭值作為 [**SYSTEMTIME**](/windows/desktop/api/minwinbase/ns-minwinbase-systemtime) 結構，而不需要應用程式剖析資料。 用於其值為日期/時間字串的標頭，例如「上次修改時間」。
+傳回標頭值作為 [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) 結構，而不需要應用程式剖析資料。 用於其值為日期/時間字串的標頭，例如「上次修改時間」。
 
 
 </dt> </dl> </dd> </dl>
 
 ## <a name="requirements"></a>規格需求
 
-
-
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>      |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>   |
-| 標頭<br/>                   | <dl> <dt>WinHTTP. h</dt> </dl> |
-
-
+| 最低支援的用戶端 | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]      |
+| 最低支援的伺服器 | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]   |
+| 標頭                   | <dl> <dt>WinHTTP. h</dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱
 
-<dl> <dt>
-
-[WinHTTP 版本](winhttp-versions.md)
-</dt> </dl>
-
- 
-
+* [WinHTTP 版本](winhttp-versions.md)

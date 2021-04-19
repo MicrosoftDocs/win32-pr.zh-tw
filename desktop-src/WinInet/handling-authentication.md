@@ -4,12 +4,12 @@ description: 某些 proxy 和伺服器需要驗證，才能授與存取網際網
 ms.assetid: f3752031-30d3-4e35-8eae-1d4971b66bc2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36a8eaa38f61f0d97f1f543e0623313aa196aab7
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: e82d8cd93f1010c71560d856793ad06d8bc5d9d5
+ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104024258"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107380852"
 ---
 # <a name="handling-authentication"></a>處理驗證
 
@@ -21,7 +21,7 @@ ms.locfileid: "104024258"
 
 每個驗證回應標頭都包含可用的驗證配置和領域。 如果支援多個驗證配置，伺服器會傳回多個驗證回應標頭。 領域值會區分大小寫，並定義 proxy 或伺服器上的保護空間。 例如，「WWW-驗證：基本領域 =」範例 "」標頭會是在需要伺服器驗證時所傳回的標頭範例。
 
-傳送要求的用戶端應用程式可以藉由在要求中包含授權標頭欄位來自行驗證。 授權標頭會包含驗證配置，以及該配置所需的適當回應。 例如，如果用戶端收到驗證回應標頭 "WWW-驗證：基本領域 =" 範例 ""，就會將標頭「授權：基本 <使用者名稱：密碼>」新增至要求，並將其重新傳送至伺服器。
+傳送要求的用戶端應用程式可以藉由在要求中包含授權標頭欄位來自行驗證。 授權標頭會包含驗證配置，以及該配置所需的適當回應。 例如， \<username:password> 如果用戶端收到驗證回應標頭 "WWW-驗證：基本領域 =" 範例 ""，就會將標頭 "Authorization： basic" 新增至要求，並將其重新傳送至伺服器。
 
 驗證架構有兩種一般類型：
 
@@ -47,7 +47,7 @@ ms.locfileid: "104024258"
 
 
 
- 
+ 
 
 針對基本驗證以外的任何其他作業，除了安裝適當的 DLL 之外，還必須設定登錄機碼。
 
@@ -244,8 +244,8 @@ switch (dwStatus)
 > [!Note]  
 > WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 
