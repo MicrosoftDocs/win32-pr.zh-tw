@@ -1,0 +1,98 @@
+---
+description: 決定目前矩陣和指定矩陣的乘積。
+ms.assetid: a673ce82-6fed-4a3f-8c37-d0db11195f06
+title: 'ID3DXMATRIXStack：： MultMatrix 方法 (D3dx9math .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- ID3DXMATRIXStack.MultMatrix
+api_type:
+- COM
+api_location:
+- d3dx9.lib
+- d3dx9.dll
+ms.openlocfilehash: fc9b3fb49387e354645c8a3c09c7572b4da80109
+ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/15/2021
+ms.locfileid: "106986500"
+---
+# <a name="id3dxmatrixstackmultmatrix-method-d3dx9mathh"></a>ID3DXMATRIXStack：： MultMatrix 方法 (D3dx9math .h) 
+
+決定目前矩陣和指定矩陣的乘積。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT MultMatrix(
+  [in] const D3DXMATRIX *pMat
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*pMat* \[在\]
+</dt> <dd>
+
+Type： **Const [**D3DXMATRIX**](d3dxmatrix.md) \***
+
+要乘以目前矩陣的 [**D3DXMATRIX**](d3dxmatrix.md) 結構指標。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**
+
+如果方法成功，則傳回值為「D3D \_ 正常」。 如果方法失敗，則傳回值可以是 D3DERR \_ INVALIDCALL。
+
+## <a name="remarks"></a>備註
+
+這個方法會將指定的矩陣靠右乘以目前的矩陣 (轉換與目前的世界原點) 有關。
+
+
+```
+m_pstack[m_currentPos] = m_pstack[m_currentPos] * (*pMat);
+```
+
+
+
+這個方法不會將專案加入至堆疊中，它會將目前的矩陣取代為目前矩陣和指定矩陣的乘積。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|----------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>D3dx9math。h</dt> </dl> |
+| 程式庫<br/> | <dl> <dt>D3dx9 .lib</dt> </dl>   |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[ID3DXMATRIXStack](id3dxmatrixstack.md)
+</dt> <dt>
+
+[**ID3DXMATRIXStack::MultMatrixLocal**](id3dxmatrixstack--multmatrixlocal.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
