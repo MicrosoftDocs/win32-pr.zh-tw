@@ -1,0 +1,59 @@
+---
+title: 註冊靜態內容功能表項目
+description: 本主題說明如何註冊針對 Active Directory 物件所顯示的靜態內容功能表項目。
+ms.assetid: ed945812-3adb-4058-bdb6-8d9d34468265
+ms.tgt_platform: multiple
+keywords:
+- 註冊靜態內容功能表項目廣告
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 89e3ee5336061ca296e2c94f8907ebd385610494
+ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "106968086"
+---
+# <a name="registering-a-static-context-menu-item"></a>註冊靜態內容功能表項目
+
+Active Directory Domain Services 和 Windows shell 的管理 MMC 嵌入式管理單元，提供一種機制，可將專案新增至 Active Directory Domain Services 中的物件所顯示的內容功能表。 內容功能表可以叫用任何可以使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) API 啟動的檔案，例如應用程式或網頁 URL。
+
+## <a name="registering-with-active-directory-domain-services"></a>向 Active Directory Domain Services 註冊
+
+操作功能表延伸模組註冊是特定于一個地區設定。 如果內容功能表延伸模組套用至所有地區設定，則必須在 [顯示規範] 容器中所有地區設定子容器的物件類別 [**displaySpecifier**](/windows/desktop/ADSchema/c-displayspecifier) 物件中註冊。 如果內容功能表延伸針對特定地區設定進行當地語系化，則必須在該地區設定 subcontainer 的 **displaySpecifier** 物件中註冊。 如需顯示規範容器和地區設定的詳細資訊，請參閱 [顯示](display-specifiers.md) 規範和 [DisplaySpecifiers 容器](displayspecifiers-container.md)。
+
+有兩個顯示規範屬性，可以在 [**adminCoNtextMenu**](/windows/desktop/ADSchema/a-admincontextmenu) 和 [**shellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)下註冊靜態內容功能表項目。
+
+[**AdminCoNtextMenu**](/windows/desktop/ADSchema/a-admincontextmenu)屬性會識別要在 Active Directory Domain Services 的系統管理嵌入式管理單元中顯示的系統管理內容功能表。 當使用者在其中一個 [系統管理] MMC 嵌入式管理單元中顯示適當類別的物件內容功能表時，就會顯示內容功能表。
+
+[**ShellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)屬性會識別要在 Windows shell 中顯示的使用者內容功能表。 當使用者在 Windows 檔案總管中，流覽適當類別的物件內容功能表時，就會顯示內容功能表。 從 Windows Server 2003 開始，Windows shell 不再顯示來自 Active Directory Domain Services 的物件。
+
+所有這些屬性都是多重值。
+
+註冊靜態內容功能表項目時， [**adminCoNtextMenu**](/windows/desktop/ADSchema/a-admincontextmenu) 和 [**shellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu) 屬性的值需要下列格式。
+
+
+```C++
+<order number>,<menu text>,<command>
+```
+
+
+
+「 &lt; 訂單編號」 &gt; 是一種不帶正負號的數位，代表內容功能表中的專案位置。 顯示內容功能表時，會使用每個值的「訂單編號」比較來排序這些值 &lt; &gt; 。 如果有一個以上的值具有相同的「 &lt; 訂單編號」 &gt; ，則這些內容功能表延伸模組會以從 Active Directory 伺服器讀取的順序載入。 可能的話，請使用非現有的「 &lt; 訂單編號」 &gt; ，也就是屬性中其他值尚未使用的「訂單編號」。 沒有指定的開始位置，而且「訂單編號」序列中允許有間距 &lt; &gt; 。
+
+「 &lt; 功能表文字」 &gt; 是顯示在內容功能表中的字串。 「 &lt; 功能表文字」 &gt; 可以在功能表項目的鍵盤快速鍵字元前面加上一個 "&" 字元。 這會導致前面的字元加上底線。 例如，如果「 &lt; 功能表文字」是「&檔案」 &gt; ，則功能表文字會顯示為「檔案」，"f" 將會加上底線，而 "f" 將是功能表項目的鍵盤快速鍵。
+
+「 &lt; 命令」 &gt; 是嵌入式管理單元所執行的程式或檔案。 必須指定完整路徑，或檔案必須存在於電腦路徑環境變數中。 使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) 函式來叫用檔案。 " &lt; Command &gt; " 不能包含其他參數，例如 Notepad.exe Myfile.txt。 由於使用 **ShellExecute** ，任何可傳遞至 **ShellExecute** 的檔案或位址都可以用於 " &lt; command &gt; "。 例如，如果 " &lt; command &gt; " 包含 "d： \\file.txt"，d： \\file.txt 將會使用與 .txt 副檔名相關聯的應用程式開啟。 同樣地，如果 " &lt; command &gt; " 包含 " https://www.fabrikam.com "，就會開啟預設的網頁瀏覽器，並顯示指定的網頁。 允許具有空格的路徑和應用程式名稱。 如果「 &lt; 命令」 &gt; 是應用程式，則會以命令列引數（以空格分隔）來傳遞所選物件的 ADsPath 和類別。
+
+在 Windows shell 中，支援多重選取的內容功能表項目。 在此情況下， &lt; &gt; 會針對每個選取的物件叫用「命令」。 在 Active Directory Domain Services 的「系統管理」嵌入式管理單元中，不支援多重選取的靜態內容功能表項目。
+
+> [!IMPORTANT]
+> 針對 Windows shell，會在使用者登入時抓取顯示規範資料，並為使用者的會話進行快取。 針對系統管理嵌入式管理單元，在載入嵌入式管理單元時，會抓取顯示規範資料，而且會在進程期間進行快取。 針對 Windows shell，這表示在使用者登出後重新登入後，顯示規範的變更會生效。 系統管理嵌入式管理單元的變更會在嵌入式管理單元或主控台檔案重載時生效;也就是說，如果您啟動新的主控台檔案實例或新的 Mmc.exe 實例，並加入嵌入式管理單元，則會抓取最新的顯示規範資料。
+
+ 
+
+如需詳細資訊和程式碼範例，請參閱 [安裝靜態內容功能表項目的範例程式碼](example-code-for-installing-a-static-context-menu-item.md)。
+
+ 
+
+ 
