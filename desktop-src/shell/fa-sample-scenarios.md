@@ -4,19 +4,19 @@ ms.assetid: e4392907-a84f-40ea-aa88-2ad0510bca3c
 title: 檔案關聯範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4104c9bc241fed4bc698bd150b03d32a70e054
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23b92922bb907c4dd90b3e2bdc3d16c8e8b52e6a
+ms.sourcegitcommit: b0d03febac36ff77cba034615b94ea103311398d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111752"
+ms.lasthandoff: 04/19/2021
+ms.locfileid: "107715786"
 ---
 # <a name="file-association-example"></a>檔案關聯範例
 
 在下列範例中，名為 Litware，Inc. 的假想軟體發展公司會建立名為 LitwarePlayer 的新音訊播放機。 Litware 想要設計 LitwarePlayer 與其主要檔案類型之間的檔案關聯，其使用新開發的音訊格式，可讓整個音訊 CD 儲存在 10 kb 以內的記憶體中，且不會失去品質。
 
 > [!IMPORTANT]
-> 本主題不適用於 Windows 10。 預設檔案關聯在 Windows 10 中的運作方式有所變更。 如需詳細資訊，請參閱 [這篇文章](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)中有關 **Windows 10 如何處理預設應用程式的變更** 一節。
+> 本主題不適用於 Windows 10。 預設檔案關聯在 Windows 10 中的運作方式有所變更。 如需詳細資訊，請參閱 [這篇文章](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)中有關 **Windows 10 如何處理預設應用程式的變更** 一節。
 
  
 

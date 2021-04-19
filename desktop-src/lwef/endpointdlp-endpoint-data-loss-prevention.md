@@ -3,12 +3,12 @@ description: 端點資料遺失防止 (DLP) Api 可讓應用程式在特定作�
 title: 端點資料遺失防止
 ms.topic: article
 ms.date: 03/18/2021
-ms.openlocfilehash: 867e059e0accfc1208c96394c3065d69cf9f576c
-ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
+ms.openlocfilehash: 3b8576f9eadd0037eca56c0ba183ea1d1825679a
+ms.sourcegitcommit: 8b543a86e551cb5b4270a3cc3590ad0758fb6156
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107495446"
+ms.lasthandoff: 04/16/2021
+ms.locfileid: "107526089"
 ---
 # <a name="endpoint-data-loss-prevention"></a>端點資料遺失防止
 
@@ -333,6 +333,18 @@ void WINAPI DlpNotifyPostDragDrop(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _I
 void WINAPI DlpNotifyEnterDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo);
 void WINAPI DlpNotifyLeaveDropTarget(_In_ const PDLP_DOCUMENT_INFO DocumentInfo, _In_ const PDLP_POSTOP_STATUS OpStatus); 
 
+
+/*
+Function description:
+    Determines whether the app must pull the data from the system clipboard rather than taking it from its internal cache.
+
+Parameters:
+    None
+
+Return:
+    TRUE if calling into the OS clipboard is mandatory, FALSE otherwise
+*/
+BOOL WINAPI DlpMustPasteFromSystemClipboard();
 
 ```
 
