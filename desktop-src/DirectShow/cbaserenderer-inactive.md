@@ -1,0 +1,75 @@
+---
+description: 當狀態切換為 [已停止] 時，會呼叫非使用中的方法。
+ms.assetid: 2bad81ef-d2a4-4c20-a49b-e40e5097b430
+title: 'CBaseRenderer：非使用中方法 (Renbase .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- CBaseRenderer.Inactive
+api_type:
+- COM
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: 9ac328c772b740a0d7ab05be4c6ea9f2a24f852e
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106992153"
+---
+# <a name="cbaserendererinactive-method"></a>CBaseRenderer 方法
+
+`Inactive`當狀態切換為 [已停止] 時，會呼叫方法。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+virtual HRESULT Inactive();
+```
+
+
+
+## <a name="parameters"></a>參數
+
+這個方法沒有任何參數。
+
+## <a name="return-value"></a>傳回值
+
+傳回 S \_ OK。
+
+## <a name="remarks"></a>備註
+
+輸入的 pin 會從它自己的 [**CRendererInputPin：：非**](crendererinputpin-inactive.md) 使用中的方法呼叫這個方法。 篩選準則會呼叫 [**CBaseRenderer：： ClearPendingSample**](cbaserenderer-clearpendingsample.md) 方法，以釋放最新的範例。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>Renbase (包含： .h) </dt> </dl>                                                                                   |
+| 程式庫<br/> | <dl> <dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**CBaseRenderer 類別**](cbaserenderer.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
