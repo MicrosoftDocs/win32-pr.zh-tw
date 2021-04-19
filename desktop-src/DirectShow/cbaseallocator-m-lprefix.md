@@ -1,0 +1,63 @@
+---
+description: 每個緩衝區的前置詞（以位元組為單位）。
+ms.assetid: 471b73bf-f959-41aa-84ba-324a2738dd0e
+title: 'CBaseAllocator：： m_lPrefix 成員 (Amfilter .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- m_lPrefix
+api_type:
+- LibDef
+api_location:
+- Strmbase.lib
+- Strmbase.dll
+- Strmbasd.lib
+- Strmbasd.dll
+ms.openlocfilehash: fc52db44dcdfa050cf8bc7faf57cb7094d8cac91
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106993260"
+---
+# <a name="cbaseallocatorm_lprefix-member"></a>CBaseAllocator：： m \_ lPrefix 成員
+
+每個緩衝區的前置詞（以位元組為單位）。 如果此值不是零， [**CBaseAllocator：： GetBuffer**](cbaseallocator-getbuffer.md) 方法所傳回的每個緩衝區指標前面都會加上大小為 *m \_ lPrefix* 的位元組區塊。 這個記憶體區塊稱為 *前置* 詞。 [**CBaseAllocator：： m \_ lSize**](cbaseallocator-m-lsize.md)成員變數不包含前置詞值。
+
+## <a name="syntax"></a>Syntax
+
+
+```C++
+long m_lPrefix;
+```
+
+
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>Amfilter (包含： .h) </dt> </dl>                                                                                  |
+| 程式庫<br/> | <dl> <dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**CBaseAllocator 類別**](cbaseallocator.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+

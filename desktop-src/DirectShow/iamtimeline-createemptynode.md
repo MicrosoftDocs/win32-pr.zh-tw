@@ -1,0 +1,112 @@
+---
+description: CreateEmptyNode 方法會建立新的時間軸物件。
+ms.assetid: 64184bfd-6f93-4865-81e7-b1ed7b7148aa
+title: 'IAMTimeline：： CreateEmptyNode 方法 (Qedit .h) '
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- IAMTimeline.CreateEmptyNode
+api_type:
+- COM
+api_location:
+- strmiids.lib
+- strmiids.dll
+ms.openlocfilehash: 894126bea8f40537602aa1fe8898038245215914
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106993303"
+---
+# <a name="iamtimelinecreateemptynode-method"></a>IAMTimeline：： CreateEmptyNode 方法
+
+> [!Note]  
+> \[廢棄。 此 API 可能會從 Windows 的未來版本中移除。\]
+
+ 
+
+`CreateEmptyNode`方法會建立新的時間軸物件。
+
+您可以使用這個方法來建立時間軸物件，而不是 **CoCreateInstance** 函式，因為此方法會執行重要的初始化常式。 這個方法所建立的每個物件至少都支援 [**IAMTimelineObj**](iamtimelineobj.md) 介面，以及該物件類型特定的其他介面。
+
+## <a name="syntax"></a>語法
+
+
+```C++
+HRESULT CreateEmptyNode(
+  [out] IAMTimelineObj      **ppObj,
+        TIMELINE_MAJOR_TYPE Type
+);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*ppObj* \[擴展\]
+</dt> <dd>
+
+接收新物件之 [**IAMTimelineObj**](iamtimelineobj.md) 介面的指標。
+
+</dd> <dt>
+
+*型別* 
+</dt> <dd>
+
+[**時間軸 \_ 主要 \_ 類型**](timeline-major-type.md)列舉類型的成員，指定要建立之物件的類型。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
+
+## <a name="remarks"></a>備註
+
+請勿將新的物件加入至另一個時間軸實例。 時間軸中的每個物件都必須由該時間軸建立。
+
+如果方法成功，則傳回的 [**IAMTimelineObj**](iamtimelineobj.md) 介面具有未處理的參考計數。 使用完畢後，請務必釋放介面。
+
+> [!Note]  
+> 標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。
+
+ 
+
+> [!Note]  
+> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+
+ 
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|-----------------------------------------------------------------------------------------|
+| 標頭<br/>  | <dl> <dt>Qedit。h</dt> </dl>      |
+| 程式庫<br/> | <dl> <dt>Strmiids .lib</dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IAMTimeline 介面**](iamtimeline.md)
+</dt> <dt>
+
+[錯誤和成功碼](error-and-success-codes.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
