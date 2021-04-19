@@ -1,0 +1,141 @@
+---
+description: 包含已更正的電腦檢查 (CMC) 事件。 此類別僅適用于64位的 Windows 系統。
+ms.assetid: e12efbf7-7d53-415a-bc48-90d33e4ce16d
+title: MSMCAInfo_RawCMCEvent 類別
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- MSMCAInfo_RawCMCEvent
+- MSMCAInfo_RawCMCEvent.Active
+- MSMCAInfo_RawCMCEvent.Count
+- MSMCAInfo_RawCMCEvent.InstanceName
+- MSMCAInfo_RawCMCEvent.Records
+api_type:
+- DllExport
+api_location:
+- Wmiprov.dll
+ms.openlocfilehash: 1bb60d5fbcf004b924a91e640d8cd8a8c5ad3c25
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106987320"
+---
+# <a name="msmcainfo_rawcmcevent-class"></a>MSMCAInfo \_ RawCMCEvent 類別
+
+**MSMCAInfo \_ RawCMCEvent** 類別包含已更正的電腦檢查 (CMC) 事件。 此類別僅適用于64位的 Windows 系統。
+
+下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
+
+## <a name="syntax"></a>語法
+
+``` syntax
+class MSMCAInfo_RawCMCEvent : WMIEvent
+{
+  boolean         Active;
+  uint32          Count;
+  string          InstanceName;
+  MSMCAInfo_Entry Records[];
+};
+```
+
+## <a name="members"></a>成員
+
+**MSMCAInfo \_ RawCMCEvent** 類別具有下列類型的成員：
+
+-   [屬性](#properties)
+
+### <a name="properties"></a>屬性
+
+**MSMCAInfo \_ RawCMCEvent** 類別具有這些屬性。
+
+<dl> <dt>
+
+**使用中**
+</dt> <dd> <dl> <dt>
+
+資料類型： **布林值**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+如果此類別的實例為使用中，則為 TRUE;否則 **為 FALSE**。
+
+</dd> <dt>
+
+**Count**
+</dt> <dd> <dl> <dt>
+
+資料類型： **uint32**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+錯誤記錄的數目。
+
+</dd> <dt>
+
+**InstanceName**
+</dt> <dd> <dl> <dt>
+
+資料類型： **字串**
+</dt> <dt>
+
+存取類型：唯讀
+</dt> <dt>
+
+限定詞：索引 [**鍵**](/windows/desktop/WmiSdk/standard-qualifiers)
+</dt> </dl>
+
+此類別實例的唯一識別碼。
+
+</dd> <dt>
+
+**記錄**
+</dt> <dd> <dl> <dt>
+
+資料類型： **MSMCAInfo \_ 專案** 陣列
+</dt> <dt>
+
+存取類型：唯讀
+</dt> </dl>
+
+機器檢查架構的陣列 (MCA) 錯誤記錄。 陣列中的 MCA 錯誤記錄數目是由 **Count** 屬性指定。
+
+</dd> </dl>
+
+## <a name="remarks"></a>備註
+
+**MSMCAInfo \_ RawCMCEvent** 類別衍生自 [**>register-wmievent**](wmievent.md)。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|-------------------------------------|----------------------------------------------------------------------------------------|
+| 最低支援的用戶端<br/> | Windows XP<br/>                                                                  |
+| 最低支援的伺服器<br/> | Windows Server 2003<br/>                                                         |
+| 命名空間<br/>                | 根 \\ wmi<br/>                                                                   |
+| MOF<br/>                      | <dl> <dt>Wmicore mof</dt> </dl> |
+| DLL<br/>                      | <dl> <dt>Wmiprov.dll</dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[MSMCA 類別](msmca-classes.md)
+</dt> <dt>
+
+[**>register-wmievent**](wmievent.md)
+</dt> </dl>
+
+ 
+
