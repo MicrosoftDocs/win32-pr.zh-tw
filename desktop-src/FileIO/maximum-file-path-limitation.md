@@ -4,12 +4,12 @@ title: 最大路徑長度限制
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 995cd6d973a5bab02deae3068e39e8e3f3d51f40
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 3d71d87f69aeb224cde256ce78bd29fd0bf5c291
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "104195779"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314801"
 ---
 # <a name="maximum-path-length-limitation"></a>最大路徑長度限制
 
@@ -51,8 +51,8 @@ Windows Registry Editor Version 5.00
 
 ```
 
-    > [!NOTE]  
-    > This registry key can also be controlled via Group Policy at `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths`.
+> [!NOTE]  
+> 此登錄機碼也可以透過群組原則來控制 `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths` 。
 
 * [應用程式資訊清單](../sbscs/application-manifests.md)也必須包含 `longPathAware` 元素。
 
