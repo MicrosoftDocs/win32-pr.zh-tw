@@ -1,0 +1,86 @@
+---
+description: 這是影片方向（以度為單位）。
+ms.assetid: 9534be9e-ab57-4c36-b1ae-ff12d632574c
+title: 系統。方向
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 11f635cd020f9ae6bee8340f51bd17a337db04b9
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106991888"
+---
+# <a name="systemvideoorientation"></a>系統。方向
+
+這是影片方向（以度為單位）。
+
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8
+
+```
+propertyDescription
+   name = System.Video.Orientation
+   shellPKey = PKEY_Video_Orientation
+   formatID = 64440491-4C8B-11D1-8B70-080036B11A03
+   propID = 99
+   SearchInfo
+      InInvertedIndex = false
+      IsColumn = true
+   typeInfo
+      type = UInt32
+      IsInnate = true
+```
+
+## <a name="remarks"></a>備註
+
+PKEY 值定義于 Propkey 中。
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[propertyDescription](./propdesc-schema-propertydescription.md)
+</dt> <dt>
+
+[searchInfo](./propdesc-schema-searchinfo.md)
+</dt> <dt>
+
+[labelInfo](./propdesc-schema-labelinfo.md)
+</dt> <dt>
+
+[typeInfo](./propdesc-schema-typeinfo.md)
+</dt> <dt>
+
+[displayInfo](./propdesc-schema-displayinfo.md)
+</dt> <dt>
+
+[stringFormat](./propdesc-schema-stringformat.md)
+</dt> <dt>
+
+[booleanFormat](./propdesc-schema-booleanformat.md)
+</dt> <dt>
+
+[>cultureinfo.numberformat](./propdesc-schema-numberformat.md)
+</dt> <dt>
+
+[dateTimeFormat](./propdesc-schema-datetimeformat.md)
+</dt> <dt>
+
+[enumeratedList](./propdesc-schema-enumeratedlist.md)
+</dt> <dt>
+
+[drawControl](./propdesc-schema-drawcontrol.md)
+</dt> <dt>
+
+[editControl](./propdesc-schema-editcontrol.md)
+</dt> <dt>
+
+[filterControl](./propdesc-schema-filtercontrol.md)
+</dt> <dt>
+
+[queryControl](./propdesc-schema-querycontrol.md)
+</dt> </dl>
+
+ 
+
+ 
