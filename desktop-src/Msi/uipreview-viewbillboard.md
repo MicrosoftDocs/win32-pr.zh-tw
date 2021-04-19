@@ -1,0 +1,79 @@
+---
+description: UIPreview 物件的 ViewBillboard 方法會使用目前顯示之對話方塊中的主控制項來顯示撰寫的佈告欄。
+ms.assetid: c51c1a5b-af53-47a8-9281-e790efadcfc4
+title: UIPreview. ViewBillboard 方法
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- UIPreview.ViewBillboard
+api_type:
+- COM
+api_location:
+- Msi.dll
+ms.openlocfilehash: 9cf1c6ee2a47fdb246fcc847627bb63432b8a67f
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106990209"
+---
+# <a name="uipreviewviewbillboard-method"></a>UIPreview. ViewBillboard 方法
+
+[**UIPreview**](uipreview-object.md)物件的 **ViewBillboard** 方法會使用目前顯示之對話方塊中的主控制項來顯示撰寫的佈告欄。
+
+## <a name="syntax"></a>語法
+
+
+```JScript
+UIPreview.ViewBillboard(
+  control,
+  billboard
+)
+```
+
+
+
+## <a name="parameters"></a>參數
+
+<dl> <dt>
+
+*control* 
+</dt> <dd>
+
+裝載佈告欄、區分大小寫、以及控制項資料庫資料表之主鍵的控制項所需的名稱。
+
+</dd> <dt>
+
+*廣告 牌* 
+</dt> <dd>
+
+使用指定的控制項和目前的對話方塊，以及佈告欄資料庫資料表的主鍵，所要顯示的佈告欄的必要名稱。
+
+</dd> </dl>
+
+## <a name="return-value"></a>傳回值
+
+這個方法不會傳回值。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
+| IID<br/>     | IID \_ IUIPreview 定義為 000C109A-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
+
+
+
+ 
+
+ 
+
+
+
+

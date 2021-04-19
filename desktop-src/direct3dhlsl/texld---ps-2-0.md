@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b71990e230290403bca2a5af11eeca11b093402f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 47f47a937123ce252189aac57e922b10c2a015fc
+ms.sourcegitcommit: 8737f32d64e5f01c1d38aab92736e4088d6c446e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507980"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "106984492"
 ---
 # <a name="texld---ps_2_0-and-up"></a>texld-ps \_ 2 \_ 0 和更新的
 
@@ -29,7 +29,7 @@ ms.locfileid: "104507980"
 
 
 
- 
+ 
 
 其中：
 
@@ -54,7 +54,7 @@ src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-s
 
 ### <a name="ps_3_0"></a>ps \_ 3 \_ 0
 
-src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-sampler.md) (s \#) ，沒有修飾詞的取樣器。 Swizzle 可在 src0 或 src1 上使用。 Swizzle 會在紋理查閱之前套用至材質 coordintates。
+src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-sampler.md) (s \#) ，沒有修飾詞的取樣器。 Swizzle 可在 src0 或 src1 上使用。 Swizzle 會在紋理查閱之前套用至材質座標。
 
 ## <a name="remarks"></a>備註
 
@@ -68,7 +68,7 @@ src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-s
 
 
 
- 
+ 
 
 Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以及 w 元件。 取樣器型別是以 [dcl \_ samplerType 宣告 (sm2、sm3 ps asm) ](dcl-samplertype---ps.md)。 如果 src1 宣告為2D 取樣器，則 src0 必須包含 xy 座標;如果 src1 宣告為 cube 取樣器或磁片區取樣器，則 src0 必須包含 xyz 座標。 因為已忽略額外的材質座標元件 () ，所以允許取樣的維度數量少於材質座標中的材質。
 
@@ -86,7 +86,7 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,6 +95,6 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 計算著色器是可程式化的著色器階段，可將 Microsoft
 ms.assetid: 02c1f98e-fdd6-49b0-b8b2-efbd472ab599
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67c890e63b468a993e0d08f678d2276d6ce2adad
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 485e83ab965f14342d235a07810f210e18aadc53
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "103684221"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222866"
 ---
 # <a name="compute-shader-overview"></a>計算著色器總覽
 
@@ -30,7 +30,7 @@ Microsoft Direct3D 10 上的計算著色器也稱為 DirectCompute 4.x。
 -   只有一個未排序的存取權可系結至著色器 (D3D11 \_ CS \_ 4 \_ X \_ UAV \_ REGISTER \_ COUNT 是 1) 。
 -   只有 [RWStructuredBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwstructuredbuffer)s 和 [RWByteAddressBuffer](/windows/desktop/direct3dhlsl/sm5-object-rwbyteaddressbuffer)可以作為未排序存取的視圖。
 -   執行緒只能在 groupshared 記憶體中存取自己的區域以進行寫入，不過它可以讀取任何位置。
--   [SV \_](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85))存取 **groupshared** 記憶體以進行寫入時，必須使用 GroupIndex 或 [SV \_ DispatchThreadID](/windows/desktop/direct3dhlsl/sv-dispatchthreadid) 。
+-   [SV \_](/previous-versions/windows/desktop/legacy/ff471569(v=vs.85))存取 **groupshared** 記憶體以進行寫入時，必須使用 GroupIndex 或 [SV \_ GroupThreadID](/windows/desktop/direct3dhlsl/sv-groupthreadid) 。
 -   **Groupshared** 記憶體限制為每個群組的16KB。
 -   單一線程受限於 **groupshared** 記憶體的256位元組區域以進行寫入。
 -   沒有可部分完成的指示。
