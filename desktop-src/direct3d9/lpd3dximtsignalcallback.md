@@ -1,0 +1,72 @@
+---
+description: D3DXComputeIMTFromSignal 用來描述輸入網格 u、v 空間中使用者定義信號的函式原型。 函式會在提供的 u、v 座標上評估維度 uSignalDimension 的程式性信號。
+ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
+title: LPD3DXIMTSIGNALCALLBACK
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: aebf9250be6fcc878d920816a81782e8ece87ec4
+ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "106972294"
+---
+# <a name="lpd3dximtsignalcallback"></a>LPD3DXIMTSIGNALCALLBACK
+
+[**D3DXComputeIMTFromSignal**](d3dxcomputeimtfromsignal.md)用來描述輸入網格 u、v 空間中使用者定義信號的函式原型。 函式會在提供的 u、v 座標上評估維度 uSignalDimension 的程式性信號。
+
+## <a name="syntax"></a>語法
+
+
+```
+typedef HRESULT (WINAPI* LPD3DXIMTSIGNALCALLBACK)
+     (CONST D3DXVECTOR2 *uv,
+      UINT uPrimitiveID,
+      UINT uSignalDimension,
+      VOID *pUserData,
+      FLOAT *pfSignalOut);
+```
+
+
+
+## <a name="parameters"></a>參數
+
+\[在 \] uv-包含頂點材質座標的向量指標。
+
+\[在 \] uPrimitiveId 中-應計算其信號之網格上的輸入三角形索引。
+
+\[在 \] uSignalDimension 中-要儲存在信號資料陣列中的浮點數 (pfSignalOut) 。
+
+\[在 \] pUserData 中-傳遞至 [**D3DXComputeIMTFromSignal**](d3dxcomputeimtfromsignal.md)的 pUserData 指標。
+
+\[out \] pfSignalOut-浮點數的陣列，其中包含信號資料。
+
+## <a name="return-value"></a>傳回值
+
+必須實作為此函式，才能傳回 S \_ OK。
+
+## <a name="remarks"></a>備註
+
+宣告回呼函數時，請務必指定 [**Windows 資料類型**](../winprog/windows-data-types.md) 呼叫慣例。 否則，可能會發生堆疊溢位。
+
+
+
+|                |             |
+|----------------|-------------|
+| 標頭         | d3dx9mesh。h |
+| 匯入程式庫 | d3dx9 .lib   |
+
+
+
+ 
+
+## <a name="related-topics"></a>相關主題
+
+<dl> <dt>
+
+[回呼函式](dx9-graphics-reference-d3dx-callback-functions.md)
+</dt> </dl>
+
+ 
+
+ 
