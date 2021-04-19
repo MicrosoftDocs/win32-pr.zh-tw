@@ -1,6 +1,6 @@
 ---
-title: SampleBias：： SampleBias (S，float，float，float) 函數
-description: 將偏差值套用至 mipmap 層級之後，將材質取樣，並使用選擇性的值來壓 (」 LOD) 值到的範例詳細層級。 |SampleBias：： SampleBias (S，float，float，float) 函數
+title: SampleBias：： SampleBias (S，float，float，float) function for TextureCube
+description: 將偏差值套用至 mipmap 層級之後，TextureCube 範例的 SampleBias：： SampleBias (S、float、float、float) 函數會進行紋理取樣。
 ms.assetid: BCDDADD9-D8B0-47C9-A312-5E6AF9C3C07B
 keywords:
 - SampleBias 函式 HLSL
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ae1c14903748f53d9890ff1a4dd9bd806caececf
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 55404f2e32f45e5b19e7b0cd4c109a6d5a8bcc13
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035295"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106993702"
 ---
-# <a name="samplebiassamplebiassfloatfloatfloat-function"></a>SampleBias：： SampleBias (S，float，float，float) 函數
+# <a name="samplebiassamplebiassfloatfloatfloat-function-for-texturecube"></a>SampleBias：： SampleBias (S，float，float，float) function for TextureCube
 
 將偏差值套用至 mipmap 層級之後，將材質取樣，並使用選擇性的值來壓 (」 LOD) 值到的範例詳細層級。
 
