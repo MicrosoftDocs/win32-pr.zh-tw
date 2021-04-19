@@ -1,0 +1,52 @@
+---
+description: 資源管理員
+ms.assetid: c717b731-cf0b-45cb-bbff-695410fcf6ce
+title: 資源管理員
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 1b2ea9b1cd834daf3bfbca49bf37d3f2c0956344
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106986895"
+---
+# <a name="resource-managers"></a><span data-ttu-id="ba127-103">資源管理員</span><span class="sxs-lookup"><span data-stu-id="ba127-103">Resource Managers</span></span>
+
+<span data-ttu-id="ba127-104">資源管理員會使用交易管理員記錄來追蹤交易狀態。</span><span class="sxs-lookup"><span data-stu-id="ba127-104">A resource manager uses the transaction manager log to track the transaction state.</span></span> <span data-ttu-id="ba127-105">資源管理員在處理交易時的動作如下：</span><span class="sxs-lookup"><span data-stu-id="ba127-105">The resource manager's action when processing a transaction is as follows:</span></span>
+
+-   <span data-ttu-id="ba127-106">用戶端會明確將交易傳遞給 RM。</span><span class="sxs-lookup"><span data-stu-id="ba127-106">The client passes a transaction to the RM explicitly.</span></span>
+-   <span data-ttu-id="ba127-107">RM 會使用 [**CreateEnlistment**](/windows/desktop/api/KtmW32/nf-ktmw32-createenlistment)在交易中登記。</span><span class="sxs-lookup"><span data-stu-id="ba127-107">The RM enlists in the transaction using [**CreateEnlistment**](/windows/desktop/api/KtmW32/nf-ktmw32-createenlistment).</span></span>
+-   <span data-ttu-id="ba127-108">然後，使用者可以繼續執行任何操作。</span><span class="sxs-lookup"><span data-stu-id="ba127-108">The user can then proceed to perform any operation.</span></span>
+-   <span data-ttu-id="ba127-109">當使用者呼叫 CommitTransaction 時，KTM 會將準備 \_ 交易通知傳送至 RM。</span><span class="sxs-lookup"><span data-stu-id="ba127-109">When the user calls CommitTransaction, KTM sends a PREPARE\_TRANSACTION notification to the RM.</span></span> <span data-ttu-id="ba127-110">此時，RM 會將認可交易所需的任何變更排清至磁片，但可能會失敗。</span><span class="sxs-lookup"><span data-stu-id="ba127-110">At this point, the RM flushes to disk any changes that would be necessary to commit the transaction, but could fail.</span></span> <span data-ttu-id="ba127-111">如果這些作業成功，RM 會藉由呼叫 [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete)來指示它已完成準備作業。</span><span class="sxs-lookup"><span data-stu-id="ba127-111">If these operations succeed, the RM signals that it is finished with the prepare operation by calling [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete).</span></span> <span data-ttu-id="ba127-112">如果這些作業失敗，RM 會藉由呼叫 [**RollBackEnlistment**](/windows/desktop/api/Ktmw32/nf-ktmw32-rollbackenlistment)來回應。</span><span class="sxs-lookup"><span data-stu-id="ba127-112">If these operations fail, the RM responds by calling [**RollBackEnlistment**](/windows/desktop/api/Ktmw32/nf-ktmw32-rollbackenlistment).</span></span>
+-   <span data-ttu-id="ba127-113">資源管理員會收到準備通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-113">The resource manager receives a prepare notification.</span></span>
+-   <span data-ttu-id="ba127-114">資源管理員會將任何與交易相關聯的資料排清至其一般記錄服務記錄檔。</span><span class="sxs-lookup"><span data-stu-id="ba127-114">The resource manager flushes any data associated with the transaction to its Common Log Services log file.</span></span>
+-   <span data-ttu-id="ba127-115">資源管理員會呼叫 [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete) 函數，並等候接收來自 KTM 的交易結果。</span><span class="sxs-lookup"><span data-stu-id="ba127-115">The resource manager calls the [**PrepareComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete) function and awaits to receive the transaction's outcome from the KTM.</span></span>
+-   <span data-ttu-id="ba127-116">視交易的結果而定，資源管理員會收到認可或回復通知事件。</span><span class="sxs-lookup"><span data-stu-id="ba127-116">Depending on the outcome of the transaction, the resource manager receives a commit or rollback notification event.</span></span> <span data-ttu-id="ba127-117">如果 resource manager 收到認可通知，它會進行永久變更，並藉由呼叫 [**CommitComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-commitcomplete) 函式來通知 KTM。</span><span class="sxs-lookup"><span data-stu-id="ba127-117">If the resource manager receives a commit notification, it makes the changes permanent and informs the KTM by calling the [**CommitComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-commitcomplete) function.</span></span> <span data-ttu-id="ba127-118">如果資源管理員收到復原通知，它會捨棄所有變更，並還原為任何交易變更之前存在的狀態，並藉由呼叫 [**RollbackComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-rollbackcomplete)來通知 KTM。</span><span class="sxs-lookup"><span data-stu-id="ba127-118">If the resource manager receives a rollback notification, it discards all changes and reverts to the state that existed before any of the transacted changes and informs the KTM by calling [**RollbackComplete**](/windows/desktop/api/Ktmw32/nf-ktmw32-rollbackcomplete).</span></span>
+
+## <a name="resource-manager-functions"></a><span data-ttu-id="ba127-119">Resource Manager 函式</span><span class="sxs-lookup"><span data-stu-id="ba127-119">Resource Manager Functions</span></span>
+
+<span data-ttu-id="ba127-120">下列函式會與資源管理員搭配使用。</span><span class="sxs-lookup"><span data-stu-id="ba127-120">The following functions are used with resource managers.</span></span>
+
+
+
+| <span data-ttu-id="ba127-121">函式</span><span class="sxs-lookup"><span data-stu-id="ba127-121">Function</span></span>                                                                           | <span data-ttu-id="ba127-122">描述</span><span class="sxs-lookup"><span data-stu-id="ba127-122">Description</span></span>                                                                                                                                                                      |
+|------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="ba127-123">**CreateResourceManager**</span><span class="sxs-lookup"><span data-stu-id="ba127-123">**CreateResourceManager**</span></span>](/windows/desktop/api/Ktmw32/nf-ktmw32-createresourcemanager)                             | <span data-ttu-id="ba127-124">建立新的資源管理員 (RM) 物件，並將 RM 與交易管理員 (TM) 建立關聯。</span><span class="sxs-lookup"><span data-stu-id="ba127-124">Creates a new resource manager (RM) object, and associates the RM with a transaction manager (TM).</span></span>                                                                               |
+| [<span data-ttu-id="ba127-125">**GetNotificationResourceManager**</span><span class="sxs-lookup"><span data-stu-id="ba127-125">**GetNotificationResourceManager**</span></span>](/windows/desktop/api/KtmW32/nf-ktmw32-getnotificationresourcemanager)           | <span data-ttu-id="ba127-126">要求和接收資源管理員 (RM) 的通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-126">Requests and receives a notification for a resource manager (RM).</span></span> <span data-ttu-id="ba127-127">RM 註冊程式會使用此函式來接收交易變更狀態時的通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-127">This function is used by the RM register to receive notifications when a transaction changes state.</span></span>            |
+| [<span data-ttu-id="ba127-128">**GetNotificationResourceManagerAsync**</span><span class="sxs-lookup"><span data-stu-id="ba127-128">**GetNotificationResourceManagerAsync**</span></span>](/windows/desktop/api/KtmW32/nf-ktmw32-getnotificationresourcemanagerasync) | <span data-ttu-id="ba127-129">要求和接收資源管理員 (RM) 的非同步通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-129">Requests and receives asynchronous notification for a resource manager (RM).</span></span> <span data-ttu-id="ba127-130">RM 註冊程式會使用此函式來接收交易變更狀態時的通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-130">This function is used by the RM register to receive notifications when a transaction changes state.</span></span> |
+| [<span data-ttu-id="ba127-131">**OpenResourceManager**</span><span class="sxs-lookup"><span data-stu-id="ba127-131">**OpenResourceManager**</span></span>](/windows/desktop/api/Ktmw32/nf-ktmw32-openresourcemanager)                                 | <span data-ttu-id="ba127-132">開啟現有的資源管理員 (RM) 。</span><span class="sxs-lookup"><span data-stu-id="ba127-132">Opens an existing resource manager (RM).</span></span>                                                                                                                                         |
+| [<span data-ttu-id="ba127-133">**PrepareComplete**</span><span class="sxs-lookup"><span data-stu-id="ba127-133">**PrepareComplete**</span></span>](/windows/desktop/api/Ktmw32/nf-ktmw32-preparecomplete)                                         | <span data-ttu-id="ba127-134">指出資源管理員 (RM) 已完成所有必要的處理，以保證指定交易的認可或中止作業將會成功。</span><span class="sxs-lookup"><span data-stu-id="ba127-134">Indicates that the resource manager (RM) has completed all processing necessary to guarantee that a commit or abort operation will succeed for the specified transaction.</span></span>        |
+| [<span data-ttu-id="ba127-135">**PrePrepareComplete**</span><span class="sxs-lookup"><span data-stu-id="ba127-135">**PrePrepareComplete**</span></span>](/windows/desktop/api/Ktmw32/nf-ktmw32-prepreparecomplete)                                   | <span data-ttu-id="ba127-136">表示此 resource manager 已完成其 preprepare 工作，讓其他資源管理員現在可以開始進行準備作業。</span><span class="sxs-lookup"><span data-stu-id="ba127-136">Signals that this resource manager has completed its preprepare work, so that other resource managers can now begin their prepare operations.</span></span>                                    |
+| [<span data-ttu-id="ba127-137">**SetResourceManagerCompletionPort**</span><span class="sxs-lookup"><span data-stu-id="ba127-137">**SetResourceManagerCompletionPort**</span></span>](/windows/desktop/api/Ktmw32/nf-ktmw32-setresourcemanagercompletionport)       | <span data-ttu-id="ba127-138">將指定的 i/o 完成埠與指定的資源管理員 (RM) 產生關聯。</span><span class="sxs-lookup"><span data-stu-id="ba127-138">Associates the specified I/O completion port with the specified resource manager (RM).</span></span> <span data-ttu-id="ba127-139">此埠會接收所有適用于 RM 的通知。</span><span class="sxs-lookup"><span data-stu-id="ba127-139">This port receives all notifications for the RM.</span></span>                                          |
+
+
+
+ 
+
+ 
+
+ 
+
+
+

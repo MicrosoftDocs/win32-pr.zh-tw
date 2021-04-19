@@ -1,0 +1,49 @@
+---
+description: 列出向量比較函數。
+ms.assetid: 8caad40f-ab8e-db2f-da11-18f3d3ccf6ef
+title: 向量比較函數
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: 7a283c9c6510fba76f82e7c5de0741021008aac1
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106980744"
+---
+# <a name="vector-comparison-functions"></a><span data-ttu-id="f374a-103">向量比較函數</span><span class="sxs-lookup"><span data-stu-id="f374a-103">Vector comparison functions</span></span>
+
+<span data-ttu-id="f374a-104">列出向量比較函數。</span><span class="sxs-lookup"><span data-stu-id="f374a-104">Lists the vector comparison functions.</span></span>
+
+## <a name="in-this-section"></a><span data-ttu-id="f374a-105">本節內容</span><span class="sxs-lookup"><span data-stu-id="f374a-105">In this section</span></span>
+
+
+
+| <span data-ttu-id="f374a-106">主題</span><span class="sxs-lookup"><span data-stu-id="f374a-106">Topic</span></span>                                                                 | <span data-ttu-id="f374a-107">描述</span><span class="sxs-lookup"><span data-stu-id="f374a-107">Description</span></span>                                                                                                                                                                                                                                                               |
+|-----------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="f374a-108">**XMVectorEqual**</span><span class="sxs-lookup"><span data-stu-id="f374a-108">**XMVectorEqual**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorequal)<br/>                     | <span data-ttu-id="f374a-109">針對兩個向量是否相等執行每個元件的測試。</span><span class="sxs-lookup"><span data-stu-id="f374a-109">Performs a per-component test for equality of two vectors.</span></span><br/>                                                                                                                                                                                                     |
+| [<span data-ttu-id="f374a-110">**XMVectorEqualInt**</span><span class="sxs-lookup"><span data-stu-id="f374a-110">**XMVectorEqualInt**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorequalint)<br/>               | <span data-ttu-id="f374a-111">針對兩個向量是否相等執行每個元件的測試，並將每個元件視為不帶正負號的整數。</span><span class="sxs-lookup"><span data-stu-id="f374a-111">Performs a per-component test for the equality of two vectors, treating each component as an unsigned integer.</span></span><br/>                                                                                                                                                 |
+| [<span data-ttu-id="f374a-112">**XMVectorEqualIntR**</span><span class="sxs-lookup"><span data-stu-id="f374a-112">**XMVectorEqualIntR**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorequalintr)<br/>             | <span data-ttu-id="f374a-113">針對兩個向量的相等執行每個元件的測試，將每個元件視為不帶正負號的整數。</span><span class="sxs-lookup"><span data-stu-id="f374a-113">Performs a per-component test for equality of two vectors, treating each component as an unsigned integer.</span></span> <span data-ttu-id="f374a-114">此外，此函式會設定可使用 [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue)等函數檢查的比較值。</span><span class="sxs-lookup"><span data-stu-id="f374a-114">In addition, this function sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).</span></span><br/> |
+| [<span data-ttu-id="f374a-115">**XMVectorEqualR**</span><span class="sxs-lookup"><span data-stu-id="f374a-115">**XMVectorEqualR**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorequalr)<br/>                   | <span data-ttu-id="f374a-116">針對兩個向量的相等執行每個元件的測試，並設定可使用 [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue)等函數檢查的比較值。</span><span class="sxs-lookup"><span data-stu-id="f374a-116">Performs a per-component test for equality of two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).</span></span><br/>                                                                         |
+| [<span data-ttu-id="f374a-117">**XMVectorGreater**</span><span class="sxs-lookup"><span data-stu-id="f374a-117">**XMVectorGreater**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorgreater)<br/>                 | <span data-ttu-id="f374a-118">針對兩個向量之間的大於，執行每個元件的測試。</span><span class="sxs-lookup"><span data-stu-id="f374a-118">Performs a per-component test for greater-than between two vectors.</span></span><br/>                                                                                                                                                                                            |
+| [<span data-ttu-id="f374a-119">**XMVectorGreaterOrEqual**</span><span class="sxs-lookup"><span data-stu-id="f374a-119">**XMVectorGreaterOrEqual**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorgreaterorequal)<br/>   | <span data-ttu-id="f374a-120">針對兩個向量之間的大於或等於執行每個元件的測試。</span><span class="sxs-lookup"><span data-stu-id="f374a-120">Performs a per-component test for greater-than-or-equal between two vectors.</span></span><br/>                                                                                                                                                                                   |
+| [<span data-ttu-id="f374a-121">**XMVectorGreaterOrEqualR**</span><span class="sxs-lookup"><span data-stu-id="f374a-121">**XMVectorGreaterOrEqualR**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorgreaterorequalr)<br/> | <span data-ttu-id="f374a-122">針對兩個向量之間的大於或等於執行每個元件的測試，並設定可使用 [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue)等函數檢查的比較值。</span><span class="sxs-lookup"><span data-stu-id="f374a-122">Performs a per-component test for greater-than-or-equal between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).</span></span><br/>                                                       |
+| [<span data-ttu-id="f374a-123">**XMVectorGreaterR**</span><span class="sxs-lookup"><span data-stu-id="f374a-123">**XMVectorGreaterR**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorgreaterr)<br/>               | <span data-ttu-id="f374a-124">執行每個元件的測試，使其大於兩個向量，並設定可使用 [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue)等函數檢查的比較值。</span><span class="sxs-lookup"><span data-stu-id="f374a-124">Performs a per-component test for greater-than between two vectors and sets a comparison value that can be examined using functions such as [**XMComparisonAllTrue**](/windows/desktop/api/DirectXMath/nf-directxmath-xmcomparisonalltrue).</span></span><br/>                                                                |
+| [<span data-ttu-id="f374a-125">**XMVectorLess**</span><span class="sxs-lookup"><span data-stu-id="f374a-125">**XMVectorLess**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorless)<br/>                       | <span data-ttu-id="f374a-126">針對兩個向量之間的小於，執行每個元件的測試。</span><span class="sxs-lookup"><span data-stu-id="f374a-126">Performs a per-component test for less-than between two vectors.</span></span><br/>                                                                                                                                                                                               |
+| [<span data-ttu-id="f374a-127">**XMVectorLessOrEqual**</span><span class="sxs-lookup"><span data-stu-id="f374a-127">**XMVectorLessOrEqual**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectorlessorequal)<br/>         | <span data-ttu-id="f374a-128">針對兩個向量之間的小於或等於執行每個元件的測試。</span><span class="sxs-lookup"><span data-stu-id="f374a-128">Performs a per-component test for less-than-or-equal between two vectors.</span></span><br/>                                                                                                                                                                                      |
+| [<span data-ttu-id="f374a-129">**XMVectorNearEqual**</span><span class="sxs-lookup"><span data-stu-id="f374a-129">**XMVectorNearEqual**</span></span>](/windows/win32/api/directxmath/nf-directxmath-xmvectornearequal)<br/>             | <span data-ttu-id="f374a-130">執行每個元件的測試是否等於指定閾值內的兩個向量。</span><span class="sxs-lookup"><span data-stu-id="f374a-130">Performs a per-component test for equality of two vectors within a given threshold.</span></span> <br/>                                                                                                                                                                           |
+
+
+
+ 
+
+## <a name="related-topics"></a><span data-ttu-id="f374a-131">相關主題</span><span class="sxs-lookup"><span data-stu-id="f374a-131">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="f374a-132">DirectXMath 程式庫向量函數</span><span class="sxs-lookup"><span data-stu-id="f374a-132">DirectXMath Library Vector Functions</span></span>](ovw-xnamath-reference-functions-vector.md)
+</dt> </dl>
+
+ 
+
+ 
