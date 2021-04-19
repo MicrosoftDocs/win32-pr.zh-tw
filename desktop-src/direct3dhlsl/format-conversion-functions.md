@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2842236bfd0a2875576af7235aefa5dce2db8bd6
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
-ms.translationtype: HT
+ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104990867"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222876"
 ---
 # <a name="format-conversion-functions-hlsl-reference"></a>格式轉換函數 (HLSL 參考) 
 
@@ -22,6 +22,8 @@ ms.locfileid: "104990867"
 
 -   [轉換器函式](#converter-functions)
 -   [相關主題](#related-topics)
+
+> .Inl 標頭隨附于舊版 DirectX SDK，並依賴 XNAMath 來支援 c + + 支援。 D3DX_DXGIFormatConvert 它也包含在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中。 最新版本使用 DirectXMath 進行 c + + 支援，而所有函式都定義于 **DirectX** c + + 命名空間中。
 
 ## <a name="converter-functions"></a>轉換器函式
 
@@ -166,10 +168,6 @@ ms.locfileid: "104990867"
 [\_針對 In-Place 影像編輯解壓縮和封裝 DXGI 格式](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
-
-
-
-
+ 
