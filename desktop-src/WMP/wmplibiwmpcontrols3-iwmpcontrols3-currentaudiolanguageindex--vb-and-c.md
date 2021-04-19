@@ -1,0 +1,98 @@
+---
+title: IWMPControls3 currentAudioLanguageIndex 屬性
+description: CurrentAudioLanguageIndex 屬性會取得或設定對應至播放音訊語言的單一索引。
+ms.assetid: 3ed60827-c4e9-4455-b95e-b6eebf7a9a08
+keywords:
+- currentAudioLanguageIndex 屬性 Windows Media Player
+- currentAudioLanguageIndex 屬性 Windows Media Player，IWMPControls3 介面
+- IWMPControls3 介面 Windows Media Player，currentAudioLanguageIndex 屬性
+topic_type:
+- apiref
+api_name:
+- IWMPControls3.currentAudioLanguageIndex
+api_location:
+- Interop.WMPLib.dll
+api_type:
+- COM
+ms.topic: reference
+ms.date: 05/31/2018
+ms.openlocfilehash: f4fb36eea4038322cacd7f233892151ab77e5eea
+ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "106980203"
+---
+# <a name="iwmpcontrols3currentaudiolanguageindex-property"></a>IWMPControls3：： currentAudioLanguageIndex 屬性
+
+**CurrentAudioLanguageIndex** 屬性會取得或設定對應至播放音訊語言的單一索引。
+
+## <a name="syntax"></a>Syntax
+
+
+```CSharp
+public System.Int32 currentAudioLanguageIndex {get; set;}
+```
+
+
+```VB
+
+Public Property currentAudioLanguageIndex As System.Int32
+```
+
+
+
+
+
+## <a name="property-value"></a>屬性值
+
+以一為基礎的語言索引的 **system.object** 。
+
+## <a name="remarks"></a>備註
+
+針對以 Windows Media 為基礎的內容，與語言選取相關的屬性和方法只支援單一輸出。
+
+使用 **audioLanguageCount** 屬性來取得支援的音訊語言數目。
+
+## <a name="requirements"></a>規格需求
+
+
+
+| 需求 | 值 |
+|----------------------|------------------------------------------------------------------------------------------------------------------------|
+| 版本<br/>   | Windows Media Player 9 系列或更新版本<br/>                                                                      |
+| 命名空間<br/> | **WMPLib**<br/>                                                                                                  |
+| 組件<br/>  | <dl> <dt>Interop.WMPLib.dll (Interop.WMPLib.dll.dll) </dt> </dl> |
+
+
+
+## <a name="see-also"></a>另請參閱
+
+<dl> <dt>
+
+[**IWMPControls3 介面 (VB 和 c # )**](iwmpcontrols3--vb-and-c.md)
+</dt> <dt>
+
+[**IWMPControls3. audioLanguageCount (VB 和 c # )**](wmplibiwmpcontrols3-iwmpcontrols3-audiolanguagecount--vb-and-c.md)
+</dt> <dt>
+
+[**IWMPControls3. currentAudioLanguage (VB 和 c # )**](wmplibiwmpcontrols3-iwmpcontrols3-currentaudiolanguage--vb-and-c.md)
+</dt> <dt>
+
+[**IWMPControls3. getAudioLanguageDescription (VB 和 c # )**](wmplibiwmpcontrols3-iwmpcontrols3-getaudiolanguagedescription--vb-and-c.md)
+</dt> <dt>
+
+[**IWMPControls3. getAudioLanguageID (VB 和 c # )**](wmplibiwmpcontrols3-iwmpcontrols3-getaudiolanguageid--vb-and-c.md)
+</dt> <dt>
+
+[**IWMPControls3. getLanguageName (VB 和 c # )**](wmplibiwmpcontrols3-iwmpcontrols3-getlanguagename--vb-and-c.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
+
