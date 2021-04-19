@@ -5,12 +5,12 @@ ms.assetid: 399F5E91-B017-4F5E-9037-DC055407D96F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 236876e22c3e1e0bb849ec1e1bc7d45692c900d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2dad0da9f84d68fc1acbf53332d1cae4075f0faa
+ms.sourcegitcommit: 91110c16e4713ed82d7fb80562d3ddf40b5d76b2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548353"
+ms.lasthandoff: 04/14/2021
+ms.locfileid: "107492280"
 ---
 # <a name="specifying-root-signatures-in-hlsl"></a>在 HLSL 中指定根簽章
 
@@ -59,6 +59,15 @@ ms.locfileid: "104548353"
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
 
+這項定義會提供下列根簽章，請注意：
+
+-   使用預設參數。
+-   b0 和 (b0，space = 1) 不會衝突
+-   只有幾何著色器可以看到 u0
+-   u4 和 u5 的別名為堆積中的相同描述元
+
+![使用高階著色器語言指定的根簽章](images/hlsl-root-signature.png)
+
 ### <a name="root-signature-version-11"></a>根簽章版本1。1
 
 [根簽章版本 1.1](root-signature-version-1-1.md) 可針對根簽章描述元和資料啟用驅動程式優化。
@@ -81,15 +90,6 @@ ms.locfileid: "104548353"
                              "addressU = TEXTURE_ADDRESS_CLAMP, " \
                              "filter = FILTER_MIN_MAG_MIP_LINEAR )"
 ```
-
-這項定義會提供下列根簽章，請注意：
-
--   使用預設參數。
--   b0 和 (b0，space = 1) 不會衝突
--   只有幾何著色器可以看到 u0
--   u4 和 u5 的別名為堆積中的相同描述元
-
-![使用高階著色器語言指定的根簽章](images/hlsl-root-signature.png)
 
 HLSL 根簽章語言會與 c + + 根簽章 Api 緊密對應，且具有相當的表達能力。 根簽章會指定為一系列的子句，並以逗號分隔。 子句順序很重要，因為剖析的順序會決定根簽章中的位置位置。 每個子句都接受一個或多個具名引數。 但參數的順序並不重要。
 
@@ -297,21 +297,21 @@ FXC.EXE 編譯器會從 HLSL 來源檔案建立著色器位元組程式碼。 �
 
 
 
- 
+ 
 
-透過 FXC.EXE 提供的功能也可透過程式設計的方式使用 [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) 函式。 此呼叫會使用根簽章或獨立的根簽章來編譯著色器 (設定 rootsig \_ 1 \_ 0 目標) 。 [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) 和 [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) 可以解壓縮根簽章，並將其附加至現有的 blob。D3D \_ blob \_ 根簽章 \_ 用來指定根簽章 blob 元件類型。 [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) 會使用 \_ \_ 從 blob) 的 D3DCOMPILER 帶根簽章旗標， (移除根簽章 \_ 。
+透過 FXC.EXE 提供的功能也可透過程式設計的方式使用 [**D3DCompile**](/windows/desktop/direct3dhlsl/d3dcompile) 函式。 此呼叫會使用根簽章或獨立的根簽章來編譯著色器 (設定 rootsig \_ 1 \_ 0 目標) 。 [**D3DGetBlobPart**](/windows/desktop/direct3dhlsl/d3dgetblobpart) 和 [**D3DSetBlobPart**](/windows/desktop/direct3dhlsl/d3dsetblobpart) 可以解壓縮根簽章，並將其附加至現有的 blob。  D3D \_ blob \_ 根簽章 \_ 用來指定根簽章 blob 元件類型。 [**D3DStripShader**](/windows/desktop/direct3dhlsl/d3dstripshader) 會使用 \_ \_ 從 blob) 的 D3DCOMPILER 帶根簽章旗標， (移除根簽章 \_ 。
 
 ## <a name="notes"></a>備註
 
 > [!Note]  
 > 雖然強烈建議您以離線編譯著色器，但如果著色器必須在執行時間編譯，請參閱 [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2)的備註。
 
- 
+ 
 
 > [!Note]  
 > 現有的 HLSL 資產不需要變更，即可處理要搭配它們使用的根簽章。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -341,6 +341,6 @@ FXC.EXE 編譯器會從 HLSL 來源檔案建立著色器位元組程式碼。 �
 [具類型的未排序存取視圖載入](typed-unordered-access-view-loads.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
