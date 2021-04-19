@@ -1,6 +1,6 @@
 ---
-title: SampleBias：： SampleBias (S，float，float，int，float) 函數
-description: 在將偏差值套用至 mipmap 層級之後，針對 Texture2D 進行取樣，並使用選擇性的值來壓入範例詳細資料層級 (」 LOD) 值為。
+title: Texture2D 的 SampleBias：： SampleBias (S、float、float、int、float) 函數
+description: 將偏差值套用至 mipmap 層級之後，SampleBias：： SampleBias (S、float、float、int、float) 函數會取樣 Texture2D。
 ms.assetid: 4E4A1188-DE45-4A43-B54D-4CA2E66707E3
 keywords:
 - SampleBias 函式 HLSL
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d91ce53da6dbf2c1e39f23967d1c1dc36085e764
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a34e6f2eb8211c0e4983d2d6a67f650d34c5dacf
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024394"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106990864"
 ---
-# <a name="samplebiassamplebiassfloatfloatintfloat-function"></a>SampleBias：： SampleBias (S，float，float，int，float) 函數
+# <a name="samplebiassamplebiassfloatfloatintfloat-function-for-texture2d"></a>Texture2D 的 SampleBias：： SampleBias (S、float、float、int、float) 函數
 
 在將偏差值套用至 mipmap 層級之後，針對 [**Texture2D**](sm5-object-texture2d.md)進行取樣，並使用選擇性的值來壓入範例詳細資料層級 (」 lod) 值為。
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73d14bd43ec3b75a2bf503b7d742b6c69881475b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00ec040a848b3103b4d5070541f025ab9cfb0cfa
+ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974440"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "107222826"
 ---
 # <a name="xmuint2-structure"></a>XMUINT2 結構
 
@@ -55,6 +55,14 @@ typedef struct _XMUINT2 {
 
 </dd> </dl>
 
+
+
+## <a name="remarks"></a>備註
+
+此結構定義于 ``D3DX\_DXGIFormatConvert.inl`` DIRECTX SDK 的標頭中， (2010 年6月) ，以從 c + + 使用。 在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中，此標頭的最新版本不會再定義它，而會改為依賴 DirectXMath 中的 [DIRECTX：： XMUINT2](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmuint2) 。
+
+
+
 ## <a name="requirements"></a>規格需求
 
 
@@ -74,12 +82,3 @@ typedef struct _XMUINT2 {
 
 [\_針對 In-Place 影像編輯解壓縮和封裝 DXGI 格式](dx-graphics-hlsl-unpacking-packing-dxgi-format.md)
 </dt> </dl>
-
- 
-
- 
-
-
-
-
-

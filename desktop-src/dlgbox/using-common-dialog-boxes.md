@@ -7,12 +7,12 @@ keywords:
 - 通用對話方塊，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a973fee7c8f7cd88abad3097edfc0349cc9118c1
-ms.sourcegitcommit: 56f8e4d5119e5018363fa2dc3472cdff203c6913
+ms.openlocfilehash: 773382a34b048e812a3fb093da0492b0c628fb14
+ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/19/2020
-ms.locfileid: "106968125"
+ms.lasthandoff: 04/17/2021
+ms.locfileid: "107590655"
 ---
 # <a name="using-common-dialog-boxes"></a>使用通用對話方塊
 
@@ -105,7 +105,7 @@ if (ChooseFont(&cf)==TRUE)
 ## <a name="opening-a-file"></a>開啟檔案
 
 > [!Note]  
-> 從 Windows Vista 開始，一般的 [檔案] 對話方塊會在用來開啟檔案時由 [一般專案] 對話方塊取代。 建議您使用通用專案對話方塊 API，而不是一般檔案對話 API。 如需詳細資訊，請參閱 [一般專案對話方塊](/previous-versions/windows/desktop/legacy/bb776913(v=vs.85))。
+> 從 Windows Vista 開始，一般的 [檔案] 對話方塊會在用來開啟檔案時由 [一般專案] 對話方塊取代。 建議您使用通用專案對話方塊 API，而不是一般檔案對話 API。 如需詳細資訊，請參閱 [一般專案對話方塊](/windows/win32/shell/common-file-dialog)。
 
  
 
