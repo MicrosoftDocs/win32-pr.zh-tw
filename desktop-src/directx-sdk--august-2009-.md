@@ -4,12 +4,12 @@ ms.assetid: d8765da9-e7cf-47e8-8bc3-4b29162da41b
 title: DirectX SDK 在哪裡？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd863bf29858f2313641aca161c73754b789015c
-ms.sourcegitcommit: b4beb606419fea6a256b8332a9ea930607e60612
+ms.openlocfilehash: c070313c5c7f6105afaf7b629ff1ca2618a469fb
+ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103945768"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "107314621"
 ---
 # <a name="where-is-the-directx-sdk"></a>DirectX SDK 在哪裡？
 
@@ -29,7 +29,7 @@ ms.locfileid: "103945768"
 <thead>
 <tr class="header">
 <th>技術或工具</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -101,7 +101,7 @@ Windows SDK 中提供 D3DCompiler API 和可轉散發 DLL。
 
  
 
-如有必要，可從 [Microsoft 下載中心](http://go.microsoft.com/fwlink/?LinkId=226640) 下載舊版 DirectX SDK，但不建議用於新專案。
+如有必要，可從 [Microsoft 下載中心](https://go.microsoft.com/fwlink/?LinkId=226640) 下載舊版 DirectX SDK，但不建議用於新專案。
 
 > [!Note]  
 > 如果您已安裝特定版本的 Visual C++ 2010 可轉散發套件，則無法安裝 DirectX SDK。 如需和修正此問題的解決方案的詳細資訊，請參閱 [ (2010 年6月) 安裝 DIRECTX SDK 時發生的「S1023」錯誤 ](https://support.microsoft.com/kb/2728613)。
