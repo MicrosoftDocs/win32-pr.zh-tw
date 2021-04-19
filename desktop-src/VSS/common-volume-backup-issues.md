@@ -1,0 +1,35 @@
+---
+description: 嘗試複製完整且穩定之系統映射的任何備份作業都必須處理下列問題：
+ms.assetid: 8ccdba6d-1097-4c1c-982c-f3d9cbdf06cd
+title: 一般磁片區備份問題
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 8f10433e0a695c11f7e61a258c3256baa651dc27
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106986610"
+---
+# <a name="common-volume-backup-issues"></a><span data-ttu-id="fdb76-103">一般磁片區備份問題</span><span class="sxs-lookup"><span data-stu-id="fdb76-103">Common Volume Backup Issues</span></span>
+
+<span data-ttu-id="fdb76-104">嘗試複製完整且穩定之系統映射的任何備份作業都必須處理下列問題：</span><span class="sxs-lookup"><span data-stu-id="fdb76-104">Any backup operation that attempts to copy a full and stable image of a system must deal with the following concerns:</span></span>
+
+-   <span data-ttu-id="fdb76-105">備份期間無法存取檔案。</span><span class="sxs-lookup"><span data-stu-id="fdb76-105">Inaccessible files during a backup.</span></span> <span data-ttu-id="fdb76-106">執行應用程式經常需要在備份期間讓檔案保持在獨佔模式中開啟，以防止備份程式複製這些檔案。</span><span class="sxs-lookup"><span data-stu-id="fdb76-106">Running applications frequently need to keep files open in exclusive mode during a backup, preventing backup programs from copying them.</span></span>
+-   <span data-ttu-id="fdb76-107">檔案狀態不一致。</span><span class="sxs-lookup"><span data-stu-id="fdb76-107">Inconsistent file state.</span></span> <span data-ttu-id="fdb76-108">即使應用程式未在獨佔模式中開啟它，也可能是因為開啟、備份和關閉檔案所需的有限時間，而複製到存放裝置媒體的檔案可能不會反映相同的應用程式狀態。</span><span class="sxs-lookup"><span data-stu-id="fdb76-108">Even if an application does not have its files open in exclusive mode, it is possible—because of the finite time needed to open, back up, and close a file—that files copied to storage media may not all reflect the same application state.</span></span>
+-   <span data-ttu-id="fdb76-109">需要將服務中斷降到最低。</span><span class="sxs-lookup"><span data-stu-id="fdb76-109">Need to minimize service interruptions.</span></span> <span data-ttu-id="fdb76-110">為了確保檔案可存取性以及所備份資料的完整性，可能需要在磁片區備份期間暫停及/或終止所有執行中的程式。</span><span class="sxs-lookup"><span data-stu-id="fdb76-110">To ensure file accessibility and the integrity of the data being backed up can require the suspension and/or termination of all running programs during a volume backup.</span></span> <span data-ttu-id="fdb76-111">對於大型磁片系統而言，這可能是以小時為單位的時間。</span><span class="sxs-lookup"><span data-stu-id="fdb76-111">For large disk systems, this could be hours in duration.</span></span>
+
+    <span data-ttu-id="fdb76-112">最近，某些存放裝置廠商會藉由提供大量捕獲機制，嘗試解決這些問題，這是一種在指定的瞬間，使用「分割鏡像」機制來捕捉磁片上檔案映射的方法。</span><span class="sxs-lookup"><span data-stu-id="fdb76-112">Recently, some storage vendors have attempted to address these problems by providing a volume capture mechanism—a means to capture an image of the files on disk at a given instant in time—using either a copy-on-write or "split mirror" mechanism.</span></span> <span data-ttu-id="fdb76-113">不過，這些解決方案需要自己的困難：</span><span class="sxs-lookup"><span data-stu-id="fdb76-113">However, these solutions entail difficulties of their own:</span></span>
+
+    -   <span data-ttu-id="fdb76-114">大量捕獲的廠商執行不相容。</span><span class="sxs-lookup"><span data-stu-id="fdb76-114">Incompatible vendor implementations of volume capture.</span></span> <span data-ttu-id="fdb76-115">許多 RAID 裝置提供者都提供大量捕獲機制。</span><span class="sxs-lookup"><span data-stu-id="fdb76-115">Many providers of RAID devices provide volume capture mechanisms.</span></span> <span data-ttu-id="fdb76-116">不過，每個廠商都有自己的介面，且每個廠商都必須從備份廠商取得其磁片區捕捉介面的支援。</span><span class="sxs-lookup"><span data-stu-id="fdb76-116">However, each vendor has its own interface and each must get support from the backup vendors for their volume capture interfaces.</span></span> <span data-ttu-id="fdb76-117">這表示備份應用程式廠商必須支援多個非必要的磁片區捕捉。</span><span class="sxs-lookup"><span data-stu-id="fdb76-117">This means that backup application vendors must support multiple volume capture implementations, which is undesirable.</span></span>
+    -   <span data-ttu-id="fdb76-118">缺乏應用程式協調。</span><span class="sxs-lookup"><span data-stu-id="fdb76-118">Lack of application coordination.</span></span> <span data-ttu-id="fdb76-119">許多支援大量捕獲的裝置並不支援在磁片上以資料凍結的方式來協調執行中的應用程式。</span><span class="sxs-lookup"><span data-stu-id="fdb76-119">Many devices that support a volume capture do not support the coordination of running applications with the freeze of data on disk.</span></span> <span data-ttu-id="fdb76-120">對於像備份應用程式一樣的裝置，每個廠商都有不同的介面。</span><span class="sxs-lookup"><span data-stu-id="fdb76-120">For those devices that do, as with the backup applications, each vendor has a different interface.</span></span>
+    -   <span data-ttu-id="fdb76-121">對非 RAID 裝置的有限支援。</span><span class="sxs-lookup"><span data-stu-id="fdb76-121">Limited support for non-RAID devices.</span></span> <span data-ttu-id="fdb76-122">如果有任何傳統的磁片廠商在其設備磁碟機中提供任何數量的磁片區捕獲支援，則有幾個。</span><span class="sxs-lookup"><span data-stu-id="fdb76-122">Few if any conventional disk vendors provide support for any sort of volume capture in their device drivers.</span></span> <span data-ttu-id="fdb76-123">這表示，捕捉機制僅限於特定磁片系統，且通常不支援系統區域的備份。</span><span class="sxs-lookup"><span data-stu-id="fdb76-123">This means that capture mechanisms are limited to certain disk systems, and cannot typically support the backup of system areas.</span></span>
+    -   <span data-ttu-id="fdb76-124">需要在磁片區捕獲期間處理磁片的更新。</span><span class="sxs-lookup"><span data-stu-id="fdb76-124">Need to handle updates to disk during volume capture.</span></span> <span data-ttu-id="fdb76-125">雖然存放裝置廠商提供的磁片區捕捉機制可以凍結磁片上的資料狀態，但它們不一定會與執行中的應用程式交互操作。</span><span class="sxs-lookup"><span data-stu-id="fdb76-125">Although storage-vendor-provided volume capture mechanisms can freeze the state of data on disk, they do not always interoperate with running applications.</span></span> <span data-ttu-id="fdb76-126">這通常表示當儲存裝置正在進行磁片區捕獲時，傳送至磁片區的資料可能會遺失。</span><span class="sxs-lookup"><span data-stu-id="fdb76-126">This frequently means that data sent to the volume while a storage device is undergoing volume capture may be lost.</span></span>
+    -   <span data-ttu-id="fdb76-127">一致的 multivolume 備份。</span><span class="sxs-lookup"><span data-stu-id="fdb76-127">Consistent multivolume backup.</span></span> <span data-ttu-id="fdb76-128">儲存體裝置會執行這些磁片區的捕獲，因此通常不會有協調資料凍結時間的機制。</span><span class="sxs-lookup"><span data-stu-id="fdb76-128">The storage device executes these volume captures, so there is generally no mechanism for coordinating the timing of the data freeze.</span></span> <span data-ttu-id="fdb76-129">如果裝置來自不同的廠商，則尤其如此。</span><span class="sxs-lookup"><span data-stu-id="fdb76-129">This is particularly true if the devices come from separate vendors.</span></span> <span data-ttu-id="fdb76-130">因此，如果有數個存放磁片區與磁片區捕捉進行備份，則每個磁片區保留的時間映射可能不一致。</span><span class="sxs-lookup"><span data-stu-id="fdb76-130">Therefore, if several storage volumes are involved in a backup with a volume capture, the time image preserved for each volume may not be consistent.</span></span>
+
+ 
+
+ 
+
+
+

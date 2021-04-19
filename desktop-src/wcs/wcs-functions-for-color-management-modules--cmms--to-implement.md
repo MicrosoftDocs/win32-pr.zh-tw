@@ -1,0 +1,71 @@
+---
+title: '色彩管理模組的 WCS 函式 (要執行的 Cmm) '
+description: 下列函式是由彩色管理模組執行 (Cmm) ，並針對作業系統進行匯出以供呼叫。
+ms.assetid: e05129ec-9128-44f0-82c7-f4e01536d7a8
+keywords:
+- Windows Color System (WCS) ，函數
+- WCS (Windows 色彩系統) ，函數
+- 影像色彩管理，函數
+- 色彩管理，函數
+- 色彩，函數
+- WCS 參考，函數
+- WCS、函數的參考
+- 'Windows Color System (WCS) 、色彩管理模組 (CMM) '
+- 'WCS (Windows 色彩系統) 、色彩管理模組 (CMM) '
+- '影像色彩管理、色彩管理模組 (CMM) '
+- '色彩管理、色彩管理模組 (CMM) '
+- '色彩、色彩管理模組 (CMM) '
+- 'WCS 參考、色彩管理模組 (CMM) '
+- 'WCS 的參考、色彩管理模組 (CMM) '
+- '色彩管理模組 (CMM) '
+- " (色彩管理模組) 的 CMM"
+ms.localizationpriority: high
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: d8e9092c49077b1b4dda9e06829329194ec2e261
+ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "106986679"
+---
+# <a name="wcs-functions-for-color-management-modules-cmms-to-implement"></a><span data-ttu-id="c0dc9-119">色彩管理模組的 WCS 函式 (要執行的 Cmm) </span><span class="sxs-lookup"><span data-stu-id="c0dc9-119">WCS Functions for Color Management Modules (CMMs) to Implement</span></span>
+
+<span data-ttu-id="c0dc9-120">下列函式是由彩色管理模組執行 (Cmm) ，並針對作業系統進行匯出以供呼叫。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-120">The following functions are to be implemented by color management modules (CMMs), and exported for the operating system to call.</span></span>
+
+
+
+| <span data-ttu-id="c0dc9-121">函式</span><span class="sxs-lookup"><span data-stu-id="c0dc9-121">Function</span></span>                                                                     | <span data-ttu-id="c0dc9-122">描述</span><span class="sxs-lookup"><span data-stu-id="c0dc9-122">Description</span></span>                                                                               |
+|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| [<span data-ttu-id="c0dc9-123">**CMCheckColors**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-123">**CMCheckColors**</span></span>](/windows/win32/api/icm/nf-icm-cmcheckcolors) | <span data-ttu-id="c0dc9-124">判斷指定的色彩是否位於指定轉換 [的輸出範圍](./g.md) 內。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-124">Determines whether given colors lie within the output [gamut](./g.md) of a specified transform.</span></span> |
+| [<span data-ttu-id="c0dc9-125">**CMCheckColorsInGamut**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-125">**CMCheckColorsInGamut**</span></span>](/windows/win32/api/icm/nf-icm-cmcheckcolorsingamut) | <span data-ttu-id="c0dc9-126">判斷指定的 RGB 三合一是否位於指定轉換 [的輸出範圍](./g.md) 中。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-126">Determines whether specified RGB triples lie in the output [gamut](./g.md) of a specified transform.</span></span> |
+| [<span data-ttu-id="c0dc9-127">**CMCheckRGBs**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-127">**CMCheckRGBs**</span></span>](/windows/desktop/api/Wingdi/)                                           | <span data-ttu-id="c0dc9-128">針對輸出範圍檢查點陣圖色彩。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-128">Checks bitmap colors against an output gamut.</span></span>                                             |
+| [<span data-ttu-id="c0dc9-129">**CMConvertColorNameToIndex**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-129">**CMConvertColorNameToIndex**</span></span>](/windows/win32/api/icm/nf-icm-cmconvertcolornametoindex) | <span data-ttu-id="c0dc9-130">將命名色彩空間中的色彩名稱轉換成色彩設定檔中的索引編號</span><span class="sxs-lookup"><span data-stu-id="c0dc9-130">Converts color names in a named color space to index numbers in a color profile</span></span> |
+| [<span data-ttu-id="c0dc9-131">**CMConvertIndexToColorName**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-131">**CMConvertIndexToColorName**</span></span>](/windows/win32/api/icm/nf-icm-cmconvertindextocolorname) | <span data-ttu-id="c0dc9-132">將色彩空間中的索引轉換為命名色彩空間中的名稱陣列。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-132">Transforms indices in a color space to an array of names in a named color space.</span></span> |
+| [<span data-ttu-id="c0dc9-133">**CMCreateDeviceLinkProfile**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-133">**CMCreateDeviceLinkProfile**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatedevicelinkprofile) | <span data-ttu-id="c0dc9-134">以國際色彩協會在其 ICC 配置檔案格式規格中指定的格式建立 [裝置連結設定檔](./d.md) 。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-134">Creates a [device link profile](./d.md) in the format specified by the International Color Consortium in its ICC Profile Format Specification.</span></span> |
+| [<span data-ttu-id="c0dc9-135">**CMCreateMultiProfileTransform**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-135">**CMCreateMultiProfileTransform**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatemultiprofiletransform) | <span data-ttu-id="c0dc9-136">接受設定檔的陣列或單一 [裝置連結設定檔](./d.md) ，並建立色彩轉換。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-136">Accepts an array of profiles or a single [device link profile](./d.md) and creates a color transform.</span></span> <span data-ttu-id="c0dc9-137">這項轉換是從第一個設定檔所指定的色彩空間到第二個設定檔的對應，依此類推到最後一個設定檔的對應。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-137">This transform is a mapping from the color space specified by the first profile to that of the second profile and so on to the last one.</span></span> |
+| [<span data-ttu-id="c0dc9-138">**CMCreateProfile**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-138">**CMCreateProfile**</span></span>](/windows/win32/api/icm/nf-icm-cmcreateprofile) | <span data-ttu-id="c0dc9-139">從 [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) 結構建立顯示色彩設定檔。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-139">Creates a display color profile from a [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) structure.</span></span> |
+| [<span data-ttu-id="c0dc9-140">**CMCreateProfileW**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-140">**CMCreateProfileW**</span></span>](/windows/win32/api/icm/nf-icm-cmcreateprofilew) | <span data-ttu-id="c0dc9-141">從 [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) 結構建立顯示色彩設定檔。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-141">Creates a display color profile from a [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) structure.</span></span> |
+| [<span data-ttu-id="c0dc9-142">**CMCreateTransform**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-142">**CMCreateTransform**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatetransform) | <span data-ttu-id="c0dc9-143">已取代。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-143">Deprecated.</span></span> <span data-ttu-id="c0dc9-144">沒有取代的 API，因為不再使用此 API。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-144">There is no replacement API because this one was no longer being used.</span></span> <span data-ttu-id="c0dc9-145">不需要替代的 CMM 模組開發人員來執行它。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-145">Developers of alternate CMM modules are not required to implement it.</span></span> |
+| [<span data-ttu-id="c0dc9-146">**CMCreateTransformExt**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-146">**CMCreateTransformExt**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatetransformext) | <span data-ttu-id="c0dc9-147">建立從輸入 [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) 對應至選擇性目標空間的色彩轉換，然後使用一組旗標來定義應如何建立轉換，以將其對應至輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-147">Creates a color transform that maps from an input [**LOGCOLORSPACEA**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacea) to an optional target space and then to an output device, using a set of flags that define how the transform should be created.</span></span> |
+| [<span data-ttu-id="c0dc9-148">**CMCreateTransformExtW**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-148">**CMCreateTransformExtW**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatetransformextw) | <span data-ttu-id="c0dc9-149">建立從輸入 [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) 對應至選擇性目標空間的色彩轉換，然後使用一組旗標來定義應如何建立轉換，以將其對應至輸出裝置。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-149">Creates a color transform that maps from an input [**LOGCOLORSPACEW**](/windows/win32/api/wingdi/ns-wingdi-logcolorspacew) to an optional target space and then to an output device, using a set of flags that define how the transform should be created.</span></span> |
+| [<span data-ttu-id="c0dc9-150">**CMCreateTransformW**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-150">**CMCreateTransformW**</span></span>](/windows/win32/api/icm/nf-icm-cmcreatetransformw) | <span data-ttu-id="c0dc9-151">已取代。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-151">Deprecated.</span></span> <span data-ttu-id="c0dc9-152">沒有取代的 API，因為不再使用此 API。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-152">There is no replacement API because this one was no longer being used.</span></span> <span data-ttu-id="c0dc9-153">不需要替代的 CMM 模組開發人員來執行它。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-153">Developers of alternate CMM modules are not required to implement it.</span></span> |
+| [<span data-ttu-id="c0dc9-154">**CMDeleteTransform**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-154">**CMDeleteTransform**</span></span>](/windows/win32/api/icm/nf-icm-cmdeletetransform) | <span data-ttu-id="c0dc9-155">刪除指定的色彩轉換，並釋出任何與其相關聯的記憶體。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-155">Deletes a specified color transform, and frees any memory associated with it.</span></span> |
+| [<span data-ttu-id="c0dc9-156">**CMGetInfo**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-156">**CMGetInfo**</span></span>](/windows/win32/api/icm/nf-icm-cmgetinfo) | <span data-ttu-id="c0dc9-157">抓取 (CMM) 的色彩管理模組的各種相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-157">Retrieves various information about the color management module (CMM).</span></span> |
+| [<span data-ttu-id="c0dc9-158">**CMGetNamedProfileInfo**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-158">**CMGetNamedProfileInfo**</span></span>](/windows/win32/api/icm/nf-icm-cmgetnamedprofileinfo) | <span data-ttu-id="c0dc9-159">抓取指定之命名色彩設定檔的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-159">Retrieves information about the specified named color profile.</span></span> |
+| [<span data-ttu-id="c0dc9-160">**CMGetPS2ColorRenderingDictionary**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-160">**CMGetPS2ColorRenderingDictionary**</span></span>](/windows/desktop/api/Wingdi/) | <span data-ttu-id="c0dc9-161">取得 PostScript 色彩轉譯字典。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-161">Gets a PostScript color rendering dictionary.</span></span>                                             |
+| [<span data-ttu-id="c0dc9-162">**CMGetPS2ColorRenderingIntent**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-162">**CMGetPS2ColorRenderingIntent**</span></span>](/windows/win32/api/icm/nf-icm-cmgetps2colorrenderingintent) | <span data-ttu-id="c0dc9-163">從設定檔抓取 PostScript 層級2色彩轉譯 [意圖](rendering-intents.md) 。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-163">Retrieves the PostScript Level 2 color [rendering intent](rendering-intents.md) from a profile.</span></span> |
+| [<span data-ttu-id="c0dc9-164">**CMGetPS2ColorSpaceArray**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-164">**CMGetPS2ColorSpaceArray**</span></span>](/windows/desktop/api/Wingdi/)                   | <span data-ttu-id="c0dc9-165">取得 PostScript 色彩空間陣列。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-165">Gets a PostScript color space array.</span></span>                                                      |
+| [<span data-ttu-id="c0dc9-166">**CMIsProfileValid**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-166">**CMIsProfileValid**</span></span>](/windows/win32/api/icm/nf-icm-cmisprofilevalid) | <span data-ttu-id="c0dc9-167">報告指定的設定檔是否為可用於色彩管理的有效 ICC 設定檔。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-167">Reports whether the given profile is a valid ICC profile that can be used for color management.</span></span> |
+| [<span data-ttu-id="c0dc9-168">**CMTranslateColors**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-168">**CMTranslateColors**</span></span>](/windows/win32/api/icm/nf-icm-cmtranslatecolors) | <span data-ttu-id="c0dc9-169">使用色彩轉換，將色彩的陣列從來源 [色彩空間](rendering-intents.md) 轉譯為目的色彩空間。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-169">Translates an array of colors from a source [color space](rendering-intents.md) to a destination color space using a color transform.</span></span> |
+| [<span data-ttu-id="c0dc9-170">**CMTranslateRGB**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-170">**CMTranslateRGB**</span></span>](/windows/win32/api/icm/nf-icm-cmtranslatergb) | <span data-ttu-id="c0dc9-171">將應用程式提供的 RGBQuad 轉譯成裝置 [色彩空間](color-spaces.md)。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-171">Translates an application-supplied RGBQuad into the device [color space](color-spaces.md).</span></span> |
+| [<span data-ttu-id="c0dc9-172">**CMTranslateRGBs**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-172">**CMTranslateRGBs**</span></span>](/windows/win32/api/icm/nf-icm-cmtranslatergbs) | <span data-ttu-id="c0dc9-173">使用色彩轉換，將點陣圖從某個 [色彩空間](color-spaces.md) 轉譯成另一個。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-173">Translates a bitmap from one [color space](color-spaces.md) to another using a color transform.</span></span> |
+| [<span data-ttu-id="c0dc9-174">**CMTranslateRGBsExt**</span><span class="sxs-lookup"><span data-stu-id="c0dc9-174">**CMTranslateRGBsExt**</span></span>](/windows/win32/api/icm/nf-icm-cmtranslatergbsext) | <span data-ttu-id="c0dc9-175">將點陣圖從一個已定義的格式轉譯為不同的定義格式，並定期呼叫回呼函式（如果有指定），以報告進度並允許呼叫應用程式終止翻譯。</span><span class="sxs-lookup"><span data-stu-id="c0dc9-175">Translates a bitmap from one defined format into a different defined format and calls a callback function periodically, if one is specified, to report progress and permit the calling application to terminate the translation.</span></span> |
+
+
+
+ 
+
+ 
+
+ 
