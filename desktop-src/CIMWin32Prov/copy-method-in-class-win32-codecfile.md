@@ -1,0 +1,174 @@
+---
+description: 將物件路徑中指定的邏輯編解碼器檔案或目錄複寫到輸入參數所指定的位置。
+ms.assetid: 77e67b01-561b-4233-899d-fa4bbf75ecf8
+ms.tgt_platform: multiple
+title: Win32_CodecFile 類別的 Copy 方法
+ms.topic: reference
+ms.date: 05/31/2018
+topic_type:
+- APIRef
+- kbSyntax
+api_name:
+- Win32_CodecFile.Copy
+api_type:
+- COM
+api_location:
+- CIMWin32.dll
+ms.openlocfilehash: e3bd6621c065192eb45176444257f1c29c897201
+ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/07/2021
+ms.locfileid: "106967050"
+---
+# <a name="copy-method-of-the-win32_codecfile-class"></a><span data-ttu-id="cfad8-103">Win32 CodecFile 類別的 Copy 方法 \_</span><span class="sxs-lookup"><span data-stu-id="cfad8-103">Copy method of the Win32\_CodecFile class</span></span>
+
+<span data-ttu-id="cfad8-104">**複製** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會將物件路徑中指定的邏輯編解碼器檔案或目錄複寫到輸入參數所指定的位置。</span><span class="sxs-lookup"><span data-stu-id="cfad8-104">The **Copy** [WMI class](/windows/desktop/WmiSdk/retrieving-a-class) method copies the logical codec file or directory specified in the object path to the location specified by the input parameter.</span></span> <span data-ttu-id="cfad8-105">如果需要覆寫現有的邏輯檔案，則不支援複製。</span><span class="sxs-lookup"><span data-stu-id="cfad8-105">A copy is not supported if overwriting an existing logical file is required.</span></span>
+
+<span data-ttu-id="cfad8-106">本主題使用受控物件格式 (MOF) 語法。</span><span class="sxs-lookup"><span data-stu-id="cfad8-106">This topic uses Managed Object Format (MOF) syntax.</span></span> <span data-ttu-id="cfad8-107">如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。</span><span class="sxs-lookup"><span data-stu-id="cfad8-107">For more information about using this method, see [Calling a Method](/windows/desktop/WmiSdk/calling-a-method).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="cfad8-108">語法</span><span class="sxs-lookup"><span data-stu-id="cfad8-108">Syntax</span></span>
+
+
+```mof
+uint32 Copy(
+   string FileName
+);
+```
+
+
+
+## <a name="parameters"></a><span data-ttu-id="cfad8-109">參數</span><span class="sxs-lookup"><span data-stu-id="cfad8-109">Parameters</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="cfad8-110">*FileName*</span><span class="sxs-lookup"><span data-stu-id="cfad8-110">*FileName*</span></span> 
+</dt> <dd>
+
+<span data-ttu-id="cfad8-111"> (或目錄) 之檔案複本的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="cfad8-111">Fully qualified name of the copy of the file (or directory).</span></span> <span data-ttu-id="cfad8-112">範例： c： \\ temp \\ newdirectory。</span><span class="sxs-lookup"><span data-stu-id="cfad8-112">Example: c:\\temp\\newdirectory.</span></span>
+
+</dd> </dl>
+
+## <a name="return-value"></a><span data-ttu-id="cfad8-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="cfad8-113">Return value</span></span>
+
+<span data-ttu-id="cfad8-114">如果成功複製檔案，則傳回 0 (零) 的值，以及表示錯誤的其他任何數位。</span><span class="sxs-lookup"><span data-stu-id="cfad8-114">Returns an value of 0 (zero) if the file was successfully copied, and any other number to indicate an error.</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="cfad8-115">**0**</span><span class="sxs-lookup"><span data-stu-id="cfad8-115">**0**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-116">要求成功。</span><span class="sxs-lookup"><span data-stu-id="cfad8-116">The request was successful.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-117">**2**</span><span class="sxs-lookup"><span data-stu-id="cfad8-117">**2**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-118">存取遭到拒絕。</span><span class="sxs-lookup"><span data-stu-id="cfad8-118">Access was denied.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-119">**8**</span><span class="sxs-lookup"><span data-stu-id="cfad8-119">**8**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-120">發生未指定的失敗。</span><span class="sxs-lookup"><span data-stu-id="cfad8-120">An unspecified failure occurred.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-121">**9**</span><span class="sxs-lookup"><span data-stu-id="cfad8-121">**9**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-122">指定的名稱無效。</span><span class="sxs-lookup"><span data-stu-id="cfad8-122">The name specified was not valid.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-123">**10**</span><span class="sxs-lookup"><span data-stu-id="cfad8-123">**10**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-124">指定的物件已經存在。</span><span class="sxs-lookup"><span data-stu-id="cfad8-124">The object specified already exists.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-125">**11**</span><span class="sxs-lookup"><span data-stu-id="cfad8-125">**11**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-126">檔案系統不是 NTFS。</span><span class="sxs-lookup"><span data-stu-id="cfad8-126">The file system is not NTFS.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-127">**12**</span><span class="sxs-lookup"><span data-stu-id="cfad8-127">**12**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-128">平臺不是 Windows。</span><span class="sxs-lookup"><span data-stu-id="cfad8-128">The platform is not Windows.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-129">**13**</span><span class="sxs-lookup"><span data-stu-id="cfad8-129">**13**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-130">磁片磁碟機不相同。</span><span class="sxs-lookup"><span data-stu-id="cfad8-130">The drive is not the same.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-131">**14**</span><span class="sxs-lookup"><span data-stu-id="cfad8-131">**14**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-132">目錄不是空的。</span><span class="sxs-lookup"><span data-stu-id="cfad8-132">The directory is not empty.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-133">**15**</span><span class="sxs-lookup"><span data-stu-id="cfad8-133">**15**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-134">發生共用違規。</span><span class="sxs-lookup"><span data-stu-id="cfad8-134">There has been a sharing violation.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-135">**16**</span><span class="sxs-lookup"><span data-stu-id="cfad8-135">**16**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-136">指定的起始檔無效。</span><span class="sxs-lookup"><span data-stu-id="cfad8-136">The start file specified was not valid.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-137">**17**</span><span class="sxs-lookup"><span data-stu-id="cfad8-137">**17**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-138">不會保留操作所需的許可權。</span><span class="sxs-lookup"><span data-stu-id="cfad8-138">A privilege required for the operation is not held.</span></span>
+
+</dd> <dt>
+
+<span data-ttu-id="cfad8-139">**21**</span><span class="sxs-lookup"><span data-stu-id="cfad8-139">**21**</span></span>
+</dt> <dd>
+
+<span data-ttu-id="cfad8-140">指定的參數無效。</span><span class="sxs-lookup"><span data-stu-id="cfad8-140">A parameter specified is not valid.</span></span>
+
+</dd> </dl>
+
+## <a name="requirements"></a><span data-ttu-id="cfad8-141">規格需求</span><span class="sxs-lookup"><span data-stu-id="cfad8-141">Requirements</span></span>
+
+
+
+| <span data-ttu-id="cfad8-142">需求</span><span class="sxs-lookup"><span data-stu-id="cfad8-142">Requirement</span></span> | <span data-ttu-id="cfad8-143">值</span><span class="sxs-lookup"><span data-stu-id="cfad8-143">Value</span></span> |
+|-------------------------------------|-----------------------------------------------------------------------------------------|
+| <span data-ttu-id="cfad8-144">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="cfad8-144">Minimum supported client</span></span><br/> | <span data-ttu-id="cfad8-145">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="cfad8-145">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="cfad8-146">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="cfad8-146">Minimum supported server</span></span><br/> | <span data-ttu-id="cfad8-147">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="cfad8-147">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="cfad8-148">命名空間</span><span class="sxs-lookup"><span data-stu-id="cfad8-148">Namespace</span></span><br/>                | <span data-ttu-id="cfad8-149">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="cfad8-149">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="cfad8-150">MOF</span><span class="sxs-lookup"><span data-stu-id="cfad8-150">MOF</span></span><br/>                      | <dl> <span data-ttu-id="cfad8-151"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="cfad8-151"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="cfad8-152">DLL</span><span class="sxs-lookup"><span data-stu-id="cfad8-152">DLL</span></span><br/>                      | <dl> <span data-ttu-id="cfad8-153"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="cfad8-153"><dt>CIMWin32.dll</dt></span></span> </dl> |
+
+
+
+## <a name="see-also"></a><span data-ttu-id="cfad8-154">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cfad8-154">See also</span></span>
+
+<dl> <dt>
+
+<span data-ttu-id="cfad8-155">[作業系統類別](/previous-versions//aa392727(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="cfad8-155">[Operating System Classes](/previous-versions//aa392727(v=vs.85))</span></span>
+</dt> <dt>
+
+[<span data-ttu-id="cfad8-156">**Win32 \_ CodecFile**</span><span class="sxs-lookup"><span data-stu-id="cfad8-156">**Win32\_CodecFile**</span></span>](win32-codecfile.md)
+</dt> </dl>
+
+ 
+
