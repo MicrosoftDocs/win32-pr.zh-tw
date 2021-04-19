@@ -1,6 +1,6 @@
 ---
-title: SampleBias：： SampleBias (S，float，float，int，float) 函數
-description: 將偏差值套用至 mipmap 層級之後，將材質取樣，並使用選擇性的值來壓 (」 LOD) 值到的範例詳細層級。 |SampleBias：： SampleBias (S，float，float，int，float) 函數
+title: Texture1D 的 SampleBias：： SampleBias (S、float、float、int、float) 函數函數
+description: SampleBias：： SampleBias (S，float，float，int，float) 函數會在將偏差值套用至 mipmap 層級之後，對材質進行取樣。
 ms.assetid: 88BC4E99-B33D-4DAA-9A77-849B2F5FE6A7
 keywords:
 - SampleBias 函式 HLSL
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3af7ddaf3c015c2254761cce1d7cd30a2a68629b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1f7c6979d9781964d6bdd89914602c1946ce481c
+ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991986"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "106994929"
 ---
-# <a name="samplebiassamplebiassfloatfloatintfloat-function"></a><span data-ttu-id="be7fe-105">SampleBias：： SampleBias (S，float，float，int，float) 函數</span><span class="sxs-lookup"><span data-stu-id="be7fe-105">SampleBias::SampleBias(S,float,float,int,float) function</span></span>
+# <a name="samplebiassamplebiassfloatfloatintfloat-function-for-texture1d"></a><span data-ttu-id="30886-104">Texture1D 的 SampleBias：： SampleBias (S、float、float、int、float) 函數</span><span class="sxs-lookup"><span data-stu-id="30886-104">SampleBias::SampleBias(S,float,float,int,float) function for Texture1D</span></span>
 
-<span data-ttu-id="be7fe-106">將偏差值套用至 mipmap 層級之後，將材質取樣，並使用選擇性的值來壓 (」 LOD) 值到的範例詳細層級。</span><span class="sxs-lookup"><span data-stu-id="be7fe-106">Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.</span></span>
+<span data-ttu-id="30886-105">將偏差值套用至 mipmap 層級之後，將材質取樣，並使用選擇性的值來壓 (」 LOD) 值到的範例詳細層級。</span><span class="sxs-lookup"><span data-stu-id="30886-105">Samples a texture, after applying the bias value to the mipmap level, with an optional value to clamp sample level-of-detail (LOD) values to.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="be7fe-107">語法</span><span class="sxs-lookup"><span data-stu-id="be7fe-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="30886-106">語法</span><span class="sxs-lookup"><span data-stu-id="30886-106">Syntax</span></span>
 
 
 ``` syntax
@@ -39,34 +39,34 @@ DXGI_FORMAT SampleBias(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="be7fe-108">參數</span><span class="sxs-lookup"><span data-stu-id="be7fe-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="30886-107">參數</span><span class="sxs-lookup"><span data-stu-id="30886-107">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="be7fe-109"> \[ 中的 S\]</span><span class="sxs-lookup"><span data-stu-id="be7fe-109">*S* \[in\]</span></span>
+<span data-ttu-id="30886-108"> \[ 中的 S\]</span><span class="sxs-lookup"><span data-stu-id="30886-108">*S* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="be7fe-110">類型： **SamplerState**</span><span class="sxs-lookup"><span data-stu-id="be7fe-110">Type: **SamplerState**</span></span>
+<span data-ttu-id="30886-109">類型： **SamplerState**</span><span class="sxs-lookup"><span data-stu-id="30886-109">Type: **SamplerState**</span></span>
 
-<span data-ttu-id="be7fe-111">[取樣器狀態](dx-graphics-hlsl-sampler.md)。</span><span class="sxs-lookup"><span data-stu-id="be7fe-111">A [Sampler state](dx-graphics-hlsl-sampler.md).</span></span> <span data-ttu-id="be7fe-112">這是在包含狀態指派的效果檔案中宣告的物件。</span><span class="sxs-lookup"><span data-stu-id="be7fe-112">This is an object declared in an effect file that contains state assignments.</span></span>
+<span data-ttu-id="30886-110">[取樣器狀態](dx-graphics-hlsl-sampler.md)。</span><span class="sxs-lookup"><span data-stu-id="30886-110">A [Sampler state](dx-graphics-hlsl-sampler.md).</span></span> <span data-ttu-id="30886-111">這是在包含狀態指派的效果檔案中宣告的物件。</span><span class="sxs-lookup"><span data-stu-id="30886-111">This is an object declared in an effect file that contains state assignments.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="be7fe-113">*位置* \[在\]</span><span class="sxs-lookup"><span data-stu-id="be7fe-113">*Location* \[in\]</span></span>
+<span data-ttu-id="30886-112">*位置* \[在\]</span><span class="sxs-lookup"><span data-stu-id="30886-112">*Location* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="be7fe-114">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="be7fe-114">Type: **float**</span></span>
+<span data-ttu-id="30886-113">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="30886-113">Type: **float**</span></span>
 
-<span data-ttu-id="be7fe-115">材質座標。</span><span class="sxs-lookup"><span data-stu-id="be7fe-115">The texture coordinates.</span></span> <span data-ttu-id="be7fe-116">引數類型相依于材質物件類型。</span><span class="sxs-lookup"><span data-stu-id="be7fe-116">The argument type is dependent on the texture-object type.</span></span>
+<span data-ttu-id="30886-114">材質座標。</span><span class="sxs-lookup"><span data-stu-id="30886-114">The texture coordinates.</span></span> <span data-ttu-id="30886-115">引數類型相依于材質物件類型。</span><span class="sxs-lookup"><span data-stu-id="30886-115">The argument type is dependent on the texture-object type.</span></span>
 
 
 
-| <span data-ttu-id="be7fe-117">Texture-Object 類型</span><span class="sxs-lookup"><span data-stu-id="be7fe-117">Texture-Object Type</span></span>                    | <span data-ttu-id="be7fe-118">參數類型</span><span class="sxs-lookup"><span data-stu-id="be7fe-118">Parameter Type</span></span> |
+| <span data-ttu-id="30886-116">Texture-Object 類型</span><span class="sxs-lookup"><span data-stu-id="30886-116">Texture-Object Type</span></span>                    | <span data-ttu-id="30886-117">參數類型</span><span class="sxs-lookup"><span data-stu-id="30886-117">Parameter Type</span></span> |
 |----------------------------------------|----------------|
-| <span data-ttu-id="be7fe-119">Texture1D</span><span class="sxs-lookup"><span data-stu-id="be7fe-119">Texture1D</span></span>                              | <span data-ttu-id="be7fe-120">FLOAT</span><span class="sxs-lookup"><span data-stu-id="be7fe-120">float</span></span>          |
-| <span data-ttu-id="be7fe-121">Texture1DArray、Texture2D</span><span class="sxs-lookup"><span data-stu-id="be7fe-121">Texture1DArray, Texture2D</span></span>              | <span data-ttu-id="be7fe-122">float2</span><span class="sxs-lookup"><span data-stu-id="be7fe-122">float2</span></span>         |
-| <span data-ttu-id="be7fe-123">Texture2DArray, Texture3D, TextureCube</span><span class="sxs-lookup"><span data-stu-id="be7fe-123">Texture2DArray, Texture3D, TextureCube</span></span> | <span data-ttu-id="be7fe-124">float3</span><span class="sxs-lookup"><span data-stu-id="be7fe-124">float3</span></span>         |
-| <span data-ttu-id="be7fe-125">TextureCubeArray</span><span class="sxs-lookup"><span data-stu-id="be7fe-125">TextureCubeArray</span></span>                       | <span data-ttu-id="be7fe-126">float4</span><span class="sxs-lookup"><span data-stu-id="be7fe-126">float4</span></span>         |
+| <span data-ttu-id="30886-118">Texture1D</span><span class="sxs-lookup"><span data-stu-id="30886-118">Texture1D</span></span>                              | <span data-ttu-id="30886-119">FLOAT</span><span class="sxs-lookup"><span data-stu-id="30886-119">float</span></span>          |
+| <span data-ttu-id="30886-120">Texture1DArray、Texture2D</span><span class="sxs-lookup"><span data-stu-id="30886-120">Texture1DArray, Texture2D</span></span>              | <span data-ttu-id="30886-121">float2</span><span class="sxs-lookup"><span data-stu-id="30886-121">float2</span></span>         |
+| <span data-ttu-id="30886-122">Texture2DArray, Texture3D, TextureCube</span><span class="sxs-lookup"><span data-stu-id="30886-122">Texture2DArray, Texture3D, TextureCube</span></span> | <span data-ttu-id="30886-123">float3</span><span class="sxs-lookup"><span data-stu-id="30886-123">float3</span></span>         |
+| <span data-ttu-id="30886-124">TextureCubeArray</span><span class="sxs-lookup"><span data-stu-id="30886-124">TextureCubeArray</span></span>                       | <span data-ttu-id="30886-125">float4</span><span class="sxs-lookup"><span data-stu-id="30886-125">float4</span></span>         |
 
 
 
@@ -74,30 +74,30 @@ DXGI_FORMAT SampleBias(
 
 </dd> <dt>
 
-<span data-ttu-id="be7fe-127">*偏差* \[在\]</span><span class="sxs-lookup"><span data-stu-id="be7fe-127">*Bias* \[in\]</span></span>
+<span data-ttu-id="30886-126">*偏差* \[在\]</span><span class="sxs-lookup"><span data-stu-id="30886-126">*Bias* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="be7fe-128">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="be7fe-128">Type: **float**</span></span>
+<span data-ttu-id="30886-127">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="30886-127">Type: **float**</span></span>
 
-<span data-ttu-id="be7fe-129">偏差值（介於0.0 到1.0 （含）之間的浮點數）會在取樣之前套用至 mip 層級。</span><span class="sxs-lookup"><span data-stu-id="be7fe-129">The bias value, which is a floating-point number between 0.0 and 1.0 inclusive, is applied to a mip level before sampling.</span></span>
+<span data-ttu-id="30886-128">偏差值（介於0.0 到1.0 （含）之間的浮點數）會在取樣之前套用至 mip 層級。</span><span class="sxs-lookup"><span data-stu-id="30886-128">The bias value, which is a floating-point number between 0.0 and 1.0 inclusive, is applied to a mip level before sampling.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="be7fe-130">*位移* \[在\]</span><span class="sxs-lookup"><span data-stu-id="be7fe-130">*Offset* \[in\]</span></span>
+<span data-ttu-id="30886-129">*位移* \[在\]</span><span class="sxs-lookup"><span data-stu-id="30886-129">*Offset* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="be7fe-131">類型： **int**</span><span class="sxs-lookup"><span data-stu-id="be7fe-131">Type: **int**</span></span>
+<span data-ttu-id="30886-130">類型： **int**</span><span class="sxs-lookup"><span data-stu-id="30886-130">Type: **int**</span></span>
 
-<span data-ttu-id="be7fe-132">選擇性的材質座標位移，可用於任何材質物件類型;位移會套用至取樣之前的位置。</span><span class="sxs-lookup"><span data-stu-id="be7fe-132">An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling.</span></span> <span data-ttu-id="be7fe-133">只在整數 miplevel 使用位移;否則，您可能會得到無法妥善轉譯至硬體的結果。</span><span class="sxs-lookup"><span data-stu-id="be7fe-133">Use an offset only at an integer miplevel; otherwise, you may get results that do not translate well to hardware.</span></span> <span data-ttu-id="be7fe-134">引數類型相依于材質物件類型。</span><span class="sxs-lookup"><span data-stu-id="be7fe-134">The argument type is dependent on the texture-object type.</span></span> <span data-ttu-id="be7fe-135">如需詳細資訊，請參閱套用 [整數位移](dx-graphics-hlsl-to-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="be7fe-135">For more info, see [Applying Integer Offsets](dx-graphics-hlsl-to-sample.md).</span></span>
+<span data-ttu-id="30886-131">選擇性的材質座標位移，可用於任何材質物件類型;位移會套用至取樣之前的位置。</span><span class="sxs-lookup"><span data-stu-id="30886-131">An optional texture coordinate offset, which can be used for any texture-object type; the offset is applied to the location before sampling.</span></span> <span data-ttu-id="30886-132">只在整數 miplevel 使用位移;否則，您可能會得到無法妥善轉譯至硬體的結果。</span><span class="sxs-lookup"><span data-stu-id="30886-132">Use an offset only at an integer miplevel; otherwise, you may get results that do not translate well to hardware.</span></span> <span data-ttu-id="30886-133">引數類型相依于材質物件類型。</span><span class="sxs-lookup"><span data-stu-id="30886-133">The argument type is dependent on the texture-object type.</span></span> <span data-ttu-id="30886-134">如需詳細資訊，請參閱套用 [整數位移](dx-graphics-hlsl-to-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="30886-134">For more info, see [Applying Integer Offsets](dx-graphics-hlsl-to-sample.md).</span></span>
 
 
 
-| <span data-ttu-id="be7fe-136">Texture-Object 類型</span><span class="sxs-lookup"><span data-stu-id="be7fe-136">Texture-Object Type</span></span>           | <span data-ttu-id="be7fe-137">參數類型</span><span class="sxs-lookup"><span data-stu-id="be7fe-137">Parameter Type</span></span> |
+| <span data-ttu-id="30886-135">Texture-Object 類型</span><span class="sxs-lookup"><span data-stu-id="30886-135">Texture-Object Type</span></span>           | <span data-ttu-id="30886-136">參數類型</span><span class="sxs-lookup"><span data-stu-id="30886-136">Parameter Type</span></span> |
 |-------------------------------|----------------|
-| <span data-ttu-id="be7fe-138">Texture1D, Texture1DArray</span><span class="sxs-lookup"><span data-stu-id="be7fe-138">Texture1D, Texture1DArray</span></span>     | <span data-ttu-id="be7fe-139">int</span><span class="sxs-lookup"><span data-stu-id="be7fe-139">int</span></span>            |
-| <span data-ttu-id="be7fe-140">Texture2D、Texture2DArray</span><span class="sxs-lookup"><span data-stu-id="be7fe-140">Texture2D, Texture2DArray</span></span>     | <span data-ttu-id="be7fe-141">int2</span><span class="sxs-lookup"><span data-stu-id="be7fe-141">int2</span></span>           |
-| <span data-ttu-id="be7fe-142">Texture3D</span><span class="sxs-lookup"><span data-stu-id="be7fe-142">Texture3D</span></span>                     | <span data-ttu-id="be7fe-143">int3</span><span class="sxs-lookup"><span data-stu-id="be7fe-143">int3</span></span>           |
-| <span data-ttu-id="be7fe-144">TextureCube, TextureCubeArray</span><span class="sxs-lookup"><span data-stu-id="be7fe-144">TextureCube, TextureCubeArray</span></span> | <span data-ttu-id="be7fe-145">不支援</span><span class="sxs-lookup"><span data-stu-id="be7fe-145">not supported</span></span>  |
+| <span data-ttu-id="30886-137">Texture1D, Texture1DArray</span><span class="sxs-lookup"><span data-stu-id="30886-137">Texture1D, Texture1DArray</span></span>     | <span data-ttu-id="30886-138">int</span><span class="sxs-lookup"><span data-stu-id="30886-138">int</span></span>            |
+| <span data-ttu-id="30886-139">Texture2D、Texture2DArray</span><span class="sxs-lookup"><span data-stu-id="30886-139">Texture2D, Texture2DArray</span></span>     | <span data-ttu-id="30886-140">int2</span><span class="sxs-lookup"><span data-stu-id="30886-140">int2</span></span>           |
+| <span data-ttu-id="30886-141">Texture3D</span><span class="sxs-lookup"><span data-stu-id="30886-141">Texture3D</span></span>                     | <span data-ttu-id="30886-142">int3</span><span class="sxs-lookup"><span data-stu-id="30886-142">int3</span></span>           |
+| <span data-ttu-id="30886-143">TextureCube, TextureCubeArray</span><span class="sxs-lookup"><span data-stu-id="30886-143">TextureCube, TextureCubeArray</span></span> | <span data-ttu-id="30886-144">不支援</span><span class="sxs-lookup"><span data-stu-id="30886-144">not supported</span></span>  |
 
 
 
@@ -105,26 +105,26 @@ DXGI_FORMAT SampleBias(
 
 </dd> <dt>
 
-<span data-ttu-id="be7fe-146">*夾具* \[在\]</span><span class="sxs-lookup"><span data-stu-id="be7fe-146">*Clamp* \[in\]</span></span>
+<span data-ttu-id="30886-145">*夾具* \[在\]</span><span class="sxs-lookup"><span data-stu-id="30886-145">*Clamp* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="be7fe-147">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="be7fe-147">Type: **float**</span></span>
+<span data-ttu-id="30886-146">類型： **float**</span><span class="sxs-lookup"><span data-stu-id="30886-146">Type: **float**</span></span>
 
-<span data-ttu-id="be7fe-148">用來將範例」 LOD 值設為的選擇性值。</span><span class="sxs-lookup"><span data-stu-id="be7fe-148">An optional value to clamp sample LOD values to.</span></span> <span data-ttu-id="be7fe-149">例如，如果您傳遞 2.0 f 作為夾具值，您可以確保沒有任何個別的範例存取小於 2.0 f 的 mip 層級。</span><span class="sxs-lookup"><span data-stu-id="be7fe-149">For example, if you pass 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.</span></span>
+<span data-ttu-id="30886-147">用來將範例」 LOD 值設為的選擇性值。</span><span class="sxs-lookup"><span data-stu-id="30886-147">An optional value to clamp sample LOD values to.</span></span> <span data-ttu-id="30886-148">例如，如果您傳遞 2.0 f 作為夾具值，您可以確保沒有任何個別的範例存取小於 2.0 f 的 mip 層級。</span><span class="sxs-lookup"><span data-stu-id="30886-148">For example, if you pass 2.0f for the clamp value, you ensure that no individual sample accesses a mip level less than 2.0f.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="be7fe-150">傳回值</span><span class="sxs-lookup"><span data-stu-id="be7fe-150">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="30886-149">傳回值</span><span class="sxs-lookup"><span data-stu-id="30886-149">Return value</span></span>
 
-<span data-ttu-id="be7fe-151">類型： **[ **DXGI \_ 格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**</span><span class="sxs-lookup"><span data-stu-id="be7fe-151">Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**</span></span>
+<span data-ttu-id="30886-150">類型： **[ **DXGI \_ 格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**</span><span class="sxs-lookup"><span data-stu-id="30886-150">Type: **[**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)**</span></span>
 
-<span data-ttu-id="be7fe-152">材質格式，這是以 [**DXGI \_ 格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)列出的其中一個具類型值。</span><span class="sxs-lookup"><span data-stu-id="be7fe-152">The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).</span></span>
+<span data-ttu-id="30886-151">材質格式，這是以 [**DXGI \_ 格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format)列出的其中一個具類型值。</span><span class="sxs-lookup"><span data-stu-id="30886-151">The texture format, which is one of the typed values listed in [**DXGI\_FORMAT**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format).</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="be7fe-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="be7fe-153">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30886-152">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30886-152">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="be7fe-154">SampleBias 方法</span><span class="sxs-lookup"><span data-stu-id="be7fe-154">SampleBias methods</span></span>](texture1d-samplebias.md)
+[<span data-ttu-id="30886-153">SampleBias 方法</span><span class="sxs-lookup"><span data-stu-id="30886-153">SampleBias methods</span></span>](texture1d-samplebias.md)
 </dt> </dl>
 
  
