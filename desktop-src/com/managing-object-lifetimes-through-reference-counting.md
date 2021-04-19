@@ -1,0 +1,48 @@
+---
+title: 透過參考計數來管理物件存留期
+description: 透過參考計數來管理物件存留期
+ms.assetid: 7f9da5a9-0435-431c-8f90-56e2e489c431
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: 7aac184baea9198721e6cdf9c0444a8c6431db08
+ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "106983293"
+---
+# <a name="managing-object-lifetimes-through-reference-counting"></a><span data-ttu-id="74598-103">透過參考計數來管理物件存留期</span><span class="sxs-lookup"><span data-stu-id="74598-103">Managing Object Lifetimes Through Reference Counting</span></span>
+
+<span data-ttu-id="74598-104">在傳統物件系統中，物件的生命週期（也就是建立和刪除物件的問題）是由語言 (或語言執行時間隱含地處理，) 或由應用程式設計人員明確處理。</span><span class="sxs-lookup"><span data-stu-id="74598-104">In traditional object systems, the life cycle of objects—that is, the issues surrounding the creation and deletion of objects—is handled implicitly by the language (or the language run time) or explicitly by application programmers.</span></span>
+
+<span data-ttu-id="74598-105">在不斷演進的 decentrally 結構化系統中，由重複使用的元件所組成，任何用戶端（甚至任何程式設計人員）永遠都能「知道」如何處理元件的存留期。</span><span class="sxs-lookup"><span data-stu-id="74598-105">In an evolving, decentrally constructed system made up of reused components, it is no longer true that any client, or even any programmer, always "knows" how to deal with a component's lifetime.</span></span> <span data-ttu-id="74598-106">對於具有適當安全性許可權的用戶端，透過簡單的要求建立物件仍相當簡單，但物件刪除則是完全不同。</span><span class="sxs-lookup"><span data-stu-id="74598-106">For a client with the right security privileges, it is still relatively easy to create objects through a simple request, but object deletion is another matter entirely.</span></span> <span data-ttu-id="74598-107">當物件不再需要且應該刪除時，不一定清楚。</span><span class="sxs-lookup"><span data-stu-id="74598-107">It is not necessarily clear when an object is no longer needed and should be deleted.</span></span> <span data-ttu-id="74598-108">熟悉垃圾收集程式設計環境（例如 JAVA）的 (讀者可能不同意;不過，JAVA 物件不會跨越機器或甚至處理常式界限，因此垃圾收集會限制為在單一進程空間記憶體留的物件。</span><span class="sxs-lookup"><span data-stu-id="74598-108">(Readers familiar with garbage-collected programming environments, such as Java, may disagree; however, Java objects do not span machine or even process boundaries, and therefore the garbage collection is restricted to objects living within a single-process space.</span></span> <span data-ttu-id="74598-109">此外，JAVA 會強制使用單一程式設計語言 ) 。即使原始用戶端是透過物件完成，也不能直接將物件關閉，因為某些其他用戶端或用戶端可能仍有其參考。</span><span class="sxs-lookup"><span data-stu-id="74598-109">In addition, Java forces the use of a single programming language.) Even when the original client is done with the object, it cannot simply shut the object down, because some other client or clients might still have a reference to it.</span></span>
+
+<span data-ttu-id="74598-110">確保物件不再需要的其中一種方式，是完全相依于基礎通道，以在跨進程或跨通道物件的所有連接都消失時通知系統。</span><span class="sxs-lookup"><span data-stu-id="74598-110">One way to ensure that an object is no longer needed is to depend entirely on an underlying communication channel to inform the system when all connections to a cross-process or cross-channel object have disappeared.</span></span> <span data-ttu-id="74598-111">不過，使用此方法的配置會有數個原因無法接受。</span><span class="sxs-lookup"><span data-stu-id="74598-111">However, schemes that use this method are unacceptable for several reasons.</span></span> <span data-ttu-id="74598-112">其中一個問題是，它可能需要跨進程/跨網路程式設計模型和單一進程程式設計模型之間的主要差異。</span><span class="sxs-lookup"><span data-stu-id="74598-112">One problem is that it could require a major difference between the cross-process/cross-network programming model and the single-process programming model.</span></span> <span data-ttu-id="74598-113">在跨進程/跨網路程式設計模型中，通訊系統會提供物件存留期管理所需的勾點，而在單一進程程式設計模型中，物件會直接連接，而不需要任何仲介通道。</span><span class="sxs-lookup"><span data-stu-id="74598-113">In the cross-process/cross-network programming model, the communication system would provide the hooks necessary for object lifetime management, while in the single-process programming model, objects are directly connected without any intervening communications channel.</span></span> <span data-ttu-id="74598-114">另一個問題是，此配置也可能會導致系統提供的軟體層影響同進程案例中的元件效能。</span><span class="sxs-lookup"><span data-stu-id="74598-114">Another problem is that this scheme could also result in a layer of system-provided software that would interfere with component performance in the in-process case.</span></span> <span data-ttu-id="74598-115">此外，以明確監視為基礎的機制，通常不會擴充至數千個或數百萬個物件。</span><span class="sxs-lookup"><span data-stu-id="74598-115">Furthermore, a mechanism based on explicit monitoring would not tend to scale toward many thousands or millions of objects.</span></span>
+
+<span data-ttu-id="74598-116">COM 為此一組問題提供可擴充且散佈的方法。</span><span class="sxs-lookup"><span data-stu-id="74598-116">COM offers a scalable and distributed approach to this set of problems.</span></span> <span data-ttu-id="74598-117">用戶端會在使用它時，以及當物件完成時，將其告知，而當物件不再需要時，則會自行刪除。</span><span class="sxs-lookup"><span data-stu-id="74598-117">Clients tell an object when they are using it and when they are done, and objects delete themselves when they are no longer needed.</span></span> <span data-ttu-id="74598-118">這種方法會要求所有物件都會計入對本身的參考。</span><span class="sxs-lookup"><span data-stu-id="74598-118">This approach mandates that all objects count references to themselves.</span></span> <span data-ttu-id="74598-119">JAVA 這類程式設計語言（像是 JAVA）本身就會有自己的存留期管理配置（例如垃圾收集），可以使用 COM 的參考計數來內部執行和使用 COM 物件，讓程式設計人員避免處理它。</span><span class="sxs-lookup"><span data-stu-id="74598-119">Programming languages such as Java, which inherently have their own lifetime management schemes, such as garbage collection, can use COM's reference counting to implement and use COM objects internally, allowing the programmer to avoid dealing with it.</span></span>
+
+<span data-ttu-id="74598-120">就像應用程式必須釋出記憶體，一旦記憶體不再使用，物件的用戶端就會在不再需要物件時，負責釋放物件的參考。</span><span class="sxs-lookup"><span data-stu-id="74598-120">Just as an application must free memory it has allocated once that memory is no longer in use, a client of an object is responsible for freeing its references to the object when that object is no longer needed.</span></span> <span data-ttu-id="74598-121">在物件導向的系統中，用戶端只能藉由為物件提供可自行釋放的指示，來進行這項作業。</span><span class="sxs-lookup"><span data-stu-id="74598-121">In an object-oriented system, the client can do this only by giving the object an instruction to free itself.</span></span>
+
+<span data-ttu-id="74598-122">當物件不再使用時，請務必將物件解除配置。</span><span class="sxs-lookup"><span data-stu-id="74598-122">It is important that an object be deallocated when it is no longer being used.</span></span> <span data-ttu-id="74598-123">困難之處在于判斷何時適合解除配置物件。</span><span class="sxs-lookup"><span data-stu-id="74598-123">The difficulty lies in determining when it is appropriate to deallocate an object.</span></span> <span data-ttu-id="74598-124">您可以使用自動變數 (在) 堆疊上配置的變數來進行這項工作，因為它們不能用在宣告的區塊之外，因此編譯器會在到達區塊結尾時將它們解除配置。</span><span class="sxs-lookup"><span data-stu-id="74598-124">This is easy with automatic variables (those allocated on the stack)—they cannot be used outside the block in which they're declared, so the compiler deallocates them when the end of the block is reached.</span></span> <span data-ttu-id="74598-125">若是動態配置的 COM 物件，則是由物件的用戶端決定何時不再需要使用該物件，尤其是可能同時由多個用戶端使用的本機或遠端物件。</span><span class="sxs-lookup"><span data-stu-id="74598-125">For COM objects, which are dynamically allocated, it is up to the clients of an object to decide when they no longer need to use the object—especially local or remote objects that might be in use by multiple clients at the same time.</span></span> <span data-ttu-id="74598-126">物件必須等到所有用戶端都完成後，才能釋出其本身。</span><span class="sxs-lookup"><span data-stu-id="74598-126">The object must wait until all clients are finished with it before freeing itself.</span></span> <span data-ttu-id="74598-127">由於 COM 物件是透過介面指標操作，而且可供不同進程或其他機器上的物件使用，因此系統無法追蹤物件的用戶端。</span><span class="sxs-lookup"><span data-stu-id="74598-127">Because COM objects are manipulated through interface pointers and can be used by objects in different processes or on other machines, the system cannot keep track of an object's clients.</span></span>
+
+<span data-ttu-id="74598-128">判斷何時適合解除配置物件的 COM 方法是手動參考計數。</span><span class="sxs-lookup"><span data-stu-id="74598-128">COM's method of determining when it is appropriate to deallocate an object is manual reference counting.</span></span> <span data-ttu-id="74598-129">每個物件都會維護一個參考計數來追蹤有多少用戶端連接到它，也就是在任何用戶端的任何介面上有多少指標存在。</span><span class="sxs-lookup"><span data-stu-id="74598-129">Each object maintains a reference count that tracks how many clients are connected to it - that is, how many pointers exist to any of its interfaces in any client.</span></span>
+
+<span data-ttu-id="74598-130">如需詳細資訊，請參閱下列主題：</span><span class="sxs-lookup"><span data-stu-id="74598-130">For more information, see the following topics:</span></span>
+
+-   [<span data-ttu-id="74598-131">正在執行參考計數</span><span class="sxs-lookup"><span data-stu-id="74598-131">Implementing Reference Counting</span></span>](implementing-reference-counting.md)
+-   [<span data-ttu-id="74598-132">管理參考計數的規則</span><span class="sxs-lookup"><span data-stu-id="74598-132">Rules for Managing Reference Counts</span></span>](rules-for-managing-reference-counts.md)
+
+## <a name="related-topics"></a><span data-ttu-id="74598-133">相關主題</span><span class="sxs-lookup"><span data-stu-id="74598-133">Related topics</span></span>
+
+<dl> <dt>
+
+[<span data-ttu-id="74598-134">使用和執行 IUnknown</span><span class="sxs-lookup"><span data-stu-id="74598-134">Using and Implementing IUnknown</span></span>](using-and-implementing-iunknown.md)
+</dt> </dl>
+
+ 
+
+ 
+
+
+
+
