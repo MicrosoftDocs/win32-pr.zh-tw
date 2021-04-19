@@ -1,0 +1,36 @@
+---
+description: 公園作業可讓應用程式將會話傳送至特殊位址，在此位址將會保留到已離開為止。
+ms.assetid: 6a82f03e-d8fd-4d0b-8f5d-f7934ba86759
+title: 公園
+ms.topic: article
+ms.date: 05/31/2018
+ms.openlocfilehash: aded4657a9d337d6d9c663622a5359856e964b90
+ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "106988823"
+---
+# <a name="park"></a><span data-ttu-id="a3f07-103">公園</span><span class="sxs-lookup"><span data-stu-id="a3f07-103">Park</span></span>
+
+<span data-ttu-id="a3f07-104">公園作業可讓應用程式將會話傳送至特殊位址，在此位址將會保留到已離開為止。</span><span class="sxs-lookup"><span data-stu-id="a3f07-104">The park operation allows an application to send a session to a special address where it will be held until unparked.</span></span> <span data-ttu-id="a3f07-105">從應用程式的觀點來看，這看起來很像是傳輸。</span><span class="sxs-lookup"><span data-stu-id="a3f07-105">From the point of view of the application, this looks much like a transfer.</span></span> <span data-ttu-id="a3f07-106">在連接另一端的合作物件中，這類似于保留。</span><span class="sxs-lookup"><span data-stu-id="a3f07-106">To the party on the other end of the connection, this resembles being put on hold.</span></span>
+
+<span data-ttu-id="a3f07-107">停車場和轉移之間的差異在於，暫停的位址不是會話的連接點，而會話不會發出警示或超時。停車場與保存之間的差異在於，當公園作業完成時，會話將不再與應用程式的位址相關聯。</span><span class="sxs-lookup"><span data-stu-id="a3f07-107">The difference between park and transfer is that the parked address is not a connection point for the session, and the session does not alert or time out. The difference between park and hold is that once park operation completes, the session is no longer associated with the application's address.</span></span>
+
+<span data-ttu-id="a3f07-108">提供兩種形式的停車會話： *導向公園* 和 *nondirected 公園*。</span><span class="sxs-lookup"><span data-stu-id="a3f07-108">Two forms of parking a session are provided: *directed park* and *nondirected park*.</span></span> <span data-ttu-id="a3f07-109">在「導向通話」中，應用程式會指定要暫停呼叫的目的地位址。</span><span class="sxs-lookup"><span data-stu-id="a3f07-109">In directed call park, the application specifies the destination address where the call is to be parked.</span></span> <span data-ttu-id="a3f07-110">使用 nondirected 公園時，服務提供者或基礎硬體會決定位址，並將其傳回給應用程式。</span><span class="sxs-lookup"><span data-stu-id="a3f07-110">With nondirected park, the service provider or underlying hardware determines the address and returns it to the application.</span></span>
+
+<span data-ttu-id="a3f07-111">已暫停的會話通常會在成功暫停之後進入閒置狀態，然後應用程式應該釋放與其相關聯的資源。</span><span class="sxs-lookup"><span data-stu-id="a3f07-111">A parked session typically enters the idle state after it has been successfully parked, and the application should then release the resources associated with it.</span></span> <span data-ttu-id="a3f07-112">如需如何進行這項作業的摘要，請參閱 [終止會話](terminate-a-session-ovr.md) 。</span><span class="sxs-lookup"><span data-stu-id="a3f07-112">See [Terminate a Session](terminate-a-session-ovr.md) for a summary of how to do this.</span></span>
+
+<span data-ttu-id="a3f07-113">如果應用程式 unparks 會話，即使應用程式傳回先前的指標，也會配置新的會話資源，因此無法進行適當的發行可能會導致各種問題。</span><span class="sxs-lookup"><span data-stu-id="a3f07-113">If the application unparks the session, new session resources are allocated even if the application has returned the previous pointers, so failure to do proper releases can result in a variety of problems.</span></span>
+
+<span data-ttu-id="a3f07-114">某些服務提供者可以在會話暫停一段很長的時間之後，提醒使用者。</span><span class="sxs-lookup"><span data-stu-id="a3f07-114">Some service providers can remind the user after a session has been parked for some long amount of time.</span></span> <span data-ttu-id="a3f07-115">應用程式會看到呼叫 [原因](reason-ovr.md) 設定為提醒的供應專案通話。</span><span class="sxs-lookup"><span data-stu-id="a3f07-115">The application sees an offering call with a call [reason](reason-ovr.md) set to reminder.</span></span>
+
+<span data-ttu-id="a3f07-116">並非所有服務提供者都支援使用這項作業。</span><span class="sxs-lookup"><span data-stu-id="a3f07-116">Not all service providers support use of this operation.</span></span>
+
+<span data-ttu-id="a3f07-117">**TAPI 2.x：** 請參閱 [**linePark**](/windows/win32/api/tapi/nf-tapi-linepark)、 [**lineUnpark**](/windows/win32/api/tapi/nf-tapi-lineunpark)。</span><span class="sxs-lookup"><span data-stu-id="a3f07-117">**TAPI 2.x:** See [**linePark**](/windows/win32/api/tapi/nf-tapi-linepark), [**lineUnpark**](/windows/win32/api/tapi/nf-tapi-lineunpark).</span></span>
+
+<span data-ttu-id="a3f07-118">**TAPI 3：** 請參閱 [**ITBasicCallControl：:P arkdirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect)、 [**ITBasicCallControl：:P arkindirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect)、 [**ITBasicCallControl：： Unpark**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark)。</span><span class="sxs-lookup"><span data-stu-id="a3f07-118">**TAPI 3:** See [**ITBasicCallControl::ParkDirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkdirect), [**ITBasicCallControl::ParkIndirect**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-parkindirect), [**ITBasicCallControl::Unpark**](/windows/desktop/api/tapi3if/nf-tapi3if-itbasiccallcontrol-unpark).</span></span>
+
+ 
+
+ 
