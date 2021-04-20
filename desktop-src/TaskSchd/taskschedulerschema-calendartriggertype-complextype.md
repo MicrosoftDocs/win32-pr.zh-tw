@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6f45434fa68b6300157a29318ba257f43bac5992
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a891f60d46f8826faed1cc4b95e4c55f6efa4f7f
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106976359"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734163"
 ---
 # <a name="calendartriggertype-complex-type"></a>calendarTriggerType 複雜類型
 
@@ -62,7 +62,7 @@ ms.locfileid: "106976359"
 
 | 元素                                                                                                      | 類型                                                                                                 | Description                                                                                                                                                                                                                               |
 |--------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RandomDelay**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | duration                                                                                             | 包含隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，P2DT5S 是2天、5秒的延遲) 。<br/> |
+| [**RandomDelay**](taskschedulerschema-randomdelay-calendartriggertype-element.md)                           | duration                                                                                             | 包含隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，P2DT5S 是2天、5秒的延遲) 。<br/> |
 | [**ScheduleByDay**](taskschedulerschema-schedulebyday-calendartriggertype-element.md)                       | [**dailyScheduleType**](taskschedulerschema-dailyscheduletype-complextype.md)                       | 指定每日排程。 例如，工作會在每天、每隔三天、每隔三天開始，依此類推。<br/>                                                                                                               |
 | [**ScheduleByMonth**](taskschedulerschema-schedulebymonth-calendartriggertype-element.md)                   | [**monthlyScheduleType**](taskschedulerschema-monthlyscheduletype-complextype.md)                   | 指定每月排程。 例如，工作會在每月特定日子的特定月份從上午8:00 開始。 <br/>                                                                                                       |
 | [**ScheduleByMonthDayOfWeek**](taskschedulerschema-schedulebymonthdayofweek-calendartriggertype-element.md) | [**monthlyDayOfWeekScheduleType**](taskschedulerschema-monthlydayofweekscheduletype-complextype.md) | 指定在每月一周的排程上啟動工作的觸發程式。 例如，工作會在一周的特定日子、每月的周數，以及當年的月份開始。 <br/>                                               |

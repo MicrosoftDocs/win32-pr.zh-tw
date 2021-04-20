@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9720bc2257d4c0b45116089bfdd4113335fc6b8c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bfb87884438f1a39a5bd6f08eb9bb855311eb5d3
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934141"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734193"
 ---
 # <a name="interval-repetitiontype-element"></a>間隔 (repetitionType) 元素
 
-指定工作每次重新開機之間的時間量。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
+指定工作每次重新開機之間的時間量。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
 
 ``` syntax
 <xs:element name="Interval">

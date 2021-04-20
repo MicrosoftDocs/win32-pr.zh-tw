@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f511e43ebb1d61fd80f2fcab34aba092704b8338
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f127c5d434b5cb1e6dec6d8a3c68ee343fa00ffc
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685638"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734143"
 ---
 # <a name="tasksettingsrestartinterval-property"></a>TaskSettings. RestartInterval 屬性
 
@@ -40,7 +40,7 @@ TaskSettings.RestartInterval As String
 
 ## <a name="property-value"></a>屬性值
 
-值，指定工作排程器將嘗試重新開機工作的時間長度。 如果設定這個屬性，也必須設定 [**RestartCount**](tasksettings-restartcount.md) 屬性。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
+值，指定工作排程器將嘗試重新開機工作的時間長度。 如果設定這個屬性，也必須設定 [**RestartCount**](tasksettings-restartcount.md) 屬性。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
 
 ## <a name="remarks"></a>備註
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8ca21464df967ff473a767e814b9ce6969a56c00
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f44f0959a9f67e4bfee0b0ef5dd7f095ffbadce
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969564"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734133"
 ---
 # <a name="timetriggertype-complex-type"></a>timeTriggerType 複雜類型
 
@@ -47,7 +47,7 @@ ms.locfileid: "106969564"
 
 | 元素                                                                        | 類型     | Description                                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | 指定隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，P2DT5S 是2天、5秒的延遲) 。 <br/> |
+| [**RandomDelay**](taskschedulerschema-randomdelay-timetriggertype-element.md) | duration | 指定隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，P2DT5S 是2天、5秒的延遲) 。 <br/> |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d62bb821f4c5e61d344e21fafa4ba1265c73470
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c1e81920fffe5c9fd58dd36a028b924f54ebe6dd
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508867"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734173"
 ---
 # <a name="repetitionpatterninterval-property"></a>RepetitionPattern. Interval 屬性
 
@@ -38,7 +38,7 @@ RepetitionPattern.Interval As String
 
 ## <a name="property-value"></a>屬性值
 
-每次重新開機工作之間的時間量。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
+每次重新開機工作之間的時間量。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
 
 ## <a name="remarks"></a>備註
 

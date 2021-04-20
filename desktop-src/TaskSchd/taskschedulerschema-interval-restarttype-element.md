@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c97e754e0b29a43d6ba419bd806404fe1b85b2b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e731582364df23bdef800ab5d2cf15dd5c882ae
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934015"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734183"
 ---
 # <a name="interval-restarttype-element"></a>間隔 (restartType) 元素
 
-指定工作排程器將嘗試重新開機工作的時間長度。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
+指定工作排程器將嘗試重新開機工作的時間長度。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，"PT5M" 為5分鐘、"PT1H" 為1小時，而 "PT20M" 為20分鐘) 。 允許的時間上限為31天，而允許的最短時間為1分鐘。
 
 ``` syntax
 <xs:element name="Interval">

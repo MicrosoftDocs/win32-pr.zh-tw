@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b290e3a0bae1f8032b19d4d07203a64e1d1686
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: aa7f5c3a1831681cca2b3dc006ffb7a7d44a7a6a
+ms.sourcegitcommit: b3a9abea47dea7374eac0f9a95a652ac6977fb2e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988129"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "107734113"
 ---
 # <a name="monthlytriggerrandomdelay-property"></a>MonthlyTrigger. RandomDelay 屬性
 
@@ -38,7 +38,7 @@ MonthlyTrigger.RandomDelay As String
 
 ## <a name="property-value"></a>屬性值
 
-隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 P <days> DT <hours> H <minutes> M <seconds> S (例如，P2DT5S 是2天、5秒的延遲) 。
+隨機新增至觸發程式開始時間的延遲時間。 此字串的格式為 `P<days>DT<hours>H<minutes>M<seconds>S` (例如，P2DT5S 是2天、5秒的延遲) 。
 
 ## <a name="requirements"></a>規格需求
 
