@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 5808381f2e812ac20399b46672e51acd063bc6a5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106992629"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804049"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>DML_RESAMPLE_GRAD_OPERATOR_DESC 結構 (directml .h) 
 
@@ -79,7 +79,7 @@ InputGradientTensor           OutputGradientTensor
 請注意， *OutputGradientTensor* 中的值代表該元素在原始 **DML_RESAMPLE1_OPERATOR_DESC** 運算子期間對 *OutputTensor* 的加權貢獻。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 
@@ -124,19 +124,19 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Scales`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *刻度*。
 
 `InputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *InputPixelOffsets* 。
 
 `OutputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *OutputPixelOffsets* 。
 

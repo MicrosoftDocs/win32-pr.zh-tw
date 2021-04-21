@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ARGMIN_OPERATOR_DESC
-ms.openlocfilehash: 30d281c6ab35675e0cfce80b7eb025292c501041
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 2e12a81593504a4eb7a0917e545bfa20c70647ff
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106981917"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804074"
 ---
 # <a name="dml_argmin_operator_desc-structure-directmlh"></a>DML_ARGMIN_OPERATOR_DESC 結構 (directml .h) 
 
@@ -59,7 +59,7 @@ ms.locfileid: "106981917"
 每個輸出元素都是在輸入 tensor 的子集上套用 *argmin* 減少的結果。 *Argmin* 函式會輸出一組輸入元素中最小值元素的索引。 每個減少所涉及的輸入元素是由提供的輸入軸所決定。 同樣地，每個輸出索引都與提供的輸入軸有關。 如果指定了所有的輸入軸，則運算子會套用單一 *argmin* 減少，並產生單一的輸出元素。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp
@@ -92,13 +92,13 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `AxisCount`
 
-類型： **[UINT](/windows/desktop/WinProg/windows-data-types)**
+類型： **[UINT](/windows/win32/winprog/windows-data-types)**
 
 要減少的軸數目。 此欄位會決定 *軸* 陣列的大小。
 
 `Axes`
 
-類型： \_ Field_size \_ (AxisCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 要減少的軸。 值必須在範圍內 `[0, InputTensor.DimensionCount - 1]` 。
 

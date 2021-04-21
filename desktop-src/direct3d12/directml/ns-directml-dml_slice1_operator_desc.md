@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SLICE1_OPERATOR_DESC
-ms.openlocfilehash: 06721a7484426eb293494156a2ec23db6fbf0a6b
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f34525865be9541da879e66e88c29d4a2ab74f00
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106981916"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803959"
 ---
 # <a name="dml_slice1_operator_desc-structure-directmlh"></a>DML_SLICE1_OPERATOR_DESC 結構 (directml .h) 
  (輸入 tensor 的「配量」 ) 解壓縮單一子領域。
@@ -83,7 +83,7 @@ MaxCopiedElements[i] = 1 + (InputWindowSize[i] - 1) / InputWindowStrides[i]
 輸出 tensor 不需要複製視窗內所有可連接的元素。 配量有效，只要 `1 <= OutputSizes[i] <= MaxCopiedElements[i]` 。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

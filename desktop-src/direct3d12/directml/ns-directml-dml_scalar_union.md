@@ -45,18 +45,18 @@ api_location:
 - DirectML.h
 api_name:
 - DML_SCALAR_UNION
-ms.openlocfilehash: 0abef8cd5a694fa82e0e54e334834773f1f75e20
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d53ec7025d3da5a07a648849e366d436755ad3f1
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106986427"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803963"
 ---
 # <a name="dml_scalar_union-union-directmlh"></a>DML_SCALAR_UNION 聯集 (directml .h) 
 純量類型的聯集。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

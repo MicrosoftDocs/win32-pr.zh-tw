@@ -1,19 +1,19 @@
 ---
 title: DirectML 版本歷程記錄
-description: DirectML 是以 Windows 10 的系統元件的形式散發，並可作為 windows 10 作業系統) windows 10 1903 版 (10.0; 中的 Windows 10 作業系統 (作業系統。組建 18362) 和更新版本。
+description: DirectML 是以 Windows 10 的系統元件的形式來散發，並可作為 Windows 10 作業系統 (OS) 版本 1903 Windows 10 10.0;組建 18362) 和更新版本。
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 04cb7a2c906d7674c793a9a99e21609ea874dbc1
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f5e0a478b2d4c6728a1cd53388ba09af8e5bbc0e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104548477"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803934"
 ---
 # <a name="directml-version-history"></a>DirectML 版本歷程記錄
 
-DirectML 是以 Windows 10 的系統元件的形式散發，並可作為 windows 10 作業系統) windows 10 1903 版 (10.0; 中的 Windows 10 作業系統 (作業系統。組建 18362) 和更新版本。
+DirectML 是以 Windows 10 的系統元件的形式來散發，並可作為 Windows 10 作業系統 (OS) 版本 1903 Windows 10 10.0;組建 18362) 和更新版本。
 
 從 DirectML 版本1.4.0 開始，DirectML 也可做為獨立的可轉散發套件， (查看 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)) ，此功能適用于想要使用固定版本 DirectML 的應用程式，或在舊版 Windows 10 上執行時。
 
@@ -23,9 +23,10 @@ DirectML 遵循 [語義版本](https://semver.org/) 設定慣例。 亦即，版
 
 |DirectML 版本|支援的功能層級 (參閱 [DirectML 功能層級歷程記錄](./dml-feature-level-history.md)) |DML_TARGET_VERSION|首次提供| (可轉散發套件中的第一版) |
 |-|-|-|-|-|-|
-|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4。0](https://www.nuget.org/packages/Microsoft.AI.DirectML/)|
-|1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10 2004 版 (10.0;組建 19041)  (Windows 10 2020 版更新) 。 也稱為「20H1」。|N/A|
-|1.0.0|DML_FEATURE_LEVEL_1_0|`0x1000`|Windows 10 1903 版 (10.0;組建 18362)  (Windows 10 2019 版更新) 。 也稱為「19H1」。|N/A|
+|1.5.0|DML_FEATURE_LEVEL_3_1|`0x3100`|N/A|[DirectML-1.5。0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.5.0)|
+|1.4.0<sup>1</sup>|DML_FEATURE_LEVEL_3_0|`0x3000`|N/A|[DirectML-1.4。0](https://www.nuget.org/packages/Microsoft.AI.DirectML/1.4.0)|
+|1.1.0|DML_FEATURE_LEVEL_2_0|`0x2000`|Windows 10，版本 2004 (10.0;組建 19041)  (Windows 10 2020 Update) 。 也稱為「20H1」。|N/A|
+|1.0.0|DML_FEATURE_LEVEL_1_0|`0x1000`|Windows 10，版本 1903 (10.0;組建 18362)  (Windows 10 2019 年5月更新) 。 也稱為「19H1」。|N/A|
 
 <sup>1</sup> 1.2.0 和1.3.0 中繼版本的 DirectML 未提供廣泛的支援。
 
@@ -54,7 +55,7 @@ DirectML 遵循 [語義版本](https://semver.org/) 設定慣例。 亦即，版
 
 ### <a name="example"></a>範例
 
-請考慮使用版本 10.0.19041.0 (Windows 10) 2004 版 windows 軟體發展工具組 (SDK) 的應用程式。 從上表中，這個對應的 DirectML 版本是1.1.0，而對應的 `DML_TARGET_VERSION` 是 `0x2000` 。
+請考慮使用版本 10.0.19041.0 (Windows 10，Windows 軟體開發套件 (SDK) 版本 2004) 的應用程式。 從上表中，這個對應的 DirectML 版本是1.1.0，而對應的 `DML_TARGET_VERSION` 是 `0x2000` 。
 
 如果您未設定 `DML_TARGET_VERSION` 或 `NTDDI_VERSION` 宏，則選取的目標版本將預設為 `0x2000` ，而且中的所有專案都可供 `DirectML.h` 使用。
 
@@ -70,6 +71,6 @@ DirectML 版本 (例如，1.0.0 或 1.4.0) 說明特定版本的 DirectML，包�
 
 ## <a name="see-also"></a>另請參閱
 
-[DirectML 功能等級歷程記錄](./dml-feature-level-history.md) 
-[DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level) 
-[DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)可轉散發套件
+* [DirectML 功能等級歷程記錄](./dml-feature-level-history.md)
+* [DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level)
+* [DirectML 可轉散發套件](https://www.nuget.org/packages/Microsoft.AI.DirectML/)

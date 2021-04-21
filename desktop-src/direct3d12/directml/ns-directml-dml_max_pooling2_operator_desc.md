@@ -37,18 +37,18 @@ api_name:
 f1_keywords:
 - DML_MAX_POOLING2_OPERATOR_DESC
 - directml/DML_MAX_POOLING2_OPERATOR_DESC
-ms.openlocfilehash: 7d2dc9d28e8afcaa5cc6277e26f1f663f3f6688f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 06e4d7eb01abab9c412238e353a73607df02b219
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106984267"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803669"
 ---
 # <a name="dml_max_pooling2_operator_desc-structure-directmlh"></a>DML_MAX_POOLING2_OPERATOR_DESC 結構 (directml .h) 
 在 [輸入] tensor 上，計算滑動視窗內各元素的最大值，並選擇性地傳回所選最大值的索引。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

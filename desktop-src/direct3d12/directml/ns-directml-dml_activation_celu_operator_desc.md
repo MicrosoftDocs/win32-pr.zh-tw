@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ACTIVATION_CELU_OPERATOR_DESC
-ms.openlocfilehash: d474bd44c8a830117bb62927f4bda954a753b612
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b6497e995601d7e9e01696f39920672674be07c4
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106993772"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803733"
 ---
 # <a name="dml_activation_celu_operator_desc-structure-directmlh"></a>DML_ACTI加值稅ION_CELU_OPERATOR_DESC 結構 (directml .h) 
 
@@ -68,7 +68,7 @@ f(x) = max(0, x) + min(0, Alpha * (exp(x / Alpha) - 1));
 這個運算子支援就地執行，這表示在系結期間允許輸出 tensor 別名 *InputTensor* 。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp
@@ -96,7 +96,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Alpha`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 Alpha 係數。 此值的典型預設值為1.0。
 

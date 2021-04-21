@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_OPERATOR_GRAPH_NODE_DESC
-ms.openlocfilehash: 6081f81044ff2ce384f7906af9c6e80f6b06f774
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 997f441de76a60229b76f2f7d67b7acf1a26ed5f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106986428"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803557"
 ---
 # <a name="dml_operator_graph_node_desc-structure-directmlh"></a>DML_OPERATOR_GRAPH_NODE_DESC 結構 (directml .h) 
 會說明由 [DML_GRAPH_DESC](/windows/desktop/direct3d12/directml/ns-directml-dml_graph_desc) 所定義之 DirectML 運算子圖形內的節點，並傳遞至 [IDMLDevice1：： CompileGraph](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)。
@@ -57,7 +57,7 @@ ms.locfileid: "106986428"
 此節點的行為是由 DirectML 運算子所定義。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

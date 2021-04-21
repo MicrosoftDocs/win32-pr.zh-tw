@@ -35,12 +35,12 @@ f1_keywords:
 - directml/DML_ELEMENT_WISE_IS_INFINITY_OPERATOR_DESC
 dev_langs:
 - c++
-ms.openlocfilehash: b4f3f07fcbe303e86b422206a8f07eb75fb09d70
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 41be7751b542436b481da784c60ae79ad554cd12
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998558"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803101"
 ---
 # <a name="dml_element_wise_is_infinity_operator_desc-structure-directmlh"></a>DML_ELEMENT_WISE_IS_INFINITY_OPERATOR_DESC 結構 (directml .h) 
 
@@ -54,7 +54,7 @@ f(x) = isinf(x) && (
 ```
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

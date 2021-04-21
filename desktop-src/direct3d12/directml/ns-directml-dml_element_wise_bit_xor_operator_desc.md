@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_XOR_OPERATOR_DESC
-ms.openlocfilehash: 73a811448b7c2b7839afd6e926acb0bf04a2ff44
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: fcedb2c33f1c63196a9e6783daaa9f2d863e99f0
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106986424"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803187"
 ---
 # <a name="dml_element_wise_bit_xor_operator_desc-structure-directmlh"></a>DML_ELEMENT_WISE_BIT_XOR_OPERATOR_DESC 結構 (directml .h) 
 
@@ -61,7 +61,7 @@ ms.locfileid: "106986424"
 這個運算子支援就地執行，這表示允許輸出 tensor 在系結期間為一或多個輸入張量加上別名。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 

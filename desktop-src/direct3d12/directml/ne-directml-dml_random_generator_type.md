@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_TYPE
-ms.openlocfilehash: bcb79fe7737e8b9ddb461c8da8a901960a4b23f8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c08b5cdc07280a2851636a555415ecce515fa79b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998183"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803754"
 ---
 # <a name="dml_random_generator_type-enumeration-directmlh"></a>DML_RANDOM_GENERATOR_TYPE 列舉 (directml .h) 
 
 定義常數，指定隨機亂數產生器的類型。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>Syntax
 ```cpp

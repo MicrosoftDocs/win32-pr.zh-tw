@@ -46,12 +46,12 @@ api_location:
 - DirectML.h
 api_name:
 - IDMLDevice1
-ms.openlocfilehash: a23d6ec4299a2aa3ca7e9f6873167412d094af8d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7a10cf2c9fe683775d163c7b5cb0e30fe07de08f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106976396"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803741"
 ---
 # <a name="idmldevice1-interface-directmlh"></a>IDMLDevice1 介面 (directml .h) 
 
@@ -62,7 +62,7 @@ DirectML 裝置一律會與一個基礎 Direct3D 12 裝置相關聯。 DirectML 
 此物件是安全線程。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="availability"></a>可用性
 此 API 是在 DirectML 版本中引進 `1.1.0` 。

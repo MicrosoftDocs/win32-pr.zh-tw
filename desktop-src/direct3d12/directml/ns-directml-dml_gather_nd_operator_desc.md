@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GATHER_ND_OPERATOR_DESC
-ms.openlocfilehash: 6a48fd19621bed100a13412dbb1992974d125323
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8e74078eaf55f209fba92ba97737d22047a5e67c
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988153"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802901"
 ---
 # <a name="dml_gather_nd_operator_desc-structure-directmlh"></a>DML_GATHER_ND_OPERATOR_DESC 結構 (directml .h) 
 
@@ -60,7 +60,7 @@ output[...] = input[indices[...]]
 ```
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

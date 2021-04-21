@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 11/04/2020
-ms.openlocfilehash: d6c3791812f3ac1191f1959150bd5ac7059c54fb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ad4ff8c409f79a03cb4021974fe374498926c3e2
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988575"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803407"
 ---
 # <a name="directml-constants"></a>DirectML 常數
 
@@ -37,7 +37,7 @@ ms.locfileid: "106988575"
 
 | 需求 | 值 |
 |-|-|
-| 標頭 | D3D12。h |
+| 標頭 | DirectML。h |
 
 ## <a name="see-also"></a>另請參閱
 

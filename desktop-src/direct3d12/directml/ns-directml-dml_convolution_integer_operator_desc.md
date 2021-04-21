@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CONVOLUTION_INTEGER_OPERATOR_DESC
-ms.openlocfilehash: c16690ea1e3049ffeba398bbbaca2003f965a832
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 07406155be9ae5f78fbf5f3b7fcd750aa4631dbc
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106985799"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803374"
 ---
 # <a name="dml_convolution_integer_operator_desc-structure-directmlh"></a>DML_CONVOLUTION_INTEGER_OPERATOR_DESC 結構 (directml .h) 
 
 使用 *InputTensor* 執行 *FilterTensor* 的卷積。 這個運算子會在整數資料上執行向前卷積。 選擇性的零點張量也可以用來從輸入和篩選 tensor 減去零點值。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp
@@ -122,28 +122,28 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Strides`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 陣列，包含卷積運算的進展。 這些進展適用于卷積篩選。 它們與 [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)中包含的 tensor 進步不同。
 
 
 `Dilations`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 陣列，包含卷積運算的 dilations。 Dilations 是套用至篩選核心元素的進展。 這有藉由以零填補內部篩選核心元素來模擬較大的篩選核心效果。
 
 
 `StartPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 陣列，包含要套用至卷積作業之篩選和輸入 tensor 的每個空間維度開頭的填補值。
 
 
 `EndPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 陣列，包含要套用至卷積作業之篩選和輸入 tensor 的每個空間維度結尾的填補值。
 

@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_EDGE_TYPE
-ms.openlocfilehash: 19b11686f3741c386ca03e84af5a41af1ce5cb52
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d65649fcd2115cc7cdcc1b01da20ef44b0436e6f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106997311"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803796"
 ---
 # <a name="dml_graph_edge_type-enumeration-directmlh"></a>DML_GRAPH_EDGE_TYPE 列舉 (directml .h) 
 
 定義指定圖形邊緣類型的常數。 如需此列舉的用法，請參閱 [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) 。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>Syntax
 ```cpp

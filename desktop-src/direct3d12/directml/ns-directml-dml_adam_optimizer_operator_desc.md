@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ADAM_OPTIMIZER_OPERATOR_DESC
-ms.openlocfilehash: a4acd26f5174bf6c6ae53f5edfdc28cc6c9b1a3d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 9943f70bd3d62faf57f4eca83f9f09ce0119881a
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106976618"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803528"
 ---
 # <a name="dml_adam_optimizer_operator_desc-structure-directmlh"></a>DML_ADAM_OPTIMIZER_OPERATOR_DESC 結構 (directml .h) 
 
@@ -82,7 +82,7 @@ OutputSecondMomentTensor = V
 除了計算 (在 *OutputParametersTensor*) 中傳回的更新權數參數之外，此運算子也會分別傳回 *OutputFirstMomentTensor* 和 *OutputSecondMomentTensor* 中更新的第一次和第二次預估值。 一般而言，您應該儲存這些第一次和第二次的估計值，並在後續定型步驟中提供它們作為輸入。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

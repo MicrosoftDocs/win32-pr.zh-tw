@@ -45,19 +45,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ROI_ALIGN_OPERATOR_DESC
-ms.openlocfilehash: 987aef7d7002892b8af3167fb8da2b74dc80a12e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b9004a77d3b325dd3394d1a3a6b596e94997e9fd
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106976620"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804012"
 ---
 # <a name="dml_roi_align_operator_desc-structure-directmlh"></a>DML_ROI_ALIGN_OPERATOR_DESC 結構 (directml .h) 
 
 Performs an ROI Align operation, as described in the [Mask R-CNN paper](https://arxiv.org/abs/1703.06870). 總而言之，此作業會解壓縮來自輸入影像 tensor 的裁剪，並使用指定的 *InterpolationMode*，將其調整為 *OutputTensor* 最後2個維度所指定的一般輸出大小。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 
@@ -121,31 +121,31 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `SpatialScaleX`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 縮放係數的 X (或寬度) 元件，用以乘以 *ROITensor* 座標，以便讓它們與 *InputHeight* 和 *InputWidth* 成正比。 例如，如果 *ROITensor* 包含正規化座標 (範圍 [0 ..1] ) 中的值，則 *SpatialScaleX* 通常會具有與 *InputWidth* 相同的值。
 
 `SpatialScaleY`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 縮放係數的 Y (或高度) 元件，用來乘以 *ROITensor* 座標，以便讓它們與 *InputHeight* 和 *InputWidth* 成正比。 例如，如果 *ROITensor* 包含正規化座標 (範圍 [0 ..1] ) 中的值，則 *SpatialScaleY* 通常會具有與 *InputHeight* 相同的值。
 
 `OutOfBoundsInputValue`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">FLOAT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">FLOAT</a></b>
 
 當 ROIs 超出 *InputTensor* 的界限時，從 *InputTensor* 讀取的值。 當在 *SpatialScaleX* 和 *SpatialScaleY* 的調整 *ROITensor* 之後取得的值大於 *InputWidth* 和 *InputHeight* 時，就會發生這種情況。
 
 `MinimumSamplesPerOutput`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">UINT</a></b>
 
 每個輸出元素要使用的輸入樣本數目下限。 運算子會計算輸入樣本的數目 `ScaledCropSize / OutputSize` ，然後將其設為 *MinimumSamplesPerOutput* 和 *MaximumSamplesPerOutput*。
 
 `MaximumSamplesPerOutput`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">UINT</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">UINT</a></b>
 
 每個輸出元素要使用的輸入樣本數上限。 運算子會計算輸入樣本的數目 `ScaledCropSize / OutputSize` ，然後將其設為 *MinimumSamplesPerOutput* 和 *MaximumSamplesPerOutput*。
 

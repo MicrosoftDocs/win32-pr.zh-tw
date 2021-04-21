@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_SHIFT_LEFT_OPERATOR_DESC
-ms.openlocfilehash: 24f58a5c235b6d67ca2dee712398dacc828d8f51
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 993e8f2969752c8e2133f685685d69942c77b506
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106981726"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803213"
 ---
 # <a name="dml_element_wise_bit_shift_left_operator_desc-structure-directmlh"></a>DML_ELEMENT_WISE_BIT_SHIFT_LEFT_OPERATOR_DESC 結構 (directml .h) 
 
@@ -62,7 +62,7 @@ f(a, b) = (a << b)
 這個運算子支援就地執行，這表示允許 *OutputTensor* 在系結期間為其中一個輸入張量加上別名。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 79a43e93f504e8d6f36553a4f672ef7e5845610f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998181"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803360"
 ---
 # <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a>DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC 結構 (directml .h) 
 
@@ -77,7 +77,7 @@ InputGradientTensor            OutputGradientTensor
 請注意， *OutputGradientTensor* 中的值代表該元素在原始 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)運算子期間對 *OutputTensor* 的加權貢獻。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 
@@ -117,31 +117,31 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Strides`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *進步*。
 
 `WindowSize`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *WindowSize* 。
 
 `StartPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *StartPadding* 。
 
 `EndPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
 
 請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *EndPadding* 。
 
 `IncludePadding`
 
-類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b>
+類型： <b> <a href="/windows/win32/winprog/windows-data-types">BOOL</a></b>
 
 請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *IncludePadding* 。
 

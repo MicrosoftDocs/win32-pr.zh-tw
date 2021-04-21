@@ -46,12 +46,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC
-ms.openlocfilehash: f6ecccf49b0d7123e6f41321c7ba1bf8e8d4ad87
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: f498e84208da451b5d25ffef90219c0037ce86fb
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "107000341"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107802839"
 ---
 # <a name="dml_matrix_multiply_integer_operator_desc-structure-directmlh"></a>DML_MATRIX_MULTIPLY_INTEGER_OPERATOR_DESC 結構 (directml .h) 
 在整數資料上執行矩陣乘法函數。
@@ -61,7 +61,7 @@ ms.locfileid: "107000341"
 例如，如果 *ATensor* 的 *大小* 為， `{ BatchCount, ChannelCount, M, K }` 且 *BTensor* *的大小* 為 `{ BatchCount, ChannelCount, K, N }` ，而 *OutputTensor* 的大小為， `{ BatchCount, ChannelCount, M, N }` 則矩陣乘法運算子將會執行 BatchCount * ChannelCount 獨立矩陣乘法運算的維度 {M，K} x {K，n} = {M，n}。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp

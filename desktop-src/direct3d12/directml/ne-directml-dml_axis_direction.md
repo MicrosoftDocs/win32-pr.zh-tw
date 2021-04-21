@@ -39,19 +39,19 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AXIS_DIRECTION
-ms.openlocfilehash: 18cd2189f88378245be0824e0a68e5f618008bc7
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e54d2abed3843ea9b2a22cb3c385f9edd1541ba5
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106985794"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803779"
 ---
 # <a name="dml_axis_direction-enumeration-directmlh"></a>DML_AXIS_DIRECTION 列舉 (directml .h) 
 
 定義常數，以指定運算子的指定軸的方向 (例如，加總，選取最小的專案，然後選取) 的最小元素。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>Syntax
 ```cpp

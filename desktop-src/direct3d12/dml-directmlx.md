@@ -4,12 +4,12 @@ description: DirectMLX 是適用于 DirectML 的僅限 c + + 標頭協助程式�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 8388edd51b6ad3ca30fe1c65947167cee7dac5e6
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 2ddd6d9063002b76449224ebafdb6dd021b27fa0
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104548479"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803357"
 ---
 # <a name="directmlx"></a>DirectMLX
 
@@ -45,10 +45,10 @@ IDMLDevice* device;
 
 /* ... */
 
-dml::Scope scope(device);
+dml::Graph graph(device);
 
 // Input tensor of type FLOAT32 and sizes { 1, 2, 3, 4 }
-auto x = dml::InputTensor(scope, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, {1, 2, 3, 4}));
+auto x = dml::InputTensor(graph, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, {1, 2, 3, 4}));
 
 // Create an operator to compute the square root of x
 auto y = dml::Sqrt(x);
@@ -56,7 +56,7 @@ auto y = dml::Sqrt(x);
 // Compile a DirectML operator from the graph. When executed, this compiled operator will compute
 // the square root of its input.
 DML_EXECUTION_FLAGS flags = DML_EXECUTION_FLAG_NONE;
-ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { y });
+ComPtr<IDMLCompiledOperator> op = graph.Compile(flags, { y });
 
 // Now initialize and dispatch the DML operator as usual
 ```
@@ -88,19 +88,19 @@ std::pair<dml::Expression, dml::Expression>
 
 /* ... */
 
-dml::Scope scope(device);
+dml::Graph graph(device);
 
 dml::TensorDimensions inputSizes = {1, 2, 3, 4};
-auto a = dml::InputTensor(scope, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
-auto b = dml::InputTensor(scope, 1, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
-auto c = dml::InputTensor(scope, 2, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto a = dml::InputTensor(graph, 0, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto b = dml::InputTensor(graph, 1, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
+auto c = dml::InputTensor(graph, 2, dml::TensorDesc(DML_TENSOR_DATA_TYPE_FLOAT32, inputSizes));
 
 auto [x1, x2] = QuadraticFormula(a, b, c);
 
 // When executed with input tensors a, b, and c, this compiled operator computes the two outputs
 // of the quadratic formula, and returns them as two output tensors x1 and x2
 DML_EXECUTION_FLAGS flags = DML_EXECUTION_FLAG_NONE;
-ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { x1, x2 });
+ComPtr<IDMLCompiledOperator> op = graph.Compile(flags, { x1, x2 });
 
 // Now initialize and dispatch the DML operator as usual
 ```
@@ -109,7 +109,7 @@ ComPtr<IDMLCompiledOperator> op = scope.Compile(flags, { x1, x2 });
 
 您可以在 [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Samples)存放庫中找到使用 DirectMLX 的完整範例。
 
-## <a name="compile-time-options"></a>Compile-Time 選項
+## <a name="compile-time-options"></a>編譯時間選項
 
 DirectMLX 支援編譯時間 #define，以自訂標頭的各部分。
 
@@ -120,7 +120,7 @@ DirectMLX 支援編譯時間 #define，以自訂標頭的各部分。
 |**DMLX_USE_ABSEIL**|如果 #define，則會使用 [Abseil](https://github.com/abseil/abseil-cpp) 作為 c + + 11 中無法使用之標準程式庫類型的放置取代。 這些類型包括 `absl::optional` (取代 `std::optional`) 、 `absl::Span` (取代 `std::span`) 和 `absl::InlinedVector` 。|
 |**DMLX_USE_GSL**|控制是否要使用 [GSL](https://github.com/microsoft/GSL) 做為的取代 `std::span` 。 如果 #define， `std::span` 則會 `gsl::span` 在沒有原生執行的編譯器上取代使用 `std::span` 。 否則，會改為提供內嵌的拖放實作為。 請注意，只有在不支援的 C + + + + 20 編譯器上編譯時 `std::span` ，以及沒有任何其他的拖放標準程式庫取代 (（例如 Abseil) 正在使用中）時，才會使用此選項。|
 
-## <a name="controlling-tensor-layout"></a>控制 Tensor 版面配置
+## <a name="controlling-tensor-layout"></a>控制 tensor 版面配置
 
 針對大部分的運算子，DirectMLX 會代表您計算操作員輸出張量的屬性。 例如 `dml::Reduce` `{ 0, 2, 3 }` ，在具有大小輸入 tensor 的座標軸上執行時 `{ 3, 4, 5, 6 }` ，DirectMLX 將會自動計算輸出 tensor 的屬性，包括的正確圖形 `{ 1, 4, 1, 1 }` 。
 
@@ -128,7 +128,7 @@ DirectMLX 支援編譯時間 #define，以自訂標頭的各部分。
 
 DirectMLX 支援使用稱為 *tensor 原則* 的物件來自訂這些輸出 tensor 屬性的功能。 **TensorPolicy** 是可自訂的回呼，會由 DirectMLX 叫用，並在給定 tensor 的計算資料類型、旗標和大小的情況下，傳回輸出 tensor 屬性。
 
-您可以在 **dml：： Scope** 物件上設定 Tensor 原則，並將它用於該圖表上的所有後續運算子。 您也可以在建立 **TensorDesc** 時直接設定 Tensor 原則。
+您可以在 **dml：： Graph** 物件上設定 Tensor 原則，並將它用於該圖表上的所有後續運算子。 您也可以在建立 **TensorDesc** 時直接設定 Tensor 原則。
 
 因此，DirectMLX 所產生的張量配置可以藉由設定 **TensorPolicy** ，在其張量上設定適當的進展來控制。
 
@@ -151,9 +151,9 @@ dml::TensorProperties MyCustomPolicy(
     return props;
 };
 
-// Set the policy on the dml::Scope
-dml::Scope scope(/* ... */);
-scope.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
+// Set the policy on the dml::Graph
+dml::Graph graph(/* ... */);
+graph.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
 ```
 
 ### <a name="example-2"></a>範例 2
@@ -161,9 +161,9 @@ scope.SetTensorPolicy(dml::TensorPolicy(&MyCustomPolicy));
 DirectMLX 也提供一些內建的替代 tensor 原則。 例如， **InterleavedChannel** 原則是為了方便起見而提供，可用來產生張量的進展，使其以 NHWC 順序撰寫。
 
 ```cpp
-// Set the InterleavedChannel policy on the dml::Scope
-dml::Scope scope(/* ... */);
-scope.SetTensorPolicy(dml::TensorPolicy::InterleavedChannel());
+// Set the InterleavedChannel policy on the dml::Graph
+dml::Graph graph(/* ... */);
+graph.SetTensorPolicy(dml::TensorPolicy::InterleavedChannel());
 
 // When executed, the tensor `result` will be in NHWC layout (rather than the default NCHW)
 auto result = dml::Convolution(/* ... */);

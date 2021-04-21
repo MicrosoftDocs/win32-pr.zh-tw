@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_OPERATOR_DESC
-ms.openlocfilehash: 19e01ec8dc47e65ace996deef5954c35e21bf5bb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6807c3a1ac91716739075f51196a75ae76ca479b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106989103"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107804073"
 ---
 # <a name="dml_random_generator_operator_desc-structure-directmlh"></a>DML_RANDOM_GENERATOR_OPERATOR_DESC 結構 (directml .h) 
 
@@ -61,7 +61,7 @@ ms.locfileid: "106989103"
 這個運算子所執行的產生器不會以密碼編譯方式安全;因此，此操作員不應用於加密、金鑰產生，或需要以密碼編譯安全亂數產生的其他應用程式。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 

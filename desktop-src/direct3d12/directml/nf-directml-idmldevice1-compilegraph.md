@@ -50,12 +50,12 @@ api_location:
 - DirectML.dll
 api_name:
 - IDMLDevice1.CompileGraph
-ms.openlocfilehash: 25dbc62fac9cd38d9728a295e336038441aee19f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8a9b4ce9bd8f8bd8b1d6f2a6bbd144009eb0d79d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106981915"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803748"
 ---
 # <a name="idmldevice1compilegraph-method-directmlh"></a>IDMLDevice1：： CompileGraph 方法 (directml .h) 
 
@@ -66,7 +66,7 @@ ms.locfileid: "106981915"
 在這個方法傳回之後，編譯的運算子不會使用或參考圖形描述內提供的 [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) 物件。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 

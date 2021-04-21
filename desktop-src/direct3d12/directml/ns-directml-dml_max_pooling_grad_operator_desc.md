@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MAX_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: b7314cb6b9456d9ac9f99e90100085e86f88ffd9
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3b0b10fa8ee17c9d06e779c3c990f134bc4ae669
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106982812"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803432"
 ---
 # <a name="dml_max_pooling_grad_operator_desc-structure-directmlh"></a>DML_MAX_POOLING_GRAD_OPERATOR_DESC 結構 (directml .h) 
 
@@ -79,7 +79,7 @@ InputTensor   InputGradientTensor            OutputGradientTensor
 如果系結 (，視窗中有一個以上的元素有相同的最大值) ，則會選擇具有最低邏輯元素索引的專案。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 

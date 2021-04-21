@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_SCATTER_ND_OPERATOR_DESC
 - directml/DML_SCATTER_ND_OPERATOR_DESC
-ms.openlocfilehash: ae9a3022a7070bbf0253e71550f2ca1ceced6768
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 6c987e01862d849c6215a2d25fe957ef0a22e7af
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998560"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803974"
 ---
 # <a name="dml_scatter_nd_operator_desc-structure-directmlh"></a>DML_SCATTER_ND_OPERATOR_DESC 結構 (directml .h) 
 將整個輸入 tensor 複製到輸出，然後使用 [更新] tensor 中的對應值來覆寫選取的索引。 這個運算子會執行下列虛擬虛擬，其中 "..."代表一系列的座標，其確切行為取決於軸和索引的大小。
@@ -57,7 +57,7 @@ output[indices[...]] = updates[...]
 如果有兩個輸出元素索引 () 無效，則無法保證最後寫入的最後一個。
 
 > [!IMPORTANT]
-> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
+> 此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。 另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。
 
 ## <a name="syntax"></a>語法
 ```cpp
