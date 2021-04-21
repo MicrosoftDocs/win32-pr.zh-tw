@@ -45,18 +45,18 @@ api_location:
 - DirectML.h
 api_name:
 - DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 79a43e93f504e8d6f36553a4f672ef7e5845610f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 5c2803fc300ca862d54a74aee1c864e9097e3d8e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998181"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803360"
 ---
-# <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a><span data-ttu-id="3088a-103">DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC 結構 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="3088a-103">DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC structure (directml.h)</span></span>
+# <a name="dml_average_pooling_grad_operator_desc-structure-directmlh"></a><span data-ttu-id="5fb76-103">DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC 結構 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="5fb76-103">DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC structure (directml.h)</span></span>
 
-<span data-ttu-id="3088a-104">計算平均共用 (的反向傳播梯度，請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)) 。</span><span class="sxs-lookup"><span data-stu-id="3088a-104">Computes backpropagation gradients for average pooling (see [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)).</span></span>
+<span data-ttu-id="5fb76-104">計算平均共用 (的反向傳播梯度，請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)) 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-104">Computes backpropagation gradients for average pooling (see [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)).</span></span>
 
-<span data-ttu-id="3088a-105">請考慮採用 2x2 **DML_AVERAGE_POOLING_OPERATOR_DESC**，但不含填補和1的跨距，以執行下列動作。</span><span class="sxs-lookup"><span data-stu-id="3088a-105">Consider a 2x2 **DML_AVERAGE_POOLING_OPERATOR_DESC**, without padding and a stride of 1, that performs the following.</span></span>
+<span data-ttu-id="5fb76-105">請考慮採用 2x2 **DML_AVERAGE_POOLING_OPERATOR_DESC**，但不含填補和1的跨距，以執行下列動作。</span><span class="sxs-lookup"><span data-stu-id="5fb76-105">Consider a 2x2 **DML_AVERAGE_POOLING_OPERATOR_DESC**, without padding and a stride of 1, that performs the following.</span></span>
 
 ```
 InputTensor             OutputTensor
@@ -65,7 +65,7 @@ InputTensor             OutputTensor
    [7, 8, 9]]]]
 ```
 
-<span data-ttu-id="3088a-106">輸入 tensor 中的每個2x2 視窗平均是為了產生輸出的一個元素， (在邊緣) 以外的元素中讀取零。</span><span class="sxs-lookup"><span data-stu-id="3088a-106">Each 2x2 window in the input tensor is averaged to produce one element of the output (reading zeros for elements beyond the edge).</span></span> <span data-ttu-id="3088a-107">以下是 **DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC** 指定類似參數的輸出範例。</span><span class="sxs-lookup"><span data-stu-id="3088a-107">Here's an example of the output of **DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC** given similar parameters.</span></span>
+<span data-ttu-id="5fb76-106">輸入 tensor 中的每個2x2 視窗平均是為了產生輸出的一個元素， (在邊緣) 以外的元素中讀取零。</span><span class="sxs-lookup"><span data-stu-id="5fb76-106">Each 2x2 window in the input tensor is averaged to produce one element of the output (reading zeros for elements beyond the edge).</span></span> <span data-ttu-id="5fb76-107">以下是 **DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC** 指定類似參數的輸出範例。</span><span class="sxs-lookup"><span data-stu-id="5fb76-107">Here's an example of the output of **DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC** given similar parameters.</span></span>
 
 ```
 InputGradientTensor            OutputGradientTensor
@@ -74,12 +74,12 @@ InputGradientTensor            OutputGradientTensor
                                  [0.75, 1.75,   1]]]]
 ```
 
-<span data-ttu-id="3088a-108">請注意， *OutputGradientTensor* 中的值代表該元素在原始 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)運算子期間對 *OutputTensor* 的加權貢獻。</span><span class="sxs-lookup"><span data-stu-id="3088a-108">Notice that the values in the *OutputGradientTensor* represent the weighted contributions of that element to the *OutputTensor* during the original [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) operator.</span></span>
+<span data-ttu-id="5fb76-108">請注意， *OutputGradientTensor* 中的值代表該元素在原始 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)運算子期間對 *OutputTensor* 的加權貢獻。</span><span class="sxs-lookup"><span data-stu-id="5fb76-108">Notice that the values in the *OutputGradientTensor* represent the weighted contributions of that element to the *OutputTensor* during the original [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) operator.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3088a-109">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。</span><span class="sxs-lookup"><span data-stu-id="3088a-109">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="3088a-110">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="3088a-110">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="5fb76-109">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="5fb76-109">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="5fb76-110">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="5fb76-110">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3088a-111">語法</span><span class="sxs-lookup"><span data-stu-id="3088a-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5fb76-111">語法</span><span class="sxs-lookup"><span data-stu-id="5fb76-111">Syntax</span></span>
 
 ```cpp
 struct DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
@@ -95,69 +95,69 @@ struct DML_AVERAGE_POOLING_GRAD_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="3088a-112">成員</span><span class="sxs-lookup"><span data-stu-id="3088a-112">Members</span></span>
+## <a name="members"></a><span data-ttu-id="5fb76-112">成員</span><span class="sxs-lookup"><span data-stu-id="5fb76-112">Members</span></span>
 
 `InputGradientTensor`
 
-<span data-ttu-id="3088a-113">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="5fb76-113">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="3088a-114">傳入的漸層 tensor。</span><span class="sxs-lookup"><span data-stu-id="3088a-114">The incoming gradient tensor.</span></span> <span data-ttu-id="3088a-115">這通常是從上一層的反向傳播輸出中取得。</span><span class="sxs-lookup"><span data-stu-id="3088a-115">This is typically obtained from the output of backpropagation of a preceding layer.</span></span> <span data-ttu-id="3088a-116">一般來說，這個 tensor 的大小會和向前傳遞中對應 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)的 *輸出* 相同。</span><span class="sxs-lookup"><span data-stu-id="3088a-116">Typically this tensor would have the same sizes as the *output* of the corresponding [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) in the forward pass.</span></span>
+<span data-ttu-id="5fb76-114">傳入的漸層 tensor。</span><span class="sxs-lookup"><span data-stu-id="5fb76-114">The incoming gradient tensor.</span></span> <span data-ttu-id="5fb76-115">這通常是從上一層的反向傳播輸出中取得。</span><span class="sxs-lookup"><span data-stu-id="5fb76-115">This is typically obtained from the output of backpropagation of a preceding layer.</span></span> <span data-ttu-id="5fb76-116">一般來說，這個 tensor 的大小會和向前傳遞中對應 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)的 *輸出* 相同。</span><span class="sxs-lookup"><span data-stu-id="5fb76-116">Typically this tensor would have the same sizes as the *output* of the corresponding [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) in the forward pass.</span></span>
 
 `OutputGradientTensor`
 
-<span data-ttu-id="3088a-117">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-117">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="5fb76-117">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-117">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="3088a-118">包含 backpropagated 漸層的輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="3088a-118">An output tensor containing the backpropagated gradients.</span></span> <span data-ttu-id="3088a-119">一般來說，這個 tensor 的大小會和向前傳遞中對應 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)的 *輸入* 相同。</span><span class="sxs-lookup"><span data-stu-id="3088a-119">Typically this tensor would have the same sizes as the *input* of the corresponding [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) in the forward pass.</span></span>
+<span data-ttu-id="5fb76-118">包含 backpropagated 漸層的輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="5fb76-118">An output tensor containing the backpropagated gradients.</span></span> <span data-ttu-id="5fb76-119">一般來說，這個 tensor 的大小會和向前傳遞中對應 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)的 *輸入* 相同。</span><span class="sxs-lookup"><span data-stu-id="5fb76-119">Typically this tensor would have the same sizes as the *input* of the corresponding [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc) in the forward pass.</span></span>
 
 `DimensionCount`
 
-<span data-ttu-id="3088a-120">類型： [ **UINT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="3088a-120">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+<span data-ttu-id="5fb76-120">類型： [ **UINT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="5fb76-120">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
 
-<span data-ttu-id="3088a-121">*進步*、 *WindowSize*、 *StartPadding* 和 *EndPadding* 陣列中的元素數目。</span><span class="sxs-lookup"><span data-stu-id="3088a-121">The number of elements in the *Strides*, *WindowSize*, *StartPadding*, and *EndPadding* arrays.</span></span> <span data-ttu-id="3088a-122">這個值必須等於空間維度計數。</span><span class="sxs-lookup"><span data-stu-id="3088a-122">This value must equal the spatial dimension count.</span></span> <span data-ttu-id="3088a-123">如果提供4D 張量，則空間維度計數是2，如果提供了5D 張量，則為3。</span><span class="sxs-lookup"><span data-stu-id="3088a-123">The spatial dimension count is 2 if 4D tensors are provided, or 3 if 5D tensors are provided.</span></span>
+<span data-ttu-id="5fb76-121">*進步*、 *WindowSize*、 *StartPadding* 和 *EndPadding* 陣列中的元素數目。</span><span class="sxs-lookup"><span data-stu-id="5fb76-121">The number of elements in the *Strides*, *WindowSize*, *StartPadding*, and *EndPadding* arrays.</span></span> <span data-ttu-id="5fb76-122">這個值必須等於空間維度計數。</span><span class="sxs-lookup"><span data-stu-id="5fb76-122">This value must equal the spatial dimension count.</span></span> <span data-ttu-id="5fb76-123">如果提供4D 張量，則空間維度計數是2，如果提供了5D 張量，則為3。</span><span class="sxs-lookup"><span data-stu-id="5fb76-123">The spatial dimension count is 2 if 4D tensors are provided, or 3 if 5D tensors are provided.</span></span>
 
 `Strides`
 
-<span data-ttu-id="3088a-124">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-124">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***</span></span>
+<span data-ttu-id="5fb76-124">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-124">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***</span></span>
 
-<span data-ttu-id="3088a-125">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *進步*。</span><span class="sxs-lookup"><span data-stu-id="3088a-125">See *Strides* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
+<span data-ttu-id="5fb76-125">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *進步*。</span><span class="sxs-lookup"><span data-stu-id="5fb76-125">See *Strides* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
 
 `WindowSize`
 
-<span data-ttu-id="3088a-126">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-126">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***</span></span>
+<span data-ttu-id="5fb76-126">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-126">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***</span></span>
 
-<span data-ttu-id="3088a-127">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *WindowSize* 。</span><span class="sxs-lookup"><span data-stu-id="3088a-127">See *WindowSize* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
+<span data-ttu-id="5fb76-127">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *WindowSize* 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-127">See *WindowSize* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
 
 `StartPadding`
 
-<span data-ttu-id="3088a-128">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-128">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***</span></span>
+<span data-ttu-id="5fb76-128">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-128">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***</span></span>
 
-<span data-ttu-id="3088a-129">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *StartPadding* 。</span><span class="sxs-lookup"><span data-stu-id="3088a-129">See *StartPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
+<span data-ttu-id="5fb76-129">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *StartPadding* 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-129">See *StartPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
 
 `EndPadding`
 
-<span data-ttu-id="3088a-130">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="3088a-130">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/desktop/WinProg/windows-data-types)\***</span></span>
+<span data-ttu-id="5fb76-130">類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***</span><span class="sxs-lookup"><span data-stu-id="5fb76-130">Type: \_Field_size\_(DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types)\***</span></span>
 
-<span data-ttu-id="3088a-131">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *EndPadding* 。</span><span class="sxs-lookup"><span data-stu-id="3088a-131">See *EndPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
+<span data-ttu-id="5fb76-131">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *EndPadding* 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-131">See *EndPadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
 
 `IncludePadding`
 
-<span data-ttu-id="3088a-132">類型： <b> <a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b></span><span class="sxs-lookup"><span data-stu-id="3088a-132">Type: <b><a href="/windows/desktop/WinProg/windows-data-types">BOOL</a></b></span></span>
+<span data-ttu-id="5fb76-132">類型： <b> <a href="/windows/win32/winprog/windows-data-types">BOOL</a></b></span><span class="sxs-lookup"><span data-stu-id="5fb76-132">Type: <b><a href="/windows/win32/winprog/windows-data-types">BOOL</a></b></span></span>
 
-<span data-ttu-id="3088a-133">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *IncludePadding* 。</span><span class="sxs-lookup"><span data-stu-id="3088a-133">See *IncludePadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
+<span data-ttu-id="5fb76-133">請參閱 [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc)中的 *IncludePadding* 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-133">See *IncludePadding* in [DML_AVERAGE_POOLING_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_average_pooling_operator_desc).</span></span>
 
-## <a name="availability"></a><span data-ttu-id="3088a-134">可用性</span><span class="sxs-lookup"><span data-stu-id="3088a-134">Availability</span></span>
-<span data-ttu-id="3088a-135">這個運算子是在中引進 `DML_FEATURE_LEVEL_3_0` 。</span><span class="sxs-lookup"><span data-stu-id="3088a-135">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
+## <a name="availability"></a><span data-ttu-id="5fb76-134">可用性</span><span class="sxs-lookup"><span data-stu-id="5fb76-134">Availability</span></span>
+<span data-ttu-id="5fb76-135">這個運算子是在中引進 `DML_FEATURE_LEVEL_3_0` 。</span><span class="sxs-lookup"><span data-stu-id="5fb76-135">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="3088a-136">Tensor 條件約束</span><span class="sxs-lookup"><span data-stu-id="3088a-136">Tensor constraints</span></span>
-<span data-ttu-id="3088a-137">*InputGradientTensor* 和 *OutputGradientTensor* 必須具有相同的 *資料類型* 和 *DimensionCount*。</span><span class="sxs-lookup"><span data-stu-id="3088a-137">*InputGradientTensor* and *OutputGradientTensor* must have the same *DataType* and *DimensionCount*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="5fb76-136">Tensor 條件約束</span><span class="sxs-lookup"><span data-stu-id="5fb76-136">Tensor constraints</span></span>
+<span data-ttu-id="5fb76-137">*InputGradientTensor* 和 *OutputGradientTensor* 必須具有相同的 *資料類型* 和 *DimensionCount*。</span><span class="sxs-lookup"><span data-stu-id="5fb76-137">*InputGradientTensor* and *OutputGradientTensor* must have the same *DataType* and *DimensionCount*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="3088a-138">Tensor 支援</span><span class="sxs-lookup"><span data-stu-id="3088a-138">Tensor support</span></span>
-| <span data-ttu-id="3088a-139">張</span><span class="sxs-lookup"><span data-stu-id="3088a-139">Tensor</span></span> | <span data-ttu-id="3088a-140">類型</span><span class="sxs-lookup"><span data-stu-id="3088a-140">Kind</span></span> | <span data-ttu-id="3088a-141">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="3088a-141">Supported dimension counts</span></span> | <span data-ttu-id="3088a-142">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="3088a-142">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="5fb76-138">Tensor 支援</span><span class="sxs-lookup"><span data-stu-id="5fb76-138">Tensor support</span></span>
+| <span data-ttu-id="5fb76-139">張</span><span class="sxs-lookup"><span data-stu-id="5fb76-139">Tensor</span></span> | <span data-ttu-id="5fb76-140">類型</span><span class="sxs-lookup"><span data-stu-id="5fb76-140">Kind</span></span> | <span data-ttu-id="5fb76-141">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="5fb76-141">Supported dimension counts</span></span> | <span data-ttu-id="5fb76-142">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="5fb76-142">Supported data types</span></span> |
 | ------ | ---- | -------------------------- | -------------------- |
-| <span data-ttu-id="3088a-143">InputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="3088a-143">InputGradientTensor</span></span> | <span data-ttu-id="3088a-144">輸入</span><span class="sxs-lookup"><span data-stu-id="3088a-144">Input</span></span> | <span data-ttu-id="3088a-145">4到5</span><span class="sxs-lookup"><span data-stu-id="3088a-145">4 to 5</span></span> | <span data-ttu-id="3088a-146">FLOAT32、FLOAT16</span><span class="sxs-lookup"><span data-stu-id="3088a-146">FLOAT32, FLOAT16</span></span> |
-| <span data-ttu-id="3088a-147">OutputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="3088a-147">OutputGradientTensor</span></span> | <span data-ttu-id="3088a-148">輸出</span><span class="sxs-lookup"><span data-stu-id="3088a-148">Output</span></span> | <span data-ttu-id="3088a-149">4到5</span><span class="sxs-lookup"><span data-stu-id="3088a-149">4 to 5</span></span> | <span data-ttu-id="3088a-150">FLOAT32、FLOAT16</span><span class="sxs-lookup"><span data-stu-id="3088a-150">FLOAT32, FLOAT16</span></span> |
+| <span data-ttu-id="5fb76-143">InputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="5fb76-143">InputGradientTensor</span></span> | <span data-ttu-id="5fb76-144">輸入</span><span class="sxs-lookup"><span data-stu-id="5fb76-144">Input</span></span> | <span data-ttu-id="5fb76-145">4到5</span><span class="sxs-lookup"><span data-stu-id="5fb76-145">4 to 5</span></span> | <span data-ttu-id="5fb76-146">FLOAT32、FLOAT16</span><span class="sxs-lookup"><span data-stu-id="5fb76-146">FLOAT32, FLOAT16</span></span> |
+| <span data-ttu-id="5fb76-147">OutputGradientTensor</span><span class="sxs-lookup"><span data-stu-id="5fb76-147">OutputGradientTensor</span></span> | <span data-ttu-id="5fb76-148">輸出</span><span class="sxs-lookup"><span data-stu-id="5fb76-148">Output</span></span> | <span data-ttu-id="5fb76-149">4到5</span><span class="sxs-lookup"><span data-stu-id="5fb76-149">4 to 5</span></span> | <span data-ttu-id="5fb76-150">FLOAT32、FLOAT16</span><span class="sxs-lookup"><span data-stu-id="5fb76-150">FLOAT32, FLOAT16</span></span> |
 
-## <a name="requirements"></a><span data-ttu-id="3088a-151">規格需求</span><span class="sxs-lookup"><span data-stu-id="3088a-151">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="5fb76-151">規格需求</span><span class="sxs-lookup"><span data-stu-id="5fb76-151">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="3088a-152">**標頭**</span><span class="sxs-lookup"><span data-stu-id="3088a-152">**Header**</span></span> | <span data-ttu-id="3088a-153">directml。h</span><span class="sxs-lookup"><span data-stu-id="3088a-153">directml.h</span></span> |
+| <span data-ttu-id="5fb76-152">**標頭**</span><span class="sxs-lookup"><span data-stu-id="5fb76-152">**Header**</span></span> | <span data-ttu-id="5fb76-153">directml。h</span><span class="sxs-lookup"><span data-stu-id="5fb76-153">directml.h</span></span> |

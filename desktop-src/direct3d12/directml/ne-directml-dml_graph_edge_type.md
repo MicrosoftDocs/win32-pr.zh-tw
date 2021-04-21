@@ -45,21 +45,21 @@ api_location:
 - DirectML.h
 api_name:
 - DML_GRAPH_EDGE_TYPE
-ms.openlocfilehash: 19b11686f3741c386ca03e84af5a41af1ce5cb52
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: d65649fcd2115cc7cdcc1b01da20ef44b0436e6f
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106997311"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803796"
 ---
-# <a name="dml_graph_edge_type-enumeration-directmlh"></a><span data-ttu-id="05db8-104">DML_GRAPH_EDGE_TYPE 列舉 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="05db8-104">DML_GRAPH_EDGE_TYPE enumeration (directml.h)</span></span>
+# <a name="dml_graph_edge_type-enumeration-directmlh"></a><span data-ttu-id="3a901-104">DML_GRAPH_EDGE_TYPE 列舉 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="3a901-104">DML_GRAPH_EDGE_TYPE enumeration (directml.h)</span></span>
 
-<span data-ttu-id="05db8-105">定義指定圖形邊緣類型的常數。</span><span class="sxs-lookup"><span data-stu-id="05db8-105">Defines constants that specify a type of graph edge.</span></span> <span data-ttu-id="05db8-106">如需此列舉的用法，請參閱 [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) 。</span><span class="sxs-lookup"><span data-stu-id="05db8-106">See [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) for the usage of this enumeration.</span></span>
+<span data-ttu-id="3a901-105">定義指定圖形邊緣類型的常數。</span><span class="sxs-lookup"><span data-stu-id="3a901-105">Defines constants that specify a type of graph edge.</span></span> <span data-ttu-id="3a901-106">如需此列舉的用法，請參閱 [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) 。</span><span class="sxs-lookup"><span data-stu-id="3a901-106">See [DML_GRAPH_EDGE_DESC](./ns-directml-dml_graph_edge_desc.md) for the usage of this enumeration.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="05db8-107">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。</span><span class="sxs-lookup"><span data-stu-id="05db8-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="05db8-108">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="05db8-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="3a901-107">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="3a901-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="3a901-108">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="3a901-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="05db8-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="05db8-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3a901-109">Syntax</span><span class="sxs-lookup"><span data-stu-id="3a901-109">Syntax</span></span>
 ```cpp
 typedef enum DML_GRAPH_EDGE_TYPE {
   DML_GRAPH_EDGE_TYPE_INVALID,
@@ -69,26 +69,26 @@ typedef enum DML_GRAPH_EDGE_TYPE {
 } ;
 ```
 
-## <a name="constants"></a><span data-ttu-id="05db8-110">常數</span><span class="sxs-lookup"><span data-stu-id="05db8-110">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="3a901-110">常數</span><span class="sxs-lookup"><span data-stu-id="3a901-110">Constants</span></span>
 
-| <span data-ttu-id="05db8-111">Name</span><span class="sxs-lookup"><span data-stu-id="05db8-111">Name</span></span> | <span data-ttu-id="05db8-112">描述</span><span class="sxs-lookup"><span data-stu-id="05db8-112">Description</span></span> |
+| <span data-ttu-id="3a901-111">Name</span><span class="sxs-lookup"><span data-stu-id="3a901-111">Name</span></span> | <span data-ttu-id="3a901-112">描述</span><span class="sxs-lookup"><span data-stu-id="3a901-112">Description</span></span> |
 | ---- |:---- |
-| <span data-ttu-id="05db8-113">DML_GRAPH_EDGE_TYPE_INVALID</span><span class="sxs-lookup"><span data-stu-id="05db8-113">DML_GRAPH_EDGE_TYPE_INVALID</span></span> | <span data-ttu-id="05db8-114">指定未知的圖形邊緣類型，而且永遠不會有效。</span><span class="sxs-lookup"><span data-stu-id="05db8-114">Specifies an unknown graph edge type, and is never valid.</span></span> <span data-ttu-id="05db8-115">使用此值會導致錯誤。</span><span class="sxs-lookup"><span data-stu-id="05db8-115">Using this value results in an error.</span></span> |
-| <span data-ttu-id="05db8-116">DML_GRAPH_EDGE_TYPE_INPUT</span><span class="sxs-lookup"><span data-stu-id="05db8-116">DML_GRAPH_EDGE_TYPE_INPUT</span></span> | <span data-ttu-id="05db8-117">指定圖表邊緣由 [DML_INPUT_GRAPH_EDGE_DESC](./ns-directml-dml_input_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="05db8-117">Specifies that the graph edge is described by the [DML_INPUT_GRAPH_EDGE_DESC](./ns-directml-dml_input_graph_edge_desc.md) structure.</span></span> |
-| <span data-ttu-id="05db8-118">DML_GRAPH_EDGE_TYPE_OUTPUT</span><span class="sxs-lookup"><span data-stu-id="05db8-118">DML_GRAPH_EDGE_TYPE_OUTPUT</span></span> | <span data-ttu-id="05db8-119">指定圖表邊緣由 [DML_OUTPUT_GRAPH_EDGE_DESC](./ns-directml-dml_output_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="05db8-119">Specifies that the graph edge is described by the [DML_OUTPUT_GRAPH_EDGE_DESC](./ns-directml-dml_output_graph_edge_desc.md) structure.</span></span> |
-| <span data-ttu-id="05db8-120">DML_GRAPH_EDGE_TYPE_INTERMEDIATE</span><span class="sxs-lookup"><span data-stu-id="05db8-120">DML_GRAPH_EDGE_TYPE_INTERMEDIATE</span></span> | <span data-ttu-id="05db8-121">指定圖表邊緣由 [DML_INTERMEDIATE_GRAPH_EDGE_DESC](./ns-directml-dml_intermediate_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="05db8-121">Specifies that the graph edge is described by the [DML_INTERMEDIATE_GRAPH_EDGE_DESC](./ns-directml-dml_intermediate_graph_edge_desc.md) structure.</span></span><br><br><span data-ttu-id="05db8-122"># # 可用性</span><span class="sxs-lookup"><span data-stu-id="05db8-122">## Availability</span></span><br><br><span data-ttu-id="05db8-123">此 API 是在 DirectML 版本中引進 `1.1.0` 。</span><span class="sxs-lookup"><span data-stu-id="05db8-123">This API was introduced in DirectML version `1.1.0`.</span></span> |
+| <span data-ttu-id="3a901-113">DML_GRAPH_EDGE_TYPE_INVALID</span><span class="sxs-lookup"><span data-stu-id="3a901-113">DML_GRAPH_EDGE_TYPE_INVALID</span></span> | <span data-ttu-id="3a901-114">指定未知的圖形邊緣類型，而且永遠不會有效。</span><span class="sxs-lookup"><span data-stu-id="3a901-114">Specifies an unknown graph edge type, and is never valid.</span></span> <span data-ttu-id="3a901-115">使用此值會導致錯誤。</span><span class="sxs-lookup"><span data-stu-id="3a901-115">Using this value results in an error.</span></span> |
+| <span data-ttu-id="3a901-116">DML_GRAPH_EDGE_TYPE_INPUT</span><span class="sxs-lookup"><span data-stu-id="3a901-116">DML_GRAPH_EDGE_TYPE_INPUT</span></span> | <span data-ttu-id="3a901-117">指定圖表邊緣由 [DML_INPUT_GRAPH_EDGE_DESC](./ns-directml-dml_input_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="3a901-117">Specifies that the graph edge is described by the [DML_INPUT_GRAPH_EDGE_DESC](./ns-directml-dml_input_graph_edge_desc.md) structure.</span></span> |
+| <span data-ttu-id="3a901-118">DML_GRAPH_EDGE_TYPE_OUTPUT</span><span class="sxs-lookup"><span data-stu-id="3a901-118">DML_GRAPH_EDGE_TYPE_OUTPUT</span></span> | <span data-ttu-id="3a901-119">指定圖表邊緣由 [DML_OUTPUT_GRAPH_EDGE_DESC](./ns-directml-dml_output_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="3a901-119">Specifies that the graph edge is described by the [DML_OUTPUT_GRAPH_EDGE_DESC](./ns-directml-dml_output_graph_edge_desc.md) structure.</span></span> |
+| <span data-ttu-id="3a901-120">DML_GRAPH_EDGE_TYPE_INTERMEDIATE</span><span class="sxs-lookup"><span data-stu-id="3a901-120">DML_GRAPH_EDGE_TYPE_INTERMEDIATE</span></span> | <span data-ttu-id="3a901-121">指定圖表邊緣由 [DML_INTERMEDIATE_GRAPH_EDGE_DESC](./ns-directml-dml_intermediate_graph_edge_desc.md) 結構描述。</span><span class="sxs-lookup"><span data-stu-id="3a901-121">Specifies that the graph edge is described by the [DML_INTERMEDIATE_GRAPH_EDGE_DESC](./ns-directml-dml_intermediate_graph_edge_desc.md) structure.</span></span><br><br><span data-ttu-id="3a901-122"># # 可用性</span><span class="sxs-lookup"><span data-stu-id="3a901-122">## Availability</span></span><br><br><span data-ttu-id="3a901-123">此 API 是在 DirectML 版本中引進 `1.1.0` 。</span><span class="sxs-lookup"><span data-stu-id="3a901-123">This API was introduced in DirectML version `1.1.0`.</span></span> |
 
 
-## <a name="requirements"></a><span data-ttu-id="05db8-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="05db8-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3a901-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="3a901-124">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="05db8-125">**標頭**</span><span class="sxs-lookup"><span data-stu-id="05db8-125">**Header**</span></span> | <span data-ttu-id="05db8-126">directml。h</span><span class="sxs-lookup"><span data-stu-id="05db8-126">directml.h</span></span> |
+| <span data-ttu-id="3a901-125">**標頭**</span><span class="sxs-lookup"><span data-stu-id="3a901-125">**Header**</span></span> | <span data-ttu-id="3a901-126">directml。h</span><span class="sxs-lookup"><span data-stu-id="3a901-126">directml.h</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="05db8-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="05db8-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a901-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3a901-127">See also</span></span>
 
-* [<span data-ttu-id="05db8-128">IDMLDevice1：： CompileGraph 方法</span><span class="sxs-lookup"><span data-stu-id="05db8-128">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
-* [<span data-ttu-id="05db8-129">DML_GRAPH_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="05db8-129">DML_GRAPH_DESC structure</span></span>](./ns-directml-dml_graph_desc.md)     
-* [<span data-ttu-id="05db8-130">DML_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="05db8-130">DML_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_graph_edge_desc.md)
-* [<span data-ttu-id="05db8-131">DML_INPUT_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="05db8-131">DML_INPUT_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_input_graph_edge_desc.md)
-* [<span data-ttu-id="05db8-132">DML_OUTPUT_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="05db8-132">DML_OUTPUT_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_output_graph_edge_desc.md)
-* [<span data-ttu-id="05db8-133">DML_INTERMEDIATE_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="05db8-133">DML_INTERMEDIATE_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_intermediate_graph_edge_desc.md)
+* [<span data-ttu-id="3a901-128">IDMLDevice1：： CompileGraph 方法</span><span class="sxs-lookup"><span data-stu-id="3a901-128">IDMLDevice1::CompileGraph method</span></span>](/windows/desktop/direct3d12/directml/nf-directml-idmldevice1-compilegraph)
+* [<span data-ttu-id="3a901-129">DML_GRAPH_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="3a901-129">DML_GRAPH_DESC structure</span></span>](./ns-directml-dml_graph_desc.md)     
+* [<span data-ttu-id="3a901-130">DML_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="3a901-130">DML_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_graph_edge_desc.md)
+* [<span data-ttu-id="3a901-131">DML_INPUT_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="3a901-131">DML_INPUT_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_input_graph_edge_desc.md)
+* [<span data-ttu-id="3a901-132">DML_OUTPUT_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="3a901-132">DML_OUTPUT_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_output_graph_edge_desc.md)
+* [<span data-ttu-id="3a901-133">DML_INTERMEDIATE_GRAPH_EDGE_DESC 結構</span><span class="sxs-lookup"><span data-stu-id="3a901-133">DML_INTERMEDIATE_GRAPH_EDGE_DESC structure</span></span>](./ns-directml-dml_intermediate_graph_edge_desc.md)

@@ -50,25 +50,25 @@ api_location:
 - DirectML.dll
 api_name:
 - IDMLDevice1.CompileGraph
-ms.openlocfilehash: 25dbc62fac9cd38d9728a295e336038441aee19f
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8a9b4ce9bd8f8bd8b1d6f2a6bbd144009eb0d79d
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106981915"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803748"
 ---
-# <a name="idmldevice1compilegraph-method-directmlh"></a><span data-ttu-id="cb3e1-103">IDMLDevice1：： CompileGraph 方法 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="cb3e1-103">IDMLDevice1::CompileGraph method (directml.h)</span></span>
+# <a name="idmldevice1compilegraph-method-directmlh"></a><span data-ttu-id="8c731-103">IDMLDevice1：： CompileGraph 方法 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="8c731-103">IDMLDevice1::CompileGraph method (directml.h)</span></span>
 
-<span data-ttu-id="cb3e1-104">將 DirectML 運算子的圖形編譯成可分派至 GPU 的物件。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-104">Compiles a graph of DirectML operators into an object that can be dispatched to the GPU.</span></span>
+<span data-ttu-id="8c731-104">將 DirectML 運算子的圖形編譯成可分派至 GPU 的物件。</span><span class="sxs-lookup"><span data-stu-id="8c731-104">Compiles a graph of DirectML operators into an object that can be dispatched to the GPU.</span></span>
 
-<span data-ttu-id="cb3e1-105">已編譯的運算子代表適合在 GPU 上執行之運算子的有效率、內建形式。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-105">A compiled operator represents the efficient, baked form of an operator suitable for execution on the GPU.</span></span> <span data-ttu-id="cb3e1-106">已編譯的運算子會保存狀態 (例如著色器和其他物件) 執行所需。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-106">A compiled operator holds state (such as shaders and other objects) required for execution.</span></span> <span data-ttu-id="cb3e1-107">由於編譯的運算子會執行 [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) 介面，因此您可以視需要從 GPU 記憶體中收回一個。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-107">Because a compiled operator implements the [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) interface, you're able to evict one from GPU memory if you wish.</span></span> <span data-ttu-id="cb3e1-108">如需詳細資訊，請參閱 [IDMLDevice1：：收回](/windows/win32/api/directml/nf-directml-idmldevice-evict) 和 [IDMLDevice1：： MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident) 。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-108">See [IDMLDevice1::Evict](/windows/win32/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice1::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident) for more info.</span></span>
+<span data-ttu-id="8c731-105">已編譯的運算子代表適合在 GPU 上執行之運算子的有效率、內建形式。</span><span class="sxs-lookup"><span data-stu-id="8c731-105">A compiled operator represents the efficient, baked form of an operator suitable for execution on the GPU.</span></span> <span data-ttu-id="8c731-106">已編譯的運算子會保存狀態 (例如著色器和其他物件) 執行所需。</span><span class="sxs-lookup"><span data-stu-id="8c731-106">A compiled operator holds state (such as shaders and other objects) required for execution.</span></span> <span data-ttu-id="8c731-107">由於編譯的運算子會執行 [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) 介面，因此您可以視需要從 GPU 記憶體中收回一個。</span><span class="sxs-lookup"><span data-stu-id="8c731-107">Because a compiled operator implements the [IDMLPageable](/windows/win32/api/directml/nn-directml-idmlpageable) interface, you're able to evict one from GPU memory if you wish.</span></span> <span data-ttu-id="8c731-108">如需詳細資訊，請參閱 [IDMLDevice1：：收回](/windows/win32/api/directml/nf-directml-idmldevice-evict) 和 [IDMLDevice1：： MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident) 。</span><span class="sxs-lookup"><span data-stu-id="8c731-108">See [IDMLDevice1::Evict](/windows/win32/api/directml/nf-directml-idmldevice-evict) and [IDMLDevice1::MakeResident](/windows/win32/api/directml/nf-directml-idmldevice-makeresident) for more info.</span></span>
 
-<span data-ttu-id="cb3e1-109">在這個方法傳回之後，編譯的運算子不會使用或參考圖形描述內提供的 [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) 物件。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-109">The compiled operator doesn't use nor reference the [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) objects supplied within the graph description after this method returns.</span></span>
+<span data-ttu-id="8c731-109">在這個方法傳回之後，編譯的運算子不會使用或參考圖形描述內提供的 [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) 物件。</span><span class="sxs-lookup"><span data-stu-id="8c731-109">The compiled operator doesn't use nor reference the [IDMLOperator](/windows/win32/api/directml/nn-directml-idmloperator) objects supplied within the graph description after this method returns.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="cb3e1-110">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-110">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="cb3e1-111">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-111">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="8c731-110">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="8c731-110">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="8c731-111">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="8c731-111">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cb3e1-112">語法</span><span class="sxs-lookup"><span data-stu-id="cb3e1-112">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8c731-112">語法</span><span class="sxs-lookup"><span data-stu-id="8c731-112">Syntax</span></span>
 
 ```cpp
 HRESULT CompileGraph(
@@ -79,53 +79,53 @@ HRESULT CompileGraph(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="cb3e1-113">參數</span><span class="sxs-lookup"><span data-stu-id="cb3e1-113">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8c731-113">參數</span><span class="sxs-lookup"><span data-stu-id="8c731-113">Parameters</span></span>
 
 `desc`
 
-<span data-ttu-id="cb3e1-114">類型： **[DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)\***</span><span class="sxs-lookup"><span data-stu-id="cb3e1-114">Type: **[DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)\***</span></span>
+<span data-ttu-id="8c731-114">類型： **[DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)\***</span><span class="sxs-lookup"><span data-stu-id="8c731-114">Type: **[DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)\***</span></span>
 
-<span data-ttu-id="cb3e1-115">要編譯之圖形的描述。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-115">A description of the graph to compile.</span></span> <span data-ttu-id="cb3e1-116">請參閱 [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-116">See [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md).</span></span>
+<span data-ttu-id="8c731-115">要編譯之圖形的描述。</span><span class="sxs-lookup"><span data-stu-id="8c731-115">A description of the graph to compile.</span></span> <span data-ttu-id="8c731-116">請參閱 [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md)。</span><span class="sxs-lookup"><span data-stu-id="8c731-116">See [DML_GRAPH_DESC](./ns-directml-dml_graph_desc.md).</span></span>
 
 `flags`
 
-<span data-ttu-id="cb3e1-117">類型： [ **DML_EXECUTION_FLAGS**](/windows/win32/api/directml/ne-directml-dml_execution_flags)</span><span class="sxs-lookup"><span data-stu-id="cb3e1-117">Type: [**DML_EXECUTION_FLAGS**](/windows/win32/api/directml/ne-directml-dml_execution_flags)</span></span>
+<span data-ttu-id="8c731-117">類型： [ **DML_EXECUTION_FLAGS**](/windows/win32/api/directml/ne-directml-dml_execution_flags)</span><span class="sxs-lookup"><span data-stu-id="8c731-117">Type: [**DML_EXECUTION_FLAGS**](/windows/win32/api/directml/ne-directml-dml_execution_flags)</span></span>
 
-<span data-ttu-id="cb3e1-118">用來控制此運算子執行的任何旗標。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-118">Any flags to control the execution of this operator.</span></span>
+<span data-ttu-id="8c731-118">用來控制此運算子執行的任何旗標。</span><span class="sxs-lookup"><span data-stu-id="8c731-118">Any flags to control the execution of this operator.</span></span>
 
 `riid`
 
-<span data-ttu-id="cb3e1-119">類型： <b>REFIID</b></span><span class="sxs-lookup"><span data-stu-id="cb3e1-119">Type: <b>REFIID</b></span></span>
+<span data-ttu-id="8c731-119">類型： <b>REFIID</b></span><span class="sxs-lookup"><span data-stu-id="8c731-119">Type: <b>REFIID</b></span></span>
 
-<span data-ttu-id="cb3e1-120">全域唯一識別碼的參考， (您想要在 <i>ppv</i>中傳回之介面的 GUID) 。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-120">A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>.</span></span> <span data-ttu-id="cb3e1-121">這應該是 [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator)的 GUID。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-121">This is expected to be the GUID of [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator).</span></span>
+<span data-ttu-id="8c731-120">全域唯一識別碼的參考， (您想要在 <i>ppv</i>中傳回之介面的 GUID) 。</span><span class="sxs-lookup"><span data-stu-id="8c731-120">A reference to the globally unique identifier (GUID) of the interface that you wish to be returned in <i>ppv</i>.</span></span> <span data-ttu-id="8c731-121">這應該是 [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator)的 GUID。</span><span class="sxs-lookup"><span data-stu-id="8c731-121">This is expected to be the GUID of [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator).</span></span>
 
 `ppv`
 
-<span data-ttu-id="cb3e1-122">類型： <b>void \* \*</b></span><span class="sxs-lookup"><span data-stu-id="cb3e1-122">Type: <b>void\*\*</b></span></span>
+<span data-ttu-id="8c731-122">類型： <b>void \* \*</b></span><span class="sxs-lookup"><span data-stu-id="8c731-122">Type: <b>void\*\*</b></span></span>
 
-<span data-ttu-id="cb3e1-123">記憶體區塊的指標，該區塊會接收已編譯之運算子的指標。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-123">A pointer to a memory block that receives a pointer to the compiled operator.</span></span> <span data-ttu-id="cb3e1-124">這是 [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator)指標的位址，表示已建立的已編譯運算子。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-124">This is the address of a pointer to an [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator), representing  the compiled operator created.</span></span>
+<span data-ttu-id="8c731-123">記憶體區塊的指標，該區塊會接收已編譯之運算子的指標。</span><span class="sxs-lookup"><span data-stu-id="8c731-123">A pointer to a memory block that receives a pointer to the compiled operator.</span></span> <span data-ttu-id="8c731-124">這是 [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator)指標的位址，表示已建立的已編譯運算子。</span><span class="sxs-lookup"><span data-stu-id="8c731-124">This is the address of a pointer to an [IDMLCompiledOperator](/windows/win32/api/directml/nn-directml-idmlcompiledoperator), representing  the compiled operator created.</span></span>
 
 
-## <a name="return-value"></a><span data-ttu-id="cb3e1-125">傳回值</span><span class="sxs-lookup"><span data-stu-id="cb3e1-125">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8c731-125">傳回值</span><span class="sxs-lookup"><span data-stu-id="8c731-125">Return value</span></span>
 
-<span data-ttu-id="cb3e1-126">類型： [ **HRESULT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="cb3e1-126">Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)</span></span>
+<span data-ttu-id="8c731-126">類型： [ **HRESULT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="8c731-126">Type: [**HRESULT**](/windows/desktop/winprog/windows-data-types)</span></span>
 
-<span data-ttu-id="cb3e1-127">如果這個方法成功，它會傳回 **S_OK**。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-127">If this method succeeds, it returns **S_OK**.</span></span> <span data-ttu-id="cb3e1-128">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-128">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="8c731-127">如果這個方法成功，它會傳回 **S_OK**。</span><span class="sxs-lookup"><span data-stu-id="8c731-127">If this method succeeds, it returns **S_OK**.</span></span> <span data-ttu-id="8c731-128">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="8c731-128">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="cb3e1-129">備註</span><span class="sxs-lookup"><span data-stu-id="cb3e1-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8c731-129">備註</span><span class="sxs-lookup"><span data-stu-id="8c731-129">Remarks</span></span>
 
-<span data-ttu-id="cb3e1-130">DirectML 運算子圖形 API 提供了一種可在不同硬體上有效率地使用 DirectML 的抽象方法。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-130">The DirectML operator graph API provides an abstract way to use DirectML efficiently across diverse hardware.</span></span> <span data-ttu-id="cb3e1-131">DirectML 會套用 tensor 層級的優化，例如根據所使用的介面卡，選擇最有效率的 tensor 版面配置。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-131">DirectML applies tensor-level optimizations such as choosing the most efficient tensor layout based on the adapter being used.</span></span> <span data-ttu-id="cb3e1-132">它也會套用優化，例如移除聯結或分割運算子。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-132">It also applies optimizations such as the removal of Join or Split operators.</span></span>
+<span data-ttu-id="8c731-130">DirectML 運算子圖形 API 提供了一種可在不同硬體上有效率地使用 DirectML 的抽象方法。</span><span class="sxs-lookup"><span data-stu-id="8c731-130">The DirectML operator graph API provides an abstract way to use DirectML efficiently across diverse hardware.</span></span> <span data-ttu-id="8c731-131">DirectML 會套用 tensor 層級的優化，例如根據所使用的介面卡，選擇最有效率的 tensor 版面配置。</span><span class="sxs-lookup"><span data-stu-id="8c731-131">DirectML applies tensor-level optimizations such as choosing the most efficient tensor layout based on the adapter being used.</span></span> <span data-ttu-id="8c731-132">它也會套用優化，例如移除聯結或分割運算子。</span><span class="sxs-lookup"><span data-stu-id="8c731-132">It also applies optimizations such as the removal of Join or Split operators.</span></span>
 
-<span data-ttu-id="cb3e1-133">建議您在建立 DirectML 圖形之前套用高階優化。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-133">We recommend that you apply high-level optimizations before building a DirectML graph.</span></span> <span data-ttu-id="cb3e1-134">例如，使用 BatchNorm、常數折迭和常見的子運算式刪除來融合加積運算子。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-134">For example, fusing Convolution operators with BatchNorm, constant folding, and common subexpression elimination.</span></span> <span data-ttu-id="cb3e1-135">DirectML 圖優化器內的優化目的在於補充這類裝置獨立的優化，通常是由機器學習架構進行一般處理。</span><span class="sxs-lookup"><span data-stu-id="cb3e1-135">The optimizations within DirectML's graph optimizer are intended to complement such device-independent optimizations, which are typically handled generically by machine learning frameworks.</span></span>
+<span data-ttu-id="8c731-133">建議您在建立 DirectML 圖形之前套用高階優化。</span><span class="sxs-lookup"><span data-stu-id="8c731-133">We recommend that you apply high-level optimizations before building a DirectML graph.</span></span> <span data-ttu-id="8c731-134">例如，使用 BatchNorm、常數折迭和常見的子運算式刪除來融合加積運算子。</span><span class="sxs-lookup"><span data-stu-id="8c731-134">For example, fusing Convolution operators with BatchNorm, constant folding, and common subexpression elimination.</span></span> <span data-ttu-id="8c731-135">DirectML 圖優化器內的優化目的在於補充這類裝置獨立的優化，通常是由機器學習架構進行一般處理。</span><span class="sxs-lookup"><span data-stu-id="8c731-135">The optimizations within DirectML's graph optimizer are intended to complement such device-independent optimizations, which are typically handled generically by machine learning frameworks.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="cb3e1-136">規格需求</span><span class="sxs-lookup"><span data-stu-id="cb3e1-136">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="8c731-136">規格需求</span><span class="sxs-lookup"><span data-stu-id="8c731-136">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="cb3e1-137">**目標平台**</span><span class="sxs-lookup"><span data-stu-id="cb3e1-137">**Target Platform**</span></span> | <span data-ttu-id="cb3e1-138">Windows</span><span class="sxs-lookup"><span data-stu-id="cb3e1-138">Windows</span></span> |
-| <span data-ttu-id="cb3e1-139">**標頭**</span><span class="sxs-lookup"><span data-stu-id="cb3e1-139">**Header**</span></span> | <span data-ttu-id="cb3e1-140">directml。h</span><span class="sxs-lookup"><span data-stu-id="cb3e1-140">directml.h</span></span> |
-| <span data-ttu-id="cb3e1-141">**程式庫**</span><span class="sxs-lookup"><span data-stu-id="cb3e1-141">**Library**</span></span> | <span data-ttu-id="cb3e1-142">DirectML .lib</span><span class="sxs-lookup"><span data-stu-id="cb3e1-142">DirectML.lib</span></span> |
-| <span data-ttu-id="cb3e1-143">**DLL**</span><span class="sxs-lookup"><span data-stu-id="cb3e1-143">**DLL**</span></span> | <span data-ttu-id="cb3e1-144">DirectML.dll</span><span class="sxs-lookup"><span data-stu-id="cb3e1-144">DirectML.dll</span></span> |
+| <span data-ttu-id="8c731-137">**目標平台**</span><span class="sxs-lookup"><span data-stu-id="8c731-137">**Target Platform**</span></span> | <span data-ttu-id="8c731-138">Windows</span><span class="sxs-lookup"><span data-stu-id="8c731-138">Windows</span></span> |
+| <span data-ttu-id="8c731-139">**標頭**</span><span class="sxs-lookup"><span data-stu-id="8c731-139">**Header**</span></span> | <span data-ttu-id="8c731-140">directml。h</span><span class="sxs-lookup"><span data-stu-id="8c731-140">directml.h</span></span> |
+| <span data-ttu-id="8c731-141">**程式庫**</span><span class="sxs-lookup"><span data-stu-id="8c731-141">**Library**</span></span> | <span data-ttu-id="8c731-142">DirectML .lib</span><span class="sxs-lookup"><span data-stu-id="8c731-142">DirectML.lib</span></span> |
+| <span data-ttu-id="8c731-143">**DLL**</span><span class="sxs-lookup"><span data-stu-id="8c731-143">**DLL**</span></span> | <span data-ttu-id="8c731-144">DirectML.dll</span><span class="sxs-lookup"><span data-stu-id="8c731-144">DirectML.dll</span></span> |
 
-## <a name="see-also"></a><span data-ttu-id="cb3e1-145">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cb3e1-145">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c731-145">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8c731-145">See also</span></span>
 
-[<span data-ttu-id="cb3e1-146">IDMLDevice1</span><span class="sxs-lookup"><span data-stu-id="cb3e1-146">IDMLDevice1</span></span>](/windows/win32/api/directml/nn-directml-idmldevice)
+[<span data-ttu-id="8c731-146">IDMLDevice1</span><span class="sxs-lookup"><span data-stu-id="8c731-146">IDMLDevice1</span></span>](/windows/win32/api/directml/nn-directml-idmldevice)

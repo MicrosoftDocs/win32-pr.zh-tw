@@ -45,21 +45,21 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RANDOM_GENERATOR_TYPE
-ms.openlocfilehash: bcb79fe7737e8b9ddb461c8da8a901960a4b23f8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c08b5cdc07280a2851636a555415ecce515fa79b
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106998183"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803754"
 ---
-# <a name="dml_random_generator_type-enumeration-directmlh"></a><span data-ttu-id="bc41c-103">DML_RANDOM_GENERATOR_TYPE 列舉 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="bc41c-103">DML_RANDOM_GENERATOR_TYPE enumeration (directml.h)</span></span>
+# <a name="dml_random_generator_type-enumeration-directmlh"></a><span data-ttu-id="f0eb6-103">DML_RANDOM_GENERATOR_TYPE 列舉 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="f0eb6-103">DML_RANDOM_GENERATOR_TYPE enumeration (directml.h)</span></span>
 
-<span data-ttu-id="bc41c-104">定義常數，指定隨機亂數產生器的類型。</span><span class="sxs-lookup"><span data-stu-id="bc41c-104">Defines constants that specify types of random random-number generator.</span></span>
+<span data-ttu-id="f0eb6-104">定義常數，指定隨機亂數產生器的類型。</span><span class="sxs-lookup"><span data-stu-id="f0eb6-104">Defines constants that specify types of random random-number generator.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="bc41c-105">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。</span><span class="sxs-lookup"><span data-stu-id="bc41c-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="bc41c-106">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="bc41c-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="f0eb6-105">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="f0eb6-105">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="f0eb6-106">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="f0eb6-106">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bc41c-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="bc41c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f0eb6-107">Syntax</span><span class="sxs-lookup"><span data-stu-id="f0eb6-107">Syntax</span></span>
 ```cpp
 enum DML_RANDOM_GENERATOR_TYPE
 {
@@ -67,14 +67,14 @@ enum DML_RANDOM_GENERATOR_TYPE
 };
 ```
 
-## <a name="constants"></a><span data-ttu-id="bc41c-108">常數</span><span class="sxs-lookup"><span data-stu-id="bc41c-108">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="f0eb6-108">常數</span><span class="sxs-lookup"><span data-stu-id="f0eb6-108">Constants</span></span>
 
-| <span data-ttu-id="bc41c-109">Name</span><span class="sxs-lookup"><span data-stu-id="bc41c-109">Name</span></span> | <span data-ttu-id="bc41c-110">描述</span><span class="sxs-lookup"><span data-stu-id="bc41c-110">Description</span></span> |
+| <span data-ttu-id="f0eb6-109">Name</span><span class="sxs-lookup"><span data-stu-id="f0eb6-109">Name</span></span> | <span data-ttu-id="f0eb6-110">描述</span><span class="sxs-lookup"><span data-stu-id="f0eb6-110">Description</span></span> |
 | ---- |:---- |
-| <span data-ttu-id="bc41c-111">DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10</span><span class="sxs-lookup"><span data-stu-id="bc41c-111">DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10</span></span> | <span data-ttu-id="bc41c-112">根據 [Philox 4x32-10 演算法](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf)，指定虛擬亂數的產生器。</span><span class="sxs-lookup"><span data-stu-id="bc41c-112">Specifies a generator for pseudo-random numbers according to the [Philox 4x32-10 algorithm](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf).</span></span> |
+| <span data-ttu-id="f0eb6-111">DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10</span><span class="sxs-lookup"><span data-stu-id="f0eb6-111">DML_RANDOM_GENERATOR_TYPE_PHILOX_4X32_10</span></span> | <span data-ttu-id="f0eb6-112">根據 [Philox 4x32-10 演算法](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf)，指定虛擬亂數的產生器。</span><span class="sxs-lookup"><span data-stu-id="f0eb6-112">Specifies a generator for pseudo-random numbers according to the [Philox 4x32-10 algorithm](http://www.thesalmons.org/john/random123/papers/random123sc11.pdf).</span></span> |
 
 
-## <a name="requirements"></a><span data-ttu-id="bc41c-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="bc41c-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f0eb6-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="f0eb6-113">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="bc41c-114">**標頭**</span><span class="sxs-lookup"><span data-stu-id="bc41c-114">**Header**</span></span> | <span data-ttu-id="bc41c-115">directml。h</span><span class="sxs-lookup"><span data-stu-id="bc41c-115">directml.h</span></span> |
+| <span data-ttu-id="f0eb6-114">**標頭**</span><span class="sxs-lookup"><span data-stu-id="f0eb6-114">**Header**</span></span> | <span data-ttu-id="f0eb6-115">directml。h</span><span class="sxs-lookup"><span data-stu-id="f0eb6-115">directml.h</span></span> |

@@ -45,23 +45,23 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC
-ms.openlocfilehash: 4b292b1b6e12f4643e928022f59603fd75e080fb
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3c8dddc3159ebcd857c7423b76856fbeba465d2e
+ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "107000342"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107803232"
 ---
-# <a name="dml_element_wise_bit_count_operator_desc-structure-directmlh"></a><span data-ttu-id="3a7e4-103">DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC 結構 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="3a7e4-103">DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC structure (directml.h)</span></span>
+# <a name="dml_element_wise_bit_count_operator_desc-structure-directmlh"></a><span data-ttu-id="ca7a8-103">DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC 結構 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="ca7a8-103">DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC structure (directml.h)</span></span>
 
-<span data-ttu-id="3a7e4-104">針對輸入 tensor 的每個元素，計算位人口計數 (設定為 1) ，然後將結果寫入輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-104">Computes the bitwise population count (the number of bits set to 1) for each element of the input tensor, and writes the result into the output tensor.</span></span>
+<span data-ttu-id="ca7a8-104">針對輸入 tensor 的每個元素，計算位人口計數 (設定為 1) ，然後將結果寫入輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-104">Computes the bitwise population count (the number of bits set to 1) for each element of the input tensor, and writes the result into the output tensor.</span></span>
 
-<span data-ttu-id="3a7e4-105">輸入和輸出 tensor 必須有相同的 *DimensionCount* 和 *大小*，不過它們在 *DataType* 中可能不同。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-105">The input and output tensor must have the same *DimensionCount* and *Sizes*, although they may differ in *DataType*.</span></span>
+<span data-ttu-id="ca7a8-105">輸入和輸出 tensor 必須有相同的 *DimensionCount* 和 *大小*，不過它們在 *DataType* 中可能不同。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-105">The input and output tensor must have the same *DimensionCount* and *Sizes*, although they may differ in *DataType*.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="3a7e4-106">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/)。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-106">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/).</span></span> <span data-ttu-id="3a7e4-107">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-107">Also see [DirectML version history](../dml-version-history.md).</span></span>
+> <span data-ttu-id="ca7a8-106">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-106">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="ca7a8-107">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-107">Also see [DirectML version history](../dml-version-history.md).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="3a7e4-108">語法</span><span class="sxs-lookup"><span data-stu-id="3a7e4-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ca7a8-108">語法</span><span class="sxs-lookup"><span data-stu-id="ca7a8-108">Syntax</span></span>
 
 ```cpp
 struct DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC
@@ -71,21 +71,21 @@ struct DML_ELEMENT_WISE_BIT_COUNT_OPERATOR_DESC
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="3a7e4-109">成員</span><span class="sxs-lookup"><span data-stu-id="3a7e4-109">Members</span></span>
+## <a name="members"></a><span data-ttu-id="ca7a8-109">成員</span><span class="sxs-lookup"><span data-stu-id="ca7a8-109">Members</span></span>
 
 `InputTensor`
 
-<span data-ttu-id="3a7e4-110">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="3a7e4-110">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="ca7a8-110">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="ca7a8-110">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="3a7e4-111">要從中讀取的輸入 tensor。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-111">The input tensor to read from.</span></span>
+<span data-ttu-id="ca7a8-111">要從中讀取的輸入 tensor。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-111">The input tensor to read from.</span></span>
 
 `OutputTensor`
 
-<span data-ttu-id="3a7e4-112">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="3a7e4-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+<span data-ttu-id="ca7a8-112">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="ca7a8-112">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
 
-<span data-ttu-id="3a7e4-113">要寫入結果的輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-113">The output tensor to write the results to.</span></span>
+<span data-ttu-id="ca7a8-113">要寫入結果的輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-113">The output tensor to write the results to.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3a7e4-114">範例</span><span class="sxs-lookup"><span data-stu-id="3a7e4-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="ca7a8-114">範例</span><span class="sxs-lookup"><span data-stu-id="ca7a8-114">Example</span></span>
 
 ```
 InputTensor: (Sizes:{2,2}, DataType:UINT32)
@@ -97,19 +97,19 @@ OutputTensor: (Sizes:{2,2}, DataType:UINT32)
  [4, 5]]
 ```
 
-## <a name="availability"></a><span data-ttu-id="3a7e4-115">可用性</span><span class="sxs-lookup"><span data-stu-id="3a7e4-115">Availability</span></span>
-<span data-ttu-id="3a7e4-116">這個運算子是在中引進 `DML_FEATURE_LEVEL_3_0` 。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-116">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
+## <a name="availability"></a><span data-ttu-id="ca7a8-115">可用性</span><span class="sxs-lookup"><span data-stu-id="ca7a8-115">Availability</span></span>
+<span data-ttu-id="ca7a8-116">這個運算子是在中引進 `DML_FEATURE_LEVEL_3_0` 。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-116">This operator was introduced in `DML_FEATURE_LEVEL_3_0`.</span></span>
 
-## <a name="tensor-constraints"></a><span data-ttu-id="3a7e4-117">Tensor 條件約束</span><span class="sxs-lookup"><span data-stu-id="3a7e4-117">Tensor constraints</span></span>
-<span data-ttu-id="3a7e4-118">*InputTensor* 和 *OutputTensor* 必須有相同的 *DimensionCount* 和 *大小*。</span><span class="sxs-lookup"><span data-stu-id="3a7e4-118">*InputTensor* and *OutputTensor* must have the same *DimensionCount* and *Sizes*.</span></span>
+## <a name="tensor-constraints"></a><span data-ttu-id="ca7a8-117">Tensor 條件約束</span><span class="sxs-lookup"><span data-stu-id="ca7a8-117">Tensor constraints</span></span>
+<span data-ttu-id="ca7a8-118">*InputTensor* 和 *OutputTensor* 必須有相同的 *DimensionCount* 和 *大小*。</span><span class="sxs-lookup"><span data-stu-id="ca7a8-118">*InputTensor* and *OutputTensor* must have the same *DimensionCount* and *Sizes*.</span></span>
 
-## <a name="tensor-support"></a><span data-ttu-id="3a7e4-119">Tensor 支援</span><span class="sxs-lookup"><span data-stu-id="3a7e4-119">Tensor support</span></span>
-| <span data-ttu-id="3a7e4-120">張</span><span class="sxs-lookup"><span data-stu-id="3a7e4-120">Tensor</span></span> | <span data-ttu-id="3a7e4-121">類型</span><span class="sxs-lookup"><span data-stu-id="3a7e4-121">Kind</span></span> | <span data-ttu-id="3a7e4-122">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="3a7e4-122">Supported dimension counts</span></span> | <span data-ttu-id="3a7e4-123">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="3a7e4-123">Supported data types</span></span> |
+## <a name="tensor-support"></a><span data-ttu-id="ca7a8-119">Tensor 支援</span><span class="sxs-lookup"><span data-stu-id="ca7a8-119">Tensor support</span></span>
+| <span data-ttu-id="ca7a8-120">張</span><span class="sxs-lookup"><span data-stu-id="ca7a8-120">Tensor</span></span> | <span data-ttu-id="ca7a8-121">類型</span><span class="sxs-lookup"><span data-stu-id="ca7a8-121">Kind</span></span> | <span data-ttu-id="ca7a8-122">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="ca7a8-122">Supported dimension counts</span></span> | <span data-ttu-id="ca7a8-123">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="ca7a8-123">Supported data types</span></span> |
 | ------ | ---- | -------------------------- | -------------------- |
-| <span data-ttu-id="3a7e4-124">InputTensor</span><span class="sxs-lookup"><span data-stu-id="3a7e4-124">InputTensor</span></span> | <span data-ttu-id="3a7e4-125">輸入</span><span class="sxs-lookup"><span data-stu-id="3a7e4-125">Input</span></span> | <span data-ttu-id="3a7e4-126">1至8</span><span class="sxs-lookup"><span data-stu-id="3a7e4-126">1 to 8</span></span> | <span data-ttu-id="3a7e4-127">UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="3a7e4-127">UINT32, UINT16, UINT8</span></span> |
-| <span data-ttu-id="3a7e4-128">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="3a7e4-128">OutputTensor</span></span> | <span data-ttu-id="3a7e4-129">輸出</span><span class="sxs-lookup"><span data-stu-id="3a7e4-129">Output</span></span> | <span data-ttu-id="3a7e4-130">1至8</span><span class="sxs-lookup"><span data-stu-id="3a7e4-130">1 to 8</span></span> | <span data-ttu-id="3a7e4-131">UINT32、UINT8</span><span class="sxs-lookup"><span data-stu-id="3a7e4-131">UINT32, UINT8</span></span> |
+| <span data-ttu-id="ca7a8-124">InputTensor</span><span class="sxs-lookup"><span data-stu-id="ca7a8-124">InputTensor</span></span> | <span data-ttu-id="ca7a8-125">輸入</span><span class="sxs-lookup"><span data-stu-id="ca7a8-125">Input</span></span> | <span data-ttu-id="ca7a8-126">1至8</span><span class="sxs-lookup"><span data-stu-id="ca7a8-126">1 to 8</span></span> | <span data-ttu-id="ca7a8-127">UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="ca7a8-127">UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="ca7a8-128">OutputTensor</span><span class="sxs-lookup"><span data-stu-id="ca7a8-128">OutputTensor</span></span> | <span data-ttu-id="ca7a8-129">輸出</span><span class="sxs-lookup"><span data-stu-id="ca7a8-129">Output</span></span> | <span data-ttu-id="ca7a8-130">1至8</span><span class="sxs-lookup"><span data-stu-id="ca7a8-130">1 to 8</span></span> | <span data-ttu-id="ca7a8-131">UINT32、UINT8</span><span class="sxs-lookup"><span data-stu-id="ca7a8-131">UINT32, UINT8</span></span> |
 
-## <a name="requirements"></a><span data-ttu-id="3a7e4-132">規格需求</span><span class="sxs-lookup"><span data-stu-id="3a7e4-132">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="ca7a8-132">規格需求</span><span class="sxs-lookup"><span data-stu-id="ca7a8-132">Requirements</span></span>
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| <span data-ttu-id="3a7e4-133">**標頭**</span><span class="sxs-lookup"><span data-stu-id="3a7e4-133">**Header**</span></span> | <span data-ttu-id="3a7e4-134">directml。h</span><span class="sxs-lookup"><span data-stu-id="3a7e4-134">directml.h</span></span> |
+| <span data-ttu-id="ca7a8-133">**標頭**</span><span class="sxs-lookup"><span data-stu-id="ca7a8-133">**Header**</span></span> | <span data-ttu-id="ca7a8-134">directml。h</span><span class="sxs-lookup"><span data-stu-id="ca7a8-134">directml.h</span></span> |
