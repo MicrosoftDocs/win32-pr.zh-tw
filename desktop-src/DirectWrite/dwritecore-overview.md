@@ -5,17 +5,17 @@ keywords:
 - DirectWrite 核心
 - DWriteCore
 ms.topic: article
-ms.date: 12/09/2020
-ms.openlocfilehash: 605cab8d0cd0511b5ca3b0b14d517cdc3f290573
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.date: 04/21/2021
+ms.openlocfilehash: 27a34656ce28a65267bd098974b4df9003a80e17
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321391"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881837"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
-DWriteCore 是[DirectWrite](./direct-write-portal.md)的[專案留尼旺島](/windows/apps/project-reunion/)執行。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。
+DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于高品質文字轉譯、解析度無關大綱字型，以及完整 Unicode 文字和版面配置支援[) 的 DirectX](/windows/apps/project-reunion/) API。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。
 
 本簡介主題說明 DWriteCore 是什麼，並示範如何將它安裝到您的開發環境和程式。
 
@@ -35,9 +35,31 @@ DWriteCore 會透過 [DWriteCoreGallery](https://github.com/microsoft/Project-Re
 
 ## <a name="get-started-with-dwritecore"></a>DWriteCore 入門
 
-針對專案的0.1 發行前版本，我們目前不支援將「專案留尼旺島」 NuGet 套件安裝到您自己的專案中。 相反地，使用 DWriteCore 進行程式設計的目前支援選項是從 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式專案開始，並以該專案為基礎進行開發。
+DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)的一部分。 本節說明如何設定您的開發環境，以使用 DWriteCore 進行程式設計。
 
-然後您可以隨意移除任何現有的原始程式碼 (或從該範例專案) 的檔案，以及將任何新的原始程式碼 (或) 至專案的檔案中。 如需使用 DWriteCore 進行程式設計的詳細資訊，請參閱本主題稍後的 [使用 DWriteCore 進行程式設計](#programming-with-dwritecore) 一節。
+### <a name="install-the-project-reunion-05-vsix"></a>安裝 Project 留尼旺島 0.5 VSIX
+
+在 Visual Studio 中，按一下 [**擴充** 功能  >  **管理延伸** 模組]、搜尋 *project 留尼旺島*，然後下載專案留尼旺島延伸模組。 關閉並重新開啟 Visual Studio，並遵循提示來安裝擴充功能。
+
+如需詳細資訊，請參閱 [project 留尼旺島 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)，並 [使用 Project 留尼旺島0.5 建立桌面 Windows 應用程式](/windows/apps/project-reunion/#set-up-your-development-environment)。
+
+### <a name="create-a-new-project"></a>建立新專案
+
+在 Visual Studio 中，從空白應用程式建立新的專案 **，並在桌面) 專案範本中封裝 (WinUI 3** 。 您可以選擇 [language： *c + +*;] 來尋找該專案範本。平臺： *專案留尼旺島*;專案類型： *Desktop*。
+
+如需詳細資訊，請參閱 [WinUI 3 的專案範本](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3)。
+
+### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>安裝 ProjectReunion DWrite NuGet 套件
+
+在 Visual Studio 中，按一下 [ **專案** \> **管理 NuGet 封裝** \> **]**，然後在 [搜尋] 方塊中輸入或貼上 **ProjectReunion DWrite** ，在搜尋結果中選取專案，然後按一下 [ **安裝** ] 以安裝該專案的套件。
+
+### <a name="alternatively-begin-with-the-dwritecoregallery-sample-app"></a>或者，從 DWriteCoreGallery 範例應用程式開始
+
+或者，您可以從 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式專案開始使用 DWriteCore 進行程式設計，並以該專案為基礎進行開發。 然後您可以隨意移除任何現有的原始程式碼 (或從該範例專案) 的檔案，以及將任何新的原始程式碼 (或) 至專案的檔案中。
+
+### <a name="use-dwritecore-in-your-project"></a>在您的專案中使用 DWriteCore
+
+如需使用 DWriteCore 進行程式設計的詳細資訊，請參閱本主題稍後的 [使用 DWriteCore 進行程式設計](#programming-with-dwritecore) 一節。
 
 ## <a name="the-release-phases-of-dwritecore"></a>DWriteCore 的發行階段
 
@@ -69,17 +91,18 @@ DWriteCore 以及其他的 Project 留尼旺島元件，都將以開放性開發
 
 ## <a name="programming-with-dwritecore"></a>使用 DWriteCore 進行程式設計
 
-如先前所述，針對專案留尼旺島0.1 發行前版本，您使用 DWriteCore 進行程式設計的目前支援選項是從 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式專案開始。
-
 就像使用 [DirectWrite](./direct-write-portal.md)，您可以透過 [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) 介面，透過其 COM light API 來進行程式設計。
 
-**DWriteCoreGallery** 已包含 `dwrite_core.h` 標頭檔。 該標頭會先定義權杖 *DWRITE_CORE*，然後包含 `dwrite_3.h` 。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite api 可供您使用。 一旦加入專案之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
+若要使用 DWriteCore，必須包含 `dwrite_core.h` 標頭檔。
 
 ```cppwinrt
 // pch.h
 ...
+// DWriteCore header file.
 #include <dwrite_core.h>
 ```
+
+`dwrite_core.h`標頭檔會先定義權杖 *DWRITE_CORE*，然後包含 `dwrite_3.h` 。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite api 可供您使用。 當您的專案包含之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
 
 ### <a name="apis-that-are-new-or-different-for-dwritecore"></a>適用于 DWriteCore 的新或不同 Api
 
@@ -87,22 +110,22 @@ DWriteCore API 表面與 [DirectWrite](/windows/win32/api/_directwrite/)的方�
 
 #### <a name="create-a-restricted-factory-object"></a>建立受限制的 factory 物件
 
-[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_RESTRICTED**。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) free 函式時，如何使用 **DWRITE_FACTORY_TYPE_RESTRICTED** 來建立受限制的 FACTORY 物件。
+[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**，表示受限的 FACTORY。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式時，如何使用 **DWRITE_FACTORY_TYPE_ISOLATED2** 來建立受限制的 FACTORY 物件。
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
 // persistent cache state.
 winrt::com_ptr<::IDWriteFactory7> spFactory;
 winrt::check_hresult(
-  ::DWriteCreateFactory(
-    DWRITE_FACTORY_TYPE_RESTRICTED,
+  ::DWriteCoreCreateFactory(
+    DWRITE_FACTORY_TYPE_ISOLATED2,
     __uuidof(spFactory),
     reinterpret_cast<IUnknown**>(spFactory.put())
   )
 );
 ```
 
-如果您將 **DWRITE_FACTORY_TYPE_RESTRICTED** 傳遞至不支援的舊版 DirectWrite，則 **DWriteCreateFactory** 會傳回 **E_INVALIDARG**。
+如果您將 **DWRITE_FACTORY_TYPE_ISOLATED2** 傳遞至不支援的舊版 DirectWrite，則 **DWriteCreateFactory** 會傳回 **E_INVALIDARG**。
 
 #### <a name="drawing-glyphs-to-a-system-memory-bitmap"></a>將圖像繪製至系統記憶體點陣圖
 

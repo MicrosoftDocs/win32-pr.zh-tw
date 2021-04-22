@@ -39,12 +39,12 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: ea60bbd4933cd890321e0caeb095778922699a46
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 3d5b2168e5154f2e55b6f5acb83897f68d4a029c
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106975586"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881827"
 ---
 # <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a>DWRITE_BITMAP_DATA_BGRA32 結構 (dwrite_3 .h) 
 
@@ -94,5 +94,5 @@ struct DWRITE_BITMAP_DATA_BGRA32
 ## <a name="requirements"></a>規格需求
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | Windows 10，Project 留尼旺島0.1 發行前版本 [Win32 應用程式] |
+| **最低支援的用戶端** | Windows 10，專案留尼旺島 [Win32 apps] |
 | **標頭** | dwrite_3 .h (包含 dwrite_core .h)  |

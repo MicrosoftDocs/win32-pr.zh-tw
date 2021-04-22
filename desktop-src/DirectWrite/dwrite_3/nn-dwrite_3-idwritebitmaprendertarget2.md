@@ -39,12 +39,12 @@ api_location:
 - dwrite.dll
 api_name:
 - IDWriteBitmapRenderTarget2
-ms.openlocfilehash: edc1df695424eac0bbf0d5a4951b5e9fe4ec0809
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: e12bceefd7ffb89a427edc04b4910b6346dfb066
+ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104195687"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107881817"
 ---
 # <a name="idwritebitmaprendertarget2-interface-dwrite_3h"></a>IDWriteBitmapRenderTarget2 介面 (dwrite_3 .h) 
 
@@ -68,5 +68,5 @@ ms.locfileid: "104195687"
 ## <a name="requirements"></a>規格需求
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | Windows 10，Project 留尼旺島0.1 發行前版本 [Win32 應用程式] |
+| **最低支援的用戶端** | Windows 10，專案留尼旺島 [Win32 apps] |
 | **標頭** | dwrite_3 .h (包含 dwrite_core .h)  |
