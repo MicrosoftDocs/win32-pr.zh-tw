@@ -20,12 +20,12 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8064ae996831f61869d74ff1fd7c0f2222257b85
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4bcde8d55032d2e07466668b5a4d96b9a447d843
+ms.sourcegitcommit: 35baf9ba19918a38c4ca8714f88c004af0c6f518
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106984280"
+ms.lasthandoff: 04/21/2021
+ms.locfileid: "107838802"
 ---
 # <a name="jetdefragment2-function"></a>JetDefragment2 函式
 
@@ -70,7 +70,15 @@ JET_ERR JET_API JetDefragment2(
 
 *szTableName*
 
-未使用的參數。 針對指定資料庫識別碼所描述的整個資料庫執行磁碟重組。
+有時 *szTableName* 是必要的，有時會被禁止：
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | 必須是 `NULL`。 |
+| `JET_bitDefragmentBTree` | 指定要重組的資料表/BTree 表名稱。 |
+| *其他* | 必須是 `NULL`。 |
+ 
+針對指定資料庫識別碼所描述的整個資料庫執行磁碟重組。
 
 *pcPasses*
 
@@ -87,6 +95,13 @@ JET_ERR JET_API JetDefragment2(
 *回撥*
 
 可定期重組呼叫以報告進度的回呼函數。
+
+| *grbit* | *szTableName* |
+| --- | --- |
+| `JET_bitDefragmentBTreeBatch` | 必須是 `NULL`。 |
+| `JET_bitDefragmentBTree` | 必須是 `NULL`。 |
+| *其他* | 選擇性。
+
 
 *grbit*
 
@@ -118,7 +133,11 @@ JET_ERR JET_API JetDefragment2(
 </tr>
 <tr class="even">
 <td><p>JET_bitDefragmentBTree</p></td>
-<td><p>此選項可用來重組 B 型樹狀目錄。</p></td>
+<td><p>此選項是用來重組 szTableName 所指定的 B 型樹狀目錄。</p></td>
+</tr>
+<tr class="odd">
+<td><p>JET_bitDefragmentBTreeBatch</p></td>
+<td><p>這個選項是用來呼叫整個資料庫上的 OLD2。</p></td>
 </tr>
 </tbody>
 </table>
