@@ -4,40 +4,40 @@ ms.assetid: 523aa25c-790b-4532-9c69-76544235bdfe
 title: at 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb539331519fb23b6b8aa45b374457229f807a5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b5822f82a349f31f0d4c8de3f522f7f4f3346a08
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688308"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909826"
 ---
-# <a name="at-element"></a><span data-ttu-id="975e7-103">at 元素</span><span class="sxs-lookup"><span data-stu-id="975e7-103">at Element</span></span>
+# <a name="at-element"></a><span data-ttu-id="bc84f-103">at 元素</span><span class="sxs-lookup"><span data-stu-id="bc84f-103">at Element</span></span>
 
 > [!Note]  
-> <span data-ttu-id="975e7-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="975e7-104">\[Deprecated.</span></span> <span data-ttu-id="975e7-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="975e7-105">This API may be removed from future releases of Windows.\]</span></span>
+> <span data-ttu-id="bc84f-104">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="bc84f-104">\[Deprecated.</span></span> <span data-ttu-id="bc84f-105">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="bc84f-105">This API may be removed from future releases of Windows.\]</span></span>
 
  
 
-<span data-ttu-id="975e7-106">專案 `at` 會在特定時間定義 [**param**](param-element.md) 專案的值，相對於包含參數的轉換或效果的開頭。</span><span class="sxs-lookup"><span data-stu-id="975e7-106">The `at` element defines the value of a [**param**](param-element.md) element at a particular time, relative to the start of the transition or effect that contains the parameter.</span></span> <span data-ttu-id="975e7-107">`at`元素會在指定的時間，讓參數跳到新值。</span><span class="sxs-lookup"><span data-stu-id="975e7-107">The `at` element causes the parameter to jump abruptly to the new value at the given time.</span></span> <span data-ttu-id="975e7-108">若要讓新值的進展順利進行，請使用 [**線性**](linear-element.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="975e7-108">For a smooth progression to a new value, use the [**linear**](linear-element.md) element.</span></span>
+<span data-ttu-id="bc84f-106">專案 `at` 會在特定時間定義 [**param**](param-element.md) 專案的值，相對於包含參數的轉換或效果的開頭。</span><span class="sxs-lookup"><span data-stu-id="bc84f-106">The `at` element defines the value of a [**param**](param-element.md) element at a particular time, relative to the start of the transition or effect that contains the parameter.</span></span> <span data-ttu-id="bc84f-107">`at`元素會在指定的時間，讓參數跳到新值。</span><span class="sxs-lookup"><span data-stu-id="bc84f-107">The `at` element causes the parameter to jump abruptly to the new value at the given time.</span></span> <span data-ttu-id="bc84f-108">若要讓新值的進展順利進行，請使用 [**線性**](linear-element.md) 元素。</span><span class="sxs-lookup"><span data-stu-id="bc84f-108">For a smooth progression to a new value, use the [**linear**](linear-element.md) element.</span></span>
 
-## <a name="attributes"></a><span data-ttu-id="975e7-109">屬性</span><span class="sxs-lookup"><span data-stu-id="975e7-109">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="bc84f-109">屬性</span><span class="sxs-lookup"><span data-stu-id="bc84f-109">Attributes</span></span>
 
-<span data-ttu-id="975e7-110">[**時間**](time-attribute.md)、 [**值**](value-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="975e7-110">[**time**](time-attribute.md), [**value**](value-attribute.md)</span></span>
+<span data-ttu-id="bc84f-110">[**時間**](time-attribute.md)、 [**值**](value-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="bc84f-110">[**time**](time-attribute.md), [**value**](value-attribute.md)</span></span>
 
-## <a name="parentchild-information"></a><span data-ttu-id="975e7-111">父系/子系資訊</span><span class="sxs-lookup"><span data-stu-id="975e7-111">Parent/Child Information</span></span>
+## <a name="parentchild-information"></a><span data-ttu-id="bc84f-111">父系/子系資訊</span><span class="sxs-lookup"><span data-stu-id="bc84f-111">Parent/Child Information</span></span>
 
 
 
-|          |                                |
+| <span data-ttu-id="bc84f-112">標籤</span><span class="sxs-lookup"><span data-stu-id="bc84f-112">Label</span></span> | <span data-ttu-id="bc84f-113">值</span><span class="sxs-lookup"><span data-stu-id="bc84f-113">Value</span></span> |
 |----------|--------------------------------|
-| <span data-ttu-id="975e7-112">父代</span><span class="sxs-lookup"><span data-stu-id="975e7-112">Parent</span></span>   | [<span data-ttu-id="975e7-113">**參數**</span><span class="sxs-lookup"><span data-stu-id="975e7-113">**param**</span></span>](param-element.md) |
-| <span data-ttu-id="975e7-114">Children</span><span class="sxs-lookup"><span data-stu-id="975e7-114">Children</span></span> | <span data-ttu-id="975e7-115">無</span><span class="sxs-lookup"><span data-stu-id="975e7-115">None</span></span>                           |
+| <span data-ttu-id="bc84f-114">父代</span><span class="sxs-lookup"><span data-stu-id="bc84f-114">Parent</span></span>   | [<span data-ttu-id="bc84f-115">**參數**</span><span class="sxs-lookup"><span data-stu-id="bc84f-115">**param**</span></span>](param-element.md) |
+| <span data-ttu-id="bc84f-116">Children</span><span class="sxs-lookup"><span data-stu-id="bc84f-116">Children</span></span> | <span data-ttu-id="bc84f-117">無</span><span class="sxs-lookup"><span data-stu-id="bc84f-117">None</span></span>                           |
 
 
 
  
 
-## <a name="examples"></a><span data-ttu-id="975e7-116">範例</span><span class="sxs-lookup"><span data-stu-id="975e7-116">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="bc84f-118">範例</span><span class="sxs-lookup"><span data-stu-id="bc84f-118">Examples</span></span>
 
 
 ```XML
@@ -46,11 +46,11 @@ ms.locfileid: "103688308"
 
 
 
-## <a name="see-also"></a><span data-ttu-id="975e7-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="975e7-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bc84f-119">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bc84f-119">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="975e7-118">XTL 元素</span><span class="sxs-lookup"><span data-stu-id="975e7-118">XTL Elements</span></span>](xtl-elements.md)
+[<span data-ttu-id="bc84f-120">XTL 元素</span><span class="sxs-lookup"><span data-stu-id="bc84f-120">XTL Elements</span></span>](xtl-elements.md)
 </dt> </dl>
 
  

@@ -13,40 +13,40 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.media.animation.h
-ms.openlocfilehash: ebbbbdf80ce750f0354eafa3b692be8ed4c9df35
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 97e87dbbcfbcefb8968f6bbe43e9df94277e3d7a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977435"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908796"
 ---
-# <a name="timeline-element"></a><span data-ttu-id="abc11-104">時間軸元素</span><span class="sxs-lookup"><span data-stu-id="abc11-104">timeline Element</span></span>
+# <a name="timeline-element"></a><span data-ttu-id="3c1b4-104">時間軸元素</span><span class="sxs-lookup"><span data-stu-id="3c1b4-104">timeline Element</span></span>
 
 > [!Note]  
-> <span data-ttu-id="abc11-105">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="abc11-105">\[Deprecated.</span></span> <span data-ttu-id="abc11-106">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="abc11-106">This API may be removed from future releases of Windows.\]</span></span>
+> <span data-ttu-id="3c1b4-105">\[廢棄。</span><span class="sxs-lookup"><span data-stu-id="3c1b4-105">\[Deprecated.</span></span> <span data-ttu-id="3c1b4-106">此 API 可能會從 Windows 的未來版本中移除。\]</span><span class="sxs-lookup"><span data-stu-id="3c1b4-106">This API may be removed from future releases of Windows.\]</span></span>
 
  
 
-<span data-ttu-id="abc11-107">`timeline`元素定義時間軸。</span><span class="sxs-lookup"><span data-stu-id="abc11-107">The `timeline` element defines the timeline.</span></span> <span data-ttu-id="abc11-108">此元素是 XML 檔案中的根節點。</span><span class="sxs-lookup"><span data-stu-id="abc11-108">This element is the root node in the XML file.</span></span>
+<span data-ttu-id="3c1b4-107">`timeline`元素定義時間軸。</span><span class="sxs-lookup"><span data-stu-id="3c1b4-107">The `timeline` element defines the timeline.</span></span> <span data-ttu-id="3c1b4-108">此元素是 XML 檔案中的根節點。</span><span class="sxs-lookup"><span data-stu-id="3c1b4-108">This element is the root node in the XML file.</span></span>
 
-## <a name="attributes"></a><span data-ttu-id="abc11-109">屬性</span><span class="sxs-lookup"><span data-stu-id="abc11-109">Attributes</span></span>
+## <a name="attributes"></a><span data-ttu-id="3c1b4-109">屬性</span><span class="sxs-lookup"><span data-stu-id="3c1b4-109">Attributes</span></span>
 
-<span data-ttu-id="abc11-110">[**defaultfx**](defaultfx-attribute.md)、 [**defaulttrans**](defaulttrans-attribute.md)、 [**enablefx**](enablefx-attribute.md)、 [**enabletrans**](enabletrans-attribute.md)、 [**畫面播放速率**](framerate-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="abc11-110">[**defaultfx**](defaultfx-attribute.md), [**defaulttrans**](defaulttrans-attribute.md), [**enablefx**](enablefx-attribute.md), [**enabletrans**](enabletrans-attribute.md), [**framerate**](framerate-attribute.md)</span></span>
+<span data-ttu-id="3c1b4-110">[**defaultfx**](defaultfx-attribute.md)、 [**defaulttrans**](defaulttrans-attribute.md)、 [**enablefx**](enablefx-attribute.md)、 [**enabletrans**](enabletrans-attribute.md)、 [**畫面播放速率**](framerate-attribute.md)</span><span class="sxs-lookup"><span data-stu-id="3c1b4-110">[**defaultfx**](defaultfx-attribute.md), [**defaulttrans**](defaulttrans-attribute.md), [**enablefx**](enablefx-attribute.md), [**enabletrans**](enabletrans-attribute.md), [**framerate**](framerate-attribute.md)</span></span>
 
-## <a name="parentchild-information"></a><span data-ttu-id="abc11-111">父系/子系資訊</span><span class="sxs-lookup"><span data-stu-id="abc11-111">Parent/Child Information</span></span>
+## <a name="parentchild-information"></a><span data-ttu-id="3c1b4-111">父系/子系資訊</span><span class="sxs-lookup"><span data-stu-id="3c1b4-111">Parent/Child Information</span></span>
 
 
 
-|          |                                                       |
+| <span data-ttu-id="3c1b4-112">標籤</span><span class="sxs-lookup"><span data-stu-id="3c1b4-112">Label</span></span> | <span data-ttu-id="3c1b4-113">值</span><span class="sxs-lookup"><span data-stu-id="3c1b4-113">Value</span></span> |
 |----------|-------------------------------------------------------|
-| <span data-ttu-id="abc11-112">父代</span><span class="sxs-lookup"><span data-stu-id="abc11-112">Parent</span></span>   | <span data-ttu-id="abc11-113">無。</span><span class="sxs-lookup"><span data-stu-id="abc11-113">None.</span></span> <span data-ttu-id="abc11-114">這個元素必須是檔案中的根節點。</span><span class="sxs-lookup"><span data-stu-id="abc11-114">This element must be the root node in the file.</span></span> |
-| <span data-ttu-id="abc11-115">Children</span><span class="sxs-lookup"><span data-stu-id="abc11-115">Children</span></span> | [<span data-ttu-id="abc11-116">**組**</span><span class="sxs-lookup"><span data-stu-id="abc11-116">**group**</span></span>](group-element.md)                        |
+| <span data-ttu-id="3c1b4-114">父代</span><span class="sxs-lookup"><span data-stu-id="3c1b4-114">Parent</span></span>   | <span data-ttu-id="3c1b4-115">無。</span><span class="sxs-lookup"><span data-stu-id="3c1b4-115">None.</span></span> <span data-ttu-id="3c1b4-116">這個元素必須是檔案中的根節點。</span><span class="sxs-lookup"><span data-stu-id="3c1b4-116">This element must be the root node in the file.</span></span> |
+| <span data-ttu-id="3c1b4-117">Children</span><span class="sxs-lookup"><span data-stu-id="3c1b4-117">Children</span></span> | [<span data-ttu-id="3c1b4-118">**組**</span><span class="sxs-lookup"><span data-stu-id="3c1b4-118">**group**</span></span>](group-element.md)                        |
 
 
 
  
 
-## <a name="examples"></a><span data-ttu-id="abc11-117">範例</span><span class="sxs-lookup"><span data-stu-id="abc11-117">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="3c1b4-119">範例</span><span class="sxs-lookup"><span data-stu-id="3c1b4-119">Examples</span></span>
 
 
 ```XML
@@ -55,21 +55,21 @@ ms.locfileid: "106977435"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="abc11-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="abc11-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="3c1b4-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="3c1b4-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="abc11-119">需求</span><span class="sxs-lookup"><span data-stu-id="abc11-119">Requirement</span></span> | <span data-ttu-id="abc11-120">值</span><span class="sxs-lookup"><span data-stu-id="abc11-120">Value</span></span> |
+| <span data-ttu-id="3c1b4-121">需求</span><span class="sxs-lookup"><span data-stu-id="3c1b4-121">Requirement</span></span> | <span data-ttu-id="3c1b4-122">值</span><span class="sxs-lookup"><span data-stu-id="3c1b4-122">Value</span></span> |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="abc11-121">標頭</span><span class="sxs-lookup"><span data-stu-id="abc11-121">Header</span></span><br/> | <dl> <span data-ttu-id="abc11-122"><dt>（... H h）</dt></span><span class="sxs-lookup"><span data-stu-id="abc11-122"><dt>Windows.ui.xaml.media.animation.h</dt></span></span> </dl> |
+| <span data-ttu-id="3c1b4-123">標頭</span><span class="sxs-lookup"><span data-stu-id="3c1b4-123">Header</span></span><br/> | <dl> <span data-ttu-id="3c1b4-124"><dt>（... H h）</dt></span><span class="sxs-lookup"><span data-stu-id="3c1b4-124"><dt>Windows.ui.xaml.media.animation.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="abc11-123">另請參閱</span><span class="sxs-lookup"><span data-stu-id="abc11-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3c1b4-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3c1b4-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="abc11-124">XTL 元素</span><span class="sxs-lookup"><span data-stu-id="abc11-124">XTL Elements</span></span>](xtl-elements.md)
+[<span data-ttu-id="3c1b4-126">XTL 元素</span><span class="sxs-lookup"><span data-stu-id="3c1b4-126">XTL Elements</span></span>](xtl-elements.md)
 </dt> </dl>
 
  
