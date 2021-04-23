@@ -4,12 +4,12 @@ ms.assetid: 1b12f65f-8d77-4d38-aad9-92bb15cc0426
 title: 'WM ASF 寫入器篩選器 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 672996124c88632228fff3a84525c9d47f2276b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bf09a99673b07e88198fd57b95a766ce821eb02
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114341"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909276"
 ---
 # <a name="wm-asf-writer-filter-directshow"></a>WM ASF 寫入器篩選器 (DirectShow) 
 
@@ -19,7 +19,7 @@ WM ASF 寫入器是 Windows Media™ Format SDK 所提供之寫入器物件的�
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 標籤 | 值 |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [**IConfigAsfWriter**](/previous-versions/windows/desktop/api/Dshowasf/nn-dshowasf-iconfigasfwriter)、 [**IConfigAsfWriter2**](/previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iconfigasfwriter2)、 [**IFileSinkFilter2**](/windows/desktop/api/Strmif/nn-strmif-ifilesinkfilter2)、 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)、 **IPersistStream**、 **ISERVICEPROVIDER**、 **ISpecifyPropertyPages**，此外，此篩選器會公開下列 Windows Media 格式 SDK 介面： **IWMIndexer2**、 **IWMHeaderInfo**、 **IWMWriterAdvanced2**<br/> |
 | 輸入 pin 媒體類型                    | 相依于 ASF 設定檔。 通常未壓縮的音訊和影片類型，雖然篩選準則會在符合 ASF 設定檔的情況下接受壓縮類型。                                                                                                                                                                                                                                                                                                                                             |

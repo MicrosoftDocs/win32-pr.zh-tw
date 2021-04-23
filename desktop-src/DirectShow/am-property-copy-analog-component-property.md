@@ -4,12 +4,12 @@ ms.assetid: bd4fc5bc-c45d-4228-9759-6300fdfff6a0
 title: 'AM_PROPERTY_COPY_ANALOG_COMPONENT 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3998156bf372c39018aa73ba30a661117519c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6448bfbcc07be6ca37189c15c7c605887e6d22b3
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996403"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910306"
 ---
 # <a name="am_property_copy_analog_component-property"></a>AM \_ 屬性 \_ 複製 \_ 類比 \_ 元件屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "106996403"
 
 
 
-|                   |                                       |
+| 標籤 | 值 |
 |-------------------|---------------------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ CopyProt             |
 | 屬性識別碼       | AM \_ 屬性 \_ 複製 \_ 類比 \_ 元件 |

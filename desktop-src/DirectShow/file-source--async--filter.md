@@ -4,12 +4,12 @@ ms.assetid: 0cf6e7ab-b1fe-42f9-b682-c5484ef48c71
 title: 檔案來源 (Async) 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 403564b751e53f160ab140ac89bfda4fd9576f00
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1ddeea7398ce332a8b1db444b6b74fe3841f9053
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467673"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909696"
 ---
 # <a name="file-source-async-filter"></a>檔案來源 (Async) 篩選
 
@@ -19,7 +19,7 @@ ms.locfileid: "104467673"
 
 
 
-|                                          |                                                                                                                                      |
+| 標籤 | 值 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [ **IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)                                                   |
 | 輸入 Pin 媒體類型                    | 不適用                                                                                                                       |

@@ -4,12 +4,12 @@ ms.assetid: 2d33ae3f-565d-4e69-8fb0-117ff582a4d0
 title: WST 解碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01f2d20873ff9a5e7c009c4a84f7a23c273d6590
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb6804f82e5d15aa324feb163261544969e3c45
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848423"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908476"
 ---
 # <a name="wst-decoder-filter"></a>WST 解碼篩選
 
@@ -26,7 +26,7 @@ WST 解碼器是一種核心模式篩選器，接受來自 [WST 編解碼器](ws
 
 
 
-|                                          |                                                               |
+| 標籤 | 值 |
 |------------------------------------------|---------------------------------------------------------------|
 | 篩選介面                        | ISpecifyPropertyPages、 [ **IAMWstDecoder**](/previous-versions/windows/desktop/api/Iwstdec/nn-iwstdec-iamwstdecoder) |
 | 輸入 Pin 媒體類型                    | 媒體 \_ VBI、MEDIASUBTYPE \_ TELETEXT                        |

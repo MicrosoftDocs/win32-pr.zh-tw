@@ -4,12 +4,12 @@ ms.assetid: addde51d-2982-4964-b16a-406fea89a0ce
 title: AVI 壓縮程式篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58f3ef342d1ea740503d9fc1e9e9b898aadc3801
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 212ab58eb3800e0ad5531ebc5c50d3b054e7866c
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845719"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909466"
 ---
 # <a name="avi-compressor-filter"></a>AVI 壓縮程式篩選
 
@@ -26,7 +26,7 @@ AVI 壓縮程式篩選器可讓影片壓縮管理員 (BC-VCM-LVM-HYPERV) 編解�
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMVfwCompressDialogs**](/windows/desktop/api/Strmif/nn-strmif-iamvfwcompressdialogs)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、IPersistPropertyBag、ISpecifyPropertyPages                                                                                                             |
 | 輸入 Pin 媒體類型                    | 媒體媒體 \_ 、MEDIASUBTYPE \_ Null                                                                                                                                                                                                               |

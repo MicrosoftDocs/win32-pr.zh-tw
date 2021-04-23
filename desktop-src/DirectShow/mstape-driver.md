@@ -4,12 +4,12 @@ ms.assetid: aa59f322-09b1-4b0a-be6f-d865c20f76e5
 title: MSTape 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14f37e22c26866fca9519219d358e9733fb56151
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 951084f8827f925bba43028c0792736883d5ff0f
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845755"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909396"
 ---
 # <a name="mstape-driver"></a>MSTape 驅動程式
 
@@ -27,7 +27,7 @@ MSTape 驅動程式支援 D-VHS 和 MPEG 攝像機裝置。 它會以 [WDM 影�
 
 
 
-|              |                                                            |
+| 標籤 | 值 |
 |--------------|------------------------------------------------------------|
 | 主要類型   | 媒體媒體的 \_ 串流                                          |
 | Subtype      | MEDIASUBTYPE \_ MPEG2 \_ 傳輸 \_ STRIDE                     |
@@ -42,7 +42,7 @@ MSTape 驅動程式支援 D-VHS 和 MPEG 攝像機裝置。 它會以 [WDM 影�
 
 
 
-|              |                                        |
+| 標籤 | 值 |
 |--------------|----------------------------------------|
 | 主要類型   | 媒體媒體的 \_ 串流                      |
 | Subtype      | MEDIASUBTYPE \_ MPEG2 \_ 傳輸 \_ STRIDE |
@@ -55,7 +55,7 @@ MSTape 驅動程式支援 D-VHS 和 MPEG 攝像機裝置。 它會以 [WDM 影�
 
 
 
-|              |                                        |
+| 標籤 | 值 |
 |--------------|----------------------------------------|
 | 主要類型   | 媒體媒體的 \_ 串流                      |
 | Subtype      | MEDIASUBTYPE \_ MPEG2 \_ 傳輸 \_ STRIDE |

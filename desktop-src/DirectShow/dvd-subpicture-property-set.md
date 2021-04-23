@@ -4,12 +4,12 @@ ms.assetid: ddbfb65c-7630-4e9f-8013-c5d65c62c628
 title: 'DVD 子圖片屬性集 (Dvdmedia .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac2706bd0a7f078fb7352e70e8f8eb62f5dea948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8a45b83595e8657ee0c60f39cd67f2d0e4c71511
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001835"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909086"
 ---
 # <a name="dvd-subpicture-property-set"></a>DVD 子圖片屬性集
 
@@ -19,7 +19,7 @@ DVD 子圖片屬性控制子圖片顯示的色彩、對比和輸出。
 
 
 
-|                   |                            |
+| 標籤 | 值 |
 |-------------------|----------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ DvdSubPic |
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 18cedd24b0ddcb8f71373641905228f8252ae4ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f0b0ddffe2bc769b7c2371ef93091d8c1daf379c
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995192"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909666"
 ---
 # <a name="sample-grabber-filter"></a>範例捕獲篩選器
 
@@ -33,7 +33,7 @@ ms.locfileid: "106995192"
 
 
 
-|                                          |                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [ **ISampleGrabber**](isamplegrabber.md)                                                                       |
 | 輸入 pin 媒體類型                    | 任何媒體類型。                                                                                                                                    |

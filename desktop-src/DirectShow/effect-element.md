@@ -4,12 +4,12 @@ ms.assetid: aedb4491-f1f0-44b3-ad88-3fac8c90144d
 title: 'effect 元素 (Gdipluseffects .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd31e85407b99c3dffd4417a051be168f7c6d3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c925e61578857415bb22248a9ad2b1df27cdac
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991187"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908656"
 ---
 # <a name="effect-element"></a>effect 元素
 
@@ -28,7 +28,7 @@ ms.locfileid: "106991187"
 
 
 
-|          |                                                                                                                                      |
+| 標籤 | 值 |
 |----------|--------------------------------------------------------------------------------------------------------------------------------------|
 | 父代   | [**複合**](composite-element.md)、 [**群組**](group-element.md)、 [**剪輯**](clip-element.md)、 [**追蹤**](track-element.md) |
 | Children | [**參數**](param-element.md)                                                                                                       |

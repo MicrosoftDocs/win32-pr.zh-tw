@@ -4,12 +4,12 @@ ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: " (DirectShow) 的 WM ASF 讀取器篩選器"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3df563667ed614a238e8fb31e08a2d71c721c2b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a35cea4b6dbf8c720f3059e0317484fd2f34d10
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193134"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908866"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a> (DirectShow) 的 WM ASF 讀取器篩選器
 
@@ -17,7 +17,7 @@ ms.locfileid: "104193134"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 標籤 | 值 |
 |------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [**IFileSourceFilter**](/windows/desktop/api/Strmif/nn-strmif-ifilesourcefilter)、 [**IAMExtendedSeeking**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iamextendedseeking)、 **IServiceProvider**，此外，此篩選器會公開下列 Windows Media 格式 SDK 介面： [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)、 [**IWMReaderAdvanced**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced)、 [**IWMReaderAdvanced2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmreaderadvanced2)、 [**IWMDRMReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmreader) (到 **IServiceProvider**) <br/> |
 | 輸入 pin 媒體類型                    | 不適用。                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |

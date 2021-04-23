@@ -4,12 +4,12 @@ ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: 'AM_RATE_ReverseMaxFullDataRate 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 679e83038a74e64d7a39e8757a9ffaf61fc88c93
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31e376c6e95160c6a6c3c6637a765d868e282d33
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989893"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910236"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>AM \_ RATE \_ ReverseMaxFullDataRate 屬性
 
@@ -23,7 +23,7 @@ ms.locfileid: "106989893"
 
 
 
-|                   |                                  |
+| 標籤 | 值 |
 |-------------------|----------------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ TSRateChange    |
 | 屬性識別碼       | AM \_ RATE \_ ReverseMaxFullDataRate |

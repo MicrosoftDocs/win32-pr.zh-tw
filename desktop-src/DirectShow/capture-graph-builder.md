@@ -4,12 +4,12 @@ ms.assetid: df59afcf-6e11-463f-80ac-8b1fcc496d5b
 title: Capture Graph Builder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b268a3a455981027f714b89ba8791e6c3df5164b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1c94ef389ab7183ba44e3296e70cf3459c67ef1e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385628"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910196"
 ---
 # <a name="capture-graph-builder"></a>Capture Graph Builder
 
@@ -17,7 +17,7 @@ ms.locfileid: "104385628"
 
 
 
-|                  |                                                        |
+| 標籤 | 值 |
 |------------------|--------------------------------------------------------|
 | 類別識別碼 | CLSID \_ CaptureGraphBuilder2                            |
 | 介面       | [**ICaptureGraphBuilder2**](/windows/desktop/api/Strmif/nn-strmif-icapturegraphbuilder2) |

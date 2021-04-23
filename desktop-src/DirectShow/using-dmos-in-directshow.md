@@ -4,12 +4,12 @@ ms.assetid: 47d75b9c-8b0d-4235-8ac1-02ae1502c0e7
 title: 在 DirectShow 中使用 DMOs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c90513649756a49067e523390292d4b44e1eac2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdddc643d39798dc09807e9ecfa15c38a6e0c2cf
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115769"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908686"
 ---
 # <a name="using-dmos-in-directshow"></a>在 DirectShow 中使用 DMOs
 
@@ -66,7 +66,7 @@ if (SUCCEEDED(hr))
 
 
 
-|                             |                                |
+| 標籤 | 值 |
 |-----------------------------|--------------------------------|
 | SQL-DMO 類別                | DirectShow 對等          |
 | DMOCATEGORY \_ 音訊 \_ 編碼器 | CLSID \_ AudioCompressorCategory |

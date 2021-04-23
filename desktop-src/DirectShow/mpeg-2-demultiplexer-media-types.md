@@ -4,12 +4,12 @@ ms.assetid: 240d1753-df8c-45fe-b5a7-9faa96fc5b18
 title: MPEG-2 信號信號媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b21eecff138b987c791ecd97056fb4cf417dd98d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 6b9b5276b975771ba62118976c8e63b4d5faa53d
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106991396"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909996"
 ---
 # <a name="mpeg-2-demultiplexer-media-types"></a>MPEG-2 信號信號媒體類型
 
@@ -77,7 +77,7 @@ MPEG-2 信號信號不會驗證輸出類型;下游篩選器負責剖析它從信
 
 
 
-|                  |                                          |
+| 標籤 | 值 |
 |------------------|------------------------------------------|
 | 主要類型       | **媒體 \_ 媒體**                     |
 | Subtype          | **MEDIASUBTYPE \_ MPEG2 \_ 影片**           |
@@ -92,7 +92,7 @@ MPEG-2 信號信號不會驗證輸出類型;下游篩選器負責剖析它從信
 
 
 
-|                  |                                      |
+| 標籤 | 值 |
 |------------------|--------------------------------------|
 | 主要類型       | **媒體 \_ 媒體**                 |
 | Subtype          | **MEDIASUBTYPE \_ MPEG2 \_ 音訊**       |

@@ -4,12 +4,12 @@ ms.assetid: 5f3e06ec-adee-4bc7-8ea8-cce3030d3baa
 title: 無限圖釘指標篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90e9a80baf047cdd5559fadaa0f13ea1352d4ed0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3433a0c2f5fe55fa59c42ed6e02d34f6e2cf0e6d
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385764"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909226"
 ---
 # <a name="infinite-pin-tee-filter"></a>無限圖釘指標篩選
 
@@ -19,7 +19,7 @@ ms.locfileid: "104385764"
 
 
 
-|                                          |                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                 |
 | 輸入 Pin 媒體類型                    | 任何媒體類型                                                                                                                                     |

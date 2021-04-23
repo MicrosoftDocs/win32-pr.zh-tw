@@ -4,12 +4,12 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: 全螢幕轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d580442887896f271b0f5b7fea5f7a33553f53f6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c175907ef0f60c3b1fe183eb0941b5118d24c9f2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973344"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908606"
 ---
 # <a name="full-screen-renderer-filter"></a>全螢幕轉譯器篩選
 
@@ -19,7 +19,7 @@ ms.locfileid: "106973344"
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [**IFullScreenVideoEx**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-ifullscreenvideoex)、 [**IMediaPosition**](/windows/desktop/api/Control/nn-control-imediaposition)、 [**IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)、 [**IQualityControl**](/windows/desktop/api/Strmif/nn-strmif-iqualitycontrol)、 [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop) |
 | 輸入 Pin 媒體類型                    | 媒體媒體 \_ 、MEDIASUBTYPE \_ Null                                                                                                                                                                                                               |
@@ -42,7 +42,7 @@ ms.locfileid: "106973344"
 
 
 
-|      |       |        |           |
+| 標籤 | 值 |
 |------|-------|--------|-----------|
 | 模式 | 寬度 | 高度 | 位深度 |
 | 0    | 320   | 200    | 16        |

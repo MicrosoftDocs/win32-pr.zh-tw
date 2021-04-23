@@ -4,12 +4,12 @@ ms.assetid: 001321c5-70c7-4baa-ba5a-1e424ca0d647
 title: DV 攝影機的外部裝置介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e52b6d0fe00ff91ff87e9c810bbe7ecc319e9bfd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5e7106ec6e9b744da0d1f71958aeb895ec8df1a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846880"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909796"
 ---
 # <a name="external-device-interfaces-for-dv-camcorders"></a>DV 攝影機的外部裝置介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103846880"
 
 
 
-|                                                |                                                 |
+| 標籤 | 值 |
 |------------------------------------------------|-------------------------------------------------|
 | [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice)           | 外部裝置控制的基底介面。 |
 | [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport)     | 控制 VCR 函數。                     |

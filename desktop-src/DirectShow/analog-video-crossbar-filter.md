@@ -4,12 +4,12 @@ ms.assetid: 668f6a8b-a4ed-4e4a-956c-a87f165225fa
 title: 類比視頻縱橫條篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2eb086b85859a3e1e895cd322c68c56916ac19a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d17d8700131dbc658a5233d56f339c39eac7a3a0
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935797"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909596"
 ---
 # <a name="analog-video-crossbar-filter"></a>類比視頻縱橫條篩選
 
@@ -23,7 +23,7 @@ ms.locfileid: "103935797"
 
 
 
-|                                          |                                                                                                |
+| 標籤 | 值 |
 |------------------------------------------|------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMCrossbar**](/windows/desktop/api/Strmif/nn-strmif-iamcrossbar)、ISpecifyPropertyPages、IPersistPropertyBag、IPersistStream |
 | 輸入 Pin 媒體類型                    | 媒體 \_ AnalogAudio，媒體媒體 \_ AnalogVideo                                                 |

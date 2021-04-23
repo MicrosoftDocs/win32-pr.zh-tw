@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 292074d18ec0d8c6181d1de881a69a58bdafead0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d62fd6feb1ecfbb943782cff2743b18730c86add
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373221"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909896"
 ---
 # <a name="hint-state-variables"></a>提示狀態變數
 
 <dl> <dt><span id="GL_PERSPECTIVE_CORRECTION_HINT"></span><span id="gl_perspective_correction_hint"></span>GL \_ 透視圖 \_ 校正 \_ 提示</dt> <dd> 
 
-|                  |                                        |
+| 屬性 | 值 |
 |------------------|----------------------------------------|
 | 描述：     | 透視圖校正提示            |
 | 屬性群組： | 提示                                   |
@@ -32,11 +32,11 @@ ms.locfileid: "104373221"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_POINT_SMOOTH_HINT"></span><span id="gl_point_smooth_hint"></span>GL \_ 點 \_ 平滑 \_ 提示</dt> <dd> 
 
-|                  |                                                                                  |
+| 屬性 | 值 |
 |------------------|----------------------------------------------------------------------------------|
 | 描述：     | Point 平滑提示                                                                |
 | 屬性群組： | 提示                                                                             |
@@ -45,11 +45,11 @@ ms.locfileid: "104373221"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_LINE_SMOOTH_HINT"></span><span id="gl_line_smooth_hint"></span>GL \_ 行 \_ 平滑 \_ 提示</dt> <dd> 
 
-|                  |                                                                                  |
+| 屬性 | 值 |
 |------------------|----------------------------------------------------------------------------------|
 | 描述：     | Line 平滑提示                                                                 |
 | 屬性群組： | 提示                                                                             |
@@ -58,11 +58,11 @@ ms.locfileid: "104373221"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_POLYGON_SMOOTH_HINT"></span><span id="gl_polygon_smooth_hint"></span>GL \_ 多邊形 \_ 平滑 \_ 提示</dt> <dd> 
 
-|                  |                                                                                  |
+| 屬性 | 值 |
 |------------------|----------------------------------------------------------------------------------|
 | 描述：     | 多邊形平滑提示                                                              |
 | 屬性群組： | 提示                                                                             |
@@ -71,11 +71,11 @@ ms.locfileid: "104373221"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_FOG_HINT"></span><span id="gl_fog_hint"></span>GL \_ 霧化 \_ 提示</dt> <dd> 
 
-|                  |                                                                                  |
+| 屬性 | 值 |
 |------------------|----------------------------------------------------------------------------------|
 | 描述：     | 霧化提示                                                                         |
 | 屬性群組： | 提示                                                                             |
@@ -84,13 +84,13 @@ ms.locfileid: "104373221"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

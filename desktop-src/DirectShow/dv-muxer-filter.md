@@ -4,12 +4,12 @@ ms.assetid: 4dd57202-f4de-40d9-b720-efaba8a60a7c
 title: DV Muxer 濾波器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2154dd1fc1617ff3f717b1ace6e52c9c507a38e8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 013251f2f9c1946aaa0f7b3c95edfd2de81c4d78
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688376"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908596"
 ---
 # <a name="dv-muxer-filter"></a>DV Muxer 濾波器
 
@@ -17,7 +17,7 @@ ms.locfileid: "103688376"
 
 
 
-|                                          |                                                                                                                                        |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [ **IMediaSeeking**](/windows/desktop/api/Strmif/nn-strmif-imediaseeking)                                                             |
 | 輸入 Pin 媒體類型                    | **影片**：媒體媒體 \_ 、MEDIASUBTYPE \_ Dvsd、format \_ VideoInfo **Audio**：媒體媒體 \_ 、MEDIASUBTYPE \_ PCM、format \_ WaveFormatEx |

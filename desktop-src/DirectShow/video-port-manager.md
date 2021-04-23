@@ -4,12 +4,12 @@ ms.assetid: d70558a5-9820-432a-b4f3-ccf7bb2a34d5
 title: 影片埠管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ca884ff009584ef2904387d872733ddf8d53dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db4f030e6be9035432207dc608a775a0e1d30b09
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850320"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909196"
 ---
 # <a name="video-port-manager"></a>影片埠管理員
 
@@ -22,7 +22,7 @@ ms.locfileid: "103850320"
 
 
 
-|                                          |                                                                                                                                                                                                                      |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMVideoDecimationProperties**](/windows/desktop/api/Strmif/nn-strmif-iamvideodecimationproperties)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [**IKsPropertySet**](ikspropertyset.md)、 [**IQualProp**](/previous-versions/windows/desktop/api/Amvideo/nn-amvideo-iqualprop)、 [**IVPManager**](/windows/desktop/api/Strmif/nn-strmif-ivpmanager) |
 | 輸入 Pin 媒體類型                    | 媒體媒體 \_ 、MEDIASUBTYPE \_ VPVIDEO 或 MEDIASUBTYPE \_ VPVBI、FORMAT \_ None                                                                                                                                         |

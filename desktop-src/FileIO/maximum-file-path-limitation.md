@@ -4,12 +4,12 @@ title: 最大路徑長度限制
 ms.topic: article
 ms.custom: contperf-fy21q1
 ms.date: 09/15/2020
-ms.openlocfilehash: 3d71d87f69aeb224cde256ce78bd29fd0bf5c291
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 4bf5050f24827a2033c1e56fd9413c04f4e59500
+ms.sourcegitcommit: ece80b9b7082415b2f894b0696b6b3f0c8544d72
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314801"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107899737"
 ---
 # <a name="maximum-path-length-limitation"></a>最大路徑長度限制
 
@@ -42,7 +42,9 @@ Shell 和檔案系統有不同的需求。 您可以使用 Windows API 建立路
 
 * 登錄機碼 `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem\LongPathsEnabled (Type: REG_DWORD)` 必須存在，且必須設定為1。 系統會在第一次呼叫受影響的 Win32 檔案或目錄函式之後，) 每個進程的系統 (快取索引鍵的值 (請參閱下文以取得) 的函式清單。 登錄機碼不會在進程的存留期間重載。 為了讓系統上的所有應用程式都能辨識金鑰的值，可能需要重新開機，因為某些進程可能會在設定金鑰之前啟動。
 
-您也可以將此程式碼複製到 `.reg` 可為您設定的檔案：
+您也可以將此程式碼複製到 `.reg` 可為您設定的檔案，或從終端機視窗使用具有較高許可權的 PowerShell 命令：
+# <a name="cmd"></a>[cmd](#tab/cmd)
+
 ```cmd
 Windows Registry Editor Version 5.00
 
@@ -50,6 +52,16 @@ Windows Registry Editor Version 5.00
 "LongPathsEnabled"=dword:00000001
 
 ```
+
+# <a name="powershell"></a>[PowerShell](#tab/powershell)
+
+```powershell
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
+
+```
+
+---
 
 > [!NOTE]  
 > 此登錄機碼也可以透過群組原則來控制 `Computer Configuration > Administrative Templates > System > Filesystem > Enable Win32 long paths` 。

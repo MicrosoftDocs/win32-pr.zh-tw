@@ -4,12 +4,12 @@ ms.assetid: de30a2c4-3e51-4f2b-b3f9-ed78e2d6512d
 title: MJPEG 壓縮程式篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a20c559bb889750959a4868fa08c03b3eb12dfb5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 02928df4d09b50c0ac152aed99ed87dc6362fb70
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972534"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910006"
 ---
 # <a name="mjpeg-compressor-filter"></a>MJPEG 壓縮程式篩選器
 
@@ -17,7 +17,7 @@ ms.locfileid: "106972534"
 
 
 
-|                                          |                                                                                                                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 **IPersistStream**                                                                                                                                                                                             |
 | 輸入 Pin 媒體類型                    | 媒體媒體 \_ 、MEDIASUBTYPE \_ Null                                                                                                                                                                                                               |

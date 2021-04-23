@@ -4,12 +4,12 @@ ms.assetid: f04e8291-734f-483e-b756-5362beb68d9c
 title: 'AM_RATE_CorrectTS 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa410b079d3de63de364662c7d5465c82814d24a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15c65b613f892708dc210af2ca2a05efb74785fb
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976161"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910296"
 ---
 # <a name="am_rate_correctts-property"></a>AM \_ RATE \_ CorrectTS 屬性
 
@@ -17,7 +17,7 @@ DVD 導覽器會使用此屬性來通知解碼器，導覽器會在其傳遞給�
 
 
 
-|                   |                               |
+| 標籤 | 值 |
 |-------------------|-------------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ TSRateChange |
 | 屬性識別碼       | AM \_ RATE \_ CorrectTS           |

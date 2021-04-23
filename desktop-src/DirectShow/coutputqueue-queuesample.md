@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 45b1295ea1a9ded145356e6b0495b7b873dff200
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efe0ec3b2326d1af0d0075770bdc6443ab9dcad
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999992"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910066"
 ---
 # <a name="coutputqueuequeuesample-method"></a>COutputQueue. QueueSample 方法
 
@@ -61,7 +61,7 @@ void QueueSample(
 
 
 
-|               |                                        |
+| 標籤 | 值 |
 |---------------|----------------------------------------|
 | 訊息       | 動作                                 |
 | EOS 封 \_ 包   | 傳遞資料流程結束通知。 |

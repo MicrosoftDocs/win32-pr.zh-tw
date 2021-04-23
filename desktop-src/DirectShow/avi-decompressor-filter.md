@@ -4,12 +4,12 @@ ms.assetid: 6a9914db-483a-429c-9b26-9451578951c9
 title: AVI 解壓縮程式篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9b6fcff61dd867c598e793fb5aa8fbff67dc6cd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 214ccfeee18a01fa9c8d52ffbf4593b9de5664bb
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688139"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910096"
 ---
 # <a name="avi-decompressor-filter"></a>AVI 解壓縮程式篩選
 
@@ -26,7 +26,7 @@ AVI 解壓縮程式篩選器可讓影片壓縮管理員 (BC-VCM-LVM-HYPERV) 編�
 
 
 
-|                                          |                                                                                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)                                                                                                                                                                                 |
 | 輸入 Pin 媒體類型                    | 主要類型：媒體類型 \_ VideoSubtype：必須對應到壓縮類型的 FOURCC 程式碼。 如需詳細資訊，請參閱 [FOURCC 代碼](fourcc-codes.md)。<br/> 格式類型： \_ VIDEOINFO 格式<br/> |

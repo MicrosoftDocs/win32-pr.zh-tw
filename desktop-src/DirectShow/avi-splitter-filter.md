@@ -4,12 +4,12 @@ ms.assetid: df3c7d11-7ecc-499a-af36-b74437e21999
 title: AVI 分隔器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e61b9a60c4c42aafa875c166ae08ccdf337793c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 24335511e9b7b866c85792c2036a4d4b6d089f2a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109713"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909656"
 ---
 # <a name="avi-splitter-filter"></a>AVI 分隔器篩選
 
@@ -17,7 +17,7 @@ AVI 分隔器篩選器是用來播放 AVI 檔。 它接受 AVI 格式的資料�
 
 
 
-|                                          |                                                                                                                                                                     |
+| 標籤 | 值 |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMMediaContent**](/previous-versions/windows/desktop/api/Qnetwork/nn-qnetwork-iammediacontent)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、 [**IPersistMediaPropertyBag**](/windows/desktop/api/Strmif/nn-strmif-ipersistmediapropertybag)                        |
 | 輸入 Pin 媒體類型                    | 媒體媒體 \_ 、MEDIASUBTYPE \_ Avi                                                                                                                                |

@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 615e7cde4a8f82c3f4a9a95791912c5dc3f77ff3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f2895f773721f7c900003cbaa0f070c277a0e260
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932704"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909256"
 ---
 # <a name="evaluator-state-variables"></a>評估工具狀態變數
 
 <dl> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL \_ 訂單</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 1-d 地圖順序                  |
 | 屬性群組： |                                |
@@ -32,11 +32,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_ORDER"></span><span id="gl_order"></span>GL \_ 訂單</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 2-d 地圖訂單                 |
 | 屬性群組： |                                |
@@ -45,11 +45,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL \_ COEFF</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 1-d 控制點             |
 | 屬性群組： |                                |
@@ -58,11 +58,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_COEFF"></span><span id="gl_coeff"></span>GL \_ COEFF</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 2d 控制點             |
 | 屬性群組： |                                |
@@ -71,11 +71,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL \_ 網域</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 立體網域端點           |
 | 屬性群組： |                                |
@@ -84,11 +84,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_DOMAIN"></span><span id="gl_domain"></span>GL \_ 網域</dt> <dd> 
 
-|                  |                                |
+| 屬性 | 值 |
 |------------------|--------------------------------|
 | 描述：     | 2-d 網域端點           |
 | 屬性群組： |                                |
@@ -97,11 +97,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP1_x"></span><span id="gl_map1_x"></span><span id="GL_MAP1_X"></span>GL \_ MAP1 \_ x</dt> <dd> 
 
-|                  |                                    |
+| 屬性 | 值 |
 |------------------|------------------------------------|
 | 描述：     | 立體地圖啟用： *x* 是地圖類型   |
 | 屬性群組： | eval/enable                        |
@@ -110,11 +110,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP2_x"></span><span id="gl_map2_x"></span><span id="GL_MAP2_X"></span>GL \_ list.map2 \_ x</dt> <dd> 
 
-|                  |                                    |
+| 屬性 | 值 |
 |------------------|------------------------------------|
 | 描述：     | 2d 地圖啟用： *x* 是地圖類型   |
 | 屬性群組： | eval/enable                        |
@@ -123,11 +123,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP1_GRID_DOMAIN"></span><span id="gl_map1_grid_domain"></span>GL \_ MAP1 \_ 方格 \_ 網域</dt> <dd> 
 
-|                  |                                                                                |
+| 屬性 | 值 |
 |------------------|--------------------------------------------------------------------------------|
 | 描述：     | 立體方格端點                                                             |
 | 屬性群組： | eval                                                                           |
@@ -136,11 +136,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP2_GRID_DOMAIN"></span><span id="gl_map2_grid_domain"></span>GL \_ List.map2 \_ 方格 \_ 網域</dt> <dd> 
 
-|                  |                                                                                |
+| 屬性 | 值 |
 |------------------|--------------------------------------------------------------------------------|
 | 描述：     | 2d 格線端點                                                             |
 | 屬性群組： | eval                                                                           |
@@ -149,11 +149,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL \_ MAP1 \_ 方格 \_ 區段</dt> <dd> 
 
-|                  |                                    |
+| 屬性 | 值 |
 |------------------|------------------------------------|
 | 描述：     | 立體格線片段                 |
 | 屬性群組： | eval                               |
@@ -162,11 +162,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_MAP1_GRID_SEGMENTS"></span><span id="gl_map1_grid_segments"></span>GL \_ MAP1 \_ 方格 \_ 區段</dt> <dd> 
 
-|                  |                                                                                |
+| 屬性 | 值 |
 |------------------|--------------------------------------------------------------------------------|
 | 描述：     | 2d 方格區段                                                              |
 | 屬性群組： | eval                                                                           |
@@ -175,11 +175,11 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> <dt><span id="GL_AUTO_NORMAL"></span><span id="gl_auto_normal"></span>GL \_ 自動 \_ 正常</dt> <dd> 
 
-|                  |                                             |
+| 屬性 | 值 |
 |------------------|---------------------------------------------|
 | 描述：     | 如果已啟用自動一般產生，則為 True |
 | 屬性群組： | eval                                        |
@@ -188,13 +188,13 @@ ms.locfileid: "103932704"
 
 
 
- 
+ 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

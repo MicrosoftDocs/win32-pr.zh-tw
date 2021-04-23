@@ -4,12 +4,12 @@ ms.assetid: f76d5c82-33b2-4579-9420-8f97eca53ede
 title: 音訊捕獲篩選器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73da50653a4a159d30a6ca1b83ebc1f37a6de42c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e2a630452565fafad3c4a4420154efd8fe6b282f
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688307"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910206"
 ---
 # <a name="audio-capture-filter"></a>音訊捕獲篩選器
 
@@ -19,7 +19,7 @@ ms.locfileid: "103688307"
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                    |
+| 標籤 | 值 |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | [**IAMAudioInputMixer**](/windows/desktop/api/Strmif/nn-strmif-iamaudioinputmixer)、 [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)、 [**IAMResourceControl**](/windows/desktop/api/Strmif/nn-strmif-iamresourcecontrol)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-ibasefilter)、IPersistPropertyBag、ISpecifyPropertyPages                                                               |
 | 輸入 Pin 媒體類型                    | 媒體 \_ AnalogAudio、MEDIASUBTYPE \_ Null                                                                                                                                                                                                                                                         |

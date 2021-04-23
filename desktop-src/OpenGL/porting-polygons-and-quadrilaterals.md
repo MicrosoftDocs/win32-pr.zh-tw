@@ -17,12 +17,12 @@ keywords:
 - 多邊形，從鳶尾花 GL 進行移植
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c95d654b101c5eeb86cfcc4ea342e8196b8749e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7900b44051cab9590be11198c8b01af0b7c10244
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674535"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908456"
 ---
 # <a name="porting-polygons-and-quadrilaterals"></a>移植多邊形和 Quadrilaterals
 
@@ -67,7 +67,7 @@ void glPolygonMode( GLenum face, GLenum mode );
 
 
 
-|                      |                                                            |
+|GLenum 值                      |  意義                                                          |
 |----------------------|------------------------------------------------------------|
 | GL \_ FRONT            | 適用于正面多邊形的模式                |
 | GL \_ 回             | 適用于後置多邊形的模式                 |

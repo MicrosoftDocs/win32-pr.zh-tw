@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d57d023dff803caf5da7e61dea266670ec8bde5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db88c5818d31d65f361ae1a805bd50c285d4a5c2
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989713"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909806"
 ---
 # <a name="cbasecontrolwindowdosetwindowstyle-method"></a>CBaseControlWindow. DoSetWindowStyle 方法
 
@@ -57,7 +57,7 @@ HRESULT DoSetWindowStyle(
 
 
 
-|              |                                      |
+| 標籤 | 值 |
 |--------------|--------------------------------------|
 | GWL \_ 樣式   | 取出視窗樣式。          |
 | GWL \_ EXSTYLE | 取出擴充的視窗樣式。 |

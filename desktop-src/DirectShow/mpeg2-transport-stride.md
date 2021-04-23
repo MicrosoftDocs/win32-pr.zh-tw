@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - bdatypes.h
-ms.openlocfilehash: 4a0cdc21bdd8c320728da0c0af8c0af023de68eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5153f6f79c2807634149222a126a7256a65ffe8a
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981270"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908486"
 ---
 # <a name="mpeg2_transport_stride-structure"></a>MPEG2 \_ 傳輸 \_ STRIDE 結構
 
@@ -28,7 +28,7 @@ Stride 封包是由下列媒體類型來識別：
 
 
 
-|             |                                        |
+| 標籤 | 值 |
 |-------------|----------------------------------------|
 | 主要類型  | 媒體媒體的 \_ 串流                      |
 | Subtype     | MEDIASUBTYPE \_ MPEG2 \_ 傳輸 \_ STRIDE |

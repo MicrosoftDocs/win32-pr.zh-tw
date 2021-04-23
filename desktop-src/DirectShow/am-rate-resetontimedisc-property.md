@@ -4,12 +4,12 @@ ms.assetid: 3e342219-341e-49a2-9f8f-4188dd7bf719
 title: 'AM_RATE_ResetOnTimeDisc 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c26763d32513652a08d38b52bf6fb745d3d321
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d465329c2c8de1a66f04a830d183b8cba88c0728
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984769"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910246"
 ---
 # <a name="am_rate_resetontimedisc-property"></a>AM \_ RATE \_ ResetOnTimeDisc 屬性
 
@@ -21,7 +21,7 @@ ms.locfileid: "106984769"
 
 
 
-|                   |                               |
+| 標籤 | 值 |
 |-------------------|-------------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ TSRateChange |
 | 屬性識別碼       | AM \_ RATE \_ ResetOnTimeDisc     |

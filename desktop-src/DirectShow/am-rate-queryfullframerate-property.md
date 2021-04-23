@@ -4,12 +4,12 @@ ms.assetid: 98808ed4-6d34-437b-9729-9cc805bc81f0
 title: 'AM_RATE_QueryFullFrameRate 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab2c99564caa09253198b101a3e2467ec88c7e34
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 70bc096e5b68737ca877a037571223d673284dab
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993558"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107910276"
 ---
 # <a name="am_rate_queryfullframerate-property"></a>AM \_ RATE \_ QueryFullFrameRate 屬性
 
@@ -19,7 +19,7 @@ ms.locfileid: "106993558"
 
 
 
-|                   |                                       |
+| 標籤 | 值 |
 |-------------------|---------------------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ TSRateChange         |
 | 屬性識別碼       | AM \_ RATE \_ QueryFullFrameRate 屬性 |

@@ -4,12 +4,12 @@ ms.assetid: aa3166b2-6b04-44fa-bc9d-c8ff46f99201
 title: H.264 影片類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dcd33703798e305947cdcd663c7a86c7c494683
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 692a751e197e2e7bbb088b30dd2a3f5f199d56de
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935612"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909016"
 ---
 # <a name="h264-video-types"></a>H.264 影片類型
 
@@ -41,7 +41,7 @@ ms.locfileid: "103935612"
 
 
 
-|             |                                                                                                   |
+| 標籤 | 值 |
 |-------------|---------------------------------------------------------------------------------------------------|
 | 主要類型  | **媒體 \_ 媒體**                                                                              |
 | 子類型    | **MEDIASUBTYPE \_H264**、 **MEDIASUBTYPE \_ h264**、 **MEDIASUBTYPE \_ X264** 或 **MEDIASUBTYPE \_ X264** |
@@ -65,7 +65,7 @@ ms.locfileid: "103935612"
 
 
 
-|             |                        |
+| 標籤 | 值 |
 |-------------|------------------------|
 | 主要類型  | **媒體 \_ 媒體**   |
 | Subtype     | **MEDIASUBTYPE \_ AVC1** |

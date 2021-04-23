@@ -4,12 +4,12 @@ ms.assetid: da3abefd-8f25-449d-8787-84d2cef928da
 title: DVD 複製保護屬性集 (Dvdmedia.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a14146ce0be19a4ed49c23517987a2c91a85da87
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 382243a6071fa73361df13ae933d259979686a06
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991166"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107909476"
 ---
 # <a name="dvd-copy-protection-property-set"></a>DVD 禁止複製屬性集
 
@@ -25,7 +25,7 @@ DVD 導覽器會初始化並控制金鑰交換程式。 DVD 迷你驅動程式�
 
 
 
-|                   |                           |
+| 標籤 | 值 |
 |-------------------|---------------------------|
 | 屬性集 GUID | AM \_ KSPROPSETID \_ CopyProt |
 
