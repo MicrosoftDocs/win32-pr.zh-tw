@@ -4,12 +4,12 @@ ms.assetid: 97432b99-e89b-4d69-963d-a959f887e580
 title: WDM 影片捕獲篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cce63f3883d8688a8f930d68bfe87a52133441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b17afb9b4ee534146ef7b8e8c34d9594f6b9e45e
+ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975543"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "107908636"
 ---
 # <a name="wdm-video-capture-filter"></a>WDM 影片捕獲篩選
 
@@ -21,7 +21,7 @@ WDM 影片捕獲篩選器會控制使用 Windows Driver Model (WDM) 驅動程式
 
 
 
-|                                          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 標籤 | 值 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面                        | 裝置的 WDM 驅動程式可能支援下列一或多項： [**IAMAnalogVideoDecoder**](/windows/desktop/api/Strmif/nn-strmif-iamanalogvideodecoder)、 [**IAMCameraControl**](/windows/desktop/api/Strmif/nn-strmif-iamcameracontrol)、 [**IAMDeviceRemoval**](/windows/desktop/api/Strmif/nn-strmif-iamdeviceremoval)、 [**IAMDroppedFrames**](/windows/desktop/api/Strmif/nn-strmif-iamdroppedframes)、 [**IAMExtDevice**](/windows/desktop/api/Strmif/nn-strmif-iamextdevice)、 [**IAMExtTransport**](/windows/desktop/api/Strmif/nn-strmif-iamexttransport)、 [**IAMFilterMiscFlags**](/windows/desktop/api/Strmif/nn-strmif-iamfiltermiscflags)、 [**IAMTimecodeReader**](/windows/desktop/api/Strmif/nn-strmif-iamtimecodereader)、 [**IAMVideoCompression**](/windows/desktop/api/Strmif/nn-strmif-iamvideocompression)、IAMVideoControl、 [**IAMVideoProcAmp**](/windows/desktop/api/Strmif/nn-strmif-iamvideocontrol)、 [**IBaseFilter**](/windows/desktop/api/Strmif/nn-strmif-iamvideoprocamp)、 [](/windows/desktop/api/Strmif/nn-strmif-ibasefilter) [**IKsPropertySet**](ikspropertyset.md)、IMediaSeeking、 [](/windows/desktop/api/Strmif/nn-strmif-imediaseeking) [**IReferenceClock**](/windows/desktop/api/Strmif/nn-strmif-ireferenceclock)、 **ISpecifyPropertyPages**。 |
 | 輸入 Pin 媒體類型                    | 驅動程式相依。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |

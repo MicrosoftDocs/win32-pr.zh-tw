@@ -1,6 +1,6 @@
 ---
 title: countbits 函式
-description: 計算輸入整數中每個元件)  (的位數。
+description: 計算輸入整數中的每個元件) 設定 (位數。
 ms.assetid: c4fafbc8-e21c-48cb-b433-8241a989ec85
 keywords:
 - countbits 函式 HLSL
@@ -13,22 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60d3cd63502c6217e6fb0b0ff17685b2d2b5bf25
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 357aceca6e2aea261a9e94212b58ff6308c99560
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022610"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925621"
 ---
 # <a name="countbits-function"></a>countbits 函式
 
-計算輸入整數中每個元件)  (的位數。
+計算輸入整數中的每個元件) 設定 (位數。
 
 ## <a name="syntax"></a>語法
 
 ``` syntax
 uint countbits(
-  in uint value
+  in uint value
 );
 ```
 
@@ -74,7 +74,7 @@ uint4 count_bits(uint4 value);
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
@@ -86,7 +86,7 @@ uint4 count_bits(uint4 value);
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -98,9 +98,9 @@ uint4 count_bits(uint4 value);
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

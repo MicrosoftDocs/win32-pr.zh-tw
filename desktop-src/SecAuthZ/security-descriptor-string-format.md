@@ -4,12 +4,12 @@ ms.assetid: 0a226629-084c-40c5-bdd4-ad7355c807cf
 title: 安全描述項字串格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f5182de796ee8d3c61f079d3704ab29ad552457
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42780c408908faf0a226584be7315ab6bf9e78e5
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848236"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925679"
 ---
 # <a name="security-descriptor-string-format"></a>安全描述項字串格式
 
@@ -60,7 +60,7 @@ S:sacl_flags(string_ace1)(string_ace2)... (string_acen)
 | 曲線                   | SDDL \_ 受保護          | \_已設定「SE DACL \_ 保護」旗標。          |
 | 款                  | SDDL \_ 自動 \_ 繼承 \_ 需求 | \_ \_ 已設定 SE DACL AUTO \_ INHERIT 要求旗標 \_ 。 |
 | AI                  | SDDL \_ 自動 \_ 繼承    | \_已設定「SE DACL \_ 自動 \_ 繼承」旗標。    |
-| 「沒有 \_ 訪問 \_ 控制」 | SSDL \_ Null \_ ACL          | ACL 為 null。                              |
+| 「沒有 \_ 訪問 \_ 控制」 | SDDL \_ Null \_ ACL          | ACL 為 null。                              |
 
 
 

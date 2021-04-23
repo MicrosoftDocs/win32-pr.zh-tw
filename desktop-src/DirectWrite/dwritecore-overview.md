@@ -5,13 +5,13 @@ keywords:
 - DirectWrite 核心
 - DWriteCore
 ms.topic: article
-ms.date: 04/21/2021
-ms.openlocfilehash: 27a34656ce28a65267bd098974b4df9003a80e17
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.date: 04/22/2021
+ms.openlocfilehash: 1ebb85ae2628a2c9abce86e0ce146c0d24828267
+ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881837"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "107925672"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
@@ -21,7 +21,7 @@ DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于�
 
 ## <a name="the-value-proposition-of-dwritecore"></a>DWriteCore 的價值主張
 
-[DirectWrite](./direct-write-portal.md) 本身支援豐富的功能陣列，讓它成為大部分應用程式（ &mdash; 無論是透過直接呼叫或透過 [Direct2D](../direct2d/direct2d-portal.md)）在 Windows 上選擇的字型呈現工具。 DirectWrite 包含與裝置無關的文字版面配置系統、高品質的子圖元 [Microsoft ClearType](/typography/cleartype/) 文字轉譯、硬體加速文字、多重格式文字、先進的 [OpenType®](/typography/opentype/) 印刷樣式功能、寬語言支援，以及與 [GDI](../gdi/windows-gdi.md)相容的版面配置和轉譯。 自 Windows Vista SP2 起，DirectWrite 已推出，其多年來加入更先進的功能，例如變數字型，可讓開發人員將樣式、權數和其他屬性套用至只有一個字型資源的字型。
+[DirectWrite](./direct-write-portal.md) 本身支援豐富的功能陣列，讓它成為大部分應用程式（ &mdash; 無論是透過直接呼叫或透過 [Direct2D](../direct2d/direct2d-portal.md)）在 Windows 上選擇的字型呈現工具。 DirectWrite 包含與裝置無關的文字版面配置系統、高品質的子圖元 [Microsoft ClearType](/typography/cleartype/) 文字轉譯、硬體加速文字、多重格式文字、先進的 [OpenType®](/typography/opentype/) 印刷樣式功能、寬語言支援，以及與 [GDI](../gdi/windows-gdi.md)相容的版面配置和轉譯。 自 Windows Vista SP2 起，DirectWrite 已推出，其多年來加入更先進的功能，例如變數字型，可讓您將樣式、權數和其他屬性套用至只有一個字型資源的字型。
 
 但由於 DirectWrite 的存留期較長，因此開發的進展比起讓舊版的 Windows 保持在幕後。 此外，DirectWrite 的狀態為頂級文字轉譯技術僅限於 Windows，讓跨平臺應用程式可以撰寫自己的文字呈現堆疊，或依賴協力廠商解決方案。
 
@@ -67,7 +67,7 @@ DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectRe
 
 ### <a name="features-in-the-current-release-of-dwritecore"></a>目前版本的 DWriteCore 功能
 
-目前可用的 DWriteCore 版本包含您的開發人員需要使用 DWriteCore 的基本工具，包括下列功能。
+目前可用的 DWriteCore 版本是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)的一部分。 它包含您以開發人員身分使用 DWriteCore 所需的基本工具，包含下列功能。
 
 - 字型列舉。
 - 字型 API。
@@ -79,11 +79,11 @@ DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectRe
 - 色彩字型。
 - 其他優化 (字型快取清除、記憶體內部字型載入器等) 。
 
-此階段的橫幅功能為色彩字型。 色彩字型可讓您以更精密的色彩功能轉譯字型，而不只是簡單的單一色彩。 例如，色彩字型是能夠轉譯表情和工具列圖示字型 (後者會由 Office 使用，例如) 。 色彩字型是在 Windows 8.1 中首次引進，但此功能已在 Windows 10 的版本 1607 (年度更新) 中大幅擴充。
+橫幅功能為色彩字型。 色彩字型可讓您以更精密的色彩功能轉譯字型，而不只是簡單的單一色彩。 例如，色彩字型是能夠轉譯表情和工具列圖示字型 (後者會由 Office 使用，例如) 。 色彩字型是在 Windows 8.1 中首次引進，但此功能已在 Windows 10 的版本 1607 (年度更新) 中大幅擴充。
 
 清除字型快取的工作，以及記憶體中的字型載入器，可讓您更快速地載入字型和記憶體改善。
 
-有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如可變字型 &mdash; 下層至 Windows 8。 此程式庫的反復專案也可以在 [Android](https://www.android.com/)和 **Linux** 上使用。 變數字型是 DirectWrite 客戶最重要的功能之一;它們是在 Windows 10、1709版 (秋季建立者更新) 中引進，因此在舊版中進行存取是以開發人員身分 boon 給您。
+有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如可變字型 &mdash; 下層至 Windows 8。 變數字型是 DirectWrite 客戶最重要的功能之一;它們是在 Windows 10、1709版 (秋季建立者更新) 中引進，所以在舊版中存取這些專案對您的開發人員而言是相當大的好處。
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>我們邀請您成為 DirectWrite 開發人員
 
@@ -102,15 +102,21 @@ DWriteCore 以及其他的 Project 留尼旺島元件，都將以開放性開發
 #include <dwrite_core.h>
 ```
 
-`dwrite_core.h`標頭檔會先定義權杖 *DWRITE_CORE*，然後包含 `dwrite_3.h` 。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite api 可供您使用。 當您的專案包含之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
+`dwrite_core.h`標頭檔會先定義權杖 *DWRITE_CORE*，然後再包含 `dwrite_3.h` 標頭檔。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite api 可供您使用。 當您的專案包含之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
 
 ### <a name="apis-that-are-new-or-different-for-dwritecore"></a>適用于 DWriteCore 的新或不同 Api
 
 DWriteCore API 表面與 [DirectWrite](/windows/win32/api/_directwrite/)的方式大致相同。 但目前只有 DWriteCore 有少量的新 Api。
 
+#### <a name="create-a-factory-object"></a>建立 factory 物件
+
+[**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式會建立用於後續建立個別 DWriteCore 物件的 factory 物件。
+
+**DWriteCoreCreateFactory** 的功能與系統版本的 DirectWrite 所匯出的 [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) 函式相同。 DWriteCore 函式有不同的名稱，以避免混淆。
+
 #### <a name="create-a-restricted-factory-object"></a>建立受限制的 factory 物件
 
-[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**，表示受限的 FACTORY。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 [**DWriteCoreCreateFactory**](/windows/win32/api/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式時，如何使用 **DWRITE_FACTORY_TYPE_ISOLATED2** 來建立受限制的 FACTORY 物件。
+[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**，表示受限的 FACTORY。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 **DWriteCoreCreateFactory** free 函式時，如何使用 **DWRITE_FACTORY_TYPE_ISOLATED2** 來建立受限制的 FACTORY 物件。
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
