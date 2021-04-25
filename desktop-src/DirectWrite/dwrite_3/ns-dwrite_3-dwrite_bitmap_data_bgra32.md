@@ -39,19 +39,19 @@ api_location:
 - dwrite_3.h
 api_name:
 - DWRITE_BITMAP_DATA_BGRA32
-ms.openlocfilehash: 3d5b2168e5154f2e55b6f5acb83897f68d4a029c
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.openlocfilehash: ad36eb8fe691330b471db0b7e8b5378f3e7614db
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881827"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107955051"
 ---
 # <a name="dwrite_bitmap_data_bgra32-structure-dwrite_3h"></a>DWRITE_BITMAP_DATA_BGRA32 結構 (dwrite_3 .h) 
 
 代表 BGRA32 格式的點陣圖資料。
 
 > [!IMPORTANT]
-> 此 API 可作為 [DirectWrite](../direct-write-portal.md)DWriteCore 執行的一部分。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。 如需詳細資訊和程式碼範例，請參閱 [DWriteCore 總覽](/windows/win32/DirectWrite/dwrite/dwritecore-overview)。
+> 此 API 可作為 [DirectWrite](../direct-write-portal.md)DWriteCore 執行的一部分。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。 如需詳細資訊和程式碼範例，請參閱 [DWriteCore 總覽](/windows/win32/directwrite/dwritecore-overview)。
 
 ## <a name="syntax"></a>語法
 
@@ -89,7 +89,7 @@ struct DWRITE_BITMAP_DATA_BGRA32
 
 ## <a name="examples"></a>範例
 
-請參閱 [DWriteCore 總覽](/windows/win32/DirectWrite/dwrite/dwritecore-overview) 主題和 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式。
+請參閱 [DWriteCore 總覽](/windows/win32/directwrite/dwritecore-overview) 主題和 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式。
 
 ## <a name="requirements"></a>規格需求
 | &nbsp; | &nbsp; |

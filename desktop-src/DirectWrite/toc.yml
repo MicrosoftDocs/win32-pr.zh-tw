@@ -66,7 +66,7 @@
           href: interoperating-with-gdi.md
         - name: DirectWrite 詞彙
           href: directwrite-glossary.md
-    - name: 應用程式開發介面參考
+    - name: API 參照
       href: reference.md
       items:
         - name: 函式
@@ -74,6 +74,8 @@
           items:
             - name: DWriteCreateFactory
               href: /windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory
+            - name: 'DWriteCoreCreateFactory (DWriteCore) '
+              href: /windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory
         - name: DirectWrite 列舉
           href: enumerations.md
           items:
@@ -250,10 +252,10 @@
                   href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-gettextantialiasmode
                 - name: SetTextAntialiasMode 方法
                   href: /windows/win32/api/dwrite_1/nf-dwrite_1-idwritebitmaprendertarget1-settextantialiasmode
-            - name: IDWriteBitmapRenderTarget2
+            - name: 'IDWriteBitmapRenderTarget2 (DWriteCore) '
               href: ./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md
               items:
-                - name: GetBitmapData 方法
+                - name: 'GetBitmapData 方法 (DWriteCore) '
                   href: ./dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata.md
             - name: IDWriteColorGlyphRunEnumerator
               href: idwritecolorglyphrunenumerator.md
@@ -1394,7 +1396,7 @@
         - name: DirectWrite 結構
           href: structures.md
           items:
-            - name: DWRITE_BITMAP_DATA_BGRA32
+            - name: 'DWRITE_BITMAP_DATA_BGRA32 (DWriteCore) '
               href: ./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md
             - name: DWRITE_CARET_METRICS
               href: /windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics

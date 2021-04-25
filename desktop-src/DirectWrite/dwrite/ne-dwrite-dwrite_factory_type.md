@@ -39,19 +39,19 @@ api_location:
 - dwrite.h
 api_name:
 - DWRITE_FACTORY_TYPE
-ms.openlocfilehash: 87b0d1c2edcb836afd06d732f242b62441b9bd01
-ms.sourcegitcommit: d7e9a20168111fb608f5fefb092b30f8e093d816
+ms.openlocfilehash: 85f74d72dc8799a7a3c78603ec0dd5f9c118fdb1
+ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107881807"
+ms.lasthandoff: 04/25/2021
+ms.locfileid: "107955001"
 ---
 # <a name="dwrite_factory_type-enumeration-dwriteh"></a>DWRITE_FACTORY_TYPE 列舉 (DWRITE .h) 
 
 指定 DirectWrite factory 物件的類型。
 
 > [!IMPORTANT]
-> 此 API 可作為 [DirectWrite](../direct-write-portal.md)DWriteCore 執行的一部分。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。 如需詳細資訊和程式碼範例，請參閱 [DWriteCore 總覽](/windows/win32/DirectWrite/dwrite/dwritecore-overview)。
+> 此 API 可作為 [DirectWrite](../direct-write-portal.md)DWriteCore 執行的一部分。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。 如需詳細資訊和程式碼範例，請參閱 [DWriteCore 總覽](/windows/win32/directwrite/dwritecore-overview)。
 
 ## <a name="syntax"></a>Syntax
 ```cpp
@@ -72,7 +72,7 @@ typedef enum DWRITE_FACTORY_TYPE {
 
 ## <a name="examples"></a>範例
 
-請參閱 [DWriteCore 總覽](/windows/win32/DirectWrite/dwrite/dwritecore-overview) 主題和 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式。
+請參閱 [DWriteCore 總覽](/windows/win32/directwrite/dwritecore-overview) 主題和 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式。
 
 ## <a name="remarks"></a>備註
 
