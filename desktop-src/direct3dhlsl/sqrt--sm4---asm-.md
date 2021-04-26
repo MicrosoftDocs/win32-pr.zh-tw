@@ -4,12 +4,12 @@ description: 以元件為依據的平方根。
 ms.assetid: B860D656-7F01-484F-909F-A5C9A61C52C3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0a12afaf5b2366dac15c953d509a6814b48a6b9
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 628601e0a3a78784a5fd1a089ef7608a0cf9ca05
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373803"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996605"
 ---
 # <a name="sqrt-sm4---asm"></a>sqrt (sm4-asm) 
 
@@ -45,9 +45,8 @@ F 表示有限實數。
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 |          | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+ denorm** | **+ F** | **+ inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **目標** | NaN      | NaN    | -0          | -0     | +0     | +0          | +F     | +inf     | NaN     |
 
 
@@ -77,9 +76,9 @@ F 表示有限實數。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

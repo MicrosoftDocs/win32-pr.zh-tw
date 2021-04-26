@@ -4,12 +4,12 @@ ms.assetid: 6ad0d163-df51-48b6-aad7-a4b018688872
 title: portTypeDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 60f55408df938ed95af14c69b2676473ac1bda71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ff073eb7b0f9cbc4b0b6df87c8f9fc84d4f62882
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192907"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996545"
 ---
 # <a name="porttypedefinitions-element"></a>portTypeDefinitions 元素
 
@@ -71,7 +71,7 @@ ms.locfileid: "104192907"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

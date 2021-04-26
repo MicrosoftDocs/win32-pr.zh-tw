@@ -4,12 +4,12 @@ ms.assetid: aa4c935f-0d60-4603-ae96-d5cabdf9af00
 title: PnPXHardwareId 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e5e38b669a289545225df96fad05e55069b474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0ffc389ca6df363439dd6463b3f86ca756359e8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977258"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996525"
 ---
 # <a name="pnpxhardwareid-element"></a>PnPXHardwareId 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "106977258"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

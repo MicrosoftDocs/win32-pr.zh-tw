@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 944ddd2b581c6179ac4a3fe22f2b687f85aecfdc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 178b31a386a7ae4aa266ac33ddbb1ee5c842f2d1
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092916"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997165"
 ---
 # <a name="dcl_semantics-sm3---ps-asm"></a>dcl \_ 語義 (sm3-ps asm) 
 
@@ -30,7 +30,7 @@ ms.locfileid: "104092916"
 
 
 
- 
+ 
 
 其中：
 
@@ -49,7 +49,7 @@ ms.locfileid: "104092916"
 
 
 
- 
+ 
 
 所有 \_ 的 dcl 使用方式指令都必須出現在第一個可執行指令之前。
 
@@ -92,6 +92,6 @@ texld r1, v1.zw, s1
 [消除鋸齒範例](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

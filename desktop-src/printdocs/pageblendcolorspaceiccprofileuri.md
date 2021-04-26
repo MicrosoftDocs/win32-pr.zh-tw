@@ -4,12 +4,12 @@ ms.assetid: 05924c7d-e074-4835-b42c-53c77dc1bbb5
 title: PageBlendColorSpaceICCProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1f3a6143bd934ebcb75c3e5455a30c7365f1a89
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2cbf1233e172a81053baee0abe1e21d79064045a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104035237"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997695"
 ---
 # <a name="pageblendcolorspaceiccprofileuri"></a>PageBlendColorSpaceICCProfileURI
 
@@ -24,7 +24,7 @@ ms.locfileid: "104035237"
 
 
 
-| Name                       |                                                                                                                                        |
+| Name | 值 |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                                                                                                |
 | 範圍前置詞 <br/> | 頁面<br/>                                                                                                                        |

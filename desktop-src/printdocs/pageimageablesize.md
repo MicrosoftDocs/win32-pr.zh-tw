@@ -4,12 +4,12 @@ ms.assetid: 6b81814f-2d9e-4862-8633-6ba016c11dac
 title: PageImageableSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26dca243defc08b43a79e897bfa91913a954bf37
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f1eef9012a7fda3eed6afd16add1d483c35c1111
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104552636"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996105"
 ---
 # <a name="pageimageablesize"></a>PageImageableSize
 
@@ -31,7 +31,7 @@ ms.locfileid: "104552636"
 
 |                            |                     |
 |----------------------------|---------------------|
-| Name                       |                     |
+| Name | 值 |
 | 項目類型<br/>    | 屬性<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>     |
 | 注意 <br/>          | None<br/>     |

@@ -4,12 +4,12 @@ ms.assetid: 6e7899e3-9b64-48bd-8683-aba627458f2a
 title: DocumentID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d41bb96fe904a80210a951f700830604030eadd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a03d05791f4f2214eeac7c2c55b6d13d97c12726
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106989128"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997875"
 ---
 # <a name="documentid"></a>DocumentID
 
@@ -25,7 +25,7 @@ ms.locfileid: "106989128"
 
 
 
-| Name                       |                     |
+| Name | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 文件<br/> |

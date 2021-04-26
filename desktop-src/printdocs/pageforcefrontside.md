@@ -4,12 +4,12 @@ ms.assetid: 0658c808-f050-41f3-90b6-2a013b616b58
 title: PageForceFrontSide
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f277e357cf59bca455102f6ca29bd66bc09455ee
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: e363050034137bcfb3ff2b779ecda05200865312
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195848"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996935"
 ---
 # <a name="pageforcefrontside"></a>PageForceFrontSide
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195848"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

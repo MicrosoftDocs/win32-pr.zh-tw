@@ -4,12 +4,12 @@ ms.assetid: 955f4785-5657-4a89-9728-bce99a0a4234
 title: preferredPrefix 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b71f124756f29aaf29ba30d254f9b03ab4495f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98fa0310872a43811ceb626ae0684fa45a2f6666
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974385"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996475"
 ---
 # <a name="preferredprefix-element"></a>preferredPrefix 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "106974385"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

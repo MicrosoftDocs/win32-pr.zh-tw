@@ -4,12 +4,12 @@ ms.assetid: 0cbe3b02-4ade-4eaa-94a7-71fda8d15762
 title: presentationURL 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb6c9fae05d28b367463f40a9fd7cd5b108e1fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe44b1b139bf545ac183427669640fe2935bce3b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983659"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996485"
 ---
 # <a name="presentationurl-element"></a>presentationURL 元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "106983659"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

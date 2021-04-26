@@ -4,12 +4,12 @@ ms.assetid: ad33b2cd-8409-4782-8eb9-5f12aca8405b
 title: JobPrimaryBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c86e840c3507fce80bda0f4c31efe8b0d714242
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 556390d58df3073263a6a6b666d98c48ceed6469
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321727"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997735"
 ---
 # <a name="jobprimarybannersheetsource"></a>JobPrimaryBannerSheetSource
 
@@ -24,7 +24,7 @@ ms.locfileid: "104321727"
 
 
 
-| Name                       |                                             |
+| Name | 值 |
 |----------------------------|---------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                     |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>                              |

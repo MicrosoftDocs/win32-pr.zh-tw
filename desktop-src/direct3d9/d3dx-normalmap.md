@@ -4,12 +4,12 @@ ms.assetid: edf4c3e4-1af4-43b4-80c7-6fab02575f7b
 title: D3DX_NORMALMAP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37985456e81b20af9b3e4396d10045d5e58c9b7c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90f76b6afe6eb68e8ddbc3ca28085861a518effc
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "107000037"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996325"
 ---
 # <a name="d3dx_normalmap"></a>D3DX \_ NORMALMAP
 
@@ -17,9 +17,8 @@ ms.locfileid: "107000037"
 
 
 
-|                                     |                                                                                                                                                                                                    |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#定義                            | Description                                                                                                                                                                                        |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DX \_ NORMALMAP \_ 鏡像 \_ U          | 表示 u 軸上材質邊緣的圖元應進行鏡像，而不會換行。                                                                                                   |
 | D3DX \_ NORMALMAP \_ 鏡像 \_ V          | 指出 v 軸上材質邊緣的圖元應進行鏡像，而不會換行。                                                                                                   |
 | D3DX \_ NORMALMAP \_ 鏡像             | 與指定 D3DX \_ NORMALMAP \_ 鏡像 \_ U \| D3DX \_ NORMALMAP \_ 鏡像 V 相同 \_ 。                                                                                                                       |

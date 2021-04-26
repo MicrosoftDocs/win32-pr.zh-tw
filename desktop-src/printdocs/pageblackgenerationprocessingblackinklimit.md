@@ -4,12 +4,12 @@ ms.assetid: 96b48917-1fbc-467f-b2b4-1a9673f1ee99
 title: PageBlackGenerationProcessingBlackInkLimit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f565b6190f9bda11727efde6e799b6fb979cecc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3052d8cec8fd46c2f7607e6366aa6868cccbdbda
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986029"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996185"
 ---
 # <a name="pageblackgenerationprocessingblackinklimit"></a>PageBlackGenerationProcessingBlackInkLimit
 
@@ -24,7 +24,7 @@ ms.locfileid: "106986029"
 
 
 
-| Name                       |                                                            |
+| Name | 值 |
 |----------------------------|------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                    |
 | 範圍前置詞 <br/> | 頁面<br/>                                            |

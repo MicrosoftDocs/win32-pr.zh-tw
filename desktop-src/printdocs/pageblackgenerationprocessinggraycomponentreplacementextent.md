@@ -4,12 +4,12 @@ ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58c71700b23459c087361e9e28ac0c43120aff90
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6f9a790d66d1f7806a7ef86ee4a85f62225aa836
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853540"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997705"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementextent"></a>PageBlackGenerationProcessingGrayComponentReplacementExtent
 
@@ -24,7 +24,7 @@ ms.locfileid: "103853540"
 
 
 
-| Name                       |                                                            |
+| Name | 值 |
 |----------------------------|------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                    |
 | 範圍前置詞 <br/> | 頁面<br/>                                            |

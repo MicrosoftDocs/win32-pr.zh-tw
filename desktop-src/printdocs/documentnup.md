@@ -4,12 +4,12 @@ ms.assetid: 941515a8-ba3f-47b9-9f3f-08a48122661a
 title: DocumentNUp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fdf22fa557ce1da4fde20ad1d8ea14625a1b77
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: ab531a2095e83aa35f3dff450270c2a5b4520d62
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195851"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996284"
 ---
 # <a name="documentnup"></a>DocumentNUp
 
@@ -29,7 +29,7 @@ ms.locfileid: "104195851"
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | 值 |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                                                                                              |
 | 範圍前置詞 <br/> | 文件<br/>                                                                                                                             |

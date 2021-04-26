@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3d4d35766bdbdc2d69c98983a85f336ab784d24d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2d36e5639b017dfa94e0f3c9f84d6725f6b6a283
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316267"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996985"
 ---
 # <a name="sv_groupthreadid"></a>SV \_ GroupThreadID
 
@@ -35,7 +35,7 @@ ms.locfileid: "104316267"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -49,14 +49,13 @@ ms.locfileid: "104316267"
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+|--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -68,6 +67,6 @@ ms.locfileid: "104316267"
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

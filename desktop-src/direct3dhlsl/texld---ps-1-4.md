@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 23827dffc396a40be134be4db3996d2e9f498288
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990795"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996865"
 ---
 # <a name="texld---ps_1_4"></a>texld-ps \_ 1 \_ 4
 
@@ -27,22 +27,21 @@ ms.locfileid: "104990795"
 
 
 
- 
+ 
 
 ## <a name="registers"></a>暫存器
 
 
 
-| 引數 | 描述          | 暫存器 |     |     |     | 版本      |
-|----------|----------------------|-----------|-----|-----|-----|--------------|
 |          |                      | vn        | 快遞 之 家  | Tn  | Rn  |              |
+|----------|----------------------|-----------|-----|-----|-----|--------------|
 | Dst      | 目的地註冊 |           |     |     | x   | 1\_4         |
 | src      | 來源註冊      |           |     | x   |     | 1 \_ 4 階段1 |
 |          |                      |           |     | x   | x   | 1 \_ 4 階段   |
 
 
 
- 
+ 
 
 使用 r (n) 作為來源暫存器時， (XYZ) 的前三個元件必須已在著色器的上一個階段中初始化。
 
@@ -68,7 +67,7 @@ Texld 和 texcrd 指示的語法會公開支援使用材質暫存器修飾詞來
 
 
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -149,9 +148,9 @@ texld  r(n), r(n)_dz
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

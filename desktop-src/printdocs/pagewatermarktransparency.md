@@ -4,12 +4,12 @@ ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: PageWatermarkTransparency
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f0e96382656b1092a0dbc71352e788208f70b34
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e8d46a03cfb1b2129f4c89a6ea7c751e23cd565e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106981942"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996875"
 ---
 # <a name="pagewatermarktransparency"></a>PageWatermarkTransparency
 
@@ -24,7 +24,7 @@ ms.locfileid: "106981942"
 
 
 
-| Name                       |                                            |
+| Name | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |

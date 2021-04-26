@@ -4,12 +4,12 @@ ms.assetid: 9a50ee38-fadf-4112-8430-cb5a07ae04ce
 title: excludeImport 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf511a24ad4007deb886900843991364fcf03a5a
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: e14d79576151fbb3dc266621c3fa34816cea55e5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380772"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995875"
 ---
 # <a name="excludeimport-element"></a>excludeImport 元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "107380772"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

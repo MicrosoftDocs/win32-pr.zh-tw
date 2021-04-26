@@ -4,12 +4,12 @@ ms.assetid: 05a06206-3cc4-428d-b9f2-b7945e63922c
 title: portTypeDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c4e202f1451d93b519bd59ea51f591c37a92957
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e19780d4a48c95cd47872b0428b368e6b7e99887
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978890"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996555"
 ---
 # <a name="porttypedeclarations-element"></a>portTypeDeclarations 元素
 
@@ -67,7 +67,7 @@ ms.locfileid: "106978890"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

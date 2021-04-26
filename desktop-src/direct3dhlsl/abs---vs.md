@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 07667954de97e2a1da3999237930fb33796d9030
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: e4d73ee738f575d93c2316e4ec47dced7cb128d3
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195872"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994745"
 ---
 # <a name="abs---vs"></a>abs-vs
 
@@ -41,9 +41,8 @@ ms.locfileid: "104195872"
 
 
 
-|                        |      |      |      |       |      |       |
-|------------------------|------|------|------|-------|------|-------|
 | 頂點著色器版本 | 1\_1 | 2 \_ 0 | 2 \_ x | 2個 \_ sw | 3 \_ 0 | 3個 \_ sw |
+|------------------------|------|------|------|-------|------|-------|
 | abs                    |      | x    | x    | x     | x    | x     |
 
 

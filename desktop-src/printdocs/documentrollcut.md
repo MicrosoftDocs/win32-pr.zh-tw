@@ -4,12 +4,12 @@ ms.assetid: 8eb4e574-3209-459c-9a25-95377b2f7439
 title: DocumentRollCut
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d3a20c02c50638d532660845efc1b3894f4a7e1
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d3d4bfb09a1c3f6f43f11886685a0edfcf2bbd92
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195844"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997045"
 ---
 # <a name="documentrollcut"></a>DocumentRollCut
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195844"
 
 
 
-| Name                       |                     |
+| Name | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 功能<br/>  |
 | 範圍前置詞 <br/> | 文件<br/> |

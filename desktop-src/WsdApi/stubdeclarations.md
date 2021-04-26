@@ -4,12 +4,12 @@ ms.assetid: d43baeff-c941-4ce9-a6ae-8aa61ef44048
 title: stubDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ceaa8871928031edff90db0491483cfd06bdcc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1543883b4d41e7571cd4a4725e2aeab181530d30
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985153"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996405"
 ---
 # <a name="stubdeclarations-element"></a>stubDeclarations 元素
 
@@ -63,7 +63,7 @@ ms.locfileid: "106985153"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

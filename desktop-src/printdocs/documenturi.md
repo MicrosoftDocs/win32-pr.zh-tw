@@ -4,12 +4,12 @@ ms.assetid: 7926ae9b-e195-4391-9006-1eb4cf386f88
 title: DocumentURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b9964df145e75fe2b30d670d5575928485e00c5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a0d339b1b469f276492f7989b0ed7951ca1edad8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945755"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997065"
 ---
 # <a name="documenturi"></a>DocumentURI
 
@@ -25,7 +25,7 @@ ms.locfileid: "103945755"
 
 
 
-| Name                       |                     |
+| Name | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 文件<br/> |

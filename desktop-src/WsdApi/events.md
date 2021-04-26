@@ -4,12 +4,12 @@ ms.assetid: 23ca463c-b305-496b-a1e3-58dbb793f17e
 title: events 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2571cc8e9820ca38beb649b3c227fb1c01f61c50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6883f1bcca9b62c3d8b60ca86f47b0e688d513c2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192177"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995925"
 ---
 # <a name="events-element"></a>events 元素
 
@@ -51,7 +51,7 @@ ms.locfileid: "104192177"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

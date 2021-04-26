@@ -4,12 +4,12 @@ ms.assetid: 334503d7-c044-41f7-b6aa-892b002b7a4e
 title: DocumentInputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95a4459f621ac4455a69e891c2eeda6f785b6d8b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 57890492ed5f0b575e6d462351282dd199f34f45
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106990005"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997765"
 ---
 # <a name="documentinputbin"></a>DocumentInputBin
 
@@ -27,7 +27,7 @@ ms.locfileid: "106990005"
 
 
 
-| Name                       |                                                                                                                                |
+| Name | 值 |
 |----------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                                                                             |
 | 範圍前置詞 <br/> | 文件<br/>                                                                                                            |

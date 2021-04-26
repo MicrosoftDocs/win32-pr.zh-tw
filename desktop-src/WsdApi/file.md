@@ -4,12 +4,12 @@ ms.assetid: d2ee6886-995f-453d-8121-f849b2d910ec
 title: file 項目
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc20f7d6853ccd52b231e19c99d60fe4b71d15b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41970da9cc6e389f4e45c5e55901ce8eb2e7797f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969305"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995865"
 ---
 # <a name="file-element"></a>file 項目
 
@@ -140,7 +140,7 @@ ms.locfileid: "106969305"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 否            |

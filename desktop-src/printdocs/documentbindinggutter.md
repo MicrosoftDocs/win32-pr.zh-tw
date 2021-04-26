@@ -4,12 +4,12 @@ ms.assetid: 903ad358-a060-4c8f-b72e-5ec2eb898248
 title: DocumentBindingGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cf00f146373502564d559d00f66dedd24abf5b9
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2372636ea22610e6a209cfad3f1fe6297be34833
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195827"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997185"
 ---
 # <a name="documentbindinggutter"></a>DocumentBindingGutter
 
@@ -24,7 +24,7 @@ ms.locfileid: "104195827"
 
 
 
-| Name                       |                                              |
+| Name | 值 |
 |----------------------------|----------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                      |
 | 範圍前置詞 <br/> | 文件<br/>                          |

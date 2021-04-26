@@ -4,12 +4,12 @@ ms.assetid: cf35bb37-bf67-4e86-bfef-9838606982a5
 title: PageScaling
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41af04cc5657360fcc8d4b15812e9c2dd6b9fb06
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: e32beceead1c0dc867a2bb7b24d476ef05bf8820
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106981767"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997495"
 ---
 # <a name="pagescaling"></a>PageScaling
 
@@ -37,7 +37,7 @@ ms.locfileid: "106981767"
 
 
 
-| Name                       |                                                                                                                                                                                                       |
+| Name | 值 |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                                                                                                                                                    |
 | 範圍前置詞 <br/> | 頁面<br/>                                                                                                                                                                                       |
