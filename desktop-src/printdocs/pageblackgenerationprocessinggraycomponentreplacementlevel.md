@@ -4,39 +4,39 @@ ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: PageBlackGenerationProcessingGrayComponentReplacementLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57c0d55c2150f5a2299672ebf95d6656b238acc1
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 553919bf9fab43cb1281f625eb518937b5c8b805
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321731"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994525"
 ---
-# <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a><span data-ttu-id="dfcad-104">PageBlackGenerationProcessingGrayComponentReplacementLevel</span><span class="sxs-lookup"><span data-stu-id="dfcad-104">PageBlackGenerationProcessingGrayComponentReplacementLevel</span></span>
+# <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a><span data-ttu-id="e02b4-104">PageBlackGenerationProcessingGrayComponentReplacementLevel</span><span class="sxs-lookup"><span data-stu-id="e02b4-104">PageBlackGenerationProcessingGrayComponentReplacementLevel</span></span>
 
-<span data-ttu-id="dfcad-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="dfcad-105">This topic is not current.</span></span> <span data-ttu-id="dfcad-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="dfcad-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="e02b4-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="e02b4-105">This topic is not current.</span></span> <span data-ttu-id="e02b4-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="e02b4-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="dfcad-107">指定要執行的灰色元件取代百分比。</span><span class="sxs-lookup"><span data-stu-id="dfcad-107">Specifies the percentage of gray component replacement to perform.</span></span>
+<span data-ttu-id="e02b4-107">指定要執行的灰色元件取代百分比。</span><span class="sxs-lookup"><span data-stu-id="e02b4-107">Specifies the percentage of gray component replacement to perform.</span></span>
 
--   [<span data-ttu-id="dfcad-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="dfcad-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="dfcad-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="dfcad-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="e02b4-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="e02b4-108">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="e02b4-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="e02b4-109">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="dfcad-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="dfcad-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="e02b4-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="e02b4-110">Element Information</span></span>
 
 
 
-| <span data-ttu-id="dfcad-111">Name</span><span class="sxs-lookup"><span data-stu-id="dfcad-111">Name</span></span>                       |                                                            |
+| <span data-ttu-id="e02b4-111">Name</span><span class="sxs-lookup"><span data-stu-id="e02b4-111">Name</span></span> | <span data-ttu-id="e02b4-112">值</span><span class="sxs-lookup"><span data-stu-id="e02b4-112">Value</span></span> |
 |----------------------------|------------------------------------------------------------|
-| <span data-ttu-id="dfcad-112">項目類型</span><span class="sxs-lookup"><span data-stu-id="dfcad-112">Element Type</span></span> <br/>   | <span data-ttu-id="dfcad-113">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="dfcad-113">ParameterDef</span></span><br/>                                    |
-| <span data-ttu-id="dfcad-114">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="dfcad-114">Scoping Prefix</span></span> <br/> | <span data-ttu-id="dfcad-115">頁面</span><span class="sxs-lookup"><span data-stu-id="dfcad-115">Page</span></span><br/>                                            |
-| <span data-ttu-id="dfcad-116">備註</span><span class="sxs-lookup"><span data-stu-id="dfcad-116">Notes</span></span> <br/>          | <span data-ttu-id="dfcad-117">連結至 PageBlackGenerationProcessing 元素</span><span class="sxs-lookup"><span data-stu-id="dfcad-117">Linked to PageBlackGenerationProcessing element</span></span><br/> |
+| <span data-ttu-id="e02b4-113">項目類型</span><span class="sxs-lookup"><span data-stu-id="e02b4-113">Element Type</span></span> <br/>   | <span data-ttu-id="e02b4-114">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="e02b4-114">ParameterDef</span></span><br/>                                    |
+| <span data-ttu-id="e02b4-115">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="e02b4-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="e02b4-116">頁面</span><span class="sxs-lookup"><span data-stu-id="e02b4-116">Page</span></span><br/>                                            |
+| <span data-ttu-id="e02b4-117">備註</span><span class="sxs-lookup"><span data-stu-id="e02b4-117">Notes</span></span> <br/>          | <span data-ttu-id="e02b4-118">連結至 PageBlackGenerationProcessing 元素</span><span class="sxs-lookup"><span data-stu-id="e02b4-118">Linked to PageBlackGenerationProcessing element</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="dfcad-118">結構內容</span><span class="sxs-lookup"><span data-stu-id="dfcad-118">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="e02b4-119">結構內容</span><span class="sxs-lookup"><span data-stu-id="e02b4-119">Structure Content</span></span>
 
-<span data-ttu-id="dfcad-119">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="dfcad-119">The XML structure of this element is:</span></span>
+<span data-ttu-id="e02b4-120">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="e02b4-120">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageBlackGenerationProcessingGrayComponentReplacementLevel">
@@ -64,31 +64,31 @@ ms.locfileid: "104321731"
 </psf:ParameterDef>
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="dfcad-120">結構屬性</span><span class="sxs-lookup"><span data-stu-id="dfcad-120">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="e02b4-121">結構屬性</span><span class="sxs-lookup"><span data-stu-id="e02b4-121">Structure Properties</span></span>
 
-<span data-ttu-id="dfcad-121">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="dfcad-121">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="e02b4-122">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="e02b4-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="dfcad-122">屬性</span><span class="sxs-lookup"><span data-stu-id="dfcad-122">Property</span></span>                | <span data-ttu-id="dfcad-123">xsi:type</span><span class="sxs-lookup"><span data-stu-id="dfcad-123">xsi:type</span></span>           | <span data-ttu-id="dfcad-124">值</span><span class="sxs-lookup"><span data-stu-id="dfcad-124">Value</span></span>                      |
+| <span data-ttu-id="e02b4-123">屬性</span><span class="sxs-lookup"><span data-stu-id="e02b4-123">Property</span></span>                | <span data-ttu-id="e02b4-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="e02b4-124">xsi:type</span></span>           | <span data-ttu-id="e02b4-125">值</span><span class="sxs-lookup"><span data-stu-id="e02b4-125">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="dfcad-125">DataType</span><span class="sxs-lookup"><span data-stu-id="dfcad-125">DataType</span></span><br/>     | <span data-ttu-id="dfcad-126">字串</span><span class="sxs-lookup"><span data-stu-id="dfcad-126">string</span></span><br/>  | <span data-ttu-id="dfcad-127">xs:integer</span><span class="sxs-lookup"><span data-stu-id="dfcad-127">xs:integer</span></span><br/>      |
-| <span data-ttu-id="dfcad-128">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="dfcad-128">DefaultValue</span></span><br/> | <span data-ttu-id="dfcad-129">字串</span><span class="sxs-lookup"><span data-stu-id="dfcad-129">string</span></span><br/>  | <span data-ttu-id="dfcad-130">未定義</span><span class="sxs-lookup"><span data-stu-id="dfcad-130">undefined</span></span><br/>       |
-| <span data-ttu-id="dfcad-131">MaxValue</span><span class="sxs-lookup"><span data-stu-id="dfcad-131">MaxValue</span></span><br/>     | <span data-ttu-id="dfcad-132">整數</span><span class="sxs-lookup"><span data-stu-id="dfcad-132">integer</span></span><br/> | <span data-ttu-id="dfcad-133">100</span><span class="sxs-lookup"><span data-stu-id="dfcad-133">100</span></span><br/>             |
-| <span data-ttu-id="dfcad-134">MinValue</span><span class="sxs-lookup"><span data-stu-id="dfcad-134">MinValue</span></span><br/>     | <span data-ttu-id="dfcad-135">整數</span><span class="sxs-lookup"><span data-stu-id="dfcad-135">integer</span></span><br/> | <span data-ttu-id="dfcad-136">0</span><span class="sxs-lookup"><span data-stu-id="dfcad-136">0</span></span><br/>               |
-| <span data-ttu-id="dfcad-137">多個</span><span class="sxs-lookup"><span data-stu-id="dfcad-137">Multiple</span></span><br/>     | <span data-ttu-id="dfcad-138">整數</span><span class="sxs-lookup"><span data-stu-id="dfcad-138">integer</span></span><br/> | <span data-ttu-id="dfcad-139">1</span><span class="sxs-lookup"><span data-stu-id="dfcad-139">1</span></span><br/>               |
-| <span data-ttu-id="dfcad-140">強制性</span><span class="sxs-lookup"><span data-stu-id="dfcad-140">Mandatory</span></span><br/>    | <span data-ttu-id="dfcad-141">字串</span><span class="sxs-lookup"><span data-stu-id="dfcad-141">string</span></span><br/>  | <span data-ttu-id="dfcad-142">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="dfcad-142">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="dfcad-143">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="dfcad-143">UnitType</span></span><br/>     | <span data-ttu-id="dfcad-144">字串</span><span class="sxs-lookup"><span data-stu-id="dfcad-144">string</span></span><br/>  | <span data-ttu-id="dfcad-145">percent</span><span class="sxs-lookup"><span data-stu-id="dfcad-145">percent</span></span><br/>         |
+| <span data-ttu-id="e02b4-126">DataType</span><span class="sxs-lookup"><span data-stu-id="e02b4-126">DataType</span></span><br/>     | <span data-ttu-id="e02b4-127">字串</span><span class="sxs-lookup"><span data-stu-id="e02b4-127">string</span></span><br/>  | <span data-ttu-id="e02b4-128">xs:integer</span><span class="sxs-lookup"><span data-stu-id="e02b4-128">xs:integer</span></span><br/>      |
+| <span data-ttu-id="e02b4-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="e02b4-129">DefaultValue</span></span><br/> | <span data-ttu-id="e02b4-130">字串</span><span class="sxs-lookup"><span data-stu-id="e02b4-130">string</span></span><br/>  | <span data-ttu-id="e02b4-131">未定義</span><span class="sxs-lookup"><span data-stu-id="e02b4-131">undefined</span></span><br/>       |
+| <span data-ttu-id="e02b4-132">MaxValue</span><span class="sxs-lookup"><span data-stu-id="e02b4-132">MaxValue</span></span><br/>     | <span data-ttu-id="e02b4-133">整數</span><span class="sxs-lookup"><span data-stu-id="e02b4-133">integer</span></span><br/> | <span data-ttu-id="e02b4-134">100</span><span class="sxs-lookup"><span data-stu-id="e02b4-134">100</span></span><br/>             |
+| <span data-ttu-id="e02b4-135">MinValue</span><span class="sxs-lookup"><span data-stu-id="e02b4-135">MinValue</span></span><br/>     | <span data-ttu-id="e02b4-136">整數</span><span class="sxs-lookup"><span data-stu-id="e02b4-136">integer</span></span><br/> | <span data-ttu-id="e02b4-137">0</span><span class="sxs-lookup"><span data-stu-id="e02b4-137">0</span></span><br/>               |
+| <span data-ttu-id="e02b4-138">多個</span><span class="sxs-lookup"><span data-stu-id="e02b4-138">Multiple</span></span><br/>     | <span data-ttu-id="e02b4-139">整數</span><span class="sxs-lookup"><span data-stu-id="e02b4-139">integer</span></span><br/> | <span data-ttu-id="e02b4-140">1</span><span class="sxs-lookup"><span data-stu-id="e02b4-140">1</span></span><br/>               |
+| <span data-ttu-id="e02b4-141">強制性</span><span class="sxs-lookup"><span data-stu-id="e02b4-141">Mandatory</span></span><br/>    | <span data-ttu-id="e02b4-142">字串</span><span class="sxs-lookup"><span data-stu-id="e02b4-142">string</span></span><br/>  | <span data-ttu-id="e02b4-143">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="e02b4-143">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="e02b4-144">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="e02b4-144">UnitType</span></span><br/>     | <span data-ttu-id="e02b4-145">字串</span><span class="sxs-lookup"><span data-stu-id="e02b4-145">string</span></span><br/>  | <span data-ttu-id="e02b4-146">percent</span><span class="sxs-lookup"><span data-stu-id="e02b4-146">percent</span></span><br/>         |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="dfcad-146">相關主題</span><span class="sxs-lookup"><span data-stu-id="dfcad-146">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e02b4-147">相關主題</span><span class="sxs-lookup"><span data-stu-id="e02b4-147">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="dfcad-147">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="dfcad-147">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="e02b4-148">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="e02b4-148">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
