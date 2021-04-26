@@ -4,39 +4,39 @@ ms.assetid: b360f870-bfaa-4d4d-adce-17fcfc48b6a6
 title: PageDestinationColorProfileEmbedded
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47eaa810cd23462433c52292506999f90797d659
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: a7053cfaf82d7fdfccfe79cebcd76e49befeb125
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106981763"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996125"
 ---
-# <a name="pagedestinationcolorprofileembedded"></a><span data-ttu-id="3b6b4-104">PageDestinationColorProfileEmbedded</span><span class="sxs-lookup"><span data-stu-id="3b6b4-104">PageDestinationColorProfileEmbedded</span></span>
+# <a name="pagedestinationcolorprofileembedded"></a><span data-ttu-id="1ade3-104">PageDestinationColorProfileEmbedded</span><span class="sxs-lookup"><span data-stu-id="1ade3-104">PageDestinationColorProfileEmbedded</span></span>
 
-<span data-ttu-id="3b6b4-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="3b6b4-105">This topic is not current.</span></span> <span data-ttu-id="3b6b4-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="3b6b4-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="1ade3-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="1ade3-105">This topic is not current.</span></span> <span data-ttu-id="1ade3-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="1ade3-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="3b6b4-107">指定內嵌的目的地色彩設定檔。</span><span class="sxs-lookup"><span data-stu-id="3b6b4-107">Specifies the embedded destination color profile.</span></span>
+<span data-ttu-id="1ade3-107">指定內嵌的目的地色彩設定檔。</span><span class="sxs-lookup"><span data-stu-id="1ade3-107">Specifies the embedded destination color profile.</span></span>
 
--   [<span data-ttu-id="3b6b4-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="3b6b4-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="3b6b4-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="3b6b4-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="1ade3-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="1ade3-108">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="1ade3-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="1ade3-109">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="3b6b4-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="3b6b4-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="1ade3-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="1ade3-110">Element Information</span></span>
 
 
 
-| <span data-ttu-id="3b6b4-111">Name</span><span class="sxs-lookup"><span data-stu-id="3b6b4-111">Name</span></span>                       |                                                          |
+| <span data-ttu-id="1ade3-111">Name</span><span class="sxs-lookup"><span data-stu-id="1ade3-111">Name</span></span> | <span data-ttu-id="1ade3-112">值</span><span class="sxs-lookup"><span data-stu-id="1ade3-112">Value</span></span> |
 |----------------------------|----------------------------------------------------------|
-| <span data-ttu-id="3b6b4-112">項目類型</span><span class="sxs-lookup"><span data-stu-id="3b6b4-112">Element Type</span></span> <br/>   | <span data-ttu-id="3b6b4-113">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="3b6b4-113">ParameterDef</span></span><br/>                                  |
-| <span data-ttu-id="3b6b4-114">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="3b6b4-114">Scoping Prefix</span></span> <br/> | <span data-ttu-id="3b6b4-115">頁面</span><span class="sxs-lookup"><span data-stu-id="3b6b4-115">Page</span></span><br/>                                          |
-| <span data-ttu-id="3b6b4-116">備註</span><span class="sxs-lookup"><span data-stu-id="3b6b4-116">Notes</span></span> <br/>          | <span data-ttu-id="3b6b4-117">連結至 PageDestinationColorProfile 元素</span><span class="sxs-lookup"><span data-stu-id="3b6b4-117">Linked to PageDestinationColorProfile element</span></span><br/> |
+| <span data-ttu-id="1ade3-113">項目類型</span><span class="sxs-lookup"><span data-stu-id="1ade3-113">Element Type</span></span> <br/>   | <span data-ttu-id="1ade3-114">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="1ade3-114">ParameterDef</span></span><br/>                                  |
+| <span data-ttu-id="1ade3-115">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="1ade3-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="1ade3-116">頁面</span><span class="sxs-lookup"><span data-stu-id="1ade3-116">Page</span></span><br/>                                          |
+| <span data-ttu-id="1ade3-117">備註</span><span class="sxs-lookup"><span data-stu-id="1ade3-117">Notes</span></span> <br/>          | <span data-ttu-id="1ade3-118">連結至 PageDestinationColorProfile 元素</span><span class="sxs-lookup"><span data-stu-id="1ade3-118">Linked to PageDestinationColorProfile element</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="3b6b4-118">結構內容</span><span class="sxs-lookup"><span data-stu-id="3b6b4-118">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="1ade3-119">結構內容</span><span class="sxs-lookup"><span data-stu-id="1ade3-119">Structure Content</span></span>
 
-<span data-ttu-id="3b6b4-119">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="3b6b4-119">The XML structure of this element is:</span></span>
+<span data-ttu-id="1ade3-120">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="1ade3-120">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageDestinationColorProfileEmbedded">
@@ -62,30 +62,30 @@ ms.locfileid: "106981763"
       
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="3b6b4-120">結構屬性</span><span class="sxs-lookup"><span data-stu-id="3b6b4-120">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="1ade3-121">結構屬性</span><span class="sxs-lookup"><span data-stu-id="1ade3-121">Structure Properties</span></span>
 
-<span data-ttu-id="3b6b4-121">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="3b6b4-121">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="1ade3-122">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="1ade3-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="3b6b4-122">屬性</span><span class="sxs-lookup"><span data-stu-id="3b6b4-122">Property</span></span>                | <span data-ttu-id="3b6b4-123">xsi:type</span><span class="sxs-lookup"><span data-stu-id="3b6b4-123">xsi:type</span></span>           | <span data-ttu-id="3b6b4-124">值</span><span class="sxs-lookup"><span data-stu-id="3b6b4-124">Value</span></span>                      |
+| <span data-ttu-id="1ade3-123">屬性</span><span class="sxs-lookup"><span data-stu-id="1ade3-123">Property</span></span>                | <span data-ttu-id="1ade3-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="1ade3-124">xsi:type</span></span>           | <span data-ttu-id="1ade3-125">值</span><span class="sxs-lookup"><span data-stu-id="1ade3-125">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="3b6b4-125">DataType</span><span class="sxs-lookup"><span data-stu-id="3b6b4-125">DataType</span></span><br/>     | <span data-ttu-id="3b6b4-126">字串</span><span class="sxs-lookup"><span data-stu-id="3b6b4-126">string</span></span><br/>  | <span data-ttu-id="3b6b4-127">xs:string</span><span class="sxs-lookup"><span data-stu-id="3b6b4-127">xs:string</span></span><br/>       |
-| <span data-ttu-id="3b6b4-128">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="3b6b4-128">DefaultValue</span></span><br/> | <span data-ttu-id="3b6b4-129">字串</span><span class="sxs-lookup"><span data-stu-id="3b6b4-129">string</span></span><br/>  | <span data-ttu-id="3b6b4-130">未定義</span><span class="sxs-lookup"><span data-stu-id="3b6b4-130">undefined</span></span><br/>       |
-| <span data-ttu-id="3b6b4-131">MaxLength</span><span class="sxs-lookup"><span data-stu-id="3b6b4-131">MaxLength</span></span><br/>    | <span data-ttu-id="3b6b4-132">整數</span><span class="sxs-lookup"><span data-stu-id="3b6b4-132">integer</span></span><br/> | <span data-ttu-id="3b6b4-133">未定義</span><span class="sxs-lookup"><span data-stu-id="3b6b4-133">undefined</span></span><br/>       |
-| <span data-ttu-id="3b6b4-134">MinLength</span><span class="sxs-lookup"><span data-stu-id="3b6b4-134">MinLength</span></span><br/>    | <span data-ttu-id="3b6b4-135">整數</span><span class="sxs-lookup"><span data-stu-id="3b6b4-135">integer</span></span><br/> | <span data-ttu-id="3b6b4-136">1</span><span class="sxs-lookup"><span data-stu-id="3b6b4-136">1</span></span><br/>               |
-| <span data-ttu-id="3b6b4-137">強制性</span><span class="sxs-lookup"><span data-stu-id="3b6b4-137">Mandatory</span></span><br/>    | <span data-ttu-id="3b6b4-138">字串</span><span class="sxs-lookup"><span data-stu-id="3b6b4-138">string</span></span><br/>  | <span data-ttu-id="3b6b4-139">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="3b6b4-139">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="3b6b4-140">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="3b6b4-140">UnitType</span></span><br/>     | <span data-ttu-id="3b6b4-141">字串</span><span class="sxs-lookup"><span data-stu-id="3b6b4-141">string</span></span><br/>  | <span data-ttu-id="3b6b4-142">字元</span><span class="sxs-lookup"><span data-stu-id="3b6b4-142">characters</span></span><br/>      |
+| <span data-ttu-id="1ade3-126">DataType</span><span class="sxs-lookup"><span data-stu-id="1ade3-126">DataType</span></span><br/>     | <span data-ttu-id="1ade3-127">字串</span><span class="sxs-lookup"><span data-stu-id="1ade3-127">string</span></span><br/>  | <span data-ttu-id="1ade3-128">xs:string</span><span class="sxs-lookup"><span data-stu-id="1ade3-128">xs:string</span></span><br/>       |
+| <span data-ttu-id="1ade3-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="1ade3-129">DefaultValue</span></span><br/> | <span data-ttu-id="1ade3-130">字串</span><span class="sxs-lookup"><span data-stu-id="1ade3-130">string</span></span><br/>  | <span data-ttu-id="1ade3-131">未定義</span><span class="sxs-lookup"><span data-stu-id="1ade3-131">undefined</span></span><br/>       |
+| <span data-ttu-id="1ade3-132">MaxLength</span><span class="sxs-lookup"><span data-stu-id="1ade3-132">MaxLength</span></span><br/>    | <span data-ttu-id="1ade3-133">整數</span><span class="sxs-lookup"><span data-stu-id="1ade3-133">integer</span></span><br/> | <span data-ttu-id="1ade3-134">未定義</span><span class="sxs-lookup"><span data-stu-id="1ade3-134">undefined</span></span><br/>       |
+| <span data-ttu-id="1ade3-135">MinLength</span><span class="sxs-lookup"><span data-stu-id="1ade3-135">MinLength</span></span><br/>    | <span data-ttu-id="1ade3-136">整數</span><span class="sxs-lookup"><span data-stu-id="1ade3-136">integer</span></span><br/> | <span data-ttu-id="1ade3-137">1</span><span class="sxs-lookup"><span data-stu-id="1ade3-137">1</span></span><br/>               |
+| <span data-ttu-id="1ade3-138">強制性</span><span class="sxs-lookup"><span data-stu-id="1ade3-138">Mandatory</span></span><br/>    | <span data-ttu-id="1ade3-139">字串</span><span class="sxs-lookup"><span data-stu-id="1ade3-139">string</span></span><br/>  | <span data-ttu-id="1ade3-140">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="1ade3-140">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="1ade3-141">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="1ade3-141">UnitType</span></span><br/>     | <span data-ttu-id="1ade3-142">字串</span><span class="sxs-lookup"><span data-stu-id="1ade3-142">string</span></span><br/>  | <span data-ttu-id="1ade3-143">字元</span><span class="sxs-lookup"><span data-stu-id="1ade3-143">characters</span></span><br/>      |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="3b6b4-143">相關主題</span><span class="sxs-lookup"><span data-stu-id="3b6b4-143">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="1ade3-144">相關主題</span><span class="sxs-lookup"><span data-stu-id="1ade3-144">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="3b6b4-144">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="3b6b4-144">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="1ade3-145">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="1ade3-145">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

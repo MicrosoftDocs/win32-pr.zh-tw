@@ -4,39 +4,39 @@ ms.assetid: ccc2ad1c-b0c2-4c45-bc95-7c15426c2534
 title: PageScalingScaleHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f3f91f6b188dadbd86a18152be5228b62d21ab4
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 92d718d80f6b3cc369ddcb5c088a1299d639634b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106988118"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997475"
 ---
-# <a name="pagescalingscaleheight"></a><span data-ttu-id="ecf22-104">PageScalingScaleHeight</span><span class="sxs-lookup"><span data-stu-id="ecf22-104">PageScalingScaleHeight</span></span>
+# <a name="pagescalingscaleheight"></a><span data-ttu-id="7817a-104">PageScalingScaleHeight</span><span class="sxs-lookup"><span data-stu-id="7817a-104">PageScalingScaleHeight</span></span>
 
-<span data-ttu-id="ecf22-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="ecf22-105">This topic is not current.</span></span> <span data-ttu-id="ecf22-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="ecf22-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="7817a-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="7817a-105">This topic is not current.</span></span> <span data-ttu-id="7817a-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="7817a-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="ecf22-107">針對自訂縮放比例指定 ImageableSizeHeight 方向的縮放比例。</span><span class="sxs-lookup"><span data-stu-id="ecf22-107">Specifies the scaling factor in the ImageableSizeHeight direction for custom scaling.</span></span>
+<span data-ttu-id="7817a-107">針對自訂縮放比例指定 ImageableSizeHeight 方向的縮放比例。</span><span class="sxs-lookup"><span data-stu-id="7817a-107">Specifies the scaling factor in the ImageableSizeHeight direction for custom scaling.</span></span>
 
--   [<span data-ttu-id="ecf22-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="ecf22-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="ecf22-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="ecf22-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="7817a-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="7817a-108">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="7817a-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="7817a-109">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="ecf22-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="ecf22-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="7817a-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="7817a-110">Element Information</span></span>
 
 
 
-| <span data-ttu-id="ecf22-111">Name</span><span class="sxs-lookup"><span data-stu-id="ecf22-111">Name</span></span>                       |                                                         |
+| <span data-ttu-id="7817a-111">Name</span><span class="sxs-lookup"><span data-stu-id="7817a-111">Name</span></span> | <span data-ttu-id="7817a-112">值</span><span class="sxs-lookup"><span data-stu-id="7817a-112">Value</span></span> |
 |----------------------------|---------------------------------------------------------|
-| <span data-ttu-id="ecf22-112">項目類型</span><span class="sxs-lookup"><span data-stu-id="ecf22-112">Element Type</span></span> <br/>   | <span data-ttu-id="ecf22-113">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="ecf22-113">ParameterDef</span></span><br/>                                 |
-| <span data-ttu-id="ecf22-114">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="ecf22-114">Scoping Prefix</span></span> <br/> | <span data-ttu-id="ecf22-115">頁面</span><span class="sxs-lookup"><span data-stu-id="ecf22-115">Page</span></span><br/>                                         |
-| <span data-ttu-id="ecf22-116">備註</span><span class="sxs-lookup"><span data-stu-id="ecf22-116">Notes</span></span> <br/>          | <span data-ttu-id="ecf22-117">連結至 PageScaling 元素，自訂選項</span><span class="sxs-lookup"><span data-stu-id="ecf22-117">Linked to PageScaling element, Custom option</span></span><br/> |
+| <span data-ttu-id="7817a-113">項目類型</span><span class="sxs-lookup"><span data-stu-id="7817a-113">Element Type</span></span> <br/>   | <span data-ttu-id="7817a-114">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="7817a-114">ParameterDef</span></span><br/>                                 |
+| <span data-ttu-id="7817a-115">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="7817a-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="7817a-116">頁面</span><span class="sxs-lookup"><span data-stu-id="7817a-116">Page</span></span><br/>                                         |
+| <span data-ttu-id="7817a-117">備註</span><span class="sxs-lookup"><span data-stu-id="7817a-117">Notes</span></span> <br/>          | <span data-ttu-id="7817a-118">連結至 PageScaling 元素，自訂選項</span><span class="sxs-lookup"><span data-stu-id="7817a-118">Linked to PageScaling element, Custom option</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="ecf22-118">結構內容</span><span class="sxs-lookup"><span data-stu-id="ecf22-118">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="7817a-119">結構內容</span><span class="sxs-lookup"><span data-stu-id="7817a-119">Structure Content</span></span>
 
-<span data-ttu-id="ecf22-119">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="ecf22-119">The XML structure of this element is:</span></span>
+<span data-ttu-id="7817a-120">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="7817a-120">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageScalingScaleHeight">
@@ -65,31 +65,31 @@ ms.locfileid: "106988118"
       
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="ecf22-120">結構屬性</span><span class="sxs-lookup"><span data-stu-id="ecf22-120">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="7817a-121">結構屬性</span><span class="sxs-lookup"><span data-stu-id="7817a-121">Structure Properties</span></span>
 
-<span data-ttu-id="ecf22-121">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="ecf22-121">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="7817a-122">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="7817a-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="ecf22-122">屬性</span><span class="sxs-lookup"><span data-stu-id="ecf22-122">Property</span></span>                | <span data-ttu-id="ecf22-123">xsi:type</span><span class="sxs-lookup"><span data-stu-id="ecf22-123">xsi:type</span></span>           | <span data-ttu-id="ecf22-124">值</span><span class="sxs-lookup"><span data-stu-id="ecf22-124">Value</span></span>                      |
+| <span data-ttu-id="7817a-123">屬性</span><span class="sxs-lookup"><span data-stu-id="7817a-123">Property</span></span>                | <span data-ttu-id="7817a-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="7817a-124">xsi:type</span></span>           | <span data-ttu-id="7817a-125">值</span><span class="sxs-lookup"><span data-stu-id="7817a-125">Value</span></span>                      |
 |-------------------------|--------------------|----------------------------|
-| <span data-ttu-id="ecf22-125">DataType</span><span class="sxs-lookup"><span data-stu-id="ecf22-125">DataType</span></span><br/>     | <span data-ttu-id="ecf22-126">String</span><span class="sxs-lookup"><span data-stu-id="ecf22-126">String</span></span><br/>  | <span data-ttu-id="ecf22-127">xs:integer</span><span class="sxs-lookup"><span data-stu-id="ecf22-127">xs:integer</span></span><br/>      |
-| <span data-ttu-id="ecf22-128">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="ecf22-128">DefaultValue</span></span><br/> | <span data-ttu-id="ecf22-129">整數</span><span class="sxs-lookup"><span data-stu-id="ecf22-129">Integer</span></span><br/> | <span data-ttu-id="ecf22-130">未定義</span><span class="sxs-lookup"><span data-stu-id="ecf22-130">undefined</span></span><br/>       |
-| <span data-ttu-id="ecf22-131">MaxValue</span><span class="sxs-lookup"><span data-stu-id="ecf22-131">MaxValue</span></span><br/>     | <span data-ttu-id="ecf22-132">整數</span><span class="sxs-lookup"><span data-stu-id="ecf22-132">Integer</span></span><br/> | <span data-ttu-id="ecf22-133">未定義</span><span class="sxs-lookup"><span data-stu-id="ecf22-133">undefined</span></span><br/>       |
-| <span data-ttu-id="ecf22-134">MinValue</span><span class="sxs-lookup"><span data-stu-id="ecf22-134">MinValue</span></span><br/>     | <span data-ttu-id="ecf22-135">整數</span><span class="sxs-lookup"><span data-stu-id="ecf22-135">Integer</span></span><br/> | <span data-ttu-id="ecf22-136">1</span><span class="sxs-lookup"><span data-stu-id="ecf22-136">1</span></span><br/>               |
-| <span data-ttu-id="ecf22-137">強制性</span><span class="sxs-lookup"><span data-stu-id="ecf22-137">Mandatory</span></span><br/>    | <span data-ttu-id="ecf22-138">String</span><span class="sxs-lookup"><span data-stu-id="ecf22-138">String</span></span><br/>  | <span data-ttu-id="ecf22-139">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="ecf22-139">psk:Conditional</span></span><br/> |
-| <span data-ttu-id="ecf22-140">多個</span><span class="sxs-lookup"><span data-stu-id="ecf22-140">Multiple</span></span><br/>     | <span data-ttu-id="ecf22-141">整數</span><span class="sxs-lookup"><span data-stu-id="ecf22-141">Integer</span></span><br/> | <span data-ttu-id="ecf22-142">1</span><span class="sxs-lookup"><span data-stu-id="ecf22-142">1</span></span><br/>               |
-| <span data-ttu-id="ecf22-143">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="ecf22-143">UnitType</span></span><br/>     | <span data-ttu-id="ecf22-144">String</span><span class="sxs-lookup"><span data-stu-id="ecf22-144">String</span></span><br/>  | <span data-ttu-id="ecf22-145">percent</span><span class="sxs-lookup"><span data-stu-id="ecf22-145">percent</span></span><br/>         |
+| <span data-ttu-id="7817a-126">DataType</span><span class="sxs-lookup"><span data-stu-id="7817a-126">DataType</span></span><br/>     | <span data-ttu-id="7817a-127">String</span><span class="sxs-lookup"><span data-stu-id="7817a-127">String</span></span><br/>  | <span data-ttu-id="7817a-128">xs:integer</span><span class="sxs-lookup"><span data-stu-id="7817a-128">xs:integer</span></span><br/>      |
+| <span data-ttu-id="7817a-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="7817a-129">DefaultValue</span></span><br/> | <span data-ttu-id="7817a-130">整數</span><span class="sxs-lookup"><span data-stu-id="7817a-130">Integer</span></span><br/> | <span data-ttu-id="7817a-131">未定義</span><span class="sxs-lookup"><span data-stu-id="7817a-131">undefined</span></span><br/>       |
+| <span data-ttu-id="7817a-132">MaxValue</span><span class="sxs-lookup"><span data-stu-id="7817a-132">MaxValue</span></span><br/>     | <span data-ttu-id="7817a-133">整數</span><span class="sxs-lookup"><span data-stu-id="7817a-133">Integer</span></span><br/> | <span data-ttu-id="7817a-134">未定義</span><span class="sxs-lookup"><span data-stu-id="7817a-134">undefined</span></span><br/>       |
+| <span data-ttu-id="7817a-135">MinValue</span><span class="sxs-lookup"><span data-stu-id="7817a-135">MinValue</span></span><br/>     | <span data-ttu-id="7817a-136">整數</span><span class="sxs-lookup"><span data-stu-id="7817a-136">Integer</span></span><br/> | <span data-ttu-id="7817a-137">1</span><span class="sxs-lookup"><span data-stu-id="7817a-137">1</span></span><br/>               |
+| <span data-ttu-id="7817a-138">強制性</span><span class="sxs-lookup"><span data-stu-id="7817a-138">Mandatory</span></span><br/>    | <span data-ttu-id="7817a-139">String</span><span class="sxs-lookup"><span data-stu-id="7817a-139">String</span></span><br/>  | <span data-ttu-id="7817a-140">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="7817a-140">psk:Conditional</span></span><br/> |
+| <span data-ttu-id="7817a-141">多個</span><span class="sxs-lookup"><span data-stu-id="7817a-141">Multiple</span></span><br/>     | <span data-ttu-id="7817a-142">整數</span><span class="sxs-lookup"><span data-stu-id="7817a-142">Integer</span></span><br/> | <span data-ttu-id="7817a-143">1</span><span class="sxs-lookup"><span data-stu-id="7817a-143">1</span></span><br/>               |
+| <span data-ttu-id="7817a-144">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="7817a-144">UnitType</span></span><br/>     | <span data-ttu-id="7817a-145">String</span><span class="sxs-lookup"><span data-stu-id="7817a-145">String</span></span><br/>  | <span data-ttu-id="7817a-146">percent</span><span class="sxs-lookup"><span data-stu-id="7817a-146">percent</span></span><br/>         |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="ecf22-146">相關主題</span><span class="sxs-lookup"><span data-stu-id="ecf22-146">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="7817a-147">相關主題</span><span class="sxs-lookup"><span data-stu-id="7817a-147">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="ecf22-147">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="ecf22-147">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="7817a-148">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="7817a-148">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  
