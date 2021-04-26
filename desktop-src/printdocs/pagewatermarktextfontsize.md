@@ -4,12 +4,12 @@ ms.assetid: 4c379898-d21f-4c6c-93c8-e5f386e032ba
 title: PageWatermarkTextFontSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678630b7b7f6650a1317efef95c30effc71c6082
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 72cc8c7f3c9a692ffbe180c253d448d7c4e320d7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104035232"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999125"
 ---
 # <a name="pagewatermarktextfontsize"></a>PageWatermarkTextFontSize
 
@@ -24,7 +24,7 @@ ms.locfileid: "104035232"
 
 
 
-| Name                       |                                            |
+| Name | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |

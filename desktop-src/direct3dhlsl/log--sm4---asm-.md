@@ -4,12 +4,12 @@ description: 以元件為基礎的記錄基底2。
 ms.assetid: 6D28864A-C2BA-44AF-9E78-7C2B34F5E462
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf99949e278ca302543437da346188b690789604
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 88e4b89b4dcc085cf4fd4fda762d96fb71271af2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022828"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998315"
 ---
 # <a name="log-sm4---asm"></a>記錄 (sm4-asm) 
 
@@ -46,9 +46,8 @@ ms.locfileid: "104022828"
 
 
 
-|          |          |        |             |        |        |             |        |          |         |
-|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **src**  | **-inf** | **-F** | **-denorm** | **-0** | **+0** | **+ denorm** | **+ F** | **+ inf** | **NaN** |
+|----------|----------|--------|-------------|--------|--------|-------------|--------|----------|---------|
 | **目標** | NaN      | NaN    | -inf        | -inf   | -inf   | -inf        | F      | +inf     | NaN     |
 
 
@@ -78,9 +77,9 @@ ms.locfileid: "104022828"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

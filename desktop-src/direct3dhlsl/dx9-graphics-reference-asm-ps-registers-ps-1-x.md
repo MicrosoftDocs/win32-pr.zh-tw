@@ -11,12 +11,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4525b6d3be2e9287f53edc1da0cd2fb188184a69
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 291f78b8bf74a20dfecf4a74ed65173a895bcc1b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463297"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998635"
 ---
 # <a name="ps_1_1__ps_1_2__ps_1_3__ps_1_4-registers"></a>ps \_ 1 \_ 1 \_ \_ ps \_ 1 \_ 2 \_ \_ ps \_ 1 \_ 3 \_ \_ ps \_ 1 \_ 4 註冊
 
@@ -43,7 +43,7 @@ ms.locfileid: "104463297"
 
 
 
- 
+ 
 
 -   常數暫存器包含常數資料。 您可以使用 [**SetPixelShaderConstantF**](/windows/desktop/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setpixelshaderconstantf) 將資料載入常數暫存器，也可以使用 [def](def---ps.md)來定義資料。 材質位址指令無法使用常數暫存器。 唯一的例外是 [texm3x3spec ps](texm3x3spec---ps.md) 指令，它會使用常數暫存器來提供眼睛光線向量。
 -   臨時暫存器用來儲存中繼結果。 r0 還可作為圖元著色器輸出。 著色器結尾的 r0 值是著色器的圖元色彩。
@@ -84,7 +84,7 @@ ms.locfileid: "104463297"
 
 
 
- 
+ 
 
 例如，幾乎所有版本的色彩註冊都會有兩個讀取埠的限制。 這表示單一指令最多可以使用兩個不同的色彩暫存器 (v0 和 v1 for 實例) 作為來源暫存器。 此範例顯示相同指令中使用的兩個色彩暫存器：
 
@@ -111,7 +111,7 @@ mad r0, v1, c2, v0
 
 
 
- 
+ 
 
 具有 RW 功能的暫存器可以用來儲存中繼結果。 這包括部分著色器版本的臨時暫存器和材質暫存器。
 
@@ -119,7 +119,7 @@ mad r0, v1, c2, v0
 >
 > -   針對圖元著色器第1版，材質暫存器適用 \_ 于材質定址指示，而材質暫存器不能讀取或寫入到算術指令。 此外，因為材質暫存器已成為紋理座標暫存器，所以具有 RO 存取權並不是先前功能的回歸。
 
- 
+ 
 
 ## <a name="range"></a>範圍
 
@@ -136,7 +136,7 @@ mad r0, v1, c2, v0
 
 
 
- 
+ 
 
 早期圖元著色器硬體使用固定點數位來表示暫存器中的資料。 這會針對數位的小數部分，將精確度限制為大約八個位。 設計著色器時請記住這一點。
 
@@ -151,6 +151,6 @@ mad r0, v1, c2, v0
 [寄存 器](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

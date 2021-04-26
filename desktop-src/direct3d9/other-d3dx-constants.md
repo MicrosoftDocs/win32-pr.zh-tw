@@ -4,12 +4,12 @@ ms.assetid: 4f868a80-ad86-4598-9de3-a026e03aab93
 title: 其他 D3DX 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ebf7acecb4dd1360fec2b547a9327627d4eaf3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1aa75177a96cdf4cecba6063e12dd54a4f47a851
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108836"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107997305"
 ---
 # <a name="other-d3dx-constants"></a>其他 D3DX 常數
 
@@ -19,9 +19,8 @@ ms.locfileid: "104108836"
 
 
 
-|                         |                                         |
-|-------------------------|-----------------------------------------|
 | \#定義                | Description                             |
+|-------------------------|-----------------------------------------|
 | D3DX \_ 16F \_ 深入探討          | 十進位位數精確度   |
 | D3DX \_ 16F \_ EPSILON      | 最小，因此 1.0 + epsilon！ = 1。0 |
 | D3DX \_ 16F \_ MANT \_ 發掘    | 尾數中的位元數              |
@@ -47,9 +46,8 @@ ms.locfileid: "104108836"
 
 
 
-|                  |                                            |
-|------------------|--------------------------------------------|
 | \#定義         | Description                                |
+|------------------|--------------------------------------------|
 | D3DXSH \_ MINORDER | 模擬的最低允許順序。  |
 | D3DXSH \_ MAXORDER | 模擬的最高允許順序。 |
 
@@ -63,9 +61,8 @@ ms.locfileid: "104108836"
 
 
 
-|                        |                                                                    |
-|------------------------|--------------------------------------------------------------------|
 | \#定義               | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
 | 從檔案 D3DFMT \_ \_     | 從檔案完全採用格式。                               |
 | D3DX \_ 預設值          | 預設值。                                                   |
 | D3DX \_ 預設 \_ NONPOW2 | 請勿將寬度或高度等數位四捨五入為二的乘冪。 |

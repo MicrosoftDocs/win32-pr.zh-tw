@@ -4,12 +4,12 @@ ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c182e5d0bfcfb395eb553570cca745b618fc56b5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: bd2d77d185ab7edc611a82f94a2ce92428d9f167
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106991404"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998135"
 ---
 # <a name="jobid"></a>JobID
 
@@ -25,7 +25,7 @@ ms.locfileid: "106991404"
 
 
 
-| Name                       |                     |
+| Name | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 屬性<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>      |

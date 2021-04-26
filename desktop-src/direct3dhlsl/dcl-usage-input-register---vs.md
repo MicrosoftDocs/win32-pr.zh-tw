@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38113846fe62c37247bb2d3ca522a34dc9282441
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 44bd976d05c0734ca2e498b5de405564f689e20d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463353"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998385"
 ---
 # <a name="dcl_usage-input-sm1-sm2-sm3---vs-asm"></a>dcl \_ 使用方式輸入 (sm1、sm2、sm3-vs asm) 
 
@@ -30,7 +30,7 @@ ms.locfileid: "104463353"
 
 
 
- 
+ 
 
 其中：
 
@@ -48,7 +48,7 @@ ms.locfileid: "104463353"
 
 
 
- 
+ 
 
 所有 \_ 的 dcl 使用方式指令都必須出現在第一個可執行指令之前。
 
@@ -59,6 +59,6 @@ ms.locfileid: "104463353"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2d65ac1007b8413f9e5e6cc12802e0ac27dac3
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 959bbddbfa06e47fe2bc744af3ead0a72b13af7b
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195847"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998415"
 ---
 # <a name="documentduplex"></a>DocumentDuplex
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195847"
 
 
 
-| Name                       |                     |
+| Name | 值 |
 |----------------------------|---------------------|
 | 項目類型 <br/>   | 功能<br/>  |
 | 範圍前置詞 <br/> | 文件<br/> |

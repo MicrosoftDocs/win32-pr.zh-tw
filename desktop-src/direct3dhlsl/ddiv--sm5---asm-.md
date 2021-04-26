@@ -4,12 +4,12 @@ description: 計算元件的雙精確度除法。
 ms.assetid: 0A67FC35-7F2F-4258-83CE-1CA398E57952
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56f5c3aae9d416d24f41de8d8308c5a69be9d016
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 81fc039b222b28a5fb1217d23c78470aff1739f7
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990731"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999155"
 ---
 # <a name="ddiv-sm5---asm"></a>ddiv (sm5-asm) 
 
@@ -52,9 +52,8 @@ ms.locfileid: "104990731"
 
 
 
-|                     |          |        |          |        |        |          |        |          |         |
-|---------------------|----------|--------|----------|--------|--------|----------|--------|----------|---------|
 | **src0 src1->** | **-inf** | **-F** | **-1。0** | **-0** | **+0** | **+ 1。0** | **+ F** | **+ inf** | **NaN** |
+|---------------------|----------|--------|----------|--------|--------|----------|--------|----------|---------|
 | **-inf**            | NaN      | +inf   | +inf     | +inf   | -inf   | -inf     | -inf   | NaN      | NaN     |
 | **-F**              | +0       | +F     | -src0    | +inf   | -inf   | src0     | -F     | -0       | NaN     |
 | **-0**              | +0       | +0     | +0       | NaN    | NaN    | -0       | -0     | -0       | NaN     |
@@ -88,11 +87,11 @@ ms.locfileid: "104990731"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

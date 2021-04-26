@@ -4,12 +4,12 @@ ms.assetid: 25c3c70f-20e3-4e44-9c59-bb66b4bd14d9
 title: PageSourceColorProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6b3f2396fe3a886ed797392a3e1fd9f3c6d0170
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f515fca037e58c0794f20bc1dd1afee8a779fb49
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104035235"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996895"
 ---
 # <a name="pagesourcecolorprofileuri"></a>PageSourceColorProfileURI
 
@@ -24,7 +24,7 @@ ms.locfileid: "104035235"
 
 
 
-| Name                       |                                                     |
+| Name | 值 |
 |----------------------------|-----------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                             |
 | 範圍前置詞 <br/> | 頁面<br/>                                     |

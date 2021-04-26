@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8fa49b19109985b590747098826199b33a32dd2d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 808365fbcba4a1180c1838b94a6c098aa4c6f9ac
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104971480"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999055"
 ---
 # <a name="sv_tessfactor"></a>SV \_ TessFactor
 
@@ -37,7 +37,7 @@ ms.locfileid: "104971480"
 
 
 
- 
+ 
 
 鑲嵌因數必須宣告為數組;它們無法封裝成單一向量。
 
@@ -61,14 +61,13 @@ ms.locfileid: "104971480"
 
 
 
-|        |      |        |          |       |         |
-|--------|------|--------|----------|-------|---------|
 | 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+|--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -80,9 +79,9 @@ ms.locfileid: "104971480"
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

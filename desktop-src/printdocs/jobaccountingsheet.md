@@ -4,12 +4,12 @@ ms.assetid: fd16bd46-32e3-4896-ac5c-03c1bf6ad515
 title: JobAccountingSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c6d906833dc067155c9d98d50ed47e898a446e2
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 30ffb70ba0ac1a78eefc1024d8e93dc642439aed
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321739"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998425"
 ---
 # <a name="jobaccountingsheet"></a>JobAccountingSheet
 
@@ -25,7 +25,7 @@ ms.locfileid: "104321739"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |

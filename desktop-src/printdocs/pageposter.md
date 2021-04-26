@@ -4,12 +4,12 @@ ms.assetid: 66a3ac9a-674e-4f16-a2d8-8f5b753f876c
 title: PagePoster
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 281da67f3f6b90e4e49d0cdc57ba3065d719397b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: c46cad46abcad7541f1282d691c950211bb7670c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106981952"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996085"
 ---
 # <a name="pageposter"></a>PagePoster
 
@@ -25,7 +25,7 @@ ms.locfileid: "106981952"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

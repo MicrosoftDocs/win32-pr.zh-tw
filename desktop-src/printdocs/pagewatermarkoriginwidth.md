@@ -4,12 +4,12 @@ ms.assetid: e1bea06b-11b9-4652-915a-deb563ad59f8
 title: PageWatermarkOriginWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6780dd5cc3b90a4f15cb6ada66ab82c4269acd82
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: aa78cf29952258a7c6c3489d40291ba8cd4b756c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853532"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996065"
 ---
 # <a name="pagewatermarkoriginwidth"></a>PageWatermarkOriginWidth
 
@@ -24,7 +24,7 @@ ms.locfileid: "103853532"
 
 
 
-| Name                       |                                            |
+| Name | 值 |
 |----------------------------|--------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                    |
 | 範圍前置詞 <br/> | 頁面<br/>                            |

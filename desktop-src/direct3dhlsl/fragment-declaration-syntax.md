@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98e609820e67cc3ede6c3e280f63513850fed364
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9c9090caec35bfc5e46d7024bf6de44d865d4ad6
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023668"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998305"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a> (Direct3D 9 HLSL) 的片段宣告語法
 
@@ -43,7 +43,7 @@ fragmentKeyword FragmentName = compile_fragment shaderProfile FunctionName();
 
 
 
- 
+ 
 
 共用片段參數會藉由將 ' r \_ ' 前置詞新增至其語義來標記。
 
@@ -70,7 +70,7 @@ vertexfragment AmbientDiffuseFragment = compile_fragment vs_1_1 AmbientDiffuse()
 > [!Note]  
 > 片段連結器是 D3DX 9 中的 Microsoft Direct3D 9 技術。 片段連結器是一種工具 (Flink.exe) 、D3DX 9 API，以及 HLSL 增強功能。 從2009年8月的 DirectX SDK 版本中卸載了片段連結器。 片段連結器從未套用到 Microsoft Direct3D 10、Microsoft Direct3D 10.1 或 Microsoft Direct3D 11。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -79,6 +79,6 @@ vertexfragment AmbientDiffuseFragment = compile_fragment vs_1_1 AmbientDiffuse()
 [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

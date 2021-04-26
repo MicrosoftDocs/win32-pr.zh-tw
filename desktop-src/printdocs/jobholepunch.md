@@ -4,12 +4,12 @@ ms.assetid: 26e9e7d6-7c01-4687-aa64-7aea867b4e58
 title: JobHolePunch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bcd709c6115a9f4af3084c28ca047950d1b81fd
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 56316c94dc56a2646446a8cd63885cceaa1407fa
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195836"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999295"
 ---
 # <a name="jobholepunch"></a>JobHolePunch
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195836"
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | 值 |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                                                                                              |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>                                                                                                                                  |

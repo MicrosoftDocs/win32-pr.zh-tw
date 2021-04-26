@@ -4,12 +4,12 @@ description: 元件的細分。
 ms.assetid: B086F069-8F43-4746-A6A5-8F4462212648
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 332d494adc2cc9bebe2e714b47ff2c5a6b299966
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: d406c5e61b4615990b445abe169619227d22124c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022814"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999095"
 ---
 # <a name="div-sm4---asm"></a>div (sm4-asm) 
 
@@ -48,9 +48,8 @@ ms.locfileid: "104022814"
 
 
 
-|                     |          |            |             |        |        |             |            |          |         |
-|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **src0 src1->** | **-inf** | **-F**     | **-denorm** | **-0** | **+0** | **+ denorm** | **+ F**     | **+ inf** | **南** |
+|---------------------|----------|------------|-------------|--------|--------|-------------|------------|----------|---------|
 | **-inf**            | -inf     | -inf       | -inf        | -inf   | -inf   | -inf        | -inf       | NaN      | NaN     |
 | **-F**              | -inf     | -F         | src0        | src0   | src0   | src0        | +-F 或 +-0 | +inf     | NaN     |
 | **-denorm**         | -inf     | src1       | -0          | -0     | +0     | +0          | src1       | +inf     | NaN     |
@@ -88,9 +87,9 @@ ms.locfileid: "104022814"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1afcf2e6-5d6d-4b87-a005-15d42a610f69
 title: PageOutputColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71796bae9528fe6b32397f3467113630159c9954
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d4791ca4a53b8bdcc43a32c5c7aa5a1e38bbe1e5
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195855"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998045"
 ---
 # <a name="pageoutputcolor"></a>PageOutputColor
 
@@ -25,7 +25,7 @@ ms.locfileid: "104195855"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

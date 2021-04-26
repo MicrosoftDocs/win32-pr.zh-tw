@@ -4,12 +4,12 @@ ms.assetid: aba78d50-f884-416a-b022-bb03416aad11
 title: faultInfo 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f0fd65a7214f61a0b2fa6bb8f44d9a8cadbef07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3788af9aeb31d1ed84522bc6b177143ec0607b2
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193257"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995855"
 ---
 # <a name="faultinfo-element"></a>faultInfo 元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "104193257"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

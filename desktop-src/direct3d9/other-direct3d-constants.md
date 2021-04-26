@@ -4,12 +4,12 @@ ms.assetid: 3e314f73-2653-481a-ac7d-1ce7db0591e2
 title: 其他 Direct3D 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 990dc0a2ef06850fb9fc0839fd7a0be361832d65
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb289cb080519fab661d7a43f59bca3d8a9db3a0
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106986242"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998605"
 ---
 # <a name="other-direct3d-constants"></a>其他 Direct3D 常數
 
@@ -35,9 +35,8 @@ ms.locfileid: "106986242"
 
 
 
-|                                       |                                                   |                                                                    |
-|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | \#定義                              | 值                                             | 描述                                                        |
+|---------------------------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | D3D \_ 最大 \_ 同時 \_ RENDERTARGETS | 4                                                 | Rendertargets 數目上限。                               |
 | D3DDMAPSAMPLER                        | 256                                               | 置換地圖樣本的最大數目。                    |
 | D3DDP \_ MAXTEXCOORD                    | 8                                                 | 材質座標的最大數目。                         |

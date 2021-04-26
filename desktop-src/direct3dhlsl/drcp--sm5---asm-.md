@@ -4,12 +4,12 @@ description: 將元件雙向的雙精確度計算為反向。
 ms.assetid: 499A14D6-36DB-4860-94D1-887D931E60D4
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b678f4e8b3464817215de9132298fdde1f6feec
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 770159f5007b08f5482ba8b58634b44e7f3e6ef0
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313694"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998335"
 ---
 # <a name="drcp-sm5---asm"></a>drcp (sm5-asm) 
 
@@ -51,9 +51,8 @@ ms.locfileid: "104313694"
 
 
 
-|               |          |        |        |        |        |          |         |
-|---------------|----------|--------|--------|--------|--------|----------|---------|
 | **Src**->  | **-inf** | **-F** | **-0** | **+0** | **+ F** | **+ inf** | **NaN** |
+|---------------|----------|--------|--------|--------|--------|----------|---------|
 | **目標**-> | -0       | -F     | -inf   | +inf   | +F     | +0       | NaN     |
 
 
@@ -81,11 +80,11 @@ ms.locfileid: "104313694"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

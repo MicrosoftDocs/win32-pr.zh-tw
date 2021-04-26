@@ -4,12 +4,12 @@ ms.assetid: ead82070-5546-4036-bff2-8da2714d4264
 title: macroPrefix 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76c88dc48505e3344db1467463a9a99639edd881
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c9590092d78ea4700715a868bb7e50f15833011
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985634"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998745"
 ---
 # <a name="macroprefix-element"></a>macroPrefix 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "106985634"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

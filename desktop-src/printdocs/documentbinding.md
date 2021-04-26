@@ -4,12 +4,12 @@ ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 139cc40701624041a57e4fa69edc084f88c1972b
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: da4aeb31acb72932bbf272d52676b7795abe8311
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106997327"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107996295"
 ---
 # <a name="documentbinding"></a>DocumentBinding
 
@@ -25,7 +25,7 @@ ms.locfileid: "106997327"
 
 
 
-| Name                       |                                                                                                                                                 |
+| Name | 值 |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                                                                                              |
 | 範圍前置詞 <br/> | 文件<br/>                                                                                                                             |

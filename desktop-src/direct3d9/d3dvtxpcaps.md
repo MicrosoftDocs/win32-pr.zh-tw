@@ -4,12 +4,12 @@ ms.assetid: 2d3e548f-8559-4a36-b814-6d598bead1d0
 title: D3DVTXPCAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a2ffff3d1dcc1f68912847b9ce1677c2031189c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55ee7e5d423169e561df28b5d69017c77a71e183
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385998"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998655"
 ---
 # <a name="d3dvtxpcaps"></a>D3DVTXPCAPS
 
@@ -17,9 +17,8 @@ ms.locfileid: "104385998"
 
 
 
-|                                         |                                                                                                                                                                                                    |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | \#定義                                | Description                                                                                                                                                                                        |
+|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DVTXPCAPS \_ DIRECTIONALLIGHTS          | 裝置可以進行方向燈。                                                                                                                                                                  |
 | D3DVTXPCAPS \_ LOCALVIEWER                | 裝置可以進行本機檢視器。                                                                                                                                                                        |
 | D3DVTXPCAPS \_ MATERIALSOURCE7            | 設定此上限時，裝置會支援色彩材質狀態： D3DRS \_ AMBIENTMATERIALSOURCE、D3DRS \_ DIFFUSEMATERIALSOURCE、D3DRS \_ EMISSIVEMATERIALSOURCE 和 D3DRS \_ SPECULARMATERIALSOURCE。 |

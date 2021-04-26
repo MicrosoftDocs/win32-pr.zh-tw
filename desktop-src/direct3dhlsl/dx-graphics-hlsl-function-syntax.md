@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7358a59dba0096f5c8ffe58072a974ebff9a1050
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2781d173eb4a1c18a661495d9fb55a0cced81921
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382554"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998325"
 ---
 # <a name="function-declaration-syntax"></a>函式宣告語法
 
@@ -28,7 +28,7 @@ HLSL 函式會使用下列語法來宣告。
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>參數
 
@@ -138,6 +138,6 @@ float4 PSPointSprite(PSSceneIn input) : SV_Target
 [ (DirectX HLSL) 的函式 ](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

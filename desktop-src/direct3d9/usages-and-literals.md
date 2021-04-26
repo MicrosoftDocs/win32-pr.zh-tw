@@ -4,12 +4,12 @@ ms.assetid: 9ba10dba-626f-4cb8-8dc2-1419329b199e
 title: " (Direct3D 9) 的使用方式和常值"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5ca6f010d2c1e05055fd4427b8b5f7d4ab445ae
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 62dc1d7b40e66aaa6499dd2aa00c37d4564df2ab
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971945"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998535"
 ---
 # <a name="usages-and-literals-direct3d-9"></a> (Direct3D 9) 的使用方式和常值
 
@@ -17,9 +17,8 @@ ms.locfileid: "106971945"
 
 
 
-|        |                                                                                                                                                                                                                                                                                     |
-|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 值  | 描述                                                                                                                                                                                                                                                                         |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | const  | 參數在所有函式的範圍內都是常數。  (請注意，這類參數仍然可以使用 [**ID3DXEffect**](id3dxeffect.md) 或 [**ID3DXEffectCompiler**](id3dxeffectcompiler.md)寫入，因為這會發生在所有函數的範圍之外。 )  |
 | 共用 | 此參數將會在效果集區中共用。                                                                                                                                                                                                                                    |
 | static | 應用程式不會看到參數，也就是您無法從 [**ID3DXEffect**](id3dxeffect.md) 或 [**ID3DXEffectCompiler**](id3dxeffectcompiler.md)存取。                                                                                                  |

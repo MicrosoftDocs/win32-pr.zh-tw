@@ -4,12 +4,12 @@ ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5b128cd8a0bd06cc259d3da0daf834f3c2aebf
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 66b9f85b44ae9fdc6efb66ce5b72bb68c5187790
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321767"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998295"
 ---
 # <a name="jobdevicelanguage"></a>JobDeviceLanguage
 
@@ -25,7 +25,7 @@ ms.locfileid: "104321767"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |

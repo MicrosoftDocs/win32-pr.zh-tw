@@ -4,12 +4,12 @@ ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: PageMediaSizePSHeightOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e02129d5c8c20fceef01a9cd5cf40e5827374a7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1e2e1e0a75c5bb6ec95a611d304d575fcf91a13e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992238"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998055"
 ---
 # <a name="pagemediasizepsheightoffset"></a>PageMediaSizePSHeightOffset
 
@@ -24,7 +24,7 @@ ms.locfileid: "106992238"
 
 
 
-| Name                       |                                                             |
+| Name | 值 |
 |----------------------------|-------------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                     |
 | 範圍前置詞 <br/> | 頁面<br/>                                             |

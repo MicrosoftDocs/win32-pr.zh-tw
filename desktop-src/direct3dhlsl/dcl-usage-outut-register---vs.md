@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c653c5af43bd3392f97e30571ac56ded66cbfc04
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 314c9c9a9a9e62915e9224b3cf165bc54d09a516
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990986"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107999165"
 ---
 # <a name="dcl_usage-output-sm1-sm2-sm3---vs-asm"></a>dcl \_ 使用方式輸出 (sm1、sm2、sm3-vs asm) 
 
@@ -36,7 +36,7 @@ ms.locfileid: "104990986"
 
 
 
- 
+ 
 
 其中：
 
@@ -54,7 +54,7 @@ ms.locfileid: "104990986"
 
 
 
- 
+ 
 
 所有的 [dcl \_ 使用](dcl-usage-input-register---vs.md) 方式指令都必須出現在第一個可執行指令之前。
 
@@ -90,6 +90,6 @@ dcl_psize      o6      // Pointsize cannot have a mask
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

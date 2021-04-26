@@ -4,12 +4,12 @@ ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: JobBindAllDocumentsGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 219a86f016edf820532c20fa473876265776a4ee
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 04615b85939d483f6bd2e720afa65a88d44c1caf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195826"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107998375"
 ---
 # <a name="jobbindalldocumentsgutter"></a>JobBindAllDocumentsGutter
 
@@ -24,7 +24,7 @@ ms.locfileid: "104195826"
 
 
 
-| Name                       |                                         |
+| Name | 值 |
 |----------------------------|-----------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                 |
 | 範圍前置詞 <br/> | 工作 (Job) <br/>                         |
