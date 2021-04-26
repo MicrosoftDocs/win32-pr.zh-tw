@@ -4,12 +4,12 @@ ms.assetid: 29d7ae65-9dd3-4a29-8e5e-79708638a3bb
 title: PageMediaType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8312554d8616ed31ea99cd0cc011b2b549d915f
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d3d41ed2af931068e340e9a9d0828db109594de8
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106981953"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994515"
 ---
 # <a name="pagemediatype"></a>PageMediaType
 
@@ -25,7 +25,7 @@ ms.locfileid: "106981953"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

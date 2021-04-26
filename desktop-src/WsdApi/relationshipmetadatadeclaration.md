@@ -4,12 +4,12 @@ ms.assetid: 595adb84-e1a7-4636-b61f-eb0a4b3057b9
 title: relationshipMetadataDeclaration 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05a12d893cc79b609e43d5d40bf2df3d6ca888c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d6963cf69ef5d6622d5eacfc98bbb24c734cc39
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195030"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995095"
 ---
 # <a name="relationshipmetadatadeclaration-element"></a>relationshipMetadataDeclaration 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "104195030"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

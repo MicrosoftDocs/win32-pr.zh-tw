@@ -4,12 +4,12 @@ ms.assetid: 87ff447a-ced0-4079-b46d-239f0db37250
 title: hostedService 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfcf2f4c67cadf90279221fd5bdfd518e285e844
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e96c9f6e010989f4844d93299bb34f1ab8893236
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848727"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994785"
 ---
 # <a name="hostedservice-element"></a>hostedService 元素
 
@@ -64,7 +64,7 @@ codeName(
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 否            |

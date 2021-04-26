@@ -4,12 +4,12 @@ ms.assetid: 68459b22-0f35-444a-969e-29695e735774
 title: messageStructureDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8840e4493cb97d33cb0dac8ce1ace97cc1789e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a116658fc7ce7f985b7b717c7a7b4ce38be4637
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986858"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993665"
 ---
 # <a name="messagestructuredefinitions-element"></a>messageStructureDefinitions 元素
 
@@ -65,7 +65,7 @@ ms.locfileid: "106986858"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

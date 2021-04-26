@@ -4,12 +4,12 @@ ms.assetid: 79c46e8f-f7e6-42ff-b3e8-d69c822acf74
 title: notificationInterface 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 438548173ef2d104e85b644f12e699ab3599b0a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da4ec9a2215fe0072b5c78c7d47f45206827da8d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996751"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994655"
 ---
 # <a name="notificationinterface-element"></a>notificationInterface 元素
 
@@ -45,7 +45,7 @@ ms.locfileid: "106996751"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

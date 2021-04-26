@@ -4,12 +4,12 @@ ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b3576611dcdc746342b8ed1b2c3d7ebf8fb779
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 9abf6184c3164e0e5a1492911e15794ea7e1d948
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "103945763"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993905"
 ---
 # <a name="jobstaplealldocuments"></a>JobStapleAllDocuments
 
@@ -25,7 +25,7 @@ ms.locfileid: "103945763"
 
 
 
-| Name                       |                                                                                |
+| Name | 值 |
 |----------------------------|--------------------------------------------------------------------------------|
 | 項目類型 <br/>   | 功能<br/>                                                             |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>                                                                 |

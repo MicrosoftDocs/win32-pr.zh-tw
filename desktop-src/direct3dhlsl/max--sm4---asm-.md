@@ -4,12 +4,12 @@ description: 元件的最大浮點數。
 ms.assetid: 005468AA-577E-441F-ACD5-37A691E62CDD
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f24618897eacf250f2b924f6dde3745a32a7172
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f64d88c581828f2563f6d5d8a6c57de6400f9bbf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373722"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994725"
 ---
 # <a name="max-sm4---asm"></a>max (sm4-asm) 
 
@@ -48,9 +48,8 @@ NaN 具有特殊處理。 如果一個來源運算元為 NaN，則會傳回另�
 
 
 
-|                    |          |              |          |         |
-|--------------------|----------|--------------|----------|---------|
 | **src0 src1->** | **-inf** | **F**        | **+ inf** | **NaN** |
+|--------------------|----------|--------------|----------|---------|
 | **-inf**           | -inf     | src1         | +inf     | -inf    |
 | **F**              | src0     | src0 或 src1 | +inf     | src0    |
 | **+ inf**           | +inf     | +inf         | +inf     | +inf    |
@@ -83,9 +82,9 @@ NaN 具有特殊處理。 如果一個來源運算元為 NaN，則會傳回另�
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

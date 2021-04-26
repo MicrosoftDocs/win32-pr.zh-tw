@@ -4,12 +4,12 @@ ms.assetid: 4e476be2-fa73-4b3e-b0cc-799c8d16b5de
 title: codeName 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44c10b937f503c2d3994543db8852b5d7ee923b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9be7292135e79477d0a66d2a0667ebd51bd7567c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985300"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994945"
 ---
 # <a name="codename-element"></a>codeName 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "106985300"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

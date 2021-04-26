@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c3517266ace77b9235604770d9b42d10cd80e2d5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
-ms.translationtype: HT
+ms.openlocfilehash: c277723628d5337e41e5fbf83baa9fda8af16adf
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375681"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993865"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>著色器模型 3 (HLSL 參考) 
 
@@ -210,9 +210,8 @@ Ps \_ 3 \_ 0 和 ps \_ 2 x 兩者都 \_ 提供兩種精確度層級的支援：
 
 
 
-|          |          |                   |                      |
-|----------|----------|-------------------|----------------------|
 | ps \_ 3 \_ 0 | ps \_ 2 \_ 0 | 準確率         | 值                |
+|----------|----------|-------------------|----------------------|
 | x        |          | 完整              | fp32 或更高版本       |
 | x        |          | 部分有效位數 | fp16 = s10e5           |
 | x        | x        | 完整              | fp24 = s16e7 或更高版本 |
@@ -220,7 +219,7 @@ Ps \_ 3 \_ 0 和 ps \_ 2 x 兩者都 \_ 提供兩種精確度層級的支援：
 
 
 
- 
+ 
 
 ps \_ 3 \_ 0 支援的精確度比 ps \_ 2 \_ 0 更高。 依預設，所有作業都會以完整的精確度層級進行。
 
@@ -263,7 +262,7 @@ vs \_ 2 \_ sw 是 vs 2 x 上限的放寬 \_ \_ ; 同樣地，ps \_ 2 \_ sw 是 p
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -272,6 +271,6 @@ vs \_ 2 \_ sw 是 vs 2 x 上限的放寬 \_ \_ ; 同樣地，ps \_ 2 \_ sw 是 p
 [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 4720f812-a71a-458f-85fa-7885cca0dbbb
 title: PageOutputQuality
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09ae5bdcf7e1742ae15b0b6d832b3d15d47718b7
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2c63238c290d6b8f0bb208e94e52dc66c8d2e6be
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321783"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994475"
 ---
 # <a name="pageoutputquality"></a>PageOutputQuality
 
@@ -25,7 +25,7 @@ ms.locfileid: "104321783"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

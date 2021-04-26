@@ -4,12 +4,12 @@ ms.assetid: 67ebbca0-bdb2-4a6e-98d8-3d8d1029884f
 title: modelNameLS 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e71be6ee3a2e1104858c0f51a4ff68a5cf8cb89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e47d2f83d1b636efc30e98dff8c46600bcee555d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978891"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995495"
 ---
 # <a name="modelnamels-element"></a>modelNameLS 元素
 
@@ -52,7 +52,7 @@ ms.locfileid: "106978891"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

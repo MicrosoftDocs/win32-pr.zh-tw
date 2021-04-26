@@ -4,12 +4,12 @@ ms.assetid: 2ebd3092-39aa-469c-a8c9-23f373ba0e66
 title: thisModelMetadata 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c1a35d6449d4e8bba0ecf79e7dc87b00dee894b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 872bcdfcf3f93bfc8fe307684c31cdebb2000b05
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851484"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995335"
 ---
 # <a name="thismodelmetadata-element"></a>thisModelMetadata 元素
 
@@ -83,7 +83,7 @@ ms.locfileid: "103851484"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 否            |

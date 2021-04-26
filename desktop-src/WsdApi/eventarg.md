@@ -4,12 +4,12 @@ ms.assetid: 60be4680-c434-4fdb-8449-c040969d2f59
 title: eventArg 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 175d0a8b00386b7e1456750488d5975711a405aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 820c4223e8e4a880343faf2e9df686d9746b1b29
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987590"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994895"
 ---
 # <a name="eventarg-element"></a>eventArg 元素
 
@@ -48,7 +48,7 @@ ms.locfileid: "106987590"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

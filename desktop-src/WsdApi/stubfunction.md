@@ -4,12 +4,12 @@ ms.assetid: 2547f71d-8a30-4df8-ba38-6707c415708e
 title: stubFunction 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7282e7280c8d701710094b70b84a65756f7230ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a77f37aed20dae4f04eea087e3d1eac2d23369af
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194347"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994145"
 ---
 # <a name="stubfunction-element"></a>stubFunction 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "104194347"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

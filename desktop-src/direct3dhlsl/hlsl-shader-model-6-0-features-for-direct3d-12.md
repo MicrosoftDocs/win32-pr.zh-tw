@@ -4,12 +4,12 @@ description: 描述新增至 HLSL 著色器模型6.0 的 wave 作業內建。
 ms.assetid: BF968CD3-AC67-48DB-B93F-EF54B680106F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a2d082fc131c7cd08db9eb1861c4af39d600f40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c7e55661e3f91125597c8c7842a1be16129cefe0
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971725"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995465"
 ---
 # <a name="hlsl-shader-model-60"></a>HLSL 著色器模型6。0
 
@@ -50,9 +50,8 @@ ms.locfileid: "104971725"
 
 ## <a name="terminology"></a>詞彙
 
-| | |
-|-|-|
 | **字詞** | **[定義]** |
+|-|-|
 | 車道 | 單一線程執行。 6.0 版之前的著色器模型只會在語言層級公開上述其中一種模型，讓您完全擴充至平行 SIMD 處理以執行。 |
 | Wave | 在處理器中) 同時執行的一組通道 (執行緒。 不需要明確的阻礙，以確保它們會以平行方式執行。 類似的概念包括「變形」和「wavefront」。 |
 | 非使用中航道 | 未執行的通道，例如因為控制流程，或沒有足夠的工作來填滿 wave 的大小下限。 |
@@ -68,9 +67,8 @@ ms.locfileid: "104971725"
 
 查詢單一 wave 的內建函式。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**WaveGetLaneCount**](wavegetlanecount.md) | 傳回目前 wave 中的航道數目。 | \* | \* |
 | [**WaveGetLaneIndex**](wavegetlaneindex.md) | 傳回目前 wave 內目前通道的索引。 | \* | \* |
 | [**WaveIsFirstLane**](waveisfirstlane.md) | 只針對目前 wave 中具有最小索引的現用通道傳回 true | \* | \* |
@@ -79,9 +77,8 @@ ms.locfileid: "104971725"
 
 這一組內建函式會比較目前在目前使用中的執行緒之間的值。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**WaveActiveAnyTrue**](waveanytrue.md) | 如果目前 wave 的任何使用中通道中的運算式為 true，則傳回 true。 | \* | \* |
 | [**WaveActiveAllTrue**](wavealltrue.md) | 如果目前 wave 的所有作用中通道中的運算式為 true，則傳回 true。 | \* | \* |
 | [**WaveActiveBallot**](waveballot.md) | 針對指定 wave 中所有使用中的通道，傳回布林運算式評估的64位不帶正負號的整數位遮罩。 | \* | \* |
@@ -90,9 +87,8 @@ ms.locfileid: "104971725"
 
 這些內建函式可讓目前 wave 中的所有使用中通道，從指定的通道接收值，有效地將其廣播。 來自無效通道的傳回值未定義。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**WaveReadLaneAt**](wavereadlaneat.md) | 傳回指定 wave 內給定通道索引的運算式值。 | \* | \* |
 | [**WaveReadLaneFirst**](wavereadfirstlane.md) | 傳回目前 wave （具有最小索引）之使用中通道的運算式值。 | \* | \* |
 
@@ -100,9 +96,8 @@ ms.locfileid: "104971725"
 
 這些內建函式會在 wave 中的所有使用中通道上計算指定的作業，並將最終結果廣播到所有使用中的通道。 因此，最終的輸出保證會在 wave 之間保持一致。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**WaveActiveAllEqual**](waveactiveallequal.md) | 如果目前 wave (中的每個使用中通道的運算式相同，則會傳回 true，因此) 之間保持一致。 | \* | \* |
 | [**WaveActiveBitAnd**](waveallbitand.md) | 傳回目前 wave 中所有使用中通道的所有運算式值的位 AND，然後將結果複製到 wave 中的所有通道。 | \* | \* |
 | [**WaveActiveBitOr**](waveallbitor.md) | 傳回目前 wave 中所有使用中通道之所有運算式值的位 OR，並且將結果複寫至 wave 中的所有通道。 | \* | \* |
@@ -117,9 +112,8 @@ ms.locfileid: "104971725"
 
 這些內建函式會將作業套用到每個通道，並將計算的每個部分結果保留在對應的通道中。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**WavePrefixCountBits**](waveprefixcountbytes.md) | 傳回所有在所有作用中的通道上，所有指定的布林值變數設定為 true 的總和，其索引小於目前的航道。 | \* | \* |
 | [**WavePrefixSum**](waveprefixsum.md) | 傳回使用中通道的所有值加上小於此值的總和。 | \* | \* |
 | [**WavePrefixProduct**](waveprefixproduct.md) | 傳回信道中這個指定 wave 之前的所有值的乘積。 | \* | \* |
@@ -141,9 +135,8 @@ Y
 
 這些常式可以在計算著色器或圖元著色器中運作。 在計算著色器中，它們在四邊形中的運作方式是在 SIMD wave 內定義為平均分配4群組。 在圖元著色器中，它們應該用於 WaveQuadLanes 所捕獲的波浪，否則結果會是未定義的。
 
-| | | | |
-|-|-|-|-|
 | **內建** | **說明** | **像素著色器** | **計算著色器** |
+|-|-|-|-|
 | [**QuadReadLaneAt**](quadreadlaneat.md) | 從 quadLaneID 0 所識別的目前四顆線的通道中，傳回指定的來源值， \[ \] 其必須在四個之間保持一致。 | \* | |
 | [**QuadReadAcrossDiagonal**](quadreadacrossdiagonal.md) | 傳回指定的區域值，此值是從這個四個對角線中的相反通道讀取的。 | \* | |
 | [**QuadReadAcrossX**](quadswapx.md) | 傳回指定的來源值，此值是從這個四的 X 方向中的另一個通道讀取的。 | \* | |

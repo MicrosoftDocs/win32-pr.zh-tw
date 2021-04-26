@@ -4,12 +4,12 @@ ms.assetid: f6fa0421-a125-4ead-a540-d2f7327a26b6
 title: PageScalingOffsetHeight
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a475f7fa68cd961d9d7a7f42e40fc9ea80a72a4e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1a91178f1506196ab505a90de8bf3a3163fa8a3c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104386330"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993736"
 ---
 # <a name="pagescalingoffsetheight"></a>PageScalingOffsetHeight
 
@@ -24,7 +24,7 @@ ms.locfileid: "104386330"
 
 
 
-| Name                       |                                                         |
+| Name | 值 |
 |----------------------------|---------------------------------------------------------|
 | 項目類型 <br/>   | ParameterDef<br/>                                 |
 | 範圍前置詞 <br/> | 頁面<br/>                                         |

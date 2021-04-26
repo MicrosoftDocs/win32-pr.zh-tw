@@ -4,12 +4,12 @@ ms.assetid: caba3776-fdc2-4a08-8e4c-d8e3b583d7ba
 title: typeTableDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ccc8d150c0e983583d5b8055e57177aacdeb58c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed400e9c0d293599ad686354b6493fd7d04b866f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691507"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995295"
 ---
 # <a name="typetabledefinitions-element"></a>typeTableDefinitions 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "103691507"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

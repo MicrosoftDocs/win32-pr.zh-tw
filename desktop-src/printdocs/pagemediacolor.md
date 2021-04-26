@@ -4,12 +4,12 @@ ms.assetid: 3e0e2cb2-cb51-446d-a6ff-f76aa8c305f6
 title: PageMediaColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc6d39d3b189edbd2bd51803f1bb517fedd3edf
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 60c9a314bf435664d121fd35e588b62903da323e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106991952"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994505"
 ---
 # <a name="pagemediacolor"></a>PageMediaColor
 
@@ -25,7 +25,7 @@ ms.locfileid: "106991952"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

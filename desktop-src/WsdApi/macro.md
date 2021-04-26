@@ -4,12 +4,12 @@ ms.assetid: bf5cc1e2-b08e-45b6-8e07-5c69865b695b
 title: 宏元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8759d4afb61883b8bf41472f276882643cfa552
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f794566b0fd789c463d404289644976c8301a2e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193054"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994325"
 ---
 # <a name="macro-element"></a>宏元素
 
@@ -60,7 +60,7 @@ WsdCodeGen 會定義名為 **DoNotModify** 的宏。 包含此宏時，產生的
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

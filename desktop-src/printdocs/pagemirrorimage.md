@@ -4,12 +4,12 @@ ms.assetid: a05357c0-6a82-42ff-b4f8-d3e0ee089055
 title: PageMirrorImage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a59b34a836fe356714f7323b32cb9efbf16317bb
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 61d9fe0a82ad14c149849c3bf6bf0c5de6144571
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106998966"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994465"
 ---
 # <a name="pagemirrorimage"></a>PageMirrorImage
 
@@ -25,7 +25,7 @@ ms.locfileid: "106998966"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

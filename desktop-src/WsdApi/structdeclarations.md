@@ -4,12 +4,12 @@ ms.assetid: bfef9302-eea6-4957-b67d-d497f5db99a5
 title: structDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f466713930516e37166ff86f7462bae74dedd6c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e80f5a30ffb5de0d30a4b66a1b3b9204fce43c4e
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988439"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994665"
 ---
 # <a name="structdeclarations-element"></a>structDeclarations 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "106988439"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

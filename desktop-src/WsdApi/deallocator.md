@@ -4,12 +4,12 @@ ms.assetid: 58228dfd-1d4b-41e5-b423-a54525021c22
 title: 釋放器元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3604f0efb366c3f88e2e0828c02344ee75606079
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692ed2e57b3e649c0ee7af171f205c949496f9b4
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192178"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994935"
 ---
 # <a name="deallocator-element"></a>釋放器元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "104192178"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

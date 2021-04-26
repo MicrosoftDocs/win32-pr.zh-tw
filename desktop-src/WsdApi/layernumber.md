@@ -4,12 +4,12 @@ ms.assetid: ad67a6fb-4bb6-4550-a9e9-f5219f3868c6
 title: layerNumber 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c22a20db7817e449b05c943c9016b6002f35b54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33c33ee4468ab81f030bfd8b49dfe104bbe76248
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193055"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995485"
 ---
 # <a name="layernumber-element"></a>layerNumber 元素
 
@@ -51,7 +51,7 @@ ms.locfileid: "104193055"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

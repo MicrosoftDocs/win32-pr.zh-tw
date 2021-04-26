@@ -4,12 +4,12 @@ ms.assetid: 3d40172b-6ba1-4e42-9a1a-519c8e88c2b1
 title: wsdCodeGen 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 656f2273926dc3420ec84d6b9f24759f8e3587e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9861617854e0e75575f2993717f5b2a86515fb0f
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999872"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994675"
 ---
 # <a name="wsdcodegen-element"></a>wsdCodeGen 元素
 
@@ -84,7 +84,7 @@ ms.locfileid: "106999872"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

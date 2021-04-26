@@ -4,12 +4,12 @@ ms.assetid: 21b76829-01c4-4228-a714-6319e5eb1c61
 title: namespaceDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df827ade45d5fba3247397e2a4dc7ec905ff7405
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e98d9c0cf1556e21d92fe7ea1ba222e861f00ac
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982451"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994255"
 ---
 # <a name="namespacedeclarations-element"></a>namespaceDeclarations 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "106982451"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

@@ -4,12 +4,12 @@ ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: PageResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e0fdd16cf3dc0beb6a418b23d8ee6a93e4a6a61
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 4e44a7ff73c03929d3dfc8bc9f7c31c878ad039c
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106985836"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993715"
 ---
 # <a name="pageresolution"></a>PageResolution
 
@@ -25,7 +25,7 @@ ms.locfileid: "106985836"
 
 
 
-| Name                       |                    |
+| Name | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |

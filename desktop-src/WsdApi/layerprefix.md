@@ -4,12 +4,12 @@ ms.assetid: 50cb443a-15ae-4f8f-b5f7-b8708810a6c3
 title: layerPrefix 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b712edee4b33c7158280b9d310624371fd58688
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98970013c72600affd7d4d9e7a71781f477cd87d
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115024"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994695"
 ---
 # <a name="layerprefix-element"></a>layerPrefix 元素
 
@@ -49,7 +49,7 @@ WSDAPI 使用 "WSD" 前置詞。
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

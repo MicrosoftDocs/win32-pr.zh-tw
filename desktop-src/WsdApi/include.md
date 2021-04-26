@@ -4,12 +4,12 @@ ms.assetid: 450ccfa6-b189-4557-bcb9-4aa29ac2356e
 title: 包含元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f22cfde339ca218d4cd10525bbca3e57b8d836f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c8237ec865cd3cfbb80f500358e8f363be8f230
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027167"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995775"
 ---
 # <a name="include-element"></a>包含元素
 
@@ -66,7 +66,7 @@ WsdCodeGen 會定義名為 **DoNotModify** 的宏。 包含此宏時，產生的
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

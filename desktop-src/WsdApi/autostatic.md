@@ -4,12 +4,12 @@ ms.assetid: 0c858567-e17a-46a0-b3ff-a0dc8089b0cd
 title: autoStatic 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32591c43c850af05014ff92fc4023e228b371fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9414470f56021d475fb7cf52e570ac2793228445
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979080"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994925"
 ---
 # <a name="autostatic-element"></a>autoStatic 元素
 
@@ -49,7 +49,7 @@ ms.locfileid: "106979080"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

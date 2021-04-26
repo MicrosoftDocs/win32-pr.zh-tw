@@ -4,12 +4,12 @@ ms.assetid: 9505ee5f-fdb9-41b8-9537-0c5d29f90168
 title: proxyFunctionImplementations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53a27e217cfa3d0a9efd204a1b18c7b2f0ca16f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e9f03834ca59ede41f2f3c3dff00d7dacdd54db
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851228"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995755"
 ---
 # <a name="proxyfunctionimplementations-element"></a>proxyFunctionImplementations 元素
 
@@ -69,7 +69,7 @@ ms.locfileid: "103851228"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

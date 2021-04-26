@@ -4,12 +4,12 @@ ms.assetid: 6319e8fc-787f-4bc8-8436-1b498b3882d2
 title: DocumentCopiesAllPages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8941f8a6f1f7ef8ec554fa0eba937ddd6f686ad
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 723242ddd127113b573f167e6902b27fcca9665a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321695"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107993985"
 ---
 # <a name="documentcopiesallpages"></a>DocumentCopiesAllPages
 
@@ -24,7 +24,7 @@ ms.locfileid: "104321695"
 
 
 
-| Name                       |                         |
+| Name | 值 |
 |----------------------------|-------------------------|
 | 項目類型 <br/>   | ParameterDef<br/> |
 | 範圍前置詞 <br/> | 文件<br/>     |

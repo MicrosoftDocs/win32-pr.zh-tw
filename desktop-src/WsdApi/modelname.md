@@ -4,12 +4,12 @@ ms.assetid: 398737bb-6694-42f8-9e9f-5c7f203e54e0
 title: modelName 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20cf4714896097d1744604a5b4ae5ec580b793dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f483709e56d7b3b42c0f6c6fe055575a710eb94
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997561"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107995115"
 ---
 # <a name="modelname-element"></a>modelName 元素
 
@@ -43,7 +43,7 @@ ms.locfileid: "106997561"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |

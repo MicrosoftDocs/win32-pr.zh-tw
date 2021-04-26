@@ -4,12 +4,12 @@ ms.assetid: 0de06ee1-1291-4f18-9514-cca443a3e300
 title: namespaceDefinitions 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: edc03a20441ebf0b05e9d3d0ba525aaaccf24a45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59ff40fb7d0d7209a85c46b50435cb3702e3a59a
+ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692336"
+ms.lasthandoff: 04/26/2021
+ms.locfileid: "107994295"
 ---
 # <a name="namespacedefinitions-element"></a>namespaceDefinitions 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "103692336"
 
 
 
-|                                     |               |
+| 標籤 | 值 |
 |-------------------------------------|---------------|
 | 最低支援系統<br/> | Windows Vista |
 | 可以是空的                        | 是           |
