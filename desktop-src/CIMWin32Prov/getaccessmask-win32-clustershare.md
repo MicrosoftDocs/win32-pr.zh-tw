@@ -1,5 +1,5 @@
 ---
-description: 傳回具有使用者或群組所持有之共用的存取權限的 uint32 點陣圖，而該共用會傳回該實例。
+description: Win32_ClusterShare 類別的 GetAccessMask 方法-傳回 uint32 點陣圖，其具有使用者或群組所持有之共用的存取權限，該共用會傳回該實例。
 ms.assetid: 1f656c63-f5ee-4b14-845a-0eb34a0e7a64
 ms.tgt_platform: multiple
 title: Win32_ClusterShare 類別的 GetAccessMask 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db27998c362e3df350dd12b6b91f3966cfc152ae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aae44918b51331363c6750e269019b5c4d6d6883
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110509"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089556"
 ---
 # <a name="getaccessmask-method-of-the-win32_clustershare-class"></a>Win32 ClusterShare 類別的 GetAccessMask 方法 \_
 

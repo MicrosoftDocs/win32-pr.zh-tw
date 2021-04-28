@@ -1,5 +1,5 @@
 ---
-description: Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
+description: CIM_LogicalFile 類別的 copy 方法-Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
 ms.assetid: 643946e4-5d32-4839-ae1f-80ec7cede429
 ms.tgt_platform: multiple
 title: CIM_LogicalFile 類別的 Copy 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4a69107bd173be0aa853c1541a1e1365148c2e59
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 10ba9c28bde9d909d947e5a73241ce1aa8f1e956
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025936"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089726"
 ---
 # <a name="copy-method-of-the-cim_logicalfile-class"></a>CIM LogicalFile 類別的 Copy 方法 \_
 

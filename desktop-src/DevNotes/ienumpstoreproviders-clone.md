@@ -1,5 +1,5 @@
 ---
-description: 建立另一個列舉值，其包含與目前列舉值相同的列舉型別狀態。
+description: IEnumPStoreProviders：： Clone 方法-建立另一個列舉值，其中包含與目前相同的列舉狀態。
 ms.assetid: c9a53005-4bb2-4a07-8f58-28d51f22c9e8
 title: 'IEnumPStoreProviders：： Clone 方法 (Pstore .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: fdd7825a44dcea672eff24a15126921f0426a986
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2eb5f5788c903c854d9cf1551d6cf5a1bd2b51f6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995779"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096796"
 ---
 # <a name="ienumpstoreprovidersclone-method"></a>IEnumPStoreProviders：： Clone 方法
 

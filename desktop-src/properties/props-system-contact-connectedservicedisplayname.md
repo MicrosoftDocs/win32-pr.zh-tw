@@ -1,15 +1,15 @@
 ---
-description: .
+description: ConnectedServiceDisplayName
 ms.assetid: 54975fa0-0c50-48a8-8e0e-0ac907634717
 title: ConnectedServiceDisplayName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aafabeb6143d16fbfd4495d44f2c492b3e0b99ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14ec318d047d2068f9e2b40eb8eaf70856bb42e5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319440"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102535"
 ---
 # <a name="systemcontactconnectedservicedisplayname"></a>ConnectedServiceDisplayName
 

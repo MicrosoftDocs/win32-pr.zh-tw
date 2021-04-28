@@ -1,6 +1,6 @@
 ---
 title: 'EM_FINDTEXTW 訊息 (Richedit .h) '
-description: 在 rich edit 控制項中尋找 Unicode 文字。
+description: EM_FINDTEXTW 訊息-在 rich edit 控制項中尋找 Unicode 文字。
 ms.assetid: 0c1579f5-3b37-4e28-86a2-f4e03e195f38
 keywords:
 - EM_FINDTEXTW message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e8bae60269ab3ddb84a17c285c243e00d8117c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 325ff948c4c8f03e8051248f15928d8e8c56e52f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686239"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109796"
 ---
 # <a name="em_findtextw-message"></a>EM \_ FINDTEXTW 訊息
 

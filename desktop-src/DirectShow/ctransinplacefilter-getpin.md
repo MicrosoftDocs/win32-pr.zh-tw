@@ -1,5 +1,5 @@
 ---
-description: GetPin 方法會抓取 pin。
+description: CTransInPlaceFilter. GetPin 方法-GetPin 方法會抓取 pin。
 ms.assetid: d8e4973b-2af4-4141-ab2e-ea2159cd51be
 title: 'CTransInPlaceFilter. GetPin 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ae93b663af5427bc61367ae03a3abd6790b8634a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1075f2a14c58b085b73f2e4283458286c118a7ae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001133"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084766"
 ---
 # <a name="ctransinplacefiltergetpin-method"></a>CTransInPlaceFilter. GetPin 方法
 

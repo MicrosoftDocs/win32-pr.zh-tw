@@ -1,5 +1,5 @@
 ---
-description: DeliverEndFlush 方法會要求連接的輸入 pin，以結束清除作業。
+description: CBaseOutputPin. DeliverEndFlush 方法-DeliverEndFlush 方法會要求連接的輸入 pin，以結束清除作業。
 ms.assetid: 9f1fd76c-dba7-41c5-b098-9735e4f2571b
 title: 'CBaseOutputPin. DeliverEndFlush 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cb9b92947f2452b8755109c4b83cb21afa119461
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5f3fd5c1bc686ee5c0b4ff0cd1285a5114b93049
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990984"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096176"
 ---
 # <a name="cbaseoutputpindeliverendflush-method"></a>CBaseOutputPin. DeliverEndFlush 方法
 

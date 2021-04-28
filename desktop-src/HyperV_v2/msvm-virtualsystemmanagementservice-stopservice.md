@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_VirtualSystemManagementService 類別的 StopService 方法會停止服務。
 ms.assetid: 215a9e6d-8f31-43a6-abf5-4eb72432e09f
 title: Msvm_VirtualSystemManagementService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ce9ac3e0aafa23d82c961e40b32d93c58de93aae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ca47b0133944763bff2474a6511b7981b4c1884
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689764"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109386"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 StopService 方法 \_
 

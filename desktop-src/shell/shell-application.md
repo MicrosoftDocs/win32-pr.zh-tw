@@ -1,5 +1,5 @@
 ---
-description: 包含物件的應用程式物件。
+description: Shell. 應用程式屬性-包含物件的應用程式物件。
 ms.assetid: 5335f4dd-ca80-49c8-8953-e32a6e6308e0
 title: 'Shell. Application 屬性 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a9f9bd7fa28d2b277adfd8038c10c97efe16f51a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a90b3953ed54b8a3652d6c9c26533d433ffb600
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852572"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083856"
 ---
 # <a name="shellapplication-property"></a>Shell. 應用程式屬性
 

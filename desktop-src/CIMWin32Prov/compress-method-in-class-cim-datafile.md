@@ -1,5 +1,5 @@
 ---
-description: 使用 NTFS 壓縮來壓縮物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
+description: 壓縮 CIM_DataFile 類別的方法-使用 NTFS 壓縮來壓縮物件路徑中所指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
 ms.assetid: fce57569-8290-420e-a938-10ab08ac67c3
 ms.tgt_platform: multiple
 title: 壓縮 CIM_DataFile 類別的方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 99d9a0a346d8a9394edd9f30ff23490549f6de76
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3cc63ed3cafd676a0d865953c52a14e6247d4b70
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967034"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089776"
 ---
 # <a name="compress-method-of-the-cim_datafile-class"></a>壓縮 CIM \_ 資料檔案類別的方法
 

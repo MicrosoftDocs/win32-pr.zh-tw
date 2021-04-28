@@ -1,5 +1,5 @@
 ---
-description: Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
+description: CIM_DeviceFile 類別的 copy 方法-Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
 ms.assetid: 6c1c6172-80a2-4779-903a-935f8c7091a5
 ms.tgt_platform: multiple
 title: CIM_DeviceFile 類別的 Copy 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc8bb7878f4967dbc58adf6163c92c0d2bd67713
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 09c6d0f9400a04cc6e5a8ed4bd49ec7075b3c190
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847346"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089797"
 ---
 # <a name="copy-method-of-the-cim_devicefile-class"></a>CIM DeviceFile 類別的 Copy 方法 \_
 

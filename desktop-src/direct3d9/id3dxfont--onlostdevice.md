@@ -1,5 +1,5 @@
 ---
-description: 您可以使用此方法來釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
+description: ID3DXFont：： OnLostDevice 方法-使用此方法釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
 ms.assetid: 1abc4e01-65c6-4034-8cbb-891a2234ad33
 title: 'ID3DXFont：： OnLostDevice 方法 (D3dx9core .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ae2dc711ffe57a2605a0cc43c7ba673d444105f4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9c484d7867745805e29bda88e2f8d49ca8bc21be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000604"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090366"
 ---
 # <a name="id3dxfontonlostdevice-method"></a>ID3DXFont：： OnLostDevice 方法
 

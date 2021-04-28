@@ -1,5 +1,5 @@
 ---
-description: SetPositions 方法會設定目前的位置和停止位置。 這個方法會實 IMediaSeeking：： SetPositions 方法。
+description: CSourceSeeking. SetPositions 方法-SetPositions 方法會設定目前的位置和停止位置。 這個方法會實 IMediaSeeking：： SetPositions 方法。
 ms.assetid: 4359fe1f-f922-4a4d-beaa-8e13c72f407c
 title: 'CSourceSeeking. SetPositions 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 342ca7d85fe9358b914709b7887216b62e03521d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b09dd92b97166b8d973328ec95e466abbda116bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977537"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085166"
 ---
 # <a name="csourceseekingsetpositions-method"></a>CSourceSeeking. SetPositions 方法
 

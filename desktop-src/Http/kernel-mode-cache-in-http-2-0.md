@@ -1,15 +1,15 @@
 ---
 title: 核心模式快取
-description: .
+description: 核心模式快取
 ms.assetid: f9a46ff4-779b-4b3a-b8f5-1ae10a3c0a61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9264535a58c033d66fd3fcc39988a292afc2a27f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83c409b00da03c0550899f5d26c4e6a0fa215118
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021988"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090886"
 ---
 # <a name="kernel-mode-cache"></a>核心模式快取
 
@@ -33,12 +33,12 @@ HTTP 伺服器 API 會將核心模式快取限制為符合下列條件的要求�
 
     ```
     HKEY_LOCAL_MACHINE
-       System
-          CurrentControlSet
-             Services
-                HTTP
-                   Parameters
-                      UriMaxUriBytes
+       System
+          CurrentControlSet
+             Services
+                HTTP
+                   Parameters
+                      UriMaxUriBytes
     ```
 
 -   您必須在 [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse)的單一呼叫中提供整個回應。
@@ -48,9 +48,9 @@ HTTP 伺服器 API 會將核心模式快取限制為符合下列條件的要求�
 
 預設會啟用核心模式回應快取。 如果未符合上述要求或回應的任何條件，則會傳送回應，但不會快取。 在 HTTP 伺服器版本 2.0 API 中， [**HttpSendHttpResponse**](/windows/desktop/api/Http/nf-http-httpsendhttpresponse) 包含選擇性的 *pCachePolicy* 參數，可傳遞 HTTP 快取 [**\_ \_ 原則**](/windows/desktop/api/Http/ns-http-http_cache_policy) 結構。 應用程式會使用快取原則結構來設定快取。
 
- 
+ 
 
- 
+ 
 
 
 

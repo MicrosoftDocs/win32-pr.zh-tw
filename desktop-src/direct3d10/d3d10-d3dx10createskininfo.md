@@ -1,5 +1,5 @@
 ---
-description: 使用宣告子建立空白的外觀網格物件。
+description: D3DX10CreateSkinInfo 函式-使用宣告子建立空白的外觀網格物件。
 ms.assetid: 5356cfe5-de90-462d-9722-72f3618decfb
 title: 'D3DX10CreateSkinInfo 函式 (D3DX10Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a68da20c2e2e15e3b73d55ee1df70518bba46200
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 17d6ec99d3f43c41d56deebef81a021c81ec1d69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103596"
 ---
 # <a name="d3dx10createskininfo-function"></a>D3DX10CreateSkinInfo 函式
 

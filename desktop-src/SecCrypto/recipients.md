@@ -1,5 +1,5 @@
 ---
-description: 代表憑證物件的集合。
+description: 收件者物件-表示憑證物件的集合。
 ms.assetid: 11d294b5-0a8a-4970-be10-a3b22389d96e
 title: 收件者物件
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: c68ca0217631970f35680160b71841f758b13fd7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e0f0f6474c6ed8883eb591591eff387fe387f7d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985954"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103736"
 ---
 # <a name="recipients-object"></a>收件者物件
 

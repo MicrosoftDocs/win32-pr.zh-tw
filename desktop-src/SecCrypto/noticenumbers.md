@@ -1,5 +1,5 @@
 ---
-description: 表示擴充物件的集合。
+description: NoticeNumbers 物件-表示擴充物件的集合。
 ms.assetid: b0d69df9-12c4-4872-b883-b029c4350502
 title: NoticeNumbers 物件
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 58d954fdeef66d6d0e5eadb3086cb549b59e5669
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2bd6e653eabe9b25588fd29517ac94e0c878fdb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979545"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090756"
 ---
 # <a name="noticenumbers-object"></a>NoticeNumbers 物件
 

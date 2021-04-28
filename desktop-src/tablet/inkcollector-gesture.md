@@ -1,15 +1,15 @@
 ---
-description: 在識別應用程式特定的手勢時發生。
+description: InkCollector 可辨識應用程式特定的手勢時，就會發生此事件。
 ms.assetid: 5830f7f8-2870-4194-ab3e-b63b71e97063
 title: 'InkCollector 的軌跡事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb68add1a3fbba5781624f1df98c3a637745b95a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bfc2fea09060dbb206cd7681bcecfbedbc7a6b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972206"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110186"
 ---
 # <a name="inkcollectorgesture-event"></a>InkCollector 手勢事件
 

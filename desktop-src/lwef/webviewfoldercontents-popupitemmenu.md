@@ -1,6 +1,6 @@
 ---
 title: 'WebViewFolderContents. PopupItemMenu 方法 (Shldisp .h) '
-description: 為指定的專案建立快捷方式功能表，並傳回選取的命令字串。
+description: WebViewFolderContents. PopupItemMenu 方法-為指定的專案建立快捷方式功能表，並傳回選取的命令字串。
 ms.assetid: 3c07500c-2fe9-4976-a1a8-b128e75f9325
 keywords:
 - PopupItemMenu 方法舊版 Windows 環境功能
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41753814f103998185acc798a37447f22356d2aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c879e10097b334f0c2d4f98b1b76289d20ee4a93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685564"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102636"
 ---
 # <a name="webviewfoldercontentspopupitemmenu-method"></a>WebViewFolderContents. PopupItemMenu 方法
 
@@ -73,13 +73,13 @@ retVal = WebViewFolderContents.PopupItemMenu(
 
 ## <a name="return-value"></a>傳回值
 
-類型： **[BSTR](/previous-versions/windows/desktop/automat/bstr) \** _
+類型： **[BSTR](/previous-versions/windows/desktop/automat/bstr)\***
 
 當此方法傳回時，會包含命令字串。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何適當地使用 _ *PopupItemMenu** 來內嵌于 HTML 中的 JScript。
+下列範例示範如何適當地使用 **PopupItemMenu** 來內嵌于 HTML 中的 JScript。
 
 
 ```HTML

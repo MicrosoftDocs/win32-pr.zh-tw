@@ -1,16 +1,7 @@
 ---
-title: 使用者輸入擴充範例
-description: .
-ms.assetid: A408E0EC-E0A7-4F18-BFCA-21D28007FACC
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: cdde7f14dda356d0f65103c77e3b73c2f0de50a6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104568540"
+標題：使用者輸入擴充的範例描述：使用者輸入：擴充的範例 assetid： A408E0EC-E0A7-4F18-BFCA-21D28007FACC ms。主題：文章 ms. 日期：05/31/2018
 ---
+
 # <a name="user-input-extended-example"></a>使用者輸入：擴充的範例
 
 讓我們結合已瞭解的使用者輸入內容，以建立簡單的繪圖程式。 以下是程式的螢幕擷取畫面：

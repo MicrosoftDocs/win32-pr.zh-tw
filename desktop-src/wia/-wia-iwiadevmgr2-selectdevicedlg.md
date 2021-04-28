@@ -1,5 +1,5 @@
 ---
-description: 顯示對話方塊，讓使用者選取硬體裝置以取得影像。
+description: IWiaDevMgr2：： SelectDeviceDlg 方法-顯示對話方塊，讓使用者選取硬體裝置以取得影像。
 ms.assetid: cd020dc6-fddf-4d7f-aa57-eae94953ef4e
 title: 'IWiaDevMgr2：： SelectDeviceDlg 方法 (Wia .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: cb41ec8e94782ee4d7408c53e2d4e098d986fe83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60ec24f264b8fe0424f17fc32deaf803e55c3346
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980988"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091256"
 ---
 # <a name="iwiadevmgr2selectdevicedlg-method"></a>IWiaDevMgr2：： SelectDeviceDlg 方法
 
@@ -95,9 +95,9 @@ HRESULT SelectDeviceDlg(
 *pbstrDeviceID* \[in、out\]
 </dt> <dd>
 
-類型： **BSTR \** _
+類型： **BSTR \***
 
-在輸出時，會接收包含裝置識別碼字串的字串。 在輸入時，如果需要這項資訊，請傳遞指標的位址，如果不需要則為 _ *Null**。
+在輸出時，會接收包含裝置識別碼字串的字串。 在輸入時，如果需要這項資訊，請傳遞指標的位址，如果不需要，則傳遞 **Null** 。
 
 </dd> <dt>
 

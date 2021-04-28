@@ -1,5 +1,5 @@
 ---
-description: GetMetadataQueryWriter 方法的 Proxy 函式。
+description: GetMetadataQueryWriter 方法的 IWICBitmapEncoder_GetMetadataQueryWriter_Proxy 函數 Proxy 函式。
 ms.assetid: 3186d473-f8a7-405a-8429-3f50104bee4a
 title: IWICBitmapEncoder_GetMetadataQueryWriter_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: b536e7c4c0553df5dae0f8e11db33c6d709e8c00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 798a9b5bafb2f5011e42e603b8b2c98b0ba79b37
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979728"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091166"
 ---
 # <a name="iwicbitmapencoder_getmetadataquerywriter_proxy-function"></a>IWICBitmapEncoder \_ GetMetadataQueryWriter \_ Proxy 函式
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapEncoder_GetMetadataQueryWriter_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+類型： **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-這個 [_ *IWICBitmapEncoder* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)物件的指標。
+這個 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) 物件的指標。
 
 </dd> <dt>
 

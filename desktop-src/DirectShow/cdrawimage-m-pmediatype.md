@@ -1,5 +1,5 @@
 ---
-description: M \_ pMediaType 成員變數是目前媒體類型的指標。
+description: CDrawImage：： m_pMediaType 成員-m \_ pMediaType 成員變數是指向目前媒體類型的指標。
 ms.assetid: 51a33fc4-1496-43ed-9b68-842f4c2cf0a1
 title: 'CDrawImage：： m_pMediaType 成員 (Winutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 47e1841b9b6cff95a122ba03c76b41030fd41eba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 127801850ed008d65015d277ad3e1dbdfdb5c1bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992949"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095766"
 ---
 # <a name="cdrawimagem_pmediatype-member"></a>CDrawImage：： m \_ pMediaType 成員
 

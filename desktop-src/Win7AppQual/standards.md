@@ -1,15 +1,15 @@
 ---
-description: .
+description: 標準
 ms.assetid: 3D5687D3-1F4A-4586-9A9C-9CEA461E2DC9
 title: 標準
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a5bb3233488a581c46ddc953bdc88a2fe77f42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55c451abc007941494ab156a538b0b7143840d17
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116166"
 ---
 # <a name="standards"></a>標準
 

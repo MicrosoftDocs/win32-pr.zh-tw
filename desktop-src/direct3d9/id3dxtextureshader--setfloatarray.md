@@ -1,5 +1,5 @@
 ---
-description: 設定浮點數字的陣列。
+description: ID3DXTextureShader：： SetFloatArray 方法：設定浮點數的陣列。
 ms.assetid: 8e64b569-a6bf-4925-9d21-4df0b6661ee2
 title: 'ID3DXTextureShader：： SetFloatArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5dbd39e8a4acfa004fb623d578e5922d477884fc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd42455e16cbfc203f76de868a82935e0e25401f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196283"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090246"
 ---
 # <a name="id3dxtextureshadersetfloatarray-method"></a>ID3DXTextureShader：： SetFloatArray 方法
 

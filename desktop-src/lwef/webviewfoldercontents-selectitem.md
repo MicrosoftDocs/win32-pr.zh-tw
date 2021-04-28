@@ -1,6 +1,6 @@
 ---
 title: 'WebViewFolderContents. SelectItem 方法 (Shldisp .h) '
-description: 在視圖中設定專案的選取狀態。
+description: WebViewFolderContents. SelectItem 方法-在 view 中設定專案的選取狀態。
 ms.assetid: c0e163ee-1951-476c-807a-781e26766d99
 keywords:
 - SelectItem 方法舊版 Windows 環境功能
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e491fb27db2d6e1e9b449be4aa2924684021539a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66e2d05c010199f05826df7ed4591e8c7c1723e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966492"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102607"
 ---
 # <a name="webviewfoldercontentsselectitem-method"></a>WebViewFolderContents. SelectItem 方法
 
@@ -46,9 +46,9 @@ WebViewFolderContents.SelectItem(
 *vItem* \[在\]
 </dt> <dd>
 
-類型： **Variant \** _
+類型： **Variant \***
 
-將設定選取狀態的 [_ *FolderItem* *](../shell/folderitem.md)物件。
+將設定選取狀態的 [**FolderItem**](../shell/folderitem.md) 物件。
 
 </dd> <dt>
 

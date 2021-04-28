@@ -1,5 +1,5 @@
 ---
-description: Receive 方法會接收資料流程中的下一個媒體範例。 這個方法會實 IMemInputPin：： Receive 方法。
+description: CTransformInputPin 接收方法-Receive 方法會接收資料流程中的下一個媒體範例。 這個方法會實 IMemInputPin：： Receive 方法。
 ms.assetid: 65e4f8f5-2aa2-435b-84b4-e65af3f51afc
 title: 'CTransformInputPin 的 Receive 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 59b087c4b783305b831871a030d1006d576e7d57
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2a6a3c5dd4c9f11d45e1b719498d515a536e5ef8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984458"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084966"
 ---
 # <a name="ctransforminputpinreceive-method"></a>CTransformInputPin 接收方法
 

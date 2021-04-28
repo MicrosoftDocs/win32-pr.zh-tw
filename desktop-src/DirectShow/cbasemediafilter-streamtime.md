@@ -1,5 +1,5 @@
 ---
-description: StreamTime 方法會抓取目前的資料流程時間。
+description: CBaseMediaFilter. StreamTime 方法-StreamTime 方法會抓取目前的資料流程時間。
 ms.assetid: 2e1ff6f1-9815-4ee6-97e8-a5ab5f472b27
 title: 'CBaseMediaFilter. StreamTime 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27ccc9c721c97742c09d043af4cca5d287747597
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a90bb7d97825c14f11c75dd42d696fa302f8e3d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983962"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096246"
 ---
 # <a name="cbasemediafilterstreamtime-method"></a>CBaseMediaFilter. StreamTime 方法
 

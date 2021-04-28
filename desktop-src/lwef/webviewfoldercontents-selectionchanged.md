@@ -1,6 +1,6 @@
 ---
 title: 'WebViewFolderContents. SelectionChanged 事件 (Shldisp .h) '
-description: 發生于視圖中任何專案或專案的選取狀態變更時。
+description: WebViewFolderContents. SelectionChanged 事件-在 view 中的任何專案或專案的選取狀態變更時，就會發生此事件。
 ms.assetid: 46dfceec-aa81-4950-81e5-526a6e621271
 keywords:
 - SelectionChanged 事件舊版 Windows 環境功能
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8421e9d06ff9fd24256da8a23cdd100b5749968
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea6176cb2a1703d48cd2ddec8069c65d7efc978f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509223"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102656"
 ---
 # <a name="webviewfoldercontentsselectionchanged-event"></a>WebViewFolderContents. SelectionChanged 事件
 

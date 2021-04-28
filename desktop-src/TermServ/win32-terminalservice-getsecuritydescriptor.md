@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 GetSecurityDescriptor 方法 (遠端桌面服務) '
-description: 傳回控制服務存取的安全描述項。
+description: Win32_Service 類別的 GetSecurityDescriptor 方法 (遠端桌面服務) -傳回控制服務存取的安全描述項。
 ms.assetid: 9898091A-5BE2-42A0-BF81-13AB74696ACB
 ms.tgt_platform: multiple
 keywords:
@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf8dc271d5498163352af10bcb0b9c55e2e81fb7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea5b8a9b945048f947aa273e1ccc1f4514469681
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934234"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090646"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 GetSecurityDescriptor 方法 (遠端桌面服務) 
 

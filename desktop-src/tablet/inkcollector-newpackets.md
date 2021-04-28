@@ -1,15 +1,15 @@
 ---
-description: 當筆墨收集器收到封包時發生。
+description: InkCollector. NewPackets 事件-當筆墨收集器收到封包時發生。
 ms.assetid: 2682e7ba-dabd-497e-aea4-6d3f837f4f10
 title: 'InkCollector. NewPackets 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b03e1a561a61c9b291bca8e59f990dc12b4e2e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3bab9d13dd2f33689700ef4a9aee2ed5059403e8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318100"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110116"
 ---
 # <a name="inkcollectornewpackets-event"></a>InkCollector. NewPackets 事件
 

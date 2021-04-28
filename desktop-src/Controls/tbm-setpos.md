@@ -1,6 +1,6 @@
 ---
 title: 'TBM_SETPOS 訊息 (Commctrl .h) '
-description: 設定捲軸中滑杆的目前邏輯位置。
+description: TBM_SETPOS 訊息：設定捲軸中滑杆的目前邏輯位置。
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
 - TBM_SETPOS message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e8da6e8e231a26b216ca8f9314d59474384857
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3f10e05a677119f18489d0eb9eebc4528d3ad115
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935123"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085866"
 ---
 # <a name="tbm_setpos-message"></a>TBM \_ SETPOS 訊息
 

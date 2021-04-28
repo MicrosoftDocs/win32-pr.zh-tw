@@ -1,15 +1,15 @@
 ---
 title: 路由及遠端存取服務
-description: .
+description: 路由及遠端存取服務
 ms.assetid: fa0a183a-0254-401e-8b78-441cb3f83e8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdaae9e54cd37bef1b45a3336eb389027ebf01ba
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49d81e743f640e600588413f0c15c44e0410c5ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969071"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116466"
 ---
 # <a name="routing-and-remote-access-service"></a>路由及遠端存取服務
 

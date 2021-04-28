@@ -1,5 +1,5 @@
 ---
-description: SetTimeFormat 方法會設定時間格式。 這個方法會實 IMediaSeeking：： SetTimeFormat 方法。
+description: CPosPassThru. SetTimeFormat 方法-SetTimeFormat 方法會設定時間格式。 這個方法會實 IMediaSeeking：： SetTimeFormat 方法。
 ms.assetid: f6fc456d-51cf-4b2e-9248-afed9073d440
 title: 'CPosPassThru. SetTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b843e67a827e4bbd7471bb42df31033e314d9158
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81798ccbb51056353c62cd94f821b3567d78a484
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982627"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085466"
 ---
 # <a name="cpospassthrusettimeformat-method"></a>CPosPassThru. SetTimeFormat 方法
 

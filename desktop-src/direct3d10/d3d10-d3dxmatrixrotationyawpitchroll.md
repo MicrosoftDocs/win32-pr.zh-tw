@@ -1,5 +1,5 @@
 ---
-description: 建立具有指定之偏擺、音調和變換的矩陣。
+description: D3DXMatrixRotationYawPitchRoll 函式 (D3DX10Math) -建立具有指定之偏擺、音調和變換的矩陣。
 ms.assetid: a3ef2b57-275f-484a-88fc-aaa5e470717c
 title: 'D3DXMatrixRotationYawPitchRoll 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d65242f49ee94394337f43555c3e154141e3b642
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ae00865c45878159dbf86a6f829e9d1cf50337e3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946226"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108946"
 ---
 # <a name="d3dxmatrixrotationyawpitchroll-function-d3dx10mathh"></a>D3DXMatrixRotationYawPitchRoll 函式 (D3DX10Math) 
 

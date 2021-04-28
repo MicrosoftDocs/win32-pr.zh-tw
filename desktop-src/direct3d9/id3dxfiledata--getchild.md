@@ -1,5 +1,5 @@
 ---
-description: 抓取這個檔案資料物件中的子物件。
+description: ID3DXFileData：： System.windows.media.visualtreehelper.getchild 方法-抓取這個檔案資料物件中的子物件。
 ms.assetid: 0c4f1efa-f096-443d-a482-a3c5a9138c3d
 title: 'ID3DXFileData：： System.windows.media.visualtreehelper.getchild 方法 (D3DX9Xof .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 37982ca1e4801b7d70bec503ff9510fc66772651
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fe6c0393e5cfb9ed8aeaf5808d33175e7f9bfe5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946158"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090376"
 ---
 # <a name="id3dxfiledatagetchild-method"></a>ID3DXFileData：： System.windows.media.visualtreehelper.getchild 方法
 

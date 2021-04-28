@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CTransInPlaceFilter。 CTransInPlaceFilter 函式-函數方法。
 ms.assetid: f0d30125-5d16-470c-a5fb-a7df96814dad
 title: 'CTransInPlaceFilter. CTransInPlaceFilter (Transip. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 091ea6e6a52d4cc9221ddb29db34b4823111a395
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6b14af4b0d1f33933db8ca2fd1835e9711edad9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990821"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084776"
 ---
 # <a name="ctransinplacefilterctransinplacefilter-constructor"></a>CTransInPlaceFilter. CTransInPlaceFilter 函數
 

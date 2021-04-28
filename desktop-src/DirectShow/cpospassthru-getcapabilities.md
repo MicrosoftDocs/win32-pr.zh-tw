@@ -1,5 +1,5 @@
 ---
-description: GetCapabilities 方法會抓取資料流程的所有搜尋功能。 這個方法會實 IMediaSeeking：： GetCapabilities 方法。
+description: CPosPassThru. GetCapabilities 方法-GetCapabilities 方法會抓取資料流程的所有搜尋功能。 這個方法會實 IMediaSeeking：： GetCapabilities 方法。
 ms.assetid: c60c4f47-48de-47d0-9b87-589b84df842c
 title: 'CPosPassThru. GetCapabilities 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f896adbc1015cb34e6f9063cb5ebf73e5cdb441c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c21838d3df72d52255d0a2e35dd0b7d34ef55411
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984042"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085566"
 ---
 # <a name="cpospassthrugetcapabilities-method"></a>CPosPassThru. GetCapabilities 方法
 

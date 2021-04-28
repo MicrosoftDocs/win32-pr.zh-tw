@@ -1,15 +1,15 @@
 ---
-description: .
+description: 伺服器 Hyper-v
 ms.assetid: 6a31cca3-f47c-4663-b2e8-aad6b4a6f28f
 title: 伺服器 Hyper-v
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6997074e000b17a119a838df5b6fab961b8ee0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b3149f1c5faa98c9c61be884a193b0e3a1ecceb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981058"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116206"
 ---
 # <a name="server-hyper-v"></a>伺服器 Hyper-v
 

@@ -1,5 +1,5 @@
 ---
-description: 初始化字串資料表。
+description: pSetupStringTableInitializeEx 函式-初始化字串資料表。
 ms.assetid: 184df85a-6d59-42c5-8ec1-f0c046091645
 title: pSetupStringTableInitializeEx 函式
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: d40f221656da4cada610e7254b392bb2bd627a14
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 78ee96e7e366fdff821e8202300ff28de0a14af3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992809"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096646"
 ---
 # <a name="psetupstringtableinitializeex-function"></a>pSetupStringTableInitializeEx 函式
 

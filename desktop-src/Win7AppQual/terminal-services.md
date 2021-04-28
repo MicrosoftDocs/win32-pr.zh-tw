@@ -1,15 +1,15 @@
 ---
-description: .
+description: '遠端桌面服務 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) '
 ms.assetid: 94ac6a91-1e00-45f3-9374-3ac48ac63765
 title: '遠端桌面服務 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46bd39785526b11ac2e4c0ede26bbb9971aadc9a
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 725844d49f465c3c79dbc19fd01ec0f18b09759e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106981766"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116116"
 ---
 # <a name="remote-desktop-services-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>遠端桌面服務 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) 
 

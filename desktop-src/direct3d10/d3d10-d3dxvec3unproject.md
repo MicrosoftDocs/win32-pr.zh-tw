@@ -1,5 +1,5 @@
 ---
-description: 從螢幕空間將向量投射到物件空間。
+description: D3DXVec3Unproject 函式 (D3DX10Math) -將螢幕空間的向量投射到物件空間。
 ms.assetid: c96d732d-0594-42b4-bc54-458a313f153e
 title: 'D3DXVec3Unproject 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 21916392c689bcac794d44ec2c42c3e0b39abb0c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 08d38691d0e780e49293149bdb7a08b1ea0ef1fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988193"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103026"
 ---
 # <a name="d3dxvec3unproject-function-d3dx10mathh"></a>D3DXVec3Unproject 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 必須由使用者所執行的回呼函式，以設定頂點著色器布林值常數的陣列。
+description: ID3DXEffectStateManager：： SetVertexShaderConstantB 方法-必須由使用者所執行的回呼函式，以設定頂點著色器布林值常數的陣列。
 ms.assetid: 25fd0c68-11b5-4401-a2f8-86075ba3fa54
 title: 'ID3DXEffectStateManager：： SetVertexShaderConstantB 方法 (D3DX9Effect .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1eaf68f27d477aee36bd7773488f34bad29db61d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79d4972c301d7333869d68d36267186a67b37eb1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991970"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090406"
 ---
 # <a name="id3dxeffectstatemanagersetvertexshaderconstantb-method"></a>ID3DXEffectStateManager：： SetVertexShaderConstantB 方法
 

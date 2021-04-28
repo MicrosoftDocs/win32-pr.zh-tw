@@ -1,5 +1,5 @@
 ---
-description: 轉換向量 (x、y、z、1) 指定的矩陣。
+description: D3DXVec3Transform 函式 (D3dx9math) -轉換向量 (x、y、z、1) 指定的矩陣。
 ms.assetid: 5b290c4c-22f1-4086-8e5e-f995757ef193
 title: 'D3DXVec3Transform 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b653eeb7ea3797a3c385efda73ac974e2f4fbd97
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5128be3fd9e0409b403006fdb1de3c9c48f6aee4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323364"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115636"
 ---
 # <a name="d3dxvec3transform-function-d3dx9mathh"></a>D3DXVec3Transform 函式 (D3dx9math) 
 

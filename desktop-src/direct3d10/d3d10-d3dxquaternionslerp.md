@@ -1,5 +1,5 @@
 ---
-description: 使用球面線性插補，在兩個四元數間進行插補。
+description: D3DXQuaternionSlerp 函式 (D3DX10Math) -使用球面線性插補，在兩個四元數之間進行插補。
 ms.assetid: 487e1df1-bf20-49cb-ad14-61fcf1300904
 title: 'D3DXQuaternionSlerp 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 07f673d33b8f105e808fbae380a06942e2a69be4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 04cd3d82e4ca4e3f3357ab0114b57602f7e8a543
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035388"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103116"
 ---
 # <a name="d3dxquaternionslerp-function-d3dx10mathh"></a>D3DXQuaternionSlerp 函式 (D3DX10Math) 
 

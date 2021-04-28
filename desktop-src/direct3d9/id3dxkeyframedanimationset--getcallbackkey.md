@@ -1,5 +1,5 @@
 ---
-description: 取得動畫集中特定回呼的相關資訊。
+description: ID3DXKeyframedAnimationSet：： GetCallbackKey 方法-取得動畫集中特定回呼的相關資訊。
 ms.assetid: a1d3ca96-2852-420a-aa5c-a434970e5523
 title: 'ID3DXKeyframedAnimationSet：： GetCallbackKey 方法 (D3dx9anim .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 95a3f5a97b84862a66d18b60a3776e183df36444
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f3ebbf93bd482a2259ffdaaf272c65b5e86d5270
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985909"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090316"
 ---
 # <a name="id3dxkeyframedanimationsetgetcallbackkey-method"></a>ID3DXKeyframedAnimationSet：： GetCallbackKey 方法
 
