@@ -1,15 +1,15 @@
 ---
-description: .
+description: H
 ms.assetid: b611be6d-cc9b-4993-9e6e-76acfe82de44
 title: H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79cccec837401daee48b34656d49d6ed3188fda0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8304516d0300acfaba7a29ec493ef61383e8c6f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980621"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091476"
 ---
 # <a name="systemsynchandlername"></a>H
 

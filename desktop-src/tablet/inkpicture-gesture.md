@@ -1,15 +1,15 @@
 ---
-description: 在識別應用程式特定的手勢時發生。
+description: InkPicture 可辨識應用程式特定的手勢時，就會發生此事件。
 ms.assetid: a20f2d78-6cfe-4755-968e-91369021db1b
 title: 'InkPicture 的軌跡事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94581369554b4aef16530c9ddc8b3fd1a31ad861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 915557f304d722ed2819af75dd40284db119abfb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990405"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086586"
 ---
 # <a name="inkpicturegesture-event"></a>InkPicture 手勢事件
 

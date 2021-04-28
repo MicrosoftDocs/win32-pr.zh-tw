@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統日誌。連絡人
 ms.assetid: f0da34f2-852d-4647-8150-979439fc0f4d
 title: 系統日誌。連絡人
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a94dc47d2eb6566bcba0bcabd3859b4cebb2b61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 266e7690afaf703f54dc4ff4819b85f6d004d6ae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969333"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086966"
 ---
 # <a name="systemjournalcontacts"></a>系統日誌。連絡人
 

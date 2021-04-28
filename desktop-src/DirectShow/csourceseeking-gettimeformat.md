@@ -1,5 +1,5 @@
 ---
-description: GetTimeFormat 方法會抓取目前的時間格式。 這個方法會實 IMediaSeeking：： GetTimeFormat 方法。
+description: CSourceSeeking. GetTimeFormat 方法-GetTimeFormat 方法會抓取目前的時間格式。 這個方法會實 IMediaSeeking：： GetTimeFormat 方法。
 ms.assetid: c90804f7-9a0a-423c-8b26-87abf15eddc5
 title: 'CSourceSeeking. GetTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ce53f4a6cabcc5face6c332666701dc208c3f8bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a56f9a490699d68d7a043e9385ad458562058f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995786"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085216"
 ---
 # <a name="csourceseekinggettimeformat-method"></a>CSourceSeeking. GetTimeFormat 方法
 

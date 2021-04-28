@@ -1,15 +1,15 @@
 ---
-description: .
+description: CollectionGroupID
 ms.assetid: 1ef5de55-2cf8-4ed3-ad79-25856058fb03
 title: CollectionGroupID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ea00b90bfd3e95d549e9f57a980a6475c106a4c
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f2defac45f9a9a2e9d313511d1df494e746bcce9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104514309"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092286"
 ---
 # <a name="systemmediacollectiongroupid"></a>CollectionGroupID
 

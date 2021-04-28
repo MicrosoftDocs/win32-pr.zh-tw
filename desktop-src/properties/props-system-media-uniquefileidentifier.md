@@ -1,15 +1,15 @@
 ---
-description: .
+description: UniqueFileIdentifier
 ms.assetid: 0fe07c66-3d9c-4368-8fbd-23cb486757cc
 title: UniqueFileIdentifier
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eb0339eaf30884cae70ea240f4c4c025f9478d6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 0e2c29917860fa3bdcde26d2919d091028f4b747
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986010"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091906"
 ---
 # <a name="systemmediauniquefileidentifier"></a>UniqueFileIdentifier
 

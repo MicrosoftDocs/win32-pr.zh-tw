@@ -1,15 +1,15 @@
 ---
-description: .
+description: HandlerType
 ms.assetid: ba99bf9c-e559-4b0d-bcf4-40d11d0a9cf0
 title: HandlerType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bcab9746bea3c5eb84214520100562a13a51a6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa98ea9a69781cf80f34ce5534e10ff88724bd05
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987754"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091456"
 ---
 # <a name="systemsynchandlertype"></a>HandlerType
 

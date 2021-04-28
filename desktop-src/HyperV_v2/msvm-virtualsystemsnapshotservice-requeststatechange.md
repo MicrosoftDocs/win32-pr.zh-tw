@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VirtualSystemSnapshotService 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: e37240f2-3c54-479e-bdf5-e094e4b5094f
 title: Msvm_VirtualSystemSnapshotService 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aa330ad5efdfbdecb55b6acf8a4c1e8a677af6e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcdf88c8bb8b4b4a42ee88a6041e1b151e855c63
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972816"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118576"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualsystemsnapshotservice-class"></a>Msvm VirtualSystemSnapshotService 類別的 RequestStateChange 方法 \_
 

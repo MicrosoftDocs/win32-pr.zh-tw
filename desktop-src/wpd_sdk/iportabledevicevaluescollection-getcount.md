@@ -1,5 +1,5 @@
 ---
-description: GetCount 方法會抓取集合中的專案數。
+description: IPortableDeviceValuesCollection：： GetCount 方法-GetCount 方法會抓取集合中的專案數。
 ms.assetid: c7b80a54-9e74-42d9-9155-cfcb2a92d324
 title: 'IPortableDeviceValuesCollection：： GetCount 方法 (PortableDeviceTypes .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 5d1eabdcf73d65b42ccff980b15bb15514c3b322
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8304184f3323feb92a14b523dc629c6ae45f6a85
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984284"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083176"
 ---
 # <a name="iportabledevicevaluescollectiongetcount-method"></a>IPortableDeviceValuesCollection：： GetCount 方法
 

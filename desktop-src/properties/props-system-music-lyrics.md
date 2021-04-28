@@ -1,15 +1,15 @@
 ---
-description: .
+description: 歌詞
 ms.assetid: ae7edb4e-f362-49c2-83ab-c2b832d279e5
 title: 歌詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c26a10af07a51c9d09356a2721373e2e0b50292
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c1d2911223f74ed2c6bc7ba9eb536db16cde2ed2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097316"
 ---
 # <a name="systemmusiclyrics"></a>歌詞
 

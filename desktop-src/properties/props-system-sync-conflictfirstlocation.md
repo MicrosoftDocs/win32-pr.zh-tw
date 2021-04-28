@@ -1,15 +1,15 @@
 ---
-description: .
+description: ConflictFirstLocation
 ms.assetid: 3aa1daa6-a63b-4e91-9fce-f1deb131fb45
 title: ConflictFirstLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 249428f9bc51bd7c73b1a8f210904f4379d8f418
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19ebd689904c41a4fa73b8acb368dbc18fde5a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850048"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091536"
 ---
 # <a name="systemsyncconflictfirstlocation"></a>ConflictFirstLocation
 

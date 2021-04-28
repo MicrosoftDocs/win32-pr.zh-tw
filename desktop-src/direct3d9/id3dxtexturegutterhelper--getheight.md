@@ -1,5 +1,5 @@
 ---
-description: 抓取紋理的高度（以圖元為單位）。
+description: ID3DXTextureGutterHelper：： GetHeight 方法-抓取紋理的高度（以圖元為單位）。
 ms.assetid: 45e63091-4f26-40ad-8c3a-d3f211a759c4
 title: 'ID3DXTextureGutterHelper：： GetHeight 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1bf25f443f907bcba81fe0472bd951b76dcdf8da
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ac3adf2ab0b7536a637805a6878f01f9f6d5bf25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974885"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117746"
 ---
 # <a name="id3dxtexturegutterhelpergetheight-method"></a>ID3DXTextureGutterHelper：： GetHeight 方法
 

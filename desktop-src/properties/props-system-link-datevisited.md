@@ -1,15 +1,15 @@
 ---
-description: .
+description: DateVisited
 ms.assetid: a0c8de2b-b21e-4b22-96d1-2a77e33f1780
 title: DateVisited
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc93a975ff4bf9d26276b302e5d3628a1a80fa61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e380e44b1afe6064e4962c5fd6430832ed9ba4e4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694559"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092476"
 ---
 # <a name="systemlinkdatevisited"></a>DateVisited
 

@@ -1,15 +1,15 @@
 ---
-description: Skip 方法會略過列舉順序中的下一個指定元素數目。
+description: IEnumTime：： Skip 方法-Skip 方法會略過列舉順序中的下一個指定元素數目。
 ms.assetid: e4d9c95d-1b68-4af6-beb2-2014074e5089
 title: 'IEnumTime：： Skip 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd157afc51f52a8453c38f8a14702476c46eb9d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 190a98c14cb8f551276a173e2d73872d876f2ceb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001117"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090716"
 ---
 # <a name="ienumtimeskip-method"></a>IEnumTime：： Skip 方法
 

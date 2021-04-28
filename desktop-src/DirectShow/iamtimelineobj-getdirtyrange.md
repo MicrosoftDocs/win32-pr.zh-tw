@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineObj：： GetDirtyRange 方法-不支援。
 ms.assetid: 7f97b1c4-0508-45a5-a6fd-5dae17f0fa60
 title: 'IAMTimelineObj：： GetDirtyRange 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d4f82b34c70cafd49bf21d662cf8b397b8d6316d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 828bb5a88d3bcefcf10f0a6e4f07070a4b60322d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976273"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098566"
 ---
 # <a name="iamtimelineobjgetdirtyrange-method"></a>IAMTimelineObj：： GetDirtyRange 方法
 

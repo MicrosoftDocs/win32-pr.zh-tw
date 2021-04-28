@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV. ProgramDescription
 ms.assetid: 19b0eba6-63af-482d-8ca6-18cb8db67169
 title: RecordedTV. ProgramDescription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de16897ded6a0f6144a64c198a32350d7504ff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2886fdfb8051983f130ae9b2a7c03a8a6fc56fec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319052"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091646"
 ---
 # <a name="systemrecordedtvprogramdescription"></a>RecordedTV. ProgramDescription
 

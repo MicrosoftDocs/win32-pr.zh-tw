@@ -1,5 +1,5 @@
 ---
-description: 啟動服務。
+description: Msvm_VirtualSystemManagementService 類別的 StartService 方法會啟動服務。
 ms.assetid: 1a1819de-823e-4e97-9c04-fcaeea2c67d9
 title: Msvm_VirtualSystemManagementService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 887999e19276c29a9501ddd5d86fba45bdbaeb92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ebb07240fdd95d98269056eca4eefe691f52077
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510994"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118636"
 ---
 # <a name="startservice-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 StartService 方法 \_
 

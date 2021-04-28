@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. 專案
 ms.assetid: c3fbe1ac-eaf6-49d1-92d1-a7115ebbbeba
 title: System. 專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2edc8771f018b8dad1ca2b2fb73d1d4250992780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c46b2547294d8be26c285315573ba93938afcb6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993106"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091736"
 ---
 # <a name="systemproject"></a>System. 專案
 

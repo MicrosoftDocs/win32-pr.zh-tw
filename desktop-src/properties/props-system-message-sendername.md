@@ -1,15 +1,15 @@
 ---
-description: .
+description: SenderName
 ms.assetid: b47e6b6c-19f1-4dfc-b119-d69329fb9e6a
 title: SenderName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f37fb4ee1d9125efa48a1687ec01eb9b64d488
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9b00a98864fa9ed2f0ec041e3a86c570dd549c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513276"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091886"
 ---
 # <a name="systemmessagesendername"></a>SenderName
 

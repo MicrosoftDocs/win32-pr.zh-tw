@@ -1,5 +1,5 @@
 ---
-description: GetRate 方法會捕獲播放速率。 這個方法會實 IMediaSeeking：： GetRate 方法。
+description: CSourceSeeking. GetRate 方法-GetRate 方法會捕獲播放速率。 這個方法會實 IMediaSeeking：： GetRate 方法。
 ms.assetid: e5c3ef27-6f57-4c74-b197-a3c4efb31239
 title: 'CSourceSeeking. GetRate 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b14cad0b043193f7ee410455aaa399e3bcb26715
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fef379ef06cd0982f1eb5742ac2624d706ed73a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998873"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085226"
 ---
 # <a name="csourceseekinggetrate-method"></a>CSourceSeeking. GetRate 方法
 

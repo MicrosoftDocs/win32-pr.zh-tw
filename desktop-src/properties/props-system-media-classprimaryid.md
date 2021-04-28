@@ -1,15 +1,15 @@
 ---
-description: .
+description: ClassPrimaryID
 ms.assetid: f7662562-6036-4b3c-9c24-b12afb9255a0
 title: ClassPrimaryID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46a3ae4746f8b6f5b083c27d431e1b32242b3b21
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 83bc99f3292a5772f2230b1e963f1ba8d383100d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945618"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092306"
 ---
 # <a name="systemmediaclassprimaryid"></a>ClassPrimaryID
 

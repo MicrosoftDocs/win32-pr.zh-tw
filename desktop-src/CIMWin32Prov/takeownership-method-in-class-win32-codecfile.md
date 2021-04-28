@@ -1,5 +1,5 @@
 ---
-description: TakeOwnerShip WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
+description: Win32_CodecFile 類別的 TakeOwnerShip 方法-TakeOwnerShip WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
 ms.assetid: c8fa0706-1f7e-4e68-aea6-694ba24c16c3
 ms.tgt_platform: multiple
 title: Win32_CodecFile 類別的 TakeOwnerShip 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1de05f444e99be9a1ebcb5d32fa0ba754cf34254
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e52e5dafe5f0453861ddcddadf9f7115d17ee404
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110172"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086036"
 ---
 # <a name="takeownership-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的 TakeOwnerShip 方法 \_
 

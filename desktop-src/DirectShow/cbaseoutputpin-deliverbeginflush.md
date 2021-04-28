@@ -1,5 +1,5 @@
 ---
-description: DeliverBeginFlush 方法會要求連接的輸入 pin，以開始進行清除作業。
+description: CBaseOutputPin. DeliverBeginFlush 方法-DeliverBeginFlush 方法會要求連接的輸入 pin，以開始進行清除操作。
 ms.assetid: 0d7c7bd7-2a7a-42a4-a0de-60205b62e49c
 title: 'CBaseOutputPin. DeliverBeginFlush 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dad764ceaa6cc57c8c5b7ee288859926b6c63f02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 22dbd2bccf33d9f203d1505106184500b8cae3ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099516"
 ---
 # <a name="cbaseoutputpindeliverbeginflush-method"></a>CBaseOutputPin. DeliverBeginFlush 方法
 

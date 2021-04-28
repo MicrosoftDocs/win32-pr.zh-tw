@@ -1,15 +1,15 @@
 ---
-description: .
+description: EncodedBy
 ms.assetid: 04bcdc5a-ba44-4b9c-ae87-fee50250d18b
 title: EncodedBy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4abe35a9b5afcc218c1c27e8e82801255fba3712
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fbf70589178d2ba00fd6ec4d45676a519f86587e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195745"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092086"
 ---
 # <a name="systemmediaencodedby"></a>EncodedBy
 

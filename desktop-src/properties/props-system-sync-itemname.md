@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.object
 ms.assetid: 068151f8-d95e-4fcc-b8a7-f088681f6114
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d0dfbd04367b6d0444c95581d2efb4d76e931a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5e6a75a996b58185789c399a4f9f6af0521a29a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988061"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091366"
 ---
 # <a name="systemsyncitemname"></a>System.object
 

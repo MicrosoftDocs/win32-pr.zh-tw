@@ -1,15 +1,15 @@
 ---
-description: .
+description: CreatorApplicationVersion
 ms.assetid: 9370d0f3-a43c-4c34-a4ad-a585ed63e8e5
 title: CreatorApplicationVersion
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10e7180fe8fe9e8c88c2ca00dc59f2badfe5cc0
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2442217006fc005507c314b1a9e581015f58db4f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106976629"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092146"
 ---
 # <a name="systemmediacreatorapplicationversion"></a>CreatorApplicationVersion
 
