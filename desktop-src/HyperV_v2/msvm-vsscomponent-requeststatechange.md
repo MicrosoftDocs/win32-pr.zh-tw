@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VssComponent 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 27a8ab6e-afbd-4d87-afd6-8da0cc5e3fba
 title: Msvm_VssComponent 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7aa40cb65caf41d731085c10aedf21932992e1dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f75d0e2eed242155f27a7355182bf616d14de7e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991691"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109266"
 ---
-# <a name="requeststatechange-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="a709c-103">Msvm VssComponent 類別的 RequestStateChange 方法 \_</span><span class="sxs-lookup"><span data-stu-id="a709c-103">RequestStateChange method of the Msvm\_VssComponent class</span></span>
+# <a name="requeststatechange-method-of-the-msvm_vsscomponent-class"></a><span data-ttu-id="9684b-103">Msvm VssComponent 類別的 RequestStateChange 方法 \_</span><span class="sxs-lookup"><span data-stu-id="9684b-103">RequestStateChange method of the Msvm\_VssComponent class</span></span>
 
-<span data-ttu-id="a709c-104">要求狀態變更。</span><span class="sxs-lookup"><span data-stu-id="a709c-104">Requests a state change.</span></span>
+<span data-ttu-id="9684b-104">要求狀態變更。</span><span class="sxs-lookup"><span data-stu-id="9684b-104">Requests a state change.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a709c-105">語法</span><span class="sxs-lookup"><span data-stu-id="a709c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9684b-105">語法</span><span class="sxs-lookup"><span data-stu-id="9684b-105">Syntax</span></span>
 
 
 ```mof
@@ -37,141 +37,141 @@ uint32 RequestStateChange(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="a709c-106">參數</span><span class="sxs-lookup"><span data-stu-id="a709c-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9684b-106">參數</span><span class="sxs-lookup"><span data-stu-id="9684b-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a709c-107">*RequestedState* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a709c-107">*RequestedState* \[in\]</span></span>
+<span data-ttu-id="9684b-107">*RequestedState* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9684b-107">*RequestedState* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a709c-108">新狀態。</span><span class="sxs-lookup"><span data-stu-id="a709c-108">The new state.</span></span> <span data-ttu-id="a709c-109">如果 **RequestStateChange** 方法的傳回碼為0或4096，資訊就會放在實例的 **RequestedState** 屬性中。</span><span class="sxs-lookup"><span data-stu-id="a709c-109">The info is placed in the **RequestedState** property of the instance if the return code of the **RequestStateChange** method is 0 or 4096.</span></span> <span data-ttu-id="a709c-110">如需詳細資訊，請參閱元素的 **EnabledState** 和 **RequestedState** 屬性的描述。</span><span class="sxs-lookup"><span data-stu-id="a709c-110">For more info, see the description of the **EnabledState** and **RequestedState** properties for the element.</span></span> <span data-ttu-id="a709c-111">這必須是下列值之一。</span><span class="sxs-lookup"><span data-stu-id="a709c-111">This must be one of the following values.</span></span>
+<span data-ttu-id="9684b-108">新狀態。</span><span class="sxs-lookup"><span data-stu-id="9684b-108">The new state.</span></span> <span data-ttu-id="9684b-109">如果 **RequestStateChange** 方法的傳回碼為0或4096，資訊就會放在實例的 **RequestedState** 屬性中。</span><span class="sxs-lookup"><span data-stu-id="9684b-109">The info is placed in the **RequestedState** property of the instance if the return code of the **RequestStateChange** method is 0 or 4096.</span></span> <span data-ttu-id="9684b-110">如需詳細資訊，請參閱元素的 **EnabledState** 和 **RequestedState** 屬性的描述。</span><span class="sxs-lookup"><span data-stu-id="9684b-110">For more info, see the description of the **EnabledState** and **RequestedState** properties for the element.</span></span> <span data-ttu-id="9684b-111">這必須是下列值之一。</span><span class="sxs-lookup"><span data-stu-id="9684b-111">This must be one of the following values.</span></span>
 
 <dt>
 
 <span id="Enabled"></span><span id="enabled"></span><span id="ENABLED"></span>
 
-<span data-ttu-id="a709c-112">**已啟用** (2) </span><span class="sxs-lookup"><span data-stu-id="a709c-112">**Enabled** (2)</span></span>
+<span data-ttu-id="9684b-112">**已啟用** (2) </span><span class="sxs-lookup"><span data-stu-id="9684b-112">**Enabled** (2)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Disabled"></span><span id="disabled"></span><span id="DISABLED"></span>
 
-<span data-ttu-id="a709c-113">**停用** (3) </span><span class="sxs-lookup"><span data-stu-id="a709c-113">**Disabled** (3)</span></span>
+<span data-ttu-id="9684b-113">**停用** (3) </span><span class="sxs-lookup"><span data-stu-id="9684b-113">**Disabled** (3)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Shut_Down"></span><span id="shut_down"></span><span id="SHUT_DOWN"></span>
 
-<span data-ttu-id="a709c-114">**關機** (4) </span><span class="sxs-lookup"><span data-stu-id="a709c-114">**Shut Down** (4)</span></span>
+<span data-ttu-id="9684b-114">**關機** (4) </span><span class="sxs-lookup"><span data-stu-id="9684b-114">**Shut Down** (4)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Offline"></span><span id="offline"></span><span id="OFFLINE"></span>
 
-<span data-ttu-id="a709c-115">**離線** (6) </span><span class="sxs-lookup"><span data-stu-id="a709c-115">**Offline** (6)</span></span>
+<span data-ttu-id="9684b-115">**離線** (6) </span><span class="sxs-lookup"><span data-stu-id="9684b-115">**Offline** (6)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Test"></span><span id="test"></span><span id="TEST"></span>
 
-<span data-ttu-id="a709c-116">**測試** (7) </span><span class="sxs-lookup"><span data-stu-id="a709c-116">**Test** (7)</span></span>
+<span data-ttu-id="9684b-116">**測試** (7) </span><span class="sxs-lookup"><span data-stu-id="9684b-116">**Test** (7)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Defer"></span><span id="defer"></span><span id="DEFER"></span>
 
-<span data-ttu-id="a709c-117">**延** 後 (8) </span><span class="sxs-lookup"><span data-stu-id="a709c-117">**Defer** (8)</span></span>
+<span data-ttu-id="9684b-117">**延** 後 (8) </span><span class="sxs-lookup"><span data-stu-id="9684b-117">**Defer** (8)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Quiesce"></span><span id="quiesce"></span><span id="QUIESCE"></span>
 
-<span data-ttu-id="a709c-118">**靜止** (9) </span><span class="sxs-lookup"><span data-stu-id="a709c-118">**Quiesce** (9)</span></span>
+<span data-ttu-id="9684b-118">**靜止** (9) </span><span class="sxs-lookup"><span data-stu-id="9684b-118">**Quiesce** (9)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Reboot"></span><span id="reboot"></span><span id="REBOOT"></span>
 
-<span data-ttu-id="a709c-119">**重新開機** (10) </span><span class="sxs-lookup"><span data-stu-id="a709c-119">**Reboot** (10)</span></span>
+<span data-ttu-id="9684b-119">**重新開機** (10) </span><span class="sxs-lookup"><span data-stu-id="9684b-119">**Reboot** (10)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Reset"></span><span id="reset"></span><span id="RESET"></span>
 
-<span data-ttu-id="a709c-120">**重設** (11) </span><span class="sxs-lookup"><span data-stu-id="a709c-120">**Reset** (11)</span></span>
+<span data-ttu-id="9684b-120">**重設** (11) </span><span class="sxs-lookup"><span data-stu-id="9684b-120">**Reset** (11)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="DMTF_Reserved"></span><span id="dmtf_reserved"></span><span id="DMTF_RESERVED"></span>
 
-<span data-ttu-id="a709c-121">**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="a709c-121">**DMTF Reserved** (..)</span></span>
+<span data-ttu-id="9684b-121">**DMTF 保留** ( .。。) </span><span class="sxs-lookup"><span data-stu-id="9684b-121">**DMTF Reserved** (..)</span></span>
 
 
 </dt> <dd></dd> <dt>
 
 <span id="Vendor_Reserved"></span><span id="vendor_reserved"></span><span id="VENDOR_RESERVED"></span>
 
-<span data-ttu-id="a709c-122">**廠商保留** (32768. 65535) </span><span class="sxs-lookup"><span data-stu-id="a709c-122">**Vendor Reserved** (32768..65535)</span></span>
+<span data-ttu-id="9684b-122">**廠商保留** (32768. 65535) </span><span class="sxs-lookup"><span data-stu-id="9684b-122">**Vendor Reserved** (32768..65535)</span></span>
 
 
 </dt> <dd></dd> </dl> </dd> <dt>
 
-<span data-ttu-id="a709c-123">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="a709c-123">*Job* \[out\]</span></span>
+<span data-ttu-id="9684b-123">*作業* \[擴展\]</span><span class="sxs-lookup"><span data-stu-id="9684b-123">*Job* \[out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a709c-124">可能包含建立之 [**CIM \_ ConcreteJob**](cim-concretejob.md) 的參考，以追蹤方法調用所起始的狀態轉換。</span><span class="sxs-lookup"><span data-stu-id="a709c-124">May contain a reference to the [**CIM\_ConcreteJob**](cim-concretejob.md) created to track the state transition initiated by the method invocation.</span></span>
+<span data-ttu-id="9684b-124">可能包含建立之 [**CIM \_ ConcreteJob**](cim-concretejob.md) 的參考，以追蹤方法調用所起始的狀態轉換。</span><span class="sxs-lookup"><span data-stu-id="9684b-124">May contain a reference to the [**CIM\_ConcreteJob**](cim-concretejob.md) created to track the state transition initiated by the method invocation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a709c-125">*TimeoutPeriod* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a709c-125">*TimeoutPeriod* \[in\]</span></span>
+<span data-ttu-id="9684b-125">*TimeoutPeriod* \[在\]</span><span class="sxs-lookup"><span data-stu-id="9684b-125">*TimeoutPeriod* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a709c-126">指定用戶端預期轉換至新狀態所需的最大時間量的超時時間。</span><span class="sxs-lookup"><span data-stu-id="a709c-126">A timeout period that specifies the maximum amount of time that the client expects the transition to the new state to take.</span></span> <span data-ttu-id="a709c-127">間隔格式必須用來指定 **TimeoutPeriod**。</span><span class="sxs-lookup"><span data-stu-id="a709c-127">The interval format must be used to specify the **TimeoutPeriod**.</span></span> <span data-ttu-id="a709c-128">值為0或 null 參數表示用戶端沒有轉換的時間需求。</span><span class="sxs-lookup"><span data-stu-id="a709c-128">A value of 0 or a null parameter indicates that the client has no time requirements for the transition.</span></span>
+<span data-ttu-id="9684b-126">指定用戶端預期轉換至新狀態所需的最大時間量的超時時間。</span><span class="sxs-lookup"><span data-stu-id="9684b-126">A timeout period that specifies the maximum amount of time that the client expects the transition to the new state to take.</span></span> <span data-ttu-id="9684b-127">間隔格式必須用來指定 **TimeoutPeriod**。</span><span class="sxs-lookup"><span data-stu-id="9684b-127">The interval format must be used to specify the **TimeoutPeriod**.</span></span> <span data-ttu-id="9684b-128">值為0或 null 參數表示用戶端沒有轉換的時間需求。</span><span class="sxs-lookup"><span data-stu-id="9684b-128">A value of 0 or a null parameter indicates that the client has no time requirements for the transition.</span></span>
 
-<span data-ttu-id="a709c-129">如果這個屬性不包含0或 null，且執行不支援這個參數，則應該傳回「不支援使用 Timeout 參數」的傳回碼。</span><span class="sxs-lookup"><span data-stu-id="a709c-129">If this property does not contain 0 or null and the implementation does not support this parameter, a return code of 'Use Of Timeout Parameter Not Supported' shall be returned.</span></span>
+<span data-ttu-id="9684b-129">如果這個屬性不包含0或 null，且執行不支援這個參數，則應該傳回「不支援使用 Timeout 參數」的傳回碼。</span><span class="sxs-lookup"><span data-stu-id="9684b-129">If this property does not contain 0 or null and the implementation does not support this parameter, a return code of 'Use Of Timeout Parameter Not Supported' shall be returned.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="a709c-130">傳回值</span><span class="sxs-lookup"><span data-stu-id="a709c-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="9684b-130">傳回值</span><span class="sxs-lookup"><span data-stu-id="9684b-130">Return value</span></span>
 
-<span data-ttu-id="a709c-131">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="a709c-131">This method returns one of the following values:</span></span>
+<span data-ttu-id="9684b-131">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="9684b-131">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a709c-132">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="a709c-132">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="9684b-132">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="9684b-132">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="a709c-133">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="a709c-133">**Not supported** (1)</span></span>
+<span data-ttu-id="9684b-133">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="9684b-133">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="a709c-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="a709c-134">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="9684b-134">規格需求</span><span class="sxs-lookup"><span data-stu-id="9684b-134">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a709c-135">需求</span><span class="sxs-lookup"><span data-stu-id="a709c-135">Requirement</span></span> | <span data-ttu-id="a709c-136">值</span><span class="sxs-lookup"><span data-stu-id="a709c-136">Value</span></span> |
+| <span data-ttu-id="9684b-135">需求</span><span class="sxs-lookup"><span data-stu-id="9684b-135">Requirement</span></span> | <span data-ttu-id="9684b-136">值</span><span class="sxs-lookup"><span data-stu-id="9684b-136">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a709c-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a709c-137">Minimum supported client</span></span><br/> | <span data-ttu-id="a709c-138">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="a709c-138">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="a709c-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a709c-139">Minimum supported server</span></span><br/> | <span data-ttu-id="a709c-140">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="a709c-140">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="a709c-141">命名空間</span><span class="sxs-lookup"><span data-stu-id="a709c-141">Namespace</span></span><br/>                | <span data-ttu-id="a709c-142">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="a709c-142">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="a709c-143">MOF</span><span class="sxs-lookup"><span data-stu-id="a709c-143">MOF</span></span><br/>                      | <dl> <span data-ttu-id="a709c-144"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="a709c-144"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="a709c-145">DLL</span><span class="sxs-lookup"><span data-stu-id="a709c-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="a709c-146"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="a709c-146"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="9684b-137">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="9684b-137">Minimum supported client</span></span><br/> | <span data-ttu-id="9684b-138">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="9684b-138">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="9684b-139">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="9684b-139">Minimum supported server</span></span><br/> | <span data-ttu-id="9684b-140">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="9684b-140">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="9684b-141">命名空間</span><span class="sxs-lookup"><span data-stu-id="9684b-141">Namespace</span></span><br/>                | <span data-ttu-id="9684b-142">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="9684b-142">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="9684b-143">MOF</span><span class="sxs-lookup"><span data-stu-id="9684b-143">MOF</span></span><br/>                      | <dl> <span data-ttu-id="9684b-144"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="9684b-144"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="9684b-145">DLL</span><span class="sxs-lookup"><span data-stu-id="9684b-145">DLL</span></span><br/>                      | <dl> <span data-ttu-id="9684b-146"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="9684b-146"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a709c-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a709c-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9684b-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9684b-147">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a709c-148">**Msvm \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="a709c-148">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
+[<span data-ttu-id="9684b-148">**Msvm \_ VssComponent**</span><span class="sxs-lookup"><span data-stu-id="9684b-148">**Msvm\_VssComponent**</span></span>](msvm-vsscomponent.md)
 </dt> </dl>
 
  
