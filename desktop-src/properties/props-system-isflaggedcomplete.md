@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. IsFlaggedComplete
 ms.assetid: a75660e7-d417-46ba-8222-bc827ebb5d75
 title: System. IsFlaggedComplete
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d144abf058b07ed9d278dd2ca331929e6851aad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8df1624955531590a6836a2d25e0327abacfbcff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086976"
 ---
 # <a name="systemisflaggedcomplete"></a>System. IsFlaggedComplete
 

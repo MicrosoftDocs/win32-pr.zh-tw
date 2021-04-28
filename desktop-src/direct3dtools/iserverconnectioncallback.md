@@ -1,5 +1,5 @@
 ---
-description: 未使用。
+description: <span id="vspixengine.iserverconnectioncallback"></span>IServerConnectionCallback 介面-未使用。
 MS-HAID: vspixengine.IServerConnectionCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: bdced979ce18a3a6cbb37bebf84efdfe1112d71b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb41908bd23fcd1c719b692f2680fd7d1dda3e77
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109049"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087906"
 ---
 # <a name="span-idvspixengineiserverconnectioncallbackspaniserverconnectioncallback-interface"></a><span id="vspixengine.iserverconnectioncallback"></span>IServerConnectionCallback 介面
 

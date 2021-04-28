@@ -1,15 +1,15 @@
 ---
-description: .
+description: 軟體
 ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: 軟體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59a0062c3c86da0a9da8f5c355543b01892bbbe8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c124f925a1047dc7be6e8ba2882a039895801ebe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847826"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113786"
 ---
 # <a name="software"></a>軟體
 

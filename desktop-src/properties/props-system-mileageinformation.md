@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. MileageInformation
 ms.assetid: 222ad000-5cd2-4f25-8267-8f68fb800cf4
 title: System. MileageInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce347479eef4f633f61164a401b9b53accda07d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25b5aa7d147bff83948402a37e649a505dadb011
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987502"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113946"
 ---
 # <a name="systemmileageinformation"></a>System. MileageInformation
 

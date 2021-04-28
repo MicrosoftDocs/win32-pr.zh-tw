@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. TransferOrder
 ms.assetid: fb2ff37c-cfee-498f-8fc3-5d73ee84bc84
 title: System. TransferOrder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b336de9d8d03113696575441b95fe39bf1036c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab5e18c3cff5622e444e22d65ca147a44c7099ce
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850432"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100766"
 ---
 # <a name="systemtransferorder"></a>System. TransferOrder
 

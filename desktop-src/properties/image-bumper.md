@@ -1,15 +1,15 @@
 ---
-description: .
+description: Image
 ms.assetid: 278eadc0-62ab-4b28-b238-93e96ce9da00
 title: " (Windows 屬性的影像) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34a17b39ad4cd3eecd659a6921de24403fe1f0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f63e3124bced4ed723c1e9f2d1ceaa3971b25ac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977251"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087467"
 ---
 # <a name="image"></a>Image
 

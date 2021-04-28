@@ -1,5 +1,5 @@
 ---
-description: GetIDsOfNames 方法會將一組名稱對應至一組對應的 Dispid。
+description: CBaseDispatch. GetIDsOfNames 方法-GetIDsOfNames 方法會將一組名稱對應至一組對應的 Dispid。
 ms.assetid: 0c0a2726-e89a-4eaf-aab0-e7e9e82e3c34
 title: 'CBaseDispatch. GetIDsOfNames 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cf11e4aa298f924b69c299c2f411dde88e28e5b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3f3b718c95d588ffdc7fa63902e6b26ffbf11fd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001500"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099916"
 ---
 # <a name="cbasedispatchgetidsofnames-method"></a>CBaseDispatch. GetIDsOfNames 方法
 

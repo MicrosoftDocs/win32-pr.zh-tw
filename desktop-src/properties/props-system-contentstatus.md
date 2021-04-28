@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. ContentStatus
 ms.assetid: 054cef58-bba4-44be-86e9-68419089612d
 title: System. ContentStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9db9f83fa7aa3653196e78e8d277c4d658f3904
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 611567d1014343188ca95209fa54b188f316ef4e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101166"
 ---
 # <a name="systemcontentstatus"></a>System. ContentStatus
 

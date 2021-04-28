@@ -1,5 +1,5 @@
 ---
-description: 調整目前有關物件原點的矩陣。
+description: ID3DXMATRIXStack：： ScaleLocal 方法 (D3DX10. h) -調整目前有關物件原點的矩陣。
 ms.assetid: 748fce3a-a33c-4975-bbf0-dd3167a036f1
 title: 'ID3DXMATRIXStack：： ScaleLocal 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 868aae418ebedbc54cb8f15ba4fa4e11d47c7f50
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3961db0794703e3974dbd92d8eae8293173c2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854076"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107776"
 ---
 # <a name="id3dxmatrixstackscalelocal-method-d3dx10h"></a>ID3DXMATRIXStack：： ScaleLocal 方法 (D3DX10 .h) 
 

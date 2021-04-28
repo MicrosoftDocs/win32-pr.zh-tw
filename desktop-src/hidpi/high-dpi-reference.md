@@ -1,15 +1,15 @@
 ---
 title: 高 DPI 參考
-description: .
+description: 高 DPI 參考
 ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ec59f34aa5ed036d7f4376cb3d170b5d7849f4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9c10bcf5c5297b0adcfceef6853f2292c3fc8b98
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375009"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087796"
 ---
 # <a name="high-dpi-reference"></a>高 DPI 參考
 
@@ -51,7 +51,7 @@ ms.locfileid: "104375009"
 
 
 
- 
+ 
 
 ## <a name="types"></a>類型
 
@@ -70,7 +70,7 @@ ms.locfileid: "104375009"
 
 
 
- 
+ 
 
 ## <a name="messages"></a>訊息
 
@@ -86,8 +86,8 @@ ms.locfileid: "104375009"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

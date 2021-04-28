@@ -1,5 +1,5 @@
 ---
-description: QueryStatus 方法會捕獲 NPP 的狀態。
+description: IStats：： QueryStatus 方法-QueryStatus 方法會抓取 NPP 的狀態。
 ms.assetid: 86b1c1ee-3a35-4603-9e93-fe09f886c32f
 title: 'IStats：： QueryStatus 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 02e013d87734b61ad26b6563c402db1b8d4cb4f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7587c2fff56d305c0298948bdf8690fd801f3f3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695867"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113476"
 ---
 # <a name="istatsquerystatus-method"></a>IStats：： QueryStatus 方法
 

@@ -1,15 +1,15 @@
 ---
 title: 原始輸入結構
-description: .
+description: 原始輸入結構
 ms.assetid: e6ea3fde-98a0-4eab-888d-647a6b0eb1e2
 ms.topic: article
 ms.date: 03/25/2020
-ms.openlocfilehash: 21e710db829d9d7cc8e2c0512a75f9b74a062e2d
-ms.sourcegitcommit: 49fcf18843e2325d01a489e2d969c786381ba04b
+ms.openlocfilehash: 1fe86112465cd94150c0b628e67ded393c69290c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "104092568"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087676"
 ---
 # <a name="raw-input-structures"></a>原始輸入結構
 

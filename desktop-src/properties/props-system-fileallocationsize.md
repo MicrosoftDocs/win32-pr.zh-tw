@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. FileAllocationSize
 ms.assetid: ca3290ce-5690-44e1-80fd-0524a13ced5d
 title: System. FileAllocationSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7395b582317b6cc6bf5924201529b54833102a56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf41fdc5f319ad350ba8a5e8712667c897650fea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100946"
 ---
 # <a name="systemfileallocationsize"></a>System. FileAllocationSize
 

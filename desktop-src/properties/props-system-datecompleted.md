@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. DateCompleted
 ms.assetid: 64be5d80-68d2-437b-8018-5812ce606a15
 title: System. DateCompleted
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 971017665419602019a111efdcfef30df18cdf71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e12d5e980b72c6feebc86fd0c6ca0b0f665acbba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319080"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101148"
 ---
 # <a name="systemdatecompleted"></a>System. DateCompleted
 

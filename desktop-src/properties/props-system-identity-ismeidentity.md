@@ -1,15 +1,15 @@
 ---
-description: .
+description: IsMeIdentity
 ms.assetid: 4aae7a73-e0e9-4e11-811b-4a7a936b8084
 title: IsMeIdentity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d92cd83ab70022d44899bd3b87c69963c145cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dec28411b1b901bd14780f042b1466604105440
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087046"
 ---
 # <a name="systemidentityismeidentity"></a>IsMeIdentity
 

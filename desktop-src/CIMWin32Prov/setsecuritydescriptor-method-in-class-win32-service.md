@@ -1,5 +1,5 @@
 ---
-description: 寫入安全描述項的更新版本，以控制服務的存取權。
+description: Win32_Service 類別的 SetSecurityDescriptor 方法 (CIMWin32 WMI 提供者) -寫入控制存取服務的安全描述項更新版本。
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 SetSecurityDescriptor 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 82c08f9c560a1d8e419d9a8f6474f8ea9db4e541
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 20619a459171841d0a3bd5b7acabe984dc835dac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972793"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100000"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 SetSecurityDescriptor 方法) 
 

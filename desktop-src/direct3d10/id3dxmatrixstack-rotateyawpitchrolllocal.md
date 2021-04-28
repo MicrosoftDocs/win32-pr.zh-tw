@@ -1,5 +1,5 @@
 ---
-description: 在任意軸周圍) 旋轉 (相對於物件的區域座標空間。
+description: ID3DXMATRIXStack：： RotateYawPitchRollLocal 方法 (D3DX10 .h) -將 (相對於物件的區域座標空間) 圍繞任意軸。
 ms.assetid: da023816-5176-460d-ab6b-909b89cc46cd
 title: 'ID3DXMATRIXStack：： RotateYawPitchRollLocal 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2a7b9e08adb7e66f78b3823c71e07fadfd561201
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 726a6d7092b95f53d17625f68884b92d347de3a6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696856"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107836"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchrolllocal-method-d3dx10h"></a>ID3DXMATRIXStack：： RotateYawPitchRollLocal 方法 (D3DX10 .h) 
 

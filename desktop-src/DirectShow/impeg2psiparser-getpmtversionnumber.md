@@ -1,5 +1,5 @@
 ---
-description: 此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
+description: IMpeg2PsiParser：： GetPmtVersionNumber 方法-此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
 ms.assetid: 50113d6b-4e10-4dc9-aaef-f67c6918a2de
 title: IMpeg2PsiParser：： GetPmtVersionNumber 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3af4b20067af52216181848f4cc63ac5a7784ba9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6f4fd8d0eba88ba1df54a1cc058bc0a2951b9a19
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106984538"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084556"
 ---
 # <a name="impeg2psiparsergetpmtversionnumber-method"></a>IMpeg2PsiParser：： GetPmtVersionNumber 方法
 

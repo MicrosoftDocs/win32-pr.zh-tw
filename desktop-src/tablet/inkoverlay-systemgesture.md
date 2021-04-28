@@ -1,15 +1,15 @@
 ---
-description: 在辨識系統手勢時發生。
+description: InkOverlay.SystemGesture 事件-在辨識系統手勢時發生。
 ms.assetid: 6f82b234-2088-4207-a6b4-6c6919623d6a
 title: 'InkOverlay.SystemGesture 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b1e6ac7c02bc308856a89043bc0b1824b0fab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3498d6b5fa779f6a15866ac93d53be8348f3d1a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984210"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086666"
 ---
 # <a name="inkoverlaysystemgesture-event"></a>InkOverlay.SystemGesture 事件
 

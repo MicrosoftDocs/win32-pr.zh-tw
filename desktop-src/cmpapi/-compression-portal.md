@@ -1,15 +1,15 @@
 ---
-description: .
+description: 壓縮 API
 ms.assetid: 3ef35cd0-3742-4fc2-9c06-e0485d3538f2
 title: 壓縮 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e23493310643ad83dc476c31c094dfe336f910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7e088b37bbe2ba652379a2d90e6e1e21f87a2e68
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111460"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087986"
 ---
 # <a name="compression-api"></a>壓縮 API
 

@@ -1,5 +1,5 @@
 ---
-description: 取得頂點宣告。
+description: ID3DXSkinInfo：： GetDeclaration 方法-取得頂點宣告。
 ms.assetid: 49738e9b-09cb-489f-b9af-32d220fbede8
 title: 'ID3DXSkinInfo：： GetDeclaration 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: de80694bbbb6eea29f391b3b39cff9caacd4791c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 83554b13fe8e20890b1edecd690c540c2e14d4d7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322603"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093136"
 ---
 # <a name="id3dxskininfogetdeclaration-method"></a>ID3DXSkinInfo：： GetDeclaration 方法
 

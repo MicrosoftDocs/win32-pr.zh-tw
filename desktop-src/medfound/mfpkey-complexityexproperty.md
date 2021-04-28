@@ -1,15 +1,15 @@
 ---
-description: 指定編碼器演算法的複雜度。
+description: MFPKEY_COMPLEXITYEX 屬性-指定編碼器演算法的複雜度。
 ms.assetid: abfc84d5-954f-4524-b3cb-5c5b9cfc7fa0
 title: 'MFPKEY_COMPLEXITYEX 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 34b935f41ce14a77a135d0bbc8ad6dec2933b570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20579bcf7a06dc11f47cbef6a53629f3a36b48dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192272"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087606"
 ---
 # <a name="mfpkey_complexityex-property"></a>MFPKEY \_ COMPLEXITYEX 屬性
 

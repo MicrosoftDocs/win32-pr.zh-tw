@@ -1,5 +1,5 @@
 ---
-description: 在任意軸周圍) 旋轉 (相對於物件的區域座標空間。
+description: ID3DXMATRIXStack：： RotateAxisLocal 方法 (D3dx9math .h) -將 (相對於物件的區域座標空間) 圍繞任意軸。
 ms.assetid: c7ef11e9-f4c4-4801-8f25-190066baeb52
 title: 'ID3DXMATRIXStack：： RotateAxisLocal 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8488f6314eb926495baa2e42df9ea01616131507
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0bfcfd7301f90dcf49b03e7bbb3fd7e3b0de6c3e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981817"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093466"
 ---
 # <a name="id3dxmatrixstackrotateaxislocal-method-d3dx9mathh"></a>ID3DXMATRIXStack：： RotateAxisLocal 方法 (D3dx9math .h) 
 

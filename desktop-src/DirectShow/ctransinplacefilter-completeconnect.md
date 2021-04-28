@@ -1,5 +1,5 @@
 ---
-description: CompleteConnect 方法會完成 pin 連接。
+description: CTransInPlaceFilter. CompleteConnect 方法-CompleteConnect 方法會完成 pin 連接。
 ms.assetid: 0c02c455-dbd0-4606-b1b1-f965c2a5805b
 title: 'CTransInPlaceFilter. CompleteConnect 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4fdc9d1d5567cda2e4b0fd4a351136405493ef61
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d9cc0bc839a4e35c4ce896acdf50da10f0c2bb0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981401"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084786"
 ---
 # <a name="ctransinplacefiltercompleteconnect-method"></a>CTransInPlaceFilter. CompleteConnect 方法
 

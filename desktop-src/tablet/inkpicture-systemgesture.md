@@ -1,15 +1,15 @@
 ---
-description: 在辨識系統手勢時發生。
+description: InkPicture.SystemGesture 事件-在辨識系統手勢時發生。
 ms.assetid: 36e2ac5a-dc91-47c2-a8e5-e555437c0a5d
 title: 'InkPicture.SystemGesture 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 918198e4d18a854bb4238ce9d878dc70ab1f2f82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cde11b73b6b0d3861a79538a7f9ee19487b6384
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980053"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113686"
 ---
 # <a name="inkpicturesystemgesture-event"></a>InkPicture.SystemGesture 事件
 

@@ -1,15 +1,15 @@
 ---
-description: 當出現無線封包時發生。
+description: NewInAirPackets 事件-當出現無線封包時，就會發生此事件。
 ms.assetid: 10dc1909-bfbc-4ea0-b77a-e33149205107
 title: 'NewInAirPackets 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ac030a2e32ecf662d811a3c91ccdc2dd3c5fd03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f39e568941b1af0727ad9c8464913325409b4604
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194422"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086706"
 ---
 # <a name="inkoverlaynewinairpackets-event"></a>NewInAirPackets 事件
 

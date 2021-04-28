@@ -1,15 +1,15 @@
 ---
-description: 指定來源矩形的上邊緣（以圖元為單位）。
+description: MFPKEY_RESIZE_SRC_TOP 屬性-指定來源矩形的上邊緣（以圖元為單位）。
 ms.assetid: 12791b9f-4b00-4697-ae3c-8fc069568c82
 title: 'MFPKEY_RESIZE_SRC_TOP 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ef563c670ae172a5d4e66b38b95563760f3a7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61fecf9348dc3d0e55a0a88cc9cac3440ca98e24
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989342"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092846"
 ---
 # <a name="mfpkey_resize_src_top-property"></a>MFPKEY \_ 調整 \_ SRC \_ TOP 屬性的大小
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統音樂編輯器
 ms.assetid: 60eda2b4-2631-41dc-94ee-181a69e9c5f4
 title: 系統音樂編輯器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 793d2215e98ee6bc3afff8672d1942ea5bc527dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86006f7f6271588bd154bfc5558072fe03813f39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969330"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113906"
 ---
 # <a name="systemmusiccomposer"></a>系統音樂編輯器
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。PageCount
 ms.assetid: a812f2b2-fde8-432a-bd1b-1c13d7cbb573
 title: System.Doc>ument。PageCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f54c124ef376c0b487a4511ee3094b9202f917f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab87b14a18d7421c108b0c9b08aa93d5ee072eb6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193959"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101056"
 ---
 # <a name="systemdocumentpagecount"></a>System.Doc>ument。PageCount
 

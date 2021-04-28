@@ -1,5 +1,5 @@
 ---
-description: 這個類別是影像載入事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: Image_V0 類別-這個類別是影像載入事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: d35b14c7-ab76-4fed-a1cc-6215a13e8451
 title: Image_V0 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: f92e04d2557d0805e4616d8ad71aacbacc9b3300
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e13cb3969fe09639bab7f9e39c46030d6ccd3576
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191164"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106510"
 ---
 # <a name="image_v0-class"></a>影像 \_ V0 類別
 

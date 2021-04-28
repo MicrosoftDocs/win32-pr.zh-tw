@@ -1,5 +1,5 @@
 ---
-description: 參考計數。
+description: CUnknown：： m_cRef 成員參考計數。
 ms.assetid: be619a85-ca73-4cee-9df7-20e7be21853b
 title: 'CUnknown：： m_cRef 成員 (Combase .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 94ff5d88ca48feeb46a8b0411a55d6261aefcf6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3f6be7d09149f651bce8d1042b7f3e3a5dc9307
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084576"
 ---
 # <a name="cunknownm_cref-member"></a>CUnknown：： m \_ cRef 成員
 

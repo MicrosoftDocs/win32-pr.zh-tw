@@ -1,5 +1,5 @@
 ---
-description: 建立自訂、左方的正向投射矩陣。
+description: D3DXMatrixOrthoOffCenterLH 函式 (D3dx9math) -建立自訂的左手投影投射矩陣。
 ms.assetid: e4f087e5-63d9-49ca-9d8e-3a25070e1a51
 title: 'D3DXMatrixOrthoOffCenterLH 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1e286197233b2abb2b19138b8fc9d154df355a6a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 704bdab1d486399b28117cd078f556beb1347f7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946190"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107486"
 ---
 # <a name="d3dxmatrixorthooffcenterlh-function-d3dx9mathh"></a>D3DXMatrixOrthoOffCenterLH 函式 (D3dx9math) 
 

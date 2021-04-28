@@ -1,15 +1,15 @@
 ---
-description: 指定目的地矩形的上邊緣（以圖元為單位）。
+description: MFPKEY_COLORCONV_DSTTOP 屬性-指定目的地矩形的上邊緣（以圖元為單位）。
 ms.assetid: e3ccbb23-0be3-4316-9e5f-0094fdb9e2db
 title: 'MFPKEY_COLORCONV_DSTTOP 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec2fb546c4671c7f4daf1e39ae8411839e94bc6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f28c1e49c5ef7cbb52bc7239fa787f89cbb04b5c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513116"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087646"
 ---
 # <a name="mfpkey_colorconv_dsttop-property"></a>MFPKEY \_ COLORCONV \_ DSTTOP 屬性
 

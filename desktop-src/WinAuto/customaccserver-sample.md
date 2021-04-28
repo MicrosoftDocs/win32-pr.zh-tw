@@ -1,15 +1,15 @@
 ---
 title: CustomAccServer 範例
-description: .
+description: CustomAccServer 範例
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c047bde41bdf4a486e14ce6f293113a41ae9e285
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 9f7f8ee7d82361177af07aa7ad53a6137c39bc38
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374642"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088006"
 ---
 # <a name="customaccserver-sample"></a>CustomAccServer 範例
 
@@ -38,7 +38,7 @@ CustomAccServer 範例會安裝為 [Microsoft Windows 軟體開發套件 (SDK) ]
 
 
 
- 
+ 
 
 ## <a name="minimum-requirements"></a>最低需求
 
@@ -52,7 +52,7 @@ CustomAccServer 範例會安裝為 [Microsoft Windows 軟體開發套件 (SDK) ]
 
 
 
- 
+ 
 
 ## <a name="building-the-sample"></a>建立範例
 
@@ -81,9 +81,9 @@ CustomAccServer 範例會安裝為 [Microsoft Windows 軟體開發套件 (SDK) ]
 [範例](samples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

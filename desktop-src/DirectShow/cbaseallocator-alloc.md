@@ -1,5 +1,5 @@
 ---
-description: 配置方法會為緩衝區配置記憶體。
+description: CBaseAllocator 配置方法-配置方法會為緩衝區配置記憶體。
 ms.assetid: a22c97ef-6a8d-4cad-b5a5-3e6b225f5c81
 title: 'CBaseAllocator 方法 (Amfilter) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b7510a108e69eb218a894b67dd5b62d94bfdbe6c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b53dc461a520b4e8c890a36fca6d73c2c836499f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985731"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096365"
 ---
 # <a name="cbaseallocatoralloc-method"></a>CBaseAllocator 方法
 

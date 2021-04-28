@@ -1,5 +1,5 @@
 ---
-description: CompleteConnect 方法會完成與另一個 pin 的連接。
+description: CTransformOutputPin. CompleteConnect 方法-CompleteConnect 方法會完成與另一個 pin 的連接。
 ms.assetid: 14bc48bc-ddfb-4491-8d5b-9e5ac601ba04
 title: 'CTransformOutputPin. CompleteConnect 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8d0c9c9fc7096191d7cdedffa21e2639fa0750ca
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7ab3d7e56473094b31c0d97d0e15c083ff61a21d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995086"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094916"
 ---
 # <a name="ctransformoutputpincompleteconnect-method"></a>CTransformOutputPin. CompleteConnect 方法
 
