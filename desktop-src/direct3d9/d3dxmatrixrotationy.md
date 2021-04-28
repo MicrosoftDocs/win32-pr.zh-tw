@@ -1,5 +1,5 @@
 ---
-description: 建立圍繞 y 軸旋轉的矩陣。
+description: D3DXMatrixRotationY 函式 (D3dx9math) -建立圍繞 y 軸旋轉的矩陣。
 ms.assetid: 80449e5d-f9bb-48c0-a787-a5e5a9d1c9a3
 title: 'D3DXMatrixRotationY 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 81e233f3d643e99c829c7d567721e52b9b5d3e82
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 902325890b02416e796940388bca7a6548773be5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323140"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118126"
 ---
-# <a name="d3dxmatrixrotationy-function-d3dx9mathh"></a><span data-ttu-id="728cb-103">D3DXMatrixRotationY 函式 (D3dx9math) </span><span class="sxs-lookup"><span data-stu-id="728cb-103">D3DXMatrixRotationY function (D3dx9math.h)</span></span>
+# <a name="d3dxmatrixrotationy-function-d3dx9mathh"></a><span data-ttu-id="b5aa7-103">D3DXMatrixRotationY 函式 (D3dx9math) </span><span class="sxs-lookup"><span data-stu-id="b5aa7-103">D3DXMatrixRotationY function (D3dx9math.h)</span></span>
 
-<span data-ttu-id="728cb-104">建立圍繞 y 軸旋轉的矩陣。</span><span class="sxs-lookup"><span data-stu-id="728cb-104">Builds a matrix that rotates around the y-axis.</span></span>
+<span data-ttu-id="b5aa7-104">建立圍繞 y 軸旋轉的矩陣。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-104">Builds a matrix that rotates around the y-axis.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="728cb-105">語法</span><span class="sxs-lookup"><span data-stu-id="728cb-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5aa7-105">語法</span><span class="sxs-lookup"><span data-stu-id="b5aa7-105">Syntax</span></span>
 
 
 ```C++
@@ -37,69 +37,69 @@ D3DXMATRIX* D3DXMatrixRotationY(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="728cb-106">參數</span><span class="sxs-lookup"><span data-stu-id="728cb-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b5aa7-106">參數</span><span class="sxs-lookup"><span data-stu-id="b5aa7-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="728cb-107">*不悅* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="728cb-107">*pOut* \[in, out\]</span></span>
+<span data-ttu-id="b5aa7-107">*不悅* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="b5aa7-107">*pOut* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="728cb-108">類型： **[ **D3DXMATRIX**](d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="728cb-108">Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
+<span data-ttu-id="b5aa7-108">類型： **[ **D3DXMATRIX**](d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="b5aa7-108">Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
 
-<span data-ttu-id="728cb-109">[**D3DXMATRIX**](d3dxmatrix.md)結構的指標，此結構是作業的結果。</span><span class="sxs-lookup"><span data-stu-id="728cb-109">Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of the operation.</span></span>
+<span data-ttu-id="b5aa7-109">[**D3DXMATRIX**](d3dxmatrix.md)結構的指標，此結構是作業的結果。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-109">Pointer to the [**D3DXMATRIX**](d3dxmatrix.md) structure that is the result of the operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="728cb-110">*角度* \[在\]</span><span class="sxs-lookup"><span data-stu-id="728cb-110">*Angle* \[in\]</span></span>
+<span data-ttu-id="b5aa7-110">*角度* \[在\]</span><span class="sxs-lookup"><span data-stu-id="b5aa7-110">*Angle* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="728cb-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="728cb-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="b5aa7-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="728cb-112">旋轉的角度，以弧度為單位。</span><span class="sxs-lookup"><span data-stu-id="728cb-112">Angle of rotation in radians.</span></span> <span data-ttu-id="728cb-113">沿著旋轉軸向原點方向看時，角度是順時針方向測量。</span><span class="sxs-lookup"><span data-stu-id="728cb-113">Angles are measured clockwise when looking along the rotation axis toward the origin.</span></span>
+<span data-ttu-id="b5aa7-112">旋轉的角度，以弧度為單位。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-112">Angle of rotation in radians.</span></span> <span data-ttu-id="b5aa7-113">沿著旋轉軸向原點方向看時，角度是順時針方向測量。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-113">Angles are measured clockwise when looking along the rotation axis toward the origin.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="728cb-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="728cb-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b5aa7-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="b5aa7-114">Return value</span></span>
 
-<span data-ttu-id="728cb-115">類型： **[ **D3DXMATRIX**](d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="728cb-115">Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
+<span data-ttu-id="b5aa7-115">類型： **[ **D3DXMATRIX**](d3dxmatrix.md)\***</span><span class="sxs-lookup"><span data-stu-id="b5aa7-115">Type: **[**D3DXMATRIX**](d3dxmatrix.md)\***</span></span>
 
-<span data-ttu-id="728cb-116">圍繞 y 軸旋轉之 [**D3DXMATRIX**](d3dxmatrix.md) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="728cb-116">Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure rotated around the y-axis.</span></span>
+<span data-ttu-id="b5aa7-116">圍繞 y 軸旋轉之 [**D3DXMATRIX**](d3dxmatrix.md) 結構的指標。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-116">Pointer to a [**D3DXMATRIX**](d3dxmatrix.md) structure rotated around the y-axis.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="728cb-117">備註</span><span class="sxs-lookup"><span data-stu-id="728cb-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5aa7-117">備註</span><span class="sxs-lookup"><span data-stu-id="b5aa7-117">Remarks</span></span>
 
-<span data-ttu-id="728cb-118">此函式的傳回值與 *不悅* 參數中所傳回的值相同。</span><span class="sxs-lookup"><span data-stu-id="728cb-118">The return value for this function is the same value returned in the *pOut* parameter.</span></span> <span data-ttu-id="728cb-119">如此一來， **D3DXMatrixRotationY** 函式就可以用來做為另一個函式的參數。</span><span class="sxs-lookup"><span data-stu-id="728cb-119">In this way, the **D3DXMatrixRotationY** function can be used as a parameter for another function.</span></span>
+<span data-ttu-id="b5aa7-118">此函式的傳回值與 *不悅* 參數中所傳回的值相同。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-118">The return value for this function is the same value returned in the *pOut* parameter.</span></span> <span data-ttu-id="b5aa7-119">如此一來， **D3DXMatrixRotationY** 函式就可以用來做為另一個函式的參數。</span><span class="sxs-lookup"><span data-stu-id="b5aa7-119">In this way, the **D3DXMatrixRotationY** function can be used as a parameter for another function.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="728cb-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="728cb-120">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="b5aa7-120">規格需求</span><span class="sxs-lookup"><span data-stu-id="b5aa7-120">Requirements</span></span>
 
 
 
-| <span data-ttu-id="728cb-121">需求</span><span class="sxs-lookup"><span data-stu-id="728cb-121">Requirement</span></span> | <span data-ttu-id="728cb-122">值</span><span class="sxs-lookup"><span data-stu-id="728cb-122">Value</span></span> |
+| <span data-ttu-id="b5aa7-121">需求</span><span class="sxs-lookup"><span data-stu-id="b5aa7-121">Requirement</span></span> | <span data-ttu-id="b5aa7-122">值</span><span class="sxs-lookup"><span data-stu-id="b5aa7-122">Value</span></span> |
 |--------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="728cb-123">標頭</span><span class="sxs-lookup"><span data-stu-id="728cb-123">Header</span></span><br/>  | <dl> <span data-ttu-id="728cb-124"><dt>D3dx9math。h</dt></span><span class="sxs-lookup"><span data-stu-id="728cb-124"><dt>D3dx9math.h</dt></span></span> </dl> |
-| <span data-ttu-id="728cb-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="728cb-125">Library</span></span><br/> | <dl> <span data-ttu-id="728cb-126"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="728cb-126"><dt>D3dx9.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="b5aa7-123">標頭</span><span class="sxs-lookup"><span data-stu-id="b5aa7-123">Header</span></span><br/>  | <dl> <span data-ttu-id="b5aa7-124"><dt>D3dx9math。h</dt></span><span class="sxs-lookup"><span data-stu-id="b5aa7-124"><dt>D3dx9math.h</dt></span></span> </dl> |
+| <span data-ttu-id="b5aa7-125">程式庫</span><span class="sxs-lookup"><span data-stu-id="b5aa7-125">Library</span></span><br/> | <dl> <span data-ttu-id="b5aa7-126"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="b5aa7-126"><dt>D3dx9.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="728cb-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="728cb-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b5aa7-127">另請參閱</span><span class="sxs-lookup"><span data-stu-id="b5aa7-127">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="728cb-128">數學函數</span><span class="sxs-lookup"><span data-stu-id="728cb-128">Math Functions</span></span>](dx9-graphics-reference-d3dx-functions-math.md)
+[<span data-ttu-id="b5aa7-128">數學函數</span><span class="sxs-lookup"><span data-stu-id="b5aa7-128">Math Functions</span></span>](dx9-graphics-reference-d3dx-functions-math.md)
 </dt> <dt>
 
-[<span data-ttu-id="728cb-129">**D3DXMatrixRotationAxis**</span><span class="sxs-lookup"><span data-stu-id="728cb-129">**D3DXMatrixRotationAxis**</span></span>](d3dxmatrixrotationaxis.md)
+[<span data-ttu-id="b5aa7-129">**D3DXMatrixRotationAxis**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-129">**D3DXMatrixRotationAxis**</span></span>](d3dxmatrixrotationaxis.md)
 </dt> <dt>
 
-[<span data-ttu-id="728cb-130">**D3DXMatrixRotationQuaternion**</span><span class="sxs-lookup"><span data-stu-id="728cb-130">**D3DXMatrixRotationQuaternion**</span></span>](d3dxmatrixrotationquaternion.md)
+[<span data-ttu-id="b5aa7-130">**D3DXMatrixRotationQuaternion**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-130">**D3DXMatrixRotationQuaternion**</span></span>](d3dxmatrixrotationquaternion.md)
 </dt> <dt>
 
-[<span data-ttu-id="728cb-131">**D3DXMatrixRotationX**</span><span class="sxs-lookup"><span data-stu-id="728cb-131">**D3DXMatrixRotationX**</span></span>](d3dxmatrixrotationx.md)
+[<span data-ttu-id="b5aa7-131">**D3DXMatrixRotationX**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-131">**D3DXMatrixRotationX**</span></span>](d3dxmatrixrotationx.md)
 </dt> <dt>
 
-[<span data-ttu-id="728cb-132">**D3DXMatrixRotationYawPitchRoll**</span><span class="sxs-lookup"><span data-stu-id="728cb-132">**D3DXMatrixRotationYawPitchRoll**</span></span>](d3dxmatrixrotationyawpitchroll.md)
+[<span data-ttu-id="b5aa7-132">**D3DXMatrixRotationYawPitchRoll**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-132">**D3DXMatrixRotationYawPitchRoll**</span></span>](d3dxmatrixrotationyawpitchroll.md)
 </dt> <dt>
 
-[<span data-ttu-id="728cb-133">**D3DXMatrixRotationZ**</span><span class="sxs-lookup"><span data-stu-id="728cb-133">**D3DXMatrixRotationZ**</span></span>](d3dxmatrixrotationz.md)
+[<span data-ttu-id="b5aa7-133">**D3DXMatrixRotationZ**</span><span class="sxs-lookup"><span data-stu-id="b5aa7-133">**D3DXMatrixRotationZ**</span></span>](d3dxmatrixrotationz.md)
 </dt> </dl>
 
  
