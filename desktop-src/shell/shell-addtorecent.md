@@ -1,5 +1,5 @@
 ---
-description: 將檔案加入最近使用的 (MRU) 清單中。
+description: AddToRecent 方法-將檔案新增至最近使用的 (MRU) 清單中。
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
 title: 'AddToRecent 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c4372cc6cfac25f94e607f14734a9f544cd4fcbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 92ea7432c318939a01f86405ae33d8ac90b88c80
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973776"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083866"
 ---
-# <a name="shelladdtorecent-method"></a><span data-ttu-id="70dd2-103">AddToRecent 方法</span><span class="sxs-lookup"><span data-stu-id="70dd2-103">Shell.AddToRecent method</span></span>
+# <a name="shelladdtorecent-method"></a><span data-ttu-id="4786d-103">AddToRecent 方法</span><span class="sxs-lookup"><span data-stu-id="4786d-103">Shell.AddToRecent method</span></span>
 
-<span data-ttu-id="70dd2-104">將檔案加入最近使用的 (MRU) 清單中。</span><span class="sxs-lookup"><span data-stu-id="70dd2-104">Adds a file to the most recently used (MRU) list.</span></span>
+<span data-ttu-id="4786d-104">將檔案加入最近使用的 (MRU) 清單中。</span><span class="sxs-lookup"><span data-stu-id="4786d-104">Adds a file to the most recently used (MRU) list.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="70dd2-105">語法</span><span class="sxs-lookup"><span data-stu-id="70dd2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4786d-105">語法</span><span class="sxs-lookup"><span data-stu-id="4786d-105">Syntax</span></span>
 
 
 ```JScript
@@ -47,45 +47,45 @@ Shell.AddToRecent( _
 
 
 
-## <a name="parameters"></a><span data-ttu-id="70dd2-106">參數</span><span class="sxs-lookup"><span data-stu-id="70dd2-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4786d-106">參數</span><span class="sxs-lookup"><span data-stu-id="4786d-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="70dd2-107">*varFile* \[在\]</span><span class="sxs-lookup"><span data-stu-id="70dd2-107">*varFile* \[in\]</span></span>
+<span data-ttu-id="4786d-107">*varFile* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4786d-107">*varFile* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="70dd2-108">類型： **Variant**</span><span class="sxs-lookup"><span data-stu-id="70dd2-108">Type: **Variant**</span></span>
+<span data-ttu-id="4786d-108">類型： **Variant**</span><span class="sxs-lookup"><span data-stu-id="4786d-108">Type: **Variant**</span></span>
 
-<span data-ttu-id="70dd2-109">**字串**，其中包含要新增至最近使用之檔案清單的檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="70dd2-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
+<span data-ttu-id="4786d-109">**字串**，其中包含要新增至最近使用之檔案清單的檔案路徑。</span><span class="sxs-lookup"><span data-stu-id="4786d-109">A **String** that contains the path of the file to add to the list of recently used documents.</span></span>
 
-<span data-ttu-id="70dd2-110">**Windows Vista**：將此參數設定為 **null** 以清除 [最近使用的檔] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="70dd2-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
+<span data-ttu-id="4786d-110">**Windows Vista**：將此參數設定為 **null** 以清除 [最近使用的檔] 資料夾。</span><span class="sxs-lookup"><span data-stu-id="4786d-110">**Windows Vista**: Set this parameter to **null** to clear the recent documents folder.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="70dd2-111">*bstrCategory* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="70dd2-111">*bstrCategory* \[in, optional\]</span></span>
+<span data-ttu-id="4786d-111">*bstrCategory* \[在中，選擇性\]</span><span class="sxs-lookup"><span data-stu-id="4786d-111">*bstrCategory* \[in, optional\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="70dd2-112">類型： **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="70dd2-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
+<span data-ttu-id="4786d-112">類型： **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span><span class="sxs-lookup"><span data-stu-id="4786d-112">Type: **[**BSTR**](/previous-versions/windows/desktop/automat/bstr)**</span></span>
 
-<span data-ttu-id="70dd2-113">**字串**，其中包含要在其中放置檔案的類別目錄名稱。</span><span class="sxs-lookup"><span data-stu-id="70dd2-113">A **String** that contains the name of the category in which to place the file.</span></span>
+<span data-ttu-id="4786d-113">**字串**，其中包含要在其中放置檔案的類別目錄名稱。</span><span class="sxs-lookup"><span data-stu-id="4786d-113">A **String** that contains the name of the category in which to place the file.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="70dd2-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="70dd2-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4786d-114">傳回值</span><span class="sxs-lookup"><span data-stu-id="4786d-114">Return value</span></span>
 
-### <a name="jscript"></a><span data-ttu-id="70dd2-115">JScript</span><span class="sxs-lookup"><span data-stu-id="70dd2-115">JScript</span></span>
+### <a name="jscript"></a><span data-ttu-id="4786d-115">JScript</span><span class="sxs-lookup"><span data-stu-id="4786d-115">JScript</span></span>
 
-<span data-ttu-id="70dd2-116">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="70dd2-116">This method does not return a value.</span></span>
+<span data-ttu-id="4786d-116">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="4786d-116">This method does not return a value.</span></span>
 
-### <a name="vb"></a><span data-ttu-id="70dd2-117">VB</span><span class="sxs-lookup"><span data-stu-id="70dd2-117">VB</span></span>
+### <a name="vb"></a><span data-ttu-id="4786d-117">VB</span><span class="sxs-lookup"><span data-stu-id="4786d-117">VB</span></span>
 
-<span data-ttu-id="70dd2-118">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="70dd2-118">This method does not return a value.</span></span>
+<span data-ttu-id="4786d-118">這個方法不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="4786d-118">This method does not return a value.</span></span>
 
-## <a name="examples"></a><span data-ttu-id="70dd2-119">範例</span><span class="sxs-lookup"><span data-stu-id="70dd2-119">Examples</span></span>
+## <a name="examples"></a><span data-ttu-id="4786d-119">範例</span><span class="sxs-lookup"><span data-stu-id="4786d-119">Examples</span></span>
 
-<span data-ttu-id="70dd2-120">下列範例示範如何使用 JScript、VBScript 和 Visual Basic 的 **AddToRecent** 。</span><span class="sxs-lookup"><span data-stu-id="70dd2-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
+<span data-ttu-id="4786d-120">下列範例示範如何使用 JScript、VBScript 和 Visual Basic 的 **AddToRecent** 。</span><span class="sxs-lookup"><span data-stu-id="4786d-120">The following examples show the use of **AddToRecent** for JScript, VBScript, and Visual Basic.</span></span>
 
-<span data-ttu-id="70dd2-121">Jscript：</span><span class="sxs-lookup"><span data-stu-id="70dd2-121">JScript:</span></span>
+<span data-ttu-id="4786d-121">Jscript：</span><span class="sxs-lookup"><span data-stu-id="4786d-121">JScript:</span></span>
 
 
 ```JScript
@@ -113,7 +113,7 @@ Shell.AddToRecent( _
 
 
 
-<span data-ttu-id="70dd2-122">VBScript</span><span class="sxs-lookup"><span data-stu-id="70dd2-122">VBScript:</span></span>
+<span data-ttu-id="4786d-122">VBScript</span><span class="sxs-lookup"><span data-stu-id="4786d-122">VBScript:</span></span>
 
 
 ```VB
@@ -146,7 +146,7 @@ Shell.AddToRecent( _
 
 
 
-<span data-ttu-id="70dd2-123">Visual Basic：</span><span class="sxs-lookup"><span data-stu-id="70dd2-123">Visual Basic:</span></span>
+<span data-ttu-id="4786d-123">Visual Basic：</span><span class="sxs-lookup"><span data-stu-id="4786d-123">Visual Basic:</span></span>
 
 
 ```VB
@@ -174,17 +174,17 @@ End Sub
 
 
 
-## <a name="requirements"></a><span data-ttu-id="70dd2-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="70dd2-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4786d-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="4786d-124">Requirements</span></span>
 
 
 
-| <span data-ttu-id="70dd2-125">需求</span><span class="sxs-lookup"><span data-stu-id="70dd2-125">Requirement</span></span> | <span data-ttu-id="70dd2-126">值</span><span class="sxs-lookup"><span data-stu-id="70dd2-126">Value</span></span> |
+| <span data-ttu-id="4786d-125">需求</span><span class="sxs-lookup"><span data-stu-id="4786d-125">Requirement</span></span> | <span data-ttu-id="4786d-126">值</span><span class="sxs-lookup"><span data-stu-id="4786d-126">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="70dd2-127">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="70dd2-127">Minimum supported client</span></span><br/> | <span data-ttu-id="70dd2-128">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="70dd2-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
-| <span data-ttu-id="70dd2-129">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="70dd2-129">Minimum supported server</span></span><br/> | <span data-ttu-id="70dd2-130">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="70dd2-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
-| <span data-ttu-id="70dd2-131">標頭</span><span class="sxs-lookup"><span data-stu-id="70dd2-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="70dd2-132"><dt>Shldisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="70dd2-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
-| <span data-ttu-id="70dd2-133">Idl</span><span class="sxs-lookup"><span data-stu-id="70dd2-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="70dd2-134"><dt>Shldisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="70dd2-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
-| <span data-ttu-id="70dd2-135">DLL</span><span class="sxs-lookup"><span data-stu-id="70dd2-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="70dd2-136"><dt>Shell32.dll (6.0 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="70dd2-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
+| <span data-ttu-id="4786d-127">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4786d-127">Minimum supported client</span></span><br/> | <span data-ttu-id="4786d-128">\[僅限 WINDOWS XP desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4786d-128">Windows XP \[desktop apps only\]</span></span><br/>                                                                   |
+| <span data-ttu-id="4786d-129">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4786d-129">Minimum supported server</span></span><br/> | <span data-ttu-id="4786d-130">僅限 Windows Server 2003 \[ desktop 應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4786d-130">Windows Server 2003 \[desktop apps only\]</span></span><br/>                                                          |
+| <span data-ttu-id="4786d-131">標頭</span><span class="sxs-lookup"><span data-stu-id="4786d-131">Header</span></span><br/>                   | <dl> <span data-ttu-id="4786d-132"><dt>Shldisp。h</dt></span><span class="sxs-lookup"><span data-stu-id="4786d-132"><dt>Shldisp.h</dt></span></span> </dl>                          |
+| <span data-ttu-id="4786d-133">Idl</span><span class="sxs-lookup"><span data-stu-id="4786d-133">IDL</span></span><br/>                      | <dl> <span data-ttu-id="4786d-134"><dt>Shldisp .idl</dt></span><span class="sxs-lookup"><span data-stu-id="4786d-134"><dt>Shldisp.idl</dt></span></span> </dl>                        |
+| <span data-ttu-id="4786d-135">DLL</span><span class="sxs-lookup"><span data-stu-id="4786d-135">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4786d-136"><dt>Shell32.dll (6.0 版或更新版本) </dt></span><span class="sxs-lookup"><span data-stu-id="4786d-136"><dt>Shell32.dll (version 6.0 or later)</dt></span></span> </dl> |
 
 
 

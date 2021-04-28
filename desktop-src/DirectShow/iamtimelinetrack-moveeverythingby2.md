@@ -1,5 +1,5 @@
 ---
-description: 不支援這個方法。
+description: IAMTimelineTrack：： MoveEverythingBy2 方法-不支援此方法。
 ms.assetid: 082922fc-dda9-4970-979c-301178152502
 title: 'IAMTimelineTrack：： MoveEverythingBy2 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 752a55eb34b1178ddce389462c6797d85c137396
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b0334f207dcf70e790afddc8a8ec68648a24a93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977443"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119456"
 ---
-# <a name="iamtimelinetrackmoveeverythingby2-method"></a><span data-ttu-id="76c9e-103">IAMTimelineTrack：： MoveEverythingBy2 方法</span><span class="sxs-lookup"><span data-stu-id="76c9e-103">IAMTimelineTrack::MoveEverythingBy2 method</span></span>
+# <a name="iamtimelinetrackmoveeverythingby2-method"></a><span data-ttu-id="d0ca2-103">IAMTimelineTrack：： MoveEverythingBy2 方法</span><span class="sxs-lookup"><span data-stu-id="d0ca2-103">IAMTimelineTrack::MoveEverythingBy2 method</span></span>
 
-<span data-ttu-id="76c9e-104">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="76c9e-104">This method is not supported.</span></span>
+<span data-ttu-id="d0ca2-104">不支援這個方法。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-104">This method is not supported.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="76c9e-105">語法</span><span class="sxs-lookup"><span data-stu-id="76c9e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d0ca2-105">語法</span><span class="sxs-lookup"><span data-stu-id="d0ca2-105">Syntax</span></span>
 
 
 ```C++
@@ -37,56 +37,56 @@ HRESULT MoveEverythingBy2(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="76c9e-106">參數</span><span class="sxs-lookup"><span data-stu-id="76c9e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d0ca2-106">參數</span><span class="sxs-lookup"><span data-stu-id="d0ca2-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="76c9e-107">*開始*</span><span class="sxs-lookup"><span data-stu-id="76c9e-107">*Start*</span></span> 
+<span data-ttu-id="d0ca2-107">*開始*</span><span class="sxs-lookup"><span data-stu-id="d0ca2-107">*Start*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="76c9e-108">保留的。</span><span class="sxs-lookup"><span data-stu-id="76c9e-108">Reserved.</span></span>
+<span data-ttu-id="d0ca2-108">保留的。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-108">Reserved.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="76c9e-109">*MoveBy*</span><span class="sxs-lookup"><span data-stu-id="76c9e-109">*MoveBy*</span></span> 
+<span data-ttu-id="d0ca2-109">*MoveBy*</span><span class="sxs-lookup"><span data-stu-id="d0ca2-109">*MoveBy*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="76c9e-110">保留的。</span><span class="sxs-lookup"><span data-stu-id="76c9e-110">Reserved.</span></span>
+<span data-ttu-id="d0ca2-110">保留的。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-110">Reserved.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="76c9e-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="76c9e-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d0ca2-111">傳回值</span><span class="sxs-lookup"><span data-stu-id="d0ca2-111">Return value</span></span>
 
-<span data-ttu-id="76c9e-112">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="76c9e-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="76c9e-113">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="76c9e-113">Otherwise, it returns an **HRESULT** error code.</span></span>
+<span data-ttu-id="d0ca2-112">如果這個方法成功，它會傳回 **S \_ OK**。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-112">If this method succeeds, it returns **S\_OK**.</span></span> <span data-ttu-id="d0ca2-113">否則，它會傳回 **HRESULT** 錯誤碼。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-113">Otherwise, it returns an **HRESULT** error code.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="76c9e-114">備註</span><span class="sxs-lookup"><span data-stu-id="76c9e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d0ca2-114">備註</span><span class="sxs-lookup"><span data-stu-id="d0ca2-114">Remarks</span></span>
 
 > [!Note]  
-> <span data-ttu-id="76c9e-115">標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。</span><span class="sxs-lookup"><span data-stu-id="76c9e-115">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
+> <span data-ttu-id="d0ca2-115">標頭檔 Qedit 與版本7以後的 Direct3D 標頭不相容。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-115">The header file Qedit.h is not compatible with Direct3D headers later than version 7.</span></span>
 
  
 
 > [!Note]  
-> <span data-ttu-id="76c9e-116">若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。</span><span class="sxs-lookup"><span data-stu-id="76c9e-116">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="76c9e-117">在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。</span><span class="sxs-lookup"><span data-stu-id="76c9e-117">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
+> <span data-ttu-id="d0ca2-116">若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-116">To obtain Qedit.h, download the [Microsoft Windows SDK Update for Windows Vista and .NET Framework 3.0](https://msdn.microsoft.com/windowsvista/bb980924.aspx).</span></span> <span data-ttu-id="d0ca2-117">在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。</span><span class="sxs-lookup"><span data-stu-id="d0ca2-117">Qedit.h is not available in the Microsoft Windows SDK for Windows 7 and .NET Framework 3.5 Service Pack 1.</span></span>
 
  
 
-## <a name="requirements"></a><span data-ttu-id="76c9e-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="76c9e-118">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="d0ca2-118">規格需求</span><span class="sxs-lookup"><span data-stu-id="d0ca2-118">Requirements</span></span>
 
 
 
-| <span data-ttu-id="76c9e-119">需求</span><span class="sxs-lookup"><span data-stu-id="76c9e-119">Requirement</span></span> | <span data-ttu-id="76c9e-120">值</span><span class="sxs-lookup"><span data-stu-id="76c9e-120">Value</span></span> |
+| <span data-ttu-id="d0ca2-119">需求</span><span class="sxs-lookup"><span data-stu-id="d0ca2-119">Requirement</span></span> | <span data-ttu-id="d0ca2-120">值</span><span class="sxs-lookup"><span data-stu-id="d0ca2-120">Value</span></span> |
 |--------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="76c9e-121">標頭</span><span class="sxs-lookup"><span data-stu-id="76c9e-121">Header</span></span><br/>  | <dl> <span data-ttu-id="76c9e-122"><dt>Qedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="76c9e-122"><dt>Qedit.h</dt></span></span> </dl>      |
-| <span data-ttu-id="76c9e-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="76c9e-123">Library</span></span><br/> | <dl> <span data-ttu-id="76c9e-124"><dt>Strmiids .lib</dt></span><span class="sxs-lookup"><span data-stu-id="76c9e-124"><dt>Strmiids.lib</dt></span></span> </dl> |
+| <span data-ttu-id="d0ca2-121">標頭</span><span class="sxs-lookup"><span data-stu-id="d0ca2-121">Header</span></span><br/>  | <dl> <span data-ttu-id="d0ca2-122"><dt>Qedit。h</dt></span><span class="sxs-lookup"><span data-stu-id="d0ca2-122"><dt>Qedit.h</dt></span></span> </dl>      |
+| <span data-ttu-id="d0ca2-123">程式庫</span><span class="sxs-lookup"><span data-stu-id="d0ca2-123">Library</span></span><br/> | <dl> <span data-ttu-id="d0ca2-124"><dt>Strmiids .lib</dt></span><span class="sxs-lookup"><span data-stu-id="d0ca2-124"><dt>Strmiids.lib</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="76c9e-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="76c9e-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d0ca2-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d0ca2-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="76c9e-126">**IAMTimelineTrack 介面**</span><span class="sxs-lookup"><span data-stu-id="76c9e-126">**IAMTimelineTrack Interface**</span></span>](iamtimelinetrack.md)
+[<span data-ttu-id="d0ca2-126">**IAMTimelineTrack 介面**</span><span class="sxs-lookup"><span data-stu-id="d0ca2-126">**IAMTimelineTrack Interface**</span></span>](iamtimelinetrack.md)
 </dt> </dl>
 
  
