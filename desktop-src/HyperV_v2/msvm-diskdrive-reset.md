@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_DiskDrive 類別的 reset 方法-要求重設。
 ms.assetid: 1c1de976-fa2b-4401-baa3-e5e0ed23f6ff
 title: Msvm_DiskDrive 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 83ad03907704af18e4237335a44d25871391924a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ea910314996e6854d9d9425c55d08ba195b8434
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113956"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119196"
 ---
 # <a name="reset-method-of-the-msvm_diskdrive-class"></a>Msvm DiskDrive 類別的 Reset 方法 \_
 

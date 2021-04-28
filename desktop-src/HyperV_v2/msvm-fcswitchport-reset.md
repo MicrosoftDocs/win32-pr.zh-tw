@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_FcSwitchPort 類別的 reset 方法-要求重設。
 ms.assetid: c56ed3ae-381e-4359-a0c7-53284b19364f
 title: Msvm_FcSwitchPort 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 01a58ac83fd7841234259628edbf87f4eaa1fd47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f37de79ab639c8b78a440c5993d951eb79e5deb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690872"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111806"
 ---
 # <a name="reset-method-of-the-msvm_fcswitchport-class"></a>Msvm FcSwitchPort 類別的 Reset 方法 \_
 

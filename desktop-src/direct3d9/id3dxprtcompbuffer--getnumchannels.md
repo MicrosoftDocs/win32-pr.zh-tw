@@ -1,5 +1,5 @@
 ---
-description: 抓取記憶體中用來儲存範例的色彩通道數目。
+description: ID3DXPRTCompBuffer：： GetNumChannels 方法-抓取記憶體中用來儲存範例的色彩通道數目。
 ms.assetid: 8b033cda-feec-4e74-a4c4-ea44b5fb12c7
 title: 'ID3DXPRTCompBuffer：： GetNumChannels 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 85712ecc6d9cb4875b93627dfcb15558c33681f9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9212528bec454a8d349c6249f851c3b021dceb00
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975713"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093166"
 ---
 # <a name="id3dxprtcompbuffergetnumchannels-method"></a>ID3DXPRTCompBuffer：： GetNumChannels 方法
 

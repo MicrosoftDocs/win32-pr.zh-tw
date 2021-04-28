@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CAMSchedule. ~ CAMSchedule 的函式-函式方法。
 ms.assetid: e92c040a-54af-4c6d-b7f0-0700fa44cbd8
 title: 'CAMSchedule. ~ CAMSchedule (Dsschedule 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f0099d4bf040b30f1963562a0141ce96d92c8096
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f262c8538763dc4d0de3784bdf6523d905a2eac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995788"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096516"
 ---
 # <a name="camschedulecamschedule-destructor"></a>CAMSchedule. ~ CAMSchedule 的函式
 

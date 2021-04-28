@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_EthernetSwitchExtension 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 3c7b61f9-dacd-4462-87c9-fef2e1bf02e1
 title: Msvm_EthernetSwitchExtension 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 323725abd5d0739f3478ef85618b9109bc2f90b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 693537ef9324d6c77670b0a2471f452ad8ff0f1b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971042"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111926"
 ---
 # <a name="requeststatechange-method-of-the-msvm_ethernetswitchextension-class"></a>Msvm EthernetSwitchExtension 類別的 RequestStateChange 方法 \_
 

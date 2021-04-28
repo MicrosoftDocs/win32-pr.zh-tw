@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_Memory 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 836ee3a1-e28e-4f84-8e1c-09f4a2ff0a25
 title: Msvm_Memory 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 761a486f21f6c1cd8c61978038cc2d37bba8c288
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c168e3be7350b1422edd9ac87556aab886daf49c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320599"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118856"
 ---
 # <a name="requeststatechange-method-of-the-msvm_memory-class"></a>Msvm Memory 類別的 RequestStateChange 方法 \_
 

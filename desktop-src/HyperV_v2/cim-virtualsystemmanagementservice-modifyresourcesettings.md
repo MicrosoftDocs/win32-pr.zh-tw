@@ -1,5 +1,5 @@
 ---
-description: 修改虛擬資源設定。
+description: CIM_VirtualSystemManagementService 類別的 ModifyResourceSettings 方法-修改虛擬資源設定。
 ms.assetid: 4942f167-0e53-4ae2-b973-4a06b636b44a
 title: CIM_VirtualSystemManagementService 類別的 ModifyResourceSettings 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e27729429d02c2412e05344779cc40461dbd9dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26971c80ce6f7d0ffcdcef069d76aef5fdc15138
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469268"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112286"
 ---
 # <a name="modifyresourcesettings-method-of-the-cim_virtualsystemmanagementservice-class"></a>CIM VirtualSystemManagementService 類別的 ModifyResourceSettings 方法 \_
 

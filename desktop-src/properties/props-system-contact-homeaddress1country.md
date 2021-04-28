@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress1Country
 ms.assetid: aa072054-4699-495e-81ff-8d54f952462f
 title: HomeAddress1Country
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c52835b88db913f8d83b145bac0faabb520007
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 846e001e978a68026f227ced096fea757d0dd927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193183"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102346"
 ---
 # <a name="systemcontacthomeaddress1country"></a>HomeAddress1Country
 

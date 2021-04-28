@@ -1,5 +1,5 @@
 ---
-description: 表示 \_ 非配置相關之 Msvm ResourcePool 實例的設定。
+description: Msvm_AbstractResourcePoolSettingData 類別-表示 \_ 非配置相關之 Msvm ResourcePool 實例的設定。
 ms.assetid: c5954a92-8942-4b45-aae2-6936328dab1a
 title: Msvm_AbstractResourcePoolSettingData 類別
 ms.topic: reference
@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9109bd428797c8c4f1073577e015bf4b9eddcc07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dca3da14ac74a8d6fab1ba96db98f9e2eccd74ea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944568"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112116"
 ---
 # <a name="msvm_abstractresourcepoolsettingdata-class"></a>Msvm \_ AbstractResourcePoolSettingData 類別
 

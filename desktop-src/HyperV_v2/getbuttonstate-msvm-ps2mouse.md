@@ -1,5 +1,5 @@
 ---
-description: 抓取指定裝置按鈕的目前狀態。
+description: Msvm_Ps2Mouse 類別的 GetButtonState 方法-抓取指定裝置按鈕的目前狀態。
 ms.assetid: 7772A3AC-1677-44A7-9E5E-D31E90988705
 title: Msvm_Ps2Mouse 類別的 GetButtonState 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8bb0df6ad49f0d260d95c6f65e0f0f481b393dc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 160134a2ae48bb23dc525eeded70b483484e0b71
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972068"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112196"
 ---
 # <a name="getbuttonstate-method-of-the-msvm_ps2mouse-class"></a>Msvm Ps2Mouse 類別的 GetButtonState 方法 \_
 

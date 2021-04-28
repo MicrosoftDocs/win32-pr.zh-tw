@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_CollectionManagementService 類別的 StartService 方法會停止服務。
 ms.assetid: 0f9a015d-b895-496a-a4c6-2737c0742746
 title: Msvm_CollectionManagementService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f76fa9e5069c2a9e19b83a8ab83136879c6657e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18f58ae22cee06c439b6238df4c2a147405f7aca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112136"
 ---
 # <a name="startservice-method-of-the-msvm_collectionmanagementservice-class"></a>Msvm CollectionManagementService 類別的 StartService 方法 \_
 

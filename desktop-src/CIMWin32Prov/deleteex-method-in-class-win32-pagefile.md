@@ -1,5 +1,5 @@
 ---
-description: 刪除在物件路徑中指定 (或目錄) 的邏輯分頁檔。
+description: Win32_PageFile 類別的 DeleteEx 方法-刪除在物件路徑中指定 (或目錄) 的邏輯分頁檔。
 ms.assetid: ea31f92a-94b9-4d4d-abd9-6c304ac5caee
 ms.tgt_platform: multiple
 title: Win32_PageFile 類別的 DeleteEx 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2f62875313f6be432ab191fc91bbac381627de3c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27e80c3cfaea352ee97ad29aed0b7ca358546
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110517"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097046"
 ---
 # <a name="deleteex-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 DeleteEx 方法
 

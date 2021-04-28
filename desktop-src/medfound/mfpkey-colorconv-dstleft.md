@@ -1,15 +1,15 @@
 ---
-description: 指定目的地矩形的左邊緣（以圖元為單位）。
+description: MFPKEY_COLORCONV_DSTLEFT 屬性-指定目的地矩形的左邊緣（以圖元為單位）。
 ms.assetid: 9411a7f7-0ce6-43b7-b50d-54489a7bb864
 title: 'MFPKEY_COLORCONV_DSTLEFT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 451655a8220f42d1580620b98dc3a5ac62d7c3a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efc358d2065878a206d1b4a248406006bf70c9ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192275"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093046"
 ---
 # <a name="mfpkey_colorconv_dstleft-property"></a>MFPKEY \_ COLORCONV \_ DSTLEFT 屬性
 

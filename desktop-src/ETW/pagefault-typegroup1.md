@@ -1,5 +1,5 @@
 ---
-description: 此類別是分頁錯誤事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: PageFault_TypeGroup1 類別-這個類別是分頁錯誤事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 59cb1091-af21-4fe6-87b8-17a262cc4467
 title: PageFault_TypeGroup1 類別
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 4bf1f49c909833d75af844c8f2f943a01b6a5d6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a69e74a086ecd594d83c932beea4fd7d62724db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193517"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106406"
 ---
 # <a name="pagefault_typegroup1-class"></a>PageFault \_ TypeGroup1 類別
 

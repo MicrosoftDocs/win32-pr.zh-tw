@@ -1,15 +1,15 @@
 ---
-description: .
+description: Contact. Prefix
 ms.assetid: 2ef2a3fb-ec81-4a2d-b2de-1092b579f3da
 title: Contact. Prefix
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b3b4bc46665e51aa234f0531a311a3dd68cd17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d882446e34f9f7d8a48610120efc4c75cf87ec4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194832"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101256"
 ---
 # <a name="systemcontactprefix"></a>Contact. Prefix
 

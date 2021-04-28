@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_IDEController 類別的 reset 方法-要求重設。
 ms.assetid: 1d72bd1a-d0b2-482c-8ba7-8ccee056a5c9
 title: Msvm_IDEController 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 009d6e2631a047c443fa81716f8db182e4ffeb43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5598241262f5a275df4068fbbbf12c6e65ce640b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469172"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118966"
 ---
 # <a name="reset-method-of-the-msvm_idecontroller-class"></a>Msvm IDEController 類別的 Reset 方法 \_
 

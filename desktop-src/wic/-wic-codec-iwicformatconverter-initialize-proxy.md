@@ -1,5 +1,5 @@
 ---
-description: Initialize 方法的 Proxy 函式。
+description: Initialize 方法的 IWICFormatConverter_Initialize_Proxy 函數 Proxy 函式。
 ms.assetid: 26112d52-95e2-4c67-83fc-cf5e28712730
 title: IWICFormatConverter_Initialize_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 6450c1a508507db73e44ef8b88b4f94970ac6004
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d70d852adc8f810438ce46dc30345e68fa27e0fd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194410"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097156"
 ---
 # <a name="iwicformatconverter_initialize_proxy-function"></a>IWICFormatConverter \_ Initialize \_ Proxy 函式
 
@@ -49,22 +49,22 @@ HRESULT IWICFormatConverter_Initialize_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) \** _
+類型： **[ **IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter)\***
 
-這個 [_ *IWICFormatConverter* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter)物件的指標。
+這個 [**IWICFormatConverter**](/windows/desktop/api/Wincodec/nn-wincodec-iwicformatconverter) 物件的指標。
 
 </dd> <dt>
 
 *pISource* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 要轉換的輸入點陣圖
 
 </dd> <dt>
 
-_dstFormat * \[ in\]
+*dstFormat* \[在\]
 </dt> <dd>
 
 類型： **REFWICPixelFormatGUID**
@@ -85,13 +85,13 @@ _dstFormat * \[ in\]
 *pIPalette* \[在\]
 </dt> <dd>
 
-類型： **[**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+類型： **[ **IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 用於轉換的調色板。
 
 </dd> <dt>
 
-_AlphaThresholdPercent * \[ in\]
+*AlphaThresholdPercent* \[在\]
 </dt> <dd>
 
 類型： **double**

@@ -1,6 +1,6 @@
 ---
 title: 'NM_NCHITTEST (Commctrl 的通知碼) '
-description: 當控制項收到 WM NCHITTEST 訊息時，由 Rebar 控制項傳送 \_ 。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
+description: NM_NCHITTEST 通知碼-當控制項收到 WM NCHITTEST 訊息時，由 Rebar 控制項傳送 \_ 。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: 0e088b14-b912-4f60-9d25-cd0a0ba264c3
 keywords:
 - NM_NCHITTEST 通知碼 Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8af39fd792ecb9aeb463957f49f5722737e6ee5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 68ede0ac017fbe5146cd68e51e2a38c7f66c7898
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969786"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112316"
 ---
 # <a name="nm_nchittest-notification-code"></a>NM \_ NCHITTEST 通知碼
 

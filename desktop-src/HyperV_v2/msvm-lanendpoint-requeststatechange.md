@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_LANEndpoint 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 0ddc9e22-b73c-4ed5-a2e1-aa38f03c9ff2
 title: Msvm_LANEndpoint 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1d2617bdbc6e3a3aa2a3c9beda387aa26f6a90a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcb85d04c84ade9c65aea77e43eb669e95bdc117
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106996724"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111686"
 ---
 # <a name="requeststatechange-method-of-the-msvm_lanendpoint-class"></a>Msvm LANEndpoint 類別的 RequestStateChange 方法 \_
 

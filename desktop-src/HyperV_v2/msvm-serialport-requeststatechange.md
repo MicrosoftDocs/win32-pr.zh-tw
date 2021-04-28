@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_SerialPort 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 8047c12d-f420-4406-885a-25342789dbb9
 title: Msvm_SerialPort 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 99b1b9bcda26b8137a294ece222508b198a09881
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc2636c26d3be7d1585354973e514d847f599e2a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977940"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118716"
 ---
 # <a name="requeststatechange-method-of-the-msvm_serialport-class"></a>Msvm SerialPort 類別的 RequestStateChange 方法 \_
 

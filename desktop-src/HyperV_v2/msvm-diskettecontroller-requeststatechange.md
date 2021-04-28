@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_DisketteController 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 389bf388-818c-4c04-a28e-50221d3965a6
 title: Msvm_DisketteController 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4c1d45d2170ddf32819f0625a3947e38341e5ae2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 015a823e0864f4a1d06dc01898157f46e25e327a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977275"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119186"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskettecontroller-class"></a>Msvm DisketteController 類別的 RequestStateChange 方法 \_
 

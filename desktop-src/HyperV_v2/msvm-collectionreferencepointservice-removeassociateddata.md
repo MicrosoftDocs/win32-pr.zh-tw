@@ -1,5 +1,5 @@
 ---
-description: 移除與參考點關聯的資料記錄檔。
+description: Msvm_CollectionReferencePointService 類別的 RemoveAssociatedData 方法-移除與參考點關聯的資料記錄檔。
 ms.assetid: 42242b76-9123-41a7-b8b1-82d2e827ea53
 title: Msvm_CollectionReferencePointService 類別的 RemoveAssociatedData 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aec1ac249616c08c6abf1f156ad5a3416c8afaff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a5cf068545f31f9919a9da60a1b09b32f78e4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975456"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119226"
 ---
 # <a name="removeassociateddata-method-of-the-msvm_collectionreferencepointservice-class"></a>Msvm CollectionReferencePointService 類別的 RemoveAssociatedData 方法 \_
 

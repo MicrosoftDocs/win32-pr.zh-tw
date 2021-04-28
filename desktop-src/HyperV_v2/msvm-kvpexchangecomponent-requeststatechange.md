@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_KvpExchangeComponent 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 12f46f41-4c35-4aa8-a71f-6f2fa72a7314
 title: Msvm_KvpExchangeComponent 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 7a0e41fc726914e35d1e58f7cfd46060ed12adb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ada860043e2339b7c24ad250b00fd0b87a289c0b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971432"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118906"
 ---
 # <a name="requeststatechange-method-of-the-msvm_kvpexchangecomponent-class"></a>Msvm KvpExchangeComponent 類別的 RequestStateChange 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: GetPinCount 方法會抓取釘選數目。
+description: CBaseFilter. GetPinCount 方法-GetPinCount 方法會抓取釘選數目。
 ms.assetid: 6cbeb123-d899-4f13-8b40-5666adec610f
 title: 'CBaseFilter. GetPinCount 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8da1cbc22a49b149bdccc36c3b854b44101b9bbc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0081b4cec45ed4cac5b4f0883032631983824cec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993532"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099786"
 ---
 # <a name="cbasefiltergetpincount-method"></a>CBaseFilter. GetPinCount 方法
 
