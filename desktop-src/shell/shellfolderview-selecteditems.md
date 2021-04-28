@@ -1,5 +1,5 @@
 ---
-description: 取得 FolderItems 物件，這個物件表示視圖中所有選取的專案。
+description: ShellFolderView. SelectedItems 方法-取得代表 view 中所有選取專案的 FolderItems 物件。
 title: 'ShellFolderView. SelectedItems 方法 (Shldisp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 1ee3bf2e-f9c9-47d9-a0f2-efedd69770c5
-ms.openlocfilehash: c6ade3a6e25d5de6bfa1661207473dac72ace2bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 54cf67f1b75ae9d6423b02d0cacdde032ad2e018
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991723"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083376"
 ---
 # <a name="shellfolderviewselecteditems-method"></a>ShellFolderView. SelectedItems 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: '>entrytype'
 ms.assetid: 1a93a505-0c63-4cbf-9ad3-8c99f40315a1
 title: '>entrytype'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14dc81aee4dbaae47d3580a116afa8795eb5560a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4c4a094cae730b122478209adddff4e68482cfc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980378"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086956"
 ---
 # <a name="systemjournalentrytype"></a>>entrytype
 

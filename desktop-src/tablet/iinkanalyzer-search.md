@@ -1,5 +1,5 @@
 ---
-description: 提供模糊、不區分大小寫片語的搜尋，以供分析的書寫筆劃和已分析的繪圖筆劃具有可辨識的類型。
+description: IInkAnalyzer：： Search 方法-提供模糊、不區分大小寫片語的搜尋，以供分析的寫入筆劃和已分析的繪圖筆劃具有辨識的類型。
 ms.assetid: 5b5ce4b5-45ef-42ef-866b-2f38c32d8c86
 title: 'IInkAnalyzer：： Search 方法 (IACom .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ea9755c0f2836b363b967a3d6bfdc5d64a1305b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94ccdebf8c8a134a845ff3df3017d710d1da93f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113325"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113726"
 ---
 # <a name="iinkanalyzersearch-method"></a>IInkAnalyzer：： Search 方法
 

@@ -1,15 +1,15 @@
 ---
-description: 適用于 Windows Vista 和更新版本。
+description: AM_RATE_ReverseMaxFullDataRate 屬性-適用于 Windows Vista 和更新版本。
 ms.assetid: 4f170736-516d-4420-a215-e0e414f036cd
 title: 'AM_RATE_ReverseMaxFullDataRate 屬性 (Dvdmedia) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31e376c6e95160c6a6c3c6637a765d868e282d33
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a6e70a330433c8ea6e8116db944d8fb3d2ffff4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107910236"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099966"
 ---
 # <a name="am_rate_reversemaxfulldatarate-property"></a>AM \_ RATE \_ ReverseMaxFullDataRate 屬性
 

@@ -1,5 +1,5 @@
 ---
-description: GetThumbnail 方法的 Proxy 函式。
+description: GetThumbnail 方法的 IWICBitmapFrameDecode_GetThumbnail_Proxy 函數 Proxy 函式。
 ms.assetid: 377f8aac-3cdc-44dc-8c60-9b6bce915486
 title: IWICBitmapFrameDecode_GetThumbnail_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c29b62b4d3839b7cd3db51574f38ab824b215310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f3c94461ac13aa39d14b97f13fe5e9e8d7569a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001666"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113636"
 ---
 # <a name="iwicbitmapframedecode_getthumbnail_proxy-function"></a>IWICBitmapFrameDecode \_ GetThumbnail \_ Proxy 函式
 
@@ -44,9 +44,9 @@ HRESULT IWICBitmapFrameDecode_GetThumbnail_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) \** _
+類型： **[ **IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)\***
 
-這個 [_ *IWICBitmapFrameDecode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode)物件的指標。
+這個 [**IWICBitmapFrameDecode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframedecode) 物件的指標。
 
 </dd> <dt>
 

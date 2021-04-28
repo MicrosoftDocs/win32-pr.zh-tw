@@ -1,5 +1,5 @@
 ---
-description: GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
+description: IDelaydC：： GetTotalStatistics 方法-GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
 ms.assetid: 904c7496-5603-41b9-8481-06fa31f6f112
 title: 'IDelaydC：： GetTotalStatistics 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0d194426933532fcf7a1965ed59b099489eefcb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3a0ce4f230236e276fede528a5e778ecafd51fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386100"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113526"
 ---
 # <a name="idelaydcgettotalstatistics-method"></a>IDelaydC：： GetTotalStatistics 方法
 

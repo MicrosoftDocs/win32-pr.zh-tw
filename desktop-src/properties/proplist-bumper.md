@@ -1,15 +1,15 @@
 ---
-description: .
+description: PropList
 ms.assetid: b6696577-b67f-4cfb-a140-34ac3fb68eb7
 title: PropList
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d87f74731e1ceb56e88efbc76adbe1381c07bba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e339b8f1920f03428d41a12048c955ac57f95f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115789"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087377"
 ---
 # <a name="proplist"></a>PropList
 

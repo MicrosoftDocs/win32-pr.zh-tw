@@ -1,5 +1,5 @@
 ---
-description: 未使用。 先前是管線階段資料的回呼。
+description: <span id="vspixengine.ipipelinestagescallback"></span>IPipeLineStagesCallback 介面-未使用。 先前是管線階段資料的回呼。
 MS-HAID: vspixengine.IPipeLineStagesCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 93a00815fc42f4ac7b56e310fafedc0561f40233
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7782985f4317a02d2b159722f7a5897978b952b5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846764"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087896"
 ---
 # <a name="span-idvspixengineipipelinestagescallbackspanipipelinestagescallback-interface"></a><span id="vspixengine.ipipelinestagescallback"></span>IPipeLineStagesCallback 介面
 

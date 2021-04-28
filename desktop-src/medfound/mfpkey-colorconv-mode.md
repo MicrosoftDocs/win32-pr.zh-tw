@@ -1,15 +1,15 @@
 ---
-description: 指定輸入資料流程是否為交錯式。
+description: MFPKEY_COLORCONV_MODE 屬性-指定輸入資料流程是否為交錯式。
 ms.assetid: d0d93151-5b0d-44a7-8497-f11b3e23a031
 title: 'MFPKEY_COLORCONV_MODE 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd8c01a6dce595eb270b734947492deea014259
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8c3f2d6256c4d7a9410264fb18703eea251e9c6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692424"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087576"
 ---
 # <a name="mfpkey_colorconv_mode-property"></a>MFPKEY \_ COLORCONV \_ MODE 屬性
 

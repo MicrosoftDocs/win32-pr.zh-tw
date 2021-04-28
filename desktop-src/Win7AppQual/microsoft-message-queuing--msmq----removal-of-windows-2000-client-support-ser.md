@@ -1,15 +1,15 @@
 ---
-description: .
+description: Microsoft Message Queuing (MSMQ) 移除 Windows 2000 用戶端支援服務
 ms.assetid: e29b477e-f7e9-413c-8eb9-2e764b7dd910
 title: Microsoft Message Queuing (MSMQ) 移除 Windows 2000 用戶端支援服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54688ee4ad24eb691c95e4d70ce0acb881e212eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4be68d40271153567bdaf6b04d73218aaf3d3977
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027274"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088146"
 ---
 # <a name="microsoft-message-queuing-msmq---removal-of-windows-2000-client-support-service"></a>Microsoft Message Queuing (MSMQ) 移除 Windows 2000 用戶端支援服務
 

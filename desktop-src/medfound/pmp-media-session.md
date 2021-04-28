@@ -1,15 +1,15 @@
 ---
-description: .
+description: PMP 媒體會話
 ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: PMP 媒體會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0e14d9e403620d273bb4aeb3347cba523f304b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321447"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092716"
 ---
 # <a name="pmp-media-session"></a>PMP 媒體會話
 

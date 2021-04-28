@@ -1,15 +1,15 @@
 ---
-description: 指定來源矩形的左邊緣（以圖元為單位）。
+description: MFPKEY_COLORCONV_SRCLEFT 屬性-指定來源矩形的左邊緣（以圖元為單位）。
 ms.assetid: d5450ff9-085f-4345-87af-bf6c87931755
 title: 'MFPKEY_COLORCONV_SRCLEFT 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddbc6bed8a3c41ebeff2f9c4f6dbb2bbb351e74f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c3168125390cef6472ebc6ae6bf71ea426976c2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192274"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092966"
 ---
 # <a name="mfpkey_colorconv_srcleft-property"></a>MFPKEY \_ COLORCONV \_ SRCLEFT 屬性
 

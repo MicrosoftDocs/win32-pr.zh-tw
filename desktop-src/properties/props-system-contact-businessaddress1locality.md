@@ -1,15 +1,15 @@
 ---
-description: .
+description: BusinessAddress1Locality
 ms.assetid: 2c36f68a-e7a0-49f7-91b0-c80ac74b104b
 title: BusinessAddress1Locality
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db497b74049e2e30e59b8c17ae6af692a69811a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88216535f52dfa21246371f18e39d525b2a16288
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320463"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087246"
 ---
 # <a name="systemcontactbusinessaddress1locality"></a>BusinessAddress1Locality
 

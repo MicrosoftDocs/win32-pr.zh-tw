@@ -1,15 +1,15 @@
 ---
-description: .
+description: 屬性系統參考
 ms.assetid: 8f2df462-c22d-4059-8599-4eefd24560f1
 title: 屬性系統參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6c381b1f2ae39c598e84723e31e124c53d97947
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e55f3146b9431aa901f867fb545e27a9f6dfd446
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974710"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087384"
 ---
 # <a name="property-system-reference"></a>屬性系統參考
 

@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseFilter. ~ CBaseFilter 的函式-函式方法。
 ms.assetid: 786fb4d0-a482-4887-91ed-ed156c008272
 title: 'CBaseFilter. ~ CBaseFilter (Amfilter 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 61e56e64ea3bb58a3bff8c3ab9438f1392952971
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89ecaa9abf1ff79b1eb6b0e0c27895af95114452
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990622"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099836"
 ---
 # <a name="cbasefiltercbasefilter-destructor"></a>CBaseFilter. ~ CBaseFilter 的函式
 

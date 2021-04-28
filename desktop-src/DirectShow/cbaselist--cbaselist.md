@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseList. ~ CBaseList 的函式-函式方法。
 ms.assetid: bfc7a979-fbce-4680-a4b6-3273b9d1a9c2
 title: 'CBaseList. ~ CBaseList (Wxlist 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2e00c4057e94d614b90a32c856cc7905052cd4b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b0e9f17aa0525b018c551b8763b3293ca0f3b0ec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001898"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119976"
 ---
 # <a name="cbaselistcbaselist-destructor"></a>CBaseList. ~ CBaseList 的函式
 

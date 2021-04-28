@@ -1,15 +1,15 @@
 ---
-description: 音訊媒體類型的每秒音訊樣本數。
+description: MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND 屬性-音訊媒體類型的每秒音訊樣本數。
 ms.assetid: 9e794f7d-0fb3-4069-8431-62651252517d
 title: 'MF_MT_AUDIO_FLOAT_SAMPLES_PER_SECOND 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67b65a29cbd4176fd6461d47c58ec50470275f93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6878ce1f8a1197bd556a9f54d70c4f18dc3f87f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980358"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087636"
 ---
 # <a name="mf_mt_audio_float_samples_per_second-attribute"></a>\_每秒的 MF MT \_ 音訊 \_ 浮點數 \_ 範例 \_ \_ 屬性
 

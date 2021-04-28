@@ -1,5 +1,5 @@
 ---
-description: 這個類別是影像載入事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: Image_V0_Load 類別-這個類別是影像載入事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: e2836153-8e4f-4c7f-9542-9402ed9e4356
 title: Image_V0_Load 類別
 ms.topic: reference
@@ -15,12 +15,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b2486e6918884e51a57f077dc9c569f926dc902e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed15254ac509334c802ba4c6165c73e681a2c7b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971933"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106508"
 ---
 # <a name="image_v0_load-class"></a>Image \_ V0 \_ Load 類別
 

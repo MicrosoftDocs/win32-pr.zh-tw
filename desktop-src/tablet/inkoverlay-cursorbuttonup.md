@@ -1,15 +1,15 @@
 ---
-description: 當 InkCollector 偵測到已啟動的資料指標按鈕時發生。
+description: CursorButtonUp 事件-當 InkCollector 偵測到已啟動的資料指標按鈕時，就會發生此事件。
 ms.assetid: ce7205f7-727c-4acf-a727-4dbb3cc42441
 title: 'CursorButtonUp 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8315f2cf87589bb24e5fb3c6ac6fd7128df426e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f22590362c6eb9a987da94bf3adb4e99943c12cd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320447"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086846"
 ---
 # <a name="inkoverlaycursorbuttonup-event"></a>CursorButtonUp 事件
 

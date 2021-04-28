@@ -1,15 +1,15 @@
 ---
-description: 要求媒體基礎轉換 (MFT) 以排清所有儲存的資料。
+description: MFT_MESSAGE_COMMAND_FLUSH-要求媒體基礎轉換 (MFT) 以排清所有儲存的資料。
 ms.assetid: c799a962-da79-46df-a37f-4016c8c1701e
 title: 'MFT_MESSAGE_COMMAND_FLUSH (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd68f5e52cda9cca3470fb1dd903b5083a0cbc4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f34959303a2835e67202256341b0f5998b63d16b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691652"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092736"
 ---
 # <a name="mft_message_command_flush"></a>MFT \_ 訊息 \_ 命令排清 \_
 

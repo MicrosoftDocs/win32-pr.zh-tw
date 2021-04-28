@@ -1,15 +1,15 @@
 ---
 title: Direct2D Debug 圖層總覽
-description: .
+description: Direct2D Debug 圖層總覽
 ms.assetid: 7c28e00b-ebb9-4b79-939c-64eade1351ad
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df560595ea0ae6c7a56c3fa568f2f94ae56652ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 833174e0d18b11e2384d838930d5508601cfceaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965563"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099986"
 ---
 # <a name="direct2d-debug-layer-overview"></a>Direct2D Debug 圖層總覽
 
@@ -38,7 +38,7 @@ Direct2D debug 層會在其本身 DLL 中的 Direct2D （名為 d2d1debug.dll）
 > [!Note]  
 > 如果已啟用 Direct2D debug 圖層，則在設定色彩內容時，Direct2D 色彩管理效果 (CLSID \_ D2D1ColorManagement) 可能會造成存取違規。 解決方法是在使用色彩管理效果時停用調試層
 
- 
+ 
 
 啟用 factory 的 debug 層也會啟用該處理站所建立之任何物件的偵錯工具資訊。
 
@@ -70,7 +70,7 @@ Direct2D debug 層會在其本身 DLL 中的 Direct2D （名為 d2d1debug.dll）
 > [!Note]  
 > 如果未指定任何 factory 選項，或指定了「無」的 debug 層級，則不會叫用 debug 層。 在應用程式的發行版本中，不應使用 debug 層。
 
- 
+ 
 
 下一節將說明 [**D2D1 \_ debug \_ 層級**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_debug_level) 列舉所定義的不同調試層級。
 
@@ -93,9 +93,9 @@ Direct2D debug 層會在其本身 DLL 中的 Direct2D （名為 d2d1debug.dll）
 [Debug 訊息](direct2ddebuglayer-debugmessages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 顯示或隱藏桌面。
+description: Shell. ToggleDesktop 方法-顯示或隱藏桌面。
 title: 'ToggleDesktop 方法 (Shldisp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: BD07F7F2-A588-4189-95F4-3A8E2905E8F5
-ms.openlocfilehash: 888723aeba8bd54c6ada659022286e4825e4067d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0d6c1e03db960c6abc8abc28ba8e79755fce639
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693544"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083676"
 ---
 # <a name="shelltoggledesktop-method"></a>ToggleDesktop 方法
 

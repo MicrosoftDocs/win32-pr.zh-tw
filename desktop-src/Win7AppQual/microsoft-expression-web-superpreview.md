@@ -1,15 +1,15 @@
 ---
-description: .
+description: Microsoft Expression Web SuperPreview
 ms.assetid: A087CE3C-C14E-4483-850D-E140FEC589BF
 title: Microsoft Expression Web SuperPreview
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eb9d58d657e1ba9b10c98f1288f2261f152f7d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97fbab3d6b4addafbe03f1bfe680fb039d78afcf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088176"
 ---
 # <a name="microsoft-expression-web-superpreview"></a>Microsoft Expression Web SuperPreview
 

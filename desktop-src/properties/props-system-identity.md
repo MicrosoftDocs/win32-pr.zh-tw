@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Identity
 ms.assetid: 6a4af345-6d33-40c6-8368-5aff03016952
 title: System. Identity
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fb9d0e77f581557244cda72b6308f288e6248e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4118f00ffd3acc7baf1c6481e70b908b5b6eb37
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087036"
 ---
 # <a name="systemidentity"></a>System. Identity
 

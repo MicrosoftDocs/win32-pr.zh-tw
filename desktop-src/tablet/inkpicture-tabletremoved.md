@@ -1,15 +1,15 @@
 ---
-description: 從系統移除 IInkTablet 時發生。
+description: InkPicture. TabletRemoved 事件-從系統移除 IInkTablet 時發生。
 ms.assetid: 9a4640a7-cbd9-4304-88c6-86036423628d
 title: 'InkPicture. TabletRemoved 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05b097b4dcf15c618e3316066be962b52803e27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 929458c6b972143852b5921a8c8364a54a4b6f41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195119"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113646"
 ---
 # <a name="inkpicturetabletremoved-event"></a>InkPicture. TabletRemoved 事件
 

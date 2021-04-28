@@ -1,15 +1,15 @@
 ---
-description: IInkTablet 新增至系統時發生。
+description: InkPicture. TabletAdded 事件-在將 IInkTablet 加入系統時發生。
 ms.assetid: 5df10efd-7055-43fa-881f-67eb5fd6adcf
 title: 'InkPicture. TabletAdded 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d75cb3a67b00c5a26c0c3494fc752595954a23da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81c5121b668f27034a04230311ee88ebb7564802
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195120"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113656"
 ---
 # <a name="inkpicturetabletadded-event"></a>InkPicture. TabletAdded 事件
 

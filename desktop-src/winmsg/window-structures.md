@@ -1,15 +1,15 @@
 ---
-description: .
+description: 視窗結構
 ms.assetid: 8254174d-d19f-4177-91b0-dc87aa1e40e0
 title: 視窗結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6df5fcd90bdccec27addb9f2399b80a866fe1580
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9845b70afaec92d116dd709ddee4f533b69900aa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998539"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100116"
 ---
 # <a name="window-structures"></a>視窗結構
 

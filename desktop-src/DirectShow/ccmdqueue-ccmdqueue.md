@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CCmdQueue。 CCmdQueue 函式-函數方法。
 ms.assetid: 9961a8fe-db72-4be6-8f72-68b74f82e4d4
 title: 'CCmdQueue. CCmdQueue (Winutil. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9469aa4ff9311efa096a66ee637512a2a812b54e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7f4dd94e7ef2ac3970fe652f4b7a3ad7117f047e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975748"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119826"
 ---
 # <a name="ccmdqueueccmdqueue-constructor"></a>CCmdQueue. CCmdQueue 函數
 

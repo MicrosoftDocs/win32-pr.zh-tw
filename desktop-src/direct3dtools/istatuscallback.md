@@ -1,5 +1,5 @@
 ---
-description: 未使用。
+description: <span id="vspixengine.istatuscallback"></span>IStatusCallback 介面-未使用。
 MS-HAID: vspixengine.IStatusCallback
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8a053873694890bd96b6b24857995622ff511b03
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d58c1f1e9b33d664c49fda6a52bf16d90ca3e2a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970681"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087846"
 ---
 # <a name="span-idvspixengineistatuscallbackspanistatuscallback-interface"></a><span id="vspixengine.istatuscallback"></span>IStatusCallback 介面
 

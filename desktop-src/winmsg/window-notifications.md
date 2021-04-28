@@ -1,15 +1,15 @@
 ---
-description: .
+description: 視窗通知
 ms.assetid: f99a572e-110d-4971-a660-e861dbe32cfe
 title: 視窗通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d21587e298a67d92c9975a90ba44e75c65ded6c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faede9cee74618aa29a65da601c00296fed06425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982442"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083356"
 ---
 # <a name="window-notifications"></a>視窗通知
 

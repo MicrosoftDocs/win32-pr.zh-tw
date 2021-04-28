@@ -1,6 +1,6 @@
 ---
 title: 'DirectDraw 傳回碼 (Ddraw) '
-description: 錯誤會以負數值表示，而且無法合併。
+description: DirectDraw 傳回碼-錯誤以負數值表示，無法合併。
 ms.assetid: F713193E-3614-4741-B293-D312C170270A
 topic_type:
 - apiref
@@ -129,12 +129,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d70ff2003edc382bac2823235f01f58ffea0d91
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6d789a233df777d98860e519f7e877a030aba55a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103854039"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087806"
 ---
 # <a name="directdraw-return-codes"></a>DirectDraw 傳回碼
 
