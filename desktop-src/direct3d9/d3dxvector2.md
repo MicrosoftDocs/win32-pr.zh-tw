@@ -1,5 +1,5 @@
 ---
-description: 描述包含運算子多載和類型轉換的雙元件向量。
+description: D3DXVECTOR2 結構 (D3dx9math) -描述包含運算子多載和類型轉換的雙元件向量。
 ms.assetid: e61ec1c8-00b5-491f-8fb1-be97218f6c68
 title: 'D3DXVECTOR2 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f7f54dc67c038d7c22929b67c59e6b0331a5e545
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 79f66c0e9130a320042c9b914bad47e5f02f0d8a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106977141"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097606"
 ---
-# <a name="d3dxvector2-structure-d3dx9mathh"></a><span data-ttu-id="c4079-103">D3DXVECTOR2 結構 (D3dx9math .h) </span><span class="sxs-lookup"><span data-stu-id="c4079-103">D3DXVECTOR2 structure (D3dx9math.h)</span></span>
+# <a name="d3dxvector2-structure-d3dx9mathh"></a><span data-ttu-id="07734-103">D3DXVECTOR2 結構 (D3dx9math .h) </span><span class="sxs-lookup"><span data-stu-id="07734-103">D3DXVECTOR2 structure (D3dx9math.h)</span></span>
 
-<span data-ttu-id="c4079-104">描述包含運算子多載和類型轉換的雙元件向量。</span><span class="sxs-lookup"><span data-stu-id="c4079-104">Describes a two-component vector including operator overloads and type casts.</span></span>
+<span data-ttu-id="07734-104">描述包含運算子多載和類型轉換的雙元件向量。</span><span class="sxs-lookup"><span data-stu-id="07734-104">Describes a two-component vector including operator overloads and type casts.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c4079-105">語法</span><span class="sxs-lookup"><span data-stu-id="c4079-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="07734-105">語法</span><span class="sxs-lookup"><span data-stu-id="07734-105">Syntax</span></span>
 
 
 ```C++
@@ -36,37 +36,37 @@ typedef struct D3DXVECTOR2 {
 
 
 
-## <a name="members"></a><span data-ttu-id="c4079-106">成員</span><span class="sxs-lookup"><span data-stu-id="c4079-106">Members</span></span>
+## <a name="members"></a><span data-ttu-id="07734-106">成員</span><span class="sxs-lookup"><span data-stu-id="07734-106">Members</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c4079-107">**x**</span><span class="sxs-lookup"><span data-stu-id="c4079-107">**x**</span></span>
+<span data-ttu-id="07734-107">**x**</span><span class="sxs-lookup"><span data-stu-id="07734-107">**x**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c4079-108">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="c4079-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="07734-108">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="07734-108">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="c4079-109">X 元件。</span><span class="sxs-lookup"><span data-stu-id="c4079-109">The x-component.</span></span>
+<span data-ttu-id="07734-109">X 元件。</span><span class="sxs-lookup"><span data-stu-id="07734-109">The x-component.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="c4079-110">**y**</span><span class="sxs-lookup"><span data-stu-id="c4079-110">**y**</span></span>
+<span data-ttu-id="07734-110">**y**</span><span class="sxs-lookup"><span data-stu-id="07734-110">**y**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c4079-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="c4079-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="07734-111">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="07734-111">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
 </dd> <dd>
 
-<span data-ttu-id="c4079-112">Y 元件。</span><span class="sxs-lookup"><span data-stu-id="c4079-112">The y-component.</span></span>
+<span data-ttu-id="07734-112">Y 元件。</span><span class="sxs-lookup"><span data-stu-id="07734-112">The y-component.</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="c4079-113">備註</span><span class="sxs-lookup"><span data-stu-id="c4079-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07734-113">備註</span><span class="sxs-lookup"><span data-stu-id="07734-113">Remarks</span></span>
 
-### <a name="d3dxvector2-extensions"></a><span data-ttu-id="c4079-114">D3DXVECTOR2 延伸模組</span><span class="sxs-lookup"><span data-stu-id="c4079-114">D3DXVECTOR2 Extensions</span></span>
+### <a name="d3dxvector2-extensions"></a><span data-ttu-id="07734-114">D3DXVECTOR2 延伸模組</span><span class="sxs-lookup"><span data-stu-id="07734-114">D3DXVECTOR2 Extensions</span></span>
 
-<span data-ttu-id="c4079-115">D3DXVECTOR2 具有下列 c + + 擴充功能。</span><span class="sxs-lookup"><span data-stu-id="c4079-115">D3DXVECTOR2 has the following C++ extensions.</span></span>
+<span data-ttu-id="07734-115">D3DXVECTOR2 具有下列 c + + 擴充功能。</span><span class="sxs-lookup"><span data-stu-id="07734-115">D3DXVECTOR2 has the following C++ extensions.</span></span>
 
 
 ```
@@ -137,21 +137,21 @@ public:
 
 
 
-## <a name="requirements"></a><span data-ttu-id="c4079-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="c4079-116">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="07734-116">規格需求</span><span class="sxs-lookup"><span data-stu-id="07734-116">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c4079-117">需求</span><span class="sxs-lookup"><span data-stu-id="c4079-117">Requirement</span></span> | <span data-ttu-id="c4079-118">值</span><span class="sxs-lookup"><span data-stu-id="c4079-118">Value</span></span> |
+| <span data-ttu-id="07734-117">需求</span><span class="sxs-lookup"><span data-stu-id="07734-117">Requirement</span></span> | <span data-ttu-id="07734-118">值</span><span class="sxs-lookup"><span data-stu-id="07734-118">Value</span></span> |
 |-------------------|----------------------------------------------------------------------------------------|
-| <span data-ttu-id="c4079-119">標頭</span><span class="sxs-lookup"><span data-stu-id="c4079-119">Header</span></span><br/> | <dl> <span data-ttu-id="c4079-120"><dt>D3dx9math。h</dt></span><span class="sxs-lookup"><span data-stu-id="c4079-120"><dt>D3dx9math.h</dt></span></span> </dl> |
+| <span data-ttu-id="07734-119">標頭</span><span class="sxs-lookup"><span data-stu-id="07734-119">Header</span></span><br/> | <dl> <span data-ttu-id="07734-120"><dt>D3dx9math。h</dt></span><span class="sxs-lookup"><span data-stu-id="07734-120"><dt>D3dx9math.h</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c4079-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c4079-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="07734-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="07734-121">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c4079-122">D3DX 結構</span><span class="sxs-lookup"><span data-stu-id="c4079-122">D3DX Structures</span></span>](dx9-graphics-reference-d3dx-structures.md)
+[<span data-ttu-id="07734-122">D3DX 結構</span><span class="sxs-lookup"><span data-stu-id="07734-122">D3DX Structures</span></span>](dx9-graphics-reference-d3dx-structures.md)
 </dt> </dl>
 
  
