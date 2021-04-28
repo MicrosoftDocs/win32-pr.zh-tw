@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineGroup：： IsRecompressFormatDirty 方法-不支援。
 ms.assetid: 4fd6b9d9-1749-44e6-884a-16faeced4ed6
 title: 'IAMTimelineGroup：： IsRecompressFormatDirty 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4b1e395c46149f1ab63afebbbf08bd462726ba19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 842b4178f93505a2848fa01aa055541943fb3c22
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995323"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098616"
 ---
 # <a name="iamtimelinegroupisrecompressformatdirty-method"></a>IAMTimelineGroup：： IsRecompressFormatDirty 方法
 

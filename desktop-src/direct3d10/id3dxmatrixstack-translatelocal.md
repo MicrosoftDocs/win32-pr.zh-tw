@@ -1,5 +1,5 @@
 ---
-description: 決定由給定因數決定的計算轉譯矩陣的乘積 (x、y 和 z) 和目前的矩陣。
+description: ID3DXMATRIXStack：： TranslateLocal 方法 (D3DX10 .h) -決定由給定因數 (x、y 和 z) 和目前矩陣所決定的計算轉譯矩陣的乘積。
 ms.assetid: 96399801-dd80-4e9a-a5c3-c5d41eb9368a
 title: 'ID3DXMATRIXStack：： TranslateLocal 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 65a627141f552107d88c3f43988daa0d316a0bef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 80fabea58bd30b0db9b3ff41b522614007fe4b7d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975712"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107746"
 ---
 # <a name="id3dxmatrixstacktranslatelocal-method-d3dx10h"></a>ID3DXMATRIXStack：： TranslateLocal 方法 (D3DX10 .h) 
 

@@ -1,5 +1,5 @@
 ---
-description: GetMediaType 方法會依索引值抓取慣用的媒體類型。
+description: CTransformOutputPin. GetMediaType 方法-GetMediaType 方法會依索引值抓取慣用的媒體類型。
 ms.assetid: d106e6d1-66ff-4460-9ea2-c93f16116cf4
 title: 'CTransformOutputPin. GetMediaType 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e52a5bc3b6a2b931a8592372e2ef636863c50ef6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1dd0bf38f2fa3be0e077f2509001680bbfc84e15
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990739"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094896"
 ---
 # <a name="ctransformoutputpingetmediatype-method"></a>CTransformOutputPin. GetMediaType 方法
 

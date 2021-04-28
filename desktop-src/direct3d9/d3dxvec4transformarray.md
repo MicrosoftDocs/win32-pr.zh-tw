@@ -1,5 +1,5 @@
 ---
-description: 將陣列 (x、y、0、1) 由指定的矩陣進行轉換。
+description: D3DXVec4TransformArray 函式 (D3dx9math) -轉換陣列 (x、y、0、1) 指定的矩陣。
 ms.assetid: 11d69f65-2aef-46f4-b274-e173a11382a8
 title: 'D3DXVec4TransformArray 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3102d1766ba43525829e045503c1838a19d4b0e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f5435b7e88a5424db9457fac077495fcfd8828a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985917"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097626"
 ---
 # <a name="d3dxvec4transformarray-function-d3dx9mathh"></a>D3DXVec4TransformArray 函式 (D3dx9math) 
 

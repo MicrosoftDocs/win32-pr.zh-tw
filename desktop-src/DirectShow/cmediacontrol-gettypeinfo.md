@@ -1,5 +1,5 @@
 ---
-description: 抓取類型資訊物件，此物件可以取得介面的類型資訊。
+description: CMediaControl. GetTypeInfo 方法-取得型別資訊物件，該物件可以取得介面的型別資訊。
 ms.assetid: 2014485f-d937-415d-a2fc-0c69269b5237
 title: 'CMediaControl. GetTypeInfo 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fe393922206744c23b534bf8d701d6292736c65a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 857dbdeee9a2add9ab77cae0ff97d69699d2dd2e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998401"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099126"
 ---
 # <a name="cmediacontrolgettypeinfo-method"></a>CMediaControl. GetTypeInfo 方法
 

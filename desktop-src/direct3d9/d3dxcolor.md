@@ -1,5 +1,5 @@
 ---
-description: 描述色彩值。
+description: D3DXCOLOR 結構 (D3dx9math) -描述色彩值。
 ms.assetid: 53d3176a-f727-498e-8bea-0e30e0a1c66e
 title: 'D3DXCOLOR 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: c7e5c1ac12341ccf6272714511959ee9a131ba4a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 58b02abc49b695169674a2579b73dc2359801a73
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992722"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115926"
 ---
 # <a name="d3dxcolor-structure-d3dx9mathh"></a>D3DXCOLOR 結構 (D3dx9math .h) 
 

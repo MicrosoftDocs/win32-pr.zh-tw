@@ -1,5 +1,5 @@
 ---
-description: 計算單位長度四元數。
+description: D3DXQuaternionNormalize 函數 (D3dx9math) -計算單位長度四元數。
 ms.assetid: 31f56c2b-96b0-4110-a5b9-ce09983779b6
 title: 'D3DXQuaternionNormalize 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d052d4dfc88feb2a00237392071f63d724070b3d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a5d4a7938b96d3d8693fd2091fcbd4f664f465c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514585"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094036"
 ---
 # <a name="d3dxquaternionnormalize-function-d3dx9mathh"></a>D3DXQuaternionNormalize 函式 (D3dx9math) 
 

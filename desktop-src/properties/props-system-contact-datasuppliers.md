@@ -1,15 +1,15 @@
 ---
-description: .
+description: DataSuppliers
 ms.assetid: 2b231ea2-d3c9-47ac-be51-4de3c736b369
 title: DataSuppliers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9abb30fcb90a6ebe303e0cc641455675d73c03f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad265648cdc2ae6ad1161a30cdb6c1c88393eeab
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193605"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102456"
 ---
 # <a name="systemcontactdatasuppliers"></a>DataSuppliers
 

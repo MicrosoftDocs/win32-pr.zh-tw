@@ -1,5 +1,5 @@
 ---
-description: 描述色彩值。
+description: D3DCOLORVALUE 結構 (D3D9Types) -描述色彩值。
 ms.assetid: 6af8c2ec-bc79-4dc6-b56d-7a7676a50b39
 title: 'D3DCOLORVALUE 結構 (D3D9Types .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 1fe2f187921749207bbbf51d7fcfd75357a70858
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c9b55fbf718382e9dca7e3999cce0cabe895a261
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322740"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116056"
 ---
 # <a name="d3dcolorvalue-structure-d3d9typesh"></a>D3DCOLORVALUE 結構 (D3D9Types .h) 
 

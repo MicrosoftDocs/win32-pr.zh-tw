@@ -1,15 +1,15 @@
 ---
 title: 使用 Win32 和 c + +) 開始 COM (中的錯誤處理
-description: .
+description: 使用 Win32 和 c + +) 開始 COM (中的錯誤處理
 ms.assetid: 022ca652-59d2-4513-9d73-1c6d8688c478
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505f8cfe6867db07da77616e6a94fdc257e32f3e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b69cf89170087469fa6ef8587fb5377e6374f6a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965049"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103916"
 ---
 # <a name="error-handling-in-com-get-started-with-win32-and-c"></a>使用 Win32 和 c + +) 開始 COM (中的錯誤處理
 

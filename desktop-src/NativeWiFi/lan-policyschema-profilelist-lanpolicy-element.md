@@ -1,5 +1,5 @@
 ---
-description: 包含要在網域或電腦層級套用的配置檔案清單。
+description: profileList (LANPolicy) 元素-包含要在網域或電腦層級套用的配置檔案清單。
 ms.assetid: 4f010449-0c6b-4a01-8253-4f82cd628f0a
 title: profileList (LANPolicy) 元素
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: b85c284262c070f7a9349933f99ad858cf047913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d18ebc99f48bf72599afe750863d684b8158608
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975181"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090776"
 ---
 # <a name="profilelist-lanpolicy-element"></a>profileList (LANPolicy) 元素
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: DiscNumber
 ms.assetid: dfe19c2c-b07e-4752-94c5-b770a14250e0
 title: DiscNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c33213c3ce1bcb8dbce39641c526359c8d52c42b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2ee7015746aec24f1b2aac66503f19b603232e4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989373"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114726"
 ---
 # <a name="systemmusicdiscnumber"></a>DiscNumber
 

@@ -1,5 +1,5 @@
 ---
-description: 建立圍繞 Z 軸旋轉的矩陣。
+description: D3DXMatrixRotationZ 函式 (D3dx9math) -建立圍繞 Z 軸旋轉的矩陣。
 ms.assetid: 73db43e6-3831-4867-8eda-80127b61e169
 title: 'D3DXMatrixRotationZ 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 61d94df676016c0e22e7c0842eebe9af05b9ff71
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0b109f71052657a5d9c32d9af5cb38b2cbcf1f0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118106"
 ---
 # <a name="d3dxmatrixrotationz-function-d3dx9mathh"></a>D3DXMatrixRotationZ 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 建立2D 轉換矩陣，表示 xy 平面中的轉換。 Null 引數會被視為身分識別轉換。
+description: D3DXMatrixTransformation2D 函式 (D3dx9math) -建立代表 xy 平面轉換的2D 轉換矩陣。 Null 引數會被視為身分識別轉換。
 ms.assetid: 671d3d67-b474-4fc1-9913-d21f05d66d9a
 title: 'D3DXMatrixTransformation2D 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ead4d403917b5328776b33563bc477c28983d6ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b92a5489569765ef059af9b1023b40fc681b5d0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991460"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098116"
 ---
 # <a name="d3dxmatrixtransformation2d-function-d3dx9mathh"></a>D3DXMatrixTransformation2D 函式 (D3dx9math) 
 

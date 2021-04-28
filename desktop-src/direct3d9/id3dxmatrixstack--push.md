@@ -1,5 +1,5 @@
 ---
-description: 將矩陣加入至堆疊。
+description: ID3DXMATRIXStack：:P ush 方法 (D3dx9math) -將矩陣新增至堆疊。
 ms.assetid: 99bc636d-f1fd-4ace-a649-6a1a952927e0
 title: 'ID3DXMATRIXStack：:P ush 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1678ad9481a7c76fdb0e92a0c3b2de66d638de71
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aeaf40d3164d6bd9d892d30f352fd24467b24ddb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993864"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093499"
 ---
 # <a name="id3dxmatrixstackpush-method-d3dx9mathh"></a>ID3DXMATRIXStack：:P ush 方法 (D3dx9math .h) 
 

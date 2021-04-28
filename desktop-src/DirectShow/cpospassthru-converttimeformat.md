@@ -1,5 +1,5 @@
 ---
-description: ConvertTimeFormat 方法會從一種時間格式轉換成另一種格式。 這個方法會實 IMediaSeeking：： ConvertTimeFormat 方法。
+description: CPosPassThru. ConvertTimeFormat 方法-ConvertTimeFormat 方法會將一段時間格式轉換成另一種格式。 這個方法會實 IMediaSeeking：： ConvertTimeFormat 方法。
 ms.assetid: e766d112-ee41-4c64-a735-b6317093518a
 title: 'CPosPassThru. ConvertTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bcce3e24c46e3e59c6bad6b4fbd60b139806de73
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fc463cb6dc891e677266289971a1dac8b335a8c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989864"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098956"
 ---
 # <a name="cpospassthruconverttimeformat-method"></a>CPosPassThru. ConvertTimeFormat 方法
 

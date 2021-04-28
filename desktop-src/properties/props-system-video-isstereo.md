@@ -1,15 +1,15 @@
 ---
-description: .
+description: IsStereo
 ms.assetid: 900407d6-f01b-44f4-9d60-3e2f785723ca
 title: IsStereo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 734d3674921b8e59dc7d7bee2e7ad4201539324f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55df0782c722fa59ebdd5c4c4f52141eb20b4ddd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320152"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089936"
 ---
 # <a name="systemvideoisstereo"></a>IsStereo
 

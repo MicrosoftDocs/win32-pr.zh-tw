@@ -1,5 +1,5 @@
 ---
-description: 設定已轉置的矩陣。
+description: ID3DXTextureShader：： SetMatrixTranspose 方法：設定已轉置的矩陣。
 ms.assetid: 5339a9de-528f-4404-880b-73964192b766
 title: 'ID3DXTextureShader：： SetMatrixTranspose 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cf5507d935d2fea1b6210624e70344a2c4a1da81
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 91216b49dba7fabb25c128f3801d11bfa2fd95c2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946116"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114296"
 ---
 # <a name="id3dxtextureshadersetmatrixtranspose-method"></a>ID3DXTextureShader：： SetMatrixTranspose 方法
 

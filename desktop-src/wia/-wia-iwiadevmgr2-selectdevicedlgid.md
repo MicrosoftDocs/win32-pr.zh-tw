@@ -1,5 +1,5 @@
 ---
-description: 顯示對話方塊，讓使用者選取硬體裝置以取得影像。
+description: IWiaDevMgr2：： SelectDeviceDlgID 方法-顯示對話方塊，讓使用者選取硬體裝置以取得影像。
 ms.assetid: 6baca959-0f97-4a39-88d0-ed34b813c80a
 title: 'IWiaDevMgr2：： SelectDeviceDlgID 方法 (Wia .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: bad749eb48e72b362070ea4951d4e9eac380e737
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4279bef86d761ed0eb7d90ad3b8dee46e0f17f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972674"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106816"
 ---
 # <a name="iwiadevmgr2selectdevicedlgid-method"></a>IWiaDevMgr2：： SelectDeviceDlgID 方法
 
@@ -94,7 +94,7 @@ HRESULT SelectDeviceDlgID(
 *pbstrDeviceID* \[退出，retval\]
 </dt> <dd>
 
-類型： **BSTR \** _
+類型： **BSTR \***
 
 接收裝置識別碼字串之字串的指標。
 
@@ -102,7 +102,7 @@ HRESULT SelectDeviceDlgID(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 這個方法可以傳回其中一個值。
 

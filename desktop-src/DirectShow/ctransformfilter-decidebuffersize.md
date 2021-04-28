@@ -1,5 +1,5 @@
 ---
-description: DecideBufferSize 方法會設定輸出 pin 的緩衝區需求。
+description: CTransformFilter. DecideBufferSize 方法-DecideBufferSize 方法會設定輸出釘選的緩衝區需求。
 ms.assetid: 33e41668-b4f6-4142-b22e-2ddfb96332df
 title: 'CTransformFilter. DecideBufferSize 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71a506a9c9cd16a014418b24ad3fbd1186d6f48f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f3276170f1256bba41aa075b0e5f06fb7becbcd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000024"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095146"
 ---
 # <a name="ctransformfilterdecidebuffersize-method"></a>CTransformFilter. DecideBufferSize 方法
 

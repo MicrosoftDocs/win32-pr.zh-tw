@@ -1,5 +1,5 @@
 ---
-description: 定義呼叫裝置對話方塊所需的資料。
+description: DEVICEDIALOGDATA2 結構-定義呼叫裝置對話方塊所需的資料。
 ms.assetid: 544238de-310f-4fc3-b519-bb4e6b309272
 title: 'DEVICEDIALOGDATA2 結構 (Wiadefd .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: f4ab56114054b4f69a21fd9f4c05a1e119bab5da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82ca6cba81101e577eed882ad45272ab81546fed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089801"
 ---
 # <a name="devicedialogdata2-structure"></a>DEVICEDIALOGDATA2 結構
 
@@ -61,11 +61,11 @@ typedef struct {
 **pIWiaItemRoot**
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-指向 [_ *IWiaItem2* *](-wia-iwiaitem2.md)介面，表示應用程式專案樹狀結構中的有效根專案。
+指向 [**IWiaItem2**](-wia-iwiaitem2.md) 介面，表示應用程式專案樹狀結構中的有效根專案。
 
 </dd> <dt>
 
@@ -139,7 +139,7 @@ typedef struct {
 **pbstrFilePaths**
 </dt> <dd>
 
-類型： **BSTR \** _
+類型： **BSTR \***
 
 </dd> <dd>
 
@@ -147,14 +147,14 @@ typedef struct {
 
 </dd> <dt>
 
-_ *ppWiaItem**
+**ppWiaItem**
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
 </dd> <dd>
 
-WIA 專案的 [_ *IWiaItem2* *](-wia-iwiaitem2.md)介面指標，該專案會將資料傳輸至 **pbstrFilePaths** 陣列中所命名的檔案。
+WIA 專案的 [**IWiaItem2**](-wia-iwiaitem2.md) 介面指標，可將資料傳送至 **pbstrFilePaths** 陣列中所命名的檔案或檔案。
 
 </dd> </dl>
 

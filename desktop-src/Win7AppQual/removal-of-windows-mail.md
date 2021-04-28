@@ -1,15 +1,15 @@
 ---
-description: .
+description: 移除 Windows Mail
 ms.assetid: 356f0d79-12dd-49f0-b756-a46f20177efa
 title: 移除 Windows Mail
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 836b2f447735c8e3595955ca7e99f1ae818c3d5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d50ad1008d9e252e1705a159f19d362677934023
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194725"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116276"
 ---
 # <a name="removal-of-windows-mail"></a>移除 Windows Mail
 

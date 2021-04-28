@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。ClientID
 ms.assetid: 67a70bbc-3f4f-43ac-b886-88fc312b1aa1
 title: System.Doc>ument。ClientID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88d1f717e0ba1a34f856ca23b4350244db9bd990
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 046d58edc250f0b3f64a967342cbd250139f969c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114846"
 ---
 # <a name="systemdocumentclientid"></a>System.Doc>ument。ClientID
 

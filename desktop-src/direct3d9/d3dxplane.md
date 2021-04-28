@@ -1,5 +1,5 @@
 ---
-description: 描述平面。
+description: D3DXPLANE 結構 (D3dx9math) -描述平面。
 ms.assetid: ffca4650-9788-4559-8f6b-a4e5db29ce55
 title: 'D3DXPLANE 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 260f9555313aea3443f0728f2b50189228429803
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3df0c94dbd49cf38d9230a2c5392df8497c64761
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106990013"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115716"
 ---
 # <a name="d3dxplane-structure-d3dx9mathh"></a>D3DXPLANE 結構 (D3dx9math .h) 
 

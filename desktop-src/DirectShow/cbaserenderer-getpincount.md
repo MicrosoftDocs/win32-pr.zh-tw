@@ -1,5 +1,5 @@
 ---
-description: GetPinCount 方法會抓取釘選數目。
+description: CBaseRenderer. GetPinCount 方法-GetPinCount 方法會抓取釘選數目。
 ms.assetid: 518de15d-2ecf-425e-b4cd-14aaaf938417
 title: 'CBaseRenderer. GetPinCount 方法 (Renbase .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 71b3703389019e2217a595884ac983e90835cdac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990530"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095886"
 ---
 # <a name="cbaserenderergetpincount-method"></a>CBaseRenderer. GetPinCount 方法
 

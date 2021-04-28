@@ -1,6 +1,6 @@
 ---
 title: 'UDM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
+description: UDM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: abe882db-bf32-40b0-a1c0-3e89cdc93fe7
 keywords:
 - UDM_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db3f9dbc1e19fdb43aa0b7d5e6de6fdddd308eb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 09eeb63d5c06a5e64c354c950cd84fc451568d36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025150"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116536"
 ---
 # <a name="udm_setunicodeformat-message"></a>UDM \_ SETUNICODEFORMAT 訊息
 

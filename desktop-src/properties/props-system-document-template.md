@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。範本
 ms.assetid: 68a68689-e65c-4080-849f-e8a9ef457931
 title: System.Doc>ument。範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e058fc023cb3a3f5d5f0e4f508b30faa3479f04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc7ec2a9da7db25b67f009f673cabaebd638583f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026676"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100976"
 ---
 # <a name="systemdocumenttemplate"></a>System.Doc>ument。範本
 

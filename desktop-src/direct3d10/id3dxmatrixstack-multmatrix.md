@@ -1,5 +1,5 @@
 ---
-description: 決定目前矩陣和指定矩陣的乘積。
+description: ID3DXMATRIXStack：： MultMatrix 方法 (D3DX10 .h) -決定目前矩陣和指定矩陣的乘積。
 ms.assetid: 72388919-e474-4433-b219-41e2d312848e
 title: 'ID3DXMATRIXStack：： MultMatrix 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 43f80ca26f615e02570f0855b1ba6c2435e11b5b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 969cdebcee34add15cbf6bbcfbb1048387b2d7e8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986550"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107966"
 ---
 # <a name="id3dxmatrixstackmultmatrix-method-d3dx10h"></a>ID3DXMATRIXStack：： MultMatrix 方法 (D3DX10 .h) 
 

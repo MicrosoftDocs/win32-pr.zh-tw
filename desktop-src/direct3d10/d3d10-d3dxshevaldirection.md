@@ -1,5 +1,5 @@
 ---
-description: 從輸入方向向量評估球面調和 (SH) 基礎函數。
+description: D3DXSHEvalDirection 函式 (D3DX10) -從輸入方向向量評估球面調和 (SH) 基礎函數。
 ms.assetid: c86973cc-c5b0-4358-b7eb-5c31f38b5b5a
 title: 'D3DXSHEvalDirection 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 698873f3278b37970120b03c25918096762ead34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c7fa1f94d65ca8096a0398d71ca2f562b643d47a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104564886"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108586"
 ---
 # <a name="d3dxshevaldirection-function-d3dx10h"></a>D3DXSHEvalDirection 函式 (D3DX10) 
 

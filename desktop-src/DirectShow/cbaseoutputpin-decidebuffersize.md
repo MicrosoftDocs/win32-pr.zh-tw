@@ -1,5 +1,5 @@
 ---
-description: DecideBufferSize 方法會設定緩衝區需求。
+description: CBaseOutputPin. DecideBufferSize 方法-DecideBufferSize 方法會設定緩衝區需求。
 ms.assetid: 1f7a3424-18ba-4a10-b09f-947ee8585ffa
 title: 'CBaseOutputPin. DecideBufferSize 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5dcb3328b56a7e203575a3abbaab64cda6a9b87f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a76f058e2f9c07a344453db87046704e26280a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984828"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099526"
 ---
 # <a name="cbaseoutputpindecidebuffersize-method"></a>CBaseOutputPin. DecideBufferSize 方法
 

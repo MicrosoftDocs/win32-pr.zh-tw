@@ -1,15 +1,15 @@
 ---
-description: .
+description: 在遷移至 Internet Explorer 8 時解決應用程式相容性問題
 ms.assetid: 3F79CF5F-416D-4C06-AAAE-D935F36CD2E2
 title: 在遷移至 Internet Explorer 8 時解決應用程式相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab869be07e5578d265db2e8e85147c213e1e17e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f24fb4b0cbfb946f2385ddbd13ddc697987e659d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195239"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088766"
 ---
 # <a name="addressing-application-compatibility-when-migrating-to-internet-explorer-8"></a>在遷移至 Internet Explorer 8 時解決應用程式相容性問題
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。劃分
 ms.assetid: b1cc598d-d861-4526-b2ed-ab10db805ccb
 title: System.Doc>ument。劃分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eadb60fb1b69571e21cf0252ae55c3c817a6727
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87e5933fa8134f1aed312106388cf0fee1544c98
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987551"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101096"
 ---
 # <a name="systemdocumentdivision"></a>System.Doc>ument。劃分
 

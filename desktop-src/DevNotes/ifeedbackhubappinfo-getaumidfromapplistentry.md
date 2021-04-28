@@ -1,5 +1,5 @@
 ---
-description: 所有應用程式都無法使用此 API。 除非您的應用程式是由 Microsoft 特別布建，否則這些 Api 的呼叫將會在執行時間失敗。
+description: IFeedbackHubAppInfo：： GetAumidFromAppListEntry 方法-此 API 無法供所有應用程式使用。 除非您的應用程式是由 Microsoft 特別布建，否則這些 Api 的呼叫將會在執行時間失敗。
 ms.assetid: F205911F-7AA3-464F-A408-3BF549E1112A
 title: IFeedbackHubAppInfo：： GetAumidFromAppListEntry 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6e58fcacde643ad7e87ea3d418f21cf4faf57b16
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2da6b428db156ddf18483951701216942aebbeaf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321751"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089296"
 ---
 # <a name="ifeedbackhubappinfogetaumidfromapplistentry-method"></a>IFeedbackHubAppInfo：： GetAumidFromAppListEntry 方法
 

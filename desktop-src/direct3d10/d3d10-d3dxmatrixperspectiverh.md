@@ -1,5 +1,5 @@
 ---
-description: 建置右手透視投影矩陣。
+description: D3DXMatrixPerspectiveRH 函式 (D3DX10Math) -建立右手角的透視圖投影矩陣。
 ms.assetid: 324c8a21-24ef-4b3a-aac1-a753e26076d4
 title: 'D3DXMatrixPerspectiveRH 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eb1c2b4b876fb2dda842912d2f18f845a3167406
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 03ffd99d016023612daa3de96ae29275d71074a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975704"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109006"
 ---
 # <a name="d3dxmatrixperspectiverh-function-d3dx10mathh"></a>D3DXMatrixPerspectiveRH 函式 (D3DX10Math) 
 

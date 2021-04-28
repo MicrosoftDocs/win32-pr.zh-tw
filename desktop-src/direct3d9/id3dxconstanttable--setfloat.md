@@ -1,5 +1,5 @@
 ---
-description: 設定浮點數。
+description: ID3DXConstantTable：： SetFloat 方法：設定浮點數。
 ms.assetid: 920cbcf2-ccb9-4533-abbc-6bab8b159ebe
 title: 'ID3DXConstantTable：： SetFloat 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5048f08acc470e5244de80f4e5618c7416bc1bbf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6589d56e0b9dcf8debe14a7c81f86a4972a73405
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115216"
 ---
 # <a name="id3dxconstanttablesetfloat-method"></a>ID3DXConstantTable：： SetFloat 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Music.InitialKey
 ms.assetid: 34ee1164-b23b-4fe4-ba66-0e963278d710
 title: System.Music.InitialKey
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad4387443dd48046ab94e3e1620234228f53ee30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8799a49dd3170a31b299759654451c84b09e97c6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986900"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117386"
 ---
 # <a name="systemmusicinitialkey"></a>System.Music.InitialKey
 
