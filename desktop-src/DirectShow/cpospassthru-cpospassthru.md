@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CPosPassThru。 CPosPassThru 函式-函數方法。
 ms.assetid: b258401c-158b-4eb8-8736-1e1ad9a8403a
 title: CPosPassThru. CPosPassThru 函數
 ms.topic: reference
@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ba49bd1e2f65cf0d2a8a398ecab167e74dc35ad4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2a6c49b305b3c6638aeaaee1480d0b561fd8c99a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973736"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085596"
 ---
-# <a name="cpospassthrucpospassthru-constructor"></a><span data-ttu-id="cc20e-103">CPosPassThru. CPosPassThru 函數</span><span class="sxs-lookup"><span data-stu-id="cc20e-103">CPosPassThru.CPosPassThru constructor</span></span>
+# <a name="cpospassthrucpospassthru-constructor"></a><span data-ttu-id="30081-103">CPosPassThru. CPosPassThru 函數</span><span class="sxs-lookup"><span data-stu-id="30081-103">CPosPassThru.CPosPassThru constructor</span></span>
 
-<span data-ttu-id="cc20e-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="cc20e-104">Constructor method.</span></span>
+<span data-ttu-id="30081-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="30081-104">Constructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cc20e-105">語法</span><span class="sxs-lookup"><span data-stu-id="cc20e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="30081-105">語法</span><span class="sxs-lookup"><span data-stu-id="30081-105">Syntax</span></span>
 
 
 ```C++
@@ -38,35 +38,35 @@ CPosPassThru(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="cc20e-106">參數</span><span class="sxs-lookup"><span data-stu-id="cc20e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="30081-106">參數</span><span class="sxs-lookup"><span data-stu-id="30081-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="cc20e-107">*pName*</span><span class="sxs-lookup"><span data-stu-id="cc20e-107">*pName*</span></span> 
+<span data-ttu-id="30081-107">*pName*</span><span class="sxs-lookup"><span data-stu-id="30081-107">*pName*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="cc20e-108">物件名稱的指標，用於偵測用途。</span><span class="sxs-lookup"><span data-stu-id="cc20e-108">Pointer to the name of the object, for debugging purposes.</span></span> <span data-ttu-id="cc20e-109">在靜態記憶體中配置此參數。</span><span class="sxs-lookup"><span data-stu-id="cc20e-109">Allocate this parameter in static memory.</span></span>
+<span data-ttu-id="30081-108">物件名稱的指標，用於偵測用途。</span><span class="sxs-lookup"><span data-stu-id="30081-108">Pointer to the name of the object, for debugging purposes.</span></span> <span data-ttu-id="30081-109">在靜態記憶體中配置此參數。</span><span class="sxs-lookup"><span data-stu-id="30081-109">Allocate this parameter in static memory.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cc20e-110">*朋 克*</span><span class="sxs-lookup"><span data-stu-id="cc20e-110">*pUnk*</span></span> 
+<span data-ttu-id="30081-110">*朋 克*</span><span class="sxs-lookup"><span data-stu-id="30081-110">*pUnk*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="cc20e-111">這個物件之擁有者的指標。</span><span class="sxs-lookup"><span data-stu-id="cc20e-111">Pointer to the owner of this object.</span></span> <span data-ttu-id="cc20e-112">如果物件已匯總，請將指標傳遞至匯總物件的 **IUnknown** 介面。</span><span class="sxs-lookup"><span data-stu-id="cc20e-112">If the object is aggregated, pass a pointer to the aggregating object's **IUnknown** interface.</span></span> <span data-ttu-id="cc20e-113">否則，請將此參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="cc20e-113">Otherwise, set this parameter to **NULL**.</span></span>
+<span data-ttu-id="30081-111">這個物件之擁有者的指標。</span><span class="sxs-lookup"><span data-stu-id="30081-111">Pointer to the owner of this object.</span></span> <span data-ttu-id="30081-112">如果物件已匯總，請將指標傳遞至匯總物件的 **IUnknown** 介面。</span><span class="sxs-lookup"><span data-stu-id="30081-112">If the object is aggregated, pass a pointer to the aggregating object's **IUnknown** interface.</span></span> <span data-ttu-id="30081-113">否則，請將此參數設定為 **Null**。</span><span class="sxs-lookup"><span data-stu-id="30081-113">Otherwise, set this parameter to **NULL**.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cc20e-114">*phr*</span><span class="sxs-lookup"><span data-stu-id="cc20e-114">*phr*</span></span> 
+<span data-ttu-id="30081-114">*phr*</span><span class="sxs-lookup"><span data-stu-id="30081-114">*phr*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="cc20e-115">**HRESULT** 值的指標。</span><span class="sxs-lookup"><span data-stu-id="cc20e-115">Pointer to an **HRESULT** value.</span></span> <span data-ttu-id="cc20e-116">忽略。</span><span class="sxs-lookup"><span data-stu-id="cc20e-116">Ignored.</span></span>
+<span data-ttu-id="30081-115">**HRESULT** 值的指標。</span><span class="sxs-lookup"><span data-stu-id="30081-115">Pointer to an **HRESULT** value.</span></span> <span data-ttu-id="30081-116">忽略。</span><span class="sxs-lookup"><span data-stu-id="30081-116">Ignored.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="cc20e-117">*pPin*</span><span class="sxs-lookup"><span data-stu-id="cc20e-117">*pPin*</span></span> 
+<span data-ttu-id="30081-117">*pPin*</span><span class="sxs-lookup"><span data-stu-id="30081-117">*pPin*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="cc20e-118">篩選器輸入釘選的 [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="cc20e-118">Pointer to the [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface of the filter's input pin.</span></span>
+<span data-ttu-id="30081-118">篩選器輸入釘選的 [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) 介面指標。</span><span class="sxs-lookup"><span data-stu-id="30081-118">Pointer to the [**IPin**](/windows/desktop/api/Strmif/nn-strmif-ipin) interface of the filter's input pin.</span></span>
 
 </dd> <dt>
 
