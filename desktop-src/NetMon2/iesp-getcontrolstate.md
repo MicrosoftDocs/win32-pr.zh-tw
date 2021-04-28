@@ -1,5 +1,5 @@
 ---
-description: GetControlState 方法會抓取 capture 的狀態，以指出 capture 是否正在執行或已暫停。
+description: IESP：： GetControlState 方法-GetControlState 方法會抓取 capture 的狀態，以指出正在執行或暫停捕捉。
 ms.assetid: 19cc3095-3aa3-4482-95f5-959b19f76cea
 title: 'IESP：： GetControlState 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: c791d5dc1f5d5321268fef2fb5cf91e04d9ecff3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b007eb6824ee3e65cdf8195914bbff3a50c39b2c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971352"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114676"
 ---
 # <a name="iespgetcontrolstate-method"></a>IESP：： GetControlState 方法
 

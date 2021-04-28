@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。ParagraphCount
 ms.assetid: feb712fb-3125-4f5d-b428-97d3586d41e8
 title: System.Doc>ument。ParagraphCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e04c59ab4d8df57ef1dbbef0de4c84a7e61feb5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee958b171591817611eddc84c119bf7d18e9ec30
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991897"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114736"
 ---
 # <a name="systemdocumentparagraphcount"></a>System.Doc>ument。ParagraphCount
 

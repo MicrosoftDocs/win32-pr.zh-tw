@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Document.DocumentID
 ms.assetid: 1aa50e38-fa21-4aa1-8ac1-ca8625641423
 title: System.Document.DocumentID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2e179cb2ce8a18d381061bc45868618b4b1bcce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b326f949ca39cc26400df54c6fb9289d3799e73f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513777"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114826"
 ---
 # <a name="systemdocumentdocumentid"></a>System.Document.DocumentID
 

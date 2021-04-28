@@ -1,5 +1,5 @@
 ---
-description: .
+description: 支援 Shell 應用程式
 title: 支援 Shell 應用程式
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f7859c3e10bbd7c918b3be9a0a6a3e11fa6d12aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f48fc719525d290cc3f43965762e748569ef86b5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847797"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117176"
 ---
 # <a name="supporting-shell-applications"></a>支援 Shell 應用程式
 

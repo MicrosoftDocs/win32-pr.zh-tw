@@ -1,5 +1,5 @@
 ---
-description: 計算光線和三角形的交集。
+description: D3DXIntersectTri 函數 (D3DX10math) -計算光線和三角形的交集。
 ms.assetid: 819f2543-8046-47c9-93b8-7d888264786f
 title: 'D3DXIntersectTri 函式 (D3DX10math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: af96d25b4f13995d60e7926ec5da2d15ff86f282
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c8bf502cca48701a7d71a083e515f9988cafe303
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999011"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113236"
 ---
 # <a name="d3dxintersecttri-function-d3dx10mathh"></a>D3DXIntersectTri 函式 (D3DX10math) 
 

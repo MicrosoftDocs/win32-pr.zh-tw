@@ -1,5 +1,5 @@
 ---
-description: 調整色彩的飽和度值。
+description: D3DXColorAdjustSaturation 函式 (D3dx9math) -調整色彩的飽和度值。
 ms.assetid: 1f66c3b4-2f02-4993-80c6-c484180c2459
 title: 'D3DXColorAdjustSaturation 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d9a801a8355c1a9399f9864f9b1753bbecc17b2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 878cdd83a04f594da3133eda314486af96ac3d56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992329"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115866"
 ---
 # <a name="d3dxcoloradjustsaturation-function-d3dx9mathh"></a>D3DXColorAdjustSaturation 函式 (D3dx9math) 
 

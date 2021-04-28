@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_ShutdownComponent 類別的 reset 方法-要求重設。
 ms.assetid: cdd14090-4ea1-4547-b8a5-fd40f7e494f5
 title: Msvm_ShutdownComponent 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 75502c8602adf3a357e04a9aef51dc6d0ea47be5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77c651ce429764edba069be21b246a8623cd0e76
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111366"
 ---
 # <a name="reset-method-of-the-msvm_shutdowncomponent-class"></a>Msvm ShutdownComponent 類別的 Reset 方法 \_
 

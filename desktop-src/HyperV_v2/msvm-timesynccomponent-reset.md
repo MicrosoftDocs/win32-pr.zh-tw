@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_TimeSyncComponent 類別的 reset 方法-要求重設。
 ms.assetid: fb0ce09b-0d14-4de8-b2e5-4d86169b261b
 title: Msvm_TimeSyncComponent 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f412891def38da4e1d0063fe6ec56d62c2a30d77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d93f548030c2248b30eab7a3585a3c270311aa42
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978833"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111156"
 ---
 # <a name="reset-method-of-the-msvm_timesynccomponent-class"></a>Msvm TimeSyncComponent 類別的 Reset 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: 當下拉功能表或子功能表即將變成作用中時傳送。 這可讓應用程式在功能表顯示前修改功能表，而不需要變更整個功能表。
+description: DFM_WM_INITMENUPOPUP 訊息-在下拉式功能表或子功能表即將變成作用中時傳送。 這可讓應用程式在功能表顯示前修改功能表，而不需要變更整個功能表。
 title: 'DFM_WM_INITMENUPOPUP 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 1c89731bdffc0e7d902e6c83b9a4f208134b7cfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9df2700403dcdc0ce00b6d90d9c3a87d373b0a34
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112336"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096996"
 ---
 # <a name="dfm_wm_initmenupopup-message"></a>DFM \_ WM \_ INITMENUPOPUP 訊息
 

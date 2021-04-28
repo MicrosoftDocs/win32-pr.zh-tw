@@ -1,5 +1,5 @@
 ---
-description: GetMediaType 方法會抓取輸出圖釘的慣用媒體類型。
+description: CTransformFilter. GetMediaType 方法-GetMediaType 方法會針對輸出釘選慣用的媒體類型。
 ms.assetid: 9a1b123b-aa8a-4bf0-a926-466ded24e506
 title: 'CTransformFilter. GetMediaType 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba751e291a1ffa8e030be7e77cfd456956718baa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6415b8e3d8ae4e292b7e2592b123120927081ea8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991155"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095116"
 ---
 # <a name="ctransformfiltergetmediatype-method"></a>CTransformFilter. GetMediaType 方法
 

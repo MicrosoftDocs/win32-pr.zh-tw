@@ -1,5 +1,5 @@
 ---
-description: 開啟 [系統] 對話方塊來要求啟用位置之裝置的使用者權限。
+description: LocationDisp. CivicAddressReportFactory. RequestPermissions 方法-開啟 [系統] 對話方塊來要求啟用位置之裝置的使用者權限。
 ms.assetid: b213591a-2830-4979-b532-e71cdef1b994
 title: LocationDisp. CivicAddressReportFactory. RequestPermissions 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6d027687302c544974d13b1ba50194e8d6003a94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cab163585fa23839eb894f7ad83f29ed7975e589
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320887"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110906"
 ---
 # <a name="locationdispcivicaddressreportfactoryrequestpermissions-method"></a>LocationDisp. CivicAddressReportFactory. RequestPermissions 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress1Region
 ms.assetid: 6eb04f6e-2c02-44a8-92d1-b4c1c2ecd22b
 title: HomeAddress1Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4111583f5a77ac41a9a02b9bde27299c6b7924d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8165e7c06aa21f117f6cadd77f08ed34b008f9d3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695008"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102286"
 ---
 # <a name="systemcontacthomeaddress1region"></a>HomeAddress1Region
 

@@ -1,5 +1,5 @@
 ---
-description: 使用宣告子建立網格物件。
+description: D3DX10CreateMesh 函式-使用宣告子建立網格物件。
 ms.assetid: 50e09378-2935-4b18-8fc9-5e58eaadae44
 title: 'D3DX10CreateMesh 函式 (D3DX10Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 2b00addb152fe18db448364fcc784c2044b10d23
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc744536336a4a102bafeaeae3ba87bbad58eb97
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992736"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113356"
 ---
 # <a name="d3dx10createmesh-function"></a>D3DX10CreateMesh 函式
 

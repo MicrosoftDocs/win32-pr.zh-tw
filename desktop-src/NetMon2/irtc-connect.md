@@ -1,5 +1,5 @@
 ---
-description: Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+description: IRTC：： Connect 方法-Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: d017c2a3-a832-4084-b21b-0cca428c5360
 title: 'IRTC：： Connect 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a14e34aeb0be30165aa18ddc7da18028d715be01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba62f3341b18ddfdbf09af4eec701322d901ab79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970398"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110742"
 ---
 # <a name="irtcconnect-method"></a>IRTC：： Connect 方法
 

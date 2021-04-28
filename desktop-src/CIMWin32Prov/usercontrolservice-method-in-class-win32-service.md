@@ -1,5 +1,5 @@
 ---
-description: 嘗試將使用者定義的控制項程式碼傳送至參考的服務。
+description: Win32_Service 類別的 UserControlService 方法 (CIMWin32 WMI 提供者) -嘗試傳送使用者定義的控制項程式碼至參考的服務。
 ms.assetid: a7132c9b-6faf-4182-a5b8-3f2334c1a74b
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 UserControlService 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8c523617826bd5d608b8c6b1ee242863f7591a61
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 455128b35c2645c6aa6ea10f64d12dff392fecca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936458"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099998"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 UserControlService 方法) 
 

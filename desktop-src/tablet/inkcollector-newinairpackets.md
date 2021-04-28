@@ -1,15 +1,15 @@
 ---
-description: 當出現無線封包時發生。
+description: InkCollector. NewInAirPackets 事件-當出現無線封包時，就會發生此事件。
 ms.assetid: e8eacdec-0381-435f-b453-24dca1c507c9
 title: 'InkCollector. NewInAirPackets 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 49d942aa474b5cb53d01f5ce83d2bd3ec28d521c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5709ae0b468aa6ab49516accf4037695268788
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998135"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110126"
 ---
 # <a name="inkcollectornewinairpackets-event"></a>InkCollector. NewInAirPackets 事件
 

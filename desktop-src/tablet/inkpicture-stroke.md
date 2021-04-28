@@ -1,15 +1,15 @@
 ---
-description: 當使用者在任何平板電腦上繪製新筆劃時發生。
+description: InkPicture。當使用者在任何平板電腦上繪製新的筆劃時，就會發生筆觸事件。
 ms.assetid: 2829b65a-6120-402e-91e3-5587d1f456f9
 title: 'InkPicture： Stroke 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b85d2410141c2d6d5f7ae92408b7d6da49a447f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b181c8dc46348c76bd9c2d015d4a97c1f6911ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113696"
 ---
 # <a name="inkpicturestroke-event"></a>InkPicture。筆觸事件
 

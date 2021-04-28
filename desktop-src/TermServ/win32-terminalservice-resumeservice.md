@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 ResumeService 方法 (遠端桌面服務) '
-description: 嘗試將參考的服務放在恢復狀態。
+description: Win32_Service 類別的 ResumeService 方法 (遠端桌面服務) -嘗試將參考的服務放在恢復狀態。
 ms.assetid: AA020A0A-E69C-44AB-B259-A73460728770
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e7b446dea84e4320e9aa8972a88dc4fdd5a6eea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 94f8e7dcfc9b9bd5b408e36d8a909aa10c84519c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509271"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090586"
 ---
 # <a name="resumeservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 ResumeService 方法 (遠端桌面服務) 
 

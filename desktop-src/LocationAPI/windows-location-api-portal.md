@@ -1,15 +1,15 @@
 ---
-description: .
+description: 位置 API
 ms.assetid: 0182461a-df06-46ea-a9c2-7aedbde5033b
 title: 位置 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f643565e80f72ffcefe6981c924b3739b1c4f5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3e9dccf5f88da1c608cfbc03898899f171a2627
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849168"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110886"
 ---
 # <a name="location-api"></a>位置 API
 

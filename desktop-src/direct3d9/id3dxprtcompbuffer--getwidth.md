@@ -1,5 +1,5 @@
 ---
-description: 抓取紋理的寬度（以圖元為單位）。
+description: ID3DXPRTCompBuffer：： GetWidth 方法-抓取紋理的寬度（以圖元為單位）。
 ms.assetid: 32a69449-327b-4f12-b3ff-fe9caeab783b
 title: 'ID3DXPRTCompBuffer：： GetWidth 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c8d7e1d2ad1a503dc0e3424a9d8a9692b38b9e45
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fc679a73ea864ef4aaca8b6dcd45cf459710a79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196419"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107226"
 ---
 # <a name="id3dxprtcompbuffergetwidth-method"></a>ID3DXPRTCompBuffer：： GetWidth 方法
 

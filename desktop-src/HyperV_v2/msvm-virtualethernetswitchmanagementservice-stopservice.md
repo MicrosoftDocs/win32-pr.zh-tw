@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_VirtualEthernetSwitchManagementService 類別的 StopService 方法會停止服務。
 ms.assetid: 4f88b099-3a89-4d05-920e-265fc94599b1
 title: Msvm_VirtualEthernetSwitchManagementService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6303327b66ce66c9cda6fe29e7d0a63184ea5929
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fbc91a4134fb0a024e66dfc1a46806aa531893f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975355"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111006"
 ---
 # <a name="stopservice-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Msvm VirtualEthernetSwitchManagementService 類別的 StopService 方法 \_
 

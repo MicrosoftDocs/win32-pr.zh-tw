@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 SetSecurityDescriptor 方法 (遠端桌面服務) '
-description: 寫入安全描述項的更新版本，以控制服務的存取權。
+description: Win32_Service 類別的 SetSecurityDescriptor 方法 (遠端桌面服務) 寫入控制服務存取的安全描述項更新版本。
 ms.assetid: 4F03B798-0912-4A0D-B31E-419662D5849B
 ms.tgt_platform: multiple
 keywords:
@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a21f9730b4c1c0ab7b3ccf662ddb2d95da2ee2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eb2dd7e43041c05b1c294181f8bd01548ed76d87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686420"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114489"
 ---
 # <a name="setsecuritydescriptor-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 SetSecurityDescriptor 方法 (遠端桌面服務) 
 

@@ -1,5 +1,5 @@
 ---
-description: 將 Msvm \_ VirtualSystemCollection 與包含的 Msvm 不會產生的物件產生關聯 \_ 。
+description: Msvm_CollectedCollections 類別-將 Msvm \_ VirtualSystemCollection 與包含的 Msvm 不會元件物件產生關聯 \_ 。
 ms.assetid: bbf7713a-b331-4b40-bcb4-3545c26c6f3a
 title: Msvm_CollectedCollections 類別
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 16ec6ad77c44e0a4e9001a0cb77d227573635ec6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83719d364fac22923d68206c8cfe7d37adad5edb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989085"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112126"
 ---
 # <a name="msvm_collectedcollections-class"></a>Msvm \_ CollectedCollections 類別
 

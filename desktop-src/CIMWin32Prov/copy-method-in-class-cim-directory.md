@@ -1,5 +1,5 @@
 ---
-description: Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
+description: CIM_Directory 類別的 copy 方法-Copy 方法會將物件路徑中指定的邏輯檔案 (或目錄) 複製到輸入參數所指定的位置。
 ms.assetid: 71481cc8-9052-4c62-9c26-6887ea646ee1
 ms.tgt_platform: multiple
 title: CIM_Directory 類別的 Copy 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 02bca61e559cea9ee56b9d36b28d13c33e423f9a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6aff8ce62cf0358f494d5b3d83872b831e07ec4b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110812"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089736"
 ---
 # <a name="copy-method-of-the-cim_directory-class"></a>CIM 目錄類別的 Copy 方法 \_
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 修正標準使用者的 ActiveX 安裝相容性問題
 ms.assetid: 4199521A-58E6-4475-9B95-A724AB52969A
 title: 修正標準使用者的 ActiveX 安裝相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1e50ed2aa9e428164e39b377b65c418d82df1e5
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e88b26ebd0c6e4887a8a304aeab725b176ee04a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696246"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116406"
 ---
 # <a name="fixing-activex-installation-compatibility-issues-for-standard-users"></a>修正標準使用者的 ActiveX 安裝相容性問題
 

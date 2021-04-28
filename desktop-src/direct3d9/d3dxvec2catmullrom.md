@@ -1,5 +1,5 @@
 ---
-description: 使用指定的2D 向量，執行 Catmull-Rom 插補。
+description: D3DXVec2CatmullRom 函式 (D3dx9math) -使用指定的2D 向量執行 Catmull-Rom 插補。
 ms.assetid: dacda32d-b4c4-4d8b-9d20-9a4bb1d3ce6c
 title: 'D3DXVec2CatmullRom 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0b4c8fe76b1ca9a5399fe11a9613b3fe8333056b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c734727f3f2f44c9094885e0e743f605f16c91d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997379"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114316"
 ---
 # <a name="d3dxvec2catmullrom-function-d3dx9mathh"></a>D3DXVec2CatmullRom 函式 (D3dx9math) 
 

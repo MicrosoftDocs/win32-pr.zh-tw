@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_Memory 類別的 reset 方法-要求重設。
 ms.assetid: c21be284-acb0-46e3-9629-b1d95154f58b
 title: Msvm_Memory 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aee28a55326222c7c67b78de4fcdd214745a1d7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c966296c79a3215eb5b66c8825bb17d19854bd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977894"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111606"
 ---
 # <a name="reset-method-of-the-msvm_memory-class"></a>Msvm Memory 類別的 Reset 方法 \_
 

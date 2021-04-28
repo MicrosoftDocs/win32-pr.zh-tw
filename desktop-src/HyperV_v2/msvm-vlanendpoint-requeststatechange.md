@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VLANEndpoint 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: ef4f7180-8d94-4716-85d4-e133defbb32e
 title: Msvm_VLANEndpoint 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 29df159ecd65081f7fa3fd3e4aeabd1acba5aa97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d3412c7804f832d31680f9ca25413172841a9e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318088"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109296"
 ---
 # <a name="requeststatechange-method-of-the-msvm_vlanendpoint-class"></a>Msvm VLANEndpoint 類別的 RequestStateChange 方法 \_
 

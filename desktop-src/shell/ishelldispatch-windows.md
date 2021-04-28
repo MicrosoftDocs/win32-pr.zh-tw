@@ -1,5 +1,5 @@
 ---
-description: 建立並傳回 ShellWindows 物件。 此物件代表屬於 Shell 的所有已開啟視窗的集合。
+description: IShellDispatch 方法-建立並傳回 ShellWindows 物件。 此物件代表屬於 Shell 的所有已開啟視窗的集合。
 ms.assetid: 788E2106-3534-4e22-801F-677FD02BDFE0
 title: 'IShellDispatch 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: cb5f84caebf38deb27c7fb60565167793fead561
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16991d6a251909e8f3b277894a96e6ad08a7f9a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117166"
 ---
 # <a name="ishelldispatchwindows-method"></a>IShellDispatch 方法
 

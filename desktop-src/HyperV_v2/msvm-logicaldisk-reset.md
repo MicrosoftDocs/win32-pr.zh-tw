@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_LogicalDisk 類別的 reset 方法-要求重設。
 ms.assetid: 544bd327-572d-4f0e-bc73-a68113222af0
 title: Msvm_LogicalDisk 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d1a7668d74a9fb7a2cc17a96dca18e7627a4f648
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32a4c2897e63da323a7c698509512bfd1d9a6eec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971433"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111666"
 ---
 # <a name="reset-method-of-the-msvm_logicaldisk-class"></a>Msvm LogicalDisk 類別的 Reset 方法 \_
 

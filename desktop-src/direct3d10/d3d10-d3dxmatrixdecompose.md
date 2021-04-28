@@ -1,5 +1,5 @@
 ---
-description: 將一般3D 轉換矩陣細分為其純量、旋轉和平移元件。
+description: D3DXMatrixDecompose 函式 (D3DX10Math) -將一般3D 轉換矩陣細分為其純量、旋轉和平移元件。
 ms.assetid: 3694769f-56e7-4983-924e-021c129462a2
 title: 'D3DXMatrixDecompose 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 507c8f177db0f71b3d333a8343e4166e649f424a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cc87de99d72283c20f25b15ea8d0e5864e2550d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196409"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113206"
 ---
 # <a name="d3dxmatrixdecompose-function-d3dx10mathh"></a>D3DXMatrixDecompose 函式 (D3DX10Math) 
 

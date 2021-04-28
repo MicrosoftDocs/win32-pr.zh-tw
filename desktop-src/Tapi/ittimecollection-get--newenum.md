@@ -1,15 +1,15 @@
 ---
-description: Get \_ \_ NewEnum 方法會傳回集合的列舉值。
+description: ITTimeCollection：： get__NewEnum 方法-get \_ \_ NewEnum 方法會傳回集合的列舉值。
 ms.assetid: 0c2d739d-736d-4773-9747-1107546a973c
 title: 'ITTimeCollection：： get__NewEnum 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3fbd171696b81bf5bd67c99b9a91294f4581d3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: acfc9d616efb58c6173f2c9c6e5913d27776958c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001813"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088886"
 ---
 # <a name="ittimecollectionget__newenum-method"></a>ITTimeCollection：： get \_ \_ NewEnum 方法
 

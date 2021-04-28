@@ -1,5 +1,5 @@
 ---
-description: CompleteConnect 方法會完成與另一個 pin 的連接。
+description: CBasePin. CompleteConnect 方法-CompleteConnect 方法會完成與另一個 pin 的連接。
 ms.assetid: 10cbf29c-2e1a-419c-b0c0-c99f9a285810
 title: 'CBasePin. CompleteConnect 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9068bf63d3168a8c6d9e1bca2ef709f63e80a3c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fee207d7a17f12cc81036fbd4f82ec49a99f4a31
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990093"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096036"
 ---
 # <a name="cbasepincompleteconnect-method"></a>CBasePin. CompleteConnect 方法
 

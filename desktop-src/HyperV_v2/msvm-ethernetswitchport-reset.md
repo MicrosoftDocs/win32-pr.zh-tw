@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_EthernetSwitchPort 類別的 reset 方法-要求重設。
 ms.assetid: f09641e4-6bf6-4738-afab-0a50f15d3a68
 title: Msvm_EthernetSwitchPort 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 38c5290dd01713feb605b5a20b47ae5686a6f6b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 041fbf106a604f062c6d416f311a59d63e1e706f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993757"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111916"
 ---
 # <a name="reset-method-of-the-msvm_ethernetswitchport-class"></a>Msvm EthernetSwitchPort 類別的 Reset 方法 \_
 

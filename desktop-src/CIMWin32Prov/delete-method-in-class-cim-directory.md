@@ -1,5 +1,5 @@
 ---
-description: Delete 方法會刪除物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
+description: Delete 方法會刪除 CIM_Directory 類別的方法。 Delete 方法會刪除物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
 ms.assetid: 74f59073-a17a-4be5-8247-fba8d023f448
 ms.tgt_platform: multiple
 title: CIM_Directory 類別的 Delete 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6ad193231ffc15f5ce61257ee545f583d8e58e17
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d02c9eb6b603673228671b12df98c7b6884abdd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936490"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089635"
 ---
 # <a name="delete-method-of-the-cim_directory-class"></a>CIM 目錄類別的 Delete 方法 \_
 

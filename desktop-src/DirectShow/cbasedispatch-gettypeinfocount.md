@@ -1,5 +1,5 @@
 ---
-description: GetTypeInfoCount 方法會抓取物件提供的類型資訊介面數目。
+description: CBaseDispatch. GetTypeInfoCount 方法-GetTypeInfoCount 方法會抓取物件提供的類型資訊介面數目。
 ms.assetid: e09e6f6c-6ac8-4ce1-8ce1-ee5374d54183
 title: 'CBaseDispatch. GetTypeInfoCount 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39c5b78181f5f26fb5f57831345bb6345a26da85
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81e68c94420b3d7715845f8d6bd14e26b770b44f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983033"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099886"
 ---
 # <a name="cbasedispatchgettypeinfocount-method"></a>CBaseDispatch. GetTypeInfoCount 方法
 

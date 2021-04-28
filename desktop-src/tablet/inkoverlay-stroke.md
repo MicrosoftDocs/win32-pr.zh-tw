@@ -1,15 +1,15 @@
 ---
-description: 當使用者在任何平板電腦上繪製新筆劃時發生。
+description: InkOverlay：當使用者在任何平板電腦上繪製新的筆劃時，就會發生筆觸事件。
 ms.assetid: 315155ec-0de1-4052-ae7c-51bc3127fbbf
 title: 'InkOverlay：筆觸事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6db3bdbe996830596a8e25cebf6f05b94638894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 408c44cf47ecfbf3ea0cfd0f8306be61efb0f8e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694995"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116846"
 ---
 # <a name="inkoverlaystroke-event"></a>InkOverlay。筆觸事件
 
