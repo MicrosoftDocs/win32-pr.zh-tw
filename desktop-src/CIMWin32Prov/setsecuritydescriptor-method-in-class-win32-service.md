@@ -1,5 +1,5 @@
 ---
-description: 寫入安全描述項的更新版本，以控制服務的存取權。
+description: Win32_Service 類別的 SetSecurityDescriptor 方法 (CIMWin32 WMI 提供者) -寫入控制存取服務的安全描述項更新版本。
 ms.assetid: c1745b69-f355-4b4c-9e58-6a76c230f498
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 SetSecurityDescriptor 方法) "
@@ -14,18 +14,18 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 82c08f9c560a1d8e419d9a8f6474f8ea9db4e541
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 20619a459171841d0a3bd5b7acabe984dc835dac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972793"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100000"
 ---
-# <a name="setsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a><span data-ttu-id="d8cb3-103"> (CIMWin32 WMI 提供者的 Win32_Service 類別的 SetSecurityDescriptor 方法) </span><span class="sxs-lookup"><span data-stu-id="d8cb3-103">SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)</span></span>
+# <a name="setsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a><span data-ttu-id="53a68-103"> (CIMWin32 WMI 提供者的 Win32_Service 類別的 SetSecurityDescriptor 方法) </span><span class="sxs-lookup"><span data-stu-id="53a68-103">SetSecurityDescriptor method of the Win32_Service class (CIMWin32 WMI Providers)</span></span>
 
-<span data-ttu-id="d8cb3-104">**SetSecurityDescriptor** 方法會寫入控制服務存取權之安全描述項的更新版本。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-104">The **SetSecurityDescriptor** method writes an updated version of the security descriptor that controls access to the service.</span></span>
+<span data-ttu-id="53a68-104">**SetSecurityDescriptor** 方法會寫入控制服務存取權之安全描述項的更新版本。</span><span class="sxs-lookup"><span data-stu-id="53a68-104">The **SetSecurityDescriptor** method writes an updated version of the security descriptor that controls access to the service.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8cb3-105">語法</span><span class="sxs-lookup"><span data-stu-id="d8cb3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="53a68-105">語法</span><span class="sxs-lookup"><span data-stu-id="53a68-105">Syntax</span></span>
 
 
 ```mof
@@ -36,268 +36,268 @@ uint32 SetSecurityDescriptor(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="d8cb3-106">參數</span><span class="sxs-lookup"><span data-stu-id="d8cb3-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="53a68-106">參數</span><span class="sxs-lookup"><span data-stu-id="53a68-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d8cb3-107">*描述* \[ 項在\]</span><span class="sxs-lookup"><span data-stu-id="d8cb3-107">*Descriptor* \[in\]</span></span>
+<span data-ttu-id="53a68-107">*描述* \[ 項在\]</span><span class="sxs-lookup"><span data-stu-id="53a68-107">*Descriptor* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-108">與服務相關聯的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-108">The security descriptor associated with the service.</span></span>
+<span data-ttu-id="53a68-108">與服務相關聯的安全描述項。</span><span class="sxs-lookup"><span data-stu-id="53a68-108">The security descriptor associated with the service.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="d8cb3-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="d8cb3-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="53a68-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="53a68-109">Return value</span></span>
 
-<span data-ttu-id="d8cb3-110">傳回下列清單所列的其中一個值，或傳回不同的值來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-110">Returns one of the values listed in the following list, or a different value to indicate an error.</span></span> <span data-ttu-id="d8cb3-111">如需其他錯誤代碼，請參閱 [**WMI 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-111">For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span> <span data-ttu-id="d8cb3-112">如需一般 **HRESULT** 值，請參閱 [系統錯誤碼](/windows/desktop/Debug/system-error-codes)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-112">For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).</span></span>
+<span data-ttu-id="53a68-110">傳回下列清單所列的其中一個值，或傳回不同的值來表示錯誤。</span><span class="sxs-lookup"><span data-stu-id="53a68-110">Returns one of the values listed in the following list, or a different value to indicate an error.</span></span> <span data-ttu-id="53a68-111">如需其他錯誤代碼，請參閱 [**WMI 錯誤常數**](/windows/desktop/WmiSdk/wmi-error-constants) 或 [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum)。</span><span class="sxs-lookup"><span data-stu-id="53a68-111">For additional error codes, see [**WMI Error Constants**](/windows/desktop/WmiSdk/wmi-error-constants) or [**WbemErrorEnum**](/windows/desktop/api/wbemdisp/ne-wbemdisp-wbemerrorenum).</span></span> <span data-ttu-id="53a68-112">如需一般 **HRESULT** 值，請參閱 [系統錯誤碼](/windows/desktop/Debug/system-error-codes)。</span><span class="sxs-lookup"><span data-stu-id="53a68-112">For general **HRESULT** values, see [System Error Codes](/windows/desktop/Debug/system-error-codes).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="d8cb3-113">「成功」</span><span class="sxs-lookup"><span data-stu-id="d8cb3-113">**Success**</span></span>
+<span data-ttu-id="53a68-113">「成功」</span><span class="sxs-lookup"><span data-stu-id="53a68-113">**Success**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-114">0</span><span class="sxs-lookup"><span data-stu-id="d8cb3-114">0</span></span>
+<span data-ttu-id="53a68-114">0</span><span class="sxs-lookup"><span data-stu-id="53a68-114">0</span></span>
 
-<span data-ttu-id="d8cb3-115">要求已被接受。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-115">The request was accepted.</span></span>
+<span data-ttu-id="53a68-115">要求已被接受。</span><span class="sxs-lookup"><span data-stu-id="53a68-115">The request was accepted.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-116">**1**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-116">**1**</span></span>
+<span data-ttu-id="53a68-116">**1**</span><span class="sxs-lookup"><span data-stu-id="53a68-116">**1**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-117">不支援此要求。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-117">The request is not supported.</span></span>
+<span data-ttu-id="53a68-117">不支援此要求。</span><span class="sxs-lookup"><span data-stu-id="53a68-117">The request is not supported.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-118">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-118">**Access denied**</span></span>
+<span data-ttu-id="53a68-118">**拒絕存取**</span><span class="sxs-lookup"><span data-stu-id="53a68-118">**Access denied**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-119">2</span><span class="sxs-lookup"><span data-stu-id="d8cb3-119">2</span></span>
+<span data-ttu-id="53a68-119">2</span><span class="sxs-lookup"><span data-stu-id="53a68-119">2</span></span>
 
-<span data-ttu-id="d8cb3-120">使用者沒有必要的存取權。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-120">The user did not have the necessary access.</span></span>
+<span data-ttu-id="53a68-120">使用者沒有必要的存取權。</span><span class="sxs-lookup"><span data-stu-id="53a68-120">The user did not have the necessary access.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-121">**3**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-121">**3**</span></span>
+<span data-ttu-id="53a68-121">**3**</span><span class="sxs-lookup"><span data-stu-id="53a68-121">**3**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-122">無法停止此服務，因為與它相依的其他服務正在執行中。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-122">The service cannot be stopped because other services that are running are dependent on it.</span></span>
+<span data-ttu-id="53a68-122">無法停止此服務，因為與它相依的其他服務正在執行中。</span><span class="sxs-lookup"><span data-stu-id="53a68-122">The service cannot be stopped because other services that are running are dependent on it.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-123">**4**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-123">**4**</span></span>
+<span data-ttu-id="53a68-123">**4**</span><span class="sxs-lookup"><span data-stu-id="53a68-123">**4**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-124">要求的控制碼無效，或是服務不接受此控制碼。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-124">The requested control code is not valid, or it is unacceptable to the service.</span></span>
+<span data-ttu-id="53a68-124">要求的控制碼無效，或是服務不接受此控制碼。</span><span class="sxs-lookup"><span data-stu-id="53a68-124">The requested control code is not valid, or it is unacceptable to the service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-125">**5**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-125">**5**</span></span>
+<span data-ttu-id="53a68-125">**5**</span><span class="sxs-lookup"><span data-stu-id="53a68-125">**5**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-126">因為服務的狀態 ([**Win32 \_ BaseService**](win32-baseservice.md)，所以無法將要求的控制項程式碼傳送至服務。**State** 屬性) 等於0、1或2。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-126">The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](win32-baseservice.md).**State** property) is equal to 0, 1, or 2.</span></span>
+<span data-ttu-id="53a68-126">因為服務的狀態 ([**Win32 \_ BaseService**](win32-baseservice.md)，所以無法將要求的控制項程式碼傳送至服務。**State** 屬性) 等於0、1或2。</span><span class="sxs-lookup"><span data-stu-id="53a68-126">The requested control code cannot be sent to the service because the state of the service ([**Win32\_BaseService**](win32-baseservice.md).**State** property) is equal to 0, 1, or 2.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-127">**6**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-127">**6**</span></span>
+<span data-ttu-id="53a68-127">**6**</span><span class="sxs-lookup"><span data-stu-id="53a68-127">**6**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-128">尚未啟動服務。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-128">The service has not been started.</span></span>
+<span data-ttu-id="53a68-128">尚未啟動服務。</span><span class="sxs-lookup"><span data-stu-id="53a68-128">The service has not been started.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-129">**7**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-129">**7**</span></span>
+<span data-ttu-id="53a68-129">**7**</span><span class="sxs-lookup"><span data-stu-id="53a68-129">**7**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-130">服務並未及時回應啟動要求。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-130">The service did not respond to the start request in a timely fashion.</span></span>
+<span data-ttu-id="53a68-130">服務並未及時回應啟動要求。</span><span class="sxs-lookup"><span data-stu-id="53a68-130">The service did not respond to the start request in a timely fashion.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-131">**未知的失敗**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-131">**Unknown failure**</span></span>
+<span data-ttu-id="53a68-131">**未知的失敗**</span><span class="sxs-lookup"><span data-stu-id="53a68-131">**Unknown failure**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-132">8</span><span class="sxs-lookup"><span data-stu-id="d8cb3-132">8</span></span>
+<span data-ttu-id="53a68-132">8</span><span class="sxs-lookup"><span data-stu-id="53a68-132">8</span></span>
 
-<span data-ttu-id="d8cb3-133">啟動服務時發生未知的錯誤。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-133">Unknown failure when starting the service.</span></span>
+<span data-ttu-id="53a68-133">啟動服務時發生未知的錯誤。</span><span class="sxs-lookup"><span data-stu-id="53a68-133">Unknown failure when starting the service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-134">**缺少許可權**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-134">**Privilege missing**</span></span>
+<span data-ttu-id="53a68-134">**缺少許可權**</span><span class="sxs-lookup"><span data-stu-id="53a68-134">**Privilege missing**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-135">9</span><span class="sxs-lookup"><span data-stu-id="d8cb3-135">9</span></span>
+<span data-ttu-id="53a68-135">9</span><span class="sxs-lookup"><span data-stu-id="53a68-135">9</span></span>
 
-<span data-ttu-id="d8cb3-136">找不到服務可執行檔的目錄路徑。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-136">The directory path to the service executable file was not found.</span></span>
+<span data-ttu-id="53a68-136">找不到服務可執行檔的目錄路徑。</span><span class="sxs-lookup"><span data-stu-id="53a68-136">The directory path to the service executable file was not found.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-137">**10**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-137">**10**</span></span>
+<span data-ttu-id="53a68-137">**10**</span><span class="sxs-lookup"><span data-stu-id="53a68-137">**10**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-138">服務已在執行中。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-138">The service is already running.</span></span>
+<span data-ttu-id="53a68-138">服務已在執行中。</span><span class="sxs-lookup"><span data-stu-id="53a68-138">The service is already running.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-139">**11**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-139">**11**</span></span>
+<span data-ttu-id="53a68-139">**11**</span><span class="sxs-lookup"><span data-stu-id="53a68-139">**11**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-140">要加入新服務的資料庫已被鎖定。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-140">The database to add a new service is locked.</span></span>
+<span data-ttu-id="53a68-140">要加入新服務的資料庫已被鎖定。</span><span class="sxs-lookup"><span data-stu-id="53a68-140">The database to add a new service is locked.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-141">**12**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-141">**12**</span></span>
+<span data-ttu-id="53a68-141">**12**</span><span class="sxs-lookup"><span data-stu-id="53a68-141">**12**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-142">這項服務所依賴的相依性已從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-142">A dependency this service relies on has been removed from the system.</span></span>
+<span data-ttu-id="53a68-142">這項服務所依賴的相依性已從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="53a68-142">A dependency this service relies on has been removed from the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-143">**13**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-143">**13**</span></span>
+<span data-ttu-id="53a68-143">**13**</span><span class="sxs-lookup"><span data-stu-id="53a68-143">**13**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-144">服務在相依的服務中找不到所需的服務。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-144">The service failed to find the service needed from a dependent service.</span></span>
+<span data-ttu-id="53a68-144">服務在相依的服務中找不到所需的服務。</span><span class="sxs-lookup"><span data-stu-id="53a68-144">The service failed to find the service needed from a dependent service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-145">**14**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-145">**14**</span></span>
+<span data-ttu-id="53a68-145">**14**</span><span class="sxs-lookup"><span data-stu-id="53a68-145">**14**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-146">已經從系統中停用服務。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-146">The service has been disabled from the system.</span></span>
+<span data-ttu-id="53a68-146">已經從系統中停用服務。</span><span class="sxs-lookup"><span data-stu-id="53a68-146">The service has been disabled from the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-147">**15**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-147">**15**</span></span>
+<span data-ttu-id="53a68-147">**15**</span><span class="sxs-lookup"><span data-stu-id="53a68-147">**15**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-148">此服務未通過驗證，無法在系統上執行。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-148">The service does not have the correct authentication to run on the system.</span></span>
+<span data-ttu-id="53a68-148">此服務未通過驗證，無法在系統上執行。</span><span class="sxs-lookup"><span data-stu-id="53a68-148">The service does not have the correct authentication to run on the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-149">**16**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-149">**16**</span></span>
+<span data-ttu-id="53a68-149">**16**</span><span class="sxs-lookup"><span data-stu-id="53a68-149">**16**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-150">這項服務正在從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-150">This service is being removed from the system.</span></span>
+<span data-ttu-id="53a68-150">這項服務正在從系統中移除。</span><span class="sxs-lookup"><span data-stu-id="53a68-150">This service is being removed from the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-151">**17**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-151">**17**</span></span>
+<span data-ttu-id="53a68-151">**17**</span><span class="sxs-lookup"><span data-stu-id="53a68-151">**17**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-152">服務沒有執行執行緒。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-152">The service has no execution thread.</span></span>
+<span data-ttu-id="53a68-152">服務沒有執行執行緒。</span><span class="sxs-lookup"><span data-stu-id="53a68-152">The service has no execution thread.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-153">**達**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-153">**18**</span></span>
+<span data-ttu-id="53a68-153">**達**</span><span class="sxs-lookup"><span data-stu-id="53a68-153">**18**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-154">服務會在啟動時有迴圈相依性。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-154">The service has circular dependencies when it starts.</span></span>
+<span data-ttu-id="53a68-154">服務會在啟動時有迴圈相依性。</span><span class="sxs-lookup"><span data-stu-id="53a68-154">The service has circular dependencies when it starts.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-155">**診斷**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-155">**19**</span></span>
+<span data-ttu-id="53a68-155">**診斷**</span><span class="sxs-lookup"><span data-stu-id="53a68-155">**19**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-156">服務正在相同名稱下執行。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-156">A service is running under the same name.</span></span>
+<span data-ttu-id="53a68-156">服務正在相同名稱下執行。</span><span class="sxs-lookup"><span data-stu-id="53a68-156">A service is running under the same name.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-157">**20**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-157">**20**</span></span>
+<span data-ttu-id="53a68-157">**20**</span><span class="sxs-lookup"><span data-stu-id="53a68-157">**20**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-158">服務名稱包含不正確字元。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-158">The service name has invalid characters.</span></span>
+<span data-ttu-id="53a68-158">服務名稱包含不正確字元。</span><span class="sxs-lookup"><span data-stu-id="53a68-158">The service name has invalid characters.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-159">**參數不正確**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-159">**Invalid parameter**</span></span>
+<span data-ttu-id="53a68-159">**參數不正確**</span><span class="sxs-lookup"><span data-stu-id="53a68-159">**Invalid parameter**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-160">21</span><span class="sxs-lookup"><span data-stu-id="d8cb3-160">21</span></span>
+<span data-ttu-id="53a68-160">21</span><span class="sxs-lookup"><span data-stu-id="53a68-160">21</span></span>
 
-<span data-ttu-id="d8cb3-161">傳遞給服務的參數無效。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-161">Invalid parameters have been passed to the service.</span></span>
+<span data-ttu-id="53a68-161">傳遞給服務的參數無效。</span><span class="sxs-lookup"><span data-stu-id="53a68-161">Invalid parameters have been passed to the service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-162">**22**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-162">**22**</span></span>
+<span data-ttu-id="53a68-162">**22**</span><span class="sxs-lookup"><span data-stu-id="53a68-162">**22**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-163">用來執行此服務的帳戶無效，或缺少執行服務的許可權。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-163">The account under which this service runs is either invalid or lacks the permissions to run the service.</span></span>
+<span data-ttu-id="53a68-163">用來執行此服務的帳戶無效，或缺少執行服務的許可權。</span><span class="sxs-lookup"><span data-stu-id="53a68-163">The account under which this service runs is either invalid or lacks the permissions to run the service.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-164">**23**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-164">**23**</span></span>
+<span data-ttu-id="53a68-164">**23**</span><span class="sxs-lookup"><span data-stu-id="53a68-164">**23**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-165">服務存在於系統可使用之服務的資料庫中。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-165">The service exists in the database of services available from the system.</span></span>
+<span data-ttu-id="53a68-165">服務存在於系統可使用之服務的資料庫中。</span><span class="sxs-lookup"><span data-stu-id="53a68-165">The service exists in the database of services available from the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-166">**24**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-166">**24**</span></span>
+<span data-ttu-id="53a68-166">**24**</span><span class="sxs-lookup"><span data-stu-id="53a68-166">**24**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-167">服務目前在系統中暫停。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-167">The service is currently paused in the system.</span></span>
+<span data-ttu-id="53a68-167">服務目前在系統中暫停。</span><span class="sxs-lookup"><span data-stu-id="53a68-167">The service is currently paused in the system.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="d8cb3-168">**其他**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-168">**Other**</span></span>
+<span data-ttu-id="53a68-168">**其他**</span><span class="sxs-lookup"><span data-stu-id="53a68-168">**Other**</span></span>
 </dt> <dd>
 
-<span data-ttu-id="d8cb3-169">22 4294967295</span><span class="sxs-lookup"><span data-stu-id="d8cb3-169">22 4294967295</span></span>
+<span data-ttu-id="53a68-169">22 4294967295</span><span class="sxs-lookup"><span data-stu-id="53a68-169">22 4294967295</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="d8cb3-170">備註</span><span class="sxs-lookup"><span data-stu-id="d8cb3-170">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="53a68-170">備註</span><span class="sxs-lookup"><span data-stu-id="53a68-170">Remarks</span></span>
 
-<span data-ttu-id="d8cb3-171">[**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例代表 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control)資料類型，並包含 (DACL) 的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly)，以及 (SACL) 的 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-171">The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL).</span></span> <span data-ttu-id="d8cb3-172">如需詳細資訊，請參閱 [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-172">For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).</span></span>
+<span data-ttu-id="53a68-171">[**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor)實例代表 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control)資料類型，並包含 (DACL) 的 [*任意存取控制清單*](/windows/desktop/SecGloss/d-gly)，以及 (SACL) 的 [*系統存取控制清單*](/windows/desktop/SecGloss/s-gly)。</span><span class="sxs-lookup"><span data-stu-id="53a68-171">The [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance represents a [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) data type and contains a [*discretionary access control list*](/windows/desktop/SecGloss/d-gly) (DACL) and a [*system access control list*](/windows/desktop/SecGloss/s-gly) (SACL).</span></span> <span data-ttu-id="53a68-172">如需詳細資訊，請參閱 [存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。</span><span class="sxs-lookup"><span data-stu-id="53a68-172">For more information, see [Access Control Lists](/windows/desktop/SecAuthZ/access-control-lists).</span></span>
 
-<span data-ttu-id="d8cb3-173">如果未在取得安全描述項時授與或啟用 **SeSecurityPrivilege** ，則只會傳回傳回的安全描述項中的 DACL。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-173">If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor.</span></span> <span data-ttu-id="d8cb3-174">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants) 和 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-174">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).</span></span>
+<span data-ttu-id="53a68-173">如果未在取得安全描述項時授與或啟用 **SeSecurityPrivilege** ，則只會傳回傳回的安全描述項中的 DACL。</span><span class="sxs-lookup"><span data-stu-id="53a68-173">If the **SeSecurityPrivilege** is not granted or enabled when getting a security descriptor, then only the DACL is returned in the returned security descriptor.</span></span> <span data-ttu-id="53a68-174">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants) 和 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。</span><span class="sxs-lookup"><span data-stu-id="53a68-174">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants) and [Executing Privileged Operations](/windows/desktop/WmiSdk/executing-privileged-operations).</span></span>
 
-<span data-ttu-id="d8cb3-175">呼叫這個方法時，您可以同時更新 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例中的 dacl 和 SACL，但是您也可以只更新 dacl 或只更新 sacl。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-175">You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.</span></span>
+<span data-ttu-id="53a68-175">呼叫這個方法時，您可以同時更新 [**Win32 \_ SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) 實例中的 dacl 和 SACL，但是您也可以只更新 dacl 或只更新 sacl。</span><span class="sxs-lookup"><span data-stu-id="53a68-175">You can update both the DACL and the SACL in the [**Win32\_SecurityDescriptor**](/previous-versions/windows/desktop/secrcw32prov/win32-securitydescriptor) instance when calling this method, but you also can update only the DACL or only the SACL.</span></span>
 
-<span data-ttu-id="d8cb3-176">下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL、SACL 或兩者。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-176">The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL, the SACL, or both are updated.</span></span>
+<span data-ttu-id="53a68-176">下列 [**安全 \_ 描述項 \_ 控制項**](/windows/desktop/SecAuthZ/security-descriptor-control) 中的值會決定是否要更新 DACL、SACL 或兩者。</span><span class="sxs-lookup"><span data-stu-id="53a68-176">The following values in [**SECURITY\_DESCRIPTOR\_CONTROL**](/windows/desktop/SecAuthZ/security-descriptor-control) determine whether the DACL, the SACL, or both are updated.</span></span>
 
--   <span data-ttu-id="d8cb3-177">**\_有 SE DACL \_**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-177">**SE\_DACL\_PRESENT**</span></span>
+-   <span data-ttu-id="53a68-177">**\_有 SE DACL \_**</span><span class="sxs-lookup"><span data-stu-id="53a68-177">**SE\_DACL\_PRESENT**</span></span>
 
-    <span data-ttu-id="d8cb3-178">表示 DACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-178">Indicates that the DACL should be updated.</span></span> <span data-ttu-id="d8cb3-179">如果未設定此值，WMI 就會保留 DACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-179">If this is not set, then WMI preserves the original value of the DACL.</span></span>
+    <span data-ttu-id="53a68-178">表示 DACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="53a68-178">Indicates that the DACL should be updated.</span></span> <span data-ttu-id="53a68-179">如果未設定此值，WMI 就會保留 DACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="53a68-179">If this is not set, then WMI preserves the original value of the DACL.</span></span>
 
--   <span data-ttu-id="d8cb3-180">**\_出現 SE SACL \_**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-180">**SE\_SACL\_PRESENT**</span></span>
+-   <span data-ttu-id="53a68-180">**\_出現 SE SACL \_**</span><span class="sxs-lookup"><span data-stu-id="53a68-180">**SE\_SACL\_PRESENT**</span></span>
 
-    <span data-ttu-id="d8cb3-181">指出 SACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-181">Indicates that the SACL should be updated.</span></span> <span data-ttu-id="d8cb3-182">如果未設定此值，WMI 就會保留 SACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-182">If this is not set, then WMI preserves the original value of the SACL.</span></span> <span data-ttu-id="d8cb3-183">若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-183">To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled.</span></span> <span data-ttu-id="d8cb3-184">針對腳本，許可權名稱為 **SeSecurityPrivilege**。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-184">For scripting, the privilege name is **SeSecurityPrivilege**.</span></span> <span data-ttu-id="d8cb3-185">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-185">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants).</span></span>
+    <span data-ttu-id="53a68-181">指出 SACL 應該更新。</span><span class="sxs-lookup"><span data-stu-id="53a68-181">Indicates that the SACL should be updated.</span></span> <span data-ttu-id="53a68-182">如果未設定此值，WMI 就會保留 SACL 的原始值。</span><span class="sxs-lookup"><span data-stu-id="53a68-182">If this is not set, then WMI preserves the original value of the SACL.</span></span> <span data-ttu-id="53a68-183">若要更新 SACL，帳戶必須啟用 **SeSecurityPrivilege** 許可權。</span><span class="sxs-lookup"><span data-stu-id="53a68-183">To update the SACL, the account must have the **SeSecurityPrivilege** privilege enabled.</span></span> <span data-ttu-id="53a68-184">針對腳本，許可權名稱為 **SeSecurityPrivilege**。</span><span class="sxs-lookup"><span data-stu-id="53a68-184">For scripting, the privilege name is **SeSecurityPrivilege**.</span></span> <span data-ttu-id="53a68-185">如需詳細資訊，請參閱 [**許可權常數**](/windows/desktop/WmiSdk/privilege-constants)。</span><span class="sxs-lookup"><span data-stu-id="53a68-185">For more information, see [**Privilege Constants**](/windows/desktop/WmiSdk/privilege-constants).</span></span>
 
-<span data-ttu-id="d8cb3-186">如果群組信任者和擁有者信任的屬性不是 **Null**，則會更新這些屬性。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-186">If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated.</span></span> <span data-ttu-id="d8cb3-187">否則，WMI 會保留原始值。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-187">Otherwise, WMI preserves the original values.</span></span> <span data-ttu-id="d8cb3-188">如需詳細資訊，請參閱 [WMI 安全描述項物件](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-188">For more information, see [WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects).</span></span>
+<span data-ttu-id="53a68-186">如果群組信任者和擁有者信任的屬性不是 **Null**，則會更新這些屬性。</span><span class="sxs-lookup"><span data-stu-id="53a68-186">If the Group trustee and the Owner trustee properties are not **NULL**, then they are updated.</span></span> <span data-ttu-id="53a68-187">否則，WMI 會保留原始值。</span><span class="sxs-lookup"><span data-stu-id="53a68-187">Otherwise, WMI preserves the original values.</span></span> <span data-ttu-id="53a68-188">如需詳細資訊，請參閱 [WMI 安全描述項物件](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)。</span><span class="sxs-lookup"><span data-stu-id="53a68-188">For more information, see [WMI Security Descriptor Objects](/windows/desktop/WmiSdk/wmi-security-descriptor-objects).</span></span>
 
-<span data-ttu-id="d8cb3-189">當中的新 SACL 是 **Null** 時，在呼叫這個方法時，目標安全物件上的安全描述項 SACL 會保持不變。</span><span class="sxs-lookup"><span data-stu-id="d8cb3-189">When a new SACL is **NULL** in a call this method, then the security descriptor SACL on the target securable object is left unchanged.</span></span>
+<span data-ttu-id="53a68-189">當中的新 SACL 是 **Null** 時，在呼叫這個方法時，目標安全物件上的安全描述項 SACL 會保持不變。</span><span class="sxs-lookup"><span data-stu-id="53a68-189">When a new SACL is **NULL** in a call this method, then the security descriptor SACL on the target securable object is left unchanged.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="d8cb3-190">規格需求</span><span class="sxs-lookup"><span data-stu-id="d8cb3-190">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="53a68-190">規格需求</span><span class="sxs-lookup"><span data-stu-id="53a68-190">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d8cb3-191">需求</span><span class="sxs-lookup"><span data-stu-id="d8cb3-191">Requirement</span></span> | <span data-ttu-id="d8cb3-192">值</span><span class="sxs-lookup"><span data-stu-id="d8cb3-192">Value</span></span> |
+| <span data-ttu-id="53a68-191">需求</span><span class="sxs-lookup"><span data-stu-id="53a68-191">Requirement</span></span> | <span data-ttu-id="53a68-192">值</span><span class="sxs-lookup"><span data-stu-id="53a68-192">Value</span></span> |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="d8cb3-193">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="d8cb3-193">Minimum supported client</span></span><br/> | <span data-ttu-id="d8cb3-194">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="d8cb3-194">Windows Vista</span></span><br/>                                                                |
-| <span data-ttu-id="d8cb3-195">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="d8cb3-195">Minimum supported server</span></span><br/> | <span data-ttu-id="d8cb3-196">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="d8cb3-196">Windows Server 2008</span></span><br/>                                                          |
-| <span data-ttu-id="d8cb3-197">命名空間</span><span class="sxs-lookup"><span data-stu-id="d8cb3-197">Namespace</span></span><br/>                | <span data-ttu-id="d8cb3-198">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="d8cb3-198">Root\\CIMV2</span></span><br/>                                                                  |
-| <span data-ttu-id="d8cb3-199">MOF</span><span class="sxs-lookup"><span data-stu-id="d8cb3-199">MOF</span></span><br/>                      | <dl> <span data-ttu-id="d8cb3-200"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="d8cb3-200"><dt>CIMWin32.mof</dt></span></span> </dl> |
-| <span data-ttu-id="d8cb3-201">DLL</span><span class="sxs-lookup"><span data-stu-id="d8cb3-201">DLL</span></span><br/>                      | <dl> <span data-ttu-id="d8cb3-202"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="d8cb3-202"><dt>CIMWin32.dll</dt></span></span> </dl> |
+| <span data-ttu-id="53a68-193">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="53a68-193">Minimum supported client</span></span><br/> | <span data-ttu-id="53a68-194">Windows Vista</span><span class="sxs-lookup"><span data-stu-id="53a68-194">Windows Vista</span></span><br/>                                                                |
+| <span data-ttu-id="53a68-195">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="53a68-195">Minimum supported server</span></span><br/> | <span data-ttu-id="53a68-196">Windows Server 2008</span><span class="sxs-lookup"><span data-stu-id="53a68-196">Windows Server 2008</span></span><br/>                                                          |
+| <span data-ttu-id="53a68-197">命名空間</span><span class="sxs-lookup"><span data-stu-id="53a68-197">Namespace</span></span><br/>                | <span data-ttu-id="53a68-198">根 \\ CIMV2</span><span class="sxs-lookup"><span data-stu-id="53a68-198">Root\\CIMV2</span></span><br/>                                                                  |
+| <span data-ttu-id="53a68-199">MOF</span><span class="sxs-lookup"><span data-stu-id="53a68-199">MOF</span></span><br/>                      | <dl> <span data-ttu-id="53a68-200"><dt>CIMWin32 mof</dt></span><span class="sxs-lookup"><span data-stu-id="53a68-200"><dt>CIMWin32.mof</dt></span></span> </dl> |
+| <span data-ttu-id="53a68-201">DLL</span><span class="sxs-lookup"><span data-stu-id="53a68-201">DLL</span></span><br/>                      | <dl> <span data-ttu-id="53a68-202"><dt>CIMWin32.dll</dt></span><span class="sxs-lookup"><span data-stu-id="53a68-202"><dt>CIMWin32.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d8cb3-203">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d8cb3-203">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="53a68-203">另請參閱</span><span class="sxs-lookup"><span data-stu-id="53a68-203">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d8cb3-204">**Win32 \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-204">**Win32\_Service**</span></span>](win32-service.md)
+[<span data-ttu-id="53a68-204">**Win32 \_ 服務**</span><span class="sxs-lookup"><span data-stu-id="53a68-204">**Win32\_Service**</span></span>](win32-service.md)
 </dt> <dt>
 
-[<span data-ttu-id="d8cb3-205">**許可權常數**</span><span class="sxs-lookup"><span data-stu-id="d8cb3-205">**Privilege Constants**</span></span>](/windows/desktop/WmiSdk/privilege-constants)
+[<span data-ttu-id="53a68-205">**許可權常數**</span><span class="sxs-lookup"><span data-stu-id="53a68-205">**Privilege Constants**</span></span>](/windows/desktop/WmiSdk/privilege-constants)
 </dt> <dt>
 
-[<span data-ttu-id="d8cb3-206">WMI 安全描述項物件</span><span class="sxs-lookup"><span data-stu-id="d8cb3-206">WMI Security Descriptor Objects</span></span>](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
+[<span data-ttu-id="53a68-206">WMI 安全描述項物件</span><span class="sxs-lookup"><span data-stu-id="53a68-206">WMI Security Descriptor Objects</span></span>](/windows/desktop/WmiSdk/wmi-security-descriptor-objects)
 </dt> <dt>
 
-[<span data-ttu-id="d8cb3-207">變更安全物件的存取安全性</span><span class="sxs-lookup"><span data-stu-id="d8cb3-207">Changing Access Security on Securable Objects</span></span>](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
+[<span data-ttu-id="53a68-207">變更安全物件的存取安全性</span><span class="sxs-lookup"><span data-stu-id="53a68-207">Changing Access Security on Securable Objects</span></span>](/windows/desktop/WmiSdk/changing-access-security-on-securable-objects)
 </dt> <dt>
 
-[<span data-ttu-id="d8cb3-208">使用者帳戶控制和 WMI</span><span class="sxs-lookup"><span data-stu-id="d8cb3-208">User Account Control and WMI</span></span>](/windows/desktop/WmiSdk/user-account-control-and-wmi)
+[<span data-ttu-id="53a68-208">使用者帳戶控制和 WMI</span><span class="sxs-lookup"><span data-stu-id="53a68-208">User Account Control and WMI</span></span>](/windows/desktop/WmiSdk/user-account-control-and-wmi)
 </dt> </dl>
 
  
