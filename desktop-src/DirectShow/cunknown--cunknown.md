@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CUnknown. ~ CUnknown 的函式-函式方法。
 ms.assetid: 5d4ea970-2145-4119-b3dc-77fba1c2207a
 title: 'CUnknown. ~ CUnknown (Combase 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9621371935e2641221eb156052f1e5cf514fa0fe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e17a15415e063f00067011a9dd1402f7eef6ec89
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995661"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094666"
 ---
 # <a name="cunknowncunknown-destructor"></a>CUnknown. ~ CUnknown 的函式
 

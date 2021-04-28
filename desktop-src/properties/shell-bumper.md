@@ -1,15 +1,15 @@
 ---
-description: .
+description: 'Shell (Windows 屬性系統) '
 ms.assetid: 238c95eb-951e-43d3-8125-86e849cd31d7
 title: 'Shell (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d1f11d10351395b007fa13724e7359e0d02a61a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d10f49fa956826977195c167a927da1bb25f78bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986313"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113816"
 ---
 # <a name="shell-windows-property-system"></a>Shell (Windows 屬性系統) 
 

@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CTransformInputPin。 CTransformInputPin 函式-函數方法。
 ms.assetid: 097dce19-b430-42d6-8914-68350c7eca40
 title: 'CTransformInputPin. CTransformInputPin (Transfrm. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 39b99e3e2cf1437c1b35f68d9863a692746bd98d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e893b4e1c7d4f396644a468d3d71fa3046fb712
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095046"
 ---
 # <a name="ctransforminputpinctransforminputpin-constructor"></a>CTransformInputPin. CTransformInputPin 函數
 

@@ -1,5 +1,5 @@
 ---
-description: EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
+description: CTransformInputPin. EndFlush 方法-EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
 ms.assetid: ebc70df3-e99d-4292-990b-99b79ff06461
 title: 'CTransformInputPin. EndFlush 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f0fe6afeaa0ca3d47b278987af494221e8f50340
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5e080b4531d05160bebd42a68145842c4783bea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990242"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095056"
 ---
 # <a name="ctransforminputpinendflush-method"></a>CTransformInputPin. EndFlush 方法
 

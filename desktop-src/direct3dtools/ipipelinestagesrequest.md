@@ -1,5 +1,5 @@
 ---
-description: 未使用。 先前是管線階段資料的要求。
+description: <span id="vspixengine.ipipelinestagesrequest"></span>IPipeLineStagesRequest 介面-未使用。 先前是管線階段資料的要求。
 MS-HAID: vspixengine.IPipeLineStagesRequest
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4dfa67e0770b1c709ee80bffd01831859ad4c45a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bb87e8a4f2daee78146929df64dbee1f61774ed2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971292"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114256"
 ---
 # <a name="span-idvspixengineipipelinestagesrequestspanipipelinestagesrequest-interface"></a><span id="vspixengine.ipipelinestagesrequest"></span>IPipeLineStagesRequest 介面
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Fiddler Web 偵錯工具工具
 ms.assetid: AC23504B-ADFD-4204-954C-79167EBFB31A
 title: Fiddler Web 偵錯工具工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cd7c120038f59d66bcf5b336c28ce0034abca94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 338b90a4f6b65b3b138932881bb6ea926e6b42c1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088406"
 ---
 # <a name="fiddler-web-debugger-tool"></a>Fiddler Web 偵錯工具工具
 

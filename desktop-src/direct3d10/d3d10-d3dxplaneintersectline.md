@@ -1,5 +1,5 @@
 ---
-description: 尋找平面和直線之間的交集。
+description: D3DXPlaneIntersectLine 函式 (D3DX10Math) -尋找平面和線條之間的交集。
 ms.assetid: aea1c4e1-f8c0-46df-bb33-2b517396d69e
 title: 'D3DXPlaneIntersectLine 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 00d25fcba9e5884cec10da96964ad0f5daa9ed14
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1d32bb312c97b793f492f7a29bebe11529b79cf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992744"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108806"
 ---
 # <a name="d3dxplaneintersectline-function-d3dx10mathh"></a>D3DXPlaneIntersectLine 函式 (D3DX10Math) 
 

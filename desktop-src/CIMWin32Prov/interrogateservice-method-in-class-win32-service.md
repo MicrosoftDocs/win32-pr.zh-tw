@@ -1,5 +1,5 @@
 ---
-description: 要求參考的服務將其狀態更新為 service manager。
+description: Win32_Service 類別的 InterrogateService 方法 (CIMWin32 WMI 提供者) -要求參考的服務將其狀態更新為 Service manager。
 ms.assetid: a4ea8753-1859-4d97-b9ca-47598c7e7654
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 InterrogateService 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 7ad1f56afcbe42ced19da823c454291a7b5282d7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9702bc3fbd0a9969db20a8f1326c31b9ea7d925d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096976"
 ---
 # <a name="interrogateservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 InterrogateService 方法) 
 

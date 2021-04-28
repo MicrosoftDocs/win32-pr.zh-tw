@@ -1,5 +1,5 @@
 ---
-description: 傳回值，這個值表示特定服務是否正在執行。
+description: IShellDispatch2. IsServiceRunning 方法-傳回指出特定服務是否正在執行的值。
 ms.assetid: 91f3fba1-7aa5-423a-bc37-49db230c79db
 title: 'IShellDispatch2. IsServiceRunning 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f39cd7da3d9959830208ab971b636e146e549775
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8ad792f1669a8ebcfa411c58b34da214ccf69a7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972396"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117086"
 ---
 # <a name="ishelldispatch2isservicerunning-method"></a>IShellDispatch2. IsServiceRunning 方法
 
@@ -62,15 +62,15 @@ IShellDispatch2.IsServiceRunning( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果 *sServiceName* 所指定的服務正在執行，則傳回 _ *true**。否則 **為 false**。
+如果 *sServiceName* 所指定的服務正在執行，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果 *sServiceName* 所指定的服務正在執行，則傳回 _ *true**。否則 **為 false**。
+如果 *sServiceName* 所指定的服務正在執行，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

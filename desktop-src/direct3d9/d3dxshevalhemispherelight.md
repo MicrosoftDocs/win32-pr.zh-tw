@@ -1,5 +1,5 @@
 ---
-description: 評估在球體上兩個色彩之間的線性插補之間的光線。
+description: D3DXSHEvalHemisphereLight 函式 (D3dx9math) -在球體上評估兩個色彩之間的線性插補燈。
 ms.assetid: c5815f12-f706-40f6-bf5e-78a211cfbbea
 title: 'D3DXSHEvalHemisphereLight 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: bdb94fc10ddadc7048f7bb911df089d6f84b0829
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7bc06dcf866c21cc5dcb96b23dea5a4640293fef
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104562835"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093960"
 ---
 # <a name="d3dxshevalhemispherelight-function-d3dx9mathh"></a>D3DXSHEvalHemisphereLight 函式 (D3dx9math) 
 

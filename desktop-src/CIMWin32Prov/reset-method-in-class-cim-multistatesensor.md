@@ -1,5 +1,5 @@
 ---
-description: Reset 方法會要求重設邏輯裝置。 這個方法繼承自 CIM \_ LogicalDevice。
+description: 重設 CIM_MultiStateSensor 類別的方法-Reset 方法會要求重設邏輯裝置。 這個方法繼承自 CIM \_ LogicalDevice。
 ms.assetid: 51234db3-496a-4750-a185-84a5945228b9
 ms.tgt_platform: multiple
 title: CIM_MultiStateSensor 類別的 Reset 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 03eb3aecd6bdd84355674ddd51cecaf0fd7707d4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 41694086537fac64cc5c6eb3019a079649c1b248
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111633"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096896"
 ---
 # <a name="reset-method-of-the-cim_multistatesensor-class"></a>CIM MultiStateSensor 類別的 Reset 方法 \_
 

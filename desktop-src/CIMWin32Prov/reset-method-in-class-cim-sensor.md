@@ -1,5 +1,5 @@
 ---
-description: Reset 方法會要求重設邏輯裝置。 這個方法繼承自 CIM \_ LogicalDevice。
+description: 重設 CIM_Sensor 類別的方法-Reset 方法會要求重設邏輯裝置。 這個方法繼承自 CIM \_ LogicalDevice。
 ms.assetid: d764986b-b512-4f38-8284-d16b1f670871
 ms.tgt_platform: multiple
 title: CIM_Sensor 類別的 Reset 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e7aaddafd0c2316bb2fb996ec5f9640e0135899c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a17599216226f2420504ee07fccd2174d7eff4e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111509"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096856"
 ---
 # <a name="reset-method-of-the-cim_sensor-class"></a>CIM 感應器類別的 Reset 方法 \_
 

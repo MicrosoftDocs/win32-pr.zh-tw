@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。版本
 ms.assetid: 7f25c823-61f2-4f26-91d5-580c21beec31
 title: System.Doc>ument。版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b787e5ef0edd1bc3c3d0cda9022da27b7b2824
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6eb090e9fe2fc56636ffd3509b060aae46cc1a6b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944089"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100966"
 ---
 # <a name="systemdocumentversion"></a>System.Doc>ument。版本
 

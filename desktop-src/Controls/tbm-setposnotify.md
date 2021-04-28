@@ -1,6 +1,6 @@
 ---
 title: 'TBM_SETPOSNOTIFY 訊息 (Commctrl .h) '
-description: 設定捲軸中滑杆的目前邏輯位置。
+description: TBM_SETPOSNOTIFY 訊息：設定捲軸中滑杆的目前邏輯位置。
 ms.assetid: 02f8899a-55b0-46ae-8642-9e534ab4abf5
 keywords:
 - TBM_SETPOSNOTIFY message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 636a2add9f13470a89b312450f1a3dcbc185be2c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7201f3056ed05e6321ab9d9bd726edc3b4470f0b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464772"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104076"
 ---
 # <a name="tbm_setposnotify-message"></a>TBM \_ SETPOSNOTIFY 訊息
 

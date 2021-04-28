@@ -1,5 +1,5 @@
 ---
-description: 建立3D 仿射轉換矩陣。 Null 引數會被視為身分識別轉換。
+description: D3DXMatrixAffineTransformation function (D3dx9math) -建立3D 仿射轉換矩陣。 Null 引數會被視為身分識別轉換。
 ms.assetid: 54eac78f-57be-4a24-8dfb-0b519e97d6ca
 title: 'D3DXMatrixAffineTransformation 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 025485f0015e6f2d85851c8f0919f5462b2bdc3e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7329ffbffe5ffd89ed64e5386246f39699618960
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323152"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094166"
 ---
 # <a name="d3dxmatrixaffinetransformation-function-d3dx9mathh"></a>D3DXMatrixAffineTransformation 函式 (D3dx9math) 
 

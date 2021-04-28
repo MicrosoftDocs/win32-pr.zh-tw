@@ -1,5 +1,5 @@
 ---
-description: 計算兩個球形調和 (SH) 向量的點乘積。
+description: D3DXSHDot 函數 (D3dx9math) -計算兩個球面調和 (SH) 向量的點乘積。
 ms.assetid: 71b7480d-ddac-4b02-bca7-d9318823d03e
 title: 'D3DXSHDot 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a69ee929c889232cb29ff1b556dd08ab65a0d6d1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 87f88c7c7b80871a68084607cb99621199dfcc0a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386454"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093926"
 ---
 # <a name="d3dxshdot-function-d3dx9mathh"></a>D3DXSHDot 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IXml2Dex：:P asteXMLFile 方法-未執行。
 ms.assetid: 25300ba5-3578-4eb3-99e2-d547dbb2b9ee
 title: IXml2Dex：:P asteXMLFile 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 1e6df8679dde95e7483fe74eb0d8b1b462d51730
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 415e71d87d8e8d9c7834df0a16fce754651d6a03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467591"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088956"
 ---
 # <a name="ixml2dexpastexmlfile-method"></a>IXml2Dex：:P asteXMLFile 方法
 

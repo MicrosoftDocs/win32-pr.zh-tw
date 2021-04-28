@@ -1,5 +1,5 @@
 ---
-description: 使用中的方法會通知釘選篩選現在為使用中狀態。
+description: CBaseOutputPin 方法-使用中的方法會通知釘選篩選現在為使用中狀態。
 ms.assetid: 35df4305-0e2c-4ee1-bc63-db5aec864c46
 title: 'CBaseOutputPin 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 249cddac4027fa434996b1118cc692937b686a83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f282f45bb895a941c44cb70cf5d9d3d373bf8649
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985574"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096206"
 ---
 # <a name="cbaseoutputpinactive-method"></a>CBaseOutputPin 方法
 

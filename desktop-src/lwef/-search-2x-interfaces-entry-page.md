@@ -1,15 +1,15 @@
 ---
 title: WDS 2.x 介面
-description: .
+description: WDS 2.x 介面
 ms.assetid: 9cfd81b1-36fa-4d06-97a5-ef4be286d12d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4915529b7d5442eef74da56886a85a0861dc4fad
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5b8371d007d1d0ba351e442ddf520a17f3605bd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104316792"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114876"
 ---
 # <a name="wds-2x-interfaces"></a>WDS 2.x 介面
 

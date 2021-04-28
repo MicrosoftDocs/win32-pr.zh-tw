@@ -1,5 +1,5 @@
 ---
-description: 表示使用 Alpha 的色彩值，用於透明度。
+description: D3DCOLORVALUE 結構 (Dxgitype) -表示使用 Alpha 的色彩值，用於透明度。
 ms.assetid: 27A86A10-FC0E-421E-BEA7-2DEB539849BB
 title: 'D3DCOLORVALUE 結構 (Dxgitype .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxgitype.h
-ms.openlocfilehash: 2b7d768af9e471f3183c6a400622c2b0e0719a2f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 83ca500493a04f04de5352185c240d20a19009f5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107146"
 ---
 # <a name="d3dcolorvalue-structure-dxgitypeh"></a>D3DCOLORVALUE 結構 (Dxgitype .h) 
 

@@ -1,5 +1,5 @@
 ---
-description: DeleteEx 方法會刪除物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法是 Delete 方法的擴充版本，會繼承自 CIM \_ LogicalFile。
+description: CIM_Directory 類別的 DeleteEx 方法-DeleteEx 方法會刪除物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法是 Delete 方法的擴充版本，會繼承自 CIM \_ LogicalFile。
 ms.assetid: 5f924327-248c-47e2-b42e-50c83defce17
 ms.tgt_platform: multiple
 title: CIM_Directory 類別的 DeleteEx 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: aa6427adcc2cf87923b2b76b298cc47373231b56
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4a3704507405ebb2d310ed7341cd1db174e00588
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936225"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097096"
 ---
 # <a name="deleteex-method-of-the-cim_directory-class"></a>CIM 目錄類別的 DeleteEx 方法 \_
 

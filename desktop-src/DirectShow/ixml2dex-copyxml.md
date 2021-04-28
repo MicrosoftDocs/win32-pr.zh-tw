@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IXml2Dex：： CopyXML 方法-未執行。
 ms.assetid: be412d17-6210-4b50-a2b9-9b51c722cb7c
 title: IXml2Dex：： CopyXML 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d5840b89c4f58539eb559be3b5d438694c83ea84
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 61e46cb86f32ede3906a22566f455f1a8c55ecb5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510224"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088976"
 ---
 # <a name="ixml2dexcopyxml-method"></a>IXml2Dex：： CopyXML 方法
 

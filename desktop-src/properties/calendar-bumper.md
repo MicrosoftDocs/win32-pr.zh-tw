@@ -1,15 +1,15 @@
 ---
-description: .
+description: Calendar
 ms.assetid: fde5c85f-e620-4557-89f0-7dbbbea74f8c
 title: Calendar
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de35d7733c9bce0a791ede92587d724a8772bddf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51056df2e412add722b10b896ac082fcb437b73e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105116"
 ---
 # <a name="calendar"></a>Calendar
 

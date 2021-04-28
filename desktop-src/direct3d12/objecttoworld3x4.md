@@ -1,5 +1,5 @@
 ---
-description: 從物件空間轉換成世界空間的矩陣。
+description: ObjectToWorld3x4-從物件空間轉換成世界空間的矩陣。
 ms.assetid: ''
 title: ObjectToWorld3x4
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - ObjectToWorld3x4
 api_type:
 - NA
-ms.openlocfilehash: 04f80dde64984010c6e015f6e885565396d3b9c9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 947676c25bd5cac50749c737afd7e4ff75426c0a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973963"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107736"
 ---
 # <a name="objecttoworld3x4"></a>ObjectToWorld3x4
 

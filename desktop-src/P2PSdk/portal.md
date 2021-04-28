@@ -1,15 +1,15 @@
 ---
-description: .
+description: 對等
 ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: 對等
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a3fe029d8d6e4c6e6d9759283ec5b73996fc7b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62469eee79fbc501da911a60d8e21e3c6e94452
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851344"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094556"
 ---
 # <a name="peer-to-peer"></a>對等
 
