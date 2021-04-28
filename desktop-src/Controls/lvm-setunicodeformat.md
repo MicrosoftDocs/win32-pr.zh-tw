@@ -1,6 +1,6 @@
 ---
 title: 'LVM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 UNICODE 字元格式旗標。
+description: LVM_SETUNICODEFORMAT 訊息：設定控制項的 UNICODE 字元格式旗標。
 ms.assetid: e332ae88-821f-4341-a98d-59d8a01a126f
 keywords:
 - LVM_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 18b1e29d933892a24d7bc2ab472c7d591375362a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb0f700cd057bc77eddc699404f37b19a6cc9c39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969808"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120146"
 ---
 # <a name="lvm_setunicodeformat-message"></a>LVM \_ SETUNICODEFORMAT 訊息
 

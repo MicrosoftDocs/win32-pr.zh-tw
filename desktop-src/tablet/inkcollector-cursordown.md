@@ -1,15 +1,15 @@
 ---
-description: 當游標提示接觸到數位化的 tablet 介面時發生。
+description: InkCollector. CursorDown 事件-發生于游標提示連線到數位化的平板電腦介面時。
 ms.assetid: bf914849-ef33-4746-b2e1-c768cd1d87aa
 title: 'InkCollector. CursorDown 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd009c5f42e6a26cdaf493e97532be7716381c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da0cdb729f36706202fad2c6c03ab8031e90c845
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970163"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110296"
 ---
 # <a name="inkcollectorcursordown-event"></a>InkCollector. CursorDown 事件
 

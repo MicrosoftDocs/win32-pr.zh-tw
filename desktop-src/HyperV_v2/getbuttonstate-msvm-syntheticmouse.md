@@ -1,5 +1,5 @@
 ---
-description: 抓取指定裝置按鈕的目前狀態。
+description: Msvm_SyntheticMouse 類別的 GetButtonState 方法-抓取指定裝置按鈕的目前狀態。
 ms.assetid: 66363AF1-E360-478D-8E62-513DE66EF130
 title: Msvm_SyntheticMouse 類別的 GetButtonState 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 3812d3e019a303656305471fc097fb1479fa1ada
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26839292cf2fb3099e740629b28c7de0fbe3f60f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973090"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119386"
 ---
 # <a name="getbuttonstate-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 GetButtonState 方法 \_
 

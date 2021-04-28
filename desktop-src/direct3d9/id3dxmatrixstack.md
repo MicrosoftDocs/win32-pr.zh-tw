@@ -1,5 +1,5 @@
 ---
-description: 應用程式會使用 ID3DXMATRIXStack 介面的方法來操作矩陣堆疊。
+description: ID3DXMATRIXStack 介面-應用程式會使用 ID3DXMATRIXStack 介面的方法來操作矩陣堆疊。
 ms.assetid: 4d382d39-a9da-4a3b-b7b6-d6890357d467
 title: 'ID3DXMATRIXStack 介面 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9446301ce057e788b4039f8ea3a144fb1fa19024
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 62681c468fa7e78e6fd08c458798d98b467b992e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976519"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093316"
 ---
 # <a name="id3dxmatrixstack-interface"></a>ID3DXMATRIXStack 介面
 

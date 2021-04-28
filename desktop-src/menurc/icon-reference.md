@@ -1,15 +1,15 @@
 ---
 title: 圖示參考
-description: .
+description: 圖示參考
 ms.assetid: 63d97fc1-65ee-4402-99c7-c4567821221f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b30a1388e878d71daa837949a618c5f3ec38d850
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0dd068d32308562d771c959ed9234b2d6b25e1d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301640"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112666"
 ---
 # <a name="icon-reference"></a>圖示參考
 
@@ -18,9 +18,9 @@ ms.locfileid: "104301640"
 -   [圖示函式](icon-functions.md)
 -   [圖示結構](icon-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

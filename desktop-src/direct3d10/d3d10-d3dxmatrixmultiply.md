@@ -1,5 +1,5 @@
 ---
-description: 決定兩個矩陣的乘積。
+description: D3DXMatrixMultiply 函數 (D3DX10Math) -決定兩個矩陣的乘積。
 ms.assetid: d15cd680-0e19-4353-9eee-73933663960e
 title: 'D3DXMatrixMultiply 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 5f07130c25ce9ef1c588309460e4e12e67bb2485
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 89e103d441648643be0176ca34f72f6175c11213
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946228"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113126"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx10mathh"></a>D3DXMatrixMultiply 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 此類別是 CPU 配置事件的事件種類類別。
+description: SystemConfig_V0_CPU 類別-此類別是 CPU 配置事件的事件種類類別。
 ms.assetid: 9ca77676-ff0e-4c47-ae4e-f8192376d3ca
 title: SystemConfig_V0_CPU 類別
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6963201f76afa40e9b1741dc2936fa2ab4433a74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de3b63def40cb6ead40f6f4c95625603cfc581ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945072"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105986"
 ---
 # <a name="systemconfig_v0_cpu-class"></a>SystemConfig \_ V0 \_ CPU 類別
 

@@ -1,5 +1,5 @@
 ---
-description: Initialize 方法的 Proxy 函式。
+description: Initialize 方法的 IWICBitmapScaler_Initialize_Proxy 函數 Proxy 函式。
 ms.assetid: 47a717d2-9aac-4230-bdb3-093212eb5448
 title: IWICBitmapScaler_Initialize_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: cc317adc831b0cf0759580d5c6924fb3f0997524
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76b7c754273f4d55fbf3de9d8ba592806e590aac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999949"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100536"
 ---
 # <a name="iwicbitmapscaler_initialize_proxy-function"></a>IWICBitmapScaler \_ Initialize \_ Proxy 函式
 
@@ -47,22 +47,22 @@ HRESULT IWICBitmapScaler_Initialize_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapScaler**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler) \** _
+類型： **[ **IWICBitmapScaler**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler)\***
 
-這個 [_ *IWICBitmapScaler* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler)物件的指標。
+這個 [**IWICBitmapScaler**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapscaler) 物件的指標。
 
 </dd> <dt>
 
 *pISource* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 輸入點陣圖來源。
 
 </dd> <dt>
 
-_uiWidth * \[ in\]
+*uiWidth* \[在\]
 </dt> <dd>
 
 類型： **UINT**

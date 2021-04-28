@@ -1,15 +1,15 @@
 ---
 title: 套件資源索引 (PRI) 參考
-description: .
+description: 套件資源索引 (PRI) 參考
 ms.assetid: 15f41d83-d729-45e4-a6bb-5f8c6b78293c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b75c0739b4e7673863a21223fbed749c27e65dc4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ef99acafe4fbdadef26c5947145ad734ec44b7bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933241"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117546"
 ---
 # <a name="package-resource-indexing-pri-reference"></a>套件資源索引 (PRI) 參考
 
@@ -53,6 +53,6 @@ ms.locfileid: "103933241"
 -   [**MrmPlatformVersion**](mrmplatformversion.md) 列舉
 -   [**MrmResourceIndexerMessageSeverity**](mrmresourceindexermessageseverity.md) 列舉
 
- 
+ 
 
- 
+ 

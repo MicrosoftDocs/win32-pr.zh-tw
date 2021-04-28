@@ -1,15 +1,15 @@
 ---
-description: 當按兩下 InkCollector 或 InkOverlay 物件時發生。
+description: InkCollector. DoubleClick 事件-當按兩下 InkCollector 或 InkOverlay 物件時發生。
 ms.assetid: 48c3a695-0ec4-46ea-b1ea-a846e39d53ec
 title: 'InkCollector. DoubleClick 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17faa459e207cd8891a13cf90f587b277d404772
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c51c3fef9ee999bbe2701da64e09a360f07db345
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847779"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110206"
 ---
 # <a name="inkcollectordoubleclick-event"></a>InkCollector. DoubleClick 事件
 

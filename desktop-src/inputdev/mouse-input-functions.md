@@ -1,15 +1,15 @@
 ---
 title: 滑鼠輸入功能
-description: .
+description: 滑鼠輸入功能
 ms.assetid: a666b25b-a75c-4500-8077-fabe07589a1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47437458cc8ad2bf85ecfa0d8676af8d26c67b89
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: a952a9ce90284f284b176c608228c0b852f5f4c8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684276"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112876"
 ---
 # <a name="mouse-input-functions"></a>滑鼠輸入功能
 

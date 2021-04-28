@@ -1,15 +1,15 @@
 ---
 title: 模組1。 您的第一個 Windows 程式
-description: .
+description: 模組1。 您的第一個 Windows 程式
 ms.assetid: 73848144-bf02-4382-a476-7f5a35447727
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27749cddabaefb4fd83b836887fbb2dac017d238
-ms.sourcegitcommit: 35bb565804eaeed7ac5503595753f59d120076dd
+ms.openlocfilehash: 6515b012f968707379ebf24023c3d282c50d6fd6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "104558283"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110946"
 ---
 # <a name="module-1-your-first-windows-program"></a>模組1。 您的第一個 Windows 程式
 

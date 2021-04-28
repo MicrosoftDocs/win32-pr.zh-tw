@@ -1,6 +1,6 @@
 ---
 title: 'LM_GETIDEALSIZE 訊息 (Commctrl .h) '
-description: 抓取控制項目前寬度之連結的慣用高度。
+description: LM_GETIDEALSIZE 訊息-針對控制項目前寬度的連結，取得其慣用高度。
 ms.assetid: 63aad7eb-26ee-41d2-90d4-65fdcf0f182a
 keywords:
 - LM_GETIDEALSIZE message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c138e22982116a3b7173f586d96c70cfc91194c3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 761fb5f6e5f7a2e2e9b1b9cc862b9a8f2c0fcd1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464301"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112386"
 ---
 # <a name="lm_getidealsize-message"></a>LM \_ GETIDEALSIZE 訊息
 

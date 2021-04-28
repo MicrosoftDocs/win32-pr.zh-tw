@@ -1,5 +1,5 @@
 ---
-description: 對應于資料流程時間0的參考時間。
+description: CBaseFilter：： m_tStart 與資料流程時間0對應的成員參考時間。
 ms.assetid: 3a4aadf7-6ae4-4aaa-9d14-cad1392de88c
 title: 'CBaseFilter：： m_tStart 成員 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0566d69a880edf802a8d3ad98620cf4ae221e2af
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3482725d1afbce1969fe18e095b01e84829e4996
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978517"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120096"
 ---
 # <a name="cbasefilterm_tstart-member"></a>CBaseFilter：： m \_ tStart 成員
 

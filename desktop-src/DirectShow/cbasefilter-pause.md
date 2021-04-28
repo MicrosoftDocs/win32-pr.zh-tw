@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停篩選。 這個方法會實 IMediaFilter：:P ause 方法。
+description: CBaseFilter： pause 方法： Pause 方法會暫停篩選。 這個方法會實 IMediaFilter：:P ause 方法。
 ms.assetid: cfb7d532-6c00-49a1-a48d-4dadaca39a0f
 title: 'CBaseFilter： Pause 方法 (Amfilter) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 43a90e78084f2320d0df7da806b6138571c9a5bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee91393a574d0135e66e5a9c1e1e6b0325a0b4de
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108120086"
 ---
 # <a name="cbasefilterpause-method"></a>CBaseFilter. Pause 方法
 

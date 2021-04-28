@@ -1,15 +1,15 @@
 ---
-description: .
+description: 移除 Windows Movie Maker
 ms.assetid: af55e570-0f24-4376-905a-3b879d5f3a1c
 title: 移除 Windows Movie Maker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d71a3336421ae2bde761aa1d4f238b5cd135ba64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36df5ffe4498e05de9fcbbaadf49f8fc32c91b0f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978356"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116266"
 ---
 # <a name="removal-of-windows-movie-maker"></a>移除 Windows Movie Maker
 

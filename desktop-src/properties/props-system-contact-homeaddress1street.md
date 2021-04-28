@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress1Street
 ms.assetid: 288eabb9-9591-4fb2-8b34-182c3ea1f0a1
 title: HomeAddress1Street
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1ba3286565db7693d5441132ca50fc4987a669c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6388f89d079b19d8e9827260ac11f92655210ea0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513560"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102256"
 ---
 # <a name="systemcontacthomeaddress1street"></a>HomeAddress1Street
 

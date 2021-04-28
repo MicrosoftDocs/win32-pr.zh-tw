@@ -1,15 +1,15 @@
 ---
-description: .
+description: ContentGroupDescription
 ms.assetid: a2725816-eea0-4e49-9134-8f6bcc00c72a
 title: ContentGroupDescription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 366370dc17f97ad4d37d1e4289efb5d26286de0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 694cdc9a788223f89a68d91e3d807d6ce79729bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986902"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117426"
 ---
 # <a name="systemmusiccontentgroupdescription"></a>ContentGroupDescription
 

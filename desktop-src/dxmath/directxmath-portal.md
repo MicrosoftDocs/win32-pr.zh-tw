@@ -1,15 +1,15 @@
 ---
-description: .
+description: DirectXMath
 ms.assetid: 719954bf-0d7d-f647-2d3f-a77d87df204e
 title: DirectXMath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f316939514d9a186fcd5ef36372f31709b69a7a
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 2fd35f1faf004bc55a6802da204a6c2fe4e7869b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104321776"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113006"
 ---
 # <a name="directxmath"></a>DirectXMath
 

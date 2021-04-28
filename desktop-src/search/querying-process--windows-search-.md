@@ -1,15 +1,15 @@
 ---
-description: .
+description: 在 Windows Search 中查詢進程
 ms.assetid: 0e5a633e-1703-4b72-8a04-6da71aec0ae2
 title: 在 Windows Search 中查詢進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d92d868cb843e96b04d6b4bd575284638b6652ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3585f2cca2a6d5d8548a85ae8fac759ec94b4fa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689851"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117326"
 ---
 # <a name="querying-process-in-windows-search"></a>在 Windows Search 中查詢進程
 

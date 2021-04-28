@@ -1,5 +1,5 @@
 ---
-description: 調整色彩的對比值。
+description: D3DXColorAdjustContrast 函式 (D3DX10Math) -調整色彩的對比值。
 ms.assetid: c111d3c7-19c6-4a6b-af0d-a9e1bc0bb7d9
 title: 'D3DXColorAdjustContrast 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 24586b2a8d2206d6818e00af9ea86e4c5e9758fa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 09781c5c11560c3497a5af57528cf478f6259816
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985900"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113326"
 ---
 # <a name="d3dxcoloradjustcontrast-function-d3dx10mathh"></a>D3DXColorAdjustContrast 函式 (D3DX10Math) 
 
