@@ -1,6 +1,6 @@
 ---
 title: 'TCM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 Unicode 字元格式旗標。
+description: TCM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。
 ms.assetid: 4a9bacfc-d1b7-432a-9b61-b0fe18576679
 keywords:
 - TCM_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 033851411f95811f202ea6d87e23717d39141c04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2b84f944be9bd20897d25e4b111f55ced558a43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383858"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085846"
 ---
 # <a name="tcm_setunicodeformat-message"></a>TCM \_ SETUNICODEFORMAT 訊息
 

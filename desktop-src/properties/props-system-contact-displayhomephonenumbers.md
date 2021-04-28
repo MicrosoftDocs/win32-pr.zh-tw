@@ -1,15 +1,15 @@
 ---
-description: .
+description: DisplayHomePhoneNumbers
 ms.assetid: 358ebb76-5e19-47e9-83dc-0ba84170ddb1
 title: DisplayHomePhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f12ad27c79e1a567886e8063d0841f70ad0d588
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecb92d9b95a493a342c48d0f1671ae5502f8c6ab
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982478"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102426"
 ---
 # <a name="systemcontactdisplayhomephonenumbers"></a>DisplayHomePhoneNumbers
 

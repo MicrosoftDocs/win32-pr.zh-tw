@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseControlWindow。 CBaseControlWindow 函式-函數方法。
 ms.assetid: 575f7f94-5f55-4834-bdb6-0db877187388
 title: 'CBaseControlWindow. CBaseControlWindow (Ctlutil. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9eb3e50daef8ec4ad11bf96a8f0b605f4c8fe679
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 47c8277a76dbf0fbb9e05262eea5b419466044cc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990136"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096336"
 ---
 # <a name="cbasecontrolwindowcbasecontrolwindow-constructor"></a>CBaseControlWindow. CBaseControlWindow 函數
 

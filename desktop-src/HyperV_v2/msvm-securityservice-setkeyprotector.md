@@ -1,5 +1,5 @@
 ---
-description: 設定虛擬系統的金鑰保護裝置。
+description: Msvm_SecurityService 類別的 SetKeyProtector 方法：設定虛擬系統的金鑰保護裝置。
 ms.assetid: 84c114cb-a3a0-44f2-b862-38b05b96bd46
 title: Msvm_SecurityService 類別的 SetKeyProtector 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 404baf0a529a6e96869fbcd355a81308f5d1e966
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b5eca7ddcc506d158175782e3e13796e56de267
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992007"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111406"
 ---
 # <a name="setkeyprotector-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 SetKeyProtector 方法 \_
 

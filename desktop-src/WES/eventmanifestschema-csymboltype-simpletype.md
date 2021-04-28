@@ -1,6 +1,6 @@
 ---
 title: 'CSymbolType 簡單類型 (Windows 事件記錄檔) '
-description: 定義有效的 C/c + + 符號名稱。
+description: CSymbolType Simple Type (Windows 事件記錄檔) -定義有效的 C/c + + 符號名稱。
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
 - CSymbolType 簡單類型 EventLog
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 67b0ccb7c573aa4d71c038f9133cea7c95cdfbd3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0c8c17a9f4bb7e86b573d60187ffffd55c6cb96
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090616"
 ---
 # <a name="csymboltype-simple-type-windows-event-log"></a>CSymbolType 簡單類型 (Windows 事件記錄檔) 
 

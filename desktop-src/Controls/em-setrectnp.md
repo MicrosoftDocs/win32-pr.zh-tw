@@ -1,6 +1,6 @@
 ---
 title: 'EM_SETRECTNP 訊息 (Winuser .h) '
-description: 設定多行編輯控制項的格式化矩形。
+description: EM_SETRECTNP 訊息：設定多行編輯控制項的格式化矩形。
 ms.assetid: 1ab497ca-023f-4c26-b92d-b441a0d7b90c
 keywords:
 - EM_SETRECTNP message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e017bd4737c843c2452382918d71ef63345917cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9a8c85d4f7abd58ed3adb33ede66254c190a7bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934909"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085986"
 ---
 # <a name="em_setrectnp-message"></a>EM \_ SETRECTNP 訊息
 

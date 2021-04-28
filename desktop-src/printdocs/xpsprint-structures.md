@@ -1,15 +1,15 @@
 ---
-description: .
+description: XPS 列印 API 結構
 ms.assetid: 13aa0d6b-8964-4d41-9fec-98c09b764a77
 title: XPS 列印 API 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1af07b0359c1f1865ad9388a2cfbf797bdad7ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05f9ba240f31de8b8ca301b98e30fb9f80a76784
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105206"
 ---
 # <a name="xps-print-api-structures"></a>XPS 列印 API 結構
 

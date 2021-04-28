@@ -1,15 +1,15 @@
 ---
-description: .
+description: DisplayOtherPhoneNumbers
 ms.assetid: 987ab3ff-6b8b-4774-92d7-c3486746d3ca
 title: DisplayOtherPhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5219d2850b1003c32da82c02d8d981ba0a63140b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e74b136c0a8973ed8f0e496b043b4c933e988908
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193371"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102356"
 ---
 # <a name="systemcontactdisplayotherphonenumbers"></a>DisplayOtherPhoneNumbers
 

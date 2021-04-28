@@ -1,5 +1,5 @@
 ---
-description: 使用 NTFS 壓縮來壓縮物件路徑中指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
+description: CIM_DataFile 類別的 CompressEx 方法-使用 NTFS 壓縮來壓縮物件路徑中所指定的邏輯檔案 (或目錄) 。 這個方法繼承自 CIM \_ LogicalFile。
 ms.assetid: 553b6a90-d16c-4abb-9015-66fe8e1606f6
 ms.tgt_platform: multiple
 title: CIM_DataFile 類別的 CompressEx 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 070a15a0fb134c92e7c436e071e09b7cc09fa5dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ccc155c04c6c25f38050bd37827eb0c2e2e0e73e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187628"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089786"
 ---
 # <a name="compressex-method-of-the-cim_datafile-class"></a>CIM \_ 資料檔案類別的 CompressEx 方法
 

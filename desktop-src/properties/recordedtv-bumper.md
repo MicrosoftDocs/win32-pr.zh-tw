@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV
 ms.assetid: 30be0468-1b4e-4650-a5d2-aa467d800ef7
 title: RecordedTV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f3e4f555a54e38e4336fa026a1a7c8475fec672
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81d766886007820ec4b19c53a99e3fd31d0d6339
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943287"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113856"
 ---
 # <a name="recordedtv"></a>RecordedTV
 

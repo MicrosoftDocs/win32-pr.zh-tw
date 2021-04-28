@@ -1,5 +1,5 @@
 ---
-description: 定義呼叫裝置對話方塊所需的資料。
+description: DEVICEDIALOGDATA 結構-定義呼叫裝置對話方塊所需的資料。
 ms.assetid: 424defa6-1452-4a8b-bacc-738209c236c3
 title: 'DEVICEDIALOGDATA 結構 (Wiadefd .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wiadefd.h
-ms.openlocfilehash: 621cab4f56b39ac900048018463935b55f0eddec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad7b08f5396a7a6e9b1f74df3dd409303b2d548d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513432"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104266"
 ---
 # <a name="devicedialogdata-structure"></a>DEVICEDIALOGDATA 結構
 
@@ -70,11 +70,11 @@ typedef struct {
 **pIWiaItemRoot**
 </dt> <dd>
 
-類型： **[**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) \** _
+類型： **[ **IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)\***
 
 </dd> <dd>
 
-指向 [_ *IWiaItem* *](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem)介面，表示應用程式專案樹狀結構中的有效根專案。
+指向 [**IWiaItem**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem) 介面，表示應用程式專案樹狀結構中的有效根專案。
 
 </dd> <dt>
 

@@ -1,5 +1,5 @@
 ---
-description: GetConversationStatistics 方法會抓取目前 capture 的會話和站資訊。
+description: IDelaydC：： GetConversationStatistics 方法-GetConversationStatistics 方法會抓取目前 capture 的會話和站資訊。
 ms.assetid: 0164fa0e-90f2-4b97-be9d-55d172f8112d
 title: 'IDelaydC：： GetConversationStatistics 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: aaba5ccfbab48639f53395519f001f5f8e85e483
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4d4c1bb1ad7ecb45b640c16322e297f9f640ef1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973215"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103806"
 ---
 # <a name="idelaydcgetconversationstatistics-method"></a>IDelaydC：： GetConversationStatistics 方法
 

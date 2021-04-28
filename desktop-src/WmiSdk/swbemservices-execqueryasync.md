@@ -1,5 +1,5 @@
 ---
-description: 執行查詢以擷取物件。
+description: SWbemServices.ExecQueryAsync 方法-執行查詢來取出物件。
 ms.assetid: 50c7f62b-dd83-4117-b10e-acee1690ce8c
 ms.tgt_platform: multiple
 title: " (>wbemdisp.tlb 的 SWbemServices.ExecQueryAsync 方法) "
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 5564e53ef3ea185235e93bbbeb8e2a5fa001d67b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cd3fe778ca7338df6b2674a4930458ef9113a1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318856"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118376"
 ---
 # <a name="swbemservicesexecqueryasync-method"></a>SWbemServices.ExecQueryAsync 方法
 
@@ -207,8 +207,8 @@ WQL 查詢中可使用的 **和** 和 **或** 關鍵字數目有一些限制。 
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemServices<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemServices<br/>                                                          |

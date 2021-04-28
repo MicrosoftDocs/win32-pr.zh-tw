@@ -1,5 +1,5 @@
 ---
-description: SourceListAddMediaDisk 方法會將磁片新增至已註冊的磁片集。 接受 Diskid、VolumeLabel 和 DiskPrompt 做為參數。 這個方法會在 MsiSourceListAddMediaDisk 上呼叫。
+description: SourceListAddMediaDisk 方法-SourceListAddMediaDisk 方法會將磁片新增至已註冊的磁片組。 接受 Diskid、VolumeLabel 和 DiskPrompt 做為參數。 這個方法會在 MsiSourceListAddMediaDisk 上呼叫。
 ms.assetid: 6feaf2d3-7e39-4e22-9e74-9a2f98369eac
 title: SourceListAddMediaDisk 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: a7c74ccdfb90a0cb365e6110defc9b60dac1f471
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 052831befb95976358b53d989db36d5b2fa43efe
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977753"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084366"
 ---
 # <a name="patchsourcelistaddmediadisk-method"></a>SourceListAddMediaDisk 方法
 

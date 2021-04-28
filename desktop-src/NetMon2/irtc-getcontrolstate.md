@@ -1,5 +1,5 @@
 ---
-description: GetControlState 方法會抓取 capture 的狀態，以指出 capture 是否正在執行或已暫停。
+description: IRTC：： GetControlState 方法-GetControlState 方法會抓取 capture 的狀態，以指出正在執行或暫停捕捉。
 ms.assetid: ae0cf869-bf5b-4c23-a924-014554053c92
 title: 'IRTC：： GetControlState 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d437d9463ed3225cd3a474e78220acf1f07af4bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e41ad3e4119fffbada26fe3ebebdfe3bf82043
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848768"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110706"
 ---
 # <a name="irtcgetcontrolstate-method"></a>IRTC：： GetControlState 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 有問題之元件的元件代碼。
+description: ComponentCode 屬性-有問題之元件的元件代碼。
 ms.assetid: 0abed0cd-b35c-45d7-8e71-461f2386109e
 title: ComponentCode 屬性
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: df779689892a12fd7f252042bc70a3aecff7651a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4fba4c9b832256620dec60852a53b3e2ed17101
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977732"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090796"
 ---
 # <a name="clientcomponentcode-property"></a>ComponentCode 屬性
 

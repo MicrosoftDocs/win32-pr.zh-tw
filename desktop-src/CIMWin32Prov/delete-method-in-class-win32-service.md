@@ -1,5 +1,5 @@
 ---
-description: Delete&\# 8194;WMI 類別方法會刪除現有的服務。
+description: Win32_Service 類別的 delete 方法 (CIMWin32 WMI 提供者) -Delete&\# 8194;WMI 類別方法會刪除現有的服務。
 ms.assetid: aa4e7630-3b19-47dd-acd1-4d1735acb819
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者來刪除 Win32_Service 類別的方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d06301c3620e144d72c2d4c4f3d8bc90e642374a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4031184e23e99fc54237ed0b0b4196fe6c075c5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187747"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089576"
 ---
 # <a name="delete-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者來刪除 Win32_Service 類別的方法) 
 

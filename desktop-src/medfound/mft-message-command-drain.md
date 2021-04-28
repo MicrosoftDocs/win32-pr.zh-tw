@@ -1,15 +1,15 @@
 ---
-description: 要求媒體基礎轉換 (MFT) 以排清所有儲存的資料。
+description: MFT_MESSAGE_COMMAND_DRAIN-要求媒體基礎轉換 (MFT) 以排清所有儲存的資料。
 ms.assetid: c48f3a88-a007-4f30-ac60-9e5a8c24e1ee
 title: 'MFT_MESSAGE_COMMAND_DRAIN (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa533cfddfda53fd8eb0ee512b0535aaf9ad8f88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907bfbd888b1eccbe7336c0d8f386d3266fd8e9b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992440"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092746"
 ---
 # <a name="mft_message_command_drain"></a>MFT \_ 訊息 \_ 命令 \_ 清空
 

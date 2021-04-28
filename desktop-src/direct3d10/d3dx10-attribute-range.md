@@ -1,5 +1,5 @@
 ---
-description: 儲存屬性資料表專案。
+description: D3DX10_ATTRIBUTE_RANGE 結構-儲存屬性資料表專案。
 ms.assetid: 81c77dc9-e078-46a1-a435-4b241e36ec13
 title: 'D3DX10_ATTRIBUTE_RANGE 結構 (D3DX10 .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: ddf7f10882e08232467130b3abbc6fb723a843ed
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e2954483da53c77ebef57f9cf2de104734caba2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992343"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094366"
 ---
 # <a name="d3dx10_attribute_range-structure"></a>D3DX10 \_ 屬性 \_ 範圍結構
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 應用程式資訊清單
 ms.assetid: f022374d-ea3f-477f-9b59-3188b775ed64
 title: 應用程式資訊清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf4fd1ae8a9f66dafbe65a3db09dd014dbef31e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80c52b8eb2af87c271151be3d7989f50b2903084
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980061"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088586"
 ---
 # <a name="application-manifest"></a>應用程式資訊清單
 

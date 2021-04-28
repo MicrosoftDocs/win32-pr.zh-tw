@@ -1,5 +1,5 @@
 ---
-description: 根據視野範圍建置右手透視投影矩陣。
+description: D3DXMatrixPerspectiveFovRH 函式 (D3dx9math) -根據視圖的欄位建立右手的透視圖投影矩陣。
 ms.assetid: 3f4bc5d8-90af-4fdc-bc0c-931407cd7a9b
 title: 'D3DXMatrixPerspectiveFovRH 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: da478a027db8c366a2cfec827075d3d4b73ae014
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e8860a5d9fed13e8acdedfe67ed94a97911a6de0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323143"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118326"
 ---
 # <a name="d3dxmatrixperspectivefovrh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveFovRH 函式 (D3dx9math) 
 

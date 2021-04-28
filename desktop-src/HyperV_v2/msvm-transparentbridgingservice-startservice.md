@@ -1,5 +1,5 @@
 ---
-description: 啟動服務。
+description: Msvm_TransparentBridgingService 類別的 StartService 方法會啟動服務。
 ms.assetid: f31f66ee-c4da-4dc2-94f2-eca0f780b053
 title: Msvm_TransparentBridgingService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6ec06a83085a2ce0eb10440f6c158efbe3dde301
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef88168836d1e4a5f81efae81533036dc2b29045
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109466"
 ---
 # <a name="startservice-method-of-the-msvm_transparentbridgingservice-class"></a>Msvm TransparentBridgingService 類別的 StartService 方法 \_
 

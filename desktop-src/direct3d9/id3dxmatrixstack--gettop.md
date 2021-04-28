@@ -1,5 +1,5 @@
 ---
-description: 抓取堆疊頂端的目前矩陣。
+description: ID3DXMATRIXStack：： Vemap.gettop 方法 (D3dx9math .h) -在堆疊頂端抓取目前的矩陣。
 ms.assetid: 0e20af0a-a332-4cb5-bf87-2ec75aa170ab
 title: 'ID3DXMATRIXStack：： Vemap.gettop 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5e635f2a825bf73234322066910c15af636ec9d7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7e596551682805d13704e9ea85f82784a57b333e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106977131"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093576"
 ---
 # <a name="id3dxmatrixstackgettop-method-d3dx9mathh"></a>ID3DXMATRIXStack：： Vemap.gettop 方法 (D3dx9math .h) 
 

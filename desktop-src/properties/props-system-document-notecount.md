@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。NoteCount
 ms.assetid: 1bc6af1d-a676-4c0b-898f-a2230f0d02da
 title: System.Doc>ument。NoteCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da5d4a6fde505b0b97d22049edd86433bd6eae3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6466a1e9ed1ea108d625d8f40565b8a5e9b66485
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850996"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114756"
 ---
 # <a name="systemdocumentnotecount"></a>System.Doc>ument。NoteCount
 

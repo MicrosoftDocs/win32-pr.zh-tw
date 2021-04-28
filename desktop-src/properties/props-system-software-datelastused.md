@@ -1,15 +1,15 @@
 ---
-description: .
+description: DateLastUsed
 ms.assetid: f45214a9-64a8-468d-8224-83aca8586268
 title: DateLastUsed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd2357081e665a29898ea05126786e5cc6121f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96ab75011a26da1617892634b3d208404ee8ad43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988999"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089976"
 ---
 # <a name="systemsoftwaredatelastused"></a>DateLastUsed
 

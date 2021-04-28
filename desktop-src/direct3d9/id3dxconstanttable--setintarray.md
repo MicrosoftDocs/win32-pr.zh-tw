@@ -1,5 +1,5 @@
 ---
-description: 設定整數的陣列。
+description: ID3DXConstantTable：： SetIntArray 方法：設定整數的陣列。
 ms.assetid: 15add9df-966d-45aa-b29c-d4bed2a125f4
 title: 'ID3DXConstantTable：： SetIntArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f89de7d784ce355570d369606bfa67ddd6f5acf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f674bc730398c386856314a7e7305f33f3e7fa1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988190"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115106"
 ---
 # <a name="id3dxconstanttablesetintarray-method"></a>ID3DXConstantTable：： SetIntArray 方法
 

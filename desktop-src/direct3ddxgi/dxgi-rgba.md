@@ -1,5 +1,5 @@
 ---
-description: 表示使用 Alpha 的色彩值，用於透明度。
+description: DXGI_RGBA 結構-表示使用 Alpha 的色彩值，用於透明度。
 ms.assetid: 5F9DDDC1-644E-4DA2-8E3D-F157789809E7
 title: 'DXGI_RGBA 結構 (DXGItype .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - DXGItype.h
-ms.openlocfilehash: 77b526e916d43868304c6c01a7dbbe8ebbb5692b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b0447d6470401d4136fbfd36f6d9c089e331b14b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688060"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114266"
 ---
 # <a name="dxgi_rgba-structure"></a>DXGI \_ RGBA 結構
 

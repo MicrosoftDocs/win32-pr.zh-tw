@@ -1,5 +1,5 @@
 ---
-description: StartService 方法會將服務置於啟動狀態。
+description: CIM_ClusteringService 類別的 StartService 方法-StartService 方法會將服務置於啟動狀態。
 ms.assetid: 2efd2a06-a03c-4f4c-b2fa-889f84faac0f
 ms.tgt_platform: multiple
 title: CIM_ClusteringService 類別的 StartService 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b8abdeffa234461952f99013524042dcbba6e682
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dcd18af37da9302256776cfee844fd83f989c9b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187735"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086186"
 ---
 # <a name="startservice-method-of-the-cim_clusteringservice-class"></a>CIM ClusteringService 類別的 StartService 方法 \_
 

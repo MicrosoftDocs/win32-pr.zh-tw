@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_ReplicationService 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: ae799e76-5177-42a5-8591-ceaf15dd7eaf
 title: Msvm_ReplicationService 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8a09d520d9b902663e39999aae3e949723d2e128
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2955bd278742c2a8e152c83ddd61292277baa70
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980880"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111526"
 ---
 # <a name="requeststatechange-method-of-the-msvm_replicationservice-class"></a>Msvm ReplicationService 類別的 RequestStateChange 方法 \_
 

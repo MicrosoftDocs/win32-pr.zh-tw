@@ -1,5 +1,5 @@
 ---
-description: 使用指定的2D 向量執行 Hermite 曲線插補。
+description: D3DXVec2Hermite 函式 (D3dx9math) -使用指定的2D 向量執行 Hermite 曲線插補。
 ms.assetid: 30eb9490-bc01-4449-adfb-1c552e8ad3e7
 title: 'D3DXVec2Hermite 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d55b5453067f83544da5084f3e79ce70275362c5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 88073e23826362e1f9a753f411ac89ac1e272fc6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097986"
 ---
 # <a name="d3dxvec2hermite-function-d3dx9mathh"></a>D3DXVec2Hermite 函式 (D3dx9math) 
 

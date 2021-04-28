@@ -1,5 +1,5 @@
 ---
-description: 搭配預先計算 radiance transfer 的頂點版本壓縮結果使用 (PRT) 模擬器。
+description: D3DXSHPRTCompSplitMeshSC 函式-搭配預先計算 radiance 傳輸 (PRT) 模擬器的頂點版本壓縮結果使用。
 ms.assetid: 10d81920-2a1b-42fa-aabe-7d6b504f4d36
 title: 'D3DXSHPRTCompSplitMeshSC 函式 (D3DX9Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 18742d12b6e1ae106dcf832baccccb2416465880
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e51a86ec9b12992d49364d3a7c614751dacafac3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386444"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093896"
 ---
 # <a name="d3dxshprtcompsplitmeshsc-function"></a>D3DXSHPRTCompSplitMeshSC 函式
 

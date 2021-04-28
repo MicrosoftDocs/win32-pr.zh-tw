@@ -1,5 +1,5 @@
 ---
-description: 建立並傳回指定資料夾的資料夾物件。
+description: IShellDispatch 命名空間方法-建立並傳回指定資料夾的資料夾物件。
 ms.assetid: CEA73705-1C27-4138-86C4-1715016E2ED8
 title: 'IShellDispatch 命名空間方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 069752a5e81949889dce5539e3f23960a12c9736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1db0a3969350b4be4bc32e027bf2000036e099f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512224"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100516"
 ---
 # <a name="ishelldispatchnamespace-method"></a>IShellDispatch 命名空間方法
 

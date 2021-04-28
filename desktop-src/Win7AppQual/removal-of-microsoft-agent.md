@@ -1,15 +1,15 @@
 ---
-description: .
+description: 移除 Microsoft 代理程式
 ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: 移除 Microsoft 代理程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7638bcdd9453a22c6867e708e351b4257fe10be2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758b0508deb7ad54d84b3ee6290b7021fe93d47b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991916"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116346"
 ---
 # <a name="removal-of-microsoft-agent"></a>移除 Microsoft 代理程式
 

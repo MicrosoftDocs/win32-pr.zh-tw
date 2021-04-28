@@ -1,5 +1,5 @@
 ---
-description: 抓取與網格相關聯的頂點緩衝區。
+description: ID3DX10Mesh：： GetVertexBuffer 方法-抓取與網格相關聯的頂點緩衝區。
 ms.assetid: c69a712b-8964-4a5b-a136-3f24060b7fd8
 title: 'ID3DX10Mesh：： GetVertexBuffer 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: b78db368f2467c25b4bb4218a314a22027d5d3f1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8a63b08cf978a65e1fa9999c79b8033436b41fa2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108076"
 ---
 # <a name="id3dx10meshgetvertexbuffer-method"></a>ID3DX10Mesh：： GetVertexBuffer 方法
 

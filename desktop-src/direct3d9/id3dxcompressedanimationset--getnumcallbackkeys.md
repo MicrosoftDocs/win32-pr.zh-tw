@@ -1,5 +1,5 @@
 ---
-description: 取得動畫集中的回呼索引鍵數目。
+description: ID3DXCompressedAnimationSet：： GetNumCallbackKeys 方法-取得動畫集合中的回呼索引鍵數目。
 ms.assetid: 0c952a86-d252-4f65-95e1-2d1e1f6b7143
 title: 'ID3DXCompressedAnimationSet：： GetNumCallbackKeys 方法 (D3dx9anim .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b1119d39dbfa159464ace16a256dd80dd7751672
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: da9add6b52ae79632f6fa4bb67e9a2d524d1dace
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946122"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115306"
 ---
 # <a name="id3dxcompressedanimationsetgetnumcallbackkeys-method"></a>ID3DXCompressedAnimationSet：： GetNumCallbackKeys 方法
 

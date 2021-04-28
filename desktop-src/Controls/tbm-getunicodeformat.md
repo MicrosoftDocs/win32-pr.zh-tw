@@ -1,6 +1,6 @@
 ---
 title: 'TBM_GETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 抓取控制項的 Unicode 字元格式旗標。
+description: TBM_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: cecd7e55-f482-4381-bde8-a60b8c5173eb
 keywords:
 - TBM_GETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a9fafad2504e51a65b879e58298c5cd06f1f345
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 82e7424a4e561ee8f8be79135309089fe4bb0bf9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843603"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104086"
 ---
 # <a name="tbm_getunicodeformat-message"></a>TBM \_ GETUNICODEFORMAT 訊息
 

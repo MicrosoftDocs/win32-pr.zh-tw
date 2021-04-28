@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_HeartbeatComponent 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: ba129ef5-4ebf-45b7-829c-830d06ff0618
 title: Msvm_HeartbeatComponent 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 22f0254eec2928196f343e401a6536c5f5fd44b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a95d11c8d3bb87c8b66a8338c003c827128b482
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119006"
 ---
 # <a name="requeststatechange-method-of-the-msvm_heartbeatcomponent-class"></a>Msvm HeartbeatComponent 類別的 RequestStateChange 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: 代表服務存取點與執行它的邏輯裝置之間的關聯。
+description: Msvm_EthernetDeviceSAPImplementation 類別-表示服務存取點與執行它的邏輯裝置之間的關聯。
 ms.assetid: C0DDB199-AD97-4DD7-8056-BD6BD0CECFA8
 title: Msvm_EthernetDeviceSAPImplementation 類別
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 96290eb0d572f4848fbf3805a44ce0ae173892c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fddce9505ca2f8692044239d294904eb17c95ffa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319291"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111946"
 ---
 # <a name="msvm_ethernetdevicesapimplementation-class"></a>Msvm \_ EthernetDeviceSAPImplementation 類別
 

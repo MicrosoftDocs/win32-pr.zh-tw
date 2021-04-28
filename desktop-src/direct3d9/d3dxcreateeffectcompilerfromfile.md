@@ -1,5 +1,5 @@
 ---
-description: 從 ASCII 效果描述建立效果編譯器。
+description: D3DXCreateEffectCompilerFromFile 函式-從 ASCII 效果描述建立效果編譯器。
 ms.assetid: 87438a1e-4149-42ef-aa7a-9f0549eb7982
 title: 'D3DXCreateEffectCompilerFromFile 函式 (D3DX9Effect) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: fe27683078f77d7d444bd3a763fc326e749f7517
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0c054b31b1ab70d1378c794be13058204b994ee2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988595"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087976"
 ---
 # <a name="d3dxcreateeffectcompilerfromfile-function"></a>D3DXCreateEffectCompilerFromFile 函式
 

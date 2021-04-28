@@ -1,5 +1,5 @@
 ---
-description: SetPalette 方法的 Proxy 函式。
+description: SetPalette 方法的 IWICBitmap_SetPalette_Proxy 函數 Proxy 函式。
 ms.assetid: 3fd60833-7f21-4654-883a-2dd88c403bc8
 title: IWICBitmap_SetPalette_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: d683dda81d52818bfc7d878d044af9b4e09869b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc8d6181cf9fe9313755fd52d54319f266f4cae6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511288"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086406"
 ---
 # <a name="iwicbitmap_setpalette_proxy-function"></a>IWICBitmap \_ SetPalette \_ Proxy 函式
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmap_SetPalette_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) \** _
+類型： **[ **IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)\***
 
-這個 [_ *IWICBitmap* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)物件的指標。
+這個 [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) 物件的指標。
 
 </dd> <dt>
 
 *pIPalette* \[在\]
 </dt> <dd>
 
-類型： **[**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+類型： **[ **IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 用於轉換的調色板。
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmap_SetPalette_Proxy(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

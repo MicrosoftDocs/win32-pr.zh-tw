@@ -1,15 +1,15 @@
 ---
-description: .
+description: 通訊
 ms.assetid: 591d1ad1-3f3e-4fc2-87fe-8e9bce7e9ec1
 title: 通訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3efb7bf36ca562b8bc8b2a0657a7f00b6885e341
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c362ad9ea3b27e1e5975ee2228f99b3e6fc6d4a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944683"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087556"
 ---
 # <a name="communication"></a>通訊
 

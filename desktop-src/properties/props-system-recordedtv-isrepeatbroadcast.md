@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV. IsRepeatBroadcast
 ms.assetid: b6e1b229-e86f-4417-9db2-b3fb3eab419f
 title: RecordedTV. IsRepeatBroadcast
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2606976bc42676c119becd7f3e4d14060c9c63fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c176edc94ca5af480c12559c1daa5ba249fd2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849022"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091676"
 ---
 # <a name="systemrecordedtvisrepeatbroadcast"></a>RecordedTV. IsRepeatBroadcast
 

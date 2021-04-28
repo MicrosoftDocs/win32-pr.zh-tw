@@ -1,5 +1,5 @@
 ---
-description: 使用指定的4D 向量，傳回 Barycentric 座標中的點。
+description: D3DXVec4BaryCentric 函式 (D3dx9math) -使用指定的4D 向量，傳回 Barycentric 座標中的點。
 ms.assetid: 80d73232-76bf-4f40-add2-dd1bdcc5cd98
 title: 'D3DXVec4BaryCentric 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 75f0d068d1545f1b8b55dc3b976d3585e6f9bc88
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 643773fe2be45bbae5709dcd7efaeae5fd4b86d5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106979878"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097706"
 ---
 # <a name="d3dxvec4barycentric-function-d3dx9mathh"></a>D3DXVec4BaryCentric 函式 (D3dx9math) 
 
