@@ -1,5 +1,5 @@
 ---
-description: 建立新的系統服務。
+description: Win32_Service 類別的建立方法 (CIMWin32 WMI 提供者) -建立新的系統服務。
 ms.assetid: 164e9065-bb0d-4c93-a9fe-c86db1ea7cb7
 ms.tgt_platform: multiple
 title: 'Win32_Service 類別的建立方法 (CIMWin32 WMI 提供者) '
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6f23bc2a5c49a85a20765172d4c5d361a8d18316
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 71bc0f4edb879fc4a51a012bc53db67031056f47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689196"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089687"
 ---
 # <a name="create-method-of-the-win32_service-class-cimwin32-wmi-providers"></a>Win32_Service 類別的建立方法 (CIMWin32 WMI 提供者) 
 

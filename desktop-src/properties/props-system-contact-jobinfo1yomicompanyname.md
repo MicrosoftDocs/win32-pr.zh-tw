@@ -1,15 +1,15 @@
 ---
-description: .
+description: JobInfo1YomiCompanyName
 ms.assetid: ec53b8e9-6ec0-491c-9a40-250bb5aaa271
 title: JobInfo1YomiCompanyName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc193caba83f63d3f24e39816a46a51895e264ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 373a78b562298a197e8c54b602870fd07a667161
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193370"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101926"
 ---
 # <a name="systemcontactjobinfo1yomicompanyname"></a>JobInfo1YomiCompanyName
 

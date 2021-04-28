@@ -1,5 +1,5 @@
 ---
-description: 提供 IPStore 介面的 COM 標準列舉方法。
+description: IEnumPStoreProviders 介面-提供 IPStore 介面的 COM 標準列舉方法。
 ms.assetid: d4c0482c-a751-4d41-bcd1-326878fdcf16
 title: 'IEnumPStoreProviders 介面 (Pstore .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: e01bd28722fdb4d5a0ff7e3db4f715ddc1df2315
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf203e0e6de08b6faff3d3b4a040018ec1122975
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996036"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089346"
 ---
 # <a name="ienumpstoreproviders-interface"></a>IEnumPStoreProviders 介面
 

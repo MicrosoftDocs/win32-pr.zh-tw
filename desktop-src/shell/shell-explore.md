@@ -1,5 +1,5 @@
 ---
-description: 在 Windows 檔案總管視窗中開啟指定的資料夾。
+description: Shell. 探索方法-在 Windows 檔案總管視窗中開啟指定的資料夾。
 ms.assetid: a788a3c4-f316-4fae-9294-3872eee8f46a
 title: 'Shell。探索方法 (Shldisp) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 00b597aea0121e5f87f51886e8019a1130a20584
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ec1756ad6743c5bbac36f56087e6f3820cbb624
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945007"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104326"
 ---
 # <a name="shellexplore-method"></a>Shell. 探索方法
 

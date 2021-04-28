@@ -1,5 +1,5 @@
 ---
-description: 旋轉有關任意軸的四元數。
+description: D3DXQuaternionRotationAxis 函式 (D3DX10Math) -圍繞任意軸旋轉四元數。
 ms.assetid: 9673ef89-458f-4a25-960e-8f03179e78ba
 title: 'D3DXQuaternionRotationAxis 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 739f128ca1a56eed15ebc2528036875eaf2bb9b8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 509df80023427a20125e1b5603e85424851a640e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999039"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108766"
 ---
 # <a name="d3dxquaternionrotationaxis-function-d3dx10mathh"></a>D3DXQuaternionRotationAxis 函式 (D3DX10Math) 
 

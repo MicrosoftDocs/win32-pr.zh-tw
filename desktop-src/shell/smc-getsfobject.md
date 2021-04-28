@@ -1,5 +1,5 @@
 ---
-description: 要求指定物件的指標。
+description: SMC_GETSFOBJECT 訊息-要求指定物件的指標。
 title: 'SMC_GETSFOBJECT 訊息 (Shobjidl.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c7fb57ea8e3f02ce4e773e187310530c14d65515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 612b43c193cd1919db4a5cf9dba3a8fdba1c81c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193570"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086606"
 ---
 # <a name="smc_getsfobject-message"></a>SMC \_ GETSFOBJECT 訊息
 

@@ -1,5 +1,5 @@
 ---
-description: 抓取物件所提供的類型資訊介面數目。
+description: CMediaEvent. GetTypeInfoCount 方法-抓取物件所提供的類型資訊介面數目。
 ms.assetid: e16bc324-bb49-4df2-afeb-2c2cd1620693
 title: 'CMediaEvent. GetTypeInfoCount 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4de7a79251f2d25c1c55642050ad06513a1bfe6f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9402ad973a08afed4d338cfdc7b5df7fb14b9f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990159"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099116"
 ---
 # <a name="cmediaeventgettypeinfocount-method"></a>CMediaEvent. GetTypeInfoCount 方法
 

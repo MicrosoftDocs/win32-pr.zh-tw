@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IRenderEngine：： Commit 方法-未執行。
 ms.assetid: 4d52d11c-9629-4080-9c3e-7c11cf3842ed
 title: IRenderEngine：： Commit 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7d9cc3b7349eabeecee839ad1672df3c824750d5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e397860da4328247af64d39da7302b67f9a0842b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467548"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089126"
 ---
 # <a name="irenderenginecommit-method"></a>IRenderEngine：： Commit 方法
 

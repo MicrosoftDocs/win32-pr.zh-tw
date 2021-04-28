@@ -1,5 +1,5 @@
 ---
-description: 依指定的矩陣轉換一般的3D 向量。
+description: D3DXVec3TransformNormal 函式 (D3DX10Math) -由指定的矩陣轉換一般的3D 向量。
 ms.assetid: 8068b80f-6222-4f23-8b1c-2ff5592fa898
 title: 'D3DXVec3TransformNormal 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 602f366d3d7ccbcd37804226323d5584eed034f9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0fc1456b89f3e11f2076a8e7b6b960d15e9c7083
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323096"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103056"
 ---
 # <a name="d3dxvec3transformnormal-function-d3dx10mathh"></a>D3DXVec3TransformNormal 函式 (D3DX10Math) 
 

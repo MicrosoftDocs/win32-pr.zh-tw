@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV. RecordingTime
 ms.assetid: 7df8a958-b844-4b56-93a7-cc6c1dbf1e8f
 title: RecordedTV. RecordingTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d02b69aade2c6784216411dfaebf992f41811cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24623da0f20a29edb6ef630b03c7031865593ee7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971855"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106876"
 ---
 # <a name="systemrecordedtvrecordingtime"></a>RecordedTV. RecordingTime
 

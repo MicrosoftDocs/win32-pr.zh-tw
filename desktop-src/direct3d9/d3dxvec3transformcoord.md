@@ -1,5 +1,5 @@
 ---
-description: 依指定的矩陣轉換3D 向量，將結果投射回 w = 1。
+description: D3DXVec3TransformCoord 函式 (D3dx9math) -依指定的矩陣轉換3D 向量，然後將結果投射回 w = 1。
 ms.assetid: 4075b067-1e64-46c9-be73-5fa765c9cb9d
 title: 'D3DXVec3TransformCoord 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4bcf1a78f9da4cf5fb2a5f67360a1659182c7ffb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e4e3514d4717262a7afab7ae808d747de3a1b635
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323360"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115626"
 ---
 # <a name="d3dxvec3transformcoord-function-d3dx9mathh"></a>D3DXVec3TransformCoord 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 設定球形四邊形插補的控制點。
+description: D3DXQuaternionSquadSetup 函式 (D3DX10Math) -設定球形四邊形插補的控制點。
 ms.assetid: c66227bd-8cc1-4173-9dc2-5aab9d57301e
 title: 'D3DXQuaternionSquadSetup 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 4a0683bce3642b0300e68be348d8aed39b3c333d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d8a778473c0b07ef984facce9c42f947755a74a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982038"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108716"
 ---
 # <a name="d3dxquaternionsquadsetup-function-d3dx10mathh"></a>D3DXQuaternionSquadSetup 函式 (D3DX10Math) 
 

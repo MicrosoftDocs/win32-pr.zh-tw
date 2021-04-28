@@ -1,5 +1,5 @@
 ---
-description: CompleteConnect 方法會完成輸入 pin 的連接。
+description: CDynamicOutputPin. CompleteConnect 方法-CompleteConnect 方法會完成輸入 pin 的連接。
 ms.assetid: c23195e7-8d66-4217-bd59-8889459ce4f1
 title: 'CDynamicOutputPin. CompleteConnect 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 31afa592701b881d39ab4948514aacfe50b345b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5fa15c84b9d9e0b686e17110c656b74161687705
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991031"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095736"
 ---
 # <a name="cdynamicoutputpincompleteconnect-method"></a>CDynamicOutputPin. CompleteConnect 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 嘗試將參考的服務放在恢復狀態。
+description: Win32_Service 類別的 ResumeService 方法 (CIMWin32 WMI 提供者) -嘗試將參考的服務放在恢復狀態。
 ms.assetid: 3b4228bf-9ff5-44ab-bfe2-f7dd8fb62007
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 ResumeService 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ed4141b02d6e08bd4b106d2c1f72ce3fe0620fc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 73c21f282577207b63bcfa2d624c59ddfa3c9bcb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847567"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090976"
 ---
 # <a name="resumeservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 ResumeService 方法) 
 

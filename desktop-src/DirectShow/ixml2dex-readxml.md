@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IXml2Dex：： ReadXML 方法-未執行。
 ms.assetid: f75ee69d-2778-4c3c-a810-6708b1669541
 title: IXml2Dex：： ReadXML 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 3640dab9c812d8fd21dd2afc62b0ceabe51678dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8f4092baced94dcf222202ec5f12619c83a183bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972111"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084396"
 ---
 # <a name="ixml2dexreadxml-method"></a>IXml2Dex：： ReadXML 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
+description: IMpeg2PsiParser：： GetPatVersionNumber 方法-此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
 ms.assetid: 2f5ad9bf-3d70-491a-ab45-15cd922a02d4
 title: IMpeg2PsiParser：： GetPatVersionNumber 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 6117060cf0c8d3c56d03e5838376485244fde8d9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 978da4c7076bcf8ffe91bc2b9a4b2077d9d3d48a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385619"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089146"
 ---
 # <a name="impeg2psiparsergetpatversionnumber-method"></a>IMpeg2PsiParser：： GetPatVersionNumber 方法
 

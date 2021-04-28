@@ -1,5 +1,5 @@
 ---
-description: 這個類別是執行緒事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: Thread_V0 類別-這個類別是執行緒事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 7ae2556b-49d4-4c70-9f29-49a3ca96f5bf
 title: Thread_V0 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c708640ea6851f67183841b124279ca0739a168c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 652f5b8ad796fedd45e5ac627fc855796def3646
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972104"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105696"
 ---
 # <a name="thread_v0-class"></a>Thread \_ V0 類別
 

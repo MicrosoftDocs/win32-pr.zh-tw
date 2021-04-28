@@ -1,5 +1,5 @@
 ---
-description: 從虛擬系統組態移除虛擬資源設定。
+description: Msvm_VirtualSystemManagementService 類別的 RemoveBootSourceSettings 方法-從虛擬系統設定移除虛擬資源設定。
 ms.assetid: 0deb7719-e605-4ba5-9bb2-037d0cafee24
 title: Msvm_VirtualSystemManagementService 類別的 RemoveBootSourceSettings 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2693be33d291ea5a975119a5478af580ef2bb3f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5407e56b761dd545d20b89e0a28742f9c542b15a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971357"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109396"
 ---
 # <a name="removebootsourcesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 RemoveBootSourceSettings 方法 \_
 

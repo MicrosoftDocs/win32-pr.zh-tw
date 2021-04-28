@@ -1,5 +1,5 @@
 ---
-description: 記憶體配置器的指標。
+description: CBaseOutputPin：： m_pAllocator 成員指標指向記憶體配置器。
 ms.assetid: b5e37ce0-7c02-4395-bfdf-0ee8c11da09a
 title: 'CBaseOutputPin：： m_pAllocator 成員 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9f46c786cb0cec5c5082b5cda003a8f4b345f518
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d5b512f2b40d27e13fa78904481fcc749d0bde4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996044"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096097"
 ---
 # <a name="cbaseoutputpinm_pallocator-member"></a>CBaseOutputPin：： m \_ pAllocator 成員
 

@@ -1,5 +1,5 @@
 ---
-description: Delete&\# 8194;WMI 類別方法會刪除現有的服務。
+description: Delete Win32_SystemDriver 類別的方法-刪除&\# 8194;WMI 類別方法會刪除現有的服務。
 ms.assetid: 5e437d36-3582-448c-b568-45f7fb13b096
 ms.tgt_platform: multiple
 title: Win32_SystemDriver 類別的 Delete 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 807fa6090fe2e088fb3900feb7f2068751ad2df6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e1b7435a1bca561b19e7d85299413f88f1ae76c3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847344"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097086"
 ---
 # <a name="delete-method-of-the-win32_systemdriver-class"></a>Win32 >systemdriver 類別的 Delete 方法 \_
 

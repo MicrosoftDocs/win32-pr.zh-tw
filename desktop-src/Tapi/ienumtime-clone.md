@@ -1,15 +1,15 @@
 ---
-description: Clone 方法會建立另一個列舉值，其中包含與目前相同的列舉狀態。
+description: IEnumTime：： Clone 方法： Clone 方法會建立另一個列舉值，其中包含與目前相同的列舉狀態。
 ms.assetid: 0e9973de-d179-4a2d-a9bd-6d5f2523da52
 title: 'IEnumTime：： Clone 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a030fcd90006047e35d9f661f2878dfbc42c112
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 406dac1fad611ee5d3cb6c8b6ef32dfdb62cc963
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996263"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090736"
 ---
 # <a name="ienumtimeclone-method"></a>IEnumTime：： Clone 方法
 

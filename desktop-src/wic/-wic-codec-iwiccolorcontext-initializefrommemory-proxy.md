@@ -1,5 +1,5 @@
 ---
-description: InitializeFromMemory 方法的 Proxy 函式。
+description: InitializeFromMemory 方法的 IWICColorCoNtext_InitializeFromMemory_Proxy 函數 Proxy 函式。
 ms.assetid: d98fe40c-c3f1-4c46-a558-1910e3dee51b
 title: IWICColorCoNtext_InitializeFromMemory_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 32c3c24902b6c3157b9776d84c5a8eea47cce43e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e77bbcf1e430891b031b2e77bc168c33f781eacf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979203"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097216"
 ---
 # <a name="iwiccolorcontext_initializefrommemory_proxy-function"></a>IWICColorCoNtext \_ InitializeFromMemory \_ Proxy 函式
 
@@ -45,16 +45,16 @@ HRESULT IWICColorContext_InitializeFromMemory_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICColorCoNtext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext) \** _
+類型： **[ **IWICColorCoNtext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)\***
 
 </dd> <dt>
 
-_pbBuffer * \[ in\]
+*pbBuffer* \[在\]
 </dt> <dd>
 
-類型： **CONST BYTE \** _
+類型： **CONST BYTE \***
 
-用來初始化 [_ *IWICColorCoNtext* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)的緩衝區。
+用來初始化 [**IWICColorCoNtext**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccolorcontext)的緩衝區。
 
 </dd> <dt>
 

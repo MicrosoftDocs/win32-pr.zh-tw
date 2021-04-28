@@ -1,15 +1,15 @@
 ---
-description: .
+description: Year
 ms.assetid: 87080e50-1233-4300-8fbc-cd897d9aecbd
 title: Year
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2356f71adfe993be541fa54cf593687d0928b4f8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: c591d30da427cda56158f6273587182b59a5fe1a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321491"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114066"
 ---
 # <a name="systemmediayear"></a>Year
 

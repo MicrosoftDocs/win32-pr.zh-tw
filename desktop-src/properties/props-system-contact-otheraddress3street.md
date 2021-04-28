@@ -1,15 +1,15 @@
 ---
-description: .
+description: OtherAddress3Street
 ms.assetid: bcc632ab-277a-492c-86d2-1450dc97b4c5
 title: OtherAddress3Street
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b3045da63bd60176fede2f83322a884c3827df1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41ccb69642e4c7c16e0605d519b34dbce6ae3f69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192589"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101336"
 ---
 # <a name="systemcontactotheraddress3street"></a>OtherAddress3Street
 

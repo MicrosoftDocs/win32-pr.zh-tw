@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 PauseService 方法 (遠端桌面服務) '
-description: 嘗試將此服務置於暫停狀態。
+description: Win32_Service 類別的 PauseService 方法 (遠端桌面服務) -嘗試將服務置於暫停狀態。
 ms.assetid: 101987F6-FBAB-4E79-B1FA-346B1EF58DE1
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69951a77530b3aff89148b08e19f3a7c4da8f5b9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d7c9847f363d9bc6d1743da6189d2c4290c00dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967528"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090596"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 PauseService 方法 (遠端桌面服務) 
 

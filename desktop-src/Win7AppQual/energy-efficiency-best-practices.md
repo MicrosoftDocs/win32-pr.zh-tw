@@ -1,15 +1,15 @@
 ---
-description: .
+description: 能源效率的最佳作法
 ms.assetid: 355abd0e-928e-442e-a724-855d9dd946fc
 title: 能源效率的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04a9980d199e2d95c6dbd01c642a1f00f45e584c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67d9a348b9df49531358de2db50acc0936622c36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975320"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088386"
 ---
 # <a name="best-practices-for-energy-efficiency"></a>能源效率的最佳作法
 

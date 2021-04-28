@@ -1,5 +1,5 @@
 ---
-description: 開啟指定的資料夾。
+description: Shell. Open method-開啟指定的資料夾。
 ms.assetid: 96ed9360-fb8f-4f7e-aefb-4a63ec95df07
 title: 'Shell. Open method (Shldisp) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3572f48a7b129500c38c3c0227ba479ecb775067
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36f8914be3fce6b461e5267562e6f3ef40aa5fef
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850028"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104226"
 ---
 # <a name="shellopen-method"></a>Shell. Open 方法
 

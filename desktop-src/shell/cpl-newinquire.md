@@ -1,5 +1,5 @@
 ---
-description: 傳送至主控台應用程式的 CPlApplet 函式，以要求應用程式所支援之對話方塊的相關資訊。
+description: CPL_NEWINQUIRE 訊息傳送至主控台應用程式的 CPlApplet 函式，以要求應用程式所支援之對話方塊的相關資訊。
 title: 'CPL_NEWINQUIRE 訊息 (Cpl. h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 72992d4ea867bc091c29feaa99cc1a22c2a02b2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c5adf31c01fbab1b62aafd0714d165092f4e23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972045"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104436"
 ---
 # <a name="cpl_newinquire-message"></a>CPL \_ NEWINQUIRE 訊息
 

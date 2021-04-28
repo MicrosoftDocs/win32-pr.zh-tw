@@ -1,5 +1,5 @@
 ---
-description: 依指定的矩陣轉換2D 向量。
+description: D3DXVec2Transform 函式 (D3DX10Math) -依指定的矩陣轉換2D 向量。
 ms.assetid: 4b57eb7f-fae9-48ac-a806-510da75d25a6
 title: 'D3DXVec2Transform 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 513623e0004d8ede1fc2d142b2c7f8a7c226d5e4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b1d8eed447b56e6f379ffe96cbbcb4820fbdaf14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386465"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108356"
 ---
 # <a name="d3dxvec2transform-function-d3dx10mathh"></a>D3DXVec2Transform 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: NotifyAllocator 方法會指定連接的配置器。 這個方法會實 IMemInputPin：： NotifyAllocator 方法。
+description: CTransInPlaceInputPin. NotifyAllocator 方法-NotifyAllocator 方法會指定連接的配置器。 這個方法會實 IMemInputPin：： NotifyAllocator 方法。
 ms.assetid: adc1c5b6-99da-4140-b644-7b98f6b8bad4
 title: 'CTransInPlaceInputPin. NotifyAllocator 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 74578243ce780e09d7435f9dd4b70bd9497e1e97
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca15be5dc1893a393e6052832cc7522f27355eeb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094746"
 ---
 # <a name="ctransinplaceinputpinnotifyallocator-method"></a>CTransInPlaceInputPin. NotifyAllocator 方法
 

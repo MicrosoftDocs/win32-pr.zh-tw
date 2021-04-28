@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IRenderEngine：： UseInSmartRecompressionGraph 方法-不支援。
 ms.assetid: 77c51c19-c67b-472d-87d7-9adc274b20ca
 title: IRenderEngine：： UseInSmartRecompressionGraph 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: f3f31f5d73a9cfd3a9c19116017bd79aa90de7e2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3fd854b3686b254cac5f24fe1f581e2c3416640c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973951"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088996"
 ---
 # <a name="irenderengineuseinsmartrecompressiongraph-method"></a>IRenderEngine：： UseInSmartRecompressionGraph 方法
 

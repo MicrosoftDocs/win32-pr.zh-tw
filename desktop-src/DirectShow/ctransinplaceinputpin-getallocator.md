@@ -1,5 +1,5 @@
 ---
-description: GetAllocator 方法會抓取此 pin 提議的記憶體配置器。 這個方法會實 IMemInputPin：： GetAllocator 方法。
+description: CTransInPlaceInputPin. GetAllocator 方法-GetAllocator 方法會抓取此 pin 提議的記憶體配置器。 這個方法會實 IMemInputPin：： GetAllocator 方法。
 ms.assetid: e9db4aa0-4f53-4ca4-babb-5e0215c7c284
 title: 'CTransInPlaceInputPin. GetAllocator 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7798640297539a8fa8f6349c799e61e7e22a453d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2472630d69119f33653d831386af615718274d99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993278"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084656"
 ---
 # <a name="ctransinplaceinputpingetallocator-method"></a>CTransInPlaceInputPin. GetAllocator 方法
 

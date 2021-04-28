@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用者代理程式字串
 ms.assetid: bcf0a534-c123-40c4-91b4-645c4912f31a
 title: 使用者代理程式字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d2d9b25863fbc89ee88e24e3f98b8facad6a59f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d227eead5c02f50b689779bd0a8f0ba4b031d06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945485"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084176"
 ---
 # <a name="user-agent-string"></a>使用者代理程式字串
 

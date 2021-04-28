@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeEmailAddresses
 ms.assetid: e88afa55-424b-4e99-b930-04bdc31fca45
 title: HomeEmailAddresses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1bab69f8eba26ec0890bb8be1017bc073296ef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffb9c3778d67b003be01908ae5b4b723dbbca202
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192836"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102046"
 ---
 # <a name="systemcontacthomeemailaddresses"></a>HomeEmailAddresses
 

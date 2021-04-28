@@ -1,5 +1,5 @@
 ---
-description: 建立可反映平面座標系統的矩陣。
+description: D3DXMatrixReflect 函式 (D3DX10Math) -建立一個可反映平面座標系統的矩陣。
 ms.assetid: bd2c5905-780e-4fac-a848-d7dbcfc390c6
 title: 'D3DXMatrixReflect 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d8c8f0fc8529730a46c403432ec0b5b5a86c8afa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f96224c881dcd5db2cc1c356003ab96e8a626900
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982039"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103406"
 ---
 # <a name="d3dxmatrixreflect-function-d3dx10mathh"></a>D3DXMatrixReflect 函式 (D3DX10Math) 
 

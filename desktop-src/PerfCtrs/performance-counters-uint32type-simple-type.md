@@ -1,5 +1,5 @@
 ---
-description: 定義不帶正負號的整數類型。
+description: UInt32Type 簡單類型 (效能計數器) -定義不帶正負號的整數類型。
 ms.assetid: 48df484d-d663-42fa-aaec-51c463bb5350
 title: 'UInt32Type 簡單類型 (效能計數器) '
 ms.topic: reference
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4c32901167bcf181e5400ddb1d3b91ed7383965c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32f8a4bbf00f569ba98dfc031f62717b1afc8734
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974677"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114576"
 ---
 # <a name="uint32type-simple-type-performance-counters"></a>UInt32Type 簡單類型 (效能計數器) 
 

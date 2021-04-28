@@ -1,5 +1,5 @@
 ---
-description: 抓取網格中的臉部數目。
+description: ID3DXBaseMesh：： GetNumFaces 方法-抓取網格中的臉部數目。
 ms.assetid: 3f7cffd4-97ae-4f1c-9f91-931b85f07734
 title: 'ID3DXBaseMesh：： GetNumFaces 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e4647e432e79dc3065cc8e6d1f0617e6364049ff
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9adc36e4d34909481c61d1c62e4233a1f6f92a87
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115416"
 ---
 # <a name="id3dxbasemeshgetnumfaces-method"></a>ID3DXBaseMesh：： GetNumFaces 方法
 

@@ -1,15 +1,15 @@
 ---
 title: 開發人員授權隱私權聲明
-description: .
+description: Microsoft Windows 8 開發人員授權隱私權聲明
 ms.assetid: 6864BFBF-755B-4FE3-8684-93D85984FF1E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99f4e41d4c6a9be1f7c04d348b7a3a19926ae137
-ms.sourcegitcommit: 3a0ec8146c1bb7cede3cc86936f92df3d29cbd20
+ms.openlocfilehash: ccc532d560c3f173571bef033050193715e9b024
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "106968267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103616"
 ---
 # <a name="microsoft-windows-8-developer-license-privacy-statement"></a>Microsoft Windows 8 開發人員授權隱私權聲明
 
@@ -61,9 +61,9 @@ One Microsoft Way
 
 Redmond, Washington 98052 USA
 
- 
+ 
 
- 
+ 
 
 
 

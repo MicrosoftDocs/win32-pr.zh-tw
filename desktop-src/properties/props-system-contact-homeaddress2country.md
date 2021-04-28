@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress2Country
 ms.assetid: bc37f754-053e-4d98-991e-d8caf1bb9ad6
 title: HomeAddress2Country
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9842d91883891e7995387b2ea2ef794b59bb8529
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35f9a2809649225c50e6d91accdd73eb7432d093
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194839"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102246"
 ---
 # <a name="systemcontacthomeaddress2country"></a>HomeAddress2Country
 

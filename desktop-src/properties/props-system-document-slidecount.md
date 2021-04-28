@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。SlideCount
 ms.assetid: 77ad2da3-7927-40d5-8a62-213f88cb724e
 title: System.Doc>ument。SlideCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fba2fcd57a4bf2192a490142fb12119b0d2e02eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84e00e574a3c0d9a061dae70e8dbfa8de7f853d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319743"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114706"
 ---
 # <a name="systemdocumentslidecount"></a>System.Doc>ument。SlideCount
 

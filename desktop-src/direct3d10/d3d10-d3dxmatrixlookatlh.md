@@ -1,5 +1,5 @@
 ---
-description: 建立左手向的查詢矩陣。
+description: D3DXMatrixLookAtLH 函式 (D3DX10Math) -建立左手向的查詢矩陣。
 ms.assetid: 06888a97-66ef-447f-be8b-ea458ce16b4b
 title: 'D3DXMatrixLookAtLH 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a5a7ffa8750fb08174f45b1069f103bfe08be1f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3590d2cbdeead9e1b9b2547b2344163b81f05d11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514685"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109166"
 ---
 # <a name="d3dxmatrixlookatlh-function-d3dx10mathh"></a>D3DXMatrixLookAtLH 函式 (D3DX10Math) 
 

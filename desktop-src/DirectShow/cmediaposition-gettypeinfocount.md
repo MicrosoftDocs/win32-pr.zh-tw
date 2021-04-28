@@ -1,5 +1,5 @@
 ---
-description: GetTypeInfoCount 方法會抓取物件提供的類型資訊介面數目。
+description: CMediaPosition. GetTypeInfoCount 方法-GetTypeInfoCount 方法會抓取物件提供的類型資訊介面數目。
 ms.assetid: c98368f2-ae0c-4301-be30-7332b19f53ee
 title: 'CMediaPosition. GetTypeInfoCount 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7cac543c49b7f2f6b9dc3357bbb1c691477d9b62
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cfc54f414a6722f7f69a0330fad2d1a0cfab425
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977570"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095476"
 ---
 # <a name="cmediapositiongettypeinfocount-method"></a>CMediaPosition. GetTypeInfoCount 方法
 

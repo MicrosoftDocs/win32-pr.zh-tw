@@ -1,5 +1,5 @@
 ---
-description: 調整球形調和 (SH) 向量;換句話說，不悅 \[ i \] = pA \[ i \] \* 尺規。
+description: D3DXSHScale 函式 (D3DX10) -調整球形調和 (SH) 向量;換句話說，不悅 \[ i \] = pA \[ i \] \* 尺規。
 ms.assetid: e323d238-f635-4780-982d-8798ba178f31
 title: 'D3DXSHScale 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 7aa7ee66b29c7d9816708a8625bb568426a62b57
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0fab96575e5542eaaed725a88f9ba52c3289a4ad
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982898"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108496"
 ---
 # <a name="d3dxshscale-function-d3dx10h"></a>D3DXSHScale 函式 (D3DX10) 
 

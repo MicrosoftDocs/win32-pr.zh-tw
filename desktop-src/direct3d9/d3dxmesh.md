@@ -1,5 +1,5 @@
 ---
-description: 用來指定網格之建立選項的旗標。
+description: D3DXMESH 列舉旗標，用來指定網格的建立選項。
 ms.assetid: c94e19ab-8024-4a28-9d1a-6d57707c3a52
 title: 'D3DXMESH 列舉 (D3dx9mesh) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 602eb38f2113b54ee02477faf3bdd15a6a924abc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a312c2618960691184182039afe38acc8947eb6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322651"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098096"
 ---
 # <a name="d3dxmesh-enumeration"></a>D3DXMESH 列舉
 

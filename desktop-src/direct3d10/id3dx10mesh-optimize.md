@@ -1,5 +1,5 @@
 ---
-description: 產生具有重新排序臉部和頂點的新網格，以將繪製效能優化。
+description: ID3DX10Mesh：： Optimize 方法-產生具有重新排列臉部和頂點的新網格，以將繪製效能優化。
 ms.assetid: c03e112a-7c9b-4082-9afe-42e1c20b5f4d
 title: 'ID3DX10Mesh：： Optimize 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e3c416b28cefe1a3f7fb487567afac4c99057478
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f530995a2388d3ec2627ac5ce128271ed085a779
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323087"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108046"
 ---
 # <a name="id3dx10meshoptimize-method"></a>ID3DX10Mesh：： Optimize 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 依矩陣轉換平面。 輸入矩陣是實際轉換的反向變換。
+description: D3DXPlaneTransform 函式 (D3DX10Math) -依矩陣轉換平面。 輸入矩陣是實際轉換的反向變換。
 ms.assetid: ded06eac-4086-47e8-bc55-c37959afc22d
 title: 'D3DXPlaneTransform 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1b3c3390d84cd0d9c876afac6243ab90ca515e11
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b1d16ba2a29d42614c388a6207503ad32dd5e0f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323215"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108786"
 ---
 # <a name="d3dxplanetransform-function-d3dx10mathh"></a>D3DXPlaneTransform 函式 (D3DX10Math) 
 

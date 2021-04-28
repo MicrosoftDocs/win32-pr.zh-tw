@@ -1,5 +1,5 @@
 ---
-description: 繞著任意軸的 (相對於全局座標空間) 旋轉。
+description: ID3DXMATRIXStack：： RotateYawPitchRoll 方法 (D3dx9math .h) -在任意軸的周圍旋轉 (相對於全球座標空間) 。
 ms.assetid: 25a7eff4-a575-4ddb-85eb-ef3fa2d6ae3b
 title: 'ID3DXMATRIXStack：： RotateYawPitchRoll 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5020cb6ff3af41b9ef32ef77bb71607f6cd5ea6f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8bb516e759e781ca3784e49253eeaddac68075bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000225"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107376"
 ---
 # <a name="id3dxmatrixstackrotateyawpitchroll-method-d3dx9mathh"></a>ID3DXMATRIXStack：： RotateYawPitchRoll 方法 (D3dx9math .h) 
 

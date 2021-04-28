@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows Search 常數和列舉
 ms.assetid: 27b25e6b-49e6-4c70-947e-d67bd1335924
 title: Windows Search 常數和列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6c0f9b0958be75ab03913abb12670a5cb16d29c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b18cee15be8bc9cec3bae22b55da6e6bf6c4624
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468816"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104676"
 ---
 # <a name="windows-search-constants-and-enumerations"></a>Windows Search 常數和列舉
 

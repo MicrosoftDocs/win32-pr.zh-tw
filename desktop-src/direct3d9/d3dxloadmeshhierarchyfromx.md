@@ -1,5 +1,5 @@
 ---
-description: 從. x 檔案載入第一個框架階層。
+description: D3DXLoadMeshHierarchyFromX 函式-從. x 檔案載入第一個框架階層。
 ms.assetid: 1d446b23-9028-4187-b97c-a61edfe68e39
 title: 'D3DXLoadMeshHierarchyFromX 函式 (D3dx9anim) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 308ebf127708849bec8ee8a4f2601f029562634a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b6f6f08e10155509df800cca3cb3788d6b27e520
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946049"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114356"
 ---
 # <a name="d3dxloadmeshhierarchyfromx-function"></a>D3DXLoadMeshHierarchyFromX 函式
 

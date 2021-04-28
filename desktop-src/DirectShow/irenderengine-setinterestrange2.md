@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IRenderEngine：： SetInterestRange2 方法-不支援。
 ms.assetid: c5572927-905e-4420-9038-3f9573c5d0b0
 title: IRenderEngine：： SetInterestRange2 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: eb0fb115a819a3eb82b7c6a37bf51c985c6f6970
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2be9d8d2f69d2606de855cf5f08eb3deb41de634
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846215"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089026"
 ---
 # <a name="irenderenginesetinterestrange2-method"></a>IRenderEngine：： SetInterestRange2 方法
 
