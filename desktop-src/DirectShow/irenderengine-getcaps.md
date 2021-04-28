@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IRenderEngine：： GetCaps 方法-未執行。
 ms.assetid: ad48a817-a69a-419c-9186-25f45b02d8f5
 title: IRenderEngine：： GetCaps 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 8d8f6ed18fb9c5d4c5964b050a2a76bebec8ba82
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 16dee2c5c81eda1d957490aafcfc1d9984d2d232
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845979"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089066"
 ---
 # <a name="irenderenginegetcaps-method"></a>IRenderEngine：： GetCaps 方法
 

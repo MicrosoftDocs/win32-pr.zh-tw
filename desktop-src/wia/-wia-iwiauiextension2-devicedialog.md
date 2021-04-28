@@ -1,5 +1,5 @@
 ---
-description: 提供可取代預設系統使用者介面的自訂使用者介面。
+description: IWiaUIExtension2：:D eviceDialog 方法-提供可取代預設系統使用者介面的自訂使用者介面。
 ms.assetid: 0d70392d-294a-42bf-adc5-1006f83d7e21
 title: 'IWiaUIExtension2：:D eviceDialog 方法 (Wiadevd .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 142ec77572708063e24b38d342fb49f69c7651c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 94e717184c936ae85ba1cf345a13b44f9bbdce4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191393"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116646"
 ---
 # <a name="iwiauiextension2devicedialog-method"></a>IWiaUIExtension2：:D eviceDialog 方法
 
@@ -42,9 +42,9 @@ HRESULT DeviceDialog(
 *pDeviceDialogData* \[在\]
 </dt> <dd>
 
-類型： **PDEVICEDIALOGDATA2 \** _
+類型： **PDEVICEDIALOGDATA2 \***
 
-指向 [_ *DEVICEDIALOGDATA2* *](-wia-devicedialogdata2.md)結構，其中包含執行裝置對話方塊所需的所有資料。
+指向 [**DEVICEDIALOGDATA2**](-wia-devicedialogdata2.md) 結構，其中包含執行裝置對話方塊所需的所有資料。
 
 </dd> </dl>
 

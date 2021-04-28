@@ -1,5 +1,5 @@
 ---
-description: 設定已轉置矩陣的陣列。
+description: ID3DXConstantTable：： SetMatrixTransposeArray 方法-設定已轉置矩陣的陣列。
 ms.assetid: a67afc21-f43d-4dc5-b145-f3d66dd86dbb
 title: 'ID3DXConstantTable：： SetMatrixTransposeArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 69755ed973a8c412373287f128642b78ea2ad346
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0118c888adc52671a943b7b159bae80deca26a1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514621"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115046"
 ---
 # <a name="id3dxconstanttablesetmatrixtransposearray-method"></a>ID3DXConstantTable：： SetMatrixTransposeArray 方法
 

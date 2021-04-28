@@ -1,15 +1,15 @@
 ---
 title: TraceLogging
-description: .
+description: TraceLogging
 ms.assetid: c516424a-9eba-4b56-80de-8c713fd3461a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975c2f70cc645cc04d6b1461e32bb3b899097d1c
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: b7bd83c608d2ac98fdccce760c851496af80c217
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103683944"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116716"
 ---
 # <a name="tracelogging"></a>TraceLogging
 

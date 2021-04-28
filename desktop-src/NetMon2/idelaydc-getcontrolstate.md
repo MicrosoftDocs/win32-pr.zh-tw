@@ -1,5 +1,5 @@
 ---
-description: GetControlState 方法會抓取 capture 的狀態，以指出 capture 是否正在執行或已暫停。
+description: IDelaydC：： GetControlState 方法-GetControlState 方法會抓取 capture 的狀態，以指出正在執行或暫停捕捉。
 ms.assetid: 21b7faaa-591f-4e15-b4e9-453ea690ab4a
 title: 'IDelaydC：： GetControlState 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 8f5c3f084db788844f061ba2005d9c3ca38acef0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825112ec9a33ef176d5a69765837214249e33102
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936613"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110766"
 ---
 # <a name="idelaydcgetcontrolstate-method"></a>IDelaydC：： GetControlState 方法
 

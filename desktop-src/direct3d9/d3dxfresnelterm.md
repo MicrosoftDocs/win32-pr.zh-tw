@@ -1,5 +1,5 @@
 ---
-description: 計算 Fresnel 字詞。
+description: D3DXFresnelTerm 函式 (D3dx9math) -計算 Fresnel 字詞。
 ms.assetid: d3d281db-91a1-4100-8a82-028554b5a91d
 title: 'D3DXFresnelTerm 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ed6c6dd19dd6b7b70c5eeb08051f9799756b0782
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5472f9839928fd3b4c1830bc309c7f610d487864
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114476"
 ---
 # <a name="d3dxfresnelterm-function-d3dx9mathh"></a>D3DXFresnelTerm 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 顯示瀏覽器列。
+description: IShellDispatch2. ShowBrowserBar 方法-顯示瀏覽器列。
 ms.assetid: 5776370c-3bbf-449b-a8fe-2dbc7d89dd25
 title: 'IShellDispatch2. ShowBrowserBar 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e1df729401dd12b8221ba98a3b81ea65569113e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7143b55ae59c8fca845d256ddc1f79e69672364b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972380"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116936"
 ---
 # <a name="ishelldispatch2showbrowserbar-method"></a>IShellDispatch2. ShowBrowserBar 方法
 
@@ -73,15 +73,15 @@ IShellDispatch2.ShowBrowserBar( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

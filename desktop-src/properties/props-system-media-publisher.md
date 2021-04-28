@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統。發行者
 ms.assetid: 64de54af-6900-4361-a7b5-f29fbd5cd0e0
 title: 系統。發行者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b114d99f3d85d291774a91a161c0eb23888033f6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a03f4bdb89f10c35f9837b28f20e8d5f62d11b55
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986668"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091956"
 ---
 # <a name="systemmediapublisher"></a>系統。發行者
 

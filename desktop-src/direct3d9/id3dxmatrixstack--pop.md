@@ -1,5 +1,5 @@
 ---
-description: 從堆疊頂端移除目前的矩陣。
+description: ID3DXMATRIXStack：:P op 方法 (D3dx9math) -從堆疊頂端移除目前的矩陣。
 ms.assetid: 4c542012-058a-4818-8ec4-27e7d3357ca3
 title: 'ID3DXMATRIXStack：:P op 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 229892ab9b6a1ec75396b24cd9313e27667d0acf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c8d9185d10b9ef98a1fc3499f49c2ccc9c17a366
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035336"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093498"
 ---
 # <a name="id3dxmatrixstackpop-method-d3dx9mathh"></a>ID3DXMATRIXStack：:P op 方法 (D3dx9math .h) 
 

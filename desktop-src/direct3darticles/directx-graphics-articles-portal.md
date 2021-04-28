@@ -1,15 +1,15 @@
 ---
 title: DirectX 圖形文章
-description: .
+description: DirectX 圖形文章
 ms.assetid: 22178507-9a3b-49b1-a3db-851001a32e8e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16ac2a3a6b9beff7dfc8bfe4f6c0de92885f39ca
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9f7e212f9076d2f7a07df635199b375e82a7f38a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316018"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097456"
 ---
 # <a name="directx-graphics-articles"></a>DirectX 圖形文章
 

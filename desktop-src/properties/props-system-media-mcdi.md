@@ -1,15 +1,15 @@
 ---
-description: .
+description: MCDI
 ms.assetid: a653c29b-6c6c-4e26-9f7d-94a2dbb48113
 title: MCDI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7484e5d18c847413a72200cb2c2b5f131d4a63
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e3905827b40d934a0d4056323422e191fc1b2c56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321548"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092076"
 ---
 # <a name="systemmediamcdi"></a>MCDI
 

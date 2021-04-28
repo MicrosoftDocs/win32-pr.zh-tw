@@ -1,5 +1,5 @@
 ---
-description: 使用主要畫面格動畫所用的回呼金鑰資料來填滿陣列。
+description: ID3DXKeyframedAnimationSet：： GetCallbackKeys 方法-使用用於主要畫面格動畫的回呼金鑰資料來填滿陣列。
 ms.assetid: 2a2aa04a-a889-415b-8aa2-cc5f2bed1f9a
 title: 'ID3DXKeyframedAnimationSet：： GetCallbackKeys 方法 (D3dx9anim .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d3f8dbc771fcdde6d1c07a1bf810b322b0a70a30
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f3bdb7049de3b5d6aad10b5ff5100d01d05e3ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196201"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093716"
 ---
 # <a name="id3dxkeyframedanimationsetgetcallbackkeys-method"></a>ID3DXKeyframedAnimationSet：： GetCallbackKeys 方法
 

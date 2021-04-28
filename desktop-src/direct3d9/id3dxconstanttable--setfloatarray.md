@@ -1,5 +1,5 @@
 ---
-description: 設定浮點數字的陣列。
+description: ID3DXConstantTable：： SetFloatArray 方法：設定浮點數的陣列。
 ms.assetid: 7a622dd5-47ed-4166-a6df-f484b03e0b5a
 title: 'ID3DXConstantTable：： SetFloatArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d75d4171ab51859e4095acbe5d3e86d704b1f437
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 23c96cb2bfc8113fd167c8b57a21a46285b691a6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196293"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115166"
 ---
 # <a name="id3dxconstanttablesetfloatarray-method"></a>ID3DXConstantTable：： SetFloatArray 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 驗證所提供憑證的 (EKU) 物件識別碼 (OID) 的增強金鑰使用方法。
+description: Win32_EncryptableVolume 類別的 ProtectKeyWithCertificateThumbprint 方法-驗證所提供憑證的「增強金鑰使用方法」 (EKU) 物件識別碼 (OID) 。
 ms.assetid: 7096cead-c44a-404c-b1e1-3e0ab27070f8
 title: Win32_EncryptableVolume 類別的 ProtectKeyWithCertificateThumbprint 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: e0b47aabccaacfb3ab81968b8a93037aad304f8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c71684bf66d8d14df60c9ff09083f507b114024
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987698"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110576"
 ---
 # <a name="protectkeywithcertificatethumbprint-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 ProtectKeyWithCertificateThumbprint 方法 \_
 

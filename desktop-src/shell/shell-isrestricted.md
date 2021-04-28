@@ -1,5 +1,5 @@
 ---
-description: 從登錄抓取群組的限制設定。
+description: IsRestricted 方法-從登錄中抓取群組的限制設定。
 ms.assetid: C4B3B5C0-7445-483a-885F-5283BD4D4B39
 title: 'IsRestricted 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2224a3ea4ea26cf39f2e15486de4f96afe5448d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e428c914cf95d282fd721071009efc70fcb3a4d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193347"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104256"
 ---
 # <a name="shellisrestricted-method"></a>IsRestricted 方法
 
@@ -73,19 +73,19 @@ Shell.IsRestricted( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **整數 \** _
+類型：**整數 \***
 
 限制的值。 如果找不到指定的限制，則傳回值為0。
 
 ### <a name="vb"></a>VB
 
-類型： _*整數 \**_
+類型：**整數 \***
 
 限制的值。 如果找不到指定的限制，則傳回值為0。
 
 ## <a name="remarks"></a>備註
 
-_ *IsRestricted** 會先尋找符合下列索引鍵之 *sGroup* 的子機碼名稱。
+**IsRestricted** 會先尋找符合下列索引鍵之 *sGroup* 的子機碼名稱。
 
 ```
 HKEY_LOCAL_MACHINE

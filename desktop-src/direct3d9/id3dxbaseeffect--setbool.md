@@ -1,5 +1,5 @@
 ---
-description: 設定布林值。
+description: ID3DXBaseEffect：： SetBool 方法：設定 BOOL 值。
 ms.assetid: bb7c4860-50a0-416a-b9e0-5a2bec113e3c
 title: 'ID3DXBaseEffect：： SetBool 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: be137ac210297b9fce12dafaffb6fead61d39512
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5045c26f521da289899c8f8bc0d97b7eaf01826f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974830"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097516"
 ---
 # <a name="id3dxbaseeffectsetbool-method"></a>ID3DXBaseEffect：： SetBool 方法
 

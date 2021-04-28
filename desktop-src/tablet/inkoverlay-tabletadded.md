@@ -1,15 +1,15 @@
 ---
-description: IInkTablet 新增至系統時發生。
+description: TabletAdded 事件-在 IInkTablet 新增至系統時發生。
 ms.assetid: 2076a520-bd37-43b5-b57f-030828b096cb
 title: 'TabletAdded 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79c2faadcbf87e0772afb8f417c97a4be546e08b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c22630430622c98026c81adb1c6a131a53277a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979369"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116786"
 ---
 # <a name="inkoverlaytabletadded-event"></a>TabletAdded 事件
 

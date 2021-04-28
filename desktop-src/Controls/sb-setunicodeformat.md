@@ -1,6 +1,6 @@
 ---
 title: 'SB_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
+description: SB_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: 022e7138-c12f-4c59-82da-2ac6d276fa77
 keywords:
 - SB_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95c5223f1e707747356c8869ad047a69f6e8d94a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 278a5645928a51732b87c12447bb2524bfadfbcd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965104"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085886"
 ---
 # <a name="sb_setunicodeformat-message"></a>SB \_ SETUNICODEFORMAT 訊息
 

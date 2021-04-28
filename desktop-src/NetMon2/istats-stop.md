@@ -1,5 +1,5 @@
 ---
-description: Stop 方法會停止目前的捕捉。
+description: IStats：： Stop 方法-Stop 方法會停止目前的捕捉。
 ms.assetid: 3aeeb29e-e174-46a2-82bb-44c466b8db98
 title: 'IStats：： Stop 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7b7b58527e7bde0c3bbdec4fc162b705dd178c10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef51aff870a3193963b3802332112c51f1024826
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991765"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114606"
 ---
 # <a name="istatsstop-method"></a>IStats：： Stop 方法
 

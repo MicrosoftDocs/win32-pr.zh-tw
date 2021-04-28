@@ -1,15 +1,15 @@
 ---
-description: .
+description: '應用程式驗證器 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) '
 ms.assetid: edf719b7-9bd9-4e23-9bba-d0d7c3c5dbf5
 title: '應用程式驗證器 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 946d27ecfef46766fe82cc4df2061c7fa5196a45
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: bac2a8bc900ea9d1f35ae228371226355657b930
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314991"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088686"
 ---
 # <a name="application-verifier-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>應用程式驗證器 (Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) 
 
@@ -19,7 +19,7 @@ ms.locfileid: "107314991"
 **伺服器** -windows server 2003、windows server 2008、windows Server 2008 R2  
 
 
-## <a name="description"></a>描述
+## <a name="description"></a>Description
 
 升級並強制執行應用程式驗證器成為所有開發的品質閘道。 它包含數個改進：
 

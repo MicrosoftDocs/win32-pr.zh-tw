@@ -1,6 +1,6 @@
 ---
 title: 'RB_GETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 抓取控制項的 Unicode 字元格式旗標。
+description: RB_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: 48a4472b-dda4-41a2-b5bc-6f74b1cdc70b
 keywords:
 - RB_GETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a6ef31c409ddc0570b03a3bcd8bb0dd81e9c722
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45e1a4546c9c33e87943d305c85939ab280fa122
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464400"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085976"
 ---
 # <a name="rb_getunicodeformat-message"></a>RB \_ GETUNICODEFORMAT 訊息
 

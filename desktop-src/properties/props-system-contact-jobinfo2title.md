@@ -1,15 +1,15 @@
 ---
-description: .
+description: JobInfo2Title
 ms.assetid: cea60e33-5e14-4dbc-8185-e81d14a96b4f
 title: JobInfo2Title
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6aec9932be0333be6b2e4b689d40b64c952dea09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62396d40422b401c46dc9d0d96e3a653d5558b0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975069"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101776"
 ---
 # <a name="systemcontactjobinfo2title"></a>JobInfo2Title
 

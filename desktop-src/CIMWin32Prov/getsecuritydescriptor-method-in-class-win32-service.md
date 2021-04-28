@@ -1,5 +1,5 @@
 ---
-description: 傳回控制服務存取的安全描述項。
+description: Win32_Service 類別的 GetSecurityDescriptor 方法 (CIMWin32 WMI 提供者) -傳回控制服務存取的安全描述項。
 ms.assetid: 99c8346e-e8d6-4f3c-bbdc-437dcf852b2a
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 GetSecurityDescriptor 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bf8dee49893a5a1d3b628e72b0b0746a6215fb0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 44c19f22cf57a811a7caebfbcc9bf4202c8d2ad7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025883"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096986"
 ---
 # <a name="getsecuritydescriptor-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 GetSecurityDescriptor 方法) 
 

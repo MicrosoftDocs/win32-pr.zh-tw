@@ -1,15 +1,15 @@
 ---
-description: .
+description: HasAttachments
 ms.assetid: 49ec69b8-61f9-42dd-8981-5cef9cdd9b64
 title: HasAttachments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 629173fa7a9e5168504883df7ab0f4387bd0e3d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d4dd569f59a521e52e2d1d6fed1207a0704b64b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319064"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097326"
 ---
 # <a name="systemmessagehasattachments"></a>HasAttachments
 

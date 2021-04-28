@@ -1,5 +1,5 @@
 ---
-description: CopyPalette 方法的 Proxy 函式。
+description: CopyPalette 方法的 IWICBitmapDecoder_CopyPalette_Proxy 函數 Proxy 函式。
 ms.assetid: 2775b389-d6e9-479c-93ea-147e4501551d
 title: IWICBitmapDecoder_CopyPalette_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ee6902668a9c4feffdcc696ce0d5f6214a707bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56dbc523fe29ef9cc958b6ffbd80509284b78b88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986332"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086356"
 ---
 # <a name="iwicbitmapdecoder_copypalette_proxy-function"></a>IWICBitmapDecoder \_ CopyPalette \_ Proxy 函式
 
@@ -44,16 +44,16 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+類型： **[ **IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-這個 [_ *IWICBitmapDecoder* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)物件的指標。
+這個 [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) 物件的指標。
 
 </dd> <dt>
 
 *pIPalette* \[在\]
 </dt> <dd>
 
-類型： **[**IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette) \** _
+類型： **[ **IWICPalette**](/windows/desktop/api/Wincodec/nn-wincodec-iwicpalette)\***
 
 要複製的影像調色板。
 
@@ -61,7 +61,7 @@ HRESULT IWICBitmapDecoder_CopyPalette_Proxy(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

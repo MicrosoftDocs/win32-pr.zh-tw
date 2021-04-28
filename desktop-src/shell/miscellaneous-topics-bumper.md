@@ -1,5 +1,5 @@
 ---
-description: .
+description: 舊版 Shell 主題
 title: 舊版 Shell 主題
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 738c32fec8d5613307c242ead4f54fc56f241c5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb143dd393c20b504b50a68366c34aea1767cb17
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104386"
 ---
 # <a name="legacy-shell-topics"></a>舊版 Shell 主題
 

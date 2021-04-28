@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. Priority
 ms.assetid: 43f81cb5-7f2e-4f8f-ad31-8aad71765f60
 title: System. Priority
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cd4be022a142ba2b19634fbd81ac1b1f0b7cab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66e6930c9746d61f181c88076d10677d5cfdd787
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978927"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091746"
 ---
 # <a name="systempriority"></a>System. Priority
 

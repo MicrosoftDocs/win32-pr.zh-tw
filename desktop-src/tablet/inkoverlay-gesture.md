@@ -1,15 +1,15 @@
 ---
-description: 在識別應用程式特定的手勢時發生。
+description: InkOverlay：當辨識應用程式特定的手勢時，就會發生此事件。
 ms.assetid: 11b48fbc-0c93-4c3c-b218-258028822544
 title: 'InkOverlay 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb3db800db2d1fca9ee1b00620c698a592ac2121
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b414aa1d0feaa19c5caee049eea29c59e90b58d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978372"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116946"
 ---
 # <a name="inkoverlaygesture-event"></a>InkOverlay 事件
 

@@ -1,6 +1,6 @@
 ---
 title: 'HDM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 UNICODE 字元格式旗標。
+description: HDM_SETUNICODEFORMAT 訊息：設定控制項的 UNICODE 字元格式旗標。
 ms.assetid: 18161fe5-c779-4be0-9e7a-1b5948e42b80
 keywords:
 - HDM_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3fe3497413b265510426fab4ef2e71666f46312
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d32ffa5f7f90ab266c52c67899dbff3be0d51123
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465477"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085956"
 ---
 # <a name="hdm_setunicodeformat-message"></a>HDM \_ SETUNICODEFORMAT 訊息
 

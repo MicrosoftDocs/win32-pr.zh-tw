@@ -1,15 +1,15 @@
 ---
-description: .
+description: '[系統] 副標題'
 ms.assetid: e98bf6ca-0572-419b-8bc0-bc0239f8a6ff
 title: '[系統] 副標題'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24c7220777f673cdb1f97e7eaaa8d0cea76bc2ea
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 01af95d8b190d43fe791383a78f37f38c36d05be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106989112"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091936"
 ---
 # <a name="systemmediasubtitle"></a>[系統] 副標題
 

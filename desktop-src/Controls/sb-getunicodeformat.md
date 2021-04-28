@@ -1,6 +1,6 @@
 ---
 title: 'SB_GETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 抓取控制項的 Unicode 字元格式旗標。
+description: SB_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: 0b2b543a-b1ef-452c-9b34-c5fbbac4aaa9
 keywords:
 - SB_GETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbb639a04f0a40d9d5e11b938aaadbcc8b4c730
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 857af43911a01ffc58b1a878be6e1875a44c76cb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085896"
 ---
 # <a name="sb_getunicodeformat-message"></a>SB \_ GETUNICODEFORMAT 訊息
 

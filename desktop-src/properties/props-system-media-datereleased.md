@@ -1,15 +1,15 @@
 ---
-description: .
+description: DateReleased
 ms.assetid: 7a947320-ae05-4b17-82bc-f6100a0450da
 title: DateReleased
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 328faf3809df3d2730e2f8e5feaec42efed3ca1f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3ab106ee47acaa8e2feacc9004d2a0f9fc5f29c1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "107000208"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092116"
 ---
 # <a name="systemmediadatereleased"></a>DateReleased
 

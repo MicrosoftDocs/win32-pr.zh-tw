@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CSystemClock。 CSystemClock 函式-函數方法。
 ms.assetid: facc2c9d-034a-4fed-b6fe-77a40e36c305
 title: 'CSystemClock. CSystemClock (Sysclock. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: fea99d95aa4c1b1cadefbb95384fb871374362f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11ba7449b086f84dc2caff19da922c03f9c7103b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999623"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095196"
 ---
 # <a name="csystemclockcsystemclock-constructor"></a>CSystemClock. CSystemClock 函數
 

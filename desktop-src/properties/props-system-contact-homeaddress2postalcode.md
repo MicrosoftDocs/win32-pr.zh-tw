@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress2PostalCode
 ms.assetid: ef459811-4891-4c4f-bce0-e5a826654b6b
 title: HomeAddress2PostalCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31602508f262c3c5df550132261b3fcb8a5a5129
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 319e45fb9d02cd4df25d763e64cf347e1ccb71c3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975171"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102176"
 ---
 # <a name="systemcontacthomeaddress2postalcode"></a>HomeAddress2PostalCode
 

@@ -1,5 +1,5 @@
 ---
-description: InitializeFromMemory 方法的 Proxy 函式。
+description: InitializeFromMemory 方法的 IWICStream_InitializeFromMemory_Proxy 函數 Proxy 函式。
 ms.assetid: 737526ac-fe79-4d53-83c5-33102f5ac67b
 title: IWICStream_InitializeFromMemory_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: fe034698635a35c098f6466712d17489f301dd57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be3cec08f2ad3970d8860803cfb70970cf7b765b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980086"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097126"
 ---
 # <a name="iwicstream_initializefrommemory_proxy-function"></a>IWICStream \_ InitializeFromMemory \_ Proxy 函式
 
@@ -45,22 +45,22 @@ HRESULT IWICStream_InitializeFromMemory_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) \** _
+類型： **[ **IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream)\***
 
-這個 [_ *IWICStream* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream)物件的指標。
+這個 [**IWICStream**](/windows/desktop/api/Wincodec/nn-wincodec-iwicstream) 物件的指標。
 
 </dd> <dt>
 
 *pbBuffer* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
 用來初始化資料流程的緩衝區指標。
 
 </dd> <dt>
 
-_cbBufferSize * \[ in\]
+*cbBufferSize* \[在\]
 </dt> <dd>
 
 類型： **DWORD**

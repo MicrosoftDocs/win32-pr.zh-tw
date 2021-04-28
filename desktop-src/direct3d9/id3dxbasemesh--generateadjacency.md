@@ -1,5 +1,5 @@
 ---
-description: 產生網格邊緣清單以及共用每個邊緣的臉部清單。
+description: ID3DXBaseMesh：： GenerateAdjacency 方法-產生網格邊緣的清單，以及共用每個邊緣的臉部清單。
 ms.assetid: 9d52290f-1c9e-43a7-b239-35cd54e36466
 title: 'ID3DXBaseMesh：： GenerateAdjacency 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b5b1d304878a4977bb14d6ef98ad7256b6c3181f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 783ed7ad61337e606793b9b467e4b17fddd7ecd2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386492"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115456"
 ---
 # <a name="id3dxbasemeshgenerateadjacency-method"></a>ID3DXBaseMesh：： GenerateAdjacency 方法
 

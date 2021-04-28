@@ -1,5 +1,5 @@
 ---
-description: 內部。
+description: <span id="vspixengine.register_format"></span>REGISTER_FORMAT 列舉內部。
 MS-HAID: vspixengine.REGISTER\_FORMAT
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: e3c7a8b635ebb1a80bdd9e10cca8afb168cda846
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b008f3cdb225c7616306dbd425c24e6737bc1ef1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688359"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110516"
 ---
 # <a name="span-idvspixengineregister_formatspanregister_format-enumeration"></a><span id="vspixengine.register_format"></span>註冊 \_ 格式列舉
 

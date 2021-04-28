@@ -1,5 +1,5 @@
 ---
-description: 您可以使用這個方法來重新取得資源，並儲存初始狀態。
+description: ID3DXEffect：： OnResetDevice 方法-使用此方法可重新取得資源並儲存初始狀態。
 ms.assetid: 782f3537-f61c-4faa-a0b8-d60c516ba241
 title: 'ID3DXEffect：： OnResetDevice 方法 (D3DX9Effect .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d419ad456fcefbf0d6e4a201d4949556d6694e46
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a10d9d0a9092bf7a0fdd345cde8220675503acd0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981996"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114926"
 ---
 # <a name="id3dxeffectonresetdevice-method"></a>ID3DXEffect：： OnResetDevice 方法
 

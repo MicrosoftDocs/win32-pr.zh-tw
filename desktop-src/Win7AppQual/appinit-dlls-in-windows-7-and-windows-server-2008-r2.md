@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows 7 和 Windows Server 2008 R2 中的 AppInit_DLLs
 ms.assetid: 6d1f9703-6dc9-4fdc-b52f-e6bb60a2fe8d
 title: Windows 7 中的 AppInit_DLLs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31db695805b751e5dcd39293d0170c7fb78a11ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4820fcb9840bbec139ff78f3c6cc082b2dca4eeb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975947"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088706"
 ---
 # <a name="appinit_dlls-in-windows-7-and-windows-server-2008-r2"></a>\_在 windows 7 和 Windows Server 2008 R2 中 AppInit dll
 

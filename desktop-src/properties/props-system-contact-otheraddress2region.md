@@ -1,15 +1,15 @@
 ---
-description: .
+description: OtherAddress2Region
 ms.assetid: 48651ed8-b624-454c-b5bd-14e725a49d35
 title: OtherAddress2Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2f531fc2f77b90656b627b7da4260bbdbfc211e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e2f217b96f9d5ba7dd4f20c38adec8a592244e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989946"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101456"
 ---
 # <a name="systemcontactotheraddress2region"></a>OtherAddress2Region
 

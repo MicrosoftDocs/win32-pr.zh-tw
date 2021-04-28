@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IRenderEngine：:D ecommit 方法-未執行。
 ms.assetid: 014dd9b8-bcfc-4fe0-b0a4-580a253ae6db
 title: IRenderEngine：:D ecommit 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 13857db04525f8e6356eb8cee424675050d8aa36
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 83909eb6d0ff0929b9f94b0d79f87fe1fcef6eb7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972920"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089096"
 ---
 # <a name="irenderenginedecommit-method"></a>IRenderEngine：:D ecommit 方法
 

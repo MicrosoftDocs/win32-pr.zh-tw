@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. StorageProviderStatus
 ms.assetid: 2da04c74-c657-49da-b1bb-098bdcf6e974
 title: System. StorageProviderStatus
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79d4f8bc3e21ffe5ee868c6f5bcc650031c8b7d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ff1503596ebedda2902672f9017bd895226d50d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978097"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100806"
 ---
 # <a name="systemstorageproviderstatus"></a>System. StorageProviderStatus
 
