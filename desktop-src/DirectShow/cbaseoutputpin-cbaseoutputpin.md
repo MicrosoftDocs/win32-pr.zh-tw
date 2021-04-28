@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseOutputPin。 CBaseOutputPin 函式-函數方法。
 ms.assetid: 1105c951-a51d-49ab-a69d-f3d482d61233
 title: 'CBaseOutputPin. CBaseOutputPin (Amfilter. h) '
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0461c5056ee48caa19f21d1fcb8fcf1636157d9f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9901591be32d431ebe53a2098456446a0126d26b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978471"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099566"
 ---
-# <a name="cbaseoutputpincbaseoutputpin-constructor"></a><span data-ttu-id="e0a97-103">CBaseOutputPin. CBaseOutputPin 函數</span><span class="sxs-lookup"><span data-stu-id="e0a97-103">CBaseOutputPin.CBaseOutputPin constructor</span></span>
+# <a name="cbaseoutputpincbaseoutputpin-constructor"></a><span data-ttu-id="f8123-103">CBaseOutputPin. CBaseOutputPin 函數</span><span class="sxs-lookup"><span data-stu-id="f8123-103">CBaseOutputPin.CBaseOutputPin constructor</span></span>
 
-<span data-ttu-id="e0a97-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="e0a97-104">Constructor method.</span></span>
+<span data-ttu-id="f8123-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="f8123-104">Constructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e0a97-105">語法</span><span class="sxs-lookup"><span data-stu-id="e0a97-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f8123-105">語法</span><span class="sxs-lookup"><span data-stu-id="f8123-105">Syntax</span></span>
 
 
 ```C++
@@ -42,65 +42,65 @@ CBaseOutputPin(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="e0a97-106">參數</span><span class="sxs-lookup"><span data-stu-id="e0a97-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f8123-106">參數</span><span class="sxs-lookup"><span data-stu-id="f8123-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="e0a97-107">*pObjectName*</span><span class="sxs-lookup"><span data-stu-id="e0a97-107">*pObjectName*</span></span> 
+<span data-ttu-id="f8123-107">*pObjectName*</span><span class="sxs-lookup"><span data-stu-id="f8123-107">*pObjectName*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e0a97-108">包含物件之偵錯工具名稱的字串。</span><span class="sxs-lookup"><span data-stu-id="e0a97-108">String containing the debug name of the object.</span></span> <span data-ttu-id="e0a97-109">如需詳細資訊，請參閱 [**CBaseObject**](cbaseobject.md)。</span><span class="sxs-lookup"><span data-stu-id="e0a97-109">For more information, see [**CBaseObject**](cbaseobject.md).</span></span>
+<span data-ttu-id="f8123-108">包含物件之偵錯工具名稱的字串。</span><span class="sxs-lookup"><span data-stu-id="f8123-108">String containing the debug name of the object.</span></span> <span data-ttu-id="f8123-109">如需詳細資訊，請參閱 [**CBaseObject**](cbaseobject.md)。</span><span class="sxs-lookup"><span data-stu-id="f8123-109">For more information, see [**CBaseObject**](cbaseobject.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e0a97-110">*pFilter*</span><span class="sxs-lookup"><span data-stu-id="e0a97-110">*pFilter*</span></span> 
+<span data-ttu-id="f8123-110">*pFilter*</span><span class="sxs-lookup"><span data-stu-id="f8123-110">*pFilter*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e0a97-111">建立此釘選之篩選準則的指標。</span><span class="sxs-lookup"><span data-stu-id="e0a97-111">Pointer to the filter that created this pin.</span></span>
+<span data-ttu-id="f8123-111">建立此釘選之篩選準則的指標。</span><span class="sxs-lookup"><span data-stu-id="f8123-111">Pointer to the filter that created this pin.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e0a97-112">*pLock*</span><span class="sxs-lookup"><span data-stu-id="e0a97-112">*pLock*</span></span> 
+<span data-ttu-id="f8123-112">*pLock*</span><span class="sxs-lookup"><span data-stu-id="f8123-112">*pLock*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e0a97-113">[**CCritSec**](ccritsec.md)鎖定的指標，用來序列化狀態變更。</span><span class="sxs-lookup"><span data-stu-id="e0a97-113">Pointer to a [**CCritSec**](ccritsec.md) lock, used to serialize state changes.</span></span> <span data-ttu-id="e0a97-114">這可以是與 filter lock [**CBaseFilter：： m \_ pLock**](cbasefilter-m-plock.md)相同的重要區段。</span><span class="sxs-lookup"><span data-stu-id="e0a97-114">This can be the same critical section as the filter lock, [**CBaseFilter::m\_pLock**](cbasefilter-m-plock.md).</span></span>
+<span data-ttu-id="f8123-113">[**CCritSec**](ccritsec.md)鎖定的指標，用來序列化狀態變更。</span><span class="sxs-lookup"><span data-stu-id="f8123-113">Pointer to a [**CCritSec**](ccritsec.md) lock, used to serialize state changes.</span></span> <span data-ttu-id="f8123-114">這可以是與 filter lock [**CBaseFilter：： m \_ pLock**](cbasefilter-m-plock.md)相同的重要區段。</span><span class="sxs-lookup"><span data-stu-id="f8123-114">This can be the same critical section as the filter lock, [**CBaseFilter::m\_pLock**](cbasefilter-m-plock.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e0a97-115">*phr*</span><span class="sxs-lookup"><span data-stu-id="e0a97-115">*phr*</span></span> 
+<span data-ttu-id="f8123-115">*phr*</span><span class="sxs-lookup"><span data-stu-id="f8123-115">*phr*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e0a97-116">變數的指標，此變數會接收 **HRESULT** 值，指出方法的成功或失敗。</span><span class="sxs-lookup"><span data-stu-id="e0a97-116">Pointer to a variable that receives an **HRESULT** value indicating the success or failure of the method.</span></span>
+<span data-ttu-id="f8123-116">變數的指標，此變數會接收 **HRESULT** 值，指出方法的成功或失敗。</span><span class="sxs-lookup"><span data-stu-id="f8123-116">Pointer to a variable that receives an **HRESULT** value indicating the success or failure of the method.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="e0a97-117">*pName*</span><span class="sxs-lookup"><span data-stu-id="e0a97-117">*pName*</span></span> 
+<span data-ttu-id="f8123-117">*pName*</span><span class="sxs-lookup"><span data-stu-id="f8123-117">*pName*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="e0a97-118">包含 pin 名稱的寬字元字串 (也用來作為 pin 識別碼) 。</span><span class="sxs-lookup"><span data-stu-id="e0a97-118">Wide-character string containing the pin name (also used as the pin identifier).</span></span>
+<span data-ttu-id="f8123-118">包含 pin 名稱的寬字元字串 (也用來作為 pin 識別碼) 。</span><span class="sxs-lookup"><span data-stu-id="f8123-118">Wide-character string containing the pin name (also used as the pin identifier).</span></span>
 
 </dd> </dl>
 
-## <a name="remarks"></a><span data-ttu-id="e0a97-119">備註</span><span class="sxs-lookup"><span data-stu-id="e0a97-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f8123-119">備註</span><span class="sxs-lookup"><span data-stu-id="f8123-119">Remarks</span></span>
 
-<span data-ttu-id="e0a97-120">所有參數都會直接傳遞至 [**CBasePin**](cbasepin.md) 的函式。</span><span class="sxs-lookup"><span data-stu-id="e0a97-120">All of the parameters are passed directly to the [**CBasePin**](cbasepin.md) constructor.</span></span>
+<span data-ttu-id="f8123-120">所有參數都會直接傳遞至 [**CBasePin**](cbasepin.md) 的函式。</span><span class="sxs-lookup"><span data-stu-id="f8123-120">All of the parameters are passed directly to the [**CBasePin**](cbasepin.md) constructor.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="e0a97-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="e0a97-121">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f8123-121">規格需求</span><span class="sxs-lookup"><span data-stu-id="f8123-121">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e0a97-122">需求</span><span class="sxs-lookup"><span data-stu-id="e0a97-122">Requirement</span></span> | <span data-ttu-id="e0a97-123">值</span><span class="sxs-lookup"><span data-stu-id="e0a97-123">Value</span></span> |
+| <span data-ttu-id="f8123-122">需求</span><span class="sxs-lookup"><span data-stu-id="f8123-122">Requirement</span></span> | <span data-ttu-id="f8123-123">值</span><span class="sxs-lookup"><span data-stu-id="f8123-123">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="e0a97-124">標頭</span><span class="sxs-lookup"><span data-stu-id="e0a97-124">Header</span></span><br/>  | <dl> <span data-ttu-id="e0a97-125"><dt>Amfilter (包含： .h) </dt></span><span class="sxs-lookup"><span data-stu-id="e0a97-125"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
-| <span data-ttu-id="e0a97-126">程式庫</span><span class="sxs-lookup"><span data-stu-id="e0a97-126">Library</span></span><br/> | <dl> <span data-ttu-id="e0a97-127"><dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt></span><span class="sxs-lookup"><span data-stu-id="e0a97-127"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="f8123-124">標頭</span><span class="sxs-lookup"><span data-stu-id="f8123-124">Header</span></span><br/>  | <dl> <span data-ttu-id="f8123-125"><dt>Amfilter (包含： .h) </dt></span><span class="sxs-lookup"><span data-stu-id="f8123-125"><dt>Amfilter.h (include Streams.h)</dt></span></span> </dl>                                                                                  |
+| <span data-ttu-id="f8123-126">程式庫</span><span class="sxs-lookup"><span data-stu-id="f8123-126">Library</span></span><br/> | <dl> <span data-ttu-id="f8123-127"><dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt></span><span class="sxs-lookup"><span data-stu-id="f8123-127"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="e0a97-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e0a97-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f8123-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f8123-128">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e0a97-129">**CBaseOutputPin 類別**</span><span class="sxs-lookup"><span data-stu-id="e0a97-129">**CBaseOutputPin Class**</span></span>](cbaseoutputpin.md)
+[<span data-ttu-id="f8123-129">**CBaseOutputPin 類別**</span><span class="sxs-lookup"><span data-stu-id="f8123-129">**CBaseOutputPin Class**</span></span>](cbaseoutputpin.md)
 </dt> </dl>
 
  
