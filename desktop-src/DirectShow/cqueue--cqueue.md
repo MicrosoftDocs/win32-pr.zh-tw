@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CQueue. ~ CQueue 的函式-函式方法。
 ms.assetid: 6c3f21cf-5353-4ccb-a6f6-f3e182dec874
 title: 'CQueue. ~ CQueue (Wxutil 的函式) '
 ms.topic: reference
@@ -16,18 +16,18 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 93b620b60bd0697eed2f383a696269c01d51f33d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85681dff4b336c179a1dff94eca386593d98d156
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000466"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095206"
 ---
-# <a name="cqueuecqueue-destructor"></a><span data-ttu-id="d7672-103">CQueue. ~ CQueue 的函式</span><span class="sxs-lookup"><span data-stu-id="d7672-103">CQueue.~CQueue destructor</span></span>
+# <a name="cqueuecqueue-destructor"></a><span data-ttu-id="20516-103">CQueue. ~ CQueue 的函式</span><span class="sxs-lookup"><span data-stu-id="20516-103">CQueue.~CQueue destructor</span></span>
 
-<span data-ttu-id="d7672-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="d7672-104">Destructor method.</span></span>
+<span data-ttu-id="20516-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="20516-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d7672-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="d7672-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="20516-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="20516-105">Syntax</span></span>
 
 
 ```C++
@@ -36,22 +36,22 @@ ms.locfileid: "107000466"
 
 
 
-## <a name="requirements"></a><span data-ttu-id="d7672-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="d7672-106">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="20516-106">規格需求</span><span class="sxs-lookup"><span data-stu-id="20516-106">Requirements</span></span>
 
 
 
-| <span data-ttu-id="d7672-107">需求</span><span class="sxs-lookup"><span data-stu-id="d7672-107">Requirement</span></span> | <span data-ttu-id="d7672-108">值</span><span class="sxs-lookup"><span data-stu-id="d7672-108">Value</span></span> |
+| <span data-ttu-id="20516-107">需求</span><span class="sxs-lookup"><span data-stu-id="20516-107">Requirement</span></span> | <span data-ttu-id="20516-108">值</span><span class="sxs-lookup"><span data-stu-id="20516-108">Value</span></span> |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="d7672-109">標頭</span><span class="sxs-lookup"><span data-stu-id="d7672-109">Header</span></span><br/>  | <dl> <span data-ttu-id="d7672-110"><dt>Wxutil (包含： .h) </dt></span><span class="sxs-lookup"><span data-stu-id="d7672-110"><dt>Wxutil.h (include Streams.h)</dt></span></span> </dl>                                                                                    |
-| <span data-ttu-id="d7672-111">程式庫</span><span class="sxs-lookup"><span data-stu-id="d7672-111">Library</span></span><br/> | <dl> <span data-ttu-id="d7672-112"><dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt></span><span class="sxs-lookup"><span data-stu-id="d7672-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
+| <span data-ttu-id="20516-109">標頭</span><span class="sxs-lookup"><span data-stu-id="20516-109">Header</span></span><br/>  | <dl> <span data-ttu-id="20516-110"><dt>Wxutil (包含： .h) </dt></span><span class="sxs-lookup"><span data-stu-id="20516-110"><dt>Wxutil.h (include Streams.h)</dt></span></span> </dl>                                                                                    |
+| <span data-ttu-id="20516-111">程式庫</span><span class="sxs-lookup"><span data-stu-id="20516-111">Library</span></span><br/> | <dl> <span data-ttu-id="20516-112"><dt> (零售組建的 Strmbase .lib) ;</dt><dt>Strmbasd (debug 組建) </dt></span><span class="sxs-lookup"><span data-stu-id="20516-112"><dt>Strmbase.lib (retail builds); </dt> <dt>Strmbasd.lib (debug builds)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="d7672-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d7672-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="20516-113">另請參閱</span><span class="sxs-lookup"><span data-stu-id="20516-113">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d7672-114">**CQueue 類別**</span><span class="sxs-lookup"><span data-stu-id="d7672-114">**CQueue Class**</span></span>](cqueue.md)
+[<span data-ttu-id="20516-114">**CQueue 類別**</span><span class="sxs-lookup"><span data-stu-id="20516-114">**CQueue Class**</span></span>](cqueue.md)
 </dt> </dl>
 
  
