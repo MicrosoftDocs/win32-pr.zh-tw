@@ -1,5 +1,5 @@
 ---
-description: 設定 nontransposed 矩陣的指標陣列。
+description: ID3DXBaseEffect：： SetMatrixPointerArray 方法-將指標陣列設定為 nontransposed 矩陣。
 ms.assetid: f2e62470-6882-49d8-ae12-6c5b79dd5c99
 title: 'ID3DXBaseEffect：： SetMatrixPointerArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 0f199c3db335dfc6b9966987678c07b4b3a22402
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cfe30e0132cfa237ddbccc24758b35e102a62b0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946042"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093766"
 ---
 # <a name="id3dxbaseeffectsetmatrixpointerarray-method"></a>ID3DXBaseEffect：： SetMatrixPointerArray 方法
 

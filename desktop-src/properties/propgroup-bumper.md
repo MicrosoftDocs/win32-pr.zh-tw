@@ -1,15 +1,15 @@
 ---
-description: .
+description: PropGroup
 ms.assetid: 2caad1ee-5944-46ec-904a-32631b8afd0f
 title: PropGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13ddf00d5a5f3600b92c39aa607829a19081cc13
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bb4a73907755fa915a0c2edfda842076b7c8f28
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318892"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104946"
 ---
 # <a name="propgroup"></a>PropGroup
 

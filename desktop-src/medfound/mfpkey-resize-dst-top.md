@@ -1,15 +1,15 @@
 ---
-description: 指定目的地矩形的上邊緣（以圖元為單位）。
+description: MFPKEY_RESIZE_DST_TOP 屬性-指定目的地矩形的上邊緣（以圖元為單位）。
 ms.assetid: 66147460-b8c2-4d80-9a87-a2eeeea66cfa
 title: 'MFPKEY_RESIZE_DST_TOP 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb12804b5b19c362c6355625af3cab1844c4b31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb4887dd0f7996dca973c690752bbdb8f8716927
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192239"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092896"
 ---
 # <a name="mfpkey_resize_dst_top-property"></a>MFPKEY \_ 調整 \_ DST \_ 頂端屬性的大小
 

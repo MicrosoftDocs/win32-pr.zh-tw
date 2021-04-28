@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_FcSwitchPort 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 42b9b67d-ee64-4c78-860c-9af61f780ff8
 title: Msvm_FcSwitchPort 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d99c4a76a47d59fbd7a7eff4f1be49e90ecd30ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74ef1d921cac8d6dc5b5ac1db84c343f0ff4bd06
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991762"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118996"
 ---
 # <a name="requeststatechange-method-of-the-msvm_fcswitchport-class"></a>Msvm FcSwitchPort 類別的 RequestStateChange 方法 \_
 

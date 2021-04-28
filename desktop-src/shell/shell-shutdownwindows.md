@@ -1,5 +1,5 @@
 ---
-description: 顯示關機 Windows] 對話方塊。 這與按一下 [[開始] 功能表]，然後選取 [關機] 相同。
+description: ShutdownWindows 方法-顯示關機 Windows] 對話方塊。 這與按一下 [[開始] 功能表]，然後選取 [關機] 相同。
 ms.assetid: 6fa8e2e0-a58f-4837-89f5-898cece2d80a
 title: 'ShutdownWindows 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 804a1e211e191206d20f83d85dee2202492bfd27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a3c0746caccb360f6f7f0156b72a57ed0a2d2b8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193342"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083666"
 ---
 # <a name="shellshutdownwindows-method"></a>ShutdownWindows 方法
 

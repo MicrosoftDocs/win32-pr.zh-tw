@@ -1,5 +1,5 @@
 ---
-description: 變更物件路徑中所指定邏輯目錄專案檔的安全性許可權。
+description: Win32_Directory 類別的 ChangeSecurityPermissions 方法-變更物件路徑中指定之邏輯目錄專案檔的安全性許可權。
 ms.assetid: de2b3269-61e0-484c-8bea-00578422491f
 ms.tgt_platform: multiple
 title: Win32_Directory 類別的 ChangeSecurityPermissions 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d5f7b82f37fcbf7aeab541351752f8f6a75816f3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 98c6026497496ab758c71a8a0403557ad2cacc7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104467981"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091056"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_directory-class"></a>Win32 目錄類別的 ChangeSecurityPermissions 方法 \_
 

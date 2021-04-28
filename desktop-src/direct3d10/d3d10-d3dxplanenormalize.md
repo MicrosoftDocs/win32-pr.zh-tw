@@ -1,5 +1,5 @@
 ---
-description: 正規化平面係數，讓平面法線具有單位長度。
+description: D3DXPlaneNormalize 函式 (D3DX10Math) -正規化平面係數，讓平面法線具有單位長度。
 ms.assetid: 52ae36a7-e37b-457a-9832-e62900a85bde
 title: 'D3DXPlaneNormalize 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 44d5e9d810653b2cdae233dec803383c74563d08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8b3499297a008b0d8f5dc705080bbd1d5bbe3af4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992743"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103306"
 ---
 # <a name="d3dxplanenormalize-function-d3dx10mathh"></a>D3DXPlaneNormalize 函式 (D3DX10Math) 
 

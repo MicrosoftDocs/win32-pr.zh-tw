@@ -1,5 +1,5 @@
 ---
-description: Stop 方法會停止目前的捕捉。
+description: IESP：： Stop 方法-Stop 方法會停止目前的捕捉。
 ms.assetid: d2d4e51a-c6a4-4aec-a805-929af621ffb3
 title: 'IESP：： Stop 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 50dfb274e1355af93c473609f95607e6b3faf1fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac262d8da5ab218db7300ea38da59d5c738421c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991684"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103766"
 ---
 # <a name="iespstop-method"></a>IESP：： Stop 方法
 

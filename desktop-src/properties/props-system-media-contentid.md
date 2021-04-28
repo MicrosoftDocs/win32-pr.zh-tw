@@ -1,15 +1,15 @@
 ---
-description: .
+description: ContentID
 ms.assetid: 8ac9047d-5995-4492-aa4f-4a56a947191e
 title: ContentID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fdfd0b1fb444ec5f1cc74560c3fba98660e3b25
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3ba7b15cdbf7ef0a8943f11a076d576bfde4c2a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981232"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092186"
 ---
 # <a name="systemmediacontentid"></a>ContentID
 

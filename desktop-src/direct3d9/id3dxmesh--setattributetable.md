@@ -1,5 +1,5 @@
 ---
-description: 設定網格的屬性工作表和儲存在資料表中的專案數目。
+description: ID3DXMesh：： SetAttributeTable 方法：設定網格的屬性資料表和儲存在資料表中的專案數目。
 ms.assetid: 22d46708-cffd-48da-bdad-8a43f9076356
 title: 'ID3DXMesh：： SetAttributeTable 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 17ae3458bffd05114415a92538a8ce8ef2cc847e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4cdb503e934ca00b41482601b59266eee750365
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986730"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093346"
 ---
 # <a name="id3dxmeshsetattributetable-method"></a>ID3DXMesh：： SetAttributeTable 方法
 

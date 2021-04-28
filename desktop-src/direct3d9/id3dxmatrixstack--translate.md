@@ -1,5 +1,5 @@
 ---
-description: 決定目前矩陣的乘積，以及由給定因素 (x、y 和 z) 所決定的計算轉譯矩陣。
+description: ID3DXMATRIXStack：：：：轉譯方法 (D3dx9math) -決定目前矩陣的乘積，以及由指定因數 (x、y 和 z) 所決定的計算轉譯矩陣。
 ms.assetid: e0ac72a2-9970-433e-9026-aa79edc8261c
 title: 'ID3DXMATRIXStack：：轉譯方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 228b4302a512e96d5c009edcb3f0b673ee61e047
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7fadad95e8e72691a0e030ed89eedc745de2be43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999056"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093336"
 ---
 # <a name="id3dxmatrixstacktranslate-method-d3dx9mathh"></a>ID3DXMATRIXStack：：轉譯方法 (D3dx9math .h) 
 

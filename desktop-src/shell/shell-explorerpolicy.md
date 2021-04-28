@@ -1,5 +1,5 @@
 ---
-description: 取得指定之 Windows Internet Explorer 原則的值。
+description: ExplorerPolicy 方法-取得指定之 Windows Internet Explorer 原則的值。
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: 'ExplorerPolicy 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: fea5192990b8c19c8ddfe8ffad6efe21b98625c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 765e1dc46edbe5a27292c5d8ff940e29b269f8dc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973804"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083696"
 ---
 # <a name="shellexplorerpolicy-method"></a>ExplorerPolicy 方法
 
@@ -62,13 +62,13 @@ Shell.ExplorerPolicy( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
 與指定的原則名稱相關聯的值。
 
 ### <a name="vb"></a>VB
 
-類型： _*Variant \**_
+類型： **Variant \***
 
 與指定的原則名稱相關聯的值。
 
@@ -76,7 +76,7 @@ Shell.ExplorerPolicy( _
 
 網路系統管理員可以藉由設定原則來控制和管理其使用者的計算環境。
 
-指定的值名稱必須在 _ *HKEY \_ CURRENT \_ USER **\\** Software **\\** Microsoft **\\** Windows **\\** CurrentVersion **\\** 原則 **\\** Explorer** 子機碼內。 如果值名稱不存在，則方法會傳回 **null**。
+指定的值名稱必須在 **HKEY \_ CURRENT \_ USER** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **原則** \\ **Explorer** 子機碼內。 如果值名稱不存在，則方法會傳回 **null**。
 
 ## <a name="examples"></a>範例
 

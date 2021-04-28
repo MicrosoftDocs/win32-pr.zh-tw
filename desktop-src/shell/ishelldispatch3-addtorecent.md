@@ -1,5 +1,5 @@
 ---
-description: 將檔案加入最近使用的 (MRU) 清單中。
+description: IShellDispatch3. AddToRecent 方法-將檔案新增至最近使用的 (MRU) 清單中。
 ms.assetid: aa5aef31-7f3f-4cc4-949d-1484de243ef3
 title: 'IShellDispatch3. AddToRecent 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3f52e6b90b7be078cc8177e9c3fe3093ba5c681e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d31d05e9eef889d9018e4806cf4c882dba3060e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691212"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116926"
 ---
 # <a name="ishelldispatch3addtorecent-method"></a>IShellDispatch3. AddToRecent 方法
 

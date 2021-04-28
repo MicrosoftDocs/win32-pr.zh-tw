@@ -1,5 +1,5 @@
 ---
-description: 建立網格的 UV 塔。
+description: D3DXUVAtlasPartition 函式-建立網格的 UV 塔。
 ms.assetid: c46f3e47-8e72-435c-875d-cccfa4b893a2
 title: 'D3DXUVAtlasPartition 函式 (D3DX9Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 707a503832a4fd66ab2e8d9346587d11544a885c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 63df6bbcc1b811b9617796bc6e7e51af2dfdca56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988180"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117796"
 ---
 # <a name="d3dxuvatlaspartition-function"></a>D3DXUVAtlasPartition 函式
 

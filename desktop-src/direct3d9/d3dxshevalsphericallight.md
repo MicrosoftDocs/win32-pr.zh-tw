@@ -1,5 +1,5 @@
 ---
-description: 評估球面燈，並傳回光譜的球面調和 (SH) 資料。
+description: D3DXSHEvalSphericalLight 函式 (D3dx9math) -評估球面燈，並傳回光譜的球面調和 (SH) 資料。
 ms.assetid: aa46c162-9c2d-49c0-925c-d0c06456f918
 title: 'D3DXSHEvalSphericalLight 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8581b4284e270b6df587be1a71fcf11f29c843d4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db671d58806d999e07b1aac1e8e4da2fb38acc6f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322824"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117886"
 ---
 # <a name="d3dxshevalsphericallight-function-d3dx9mathh"></a>D3DXSHEvalSphericalLight 函式 (D3dx9math) 
 

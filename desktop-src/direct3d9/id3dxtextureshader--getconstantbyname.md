@@ -1,5 +1,5 @@
 ---
-description: 藉由查詢名稱來取得常數。
+description: ID3DXTextureShader：： GetConstantByName 方法-藉由查詢名稱來取得常數。
 ms.assetid: 0c57f6ce-ea81-4b34-9251-c385bfe6ebe7
 title: 'ID3DXTextureShader：： GetConstantByName 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a285da2fa3179f91d34eda8d9ce1f622c86df15b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 825aca3f3227a340952092985f4730018fe316e5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992739"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117656"
 ---
 # <a name="id3dxtextureshadergetconstantbyname-method"></a>ID3DXTextureShader：： GetConstantByName 方法
 

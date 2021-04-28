@@ -1,5 +1,5 @@
 ---
-description: 將球形調和 (SH) 向量旋轉指定角度的 Z 軸。
+description: D3DXSHRotateZ 函式 (D3dx9math) -將球形調和 (SH) 向量在 Z 軸中的指定角度旋轉。
 ms.assetid: 1f471183-4c8e-4fa8-9a42-f6cc2bb1b0f2
 title: 'D3DXSHRotateZ 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ac13cff212aaabdd8a9586b88e3152779bcfaf85
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ed7db57dc3acedd1e65edab7377b525940ea10e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386453"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117846"
 ---
 # <a name="d3dxshrotatez-function-d3dx9mathh"></a>D3DXSHRotateZ 函式 (D3dx9math) 
 

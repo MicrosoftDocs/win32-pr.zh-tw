@@ -1,15 +1,15 @@
 ---
 title: 撰寫視窗程式
-description: .
+description: 撰寫視窗程式
 ms.assetid: f022bb88-6e4c-4ec4-9eef-f125ad92167e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f11b22ba5dd0653905ca4e2bdb546d106183fc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 832aba88211a7decf20c233f5d9ab4fbeb1b1c27
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966449"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105716"
 ---
 # <a name="writing-the-window-procedure"></a>撰寫視窗程式
 

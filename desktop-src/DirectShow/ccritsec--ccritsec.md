@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CCritSec. ~ CCritSec 的函式-函式方法。
 ms.assetid: cade850c-391c-41dc-adfe-56de8b2bbfff
 title: 'CCritSec. ~ CCritSec (Wxutil 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21029e2d53fd03ded2be4faa98e8b3e27681600c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f282bfe6ea6bca8cb8553572c18cfbc85db6c77
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983136"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095806"
 ---
 # <a name="ccritsecccritsec-destructor"></a>CCritSec. ~ CCritSec 的函式
 

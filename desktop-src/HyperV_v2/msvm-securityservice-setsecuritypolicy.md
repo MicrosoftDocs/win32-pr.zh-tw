@@ -1,5 +1,5 @@
 ---
-description: 設定虛擬系統的金鑰保護裝置。
+description: Msvm_SecurityService 類別的 SetSecurityPolicy 方法：設定虛擬系統的金鑰保護裝置。
 ms.assetid: 22496fde-6298-4e9d-bd0c-135dcb4ea5a5
 title: Msvm_SecurityService 類別的 SetSecurityPolicy 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 35954f27d1184b714091058a35f32a6347d4ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31b03ee8a941b0715b85f6a749c4ba59ade032f7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514248"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118726"
 ---
 # <a name="setsecuritypolicy-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 SetSecurityPolicy 方法 \_
 

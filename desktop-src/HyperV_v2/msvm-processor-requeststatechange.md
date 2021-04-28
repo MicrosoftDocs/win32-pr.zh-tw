@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_Processor 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 6885b282-f1f6-40fe-ab28-b1c0dc061777
 title: Msvm_Processor 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ea1cedc77d7b4fd072e25e4c824e5f9493e7b157
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 231c9c250bb1fbf2025c3c1d5bae70df70ed47d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981599"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118826"
 ---
 # <a name="requeststatechange-method-of-the-msvm_processor-class"></a>Msvm Processor 類別的 RequestStateChange 方法 \_
 

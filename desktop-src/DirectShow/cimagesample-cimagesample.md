@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CImageSample。 CImageSample 函式-函數方法。
 ms.assetid: d7550c38-d728-41b2-80a6-20728abf6012
 title: 'CImageSample. CImageSample (Winutil. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 805be59cfc899b6461fa8c761eebb5821118640f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ecab52e347e03b698adccb79b77da879d26612b4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998379"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095606"
 ---
 # <a name="cimagesamplecimagesample-constructor"></a>CImageSample. CImageSample 函數
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.object
 ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4f54a7e90931c11e4deec52468dd5689be39765
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb29e6242dcdc97fe3b814a6fa571551f77e4765
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989372"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117406"
 ---
 # <a name="systemmusicgenre"></a>System.object
 

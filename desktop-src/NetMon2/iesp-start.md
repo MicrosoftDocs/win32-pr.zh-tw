@@ -1,5 +1,5 @@
 ---
-description: Start 方法會啟動 capture。
+description: IESP：： Start 方法-Start 方法會啟動 capture。
 ms.assetid: 8bf8c0c7-20be-4404-8ea5-b28b4c658523
 title: 'IESP：： Start 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 2d9fc3a75fc82964f6fc5a5660ef77414ae065d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983574"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103796"
 ---
 # <a name="iespstart-method"></a>IESP：： Start 方法
 

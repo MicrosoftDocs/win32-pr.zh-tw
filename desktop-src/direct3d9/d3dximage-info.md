@@ -1,5 +1,5 @@
 ---
-description: 傳回影像檔案原始內容的描述。
+description: D3DXIMAGE_INFO 結構-傳回影像檔案原始內容的描述。
 ms.assetid: d6cbd5b7-642e-43ce-a2ed-11a400c5bdc1
 title: 'D3DXIMAGE_INFO 結構 (D3dx9tex .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9tex.h
-ms.openlocfilehash: 6ec152dc56dcea3a718cf5cd42fb351d4fddf852
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: be70cc88645e0aac6734907c6a97f2d4bb104c99
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696635"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090536"
 ---
 # <a name="d3dximage_info-structure"></a>D3DXIMAGE \_ 資訊結構
 

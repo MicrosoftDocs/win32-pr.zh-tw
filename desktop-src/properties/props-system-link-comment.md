@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統連結。批註
 ms.assetid: 96bf4971-a19c-4284-abb8-ad843af32c6e
 title: 系統連結。批註
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0893e21ba326ca483ace6a660eb65b299a371fc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f75d64c0452b2dccf888d21df1e94165248bb0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849056"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092496"
 ---
 # <a name="systemlinkcomment"></a>系統連結。批註
 

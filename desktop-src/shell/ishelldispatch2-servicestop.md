@@ -1,5 +1,5 @@
 ---
-description: 停止已命名的服務。
+description: IShellDispatch2. ServiceStop 方法-停止命名服務。
 ms.assetid: f4cd0e2c-4ecc-4e9f-a0b5-d2a8a739f0e2
 title: 'IShellDispatch2. ServiceStop 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 6a4a76c1f53309c14875eeaf6f3f4c0839a511bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 651138eb687cfd83406bc6e1a7fcf520ff001171
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972381"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117026"
 ---
 # <a name="ishelldispatch2servicestop-method"></a>IShellDispatch2. ServiceStop 方法
 
@@ -73,15 +73,15 @@ IShellDispatch2.ServiceStop( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

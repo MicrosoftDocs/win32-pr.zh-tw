@@ -1,6 +1,6 @@
 ---
 title: Win32_TerminalServiceSetting 類別的 SetDisableForcibleLogoff 方法
-description: 不支援這個方法。
+description: Win32_TerminalServiceSetting 類別的 SetDisableForcibleLogoff 方法-不支援這個方法。
 ms.assetid: 1b7ac0f2-c242-4ca8-bc4d-8111e63851eb
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d4ae62db188d0e3aa31ffd8e3993e793e9bb2bf3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a4be6ace10853ec282f5ab17b1f5f5921ef2c0d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465100"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103706"
 ---
 # <a name="setdisableforciblelogoff-method-of-the-win32_terminalservicesetting-class"></a>Win32 TerminalServiceSetting 類別的 SetDisableForcibleLogoff 方法 \_
 

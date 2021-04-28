@@ -1,5 +1,5 @@
 ---
-description: 計算指數。
+description: D3DXQuaternionExp 函數 (D3DX10Math) -計算指數。
 ms.assetid: bd70c432-ac61-4c38-b10b-3b103e49ead8
 title: 'D3DXQuaternionExp 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d00292cc073679e3e90c2470630ba1851d0d3cd8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7c022b9df4302683a184b4fc8329561b22d341d5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103216"
 ---
 # <a name="d3dxquaternionexp-function-d3dx10mathh"></a>D3DXQuaternionExp 函式 (D3DX10Math) 
 

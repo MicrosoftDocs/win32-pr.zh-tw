@@ -1,5 +1,5 @@
 ---
-description: 有問題之元件的元件代碼。
+description: ComponentInfo. ComponentCode 屬性-有問題之元件的元件代碼。
 ms.assetid: 3ee4dcc0-1207-4d01-853a-d46c2638e7fd
 title: ComponentInfo. ComponentCode 屬性
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 277a6403312a5f07a6cc622259e4b9899dab5e7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0a73602e30da1e2aebdf09bc18eaa1515be1470
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989813"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084386"
 ---
 # <a name="componentinfocomponentcode-property"></a>ComponentInfo. ComponentCode 屬性
 

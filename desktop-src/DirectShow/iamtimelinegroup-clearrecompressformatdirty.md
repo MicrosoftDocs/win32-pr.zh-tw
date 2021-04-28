@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineGroup：： ClearRecompressFormatDirty 方法-不支援。
 ms.assetid: 43f422ff-d46f-403a-a343-7cd247129159
 title: 'IAMTimelineGroup：： ClearRecompressFormatDirty 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 62b2d6eb55995bd4e82d3ba9e9cfc1eb0289070e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b0ee5499bd86094c91a3a8bacc6d25b67e027cc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978522"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119536"
 ---
 # <a name="iamtimelinegroupclearrecompressformatdirty-method"></a>IAMTimelineGroup：： ClearRecompressFormatDirty 方法
 

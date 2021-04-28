@@ -1,5 +1,5 @@
 ---
-description: 取得每秒發生的動畫主要畫面格刻度數目。
+description: ID3DXKeyframedAnimationSet：： GetSourceTicksPerSecond 方法-取得每秒發生的動畫主要畫面格刻度數目。
 ms.assetid: b3e8d399-f1a7-4bc6-a35c-373b686aa24a
 title: 'ID3DXKeyframedAnimationSet：： GetSourceTicksPerSecond 方法 (D3dx9anim .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3dba26b20f8e405c25a5cc5a659896ae8a49c683
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d28837ed2abbab5846c8a5609ab7ff59ac0d49c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988618"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093696"
 ---
 # <a name="id3dxkeyframedanimationsetgetsourcetickspersecond-method"></a>ID3DXKeyframedAnimationSet：： GetSourceTicksPerSecond 方法
 

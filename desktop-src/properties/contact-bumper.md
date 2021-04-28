@@ -1,15 +1,15 @@
 ---
-description: .
+description: Contact
 ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322d189d865c5b444a923c4491ea7a56263cc5a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d170b94a8a1b6a33345ff06eb051740e179aaca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105086"
 ---
 # <a name="contact"></a>Contact
 

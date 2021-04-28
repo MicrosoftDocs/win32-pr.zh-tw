@@ -1,5 +1,5 @@
 ---
-description: 建立網格的 UV 塔。
+description: D3DXUVAtlasCreate 函式-建立網格的 UV 塔。
 ms.assetid: 70256990-b177-451e-b42a-84799fdc2a17
 title: 'D3DXUVAtlasCreate 函式 (D3DX9Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 814f213b0195b0922270d0548d8b5fd4c48fb3e3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f382e7d59f3a5b5db8ba3cfd65ba6cc1a11e86d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997380"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117826"
 ---
 # <a name="d3dxuvatlascreate-function"></a>D3DXUVAtlasCreate 函式
 

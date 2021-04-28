@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_SCSIProtocolController 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 464f3c85-55c7-4a43-ab78-bfe140a21fc4
 title: Msvm_SCSIProtocolController 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fdf1b4226568d0c61532e8a8b4e8a768e447cb55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd8f5be7b8c3e61f18763061a81eb36164b34633
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195603"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118746"
 ---
 # <a name="requeststatechange-method-of-the-msvm_scsiprotocolcontroller-class"></a>Msvm SCSIProtocolController 類別的 RequestStateChange 方法 \_
 

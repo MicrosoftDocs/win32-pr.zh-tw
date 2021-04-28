@@ -1,5 +1,5 @@
 ---
-description: 啟用及停用計量收集。
+description: CIM_MetricService 類別的 ControlMetrics 方法：啟用和停用度量集合。
 ms.assetid: afb90863-e70a-46e5-b1b7-d959dcacc306
 title: CIM_MetricService 類別的 ControlMetrics 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 60a7d0b34227594cf7146a988aa7e0d232f2d6cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19e732e50f8c367463e7f528a520a736117999b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192993"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090866"
 ---
 # <a name="controlmetrics-method-of-the-cim_metricservice-class"></a>CIM MetricService 類別的 ControlMetrics 方法 \_
 

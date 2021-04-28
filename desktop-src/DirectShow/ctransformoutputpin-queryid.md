@@ -1,5 +1,5 @@
 ---
-description: QueryId 方法會抓取 pin 的識別碼。 這個方法會實 IPin：： QueryId 方法。
+description: CTransformOutputPin. QueryId 方法-QueryId 方法會抓取 pin 的識別碼。 這個方法會實 IPin：： QueryId 方法。
 ms.assetid: 3d83db3a-b919-454d-a91a-91f33a952a22
 title: 'CTransformOutputPin. QueryId 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3e8e5fbc4b4da7b38853df5b4dcf3580a8c198d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d4c2d222ca4dd184adfe41f9f610b10f15ee9f02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979496"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094846"
 ---
 # <a name="ctransformoutputpinqueryid-method"></a>CTransformOutputPin. QueryId 方法
 

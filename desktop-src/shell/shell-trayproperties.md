@@ -1,5 +1,5 @@
 ---
-description: 顯示 [工作列] 和 [開始功能表屬性] 對話方塊。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [屬性] 相同。
+description: TrayProperties 方法-顯示 [工作列] 和 [開始功能表屬性] 對話方塊。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [屬性] 相同。
 ms.assetid: 0d82d847-9e6f-461e-b938-fe8fd49a636f
 title: 'TrayProperties 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: da3fbfdb2b6aa2517b275041856920c6b2cd1bb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e09f6833fbf07c99fdbce9c02b020bcbb5361408
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973673"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104096"
 ---
 # <a name="shelltrayproperties-method"></a>TrayProperties 方法
 

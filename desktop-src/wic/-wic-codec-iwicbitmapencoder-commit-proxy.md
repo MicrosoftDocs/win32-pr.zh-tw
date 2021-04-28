@@ -1,5 +1,5 @@
 ---
-description: Commit 方法的 Proxy 函數。
+description: Commit 方法的 IWICBitmapEncoder_Commit_Proxy 函數 Proxy 函式。
 ms.assetid: f7f1be43-fe44-47eb-a5ba-3446c0db22a6
 title: IWICBitmapEncoder_Commit_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: c0cd3cfbe5e1c80d82cd90303d26f2da33cf467d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 934b2e21097a671c2b52ea77ab07caf25ab521a3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091186"
 ---
 # <a name="iwicbitmapencoder_commit_proxy-function"></a>IWICBitmapEncoder \_ Commit \_ Proxy 函式
 
@@ -43,9 +43,9 @@ HRESULT IWICBitmapEncoder_Commit_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+類型： **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-這個 [_ *IWICBitmapEncoder* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)物件的指標。
+這個 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) 物件的指標。
 
 </dd> </dl>
 

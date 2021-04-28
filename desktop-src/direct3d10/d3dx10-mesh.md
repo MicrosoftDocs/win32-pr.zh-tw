@@ -1,5 +1,5 @@
 ---
-description: 用來指定網格之建立選項的旗標。
+description: D3DX10_MESH 列舉旗標，用來指定網格的建立選項。
 ms.assetid: 1a5a6b3f-34f4-4338-9ffe-8f95f6f0c385
 title: 'D3DX10_MESH 列舉 (D3DX10Mesh .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Mesh.h
-ms.openlocfilehash: c2387024512a42c0a9e06ac1818b0282121cd0eb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2659783b0443396508465f9498eec86950f825bc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982225"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105436"
 ---
 # <a name="d3dx10_mesh-enumeration"></a>D3DX10 \_ 網格列舉
 

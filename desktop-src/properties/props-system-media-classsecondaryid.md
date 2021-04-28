@@ -1,15 +1,15 @@
 ---
-description: .
+description: ClassSecondaryID
 ms.assetid: 79c197b5-a551-4e17-ab92-6eac99da4647
 title: ClassSecondaryID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 916ba3dadcaa51fa495b869d9ead5dda2079027b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cc36518a9069ffb3d704f809340e2b7e8fd71e96
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986443"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092296"
 ---
 # <a name="systemmediaclasssecondaryid"></a>ClassSecondaryID
 

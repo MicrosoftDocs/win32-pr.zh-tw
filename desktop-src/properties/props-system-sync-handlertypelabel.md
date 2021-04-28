@@ -1,15 +1,15 @@
 ---
-description: .
+description: HandlerTypeLabel
 ms.assetid: eb793620-f9ef-4d9e-af10-b7b1c638cd6c
 title: HandlerTypeLabel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcf88a9321c3884ce69249dc617c793ee78548b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 747c13e160167a99ce9c7de7f9a18e62b4a91bf2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987753"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091446"
 ---
 # <a name="systemsynchandlertypelabel"></a>HandlerTypeLabel
 

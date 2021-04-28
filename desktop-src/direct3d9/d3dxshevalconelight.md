@@ -1,5 +1,5 @@
 ---
-description: 評估屬於常數濃度的光線，並傳回光譜的球面調和 (SH) 資料。
+description: D3DXSHEvalConeLight 函式 (D3dx9math) -評估的光線是固定強度的錐形，並傳回光譜的球面調和 (SH) 資料。
 ms.assetid: 13088e3b-76ae-43ef-886e-686f1f18a31d
 title: 'D3DXSHEvalConeLight 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 2400fe0430e008ea1b704ee4daef51eeee7bd7a9
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 31c90e705a0bb4e82813fff42673e143c5acf171
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104568685"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117946"
 ---
 # <a name="d3dxshevalconelight-function-d3dx9mathh"></a>D3DXSHEvalConeLight 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: CheckConnect 方法會判斷是否適合使用 pin 連接。
+description: CTransformInputPin. CheckConnect 方法-CheckConnect 方法會判斷是否適合使用 pin 連接。
 ms.assetid: b8ace40d-31f5-49b0-a4cd-6ece0f883d96
 title: 'CTransformInputPin. CheckConnect 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e10c174a4e295576cfa9ce902faeac889f5a6a9b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e981254677c2e0a361a0a21f125f734ff1403db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985769"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095086"
 ---
 # <a name="ctransforminputpincheckconnect-method"></a>CTransformInputPin. CheckConnect 方法
 

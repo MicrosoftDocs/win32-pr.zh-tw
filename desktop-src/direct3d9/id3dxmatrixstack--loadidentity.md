@@ -1,5 +1,5 @@
 ---
-description: 在目前的矩陣中載入識別。
+description: ID3DXMATRIXStack：： LoadIdentity 方法 (D3dx9math .h) -在目前的矩陣中載入身分識別。
 ms.assetid: e314a51f-4016-4819-a95d-d91864a54b2e
 title: 'ID3DXMATRIXStack：： LoadIdentity 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e7ebc7b61679dc3938c2a57aa2346a45b136e5a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 663559db0746b9d689066e537c1473f467341cbc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981995"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093556"
 ---
 # <a name="id3dxmatrixstackloadidentity-method-d3dx9mathh"></a>ID3DXMATRIXStack：： LoadIdentity 方法 (D3dx9math .h) 
 

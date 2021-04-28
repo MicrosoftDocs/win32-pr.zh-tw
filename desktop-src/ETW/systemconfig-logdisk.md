@@ -1,5 +1,5 @@
 ---
-description: 此類別是邏輯磁片設定事件的事件種類類別。
+description: SystemConfig_LogDisk 類別-此類別是邏輯磁片設定事件的事件種類類別。
 ms.assetid: a11a8245-8ace-4061-b6c7-938002d8b9fc
 title: SystemConfig_LogDisk 類別
 ms.topic: reference
@@ -28,12 +28,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: d3bff1cf526dfb7bf1ddd36fcb887e8a4b837be4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d7ca8dc3f632e88c250715292a27e18ff36e3af
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972165"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106106"
 ---
 # <a name="systemconfig_logdisk-class"></a>SystemConfig \_ LogDisk 類別
 

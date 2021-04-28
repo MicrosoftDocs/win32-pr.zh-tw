@@ -1,5 +1,5 @@
 ---
-description: 使用中的方法會通知釘選篩選現在為使用中狀態。
+description: CBasePin 方法-使用中的方法會通知釘選篩選現在為使用中狀態。
 ms.assetid: 1054f8cf-a5fb-4de6-abf2-c3740ce47787
 title: 'CBasePin 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4a89c0c75671e6eb29b6ddb260c5f5ec0c385399
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8ccee76dbf89cf82abcd8d4758305ddec91f1afa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096105"
 ---
 # <a name="cbasepinactive-method"></a>CBasePin 方法
 

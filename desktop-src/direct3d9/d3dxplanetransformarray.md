@@ -1,5 +1,5 @@
 ---
-description: 依據矩陣轉換平面的陣列。 描述每個平面的向量必須正規化。
+description: D3DXPlaneTransformArray 函式 (D3dx9math) -依據矩陣轉換平面陣列。 描述每個平面的向量必須正規化。
 ms.assetid: e82e830b-efbb-4bdc-b370-7bfa4326a669
 title: 'D3DXPlaneTransformArray 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a9a213b17aca9999ef0028fdceb4bb4321d47660
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bdbc845eda69d22f6e7097131f71b074a9b53985
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094126"
 ---
 # <a name="d3dxplanetransformarray-function-d3dx9mathh"></a>D3DXPlaneTransformArray 函式 (D3dx9math) 
 

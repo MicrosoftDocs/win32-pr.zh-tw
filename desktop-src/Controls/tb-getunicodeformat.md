@@ -1,6 +1,6 @@
 ---
 title: 'TB_GETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 抓取控制項的 Unicode 字元格式旗標。
+description: TB_GETUNICODEFORMAT 訊息-抓取控制項的 Unicode 字元格式旗標。
 ms.assetid: aadce646-daf1-4f1e-9171-2aeac12d3484
 keywords:
 - TB_GETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a44b1f65647953702deae5bee6cdd9acc8186e3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4beb5a5ff0b71dd76c85db2788d9dc91aa9f4957
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106786"
 ---
 # <a name="tb_getunicodeformat-message"></a>TB \_ GETUNICODEFORMAT 訊息
 

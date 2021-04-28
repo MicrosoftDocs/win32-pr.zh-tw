@@ -1,15 +1,15 @@
 ---
 title: COM 中的記憶體配置
-description: .
+description: COM 中的記憶體配置
 ms.assetid: b3c318d2-1273-430e-8aca-5bd5c95c138e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62227f78287f184b019eee3e498ec8a25f25a03c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 82cb9913da55fab82f699ac05dae3998f7582224
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103886"
 ---
 # <a name="memory-allocation-in-com"></a>COM 中的記憶體配置
 
@@ -43,6 +43,6 @@ if (SUCCEEDED(hr))
 
 [COM 編碼作法](com-coding-practices.md)
 
- 
+ 
 
- 
+ 

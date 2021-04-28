@@ -1,15 +1,15 @@
 ---
-description: .
+description: 開始使用 DirectX 圖形
 ms.assetid: 49E0D0C2-E6EC-4849-A44F-36FDEFBB9838
 title: 開始使用 DirectX 圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5278e759ea0faf04ac8b247ad3ea1c687dd205c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7c5e8cca9f0cea4c1c5e484ba330c7c108cad40
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026834"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117586"
 ---
 # <a name="getting-started-with-directx-graphics"></a>開始使用 DirectX 圖形
 

@@ -1,5 +1,5 @@
 ---
-description: 將32位浮點數的陣列轉換成16位浮點數。
+description: D3DXFloat32To16Array 函式 (D3DX10Math) -將32位浮點數的陣列轉換成16位浮點數。
 ms.assetid: 2114cf25-cc83-4c4a-9db5-ecc0f8ff1e85
 title: 'D3DXFloat32To16Array 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a4c116212be0ffa71ee35939d0a30a40cbb773b3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 600cc2cd333aaea08b38c252c206c1a74c1ca059
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974882"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103516"
 ---
 # <a name="d3dxfloat32to16array-function-d3dx10mathh"></a>D3DXFloat32To16Array 函式 (D3DX10Math) 
 

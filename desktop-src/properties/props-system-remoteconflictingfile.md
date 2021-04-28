@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. RemoteConflictingFile
 ms.assetid: fc656149-15b7-4460-a572-a83cccf7d14f
 title: System. RemoteConflictingFile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfa9bf50404a020d3594009e6327f8497101e00d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bb941d6019aafdfd8727ef542185e384961bd26
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993102"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091576"
 ---
 # <a name="systemremoteconflictingfile"></a>System. RemoteConflictingFile
 

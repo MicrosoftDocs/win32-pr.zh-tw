@@ -1,5 +1,5 @@
 ---
-description: 將陣列 (x、y、z、1) 由指定的矩陣轉換，然後將結果投射回 w = 1。
+description: D3DXVec3TransformCoordArray 函式 (D3DX10Math) -轉換陣列 (x、y、z、1) 指定的矩陣，然後將結果投射回 w = 1。
 ms.assetid: 259a885d-89be-4fea-a579-dac3dd76878f
 title: 'D3DXVec3TransformCoordArray 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: b0b7ca3c2898e07dc8b5e9ced0117e642bfdfb41
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c4a1edfd89b127d0782d3bab23c2390775422c69
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946130"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103106"
 ---
 # <a name="d3dxvec3transformcoordarray-function-d3dx10mathh"></a>D3DXVec3TransformCoordArray 函式 (D3DX10Math) 
 

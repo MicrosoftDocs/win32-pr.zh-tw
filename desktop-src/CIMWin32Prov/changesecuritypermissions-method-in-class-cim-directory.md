@@ -1,5 +1,5 @@
 ---
-description: 變更物件路徑中所指定邏輯目錄專案檔的安全性許可權。
+description: CIM_Directory 類別的 ChangeSecurityPermissions 方法-變更物件路徑中指定之邏輯目錄專案檔的安全性許可權。
 ms.assetid: d3caeec1-fecc-4463-9349-d82869c11927
 ms.tgt_platform: multiple
 title: CIM_Directory 類別的 ChangeSecurityPermissions 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bf767dc45907a90354b2c00fb30c6b31ce6d09a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 389ed5b7b0a43981c5eeb3d66a73bd19cbd99d88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688991"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091066"
 ---
 # <a name="changesecuritypermissions-method-of-the-cim_directory-class"></a>CIM 目錄類別的 ChangeSecurityPermissions 方法 \_
 

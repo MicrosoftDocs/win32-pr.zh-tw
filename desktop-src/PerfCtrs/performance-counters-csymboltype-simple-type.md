@@ -1,5 +1,5 @@
 ---
-description: 定義有效的 C/c + + 符號名稱。
+description: CSymbolType 簡單類型 (效能計數器) -定義有效的 C/c + + 符號名稱。
 ms.assetid: 75f74a16-0be4-466b-a88d-247c8c94f4ce
 title: 'CSymbolType 簡單類型 (效能計數器) '
 ms.topic: reference
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 418b5119046a89d93814ed8ac8bd427dc554bf26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0771bb1dffc006abf8e02e6c391278f7d0b03f11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944250"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084226"
 ---
 # <a name="csymboltype-simple-type-performance-counters"></a>CSymbolType 簡單類型 (效能計數器) 
 

@@ -1,6 +1,6 @@
 ---
 title: 'WM_INITMENUPOPUP 訊息 (Winuser .h) '
-description: 當下拉功能表或子功能表即將變成作用中時傳送。 這可讓應用程式在功能表顯示前修改功能表，而不需要變更整個功能表。
+description: WM_INITMENUPOPUP 訊息-在下拉式功能表或子功能表即將變成作用中時傳送。 這可讓應用程式在功能表顯示前修改功能表，而不需要變更整個功能表。
 ms.assetid: 08ae1a78-5e68-488c-9b77-ee42044ca3ab
 keywords:
 - WM_INITMENUPOPUP 訊息功能表和其他資源
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e02bf0f9b8e196c27990cc1bc839daed4c92f8c6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024812"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092516"
 ---
 # <a name="wm_initmenupopup-message"></a>WM \_ INITMENUPOPUP 訊息
 

@@ -1,5 +1,5 @@
 ---
-description: 這個類別是登錄事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: Registry_V1 類別-這個類別是登錄事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 7ad92377-3fd7-47e0-b96e-bab530ea9d99
 title: Registry_V1 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 320a2bce9213228be4ff5c1880d884ee9622b68c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20ef88f5bd46af116b0c04e24a3c6edd39afbcdc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972277"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106146"
 ---
 # <a name="registry_v1-class"></a>登錄 \_ V1 類別
 

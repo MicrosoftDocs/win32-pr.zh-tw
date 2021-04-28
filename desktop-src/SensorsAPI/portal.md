@@ -1,15 +1,15 @@
 ---
-description: .
+description: 感應器 API
 ms.assetid: a6ea76e6-9721-453a-a657-96f53660e09d
 title: 感應器 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c4d6fd7805607afa80fcee27568004906a0a8e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a36259910fb7583c91b695f69066aa2abf9be1e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966695"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118406"
 ---
 # <a name="sensor-api"></a>感應器 API
 

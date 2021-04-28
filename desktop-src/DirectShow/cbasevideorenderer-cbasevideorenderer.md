@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseVideoRenderer。 CBaseVideoRenderer 函式-函數方法。
 ms.assetid: 9b69632b-7932-4a9b-bd68-69b06dd8a5ec
 title: 'CBaseVideoRenderer. CBaseVideoRenderer (Renbase. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27ed49be63d9c2c05e12a2ac92ae33f64705460b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0ae558238b94402150e5cb15373d202065e485e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990644"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095836"
 ---
 # <a name="cbasevideorenderercbasevideorenderer-constructor"></a>CBaseVideoRenderer. CBaseVideoRenderer 函數
 

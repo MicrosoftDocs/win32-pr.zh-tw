@@ -1,5 +1,5 @@
 ---
-description: 包含物件的應用程式物件。
+description: ShellFolderView：應用程式屬性-包含物件的應用程式物件。
 ms.assetid: 305766b1-a19f-4743-a9e3-6837b3f8ffe0
 title: 'ShellFolderView： Application 屬性 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ba57c407183179f580b5b616ad039c22e6fea66c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 95ef542f91235b3b068e1b1b54768b4dd453d9b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973588"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083466"
 ---
 # <a name="shellfolderviewapplication-property"></a>ShellFolderView。應用程式屬性
 

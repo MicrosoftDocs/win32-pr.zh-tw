@@ -1,6 +1,6 @@
 ---
 title: 'BN_DOUBLECLICKED (Winuser 的通知碼) '
-description: 當使用者按兩下按鈕時傳送。
+description: BN_DOUBLECLICKED 通知碼-當使用者按兩下按鈕時傳送。
 ms.assetid: 2fd7363a-5a02-453c-bfab-df5cbf8e42a5
 keywords:
 - BN_DOUBLECLICKED 通知碼 Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 018df4387b026d68e3f4e9a6c259fb19efd4a0f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 64a11a4dec91a7a2f1d200c4c86c6989d846604a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843300"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104186"
 ---
 # <a name="bn_doubleclicked-notification-code"></a>BN \_ DOUBLECLICKED 通知碼
 

@@ -1,6 +1,6 @@
 ---
 title: 'TBM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
+description: TBM_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: c50a49e8-6042-490d-bb7b-baf917d5c30a
 keywords:
 - TBM_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: adb64c8fcb3464067e9522695930f4f9d0771357
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f076efe2a575eff131c9bc2a1fe3df9ecab0fe68
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966297"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104036"
 ---
 # <a name="tbm_setunicodeformat-message"></a>TBM \_ SETUNICODEFORMAT 訊息
 

@@ -1,5 +1,5 @@
 ---
-description: 捕獲全域 Shell 設定。
+description: GetSetting 方法-抓取全域 Shell 設定。
 ms.assetid: 3E8C7C6A-5696-4756-B4BF-902FA2420AE9
 title: 'GetSetting 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: df87c0c99129a8ececa3c25321a192e25c71c07e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc8fe6277208808ad5f5b182f3eee416daf4a5d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849365"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083736"
 ---
 # <a name="shellgetsetting-method"></a>GetSetting 方法
 
@@ -348,15 +348,15 @@ Windows XP 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間
 
 ### <a name="jscript"></a>JScript
 
-Type： **VARIANT \_ BOOL \** _
+Type： **VARIANT \_ BOOL \***
 
-如果設定存在，則設定為 _ *true**。否則 **為 false**。
+如果設定存在，則設定為 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-Type： **VARIANT \_ BOOL \** _
+Type： **VARIANT \_ BOOL \***
 
-如果設定存在，則設定為 _ *true**。否則 **為 false**。
+如果設定存在，則設定為 **true** ;否則 **為 false**。
 
 ## <a name="examples"></a>範例
 

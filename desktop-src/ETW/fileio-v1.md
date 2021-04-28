@@ -1,5 +1,5 @@
 ---
-description: 這個類別是檔案 i/o 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: FileIo_V1 類別-這個類別是檔案 i/o 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: da64a02d-4bde-4ee9-81fa-8a67d53cd62e
 title: FileIo_V1 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 05ca1cc6d8e0f03116d1f9484a0392c837cd2b32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c40568425212231a547352ffdafb7baef46e412a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973720"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106536"
 ---
 # <a name="fileio_v1-class"></a>FileIo \_ V1 類別
 

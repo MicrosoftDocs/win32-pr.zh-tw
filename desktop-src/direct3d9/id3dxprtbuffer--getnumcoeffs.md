@@ -1,5 +1,5 @@
 ---
-description: 抓取記憶體中用來儲存範例的每個顏色通道的純量數目。
+description: ID3DXPRTBuffer：： GetNumCoeffs 方法-抓取記憶體中用來儲存範例的每個顏色通道的純量數目。
 ms.assetid: dc12f1fd-f50f-4738-b6b3-da3426e12d21
 title: 'ID3DXPRTBuffer：： GetNumCoeffs 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6c7fd1608d404fd402d7e62962d66d23520c3f34
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ef15a75180efcc8fdeabb61e58cba2c40a61e934
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000606"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093266"
 ---
 # <a name="id3dxprtbuffergetnumcoeffs-method"></a>ID3DXPRTBuffer：： GetNumCoeffs 方法
 

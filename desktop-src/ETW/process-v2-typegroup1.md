@@ -1,5 +1,5 @@
 ---
-description: 這個類別是處理事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: Process_V2_TypeGroup1 類別-這個類別是處理事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: ff5c1f64-2087-4238-81f9-6283f0f0e68a
 title: Process_V2_TypeGroup1 類別
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 01da5a8254627d6378c9f99aa2ba36dc6714e6ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: b587a07f33b066cfd7dbeebc44d7277b33c6bee8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973576"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106306"
 ---
 # <a name="process_v2_typegroup1-class"></a>進程 \_ V2 \_ TypeGroup1 類別
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV. IsDTVContent
 ms.assetid: 88acc4b8-4532-4d49-9dd1-8d6c248f2b3d
 title: RecordedTV. IsDTVContent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cb4d0025f5db5de2b0be39007c49b7d76a64e49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31adbfdd6780adf38e717d0c28981076aea6c30b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974419"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091686"
 ---
 # <a name="systemrecordedtvisdtvcontent"></a>RecordedTV. IsDTVContent
 

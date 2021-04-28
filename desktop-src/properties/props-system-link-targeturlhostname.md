@@ -1,15 +1,15 @@
 ---
-description: .
+description: TargetUrlHostName
 ms.assetid: 548e4130-bf18-43cf-955d-a7e856152d0c
 title: TargetUrlHostName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 410b692c7d1450c666c023034015c0cdc9b42314
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2827eafd01c3439a76fa74a992250fb3cb82236
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692851"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092336"
 ---
 # <a name="systemlinktargeturlhostname"></a>TargetUrlHostName
 

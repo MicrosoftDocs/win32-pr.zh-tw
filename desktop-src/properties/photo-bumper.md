@@ -1,15 +1,15 @@
 ---
-description: .
+description: Photo
 ms.assetid: aad47c36-fd1d-478d-ad7d-a40c3984a1d9
 title: Photo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e60002d3a18e1cb5b116d66fc19e969c5526c6f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a63a76d0c6578c3a361abba8b289cc95ab6861f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693083"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104996"
 ---
 # <a name="photo"></a>Photo
 

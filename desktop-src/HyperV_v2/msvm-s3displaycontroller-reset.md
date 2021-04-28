@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_S3DisplayController 類別的 reset 方法-要求重設。
 ms.assetid: bd28a4be-7dec-4520-a917-3fcbb566b1d8
 title: Msvm_S3DisplayController 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9949240cb8c8c3c9085f6ee89b90ffc1a209322e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 492a420384b760500c54e1c3c481638bcd2ee7d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000149"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118776"
 ---
 # <a name="reset-method-of-the-msvm_s3displaycontroller-class"></a>Msvm S3DisplayController 類別的 Reset 方法 \_
 

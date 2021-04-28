@@ -1,5 +1,5 @@
 ---
-description: Start 方法會啟動 capture。
+description: IStats：： Start 方法-Start 方法會啟動 capture。
 ms.assetid: d4086e30-e5ed-4f29-90f0-d65125d9af6d
 title: 'IStats：： Start 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d58821ecc06e0a25d6a260bb2ba9393162dcdca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f02529ba10d98092eb30a1bcc350d5c72049fc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848249"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094546"
 ---
 # <a name="istatsstart-method"></a>IStats：： Start 方法
 

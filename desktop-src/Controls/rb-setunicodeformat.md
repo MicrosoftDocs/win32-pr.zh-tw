@@ -1,6 +1,6 @@
 ---
 title: 'RB_SETUNICODEFORMAT 訊息 (Commctrl .h) '
-description: 設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
+description: RB_SETUNICODEFORMAT 訊息：設定控制項的 Unicode 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: 769b74e0-c1f0-4068-80c4-075f1db2058a
 keywords:
 - RB_SETUNICODEFORMAT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc9d0ce256af0de740c487fd6514848db79c2e9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce9c168ee298d28d59010491031f7d94ebcaa650
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686162"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090966"
 ---
 # <a name="rb_setunicodeformat-message"></a>RB \_ SETUNICODEFORMAT 訊息
 

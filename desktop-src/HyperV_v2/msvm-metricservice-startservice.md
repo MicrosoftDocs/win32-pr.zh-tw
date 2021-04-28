@@ -1,5 +1,5 @@
 ---
-description: 啟動服務。
+description: Msvm_MetricService 類別的 StartService 方法會啟動服務。
 ms.assetid: 8ac863bc-d8a0-40dc-a4b6-1067045887d8
 title: Msvm_MetricService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 5dd42faa0fb4ae5e7c7536dd5baa2522b094f70f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eed809d164b916b518e848ab889a7fe00b62b7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320595"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118836"
 ---
 # <a name="startservice-method-of-the-msvm_metricservice-class"></a>Msvm MetricService 類別的 StartService 方法 \_
 

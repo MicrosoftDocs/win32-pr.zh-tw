@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統敏感性
 ms.assetid: ad20504c-4920-4d72-86ef-04c82d71be70
 title: 系統敏感性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 507064ab361e33a3f1b04a221da87bd89a423e16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ca07ace0be48de932dc7f9b4bbff8a91400fdd3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984214"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091556"
 ---
 # <a name="systemsensitivity"></a>系統敏感性
 

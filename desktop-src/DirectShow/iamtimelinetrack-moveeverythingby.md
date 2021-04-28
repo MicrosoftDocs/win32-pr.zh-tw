@@ -1,5 +1,5 @@
 ---
-description: 不支援這個方法。
+description: IAMTimelineTrack：： MoveEverythingBy 方法-不支援此方法。
 ms.assetid: f263116b-e492-4468-9829-124a096c9d74
 title: 'IAMTimelineTrack：： MoveEverythingBy 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 4eded92548c047e6d5102e603a5ab0554bd1f4fc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe85cf17c92c0809189e12e8ad40ceb1d1f3fd25
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990126"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094586"
 ---
 # <a name="iamtimelinetrackmoveeverythingby-method"></a>IAMTimelineTrack：： MoveEverythingBy 方法
 

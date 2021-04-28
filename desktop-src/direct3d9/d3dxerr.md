@@ -1,5 +1,5 @@
 ---
-description: 錯誤會以負數值表示，而且無法合併。
+description: D3DXERR 列舉：錯誤會以負數值表示，而且無法合併。
 ms.assetid: 2318278e-e1e1-4cd8-a5ce-5c99f3bc47ba
 title: 'D3DXERR 列舉 (D3dx9) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9.h
-ms.openlocfilehash: 0d4ef0fddf70effd63a0fcdc42b46889a879c13a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c1dd03500a493b30d7c1d3bfdfdf800b65a6d82
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196261"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094300"
 ---
 # <a name="d3dxerr-enumeration"></a>D3DXERR 列舉
 

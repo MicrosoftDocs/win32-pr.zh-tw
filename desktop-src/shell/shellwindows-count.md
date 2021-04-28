@@ -1,5 +1,5 @@
 ---
-description: 包含集合中的專案數。
+description: ShellWindows： Count 屬性-包含集合中的專案數。
 ms.assetid: 0113cc32-2197-4004-99a1-89fe10828e5f
 title: 'ShellWindows： Count 屬性 (Exdisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a8d5b9e605650ba7d3cb6036e8abfac58c0b8597
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2b33dc11e6bf909043ac5391965e1ebd225d376
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103936"
 ---
 # <a name="shellwindowscount-property"></a>ShellWindows Count 屬性
 

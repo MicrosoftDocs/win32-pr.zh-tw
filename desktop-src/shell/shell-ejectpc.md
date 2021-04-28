@@ -1,5 +1,5 @@
 ---
-description: 從其銜接站彈出電腦。 如果您的電腦支援此命令，則這與按一下 [開始] 功能表並選取 [退出電腦] 相同。
+description: EjectPC 方法-將電腦從其銜接站中取出。 如果您的電腦支援此命令，則這與按一下 [開始] 功能表並選取 [退出電腦] 相同。
 ms.assetid: eaba3dce-8fea-453f-90c2-4a9b5cb05ecc
 title: 'EjectPC 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 355d75b2ffaca9c9f90e66fbc535333a84bfa45d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5ec08aaa82d2f752fa06537434adede86b9d5a3a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973325"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104346"
 ---
 # <a name="shellejectpc-method"></a>EjectPC 方法
 

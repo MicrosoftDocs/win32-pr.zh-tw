@@ -1,5 +1,5 @@
 ---
-description: GetIDsOfNames 方法會將一組名稱對應至一組對應的 Dispid。
+description: CMediaPosition. GetIDsOfNames 方法-GetIDsOfNames 方法會將一組名稱對應至一組對應的 Dispid。
 ms.assetid: 4d3780ff-905f-4166-86d4-32395090b5cb
 title: 'CMediaPosition. GetIDsOfNames 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc2c7eee4304bb32ac1af2759bc2f094aca1d592
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a348e58fa84aa4134ce9f2ea756874b9ce2724
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095526"
 ---
 # <a name="cmediapositiongetidsofnames-method"></a>CMediaPosition. GetIDsOfNames 方法
 

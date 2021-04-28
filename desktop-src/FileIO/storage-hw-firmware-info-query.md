@@ -1,5 +1,5 @@
 ---
-description: 此結構包含裝置固件的相關資訊。
+description: STORAGE_HW_FIRMWARE_INFO_QUERY 結構-此結構包含裝置固件的相關資訊。
 ms.assetid: 1A2D30F3-F2DE-40CB-BFFC-8BAD19793AE1
 title: 'STORAGE_HW_FIRMWARE_INFO_QUERY 結構 (Winioctl .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - winioctl.h.h
-ms.openlocfilehash: c5c4294a733a57a6735691a134f997189736def0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffda37d918406a696a29a9bf2903424523c3b830
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981577"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119396"
 ---
 # <a name="storage_hw_firmware_info_query-structure"></a>儲存體 \_ HW \_ 固件 \_ 資訊 \_ 查詢結構
 

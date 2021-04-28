@@ -1,5 +1,5 @@
 ---
-description: 計算四元數的軸和旋轉角度。
+description: D3DXQuaternionToAxisAngle 函數 (D3dx9math) -計算四元數的軸和旋轉角度。
 ms.assetid: 6efd0a68-7641-403e-8ae2-c715b705b36e
 title: 'D3DXQuaternionToAxisAngle 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ecf8e6d1b1383a6e698f742351ee19ae75fd5bdc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8613a9d14c5e33b0f9f4e719a02ac9a6d70d1119
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988178"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117976"
 ---
 # <a name="d3dxquaterniontoaxisangle-function-d3dx9mathh"></a>D3DXQuaternionToAxisAngle 函式 (D3dx9math) 
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用中繼標記以確保未來的相容性
 ms.assetid: 254A1C0D-B24B-4014-8D15-662FC7F2AB81
 title: 使用中繼標記以確保未來的相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e965711053a7108c69295ac737953a05536a76e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a69180470c60dffc772f20fe6c515ba3803cbf2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981706"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084166"
 ---
 # <a name="use-the-meta-tag-to-ensure-future-compatibility"></a>使用中繼標記以確保未來的相容性
 

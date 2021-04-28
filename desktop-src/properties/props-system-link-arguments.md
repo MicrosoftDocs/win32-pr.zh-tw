@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.string
 ms.assetid: e6786836-5e18-4b8c-9e7d-229abb7473e7
 title: System.string
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56c40413269e79a3a235dff94975464dbdbc0d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 868a8d49a672d28e2da3320f8700e4e3ed1be00c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001421"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092506"
 ---
 # <a name="systemlinkarguments"></a>System.string
 

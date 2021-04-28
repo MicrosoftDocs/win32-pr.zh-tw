@@ -1,5 +1,5 @@
 ---
-description: 建立對話方塊，讓使用者選取資料夾，然後傳回選取的資料夾資料夾物件。
+description: BrowseForFolder 方法-建立一個對話方塊，讓使用者選取資料夾，然後傳回選取的資料夾資料夾物件。
 title: 'BrowseForFolder 方法 (Shldisp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4cc44e5a-3578-448b-9b19-1b71e1ae2cb9
-ms.openlocfilehash: 7e14dffbfb9ab3e18bd4d8e11ffaf4768ad53131
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5ec05ab09c7592e976085c230a2b359091fb819
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026992"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104366"
 ---
 # <a name="shellbrowseforfolder-method"></a>BrowseForFolder 方法
 

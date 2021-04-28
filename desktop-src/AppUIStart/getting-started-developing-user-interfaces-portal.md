@@ -1,15 +1,15 @@
 ---
 title: 開始開發 Windows 應用程式的 UI
-description: .
+description: 開發 Windows 應用程式的使用者介面開始使用
 ms.assetid: 29d6f67b-46fa-4f39-a319-306c832eff9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0c3d1a182aef6354901f0fa71f94b39ecdc58f2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c10b7e6bd21b782e31c9285c9840b7247a12e606
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682810"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091076"
 ---
 # <a name="getting-started-developing-user-interfaces-for-windows-applications"></a>開發 Windows 應用程式的使用者介面開始使用
 

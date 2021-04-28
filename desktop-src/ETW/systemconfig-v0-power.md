@@ -1,5 +1,5 @@
 ---
-description: 此類別是電源設定事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: SystemConfig_V0_Power 類別-此類別是電源設定事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: b3391435-dac0-4c48-b788-eb4d4a7aa635
 title: SystemConfig_V0_Power 類別
 ms.topic: reference
@@ -20,12 +20,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2e42af68ad12857d65d776b7a73794d2d13b2b48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab268e719374906e149dc9c1b733487f986e8308
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972105"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105936"
 ---
 # <a name="systemconfig_v0_power-class"></a>SystemConfig \_ V0 \_ Power 類別
 

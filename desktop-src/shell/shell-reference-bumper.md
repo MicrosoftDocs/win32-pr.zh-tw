@@ -1,5 +1,5 @@
 ---
-description: .
+description: Shell 參考
 title: Shell 參考
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 65264e74c423df480fa41744528533cb16d53042
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: b3b9ab1fa1b9e2568c4c731ce89599654eec3158
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973320"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104166"
 ---
 # <a name="shell-reference"></a>Shell 參考
 

@@ -1,5 +1,5 @@
 ---
-description: 顯示瀏覽器列。
+description: ShowBrowserBar 方法-顯示瀏覽器列。
 ms.assetid: 203636D2-54D3-4163-B9AC-39213D6F4203
 title: 'ShowBrowserBar 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d112399e62825714b4c060aeddcb8618ff73d478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d19cd5b98ce39470860cc481ab05e4bb41adc9a4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973252"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083722"
 ---
 # <a name="shellshowbrowserbar-method"></a>ShowBrowserBar 方法
 
@@ -73,15 +73,15 @@ Shell.ShowBrowserBar( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

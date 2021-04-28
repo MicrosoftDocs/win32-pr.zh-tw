@@ -1,5 +1,5 @@
 ---
-description: 計算兩個矩陣的轉換乘積。
+description: D3DXMatrixMultiplyTranspose 函式 (D3DX10Math) -計算兩個矩陣的轉換乘積。
 ms.assetid: 3db4138c-407c-47b5-b8b9-04af8771e98e
 title: 'D3DXMatrixMultiplyTranspose 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 187912a4117ab502ea7b0b1b3fc1ea105ecbc3e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fcf3d5578aa6e2ad13bd3f91dfd2206d6eaf0b13
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981851"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103415"
 ---
 # <a name="d3dxmatrixmultiplytranspose-function-d3dx10mathh"></a>D3DXMatrixMultiplyTranspose 函式 (D3DX10Math) 
 
