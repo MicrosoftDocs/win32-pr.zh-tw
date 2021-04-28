@@ -1,6 +1,6 @@
 ---
 title: 'TDM_SET_ELEMENT_TEXT 訊息 (Commctrl .h) '
-description: 更新工作對話方塊中的文字專案。
+description: TDM_SET_ELEMENT_TEXT 訊息-更新工作對話方塊中的文字專案。
 ms.assetid: e3f15805-5d48-4549-9959-69ec01345e57
 keywords:
 - TDM_SET_ELEMENT_TEXT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2229dc269f14c9a3b0765675dcc97dc9776b72c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6d0c8830a6d8a1057ab283a9e096434a6184151
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025433"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104026"
 ---
 # <a name="tdm_set_element_text-message"></a>TDM \_ 設定 \_ 元素 \_ 文字訊息
 

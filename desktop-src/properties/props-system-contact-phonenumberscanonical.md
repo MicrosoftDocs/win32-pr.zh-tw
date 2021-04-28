@@ -1,15 +1,15 @@
 ---
-description: .
+description: PhoneNumbersCanonical
 ms.assetid: 253cde36-2100-4f6b-9b4e-a82ab083aca9
 title: PhoneNumbersCanonical
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62564b0b878c66b694696077717c18540ee9b7bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ab00a369a464436767e4f6eab6a709772991cc6b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944108"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101296"
 ---
 # <a name="systemcontactphonenumberscanonical"></a>PhoneNumbersCanonical
 

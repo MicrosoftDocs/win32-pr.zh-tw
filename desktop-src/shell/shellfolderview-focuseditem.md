@@ -1,5 +1,5 @@
 ---
-description: 取得代表具有輸入焦點之專案的 FolderItem 物件。
+description: ShellFolderView. FocusedItem 屬性-取得代表具有輸入焦點之專案的 FolderItem 物件。
 ms.assetid: ca88801d-c8fa-4c1c-9294-f52eada40ff6
 title: 'ShellFolderView. FocusedItem 屬性 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 26f0f24cddd3b9299ec70b41160579659c71b5bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f661f555f1492a3323fa3749a8dffd6f00f411d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104006"
 ---
 # <a name="shellfolderviewfocuseditem-property"></a>ShellFolderView. FocusedItem 屬性
 

@@ -1,15 +1,15 @@
 ---
-description: 紋理填滿函數使用的函式類型。
+description: 材質 fill 函式所使用的 LPD3DXFILL3D 函數類型。
 ms.assetid: ab2f3005-150f-46e1-b75b-75c39e7feed1
 title: LPD3DXFILL3D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97342895cb119a786aa71626aeea6d93650c6dc8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a6c711459cffa3430b31ba7c91d77cc9519e6a43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114306"
 ---
 # <a name="lpd3dxfill3d"></a>LPD3DXFILL3D
 

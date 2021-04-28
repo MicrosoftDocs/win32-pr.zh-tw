@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IAMTimeline：： SetInterestRange 方法-未執行。
 ms.assetid: b803ba33-d698-449f-a540-3981c4f0826a
 title: 'IAMTimeline：： SetInterestRange 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 0a3c92848380bb71bcdca0e6f6de1069d6eb998a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 23485bbdc2292e0d341e3fef0646fb68616698c4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987121"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119566"
 ---
 # <a name="iamtimelinesetinterestrange-method"></a>IAMTimeline：： SetInterestRange 方法
 

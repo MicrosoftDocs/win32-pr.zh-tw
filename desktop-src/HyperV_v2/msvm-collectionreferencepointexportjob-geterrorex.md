@@ -1,5 +1,5 @@
 ---
-description: 抓取有關錯誤的其他資訊。
+description: Msvm_CollectionReferencePointExportJob 類別的 GetErrorEx 方法-抓取錯誤的其他相關資訊。
 ms.assetid: 64a90f18-3ae7-4021-857f-64adf8c40430
 title: Msvm_CollectionReferencePointExportJob 類別的 GetErrorEx 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: c056f7c8a05d8d06d136219fb55699ed5e146bc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b84c41776c081c302078773d9402145b0fe41e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992191"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112086"
 ---
 # <a name="geterrorex-method-of-the-msvm_collectionreferencepointexportjob-class"></a>Msvm CollectionReferencePointExportJob 類別的 GetErrorEx 方法 \_
 

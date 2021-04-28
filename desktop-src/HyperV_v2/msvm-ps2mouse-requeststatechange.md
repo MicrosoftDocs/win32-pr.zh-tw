@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_Ps2Mouse 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: a61c17a8-f89d-47aa-8c4f-46ccf478103e
 title: Msvm_Ps2Mouse 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aadf80fef8ec92ca10a811813b74619f0dd80f08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 878b0977a244d4b098dfa449f3c778c33e909111
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979070"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118816"
 ---
 # <a name="requeststatechange-method-of-the-msvm_ps2mouse-class"></a>Msvm Ps2Mouse 類別的 RequestStateChange 方法 \_
 

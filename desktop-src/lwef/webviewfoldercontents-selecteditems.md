@@ -1,6 +1,6 @@
 ---
 title: WebViewFolderContents.SelectedItems 方法 (Shldisp.h)
-description: 取得 FolderItems 物件，這個物件表示視圖中所有選取的專案。
+description: WebViewFolderContents. SelectedItems 方法-取得代表 view 中所有選取專案的 FolderItems 物件。
 ms.assetid: 683acac4-f157-4a75-a3f8-c693887c1ea5
 keywords:
 - SelectedItems 方法舊版 Windows 環境功能
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cee4b7f34cdcabec637671af79775fc1fa546790
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 25a242991f6f9472610dffa20593f9cab5d8c310
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025405"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102646"
 ---
 # <a name="webviewfoldercontentsselecteditems-method"></a>WebViewFolderContents. SelectedItems 方法
 

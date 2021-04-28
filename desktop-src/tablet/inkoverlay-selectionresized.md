@@ -1,15 +1,15 @@
 ---
-description: 發生于目前選取範圍的大小變更時，例如透過對使用者介面的變異、剪下和貼上程式，或選取專案屬性。
+description: SelectionResized 事件-發生于目前選取範圍的大小變更時，例如透過變更使用者介面、剪下和貼上程式，或選取專案屬性。
 ms.assetid: 606d4bdf-b02e-459f-a4cf-050daac6c309
 title: 'SelectionResized 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf9cbb01821756d830b7c0a24adc55dad11b403
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f3dd3cf1bdda004733dde99bb66150710044310
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194791"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116876"
 ---
 # <a name="inkoverlayselectionresized-event"></a>SelectionResized 事件
 

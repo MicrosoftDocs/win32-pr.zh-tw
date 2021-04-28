@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseRenderer。 CBaseRenderer 函式-函數方法。
 ms.assetid: df5efbb3-6bce-4e30-b1b1-d69bf64fa87d
 title: 'CBaseRenderer. CBaseRenderer (Renbase. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b41f8d7f9681a64f58413aea2fd8717320278f4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68ebc6255456f0fcbb4bf732a91dce981d0f78ce
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995783"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119906"
 ---
 # <a name="cbaserenderercbaserenderer-constructor"></a>CBaseRenderer. CBaseRenderer 函數
 

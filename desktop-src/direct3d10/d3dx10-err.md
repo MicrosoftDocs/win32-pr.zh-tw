@@ -1,5 +1,5 @@
 ---
-description: 錯誤會以負數值表示，而且無法合併。
+description: D3DX10_ERR 列舉：錯誤會以負數值表示，而且無法合併。
 ms.assetid: 4149ce6d-e87a-4003-b123-5555c6b3b086
 title: 'D3DX10_ERR 列舉 (D3DX10 .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 098c15999f20a65614d642029b1d1f6e0b600db6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 520abae0409dd4214106363d7ffde0cfb5c81ff1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196212"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094349"
 ---
 # <a name="d3dx10_err-enumeration"></a>D3DX10 \_ ERR 列舉
 

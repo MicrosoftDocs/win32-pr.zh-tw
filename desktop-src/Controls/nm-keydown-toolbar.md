@@ -1,6 +1,6 @@
 ---
 title: 'NM_KEYDOWN (工具列) 通知碼 (Commctrl) '
-description: 當控制項具有鍵盤焦點，且使用者按下按鍵時，由控制項傳送。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
+description: 當控制項有鍵盤焦點且使用者按下按鍵時，NM_KEYDOWN (工具列) 通知碼-由控制項傳送。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: bdfcf9da-118b-4fe6-9a0a-6329eb9196ef
 keywords:
 - NM_KEYDOWN (工具列) 通知程式碼 Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7326946a8234122c81b2fd057dab0ad313d49a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1d53818cf417e1efac686e94d3b4ef5919f819ed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024582"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112356"
 ---
 # <a name="nm_keydown-toolbar-notification-code"></a>NM \_ KEYDOWN (工具列) 通知碼
 

@@ -1,5 +1,5 @@
 ---
-description: GetMediaTime 方法會抓取目前樣本上的時間戳記。
+description: CPosPassThru. GetMediaTime 方法-GetMediaTime 方法會抓取目前樣本上的時間戳記。
 ms.assetid: 36f3b6d3-b884-4168-94f3-f334a5056c7d
 title: 'CPosPassThru. GetMediaTime 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b2748d986f121a38041155dcd43f13a647916486
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 328a0ae09c80a687863cfedb994f5a80cebebf14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989718"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095256"
 ---
 # <a name="cpospassthrugetmediatime-method"></a>CPosPassThru. GetMediaTime 方法
 

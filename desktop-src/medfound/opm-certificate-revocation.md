@@ -1,15 +1,15 @@
 ---
-description: .
+description: OPM 憑證撤銷
 ms.assetid: 21faf809-1335-4d93-be06-628c5a05a4c8
 title: OPM 憑證撤銷
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e4b20dc00b0bd23644ef9dca22558a304ca9438
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47ebf38a3fa6bd2b61a756d6103453fd0356f693
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512588"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092726"
 ---
 # <a name="opm-certificate-revocation"></a>OPM 憑證撤銷
 

@@ -1,5 +1,5 @@
 ---
-description: 傳回 barycentric 座標中的四元數。
+description: D3DXQuaternionBaryCentric 函式 (D3dx9math) -傳回 barycentric 座標中的四元數。
 ms.assetid: 8fcd2e16-1bf1-4e18-afc9-17c92f2bbac5
 title: 'D3DXQuaternionBaryCentric 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 002d235ab9957784c19b5e5a699dd87dfed74d4b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2ce0cfc7b3a59dc2a3cae6fa240015e70a035695
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106981824"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094106"
 ---
 # <a name="d3dxquaternionbarycentric-function-d3dx9mathh"></a>D3DXQuaternionBaryCentric 函式 (D3dx9math) 
 

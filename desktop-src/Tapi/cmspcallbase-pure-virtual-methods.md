@@ -1,15 +1,15 @@
 ---
-description: 這些方法必須由衍生類別覆寫。
+description: CMSPCallBase 純虛擬方法-這些方法必須由衍生類別覆寫。
 ms.assetid: 2ea9d35a-c87e-44f4-8dc6-618251c81fe4
 title: CMSPCallBase 純虛擬方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d8dea4c1a240e362a4dc3a19b3c09a37a318947
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8da8530ab3dae737bf1407f00d5d4a415a1437e3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849421"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094456"
 ---
 # <a name="cmspcallbase-pure-virtual-methods"></a>CMSPCallBase 純虛擬方法
 

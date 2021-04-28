@@ -1,5 +1,5 @@
 ---
-description: 服務存取點之間的關聯 (SAP) 與其如何實行。
+description: Msvm_DeviceSAPImplementation 類別-服務存取點 (SAP) 與其執行方式之間的關聯。
 ms.assetid: 36108521-A699-4498-A962-DC0801D9EE81
 title: Msvm_DeviceSAPImplementation 類別
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 9551d4409edfdfca18b66e3a3b86d6adcb28b19c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fbe3c9b85e0a8c9f0c6a07d1db03784c4ac15e6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983755"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112096"
 ---
 # <a name="msvm_devicesapimplementation-class"></a>Msvm \_ DeviceSAPImplementation 類別
 

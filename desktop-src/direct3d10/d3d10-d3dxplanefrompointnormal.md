@@ -1,5 +1,5 @@
 ---
-description: 從點和一般結構來建立平面。
+description: D3DXPlaneFromPointNormal 函式 (D3DX10Math) -從點和一般結構來建立平面。
 ms.assetid: 93c644d2-ab8c-47a1-9a3b-8b9c6a13178b
 title: 'D3DXPlaneFromPointNormal 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 9900a9f6838e253bd195374d00f90ee31fae07a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 519ce82a8d5a8c6adaf22b69047a8d365bd777ac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986539"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108836"
 ---
 # <a name="d3dxplanefrompointnormal-function-d3dx10mathh"></a>D3DXPlaneFromPointNormal 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_DVDDrive 類別的 reset 方法-要求重設。
 ms.assetid: 5d178eee-36fa-4315-915a-778f559f08f0
 title: Msvm_DVDDrive 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: ec90f48164c60cc37147a0521170291e3ac91491
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81123a7a7bb4a7b76129af57b1ea7216b543c5ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987608"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119136"
 ---
 # <a name="reset-method-of-the-msvm_dvddrive-class"></a>Msvm DVDDrive 類別的 Reset 方法 \_
 

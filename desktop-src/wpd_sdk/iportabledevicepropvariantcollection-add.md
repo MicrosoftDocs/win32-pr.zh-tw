@@ -1,5 +1,5 @@
 ---
-description: Add 方法會將專案加入至集合。
+description: IPortableDevicePropVariantCollection：： Add 方法-Add 方法會將專案加入至集合。
 ms.assetid: e9e8975f-f9b8-4940-b967-020cf3812582
 title: 'IPortableDevicePropVariantCollection：： Add 方法 (PortableDeviceTypes .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d9d5b4ee664d2fbbcc78550b1af5a48874d153d6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aed732cb92ea7e0f2fb3c2ebdd615f643bc3107
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994770"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112456"
 ---
 # <a name="iportabledevicepropvariantcollectionadd-method"></a>IPortableDevicePropVariantCollection：： Add 方法
 

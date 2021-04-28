@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_DiskDrive 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 9dfa96b1-19d4-42ea-b927-80b0d63a9be1
 title: Msvm_DiskDrive 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2de09b7f5ca7e212098f1299f597bf670e5a2970
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2f9263d29a4412ab505e94268d0d18d28a60b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979218"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112066"
 ---
 # <a name="requeststatechange-method-of-the-msvm_diskdrive-class"></a>Msvm DiskDrive 類別的 RequestStateChange 方法 \_
 

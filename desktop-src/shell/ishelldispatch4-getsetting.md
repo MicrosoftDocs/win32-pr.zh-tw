@@ -1,5 +1,5 @@
 ---
-description: 捕獲全域 Shell 設定。
+description: IShellDispatch4. GetSetting 方法-捕獲全域 Shell 設定。
 ms.assetid: b9b1542c-8e25-4966-b3df-13bfbd9b28aa
 title: 'IShellDispatch4. GetSetting 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 755ee1d2bbd5026b1cc3ca165649e0fcb4ab20ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a4345812925849831a6f0064c608f0c4be052c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972365"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116836"
 ---
 # <a name="ishelldispatch4getsetting-method"></a>IShellDispatch4. GetSetting 方法
 
@@ -348,15 +348,15 @@ Windows XP 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間
 
 ### <a name="jscript"></a>JScript
 
-Type： **VARIANT \_ BOOL \** _
+Type： **VARIANT \_ BOOL \***
 
-如果設定存在，則設定為 _ *true**。否則 **為 false**。
+如果設定存在，則設定為 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-Type： **VARIANT \_ BOOL \** _
+Type： **VARIANT \_ BOOL \***
 
-如果設定存在，則設定為 _ *true**。否則 **為 false**。
+如果設定存在，則設定為 **true** ;否則 **為 false**。
 
 ## <a name="examples"></a>範例
 

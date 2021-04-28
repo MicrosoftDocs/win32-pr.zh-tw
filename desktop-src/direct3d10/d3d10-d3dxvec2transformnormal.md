@@ -1,5 +1,5 @@
 ---
-description: 依指定的矩陣轉換2D 向量標準。
+description: D3DXVec2TransformNormal 函式 (D3DX10Math) -依指定的矩陣轉換2D 向量標準。
 ms.assetid: fc238bb1-155f-4018-9c92-16352726920d
 title: 'D3DXVec2TransformNormal 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c4043a8f5a57f14be3e8506dc257690ef581835d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 403562ab779ebf532e1c1ebcec4ce21a2beadd7a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946114"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108296"
 ---
 # <a name="d3dxvec2transformnormal-function-d3dx10mathh"></a>D3DXVec2TransformNormal 函式 (D3DX10Math) 
 

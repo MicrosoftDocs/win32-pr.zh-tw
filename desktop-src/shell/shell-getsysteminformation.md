@@ -1,5 +1,5 @@
 ---
-description: 捕獲系統資訊。
+description: GetSystemInformation 方法-捕獲系統資訊。
 ms.assetid: 94C10DD6-FE49-4dd4-AEED-69B73A75EDEF
 title: 'GetSystemInformation 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 2ad7a865ba6ac5b62bc8a9b5ac105c0ef166d574
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: b9e021e767309007cfee2cfc78268fb7d7cea042
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973685"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104276"
 ---
 # <a name="shellgetsysteminformation-method"></a>GetSystemInformation 方法
 

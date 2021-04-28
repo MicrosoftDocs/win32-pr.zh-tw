@@ -1,5 +1,5 @@
 ---
-description: 未使用。
+description: <span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback：： ResultCallback 方法-未使用。
 MS-HAID: vspixengine.IMeshCallback\_ResultCallback\_DWORD\_BYTE\_arr
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8d2b9dbee654f70ab2d306b34f406e3dbd52389c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 644890f0ba28f48407d6557184bd24f2aaf3501b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991795"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114906"
 ---
 # <a name="span-idvspixengineimeshcallback_resultcallback_dword_byte_arrspanimeshcallbackresultcallback-method"></a><span id="vspixengine.imeshcallback_resultcallback_dword_byte_arr"></span>IMeshCallback：： ResultCallback 方法
 

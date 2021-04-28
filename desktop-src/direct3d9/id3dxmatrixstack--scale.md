@@ -1,5 +1,5 @@
 ---
-description: 調整目前的矩陣與全球座標原點的大小。
+description: ID3DXMATRIXStack：： Scale 方法 (D3dx9math) -調整目前有關全局座標原點的矩陣。
 ms.assetid: 6c4ef625-736e-41a0-8a79-4d71e8685754
 title: 'ID3DXMATRIXStack：： Scale 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5ed926a55c0dba6f74e819cd89a7fa75f6d087c4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6d877fccf5bfebfdc1f9cf3943c4334e5b8c7fff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116181"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093366"
 ---
 # <a name="id3dxmatrixstackscale-method-d3dx9mathh"></a>ID3DXMATRIXStack：： Scale 方法 (D3dx9math .h) 
 

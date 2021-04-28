@@ -1,5 +1,5 @@
 ---
-description: 4x4 矩陣，其中包含方法和運算子多載。
+description: D3DXMATRIX 結構 (D3dx9math .h) -包含方法和運算子多載的4x4 矩陣。
 ms.assetid: 0911088b-50cf-4c4a-996e-351386fc359b
 title: 'D3DXMATRIX 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 2b09691ff27307e041a79b57e9d32c7e74e5eef1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fad44c13f7b856270fe6475f9e099f6e1714e064
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986504"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094216"
 ---
 # <a name="d3dxmatrix-structure-d3dx9mathh"></a>D3DXMATRIX 結構 (D3dx9math .h) 
 

@@ -1,5 +1,5 @@
 ---
-description: 此類別是硬體設定事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: SystemConfig 類別-此類別是硬體設定事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 720c2366-bd68-4895-bfaf-74aa9b64ba4a
 title: SystemConfig 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3332d396005deb2fb811d101a99827544ebc6df0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 232214aa2c33485d909525d54965f59fdc891a29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853172"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105866"
 ---
 # <a name="systemconfig-class"></a>SystemConfig 類別
 

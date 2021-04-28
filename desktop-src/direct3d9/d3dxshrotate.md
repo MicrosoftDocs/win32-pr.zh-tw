@@ -1,5 +1,5 @@
 ---
-description: 將球形調和 (SH) 向量旋轉指定的矩陣。
+description: D3DXSHRotate 函式 (D3dx9math) -將球形調和 (SH) 向量旋轉指定的矩陣。
 ms.assetid: 9e319725-6cbb-441e-b996-ec2c6f66e5df
 title: 'D3DXSHRotate 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 606ef1909237fd9c0277c5d7112284f6b7018e0e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8f888186fb6d7563a5904d4e6e3f1eabe626afd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992312"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093866"
 ---
 # <a name="d3dxshrotate-function-d3dx9mathh"></a>D3DXSHRotate 函式 (D3dx9math) 
 

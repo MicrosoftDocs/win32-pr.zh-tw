@@ -1,5 +1,5 @@
 ---
-description: 保留的。
+description: LocationDisp. DispCivicAddressReport. DetailLevel 屬性-Reserved。
 ms.assetid: 3f206db7-fccf-4b95-bff7-856dc53caf5a
 title: LocationDisp. DispCivicAddressReport. DetailLevel 屬性
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 54cb58df259f63567f018a7b59d6b7547a291bca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d987b93fbf091c7849eda0dc1949f58a97c653b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944849"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110896"
 ---
 # <a name="locationdispdispcivicaddressreportdetaillevel-property"></a>LocationDisp. DispCivicAddressReport. DetailLevel 屬性
 

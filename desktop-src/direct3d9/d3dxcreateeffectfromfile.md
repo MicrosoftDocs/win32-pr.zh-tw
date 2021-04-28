@@ -1,5 +1,5 @@
 ---
-description: 從 ASCII 或二進位效果描述建立效果。
+description: D3DXCreateEffectFromFile 函式-從 ASCII 或二進位效果描述建立效果。
 ms.assetid: b5868ba3-0869-46f7-804f-3103358a3ef5
 title: 'D3DXCreateEffectFromFile 函式 (D3DX9Effect) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: f34d0cdb3ae19772f21d8307fffb395c4d1ac9ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d8b2afdd1e8008bc8e03efa670e5a4b37b6dc9f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696796"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094316"
 ---
 # <a name="d3dxcreateeffectfromfile-function"></a>D3DXCreateEffectFromFile 函式
 

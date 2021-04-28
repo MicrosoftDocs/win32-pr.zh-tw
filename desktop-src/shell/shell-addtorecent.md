@@ -1,5 +1,5 @@
 ---
-description: 將檔案加入最近使用的 (MRU) 清單中。
+description: AddToRecent 方法-將檔案新增至最近使用的 (MRU) 清單中。
 ms.assetid: 26D2AE5A-FC7E-4c7c-9F10-8D3D7AA236E7
 title: 'AddToRecent 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: c4372cc6cfac25f94e607f14734a9f544cd4fcbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 92ea7432c318939a01f86405ae33d8ac90b88c80
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973776"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083866"
 ---
 # <a name="shelladdtorecent-method"></a>AddToRecent 方法
 

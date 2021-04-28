@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_SecurityService 類別的 StopService 方法會停止服務。
 ms.assetid: cf100cea-b0e1-42e9-831e-6422aded47c5
 title: Msvm_SecurityService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 68e88e2c88d4f75f4d7671c389bab0cd81d0deb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9a16fef951fdee5ed7fc580da61f43d848a8dec
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193513"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118706"
 ---
 # <a name="stopservice-method-of-the-msvm_securityservice-class"></a>Msvm SecurityService 類別的 StopService 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: GetPin 方法會抓取 pin。
+description: CBaseRenderer. GetPin 方法-GetPin 方法會抓取 pin。
 ms.assetid: 665e1aaf-4491-4241-94c6-6ea356d7a665
 title: 'CBaseRenderer. GetPin 方法 (Renbase .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6b67b926e0af604e0a25ea7c09b417baf3647fde
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7c30767b7cba68931bc1ddde4905c9b7bc2bc29
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987018"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119886"
 ---
 # <a name="cbaserenderergetpin-method"></a>CBaseRenderer. GetPin 方法
 

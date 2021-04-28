@@ -1,15 +1,15 @@
 ---
-description: .
+description: 啟用 Intel AVX 的 Windows 7 支援
 ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
 title: 啟用 Intel AVX 的 Windows 7 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 440c71c5fd6aa65b5e56b8dfb0b6eab134418192
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1509bac62634c85aa733b2c1de0c152169ac6cda
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987804"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088456"
 ---
 # <a name="enable-windows-7-support-for-intel-avx"></a>啟用 Intel AVX 的 Windows 7 支援
 

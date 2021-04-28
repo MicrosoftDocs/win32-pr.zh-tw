@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_DVDDrive 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: b36d19ea-35fc-4989-9ee9-199b8166674e
 title: Msvm_DVDDrive 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 602e928e1951aabdf020313f3e0939ecd7dfb31d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfe3d4f7b823c42866f72aa928227c6a49c610c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987763"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111986"
 ---
 # <a name="requeststatechange-method-of-the-msvm_dvddrive-class"></a>Msvm DVDDrive 類別的 RequestStateChange 方法 \_
 

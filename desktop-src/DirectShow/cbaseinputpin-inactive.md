@@ -1,5 +1,5 @@
 ---
-description: 非使用中的方法會通知 pin，篩選已不再有效。
+description: CBaseInputPin 方法-非使用中方法會通知 pin，篩選已不再有效。
 ms.assetid: e00e1562-54bb-4968-8a86-b29e1077d7a5
 title: 'CBaseInputPin：非使用中方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 52bf7efa352e8a73d562c61c3833a051ee860d4e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1324e9e2641e5e05bc3b0429ee269098c13d4bae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978638"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099726"
 ---
 # <a name="cbaseinputpininactive-method"></a>CBaseInputPin 方法
 

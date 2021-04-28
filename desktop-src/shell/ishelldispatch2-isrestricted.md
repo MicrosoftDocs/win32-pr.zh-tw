@@ -1,5 +1,5 @@
 ---
-description: 從登錄抓取群組的限制設定。
+description: IShellDispatch2. IsRestricted 方法-從登錄中抓取群組的限制設定。
 ms.assetid: 04275c5f-c3ed-4962-882f-2cce0258a9f4
 title: 'IShellDispatch2. IsRestricted 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f666a9ed3407d12eb9cf2c28ae062a9886d7a2cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4f482407fadd16d7ecfe9deeafd91b032a9a24f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972405"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117096"
 ---
 # <a name="ishelldispatch2isrestricted-method"></a>IShellDispatch2. IsRestricted 方法
 
@@ -73,19 +73,19 @@ IShellDispatch2.IsRestricted( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **整數 \** _
+類型：**整數 \***
 
 限制的值。 如果找不到指定的限制，則傳回值為0。
 
 ### <a name="vb"></a>VB
 
-類型： _*整數 \**_
+類型：**整數 \***
 
 限制的值。 如果找不到指定的限制，則傳回值為0。
 
 ## <a name="remarks"></a>備註
 
-這個方法是透過 [_ *Shell. IsRestricted* *](./shell-isrestricted.md)方法來執行和存取。
+這個方法是透過 [**IsRestricted**](./shell-isrestricted.md) 方法來執行和存取。
 
 **IsRestricted** 會先尋找符合下列索引鍵之 *sGroup* 的子機碼名稱。
 

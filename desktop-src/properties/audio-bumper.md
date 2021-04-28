@@ -1,15 +1,15 @@
 ---
-description: .
+description: 音訊
 ms.assetid: ed8fe840-f26f-43dc-b94f-f57941c2801f
 title: 音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c48559366dbc44b5a9e5571a5876fb13e04a45d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c1b718debc975d84db18108448e7d616171c30f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692283"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105146"
 ---
 # <a name="audio"></a>音訊
 

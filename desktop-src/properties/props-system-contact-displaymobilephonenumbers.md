@@ -1,15 +1,15 @@
 ---
-description: .
+description: DisplayMobilePhoneNumbers
 ms.assetid: 6158551c-d073-416b-adc3-adc6e335f2d5
 title: DisplayMobilePhoneNumbers
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13b29a1b7946a93cbae92ca0ce2cdcd804e0c3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 141d692439e565e19bd74e80936671eea2e4a78c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980551"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102376"
 ---
 # <a name="systemcontactdisplaymobilephonenumbers"></a>DisplayMobilePhoneNumbers
 

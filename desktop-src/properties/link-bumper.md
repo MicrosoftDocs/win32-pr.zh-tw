@@ -1,15 +1,15 @@
 ---
-description: .
+description: 連結
 ms.assetid: 584095bb-a02a-4b56-9270-1163f36a6fde
 title: 連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 038151d87e2af93153303a68673e35adc2d9e62e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8fe39a8f4c55cb1f4f0e13947555611f69144f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992438"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087416"
 ---
 # <a name="link"></a>連結
 

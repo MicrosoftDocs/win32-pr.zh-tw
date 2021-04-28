@@ -1,15 +1,15 @@
 ---
-description: .
+description: GPS
 ms.assetid: a19d6c4e-b3f3-4e54-99cd-76e16f650e3a
 title: GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67cd2308adf58910b5b0206d18ff25fccc3dfe1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed9a077efe67cc65c6ef12399e07f8a4d7c31652
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986950"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105046"
 ---
 # <a name="gps"></a>GPS
 

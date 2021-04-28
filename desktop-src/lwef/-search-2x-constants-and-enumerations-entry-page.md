@@ -1,15 +1,15 @@
 ---
 title: WDS 2.x 常數和列舉
-description: .
+description: WDS 2.x 常數和列舉
 ms.assetid: f100a3f4-4880-409b-8ced-f22a457a0e0c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b3678c15bf530d5fcc3705b3b814eb28e34e5ae
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: b51a2b87563fe7f3fa4aed1bd7c8c24238a036dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684253"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114196"
 ---
 # <a name="wds-2x-constants-and-enumerations"></a>WDS 2.x 常數和列舉
 

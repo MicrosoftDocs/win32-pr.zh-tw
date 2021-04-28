@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_ImageManagementService 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 005b34c7-51ed-4ef3-934c-a6a57a878b3b
 title: Msvm_ImageManagementService 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2118114cd353a25956566873fa78b1c44e0850b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf059fa5f45db97f5f63abb12e68a443b8988c02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318539"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111766"
 ---
 # <a name="requeststatechange-method-of-the-msvm_imagemanagementservice-class"></a>Msvm ImageManagementService 類別的 RequestStateChange 方法 \_
 

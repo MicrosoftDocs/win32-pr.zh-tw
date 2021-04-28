@@ -1,5 +1,5 @@
 ---
-description: 將指定的矩陣載入至目前的矩陣。
+description: ID3DXMATRIXStack：： LoadMatrix 方法 (D3DX10 .h) -將指定的矩陣載入至目前的矩陣。
 ms.assetid: b898f344-db90-48e0-b457-0eb8d7b31dca
 title: 'ID3DXMATRIXStack：： LoadMatrix 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: ce6b99abf4c9a82a8b9d1c7643a1098d19e18c15
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 20c80f578abd5e35c89f3ecccedd2ab7fd59e812
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107956"
 ---
 # <a name="id3dxmatrixstackloadmatrix-method-d3dx10h"></a>ID3DXMATRIXStack：： LoadMatrix 方法 (D3DX10 .h) 
 

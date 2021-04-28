@@ -1,5 +1,5 @@
 ---
-description: 建立將幾何壓平合併成平面的矩陣。
+description: D3DXMatrixShadow 函式 (D3DX10Math) -建立將幾何壓平合併成平面的矩陣。
 ms.assetid: 83c9e7d6-fc6c-48e7-bbf2-6aa10868351d
 title: 'D3DXMatrixShadow 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: a2edaee98f5a56cf5dffec262ecc3d546f0116f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d3a5bff99552a4c5d65267c390c25a2892d3d32f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323243"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103346"
 ---
 # <a name="d3dxmatrixshadow-function-d3dx10mathh"></a>D3DXMatrixShadow 函式 (D3DX10Math) 
 

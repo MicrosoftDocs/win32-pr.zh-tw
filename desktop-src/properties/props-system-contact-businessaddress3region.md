@@ -1,15 +1,15 @@
 ---
-description: .
+description: BusinessAddress3Region
 ms.assetid: 09fb62e1-da4f-4b81-92f7-0379d2b2827e
 title: BusinessAddress3Region
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60e949a7c922047dd234605c565827ee657f67f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f816d2cd87a8217bf1b854b051e5549d632c50f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974305"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087236"
 ---
 # <a name="systemcontactbusinessaddress3region"></a>BusinessAddress3Region
 
