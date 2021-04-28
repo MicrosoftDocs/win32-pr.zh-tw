@@ -1,5 +1,5 @@
 ---
-description: 您可以使用此方法來釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
+description: ID3DXSprite：： OnLostDevice 方法-使用此方法釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
 ms.assetid: 60028f18-21fe-428b-9bee-d5359671da81
 title: 'ID3DXSprite：： OnLostDevice 方法 (D3dx9core .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f6b2b676e95b48f50b5c25a4bfc3a1bf3e7d610d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f5515945ec8575937a90eb719eca4efd681be5d0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323032"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117776"
 ---
 # <a name="id3dxspriteonlostdevice-method"></a>ID3DXSprite：： OnLostDevice 方法
 

@@ -1,5 +1,5 @@
 ---
-description: StartService 方法會將服務置於啟動狀態。
+description: CIM_Service 類別的 StartService 方法 (CIMWin32 WMI 提供者) -StartService 方法會將服務置於啟動狀態。
 ms.assetid: 0f2880ed-1643-4211-8684-12493711b1f8
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 CIM_Service 類別的 StartService 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1592552595c06ec7111041cbb1c1b1d2628f8b6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6027112323fc14abf4c4a8dc667b921025a5e652
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688887"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086166"
 ---
 # <a name="startservice-method-of-the-cim_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 CIM_Service 類別的 StartService 方法) 
 

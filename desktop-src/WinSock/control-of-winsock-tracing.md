@@ -1,15 +1,15 @@
 ---
-description: .
+description: Winsock 追蹤的控制權
 ms.assetid: b079bdfc-b192-451c-967d-dcefa94b7ec7
 title: Winsock 追蹤的控制權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 910b15ece4581525fddc25213c630e24d0e49110
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75f256c4e3927672bc13b14bfb72ca3b02c22bde
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966712"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110546"
 ---
 # <a name="control-of-winsock-tracing"></a>Winsock 追蹤的控制權
 

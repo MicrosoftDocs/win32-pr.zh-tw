@@ -1,5 +1,5 @@
 ---
-description: 使用中的方法會通知釘選篩選現在為使用中狀態。 這個方法會覆寫 CBasePin：： Active 方法。
+description: CRenderedInputPin 方法-使用中的方法會通知釘選篩選現在為使用中狀態。 這個方法會覆寫 CBasePin：： Active 方法。
 ms.assetid: e98ca947-df2f-41a7-9785-b35bd1dde1e6
 title: 'CRenderedInputPin 方法 (Amextra .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9ae56439f5e19aa5c039ac81bdd8a7aafe0f2174
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d8c9b06f41454d2cb9a7ac35dd7e8f8b335632f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098926"
 ---
 # <a name="crenderedinputpinactive-method"></a>CRenderedInputPin 方法
 

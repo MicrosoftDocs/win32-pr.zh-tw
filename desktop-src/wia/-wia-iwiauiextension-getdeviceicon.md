@@ -1,5 +1,5 @@
 ---
-description: 取得自訂裝置圖示。
+description: IWiaUIExtension：： GetDeviceIcon 方法-取得自訂裝置圖示。
 ms.assetid: 27763f39-80d8-4862-b045-e49c6e824c28
 title: 'IWiaUIExtension：： GetDeviceIcon 方法 (Wiadevd .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 36b61a25de1acb9b84ce68dc897514e0d4612a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bfa8e87736412822c1a70f75b129aeec30af20e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113292"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116656"
 ---
 # <a name="iwiauiextensiongetdeviceicon-method"></a>IWiaUIExtension：： GetDeviceIcon 方法
 
@@ -53,13 +53,13 @@ HRESULT GetDeviceIcon(
 *phIcon* \[擴展\]
 </dt> <dd>
 
-類型： **HICON \** _
+類型： **HICON \***
 
 指向將接收裝置圖示控制碼的記憶體位置。
 
 </dd> <dt>
 
-_nSize * \[ in\]
+*nSize* \[在\]
 </dt> <dd>
 
 類型： **ULONG**

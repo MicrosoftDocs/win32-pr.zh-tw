@@ -1,5 +1,5 @@
 ---
-description: GetControlState 方法會抓取 capture 的狀態，以指出 capture 是否正在執行或已暫停。
+description: IStats：： GetControlState 方法-GetControlState 方法會抓取 capture 的狀態，以指出正在執行或暫停捕捉。
 ms.assetid: 0faf2300-d9ff-4fe0-9d50-18beafd1daea
 title: 'IStats：： GetControlState 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a83b5d20461b28b7022bfdc3ddbf3d5d92149c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25532293335756a872ef5104d5eef66027fe2ae4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976605"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098466"
 ---
 # <a name="istatsgetcontrolstate-method"></a>IStats：： GetControlState 方法
 

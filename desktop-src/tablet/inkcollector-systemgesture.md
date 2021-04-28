@@ -1,15 +1,15 @@
 ---
-description: 在辨識系統手勢時發生。
+description: InkCollector.SystemGesture 事件-在辨識系統手勢時發生。
 ms.assetid: 11071d6f-8aa3-4902-94fd-89ad0cf17729
 title: 'InkCollector.SystemGesture 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 282f28e5ef1bc3a86f51b6d345be6e00d78c8213
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f753807d8aaaf03c2de2fd9810ef1e044bcbe05
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511292"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110047"
 ---
 # <a name="inkcollectorsystemgesture-event"></a>InkCollector.SystemGesture 事件
 

@@ -1,5 +1,5 @@
 ---
-description: 啟動命名服務。
+description: ServiceStart 方法-啟動命名服務。
 ms.assetid: 72214E80-38A2-4a57-B555-942902BAFC3D
 title: 'ServiceStart 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 8cd3b910306fc995d15e9731823614717450ef55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c88b1980d215ad088a4a24362f17147b5d6e432
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849362"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083746"
 ---
 # <a name="shellservicestart-method"></a>ServiceStart 方法
 
@@ -73,15 +73,15 @@ Shell.ServiceStart( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果成功，則傳回 _ *true**;否則 **為 false**。
+如果成功，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

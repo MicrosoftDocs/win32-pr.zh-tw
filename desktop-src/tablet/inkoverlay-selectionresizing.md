@@ -1,15 +1,15 @@
 ---
-description: 發生于目前的選取範圍即將變更時（例如，透過變更使用者介面、剪下和貼上程式或選取屬性）。
+description: SelectionResizing 事件-發生于目前的選取範圍即將變更時（例如，透過對使用者介面的改變、剪下和貼上程式或選取屬性）。
 ms.assetid: 7fe0249c-c43d-498b-9029-cf5969201d96
 title: 'SelectionResizing 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7debb9461aae39c0549bce863a0513b86c53ffa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b5577f83c14ccc2e998fb4257344729e2219a2d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194419"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086676"
 ---
 # <a name="inkoverlayselectionresizing-event"></a>SelectionResizing 事件
 

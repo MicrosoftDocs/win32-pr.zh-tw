@@ -1,5 +1,5 @@
 ---
-description: 您可以使用這個方法來重新取得資源，並儲存初始狀態。
+description: ID3DXSprite：： OnResetDevice 方法-使用此方法可重新取得資源並儲存初始狀態。
 ms.assetid: 74f8616e-c3ed-4231-b701-009213ea48c0
 title: 'ID3DXSprite：： OnResetDevice 方法 (D3dx9core .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f09e08a32aca8df0577a5fb73ef09ec69742556b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cb58c682ab30f54461e6b3c1870f5db703a3876d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991969"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117756"
 ---
 # <a name="id3dxspriteonresetdevice-method"></a>ID3DXSprite：： OnResetDevice 方法
 

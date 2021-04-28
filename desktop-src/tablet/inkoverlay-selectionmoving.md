@@ -1,15 +1,15 @@
 ---
-description: 當目前選取範圍的位置即將變更時發生，例如透過變更使用者介面、剪下和貼上程式，或選取專案屬性。
+description: SelectionMoving 事件-發生于目前選取範圍的位置即將變更時（例如，透過對使用者介面的改變、剪下和貼上程式或選取屬性）。
 ms.assetid: 7cd7a5b1-4ae6-4038-afd0-6ef9d0700938
 title: 'SelectionMoving 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9afc77198a6a7228e44b3f2bad8015c25a939812
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ee4784e6b4c475c30d9b2a3ab30fe166ea3d67d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975250"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086696"
 ---
 # <a name="inkoverlayselectionmoving-event"></a>SelectionMoving 事件
 

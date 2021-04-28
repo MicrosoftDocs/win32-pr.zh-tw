@@ -1,5 +1,5 @@
 ---
-description: SetTimeFormat 方法會設定時間格式。 這個方法會實 IMediaSeeking：： SetTimeFormat 方法。
+description: CSourceSeeking. SetTimeFormat 方法-SetTimeFormat 方法會設定時間格式。 這個方法會實 IMediaSeeking：： SetTimeFormat 方法。
 ms.assetid: dbc7c950-8cc2-4f8e-adfa-8f5cdc1b56c7
 title: 'CSourceSeeking. SetTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 61ab0cdf7c954e0fa5f370127f00529bb9ef7b16
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fdb3889ecfa5bdcd49b4054822a2b2d09df58fa6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976282"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085196"
 ---
 # <a name="csourceseekingsettimeformat-method"></a>CSourceSeeking. SetTimeFormat 方法
 

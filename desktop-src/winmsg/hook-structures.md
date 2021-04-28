@@ -1,15 +1,15 @@
 ---
-description: .
+description: 攔截結構
 ms.assetid: 957d2c6f-15a8-42a5-b8cf-b8dc8d747867
 title: 攔截結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91104b9d4152504853f4d02742232b02620f0350
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39ee04678e8ef20726377a4b2fb4dcf2440b4910
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987726"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083616"
 ---
 # <a name="hook-structures"></a>攔截結構
 

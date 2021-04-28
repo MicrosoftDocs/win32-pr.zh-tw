@@ -1,15 +1,15 @@
 ---
-description: .
+description: RecordedTV. DateContentExpires
 ms.assetid: 01cdf99b-1c63-424b-b160-ee1ac5557ae7
 title: RecordedTV. DateContentExpires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bfdf507e21da356f088342700547a214a6ea563
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a604dad05ff47fe49817d1a01be588b6abd228de
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026656"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091716"
 ---
 # <a name="systemrecordedtvdatecontentexpires"></a>RecordedTV. DateContentExpires
 

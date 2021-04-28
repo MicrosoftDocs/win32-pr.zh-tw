@@ -1,5 +1,5 @@
 ---
-description: Stop 方法會停止目前的捕捉。
+description: IDelaydC：： Stop 方法-Stop 方法會停止目前的捕捉。
 ms.assetid: 1b627137-e72d-4425-98d9-e296fb07e509
 title: 'IDelaydC：： Stop 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 42c9cc1c4b6da7b5f934dd96f26aa9348c43ac0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38be5b6ba4c3f6edcd716f4d0235150e96dd692a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468740"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110776"
 ---
 # <a name="idelaydcstop-method"></a>IDelaydC：： Stop 方法
 

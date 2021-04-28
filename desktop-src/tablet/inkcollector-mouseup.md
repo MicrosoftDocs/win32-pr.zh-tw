@@ -1,15 +1,15 @@
 ---
-description: 發生于滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，並放開滑鼠按鍵時。
+description: InkCollector，當滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，並放開滑鼠按鍵時，就會發生此事件。
 ms.assetid: 6dcc6c68-89f7-4020-b378-56df9d46974b
 title: InkCollector (Msinkaut) 的 MouseUp 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5f217cf6f5eeff930c1746d1a5ceac180686942
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc4fde64603a00ecb8a47d3869f2eb90352fcc4f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468772"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110146"
 ---
 # <a name="inkcollectormouseup-event"></a>InkCollector，事件
 

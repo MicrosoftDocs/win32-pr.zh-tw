@@ -1,15 +1,15 @@
 ---
-description: 從系統移除 IInkTablet 時發生。
+description: TabletRemoved 事件-當 IInkTablet 從系統移除時，就會發生此事件。
 ms.assetid: 2217a69e-5b39-4827-82cd-99a02e9d39c6
 title: 'TabletRemoved 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a7d0e69bae7cb6360794b9624fcef7c8be639e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a5572ec4c8afd664ef96534e93c402ec2141f65
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969406"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086646"
 ---
 # <a name="inkoverlaytabletremoved-event"></a>TabletRemoved 事件
 

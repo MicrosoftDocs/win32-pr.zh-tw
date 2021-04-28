@@ -1,5 +1,5 @@
 ---
-description: 描述光線三角形交集。
+description: D3DX10_INTERSECT_INFO 結構-描述光線三角形交集。
 ms.assetid: 21658b74-6f1d-4a16-a8b3-0c7bb6edf899
 title: 'D3DX10_INTERSECT_INFO 結構 (D3DX10 .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: 87490e734299cba57952bb43d1ee4ffad8e014c8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 203daa48e766edd545bf232c4f8d94c4f17b5b2a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696687"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105456"
 ---
 # <a name="d3dx10_intersect_info-structure"></a>D3DX10 \_ INTERSECT \_ 資訊結構
 

@@ -1,6 +1,6 @@
 ---
 title: 'TB_SETHOTITEM2 訊息 (Commctrl .h) '
-description: 設定工具列中的熱專案。
+description: TB_SETHOTITEM2 訊息：設定工具列中的熱專案。
 ms.assetid: 43666b1d-1197-452f-aa79-eb0a1a23e5b7
 keywords:
 - TB_SETHOTITEM2 message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7027920e4363b46fcc0b6d9b0d87129e01843318
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7daf67839837adccfbec99bf03fc4dfff97738db
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686195"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104136"
 ---
 # <a name="tb_sethotitem2-message"></a>TB \_ SETHOTITEM2 訊息
 

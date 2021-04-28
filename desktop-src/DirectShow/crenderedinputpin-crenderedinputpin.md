@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CRenderedInputPin。 CRenderedInputPin 函式-函數方法。
 ms.assetid: bf335750-b776-47bc-978d-e84e8b5259f7
 title: 'CRenderedInputPin. CRenderedInputPin (Amextra. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ee1ec8944d56d2aa6f46e59ac5034969ca77ea19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4bd8e864531604fb36c2abe0bcd57ac5b3a9c869
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990264"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085396"
 ---
 # <a name="crenderedinputpincrenderedinputpin-constructor"></a>CRenderedInputPin. CRenderedInputPin 函數
 

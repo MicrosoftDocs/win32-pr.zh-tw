@@ -1,5 +1,5 @@
 ---
-description: 建立對話方塊，讓使用者選取資料夾，然後傳回選取的資料夾資料夾物件。
+description: IShellDispatch. BrowseForFolder 方法-建立一個對話方塊，讓使用者選取資料夾，然後傳回選取的資料夾資料夾物件。
 ms.assetid: 578C51C1-F59B-4604-A09B-62BA61225ABB
 title: 'IShellDispatch. BrowseForFolder 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 4e603bb08b4b98ba4008aa4ea162c9b59e5d42da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee6202c7029e2c27684e15d96dd6c38680cb0678
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086686"
 ---
 # <a name="ishelldispatchbrowseforfolder-method"></a>IShellDispatch. BrowseForFolder 方法
 

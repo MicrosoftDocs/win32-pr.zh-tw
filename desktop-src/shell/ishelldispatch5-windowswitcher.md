@@ -1,5 +1,5 @@
 ---
-description: 將開啟的視窗顯示在您可以切換的3D 堆疊中。
+description: IShellDispatch5. WindowSwitcher 方法-將開啟的視窗顯示在您可以切換的3D 堆疊中。
 title: 'IShellDispatch5. WindowSwitcher 方法 (Shldisp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 44a6411c-bcbc-4ef6-b5dc-7bdb4d482c6a
-ms.openlocfilehash: 54b02845e02f5d5499153bc0be828f83d83f0a1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 050def8ab1ed33a25b2943736f047a5e47536f9f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972357"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116796"
 ---
 # <a name="ishelldispatch5windowswitcher-method"></a>IShellDispatch5. WindowSwitcher 方法
 

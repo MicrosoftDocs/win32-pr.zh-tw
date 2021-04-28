@@ -1,5 +1,5 @@
 ---
-description: 此類別是 UDP/IP 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: UdpIp_V0 類別-此類別是 UDP/IP 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 2c7ac6b2-7dd7-4da7-ae0b-ac0ffffeb74b
 title: UdpIp_V0 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b37bd31ea5ec2678e933b9f42efd13282b85d23a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 845466d630a671416ac465d0b73d99976d4521e9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972276"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105416"
 ---
 # <a name="udpip_v0-class"></a>UdpIp \_ V0 類別
 

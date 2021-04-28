@@ -1,15 +1,15 @@
 ---
-description: .
+description: 資料增益集介面
 ms.assetid: 2e9748be-7d76-4424-8daf-c94a327d85ac
 title: 資料增益集介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02159fba5603574f601cac359ac684f37efe97ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d90aa1ce8c3c0d498f4a01f1b00c0d8674ee9610
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847820"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104646"
 ---
 # <a name="data-add-in-interfaces"></a>資料增益集介面
 

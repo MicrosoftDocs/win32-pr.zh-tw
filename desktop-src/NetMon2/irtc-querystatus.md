@@ -1,5 +1,5 @@
 ---
-description: QueryStatus 方法會捕獲 NPP 的狀態。
+description: IRTC：： QueryStatus 方法-QueryStatus 方法會抓取 NPP 的狀態。
 ms.assetid: 4517eb34-087a-491c-97b5-cbe9190fa7a2
 title: 'IRTC：： QueryStatus 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: e05120353cd39db661cf1b4309353034c184cd66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dd8c18d19df7d577ad219742520630f00122a41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977854"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110606"
 ---
 # <a name="irtcquerystatus-method"></a>IRTC：： QueryStatus 方法
 

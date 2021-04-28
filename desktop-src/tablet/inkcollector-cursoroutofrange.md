@@ -1,15 +1,15 @@
 ---
-description: 當資料指標離開 tablet 內容 (鄰近) 的實體偵測範圍時發生。
+description: InkCollector. CursorOutOfRange 事件-當資料指標離開 tablet 內容 (鄰近) 的實體偵測範圍時，就會發生此事件。
 ms.assetid: a3a570ed-570b-4579-b120-ed5457630bc2
 title: 'InkCollector. CursorOutOfRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e2d6ee30a60c260d861cdc5c24e22d7b4b43b0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e14e674d5cb7c3da7f2a1e684a0e916e637106e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989908"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110276"
 ---
 # <a name="inkcollectorcursoroutofrange-event"></a>InkCollector. CursorOutOfRange 事件
 

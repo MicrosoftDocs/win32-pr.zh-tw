@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CImageAllocator。 CImageAllocator 函式-函數方法。
 ms.assetid: 8c215b16-98e5-42fb-a95b-b6df1ade180e
 title: 'CImageAllocator. CImageAllocator (Winutil. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a5f6873e8cc073e0b716f94c980ecceba8f4512f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f17ae78b668f6cc35e454c5e4e83d38727077ef7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993414"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085756"
 ---
 # <a name="cimageallocatorcimageallocator-constructor"></a>CImageAllocator. CImageAllocator 函數
 

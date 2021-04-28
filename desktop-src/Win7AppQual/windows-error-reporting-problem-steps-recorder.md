@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows 錯誤報告問題步驟收錄程式
 ms.assetid: ce5db84a-53b6-4a7f-bee4-d198d8a6781e
 title: Windows 錯誤報告問題步驟收錄程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25fb70acef867b878063bd6011fde6867f7f0e75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46abb8adf545152e34c2b2100022068291e3571f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695164"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084156"
 ---
 # <a name="windows-error-reporting-problem-steps-recorder"></a>Windows 錯誤報告問題步驟收錄程式
 

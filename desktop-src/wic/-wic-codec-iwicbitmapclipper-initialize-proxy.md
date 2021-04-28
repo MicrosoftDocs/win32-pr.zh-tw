@@ -1,5 +1,5 @@
 ---
-description: Initialize 方法的 Proxy 函式。
+description: Initialize 方法的 IWICBitmapClipper_Initialize_Proxy 函數 Proxy 函式。
 ms.assetid: 60925f5c-aca4-4f49-96d2-9b58d8310e3c
 title: IWICBitmapClipper_Initialize_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 83c41b8802546b36ad309306ecc83a34c5d3a0c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce3c745d27928765fdfdf664c423f7e2146cbd5f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112852"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086386"
 ---
 # <a name="iwicbitmapclipper_initialize_proxy-function"></a>IWICBitmapClipper \_ Initialize \_ Proxy 函式
 
@@ -45,25 +45,25 @@ HRESULT IWICBitmapClipper_Initialize_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapClipper**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper) \** _
+類型： **[ **IWICBitmapClipper**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper)\***
 
-這個 [_ *IWICBitmapClipper* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper)物件的指標。
+這個 [**IWICBitmapClipper**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapclipper) 物件的指標。
 
 </dd> <dt>
 
 *pISource* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 輸入點陣圖來源。
 
 </dd> <dt>
 
-_prc * \[ in\]
+*中國* \[在\]
 </dt> <dd>
 
-類型： **Const [**WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \** _
+Type： **Const [**WICRect**](/windows/desktop/api/Wincodec/ns-wincodec-wicrect) \***
 
 要裁剪之點陣圖來源的矩形。
 
@@ -71,7 +71,7 @@ _prc * \[ in\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

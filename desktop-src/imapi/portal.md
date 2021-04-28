@@ -1,15 +1,15 @@
 ---
 title: 映射主控 API
-description: .
+description: 映射主控 API
 ms.assetid: 4902d3fb-3195-4909-ab64-28f8a77ba14c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc23c972cf111dee5edf3cb014a52351eda3605e
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 641d9357496eb82a7e30f25a711928b16eeee2bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103933692"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117576"
 ---
 # <a name="image-mastering-api"></a>映射主控 API
 

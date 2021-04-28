@@ -1,5 +1,5 @@
 ---
-description: 抓取資源中指定影像的相關資訊。
+description: D3DX10GetImageInfoFromResource 函式-取得資源中指定影像的相關資訊。
 ms.assetid: d413d887-77e0-43cc-a30e-67c3c40772f0
 title: 'D3DX10GetImageInfoFromResource 函式 (D3DX10Tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: e77efb973e20a5db708d28b49f0cee27bee7d4e5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 650d05f379be634bfdd9dfb0908153260f795b00
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098366"
 ---
 # <a name="d3dx10getimageinfofromresource-function"></a>D3DX10GetImageInfoFromResource 函式
 

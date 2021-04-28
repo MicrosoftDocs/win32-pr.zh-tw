@@ -1,5 +1,5 @@
 ---
-description: EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
+description: CRenderedInputPin. EndFlush 方法-EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
 ms.assetid: 5c27bf76-6886-431d-9958-5064c53909ec
 title: 'CRenderedInputPin. EndFlush 方法 (Amextra .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3d80f6cbc31a8bc5bf797847465a218f32631c1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7be740df2b3b45d0b681a86b8f70bed8e1395e8f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992968"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098916"
 ---
 # <a name="crenderedinputpinendflush-method"></a>CRenderedInputPin. EndFlush 方法
 

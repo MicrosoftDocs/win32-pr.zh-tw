@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CGenericList. ~ CGenericList 的函式-函式方法。
 ms.assetid: a5594dd2-b29b-49d6-b4de-5074ba3d0ce3
 title: 'CGenericList. ~ CGenericList (Wxlist 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3a1acdb5a414c73c452614fb82134f9063fc93be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3045ea4ebe89656f1ffd76e231e8fc22e95c0b93
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985776"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099186"
 ---
 # <a name="cgenericlistcgenericlist-destructor"></a>CGenericList. ~ CGenericList 的函式
 

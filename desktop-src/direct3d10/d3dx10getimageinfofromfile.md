@@ -1,5 +1,5 @@
 ---
-description: 抓取指定影像檔案的相關資訊。
+description: D3DX10GetImageInfoFromFile 函式-取得指定影像檔案的相關資訊。
 ms.assetid: 59bdce45-82d9-42da-b847-a29ca71919b5
 title: 'D3DX10GetImageInfoFromFile 函式 (D3DX10Tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 836d2e18b5c1c48bbe64d0026e97f8ebc5a066ba
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e11c4cb52176b0a144e164501f8c70d1e3678c1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986072"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098328"
 ---
 # <a name="d3dx10getimageinfofromfile-function"></a>D3DX10GetImageInfoFromFile 函式
 

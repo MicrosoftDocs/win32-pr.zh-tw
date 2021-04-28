@@ -1,5 +1,5 @@
 ---
-description: 捕獲系統資訊。
+description: IShellDispatch2. GetSystemInformation 方法-捕獲系統資訊。
 ms.assetid: 57c066e3-080f-4ecc-b56e-877f0569e901
 title: 'IShellDispatch2. GetSystemInformation 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 624c7383d458f20a13f0e2249ec302181fc4a7ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a81ac091dc1905c1cbcd2c41575c907ce957e60c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848301"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117106"
 ---
 # <a name="ishelldispatch2getsysteminformation-method"></a>IShellDispatch2. GetSystemInformation 方法
 

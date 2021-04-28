@@ -1,5 +1,5 @@
 ---
-description: EndFlush 方法會結束清除作業。
+description: COutputQueue. EndFlush 方法-EndFlush 方法會結束清除作業。
 ms.assetid: 9171a62a-9072-49a3-8e83-f66d7e1483da
 title: 'COutputQueue. EndFlush 方法 (Outputq .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e18afec866176147c5c75a57fca522c4ebc5fcf6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 37701526de66c8cd679f6849703c4eb2a1feb3ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976156"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099006"
 ---
 # <a name="coutputqueueendflush-method"></a>COutputQueue. EndFlush 方法
 

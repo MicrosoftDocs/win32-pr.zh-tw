@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.object
 ms.assetid: 9ed4685e-c726-480f-aa08-394fbaf5c730
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a51f24fac59bbc855e30585ebd61553eda601c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b1ab3e20bf501f903a6ffb563808e6c3ac37bd1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971726"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104887"
 ---
 # <a name="systemcommunicationsuffix"></a>System.object
 

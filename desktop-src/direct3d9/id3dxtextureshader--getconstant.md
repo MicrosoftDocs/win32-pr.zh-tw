@@ -1,5 +1,5 @@
 ---
-description: 藉由查閱索引來取得常數。
+description: ID3DXTextureShader：： GetConstant 方法-藉由查閱索引來取得常數。
 ms.assetid: 7d3ab655-b50d-41ab-a4ca-c7b534e00e3f
 title: 'ID3DXTextureShader：： GetConstant 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 24f3f78d5970d5e3beda119ca40a565f45d0d950
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: edcc4b6a7f34c12be7013f2ae1e0b2e6d991a5d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992740"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117666"
 ---
 # <a name="id3dxtextureshadergetconstant-method"></a>ID3DXTextureShader：： GetConstant 方法
 

@@ -1,15 +1,15 @@
 ---
-description: 當 InkCollector 類別偵測到已關閉的資料指標按鈕時發生。
+description: InkPicture. CursorButtonDown 事件-當 InkCollector 類別偵測到已關閉的資料指標按鈕時，就會發生此事件。
 ms.assetid: 9ee2c19e-8a44-428b-a4c1-3c7250dcdeda
 title: 'InkPicture. CursorButtonDown 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4531f41ce597d9cbb1fa0b8665a1821a8a32dd3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c2017cd7dc2291bdb29aa01df3d94f20211b7cf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194418"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116776"
 ---
 # <a name="inkpicturecursorbuttondown-event"></a>InkPicture. CursorButtonDown 事件
 

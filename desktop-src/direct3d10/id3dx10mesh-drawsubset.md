@@ -1,5 +1,5 @@
 ---
-description: 繪製網格的子集。
+description: ID3DX10Mesh：:D rawSubset 方法-繪製網格的子集。
 ms.assetid: e785949e-fcda-4ef9-b50a-193cd954e97d
 title: 'ID3DX10Mesh：:D rawSubset 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 80beceebeead84a782cc7852ac0d2fe15ad61ff3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8441bfe4c5d965733a40816ff2def1015f3eb79c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976706"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084036"
 ---
 # <a name="id3dx10meshdrawsubset-method"></a>ID3DX10Mesh：:D rawSubset 方法
 

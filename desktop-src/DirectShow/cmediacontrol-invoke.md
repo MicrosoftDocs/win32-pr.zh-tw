@@ -1,5 +1,5 @@
 ---
-description: 提供物件所公開的屬性和方法的存取權。
+description: CMediaControl 方法-提供對物件所公開之屬性和方法的存取。
 ms.assetid: 05006f1e-24ff-4ed2-8291-2ba48495fec0
 title: 'CMediaControl： Invoke 方法 (Ctlutil) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7b9a29d163180ffc609ca44f2bbbfb2870c5faef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe077b2c69f603eef8737cbf7ea8c514e9b90c85
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085636"
 ---
 # <a name="cmediacontrolinvoke-method"></a>CMediaControl 方法
 

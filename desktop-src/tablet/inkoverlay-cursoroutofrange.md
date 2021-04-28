@@ -1,15 +1,15 @@
 ---
-description: 當資料指標離開 tablet 內容 (鄰近) 的實體偵測範圍時發生。
+description: CursorOutOfRange 事件-當資料指標離開實體偵測範圍 (的 tablet 內容) 時，就會發生此事件。
 ms.assetid: c696b2a9-dc47-4b73-a556-9bb222f5bf59
 title: 'CursorOutOfRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1510013d24bf092a08ba7d57b54c0f94bf7c2dcb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2a30bfde1e96edfa286e9afeac147dc141c4942
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975908"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116956"
 ---
 # <a name="inkoverlaycursoroutofrange-event"></a>CursorOutOfRange 事件
 

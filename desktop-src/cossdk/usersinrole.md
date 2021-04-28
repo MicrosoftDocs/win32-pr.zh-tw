@@ -1,5 +1,5 @@
 ---
-description: 針對與集合相關的角色中的每個使用者，各包含一個物件。
+description: UsersInRole 集合-包含與集合相關的角色中每位使用者的物件。
 ms.assetid: e7d9e5e8-1927-42b2-bdd5-0c49a562c31f
 title: UsersInRole 集合
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e5bf36937d08efd377b48ef251ffb7219c05504f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1b73c495a1af1dec9114e5a59274e457c1d09694
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187771"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105536"
 ---
 # <a name="usersinrole-collection"></a>UsersInRole 集合
 

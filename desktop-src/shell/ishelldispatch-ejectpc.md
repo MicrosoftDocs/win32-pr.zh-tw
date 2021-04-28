@@ -1,5 +1,5 @@
 ---
-description: 從其銜接站彈出電腦。 如果您的電腦支援此命令，則這與按一下 [開始] 功能表並選取 [退出電腦] 相同。
+description: IShellDispatch. EjectPC 方法-從銜接站彈出電腦。 如果您的電腦支援此命令，則這與按一下 [開始] 功能表並選取 [退出電腦] 相同。
 ms.assetid: 34448D82-187C-40aa-90B4-A4111B33048B
 title: 'IShellDispatch. EjectPC 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d85dd8c007338dca3d68183bc9ba3fbd333195ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac42e1a4331a553a03bac3da50a187e06c90859c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191618"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086636"
 ---
 # <a name="ishelldispatchejectpc-method"></a>IShellDispatch. EjectPC 方法
 

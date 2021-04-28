@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用接收寫入器
 ms.assetid: BE89E2E0-711F-4BD5-BB86-AA4CCA2D3E7F
 title: 使用接收寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e46157eae6fe851468515f9d9653adb33918ebb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa4fa472bd1a5121454b3ffb06def7082508432b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943863"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110486"
 ---
 # <a name="using-the-sink-writer"></a>使用接收寫入器
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: ConflictDescription
 ms.assetid: a54f8cd9-fe6d-4ddc-bf00-261681cb6366
 title: ConflictDescription
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4018ed154cea80f7c1c5bd6710c975431fc856a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a22a62e5d0bb583422a1f90247b40032ebaefa6a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193734"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110366"
 ---
 # <a name="systemsyncconflictdescription"></a>ConflictDescription
 

@@ -1,5 +1,5 @@
 ---
-description: 在指定的檔案上執行指定的作業。
+description: IShellDispatch2. ShellExecute 方法-在指定的檔案上執行指定的作業。
 ms.assetid: a55e804c-ed7c-4b22-b86f-8e5653976654
 title: 'IShellDispatch2. ShellExecute 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ed5a8a2732f8ca358a0582d1da23aa7ffa7a98df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c058275948d5d96805ae24a76389321d7c69b8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972384"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117016"
 ---
 # <a name="ishelldispatch2shellexecute-method"></a>IShellDispatch2. ShellExecute 方法
 

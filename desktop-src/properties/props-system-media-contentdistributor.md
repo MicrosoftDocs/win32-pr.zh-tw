@@ -1,15 +1,15 @@
 ---
-description: .
+description: ContentDistributor
 ms.assetid: b4c65279-e94e-48d2-bd6c-60980cacc154
 title: ContentDistributor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d25109130df48075d06dfa3b7995db32077cd8
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 2ddd660c886aa31c5eb718262ab6b4e8a7a64706
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116049"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092256"
 ---
 # <a name="systemmediacontentdistributor"></a>ContentDistributor
 

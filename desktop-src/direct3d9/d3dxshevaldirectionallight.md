@@ -1,5 +1,5 @@
 ---
-description: 評估方向輕量，並傳回光譜的球面調和 (SH) 資料。
+description: D3DXSHEvalDirectionalLight 函式 (D3dx9math) -評估方向輕量，並傳回光譜的球面調和 (SH) 資料。
 ms.assetid: 6e2e9b02-13bb-4cef-ae9d-343fbf64e5d7
 title: 'D3DXSHEvalDirectionalLight 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c78ee4059ed83b97e7ac1f392f857351df48ee7c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 488682eca230c8da6cc5048aded4a7a1e7f71bfd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104557553"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117906"
 ---
 # <a name="d3dxshevaldirectionallight-function-d3dx9mathh"></a>D3DXSHEvalDirectionalLight 函式 (D3dx9math) 
 

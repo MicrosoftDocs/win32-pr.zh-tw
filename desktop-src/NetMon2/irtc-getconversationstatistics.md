@@ -1,5 +1,5 @@
 ---
-description: GetConversationStatistics 方法會抓取目前 capture 的會話和站資訊。
+description: IRTC：： GetConversationStatistics 方法-GetConversationStatistics 方法會抓取目前 capture 的會話和站資訊。
 ms.assetid: 27f364cd-fee9-4262-b181-c5f15fb12e51
 title: 'IRTC：： GetConversationStatistics 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 758488cb3c3f65922bbf6aac4f39774a5430fc92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d2476f4eb33d7e74d0de8363fa88d5e688a2e73
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848767"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110696"
 ---
 # <a name="irtcgetconversationstatistics-method"></a>IRTC：： GetConversationStatistics 方法
 

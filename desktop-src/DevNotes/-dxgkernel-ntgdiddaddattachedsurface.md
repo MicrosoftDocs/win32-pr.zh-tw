@@ -1,5 +1,5 @@
 ---
-description: 將介面附加至另一個介面。
+description: NtGdiDdAddAttachedSurface 函式-將介面附加至另一個介面。
 ms.assetid: c4ef9e96-c498-4175-a2cd-22e0f88fd86e
 title: 'NtGdiDdAddAttachedSurface 函式 (Ntgdi) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: d6e87d3a077c1381eeaa306e594daec0f5b855d1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dacaa07a586a88c808d8da07b8233002e8ae5055
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847137"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085786"
 ---
 # <a name="ntgdiddaddattachedsurface-function"></a>NtGdiDdAddAttachedSurface 函式
 

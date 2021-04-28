@@ -1,5 +1,5 @@
 ---
-description: CheckMediaType 方法會判斷 pin 是否接受特定的媒體類型。
+description: CTransformOutputPin. CheckMediaType 方法-CheckMediaType 方法會判斷 pin 是否接受特定的媒體類型。
 ms.assetid: 9e31480b-129c-4741-846a-854c70c65606
 title: 'CTransformOutputPin. CheckMediaType 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c3c2bc617a5ff56a8b82184700af85e2634960ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7dc0edc642687518979eab1d47c69af039bc3173
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997747"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084906"
 ---
 # <a name="ctransformoutputpincheckmediatype-method"></a>CTransformOutputPin. CheckMediaType 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 建立此釘選之篩選準則的指標。
+description: CTransInPlaceInputPin：： m_pTIPFilter 成員指標指向建立此釘選的篩選準則。
 ms.assetid: a0be08c5-d120-4495-b80a-0fb90fad9238
 title: 'CTransInPlaceInputPin：： m_pTIPFilter 成員 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f6cfa887a85db9bebae60ad9aa4f46302a5f329d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d6991ee65ae9b7dc7dc8b7e6108c0074e95b0be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995663"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084676"
 ---
 # <a name="ctransinplaceinputpinm_ptipfilter-member"></a>CTransInPlaceInputPin：： m \_ pTIPFilter 成員
 

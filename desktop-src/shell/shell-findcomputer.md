@@ -1,25 +1,13 @@
 ---
-description: 顯示 [搜尋結果：電腦] 對話方塊。 此對話方塊會顯示指定電腦的搜尋結果。
-ms.assetid: 0304b955-afde-4de4-824a-9ec9c9530360
-title: 'FindComputer 方法 (Shldisp .h) '
-ms.topic: reference
-ms.date: 05/31/2018
-topic_type:
+描述： FindComputer 方法-' 顯示搜尋結果：電腦對話方塊。 此對話方塊會顯示指定電腦的搜尋結果。
+assetid： 0304b955-afde-4de4-824a-9ec9c9530360 title： FindComputer 方法 (Shldisp. h) ms. 主題： reference ms. date： 05/31/2018 topic_type： 
 - APIRef
-- kbSyntax
-api_name:
-- Shell.FindComputer
-api_type:
-- COM
-api_location:
+- kbSyntax api_name： 
+- Shell. FindComputer api_type： 
+- COM api_location： 
 - Shell32.dll
-ms.openlocfilehash: 3824eeb98bfac11e007d1bf7dd9f89153a7b73ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973693"
 ---
+
 # <a name="shellfindcomputer-method"></a>FindComputer 方法
 
 顯示 [ **搜尋結果：電腦** ] 對話方塊。 此對話方塊會顯示指定電腦的搜尋結果。
@@ -125,9 +113,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

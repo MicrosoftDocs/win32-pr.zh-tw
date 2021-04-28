@@ -1,15 +1,15 @@
 ---
-description: 發生于目前的選取範圍即將變更時（例如，透過變更使用者介面、剪下和貼上程式或選取屬性）。
+description: InkPicture. SelectionResizing 事件-發生于目前的選取範圍即將變更時（例如，透過變更使用者介面、剪下和貼上程式，或選取屬性）。
 ms.assetid: da708712-2773-45f5-9d9b-49fabe7fdb5a
 title: 'InkPicture. SelectionResizing 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa1b7923810777c6ebe0af3364121cbcee67b18d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8f70b0b502fe426cfd94ce9002e8bbfc5260a88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945165"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086416"
 ---
 # <a name="inkpictureselectionresizing-event"></a>InkPicture. SelectionResizing 事件
 

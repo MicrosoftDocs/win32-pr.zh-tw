@@ -1,5 +1,5 @@
 ---
-description: TakeOwnerShip&\# 8194;WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
+description: Win32_PageFile 類別的 TakeOwnerShip 方法-TakeOwnerShip&\# 8194;WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
 ms.assetid: c4f42d54-562c-4163-a5ec-e94f76932631
 ms.tgt_platform: multiple
 title: Win32_PageFile 類別的 TakeOwnerShip 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3265e0acc065f63daca2ed6485269ac8c006ad8d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3aa0b2ec9f3805f1877f86bdf86d72b921d53ac9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510735"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086016"
 ---
 # <a name="takeownership-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 TakeOwnerShip 方法
 

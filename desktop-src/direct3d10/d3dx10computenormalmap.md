@@ -1,5 +1,5 @@
 ---
-description: 將高度地圖轉換成一般地圖。 每個標準的 (x、y、z) 元件都會對應到輸出材質 (r、g、b) 通道。
+description: D3DX10ComputeNormalMap 函式-將高度地圖轉換成一般地圖。 每個標準的 (x、y、z) 元件都會對應到輸出材質 (r、g、b) 通道。
 ms.assetid: 535033dd-f078-4d56-8e5d-cdda80ef5992
 title: 'D3DX10ComputeNormalMap 函式 (D3DX10Tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1d7318e6d00d921ba0d573eb6fb696eed6c6a58d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 173a8e0c1b3130a399152187eb52288a0306051c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989204"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105316"
 ---
 # <a name="d3dx10computenormalmap-function"></a>D3DX10ComputeNormalMap 函式
 

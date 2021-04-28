@@ -1,15 +1,15 @@
 ---
-description: 發生于滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，並放開滑鼠按鍵時。
+description: InkOverlay 事件-當滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，並放開滑鼠按鍵時，就會發生此事件。
 ms.assetid: 049e1560-d4b2-4d34-9d54-2b45217001b2
 title: 'InkOverlay 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f16fd3dc5006f43e09e093cb2c474a8578f56c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 402083aa677b134ea469980227a482ac5546da2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194423"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086806"
 ---
 # <a name="inkoverlaymouseup-event"></a>InkOverlay 事件
 

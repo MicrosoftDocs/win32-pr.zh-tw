@@ -1,15 +1,15 @@
 ---
-description: .
+description: BusinessAddress3PostalCode
 ms.assetid: d78dd319-6ed1-47e5-8ac9-f0e93cca7144
 title: BusinessAddress3PostalCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0604e469c823ba285c4b344c02d5d2d6c18fa8fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21a26a66cc17362a5889e29ec5a2a059daba4489
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976917"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104746"
 ---
 # <a name="systemcontactbusinessaddress3postalcode"></a>BusinessAddress3PostalCode
 

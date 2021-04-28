@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用範例捕獲接收器
 ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: 使用範例捕獲接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e7f0d64dfeb1cf5fd977e312b34aec49cad254
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 043f64d8fdc3ac3084d2c59be8917acbbd32dde5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513036"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110497"
 ---
 # <a name="using-the-sample-grabber-sink"></a>使用範例捕獲接收器
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.servicemodel
 ms.assetid: cb04c41f-35e3-4483-9bc5-5e4f2e45042f
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0fc46903bae4270aaed15b43d4dda01cfbbc747
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 068abb200873299e33c8b24e23b4d987ebfea5ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692843"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117436"
 ---
 # <a name="systemmusicconductor"></a>System.servicemodel
 

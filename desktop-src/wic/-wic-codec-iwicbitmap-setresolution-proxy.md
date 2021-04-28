@@ -1,5 +1,5 @@
 ---
-description: SetResolution 方法的 Proxy 函式。
+description: SetResolution 方法的 IWICBitmap_SetResolution_Proxy 函數 Proxy 函式。
 ms.assetid: c4e3927c-6f9d-401d-acd7-711674cdbb53
 title: IWICBitmap_SetResolution_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: eef599147a67986c6b9853f7a67e53a15be68e00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f11189307ad14dde6ea1e1373583a8ab4b08b9be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991818"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086376"
 ---
 # <a name="iwicbitmap_setresolution_proxy-function"></a>IWICBitmap \_ SetResolution \_ Proxy 函式
 
@@ -45,9 +45,9 @@ HRESULT IWICBitmap_SetResolution_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) \** _
+類型： **[ **IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)\***
 
-這個 [_ *IWICBitmap* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap)物件的指標。
+這個 [**IWICBitmap**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmap) 物件的指標。
 
 </dd> <dt>
 

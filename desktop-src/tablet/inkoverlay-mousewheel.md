@@ -1,15 +1,15 @@
 ---
-description: 發生于 InkCollector 或 InkOverlay 物件具有焦點時，滑鼠滾輪移動時。
+description: 滑鼠滾輪事件-發生于滑鼠滾輪移動時，當 InkCollector 或 InkOverlay 物件具有焦點時，就會發生此事件。
 ms.assetid: b7269e07-7001-48ca-8e20-a39cb02f3719
 title: '滑鼠滾輪事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bbd919fdf02d85c32efa2a1a923d5de7ebe4f5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 468dbdac09fd40144768e8342791d5712a570bcc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852176"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116886"
 ---
 # <a name="inkoverlaymousewheel-event"></a>滑鼠滾輪事件
 

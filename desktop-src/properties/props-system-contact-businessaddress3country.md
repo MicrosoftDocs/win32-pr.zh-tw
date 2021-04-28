@@ -1,15 +1,15 @@
 ---
-description: .
+description: BusinessAddress3Country
 ms.assetid: d0c75091-0052-4ec0-a6cb-3bc0721a7b14
 title: BusinessAddress3Country
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1634f6de5b39235150c607676be7eeab0e8bdcdc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2318628ce07b6e1d6940d21ffba574c7d2506931
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980513"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104786"
 ---
 # <a name="systemcontactbusinessaddress3country"></a>BusinessAddress3Country
 

@@ -1,15 +1,15 @@
 ---
-description: 發生于目前選取範圍的位置變更時，例如透過對使用者介面的改變、剪下和貼上程式，或選取專案屬性。
+description: InkPicture. SelectionMoved 事件-發生于目前選取範圍的位置已變更時，例如透過變更使用者介面、剪下和貼上程式，或選取專案屬性。
 ms.assetid: 669dc6c2-1620-40f3-b4b5-7ab8967e739a
 title: 'InkPicture. SelectionMoved 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25810b87d5a0a3554c46b1a3869bb9b6c88d2fb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2006b2580e8732c90187b265576b217cdbad9b02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319727"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086446"
 ---
 # <a name="inkpictureselectionmoved-event"></a>InkPicture. SelectionMoved 事件
 

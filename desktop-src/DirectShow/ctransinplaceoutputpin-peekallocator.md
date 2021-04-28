@@ -1,5 +1,5 @@
 ---
-description: PeekAllocator 方法會傳回釘選配置器的指標。 方法不會遞增介面上的參考計數。
+description: CTransInPlaceOutputPin. PeekAllocator 方法-PeekAllocator 方法會傳回釘選配置器的指標。 方法不會遞增介面上的參考計數。
 ms.assetid: 3653d472-059c-426c-8e81-4f7cbd1a8ec3
 title: 'CTransInPlaceOutputPin. PeekAllocator 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 805de37e2df2bf5a198107eea69d9107e799598c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cba87df1c4b9a3391d60e9458387e7b2bd4afd49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992852"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084596"
 ---
 # <a name="ctransinplaceoutputpinpeekallocator-method"></a>CTransInPlaceOutputPin. PeekAllocator 方法
 
