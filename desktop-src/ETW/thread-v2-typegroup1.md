@@ -1,5 +1,5 @@
 ---
-description: 這個類別是執行緒開始和結束事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: Thread_V2_TypeGroup1 類別-這個類別是執行緒開始和結束事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: c24b4bc9-2a05-444c-be41-b4dfd0511b93
 title: Thread_V2_TypeGroup1 類別
 ms.topic: reference
@@ -22,12 +22,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c89d573f4eda2580002bedfd0ad17eb9b50c1575
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24ac4655fc374c40eb530828229a319f9ee1375e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193326"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105656"
 ---
 # <a name="thread_v2_typegroup1-class"></a>執行緒 \_ V2 \_ TypeGroup1 類別
 

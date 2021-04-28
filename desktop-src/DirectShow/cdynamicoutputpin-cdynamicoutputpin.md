@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CDynamicOutputPin。 CDynamicOutputPin 函式-函數方法。
 ms.assetid: 996adc69-8727-431e-a7f5-8fbcc0e305ae
 title: 'CDynamicOutputPin. CDynamicOutputPin (Amfilter. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7f45a2fee25796f39c7d8b358b1ac83e4a5b1daa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4fe6dad14399b5b124b0146ea8b7ca101c8fa817
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984467"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099306"
 ---
 # <a name="cdynamicoutputpincdynamicoutputpin-constructor"></a>CDynamicOutputPin. CDynamicOutputPin 函數
 

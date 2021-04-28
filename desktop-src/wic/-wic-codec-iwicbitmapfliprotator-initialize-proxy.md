@@ -1,5 +1,5 @@
 ---
-description: Initialize 方法的 Proxy 函式。
+description: Initialize 方法的 IWICBitmapFlipRotator_Initialize_Proxy 函數 Proxy 函式。
 ms.assetid: 860e8092-054d-489e-8ca1-fec43a039eca
 title: IWICBitmapFlipRotator_Initialize_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 82a1aa5648edd47d0b635a407adc001c25183b50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a260d6e60c0ffdeb05aa064ae8abbb38818ac8c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970407"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091156"
 ---
 # <a name="iwicbitmapfliprotator_initialize_proxy-function"></a>IWICBitmapFlipRotator \_ Initialize \_ Proxy 函式
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapFlipRotator_Initialize_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) \** _
+類型： **[ **IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)\***
 
-這個 [_ *IWICBitmapFlipRotator* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator)物件的指標。
+這個 [**IWICBitmapFlipRotator**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapfliprotator) 物件的指標。
 
 </dd> <dt>
 
 *pISource* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
 輸入點陣圖來源。
 
 </dd> <dt>
 
-_options * \[ in\]
+*選項* \[在\]
 </dt> <dd>
 
 類型： **[ **WICBitmapTransformOptions**](/windows/desktop/api/Wincodec/ne-wincodec-wicbitmaptransformoptions)**

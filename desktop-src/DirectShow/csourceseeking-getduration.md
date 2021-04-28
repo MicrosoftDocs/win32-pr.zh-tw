@@ -1,5 +1,5 @@
 ---
-description: GetDuration 方法會捕獲資料流程的持續時間。 這個方法會實 IMediaSeeking：： GetDuration 方法。
+description: CSourceSeeking. GetDuration 方法-GetDuration 方法會捕獲資料流程的持續時間。 這個方法會實 IMediaSeeking：： GetDuration 方法。
 ms.assetid: 074eb2d0-a7a3-4bc1-82e8-2f42c6d43dac
 title: 'CSourceSeeking. GetDuration 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8368f655394089c1155d848bc53d2ba2375e3320
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d5b961ad62d65c1f728af71e82de1373ea20b1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978766"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098766"
 ---
 # <a name="csourceseekinggetduration-method"></a>CSourceSeeking. GetDuration 方法
 

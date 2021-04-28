@@ -1,5 +1,5 @@
 ---
-description: Start 方法會啟動 capture。
+description: IDelaydC：： Start 方法-Start 方法會啟動 capture。
 ms.assetid: 92b25afc-d5d8-47e4-a155-4ed2a3571038
 title: 'IDelaydC：： Start 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: a912af44dddb8a25d3279a5cdd7f021646c26e5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25bf778d9cccce20c736c5f8b83e6af9754ac933
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972812"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118436"
 ---
 # <a name="idelaydcstart-method"></a>IDelaydC：： Start 方法
 

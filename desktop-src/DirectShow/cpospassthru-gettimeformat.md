@@ -1,5 +1,5 @@
 ---
-description: GetTimeFormat 方法會抓取目前的時間格式。 這個方法會實 IMediaSeeking：： GetTimeFormat 方法。
+description: CPosPassThru. GetTimeFormat 方法-GetTimeFormat 方法會抓取目前的時間格式。 這個方法會實 IMediaSeeking：： GetTimeFormat 方法。
 ms.assetid: 445c1873-da6f-42be-a4cf-0c475c5f0723
 title: 'CPosPassThru. GetTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f7db1b46cfe2ac06dc43b52009043ae32676f154
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 903d1c6163d4cad5c5b9ca22213b02542bb3da49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995970"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085586"
 ---
 # <a name="cpospassthrugettimeformat-method"></a>CPosPassThru. GetTimeFormat 方法
 

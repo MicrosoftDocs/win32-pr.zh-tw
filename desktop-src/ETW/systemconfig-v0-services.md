@@ -1,5 +1,5 @@
 ---
-description: 此類別是服務設定事件的事件種類類別。
+description: SystemConfig_V0_Services 類別-這個類別是服務設定事件的事件種類類別。
 ms.assetid: 1e6c2061-f1a2-4253-a0c4-4b45b2feceda
 title: SystemConfig_V0_Services 類別
 ms.topic: reference
@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 6c061c6a0c4cbb3e807bcb3418155b1194fcfa28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b69ca7cf4ee4e16a5fbcb6a5f10c659f713ab458
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320704"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105926"
 ---
 # <a name="systemconfig_v0_services-class"></a>SystemConfig \_ V0 \_ 服務類別
 

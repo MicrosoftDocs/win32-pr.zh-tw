@@ -1,5 +1,5 @@
 ---
-description: 中斷連接方法會中斷目前的 pin 連線。 這個方法會實 IPin：:D isconnect 方法。
+description: CDynamicOutputPin 中斷連接方法-中斷連接方法會中斷目前的 pin 連線。 這個方法會實 IPin：:D isconnect 方法。
 ms.assetid: 8d92a504-98ad-4f8f-89a4-f0c80763db44
 title: 'CDynamicOutputPin 連接方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 65c61ecc825d703976aa3163be5922da1ac4471a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a775146973b353413fa2e74584a6c763b721e7b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000938"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099296"
 ---
 # <a name="cdynamicoutputpindisconnect-method"></a>CDynamicOutputPin 中斷方法
 

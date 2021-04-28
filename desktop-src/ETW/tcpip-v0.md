@@ -1,5 +1,5 @@
 ---
-description: 這個類別是 TCP/IP 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: TcpIp_V0 類別-這個類別是 TCP/IP 事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 8738dc11-f1d4-4c30-b2ea-c34a8fdce9ac
 title: TcpIp_V0 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 27262e0472984a7943a1d52bf8479526f96c5ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20cbe5c03d686ae8a4b1558899362251ba219e0c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848519"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105766"
 ---
 # <a name="tcpip_v0-class"></a>TcpIp \_ V0 類別
 

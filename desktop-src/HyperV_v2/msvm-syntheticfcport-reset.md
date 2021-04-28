@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_SyntheticFcPort 類別的 reset 方法-要求重設。
 ms.assetid: 971669cf-1ef3-493d-9f64-4b2b48bbc6cb
 title: Msvm_SyntheticFcPort 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 03e03b9ec57caefaf8bbe53c5146819b0b601e70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 335aa1fc6f8b7996efd74e07c3958020066ece72
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970138"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111276"
 ---
 # <a name="reset-method-of-the-msvm_syntheticfcport-class"></a>Msvm SyntheticFcPort 類別的 Reset 方法 \_
 

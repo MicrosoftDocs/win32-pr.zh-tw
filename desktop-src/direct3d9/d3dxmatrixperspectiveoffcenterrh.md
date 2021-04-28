@@ -1,5 +1,5 @@
 ---
-description: 建立自訂、右手右手的透視圖投影矩陣。
+description: D3DXMatrixPerspectiveOffCenterRH 函式 (D3dx9math) -建立自訂、右手的透視圖投影矩陣。
 ms.assetid: e6826e46-fc80-41fa-b0d8-45b6797df76f
 title: 'D3DXMatrixPerspectiveOffCenterRH 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8c4f211c6f57f60f8399fb5639edd07c3fc02377
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3d051894a6706cf8d58b81a85003666513f2a956
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196378"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118276"
 ---
 # <a name="d3dxmatrixperspectiveoffcenterrh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveOffCenterRH 函式 (D3dx9math) 
 

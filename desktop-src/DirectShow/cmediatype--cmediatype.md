@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CMediaType. ~ CMediaType 的函式-函式方法。
 ms.assetid: 92375e95-adfb-414b-abbb-e827db2186ac
 title: 'CMediaType. ~ CMediaType (Mtype 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 26efde8fe7d3c3efd0f29c77945011cef5834829
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6c7a00d4a91f4fe871565b25f165e81df0f533ac
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981872"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099086"
 ---
 # <a name="cmediatypecmediatype-destructor"></a>CMediaType. ~ CMediaType 的函式
 

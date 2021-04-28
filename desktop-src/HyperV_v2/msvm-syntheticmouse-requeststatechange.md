@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_SyntheticMouse 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 6c29dc19-0e5a-48cc-ae4a-f7cf127678b2
 title: Msvm_SyntheticMouse 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0b708262f71b733610052f1b778315f9b009e78b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 427dc0176856389f2eab2ae0c002c522f81048f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999849"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111206"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 RequestStateChange 方法 \_
 

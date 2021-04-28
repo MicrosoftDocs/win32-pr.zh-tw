@@ -1,5 +1,5 @@
 ---
-description: 在指定的檔案上執行指定的作業。
+description: ShellExecute 方法-在指定的檔案上執行指定的作業。
 ms.assetid: 62E59A1C-51BD-4864-AF09-35FFD49FAB9D
 title: Shell.ShellExecute 方法 (Shldisp.h)
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 83ab9741199bff675245f15dc2ad1ffb20592a35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fd31f0859fff5a1c94d5586f287e4a8980ddc02
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973316"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104126"
 ---
 # <a name="shellshellexecute-method"></a>ShellExecute 方法
 

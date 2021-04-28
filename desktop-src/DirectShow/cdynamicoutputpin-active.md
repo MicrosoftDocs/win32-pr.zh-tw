@@ -1,5 +1,5 @@
 ---
-description: 使用中的方法會通知釘選篩選現在為使用中狀態。
+description: CDynamicOutputPin 方法-使用中的方法會通知釘選篩選現在為使用中狀態。
 ms.assetid: c2b8eb54-1bae-4f52-8324-dc70e3cac577
 title: 'CDynamicOutputPin 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8f1765d0aa524c0dafd03a3fe4133af71e32fa70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d9544c0fd125146b10f008565fcfbe330d18de1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984884"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099326"
 ---
 # <a name="cdynamicoutputpinactive-method"></a>CDynamicOutputPin 方法
 

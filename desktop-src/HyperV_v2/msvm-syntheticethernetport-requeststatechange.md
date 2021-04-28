@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_SyntheticEthernetPort 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 9aea3a8e-8b62-48c3-bbdb-49f24aeeca22
 title: Msvm_SyntheticEthernetPort 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 328f7eab1538c0d26cbdcc3cf4c2030f20ea58cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a751ba40be7ddeb6d71f104036487dd8acb209a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026505"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111306"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticethernetport-class"></a>Msvm SyntheticEthernetPort 類別的 RequestStateChange 方法 \_
 

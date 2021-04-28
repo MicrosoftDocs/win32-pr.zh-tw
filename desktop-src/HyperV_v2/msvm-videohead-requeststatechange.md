@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VideoHead 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: c780c162-3352-4f13-a84a-26eb99f9d380
 title: Msvm_VideoHead 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 086d69ce7bb3a0b133463315d10257b87cd33564
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71b5022ac8b567d318dadad558561c7d23603017
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943678"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111096"
 ---
 # <a name="requeststatechange-method-of-the-msvm_videohead-class"></a>Msvm VideoHead 類別的 RequestStateChange 方法 \_
 

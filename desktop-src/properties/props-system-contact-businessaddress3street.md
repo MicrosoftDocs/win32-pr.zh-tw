@@ -1,15 +1,15 @@
 ---
-description: .
+description: BusinessAddress3Street
 ms.assetid: c99a73fb-9c03-47d2-a3b8-2391f19650a0
 title: BusinessAddress3Street
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae75a640e3090822ddefb79dfdf956cf4216ce08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 151c187ec8a9b8d8d609f905681b8b0433e7d0e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978006"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104706"
 ---
 # <a name="systemcontactbusinessaddress3street"></a>BusinessAddress3Street
 

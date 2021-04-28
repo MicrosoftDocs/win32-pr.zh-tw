@@ -1,15 +1,15 @@
 ---
-description: .
+description: 文件
 ms.assetid: 019b2fa7-fbaf-45d6-b5ff-4eefbae2e57a
 title: 文件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83e8983cd5a3abb307ad23894ba9e2500e70e672
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 885446ff8538ce463aa18ae2d4f3ddd522a82127
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984591"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105036"
 ---
 # <a name="document"></a>文件
 

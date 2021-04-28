@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_TerminalConnection 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: bbc0aa97-e38f-4ad8-b607-998dda57cfff
 title: Msvm_TerminalConnection 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 75c275711812cab0fa39e895d76c2fe323e18125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1dd7b5c797304ac7e0d272952dbc23bd936e27a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112297"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111189"
 ---
 # <a name="requeststatechange-method-of-the-msvm_terminalconnection-class"></a>Msvm TerminalConnection 類別的 RequestStateChange 方法 \_
 

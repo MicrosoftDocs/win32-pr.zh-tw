@@ -1,15 +1,15 @@
 ---
-description: .
+description: Internet Explorer 相容性測試工具 (IECTT)
 ms.assetid: 11169540-555A-48A9-A4CD-535D5765C005
 title: Internet Explorer 相容性測試工具 (IECTT)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f25e39263f448c7e11db1be32463b3801e4a8761
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3a35b3120e95c668f2808c9c525d0c1d4f89f8f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984554"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088282"
 ---
 # <a name="internet-explorer-compatibility-test-tool-iectt"></a>Internet Explorer 相容性測試工具 (IECTT)
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows Search 結構
 ms.assetid: 11c84bd0-9314-4c57-9466-57bcce7c2883
 title: Windows Search 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c23b1568c22ec13a7b7a24a7c822a7505706d73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 920a072f631ef70cbcba8beb4cbea67cd9e48080
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112404"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108091276"
 ---
 # <a name="windows-search-structures"></a>Windows Search 結構
 

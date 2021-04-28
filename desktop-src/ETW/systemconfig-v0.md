@@ -1,5 +1,5 @@
 ---
-description: 此類別是硬體設定事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: SystemConfig_V0 類別-此類別是硬體設定事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 9da1a7ec-89b5-462b-a336-544e4b7adf96
 title: SystemConfig_V0 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 92d77d1ad3effdd2bf22a7df8112187b27666238
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f0c579f4fb9c947ea02ff677cd433da3103cfc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848857"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105906"
 ---
 # <a name="systemconfig_v0-class"></a>SystemConfig \_ V0 類別
 

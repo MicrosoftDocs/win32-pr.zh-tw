@@ -1,5 +1,5 @@
 ---
-description: 代表憑證物件的集合。
+description: 憑證物件-表示憑證物件的集合。
 ms.assetid: 82011c49-38fb-4261-8fb3-b76859da8a9e
 title: 憑證物件
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 2e8c12c16820342c5687720a35ce81aa7b94f180
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8efb9221f39b8544eabe8f6c00d21f6cfdf20c14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997439"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098386"
 ---
 # <a name="certificates-object"></a>憑證物件
 

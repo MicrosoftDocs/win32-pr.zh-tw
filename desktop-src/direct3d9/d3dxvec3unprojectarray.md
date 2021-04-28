@@ -1,5 +1,5 @@
 ---
-description: 投射陣列 (x、y、z、0) 從螢幕空間到物件空間。
+description: D3DXVec3UnprojectArray 函式 (D3dx9math) -投射陣列 (x、y、z、0) 從螢幕空間到物件空間。
 ms.assetid: fef2a76c-c2fe-48c5-a1bb-6669bcc76b9b
 title: 'D3DXVec3UnprojectArray 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 3af4cc05b5f8ee30c624f904df7e2ae5cd4b844a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 67e42b30a8f8d44bb9b21668a515a202436b7631
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946218"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097716"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx9mathh"></a>D3DXVec3UnprojectArray 函式 (D3dx9math) 
 

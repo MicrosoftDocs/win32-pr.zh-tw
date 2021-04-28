@@ -1,5 +1,5 @@
 ---
-description: 建立圍繞 X 軸旋轉的矩陣。
+description: D3DXMatrixRotationX 函式 (D3dx9math) -建立繞著 X 軸旋轉的矩陣。
 ms.assetid: 45a2668d-787f-4354-882a-94a72edaa543
 title: 'D3DXMatrixRotationX 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c1d3dd85a4cd0e5f9e668856a4d6d2f87bbdf108
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4f51f8acab7caddd4571d60f7deae795440f02a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386420"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118176"
 ---
 # <a name="d3dxmatrixrotationx-function-d3dx9mathh"></a>D3DXMatrixRotationX 函式 (D3dx9math) 
 

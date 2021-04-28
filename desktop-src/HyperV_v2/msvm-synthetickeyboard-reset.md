@@ -1,5 +1,5 @@
 ---
-description: 重設虛擬鍵盤。
+description: 重設 Msvm_SyntheticKeyboard 類別的方法-重設虛擬鍵盤。
 ms.assetid: 2a943dd8-3b94-4b20-8786-7f9d8b0aeaa6
 title: Msvm_SyntheticKeyboard 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 05c5b8dbfba04eca6e0b118ae20f2ad172d324e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fbaa420f2d99fa2670717f98b0bcf6d42157d43
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191162"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111266"
 ---
 # <a name="reset-method-of-the-msvm_synthetickeyboard-class"></a>Msvm SyntheticKeyboard 類別的 Reset 方法 \_
 

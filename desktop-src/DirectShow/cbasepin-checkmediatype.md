@@ -1,5 +1,5 @@
 ---
-description: CheckMediaType 方法會判斷 pin 是否接受特定的媒體類型。
+description: CBasePin. CheckMediaType 方法-CheckMediaType 方法會判斷 pin 是否接受特定的媒體類型。
 ms.assetid: 6a138679-02b7-4ccc-8881-a0d496f84f93
 title: 'CBasePin. CheckMediaType 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e203851a44a5468567e75ee8c0cc955f8ad0278a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: afe39f3a7aac155f3cc87fa6d58f402043861d1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000973"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099395"
 ---
 # <a name="cbasepincheckmediatype-method"></a>CBasePin. CheckMediaType 方法
 

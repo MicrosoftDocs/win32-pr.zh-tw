@@ -1,5 +1,5 @@
 ---
-description: 這個類別是 TCP/IP 失敗事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: TcpIp_Fail 類別-這個類別是 TCP/IP 失敗事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 1fe20b8c-b8f1-4db0-af78-1ebfc40b2bbd
 title: TcpIp_Fail 類別
 ms.topic: reference
@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a89d882509ea766e62c8b78e6c2a5fa769fbcca9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 897c42a1c2530d3e41d1f937d5d59356a2913e2b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972508"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105846"
 ---
 # <a name="tcpip_fail-class"></a>TcpIp \_ 失敗類別
 

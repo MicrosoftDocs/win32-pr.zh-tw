@@ -1,15 +1,15 @@
 ---
-description: .
+description: 檔案庫取代檔資料夾
 ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: 檔案庫取代檔資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15431f5fb5fb5e73dbaf171625a0a6582fa7add2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 699c645d574012a419f77538bcc58d61a4938120
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852024"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088376"
 ---
 # <a name="file-library-replaces-document-folder"></a>檔案庫取代檔資料夾
 

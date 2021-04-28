@@ -1,5 +1,5 @@
 ---
-description: 傳回2D 向量的正規化版本。
+description: D3DXVec2Normalize 函式 (D3dx9math) -傳回2D 向量的正規化版本。
 ms.assetid: 2796a5d1-cb1c-4093-87f2-a2ad43279d91
 title: 'D3DXVec2Normalize 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ce3152c622c9083438d35c73b20e05ca2523efc2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3322981be5c266bee20a61e85302cb22538a7b0d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035345"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097966"
 ---
 # <a name="d3dxvec2normalize-function-d3dx9mathh"></a>D3DXVec2Normalize 函式 (D3dx9math) 
 

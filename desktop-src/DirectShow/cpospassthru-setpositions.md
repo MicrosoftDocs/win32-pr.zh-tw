@@ -1,5 +1,5 @@
 ---
-description: SetPositions 方法會設定目前的位置和停止位置。 這個方法會實 IMediaSeeking：： SetPositions 方法。
+description: CPosPassThru. SetPositions 方法-SetPositions 方法會設定目前的位置和停止位置。 這個方法會實 IMediaSeeking：： SetPositions 方法。
 ms.assetid: d4425221-e20f-4e51-8a33-a74fa21f9117
 title: 'CPosPassThru. SetPositions 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 409b4a63f02e6751f987a53dad2836adecd27607
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f8c61f24ab51ffe7fa161830ef9a0c8bdd167256
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991237"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085476"
 ---
 # <a name="cpospassthrusetpositions-method"></a>CPosPassThru. SetPositions 方法
 

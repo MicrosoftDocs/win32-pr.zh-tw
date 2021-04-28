@@ -1,5 +1,5 @@
 ---
-description: DeliverBeginFlush 方法會要求連接的輸入 pin，以開始進行清除作業。
+description: CDynamicOutputPin. DeliverBeginFlush 方法-DeliverBeginFlush 方法會要求連接的輸入 pin，以開始進行清除操作。
 ms.assetid: eafc3835-7696-480b-abc8-154938e19b15
 title: 'CDynamicOutputPin. DeliverBeginFlush 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 242394a327b63fcc901b08f572096bf2f42238b9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e4158a3d6191325e8b647e4551133952d623f795
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993353"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099316"
 ---
 # <a name="cdynamicoutputpindeliverbeginflush-method"></a>CDynamicOutputPin. DeliverBeginFlush 方法
 

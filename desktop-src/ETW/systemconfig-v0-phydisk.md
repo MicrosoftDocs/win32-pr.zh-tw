@@ -1,5 +1,5 @@
 ---
-description: 此類別是實體磁片設定事件的事件種類類別。
+description: SystemConfig_V0_PhyDisk 類別-此類別是實體磁片設定事件的事件種類類別。
 ms.assetid: 90ca3089-de5c-4e15-8abf-eaab9aafff06
 title: SystemConfig_V0_PhyDisk 類別
 ms.topic: reference
@@ -25,12 +25,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2f7eab1cec90630e25ee5968e5740f787acb8662
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdb12fac8b2b902f21258fd4c7cfe9846d0456eb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973644"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105956"
 ---
 # <a name="systemconfig_v0_phydisk-class"></a>SystemConfig \_ V0 \_ PhyDisk 類別
 
