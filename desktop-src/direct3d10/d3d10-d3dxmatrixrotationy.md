@@ -1,5 +1,5 @@
 ---
-description: 建立圍繞 y 軸旋轉的矩陣。
+description: D3DXMatrixRotationY 函式 (D3DX10Math) -建立圍繞 y 軸旋轉的矩陣。
 ms.assetid: b58def9b-29dc-4c7d-89a3-188ef9b9f94f
 title: 'D3DXMatrixRotationY 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1ae6c0be4e9e53b62a0504997bfd4687fa3fcab5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 570179fadc9008c5f919acf657541e53ab399ac8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514681"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108966"
 ---
 # <a name="d3dxmatrixrotationy-function-d3dx10mathh"></a>D3DXMatrixRotationY 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: BeginFlush 方法會開始進行清除作業。
+description: COutputQueue. BeginFlush 方法-BeginFlush 方法開始進行清除作業。
 ms.assetid: d37b611e-742f-4bdf-bd72-a91cd1c473b3
 title: 'COutputQueue. BeginFlush 方法 (Outputq .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 462c3027e38bd94f061eb927c0d52576e29c997b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e7c6168daf766ec11e18e86673d9d25542b50462
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990699"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099026"
 ---
 # <a name="coutputqueuebeginflush-method"></a>COutputQueue. BeginFlush 方法
 

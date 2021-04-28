@@ -1,5 +1,5 @@
 ---
-description: Resume 方法會重新開機已暫停的捕獲。
+description: IDelaydC：： Resume 方法-Resume 方法會重新開機已暫停的捕獲。
 ms.assetid: 4fa47220-d323-407b-9dae-704969f66bdd
 title: 'IDelaydC：： Resume 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: ba0deef666c2e9829cb5a71d91e73da9c1b7d780
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c8c3b505e0e9fb306a444111cce22c8c580d015
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689707"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109186"
 ---
 # <a name="idelaydcresume-method"></a>IDelaydC：： Resume 方法
 

@@ -1,5 +1,5 @@
 ---
-description: GetTypeInfo 方法會抓取物件的型別資訊，然後用來取得介面的型別資訊。
+description: CMediaPosition. GetTypeInfo 方法-GetTypeInfo 方法會抓取物件的型別資訊，然後用它來取得介面的型別資訊。
 ms.assetid: 0a04c43d-8b4b-4780-b02f-04053c405c77
 title: 'CMediaPosition. GetTypeInfo 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6fa776ca71daff67185bf9fd2c1727f9535f8ac4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7827a3599f05061b5760084bed46cd2554b45f9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000438"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099136"
 ---
 # <a name="cmediapositiongettypeinfo-method"></a>CMediaPosition. GetTypeInfo 方法
 

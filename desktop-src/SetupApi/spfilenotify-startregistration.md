@@ -1,15 +1,15 @@
 ---
-description: 使用 RegisterDlls INF 指示詞來自行註冊 Dll 時，SetupInstallFromInfSection 的呼叫端可能會在每個檔案註冊或取消註冊時接收通知。
+description: SPFILENOTIFY_STARTREGISTRATION 訊息-使用 RegisterDlls INF 指示詞自行註冊 Dll 時，SetupInstallFromInfSection 的呼叫端可能會在每個檔案註冊或取消註冊時接收通知。
 ms.assetid: 0faf277c-7805-478f-9cec-0dd7b6acdb0e
 title: 'SPFILENOTIFY_STARTREGISTRATION 訊息 (Setupapi.log .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfe795af38c21c17bf4e81692985d4bfe50dc8f9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e71a884d079515436f296faf515a83a985311e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988350"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094496"
 ---
 # <a name="spfilenotify_startregistration-message"></a>SPFILENOTIFY \_ STARTREGISTRATION 訊息
 

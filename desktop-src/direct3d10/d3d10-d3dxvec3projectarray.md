@@ -1,5 +1,5 @@
 ---
-description: 投射陣列 (x、y、z、0) 從物件空間到螢幕空間。
+description: D3DXVec3ProjectArray 函式 (D3DX10Math) -投射陣列 (x、y、z、0) 從物件空間到螢幕空間。
 ms.assetid: 33f0f65a-c027-4a31-83a7-f5f6b2a2f72f
 title: 'D3DXVec3ProjectArray 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: bdbda9201d23a6c525dc054c53874c71d548e65e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1f69eb14cf2cf5fd77092ed6881e16524d8428c5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323131"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108146"
 ---
 # <a name="d3dxvec3projectarray-function-d3dx10mathh"></a>D3DXVec3ProjectArray 函式 (D3DX10Math) 
 

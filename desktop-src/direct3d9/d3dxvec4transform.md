@@ -1,5 +1,5 @@
 ---
-description: 依指定的矩陣轉換4D 向量。
+description: D3DXVec4Transform 函式 (D3dx9math) -依指定的矩陣轉換4D 向量。
 ms.assetid: de93f138-7cf8-43cc-8255-c053c799aea8
 title: 'D3DXVec4Transform 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 20192cf51a6096bbbce1f009d91d96551aec12d8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2e5a9fdd92a2d978c746543fbbbeec6503d07404
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991484"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115506"
 ---
 # <a name="d3dxvec4transform-function-d3dx9mathh"></a>D3DXVec4Transform 函式 (D3dx9math) 
 

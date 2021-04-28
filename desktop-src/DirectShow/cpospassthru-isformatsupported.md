@@ -1,5 +1,5 @@
 ---
-description: IsFormatSupported 方法會判斷是否支援指定的時間格式。 這個方法會實 IMediaSeeking：： IsFormatSupported 方法。
+description: CPosPassThru. IsFormatSupported 方法-IsFormatSupported 方法會判斷是否支援指定的時間格式。 這個方法會實 IMediaSeeking：： IsFormatSupported 方法。
 ms.assetid: dd8751d6-8439-4155-bdaf-b152a7c6cad4
 title: 'CPosPassThru. IsFormatSupported 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 85bdbef2315bd2c9e2bc92f639a7d328f1f17ce0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bd4b90bbe86e7ba05aa48fb7888c946babd8ed9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001209"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095246"
 ---
 # <a name="cpospassthruisformatsupported-method"></a>CPosPassThru. IsFormatSupported 方法
 

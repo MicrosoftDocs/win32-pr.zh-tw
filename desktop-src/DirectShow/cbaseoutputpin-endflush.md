@@ -1,5 +1,5 @@
 ---
-description: EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
+description: CBaseOutputPin. EndFlush 方法-EndFlush 方法會結束清除作業。 這個方法會實 IPin：： EndFlush 方法。
 ms.assetid: c5c76cf8-1ca1-4fef-8776-7f4dcca32939
 title: 'CBaseOutputPin. EndFlush 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b40bc7db4e8d290ae0cd7e26a9d751e44b0daa4c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53153c6dbd941390c7ef616ee36c56e01214c341
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996034"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099506"
 ---
 # <a name="cbaseoutputpinendflush-method"></a>CBaseOutputPin. EndFlush 方法
 

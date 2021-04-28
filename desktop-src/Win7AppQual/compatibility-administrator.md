@@ -1,15 +1,15 @@
 ---
-description: .
+description: 相容性系統管理員
 ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: 相容性系統管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abde760ca7324aec18f0576a7f04e3a4c5db2d22
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 5d941c9db85c8302d8d7d8808f24b95d1f3b08be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314981"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088526"
 ---
 # <a name="compatibility-administrator"></a>相容性系統管理員
 
@@ -19,7 +19,7 @@ ms.locfileid: "107314981"
 **伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2  
 
 
-## <a name="description"></a>描述
+## <a name="description"></a>Description
 
 應用程式相容性工具組所提供的相容性系統管理員工具 (ACT) 可讓您解決許多潛在的應用程式相容性問題，然後再將新版本的 Windows 部署到您的組織，方法如下：
 

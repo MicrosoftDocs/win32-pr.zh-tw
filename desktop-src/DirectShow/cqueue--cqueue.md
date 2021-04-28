@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CQueue. ~ CQueue 的函式-函式方法。
 ms.assetid: 6c3f21cf-5353-4ccb-a6f6-f3e182dec874
 title: 'CQueue. ~ CQueue (Wxutil 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 93b620b60bd0697eed2f383a696269c01d51f33d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 85681dff4b336c179a1dff94eca386593d98d156
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000466"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095206"
 ---
 # <a name="cqueuecqueue-destructor"></a>CQueue. ~ CQueue 的函式
 

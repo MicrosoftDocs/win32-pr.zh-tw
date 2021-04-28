@@ -1,5 +1,5 @@
 ---
-description: EndOfStream 方法會通知 pin，不需要額外的資料。 這個方法會實 IPin：： EndOfStream 方法。
+description: CTransformInputPin. EndOfStream 方法-EndOfStream 方法會通知 pin，不需要額外的資料。 這個方法會實 IPin：： EndOfStream 方法。
 ms.assetid: db9896eb-3db2-4d58-a787-4d80ce8f0d0e
 title: 'CTransformInputPin. EndOfStream 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bc39770f081499be720c433301823cbc60f37d17
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2035d0261447826098162f480ddc959544b101b7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978738"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084976"
 ---
 # <a name="ctransforminputpinendofstream-method"></a>CTransformInputPin. EndOfStream 方法
 

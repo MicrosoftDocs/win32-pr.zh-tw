@@ -1,5 +1,5 @@
 ---
-description: 傳回矩陣的行列式。
+description: D3DXMatrixDeterminant 函數 (D3dx9math) -傳回矩陣的行列式。
 ms.assetid: 711ba616-4c90-41d1-b9d5-0893b3e47284
 title: 'D3DXMatrixDeterminant 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 53d90d70e75ba4bb92dbed3abe7ee06eae1ae6e4
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d54651e11f1b3de02803d9ea123ca7eff24d7a5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322660"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098166"
 ---
 # <a name="d3dxmatrixdeterminant-function-d3dx9mathh"></a>D3DXMatrixDeterminant 函式 (D3dx9math) 
 

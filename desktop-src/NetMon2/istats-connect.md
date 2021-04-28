@@ -1,5 +1,5 @@
 ---
-description: Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+description: IStats：： Connect 方法-Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: 29a12df7-9c81-40ff-ac12-33ce1de833b1
 title: 'IStats：： Connect 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 7705600c3ce68b719014c928ac4d02c62cba64cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0719b6ff56aaa8c0be02f86d62ac23d4003aa3d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853120"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098476"
 ---
 # <a name="istatsconnect-method"></a>IStats：： Connect 方法
 

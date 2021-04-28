@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. StorageProviderError
 ms.assetid: a764a13a-cd7e-488c-b353-ff0f3c4b64b1
 title: System. StorageProviderError
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f74f7ad4e199198f48f9aa736c8b5c8dc1ea6d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6ca792367907171f05179e8237373a99a002676
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985220"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089946"
 ---
 # <a name="systemstorageprovidererror"></a>System. StorageProviderError
 

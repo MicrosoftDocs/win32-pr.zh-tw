@@ -1,5 +1,5 @@
 ---
-description: 設定4D 向量。
+description: ID3DXTextureShader：： SetVector 方法：設定4D 向量。
 ms.assetid: befed2a8-7695-4f06-a6ee-aff466d1940a
 title: 'ID3DXTextureShader：： SetVector 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b7bc7e3b7f4920c21c52111410c626090e452fa7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e917e4ff13cf7c03de264542dc1995364f1dc526
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090156"
 ---
 # <a name="id3dxtextureshadersetvector-method"></a>ID3DXTextureShader：： SetVector 方法
 

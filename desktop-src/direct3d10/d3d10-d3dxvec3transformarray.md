@@ -1,5 +1,5 @@
 ---
-description: 將陣列 (x、y、z、1) 由指定的矩陣進行轉換。
+description: D3DXVec3TransformArray 函式 (D3DX10Math) -轉換陣列 (x、y、z、1) 指定的矩陣。
 ms.assetid: f64c55df-ea93-4c93-be89-eee650e6ecf0
 title: 'D3DXVec3TransformArray 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 9ae223d4e1b8c424230ba12719f25258dae18548
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc38f0ef634763d9a5be85795a897b483431aede
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035398"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108116"
 ---
 # <a name="d3dxvec3transformarray-function-d3dx10mathh"></a>D3DXVec3TransformArray 函式 (D3DX10Math) 
 

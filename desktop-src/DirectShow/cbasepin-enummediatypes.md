@@ -1,5 +1,5 @@
 ---
-description: EnumMediaTypes 方法會列舉釘選的慣用媒體類型。 這個方法會實 IPin：： EnumMediaTypes 方法。
+description: CBasePin. EnumMediaTypes 方法-EnumMediaTypes 方法會列舉釘選的慣用媒體類型。 這個方法會實 IPin：： EnumMediaTypes 方法。
 ms.assetid: 0360f9fc-6876-4a54-8de1-bf289e0e10ae
 title: 'CBasePin. EnumMediaTypes 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 54aaddbbcde26791b6c55665bfbbb7ff62048238
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c68fe1ab83724149dcd2fb58a60e9c6950d887ca
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976104"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099386"
 ---
 # <a name="cbasepinenummediatypes-method"></a>CBasePin. EnumMediaTypes 方法
 

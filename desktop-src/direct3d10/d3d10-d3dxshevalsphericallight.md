@@ -1,5 +1,5 @@
 ---
-description: 評估球面燈，並傳回光譜的球面調和 (SH) 資料。
+description: D3DXSHEvalSphericalLight 函式 (D3DX10) -評估球面燈，並傳回光譜的球面調和 (SH) 資料。
 ms.assetid: e2a2b998-285a-46ef-99fe-ccc923013e9a
 title: 'D3DXSHEvalSphericalLight 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c658480a08360fe8489cfc86319a689e828c0a1e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e1e509ea4695f143bd5399cbda004bcba53f514c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323211"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108556"
 ---
 # <a name="d3dxshevalsphericallight-function-d3dx10h"></a>D3DXSHEvalSphericalLight 函式 (D3DX10) 
 

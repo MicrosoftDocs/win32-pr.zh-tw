@@ -1,5 +1,5 @@
 ---
-description: 使用指定的2D 向量，傳回 Barycentric 座標中的點。
+description: D3DXVec2BaryCentric 函式 (D3DX10Math) -使用指定的2D 向量，傳回 Barycentric 座標中的點。
 ms.assetid: 8eceb2c0-26a0-4a7f-9830-85327dcb31ab
 title: 'D3DXVec2BaryCentric 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 270371fdda42b59cb755f1e0dc7e0fa43a863a1d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5b78d08c67fed04af9ef0d54d0c6895106b99208
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323204"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108439"
 ---
 # <a name="d3dxvec2barycentric-function-d3dx10mathh"></a>D3DXVec2BaryCentric 函式 (D3DX10Math) 
 

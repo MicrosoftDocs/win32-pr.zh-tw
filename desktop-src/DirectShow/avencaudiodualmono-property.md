@@ -1,15 +1,15 @@
 ---
-description: 指定雙聲道音訊是否編碼為身歷聲或雙 mono。
+description: AVEncAudioDualMono 屬性-指定雙聲道音訊是否編碼為身歷聲或雙 mono。
 ms.assetid: 37f25590-69c2-43bd-a5d4-2262457cb39d
 title: 'AVEncAudioDualMono 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0a5b684638133a1449fc849348cdfd8627533fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b58cbd901079d8f4dede1efae140791ae99c7fed
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106984145"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096576"
 ---
 # <a name="avencaudiodualmono-property"></a>AVEncAudioDualMono 屬性
 

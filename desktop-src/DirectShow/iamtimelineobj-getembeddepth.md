@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineObj：： GetEmbedDepth 方法-不支援。
 ms.assetid: 1b9d0c78-ced9-496b-89c3-fc205b37d894
 title: 'IAMTimelineObj：： GetEmbedDepth 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: de7414efd1ce9c8cde2ce3c91cb4e4906ba6af6e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a5a618f2868dead889142eabbc6869b6e73c9268
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996008"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098576"
 ---
 # <a name="iamtimelineobjgetembeddepth-method"></a>IAMTimelineObj：： GetEmbedDepth 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineObj：： GetGroupIBelongTo 方法-不支援。
 ms.assetid: a6242c1d-cf9a-4c96-9cfd-d32199ae74b8
 title: 'IAMTimelineObj：： GetGroupIBelongTo 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: cefd3bb5923e056497556b15b6308160a2066c02
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7aac3e043d068588e6a9330c193c1b5fb7828688
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996233"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098556"
 ---
 # <a name="iamtimelineobjgetgroupibelongto-method"></a>IAMTimelineObj：： GetGroupIBelongTo 方法
 

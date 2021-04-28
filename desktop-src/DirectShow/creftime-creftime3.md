@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CRefTime. CRefTime (Reftime. h) -函式方法。
 ms.assetid: c1282676-6f2b-438a-850e-17bb6d7a2c68
 title: CRefTime. CRefTime (Reftime. h) -rt 參數
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d97175a07565c12033c5e1ea8f20c157657d9501
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 3d5f20fcca6e05810320af8fad7ea79035fd1591
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106976313"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098936"
 ---
 # <a name="creftimecreftime-constructor-reftimeh"></a>CRefTime. CRefTime (Reftime. h) 
 

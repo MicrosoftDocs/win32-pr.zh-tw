@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CSeekingPassThru. ~ CSeekingPassThru 的函式-函式方法。
 ms.assetid: 98e00ff2-0175-4c44-9a7f-c5c1b23f8fce
 title: 'CSeekingPassThru. ~ CSeekingPassThru (Seekpt 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 926cb0fd9b50ab3c83b740ec9bd1e28c9a406d11
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b6ed17cf4fd57f3470a57b22daafa9858ba97f79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989781"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085386"
 ---
 # <a name="cseekingpassthrucseekingpassthru-destructor"></a>CSeekingPassThru. ~ CSeekingPassThru 的函式
 

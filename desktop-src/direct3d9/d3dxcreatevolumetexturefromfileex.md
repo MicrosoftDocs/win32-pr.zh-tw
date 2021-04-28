@@ -1,5 +1,5 @@
 ---
-description: 從檔案建立磁片區材質。
+description: D3DXCreateVolumeTextureFromFileEx 函式-從檔案建立磁片區材質。
 ms.assetid: fa11706a-83cc-4795-957d-6d0e1faf2a8f
 title: 'D3DXCreateVolumeTextureFromFileEx 函式 (D3dx9tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d63377394dc123defac565cd11a0d40324a28a3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 11be9da24be7fc9a03bab8e761e55a601715bd75
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322936"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102746"
 ---
 # <a name="d3dxcreatevolumetexturefromfileex-function"></a>D3DXCreateVolumeTextureFromFileEx 函式
 
@@ -153,7 +153,7 @@ HRESULT D3DXCreateVolumeTextureFromFileEx(
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**

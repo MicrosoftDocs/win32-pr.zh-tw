@@ -1,5 +1,5 @@
 ---
-description: 您可以使用此方法來釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
+description: ID3DXRenderToEnvMap：： OnLostDevice 方法-使用此方法釋放視訊記憶體資源的所有參考，並刪除所有 stateblocks。 只要裝置遺失或在重設裝置之前，都應該呼叫這個方法。
 ms.assetid: 76dcf5f3-0d2f-4388-9b75-c4dbd1c74982
 title: 'ID3DXRenderToEnvMap：： OnLostDevice 方法 (D3dx9core .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b644ab595fd8bc6ebdfa544cc004598f5570d262
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 88f27c259262eb7abb57246e547ad66866bb3dcc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322787"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107196"
 ---
 # <a name="id3dxrendertoenvmaponlostdevice-method"></a>ID3DXRenderToEnvMap：： OnLostDevice 方法
 

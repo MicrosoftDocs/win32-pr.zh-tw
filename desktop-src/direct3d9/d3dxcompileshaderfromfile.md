@@ -1,5 +1,5 @@
 ---
-description: 編譯著色器檔。
+description: D3DXCompileShaderFromFile 函式-編譯著色器檔。
 ms.assetid: 2ad6042f-3601-4f4a-9624-6319a3372355
 title: 'D3DXCompileShaderFromFile 函式 (D3DX9Shader) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 865241142fa13ec9d34826bfe334c30b38ca78d5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a4392a3c36b31deb4071c215ad9b41e7f40c21ee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986745"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115846"
 ---
 # <a name="d3dxcompileshaderfromfile-function"></a>D3DXCompileShaderFromFile 函式
 

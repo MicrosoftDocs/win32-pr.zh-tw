@@ -1,15 +1,15 @@
 ---
-description: .
+description: On/Off 效能的最佳作法
 ms.assetid: 872c2a33-327e-41a8-81db-905c46673f13
 title: On/Off 效能的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fda45cb1ec7fb66b8afdcdebab7c92bdb071a79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2c88eaf5175db43061e57bc4689d8bf256e6881
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990468"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088616"
 ---
 # <a name="best-practices-for-onoff-performance"></a>On/Off 效能的最佳作法
 

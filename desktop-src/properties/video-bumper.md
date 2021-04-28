@@ -1,15 +1,15 @@
 ---
-description: .
+description: '影片 (Windows 屬性系統) '
 ms.assetid: 5d36b057-3712-4d00-99b7-3ddf45620b7a
 title: '影片 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6daf36b9cc7de710e79e7aea8b1fd366e5bc74ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d0def20ed46e97dd0b0df445fb2a7fcbfb83b95
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689903"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089906"
 ---
 # <a name="video-windows-property-system"></a>影片 (Windows 屬性系統) 
 

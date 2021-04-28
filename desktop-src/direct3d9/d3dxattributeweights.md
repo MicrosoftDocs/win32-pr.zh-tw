@@ -1,5 +1,5 @@
 ---
-description: 指定網狀加權屬性。
+description: D3DXATTRIBUTEWEIGHTS 結構-指定網格權數屬性。
 ms.assetid: 8901a0fe-e38a-4045-8e8d-584be2620cc3
 title: 'D3DXATTRIBUTEWEIGHTS 結構 (D3dx9mesh .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 49725e410fb700c7ecb93fd56a8db367d7f982a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7a833d2a58db0f434f836126926e461cd2ee3ea0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000363"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115966"
 ---
 # <a name="d3dxattributeweights-structure"></a>D3DXATTRIBUTEWEIGHTS 結構
 

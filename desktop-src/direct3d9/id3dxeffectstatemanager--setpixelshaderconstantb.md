@@ -1,5 +1,5 @@
 ---
-description: 必須由使用者所執行的回呼函式，以設定頂點著色器布林值常數的陣列。
+description: ID3DXEffectStateManager：： SetPixelShaderConstantB 方法-必須由使用者所執行的回呼函式，以設定頂點著色器布林值常數的陣列。
 ms.assetid: ad4d9beb-fd34-4574-9787-61bd3bfaaaaa
 title: 'ID3DXEffectStateManager：： SetPixelShaderConstantB 方法 (D3DX9Effect .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e3c3c988bdbfa84a3e815fe94d89c24f3fa3a264
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ace60b72345c992c3f35943362f6a0958f043aba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107001515"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090486"
 ---
 # <a name="id3dxeffectstatemanagersetpixelshaderconstantb-method"></a>ID3DXEffectStateManager：： SetPixelShaderConstantB 方法
 

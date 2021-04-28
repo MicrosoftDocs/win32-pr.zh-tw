@@ -1,5 +1,5 @@
 ---
-description: 傳回矩陣的矩陣變換。
+description: D3DXMatrixTranspose 函式 (D3DX10Math) -傳回矩陣的矩陣轉型。
 ms.assetid: 934b17cc-39c4-425c-839b-69e080f0efd7
 title: 'D3DXMatrixTranspose 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0ecc93a560e15b8f0abe4337b866efc292c9355e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e20fd8a29ba3f9adec7134a011f8f470c60f7011
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985725"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108856"
 ---
 # <a name="d3dxmatrixtranspose-function-d3dx10mathh"></a>D3DXMatrixTranspose 函式 (D3DX10Math) 
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: AlbumArtist
 ms.assetid: 6b951418-9076-42ca-9ed5-4e260e8c19bc
 title: AlbumArtist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 357dc3d64a0ef09cddb91dd40924663d32c46042
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2108b9e9f958d7778dc369e1ee512eaa2faa644
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192511"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113916"
 ---
 # <a name="systemmusicalbumartist"></a>AlbumArtist
 

@@ -1,5 +1,5 @@
 ---
-description: 抓取這個檔案資料物件中的子物件。
+description: ID3DXFileEnumObject：： System.windows.media.visualtreehelper.getchild 方法-抓取這個檔案資料物件中的子物件。
 ms.assetid: d8f367dd-8858-48ae-9de5-17de1538aadf
 title: 'ID3DXFileEnumObject：： System.windows.media.visualtreehelper.getchild 方法 (D3DX9Xof .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b5b8d535a9060e80318d4043af6362810023b9d0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b26cf058b31d1016c68cccf3dde6ade9f84cde1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999024"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090356"
 ---
 # <a name="id3dxfileenumobjectgetchild-method"></a>ID3DXFileEnumObject：： System.windows.media.visualtreehelper.getchild 方法
 

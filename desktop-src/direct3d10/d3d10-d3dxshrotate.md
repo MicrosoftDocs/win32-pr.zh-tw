@@ -1,5 +1,5 @@
 ---
-description: 將球形調和 (SH) 向量旋轉指定的矩陣。
+description: D3DXSHRotate 函式 (D3DX10) -將球形調和 (SH) 向量旋轉指定的矩陣。
 ms.assetid: 22ed379a-ce08-46df-9cc1-8d5fde87c179
 title: 'D3DXSHRotate 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1cdff4a74cb92943db2bd6dc9f207dbac2208afa
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2f2af3fe59c57ba32bc03bb59233bec72722bbb5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993902"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108536"
 ---
 # <a name="d3dxshrotate-function-d3dx10h"></a>D3DXSHRotate 函式 (D3DX10) 
 

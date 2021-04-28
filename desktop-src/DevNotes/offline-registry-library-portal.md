@@ -1,15 +1,15 @@
 ---
-description: .
+description: 離線登錄庫
 ms.assetid: 5861e0a9-6a3f-4bc8-ae8b-d51c9de28217
 title: 離線登錄庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a473bde729a0047a56d7ad0fdec1c0e3133ea103
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ae1aa5acdd7904516608413ff973e60e81c296c3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972123"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089246"
 ---
 # <a name="offline-registry-library"></a>離線登錄庫
 

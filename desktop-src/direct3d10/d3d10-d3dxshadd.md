@@ -1,5 +1,5 @@
 ---
-description: 將兩個球面調和新增 (SH) 向量;換句話說，不悅 \[ i \] = pA \[ i \] + pB \[ i \] 。
+description: D3DXSHAdd 函式 (D3DX10) -新增兩個球面調和 (SH) 向量;換句話說，不悅 \[ i \] = pA \[ i \] + pB \[ i \] 。
 ms.assetid: dbfea12b-c110-42a7-84b6-0dff3d958032
 title: 'D3DXSHAdd 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1750b473764daf030160adc42d258a1f911f5f16
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8d39940fef4ad611ea530d95efea29c74266d22a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196395"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108656"
 ---
 # <a name="d3dxshadd-function-d3dx10h"></a>D3DXSHAdd 函式 (D3DX10) 
 

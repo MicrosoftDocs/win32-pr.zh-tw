@@ -1,15 +1,15 @@
 ---
 title: 查詢 (WDS 2.x) 的索引
-description: .
+description: 查詢 (WDS 2.x) 的索引
 ms.assetid: e3f790be-40f7-4796-bae8-5c12983f92c5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb726e87f9c6c9ab3c2760a05c8795c85fcec0b2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: aac7a973d0acbd6ef7cd5fdae5a8a0099bc84831
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103684234"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114156"
 ---
 # <a name="querying-the-index-wds-2x"></a>查詢 (WDS 2.x) 的索引
 

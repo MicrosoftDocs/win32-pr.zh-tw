@@ -1,15 +1,15 @@
 ---
-description: .
+description: OtherAddress1Locality
 ms.assetid: 7263c927-1b3d-4e29-8367-4c8a126fa991
 title: OtherAddress1Locality
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89412e8a9adc0fddd96e90f523ca8cf55a62935b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7aec05ad14fee24df6ccfd1a45f164c68dd47979
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194274"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101606"
 ---
 # <a name="systemcontactotheraddress1locality"></a>OtherAddress1Locality
 

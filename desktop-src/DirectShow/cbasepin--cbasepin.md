@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBasePin. ~ CBasePin 的函式-函式方法。
 ms.assetid: b903bec6-e944-48bb-aa0c-7072a843a9cd
 title: 'CBasePin. ~ CBasePin (Amfilter 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 41af0c5ef387d73819966c23d47f8fc4583bda49
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a6bd7219ba57c5c885e8123b181f899dc96e5d3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990924"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099496"
 ---
 # <a name="cbasepincbasepin-destructor"></a>CBasePin. ~ CBasePin 的函式
 

@@ -1,5 +1,5 @@
 ---
-description: 抓取資源中指定影像的相關資訊。
+description: D3DXGetImageInfoFromResource 函式-取得資源中指定影像的相關資訊。
 ms.assetid: 1f811b1e-f0bd-4f64-a4c9-caf899470940
 title: 'D3DXGetImageInfoFromResource 函式 (D3dx9tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 6875719123fe0b4dca4405570703b2587492975b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ea324ef94ab765bad25f7d07eef07972ab94cff6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696639"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114446"
 ---
 # <a name="d3dxgetimageinfofromresource-function"></a>D3DXGetImageInfoFromResource 函式
 

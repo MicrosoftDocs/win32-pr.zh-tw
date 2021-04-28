@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. DueDate
 ms.assetid: 4a3d9b46-ae87-446f-9a47-4c1410a9d333
 title: System. DueDate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3599e8a5332538936ed554adf45c8145817f5290
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 927883fe680973611a0c841c91da08e2ebd78f27
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849075"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100956"
 ---
 # <a name="systemduedate"></a>System. DueDate
 

@@ -1,5 +1,5 @@
 ---
-description: 設定非轉換的矩陣。
+description: ID3DXTextureShader：： SetMatrix 方法：設定未轉換的矩陣。
 ms.assetid: 891441ea-09d5-43b6-a080-578d7f8e4586
 title: 'ID3DXTextureShader：： SetMatrix 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c52fa8d363200222197ac40563fb0dd66e71f7a7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 15ba6b289ad106a8fad4a932b9c5d01e0a52dc18
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116197"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090216"
 ---
 # <a name="id3dxtextureshadersetmatrix-method"></a>ID3DXTextureShader：： SetMatrix 方法
 
