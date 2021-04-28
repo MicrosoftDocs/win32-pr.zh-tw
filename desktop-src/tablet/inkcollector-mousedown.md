@@ -1,21 +1,21 @@
 ---
-description: 發生于滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，且按下滑鼠按鍵時。
+description: InkCollector，當滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，且按下滑鼠按鍵時，就會發生此事件。
 ms.assetid: db9ec396-b2a7-4f4f-99f2-95aad46eea28
 title: InkCollector)  (Msinkaut 的事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760801fb5c578ddbdd67b15a4201c21c4981b097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d29c8d3ba19856a8d6bfa038837b592c0b5f2b36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110176"
 ---
-# <a name="inkcollectormousedown-event"></a><span data-ttu-id="a68f7-103">InkCollector 的 MouseDown 事件</span><span class="sxs-lookup"><span data-stu-id="a68f7-103">InkCollector.MouseDown event</span></span>
+# <a name="inkcollectormousedown-event"></a><span data-ttu-id="f1b56-103">InkCollector 的 MouseDown 事件</span><span class="sxs-lookup"><span data-stu-id="f1b56-103">InkCollector.MouseDown event</span></span>
 
-<span data-ttu-id="a68f7-104">發生于滑鼠指標位於 [**InkCollector**](inkcollector-class.md) 或 [**InkOverlay**](inkoverlay-class.md) 物件上方，且按下滑鼠按鍵時。</span><span class="sxs-lookup"><span data-stu-id="a68f7-104">Occurs when the mouse pointer is over the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object and a mouse button is pressed.</span></span>
+<span data-ttu-id="f1b56-104">發生于滑鼠指標位於 [**InkCollector**](inkcollector-class.md) 或 [**InkOverlay**](inkoverlay-class.md) 物件上方，且按下滑鼠按鍵時。</span><span class="sxs-lookup"><span data-stu-id="f1b56-104">Occurs when the mouse pointer is over the [**InkCollector**](inkcollector-class.md) or [**InkOverlay**](inkoverlay-class.md) object and a mouse button is pressed.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a68f7-105">語法</span><span class="sxs-lookup"><span data-stu-id="a68f7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f1b56-105">語法</span><span class="sxs-lookup"><span data-stu-id="f1b56-105">Syntax</span></span>
 
 
 ```C++
@@ -30,92 +30,92 @@ void MouseDown(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="a68f7-106">參數</span><span class="sxs-lookup"><span data-stu-id="a68f7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f1b56-106">參數</span><span class="sxs-lookup"><span data-stu-id="f1b56-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="a68f7-107">*按鈕* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-107">*Button* \[in\]</span></span>
+<span data-ttu-id="f1b56-107">*按鈕* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-107">*Button* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a68f7-108">已按下的滑鼠按鍵。</span><span class="sxs-lookup"><span data-stu-id="a68f7-108">The mouse button that was pressed.</span></span>
+<span data-ttu-id="f1b56-108">已按下的滑鼠按鍵。</span><span class="sxs-lookup"><span data-stu-id="f1b56-108">The mouse button that was pressed.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a68f7-109">*Shift* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-109">*Shift* \[in\]</span></span>
+<span data-ttu-id="f1b56-109">*Shift* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-109">*Shift* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a68f7-110">SHIFT 鍵的狀態。</span><span class="sxs-lookup"><span data-stu-id="a68f7-110">The state of the SHIFT key.</span></span>
+<span data-ttu-id="f1b56-110">SHIFT 鍵的狀態。</span><span class="sxs-lookup"><span data-stu-id="f1b56-110">The state of the SHIFT key.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a68f7-111">*pX* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-111">*pX* \[in\]</span></span>
+<span data-ttu-id="f1b56-111">*pX* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-111">*pX* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a68f7-112">滑鼠點擊的 X 座標（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="a68f7-112">The X-coordinate, in pixels, of a mouse click.</span></span>
+<span data-ttu-id="f1b56-112">滑鼠點擊的 X 座標（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="f1b56-112">The X-coordinate, in pixels, of a mouse click.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a68f7-113">*.py* \[在\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-113">*pY* \[in\]</span></span>
+<span data-ttu-id="f1b56-113">*.py* \[在\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-113">*pY* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a68f7-114">滑鼠點擊的 Y 座標（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="a68f7-114">The Y-coordinate, in pixels, of a mouse click.</span></span>
+<span data-ttu-id="f1b56-114">滑鼠點擊的 Y 座標（以圖元為單位）。</span><span class="sxs-lookup"><span data-stu-id="f1b56-114">The Y-coordinate, in pixels, of a mouse click.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="a68f7-115">*取消* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-115">*Cancel* \[in, out\]</span></span>
+<span data-ttu-id="f1b56-115">*取消* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-115">*Cancel* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="a68f7-116">**變異 \_TRUE** 表示取消父控制項的事件;否則， **VARIANT \_ FALSE**。</span><span class="sxs-lookup"><span data-stu-id="a68f7-116">**VARIANT\_TRUE** to cancel the event for the parent control; otherwise, **VARIANT\_FALSE**.</span></span>
+<span data-ttu-id="f1b56-116">**變異 \_TRUE** 表示取消父控制項的事件;否則， **VARIANT \_ FALSE**。</span><span class="sxs-lookup"><span data-stu-id="f1b56-116">**VARIANT\_TRUE** to cancel the event for the parent control; otherwise, **VARIANT\_FALSE**.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="a68f7-117">傳回值</span><span class="sxs-lookup"><span data-stu-id="a68f7-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="f1b56-117">傳回值</span><span class="sxs-lookup"><span data-stu-id="f1b56-117">Return value</span></span>
 
-<span data-ttu-id="a68f7-118">此事件不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="a68f7-118">This event does not return a value.</span></span>
+<span data-ttu-id="f1b56-118">此事件不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="f1b56-118">This event does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a68f7-119">備註</span><span class="sxs-lookup"><span data-stu-id="a68f7-119">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1b56-119">備註</span><span class="sxs-lookup"><span data-stu-id="f1b56-119">Remarks</span></span>
 
-<span data-ttu-id="a68f7-120">若要改善即時筆墨效能，請在 **MouseDown** 和 [**MouseUp**](inkcollector-mouseup.md) 事件處理常式中隱藏或顯示滑鼠游標。</span><span class="sxs-lookup"><span data-stu-id="a68f7-120">To improve real-time ink performance, hide or show the mouse cursor in the **MouseDown** and [**MouseUp**](inkcollector-mouseup.md) event handlers.</span></span>
+<span data-ttu-id="f1b56-120">若要改善即時筆墨效能，請在 **MouseDown** 和 [**MouseUp**](inkcollector-mouseup.md) 事件處理常式中隱藏或顯示滑鼠游標。</span><span class="sxs-lookup"><span data-stu-id="f1b56-120">To improve real-time ink performance, hide or show the mouse cursor in the **MouseDown** and [**MouseUp**](inkcollector-mouseup.md) event handlers.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="a68f7-121">[ *PX* ] 和 [ *.py* ] 屬性是以圖元為單位，而不是與筆墨空間相關聯的 HIMETRIC 單位。</span><span class="sxs-lookup"><span data-stu-id="a68f7-121">The properties *pX* and *pY* are in pixels, and not the HIMETRIC units that are associated with the ink space.</span></span> <span data-ttu-id="a68f7-122">這是因為此事件會取代不知道應用程式的相關滑鼠事件，而這種類型的應用程式只瞭解圖元。</span><span class="sxs-lookup"><span data-stu-id="a68f7-122">This is because this event replaces the related mouse event of a pen-unaware application and this type of application understands only pixels.</span></span>
+> <span data-ttu-id="f1b56-121">[ *PX* ] 和 [ *.py* ] 屬性是以圖元為單位，而不是與筆墨空間相關聯的 HIMETRIC 單位。</span><span class="sxs-lookup"><span data-stu-id="f1b56-121">The properties *pX* and *pY* are in pixels, and not the HIMETRIC units that are associated with the ink space.</span></span> <span data-ttu-id="f1b56-122">這是因為此事件會取代不知道應用程式的相關滑鼠事件，而這種類型的應用程式只瞭解圖元。</span><span class="sxs-lookup"><span data-stu-id="f1b56-122">This is because this event replaces the related mouse event of a pen-unaware application and this type of application understands only pixels.</span></span>
 
  
 
 > [!Note]  
-> <span data-ttu-id="a68f7-123">某些控制項依賴 **MouseDown**、 [**MouseMove**](inkcollector-mousemove.md)和 [**MouseUp**](inkcollector-mouseup.md) 事件之間的特定關聯性。</span><span class="sxs-lookup"><span data-stu-id="a68f7-123">Some controls rely on a specific relationship between **MouseDown**, [**MouseMove**](inkcollector-mousemove.md), and [**MouseUp**](inkcollector-mouseup.md) events.</span></span> <span data-ttu-id="a68f7-124">取消其中某些事件可能會產生非預期的結果。</span><span class="sxs-lookup"><span data-stu-id="a68f7-124">Canceling some of these events may have unanticipated results.</span></span>
+> <span data-ttu-id="f1b56-123">某些控制項依賴 **MouseDown**、 [**MouseMove**](inkcollector-mousemove.md)和 [**MouseUp**](inkcollector-mouseup.md) 事件之間的特定關聯性。</span><span class="sxs-lookup"><span data-stu-id="f1b56-123">Some controls rely on a specific relationship between **MouseDown**, [**MouseMove**](inkcollector-mousemove.md), and [**MouseUp**](inkcollector-mouseup.md) events.</span></span> <span data-ttu-id="f1b56-124">取消其中某些事件可能會產生非預期的結果。</span><span class="sxs-lookup"><span data-stu-id="f1b56-124">Canceling some of these events may have unanticipated results.</span></span>
 
  
 
-<span data-ttu-id="a68f7-125">此事件方法是在 \_ IInkCollectorEvents、 \_ IInkOverlayEvents 和 \_ IInkPictureEvents 分派專用介面中定義， (具有 DISPID IPEMouseDown 識別碼的) \_ 。</span><span class="sxs-lookup"><span data-stu-id="a68f7-125">This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_IPEMouseDown.</span></span>
+<span data-ttu-id="f1b56-125">此事件方法是在 \_ IInkCollectorEvents、 \_ IInkOverlayEvents 和 \_ IInkPictureEvents 分派專用介面中定義， (具有 DISPID IPEMouseDown 識別碼的) \_ 。</span><span class="sxs-lookup"><span data-stu-id="f1b56-125">This event method is defined in the \_IInkCollectorEvents, \_IInkOverlayEvents, and \_IInkPictureEvents dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_IPEMouseDown.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="a68f7-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="a68f7-126">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="f1b56-126">規格需求</span><span class="sxs-lookup"><span data-stu-id="f1b56-126">Requirements</span></span>
 
 
 
-| <span data-ttu-id="a68f7-127">需求</span><span class="sxs-lookup"><span data-stu-id="a68f7-127">Requirement</span></span> | <span data-ttu-id="a68f7-128">值</span><span class="sxs-lookup"><span data-stu-id="a68f7-128">Value</span></span> |
+| <span data-ttu-id="f1b56-127">需求</span><span class="sxs-lookup"><span data-stu-id="f1b56-127">Requirement</span></span> | <span data-ttu-id="f1b56-128">值</span><span class="sxs-lookup"><span data-stu-id="f1b56-128">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="a68f7-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="a68f7-129">Minimum supported client</span></span><br/> | <span data-ttu-id="a68f7-130">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="a68f7-130">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
-| <span data-ttu-id="a68f7-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="a68f7-131">Minimum supported server</span></span><br/> | <span data-ttu-id="a68f7-132">都不支援</span><span class="sxs-lookup"><span data-stu-id="a68f7-132">None supported</span></span><br/>                                                                                           |
-| <span data-ttu-id="a68f7-133">標頭</span><span class="sxs-lookup"><span data-stu-id="a68f7-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="a68f7-134"><dt>Msinkaut (也需要 Msinkaut \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="a68f7-134"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="a68f7-135">程式庫</span><span class="sxs-lookup"><span data-stu-id="a68f7-135">Library</span></span><br/>                  | <dl> <span data-ttu-id="a68f7-136"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="a68f7-136"><dt>InkObj.dll</dt></span></span> </dl>                               |
+| <span data-ttu-id="f1b56-129">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="f1b56-129">Minimum supported client</span></span><br/> | <span data-ttu-id="f1b56-130">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="f1b56-130">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
+| <span data-ttu-id="f1b56-131">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="f1b56-131">Minimum supported server</span></span><br/> | <span data-ttu-id="f1b56-132">都不支援</span><span class="sxs-lookup"><span data-stu-id="f1b56-132">None supported</span></span><br/>                                                                                           |
+| <span data-ttu-id="f1b56-133">標頭</span><span class="sxs-lookup"><span data-stu-id="f1b56-133">Header</span></span><br/>                   | <dl> <span data-ttu-id="f1b56-134"><dt>Msinkaut (也需要 Msinkaut \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="f1b56-134"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="f1b56-135">程式庫</span><span class="sxs-lookup"><span data-stu-id="f1b56-135">Library</span></span><br/>                  | <dl> <span data-ttu-id="f1b56-136"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="f1b56-136"><dt>InkObj.dll</dt></span></span> </dl>                               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="a68f7-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="a68f7-137">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1b56-137">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f1b56-137">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a68f7-138">**InkCollector 類別**</span><span class="sxs-lookup"><span data-stu-id="a68f7-138">**InkCollector Class**</span></span>](inkcollector-class.md)
+[<span data-ttu-id="f1b56-138">**InkCollector 類別**</span><span class="sxs-lookup"><span data-stu-id="f1b56-138">**InkCollector Class**</span></span>](inkcollector-class.md)
 </dt> <dt>
 
-[<span data-ttu-id="a68f7-139">**InkMouseButton 列舉**</span><span class="sxs-lookup"><span data-stu-id="a68f7-139">**InkMouseButton Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton)
+[<span data-ttu-id="f1b56-139">**InkMouseButton 列舉**</span><span class="sxs-lookup"><span data-stu-id="f1b56-139">**InkMouseButton Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkmousebutton)
 </dt> <dt>
 
-[<span data-ttu-id="a68f7-140">**InkShiftKeyModifierFlags 列舉**</span><span class="sxs-lookup"><span data-stu-id="a68f7-140">**InkShiftKeyModifierFlags Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags)
+[<span data-ttu-id="f1b56-140">**InkShiftKeyModifierFlags 列舉**</span><span class="sxs-lookup"><span data-stu-id="f1b56-140">**InkShiftKeyModifierFlags Enumeration**</span></span>](/windows/desktop/api/msinkaut/ne-msinkaut-inkshiftkeymodifierflags)
 </dt> <dt>
 
-[<span data-ttu-id="a68f7-141">**MouseUp 事件**</span><span class="sxs-lookup"><span data-stu-id="a68f7-141">**MouseUp Event**</span></span>](inkcollector-mouseup.md)
+[<span data-ttu-id="f1b56-141">**MouseUp 事件**</span><span class="sxs-lookup"><span data-stu-id="f1b56-141">**MouseUp Event**</span></span>](inkcollector-mouseup.md)
 </dt> </dl>
 
  

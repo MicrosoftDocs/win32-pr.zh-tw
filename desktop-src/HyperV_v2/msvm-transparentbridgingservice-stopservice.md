@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_TransparentBridgingService 類別的 StopService 方法會停止服務。
 ms.assetid: ac6b8df2-e2f2-47df-8c1e-07460a15e8e2
 title: Msvm_TransparentBridgingService 類別的 StopService 方法
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 118954217cadf12b69cf3a2b1ec52b2c02cae226
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17bfea47a1bbd467e32e9e932587da8506276ee1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114208"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111106"
 ---
-# <a name="stopservice-method-of-the-msvm_transparentbridgingservice-class"></a><span data-ttu-id="45c05-103">Msvm TransparentBridgingService 類別的 StopService 方法 \_</span><span class="sxs-lookup"><span data-stu-id="45c05-103">StopService method of the Msvm\_TransparentBridgingService class</span></span>
+# <a name="stopservice-method-of-the-msvm_transparentbridgingservice-class"></a><span data-ttu-id="459a8-103">Msvm TransparentBridgingService 類別的 StopService 方法 \_</span><span class="sxs-lookup"><span data-stu-id="459a8-103">StopService method of the Msvm\_TransparentBridgingService class</span></span>
 
-<span data-ttu-id="45c05-104">停止服務。</span><span class="sxs-lookup"><span data-stu-id="45c05-104">Stops the service.</span></span>
+<span data-ttu-id="459a8-104">停止服務。</span><span class="sxs-lookup"><span data-stu-id="459a8-104">Stops the service.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="45c05-105">語法</span><span class="sxs-lookup"><span data-stu-id="45c05-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="459a8-105">語法</span><span class="sxs-lookup"><span data-stu-id="459a8-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 StopService();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="45c05-106">參數</span><span class="sxs-lookup"><span data-stu-id="45c05-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="459a8-106">參數</span><span class="sxs-lookup"><span data-stu-id="459a8-106">Parameters</span></span>
 
-<span data-ttu-id="45c05-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="45c05-107">This method has no parameters.</span></span>
+<span data-ttu-id="459a8-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="459a8-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="45c05-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="45c05-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="459a8-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="459a8-108">Return value</span></span>
 
-<span data-ttu-id="45c05-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="45c05-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="459a8-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="459a8-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="45c05-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="45c05-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="459a8-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="459a8-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="45c05-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="45c05-111">**Not supported** (1)</span></span>
+<span data-ttu-id="459a8-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="459a8-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="45c05-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="45c05-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="459a8-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="459a8-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="45c05-113">需求</span><span class="sxs-lookup"><span data-stu-id="45c05-113">Requirement</span></span> | <span data-ttu-id="45c05-114">值</span><span class="sxs-lookup"><span data-stu-id="45c05-114">Value</span></span> |
+| <span data-ttu-id="459a8-113">需求</span><span class="sxs-lookup"><span data-stu-id="459a8-113">Requirement</span></span> | <span data-ttu-id="459a8-114">值</span><span class="sxs-lookup"><span data-stu-id="459a8-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="45c05-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="45c05-115">Minimum supported client</span></span><br/> | <span data-ttu-id="45c05-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="45c05-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="45c05-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="45c05-117">Minimum supported server</span></span><br/> | <span data-ttu-id="45c05-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="45c05-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="45c05-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="45c05-119">Namespace</span></span><br/>                | <span data-ttu-id="45c05-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="45c05-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="45c05-121">MOF</span><span class="sxs-lookup"><span data-stu-id="45c05-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="45c05-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="45c05-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="45c05-123">DLL</span><span class="sxs-lookup"><span data-stu-id="45c05-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="45c05-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="45c05-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="459a8-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="459a8-115">Minimum supported client</span></span><br/> | <span data-ttu-id="459a8-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="459a8-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="459a8-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="459a8-117">Minimum supported server</span></span><br/> | <span data-ttu-id="459a8-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="459a8-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="459a8-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="459a8-119">Namespace</span></span><br/>                | <span data-ttu-id="459a8-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="459a8-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="459a8-121">MOF</span><span class="sxs-lookup"><span data-stu-id="459a8-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="459a8-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="459a8-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="459a8-123">DLL</span><span class="sxs-lookup"><span data-stu-id="459a8-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="459a8-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="459a8-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="45c05-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="45c05-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="459a8-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="459a8-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="45c05-126">**Msvm \_ TransparentBridgingService**</span><span class="sxs-lookup"><span data-stu-id="45c05-126">**Msvm\_TransparentBridgingService**</span></span>](msvm-transparentbridgingservice.md)
+[<span data-ttu-id="459a8-126">**Msvm \_ TransparentBridgingService**</span><span class="sxs-lookup"><span data-stu-id="459a8-126">**Msvm\_TransparentBridgingService**</span></span>](msvm-transparentbridgingservice.md)
 </dt> </dl>
 
  

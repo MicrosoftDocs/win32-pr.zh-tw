@@ -1,27 +1,27 @@
 ---
 title: 對話方塊訊息
-description: .
+description: 對話方塊訊息
 ms.assetid: d1e9c2d5-b66c-4523-b9f0-314f0a2f7040
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63a385dfec6c2dcaf95018e59ec44e3657e85468
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 74f552fe33252a7fde971ed7b2b7e2eb0cda32d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965582"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113026"
 ---
-# <a name="dialog-box-messages"></a><span data-ttu-id="04ef5-103">對話方塊訊息</span><span class="sxs-lookup"><span data-stu-id="04ef5-103">Dialog Box Messages</span></span>
+# <a name="dialog-box-messages"></a><span data-ttu-id="f7c4d-103">對話方塊訊息</span><span class="sxs-lookup"><span data-stu-id="f7c4d-103">Dialog Box Messages</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="04ef5-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="04ef5-104">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="f7c4d-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="f7c4d-104">In this section</span></span>
 
--   [<span data-ttu-id="04ef5-105">**DM \_ GETDEFID**</span><span class="sxs-lookup"><span data-stu-id="04ef5-105">**DM\_GETDEFID**</span></span>](dm-getdefid.md)
--   [<span data-ttu-id="04ef5-106">**DM 重新 \_ 定位**</span><span class="sxs-lookup"><span data-stu-id="04ef5-106">**DM\_REPOSITION**</span></span>](dm-reposition.md)
--   [<span data-ttu-id="04ef5-107">**DM \_ SETDEFID**</span><span class="sxs-lookup"><span data-stu-id="04ef5-107">**DM\_SETDEFID**</span></span>](dm-setdefid.md)
+-   [<span data-ttu-id="f7c4d-105">**DM \_ GETDEFID**</span><span class="sxs-lookup"><span data-stu-id="f7c4d-105">**DM\_GETDEFID**</span></span>](dm-getdefid.md)
+-   [<span data-ttu-id="f7c4d-106">**DM 重新 \_ 定位**</span><span class="sxs-lookup"><span data-stu-id="f7c4d-106">**DM\_REPOSITION**</span></span>](dm-reposition.md)
+-   [<span data-ttu-id="f7c4d-107">**DM \_ SETDEFID**</span><span class="sxs-lookup"><span data-stu-id="f7c4d-107">**DM\_SETDEFID**</span></span>](dm-setdefid.md)
 
- 
+ 
 
- 
+ 
 
 
 
