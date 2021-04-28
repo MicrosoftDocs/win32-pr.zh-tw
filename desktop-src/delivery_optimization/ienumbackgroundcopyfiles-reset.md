@@ -1,6 +1,6 @@
 ---
 title: 'IEnumBackgroundCopyFiles Reset 方法 (>deliveryoptimization .h) '
-description: 將列舉序列重設為開頭。
+description: IEnumBackgroundCopyFiles：： Reset 方法-將列舉順序重設為開頭。
 ms.assetid: 6A303069-105C-4053-A8C5-2ECF60E789DE
 keywords:
 - Reset 方法
@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 314c7cae44ae48402642c202a624b9a60590e55b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d6800095d0a6f20ef8b632830a224d4da27356bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843384"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105486"
 ---
 # <a name="ienumbackgroundcopyfilesreset-method"></a>IEnumBackgroundCopyFiles：： Reset 方法
 
@@ -53,7 +53,7 @@ HRESULT Reset();
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |

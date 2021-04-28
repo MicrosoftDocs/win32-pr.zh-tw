@@ -1,5 +1,5 @@
 ---
-description: GetMediaTime 方法會抓取目前樣本上的時間戳記。
+description: CRendererPosPassThru. GetMediaTime 方法-GetMediaTime 方法會抓取目前樣本上的時間戳記。
 ms.assetid: 13710373-04fd-4c1d-ba97-78be5cf27e7d
 title: 'CRendererPosPassThru. GetMediaTime 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 628c0f0c65dad4e00dd259edbeee97fd8f6f13ac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 588c92faec6b68cfa51392d4df00567c4e881460
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982688"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085366"
 ---
 # <a name="crendererpospassthrugetmediatime-method"></a>CRendererPosPassThru. GetMediaTime 方法
 

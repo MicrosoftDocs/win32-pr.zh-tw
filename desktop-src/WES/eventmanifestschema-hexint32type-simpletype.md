@@ -1,6 +1,6 @@
 ---
 title: 'UInt32Type 簡單類型 (Windows 事件記錄檔) '
-description: 定義不帶正負號的整數類型。
+description: UInt32Type Simple Type (Windows 事件記錄檔) -定義不帶正負號的整數類型。
 ms.assetid: 11e99c26-3be7-4fac-b3e1-97cb0428a886
 keywords:
 - UInt32Type 簡單類型 EventLog
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f2a24326197c72b08032f5144fea1a69fbe68089
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 631bb3e8424db8a5d781aaa43df6096730aaa4d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934326"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090566"
 ---
 # <a name="uint32type-simple-type-windows-event-log"></a>UInt32Type 簡單類型 (Windows 事件記錄檔) 
 

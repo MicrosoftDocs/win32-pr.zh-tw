@@ -1,5 +1,5 @@
 ---
-description: 建立轉換矩陣。 Null 引數會被視為身分識別轉換。
+description: D3DXMatrixTransformation 函數 (D3DX10Math) -建立轉換矩陣。 Null 引數會被視為身分識別轉換。
 ms.assetid: 99c75ce9-3683-4753-b635-760eb8aaf46e
 title: 'D3DXMatrixTransformation 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: db1d88ad04e4aaa51232cfdba3168779805b22c3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 10ed63b292dd69acb58d8567e6336b5aab4f7997
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976739"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108896"
 ---
 # <a name="d3dxmatrixtransformation-function-d3dx10mathh"></a>D3DXMatrixTransformation 函式 (D3DX10Math) 
 

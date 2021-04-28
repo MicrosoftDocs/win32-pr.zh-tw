@@ -1,15 +1,15 @@
 ---
-description: 此範本會以每個網狀架構為基礎來具現化，並保留網格中哪些頂點與彼此重複的相關資訊。
+description: VertexDuplicationIndices-此範本會以每個網狀架構為基礎來具現化，並保留網格中哪些頂點與彼此重複的相關資訊。
 ms.assetid: 43417389-69c1-4af6-92c2-75b621f9c165
 title: VertexDuplicationIndices
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d62278c206032c9a2dfed6ce9b2cd36c5e7456
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b33a8c5fca4f479eec6e9864d4528d4e3e4a1e32
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973123"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090175"
 ---
 # <a name="vertexduplicationindices"></a>VertexDuplicationIndices
 

@@ -1,5 +1,5 @@
 ---
-description: 將物件空間中的3D 向量投射到螢幕空間。
+description: D3DXVec3Project 函式 (D3DX10Math) -從物件空間將3D 向量投射到螢幕空間。
 ms.assetid: 6fc59788-c3f7-4f47-a345-9108105e820e
 title: 'D3DXVec3Project 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: c8d86949f754afb7639a0c28ff6d8b14c0e40ff0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f4a2cffa77b2a66267daf0a67a59698ae3e3b8eb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322967"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108166"
 ---
 # <a name="d3dxvec3project-function-d3dx10mathh"></a>D3DXVec3Project 函式 (D3DX10Math) 
 

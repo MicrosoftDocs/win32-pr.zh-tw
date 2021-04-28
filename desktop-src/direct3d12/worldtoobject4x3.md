@@ -1,5 +1,5 @@
 ---
-description: 從世界空間轉換成物件空間的矩陣。
+description: WorldToObject4x3-從世界空間轉換成物件空間的矩陣。
 ms.assetid: ''
 title: WorldToObject4x3
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - WorldToObject4x3
 api_type:
 - NA
-ms.openlocfilehash: c72c4d8ef6280a5b1186360707dacf0d9b1fbab9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 334a79352345fb35fbbafe68248a221bdaab9f6d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970908"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105245"
 ---
 # <a name="worldtoobject4x3"></a>WorldToObject4x3
 

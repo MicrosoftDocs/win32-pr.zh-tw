@@ -1,5 +1,5 @@
 ---
-description: GetPin 方法會抓取 pin。
+description: CTransformFilter. GetPin 方法-GetPin 方法會抓取 pin。
 ms.assetid: 5d278ef0-e5ce-439e-93b1-fec988c55854
 title: 'CTransformFilter. GetPin 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 30567db84eefd5471dbbe1fbd2d2e5ed64514ba2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8e76cafce2ca5a9881b87d9248c144dc584971c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979514"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085076"
 ---
 # <a name="ctransformfiltergetpin-method"></a>CTransformFilter. GetPin 方法
 

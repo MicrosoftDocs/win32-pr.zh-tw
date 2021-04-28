@@ -1,5 +1,5 @@
 ---
-description: GetColorCoNtexts 方法的 Proxy 函式。
+description: GetColorCoNtexts 方法的 IWICBitmapDecoder_GetColorCoNtexts_Proxy 函數 Proxy 函式。
 ms.assetid: 2a6db3bd-d3e1-4e87-a04d-0d1c3ea858fb
 title: IWICBitmapDecoder_GetColorCoNtexts_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 737ad4b8bbb0014a04129d3a264cecaed4b5fe8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e550ca4ebd863e58a4bd285c48a2a01aad059b03
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979009"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086256"
 ---
 # <a name="iwicbitmapdecoder_getcolorcontexts_proxy-function"></a>IWICBitmapDecoder \_ GetColorCoNtexts \_ Proxy 函式
 
@@ -46,9 +46,9 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) \** _
+類型： **[ **IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)\***
 
-這個 [_ *IWICBitmapDecoder* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder)物件的指標。
+這個 [**IWICBitmapDecoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapdecoder) 物件的指標。
 
 </dd> <dt>
 
@@ -75,7 +75,7 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 *pcActualCount* \[擴展\]
 </dt> <dd>
 
-類型： **UINT \** _
+類型： **UINT \***
 
 指標，接收影像中包含的色彩內容數目。
 
@@ -83,7 +83,7 @@ HRESULT IWICBitmapDecoder_GetColorContexts_Proxy(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

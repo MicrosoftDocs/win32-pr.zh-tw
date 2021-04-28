@@ -1,5 +1,5 @@
 ---
-description: SetRate 方法會設定播放速率。 這個方法會實 IMediaSeeking：： SetRate 方法。
+description: CPosPassThru. SetRate 方法-SetRate 方法會設定播放速率。 這個方法會實 IMediaSeeking：： SetRate 方法。
 ms.assetid: 1b38eb5d-38fd-408b-9f20-4f8d18158f92
 title: 'CPosPassThru. SetRate 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ada5c8bc8d265b33e1d4b243bdfd0cf8bf03a7dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bccc0d7044ccf17ac1c97e4fc5a185bdf6c7f0be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977538"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095216"
 ---
 # <a name="cpospassthrusetrate-method"></a>CPosPassThru. SetRate 方法
 

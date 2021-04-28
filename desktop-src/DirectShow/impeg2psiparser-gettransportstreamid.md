@@ -1,5 +1,5 @@
 ---
-description: 此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
+description: IMpeg2PsiParser：： GetTransportStreamId 方法-此方法的實作為使用 DirectShow SDK 的範例程式碼來提供。 這不是支援的 DirectShow API。
 ms.assetid: 0c35abc0-984f-42df-a2a2-30cd400d4599
 title: IMpeg2PsiParser：： GetTransportStreamId 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 9615c50d8d16aa6d78e3e1b83a3ec0e356c6cb50
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a24253b021abacf398a3a169b63bbb2f01ec2354
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973355"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084566"
 ---
 # <a name="impeg2psiparsergettransportstreamid-method"></a>IMpeg2PsiParser：： GetTransportStreamId 方法
 

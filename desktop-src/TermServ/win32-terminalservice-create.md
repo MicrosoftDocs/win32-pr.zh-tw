@@ -1,6 +1,6 @@
 ---
 title: '建立 Win32_Service 類別的方法 (遠端桌面服務) '
-description: 建立新的系統服務。
+description: Win32_Service 類別的 Create 方法 (遠端桌面服務) 建立新的系統服務。
 ms.assetid: 805754AA-B62A-4324-B289-503C42BEFA49
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: be44d6c67e0d5bd6333f57c44cc44c25dc64e04a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9daf877f56bb7e9bfcc349e4efb38635a9286a48
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465969"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090686"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>建立 Win32_Service 類別的方法 (遠端桌面服務) 
 

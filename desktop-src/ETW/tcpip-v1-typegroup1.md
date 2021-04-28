@@ -1,5 +1,5 @@
 ---
-description: 這個類別是 TCP/IP 事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: TcpIp_V1_TypeGroup1 類別-這個類別是 TCP/IP 事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 1cde7e37-52da-4108-90ce-7647a5653f65
 title: TcpIp_V1_TypeGroup1 類別
 ms.topic: reference
@@ -18,12 +18,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fcd5f19eafa5308ef369a211559c6c464427b168
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 831dfdc228e2c8e128f328784046e833b0b45a39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972489"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105756"
 ---
 # <a name="tcpip_v1_typegroup1-class"></a>TcpIp \_ V1 \_ TypeGroup1 類別
 

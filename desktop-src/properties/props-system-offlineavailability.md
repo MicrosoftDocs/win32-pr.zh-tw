@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. OfflineAvailability
 ms.assetid: 4d0c880b-923d-4f83-91da-dd99bf111f13
 title: System. OfflineAvailability
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ca82f7e8da4454be8a5e9dd557ff63a7784dc8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceeefaf33acfc07bba2d552761ecd418257e8485
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944080"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090016"
 ---
 # <a name="systemofflineavailability"></a>System. OfflineAvailability
 

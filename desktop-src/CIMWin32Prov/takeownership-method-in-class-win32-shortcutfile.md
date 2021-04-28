@@ -1,5 +1,5 @@
 ---
-description: TakeOwnerShip&\# 8194;WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
+description: Win32_ShortcutFile 類別的 TakeOwnerShip 方法-TakeOwnerShip&\# 8194;WMI 類別方法會取得物件路徑中所指定之邏輯檔案的擁有權。
 ms.assetid: 1a8ff156-50b2-4550-abcc-7a6ae0e4630f
 ms.tgt_platform: multiple
 title: Win32_ShortcutFile 類別的 TakeOwnerShip 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5da7a237ae1943e65bc1cc757d5c4a16c6df8900
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 36364a55276842518480c3d3d37c57c3ae0a06ba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936113"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085996"
 ---
 # <a name="takeownership-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 TakeOwnerShip 方法 \_
 

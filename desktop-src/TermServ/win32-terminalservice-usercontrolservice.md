@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 UserControlService 方法 (遠端桌面服務) '
-description: 嘗試將使用者定義的控制項程式碼傳送至參考的服務。
+description: Win32_Service 類別的 UserControlService 方法 (遠端桌面服務) -嘗試傳送使用者定義的控制項程式碼至參考的服務。
 ms.assetid: 7B9020C1-2183-4FC4-ABCF-CE34111FF5D3
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b1ea4f5e82814aad7549085070b0583993024b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e71a33056f596afaf577968a5c725b3f64f79b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466728"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090606"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 UserControlService 方法 (遠端桌面服務) 
 

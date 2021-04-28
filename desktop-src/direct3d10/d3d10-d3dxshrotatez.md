@@ -1,5 +1,5 @@
 ---
-description: 將球形調和 (SH) 向量旋轉指定角度的 Z 軸。
+description: D3DXSHRotateZ 函式 (D3DX10) -將球形調和 (SH) 向量在 Z 軸中的指定角度旋轉。
 ms.assetid: 7c4bec55-4a4c-4f7e-8849-1cac373a2340
 title: 'D3DXSHRotateZ 函式 (D3DX10) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0348dd8dfed9b100f64c53427ca2b77dd48ccded
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55e4663057bd25ac9768a5913963a5511b662f11
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946174"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108526"
 ---
 # <a name="d3dxshrotatez-function-d3dx10h"></a>D3DXSHRotateZ 函式 (D3DX10) 
 

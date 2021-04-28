@@ -1,5 +1,5 @@
 ---
-description: 決定兩個矩陣的乘積。
+description: D3DXMatrixMultiply 函數 (D3dx9math) -決定兩個矩陣的乘積。
 ms.assetid: 160c801a-6589-4a0d-8e90-7e7a99fbd5f7
 title: 'D3DXMatrixMultiply 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ea578f54d3f690f01d9280e840cb9ee039d0cdf0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3d183fc3c79797bab886d3a40211448ccf57d552
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976687"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107546"
 ---
 # <a name="d3dxmatrixmultiply-function-d3dx9mathh"></a>D3DXMatrixMultiply 函式 (D3dx9math) 
 

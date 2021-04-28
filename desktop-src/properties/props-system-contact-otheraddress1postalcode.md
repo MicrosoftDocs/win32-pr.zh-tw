@@ -1,15 +1,15 @@
 ---
-description: .
+description: OtherAddress1PostalCode
 ms.assetid: d4127564-174a-4598-a88c-67526c7698e0
 title: OtherAddress1PostalCode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 133fbcf0d4744e6d670bf969d57e471ba3786f94
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07ba71a0e2cc343c86d12ee4aa2f16f734338661
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026696"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101556"
 ---
 # <a name="systemcontactotheraddress1postalcode"></a>OtherAddress1PostalCode
 

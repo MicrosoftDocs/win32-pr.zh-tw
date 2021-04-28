@@ -1,5 +1,5 @@
 ---
-description: 將陣列 (x、y、z、0) 由指定的矩陣進行轉換。
+description: D3DXVec3TransformNormalArray 函式 (D3dx9math) -轉換陣列 (x、y、z、0) 指定的矩陣。
 ms.assetid: c12fad52-d541-483f-a919-e6031aa4f761
 title: 'D3DXVec3TransformNormalArray 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7a70893cc38d2f2fa04b3b89432aa0f887c5a352
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 74da959002bfbd0c488e630f09c89e848708b1b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097726"
 ---
 # <a name="d3dxvec3transformnormalarray-function-d3dx9mathh"></a>D3DXVec3TransformNormalArray 函式 (D3dx9math) 
 

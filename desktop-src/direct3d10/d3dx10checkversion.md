@@ -1,5 +1,5 @@
 ---
-description: 確認您用來編譯的 D3DX 版本是您正在執行的版本。
+description: D3DX10CheckVersion 函式-確認您用來編譯的 D3DX 版本是您正在執行的版本。
 ms.assetid: 57085b07-f77b-425e-a889-22c3071d7143
 title: 'D3DX10CheckVersion 函式 (D3DX10Core) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 3b41996f16cb97d91dc59f8d368f13b905992388
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4fc8befa88fb706965a30224843745b033ea205b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974886"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105346"
 ---
 # <a name="d3dx10checkversion-function"></a>D3DX10CheckVersion 函式
 

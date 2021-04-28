@@ -1,5 +1,5 @@
 ---
-description: 取得固定的函式頂點值。
+description: ID3DXBaseMesh：： GetFVF 方法-取得固定的函式頂點值。
 ms.assetid: ed56ff2d-0366-426c-9f9a-7d1a7c5d1a7c
 title: 'ID3DXBaseMesh：： GetFVF 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 7ee76292c30b3dfb0a2e38b060f50ef643ae07ae
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4e37db51238137d67ba6e060ecfafb7d1361727e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946138"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115436"
 ---
 # <a name="id3dxbasemeshgetfvf-method"></a>ID3DXBaseMesh：： GetFVF 方法
 

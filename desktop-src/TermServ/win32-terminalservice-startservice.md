@@ -1,6 +1,6 @@
 ---
 title: 'Win32_Service 類別的 StartService 方法 (遠端桌面服務) '
-description: 嘗試將參考的服務置於啟動狀態。
+description: Win32_Service 類別的 StartService 方法 (遠端桌面服務) -嘗試將參考的服務置於啟動狀態。
 ms.assetid: 4DA05C48-03A0-4D4B-9E69-0404393C219C
 ms.tgt_platform: multiple
 keywords:
@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e37a17922fe0f4f3f5a3e4f1cd4d8eb67dc2858
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384549"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084196"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 StartService 方法 (遠端桌面服務) 
 

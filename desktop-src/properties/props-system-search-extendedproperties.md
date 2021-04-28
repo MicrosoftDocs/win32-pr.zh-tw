@@ -1,15 +1,15 @@
 ---
-description: .
+description: ExtendedProperties
 ms.assetid: 35e38d70-3029-4e22-ab70-718911654979
 title: ExtendedProperties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7915ed77be7e0ca7ecf6677f4ee16a11b3ff996d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2e4ef139b0bc5b33c0ce1a50ca7fa26a7c91c2a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851636"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106836"
 ---
 # <a name="systemsearchextendedproperties"></a>ExtendedProperties
 

@@ -1,5 +1,5 @@
 ---
-description: 建立右手的正向投射矩陣。
+description: D3DXMatrixOrthoRH 函式 (D3dx9math) -建立右手的正向投射矩陣。
 ms.assetid: 6b9b50d5-0307-4fc7-a28d-8f42d2a21bf0
 title: 'D3DXMatrixOrthoRH 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 00df0ee06768e4d57a68291dd1716e4a4574507e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d34a8379851d80ae8734c7f32cc0dc5977af2088
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107001476"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107436"
 ---
 # <a name="d3dxmatrixorthorh-function-d3dx9mathh"></a>D3DXMatrixOrthoRH 函式 (D3dx9math) 
 

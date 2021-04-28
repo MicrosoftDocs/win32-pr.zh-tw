@@ -1,5 +1,5 @@
 ---
-description: 必須由使用者所執行的回呼函式，以設定頂點著色器整數常數的陣列。
+description: ID3DXEffectStateManager：： SetPixelShaderConstantI 方法-必須由使用者實作為的回呼函式，以設定頂點著色器整數常數的陣列。
 ms.assetid: 55f5747d-b7f8-4d13-ac2c-df2dcb160091
 title: 'ID3DXEffectStateManager：： SetPixelShaderConstantI 方法 (D3DX9Effect .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 2e84d883370038435dc59bb948ef94fcd82223db
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 53eab5993ee737efe866c73a550e6b216edaac3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986526"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090476"
 ---
 # <a name="id3dxeffectstatemanagersetpixelshaderconstanti-method"></a>ID3DXEffectStateManager：： SetPixelShaderConstantI 方法
 

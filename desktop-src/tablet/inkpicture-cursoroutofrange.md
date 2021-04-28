@@ -1,15 +1,15 @@
 ---
-description: 當資料指標離開 tablet 內容 (鄰近) 的實體偵測範圍時發生。
+description: InkPicture. CursorOutOfRange 事件-當資料指標離開 tablet 內容 (鄰近) 的實體偵測範圍時，就會發生此事件。
 ms.assetid: 0c71a4ad-3c09-4134-b0e7-82f29e8913ed
 title: 'InkPicture. CursorOutOfRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6a3eb09ca54fcfc4df3135896ea14f9bf56570
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d80584eafb7f1e5222316507f08bd73efb12fae
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086566"
 ---
 # <a name="inkpicturecursoroutofrange-event"></a>InkPicture. CursorOutOfRange 事件
 

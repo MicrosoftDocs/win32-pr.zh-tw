@@ -1,15 +1,15 @@
 ---
 title: 網路清單管理員
-description: .
+description: 網路清單管理員
 ms.assetid: a30741ff-5d9a-4ebb-8373-97e9116fc64b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fc21f937b8f38a6451c70901d7f22c842a3c0b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7ba4189838fcb491b884c5d524fab6bc3d10095f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311366"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108090766"
 ---
 # <a name="network-list-manager"></a>網路清單管理員
 

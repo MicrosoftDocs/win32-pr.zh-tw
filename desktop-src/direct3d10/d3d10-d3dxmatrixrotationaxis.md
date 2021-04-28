@@ -1,5 +1,5 @@
 ---
-description: 建立圍繞任意軸旋轉的矩陣。
+description: D3DXMatrixRotationAxis 函式 (D3DX10Math) -建立可圍繞任意軸旋轉的矩陣。
 ms.assetid: dc4b8b3f-e1d2-475f-9dcb-622ada9fae6b
 title: 'D3DXMatrixRotationAxis 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: bba74aa7258b39b8fdbbb8cab09684a14bfbda91
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8ea5b8b0a40e876af454daa8915c0e455d691d08
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035412"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108996"
 ---
 # <a name="d3dxmatrixrotationaxis-function-d3dx10mathh"></a>D3DXMatrixRotationAxis 函式 (D3DX10Math) 
 

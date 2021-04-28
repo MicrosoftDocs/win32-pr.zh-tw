@@ -1,5 +1,5 @@
 ---
-description: Clear 方法會刪除集合中的所有專案。
+description: IPortableDeviceKeyCollection：： Clear 方法-Clear 方法會刪除集合中的所有專案。
 ms.assetid: d5477ded-d0bd-4909-abb1-6ff282cf7925
 title: 'IPortableDeviceKeyCollection：： Clear 方法 (PortableDeviceTypes .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: e72f20d93ddbdf521bcd83c1fe07d75f74abd463
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9e5efb8b3784b9ddc04a9e28a83c39ef75d723b3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000953"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106806"
 ---
 # <a name="iportabledevicekeycollectionclear-method"></a>IPortableDeviceKeyCollection：： Clear 方法
 

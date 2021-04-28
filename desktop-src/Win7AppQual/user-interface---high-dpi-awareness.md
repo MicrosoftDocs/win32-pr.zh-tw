@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用者介面 - 高 DPI 感知
 ms.assetid: 5b753340-366c-44b3-87e9-19c580f1c5d5
 title: 使用者介面 - 高 DPI 感知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e93aeed452f421e8e38df8d6d75f6bbe1f97cc6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 118b566d35f753a77f6cfd9706c2e69819f3fbaa
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988072"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116066"
 ---
 # <a name="user-interface---high-dpi-awareness"></a>使用者介面 - 高 DPI 感知
 

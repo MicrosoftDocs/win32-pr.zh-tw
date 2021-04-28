@@ -1,5 +1,5 @@
 ---
-description: 描述四元數。
+description: D3DXQUATERNION 結構 (D3dx9math) -描述四元數。
 ms.assetid: 3d88ed17-5b0a-46d5-8fe6-d66e1fa26c13
 title: 'D3DXQUATERNION 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 59d3f147e8eb233b9197394bad738d19d9ceba5d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f67acc6389ce809c1aa5f4987d9502735fe61e49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115676"
 ---
 # <a name="d3dxquaternion-structure-d3dx9mathh"></a>D3DXQUATERNION 結構 (D3dx9math .h) 
 

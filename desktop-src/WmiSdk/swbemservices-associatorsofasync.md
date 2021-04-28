@@ -1,5 +1,5 @@
 ---
-description: 傳回物件的集合， (類別或實例) 呼叫與指定之物件相關聯的端點。
+description: SWbemServices. AssociatorsOfAsync 方法-傳回 (類別或實例的集合，) 名為與指定物件相關聯的端點。
 ms.assetid: 3969d90f-d39c-40f1-9328-fc1afbaa53b1
 ms.tgt_platform: multiple
 title: 'SWbemServices. AssociatorsOfAsync 方法 (>wbemdisp.tlb .h) '
@@ -16,12 +16,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: d83f2eb33b7cd2d6ce6345d9b40a2367539dfec7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b16eed97c891b4b4f5bd283496868d99f9e0fbc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989308"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103666"
 ---
 # <a name="swbemservicesassociatorsofasync-method"></a>SWbemServices. AssociatorsOfAsync 方法
 
@@ -245,8 +245,8 @@ SWbemServices.AssociatorsOfAsync( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemServices<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemServices<br/>                                                          |

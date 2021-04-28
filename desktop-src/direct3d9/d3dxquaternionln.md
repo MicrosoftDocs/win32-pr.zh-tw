@@ -1,5 +1,5 @@
 ---
-description: 計算自然對數。
+description: D3DXQuaternionLn 函數 (D3dx9math) -計算自然對數。
 ms.assetid: 73ca7d13-1e20-48fc-b0ed-0d3127d094a7
 title: 'D3DXQuaternionLn 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b51fcc77da29216acd2bfc1c011a063014da5d69
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d1a529c1c6ca4d7f81bf4d41fcdb4a7c7179874b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514669"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108094056"
 ---
 # <a name="d3dxquaternionln-function-d3dx9mathh"></a>D3DXQuaternionLn 函式 (D3dx9math) 
 

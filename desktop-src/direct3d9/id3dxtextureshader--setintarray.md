@@ -1,5 +1,5 @@
 ---
-description: 設定整數的陣列。
+description: ID3DXTextureShader：： SetIntArray 方法：設定整數的陣列。
 ms.assetid: 1ceb8bb0-d168-49cf-8964-8ae582b5ec2e
 title: 'ID3DXTextureShader：： SetIntArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: d2e43ac1451ec776339d7aba1a4b0288e948f43d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0ddc00637bddf2810e73be7755a9dcfb8696053e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989200"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097486"
 ---
 # <a name="id3dxtextureshadersetintarray-method"></a>ID3DXTextureShader：： SetIntArray 方法
 

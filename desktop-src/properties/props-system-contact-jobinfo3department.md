@@ -1,15 +1,15 @@
 ---
-description: .
+description: JobInfo3Department
 ms.assetid: 6ead2145-4707-47cc-884f-191f135eb4fc
 title: JobInfo3Department
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d066cdb7c60e5f9d4e39b85d99f7d8e4b883de90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c1d957433c9f8a3b990747fc8186b3535413756
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000267"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101716"
 ---
 # <a name="systemcontactjobinfo3department"></a>JobInfo3Department
 
