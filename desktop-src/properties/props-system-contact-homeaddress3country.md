@@ -1,15 +1,15 @@
 ---
-description: .
+description: HomeAddress3Country
 ms.assetid: 32c9f8ed-c5a8-43a4-9347-d631ff56827b
 title: HomeAddress3Country
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ebeecc5aa96c165ad1dd569c23d70137c87a334
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0ebb779af97ec865389008acc0b3d47afa4ab67
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193756"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102146"
 ---
 # <a name="systemcontacthomeaddress3country"></a>HomeAddress3Country
 

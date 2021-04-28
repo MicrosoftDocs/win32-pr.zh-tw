@@ -1,5 +1,5 @@
 ---
-description: 修改服務的設定資料。
+description: Msvm_VirtualSystemManagementService 類別的 ModifyServiceSettings 方法-修改服務的設定資料。
 ms.assetid: 1CA49922-894D-4AA1-B741-6A0DC9F5654E
 title: Msvm_VirtualSystemManagementService 類別的 ModifyServiceSettings 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e93d86c454de4f214c72a6ed95a414d184419c80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee4e8ae904292bae06770f23cf6c853d5e5448bd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850943"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112166"
 ---
 # <a name="modifyservicesettings-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 ModifyServiceSettings 方法 \_
 

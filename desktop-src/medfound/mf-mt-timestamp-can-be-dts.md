@@ -1,15 +1,15 @@
 ---
-description: 指定在設定時間戳記時，解碼器是否可以使用 (DTS) 的解碼時間戳記。
+description: MF_MT_TIMESTAMP_CAN_BE_DTS 屬性-指定在設定時間戳記時，解碼器是否可以使用 (DTS) 的解碼時間戳記。
 ms.assetid: 38E6AA56-EE38-48D5-92F1-F29ABB2C7A72
 title: 'MF_MT_TIMESTAMP_CAN_BE_DTS 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a94cffdcea37c3fe7814a24db219f3d0cd971723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e666c8d7cce5ed7f209ee9b10efa0ffe50cf211d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978994"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093066"
 ---
 # <a name="mf_mt_timestamp_can_be_dts-attribute"></a>MF \_ MT \_ TIMESTAMP \_ 可以 \_ 是 \_ DTS 屬性
 

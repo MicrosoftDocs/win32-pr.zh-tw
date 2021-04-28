@@ -1,15 +1,15 @@
 ---
-description: 下一個方法會取得列舉順序中的下一個指定元素數目。
+description: IEnumTime：： Next 方法-下一個方法會取得列舉順序中的下一個指定元素數目。
 ms.assetid: e8ca77b8-0322-43b4-9996-26f584cf878a
 title: 'IEnumTime：： Next 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fce3d88bc88e808c35ec64f827fd5925ddfe57f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1487136b0e3e41ba11a23ba92500d2aa0758df79
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999545"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118386"
 ---
 # <a name="ienumtimenext-method"></a>IEnumTime：： Next 方法
 

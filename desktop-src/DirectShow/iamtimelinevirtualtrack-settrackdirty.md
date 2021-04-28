@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineVirtualTrack：： SetTrackDirty 方法-不支援。
 ms.assetid: 3fd88af0-2565-4498-a239-5d181af6eb3b
 title: IAMTimelineVirtualTrack：： SetTrackDirty 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 83faa025b25add1c7009ee605f481cc29c825e35
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a5f77070623f65925ab4053885db8e3ac7c6b9dd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973553"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119436"
 ---
 # <a name="iamtimelinevirtualtracksettrackdirty-method"></a>IAMTimelineVirtualTrack：： SetTrackDirty 方法
 

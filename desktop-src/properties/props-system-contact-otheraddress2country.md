@@ -1,15 +1,15 @@
 ---
-description: .
+description: OtherAddress2Country
 ms.assetid: 3318aed5-2607-4d5c-912e-40116aeb1450
 title: OtherAddress2Country
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 315739910d6b630cc754924c0b60f151a2a7307e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8adc7e73b97e8e800eb41b01ee6b049c3ee04691
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319963"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108101506"
 ---
 # <a name="systemcontactotheraddress2country"></a>OtherAddress2Country
 

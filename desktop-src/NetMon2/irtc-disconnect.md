@@ -1,5 +1,5 @@
 ---
-description: 中斷連線方法會中斷 NPP 與網路的連線。
+description: IRTC：:D isconnect 方法-中斷連線方法會中斷 NPP 與網路的連線。
 ms.assetid: 47a0cce0-a50d-4bad-9787-672cc3d13d07
 title: 'IRTC： (Netmon 的:D isconnect 方法) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: df58d6ac0e61ecc370510474c3bc067726d9824b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43acb88e2c7b6108a162c4715de02375121021f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110716"
 ---
 # <a name="irtcdisconnect-method"></a>IRTC：:D isconnect 方法
 

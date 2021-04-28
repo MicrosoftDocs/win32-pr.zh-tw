@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_IDEController 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: a884f3dc-21b1-4284-bb6c-75393bbda816
 title: Msvm_IDEController 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d4c22318f28a774704fb9c2f3b1f0b642b289cdd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 699b86c1324b0d1c35212e59e88070dbea1a4ac4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982411"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111786"
 ---
 # <a name="requeststatechange-method-of-the-msvm_idecontroller-class"></a>Msvm IDEController 類別的 RequestStateChange 方法 \_
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: PeakValue
 ms.assetid: 576070e9-8f7a-4df7-ba3a-0872aa96a0ab
 title: PeakValue
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 363cabccfe026937db8acac0b79635dbc19ea691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 905236f61a86a41fb6034274e21b1d828c2b9989
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104916"
 ---
 # <a name="systemaudiopeakvalue"></a>PeakValue
 

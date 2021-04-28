@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_ImageManagementService 類別的 StopService 方法會停止服務。
 ms.assetid: 96f49c9c-7f1c-497e-9630-5fd9b355b75d
 title: Msvm_ImageManagementService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d61f95af2cc0efe371a91454c74adc96949e00e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9dde7af6f6d62395f27cbd3ec44daf45d7375f8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971256"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118927"
 ---
 # <a name="stopservice-method-of-the-msvm_imagemanagementservice-class"></a>Msvm ImageManagementService 類別的 StopService 方法 \_
 

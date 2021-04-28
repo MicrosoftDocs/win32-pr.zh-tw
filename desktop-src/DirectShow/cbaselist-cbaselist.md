@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseList. CBaseList (TCHAR \* ，INT) 的函式，則為函數方法。
 ms.assetid: 2d48cb66-45d2-4d2d-ba7e-ae759b6d2aa4
 title: 'CBaseList. CBaseList (TCHAR *，INT)  (Wxlist. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9c947c8ffa6b61f919d03470b386ffa82945f3b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cf745e22ffccb342d945a024760f8c72fdb35ce9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976099"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099636"
 ---
 # <a name="cbaselistcbaselisttchar-int-constructor"></a>CBaseList. CBaseList (TCHAR \* ，INT) 函數
 

@@ -1,5 +1,5 @@
 ---
-description: 這個類別是處理事件的父類別。 以下是從 MOF 程式碼簡化的語法。
+description: Process_V2 類別-這個類別是處理事件的父類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 75596278-43cc-4040-a43d-6958d0935b68
 title: Process_V2 類別
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c055dc1f78da13c0dfa29bea948a8f0c94363ee4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77d700e7847d0ad19a019985a4e19343ce8f383d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944985"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106296"
 ---
 # <a name="process_v2-class"></a>進程 \_ V2 類別
 

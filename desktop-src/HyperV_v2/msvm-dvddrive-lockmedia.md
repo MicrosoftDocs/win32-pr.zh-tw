@@ -1,5 +1,5 @@
 ---
-description: 鎖定或釋放媒體。
+description: Msvm_DVDDrive 類別的 LockMedia 方法-鎖定或釋放媒體。
 ms.assetid: 924bc20a-901b-4618-be49-eaacf80c9465
 title: Msvm_DVDDrive 類別的 LockMedia 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 650a868d8e25e2ccc47271e49634827fe7d3d967
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e00780fbeeeec60563b31008c8e5979a09f9d173
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116077"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119146"
 ---
 # <a name="lockmedia-method-of-the-msvm_dvddrive-class"></a>Msvm DVDDrive 類別的 LockMedia 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: 計算矩陣的反向。
+description: D3DXMatrixInverse 函數 (D3DX10Math) -計算矩陣的反向。
 ms.assetid: 928a201b-814d-41cc-bfab-d2f8a12addeb
 title: 'D3DXMatrixInverse 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: cc075609ea118e12b46846f649d689f6fbc2caf7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6b42cf0ae3f9ee1154d385600b00a2dcb10c4fd9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514688"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113196"
 ---
 # <a name="d3dxmatrixinverse-function-d3dx10mathh"></a>D3DXMatrixInverse 函式 (D3DX10Math) 
 

@@ -1,14 +1,14 @@
 ---
-description: 指定在設定時間戳記時，解碼器是否可以使用 (DTS) 的解碼時間戳記。
+description: MF_MT_FSSourceTypeDecoded 屬性-指定在設定時間戳記時，解碼器是否可以使用 (DTS) 的解碼時間戳記。
 title: MF_MT_FSSourceTypeDecoded
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6ad80b0b7b29677ed0bee2f86a2c12c56c08441
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799c11e3b921427ff4a3b05aa3d7f47e297ba14
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975554"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093086"
 ---
 # <a name="mf_mt_fssourcetypedecoded-attribute"></a>MF \_ MT \_ FSSourceTypeDecoded 屬性
 

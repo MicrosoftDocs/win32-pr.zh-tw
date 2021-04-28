@@ -1,5 +1,5 @@
 ---
-description: GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
+description: IRTC：： GetTotalStatistics 方法-GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
 ms.assetid: e5098984-c69e-4cd5-9143-d85dfcbd7b92
 title: 'IRTC：： GetTotalStatistics 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 27128048b4326aae14ae6a2e2e6c0540b1105538
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ed659efe388f4eb9c9ac8afd6aa2c74fd0af7d3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989339"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110686"
 ---
 # <a name="irtcgettotalstatistics-method"></a>IRTC：： GetTotalStatistics 方法
 

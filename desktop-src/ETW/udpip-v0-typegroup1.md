@@ -1,5 +1,5 @@
 ---
-description: 此類別是 UDP/IP 事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: UdpIp_V0_TypeGroup1 類別-這個類別是 UDP/IP 事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 834a761a-089b-4b93-9a6a-a1edf752b582
 title: UdpIp_V0_TypeGroup1 類別
 ms.topic: reference
@@ -19,12 +19,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 2813476bc2c820d1872e787dc047fafccd3b7d52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78243a49e4504fd9e132407feebe98d9b48f7bdd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944855"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105496"
 ---
 # <a name="udpip_v0_typegroup1-class"></a>UdpIp \_ V0 \_ TypeGroup1 類別
 

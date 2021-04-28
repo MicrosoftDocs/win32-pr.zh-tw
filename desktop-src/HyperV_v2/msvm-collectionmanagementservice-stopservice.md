@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_CollectionManagementService 類別的 StopService 方法會停止服務。
 ms.assetid: 26d0aa9f-f5ca-481f-9bed-6788b0dc2803
 title: Msvm_CollectionManagementService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 72a960e1f18589c6166fe58c0325a94d46969946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f46b7416a3f17788cbfc0af5aacba014d680dbf6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851848"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119246"
 ---
 # <a name="stopservice-method-of-the-msvm_collectionmanagementservice-class"></a>Msvm CollectionManagementService 類別的 StopService 方法 \_
 

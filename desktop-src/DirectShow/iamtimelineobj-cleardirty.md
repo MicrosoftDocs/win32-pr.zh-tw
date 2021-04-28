@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimelineObj：： ClearDirty 方法-不支援。
 ms.assetid: 2d6efa65-79ae-4c31-bd98-ad69baea4da2
 title: 'IAMTimelineObj：： ClearDirty 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d743c062f4c565aabb8f5852e3397ec8f92193a5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92c1beb385b917ec03cbd34feea1bb1aca8d9792
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119546"
 ---
 # <a name="iamtimelineobjcleardirty-method"></a>IAMTimelineObj：： ClearDirty 方法
 

@@ -1,15 +1,15 @@
 ---
-description: 發生于滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，且按下滑鼠按鍵時。
+description: InkCollector，當滑鼠指標位於 InkCollector 或 InkOverlay 物件上方，且按下滑鼠按鍵時，就會發生此事件。
 ms.assetid: db9ec396-b2a7-4f4f-99f2-95aad46eea28
 title: InkCollector)  (Msinkaut 的事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 760801fb5c578ddbdd67b15a4201c21c4981b097
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d29c8d3ba19856a8d6bfa038837b592c0b5f2b36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511019"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110176"
 ---
 # <a name="inkcollectormousedown-event"></a>InkCollector 的 MouseDown 事件
 

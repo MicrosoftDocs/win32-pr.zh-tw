@@ -1,15 +1,15 @@
 ---
-description: .
+description: 系統. 媒體生產者
 ms.assetid: 9cc672b2-75ea-4733-aaa3-0c4fd5afb4f6
 title: 系統. 媒體生產者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3a92bf85c2d724c561337bd7efc95ee04f39d90
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 7933746e875cbd4ae579cd5beadd594e548ecf39
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106985807"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092046"
 ---
 # <a name="systemmediaproducer"></a>系統. 媒體生產者
 

@@ -1,5 +1,5 @@
 ---
-description: BreakConnect 方法會從連接釋放 pin。
+description: CBaseInputPin. BreakConnect 方法-BreakConnect 方法會釋放連接的 pin。
 ms.assetid: 73b228a9-0a59-4647-b400-c33fa06c7e34
 title: 'CBaseInputPin. BreakConnect 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6981ef97b98cc25b1996f1599d6d66b8e7d41f20
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5398f675e056da2c60747c0b4eb17c475771bdc
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998613"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099736"
 ---
 # <a name="cbaseinputpinbreakconnect-method"></a>CBaseInputPin. BreakConnect 方法
 

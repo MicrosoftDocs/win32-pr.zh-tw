@@ -1,15 +1,15 @@
 ---
 title: 資料指標函數
-description: .
+description: 資料指標函數
 ms.assetid: fa74eed0-a862-4345-a13a-0c4234b6a5b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8ba51e98a6290fc6049e835a80335af7a17c97c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7dd5d8f68127c912d37a8cb37757a0980e81982
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840356"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112756"
 ---
 # <a name="cursor-functions"></a>資料指標函數
 
@@ -32,9 +32,9 @@ ms.locfileid: "103840356"
 -   [**SetSystemCursor**](/windows/desktop/api/Winuser/nf-winuser-setsystemcursor)
 -   [**ShowCursor**](/windows/desktop/api/Winuser/nf-winuser-showcursor)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_FcEndpoint 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 5734d1a3-5e6e-4b50-aa15-d6c47f4b2a81
 title: Msvm_FcEndpoint 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8874ad09b87ccaefd9d5ba2f3a5606e398830ff2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 696f9a630b367171e576ca77bedc7a049ac96647
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318543"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111866"
 ---
 # <a name="requeststatechange-method-of-the-msvm_fcendpoint-class"></a>Msvm FcEndpoint 類別的 RequestStateChange 方法 \_
 

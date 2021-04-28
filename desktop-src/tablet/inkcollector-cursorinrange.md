@@ -1,15 +1,15 @@
 ---
-description: 當游標進入 tablet 內容 (鄰近) 的實體偵測範圍時發生。
+description: InkCollector. CursorInRange 事件-當游標進入) tablet 內容 (鄰近性的實體偵測範圍時，就會發生此事件。
 ms.assetid: d05b240c-ba64-4008-b25d-e06c052eb5b0
 title: 'InkCollector. CursorInRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3c1d59927f9ed0a932fe28a2c5243f328a223c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9b7cd6204b2dbb29f9a46e48ecb12569e1301f4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511020"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110286"
 ---
 # <a name="inkcollectorcursorinrange-event"></a>InkCollector. CursorInRange 事件
 

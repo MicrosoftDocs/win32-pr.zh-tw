@@ -1,15 +1,15 @@
 ---
 title: 鍵盤輸入函式
-description: .
+description: 鍵盤輸入函式
 ms.assetid: 731b8209-1ca8-4667-bd39-7bd0cef45380
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96d034ef3f9c20591200247c312fb3c45521d086
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c1b690a93c2813eca7c7b4487e42bfc8664bd894
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315100"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112946"
 ---
 # <a name="keyboard-input-functions"></a>鍵盤輸入函式
 
@@ -50,6 +50,6 @@ ms.locfileid: "104315100"
 -   [**VkKeyScan**](/windows/win32/api/winuser/nf-winuser-vkkeyscana)
 -   [**VkKeyScanEx**](/windows/win32/api/winuser/nf-winuser-vkkeyscanexa)
 
- 
+ 
 
- 
+ 

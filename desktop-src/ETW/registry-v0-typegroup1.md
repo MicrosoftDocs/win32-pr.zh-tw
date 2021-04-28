@@ -1,5 +1,5 @@
 ---
-description: 這個類別是登錄事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
+description: Registry_V0_TypeGroup1 類別-這個類別是登錄事件的事件種類類別。 以下是從 MOF 程式碼簡化的語法。
 ms.assetid: 93031f3e-963f-46a6-9355-988eefd94836
 title: Registry_V0_TypeGroup1 類別
 ms.topic: reference
@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9a72a0d6ddfe5e441b21dff4ba58fa3bb37457a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86f6d695afa2e05c87a076cf88ed8023e9416beb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972188"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106186"
 ---
 # <a name="registry_v0_typegroup1-class"></a>Registry \_ V0 \_ TypeGroup1 類別
 

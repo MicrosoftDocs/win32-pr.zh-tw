@@ -1,5 +1,5 @@
 ---
-description: SetThumbnail 方法的 Proxy 函式。
+description: SetThumbnail 方法的 IWICBitmapEncoder_SetThumbnail_Proxy 函數 Proxy 函式。
 ms.assetid: 6c062eaf-27a4-4d48-8315-be9bf168f999
 title: IWICBitmapEncoder_SetThumbnail_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: d2670dae0d8ba9eeda7ca1d6dce5d3957dc59b7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7666fffbac7813db8021daf38ebae9c4e68c57a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468968"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100596"
 ---
 # <a name="iwicbitmapencoder_setthumbnail_proxy-function"></a>IWICBitmapEncoder \_ SetThumbnail \_ Proxy 函式
 
@@ -44,18 +44,18 @@ HRESULT IWICBitmapEncoder_SetThumbnail_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) \** _
+類型： **[ **IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)\***
 
-這個 [_ *IWICBitmapEncoder* *](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder)物件的指標。
+這個 [**IWICBitmapEncoder**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapencoder) 物件的指標。
 
 </dd> <dt>
 
 *pIThumbnail* \[在\]
 </dt> <dd>
 
-類型： **[**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) \** _
+類型： **[ **IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource)\***
 
-要設定為全域縮圖的 [_ *IWICBitmapSource* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) 。
+要設定為全域縮圖的 [**IWICBitmapSource**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapsource) 。
 
 </dd> </dl>
 

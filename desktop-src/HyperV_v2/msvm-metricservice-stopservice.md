@@ -1,5 +1,5 @@
 ---
-description: 停止服務。
+description: Msvm_MetricService 類別的 StopService 方法會停止服務。
 ms.assetid: f317ee91-3f87-4089-8156-5124dec0fe5c
 title: Msvm_MetricService 類別的 StopService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f1496f7ebbca321b770fe142010c5903919f079c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f716307f8c705c23df8e6efa303a2ab7863e0861
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974668"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111586"
 ---
 # <a name="stopservice-method-of-the-msvm_metricservice-class"></a>Msvm MetricService 類別的 StopService 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VirtualFcSwitch 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: acbc06cd-7f6c-4555-8816-de3f021126aa
 title: Msvm_VirtualFcSwitch 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 31c68f2fa703aa33fd6f11cabc8aaf535de98228
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30a12ba60b19f16fb778fa64335734644fbfd1f3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936651"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110986"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualfcswitch-class"></a>Msvm VirtualFcSwitch 類別的 RequestStateChange 方法 \_
 

@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_Processor 類別的 reset 方法-要求重設。
 ms.assetid: c69b5c65-8f00-48ed-8602-7e0c5a76653d
 title: Msvm_Processor 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: aaa0c74ac71e4c3d1be4b9580353c15f5ed94dca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eecd8f240f2d5c7dc1c2c1b98c0503f54a5c8050
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982458"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111566"
 ---
 # <a name="reset-method-of-the-msvm_processor-class"></a>Msvm Processor 類別的 Reset 方法 \_
 

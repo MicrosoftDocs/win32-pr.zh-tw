@@ -1,15 +1,15 @@
 ---
-description: .
+description: 修正 Web 應用程式和 Add-Ons 的相容性問題
 ms.assetid: 36255598-C96B-428A-AB87-D0ED140FA6FD
 title: 修正 Web 應用程式和 Add-Ons 的相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1feef7b99a70f2e54be2fbb6b2fef9407940098
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 7f612847491c64820c93f643dce86f9aa854f637
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981930"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116435"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-and-add-ons"></a>修正 Web 應用程式和 Add-Ons 的相容性問題
 

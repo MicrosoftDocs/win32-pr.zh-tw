@@ -1,5 +1,5 @@
 ---
-description: 建立左手向的透視圖投影矩陣
+description: D3DXMatrixPerspectiveLH 函式 (D3dx9math) -建立左手式的透視圖投影矩陣
 ms.assetid: 07bbbca8-ad1e-4177-97d4-601b33179b47
 title: 'D3DXMatrixPerspectiveLH 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cf7e6a446202a86e126b2cea0c4a09f19bf6ffa0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d898a7d40cd1c9f7b46100c19d86573806ccb1b5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992342"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108118306"
 ---
 # <a name="d3dxmatrixperspectivelh-function-d3dx9mathh"></a>D3DXMatrixPerspectiveLH 函式 (D3dx9math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 目前光線的世界空間方向。
+description: WorldRayOrigin-目前光線的世界空間方向。
 ms.assetid: ''
 title: WorldRayOrigin
 ms.localizationpriority: low
@@ -12,12 +12,12 @@ api_name:
 - WorldRayOrigin
 api_type:
 - NA
-ms.openlocfilehash: 3d6b83622cd8fe39e137400ebb656d61425c7a8b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 456d93bf36ceeaac0627d90ed9355453265969b6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971949"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105296"
 ---
 # <a name="worldrayorigin"></a>WorldRayOrigin
 

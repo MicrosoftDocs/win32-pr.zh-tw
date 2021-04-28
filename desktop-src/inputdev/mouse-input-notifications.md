@@ -1,15 +1,15 @@
 ---
 title: 滑鼠輸入通知
-description: .
+description: 滑鼠輸入通知
 ms.assetid: bf010650-4117-4ea5-8563-ca067d48f9cc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a9b8d7794d2122e89dc558331ac487e54b91e05
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c0e748478d88f4012eb19a59fafafb2cbf33f075
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372210"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108112806"
 ---
 # <a name="mouse-input-notifications"></a>滑鼠輸入通知
 
@@ -51,9 +51,9 @@ ms.locfileid: "104372210"
 -   [**WM \_ XBUTTONDOWN**](wm-xbuttondown.md)
 -   [**WM \_ XBUTTONUP**](wm-xbuttonup.md)
 
- 
+ 
 
- 
+ 
 
 
 

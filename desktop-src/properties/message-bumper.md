@@ -1,15 +1,15 @@
 ---
-description: .
+description: '訊息 (Windows 屬性系統) '
 ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
 title: '訊息 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43709af47378a677e0b1e1082455ad2def8be422
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3ecc0c008a68fbdfec1d6786228df7bd8a5e8547
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988818"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108087406"
 ---
 # <a name="message-windows-property-system"></a>訊息 (Windows 屬性系統) 
 

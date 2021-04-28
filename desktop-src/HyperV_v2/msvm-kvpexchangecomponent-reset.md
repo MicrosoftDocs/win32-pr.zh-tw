@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_KvpExchangeComponent 類別的 reset 方法-要求重設。
 ms.assetid: 7fa12de6-061c-40ff-98f2-8befd8c502b4
 title: Msvm_KvpExchangeComponent 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8f3b3c1b2a157e3e506c582009fa07014a0e89a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cf5707c5fe04bba62edd3dec79573d6f6c8ad45
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980983"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111696"
 ---
 # <a name="reset-method-of-the-msvm_kvpexchangecomponent-class"></a>Msvm KvpExchangeComponent 類別的 Reset 方法 \_
 

@@ -1,15 +1,15 @@
 ---
-description: 當游標進入 tablet 內容 (鄰近) 的實體偵測範圍時發生。
+description: CursorInRange 事件-當游標進入) 平板電腦內容的實體偵測 (範圍時，就會發生此事件。
 ms.assetid: 11327fef-1f5e-407a-812b-48f427af291e
 title: 'CursorInRange 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b65745e93bfb7351f7e1fa6d01965ce7a271bc0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1b48cba731720072aae88aa59b80c569a4aa07b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944999"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086836"
 ---
 # <a name="inkoverlaycursorinrange-event"></a>CursorInRange 事件
 

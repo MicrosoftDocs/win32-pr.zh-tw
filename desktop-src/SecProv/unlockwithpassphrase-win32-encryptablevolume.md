@@ -1,5 +1,5 @@
 ---
-description: 使用複雜密碼來取得衍生金鑰。
+description: Win32_EncryptableVolume 類別的 UnlockWithPassphrase 方法-使用複雜密碼來取得衍生金鑰。
 ms.assetid: 09b4ae7f-7084-42bd-8bbe-da686d6280e9
 title: Win32_EncryptableVolume 類別的 UnlockWithPassphrase 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 75c5522a0781b1cd229bf97d2549433a426fbfc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0206bf7884ffa204bc768ddfcf5a4a590bf25b60
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994508"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116456"
 ---
 # <a name="unlockwithpassphrase-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 UnlockWithPassphrase 方法 \_
 

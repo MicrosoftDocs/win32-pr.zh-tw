@@ -1,5 +1,5 @@
 ---
-description: 抓取作業的錯誤物件（如果有的話）。
+description: Msvm_ConcreteJob 類別的 GetErrorEx 方法-取得作業的錯誤物件（如果有的話）。
 ms.assetid: B4B4F60C-9221-4125-8D42-F0F1D32C3E79
 title: Msvm_ConcreteJob 類別的 GetErrorEx 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e938d41afad430051bebb08fc77d6edf6da44691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67abbd06fdaae9c23cca53f5516586f45216f20d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970631"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119346"
 ---
 # <a name="geterrorex-method-of-the-msvm_concretejob-class"></a>Msvm ConcreteJob 類別的 GetErrorEx 方法 \_
 

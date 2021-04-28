@@ -1,15 +1,15 @@
 ---
 title: 版本資訊結構
-description: .
+description: 版本資訊結構
 ms.assetid: 44252d74-abb6-4ff3-9d4c-969bbc25439e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc6f394414842a2a94c0d7c56a8ff924b22873bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ababc1e22c01670af10ad09730e7aa0ae89551d6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300944"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092526"
 ---
 # <a name="version-information-structures"></a>版本資訊結構
 
@@ -23,9 +23,9 @@ ms.locfileid: "104300944"
 -   [**VS \_ FIXEDFILEINFO**](/windows/win32/api/verrsrc/ns-verrsrc-vs_fixedfileinfo)
 -   [**VS \_ VERSIONINFO**](vs-versioninfo.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimeline：： IsDirty 方法-不支援。
 ms.assetid: ed6fd633-23b8-4b80-901c-d7b50fa4c15e
 title: 'IAMTimeline：： IsDirty 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: d5281a4caa0a559e64ac9d7ccb2ff46b5285c491
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ee51c44ae99a26e54a616da6752511f8a4e5f4a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987063"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108119586"
 ---
 # <a name="iamtimelineisdirty-method"></a>IAMTimeline：： IsDirty 方法
 

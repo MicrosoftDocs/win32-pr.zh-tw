@@ -1,5 +1,5 @@
 ---
-description: FindPin 方法會使用指定的識別碼抓取 pin。 這個方法會實 IBaseFilter：： FindPin 方法。
+description: CBaseFilter. FindPin 方法-FindPin 方法會以指定的識別碼抓取 pin。 這個方法會實 IBaseFilter：： FindPin 方法。
 ms.assetid: 152e4ff3-2809-4c57-b9c8-f51fc50b3703
 title: 'CBaseFilter. FindPin 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98b49c547ec59a74185f7f719da660220de8480f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2bbef9b051a42597b2585a432f544eead4e2e0a1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983120"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108099816"
 ---
 # <a name="cbasefilterfindpin-method"></a>CBaseFilter. FindPin 方法
 

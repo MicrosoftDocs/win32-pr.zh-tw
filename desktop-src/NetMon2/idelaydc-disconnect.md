@@ -1,5 +1,5 @@
 ---
-description: 中斷連線方法會中斷 NPP 與網路的連線。
+description: IDelaydC：:D isconnect 方法-中斷連線方法會中斷 NPP 與網路的連線。
 ms.assetid: 476bbce4-2e3c-448f-b85e-6adac424fb0d
 title: 'IDelaydC： (Netmon 的:D isconnect 方法) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d192aa80f543706eea4bc197bc3dc8d57dd64aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 967bd9674cb28363804b8c8af12c541bcb8675ff
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112220"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110806"
 ---
 # <a name="idelaydcdisconnect-method"></a>IDelaydC：:D isconnect 方法
 

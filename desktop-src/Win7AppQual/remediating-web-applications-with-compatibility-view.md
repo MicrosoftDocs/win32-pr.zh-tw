@@ -1,15 +1,15 @@
 ---
-description: .
+description: 使用相容性檢視修正 Web 應用程式中的相容性問題
 ms.assetid: ACAC2375-EA6C-4AA1-90B7-0BF237A51C02
 title: 使用相容性檢視修正 Web 應用程式中的相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a43f4ff54a919058127a5f72ba60f3683c6583e1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b5acb7249854d9ac89b5601fdf83efa397c11c17
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116356"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-by-using-compatibility-view"></a>使用相容性檢視修正 Web 應用程式中的相容性問題
 

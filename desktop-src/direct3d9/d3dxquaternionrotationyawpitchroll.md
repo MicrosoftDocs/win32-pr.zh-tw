@@ -1,5 +1,5 @@
 ---
-description: 使用指定的偏擺、音調和變換建立四元數。
+description: D3DXQuaternionRotationYawPitchRoll 函式 (D3dx9math) -使用指定的偏擺、音調和變換建立四元數。
 ms.assetid: be4a3bd5-114b-4652-8e0a-e51338317c16
 title: 'D3DXQuaternionRotationYawPitchRoll 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 4d0df60149643db0d9243afe57e394320f81d08c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 541e181425782662c6d40affc22c829b4ba343ab
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975672"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108117996"
 ---
 # <a name="d3dxquaternionrotationyawpitchroll-function-d3dx9mathh"></a>D3DXQuaternionRotationYawPitchRoll 函式 (D3dx9math) 
 

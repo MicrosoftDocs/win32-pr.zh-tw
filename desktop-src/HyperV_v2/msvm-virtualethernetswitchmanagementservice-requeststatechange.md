@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_VirtualEthernetSwitchManagementService 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: 0a236a99-6ddb-482f-af28-1af731b6b980
 title: Msvm_VirtualEthernetSwitchManagementService 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: fa7382c1d092a2e35df8ac16574d2262b7331085
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eceddea59f1f31ba2702c62dba798402bf60b86
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849999"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111066"
 ---
 # <a name="requeststatechange-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Msvm VirtualEthernetSwitchManagementService 類別的 RequestStateChange 方法 \_
 

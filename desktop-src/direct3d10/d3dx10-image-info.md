@@ -1,5 +1,5 @@
 ---
-description: 傳回影像檔案原始內容的描述。
+description: D3DX10_IMAGE_INFO 結構-傳回影像檔案原始內容的描述。
 ms.assetid: 40d89166-cc11-490d-867c-ae5db23a0784
 title: 'D3DX10_IMAGE_INFO 結構 (D3DX10 .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10.h
-ms.openlocfilehash: bf240296610c083e0d042d187ae29054461193a8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 228ddf777217e9e61369b0a7fc3b3eb1ca012b1d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322752"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108105476"
 ---
 # <a name="d3dx10_image_info-structure"></a>D3DX10 \_ 影像 \_ 資訊結構
 

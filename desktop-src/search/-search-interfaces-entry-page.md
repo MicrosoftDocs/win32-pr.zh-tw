@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows Search 介面
 ms.assetid: 72a30318-d557-4f32-85e6-25f1f97fdd9f
 title: Windows Search 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 240065cb6f34d5f82f5eb5a163eff6e9e0f4bd35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b68eca532a15b9f8655c639bf8588c0dfe0862bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511098"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108104626"
 ---
 # <a name="windows-search-interfaces"></a>Windows Search 介面
 

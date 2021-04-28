@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停目前的捕獲。
+description: IRTC：:P ause 方法-Pause 方法會暫停目前的捕獲。
 ms.assetid: 8c7b310e-de04-4bd8-9c96-3c5948e610be
 title: 'IRTC： (Netmon 的:P ause 方法) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d2593c380d0fea52d030586da2f473a3f3fa9446
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d42af1912365a4237889e4e46d0fb3343377c772
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192215"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110676"
 ---
 # <a name="irtcpause-method"></a>IRTC：:P ause 方法
 
