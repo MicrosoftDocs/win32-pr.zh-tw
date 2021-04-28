@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停目前的捕獲。
+description: IDelaydC：:P ause 方法-Pause 方法會暫停目前的捕獲。
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: 'IDelaydC： (Netmon 的:P ause 方法) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d44ae7792388d9ca637232b45e63d618a37acb6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098496"
 ---
-# <a name="idelaydcpause-method"></a><span data-ttu-id="e6018-103">IDelaydC：:P ause 方法</span><span class="sxs-lookup"><span data-stu-id="e6018-103">IDelaydC::Pause method</span></span>
+# <a name="idelaydcpause-method"></a><span data-ttu-id="4583b-103">IDelaydC：:P ause 方法</span><span class="sxs-lookup"><span data-stu-id="4583b-103">IDelaydC::Pause method</span></span>
 
-<span data-ttu-id="e6018-104">**Pause** 方法會暫停目前的捕獲。</span><span class="sxs-lookup"><span data-stu-id="e6018-104">The **Pause** method pauses the current capture.</span></span>
+<span data-ttu-id="4583b-104">**Pause** 方法會暫停目前的捕獲。</span><span class="sxs-lookup"><span data-stu-id="4583b-104">The **Pause** method pauses the current capture.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e6018-105">語法</span><span class="sxs-lookup"><span data-stu-id="e6018-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4583b-105">語法</span><span class="sxs-lookup"><span data-stu-id="4583b-105">Syntax</span></span>
 
 
 ```C++
@@ -34,69 +34,69 @@ HRESULT STDMETHODCALLTYPE Pause();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="e6018-106">參數</span><span class="sxs-lookup"><span data-stu-id="e6018-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4583b-106">參數</span><span class="sxs-lookup"><span data-stu-id="4583b-106">Parameters</span></span>
 
-<span data-ttu-id="e6018-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="e6018-107">This method has no parameters.</span></span>
+<span data-ttu-id="4583b-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="4583b-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="e6018-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="e6018-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4583b-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="4583b-108">Return value</span></span>
 
-<span data-ttu-id="e6018-109">如果方法成功，則傳回值為 NMERR \_ SUCCESS。</span><span class="sxs-lookup"><span data-stu-id="e6018-109">If the method is successful, the return value is NMERR\_SUCCESS.</span></span>
+<span data-ttu-id="4583b-109">如果方法成功，則傳回值為 NMERR \_ SUCCESS。</span><span class="sxs-lookup"><span data-stu-id="4583b-109">If the method is successful, the return value is NMERR\_SUCCESS.</span></span>
 
-<span data-ttu-id="e6018-110">如果此方法不成功，則傳回值是下列其中一個錯誤碼：</span><span class="sxs-lookup"><span data-stu-id="e6018-110">If the method is unsuccessful, the return value is one of the following error codes:</span></span>
+<span data-ttu-id="4583b-110">如果此方法不成功，則傳回值是下列其中一個錯誤碼：</span><span class="sxs-lookup"><span data-stu-id="4583b-110">If the method is unsuccessful, the return value is one of the following error codes:</span></span>
 
 
 
-| <span data-ttu-id="e6018-111">傳回碼</span><span class="sxs-lookup"><span data-stu-id="e6018-111">Return code</span></span>                                                                                           | <span data-ttu-id="e6018-112">Description</span><span class="sxs-lookup"><span data-stu-id="e6018-112">Description</span></span>                                                                                                                           |
+| <span data-ttu-id="4583b-111">傳回碼</span><span class="sxs-lookup"><span data-stu-id="4583b-111">Return code</span></span>                                                                                           | <span data-ttu-id="4583b-112">Description</span><span class="sxs-lookup"><span data-stu-id="4583b-112">Description</span></span>                                                                                                                           |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <span data-ttu-id="e6018-113"><dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-113"><dt>**NMERR\_CAPTURE\_PAUSED**</dt></span></span> </dl> | <span data-ttu-id="e6018-114">此捕獲已處於暫停狀態。</span><span class="sxs-lookup"><span data-stu-id="e6018-114">The capture is already in a paused state.</span></span><br/>                                                                                  |
-| <dl> <span data-ttu-id="e6018-115"><dt>**NMERR \_ 未 \_ 捕獲**</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-115"><dt>**NMERR\_NOT\_CAPTURING**</dt></span></span> </dl>  | <span data-ttu-id="e6018-116">NPP 不會捕捉資料。</span><span class="sxs-lookup"><span data-stu-id="e6018-116">The NPP is not capturing data.</span></span> <span data-ttu-id="e6018-117">呼叫 [IDelaydC：： start](idelaydc-start.md) 以開始捕獲。</span><span class="sxs-lookup"><span data-stu-id="e6018-117">Call [IDelaydC::Start](idelaydc-start.md) to start the capture.</span></span><br/>                            |
-| <dl> <span data-ttu-id="e6018-118"><dt>**NMERR \_ 未 \_ 連接**</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-118"><dt>**NMERR\_NOT\_CONNECTED**</dt></span></span> </dl>  | <span data-ttu-id="e6018-119">NPP 未連接到網路。</span><span class="sxs-lookup"><span data-stu-id="e6018-119">The NPP is not connected to the network.</span></span> <span data-ttu-id="e6018-120">呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以將 NPP 連接到網路。</span><span class="sxs-lookup"><span data-stu-id="e6018-120">Call [IDelaydC::Connect](idelaydc-connect.md) to connect the NPP to the network.</span></span><br/> |
-| <dl> <span data-ttu-id="e6018-121"><dt>**NMERR \_ 未 \_ 延遲**</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-121"><dt>**NMERR\_NOT\_DELAYED**</dt></span></span> </dl>    | <span data-ttu-id="e6018-122">NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="e6018-122">The NPP is connected to the network but not with the [IDelaydC::Connect](idelaydc-connect.md) method.</span></span><br/>                     |
+| <dl> <span data-ttu-id="4583b-113"><dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-113"><dt>**NMERR\_CAPTURE\_PAUSED**</dt></span></span> </dl> | <span data-ttu-id="4583b-114">此捕獲已處於暫停狀態。</span><span class="sxs-lookup"><span data-stu-id="4583b-114">The capture is already in a paused state.</span></span><br/>                                                                                  |
+| <dl> <span data-ttu-id="4583b-115"><dt>**NMERR \_ 未 \_ 捕獲**</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-115"><dt>**NMERR\_NOT\_CAPTURING**</dt></span></span> </dl>  | <span data-ttu-id="4583b-116">NPP 不會捕捉資料。</span><span class="sxs-lookup"><span data-stu-id="4583b-116">The NPP is not capturing data.</span></span> <span data-ttu-id="4583b-117">呼叫 [IDelaydC：： start](idelaydc-start.md) 以開始捕獲。</span><span class="sxs-lookup"><span data-stu-id="4583b-117">Call [IDelaydC::Start](idelaydc-start.md) to start the capture.</span></span><br/>                            |
+| <dl> <span data-ttu-id="4583b-118"><dt>**NMERR \_ 未 \_ 連接**</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-118"><dt>**NMERR\_NOT\_CONNECTED**</dt></span></span> </dl>  | <span data-ttu-id="4583b-119">NPP 未連接到網路。</span><span class="sxs-lookup"><span data-stu-id="4583b-119">The NPP is not connected to the network.</span></span> <span data-ttu-id="4583b-120">呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以將 NPP 連接到網路。</span><span class="sxs-lookup"><span data-stu-id="4583b-120">Call [IDelaydC::Connect](idelaydc-connect.md) to connect the NPP to the network.</span></span><br/> |
+| <dl> <span data-ttu-id="4583b-121"><dt>**NMERR \_ 未 \_ 延遲**</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-121"><dt>**NMERR\_NOT\_DELAYED**</dt></span></span> </dl>    | <span data-ttu-id="4583b-122">NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。</span><span class="sxs-lookup"><span data-stu-id="4583b-122">The NPP is connected to the network but not with the [IDelaydC::Connect](idelaydc-connect.md) method.</span></span><br/>                     |
 
 
 
  
 
-## <a name="remarks"></a><span data-ttu-id="e6018-123">備註</span><span class="sxs-lookup"><span data-stu-id="e6018-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4583b-123">備註</span><span class="sxs-lookup"><span data-stu-id="4583b-123">Remarks</span></span>
 
-<span data-ttu-id="e6018-124">當捕捉處於暫停狀態時，在呼叫 **IDelaydC：： Resume** 方法來重新開機 capture 之前，不會將新的資料加入至目前的 [*capture*](c.md)檔。</span><span class="sxs-lookup"><span data-stu-id="e6018-124">While the capture is in a paused state, new data is not added to the current [*capture file*](c.md) until the **IDelaydC::Resume** method is called to restart the capture.</span></span> <span data-ttu-id="e6018-125">當 **暫停** 和 **繼續** 用來停止並重新啟動捕獲時，所有捕獲的資訊都會放在相同的捕獲檔案中。</span><span class="sxs-lookup"><span data-stu-id="e6018-125">When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.</span></span>
+<span data-ttu-id="4583b-124">當捕捉處於暫停狀態時，在呼叫 **IDelaydC：： Resume** 方法來重新開機 capture 之前，不會將新的資料加入至目前的 [*capture*](c.md)檔。</span><span class="sxs-lookup"><span data-stu-id="4583b-124">While the capture is in a paused state, new data is not added to the current [*capture file*](c.md) until the **IDelaydC::Resume** method is called to restart the capture.</span></span> <span data-ttu-id="4583b-125">當 **暫停** 和 **繼續** 用來停止並重新啟動捕獲時，所有捕獲的資訊都會放在相同的捕獲檔案中。</span><span class="sxs-lookup"><span data-stu-id="4583b-125">When **Pause** and **Resume** are used to stop and restart the capture, all captured information is put in the same capture file.</span></span>
 
-<span data-ttu-id="e6018-126">使用 **IDelaydC：:P ause** 和 **IDelaydC：： Resume** 來控制捕捉時，網路監視器會在每次執行時繼續新增 [*對話統計資料*](c.md) 。</span><span class="sxs-lookup"><span data-stu-id="e6018-126">When using **IDelaydC::Pause** and **IDelaydC::Resume** to control the capture, Network Monitor continues to add [*conversation statistics*](c.md) whenever the capture is running.</span></span>
+<span data-ttu-id="4583b-126">使用 **IDelaydC：:P ause** 和 **IDelaydC：： Resume** 來控制捕捉時，網路監視器會在每次執行時繼續新增 [*對話統計資料*](c.md) 。</span><span class="sxs-lookup"><span data-stu-id="4583b-126">When using **IDelaydC::Pause** and **IDelaydC::Resume** to control the capture, Network Monitor continues to add [*conversation statistics*](c.md) whenever the capture is running.</span></span>
 
-<span data-ttu-id="e6018-127">若要重新開機捕獲，請呼叫 [IDelaydC：： Resume](idelaydc-resume.md)。</span><span class="sxs-lookup"><span data-stu-id="e6018-127">To restart the capture, call [IDelaydC::Resume](idelaydc-resume.md).</span></span>
+<span data-ttu-id="4583b-127">若要重新開機捕獲，請呼叫 [IDelaydC：： Resume](idelaydc-resume.md)。</span><span class="sxs-lookup"><span data-stu-id="4583b-127">To restart the capture, call [IDelaydC::Resume](idelaydc-resume.md).</span></span>
 
-<span data-ttu-id="e6018-128">若要停止捕捉，請呼叫 [IDelaydC：： stop](idelaydc-stop.md)。</span><span class="sxs-lookup"><span data-stu-id="e6018-128">To stop the capture, call [IDelaydC::Stop](idelaydc-stop.md).</span></span>
+<span data-ttu-id="4583b-128">若要停止捕捉，請呼叫 [IDelaydC：： stop](idelaydc-stop.md)。</span><span class="sxs-lookup"><span data-stu-id="4583b-128">To stop the capture, call [IDelaydC::Stop](idelaydc-stop.md).</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="e6018-129">規格需求</span><span class="sxs-lookup"><span data-stu-id="e6018-129">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4583b-129">規格需求</span><span class="sxs-lookup"><span data-stu-id="4583b-129">Requirements</span></span>
 
 
 
-| <span data-ttu-id="e6018-130">需求</span><span class="sxs-lookup"><span data-stu-id="e6018-130">Requirement</span></span> | <span data-ttu-id="e6018-131">值</span><span class="sxs-lookup"><span data-stu-id="e6018-131">Value</span></span> |
+| <span data-ttu-id="4583b-130">需求</span><span class="sxs-lookup"><span data-stu-id="4583b-130">Requirement</span></span> | <span data-ttu-id="4583b-131">值</span><span class="sxs-lookup"><span data-stu-id="4583b-131">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="e6018-132">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e6018-132">Minimum supported client</span></span><br/> | <span data-ttu-id="e6018-133">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e6018-133">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                               |
-| <span data-ttu-id="e6018-134">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e6018-134">Minimum supported server</span></span><br/> | <span data-ttu-id="e6018-135">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="e6018-135">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                     |
-| <span data-ttu-id="e6018-136">標頭</span><span class="sxs-lookup"><span data-stu-id="e6018-136">Header</span></span><br/>                   | <dl> <span data-ttu-id="e6018-137"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-137"><dt>Netmon.h</dt></span></span> </dl>                                                                      |
-| <span data-ttu-id="e6018-138">DLL</span><span class="sxs-lookup"><span data-stu-id="e6018-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e6018-139"><dt>Ndisnpp.dll;</dt><dt>Rmtnpp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="e6018-139"><dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt></span></span> </dl> |
+| <span data-ttu-id="4583b-132">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="4583b-132">Minimum supported client</span></span><br/> | <span data-ttu-id="4583b-133">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4583b-133">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                                                                               |
+| <span data-ttu-id="4583b-134">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="4583b-134">Minimum supported server</span></span><br/> | <span data-ttu-id="4583b-135">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="4583b-135">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                                                                     |
+| <span data-ttu-id="4583b-136">標頭</span><span class="sxs-lookup"><span data-stu-id="4583b-136">Header</span></span><br/>                   | <dl> <span data-ttu-id="4583b-137"><dt>Netmon</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-137"><dt>Netmon.h</dt></span></span> </dl>                                                                      |
+| <span data-ttu-id="4583b-138">DLL</span><span class="sxs-lookup"><span data-stu-id="4583b-138">DLL</span></span><br/>                      | <dl> <span data-ttu-id="4583b-139"><dt>Ndisnpp.dll;</dt><dt>Rmtnpp.dll</dt></span><span class="sxs-lookup"><span data-stu-id="4583b-139"><dt>Ndisnpp.dll; </dt> <dt>Rmtnpp.dll</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="e6018-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e6018-140">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4583b-140">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4583b-140">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="e6018-141">IDelaydC</span><span class="sxs-lookup"><span data-stu-id="e6018-141">IDelaydC</span></span>](idelaydc.md)
+[<span data-ttu-id="4583b-141">IDelaydC</span><span class="sxs-lookup"><span data-stu-id="4583b-141">IDelaydC</span></span>](idelaydc.md)
 </dt> <dt>
 
-[<span data-ttu-id="e6018-142">IDelaydC：： Connect</span><span class="sxs-lookup"><span data-stu-id="e6018-142">IDelaydC::Connect</span></span>](idelaydc-connect.md)
+[<span data-ttu-id="4583b-142">IDelaydC：： Connect</span><span class="sxs-lookup"><span data-stu-id="4583b-142">IDelaydC::Connect</span></span>](idelaydc-connect.md)
 </dt> <dt>
 
-[<span data-ttu-id="e6018-143">IDelaydC：： Resume</span><span class="sxs-lookup"><span data-stu-id="e6018-143">IDelaydC::Resume</span></span>](idelaydc-resume.md)
+[<span data-ttu-id="4583b-143">IDelaydC：： Resume</span><span class="sxs-lookup"><span data-stu-id="4583b-143">IDelaydC::Resume</span></span>](idelaydc-resume.md)
 </dt> <dt>
 
-[<span data-ttu-id="e6018-144">IDelaydC：： Start</span><span class="sxs-lookup"><span data-stu-id="e6018-144">IDelaydC::Start</span></span>](idelaydc-start.md)
+[<span data-ttu-id="4583b-144">IDelaydC：： Start</span><span class="sxs-lookup"><span data-stu-id="4583b-144">IDelaydC::Start</span></span>](idelaydc-start.md)
 </dt> <dt>
 
-[<span data-ttu-id="e6018-145">IDelaydC：： Stop</span><span class="sxs-lookup"><span data-stu-id="e6018-145">IDelaydC::Stop</span></span>](idelaydc-stop.md)
+[<span data-ttu-id="4583b-145">IDelaydC：： Stop</span><span class="sxs-lookup"><span data-stu-id="4583b-145">IDelaydC::Stop</span></span>](idelaydc-stop.md)
 </dt> </dl>
 
  

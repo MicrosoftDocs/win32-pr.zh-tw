@@ -1,5 +1,5 @@
 ---
-description: .
+description: <span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE 列舉
 MS-HAID: vspixengine.EXPERIMENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,33 +17,33 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ce04d2c59441a62b603aea0d5d077908a9359b1a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58c0ce661bb428c699127fd9b07ad67ab0b5ee7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097406"
 ---
-# <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span data-ttu-id="bc5d8-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE 列舉</span><span class="sxs-lookup"><span data-stu-id="bc5d8-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration</span></span>
+# <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span data-ttu-id="33194-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE 列舉</span><span class="sxs-lookup"><span data-stu-id="33194-103"><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE enumeration</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bc5d8-104">Syntax</span><span class="sxs-lookup"><span data-stu-id="bc5d8-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="33194-104">Syntax</span><span class="sxs-lookup"><span data-stu-id="33194-104">Syntax</span></span>
 
 
 ```C++
 };
 ```
 
-## <a name="constants"></a><span data-ttu-id="bc5d8-105">常數</span><span class="sxs-lookup"><span data-stu-id="bc5d8-105">Constants</span></span>
+## <a name="constants"></a><span data-ttu-id="33194-105">常數</span><span class="sxs-lookup"><span data-stu-id="33194-105">Constants</span></span>
 
-<span data-ttu-id="bc5d8-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span><span class="sxs-lookup"><span data-stu-id="bc5d8-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span></span>  
+<span data-ttu-id="33194-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span><span class="sxs-lookup"><span data-stu-id="33194-106"><span id="SINGLEFRAMECAPTURE"></span><span id="singleframecapture"></span>**SINGLEFRAMECAPTURE**</span></span>  
 
-<span data-ttu-id="bc5d8-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span><span class="sxs-lookup"><span data-stu-id="bc5d8-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span></span>  
+<span data-ttu-id="33194-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span><span class="sxs-lookup"><span data-stu-id="33194-107"><span id="RINGBUFFER"></span><span id="ringbuffer"></span>**RINGBUFFER**</span></span>  
 
-<span data-ttu-id="bc5d8-108"><span id="PROFILING"></span><span id="profiling"></span>**分析**</span><span class="sxs-lookup"><span data-stu-id="bc5d8-108"><span id="PROFILING"></span><span id="profiling"></span>**PROFILING**</span></span>  
+<span data-ttu-id="33194-108"><span id="PROFILING"></span><span id="profiling"></span>**分析**</span><span class="sxs-lookup"><span data-stu-id="33194-108"><span id="PROFILING"></span><span id="profiling"></span>**PROFILING**</span></span>  
 
-## <a name="requirements"></a><span data-ttu-id="bc5d8-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="bc5d8-109">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="33194-109">規格需求</span><span class="sxs-lookup"><span data-stu-id="33194-109">Requirements</span></span>
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="bc5d8-110">標頭</span><span class="sxs-lookup"><span data-stu-id="bc5d8-110">Header</span></span></p></td><td><span data-ttu-id="bc5d8-111">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="bc5d8-111">Vspixengine.h</span></span></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><tbody><tr class="odd"><td><p><span data-ttu-id="33194-110">標頭</span><span class="sxs-lookup"><span data-stu-id="33194-110">Header</span></span></p></td><td><span data-ttu-id="33194-111">Vspixengine。h</span><span class="sxs-lookup"><span data-stu-id="33194-111">Vspixengine.h</span></span></td></tr></tbody></table>
 
  
 

@@ -1,5 +1,5 @@
 ---
-description: 使用已編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。
+description: D3DXFillCubeTextureTX 函式-使用編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。
 ms.assetid: a0c36967-57e6-4771-8e9f-f32949c12001
 title: 'D3DXFillCubeTextureTX 函式 (D3dx9tex) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 37a831ef95d50f9b0389be0f1c9937e46748f6d3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95c6d054900f3f4c4710e22c54759161800137c2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696643"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107666"
 ---
-# <a name="d3dxfillcubetexturetx-function"></a><span data-ttu-id="c0ae4-103">D3DXFillCubeTextureTX 函式</span><span class="sxs-lookup"><span data-stu-id="c0ae4-103">D3DXFillCubeTextureTX function</span></span>
+# <a name="d3dxfillcubetexturetx-function"></a><span data-ttu-id="06721-103">D3DXFillCubeTextureTX 函式</span><span class="sxs-lookup"><span data-stu-id="06721-103">D3DXFillCubeTextureTX function</span></span>
 
-<span data-ttu-id="c0ae4-104">使用已編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-104">Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.</span></span>
+<span data-ttu-id="06721-104">使用已編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。</span><span class="sxs-lookup"><span data-stu-id="06721-104">Uses a compiled high-level shader language (HLSL) function to fill each texel of each mipmap level of a texture.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c0ae4-105">語法</span><span class="sxs-lookup"><span data-stu-id="c0ae4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="06721-105">語法</span><span class="sxs-lookup"><span data-stu-id="06721-105">Syntax</span></span>
 
 
 ```C++
@@ -37,63 +37,63 @@ HRESULT D3DXFillCubeTextureTX(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="c0ae4-106">參數</span><span class="sxs-lookup"><span data-stu-id="c0ae4-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="06721-106">參數</span><span class="sxs-lookup"><span data-stu-id="06721-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="c0ae4-107">*pTexture* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c0ae4-107">*pTexture* \[in\]</span></span>
+<span data-ttu-id="06721-107">*pTexture* \[在\]</span><span class="sxs-lookup"><span data-stu-id="06721-107">*pTexture* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c0ae4-108">類型： **[ **LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**</span><span class="sxs-lookup"><span data-stu-id="c0ae4-108">Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**</span></span>
+<span data-ttu-id="06721-108">類型： **[ **LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**</span><span class="sxs-lookup"><span data-stu-id="06721-108">Type: **[**LPDIRECT3DCUBETEXTURE9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)**</span></span>
 
-<span data-ttu-id="c0ae4-109">[**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)物件的指標，代表要填滿的材質。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-109">Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) object, representing the texture to be filled.</span></span>
+<span data-ttu-id="06721-109">[**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9)物件的指標，代表要填滿的材質。</span><span class="sxs-lookup"><span data-stu-id="06721-109">Pointer to an [**IDirect3DCubeTexture9**](/windows/win32/api/d3d9helper/nn-d3d9helper-idirect3dcubetexture9) object, representing the texture to be filled.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="c0ae4-110">*pTextureShader* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c0ae4-110">*pTextureShader* \[in\]</span></span>
+<span data-ttu-id="06721-110">*pTextureShader* \[在\]</span><span class="sxs-lookup"><span data-stu-id="06721-110">*pTextureShader* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="c0ae4-111">類型： **[ **LPD3DXTEXTURESHADER**](id3dxtextureshader.md)**</span><span class="sxs-lookup"><span data-stu-id="c0ae4-111">Type: **[**LPD3DXTEXTURESHADER**](id3dxtextureshader.md)**</span></span>
+<span data-ttu-id="06721-111">類型： **[ **LPD3DXTEXTURESHADER**](id3dxtextureshader.md)**</span><span class="sxs-lookup"><span data-stu-id="06721-111">Type: **[**LPD3DXTEXTURESHADER**](id3dxtextureshader.md)**</span></span>
 
-<span data-ttu-id="c0ae4-112">[**ID3DXTextureShader**](id3dxtextureshader.md)紋理著色器物件的指標。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-112">Pointer to a [**ID3DXTextureShader**](id3dxtextureshader.md) texture shader object.</span></span>
+<span data-ttu-id="06721-112">[**ID3DXTextureShader**](id3dxtextureshader.md)紋理著色器物件的指標。</span><span class="sxs-lookup"><span data-stu-id="06721-112">Pointer to a [**ID3DXTextureShader**](id3dxtextureshader.md) texture shader object.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="c0ae4-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="c0ae4-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="06721-113">傳回值</span><span class="sxs-lookup"><span data-stu-id="06721-113">Return value</span></span>
 
-<span data-ttu-id="c0ae4-114">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="c0ae4-114">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="06721-114">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="06721-114">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="c0ae4-115">如果函式成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-115">If the function succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="c0ae4-116">如果函式失敗，則傳回值可以是下列其中一項： D3DERR \_ NOTAVAILABLE，D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-116">If the function fails, the return value can be one of the following: D3DERR\_NOTAVAILABLE, D3DERR\_INVALIDCALL.</span></span>
+<span data-ttu-id="06721-115">如果函式成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="06721-115">If the function succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="06721-116">如果函式失敗，則傳回值可以是下列其中一項： D3DERR \_ NOTAVAILABLE，D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="06721-116">If the function fails, the return value can be one of the following: D3DERR\_NOTAVAILABLE, D3DERR\_INVALIDCALL.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c0ae4-117">備註</span><span class="sxs-lookup"><span data-stu-id="c0ae4-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="06721-117">備註</span><span class="sxs-lookup"><span data-stu-id="06721-117">Remarks</span></span>
 
-<span data-ttu-id="c0ae4-118">紋理目標必須是 HLSL 函式，且此函式會包含下列語義：</span><span class="sxs-lookup"><span data-stu-id="c0ae4-118">The texture target must be an HLSL function that takes contains the following semantics:</span></span>
+<span data-ttu-id="06721-118">紋理目標必須是 HLSL 函式，且此函式會包含下列語義：</span><span class="sxs-lookup"><span data-stu-id="06721-118">The texture target must be an HLSL function that takes contains the following semantics:</span></span>
 
--   <span data-ttu-id="c0ae4-119">一個輸入參數必須使用位置語義。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-119">One input parameter must use a POSITION semantic.</span></span>
--   <span data-ttu-id="c0ae4-120">一個輸入參數必須使用 PSIZE 語義。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-120">One input parameter must use a PSIZE semantic.</span></span>
--   <span data-ttu-id="c0ae4-121">函數必須傳回使用色彩語義的參數。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-121">The function must return a parameter that uses the COLOR semantic.</span></span>
+-   <span data-ttu-id="06721-119">一個輸入參數必須使用位置語義。</span><span class="sxs-lookup"><span data-stu-id="06721-119">One input parameter must use a POSITION semantic.</span></span>
+-   <span data-ttu-id="06721-120">一個輸入參數必須使用 PSIZE 語義。</span><span class="sxs-lookup"><span data-stu-id="06721-120">One input parameter must use a PSIZE semantic.</span></span>
+-   <span data-ttu-id="06721-121">函數必須傳回使用色彩語義的參數。</span><span class="sxs-lookup"><span data-stu-id="06721-121">The function must return a parameter that uses the COLOR semantic.</span></span>
 
-<span data-ttu-id="c0ae4-122">輸入參數可以依任何順序排列。</span><span class="sxs-lookup"><span data-stu-id="c0ae4-122">The input parameters can be in any order.</span></span> <span data-ttu-id="c0ae4-123">如需範例，請參閱 [ **D3DXFillTextureTX**](d3dxfilltexturetx.md)</span><span class="sxs-lookup"><span data-stu-id="c0ae4-123">For an example, see [**D3DXFillTextureTX**](d3dxfilltexturetx.md)</span></span>
+<span data-ttu-id="06721-122">輸入參數可以依任何順序排列。</span><span class="sxs-lookup"><span data-stu-id="06721-122">The input parameters can be in any order.</span></span> <span data-ttu-id="06721-123">如需範例，請參閱 [ **D3DXFillTextureTX**](d3dxfilltexturetx.md)</span><span class="sxs-lookup"><span data-stu-id="06721-123">For an example, see [**D3DXFillTextureTX**](d3dxfilltexturetx.md)</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="c0ae4-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="c0ae4-124">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="06721-124">規格需求</span><span class="sxs-lookup"><span data-stu-id="06721-124">Requirements</span></span>
 
 
 
-| <span data-ttu-id="c0ae4-125">需求</span><span class="sxs-lookup"><span data-stu-id="c0ae4-125">Requirement</span></span> | <span data-ttu-id="c0ae4-126">值</span><span class="sxs-lookup"><span data-stu-id="c0ae4-126">Value</span></span> |
+| <span data-ttu-id="06721-125">需求</span><span class="sxs-lookup"><span data-stu-id="06721-125">Requirement</span></span> | <span data-ttu-id="06721-126">值</span><span class="sxs-lookup"><span data-stu-id="06721-126">Value</span></span> |
 |--------------------|---------------------------------------------------------------------------------------|
-| <span data-ttu-id="c0ae4-127">標頭</span><span class="sxs-lookup"><span data-stu-id="c0ae4-127">Header</span></span><br/>  | <dl> <span data-ttu-id="c0ae4-128"><dt>D3dx9tex。h</dt></span><span class="sxs-lookup"><span data-stu-id="c0ae4-128"><dt>D3dx9tex.h</dt></span></span> </dl> |
-| <span data-ttu-id="c0ae4-129">程式庫</span><span class="sxs-lookup"><span data-stu-id="c0ae4-129">Library</span></span><br/> | <dl> <span data-ttu-id="c0ae4-130"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="c0ae4-130"><dt>D3dx9.lib</dt></span></span> </dl>  |
+| <span data-ttu-id="06721-127">標頭</span><span class="sxs-lookup"><span data-stu-id="06721-127">Header</span></span><br/>  | <dl> <span data-ttu-id="06721-128"><dt>D3dx9tex。h</dt></span><span class="sxs-lookup"><span data-stu-id="06721-128"><dt>D3dx9tex.h</dt></span></span> </dl> |
+| <span data-ttu-id="06721-129">程式庫</span><span class="sxs-lookup"><span data-stu-id="06721-129">Library</span></span><br/> | <dl> <span data-ttu-id="06721-130"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="06721-130"><dt>D3dx9.lib</dt></span></span> </dl>  |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="c0ae4-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c0ae4-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="06721-131">另請參閱</span><span class="sxs-lookup"><span data-stu-id="06721-131">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="c0ae4-132">D3DX 9 中的材質函數</span><span class="sxs-lookup"><span data-stu-id="c0ae4-132">Texture Functions in D3DX 9</span></span>](dx9-graphics-reference-d3dx-functions-texture.md)
+[<span data-ttu-id="06721-132">D3DX 9 中的材質函數</span><span class="sxs-lookup"><span data-stu-id="06721-132">Texture Functions in D3DX 9</span></span>](dx9-graphics-reference-d3dx-functions-texture.md)
 </dt> <dt>
 
-[<span data-ttu-id="c0ae4-133">**D3DXFillVolumeTextureTX**</span><span class="sxs-lookup"><span data-stu-id="c0ae4-133">**D3DXFillVolumeTextureTX**</span></span>](d3dxfillvolumetexturetx.md)
+[<span data-ttu-id="06721-133">**D3DXFillVolumeTextureTX**</span><span class="sxs-lookup"><span data-stu-id="06721-133">**D3DXFillVolumeTextureTX**</span></span>](d3dxfillvolumetexturetx.md)
 </dt> </dl>
 
  

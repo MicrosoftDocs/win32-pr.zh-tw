@@ -1,5 +1,5 @@
 ---
-description: 將指標的陣列設定為已轉置的矩陣。
+description: ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法-將指標陣列設定為已轉換的矩陣。
 ms.assetid: 11a21077-eeee-4d52-ac16-41444e3eca4f
 title: 'ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1152deccdcadebe9f421fac6d7d5ce53c8d3e5f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f35afad1120a26a60f670d12410584b2f9db7f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985724"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107386"
 ---
-# <a name="id3dxbaseeffectsetmatrixtransposepointerarray-method"></a><span data-ttu-id="1e7d5-103">ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法</span><span class="sxs-lookup"><span data-stu-id="1e7d5-103">ID3DXBaseEffect::SetMatrixTransposePointerArray method</span></span>
+# <a name="id3dxbaseeffectsetmatrixtransposepointerarray-method"></a><span data-ttu-id="4470c-103">ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法</span><span class="sxs-lookup"><span data-stu-id="4470c-103">ID3DXBaseEffect::SetMatrixTransposePointerArray method</span></span>
 
-<span data-ttu-id="1e7d5-104">將指標的陣列設定為已轉置的矩陣。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-104">Sets an array of pointers to transposed matrices.</span></span>
+<span data-ttu-id="4470c-104">將指標的陣列設定為已轉置的矩陣。</span><span class="sxs-lookup"><span data-stu-id="4470c-104">Sets an array of pointers to transposed matrices.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1e7d5-105">語法</span><span class="sxs-lookup"><span data-stu-id="1e7d5-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4470c-105">語法</span><span class="sxs-lookup"><span data-stu-id="4470c-105">Syntax</span></span>
 
 
 ```C++
@@ -38,68 +38,68 @@ HRESULT SetMatrixTransposePointerArray(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="1e7d5-106">參數</span><span class="sxs-lookup"><span data-stu-id="1e7d5-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="4470c-106">參數</span><span class="sxs-lookup"><span data-stu-id="4470c-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="1e7d5-107">*hParameter* \[在\]</span><span class="sxs-lookup"><span data-stu-id="1e7d5-107">*hParameter* \[in\]</span></span>
+<span data-ttu-id="4470c-107">*hParameter* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4470c-107">*hParameter* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1e7d5-108">類型： **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span><span class="sxs-lookup"><span data-stu-id="1e7d5-108">Type: **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span></span>
+<span data-ttu-id="4470c-108">類型： **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span><span class="sxs-lookup"><span data-stu-id="4470c-108">Type: **[D3DXHANDLE](dx9-graphics-reference-effects-constants.md)**</span></span>
 
-<span data-ttu-id="1e7d5-109">唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-109">Unique identifier.</span></span> <span data-ttu-id="1e7d5-110">請參閱 [處理 (Direct3D 9) ](handles.md)。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-110">See [Handles (Direct3D 9)](handles.md).</span></span>
+<span data-ttu-id="4470c-109">唯一識別碼。</span><span class="sxs-lookup"><span data-stu-id="4470c-109">Unique identifier.</span></span> <span data-ttu-id="4470c-110">請參閱 [處理 (Direct3D 9) ](handles.md)。</span><span class="sxs-lookup"><span data-stu-id="4470c-110">See [Handles (Direct3D 9)](handles.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1e7d5-111">*ppMatrix* \[在\]</span><span class="sxs-lookup"><span data-stu-id="1e7d5-111">*ppMatrix* \[in\]</span></span>
+<span data-ttu-id="4470c-111">*ppMatrix* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4470c-111">*ppMatrix* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1e7d5-112">Type： **Const [**D3DXMATRIX**](d3dxmatrix.md) \* \***</span><span class="sxs-lookup"><span data-stu-id="1e7d5-112">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\*\***</span></span>
+<span data-ttu-id="4470c-112">Type： **Const [**D3DXMATRIX**](d3dxmatrix.md) \* \***</span><span class="sxs-lookup"><span data-stu-id="4470c-112">Type: **const [**D3DXMATRIX**](d3dxmatrix.md)\*\***</span></span>
 
-<span data-ttu-id="1e7d5-113">已轉置矩陣的指標陣列。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-113">Array of pointers to transposed matrices.</span></span> <span data-ttu-id="1e7d5-114">請參閱 [**D3DXMATRIX**](d3dxmatrix.md)。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-114">See [**D3DXMATRIX**](d3dxmatrix.md).</span></span>
+<span data-ttu-id="4470c-113">已轉置矩陣的指標陣列。</span><span class="sxs-lookup"><span data-stu-id="4470c-113">Array of pointers to transposed matrices.</span></span> <span data-ttu-id="4470c-114">請參閱 [**D3DXMATRIX**](d3dxmatrix.md)。</span><span class="sxs-lookup"><span data-stu-id="4470c-114">See [**D3DXMATRIX**](d3dxmatrix.md).</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="1e7d5-115">*計數* \[在\]</span><span class="sxs-lookup"><span data-stu-id="1e7d5-115">*Count* \[in\]</span></span>
+<span data-ttu-id="4470c-115">*計數* \[在\]</span><span class="sxs-lookup"><span data-stu-id="4470c-115">*Count* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="1e7d5-116">類型： **[ **UINT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="1e7d5-116">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="4470c-116">類型： **[ **UINT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="4470c-116">Type: **[**UINT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="1e7d5-117">陣列中的矩陣數目。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-117">Number of matrices in the array.</span></span>
+<span data-ttu-id="4470c-117">陣列中的矩陣數目。</span><span class="sxs-lookup"><span data-stu-id="4470c-117">Number of matrices in the array.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="1e7d5-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="1e7d5-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4470c-118">傳回值</span><span class="sxs-lookup"><span data-stu-id="4470c-118">Return value</span></span>
 
-<span data-ttu-id="1e7d5-119">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="1e7d5-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
+<span data-ttu-id="4470c-119">類型： **[ **HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span><span class="sxs-lookup"><span data-stu-id="4470c-119">Type: **[**HRESULT**](https://msdn.microsoft.com/library/Bb401631(v=MSDN.10).aspx)**</span></span>
 
-<span data-ttu-id="1e7d5-120">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-120">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="1e7d5-121">如果方法失敗，則傳回值可以是 D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-121">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
+<span data-ttu-id="4470c-120">如果方法成功，則傳回值為「D3D \_ 正常」。</span><span class="sxs-lookup"><span data-stu-id="4470c-120">If the method succeeds, the return value is D3D\_OK.</span></span> <span data-ttu-id="4470c-121">如果方法失敗，則傳回值可以是 D3DERR \_ INVALIDCALL。</span><span class="sxs-lookup"><span data-stu-id="4470c-121">If the method fails, the return value can be D3DERR\_INVALIDCALL.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="1e7d5-122">備註</span><span class="sxs-lookup"><span data-stu-id="1e7d5-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4470c-122">備註</span><span class="sxs-lookup"><span data-stu-id="4470c-122">Remarks</span></span>
 
-<span data-ttu-id="1e7d5-123">已轉換的矩陣包含資料行主要資料;也就是說，每個向量都包含在資料行中。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-123">A transposed matrix contains column-major data; that is, each vector is contained in a column.</span></span>
+<span data-ttu-id="4470c-123">已轉換的矩陣包含資料行主要資料;也就是說，每個向量都包含在資料行中。</span><span class="sxs-lookup"><span data-stu-id="4470c-123">A transposed matrix contains column-major data; that is, each vector is contained in a column.</span></span>
 
-<span data-ttu-id="1e7d5-124">如果目的地矩陣小於來源矩陣，則會忽略來源矩陣的其他元件。</span><span class="sxs-lookup"><span data-stu-id="1e7d5-124">If the destination matrices are smaller than the source matrices, the additional components of the source matrices will be ignored.</span></span>
+<span data-ttu-id="4470c-124">如果目的地矩陣小於來源矩陣，則會忽略來源矩陣的其他元件。</span><span class="sxs-lookup"><span data-stu-id="4470c-124">If the destination matrices are smaller than the source matrices, the additional components of the source matrices will be ignored.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="1e7d5-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="1e7d5-125">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="4470c-125">規格需求</span><span class="sxs-lookup"><span data-stu-id="4470c-125">Requirements</span></span>
 
 
 
-| <span data-ttu-id="1e7d5-126">需求</span><span class="sxs-lookup"><span data-stu-id="1e7d5-126">Requirement</span></span> | <span data-ttu-id="1e7d5-127">值</span><span class="sxs-lookup"><span data-stu-id="1e7d5-127">Value</span></span> |
+| <span data-ttu-id="4470c-126">需求</span><span class="sxs-lookup"><span data-stu-id="4470c-126">Requirement</span></span> | <span data-ttu-id="4470c-127">值</span><span class="sxs-lookup"><span data-stu-id="4470c-127">Value</span></span> |
 |--------------------|------------------------------------------------------------------------------------------|
-| <span data-ttu-id="1e7d5-128">標頭</span><span class="sxs-lookup"><span data-stu-id="1e7d5-128">Header</span></span><br/>  | <dl> <span data-ttu-id="1e7d5-129"><dt>D3DX9Shader。h</dt></span><span class="sxs-lookup"><span data-stu-id="1e7d5-129"><dt>D3DX9Shader.h</dt></span></span> </dl> |
-| <span data-ttu-id="1e7d5-130">程式庫</span><span class="sxs-lookup"><span data-stu-id="1e7d5-130">Library</span></span><br/> | <dl> <span data-ttu-id="1e7d5-131"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="1e7d5-131"><dt>D3dx9.lib</dt></span></span> </dl>     |
+| <span data-ttu-id="4470c-128">標頭</span><span class="sxs-lookup"><span data-stu-id="4470c-128">Header</span></span><br/>  | <dl> <span data-ttu-id="4470c-129"><dt>D3DX9Shader。h</dt></span><span class="sxs-lookup"><span data-stu-id="4470c-129"><dt>D3DX9Shader.h</dt></span></span> </dl> |
+| <span data-ttu-id="4470c-130">程式庫</span><span class="sxs-lookup"><span data-stu-id="4470c-130">Library</span></span><br/> | <dl> <span data-ttu-id="4470c-131"><dt>D3dx9 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="4470c-131"><dt>D3dx9.lib</dt></span></span> </dl>     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="1e7d5-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1e7d5-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4470c-132">另請參閱</span><span class="sxs-lookup"><span data-stu-id="4470c-132">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1e7d5-133">ID3DXBaseEffect</span><span class="sxs-lookup"><span data-stu-id="1e7d5-133">ID3DXBaseEffect</span></span>](id3dxbaseeffect.md)
+[<span data-ttu-id="4470c-133">ID3DXBaseEffect</span><span class="sxs-lookup"><span data-stu-id="4470c-133">ID3DXBaseEffect</span></span>](id3dxbaseeffect.md)
 </dt> <dt>
 
-[<span data-ttu-id="1e7d5-134">**GetMatrixTransposeArray**</span><span class="sxs-lookup"><span data-stu-id="1e7d5-134">**GetMatrixTransposeArray**</span></span>](id3dxbaseeffect--getmatrixtransposearray.md)
+[<span data-ttu-id="4470c-134">**GetMatrixTransposeArray**</span><span class="sxs-lookup"><span data-stu-id="4470c-134">**GetMatrixTransposeArray**</span></span>](id3dxbaseeffect--getmatrixtransposearray.md)
 </dt> </dl>
 
  
