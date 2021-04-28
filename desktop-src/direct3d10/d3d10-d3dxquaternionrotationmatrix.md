@@ -1,5 +1,5 @@
 ---
-description: 從旋轉矩陣建立四元數。
+description: D3DXQuaternionRotationMatrix function (D3DX10Math) -從旋轉矩陣建立四元數。
 ms.assetid: 316bf3e0-32ff-4e5e-b771-99f7eea2e27c
 title: 'D3DXQuaternionRotationMatrix 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 1caccf47e03388ffb85f2e12a5d0203f3fe839bd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cb923c135d436b36fe032d344366fdee687d27a0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196396"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103146"
 ---
 # <a name="d3dxquaternionrotationmatrix-function-d3dx10mathh"></a>D3DXQuaternionRotationMatrix 函式 (D3DX10Math) 
 

@@ -1,5 +1,5 @@
 ---
-description: 啟動服務。
+description: Msvm_VirtualEthernetSwitchManagementService 類別的 StartService 方法會啟動服務。
 ms.assetid: 8b232523-3311-47a9-949a-3bbb9944d80f
 title: Msvm_VirtualEthernetSwitchManagementService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0334800f09fa3dc281f9eae000a23ba3eeac17f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d58ec579d13edd87b0a952d8b9e26ad387622d3b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849991"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109406"
 ---
 # <a name="startservice-method-of-the-msvm_virtualethernetswitchmanagementservice-class"></a>Msvm VirtualEthernetSwitchManagementService 類別的 StartService 方法 \_
 

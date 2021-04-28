@@ -1,5 +1,5 @@
 ---
-description: 抓取索引緩衝區中的資料。
+description: ID3DX10Mesh：： GetIndexBuffer 方法-捕獲索引緩衝區中的資料。
 ms.assetid: 7e25ad67-7f9d-4c23-a029-a2262034ef38
 title: 'ID3DX10Mesh：： GetIndexBuffer 方法 (D3DX10 .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: c2777a9d530ac7217b1cc0f3c0f148998cc70ffe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 751d6dd0376dc73f0213ddb83a19954dc154d633
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386461"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084026"
 ---
 # <a name="id3dx10meshgetindexbuffer-method"></a>ID3DX10Mesh：： GetIndexBuffer 方法
 

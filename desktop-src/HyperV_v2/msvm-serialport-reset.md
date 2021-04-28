@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_SerialPort 類別的 reset 方法-要求重設。
 ms.assetid: 4f22c81e-323a-45ad-b81f-9fb3980e91f9
 title: Msvm_SerialPort 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 8fce2fce74f17167b817d1a6a0fa019a93a04211
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b281b6e5ca4d9eb8fd3a4a69bfebe433d35a4ef
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113885"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109646"
 ---
 # <a name="reset-method-of-the-msvm_serialport-class"></a>Msvm SerialPort 類別的 Reset 方法 \_
 

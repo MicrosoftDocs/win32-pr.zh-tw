@@ -1,6 +1,6 @@
 ---
 title: 'EM_SETLIMITTEXT 訊息 (Winuser .h) '
-description: 設定編輯控制項的文字限制。
+description: EM_SETLIMITTEXT 訊息：設定編輯控制項的文字限制。
 ms.assetid: e2be7814-435b-495f-982a-32247fbc0165
 keywords:
 - EM_SETLIMITTEXT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c138e6d7fed75fa8da2e7a6b93308632c250e7d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b66d4e03b5c1824ab501226482fcf51fb9121cba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686034"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109746"
 ---
 # <a name="em_setlimittext-message"></a>EM \_ SETLIMITTEXT 訊息
 

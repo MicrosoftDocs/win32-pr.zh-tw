@@ -1,15 +1,15 @@
 ---
-description: .
+description: Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) 的安全性 (
 ms.assetid: 87331C1D-F468-4CA4-92BD-D4E5D4E930BC
 title: Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) 的安全性 (
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bbaaa6b34463e04f5870082e5c693462f4e19fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f320f4cb561079380e19a969eba95f3f6b321fb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195570"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116226"
 ---
 # <a name="security-windows-7-and-windows-server-2008-r2-application-quality-cookbook"></a>Windows 7 和 Windows Server 2008 R2 應用程式品質逐步指南) 的安全性 (
 

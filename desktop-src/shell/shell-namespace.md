@@ -1,5 +1,5 @@
 ---
-description: 建立並傳回指定資料夾的資料夾物件。
+description: Shell. NameSpace 方法-建立並傳回指定資料夾的資料夾物件。
 ms.assetid: c0d61bc6-6851-4b47-a62d-4c24d2958b98
 title: 'Shell. NameSpace 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 856a86efb4aca6ae7c1d4c8a3a81b5bc722a3963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: fab501912c55aaaf6cab832bf76763672e830d33
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192809"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083706"
 ---
 # <a name="shellnamespace-method"></a>Shell. NameSpace 方法
 

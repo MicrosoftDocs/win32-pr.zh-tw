@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CMemAllocator. ~ CMemAllocator 的函式-函式方法。
 ms.assetid: e0a04d93-fb77-4dc1-9bc8-7d3965bc6803
 title: 'CMemAllocator. ~ CMemAllocator (Amfilter 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: d49046eccd8d7ef71c4eeb4c75acffbf90f7d826
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 43b0505ee34df72ab82e4204b08440ac1a2558b5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990611"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095406"
 ---
 # <a name="cmemallocatorcmemallocator-destructor"></a>CMemAllocator. ~ CMemAllocator 的函式
 

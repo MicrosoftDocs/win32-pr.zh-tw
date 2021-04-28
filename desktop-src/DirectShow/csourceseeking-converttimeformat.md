@@ -1,5 +1,5 @@
 ---
-description: ConvertTimeFormat 方法會從一種時間格式轉換成另一種格式。 這個方法會實 IMediaSeeking：： ConvertTimeFormat 方法。
+description: CSourceSeeking. ConvertTimeFormat 方法-ConvertTimeFormat 方法會將一段時間格式轉換成另一種格式。 這個方法會實 IMediaSeeking：： ConvertTimeFormat 方法。
 ms.assetid: d0cb44fa-30c1-41b4-92a4-7169161e3140
 title: 'CSourceSeeking. ConvertTimeFormat 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3869ef5bc9656414ca5b465a04d04a4ca4be41e8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6ba5c6808e091f48baac7d8928e327f45773e13a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990128"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085246"
 ---
 # <a name="csourceseekingconverttimeformat-method"></a>CSourceSeeking. ConvertTimeFormat 方法
 

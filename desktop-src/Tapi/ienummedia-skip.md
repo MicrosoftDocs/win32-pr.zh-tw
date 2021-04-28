@@ -1,15 +1,15 @@
 ---
-description: Skip 方法會略過列舉順序中的下一個指定元素數目。
+description: IEnumMedia：： Skip 方法-Skip 方法會略過列舉順序中的下一個指定元素數目。
 ms.assetid: 825972c9-5303-4c5a-9475-dc67c185af91
 title: 'IEnumMedia：： Skip 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd950fd61ad6f6b2030b03d0d269854f86e3a02d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1d8c600a201d6800fcb04dba5f208fd5cb810078
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999721"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084186"
 ---
 # <a name="ienummediaskip-method"></a>IEnumMedia：： Skip 方法
 

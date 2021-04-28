@@ -1,5 +1,5 @@
 ---
-description: 刪除在物件路徑中指定 (或目錄) 的邏輯分頁檔。
+description: Delete Win32_PageFile 類別的方法-刪除在物件路徑中指定 (或目錄) 的邏輯分頁檔。
 ms.assetid: cc36d621-597e-4343-8bf6-bfca7fa29276
 ms.tgt_platform: multiple
 title: Win32_PageFile 類別的 Delete 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e61155a321e4414c66f98843a79d935f38870bd5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b35751633387f3db1d7dccbf13694f56717a1d3
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971974"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089586"
 ---
 # <a name="delete-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 Delete 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IRenderEngine：:D oSmartRecompression 方法-不支援。
 ms.assetid: 4629b626-c511-4a1e-a647-06554869891a
 title: IRenderEngine：:D oSmartRecompression 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: d0242bc8eb92e75852ceae706f5971caf4229eba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a3e13a51564b39ba2e954da38a5453e63c4036d2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935716"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084466"
 ---
 # <a name="irenderenginedosmartrecompression-method"></a>IRenderEngine：:D oSmartRecompression 方法
 

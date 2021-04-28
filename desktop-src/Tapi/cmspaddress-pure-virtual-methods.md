@@ -1,15 +1,15 @@
 ---
-description: 這些方法必須由衍生類別覆寫。
+description: CMSPAddress 純虛擬方法-這些方法必須由衍生類別覆寫。
 ms.assetid: 68402cff-effd-4a2b-b9f9-f13f233b1555
 title: CMSPAddress 純虛擬方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a93c9b2a995554dd2f7412c8fa5bf153ea8871e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c9d9b9494e4ee42972d97433927fd587034af81
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985458"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084206"
 ---
 # <a name="cmspaddress-pure-virtual-methods"></a>CMSPAddress 純虛擬方法
 

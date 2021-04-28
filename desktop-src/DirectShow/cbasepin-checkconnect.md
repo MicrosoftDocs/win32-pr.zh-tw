@@ -1,5 +1,5 @@
 ---
-description: CheckConnect 方法會判斷是否適合使用 pin 連接。
+description: CBasePin. CheckConnect 方法-CheckConnect 方法會判斷是否適合使用 pin 連接。
 ms.assetid: 511a1594-f3f8-4725-afcd-f14f3a4ebf20
 title: 'CBasePin. CheckConnect 方法 (Amfilter .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 24d5c221da417fd1fc2b3f9f140536f825b2f9d9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 314d3e1ce0e73e60ea07bb4f7270fa04f69750c7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993644"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096046"
 ---
 # <a name="cbasepincheckconnect-method"></a>CBasePin. CheckConnect 方法
 

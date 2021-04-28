@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IRenderEngine：： SetSourceConnectCallback 方法-不支援。
 ms.assetid: 7da88bab-abba-417c-9e33-c4fc4950536f
 title: IRenderEngine：： SetSourceConnectCallback 方法
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e58755ef936b6dd0822dbbc8a4159291cf2e0454
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e8fc7dca58f2c1406f575f99d8119edd9bd750d9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106988050"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084426"
 ---
 # <a name="irenderenginesetsourceconnectcallback-method"></a>IRenderEngine：： SetSourceConnectCallback 方法
 

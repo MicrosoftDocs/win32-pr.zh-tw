@@ -1,5 +1,5 @@
 ---
-description: 從三個點結構的平面。
+description: D3DXPlaneFromPoints 函式 (D3DX10Math) -從三個點來結構出一個平面。
 ms.assetid: 0e77af1b-cedf-482c-8398-10becb398a2c
 title: 'D3DXPlaneFromPoints 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eed4426492f05b2bfe3c762915edb8fdc21dc789
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a3af01df7d1ce66029994226d040544b733a75df
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999041"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103316"
 ---
 # <a name="d3dxplanefrompoints-function-d3dx10mathh"></a>D3DXPlaneFromPoints 函式 (D3DX10Math) 
 

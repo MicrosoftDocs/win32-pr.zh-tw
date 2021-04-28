@@ -1,5 +1,5 @@
 ---
-description: RemoveAt 方法會移除儲存在指定索引所指定之位置的元素。
+description: IPortableDevicePropVariantCollection：： RemoveAt 方法-RemoveAt 方法會移除儲存在指定索引所指定之位置的元素。
 ms.assetid: cfee2454-5103-48ce-b9f7-1f76f5c18b6d
 title: 'IPortableDevicePropVariantCollection：： RemoveAt 方法 (PortableDeviceTypes .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 74c7900340caab6adfda1b4607df607a4f6f0811
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c62df57a95a9f5a8238ff61c4ca6dc3cb73ed36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989521"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109939"
 ---
 # <a name="iportabledevicepropvariantcollectionremoveat-method"></a>IPortableDevicePropVariantCollection：： RemoveAt 方法
 

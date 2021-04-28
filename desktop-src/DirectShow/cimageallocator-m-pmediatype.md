@@ -1,5 +1,5 @@
 ---
-description: M \_ pMediaType 成員變數是目前媒體類型的指標。
+description: CImageAllocator：： m_pMediaType 成員-m \_ pMediaType 成員變數是指向目前媒體類型的指標。
 ms.assetid: a41e938f-5f01-4fd0-99d7-65d3a93822a5
 title: 'CImageAllocator：： m_pMediaType 成員 (Winutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21e947048e1bbd552cd8fcaf451c5e8479fd478a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7056b6bf4ea2b36f60ddc586e3ba528ca190a3e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996426"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095616"
 ---
 # <a name="cimageallocatorm_pmediatype-member"></a>CImageAllocator：： m \_ pMediaType 成員
 

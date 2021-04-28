@@ -1,5 +1,5 @@
 ---
-description: Resume 方法會重新開機已暫停的捕獲。
+description: IESP：： Resume 方法-Resume 方法會重新開機已暫停的捕獲。
 ms.assetid: 047ea5f8-de3d-40db-ada3-fc0ef4deccef
 title: 'IESP：： Resume 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 01bbb748fc91bcc5a78b281ec9ebdd2a6d479888
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 498beda4f2f6c61af918d542542c4ed7b789ba1a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972595"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084246"
 ---
 # <a name="iespresume-method"></a>IESP：： Resume 方法
 

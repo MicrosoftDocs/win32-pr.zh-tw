@@ -1,5 +1,5 @@
 ---
-description: CheckConnect 方法會判斷是否適合使用 pin 連接。
+description: CTransformFilter. CheckConnect 方法-CheckConnect 方法會判斷是否適合使用 pin 連接。
 ms.assetid: 4bec4b19-3f7c-43d8-9a45-2eb2cc15a0d4
 title: 'CTransformFilter. CheckConnect 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 0d41c50323bae7cb4eaca52a87d8c1b936237ccd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5927aac2fa58322c93a23489a22dc96a1e2a67f0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995921"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085096"
 ---
 # <a name="ctransformfiltercheckconnect-method"></a>CTransformFilter. CheckConnect 方法
 

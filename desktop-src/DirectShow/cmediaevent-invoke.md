@@ -1,5 +1,5 @@
 ---
-description: 提供物件所公開的屬性和方法的存取權。
+description: CMediaEvent 方法-提供對物件所公開之屬性和方法的存取。
 ms.assetid: 2b091b57-0855-489a-9a33-cfc75f63ad07
 title: 'CMediaEvent： Invoke 方法 (Ctlutil) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 22482cffe11f62d50361bc950409858a2436d8a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ea812d0c7629b98d90f3f7e535d229c707452b23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996046"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095536"
 ---
 # <a name="cmediaeventinvoke-method"></a>CMediaEvent 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 從伺服器作業系統移除 UDDI 服務
 ms.assetid: 5ebc8c4c-acee-4658-8d36-30fbb17b1ef1
 title: 從伺服器作業系統移除 UDDI 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7681167177b850ba44ac0fc26e019c7393008b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 960a4063d990a3b2cdac45cd933a1e7dfef41f88
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980660"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116326"
 ---
 # <a name="removal-of-uddi-services-from-server-operating-system"></a>從伺服器作業系統移除 UDDI 服務
 

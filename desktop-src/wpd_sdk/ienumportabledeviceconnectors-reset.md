@@ -1,5 +1,5 @@
 ---
-description: 將列舉序列重設為開頭。
+description: IEnumPortableDeviceConnectors：： Reset 方法-將列舉順序重設為開頭。
 ms.assetid: 1df1ff95-06ae-4e5e-8064-17f832c5f0b3
 title: 'IEnumPortableDeviceConnectors：： Reset 方法 (Devpkey .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 3a6846ea928afb6cd52f20098cd100b94b3a564e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10a356fbb8591568a9f99d9b92d681a46754a960
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992101"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083204"
 ---
 # <a name="ienumportabledeviceconnectorsreset-method"></a>IEnumPortableDeviceConnectors：： Reset 方法
 

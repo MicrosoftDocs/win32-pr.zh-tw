@@ -1,5 +1,5 @@
 ---
-description: 函數的指標，該函式會建立物件的實例。
+description: CFactoryTemplate：： m_lpfnNew 成員指標指向建立物件實例的函式。
 ms.assetid: 86859bf9-e16a-4494-bf1b-1d8ddbc1c805
 title: 'CFactoryTemplate：： m_lpfnNew 成員 (Combase .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2299f7a87f348ac8a5fa6c6d83b6a17fbf97ca28
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ee4ec8e1503d3b260e025d154624b2d7c09bb49b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994361"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095646"
 ---
 # <a name="cfactorytemplatem_lpfnnew-member"></a>CFactoryTemplate：： m \_ lpfnNew 成員
 

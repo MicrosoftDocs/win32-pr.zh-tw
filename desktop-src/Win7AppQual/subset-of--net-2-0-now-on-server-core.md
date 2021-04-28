@@ -1,15 +1,15 @@
 ---
-description: .
+description: 現在是在 Server Core 上的 .NET 2.0 子集
 ms.assetid: f91c4604-b2d6-41e5-be66-bbc8a4f0e28e
 title: 現在是在 Server Core 上的 .NET 2.0 子集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3e0f836ca7afaef920429df17ef8be845ce92e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b6ef839f525acf190df384e3fe8394f2b785d45
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195567"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116146"
 ---
 # <a name="subset-of-net-20-now-on-server-core"></a>現在是在 Server Core 上的 .NET 2.0 子集
 

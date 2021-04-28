@@ -1,15 +1,15 @@
 ---
-description: 當游標提示接觸到數位化的 tablet 介面時發生。
+description: InkPicture. CursorDown 事件-發生于游標提示連線到數位化的平板電腦介面時。
 ms.assetid: 6d524400-1341-45da-86b2-098e34ed5a1c
 title: 'InkPicture. CursorDown 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15724f0a71e801393ca8e93100ba2105da9ff2b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc4b6128589ba2d0b87d4369e8bb58aa66eabf23
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513925"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116696"
 ---
 # <a name="inkpicturecursordown-event"></a>InkPicture. CursorDown 事件
 

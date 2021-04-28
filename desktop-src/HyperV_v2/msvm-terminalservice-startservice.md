@@ -1,5 +1,5 @@
 ---
-description: 啟動服務。
+description: Msvm_TerminalService 類別的 StartService 方法會啟動服務。
 ms.assetid: 499e4650-255f-4c84-98fc-de81d5cd6daf
 title: Msvm_TerminalService 類別的 StartService 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6f1902dd17d641ae50888a23d2c2699e269a90e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33d7bddc012e7f51042950f093a84a09723e7bd8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512444"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109506"
 ---
 # <a name="startservice-method-of-the-msvm_terminalservice-class"></a>Msvm TerminalService 類別的 StartService 方法 \_
 

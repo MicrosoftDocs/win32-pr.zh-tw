@@ -1,16 +1,7 @@
 ---
-title: Windows 和 Windows Server 相容性操作手冊 Windows 10、Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2
-description: .
-ms.assetid: cf282d99-68ff-4219-bef0-afcdeedb0176
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: fde80f5a18d4c5748b64e9105adc6c5facd0db85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300388"
+標題： Windows 和 Windows Server 相容性操作手冊 Windows 10、Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2 說明： Windows 和 Windows Server 相容性手冊： Windows 10、Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2 assetid： cf282d99-68ff-4219-bef0-afcdeedb0176 ms. 主題：文章 ms. 日期：05/31/2018
 ---
+
 # <a name="windows-and-windows-server-compatibility-cookbook-windows-10-windows-8-windows-81-windows-server-2012-and-windows-server-2012-r2"></a>Windows 和 Windows Server 相容性操作手冊： Windows 10、Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2
 
 ## <a name="purpose"></a>目的

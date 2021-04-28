@@ -1,5 +1,5 @@
 ---
-description: 要傳遞向上游傳遞搜尋命令的 Helper 物件。
+description: CTransformOutputPin：： m_pPosition 成員協助程式物件，以傳送上游的搜尋命令。
 ms.assetid: 2ca9bae7-a133-4e09-8aa7-1c4601ec5db0
 title: 'CTransformOutputPin：： m_pPosition 成員 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: dc98e439d7f6a2d6c6392ffb665b04e502047eb7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9c5a1b5d5ced7a9f3985ceebdd2bdcb8e491d2e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981383"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084856"
 ---
 # <a name="ctransformoutputpinm_pposition-member"></a>CTransformOutputPin：： m \_ pPosition 成員
 

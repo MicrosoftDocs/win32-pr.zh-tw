@@ -1,5 +1,5 @@
 ---
-description: 建立要搭配執行緒抽取使用的資料處理器。
+description: D3DX10CreateAsyncTextureProcessor 函式-建立要搭配執行緒抽取使用的資料處理器。
 ms.assetid: c96b0ebb-7b9c-47d0-ad4f-fa62ddb74fa1
 title: 'D3DX10CreateAsyncTextureProcessor 函式 (D3DX10Tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: d1d9c61729e72cc4ae5432361e9c1d968551b9c2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e75ab6b796f23399b453a6c7eebfe0d40e3b7b49
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035406"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102786"
 ---
 # <a name="d3dx10createasynctextureprocessor-function"></a>D3DX10CreateAsyncTextureProcessor 函式
 

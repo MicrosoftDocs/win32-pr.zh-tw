@@ -1,5 +1,5 @@
 ---
-description: 包含集合中的專案數。
+description: FolderItemVerbs： Count 屬性-包含集合中的專案數。
 ms.assetid: a676593b-ea78-433d-a622-221028245c3a
 title: 'FolderItemVerbs： Count 屬性 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b41e78261dfc9bc72e9262615bc395a9d559e33a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5545ea64da914188226fbdabf7cc6301baa695af
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991583"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089546"
 ---
 # <a name="folderitemverbscount-property"></a>FolderItemVerbs Count 屬性
 

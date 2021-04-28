@@ -1,5 +1,5 @@
 ---
-description: 傳回4D 向量的正規化版本。
+description: D3DXVec4Normalize 函式 (D3DX10Math) -傳回4D 向量的正規化版本。
 ms.assetid: ed3c48cf-4985-4ef3-b733-f8532e3ff6b5
 title: 'D3DXVec4Normalize 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: ebedbdddbe558bfad71520b64aa0cf2ff4c2f451
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1577ff3109c2cc3ca547f68f7841ecebb2f03569
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323095"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102906"
 ---
 # <a name="d3dxvec4normalize-function-d3dx10mathh"></a>D3DXVec4Normalize 函式 (D3DX10Math) 
 

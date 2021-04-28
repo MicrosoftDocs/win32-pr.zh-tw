@@ -1,5 +1,5 @@
 ---
-description: 投射陣列 (x、y、z、0) 從螢幕空間到物件空間。
+description: D3DXVec3UnprojectArray 函式 (D3DX10Math) -投射陣列 (x、y、z、0) 從螢幕空間到物件空間。
 ms.assetid: 02db5b32-7fa3-4cde-bd63-0d8b3dfc31e7
 title: 'D3DXVec3UnprojectArray 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: c7293339145253f817e8ed8b6812906b49792193
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 727744445e952fa0135feff944c768aaba1aba36
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988175"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103006"
 ---
 # <a name="d3dxvec3unprojectarray-function-d3dx10mathh"></a>D3DXVec3UnprojectArray 函式 (D3DX10Math) 
 

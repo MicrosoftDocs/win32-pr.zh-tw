@@ -1,17 +1,17 @@
 ---
 title: 設定應用程式特定的超時
-description: .
+description: 設定應用程式特定的超時
 ms.assetid: 24526320-4174-4fc7-b45a-c1ec605e1666
 keywords:
 - 設定應用程式特定超時 HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35827b797ad6c9f19b728064f6fe65b0d89b2a3b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aca1cbcdb0b0796820282673c41507f6bfcc0ebd
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021387"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109736"
 ---
 # <a name="configuring-the-application-specific-timeouts"></a>設定應用程式特定的超時
 
@@ -23,9 +23,9 @@ HTTP 伺服器 API 只能設定應用程式特定的 **HeaderWait** ，而且只
 
 如需設定計時器的詳細資訊，請參閱設定 [URL 群組](configuring-the-url-group.md) 和設定 [伺服器會話](configuring-the-server-session.md) 主題。
 
- 
+ 
 
- 
+ 
 
 
 

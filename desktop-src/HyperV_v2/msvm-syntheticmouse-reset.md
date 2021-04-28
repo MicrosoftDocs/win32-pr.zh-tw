@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_SyntheticMouse 類別的 reset 方法-要求重設。
 ms.assetid: c28790d8-e731-46a3-8c84-677dd4257b2f
 title: Msvm_SyntheticMouse 類別的 Reset 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: d1070574c4eff588b84eeaccef27cd322fad0474
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3124d1a878d04e9ea79d3f5b900ac111d3e2c0b2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511003"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109537"
 ---
 # <a name="reset-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 Reset 方法 \_
 

@@ -1,15 +1,15 @@
 ---
-description: 當使用者在任何平板電腦上繪製新筆劃時發生。
+description: InkCollector。當使用者在任何平板電腦上繪製新的筆劃時，就會發生筆觸事件。
 ms.assetid: eaa89dfe-6141-4205-845b-634321130e26
 title: 'InkCollector： Stroke 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e75ee7f3e8129fdab52e62178fe4b8a322807fc5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49cb90b02ab3fca60a8fa17089b6a76f959a60e0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998446"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110051"
 ---
 # <a name="inkcollectorstroke-event"></a>InkCollector。筆觸事件
 

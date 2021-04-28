@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停目前的捕獲。
+description: IESP：:P ause 方法-Pause 方法會暫停目前的捕獲。
 ms.assetid: efbc8947-b9fe-4dbd-8097-375b5f99845e
 title: 'IESP： (Netmon 的:P ause 方法) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 0558c5dfe36f26e3aad9f31101364d2e8e5c4967
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 486c7aedc7092e0dd0f9f68cc1ea2ccad08d9438
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510968"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084236"
 ---
 # <a name="iesppause-method"></a>IESP：:P ause 方法
 

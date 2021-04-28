@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CEnumPins. ~ CEnumPins 的函式-函式方法。
 ms.assetid: 21845996-8c00-4f00-adcf-1bec67cfc235
 title: 'CEnumPins. ~ CEnumPins (Amfilter 的函式) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 450c28c25305f47eb04f4f1fd17b8f123d37fb71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a2e09f47d1fe6bf3f50b54661b363921d11c49e2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977584"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095656"
 ---
 # <a name="cenumpinscenumpins-destructor"></a>CEnumPins. ~ CEnumPins 的函式
 

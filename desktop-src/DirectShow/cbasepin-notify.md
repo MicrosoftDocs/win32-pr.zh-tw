@@ -1,5 +1,5 @@
 ---
-description: 通知方法會通知 pin，要求品質變更。 這個方法會執行 IQualityControl：： Notify 方法。
+description: CBasePin。通知方法-通知方法會通知 pin，要求品質變更。 這個方法會執行 IQualityControl：： Notify 方法。
 ms.assetid: 5e9394d9-8d3c-4091-b45f-345a3f7270db
 title: 'CBasePin： Notify 方法 (Amfilter) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f34ea630a461226c32b9d827b2b91dcd0874cac7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 35e751fb583010402df53e1a85eca11f751eda24
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997699"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096016"
 ---
 # <a name="cbasepinnotify-method"></a>CBasePin。通知方法
 

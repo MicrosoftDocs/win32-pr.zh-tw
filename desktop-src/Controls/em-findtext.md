@@ -1,6 +1,6 @@
 ---
 title: 'EM_FINDTEXT 訊息 (Richedit .h) '
-description: 在 rich edit 控制項中尋找文字。
+description: EM_FINDTEXT 訊息-尋找 rich edit 控制項內的文字。
 ms.assetid: f19e19a0-d8dd-4d31-b76d-f1f09577dd2d
 keywords:
 - EM_FINDTEXT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e50034337f05d2df17af777986136881c503d05
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 452d4e2534fb05cbbbf4c02ac4146f2f8914c9bb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934552"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109846"
 ---
 # <a name="em_findtext-message"></a>EM \_ FINDTEXT 訊息
 

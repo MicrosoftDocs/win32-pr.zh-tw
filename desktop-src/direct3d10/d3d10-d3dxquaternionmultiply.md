@@ -1,5 +1,5 @@
 ---
-description: 將兩個四元數相乘。
+description: D3DXQuaternionMultiply 函數 (D3DX10Math) -將兩個四元數相乘。
 ms.assetid: f549e383-9c39-47a9-84e4-82365bdf1155
 title: 'D3DXQuaternionMultiply 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 74e10117bf27d922480418e5aa0b8ea60a13528c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4f84ecac1eb910f4b3c97aba6ed42691c70b5b1f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974881"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108103156"
 ---
 # <a name="d3dxquaternionmultiply-function-d3dx10mathh"></a>D3DXQuaternionMultiply 函式 (D3DX10Math) 
 

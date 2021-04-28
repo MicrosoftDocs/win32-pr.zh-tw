@@ -1,6 +1,6 @@
 ---
 title: Direct2D 和 Direct3D 互通性概觀
-description: .
+description: Direct2D 和 Direct3D 互通性概觀
 ms.assetid: 27680714-dc68-44eb-ab16-2cae3529b352
 keywords:
 - Direct2D，Direct3D 互通性
@@ -14,12 +14,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 6854481ec2a8d869467aa912252e3649e17f2501
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: cf7cfa41c3decc964492258dad9c6a3a497f504b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "104093471"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108089186"
 ---
 # <a name="direct2d-and-direct3d-interoperability-overview"></a>Direct2D 和 Direct3D 互通性概觀
 
@@ -395,6 +395,6 @@ DXGI 介面轉譯目標不支援 [**ID2D1RenderTarget：： Resize**](/windows/d
 [Windows DirectX 圖形](../graphics-and-multimedia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

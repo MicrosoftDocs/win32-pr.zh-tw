@@ -1,5 +1,5 @@
 ---
-description: 判斷目前的使用者是否可以啟動和停止命名服務。
+description: CanStartStopService 方法-判斷目前的使用者是否可以啟動和停止命名服務。
 ms.assetid: 1428F529-61F6-4113-A553-2C0D617FD859
 title: 'CanStartStopService 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1d92fa076141bdebc8a2f24059a65e842e5a3d6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29561519b95329093ef1f7bfc64023fd1ac4533d
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944490"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083686"
 ---
 # <a name="shellcanstartstopservice-method"></a>CanStartStopService 方法
 
@@ -62,15 +62,15 @@ Shell.CanStartStopService( _
 
 ### <a name="jscript"></a>JScript
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果使用者可以啟動和停止服務，則傳回 _ *true**。否則 **為 false**。
+如果使用者可以啟動和停止服務，則傳回 **true** ;否則 **為 false**。
 
 ### <a name="vb"></a>VB
 
-類型： **Variant \** _
+類型： **Variant \***
 
-如果使用者可以啟動和停止服務，則傳回 _ *true**。否則 **為 false**。
+如果使用者可以啟動和停止服務，則傳回 **true** ;否則 **為 false**。
 
 ## <a name="remarks"></a>備註
 

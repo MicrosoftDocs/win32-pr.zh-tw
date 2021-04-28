@@ -1,15 +1,15 @@
 ---
-description: 發生于滑鼠指標移至 InkCollector 或 InkOverlay 物件上方時。
+description: InkCollector：當滑鼠指標移到 InkCollector 或 InkOverlay 物件上方時，就會發生此事件。
 ms.assetid: 688ac7ef-dcee-44a4-8947-117966365061
 title: 'InkCollector： MouseMove 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27ad88c35871ed73125be73b66329ede464f0c00
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3392f2022af39600cb24461b26d37e5d624f4cb4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991996"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110156"
 ---
 # <a name="inkcollectormousemove-event"></a>InkCollector MouseMove 事件
 

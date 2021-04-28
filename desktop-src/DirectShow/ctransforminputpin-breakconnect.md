@@ -1,5 +1,5 @@
 ---
-description: BreakConnect 方法會從連接釋放 pin。
+description: CTransformInputPin. BreakConnect 方法-BreakConnect 方法會釋放連接的 pin。
 ms.assetid: 9874717d-f4d8-426d-a717-9f5d83b4683c
 title: 'CTransformInputPin. BreakConnect 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2274b71b67a54ecacb291d77d2eef4ad8a110fa2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe425ba617909dcfb1d66dbb4777b579139d436b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996281"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085016"
 ---
 # <a name="ctransforminputpinbreakconnect-method"></a>CTransformInputPin. BreakConnect 方法
 

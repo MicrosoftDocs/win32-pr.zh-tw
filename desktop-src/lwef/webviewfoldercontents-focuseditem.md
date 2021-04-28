@@ -1,6 +1,6 @@
 ---
 title: 'WebViewFolderContents. FocusedItem 屬性 (Shldisp .h) '
-description: 取得代表具有輸入焦點之專案的 FolderItem 物件。
+description: WebViewFolderContents. FocusedItem 屬性-取得代表具有輸入焦點之專案的 FolderItem 物件。
 ms.assetid: 84cf92ac-dadb-4741-8383-a8ae1d35d4e0
 keywords:
 - FocusedItem 屬性舊版 Windows 環境功能
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 050e7c2a4c280a949ec3684e2b05610830315a37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 724743b81f605dc9ba5794a4a796b8a0c4a2a03f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383942"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108102726"
 ---
 # <a name="webviewfoldercontentsfocuseditem-property"></a>WebViewFolderContents. FocusedItem 屬性
 

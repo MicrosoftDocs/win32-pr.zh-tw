@@ -1,5 +1,5 @@
 ---
-description: 表示筆墨空間內所收集的筆墨筆劃。
+description: InkDisp 類別-表示筆墨空間內所收集的筆墨筆劃。
 ms.assetid: f942d6a3-f303-49df-a128-de9760b508ef
 title: 'InkDisp 類別 (Msinkaut) '
 ms.topic: reference
@@ -15,12 +15,12 @@ api_type:
 api_location:
 - InkObj.dll
 - InkObj.dll.dll
-ms.openlocfilehash: 429cbf85bdc92753cda1e58a0e89086b4b5b8b53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4214d6b03e5823bd5012017e418066763c8132c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689783"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109986"
 ---
 # <a name="inkdisp-class"></a>InkDisp 類別
 

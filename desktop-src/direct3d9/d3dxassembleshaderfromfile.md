@@ -1,5 +1,5 @@
 ---
-description: 組合著色器。
+description: D3DXAssembleShaderFromFile 函式-組合著色器。
 ms.assetid: 2977b64a-b8cc-454b-8e28-291f6f2c6fc1
 title: 'D3DXAssembleShaderFromFile 函式 (D3DX9Shader) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a6e355f6ce51158f72757f771114346899557c59
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 91aaf2924638b1db5b0e8ec0782b90fa964a9543
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992723"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116026"
 ---
 # <a name="d3dxassembleshaderfromfile-function"></a>D3DXAssembleShaderFromFile 函式
 

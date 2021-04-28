@@ -1,5 +1,5 @@
 ---
-description: 要求狀態變更。
+description: Msvm_TimeSyncComponent 類別的 RequestStateChange 方法-要求狀態變更。
 ms.assetid: ca014a24-1d16-468d-bc9c-8043249dabe2
 title: Msvm_TimeSyncComponent 類別的 RequestStateChange 方法
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 2c8953bb5fd4137aceeb5b0e1c48a743cc46f52a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f43072a9673664d05702981bbaf2772bc83f42e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108109496"
 ---
 # <a name="requeststatechange-method-of-the-msvm_timesynccomponent-class"></a>Msvm TimeSyncComponent 類別的 RequestStateChange 方法 \_
 

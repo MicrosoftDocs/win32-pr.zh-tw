@@ -1,5 +1,5 @@
 ---
-description: 在視圖中設定專案的選取狀態。
+description: ShellFolderView. SelectItem 方法-在 view 中設定專案的選取狀態。
 title: 'ShellFolderView. SelectItem 方法 (Shldisp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 91c39d4c-56c3-4c2b-93e8-9f782ca0aa93
-ms.openlocfilehash: d44633983075cdf22581bce05cfb7c073f422084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8cbff0da4da55d9621bfeb01f26c5ed62fe230a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194434"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116746"
 ---
 # <a name="shellfolderviewselectitem-method"></a>ShellFolderView. SelectItem 方法
 
@@ -43,9 +43,9 @@ ShellFolderView.SelectItem(
 *vItem* \[在\]
 </dt> <dd>
 
-類型： **Variant \** _
+類型： **Variant \***
 
-將設定選取狀態的 [_ *FolderItem* *](folderitem.md)物件。
+將設定選取狀態的 [**FolderItem**](folderitem.md) 物件。
 
 </dd> <dt>
 

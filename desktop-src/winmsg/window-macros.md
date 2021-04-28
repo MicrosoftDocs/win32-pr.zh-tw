@@ -1,15 +1,15 @@
 ---
-description: .
+description: 視窗宏
 ms.assetid: 8b93bf4f-c9da-4edf-8bd8-cf9f39a0b79a
 title: 視窗宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 190b00f6e007ac65eeef0dcccb7801206a6c3813
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fc72518a7854c2c0b445e945d7e9eed93c0f745
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944322"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108083366"
 ---
 # <a name="window-macros"></a>視窗宏
 
