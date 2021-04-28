@@ -1,21 +1,21 @@
 ---
-description: 從系統移除 IInkTablet 時發生。
+description: InkPicture. TabletRemoved 事件-從系統移除 IInkTablet 時發生。
 ms.assetid: 9a4640a7-cbd9-4304-88c6-86036423628d
 title: 'InkPicture. TabletRemoved 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e05b097b4dcf15c618e3316066be962b52803e27
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 929458c6b972143852b5921a8c8364a54a4b6f41
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195119"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113646"
 ---
-# <a name="inkpicturetabletremoved-event"></a><span data-ttu-id="01f2e-103">InkPicture. TabletRemoved 事件</span><span class="sxs-lookup"><span data-stu-id="01f2e-103">InkPicture.TabletRemoved event</span></span>
+# <a name="inkpicturetabletremoved-event"></a><span data-ttu-id="6afd8-103">InkPicture. TabletRemoved 事件</span><span class="sxs-lookup"><span data-stu-id="6afd8-103">InkPicture.TabletRemoved event</span></span>
 
-<span data-ttu-id="01f2e-104">從系統移除 [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) 時發生。</span><span class="sxs-lookup"><span data-stu-id="01f2e-104">Occurs when a [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) is removed from the system.</span></span>
+<span data-ttu-id="6afd8-104">從系統移除 [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) 時發生。</span><span class="sxs-lookup"><span data-stu-id="6afd8-104">Occurs when a [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) is removed from the system.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="01f2e-105">語法</span><span class="sxs-lookup"><span data-stu-id="01f2e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6afd8-105">語法</span><span class="sxs-lookup"><span data-stu-id="6afd8-105">Syntax</span></span>
 
 
 ```C++
@@ -26,46 +26,46 @@ void TabletRemoved(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="01f2e-106">參數</span><span class="sxs-lookup"><span data-stu-id="01f2e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6afd8-106">參數</span><span class="sxs-lookup"><span data-stu-id="6afd8-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="01f2e-107">*TabletId* \[在\]</span><span class="sxs-lookup"><span data-stu-id="01f2e-107">*TabletId* \[in\]</span></span>
+<span data-ttu-id="6afd8-107">*TabletId* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6afd8-107">*TabletId* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="01f2e-108">用來當做已移除 [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) 物件之識別碼的完整值。</span><span class="sxs-lookup"><span data-stu-id="01f2e-108">The long value that was used as the ID for the [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) object that was removed.</span></span>
+<span data-ttu-id="6afd8-108">用來當做已移除 [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) 物件之識別碼的完整值。</span><span class="sxs-lookup"><span data-stu-id="6afd8-108">The long value that was used as the ID for the [**IInkTablet**](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet) object that was removed.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="01f2e-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="01f2e-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6afd8-109">傳回值</span><span class="sxs-lookup"><span data-stu-id="6afd8-109">Return value</span></span>
 
-<span data-ttu-id="01f2e-110">此事件不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="01f2e-110">This event does not return a value.</span></span>
+<span data-ttu-id="6afd8-110">此事件不會傳回值。</span><span class="sxs-lookup"><span data-stu-id="6afd8-110">This event does not return a value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="01f2e-111">備註</span><span class="sxs-lookup"><span data-stu-id="01f2e-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6afd8-111">備註</span><span class="sxs-lookup"><span data-stu-id="6afd8-111">Remarks</span></span>
 
-<span data-ttu-id="01f2e-112">此事件方法是在 **\_ IInkCollectorEvents**、 **\_ IInkOverlayEvents** 和 **\_ IInkPictureEvents** 分派專用介面中定義， (具有 DISPID ICETabletRemoved 識別碼的) \_ 。</span><span class="sxs-lookup"><span data-stu-id="01f2e-112">This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEvents**, and **\_IInkPictureEvents** dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_ICETabletRemoved.</span></span>
+<span data-ttu-id="6afd8-112">此事件方法是在 **\_ IInkCollectorEvents**、 **\_ IInkOverlayEvents** 和 **\_ IInkPictureEvents** 分派專用介面中定義， (具有 DISPID ICETabletRemoved 識別碼的) \_ 。</span><span class="sxs-lookup"><span data-stu-id="6afd8-112">This event method is defined in the **\_IInkCollectorEvents**, **\_IInkOverlayEvents**, and **\_IInkPictureEvents** dispatch-only interfaces (dispinterfaces) with an ID of DISPID\_ICETabletRemoved.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="01f2e-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="01f2e-113">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="6afd8-113">規格需求</span><span class="sxs-lookup"><span data-stu-id="6afd8-113">Requirements</span></span>
 
 
 
-| <span data-ttu-id="01f2e-114">需求</span><span class="sxs-lookup"><span data-stu-id="01f2e-114">Requirement</span></span> | <span data-ttu-id="01f2e-115">值</span><span class="sxs-lookup"><span data-stu-id="01f2e-115">Value</span></span> |
+| <span data-ttu-id="6afd8-114">需求</span><span class="sxs-lookup"><span data-stu-id="6afd8-114">Requirement</span></span> | <span data-ttu-id="6afd8-115">值</span><span class="sxs-lookup"><span data-stu-id="6afd8-115">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="01f2e-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="01f2e-116">Minimum supported client</span></span><br/> | <span data-ttu-id="01f2e-117">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="01f2e-117">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
-| <span data-ttu-id="01f2e-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="01f2e-118">Minimum supported server</span></span><br/> | <span data-ttu-id="01f2e-119">都不支援</span><span class="sxs-lookup"><span data-stu-id="01f2e-119">None supported</span></span><br/>                                                                                           |
-| <span data-ttu-id="01f2e-120">標頭</span><span class="sxs-lookup"><span data-stu-id="01f2e-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="01f2e-121"><dt>Msinkaut (也需要 Msinkaut \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="01f2e-121"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
-| <span data-ttu-id="01f2e-122">程式庫</span><span class="sxs-lookup"><span data-stu-id="01f2e-122">Library</span></span><br/>                  | <dl> <span data-ttu-id="01f2e-123"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="01f2e-123"><dt>InkObj.dll</dt></span></span> </dl>                               |
+| <span data-ttu-id="6afd8-116">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="6afd8-116">Minimum supported client</span></span><br/> | <span data-ttu-id="6afd8-117">僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]</span><span class="sxs-lookup"><span data-stu-id="6afd8-117">Windows XP Tablet PC Edition \[desktop apps only\]</span></span><br/>                                                       |
+| <span data-ttu-id="6afd8-118">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="6afd8-118">Minimum supported server</span></span><br/> | <span data-ttu-id="6afd8-119">都不支援</span><span class="sxs-lookup"><span data-stu-id="6afd8-119">None supported</span></span><br/>                                                                                           |
+| <span data-ttu-id="6afd8-120">標頭</span><span class="sxs-lookup"><span data-stu-id="6afd8-120">Header</span></span><br/>                   | <dl> <span data-ttu-id="6afd8-121"><dt>Msinkaut (也需要 Msinkaut \_ c) </dt></span><span class="sxs-lookup"><span data-stu-id="6afd8-121"><dt>Msinkaut.h (also requires Msinkaut\_i.c)</dt></span></span> </dl> |
+| <span data-ttu-id="6afd8-122">程式庫</span><span class="sxs-lookup"><span data-stu-id="6afd8-122">Library</span></span><br/>                  | <dl> <span data-ttu-id="6afd8-123"><dt>InkObj.dll</dt></span><span class="sxs-lookup"><span data-stu-id="6afd8-123"><dt>InkObj.dll</dt></span></span> </dl>                               |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="01f2e-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="01f2e-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6afd8-124">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6afd8-124">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="01f2e-125">InkPicture</span><span class="sxs-lookup"><span data-stu-id="01f2e-125">InkPicture</span></span>](inkpicture-control-reference.md)
+[<span data-ttu-id="6afd8-125">InkPicture</span><span class="sxs-lookup"><span data-stu-id="6afd8-125">InkPicture</span></span>](inkpicture-control-reference.md)
 </dt> <dt>
 
-[<span data-ttu-id="01f2e-126">**IInkTablet 介面**</span><span class="sxs-lookup"><span data-stu-id="01f2e-126">**IInkTablet Interface**</span></span>](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet)
+[<span data-ttu-id="6afd8-126">**IInkTablet 介面**</span><span class="sxs-lookup"><span data-stu-id="6afd8-126">**IInkTablet Interface**</span></span>](/windows/desktop/api/msinkaut/nn-msinkaut-iinktablet)
 </dt> </dl>
 
  

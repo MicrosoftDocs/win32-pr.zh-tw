@@ -1,17 +1,17 @@
 ---
-description: .
+description: 執行 DXVA-HD Array.blit
 ms.assetid: fc68704e-68d5-4767-b464-e45ab4c86058
 title: 執行 DXVA-HD Array.blit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56c3e72a4c8cf550cfce4864e9efb51e98be6d42
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37474cdb61136e3e201674695674ccb67abf03a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983374"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108092706"
 ---
-# <a name="performing-the-dxva-hd-blit"></a><span data-ttu-id="922e6-103">執行 DXVA-HD Array.blit</span><span class="sxs-lookup"><span data-stu-id="922e6-103">Performing the DXVA-HD Blit</span></span>
+# <a name="performing-the-dxva-hd-blit"></a><span data-ttu-id="435ec-103">執行 DXVA-HD Array.blit</span><span class="sxs-lookup"><span data-stu-id="435ec-103">Performing the DXVA-HD Blit</span></span>
 
 
 ```C++
@@ -91,11 +91,11 @@ done:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="922e6-104">相關主題</span><span class="sxs-lookup"><span data-stu-id="922e6-104">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="435ec-104">相關主題</span><span class="sxs-lookup"><span data-stu-id="435ec-104">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="922e6-105">DXVA-HD</span><span class="sxs-lookup"><span data-stu-id="922e6-105">DXVA-HD</span></span>](dxva-hd.md)
+[<span data-ttu-id="435ec-105">DXVA-HD</span><span class="sxs-lookup"><span data-stu-id="435ec-105">DXVA-HD</span></span>](dxva-hd.md)
 </dt> </dl>
 
  
