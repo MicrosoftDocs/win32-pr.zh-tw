@@ -1,5 +1,5 @@
 ---
-description: 要求重設。
+description: Msvm_ShutdownComponent 類別的 reset 方法-要求重設。
 ms.assetid: cdd14090-4ea1-4547-b8a5-fd40f7e494f5
 title: Msvm_ShutdownComponent 類別的 Reset 方法
 ms.topic: reference
@@ -13,18 +13,18 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 75502c8602adf3a357e04a9aef51dc6d0ea47be5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77c651ce429764edba069be21b246a8623cd0e76
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193506"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108111366"
 ---
-# <a name="reset-method-of-the-msvm_shutdowncomponent-class"></a><span data-ttu-id="40438-103">Msvm ShutdownComponent 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="40438-103">Reset method of the Msvm\_ShutdownComponent class</span></span>
+# <a name="reset-method-of-the-msvm_shutdowncomponent-class"></a><span data-ttu-id="e2b65-103">Msvm ShutdownComponent 類別的 Reset 方法 \_</span><span class="sxs-lookup"><span data-stu-id="e2b65-103">Reset method of the Msvm\_ShutdownComponent class</span></span>
 
-<span data-ttu-id="40438-104">要求重設。</span><span class="sxs-lookup"><span data-stu-id="40438-104">Requests a reset.</span></span>
+<span data-ttu-id="e2b65-104">要求重設。</span><span class="sxs-lookup"><span data-stu-id="e2b65-104">Requests a reset.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="40438-105">語法</span><span class="sxs-lookup"><span data-stu-id="40438-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e2b65-105">語法</span><span class="sxs-lookup"><span data-stu-id="e2b65-105">Syntax</span></span>
 
 
 ```mof
@@ -33,41 +33,41 @@ uint32 Reset();
 
 
 
-## <a name="parameters"></a><span data-ttu-id="40438-106">參數</span><span class="sxs-lookup"><span data-stu-id="40438-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e2b65-106">參數</span><span class="sxs-lookup"><span data-stu-id="e2b65-106">Parameters</span></span>
 
-<span data-ttu-id="40438-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="40438-107">This method has no parameters.</span></span>
+<span data-ttu-id="e2b65-107">這個方法沒有任何參數。</span><span class="sxs-lookup"><span data-stu-id="e2b65-107">This method has no parameters.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="40438-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="40438-108">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="e2b65-108">傳回值</span><span class="sxs-lookup"><span data-stu-id="e2b65-108">Return value</span></span>
 
-<span data-ttu-id="40438-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="40438-109">This method returns one of the following values:</span></span>
+<span data-ttu-id="e2b65-109">這個方法會傳回下列其中一個值：</span><span class="sxs-lookup"><span data-stu-id="e2b65-109">This method returns one of the following values:</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="40438-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="40438-110">**Completed with No Error** (0)</span></span>
+<span data-ttu-id="e2b65-110">**已完成，沒有錯誤** (0) </span><span class="sxs-lookup"><span data-stu-id="e2b65-110">**Completed with No Error** (0)</span></span>
 </dt> <dt>
 
-<span data-ttu-id="40438-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="40438-111">**Not supported** (1)</span></span>
+<span data-ttu-id="e2b65-111">**不支援** (1) </span><span class="sxs-lookup"><span data-stu-id="e2b65-111">**Not supported** (1)</span></span>
 </dt> </dl>
 
-## <a name="requirements"></a><span data-ttu-id="40438-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="40438-112">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="e2b65-112">規格需求</span><span class="sxs-lookup"><span data-stu-id="e2b65-112">Requirements</span></span>
 
 
 
-| <span data-ttu-id="40438-113">需求</span><span class="sxs-lookup"><span data-stu-id="40438-113">Requirement</span></span> | <span data-ttu-id="40438-114">值</span><span class="sxs-lookup"><span data-stu-id="40438-114">Value</span></span> |
+| <span data-ttu-id="e2b65-113">需求</span><span class="sxs-lookup"><span data-stu-id="e2b65-113">Requirement</span></span> | <span data-ttu-id="e2b65-114">值</span><span class="sxs-lookup"><span data-stu-id="e2b65-114">Value</span></span> |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="40438-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="40438-115">Minimum supported client</span></span><br/> | <span data-ttu-id="40438-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="40438-116">Windows 8.1</span></span><br/>                                                                                  |
-| <span data-ttu-id="40438-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="40438-117">Minimum supported server</span></span><br/> | <span data-ttu-id="40438-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="40438-118">Windows Server 2012 R2</span></span><br/>                                                                       |
-| <span data-ttu-id="40438-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="40438-119">Namespace</span></span><br/>                | <span data-ttu-id="40438-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="40438-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
-| <span data-ttu-id="40438-121">MOF</span><span class="sxs-lookup"><span data-stu-id="40438-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="40438-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="40438-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
-| <span data-ttu-id="40438-123">DLL</span><span class="sxs-lookup"><span data-stu-id="40438-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="40438-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="40438-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
+| <span data-ttu-id="e2b65-115">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="e2b65-115">Minimum supported client</span></span><br/> | <span data-ttu-id="e2b65-116">Windows 8.1</span><span class="sxs-lookup"><span data-stu-id="e2b65-116">Windows 8.1</span></span><br/>                                                                                  |
+| <span data-ttu-id="e2b65-117">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="e2b65-117">Minimum supported server</span></span><br/> | <span data-ttu-id="e2b65-118">Windows Server 2012 R2</span><span class="sxs-lookup"><span data-stu-id="e2b65-118">Windows Server 2012 R2</span></span><br/>                                                                       |
+| <span data-ttu-id="e2b65-119">命名空間</span><span class="sxs-lookup"><span data-stu-id="e2b65-119">Namespace</span></span><br/>                | <span data-ttu-id="e2b65-120">根 \\ 虛擬化 \\ v2</span><span class="sxs-lookup"><span data-stu-id="e2b65-120">Root\\virtualization\\v2</span></span><br/>                                                                     |
+| <span data-ttu-id="e2b65-121">MOF</span><span class="sxs-lookup"><span data-stu-id="e2b65-121">MOF</span></span><br/>                      | <dl> <span data-ttu-id="e2b65-122"><dt>WindowsVirtualization。</dt></span><span class="sxs-lookup"><span data-stu-id="e2b65-122"><dt>WindowsVirtualization.V2.mof</dt></span></span> </dl> |
+| <span data-ttu-id="e2b65-123">DLL</span><span class="sxs-lookup"><span data-stu-id="e2b65-123">DLL</span></span><br/>                      | <dl> <span data-ttu-id="e2b65-124"><dt>Vmms.exe</dt></span><span class="sxs-lookup"><span data-stu-id="e2b65-124"><dt>Vmms.exe</dt></span></span> </dl>                     |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="40438-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="40438-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e2b65-125">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e2b65-125">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="40438-126">**Msvm \_ ShutdownComponent**</span><span class="sxs-lookup"><span data-stu-id="40438-126">**Msvm\_ShutdownComponent**</span></span>](msvm-shutdowncomponent.md)
+[<span data-ttu-id="e2b65-126">**Msvm \_ ShutdownComponent**</span><span class="sxs-lookup"><span data-stu-id="e2b65-126">**Msvm\_ShutdownComponent**</span></span>](msvm-shutdowncomponent.md)
 </dt> </dl>
 
  

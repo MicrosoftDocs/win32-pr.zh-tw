@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseRenderer. ~ CBaseRenderer 的函式-函式方法。
 ms.assetid: d7d78226-d433-4cb8-bfb2-2e86c1b7009e
 title: CBaseRenderer. ~ CBaseRenderer 的函式
 ms.topic: reference
@@ -12,18 +12,18 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e503412f2cc3d533219772114bcf6c7bc6d217d7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dfcc1a88d8bb5fc1317eb60d43187671f8f27eba
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687815"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095956"
 ---
-# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="cd8df-103">CBaseRenderer. ~ CBaseRenderer 的函式</span><span class="sxs-lookup"><span data-stu-id="cd8df-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
+# <a name="cbaserenderercbaserenderer-destructor"></a><span data-ttu-id="79d35-103">CBaseRenderer. ~ CBaseRenderer 的函式</span><span class="sxs-lookup"><span data-stu-id="79d35-103">CBaseRenderer.~CBaseRenderer destructor</span></span>
 
-<span data-ttu-id="cd8df-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="cd8df-104">Destructor method.</span></span>
+<span data-ttu-id="79d35-104">函式方法。</span><span class="sxs-lookup"><span data-stu-id="79d35-104">Destructor method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="cd8df-105">語法</span><span class="sxs-lookup"><span data-stu-id="cd8df-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="79d35-105">語法</span><span class="sxs-lookup"><span data-stu-id="79d35-105">Syntax</span></span>
 
 
 ```C++
@@ -32,11 +32,11 @@ ms.locfileid: "103687815"
 
 
 
-## <a name="see-also"></a><span data-ttu-id="cd8df-106">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cd8df-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="79d35-106">另請參閱</span><span class="sxs-lookup"><span data-stu-id="79d35-106">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cd8df-107">**CBaseRenderer 類別**</span><span class="sxs-lookup"><span data-stu-id="cd8df-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
+[<span data-ttu-id="79d35-107">**CBaseRenderer 類別**</span><span class="sxs-lookup"><span data-stu-id="79d35-107">**CBaseRenderer Class**</span></span>](cbaserenderer.md)
 </dt> </dl>
 
  
