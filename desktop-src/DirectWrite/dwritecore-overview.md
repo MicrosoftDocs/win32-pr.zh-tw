@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: e80da37bb65cddaffabd67ae9e5b40e2433e64da
-ms.sourcegitcommit: 7024106e3420607420bb04c3f88d9bb4827038c8
+ms.openlocfilehash: 4ab8970172032f47b6e97da6d097d7c1bf33e976
+ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/25/2021
-ms.locfileid: "107955011"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108172500"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
@@ -41,13 +41,13 @@ DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectRe
 
 在 Visual Studio 中，按一下 [**擴充** 功能  >  **管理延伸** 模組]、搜尋 *project 留尼旺島*，然後下載專案留尼旺島延伸模組。 關閉並重新開啟 Visual Studio，並遵循提示來安裝擴充功能。
 
-如需詳細資訊，請參閱 [project 留尼旺島 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)，並 [使用 Project 留尼旺島0.5 建立桌面 Windows 應用程式](/windows/apps/project-reunion/#set-up-your-development-environment)。
+如需詳細資訊，請參閱 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectReunion/releases/tag/0.5.0)，並 [設定您的開發環境 (的專案留尼旺島) ](/windows/apps/project-reunion/get-started-with-project-reunion#set-up-your-development-environment)。
 
 ### <a name="create-a-new-project"></a>建立新專案
 
 在 Visual Studio 中，從空白應用程式建立新的專案 **，並在桌面) 專案範本中封裝 (WinUI 3** 。 您可以選擇 [language： *c + +*;] 來尋找該專案範本。平臺： *專案留尼旺島*;專案類型： *Desktop*。
 
-如需詳細資訊，請參閱 [WinUI 3 的專案範本](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3)。
+如需詳細資訊，請參閱 [適用于桌面應用程式的 WinUI 3 入門](/windows/apps/winui/winui3/get-started-winui3-for-desktop)。
 
 ### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>安裝 ProjectReunion DWrite NuGet 套件
 
