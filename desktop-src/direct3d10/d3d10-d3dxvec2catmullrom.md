@@ -1,5 +1,5 @@
 ---
-description: 使用指定的2D 向量，執行 Catmull-Rom 插補。
+description: D3DXVec2CatmullRom 函式 (D3DX10Math) -使用指定的2D 向量執行 Catmull-Rom 插補。
 ms.assetid: 8ec1abfa-0fa9-486a-b86d-bbb8f1d63849
 title: 'D3DXVec2CatmullRom 函式 (D3DX10Math) '
 ms.topic: reference
@@ -14,18 +14,18 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 71f499313a31c200b5cc657664b10b43dde47ba6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 41b61d9488e09b72c73cba885d836c6451631c56
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988611"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108406"
 ---
-# <a name="d3dxvec2catmullrom-function-d3dx10mathh"></a><span data-ttu-id="6e7c3-103">D3DXVec2CatmullRom 函式 (D3DX10Math) </span><span class="sxs-lookup"><span data-stu-id="6e7c3-103">D3DXVec2CatmullRom function (D3DX10Math.h)</span></span>
+# <a name="d3dxvec2catmullrom-function-d3dx10mathh"></a><span data-ttu-id="c8bb4-103">D3DXVec2CatmullRom 函式 (D3DX10Math) </span><span class="sxs-lookup"><span data-stu-id="c8bb4-103">D3DXVec2CatmullRom function (D3DX10Math.h)</span></span>
 
-<span data-ttu-id="6e7c3-104">使用指定的2D 向量，執行 Catmull-Rom 插補。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-104">Performs a Catmull-Rom interpolation, using the specified 2D vectors.</span></span>
+<span data-ttu-id="c8bb4-104">使用指定的2D 向量，執行 Catmull-Rom 插補。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-104">Performs a Catmull-Rom interpolation, using the specified 2D vectors.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6e7c3-105">語法</span><span class="sxs-lookup"><span data-stu-id="6e7c3-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c8bb4-105">語法</span><span class="sxs-lookup"><span data-stu-id="c8bb4-105">Syntax</span></span>
 
 
 ```C++
@@ -41,73 +41,73 @@ D3DXVECTOR2* D3DXVec2CatmullRom(
 
 
 
-## <a name="parameters"></a><span data-ttu-id="6e7c3-106">參數</span><span class="sxs-lookup"><span data-stu-id="6e7c3-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c8bb4-106">參數</span><span class="sxs-lookup"><span data-stu-id="c8bb4-106">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="6e7c3-107">*不悅* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-107">*pOut* \[in, out\]</span></span>
+<span data-ttu-id="c8bb4-107">*不悅* \[in、out\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-107">*pOut* \[in, out\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-108">類型： **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-108">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-108">類型： **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-108">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-109">作業結果之 [**D3DXVECTOR2**](d3d10-d3dxvector2.md) 的指標。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-109">Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.</span></span>
+<span data-ttu-id="c8bb4-109">作業結果之 [**D3DXVECTOR2**](d3d10-d3dxvector2.md) 的指標。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-109">Pointer to the [**D3DXVECTOR2**](d3d10-d3dxvector2.md) that is the result of the operation.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6e7c3-110">*pV0* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-110">*pV0* \[in\]</span></span>
+<span data-ttu-id="c8bb4-110">*pV0* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-110">*pV0* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-111">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-111">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-111">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-111">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-112">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-112">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c8bb4-112">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-112">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6e7c3-113">*pV1* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-113">*pV1* \[in\]</span></span>
+<span data-ttu-id="c8bb4-113">*pV1* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-113">*pV1* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-114">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-114">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-114">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-114">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-115">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-115">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c8bb4-115">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-115">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6e7c3-116">*pV2* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-116">*pV2* \[in\]</span></span>
+<span data-ttu-id="c8bb4-116">*pV2* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-116">*pV2* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-117">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-117">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-117">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-117">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-118">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-118">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c8bb4-118">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-118">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6e7c3-119">*pV3* \[在\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-119">*pV3* \[in\]</span></span>
+<span data-ttu-id="c8bb4-119">*pV3* \[在\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-119">*pV3* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-120">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-120">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-120">Type： **Const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md) \***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-120">Type: **const [**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-121">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-121">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
+<span data-ttu-id="c8bb4-121">來源 D3DXVECTOR2 結構的指標，也就是位置向量。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-121">Pointer to a source D3DXVECTOR2 structure, a position vector.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="6e7c3-122"> \[ 中的 s\]</span><span class="sxs-lookup"><span data-stu-id="6e7c3-122">*s* \[in\]</span></span>
+<span data-ttu-id="c8bb4-122"> \[ 中的 s\]</span><span class="sxs-lookup"><span data-stu-id="c8bb4-122">*s* \[in\]</span></span>
 </dt> <dd>
 
-<span data-ttu-id="6e7c3-123">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="6e7c3-123">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
+<span data-ttu-id="c8bb4-123">類型： **[ **FLOAT**](../winprog/windows-data-types.md)**</span><span class="sxs-lookup"><span data-stu-id="c8bb4-123">Type: **[**FLOAT**](../winprog/windows-data-types.md)**</span></span>
 
-<span data-ttu-id="6e7c3-124">加權係數。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-124">Weighting factor.</span></span> <span data-ttu-id="6e7c3-125">請參閱＜備註＞。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-125">See Remarks.</span></span>
+<span data-ttu-id="c8bb4-124">加權係數。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-124">Weighting factor.</span></span> <span data-ttu-id="c8bb4-125">請參閱＜備註＞。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-125">See Remarks.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="6e7c3-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="6e7c3-126">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c8bb4-126">傳回值</span><span class="sxs-lookup"><span data-stu-id="c8bb4-126">Return value</span></span>
 
-<span data-ttu-id="6e7c3-127">類型： **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="6e7c3-127">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
+<span data-ttu-id="c8bb4-127">類型： **[ **D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span><span class="sxs-lookup"><span data-stu-id="c8bb4-127">Type: **[**D3DXVECTOR2**](../direct3d9/d3dxvector2.md)\***</span></span>
 
-<span data-ttu-id="6e7c3-128">D3DXVECTOR2 結構的指標，此結構是 Catmull-Rom 插補的結果。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-128">Pointer to a D3DXVECTOR2 structure that is the result of the Catmull-Rom interpolation.</span></span>
+<span data-ttu-id="c8bb4-128">D3DXVECTOR2 結構的指標，此結構是 Catmull-Rom 插補的結果。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-128">Pointer to a D3DXVECTOR2 structure that is the result of the Catmull-Rom interpolation.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6e7c3-129">備註</span><span class="sxs-lookup"><span data-stu-id="6e7c3-129">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c8bb4-129">備註</span><span class="sxs-lookup"><span data-stu-id="c8bb4-129">Remarks</span></span>
 
-<span data-ttu-id="6e7c3-130">假設有四個點 (p1、p2、p3、p4) 、找出函式 Q (s) ，如下所示：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-130">Given four points (p1, p2, p3, p4), find a function Q(s) such that:</span></span>
+<span data-ttu-id="c8bb4-130">假設有四個點 (p1、p2、p3、p4) 、找出函式 Q (s) ，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-130">Given four points (p1, p2, p3, p4), find a function Q(s) such that:</span></span>
 
 
 ```
@@ -119,7 +119,7 @@ Q(s) is parallel to the line joining p2 to p4 when s is 1.
 
 
 
-<span data-ttu-id="6e7c3-131">您可以藉由設定下列各項，從 Hermite 曲線衍生出 Catmull-Rom 曲線：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-131">The Catmull-Rom spline can be derived from the Hermite spline by setting:</span></span>
+<span data-ttu-id="c8bb4-131">您可以藉由設定下列各項，從 Hermite 曲線衍生出 Catmull-Rom 曲線：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-131">The Catmull-Rom spline can be derived from the Hermite spline by setting:</span></span>
 
 
 ```
@@ -131,17 +131,17 @@ t2 = (p4 - p2) / 2
 
 
 
-<span data-ttu-id="6e7c3-132">其中：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-132">where:</span></span>
+<span data-ttu-id="c8bb4-132">其中：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-132">where:</span></span>
 
-<span data-ttu-id="6e7c3-133">v1 是 pV0 的內容。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-133">v1 is the contents of pV0.</span></span>
+<span data-ttu-id="c8bb4-133">v1 是 pV0 的內容。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-133">v1 is the contents of pV0.</span></span>
 
-<span data-ttu-id="6e7c3-134">v2 是 pV1 的內容。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-134">v2 is the contents of pV1.</span></span>
+<span data-ttu-id="c8bb4-134">v2 是 pV1 的內容。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-134">v2 is the contents of pV1.</span></span>
 
-<span data-ttu-id="6e7c3-135">p3 是 pV2 的內容。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-135">p3 is the contents of pV2.</span></span>
+<span data-ttu-id="c8bb4-135">p3 是 pV2 的內容。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-135">p3 is the contents of pV2.</span></span>
 
-<span data-ttu-id="6e7c3-136">p4 是 pV3 的內容。</span><span class="sxs-lookup"><span data-stu-id="6e7c3-136">p4 is the contents of pV3.</span></span>
+<span data-ttu-id="c8bb4-136">p4 是 pV3 的內容。</span><span class="sxs-lookup"><span data-stu-id="c8bb4-136">p4 is the contents of pV3.</span></span>
 
-<span data-ttu-id="6e7c3-137">使用 Hermite 曲線方程式：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-137">Using the Hermite spline equation:</span></span>
+<span data-ttu-id="c8bb4-137">使用 Hermite 曲線方程式：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-137">Using the Hermite spline equation:</span></span>
 
 
 ```
@@ -150,7 +150,7 @@ Q(s) = (2s3 - 3s2 + 1)v1 + (-2s3 + 3s2)v2 + (s3 - 2s2 + s)t1 + (s3 - s2)t2
 
 
 
-<span data-ttu-id="6e7c3-138">而以 v1、v2、t1 替代，t2 會產生：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-138">and substituting for v1, v2, t1, t2 yields:</span></span>
+<span data-ttu-id="c8bb4-138">而以 v1、v2、t1 替代，t2 會產生：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-138">and substituting for v1, v2, t1, t2 yields:</span></span>
 
 
 ```
@@ -159,7 +159,7 @@ Q(s) = (2s3 - 3s2 + 1)p2 + (-2s3 + 3s2)p3 + (s3 - 2s2 + s)(p3 - p1) / 2 + (s3 - 
 
 
 
-<span data-ttu-id="6e7c3-139">這可以重新排列為：</span><span class="sxs-lookup"><span data-stu-id="6e7c3-139">This can be rearranged as:</span></span>
+<span data-ttu-id="c8bb4-139">這可以重新排列為：</span><span class="sxs-lookup"><span data-stu-id="c8bb4-139">This can be rearranged as:</span></span>
 
 
 ```
@@ -168,22 +168,22 @@ Q(s) = [(-s3 + 2s2 - s)p1 + (3s3 - 5s2 + 2)p2 + (-3s3 + 4s2 + s)p3 + (s3 - s2)p4
 
 
 
-## <a name="requirements"></a><span data-ttu-id="6e7c3-140">規格需求</span><span class="sxs-lookup"><span data-stu-id="6e7c3-140">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="c8bb4-140">規格需求</span><span class="sxs-lookup"><span data-stu-id="c8bb4-140">Requirements</span></span>
 
 
 
-| <span data-ttu-id="6e7c3-141">需求</span><span class="sxs-lookup"><span data-stu-id="6e7c3-141">Requirement</span></span> | <span data-ttu-id="6e7c3-142">值</span><span class="sxs-lookup"><span data-stu-id="6e7c3-142">Value</span></span> |
+| <span data-ttu-id="c8bb4-141">需求</span><span class="sxs-lookup"><span data-stu-id="c8bb4-141">Requirement</span></span> | <span data-ttu-id="c8bb4-142">值</span><span class="sxs-lookup"><span data-stu-id="c8bb4-142">Value</span></span> |
 |--------------------|-----------------------------------------------------------------------------------------|
-| <span data-ttu-id="6e7c3-143">標頭</span><span class="sxs-lookup"><span data-stu-id="6e7c3-143">Header</span></span><br/>  | <dl> <span data-ttu-id="6e7c3-144"><dt>D3DX10Math。h</dt></span><span class="sxs-lookup"><span data-stu-id="6e7c3-144"><dt>D3DX10Math.h</dt></span></span> </dl> |
-| <span data-ttu-id="6e7c3-145">程式庫</span><span class="sxs-lookup"><span data-stu-id="6e7c3-145">Library</span></span><br/> | <dl> <span data-ttu-id="6e7c3-146"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="6e7c3-146"><dt>D3DX10.lib</dt></span></span> </dl>   |
+| <span data-ttu-id="c8bb4-143">標頭</span><span class="sxs-lookup"><span data-stu-id="c8bb4-143">Header</span></span><br/>  | <dl> <span data-ttu-id="c8bb4-144"><dt>D3DX10Math。h</dt></span><span class="sxs-lookup"><span data-stu-id="c8bb4-144"><dt>D3DX10Math.h</dt></span></span> </dl> |
+| <span data-ttu-id="c8bb4-145">程式庫</span><span class="sxs-lookup"><span data-stu-id="c8bb4-145">Library</span></span><br/> | <dl> <span data-ttu-id="c8bb4-146"><dt>D3DX10 .lib</dt></span><span class="sxs-lookup"><span data-stu-id="c8bb4-146"><dt>D3DX10.lib</dt></span></span> </dl>   |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="6e7c3-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6e7c3-147">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c8bb4-147">另請參閱</span><span class="sxs-lookup"><span data-stu-id="c8bb4-147">See also</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="6e7c3-148">數學函數</span><span class="sxs-lookup"><span data-stu-id="6e7c3-148">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
+[<span data-ttu-id="c8bb4-148">數學函數</span><span class="sxs-lookup"><span data-stu-id="c8bb4-148">Math Functions</span></span>](d3d10-graphics-reference-d3dx10-functions-math.md)
 </dt> </dl>
 
  
