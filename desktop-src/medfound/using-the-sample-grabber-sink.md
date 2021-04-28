@@ -1,26 +1,26 @@
 ---
-description: .
+description: 使用範例捕獲接收器
 ms.assetid: AC5970A2-6F12-448D-A444-40020C5C2607
 title: 使用範例捕獲接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7e7f0d64dfeb1cf5fd977e312b34aec49cad254
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 043f64d8fdc3ac3084d2c59be8917acbbd32dde5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513036"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108110497"
 ---
-# <a name="using-the-sample-grabber-sink"></a><span data-ttu-id="cea32-103">使用範例捕獲接收器</span><span class="sxs-lookup"><span data-stu-id="cea32-103">Using the Sample Grabber Sink</span></span>
+# <a name="using-the-sample-grabber-sink"></a><span data-ttu-id="9de2b-103">使用範例捕獲接收器</span><span class="sxs-lookup"><span data-stu-id="9de2b-103">Using the Sample Grabber Sink</span></span>
 
-<span data-ttu-id="cea32-104">範例抓取接收器是一個媒體接收，可將接收的資料轉送至應用程式回呼介面。</span><span class="sxs-lookup"><span data-stu-id="cea32-104">The Sample Grabber Sink is a media sink that forwards the data it receives to an application callback interface.</span></span>
+<span data-ttu-id="9de2b-104">範例抓取接收器是一個媒體接收，可將接收的資料轉送至應用程式回呼介面。</span><span class="sxs-lookup"><span data-stu-id="9de2b-104">The Sample Grabber Sink is a media sink that forwards the data it receives to an application callback interface.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="cea32-105">[來源讀取器](source-reader.md)是範例抓取器接收的替代方案，而且具有更簡單的 progamming 模型。</span><span class="sxs-lookup"><span data-stu-id="cea32-105">The [Source Reader](source-reader.md) is an alternative to the Sample Grabber Sink and has a simpler progamming model.</span></span>
+> <span data-ttu-id="9de2b-105">[來源讀取器](source-reader.md)是範例抓取器接收的替代方案，而且具有更簡單的 progamming 模型。</span><span class="sxs-lookup"><span data-stu-id="9de2b-105">The [Source Reader](source-reader.md) is an alternative to the Sample Grabber Sink and has a simpler progamming model.</span></span>
 
  
 
-## <a name="1-implement-the-callback-interface"></a><span data-ttu-id="cea32-106">1. 執行回呼介面</span><span class="sxs-lookup"><span data-stu-id="cea32-106">1. Implement the Callback Interface</span></span>
+## <a name="1-implement-the-callback-interface"></a><span data-ttu-id="9de2b-106">1. 執行回呼介面</span><span class="sxs-lookup"><span data-stu-id="9de2b-106">1. Implement the Callback Interface</span></span>
 
 
 ```C++
@@ -57,7 +57,7 @@ public:
 
 
 
-## <a name="2-create-the-sample-grabber-sink"></a><span data-ttu-id="cea32-107">2. 建立範例捕獲接收器</span><span class="sxs-lookup"><span data-stu-id="cea32-107">2. Create the Sample Grabber Sink</span></span>
+## <a name="2-create-the-sample-grabber-sink"></a><span data-ttu-id="9de2b-107">2. 建立範例捕獲接收器</span><span class="sxs-lookup"><span data-stu-id="9de2b-107">2. Create the Sample Grabber Sink</span></span>
 
 
 ```C++
@@ -75,7 +75,7 @@ public:
 
 
 
-## <a name="3-create-a-topology"></a><span data-ttu-id="cea32-108">3. 建立拓撲</span><span class="sxs-lookup"><span data-stu-id="cea32-108">3. Create a Topology</span></span>
+## <a name="3-create-a-topology"></a><span data-ttu-id="9de2b-108">3. 建立拓撲</span><span class="sxs-lookup"><span data-stu-id="9de2b-108">3. Create a Topology</span></span>
 
 
 ```C++
@@ -138,7 +138,7 @@ done:
 
 
 
-## <a name="4-run-the-media-session"></a><span data-ttu-id="cea32-109">4. 執行媒體會話</span><span class="sxs-lookup"><span data-stu-id="cea32-109">4. Run the Media Session</span></span>
+## <a name="4-run-the-media-session"></a><span data-ttu-id="9de2b-109">4. 執行媒體會話</span><span class="sxs-lookup"><span data-stu-id="9de2b-109">4. Run the Media Session</span></span>
 
 
 ```C++
@@ -183,9 +183,9 @@ done:
 
 
 
-## <a name="example-code"></a><span data-ttu-id="cea32-110">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="cea32-110">Example Code</span></span>
+## <a name="example-code"></a><span data-ttu-id="9de2b-110">範例程式碼</span><span class="sxs-lookup"><span data-stu-id="9de2b-110">Example Code</span></span>
 
-<span data-ttu-id="cea32-111">以下是本主題的完整程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="cea32-111">Here is the complete example code for this topic.</span></span>
+<span data-ttu-id="9de2b-111">以下是本主題的完整程式碼範例。</span><span class="sxs-lookup"><span data-stu-id="9de2b-111">Here is the complete example code for this topic.</span></span>
 
 
 ```C++
@@ -582,14 +582,14 @@ STDMETHODIMP SampleGrabberCB::OnShutdown()
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="cea32-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="cea32-112">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9de2b-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="9de2b-112">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="cea32-113">媒體會話</span><span class="sxs-lookup"><span data-stu-id="cea32-113">Media Session</span></span>](media-session.md)
+[<span data-ttu-id="9de2b-113">媒體會話</span><span class="sxs-lookup"><span data-stu-id="9de2b-113">Media Session</span></span>](media-session.md)
 </dt> <dt>
 
-[<span data-ttu-id="cea32-114">**IMFSampleGrabberSinkCallback**</span><span class="sxs-lookup"><span data-stu-id="cea32-114">**IMFSampleGrabberSinkCallback**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback)
+[<span data-ttu-id="9de2b-114">**IMFSampleGrabberSinkCallback**</span><span class="sxs-lookup"><span data-stu-id="9de2b-114">**IMFSampleGrabberSinkCallback**</span></span>](/windows/desktop/api/mfidl/nn-mfidl-imfsamplegrabbersinkcallback)
 </dt> </dl>
 
  
