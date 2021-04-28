@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: COARefTime. COARefTime (Ctlutil. h) -函式方法。
 ms.assetid: 6c300f14-5edf-431c-a882-251e87d4de21
 title: COARefTime. COARefTime (Ctlutil .h) -d 參數
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ee664cbafde48aa0bb579d34937ed80a42b28487
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 3d817128ee7a1e67fa1786a568d48e10e8b08b8e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106978556"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095356"
 ---
 # <a name="coareftimecoareftime-constructor-ctlutilh"></a>COARefTime. COARefTime (Ctlutil. h) 
 

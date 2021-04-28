@@ -1,5 +1,5 @@
 ---
-description: 傳回4D 向量的正規化版本。
+description: D3DXVec4Normalize 函式 (D3dx9math) -傳回4D 向量的正規化版本。
 ms.assetid: e12d5dc7-b26f-41dd-b89d-1df9ba23077a
 title: 'D3DXVec4Normalize 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 38d97f337711375d1d414eb78fb317672bc7c5cb
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78984c393d7caf259b4c310a31e01ed8fcbd4d47
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035445"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097656"
 ---
 # <a name="d3dxvec4normalize-function-d3dx9mathh"></a>D3DXVec4Normalize 函式 (D3dx9math) 
 

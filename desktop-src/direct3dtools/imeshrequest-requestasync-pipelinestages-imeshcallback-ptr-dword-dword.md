@@ -1,5 +1,5 @@
 ---
-description: 未使用。
+description: <span id="vspixengine.imeshrequest_requestasync_pipelinestages_imeshcallback_ptr_dword_dword"></span>IMeshRequest：： RequestAsync 方法-未使用。
 MS-HAID: vspixengine.IMeshRequest\_RequestAsync\_PipeLineStages\_IMeshCallback\_ptr\_DWORD\_DWORD
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b4dd2a1e6da36838f69f1068f877c3d539820ac9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0adc6c06c252174d50323bb91e3f1690f6f7eaee
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109876"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114896"
 ---
 # <a name="span-idvspixengineimeshrequest_requestasync_pipelinestages_imeshcallback_ptr_dword_dwordspanimeshrequestrequestasync-method"></a><span id="vspixengine.imeshrequest_requestasync_pipelinestages_imeshcallback_ptr_dword_dword"></span>IMeshRequest：： RequestAsync 方法
 

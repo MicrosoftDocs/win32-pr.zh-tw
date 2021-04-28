@@ -1,5 +1,5 @@
 ---
-description: SetPowerState 方法會設定邏輯裝置所需的電源狀態，以及何時應將裝置置於該狀態。
+description: CIM_Controller 類別的 SetPowerState 方法-SetPowerState 方法會設定邏輯裝置所需的電源狀態，以及何時應將裝置置於該狀態。
 ms.assetid: 442c6c2c-8e9a-476c-bb57-8b1a6439e97f
 ms.tgt_platform: multiple
 title: CIM_Controller 類別的 SetPowerState 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d163725c2ab76904c43cb70629b857eed3228821
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7713d892643238233e9ac5469c942fdf16609512
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510742"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086226"
 ---
 # <a name="setpowerstate-method-of-the-cim_controller-class"></a>CIM 控制器類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定邏輯裝置所需電源狀態的 **ValueMap** 值。

@@ -1,5 +1,5 @@
 ---
-description: 使用指定的4D 向量，執行 Catmull-Rom 插補。
+description: D3DXVec4CatmullRom 函式 (D3dx9math) -使用指定的4D 向量執行 Catmull-Rom 插補。
 ms.assetid: 24c26e70-b02c-4621-8b7e-db16f99dddb5
 title: 'D3DXVec4CatmullRom 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5411274c0b7dab1dacce38a00ab1621a2fff33bc
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 06ba24374ee2ad4e6fd008d90c55d2990dc166f6
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035448"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115526"
 ---
 # <a name="d3dxvec4catmullrom-function-d3dx9mathh"></a>D3DXVec4CatmullRom 函式 (D3dx9math) 
 

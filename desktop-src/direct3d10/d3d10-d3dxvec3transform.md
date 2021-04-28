@@ -1,5 +1,5 @@
 ---
-description: 轉換向量 (x、y、z、1) 指定的矩陣。
+description: D3DXVec3Transform 函式 (D3DX10Math) -轉換向量 (x、y、z、1) 指定的矩陣。
 ms.assetid: 88b26d94-2550-4126-bf91-b06391ec5c75
 title: 'D3DXVec3Transform 函式 (D3DX10Math) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Math.h
-ms.openlocfilehash: 6db2e2ad4279863ba68f709f02f86796552e0463
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9b5cd69ce603f56e4837818cac6ee18fe3ab1e53
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946187"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108108136"
 ---
 # <a name="d3dxvec3transform-function-d3dx10mathh"></a>D3DXVec3Transform 函式 (D3DX10Math) 
 

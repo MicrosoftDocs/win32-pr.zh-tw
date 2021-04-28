@@ -1,5 +1,5 @@
 ---
-description: 允許回呼物件指定解說文字字串。
+description: DFM_GETHELPTEXT 訊息-可讓回呼物件指定解說文字字串。
 title: 'DFM_GETHELPTEXT 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -14,12 +14,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b9aefb1c3a12ff00294ccc536464794a17fccfc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2428fe6696ff5949a0b25487437c8f3408b95f65
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511050"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097066"
 ---
 # <a name="dfm_gethelptext-message"></a>DFM \_ GETHELPTEXT 訊息
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。經理
 ms.assetid: 21b75af5-b53a-430c-9f6c-9296159bec89
 title: System.Doc>ument。經理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b28cc993ba481a39ebc863c26f8f79ff722ffb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42773462ea3f996f6020152fcc00abe9f07bae78
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514216"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114806"
 ---
 # <a name="systemdocumentmanager"></a>System.Doc>ument。經理
 

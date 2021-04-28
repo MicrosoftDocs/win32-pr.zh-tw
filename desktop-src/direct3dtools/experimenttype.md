@@ -1,5 +1,5 @@
 ---
-description: .
+description: <span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE 列舉
 MS-HAID: vspixengine.EXPERIMENTTYPE
 MSHAttr:
 - PreferredSiteName:MSDN
@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: ce04d2c59441a62b603aea0d5d077908a9359b1a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 58c0ce661bb428c699127fd9b07ad67ab0b5ee7f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971295"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097406"
 ---
 # <a name="span-idvspixengineexperimenttypespanexperimenttype-enumeration"></a><span id="vspixengine.experimenttype"></span>EXPERIMENTTYPE 列舉
 

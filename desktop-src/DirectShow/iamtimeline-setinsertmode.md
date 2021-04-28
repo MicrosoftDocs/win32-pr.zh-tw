@@ -1,5 +1,5 @@
 ---
-description: 未實作。
+description: IAMTimeline：： SetInsertMode 方法-未執行。
 ms.assetid: 31ff6e32-e8e7-45b4-af62-b6a84e061c94
 title: 'IAMTimeline：： SetInsertMode 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: af5d08d4723fe38a2f6bdbecaf3b650b0d347918
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3d89e779d1941b23e30c3f96314dd99058c4cf8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977611"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098666"
 ---
 # <a name="iamtimelinesetinsertmode-method"></a>IAMTimeline：： SetInsertMode 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 判斷四個維度中的交叉乘積。
+description: D3DXVec4Cross 函數 (D3dx9math) -決定四個維度中的交叉乘積。
 ms.assetid: 10b965c9-7ed7-450c-86a0-114f068c888f
 title: 'D3DXVec4Cross 函式 (D3dx9math) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91e6e5662bff503ba96d96f135f98e60cf15c8fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e3630a486f6c8fcd456373445bd931d878fdc38e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196296"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097686"
 ---
 # <a name="d3dxvec4cross-function-d3dx9mathh"></a>D3DXVec4Cross 函式 (D3dx9math) 
 

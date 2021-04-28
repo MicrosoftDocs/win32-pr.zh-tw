@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停篩選。 這個方法會實 IMediaFilter：:P ause 方法。
+description: CTransformFilter： pause 方法： Pause 方法會暫停篩選。 這個方法會實 IMediaFilter：:P ause 方法。
 ms.assetid: 3e3afd14-1c92-4f2b-a367-e10caaeb3b63
 title: 'CTransformFilter： Pause 方法 (Transfrm) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5408b9a39f92fd68eacb83474a18da0acda6b961
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 903522b63754ff7972e4cdcf5221946442497896
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996002"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108095096"
 ---
 # <a name="ctransformfilterpause-method"></a>CTransformFilter. Pause 方法
 

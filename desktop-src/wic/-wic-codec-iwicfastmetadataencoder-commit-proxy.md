@@ -1,5 +1,5 @@
 ---
-description: Commit 方法的 Proxy 函數。
+description: Commit 方法的 IWICFastMetadataEncoder_Commit_Proxy 函數 Proxy 函式。
 ms.assetid: 5b3b90ad-9d67-4fbd-b01e-c7478df8dd45
 title: IWICFastMetadataEncoder_Commit_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 487fd99c68752b1547ba53c553025fc8ecfd5ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 848ed74ec9c9bb490065935bd94cae7a35d02db2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193566"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097186"
 ---
 # <a name="iwicfastmetadataencoder_commit_proxy-function"></a>IWICFastMetadataEncoder \_ Commit \_ Proxy 函式
 
@@ -43,9 +43,9 @@ HRESULT IWICFastMetadataEncoder_Commit_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICFastMetadataEncoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder) \** _
+類型： **[ **IWICFastMetadataEncoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder)\***
 
-這個 [_ *IWICFastMetadataEncoder* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder)物件的指標。
+這個 [**IWICFastMetadataEncoder**](/windows/desktop/api/Wincodec/nn-wincodec-iwicfastmetadataencoder) 物件的指標。
 
 </dd> </dl>
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System. FlagColor
 ms.assetid: a0627f2e-9a4f-40d4-9698-281a1cf56673
 title: System. FlagColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50798cb880f89644c77559d53c741b8d538e285f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8b8d3877659918c63251df7bc3c3eaba2618881
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000115"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100886"
 ---
 # <a name="systemflagcolor"></a>System. FlagColor
 

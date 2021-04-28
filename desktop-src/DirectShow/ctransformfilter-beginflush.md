@@ -1,5 +1,5 @@
 ---
-description: BeginFlush 方法會開始進行清除作業。
+description: CTransformFilter. BeginFlush 方法-BeginFlush 方法開始進行清除作業。
 ms.assetid: 15bea993-f862-4791-b784-0d0468c6c05c
 title: 'CTransformFilter. BeginFlush 方法 (Transfrm .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bd9a4bf1543f4899d4c879e9d1a9d9cf1035b765
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bd7735726d7e7d21bc16e8a811947b954ffaac4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982547"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085156"
 ---
 # <a name="ctransformfilterbeginflush-method"></a>CTransformFilter. BeginFlush 方法
 

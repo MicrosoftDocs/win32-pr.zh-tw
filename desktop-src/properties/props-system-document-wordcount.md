@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。WordCount
 ms.assetid: 1c2b18d5-dcfc-40ab-bc2e-f8a092ff8b46
 title: System.Doc>ument。WordCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d205e92abe02bcf55448777bd571a9e374e9d45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43e922b5025b0bd685ca86d8d9a220cc133e8d0e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988905"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114686"
 ---
 # <a name="systemdocumentwordcount"></a>System.Doc>ument。WordCount
 

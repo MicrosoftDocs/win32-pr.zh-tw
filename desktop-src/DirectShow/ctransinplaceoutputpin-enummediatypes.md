@@ -1,5 +1,5 @@
 ---
-description: EnumMediaTypes 方法會列舉釘選的慣用媒體類型。 這個方法會實 IPin：： EnumMediaTypes 方法。
+description: CTransInPlaceOutputPin. EnumMediaTypes 方法-EnumMediaTypes 方法會列舉釘選的慣用媒體類型。 這個方法會實 IPin：： EnumMediaTypes 方法。
 ms.assetid: 942c6594-3053-484a-a0f7-286dcd3f7550
 title: 'CTransInPlaceOutputPin. EnumMediaTypes 方法 (Transip .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4d214004412264272c64d0efaf20a5da7e1ca3cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26dd58f23dc18a086c6c59f6f8a6a098e3449fea
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990560"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108084632"
 ---
 # <a name="ctransinplaceoutputpinenummediatypes-method"></a>CTransInPlaceOutputPin. EnumMediaTypes 方法
 

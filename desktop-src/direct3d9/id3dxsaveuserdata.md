@@ -1,5 +1,5 @@
 ---
-description: 此介面是由應用程式所執行，用以儲存任何其他內嵌在. x 檔案中的使用者資料。
+description: ID3DXSaveUserData 介面-這個介面是由應用程式所執行，用以儲存任何其他內嵌在. x 檔案中的使用者資料。
 ms.assetid: 6294f942-9c14-4eed-92a8-af2821fd7e13
 title: 'ID3DXSaveUserData 介面 (D3dx9anim .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 77529a5a7b260dd27dc4af1752c88f55117bc974
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5dbdc71239455772809e44f535634a0d06cc0653
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976701"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107176"
 ---
 # <a name="id3dxsaveuserdata-interface"></a>ID3DXSaveUserData 介面
 

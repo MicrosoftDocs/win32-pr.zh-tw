@@ -1,15 +1,15 @@
 ---
-description: Clone 方法會建立另一個列舉值，其中包含與目前相同的列舉狀態。
+description: IEnumMedia：： Clone 方法： Clone 方法會建立另一個列舉值，其中包含與目前相同的列舉狀態。
 ms.assetid: b48399f5-daaa-40e4-bd80-a918539d25c6
 title: 'IEnumMedia：： Clone 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c29671819db202643506cbdf90a1550abb305718
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f81542e1b0e3fc5bfb44e59827608396d7d906c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990826"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114546"
 ---
 # <a name="ienummediaclone-method"></a>IEnumMedia：： Clone 方法
 

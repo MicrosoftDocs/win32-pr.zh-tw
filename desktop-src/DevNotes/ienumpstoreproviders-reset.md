@@ -1,5 +1,5 @@
 ---
-description: 重設為列舉序列的開頭。
+description: IEnumPStoreProviders：： Reset 方法-重設為列舉序列的開頭。
 ms.assetid: 9c5044b5-25a3-4d10-829b-ef4d8b5ac095
 title: 'IEnumPStoreProviders：： Reset 方法 (Pstore .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 2a5171820eb0f1e1326873b99b6b0d03fe289c5c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e37e131b6f67f94bb787051123be8eb430eb39e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990568"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096756"
 ---
 # <a name="ienumpstoreprovidersreset-method"></a>IEnumPStoreProviders：： Reset 方法
 

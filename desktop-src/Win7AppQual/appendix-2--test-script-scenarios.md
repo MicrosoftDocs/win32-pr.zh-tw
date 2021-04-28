@@ -1,16 +1,7 @@
 ---
-description: .
-ms.assetid: BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0
-title: 附錄2：測試腳本案例
-ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 46c7e75cc74f4c7b365cd7be35263ce3720139af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989039"
+描述：附錄2：測試腳本案例 ms-chap assetid： BDF7CF8D-26B0-4B4D-AF7D-9DC64B4667F0 標題： ' 附錄2：測試腳本案例 ' ms. 主題：文章 ms. 日期：05/31/2018
 ---
+
 # <a name="appendix-2-test-script-scenarios"></a>附錄2：測試腳本案例
 
 
@@ -33,7 +24,7 @@ ms.locfileid: "106989039"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -42,9 +33,9 @@ ms.locfileid: "106989039"
 [在遷移至 Internet Explorer 8 時解決應用程式相容性問題](addressing-application-compatibility-when-migrating-to-internet-explorer-8.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

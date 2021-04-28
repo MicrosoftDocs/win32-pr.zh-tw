@@ -1,5 +1,5 @@
 ---
-description: 取得內嵌在著色器中的著色器常數資料表。
+description: D3DXGetShaderConstantTable 函式-取得內嵌在著色器中的著色器常數資料表。
 ms.assetid: eb965074-819f-44d2-889b-6c6eada4f062
 title: 'D3DXGetShaderConstantTable 函式 (D3DX9Shader) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 876802023601c14b4cceed0ef0e2db431d7339e0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b397901578a1e6ce6fecc01ed25c99d4681d1c40
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986095"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114416"
 ---
 # <a name="d3dxgetshaderconstanttable-function"></a>D3DXGetShaderConstantTable 函式
 

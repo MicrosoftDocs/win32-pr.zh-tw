@@ -1,15 +1,15 @@
 ---
-description: .
+description: 同步
 ms.assetid: c69e4deb-2e18-4637-88ca-6d72ae41f95f
 title: 同步
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 660bd661eb2ecc14b333296285e2883e39b8785a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f4e66ac593282badb9c86770cdb5157ca86a329
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026121"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108113796"
 ---
 # <a name="sync"></a>同步
 

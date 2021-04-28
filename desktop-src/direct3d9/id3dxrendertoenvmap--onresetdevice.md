@@ -1,5 +1,5 @@
 ---
-description: 您可以使用這個方法來重新取得資源，並儲存初始狀態。
+description: ID3DXRenderToEnvMap：： OnResetDevice 方法-使用此方法可重新取得資源並儲存初始狀態。
 ms.assetid: 3e231ad6-858e-4b6a-bbea-0839794bbac7
 title: 'ID3DXRenderToEnvMap：： OnResetDevice 方法 (D3dx9core .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5d429c08d8bad23652a080998b6a4735132522ad
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 78b9e6e1081abed40d1eaf09f6540ed11ed119a8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322784"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093126"
 ---
 # <a name="id3dxrendertoenvmaponresetdevice-method"></a>ID3DXRenderToEnvMap：： OnResetDevice 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: 登錄機碼上的額外 Windows 資源保護
 ms.assetid: 25d07e42-b5eb-4f72-b4b1-0ebb881644ba
 title: 登錄機碼上的額外 Windows 資源保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb048a45324e52c9b9319f52f95b64361b95bbfd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1beeea49f06da182b5ebba38d09227134a6d92c0
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979416"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088776"
 ---
 # <a name="additional-windows-resource-protection-on-registry-keys"></a>登錄機碼上的額外 Windows 資源保護
 

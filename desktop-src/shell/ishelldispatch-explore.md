@@ -1,5 +1,5 @@
 ---
-description: 在 Windows 檔案總管視窗中開啟指定的資料夾。
+description: IShellDispatch：流覽方法-在 Windows 檔案總管視窗中開啟指定的資料夾。
 ms.assetid: DB434D02-56B2-4e8f-9E43-BBF47C7BE377
 title: 'IShellDispatch： (Shldisp 的流覽方法) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 1ae29b4962dcac1be0b7ea23808e36ce005cb62c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e693985cf7d8d83bd5a00595c42cd4427b0ebd5b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972429"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100556"
 ---
 # <a name="ishelldispatchexplore-method"></a>IShellDispatch。流覽方法
 

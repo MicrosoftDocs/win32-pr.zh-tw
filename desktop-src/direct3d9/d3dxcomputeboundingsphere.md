@@ -1,5 +1,5 @@
 ---
-description: 計算網格的周框球體。
+description: D3DXComputeBoundingSphere 函式 (D3DX9Mesh) -計算網格的周框球體。
 ms.assetid: efa1365b-fe3a-4165-a3cb-bc1cd2ba03c0
 title: 'D3DXComputeBoundingSphere 函式 (D3DX9Mesh) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c9e6a0c9fb67abe8a98ccf8b3f9b895fd63fc3e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dbfccb13dfe15b06de98ddba114cdc62c5f4ec05
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997402"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115816"
 ---
 # <a name="d3dxcomputeboundingsphere-function-d3dx9meshh"></a>D3DXComputeBoundingSphere 函式 (D3DX9Mesh) 
 

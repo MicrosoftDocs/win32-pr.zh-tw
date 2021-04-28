@@ -1,5 +1,5 @@
 ---
-description: 抓取網格的屬性工作表，或網格的屬性資料表中儲存的專案數。
+description: ID3DXBaseMesh：： GetAttributeTable 方法-抓取網格的屬性工作表，或網格的屬性資料表中儲存的專案數。
 ms.assetid: 15b24137-0ff9-4299-971b-90fa4ef2686d
 title: 'ID3DXBaseMesh：： GetAttributeTable 方法 (D3DX9Mesh .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 70c93c8f477655200418793f53706731b42a47ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f5d27de884f72b46db900487e26f1099bf30949
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976501"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108115446"
 ---
 # <a name="id3dxbasemeshgetattributetable-method"></a>ID3DXBaseMesh：： GetAttributeTable 方法
 

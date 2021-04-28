@@ -1,15 +1,15 @@
 ---
-description: 在填充碼資料庫中包含專案和其標記資訊的索引。
+description: TAGREF-在填充碼資料庫中包含專案和其標記資訊的索引。
 ms.assetid: e7d83dca-13a5-4396-b50b-0d068209c03c
 title: TAGREF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8631811f101850b68bdbad1097c19b9a41737bd2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 34e27a60847630e7bbd8e07ccf005dfd7b474d7a
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510449"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096626"
 ---
 # <a name="tagref"></a>TAGREF
 

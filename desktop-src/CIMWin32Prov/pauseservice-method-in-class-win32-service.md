@@ -1,5 +1,5 @@
 ---
-description: 嘗試將此服務置於暫停狀態。
+description: Win32_Service 類別的 PauseService 方法 (CIMWin32 WMI 提供者) -嘗試將服務置於暫停狀態。
 ms.assetid: 5382457e-7f9c-48a5-9262-b815a1a4a605
 ms.tgt_platform: multiple
 title: " (CIMWin32 WMI 提供者的 Win32_Service 類別的 PauseService 方法) "
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1b1dfa0b956442f74c17dd6a8c054c229a92466a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7654feea410564137e98861c4c0b5de2b5e7192e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970906"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096946"
 ---
 # <a name="pauseservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 PauseService 方法) 
 

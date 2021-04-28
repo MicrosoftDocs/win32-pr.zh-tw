@@ -1,15 +1,15 @@
 ---
-description: .
+description: 動態記憶體
 ms.assetid: 0ea1de35-34ea-4e94-b90d-0f89503cb3fb
 title: 動態記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a1e868a89714a7f6f1d77f9416515897876c150
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfcc54a1b85f4fc39bf6383e05a2e6e535edd1d4
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988441"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088466"
 ---
 # <a name="dynamic-memory"></a>動態記憶體
 

@@ -1,5 +1,5 @@
 ---
-description: Pause 方法會暫停目前的捕獲。
+description: IDelaydC：:P ause 方法-Pause 方法會暫停目前的捕獲。
 ms.assetid: 9d5e11d1-8c45-4cf5-9fea-10c9e7a6fe86
 title: 'IDelaydC： (Netmon 的:P ause 方法) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d44ae7792388d9ca637232b45e63d618a37acb6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21b4cd7b6cb921f7bd71b8670a37da12b2239b92
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847729"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098496"
 ---
 # <a name="idelaydcpause-method"></a>IDelaydC：:P ause 方法
 

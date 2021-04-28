@@ -1,5 +1,5 @@
 ---
-description: 函式方法。
+description: CBaseAllocator。 CBaseAllocator 函式-函數方法。
 ms.assetid: e697e377-6407-4316-9f04-fe3bdb814175
 title: 'CBaseAllocator. CBaseAllocator (Amfilter. h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 98a1ba1163058f92fba666177d0ff82331dd528c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dfda2b03d1ddb3f4a8ad5f4446dbee997da4e790
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985933"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108096357"
 ---
 # <a name="cbaseallocatorcbaseallocator-constructor"></a>CBaseAllocator. CBaseAllocator 函數
 

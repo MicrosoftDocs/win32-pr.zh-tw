@@ -1,15 +1,15 @@
 ---
-description: .
+description: 移除 Windows 可攜式裝置的 WPDUSB.SYS 驅動程式
 ms.assetid: 3ad0c892-8b19-465d-af2f-9207f98e27b7
 title: 移除 Windows 可攜式裝置的 WPDUSB.SYS 驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1d602c8277a5c256332b3eaec6a383997d5c63d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5931b63c5abb4534b2c8dd6619b4a3ead8b339be
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987775"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108116246"
 ---
 # <a name="removal-of-wpdusbsys-driver-for-windows-portable-devices"></a>移除 Windows 可攜式裝置的 WPDUSB.SYS 驅動程式
 

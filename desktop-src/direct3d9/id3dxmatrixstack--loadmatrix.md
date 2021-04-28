@@ -1,5 +1,5 @@
 ---
-description: 將指定的矩陣載入至目前的矩陣。
+description: ID3DXMATRIXStack：： LoadMatrix 方法 (D3dx9math .h) -將指定的矩陣載入至目前的矩陣。
 ms.assetid: c4c5ac50-238f-4b41-8ea9-7e48ffd03fc5
 title: 'ID3DXMATRIXStack：： LoadMatrix 方法 (D3dx9math .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 292b4e147dfa99023f0b4d560a4ed41e6b41b3fe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f2ee7e5cae4d28b81b805faa4f113d0819f1eae9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514565"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108093536"
 ---
 # <a name="id3dxmatrixstackloadmatrix-method-d3dx9mathh"></a>ID3DXMATRIXStack：： LoadMatrix 方法 (D3dx9math .h) 
 

@@ -1,5 +1,5 @@
 ---
-description: Initialize 方法的 Proxy 函式。
+description: Initialize 方法的 IWICBitmapFrameEncode_Initialize_Proxy 函數 Proxy 函式。
 ms.assetid: af9e204c-7072-47b8-84eb-47a754968d5b
 title: IWICBitmapFrameEncode_Initialize_Proxy 函式
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: da9192409636de96dbd9d35d9614df2c926c9032
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8c8a7526343e6dfcda9859fd06259700019a9bf
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690287"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108100546"
 ---
 # <a name="iwicbitmapframeencode_initialize_proxy-function"></a>IWICBitmapFrameEncode \_ Initialize \_ Proxy 函式
 
@@ -44,18 +44,18 @@ HRESULT IWICBitmapFrameEncode_Initialize_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) \** _
+類型： **[ **IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)\***
 
-這個 [_ *IWICBitmapFrameEncode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)物件的指標。
+這個 [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) 物件的指標。
 
 </dd> <dt>
 
 *pIEncoderOptions* \[在\]
 </dt> <dd>
 
-類型： **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85)) \** _
+類型： **[IPropertyBag2](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768192(v=vs.85))\***
 
-要用於 [_ *IWICBitmapFrameEncode* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode)初始化的屬性集。
+要用於 [**IWICBitmapFrameEncode**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmapframeencode) 初始化的屬性集。
 
 </dd> </dl>
 

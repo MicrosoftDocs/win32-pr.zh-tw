@@ -1,5 +1,5 @@
 ---
-description: 描述包含運算子多載和類型轉換的三個元件向量。
+description: D3DXVECTOR3 結構 (D3dx9math) -描述包含運算子多載和類型轉換的三個元件向量。
 ms.assetid: 4d73de4b-82fe-452a-8a1e-17208f172a03
 title: 'D3DXVECTOR3 結構 (D3dx9math .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: 2c49902677999c78737e7dec094c839cd8941f08
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 29d6743f0c0c365911ebbbba66cb4d44f10792e7
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035444"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108097576"
 ---
 # <a name="d3dxvector3-structure-d3dx9mathh"></a>D3DXVECTOR3 結構 (D3dx9math .h) 
 

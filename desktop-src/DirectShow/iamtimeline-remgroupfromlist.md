@@ -1,5 +1,5 @@
 ---
-description: 不支援。
+description: IAMTimeline：： RemGroupFromList 方法-不支援。
 ms.assetid: 9ad5f5ee-2a2a-448b-9da4-2ad8d543eb22
 title: 'IAMTimeline：： RemGroupFromList 方法 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 58f7cd07f193a238f4195a5e4ed17e1ede3b548e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9fcb2a73f32ab1c1f401a4508c63e53cc58ebcfb
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978662"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098686"
 ---
 # <a name="iamtimelineremgroupfromlist-method"></a>IAMTimeline：： RemGroupFromList 方法
 

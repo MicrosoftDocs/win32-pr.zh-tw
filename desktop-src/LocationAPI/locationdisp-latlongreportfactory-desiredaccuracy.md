@@ -1,5 +1,5 @@
 ---
-description: 目前的預期精確度值。
+description: LocationDisp. LatLongReportFactory. DesiredAccuracy 屬性-目前的預期精確度值。
 ms.assetid: dfad833b-bb0c-4c66-9942-da10abee5381
 title: LocationDisp. LatLongReportFactory. DesiredAccuracy 屬性
 ms.topic: reference
@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: e17e415d9503660d873ae4df67d2469c646dd80e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afc5ec235df6c9e07a665410cb09e00f24305304
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985132"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088966"
 ---
 # <a name="locationdisplatlongreportfactorydesiredaccuracy-property"></a>LocationDisp. LatLongReportFactory. DesiredAccuracy 屬性
 

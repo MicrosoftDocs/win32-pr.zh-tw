@@ -1,5 +1,5 @@
 ---
-description: 完成使用 sprintf 樣式追蹤的選擇性欄位來設定追蹤緩衝區。
+description: SetAsyncTraceParamsEx 函式-完成使用 sprintf 樣式追蹤的選擇性欄位來設定追蹤緩衝區。
 ms.assetid: 6c23e61c-0285-47ba-b614-b73bd001d552
 title: SetAsyncTraceParamsEx 函式
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Exstrace.dll
-ms.openlocfilehash: e5f99af2e6226e39ecc06a1c4c2bb7f2ad3c3b8e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5a9dc0eee2f4ea3f65fa45914c3340a99ac2d45b
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978664"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085766"
 ---
 # <a name="setasynctraceparamsex-function"></a>SetAsyncTraceParamsEx 函式
 

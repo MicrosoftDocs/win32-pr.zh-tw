@@ -1,5 +1,5 @@
 ---
-description: 指定要執行的網格優化類型。
+description: D3DXMESHOPT 列舉-指定要執行的網格優化類型。
 ms.assetid: 32ef227a-b299-47c4-96b8-c0ea7bf549e1
 title: 'D3DXMESHOPT 列舉 (D3dx9mesh) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: e7d4f9f4ae36cec74ea86fcb50a194ac66d0add7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db7c2a2411d1c846c7369fc1d925a8e5569df3b1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986090"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114346"
 ---
 # <a name="d3dxmeshopt-enumeration"></a>D3DXMESHOPT 列舉
 

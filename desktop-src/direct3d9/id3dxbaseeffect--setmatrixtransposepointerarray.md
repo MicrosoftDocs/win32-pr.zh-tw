@@ -1,5 +1,5 @@
 ---
-description: 將指標的陣列設定為已轉置的矩陣。
+description: ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法-將指標陣列設定為已轉換的矩陣。
 ms.assetid: 11a21077-eeee-4d52-ac16-41444e3eca4f
 title: 'ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法 (D3DX9Shader .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 1152deccdcadebe9f421fac6d7d5ce53c8d3e5f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f35afad1120a26a60f670d12410584b2f9db7f1
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985724"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107386"
 ---
 # <a name="id3dxbaseeffectsetmatrixtransposepointerarray-method"></a>ID3DXBaseEffect：： SetMatrixTransposePointerArray 方法
 

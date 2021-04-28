@@ -1,5 +1,5 @@
 ---
-description: GetAt 方法會依據以零為基底的索引，從集合中抓取專案。
+description: IPortableDevicePropVariantCollection：： GetAt 方法-GetAt 方法會依據以零為基底的索引，從集合中抓取專案。
 ms.assetid: c7119ba6-e6fc-4cb6-a8ab-3bf7b6bfe850
 title: 'IPortableDevicePropVariantCollection：： GetAt 方法 (PortableDeviceTypes .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 0833c69b537fa230320ef69707a6f4302a8ca1ec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b901e8fcfa065813e4c0942632f80901800ef0a9
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992841"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108106796"
 ---
 # <a name="iportabledevicepropvariantcollectiongetat-method"></a>IPortableDevicePropVariantCollection：： GetAt 方法
 

@@ -1,15 +1,15 @@
 ---
-description: .
+description: System.Doc>ument。LastAuthor
 ms.assetid: a040a5cc-17eb-4a43-aeee-3e7ebbeac034
 title: System.Doc>ument。LastAuthor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f2037746bde8637a1e93a36a939c0bef3425d2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3979f1426b09263dd1d3724b98d8118ad932356f
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027419"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114816"
 ---
 # <a name="systemdocumentlastauthor"></a>System.Doc>ument。LastAuthor
 

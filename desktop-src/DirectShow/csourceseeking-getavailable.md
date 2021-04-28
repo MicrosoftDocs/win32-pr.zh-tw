@@ -1,5 +1,5 @@
 ---
-description: GetAvailable 方法會捕獲搜尋效率的範圍。 這個方法會實 IMediaSeeking：： GetAvailable 方法。
+description: CSourceSeeking. GetAvailable 方法-GetAvailable 方法會捕獲搜尋效率的範圍。 這個方法會實 IMediaSeeking：： GetAvailable 方法。
 ms.assetid: 2a7b6cdb-47c3-4aeb-89ff-ea968c6a809b
 title: 'CSourceSeeking. GetAvailable 方法 (Ctlutil .h) '
 ms.topic: reference
@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: bc661d81c49798b6fe06dc569b680e5f9839e5a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f24bc667eec4f5b21c90415e4721aa8cf0a0ad4c
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977754"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085236"
 ---
 # <a name="csourceseekinggetavailable-method"></a>CSourceSeeking. GetAvailable 方法
 

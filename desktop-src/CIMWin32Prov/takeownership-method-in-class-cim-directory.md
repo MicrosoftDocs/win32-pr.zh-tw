@@ -1,5 +1,5 @@
 ---
-description: TakeOwnerShip 方法會取得物件路徑中所指定之邏輯檔案的擁有權。
+description: CIM_Directory 類別的 TakeOwnerShip 方法-TakeOwnerShip 方法會取得物件路徑中所指定之邏輯檔案的擁有權。
 ms.assetid: 053647d0-3ba0-4cd4-a84a-a1a96ef7151c
 ms.tgt_platform: multiple
 title: CIM_Directory 類別的 TakeOwnerShip 方法
@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: dc68e974c98405f03c4bbfb45f02fdf78bf65127
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 12c328f30e56db348b018b73b02aa4320bf99505
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191038"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108086056"
 ---
 # <a name="takeownership-method-of-the-cim_directory-class"></a>CIM 目錄類別的 TakeOwnerShip 方法 \_
 

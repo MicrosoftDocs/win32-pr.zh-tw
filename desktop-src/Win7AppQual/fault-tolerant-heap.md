@@ -1,15 +1,15 @@
 ---
-description: .
+description: 容錯堆積
 ms.assetid: f1ac375a-3f08-49cd-8752-6f55db24a60c
 title: 容錯堆積
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 349c8c3d6d066de3d563880c169c8dde2e062370
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b17ab2630e6dc28cb84604e48be1aa60bf208a97
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983915"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108088396"
 ---
 # <a name="fault-tolerant-heap"></a>容錯堆積
 

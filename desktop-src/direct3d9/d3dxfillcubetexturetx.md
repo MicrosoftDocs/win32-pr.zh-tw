@@ -1,5 +1,5 @@
 ---
-description: 使用已編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。
+description: D3DXFillCubeTextureTX 函式-使用編譯的高階著色器語言 (HLSL) 函式來填滿材質每個 mipmap 層級的每個材質。
 ms.assetid: a0c36967-57e6-4771-8e9f-f32949c12001
 title: 'D3DXFillCubeTextureTX 函式 (D3dx9tex) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 37a831ef95d50f9b0389be0f1c9937e46748f6d3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95c6d054900f3f4c4710e22c54759161800137c2
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696643"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108107666"
 ---
 # <a name="d3dxfillcubetexturetx-function"></a>D3DXFillCubeTextureTX 函式
 

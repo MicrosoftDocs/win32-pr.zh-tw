@@ -1,6 +1,6 @@
 ---
 title: 'EM_SETRECT 訊息 (Winuser .h) '
-description: 設定多行編輯控制項的格式化矩形。
+description: EM_SETRECT 訊息：設定多行編輯控制項的格式化矩形。
 ms.assetid: 4f576e94-3bd3-4416-a960-b7f22da963ea
 keywords:
 - EM_SETRECT message Windows 控制項
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a12b171478b0cb9d47496d20d4d1b6b1e8ddd29a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 042428a236b8e9a23f03cdcceaf5d76eb977efd8
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025033"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108085966"
 ---
 # <a name="em_setrect-message"></a>EM \_ SETRECT 訊息
 

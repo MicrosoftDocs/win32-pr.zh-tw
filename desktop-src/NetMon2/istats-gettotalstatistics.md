@@ -1,5 +1,5 @@
 ---
-description: GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
+description: IStats：： GetTotalStatistics 方法-GetTotalStatistics 方法會抓取目前 capture 的統計資料總計。
 ms.assetid: 494634f6-a9b3-4a50-8920-2387be9ba30f
 title: 'IStats：： GetTotalStatistics 方法 (Netmon. h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 51cdbfdcc796aa7d8091e8da5837809efaa63379
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6566a58212e8f20d0d999302f41ab97cb9f005e
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988901"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108098406"
 ---
 # <a name="istatsgettotalstatistics-method"></a>IStats：： GetTotalStatistics 方法
 

@@ -1,5 +1,5 @@
 ---
-description: 傳回指定裝置支援的最高階著色器語言 (HLSL) 設定檔的名稱。
+description: D3DXGetPixelShaderProfile 函式-傳回指定裝置所支援的最高高階著色器語言 (HLSL) 設定檔的名稱。
 ms.assetid: a6c1be4e-f6f5-4f08-b6a7-b9c621e5f19b
 title: 'D3DXGetPixelShaderProfile 函式 (D3DX9Shader) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: ad1f430a95b1ff2173dceb1e0561dccf3d0ee88d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d24e19d49a8a96f91847892f519ef6c06d25ef5
+ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946096"
+ms.lasthandoff: 04/28/2021
+ms.locfileid: "108114435"
 ---
 # <a name="d3dxgetpixelshaderprofile-function"></a>D3DXGetPixelShaderProfile 函式
 
