@@ -12,24 +12,24 @@ keywords:
 - 共用圖示資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2e93f831e3411985ecfb9f841ade750acd4a61b
-ms.sourcegitcommit: 8755905962e156f29203705d09d6df8b7d0e2fca
+ms.openlocfilehash: 03202c250502794d5f845bcc8c2ae263d919ea62
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "106996530"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327113"
 ---
-# <a name="using-icons"></a><span data-ttu-id="479fa-110">使用圖示</span><span class="sxs-lookup"><span data-stu-id="479fa-110">Using Icons</span></span>
+# <a name="using-icons"></a><span data-ttu-id="78d1f-110">使用圖示</span><span class="sxs-lookup"><span data-stu-id="78d1f-110">Using Icons</span></span>
 
-<span data-ttu-id="479fa-111">下列主題說明如何執行與圖示相關的特定工作：</span><span class="sxs-lookup"><span data-stu-id="479fa-111">The following topics describe how to perform certain tasks related to icons:</span></span>
+<span data-ttu-id="78d1f-111">下列主題說明如何執行與圖示相關的特定工作：</span><span class="sxs-lookup"><span data-stu-id="78d1f-111">The following topics describe how to perform certain tasks related to icons:</span></span>
 
--   [<span data-ttu-id="479fa-112">建立圖示</span><span class="sxs-lookup"><span data-stu-id="479fa-112">Creating an Icon</span></span>](#creating-an-icon)
--   [<span data-ttu-id="479fa-113">顯示圖示</span><span class="sxs-lookup"><span data-stu-id="479fa-113">Displaying an Icon</span></span>](#displaying-an-icon)
--   [<span data-ttu-id="479fa-114">共用圖示資源</span><span class="sxs-lookup"><span data-stu-id="479fa-114">Sharing Icon Resources</span></span>](#sharing-icon-resources)
+-   [<span data-ttu-id="78d1f-112">建立圖示</span><span class="sxs-lookup"><span data-stu-id="78d1f-112">Creating an Icon</span></span>](#creating-an-icon)
+-   [<span data-ttu-id="78d1f-113">顯示圖示</span><span class="sxs-lookup"><span data-stu-id="78d1f-113">Displaying an Icon</span></span>](#displaying-an-icon)
+-   [<span data-ttu-id="78d1f-114">共用圖示資源</span><span class="sxs-lookup"><span data-stu-id="78d1f-114">Sharing Icon Resources</span></span>](#sharing-icon-resources)
 
-## <a name="creating-an-icon"></a><span data-ttu-id="479fa-115">建立圖示</span><span class="sxs-lookup"><span data-stu-id="479fa-115">Creating an Icon</span></span>
+## <a name="creating-an-icon"></a><span data-ttu-id="78d1f-115">建立圖示</span><span class="sxs-lookup"><span data-stu-id="78d1f-115">Creating an Icon</span></span>
 
-<span data-ttu-id="479fa-116">若要使用圖示，您的應用程式必須取得圖示的控制碼。</span><span class="sxs-lookup"><span data-stu-id="479fa-116">To use an icon, your application must get a handle to the icon.</span></span> <span data-ttu-id="479fa-117">下列範例會示範如何建立兩個不同的圖示控點：一個用於標準問題圖示，另一個用於自訂圖示，並在應用程式的資源定義檔中包含為資源。</span><span class="sxs-lookup"><span data-stu-id="479fa-117">The following example shows how to create two different icon handles: one for the standard question icon and one for a custom icon included as a resource in the application's resource-definition file.</span></span>
+<span data-ttu-id="78d1f-116">若要使用圖示，您的應用程式必須取得圖示的控制碼。</span><span class="sxs-lookup"><span data-stu-id="78d1f-116">To use an icon, your application must get a handle to the icon.</span></span> <span data-ttu-id="78d1f-117">下列範例會示範如何建立兩個不同的圖示控點：一個用於標準問題圖示，另一個用於自訂圖示，並在應用程式的資源定義檔中包含為資源。</span><span class="sxs-lookup"><span data-stu-id="78d1f-117">The following example shows how to create two different icon handles: one for the standard question icon and one for a custom icon included as a resource in the application's resource-definition file.</span></span>
 
 
 ```
@@ -50,7 +50,7 @@ hIcon2 = LoadIcon(hinst, MAKEINTRESOURCE(460));
 
 
 
-<span data-ttu-id="479fa-118">應用程式應該將自訂圖示實作為資源，而且應該使用 [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) 或 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) 函式，而不是在執行時間建立圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-118">An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function, rather than create the icons at run-time.</span></span> <span data-ttu-id="479fa-119">這種方法可避免裝置的相依性、簡化當地語系化，以及讓應用程式共用圖示點陣圖。</span><span class="sxs-lookup"><span data-stu-id="479fa-119">This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps.</span></span> <span data-ttu-id="479fa-120">但是，下列範例會使用 [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) ，在執行時間根據點陣圖位元遮罩建立自訂圖示;其中包含說明系統如何解讀圖示點陣圖位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="479fa-120">However, the following example uses [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.</span></span>
+<span data-ttu-id="78d1f-118">應用程式應該將自訂圖示實作為資源，而且應該使用 [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) 或 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) 函式，而不是在執行時間建立圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-118">An application should implement custom icons as resources and should use the [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function, rather than create the icons at run-time.</span></span> <span data-ttu-id="78d1f-119">這種方法可避免裝置的相依性、簡化當地語系化，以及讓應用程式共用圖示點陣圖。</span><span class="sxs-lookup"><span data-stu-id="78d1f-119">This approach avoids device dependence, simplifies localization, and enables applications to share icon bitmaps.</span></span> <span data-ttu-id="78d1f-120">但是，下列範例會使用 [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) ，在執行時間根據點陣圖位元遮罩建立自訂圖示;其中包含說明系統如何解讀圖示點陣圖位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="78d1f-120">However, the following example uses [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) to create a custom icon at run-time, based on bitmap bitmasks; it is included to illustrate how the system interprets icon bitmap bitmasks.</span></span>
 
 
 ```
@@ -152,26 +152,26 @@ hIcon3 = CreateIcon(hinst,    // application instance
 
 
 
-<span data-ttu-id="479fa-121">若要建立此圖示， [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) 會將下列事實資料表套用至 AND 和 XOR 位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="479fa-121">To create the icon, [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) applies the following truth table to the AND and XOR bitmasks.</span></span>
+<span data-ttu-id="78d1f-121">若要建立此圖示， [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) 會將下列事實資料表套用至 AND 和 XOR 位元遮罩。</span><span class="sxs-lookup"><span data-stu-id="78d1f-121">To create the icon, [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) applies the following truth table to the AND and XOR bitmasks.</span></span>
 
 
 
-| <span data-ttu-id="479fa-122">和位元遮罩</span><span class="sxs-lookup"><span data-stu-id="479fa-122">AND bitmask</span></span> | <span data-ttu-id="479fa-123">XOR 位元遮罩</span><span class="sxs-lookup"><span data-stu-id="479fa-123">XOR bitmask</span></span> | <span data-ttu-id="479fa-124">顯示</span><span class="sxs-lookup"><span data-stu-id="479fa-124">Display</span></span>        |
+| <span data-ttu-id="78d1f-122">和位元遮罩</span><span class="sxs-lookup"><span data-stu-id="78d1f-122">AND bitmask</span></span> | <span data-ttu-id="78d1f-123">XOR 位元遮罩</span><span class="sxs-lookup"><span data-stu-id="78d1f-123">XOR bitmask</span></span> | <span data-ttu-id="78d1f-124">顯示</span><span class="sxs-lookup"><span data-stu-id="78d1f-124">Display</span></span>        |
 |-------------|-------------|----------------|
-| <span data-ttu-id="479fa-125">0</span><span class="sxs-lookup"><span data-stu-id="479fa-125">0</span></span>           | <span data-ttu-id="479fa-126">0</span><span class="sxs-lookup"><span data-stu-id="479fa-126">0</span></span>           | <span data-ttu-id="479fa-127">黑色</span><span class="sxs-lookup"><span data-stu-id="479fa-127">Black</span></span>          |
-| <span data-ttu-id="479fa-128">0</span><span class="sxs-lookup"><span data-stu-id="479fa-128">0</span></span>           | <span data-ttu-id="479fa-129">1</span><span class="sxs-lookup"><span data-stu-id="479fa-129">1</span></span>           | <span data-ttu-id="479fa-130">白色</span><span class="sxs-lookup"><span data-stu-id="479fa-130">White</span></span>          |
-| <span data-ttu-id="479fa-131">1</span><span class="sxs-lookup"><span data-stu-id="479fa-131">1</span></span>           | <span data-ttu-id="479fa-132">0</span><span class="sxs-lookup"><span data-stu-id="479fa-132">0</span></span>           | <span data-ttu-id="479fa-133">畫面</span><span class="sxs-lookup"><span data-stu-id="479fa-133">Screen</span></span>         |
-| <span data-ttu-id="479fa-134">1</span><span class="sxs-lookup"><span data-stu-id="479fa-134">1</span></span>           | <span data-ttu-id="479fa-135">1</span><span class="sxs-lookup"><span data-stu-id="479fa-135">1</span></span>           | <span data-ttu-id="479fa-136">反向畫面</span><span class="sxs-lookup"><span data-stu-id="479fa-136">Reverse screen</span></span> |
+| <span data-ttu-id="78d1f-125">0</span><span class="sxs-lookup"><span data-stu-id="78d1f-125">0</span></span>           | <span data-ttu-id="78d1f-126">0</span><span class="sxs-lookup"><span data-stu-id="78d1f-126">0</span></span>           | <span data-ttu-id="78d1f-127">黑色</span><span class="sxs-lookup"><span data-stu-id="78d1f-127">Black</span></span>          |
+| <span data-ttu-id="78d1f-128">0</span><span class="sxs-lookup"><span data-stu-id="78d1f-128">0</span></span>           | <span data-ttu-id="78d1f-129">1</span><span class="sxs-lookup"><span data-stu-id="78d1f-129">1</span></span>           | <span data-ttu-id="78d1f-130">白色</span><span class="sxs-lookup"><span data-stu-id="78d1f-130">White</span></span>          |
+| <span data-ttu-id="78d1f-131">1</span><span class="sxs-lookup"><span data-stu-id="78d1f-131">1</span></span>           | <span data-ttu-id="78d1f-132">0</span><span class="sxs-lookup"><span data-stu-id="78d1f-132">0</span></span>           | <span data-ttu-id="78d1f-133">畫面</span><span class="sxs-lookup"><span data-stu-id="78d1f-133">Screen</span></span>         |
+| <span data-ttu-id="78d1f-134">1</span><span class="sxs-lookup"><span data-stu-id="78d1f-134">1</span></span>           | <span data-ttu-id="78d1f-135">1</span><span class="sxs-lookup"><span data-stu-id="78d1f-135">1</span></span>           | <span data-ttu-id="78d1f-136">反向畫面</span><span class="sxs-lookup"><span data-stu-id="78d1f-136">Reverse screen</span></span> |
 
 
 
  
 
-<span data-ttu-id="479fa-137">在關閉之前，您的應用程式必須使用 [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) 來終結使用 [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect)所建立的任何圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-137">Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect).</span></span> <span data-ttu-id="479fa-138">不需要終結其他函式所建立的圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-138">It is not necessary to destroy icons created by other functions.</span></span>
+<span data-ttu-id="78d1f-137">在關閉之前，您的應用程式必須使用 [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) 來終結使用 [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect)所建立的任何圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-137">Before closing, your application must use [**DestroyIcon**](/windows/desktop/api/Winuser/nf-winuser-destroyicon) to destroy any icon it created by using [**CreateIconIndirect**](/windows/desktop/api/Winuser/nf-winuser-createiconindirect).</span></span> <span data-ttu-id="78d1f-138">不需要終結其他函式所建立的圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-138">It is not necessary to destroy icons created by other functions.</span></span>
 
-## <a name="displaying-an-icon"></a><span data-ttu-id="479fa-139">顯示圖示</span><span class="sxs-lookup"><span data-stu-id="479fa-139">Displaying an Icon</span></span>
+## <a name="displaying-an-icon"></a><span data-ttu-id="78d1f-139">顯示圖示</span><span class="sxs-lookup"><span data-stu-id="78d1f-139">Displaying an Icon</span></span>
 
-<span data-ttu-id="479fa-140">您的應用程式可以載入並建立圖示，以顯示在應用程式的工作區或子視窗中。</span><span class="sxs-lookup"><span data-stu-id="479fa-140">Your application can load and create icons to display in the application's client area or child windows.</span></span> <span data-ttu-id="479fa-141">下列範例示範如何在視窗的工作區中繪製圖示，其裝置內容 (DC) 由 *hdc* 參數識別。</span><span class="sxs-lookup"><span data-stu-id="479fa-141">The following example demonstrates how to draw an icon in the client area of the window whose device context (DC) is identified by the *hdc* parameter.</span></span>
+<span data-ttu-id="78d1f-140">您的應用程式可以載入並建立圖示，以顯示在應用程式的工作區或子視窗中。</span><span class="sxs-lookup"><span data-stu-id="78d1f-140">Your application can load and create icons to display in the application's client area or child windows.</span></span> <span data-ttu-id="78d1f-141">下列範例示範如何在視窗的工作區中繪製圖示，其裝置內容 (DC) 由 *hdc* 參數識別。</span><span class="sxs-lookup"><span data-stu-id="78d1f-141">The following example demonstrates how to draw an icon in the client area of the window whose device context (DC) is identified by the *hdc* parameter.</span></span>
 
 
 ```
@@ -183,7 +183,7 @@ DrawIcon(hdc, 10, 20, hIcon1);
 
 
 
-<span data-ttu-id="479fa-142">系統會自動顯示視窗的類別圖示 (s) 。</span><span class="sxs-lookup"><span data-stu-id="479fa-142">The system automatically displays the class icon(s) for a window.</span></span> <span data-ttu-id="479fa-143">您的應用程式可以在註冊視窗類別時指派類別圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-143">Your application can assign class icons while registering a window class.</span></span> <span data-ttu-id="479fa-144">您的應用程式可以使用 [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) 函數來取代類別圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-144">Your application can replace a class icon by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function.</span></span> <span data-ttu-id="479fa-145">此函式會變更指定類別之所有視窗的預設視窗設定。</span><span class="sxs-lookup"><span data-stu-id="479fa-145">This function changes the default window settings for all windows of a given class.</span></span> <span data-ttu-id="479fa-146">下列範例會將類別圖示取代為其資源識別碼為480的圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-146">The following example replaces a class icon with the icon whose resource identifier is 480.</span></span>
+<span data-ttu-id="78d1f-142">系統會自動顯示視窗的類別圖示 (s) 。</span><span class="sxs-lookup"><span data-stu-id="78d1f-142">The system automatically displays the class icon(s) for a window.</span></span> <span data-ttu-id="78d1f-143">您的應用程式可以在註冊視窗類別時指派類別圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-143">Your application can assign class icons while registering a window class.</span></span> <span data-ttu-id="78d1f-144">您的應用程式可以使用 [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) 函數來取代類別圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-144">Your application can replace a class icon by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function.</span></span> <span data-ttu-id="78d1f-145">此函式會變更指定類別之所有視窗的預設視窗設定。</span><span class="sxs-lookup"><span data-stu-id="78d1f-145">This function changes the default window settings for all windows of a given class.</span></span> <span data-ttu-id="78d1f-146">下列範例會將類別圖示取代為其資源識別碼為480的圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-146">The following example replaces a class icon with the icon whose resource identifier is 480.</span></span>
 
 
 ```
@@ -192,21 +192,21 @@ HWND hwnd;                  // main window handle
  
 // Change the icon for hwnd's window class. 
  
-SetClassLong(hwnd,          // window handle 
-    GCL_HICON,              // changes icon 
-    (LONG) LoadIcon(hinst, MAKEINTRESOURCE(480))
+SetClassLongPtr(hwnd,          // window handle 
+    GCLP_HICON,              // changes icon 
+    (LONG_PTR) LoadIcon(hinst, MAKEINTRESOURCE(480))
    ); 
 ```
 
 
 
-<span data-ttu-id="479fa-147">如需視窗類別的詳細資訊，請參閱 [視窗類別](/windows/desktop/winmsg/window-classes)。</span><span class="sxs-lookup"><span data-stu-id="479fa-147">For more information about window classes, see [Window Classes](/windows/desktop/winmsg/window-classes).</span></span>
+<span data-ttu-id="78d1f-147">如需視窗類別的詳細資訊，請參閱 [視窗類別](/windows/desktop/winmsg/window-classes)。</span><span class="sxs-lookup"><span data-stu-id="78d1f-147">For more information about window classes, see [Window Classes](/windows/desktop/winmsg/window-classes).</span></span>
 
-## <a name="sharing-icon-resources"></a><span data-ttu-id="479fa-148">共用圖示資源</span><span class="sxs-lookup"><span data-stu-id="479fa-148">Sharing Icon Resources</span></span>
+## <a name="sharing-icon-resources"></a><span data-ttu-id="78d1f-148">共用圖示資源</span><span class="sxs-lookup"><span data-stu-id="78d1f-148">Sharing Icon Resources</span></span>
 
-<span data-ttu-id="479fa-149">下列程式碼會使用 [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex)、 [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon)和 [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex)等函式，以及數個資源函式，根據另一個可執行檔中的圖示資料建立圖示控制碼。</span><span class="sxs-lookup"><span data-stu-id="479fa-149">The following code uses the functions [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), and [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex), and several of the resource functions, to create an icon handle based on icon data from another executable file.</span></span> <span data-ttu-id="479fa-150">然後，它會在視窗中顯示圖示。</span><span class="sxs-lookup"><span data-stu-id="479fa-150">Then, it displays the icon in a window.</span></span>
+<span data-ttu-id="78d1f-149">下列程式碼會使用 [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex)、 [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon)和 [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex)等函式，以及數個資源函式，根據另一個可執行檔中的圖示資料建立圖示控制碼。</span><span class="sxs-lookup"><span data-stu-id="78d1f-149">The following code uses the functions [**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex), [**DrawIcon**](/windows/desktop/api/Winuser/nf-winuser-drawicon), and [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex), and several of the resource functions, to create an icon handle based on icon data from another executable file.</span></span> <span data-ttu-id="78d1f-150">然後，它會在視窗中顯示圖示。</span><span class="sxs-lookup"><span data-stu-id="78d1f-150">Then, it displays the icon in a window.</span></span>
 
-<span data-ttu-id="479fa-151">**安全性警告：** 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。</span><span class="sxs-lookup"><span data-stu-id="479fa-151">**Security Warning:** Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL.</span></span> <span data-ttu-id="479fa-152">請參閱 **LoadLibrary** 檔，以取得如何使用不同版本的 Windows 正確載入 dll 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="479fa-152">Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.</span></span>
+<span data-ttu-id="78d1f-151">**安全性警告：** 不當使用 [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) 可能會載入錯誤的 DLL，進而危及應用程式的安全性。</span><span class="sxs-lookup"><span data-stu-id="78d1f-151">**Security Warning:** Using [**LoadLibrary**](/windows/desktop/api/libloaderapi/nf-libloaderapi-loadlibrarya) incorrectly can compromise the security of your application by loading the wrong DLL.</span></span> <span data-ttu-id="78d1f-152">請參閱 **LoadLibrary** 檔，以取得如何使用不同版本的 Windows 正確載入 dll 的相關資訊。</span><span class="sxs-lookup"><span data-stu-id="78d1f-152">Refer to the **LoadLibrary** documentation for information on how to correctly load DLLs with different versions of Windows.</span></span>
 
 
 ```

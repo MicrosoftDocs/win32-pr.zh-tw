@@ -18,26 +18,26 @@ keywords:
 - 資料指標，將
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6529578b6dfe3c1997f6aadd32ef22ded8e3c90b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a6cf681fd17f3e79e4559e9936be232ae09f8453
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463064"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327123"
 ---
-# <a name="using-cursors"></a><span data-ttu-id="4827b-116">使用資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-116">Using Cursors</span></span>
+# <a name="using-cursors"></a><span data-ttu-id="311d9-116">使用資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-116">Using Cursors</span></span>
 
-<span data-ttu-id="4827b-117">本節將討論下列主題。</span><span class="sxs-lookup"><span data-stu-id="4827b-117">This section discusses the following topics.</span></span>
+<span data-ttu-id="311d9-117">本節將討論下列主題。</span><span class="sxs-lookup"><span data-stu-id="311d9-117">This section discusses the following topics.</span></span>
 
--   [<span data-ttu-id="4827b-118">建立資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-118">Creating a Cursor</span></span>](#creating-a-cursor)
--   [<span data-ttu-id="4827b-119">顯示資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-119">Displaying a Cursor</span></span>](#displaying-a-cursor)
--   [<span data-ttu-id="4827b-120">將資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-120">Confining a Cursor</span></span>](#confining-a-cursor)
--   [<span data-ttu-id="4827b-121">使用資料指標函數建立 Mousetrap</span><span class="sxs-lookup"><span data-stu-id="4827b-121">Using Cursor Functions to Create a Mousetrap</span></span>](#using-cursor-functions-to-create-a-mousetrap)
--   [<span data-ttu-id="4827b-122">使用鍵盤移動游標</span><span class="sxs-lookup"><span data-stu-id="4827b-122">Using the Keyboard to Move the Cursor</span></span>](#using-the-keyboard-to-move-the-cursor)
+-   [<span data-ttu-id="311d9-118">建立資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-118">Creating a Cursor</span></span>](#creating-a-cursor)
+-   [<span data-ttu-id="311d9-119">顯示資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-119">Displaying a Cursor</span></span>](#displaying-a-cursor)
+-   [<span data-ttu-id="311d9-120">將資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-120">Confining a Cursor</span></span>](#confining-a-cursor)
+-   [<span data-ttu-id="311d9-121">使用資料指標函數建立 Mousetrap</span><span class="sxs-lookup"><span data-stu-id="311d9-121">Using Cursor Functions to Create a Mousetrap</span></span>](#using-cursor-functions-to-create-a-mousetrap)
+-   [<span data-ttu-id="311d9-122">使用鍵盤移動游標</span><span class="sxs-lookup"><span data-stu-id="311d9-122">Using the Keyboard to Move the Cursor</span></span>](#using-the-keyboard-to-move-the-cursor)
 
-## <a name="creating-a-cursor"></a><span data-ttu-id="4827b-123">建立資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-123">Creating a Cursor</span></span>
+## <a name="creating-a-cursor"></a><span data-ttu-id="311d9-123">建立資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-123">Creating a Cursor</span></span>
 
-<span data-ttu-id="4827b-124">下列範例會建立兩個數據指標控制碼：一個適用于標準沙漏游標，另一個用於自訂資料指標，其中包含做為應用程式資源定義檔中的資源。</span><span class="sxs-lookup"><span data-stu-id="4827b-124">The following example creates two cursor handles: one for the standard hourglass cursor and one for a custom cursor included as a resource in the application's resource-definition file.</span></span>
+<span data-ttu-id="311d9-124">下列範例會建立兩個數據指標控制碼：一個適用于標準沙漏游標，另一個用於自訂資料指標，其中包含做為應用程式資源定義檔中的資源。</span><span class="sxs-lookup"><span data-stu-id="311d9-124">The following example creates two cursor handles: one for the standard hourglass cursor and one for a custom cursor included as a resource in the application's resource-definition file.</span></span>
 
 
 ```
@@ -55,9 +55,9 @@ hCurs2 = LoadCursor(hinst, MAKEINTRESOURCE(240));
 
 
 
-<span data-ttu-id="4827b-125">您應該將自訂資料指標作為資源來執行。</span><span class="sxs-lookup"><span data-stu-id="4827b-125">You should implement custom cursors as resources.</span></span> <span data-ttu-id="4827b-126">您可以使用 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)、 [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)或 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) 函數來避免裝置的相依性，以簡化當地語系化，並讓應用程式共用資料指標設計，而不是在執行時間建立資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-126">Rather than create the cursors at run time, use the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function to avoid device dependence, to simplify localization, and to enable applications to share cursor designs.</span></span>
+<span data-ttu-id="311d9-125">您應該將自訂資料指標作為資源來執行。</span><span class="sxs-lookup"><span data-stu-id="311d9-125">You should implement custom cursors as resources.</span></span> <span data-ttu-id="311d9-126">您可以使用 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)、 [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)或 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) 函數來避免裝置的相依性，以簡化當地語系化，並讓應用程式共用資料指標設計，而不是在執行時間建立資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-126">Rather than create the cursors at run time, use the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea), or [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) function to avoid device dependence, to simplify localization, and to enable applications to share cursor designs.</span></span>
 
-<span data-ttu-id="4827b-127">下列範例會在執行時間使用 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 函式來建立自訂資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-127">The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time.</span></span> <span data-ttu-id="4827b-128">此範例包含在此範例中，以說明系統解釋資料指標遮罩的方式。</span><span class="sxs-lookup"><span data-stu-id="4827b-128">The example is included here to illustrate how the system interprets cursor masks.</span></span>
+<span data-ttu-id="311d9-127">下列範例會在執行時間使用 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 函式來建立自訂資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-127">The following example uses the [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) function to create a custom cursor at run time.</span></span> <span data-ttu-id="311d9-128">此範例包含在此範例中，以說明系統解釋資料指標遮罩的方式。</span><span class="sxs-lookup"><span data-stu-id="311d9-128">The example is included here to illustrate how the system interprets cursor masks.</span></span>
 
 
 ```
@@ -169,28 +169,28 @@ hCurs3 = CreateCursor( hinst,   // app. instance
 
 
 
-<span data-ttu-id="4827b-129">若要建立資料指標， [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 會將下列事實資料表套用至 **and** 和 **XOR** 遮罩。</span><span class="sxs-lookup"><span data-stu-id="4827b-129">To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) applies the following truth table to the **AND** and **XOR** masks.</span></span>
+<span data-ttu-id="311d9-129">若要建立資料指標， [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 會將下列事實資料表套用至 **and** 和 **XOR** 遮罩。</span><span class="sxs-lookup"><span data-stu-id="311d9-129">To create the cursor, [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) applies the following truth table to the **AND** and **XOR** masks.</span></span>
 
 
 
-| <span data-ttu-id="4827b-130">和 mask</span><span class="sxs-lookup"><span data-stu-id="4827b-130">AND mask</span></span> | <span data-ttu-id="4827b-131">XOR 遮罩</span><span class="sxs-lookup"><span data-stu-id="4827b-131">XOR mask</span></span> | <span data-ttu-id="4827b-132">顯示</span><span class="sxs-lookup"><span data-stu-id="4827b-132">Display</span></span>        |
+| <span data-ttu-id="311d9-130">和 mask</span><span class="sxs-lookup"><span data-stu-id="311d9-130">AND mask</span></span> | <span data-ttu-id="311d9-131">XOR 遮罩</span><span class="sxs-lookup"><span data-stu-id="311d9-131">XOR mask</span></span> | <span data-ttu-id="311d9-132">顯示</span><span class="sxs-lookup"><span data-stu-id="311d9-132">Display</span></span>        |
 |----------|----------|----------------|
-| <span data-ttu-id="4827b-133">0</span><span class="sxs-lookup"><span data-stu-id="4827b-133">0</span></span>        | <span data-ttu-id="4827b-134">0</span><span class="sxs-lookup"><span data-stu-id="4827b-134">0</span></span>        | <span data-ttu-id="4827b-135">黑色</span><span class="sxs-lookup"><span data-stu-id="4827b-135">Black</span></span>          |
-| <span data-ttu-id="4827b-136">0</span><span class="sxs-lookup"><span data-stu-id="4827b-136">0</span></span>        | <span data-ttu-id="4827b-137">1</span><span class="sxs-lookup"><span data-stu-id="4827b-137">1</span></span>        | <span data-ttu-id="4827b-138">白色</span><span class="sxs-lookup"><span data-stu-id="4827b-138">White</span></span>          |
-| <span data-ttu-id="4827b-139">1</span><span class="sxs-lookup"><span data-stu-id="4827b-139">1</span></span>        | <span data-ttu-id="4827b-140">0</span><span class="sxs-lookup"><span data-stu-id="4827b-140">0</span></span>        | <span data-ttu-id="4827b-141">畫面</span><span class="sxs-lookup"><span data-stu-id="4827b-141">Screen</span></span>         |
-| <span data-ttu-id="4827b-142">1</span><span class="sxs-lookup"><span data-stu-id="4827b-142">1</span></span>        | <span data-ttu-id="4827b-143">1</span><span class="sxs-lookup"><span data-stu-id="4827b-143">1</span></span>        | <span data-ttu-id="4827b-144">反向畫面</span><span class="sxs-lookup"><span data-stu-id="4827b-144">Reverse screen</span></span> |
+| <span data-ttu-id="311d9-133">0</span><span class="sxs-lookup"><span data-stu-id="311d9-133">0</span></span>        | <span data-ttu-id="311d9-134">0</span><span class="sxs-lookup"><span data-stu-id="311d9-134">0</span></span>        | <span data-ttu-id="311d9-135">黑色</span><span class="sxs-lookup"><span data-stu-id="311d9-135">Black</span></span>          |
+| <span data-ttu-id="311d9-136">0</span><span class="sxs-lookup"><span data-stu-id="311d9-136">0</span></span>        | <span data-ttu-id="311d9-137">1</span><span class="sxs-lookup"><span data-stu-id="311d9-137">1</span></span>        | <span data-ttu-id="311d9-138">白色</span><span class="sxs-lookup"><span data-stu-id="311d9-138">White</span></span>          |
+| <span data-ttu-id="311d9-139">1</span><span class="sxs-lookup"><span data-stu-id="311d9-139">1</span></span>        | <span data-ttu-id="311d9-140">0</span><span class="sxs-lookup"><span data-stu-id="311d9-140">0</span></span>        | <span data-ttu-id="311d9-141">畫面</span><span class="sxs-lookup"><span data-stu-id="311d9-141">Screen</span></span>         |
+| <span data-ttu-id="311d9-142">1</span><span class="sxs-lookup"><span data-stu-id="311d9-142">1</span></span>        | <span data-ttu-id="311d9-143">1</span><span class="sxs-lookup"><span data-stu-id="311d9-143">1</span></span>        | <span data-ttu-id="311d9-144">反向畫面</span><span class="sxs-lookup"><span data-stu-id="311d9-144">Reverse screen</span></span> |
 
 
 
- 
+ 
 
-<span data-ttu-id="4827b-145">如需詳細資訊，請參閱 [點陣圖](/windows/desktop/gdi/bitmaps)。</span><span class="sxs-lookup"><span data-stu-id="4827b-145">For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).</span></span>
+<span data-ttu-id="311d9-145">如需詳細資訊，請參閱 [點陣圖](/windows/desktop/gdi/bitmaps)。</span><span class="sxs-lookup"><span data-stu-id="311d9-145">For more information, see [Bitmaps](/windows/desktop/gdi/bitmaps).</span></span>
 
-<span data-ttu-id="4827b-146">在關閉之前，您必須使用 [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) 函式來終結您使用 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor)所建立的任何資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-146">Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor).</span></span> <span data-ttu-id="4827b-147">不需要終結其他函數所建立的資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-147">It is not necessary to destroy cursors created by other functions.</span></span>
+<span data-ttu-id="311d9-146">在關閉之前，您必須使用 [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) 函式來終結您使用 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor)所建立的任何資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-146">Before closing, you must use the [**DestroyCursor**](/windows/desktop/api/Winuser/nf-winuser-destroycursor) function to destroy any cursors you created with [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor).</span></span> <span data-ttu-id="311d9-147">不需要終結其他函數所建立的資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-147">It is not necessary to destroy cursors created by other functions.</span></span>
 
-## <a name="displaying-a-cursor"></a><span data-ttu-id="4827b-148">顯示資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-148">Displaying a Cursor</span></span>
+## <a name="displaying-a-cursor"></a><span data-ttu-id="311d9-148">顯示資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-148">Displaying a Cursor</span></span>
 
-<span data-ttu-id="4827b-149">系統會自動顯示類別游標 (與資料指標指向的視窗相關聯的資料指標) 。</span><span class="sxs-lookup"><span data-stu-id="4827b-149">The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing).</span></span> <span data-ttu-id="4827b-150">您可以在註冊視窗類別時指派類別資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-150">You can assign a class cursor while registering a window class.</span></span> <span data-ttu-id="4827b-151">下列範例將說明這種情況，方法是將資料指標控制碼指派給 *wc* 參數所識別之 [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa)結構的 **hCursor** 成員。</span><span class="sxs-lookup"><span data-stu-id="4827b-151">The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.</span></span>
+<span data-ttu-id="311d9-149">系統會自動顯示類別游標 (與資料指標指向的視窗相關聯的資料指標) 。</span><span class="sxs-lookup"><span data-stu-id="311d9-149">The system automatically displays the class cursor (the cursor associated with the window to which the cursor is pointing).</span></span> <span data-ttu-id="311d9-150">您可以在註冊視窗類別時指派類別資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-150">You can assign a class cursor while registering a window class.</span></span> <span data-ttu-id="311d9-151">下列範例將說明這種情況，方法是將資料指標控制碼指派給 *wc* 參數所識別之 [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa)結構的 **hCursor** 成員。</span><span class="sxs-lookup"><span data-stu-id="311d9-151">The following example illustrates this by assigning a cursor handle to the **hCursor** member of the [**WNDCLASS**](/windows/win32/api/winuser/ns-winuser-wndclassa) structure identified by the *wc* parameter.</span></span>
 
 
 ```
@@ -217,11 +217,11 @@ return RegisterClass(&wc);
 
 
 
-<span data-ttu-id="4827b-152">註冊視窗類別之後，在應用程式的資源定義檔中，230所識別的資料指標就是所有以類別為基礎之視窗的預設資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-152">When the window class is registered, the cursor identified by 230 in the application's resource-definition file is the default cursor for all windows based on the class.</span></span>
+<span data-ttu-id="311d9-152">註冊視窗類別之後，在應用程式的資源定義檔中，230所識別的資料指標就是所有以類別為基礎之視窗的預設資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-152">When the window class is registered, the cursor identified by 230 in the application's resource-definition file is the default cursor for all windows based on the class.</span></span>
 
-<span data-ttu-id="4827b-153">您的應用程式可以使用 [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) 函數並指定不同的資料指標控制碼，來變更資料指標的設計。</span><span class="sxs-lookup"><span data-stu-id="4827b-153">Your application can change the design of the cursor by using the [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) function and specifying a different cursor handle.</span></span> <span data-ttu-id="4827b-154">不過，當游標移動時，系統會在新位置重新繪製類別游標。</span><span class="sxs-lookup"><span data-stu-id="4827b-154">However, when the cursor moves, the system redraws the class cursor at the new location.</span></span> <span data-ttu-id="4827b-155">若要避免重新繪製類別資料指標，您必須處理 [**WM \_ SETCURSOR**](wm-setcursor.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="4827b-155">To prevent the class cursor from being redrawn, you must process the [**WM\_SETCURSOR**](wm-setcursor.md) message.</span></span> <span data-ttu-id="4827b-156">每次資料指標移動和滑鼠輸入都未被捕捉時，系統就會將此訊息傳送至游標移動所在的視窗。</span><span class="sxs-lookup"><span data-stu-id="4827b-156">Each time the cursor moves and mouse input is not captured, the system sends this message to the window in which the cursor is moving.</span></span>
+<span data-ttu-id="311d9-153">您的應用程式可以使用 [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) 函數並指定不同的資料指標控制碼，來變更資料指標的設計。</span><span class="sxs-lookup"><span data-stu-id="311d9-153">Your application can change the design of the cursor by using the [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) function and specifying a different cursor handle.</span></span> <span data-ttu-id="311d9-154">不過，當游標移動時，系統會在新位置重新繪製類別游標。</span><span class="sxs-lookup"><span data-stu-id="311d9-154">However, when the cursor moves, the system redraws the class cursor at the new location.</span></span> <span data-ttu-id="311d9-155">若要避免重新繪製類別資料指標，您必須處理 [**WM \_ SETCURSOR**](wm-setcursor.md) 訊息。</span><span class="sxs-lookup"><span data-stu-id="311d9-155">To prevent the class cursor from being redrawn, you must process the [**WM\_SETCURSOR**](wm-setcursor.md) message.</span></span> <span data-ttu-id="311d9-156">每次資料指標移動和滑鼠輸入都未被捕捉時，系統就會將此訊息傳送至游標移動所在的視窗。</span><span class="sxs-lookup"><span data-stu-id="311d9-156">Each time the cursor moves and mouse input is not captured, the system sends this message to the window in which the cursor is moving.</span></span>
 
-<span data-ttu-id="4827b-157">處理 [**WM \_ SETCURSOR**](wm-setcursor.md)時，您可以為不同的條件指定不同的資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-157">You can specify different cursors for different conditions while processing [**WM\_SETCURSOR**](wm-setcursor.md).</span></span> <span data-ttu-id="4827b-158">例如，下列範例顯示如何在游標移至最小化應用程式的圖示上時，顯示游標。</span><span class="sxs-lookup"><span data-stu-id="4827b-158">For example, the following example shows how to display the cursor whenever the cursor moves over the icon of a minimized application.</span></span>
+<span data-ttu-id="311d9-157">處理 [**WM \_ SETCURSOR**](wm-setcursor.md)時，您可以為不同的條件指定不同的資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-157">You can specify different cursors for different conditions while processing [**WM\_SETCURSOR**](wm-setcursor.md).</span></span> <span data-ttu-id="311d9-158">例如，下列範例顯示如何在游標移至最小化應用程式的圖示上時，顯示游標。</span><span class="sxs-lookup"><span data-stu-id="311d9-158">For example, the following example shows how to display the cursor whenever the cursor moves over the icon of a minimized application.</span></span>
 
 
 ```
@@ -240,26 +240,26 @@ case WM_SETCURSOR:
 
 
 
-<span data-ttu-id="4827b-159">當視窗未最小化時，系統會顯示類別游標。</span><span class="sxs-lookup"><span data-stu-id="4827b-159">When the window is not minimized, the system displays the class cursor.</span></span>
+<span data-ttu-id="311d9-159">當視窗未最小化時，系統會顯示類別游標。</span><span class="sxs-lookup"><span data-stu-id="311d9-159">When the window is not minimized, the system displays the class cursor.</span></span>
 
-<span data-ttu-id="4827b-160">您可以使用 [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) 函數來取代類別資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-160">You can replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function.</span></span> <span data-ttu-id="4827b-161">此函式會變更指定類別之所有視窗的預設視窗設定。</span><span class="sxs-lookup"><span data-stu-id="4827b-161">This function changes the default window settings for all windows of a specified class.</span></span> <span data-ttu-id="4827b-162">下列範例會以資料指標取代現有的類別資料指標 `hCurs2` 。</span><span class="sxs-lookup"><span data-stu-id="4827b-162">The following example replaces the existing class cursor with the `hCurs2` cursor.</span></span>
+<span data-ttu-id="311d9-160">您可以使用 [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) 函數來取代類別資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-160">You can replace a class cursor by using the [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) function.</span></span> <span data-ttu-id="311d9-161">此函式會變更指定類別之所有視窗的預設視窗設定。</span><span class="sxs-lookup"><span data-stu-id="311d9-161">This function changes the default window settings for all windows of a specified class.</span></span> <span data-ttu-id="311d9-162">下列範例會以資料指標取代現有的類別資料指標 `hCurs2` 。</span><span class="sxs-lookup"><span data-stu-id="311d9-162">The following example replaces the existing class cursor with the `hCurs2` cursor.</span></span>
 
 
 ```
 // Change the cursor for window class represented by hwnd. 
  
-SetClassLong(hwnd,    // window handle 
-    GCL_HCURSOR,      // change cursor 
-    (LONG) hCurs2);   // new cursor 
+SetClassLongPtr(hwnd,    // window handle 
+    GCLP_HCURSOR,        // change cursor 
+    (LONG_PTR) hCurs2);  // new cursor 
 ```
 
 
 
-<span data-ttu-id="4827b-163">如需詳細資訊，請參閱 [視窗類別](/windows/desktop/winmsg/window-classes) 和 [滑鼠輸入](/windows/desktop/inputdev/mouse-input)。</span><span class="sxs-lookup"><span data-stu-id="4827b-163">For more information, see [Window Classes](/windows/desktop/winmsg/window-classes) and [Mouse Input](/windows/desktop/inputdev/mouse-input).</span></span>
+<span data-ttu-id="311d9-163">如需詳細資訊，請參閱 [視窗類別](/windows/desktop/winmsg/window-classes) 和 [滑鼠輸入](/windows/desktop/inputdev/mouse-input)。</span><span class="sxs-lookup"><span data-stu-id="311d9-163">For more information, see [Window Classes](/windows/desktop/winmsg/window-classes) and [Mouse Input](/windows/desktop/inputdev/mouse-input).</span></span>
 
-## <a name="confining-a-cursor"></a><span data-ttu-id="4827b-164">將資料指標</span><span class="sxs-lookup"><span data-stu-id="4827b-164">Confining a Cursor</span></span>
+## <a name="confining-a-cursor"></a><span data-ttu-id="311d9-164">將資料指標</span><span class="sxs-lookup"><span data-stu-id="311d9-164">Confining a Cursor</span></span>
 
-<span data-ttu-id="4827b-165">下列範例會將資料指標設為應用程式的視窗，然後將游標還原到先前的視窗。</span><span class="sxs-lookup"><span data-stu-id="4827b-165">The following example confines the cursor to the application's window and then restores the cursor to its previous window.</span></span> <span data-ttu-id="4827b-166">此範例會使用 [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) 函數來記錄資料指標可以移動的區域，以及 [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) 函數來限制和還原資料指標。</span><span class="sxs-lookup"><span data-stu-id="4827b-166">The example uses the [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) function to record the area in which the cursor can move and the [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) function to confine and restore the cursor.</span></span>
+<span data-ttu-id="311d9-165">下列範例會將資料指標設為應用程式的視窗，然後將游標還原到先前的視窗。</span><span class="sxs-lookup"><span data-stu-id="311d9-165">The following example confines the cursor to the application's window and then restores the cursor to its previous window.</span></span> <span data-ttu-id="311d9-166">此範例會使用 [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) 函數來記錄資料指標可以移動的區域，以及 [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) 函數來限制和還原資料指標。</span><span class="sxs-lookup"><span data-stu-id="311d9-166">The example uses the [**GetClipCursor**](/windows/desktop/api/Winuser/nf-winuser-getclipcursor) function to record the area in which the cursor can move and the [**ClipCursor**](/windows/desktop/api/Winuser/nf-winuser-clipcursor) function to confine and restore the cursor.</span></span>
 
 
 ```
@@ -289,13 +289,13 @@ ClipCursor(&rcOldClip);
 
 
 
-<span data-ttu-id="4827b-167">因為系統中有一次只能有一個資料指標，所以必須先將資料指標的應用程式還原到另一個視窗，才能將放棄控制項移至另一個視窗。</span><span class="sxs-lookup"><span data-stu-id="4827b-167">Because there is only one cursor at a time available in the system, an application that confines the cursor must restore the cursor before relinquishing control to another window.</span></span>
+<span data-ttu-id="311d9-167">因為系統中有一次只能有一個資料指標，所以必須先將資料指標的應用程式還原到另一個視窗，才能將放棄控制項移至另一個視窗。</span><span class="sxs-lookup"><span data-stu-id="311d9-167">Because there is only one cursor at a time available in the system, an application that confines the cursor must restore the cursor before relinquishing control to another window.</span></span>
 
-## <a name="using-cursor-functions-to-create-a-mousetrap"></a><span data-ttu-id="4827b-168">使用資料指標函數建立 Mousetrap</span><span class="sxs-lookup"><span data-stu-id="4827b-168">Using Cursor Functions to Create a Mousetrap</span></span>
+## <a name="using-cursor-functions-to-create-a-mousetrap"></a><span data-ttu-id="311d9-168">使用資料指標函數建立 Mousetrap</span><span class="sxs-lookup"><span data-stu-id="311d9-168">Using Cursor Functions to Create a Mousetrap</span></span>
 
-<span data-ttu-id="4827b-169">下列範例會使用 [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos)、 [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos)、 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor)、 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)和 [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) 函數來建立簡單的 mousetrap。</span><span class="sxs-lookup"><span data-stu-id="4827b-169">The following example uses the [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos), [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos), [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor), [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), and [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) functions to create a simple mousetrap.</span></span> <span data-ttu-id="4827b-170">它也會使用 cursor 和 timer 函式，每10秒監視資料指標的位置。</span><span class="sxs-lookup"><span data-stu-id="4827b-170">It also uses cursor and timer functions to monitor the cursor's position every 10 seconds.</span></span> <span data-ttu-id="4827b-171">如果過去10秒內的資料指標位置未變更，而且應用程式的主視窗最小化，則應用程式會變更資料指標，並將其移至 mousetrap 圖示。</span><span class="sxs-lookup"><span data-stu-id="4827b-171">If the cursor position has not changed in the last 10 seconds and the application's main window is minimized, the application changes the cursor and moves it to the mousetrap icon.</span></span>
+<span data-ttu-id="311d9-169">下列範例會使用 [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos)、 [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos)、 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor)、 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)和 [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) 函數來建立簡單的 mousetrap。</span><span class="sxs-lookup"><span data-stu-id="311d9-169">The following example uses the [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos), [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos), [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor), [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora), and [**SetCursor**](/windows/desktop/api/Winuser/nf-winuser-setcursor) functions to create a simple mousetrap.</span></span> <span data-ttu-id="311d9-170">它也會使用 cursor 和 timer 函式，每10秒監視資料指標的位置。</span><span class="sxs-lookup"><span data-stu-id="311d9-170">It also uses cursor and timer functions to monitor the cursor's position every 10 seconds.</span></span> <span data-ttu-id="311d9-171">如果過去10秒內的資料指標位置未變更，而且應用程式的主視窗最小化，則應用程式會變更資料指標，並將其移至 mousetrap 圖示。</span><span class="sxs-lookup"><span data-stu-id="311d9-171">If the cursor position has not changed in the last 10 seconds and the application's main window is minimized, the application changes the cursor and moves it to the mousetrap icon.</span></span>
 
-<span data-ttu-id="4827b-172">[圖示](icons.md)中包含類似 mousetrap 的範例。</span><span class="sxs-lookup"><span data-stu-id="4827b-172">An example for a similar mousetrap is included in [Icons](icons.md).</span></span> <span data-ttu-id="4827b-173">它會使用 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) 和 [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) 函式，而不是與裝置相關的 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 和 [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) 函式。</span><span class="sxs-lookup"><span data-stu-id="4827b-173">It uses the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions instead of the more device-dependent [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) and [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) functions.</span></span>
+<span data-ttu-id="311d9-172">[圖示](icons.md)中包含類似 mousetrap 的範例。</span><span class="sxs-lookup"><span data-stu-id="311d9-172">An example for a similar mousetrap is included in [Icons](icons.md).</span></span> <span data-ttu-id="311d9-173">它會使用 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) 和 [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) 函式，而不是與裝置相關的 [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) 和 [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) 函式。</span><span class="sxs-lookup"><span data-stu-id="311d9-173">It uses the [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora) and [**LoadIcon**](/windows/desktop/api/Winuser/nf-winuser-loadicona) functions instead of the more device-dependent [**CreateCursor**](/windows/desktop/api/Winuser/nf-winuser-createcursor) and [**CreateIcon**](/windows/desktop/api/Winuser/nf-winuser-createicon) functions.</span></span>
 
 
 ```
@@ -500,9 +500,9 @@ LONG APIENTRY MainWndProc(
 
 
 
-## <a name="using-the-keyboard-to-move-the-cursor"></a><span data-ttu-id="4827b-174">使用鍵盤移動游標</span><span class="sxs-lookup"><span data-stu-id="4827b-174">Using the Keyboard to Move the Cursor</span></span>
+## <a name="using-the-keyboard-to-move-the-cursor"></a><span data-ttu-id="311d9-174">使用鍵盤移動游標</span><span class="sxs-lookup"><span data-stu-id="311d9-174">Using the Keyboard to Move the Cursor</span></span>
 
-<span data-ttu-id="4827b-175">由於系統不需要滑鼠，因此應用程式應該能夠使用鍵盤模擬滑鼠動作。</span><span class="sxs-lookup"><span data-stu-id="4827b-175">Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard.</span></span> <span data-ttu-id="4827b-176">下列範例示範如何使用 [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) 和 [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) 函式，以及從方向鍵處理輸入來達成此目的。</span><span class="sxs-lookup"><span data-stu-id="4827b-176">The following example shows how to achieve this by using the [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) functions and by processing input from the arrow keys.</span></span>
+<span data-ttu-id="311d9-175">由於系統不需要滑鼠，因此應用程式應該能夠使用鍵盤模擬滑鼠動作。</span><span class="sxs-lookup"><span data-stu-id="311d9-175">Because the system does not require a mouse, an application should be able to simulate mouse actions with the keyboard.</span></span> <span data-ttu-id="311d9-176">下列範例示範如何使用 [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) 和 [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) 函式，以及從方向鍵處理輸入來達成此目的。</span><span class="sxs-lookup"><span data-stu-id="311d9-176">The following example shows how to achieve this by using the [**GetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-getcursorpos) and [**SetCursorPos**](/windows/desktop/api/Winuser/nf-winuser-setcursorpos) functions and by processing input from the arrow keys.</span></span>
 
 
 ```
@@ -602,6 +602,6 @@ switch (message)
 
 
 
- 
+ 
 
- 
+ 
