@@ -4,12 +4,12 @@ ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Access-Token 物件的存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb6a62a8c1518dca30f2abbc4481fa5e11cf081
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 469081d2caa4e5ff7c9b7c55b4c09c31cff1acac
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319036"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327193"
 ---
 # <a name="access-rights-for-access-token-objects"></a>Access-Token 物件的存取權限
 
@@ -33,7 +33,7 @@ ms.locfileid: "104319036"
     | 權杖 \_ 調整 \_ SESSIONID  | 需要調整存取權杖的會話識別碼。 需要「SE \_ TCB \_ 名稱」許可權。                                                                                                                                                                                    |
     | 權杖 \_ 指派 \_ 主要    | 需要將 [*主要權杖*](/windows/desktop/SecGloss/p-gly) 附加至 [*進程*](/windows/desktop/SecGloss/p-gly)。 \_ \_ 若要完成這項工作，也需要 SE ASSIGNPRIMARYTOKEN 名稱許可權。 |
     | 標記 \_ 重複          | 需要複製存取權杖。                                                                                                                                                                                                                                            |
-    | 權杖 \_ 執行            | 結合標準 \_ 許可權 \_ 執行和權杖模擬 \_ 。                                                                                                                                                                                                                        |
+    | 權杖 \_ 執行            | 等同于標準 \_ 許可權 \_ 執行。                                                                                                                                                                                                                                                |
     | 標記 \_ 模擬        | 需要將模擬存取權杖附加至進程。                                                                                                                                                                                                                    |
     | TOKEN \_ 查詢              | 查詢存取權杖的必要參數。                                                                                                                                                                                                                                                |
     | TOKEN \_ 查詢 \_ 來源      | 查詢存取權杖的來源所需。                                                                                                                                                                                                                                  |

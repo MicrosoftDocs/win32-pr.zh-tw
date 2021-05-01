@@ -5,12 +5,12 @@ title: TLS/SSL (Schannel SSP) 的通訊協定
 ms.topic: article
 ms.date: 01/20/2021
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: 844d75230119b747f77697f67ddecec5f64ce7cf
-ms.sourcegitcommit: 07b756a2f350efa5cfd5024a723ef392274ac3d9
+ms.openlocfilehash: 4717a128602d2ae52f90e6e201c6f6ff6aeb1de2
+ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "103945586"
+ms.lasthandoff: 05/01/2021
+ms.locfileid: "108332413"
 ---
 # <a name="protocols-in-tlsssl-schannel-ssp"></a>TLS/SSL (Schannel SSP) 的通訊協定
 
@@ -35,7 +35,7 @@ ms.locfileid: "103945586"
 | Windows 10 (版本 1703)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
 | Windows 10 (版本 1709)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
 | Windows 10 (版本 1803)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
-| Windows 10 版本 1809                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
+| Windows 10 版本 1809//Windows Server 2019                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
 | Windows 10 (版本 1903)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |
 | Windows 10 (版本 1909)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  | 
 | Windows 10 (版本 2004)                              | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 啟用        | 不支援  | 不支援  |

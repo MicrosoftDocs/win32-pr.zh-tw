@@ -1,19 +1,19 @@
 ---
-description: Authenticode 時間戳記是以標準 PKCS \# 9 副署為基礎。 Microsoft 簽署的工具可讓開發人員在貼上 Authenticode 簽章時，同時貼上時間戳記。
+description: Authenticode 時間戳記是以標準 PKCS \# 7 副署為基礎。 Microsoft 簽署的工具可讓開發人員在貼上 Authenticode 簽章時，同時貼上時間戳記。
 ms.assetid: d0bd3e2f-1eee-4f71-9467-974994f720d5
 title: 時間戳記 Authenticode 簽章
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3631d402da56d4078cecce65075c92dff0ec7e1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0232853441d2c11d331c175ac7e8dfd120b341ff
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192942"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327183"
 ---
 # <a name="time-stamping-authenticode-signatures"></a>時間戳記 Authenticode 簽章
 
-Microsoft Authenticode 簽章提供二進位資料的作品和完整性保證。 Authenticode 時間戳記是以標準 PKCS \# 9 副署為基礎。 Microsoft 簽署的工具可讓開發人員在貼上 Authenticode 簽章時，同時貼上時間戳記。 時間戳記允許驗證 Authenticode 簽章，即使在用於簽章的憑證過期之後也是如此。
+Microsoft Authenticode 簽章提供二進位資料的作品和完整性保證。 Authenticode 時間戳記是以標準 PKCS \# 7 副署為基礎。 Microsoft 簽署的工具可讓開發人員在貼上 Authenticode 簽章時，同時貼上時間戳記。 時間戳記允許驗證 Authenticode 簽章，即使在用於簽章的憑證過期之後也是如此。
 
 ## <a name="a-brief-introduction-to-authenticode"></a>Authenticode 的簡介
 

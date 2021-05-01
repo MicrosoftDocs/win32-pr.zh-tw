@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1679f9740539507a57c4cba93319569add0af3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a67f23a145838aa3562c81e78fb82c3ea66320df
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465357"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327133"
 ---
 # <a name="ttm_enumtools-message"></a>TTM \_ ENUMTOOLS 訊息
 
@@ -47,7 +47,7 @@ ms.locfileid: "104465357"
 
 ## <a name="return-value"></a>傳回值
 
-如果列舉任何工具，則傳回 **TRUE** ，否則傳回 **FALSE** 。
+無論是否列舉工具，都會傳回 **FALSE** 。
 
 ## <a name="remarks"></a>備註
 

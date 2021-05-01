@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f70c56a5f13fffa8dfedebd13f9830c62ef941cf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7f99d85c7dddb95bdfb168443d6f977c22273a87
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509498"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327173"
 ---
 # <a name="cb_findstringexact-message"></a>CB \_ FINDSTRINGEXACT 訊息
 
@@ -32,7 +32,7 @@ ms.locfileid: "104509498"
 *wParam* 
 </dt> <dd>
 
-在要搜尋的第一個專案之前，專案以零為起始的索引。 當搜尋到達清單方塊的底部時，它會從清單方塊的頂端繼續移回 *wParam* 參數所指定的專案。 如果 *wParam* 是1，就會從一開始就搜尋整個清單方塊。
+在要搜尋的第一個專案之前，專案以零為起始的索引。 當搜尋到達清單方塊的底部時，它會從清單方塊的頂端繼續移回 *wParam* 參數所指定的專案。 如果 *wParam* 為-1，就會從一開始就搜尋整個清單方塊。
 
 </dd> <dt>
 

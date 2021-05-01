@@ -4,12 +4,12 @@ description: 測量開機
 ms.assetid: D7ED02FA-6D0F-4753-AC07-BD7DCE55B3FD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ccbba6e5f96fd91c00c295c4b15cab8849f11dc
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: 7d728a1980bc9a461e6383b1dea2bd7eb4aab461
+ms.sourcegitcommit: f14de4414da072d5a761e946aedfde24d8b65102
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "103683217"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108314339"
 ---
 # <a name="measured-boot"></a>測量開機
 
@@ -36,9 +36,9 @@ ms.locfileid: "103683217"
 
 正在準備白皮書，以詳細說明必須針對各種測量開機案例進行的 Api 和函式呼叫。
 
- 
+ 
 
- 
+ 
 
 
 

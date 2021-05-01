@@ -4,12 +4,12 @@ ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
 title: 'WM_INPUTLANGCHANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0cdf04a775873e4cefe2c79269c14bd3d4da8d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7e2ceb943290fceab13bf6f22c3d9dafbac27a8
+ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112845"
+ms.lasthandoff: 05/01/2021
+ms.locfileid: "108332403"
 ---
 # <a name="wm_inputlangchange-message"></a>WM \_ INPUTLANGCHANGE 訊息
 
@@ -17,28 +17,31 @@ ms.locfileid: "104112845"
 
 視窗會透過其 [**WindowProc**](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)) 函數接收此訊息。
 
-
 ```C++
 #define WM_INPUTLANGCHANGE              0x0051
 ```
-
-
 
 ## <a name="parameters"></a>參數
 
 <dl> <dt>
 
-*wParam* 
-</dt> <dd>
+*wParam*
 
-新地區設定的字元集。
+</dt> <dd>
+  
+類型： **WPARAM**
+
+新地區設定的 [字碼頁](../Intl/code-pages.md) 。
 
 </dd> <dt>
 
-*lParam* 
-</dt> <dd>
+*lParam*
 
-輸入地區設定識別碼。 如需詳細資訊，請參閱 [語言、地區設定和鍵盤配置](../inputdev/about-keyboard-input.md)。
+</dt> <dd>
+ 
+類型： **LPARAM**
+
+**HKL** 輸入地區設定識別碼。 如需詳細資訊，請參閱 [語言、地區設定和鍵盤配置](../inputdev/about-keyboard-input.md)。
 
 </dd> </dl>
 
@@ -48,9 +51,23 @@ ms.locfileid: "104112845"
 
 如果應用程式處理此訊息，則應該傳回非零值。
 
+## <a name="remarks"></a>備註
+
+您可以透過[LCIDToLocaleName](/windows/win32/api/winnls/nf-winnls-lcidtolocalename)函式來取得鍵盤[地區設定名稱](../Intl/locale-names.md)。 您可以使用地區設定名稱來使用 [新式地區設定函數](/windows/win32/intl/calling-the--locale-name--functions)：
+
+```cpp
+case WM_INPUTLANGCHANGE:
+{
+    HKL hkl = (HKL)lParam;
+    WCHAR localeName[LOCALE_NAME_MAX_LENGTH];
+    LCIDToLocaleName(MAKELCID(LOWORD(hkl), SORT_DEFAULT), localeName, LOCALE_NAME_MAX_LENGTH, 0);
+
+    WCHAR lang[9];
+    GetLocaleInfoEx(localeName, LOCALE_SISO639LANGNAME2, lang, 9);
+}
+```
+
 ## <a name="requirements"></a>規格需求
-
-
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -58,27 +75,13 @@ ms.locfileid: "104112845"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
 
-
-
 ## <a name="see-also"></a>另請參閱
 
-<dl> <dt>
-
 **參考**
-</dt> <dt>
 
-[**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
-</dt> <dt>
-
-[**WM \_ INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)
-</dt> <dt>
+- [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)
+- [**WM \_ INPUTLANGCHANGEREQUEST**](wm-inputlangchangerequest.md)
 
 **概念**
-</dt> <dt>
 
-[Windows](windows.md)
-</dt> </dl>
-
- 
-
- 
+- [Windows](windows.md) 

@@ -5,12 +5,12 @@ title: " (Winnt. h) 的許可權常數"
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 801eccb2f42ccf27b45bc5628a32cee3de994bfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cd33cf947f6425d717b4d41524fe7cf0fed14cef
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984399"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327153"
 ---
 # <a name="privilege-constants-authorization"></a>許可權常數 (授權) 
 
@@ -153,7 +153,7 @@ BOOL EnablePrivilege()
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="SE_RESTORE_NAME"></span><span id="se_restore_name"></span><dl> <dt><strong>SE_RESTORE_NAME</strong></dt> <dt>文字 (&quot; SeRestorePrivilege &quot;) </dt> </dl></td>
-<td style="text-align: left;">執行還原作業所需。 無論為檔案指定的 ACL 為何，此許可權都會讓系統將所有寫入存取控制授與任何檔案。 寫入以外的任何存取要求仍會以 ACL 進行評估。 此外，此許可權可讓您將任何有效的使用者或群組 SID 設定為檔案的擁有者。 <a href="/windows/desktop/api/winreg/nf-winreg-regsavekeya"><strong>RegLoadKey</strong></a>函式需要此許可權。 如果保留此許可權，則會授與下列存取權限：<br/>
+<td style="text-align: left;">執行還原作業所需。 無論為檔案指定的 ACL 為何，此許可權都會讓系統將所有寫入存取控制授與任何檔案。 寫入以外的任何存取要求仍會以 ACL 進行評估。 此外，此許可權可讓您將任何有效的使用者或群組 SID 設定為檔案的擁有者。 <a href="/windows/desktop/api/winreg/nf-winreg-regloadkeya"><strong>RegLoadKey</strong></a>函式需要此許可權。 如果保留此許可權，則會授與下列存取權限：<br/>
 <ul>
 <li>WRITE_DAC</li>
 <li>WRITE_OWNER</li>

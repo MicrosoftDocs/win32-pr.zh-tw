@@ -4,17 +4,17 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 980ba379688f2dc61c44b06d66ed5255e5b2e988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 461c15db364066d9edadb6a0c4d2c24dceab5cc9
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991753"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327142"
 ---
 # <a name="makecert"></a>MakeCert
 
 > [!Note]  
-> MakeCert 已被取代。 若要建立自我簽署憑證，請使用 Powershell Cmdlet [New-new-selfsignedcertificate](/powershell/module/pkiclient/new-selfsignedcertificate)。
+> MakeCert 已被取代。 若要建立自我簽署憑證，請使用 Powershell Cmdlet [New-new-selfsignedcertificate](/powershell/module/pki/new-selfsignedcertificate)。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: 12a6fe6d-5b37-4fcf-bd04-0a22d84ba323
 title: 安裝和註冊密碼篩選 DLL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7cd911c1a527384e48a2ae4567f6d85862e184cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cb2e9f93630dc6bdaa5dbcc7e665a6b1cebff0e
+ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849454"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108327163"
 ---
 # <a name="installing-and-registering-a-password-filter-dll"></a>安裝和註冊密碼篩選 DLL
 
@@ -30,11 +30,11 @@ ms.locfileid: "103849454"
                 Lsa
     ```
 
-    如果 **通知封裝** 子機碼存在，請將您的 DLL 名稱新增至現有的值資料。 請勿覆寫現有的值，而且不包含 .dll 副檔名。
+    如果 *REG_MULTI_SZ* 類型的 **通知封裝** 值存在，請將您的 DLL 名稱新增至現有的值資料。 請勿覆寫現有的值，而且不包含 .dll 副檔名。
 
-    如果 **通知封裝** 子機碼不存在，請新增它，然後為值資料指定 DLL 的名稱。 請勿包含 .dll 副檔名。
+    如果 **通知封裝** 值不存在，請加以建立，為它指定 *REG_MULTI_SZ* 類型，然後為值資料指定 DLL 的名稱。 請勿包含 .dll 副檔名。
 
-    **通知套件** 子機碼可以加入多個套件。
+    **通知封裝** 值可以新增多個套件。
 
 3.  尋找 [密碼複雜性] 設定。
 

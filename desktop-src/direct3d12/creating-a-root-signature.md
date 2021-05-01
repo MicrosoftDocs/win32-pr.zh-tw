@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9660f35c349342d147a61a6b4ce9c02a4a1abab
-ms.sourcegitcommit: 65af948af39d1a31885a1b688f5dbfe955d7eba1
+ms.openlocfilehash: 3705f4e1a0a88841560d67d5904e0f1b5dabd3f8
+ms.sourcegitcommit: a0cb986d5694b69d4a65b7d42a22694d02a6e83a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "104548370"
+ms.lasthandoff: 04/30/2021
+ms.locfileid: "108296333"
 ---
 # <a name="creating-a-root-signature"></a>建立根簽章
 
@@ -85,17 +85,15 @@ typedef enum D3D12_DESCRIPTOR_RANGE_TYPE
 
 著色器可見度的其中一種用法是協助使用重迭的命名空間，針對每個著色器階段所撰寫的著色器提供不同的系結。 例如，頂點著色器可能會宣告：
 
- 
-
-Texture2D foo： register (t0) ; "
-
- 
+```hlsl
+Texture2D foo : register(t0);
+```
 
 此外，圖元著色器也可以宣告：
 
- 
-
-Texture2D bar： register (t0) ;
+```hlsl
+Texture2D bar : register(t0);
+```
 
 如果應用程式將根簽章系結至 t0 可見度 \_ ，則這兩種著色器會看到相同的材質。 如果著色器定義真的希望每個著色器都能看到不同的材質，則可以使用可見度 \_ 頂點和圖元來定義2個根簽章位置 \_ 。 無論根簽章位置上的可見度為何，它一律會具有相同的成本 (成本，而這取決於將 SlotType) 至一個固定的根簽章大小上限。
 
