@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a43569edd400b824876dff991f95e79cbfd6a96
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 309050be35748f39eefc8b40b8e590f8f6889fde
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373507"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644190"
 ---
 # <a name="add-sslcert"></a>add sslcert
 
@@ -45,28 +45,28 @@ add sslcert [ipport=]IP Address:port
 
 <dl> <dt>
 
-<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = \] * * * IP 位址：埠*
+<span id="_ipport__IP_Address_port"></span><span id="_ipport__ip_address_port"></span><span id="_IPPORT__IP_ADDRESS_PORT"></span>**\[ipport = IP 位址：埠\]**
 </dt> <dd>
 
 指定繫結的 IP 位址和連接埠。
 
 </dd> <dt>
 
-<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = \] * * * 字串*
+<span id="_certhash__string"></span><span id="_CERTHASH__STRING"></span>**\[certhash = 字串\]**
 </dt> <dd>
 
 指定憑證的 SHA 雜湊。 此雜湊的長度為20個位元組，並指定為十六進位字串。
 
 </dd> <dt>
 
-<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[appid = \] * * * GUID*
+<span id="_appid__GUID"></span><span id="_appid__guid"></span><span id="_APPID__GUID"></span>**\[appid = GUID\]**
 </dt> <dd>
 
 指定用來識別主控應用程式的 GUID。
 
 </dd> <dt>
 
-<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename = \] * * * 字串*
+<span id="_certstorename__string"></span><span id="_CERTSTORENAME__STRING"></span>**\[certstorename = 字串\]**
 </dt> <dd>
 
 指定憑證的存放區名稱。 預設為 MY。 憑證必須儲存在本機電腦內容中。
@@ -94,28 +94,28 @@ add sslcert [ipport=]IP Address:port
 
 </dd> <dt>
 
-<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[revocationfreshnesstime = \] * * * u-int*
+<span id="_revocationfreshnesstime__u-int"></span><span id="_REVOCATIONFRESHNESSTIME__U-INT"></span>**\[revocationfreshnesstime = u-int\]**
 </dt> <dd>
 
 指定檢查是否有更新憑證撤銷清單 (CRL) 的時間間隔。 如果這個值為0，則只有在前一個 CRL 過期 (（以秒為單位）時，才會更新新的 CRL) 。
 
 </dd> <dt>
 
-<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[urlretrievaltimeout = \] * * * u-int*
+<span id="_urlretrievaltimeout__u-int"></span><span id="_URLRETRIEVALTIMEOUT__U-INT"></span>**\[urlretrievaltimeout = u-int\]**
 </dt> <dd>
 
 指定嘗試取得遠端 URL 的憑證撤銷清單時的逾時間隔， (毫秒) 。
 
 </dd> <dt>
 
-<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[sslctlidentifier = \] * * * 字串*
+<span id="_sslctlidentifier__string"></span><span id="_SSLCTLIDENTIFIER__STRING"></span>**\[sslctlidentifier = 字串\]**
 </dt> <dd>
 
 列出可以信任的憑證簽發者。 此清單可以是電腦信任之憑證簽發者的子集。
 
 </dd> <dt>
 
-<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[sslctlstorename = \] * * * 字串*
+<span id="_sslctlstorename__string"></span><span id="_SSLCTLSTORENAME__STRING"></span>**\[sslctlstorename = 字串\]**
 </dt> <dd>
 
 指定儲存 SslCtlIdentifier 的本機電腦下的存放區名稱 \_ 。
@@ -144,9 +144,9 @@ add sslcert [ipport=]IP Address:port
 
 **appid = {00112233-4455-6677-8899-AABBCCDDEEFF}**
 
- 
+ 
 
- 
+ 
 
 
 

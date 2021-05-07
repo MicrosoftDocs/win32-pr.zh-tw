@@ -4,21 +4,19 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: 建立快捷方式功能表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e8b7091483726c322a8ae18bace883af126d404
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 4bd2611c492d517e9312ec2a4e1c95d7f1aa0fea
+ms.sourcegitcommit: 05b3d7f137ef9bbddf4049215cb11d55b935997e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "103853192"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108800969"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>建立快捷方式功能表處理常式
 
-快速鍵功能表處理常式（也稱為內容功能表處理常式或動詞處理常式）是檔案類型處理常式的類型。 就像所有這類處理常式一樣，它們都是同進程元件物件模型， (COM) 物件實作為 Dll。
+快速鍵功能表處理常式（也稱為內容功能表處理常式或動詞處理常式）是檔案類型處理常式的類型。 這些處理常式的 impelmented 方式可能會讓它們在自己的進程或在瀏覽器中載入，或其他協力廠商進程中載入。 建立同進程處理常式時請小心，因為它們可能會對載入這些處理常式的進程造成損害。
 
 > [!Note]  
-> 註冊在32位應用程式內容中運作的處理常式時，會有64位 Windows 的特殊考慮：當 Shell 動詞命令在32位應用程式的內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決這個問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
-
- 
+> 註冊在32位應用程式內容中運作的處理常式時，會有64位版本之 Windows 的特殊考慮：當在不同位的應用程式內容中叫用時，WOW64 子系統會將檔案系統存取重新導向至某些路徑。 如果您的 .exe 處理常式儲存在其中一個路徑中，就無法在此內容中存取。 因此，若要解決這個問題，請將 .exe 儲存在未重新導向的路徑中，或儲存啟動實際版本之 .exe 的存根版本。
 
 本主題的組織方式如下：
 
@@ -45,7 +43,6 @@ ms.locfileid: "103853192"
 應用程式通常負責為其定義的動詞提供當地語系化的顯示字串。 不過，為了提供某種程度的語言獨立性，系統會定義一組標準的常用動詞，稱為標準動詞。 標準動詞永遠不會向使用者顯示，而且可以搭配任何 UI 語言使用。 系統會使用標準名稱自動產生適當當地語系化的顯示字串。 例如，開啟動詞的顯示字串會設定為在英文系統上 **開啟** ，以及德文系統上的德文對等專案。
 
 
-
 | 標準動詞 | Description                                                          |
 |----------------|----------------------------------------------------------------------|
 | 開啟           | 開啟檔案或資料夾。                                            |
@@ -55,14 +52,8 @@ ms.locfileid: "103853192"
 | 探索        | 開啟 Windows 檔案總管，並選取資料夾。                     |
 | 屬性     | 開啟物件的屬性工作表。                                   |
 
-
-
- 
-
 > [!Note]  
 > **Printto** 動詞也是標準的，但永遠不會顯示。 它包含可讓使用者將檔案拖曳至印表機物件來列印該檔案。
-
- 
 
 快速鍵功能表處理常式可透過 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) 搭配 **Gc \_ VERBW** 或 **gc \_ VERBA** 來提供自己的標準動詞。 系統會使用標準動詞作為第二個參數， (*lpOperation*) 傳遞至 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea)，而是 [**CMINVOKECOMMANDINFO**](/windows/desktop/api/Shobjidl_core/ns-shobjidl_core-cminvokecommandinfo)。傳遞至 [**ICoNtextMenu：： InvokeCommand**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand)方法的 **lpVerb** 成員。
 

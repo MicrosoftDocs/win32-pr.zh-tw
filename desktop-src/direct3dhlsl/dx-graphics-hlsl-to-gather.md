@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16c568afc3cfdc0d26472d50599abdf3dbd08301
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: f333c204b77d6e0c64119e16f31e170fec1d0f6c
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104971836"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644100"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>收集 (DirectX HLSL 材質物件) 
 
@@ -84,7 +84,7 @@ ms.locfileid: "104971836"
 </tr>
 <tr class="even">
 <td><p><span id="Offset"></span><span id="offset"></span><span id="OFFSET"></span><em>抵消</em></p></td>
-<td><p>在選擇性的材質座標位移，可用於任何材質物件類型;位移會套用至取樣之前的位置。 材質位移必須是靜態的。 引數類型相依于材質物件類型。 如需詳細資訊，請參閱套用 <a href="dx-graphics-hlsl-to-sample.md">材質座標位移</a>。</p>
+<td><p>在選擇性的材質座標位移，可用於任何材質物件類型;位移會套用至取樣之前的位置。 引數類型相依于材質物件類型。 針對以著色器模型5.0 和更新版本為目標的著色器，每個位移值的6個最低有效位會視為帶正負號的值，並產生 [-32.. 31] 範圍。 針對先前的著色器模型著色器，位移必須是-8 到7之間的立即整數。</p>
 
 <table>
 <thead>

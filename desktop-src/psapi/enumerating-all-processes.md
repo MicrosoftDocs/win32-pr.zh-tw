@@ -4,19 +4,19 @@ description: 下列範例程式碼使用 EnumProcesses 函式來列舉系統中�
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e64e127014910974b881a7ae21e807be9ac19452
-ms.sourcegitcommit: d581811a577e00821667dad731710909979dc72d
+ms.openlocfilehash: bf03fd9ad06bfb15924f3f5ec92d8f8858fbff60
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "104514272"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644110"
 ---
 # <a name="enumerating-all-processes"></a>列舉所有進程
 
 下列範例程式碼會使用 [**EnumProcesses**](/windows/win32/api/Psapi/nf-psapi-enumprocesses) 函式來取得系統中每個處理常式物件的處理序識別碼。 接著會呼叫[EnumProcessModules](/windows/win32/api/psapi/nf-psapi-enumprocessmodules)來取得每個處理常式名稱，並加以列印。
 
 >[!NOTE]
-> 若為64位程式，請使用 [EnumProcessModulesEx](/windows/win32/api/psapi/nf-psapi-enumprocessmodulesex) 函數。
+> 若為64位進程，請使用 [EnumProcessModulesEx](/windows/win32/api/psapi/nf-psapi-enumprocessmodulesex) 函數。
 
 ```C++
 #include <windows.h>

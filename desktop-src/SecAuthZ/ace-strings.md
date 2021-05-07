@@ -4,12 +4,12 @@ ms.assetid: 82c99170-784b-4724-a25b-2f2e8a2e0225
 title: ACE 字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a35bde18a1ca3ac416faa42e3b693e26305beb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ed8f9aad8696bd3d3c251170f2ff79ea493ce57
+ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692771"
+ms.lasthandoff: 05/06/2021
+ms.locfileid: "108644180"
 ---
 # <a name="ace-strings"></a>ACE 字串
 
@@ -47,16 +47,15 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | "AL"            | SDDL \_ 警示                             | 系統 \_ 警示 \_ ACE \_ 類型                                                                                                                                           |
 | /OU            | SDDL \_ 物件 \_ AUDIT                     | SYSTEM \_ AUDIT \_ OBJECT \_ ACE \_ 類型                                                                                                                                   |
 | 歐            | SDDL \_ 物件 \_ 警示                     | 系統 \_ 警報 \_ 物件 \_ ACE \_ 類型                                                                                                                                   |
-| ML            | SDDL \_ 強制 \_ 標籤                  | 系統 \_ 強制 \_ 標籤 \_ ACE \_ 類型                                                                                                                                |
-| XA            | \_允許 SDDL 回呼 \_ 存取 \_         | 存取 \_ 允許 \_ \_ 的回呼 ACE \_ 類型 **windows Vista 和 windows Server 2003：** 無法使用。<br/>                                                           |
-| XD            | SDDL \_ 回呼 \_ \_ 拒絕存取          | \_拒絕存取 \_ 回呼 \_ ACE \_ 類型 **Windows Vista 和 Windows Server 2003：** 無法使用。<br/>                                                            |
+| ML            | SDDL \_ 強制 \_ 標籤                  | 系統 \_ 強制 \_ 標籤 \_ ACE \_ 類型 **Windows Server 2003：** 無法使用。                                                                                        |
+| XA            | \_允許 SDDL 回呼 \_ 存取 \_         | 存取 \_ 允許 \_ \_ 的回呼 ACE \_ 類型 **Windows Server 2008、windows Vista 和 windows server 2003：** 無法使用。                                                |
+| XD            | SDDL \_ 回呼 \_ \_ 拒絕存取          | \_拒絕存取 \_ 回呼 \_ ACE \_ 類型 **Windows Server 2008、Windows Vista 和 windows server 2003：** 無法使用。                                                 |
 | RA            | SDDL \_ 資源 \_ 屬性               | 系統 \_ 資源 \_ 屬性 \_ ACE \_ 類型 **： Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista 和 windows Server 2003：** 無法使用。<br/> |
 | SP-1            | SDDL \_ 範圍 \_ 原則 \_ 識別碼                | 系統 \_ 範圍 \_ 原則 \_ 識別碼 \_ ACE \_ 類型 **： Windows server 2008 R2、windows 7、windows Server 2008、windows Vista 和 windows Server 2003：** 無法使用。<br/>  |
 | XU            | SDDL \_ 回呼 \_ 審核                   | 系統 \_ AUDIT \_ 回呼 \_ ACE \_ 類型 **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista 和 windows Server 2003：** 無法使用。<br/>     |
 | ZA            | \_允許 SDDL 回呼 \_ 物件 \_ 存取 \_ | 存取 \_ 允許 \_ \_ 的回呼 ACE \_ 類型 **Windows server 2008 R2、windows 7、Windows server 2008、Windows Vista 和 windows Server 2003：** 無法使用。<br/>   |
-
-
-
+| TL            | SDDL \_ 進程 \_ 信任 \_ 標籤             | 系統 \_ 進程 \_ 信任 \_ 標籤 \_ ACE \_ 類型 **Windows Server 2012、Windows 8、windows server 2008 R2、windows 7、windows Server 2008、windows Vista 和 Windows server 2003：** 無法使用。 |
+| 奧蘭多            | SDDL \_ 存取 \_ 篩選                    | 系統 \_ 存取 \_ 篩選 \_ ACE \_ 類型 **Windows Server 2016、Windows 10 版1607、Windows 10 1511 版、Windows 10 版本1507、windows server 2012 R2、Windows 8.1、windows Server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008、windows Vista 和 windows server 2003：** 無法使用。 |
  
 
 > [!Note]  
@@ -82,9 +81,8 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 | 「識別碼」             | SDDL \_ 繼承          | 繼承的 \_ ACE                |
 | SA             | SDDL \_ 審核 \_ 成功     | 成功的 \_ 存取 \_ ACE \_ 旗標 |
 | FA             | SDDL \_ 審核 \_ 失敗     | \_存取 \_ ACE \_ 旗標失敗     |
-
-
-
+| TP             | SDDL \_ 信任 \_ 受保護的 \_ 篩選 | 信任 \_ PROTECTED \_ FILTER \_ ACE \_ 旗標 **Windows Server 2016、Windows 10 1607 版、Windows 10 1511 版、Windows 10 1507 版、windows server 2012 R2、Windows 8.1、windows Server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008、windows Vista 和 windows server 2003：** 無法使用。 |
+| CR             | SDDL \_ 重大           | 重大 \_ ACE \_ 旗標 **Windows Server 1803 版、Windows 10 版1803、Windows Server 1709 版、Windows 10 1709 版、Windows 10 版本1703、Windows Server 2016、Windows 10 版本1607、Windows 10 版本1511、Windows 10 版本1507、windows server 2012、Windows 8.1、windows server 2012、Windows 8、Windows server 2008 r2、Windows 7、windows Server 2008、Windows Vista 和 windows server 2003：** 無法使用。 |
  
 
 </dd> <dt>
@@ -152,9 +150,9 @@ ace_type;ace_flags;rights;object_guid;inherit_object_guid;account_sid;(resource_
 
 | 存取權限字串 | Sddl 中的常數 | 存取權限值 |
 |----------------------|--------------------|--------------------|
-| NR                 | SDDL \_ 沒有 \_ 讀取 \_ | 系統 \_ 強制 \_ 標籤 \_ 否 \_ 讀取 \_ |
-| NW                 | SDDL \_ 沒有 \_ 寫入 \_ | 系統 \_ 強制 \_ 標籤 \_ 沒有 \_ 寫入 \_ |
-| NX                 | SDDL \_ 沒有 \_ 執行 \_ | 系統 \_ 強制 \_ 標籤 \_ 不 \_ 執行 \_ |
+| NR                 | SDDL \_ 沒有 \_ 讀取 \_ | 系統 \_ 強制 \_ 卷 \_ 標 \_ 否 \_ 讀取 **windows Server 2008、windows Vista 和 windows server 2003：** 無法使用。 |
+| NW                 | SDDL \_ 沒有 \_ 寫入 \_ | 系統 \_ 強制 \_ 卷 \_ 標 \_ \_ ：無法撰寫 **windows Server 2008、windows Vista 和 windows server 2003：** 無法使用。 |
+| NX                 | SDDL \_ 沒有 \_ 執行 \_ | 系統 \_ 強制 \_ 卷 \_ 標 \_ \_ ：不執行 **windows Server 2008、windows Vista 和 windows server 2003：** 無法使用。 |
 </dd> <dt>
 
 <span id="object_guid"></span><span id="OBJECT_GUID"></span>**物件 \_ guid**
