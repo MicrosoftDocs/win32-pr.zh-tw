@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - WmiProv.dll
-ms.openlocfilehash: 64212c523459696ced37e42689f6a4be0edb056b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a88b80773ec60b161df51fc759cc932d5c53c931
+ms.sourcegitcommit: cfcac5a083b72fd7f2a5188166d470cc0e95d02d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193649"
+ms.lasthandoff: 05/08/2021
+ms.locfileid: "109626690"
 ---
 # <a name="wmimonitorconnectionparams-class"></a>WmiMonitorConnectionParams 類別
 
@@ -90,7 +90,7 @@ class WmiMonitorConnectionParams
 存取類型：唯讀
 </dt> </dl>
 
-影片輸出技術連線類型。 有效的值記載于 [D3DKMDT \_ VIDEO \_ 輸出 \_ 技術](https://msdn.microsoft.com/library/ms794498.aspx) 列舉中。
+影片輸出技術連線類型。 有效的值記載于 [D3DKMDT \_ VIDEO \_ 輸出 \_ 技術](/windows-hardware/drivers/ddi/d3dkmdt/ne-d3dkmdt-_d3dkmdt_video_output_technology) 列舉中。
 
 </dd> </dl>
 
