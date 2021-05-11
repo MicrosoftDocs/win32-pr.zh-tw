@@ -4,12 +4,12 @@ ms.assetid: ea67d798-81db-44ad-b0fb-24e0c3be7388
 title: 效能資料協助程式錯誤碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0417801b4f7a23e48a74201aa48193987a0edee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1e24a5bb82aafa3e4a29bd24c087826bb5ead5e
+ms.sourcegitcommit: 9db18b0737bda194728fe387f336c92361f1b418
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985653"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "109690375"
 ---
 # <a name="performance-data-helper-error-codes"></a>效能資料協助程式錯誤碼
 
@@ -24,7 +24,6 @@ void main(void)
 {
     HANDLE hPdhLibrary = NULL;
     LPWSTR pMessage = NULL;
-    DWORD_PTR pArgs[] = { (DWORD_PTR)L"<collectionname>" };
     DWORD dwErrorCode = PDH_PLA_ERROR_ALREADY_EXISTS;
 
     hPdhLibrary = LoadLibrary(L"pdh.dll");
@@ -34,8 +33,8 @@ void main(void)
         return;
     }
 
-    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE
-                       FORMAT_MESSAGE_ALLOCATE_BUFFER
+    if (!FormatMessage(FORMAT_MESSAGE_FROM_HMODULE |
+                       FORMAT_MESSAGE_ALLOCATE_BUFFER |
                        FORMAT_MESSAGE_IGNORE_INSERTS,
                        hPdhLibrary,
                        dwErrorCode,
