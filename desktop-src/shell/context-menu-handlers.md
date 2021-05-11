@@ -4,12 +4,12 @@ ms.assetid: cff79cdc-8a01-4575-9af7-2a485c6a8e46
 title: 建立快捷方式功能表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bd2611c492d517e9312ec2a4e1c95d7f1aa0fea
-ms.sourcegitcommit: 05b3d7f137ef9bbddf4049215cb11d55b935997e
+ms.openlocfilehash: e8e102833453566f42d058ff82061f34ebc65691
+ms.sourcegitcommit: 9655f82be96b11258276fdefff14423c30552fbb
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108800969"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109740569"
 ---
 # <a name="creating-shortcut-menu-handlers"></a>建立快捷方式功能表處理常式
 
@@ -22,6 +22,7 @@ ms.locfileid: "108800969"
 
 -   [標準動詞](#canonical-verbs)
 -   [擴充的動詞](#extended-verbs)
+-   [僅限程式設計存取動詞](#programmaticaccessonly-verbs)
 -   [使用靜態動詞自訂快捷方式功能表](#customizing-a-shortcut-menu-using-static-verbs)
     -   [使用 IDropTarget 介面啟用處理常式](#activating-your-handler-using-the-idroptarget-interface)
     -   [指定靜態動詞命令的位置和順序](#specifying-the-position-and-order-of-static-verbs)
@@ -43,7 +44,7 @@ ms.locfileid: "108800969"
 應用程式通常負責為其定義的動詞提供當地語系化的顯示字串。 不過，為了提供某種程度的語言獨立性，系統會定義一組標準的常用動詞，稱為標準動詞。 標準動詞永遠不會向使用者顯示，而且可以搭配任何 UI 語言使用。 系統會使用標準名稱自動產生適當當地語系化的顯示字串。 例如，開啟動詞的顯示字串會設定為在英文系統上 **開啟** ，以及德文系統上的德文對等專案。
 
 
-| 標準動詞 | Description                                                          |
+| 標準動詞 | 描述                                                          |
 |----------------|----------------------------------------------------------------------|
 | 開啟           | 開啟檔案或資料夾。                                            |
 | Opennew        | 在新視窗中開啟檔案或資料夾。                            |
@@ -60,6 +61,12 @@ ms.locfileid: "108800969"
 ## <a name="extended-verbs"></a>擴充的動詞
 
 當使用者以滑鼠右鍵按一下物件時，快捷方式功能表會顯示預設的動詞命令。 您可能想要在某些快捷方式功能表上新增和支援命令，而這些快捷方式功能表未顯示在每個快捷方式功能表上。 例如，您可能會有不常使用或適用于有經驗的使用者的命令。 基於這個理由，您也可以定義一或多個擴充動詞。 這些動詞命令類似于一般動詞，但會透過其註冊方式與一般動詞進行區別。 若要存取擴充的動詞，使用者必須在按下 SHIFT 鍵時，以滑鼠右鍵按一下物件。 當使用者這樣做時，除了預設動詞以外，還會顯示擴充的動詞。
+
+您可以使用登錄來定義一個或多個擴充動詞。 只有當使用者以滑鼠右鍵按一下物件，同步選取 SHIFT 鍵時，才會顯示相關聯的命令。 若要將動詞定義為擴充，請將 "extended" **REG \_ SZ** 值新增至動詞的子機碼。 此值不應該有任何與其相關聯的資料。
+
+## <a name="programmatic-access-only"></a>僅限程式設計存取
+
+這些動詞永遠不會顯示在內容功能表中。 您可以使用 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)來存取這些物件，並在 [SHELLEXECUTEINFO](/windows/win32/api/shellapi/ns-shellapi-shellexecuteinfoa)物件)  (指定 *pExecInfo* 參數的 **lpVerb** 欄位。 若要將動詞定義為僅限程式設計存取，請將 "ProgrammaticAccessOnly" **REG \_ SZ** 值新增至動詞的子機碼。 此值不應該有任何與其相關聯的資料。
 
 您可以使用登錄來定義一個或多個擴充動詞。 只有當使用者以滑鼠右鍵按一下物件，同步選取 SHIFT 鍵時，才會顯示相關聯的命令。 若要將動詞定義為擴充，請將 "extended" **REG \_ SZ** 值新增至動詞的子機碼。 此值不應該有任何與其相關聯的資料。
 
@@ -399,7 +406,7 @@ DDE 已被取代;請改用 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl
 
 
 
-| ShellNew 子機碼值 | Description                                                                                                                                                              |
+| ShellNew 子機碼值 | 描述                                                                                                                                                              |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 命令               | 執行應用程式。 這個 **REG \_ SZ** 值會指定要執行之應用程式的路徑。 例如，您可以將它設定為啟動 wizard。                  |
 | 資料                  | 建立包含指定資料的檔案。 這個 **REG \_ 二進位** 值會指定檔案的資料。 如果指定了 **NullFile** 或 **FileName** ，則會忽略 **資料**。 |
