@@ -4,12 +4,12 @@ description: 本文建議更準確、可靠的解決方案，以使用 Windows A
 ms.assetid: 1512324d-dffa-3681-be3f-f63a3b8f11db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c5c511f558b59e94945e63c44db225f34ac2583
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f7a6d9d65ccb79c7b496b4d02b1bed132bdc2d3f
+ms.sourcegitcommit: 998a611c97d5e20ac0c45e3bda768ae67d8c2cca
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965658"
+ms.lasthandoff: 05/11/2021
+ms.locfileid: "109725007"
 ---
 # <a name="game-timing-and-multicore-processors"></a>遊戲計時與多核心處理器
 
@@ -54,9 +54,9 @@ ms.locfileid: "106965658"
 
 如需客戶導向的資訊，請參閱下列來自 Microsoft 說明及支援的知識庫文章：
 
--   [使用者 QueryPerformanceCounter 函式的程式在 Windows Server 2003 和 WINDOWS XP 中的執行效能可能不佳](https://support.microsoft.com/kb/895980) (文章 895980) 
+-   [使用 QueryPerformanceCounter 函式的程式在 Windows Server 2003 和 WINDOWS XP 中的執行效能可能不佳](https://support.microsoft.com/kb/895980) (文章 895980) 
 -   在[使用雙核心處理器 (文章909944的 WINDOWS XP 電腦上，遊戲效能可能不佳](https://support.microsoft.com/kb/909944)) 
 
- 
+ 
 
- 
+ 
