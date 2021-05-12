@@ -4,19 +4,19 @@ ms.assetid: 649eb20d-07d3-4209-abff-45fc50f05631
 title: 管理預設應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de40d6c80aae4005fc015c08ef7bf2907289e795
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc146858d197b96229edda49ac2e7249db51bf4c
+ms.sourcegitcommit: 4d639170c06864e47ef66b2cfe6ca3d07cce0b02
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849179"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109812823"
 ---
 # <a name="managing-default-applications"></a>管理預設應用程式
 
 [ **設定程式存取和電腦預設值** ] (SPAD) 功能已新增至 windows XP 和更新版本的 windows，以管理每部電腦的預設值。 除了 SPAD 之外，Windows Vista 還引進了每個使用者預設應用程式的概念，以及主控台中的 **預設程式** 專案。
 
 > [!IMPORTANT]
-> 本主題不適用於 Windows 10。 預設檔案關聯在 Windows 10 中的運作方式有所變更。 如需詳細資訊，請參閱 [這篇文章](https://blogs.windows.com/bloggingwindows/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)中有關 **Windows 10 如何處理預設應用程式的變更** 一節。
+> 本主題不適用於 Windows 10。 預設檔案關聯在 Windows 10 中的運作方式有所變更。 如需詳細資訊，請參閱 [這篇文章](https://blogs.windows.com/windows-insider/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)中有關 **Windows 10 如何處理預設應用程式的變更** 一節。
 
  
 
