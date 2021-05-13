@@ -14,12 +14,12 @@ api_type:
 - UserDefined
 api_location: ''
 ms.assetid: 00f31d6b-2a96-4abd-9647-24a6e66aa22f
-ms.openlocfilehash: f95856f6508ad728a15b3df3d6f5eafa4f5bd2ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83020fbcd0d4cfcfbc643d1360e3671595de6f32
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943620"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840779"
 ---
 # <a name="mrucmpproc-callback-function"></a>MRUCMPPROC 回呼函式
 

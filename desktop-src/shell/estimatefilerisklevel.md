@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Winshfhc.dll
 ms.assetid: 33a5589a-201b-4d94-afbf-5965a39e2748
-ms.openlocfilehash: 96798e0bc64b39ae7f18d58b97fafafc9dc2508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2def6cb5bc2ed59a98e9e513aba1b5b578cd8681
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973616"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841429"
 ---
 # <a name="estimatefilerisklevel-function"></a>EstimateFileRiskLevel 函式
 
@@ -74,7 +74,7 @@ HRESULT EstimateFileRiskLevel(
 *pfrlEstimate* \[擴展\]
 </dt> <dd>
 
-類型： **檔 \_ 風險 \_ 層 \* 級* _
+類型：**檔案 \_ 風險 \_ 層 \* 級**
 
 當此函式成功傳回時，會包含下列其中一個值的指標，以指出預估的風險。
 
@@ -82,7 +82,7 @@ HRESULT EstimateFileRiskLevel(
 
 <span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>
 
-<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>_ *FRL \_ 沒有任何 \_ 意見** (0) 
+<span id="FRL_NO_OPINION"></span><span id="frl_no_opinion"></span>**FRL \_ (\_** 0) 的意見
 
 
 </dt> <dd>

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b30e776e-642c-4599-b83f-ef15bc0b23d2
-ms.openlocfilehash: a5c3cae52f0ad18c1f2ddf6cf91759d1c6daf6c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2ce6fa0a71bb2ab995e510f06b4403c78bebcc60
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973733"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842449"
 ---
 # <a name="shelluihelperaddfavorite-method"></a>ShellUIHelper. AddFavorite 方法
 
@@ -52,9 +52,9 @@ iRetVal = ShellUIHelper.AddFavorite(
 *vTitle* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **Variant \** _
+類型： **Variant \***
 
-_ *Variant** 值，指定專案的名稱。
+指定專案名稱的 **變數** 值。
 
 </dd> </dl>
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 2951c2fb-1682-4ec2-bb48-470a7c2d2b15
-ms.openlocfilehash: 8b0267949ed42fe8ddb07d92e9efd3bff9f57f67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51e708bb406a79e7cfdd29c7a4a23f414e93335d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191172"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843259"
 ---
 # <a name="didiskquotauserdisplayname-property"></a>DIDiskQuotaUser DisplayName 屬性
 

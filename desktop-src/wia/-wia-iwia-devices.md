@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: d03aa0b7e73d5dfbc6449816f3b64147e51db882
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4d98bfe1552156071efde0b46899ad058e75aec
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978809"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841310"
 ---
 # <a name="wiadevices-property"></a>Wia. Devices 屬性
 

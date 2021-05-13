@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 846297f2-b826-45de-8617-228790e87a63
-ms.openlocfilehash: 843f33ee79e70309a47f170bb1935f94f45c8f2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f7b1d700c73df56ce7aaef39e162517629f96f6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991674"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841549"
 ---
 # <a name="diskquotacontrol-object"></a>DiskQuotaControl 物件
 
@@ -73,7 +73,7 @@ ms.locfileid: "104991674"
 
 
 
-| 屬性                                                                                   | 存取類型           | Description                                                                                                                                                   |
+| 屬性                                                                                   | 存取類型           | 描述                                                                                                                                                   |
 |:-------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**DefaultQuotaLimit**](diskquotacontrol-defaultquotalimit.md)<br/>                 | 讀取/寫入<br/> | 設定或取得預設配額限制。<br/>                                                                                                              |
 | [**DefaultQuotaLimitText**](diskquotacontrol-defaultquotalimittext.md)<br/>         | 唯讀<br/>  | 取得做為文字字串的預設配額限制。<br/>                                                                                                     |

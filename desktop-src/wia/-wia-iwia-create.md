@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 6a388ba2b3ee0506b093221275e34104e3f91bbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d22d45e473cec1d5186c300f97cbdb4661237ab9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513428"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841329"
 ---
 # <a name="wiacreate-method"></a>Wia. 建立方法
 
@@ -43,7 +43,7 @@ retVal = Wia.Create(
 *裝置* \[在\]
 </dt> <dd>
 
-類型： **VARIANT \** _
+類型： **VARIANT \***
 
 指定要連接的 WIA 裝置。
 
@@ -51,7 +51,7 @@ retVal = Wia.Create(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *IWiaDispatchItem**
+類型： **IWiaDispatchItem**
 
 如果成功，這個方法會傳回代表 WIA 硬體裝置 (根專案) 的 [**專案**](-wia-item.md) 物件。
 

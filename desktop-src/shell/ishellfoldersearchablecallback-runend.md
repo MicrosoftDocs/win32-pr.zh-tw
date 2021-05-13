@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 91700764-6cdf-488d-adc0-e34d9b4cb71d
-ms.openlocfilehash: 73155e65f4b6edb4a4b4b9b0d52ab5b042fa68b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c23d461fdbd175a80a8fa94fcc238f6cf2f89869
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991299"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842819"
 ---
 # <a name="ishellfoldersearchablecallbackrunend-method"></a>IShellFolderSearchableCallback：： RunEnd 方法
 

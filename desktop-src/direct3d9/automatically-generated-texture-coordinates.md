@@ -3,12 +3,12 @@ title: '自動產生的材質座標 (Direct3D 9) '
 description: 系統可以使用已轉換的相機空間位置或頂點中的法線作為材質座標，也可以計算用來定址三個元素向量的三個元素向量。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de8a6328df66296c0948c53be68109a9f5afbbb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b01addbe354fb910ef68e1fc693e7dfffb1ceacf
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997070"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843289"
 ---
 # <a name="auto-generated-texture-coordinates-direct3d-9"></a>自動產生的材質座標 (Direct3D 9) 
 

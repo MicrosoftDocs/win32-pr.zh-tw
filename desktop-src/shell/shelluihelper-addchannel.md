@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b62e6e82-429a-4d41-96d4-cba639b611f5
-ms.openlocfilehash: 93c62abd8f788f950e36bcfc5fa10f7c991a6410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d08c1360cb2a96fbc7b87daecb650bbf46aa6ad9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991794"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841199"
 ---
 # <a name="shelluihelperaddchannel-method"></a>ShellUIHelper. AddChannel 方法
 

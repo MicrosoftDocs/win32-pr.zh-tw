@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 6298061d-7e24-45ab-8bc4-96b28e071080
-ms.openlocfilehash: c20b5828a6e2362b9b9c13fc9b2986b0ea7b5fc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46cb246e91f9901204432527ba36fd8ac72beba4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971917"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842309"
 ---
 # <a name="fmevent_helpmenuitem-message"></a>FMEVENT \_ HELPMENUITEM 訊息
 

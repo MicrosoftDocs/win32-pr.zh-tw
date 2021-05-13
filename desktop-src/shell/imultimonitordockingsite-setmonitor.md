@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: ba4ace13-7096-4f05-bcb0-ab37f1632406
-ms.openlocfilehash: cc177316a850bbf5059cabf48362ab8d5cbe2466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be773ee68c214f6a2fab8da89f1f48b867e71239
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991823"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841939"
 ---
 # <a name="imultimonitordockingsitesetmonitor-method"></a>IMultiMonitorDockingSite：： SetMonitor 方法
 
@@ -43,9 +43,9 @@ HRESULT SetMonitor(
 *punkSrc* \[在\]
 </dt> <dd>
 
-類型： **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+類型： **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-物件的指標，該物件會執行正在更改監視的 [_ *IDockingWindow* *](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow)介面。
+物件的指標，該物件會執行正在更改監視的 [**IDockingWindow**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-idockingwindow) 介面。
 
 </dd> <dt>
 
@@ -61,7 +61,7 @@ HRESULT SetMonitor(
 *phMonOld* \[擴展\]
 </dt> <dd>
 
-類型： **HMONITOR \** _
+類型： **HMONITOR \***
 
 當此函式傳回時，會包含先前預設監視器控制碼的指標。
 
@@ -69,7 +69,7 @@ HRESULT SetMonitor(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 359def5c-d7ad-46bd-bdda-30a7b3eea56c
-ms.openlocfilehash: 1f42b3af012361bfd24c93e03c38e6954eb5326e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6daa00e6821833d783aefa95be23b7b8de769907
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972344"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842829"
 ---
 # <a name="ishellfoldersearchable-interface"></a>IShellFolderSearchable 介面
 
@@ -56,18 +56,18 @@ ms.locfileid: "104972344"
 #define INTERFACE IShellFolderSearchable
 DECLARE_INTERFACE_IID_(IShellFolderSearchable, IUnknown, "4E1AE66C-204B-11d2-8DB3-0000F87A556C")
 {
-    // **_ IUnknown methods _*_
-    STDMETHOD(QueryInterface) (THIS_ REFIID riid, __out void _*ppv) PURE;
+    // *** IUnknown methods ***
+    STDMETHOD(QueryInterface) (THIS_ REFIID riid, __out void **ppv) PURE;
     STDMETHOD_(ULONG,AddRef)  (THIS) PURE;
     STDMETHOD_(ULONG,Release) (THIS) PURE;
 
-    // **_ IShellFolderSearchable methods _*_
+    // *** IShellFolderSearchable methods ***
 
     // FindString -
     //  The returned Shell folder's enumerator will have any
     //   search hits for the given search string.
     //  punkOnAsyncSearch will be QI'd for IShellFolderSearchableCallback
-    STDMETHOD(FindString)(THIS_ LPCWSTR pwszTarget, __inout_opt DWORD _pdwFlags,
+    STDMETHOD(FindString)(THIS_ LPCWSTR pwszTarget, __inout_opt DWORD *pdwFlags,
                           __in_opt IUnknown *punkOnAsyncSearch, __out LPITEMIDLIST *ppidlOut)   PURE;
     // CancelAsyncSearch -
     //   Begins the process of canceling any pending

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0cdf3293-3dcf-44e7-a80d-4eacf9d09fbf
-ms.openlocfilehash: 5699ad9d15b0fa31c92f7d88df194f9012fa679d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b370056f40320561a38b1f77fbcf9a53ee35686a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971988"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843239"
 ---
 # <a name="didiskquotauser-object"></a>DIDiskQuotaUser 物件
 
@@ -51,7 +51,7 @@ ms.locfileid: "104971988"
 
 
 
-| 屬性                                                                        | 存取類型           | Description                                                                                          |
+| 屬性                                                                        | 存取類型           | 描述                                                                                          |
 |:--------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------|
 | [**AccountContainerName**](didiskquotauser-accountcontainername.md)<br/> | 唯讀<br/>  | 取得使用者帳戶容器的名稱。<br/>                                            |
 | [**AccountStatus**](didiskquotauser-accountstatus.md)<br/>               | 唯讀<br/>  | 取得使用者帳戶的狀態。<br/>                                                    |

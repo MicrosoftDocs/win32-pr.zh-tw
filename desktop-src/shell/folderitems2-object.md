@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 0ca0efb3-6831-4561-9fd1-6d0b62704931
-ms.openlocfilehash: ade67fe931b443e40ea063d4a2ca46e212c35b86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b11bc4d1b3cd2bdd71802e79ca959c0a0f84e360
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971877"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840969"
 ---
 # <a name="folderitems2-object"></a>FolderItems2 物件
 

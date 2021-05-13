@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 54979bbd-b36b-4b5b-a8a0-5f63e9526fa5
-ms.openlocfilehash: dec27dab8bd37cc9c15e603c24a54d528cea331a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04d2493f5d0ec5b86d19689cb8e7c2a02a82e536
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973329"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841799"
 ---
 # <a name="shellcontrolpanelitem-method"></a>傳送至 get-controlpanelitem 方法
 

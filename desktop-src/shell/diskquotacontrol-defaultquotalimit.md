@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 7d123bff-5dae-4430-be22-a822e231e43e
-ms.openlocfilehash: fdfea60e58659b483a6b17c2dc89d313e3c81305
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6031f0fbf6c3c872252e9a80204c07356c54d0cb
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971972"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843199"
 ---
 # <a name="diskquotacontroldefaultquotalimit-property"></a>DiskQuotaControl. DefaultQuotaLimit 屬性
 

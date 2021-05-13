@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 3e891278d98ca2eb51fca11054cba01947e03c09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851628"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841759"
 ---
 # <a name="shell-object"></a>Shell 物件
 
@@ -80,7 +80,7 @@ ms.locfileid: "103851628"
 <td style="text-align: left;">從其銜接站彈出電腦。 這與按一下 [ <strong>開始</strong> ] 功能表並選取 [ <strong>退出</strong>電腦] 的方式相同，如果您的電腦支援此命令。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-explore.md"><strong>探索</strong></a></td>
+<td style="text-align: left;"><a href="shell-explore.md"><strong>探討</strong></a></td>
 <td style="text-align: left;">在 Windows 檔案總管視窗中開啟指定的資料夾。<br/></td>
 </tr>
 <tr class="even">
@@ -168,7 +168,7 @@ ms.locfileid: "103851628"
 <td style="text-align: left;">顯示 <strong>關機 Windows</strong> ] 對話方塊。 這等同于按一下 [ <strong>開始</strong> ] 功能表，然後選取 [ <strong>關機</strong>]。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-suspend.md"><strong>暫停</strong></a></td>
+<td style="text-align: left;"><a href="shell-suspend.md"><strong>暫止</strong></a></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="even">
@@ -216,7 +216,7 @@ ms.locfileid: "103851628"
 
 
 
-| 屬性                                            | 存取類型          | Description                                                                 |
+| 屬性                                            | 存取類型          | 描述                                                                 |
 |:----------------------------------------------------|:---------------------|:----------------------------------------------------------------------------|
 | [**Application**](shell-application.md)<br/> | 唯讀<br/> | 包含物件的應用程式物件。<br/>                        |
 | [**父代**](shell-parent.md)<br/>           | 唯讀<br/> | 取得物件，表示目前物件的父系。<br/> |

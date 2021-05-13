@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 5c920dca-fbca-48e1-9dce-38713cf1fcef
-ms.openlocfilehash: e9e3231e8cc602a4e00b6ee79a25392717b6e68b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3146fea4f6c8d8547c8c86096b434cbaea5b5926
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972349"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842989"
 ---
 # <a name="ishellfoldersearchablecancelasyncsearch-method"></a>IShellFolderSearchable：： CancelAsyncSearch 方法
 
@@ -52,9 +52,9 @@ HRESULT CancelAsyncSearch(
 *pdwFlags* \[在\]
 </dt> <dd>
 
-類型： **DWORD \** _
+類型： **DWORD \***
 
-目前未定義任何旗標;設定為 _ * Null * *。
+目前未定義任何旗標;設定為 **Null**。
 
 </dd> </dl>
 

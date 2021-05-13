@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Shlwapi.dll
 ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
-ms.openlocfilehash: a477ef549b3b8437ba891259c7fecea4730f759e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38d331d57b9484ab6d7a505d929508f30d510ad8
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991123"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841209"
 ---
 # <a name="mlhtmlhelp-function"></a>MLHtmlHelp 函式
 

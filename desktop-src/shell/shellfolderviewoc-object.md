@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b50f549c-a79d-4411-a18e-a181b4b924e3
-ms.openlocfilehash: b9a2b76f48731bf4c7b515779122503fa2cb02f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2670578417dc616d30f319887f5281fa5d0615f5
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945005"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840869"
 ---
 # <a name="shellfolderviewoc-object"></a>ShellFolderViewOC 物件
 

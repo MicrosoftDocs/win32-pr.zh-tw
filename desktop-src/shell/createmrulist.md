@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: b2d9e3c7-8151-45ef-9658-bd33a87b4c9c
-ms.openlocfilehash: 572e52f1461e3d48ab9eba1aa903c7fb690636d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34cd3dd9e5b9e62bbdd13b31d95e7205e4427de6
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689800"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843379"
 ---
 # <a name="createmrulistw-function"></a>CreateMRUListW 函式
 

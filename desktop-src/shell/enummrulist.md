@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: 630e5f27-96bf-4e88-b01a-127b301cc051
-ms.openlocfilehash: 6b6e9588588e44a2c3b40f6ac012b11f21c875e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e6e4bd0820d35fec2a108a81eb1030567493e6a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851632"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843159"
 ---
 # <a name="enummrulistw-function"></a>EnumMRUListW 函式
 
@@ -66,9 +66,9 @@ int EnumMRUListW(
 *lpData* \[擴展\]
 </dt> <dd>
 
-類型： **void \** _
+類型： **void \***
 
-接收 _nItem * 中所要求之專案的緩衝區指標。 如果 *nItem* 小於0，則這個緩衝區的內容不會變更。
+接收 *nItem* 中所要求之專案的緩衝區指標。 如果 *nItem* 小於0，則這個緩衝區的內容不會變更。
 
 </dd> <dt>
 

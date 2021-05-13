@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 7baa5f58-62c2-406e-a81e-4ca9c446a756
-ms.openlocfilehash: 3ce02fd418a93ec5914c438fcad39d8dc73c5c8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00b0e58ed18ab0da9c3fa362da4b8e3e066cdcc4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991718"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841049"
 ---
 # <a name="shellfolderviewocenumdone-event"></a>ShellFolderViewOC. EnumDone 事件
 

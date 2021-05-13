@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 82be6bd5-a46c-48b3-a1f0-a92b9454c35e
-ms.openlocfilehash: f4368edf6eae3e6892a3d81147401e061548f6e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5c7c6b75c89711a69ac578b3d04a72362b1eac9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972336"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842699"
 ---
 # <a name="ishellfolderviewtypegetviewtypeproperties-method"></a>IShellFolderViewType：： GetViewTypeProperties 方法
 
@@ -52,7 +52,7 @@ PIDL。
 *pdwFlags* \[擴展\]
 </dt> <dd>
 
-類型： **DWORD \** _
+類型： **DWORD \***
 
 不帶正負號整數變數的指標，此變數會接收 view 屬性，表示選取視圖時該怎麼辦。 旗標可以是下列值的任何組合。
 
@@ -60,7 +60,7 @@ PIDL。
 
 <span id="SFVTFLAG_NOTIFY_CREATE"></span><span id="sfvtflag_notify_create"></span>
 
-<span id="SFVTFLAG_NOTIFY_CREATE"></span><span id="sfvtflag_notify_create"></span>_ *SFVTFLAG \_ NOTIFY \_ CREATE** (0x00000001) 
+<span id="SFVTFLAG_NOTIFY_CREATE"></span><span id="sfvtflag_notify_create"></span>**SFVTFLAG \_通知 \_ CREATE** (0x00000001) 
 
 
 </dt> <dd>

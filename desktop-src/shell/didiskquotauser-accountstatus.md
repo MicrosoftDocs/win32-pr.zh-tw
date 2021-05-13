@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: ff2234f7-4758-43c7-a3c2-8fb980b27c04
-ms.openlocfilehash: 155ae627d70c5125fd0d1d501062224450fc8e3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e27e86fadab02616f91a4838acfc4be93e985ebd
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972001"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841649"
 ---
 # <a name="didiskquotauseraccountstatus-property"></a>DIDiskQuotaUser. AccountStatus 屬性
 

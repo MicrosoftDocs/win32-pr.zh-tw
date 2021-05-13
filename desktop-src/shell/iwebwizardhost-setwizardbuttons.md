@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 863aa667-454c-40cd-8091-9bb456047b6c
-ms.openlocfilehash: 18af31eac1042e84a41e5651c517279869f03697
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: a1b2a79c7ea323c36371e08d3519e71e4c537935
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973497"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842619"
 ---
 # <a name="webwizardhostsetwizardbuttons-method"></a>WebWizardHost. SetWizardButtons 方法
 

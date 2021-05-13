@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9f138b4e-6a84-4c7e-9521-5f8ffe0eaebf
-ms.openlocfilehash: d82eb48d45210ebf12464708b09fe469d97432db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 699b6d5473d97548a22e220372b9f53633cb2346
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991626"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840909"
 ---
 # <a name="shextracticonsw-function"></a>SHExtractIconsW 函式
 
@@ -88,22 +88,22 @@ UINT SHExtractIconsW(
 *phIcon* \[擴展\]
 </dt> <dd>
 
-類型： **HICON \** _
+類型： **HICON \***
 
 當此函式傳回時，會包含圖示控制碼陣列的指標。
 
 </dd> <dt>
 
-_pIconId * \[ out\]
+*pIconId* \[擴展\]
 </dt> <dd>
 
-類型： **UINT \** _
+類型： **UINT \***
 
 當此函式傳回時，會包含最適合目前顯示裝置之已解壓縮圖示的資源識別碼指標。 如果沒有適用于此格式的識別碼，則會包含0xFFFFFFFF。 如果沒有任何其他原因可以取得任何識別碼，則會傳回零。
 
 </dd> <dt>
 
-_nIcons * \[ in\]
+*nIcons* \[在\]
 </dt> <dd>
 
 類型： **UINT**

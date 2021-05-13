@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 9B429C03-7F80-45db-B8CD-58D19FAD2E61
-ms.openlocfilehash: 20c6cc9f0b3a2e2fde8f56311564d63bc1cc9c0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02fbead4b2d40a91ec6dab70f536d1ea3241ee84
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972409"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840889"
 ---
 # <a name="ishelldispatch-object"></a>IShellDispatch 物件
 
@@ -77,7 +77,7 @@ ms.locfileid: "104972409"
 <td style="text-align: left;">從其銜接站彈出電腦。 這與按一下 [ <strong>開始</strong> ] 功能表並選取 [ <strong>退出</strong>電腦] 的方式相同，如果您的電腦支援此命令。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="ishelldispatch-explore.md"><strong>探索</strong></a></td>
+<td style="text-align: left;"><a href="ishelldispatch-explore.md"><strong>探討</strong></a></td>
 <td style="text-align: left;">在 Windows 檔案總管視窗中開啟指定的資料夾。<br/></td>
 </tr>
 <tr class="even">
@@ -121,7 +121,7 @@ ms.locfileid: "104972409"
 <td style="text-align: left;">顯示 <strong>關機 Windows</strong> ] 對話方塊。 這等同于按一下 [ <strong>開始</strong> ] 功能表，然後選取 [ <strong>關機</strong>]。<br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="ishelldispatch-suspend.md"><strong>暫停</strong></a></td>
+<td style="text-align: left;"><a href="ishelldispatch-suspend.md"><strong>暫止</strong></a></td>
 <td style="text-align: left;"></td>
 </tr>
 <tr class="odd">
@@ -157,7 +157,7 @@ ms.locfileid: "104972409"
 
 
 
-| 屬性                                                     | 存取類型          | Description                                                                      |
+| 屬性                                                     | 存取類型          | 描述                                                                      |
 |:-------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------|
 | [**Application**](ishelldispatch-application.md)<br/> | 唯讀<br/> | 包含代表應用程式的物件。<br/>                    |
 | [**父代**](ishelldispatch-parent.md)<br/>           | 唯讀<br/> | 抓取物件，該物件表示目前物件的父系。<br/> |

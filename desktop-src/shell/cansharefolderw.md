@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntshrui.dll
 ms.assetid: 5fd28a14-53e7-4016-9c49-9bb14ce7808b
-ms.openlocfilehash: cf7d0feb31666f3a918c0307a0b0983bff246fea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46df03208ecc468aac366fb0b4cfb33e1a68157e
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511063"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841679"
 ---
 # <a name="cansharefolderw-function"></a>CanShareFolderW 函式
 
@@ -59,7 +59,7 @@ STDAPI CanShareFolderW(
 
 
 
-| 傳回碼/值                                                                        | Description                                                                           |
+| 傳回碼/值                                                                        | 描述                                                                           |
 |------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>     | *PszPath* 所指向的路徑會指定可共用的資料夾。<br/>    |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>  | *PszPath* 所指向的路徑會指定無法共用的資料夾。<br/> |

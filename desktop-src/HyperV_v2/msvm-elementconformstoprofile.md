@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6b0afdc7dd9d55a036de0695f9a88a95d2b01308
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9b4e257c2ebc0584a8291461439f75238599d35
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987245"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843279"
 ---
 # <a name="msvm_elementconformstoprofile-class"></a>Msvm \_ ElementConformsToProfile 類別
 

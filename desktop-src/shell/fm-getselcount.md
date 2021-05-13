@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 0d43bf37-863c-45cc-94ea-5b2aedba5353
-ms.openlocfilehash: aac7d08de3785bb02c31dabc1ef7a25fea0d5b73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 727e098a98ecfe4a4349ebcf9c6f931a8579b70d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991074"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842369"
 ---
 # <a name="fm_getselcount-message"></a>FM \_ GETSELCOUNT 訊息
 

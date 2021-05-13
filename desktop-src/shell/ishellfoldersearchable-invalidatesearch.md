@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 6985a299-8547-4db4-99f9-d46dafe4789b
-ms.openlocfilehash: 36c1de0a606fdfddbe8eb74b5cc6c20cdda8e983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43d76c6a27b301a61474b8028af16e5e540cf2ce
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191614"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841689"
 ---
 # <a name="ishellfoldersearchableinvalidatesearch-method"></a>IShellFolderSearchable：： InvalidateSearch 方法
 
@@ -52,9 +52,9 @@ HRESULT InvalidateSearch(
 *pdwFlags* \[在\]
 </dt> <dd>
 
-類型： **DWORD \** _
+類型： **DWORD \***
 
-目前未定義任何旗標;設定為 _ * Null * *。
+目前未定義任何旗標;設定為 **Null**。
 
 </dd> </dl>
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: e44cd774-1d16-4faa-b5ca-fcaf2740cdca
-ms.openlocfilehash: 4ccaac7baf99608e097b8f8b67c8eac30f60ed3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1627bb134066821444788ca44a3527278a02f4c7
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991135"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842769"
 ---
 # <a name="ishellfolderviewtypeenumviews-method"></a>IShellFolderViewType：： EnumViews 方法
 

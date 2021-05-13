@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: d3c0ccf8-0f83-42f7-9d6f-1fb293da6364
-ms.openlocfilehash: 1daf1aafae4bc230014890b79d4fb0310aa30a1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5862ae3c9b7bf1262edbc28b06f2963f2e577275
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973737"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842629"
 ---
 # <a name="shelllinkobject-object"></a>ShellLinkObject 物件
 
@@ -54,7 +54,7 @@ ms.locfileid: "104973737"
 
 
 
-| 屬性                                                                | 存取類型           | Description                                                                                               |
+| 屬性                                                                | 存取類型           | 描述                                                                                               |
 |:------------------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------|
 | [**引數**](shelllinkobject-arguments.md)<br/>               | 讀取/寫入<br/> | 包含連結的引數。<br/>                                                                   |
 | [**描述**](shelllinkobject-description.md)<br/>           | 讀取/寫入<br/> | 取得或設定連結的描述。<br/>                                                      |

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 142fff71-3a1b-4197-8c06-2e981cce4e4f
-ms.openlocfilehash: 7accd78b36e82abbf56b02b133c79e92dd40d37c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0abac794ed23eca30676a839a6eb5ad7c1079c3c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991075"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842409"
 ---
 # <a name="fm_getdriveinfo-message"></a>FM \_ GETDRIVEINFO 訊息
 

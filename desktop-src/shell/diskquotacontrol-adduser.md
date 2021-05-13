@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: de20d016-83da-42ac-962f-86faf9b25419
-ms.openlocfilehash: e91bfee0cf491d7191d64bdec6ed7593e10654ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9dd69b78210ecda418e784681694d84b27b1732a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511041"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841529"
 ---
 # <a name="diskquotacontroladduser-method"></a>DiskQuotaControl. AddUser 方法
 

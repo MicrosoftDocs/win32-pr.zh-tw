@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: ad94a442-8492-412c-a4f2-ac6e7c5327d7
-ms.openlocfilehash: 0d0d65187105f4ad844b349c6ac60b030c464716
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b62e23cd0604273559e36e561970dd62f117c11d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026106"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841189"
 ---
 # <a name="addmrustringw-function"></a>AddMRUStringW 函式
 

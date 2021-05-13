@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 15ffcd46-602f-4ad0-9c58-0b8056b9cac4
-ms.openlocfilehash: 140fbdc79980a2ab6ba9f50b8815429436df0d3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b5b2a77393178cad545cb63c1524a8d7e92c5c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111748"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843069"
 ---
 # <a name="fmevent_unload-message"></a>FMEVENT 卸載 \_ 訊息
 

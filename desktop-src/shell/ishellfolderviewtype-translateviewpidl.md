@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b7fa6c4-3d02-44ed-b63d-80a799e4017a
-ms.openlocfilehash: 75876e5088c610c1f9f02ba9374db5cea4a6023c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 537a77e7ffffb462e0031ea0959f60cd695f7d99
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512201"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842669"
 ---
 # <a name="ishellfolderviewtypetranslateviewpidl-method"></a>IShellFolderViewType：： TranslateViewPidl 方法
 
@@ -62,7 +62,7 @@ HRESULT TranslateViewPidl(
 *ppidlOut* \[在\]
 </dt> <dd>
 
-類型： **PCUIDLIST \_ 相對 \** _
+類型： **PCUIDLIST \_ 相對 \***
 
 要接收翻譯之 PIDL 變數的位址。
 
@@ -70,7 +70,7 @@ HRESULT TranslateViewPidl(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
