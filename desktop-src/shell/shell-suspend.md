@@ -9,16 +9,16 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.assetid: 66eb815c-1801-4cc7-a8ef-53e29cba61a0
-ms.openlocfilehash: 19eb5ff21eb12a7da1849e0fba330fc98a2c529f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a96eead8fe40dd208da8992e33e7c1a34517a10
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991766"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840879"
 ---
-# <a name="shellsuspend-method"></a><span data-ttu-id="b0665-103">Shell. 暫止方法</span><span class="sxs-lookup"><span data-stu-id="b0665-103">Shell.Suspend method</span></span>
+# <a name="shellsuspend-method"></a><span data-ttu-id="4cc8e-103">Shell. 暫止方法</span><span class="sxs-lookup"><span data-stu-id="4cc8e-103">Shell.Suspend method</span></span>
 
-<span data-ttu-id="b0665-104">這個方法尚未實作。</span><span class="sxs-lookup"><span data-stu-id="b0665-104">This method is not implemented.</span></span>
+<span data-ttu-id="4cc8e-104">這個方法尚未實作。</span><span class="sxs-lookup"><span data-stu-id="4cc8e-104">This method is not implemented.</span></span>
 
  
 
