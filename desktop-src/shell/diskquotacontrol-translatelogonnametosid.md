@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 3b6b0d03-e9ef-4575-bb67-f7b7b39d2a16
-ms.openlocfilehash: ec5e6c0bbd013c8fbd3f6616671ee006109566d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f0a2591b0f5df6bc0f50994fcbf101b7bfbb36d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027059"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841559"
 ---
 # <a name="diskquotacontroltranslatelogonnametosid-method"></a>DiskQuotaControl. TranslateLogonNameToSID 方法
 

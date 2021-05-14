@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: 6ebf64da-9eba-4ea7-91aa-242474097be1
-ms.openlocfilehash: 54cda8d6cc3c7f1c46d6bce7736160b0da67a4c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f47a9df320da5c710c21ddbab83ca87b49c28e12
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991535"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842009"
 ---
 # <a name="iaclcustommru-interface"></a>IACLCustomMRU 介面
 

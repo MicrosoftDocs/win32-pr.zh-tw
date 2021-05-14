@@ -3,13 +3,13 @@ description: 下表說明 SOL \_ 通訊端通訊端選項。 如需取得和設�
 ms.assetid: 0cd0056e-0c33-4f6e-9f70-5417f8f8da4b
 title: 'SOL_SOCKET 的通訊端選項 (Winsock2) '
 ms.topic: reference
-ms.date: 05/31/2018
-ms.openlocfilehash: 0fbafca519c6068cd14fcbb15998bc9a25a5447b
-ms.sourcegitcommit: 30ce00809dcba5b8df06813445c97ae204a901c5
+ms.date: 05/12/2021
+ms.openlocfilehash: 01843a6505bfffc9512bc22602e2827b0b257153
+ms.sourcegitcommit: 24969bee0951bd21d31c74d3ad90d3a85b43b54d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/13/2021
-ms.locfileid: "109853977"
+ms.locfileid: "109857024"
 ---
 # <a name="sol_socket-socket-options"></a>SOL \_ 通訊端通訊端選項
 
@@ -24,7 +24,8 @@ ms.locfileid: "109853977"
 
  
 
-<dl> <dt><span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>**SOL \_ 通訊端通訊端選項**</dt> <dd> <dl> <dt> 
+<span id="SOL_SOCKET_Socket_Options"></span><span id="sol_socket_socket_options"></span><span id="SOL_SOCKET_SOCKET_OPTIONS"></span>
+**SOL \_ 通訊端通訊端選項**
 
 | 選項                                                   | Get | 設定 | Optval 類型                                      | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------|-----|-----|--------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -74,13 +75,11 @@ ms.locfileid: "109853977"
 | \_請輸入                                                 | 是 |     | DWORD                                            | 傳回指定之通訊端的通訊端類型 (SOCK \_ 資料流程或 SOCK \_ DGRAM，例如) 。                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | \_更新 \_ 接受 \_ 內容                              |     | 是 | DWORD (布林值)                                   | 此選項會與 [**AcceptEx**](/windows/win32/api/mswsock/nf-mswsock-acceptex) 函數搭配使用。 此選項會更新從接聽通訊端繼承之通訊端的屬性。 如果 [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername)、 [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname)、 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)或 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) 函式要用於接受的通訊端，則應該設定此選項。                                                                                                                             |
 | \_更新 \_ 連接 \_ 內容                             |     | 是 | DWORD (布林值)                                   | 此選項會搭配 [**ConnectEx**](/windows/desktop/api/Mswsock/nc-mswsock-lpfn_connectex)、 [**WSAConnectByList**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbylist)和 [**WSAConnectByName**](/windows/desktop/api/Winsock2/nf-winsock2-wsaconnectbynamea) 函式使用。 此選項會在建立連接之後，更新通訊端的屬性。 如果要在連接的通訊端上使用 [**getpeername**](/windows/desktop/api/winsock/nf-winsock-getpeername)、 [**getsockname**](/windows/desktop/api/winsock/nf-winsock-getsockname)、 [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt)、 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt)或 [**shutdown**](/windows/desktop/api/winsock/nf-winsock-shutdown) 函式，則應該設定此選項。 |
-| \_USELOOPBACK                                          | 是 | 是 | DWORD (布林值)                                   | 從此通訊端傳送資料時，請使用本機回送位址。 只有當傳送的所有資料也會在本機接收時，才應該使用此選項。 Windows TCP/IP 提供者不支援此選項。 如果在 Windows Vista 和更新版本上使用此選項， [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) 和 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) 函數會失敗並出現 WSAEINVAL。 在舊版的 Windows 上，這些功能會因為 WSAENOPROTOOPT 而失敗。<br/>                                                                    |
+| \_USELOOPBACK                                          | 是 | 是 | DWORD (布林值)                                   | 從此通訊端傳送資料時，請使用本機回送位址。 只有當傳送的所有資料也會在本機接收時，才應該使用此選項。 Windows TCP/IP 提供者不支援此選項。 如果在 Windows Vista 和更新版本上使用此選項， [**getsockopt**](/windows/desktop/api/winsock/nf-winsock-getsockopt) 和 [**setsockopt**](/windows/desktop/api/winsock/nf-winsock-setsockopt) 函數會失敗並出現 WSAEINVAL。 在舊版的 Windows 上，這些功能會因為 WSAENOPROTOOPT 而失敗。                                                                    |
 
 
-
- 
-
-</dt> </dl> </dd> <dt><span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>**適用于 SOL \_ 通訊端選項的 Windows 支援**</dt> <dd> <dl> <dt> 
+<span id="Windows_Support_for_SOL_SOCKET_Options"></span><span id="windows_support_for_sol_socket_options"></span><span id="WINDOWS_SUPPORT_FOR_SOL_SOCKET_OPTIONS"></span>
+**SOL_SOCKET 選項的 Windows 支援**
 
 | 選項                                          | Windows 10 | Windows 7 | Windows Server 2008 | Windows Vista | Windows Server 2003 | Windows XP | Windows 2000 | Windows NT4 | Windows 9x/我 |
 |-------------------------------------------------|------------|-----------|---------------------|---------------|---------------------|------------|--------------|-------------|---------------|
@@ -132,12 +131,6 @@ ms.locfileid: "109853977"
 | \_更新 \_ 連接 \_ 內容                    | x          | x         | x                   | x             | x                   | x          |              |             |               |
 | \_USELOOPBACK                                 |            |           |                     |               |                     |            |              |             |               |
 
-
-
- 
-
-
-</dt> </dl> </dd> </dl>
 
 ## <a name="remarks"></a>備註
 

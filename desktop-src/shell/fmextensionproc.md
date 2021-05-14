@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 6e02d655-f7d8-460a-97d2-5b369493e941
-ms.openlocfilehash: 40e18dfe64c6d2b24b982cdf891cbb63b091a7ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e7b1f0142ea77967af15087131d3036aaec505e
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991067"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842239"
 ---
 # <a name="fmextensionproc-callback-function"></a>FMExtensionProc 回呼函式
 

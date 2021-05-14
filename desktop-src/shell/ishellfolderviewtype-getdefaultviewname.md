@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 99229d13-40dc-4750-81a7-48a2f608b778
-ms.openlocfilehash: 239fcd80bcfc0b29287f8e16aeef3efb8ae032c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 808f68093512e2da602d5e73775b47943b140a46
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972341"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842759"
 ---
 # <a name="ishellfolderviewtypegetdefaultviewname-method"></a>IShellFolderViewType：： GetDefaultViewName 方法
 
@@ -52,9 +52,9 @@ HRESULT GetDefaultViewName(
 *ppwszName* \[擴展\]
 </dt> <dd>
 
-類型： **LPWSTR \** _
+類型： **LPWSTR \***
 
-接收預設視圖名稱之字串指標的位址。 字串的記憶體是使用 [_ *SHStrDup* *](/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa)來配置。
+接收預設視圖名稱之字串指標的位址。 使用 [**SHStrDup**](/windows/desktop/api/Shlwapi/nf-shlwapi-shstrdupa)配置字串的記憶體。
 
 </dd> </dl>
 

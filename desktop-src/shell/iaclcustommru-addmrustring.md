@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: d8fb8fa5-452b-45fd-b015-d9bf3d0c642e
-ms.openlocfilehash: d2f444041f466b367f3d4532f65029bcc69c3683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 300474dde82274c668e52d9fe9910634d0ac904c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991542"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841999"
 ---
 # <a name="iaclcustommruaddmrustring-method"></a>IACLCustomMRU：： AddMRUString 方法
 

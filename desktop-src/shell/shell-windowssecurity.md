@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 94916E29-5960-4010-B2C6-0FAA1E4BF72D
-ms.openlocfilehash: 7e04cc6d3a1a25f459da9f533fc562b1fc9d0b06
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2c6e18ba2388909390b856deb03b65b078f810d9
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083596"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840859"
 ---
 # <a name="shellwindowssecurity-method"></a>WindowsSecurity 方法
 

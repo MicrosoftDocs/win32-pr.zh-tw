@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 4fe37e38-ee71-41f0-b620-35fdc18f9dbb
-ms.openlocfilehash: 0bdada12a48f9c48749b614e6b45ff5427e62b4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daec9c922a0bac05154c1108f236ddf336a2e380
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512209"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109843059"
 ---
 # <a name="ishelldispatch4-object"></a>IShellDispatch4 物件
 

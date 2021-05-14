@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 41634a89-15b9-41c8-ba3f-4bf19b786f6f
-ms.openlocfilehash: d5234a0b43ea25c8ac931dc14ec90f7a6696ddfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 2edaa79bd62dcee40e4f197700d2128cb0b2070d
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973668"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842459"
 ---
 # <a name="shelluihelperadddesktopcomponent-method"></a>ShellUIHelper. AddDesktopComponent 方法
 

@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 5E789607-AEB6-48F9-A9D7-8D27263DBA77
-ms.openlocfilehash: c1de2e5dd6bd84c477f992a3a2c65881e25cf5e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: ba0399051e71598a219d6425efa1a82cf6ccba3c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973317"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841819"
 ---
 # <a name="shellsearchcommand-method"></a>SearchCommand 方法
 

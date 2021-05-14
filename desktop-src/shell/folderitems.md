@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: b99201b3-95e8-4ddd-b338-dee8d107d0a0
-ms.openlocfilehash: 6f9a6fa978c64c788cbd224cf3a39454c644a57e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b6e9506d6c2354018a41ae7a15ca6e8e1900857
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689255"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840649"
 ---
 # <a name="folderitems-object"></a>FolderItems 物件
 
@@ -52,7 +52,7 @@ ms.locfileid: "103689255"
 
 
 
-| 屬性                                                  | 存取類型          | Description                                                                                                   |
+| 屬性                                                  | 存取類型          | 描述                                                                                                   |
 |:----------------------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------|
 | [**Application**](folderitems-application.md)<br/> | 唯讀<br/> | 包含資料夾專案集合的 [**應用程式**](folderitems-application.md) 物件。<br/> |
 | [**計數**](folderitems-count.md)<br/>             | 唯讀<br/> | 包含集合中的專案數。<br/>                                                    |

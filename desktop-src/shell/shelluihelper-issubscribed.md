@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: fcf23352-6603-4b17-9c3b-b353cca1c003
-ms.openlocfilehash: 2085f38e5f91f13a2f67ff4f22b003b533249386
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca68d2e46ce74593b66aac6f995b88ddcb79796b
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026907"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109842489"
 ---
 # <a name="shelluihelperissubscribed-method"></a>ShellUIHelper. IsSubscribed 方法
 
@@ -50,9 +50,9 @@ bRetVal = ShellUIHelper.IsSubscribed(
 
 ## <a name="return-value"></a>傳回值
 
-類型： **布林 \* 值* _
+類型：**布林 \* 值**
 
-_ *true** 表示 URL 已訂閱;否則 **為 false**。
+如果 URL 已訂閱，則為 **true** ;否則 **為 false**。
 
 ## <a name="examples"></a>範例
 

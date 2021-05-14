@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 31badb4b-b89e-4294-9dd7-bda716e163b2
-ms.openlocfilehash: 651f439ea34a55203da852f2907a27ba87bdd275
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8206c2113e2fa60abef41e43e4739b6eefd77dd4
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849203"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109840601"
 ---
 # <a name="folderitemverbs-object"></a>FolderItemVerbs 物件
 
@@ -52,7 +52,7 @@ ms.locfileid: "103849203"
 
 
 
-| 屬性                                                      | 存取類型          | Description                                                |
+| 屬性                                                      | 存取類型          | 描述                                                |
 |:--------------------------------------------------------------|:---------------------|:-----------------------------------------------------------|
 | [**Application**](folderitemverbs-application.md)<br/> | 唯讀<br/> | 未實作。<br/>                                |
 | [**計數**](folderitemverbs-count.md)<br/>             | 唯讀<br/> | 包含集合中的專案數。<br/> |

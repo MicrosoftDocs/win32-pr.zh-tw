@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: dc936421-e66d-4762-912a-c586f9cdace4
-ms.openlocfilehash: fbe079680191937f022bd45a491fad054e1a9033
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 169f4db6e135392e9548767520f6d2b0bd2d527c
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972125"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841459"
 ---
 # <a name="diskquotacontrolusernameresolution-property"></a>DiskQuotaControl. UserNameResolution 屬性
 

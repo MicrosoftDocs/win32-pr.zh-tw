@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: a816fb5f-8320-4b63-a85d-dd4c59596ead
-ms.openlocfilehash: 89a8d991e22e8615456bd8d4690c046ec0d325d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50295d712e539c94f10a708674cea595a47ae4e0
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991810"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841029"
 ---
 # <a name="strrettostrn-function"></a>StrRetToStrN 函式
 
