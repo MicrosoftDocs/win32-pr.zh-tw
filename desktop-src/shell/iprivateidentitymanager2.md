@@ -9,16 +9,16 @@ api_name: ''
 api_type: ''
 api_location: ''
 ms.assetid: 14b1182e-3442-4bd1-98d9-62fac2f91cf2
-ms.openlocfilehash: 0dd5fdc96813a489e5c0fe0599cd22e4c21786ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d411b6bb205e908d0cbb4fc6f6439d89b3c0310a
+ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848307"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "109841059"
 ---
-# <a name="iprivateidentitymanager2-interface"></a><span data-ttu-id="99cc9-103">IPrivateIdentityManager2 介面</span><span class="sxs-lookup"><span data-stu-id="99cc9-103">IPrivateIdentityManager2 interface</span></span>
+# <a name="iprivateidentitymanager2-interface"></a><span data-ttu-id="d5c9d-103">IPrivateIdentityManager2 介面</span><span class="sxs-lookup"><span data-stu-id="d5c9d-103">IPrivateIdentityManager2 interface</span></span>
 
-<span data-ttu-id="99cc9-104">不支援此介面。</span><span class="sxs-lookup"><span data-stu-id="99cc9-104">This interface is not supported.</span></span>
+<span data-ttu-id="d5c9d-104">不支援此介面。</span><span class="sxs-lookup"><span data-stu-id="d5c9d-104">This interface is not supported.</span></span>
 
  
 
