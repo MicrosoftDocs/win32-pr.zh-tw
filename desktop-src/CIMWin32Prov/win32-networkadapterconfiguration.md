@@ -75,12 +75,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2bccbe7fc44e75c2448d2eda800fe3c14cd13a9b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e93ae76ae3c4880c7ad041e6e90d39f1b22820d3
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111353"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153571"
 ---
 # <a name="win32_networkadapterconfiguration-class"></a>Win32 \_ >networkadapterconfiguration 類別
 

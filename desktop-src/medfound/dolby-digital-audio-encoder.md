@@ -1,19 +1,19 @@
 ---
-description: 杜比音訊解碼器是媒體基礎轉換 (MFT) 將 mono 或身歷聲音訊編碼為杜比數位，也稱為杜比 AC-3。
+description: 杜比音訊編碼器是媒體基礎轉換 (MFT) 將 mono 或身歷聲音訊編碼為杜比數位，也稱為杜比 AC-3。
 ms.assetid: CBC31132-046C-4CD7-9DBA-20A9C666FB43
 title: 杜比數位音訊編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58d6c5b59bc09cd8c0fd56f22703ef8afdfe3921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f901587b816bc17d62f4095e093b661ce55f0009
+ms.sourcegitcommit: 88049609e29f91a42442235885abf56f598b06b3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973193"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "110153561"
 ---
 # <a name="dolby-digital-audio-encoder"></a>杜比數位音訊編碼器
 
-杜比音訊解碼器是 [媒體基礎轉換](media-foundation-transforms.md) (MFT) 將 mono 或身歷聲音訊編碼為杜比數位，也稱為杜比 AC-3。 編碼器不支援多重通道輸入，例如5.1 通道設定。
+杜比音訊編碼器是 [媒體基礎轉換](media-foundation-transforms.md) (MFT) 將 mono 或身歷聲音訊編碼為杜比數位，也稱為杜比 AC-3。 編碼器不支援多重通道輸入，例如5.1 通道設定。
 
 > [!IMPORTANT]
 > 在 Windows 8 之前的 Windows 版本中，Microsoft 應用程式所使用的杜比數位授權方案會限制 Microsoft 的杜比數位技術。
@@ -24,7 +24,7 @@ ms.locfileid: "106973193"
 
 ## <a name="class-identifier"></a>類別識別碼
 
-[杜比音訊解碼器] (CLSID) 的類別識別碼是 **clsid \_ CMSDolbyDigitalEncMFT**，定義于標頭檔 wmcodecdsp 中。
+[杜比音訊編碼器] (CLSID) 的類別識別碼是 **clsid \_ CMSDolbyDigitalEncMFT**，定義于標頭檔 wmcodecdsp 中。
 
 ## <a name="output-types"></a>輸出型別
 
