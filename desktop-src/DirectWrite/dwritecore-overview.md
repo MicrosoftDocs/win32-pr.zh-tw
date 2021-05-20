@@ -6,16 +6,16 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 4ab8970172032f47b6e97da6d097d7c1bf33e976
-ms.sourcegitcommit: 133954d5dbcd5b2b3b50c8efd16cd101278fc1db
+ms.openlocfilehash: 9e0bc6cf6433f65fa1bc28ec2654492057842b94
+ms.sourcegitcommit: 5a39ee31075cd81ab865c81c39e128b8312da21b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108172500"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "110207380"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
-DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于高品質文字轉譯、解析度無關大綱字型，以及完整 Unicode 文字和版面配置支援[) 的 DirectX](/windows/apps/project-reunion/) API。 DWriteCore 是 DirectWrite 的其中一種形式，可在低至 Windows 8 的 Windows 版本上執行，並讓您自由地跨平台使用。
+DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于高品質文字轉譯、解析度無關大綱字型，以及完整 Unicode 文字和版面配置支援[) 的 DirectX](/windows/apps/project-reunion/) API。 DWriteCore 是一種 DirectWrite 形式，可在 Windows 版本下執行，以 Windows 10 版本 1809 (10.0;組建 17763) ，並開啟可讓您跨平臺使用的門。
 
 本簡介主題說明 DWriteCore 是什麼，並示範如何將它安裝到您的開發環境和程式。
 
@@ -25,9 +25,9 @@ DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于�
 
 但由於 DirectWrite 的存留期較長，因此開發的進展比起讓舊版的 Windows 保持在幕後。 此外，DirectWrite 的狀態為頂級文字轉譯技術僅限於 Windows，讓跨平臺應用程式可以撰寫自己的文字呈現堆疊，或依賴協力廠商解決方案。
 
-DWriteCore 可解決版本功能損壞和跨平臺相容性的基本問題，方法是從系統中移除程式庫，並將所有可能支援的端點設為目標。 為此，我們已將 DWriteCore 整合到專案中，並提供可在所有 Windows 端點下 Windows 8 支援的公用 API，並開啟可讓您跨平臺使用的門。
+DWriteCore 可解決版本功能損壞和跨平臺相容性的基本問題，方法是從系統中移除程式庫，並將所有可能支援的端點設為目標。 為此，我們已將 DWriteCore 整合到 Project 留尼旺島中。
 
-DWriteCore 可讓您以開發人員的身分，在 Project 留尼旺島中提供您的主要價值，就是可讓您以最下層的方式存取所有目前的 DirectWrite 功能，以 Windows 8。 DWriteCore 的所有功能在所有下層版本上的運作都相同;換句話說，所有目前的功能都可以在 Windows 8、8.1 和所有版本的 Windows 10 上運作，而不需要任何差異有關哪些功能可在哪些版本上運作。
+DWriteCore 在 Project 留尼旺島中提供給您的主要價值是，它可讓您存取許多 (，最後是所有) 的 DirectWrite 功能。 DWriteCore 的所有功能在所有下層版本上的運作都相同，而不需要任何差異有關哪些功能可在哪些版本上運作。
 
 ## <a name="the-dwritecore-demo-appmdashdwritecoregallery"></a>DWriteCore 示範應用程式 &mdash; DWriteCoreGallery
 
@@ -83,7 +83,7 @@ DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectRe
 
 清除字型快取的工作，以及記憶體中的字型載入器，可讓您更快速地載入字型和記憶體改善。
 
-有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如可變字型 &mdash; 下層至 Windows 8。 變數字型是 DirectWrite 客戶最重要的功能之一;它們是在 Windows 10、1709版 (秋季建立者更新) 中引進，所以在舊版中存取這些專案對您的開發人員而言是相當大的好處。
+有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如變數字型。 變數字型是 DirectWrite 客戶最重要的功能之一;它們是在 Windows 10、1709版 (秋季建立者更新) 中引進，所以在舊版中存取這些專案對您的開發人員而言是相當大的好處。
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>我們邀請您成為 DirectWrite 開發人員
 
