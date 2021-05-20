@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 9e0bc6cf6433f65fa1bc28ec2654492057842b94
-ms.sourcegitcommit: 5a39ee31075cd81ab865c81c39e128b8312da21b
+ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
+ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 05/20/2021
-ms.locfileid: "110207380"
+ms.locfileid: "110208709"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
@@ -83,7 +83,7 @@ DWriteCore 是 [Project 留尼旺島 0.5](https://github.com/microsoft/ProjectRe
 
 清除字型快取的工作，以及記憶體中的字型載入器，可讓您更快速地載入字型和記憶體改善。
 
-有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如變數字型。 變數字型是 DirectWrite 客戶最重要的功能之一;它們是在 Windows 10、1709版 (秋季建立者更新) 中引進，所以在舊版中存取這些專案對您的開發人員而言是相當大的好處。
+有了這些功能，您就可以立即開始使用一些 DirectWrite 的新式核心功能， &mdash; 例如變數字型。 變數字型是 DirectWrite 客戶最重要的功能之一。
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>我們邀請您成為 DirectWrite 開發人員
 
