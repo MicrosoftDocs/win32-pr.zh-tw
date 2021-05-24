@@ -4,12 +4,12 @@ description: Direct3D 11 圖形
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f154ddfc97dff17f061be41c818b4f56151b135
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90b038ecc2b1c55d1e0a2edab9dcb52065b51810
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315769"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335338"
 ---
 # <a name="direct3d-11-graphics"></a>Direct3D 11 圖形
 
@@ -21,12 +21,12 @@ ms.locfileid: "104315769"
 
 
 
-|                                   |                                                                                                   |
+|                                   | 支援                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| 支援的執行時間環境    | <dl> <dt>Windows/c + +</dt> </dl>            |
-| 建議的程式設計語言 | C/C++                                                                                             |
-| 最低支援用戶端          | <dl> <dt>Windows 7</dt> </dl>              |
-| 最低支援伺服器          | <dl> <dt>Windows Server 2008 R2</dt> </dl> |
+| **支援的執行時間環境**    | Windows/c + +            |
+| **建議的程式設計語言** | C/C++                                                                                             |
+| **最低支援的用戶端**          | Windows 7             |
+| **最低支援的伺服器**          | Windows Server 2008 R2 |
 
  
 

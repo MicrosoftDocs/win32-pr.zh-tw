@@ -4,12 +4,12 @@ ms.assetid: ccfe6273-0dcf-4b42-9d74-665a0b4cd14a
 title: " (Direct3D 10) 的材質視圖"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f06cd98a00782b826713e68304ad7cc132e4e0fe
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 83dd83b1a3896637ce73505de00027ea9dfadac4
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936370"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335582"
 ---
 # <a name="texture-views-direct3d-10"></a> (Direct3D 10) 的材質視圖
 
@@ -29,9 +29,9 @@ ms.locfileid: "103936370"
 
 
 
-|                                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 之間的差異：在 Direct3D 10 中，您不再將資源直接系結至管線、建立資源的視圖，然後將視圖設定為管線。 這可讓執行時間和驅動程式中的驗證和對應發生于建立時，並在系結時將類型檢查降至最低。<br/> |
+Direct3D 9 與 Direct3D 10 之間的差異：
+
+- 在 Direct3D 10 中，您不再將資源直接系結至管線、建立資源的視圖，然後將視圖設定為管線。 這可讓執行時間和驅動程式中的驗證和對應發生于建立時，並在系結時將類型檢查降至最低。
 
 
 

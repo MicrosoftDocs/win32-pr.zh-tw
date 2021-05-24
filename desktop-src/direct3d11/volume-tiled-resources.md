@@ -1,15 +1,15 @@
 ---
 title: " (Direct3D 11 圖形) 的磁片區磚資源"
-description: 磁片區 (3D) 材質可以用來做為並排的資源，請注意磚解析度是三維。
+description: 瞭解如何使用磁片區 (3D) 材質作為並排顯示的資源。 請注意，磚解析度是三維。
 ms.assetid: B6BF22A2-EDA3-4765-B545-BF825043D4C4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abb8b35e522ef3298abad1322d6fb7a2fe65bfcf
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: 2bf9b3ed8b1db89d9718fa904eefd23ce2e871db
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679055"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335432"
 ---
 # <a name="volume-tiled-resources"></a>磁片區磚資源
 
@@ -29,9 +29,8 @@ D3D 11.2 支援2D 紋理磚資源。 D3D12 和 D3D 11.3 新增對3D 並排紋理
 
 
 
-|                             |                                     |
+| 位/圖元 (1 取樣/圖元)                             | 磚尺寸 (圖元，w x h x d)                                     |
 |-----------------------------|-------------------------------------|
-| 位/圖元 (1 取樣/圖元)  | 磚尺寸 (圖元，w x h x d)  |
 | 8                           | 64 x 32 x 32                            |
 | 16                          | 32 x 32 x 32                            |
 | 32                          | 32 x 32 x 16                            |
@@ -42,7 +41,7 @@ D3D 11.2 支援2D 紋理磚資源。 D3D12 和 D3D 11.3 新增對3D 並排紋理
 
 
 
- 
+ 
 
 請注意，磚式資源不支援下列格式：96bpp 格式、影片格式、R1 \_ UNORM、R8G8 \_ B8G8 \_ UNORM、R8R8 \_ G8B8 \_ UNORM。
 
@@ -174,9 +173,9 @@ trSize.Depth = 3;
 [Direct3D 11.3 功能](direct3d-11-3-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

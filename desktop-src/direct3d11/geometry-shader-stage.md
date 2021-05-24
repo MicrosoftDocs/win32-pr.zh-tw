@@ -4,12 +4,12 @@ description: 幾何著色器 (GS) 階段會執行應用程式指定的著色器�
 ms.assetid: F3208862-980E-403F-9154-13B34A882787
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da66b1e3f9abf4e7db8010887f3e78676d02a874
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3099ed5ede8dd89dc607ed838ff6e3fabfb16a69
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682629"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335362"
 ---
 # <a name="geometry-shader-stage"></a>幾何著色器階段
 
@@ -21,15 +21,15 @@ ms.locfileid: "103682629"
 
 ![有相鄰頂點的三角形和線條的圖](images/d3d10-gs.png)
 
-|     |                 |
+|     | 類型                |
 |-----|-----------------|
-| 電視  | 三角形頂點 |
-| AV  | 相鄰頂點 |
-| LV  | 線條頂點     |
+| **電視**  | 三角形頂點 |
+| **AV**  | 相鄰頂點 |
+| **低壓**  | 線條頂點     |
 
 
 
- 
+ 
 
 幾何著色器階段可以使用 \_ 由 IA 自動產生的 SV PrimitiveID [系統產生的值](d3d10-graphics-programming-guide-input-assembler-stage-using.md) 。 這樣就可以在需要時提取或運算每個基本類型資料。
 
@@ -67,6 +67,6 @@ ms.locfileid: "103682629"
 [ (Direct3D 10) 的管線階段 ](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-pipeline-stages)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

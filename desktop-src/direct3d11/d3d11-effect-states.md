@@ -6,12 +6,12 @@ keywords:
 - '效果、狀態群組 (Direct3D 11) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58def71b6362706eb831129b1d222ef3d1cc9341
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e5a757926d8c4c259adc94f505a778cf73233b5a
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933266"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335332"
 ---
 # <a name="effect-state-groups-direct3d-11"></a>效果狀態群組 (Direct3D 11) 
 
@@ -29,32 +29,32 @@ ms.locfileid: "103933266"
 
 
 
-|                                                                                                                       |                                                           |
+| 效果狀態                                                                                                                      | Group                                                          |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | ALPHATOCOVERAGEENABLEBLENDENABLESRCBLENDDESTBLENDBLENDOP SRCBLENDALPHADESTBLENDALPHABLENDOPALPHARENDERTARGETWRITEMASK | [ **D3D11 \_ BLEND \_ DESC** 的成員](/windows/desktop/api/D3D11/ns-d3d11-d3d11_blend_desc) |
 
 
 
- 
+ 
 
 ## <a name="depth-and-stencil-state"></a>深度和樣板狀態
 
 
 
-|                                                                                                                                                                |                                                                               |
+|  效果狀態                                                                                                                                                              | Group                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
 | DEPTHENABLEDEPTHWRITEMASKDEPTHFUNCSTENCILENABLESTENCILREADMASKSTENCILWRITEMASK                                                                                 | [ **D3D11 深度樣板 \_ \_ \_ DESC** 的成員](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencil_desc)    |
 | FRONTFACESTENCILFAILFRONTFACESTENCILZFAILFRONTFACESTENCILPASSFRONTFACESTENCILFUNCBACKFACESTENCILFAILBACKFACESTENCILZFAILBACKFACESTENCILPASSBACKFACESTENCILFUNC | [ **D3D11 \_ 深度 \_ STENCILOP \_ DESC** 的成員](/windows/desktop/api/D3D11/ns-d3d11-d3d11_depth_stencilop_desc) |
 
 
 
- 
+ 
 
 ## <a name="rasterizer-state"></a>轉譯器狀態
 
 
 
-|                                                                                                                                 |                                                                     |
+| 效果狀態                                                                                                                                | Group                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
 | FILLMODE                                                                                                                        | [**D3D11 \_ 填滿 \_ 模式**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_fill_mode)                        |
 | CULLMODE                                                                                                                        | [**D3D11 的 \_ 挑選 \_ 模式**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_cull_mode)                        |
@@ -62,19 +62,19 @@ ms.locfileid: "103933266"
 
 
 
- 
+ 
 
 ## <a name="sampler-state"></a>取樣器狀態
 
 
 
-|                                                                                                     |                                                               |
+| 效果狀態                                                                                                    | Group                                                              |
 |-----------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | Filter AddressU AddressV AddressW MipLODBias MaxAnisotropy ComparisonFunc 邊框 MinLOD MaxLOD | [ **D3D11 取樣器 \_ \_ DESC** 的成員](/windows/desktop/api/D3D11/ns-d3d11-d3d11_sampler_desc) |
 
 
 
- 
+ 
 
 如需範例，請參閱 [ (DIRECTX HLSL) 的取樣器類型 ](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-sampler) 。
 
@@ -94,7 +94,7 @@ ms.locfileid: "103933266"
 
 
 
- 
+ 
 
 ## <a name="defining-and-using-state-objects"></a>定義和使用狀態物件
 
@@ -145,6 +145,6 @@ SetBlendState( NoBlend, float4( 0.0f, 0.0f, 0.0f, 0.0f ), 0xFFFFFFFF );
 [ (Direct3D 11) 的效果格式 ](d3d11-effect-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 4612c6bd-bc1f-42ad-8465-c0d4b577d1db
 title: '效果狀態群組 (Direct3D 10) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c132db3a5258cbe3573ddc5103df8b3cbcf2085d
-ms.sourcegitcommit: 628fda3e63fd1d513ce9a5f55be8bbc4af4b2a4b
+ms.openlocfilehash: 4617f786b984c96b271600e05b3ea8da9b5701fd
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321672"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335565"
 ---
 # <a name="effect-state-groups-direct3d-10"></a>效果狀態群組 (Direct3D 10) 
 
@@ -17,20 +17,20 @@ ms.locfileid: "104321672"
 
 ## <a name="blend-state"></a>Blend 狀態
 
-| | |
+| 效果狀態 | Group |
 |-|-|
 | **ALPHATOCOVERAGEENABLE**、 **BLENDENABLE**、 **SRCBLEND**、 **DESTBLEND**、 **BLENDOP**、 **SRCBLENDALPHA**、 **DESTBLENDALPHA**、 **BLENDOPALPHA**、 **RENDERTARGETWRITEMASK** | [ **D3D10 \_ BLEND \_ DESC** 的成員](/windows/desktop/api/D3D10/ns-d3d10-d3d10_blend_desc) |
 
 ## <a name="depth-and-stencil-state"></a>深度和樣板狀態
 
-| | |
+| 效果狀態| Group |
 |-|-|
 | **DEPTHENABLE**、 **DEPTHWRITEMASK**、 **DEPTHFUNC**、 **STENCILENABLE**、 **STENCILREADMASK**、 **STENCILWRITEMASK** | [ **D3D10 深度樣板 \_ \_ \_ DESC** 的成員](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencil_desc) |
-| FRONTFACESTENCILFAIL * *、 **FRONTFACESTENCILZFAIL**、 **FRONTFACESTENCILPASS**、 **FRONTFACESTENCILFUNC**、 **BACKFACESTENCILFAIL**、 **BACKFACESTENCILZFAIL**、 **BACKFACESTENCILPASS**、 **BACKFACESTENCILFUNC** | [ **D3D10 \_ 深度 \_ STENCILOP \_ DESC** 的成員](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencilop_desc) |
+| **FRONTFACESTENCILFAIL**、 **FRONTFACESTENCILZFAIL**、 **FRONTFACESTENCILPASS**、 **FRONTFACESTENCILFUNC**、 **BACKFACESTENCILFAIL**、 **BACKFACESTENCILZFAIL**、 **BACKFACESTENCILPASS**、 **BACKFACESTENCILFUNC** | [ **D3D10 \_ 深度 \_ STENCILOP \_ DESC** 的成員](/windows/desktop/api/D3D10/ns-d3d10-d3d10_depth_stencilop_desc) |
 
 ## <a name="rasterizer-state"></a>轉譯器狀態
 
-| | |
+| 效果狀態| Group |
 |-|-|
 | FILLMODE | [**D3D10 \_ 填滿 \_ 模式**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_fill_mode) |
 | CULLMODE | [**D3D10 的 \_ 挑選 \_ 模式**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_cull_mode) |
@@ -38,7 +38,7 @@ ms.locfileid: "104321672"
 
 ## <a name="sampler-state"></a>取樣器狀態
 
-| | |
+| 效果狀態 | Group |
 |-|-|
 | **Filter**、 **AddressU**、 **AddressV**、 **AddressW**、 **MipLODBias**、 **MaxAnisotropy**、 **ComparisonFunc**、 **邊框**、 **MinLOD**、 **MaxLOD** | [ **D3D10 取樣器 \_ \_ DESC** 的成員](/windows/desktop/api/D3D10/ns-d3d10-d3d10_sampler_desc) |
 

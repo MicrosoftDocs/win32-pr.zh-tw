@@ -4,12 +4,12 @@ ms.assetid: c8c269e7-6e2a-4b5d-847c-6779e276b9af
 title: " (Direct3D 10) 協調系統"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ba84cd7d807474a1ff41f873d16cbd7eee07224
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e3da846ae4b989f6d8cb4741f9df8f7228e8970
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689163"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335462"
 ---
 # <a name="coordinate-systems-direct3d-10"></a> (Direct3D 10) 協調系統
 
@@ -17,19 +17,22 @@ Direct3D 10 的座標系統是針對圖元和材質所定義。
 
 
 
-|                                                                                                                                                                                                                                                                              |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 之間的差異：<br/> Direct3D 10 會將左上角的左上角定義為呈現目標的原點。<br/> Direct3D 9 會將左上圖元的中央定義為呈現目標的原點。<br/> |
+Direct3D 9 與 Direct3D 10 之間的差異：
+
+- Direct3D 10 會將左上角的左上角定義為呈現目標的原點。
+- Direct3D 9 會將左上圖元的中央定義為呈現目標的原點。
 
 
 
  
 
--   [圖元座標系統](#pixel-coordinate-system)
-    -   [Direct3D 9 的圖元座標系統](#pixel-coordinate-system-for-direct3d-9)
--   [材質座標系統](#texel-coordinate-system)
-    -   [材質座標系統](#texel-coordinate-system)
--   [相關主題](#related-topics)
+[圖元座標系統](#pixel-coordinate-system)
+- [Direct3D 9 的圖元座標系統](#pixel-coordinate-system-for-direct3d-9)
+
+[材質座標系統](#texel-coordinate-system)
+- [材質座標系統](#texel-coordinate-system)
+
+[相關主題](#related-topics)
 
 ## <a name="pixel-coordinate-system"></a>像素座標系統
 

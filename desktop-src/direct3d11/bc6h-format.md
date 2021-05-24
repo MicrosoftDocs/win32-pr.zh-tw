@@ -7,12 +7,12 @@ keywords:
 - DXGI_FORMAT_BC6H
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ed4b934df742a4d2c99e20b52b7172b64e598dc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 92ea15e0275bc478c0708ce08f531d8888a3c84d
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023833"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335222"
 ---
 # <a name="bc6h-format"></a>BC6H 格式
 
@@ -40,16 +40,16 @@ BC6H 是由下列 DXGI \_ 格式列舉值所指定：
 > [!Note]  
 > 色彩通道的16位浮點數格式通常稱為「半」浮點數格式。 此格式以下列位元配置︰
 >
-> |                       |                                                 |
+> |  格式                     | 位配置                                                |
 > |-----------------------|-------------------------------------------------|
 > | UF16 (不帶正負號的浮點數) | 5 個指數位元 + 11 個尾數位元              |
 > | SF16 (帶正負號的浮點數)   | 1 個正負號位元 + 5 個指數位元 + 10 個尾數位元 |
 >
 > 
 >
->  
+>  
 
- 
+ 
 
 BC6H 格式可用於 [Texture2D](/windows/desktop/direct3d10/d3d10-graphics-reference-resource-structures) (包括陣列)、Texture3D，或 TextureCube (包括陣列) 紋理資源。 同樣地，此格式適用於任何與這些資源建立關聯的 Mipmap 表面。
 
@@ -121,7 +121,7 @@ decompress_bc6h(x, y, block)
 
 
 
- 
+ 
 
 此表格中的每個格式皆可利用其模式位元進行識別。 前 10 個模式使用於分割為兩個區域的磚，並且其模式位元欄位之長度可為二或五。 這些區塊也包含了壓縮色彩端點 (72 或 75 個位元)、分割 (5 個位元)，以及分割索引 (46 個位元) 的欄位。
 
@@ -168,7 +168,7 @@ decompress_bc6h(x, y, block)
 
 
 
- 
+ 
 
 Endpt \[ i \] （0或1）分別是指第0個或第一組端點。
 
@@ -337,6 +337,6 @@ unsigned short finish_unquantize(int comp)
 [Direct3D 11 中的材質區塊壓縮](texture-block-compression-in-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.assetid: 565B28C1-DBD1-42B6-87F9-70743E4A2E4A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3705f4e1a0a88841560d67d5904e0f1b5dabd3f8
-ms.sourcegitcommit: a0cb986d5694b69d4a65b7d42a22694d02a6e83a
+ms.openlocfilehash: ed993618e021656dbc9377882e2961f7f0d62263
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108296333"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335642"
 ---
 # <a name="creating-a-root-signature"></a>建立根簽章
 
@@ -137,9 +137,8 @@ Texture2D bar : register(t0);
 
 
 
-|                        |                                                |                                              |
-|------------------------|------------------------------------------------|----------------------------------------------|
-| **RootParameterIndex** | **Contents**                                   |                                              |
+| RootParameterIndex                       | 目錄                                               | 值                                             |
+|------------------------|------------------------------------------------|----------------------------------------------|                                              
 | \[0\]                  | 根常數： {b2}                         |  (1 CBV)                                       |
 | \[1\]                  | 描述項資料表： {t2-t7，u0-u3}             |  (6 SRVs + 4 UAVs)                             |
 | \[2\]                  | 根 CBV： {b0}                               |  (1 CBV、靜態資料)                          |

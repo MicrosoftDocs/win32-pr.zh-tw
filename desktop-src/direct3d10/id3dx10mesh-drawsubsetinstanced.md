@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 314f85d896be629254def560e55ce6a05bfe1fbd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2e28d7a7d2c1d743090832d68793ec3743662308
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991483"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335632"
 ---
 # <a name="id3dx10meshdrawsubsetinstanced-method"></a>ID3DX10Mesh：:D rawSubsetInstanced 方法
 
@@ -81,7 +81,7 @@ HRESULT DrawSubsetInstanced(
 
 
 
-|            |                 |
+| Subset     | 笑臉           |
 |------------|-----------------|
 | AttribID 0 | 臉部 0 ~ 50    |
 | AttribID 1 | 臉部 51 ~ 125  |

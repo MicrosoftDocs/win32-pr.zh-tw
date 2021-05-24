@@ -4,12 +4,12 @@ ms.assetid: 19c81383-6ac7-49ea-98a3-bf761a32ab40
 title: " (Direct3D 10) 的 API 層"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4427083bdcaf389c4b01b590a1bc3fef7eb878b4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8b07b33dfd8280af13ea3df74e5e6d0fd040bb2c
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385892"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335412"
 ---
 # <a name="api-layers-direct3d-10"></a> (Direct3D 10) 的 API 層
 
@@ -62,9 +62,10 @@ Direct3D 10 應用程式可以使用裝置功能來控制裝置同步處理。 �
 
 
 
-|                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 之間的差異：<br/> 與 Direct3D 9 不同的是，Direct3D 10 API 預設為完全安全線程。<br/> |
+
+Direct3D 9 與 Direct3D 10 之間的差異：
+
+- 與 Direct3D 9 不同的是，Direct3D 10 API 預設為完全安全線程。
 
 
 

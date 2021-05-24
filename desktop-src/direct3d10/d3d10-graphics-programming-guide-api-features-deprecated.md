@@ -4,33 +4,29 @@ ms.assetid: ad3eff8e-a225-47c0-a53f-b1a3c94bcaac
 title: " (Direct3D 10) 的已淘汰功能"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a66b6fe5092427cd66876ab5f6e1d7aaf83f0880
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 95bb06738f046b92290d35cff180f3879f4fa737
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110633"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335542"
 ---
 # <a name="deprecated-features-direct3d-10"></a> (Direct3D 10) 的已淘汰功能
 
 您可以在 [這裡](d3d10-graphics-programming-guide-api-features.md)找到 Direct3D 10 中可用的功能清單。 此頁面列出 Direct3D 10 中已不再支援的 Direct3D 9 功能。
 
+Direct3D 10 中最大的功能變更包括：
 
-
-|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 10 中最大的功能變更包括：<br/> Direct3D 10 不再支援固定函式轉換和光源管線。<br/> Direct3D 10 不再支援固定函式材質 blender (有時也稱為固定函式圖元著色器) 。<br/> Direct3D 10 會實作為新的點陣化規則，這些規則比 Direct3D 9 中執行的舊版 GDI 規則更簡單且更簡潔。 例如，不再支援線條的最後圖元控制項。<br/> |
-
-
-
- 
+- Direct3D 10 不再支援固定函式轉換和光源管線。
+- Direct3D 10 不再支援固定函式材質 blender (有時也稱為固定函式圖元著色器) 。
+- Direct3D 10 會實作為新的點陣化規則，這些規則比 Direct3D 9 中執行的舊版 GDI 規則更簡單且更簡潔。 例如，不再支援線條的最後圖元控制項。
 
 以下是 direct3d 10 中已被取代的 Direct3D 9 功能完整清單。
 
--   **Alpha blend**。 Alpha blend 現在與彩色 blend 的程式設計無關。 Direct3D 10 會新增預設啟用的 Alpha blend 啟用切換。 如需詳細資訊，請參閱 [ (Direct3D 10) 的狀態物件 ](d3d10-graphics-programming-guide-api-features-state-objects.md) 。
--   **Alpha 測試**。 Alpha 測試是 Direct3D 9 的固定功能圖元行為。 適用于 Direct3D 10 和更新版本的 Alpha 測試會移至可程式化的圖元著色器。 如需有關在 Direct3D 10 和更高版本中模擬 Direct3D 9 Alpha 測試功能的詳細資訊，請參閱 [2010 年6月的 DIRECTX SDK](https://www.microsoft.com/download/en/details.aspx?id=6812)中的 FixedFuncEMU 範例。
--   **Blend 模式選項**。 BOTHSRCALPHA 已從 D3D10 BLEND 中移除 \_ ，因為它在 BOTHINVSRCALPHA 中是多餘的。 如需詳細資訊，請參閱 [**D3D10 \_ BLEND**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_blend) 。
--   **封鎖壓縮格式**。 在 Direct3D 10 中，預乘的 Alpha 或非預乘 Alpha 沒有任何差異。 這些 Direct3D 9 格式對應至下列 Direct3D 10 格式： 
+- **Alpha blend**。 Alpha blend 現在與彩色 blend 的程式設計無關。 Direct3D 10 會新增預設啟用的 Alpha blend 啟用切換。 如需詳細資訊，請參閱 [ (Direct3D 10) 的狀態物件 ](d3d10-graphics-programming-guide-api-features-state-objects.md) 。
+- **Alpha 測試**。 Alpha 測試是 Direct3D 9 的固定功能圖元行為。 適用于 Direct3D 10 和更新版本的 Alpha 測試會移至可程式化的圖元著色器。 如需有關在 Direct3D 10 和更高版本中模擬 Direct3D 9 Alpha 測試功能的詳細資訊，請參閱 [2010 年6月的 DIRECTX SDK](https://www.microsoft.com/download/en/details.aspx?id=6812)中的 FixedFuncEMU 範例。
+- **Blend 模式選項**。 BOTHSRCALPHA 已從 D3D10 BLEND 中移除 \_ ，因為它在 BOTHINVSRCALPHA 中是多餘的。 如需詳細資訊，請參閱 [**D3D10 \_ BLEND**](/windows/desktop/api/D3D10/ne-d3d10-d3d10_blend) 。
+- **封鎖壓縮格式**。 在 Direct3D 10 中，預乘的 Alpha 或非預乘 Alpha 沒有任何差異。 這些 Direct3D 9 格式對應至下列 Direct3D 10 格式： 
 
     | Direct3D 9 | Direct3D 10 |
     |------------|-------------|

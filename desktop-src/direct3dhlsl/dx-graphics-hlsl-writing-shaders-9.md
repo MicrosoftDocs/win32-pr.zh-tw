@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 504a1d9ff5a2aa2b37227f0016cdc97d28d967fe
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 64a64d08518cb987850c87da3fb19c264519a7f7
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023864"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335382"
 ---
 # <a name="writing-hlsl-shaders-in-direct3d-9"></a>在 Direct3D 9 撰寫 HLSL 著色器
 
@@ -493,7 +493,7 @@ float4 main(float4 tex[4] : TEXCOORD) : COLOR
 >
 > 使用 Microsoft Direct3D debug runtime 可協助您捕捉材質中的元件數目與取樣器之間的不符情形。
 
- 
+ 
 
 ## <a name="writing-functions"></a>撰寫函數
 
@@ -693,7 +693,7 @@ float main( float input : COLOR0) : COLOR0
 
 
 ```
-return  light.enabled = true ;
+return  light.enabled;
 ```
 
 
@@ -792,6 +792,6 @@ HLSL 現在支援下列每種類型的流量控制：
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

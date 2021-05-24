@@ -4,12 +4,12 @@ ms.assetid: b2839da9-60ed-4f6c-9cc7-eac53647cca7
 title: " (Direct3D 10) 的狀態物件"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a06e8603361a83049440774cfd2e12b4148b183
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a51c05e3e220e510c462265941549f91e6368a9
+ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970525"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110335422"
 ---
 # <a name="state-objects-direct3d-10"></a> (Direct3D 10) 的狀態物件
 
@@ -53,9 +53,9 @@ ms.locfileid: "106970525"
 
 
 
-|                                                                                                                                                                                                             |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 之間的差異：<br/> 在 Direct3D 10 中，取樣器物件不再系結至特定材質-它只會說明如何針對任何附加的資源進行篩選。 |
+Direct3D 9 與 Direct3D 10 之間的差異：
+
+- 在 Direct3D 10 中，取樣器物件不再系結至特定材質，它只會說明如何針對任何附加的資源進行篩選。
 
 
 
