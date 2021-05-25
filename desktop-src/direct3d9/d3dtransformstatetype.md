@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: c618e0e19bf7dd01dec73d35436f23189f9e78a6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 022aa20fab0739b32aa75eb5f4bc575c0a8ad853
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997242"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342993"
 ---
 # <a name="d3dtransformstatetype-enumeration"></a>D3DTRANSFORMSTATETYPE 列舉
 
@@ -132,7 +132,7 @@ typedef enum D3DTRANSFORMSTATETYPE {
 
 
 
-| 巨集                                                  |                                                                                                                                                                       |
+| 巨集                                                  | Description                                                                                                                                                                      |
 |---------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**D3DTS \_ 世界**](d3dts-world.md)                     | 相當於 D3DTS \_ WORLDMATRIX (0) 。                                                                                                                                  |
 | [**D3DTS \_WORLDMATRIX**](d3dts-worldmatrix.md) (索引)  | 識別要為位於索引的世界矩陣設定的轉換矩陣。 多個世界矩陣只用于頂點混色。 否則只 \_ 會使用 D3DTS WORLD。 |

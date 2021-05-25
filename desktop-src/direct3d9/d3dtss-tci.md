@@ -4,12 +4,12 @@ ms.assetid: b15509b4-7db1-429a-9468-be7a11dee505
 title: D3DTSS_TCI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da9ca23ebc4dd121527721a9d10a2db55a4d555
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 58746f17eb18b679a4dfe4957ac46236baeec35d
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995255"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342973"
 ---
 # <a name="d3dtss_tci"></a>D3DTSS \_ TCI
 
@@ -35,7 +35,7 @@ ms.locfileid: "107995255"
 
 
 
-|                          |            |
+|  需求                        | 值           |
 |--------------------------|------------|
 | 標頭                   | d3d9caps。h |
 | 最低作業系統 | Windows 98 |

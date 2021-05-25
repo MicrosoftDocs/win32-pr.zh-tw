@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 33aba75cafff5f9e69a74d5570f98455a9853289
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: db4b25cb44b3b43b3b9754f241e2c505bdfedbc7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106975661"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343393"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>D3DADAPTER \_ IDENTIFIER9 結構
 
@@ -182,9 +182,8 @@ GDI 的裝置名稱。
 
 
 
-|       |                                               |
+| Bits  |  Description                                             |
 |-------|-----------------------------------------------|
-| Bits  |                                               |
 | 31-16 | 年份，從1999向上的十進位數。 |
 | 15-8  | 月份，介於1到12之間的十進位數。     |
 | 7-0   | Day，介於1到31之間的十進位數。       |
@@ -197,7 +196,7 @@ GDI 的裝置名稱。
 
 
 
-|     |                                                       |
+| 值    |  描述                                                     |
 |-----|-------------------------------------------------------|
 | 0   | 未通過認證。                                        |
 | 1   | 經 WHQL 驗證，但沒有可用的日期資訊。 |

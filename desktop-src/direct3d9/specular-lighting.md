@@ -4,12 +4,12 @@ ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: " (Direct3D 9) 的反射光源"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab378d4ca3f00ef81c5048e6ad6cc85eaeb18ad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2b16d71bd8d814e104cf8a90d1d1fe9b15ba10f3
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104559533"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343673"
 ---
 # <a name="specular-lighting-direct3d-9"></a> (Direct3D 9) 的反射光源
 
@@ -19,13 +19,9 @@ ms.locfileid: "104559533"
 
 ## <a name="specular-lighting-equation"></a>反射光源方程式
 
-反射光源以下列方程式描述。
+反射光源的描述如下方程式：
 
-
-
-|                                                                             |
-|-----------------------------------------------------------------------------|
-| 反射光源 = Cs \* 總和 \[ Ls \* (N ·H) <sup>P</sup> \* Atten \* 位置\] |
+**反射光源 = Cs \* 總和 \[ Ls \* (N ·H) <sup>P</sup> \* Atten \* 位置\]**
 
 
 
@@ -75,11 +71,7 @@ if(SPECULARMATERIALSOURCE == D3DMCS_COLOR1)
 
 半程向量 (H) 存在於兩個向量之間路程的一半：從物件頂點到光源的向量，以及從物件頂點到相機位置的向量。 Direct3D 提供兩種方式來計算半程向量。 當 D3DRS \_ LOCALVIEWER 設定為 **TRUE** 時，系統會使用相機的位置和頂點的位置，以及光線的方向向量來計算中間向量。 下列公式說明這點。
 
-
-
-|                                           |
-|-------------------------------------------|
-| H = norm(norm(Cₚ - Vₚ) + L<sub>dir</sub>) |
+**H = 標準 (標準 (Cp-Vp) + L <sub>dir</sub>)**
 
 
 
@@ -99,11 +91,7 @@ if(SPECULARMATERIALSOURCE == D3DMCS_COLOR1)
 
 以這種方式判斷半程向量可能會需要大量運算資源。 另一種方式是設定 D3DRS \_ LOCALVIEWER = **FALSE** ，指示系統在 Z 軸上有無限遠的角度時，採取行動。 其計算公式如下。
 
-
-
-|                                     |
-|-------------------------------------|
-| H = norm((0,0,1) + L<sub>dir</sub>) |
+**H = 標準 ( (0、0、1) + L <sub>dir</sub>)**
 
 
 

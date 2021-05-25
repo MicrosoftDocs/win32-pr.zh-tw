@@ -4,12 +4,12 @@ ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a165ff1d550612ba302c94a0b8181affe040921
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fda81aa7f77dcaf03eb06b357ebfb91b4956f6d4
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991647"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343363"
 ---
 # <a name="d3dcaps3"></a>D3DCAPS3
 
@@ -87,7 +87,7 @@ ms.locfileid: "106991647"
 
 
 
-|                          |            |
+|  需求                        | 值           |
 |--------------------------|------------|
 | 標頭                   | d3d9caps。h |
 | 最低作業系統 | Windows 98 |

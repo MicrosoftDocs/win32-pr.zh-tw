@@ -5,12 +5,12 @@ ms.assetid: B2288866-E95F-46B8-A7A1-19888F029C03
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48e6af0d0a93d55f700478ec839f3864ee0efbcd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7079207f91185cc14b37d9056a4fa813b251bce5
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548459"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342813"
 ---
 # <a name="direct3d-12-programming-environment-setup"></a>Direct3D 12 程式設計環境設定
 
@@ -30,11 +30,11 @@ ms.locfileid: "104548459"
 
 Direct3D 12 標頭和程式庫是 Windows 10 SDK 的一部分。 使用 Direct3D 12 不需要個別的下載或安裝。
 
-在您安裝 Windows 10 SDK 軟體和 Visual Studio 之後，您的 Direct3D 12 程式設計環境的設定已完成。 建議使用 visual Studio 2019，因為它將包含 D3D12 圖形偵錯工具，但舊版的 Visual Studio 適用于程式開發。
+在您安裝 Windows 10 SDK 軟體並 Visual Studio 之後，您的 Direct3D 12 程式設計環境設定就會完成。 建議使用 Visual Studio 2019，因為它會包含 D3D12 圖形偵錯工具，但舊版的 Visual Studio 適用于程式開發。
 
 若要使用 [Direct3D 12 API](direct3d-12-reference.md)，請包含 D3d12 和 D3d12 的連結，或直接在 D3d12.dll 中查詢進入點。
 
-以下是可用的標頭和程式庫。 靜態程式庫的位置取決於電腦上執行的 Windows 10 版本 (32 位或64位) 。
+以下是可用的標頭和程式庫。 靜態程式庫的位置取決於電腦上執行的 Windows 10)  (32 位或64位的版本。
 
 
 
@@ -70,10 +70,9 @@ C + + 是 Direct3D 12 開發的唯一支援語言，c # 和其他 .NET 語言則
 
 
 
-|                                                                                  |                                                                                                                                                                                                                                                                        |                                                                                                            |
+| 程式庫                                                                                 |  用途                                                                                                                                                                                                                                                                      | 文件                                                                                                           |
 |----------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|
-| **程式庫**                                                                      | **目的**                                                                                                                                                                                                                                                            | **文件集**                                                                                          |
-| [DirectX 12 的 DirectX 工具套件](https://github.com/Microsoft/DirectXTK12) | 用於撰寫適用于通用 Windows 平臺之 Direct3D 12 c + + 程式碼 (UWP) 應用程式、適用于 Windows 10 的 Win32 桌面應用程式和 Xbox One 專屬應用程式的一系列 helper 類別。                                                                         | [DirectX12TK wiki](https://github.com/Microsoft/DirectXTK12/wiki)                                          |
+| [DirectX 12 的 DirectX 工具套件](https://github.com/Microsoft/DirectXTK12) | 用來撰寫通用 Windows 平臺 (UWP) 應用程式的 Direct3D 12 c + + 程式碼、適用于 Windows 10 的 Win32 桌面應用程式，以及 Xbox One 專屬應用程式的一系列 helper 類別。                                                                         | [DirectX12TK wiki](https://github.com/Microsoft/DirectXTK12/wiki)                                          |
 | [DirectXTex](https://github.com/Microsoft/DirectXTex)                      | 您可以使用此功能來讀取和寫入 DDS 檔案，以及執行各種材質內容處理作業，包括調整大小、格式轉換、mip 對應產生、針對 Direct3D 執行時間材質資源封鎖壓縮，以及將高度對應到一般地圖的轉換。 | [DirectXTex wiki](https://github.com/Microsoft/DirectXTex/wiki)                                            |
 | [DirectXMesh](https://github.com/Microsoft/DirectXMesh)                   | 您可使用此值來執行各種幾何內容處理作業，包括產生法線和正切框架、三角形相鄰計算和頂點快取優化。                                                                                | [DirectXMesh wiki](https://github.com/Microsoft/DirectXMesh/wiki)                                          |
 | [DirectXMath](https://github.com/Microsoft/DirectXMath)                     | 支援向量、純量、矩陣、四元數及許多其他數學運算的大量協助程式類別和方法。                                                                                                                               | [MSDN 上的 DirectXMath 檔](/windows/desktop/dxmath/ovw-xnamath-progguide) |
@@ -81,7 +80,7 @@ C + + 是 Direct3D 12 開發的唯一支援語言，c # 和其他 .NET 語言則
 
 
 
- 
+ 
 
 ## <a name="samples"></a>範例
 
@@ -100,7 +99,7 @@ Debug 層提供大量的額外參數和一致性驗證 (例如驗證著色器連
 
 當 debug 圖層列出記憶體流失時，它會輸出物件介面指標清單及其易記名稱。 預設的易記名稱是「 &lt; 未命名」 &gt; 。 您可以使用 [**ID3D12Object：： SetName**](/windows/desktop/api/d3d12/nf-d3d12-id3d12object-setname) 方法來設定易記名稱。 一般而言，您應該從生產版本編譯這些呼叫。
 
-建議您使用 debug 層來將您的應用程式進行偵錯工具，以確保這些應用程式的錯誤和警告都已清除。 Debug 層可協助您撰寫 Direct3D 12 程式碼。 此外，當您使用 debug 圖層時，您的產能會增加，因為您可以立即查看其來源的隱匿轉譯錯誤或甚至是黑色畫面的原因。 Debug 層提供許多問題的警告。 例如：
+建議您使用 debug 層來將您的應用程式進行偵錯工具，以確保這些應用程式的錯誤和警告都已清除。 Debug 層可協助您撰寫 Direct3D 12 程式碼。 此外，當您使用 debug 圖層時，您的產能會增加，因為您可以立即查看其來源的隱匿轉譯錯誤或甚至是黑色畫面的原因。 Debug 層提供許多問題的警告。 例如︰
 
 -   忘記設定材質，但在您的圖元著色器中讀取它。
 -   輸出深度，但沒有系結的深度樣板狀態。
@@ -118,7 +117,7 @@ Debug 層提供大量的額外參數和一致性驗證 (例如驗證著色器連
 
 ## <a name="educational-videos"></a>教育影片
 
-[DirectX advanced learning 影片教學課程](https://www.youtube.com/channel/UCiaX2B8XiXR70jaN7NK-FpA)有一些 Direct3D 12 和 Windows 10 相關影片，包括圖形偵錯工具的影片，以及報告圖形 bug。
+[DirectX advanced learning 影片教學課程](https://www.youtube.com/channel/UCiaX2B8XiXR70jaN7NK-FpA)有許多 Direct3D 12 和 Windows 10 相關影片，包括圖形偵錯工具的影片，以及報告圖形 bug。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -127,6 +126,6 @@ Debug 層提供大量的額外參數和一致性驗證 (例如驗證著色器連
 [瞭解 Direct3D 12](directx-12-getting-started.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

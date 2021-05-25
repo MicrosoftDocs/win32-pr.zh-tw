@@ -4,12 +4,12 @@ ms.assetid: 36b2b715-5ced-4246-840e-8ea343521ef4
 title: D3DTA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898e1bb66f74a1087a9da186599469bb195734ce
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9fe6dd62ce7fc7fe4d438290af1ddb33a75813f0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995285"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343013"
 ---
 # <a name="d3dta"></a>D3DTA
 
@@ -65,7 +65,7 @@ ms.locfileid: "107995285"
 
 
 
-|                          |             |
+|   需求                       |  值           |
 |--------------------------|-------------|
 | 標頭                   | d3d9types。h |
 | 最低作業系統 | Windows 98  |

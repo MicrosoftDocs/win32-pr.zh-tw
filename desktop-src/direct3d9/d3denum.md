@@ -4,12 +4,12 @@ ms.assetid: 78ff4433-f0b5-4bbb-b2c0-bd389fbc31ce
 title: D3DENUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 059c2f9f1bf32275423bb9f2a9f484c12824bcda
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 829d03bf596c24bfb6b3443ace859629f723a664
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971132"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343253"
 ---
 # <a name="d3denum"></a>D3DENUM
 
@@ -54,7 +54,7 @@ ms.locfileid: "106971132"
 
 
 
-|                          |            |
+| 需求                         | 值           |
 |--------------------------|------------|
 | 標頭                   | d3d9。h     |
 | 最低作業系統 | Windows 98 |

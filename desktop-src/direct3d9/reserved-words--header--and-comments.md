@@ -4,20 +4,18 @@ ms.assetid: 680211de-3f81-4ea7-b03e-741096b5dde0
 title: 保留字、標頭和批註
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2696aaf6e635f08124e28392d0a8faf63c39a85
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8879d0dbb518f92f0d8a6c38793ab315ae48b73e
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509883"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343653"
 ---
 # <a name="reserved-words-header-and-comments"></a>保留字、標頭和批註
 
 下表顯示已保留且不得使用的單字。
 
-
-
-|                  |          |           |
+| 保留字 | 保留字 | 保留字|
 |------------------|----------|-----------|
 | ARRAY            | DWORD    | UCHAR     |
 | BINARY           | FLOAT    | ULONGLONG |

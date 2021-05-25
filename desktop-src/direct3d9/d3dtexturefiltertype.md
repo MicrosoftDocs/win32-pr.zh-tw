@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 212fd05755ebf554c3c57e7ac45dcf8947f2d753
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bd6038e1b3d2b2f85e5766605583db9879427343
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986729"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343003"
 ---
 # <a name="d3dtexturefiltertype-enumeration"></a>D3DTEXTUREFILTERTYPE 列舉
 
@@ -93,11 +93,9 @@ typedef enum D3DTEXTUREFILTERTYPE {
 
 單色紋理的卷積篩選。 請參閱 [D3DFMT \_ A1](d3dformat.md)。
 
+Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> 此旗標僅適用于 Direct3D 9Ex。<br/> |
+- 此旗標僅適用于 Direct3D 9Ex。
 
 
 

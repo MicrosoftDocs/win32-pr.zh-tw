@@ -4,12 +4,12 @@ ms.assetid: 1294171e-b3f6-4264-8411-b69427cefe7b
 title: D3DPRESENTFLAG
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe3b7fe950a6fe09425aa47a79ce8f803eb81298
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 578d41119980719e69b9eb0e502c025414018f73
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970324"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343093"
 ---
 # <a name="d3dpresentflag"></a>D3DPRESENTFLAG
 
@@ -171,7 +171,7 @@ ms.locfileid: "106970324"
 
 
 
-|                          |             |
+| 需求                         | 值            |
 |--------------------------|-------------|
 | 標頭                   | d3d9types。h |
 | 最低作業系統 | Windows 98  |

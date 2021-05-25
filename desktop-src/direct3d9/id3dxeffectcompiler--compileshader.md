@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 375646202e102623053c179398329ad2286e6c1b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3e8d1d72fccd5c4ad47d21d05ee46013860a7743
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986111"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343623"
 ---
 # <a name="id3dxeffectcompilercompileshader-method"></a>ID3DXEffectCompiler：： CompileShader 方法
 
@@ -115,7 +115,7 @@ HRESULT CompileShader(
 
 
 
-|                       |                                                                       |
+| Targets                      | 函式                                                                      |
 |-----------------------|-----------------------------------------------------------------------|
 | 頂點著色器目標 | vs \_ 1 \_ 1、vs \_ 2 \_ 0、vs \_ 2 \_ sw、vs \_ 3 \_ 0                               |
 | 圖元著色器目標  | ps \_ 1 \_ 1、ps \_ 1 \_ 2、ps \_ 1 \_ 3、ps \_ 1 \_ 4、ps \_ 2 \_ 0、ps \_ 2 \_ sw、ps \_ 3 \_ 0 |

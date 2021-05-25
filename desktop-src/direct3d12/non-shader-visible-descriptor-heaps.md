@@ -5,12 +5,12 @@ ms.assetid: 85934873-8889-4564-A717-28A00614B38C
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 894640cde142f1241b088518ba7140ffb9405152
-ms.sourcegitcommit: 015fb35e736a235d3c9becff1f6832a0965b4303
+ms.openlocfilehash: d51d30c7a99250ee0842b79d76ccebb6150bcf9a
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104548377"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343453"
 ---
 # <a name="non-shader-visible-descriptor-heaps"></a>非著色器可見描述元堆積
 
@@ -41,13 +41,12 @@ ms.locfileid: "104548377"
 
 
 
-|                   |                                    |                                        |
+|                   | 著色器可見、僅限 CPU 寫入                                   | 非著色器可見、CPU 讀取/寫入                                       |
 |-------------------|------------------------------------|----------------------------------------|
-|                   | **著色器可見、僅限 CPU 寫入** | **非著色器可見、CPU 讀取/寫入** |
 | **CBV，SRV，UAV** | 是                                | 是                                    |
 | **採樣**       | 是                                | 是                                    |
-| **RTV**           | 不可以                                 | 是                                    |
-| **DSV**           | 不可以                                 | 是                                    |
+| **RTV**           | 否                                 | 是                                    |
+| **DSV**           | 否                                 | 是                                    |
 
 
 

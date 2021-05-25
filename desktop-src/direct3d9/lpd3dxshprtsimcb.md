@@ -4,12 +4,12 @@ ms.assetid: 1d7e2149-d2ca-47da-be1f-8273fd9bd30a
 title: LPD3DXSHPRTSIMCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 895d6fd3a7d9f93e858c08d1aaae416f1bf3abad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5a7c4911bf2a7b7fa2aa83422a206644f6eb747
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467783"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342803"
 ---
 # <a name="lpd3dxshprtsimcb"></a>LPD3DXSHPRTSIMCB
 
@@ -43,7 +43,7 @@ lpUserCoNtext-傳遞給回呼函式的使用者定義值指標;通常由應用�
 
 
 
-|                          |             |
+| 需求                         | 值            |
 |--------------------------|-------------|
 | 標頭                   | d3dx9mesh。h |
 | 匯入程式庫           | d3dx9 .lib   |

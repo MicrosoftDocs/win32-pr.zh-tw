@@ -4,12 +4,12 @@ description: 建立適用于 Windows 的 Microsoft DirectX 遊戲是新開發人
 ms.assetid: fd460c52-9854-4ffe-b89e-5219be2e11f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae09cd127a30401ae0493f5dd770fe1e67607b45
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4bac8ca2805fed9ec42faf9deda9ddd51da39685
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967905"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343583"
 ---
 # <a name="get-started-with-directx-for-windows"></a>開始使用適用于 Windows 的 DirectX
 
@@ -39,7 +39,7 @@ ms.locfileid: "106967905"
 
 
 
-|                                                                                                    |                                                                                                           |
+| 主題                                                                                                   | 描述                                                                                                           |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | [使用 DirectX 裝置資源](work-with-dxgi.md)                                           | 瞭解如何使用 DXGI 來建立虛擬化圖形裝置，以及建立和設定交換鏈。     |
 | [瞭解 Direct3D 11 轉譯管線](understand-the-directx-11-2-graphics-pipeline.md) | 瞭解如何連結至 DirectX 裝置資源類別，並使用 Direct3D 圖形管線進行繪製。 |
@@ -47,8 +47,8 @@ ms.locfileid: "106967905"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

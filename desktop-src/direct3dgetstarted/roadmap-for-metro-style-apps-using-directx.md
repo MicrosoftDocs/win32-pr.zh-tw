@@ -4,12 +4,12 @@ description: 以下是可協助您開始使用 DirectX 和 c + + 開發需要大
 ms.assetid: d7921f38-e384-4a83-b458-ee71f7044468
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eca95e1fe281253705620136afdced3cb705fe02
-ms.sourcegitcommit: db89157e3be911fdce2e543e99faa31fb2403bc8
+ms.openlocfilehash: 11b285e850bd952a0a24638a2bd8c3c0b2d987d0
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "104024371"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343563"
 ---
 # <a name="roadmap-for-desktop-directx-apps"></a>桌面 DirectX 應用程式的藍圖
 
@@ -101,7 +101,7 @@ ms.locfileid: "104024371"
 | [**Type system (c + +/CX)**](/cpp/cppcx/type-system-c-cx?view=vs-2019) | C + +/CX。支援之類型的參考內容 |
 | [**命名空間 (c + +/CX)**](/cpp/cppcx/namespaces-reference-c-cx?view=vs-2019) | 命名空間的參考內容，其中包含可在 Windows Store 應用程式中使用的 c + + 特定類型。 |
 
-| | |
+| 主題 | 描述 |
 |-|-|
 | [ (DirectX 和 c + + 的非同步程式設計) ](/previous-versions/windows/apps/hh994919(v=win.10)) | 瞭解 DirectX 應用程式和遊戲的非同步和多執行緒程式設計。 |
 | [C + + 中的非同步程式設計](/previous-versions/windows/apps/hh780559(v=win.10)) | 描述使用 task 類別來取用 Windows 執行階段非同步方法的基本方式。 |
@@ -110,7 +110,7 @@ ms.locfileid: "104024371"
 
 ## <a name="additional-useful-libraries-for-windows-c-programming"></a>適用于 Windows c + + 程式設計的其他實用程式庫
 
-| | |
+| 主題 | 描述 |
 |-|-|
 | [C + + 標準範本庫](https://msdn.microsoft.com/library/c191tb28(v=VS.71).aspx) | Windows 執行階段類型適用于標準範本程式庫類型。 大部分的 c + + Windows Store 應用程式都會使用標準範本程式庫集合和演算法，但在 ABI 界限除外。 |
 | [平行模式程式庫](/previous-versions/visualstudio/visual-studio-2010/dd492418(v=vs.100)) | PPL 提供的演算法和類型可簡化 CPU 上的工作平行處理原則和資料平行處理原則。  |

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 41327dc66f676c6f498ad0cefb23202bedc13112
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 58354e35ca8456f6fde57d2f2567a6b6a202f6d7
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991450"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343033"
 ---
 # <a name="d3dswapeffect-enumeration"></a>D3DSWAPEFFECT 列舉
 
@@ -73,9 +73,9 @@ typedef enum D3DSWAPEFFECT {
 
 使用可在主要介面上重迭的影片記憶體私人區域。 當重迭顯示時，不會執行任何複製。 覆迭作業是在硬體中執行，而不需要修改主要介面中的資料。
 
-|                                                                                                                                                                                         |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> D3DSWAPEFFECT 重迭 \_ 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。<br/> |
+Direct3D 9 與 Direct3D 9Ex 之間的差異：
+
+- D3DSWAPEFFECT 重迭 \_ 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。
 
 </dd> <dt>
 
@@ -87,9 +87,9 @@ typedef enum D3DSWAPEFFECT {
 > [!Note]  
 > 如果您使用 D3DSWAPEFFECT FLIPEX 建立交換鏈 \_ ，則當您呈現新的框架以供顯示時，無法覆寫 [**D3DPRESENT \_ 參數**](d3dpresent-parameters.md)結構的 **hDeviceWindow** 成員。 也就是說，您必須將 **Null** 傳遞至 [**IDirect3DDevice9Ex：:P resentex**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex)的 *hDestWindowOverride* 參數，以指示執行時間使用 **D3DPRESENT \_ 參數** 的 **hDeviceWindow** 成員進行簡報。
 
-|                                                                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> D3DSWAPEFFECT \_ FLIPEX 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。<br/> |
+Direct3D 9 與 Direct3D 9Ex 之間的差異：
+
+- D3DSWAPEFFECT \_ FLIPEX 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ ms.assetid: c1321957-4ba5-45d0-984a-4f4267221c59
 title: D3DVS20CAPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8caccdebe3dc67b6299c038935e26c0dbac2be6d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 65bd0905a0996e2dc9df77adb0896c9397a93450
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971966"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342943"
 ---
 # <a name="d3dvs20caps"></a>D3DVS20CAPS
 
@@ -35,7 +35,7 @@ ms.locfileid: "106971966"
 
 
 
-|                          |            |
+| 需求                         | 值           |
 |--------------------------|------------|
 | 標頭                   | d3d9caps。h |
 | 最低作業系統 | Windows 98 |

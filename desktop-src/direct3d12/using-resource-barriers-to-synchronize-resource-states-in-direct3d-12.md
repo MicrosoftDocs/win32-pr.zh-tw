@@ -5,12 +5,12 @@ ms.assetid: 3AB3BF34-433C-400B-921A-55B23CCDA44F
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c766f18e85ab8acc2ed0afad8e680d566a723a68
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: df27e7997b4f3f56ae8e87688e5cc136dc7eb87d
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104548453"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343473"
 ---
 # <a name="using-resource-barriers-to-synchronize-resource-states-in-direct3d-12"></a>在 Direct3D 12 中使用資源阻礙來同步處理資源狀態
 
@@ -112,9 +112,8 @@ ms.locfileid: "104548453"
 
 
 
-| 狀態旗標                    | 可提升狀態                             |                                      |
+| 狀態旗標                    | 緩衝區和 Simultaneous-Access 紋理                             | 非同時存取的材質                                     |
 |-------------------------------|----------------------------------------------|--------------------------------------|
-|                               | **緩衝區和 Simultaneous-Access 紋理** | **非同時存取的材質** |
 | 頂點 \_ 和 \_ 常數 \_ 緩衝區 | 是                                          | 否                                   |
 | 索引 \_ 緩衝區                 | 是                                          | 否                                   |
 | 呈現 \_ 目標                | 是                                          | 否                                   |

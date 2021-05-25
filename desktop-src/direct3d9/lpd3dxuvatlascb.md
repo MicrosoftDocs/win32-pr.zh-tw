@@ -4,12 +4,12 @@ ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXU加值稅LASCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbda7c58ef001a936b01f3af2027f9207c3d2770
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: dfe073b5e6a798ccb74421d42502b089d59be11f
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970892"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342793"
 ---
 # <a name="lpd3dxuvatlascb"></a>LPD3DXU加值稅LASCB
 
@@ -43,7 +43,7 @@ typedef HRESULT (*LPD3DXUVATLASCB (
 
 
 
-|                          |             |
+| 需求                         | 值            |
 |--------------------------|-------------|
 | 標頭                   | d3dx9mesh。h |
 | 匯入程式庫           | d3dx9 .lib   |

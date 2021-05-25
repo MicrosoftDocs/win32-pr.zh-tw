@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 2386762eaa45f1eefbccac97723c3ad71c3a76fd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a7ad803535032705e6e1bb5456109486c59d190
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974845"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343063"
 ---
 # <a name="d3drenderstatetype-enumeration"></a>D3DRENDERSTATETYPE 列舉
 
@@ -1012,7 +1012,7 @@ N-修補正常插補的程度。 值可以是 D3DDEGREE \_ 線性 (預設) 或 D
 
 
 
-| 轉譯狀態        |                    |
+| 轉譯狀態        |   紋理取樣器                 |
 |----------------------|--------------------|
 | ps \_ 1 \_ 1 到 ps \_ 1 \_ 3 | 4紋理取樣器 |
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: d8d779ad714e396f9c9a82bbbc42ddd09b76e2ac
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 55edb432913720f58860d4f5cb87d8da9b9a8681
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946064"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110343383"
 ---
 # <a name="d3dblend-enumeration"></a>D3DBLEND 列舉
 
@@ -166,11 +166,9 @@ Blend 因數是 (f、f、f、1) ;其中 f = min (為，1-A<sub>d</sub>) 。
 
 Blend 因數是 (PSOutColor \[ 1 \] <sub>r</sub>、PSOutColor \[ 1 \] <sub>g</sub>、PSOutColor \[ 1 \] <sub>b</sub>，而不是使用) 。 請參閱轉譯 [目標混色](#render-target-blending)。
 
+Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> 此旗標僅適用于 Direct3D 9Ex。<br/> |
+- 此旗標僅適用于 Direct3D 9Ex。
 
 
 
@@ -184,10 +182,9 @@ Blend 因數是 (PSOutColor \[ 1 \] <sub>r</sub>、PSOutColor \[ 1 \] <sub>g</su
 Blend 因數是 (1-PSOutColor \[ 1 \] <sub>r</sub>、1-PSOutColor \[ 1 \] <sub>g</sub>、1-PSOutColor \[ 1 \] <sub>b</sub>，未使用) ) 。 請參閱轉譯 [目標混色](#render-target-blending)。
 
 
+Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-|                                                                                                                     |
-|---------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 9Ex 之間的差異：<br/> 此旗標僅適用于 Direct3D 9Ex。<br/> |
+- 此旗標僅適用于 Direct3D 9Ex。
 
 
 

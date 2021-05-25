@@ -4,12 +4,12 @@ ms.assetid: 97b07dbc-6b84-46d2-acc7-db81d94538f7
 title: LPD3DXIMTSIGNALCALLBACK
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aebf9250be6fcc878d920816a81782e8ece87ec4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8dbf75bf1a3fc05b217feef8446636efaae55b3b
+ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972294"
+ms.lasthandoff: 05/24/2021
+ms.locfileid: "110342833"
 ---
 # <a name="lpd3dximtsignalcallback"></a>LPD3DXIMTSIGNALCALLBACK
 
@@ -51,7 +51,7 @@ typedef HRESULT (WINAPI* LPD3DXIMTSIGNALCALLBACK)
 
 
 
-|                |             |
+| 需求               | 值            |
 |----------------|-------------|
 | 標頭         | d3dx9mesh。h |
 | 匯入程式庫 | d3dx9 .lib   |
