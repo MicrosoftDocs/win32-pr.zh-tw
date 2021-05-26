@@ -4,12 +4,12 @@ ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b767ba2d76dc569def42b80eb646ae0e6a6aee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd955ee5ebf31b2348efd3f70c85ae9c004edb83
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851396"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423678"
 ---
 # <a name="wpd_content_type_unspecified"></a>\_ \_ 未指定 WPD 內容類型 \_
 
@@ -19,9 +19,8 @@ ms.locfileid: "103851396"
 
 
 
-|                                                                                                                       |                                                                               |
+| 屬性名稱       | 必要或選擇性         |
 |-----------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                      |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                     |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                     |
@@ -56,7 +55,7 @@ ms.locfileid: "103851396"
 
 
 
-| 資源名稱                                          | 必要或選擇性                             | Description               |
+| 資源名稱                                          | 必要或選擇性                             | 描述               |
 |--------------------------------------------------------|--------------------------------------------------|---------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md) | 如果物件是由二進位資料所支援，則為必要項。 | 包含二進位資料。 |
 

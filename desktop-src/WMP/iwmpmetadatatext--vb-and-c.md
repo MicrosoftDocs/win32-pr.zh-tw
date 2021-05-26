@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f735c96e2d4b57e829d10901c1e24058ec0c94c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 146afd709d0805043603cfb3b14b1c1fc1838075
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997022"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424298"
 ---
 # <a name="iwmpmetadatatext-vb-and-c-interface"></a>IWMPMetadataText (VB 和 c # ) 介面
 
@@ -43,9 +43,8 @@ ms.locfileid: "106997022"
 
 
 
-|                                        |                                                                                  |
-|----------------------------------------|----------------------------------------------------------------------------------|
 | 介面                              | 屬性                                                                         |
+|----------------------------------------|----------------------------------------------------------------------------------|
 | [IWMPMedia3](iwmpmedia3--vb-and-c.md) | [getItemInfoByType](wmplibiwmpmedia3-iwmpmedia3-getiteminfobytype--vb-and-c.md) |
 
 
@@ -56,7 +55,7 @@ ms.locfileid: "106997022"
 
 **IWMPMetadataText (VB 和 c # )** 介面不會定義任何成員。
 
-## <a name="requirements"></a>規格需求
+## <a name="requirements"></a>需求
 
 
 

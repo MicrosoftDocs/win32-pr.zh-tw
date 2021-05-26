@@ -4,12 +4,12 @@ ms.assetid: 503d0b11-2113-4df4-8b6b-250f24d09b1f
 title: WPD_CONTENT_TYPE_TASK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 096b287d70ee58f35388120c190380298b63cf01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6823a6707cac184ca5e04eda90a036f39f7b89a8
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984657"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424318"
 ---
 # <a name="wpd_content_type_task"></a>WPD \_ 內容 \_ 類型 \_ 工作
 
@@ -19,9 +19,8 @@ ms.locfileid: "106984657"
 
 
 
-|                                                                                                                       |                                                                                |
+| 屬性名稱       | 必要或選擇性         |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                       |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                      |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                      |

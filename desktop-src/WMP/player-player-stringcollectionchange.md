@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a29f72d7af0f73d74393d980b2506a3b7f05e578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6a61b8e1e09e749579f323d506371138b0d9b59
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983971"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424088"
 ---
 # <a name="playerstringcollectionchange-event"></a>StringCollectionChange 事件
 
@@ -58,10 +58,9 @@ Number (long) 表示字串集合發生的變更類型。 包含下列其中一�
 
 
 
-|        |                                    |
-|--------|------------------------------------|
 | Number | 描述                        |
-| 0      | 不明。  (不是有效的值)        |
+|--------|------------------------------------|
+| 0      | 未知。  (不是有效的值)        |
 | 1      | 已插入專案。              |
 | 2      | 字串集合已變更。     |
 | 3      | 已刪除專案。               |
@@ -90,7 +89,7 @@ Number (long) ，其中包含已變更之字串收集項目的索引。
 
 **Windows Media Player 10** 行動裝置版：不支援這個事件。
 
-## <a name="requirements"></a>規格需求
+## <a name="requirements"></a>需求
 
 
 

@@ -4,12 +4,12 @@ description: 正在抓取物件屬性
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d3c6eba4435b23ef5c637feaca7c2d4ab6b160e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e2c206b6e3afe75144ce10de615657e788d6d1c
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027200"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424058"
 ---
 # <a name="retrieving-wpd-object-properties"></a>正在抓取 WPD 物件屬性
 
@@ -19,9 +19,8 @@ WpdServiceApiSample 應用程式所包含的程式碼會示範應用程式如何
 
 
 
-|                                                                      |                                                                                              |
+| 介面 | 描述    |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| 介面                                                            | 描述                                                                                  |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | 抓取 **IPortableDeviceContent2** 介面以存取支援的服務方法。 |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | 提供內容特定方法的存取權。                                             |
 | [**IPortableDeviceProperties**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties)       | 抓取物件屬性值。                                                        |
@@ -38,9 +37,8 @@ WpdServiceApiSample 應用程式所包含的程式碼會示範應用程式如何
 
 
 
-|                              |                                                                                                                                                                                                                  |                                 |                                     |
-|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | 屬性                     | 描述                                                                                                                                                                                                      | 裝置服務 PROPERTYKEY     | 對等的 WPD \_ PROPERTYKEY         |
+|------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|-------------------------------------|
 | 父物件識別碼     | 字串，指定指定物件之父系的識別碼。                                                                                                                                            | PKEY \_ GenericObj \_ ParentID      | WPD \_ 物件 \_ 父 \_ 識別碼             |
 | 物件名稱                  | 指定指定物件名稱的字串。                                                                                                                                                             | PKEY \_ GenericObj \_ 名稱          | WPD \_ 物件 \_ 名稱                   |
 | 持續性唯一識別碼 | 字串，指定指定物件的唯一識別碼。 此識別碼在會話之間是持續性的，與物件識別碼不同。 針對服務，這必須是 GUID 的字串標記法。 | PKEY \_ GenericObj \_ PersistentUID | WPD \_ 物件 \_ 持續性 \_ 唯一 \_ 識別碼 |

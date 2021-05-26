@@ -11,16 +11,16 @@ keywords:
 - 上傳檔案位
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: a531821665490735b391ab2714f5b37146c6bc1e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9483e297e8b48ad6466846c7eceb8d53b57d3278
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933486"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424208"
 ---
 # <a name="background-intelligent-transfer-service"></a>背景智慧型傳送服務
 
-## <a name="purpose"></a>目的
+## <a name="purpose"></a>用途
 
 程式設計師和系統管理員會使用背景智慧型傳送服務 (位) ，從檔案下載檔案或將檔案上傳至 HTTP 網頁伺服器和 SMB 檔案共用。 BITS 會考慮傳送的費用，以及網路使用量，如此一來，使用者的前景工作就越不會受到影響。 BITS 也會處理網路 interuptions、暫停和自動繼續傳輸，即使在重新開機後也一樣。 BITS 包含用於建立和管理傳輸以及 BitsAdmin 命令列公用程式的 PowerShell Cmdlet。
 
@@ -67,7 +67,7 @@ BITS 是針對 C 和 c + + 開發人員所設計的 COM 介面，也可供 .NET 
 以下是其他資源。
 
 
-|             |                                                                                                                                                 |
+|    資源         |    描述                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | .NET 參考 DLL   | 如需使用參考 Dll 從 .NET 使用 BITS 的詳細資訊，請參閱 [使用參考 dll 從 .Net 呼叫位](/windows/desktop/Bits/bits-dot-net)      |
 | .NET 包裝函式   | 若是其他適用于 BITS 的 .NET 包裝函式，您可以在 [nuget](https://www.nuget.org/packages?q=Tags%3A%22BITS%22) 中搜尋以 bits 標記標記的專案。        |

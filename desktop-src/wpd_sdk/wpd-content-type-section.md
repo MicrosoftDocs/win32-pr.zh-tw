@@ -4,12 +4,12 @@ ms.assetid: 8680a74b-9594-4271-a511-637f617aa12a
 title: WPD_CONTENT_TYPE_SECTION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fbb63821f75115c5855653dc811067891652615
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84294ff9949418ecc12f55472da202dddcc8f06c
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027294"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423778"
 ---
 # <a name="wpd_content_type_section"></a>WPD \_ 內容 \_ 類型 \_ 區段
 
@@ -21,9 +21,8 @@ WPD \_ 物件 \_ 參考屬性可識別指定區段的父物件。
 
 
 
-|                                                                                                                                  |                                                                       |
+| 屬性名稱       | 必要或選擇性             |
 |----------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **屬性名稱**                                                                                                                | **必要或選擇性**                                              |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                           | 必要。                                                             |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                            | 必要。                                                             |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                                       | 如果物件代表檔案，則為必要。                             |

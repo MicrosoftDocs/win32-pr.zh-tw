@@ -4,12 +4,12 @@ ms.assetid: 6d89681c-1183-44d3-a39e-5fb343f1abbe
 title: WPD_CONTENT_TYPE_MEMO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf6262b6ac290edd19c1ae17658e163149fc0535
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 07bc36b11d88135aadeab6d58192c97a06dfbd87
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990380"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424308"
 ---
 # <a name="wpd_content_type_memo"></a>WPD \_ 內容 \_ 類型 \_ 備忘錄
 
@@ -19,9 +19,8 @@ ms.locfileid: "106990380"
 
 
 
-|                                                                                                                       |                                                                                |
+| 屬性名稱      |   必要或選擇性      |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                       |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                      |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                      |

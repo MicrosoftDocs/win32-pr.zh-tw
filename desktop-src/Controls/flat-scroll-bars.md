@@ -4,12 +4,12 @@ description: Microsoft Internet Explorer 4.0 推出了一個新的視覺技術�
 ms.assetid: f7e00e71-bf12-4db9-bb84-6d413b967049
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07fbbdb64aa9815cb56f5dc3bf55ffb17390db38
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5e56db4ee987a6d8cdc7b185f5db0f8d89540453
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683147"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423888"
 ---
 # <a name="flat-scroll-bars"></a>平面捲軸
 
@@ -22,7 +22,7 @@ Microsoft Internet Explorer 4.0 推出了一個新的視覺技術，稱為「一
 > [!Note]  
 > Comctl32.dll 版本4.71 至5.82 支援平面捲軸。 Comctl32.dll 6.00 版和更新版本不支援一般捲軸。
 
- 
+ 
 
 ## <a name="using-flat-scroll-bars"></a>使用平面捲軸
 
@@ -63,7 +63,7 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 
 
-|                    |                                                                                                                                                                          |
+|   樣式                 |   描述                                                                                                                                                                       |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FSB \_ 百科全書 \_ 模式 | 標準的平面捲軸隨即顯示。 當滑鼠移到方向按鈕或 thumb 上方時，捲軸的那個部分會顯示在3-d 中。             |
 | 前端匯流排 \_ 平面 \_ 模式    | 標準的平面捲軸隨即顯示。 當滑鼠移到方向按鈕或 thumb 上方時，捲軸的那個部分會以反轉色彩顯示。 |
@@ -71,12 +71,12 @@ FlatSB_SetScrollProp(hWnd, WSB_PROP_CYVTHUMB, GetSystemMetrics(SM_CYVTHUMB), TRU
 
 
 
- 
+ 
 
 ### <a name="removing-flat-scroll-bars"></a>移除一般捲軸
 
 如果您想要從視窗中移除一般捲軸，請呼叫 [**UninitializeFlatSB**](/windows/desktop/api/Commctrl/nf-commctrl-uninitializeflatsb) 函式，並將控制碼傳遞至視窗。 此函數只會在執行時間從視窗中移除一般捲軸。 當您的視窗損毀時，您不需要呼叫此函式。
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ keywords:
 - 執行時間登錄專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b01a83c3642f49a9fdbe7f8c51f157a154a9843b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3bf485038965184add320e49c29482672c770f48
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021693"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424107"
 ---
 # <a name="runtime-registry-entry"></a>執行時間登錄專案
 
@@ -28,14 +28,13 @@ ms.locfileid: "104021693"
 
 
 
-|          |                |                                                               |
+|   名稱   |   類型         |   值                                                       |
 |----------|----------------|---------------------------------------------------------------|
-| **名稱** | **型別**       | **ReplTest1**                                                     |
 | 執行階段  | **REG \_ DWORD** | 識別基礎技術的正整數。 |
 
 
 
- 
+ 
 
 **運行** 時間專案的值必須是下列其中一項。
 
@@ -49,7 +48,7 @@ ms.locfileid: "104021693"
 
 
 
- 
+ 
 
 Windows Media Player 9 系列和更新版本支援 **運行** 時間登錄專案值6和7。 Windows Media Player 11 支援值13。
 
@@ -63,9 +62,9 @@ Windows Media Player 9 系列和更新版本支援 **運行** 時間登錄專案
 [**副檔名登錄設定**](file-name-extension-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

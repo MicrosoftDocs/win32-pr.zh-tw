@@ -4,12 +4,12 @@ ms.assetid: 81eaf8cf-0f4f-4587-911a-063630af1c8e
 title: WPD_CONTENT_TYPE_PROGRAM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0187d4e87f47e8210e94a676ca9ccd1e1364cf1c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ddf3c5d406c16891c692e84fb37c4d21757f702
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694267"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423768"
 ---
 # <a name="wpd_content_type_program"></a>WPD \_ 內容 \_ 類型 \_ 方案
 
@@ -19,9 +19,8 @@ ms.locfileid: "103694267"
 
 
 
-|                                                                                                                       |                                                                                    |
+| 屬性名稱     | 必要或選擇性      |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                           |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要，但是唯讀的。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                          |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                          |
@@ -56,7 +55,7 @@ ms.locfileid: "103694267"
 
 
 
-| 資源名稱                                          | 必要或選擇性 | Description                |
+| 資源名稱                                          | 必要或選擇性 | 描述                |
 |--------------------------------------------------------|----------------------|----------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md) | 必要。            | 包含程式檔案。 |
 

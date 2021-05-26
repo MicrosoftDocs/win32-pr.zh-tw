@@ -4,12 +4,12 @@ ms.assetid: 1bf3aa08-7ffc-417f-a67e-9eee042337b9
 title: 正在抓取支援的服務事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f515b65b8ed062c346777224a64539f5229a704a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfdc1df4c8255a4dc2a1297ae99216437ac3b4c9
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997919"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423468"
 ---
 # <a name="retrieving-supported-service-events"></a>正在抓取支援的服務事件
 
@@ -17,9 +17,8 @@ WpdServicesApiSample 應用程式包含的程式碼會示範應用程式如何�
 
 
 
-|                                                                                      |                                                                                                       |
+| 介面                | 描述    |
 |--------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 介面                                                                            | 描述                                                                                           |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                             | 用來取出 **IPortableDeviceServiceCapabilities** 介面，以存取支援的事件。 |
 | [**IPortableDeviceServiceCapabilities**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicecapabilities)     | 提供支援的事件和事件屬性的存取權。                                         |
 | [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md) | 包含支援的事件清單。                                                                |

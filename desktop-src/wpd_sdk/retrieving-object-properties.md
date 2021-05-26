@@ -1,15 +1,15 @@
 ---
 title: 正在抓取物件屬性總覽
-description: 正在抓取物件屬性
+description: 應用程式可以針對單一物件、物件識別碼所識別的多個物件，或相同類型的多個物件，取得其屬性。
 ms.assetid: 499644ee-9eef-4267-9c45-7c7ba9ef61af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19d5389eadbce6c28f09e16888789e620c80bba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55434e757caa78ddd4d6e0ed27483213dae3b22d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694044"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424078"
 ---
 # <a name="retrieving-object-properties-overview"></a>正在抓取物件屬性總覽
 

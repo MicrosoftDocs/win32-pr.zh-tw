@@ -4,12 +4,12 @@ ms.assetid: 722d657d-332a-40df-ac30-bc2050deda74
 title: 開啟服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0bcccc6c3769173bfee72e73d7cbf68435b0ba1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b273b8709a4d750085f14075d605f88ed0faa6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513677"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423918"
 ---
 # <a name="opening-a-service"></a>開啟服務
 
@@ -17,9 +17,8 @@ ms.locfileid: "104513677"
 
 
 
-|                                                                        |                                                    |
-|------------------------------------------------------------------------|----------------------------------------------------|
 | 介面                                                              | 描述                                        |
+|------------------------------------------------------------------------|----------------------------------------------------|
 | [**IPortableDeviceServiceManager**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemanager) | 用來列舉裝置上的服務。        |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | 用來開啟裝置服務的連線。     |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | 用來保存應用程式的用戶端資訊。 |

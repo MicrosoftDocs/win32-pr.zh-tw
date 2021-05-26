@@ -4,12 +4,12 @@ description: 本主題列出通用控制項程式庫 (ComCtl32.dll) 的可用版
 ms.assetid: 1B524A91-B433-4968-9546-8A6AFB67E89C
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc51fe027e6169ab1c28904c3145be2f5042d9a0
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: c1131466bd4d3afcaae3a241a6f7854fd5a49450
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463964"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423958"
 ---
 # <a name="common-control-versions"></a>通用控制項版本
 
@@ -67,7 +67,7 @@ Windows Vista、Windows Server 2008 和 Windows 7
 
 
 
-|                               |                                                                                              |
+|    結構大小常數                           |     定義                                                                                         |
 |-------------------------------|----------------------------------------------------------------------------------------------|
 | HDITEM \_ V1 \_ 大小              | 4.0 版中 [**HDITEM**](/windows/win32/api/commctrl/ns-commctrl-hditema) 結構的大小。                           |
 | IMAGELISTDRAWPARAMS \_ V3 \_ 大小 | 5.9 版中 [**IMAGELISTDRAWPARAMS**](/windows/win32/api/commctrl/ns-commctrl-imagelistdrawparams) 結構的大小。 |

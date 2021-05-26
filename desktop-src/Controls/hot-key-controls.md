@@ -4,12 +4,12 @@ description: 快速鍵控制項是一種視窗，可讓使用者輸入按鍵的�
 ms.assetid: 5f011459-4c30-45d4-9668-19f575b041ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dec45d61df535025cff00fee6428f604aa670bf3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4d5e0c0f9a0ddec515c1732863333b7c1a878db5
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683153"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423878"
 ---
 # <a name="about-hot-key-controls"></a>關於快速鍵控制項
 
@@ -45,32 +45,21 @@ ms.locfileid: "103683153"
 
 本節說明使用快速鍵控制項之預先定義之快速鍵 [**\_ 類別**](common-control-window-classes.md) 視窗類別的視窗程式所處理的視窗訊息。
 
-
-
-|                                                |                                                                                                                                                                                                                                                                                                                                               |
-|------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **訊息**                                    | **處理已執行**                                                                                                                                                                                                                                                                                                                      |
-| [**WM \_ 字元**](/windows/desktop/inputdev/wm-char)               | 抓取虛擬金鑰程式碼。                                                                                                                                                                                                                                                                                                               |
-| [**WM \_ 建立**](/windows/desktop/winmsg/wm-create)             | 初始化熱鍵控制項、清除任何熱鍵規則，並使用系統字型。                                                                                                                                                                                                                                                          |
-| [**WM \_ ERASEBKGND**](/windows/desktop/winmsg/wm-erasebkgnd)     | 隱藏插入號、呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式，然後再次顯示插入號。                                                                                                                                                                                                                                     |
-| [**WM \_ GETDLGCODE**](/windows/desktop/dlgbox/wm-getdlgcode)     | 傳回 [**DLGC \_ WANTCHARS**](/windows/desktop/dlgbox/wm-getdlgcode) 和 [**DLGC \_ WANTARROWS**](/windows/desktop/dlgbox/wm-getdlgcode) 值的組合。                                                                                                                                               |
-| [**WM \_ GETFONT**](/windows/desktop/winmsg/wm-getfont)           | 抓取字型。                                                                                                                                                                                                                                                                                                                           |
+|    訊息                                            |    處理已執行                               |
+|------------------------------------------------|--------------------------------------------------------------|
+| [**WM \_ 字元**](/windows/desktop/inputdev/wm-char)               | 抓取虛擬金鑰程式碼。             |
+| [**WM \_ 建立**](/windows/desktop/winmsg/wm-create)             | 初始化熱鍵控制項、清除任何熱鍵規則，並使用系統字型。   |
+| [**WM \_ ERASEBKGND**](/windows/desktop/winmsg/wm-erasebkgnd)     | 隱藏插入號、呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函式，然後再次顯示插入號。   |
+| [**WM \_ GETDLGCODE**](/windows/desktop/dlgbox/wm-getdlgcode)     | 傳回 [**DLGC \_ WANTCHARS**](/windows/desktop/dlgbox/wm-getdlgcode) 和 [**DLGC \_ WANTARROWS**](/windows/desktop/dlgbox/wm-getdlgcode) 值的組合。   |
+| [**WM \_ GETFONT**](/windows/desktop/winmsg/wm-getfont)           | 抓取字型。                         |
 | [**WM \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown)         | 如果索引鍵為 ENTER、TAB、空格鍵、DEL、ESC 或倒退鍵，則呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函數。 如果索引鍵是 SHIFT、CTRL 或 ALT，它會檢查組合是否有效，如果是，則會使用組合來設定快速鍵。 所有其他金鑰都會設定為快速鍵，而不會先檢查其有效性。 |
-| [**WM \_ KEYUP**](/windows/desktop/inputdev/wm-keyup)             | 抓取虛擬金鑰程式碼。                                                                                                                                                                                                                                                                                                               |
-| [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus)     | 終結插入號。                                                                                                                                                                                                                                                                                                                           |
-| [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) | 將焦點設定至視窗。                                                                                                                                                                                                                                                                                                                 |
-| [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate)         | 設定 [**WS \_ EX \_ CLIENTEDGE**](/windows/desktop/winmsg/extended-window-styles) 視窗樣式。                                                                                                                                                                                                                              |
-| [**WM \_ 油漆**](/windows/desktop/gdi/wm-paint)                  | 繪製快速鍵控制項。                                                                                                                                                                                                                                                                                                                   |
-| [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus)       | 建立並顯示插入號。                                                                                                                                                                                                                                                                                                                  |
-| [**WM \_ SETFONT**](/windows/desktop/winmsg/wm-setfont)           | 設定字型。                                                                                                                                                                                                                                                                                                                                |
-| [**WM \_ SYSCHAR**](/windows/desktop/menurc/wm-syschar)           | 抓取虛擬金鑰程式碼。                                                                                                                                                                                                                                                                                                               |
+| [**WM \_ KEYUP**](/windows/desktop/inputdev/wm-keyup)             | 抓取虛擬金鑰程式碼。             |
+| [**WM \_ KILLFOCUS**](/windows/desktop/inputdev/wm-killfocus)     | 終結插入號。                         |
+| [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) | 將焦點設定至視窗。               |
+| [**WM \_ NCCREATE**](/windows/desktop/winmsg/wm-nccreate)         | 設定 [**WS \_ EX \_ CLIENTEDGE**](/windows/desktop/winmsg/extended-window-styles) 視窗樣式。        |
+| [**WM \_ 油漆**](/windows/desktop/gdi/wm-paint)                  | 繪製快速鍵控制項。                 |
+| [**WM \_ SETFOCUS**](/windows/desktop/inputdev/wm-setfocus)       | 建立並顯示插入號。                |
+| [**WM \_ SETFONT**](/windows/desktop/winmsg/wm-setfont)           | 設定字型。                              |
+| [**WM \_ SYSCHAR**](/windows/desktop/menurc/wm-syschar)           | 抓取虛擬金鑰程式碼。             |
 | [**WM \_ SYSKEYDOWN**](/windows/desktop/inputdev/wm-syskeydown)   | 如果索引鍵為 ENTER、TAB、空格鍵、DEL、ESC 或倒退鍵，則呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 函數。 如果索引鍵是 SHIFT、CTRL 或 ALT，它會檢查組合是否有效，如果是，則會使用組合來設定快速鍵。 所有其他金鑰都會設定為快速鍵，而不會先檢查其有效性。 |
-| [**WM \_ SYSKEYUP**](/windows/desktop/inputdev/wm-syskeyup)       | 抓取虛擬金鑰程式碼。                                                                                                                                                                                                                                                                                                               |
-
-
-
- 
-
- 
-
- 
+| [**WM \_ SYSKEYUP**](/windows/desktop/inputdev/wm-syskeyup)       | 抓取虛擬金鑰程式碼。             |

@@ -4,12 +4,12 @@ ms.assetid: 0445a7de-1a2d-4369-b1f6-588fd6f2c999
 title: WPD_CONTENT_TYPE_VIDEO_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d6992fd0def51aa562bb907a09db2cad979920
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4f358ebf9b3a1dad14cc4354e8bd53e86b159be
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319927"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423908"
 ---
 # <a name="wpd_content_type_video_album"></a>WPD \_ 內容 \_ 類型 \_ 影片 \_ 專輯
 
@@ -19,9 +19,8 @@ ms.locfileid: "104319927"
 
 
 
-|                                                                                                                       |                                                                                |
+|  屬性名稱                             | 必要或選擇性              |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                       |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                      |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                      |

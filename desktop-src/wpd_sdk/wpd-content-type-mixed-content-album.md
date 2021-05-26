@@ -4,12 +4,12 @@ ms.assetid: 7b9d324c-8a9c-4764-9705-ea891e631ead
 title: WPD_CONTENT_TYPE_MIXED_CONTENT_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14794282a58d4b5c1b74bccce34568deec780d30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7122affe0b3876ca23bf7b216318ea2f1e42e99d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513868"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423688"
 ---
 # <a name="wpd_content_type_mixed_content_album"></a>WPD \_ 內容 \_ 類型 \_ 混合式 \_ 內容 \_ 專輯
 
@@ -19,9 +19,8 @@ ms.locfileid: "104513868"
 
 
 
-|                                                                                                                       |                                                                                |
+| 屬性名稱      | 必要或選擇性               |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                       |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。 |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                      |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                      |

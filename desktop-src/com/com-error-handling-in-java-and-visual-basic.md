@@ -4,12 +4,12 @@ description: JAVA 和 Visual Basic 中的 COM 錯誤處理
 ms.assetid: 1130a038-3c18-4530-a6d7-9f538352297f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea12dc040218e14098ce2394fbb5cd2ebeff1704
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 11c55c1c2414c69ff9398845858baadebd58cbf9
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382962"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424008"
 ---
 # <a name="com-error-handling-in-java-and-visual-basic"></a>JAVA 和 Visual Basic 中的 COM 錯誤處理
 
@@ -19,7 +19,7 @@ ms.locfileid: "104382962"
 
 
 
-|                                                                          |                                                                                                                      |
+|  介面                                                                        |  描述                                                                                                                    |
 |--------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [**ICreateErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-icreateerrorinfo)<br/>  | 設定錯誤資訊。<br/>                                                                                   |
 | [**IErrorInfo**](/windows/win32/api/oaidl/nn-oaidl-ierrorinfo)<br/>        | 從錯誤物件傳回信息。<br/>                                                                 |
@@ -33,7 +33,7 @@ ms.locfileid: "104382962"
 
 
 
-|                                                                        |                                                                                                                                                                      |
+|    介面       |       描述       |
 |------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CreateErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-createerrorinfo)<br/> | 建立泛型錯誤物件的實例。<br/>                                                                                                            |
 | [**GetErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-geterrorinfo)<br/>    | 取得上一次呼叫目前邏輯執行緒中的 [**SetErrorInfo**](/windows/win32/api/oleauto/nf-oleauto-seterrorinfo) 所設定的錯誤資訊指標。<br/> |

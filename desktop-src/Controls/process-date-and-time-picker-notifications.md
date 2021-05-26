@@ -4,12 +4,12 @@ description: 本節示範如何處理日期和時間選擇器的通知。
 ms.assetid: DBF624F0-89E0-435B-BE96-60B7A4CEDA61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b904c464677a81151b03e3ae89085847e4e8bdf
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: ffa1214ebd671b4ae222990bde4b44586e6d7b11
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024359"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424178"
 ---
 # <a name="how-to-process-date-and-time-picker-notifications"></a>如何處理日期和時間選擇器通知
 
@@ -35,7 +35,7 @@ ms.locfileid: "104024359"
 
 下列 c + + 程式碼範例會識別由 DTP 控制項所傳送的通知訊息，並呼叫適當的應用程式定義函數。 請參閱下列主題中的程式碼範例，以瞭解如何處理此範例中所顯示的通知。
 
-|                                                                                                        |
+|   主題                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|
 | [如何處理 DTN \_ DATETIMECHANGE 通知](process-the-dtn-datetimechange-notification.md) |
 | [如何處理 DTN \_ FORMATQUERY 通知](process-the-dtn-formatquery-notification.md)       |

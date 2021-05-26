@@ -7,12 +7,12 @@ keywords:
 - 事件追蹤 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f43c0d840cd1f3f70d293a0a4f5c299fd129efe
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 0b26aee00404f5cf97d228698f64fec804c28e62
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106967923"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423708"
 ---
 # <a name="event-tracing-in-adsi"></a>ADSI 中的事件追蹤
 
@@ -36,19 +36,19 @@ ADSI 會在內部嘗試重複使用 LDAP 連線， (查看 [連接](connection-c
 
 若要開啟 ADSI 追蹤，請建立下列登錄機碼：
 
-**HKEY \_LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **adsi** \\ **追蹤** \\ ***ProcessName***
+**HKEY \_LOCAL \_ MACHINE** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **adsi** \\ **追蹤** \\ **_ProcessName_**
 
 *ProcessName* 是您要追蹤之進程的完整名稱，包括其延伸 (例如「Svchost.exe」 ) 。 此外，您可以在此機碼中放入名為的 **DWORD** 類型的選擇性值。 強烈建議您設定此值，因此只會追蹤特定的進程。 否則，將會追蹤 *ProcessName* 所指定之應用程式的所有實例。
 
 然後執行下列命令：
 
-**tracelog.exe-開始***會話*  * *名稱-guid \# * * * 提供者 \_ guid* **-f** *檔案名* **-旗** 標 *追蹤旗標***層級** *traceLevel*
+**tracelog.exe-開始***會話* 名稱 **- \# guid**_提供者 \_ guid_ **-f** *檔案名* **-旗** 標 *追蹤旗標***層級** *traceLevel*
 
 *sessionname* 只是用來標示追蹤會話的任意識別碼 (您稍後在停止追蹤會話) 時，必須參考此會話名稱。 ADSI 追蹤提供者的 GUID 是「7288c9f8-d63c-4932-a345-89d6b060174d」。 *filename* 會指定要寫入事件的記錄檔。 *追蹤旗標* 必須是下列其中一個值：
 
 
 
-|                                 |                       |
+|         旗標                        |         值              |
 |---------------------------------|-----------------------|
 | **DEBUG \_ 架構**<br/>    | 0x00000001<br/> |
 | **DEBUG \_ CHANGEPWD**<br/> | 0x00000002<br/> |
@@ -139,7 +139,7 @@ ADSI 會在內部嘗試重複使用 LDAP 連線， (查看 [連接](connection-c
 
 
 
-|                                          |                       |
+|      旗標                                    |       值                |
 |------------------------------------------|-----------------------|
 | **追蹤 \_ 層級 \_ 錯誤**<br/>       | 0x00000002<br/> |
 | **追蹤 \_ 層級 \_ 資訊**<br/> | 0x00000004<br/> |

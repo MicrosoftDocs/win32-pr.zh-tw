@@ -4,12 +4,12 @@ ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: 以非同步方式叫用服務方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d312cc76cf8cb737136629c1e2c8135d1b7bd1e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ef4f0eb2e75b977b53300bed6eab4c909fa7796
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193700"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423848"
 ---
 # <a name="invoking-service-methods-asynchronously"></a>以非同步方式叫用服務方法
 
@@ -17,9 +17,8 @@ WpdServiceApiSample 應用程式包含的程式碼會示範應用程式如何以
 
 
 
-|                                                                                         |                                                                                                                                                                         |
+| 介面    | 描述          |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 介面                                                                               | 描述                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)                                | 用來取出 **IPortableDeviceServiceMethods** 介面，以便在指定的服務上叫用方法。                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods)                  | 用來叫用服務方法。                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                                  | 用來保存外寄方法參數和傳入方法的結果。 如果方法不需要任何參數或傳回任何結果，這可以是 **Null** 。 |

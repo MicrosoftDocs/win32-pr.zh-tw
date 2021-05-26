@@ -4,12 +4,12 @@ ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: 叫用服務方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b568ea169d0f3c6465d9879eb9eb01c0b46b526
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15b9540cf7378e13d56af2611d6216897c6750f6
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996868"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424198"
 ---
 # <a name="invoking-service-methods"></a>叫用服務方法
 
@@ -17,9 +17,8 @@ WpdServicesApiSample 應用程式包含的程式碼會示範應用程式如何�
 
 
 
-|                                                                        |                                                                                                                                                                         |
+| 介面    | 描述    |
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 介面                                                              | 描述                                                                                                                                                             |
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)               | 用來取出 **IPortableDeviceServiceMethods** 介面，以便在指定的服務上叫用方法。                                                                  |
 | [**IPortableDeviceServiceMethods**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservicemethods) | 用來叫用服務方法。                                                                                                                                        |
 | [**IPortableDeviceValues**](iportabledevicevalues.md)                 | 用來保存外寄方法參數和傳入方法的結果。 如果方法不需要任何參數或傳回任何結果，這可以是 **Null** 。 |

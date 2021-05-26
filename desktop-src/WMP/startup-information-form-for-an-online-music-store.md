@@ -6,12 +6,12 @@ keywords:
 - Windows Media Player 線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c32ef8f3c5bdb5779a5c7fbd36ed2dd3efac7b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a3ded923538d6be6c8a22fa0ba96ddcd0814348d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021013"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424068"
 ---
 # <a name="startup-information-form-for-an-online-music-store"></a>線上音樂商店的啟動資訊表單
 
@@ -34,7 +34,7 @@ ms.locfileid: "104021013"
 
 
 
-| Microsoft 基礎結構所參考的專案                                                              | Description |
+| Microsoft 基礎結構所參考的專案                                                              | 描述 |
 |----------------------------------------------------------------------------------------------------------|-------------|
 | 服務資訊 XML URL (2048-字元限制)                                                               |             |
 | 服務金鑰 (唯一識別碼)                                                                                   |             |
@@ -49,7 +49,7 @@ ms.locfileid: "104021013"
 
 
 
-| Microsoft 在 [流覽所有線上商店] 上裝載的專案                             | Description |
+| Microsoft 在 [流覽所有線上商店] 上裝載的專案                             | 描述 |
 |------------------------------------------------------------------------------------|-------------|
 | 商店標誌 (130w x 共30小時) <br/>  (分別附加 PNG 檔案。 ) <br/>        |             |
 | 流覽-所有影像 (108w x 108h) <br/>  (分別附加 PNG 檔案。 ) <br/> |             |
@@ -64,7 +64,7 @@ ms.locfileid: "104021013"
 
 
 
-| Microsoft 基礎結構所參考的專案                                                              | Description |
+| Microsoft 基礎結構所參考的專案                                                              | 描述 |
 |----------------------------------------------------------------------------------------------------------|-------------|
 | 服務資訊 XML URL (2048-字元限制)                                                               |             |
 | 服務金鑰 (唯一識別碼)                                                                                   |             |
@@ -79,7 +79,7 @@ ms.locfileid: "104021013"
 
 
 
-| Microsoft 在 [流覽所有線上商店] 上裝載的專案                             | Description |
+| Microsoft 在 [流覽所有線上商店] 上裝載的專案                             | 描述 |
 |------------------------------------------------------------------------------------|-------------|
 | 商店標誌 (130w x 共30小時) <br/>  (分別附加 PNG 檔案。 ) <br/>        |             |
 | 流覽-所有影像 (108w x 108h) <br/>  (分別附加 PNG 檔案。 ) <br/> |             |
@@ -106,7 +106,7 @@ ms.locfileid: "104021013"
 
 
 
-|                | 使用者名稱 | 密碼 |
+|  帳戶       | 使用者名稱 | 密碼 |
 |----------------|-----------|----------|
 | 測試帳戶1 |           |          |
 | 測試帳戶2 |           |          |

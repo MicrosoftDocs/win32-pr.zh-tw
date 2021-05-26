@@ -9,12 +9,12 @@ keywords:
 - 外觀的色彩參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11085bbcf9461b48cee9892bb8da6a8e167a2495
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843000"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424098"
 ---
 # <a name="color-reference-windows-media-player-sdk"></a>Windows Media Player SDK) 的色彩參考 (
 
@@ -24,7 +24,7 @@ ms.locfileid: "103843000"
 
 
 
-|                            |                             |                                 |                              |
+|          &nbsp;            |            &nbsp;           |             &nbsp;              |           &nbsp;             |
 |----------------------------|-----------------------------|---------------------------------|------------------------------|
 | aliceblue (\# F0F8FF)        | antiquewhite (\# FAEBD7)      | 綠色 (\# 00FFFF)                  | 青綠色 (\# 7FFFD4)         |
 | azure (\# F0FFFF)            | 米色 (\# F5F5DC)             | 淡黃 (\# FFE4C4)                | 黑色 (\# 000000)              |

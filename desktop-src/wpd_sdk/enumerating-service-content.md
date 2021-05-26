@@ -4,12 +4,12 @@ ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: 列舉服務內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04adb949fdec9a0001583b1481ccd50ada1ef1df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2b701bdab867e96bc9658e2624ea18aa65dfc33
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191283"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424248"
 ---
 # <a name="enumerating-service-content"></a>列舉服務內容
 
@@ -17,9 +17,8 @@ ms.locfileid: "104191283"
 
 
 
-|                                                                      |                                                                                                  |
-|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 介面                                                            | 描述                                                                                      |
+|----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | 用來取出 IPortableDeviceContent2 介面，以存取服務的內容。         |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | 用來取出 IEnumPortableDeviceObjectIDs 介面，以列舉服務上的物件。 |
 | [**IEnumPortableDeviceObjectIDs**](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | 用來列舉服務上的物件。                                                        |

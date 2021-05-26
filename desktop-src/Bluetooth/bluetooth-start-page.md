@@ -1,5 +1,5 @@
 ---
-title: Bluetooth
+title: 藍牙
 description: 藍牙是業界標準的通訊協定，可讓電腦、掌上型裝置、行動電話和其他裝置使用無線連線能力。
 ms.assetid: 2a86f30e-2594-405d-a2f5-9e9ce9ad278b
 keywords:
@@ -7,16 +7,16 @@ keywords:
 - 開始頁面藍牙、藍牙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c94e4784fdd29e665470f7f66ee9c0832af48470
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 7bdb45de3e8f6d02b1c5571cb5e1e5339c3b7c17
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104508179"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424278"
 ---
-# <a name="bluetooth"></a>Bluetooth
+# <a name="bluetooth"></a>藍牙
 
-## <a name="purpose"></a>目的
+## <a name="purpose"></a>用途
 
 藍牙是業界標準的通訊協定，可讓電腦、掌上型裝置、行動電話和其他裝置使用無線連線能力。
 
@@ -52,7 +52,7 @@ Windows Vista SP2 和 Windows 7 提供藍牙2.1 的支援。
 
 
 
-|                                                                                      |                                                                                                                             |
+|    資源                          |    描述                     |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [藍牙無線技術常見問題](https://www.microsoft.com/whdc/connect/wireless/bth_faq.mspx) | 適用于 Windows 作業系統之 Bluetooth 無線技術支援的相關資訊，主要著重在 Windows Vista。 |
 | [Windows Vista 無線 SDK 論壇](https://social.msdn.microsoft.com/Forums/en/vistawirelesssdk/threads)   | 討論與 Windows Vista 相關的藍牙執行。                                                              |

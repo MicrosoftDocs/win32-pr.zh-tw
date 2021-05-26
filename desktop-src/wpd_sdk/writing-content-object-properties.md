@@ -4,12 +4,12 @@ ms.assetid: f762a571-83ea-4999-ad49-a51044bc790d
 title: 撰寫物件屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cb061288cbfde93f2baea1860581c25c61a8a0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 726501c986e73033437de3bee0c11b3beb66150d
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996743"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423928"
 ---
 # <a name="writing-object-properties"></a>撰寫物件屬性
 
@@ -19,9 +19,8 @@ WpdServicesApiSample 應用程式包含的程式碼會示範應用程式如何�
 
 
 
-|                                                                |                                                                                                                                                                      |
-|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 介面                                                      | 描述                                                                                                                                                          |
+|----------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)       | 用來取出 **IPortableDeviceContent2** 介面，以存取支援的服務方法。                                                                  |
 | [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)     | 提供內容特定方法的存取權。                                                                                                                     |
 | [**IPortableDeviceProperties**](/windows/desktop/api/portabledeviceapi/nn-portabledeviceapi-iportabledeviceproperties) | 用來寫入物件屬性值，並判斷是否可以撰寫指定的屬性                                                                    |

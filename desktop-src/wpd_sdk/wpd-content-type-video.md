@@ -4,12 +4,12 @@ ms.assetid: d4a6bd98-c28e-487b-95cc-2c73cd44e3b5
 title: WPD_CONTENT_TYPE_VIDEO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afde065ef233ff64a4eb72af8be5f7308050ff75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6aacf30a9e646a6089058104bd39577fad832e31
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988942"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424119"
 ---
 # <a name="wpd_content_type_video"></a>WPD \_ 內容 \_ 類型 \_ 影片
 
@@ -19,9 +19,8 @@ ms.locfileid: "106988942"
 
 
 
-|                                                                                                                       |                                                                                                                              |
+|  屬性名稱                             | 必要或選擇性              |
 |-----------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| **屬性名稱**                                                                                                     | **必要或選擇性**                                                                                                     |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                | 必要、唯讀。 即使在建立時，用戶端也無法設定這個屬性。                                               |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                 | 必要。                                                                                                                    |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                            | 如果物件代表檔案，則為必要。                                                                                    |
@@ -99,7 +98,7 @@ ms.locfileid: "106988942"
 
 
 
-| 資源名稱                                              | 必要或選擇性       | Description                                                          |
+| 資源名稱                                              | 必要或選擇性       | 描述                                                          |
 |------------------------------------------------------------|----------------------------|----------------------------------------------------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md)     | 必要。                  | 包含 (檔案) 資料的影片。                                      |
 | [**WPD \_ 資源 \_ 縮圖**](wpd-resource-thumbnail.md) | 建議使用（如果有的話）。 | 包含影片的主要畫面格或其他非空白範例框架。 |

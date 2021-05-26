@@ -4,12 +4,12 @@ ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: 支援 MTP 擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f26a6a5a585167984ec944528bb74a6746e42ac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 898df3f1347af2ccc42a796b480156b6603b13ec
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851408"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423728"
 ---
 # <a name="supporting-mtp-extensions"></a>支援 MTP 擴充功能
 
@@ -33,9 +33,8 @@ MTP 會使用兩方、起始端和回應者之間的命令和回應進行通訊�
 
 
 
-|                                                                                                                                      |                                                                                                   |
+| 命令  | 描述  |
 |--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| 命令                                                                                                                              | 描述                                                                                       |
 | [**WPD \_ 命令 \_ MTP \_ EXT \_ END \_ DATA \_ TRANSFER**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-end-data-transfer)                                      | 發出 MTP 命令，以對資料讀取或寫入作業的結束髮出信號。              |
 | [**WPD \_ 命令 \_ MTP \_ EXT \_ EXECUTE \_ 命令（ \_ 不含 \_ 資料 \_ 階段）**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-without-data-phase)  | 發出 MTP 命令，而不使用對應的資料階段。                                         |
 | [**WPD \_ 命令 \_ MTP \_ EXT \_ EXECUTE \_ 命令 \_ 與 \_ \_ 要 \_ 寫入的資料**](/windows/desktop/wpd_sdk/wpd-command-mtp-ext-execute-command-with-data-to-write) | 發出 MTP 命令，其後伴隨的資料會寫入至裝置。 |

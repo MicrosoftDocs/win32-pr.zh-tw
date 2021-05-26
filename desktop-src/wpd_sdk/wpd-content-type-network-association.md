@@ -4,12 +4,12 @@ ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
 title: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab3fd2f76efef5b85991f1334977c17e34d06b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3c92f76080db4167a12578c58e9d85c9506c28b
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985293"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423715"
 ---
 # <a name="wpd_content_type_network_association"></a>WPD \_ 內容 \_ 類型 \_ 網路 \_ 關聯
 
@@ -19,9 +19,8 @@ ms.locfileid: "106985293"
 
 
 
-|                                                                                                                                              |                                                                       |
+| 屬性名稱         | 必要或選擇性        |
 |----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------|
-| **屬性名稱**                                                                                                                            | **必要或選擇性**                                              |
 | [WPD \_ 物件 \_ 識別碼](object-properties.md)                                                                                       | 必要。                                                             |
 | [WPD \_ 物件 \_ 父 \_ 識別碼](object-properties.md)                                                                        | 必要。                                                             |
 | [WPD \_ 物件 \_ 名稱](object-properties.md)                                                                                   | 如果物件代表檔案，則為必要。                             |

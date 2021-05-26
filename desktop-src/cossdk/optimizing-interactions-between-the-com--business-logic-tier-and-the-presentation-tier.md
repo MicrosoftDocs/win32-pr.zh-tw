@@ -4,12 +4,12 @@ ms.assetid: 4780a9fd-5940-4b10-a596-22214b17c033
 title: 將 COM + 商務邏輯層和展示層之間的互動優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe6094cb12cc7875d8a18dea3d28ac55bf8d6ae2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3258453a16549eacf3a7ed77444674d425c85613
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972976"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110423498"
 ---
 # <a name="optimizing-interactions-between-the-com-business-logic-tier-and-the-presentation-tier"></a>將 COM + 商務邏輯層和展示層之間的互動優化
 
@@ -36,7 +36,7 @@ ms.locfileid: "106972976"
 
 
 
-|                       | 並行  | WAN          | 部署   | 複雜度   |
+|     &nbsp;                  | 並行  | WAN          | 部署   | 複雜度   |
 |-----------------------|--------------|--------------|--------------|--------------|
 | 進入 | 值 |
 | 集中<br/> |              | X<br/> | X<br/> | X<br/> |
