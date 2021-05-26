@@ -4,37 +4,36 @@ ms.assetid: 4af4201c-d3f6-4630-91ec-6509c51871a5
 title: 列舉服務內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04adb949fdec9a0001583b1481ccd50ada1ef1df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2b701bdab867e96bc9658e2624ea18aa65dfc33
+ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191283"
+ms.lasthandoff: 05/25/2021
+ms.locfileid: "110424248"
 ---
-# <a name="enumerating-service-content"></a><span data-ttu-id="72b0d-103">列舉服務內容</span><span class="sxs-lookup"><span data-stu-id="72b0d-103">Enumerating Service Content</span></span>
+# <a name="enumerating-service-content"></a><span data-ttu-id="adab5-103">列舉服務內容</span><span class="sxs-lookup"><span data-stu-id="adab5-103">Enumerating Service Content</span></span>
 
-<span data-ttu-id="72b0d-104">當您的應用程式開啟服務之後，就可以開始執行與服務相關的作業。</span><span class="sxs-lookup"><span data-stu-id="72b0d-104">After your application opens a service, it can begin performing service-related operations.</span></span> <span data-ttu-id="72b0d-105">在 WpdServicesApiSample 應用程式的案例中，其中一項作業是指定連絡人服務的內容列舉。</span><span class="sxs-lookup"><span data-stu-id="72b0d-105">In the case of the WpdServicesApiSample application, one of these operations is the enumeration of content for a given Contacts service.</span></span> <span data-ttu-id="72b0d-106">下表說明所使用的介面。</span><span class="sxs-lookup"><span data-stu-id="72b0d-106">The following table describes the interfaces used.</span></span>
+<span data-ttu-id="adab5-104">當您的應用程式開啟服務之後，就可以開始執行與服務相關的作業。</span><span class="sxs-lookup"><span data-stu-id="adab5-104">After your application opens a service, it can begin performing service-related operations.</span></span> <span data-ttu-id="adab5-105">在 WpdServicesApiSample 應用程式的案例中，其中一項作業是指定連絡人服務的內容列舉。</span><span class="sxs-lookup"><span data-stu-id="adab5-105">In the case of the WpdServicesApiSample application, one of these operations is the enumeration of content for a given Contacts service.</span></span> <span data-ttu-id="adab5-106">下表說明所使用的介面。</span><span class="sxs-lookup"><span data-stu-id="adab5-106">The following table describes the interfaces used.</span></span>
 
 
 
-|                                                                      |                                                                                                  |
+| <span data-ttu-id="adab5-107">介面</span><span class="sxs-lookup"><span data-stu-id="adab5-107">Interface</span></span>                                                            | <span data-ttu-id="adab5-108">描述</span><span class="sxs-lookup"><span data-stu-id="adab5-108">Description</span></span>                                                                                      |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="72b0d-107">介面</span><span class="sxs-lookup"><span data-stu-id="72b0d-107">Interface</span></span>                                                            | <span data-ttu-id="72b0d-108">描述</span><span class="sxs-lookup"><span data-stu-id="72b0d-108">Description</span></span>                                                                                      |
-| [<span data-ttu-id="72b0d-109">**IPortableDeviceService**</span><span class="sxs-lookup"><span data-stu-id="72b0d-109">**IPortableDeviceService**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | <span data-ttu-id="72b0d-110">用來取出 IPortableDeviceContent2 介面，以存取服務的內容。</span><span class="sxs-lookup"><span data-stu-id="72b0d-110">Used to retrieve the IPortableDeviceContent2 interface to access content on the service.</span></span>         |
-| [<span data-ttu-id="72b0d-111">**IPortableDeviceContent2**</span><span class="sxs-lookup"><span data-stu-id="72b0d-111">**IPortableDeviceContent2**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | <span data-ttu-id="72b0d-112">用來取出 IEnumPortableDeviceObjectIDs 介面，以列舉服務上的物件。</span><span class="sxs-lookup"><span data-stu-id="72b0d-112">Used to retrieve the IEnumPortableDeviceObjectIDs interface to enumerate objects on the service.</span></span> |
-| [<span data-ttu-id="72b0d-113">**IEnumPortableDeviceObjectIDs**</span><span class="sxs-lookup"><span data-stu-id="72b0d-113">**IEnumPortableDeviceObjectIDs**</span></span>](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | <span data-ttu-id="72b0d-114">用來列舉服務上的物件。</span><span class="sxs-lookup"><span data-stu-id="72b0d-114">Used to enumerate objects on the service.</span></span>                                                        |
+| [<span data-ttu-id="adab5-109">**IPortableDeviceService**</span><span class="sxs-lookup"><span data-stu-id="adab5-109">**IPortableDeviceService**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)             | <span data-ttu-id="adab5-110">用來取出 IPortableDeviceContent2 介面，以存取服務的內容。</span><span class="sxs-lookup"><span data-stu-id="adab5-110">Used to retrieve the IPortableDeviceContent2 interface to access content on the service.</span></span>         |
+| [<span data-ttu-id="adab5-111">**IPortableDeviceContent2**</span><span class="sxs-lookup"><span data-stu-id="adab5-111">**IPortableDeviceContent2**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)           | <span data-ttu-id="adab5-112">用來取出 IEnumPortableDeviceObjectIDs 介面，以列舉服務上的物件。</span><span class="sxs-lookup"><span data-stu-id="adab5-112">Used to retrieve the IEnumPortableDeviceObjectIDs interface to enumerate objects on the service.</span></span> |
+| [<span data-ttu-id="adab5-113">**IEnumPortableDeviceObjectIDs**</span><span class="sxs-lookup"><span data-stu-id="adab5-113">**IEnumPortableDeviceObjectIDs**</span></span>](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids) | <span data-ttu-id="adab5-114">用來列舉服務上的物件。</span><span class="sxs-lookup"><span data-stu-id="adab5-114">Used to enumerate objects on the service.</span></span>                                                        |
 
 
 
  
 
-<span data-ttu-id="72b0d-115">內容列舉程式碼可在 ContentEnumeration .cpp 模組中找到。</span><span class="sxs-lookup"><span data-stu-id="72b0d-115">The content enumeration code is found in the ContentEnumeration.cpp module.</span></span> <span data-ttu-id="72b0d-116">此程式碼位於 **EnumerateAllContent** 和 **RecursiveEnumerate** 方法中。</span><span class="sxs-lookup"><span data-stu-id="72b0d-116">This code resides in the **EnumerateAllContent** and the **RecursiveEnumerate** methods.</span></span> <span data-ttu-id="72b0d-117">先前的方法會呼叫後者。</span><span class="sxs-lookup"><span data-stu-id="72b0d-117">The former method calls the latter.</span></span>
+<span data-ttu-id="adab5-115">內容列舉程式碼可在 ContentEnumeration .cpp 模組中找到。</span><span class="sxs-lookup"><span data-stu-id="adab5-115">The content enumeration code is found in the ContentEnumeration.cpp module.</span></span> <span data-ttu-id="adab5-116">此程式碼位於 **EnumerateAllContent** 和 **RecursiveEnumerate** 方法中。</span><span class="sxs-lookup"><span data-stu-id="adab5-116">This code resides in the **EnumerateAllContent** and the **RecursiveEnumerate** methods.</span></span> <span data-ttu-id="adab5-117">先前的方法會呼叫後者。</span><span class="sxs-lookup"><span data-stu-id="adab5-117">The former method calls the latter.</span></span>
 
-<span data-ttu-id="72b0d-118">**EnumerateContent** 方法會採用 [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)物件的指標作為其一個參數。</span><span class="sxs-lookup"><span data-stu-id="72b0d-118">The **EnumerateContent** method takes a pointer to an [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice) object as its one parameter.</span></span> <span data-ttu-id="72b0d-119">這個物件會對應到應用程式在呼叫 [**IPortableDeviceService：： Open**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open) 方法時先前開啟的服務。</span><span class="sxs-lookup"><span data-stu-id="72b0d-119">This object corresponds to a service that the application opened earlier when it called the [**IPortableDeviceService::Open**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open) method.</span></span>
+<span data-ttu-id="adab5-118">**EnumerateContent** 方法會採用 [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)物件的指標作為其一個參數。</span><span class="sxs-lookup"><span data-stu-id="adab5-118">The **EnumerateContent** method takes a pointer to an [**IPortableDeviceService**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice) object as its one parameter.</span></span> <span data-ttu-id="adab5-119">這個物件會對應到應用程式在呼叫 [**IPortableDeviceService：： Open**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open) 方法時先前開啟的服務。</span><span class="sxs-lookup"><span data-stu-id="adab5-119">This object corresponds to a service that the application opened earlier when it called the [**IPortableDeviceService::Open**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-open) method.</span></span>
 
-<span data-ttu-id="72b0d-120">**EnumerateContent** 方法會建立 [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)物件，並將此物件傳遞給 [**IPortableDeviceService：： Content**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content)方法。</span><span class="sxs-lookup"><span data-stu-id="72b0d-120">The **EnumerateContent** method creates an [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2) object and passes this object to the [**IPortableDeviceService::Content**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content) method.</span></span> <span data-ttu-id="72b0d-121">接著，這個方法會在服務的根層級抓取內容，然後以遞迴方式開始抓取在根目錄底下找到的內容。</span><span class="sxs-lookup"><span data-stu-id="72b0d-121">This method, in turn, retrieves the content at the root level of the service, and then recursively begins to retrieve content found beneath the root.</span></span>
+<span data-ttu-id="adab5-120">**EnumerateContent** 方法會建立 [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)物件，並將此物件傳遞給 [**IPortableDeviceService：： Content**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content)方法。</span><span class="sxs-lookup"><span data-stu-id="adab5-120">The **EnumerateContent** method creates an [**IPortableDeviceContent2**](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2) object and passes this object to the [**IPortableDeviceService::Content**](/windows/desktop/api/PortableDeviceAPI/nf-portabledeviceapi-iportabledeviceservice-content) method.</span></span> <span data-ttu-id="adab5-121">接著，這個方法會在服務的根層級抓取內容，然後以遞迴方式開始抓取在根目錄底下找到的內容。</span><span class="sxs-lookup"><span data-stu-id="adab5-121">This method, in turn, retrieves the content at the root level of the service, and then recursively begins to retrieve content found beneath the root.</span></span>
 
-<span data-ttu-id="72b0d-122">下列程式碼會對應至 **EnumerateContent** 方法。</span><span class="sxs-lookup"><span data-stu-id="72b0d-122">The following code corresponds to the **EnumerateContent** method.</span></span>
+<span data-ttu-id="adab5-122">下列程式碼會對應至 **EnumerateContent** 方法。</span><span class="sxs-lookup"><span data-stu-id="adab5-122">The following code corresponds to the **EnumerateContent** method.</span></span>
 
 
 ```C++
@@ -71,7 +70,7 @@ void EnumerateAllContent(
 
 
 
-<span data-ttu-id="72b0d-123">下列程式碼會對應至 **RecursiveEnumerate** 方法。</span><span class="sxs-lookup"><span data-stu-id="72b0d-123">The following code corresponds to the **RecursiveEnumerate** method.</span></span> <span data-ttu-id="72b0d-124">RecursiveEnumerate 方法會具現化所提供父物件的 **IEnumPortableDeviceObjectIDs** 介面，然後呼叫 **IEnumPortableDeviceObjectIDs：： Next**，以抓取立即子物件的批次。</span><span class="sxs-lookup"><span data-stu-id="72b0d-124">The RecursiveEnumerate method instantiates an **IEnumPortableDeviceObjectIDs** interface for the supplied parent object, and calls **IEnumPortableDeviceObjectIDs::Next**, retrieving a batch of immediate child objects.</span></span> <span data-ttu-id="72b0d-125">針對每個子物件，會再次呼叫 RecursiveEnumerate，以傳回其子物件的子物件等等。</span><span class="sxs-lookup"><span data-stu-id="72b0d-125">For each child object, RecursiveEnumerate is called again to return its descendent child objects, and so on.</span></span>
+<span data-ttu-id="adab5-123">下列程式碼會對應至 **RecursiveEnumerate** 方法。</span><span class="sxs-lookup"><span data-stu-id="adab5-123">The following code corresponds to the **RecursiveEnumerate** method.</span></span> <span data-ttu-id="adab5-124">RecursiveEnumerate 方法會具現化所提供父物件的 **IEnumPortableDeviceObjectIDs** 介面，然後呼叫 **IEnumPortableDeviceObjectIDs：： Next**，以抓取立即子物件的批次。</span><span class="sxs-lookup"><span data-stu-id="adab5-124">The RecursiveEnumerate method instantiates an **IEnumPortableDeviceObjectIDs** interface for the supplied parent object, and calls **IEnumPortableDeviceObjectIDs::Next**, retrieving a batch of immediate child objects.</span></span> <span data-ttu-id="adab5-125">針對每個子物件，會再次呼叫 RecursiveEnumerate，以傳回其子物件的子物件等等。</span><span class="sxs-lookup"><span data-stu-id="adab5-125">For each child object, RecursiveEnumerate is called again to return its descendent child objects, and so on.</span></span>
 
 
 ```C++
@@ -124,23 +123,23 @@ void RecursiveEnumerate(
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="72b0d-126">相關主題</span><span class="sxs-lookup"><span data-stu-id="72b0d-126">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="adab5-126">相關主題</span><span class="sxs-lookup"><span data-stu-id="adab5-126">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="72b0d-127">**IEnumPortableDeviceObjectIDs**</span><span class="sxs-lookup"><span data-stu-id="72b0d-127">**IEnumPortableDeviceObjectIDs**</span></span>](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids)
+[<span data-ttu-id="adab5-127">**IEnumPortableDeviceObjectIDs**</span><span class="sxs-lookup"><span data-stu-id="adab5-127">**IEnumPortableDeviceObjectIDs**</span></span>](/windows/desktop/api/PortableDeviceApi/nn-portabledeviceapi-ienumportabledeviceobjectids)
 </dt> <dt>
 
-[<span data-ttu-id="72b0d-128">**IPortableDeviceContent2 介面**</span><span class="sxs-lookup"><span data-stu-id="72b0d-128">**IPortableDeviceContent2 Interface**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)
+[<span data-ttu-id="adab5-128">**IPortableDeviceContent2 介面**</span><span class="sxs-lookup"><span data-stu-id="adab5-128">**IPortableDeviceContent2 Interface**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledevicecontent2)
 </dt> <dt>
 
-[<span data-ttu-id="72b0d-129">**IPortableDeviceService 介面**</span><span class="sxs-lookup"><span data-stu-id="72b0d-129">**IPortableDeviceService Interface**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)
+[<span data-ttu-id="adab5-129">**IPortableDeviceService 介面**</span><span class="sxs-lookup"><span data-stu-id="adab5-129">**IPortableDeviceService Interface**</span></span>](/windows/desktop/api/PortableDeviceAPI/nn-portabledeviceapi-iportabledeviceservice)
 </dt> <dt>
 
-[<span data-ttu-id="72b0d-130">開啟服務</span><span class="sxs-lookup"><span data-stu-id="72b0d-130">Opening a Service</span></span>](opening-a-service.md)
+[<span data-ttu-id="adab5-130">開啟服務</span><span class="sxs-lookup"><span data-stu-id="adab5-130">Opening a Service</span></span>](opening-a-service.md)
 </dt> <dt>
 
-[<span data-ttu-id="72b0d-131">WpdServicesApiSample</span><span class="sxs-lookup"><span data-stu-id="72b0d-131">WpdServicesApiSample</span></span>](wpdapisample-sample-service-application.md)
+[<span data-ttu-id="adab5-131">WpdServicesApiSample</span><span class="sxs-lookup"><span data-stu-id="adab5-131">WpdServicesApiSample</span></span>](wpdapisample-sample-service-application.md)
 </dt> </dl>
 
  
