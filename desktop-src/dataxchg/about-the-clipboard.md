@@ -16,12 +16,12 @@ keywords:
 - 擁有者顯示剪貼簿格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b94757a95fb8c40152a0018d04cef64e8efae624
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ebe22a16886c62824775b5f2d8174e2a8e244b9e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316102"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549583"
 ---
 # <a name="about-the-clipboard"></a>關於剪貼簿
 
@@ -49,7 +49,7 @@ ms.locfileid: "104316102"
 
 
 
-|            |                                                                                                                                                                                                                   |
+|  命令        |  描述                                                                                                                                                                                                                 |
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **剪下**    | 將目前選取範圍的複本放在剪貼簿，並從檔中刪除選取專案。 剪貼簿的先前內容已損毀。                                                          |
 | **複製**   | 將目前選取範圍的複本放在剪貼簿上。 檔會維持不變。 剪貼簿的先前內容已損毀。                                                                      |
@@ -58,7 +58,7 @@ ms.locfileid: "104316102"
 
 
 
- 
+ 
 
 ## <a name="clipboard-sequence-number"></a>剪貼簿序號
 
@@ -107,6 +107,6 @@ ms.locfileid: "104316102"
 [標準剪貼簿格式](standard-clipboard-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
