@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_RESAMPLE_GRAD_OPERATOR_DESC
-ms.openlocfilehash: 0caba1a560b72a94ed04cacd824414964af82c35
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ff2660257fa619edb72f10efb419f3c15f43fbde
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804049"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549723"
 ---
 # <a name="dml_resample_grad_operator_desc-structure-directmlh"></a>DML_RESAMPLE_GRAD_OPERATOR_DESC 結構 (directml .h) 
 
@@ -124,19 +124,19 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Scales`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *刻度*。
 
 `InputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *InputPixelOffsets* 。
 
 `OutputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 請參閱 [DML_RESAMPLE1_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)中的 *OutputPixelOffsets* 。
 
@@ -147,7 +147,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 *InputGradientTensor* 和 *OutputGradientTensor* 必須有相同的 *資料類型*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputGradientTensor | 輸入 | 4 | FLOAT32、FLOAT16 |
 | OutputGradientTensor | 輸出 | 4 | FLOAT32、FLOAT16 |

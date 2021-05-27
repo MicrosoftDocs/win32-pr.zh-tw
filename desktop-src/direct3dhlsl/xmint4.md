@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d532f3a2a2332874f7b7c22f17992c22984e3f86
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: ead9e7da8d48025c456ae6e57b0ffe64cdb00f46
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222836"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549953"
 ---
 # <a name="xmint4-structure"></a>XMINT4 結構
 
@@ -59,7 +59,7 @@ typedef struct _XMINT4 {
 
 <dl> <dt>
 
-**Z**
+**z**
 </dt> <dd>
 
 向量的 z 元件。
@@ -85,7 +85,7 @@ w-向量的元件。
 
 ## <a name="remarks"></a>備註
 
-此結構定義于 ``D3DX\_DXGIFormatConvert.inl`` DIRECTX SDK 的標頭中， (2010 年6月) ，以從 c + + 使用。 在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中，此標頭的最新版本不會再定義它，而會改為依賴 DirectXMath 中的 [DIRECTX：： XMINT4](https://docs.microsoft.com/en-us/windows/win32/api/directxmath/ns-directxmath-xmint4) 。
+此結構定義于 ``D3DX\_DXGIFormatConvert.inl`` DIRECTX SDK 的標頭中， (2010 年6月) ，以從 c + + 使用。 在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中，此標頭的最新版本不會再定義它，而會改為依賴 DirectXMath 中的 [DIRECTX：： XMINT4](/windows/win32/api/directxmath/ns-directxmath-xmint4) 。
 
 
 

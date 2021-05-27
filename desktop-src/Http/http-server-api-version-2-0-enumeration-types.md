@@ -4,16 +4,21 @@ description: 以下是 HTTP 版本2.0 列舉類型 HTTP \_ 503 \_ RESPONSE \_ VE
 ms.assetid: 849b88a1-e60b-4a1d-a660-cc3fe429d39f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77eaf6fb9c97adfc7a23aad657bfadbdf5e30296
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 208c2f648208b04a1eb29634d883f2d41b08017d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021785"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549083"
 ---
 # <a name="http-server-api-version-20-enumeration-types"></a>HTTP 伺服器 API 2.0 版列舉類型
 
-以下是 HTTP 2.0 版的列舉類型：
+以下是 HTTP 2.0 版的列舉類型。
+
+| 列舉型別 | 描述 |
+|-|-|
+| [**HTTP_DELEGATE_REQUEST_PROPERTY_ID**](/windows/win32/api/http/ne-http-http_delegate_request_property_id) | 定義常數，指定委派要求的屬性資訊類型。 |
+| [**HTTP_FEATURE_ID**](/windows/win32/api/http/ne-http-http_feature_id) | 定義常數，指定 HTTP 功能的識別碼。 |
 
 -   [**HTTP \_ 503 \_ 回應 \_ 詳細資訊**](/windows/desktop/api/Http/ne-http-http_503_response_verbosity)
 -   [**HTTP \_ 驗證 \_ 狀態**](/windows/desktop/api/Http/ne-http-http_auth_status)
@@ -28,11 +33,3 @@ ms.locfileid: "104021785"
 -   [**HTTP \_ 伺服器 \_ 屬性**](/windows/desktop/api/Http/ne-http-http_server_property)
 -   [**HTTP 服務設定快取 \_ \_ \_ \_ 金鑰**](/windows/desktop/api/Http/ne-http-http_service_config_cache_key)
 -   [**HTTP \_ 服務 \_ \_ 設定超時 \_ 金鑰**](/windows/desktop/api/Http/ne-http-http_service_config_timeout_key)
-
- 
-
- 
-
-
-
-

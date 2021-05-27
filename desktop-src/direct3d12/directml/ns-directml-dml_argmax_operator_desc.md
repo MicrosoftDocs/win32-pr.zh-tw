@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_ARGMAX_OPERATOR_DESC
-ms.openlocfilehash: 0c466975ad3b88973f50bc06676f2197267c56a7
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 4c2852c3d301a12d318c5e3006b26830c6eaa6e1
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803552"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550493"
 ---
 # <a name="dml_argmax_operator_desc-structure-directmlh"></a>DML_ARGMAX_OPERATOR_DESC 結構 (directml .h) 
 
@@ -92,13 +92,13 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `AxisCount`
 
-類型： **[UINT](/windows/win32/winprog/windows-data-types)**
+類型： **[UINT](../../winprog/windows-data-types.md)**
 
 要減少的軸數目。 此欄位會決定 *軸* 陣列的大小。
 
 `Axes`
 
-類型： \_ Field_size \_ (AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (AxisCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 要減少的軸。 值必須在範圍內 `[0, InputTensor.DimensionCount - 1]` 。
 
@@ -169,7 +169,7 @@ OutputTensor: (Sizes:{1, 1}, DataType:UINT32)
 *InputTensor* 和 *OutputTensor* 必須有相同的 *DimensionCount*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 1至8 | FLOAT32、FLOAT16、INT32、INT16、INT8、UINT32、UINT16、UINT8 |
 | OutputTensor | 輸出 | 1至8 | INT64、INT32、UINT64、UINT32 |

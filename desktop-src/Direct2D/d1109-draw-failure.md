@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 4b08dfb99d49dcb447443685e1fbfa01a2cbad1c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 09d84f549b2361d2753ac40650ce057de9e4f84c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683052"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549963"
 ---
 # <a name="d1109-draw-failure"></a>D1109：繪製失敗
 
@@ -49,18 +49,18 @@ ms.locfileid: "103683052"
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | 錯誤層級 | 警告 |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>可能的原因
 
 繪製呼叫可能會失敗的原因有很多。 如需詳細資訊，請參閱 Direct2D SDK 檔集，以瞭解失敗的方法。
 
- 
+ 
 
- 
+ 

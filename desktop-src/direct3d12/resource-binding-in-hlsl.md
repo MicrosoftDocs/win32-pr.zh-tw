@@ -5,12 +5,12 @@ ms.assetid: 3CD4BDAD-8AE3-4DE0-B3F8-9C9F9E83BBE9
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 08/27/2019
-ms.openlocfilehash: 01039550f07de57fb7b2f1e815bced02e549c741
-ms.sourcegitcommit: 60120d10c957815d79af566c72e5f4bcfaca4025
+ms.openlocfilehash: 711ccdee71ff916445be68d03b84b7621aa04cf3
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2021
-ms.locfileid: "104837486"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550383"
 ---
 # <a name="resource-binding-in-hlsl"></a>HLSL 中的資源系結
 
@@ -139,7 +139,7 @@ ConstantBuffer<myConstants>   c[10000] : register(b0);
 
 ## <a name="resource-aliasing"></a>資源別名
 
-HLSL 著色器中指定的資源範圍是邏輯範圍。 它們會在執行時間透過根簽章機制系結至具體堆積範圍。 一般來說，邏輯範圍會對應至不會與其他堆積範圍重迭的堆積範圍。 不過，根簽章機制可 (重迭) 相容類型的堆積範圍。 例如， `tex2` 上述範例中的和 `tex3` 範圍可能會對應到相同的 (或重迭的) 堆積範圍，其具有在 HLSL 程式中對材質進行別名的影響。 如果需要這類別名，您必須使用 D3D10 \_ 著色器資源的別名選項來編譯著色器 \_ ，此 \_ \_ 選項是使用 [效果編譯器工具](/windows/win32/direct3dtools/fxc) (fxc.exe) 的 [ */res] \_ 可能 \_ 別名* 選項來設定。 選項讓編譯器在假設資源可能為別名的情況下，防止特定的負載/存放區優化，以產生正確的程式碼。
+HLSL 著色器中指定的資源範圍是邏輯範圍。 它們會在執行時間透過根簽章機制系結至具體堆積範圍。 一般來說，邏輯範圍會對應至不會與其他堆積範圍重迭的堆積範圍。 不過，根簽章機制可 (重迭) 相容類型的堆積範圍。 例如， `tex2` 上述範例中的和 `tex3` 範圍可能會對應到相同的 (或重迭的) 堆積範圍，其具有在 HLSL 程式中對材質進行別名的影響。 如果需要這類別名，您必須使用 D3D10 \_ 著色器資源的別名選項來編譯著色器 \_ ，此 \_ \_ 選項是使用 [效果編譯器工具](../direct3dtools/fxc.md) (fxc.exe) 的 [ */res] \_ 可能 \_ 別名* 選項來設定。 選項讓編譯器在假設資源可能為別名的情況下，防止特定的負載/存放區優化，以產生正確的程式碼。
 
 ## <a name="divergence-and-derivatives"></a>發散和衍生
 
@@ -316,11 +316,11 @@ ConstantBuffer<Stuff> myStuff[][3][8]  : register(b2, space3)
 ## <a name="related-topics"></a>相關主題
 
 * [使用 HLSL 5.1 的動態索引](dynamic-indexing-using-hlsl-5-1.md)
-* [效果-編譯器工具](/windows/win32/direct3dtools/fxc)
-* [適用于 Direct3D 12 的 HLSL 著色器模型5.1 功能](/windows/win32/direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12)
+* [效果-編譯器工具](../direct3dtools/fxc.md)
+* [適用于 Direct3D 12 的 HLSL 著色器模型5.1 功能](../direct3dhlsl/hlsl-shader-model-5-1-features-for-direct3d-12.md)
 * [依轉譯器排序的視圖](rasterizer-order-views.md)
 * [資源系結](resource-binding.md)
 * [根簽章](root-signatures.md)
-* [著色器模型5。1](/windows/win32/direct3dhlsl/shader-model-5-1)
+* [著色器模型5。1](../direct3dhlsl/shader-model-5-1.md)
 * [著色器指定的樣板參考值](shader-specified-stencil-reference-value.md)
 * [在 HLSL 中指定根簽章](specifying-root-signatures-in-hlsl.md)

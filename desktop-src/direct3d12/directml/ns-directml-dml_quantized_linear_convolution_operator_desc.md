@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC
-ms.openlocfilehash: 4dd50d80dfe4ae60e3fe7e67124ef00bfbc7bf2b
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 5b98e1f57268cab70c2fb672991bce3d67419db8
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803880"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549782"
 ---
 # <a name="dml_quantized_linear_convolution_operator_desc-structure-directmlh"></a>DML_QUANTIZED_LINEAR_CONVOLUTION_OPERATOR_DESC 結構 (directml .h) 
 使用 *InputTensor* 執行 *FilterTensor* 的卷積。 這個運算子會在量化資料上執行向前卷積。 這個運算子在數學上相當於 dequantizing 輸入、convolving，然後量化輸出。 
@@ -176,28 +176,28 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Strides`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 積運算的進展。 這些進展適用于卷積篩選。 它們與 [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)中包含的 tensor 進步不同。
 
 
 `Dilations`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 卷積運算的 Dilations。 Dilations 是套用至篩選核心元素的進展。 這有藉由以零填補內部篩選核心元素來模擬較大的篩選核心效果。
 
 
 `StartPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 要套用至卷積運算之篩選和輸入 tensor 的每個空間維度開頭的填補值。
 
 
 `EndPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 要套用至卷積運算之篩選和輸入 tensor 的每個空間維度結尾的填補值。
 
@@ -217,7 +217,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 * *OutputTensor* 和 `OutputZeroPointTensor` 必須具有相同的 *資料類型*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 4 | INT8、UINT8 |
 | InputScaleTensor | 輸入 | 4 | FLOAT32 |

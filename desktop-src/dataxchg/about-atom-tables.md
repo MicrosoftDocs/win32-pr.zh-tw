@@ -14,12 +14,12 @@ keywords:
 - 字串原子
 ms.topic: article
 ms.date: 08/25/2020
-ms.openlocfilehash: 27f7cdb4bb2dc2fd97b4dba6909022b297df1a1d
-ms.sourcegitcommit: e985e0532f0f895ae418e8c2658dac819cdae3b1
+ms.openlocfilehash: 92a8304e1e96c7385ddb11ba6391258acbe62a26
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "104383029"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549603"
 ---
 # <a name="about-atom-tables"></a>關於 Atom 資料表
 
@@ -121,15 +121,15 @@ Atom 資料表會實作為雜湊表。 根據預設，本機 atom 資料表會�
 
 
 
-|                    |                                                                                                    |
+|     字串格式               |    Description                                                                                                |
 |--------------------|----------------------------------------------------------------------------------------------------|
 | \#*dddd*           | 指定為十進位字串的整數。 用來建立或尋找整數 atom。                  |
 | *字串 atom 名稱* | 字串 atom 名稱。 用來將字串 atom 名稱加入 atom 資料表中，並接收傳回的 atom。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

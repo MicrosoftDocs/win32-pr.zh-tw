@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC
-ms.openlocfilehash: 759bf25d4b6a97e70c6de7708a5c9fd0bccae439
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ae22b004f1e879eb020ddcfe39a5f26481a508b0
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803401"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549773"
 ---
 # <a name="dml_mean_variance_normalization1_operator_desc-structure-directmlh"></a>DML_MEAN_VARIANCE_NORMALIZATION1_OPERATOR_DESC 結構 (directml .h) 
 
@@ -123,7 +123,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Axes`
 
-類型： \_ 欄位 \_ 大小 \_ (AxisCount) **const [UINT](/windows/win32/winprog/windows-data-types) \*** 
+類型： \_ 欄位 \_ 大小 \_ (AxisCount) **const [UINT](../../winprog/windows-data-types.md) \*** 
 
 要計算平均值和變異數的座標軸。
 
@@ -159,7 +159,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 ### <a name="dml_feature_level_3_1-and-above"></a>DML_FEATURE_LEVEL_3_1 和更新版本
 
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 1至8 | FLOAT32、FLOAT16 |
 | ScaleTensor | 選擇性輸入 | 1至8 | FLOAT32、FLOAT16 |
@@ -168,7 +168,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 ### <a name="dml_feature_level_2_1-and-above"></a>DML_FEATURE_LEVEL_2_1 和更新版本
 
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 4 | FLOAT32、FLOAT16 |
 | ScaleTensor | 選擇性輸入 | 4 | FLOAT32、FLOAT16 |

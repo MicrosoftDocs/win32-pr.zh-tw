@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e149727650223f40a290d1ada40abc69f9033440
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: f099c1c71015ca433299843d388085103571d31d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380632"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549413"
 ---
 # <a name="id2d1rendertargetcreategradientstopcollection-methods"></a>ID2D1RenderTarget：： CreateGradientStopCollection 方法
 
@@ -29,8 +29,8 @@ ms.locfileid: "107380632"
 
 | 方法                                                                                                                                                                                                                                                               | 描述                                                                                                                                                                                                                           |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CreateGradientStopCollection (D2D1 \_ 梯度 \_ 停駐 \* 、D2D1 \_ GAMMA、D2D1 \_ 擴充 \_ 模式、ID2D1GradientStopCollection \* \*)**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx) | 從指定的漸層停駐點、色彩插補 gamma 和延伸模式建立 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) 。 <br/>                                                              |
-| [**CreateGradientStopCollection (D2D1 \_ 梯度 \_ 停駐 \* 、ID2D1GradientStopCollection \* \*)**](https://msdn.microsoft.com/library/Dd316783(v=VS.85).aspx)                                                            | 從指定的漸層停用 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) ，使用 [**D2D1 \_ GAMMA \_ 2 \_ 2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) 色彩插補 GAMMA 和 [夾具延伸模式] 來建立。<br/> |
+| [**CreateGradientStopCollection (D2D1 \_ 梯度 \_ 停駐 \* 、D2D1 \_ GAMMA、D2D1 \_ 擴充 \_ 模式、ID2D1GradientStopCollection \* \*)**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) | 從指定的漸層停駐點、色彩插補 gamma 和延伸模式建立 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) 。 <br/>                                                              |
+| [**CreateGradientStopCollection (D2D1 \_ 梯度 \_ 停駐 \* 、ID2D1GradientStopCollection \* \*)**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection)                                                            | 從指定的漸層停用 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection) ，使用 [**D2D1 \_ GAMMA \_ 2 \_ 2**](/windows/win32/api/d2d1/ne-d2d1-d2d1_gamma) 色彩插補 GAMMA 和 [夾具延伸模式] 來建立。<br/> |
 
 
 

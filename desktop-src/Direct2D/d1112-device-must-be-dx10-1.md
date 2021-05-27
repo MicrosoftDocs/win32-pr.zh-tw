@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: b4204e04332876db9145baba9888dbb2d339eff9
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 68408c56710589def033c34d20d9bac81e8d4947
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104023186"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549883"
 ---
 # <a name="d1112-device-must-be-dx11"></a>D1112：裝置必須是 DX11 相互作用
 
@@ -26,21 +26,21 @@ ms.locfileid: "104023186"
 
 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | 錯誤層級 | 警告 |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>可能的原因
 
 嘗試使用 [**CreateDxgiSurfaceRenderTarget**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-createdxgisurfacerendertarget(idxgisurface_constd2d1_render_target_properties__id2d1rendertarget)) 搭配非 Direct3D11 裝置所建立的 DXGI 介面。
 
- 
+ 
 
- 
+ 
 
 
 

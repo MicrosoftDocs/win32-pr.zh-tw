@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a91c61e4a7c2786e67ed28e2c62e5963762659c
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 78f25ea90f8eb37c829cdc86e89f6d7e8cad2312
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590775"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549253"
 ---
 # <a name="cdn_includeitem-notification-code"></a>CDN \_ INCLUDEITEM 通知碼
 
-\[從 Windows Vista 開始，[[一般專案] 對話方塊](/windows/win32/shell/common-file-dialog)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
+\[從 Windows Vista 開始，[[一般專案] 對話方塊](../shell/common-file-dialog.md)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
 
 由 [ **開啟** ] 或 [ **另存** 新檔] 對話方塊傳送，以判斷對話方塊是否應在 shell 資料夾的專案清單中顯示專案。 當使用者開啟資料夾時，對話方塊會為資料夾中的每個專案傳送 **CDN \_ INCLUDEITEM** 通知。 只有在建立對話方塊時設定了 **OFN \_ ENABLEINCLUDENOTIFY** 旗標，對話方塊才會傳送此通知。
 
@@ -105,6 +105,4 @@ ms.locfileid: "107590775"
 
 [通用對話方塊程式庫](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

@@ -4,12 +4,12 @@ description: 持續性介面
 ms.assetid: a93582b3-bdbf-430d-b4a6-c0df7bc35dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e72ef5f7381c6d58b9025f983ecd852b83661030
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: c2e1acbd1074fd5fa4e87e571a1e21ab48d5d075
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093411"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550503"
 ---
 # <a name="persistence-interfaces"></a>持續性介面
 
@@ -27,14 +27,14 @@ ms.locfileid: "104093411"
 |------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IPersistMemory**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768210(v=vs.85))<br/>           | 物件可以將其狀態儲存並載入固定長度的連續位元組陣列 (記憶體) 。<br/>                                                                                                                                                                                                                                                    |
 | [**IPersistStorage**](/windows/desktop/api/ObjIdl/nn-objidl-ipersiststorage)<br/>                  | 物件可將其狀態儲存並載入至 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 實例。 希望將可插入的控制項標示為其他複合檔案物件 (插入非控制項感知容器中) 必須支援此介面。<br/>                                                                                               |
-| [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85))<br/> | 物件可以將其狀態儲存並載入至容器所執行之 IPropertyBag 的個別屬性。 這是用來在某些容器中以文字功能的形式儲存。<br/>                                                                                                                                                          |
+| [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag)<br/> | 物件可以將其狀態儲存並載入至容器所執行之 IPropertyBag 的個別屬性。 這是用來在某些容器中以文字功能的形式儲存。<br/>                                                                                                                                                          |
 | [**IPersistMoniker**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/ms775042(v=vs.85))<br/>  | 物件可以儲存其狀態，並將其載入至以標記命名的位置。 此控制項會呼叫 [**IMoniker：： BindToStorage**](/windows/desktop/api/ObjIdl/nf-objidl-imoniker-bindtostorage) ，以抓取其所需的儲存介面，例如 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage)、 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)、 [**ILockBytes**](/windows/desktop/api/objidl/nn-objidl-ilockbytes)、 [**IDataObject**](/windows/desktop/api/ObjIdl/nn-objidl-idataobject)等。<br/> |
 
 
 
  
 
-雖然 [**IPersistPropertyBag**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768205(v=vs.85)) 的支援是選擇性的，但強烈建議使用「儲存為文字」功能的容器做為優化，例如 Visual Basic。
+雖然 [**IPersistPropertyBag**](/windows/win32/api/ocidl/nn-ocidl-ipersistpropertybag) 的支援是選擇性的，但強烈建議使用「儲存為文字」功能的容器做為優化，例如 Visual Basic。
 
 除了 [**IPersistStream：： GetSizeMax**](/windows/desktop/api/ObjIdl/nf-objidl-ipersiststream-getsizemax)、 [**IPersistStreamInit：： GetSizeMax**](/windows/desktop/api/OCIdl/nf-ocidl-ipersiststreaminit-getsizemax)和 [**IPersistMemory：： GetSizeMax**](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768208(v=vs.85))之外，每個介面的所有方法都必須完全實作為。
 

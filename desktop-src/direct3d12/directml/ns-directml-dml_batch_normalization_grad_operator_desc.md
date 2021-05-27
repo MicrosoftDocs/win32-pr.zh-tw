@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC
-ms.openlocfilehash: ba12541514c8121d483236afa2163a04bd991288
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 2b94ac1dcf389d424aaf74d615f36cdf7acc804c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804465"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550433"
 ---
 # <a name="dml_batch_normalization_grad_operator_desc-directmlh"></a>DML_BATCH_NORMALIZATION_GRAD_OPERATOR_DESC (directml) 
 
@@ -168,7 +168,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Epsilon`
 
-類型： **[FLOAT](/windows/win32/winprog/windows-data-types)**
+類型： **[FLOAT](../../winprog/windows-data-types.md)**
 
 加入至變異數的小值，以避免零。
 
@@ -179,7 +179,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 *InputGradientTensor*、 *InputTensor*、 *MeanTensor*、 *OutputBiasGradientTensor*、 *OutputGradientTensor*、 *OutputScaleGradientTensor*、 *ScaleTensor* 和 *VarianceTensor* 必須有相同的 *資料類型* 和 *DimensionCount*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 1至8 | FLOAT32、FLOAT16 |
 | InputGradientTensor | 輸入 | 1至8 | FLOAT32、FLOAT16 |

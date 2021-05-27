@@ -5,17 +5,17 @@ title: 核心音訊 Api
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 83488233240121ba2edcfd677484df67a452e479
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 2cabb462d13786c874401394fa814484f79b0e3b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106986138"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548953"
 ---
 # <a name="core-audio-apis"></a>核心音訊 Api
 
 > [!NOTE]
-> 如需程式碼範例，請參閱 [使用核心音訊 api 的 SDK 範例](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis)。
+> 如需程式碼範例，請參閱 [使用核心音訊 api 的 SDK 範例](./sdk-samples-that-use-the-core-audio-apis.md)。
 
 本檔提供適用于 Microsoft Windows 系列作業系統的核心音訊應用程式開發介面 (Api) 的相關資訊。 它提供軟體發展人員在開發使用 Windows Vista 中核心音訊 Api 的應用程式時所遵循的指導方針。 這些 Api 是 Windows Vista 中的新功能，不適用於舊版的 Windows。
 
@@ -35,4 +35,4 @@ ms.locfileid: "106986138"
 
 [適用于 Windows 的媒體技術](/previous-versions/bg125389(v=msdn.10))
 
-[使用核心音訊 Api 的 SDK 範例](/windows/win32/coreaudio/sdk-samples-that-use-the-core-audio-apis)
+[使用核心音訊 Api 的 SDK 範例](./sdk-samples-that-use-the-core-audio-apis.md)

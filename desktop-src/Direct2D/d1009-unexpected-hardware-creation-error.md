@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8844c084802313c246aeb17924fc811d3915816a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fa51d2536995feb51081134e412d94617f34d069
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841104"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548713"
 ---
 # <a name="d1009-unexpected-hardware-creation-error"></a>D1009：未預期的硬體建立錯誤
 
@@ -34,13 +34,13 @@ ms.locfileid: "103841104"
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | 錯誤層級 | 警告 |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>可能的原因
 
@@ -49,9 +49,9 @@ ms.locfileid: "103841104"
 -   無法建立 Direct3D 裝置。
 -   應用程式正在 IA64 上執行。
 
- 
+ 
 
- 
+ 
 
 
 

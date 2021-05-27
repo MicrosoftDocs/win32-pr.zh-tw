@@ -14,19 +14,19 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 605040af3aafe9d7739ebd069a7c0607402940c8
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: be957276f0d5a6370bb53aca4b1af5052b422011
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590825"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548883"
 ---
 # <a name="open-and-save-as-dialog-boxes"></a>開啟並另存新檔對話方塊
 
 > [!NOTE]
 > [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)函式會在檔案 [使用範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileisinuse)中示範。
 
-\[從 Windows Vista 開始，[[一般專案] 對話方塊](/windows/win32/shell/common-file-dialog)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
+\[從 Windows Vista 開始，[[一般專案] 對話方塊](../shell/common-file-dialog.md)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
 
 [ **開啟** ] 對話方塊可讓使用者指定要開啟之檔案或檔案集合的磁片磁碟機、目錄和名稱。 您可以藉由初始化 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構並將結構傳遞至 [**GetOpenFileName**](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)函式，來建立和顯示 **開啟** 的對話方塊。
 
@@ -92,7 +92,7 @@ Explorer 樣式 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊提供類似
 
 如果您指定 **OFN \_ ALLOWMULTISELECT** ，而使用者只選取一個檔案，則 **lpstrFile** 字串的路徑和檔案名之間沒有分隔符號。
 
-## <a name="filters"></a>篩選器
+## <a name="filters"></a>篩選
 
 本節中的資訊適用于 Explorer 樣式和舊樣式的 [ **開啟** ] 和 [ **另存** 新檔] 對話方塊。
 

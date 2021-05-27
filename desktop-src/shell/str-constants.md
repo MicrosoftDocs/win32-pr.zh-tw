@@ -49,12 +49,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: b1dcdb3b9199fede88d6f13949cc9276bde17b16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2bf8dc681718e64bf8aea059027a50148650635e
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973832"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549243"
 ---
 # <a name="bind-context-string-keys"></a>系結內容字串索引鍵
 
@@ -219,7 +219,7 @@ ms.locfileid: "104973832"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="STR_PROPERTYBAG_PARAM"></span><span id="str_propertybag_param"></span><dl> <dt><strong>STR_PROPERTYBAG_PARAM</strong></dt> </dl></td>
-<td style="text-align: left;"><strong>Windows 8 引進</strong>。 指定此系結內容，表示系結內容參數是屬性包 (<a href="/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85)"><strong>IPropertyBag</strong></a>) 用來在系結內容中傳遞變異值。 如需詳細資料，請參閱「備註」一節。<br/></td>
+<td style="text-align: left;"><strong>Windows 8 引進</strong>。 指定此系結內容，表示系結內容參數是屬性包 (<a href="/windows/win32/api/oaidl/nn-oaidl-ipropertybag"><strong>IPropertyBag</strong></a>) 用來在系結內容中傳遞變異值。 如需詳細資料，請參閱「備註」一節。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="STR_SKIP_BINDING_CLSID"></span><span id="str_skip_binding_clsid"></span><dl> <dt><strong>STR_SKIP_BINDING_CLSID</strong></dt> </dl></td>

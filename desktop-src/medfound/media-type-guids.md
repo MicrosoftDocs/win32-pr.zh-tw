@@ -4,12 +4,12 @@ ms.assetid: 1cca3539-a920-4938-93b9-ae41e1c0a287
 title: 主要媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a93a1aa430a720ff4b2f3591071d0bc8b178d6a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 56553ac635f0e767e43e057b2a468027dcefb730
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945686"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549573"
 ---
 # <a name="major-media-types"></a>主要媒體類型
 
@@ -39,6 +39,7 @@ ms.locfileid: "103945686"
 | **MFMediaType \_ FileTransfer** | 包含資料檔案的資料流程。                                                                                                                         | 無。                                                |
 | **MFMediaType \_ HTML**         | HTML 資料流程。                                                                                                                                               | 無。                                                |
 | **MFMediaType \_ 影像**        | 靜止影像資料流程。                                                                                                                                        | [WIC guid 和 clsid](../wic/-wic-guids-clsids.md)。       |
+| **MFMediaType \_ 中繼資料**        | 中繼資料資料流程。                                                                                                                                        | 無。       |
 | **MFMediaType \_ 保護**    | 受保護的媒體。                                                                                                                                           | 子類型指定內容保護設定。 |
 | **MFMediaType \_ 認知**   | 從相機感應器或處理單位串流處理，並瞭解原始的影片資料，並瞭解其環境或人類。 | 無。                                                |
 | **MFMediaType \_ 薩米文**         | 已同步處理的可存取媒體交換 (薩米) 字幕。                                                                                                 | 無。                                                |

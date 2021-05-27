@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 2f0c6a6b6f12792a245027a7f8e86c05f7e85192
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 71a078ad0f47c19ad1964d8d21f22e06822b5d01
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804462"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550213"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (directml) 
 
@@ -145,7 +145,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 
 ### <a name="example-3-axis-direction"></a>範例 3. 軸方向
 
-將 *AxisDirection* 設定為 [**DML_AXIS_DIRECTION_DECREASING**](/windows/win32/direct3d12/directml/ne-directml-dml_axis_direction) 具有在計算執行中計數時反轉專案的遍歷順序的效果。
+將 *AxisDirection* 設定為 [**DML_AXIS_DIRECTION_DECREASING**](./ne-directml-dml_axis_direction.md) 具有在計算執行中計數時反轉專案的遍歷順序的效果。
 
 ```
 Axis: 3
@@ -183,7 +183,7 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 *InputTensor* 和 *OutputTensor* 必須具有相同的 *資料類型* 和 *大小*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 4 | FLOAT32、FLOAT16、UINT32、UINT16 |
 | OutputTensor | 輸出 | 4 | FLOAT32、FLOAT16、UINT32、UINT16 |

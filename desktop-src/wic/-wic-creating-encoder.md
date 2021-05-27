@@ -4,12 +4,12 @@ ms.assetid: e1e3a9d9-209b-46a6-92da-5570476507cf
 title: 編碼總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be46aa73082071deb69fdd402f42866b18ef0aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f938e184dee7fd9b3e5348365550615ee28de70d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194782"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549483"
 ---
 # <a name="encoding-overview"></a>編碼總覽
 
@@ -121,8 +121,8 @@ if (SUCCEEDED(hr))
 
 if (SUCCEEDED(hr))
 {
-    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride**_/;
-    UINT cbBufferSize = uiHeight _ cbStride;
+    UINT cbStride = (uiWidth * 24 + 7)/8/***WICGetStride***/;
+    UINT cbBufferSize = uiHeight * cbStride;
 
     BYTE *pbBuffer = new BYTE[cbBufferSize];
 
@@ -175,7 +175,7 @@ return hr;
 
 ## <a name="encoder-options-usage"></a>編碼器選項使用方式
 
-不同格式的不同編碼器需要針對影像的編碼方式公開不同的選項。 Windows 影像處理元件 (WIC) 提供一致的機制，用來表示是否需要編碼選項，同時仍然讓應用程式使用多個編碼器，而不需要特定格式的知識。 這是藉由在 [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe)方法和 [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize)方法上提供 [IPropertyBag](/previous-versions/windows/internet-explorer/ie-developer/platform-apis/aa768196(v=vs.85))參數來完成。
+不同格式的不同編碼器需要針對影像的編碼方式公開不同的選項。 Windows 影像處理元件 (WIC) 提供一致的機制，用來表示是否需要編碼選項，同時仍然讓應用程式使用多個編碼器，而不需要特定格式的知識。 這是藉由在 [**CreateNewFrame**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapencoder-createnewframe)方法和 [**Initialize**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapframeencode-initialize)方法上提供 [IPropertyBag](/windows/win32/api/oaidl/nn-oaidl-ipropertybag)參數來完成。
 
 元件 factory 提供建立編碼器選項屬性包的簡單建立點。 如果用戶端需要提供簡單、直覺且不衝突的編碼器選項群組合，則編解碼器可以使用此服務。 您必須在建立時使用與該編解碼器相關的所有編碼器選項來初始化映射屬性包。 針對標準集中的編碼器選項，值範圍會在寫入時強制執行。 為了更先進的需要，編解碼器應該撰寫自己的屬性包執行。
 

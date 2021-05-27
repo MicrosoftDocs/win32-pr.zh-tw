@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 02/23/2021
-ms.openlocfilehash: cdde3f27900c7599b33af706d8fac9f9e8127b6f
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 78e1d1e4e6b4b2067083443bdb5dc4db5df59558
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106981086"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550343"
 ---
 # <a name="propsheetpage-structure"></a>PROPSHEETPAGE 結構
 
@@ -132,7 +132,7 @@ typedef struct {
 
 類型： [LPARAM](../winprog/windows-data-types.md)
 
-當建立頁面時，會將頁面的 **PROPSHEETPAGE** 結構複本傳遞至對話方塊程式，並提供 [WM_INITDIALOG](/windows/win32/dlgbox/wm-initdialog) 訊息。 系統會提供 *lParam* 成員，讓您將應用程式特定的資訊傳遞給對話方塊程式。 它不會對頁面本身產生任何影響。
+當建立頁面時，會將頁面的 **PROPSHEETPAGE** 結構複本傳遞至對話方塊程式，並提供 [WM_INITDIALOG](../dlgbox/wm-initdialog.md) 訊息。 系統會提供 *lParam* 成員，讓您將應用程式特定的資訊傳遞給對話方塊程式。 它不會對頁面本身產生任何影響。
 
 *pfnCallback* 
 

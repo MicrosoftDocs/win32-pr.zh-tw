@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 71ccbee152d60a73fbea5ebac2a1074534b69c3a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b6629a0da2b89e13feebc33fe5742e3459fc082b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312195"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548673"
 ---
 # <a name="d1104-possible-leak"></a>D1104：可能的洩漏
 
@@ -42,21 +42,21 @@ ms.locfileid: "104312195"
 
 </dd> </dl> 
 
-|             |             |
+| &nbsp;      |    &nbsp;   |
 |-------------|-------------|
 | 錯誤層級 | 資訊 |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>可能的原因
 
 Factory 已釋放，但從它建立的介面仍在運作中。
 
- 
+ 
 
- 
+ 
 
 
 

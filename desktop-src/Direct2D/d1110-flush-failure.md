@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 4821ba291f3adc8d22d1d1298a88c74b47dc648b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 721fb27e8cfd5e83f94b93079ee66e4a1c35992d
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382805"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549923"
 ---
 # <a name="d1110-flush-failure"></a>D1110： Flush 失敗
 
@@ -49,13 +49,13 @@ ms.locfileid: "104382805"
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | 錯誤層級 | 警告 |
 
 
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -128,6 +128,6 @@ DEBUG WARNING - A Flush call by a render target failed [88990001]. Tags [0, 0].
 
 [**清除**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-flush)呼叫可能會失敗的原因有很多。 應用程式應該判斷錯誤的原因，並採取適當的動作。
 
- 
+ 
 
- 
+ 

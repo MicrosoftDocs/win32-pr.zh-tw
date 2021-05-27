@@ -6,12 +6,12 @@ keywords:
 - D2D1 命名空間，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db8ba6fa1ce40dad3a7d0d604026000dfd798e60
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 02cf062e6e02252c51852837158705449eea4577
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106988028"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549633"
 ---
 # <a name="direct2d-helper-structures"></a>Direct2D helper 結構
 
@@ -19,15 +19,14 @@ D2D1 命名空間會定義下列結構。
 
 
 
-|                                                 |                                                                                                               |
+| 名稱                                            | 描述                                                                                                   |
 |-------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| Name                                            | 描述                                                                                                   |
 | [**TypeTraits<Type>**](/windows/win32/api/d2d1_1helper/ns-d2d1_1helper-typetraits) | 包含 **點**、大小和 **Rect** 的實 **值**，可使用指定的型別來儲存其資料。 |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

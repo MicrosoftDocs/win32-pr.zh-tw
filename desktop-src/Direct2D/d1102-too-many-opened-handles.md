@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: e3c12c2e2a7b47535e830c6ed65a828a16672bbf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2d59e110aece56a31af71e75e9a8eca0bb008961
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678235"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548683"
 ---
 # <a name="d1102-too-many-opened-handles"></a>D1102：太多開啟的控制碼
 
@@ -35,21 +35,21 @@ ms.locfileid: "103678235"
 
 </dd> </dl> 
 
-|             |         |
+| &nbsp;      |  &nbsp; |
 |-------------|---------|
 | 錯誤層級 | 警告 |
 
 
 
- 
+ 
 
 ## <a name="possible-causes"></a>可能的原因
 
 已建立大量的資源。 雖然 Direct2D 的可用資源數量沒有上限 (但記憶體) 除外，但在遇到1001的即時物件、2001即時物件或3001的即時物件等時，debug 層會發出這項參考用訊息，因為這可能表示應用程式中發生流失。
 
- 
+ 
 
- 
+ 
 
 
 

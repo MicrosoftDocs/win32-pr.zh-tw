@@ -45,12 +45,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CONVOLUTION_INTEGER_OPERATOR_DESC
-ms.openlocfilehash: 07406155be9ae5f78fbf5f3b7fcd750aa4631dbc
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: f4045598dd1aa050479fec8e5732fe5c0a4e77ee
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803374"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550414"
 ---
 # <a name="dml_convolution_integer_operator_desc-structure-directmlh"></a>DML_CONVOLUTION_INTEGER_OPERATOR_DESC 結構 (directml .h) 
 
@@ -122,28 +122,28 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Strides`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 陣列，包含卷積運算的進展。 這些進展適用于卷積篩選。 它們與 [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)中包含的 tensor 進步不同。
 
 
 `Dilations`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 陣列，包含卷積運算的 dilations。 Dilations 是套用至篩選核心元素的進展。 這有藉由以零填補內部篩選核心元素來模擬較大的篩選核心效果。
 
 
 `StartPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 陣列，包含要套用至卷積作業之篩選和輸入 tensor 的每個空間維度開頭的填補值。
 
 
 `EndPadding`
 
-類型： \_ Field_size \_ (DimensionCount) **const [UINT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ Field_size \_ (DimensionCount) **const [UINT](../../winprog/windows-data-types.md) \***
 
 陣列，包含要套用至卷積作業之篩選和輸入 tensor 的每個空間維度結尾的填補值。
 
@@ -162,7 +162,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 * *InputTensor* 和 *InputZeroPointTensor* 必須有相同的 *資料類型*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 維度 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 維度 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | ---------- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | { BatchCount, InputChannelCount, InputHeight, InputWidth } | 4 | INT8、UINT8 |
 | InputZeroPointTensor | 選擇性輸入 | {1，1，1，1} | 4 | INT8、UINT8 |

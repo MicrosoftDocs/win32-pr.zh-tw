@@ -4,12 +4,12 @@ ms.assetid: 6a63c2c9-4e09-4a62-b39f-3ccb26287da8
 title: Winsock IOCTLs (Winsock2.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de7094f802b815bfbd7511bd67eb4e6b1767cb94
-ms.sourcegitcommit: 392c0a56f99f4d19686e734291abcac887fc5ba2
+ms.openlocfilehash: eadf4a0e2799d6123bf81069fe65ea16313af444
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "107000502"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550253"
 ---
 # <a name="winsock-ioctls"></a>Winsock IOCTLs
 
@@ -244,6 +244,19 @@ Windows TCP/IP 服務提供者所支援的擴充功能 GUID 值是定義在 *Msw
 傳送者可能不會呼叫 **SIO \_ 取得 \_ QOS** ，直到通訊端連線為止。
 
 接收者可能會在系結時呼叫 **SIO \_ 取得 \_ QOS** 。
+
+### <a name="sio_get_tx_timestamp"></a>SIO_GET_TX_TIMESTAMP
+
+通訊端 IOCTL 可用來取得傳輸 (TX) 封包的時間戳記。 只對資料包通訊端有效。
+
+**SIO_GET_TX_TIMESTAMP** 控制程式代碼會從通訊端的傳輸時間戳記佇列中移除傳輸時間戳記。 請先使用 [**SIO_TIMESTAMPING**](#sio_timestamping) 通訊端 IOCTL 來啟用時間戳記接收。 然後藉由使用下列參數呼叫 [**WSAIoctl**](/windows/win32/api/winsock2/nf-winsock2-wsaioctl) (或 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))) 函式，依識別碼取出 tx 時間戳記。
+
+針對 **SIO_GET_TX_TIMESTAMP**，輸入是 **UINT32** 時間戳記識別碼，輸出則是 **UINT64** 時間戳記值。 成功時，可以使用 tx 時間戳記，並傳回。 如果沒有可用的傳輸時間戳記，則 [**WSAGetLastError**](/windows/win32/api/winsock/nf-winsock-wsagetlasterror) 會傳回 **WSAEWOULDBLOCK**。
+
+> [!NOTE]
+> 透過 **UDP_SEND_MSG_SIZE** 進行結合的傳送時，不支援 TX 時間戳記。
+
+另請參閱 [Winsock 時間戳記](/windows/win32/winsock/winsock-timestamping)。
 
 ### <a name="sio_ideal_send_backlog_change-opcode-setting-v-t0"></a>SIO \_ 理想的 \_ 傳送待處理專案 \_ \_ 變更 (操作碼設定： V，T = = 0) 
 
@@ -493,6 +506,12 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 
 如需詳細資訊，請參閱 [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) 參考。 Windows 8、Windows Server 2012 及更新版本都支援 [**SIO_TCP_INITIAL_RTO**](./sio-tcp-initial-rto.md) 。
 
+### <a name="sio_timestamping"></a>SIO_TIMESTAMPING
+
+用來設定接收通訊端傳輸/接收時間戳記的通訊端 IOCTL。 只對資料包通訊端有效。 **SIO_TIMESTAMPING** 的輸入類型是 [**TIMESTAMPING_CONFIG**](/windows/win32/api/mstcpip/ns-mstcpip-timestamping_config)結構。
+
+另請參閱 [Winsock 時間戳記](/windows/win32/winsock/winsock-timestamping)。
+
 ### <a name="sio_translate_handle-opcode-setting-i-o-t1"></a>SIO \_ 轉譯 \_ 控制碼 (opcode 設定： I、O、T = = 1) 
 
 若要取得通訊端 *s* 的對應控制碼，該控制碼在隨附介面的內容中有效 (例如，第 \_ NETDEV 和第一次 \_ TAPI) 。 在輸入緩衝區中指定了識別隨附介面的資訊清單常數，以及任何其他需要的參數。 當此函式完成時，將會在輸出緩衝區中提供對應的控制碼。 請參閱 [Winsock 附件](winsock-annexes.md) 中的適當區段，以取得特定隨附介面特定的詳細資料。 針對指定的隨附介面不支援這個 IOCTL 的服務提供者，會指出 [WSAENOPROTOOPT](windows-sockets-error-codes-2.md) 錯誤碼。 這個 IOCTL 會使用 **SIO \_ 轉譯 \_ 控制碼** 來抓取相關聯的控制碼。
@@ -527,6 +546,6 @@ Winsock Ioctls 是以許多不同的標頭檔定義。 這些包括 *Winsock2. .
 
 ## <a name="requirements"></a>規格需求
 
-|||
+|需求|值|
 |-|-|
 | 標頭<br/> | <dl> <dt>Winsock2. h;</dt><dt>Mstcpip .h;</dt><dt>Mswsock .h;</dt><dt>Windows Vista、Windows Server 2008 和 windows 7 (的 Mswsockdef，包括 Mswsock) ;</dt><dt>Windows Vista、Windows Server 2008 和 windows 7 (的 Ws2def，包括 Winsock2) ;</dt><dt>Windows Vista、Windows Server 2008 和 windows 7 (的 Ws2ipdef，包括 Ws2tcpip) </dt> </dl> |

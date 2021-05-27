@@ -4,12 +4,12 @@ ms.assetid: 86f3396c-b32a-4d70-9f21-e38a745f78bf
 title: 表示 IEC 61937 傳輸的格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0700329aafe7e7bc0e09b532c1ac29b9957ca905
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e0a607770a388a11978d0e4666b5046506b6698c
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973172"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549293"
 ---
 # <a name="representing-formats-for-iec-61937-transmissions"></a>表示 IEC 61937 傳輸的格式
 
@@ -57,6 +57,9 @@ ms.locfileid: "106973172"
 | 0x07         | 00000008-0000-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ DTS<br/>                         | DTS                                          |
 | 0x0a         | 0000000a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 杜比 \_ 數位 \_ 加號<br/>        | 杜比數位加號                           |
 | 0x0a         | 0000010a-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ 杜比 \_ 數位 \_ PLUS \_ ATMOS<br/> | 以杜比數位加號編碼的杜比 Atmos  |
+| 0x0b         | 0000000b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ DTS \_ HD<br/> | DTS HD  |
+| 0x0b         | 0000010b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ .dtsx \_ E1<br/> | DTS： X E1  |
+| 0x0b         | 0000030b-0cea-0010-8000-00aa00389b71<br/> KSDATAFORMAT \_ 子類型 \_ IEC61937 \_ .dtsx \_ E2<br/> | DTS： X E2  |
 | 0x0f         |                                                                                                                         | 未使用的保留                              |
 
 

@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: dcb32b47b59c50bb9ba5f8d6747eed0dc54409ec
-ms.sourcegitcommit: 59ec383331366f8a62c94bb88468ca03e95c43f8
+ms.openlocfilehash: 1d8b15d4f0cc4af852ad49665d0266e3235eb4e6
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107380814"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549403"
 ---
 # <a name="id2d1factorycreateroundedrectanglegeometry-methods"></a>ID2D1Factory：： CreateRoundedRectangleGeometry 方法
 
@@ -29,8 +29,8 @@ ms.locfileid: "107380814"
 
 | 方法                                                                                                                                                                                                     | 描述                                                                                    |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------|
-| [**CreateRoundedRectangleGeometry (D2D1 \_ 圓角 \_ RECT&、ID2D1RoundedRectangleGeometry \* \*)**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx)  | 建立 [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))。 <br/> |
-| [**CreateRoundedRectangleGeometry (D2D1 \_ 圓角 \_ RECT \* 、ID2D1RoundedRectangleGeometry \* \*)**](https://msdn.microsoft.com/library/Dd371292(v=VS.85).aspx) | 建立 [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))。 <br/> |
+| [**CreateRoundedRectangleGeometry (D2D1 \_ 圓角 \_ RECT&、ID2D1RoundedRectangleGeometry \* \*)**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))  | 建立 [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))。 <br/> |
+| [**CreateRoundedRectangleGeometry (D2D1 \_ 圓角 \_ RECT \* 、ID2D1RoundedRectangleGeometry \* \*)**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85)) | 建立 [**ID2D1RoundedRectangleGeometry**](/previous-versions/windows/desktop/legacy/dd371292(v=vs.85))。 <br/> |
 
 
 

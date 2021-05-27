@@ -14,12 +14,12 @@ keywords:
 - 轉譯目標，轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8f3678f7b194f0f0188ed907a63737a97e9e58c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b924c51d73e71f206fbb250f4a7dd50ca71db2a
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933286"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549143"
 ---
 # <a name="transforms-overview"></a>轉換概觀
 
@@ -41,7 +41,7 @@ ms.locfileid: "103933286"
 
 
 
-|                 |                 |     |
+|    &nbsp;       |       &nbsp;    |  &nbsp; |
 |-----------------|-----------------|-----|
 | M11Default：1。0 | M12Default：0。0 | 0.0 |
 | M21Default：0。0 | M22Default：1。0 | 0.0 |
@@ -49,7 +49,7 @@ ms.locfileid: "103933286"
 
 
 
- 
+ 
 
 在此矩陣中，M11、M12、M21 和 M22 成員定義了可以調整、旋轉或扭曲物件的線性轉換;OffsetX 和 OffsetY 成員會定義要在進行線性轉換之後套用的轉譯。 對於仿射轉換，第三個數據行中的值一律是0.0、0.0 和1.0。
 
@@ -57,7 +57,7 @@ ms.locfileid: "103933286"
 
 
 
-|                 |                 |
+|    &nbsp;       |       &nbsp;    | 
 |-----------------|-----------------|
 | M11Default：1。0 | M12Default：0。0 |
 | M21Default：0。0 | M22Default：1。0 |
@@ -65,7 +65,7 @@ ms.locfileid: "103933286"
 
 
 
- 
+ 
 
 在 Direct2D 中，這個 3 x 2 矩陣是以 [**D2D1 \_ 矩陣 \_ 3X2**](/windows/desktop/api/dcommon/ns-dcommon-d2d_matrix_3x2_f) 結構表示。 為了簡化常見的矩陣作業，Direct2D 也提供名為 [**Matrix3x2F**](/windows/win32/api/d2d1helper/nl-d2d1helper-matrix3x2f)的類別，該類別衍生自 **D2D1 \_ 矩陣 \_ 3X2** 結構。
 
@@ -100,7 +100,7 @@ Direct2D 使用左手座標空間;也就是說，正 X 軸的值會增加到右�
 
 
 
- 
+ 
 
 ## <a name="rendering-target-transforms"></a>轉譯目標轉換
 
@@ -125,7 +125,7 @@ Direct2D 使用左手座標空間;也就是說，正 X 軸的值會增加到右�
 > [!Note]  
 > 從 Windows 8 開始，如果您將筆劃類型設定為 [**D2D1 \_ stroke \_ 轉換 \_ 類型 \_ 固定**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type) 或 [**D2D1 \_ 筆劃 \_ 轉換 \_ 類型的 \_ 細**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)項，則世界轉換不會影響筆劃。
 
- 
+ 
 
 您可以藉由呼叫 [**ID2D1Factory：： CreateTransformedGeometry**](/previous-versions/windows/desktop/legacy/dd371304(v=vs.85)) 來建立 [**ID2D1TransformedGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1transformedgeometry) 物件，藉以調整幾何的轉換。 如需幾何轉換的詳細資訊，請參閱 [Direct2D 幾何總覽](direct2d-geometries-overview.md)。
 
@@ -149,7 +149,7 @@ Direct2D 使用左手座標空間;也就是說，正 X 軸的值會增加到右�
 
     ![小藍色矩形上的綠色周框方塊的圖例 (cliprect) ](images/pushaxisalignedclip-step4-boundingbox.png)
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 Direct2D 可讓您輕鬆地以簡化的座標空間和相關類別來轉換二維物件。 藉由使用各種類型的轉換，您可以平移、旋轉、扭曲及調整您的物件，以達到許多令人印象深刻的視覺效果。
 
@@ -160,6 +160,6 @@ Direct2D 可讓您輕鬆地以簡化的座標空間和相關類別來轉換二�
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

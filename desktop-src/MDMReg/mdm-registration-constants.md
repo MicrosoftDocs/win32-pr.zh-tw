@@ -68,12 +68,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d28c21732a102b052d4be51cbbbf5627e42cc487
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb62977a48400866e9fa8829696c884e58e54325
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025174"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548983"
 ---
 # <a name="mdm-registration-error-values"></a>MDM 註冊錯誤值
 
@@ -938,8 +938,6 @@ EnterpriseAppManagement CSP 中的布建失敗。
 </dt> </dl> </dd> </dl>
 
 ## <a name="requirements"></a>規格需求
-
-
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|

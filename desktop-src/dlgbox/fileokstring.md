@@ -16,16 +16,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a6fddbb3460f15e1efb946b9bd17f1c85fd031a8
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 24dd07faecc66bc50c408eab36bcbd8c93c460ef
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590785"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549213"
 ---
 # <a name="fileokstring-message"></a>FILEOKSTRING 訊息
 
-\[從 Windows Vista 開始，[[一般專案] 對話方塊](/windows/win32/shell/common-file-dialog)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
+\[從 Windows Vista 開始，[[一般專案] 對話方塊](../shell/common-file-dialog.md)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
 
 當使用者指定檔案名，然後按一下 [**確定]** 按鈕時，[**開啟**] 或 [**另存** 新檔] 對話方塊會將已註冊的 **FILEOKSTRING** 訊息傳送至您的攔截程式 [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)。 攔截程式可以接受檔案名，並允許對話方塊關閉或拒絕檔案名，並強制對話方塊維持開啟狀態。
 
@@ -98,6 +98,4 @@ ms.locfileid: "107590785"
 
 [通用對話方塊程式庫](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 

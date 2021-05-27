@@ -6,12 +6,12 @@ keywords:
 - Direct2D，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4219d5b10a6a46659fc0c13ac091a2f3ab01b2c
-ms.sourcegitcommit: 6f905c836d3fd04934fb3e5f1a56b4a421f7596f
+ms.openlocfilehash: 197a0e0197039abc0fe0f725ad367b25d146c2fe
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "103932995"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548693"
 ---
 # <a name="direct2d-samples"></a>Direct2D 範例
 
@@ -27,7 +27,7 @@ ms.locfileid: "103932995"
 
 ## <a name="windows-8-and-microsoft-visual-studio-2013-samples"></a>Windows 8 和 Microsoft Visual Studio 2013 範例
 
-| | |
+| 範例 | 描述 |
 |-|-|
 | [Direct2D 複合效果模式範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | 這個範例會顯示 Direct2D 中可用的各種複合和 blend 模式範圍。 |
 | [Direct2D 基本影像效果範例](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/Official%20Windows%20Platform%20Sample/Direct2D%20basic%20image%20effects%20sample) | 這個範例示範如何載入影像、對它套用高斯模糊效果，然後將它顯示在 Windows：： UI：： Core：： CoreWindow 中。 |

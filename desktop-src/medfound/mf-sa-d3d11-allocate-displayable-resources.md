@@ -3,12 +3,12 @@ description: 指定 MFT 的範例配置器 (SA) 是否應使用 D3D11_RESOURCE_M
 title: 'MF_SA_D3D11_ALLOCATE_DISPLAYABLE_RESOURCES (Mftransform) '
 ms.topic: reference
 ms.date: 03/31/2018
-ms.openlocfilehash: ac70ee8c3015a2e08df2ee78b8051723707a1686
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: fedcfbe98344dd9b424c1a8ce90e847e98f1af51
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107224021"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110548703"
 ---
 # <a name="mf_sa_d3d_allocate_displayable_resources-attribute"></a>MF \_ SA \_ D3D 配置可顯示的 \_ \_ \_ 資源屬性
 
@@ -20,7 +20,7 @@ ms.locfileid: "107224021"
 
 ## <a name="remarks"></a>備註
 
-此屬性可在 Windows 10 Preview 組建14383中使用開始。 
+這個屬性可用 Windows 10 組建20348開始。 
 
 > [!NOTE]
 > 未來的 SDK 版本將提供 [D3D11_RESOURCE_MISC_FLAG](/windows/win32/api/d3d11/ne-d3d11-d3d11_resource_misc_flag)列舉的 **D3D11_RESOURCE_MISC_SHARED_DISPLAYABLE** 成員欄位。
@@ -132,7 +132,7 @@ private:
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 Preview 組建14383<br/>                                    |
+| 最低支援的用戶端<br/> | Windows 10 組建20348<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

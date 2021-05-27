@@ -39,12 +39,12 @@ api_name:
 f1_keywords:
 - DML_RESAMPLE1_OPERATOR_DESC
 - directml/DML_RESAMPLE1_OPERATOR_DESC
-ms.openlocfilehash: ac98813e15ab3dac71a9f8395333160ce37778b0
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: 3cf5a49f5c92b835646e146b631abd18b4b19e6b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107804062"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550393"
 ---
 # <a name="dml_resample1_operator_desc-structure-directmlh"></a>DML_RESAMPLE1_OPERATOR_DESC 結構 (directml .h) 
 使用縮放因數來計算目的地 tensor 大小，以將來源中的專案 Resamples 至目的地 tensor。 您可以使用線性或最接近的相鄰插補模式。 運算子支援跨多個維度（而不只是2D）的插補。 因此，您可以保留相同的空間大小，但會在通道之間或在批次之間進行插補。 輸入和輸出座標之間的關聯性如下所示。
@@ -105,21 +105,21 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 
 `Scales`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 重新取樣輸入時要套用的比例，其中尺規 > 1 會向上延展影像，並將 < 1 縮小該維度的影像。 請注意，調整不需要完全相同 `OutputSize / InputSize` 。 如果在調整之後的輸入大於輸出系結，則會將其裁剪為輸出大小。 另一方面，如果在調整之後的輸入小於輸出系結，則會壓制輸出邊緣。
 
 
 `InputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 要在重新取樣之前套用至輸入圖元的位移。 當此值為時 `0` ，就會使用圖元的左上角，而不是其中心，這通常不會提供預期的結果。 若要使用圖元的中心來重新取樣影像，並取得與 [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc)相同的行為，此值必須是 `0.5` 。
 
 
 `OutputPixelOffsets`
 
-類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](/windows/win32/winprog/windows-data-types) \***
+類型： \_ 欄位 \_ 大小 \_ (DimensionCount) **const [FLOAT](../../winprog/windows-data-types.md) \***
 
 重新取樣後要套用至輸出圖元的位移。 當此值為時 `0` ，就會使用圖元的左上角，而不是其中心，這通常不會提供預期的結果。 若要使用圖元的中心來重新取樣影像，並取得與 [DML_RESAMPLE_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_resample_operator_desc)相同的行為，此值必須是 `-0.5` 。
 
@@ -134,7 +134,7 @@ Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_te
 *InputTensor* 和 *OutputTensor* 必須有相同的 *資料類型*。
 
 ## <a name="tensor-support"></a>Tensor 支援
-| 張 | 類型 | 支援的維度計數 | 支援的資料類型 |
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 4 | FLOAT32、FLOAT16 |
 | OutputTensor | 輸出 | 4 | FLOAT32、FLOAT16 |

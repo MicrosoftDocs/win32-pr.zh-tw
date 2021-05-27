@@ -4,12 +4,12 @@ ms.assetid: 9CA55255-484F-44C9-B3B7-3C152392FDF5
 title: '感應器設定檔 Guid (Mfapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ae7bf1bd1e3391301cc6da4151968b4e761fb0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 825a7c83b45d9ceeaf32640b084682f138eca86b
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691615"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549993"
 ---
 # <a name="sensor-profile-guids"></a>感應器設定檔 Guid
 
@@ -63,6 +63,14 @@ ms.locfileid: "103691615"
 
 
 影片 HDR8。
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="KSCAMERAPROFILE_CompressedCamera"></span><span id="kscameraprofile_compressedcamera"></span><span id="KSCAMERAPROFILE_COMPRESSEDCAMERA"></span>**KSCAMERAPROFILE \_ CompressedCamera**
+</dt> <dd> <dl> <dt>
+
+此設定檔支援壓縮的相機串流，可將壓縮的資料流程直接儲存為壓縮格式，而不會產生解壓縮後再 recompressing 資料流程的成本。
 
 
 </dt> </dl> </dd> </dl>

@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 0e86b32296718a975ebabccd5fc4ef0ee30cf289
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac68ba25d1e8f35c5a41daec4d7a5295235a5d98
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933443"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110549183"
 ---
 # <a name="layers-overview"></a>圖層總覽
 
@@ -77,28 +77,28 @@ Windows 8 引進了新的分層相關 Api，可簡化、改善的效能，並將
     > [!Note]  
     > 從 Windows 8 開始，您可以略過呼叫 [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer))方法，然後在 [**ID2D1DeviceCoNtext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1devicecontext)介面上將 Null 傳遞至 [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer))方法。 這比較簡單，而且可讓 Direct2D 自動管理圖層資源，以及在圖層和效果圖形之間共用資源。
 
-     
+     
 
 -   當轉譯目標在呼叫 [**BeginDraw**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-begindraw) 方法之後，開始繪製 () 之後，您就可以使用 [**PushLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-pushlayer(constd2d1_layer_parameters__id2d1layer)) 方法。 **PushLayer** 方法會將指定的圖層加入至轉譯目標，讓目標接收所有後續的繪圖作業，直到呼叫 [**PopLayer**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-poplayer)為止。 這個方法會透過呼叫 [**CreateLayer**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-createlayer(id2d1layer))和 [**D2D1 \_ 圖層 \_ 參數**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters)結構中的 *layerParameters* ，來取得傳回的 [**ID2D1Layer**](/windows/win32/api/d2d1/nn-d2d1-id2d1layer)物件。 下表描述結構的欄位。 
 
-    | 欄位                 | 描述                                                                                                                                                                                                                                                                 |     |
-    |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-    | **contentBounds**     | 圖層的內容界限。 這些界限以外的內容不會呈現。 此參數的預設值為 [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect)。 使用預設值時，內容界限實際上會被視為呈現目標的界限。 |     |
-    | **geometricMask**     |  (選擇性的) 區域（由 [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)定義），應將該圖層裁剪至該區域。 如果不應該將圖層裁剪成幾何，請設定為 **Null** 。                                                                                           |     |
-    | **maskAntialiasMode** | 值，指定 **geometricMask** 欄位所指定之幾何遮罩的消除鋸齒模式。                                                                                                                                                               |     |
-    | **maskTransform**     | 值，指定在組合圖層時，套用至幾何遮罩的轉換。 這是與世界轉換相關的。                                                                                                                               |     |
-    | **透明度**           | 圖層的不透明度值。 當對目標進行組合時，圖層中每個資源的不透明度會乘以此值。                                                                                                                                     |     |
-    | **opacityBrush**      |  (選擇性) 用來修改圖層不透明度的筆刷。 筆刷會對應到圖層，而每個對應筆刷圖元的 Alpha 色板會乘以對應的圖層圖元。 如果圖層不應有不透明度遮罩，則設定為 **Null** 。    |     |
-    | **layerOptions**      | 值，指定圖層是否打算以 ClearType 消除鋸齒來呈現文字。 此參數預設為 off。 開啟它可讓 ClearType 正常運作，但會產生稍微慢的轉譯速度。                                          |     |
+    | 欄位                 | 描述|
+    |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+    | **contentBounds**     | 圖層的內容界限。 這些界限以外的內容不會呈現。 此參數的預設值為 [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect)。 使用預設值時，內容界限實際上會被視為呈現目標的界限。 |
+    | **geometricMask**     |  (選擇性的) 區域（由 [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)定義），應將該圖層裁剪至該區域。 如果不應該將圖層裁剪成幾何，請設定為 **Null** 。 |
+    | **maskAntialiasMode** | 值，指定 **geometricMask** 欄位所指定之幾何遮罩的消除鋸齒模式。 |
+    | **maskTransform**     | 值，指定在組合圖層時，套用至幾何遮罩的轉換。 這是與世界轉換相關的。  |
+    | **透明度**           | 圖層的不透明度值。 當對目標進行組合時，圖層中每個資源的不透明度會乘以此值。  |
+    | **opacityBrush**      |  (選擇性) 用來修改圖層不透明度的筆刷。 筆刷會對應到圖層，而每個對應筆刷圖元的 Alpha 色板會乘以對應的圖層圖元。 如果圖層不應有不透明度遮罩，則設定為 **Null** 。   |
+    | **layerOptions**      | 值，指定圖層是否打算以 ClearType 消除鋸齒來呈現文字。 此參數預設為 off。 開啟它可讓 ClearType 正常運作，但會產生稍微慢的轉譯速度。    |
 
     
 
-     
+     
 
     > [!Note]  
     > 從 Windows 8 開始，您無法在圖層中以 ClearType 轉譯，因此 **layerOptions** 參數應一律設定為 [**D2D1 \_ 圖層 \_ 選項 \_ NONE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_layer_options)
 
-     
+     
 
     為了方便起見，Direct2D 提供 [**D2D1：： LayerParameters**](/windows/desktop/api/d2d1helper/nf-d2d1helper-layerparameters) 方法，以協助您建立 [**D2D1 \_ 圖層 \_ 參數**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_layer_parameters) 結構。
 
@@ -203,7 +203,7 @@ HRESULT DemoApp::RenderWithLayerWithContentBounds(ID2D1RenderTarget *pRT)
 >
 > 如果您指定 **geometricMask**，則會進一步影響產生的裁剪影像。 如需詳細資訊，請參閱「 [幾何遮罩](#geometric-masks) 」一節。
 
- 
+ 
 
 ## <a name="geometric-masks"></a>幾何遮罩
 
@@ -308,7 +308,7 @@ HRESULT DemoApp::RenderWithLayerWithGeometricMask(ID2D1RenderTarget *pRT)
 >
 > 如果 **contentBounds** 為非 null，且 **GEOMETRICMASK** 為非 null，則會有效地針對內容界限裁剪已轉換的幾何遮罩，並假設內容界限是無限的。
 
- 
+ 
 
 ## <a name="opacity-masks"></a>不透明度遮罩
 
@@ -377,7 +377,7 @@ HRESULT DemoApp::RenderWithLayerWithOpacityMask(ID2D1RenderTarget *pRT)
 > [!Note]  
 > 此範例會使用圖層將不透明度遮罩套用至單一物件，讓範例盡可能簡單。 將不透明度遮罩套用至單一物件時，使用 [**FillOpacityMask**](id2d1rendertarget-fillopacitymask.md) 或 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 方法（而非圖層）會更有效率。
 
- 
+ 
 
 如需如何在不使用圖層的情況下套用不透明度遮罩的指示，請參閱 [不透明度遮罩總覽](opacity-masks-overview.md)。
 
@@ -513,7 +513,7 @@ m_d2dContext->FillGeometry(
 > [!Note]  
 > 在 Windows 8 已對層級使用進行許多優化，建議您盡可能嘗試使用層 Api，而不是 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 。
 
- 
+ 
 
 ### <a name="axis-aligned-clips"></a>軸對齊的剪輯
 
@@ -526,6 +526,6 @@ m_d2dContext->FillGeometry(
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

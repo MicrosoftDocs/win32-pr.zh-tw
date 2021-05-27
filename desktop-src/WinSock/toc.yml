@@ -594,6 +594,12 @@
               href: winsock-tracing-event-details.md
             - name: Winsock 目錄變更追蹤詳細資料
               href: winsock-layered-service-provider-tracing-event-details.md
+        - name: Winsock 時間戳記
+          href: winsock-timestamping.md
+        - name: Winsock 明確擁塞通知
+          href: winsock-ecn.md
+        - name: Winsock 通訊端狀態通知
+          href: winsock-socket-state-notifications.md
     - name: Winsock 參考
       href: winsock-reference.md
       items:

@@ -6,12 +6,12 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: 49681f434fa4eef99e9775b2c3800f48f15915a2
-ms.sourcegitcommit: 8a31a21726d4a8ebfddfa71f02f1bfffea459277
+ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/20/2021
-ms.locfileid: "110208709"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550293"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
@@ -110,13 +110,13 @@ DWriteCore API 表面與 [DirectWrite](/windows/win32/api/_directwrite/)的方�
 
 #### <a name="create-a-factory-object"></a>建立 factory 物件
 
-[**DWriteCoreCreateFactory**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式會建立用於後續建立個別 DWriteCore 物件的 factory 物件。
+[**DWriteCoreCreateFactory**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) free 函式會建立用於後續建立個別 DWriteCore 物件的 factory 物件。
 
 **DWriteCoreCreateFactory** 的功能與系統版本的 DirectWrite 所匯出的 [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) 函式相同。 DWriteCore 函式有不同的名稱，以避免混淆。
 
 #### <a name="create-a-restricted-factory-object"></a>建立受限制的 factory 物件
 
-[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**，表示受限的 FACTORY。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 [**DWriteCoreCreateFactory**](/windows/win32/directwrite/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式時，如何使用 **DWRITE_FACTORY_TYPE_ISOLATED2** 來建立受限制的 FACTORY 物件。
+[**DWRITE_FACTORY_TYPE**](./dwrite/ne-dwrite-dwrite_factory_type.md)列舉具有新的常數 &mdash; **DWRITE_FACTORY_TYPE_ISOLATED2**，表示受限的 FACTORY。 受限制的處理站比隔離處理站更受鎖定。 它不會以任何方式與跨進程或持續性的字型快取互動。 此外，從這個 factory 傳回的系統字型集合只包含已知字型。 以下是當您呼叫 [**DWriteCoreCreateFactory**](./dwrite_core/nf-dwrite_core-dwritecorecreatefactory.md) free 函式時，如何使用 **DWRITE_FACTORY_TYPE_ISOLATED2** 來建立受限制的 FACTORY 物件。
 
 ```cppwinrt
 // Create a factory that doesn't interact with any cross-process nor
