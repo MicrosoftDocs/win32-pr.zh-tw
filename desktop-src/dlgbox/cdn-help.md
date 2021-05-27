@@ -14,20 +14,20 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c03fae474f6622e1ccec0c5b52b0dfb473ba438
-ms.sourcegitcommit: 8e083a10b3a480dec8a8d74dbd5889f49dea15e4
+ms.openlocfilehash: 0abd3519bdc877eca24304b1104a12d51b2dfe4f
+ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107590845"
+ms.lasthandoff: 05/27/2021
+ms.locfileid: "110550063"
 ---
-# <a name="cdn_help-notification-code"></a><span data-ttu-id="91878-104">CDN 說明 \_ 通知碼</span><span class="sxs-lookup"><span data-stu-id="91878-104">CDN\_HELP notification code</span></span>
+# <a name="cdn_help-notification-code"></a><span data-ttu-id="30a5c-104">CDN 說明 \_ 通知碼</span><span class="sxs-lookup"><span data-stu-id="30a5c-104">CDN\_HELP notification code</span></span>
 
-<span data-ttu-id="91878-105">\[從 Windows Vista 開始，[[一般專案] 對話方塊](/windows/win32/shell/common-file-dialog)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="91878-105">\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](/windows/win32/shell/common-file-dialog).</span></span> <span data-ttu-id="91878-106">我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]</span><span class="sxs-lookup"><span data-stu-id="91878-106">We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]</span></span>
+<span data-ttu-id="30a5c-105">\[從 Windows Vista 開始，[[一般專案] 對話方塊](../shell/common-file-dialog.md)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="30a5c-105">\[Starting with Windows Vista, the **Open** and **Save As** common dialog boxes have been superseded by the [Common Item Dialog](../shell/common-file-dialog.md).</span></span> <span data-ttu-id="30a5c-106">我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]</span><span class="sxs-lookup"><span data-stu-id="30a5c-106">We recommended that you use the Common Item Dialog API instead of these dialog boxes from the Common Dialog Box Library.\]</span></span>
 
-<span data-ttu-id="91878-107">當使用者按一下 [說明 **] 按鈕時，由** Explorer 樣式的 [**開啟**] 或 [**另存** 新檔] 對話方塊傳送。</span><span class="sxs-lookup"><span data-stu-id="91878-107">Sent by an Explorer-style **Open** or **Save As** dialog box when the user clicks the **Help** button.</span></span>
+<span data-ttu-id="30a5c-107">當使用者按一下 [說明 **] 按鈕時，由** Explorer 樣式的 [**開啟**] 或 [**另存** 新檔] 對話方塊傳送。</span><span class="sxs-lookup"><span data-stu-id="30a5c-107">Sent by an Explorer-style **Open** or **Save As** dialog box when the user clicks the **Help** button.</span></span>
 
-<span data-ttu-id="91878-108">您的 [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) 攔截程式會以 [**WM \_ 通知**](../controls/wm-notify.md) 訊息的形式接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="91878-108">Your [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure receives this message in the form of a [**WM\_NOTIFY**](../controls/wm-notify.md) message.</span></span>
+<span data-ttu-id="30a5c-108">您的 [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) 攔截程式會以 [**WM \_ 通知**](../controls/wm-notify.md) 訊息的形式接收此訊息。</span><span class="sxs-lookup"><span data-stu-id="30a5c-108">Your [*OFNHookProc*](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc) hook procedure receives this message in the form of a [**WM\_NOTIFY**](../controls/wm-notify.md) message.</span></span>
 
 
 ```C++
@@ -37,71 +37,69 @@ ms.locfileid: "107590845"
 
 
 
-## <a name="parameters"></a><span data-ttu-id="91878-109">參數</span><span class="sxs-lookup"><span data-stu-id="91878-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="30a5c-109">參數</span><span class="sxs-lookup"><span data-stu-id="30a5c-109">Parameters</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="91878-110">*wParam*</span><span class="sxs-lookup"><span data-stu-id="91878-110">*wParam*</span></span> 
+<span data-ttu-id="30a5c-110">*wParam*</span><span class="sxs-lookup"><span data-stu-id="30a5c-110">*wParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="91878-111">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="91878-111">This parameter is not used.</span></span>
+<span data-ttu-id="30a5c-111">不使用這個參數。</span><span class="sxs-lookup"><span data-stu-id="30a5c-111">This parameter is not used.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="91878-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="91878-112">*lParam*</span></span> 
+<span data-ttu-id="30a5c-112">*lParam*</span><span class="sxs-lookup"><span data-stu-id="30a5c-112">*lParam*</span></span> 
 </dt> <dd>
 
-<span data-ttu-id="91878-113">[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構的指標。</span><span class="sxs-lookup"><span data-stu-id="91878-113">A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure.</span></span> <span data-ttu-id="91878-114">**OFNOTIFY** 結構包含 [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr)結構，其程式 **代碼** 成員會指出 **CDN \_** 說明通知訊息。</span><span class="sxs-lookup"><span data-stu-id="91878-114">The **OFNOTIFY** structure contains an [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_HELP** notification message.</span></span>
+<span data-ttu-id="30a5c-113">[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構的指標。</span><span class="sxs-lookup"><span data-stu-id="30a5c-113">A pointer to an [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya) structure.</span></span> <span data-ttu-id="30a5c-114">**OFNOTIFY** 結構包含 [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr)結構，其程式 **代碼** 成員會指出 **CDN \_** 說明通知訊息。</span><span class="sxs-lookup"><span data-stu-id="30a5c-114">The **OFNOTIFY** structure contains an [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr) structure whose **code** member indicates the **CDN\_HELP** notification message.</span></span>
 
 </dd> </dl>
 
-## <a name="return-value"></a><span data-ttu-id="91878-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="91878-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="30a5c-115">傳回值</span><span class="sxs-lookup"><span data-stu-id="30a5c-115">Return value</span></span>
 
-<span data-ttu-id="91878-116">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="91878-116">The return value is ignored.</span></span>
+<span data-ttu-id="30a5c-116">傳回值會被忽略。</span><span class="sxs-lookup"><span data-stu-id="30a5c-116">The return value is ignored.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="91878-117">備註</span><span class="sxs-lookup"><span data-stu-id="91878-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="30a5c-117">備註</span><span class="sxs-lookup"><span data-stu-id="30a5c-117">Remarks</span></span>
 
-<span data-ttu-id="91878-118">只有在使用 **OFN \_ EXPLORER** 值建立對話方塊時，系統才會傳送此通知。</span><span class="sxs-lookup"><span data-stu-id="91878-118">The system sends this notification only if the dialog box was created using the **OFN\_EXPLORER** value.</span></span>
+<span data-ttu-id="30a5c-118">只有在使用 **OFN \_ EXPLORER** 值建立對話方塊時，系統才會傳送此通知。</span><span class="sxs-lookup"><span data-stu-id="30a5c-118">The system sends this notification only if the dialog box was created using the **OFN\_EXPLORER** value.</span></span>
 
-## <a name="requirements"></a><span data-ttu-id="91878-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="91878-119">Requirements</span></span>
+## <a name="requirements"></a><span data-ttu-id="30a5c-119">規格需求</span><span class="sxs-lookup"><span data-stu-id="30a5c-119">Requirements</span></span>
 
 
 
-| <span data-ttu-id="91878-120">需求</span><span class="sxs-lookup"><span data-stu-id="91878-120">Requirement</span></span> | <span data-ttu-id="91878-121">值</span><span class="sxs-lookup"><span data-stu-id="91878-121">Value</span></span> |
+| <span data-ttu-id="30a5c-120">需求</span><span class="sxs-lookup"><span data-stu-id="30a5c-120">Requirement</span></span> | <span data-ttu-id="30a5c-121">值</span><span class="sxs-lookup"><span data-stu-id="30a5c-121">Value</span></span> |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="91878-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="91878-122">Minimum supported client</span></span><br/> | <span data-ttu-id="91878-123">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="91878-123">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
-| <span data-ttu-id="91878-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="91878-124">Minimum supported server</span></span><br/> | <span data-ttu-id="91878-125">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="91878-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
-| <span data-ttu-id="91878-126">標頭</span><span class="sxs-lookup"><span data-stu-id="91878-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="91878-127"><dt>Commdlg (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="91878-127"><dt>Commdlg.h (include Windows.h)</dt></span></span> </dl> |
+| <span data-ttu-id="30a5c-122">最低支援的用戶端</span><span class="sxs-lookup"><span data-stu-id="30a5c-122">Minimum supported client</span></span><br/> | <span data-ttu-id="30a5c-123">Windows 2000 Professional \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30a5c-123">Windows 2000 Professional \[desktop apps only\]</span></span><br/>                                               |
+| <span data-ttu-id="30a5c-124">最低支援的伺服器</span><span class="sxs-lookup"><span data-stu-id="30a5c-124">Minimum supported server</span></span><br/> | <span data-ttu-id="30a5c-125">Windows 2000 Server \[僅限傳統型應用程式\]</span><span class="sxs-lookup"><span data-stu-id="30a5c-125">Windows 2000 Server \[desktop apps only\]</span></span><br/>                                                     |
+| <span data-ttu-id="30a5c-126">標頭</span><span class="sxs-lookup"><span data-stu-id="30a5c-126">Header</span></span><br/>                   | <dl> <span data-ttu-id="30a5c-127"><dt>Commdlg (包含) 的 Windows。h </dt></span><span class="sxs-lookup"><span data-stu-id="30a5c-127"><dt>Commdlg.h (include Windows.h)</dt></span></span> </dl> |
 
 
 
-## <a name="see-also"></a><span data-ttu-id="91878-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="91878-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="30a5c-128">另請參閱</span><span class="sxs-lookup"><span data-stu-id="30a5c-128">See also</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="91878-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="91878-129">**Reference**</span></span>
+<span data-ttu-id="30a5c-129">**參考**</span><span class="sxs-lookup"><span data-stu-id="30a5c-129">**Reference**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="91878-130">**GetOpenFileName**</span><span class="sxs-lookup"><span data-stu-id="91878-130">**GetOpenFileName**</span></span>](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
+[<span data-ttu-id="30a5c-130">**GetOpenFileName**</span><span class="sxs-lookup"><span data-stu-id="30a5c-130">**GetOpenFileName**</span></span>](/windows/desktop/api/Commdlg/nf-commdlg-getopenfilenamea)
 </dt> <dt>
 
-[<span data-ttu-id="91878-131">**GetSaveFileName**</span><span class="sxs-lookup"><span data-stu-id="91878-131">**GetSaveFileName**</span></span>](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
+[<span data-ttu-id="30a5c-131">**GetSaveFileName**</span><span class="sxs-lookup"><span data-stu-id="30a5c-131">**GetSaveFileName**</span></span>](/windows/desktop/api/Commdlg/nf-commdlg-getsavefilenamea)
 </dt> <dt>
 
-[<span data-ttu-id="91878-132">*OFNHookProc*</span><span class="sxs-lookup"><span data-stu-id="91878-132">*OFNHookProc*</span></span>](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)
+[<span data-ttu-id="30a5c-132">*OFNHookProc*</span><span class="sxs-lookup"><span data-stu-id="30a5c-132">*OFNHookProc*</span></span>](/windows/win32/api/commdlg/nc-commdlg-lpofnhookproc)
 </dt> <dt>
 
-[<span data-ttu-id="91878-133">**OFNOTIFY**</span><span class="sxs-lookup"><span data-stu-id="91878-133">**OFNOTIFY**</span></span>](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
+[<span data-ttu-id="30a5c-133">**OFNOTIFY**</span><span class="sxs-lookup"><span data-stu-id="30a5c-133">**OFNOTIFY**</span></span>](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)
 </dt> <dt>
 
-[<span data-ttu-id="91878-134">**OPENFILENAME**</span><span class="sxs-lookup"><span data-stu-id="91878-134">**OPENFILENAME**</span></span>](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
+[<span data-ttu-id="30a5c-134">**OPENFILENAME**</span><span class="sxs-lookup"><span data-stu-id="30a5c-134">**OPENFILENAME**</span></span>](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)
 </dt> <dt>
 
-<span data-ttu-id="91878-135">**概念**</span><span class="sxs-lookup"><span data-stu-id="91878-135">**Conceptual**</span></span>
+<span data-ttu-id="30a5c-135">**概念**</span><span class="sxs-lookup"><span data-stu-id="30a5c-135">**Conceptual**</span></span>
 </dt> <dt>
 
-[<span data-ttu-id="91878-136">通用對話方塊程式庫</span><span class="sxs-lookup"><span data-stu-id="91878-136">Common Dialog Box Library</span></span>](common-dialog-box-library.md)
+[<span data-ttu-id="30a5c-136">通用對話方塊程式庫</span><span class="sxs-lookup"><span data-stu-id="30a5c-136">Common Dialog Box Library</span></span>](common-dialog-box-library.md)
 </dt> </dl>
-
- 
 
