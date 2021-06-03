@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: 同步處理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f259b71e7bf76dc7f23d092f827d16af908c74a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849438"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349953"
 ---
 # <a name="synchronization-functions"></a>同步處理函式
 
@@ -379,7 +379,7 @@ ms.locfileid: "103849438"
 | [**UnregisterWaitEx**](unregisterwaitex.md)                       | 取消已註冊的等候作業。                                                                                                                                                                                                                       |
 | [**WaitForMultipleObjects**](/windows/win32/api/synchapi/nf-synchapi-waitformultipleobjects)           | 等候一個或所有指定的物件處於已發出信號的狀態，或超過逾時間隔。                                                                                                                                                |
 | [**WaitForMultipleObjectsEx**](/windows/win32/api/winuser/nf-winuser-msgwaitformultipleobjectsex)       | 等候一或所有指定的物件處於已發出信號的狀態， (APC) 的 i/o 完成常式或非同步程序呼叫會排入執行緒的佇列中，或經過逾時間隔。                                                       |
-| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject)                 | 等候指定的物件處於已發出信號的狀態或逾時間隔。                                                                                                                                                                |
+| [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-waitforsingleobject)                 | 等候指定的物件處於已發出信號的狀態或逾時間隔。                                                                                                                                                                |
 | [**WaitForSingleObjectEx**](/windows/win32/api/synchapi/nf-synchapi-waitforsingleobjectex)             | 等到指定的物件處於已發出信號的狀態， (APC) 的 i/o 完成常式或非同步程序呼叫會排入執行緒或逾時間隔。                                                                       |
 | [**WaitOnAddress**](/windows/desktop/api/SynchAPI/nf-synchapi-waitonaddress)                             | 等候指定之位址的值變更。                                                                                                                                                                                                    |
 | [**WaitOrTimerCallback**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85))                 | 應用程式定義的函式，作為計時器回呼或已註冊等候回呼的起始位址。                                                                                                                                    |

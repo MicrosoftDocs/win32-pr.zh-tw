@@ -4,12 +4,12 @@ description: 以下是一些 DirectWrite 新增專案。
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: bf1a62917e18dcda7e7c4e3f1b05731b60628967
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "103685454"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349957"
 ---
 # <a name="whats-new-in-directwrite"></a>DirectWrite 的新功能
 
@@ -21,7 +21,7 @@ ms.locfileid: "103685454"
 
 ## <a name="windows-10-may-2019-update"></a>Windows 10 2019 年 5 月更新
 
-未針對 Windows 10、1903版 (10.0; 新增或更新任何功能或 Api;組建 18362) &mdash; 也稱為 Windows 10 2019 年5月更新。
+未新增或更新 Windows 10 的任何功能或 Api，版本 1903 (10.0;組建 18362) &mdash; 也稱為 Windows 10 2019 年5月更新。
 
 ## <a name="windows-10-october-2018-update"></a>Windows 10 2018 年 10 月更新
 

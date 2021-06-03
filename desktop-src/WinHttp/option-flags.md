@@ -5,12 +5,12 @@ title: '選項旗標 (WinHTTP. h) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 56eea8e528c445c5ce6f852ff8841073dd74d6a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983213"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349977"
 ---
 # <a name="option-flags"></a>選項旗標
 
@@ -296,6 +296,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 </dt> </dl> </dd>
 
 <dt>
+
+<span id="WINHTTP_OPTION_EXPIRE_CONNECTION"></span><span id="winhttp_option_expire_connection"></span>**WINHTTP \_ 選項 \_ 到期 \_ 連接**
+</dt> <dd> <dl> <dt>
+
+
+
+此選項只能在要求控制碼上設定，而該控制碼仍在使用中 (傳送或接收) 。 設定此選項會告知 WinHttp 在與傳入的要求控制碼相關聯的連接上停止服務要求。 當要求控制碼完成時，將會關閉此連接。 此選項不會使用任何參數。
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_EXTENDED_ERROR"></span><span id="winhttp_option_extended_error"></span>**WINHTTP \_ 選項 \_ 延伸 \_ 錯誤**
 </dt> <dd> <dl> <dt>
@@ -1013,6 +1023,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 啟用 \_ HTTP \_ 通訊協定<br/>**Dword** | X | X | \- | X | Windows 10 版本 1607 |
 | WINHTTP \_ 選項 \_ ENABLETRACING<br/>**Dword** | \- | \- | X | X | \- |
 | WINHTTP \_ 選項 \_ 編碼 \_ 額外<br/>**Bool** | X | X | \- | X | Windows 10 版本1803 |
+| WINHTTP \_ 選項 \_ 到期 \_ 連接<br/>N/A | \- | X | \- | X | Windows 10 版本1903 |
 | WINHTTP \_ 選項 \_ 延伸 \_ 錯誤<br/>**Dword** | X | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ 全域 \_ PROXY \_ 認證<br/>[**WINHTTP \_ 認證**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 全域 \_ 伺服器 \_ 認證<br/>[**WINHTTP \_ 認證 \_ 例如**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |

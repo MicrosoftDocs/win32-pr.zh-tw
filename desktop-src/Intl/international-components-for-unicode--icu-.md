@@ -4,12 +4,12 @@ ms.assetid: 4AEBE391-4121-44B2-B15B-0032645D7053
 title: Unicode 的國際元件 (ICU)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e00a72885b37efebf8de0d5eb60a22fe01dfba4f
-ms.sourcegitcommit: 176ef0a00690f849282cb48464c97f6526a82113
+ms.openlocfilehash: 560a2f344a3024685e17df0f434f8ffa040b5c8b
+ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "103945515"
+ms.lasthandoff: 06/02/2021
+ms.locfileid: "111349987"
 ---
 # <a name="international-components-for-unicode-icu"></a>Unicode 的國際元件 (ICU)
 
@@ -101,7 +101,7 @@ Unicode (ICU) 的國際元件是一組成熟、廣泛使用的開放原始碼全
 > [!Note]  
 >
 > - 這是 [所有平臺] 的設定。
-> - 針對要使用 ICU 的 Win32 應用程式，他們必須先呼叫 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 。
+> - 針對要使用 ICU 的 Win32 應用程式，他們必須先呼叫 [CoInitializeEx](/windows/win32/api/combaseapi/nf-combaseapi-coinitializeex) 。 在 Windows 10 1903 版和更新版本上，可以使用合併的 ICU 程式庫 (icu.dll/icu.lib) ，您可以使用合併的程式庫省略 CoInitializeEx 呼叫。
 > - 並非 ICU Api 所傳回的所有資料都會與 Windows 作業系統一致，因為此對齊工作仍在進行中。 
 
 ## <a name="icu-example-app"></a>ICU 範例應用程式
