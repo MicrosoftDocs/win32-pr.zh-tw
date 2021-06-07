@@ -38,21 +38,21 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: efb6c5a694d09bcb59fedf3f186498c940a95c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18baf6fa3ab837a82d725b72b8b60e3b33b7175f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114280"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444969"
 ---
-# <a name="mofdeserializerschemavalidationoption-enumeration"></a><span data-ttu-id="bf0f8-103">MofDeserializerSchemaValidationOption 列舉</span><span class="sxs-lookup"><span data-stu-id="bf0f8-103">MofDeserializerSchemaValidationOption enumeration</span></span>
+# <a name="mofdeserializerschemavalidationoption-enumeration"></a><span data-ttu-id="e55c8-103">MofDeserializerSchemaValidationOption 列舉</span><span class="sxs-lookup"><span data-stu-id="e55c8-103">MofDeserializerSchemaValidationOption enumeration</span></span>
 
-<span data-ttu-id="bf0f8-104">定義常數，指定還原序列化的架構驗證選項。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-104">Defines constants that specify schema validation options for deserialization.</span></span>
+<span data-ttu-id="e55c8-104">定義常數，指定還原序列化的架構驗證選項。</span><span class="sxs-lookup"><span data-stu-id="e55c8-104">Defines constants that specify schema validation options for deserialization.</span></span>
 
-<span data-ttu-id="bf0f8-105">**命名空間：**   [Microsoft. 管理結構。序列化](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="bf0f8-105">**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>  
-<span data-ttu-id="bf0f8-106">**元件：**  Microsoft.Management.Infrastructure.dll) 中的 (基礎結構</span><span class="sxs-lookup"><span data-stu-id="bf0f8-106">**Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)</span></span>  
+<span data-ttu-id="e55c8-105">**命名空間：**   [Microsoft. 管理結構。序列化](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="e55c8-105">**Namespace:**   [Microsoft.Management.Infrastructure.Serialization](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>  
+<span data-ttu-id="e55c8-106">**元件：**  Microsoft.Management.Infrastructure.dll) 中的 (基礎結構</span><span class="sxs-lookup"><span data-stu-id="e55c8-106">**Assembly:**  Microsoft.Management.Infrastructure (in Microsoft.Management.Infrastructure.dll)</span></span>  
 
-## <a name="syntax"></a><span data-ttu-id="bf0f8-107">語法</span><span class="sxs-lookup"><span data-stu-id="bf0f8-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e55c8-107">語法</span><span class="sxs-lookup"><span data-stu-id="e55c8-107">Syntax</span></span>
 
 ``` csharp
 internal enum MofDeserializerSchemaValidationOption
@@ -70,16 +70,16 @@ type internal MofDeserializerSchemaValidationOption
 Friend Enumeration MofDeserializerSchemaValidationOption
 ```
 
-## <a name="members"></a><span data-ttu-id="bf0f8-108">成員</span><span class="sxs-lookup"><span data-stu-id="bf0f8-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="e55c8-108">成員</span><span class="sxs-lookup"><span data-stu-id="e55c8-108">Members</span></span>
 
-||<span data-ttu-id="bf0f8-109">成員名稱</span><span class="sxs-lookup"><span data-stu-id="bf0f8-109">Member name</span></span>|<span data-ttu-id="bf0f8-110">描述</span><span class="sxs-lookup"><span data-stu-id="bf0f8-110">Description</span></span>|
-|-|-|-|
-||<span data-ttu-id="bf0f8-111">預設</span><span class="sxs-lookup"><span data-stu-id="bf0f8-111">Default</span></span>|<span data-ttu-id="bf0f8-112">指定預設架構驗證。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-112">Specifies default schema validation.</span></span>|
-||<span data-ttu-id="bf0f8-113">Strict</span><span class="sxs-lookup"><span data-stu-id="bf0f8-113">Strict</span></span>|<span data-ttu-id="bf0f8-114">指定嚴格的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-114">Specifies strict schema validation.</span></span>|
-||<span data-ttu-id="bf0f8-115">鬆散</span><span class="sxs-lookup"><span data-stu-id="bf0f8-115">Loose</span></span>|<span data-ttu-id="bf0f8-116">指定鬆散的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-116">Specifies loose schema validation.</span></span>|
-||<span data-ttu-id="bf0f8-117">IgnorePropertyType</span><span class="sxs-lookup"><span data-stu-id="bf0f8-117">IgnorePropertyType</span></span>|<span data-ttu-id="bf0f8-118">指定架構驗證應該忽略屬性類型。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-118">Specifies that schema validation should ignore property types.</span></span>|
-||<span data-ttu-id="bf0f8-119">忽略</span><span class="sxs-lookup"><span data-stu-id="bf0f8-119">Ignore</span></span>|<span data-ttu-id="bf0f8-120">指定應忽略架構驗證。</span><span class="sxs-lookup"><span data-stu-id="bf0f8-120">Specifies that schema validation should be ignored.</span></span>|
+|<span data-ttu-id="e55c8-109">成員名稱</span><span class="sxs-lookup"><span data-stu-id="e55c8-109">Member name</span></span>|<span data-ttu-id="e55c8-110">描述</span><span class="sxs-lookup"><span data-stu-id="e55c8-110">Description</span></span>|
+|-|-|
+|<span data-ttu-id="e55c8-111">預設</span><span class="sxs-lookup"><span data-stu-id="e55c8-111">Default</span></span>|<span data-ttu-id="e55c8-112">指定預設架構驗證。</span><span class="sxs-lookup"><span data-stu-id="e55c8-112">Specifies default schema validation.</span></span>|
+|<span data-ttu-id="e55c8-113">Strict</span><span class="sxs-lookup"><span data-stu-id="e55c8-113">Strict</span></span>|<span data-ttu-id="e55c8-114">指定嚴格的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="e55c8-114">Specifies strict schema validation.</span></span>|
+|<span data-ttu-id="e55c8-115">鬆散</span><span class="sxs-lookup"><span data-stu-id="e55c8-115">Loose</span></span>|<span data-ttu-id="e55c8-116">指定鬆散的架構驗證。</span><span class="sxs-lookup"><span data-stu-id="e55c8-116">Specifies loose schema validation.</span></span>|
+|<span data-ttu-id="e55c8-117">IgnorePropertyType</span><span class="sxs-lookup"><span data-stu-id="e55c8-117">IgnorePropertyType</span></span>|<span data-ttu-id="e55c8-118">指定架構驗證應該忽略屬性類型。</span><span class="sxs-lookup"><span data-stu-id="e55c8-118">Specifies that schema validation should ignore property types.</span></span>|
+|<span data-ttu-id="e55c8-119">忽略</span><span class="sxs-lookup"><span data-stu-id="e55c8-119">Ignore</span></span>|<span data-ttu-id="e55c8-120">指定應忽略架構驗證。</span><span class="sxs-lookup"><span data-stu-id="e55c8-120">Specifies that schema validation should be ignored.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="bf0f8-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="bf0f8-121">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e55c8-121">另請參閱</span><span class="sxs-lookup"><span data-stu-id="e55c8-121">See Also</span></span>
 
-<span data-ttu-id="bf0f8-122">[。序列化命名空間](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="bf0f8-122">[Microsoft.Management.Infrastructure.Serialization Namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>
+<span data-ttu-id="e55c8-122">[。序列化命名空間](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span><span class="sxs-lookup"><span data-stu-id="e55c8-122">[Microsoft.Management.Infrastructure.Serialization Namespace](/previous-versions/windows/desktop/wmi_v2/mi-managed-api/hh832966(v=vs.85))</span></span>

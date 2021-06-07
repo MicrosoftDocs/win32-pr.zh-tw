@@ -1,0 +1,243 @@
+---
+UID: NS:directml.DML_TOP_K1_OPERATOR_DESC
+title: DML_TOP_K1_OPERATOR_DESC
+description: 選取每個序列中的最大或最小 *K* 元素，沿著 *InputTensor* 軸，然後分別傳回 *OutputValueTensor* 和 *OutputIndexTensor* 中這些元素的值和索引。
+helpviewer_keywords:
+- DML_TOP_K1_OPERATOR_DESC
+- DML_TOP_K1_OPERATOR_DESC structure
+- direct3d12.dml_top_k1_operator_desc
+- directml/DML_TOP_K1_OPERATOR_DESC
+ms.topic: reference
+tech.root: directml
+ms.date: 11/04/2020
+req.header: directml.h
+req.include-header: ''
+req.target-type: Windows
+req.target-min-winverclnt: ''
+req.target-min-winversvr: ''
+req.kmdf-ver: ''
+req.umdf-ver: ''
+req.ddi-compliance: ''
+req.unicode-ansi: ''
+req.idl: ''
+req.max-support: ''
+req.namespace: ''
+req.assembly: ''
+req.type-library: ''
+req.lib: ''
+req.dll: ''
+req.irql: ''
+targetos: Windows
+req.typenames: ''
+req.redist: ''
+f1_keywords:
+- DML_TOP_K1_OPERATOR_DESC
+- directml/DML_TOP_K1_OPERATOR_DESC
+dev_langs:
+- c++
+topic_type:
+- APIRef
+- kbSyntax
+api_type:
+- HeaderDef
+api_location:
+- DirectML.h
+api_name:
+- DML_TOP_K1_OPERATOR_DESC
+ms.openlocfilehash: 599541032e0f1711c0e747a4ca5906391849a932
+ms.sourcegitcommit: da68ed5718ec0e3aa0c252fc86ac3e275da91b82
+ms.translationtype: MT
+ms.contentlocale: zh-TW
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111417282"
+---
+# <a name="dml_top_k1_operator_desc-structure-directmlh"></a><span data-ttu-id="58965-103">DML_TOP_K1_OPERATOR_DESC 結構 (directml .h) </span><span class="sxs-lookup"><span data-stu-id="58965-103">DML_TOP_K1_OPERATOR_DESC structure (directml.h)</span></span>
+<span data-ttu-id="58965-104">選取每個序列中的最大或最小 *K* 元素，沿著 *InputTensor* 軸，然後分別傳回 *OutputValueTensor* 和 *OutputIndexTensor* 中這些元素的值和索引。</span><span class="sxs-lookup"><span data-stu-id="58965-104">Selects the largest or smallest *K* elements from each sequence along an axis of the *InputTensor*, and returns the values and indices of those elements in the *OutputValueTensor* and *OutputIndexTensor*, respectively.</span></span> <span data-ttu-id="58965-105">*序列* 是指存在於 *InputTensor* 之 *軸* 維度中的其中一個專案集合。</span><span class="sxs-lookup"><span data-stu-id="58965-105">A *sequence* refers to one of the sets of elements that exist along the *Axis* dimension of the *InputTensor*.</span></span>
+
+<span data-ttu-id="58965-106">選擇是否要選取最大的 K 元素或最小的 K 元素，都可以使用 *AxisDirection* 來控制。</span><span class="sxs-lookup"><span data-stu-id="58965-106">The choice of whether to select the largest K elements or the smallest K elements can be controlled using *AxisDirection*.</span></span>
+
+> [!IMPORTANT]
+> <span data-ttu-id="58965-107">此 API 可作為 DirectML 獨立可轉散發套件的一部分， (請參閱 [DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) 1.4 版和更新版本。</span><span class="sxs-lookup"><span data-stu-id="58965-107">This API is available as part of the DirectML standalone redistributable package (see [Microsoft.AI.DirectML](https://www.nuget.org/packages/Microsoft.AI.DirectML/) version 1.4 and later.</span></span> <span data-ttu-id="58965-108">另請參閱 [DirectML 版本歷程記錄](../dml-version-history.md)。</span><span class="sxs-lookup"><span data-stu-id="58965-108">Also see [DirectML version history](../dml-version-history.md).</span></span>
+
+## <a name="syntax"></a><span data-ttu-id="58965-109">語法</span><span class="sxs-lookup"><span data-stu-id="58965-109">Syntax</span></span>
+```cpp
+struct DML_TOP_K1_OPERATOR_DESC {
+  const DML_TENSOR_DESC *InputTensor;
+  const DML_TENSOR_DESC *OutputValueTensor;
+  const DML_TENSOR_DESC *OutputIndexTensor;
+  UINT                  Axis;
+  UINT                  K;
+  DML_AXIS_DIRECTION    AxisDirection;
+};
+```
+
+## <a name="members"></a><span data-ttu-id="58965-110">成員</span><span class="sxs-lookup"><span data-stu-id="58965-110">Members</span></span>
+
+`InputTensor`
+
+<span data-ttu-id="58965-111">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="58965-111">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="58965-112">包含要選取之元素的輸入 tensor。</span><span class="sxs-lookup"><span data-stu-id="58965-112">The input tensor containing elements to select.</span></span>
+
+`OutputValueTensor`
+
+<span data-ttu-id="58965-113">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="58965-113">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="58965-114">用來將前 *K* 個元素的值寫入其中的輸出 tensor。</span><span class="sxs-lookup"><span data-stu-id="58965-114">The output tensor to write the values of the top *K* elements to.</span></span> <span data-ttu-id="58965-115">依據 *AxisDirection* 的值而定，會根據最大或最小的專案來選取前 *K* 個元素。</span><span class="sxs-lookup"><span data-stu-id="58965-115">The top *K* elements are selected based on whether they are the largest or the smallest, depending on the value of *AxisDirection*.</span></span> <span data-ttu-id="58965-116">此 tensor 的大小必須等於 *InputTensor*，*但\*\*軸* 參數所指定的維度必須等於 *K* 的大小。</span><span class="sxs-lookup"><span data-stu-id="58965-116">This tensor must have sizes equal to the *InputTensor*, *except* for the dimension specified by the *Axis* parameter, which must have a size equal to *K*.</span></span>
+
+<span data-ttu-id="58965-117">如果 *AxisDirection* 是 [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md)的，則在每個輸入序列中選取的 *K* 值保證會以遞減方式排序 (最大到最小的) 。</span><span class="sxs-lookup"><span data-stu-id="58965-117">The *K* values selected from each input sequence are guaranteed to be sorted descending (largest to smallest) if *AxisDirection* is [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md).</span></span> <span data-ttu-id="58965-118">否則，相反的會是 true，而選取的值保證會以遞增方式排序 (最小到最大的) 。</span><span class="sxs-lookup"><span data-stu-id="58965-118">Otherwise, the opposite is true and the values selected are guaranteed to be sorted ascending (smallest to largest).</span></span>
+
+`OutputIndexTensor`
+
+<span data-ttu-id="58965-119">Type： **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc) \***</span><span class="sxs-lookup"><span data-stu-id="58965-119">Type: **const [DML_TENSOR_DESC](/windows/win32/api/directml/ns-directml-dml_tensor_desc)\***</span></span>
+
+<span data-ttu-id="58965-120">輸出 tensor，用來將前 *K* 個元素的索引寫入至。</span><span class="sxs-lookup"><span data-stu-id="58965-120">The output tensor to write the indices of the top *K* elements to.</span></span> <span data-ttu-id="58965-121">此 tensor 的大小必須等於 *InputTensor*，*但\*\*軸* 參數所指定的維度必須等於 *K* 的大小。</span><span class="sxs-lookup"><span data-stu-id="58965-121">This tensor must have sizes equal to the *InputTensor*, *except* for the dimension specified by the *Axis* parameter, which must have a size equal to *K*.</span></span>
+
+<span data-ttu-id="58965-122">在這個 tensor 中傳回的索引是相對於順序的開頭來測量 (而不是 tensor) 的開頭。</span><span class="sxs-lookup"><span data-stu-id="58965-122">The indices returned in this tensor are measured relative to the beginning of their sequence (as opposed to the beginning of the tensor).</span></span> <span data-ttu-id="58965-123">例如，索引0一律會參考軸中所有序列的第一個元素。</span><span class="sxs-lookup"><span data-stu-id="58965-123">For example, an index of 0 always refers to the first element for all sequences in an axis.</span></span>
+
+<span data-ttu-id="58965-124">如果頂端的兩個或多個專案具有相同的值 (也就是說，當有系結) 時，會包含這兩個專案的索引，並保證會以遞增的元素索引來排序。</span><span class="sxs-lookup"><span data-stu-id="58965-124">In cases where two or more elements in the top-K have the same value (that is, when there is a tie), the indices of both elements are included, and are guaranteed to be ordered by ascending element index.</span></span> <span data-ttu-id="58965-125">請注意，不論 *AxisDirection* 的值是什麼，都是如此。</span><span class="sxs-lookup"><span data-stu-id="58965-125">Note that this is true irrespective of the value of *AxisDirection*.</span></span>
+
+`Axis`
+
+<span data-ttu-id="58965-126">類型： [ **UINT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="58965-126">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+
+<span data-ttu-id="58965-127">要在其中選取元素的維度索引。</span><span class="sxs-lookup"><span data-stu-id="58965-127">The index of the dimension to select elements across.</span></span> <span data-ttu-id="58965-128">這個值必須小於 *InputTensor* 的 *DimensionCount* 。</span><span class="sxs-lookup"><span data-stu-id="58965-128">This value must be less than the *DimensionCount* of the *InputTensor*.</span></span>
+
+`K`
+
+<span data-ttu-id="58965-129">類型： [ **UINT**](/windows/desktop/winprog/windows-data-types)</span><span class="sxs-lookup"><span data-stu-id="58965-129">Type: [**UINT**](/windows/desktop/winprog/windows-data-types)</span></span>
+
+<span data-ttu-id="58965-130">要選取的元素數目。</span><span class="sxs-lookup"><span data-stu-id="58965-130">The number of elements to select.</span></span> <span data-ttu-id="58965-131">*K* 必須大於0，但小於 *軸* 所指定之維度中 *InputTensor* 的元素數目。</span><span class="sxs-lookup"><span data-stu-id="58965-131">*K* must be greater than 0, but less than the number of elements in the *InputTensor* along the dimension specified by *Axis*.</span></span>
+
+`AxisDirection`
+
+<span data-ttu-id="58965-132">類型： **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**</span><span class="sxs-lookup"><span data-stu-id="58965-132">Type: **[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)**</span></span>
+
+<span data-ttu-id="58965-133">[DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md)列舉中的值。</span><span class="sxs-lookup"><span data-stu-id="58965-133">A value from the [DML_AXIS_DIRECTION](./ne-directml-dml_axis_direction.md) enumeration.</span></span> <span data-ttu-id="58965-134">如果設定為 **DML_AXIS_DIRECTION_INCREASING**，則這個運算子會傳回 *最小* 的 *K* 元素（以遞增值的順序排列）。</span><span class="sxs-lookup"><span data-stu-id="58965-134">If set to **DML_AXIS_DIRECTION_INCREASING**, then this operator returns the *smallest* *K* elements in order of increasing value.</span></span> <span data-ttu-id="58965-135">否則，它會以遞減順序傳回 *最大* 的 *K* 元素。</span><span class="sxs-lookup"><span data-stu-id="58965-135">Otherwise, it returns the *largest* *K* elements in decreasing order.</span></span>
+
+## <a name="examples"></a><span data-ttu-id="58965-136">範例</span><span class="sxs-lookup"><span data-stu-id="58965-136">Examples</span></span>
+
+### <a name="example-1"></a><span data-ttu-id="58965-137">範例 1</span><span class="sxs-lookup"><span data-stu-id="58965-137">Example 1</span></span>
+
+```
+InputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
+[[[[ 0,  1, 10, 11],
+   [ 3,  2,  9,  8],
+   [ 4,  5,  6,  7]]]]
+
+Axis: 3
+K:    2
+AxisDirection: DML_AXIS_DIRECTION_DECREASING
+   
+OutputValueTensor: (Sizes:{1,1,3,2}, DataType:FLOAT32)
+[[[[11, 10],
+   [ 9,  8],
+   [ 7,  6]]]]
+
+OutputIndexTensor: (Sizes:{1,1,3,2}, DataType:UINT32)
+[[[[3, 2],
+   [2, 3],
+   [3, 2]]]]
+```
+
+### <a name="example-2-using-a-different-axis"></a><span data-ttu-id="58965-138">範例 2.</span><span class="sxs-lookup"><span data-stu-id="58965-138">Example 2.</span></span> <span data-ttu-id="58965-139">使用不同的軸</span><span class="sxs-lookup"><span data-stu-id="58965-139">Using a different axis</span></span>
+
+```
+InputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
+[[[[ 0,  1, 10, 11],
+   [ 3,  2,  9,  8],
+   [ 4,  5,  6,  7]]]]
+
+Axis: 2
+K:    2
+AxisDirection: DML_AXIS_DIRECTION_DECREASING
+   
+OutputValueTensor: (Sizes:{1,1,2,4}, DataType:FLOAT32)
+[[[[ 4,  5, 10, 11],
+   [ 3,  2,  9,  8]]]]
+
+OutputIndexTensor: (Sizes:{1,1,2,4}, DataType:UINT32)
+[[[[2, 2, 0, 0],
+   [1, 1, 1, 1]]]]
+```
+
+### <a name="example-3-tied-values"></a><span data-ttu-id="58965-140">範例 3.</span><span class="sxs-lookup"><span data-stu-id="58965-140">Example 3.</span></span> <span data-ttu-id="58965-141">系結值</span><span class="sxs-lookup"><span data-stu-id="58965-141">Tied values</span></span>
+
+```
+InputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
+[[[[1, 2, 2, 3],
+   [3, 4, 5, 5],
+   [6, 6, 6, 6]]]]
+
+Axis: 3
+K:    3
+AxisDirection: DML_AXIS_DIRECTION_DECREASING
+   
+OutputValueTensor: (Sizes:{1,1,3,3}, DataType:FLOAT32)
+[[[[3, 2, 2],
+   [5, 5, 4],
+   [6, 6, 6]]]]
+
+OutputIndexTensor: (Sizes:{1,1,3,3}, DataType:UINT32)
+[[[[3, 1, 2],
+   [2, 3, 1],
+   [0, 1, 2]]]]
+```
+
+### <a name="example-4-increasing-axis-direction"></a><span data-ttu-id="58965-142">範例4。</span><span class="sxs-lookup"><span data-stu-id="58965-142">Example 4.</span></span> <span data-ttu-id="58965-143">增加軸方向</span><span class="sxs-lookup"><span data-stu-id="58965-143">Increasing axis direction</span></span>
+
+```
+InputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
+[[[[1, 2, 2, 3],
+   [3, 4, 5, 5],
+   [6, 6, 6, 6]]]]
+
+Axis: 3
+K:    3
+AxisDirection: DML_AXIS_DIRECTION_INCREASING
+   
+OutputValueTensor: (Sizes:{1,1,3,3}, DataType:FLOAT32)
+[[[[1, 2, 2],
+   [3, 4, 5],
+   [6, 6, 6]]]]
+
+OutputIndexTensor: (Sizes:{1,1,3,3}, DataType:UINT32)
+[[[[0, 1, 2],
+   [0, 1, 2],
+   [0, 1, 2]]]]
+```
+
+
+## <a name="remarks"></a><span data-ttu-id="58965-144">備註</span><span class="sxs-lookup"><span data-stu-id="58965-144">Remarks</span></span>
+<span data-ttu-id="58965-145">當 *AxisDirection* 設定為 [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md)時，這個運算子相當於 [DML_TOP_K_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_top_k_operator_desc)。</span><span class="sxs-lookup"><span data-stu-id="58965-145">When *AxisDirection* is set to [DML_AXIS_DIRECTION_DECREASING](./ne-directml-dml_axis_direction.md), this operator is equivalent to [DML_TOP_K_OPERATOR_DESC](/windows/win32/api/directml/ns-directml-dml_top_k_operator_desc).</span></span>
+
+## <a name="availability"></a><span data-ttu-id="58965-146">可用性</span><span class="sxs-lookup"><span data-stu-id="58965-146">Availability</span></span>
+<span data-ttu-id="58965-147">這個運算子是在中引進 `DML_FEATURE_LEVEL_2_1` 。</span><span class="sxs-lookup"><span data-stu-id="58965-147">This operator was introduced in `DML_FEATURE_LEVEL_2_1`.</span></span>
+
+## <a name="tensor-constraints"></a><span data-ttu-id="58965-148">Tensor 條件約束</span><span class="sxs-lookup"><span data-stu-id="58965-148">Tensor constraints</span></span>
+
+* <span data-ttu-id="58965-149">*InputTensor*、 *OutputIndexTensor* 和 *OutputValueTensor* 必須有相同的 *DimensionCount*。</span><span class="sxs-lookup"><span data-stu-id="58965-149">*InputTensor*, *OutputIndexTensor*, and *OutputValueTensor* must have the same *DimensionCount*.</span></span>
+* <span data-ttu-id="58965-150">*InputTensor* 和 *OutputValueTensor* 必須有相同的 *資料類型*。</span><span class="sxs-lookup"><span data-stu-id="58965-150">*InputTensor* and *OutputValueTensor* must have the same *DataType*.</span></span>
+
+## <a name="tensor-support"></a><span data-ttu-id="58965-151">Tensor 支援</span><span class="sxs-lookup"><span data-stu-id="58965-151">Tensor support</span></span>
+
+### <a name="dml_feature_level_3_1-and-above"></a><span data-ttu-id="58965-152">DML_FEATURE_LEVEL_3_1 和更新版本</span><span class="sxs-lookup"><span data-stu-id="58965-152">DML_FEATURE_LEVEL_3_1 and above</span></span>
+
+| <span data-ttu-id="58965-153">張</span><span class="sxs-lookup"><span data-stu-id="58965-153">Tensor</span></span> | <span data-ttu-id="58965-154">種類</span><span class="sxs-lookup"><span data-stu-id="58965-154">Kind</span></span> | <span data-ttu-id="58965-155">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="58965-155">Supported dimension counts</span></span> | <span data-ttu-id="58965-156">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="58965-156">Supported data types</span></span> |
+| ------ | ---- | -------------------------- | -------------------- |
+| <span data-ttu-id="58965-157">InputTensor</span><span class="sxs-lookup"><span data-stu-id="58965-157">InputTensor</span></span> | <span data-ttu-id="58965-158">輸入</span><span class="sxs-lookup"><span data-stu-id="58965-158">Input</span></span> | <span data-ttu-id="58965-159">1至8</span><span class="sxs-lookup"><span data-stu-id="58965-159">1 to 8</span></span> | <span data-ttu-id="58965-160">FLOAT32、FLOAT16、INT32、INT16、INT8、UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="58965-160">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="58965-161">OutputValueTensor</span><span class="sxs-lookup"><span data-stu-id="58965-161">OutputValueTensor</span></span> | <span data-ttu-id="58965-162">輸出</span><span class="sxs-lookup"><span data-stu-id="58965-162">Output</span></span> | <span data-ttu-id="58965-163">1至8</span><span class="sxs-lookup"><span data-stu-id="58965-163">1 to 8</span></span> | <span data-ttu-id="58965-164">FLOAT32、FLOAT16、INT32、INT16、INT8、UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="58965-164">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="58965-165">OutputIndexTensor</span><span class="sxs-lookup"><span data-stu-id="58965-165">OutputIndexTensor</span></span> | <span data-ttu-id="58965-166">輸出</span><span class="sxs-lookup"><span data-stu-id="58965-166">Output</span></span> | <span data-ttu-id="58965-167">1至8</span><span class="sxs-lookup"><span data-stu-id="58965-167">1 to 8</span></span> | <span data-ttu-id="58965-168">UINT32</span><span class="sxs-lookup"><span data-stu-id="58965-168">UINT32</span></span> |
+
+### <a name="dml_feature_level_2_1-and-above"></a><span data-ttu-id="58965-169">DML_FEATURE_LEVEL_2_1 和更新版本</span><span class="sxs-lookup"><span data-stu-id="58965-169">DML_FEATURE_LEVEL_2_1 and above</span></span>
+
+| <span data-ttu-id="58965-170">張</span><span class="sxs-lookup"><span data-stu-id="58965-170">Tensor</span></span> | <span data-ttu-id="58965-171">種類</span><span class="sxs-lookup"><span data-stu-id="58965-171">Kind</span></span> | <span data-ttu-id="58965-172">支援的維度計數</span><span class="sxs-lookup"><span data-stu-id="58965-172">Supported dimension counts</span></span> | <span data-ttu-id="58965-173">支援的資料類型</span><span class="sxs-lookup"><span data-stu-id="58965-173">Supported data types</span></span> |
+| ------ | ---- | -------------------------- | -------------------- |
+| <span data-ttu-id="58965-174">InputTensor</span><span class="sxs-lookup"><span data-stu-id="58965-174">InputTensor</span></span> | <span data-ttu-id="58965-175">輸入</span><span class="sxs-lookup"><span data-stu-id="58965-175">Input</span></span> | <span data-ttu-id="58965-176">4</span><span class="sxs-lookup"><span data-stu-id="58965-176">4</span></span> | <span data-ttu-id="58965-177">FLOAT32、FLOAT16、INT32、INT16、INT8、UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="58965-177">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="58965-178">OutputValueTensor</span><span class="sxs-lookup"><span data-stu-id="58965-178">OutputValueTensor</span></span> | <span data-ttu-id="58965-179">輸出</span><span class="sxs-lookup"><span data-stu-id="58965-179">Output</span></span> | <span data-ttu-id="58965-180">4</span><span class="sxs-lookup"><span data-stu-id="58965-180">4</span></span> | <span data-ttu-id="58965-181">FLOAT32、FLOAT16、INT32、INT16、INT8、UINT32、UINT16、UINT8</span><span class="sxs-lookup"><span data-stu-id="58965-181">FLOAT32, FLOAT16, INT32, INT16, INT8, UINT32, UINT16, UINT8</span></span> |
+| <span data-ttu-id="58965-182">OutputIndexTensor</span><span class="sxs-lookup"><span data-stu-id="58965-182">OutputIndexTensor</span></span> | <span data-ttu-id="58965-183">輸出</span><span class="sxs-lookup"><span data-stu-id="58965-183">Output</span></span> | <span data-ttu-id="58965-184">4</span><span class="sxs-lookup"><span data-stu-id="58965-184">4</span></span> | <span data-ttu-id="58965-185">UINT32</span><span class="sxs-lookup"><span data-stu-id="58965-185">UINT32</span></span> |
+
+## <a name="requirements"></a><span data-ttu-id="58965-186">規格需求</span><span class="sxs-lookup"><span data-stu-id="58965-186">Requirements</span></span>
+| &nbsp; | &nbsp; |
+| ---- |:---- |
+| <span data-ttu-id="58965-187">**標頭**</span><span class="sxs-lookup"><span data-stu-id="58965-187">**Header**</span></span> | <span data-ttu-id="58965-188">directml。h</span><span class="sxs-lookup"><span data-stu-id="58965-188">directml.h</span></span> |

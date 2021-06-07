@@ -13,23 +13,23 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 518558305639f0699358f22fb3544698741cfedf
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 9b12a087bfc972ffcbd7f9fb083a9d73d669f134
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106976387"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386897"
 ---
-# <a name="using-color-management-modules-cmm"></a><span data-ttu-id="1222d-110">使用色彩管理模組 (CMM) </span><span class="sxs-lookup"><span data-stu-id="1222d-110">Using Color Management Modules (CMM)</span></span>
+# <a name="using-color-management-modules-cmm"></a><span data-ttu-id="9df1b-110">使用色彩管理模組 (CMM) </span><span class="sxs-lookup"><span data-stu-id="9df1b-110">Using Color Management Modules (CMM)</span></span>
 
-<span data-ttu-id="1222d-111">色彩管理模組 (Cmm) 是 WCS 程式碼的模組，該程式碼會使用裝置設定檔中的資訊來執行色彩轉換和色彩對應。</span><span class="sxs-lookup"><span data-stu-id="1222d-111">Color Management Modules (CMMs) are modules of WCS code that use the information in device profiles to perform color conversion and color mapping.</span></span> <span data-ttu-id="1222d-112">應用程式開發人員應該不需要執行 Cmm。</span><span class="sxs-lookup"><span data-stu-id="1222d-112">Application developers should not have to implement CMMs.</span></span> <span data-ttu-id="1222d-113">Microsoft 提供預設的 CMM。</span><span class="sxs-lookup"><span data-stu-id="1222d-113">Microsoft provides the default CMM.</span></span> <span data-ttu-id="1222d-114">但是，如果您需要使用特殊色彩轉換和色彩對應演算法來撰寫軟體，您可以建立一個。</span><span class="sxs-lookup"><span data-stu-id="1222d-114">However, if you do write software that requires the use of specialized color conversion and color mapping algorithms, you may create one.</span></span>
+<span data-ttu-id="9df1b-111">色彩管理模組 (Cmm) 是 WCS 程式碼的模組，該程式碼會使用裝置設定檔中的資訊來執行色彩轉換和色彩對應。</span><span class="sxs-lookup"><span data-stu-id="9df1b-111">Color Management Modules (CMMs) are modules of WCS code that use the information in device profiles to perform color conversion and color mapping.</span></span> <span data-ttu-id="9df1b-112">應用程式開發人員應該不需要執行 Cmm。</span><span class="sxs-lookup"><span data-stu-id="9df1b-112">Application developers should not have to implement CMMs.</span></span> <span data-ttu-id="9df1b-113">Microsoft 提供預設的 CMM。</span><span class="sxs-lookup"><span data-stu-id="9df1b-113">Microsoft provides the default CMM.</span></span> <span data-ttu-id="9df1b-114">但是，如果您需要使用特殊色彩轉換和色彩對應演算法來撰寫軟體，您可以建立一個。</span><span class="sxs-lookup"><span data-stu-id="9df1b-114">However, if you do write software that requires the use of specialized color conversion and color mapping algorithms, you may create one.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="1222d-115">CMM 進入點 *並非* API 函式，而且不應該由應用程式呼叫。</span><span class="sxs-lookup"><span data-stu-id="1222d-115">CMM entry points are *not* API functions and should not be called by applications.</span></span>
+> <span data-ttu-id="9df1b-115">CMM 進入點 *並非* API 函式，而且不應該由應用程式呼叫。</span><span class="sxs-lookup"><span data-stu-id="9df1b-115">CMM entry points are *not* API functions and should not be called by applications.</span></span>
 
  
 
-<span data-ttu-id="1222d-116">當安裝 Cmm 時，安裝程式會在 Windows 登錄中註冊它們。</span><span class="sxs-lookup"><span data-stu-id="1222d-116">When CMMs are installed, the installation program registers them in the Windows registry.</span></span> <span data-ttu-id="1222d-117">應用程式可以列舉已註冊的 Cmm，並使用 [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) 函式選取其中一個。</span><span class="sxs-lookup"><span data-stu-id="1222d-117">Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) function.</span></span> <span data-ttu-id="1222d-118">下列範例應用程式示範如何列舉所有已註冊的 Cmm。</span><span class="sxs-lookup"><span data-stu-id="1222d-118">The following sample application demonstrates how to enumerate all registered CMMs.</span></span>
+<span data-ttu-id="9df1b-116">當安裝 Cmm 時，安裝程式會在 Windows 登錄中註冊它們。</span><span class="sxs-lookup"><span data-stu-id="9df1b-116">When CMMs are installed, the installation program registers them in the Windows registry.</span></span> <span data-ttu-id="9df1b-117">應用程式可以列舉已註冊的 Cmm，並使用 [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) 函式選取其中一個。</span><span class="sxs-lookup"><span data-stu-id="9df1b-117">Applications can enumerate the registered CMMs and select one using the [**SelectCMM**](/windows/win32/api/icm/nf-icm-selectcmm) function.</span></span> <span data-ttu-id="9df1b-118">下列範例應用程式示範如何列舉所有已註冊的 Cmm。</span><span class="sxs-lookup"><span data-stu-id="9df1b-118">The following sample application demonstrates how to enumerate all registered CMMs.</span></span>
 
 
 ```C++
@@ -55,11 +55,11 @@ _CRTAPI1 main (int argc, char *argv[])
 
     HANDLE hkCMM;
     DWORD dwErr = RegCreateKey(HKEY_LOCAL_MACHINE,
-                 gszICMatcher, &amp;hkCMM);
+                 gszICMatcher, &hkCMM);
     DWORD dwMaxName, dwMaxValue;
-    DWORD dwInfoErr = RegQueryInfoKey(&amp;hkCMM, NULL, NULL,
+    DWORD dwInfoErr = RegQueryInfoKey(&hkCMM, NULL, NULL,
                                 NULL, NULL, NULL, NULL, NULL,
-                                &amp;dwMaxName, &amp;dwMaxValue,
+                                &dwMaxName, &dwMaxValue,
                                 NULL, NULL);
     TCHAR chCMM[dwMaxName];
     ULONG cjCMM = sizeof(chCMM)/sizeof(chCMM[0]);
@@ -76,8 +76,8 @@ _CRTAPI1 main (int argc, char *argv[])
     {
         while (RegEnumValue(
                    hkCMM,dwNumCMM,chCMM,
-                   &amp;cjCMM,NULL,&amp;dwType,
-                   chCMMFile,&amp;cjCMMFile) == ERROR_SUCCESS)
+                   &cjCMM,NULL,&dwType,
+                   chCMMFile,&cjCMMFile) == ERROR_SUCCESS)
         {
             if (dwType == REG_SZ)
             {
