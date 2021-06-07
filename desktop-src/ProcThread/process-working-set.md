@@ -4,12 +4,12 @@ ms.assetid: 6017ef59-d2e9-4245-a406-8965024dbb35
 title: 處理工作集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 900b5d8a19c756a9087a9b2c006259857691dc11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaded3d0b5f8c6ad552cc728c68ad0407391c343
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192755"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549900"
 ---
 # <a name="process-working-set"></a>處理工作集
 
@@ -17,9 +17,9 @@ ms.locfileid: "104192755"
 
 進程有相關聯的工作集大小下限和工作集大小上限。 每次呼叫 [**CreateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessa)時，它會保留進程的工作集大小下限。 當程式為使用中狀態時，虛擬記憶體管理員會嘗試保留足夠的記憶體供最小的工作集常駐，但不會超過大小上限。
 
-若要取得應用程式的工作集所要求的最小和最大大小，請呼叫 [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize) 函數。
+若要取得應用程式的工作集所要求的最小和最大大小，請呼叫 [**GetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize) 函數。
 
-系統會設定預設的工作集大小。 您也可以使用 [**SetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize) 函數來修改工作集大小。 設定這些值並不保證會保留或駐留記憶體。 請小心要求太大或最大的工作集大小，因為這樣做可能會降低系統效能。
+系統會設定預設的工作集大小。 您也可以使用 [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize) 函數來修改工作集大小。 設定這些值並不保證會保留或駐留記憶體。 請小心要求太大或最大的工作集大小，因為這樣做可能會降低系統效能。
 
 若要取得處理常式之工作集目前或最大的大小，請使用 [**GetProcessMemoryInfo**](/windows/win32/api/psapi/nf-psapi-getprocessmemoryinfo) 函數。
 

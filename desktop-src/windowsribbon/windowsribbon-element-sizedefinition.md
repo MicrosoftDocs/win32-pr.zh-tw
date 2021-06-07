@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7bfab87f01700f8f4d36f76cbcbfe3696acfbec2
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "106999791"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444799"
 ---
 # <a name="sizedefinition-element"></a>SizeDefinition 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "106999791"
 <tr class="odd">
 <td><strong>名稱</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string 或 xs： token<br/></td>
-<td>Yes<br/></td>
+<td>是<br/></td>
 <td>當 <a href="windowsribbon-element-ribbon-sizedefinitions.md"><strong>SizeDefinitions</strong></a> 是父系時，則為選擇性。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string 或 xs： token) <br/> </dt> <dd> 介於2與59999（含）之間的字串或整數值，以及十六進位（含）之間的0xea5f。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -82,7 +82,7 @@ ms.locfileid: "106999791"
 
 | 元素                                                                                   |
 |-------------------------------------------------------------------------------------------|
-| [**Group**](windowsribbon-element-group.md)<br/>                                   |
+| [**群組**](windowsribbon-element-group.md)<br/>                                   |
 | [**功能區. SizeDefinitions**](windowsribbon-element-ribbon-sizedefinitions.md)<br/> |
 
 
@@ -194,11 +194,8 @@ ms.locfileid: "106999791"
 ## <a name="element-information"></a>項目資訊
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+- **最低支援系統**： Windows 7 
+- **可以是空** 的：否
 
 
 

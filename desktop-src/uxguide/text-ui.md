@@ -1,15 +1,15 @@
 ---
 title: 消費者介面文字
-description: 使用者介面文字會出現在 UI 表面上。
+description: 瞭解 UI 介面上所顯示的使用者介面文字。
 ms.assetid: db42fe22-9baf-453a-9b89-9bbb251b0b6f
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 1c1a60ba0bfef33dcf1e72c5ba19b11c4a5f38a2
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: a0ab5025407d5149d1747fbd083fed7df345e3f3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104561952"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444739"
 ---
 # <a name="user-interface-text"></a>消費者介面文字
 
@@ -29,7 +29,7 @@ UI 文字有數種使用模式：
 
 
 
-|                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+|   使用量                                                                                                                                                                                          |    描述                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **標題列文字**<br/> 使用標題列文字來識別視窗或對話方塊的來源。 <br/>                                                                            | ![資料夾選項標題列的螢幕擷取畫面](images/text-ui-image1.png)<br/> 在此範例中，標題列文字會識別視窗。<br/>                                                                                                                                                                                                                                                                                                             |
 | **主要指示**<br/> 您可以使用重要的主要指示，清楚地說明在視窗或頁面中要執行的動作。 <br/>                                                      | 指令應該是特定的語句、命令式方向或問題。 良好的主要指示傳達使用者的目標，而不是只著重在操作 ui。 <br/> ![問題的螢幕擷取畫面：您是否想要最新的協助？ ](images/text-ui-image2.png)<br/> 在此範例中，主要的指令文字會以使用者自己的權益或興趣，直接對使用者提出問題。<br/>             |
@@ -151,7 +151,7 @@ UI 文字有數種使用模式：
 | ![第一個資料行：一般文字 ](images/text-ui-image15.png)<br/>                 | BodyText<br/>         | 9 pt。 黑色 (\# 000000) Segoe UI<br/>                 |
 | ![第一個資料行：強調文字 ](images/text-ui-image16.png)<br/>             | BodyText<br/>         | 9 pt。 黑色 (\# 000000) Segoe UI、粗體或斜體<br/> |
 | ![第一個資料行：可編輯的文字 ](images/text-ui-image17.png)<br/>               | BodyText<br/>         | 9 pt。 \#box 中的黑色 (000000) Segoe UI<br/>       |
-| ![第一個資料行：停用的文字 ](images/text-ui-image18.png)<br/>               | Disabled<br/>         | 9 pt。 暗灰色 (\# 323232) Segoe UI<br/>             |
+| ![第一個資料行：停用的文字 ](images/text-ui-image18.png)<br/>               | 停用<br/>         | 9 pt。 暗灰色 (\# 323232) Segoe UI<br/>             |
 | ![第一個資料行：連結 ](images/text-ui-image19.png)<br/>                        | HyperLinkText<br/>    | 9 pt。 blue (\# 0066CC) Segoe UI<br/>                  |
 | ![第一個資料行：連結 (停留)  ](images/text-ui-image20.png)<br/>               | 經常性存取層<br/>              | 9 pt。 淺藍色 (\# 3399FF) Segoe UI<br/>            |
 | ![第一個資料行：群組標頭 ](images/text-ui-image21.png)<br/>                |  <br/>                | 11 pt。 藍色 (\# 003399) Segoe UI<br/>                 |

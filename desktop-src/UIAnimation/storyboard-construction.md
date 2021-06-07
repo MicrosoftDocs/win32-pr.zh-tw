@@ -10,12 +10,12 @@ keywords:
 - interpolators Windows 動畫，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d8e0af3937cd31ccdc43216a9d3426bad0e7b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58210ae98f6d3a96c554276466ad72b3364d72a1
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682558"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524282"
 ---
 # <a name="storyboard-overview"></a>分鏡腳本總覽
 
@@ -50,7 +50,7 @@ ms.locfileid: "103682558"
 
 
 
-| 轉換名稱                        | Description                                                                                                                                                                                          |
+| 轉換名稱                        | 描述                                                                                                                                                                                          |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 加速-減速<br/>       | 動畫變數會加速，並在指定的期間內減緩。<br/>                                                                                                               |
 | 常數<br/>                    | 動畫變數會在整個轉換期間維持其初始值。<br/>                                                                                                            |
@@ -73,7 +73,7 @@ ms.locfileid: "103682558"
 
 
 
-|                                                                                                                                                                                                                                                                                                                                                                                                    |
+|    插圖                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![瞬間轉換的圖例](images/instantaneoustransition.png)  ![常數轉換的圖例](images/constanttransition.png)  ![線性轉換的圖例](images/lineartransition.png)  ![從速度 lineat 轉換的圖例](images/lineartransitionfromspeed.png)  ![離散轉換的圖例](images/discretetransition.png) |
 | ![從加速拋物線轉換的圖例](images/parabolictransitionfromacceleration.png)  ![三次轉換的圖例](images/cubictransition.png)  ![平滑停止轉換的圖例](images/smoothstoptransition.png)                                                                                                                                       |

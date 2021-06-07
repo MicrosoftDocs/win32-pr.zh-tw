@@ -4,12 +4,12 @@ ms.assetid: 8f32422e-25ec-48bc-9d79-57dbb3b53e93
 title: Windows Image Acquisition (WIA)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ff1f3fb51a4c87d909637a90591336d9d2eb30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 664b5accaa1312eae3baf6161e41c9c65e718c69
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511608"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443089"
 ---
 # <a name="windows-image-acquisition-wia"></a>Windows Image Acquisition (WIA)
 
@@ -121,7 +121,7 @@ WIA 主題的組織方式如下表所示。
 
 
 
-|                                                                                                                              |                                                                                                   |
+|  主題                                                                                                                            | 描述                                                                                                   |
 |------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
 | [關於 Windows 映像取得](-wia-about-windows-image-acquisition.md)                                                  | 關於 WIA 的一般資訊                                                                     |
 | [Windows 映像取得驅動程式](/windows-hardware/drivers/image/windows-image-acquisition-drivers)                  | WIA 驅動程式開發                                                                            |

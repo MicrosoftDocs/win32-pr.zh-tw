@@ -4,12 +4,12 @@ ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: 建立檔案對應物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65badc2af8aed5211c2f5c590fc0998019dae264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 550609cf9d8a052e324c585fc046472278bb428c
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319123"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524352"
 ---
 # <a name="creating-a-file-mapping-object"></a>建立檔案對應物件
 
@@ -36,15 +36,17 @@ ms.locfileid: "104319123"
 
 您所選取的檔案對應物件大小，可控制您可以使用記憶體對應來「查看」檔案的距離。 如果您建立大小為 500 Kb 的檔案對應物件，則不論檔案的大小為何，您都只能存取檔案的第一個 500 Kb。 由於不會產生任何系統資源的成本來建立較大的檔案對應物件，因此請建立檔案大小的檔案對應物件， (將 [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga)的 *dwMaximumSizeHigh* 和 *dwMaximumSizeLow* 參數設定為零) ，即使您不想要查看整個檔案也一樣。 系統資源中的成本是建立視圖並加以存取。
 
-如果您想要查看不是從檔開頭開始的部分檔案，您必須建立檔案對應物件。 此物件是您想要查看之檔案部分的大小，以及檔案中的位移。
+您可以在檔案開頭處，查看不是從檔案開頭開始的部分檔案。 如需詳細資訊，請參閱 [在檔案中建立視圖](creating-a-view-within-a-file.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
+  
+[建立檔案視圖](creating-a-file-view.md)
+</dt> <dt>
 
 [在檔案中建立視圖](creating-a-view-within-a-file.md)
 </dt> </dl>
 
- 
 
  

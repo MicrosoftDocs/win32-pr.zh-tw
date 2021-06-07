@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.documents.h
-ms.openlocfilehash: bfe3752541bb54571e9802f557e83dcc7632f845
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2f246294c80814ec809c0a1ca035fcb4741c30c5
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993951"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432230"
 ---
 # <a name="paragraph-element"></a>段落元素
 
@@ -38,7 +38,7 @@ ms.locfileid: "106993951"
 
 ## <a name="child-elements"></a>子元素
 
-[**線條**](line-element.md)
+[**折線圖**](line-element.md)
 
 [**ParagraphLineMetrics**](paragraphlinemetrics-element.md)
 
@@ -63,7 +63,7 @@ ms.locfileid: "106993951"
 
 
 
-|              |                                                                 |
+|  元素     | 值                                                     |
 |--------------|-----------------------------------------------------------------|
 | 項目類型 | [**ParagraphType**](paragraphtype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                      |

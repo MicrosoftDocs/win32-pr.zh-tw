@@ -4,12 +4,12 @@ description: Microsoft Active Accessibility 是一組元件物件模型 (COM) �
 ms.assetid: 13148049-dbb0-4529-b1d7-0c41ebeb7543
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf8e84f6e647868b23e845522c137e6cfb1b9dd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 65713143e241a11d29782a4adc0f919ab9ebc3e0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106999595"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444979"
 ---
 # <a name="getting-started-microsoft-active-accessibility"></a>開始使用 (Microsoft Active Accessibility) 
 
@@ -19,7 +19,7 @@ Microsoft Active Accessibility 是一組元件物件模型 (COM) 介面和 API �
 
 
 
-|                                                        |                                                                                                                                                                   |
+|  區段                                                      |  描述                                                                                                                                                                 |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [技術總覽](technical-overview.md)           | Microsoft Active Accessibility 用戶端和伺服器開發人員的 Microsoft Active Accessibility 和一般方針的總覽。                                |
 | [C/c + + 開發人員指南](c-c---developer-s-guide.md) | 重要 Microsoft Active Accessibility 應用程式 API 元素和概念的詳細資訊。 使用 C 或 c + + 開發人員熟悉的詞彙和範例。 |

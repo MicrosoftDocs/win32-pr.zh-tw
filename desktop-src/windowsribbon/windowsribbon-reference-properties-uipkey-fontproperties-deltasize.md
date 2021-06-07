@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ DeltaSize 屬性。
 ms.assetid: 021a6c79-1d3e-47d2-9601-cdaa2e66a50a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c0046edf41fa61382d45a0662119d8fda237a0f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 67778a710de8f69e0aea1134c12fb9ee3ebe0133
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023492"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444389"
 ---
 # <a name="ui_pkey_fontproperties_deltasize"></a>UI \_ PKEY \_ FontProperties \_ DeltaSize
 
@@ -17,12 +17,12 @@ ms.locfileid: "104023492"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_DeltaSize
-   shellPKey = UI_PKEY_FontProperties_DeltaSize
-   formatID = 00000309-7363-696e-8441798acf5aebb7
-   propID = 313
-   typeInfo
-      type = UI_FONTDELTASIZE
+   name = UI_PKEY_FontProperties_DeltaSize
+   shellPKey = UI_PKEY_FontProperties_DeltaSize
+   formatID = 00000309-7363-696e-8441798acf5aebb7
+   propID = 313
+   typeInfo
+      type = UI_FONTDELTASIZE
 ```
 
 ## <a name="remarks"></a>備註
@@ -39,14 +39,14 @@ Ui \_ PKEY \_ FontProperties \_ DeltaSize 包含在 [ui \_ PKEY \_ FontPropertie
 
 
 
-|                           |                                 |
+|     值                 |  描述                    |
 |---------------------------|---------------------------------|
 | `UI_FONTDELTASIZE_GROW`   | 已按下 [**放大] 字型** 按鈕。   |
 | `UI_FONTDELTASIZE_SHRINK` | 按一下 [**縮小字型**] 按鈕。 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,6 +61,6 @@ Ui \_ PKEY \_ FontProperties \_ DeltaSize 包含在 [ui \_ PKEY \_ FontPropertie
 [字型控制項](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

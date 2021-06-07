@@ -20,12 +20,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2eeb1bd3ab8e5fe1feb4a37431df011671c2b8cc
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 64886367ba6b3af680b506abbc1418e122c71965
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106982123"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443069"
 ---
 # <a name="obsolete-wcs-functions"></a>過時的 WCS 函數
 
@@ -33,7 +33,7 @@ ms.locfileid: "106982123"
 
 
 
-|                                            |                                              |
+|     函式                               |      描述                             |
 |--------------------------------------------|----------------------------------------------|
 | [**UpdateICMRegKey**](/windows/desktop/api/Wingdi/nf-wingdi-updateicmregkeya) | 已 *淘汰*：管理色彩設定檔和 cmm。 |
 

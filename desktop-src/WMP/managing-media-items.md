@@ -14,12 +14,12 @@ keywords:
 - 媒體櫃，管理媒體專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03b8003de49de9b7e4e51aabeffa222fb649ddef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf984c2f884ae828bd6426dd2a3f6da19a78ddea
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092317"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386887"
 ---
 # <a name="managing-media-items"></a>管理媒體專案
 
@@ -69,9 +69,9 @@ media = Player.newMedia("C:\\WMSDK\\WMPSDK10\\samples\\media\\laure.wma");
 
 
 > [!Note]  
-> 您必須在字串中包含兩個反斜線 (\) 字元 (或在 c # ) 中使用 @ 字元，以代表一個實際的反斜線字元。 這是因為 c # 會使用單一反斜線字元來定義 escape 序列。
+> 您必須在字串中包含兩個反斜線 (\\) 字元 (或使用 c # ) 中的 @ 字元來代表一個實際的反斜線字元。 這是因為 c # 會使用單一反斜線字元來定義 escape 序列。
 
- 
+ 
 
 您可以使用 *MediaCollection*，從數位媒體檔案建立新的媒體專案，並將其新增至程式庫。**add** 方法。 就像 *玩家* 一樣。**newMedia** 方法， **add** 方法會採用數位媒體檔案的路徑。
 
@@ -125,9 +125,9 @@ media = Player.currentPlaylist.get_Item(5);
 [**使用程式庫**](working-with-the-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

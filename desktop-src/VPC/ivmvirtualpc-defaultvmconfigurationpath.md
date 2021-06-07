@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e13fc2323cb15bdbeb8c42e61810a376e49b3988
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 09f6370dfb868ec386e05f361240a74412f13a7d
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686215"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387634"
 ---
 # <a name="ivmvirtualpcdefaultvmconfigurationpath-property"></a>IVMVirtualPC：:D efaultVMConfigurationPath 屬性
 
@@ -50,7 +50,7 @@ HRESULT get_DefaultVMConfigurationPath(
 
 ## <a name="property-value"></a>屬性值
 
-指定預設虛擬機器組態檔的目錄路徑。 在路徑字串中，反斜線 (\) 可能會緊接在結尾的 null 字元之前出現。
+指定預設虛擬機器組態檔的目錄路徑。 在路徑字串中，反斜線 (\\) 可能會緊接在終止的 null 字元之前出現。
 
 ## <a name="error-codes"></a>錯誤碼
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a42e9efb30397862037426041420d96be8fd387
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1162055491f61ae6feffa385bbc5015e4f1b66f0
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375965"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442869"
 ---
 # <a name="group-element"></a>Group 元素
 
@@ -58,20 +58,20 @@ ms.locfileid: "104375965"
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>SizeDefinition</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>當指定時， <em>SizeDefinition</em> 的值會限制為功能區架構所定義的其中一個 <a href="windowsribbon-templates.md">版面配置範本</a> 。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 任何零或多個字元的序列。<br/> 長度上限為未系結。<br/> </dd> </dl></td>
 </tr>
@@ -138,12 +138,8 @@ ms.locfileid: "104375965"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

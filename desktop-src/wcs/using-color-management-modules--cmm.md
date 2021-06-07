@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 518558305639f0699358f22fb3544698741cfedf
-ms.sourcegitcommit: 9bf844f41bd6451b8508d93e722e88a43e913b56
+ms.openlocfilehash: 9b12a087bfc972ffcbd7f9fb083a9d73d669f134
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/02/2021
-ms.locfileid: "106976387"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386897"
 ---
 # <a name="using-color-management-modules-cmm"></a>使用色彩管理模組 (CMM) 
 
@@ -55,11 +55,11 @@ _CRTAPI1 main (int argc, char *argv[])
 
     HANDLE hkCMM;
     DWORD dwErr = RegCreateKey(HKEY_LOCAL_MACHINE,
-                 gszICMatcher, &amp;hkCMM);
+                 gszICMatcher, &hkCMM);
     DWORD dwMaxName, dwMaxValue;
-    DWORD dwInfoErr = RegQueryInfoKey(&amp;hkCMM, NULL, NULL,
+    DWORD dwInfoErr = RegQueryInfoKey(&hkCMM, NULL, NULL,
                                 NULL, NULL, NULL, NULL, NULL,
-                                &amp;dwMaxName, &amp;dwMaxValue,
+                                &dwMaxName, &dwMaxValue,
                                 NULL, NULL);
     TCHAR chCMM[dwMaxName];
     ULONG cjCMM = sizeof(chCMM)/sizeof(chCMM[0]);
@@ -76,8 +76,8 @@ _CRTAPI1 main (int argc, char *argv[])
     {
         while (RegEnumValue(
                    hkCMM,dwNumCMM,chCMM,
-                   &amp;cjCMM,NULL,&amp;dwType,
-                   chCMMFile,&amp;cjCMMFile) == ERROR_SUCCESS)
+                   &cjCMM,NULL,&dwType,
+                   chCMMFile,&cjCMMFile) == ERROR_SUCCESS)
         {
             if (dwType == REG_SZ)
             {

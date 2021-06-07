@@ -4,12 +4,12 @@ ms.assetid: c3047706-affd-4feb-9d48-cfb4c7dd6fa0
 title: Margin 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0500d4db165012393cb600c1e118089b68c76695
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 547177a10fc3724f3b9bf3dde65f857d03f0f2a4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195105"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432130"
 ---
 # <a name="margin-element"></a>Margin 元素
 
@@ -62,7 +62,7 @@ ms.locfileid: "104195105"
 <td>必要</td>
 <td>指定要繪製的線條類型。</td>
 <td><ul>
-<li>無</li>
+<li>None</li>
 <li>實線</li>
 <li>虛線</li>
 <li>點</li>
@@ -74,14 +74,14 @@ ms.locfileid: "104195105"
 <tr class="even">
 <td><strong>色彩</strong></td>
 <td><a href="colortype-simple-type.md"><strong>ColorType</strong></a> simpleType</td>
-<td>選擇性</td>
+<td>選用</td>
 <td>元素的色彩。</td>
 <td>十六進位的 RGB 值。 符合下列正則運算式： # [0-9a-南非-Z] {6} 。 例如，#4a79B5。<br/></td>
 </tr>
 <tr class="odd">
-<td><strong>型別</strong></td>
+<td><strong>類型</strong></td>
 <td><a href="margintypetype-simple-type.md"><strong>MarginTypeType</strong></a> simpleType</td>
-<td>選擇性</td>
+<td>選用</td>
 <td>表示左邊界或右邊界。</td>
 <td><ul>
 <li>Left</li>
@@ -91,7 +91,7 @@ ms.locfileid: "104195105"
 <tr class="even">
 <td><strong>間距</strong></td>
 <td><strong>xs:nonNegativeInteger</strong></td>
-<td>選擇性</td>
+<td>選用</td>
 <td>頁面邊緣和邊界之間的間距。</td>
 <td>任何非負整數。</td>
 </tr>
@@ -106,7 +106,7 @@ ms.locfileid: "104195105"
 
 
 
-|              |                                                           |
+|  元素     | 值                                                     |
 |--------------|-----------------------------------------------------------|
 | 項目類型 | [**MarginType**](margintype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                |

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 00185d14d9066b2cb85da4b23959e84df1827007
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: ce2fd1d9ff12b56d87955304fad24af23209ff91
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103679860"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442899"
 ---
 # <a name="dropdowncolorpicker-element"></a>DropDownColorPicker 元素
 
@@ -62,14 +62,14 @@ ms.locfileid: "103679860"
 <tr class="odd">
 <td><strong>ChipSize</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>每個色晶片或樣本的大小。 <br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (Small) <br/> </dt> <dd> 每個色晶片都是11x11 圖元正方形。 <br/> </dd> <dt><span></span><span></span><strong></strong> (中) <br/> </dt> <dd> 每個色晶片都是16x16 圖元正方形。 <br/> </dd> <dt><span></span><span></span><strong></strong> (大型) <br/> </dt> <dd> 每個色晶片都是24x24 圖元正方形。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ColorTemplate</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>指定 <a href="windowsribbon-controls-dropdowncolorpicker.md">下拉式色彩選擇器</a>類型的版面配置範本。 <br/> 限制為下列其中一個值 (如果未宣告與 <em>ColorTemplate</em> 相關的選擇性屬性，則會顯示) 的預設視圖：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (ThemeColors) <br/> </dt> <dd> 預設值。 <br/> <img src="images/markup/colortemplate.themedcolors.1.png" alt="Screen shot of the DropDownColorPicker element with the ColorTemplate attribute set to &#39;ThemeColors&#39;." /><br/> 將 <em>ColorTemplate</em> 屬性設定為可 <code>ThemeColors</code> 啟用下列功能：<br/>
 <ul>
@@ -100,49 +100,49 @@ ms.locfileid: "103679860"
 <tr class="odd">
 <td><strong>資料行</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>色板 (或樣本) 資料行的數目。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1和256之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>IsAutomaticColorButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>顯示 (或隱藏) [ <strong>自動</strong> 色彩] 按鈕。 <br/> 只有在 <code>StandardColors</code> <code>ThemeColors</code> 為 <em>ColorTemplate</em> 屬性指定或時有效。 <br/> 限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsNoColorButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>顯示 (或隱藏) [ <strong>無色彩</strong> ] 按鈕。 <br/> 對所有 <em>ColorTemplate</em> 值都有效。<br/> 限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>RecentColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>[ <strong>最近使用的色彩</strong> ] 區域中的色晶片 (或樣本) 資料列數目。 <br/> 只有在 <code>ThemeColors</code> 為 <em>ColorTemplate</em> 屬性指定時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1和256之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>StandardColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><strong>標準色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1和256之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ThemeColorGridRows</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><strong>主題色彩</strong>區域中的色晶片 (或樣本) 資料列數目。<br/> 只有在 <code>ThemeColors</code> 為 <em>ColorTemplate</em> 屬性指定時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1和256之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
@@ -164,7 +164,7 @@ ms.locfileid: "103679860"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>             |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>         |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>       |
-| [**Group**](windowsribbon-element-group.md)<br/>                           |
+| [**群組**](windowsribbon-element-group.md)<br/>                           |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                   |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>               |
 | [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)<br/> |
@@ -233,12 +233,8 @@ ms.locfileid: "103679860"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | Yes       |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：是
 
 
 

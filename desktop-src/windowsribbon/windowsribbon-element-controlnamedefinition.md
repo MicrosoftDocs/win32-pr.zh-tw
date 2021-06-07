@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 14ec269ce51b0074b9a03f78aea218b482955d1b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6b2dc1db251d4d657c3793d2a66a9add1d324c37
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312663"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443439"
 ---
 # <a name="controlnamedefinition-element"></a>ControlNameDefinition 元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "104312663"
 
 | 屬性           | 類型                                       | 必要      | 描述                                                                                                                                                                                                                                                                                                                                                                           |
 |---------------------|--------------------------------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **名稱**<br/> | xs： positiveInteger 或 xs： string<br/> | No<br/> | <dt> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl> |
+| **名稱**<br/> | xs： positiveInteger 或 xs： string<br/> | 否<br/> | <dt> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl> |
 
 
 
@@ -163,12 +163,8 @@ ms.locfileid: "104312663"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

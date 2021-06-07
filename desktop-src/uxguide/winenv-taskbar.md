@@ -4,12 +4,12 @@ description: 工作列是顯示在桌面上的程式存取點。 透過新的 Wi
 ms.assetid: c00e558a-313f-4741-a4b2-7d738f4544fa
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: f8b2bc21a75bc11c43df2cbdd37381165b89a793
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c3e549e665f0200a448144ddf7202b258e88ff26
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104560355"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443389"
 ---
 # <a name="taskbar"></a>工作列
 
@@ -232,9 +232,8 @@ Microsoft Windows 工作列。
 -   **請勿快閃工作列按鈕，以吸引狀態變更。** 這麼做會造成太雜亂的情況。 讓使用者自行探索重迭圖示。
 -   **偏好使用標準重迭圖示來指出狀態或狀態變更。** 使用這些標準重迭圖示： 
 
-    |                                                                                                   |                                  |
+    | 重疊 | 狀態 |
     |---------------------------------------------------------------------------------------------------|----------------------------------|
-    | **覆蓋**<br/>                                                                            | **狀態**<br/>            |
     | ![小型警告圖示的螢幕擷取畫面 ](images/winenv-taskbar-image20.png)<br/>               | 警告<br/>               |
     | ![小錯誤圖示的螢幕擷取畫面 ](images/winenv-taskbar-image21.png)<br/>                 | 錯誤<br/>                 |
     | ![小型停用/中斷連線圖示的螢幕擷取畫面 ](images/winenv-taskbar-image22.png)<br/> | 已停用/已中斷連線<br/> |

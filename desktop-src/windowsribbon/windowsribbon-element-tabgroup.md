@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fcbe0760c850f37c6a7bf348c38e48aa7cf54ddc
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 6a4c18db72d6b0161842bfde9d5a836d14189c6a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104185111"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444059"
 ---
 # <a name="tabgroup-element"></a>TabGroup 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "104185111"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -157,12 +157,8 @@ ms.locfileid: "104185111"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+- **最低支援系統**： Windows 7 
+- **可以是空** 的：否
 
 
 

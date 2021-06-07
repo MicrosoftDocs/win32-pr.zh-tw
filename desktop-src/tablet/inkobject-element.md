@@ -4,12 +4,12 @@ ms.assetid: 7ee9ecd3-9dd6-4c6b-80bc-23f9a8e6b352
 title: InkObject 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c3c5965f2c23f3799a988a9cf2dbaa7eac29a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54c3a626da2afef506f8777ea188bdd883e29dd5
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320136"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432360"
 ---
 # <a name="inkobject-element"></a>InkObject 元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "104320136"
 
 
 
-|              |                                            |
+|  元素     | 值                                                     |
 |--------------|--------------------------------------------|
 | 項目類型 | **xs:base64Binary**                        |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink |

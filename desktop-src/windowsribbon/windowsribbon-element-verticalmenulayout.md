@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7fb848edcc8ab5ddff1405f35d5abd414ae40d15
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: 5e6f3e4a691c9691b9bc6c8c6d760bb10635d8d8
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "103681618"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444049"
 ---
 # <a name="verticalmenulayout-element"></a>VerticalMenuLayout 元素
 
@@ -56,21 +56,21 @@ ms.locfileid: "103681618"
 <tr class="odd">
 <td><strong>片 梭</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>附加至圖庫下拉式清單的調整大小控點。 <br/> <img src="images/controls/gripper.png" alt="Screen shot of a vertical gripper." /><br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (無) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (垂直) <br/> </dt> <dd> 預設值。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsMultipleHighlightingEnabled</strong><br/></td>
 <td>xs:boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><strong>Windows 8 和更新版本</strong><br/> 將清單中的所有專案反白顯示，並包含目前的滑鼠懸停專案 (而不是僅) 滑鼠停用的專案。 通常用於多個 <strong>復原</strong> 和 <strong>重做</strong> 功能。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 預設值。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>資料列</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>指定要顯示但不需要滾動的專案資料列數目。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd> 任何正整數或負整數。 <br/> 預設值為 <strong>-1</strong> ，指定盡可能顯示最多的專案資料列。<br/> </dd> </dl></td>
 </tr>
@@ -139,11 +139,8 @@ ms.locfileid: "103681618"
 ## <a name="element-information"></a>項目資訊
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 是       |
+- **最低支援系統**： Windows 7 
+- **可以是空** 的：是
 
 
 

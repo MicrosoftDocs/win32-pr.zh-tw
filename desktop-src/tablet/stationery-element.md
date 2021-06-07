@@ -4,12 +4,12 @@ ms.assetid: 39cc8ee6-b010-428e-b729-de49fa34b91b
 title: 信紙元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7f681e7c27424af573425e852fe7ab345091728
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 012ec2c271d7b0509cf0a9669a9d7898cf7956b6
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001763"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432620"
 ---
 # <a name="stationery-element"></a>信紙元素
 
@@ -41,7 +41,7 @@ ms.locfileid: "107001763"
 
 
 
-|              |                                                                   |
+|  元素     | 值                                                             |
 |--------------|-------------------------------------------------------------------|
 | 項目類型 | [**StationeryType**](stationerytype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                        |

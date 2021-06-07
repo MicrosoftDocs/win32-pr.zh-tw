@@ -4,12 +4,12 @@ ms.assetid: 6a36d7a1-c14a-42cd-81e1-1743673eca83
 title: ParagraphLineMetrics 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17ab0ec2be1c5cbf640d17ff05ec8a84f401c4d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a864c002e085596dc58814ddf1a708903a74724
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981679"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432600"
 ---
 # <a name="paragraphlinemetrics-element"></a>ParagraphLineMetrics 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "106981679"
 
 
 
-|              |                                                                                       |
+|  元素     | 值                                                     |
 |--------------|---------------------------------------------------------------------------------------|
 | 項目類型 | [**ParagraphLineMetricsType**](paragraphlinemetricstype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                                            |

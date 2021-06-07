@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c824e87c063fb863e79f10cb9755b74df36023f7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 916a031ed642a76fb22ecc58dbbe1ce29cbcd105
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678452"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443465"
 ---
 # <a name="contextmenu-element"></a>CoNtextMenu 元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "103678452"
 
 | 屬性           | 類型                 | 必要       | 描述                                                                                                                                                                                                                |
 |---------------------|----------------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **名稱**<br/> | xs:string<br/> | Yes<br/> | <dt> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl> |
+| **名稱**<br/> | xs:string<br/> | 是<br/> | <dt> (xs： string) <br/> </dt> <dd> 由任何字元序列組成的字串，包括空白字元和分行符號字元。<br/> </dd> </dl> |
 
 
 
@@ -167,12 +167,8 @@ ms.locfileid: "103678452"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

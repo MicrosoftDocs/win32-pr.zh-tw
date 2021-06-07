@@ -4,12 +4,12 @@ ms.assetid: 434d52cb-c98d-4860-87f7-4aedab7f8188
 title: FNumber 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c518ef2a05dde8fd7e812d1d76a79cbe3efb4217
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85443b849d9f810709f3e75c3082738e5377092f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193554"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443619"
 ---
 # <a name="systemphotofnumber-photo-metadata-policy"></a>FNumber 相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-Yes
+是
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 
@@ -41,7 +41,7 @@ VT \_ R8
 
 
 
-| 單 | 路徑                          | 磁片格式 |
+| 順序 | 路徑                          | 磁片格式 |
 |-------|-------------------------------|-------------|
 | 1     | /app1/ifd/exif/{ushort = 33437} |             |
 | 2     | /xmp/exif:FNumber             |             |
@@ -54,21 +54,17 @@ VT \_ R8
 
 
 
-|       |                               |             |     |
-|-------|-------------------------------|-------------|-----|
-| 單 | 路徑                          | 磁片格式 |     |
-| 1     | /app1/ifd/exif/{ushort = 33437} |             |     |
-| 2     | /xmp/exif:FNumber             |             |     |
-
-
-
+| 順序 | 路徑                          | 磁片格式 |
+|-------|-------------------------------|-------------|
+| 1     | /app1/ifd/exif/{ushort = 33437} |             |
+| 2     | /xmp/exif:FNumber             |             | 
  
 
 ### <a name="remove-paths"></a>移除路徑
 
 
 
-| 單 | 路徑                          |
+| 順序 | 路徑                          |
 |-------|-------------------------------|
 | 1     | /app1/ifd/exif/{ushort = 33437} |
 | 2     | /xmp/exif:fnumber             |
@@ -83,7 +79,7 @@ VT \_ R8
 
 
 
-| 單 | 路徑                     | 磁片格式 |
+| 順序 | 路徑                     | 磁片格式 |
 |-------|--------------------------|-------------|
 | 1     | /ifd/exif/{ushort = 33437} |             |
 | 2     | /ifd/xmp/exif:FNumber    |             |
@@ -96,7 +92,7 @@ VT \_ R8
 
 
 
-| 單 | 路徑                     | 磁片格式 |
+| 順序 | 路徑                     | 磁片格式 |
 |-------|--------------------------|-------------|
 | 1     | /ifd/exif/{ushort = 33437} |             |
 | 2     | /ifd/xmp/exif:FNumber    |             |
@@ -109,7 +105,7 @@ VT \_ R8
 
 
 
-| 單 | 路徑                     |
+| 順序 | 路徑                     |
 |-------|--------------------------|
 | 1     | /ifd/exif/{ushort = 33437} |
 | 2     | /ifd/xmp/exif:fnumber    |

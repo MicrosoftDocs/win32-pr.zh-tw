@@ -4,12 +4,12 @@ description: 鍵盤是在 Microsoft Windows 中用於文字輸入的主要輸入
 ms.assetid: 27185c98-1233-4e26-a156-0ff080fd4db3
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 4339dfd8d4d31d0d8859dcedd07fc287426b04c0
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: c1554ca1a9769b562f154498cd0871bc1b813067
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104553722"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524292"
 ---
 # <a name="keyboard"></a>鍵盤
 
@@ -265,9 +265,8 @@ Windows 平板電腦和觸控技術書寫板。
 
 -   **可能的話，請根據下表，為常用的命令指派存取金鑰。** 雖然不一定可以使用一致的存取金鑰指派，但對於常用的命令而言，它們都是最好的。
 
-    |                           |                                           |
+    |  存取金鑰         | 命令                             |
     |---------------------------|-------------------------------------------|
-    | **存取金鑰**<br/> | **命令**<br/>                    |
     | A<br/>              | 關於<br/>                          |
     | A<br/>              | 永遠開啟頂端<br/>                  |
     | A<br/>              | 套用<br/>                          |
@@ -305,7 +304,7 @@ Windows 平板電腦和觸控技術書寫板。
     | M<br/>              | 移至這裡<br/>                      |
     | N<br/>              | 新增<br/>                            |
     | N<br/>              | 下一個<br/>                           |
-    | N<br/>              | No<br/>                             |
+    | N<br/>              | 否<br/>                             |
     | O<br/>              | 開啟<br/>                           |
     | w<br/>              | 開啟檔案<br/>                      |
     | O<br/>              | 選項<br/>                        |
@@ -338,7 +337,7 @@ Windows 平板電腦和觸控技術書寫板。
     | U<br/>              | 復原<br/>                           |
     | V<br/>              | 檢視<br/>                           |
     | W<br/>              | 時間範圍<br/>                         |
-    | Y<br/>              | Yes<br/>                            |
+    | Y<br/>              | 是<br/>                            |
 
     
 

@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ 刪除線屬性。
 ms.assetid: 18ee653d-db01-4615-a85d-ad4ac6a0f422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b07804a74671bb219b34b1c67580af083fd5c34c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b684704fdd90a8dd1b88b14db2b52540b15fccb
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382537"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443789"
 ---
 # <a name="ui_pkey_fontproperties_strikethrough"></a>UI \_ PKEY \_ FontProperties \_ 刪除線
 
@@ -17,12 +17,12 @@ ms.locfileid: "104382537"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Strikethrough
-   shellPKey = UI_PKEY_FontProperties_Strikethrough
-   formatID = 00000306-7363-696e-8441798acf5aebb7
-   propID = 306
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Strikethrough
+   shellPKey = UI_PKEY_FontProperties_Strikethrough
+   formatID = 00000306-7363-696e-8441798acf5aebb7
+   propID = 306
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
 ## <a name="remarks"></a>備註
@@ -41,7 +41,7 @@ propertyDescription
 
 
 
-|                                  |                                                                              |
+|   屬性                       |    UI 結果                                                                 |
 |----------------------------------|------------------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | **刪除線** 按鈕已停用，而且只能由應用程式設定。 |
 | `UI_FONTPROPERTIES_NOTSET`       | 未選取 **刪除線** 按鈕。                                    |
@@ -49,7 +49,7 @@ propertyDescription
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -64,6 +64,6 @@ propertyDescription
 [字型控制項](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

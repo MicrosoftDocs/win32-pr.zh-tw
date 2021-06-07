@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4789c4069221b0ea6f65a8636ee35501171089e6
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: ab03c15c6e72e4854ecf64d067d268c3ca4c775f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383045"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444169"
 ---
 # <a name="certification-requirements-for-windows-desktop-apps"></a>Windows 桌面應用程式的認證需求
 
@@ -115,7 +115,7 @@ Windows 作業系統有許多支援系統安全性和隱私權的功能。 應�
 
 ## <a name="6-apps-must-digitally-sign-files-and-drivers"></a>6. 應用程式必須數位簽署檔案和驅動程式
 
-Authenticode 數位簽章可讓使用者確認軟體是否為正版。 它也可讓您偵測檔案是否已遭篡改，例如是否受病毒感染。 核心模式程式碼簽署強制是一項稱為程式碼完整性 (CI) 的 Windows 功能，可在每次將檔案映射載入記憶體時驗證檔案的完整性，藉此改善作業系統的安全性。 CI 會偵測惡意程式碼是否已修改系統二進位檔案。 當核心模組的簽章無法正確確認時，也會產生診斷和系統審核記錄事件。 <dl> 6.1 所有可執行檔 ( .exe、.dll、.ocx、sys、winspool.drv、.scr) 都必須使用 Authenticode 憑證進行簽署  
+Authenticode 數位簽章可讓使用者確認軟體是否為正版。 它也可讓您偵測檔案是否已遭篡改，例如是否受病毒感染。 核心模式程式碼簽署強制是一項稱為程式碼完整性 (CI) 的 Windows 功能，可在每次將檔案映射載入記憶體時驗證檔案的完整性，藉此改善作業系統的安全性。 CI 會偵測惡意程式碼是否已修改系統二進位檔案。 當核心模組的簽章無法正確確認時，也會產生診斷和系統審核記錄事件。 <dl> 6.1 所有可執行檔 (.exe、.dll、.ocx、.sys、.cpl、winspool.drv、scr) 都必須使用 Authenticode 憑證進行簽署  
 6.2 應用程式安裝的所有核心模式驅動程式都必須具備透過 Windows 硬體認證計畫取得的 Microsoft 簽章。 所有檔案系統篩選器驅動程式都必須由 Microsoft 簽署。  
 6.3 例外狀況和豁免 <dl> 只有未簽署的協力廠商可轉散發套件（不含驅動程式）才會考慮豁免。 若要授與此棄權的要求，必須對要求籤署版本的可轉散發套件 () s 進行通訊證明。  
 </dl> </dd> </dl>
@@ -146,7 +146,7 @@ Authenticode 數位簽章可讓使用者確認軟體是否為正版。 它也可
 ## <a name="9-apps-must-follow-user-account-control-guidelines"></a>9. 應用程式必須遵循使用者帳戶控制指導方針
 
 某些 Windows 應用程式會在系統管理員帳戶的安全性內容中執行，而應用程式通常會要求過多的使用者權限和 Windows 許可權。 控制對資源的存取可讓使用者控制其系統，並防止不必要的變更。 不必要的變更可能是惡意的，例如控制電腦的 rootkit，或是由許可權有限的人員所做的動作結果。 控制資源存取最重要的規則就是提供使用者執行其必要工作所需的最少量存取標準使用者內容。 遵循使用者帳戶控制 (UAC) 指導方針會提供應用程式所需的必要許可權，而不會讓系統持續暴露于安全性風險。 大部分的應用程式在執行時間並不需要系統管理員許可權，而且應該是以標準使用者身分執行。<dl> 9.1 您的應用程式必須有定義執行層級的資訊清單，並告知操作系統應用程式需要哪些許可權才能執行 <dl> 應用程式資訊清單標記僅適用于 Exe （而不是 Dll）。 這是因為在處理常式建立期間，UAC 並不會檢查 Dll。 另外值得注意的是，UAC 規則並不適用于 Microsoft 服務。 資訊清單可以是內嵌或外部。  
-若要建立資訊清單，請建立名為 <應用程式 \_ 名稱 # C1.exe 的檔案，並將它儲存在與 EXE 相同的目錄中。 請注意，如果應用程式具有內部資訊清單，則會忽略任何外部資訊清單。 例如：  
+若要建立資訊清單，請建立名為 <應用程式 \_ 名稱 # C1.exe 的檔案，並將它儲存在與 EXE 相同的目錄中。 請注意，如果應用程式具有內部資訊清單，則會忽略任何外部資訊清單。 例如︰  
 <並無 requestedexecutionlevel level = "" asInvoker \| highestAvailable \| requireAdministrator "" uiAccess = "" true \| false ""/>  
 </dl> </dd> 9.2 Your app s main process must be run as a standard user (asInvoker). <dl> 任何系統管理功能都必須移至以系統管理許可權執行的個別進程。 使用者面向的應用程式，例如可透過 [開始] 功能表上的程式群組存取的應用程式，以及需要提高許可權的應用程式，都必須經過 Authenticode 簽署。  
 </dl> </dd> 9.3 Exceptions and Waivers <dl> 以更高的許可權執行其主要進程的應用程式需要棄權 (requireAdministrator 或 highestAvailable) 。 主要進程會識別為應用程式的使用者進入點。 在下列案例中，將會考慮棄權：
@@ -205,9 +205,8 @@ Windows 使用者應該能夠在不發生衝突或中斷的情況下執行並行
 
 
 
-|               |         |                                        |                                                                                  |
+| 日期          | 版本 | 修訂描述                   | 文件連結                                                                 |
 |---------------|---------|----------------------------------------|----------------------------------------------------------------------------------|
-| Date          | 版本 | 修訂描述                   | 文件連結                                                                 |
 | 2011年12月20日  | 1.0     | 預覽的檔初稿。 |                                                                                  |
 | 2012年1月26日  | 1.1     | 更新為第 \# 2 節。                 | [1.1](archive--certification-requirements-for-windows-desktop-apps-v1-1.md)     |
 | 2012年5月31日  | 1.2     | 已新增摘要測試結果             | [1.2](archive--certification-requirements-for-windows-desktop-apps-v1-2.md)     |

@@ -4,12 +4,12 @@ ms.assetid: 09ec2e8a-bd50-4f82-8ce3-a1c61f48ddb7
 title: Text 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed9c72fe584d0e796d4a6f897297aa60bbeddc5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 570f613a06f9fe814bfb1acbdbdba040dbc1119f
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945160"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432313"
 ---
 # <a name="text-element"></a>Text 元素
 
@@ -62,7 +62,7 @@ ms.locfileid: "103945160"
 
 
 
-|              |                                                                                                                                                                                                     |
+|   元素           |   值                                |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 項目類型 | 使用 [**GroupNode**](groupnode-element.md)和 [**TitleInfo**](titleinfo-element.md)元素的 Content 元素) 或 **xs： string** ([**TextType**](texttype-complex-type.md) complexType ()  |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink<br/>                                                                                                                                               |

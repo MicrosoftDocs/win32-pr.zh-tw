@@ -13,12 +13,12 @@ keywords:
 - IWMCodecInfo3，編解碼器格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93ea062723ec1480a82b45fd025fb7a8c37020d5
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 0a00c9afdbeba5a187be4b992a19d4c9bdb138e1
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104023162"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444779"
 ---
 # <a name="to-enumerate-codec-formats"></a>列舉編解碼器格式
 
@@ -28,14 +28,14 @@ ms.locfileid: "104023162"
 
 
 
-|                  | 固定位元速率 (CBR) 資料流程 | 2-通過 CBR 串流 | 以品質為基礎的變數位元速率 (VBR) 資料流程 | 以位速率為基礎的 VBR 串流 (受限或不受限制的)  |
+|    &nbsp;    | 固定位元速率 (CBR) 資料流程 | 2-通過 CBR 串流 | 以品質為基礎的變數位元速率 (VBR) 資料流程 | 以位速率為基礎的 VBR 串流 (受限或不受限制的)  |
 |------------------|--------------------------------|-------------------|----------------------------------------------|----------------------------------------------------------|
 | g \_ wszVBREnabled | FALSE                          | FALSE             | TRUE                                         | true                                                     |
 | g \_ wszNumPasses  | 1                              | 2                 | 1                                            | 2                                                        |
 
 
 
- 
+ 
 
 若要列舉編解碼器支援的格式，請使用 [**IWMCodecInfo：： GetCodecFormatCount**](/previous-versions/windows/desktop/api/wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformatcount) 來尋找支援的編解碼器數目。 然後針對每個格式呼叫 [**IWMCodecInfo：： GetCodecFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo-getcodecformat) 。 格式索引的範圍是從零到1，小於支援的格式總數。 您可以藉由呼叫 [**IWMCodecInfo2：： GetCodecFormatDesc**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmcodecinfo2-getcodecformatdesc)來取出格式的描述。 使用 **GetCodecFormatDesc** 時，您不需要使用 **GetCodecFormat**，因為這兩種方法都會抓取資料流程設定物件。 影片編解碼器格式不包含描述。 每個影片編解碼器都只有一種格式，可用於該類型的所有資料流程。
 
@@ -48,9 +48,9 @@ ms.locfileid: "104023162"
 [**從編解碼器取得串流設定資訊**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
