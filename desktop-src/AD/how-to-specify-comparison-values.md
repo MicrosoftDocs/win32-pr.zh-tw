@@ -7,27 +7,27 @@ keywords:
 - 如何指定比較值 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f9355bc4853fa6dc62645e1c241d8e26f731f9
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: edba238961cdc18b088b6b5bd5b06ff4be383add
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681655"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386748"
 ---
-# <a name="how-to-specify-comparison-values"></a><span data-ttu-id="855b6-104">如何指定比較值</span><span class="sxs-lookup"><span data-stu-id="855b6-104">How to Specify Comparison Values</span></span>
+# <a name="how-to-specify-comparison-values"></a><span data-ttu-id="e363f-104">如何指定比較值</span><span class="sxs-lookup"><span data-stu-id="e363f-104">How to Specify Comparison Values</span></span>
 
-<span data-ttu-id="855b6-105">每個屬性類型都有一個語法，可決定您可以在該屬性的搜尋篩選中指定的比較數值型別。</span><span class="sxs-lookup"><span data-stu-id="855b6-105">Each attribute type has a syntax that determines the type of comparison values that you can specify in a search filter for that attribute.</span></span>
+<span data-ttu-id="e363f-105">每個屬性類型都有一個語法，可決定您可以在該屬性的搜尋篩選中指定的比較數值型別。</span><span class="sxs-lookup"><span data-stu-id="e363f-105">Each attribute type has a syntax that determines the type of comparison values that you can specify in a search filter for that attribute.</span></span>
 
-<span data-ttu-id="855b6-106">下列各節說明每個屬性語法的需求。</span><span class="sxs-lookup"><span data-stu-id="855b6-106">The following sections describe requirements for each attribute syntax.</span></span> <span data-ttu-id="855b6-107">如需屬性語法的詳細資訊，請參閱 [Active Directory Domain Services 中的屬性語法](syntaxes-for-attributes-in-active-directory-domain-services.md)。</span><span class="sxs-lookup"><span data-stu-id="855b6-107">For more information about attribute syntaxes, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).</span></span>
+<span data-ttu-id="e363f-106">下列各節說明每個屬性語法的需求。</span><span class="sxs-lookup"><span data-stu-id="e363f-106">The following sections describe requirements for each attribute syntax.</span></span> <span data-ttu-id="e363f-107">如需屬性語法的詳細資訊，請參閱 [Active Directory Domain Services 中的屬性語法](syntaxes-for-attributes-in-active-directory-domain-services.md)。</span><span class="sxs-lookup"><span data-stu-id="e363f-107">For more information about attribute syntaxes, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).</span></span>
 
 <dl> <dt>
 
-<span data-ttu-id="855b6-108"><span id="Boolean"></span><span id="boolean"></span><span id="BOOLEAN"></span>布林</span><span class="sxs-lookup"><span data-stu-id="855b6-108"><span id="Boolean"></span><span id="boolean"></span><span id="BOOLEAN"></span>Boolean</span></span>
+<span data-ttu-id="e363f-108"><span id="Boolean"></span><span id="boolean"></span><span id="BOOLEAN"></span>布林</span><span class="sxs-lookup"><span data-stu-id="e363f-108"><span id="Boolean"></span><span id="boolean"></span><span id="BOOLEAN"></span>Boolean</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-109">篩選準則中指定的值必須是 "TRUE" 或 "FALSE" 的字串值。</span><span class="sxs-lookup"><span data-stu-id="855b6-109">The value specified in a filter must be a string value that is either "TRUE" or "FALSE".</span></span> <span data-ttu-id="855b6-110">下列範例示範如何指定布林值比較字串。</span><span class="sxs-lookup"><span data-stu-id="855b6-110">The following examples show how to specify a Boolean comparison string.</span></span>
+<span data-ttu-id="e363f-109">篩選準則中指定的值必須是 "TRUE" 或 "FALSE" 的字串值。</span><span class="sxs-lookup"><span data-stu-id="e363f-109">The value specified in a filter must be a string value that is either "TRUE" or "FALSE".</span></span> <span data-ttu-id="e363f-110">下列範例示範如何指定布林值比較字串。</span><span class="sxs-lookup"><span data-stu-id="e363f-110">The following examples show how to specify a Boolean comparison string.</span></span>
 
-<span data-ttu-id="855b6-111">下列範例會搜尋將 **showInAdvancedViewOnly** 設為 **TRUE** 的物件：</span><span class="sxs-lookup"><span data-stu-id="855b6-111">The following example will search for objects that have a **showInAdvancedViewOnly** set to **TRUE**:</span></span>
+<span data-ttu-id="e363f-111">下列範例會搜尋將 **showInAdvancedViewOnly** 設為 **TRUE** 的物件：</span><span class="sxs-lookup"><span data-stu-id="e363f-111">The following example will search for objects that have a **showInAdvancedViewOnly** set to **TRUE**:</span></span>
 
 
 ```C++
@@ -36,7 +36,7 @@ ms.locfileid: "103681655"
 
 
 
-<span data-ttu-id="855b6-112">下列範例會搜尋將 **showInAdvancedViewOnly** 設為 **FALSE** 的物件：</span><span class="sxs-lookup"><span data-stu-id="855b6-112">The following example will search for objects that have a **showInAdvancedViewOnly** set to **FALSE**:</span></span>
+<span data-ttu-id="e363f-112">下列範例會搜尋將 **showInAdvancedViewOnly** 設為 **FALSE** 的物件：</span><span class="sxs-lookup"><span data-stu-id="e363f-112">The following example will search for objects that have a **showInAdvancedViewOnly** set to **FALSE**:</span></span>
 
 
 ```C++
@@ -47,10 +47,10 @@ ms.locfileid: "103681655"
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-113"><span id="Integer_and_Enumeration"></span><span id="integer_and_enumeration"></span><span id="INTEGER_AND_ENUMERATION"></span>整數和列舉</span><span class="sxs-lookup"><span data-stu-id="855b6-113"><span id="Integer_and_Enumeration"></span><span id="integer_and_enumeration"></span><span id="INTEGER_AND_ENUMERATION"></span>Integer and Enumeration</span></span>
+<span data-ttu-id="e363f-113"><span id="Integer_and_Enumeration"></span><span id="integer_and_enumeration"></span><span id="INTEGER_AND_ENUMERATION"></span>整數和列舉</span><span class="sxs-lookup"><span data-stu-id="e363f-113"><span id="Integer_and_Enumeration"></span><span id="integer_and_enumeration"></span><span id="INTEGER_AND_ENUMERATION"></span>Integer and Enumeration</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-114">篩選準則中指定的值必須是十進位整數。</span><span class="sxs-lookup"><span data-stu-id="855b6-114">The value specified in a filter must be a decimal Integer.</span></span> <span data-ttu-id="855b6-115">十六進位值必須轉換成 decimal。</span><span class="sxs-lookup"><span data-stu-id="855b6-115">Hexadecimal values must be converted to decimal.</span></span> <span data-ttu-id="855b6-116">值比較字串採用下列格式：</span><span class="sxs-lookup"><span data-stu-id="855b6-116">A value comparison string takes the following form:</span></span>
+<span data-ttu-id="e363f-114">篩選準則中指定的值必須是十進位整數。</span><span class="sxs-lookup"><span data-stu-id="e363f-114">The value specified in a filter must be a decimal Integer.</span></span> <span data-ttu-id="e363f-115">十六進位值必須轉換成 decimal。</span><span class="sxs-lookup"><span data-stu-id="e363f-115">Hexadecimal values must be converted to decimal.</span></span> <span data-ttu-id="e363f-116">值比較字串採用下列格式：</span><span class="sxs-lookup"><span data-stu-id="e363f-116">A value comparison string takes the following form:</span></span>
 
 
 ```C++
@@ -59,9 +59,9 @@ ms.locfileid: "103681655"
 
 
 
-<span data-ttu-id="855b6-117">" <attribute name> " 是屬性的 **lDAPDisplayName** 和 "</span><span class="sxs-lookup"><span data-stu-id="855b6-117">"<attribute name>" is the **lDAPDisplayName** of the attribute and "</span></span><value><span data-ttu-id="855b6-118">"是要用於比較的值。</span><span class="sxs-lookup"><span data-stu-id="855b6-118">" is the value to use for comparison.</span></span>
+<span data-ttu-id="e363f-117">" <attribute name> " 是屬性的 **lDAPDisplayName** 和 "</span><span class="sxs-lookup"><span data-stu-id="e363f-117">"<attribute name>" is the **lDAPDisplayName** of the attribute and "</span></span><value><span data-ttu-id="e363f-118">"是要用於比較的值。</span><span class="sxs-lookup"><span data-stu-id="e363f-118">" is the value to use for comparison.</span></span>
 
-<span data-ttu-id="855b6-119">下列程式碼範例示範的篩選準則會搜尋其 **groupType** 值等於 **ADS \_ 群組 \_ 類型 \_ 通用 \_ 群組** (8) 旗標和 **ads \_ 群組 \_ 類型 \_ 安全性 \_** (0x80000000) 旗標的物件。</span><span class="sxs-lookup"><span data-stu-id="855b6-119">The following code example shows a filter that will search for objects that have a **groupType** value that is equal to the **ADS\_GROUP\_TYPE\_UNIVERSAL\_GROUP** (8) flag and the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000) flag.</span></span> <span data-ttu-id="855b6-120">這兩個旗標會組合相等的0x80000008 （轉換為 decimal）為2147483656。</span><span class="sxs-lookup"><span data-stu-id="855b6-120">The two flags combined equal 0x80000008, which converted to decimal is 2147483656.</span></span>
+<span data-ttu-id="e363f-119">下列程式碼範例示範的篩選準則會搜尋其 **groupType** 值等於 **ADS \_ 群組 \_ 類型 \_ 通用 \_ 群組** (8) 旗標和 **ads \_ 群組 \_ 類型 \_ 安全性 \_** (0x80000000) 旗標的物件。</span><span class="sxs-lookup"><span data-stu-id="e363f-119">The following code example shows a filter that will search for objects that have a **groupType** value that is equal to the **ADS\_GROUP\_TYPE\_UNIVERSAL\_GROUP** (8) flag and the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000) flag.</span></span> <span data-ttu-id="e363f-120">這兩個旗標會組合相等的0x80000008 （轉換為 decimal）為2147483656。</span><span class="sxs-lookup"><span data-stu-id="e363f-120">The two flags combined equal 0x80000008, which converted to decimal is 2147483656.</span></span>
 
 
 ```C++
@@ -70,7 +70,7 @@ ms.locfileid: "103681655"
 
 
 
-<span data-ttu-id="855b6-121">LDAP 比對規則運算子也可以用來執行位比較。</span><span class="sxs-lookup"><span data-stu-id="855b6-121">The LDAP matching rule operators can also be used to perform bitwise comparisons.</span></span> <span data-ttu-id="855b6-122">如需相符規則的詳細資訊，請參閱 [搜尋篩選語法](/windows/desktop/ADSI/search-filter-syntax)。</span><span class="sxs-lookup"><span data-stu-id="855b6-122">For more information about matching rules, see [Search Filter Syntax](/windows/desktop/ADSI/search-filter-syntax).</span></span> <span data-ttu-id="855b6-123">下列程式碼範例會示範篩選準則，以搜尋已 **\_ \_ \_ \_ 啟用 ADS 群組類型** (0X80000000 = 2147483648) 位設定 **groupType** 的物件。</span><span class="sxs-lookup"><span data-stu-id="855b6-123">The following code example shows a filter that will search for objects that have a **groupType** with the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000 = 2147483648) bit set.</span></span>
+<span data-ttu-id="e363f-121">LDAP 比對規則運算子也可以用來執行位比較。</span><span class="sxs-lookup"><span data-stu-id="e363f-121">The LDAP matching rule operators can also be used to perform bitwise comparisons.</span></span> <span data-ttu-id="e363f-122">如需相符規則的詳細資訊，請參閱 [搜尋篩選語法](/windows/desktop/ADSI/search-filter-syntax)。</span><span class="sxs-lookup"><span data-stu-id="e363f-122">For more information about matching rules, see [Search Filter Syntax](/windows/desktop/ADSI/search-filter-syntax).</span></span> <span data-ttu-id="e363f-123">下列程式碼範例會示範篩選準則，以搜尋已 **\_ \_ \_ \_ 啟用 ADS 群組類型** (0X80000000 = 2147483648) 位設定 **groupType** 的物件。</span><span class="sxs-lookup"><span data-stu-id="e363f-123">The following code example shows a filter that will search for objects that have a **groupType** with the **ADS\_GROUP\_TYPE\_SECURITY\_ENABLED** (0x80000000 = 2147483648) bit set.</span></span>
 
 
 ```C++
@@ -81,16 +81,16 @@ ms.locfileid: "103681655"
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-124"><span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString</span><span class="sxs-lookup"><span data-stu-id="855b6-124"><span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString</span></span>
+<span data-ttu-id="e363f-124"><span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString</span><span class="sxs-lookup"><span data-stu-id="e363f-124"><span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-125">在篩選中指定的值是要尋找的資料。</span><span class="sxs-lookup"><span data-stu-id="855b6-125">The value specified in a filter is the data to be found.</span></span> <span data-ttu-id="855b6-126">資料必須以兩個字元編碼的位元組字串表示，其中每個位元組之前都是反斜線 (\) 。</span><span class="sxs-lookup"><span data-stu-id="855b6-126">The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\).</span></span> <span data-ttu-id="855b6-127">例如，值0x05 會以 "05" 的形式出現在字串中 \\ 。</span><span class="sxs-lookup"><span data-stu-id="855b6-127">For example, the value 0x05 will appear in the string as "\\05".</span></span>
+<span data-ttu-id="e363f-125">在篩選中指定的值是要尋找的資料。</span><span class="sxs-lookup"><span data-stu-id="e363f-125">The value specified in a filter is the data to be found.</span></span> <span data-ttu-id="e363f-126">資料必須以兩個字元編碼的位元組字串表示，其中每個位元組前面都會加上反斜線 (\\) 。</span><span class="sxs-lookup"><span data-stu-id="e363f-126">The data must be represented as a two character encoded byte string where each byte is preceded by a backslash (\\).</span></span> <span data-ttu-id="e363f-127">例如，值0x05 會以 "05" 的形式出現在字串中 \\ 。</span><span class="sxs-lookup"><span data-stu-id="e363f-127">For example, the value 0x05 will appear in the string as "\\05".</span></span>
 
-<span data-ttu-id="855b6-128">[**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata)函數可以用來建立二進位資料的編碼字串表示。</span><span class="sxs-lookup"><span data-stu-id="855b6-128">The [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function can be used to create an encoded string representation of binary data.</span></span> <span data-ttu-id="855b6-129">**ADsEncodeBinaryData** 函數不會編碼代表英數位元的位元組值。</span><span class="sxs-lookup"><span data-stu-id="855b6-129">The **ADsEncodeBinaryData** function does not encode byte values that represent alpha-numeric characters.</span></span> <span data-ttu-id="855b6-130">相反地，它會將字元放在字串中，而不將其編碼。</span><span class="sxs-lookup"><span data-stu-id="855b6-130">It will, instead, place the character into the string without encoding it.</span></span> <span data-ttu-id="855b6-131">這會產生包含編碼和未編碼字元混合的字串。</span><span class="sxs-lookup"><span data-stu-id="855b6-131">This results in the string containing a mixture of encoded and unencoded characters.</span></span> <span data-ttu-id="855b6-132">例如，如果二進位資料是 0x05 \| 0x1A \| 0x1b \| 0x43 \| 0x32，編碼的字串將會包含 " \\ 05 \\ 1a \\ 1BC2"。</span><span class="sxs-lookup"><span data-stu-id="855b6-132">For example, if the binary data is 0x05\|0x1A\|0x1B\|0x43\|0x32, the encoded string will contain "\\05\\1A\\1BC2".</span></span> <span data-ttu-id="855b6-133">這對篩選不會有任何影響，且搜尋篩選器會正確地使用這些類型的字串。</span><span class="sxs-lookup"><span data-stu-id="855b6-133">This has no effect on the filter and the search filters will work correctly with these types of strings.</span></span>
+<span data-ttu-id="e363f-128">[**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata)函數可以用來建立二進位資料的編碼字串表示。</span><span class="sxs-lookup"><span data-stu-id="e363f-128">The [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata) function can be used to create an encoded string representation of binary data.</span></span> <span data-ttu-id="e363f-129">**ADsEncodeBinaryData** 函數不會編碼代表英數位元的位元組值。</span><span class="sxs-lookup"><span data-stu-id="e363f-129">The **ADsEncodeBinaryData** function does not encode byte values that represent alpha-numeric characters.</span></span> <span data-ttu-id="e363f-130">相反地，它會將字元放在字串中，而不將其編碼。</span><span class="sxs-lookup"><span data-stu-id="e363f-130">It will, instead, place the character into the string without encoding it.</span></span> <span data-ttu-id="e363f-131">這會產生包含編碼和未編碼字元混合的字串。</span><span class="sxs-lookup"><span data-stu-id="e363f-131">This results in the string containing a mixture of encoded and unencoded characters.</span></span> <span data-ttu-id="e363f-132">例如，如果二進位資料是 0x05 \| 0x1A \| 0x1b \| 0x43 \| 0x32，編碼的字串將會包含 " \\ 05 \\ 1a \\ 1BC2"。</span><span class="sxs-lookup"><span data-stu-id="e363f-132">For example, if the binary data is 0x05\|0x1A\|0x1B\|0x43\|0x32, the encoded string will contain "\\05\\1A\\1BC2".</span></span> <span data-ttu-id="e363f-133">這對篩選不會有任何影響，且搜尋篩選器會正確地使用這些類型的字串。</span><span class="sxs-lookup"><span data-stu-id="e363f-133">This has no effect on the filter and the search filters will work correctly with these types of strings.</span></span>
 
-<span data-ttu-id="855b6-134">可使用萬用字元。</span><span class="sxs-lookup"><span data-stu-id="855b6-134">Wildcards are accepted.</span></span>
+<span data-ttu-id="e363f-134">可使用萬用字元。</span><span class="sxs-lookup"><span data-stu-id="e363f-134">Wildcards are accepted.</span></span>
 
-<span data-ttu-id="855b6-135">下列程式碼範例顯示篩選準則，其中包含 GUID 值為 "{BF967ABA-0DE6-11D0-A285-00AA003049E2}" 之 **schemaIDGUID** 的編碼字串：</span><span class="sxs-lookup"><span data-stu-id="855b6-135">The following code example shows a filter that contains encoded string for **schemaIDGUID** with GUID value of "{BF967ABA-0DE6-11D0-A285-00AA003049E2}":</span></span>
+<span data-ttu-id="e363f-135">下列程式碼範例顯示篩選準則，其中包含 GUID 值為 "{BF967ABA-0DE6-11D0-A285-00AA003049E2}" 之 **schemaIDGUID** 的編碼字串：</span><span class="sxs-lookup"><span data-stu-id="e363f-135">The following code example shows a filter that contains encoded string for **schemaIDGUID** with GUID value of "{BF967ABA-0DE6-11D0-A285-00AA003049E2}":</span></span>
 
 
 ```C++
@@ -101,12 +101,12 @@ ms.locfileid: "103681655"
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-136"><span id="Sid"></span><span id="sid"></span><span id="SID"></span>希</span><span class="sxs-lookup"><span data-stu-id="855b6-136"><span id="Sid"></span><span id="sid"></span><span id="SID"></span>Sid</span></span>
+<span data-ttu-id="e363f-136"><span id="Sid"></span><span id="sid"></span><span id="SID"></span>希</span><span class="sxs-lookup"><span data-stu-id="e363f-136"><span id="Sid"></span><span id="sid"></span><span id="SID"></span>Sid</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-137">在篩選中指定的值是 SID 的編碼位元組字串表示。</span><span class="sxs-lookup"><span data-stu-id="855b6-137">The value specified in a filter is the encoded byte string representation of the SID.</span></span> <span data-ttu-id="855b6-138">如需編碼位元組字串的詳細資訊，請參閱本主題中的上一節討論 OctetString 語法。</span><span class="sxs-lookup"><span data-stu-id="855b6-138">For more information about encoded byte strings, see the previous section in this topic which discusses OctetString syntax.</span></span>
+<span data-ttu-id="e363f-137">在篩選中指定的值是 SID 的編碼位元組字串表示。</span><span class="sxs-lookup"><span data-stu-id="e363f-137">The value specified in a filter is the encoded byte string representation of the SID.</span></span> <span data-ttu-id="e363f-138">如需編碼位元組字串的詳細資訊，請參閱本主題中的上一節討論 OctetString 語法。</span><span class="sxs-lookup"><span data-stu-id="e363f-138">For more information about encoded byte strings, see the previous section in this topic which discusses OctetString syntax.</span></span>
 
-<span data-ttu-id="855b6-139">下列程式碼範例顯示的篩選準則包含 **objectSid** 的編碼字串，其 SID 字串值為 "S-1-5-21-1935655697-308236825-1417001333"：</span><span class="sxs-lookup"><span data-stu-id="855b6-139">The following code example shows a filter that contains an encoded string for **objectSid** with SID string value of "S-1-5-21-1935655697-308236825-1417001333":</span></span>
+<span data-ttu-id="e363f-139">下列程式碼範例顯示的篩選準則包含 **objectSid** 的編碼字串，其 SID 字串值為 "S-1-5-21-1935655697-308236825-1417001333"：</span><span class="sxs-lookup"><span data-stu-id="e363f-139">The following code example shows a filter that contains an encoded string for **objectSid** with SID string value of "S-1-5-21-1935655697-308236825-1417001333":</span></span>
 
 
 ```C++
@@ -117,16 +117,16 @@ ms.locfileid: "103681655"
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-140"><span id="DN"></span><span id="dn"></span>Dn</span><span class="sxs-lookup"><span data-stu-id="855b6-140"><span id="DN"></span><span id="dn"></span>DN</span></span>
+<span data-ttu-id="e363f-140"><span id="DN"></span><span id="dn"></span>Dn</span><span class="sxs-lookup"><span data-stu-id="e363f-140"><span id="DN"></span><span id="dn"></span>DN</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-141">必須提供要比對的整個分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="855b6-141">The entire distinguished name, to be matched, must be supplied.</span></span>
+<span data-ttu-id="e363f-141">必須提供要比對的整個分辨名稱。</span><span class="sxs-lookup"><span data-stu-id="e363f-141">The entire distinguished name, to be matched, must be supplied.</span></span>
 
-<span data-ttu-id="855b6-142">不接受萬用字元。</span><span class="sxs-lookup"><span data-stu-id="855b6-142">Wildcards are not accepted.</span></span>
+<span data-ttu-id="e363f-142">不接受萬用字元。</span><span class="sxs-lookup"><span data-stu-id="e363f-142">Wildcards are not accepted.</span></span>
 
-<span data-ttu-id="855b6-143">請注意， **objectCategory** 屬性也可讓您指定在屬性上設定之類別的 **lDAPDisplayName** 。</span><span class="sxs-lookup"><span data-stu-id="855b6-143">Be aware that the **objectCategory** attribute also enables you to specify the **lDAPDisplayName** of the class set on the attribute.</span></span>
+<span data-ttu-id="e363f-143">請注意， **objectCategory** 屬性也可讓您指定在屬性上設定之類別的 **lDAPDisplayName** 。</span><span class="sxs-lookup"><span data-stu-id="e363f-143">Be aware that the **objectCategory** attribute also enables you to specify the **lDAPDisplayName** of the class set on the attribute.</span></span>
 
-<span data-ttu-id="855b6-144">下列範例顯示的篩選準則會指定包含 "CN = TestUser，DC = Fabrikam，DC = COM" 的 **成員** ：</span><span class="sxs-lookup"><span data-stu-id="855b6-144">The following example shows a filter that specifies a **member** that contains "CN=TestUser,DC=Fabrikam,DC=COM":</span></span>
+<span data-ttu-id="e363f-144">下列範例顯示的篩選準則會指定包含 "CN = TestUser，DC = Fabrikam，DC = COM" 的 **成員** ：</span><span class="sxs-lookup"><span data-stu-id="e363f-144">The following example shows a filter that specifies a **member** that contains "CN=TestUser,DC=Fabrikam,DC=COM":</span></span>
 
 
 ```C++
@@ -137,12 +137,12 @@ ms.locfileid: "103681655"
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-145"><span id="INTEGER8"></span><span id="integer8"></span>INTEGER8</span><span class="sxs-lookup"><span data-stu-id="855b6-145"><span id="INTEGER8"></span><span id="integer8"></span>INTEGER8</span></span>
+<span data-ttu-id="e363f-145"><span id="INTEGER8"></span><span id="integer8"></span>INTEGER8</span><span class="sxs-lookup"><span data-stu-id="e363f-145"><span id="INTEGER8"></span><span id="integer8"></span>INTEGER8</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-146">篩選準則中指定的值必須是十進位整數。</span><span class="sxs-lookup"><span data-stu-id="855b6-146">The value specified in a filter must be a decimal integer.</span></span> <span data-ttu-id="855b6-147">將十六進位值轉換成十進位。</span><span class="sxs-lookup"><span data-stu-id="855b6-147">Convert hexadecimal values to decimal.</span></span>
+<span data-ttu-id="e363f-146">篩選準則中指定的值必須是十進位整數。</span><span class="sxs-lookup"><span data-stu-id="e363f-146">The value specified in a filter must be a decimal integer.</span></span> <span data-ttu-id="e363f-147">將十六進位值轉換成十進位。</span><span class="sxs-lookup"><span data-stu-id="e363f-147">Convert hexadecimal values to decimal.</span></span>
 
-<span data-ttu-id="855b6-148">下列程式碼範例顯示的篩選準則，會將 **creationTime** 設定為 "1999-12-31 23:59:59 (UTC/GMT) " 的 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) ：</span><span class="sxs-lookup"><span data-stu-id="855b6-148">The following code example shows a filter that specifies a **creationTime** set to a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) of "1999-12-31 23:59:59 (UTC/GMT)":</span></span>
+<span data-ttu-id="e363f-148">下列程式碼範例顯示的篩選準則，會將 **creationTime** 設定為 "1999-12-31 23:59:59 (UTC/GMT) " 的 [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) ：</span><span class="sxs-lookup"><span data-stu-id="e363f-148">The following code example shows a filter that specifies a **creationTime** set to a [**FILETIME**](/windows/desktop/api/minwinbase/ns-minwinbase-filetime) of "1999-12-31 23:59:59 (UTC/GMT)":</span></span>
 
 
 ```C++
@@ -151,7 +151,7 @@ ms.locfileid: "103681655"
 
 
 
-<span data-ttu-id="855b6-149">下列函數會建立完全相符的 (=) 篩選大型整數屬性，並驗證架構中的屬性及其語法：</span><span class="sxs-lookup"><span data-stu-id="855b6-149">The following functions create an exact match (=) filter for a large integer attribute and verify the attribute in the schema and its syntax:</span></span>
+<span data-ttu-id="e363f-149">下列函數會建立完全相符的 (=) 篩選大型整數屬性，並驗證架構中的屬性及其語法：</span><span class="sxs-lookup"><span data-stu-id="e363f-149">The following functions create an exact match (=) filter for a large integer attribute and verify the attribute in the schema and its syntax:</span></span>
 
 
 ```C++
@@ -276,21 +276,21 @@ HRESULT CreateExactMatchFilterLargeInteger( LPOLESTR szAttribute,
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-150"><span id="PrintableString"></span><span id="printablestring"></span><span id="PRINTABLESTRING"></span>PrintableString</span><span class="sxs-lookup"><span data-stu-id="855b6-150"><span id="PrintableString"></span><span id="printablestring"></span><span id="PRINTABLESTRING"></span>PrintableString</span></span>
+<span data-ttu-id="e363f-150"><span id="PrintableString"></span><span id="printablestring"></span><span id="PRINTABLESTRING"></span>PrintableString</span><span class="sxs-lookup"><span data-stu-id="e363f-150"><span id="PrintableString"></span><span id="printablestring"></span><span id="PRINTABLESTRING"></span>PrintableString</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-151">具有這些語法的屬性應遵守特定字元集。</span><span class="sxs-lookup"><span data-stu-id="855b6-151">Attributes with these syntaxes should adhere to specific character sets.</span></span> <span data-ttu-id="855b6-152">如需詳細資訊，請參閱 [Active Directory Domain Services 中的屬性語法](syntaxes-for-attributes-in-active-directory-domain-services.md)。</span><span class="sxs-lookup"><span data-stu-id="855b6-152">For more information, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).</span></span>
+<span data-ttu-id="e363f-151">具有這些語法的屬性應遵守特定字元集。</span><span class="sxs-lookup"><span data-stu-id="e363f-151">Attributes with these syntaxes should adhere to specific character sets.</span></span> <span data-ttu-id="e363f-152">如需詳細資訊，請參閱 [Active Directory Domain Services 中的屬性語法](syntaxes-for-attributes-in-active-directory-domain-services.md)。</span><span class="sxs-lookup"><span data-stu-id="e363f-152">For more information, see [Syntaxes for Attributes in Active Directory Domain Services](syntaxes-for-attributes-in-active-directory-domain-services.md).</span></span>
 
-<span data-ttu-id="855b6-153">目前，Active Directory Domain Services 不會強制執行這些字元集。</span><span class="sxs-lookup"><span data-stu-id="855b6-153">Currently, Active Directory Domain Services do not enforce those character sets.</span></span>
+<span data-ttu-id="e363f-153">目前，Active Directory Domain Services 不會強制執行這些字元集。</span><span class="sxs-lookup"><span data-stu-id="e363f-153">Currently, Active Directory Domain Services do not enforce those character sets.</span></span>
 
-<span data-ttu-id="855b6-154">在篩選中指定的值是字串。</span><span class="sxs-lookup"><span data-stu-id="855b6-154">The value specified in a filter is a string.</span></span> <span data-ttu-id="855b6-155">比較會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="855b6-155">The comparison is case-sensitive.</span></span>
+<span data-ttu-id="e363f-154">在篩選中指定的值是字串。</span><span class="sxs-lookup"><span data-stu-id="e363f-154">The value specified in a filter is a string.</span></span> <span data-ttu-id="e363f-155">比較會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="e363f-155">The comparison is case-sensitive.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-156"><span id="GeneralizedTime"></span><span id="generalizedtime"></span><span id="GENERALIZEDTIME"></span>GeneralizedTime</span><span class="sxs-lookup"><span data-stu-id="855b6-156"><span id="GeneralizedTime"></span><span id="generalizedtime"></span><span id="GENERALIZEDTIME"></span>GeneralizedTime</span></span>
+<span data-ttu-id="e363f-156"><span id="GeneralizedTime"></span><span id="generalizedtime"></span><span id="GENERALIZEDTIME"></span>GeneralizedTime</span><span class="sxs-lookup"><span data-stu-id="e363f-156"><span id="GeneralizedTime"></span><span id="generalizedtime"></span><span id="GENERALIZEDTIME"></span>GeneralizedTime</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-157">在篩選中指定的值是表示日期的字串，其格式如下：</span><span class="sxs-lookup"><span data-stu-id="855b6-157">The value specified in a filter is a string that represents the date in the following form:</span></span>
+<span data-ttu-id="e363f-157">在篩選中指定的值是表示日期的字串，其格式如下：</span><span class="sxs-lookup"><span data-stu-id="e363f-157">The value specified in a filter is a string that represents the date in the following form:</span></span>
 
 
 ```C++
@@ -299,11 +299,11 @@ YYYYMMDDHHMMSS.0Z
 
 
 
-<span data-ttu-id="855b6-158">"0Z" 表示沒有時間差異。</span><span class="sxs-lookup"><span data-stu-id="855b6-158">"0Z" indicates no time differential.</span></span> <span data-ttu-id="855b6-159">請注意，Active Directory 伺服器會以格林威治標準時間 (GMT) 儲存日期/時間。</span><span class="sxs-lookup"><span data-stu-id="855b6-159">Be aware that the Active Directory server stores date/time as Greenwich Mean Time (GMT).</span></span> <span data-ttu-id="855b6-160">如果未指定時間差異，預設值為 GMT。</span><span class="sxs-lookup"><span data-stu-id="855b6-160">If a time differential is not specified, the default is GMT.</span></span>
+<span data-ttu-id="e363f-158">"0Z" 表示沒有時間差異。</span><span class="sxs-lookup"><span data-stu-id="e363f-158">"0Z" indicates no time differential.</span></span> <span data-ttu-id="e363f-159">請注意，Active Directory 伺服器會以格林威治標準時間 (GMT) 儲存日期/時間。</span><span class="sxs-lookup"><span data-stu-id="e363f-159">Be aware that the Active Directory server stores date/time as Greenwich Mean Time (GMT).</span></span> <span data-ttu-id="e363f-160">如果未指定時間差異，預設值為 GMT。</span><span class="sxs-lookup"><span data-stu-id="e363f-160">If a time differential is not specified, the default is GMT.</span></span>
 
-<span data-ttu-id="855b6-161">如果本地時區不是 GMT，請使用差異值來指定您的當地時區，並將差異套用至 GMT。</span><span class="sxs-lookup"><span data-stu-id="855b6-161">If the local time zone is not GMT, use a differential value to specify your local time zone and apply the differential to GMT.</span></span> <span data-ttu-id="855b6-162">差異以： GMT = Local + 差異為基礎。</span><span class="sxs-lookup"><span data-stu-id="855b6-162">The differential is based on: GMT=Local+differential.</span></span>
+<span data-ttu-id="e363f-161">如果本地時區不是 GMT，請使用差異值來指定您的當地時區，並將差異套用至 GMT。</span><span class="sxs-lookup"><span data-stu-id="e363f-161">If the local time zone is not GMT, use a differential value to specify your local time zone and apply the differential to GMT.</span></span> <span data-ttu-id="e363f-162">差異以： GMT = Local + 差異為基礎。</span><span class="sxs-lookup"><span data-stu-id="e363f-162">The differential is based on: GMT=Local+differential.</span></span>
 
-<span data-ttu-id="855b6-163">若要指定差異，請使用：</span><span class="sxs-lookup"><span data-stu-id="855b6-163">To specify a differential, use:</span></span>
+<span data-ttu-id="e363f-163">若要指定差異，請使用：</span><span class="sxs-lookup"><span data-stu-id="e363f-163">To specify a differential, use:</span></span>
 
 
 ```C++
@@ -312,7 +312,7 @@ YYYYMMDDHHMMSS.0[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-164">下列範例顯示的篩選準則指定的 **whenCreated** 時間設定為 3/23/99 8:52:58 PM GMT：</span><span class="sxs-lookup"><span data-stu-id="855b6-164">The following example shows a filter that specifies a **whenCreated** time set to 3/23/99 8:52:58 PM GMT:</span></span>
+<span data-ttu-id="e363f-164">下列範例顯示的篩選準則指定的 **whenCreated** 時間設定為 3/23/99 8:52:58 PM GMT：</span><span class="sxs-lookup"><span data-stu-id="e363f-164">The following example shows a filter that specifies a **whenCreated** time set to 3/23/99 8:52:58 PM GMT:</span></span>
 
 
 ```C++
@@ -321,7 +321,7 @@ YYYYMMDDHHMMSS.0[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-165">下列範例顯示的篩選準則指定的 **whenCreated** 時間設定為 3/23/99 8:52:58 PM 的紐西蘭標準時間 (差異是 + 12 小時) ：</span><span class="sxs-lookup"><span data-stu-id="855b6-165">The following example shows a filter that specifies a **whenCreated** time set to 3/23/99 8:52:58 PM New Zealand Standard Time (differential is +12 hours):</span></span>
+<span data-ttu-id="e363f-165">下列範例顯示的篩選準則指定的 **whenCreated** 時間設定為 3/23/99 8:52:58 PM 的紐西蘭標準時間 (差異是 + 12 小時) ：</span><span class="sxs-lookup"><span data-stu-id="e363f-165">The following example shows a filter that specifies a **whenCreated** time set to 3/23/99 8:52:58 PM New Zealand Standard Time (differential is +12 hours):</span></span>
 
 
 ```C++
@@ -330,7 +330,7 @@ YYYYMMDDHHMMSS.0[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-166">下列程式碼範例顯示如何計算時區差異。</span><span class="sxs-lookup"><span data-stu-id="855b6-166">The following code example shows how to calculate time zone differential.</span></span> <span data-ttu-id="855b6-167">函數會傳回目前當地時區與 GMT 之間的差異。</span><span class="sxs-lookup"><span data-stu-id="855b6-167">The function returns the differential between the current local time zone and GMT.</span></span> <span data-ttu-id="855b6-168">傳回的值是採用下列格式的字串：</span><span class="sxs-lookup"><span data-stu-id="855b6-168">The value returned is a string in the following format:</span></span>
+<span data-ttu-id="e363f-166">下列程式碼範例顯示如何計算時區差異。</span><span class="sxs-lookup"><span data-stu-id="e363f-166">The following code example shows how to calculate time zone differential.</span></span> <span data-ttu-id="e363f-167">函數會傳回目前當地時區與 GMT 之間的差異。</span><span class="sxs-lookup"><span data-stu-id="e363f-167">The function returns the differential between the current local time zone and GMT.</span></span> <span data-ttu-id="e363f-168">傳回的值是採用下列格式的字串：</span><span class="sxs-lookup"><span data-stu-id="e363f-168">The value returned is a string in the following format:</span></span>
 
 
 ```C++
@@ -339,7 +339,7 @@ YYYYMMDDHHMMSS.0[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-169">例如，太平洋標準時間為-0800。</span><span class="sxs-lookup"><span data-stu-id="855b6-169">For example, Pacific Standard Time is -0800.</span></span>
+<span data-ttu-id="e363f-169">例如，太平洋標準時間為-0800。</span><span class="sxs-lookup"><span data-stu-id="e363f-169">For example, Pacific Standard Time is -0800.</span></span>
 
 
 ```C++
@@ -424,10 +424,10 @@ HRESULT GetLocalTimeZoneDifferential(LPOLESTR *pszDifferential)
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-170"><span id="UTCTime"></span><span id="utctime"></span><span id="UTCTIME"></span>UTCTime</span><span class="sxs-lookup"><span data-stu-id="855b6-170"><span id="UTCTime"></span><span id="utctime"></span><span id="UTCTIME"></span>UTCTime</span></span>
+<span data-ttu-id="e363f-170"><span id="UTCTime"></span><span id="utctime"></span><span id="UTCTIME"></span>UTCTime</span><span class="sxs-lookup"><span data-stu-id="e363f-170"><span id="UTCTime"></span><span id="utctime"></span><span id="UTCTIME"></span>UTCTime</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-171">在篩選中指定的值是表示日期的字串，其格式如下：</span><span class="sxs-lookup"><span data-stu-id="855b6-171">The value specified in a filter is a string that represents the date in the following form:</span></span>
+<span data-ttu-id="e363f-171">在篩選中指定的值是表示日期的字串，其格式如下：</span><span class="sxs-lookup"><span data-stu-id="e363f-171">The value specified in a filter is a string that represents the date in the following form:</span></span>
 
 
 ```C++
@@ -436,13 +436,13 @@ YYMMDDHHMMSSZ
 
 
 
-<span data-ttu-id="855b6-172">Z 表示沒有時間差異。</span><span class="sxs-lookup"><span data-stu-id="855b6-172">Z indicates no time differential.</span></span> <span data-ttu-id="855b6-173">請注意，Active Directory 伺服器會將日期和時間儲存為 GMT 時間。</span><span class="sxs-lookup"><span data-stu-id="855b6-173">Be aware that the Active Directory server stores date and time as GMT time.</span></span> <span data-ttu-id="855b6-174">如果未指定時間差異，則預設值為 GMT。</span><span class="sxs-lookup"><span data-stu-id="855b6-174">If a time differential is not specified, GMT is the default.</span></span>
+<span data-ttu-id="e363f-172">Z 表示沒有時間差異。</span><span class="sxs-lookup"><span data-stu-id="e363f-172">Z indicates no time differential.</span></span> <span data-ttu-id="e363f-173">請注意，Active Directory 伺服器會將日期和時間儲存為 GMT 時間。</span><span class="sxs-lookup"><span data-stu-id="e363f-173">Be aware that the Active Directory server stores date and time as GMT time.</span></span> <span data-ttu-id="e363f-174">如果未指定時間差異，則預設值為 GMT。</span><span class="sxs-lookup"><span data-stu-id="e363f-174">If a time differential is not specified, GMT is the default.</span></span>
 
-<span data-ttu-id="855b6-175">秒值 ( "SS" ) 是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="855b6-175">The seconds value ("SS") is optional.</span></span>
+<span data-ttu-id="e363f-175">秒值 ( "SS" ) 是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="e363f-175">The seconds value ("SS") is optional.</span></span>
 
-<span data-ttu-id="855b6-176">如果 GMT 不是當地時區，請套用本機差異值以指定您的當地時區。</span><span class="sxs-lookup"><span data-stu-id="855b6-176">If GMT is not the local time zone, apply a local differential value to specify your local time zone.</span></span> <span data-ttu-id="855b6-177">差異是： GMT = Local + 差異。</span><span class="sxs-lookup"><span data-stu-id="855b6-177">The differential is: GMT=Local+differential.</span></span>
+<span data-ttu-id="e363f-176">如果 GMT 不是當地時區，請套用本機差異值以指定您的當地時區。</span><span class="sxs-lookup"><span data-stu-id="e363f-176">If GMT is not the local time zone, apply a local differential value to specify your local time zone.</span></span> <span data-ttu-id="e363f-177">差異是： GMT = Local + 差異。</span><span class="sxs-lookup"><span data-stu-id="e363f-177">The differential is: GMT=Local+differential.</span></span>
 
-<span data-ttu-id="855b6-178">若要指定差異，請使用下列格式：</span><span class="sxs-lookup"><span data-stu-id="855b6-178">To specify a differential, use the following form:</span></span>
+<span data-ttu-id="e363f-178">若要指定差異，請使用下列格式：</span><span class="sxs-lookup"><span data-stu-id="e363f-178">To specify a differential, use the following form:</span></span>
 
 
 ```C++
@@ -451,7 +451,7 @@ YYMMDDHHMMSS[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-179">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM GMT：</span><span class="sxs-lookup"><span data-stu-id="855b6-179">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM GMT:</span></span>
+<span data-ttu-id="e363f-179">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM GMT：</span><span class="sxs-lookup"><span data-stu-id="e363f-179">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM GMT:</span></span>
 
 
 ```C++
@@ -460,7 +460,7 @@ YYMMDDHHMMSS[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-180">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM （未指定秒數）：</span><span class="sxs-lookup"><span data-stu-id="855b6-180">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM without seconds specified:</span></span>
+<span data-ttu-id="e363f-180">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM （未指定秒數）：</span><span class="sxs-lookup"><span data-stu-id="e363f-180">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM without seconds specified:</span></span>
 
 
 ```C++
@@ -469,7 +469,7 @@ YYMMDDHHMMSS[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-181">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM 的紐西蘭標準時間 (差異是12小時) 。</span><span class="sxs-lookup"><span data-stu-id="855b6-181">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM New Zealand Standard Time (differential is 12 hours).</span></span> <span data-ttu-id="855b6-182">這相當於上午 3/23/99 8:52:58：（GMT）。</span><span class="sxs-lookup"><span data-stu-id="855b6-182">This is equivalent to 3/23/99 8:52:58 AM GMT.</span></span>
+<span data-ttu-id="e363f-181">下列範例顯示的篩選準則指定的 **myTimeAttrib** 時間設定為 3/23/99 8:52:58 PM 的紐西蘭標準時間 (差異是12小時) 。</span><span class="sxs-lookup"><span data-stu-id="e363f-181">The following example shows a filter that specifies a **myTimeAttrib** time set to 3/23/99 8:52:58 PM New Zealand Standard Time (differential is 12 hours).</span></span> <span data-ttu-id="e363f-182">這相當於上午 3/23/99 8:52:58：（GMT）。</span><span class="sxs-lookup"><span data-stu-id="e363f-182">This is equivalent to 3/23/99 8:52:58 AM GMT.</span></span>
 
 
 ```C++
@@ -480,23 +480,23 @@ YYMMDDHHMMSS[+/-]HHMM
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-183"><span id="DirectoryString"></span><span id="directorystring"></span><span id="DIRECTORYSTRING"></span>DirectoryString</span><span class="sxs-lookup"><span data-stu-id="855b6-183"><span id="DirectoryString"></span><span id="directorystring"></span><span id="DIRECTORYSTRING"></span>DirectoryString</span></span>
+<span data-ttu-id="e363f-183"><span id="DirectoryString"></span><span id="directorystring"></span><span id="DIRECTORYSTRING"></span>DirectoryString</span><span class="sxs-lookup"><span data-stu-id="e363f-183"><span id="DirectoryString"></span><span id="directorystring"></span><span id="DIRECTORYSTRING"></span>DirectoryString</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-184">在篩選中指定的值是字串。</span><span class="sxs-lookup"><span data-stu-id="855b6-184">The value specified in a filter is a string.</span></span> <span data-ttu-id="855b6-185">DirectoryString 可包含 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="855b6-185">DirectoryString can contain Unicode characters.</span></span> <span data-ttu-id="855b6-186">此比較不區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="855b6-186">The comparison is case-insensitive.</span></span>
+<span data-ttu-id="e363f-184">在篩選中指定的值是字串。</span><span class="sxs-lookup"><span data-stu-id="e363f-184">The value specified in a filter is a string.</span></span> <span data-ttu-id="e363f-185">DirectoryString 可包含 Unicode 字元。</span><span class="sxs-lookup"><span data-stu-id="e363f-185">DirectoryString can contain Unicode characters.</span></span> <span data-ttu-id="e363f-186">此比較不區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="e363f-186">The comparison is case-insensitive.</span></span>
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-187"><span id="OID"></span><span id="oid"></span>老</span><span class="sxs-lookup"><span data-stu-id="855b6-187"><span id="OID"></span><span id="oid"></span>OID</span></span>
+<span data-ttu-id="e363f-187"><span id="OID"></span><span id="oid"></span>老</span><span class="sxs-lookup"><span data-stu-id="e363f-187"><span id="OID"></span><span id="oid"></span>OID</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-188">必須提供要比對的整個 OID。</span><span class="sxs-lookup"><span data-stu-id="855b6-188">The entire OID to be matched must be supplied.</span></span>
+<span data-ttu-id="e363f-188">必須提供要比對的整個 OID。</span><span class="sxs-lookup"><span data-stu-id="e363f-188">The entire OID to be matched must be supplied.</span></span>
 
-<span data-ttu-id="855b6-189">不接受萬用字元。</span><span class="sxs-lookup"><span data-stu-id="855b6-189">Wildcards are not accepted.</span></span>
+<span data-ttu-id="e363f-189">不接受萬用字元。</span><span class="sxs-lookup"><span data-stu-id="e363f-189">Wildcards are not accepted.</span></span>
 
-<span data-ttu-id="855b6-190">**ObjectCategory** 屬性可讓您指定屬性之類別集的 **lDAPDisplayName** 。</span><span class="sxs-lookup"><span data-stu-id="855b6-190">The **objectCategory** attribute enables you to specify the **lDAPDisplayName** of the class set for the attribute.</span></span>
+<span data-ttu-id="e363f-190">**ObjectCategory** 屬性可讓您指定屬性之類別集的 **lDAPDisplayName** 。</span><span class="sxs-lookup"><span data-stu-id="e363f-190">The **objectCategory** attribute enables you to specify the **lDAPDisplayName** of the class set for the attribute.</span></span>
 
-<span data-ttu-id="855b6-191">下列範例顯示的篩選準則會指定 volume 類別的 **governsID** ：</span><span class="sxs-lookup"><span data-stu-id="855b6-191">The following example shows a filter that specifies **governsID** for volume class:</span></span>
+<span data-ttu-id="e363f-191">下列範例顯示的篩選準則會指定 volume 類別的 **governsID** ：</span><span class="sxs-lookup"><span data-stu-id="e363f-191">The following example shows a filter that specifies **governsID** for volume class:</span></span>
 
 
 ```C++
@@ -505,7 +505,7 @@ YYMMDDHHMMSS[+/-]HHMM
 
 
 
-<span data-ttu-id="855b6-192">兩個對等篩選器，指定包含 **uNCName** 的 **systemMustContain** 屬性，該屬性具有1.2.840.113556.1.4.137 的 OID：</span><span class="sxs-lookup"><span data-stu-id="855b6-192">Two equivalent filters that specifies **systemMustContain** attribute containing **uNCName**, which has an OID of 1.2.840.113556.1.4.137:</span></span>
+<span data-ttu-id="e363f-192">兩個對等篩選器，指定包含 **uNCName** 的 **systemMustContain** 屬性，該屬性具有1.2.840.113556.1.4.137 的 OID：</span><span class="sxs-lookup"><span data-stu-id="e363f-192">Two equivalent filters that specifies **systemMustContain** attribute containing **uNCName**, which has an OID of 1.2.840.113556.1.4.137:</span></span>
 
 
 ```C++
@@ -518,21 +518,21 @@ YYMMDDHHMMSS[+/-]HHMM
 
 </dd> <dt>
 
-<span data-ttu-id="855b6-193"><span id="Other_Syntaxes"></span><span id="other_syntaxes"></span><span id="OTHER_SYNTAXES"></span>其他語法</span><span class="sxs-lookup"><span data-stu-id="855b6-193"><span id="Other_Syntaxes"></span><span id="other_syntaxes"></span><span id="OTHER_SYNTAXES"></span>Other Syntaxes</span></span>
+<span data-ttu-id="e363f-193"><span id="Other_Syntaxes"></span><span id="other_syntaxes"></span><span id="OTHER_SYNTAXES"></span>其他語法</span><span class="sxs-lookup"><span data-stu-id="e363f-193"><span id="Other_Syntaxes"></span><span id="other_syntaxes"></span><span id="OTHER_SYNTAXES"></span>Other Syntaxes</span></span>
 </dt> <dd>
 
-<span data-ttu-id="855b6-194">下列語法會在類似于八位字串的篩選中進行評估：</span><span class="sxs-lookup"><span data-stu-id="855b6-194">The following syntaxes are evaluated in a filter similar to an octet string:</span></span>
+<span data-ttu-id="e363f-194">下列語法會在類似于八位字串的篩選中進行評估：</span><span class="sxs-lookup"><span data-stu-id="e363f-194">The following syntaxes are evaluated in a filter similar to an octet string:</span></span>
 
--   <span data-ttu-id="855b6-195">ObjectSecurityDescriptor</span><span class="sxs-lookup"><span data-stu-id="855b6-195">ObjectSecurityDescriptor</span></span>
--   <span data-ttu-id="855b6-196">AccessPointDN</span><span class="sxs-lookup"><span data-stu-id="855b6-196">AccessPointDN</span></span>
--   <span data-ttu-id="855b6-197">PresentationAddresses</span><span class="sxs-lookup"><span data-stu-id="855b6-197">PresentationAddresses</span></span>
--   <span data-ttu-id="855b6-198">ReplicaLink</span><span class="sxs-lookup"><span data-stu-id="855b6-198">ReplicaLink</span></span>
--   <span data-ttu-id="855b6-199">DNWithString</span><span class="sxs-lookup"><span data-stu-id="855b6-199">DNWithString</span></span>
--   <span data-ttu-id="855b6-200">DNWithOctetString</span><span class="sxs-lookup"><span data-stu-id="855b6-200">DNWithOctetString</span></span>
--   <span data-ttu-id="855b6-201">ORName</span><span class="sxs-lookup"><span data-stu-id="855b6-201">ORName</span></span>
+-   <span data-ttu-id="e363f-195">ObjectSecurityDescriptor</span><span class="sxs-lookup"><span data-stu-id="e363f-195">ObjectSecurityDescriptor</span></span>
+-   <span data-ttu-id="e363f-196">AccessPointDN</span><span class="sxs-lookup"><span data-stu-id="e363f-196">AccessPointDN</span></span>
+-   <span data-ttu-id="e363f-197">PresentationAddresses</span><span class="sxs-lookup"><span data-stu-id="e363f-197">PresentationAddresses</span></span>
+-   <span data-ttu-id="e363f-198">ReplicaLink</span><span class="sxs-lookup"><span data-stu-id="e363f-198">ReplicaLink</span></span>
+-   <span data-ttu-id="e363f-199">DNWithString</span><span class="sxs-lookup"><span data-stu-id="e363f-199">DNWithString</span></span>
+-   <span data-ttu-id="e363f-200">DNWithOctetString</span><span class="sxs-lookup"><span data-stu-id="e363f-200">DNWithOctetString</span></span>
+-   <span data-ttu-id="e363f-201">ORName</span><span class="sxs-lookup"><span data-stu-id="e363f-201">ORName</span></span>
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

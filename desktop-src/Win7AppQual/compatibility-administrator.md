@@ -4,49 +4,49 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: 相容性系統管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d941c9db85c8302d8d7d8808f24b95d1f3b08be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088526"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443939"
 ---
-# <a name="compatibility-administrator"></a><span data-ttu-id="8e7c5-103">相容性系統管理員</span><span class="sxs-lookup"><span data-stu-id="8e7c5-103">Compatibility Administrator</span></span>
+# <a name="compatibility-administrator"></a><span data-ttu-id="abe51-103">相容性系統管理員</span><span class="sxs-lookup"><span data-stu-id="abe51-103">Compatibility Administrator</span></span>
 
-## <a name="affected-platforms"></a><span data-ttu-id="8e7c5-104">受影響的平臺</span><span class="sxs-lookup"><span data-stu-id="8e7c5-104">Affected Platforms</span></span>
+## <a name="affected-platforms"></a><span data-ttu-id="abe51-104">受影響的平臺</span><span class="sxs-lookup"><span data-stu-id="abe51-104">Affected Platforms</span></span>
 
- <span data-ttu-id="8e7c5-105">**用戶端：** Windows 2000、Windows XP、Windows Vista、Windows 7</span><span class="sxs-lookup"><span data-stu-id="8e7c5-105">**Clients:** Windows 2000, Windows XP, Windows Vista, Windows 7</span></span>  
-<span data-ttu-id="8e7c5-106">**伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="8e7c5-106">**Servers:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2</span></span>  
-
-
-## <a name="description"></a><span data-ttu-id="8e7c5-107">Description</span><span class="sxs-lookup"><span data-stu-id="8e7c5-107">Description</span></span>
-
-<span data-ttu-id="8e7c5-108">應用程式相容性工具組所提供的相容性系統管理員工具 (ACT) 可讓您解決許多潛在的應用程式相容性問題，然後再將新版本的 Windows 部署到您的組織，方法如下：</span><span class="sxs-lookup"><span data-stu-id="8e7c5-108">The Compatibility Administrator tool, provided by the Application Compatibility Toolkit (ACT) enables you to resolve many of your potential application compatibility issues, before deploying a new version of Windows to your organization, by:</span></span>
-
--   <span data-ttu-id="8e7c5-109">提供個別的相容性修正程式、相容性模式，以及您可以用來解決特定相容性問題的 AppHelp 訊息</span><span class="sxs-lookup"><span data-stu-id="8e7c5-109">Providing individual compatibility fixes, compatibility modes, and AppHelp messages that you can use to resolve specific compatibility issues</span></span>
--   <span data-ttu-id="8e7c5-110">可讓您建立自訂的相容性修正程式、相容性模式、AppHelp 訊息和相容性資料庫</span><span class="sxs-lookup"><span data-stu-id="8e7c5-110">Enabling you to create customized compatibility fixes, compatibility modes, AppHelp messages, and compatibility databases</span></span>
--   <span data-ttu-id="8e7c5-111">提供查詢工具，可讓您在本機電腦上搜尋已安裝的修正程式</span><span class="sxs-lookup"><span data-stu-id="8e7c5-111">Providing a query tool that enables you to search for installed fixes on your local computers</span></span>
-
-## <a name="usage"></a><span data-ttu-id="8e7c5-112">使用方式</span><span class="sxs-lookup"><span data-stu-id="8e7c5-112">Usage</span></span>
-
-<span data-ttu-id="8e7c5-113">下列流程圖說明使用相容性系統管理員建立相容性修正程式、相容性模式和 AppHelp 訊息時所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="8e7c5-113">The following flowchart illustrates the steps required in using the Compatibility Administrator to create your compatibility fixes, compatibility modes, and your AppHelp messages.</span></span>
+ <span data-ttu-id="abe51-105">**用戶端：** Windows 2000、Windows XP、Windows Vista、Windows 7</span><span class="sxs-lookup"><span data-stu-id="abe51-105">**Clients:** Windows 2000, Windows XP, Windows Vista, Windows 7</span></span>  
+<span data-ttu-id="abe51-106">**伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2</span><span class="sxs-lookup"><span data-stu-id="abe51-106">**Servers:** Windows Server 2003, Windows Server 2008, Windows Server 2008 R2</span></span>  
 
 
+## <a name="description"></a><span data-ttu-id="abe51-107">描述</span><span class="sxs-lookup"><span data-stu-id="abe51-107">Description</span></span>
 
-|                                            |          |                                                                                            |          |                                                     |          |                                                                             |
+<span data-ttu-id="abe51-108">應用程式相容性工具組所提供的相容性系統管理員工具 (ACT) 可讓您解決許多潛在的應用程式相容性問題，然後再將新版本的 Windows 部署到您的組織，方法如下：</span><span class="sxs-lookup"><span data-stu-id="abe51-108">The Compatibility Administrator tool, provided by the Application Compatibility Toolkit (ACT) enables you to resolve many of your potential application compatibility issues, before deploying a new version of Windows to your organization, by:</span></span>
+
+-   <span data-ttu-id="abe51-109">提供個別的相容性修正程式、相容性模式，以及您可以用來解決特定相容性問題的 AppHelp 訊息</span><span class="sxs-lookup"><span data-stu-id="abe51-109">Providing individual compatibility fixes, compatibility modes, and AppHelp messages that you can use to resolve specific compatibility issues</span></span>
+-   <span data-ttu-id="abe51-110">可讓您建立自訂的相容性修正程式、相容性模式、AppHelp 訊息和相容性資料庫</span><span class="sxs-lookup"><span data-stu-id="abe51-110">Enabling you to create customized compatibility fixes, compatibility modes, AppHelp messages, and compatibility databases</span></span>
+-   <span data-ttu-id="abe51-111">提供查詢工具，可讓您在本機電腦上搜尋已安裝的修正程式</span><span class="sxs-lookup"><span data-stu-id="abe51-111">Providing a query tool that enables you to search for installed fixes on your local computers</span></span>
+
+## <a name="usage"></a><span data-ttu-id="abe51-112">使用方式</span><span class="sxs-lookup"><span data-stu-id="abe51-112">Usage</span></span>
+
+<span data-ttu-id="abe51-113">下列流程圖說明使用相容性系統管理員建立相容性修正程式、相容性模式和 AppHelp 訊息時所需的步驟。</span><span class="sxs-lookup"><span data-stu-id="abe51-113">The following flowchart illustrates the steps required in using the Compatibility Administrator to create your compatibility fixes, compatibility modes, and your AppHelp messages.</span></span>
+
+
+
+| &nbsp;    | &nbsp;  |  &nbsp;   | &nbsp;  | &nbsp; | &nbsp;  |  &nbsp;  |
 |--------------------------------------------|----------|--------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|----------|-----------------------------------------------------------------------------|
-| <span data-ttu-id="8e7c5-114">建立新的相容性資料庫， ( sdb) </span><span class="sxs-lookup"><span data-stu-id="8e7c5-114">Create a new compatibility database (.sdb)</span></span> | **>** | <span data-ttu-id="8e7c5-115">選取應用程式，然後選取要套用至應用程式的相容性修正</span><span class="sxs-lookup"><span data-stu-id="8e7c5-115">Select the application and then select the compatibility fixes to apply to the application</span></span> | **>** | <span data-ttu-id="8e7c5-116">使用新的相容性修正程式來測試應用程式</span><span class="sxs-lookup"><span data-stu-id="8e7c5-116">Test the application with the new compatibility fix</span></span> | **>** | <span data-ttu-id="8e7c5-117">儲存相容性資料庫，然後將修正程式部署至您的公司</span><span class="sxs-lookup"><span data-stu-id="8e7c5-117">Save the compatibility database and then deploy the fix to your corporation</span></span> |
+| <span data-ttu-id="abe51-114">建立新的相容性資料庫， ( sdb) </span><span class="sxs-lookup"><span data-stu-id="abe51-114">Create a new compatibility database (.sdb)</span></span> | **>** | <span data-ttu-id="abe51-115">選取應用程式，然後選取要套用至應用程式的相容性修正</span><span class="sxs-lookup"><span data-stu-id="abe51-115">Select the application and then select the compatibility fixes to apply to the application</span></span> | **>** | <span data-ttu-id="abe51-116">使用新的相容性修正程式來測試應用程式</span><span class="sxs-lookup"><span data-stu-id="abe51-116">Test the application with the new compatibility fix</span></span> | **>** | <span data-ttu-id="abe51-117">儲存相容性資料庫，然後將修正程式部署至您的公司</span><span class="sxs-lookup"><span data-stu-id="abe51-117">Save the compatibility database and then deploy the fix to your corporation</span></span> |
 
 
 
  
 
-## <a name="links-to-other-resources"></a><span data-ttu-id="8e7c5-118">其他資源的連結</span><span class="sxs-lookup"><span data-stu-id="8e7c5-118">Links to Other Resources</span></span>
+## <a name="links-to-other-resources"></a><span data-ttu-id="abe51-118">其他資源的連結</span><span class="sxs-lookup"><span data-stu-id="abe51-118">Links to Other Resources</span></span>
 
--   [<span data-ttu-id="8e7c5-119">應用程式相容性工具組下載</span><span class="sxs-lookup"><span data-stu-id="8e7c5-119">Application Compatibility Toolkit Download</span></span>](/windows-hardware/get-started/adk-install)
--   <span data-ttu-id="8e7c5-120">[使用相容性系統管理員](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="8e7c5-120">[Using the Compatibility Administrator](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))</span></span>
--   <span data-ttu-id="8e7c5-121">[已知的相容性修正程式、相容性模式和 AppHelp 訊息](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="8e7c5-121">[Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))</span></span>
--   <span data-ttu-id="8e7c5-122">[使用開發工具測試和緩和問題](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="8e7c5-122">[Testing and Mitigating Issues by Using the Development Tools](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))</span></span>
+-   [<span data-ttu-id="abe51-119">應用程式相容性工具組下載</span><span class="sxs-lookup"><span data-stu-id="abe51-119">Application Compatibility Toolkit Download</span></span>](/windows-hardware/get-started/adk-install)
+-   <span data-ttu-id="abe51-120">[使用相容性系統管理員](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="abe51-120">[Using the Compatibility Administrator](/previous-versions/windows/it-pro/windows-7/cc749034(v=ws.10))</span></span>
+-   <span data-ttu-id="abe51-121">[已知的相容性修正程式、相容性模式和 AppHelp 訊息](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="abe51-121">[Known Compatibility Fixes, Compatibility Modes, and AppHelp Messages](/previous-versions/windows/it-pro/windows-7/cc765984(v=ws.10))</span></span>
+-   <span data-ttu-id="abe51-122">[使用開發工具測試和緩和問題](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))</span><span class="sxs-lookup"><span data-stu-id="abe51-122">[Testing and Mitigating Issues by Using the Development Tools](/previous-versions/orphan-topics/ws.10/cc766461(v=ws.10))</span></span>
 
  
 
