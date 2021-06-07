@@ -4,12 +4,12 @@ ms.assetid: 6F87A47D-E54A-42D9-92DC-2411803278AA
 title: DNG 格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63f766356f7c13d7b2bb25adab5411ae55c2735f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0815d6a24bb8e57e6c64b90f9e9068765838e148
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319303"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444929"
 ---
 # <a name="dng-format-overview"></a>DNG 格式總覽
 
@@ -26,7 +26,7 @@ ms.locfileid: "104319303"
 
 
 
-|                        |                                                      |
+|     元件          |  描述                                         |
 |------------------------|------------------------------------------------------|
 |  (s 的正式名稱)          | 數位負面 (DNG)                                |
 | 副檔名 (s)  | .dng                                                 |

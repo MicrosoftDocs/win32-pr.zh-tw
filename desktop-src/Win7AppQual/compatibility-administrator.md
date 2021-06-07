@@ -4,12 +4,12 @@ ms.assetid: 72a77e83-ab18-438c-af11-fa6d55bf0180
 title: 相容性系統管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d941c9db85c8302d8d7d8808f24b95d1f3b08be
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0c735154115fb649d6c6d6b710709ce77c9e0b4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088526"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443939"
 ---
 # <a name="compatibility-administrator"></a>相容性系統管理員
 
@@ -19,7 +19,7 @@ ms.locfileid: "108088526"
 **伺服器：** Windows Server 2003、Windows Server 2008、Windows Server 2008 R2  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 應用程式相容性工具組所提供的相容性系統管理員工具 (ACT) 可讓您解決許多潛在的應用程式相容性問題，然後再將新版本的 Windows 部署到您的組織，方法如下：
 
@@ -33,7 +33,7 @@ ms.locfileid: "108088526"
 
 
 
-|                                            |          |                                                                                            |          |                                                     |          |                                                                             |
+| &nbsp;    | &nbsp;  |  &nbsp;   | &nbsp;  | &nbsp; | &nbsp;  |  &nbsp;  |
 |--------------------------------------------|----------|--------------------------------------------------------------------------------------------|----------|-----------------------------------------------------|----------|-----------------------------------------------------------------------------|
 | 建立新的相容性資料庫， ( sdb)  | **>** | 選取應用程式，然後選取要套用至應用程式的相容性修正 | **>** | 使用新的相容性修正程式來測試應用程式 | **>** | 儲存相容性資料庫，然後將修正程式部署至您的公司 |
 

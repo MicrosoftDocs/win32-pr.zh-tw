@@ -20,12 +20,12 @@ keywords:
 - 屬性的持續性儲存
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bff852bccfb7d9b6c94e57a2fa0cf8eef6fbdf18
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f5b94a1f6c504fcd3e6491af9e66b399d59a3eeb
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106968526"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524212"
 ---
 # <a name="properties-common-elements"></a>屬性 (通用元素) 
 
@@ -71,7 +71,7 @@ TSF 會定義三種不同類型的屬性。
 
 
 
-|                |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|   屬性類型             |   描述                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Static         | 靜態屬性物件會儲存具有文字的屬性資料。 它也會儲存套用屬性之每個範圍的文字資訊範圍。 ITfReadOnlyProperty：： GetType 會傳回 GUID \_ TFCAT \_ PROPSTYLE \_ 靜態類別。                                                                                                                                                                                                                      |
 | Static-Compact | 靜態 compact 屬性物件與靜態屬性物件相同，不同之處在于靜態 compact 屬性不會儲存範圍資料。 當要求靜態壓縮屬性所涵蓋的範圍時，就會為每個相鄰屬性群組建立一個範圍。 靜態壓縮屬性是以每個字元為基礎來儲存屬性最有效率的方式。 ITfReadOnlyProperty：： GetType 傳回 GUID \_ TFCAT \_ PROPSTYLE \_ STATICCOMPACT 類別目錄。 |

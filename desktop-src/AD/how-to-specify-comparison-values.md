@@ -7,12 +7,12 @@ keywords:
 - 如何指定比較值 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f9355bc4853fa6dc62645e1c241d8e26f731f9
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: edba238961cdc18b088b6b5bd5b06ff4be383add
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681655"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386748"
 ---
 # <a name="how-to-specify-comparison-values"></a>如何指定比較值
 
@@ -84,7 +84,7 @@ LDAP 比對規則運算子也可以用來執行位比較。 如需相符規則�
 <span id="OctetString"></span><span id="octetstring"></span><span id="OCTETSTRING"></span>OctetString
 </dt> <dd>
 
-在篩選中指定的值是要尋找的資料。 資料必須以兩個字元編碼的位元組字串表示，其中每個位元組之前都是反斜線 (\) 。 例如，值0x05 會以 "05" 的形式出現在字串中 \\ 。
+在篩選中指定的值是要尋找的資料。 資料必須以兩個字元編碼的位元組字串表示，其中每個位元組前面都會加上反斜線 (\\) 。 例如，值0x05 會以 "05" 的形式出現在字串中 \\ 。
 
 [**ADsEncodeBinaryData**](/windows/desktop/api/adshlp/nf-adshlp-adsencodebinarydata)函數可以用來建立二進位資料的編碼字串表示。 **ADsEncodeBinaryData** 函數不會編碼代表英數位元的位元組值。 相反地，它會將字元放在字串中，而不將其編碼。 這會產生包含編碼和未編碼字元混合的字串。 例如，如果二進位資料是 0x05 \| 0x1A \| 0x1b \| 0x43 \| 0x32，編碼的字串將會包含 " \\ 05 \\ 1a \\ 1BC2"。 這對篩選不會有任何影響，且搜尋篩選器會正確地使用這些類型的字串。
 
@@ -533,6 +533,6 @@ YYMMDDHHMMSS[+/-]HHMM
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 83a0a5a9e7908cc1c8cff688b3fefc1e8910b6a4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7d642cd209b3e00e2c63f7376e321132a1c0e686
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968874"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111445019"
 ---
 # <a name="row-element"></a>Row 元素
 
@@ -159,10 +159,9 @@ ms.locfileid: "106968874"
 
 
 
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

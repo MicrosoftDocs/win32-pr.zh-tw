@@ -4,12 +4,12 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: fdc489184b3220afd0b8c75738fa1d40de207c8d
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 1e5d9f8b0532b809bab617655694af68ba530430
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387047"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521203"
 ---
 # <a name="directml-feature-level-history"></a>DirectML 功能等級歷程記錄
 
@@ -92,8 +92,8 @@ ms.locfileid: "111387047"
 
 已新增下列 Api。
 
-* [IDMLDevice1 介面](./directml/nn-directml-idmldevice1.md)
-* Operator graph 支援 (參閱 [IDMLDevice1：： CompileGraph](./directml/nf-directml-idmldevice1-compilegraph.md)
+* [IDMLDevice1 介面](/windows/win32/api/directml/nn-directml-idmldevice1)
+* Operator graph 支援 (參閱 [IDMLDevice1：： CompileGraph](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
 已新增下列運算子的支援。
 
@@ -166,7 +166,7 @@ ms.locfileid: "111387047"
 在 DirectML 版本1.1.0 中引進。
 
 已新增下列 Api。
-* [DMLCreateDevice1 函式](./directml/nf-directml-dmlcreatedevice1.md)
+* [DMLCreateDevice1 函式](/windows/win32/api/directml/nf-directml-dmlcreatedevice1)
 * [DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * 功能等級查詢 (查看 [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)) 
 
@@ -213,5 +213,5 @@ ms.locfileid: "111387047"
 
 * [DirectML 版本歷程記錄](./dml-version-history.md)
 * [DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level)
-* [DMLCreateDevice1 函式](./directml/nf-directml-dmlcreatedevice1.md)
+* [DMLCreateDevice1 函式](/windows/win32/api/directml/nf-directml-dmlcreatedevice1.md)
 * [DML_FEATURE_QUERY_FEATURE_LEVELS 結構](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)

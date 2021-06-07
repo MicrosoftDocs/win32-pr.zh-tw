@@ -1,6 +1,6 @@
 ---
 title: 'WM ASF 寫入器篩選器 (Windows Media Format 11 SDK) '
-description: WM ASF 寫入器篩選器
+description: 深入瞭解 WM ASF 寫入器篩選器。
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK，WM ASF 寫入器
@@ -11,12 +11,12 @@ keywords:
 - ASF (Advanced Systems Format) ，WM ASF 寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0de34bcf4b4047673f832d78f40377f98e94d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106967940"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444699"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>WM ASF 寫入器篩選器 (Windows Media Format 11 SDK) 
 
@@ -28,7 +28,7 @@ WM ASF 寫入器篩選器可接受數量不定的輸入資料流程，並建立�
 
 
 
-|                        |                                                                                                                                                                                                                         |
+| 篩選資訊                       |  類型                                                                                                                                                                                                                       |
 |------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面      | **IAMFilterMiscFlags**、 **IBaseFilter**、 **IConfigAsfWriter**、 **IFileSinkFilter2**、IMediaSeeking、IPersistStream、IServiceProvider、ISpecifyPropertyPages、 **IWMIndexer2**、 **IWMHeaderInfo**、 **IWMWriterAdvanced2** |
 | 輸入 pin 媒體類型  | 相依于設定檔。 一般未壓縮的類型（例如媒體媒體 \_ 或媒體媒體或媒體類型 \_ ），雖然可以在符合設定檔時接受壓縮類型                                                   |

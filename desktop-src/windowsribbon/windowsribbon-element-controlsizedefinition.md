@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e35fe159bf5bafa1ebfa6119215a4265ee900ef0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ff5217c08b4ea6da1931b0c65501f912f2cc5dc
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312662"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443409"
 ---
 # <a name="controlsizedefinition-element"></a>ControlSizeDefinition 元素
 
@@ -58,34 +58,34 @@ ms.locfileid: "104312662"
 <tr class="odd">
 <td><strong>Controlnameinrow</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ImageSize</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (大型) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (Small) <br/> </dt> <dd> 預設值。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>IsImageVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsLabelVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>IsPopup</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -210,12 +210,8 @@ ms.locfileid: "104312662"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | Yes       |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：是
 
 
 

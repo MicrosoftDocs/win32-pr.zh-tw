@@ -4,12 +4,12 @@ description: 下表列出由 Microsoft Active Accessibility 提供的系統提�
 ms.assetid: c09c14bd-61c4-4d4a-895c-0eaa26be0998
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0ac36de32b01bbc98dde327bb961678addb69f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e68ecc782f7a30bc7e6019ca4ef08774e8974da
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021521"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444019"
 ---
 # <a name="user-interface-element-reference"></a>消費者介面元素參考
 
@@ -17,14 +17,14 @@ ms.locfileid: "104021521"
 
 
 
-|                                                    |                                                      |
-|----------------------------------------------------|------------------------------------------------------|
+|      &nbsp;                                       |                     &nbsp;                          |
+|---------------------------------------------------|-----------------------------------------------------|
 | [**動畫控制項**](animation-control.md)     | [**快顯功能表**](pop-up-menu.md)                   |
 | [**插入點**](caret.md)                             | [**進度列控制項**](progress-bar-control.md) |
 | [**核取方塊**](check-box.md)                     | [**按鈕**](push-button.md)                   |
 | [**用戶端物件**](client-object.md)             | [**選項按鈕**](radio-button.md)                 |
 | [**下拉式方塊**](combo-box.md)                     | [**捲軸**](scroll-bar.md)                     |
-| [**資料指標**](cursor.md)                           | [**大小手柄**](size-grip.md)                       |
+| [**游標**](cursor.md)                           | [**大小手柄**](size-grip.md)                       |
 | [**桌面視窗**](desktop-window.md)           | [**滑桿控制項**](slider-control.md)             |
 | [**對話方塊**](dialog-box.md)                   | [**靜態文字**](static-text.md)                   |
 | [**編輯控制項**](edit-control.md)               | [**狀態列控制項**](status-bar-control.md)     |
@@ -39,11 +39,11 @@ ms.locfileid: "104021521"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

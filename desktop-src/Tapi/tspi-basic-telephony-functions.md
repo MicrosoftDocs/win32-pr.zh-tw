@@ -4,12 +4,12 @@ ms.assetid: 4250f3a0-a66a-4a6e-8566-d71be7463179
 title: TSPI 基本電話語音功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6276be51482620af32650ad1625eea97bddb8e5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5308def0c94df9fa59f2022bf25c4dbb1843e2f8
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852483"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524152"
 ---
 # <a name="tspi-basic-telephony-functions"></a>TSPI 基本電話語音功能
 
@@ -30,7 +30,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                           |                                                           |
+|  函式                                                         |   描述                                                        |
 |-----------------------------------------------------------|-----------------------------------------------------------|
 | [**TUISPI \_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tuispi_providerinstall) | 安裝 TSP。 Synchronous：                              |
 | [**TSPI \_ providerInstall**](/windows/win32/api/tspi/nf-tspi-tspi_providerinstall)     | 安裝 TSP。 版本2.0 已淘汰。 Synchronous： |
@@ -47,7 +47,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                                           |                                                                                         |
+|  函式                                                         |   描述                                                        |
 |---------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**TSPI \_ phoneNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_phonenegotiatetspiversion) | 傳回服務提供者在此裝置下可運作的最高 SPI 版本。 |
 
@@ -59,7 +59,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                                         |                                                                                                 |
+|  函式                                                         |   描述                                                        |
 |-------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineNegotiateTSPIVersion**](/windows/win32/api/tspi/nf-tspi-tspi_linenegotiatetspiversion) | 允許應用程式與指定的線路裝置協調使用 TSPI 版本。 Synchronous： |
 
@@ -71,7 +71,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                                     |                                                                                                                                                                |
+|  函式                                                         |   描述                                                        |
 |---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetDevCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevcaps)                 | 傳回指定線路裝置的功能。 Synchronous：                                                                                                  |
 | [**TSPI \_ lineGetDevConfig**](/windows/win32/api/tspi/nf-tspi-tspi_linegetdevconfig)             | 傳回媒體資料流程裝置的設定。 Synchronous：                                                                                                   |
@@ -91,7 +91,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                                 |                                                                                          |
+|  函式                                                         |   描述                                                        |
 |-----------------------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetAddressCaps**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddresscaps)     | 傳回位址的電話語音功能。 Synchronous：                           |
 | [**TSPI \_ lineGetAddressStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetaddressstatus) | 傳回指定之位址的目前狀態。 Synchronous：                              |
@@ -106,7 +106,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                           |                                                                                                            |
+|  函式                                                         |   描述                                                        |
 |-------------------------------------------|------------------------------------------------------------------------------------------------------------|
 | [**TSPI \_ lineOpen**](/windows/win32/api/tspi/nf-tspi-tspi_lineopen)   | 開啟指定的線路裝置，以提供後續的監視及/或控制行。 Synchronous： |
 | [**TSPI \_ lineClose**](/windows/win32/api/tspi/nf-tspi-tspi_lineclose) | 關閉指定的已開啟行裝置。 Synchronous：                                                        |
@@ -119,7 +119,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                             |                                                                                     |
+|  函式                                                         |   描述                                                        |
 |-------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**TSPI \_ lineGetCallInfo**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallinfo)       | 傳回有關呼叫的固定資訊。 Synchronous：                                |
 | [**TSPI \_ lineGetCallStatus**](/windows/win32/api/tspi/nf-tspi-tspi_linegetcallstatus)   | 傳回指定之呼叫的完整撥號狀態資訊。 Synchronous：       |
@@ -133,7 +133,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                                 |                                                                        |
+|  函式                                                         |   描述                                                        |
 |-------------------------------------------------|------------------------------------------------------------------------|
 | [**TSPI \_ lineMakeCall**](/windows/win32/api/tspi/nf-tspi-tspi_linemakecall) | 進行輸出呼叫，並傳回它的呼叫控制碼。 非同步： |
 | [**TSPI \_ lineDial**](/windows/win32/api/tspi/nf-tspi-tspi_linedial)         | 撥打一或多個) 的位址 (部分。 非同步：         |
@@ -146,7 +146,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                             |                                         |
+|  函式                                                         |   描述                                                        |
 |---------------------------------------------|-----------------------------------------|
 | [**TSPI \_ lineAnswer**](/windows/win32/api/tspi/nf-tspi-tspi_lineanswer) | 回答來電。 非同步： |
 
@@ -158,7 +158,7 @@ ms.locfileid: "103852483"
 
 
 
-|                                         |                                                                           |
+|  函式                                                         |   描述                                                        |
 |-----------------------------------------|---------------------------------------------------------------------------|
 | [**TSPI \_ lineDrop**](/windows/win32/api/tspi/nf-tspi-tspi_linedrop) | 中斷通話的連線，或放棄進行中的呼叫嘗試。 非同步： |
 

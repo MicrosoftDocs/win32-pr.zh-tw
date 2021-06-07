@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 892cee6a5e6f423a0ed750858e19e1accccbe45f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4659dbf00c6a53c77a23e98836ea1af4eeb4c38a
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108180"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386857"
 ---
 # <a name="ms-dfs-link-path-v2-attribute"></a>ms-DFS-連結-路徑-v2 屬性
 
-相對於 DFS 根目標共用的 DFS 連結路徑 (也就是，沒有伺服器/網域和 DFS 命名空間名稱元件) 。 使用正斜線 (/) ，而不是反斜線 (\) ，因此可以完成 LDAP 搜尋，而不需要使用 esc。
+相對於 DFS 根目標共用的 DFS 連結路徑 (也就是，沒有伺服器/網域和 DFS 命名空間名稱元件) 。 使用正斜線 (/) ，而不是反斜線 (\\) ，如此就可以完成 LDAP 搜尋，而不需要使用 esc。
 
 
 
@@ -54,10 +54,10 @@ ms.locfileid: "104108180"
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
-| 已編制索引             | 否                                                                                                                  |
-| 在通用類別目錄中      | 否                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| 是-單一值       | True                                                                                                                   |
+| 已編制索引             | False                                                                                                                  |
+| 在通用類別目錄中      | False                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |
@@ -75,10 +75,10 @@ ms.locfileid: "104108180"
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
-| 已編制索引             | 否                                                                                                                  |
-| 在通用類別目錄中      | 否                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| 是-單一值       | True                                                                                                                   |
+| 已編制索引             | False                                                                                                                  |
+| 在通用類別目錄中      | False                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |
@@ -96,10 +96,10 @@ ms.locfileid: "104108180"
 |------------------------|------------------------------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                                     |
 | MAPI-Id                | \-                                                                                                                     |
-| System-Only            | 否                                                                                                                  |
-| 是-單一值       | 對                                                                                                                   |
-| 已編制索引             | 否                                                                                                                  |
-| 在通用類別目錄中      | 否                                                                                                                  |
+| System-Only            | False                                                                                                                  |
+| 是-單一值       | True                                                                                                                   |
+| 已編制索引             | False                                                                                                                  |
+| 在通用類別目錄中      | False                                                                                                                  |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                           |
 | Range-Lower            | 0                                                                                                                      |
 | Range-Upper            | 32766                                                                                                                  |

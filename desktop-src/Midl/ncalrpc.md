@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f20ae9e347303288868eeb16758736047fecc1b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2f5d22b572eb9ad2f2e46b029ec242b48d5cd684
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933205"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386877"
 ---
 # <a name="ncalrpc-attribute"></a>ncalrpc 屬性
 
@@ -34,7 +34,7 @@ endpoint("ncalrpc:[port-name]")
 *埠名稱* 
 </dt> <dd>
 
-指定通訊埠的字元字串， (應用程式、服務或) 服務的實例，以供用戶端用來對伺服器進行進程間呼叫。 字串最多可以包含53個字元，而且不能包含任何反斜線 (\) 字元。 電腦名稱稱不得與 **ncalrpc** 關鍵字一起使用。
+指定通訊埠的字元字串， (應用程式、服務或) 服務的實例，以供用戶端用來對伺服器進行進程間呼叫。 字串最多可以包含53個字元，而且不能包含任何反斜線 (\\) 字元。 電腦名稱稱不得與 **ncalrpc** 關鍵字一起使用。
 
 </dd> </dl>
 
@@ -102,6 +102,6 @@ interface iface
 [字串系結](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

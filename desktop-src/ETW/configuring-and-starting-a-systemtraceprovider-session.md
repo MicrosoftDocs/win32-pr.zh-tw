@@ -3,13 +3,13 @@ description: SystemTraceProvider 是一種核心提供者，具有 Windows 7、W
 ms.assetid: 6808EC45-C8C3-45D7-9E4C-337F6A4CF9C8
 title: 設定並啟動 SystemTraceProvider 會話
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: b718269801a7677572e7bb5b74cd8b89d3711e3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.date: 06/02/2021
+ms.openlocfilehash: 66e9d672a7c8e6358c2a92e7661e0d4e2a5878ab
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972228"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386738"
 ---
 # <a name="configuring-and-starting-a-systemtraceprovider-session"></a>設定並啟動 SystemTraceProvider 會話
 
@@ -19,7 +19,11 @@ SystemTraceProvider 是一種核心提供者，具有 Windows 7、Windows Server
 
 如需使用 NT Kernel 記錄器會話作為追蹤提供者的詳細資訊，請參閱設定 [和啟動 Nt Kernel 記錄器會話](configuring-and-starting-the-nt-kernel-logger-session.md)。
 
-若要讓 SystemTraceProvider 啟動 NT Kernel 記錄器以外的會話，請執行下列命令。
+在 Windows 10 SDK 組建20348和更新版本上，您可以透過個別的系統提供者來設定 SystemTraceProvider，這些提供者可以使用 [EnableTraceEx2](/windows/win32/api/evntrace/nf-evntrace-enabletraceex2) （例如 Windows 事件提供者的標準事件追蹤）來控制。 如需系統提供者、關鍵字以及對應的舊版旗標和群組的完整清單，請參閱 [系統提供者](system-providers.md)
+
+## <a name="enable-a-systemtraceprovider-session"></a>啟用 SystemTraceProvider 會話
+
+若要讓 SystemTraceProvider 啟動 NT Kernel 記錄器以外的會話，請執行下列命令：
 
 **tracelog.exe-start MySession-f c： \\ Kernel1 .etl-EFLAG PROC \_ THREAD + LOADER + CSWITCH**
 
@@ -46,22 +50,17 @@ SystemTraceProvider 是一種核心提供者，具有 Windows 7、Windows Server
 
 ## <a name="related-topics"></a>相關主題
 
-<dl> <dt>
-
 [設定和啟動私用記錄器會話](configuring-and-starting-a-private-logger-session.md)
-</dt> <dt>
 
 [設定和啟動自動記錄器會話](configuring-and-starting-an-autologger-session.md)
-</dt> <dt>
 
 [設定和啟動事件追蹤會話](configuring-and-starting-an-event-tracing-session.md)
-</dt> <dt>
 
 [設定和啟動 NT Kernel 記錄器會話](configuring-and-starting-the-nt-kernel-logger-session.md)
-</dt> <dt>
+
+[系統提供者](system-providers.md)
 
 [更新事件追蹤會話](updating-an-event-tracing-session.md)
-</dt> </dl>
 
  
 

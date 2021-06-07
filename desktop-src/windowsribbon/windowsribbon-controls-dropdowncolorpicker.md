@@ -4,12 +4,12 @@ description: Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 552cd05e619ba71653d0d72e8457f5d4c8c39624
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 366cc7eadaca23271d5b2afa43ec66235839694a
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383065"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443659"
 ---
 # <a name="drop-down-color-picker"></a>Drop-Down 色彩選擇器
 
@@ -101,7 +101,7 @@ Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器控制項，�
 
 
 
-|                                                                                                                                                                                               |                                                                                                                                                                                                       |                                                                                                                                                                                                          |
+|     &nbsp;     |  &nbsp;   | &nbsp;  |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `ThemeColors`： \[ \] ![ colortemplate 屬性設定為 ' themecolors ' 的 dropdowncolorpicker 元素的行出螢幕擷取畫面。 ](images/markup/colortemplate.themedcolors.1.png) \[除\] | `standardcolors`： \[ \] ![ colortemplate 屬性設定為 ' standardcolors ' 的 dropdowncolorpicker 元素的行出螢幕擷取畫面。 ](images/markup/colortemplate.standardcolors.3.png) \[除\] | `highlightcolors`： \[ \] ![ colortemplate 屬性設定為 ' highlightcolors ' 的 dropdowncolorpicker 元素的行出螢幕擷取畫面。](images/markup/colortemplate.highlightcolors.2.png)<br/> |
 
@@ -194,7 +194,7 @@ Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器控制項，�
 <tr class="header">
 <th>屬性索引鍵</th>
 <th>描述</th>
-<th>附註</th>
+<th>注意</th>
 </tr>
 </thead>
 <tbody>

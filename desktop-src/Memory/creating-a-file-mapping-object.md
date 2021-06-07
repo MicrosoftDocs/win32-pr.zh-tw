@@ -4,12 +4,12 @@ ms.assetid: e00d8742-b717-419c-902c-9a286d75d8aa
 title: 建立檔案對應物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 550609cf9d8a052e324c585fc046472278bb428c
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: b502c484dd0466b47a87f4db205d1da5499bf5ef
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524352"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432500"
 ---
 # <a name="creating-a-file-mapping-object"></a>建立檔案對應物件
 
@@ -41,10 +41,8 @@ ms.locfileid: "111524352"
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
-  
 [建立檔案視圖](creating-a-file-view.md)
 </dt> <dt>
-
 [在檔案中建立視圖](creating-a-view-within-a-file.md)
 </dt> </dl>
 

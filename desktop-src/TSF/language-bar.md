@@ -17,12 +17,12 @@ keywords:
 - 功能表按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c41d64a488406f6eefcff5fef6c11093af00bc5b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0e3c4359c6753f5d96613435f9501036f1d5f317
+ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383753"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111524442"
 ---
 # <a name="language-bar-text-services"></a>Language Bar (Text Services) 
 
@@ -34,7 +34,7 @@ ms.locfileid: "104383753"
 
 
 
-|               |                                                                                                                                                                                   |
+|   元素            |    描述                                                                                                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 按鈕        | 語言列按鈕的功能是命令按鈕、切換控制項或語言列上的功能表。 物件必須支援 ITfLangBarItemButton 介面。                   |
 | 氣球       | 語言列球形球形函式可作為語言列上的快顯通知。 物件必須支援 ITfLangBarItemBalloon 介面。                                       |
@@ -51,7 +51,7 @@ ms.locfileid: "104383753"
 
 
 
-|               |                                                                                                                                                                                                                                                                                                                                                                                      |
+|    元素           |    描述                                                                                                                                                                                                                                                                                                                                                                                  |
 |---------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 按鈕        | 按鈕會作為標準命令按鈕。 此按鈕樣式是由 TF \_ LBI \_ style \_ BTN \_ 按鈕樣式所識別。 按一下專案時，會呼叫 ITfLangBarItemButton：： OnClick。 未使用 ITfLangBarItemButton：： InitMenu 和 ITfLangBarItemButton：： OnMenuSelect。                                                                                                   |
 | 切換按鈕 | 按鈕可作為切換控制項，可以維持已按下的狀態，類似于核取方塊。 此按鈕樣式是由 TF \_ LBI \_ style \_ BTN \_ 轉場樣式所識別。 按一下專案時，會呼叫 ITfLangBarItemButton：： OnClick。 未使用 ITfLangBarItemButton：： InitMenu 和 ITfLangBarItemButton：： OnMenuSelect。                                                  |

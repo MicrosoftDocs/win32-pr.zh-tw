@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 00257783c0c8a7919251004a4b1996ab4d994c3c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b5bff1682cdf55b44092a176abd6dc7e935220a7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106969085"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444839"
 ---
 # <a name="columnbreak-element"></a>ColumnBreak 元素
 
@@ -54,7 +54,7 @@ ms.locfileid: "106969085"
 <tr class="odd">
 <td><strong>ShowSeparator</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -177,12 +177,8 @@ ms.locfileid: "106969085"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | Yes       |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：是
 
 
 

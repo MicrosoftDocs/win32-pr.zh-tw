@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0acbdd5a1d633a8c032651d2df16f4d0e26dec70
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d12bddec3fac5dc918f06d926fe5e5656b70d84d
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509255"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387644"
 ---
 # <a name="ivmguestosgetparameter-method"></a>IVMGuestOS：： GetParameter 方法
 
@@ -48,7 +48,7 @@ HRESULT GetParameter(
 *inParameterName* \[在\]
 </dt> <dd>
 
-參數名稱。 長度必須介於1到255個字元之間，且不能包含反斜線 (\) 字元。
+參數名稱。 長度必須介於1到255個字元之間，且不能包含反斜線 (\\) 字元。
 
 </dd> <dt>
 

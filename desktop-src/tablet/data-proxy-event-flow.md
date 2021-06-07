@@ -4,12 +4,12 @@ ms.assetid: 837867a4-7cda-41b0-b20d-eec9a3a7fb86
 title: 資料 Proxy 事件流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 962348261b1c6a9200a615f03ce15a2bd7bb8830
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b88fbb43e54b19486a6413bc44319fa2dd737486
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975251"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432540"
 ---
 # <a name="data-proxy-event-flow"></a>資料 Proxy 事件流程
 
@@ -41,9 +41,8 @@ ms.locfileid: "106975251"
 
 
 
-|                          |                                                                         |                                                                                                  |                                                                                                                                                                                                                                                                                                            |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |--------------------------|-------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/>    | 事件種類或用途<br/>                                        | 產生的事件<br/>                                                                          | 註解<br/>                                                                                                                                                                                                                                                                                         |
 | T1、T5 和 T9<br/> | \[在 AddStroke 的呼叫內 () \] \[ Tree 探索事件\]<br/> | 引發的 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md)事件<br/> | 可能會產生 n 個 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md)事件，取決於存在的 [**PartiallyPopulated**](icontextnode-setpartiallypopulated.md)值設定為 true 的未 **分類**[**CoNtextNodes**](icontextnodes.md)數目。<br/> |
 | T1、T5 和 T9<br/> | \[樹狀修改事件\]<br/>                                  | 引發的 [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md)事件<br/>   | 呼叫 [**AddStroke**](iinkanalyzer-addstroke.md)方法的結果只會引發一個 [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md)事件。 所有筆劃都會加入相同的非分類 [**CoNtextNode**](icontextnode.md)。<br/>                      |
 
@@ -55,9 +54,8 @@ ms.locfileid: "106975251"
 
 
 
-|                           |                                                                                                                 |                                                                                                  |                                                                                                                                                                                                                                                                                                                      |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/>     | 事件種類或用途<br/>                                                                                | 產生的事件<br/>                                                                          | 註解<br/>                                                                                                                                                                                                                                                                                                   |
 | T2、T6 和 T10<br/> | \[在 [**RemoveStroke**](iinkanalyzer-removestroke.md)的呼叫內 () \] \[ Tree 探索事件\]<br/> | [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 引發的事件<br/> | 可能會有數個 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 事件，這取決於所刪除之筆劃的相關 [**CoNtextNodes**](icontextnodes.md) 數目是否為 true 的 [**PartiallyPopulated**](icontextnode-setpartiallypopulated.md) 值。<br/> |
 | T2、T6 和 T10<br/> | \[樹狀修改事件\]<br/>                                                                          | [**CoNtextNodeDeleting**](-ianalysisproxyevents-contextnodedeleting.md) 引發的事件<br/> | 根據所刪除的筆墨內容和目前的分析結構，可能會產生任意數量的 [**CoNtextNodeDeleting**](-ianalysisproxyevents-contextnodedeleting.md) 事件。<br/>                                                                                                       |
 
@@ -69,9 +67,8 @@ ms.locfileid: "106975251"
 
 
 
-|                       |                                                                                                                           |                                                                                                  |                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/> | 事件種類或用途<br/>                                                                                          | 產生的事件<br/>                                                                          | 註解<br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
 | T3<br/>         | \[在 [**BackgroundAnalyze**](iinkanalyzer-backgroundanalyze.md)的呼叫內 () \] \[ Tree 探索事件\]<br/> | [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 引發的事件<br/> | 可能會產生 n 個 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 事件，視樹狀結構中有多少 [**CoNtextNodes**](icontextnodes.md) 的 [**PartiallyPopulated**](icontextnode-createpartiallypopulatedsubnode.md) 值為 true， (目前分析作業) 所需的每個 [**CoNtextNode**](icontextnode.md) 一個事件。<br/> |
 
 
@@ -82,9 +79,8 @@ ms.locfileid: "106975251"
 
 
 
-|                       |                                             |                                  |                                                                                              |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |-----------------------|---------------------------------------------|----------------------------------|----------------------------------------------------------------------------------------------|
-| 時間戳記<br/> | 事件種類或用途<br/>            | 產生的事件<br/>          | 註解<br/>                                                                           |
 | T3 至 T7<br/>   | \[從 BG 執行緒引發的事件\]<br/> | 引發的活動事件<br/> | 在這段背景分析期間，將會引發數個活動事件。<br/> |
 
 
@@ -95,9 +91,8 @@ ms.locfileid: "106975251"
 
 
 
-|                       |                                                                                                    |                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |-----------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/> | 事件種類或用途<br/>                                                                   | 產生的事件<br/>                                                                                            | 註解<br/>                                                                                                                                                                                                                                                                                                                                                                                    |
 | T7 至 T8<br/>   | \[從 BG 執行緒引發的事件，表示第一個協調作業的開頭\]<br/> | [**InkAnalyzerStateChanging**](-ianalysisproxyevents-inkanalyzerstatechanging.md) 引發的事件<br/>         | 只會引發一個 [**InkAnalyzerStateChanging**](-ianalysisproxyevents-inkanalyzerstatechanging.md) 事件。 此事件會在檢查 [**InkAnalyzer**](inkanalyzer.md)的狀態之前引發，讓應用程式有機會在任何節點上設定 [**PartiallyPopulated**](icontextnode-setpartiallypopulated.md) 值，或執行任何所需的本機檔鎖定。<br/> |
 | T7 至 T8<br/>   | \[樹系探索事件\]<br/>                                                              | [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 引發的事件<br/>                   | 根據筆墨內容，可能會產生 n 個 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 事件數目。<br/>                                                                                                                                                                                                                                               |
 | T7 至 T8<br/>   | \[樹狀修改事件\]<br/>                                                             | [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md) 引發的事件<br/>                     | 根據筆墨內容，可能會產生 n 個 [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md) 事件數目。<br/>                                                                                                                                                                                                                                                 |
@@ -118,9 +113,8 @@ ms.locfileid: "106975251"
 
 
 
-|                       |                                             |                                                                       |                                                                                                                                   |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |-----------------------|---------------------------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/> | 事件種類或用途<br/>            | 產生的事件<br/>                                               | 註解<br/>                                                                                                                |
 | T8 至 T11<br/>  | \[從 BG 執行緒引發的事件\]<br/> | [**活動**](-ianalysisevents-activity.md) 引發的事件<br/> | 在這段背景分析期間，將會引發數個 [**活動**](-ianalysisevents-activity.md) 事件。<br/> |
 
 
@@ -131,9 +125,8 @@ ms.locfileid: "106975251"
 
 
 
-|                       |                                                                                                     |                                                                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 時間戳記 | 事件種類或用途 | 產生的事件 | 註解                          |
 |-----------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 時間戳記<br/> | 事件種類或用途<br/>                                                                    | 產生的事件<br/>                                                                                            | 註解<br/>                                                                                                                                                                                                                                                                                                                                                                                    |
 | T11 至 T12<br/> | \[從 BG 執行緒引發的事件，表示第二個調解作業的開頭\]<br/> | [**InkAnalyzerStateChanging**](-ianalysisproxyevents-inkanalyzerstatechanging.md) 引發的事件<br/>         | 只會引發一個 [**InkAnalyzerStateChanging**](-ianalysisproxyevents-inkanalyzerstatechanging.md) 事件。 此事件會在檢查 [**InkAnalyzer**](inkanalyzer.md)的狀態之前引發，讓應用程式有機會在任何節點上設定 [**PartiallyPopulated**](icontextnode-setpartiallypopulated.md) 值，或執行任何所需的本機檔鎖定。<br/> |
 | T11 至 T12<br/> | \[樹系探索事件\]<br/>                                                               | [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 引發的事件<br/>                   | 根據筆墨內容，可能會產生任意數量的 [**PopulateCoNtextNode**](-ianalysisproxyevents-populatecontextnode.md) 事件。<br/>                                                                                                                                                                                                                                             |
 | T11 至 T12<br/> | \[樹狀修改事件\]<br/>                                                              | [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md) 引發的事件<br/>                     | 根據筆墨內容，可能會產生任意數量的 [**CoNtextNodeCreated**](-ianalysisproxyevents-contextnodecreated.md) 事件。<br/>                                                                                                                                                                                                                                               |

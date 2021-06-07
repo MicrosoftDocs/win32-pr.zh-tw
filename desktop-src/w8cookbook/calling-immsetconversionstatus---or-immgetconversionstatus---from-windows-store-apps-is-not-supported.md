@@ -4,12 +4,12 @@ description: '不支援從 Windows Store 應用程式呼叫 ImmSetConversionStat
 ms.assetid: C6F3C8E7-E07A-40C6-A257-037766C670E7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4b0846b56b1d6c2367c46e4adf82dac011c49fc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7c8ca572b1ea88ca988ecba66231a87cb6ae6db2
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682456"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443142"
 ---
 # <a name="calling-immsetconversionstatus-or-immgetconversionstatus-from-windows-store-apps-is-not-supported"></a>不支援從 Windows Store 應用程式呼叫 ImmSetConversionStatus () 或 ImmGetConversionStatus () 
 
@@ -19,7 +19,7 @@ ms.locfileid: "103682456"
 伺服器-Windows Server 2012 R2  
 </dl>
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 不支援從 Windows Store 應用程式呼叫 ImmSetConversionStatus () 或 ImmGetConversionStatus () ，而且可能會導致非預期的結果。
 
@@ -29,14 +29,14 @@ ms.locfileid: "103682456"
 
 
 
-|          | 軟體輸入面板 | 硬體鍵盤 |
+| &nbsp;   | 軟體輸入面板 | 硬體鍵盤 |
 |----------|----------------------|-------------------|
 | KOR、JPN | 開啟                   | 關閉               |
 | CHS、CHT | 開啟                   | 開啟                |
 
 
 
- 
+ 
 
 ## <a name="solution"></a>解決方法
 
@@ -50,6 +50,6 @@ ms.locfileid: "103682456"
 -   [ImmSetConversionStatus](/windows/win32/api/immdev/nf-immdev-immsetconversionstatus)
 -   [ImmGetConversionStatus](/previous-versions/aa912903(v=msdn.10))
 
- 
+ 
 
- 
+ 

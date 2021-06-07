@@ -4,12 +4,12 @@ ms.assetid: 85AC5A30-A915-439E-A10F-B2833DDA995C
 title: BMP 格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3492189f80b43915bab94a7ea8359f2e5950f7c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1975f27af5b731ed1f62f3571109553848705239
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693248"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444959"
 ---
 # <a name="bmp-format-overview"></a>BMP 格式總覽
 
@@ -21,7 +21,7 @@ ms.locfileid: "103693248"
 
 
 
-|                        |                       |
+| 元件              | 描述           |
 |------------------------|-----------------------|
 |  (s 的正式名稱)          | Windows 點陣圖格式 |
 | 副檔名 (s)  | bmp、dib              |

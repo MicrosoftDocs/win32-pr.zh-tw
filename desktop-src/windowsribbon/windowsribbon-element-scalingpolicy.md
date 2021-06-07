@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7f0d0f484ebded1233e3c64f6c7830882395b90a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 812256b0ff329073eb516c6ab2eb7501db8de40d
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678735"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444989"
 ---
 # <a name="scalingpolicy-element"></a>ScalingPolicy 項目
 
@@ -144,12 +144,8 @@ ms.locfileid: "103678735"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+- **最低支援系統**： Windows 7 
+- **可以是空** 的：否
 
 
 

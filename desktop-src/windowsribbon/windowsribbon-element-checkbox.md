@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0af090058e0475f1997c681750009a12f4e5e7cd
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 4d9357337e569f43b14c34798c9c6e8da4b7b10b
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104092524"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443039"
 ---
 # <a name="checkbox-element"></a>CheckBox 元素
 
@@ -55,7 +55,7 @@ ms.locfileid: "104092524"
 <tr class="odd">
 <td><strong>S. IsChecked</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有當 <strong>CheckBox</strong> 元素是 <a href="windowsribbon-element-quickaccesstoolbar-applicationdefaults.md"><strong>QuickAccessToolbar. s</strong></a>的子系時，這個屬性才有效。 <br/> 限制為下列其中一個值：<br/>
 <blockquote>
 [!Note]<br />
@@ -67,7 +67,7 @@ ms.locfileid: "104092524"
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -89,7 +89,7 @@ ms.locfileid: "104092524"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>                                                     |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>                                                 |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>                                               |
-| [**Group**](windowsribbon-element-group.md)<br/>                                                                   |
+| [**群組**](windowsribbon-element-group.md)<br/>                                                                   |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                                                           |
 | [**QuickAccessToolbar. s**](windowsribbon-element-quickaccesstoolbar-applicationdefaults.md)<br/> |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>                                                       |
@@ -136,13 +136,8 @@ ms.locfileid: "104092524"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | Yes       |
-
+* **最低支援系統**： Windows 7
+* **可以是空** 的：是
 
 
 ## <a name="see-also"></a>另請參閱

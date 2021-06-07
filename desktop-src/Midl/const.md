@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d2980f0f484c838e4f972bbf12fb72173edb3e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7095e29daf18dc111caf37038b06b0beff5245a8
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681774"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387057"
 ---
 # <a name="const-attribute"></a>const 屬性
 
@@ -43,7 +43,7 @@ const-type [declarator], [ [ parameter-attribute-list ] ] pointer-type const [de
 *const 類型* 
 </dt> <dd>
 
-指定有效的 MIDL 整數、字元、字串或布林值類型。 有效的 MIDL 類型 [**包括 small**](small.md)、 [**short**](short.md)、 [**long**](long.md)、 [**char**](char-idl.md)、 **\* charÂ**、 [**wchar \_ t**](wchar-t.md)、 **wchar \_ tÂ \***、 [**byte**](byte.md)、 **byteÂ \*** 和 [**voidÂ \***](void.md)。 可以 [**簽署**](signed.md) 或不帶 [**正負**](unsigned.md)號的整數和字元類型。
+指定有效的 MIDL 整數、字元、字串或布林值類型。 有效的 MIDL 類型包括 [**small**](small.md)、 [**short**](short.md)、 [**long**](long.md)、 [**char**](char-idl.md)、** \* charÂ* _、 [_ * *wchar \_ t*](wchar-t.md)、**wchar \_ tÂ \**_、 [_ *byte* *](byte.md)、**byteÂ \** _ 和 [_*voidÂ \**_](void.md)。 整數和字元類型可以是 [_ *帶正負* *](signed.md)號或不 [**帶正負**](unsigned.md)號。
 
 </dd> <dt>
 
@@ -57,7 +57,7 @@ const-type [declarator], [ [ parameter-attribute-list ] ] pointer-type const [de
 *const 運算式* 
 </dt> <dd>
 
-指定適用于指定類型的運算式、識別碼或數值或字元常數：整數常數的常數整數常值或常數整數運算式;可以在編譯時計算 [**布林值**](boolean.md)類型的布林運算式;[**char**](char-idl.md)類型的單一字元常數;**\[**[**字串**](string.md)類型的字串常數 **\]** 。 [**VoidÂ \***](void.md)類型只能初始化為 **Null**。
+指定適用于指定類型的運算式、識別碼或數值或字元常數：整數常數的常數整數常值或常數整數運算式;可以在編譯時計算 [**布林值**](boolean.md)類型的布林運算式;[**char**](char-idl.md)類型的單一字元常數;**\[**[**字串**](string.md)類型的字串常數 **\]** 。 [ * *VoidÂ \** _](void.md)類型只能初始化為 _ * Null * *。
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ const-type [declarator], [ [ parameter-attribute-list ] ] pointer-type const [de
 *ptr-decl* 
 </dt> <dd>
 
-指定零個或多個指標宣告子。 指標宣告子與 C 中使用的指標宣告子相同。它是由指示項 **\*** 、最 **遠** 的修飾詞和限定詞 **const** 所構成。
+指定零個或多個指標宣告子。 指標宣告子與 C 中使用的指標宣告子相同。它是 **\* *以 _ 指示項、修飾詞（例如 _* 遠**）和限定詞 const （限定詞 **常數**）所構成。
 
 </dd> <dt>
 
@@ -125,11 +125,11 @@ DCE IDL 編譯器不支援常數運算式。 因此，當您使用 MIDL 編譯�
 
 先前定義的常數可以當做後續常數的指派值使用。 常數整數運算式的值會根據 C 轉換規則自動轉換成個別的整數類型。
 
-字元常數的值必須是以單引號括住的 ASCII 字元。 當字元常數是單引號字元本身 ( ' ) 時，反斜線字元 (\) 必須在單引號字元之前，如 \\ '。
+字元常數的值必須是以單引號括住的 ASCII 字元。 當字元常數是單引號字元本身 ( ' ) 時， () 的反斜線字元 \\ 必須在單引號字元之前，如 \\ '。
 
 字元字串常數的值必須是以雙引號括住的字串。 在字串中，反斜線 (**\\**) 字元前面必須加上常值雙引號字元 ( **"** ) ，如下所 **\\ 示**。 在字串中，反斜線字元 (**\\**) 代表一個 escape 字元。 字串常數最多可包含255個字元。
 
-**Null** 值是 [**voidÂ \***](void.md)類型常數的唯一有效值。 任何與 **const** 宣告相關聯的屬性都會被忽略。
+**Null** 值是 [ * *\* voidÂ* _](void.md)類型常數的唯一有效值。 任何與 _ *const** 宣告相關聯的屬性都會被忽略。
 
 MIDL 編譯器不會檢查 **常數** 初始化中的範圍錯誤。 例如，當您指定 "const short x = 0xFFFFFFFF;" 時，MIDL 編譯器不會報告錯誤，而且會在產生的標頭檔中重現初始化運算式。
 
@@ -158,7 +158,7 @@ HRESULT GetName([out] wchar_t * const pszName );
 [MIDL 基底類型](midl-base-types.md)
 </dt> <dt>
 
-[**Boolean**](boolean.md)
+[**布林**](boolean.md)
 </dt> <dt>
 
 [**位元組**](byte.md)
@@ -227,6 +227,6 @@ HRESULT GetName([out] wchar_t * const pszName );
 [**wchar \_ t**](wchar-t.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

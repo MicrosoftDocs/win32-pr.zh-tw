@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 描述 ADSI 路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a6f3f28ffa5faa80dbd9f3d7906bba542e47e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e0ba1dafac273ab3564549a5caca44180161643
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513068"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387107"
 ---
 # <a name="describing-the-adsi-path"></a>描述 ADSI 路徑
 
-輕量型目錄存取協定 (LDAP) 需要您在 \) ldap Active Directory 服務介面 (ADSI) 路徑中使用反斜線 (字元來將某些字元換用。
+輕量型目錄存取協定 (LDAP) 需要您在 \\ ldap Active Directory 服務介面 (ADSI) 路徑中使用時，以反斜線 () 字元來 escape 某些字元。
 
 、= +<>\# ; \\ "
 

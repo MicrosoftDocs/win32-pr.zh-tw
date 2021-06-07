@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1d33f6710da2261a359aa7fd0a3b493871155cf4
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: fe0b9afb51697d50de9cb80886cf829b90c81262
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "104092437"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442889"
 ---
 # <a name="image-element"></a>Image 項目
 
@@ -59,26 +59,26 @@ ms.locfileid: "104092437"
 <tr class="odd">
 <td><strong>識別碼</strong><br/></td>
 <td>xs： positiveInteger union xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>唯一的資源識別碼。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 和 xs： string 的聯集) <br/> </dt> <dd> 介於2和59999（含）之間的整數值，或以十六進位（含）表示的0xea5f。 <br/> 最大長度為10個字元，包括選擇性前置零。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinDPI</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 最小值為96的任何數位序列。 <br/> 如果省略 MinDPI，預設值為96。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>來源</strong><br/></td>
 <td>xs:anyURI<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： anyURI) <br/> </dt> <dd> 表示 URI 的任何字元序列。 URI 值是功能區標記檔案的絕對或相對 (，) 類型為 BMP 之影像資源的路徑。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>符號</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>影像的資源符號。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 由字母或底線組成的字串，後面接著字母、數位或底線的任意序列，最多100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -143,12 +143,8 @@ ms.locfileid: "104092437"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

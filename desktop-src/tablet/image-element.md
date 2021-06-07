@@ -4,12 +4,12 @@ ms.assetid: fbb86bef-68f7-4aad-8a98-1c68e79ea2de
 title: Image 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8437495a4c248a8e5bc68a0f7b75a2cf7d761387
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9dd3b37a39ce45ee0294f46922fbab376523b64
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975361"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432580"
 ---
 # <a name="image-element"></a>Image 元素
 
@@ -50,7 +50,7 @@ ms.locfileid: "106975361"
 
 
 
-|              |                                                         |
+|  元素     | 值                                                     |
 |--------------|---------------------------------------------------------|
 | 項目類型 | [**ImageType**](imagetype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink              |

@@ -4,12 +4,12 @@ ms.assetid: efeed3a6-de5e-4698-9dc3-d0acb3d13dee
 title: Title 項目
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2362e286482b329c50788b8eae4b4a30cbd1a125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef687f809aae5c3722cdad84ee63d79c7bfcfb21
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981214"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432220"
 ---
 # <a name="title-element"></a>Title 項目
 
@@ -57,7 +57,7 @@ ms.locfileid: "106981214"
 <td>必要</td>
 <td>指定附注標題周圍的框線類型。</td>
 <td><ul>
-<li>無</li>
+<li>None</li>
 <li>SolidSquare</li>
 <li>OutlineSquare</li>
 <li>SolidRoundRect</li>
@@ -71,14 +71,14 @@ ms.locfileid: "106981214"
 <td>必要</td>
 <td>定義標題是否包含日期。</td>
 <td><ul>
-<li>無</li>
+<li>None</li>
 <li>Short</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td><strong>色彩</strong></td>
 <td><a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a></td>
-<td>選擇性</td>
+<td>選用</td>
 <td>指定背景的色彩。</td>
 <td>請參閱 <a href="colortype-simple-type.md"><strong>ColorType simpleType</strong></a>。</td>
 </tr>
@@ -93,7 +93,7 @@ ms.locfileid: "106981214"
 
 
 
-|              |                                                         |
+| 元素      | 值                                                   |
 |--------------|---------------------------------------------------------|
 | 項目類型 | [**TitleType**](titletype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink              |

@@ -4,12 +4,12 @@ ms.assetid: 65f8f7a4-757b-43a3-9d47-b115754c89d6
 title: IPPROTO_IPV6 通訊端選項
 ms.topic: article
 ms.date: 10/07/2019
-ms.openlocfilehash: 1ceaf08c2a59a24b9ff694ac9ff42b28fbf18480
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86f8156f91e5f7e185319224e06d7bf54e87c6da
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994042"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444249"
 ---
 # <a name="ipproto_ipv6-socket-options"></a>IPPROTO \_ IPV6 通訊端選項
 
@@ -21,7 +21,7 @@ ms.locfileid: "106994042"
 
 ## <a name="options"></a>選項。
 
-| 選項 | get | set | Optval 類型 | Description |
+| 選項 | get | set | Optval 類型 | 描述 |
 |-|-|-|-|-|
 | IP \_ 原始 \_ 抵達（ \_ 如果 | 是 | 是 | DWORD (布林值)  | 指出 [**LPFN_WSARECVMSG (WSARECVMSG)**](/windows/win32/api/mswsock/nc-mswsock-lpfn_wsarecvmsg) 函式是否應該傳回選擇性的控制項資料，其中包含針對資料包通訊端接收封包的原始抵達介面。 此選項適用于 IPv6 轉換技術 (6to4、ISATAP 和 Teredo 通道，例如，當 IPv6 主機必須將 IP4 網路移到其他 IPv6 網路時，為單播 IPv6 流量提供位址指派和主機對主機自動通道的) 。 IPv6 封包是以通道方式傳送為 IPv4 封包。 此選項可讓已接收封包的原始 IPv4 介面，在 [**WSAMSG**](/windows/desktop/api/Ws2def/ns-ws2def-wsamsg) 結構中傳回。  |
 | IPV6_ADD_IFLIST | | 是 | DWORD (IF_INDEX)  | 將介面索引加入與 **IP_IFLIST** 選項相關聯的 IFLIST。 |
@@ -53,14 +53,14 @@ ms.locfileid: "106994042"
 | 選項 | Windows 8 | Windows Server 2012 | Windows 7 | Windows Server 2008 | Windows Vista |
 |-|-|-|-|-|-|
 | IP \_ 原始 \_ 抵達（ \_ 如果 | x | x | x | | |
-| IPV6_ADD_IFLIST | 從 Windows 10 開始，版本1803 | | | | | |
+| IPV6_ADD_IFLIST | 從 Windows 10 開始，版本1803 | | | | |
 | IPV6 \_ 新增 \_ 成員資格 | x | x | x | x | x |
-| IPV6_DEL_IFLIST | 從 Windows 10 開始，版本1803 | | | | | |
+| IPV6_DEL_IFLIST | 從 Windows 10 開始，版本1803 | | | | |
 | IPV6 \_ 捨棄 \_ 成員資格 | x | x | x | x | x |
-| IPV6_GET_IFLIST | 從 Windows 10 開始，版本1803 | | | | | |
+| IPV6_GET_IFLIST | 從 Windows 10 開始，版本1803 | | | | |
 | IPV6 \_ HDRINCL | x | x | x | x | x |
 | IPV6 \_ HOPLIMIT | x | x | x | x | x |
-| IPV6_IFLIST | 從 Windows 10 開始，版本1803 | | | | | |
+| IPV6_IFLIST | 從 Windows 10 開始，版本1803 | | | | |
 | IPV6 \_ 聯結 \_ 群組 | x | x | x | x | x |
 | IPV6 \_ 離開 \_ 群組 | x | x | x | x | x |
 | IPV6 \_ 多播 \_ 躍點 | x | x | x | x | x |

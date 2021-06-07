@@ -4,12 +4,12 @@ ms.assetid: b78ed5a3-ce7a-44fc-bc46-ad0332f9767c
 title: LineLayout 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5421e60fb6520eb93818c312a703ceb3f21c234
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6de772a19f1021644c45632b35c70537fea14626
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193144"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432314"
 ---
 # <a name="linelayout-element"></a>LineLayout 元素
 
@@ -41,7 +41,7 @@ ms.locfileid: "104193144"
 
 
 
-|              |                                                                   |
+|  元素     | 值                                                     |
 |--------------|-------------------------------------------------------------------|
 | 項目類型 | [**LineLayoutType**](linelayouttype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                        |

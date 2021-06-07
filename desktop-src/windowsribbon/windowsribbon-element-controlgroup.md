@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: dd6df69f788efe01b9eb2c7ffe0aaddd98bd7198
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7d2b49612102d03003c2f61395a56647aaef4475
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374270"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442939"
 ---
 # <a name="controlgroup-element"></a>ControlGroup 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "104374270"
 <tr class="odd">
 <td><strong>SequenceNumber</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有當 <a href="windowsribbon-element-group.md"><strong>群組</strong></a> 是父元素時才有效。<br/> 每個 <em>SequenceNumber</em> 在 <a href="windowsribbon-element-group.md"><strong>Group</strong></a> 元素內都必須是唯一的。 <em>SequenceNumber</em>的值應該會增加每個<strong>群組</strong>元素，但不需要是連續的。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1000和59999之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
@@ -94,7 +94,7 @@ ms.locfileid: "104374270"
 | 元素                                                                             |
 |-------------------------------------------------------------------------------------|
 | **ControlGroup**<br/>                                                         |
-| [**Group**](windowsribbon-element-group.md)<br/>                             |
+| [**群組**](windowsribbon-element-group.md)<br/>                             |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
 | [**資料列**](windowsribbon-element-row.md)<br/>                                 |
 
@@ -206,12 +206,8 @@ ms.locfileid: "104374270"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

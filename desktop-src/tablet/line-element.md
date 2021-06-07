@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.shapes.h
-ms.openlocfilehash: db36c2d31960b04023229b5b3bad2bcba99d7ab6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 91663ba7462db6b8d3ec5a4ed1c91bfe2b66e5a2
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993663"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432400"
 ---
 # <a name="line-element"></a>Line 元素
 
@@ -46,7 +46,7 @@ ms.locfileid: "106993663"
 
 
 
-|              |                                                       |
+|  元素     | 值                                                     |
 |--------------|-------------------------------------------------------|
 | 項目類型 | [**LineType**](linetype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink            |

@@ -4,12 +4,12 @@ ms.assetid: 9b6359c2-0113-49b6-83d0-316ad95aba1b
 title: 同步處理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf235321914fd0e340e47d23095f3884f24d13c7
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: fba1fce45eeb602040c2bc9d60c9e1bfc63b246a
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349953"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549980"
 ---
 # <a name="synchronization-functions"></a>同步處理函式
 
@@ -34,7 +34,7 @@ ms.locfileid: "111349953"
 
 
 
-| 非同步函式                                  | Description                                                                                           |
+| 非同步函式                                  | 描述                                                                                           |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------|
 | [**APCProc**](/windows/win32/api/winnt/nc-winnt-papcfunc)                             | 搭配 [**QueueUserAPC**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-queueuserapc) 函式使用的應用程式定義回呼函數。 |
 | [**GetOverlappedResult**](/windows/win32/api/ioapiset/nf-ioapiset-getoverlappedresult)     | 抓取重迭運算的結果。                                                     |
@@ -49,7 +49,7 @@ ms.locfileid: "111349953"
 
 
 
-| Condition 變數和 SRW lock 函數                           | Description                                                                                                                                       |
+| Condition 變數和 SRW lock 函數                           | 描述                                                                                                                                       |
 |--------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AcquireSRWLockExclusive**](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockexclusive)         | 取得超薄的讀取器/寫入器 (在獨佔模式中 SRW) 鎖定。                                                                                       |
 | [**AcquireSRWLockShared**](/windows/win32/api/synchapi/nf-synchapi-acquiresrwlockshared)               | 取得輕巧的讀取器/寫入器 (在共用模式中 SRW) 鎖定。                                                                                          |
@@ -72,7 +72,7 @@ ms.locfileid: "111349953"
 
 
 
-| Critical 區段函數                                                              | Description                                                                             |
+| Critical 區段函數                                                              | 描述                                                                             |
 |----------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | [**DeleteCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-deletecriticalsection)                                 | 釋放由無人擁有的重要區段物件所使用的所有資源。                      |
 | [**EnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-entercriticalsection)                                   | 等候指定之重要區段物件的擁有權。                           |
@@ -91,7 +91,7 @@ ms.locfileid: "111349953"
 
 
 
-| Event 函數                         | Description                                                                                                                                                  |
+| Event 函數                         | 描述                                                                                                                                                  |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa)     | 建立或開啟已命名或未命名的事件物件。                                                                                                            |
 | [**CreateEventEx**](/windows/win32/api/synchapi/nf-synchapi-createeventexa) | 建立或開啟已命名或未命名的事件物件，並將控制碼傳回物件。                                                                         |
@@ -108,7 +108,7 @@ ms.locfileid: "111349953"
 
 
 
-| 單次初始化函數                           | Description                                                                                                                                                                                                 |
+| 單次初始化函數                           | 描述                                                                                                                                                                                                 |
 |------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**InitOnceBeginInitialize**](/windows/win32/api/synchapi/nf-synchapi-initoncebegininitialize) | 開始一次初始化。                                                                                                                                                                             |
 | [**InitOnceComplete**](/windows/win32/api/synchapi/nf-synchapi-initoncecomplete)               | 完成一次初始化。                                                                                                                                                                          |
@@ -123,7 +123,7 @@ ms.locfileid: "111349953"
 
 
 
-| 連鎖函數                                                                         | Description                                                                                                                                                                                                                                                                               |
+| 連鎖函數                                                                         | 描述                                                                                                                                                                                                                                                                               |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**InterlockedAdd**](/windows/desktop/api/Winnt/nf-winnt-interlockedadd)                                                     | 在指定的 **LONG** 值上執行不可部分完成的加法運算。                                                                                                                                                                                                                   |
 | [**InterlockedAddAcquire**](/windows/win32/api/winnt/nf-winnt-_inlineinterlockedadd)                                       | 在指定的 **LONG** 值上執行不可部分完成的加法運算。 執行作業時，會使用取得記憶體順序的語法。                                                                                                                                                |
@@ -266,7 +266,7 @@ ms.locfileid: "111349953"
 
 
 
-| Mutex 函數                         | Description                                                                          |
+| Mutex 函數                         | 描述                                                                          |
 |----------------------------------------|--------------------------------------------------------------------------------------|
 | [**CreateMutex**](/windows/win32/api/synchapi/nf-synchapi-createmutexa)     | 建立或開啟已命名或未命名的 mutex 物件。                                    |
 | [**CreateMutexEx**](/windows/win32/api/synchapi/nf-synchapi-createmutexexa) | 建立或開啟已命名或未命名的 mutex 物件，並將控制碼傳回物件。 |
@@ -281,7 +281,7 @@ ms.locfileid: "111349953"
 
 
 
-| 私用命名空間函數                                                             | Description                                                                         |
+| 私用命名空間函數                                                             | 描述                                                                         |
 |----------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | [**AddSIDToBoundaryDescriptor**](/windows/win32/api/namespaceapi/nf-namespaceapi-addsidtoboundarydescriptor)                       | 將新的安全識別碼 (SID) 新增至指定的界限描述項。          |
 | [**AddIntegrityLabelToBoundaryDescriptor**](/windows/desktop/api/WinBase/nf-winbase-addintegritylabeltoboundarydescriptor) | 將新的必要安全識別碼 (SID) 新增至指定的界限描述項。 |
@@ -299,7 +299,7 @@ ms.locfileid: "111349953"
 
 
 
-| 信號函數                             | Description                                                                              |
+| 信號函數                             | 描述                                                                              |
 |------------------------------------------------|------------------------------------------------------------------------------------------|
 | [**CreateSemaphore**](/windows/desktop/api/WinBase/nf-winbase-createsemaphorea)     | 建立或開啟已命名或未命名的信號物件。                                    |
 | [**CreateSemaphoreEx**](/windows/desktop/api/WinBase/nf-winbase-createsemaphoreexa) | 建立或開啟已命名或未命名的信號物件，並將控制碼傳回物件。 |
@@ -314,7 +314,7 @@ ms.locfileid: "111349953"
 
 
 
-| 單一連結清單函數                                          | Description                                                                                                                                                                                                                                                  |
+| 單一連結清單函數                                          | 描述                                                                                                                                                                                                                                                  |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**InitializeSListHead**](/windows/win32/api/interlockedapi/nf-interlockedapi-initializeslisthead)                   | 初始化單一連結清單的標頭。                                                                                                                                                                                                                |
 | [**InterlockedFlushSList**](/windows/win32/api/interlockedapi/nf-interlockedapi-interlockedflushslist)               | 清除單一連結清單中的整個專案清單。                                                                                                                                                                                                    |
@@ -338,7 +338,7 @@ ms.locfileid: "111349953"
 
 
 
-| 同步處理屏障函數                                             | Description                                                                                                    |
+| 同步處理屏障函數                                             | 描述                                                                                                    |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [**DeleteSynchronizationBarrier**](/windows/desktop/api/SynchAPI/nf-synchapi-deletesynchronizationbarrier)         | 刪除同步處理屏障。                                                                             |
 | [**EnterSynchronizationBarrier**](/windows/desktop/api/synchapi/nf-synchapi-entersynchronizationbarrier)           | 進入同步處理屏障，並等待適當數目的執行緒在關卡上會合。 |
@@ -352,12 +352,12 @@ ms.locfileid: "111349953"
 
 
 
-| 計時器-佇列計時器函式                             | Description                  |
+| 計時器-佇列計時器函式                             | 描述                  |
 |--------------------------------------------------------|------------------------------|
 | [**ChangeTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-changetimerqueuetimer) | 更新計時器佇列計時器。 |
 | [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue)           | 建立計時器的佇列。  |
 | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) | 建立計時器佇列計時器。 |
-| [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue)           | 刪除計時器佇列。       |
+| [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)           | 刪除計時器佇列。       |
 | [**DeleteTimerQueueEx**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueueex)       | 刪除計時器佇列。       |
 | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer) | 取消計時器佇列計時器。 |
 
@@ -369,7 +369,7 @@ ms.locfileid: "111349953"
 
 
 
-| Wait 函式                                                      | Description                                                                                                                                                                                                                                                |
+| Wait 函式                                                      | 描述                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects)     | 等候一個或所有指定的物件處於已發出信號的狀態，或超過逾時間隔。 這些物件可以包含輸入事件物件。                                                                                                   |
 | [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex) | 等候一或所有指定的物件處於已發出信號的狀態， (APC) 的 i/o 完成常式或非同步程序呼叫會排入執行緒的佇列中，或經過逾時間隔。 物件的陣列可以包含輸入事件物件。 |
@@ -394,7 +394,7 @@ ms.locfileid: "111349953"
 
 
 
-| 可等候-timer 函數                                | Description                                                                                                       |
+| 可等候-timer 函數                                | 描述                                                                                                       |
 |--------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | [**CancelWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-cancelwaitabletimer)     | 將指定的可等候計時器設定為非作用中狀態。                                                          |
 | [**CreateWaitableTimer**](/windows/win32/api/synchapi/nf-synchapi-createwaitabletimerw)     | 建立或開啟可等候計時器物件。                                                                         |

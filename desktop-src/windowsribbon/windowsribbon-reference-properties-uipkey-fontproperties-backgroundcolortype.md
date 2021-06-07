@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ BackgroundColorType 屬性�
 ms.assetid: d93f4d9f-3d35-4066-be94-f6b6b4302bff
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 568898cb2706eb932ea708f929aa4791f0643c74
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45bbd2056087d584663c8ca716c4021554098dfa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463220"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443819"
 ---
 # <a name="ui_pkey_fontproperties_backgroundcolortype"></a>UI \_ PKEY \_ FontProperties \_ BackgroundColorType
 
@@ -37,7 +37,7 @@ UI \_ PKEY \_ FontProperties \_ BackgroundColorType 是由應用程式搭配 [ui
 
 
 
-|                                |                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+|   屬性                             |   描述                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `UI_SWATCHCOLORTYPE_NOCOLOR`   | 應用程式應該針對色彩值查詢適當的系統計量，通常是以 GetSysColor (色彩視窗) 抓取的目前 Windows 主題 **視窗背景色彩** \_ 。                                                                                                                                                                                                                                                                 |
 | `UI_SWATCHCOLORTYPE_AUTOMATIC` | [**FontControl**](windowsribbon-element-fontcontrol.md)不支援。                                                                                                                                                                                                                                                                                                                                                                                |

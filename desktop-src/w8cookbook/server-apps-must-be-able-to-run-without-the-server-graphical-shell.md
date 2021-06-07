@@ -4,12 +4,12 @@ description: 伺服器應用程式必須能夠在沒有伺服器圖形化 Shell 
 ms.assetid: 8F531497-B64D-4E79-AD7A-790EFDC6ADFE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7666ae07a28d798a36d249bf37ab2d7719b9fba0
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: ae2a3002fc2395faba3e07d90a2322c770fe3ee9
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "104383146"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443219"
 ---
 # <a name="server-apps-must-be-able-to-run-without-the-server-graphical-shell"></a>伺服器應用程式必須能夠在沒有伺服器圖形化 Shell 的情況下執行
 
@@ -17,7 +17,7 @@ ms.locfileid: "104383146"
 
 **伺服器** – Windows Server 2012 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 伺服器圖形化介面（包含 Windows 檔案總管和 Internet Explorer 的功能）預設會安裝在 Windows Server 2012 的「Server 含 GUI」安裝中。 您可以卸載伺服器圖形化介面功能，以降低潛在的服務和效能，進而限制伺服器可能產生的重新開機次數，同時仍允許在伺服器本機上執行管理工具。
 
@@ -62,7 +62,7 @@ HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersio
 
 
 
-|                  | Server Core | 基本伺服器介面 | 伺服器圖形化 Shell |
+|   &nbsp;         | Server Core | 基本伺服器介面 | 伺服器圖形化 Shell |
 |------------------|-------------|--------------------------|------------------------|
 | ServerCore = 1     | X           | X                        | X                      |
 | 伺服器-GuiMgmt = 1 |             | X                        | X                      |
@@ -70,7 +70,7 @@ HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersio
 
 
 
- 
+ 
 
 上表中的 "X" 代表安裝對應的功能時，將會出現登錄機碼。
 
@@ -86,6 +86,6 @@ HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows NT \\ CurrentVersio
 
 -   [MSDN 上的現有伺服器核心檔](/previous-versions/windows/desktop/legacy/ms723891(v=vs.85))
 
- 
+ 
 
- 
+ 
