@@ -4,12 +4,12 @@ description: 使用者與文字的互動比 Microsoft Windows 中的任何其他
 ms.assetid: 6d4f669d-d28c-4585-9bc3-ecda44de6df5
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 6c5fad1459d4ce45f2d677d4bd5864d89b125e4e
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: b74c9a593cb8d73d67464133042dfcf0aef7eb74
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "103696107"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444569"
 ---
 # <a name="fonts"></a>字型
 
@@ -105,7 +105,7 @@ Meiryo 包含以 Verdana 為基礎的拉丁字元。 Malgun Mt、Microsoft Jheng
 
 
 
-|                                                                                                                                                                                                                                                           |                                                                                                                                                       |
+|    使用量                                         |    描述                            |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **標題列文字**<br/> 標題列上用來識別視窗的文字。<br/>                                                                                                                                                                | ![標題列文字字型的範例 ](images/vis-fonts-image2.png)<br/>                                                                            |
 | **主要指示**<br/> 說明要在頁面、視窗或對話方塊上做些什麼的文字。 <br/>                                                                                                                                              | ![主要指示文字字型的範例 ](images/vis-fonts-image3.png)<br/>                                                                    |
@@ -132,16 +132,15 @@ Meiryo 包含以 Verdana 為基礎的拉丁字元。 Malgun Mt、Microsoft Jheng
 
 
 
-|                                                                                               |                             |                                                            |
+| 模式 | 主題符號 | 字型、色彩 |
 |-----------------------------------------------------------------------------------------------|-----------------------------|------------------------------------------------------------|
-| **模式**<br/>                                                                        | **主題符號**<br/> | **字型、色彩**<br/>                                 |
 | ![標題列文字字型的範例 ](images/vis-fonts-image2.png)<br/>                    | CaptionFont<br/>      | 9 pt。 黑色 (\# 000000) Segoe UI<br/>                 |
 | ![主要指示文字字型的範例 ](images/vis-fonts-image3.png)<br/>            | MainInstruction<br/>  | 12 pt。 藍色 (\# 003399) Segoe UI<br/>                 |
 | ![次要指示文字字型的範例 ](images/vis-fonts-image4.png)<br/>       | 指令<br/>      | 9 pt。 黑色 (\# 000000) Segoe UI<br/>                 |
 | ![一般文字字型的範例 ](images/vis-fonts-image5.png)<br/>                       | BodyText<br/>         | 9 pt。 黑色 (\# 000000) Segoe UI<br/>                 |
 | ![強調文字字型的範例 ](images/vis-fonts-image6.png)<br/>                   | BodyText<br/>         | 9 pt。 黑色 (\# 000000) Segoe UI、粗體或斜體<br/> |
 | ![可編輯文字字型的範例 ](images/vis-fonts-image7.png)<br/>                     | BodyText<br/>         | 9 pt。 \#box 中的黑色 (000000) Segoe UI<br/>       |
-| ![停用文字字型的範例 ](images/vis-fonts-image8.png)<br/>                     | Disabled<br/>         | 9 pt。 暗灰色 (\# 323232) Segoe UI<br/>             |
+| ![停用文字字型的範例 ](images/vis-fonts-image8.png)<br/>                     | 停用<br/>         | 9 pt。 暗灰色 (\# 323232) Segoe UI<br/>             |
 | ![連結文字字型的範例 ](images/vis-fonts-image9.png)<br/>                         | HyperLinkText<br/>    | 9 pt。 blue (\# 0066CC) Segoe UI<br/>                  |
 | ![ (將滑鼠停留) 文字字型的連結範例 ](images/vis-fonts-image10.png)<br/>               | 經常性存取層<br/>              | 9 pt。 淺藍色 (\# 3399FF) Segoe UI<br/>            |
 | ![群組標頭文字字型的範例 ](images/vis-fonts-image11.png)<br/>                |                             | 11 pt。 藍色 (\# 003399) Segoe UI<br/>                 |
@@ -157,9 +156,8 @@ Meiryo 包含以 Verdana 為基礎的拉丁字元。 Malgun Mt、Microsoft Jheng
 
 
 
-|                                            |                                                       |                                                                                                                                                                                                                                                                                                                                                                  |
+| UI 技術 | 目標 Windows 版本 | 使用和優化的字型 |
 |--------------------------------------------|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **UI 技術**<br/>               | **目標 Windows 版本**<br/>                 | **使用和優化的字型**<br/>                                                                                                                                                                                                                                                                                                                     |
 | Windows Presentation Foundation<br/> | 全部<br/>                                        | 使用 WPF 主題元件。<br/>                                                                                                                                                                                                                                                                                                                                  |
 | Win32 或 WinForms<br/>               | Windows Vista 或更新版本<br/>                     | 使用適當的 Segoe UI 字型。<br/>                                                                                                                                                                                                                                                                                                                    |
 |                                            | 可擴充元件或 Windows Vista 之前的元件<br/> | 若要以 Windows XP 和 Windows 2000 為目標，請使用8點 MS Shell Dlg 2 虛擬字型，其會對應至 Tahoma。<br/> 若要將目標設為舊版 Windows，請使用8點 MS Shell Dlg 虛擬字型，其對應至 Windows 2000 和 Windows XP 上的 Tahoma，以及 Windows 95、Windows 98、Windows Millennium Edition 和 Windows NT 4.0 的 MS Sans Serif。<br/> |

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e813538cfcb995949cbe1fb8ec6a3b0d7772061c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b697b8fa2d0715dcf0282c5f32490bfccec79fec
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685682"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387674"
 ---
 # <a name="taskfoldergettask-property"></a>TaskFolder. GetTask 屬性
 
@@ -40,7 +40,7 @@ TaskFolder.GetTask( _
 
 ## <a name="property-value"></a>屬性值
 
-路徑 (位置) 至資料夾中的工作。 根工作資料夾是以反斜線 (指定 \) 。 根工作資料夾下的工作資料夾路徑範例是 \\ MyTaskFolder。 '. ' 字元不能用來指定目前的工作資料夾與 ' ... ' 字元不能用來指定路徑中的父工作資料夾。
+路徑 (位置) 至資料夾中的工作。 根工作資料夾是以反斜線 () 指定 \\ 。 根工作資料夾下的工作資料夾路徑範例是 \\ MyTaskFolder。 '. ' 字元不能用來指定目前的工作資料夾與 ' ... ' 字元不能用來指定路徑中的父工作資料夾。
 
 ## <a name="error-codes"></a>錯誤碼
 

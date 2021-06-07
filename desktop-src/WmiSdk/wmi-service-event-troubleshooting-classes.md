@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 服務事件疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbf3728b6ae150a948fdf71515e27f17ca7280f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e811ac5b276e5562f73b5b432d5f3255af5bab7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194908"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443059"
 ---
 # <a name="wmi-service-event-troubleshooting-classes"></a>WMI 服務事件疑難排解類別
 
@@ -20,7 +20,7 @@ Wmi 服務事件疑難排解類別是由 WMI 服務內的事件所產生，例�
 
 
 
-|                                                                                           |                                                                                                     |
+|   事件                                                                                        |   描述                                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [**MSFT \_ WmiEssEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiessevent)                                   | 所有 Windows Management Instrumentation (WMI) 事件子系統 (ESS) 自我事件的父類別。 |
 | [**MSFT \_ WmiRegisterNotificationEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiregisternotificationevent) | 表示建立事件查詢通知的事件接收。                       |

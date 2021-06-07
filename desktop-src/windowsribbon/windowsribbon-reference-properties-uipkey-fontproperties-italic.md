@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ 斜體屬性。
 ms.assetid: 53edd88e-ed7e-4385-9fd9-bfa90be348cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00825807c57632b1bbea69c47bc9b90d705efa94
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8d0dfa07b5112e91d8c25a4ff8c4f31175adf9b7
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375597"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443809"
 ---
 # <a name="ui_pkey_fontproperties_italic"></a>UI \_ PKEY \_ FontProperties \_ 斜體
 
@@ -17,12 +17,12 @@ ms.locfileid: "104375597"
 
 ```
 propertyDescription
-   name = UI_PKEY_FontProperties_Italic
-   shellPKey = UI_PKEY_FontProperties_Italic
-   formatID = 00000304-7363-696e-8441798acf5aebb7
-   propID = 304
-   typeInfo
-      type = UI_FONTPROPERTIES
+   name = UI_PKEY_FontProperties_Italic
+   shellPKey = UI_PKEY_FontProperties_Italic
+   formatID = 00000304-7363-696e-8441798acf5aebb7
+   propID = 304
+   typeInfo
+      type = UI_FONTPROPERTIES
 ```
 
 ## <a name="remarks"></a>備註
@@ -37,7 +37,7 @@ UI \_ PKEY \_ FontProperties \_ 斜體是由應用程式用來查詢 **斜體** 
 
 
 
-|                                  |                                                                       |
+|    屬性                      |       UI 結果                                                       |
 |----------------------------------|-----------------------------------------------------------------------|
 | `UI_FONTPROPERTIES_NOTAVAILABLE` | **斜體** 按鈕已停用，而且只能由應用程式設定。 |
 | `UI_FONTPROPERTIES_NOTSET`       | 未選取 [**斜體**] 按鈕。                                    |
@@ -45,7 +45,7 @@ UI \_ PKEY \_ FontProperties \_ 斜體是由應用程式用來查詢 **斜體** 
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -60,6 +60,6 @@ UI \_ PKEY \_ FontProperties \_ 斜體是由應用程式用來查詢 **斜體** 
 [字型控制項](windowsribbon-controls-fontcontrol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

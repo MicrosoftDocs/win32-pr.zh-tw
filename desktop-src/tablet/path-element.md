@@ -4,12 +4,12 @@ ms.assetid: bf7f39ec-8f1f-437c-b172-fd6f94af97bc
 title: Path 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 707dda1a82a99b863148be5fa312900f6cfe28eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8299e66874a04ba9ff338b0b77d73ffd547ec4
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026900"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432373"
 ---
 # <a name="path-element"></a>Path 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104026900"
 
 
 
-|              |                                            |
+|  元素     | 值                                                     |
 |--------------|--------------------------------------------|
 | 項目類型 | **xs:string**                              |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink |

@@ -4,16 +4,16 @@ ms.assetid: 779156fe-f825-452b-acbe-e2cb189e24d2
 title: 使用計時器佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a13f7afd18a22c42e3af8cffd8b2b148f68b9d99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d084a03eb25301f94361c1e7ca6b76dd9fee269
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988348"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549930"
 ---
 # <a name="using-timer-queues"></a>使用計時器佇列
 
-下列範例會建立一個計時器常式，此常式會在10秒延遲之後，由 [計時器佇列](timer-queues.md) 中的執行緒執行。 首先，程式碼會使用 [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) 函式來建立計時器佇列執行緒完成時發出信號的事件物件。 然後，它會分別使用 [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) 和 [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) 函數來建立計時器佇列和計時器佇列計時器。 程式碼會使用 [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) 函數來判斷計時器常式何時完成。 最後，程式碼會呼叫 [**DeleteTimerQueue**](/windows/desktop/api/WinBase/nf-winbase-deletetimerqueue) 來進行清除。
+下列範例會建立一個計時器常式，此常式會在10秒延遲之後，由 [計時器佇列](timer-queues.md) 中的執行緒執行。 首先，程式碼會使用 [**CreateEvent**](/windows/win32/api/synchapi/nf-synchapi-createeventa) 函式來建立計時器佇列執行緒完成時發出信號的事件物件。 然後，它會分別使用 [**CreateTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueue) 和 [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer) 函數來建立計時器佇列和計時器佇列計時器。 程式碼會使用 [**WaitForSingleObject**](/windows/win32/api/winbase/nf-winbase-registerwaitforsingleobject) 函數來判斷計時器常式何時完成。 最後，程式碼會呼叫 [**DeleteTimerQueue**](/windows/desktop/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue) 來進行清除。
 
 如需計時器常式的詳細資訊，請參閱 [**WaitOrTimerCallback**](/previous-versions/windows/desktop/legacy/ms687066(v=vs.85))。
 

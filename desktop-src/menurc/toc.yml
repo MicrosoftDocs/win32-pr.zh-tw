@@ -44,7 +44,7 @@
                 - name: EnumResourceLanguagesEx
                   href: /windows/desktop/api//rrascfg/nf-rrascfg-ieapproviderconfig-initialize
                 - name: EnumResourceNames
-                  href: /windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa
+                  href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa
                 - name: EnumResourceNamesEx
                   href: /windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesexw
                 - name: EnumResourceTypes
@@ -519,7 +519,7 @@
                   href: /windows/desktop/api/Winuser/nf-winuser-wsprintfa
                 - name: wvsprintf
                   href: /windows/desktop/api/Winuser/nf-winuser-wvsprintfa
-            - name: '>strsafe.h 函式'
+            - name: '>Strsafe.h 函式'
               href: string-overviews.md
               items:
                 - name: StringCbCat

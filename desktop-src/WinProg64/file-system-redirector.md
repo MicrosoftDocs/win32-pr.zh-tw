@@ -8,12 +8,12 @@ keywords:
 - WOW64 64 位 Windows 程式設計，檔案系統重新導向程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 561d03c8da51bd37a2d97746296bc74e24e43154
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 568ddde85d18f90b951051251774c3509081dfdd
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023806"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443629"
 ---
 # <a name="file-system-redirector"></a>檔案系統重新導向程式
 
@@ -24,24 +24,23 @@ ms.locfileid: "104023806"
 > [!Note]  
 > 這些路徑僅提供供參考之用。 為了相容，應用程式不應該直接使用這些路徑。 相反地，它們應該呼叫如下所述的 Api。
 
- 
+ 
 
 
 
-|                              |                                          |                                          |
-|------------------------------|------------------------------------------|------------------------------------------|
 | 原始路徑                | 32位 x86 進程的重新導向路徑 | 32位 ARM 進程的重新導向路徑 |
+|------------------------------|------------------------------------------|------------------------------------------|
 | % windir% \\ System32           | % windir% \\ SysWOW64                       | % windir% \\ SysArm32                       |
 | % windir% \\ lastgood \\ system32 | % windir% \\ lastgood \\ SysWOW64             | % windir% \\ lastgood \\ SysArm32             |
 | % windir% \\regedit.exe        | % windir% \\ SysWOW64 \\regedit.exe          | % windir% \\ SysArm32 \\regedit.exe         |
 
 
 
- 
+ 
 
 如果存取導致系統顯示 UAC 提示，則不會發生重新導向。 相反地，會啟動所要求檔案的64位版本。 若要避免這個問題，請指定 SysWOW64 目錄以避免重新導向，並確保存取32位版本的檔案，或以系統管理員許可權執行32位應用程式，如此就不會顯示 UAC 提示。
 
-**Windows Server 2003 和 WINDOWS XP：  ** 不支援 UAC。
+* * Windows Server 2003 和 Windows XP： * * 不支援 UAC。
 
 某些子目錄豁免于重新導向。 這些子目錄的存取權不會重新導向至% windir% \\ SysWOW64： <dl> % windir% \\ system32 \\ catroot  
 % windir% \\ system32 \\ catroot2  
@@ -51,7 +50,7 @@ ms.locfileid: "104023806"
 % windir% \\ system32 多工 \\ 緩衝處理  
 </dl>
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：  **% windir% \\ system32 \\ driverstore 已重新導向。
+* * Windows Server 2008、Windows Vista、Windows Server 2003 和 Windows XP： * *% windir% \\ system32 \\ driverstore 已重新導向。
 
 若要取出32位系統目錄的名稱，64位應用程式應該使用 [**GetSystemWow64Directory2**](/windows/desktop/api/wow64apiset/nf-wow64apiset-getsystemwow64directory2a) 函式 (Windows 10、1511版) 或 [**GetSystemWow64Directory**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetknownfolderpath) 函數。
 
@@ -65,6 +64,6 @@ ms.locfileid: "104023806"
 
 **Windows Server 2003 和 WINDOWS XP：** 從 Windows Vista 開始，已新增 Sysnative 別名。
 
- 
+ 
 
- 
+ 

@@ -6,12 +6,12 @@ keywords:
 - 命令列參考 MIDL，回應檔案命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f624f8bb4fd50fa77df604e5d56f48c9e55c89a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26cf4d07ce8465239874ff666537646da2c4c564
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932462"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387664"
 ---
 # <a name="the-response-file-command"></a>回應檔命令
 
@@ -36,7 +36,7 @@ midl @response_file
 
 除了在命令列上放置與參數相關聯的所有選項以外，MIDL 編譯器還接受包含參數和引數的回應檔。 回應檔中的選項會被解讀為 MIDL 命令列中的該位置。
 
-回應檔中的每個引數都必須在同一行的開頭和結尾。 反斜線字元 (\) 不能用來串連行。 當它是回應檔中引號字串的一部分時，反斜線字元只能用在另一個反斜線之前或雙引號字元 ( ") 之前。 當它不是引號字串的一部分時，反斜線字元只能用在雙引號字元之前。
+回應檔中的每個引數都必須在同一行的開頭和結尾。  () 的反斜線字元 \\ 不能用來串連行。 當它是回應檔中引號字串的一部分時，反斜線字元只能用在另一個反斜線之前或雙引號字元 ( ") 之前。 當它不是引號字串的一部分時，反斜線字元只能用在雙引號字元之前。
 
 MIDL 支援命令列引數，其中包含一或多個與其他命令列參數結合的回應檔。
 
@@ -55,9 +55,9 @@ MIDL 編譯器不支援嵌套回應檔。
 [一般 MIDL 命令列語法](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

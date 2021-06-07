@@ -4,12 +4,12 @@ description: 本主題提供的物件角色相關資訊，不包含在 UI 元素
 ms.assetid: 0c3a3ccf-f02a-4aca-9380-a13774598a19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f3d7fbdbb6dfbf83729f3e1c1d4caa3027f8d51
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f17e8573142a57e0acf08980895fdae3ea6d1841
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682789"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443999"
 ---
 # <a name="other-object-roles-and-supported-methods-msaa-ui-element-reference"></a>其他物件角色和支援的方法 (MSAA UI 元素參考) 
 
@@ -18,13 +18,13 @@ ms.locfileid: "103682789"
 > [!Note]  
 > 請使用本主題作為指導方針。 強烈建議您使用 Microsoft Active Accessibility 工具來確認個別物件角色的預期行為。
 
- 
+ 
 
 下表列出 Oleacc.dll 支援的其他物件角色。
 
 
 
-|                                                                         |                                                           |
+| &nbsp; |  &nbsp; |
 |-------------------------------------------------------------------------|-----------------------------------------------------------|
 | [**角色 \_ 系統 \_ 警示**](/windows)                           | [**角色 \_ 系統 \_ DROPLIST**](/windows)       |
 | [**角色 \_ 系統 \_ 應用程式**](/windows)               | [**角色 \_ 系統方程式 \_**](/windows)       |
@@ -43,7 +43,7 @@ ms.locfileid: "103682789"
 
 
 
- 
+ 
 
 ## <a name="role_system_alert"></a>角色 \_ 系統 \_ 警示
 
@@ -564,6 +564,6 @@ ms.locfileid: "103682789"
 -   取得 \_ accRole
 -   取得 \_ accState
 
- 
+ 
 
- 
+ 

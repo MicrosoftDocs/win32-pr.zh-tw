@@ -83,12 +83,12 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 52e3a5b60a331a74ced1888d5a196348497c5ff0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d928228873b893228c7fddc22fc1ca29ca511cd
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693787"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549750"
 ---
 # <a name="shlwapi-wrapper-functions"></a>SHLWAPI 包裝函式
 
@@ -113,7 +113,7 @@ Microsoft Windows NT、Windows 2000、Windows XP、Windows Server 2003 和更新
 
 
 
-| 函式                  | 序數 | 轉寄至                                             | DLL      | 備註                                                                                                                             |
+| 函數                  | 序數 | 轉寄至                                             | DLL      | 備註                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32.DLL   | [ () ](#shlwapi-wrapper-functions)、 [ (f) ](#dragqueryfile)、 [ (功能表) ](#menu)                                                           |
 | CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32.DLL   | [ (我) ](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,11 +187,11 @@ Microsoft Windows NT、Windows 2000、Windows XP、Windows Server 2003 和更新
 
 
 
-| 函式                     | 序數 | 轉寄至                                                                     | DLL      | 備註                                                                        |
+| 函數                     | 序數 | 轉寄至                                                                     | DLL      | 備註                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
-| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/winbase/nf-winbase-deletetimerqueue)                                   | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
+| SHDeleteTimerQueue           | 262     | [**DeleteTimerQueue**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueue)                                   | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
 | SHInterlockedCompareExchange | 342     | [**InterlockedCompareExchangePointer**](/windows/win32/api/winnt/nf-winnt-interlockedcompareexchangepointer) | KERNEL32.DLL | [ (CompareExchange) ](#compareexchange)                                          |
 | SHQueueUserWorkItem          | 260     | [**QueueUserWorkItem**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-queueuserworkitem)                                 | KERNEL32.DLL | [ (QueueUserWorkItem) ](#queueuserworkitem)， [ (h) ](#shlwapi-wrapper-functions)   |
 | SHSetTimerQueueTimer         | 263     | [**CreateTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-createtimerqueuetimer)                         | KERNEL32.DLL | [ (SetTimerQueueTimer) ](#settimerqueuetimer)， [ (h) ](#shlwapi-wrapper-functions) |

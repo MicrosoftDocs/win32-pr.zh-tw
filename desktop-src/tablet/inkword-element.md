@@ -4,12 +4,12 @@ ms.assetid: 1e197716-bf6c-4a28-ae66-38aa59d7371d
 title: InkWord 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 179fb5e2bcce2e01f684f0b39d662e8538c7d27e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8dc9baea7cda0346e82c11331c45f453e61f192
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979011"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432390"
 ---
 # <a name="inkword-element"></a>InkWord 元素
 
@@ -25,7 +25,7 @@ ms.locfileid: "106979011"
 
 [**GroupNode**](groupnode-element.md)
 
-[**線條**](line-element.md)
+[**折線圖**](line-element.md)
 
 ## <a name="child-elements"></a>子元素
 
@@ -63,7 +63,7 @@ ms.locfileid: "106979011"
 
 
 
-|              |                                                             |
+|  元素     | 值                                                     |
 |--------------|-------------------------------------------------------------|
 | 項目類型 | [**InkWordType**](inkwordtype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                  |

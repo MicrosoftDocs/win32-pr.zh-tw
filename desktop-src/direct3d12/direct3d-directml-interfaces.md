@@ -5,12 +5,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 9752b52f1d9a311a1ada6b609a86691a336b77e7
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: 64ae11c5b9a4298c340488499a5a309b71a2d48b
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "106976347"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521174"
 ---
 # <a name="directml-interfaces"></a>DirectML 介面
 
@@ -25,7 +25,7 @@ ms.locfileid: "106976347"
 | [**IDMLCompiledOperator**](/windows/desktop/api/directml/nn-directml-idmlcompiledoperator) | 代表適合在 GPU 上執行的已編譯、有效率的運算子形式。 |
 | [**IDMLDebugDevice**](/windows/desktop/api/directml/nn-directml-idmldebugdevice) | 控制 DirectML 的調試層。 |
 | [**IDMLDevice**](/windows/desktop/api/directml/nn-directml-idmldevice) | 代表用來建立運算子、系結資料表、命令記錄器和其他物件的 DirectML 裝置。 |
-| [**IDMLDevice1**](/windows/desktop/direct3d12/directml/nn-directml-idmldevice1) | 代表用來建立運算子、系結資料表、命令記錄器和其他物件的 DirectML 裝置。 |
+| [**IDMLDevice1**](/windows/desktop/api/directml/nn-directml-idmldevice1) | 代表用來建立運算子、系結資料表、命令記錄器和其他物件的 DirectML 裝置。 |
 | [**IDMLDeviceChild**](/windows/win32/api/directml/nn-directml-idmldevicechild) | 由 DirectML 裝置建立的所有物件所執行的介面。 |
 | [**IDMLDispatchable**](/windows/desktop/api/directml/nn-directml-idmldispatchable) | 由可記錄到命令清單中的物件所執行，以便在 GPU 上使用 [IDMLCommandRecorder：： RecordDispatch](/windows/desktop/api/directml/nf-directml-idmlcommandrecorder-recorddispatch)進行分派。 |
 | [**IDMLObject**](/windows/desktop/api/directml/nn-directml-idmlobject) | [IDMLDevice](/windows/win32/api/directml/nn-directml-idmldevice)和[IDMLDeviceChild](/windows/desktop/api/directml/nn-directml-idmldevicechild)直接繼承 (和所有其他介面的介面，間接) 。 因此，它會提供所有 DirectML 介面通用的方法，特別是用來建立私用資料相關聯的方法，以及為物件名稱加上批註。 |

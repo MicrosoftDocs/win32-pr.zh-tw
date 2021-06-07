@@ -4,12 +4,12 @@ description: 每當使用者按下 ALT + TAB 切換至不同的應用程式時�
 ms.assetid: 77b32eb1-7722-410b-b141-ac09fc7fdffb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eead618e23f8a56c90b37eae2386f16a90f6dd67
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5aa12b5fa3bfb9e6207ddaff4133b030e6c233c3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675619"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443979"
 ---
 # <a name="switch-window-msaa-ui-element-reference"></a>切換視窗 (MSAA UI 元素參考) 
 
@@ -33,7 +33,7 @@ ms.locfileid: "103675619"
 
 
 
- 
+ 
 
 ## <a name="iaccessible-properties"></a>IAccessible 屬性
 
@@ -41,7 +41,7 @@ ms.locfileid: "103675619"
 
 
 
-|                                                                                |                                                                                                                                                                                                                                |
+|      屬性                                                                          |      描述                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**取得 \_ accChildCount**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accchildcount)       | **ChildCount** 屬性為零。                                                                                                                                                                                           |
 | [**取得 \_ accDefaultAction**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accdefaultaction) | 切換視窗物件本身沒有 **DefaultAction** 屬性。 切換視窗中每個專案的 **DefaultAction** 屬性為 "switch"。                                                                     |
@@ -52,7 +52,7 @@ ms.locfileid: "103675619"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "103675619"
 [IAccessible 介面](/windows/desktop/api/oleacc/nn-oleacc-iaccessible)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

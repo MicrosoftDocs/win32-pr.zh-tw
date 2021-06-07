@@ -4,12 +4,12 @@ ms.assetid: CB8D1A5F-B544-462E-8927-F45512CED873
 title: JPEG XR 編解碼器總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f32ffa397667b325d4e49eadf4d8ce42d49e8a88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0d39608535f9be09821d8db3615641a84fd95a6
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985295"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444460"
 ---
 # <a name="jpeg-xr-codec-overview"></a>JPEG XR 編解碼器總覽
 
@@ -37,7 +37,7 @@ JPEG XR 標準主要是以 [HD 相片](hdphoto-format-overview.md) 格式為基�
 
 
 
-|                     |                                                                         |
+|      元件      |    描述                                                          |
 |---------------------|-------------------------------------------------------------------------|
 | 副檔名 | "jxr" 和 "wdp"                                                         |
 | 容器 GUID      | **GUID \_ ContainerFormatWmp**                                            |
@@ -143,7 +143,7 @@ JPEG XR 編解碼器可以執行某些影像轉換，而不需要實際解碼壓
 
 | 資料類型 | VARTYPE     | 範圍 | 預設 |
 |-----------|-------------|-------|---------|
-| **UCHAR** | **VT \_ UI1** | 0–4   | 無    |
+| **UCHAR** | **VT \_ UI1** | 0–4   | None    |
 
 
 

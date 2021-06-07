@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fa3c126a99cddd4918ea9033acffd185ad5cf3da
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 95cbda43fe2f652888a7b84539752b5d671868c3
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103680831"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111442849"
 ---
 # <a name="menugroup-element"></a>MenuGroup 元素
 
@@ -57,7 +57,7 @@ ms.locfileid: "103680831"
 <tr class="odd">
 <td><strong>類別</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>指定功能表 UI 中元素的大小和配置樣式。<br/> 您可以使用 <a href="windowsribbon-element-command-largeimages.md"><strong>LargeImages</strong></a> 和 <a href="windowsribbon-element-command-smallimages.md"><strong>SmallImages</strong></a> 屬性專案，以兩種大小提供影像資源 (大型和小型) ，並與標記中的元素相關聯。 如果只提供一個影像，則架構會視需要調整其大小。<br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (StandardItems) <br/> </dt> <dd> 預設值。 <br/> 樣式：小型影像和反白的文字。<br/><img src="images/markup/menugroup-standarditems.png" alt="Screen shot of a StandardItems button." /></dd> <dt><span></span><span></span><strong></strong> (MajorItems) <br/> </dt> <dd> 樣式：大型影像和粗體文字。<br/>
 <blockquote>
@@ -69,7 +69,7 @@ ms.locfileid: "103680831"
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -211,12 +211,8 @@ ms.locfileid: "103680831"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+* **最低支援系統**： Windows 7
+* **可以是空** 的：否
 
 
 

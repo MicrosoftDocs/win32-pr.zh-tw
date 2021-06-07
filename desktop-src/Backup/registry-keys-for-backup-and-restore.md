@@ -18,12 +18,12 @@ keywords:
 - SYSVOL 備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9796ff96efbc20ac90de6d26a0c1bac7b17633
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e7058378561072bdc0f51abb455c098a22a9ad5e
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111544"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386787"
 ---
 # <a name="registry-keys-and-values-for-backup-and-restore"></a>用於備份和還原的登錄機碼和值
 
@@ -69,7 +69,7 @@ ms.locfileid: "104111544"
 
 \[*磁片磁碟機* \] \[ \] 路徑 \\*檔案名* \[/s\]
 
--   *磁片* 磁碟機指定磁片磁碟機，而且是選擇性的。 例如，c： 若要指定所有磁片磁碟機，請使用反斜線 (\) ; 不需要任何磁碟機號。
+-   *磁片* 磁碟機指定磁片磁碟機，而且是選擇性的。 例如，c： 若要指定所有磁片磁碟機，請使用反斜線 (\\) ; 不需要任何磁碟機號。
 -   *路徑* 指定路徑，而且是選擇性的。 它不能包含萬用字元。
 -   *FileName* 會指定檔案或目錄，而且是必要的。 它可以包含萬用字元。
 -   /s 指定要包含指定路徑的所有子目錄。

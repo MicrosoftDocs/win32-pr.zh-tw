@@ -1,6 +1,6 @@
 ---
 title: 'WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) '
-description: WM ASF 讀取器篩選器
+description: 瞭解 WM ASF 讀取器篩選器。
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK，WM ASF 讀取器
@@ -11,12 +11,12 @@ keywords:
 - ASF (Advanced Systems Format) 、WM ASF 讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e13b7944f45b850a158c9832e174ae5ec7dce4d6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685378"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444279"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) 
 
@@ -31,7 +31,7 @@ ms.locfileid: "103685378"
 
 
 
-|                        |                                                                                                                                                                                                                                               |
+|  篩選資訊                      |  類型                                                                                                                                                                                                                                             |
 |------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 篩選介面      | **IBaseFilter**、 **IFileSourceFilter**、 **IServiceProvider**、 **IWMHeaderInfo**、 **IWMReaderAdvanced** (部分實行。 請參閱備註。 ) ， **IWMReaderAdvanced2** (部分實行) 、透過 **IServiceProvider** 的 **IWMDRMReader** ()  |
 | 輸入 pin 媒體類型  | 不適用                                                                                                                                                                                                                                |

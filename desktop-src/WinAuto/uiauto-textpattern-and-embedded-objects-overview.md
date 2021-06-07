@@ -17,12 +17,12 @@ keywords:
 - 公開内嵌物件
 ms.topic: article
 ms.date: 08/31/2019
-ms.openlocfilehash: b85d7fa9e068400e3a339625acad1036a4cdd111
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e9e0a8b9f70677778238908f8faf04e21ed9619
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682410"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443319"
 ---
 # <a name="how-ui-automation-exposes-embedded-objects"></a>消費者介面自動化如何公開内嵌物件
 
@@ -59,7 +59,7 @@ ms.locfileid: "103682410"
 - DataGrid
 - 文件
 - 編輯
-- Group
+- 群組
 - 標頭
 - HeaderItem
 - List
@@ -104,7 +104,7 @@ ms.locfileid: "103682410"
 
 下表列出一些相容和不相容的内嵌物件範例。
 
-|   | 相容的内嵌物件 | 不相容的内嵌物件 |
+| 物件  | 相容的内嵌物件 | 不相容的内嵌物件 |
 | --- | --- | --- |
 | 非 TextPattern 的内嵌物件 | 按鈕 Microsoft Edge<br>Microsoft Edge 中的資料表 | Microsoft XAML 架構 k 中的按鈕<br>Microsoft Edge 中具有 alt 文字的影像<br>Microsoft XAML 架構中 k 的 ListView with ListItems |
 | TextPattern 内嵌物件 | Microsoft Edge 中 "text" 類型的輸入控制項<br>Word 檔中的表格 | Microsoft Word 檔中的 TextBox 元素 |

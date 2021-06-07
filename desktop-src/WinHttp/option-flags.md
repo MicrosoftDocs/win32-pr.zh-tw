@@ -5,12 +5,12 @@ title: '選項旗標 (WinHTTP. h) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9405d604318205b4e951d28d5b0c304a5f7ab71
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349977"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386677"
 ---
 # <a name="option-flags"></a>選項旗標
 
@@ -849,6 +849,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_TCP_KEEPALIVE"></span><span id="winhttp_option_tcp_keepalive"></span>**WINHTTP \_ 選項 \_ TCP \_ KEEPALIVE**
+</dt> <dd> <dl> <dt>
+
+
+
+您可以在 WinHttp 會話控制碼上設定這個選項，以啟用基礎通訊端上的 TCP 保持連線行為。 接受 [**tcp \_ keepalive**](/windows/win32/winsock/sio-keepalive-vals) 結構。
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TLS_FALSE_START"></span><span id="winhttp_option_tls_false_start"></span>**WINHTTP \_ 選項 \_ TLS \_ FALSE \_ START**
 </dt> <dd> <dl> <dt>
 
@@ -1072,6 +1082,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | 已 \_ 使用 WINHTTP 選項 \_ 伺服器 \_ SPN \_<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ SPN<br/>**Dword** | \- | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ TCP \_ 快速 \_ 開啟<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
+| WINHTTP \_ 選項 \_ TCP \_ KEEPALIVE<br/>[**tcp \_ keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 版本2004 |
 | WINHTTP \_ 選項 \_ TLS \_ FALSE \_ START<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
 | WINHTTP \_ 選項 \_ UNLOAD \_ 通知 \_ 事件<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | WINHTTP \_ 選項 \_ UNSAFE \_ 標頭 \_ 剖析<br/>**Dword** | \- | X | \- | X | \- |

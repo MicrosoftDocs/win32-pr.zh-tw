@@ -6,12 +6,12 @@ keywords:
 - MIDL 編譯器 MIDL，回應檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd949a3704b0669fd37c5629307a59df9742010
-ms.sourcegitcommit: ad8bd914e19508a67af232d8d59c0e0ee9c3948b
+ms.openlocfilehash: 3c9b4d079e92dff3c25f8a38c6c73073a548ea91
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "104372714"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387068"
 ---
 # <a name="response-files"></a>回應檔
 
@@ -28,7 +28,7 @@ ms.locfileid: "104372714"
 
 </dd> </dl>
 
-回應檔中的選項會被解釋為在 MIDL 命令列中出現的位置。 回應檔中的每個引數都必須在同一行的開頭和結尾。 您無法使用反斜線字元 (\) 來串連行。
+回應檔中的選項會被解釋為在 MIDL 命令列中出現的位置。 回應檔中的每個引數都必須在同一行的開頭和結尾。 您無法使用 () 的反斜線字元 \\ 來串連行。
 
 MIDL 支援包含一或多個回應檔的命令列引數，並與其他命令列參數結合：
 
@@ -36,9 +36,9 @@ MIDL 支援包含一或多個回應檔的命令列引數，並與其他命令列
 
 MIDL 編譯器不支援嵌套回應檔。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 59ee3037-7178-41c8-84d5-d5c68fa2cf9b
 title: GroupNode 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ee141691ef58d14e6c08a49544e9cf3ecf7540b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbc4d39a592b5b6328bd31ff37761cfd3f0138c0
+ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992413"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111432569"
 ---
 # <a name="groupnode-element"></a>GroupNode 元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "106992413"
 
 
 
-|              |                                                                 |
+|  元素     | 值                                                     |
 |--------------|-----------------------------------------------------------------|
 | 項目類型 | [**GroupNodeType**](groupnodetype-complex-type.md) complexType |
 | 命名空間    | urn：架構-microsoft-com：平板電腦： richink                      |

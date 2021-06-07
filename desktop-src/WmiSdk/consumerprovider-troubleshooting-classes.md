@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: ConsumerProvider 疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 536c23fb35ca6a4d2146cf87782768c51f37a6ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 740b8c0eb1884181fa84efe26e0611dda4b1712f
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980561"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443609"
 ---
 # <a name="consumerprovider-troubleshooting-classes"></a>ConsumerProvider 疑難排解類別
 
@@ -20,7 +20,7 @@ ms.locfileid: "106980561"
 
 
 
-|                                                                                                 |                                                                                 |
+| 事件                                                                                                | 描述                                                                                |
 |-------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|
 | [**MSFT \_ WmiProviderEvent**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiproviderevent)                               | 所有取用者提供者事件的父類別。                                  |
 | [**MSFT \_ WmiConsumerProviderLoaded**](/previous-versions/windows/desktop/wmisystemprov/msft-wmiconsumerproviderloaded)             | 定義成功啟用事件取用者提供者 COM 物件。    |

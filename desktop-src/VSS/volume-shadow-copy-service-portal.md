@@ -4,12 +4,12 @@ ms.assetid: 1eca1e3e-fc86-44b5-b3c4-bcee41bc5a43
 title: 磁碟區陰影複製服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 438ef32f1cbbc5fc82878486d9ad35b549f4535a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2159d39f407f7ae5dbde454ab6cf3562307d892c
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971403"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443079"
 ---
 # <a name="volume-shadow-copy-service"></a>磁碟區陰影複製服務
 
@@ -49,7 +49,7 @@ Microsoft Windows XP 及更新版本支援 VSS。 如需特定程式設計專案
 
 
 
-|                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|   資源                                 |   描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 |------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows Vista 和更新版本            | VSS 適用于 Microsoft Windows 軟體開發套件 (SDK) 。 您可以從 [Windows 下載中心](https://www.microsoft.com/download/details.aspx?id=8279)安裝適用于 windows 7 和 windows Server 2008 R2 的 SDK。 您也可以從 Windows 下載中心下載 [ISO 版本](https://www.microsoft.com/download/details.aspx?id=8442) 的 SDK。 您可以從 [Windows SDK 下載頁面](https://msdn.microsoft.com/windows/bb980924.aspx)下載舊版 SDK。 |
 | Windows Server 2003 和 Windows XP | 您可以從 [Windows 下載中心](https://www.microsoft.com/download/details.aspx?id=23490)下載磁碟區陰影複製服務 7.2 SDK 提供的 VSS。 請注意，Win2003 Obj 目錄下目錄中的64位 vssapi .lib 檔案 \\ 可用於64位版本的 Windows Server 2003 和 WINDOWS XP。                                                                                                                                                                 |

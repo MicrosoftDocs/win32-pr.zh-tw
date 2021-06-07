@@ -4,12 +4,12 @@ description: Color 是大部分使用者介面的重要視覺元素。
 ms.assetid: 30a60e9e-ebb4-40f2-8535-a9b58dc668a8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: ae58ddf232a3d8311a917ea0475c7aca1bae8949
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 598654c7e96f025bbcc1ff2a97c96df1a328c046
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104116016"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444639"
 ---
 # <a name="color"></a>Color
 
@@ -217,9 +217,8 @@ Tritanopia (1% 的男性擴展) 所看到的主要色彩。
 
 
 
-|                                      |                                                                               |                                                                                                                                                                 |
+| 色調 | 意義 | 在 Windows 中使用  |
 |--------------------------------------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Hue**<br/>                   | **意義**<br/>                                                        | **在 Windows 中使用**<br/>                                                                                                                                   |
 | 藍色/綠色<br/>                | Windows 品牌<br/>                                                      | 背景： Windows 商標。<br/>                                                                                                                        |
 | 半透明、黑色、灰色、白色<br/> | neutral<br/>                                                            | 背景：標準視窗框架、[開始] 功能表、工作列、提要欄位。<br/> 前景：標準文字。<br/>                                                |
 | 藍色<br/>                      | 開始、認可<br/>                                                      | 背景：預設的命令按鈕、搜尋、登入。<br/> 圖示： information、Help。<br/> 前景：主要指示、連結。<br/>           |

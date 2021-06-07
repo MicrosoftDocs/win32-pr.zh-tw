@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 68e90137325c16af6942f9f3929f8abfdf795660
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f5f8767135b9472acba333b1cdfa6ab102e9b7f4
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463477"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444829"
 ---
 # <a name="splitbuttongallery-element"></a>SplitButtonGallery 元素
 
@@ -62,21 +62,21 @@ ms.locfileid: "104463477"
 <tr class="odd">
 <td><strong>ApplicationModes</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>只有在 <a href="windowsribbon-element-menugroup.md"><strong>MenuGroup</strong></a> 是父元素時才有效。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 字串，其中包含0到31之間的整數清單（以逗號分隔）。<br/> 空白字元是有效的，而且會被忽略。<br/> 最大長度：250個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>HasLargeItems</strong><br/></td>
 <td>Boolean<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>決定是否要在資源庫控制項中顯示命令的大型或小型影像資源。 <br/>
 <blockquote>
 [!Note]<br />
@@ -88,26 +88,26 @@ ms.locfileid: "104463477"
 <tr class="even">
 <td><strong>ItemHeight</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd> 預設值為 -1。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ItemWidth</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td><dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd> 預設值為 -1。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TextPosition</strong><br/></td>
 <td>TextPositionType<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (底部) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (隱藏) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (左) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (重迭) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (右) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (Top) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
-<td><strong>型別</strong><br/></td>
+<td><strong>類型</strong><br/></td>
 <td>xs:string<br/></td>
-<td>No<br/></td>
+<td>否<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (專案) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (命令) <br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -152,7 +152,7 @@ ms.locfileid: "104463477"
 
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-group.md"><strong>Group</strong></a><br/></td>
+<td><a href="windowsribbon-element-group.md"><strong>群組</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
@@ -241,11 +241,8 @@ Windows 8 和更新版本。
 ## <a name="element-information"></a>項目資訊
 
 
-
-|                                     |           |
-|-------------------------------------|-----------|
-| 最低支援系統<br/> | Windows 7 |
-| 可以是空的                        | 否        |
+- **最低支援系統**： Windows 7 
+- **可以是空** 的：否
 
 
 

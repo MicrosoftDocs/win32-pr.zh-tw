@@ -4,12 +4,12 @@ description: DirectMLX 是適用于 DirectML 的僅限 c + + 標頭協助程式�
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 2ddd6d9063002b76449224ebafdb6dd021b27fa0
-ms.sourcegitcommit: 8e1f04c7e3c5c850071bac8d173f9441aab0dfed
+ms.openlocfilehash: ba7eca27a39b690f678bdac1ea0feba1991e8b40
+ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/21/2021
-ms.locfileid: "107803357"
+ms.lasthandoff: 06/05/2021
+ms.locfileid: "111521185"
 ---
 # <a name="directmlx"></a>DirectMLX
 
@@ -113,7 +113,7 @@ ComPtr<IDMLCompiledOperator> op = graph.Compile(flags, { x1, x2 });
 
 DirectMLX 支援編譯時間 #define，以自訂標頭的各部分。
 
-|選項|Description|
+|選項|描述|
 |-|-|
 |**DMLX_NO_EXCEPTIONS**|如果 #define，則會導致錯誤導致呼叫， `std::abort` 而不是擲回例外狀況。 如果例外狀況無法使用 (例如，如果編譯器選項) 中已停用例外狀況，則預設會定義這項功能。|
 |**DMLX_USE_WIL**|如果 #define，則會使用 [Windows 執行程式庫](https://github.com/microsoft/wil) 例外狀況類型擲回例外狀況。 否則會改用標準例外狀況類型 (例如 `std::runtime_error`) 。 如果定義了 **DMLX_NO_EXCEPTIONS** ，此選項就不會有任何作用。|
@@ -174,4 +174,4 @@ auto result = dml::Convolution(/* ... */);
 * [DirectML GitHub](https://github.com/microsoft/DirectML/tree/master/Libraries)
 * [DirectMLX yolov4 範例](https://github.com/microsoft/DirectML/tree/master/Samples/yolov4)
 * [使用進展來表示填補和記憶體版面配置](./dml-strides.md)
-* [DML_GRAPH_DESC 結構](./directml/ns-directml-dml_graph_desc.md)
+* [DML_GRAPH_DESC 結構](/windows/win32/api/directml/ns-directml-dml_graph_desc)

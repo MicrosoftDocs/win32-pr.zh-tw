@@ -4,12 +4,12 @@ description: 字串系結是由字串組成的不帶正負號字元字串，代�
 ms.assetid: 5e55ddd0-d71c-42ef-90cc-dd1f0b9ed305
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5d804fe614185b054b8041e13069e900501342a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b3f925c03c85be3c47ab174a85f31e72e40d828
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376280"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386977"
 ---
 # <a name="string-binding"></a>字串系結
 
@@ -186,7 +186,7 @@ Security=impersonation static true
 
 除了 *Option* 語法所要求的位置之外，字串系結中不允許空白字元。 [ *Networkaddress.cache.ttl*]、[ *端點*] 和 [ *選項* ] 欄位的預設設定會根據 *ProtocolSequence* 成員的值而不同。
 
-針對所有字串系結欄位，會將單一反斜線字元 (\) 解釋為一個 escape 字元。 若要指定單一常值反斜線字元，您必須 (提供兩個反斜線字元 \\ \) 。
+針對所有字串系結欄位，會將單一反斜線字元 (\\) 被解釋為一個 escape 字元。 若要指定單一常值反斜線字元，您必須 () 提供兩個反斜線字元 \\ \\ 。
 
 字串系結包含系結控制碼的字元標記法，以及有時候系結控制碼的部分。 字串系結很方便表示系結控制碼的部分，但無法用於進行遠端程序呼叫。 您必須先呼叫 [**RpcBindingFromStringBinding**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingfromstringbinding)，將它們轉換成系結控制碼。
 

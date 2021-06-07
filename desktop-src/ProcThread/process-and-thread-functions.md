@@ -4,12 +4,12 @@ ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: 處理序和執行緒函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f97d871c7fc3635734ce79ba5cbf231e6955e59d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43841e86c151e7f617a702668f9de203ccb34654
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192757"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111550010"
 ---
 # <a name="process-and-thread-functions"></a>處理序和執行緒函式
 
@@ -82,7 +82,7 @@ ms.locfileid: "104192757"
 | [**GetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessshutdownparameters)     | 抓取目前呼叫進程的關機參數。                                                                                                                              |
 | [**GetProcessTimes**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocesstimes)                               | 取得指定進程的計時資訊。                                                                                                                                 |
 | [**GetProcessVersion**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getprocessversion)                           | 抓取指定進程預期執行的系統主要和次要版本號碼。                                                                                    |
-| [**GetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-getprocessworkingsetsize)             | 抓取指定進程的最小和最大工作集大小。                                                                                                                 |
+| [**GetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-getprocessworkingsetsize)             | 抓取指定進程的最小和最大工作集大小。                                                                                                                 |
 | [**GetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-getprocessworkingsetsizeex)         | 抓取指定進程的最小和最大工作集大小。                                                                                                                 |
 | [**GetProcessorSystemCycleTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getprocessorsystemcycletime)       | 抓取指定群組中每個處理器執行延遲程序呼叫所花費的週期時間， (Dpc) 和插斷服務常式 (Isr) 。                                         |
 | [**GetStartupInfo**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-getstartupinfow)                                 | 抓取建立呼叫進程時所指定的 [**STARTUPINFO**](/windows/win32/api/processthreadsapi/ns-processthreadsapi-startupinfoa) 結構內容。                                                       |
@@ -101,7 +101,7 @@ ms.locfileid: "104192757"
 | [**SetProcessPriorityBoost**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocesspriorityboost)               | 停用系統暫時提高指定進程之執行緒優先順序的能力。                                                                                 |
 | [**SetProcessRestrictionExemption**](/windows/desktop/api/Winuser/nf-winuser-setprocessrestrictionexemption) | 從防止桌面進程與 Windows Store 應用程式環境互動的限制中豁免呼叫進程。 開發和偵錯工具會使用這個函式。 |
 | [**SetProcessShutdownParameters**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprocessshutdownparameters)     | 設定目前呼叫進程的關機參數。                                                                                                                                   |
-| [**SetProcessWorkingSetSize**](/windows/desktop/api/WinBase/nf-winbase-setprocessworkingsetsize)             | 設定指定進程的最小和最大工作集大小。                                                                                                                     |
+| [**SetProcessWorkingSetSize**](/windows/desktop/api/memoryapi/nf-memoryapi-setprocessworkingsetsize)             | 設定指定進程的最小和最大工作集大小。                                                                                                                     |
 | [**SetProcessWorkingSetSizeEx**](/windows/win32/api/memoryapi/nf-memoryapi-setprocessworkingsetsizeex)         | 設定指定進程的最小和最大工作集大小。                                                                                                                     |
 | [**TerminateProcess**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-terminateprocess)                             | 終止指定的進程及其所有線程。                                                                                                                                      |
 

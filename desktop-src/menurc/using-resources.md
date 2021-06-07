@@ -4,12 +4,12 @@ description: 本章節包含與資來源程式設計工作相關的程式碼。
 ms.assetid: 73678045-1518-46cd-ab55-5d272852ba73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c197cbec1e2ecf495f7a682d70311edc45c069
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f9e4f42f908bc2ee63cfa273a5251b0bd8d9bf86
+ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463132"
+ms.lasthandoff: 06/06/2021
+ms.locfileid: "111549870"
 ---
 # <a name="using-resources"></a>使用資源
 
@@ -119,7 +119,7 @@ if (!FreeLibrary(hExe))
 
 下列範例會建立 Hand.exe 檔案中的每個資源清單。 清單會寫入 Resinfo.txt 檔案中。
 
-此程式碼示範如何載入可執行檔、建立要在其中寫入資源資訊的檔案，以及呼叫 [**EnumResourceTypes**](/windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa) 函式，將模組中找到的每個資源類型傳送至應用程式定義的回呼函數 `EnumTypesFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResTypeProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca) 。 這個回呼函式會使用 [**EnumResourceNames**](/windows/desktop/api/Winbase/nf-winbase-enumresourcenamesa) 函式，將指定類型內每個資源的名稱傳遞給另一個應用程式定義的回呼函數 `EnumNamesFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca) 。 `EnumNamesFunc` 使用 [**EnumResourceLanguages**](/windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa) 函式，將指定之類型和名稱的每個資源的語言傳遞給第三個回呼函數 `EnumLangsFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)) 。 `EnumLangsFunc` 將指定之類型、名稱和語言的資源相關資訊寫入 Resinfo.txt 檔。
+此程式碼示範如何載入可執行檔、建立要在其中寫入資源資訊的檔案，以及呼叫 [**EnumResourceTypes**](/windows/desktop/api/Winbase/nf-winbase-enumresourcetypesa) 函式，將模組中找到的每個資源類型傳送至應用程式定義的回呼函數 `EnumTypesFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResTypeProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca) 。 這個回呼函式會使用 [**EnumResourceNames**](/windows/desktop/api/libloaderapi/nf-libloaderapi-enumresourcenamesa) 函式，將指定類型內每個資源的名稱傳遞給另一個應用程式定義的回呼函數 `EnumNamesFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca) 。 `EnumNamesFunc` 使用 [**EnumResourceLanguages**](/windows/desktop/api/Winbase/nf-winbase-enumresourcelanguagesa) 函式，將指定之類型和名稱的每個資源的語言傳遞給第三個回呼函數 `EnumLangsFunc` 。 如需此類型之回呼函數的詳細資訊，請參閱 [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85)) 。 `EnumLangsFunc` 將指定之類型、名稱和語言的資源相關資訊寫入 Resinfo.txt 檔。
 
 請注意， [*EnumResTypeProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumrestypeproca)中的 *LPSZTYPE* 是資源識別碼或指向字串 (的指標，其中包含資源識別碼或類型名稱) ;[*EnumResNameProc*](/windows/win32/api/libloaderapi/nc-libloaderapi-enumresnameproca)和 [*EnumResLangProc*](/previous-versions/windows/desktop/legacy/ms648033(v=vs.85))中的 *lpszType* 和 *lpszName* 很類似。 若要載入列舉的資源，請直接呼叫適當的函式。 例如，如果已列舉) 的功能表資源 (**RT \_ 功能表** ，則將 *lpszName* 傳遞至 [**LoadMenu**](/windows/desktop/api/Winuser/nf-winuser-loadmenua)。 若為自訂資源，請將 *lpszType* 和 *LpszName* 傳遞至 [**FindResource**](/windows/desktop/api/Winbase/nf-winbase-findresourcea)。
 
@@ -388,6 +388,6 @@ BOOL EnumLangsFunc(
 
 
 
- 
+ 
 
- 
+ 

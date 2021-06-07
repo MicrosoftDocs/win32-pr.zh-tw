@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36485db262c46d5364ee0ee26e7e6f39ccf0e677
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bf65e222c7711d429db44e391d4f03c35997e219
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384518"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386724"
 ---
 # <a name="wm_dde_initiate-message"></a>WM \_ DDE \_ 起始訊息
 
@@ -46,7 +46,7 @@ ms.locfileid: "104384518"
 *lParam* 
 </dt> <dd>
 
-低序位字組包含 atom，用來識別要求交談的應用程式。 應用程式名稱不能包含斜線 (/) 或反斜線 (\) 。 這些字元會保留給網路執行。 如果此參數為 **Null**，則會要求與所有應用程式的交談。
+低序位字組包含 atom，用來識別要求交談的應用程式。 應用程式名稱不能包含斜線 (/) 或反斜線 (\\) 。 這些字元會保留給網路執行。 如果此參數為 **Null**，則會要求與所有應用程式的交談。
 
 高序位單字包含的 atom 會識別要求交談的主題。 如果主題為 **Null**，則會要求所有可用主題的交談。
 

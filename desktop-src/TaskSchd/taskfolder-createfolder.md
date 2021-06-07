@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ae66dadb0c943b1ca33be3e696ac1c8ca7d6234
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93a873ef59ea9d099a7a739e5238c722f4b908fd
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967548"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387076"
 ---
 # <a name="taskfoldercreatefolder-method"></a>TaskFolder. CreateFolder 方法
 
@@ -46,7 +46,7 @@ ppFolder = .CreateFolder( _
 *資料夾資料夾* \[在\]
 </dt> <dd>
 
-用來識別資料夾的名稱。 如果指定了 " \\ SubFolder1 \\ SubFolder2"，則如果資料夾不存在，就會建立整個資料夾樹狀結構。 這個參數可以是目前 [**TaskFolder**](taskfolder.md) 實例的相對路徑。 根工作資料夾是以反斜線 (指定 \) 。 根工作資料夾下的工作資料夾路徑範例是 \\ MyTaskFolder。 '. ' 字元不能用來指定目前的工作資料夾與 ' ... ' 字元不能用來指定路徑中的父工作資料夾。
+用來識別資料夾的名稱。 如果指定了 " \\ SubFolder1 \\ SubFolder2"，則如果資料夾不存在，就會建立整個資料夾樹狀結構。 這個參數可以是目前 [**TaskFolder**](taskfolder.md) 實例的相對路徑。 根工作資料夾是以反斜線 () 指定 \\ 。 根工作資料夾下的工作資料夾路徑範例是 \\ MyTaskFolder。 '. ' 字元不能用來指定目前的工作資料夾與 ' ... ' 字元不能用來指定路徑中的父工作資料夾。
 
 </dd> <dt>
 

@@ -11,12 +11,12 @@ keywords:
 - IDL 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87e24eec21a481de4603392942b40013ec55086c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19e3d4ecd7f4f9df7b884cf70de3ba3ad62c7939
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999578"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444009"
 ---
 # <a name="compiling-the-idl-files-supplied-with-the-sdk"></a>編譯 SDK 提供的 IDL 檔案
 
@@ -44,9 +44,8 @@ Windows Media 裝置管理員 SDK 包含這些標頭檔的標頭檔和來源 IDL
 
 
 
-|                            |                                                                                  |
+|   Idl                      |   相依性                                                                   |
 |----------------------------|----------------------------------------------------------------------------------|
-| **Idl**                    | **Dependencies** (相依性)                                                                 |
 | icomponentauthenticate .idl | 匯入 "oaidl.idl .idl";<br/> \#包含 "icomponentauthenticate .idl"<br/> |
 | WMDM .idl                   | 沒有外部相依性                                                         |
 | WmdmLog .idl                | 沒有外部相依性                                                         |

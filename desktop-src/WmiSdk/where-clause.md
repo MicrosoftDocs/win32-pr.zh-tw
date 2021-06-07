@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 'WHERE 子句 (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a72e68d8266b72f6e41e17c0b85766b7a58bb197
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0587bffb1a10c4611773de8a61fdb7ac1576952
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991935"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111386717"
 ---
 # <a name="where-clause-wmi"></a>WHERE 子句 (WMI) 
 
@@ -28,9 +28,9 @@ SELECT * FROM class WHERE constant operator property
 
 常數的值必須是屬性的正確類型。 此外，運算子必須在有效的 [WQL 運算子](wql-operators.md)清單中。 屬性名稱或常數必須出現在 WHERE 子句中運算子的任一邊。
 
-在 WHERE 子句中，您可以使用字串常值（例如 "NTFS"）。 如果您想要在字串中包含下列特殊字元，您必須先在字元前面加上反斜線 (，以將字元轉義 \) ：
+在 WHERE 子句中，您可以使用字串常值（例如 "NTFS"）。 如果您想要在字串中包含下列特殊字元，您必須先在字元前面加上反斜線 () ，以將字元轉義 \\ ：
 
--   反斜線 (\\\)
+-   反斜線 (\\ \\) 
 -   雙引號 (\\ ") 
 -   單引號 (\\ ' ) 
 

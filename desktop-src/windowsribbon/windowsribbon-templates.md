@@ -12,12 +12,12 @@ keywords:
 - 自訂 Windows 功能區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b12618f88576cddeff119534215e501216193c3
-ms.sourcegitcommit: 2387bc0339a1764564c1509e72ed5f2e8ae60b36
+ms.openlocfilehash: f6576a672aa8c3d328a341370a7568595e988908
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/30/2020
-ms.locfileid: "104558315"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444139"
 ---
 # <a name="customizing-a-ribbon-through-size-definitions-and-scaling-policies"></a>透過大小定義和調整原則自訂功能區
 
@@ -811,11 +811,11 @@ BigButtonsAndSmallButtonsOrInputs
 
 
 
-|        |                                                                                                    |
+|  類型  |      Image                                                                                         |
 |--------|----------------------------------------------------------------------------------------------------|
 | 大  | ![內嵌大型自訂範本的圖片。](images/overviews/sizedefinition-custom-large.png)   |
-| 中 | ![內嵌中型自訂範本的圖片。](images/overviews/sizedefinition-custom-medium.png) |
-| 小  | ![內嵌小型自訂範本的圖片。](images/overviews/sizedefinition-custom-small.png)   |
+| 適中 | ![內嵌中型自訂範本的圖片。](images/overviews/sizedefinition-custom-medium.png) |
+| Small  | ![內嵌小型自訂範本的圖片。](images/overviews/sizedefinition-custom-small.png)   |
 | 快顯  | ![內嵌快顯視窗自訂範本的圖片。](images/overviews/sizedefinition-custom-popup.png)   |
 
 
@@ -832,7 +832,7 @@ BigButtonsAndSmallButtonsOrInputs
 [**調整**](windowsribbon-element-scale.md)
 </dt> <dt>
 
-[**Group**](windowsribbon-element-group.md)
+[**群組**](windowsribbon-element-group.md)
 </dt> </dl>
 
  

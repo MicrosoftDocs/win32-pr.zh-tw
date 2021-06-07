@@ -4,12 +4,12 @@ ms.assetid: 9DCBCE9B-965B-4C18-992C-EFFFF32FCE5E
 title: JPEG 格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb953d1d6a02e47b41d1b7cf872f3381cd640151
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a2acc7fcd71fc962d3321112d342f675b878188
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992460"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111444189"
 ---
 # <a name="jpeg-format-overview"></a>JPEG 格式總覽
 
@@ -21,7 +21,7 @@ ms.locfileid: "106992460"
 
 
 
-|                        |                                         |
+|   元件            | 描述                             |
 |------------------------|-----------------------------------------|
 |  (s 的正式名稱)          | JPEG 格式 (JPEG) |
 | 副檔名 (s)  | jpe、jpeg、jpg                          |

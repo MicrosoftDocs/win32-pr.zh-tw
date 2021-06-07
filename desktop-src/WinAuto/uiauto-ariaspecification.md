@@ -4,12 +4,12 @@ description: 網站透過非同步 JavaScript 和 XML (AJAX) 、DHTML 和 JavaSc
 ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ccb3841c66b84813072ccb2d32137198f6df7d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3c31d6380c93506263c59855a9f2069890ab07df
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672388"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387684"
 ---
 # <a name="ui-automation-for-w3c-accessible-rich-internet-applications-specification"></a>W3C 可存取的豐富網際網路應用程式規格消費者介面自動化
 
@@ -54,7 +54,7 @@ W3C ARIA 角色可對應至 Microsoft Active Accessibility 角色或消費者介
 | gridcell                        | [**角色 \_ 系統 \_ 儲存格**](object-roles.md)                 | [DataItem](uiauto-supportdataitemcontroltype.md)       | gridcell                        |
 | 群組                           | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportgroupcontroltype.md)             | 群組                           |
 | 標題                         | [**角色 \_ 系統 \_ 文字**](object-roles.md)                 | [Text](uiauto-supporttextcontroltype.md)               | 標題                         |
-| img                             | [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | [影像](uiauto-supportimagecontroltype.md)             | img                             |
+| img                             | [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | [映像](uiauto-supportimagecontroltype.md)             | img                             |
 | link                            | [**角色 \_ 系統 \_ 連結**](object-roles.md)                 | [超連結](uiauto-supporthyperlinkcontroltype.md)     | link                            |
 | list                            | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | [清單](uiauto-supportlistcontroltype.md)               | list                            |
 | listbox                         | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | [清單](uiauto-supportlistcontroltype.md)               | listbox                         |
@@ -103,7 +103,7 @@ W3C ARIA 角色可對應至 Microsoft Active Accessibility 角色或消費者介
 
 W3C ARIA 狀態和屬性會對應到各種 Microsoft Active Accessibility，並消費者介面自動化屬性和函式。 消費者介面自動化的 AriaProperties 屬性支援大部分的 ARIA 狀態和屬性。 這些例外狀況是採用物件參考的 ARIA 屬性 (例如，describedby ARIA 屬性) ，以及協助工具物件模型所支援的 ARIA 屬性。 例如，ARIA activedescendent 屬性應該以焦點在協助工具物件模型中的元素來表示。 當您指定了 ARIA 擁有屬性時，它也應該反映在協助工具物件模型中。
 
-AriaProperties 是具有名稱/值組集合的字串屬性，其分隔符號為等號 (=) 和分號 ( ) ; 例如，"checked = true; disabled = false"。 \)當這些分隔符號或反斜線出現在值中時，會使用反斜線 (作為 escape。 提供者程式碼可以加入驗證，以驗證檔物件模型中的原始 ARIA 屬性，但不是必要的。
+AriaProperties 是具有名稱/值組集合的字串屬性，其分隔符號為等號 (=) 和分號 ( ) ; 例如，"checked = true; disabled = false"。 \\當這些分隔符號或反斜線出現在值中時，會使用反斜線 () 作為 escape。 提供者程式碼可以加入驗證，以驗證檔物件模型中的原始 ARIA 屬性，但不是必要的。
 
 
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9daf877f56bb7e9bfcc349e4efb38635a9286a48
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 14b776d3e451d84c63be5bb61b98ed22081e1a29
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090686"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387117"
 ---
 # <a name="create-method-of-the-win32_service-class-remote-desktop-services"></a>建立 Win32_Service 類別的方法 (遠端桌面服務) 
 
@@ -59,7 +59,7 @@ uint32 Create(
 *名稱* \[在\]
 </dt> <dd>
 
-要安裝至 **Create** 方法的服務名稱。 字串長度上限為256個字元。 服務控制管理員資料庫會保留字元的大小寫，但服務名稱比較一律不區分大小寫。 斜線 (/) 和雙反斜線 (\) 是不正確服務名稱字元。
+要安裝至 **Create** 方法的服務名稱。 字串長度上限為256個字元。 服務控制管理員資料庫會保留字元的大小寫，但服務名稱比較一律不區分大小寫。 正斜線 (/) 和雙反斜線 (\\ \\) 是不正確服務名稱字元。
 
 </dd> <dt>
 
@@ -209,7 +209,7 @@ Boot
 
 </dd> <dt>
 
-Disabled
+停用
 </dt> <dd>
 
 無法再啟動的服務。

@@ -26,6 +26,8 @@
               items:
                 - name: 設定和啟動 NT Kernel 記錄器會話
                   href: configuring-and-starting-the-nt-kernel-logger-session.md
+                - name: 系統提供者
+                  href: system-providers.md
             - name: 設定和啟動自動記錄器會話
               href: configuring-and-starting-an-autologger-session.md
               items:

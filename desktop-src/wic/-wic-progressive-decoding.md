@@ -4,12 +4,12 @@ ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: 漸進式解碼總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bf005dfb5b4cf5a69ca45020776fee9f0641eee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 568b9708802b082a880f358b969d9dd4beb1e481
+ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194120"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111443669"
 ---
 # <a name="progressive-decoding-overview"></a>漸進式解碼總覽
 
@@ -82,7 +82,7 @@ PNG 影像檔提供七個漸進式層級進行解碼，如 PNG 規格中所述�
 
 
 
-|     |     |     |     |     |     |     |     |
+|  &nbsp;  |  &nbsp;   |  &nbsp;   |  &nbsp;   |   &nbsp;  |  &nbsp;   |  &nbsp;   | &nbsp;    |
 |-----|-----|-----|-----|-----|-----|-----|-----|
 | 1   | 6   | 4   | 6   | 2   | 6   | 4   | 6   |
 | 7   | 7   | 7   | 7   | 7   | 7   | 7   | 7   |

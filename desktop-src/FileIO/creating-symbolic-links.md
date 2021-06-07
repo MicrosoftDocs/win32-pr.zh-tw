@@ -4,12 +4,12 @@ ms.assetid: 3821478d-87bb-4e47-8263-d977cf665503
 title: 建立符號連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c978532ffc11e44615d4de0ea902152438ecc7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 252b999b05004fd7735b16582783ef0c3afb0013
+ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320108"
+ms.lasthandoff: 06/04/2021
+ms.locfileid: "111387704"
 ---
 # <a name="creating-symbolic-links"></a>建立符號連結
 
@@ -18,7 +18,7 @@ ms.locfileid: "104320108"
 符號連結可以是絕對或相對連結。 絕對連結是指定路徑名稱的每個部分的連結;相對連結與指定路徑中的相對連結指定名稱，會決定相對連結。 相對連結會使用下列慣例來指定：
 
 -   點 (。 和。。) 慣例，例如 \\ 「...」解析相對於上層目錄的路徑。
--   沒有斜線的名稱 (\) -例如，"tmp" 會解析相對於目前的目錄的路徑。
+-   沒有斜線的名稱 (\\) ，例如 "tmp" 會解析相對於目前的目錄的路徑。
 -   根目錄相對，例如「 \\ windows system32」會 \\ 解析為「*目前磁片磁碟機*： \\ windows system32」 \\ 。 directory
 -   目前的工作目錄相對，例如，如果目前的工作目錄是 "C： \\ windows \\ system32"，"C:File.txt" 會解析為 "c： \\ windows \\ system32 \\File.txt"。
 
