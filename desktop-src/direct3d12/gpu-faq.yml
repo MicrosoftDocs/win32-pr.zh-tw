@@ -1,0 +1,166 @@
+### YamlMime:FAQ
+metadata:
+  title: WSL 中的 GPU 加速 - 常見問題集
+  description: Windows 子系統 Linux 版中的 GPU 加速常見問題
+  ms.topic: article
+  ms.date: 09/28/2020
+  ms.openlocfilehash: 108fefe5d5aa9f2beef9c7dc1e97d9abf406c6f1
+  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "111852699"
+title: 常見問題集
+summary: ''
+sections:
+- name: 忽略
+  questions:
+  - question: 如何? 啟用 DirectML 加速？
+    answer: "預設會啟用 DirectML 裝置，假設您有適當的 DirectX 12 GPU 可用。 如果可能的話，TensorFlow 作業會自動指派給 DirectML 裝置。 \n\n如果您在使用 DirectML 加速判斷模型是否正在執行時遇到問題，您可以將它放入 `tf.debugging.set_log_device_placement(True)` 程式的第一個語句，TensorFlow 就會將裝置放置資訊列印到主控台。\n"
+  - question: 如何? 控制特定作業的裝置放置？
+    answer: "如同任何其他裝置 (請參閱 [TensorFlow 指南：使用 GPU](https://www.tensorflow.org/guide/gpu)) ，您可以使用 `tf.device()` 來控制要執行的裝置。 \n \n\nDirectML 裝置字串為 `'DML'` 。 \n\n\n```python \n\nimport tensorflow as tf \n\ntf.debugging.set_log_device_placement(True) \n\ntf.enable_eager_execution() \n\n\n\n# Explicitly place tensors on the DirectML device \n\nwith tf.device('/DML:0'): \n\n  a = tf.constant([1.0, 2.0, 3.0]) \n\n  b = tf.constant([4.0, 5.0, 6.0]) \n\n\n\nc = tf.add(a, b) \n\nprint(c)\n```          \n\n```\nExecuting op Add in device /job:localhost/replica:0/task:0/device:DML:0 \n\ntf.Tensor([5. 7. 9.], shape=(3,), dtype=float32)\n```\n"
+  - question: 我有多個 Gpu。 如何? 選取 DirectML 使用哪一個？
+    answer: >
+      有幾種不同的方式可以完成這項作業，視您是否要控制整個進程或每個會話的 (或兩個) 而定。
+
+
+      如果您想要控制 TensorFlow 整個進程可以看見哪些裝置，請使用 `DML_VISIBLE_DEVICES` 環境變數。 如果您想要以每個會話為基礎來控制，請使用 `tf.GPUOptions.visible_device_list` 。
+  - question: 如何? 使用 `DML_VISIBLE_DEVICES` 環境變數來控制哪些 GPU () 可供 DirectML 使用？
+    answer: >
+      TensorFlow with DirectML 支援 `DML_VISIBLE_DEVICES` 環境變數，其採用以逗號分隔的裝置識別碼清單， (也稱為「介面卡索引」 ) 。設定時，只有在 TensorFlow 整個進程的情況下，才會顯示該清單中的裝置識別碼。 使用排除 `DML_VISIBLE_DEVICES` 的裝置不會出現在可供 TensorFlow 的實體裝置清單中。
+
+
+      ```python
+
+      import tensorflow as tf
+
+      tf.debugging.set_log_device_placement(True)
+
+      tf.enable_eager_execution()
+
+
+      a = tf.constant([1.])
+
+      b = tf.constant([2.])
+
+      c = tf.add(a, b)
+
+      print(c)
+
+      ```
+
+
+      以下是 **未** 設定的範例輸出 `DML_VISIBLE_DEVICES` ：
+
+
+      ```
+
+      DirectML device enumeration: found 2 compatible adapters.
+
+      DirectML: creating device on adapter 0 (NVIDIA TITAN V)
+
+      DirectML: creating device on adapter 1 (AMD Radeon RX 5700 XT)
+
+      Executing op Add in device /job:localhost/replica:0/task:0/device:DML:0
+
+      tf.Tensor([3.], shape=(1,), dtype=float32)
+
+      ```
+
+
+      使用 `DML_VISIBLE_DEVICES="1"` ：
+
+
+      ```
+
+      DirectML device enumeration: found 1 compatible adapters.
+
+      DirectML: creating device on adapter 0 (AMD Radeon RX 5700 XT)
+
+      Executing op Add in device /job:localhost/replica:0/task:0/device:DML:0
+
+      tf.Tensor([3.], shape=(1,), dtype=float32)
+
+      ```
+
+
+      請注意，藉由將可見的裝置限制為只有索引 1 (AMD Radeon RX 5700 XT) ，TensorFlow 現在會將識別碼0指派給此裝置，並使其成為預設值。
+
+
+      您也可以使用此環境變數重新訂購裝置。 例如，設定 `DML_VISIBLE_DEVICES="1,0"` ：
+
+
+      ```
+
+      DirectML device enumeration: found 2 compatible adapters.
+
+      DirectML: creating device on adapter 0 (AMD Radeon RX 5700 XT)
+
+      DirectML: creating device on adapter 1 (NVIDIA TITAN V)
+
+      Executing op Add in device /job:localhost/replica:0/task:0/device:DML:0
+
+      tf.Tensor([3.], shape=(1,), dtype=float32)
+
+      ```
+
+
+      請注意， (NVIDIA TITAN V 和 AMD Radeon RX 5700 XT) 的兩個 Gpu 現在已切換位置。
+
+
+      若要防止顯示特定的裝置，您可以 `-1` 在逗號分隔清單中提供不正確識別碼 (例如) 。 無效專案之後的所有裝置識別碼都會被忽略。 您也可以使用此功能來完全停用 DirectML 加速。
+
+
+      `DML_VISIBLE_DEVICES="-1"`:
+
+
+      ```
+
+      DirectML device enumeration: found 0 compatible adapters.
+
+      Executing op Add in device /job:localhost/replica:0/task:0/device:CPU:0
+
+      tf.Tensor([3.], shape=(1,), dtype=float32)
+
+      ```
+  - question: 如何? 使用 `visible_device_list` session 選項來控制) DirectML 用來執行會話的 GPU (？
+    answer: >-
+      類似于 `DML_VISIBLE_DEVICES` ，您也可以在工作階段層級設定類似的字串來控制可見的裝置。 `visible_device_list`建立 TensorFlow 會話時，可在類別上使用此屬性 `GPUOptions` 。
+
+
+      ```python
+
+      import tensorflow as tf
+
+
+      a = tf.constant([1.])
+
+      b = tf.constant([2.])
+
+      c = tf.add(a, b)
+
+
+      gpu_config = tf.GPUOptions()
+
+      gpu_config.visible_device_list = "1"
+
+
+      session = tf.Session(config=tf.ConfigProto(gpu_options=gpu_config))
+
+      print(session.run(c))
+
+      ```
+
+
+      ```
+
+      DirectML device enumeration: found 2 compatible adapters.
+
+      DirectML: creating device on adapter 1 (AMD Radeon RX 5700 XT)
+
+      [3.]
+
+      ```
+
+
+      如需詳細資訊，您可以閱讀 [TensorFlow GPUOPTIONS API 參考](https://www.tensorflow.org/versions/r1.15/api_docs/python/tf/GPUOptions#visible_device_list) 。

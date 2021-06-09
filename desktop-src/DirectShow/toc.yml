@@ -9,7 +9,7 @@
         - name: DirectShow 中支援的格式
           href: supported-formats-in-directshow.md
         - name: DirectShow 常見問題
-          href: directshow-faq.md
+          href: directshow-faq.yml
     - name: 開始使用
       href: getting-started.md
       items:
@@ -1110,7 +1110,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-iamcameracontrol-get
                 - name: GetRange
                   href: /windows/desktop/api/strmif/nf-strmif-iamcameracontrol-getrange
-                - name: 設定
+                - name: 集合
                   href: /windows/desktop/api/strmif/nf-strmif-iamcameracontrol-set
             - name: IAMCertifiedOutputProtection
               href: /windows/desktop/api/strmif/nn-strmif-iamcertifiedoutputprotection
@@ -1834,7 +1834,7 @@
                   href: /windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-get
                 - name: GetRange
                   href: /windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-getrange
-                - name: 設定
+                - name: 集合
                   href: /windows/desktop/api/strmif/nf-strmif-iamvideoprocamp-set
             - name: IAMWMBufferPass
               href: /previous-versions/windows/desktop/api/dshowasf/nn-dshowasf-iamwmbufferpass
@@ -2798,7 +2798,7 @@
                   href: ikspropertyset-get.md
                 - name: QuerySupported
                   href: ikspropertyset-querysupported.md
-                - name: 設定
+                - name: 集合
                   href: ikspropertyset-set.md
             - name: IKsTopologyInfo
               href: /previous-versions/windows/desktop/api/vidcap/nn-vidcap-ikstopologyinfo
@@ -5613,7 +5613,7 @@
                       href: camevent-check.md
                     - name: 重設
                       href: camevent-reset.md
-                    - name: 設定
+                    - name: 集合
                       href: camevent-set.md
                     - name: 等候
                       href: camevent-wait.md
@@ -9548,7 +9548,7 @@
                   href: composition.md
                 - name: 效果
                   href: effect.md
-                - name: Group
+                - name: 群組
                   href: group.md
                 - name: '媒體偵測器 (MediaDet) '
                   href: media-detector--mediadet.md
@@ -9653,7 +9653,7 @@
                       href: swapinputs-attribute.md
                     - name: time
                       href: time-attribute.md
-                    - name: 類型
+                    - name: type
                       href: type-attribute.md
                     - name: userdata
                       href: userdata-attribute.md

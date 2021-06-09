@@ -1,0 +1,294 @@
+### YamlMime:FAQ
+metadata:
+  title: Direct3D 10 常見問題集
+  description: 本文包含有關 Direct3D 10 的一些常見問題，從 Direct3D 9 (D3D9) 移植現有的應用程式，到 Direct3D 10 (D3D10) 。
+  ms.assetid: da3022ca-b120-d0d7-6747-65b946dbc73c
+  ms.topic: article
+  ms.date: 05/31/2018
+  ms.openlocfilehash: e4d83f20d5dac1c067144e715dee7331cabe2ce7
+  ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 06/09/2021
+  ms.locfileid: "111852702"
+title: Direct3D 10 常見問題集
+summary: >
+  本文包含有關 Direct3D 10 的一些常見問題，從 Direct3D 9 (D3D9) 移植現有的應用程式，到 Direct3D 10 (D3D10) 。
+sections:
+- name: 常數緩衝區
+  questions:
+  - question: 更新常數緩衝區的最佳方式是什麼？
+    answer: 使用捨棄的 UpdateSubresource 和 Map 應該會有相同的速度。 根據哪一個複製最少的記憶體量，在兩者之間進行選擇。 如果您已將資料儲存在記憶體中的一個連續區塊中，請使用 UpdateSubresource。 如果您需要從其他位置累積資料，請使用 Map 來捨棄。
+  - question: 組織常數緩衝區最差的方式為何？
+    answer: >
+      將特定著色器的所有常數放入一個常數緩衝區，可實現最差的效能。 雖然這通常是從 D3D9 移植至 D3D10 最簡單的方式，但它可能會使效能癱瘓。 例如，假設有一個使用下列常數緩衝區的案例：
+
+
+      ``` syntax
+
+      cbuffer VSGlobalsCB
+
+      {
+          matrix  ViewProj;
+          matrix  Bones[100];
+          matrix  World;
+          float   SpecPower;
+          float4  BDRFCoefficients;
+          float   AppTime;
+          uint2   RenderTargetSize;
+      };
+
+      ```
+
+
+      緩衝區為6560個位元組。 假設有一個應用程式具有要轉譯的1000物件，100個是 skinned 網格，而900則為靜態網格。 此外，假設此應用程式使用陰影對應搭配一個光源。 這表示有兩個行程，一個用於從光源所呈現的深度地圖，另一個用於向前轉譯行程。 這會導致2000繪製呼叫。 雖然每個繪製呼叫不需要更新常數緩衝區的每個部分，但是整個常數緩衝區仍會更新並傳送到卡片。 這會導致每個畫面格更新 13 MB 的資料， (2000 繪製呼叫乘以 6560 KB) 。
+  - question: 組織常數緩衝區的最佳方式是什麼？
+    answer: "最佳方式是依更新頻率來組織常數緩衝區。 以類似頻率更新的常數應該在相同的緩衝區中。 例如，請考慮以下的案例：「組織常數緩衝區有何最差的方法？」，但有更好的配置：\n\n``` syntax\ncbuffer VSGlobalPerFrameCB\n  { \n    float   AppTime; \n  };\ncbuffer VSPerSkinnedCB\n  { \n    matrix  Bones[100]; \n  };\ncbuffer VSPerStaticCB\n  {\n    matrix  World;\n  };\ncbuffer VSPerPassCB\n  {\n    matrix  ViewProj;\n    uint2   RenderTargetSize;\n  };\ncbuffer VSPerMaterialCB\n  {\n    float   SpecPower;\n    float4  BDRFCoefficients;\n  };    \n```\n\n常數緩衝區依其更新頻率分割，但這只是解決方案的一半。 應用程式需要正確更新常數緩衝區，才能充分利用分割。 我們會假設與上面相同的場景：900靜態網格、100 skinned 網格、一次輕量，以及一次向前傳遞。 我們也會假設會儲存每個物件的一些常數緩衝區。 這表示，每個物件都會包含 VSPerSkinnedCB 或 VSPerStaticCB，視其為 skinned 或靜態而定。 這麼做是為了避免透過管線傳送的矩陣數量加倍。\n\n我們將框架分成三個階段。 第一個階段是框架的開頭，且不包含任何轉譯，而只是持續更新。\n\n\n\n**開始畫面格**\n\n\n-    (4 個位元組的應用程式時間更新 VSGlobalPerFrameCB) \n-   100 skinned 物件的更新 100 VSPerSkinnedCB (640000 個位元組) \n-   900靜態物件的更新 VSPerStaticCB (57600 位元組) \n\n接下來是陰影地圖傳遞。 請注意，實際更新的唯一常數緩衝區是 VSPerPassCB。 所有其他常數緩衝區都已在開始框架傳遞期間更新。 雖然我們仍然需要系結這些常數緩衝區，但傳遞至視訊卡的資訊量很少，因為已更新緩衝區。\n\n\n**陰影傳遞**\n\n\n-   更新 VSPerPassCB (72 個位元組) \n-   繪製 100 skinned 網格 (100 系結，沒有更新) \n-   繪製900靜態網格 (100 系結，沒有更新) \n\n同樣地，向前轉譯傳遞只需要更新每個材質的資料，因為它不會儲存在每個網格中。 假設在場景中使用500材質：\n\n\n**向前傳遞**\n\n\n-   更新 VSPerPassCB (72 個位元組) \n-   更新 500 VSPerMaterialCBs (10000 位元組) \n\n這會導致總共只有 707 KB。 雖然這是非常假設的案例，但它會透過依更新頻率排序常數，來說明可減少多少常數的更新負擔。\n\n \n"
+  - question: 如果我沒有足夠的空間來儲存網格、材質等的個別常數緩衝區，該怎麼辦？
+    answer: >
+      您一律可以使用常數緩衝區的分層式系統。 建立變動大小的常數緩衝區 (16 個位元組、32個位元組、64個位元組，依此類推，) 最多需要最大的常數緩衝區大小。 當您將常數緩衝區系結至著色器時，請選取可保存著色器所需資料的最小常數緩衝區。 雖然這種方法的效率稍微低，但這是不錯的中間步驟。
+  - question: 我在不同的著色器之間共用了常數緩衝區。 一個著色器可能會使用所有常數，但另一個著色器可能會使用某些常數。 更新這些專案的最佳方式是什麼？
+    answer: >
+      其中一個方法是更進一步分割常數緩衝區。 不過，有太多常數緩衝區系結的點。 在此情況下，請將很多著色器未使用的常數，移至常數緩衝區的結尾。 從著色器取得變數資料時，請使用 \_ \_ D3D10 著色器變數 DESC 中的 D3D10 SVF 使用旗標 \_ \_ \_ 來判斷變數是否已使用。 藉由在常數緩衝區的結尾放置未使用的變數，您可以將較小的緩衝區系結至不使用這些變數的著色器，藉此節省更新成本。
+  - question: 如果每個畫面上只上傳一次字元的骨骼，而不是每次通過/繪製一次，則可以改善畫面播放速率的大小？
+    answer: >
+      您可以根據多餘的資料量，改善介於8% 到50% 之間的畫面播放速率。 在最糟的情況下，效能不會降低。
+  - question: 我應該同時系結多少常數緩衝區？
+    answer: >
+      系結取得所有資料到著色器所花費的常數緩衝區數目下限。 在實際案例中，建議使用五個常數緩衝區數目。 在著色器之間共用常數緩衝區 (將相同的 CB 系結至 VS 和 PS) 也可以改善效能。
+  - question: 系結常數緩衝區是否有成本，而不使用它們？
+    answer: >
+      是的，如果您不想要使用緩衝區，請不要呼叫 VSSetConsantBuffer 或 PSSetConstantBuffer。 這項額外的 API 額外負荷可能會在多個繪製呼叫的過程中增加。
+- name: 狀態
+  questions:
+  - question: 在 D3D10 中管理狀態的最佳方式為何？
+    answer: >
+      最好的解決方法是事先瞭解所有的狀態，然後事先建立狀態物件。 這表示在轉譯時期，狀態系結是唯一需要發生的作業。 D3D10 也會篩選出重複的專案。
+  - question: 我的遊戲動態載入或具有使用者產生的內容。 我無法提前載入所有的狀態物件。 我該怎麼辦？
+    answer: >
+      這裡有兩個解決方案。 第一種方式是立即建立狀態物件，並讓 D3D10 篩選出重複的專案。 但是，不建議在每個畫面上有許多狀態物件變更的案例中使用。 更好的解決方法是在雜湊表中找不到符合需求的狀態物件時自行進行雜湊處理，並建立狀態物件。 使用自訂雜湊表的原因是，應用程式可以根據特定應用程式的使用案例來選取快速雜湊。 例如，如果應用程式只變更 BlendState 中的 rendertargetwritemask，並保留所有其他值，則應用程式可以從 rendertargetwritemask 產生雜湊，而不是整個結構。
+  - question: AlphaTest 狀態已消失。 它在哪裡？
+    answer: >
+      AlphaTest 現在應該是著色器中的效能。 請參閱 FixedFuncEMU 範例。
+  - question: 使用者裁剪平面發生什麼事？
+    answer: >
+      使用者裁剪平面已移至著色器。 有兩種方式可以處理這種情況。 第一個是 \_ 從頂點著色器或幾何著色器輸出 SV ClipDistance。 另一個選項是在圖元著色器中使用 [捨棄]，並根據頂點著色器或幾何著色器所傳遞的某個值。 進行這兩者的實驗，以查看您的特定案例更快。 使用 SV \_ ClipDistance 可能會導致硬體使用以幾何為基礎的裁剪常式，而這可能會造成幾何系結繪製呼叫的執行速度變慢。 同樣地，使用「捨棄」會將工作移至圖元著色器，這可能會造成圖元系結的繪製呼叫執行速度較慢。
+  - question: 清除不遵守任何狀態設定，例如我的轉譯器狀態中的剪式矩形設定。
+    answer: >
+      清除已與管線狀態分開。 為了取得 D3D9 樣式的行為，請藉由繪製全螢幕的四種方式來清除。
+  - question: 我將狀態設回預設值，以嘗試診斷轉譯錯誤。 現在我的畫面只會顯示黑色，雖然我知道要在螢幕上繪製物件。
+    answer: >
+      將狀態設回預設值 (Null) 時，請確定 OMSetBlendState 呼叫中的 SampleMask 永遠不會是零。 如果 SampleMask 設定為零，則所有範例都會以邏輯方式與零。 在此案例中，沒有任何範例會通過 blend 測試。
+  - question: D3DSAMP\SRGBTEXTURE 狀態在哪裡？
+    answer: >
+      已移除 SRGB 作為取樣器狀態的一部分，現在會系結至材質格式。 如果您 \_ 在 Direct3D 9 中指定了 D3DSAMP SRGBTEXTURE，系結 SRGB 材質將會產生相同的取樣。
+- name: 格式
+  questions:
+  - question: 哪一種 D3D9 格式對應至哪個 D3D10 格式？
+    answer: >
+      如需詳細資訊，請參閱 [direct3d 9 至 direct3d 10 考慮](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-d3d9-to-d3d10-considerations)。
+  - question: A8R8G8B8 紋理格式有何變化？
+    answer: >
+      它們在 D3D10 中已被取代。 您可以將紋理以 R8G8B8A8 的形式重新來源，或者可以在載入時 swizzle，也可以在著色器中 swizzle。
+  - question: 如何? 使用調色盤材質？
+    answer: >
+      將您的色板置於材質或常數緩衝區，並將其系結至管線。 在圖元著色器中，使用調色盤材質中的索引進行間接查閱。
+  - question: 這些新的 SRGB 格式有哪些？
+    answer: >
+      已將 SRGB 移除為取樣器狀態的一部分，而且現在已系結至材質格式。 如果您 \_ 在 Direct3D 9 中指定了 D3DSAMP SRGBTEXTURE，系結 SRGB 材質將會產生相同的取樣。
+  - question: 三角形風扇在哪裡去了？
+    answer: >
+      三角形在 D3D10 中已被取代。 三角形的風扇必須在內容管線或載入時進行轉換。
+- name: 著色器連結
+  questions:
+  - question: 我的 Direct3D 9 著色器可以編譯為著色器模型4.0，但是當我將它們系結至管線時，會出現在偵錯工具中使用偵錯工具執行時間顯示的連結錯誤。
+    answer: >
+      著色器連結在 D3D10 中更嚴格。 後續階段中的元素必須以其從上一個階段輸出的順序來讀取。 例如︰
+
+
+      頂點著色器輸出：
+
+
+      ``` syntax
+          float4 Pos  : SV_POSITION;
+          float3 Norm : NORMAL;
+          float2 Tex  : TEXCOORD0;
+      ```
+
+
+      圖元著色器會讀取：
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+      ```
+
+
+      雖然圖元著色器中不需要位置，但這會導致連結錯誤，因為位置是從頂點著色器輸出，而不是由圖元著色器讀取。 更正確的版本看起來會像這樣：
+
+
+      頂點著色器輸出：
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+              float4 Pos  : SV_POSITION;
+      ```
+
+
+      圖元著色器會讀取：
+
+
+      ``` syntax
+              float3 Norm : NORMAL;
+              float2 Tex  : TEXCOORD0;
+      ```
+
+
+      在此情況下，頂點著色器會輸出相同的資訊，但現在圖元著色器會在訂單輸出中讀取專案。 由於圖元著色器在 Tex 之後不會讀取任何內容，因此我們不需要擔心 VS 所輸出的資訊會比 PS 正在讀取的還多。
+  - question: 我需要著色器簽章才能建立輸入版面配置，但我會在建立著色器之前載入網格，並建立版面配置。 該怎麼辦？
+    answer: >
+      其中一個解決方法是在載入網格之前切換訂單和載入著色器。 不過，這種方式比完成的簡單得多。 您隨時都可以視需要建立應用程式所需的輸入版面配置。 您必須保留一個版本的著色器簽章。 您應該根據著色器和緩衝區配置建立雜湊，而且只有當相符專案尚未存在時，才會建立輸入版面配置。
+- name: 繪製呼叫
+  questions:
+  - question: D3D10 到達 60 Hz 的繪製通話限制為何？ 30 Hz？
+    answer: >
+      由於每個繪製呼叫的 CPU 成本，Direct3D 9 對繪製呼叫的數目有限制。 在 Direct3D 10 上，每個繪製呼叫的成本都已減少。 不過，繪製呼叫和畫面播放速率之間不再有明確的關聯性。 由於繪製呼叫通常需要許多支援呼叫 ( 常數緩衝區更新、材質系結、狀態設定等等) 因此，API 的畫面播放速率影響現在更相依于整體的 API 使用方式，而不只是繪製呼叫計數。
+- name: 資源
+  questions:
+  - question: 我應該使用何種資源使用類型來執行哪些作業？
+    answer: >
+      使用下列內容頁：
+
+
+      -   CPU 會每個畫面更新一次以上的資源： D3D10 \_ 使用量 \_ 動態
+
+      -   CPU 會將每個畫面格的資源更新為小於一次： D3D10 \_ 使用量 \_ 預設值
+
+      -   CPU 不會更新資源： D3D10 使用方式 \_ \_ 不可變
+
+      -   CPU 需要讀取資源： D3D10 \_ 使用量 \_ 暫存
+
+
+      因為常數緩衝區一律會經常更新，所以它們不符合「操作簡介」。 針對要用於常數緩衝區的資源類型，請參閱 [常數緩衝區](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#constant-buffers) 區段。
+  - question: DrawPrimitiveUP 和 DrawIndexedPrimitiveUP 會發生什麼事？
+    answer: >
+      它們 D3D10。 若為動態幾何，請使用大型 D3D10 \_ 使用 \_ 動態緩衝區。 在框架的開頭，將它與 D3D10 \_ map \_ WRITE 捨棄進行對應 \_ 。 針對每個後續的繪製呼叫，將寫入指標提前超過先前繪製頂點的位置，並將緩衝區與 D3D10 \_ 對應 \_ 寫入 [ \_ 不覆寫] \_ 。 如果您接近框架結尾之前的緩衝區結尾，請將寫入指標包裝到開頭和 map，並 D3D10 \_ 對應 \_ 寫入 \_ 捨棄。
+  - question: 我可以將16位的索引和32位索引寫入相同的動態幾何緩衝區嗎？
+    answer: >
+      是的，您可以，但這可能會對特定硬體造成效能上的影響。 針對動態16位索引資料和32位索引資料建立不同的緩衝區是比較安全的做法。
+  - question: 如何? 從 GPU 將資料讀取回 CPU？
+    answer: >
+      您必須使用暫存資源。 使用 CopyResource 將資料從 GPU 資源複製到預備資源。 對應暫存資源以讀取資料。
+  - question: 我的應用程式相依于 StretchRect 功能。
+    answer: >
+      因為這本質上是基本 Direct3D 功能的包裝函式，所以已從 API 中移除。 部分 StretchRect 功能已移至 D3DX10LoadTextureFromTexture。 針對格式轉換和複製材質，D3DX10LoadTextureFromTexture 可能會進行工作。 不過，從某個大小轉換成另一種大小的作業，可能需要在應用程式中轉譯成材質。
+  - question: 資源的地圖呼叫沒有位移或大小。 這些都是在 Direct3D 9 上的鎖定呼叫;為何會變更？
+    answer: >
+      在 Direct3D 9 上鎖定呼叫的位移和大小基本上是 API 雜亂的，且驅動程式通常會忽略此情形。 您應改為從 Map 呼叫中傳回的指標來計算位移。
+- name: 深度為材質
+  questions:
+  - question: 速度更快？ 使用深度作為材質或將深度寫到 Alpha 並閱讀
+    answer: >
+      這是應用程式和硬體特有的。 使用哪一個可節省最多頻寬。 如果您已經使用多個轉譯目標並有額外的通道，則從著色器寫入深度可能是較佳的解決方案。 此外，將深度寫到 Alpha 或其他轉譯目標，可讓您撰寫線性深度值，以加速需要存取深度緩衝區的計算。
+  - question: 是否可以將材質系結為輸入，並將其系結為深度樣板材質（只要我停用深度寫入）？
+    answer: >
+      不在 D3D10 中。
+- name: MSAA
+  questions:
+  - question: 我可以解析 MSAA 深度樣板材質嗎？
+    answer: >
+      不在 D3D10 中。 不過，您可以從 MSAA 材質取樣個別樣本。 如需詳細資訊，請參閱 [HLSL](/windows/win32/dxtecharts/direct3d10-frequently-asked-questions#hlsl) 一節。
+  - question: 為什麼我的應用程式在啟用 MSAA 時立即損毀？
+    answer: >
+      確定您要啟用由驅動程式所列舉的 MSAA 樣本計數和品質數位。
+- name: 損毀
+  questions:
+  - question: 我的應用程式在 D3D10 或驅動程式中損毀，但我不知道原因。
+    answer: >
+      第一個步驟是啟用將偵錯工具執行時間 ([**D3D10 \_ 建立 \_ 裝置 \_ 調試**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) 程式旗標傳入 [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)) 。 這會將最常見的錯誤公開為 debug 輸出。
+  - question: 當我嘗試搭配使用我的應用程式與應用程式時，PIX 會當機。
+    answer: >
+      第一個步驟是啟用將偵錯工具執行時間 ([**D3D10 \_ 建立 \_ 裝置 \_ 調試**](/windows/desktop/api/d3d10/ne-d3d10-d3d10_create_device_flag) 程式旗標傳入 [**D3D10CreateDevice**](/windows/desktop/api/d3d10misc/nf-d3d10misc-d3d10createdevice)) 。 如果偵錯工具輸出不幹淨，PIX 有更高的損毀可能性。
+  - question: 我的遊戲在 D3D10 的32位 Vista 上的虛擬位址空間不足。 在 D3D9 上沒有任何問題。
+    answer: >
+      D3D10 和虛擬位址空間有一些問題。 這已在 [KB940105](https://support.microsoft.com/kb/940105)中修正。 如果這無法修正您的問題，請確定您未在 D3D10 中建立更多可對應 (鎖定) 的資源，而不是在 D3D9 中建立。 也請考慮移植到64位，因為這會在未來更普遍。
+- name: 前提轉譯
+  questions:
+  - question: 我使用前提轉譯 (根據遮蔽查詢結果) 。 為什麼我的應用程式仍然是一樣的速度？
+    answer: >
+      首先，請確定您想要跳過的呈現實際上是應用程式瓶頸。 如果不是瓶頸，則略過轉譯將無法協助畫面播放速率。
+
+
+      其次，請確定在您想要述詞的查詢和轉譯的問題之間，已經過足夠的時間。 如果查詢在轉譯呼叫到達 GPU 時未完成，則仍會進行轉譯。
+
+
+      第三，predication 只會略過特定的呼叫。 略過的呼叫為 Draw、Clear、Copy、Update、ResolveSubresource 和 GenerateMips。 狀態設定、IA 安裝、對應和建立呼叫不遵守 predication。 如果要前提繪製呼叫周圍有許多狀態設定呼叫，仍會設定這些狀態。
+- name: 幾何著色器
+  questions:
+  - question: 我應該使用幾何著色器來 tessellate 我的 (在此處插入任何內容) ？
+    answer: >
+      否。 幾何著色器不應該用於鑲嵌式。
+  - question: 我可以使用幾何著色器來建立幾何嗎？
+    answer: >
+      是，在極少數的案例中。 目前 D3D10 中的幾何著色器 (2008) 元件並沒有處理許多擴充的能力。 未來可能會變更。 由於現有的點 sprite 硬體，視訊卡廠商可能會有一到四個擴充的特殊路徑。 任何其他擴充都必須非常有限。 ParticlesGS 和 PipesGS 範例只會執行有限的擴充，以達到高框架速率。 每個畫面格只會展開一些點。
+  - question: 如何使用幾何著色器？
+    answer: >
+      需要對整個基本類型進行作業的任何作業，例如側面程式偵測、barycentric 座標等等。 也可以用來選取要將基本類型傳送至其中的轉譯目標陣列配量。
+  - question: 我可以從幾何著色器輸出可變數量的幾何嗎？
+    answer: >
+      是的，但這可能會導致效能問題。 針對一個叫用輸出1點，並為另一個叫用4點。 在擴充方針內進行調整時，這可能會導致幾何著色器執行緒循序執行。
+  - question: D3D10 如何知道如何為我的網格產生連續的索引？ 或者，當我指定幾何著色器需要相鄰資訊時，為什麼 D3D10 無法正確轉譯。
+    answer: >
+      相鄰資訊不是由 D3D10 所建立，而是由應用程式所建立。 鄰接索引是由應用程式產生的，而且每個基本必須包含六個索引;在六個中，奇數編號的索引是邊緣相鄰頂點。 ID3DX10Mesh：： GenerateAdjacencyAndPointsReps 可以用來產生此資料。
+- name: HLSL
+  questions:
+  - question: 整數和位指令是否慢？
+    answer: >
+      它們可以是。 不同的 D3D10 卡可能只能針對可用的 ALU 單位子集發出整數運算。 這會高度依賴硬體。 請參閱您的個人硬體廠商，以取得如何處理該特定硬體上的整數作業的建議。 此外，請務必小心轉換類型。
+  - question: VPOS 發生什麼事？
+    answer: >
+      如果您將圖元著色器的輸入宣告為 SV \_ 位置，則會得到與將它宣告為 VPOS 相同的行為。
+  - question: 如何? MSAA 材質範例？
+    answer: >
+      在您的著色器中，將材質宣告為 Texture2DMS。 然後，您可以使用 Texture2DMS 物件以外的範例方法來提取個別的範例。
+  - question: 如何? 告訴您是否真的使用常數緩衝區中的著色器變數？
+    answer: >
+      查看 \_ 針對該變數反映的 D3D10 著色器 \_ 變數 \_ DESC 結構。 uFlags 應 \_ 設定 D3D10 SVF \_ 使用旗標。
+  - question: 如何? 知道常數緩衝區中的著色器變數是否真的使用 FX10？
+    answer: >
+      目前無法使用 FX10。
+  - question: 我無法控制 FX10 所建立的常數緩衝區。 他們如何建立和更新？
+    answer: >
+      所有 FX10 管理的常數緩衝區都會建立為 D3D10 \_ 使用量 \_ 預設資源，並使用 UpdateSubresource 進行更新。 因為 FX10 會保留所有常數資料的備份存放區，所以 UpdateSubresource 是更新這些資料的最佳方法。
+  - question: 如何? 使用著色器模擬 fixed 函數管線？
+    answer: >
+      請參閱 FixedFuncEMU 範例。
+  - question: 我應該使用新的 \[ 展開 \] 、 \[ 迴圈 \] 、 \[ 分支等 \] 編譯器提示嗎？
+    answer: >
+      一般而言不行。 編譯器通常會嘗試這兩種方式，並選擇最快的方法。 在某些情況下，可能需要使用 \[ 展開 \] ，例如，當迴圈內的材質提取需要存取漸層時。
+  - question: 部分有效位數會對 D3D10 有任何差異嗎？ 我可以在我的 D3D9 HLSL 中指定部分有效位數，但不能在我的 D3D10 HLSL 中指定。
+    answer: >
+      所有 D3D10 作業都指定為以32位浮點精確度執行。 因此，部分有效位數不應該在 D3D10 中產生任何差異。
+  - question: 在 D3D9 中，我可以藉由將深度緩衝區系結為材質並使用一般 tex2d hlsl 指示，來進行 HW PCF 影子篩選。 如何? 在 D3D10 上這樣做呢？
+    answer: >
+      您必須使用比較取樣器狀態，並使用 SampleCmp 指令。
+  - question: 此 register 關鍵字在 D3D10 中的運作方式為何？
+    answer: "D3D10 中的 register 關鍵字現在適用于特定資源系結至的位置。 在此情況下，資源可以是緩衝區 (常數或) 、材質或取樣器。\n\n-   針對常數緩衝區，請使用語法： register (bN) ，其中 N 是輸入位置 (0-15) \n-   針對材質，請使用語法： register (tN) ，其中 N 是輸入位置 (0-127) \n-   針對取樣器，請使用語法： register (sN) ，其中 N 是輸入位置 (0-127) \n"
+  - question: 如果 register 只是用來指定要系結整個緩衝區的位置，如何? 在常數緩衝區內放置變數呢？
+    answer: >-
+      使用 packoffset 關鍵字。 Packoffset 的引數是 c 0-4095 的形式 \[ \] 。 \[x、y、z、w \] 。 例如︰
+
+
+      ``` syntax
+              cbuffer cbLotsOfEmptySpace
+              {
+              float   IWaste2Floats   : packoffset(c0.z);
+              float4  IWasteMore  : packoffset(c13);
+              };
+      ```
+
+
+      在這個常數緩衝區中，IWaste2Floats 會放在常數緩衝區中的第三個 float (第12個位元組) 。 IWasteMore 會放在常數緩衝區中的第13個 float4 或52nd 浮點數。

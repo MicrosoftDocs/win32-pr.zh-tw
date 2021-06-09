@@ -71,6 +71,8 @@
                   href: /windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv
                 - name: XMColorRGBToYUV_HD
                   href: /windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_hd
+                - name: XMColorRGBToYUV_UHD
+                  href: /windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_uhd
                 - name: XMColorSRGBToXYZ
                   href: /windows/win32/api/directxmath/nf-directxmath-xmcolorsrgbtoxyz
                 - name: XMColorXYZToRGB
@@ -81,6 +83,8 @@
                   href: /windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb
                 - name: XMColorYUVToRGB_HD
                   href: /windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_hd
+                - name: XMColorYUVToRGB_UHD
+                  href: /windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_uhd
             - name: DirectXMath 程式庫轉換函式
               href: ovw-xnamath-reference-functions-conversion.md
               items:
@@ -193,6 +197,8 @@
                   href: /windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslationfromvector
                 - name: XMMatrixTranspose
                   href: /windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose
+                - name: XMMatrixVectorTensorProduct
+                  href: /windows/win32/api/directxmath/nf-directxmath-xmmatrixvectortensorproduct
             - name: DirectXMath 程式庫平面函式
               href: ovw-xnamath-reference-functions-plane.md
               items:
@@ -546,12 +552,16 @@
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorcosh
                     - name: XMVectorExp
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorexp
+                    - name: XMVectorExp10
+                      href: /windows/win32/api/directxmath/nf-directxmath-xmvectorexp10
                     - name: XMVectorExp2
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorexp2
                     - name: XMVectorExpE
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorexpe
                     - name: XMVectorLog
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorlog
+                    - name: XMVectorLog10
+                      href: /windows/win32/api/directxmath/nf-directxmath-xmvectorlog10
                     - name: XMVectorLog2
                       href: /windows/win32/api/directxmath/nf-directxmath-xmvectorlog2
                     - name: XMVectorLogE
