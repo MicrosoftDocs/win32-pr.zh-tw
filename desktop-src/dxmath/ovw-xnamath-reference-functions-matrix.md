@@ -4,12 +4,12 @@ ms.assetid: d59d0dcc-deae-3f7e-55c5-0c5ff383343b
 title: DirectXMath 程式庫矩陣函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15e9c6110db6bb3ce9ee883406445ad3a04681cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a91ecdef8389bf60594d370c2b3de01995bc1169
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981471"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826763"
 ---
 # <a name="directxmath-library-matrix-functions"></a>DirectXMath 程式庫矩陣函數
 
@@ -69,6 +69,7 @@ ms.locfileid: "106981471"
 | [**XMMatrixTranslation**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslation)<br/>                                       | 從指定的位移建立平移矩陣。<br/>                                                                     |
 | [**XMMatrixTranslationFromVector**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranslationfromvector)<br/>                   | 從向量建立轉譯矩陣。<br/>                                                                                  |
 | [**XMMatrixTranspose**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixtranspose)<br/>                                           | 計算矩陣的變換。<br/>                                                                                         |
+| [**XMMatrixVectorTensorProduct**](/windows/win32/api/directxmath/nf-directxmath-xmmatrixvectortensorproduct)<br/>                                           | 計算2個向量的外部 tensor 乘積。<br/>                                                                                         |
 
 
 

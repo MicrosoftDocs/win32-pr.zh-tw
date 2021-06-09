@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 236c453f3636452cbba8ed6000b2416e5187898d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 959304d36da2b95bdf6289fba1b8c75d6ecfa314
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195924"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825735"
 ---
 # <a name="samplegrad-directx-hlsl-texture-object"></a>SampleGrad (DirectX HLSL 材質物件) 
 
 使用漸層來取樣材質，以影響範例位置的計算方式。
 
-
-
-|                                                                                                            |
-|------------------------------------------------------------------------------------------------------------|
-| &lt;樣板類型 &gt; Object. SampleGrad ( 取樣器 \_ 狀態 S、float 位置、float DDX、float DDY \[ 、int Offset \] ) ; |
+&lt;樣板類型 &gt; Object. SampleGrad ( 取樣器 \_ 狀態 S、float 位置、float DDX、float DDY \[ 、int Offset \] ) ;
 
 
 

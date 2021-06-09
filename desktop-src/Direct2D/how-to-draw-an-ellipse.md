@@ -5,12 +5,12 @@ ms.assetid: 8a68fc3f-118c-447b-856c-05417ae4ef29
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 6b6b5a6fb08ac962475c2f0aa2812b4c3ae5da03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93d8f3a3ddeb06c9168971789dff3ac8c9222d22
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104551899"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826997"
 ---
 # <a name="how-to-draw-and-fill-a-basic-shape"></a>如何繪製和填滿基本圖形
 
@@ -90,7 +90,7 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 
 ## <a name="draw-and-fill-an-ellipse"></a>繪製和填滿橢圓形
 
-若要繪製橢圓形的內部，請使用 [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) 方法。 下列範例會使用 [**DrawEllipse**]/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse (constd2d1_ellipse__id2d1brush_float_id2d1strokestyle) ) 方法來勾勒出橢圓形，然後使用 **FillEllipse** 方法來繪製其內部。 此範例會產生下圖所示的輸出。
+若要繪製橢圓形的內部，請使用 [**FillEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-fillellipse(constd2d1_ellipse__id2d1brush)) 方法。 下列範例會使用 [**DrawEllipse**](/windows/desktop/api/d2d1/nf-d2d1-id2d1rendertarget-drawellipse(constd2d1_ellipse__id2d1brush_float_id2d1strokestyle)) 方法來勾勒出橢圓形，然後使用 **FillEllipse** 方法來繪製其內部。 此範例會產生下圖所示的輸出。
 
 ![橢圓形的圖例，其中含有虛線筆觸，然後以純灰色色彩填滿](images/drawandfillellipseexample-3.png)
 
@@ -130,6 +130,6 @@ m_pRenderTarget->DrawEllipse(ellipse, m_pBlackBrush, 10.f, m_pStrokeStyle);
 [筆刷概觀](direct2d-brushes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

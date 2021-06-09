@@ -4,12 +4,12 @@ ms.assetid: 31512657-c413-9e6e-e343-1ea677a02b8c
 title: 程式庫內部
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccac708934c393a526fdb46d73f819d6557107f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f7c1843a83a81e7acac241c66dd18ff26217569
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981467"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827232"
 ---
 # <a name="library-internals"></a>程式庫內部
 
@@ -30,19 +30,19 @@ ms.locfileid: "106981467"
 
 **適用于32位 Windows**
 
-針對32位的 Windows，有兩個呼叫慣例可用來有效率地傳遞 [ \_ \_ m128](/cpp/cpp/m128)值， (可在該平臺) 上執行 [**XMVECTOR**](xmvector-data-type.md) 。 標準是 [ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx)，它可以傳遞前三個 [ \_ \_ m128](/cpp/cpp/m128)值 (**XMVECTOR** 實例，) 為 *SSE/SSE2* 登錄中函式的引數。 [ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx)會透過堆疊傳遞其餘的引數。
+針對32位的 Windows，有兩個呼叫慣例可用來有效率地傳遞 [ \_ \_ m128](/cpp/cpp/m128)值， (可在該平臺) 上執行 [**XMVECTOR**](xmvector-data-type.md) 。 標準是 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它可以傳遞前三個 [ \_ \_ m128](/cpp/cpp/m128)值 (**XMVECTOR** 實例，) 為 *SSE/SSE2* 登錄中函式的引數。 [ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)會透過堆疊傳遞其餘的引數。
 
 較新的 Microsoft Visual Studio 編譯器支援新的呼叫慣例 \_ \_ vectorcall，最多可傳遞六個 [ \_ \_ m128](/cpp/cpp/m128)值 ([**XMVECTOR**](xmvector-data-type.md)實例) 為 *SSE/SSE2* 暫存器中函式的引數。 如果有足夠的空間，也可以透過 *SSE/SSE2* 暫存器，傳遞異類向量匯總 (也稱為 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) 。
 
 **適用于 Windows 的64位版本**
 
-針對64位的 Windows，有兩個呼叫慣例可用來有效率地傳遞[ \_ \_ m128](/cpp/cpp/m128)值。 標準是[ \_ \_ fastcall](https://msdn.microsoft.com/library/6xa169sk(VS.71).aspx)，它會傳遞堆疊上的所有[ \_ \_ m128](/cpp/cpp/m128)值。
+針對64位的 Windows，有兩個呼叫慣例可用來有效率地傳遞[ \_ \_ m128](/cpp/cpp/m128)值。 標準是[ \_ \_ fastcall](https://docs.microsoft.com/cpp/cpp/fastcall)，它會傳遞堆疊上的所有[ \_ \_ m128](/cpp/cpp/m128)值。
 
 較新的 Visual Studio 編譯器支援 \_ \_ vectorcall 呼叫慣例，其最多可傳遞六個 [ \_ \_ m128](/cpp/cpp/m128)值 ([**XMVECTOR**](xmvector-data-type.md)實例) 為 *SSE/SSE2* 登錄中函式的引數。 如果有足夠的空間，也可以透過 *SSE/SSE2* 暫存器，傳遞異類向量匯總 (也稱為 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix)) 。
 
-**針對 Windows RT**
+**適用于 ARM 上的 Windows**
 
-Windows RT 作業系統支援傳遞前四個 \_ \_ n128 值 ([**XMVECTOR**](xmvector-data-type.md)實例) 在註冊中。
+ARM 上的 Windows & ARM64 支援將前四個 \_ \_ n128 值傳遞 ([**XMVECTOR**](xmvector-data-type.md)實例) 在註冊中。
 
 **DirectXMath 解決方案**
 
@@ -152,7 +152,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 
 
-**Windows RT**
+**ARM 上的 Windows**
 
 
 ```C++
@@ -172,7 +172,7 @@ typedef const XMMATRIX& CXMMATRIX;
 
 ## <a name="graphics-library-type-equivalence"></a>圖形程式庫類型等價
 
-為了支援使用 DirectXMath 程式庫，許多 DirectXMath 程式庫類型和結構都相當於 **D3DDECLTYPE** 和 **D3DFORMAT** 類型的 Windows 實作為，以及 [**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 類型。 
+為了支援使用 DirectXMath 程式庫，許多 DirectXMath 程式庫類型和結構都相當於 **D3DDECLTYPE** 和 **D3DFORMAT** 類型的 Windows 實作為，以及 [**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 類型。
 
 | DirectXMath                      | D3DDECLTYPE                                                                           | D3DFORMAT                                                     | DXGI \_ 格式                                                                                                                                                                                            |
 |----------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -232,7 +232,7 @@ typedef const XMMATRIX& CXMMATRIX;
 SSE 指令集僅提供單精確度浮點向量的支援。 DirectXMath 必須利用 SSE2 指令集來提供整數向量支援。 自 Pentium 4、所有 AMD K8 和更新版本的處理器，以及所有 x64 支援的處理器推出之後，所有 Intel 處理器都支援 SSE2。
 
 > [!Note]  
-> X86 的 Windows 8 需要支援 SSE2。 所有版本的 Windows x64 都需要 SSE2 的支援。 Windows RT (也稱為 Windows on ARM) 需要 ARM \_ 霓虹燈。
+> X86 或更新版本的 Windows 8 需要支援 SSE2。 所有版本的 Windows x64 都需要 SSE2 的支援。 ARM/ARM64 上的 Windows 需要 ARM \_ 霓虹燈。
 
  
 
@@ -240,8 +240,8 @@ SSE 指令集僅提供單精確度浮點向量的支援。 DirectXMath 必須利
 
 有數種 DirectXMath 函式可讓您更輕鬆地執行您的工作：
 
--   比較函式，根據較少量的向量比較作業來建立複雜的條件式分支。 這些函式的名稱會以 "R" 結尾，例如 XMVector3InBoundsR。 函數會以 UINT 傳回值或 UINT out 參數傳回比較記錄。 您可以使用 **XMComparision \** _ 宏來測試值。
--   在較大型向量陣列上執行批次樣式作業的批次函數。 這些函式的名稱會以 "Stream" 結尾，例如 [_ *XMVector3TransformStream* *](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream)。 這些函式會在輸入的陣列上操作，而且會產生輸出的陣列。 通常，它們會採用輸入和輸出 stride。
+-   比較函式，根據較少量的向量比較作業來建立複雜的條件式分支。 這些函式的名稱會以 "R" 結尾，例如 XMVector3InBoundsR。 函數會以 UINT 傳回值或 UINT out 參數傳回比較記錄。 您可以使用 **XMComparision \*** 宏來測試值。
+-   在較大型向量陣列上執行批次樣式作業的批次函數。 這些函式的名稱會以 "Stream" 結尾，例如 [**XMVector3TransformStream**](/windows/win32/api/directxmath/nf-directxmath-xmvector3transformstream)。 這些函式會在輸入的陣列上操作，而且會產生輸出的陣列。 通常，它們會採用輸入和輸出 stride。
 -   評估函式，以執行更快的估計，而不是較慢且更精確的結果。 這些函式的名稱結尾是 "Est"，例如 [**XMVector3NormalizeEst**](/windows/win32/api/directxmath/nf-directxmath-xmvector3normalizeest)。 使用估計的品質和效能影響會因平臺而異，但我們建議您針對效能相關的程式碼使用估計變異。
 
 ## <a name="platform-inconsistencies"></a>平臺不一致
@@ -265,7 +265,7 @@ DirectXMath 程式庫旨在簡化 c + + SIMD 程式設計，為 x86、x64 和 Wi
 
 
 ```
-#include <windows.h>
+#include <Windows.h>
 #include <stdio.h>
 
 #include <DirectXMath.h>
@@ -283,12 +283,20 @@ void DetectCPUFeatures()
    // See __cpuid documentation on MSDN for more information
 
    int CPUInfo[4] = {-1};
-   __cpuid( CPUInfo, 0 );
+#if defined(__clang__) || defined(__GNUC__)
+   __cpuid(0, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+   __cpuid(CPUInfo, 0);
+#endif
 
    if ( CPUInfo[0] >= 1 )
    {
-       __cpuid(CPUInfo, 1 );
- 
+#if defined(__clang__) || defined(__GNUC__)
+        __cpuid(1, CPUInfo[0], CPUInfo[1], CPUInfo[2], CPUInfo[3]);
+#else
+        __cpuid(CPUInfo, 1);
+#endif
+
        if ( CPUInfo[2] & 0x80000 )
            g_bSSE41 = true;
    }
@@ -324,7 +332,7 @@ int main()
        r4 = XMVector4Dot( v1, v2 );
    }
 
-   ... 
+   ...
 
    return 0;
 }

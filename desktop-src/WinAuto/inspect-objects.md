@@ -7,29 +7,32 @@ keywords:
 - 協助工具選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1770c6c4db812ea7d2880c50fcc72cd0edc15022
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: dcef8efa9efc0241d0f813da01623a1c02e6d226
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374622"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827634"
 ---
 # <a name="accessibility-tools---inspect"></a>協助工具工具-檢查
 
-**檢查** (Inspect.exe) 是以 Windows 為基礎的工具，可讓您選取任何 UI 元素，並查看元素的協助工具資料。 您可以查看 Microsoft 消費者介面自動化的屬性和控制項模式，以及 Microsoft Active Accessibility 屬性。 **檢查** 也可讓您測試消費者介面自動化樹狀結構中 automation 元素的導覽結構，以及 Microsoft Active Accessibility 階層中的可存取物件。
-
-**檢查** 是否隨 WINDOWS 軟體開發套件 (SDK) 一起安裝。  (也可在舊版的 Windows SDK 中使用。 ) 它位於 \\ \\ < SDK 安裝路徑的 bin *版本* > \\ < *平臺*> 資料夾 (Inspect.exe) 。
-
-> [!NOTE]
+> [!Important]
 > **檢查** 是舊版工具。 建議您改為使用 [協助工具深入](https://accessibilityinsights.io/) 解析。
+
+**檢查** (Inspect.exe) 是以 Windows 為基礎的工具，可讓您選取任何 UI 元素，並查看元素的協助工具資料。 您可以查看 Microsoft 消費者介面自動化的屬性和控制項模式，以及 Microsoft Active Accessibility 屬性。 **檢查** 也可讓您測試消費者介面自動化樹狀結構中 automation 元素的導覽結構，以及 Microsoft Active Accessibility 階層中的可存取物件。
 
 ## <a name="requirements"></a>規格需求
 
-您可以使用 **檢查** 來檢查沒有消費者介面自動化的系統上的協助工具資料，但只能檢查 Microsoft Active Accessibility 屬性。 若要檢查消費者介面自動化，消費者介面自動化必須存在於系統上。 如需詳細資訊，請參閱 [消費者介面自動化](entry-uiauto-win32.md)的「需求」一節。
+若要檢查消費者介面自動化，消費者介面自動化必須存在於系統上。 如需詳細資訊，請參閱 [消費者介面自動化](entry-uiauto-win32.md)的「需求」一節。
 
-**檢查** 會安裝為 Windows SDK 的整體工具組的一部分，而不是以個別下載方式來散發。 Windows SDK 包含本節中記載的所有協助工具相關工具。 [取得 Windows SDK。](https://developer.microsoft.com/) 如果您需要先前的版本， (也有從該頁面連結的 SDK 下載封存。 ) 
+**檢查** 會安裝為 WINDOWS 軟體開發套件 (SDK) 的整體工具組的一部分，而不是以個別下載方式來散發。 Windows SDK 包含本節中記載的所有協助工具相關工具。
 
-若要執行 [**檢查**]，請在 [ \\ bin 版本平臺>] 資料夾中尋找 Inspect.exe， \\ <  > \\ < 然後執行它 (您通常不需要以系統管理員身分執行) 。
+[下載 Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/)。
+
+> [!NOTE]
+> 如需舊版 Windows SDK，請參閱 [Windows SDK 和模擬器保存](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)。
+
+**Inspect.exe** 位於 \\ \\ < SDK 安裝路徑的 bin *版本* > \\ < *平臺*> 資料夾中， (您通常不需要以系統管理員身分執行) 。
 
 ## <a name="the-inspect-window"></a>[檢查] 視窗
 
@@ -137,7 +140,7 @@ Windows Automation 公開的方法可讓輔助技術產品與 UI 元素互動，
 
 
 
- 
+ 
 
 ## <a name="keyboard-shortcuts"></a>鍵盤快速鍵
 

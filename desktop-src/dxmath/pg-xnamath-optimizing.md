@@ -4,12 +4,12 @@ ms.assetid: bcbf8ae1-ed49-fdf7-812d-b2089537ab28
 title: 使用 DirectXMath 程式庫進行程式碼優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11b331077e3d6538952a2f7956641b8b3919e14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15369ab36e199eb1a204cc4b761dc637f114f2a1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977210"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827252"
 ---
 # <a name="code-optimization-with-the-directxmath-library"></a>使用 DirectXMath 程式庫進行程式碼優化
 
@@ -63,7 +63,7 @@ DirectXMath 程式庫基礎的 [SSE](/previous-versions/visualstudio/visual-stud
 
 基於這個理由，使用 [**XMVECTOR**](xmvector-data-type.md) 和 [**XMMATRIX**](/windows/win32/api/directxmath/ns-directxmath-xmmatrix) 物件的 DirectXMath 作業會假設這些物件已對齊16位元組。 這是自動進行堆疊型配置，如果程式碼是使用建議的 Windows (針對 DirectXMath 程式庫進行編譯，請參閱 [使用正確的編譯設定](#use-correct-compilation-settings)) 編譯器設定。 不過，請務必確保包含 **XMVECTOR** 和 **XMMATRIX** 物件的堆積配置，或轉換成這些類型，以符合這些對齊需求。
 
-雖然64位的 Windows 記憶體配置已對齊16位元組，但根據預設，在配置的 Windows 記憶體32位版本中，只會對齊8個位元組。 如需控制記憶體對齊的詳細資訊，請參閱[ \_ 對齊的 \_ malloc](https://msdn.microsoft.com/library/8z34s9c6(VS.80).aspx)。
+雖然64位的 Windows 記憶體配置已對齊16位元組，但根據預設，在配置的 Windows 記憶體32位版本中，只會對齊8個位元組。 如需控制記憶體對齊的詳細資訊，請參閱[ \_ 對齊的 \_ malloc](https://docs.microsoft.com/cpp/c-runtime-library/reference/aligned-malloc)。
 
 使用對齊的 DirectXMath 類型搭配標準範本庫 (STL) 時，您必須提供自訂配置器，以確保16位元組的對齊。 如需撰寫自訂配置器的範例，請參閱 Visual C++ Team [blog](https://devblogs.microsoft.com/cppblog/the-mallocator/) (而不是使用 malloc/free，您會想要 \_ \_ \_ \_ 在您的實施) 中使用對齊的 malloc 並保持可用。
 

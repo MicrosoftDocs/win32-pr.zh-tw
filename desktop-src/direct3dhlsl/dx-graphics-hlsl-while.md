@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 190d5474b5e016b41426db67a0c96d98787f79ff
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7bf1f0049ac474e7840753a8cfe05c972aa346c1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022342"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826671"
 ---
 # <a name="while-statement"></a>while 陳述式
 
 在條件運算式失敗之前執行語句區塊。
 
-
-
-|                                                                  |
-|------------------------------------------------------------------|
-| \[*屬性* \]while (*條件* 式 ) {*語句區塊*;} |
+\[*屬性* \]while (*條件* 式 ) {*語句區塊*;}
 
 
 

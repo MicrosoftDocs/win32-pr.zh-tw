@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b9c2581f8d6c039b5c35be3b6f4ae755e14813dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5d1e9360a311d1431d851c0c2697644afcc16c
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974354"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826444"
 ---
 # <a name="xmu565-constructors"></a>XMU565 函式
 
@@ -64,8 +64,8 @@ ms.locfileid: "106974354"
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const int8_t * ) </strong></a></td>
-<td style="text-align: left;"><code>XMU565</code>從三個元素陣列初始化的新實例 <code>int8_t</code> 。 <br/> 這個函式會從三個元素陣列初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> 的新實例 <code>int8_t</code> 。 <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(constuint8_t)"><strong>XMU565 (const uint8_t * ) </strong></a></td>
+<td style="text-align: left;"><code>XMU565</code>從三個元素陣列初始化的新實例 <code>uint8_t</code> 。 <br/> 這個函式會從三個元素陣列初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> 的新實例 <code>uint8_t</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 這個函式僅適用于 c + +。
@@ -82,8 +82,8 @@ ms.locfileid: "106974354"
 <br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (int8_t、int8_t、int8_t) </strong></a></td>
-<td style="text-align: left;"><code>XMU565</code>從三個引數初始化的新實例 <code>int8_t</code> 。 <br/> 這個函式會從三個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> 的新實例 <code>int8_t</code> 。 <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmu565-xmu565(float_float_float)"><strong>XMU565 (uint8_t、uint8_t、uint8_t) </strong></a></td>
+<td style="text-align: left;"><code>XMU565</code>從三個引數初始化的新實例 <code>uint8_t</code> 。 <br/> 這個函式會從三個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmu565"><strong>XMU565</strong></a> 的新實例 <code>uint8_t</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 這個函式僅適用于 c + +。

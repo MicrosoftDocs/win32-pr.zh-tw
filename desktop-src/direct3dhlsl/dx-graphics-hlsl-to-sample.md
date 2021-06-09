@@ -9,20 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ec80d296025684c1bb67642661a31d8cdc119a53
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2374063d222d06576f720fed2aa7fb714bcccf04
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991871"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825745"
 ---
 # <a name="sample-directx-hlsl-texture-object"></a>範例 (DirectX HLSL 紋理物件)
 
 範例材質。
 
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| &lt;範本類型 &gt; 物件。範例 ( 取樣器 \_ 狀態 S、浮點位置 \[ 、整數位移 \] ) ; |
+&lt;範本類型 &gt; 物件。範例 ( 取樣器 \_ 狀態 S、浮點位置 \[ 、整數位移 \] ) ;
 
 ## <a name="parameters"></a>參數
 

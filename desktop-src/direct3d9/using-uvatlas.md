@@ -4,14 +4,17 @@ ms.assetid: 0ec19e8c-2a14-4392-93de-7ab832784085
 title: '使用 UVAtlas (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b335dd6ea94a3db0c0760b0d07a0b8df3fe4c7c
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: d8faeaa0a416f6f062c81c4101ff47d5222ca75d
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104195647"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826326"
 ---
 # <a name="using-uvatlas-direct3d-9"></a>使用 UVAtlas (Direct3D 9) 
+
+> [!NOTE]
+> UVAtlas 最初是隨附于現已淘汰的 D3DX9 utilty 程式庫中。 您可以從 [UV 的 Command-Line 工具 (uvatlas.exe) ](https://github.com/Microsoft/UVAtlas)取得最新版本。
 
 許多轉譯和內容產生技巧都需要2D 信號 (的唯一、非重迭地圖，例如紋理) 到網格上。 這類技術包括：
 
@@ -174,7 +177,7 @@ IMT(2,0,2) scales by 2 with no shearing
 
 除了在紋理繪製之前被叫用的演出者之外，這些函式也可以整合到自動化的美工圖案中。 例如，在執行 PRT 模擬或正常對應傳遞之前，您可以在資產更新後自動發出 UVAtlas 呼叫。 如果已修改網狀拓朴，這可避免需要手動手動修復物件的 UV 對應。
 
-如需 UVAtlas 函式的使用方式，請參閱 [ (uvatlas.exe) 的 UV Command-Line 工具 ](https://msdn.microsoft.com/library/Ee419017(v=VS.85).aspx) 。
+如需 UVAtlas 函式的使用方式，請參閱 [ (uvatlas.exe) 的 UV Command-Line 工具 ](https://github.com/Microsoft/UVAtlas) 。
 
 ## <a name="related-topics"></a>相關主題
 

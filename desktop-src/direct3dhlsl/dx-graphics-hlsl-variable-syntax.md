@@ -18,22 +18,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f6e63bafa62a9857af678e0848c81237dcd0d585
-ms.sourcegitcommit: 4e0bde7dfa48a0b60bca4a5230eb2b05be3778d3
+ms.openlocfilehash: 446444e09b0b6aff3e0ba8ca8b12cfbf6dc94128
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/11/2020
-ms.locfileid: "104991046"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826066"
 ---
 # <a name="variable-syntax"></a>語法變數
 
 使用下列語法規則來宣告 HLSL 變數。
 
-
-
-|                                                                                                                                                                                    |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*儲存體 \_類別* \] \[ *類型 \_ 修飾* 詞 \] *類型名稱* \[ *索引* \] \[ *：語義* \] \[ *： Packoffset* \] \[ *： Register* \] ;   \[  \] 批註 \[*= 初始 \_值*                    \] |
+\[*儲存體 \_類別* \] \[ *類型 \_ 修飾* 詞 \] *類型名稱* \[ *索引* \] \[ *：語義* \] \[ *： Packoffset* \] \[ *： Register* \] ;   \[  \] 批註 \[*= 初始 \_值*                    \]
 
 
 
@@ -105,7 +101,7 @@ void main(in float3 InPos : Position, out precise float4 OutPos : SV_Position)
 <td>標記本機變數，使其初始化一次，並在函式呼叫之間保存。 如果宣告不包含初始化運算式，則值會設定為零。 應用程式看不到標記為 <strong>static</strong> 的全域變數。</td>
 </tr>
 <tr class="odd">
-<td><strong>均勻</strong></td>
+<td><strong>uniform</strong></td>
 <td>在著色器 (（例如，頂點著色器中的材質色彩）中，標記其資料為常數的變數) ;全域變數預設會被視為 <strong>統一</strong> 。</td>
 </tr>
 <tr class="even">

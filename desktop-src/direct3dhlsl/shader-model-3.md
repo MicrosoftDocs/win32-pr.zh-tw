@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c277723628d5337e41e5fbf83baa9fda8af16adf
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2d87c791694e91de135052b4172e3bd5f55577d7
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993865"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827097"
 ---
 # <a name="shader-model-3-hlsl-reference"></a>著色器模型 3 (HLSL 參考) 
 
@@ -210,7 +210,7 @@ Ps \_ 3 \_ 0 和 ps \_ 2 x 兩者都 \_ 提供兩種精確度層級的支援：
 
 
 
-| ps \_ 3 \_ 0 | ps \_ 2 \_ 0 | 準確率         | 值                |
+| ps \_ 3 \_ 0 | ps \_ 2 \_ 0 | 精確度         | 值                |
 |----------|----------|-------------------|----------------------|
 | x        |          | 完整              | fp32 或更高版本       |
 | x        |          | 部分有效位數 | fp16 = s10e5           |
@@ -246,9 +246,8 @@ vs \_ 2 \_ sw 是 vs 2 x 上限的放寬 \_ \_ ; 同樣地，ps \_ 2 \_ sw 是 p
 
 
 
-|                                            |                                      |                                                                                                                                   |
+| 著色器模型                                           |  資源                                    |  限制                                                                                                                                  |
 |--------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 著色器模型                               | 資源                             | 限制                                                                                                                             |
 | vs \_ 2 \_ sw、vs \_ 3 \_ sw、ps \_ 2 \_ sw、ps \_ 3 \_ sw | 指令計數                   | 無限制                                                                                                                         |
 | vs \_ 2 \_ sw、vs \_ 3 \_ sw、ps \_ 2 \_ sw、ps \_ 3 \_ sw | Float 常數暫存器             | 8192                                                                                                                              |
 | vs \_ 2 \_ sw、vs \_ 3 \_ sw、ps \_ 2 \_ sw、ps \_ 3 \_ sw | 整數常數暫存器           | 2048                                                                                                                              |

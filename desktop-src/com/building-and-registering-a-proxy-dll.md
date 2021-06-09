@@ -4,12 +4,12 @@ description: 如果您為應用程式選擇 proxy/存根封送處理，則必須
 ms.assetid: 939e6eed-2a2d-4d90-8fbb-c07142e7ba70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61b0dcd28359172ff2f90391d44a66f8f51a4cbf
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 37d4cafbe2be56d9e9a02a451e3daf905496c424
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683161"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826803"
 ---
 # <a name="building-and-registering-a-proxy-dll"></a>建立和註冊 Proxy DLL
 
@@ -41,9 +41,9 @@ example.obj : example_p.c
 iids.obj : example_i.c
 PROXYSTUBOBJS = dlldata.obj example.obj iids.obj
 PROXYSTUBLIBS = kernel32.lib rpcndr.lib rpcns4.lib rpcrt4.lib uuid.lib
-proxy.dll : $(PROXYSTUBOBJX) example.def
+proxy.dll : $(PROXYSTUBOBJS) example.def
     link /dll /out:proxy.dll /def:example.def
-        $(PROXYSTUBOBJS) $(ORIXYSTUBLIBS)
+        $(PROXYSTUBOBJS) $(PROXYSTUBLIBS)
     regsvr32 /s proxy.dll
  
 ```
@@ -58,18 +58,18 @@ proxy.dll : $(PROXYSTUBOBJX) example.def
 
 ```
 HKEY_CLASSES_ROOT
-   Interface
-      iid
-         (Default) = ICustomInterfaceName
-         ProxyStubClsid32 = {clsid}
+   Interface
+      iid
+         (Default) = ICustomInterfaceName
+         ProxyStubClsid32 = {clsid}
 ```
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      clsid
-         (Default) = ICustomInterfaceName_PSFactory
-         InprocServer32 = proxstub.dll
+   CLSID
+      clsid
+         (Default) = ICustomInterfaceName_PSFactory
+         InprocServer32 = proxstub.dll
 ```
 
 ## <a name="related-topics"></a>相關主題
@@ -85,6 +85,6 @@ HKEY_CLASSES_ROOT
 [自我註冊](self-registration.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

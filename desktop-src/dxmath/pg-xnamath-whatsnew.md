@@ -4,16 +4,16 @@ ms.assetid: 105800d3-a191-c78f-316a-bf2daf7b27a6
 title: '新功能 (DirectXMath) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb9fa8c7ee0600ce0b0fa5eade3a3e111e5edbe4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df1e7f25789ca6f58205ce9f45482e0a49540d1
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974576"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827624"
 ---
 # <a name="whats-new-directxmath"></a>新功能 (DirectXMath) 
 
-DirectXMath 程式庫是以「操作 [數學 c + + SIMD 程式庫」2.04 版](https://walbourn.github.io/)為基礎。 在此，我們將說明 DirectXMath 與未通過的數學有何不同，以及 DirectXMath 版本有何不同。
+DirectXMath 程式庫是以「操作 [數學 c + + SIMD 程式庫」2.04 版](https://walbourn.github.io/xna-math-version-2-04/)為基礎。 在此，我們將說明 DirectXMath 與未通過的數學有何不同，以及 DirectXMath 版本有何不同。
 
 -   [Rlease 歷程記錄](#release-history)
 -   [DirectXMath 與未通過數學的差異](#directxmath-differences-from-xna-math)
@@ -22,6 +22,9 @@ DirectXMath 程式庫是以「操作 [數學 c + + SIMD 程式庫」2.04 版](ht
 ## <a name="release-history"></a>版本歷程記錄
 
 <table>
+ <tr>
+  <td>Windows 10 SDK (20348) 2104 版</td><td>DirectXMath 3.16</td>
+ </td>
  <tr>
   <td>Windows 10 5 月2020更新 SDK</td><td>DirectXMath 3.14</td>
  </tr>

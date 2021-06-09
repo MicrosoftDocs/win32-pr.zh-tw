@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9c9090caec35bfc5e46d7024bf6de44d865d4ad6
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 60ac1153ff3491bc904f4f759f6653cb4243adff
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998305"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825725"
 ---
 # <a name="fragment-declaration-syntax-direct3d-9-hlsl"></a> (Direct3D 9 HLSL) 的片段宣告語法
 
@@ -33,7 +33,7 @@ fragmentKeyword FragmentName = compile_fragment shaderProfile FunctionName();
 
 
 
-|                   |                                                                                                                                                                                                                                                       |
+| 值                  | 描述                                                                                                                                                                                                                                                      |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | fragmentKeyword   | 必要關鍵字。 可能是 pixelfragment 或 vertexfragment。                                                                                                                                                                                             |
 | FragmentName      | 指定已編譯片段名稱的 ASCII 文字字串。                                                                                                                                                                                       |

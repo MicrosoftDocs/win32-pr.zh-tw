@@ -18,9 +18,9 @@
     - name: 使用符號進行調試
       href: debugging-with-symbols.md
     - name: Direct3D 10 常見問題集
-      href: direct3d10-frequently-asked-questions.md
+      href: direct3d10-frequently-asked-questions.yml
     - name: DirectX 常見問題
-      href: directx-9-frequently-asked-questions.md
+      href: directx-9-frequently-asked-questions.yml
     - name: 適用于遊戲開發人員的 DirectX 安裝
       href: directx-setup-for-game-developers.md
     - name: 停用遊戲中的快速鍵

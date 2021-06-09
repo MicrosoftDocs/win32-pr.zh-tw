@@ -7,7 +7,7 @@
         - name: 基本的 VML 類型
           href: basic-vml-types.md
         - name: 關於 VML 的常見問題
-          href: frequently-asked-questions-about-vml.md
+          href: frequently-asked-questions-about-vml.yml
         - name: 附錄
           href: web-workshop---how-to-use-vml-on-web-pages----appendix.md
     - name: 如何在 Web 網頁上使用 VML

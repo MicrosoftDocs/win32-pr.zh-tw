@@ -4,12 +4,12 @@ ms.assetid: 857e2aed-d082-d990-1c67-e22ce3d07310
 title: DirectXMath 程式庫色彩函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0b31e02e2efe14c39864a455df9f22f98fea03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7d3cc7870012da5aa016bb1a353e8eacc85eda8
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691720"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827644"
 ---
 # <a name="directxmath-library-color-functions"></a>DirectXMath 程式庫色彩函數
 
@@ -42,11 +42,13 @@ ms.locfileid: "103691720"
 | [**XMColorRGBToXYZ**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoxyz)<br/>                 | 將 RGB 色彩值轉換為 XYZ 色彩值。<br/>                                                                                     |
 | [**XMColorRGBToYUV**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv)<br/>                 | 將 RGB 色彩值轉換為 YUV 色彩值。<br/>                                                                                     |
 | [**XMColorRGBToYUV \_ HD**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_hd)<br/>          | 將 RGB 色彩值轉換成 YUV HD 色彩值。<br/>                                                                                  |
+| [**XMColorRGBToYUV \_ UHD**](/windows/win32/api/directxmath/nf-directxmath-xmcolorrgbtoyuv_uhd)<br/>        | 將 RGB 色彩值轉換為 YUV UHD 色彩值。<br/>                                                                                  |
 | [**XMColorSRGBToXYZ**](/windows/win32/api/directxmath/nf-directxmath-xmcolorsrgbtoxyz)<br/>               | 將 SRGB 色彩值轉換為 XYZ 色彩值。<br/>                                                                                    |
 | [**XMColorXYZToRGB**](/windows/win32/api/directxmath/nf-directxmath-xmcolorxyztorgb)<br/>                 | 將 XYZ 色彩值轉換成 RGB 色彩值。<br/>                                                                                     |
 | [**XMColorXYZToSRGB**](/windows/win32/api/directxmath/nf-directxmath-xmcolorxyztosrgb)<br/>               | 將 XYZ 色彩值轉換為 SRGB 色彩值。<br/>                                                                                    |
 | [**XMColorYUVToRGB**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb)<br/>                 | 將 YUV 色彩值轉換為 RGB 色彩值。<br/>                                                                                     |
 | [**XMColorYUVToRGB \_ HD**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_hd)<br/>          | 將 YUV 色彩值轉換為 RGB HD 色彩值。<br/>                                                                                  |
+| [**XMColorYUVToRGB \_ UHD**](/windows/win32/api/directxmath/nf-directxmath-xmcoloryuvtorgb_uhd)<br/>        | 將 YUV 色彩值轉換為 RGB UHD 色彩值。<br/>                                                                                  |
 
 
 

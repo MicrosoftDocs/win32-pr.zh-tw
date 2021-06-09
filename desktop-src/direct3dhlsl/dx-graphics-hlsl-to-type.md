@@ -12,23 +12,21 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b075ddc1f659923efd03d9fe9d21ee3238e656e9
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
-ms.translationtype: HT
+ms.openlocfilehash: 4d1881ba4a88e97e978e2646c92d276bb9763ffd
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104196155"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111825768"
 ---
 # <a name="texture-object"></a>材質物件
 
 在 Direct3D 10 中，您可以單獨指定取樣器和紋理;紋理取樣是使用樣板化紋理物件來執行。 這個樣板化紋理物件有特定的格式，會傳回特定的類型，並實作為數種方法。
 
+Direct3D9 和 Direct3D10 之間的差異：
 
-
-
-|                                                                                                                                                                                                                                                                                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D9 和 Direct3D10 之間的差異：在 Direct3D 9 中，取樣器會系結至特定紋理;在 Direct3D 10 中，紋理和取樣器是獨立的物件。 每個樣板化紋理物件都會實作為材質和取樣器的材質取樣方法，以做為輸入參數。<br/> |
+- 在 Direct3D 9 中，取樣器會系結至特定紋理。
+- 在 Direct3D 10 中，紋理和取樣器是獨立的物件。 每個樣板化紋理物件都會實作為材質和取樣器的材質取樣方法，以做為輸入參數。
 
 
 
@@ -49,7 +47,7 @@ ms.locfileid: "104196155"
 
 
 
-| >object2 \[ < *類型，範例* > \] *名稱*; |
+| >Object2 \[ < *類型，範例* > \] *名稱*; |
 |---------------------------------------------|
 
 
@@ -79,7 +77,7 @@ ms.locfileid: "104196155"
 <thead>
 <tr class="header">
 <th>Object1 類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -116,8 +114,8 @@ ms.locfileid: "104196155"
 <td>Cube 紋理的陣列</td>
 </tr>
 <tr class="odd">
-<td>>object2 類型</td>
-<td>Description</td>
+<td>>Object2 類型</td>
+<td>描述</td>
 </tr>
 <tr class="even">
 <td>Texture2DMS</td>
@@ -175,7 +173,7 @@ Texture2DMS <float4, 128> MyMSTex;
 
 
 
-| 材質方法                                                                     | Description                                                                                                       | vs \_ 4 \_ 0 | vs \_ 4 \_ 1  | ps \_ 4 \_ 0 | ps \_ 4 \_ 1  | gs \_ 4 \_ 0 | gs \_ 4 \_ 1  |
+| 材質方法                                                                     | 描述                                                                                                       | vs \_ 4 \_ 0 | vs \_ 4 \_ 1  | ps \_ 4 \_ 0 | ps \_ 4 \_ 1  | gs \_ 4 \_ 0 | gs \_ 4 \_ 1  |
 |------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|----------|-----------|----------|-----------|----------|-----------|
 | [CalculateLevelOfDetail](dx-graphics-hlsl-to-calculate-lod.md)                    | 計算」 LOD，傳回壓制結果。                                                                       |          |           |          | x         |          |           |
 | [CalculateLevelOfDetailUnclamped](dx-graphics-hlsl-to-calculate-lod-unclamped.md) | 計算」 LOD，傳回 unclamped 結果。                                                                    |          |           |          | x         |          |           |
@@ -202,7 +200,7 @@ Texture2DMS <float4, 128> MyMSTex;
 
 
 
-| 類型                       | Description                                                                                                                                                             |
+| 類型                       | 描述                                                                                                                                                             |
 |----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | FLOAT                      | 32-bit float (查看與 IEEE float) 差異的[浮點規則](/windows/desktop/direct3d10/d3d10-graphics-programming-guide-resources-float-rules)                            |
 | int                        | 32 位元帶正負號的整數                                                                                                                                                   |

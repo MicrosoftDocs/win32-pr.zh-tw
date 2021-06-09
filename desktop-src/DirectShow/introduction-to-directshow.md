@@ -4,12 +4,12 @@ ms.assetid: 39a701b3-2633-426f-9733-2172ad3ea372
 title: DirectShow 簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01733db5f8168a67871ec1797f79cd10a90c6c22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5706ff0dec34c5db3762f5782f96804e5c85e889
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109069"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111827222"
 ---
 # <a name="introduction-to-directshow"></a>DirectShow 簡介
 
@@ -27,7 +27,7 @@ DirectShow 簡化了媒體播放、格式轉換和捕獲工作。 同時，針�
 
 -   [DirectShow 的新功能](whats-new-in-directshow.md)
 -   [DirectShow 中支援的格式](supported-formats-in-directshow.md)
--   [DirectShow 常見問題](directshow-faq.md)
+-   [DirectShow 常見問題](directshow-faq.yml)
 
 ## <a name="related-topics"></a>相關主題
 

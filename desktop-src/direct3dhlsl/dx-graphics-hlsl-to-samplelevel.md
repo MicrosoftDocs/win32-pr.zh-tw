@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73cf7bc0c13987099540cecd49519de35b4b7de1
-ms.sourcegitcommit: 0d6365d4e852b09a9100d9cfb9a5334922ebf478
+ms.openlocfilehash: bc3a074641ce5b15a3d837e8bd91dfdae09fe627
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "104093547"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826682"
 ---
 # <a name="samplelevel-directx-hlsl-texture-object"></a>SampleLevel (DirectX HLSL 材質物件) 
 
 使用 mipmap 層級位移來取樣材質。
 
-
-
-|                                                                                                  |
-|--------------------------------------------------------------------------------------------------|
-| &lt;樣板類型 &gt; Object. SampleLevel ( 取樣器 \_ 狀態 S、float 位置、float」 lod \[ 、int Offset \] ) ; |
+&lt;樣板類型 &gt; Object. SampleLevel ( 取樣器 \_ 狀態 S、float 位置、float」 lod \[ 、int Offset \] ) ;
 
 
 

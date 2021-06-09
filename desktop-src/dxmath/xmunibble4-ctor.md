@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: bb035f58a2430cfa6cdc3e7f3967492aaf1d8352
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a4a7f561dc0bf114a5824b1f8fe6d9547c327d5
+ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977809"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "111826126"
 ---
 # <a name="xmunibble4-constructors"></a>XMUNIBBLE4 函式
 
@@ -73,8 +73,8 @@ ms.locfileid: "106977809"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const int8_t * ) </strong></a></td>
-<td style="text-align: left;"><code>XMUNIBBLE4</code>從四個元素陣列引數，初始化的新實例 <code>int8_t</code> 。 <br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 的新實例 <code>int8_t</code> 。 <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(constuint8_t)"><strong>XMUNIBBLE4 (const uint8_t * ) </strong></a></td>
+<td style="text-align: left;"><code>XMUNIBBLE4</code>從四個元素陣列引數，初始化的新實例 <code>uint8_t</code> 。 <br/> 這個函式會從四個元素陣列引數，初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 的新實例 <code>uint8_t</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 這個函式僅適用于 c + +。
@@ -91,8 +91,8 @@ ms.locfileid: "106977809"
 <br/></td>
 </tr>
 <tr class="even">
-<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (int8_t、int8_t、int8_t int8_t) </strong></a></td>
-<td style="text-align: left;"><code>XMUNIBBLE4</code>從四個引數初始化的新實例 <code>int8_t</code> 。 <br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 的新實例 <code>int8_t</code> 。 <br/>
+<td style="text-align: left;"><a href="/windows/desktop/api/directxpackedvector/nf-directxpackedvector-xmunibble4-xmunibble4(float_float_float_float)"><strong>XMUNIBBLE4 (uint8_t、uint8_t、uint8_t uint8_t) </strong></a></td>
+<td style="text-align: left;"><code>XMUNIBBLE4</code>從四個引數初始化的新實例 <code>uint8_t</code> 。 <br/> 這個函式會從四個引數初始化 <a href="/windows/desktop/api/directxpackedvector/ns-directxpackedvector-xmunibble4"><strong>XMUNIBBLE4</strong></a> 的新實例 <code>uint8_t</code> 。 <br/>
 <blockquote>
 [!Note]<br />
 這個函式僅適用于 c + +。
