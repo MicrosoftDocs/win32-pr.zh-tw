@@ -15,12 +15,12 @@ keywords:
 - VML (Vector Markup Language) ，優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ba51fd041f36915eaafe20201876653f597e04
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 4637fff0550ce9c93e295c51fc529f62c370b8aa
+ms.sourcegitcommit: 78ce1d1e3f12ee3e08390868e5b93c034f437657
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "107000510"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111910259"
 ---
 # <a name="vector-markup-language-vml"></a>Vector Markup Language (VML) 
 
@@ -72,7 +72,7 @@ Microsoft Office 2000 或更新版本也支援 VML。 Microsoft Word、Microsoft
 
 請參閱下列連結：
 
--   如需 VML 常見問題的解答，請參閱 [VML 常見問題](frequently-asked-questions-about-vml.md)。
+-   如需 VML 常見問題的解答，請參閱 [VML 常見問題](frequently-asked-questions-about-vml.yml)。
 -   如需在 Web 網頁上使用 VML 的教學課程，請參閱 [如何在網頁上使用 vml](web-workshop---specs---standards----how-to-use-vml-on-web-pages.md)，以補充提交給 W3C 的 [vml 規格](https://www.w3.org/TR/NOTE-datetime.html) 。
 -   如需 VML 資料類型的詳細資訊，請參閱 [基本的 Vml 類型](basic-vml-types.md) 檔。
 -   如需 VML 的完整參考，包括如何搭配使用 VML 與標記以及腳本的相關資訊，請參閱 [Vml 參考](msdn-online-vml-introduction.md)。
