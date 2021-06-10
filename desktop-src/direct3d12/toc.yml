@@ -239,7 +239,7 @@
                 - name: 在 Windows 上使用 DirectML 啟用 TensorFlow
                   href: gpu-tensorflow-windows.md
                 - name: 使用 DirectML 套件 TensorFlow 的常見問題
-                  href: gpu-faq.md
+                  href: gpu-faq.yml
             - name: Helper 函式
               href: dml-helper-functions.md
             - name: 範例應用程式
