@@ -1,15 +1,15 @@
 ---
-description: 本文件中的資訊，包括 URL 及其他網際網路網站參考資料，如有變更恕不另行通知。
+description: 本文提供關於 WIA 的法律資訊，包括著作權和商標的相關資訊。
 ms.assetid: 343c8f3c-3172-4e38-b276-082199b2d48b
 title: " (WIA) 的法律資訊"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1bbf1942c87405020067ee07e9e71a99278d5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb8023ce16eed495f977f5703d14c9457179fbbc
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943464"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989493"
 ---
 # <a name="legal-information-wia"></a> (WIA) 的法律資訊
 

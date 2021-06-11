@@ -1,14 +1,14 @@
 ---
-description: 離線檔案
+description: 請參閱有關 PatchAPI 介面之離線檔案的這些資源，例如 CreatePatchFileEx 和 ExtractPatchHeaderToFile。
 title: PatchAPI
 ms.topic: article
 ms.date: 04/17/2020
-ms.openlocfilehash: 408a0afc4fc35aea558a7c61e1f75a8ba626f392
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9365ae9b8bdc10905f5a8162fdcbe9bb04550709
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110089"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989223"
 ---
 # <a name="patchapi"></a>PatchAPI
 

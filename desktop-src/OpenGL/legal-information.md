@@ -1,17 +1,17 @@
 ---
 title: " (OpenGL) 的法律資訊"
-description: 本文件中的資訊，包括 URL 及其他網際網路網站參考資料，如有變更恕不另行通知。
+description: 本文提供有關 OpenGL 的法律資訊，包括著作權和商標的相關資訊。
 ms.assetid: c17525c3-b438-4529-abf7-a55f532398f8
 keywords:
 - OpenGL，法律資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9574ebb1db0dd212f3ab6de270ae4f87a1bcb232
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3a41d5cfbe3d14b57d2d71312736f4006f08c7f8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106966277"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988913"
 ---
 # <a name="legal-information-opengl"></a> (OpenGL) 的法律資訊
 

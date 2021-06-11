@@ -1,15 +1,15 @@
 ---
-description: 在 Windows Vista 和更新版本中，中繼資料成為組織專案（例如檔案、電子郵件或連絡人）之方法的核心。
+description: 瞭解如何建立可在檔案資料流程中讀取和寫入屬性的屬性處理常式。 每個處理常式都與指定的檔案類型相關聯。
 ms.assetid: 9dacd399-2cf3-40dd-9501-f26f0281500d
 title: 執行屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcef615ce1ebb5041d79dd9c6ccf8cf129d189aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf37ae37e43ce14cf69bec44e7f210b32373d38e
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193761"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989263"
 ---
 # <a name="implementing-property-handlers"></a>執行屬性處理常式
 

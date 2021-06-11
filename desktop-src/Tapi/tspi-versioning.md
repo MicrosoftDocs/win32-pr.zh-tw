@@ -1,15 +1,15 @@
 ---
-description: 經過一段時間，可能會產生不同版本的 TAPI、應用程式和服務提供者。
+description: 瞭解 TSPI 版本控制。 經過一段時間，可能會產生不同版本的 TAPI、應用程式和服務提供者。
 ms.assetid: 994fad0e-5958-4d93-8952-9db2bbe01f44
 title: TSPI 版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe405a629ddc64f76535b33554509b1a6fca81d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e0a0663a1fcc685df8643c634ec627f669aafe8
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511869"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989233"
 ---
 # <a name="tspi-versioning"></a>TSPI 版本控制
 

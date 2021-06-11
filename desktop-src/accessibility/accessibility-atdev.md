@@ -1,14 +1,14 @@
 ---
-description: 概述可併入 UI 架構的 Windows 協助工具功能。
+description: 您可以在 UI 架構中併入 Windows 協助工具功能，瞭解如何開發 Windows 的輔助技術。
 title: 開發 Windows 的輔助技術
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: bbfcc55ca2a81b84da86670f178429b12ebab15d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 35be47ea7ece28da00362623fa5cbafcaf06633a
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025998"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988833"
 ---
 # <a name="developing-assistive-technology-for-windows"></a>開發 Windows 的輔助技術
 

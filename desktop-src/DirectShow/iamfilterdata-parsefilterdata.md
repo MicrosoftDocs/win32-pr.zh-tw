@@ -1,5 +1,5 @@
 ---
-description: 請注意，此介面已被取代。
+description: 深入瞭解 IAMFilterData：:P arseFilterData 方法，解壓縮篩選的二進位登錄資料。 這個介面已被取代。
 ms.assetid: 86095fcf-3364-42a0-95db-08223fa3cc20
 title: 'IAMFilterData：:P arseFilterData 方法 (Fil \_ data .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 18e1367813adff6b0debdfb698644731668bfc5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9560280fa6f16699af907cdb5cf682b9c4bb1277
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976026"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989443"
 ---
 # <a name="iamfilterdataparsefilterdata-method"></a>IAMFilterData：:P arseFilterData 方法
 

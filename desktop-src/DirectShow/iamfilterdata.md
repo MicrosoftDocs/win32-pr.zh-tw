@@ -1,5 +1,5 @@
 ---
-description: 請注意，此介面已被取代。
+description: 深入瞭解 IAMFilterData 介面，這會將篩選資訊轉換成封裝的二進位資料。 這個介面已被取代。
 ms.assetid: d9800850-b0ee-44f7-bcb4-f2bac8d17693
 title: 'IAMFilterData 介面 (Fil \_ data .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - fil_data.h
-ms.openlocfilehash: 1ab5ea8e9c90c043c33cca4d9f8138dd7d9937ad
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e43e0f16ddfdee596f0dc6bd736ed86fc6fa37d
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989557"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989433"
 ---
 # <a name="iamfilterdata-interface"></a>IAMFilterData 介面
 

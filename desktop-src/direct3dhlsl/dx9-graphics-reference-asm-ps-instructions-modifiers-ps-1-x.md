@@ -1,6 +1,6 @@
 ---
 title: Ps_1_X 的修飾詞
-description: 指令修飾詞會在將指令寫入目的地登錄之前，先影響指令的結果。
+description: 指令修飾詞會在將指令寫入目的地登錄之前，先影響指令的結果。 瞭解 ps_1_X 的修飾詞。
 ms.assetid: 15b892da-b6fd-4bd5-8889-bc48035e7819
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bbc8a9b13f7ffc29cf84bc839409f29bea6c8c8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c97196040a8f5f9888cb2fb354dcc18ca3743c7
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840843"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988723"
 ---
 # <a name="modifiers-for-ps_1_x"></a>Ps \_ 1 X 的修飾詞 \_
 
@@ -37,7 +37,7 @@ ms.locfileid: "103840843"
 
 
 
- 
+ 
 
 -   乘數修飾詞會將暫存器資料乘以讀取後的兩次乘冪。 這與左移時相同。
 -   除法修飾詞會將暫存器資料除以兩次讀取後的乘冪。 這與 shift 許可權相同。
@@ -114,9 +114,9 @@ add_x2_sat dest, src0, src1
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

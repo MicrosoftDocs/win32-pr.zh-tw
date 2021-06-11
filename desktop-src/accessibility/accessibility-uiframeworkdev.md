@@ -1,14 +1,14 @@
 ---
-description: 概述可併入 UI 架構的 Windows 協助工具功能。
+description: 瞭解如何使用 windows 協助工具功能（可納入您的 UI 架構中）的總覽，來開發適用于 Windows 的可存取 UI 架構。
 title: 開發適用於 Windows 的無障礙 UI 架構
 ms.topic: article
 ms.date: 04/18/2019
-ms.openlocfilehash: 9083bdb8b9c7ab9dd7dd30c675a72fafa4c065c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d18881913b2a366f086e45473e0f67e57ead66a2
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111464"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988843"
 ---
 # <a name="developing-accessible-ui-frameworks-for-windows"></a>開發適用於 Windows 的無障礙 UI 架構
 

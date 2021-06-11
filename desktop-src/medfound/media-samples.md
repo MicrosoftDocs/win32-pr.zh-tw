@@ -1,15 +1,15 @@
 ---
-description: 媒體範例
+description: 瞭解 Microsoft 媒體基礎中的媒體範例。 媒體範例是一個物件，其中包含零或多個緩衝區的已排序清單。
 ms.assetid: 14389eea-8091-4c10-849e-53db3e98a7c8
 title: '媒體範例 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e10df770f0edcdcb329cf8d2bda3d3dc46acbf6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: ef5d29b11fb6db316e3fbf6e33e24218ddbbf062
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945665"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989153"
 ---
 # <a name="media-samples-microsoft-media-foundation"></a>媒體範例 (Microsoft 媒體基礎) 
 

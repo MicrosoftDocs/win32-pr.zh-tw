@@ -1,15 +1,15 @@
 ---
 title: 'Name 屬性 (字元物件) '
-description: Name 屬性
+description: 深入瞭解字元物件的 Name 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: vs|msagent|~\pacontrol_2bxm.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6e7b4a8872952cce0ae68445ec22a5599891674
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7365550d5d4d4071cf4292e505f16e7047628cf1
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464056"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989323"
 ---
 # <a name="name-property-characters-object"></a>Name 屬性 (字元物件) 
 

@@ -1,15 +1,15 @@
 ---
-description: 經過一段時間，可能會產生不同版本的 TAPI、應用程式和服務提供者。
+description: 瞭解 TAPI 版本控制。 經過一段時間，可能會產生不同版本的 TAPI、應用程式和服務提供者。
 ms.assetid: 35fea8f9-307e-4429-b4ec-ffb5c62c2610
 title: TAPI 版本控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8565eb6282fd124c4f43e56d121ba7c053143683
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 853cf9d5f3744e11936f121986edc4e6e027d251
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319691"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989293"
 ---
 # <a name="tapi-versioning"></a>TAPI 版本控制
 

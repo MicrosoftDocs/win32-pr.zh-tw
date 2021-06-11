@@ -1,15 +1,15 @@
 ---
-description: Microsoft Windows Search 會使用篩選器來解壓縮專案的內容，以包含在全文檢索索引中。
+description: 瞭解如何在 Windows Search 中開發篩選處理常式。 搜尋會使用篩選來將專案解壓縮，以包含在全文檢索索引中。
 ms.assetid: 7b24986b-972d-4674-846b-f856b908edf4
 title: 針對 Windows Search 開發篩選處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bab8f45892549dc3f392824c31c78884b209d283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa86c0a1e41ababf6f00db72a26784beb93e1879
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026119"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988857"
 ---
 # <a name="developing-filter-handlers-for-windows-search"></a>針對 Windows Search 開發篩選處理常式
 

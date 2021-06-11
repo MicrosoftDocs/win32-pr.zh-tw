@@ -1,6 +1,6 @@
 ---
 title: 'AcceptServerName (PeapExtensionsType) 元素 (EAPHost) '
-description: 指出伺服器名稱是否根據 ServerNames (ServerValidationParameters) 專案中指定的名稱字串進行驗證。 |AcceptServerName (PeapExtensionsType) 元素
+description: AcceptServerName (PeapExtensionsType) 元素指出是否根據 mspeapconnectionpropertiesv1 架構中 ServerNames 中指定的名稱字串驗證伺服器名稱。
 ms.assetid: 95173b57-8100-44e4-98f0-4f2a3deabce7
 keywords:
 - 元素 EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ba4874b7c8761f35fa93387b23eaf5463a31bcf4
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 64565b24da0b4a93fd35fd3c4a6e7075546024c4
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314601"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989093"
 ---
 # <a name="acceptservername-peapextensionstype-element-eaphost"></a>AcceptServerName (PeapExtensionsType) 元素 (EAPHost) 
 

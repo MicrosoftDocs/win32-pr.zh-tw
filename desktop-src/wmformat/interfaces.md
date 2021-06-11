@@ -1,6 +1,6 @@
 ---
 title: Windows Media Format SDK 介面
-description: 介面
+description: 瞭解 Windows Media Format SDK 所支援的介面，以及它們與物件和其他介面的關聯性。
 ms.assetid: c61a0739-09f2-497f-a2cd-d3f2472738e3
 keywords:
 - Windows Media Format SDK，介面
@@ -8,12 +8,12 @@ keywords:
 - ASF (Advanced Systems Format) ，介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c49610d4b7664e6ef9f5259300cca720b62fc2bc
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a21cb5c82855b75d3acfb20c4368d8dffa65dc30
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685371"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989084"
 ---
 # <a name="windows-media-format-sdk-interfaces"></a>Windows Media Format SDK 介面
 

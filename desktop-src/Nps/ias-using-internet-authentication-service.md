@@ -1,6 +1,6 @@
 ---
 title: 使用 NPS 擴充功能
-description: 網際網路驗證服務 (IAS) 已重新命名 (NPS) 的網路原則伺服器。
+description: 瞭解如何使用 NPS 擴充功能。 網際網路驗證服務 (IAS) 已重新命名 (NPS) 的網路原則伺服器。
 ms.assetid: 3ee16279-7e11-4587-ae43-f0296b7e7594
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - 網際網路驗證服務 IAS，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1cc9f10c810ec9fe16618144db11686a1e2132
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 06f422c005d6810a4035450e24de1324b28361f1
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "104507844"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989066"
 ---
 # <a name="using-nps-extensions"></a>使用 NPS 擴充功能
 

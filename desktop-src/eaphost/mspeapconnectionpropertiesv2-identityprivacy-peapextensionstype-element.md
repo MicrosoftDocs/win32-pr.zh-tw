@@ -1,6 +1,6 @@
 ---
 title: IdentityPrivacy (PeapExtensionsType) 元素
-description: 指出是否傳送使用者的真實身分識別或匿名身分識別。 |IdentityPrivacy (PeapExtensionsType) 元素
+description: IdentityPrivacy (PeapExtensionsType) 元素指出是否在 mspeapconnectionpropertiesv2 架構中傳送使用者的真實身分識別。
 ms.assetid: 57b8747e-6919-4243-a379-3a85c4a2023a
 keywords:
 - IdentityPrivacy 元素 EAPHost
@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2701352ee0e192dfd2d33fc2647b9ec6df96dd5c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d0a23ce28a1a807bb948c114435463102561570b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104514421"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111988944"
 ---
 # <a name="the-identityprivacy-peapextensionstype-element"></a>IdentityPrivacy (PeapExtensionsType) 元素
 

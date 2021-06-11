@@ -1,6 +1,6 @@
 ---
 title: Ps_2_0 和更新版本的修飾詞
-description: 指令修飾詞會在將指令寫入目的地登錄之前，先影響指令的結果。
+description: 指令修飾詞會在將指令寫入目的地登錄之前，先影響指令的結果。 瞭解 ps_2_0 和更新版本的修飾詞。
 ms.assetid: eb2a8a1f-51bc-4516-b679-a8fb25b0dda0
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7141576b80b7a05a3e61ee9a98fa36958b1d5530
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: dc8ed91f8e103ebbab7c43ffe53201f0e1d5dfcf
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840868"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989283"
 ---
 # <a name="modifiers-for-ps_2_0-and-above"></a>Ps \_ 2 \_ 0 和更新版本的修飾詞
 
@@ -32,7 +32,7 @@ ms.locfileid: "103840868"
 
 
 
- 
+ 
 
 ## <a name="centroid"></a>質心
 
@@ -104,9 +104,9 @@ dp3_sat r0, v0, c1
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

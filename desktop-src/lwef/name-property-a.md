@@ -1,15 +1,15 @@
 ---
 title: " (Agent 控制項) 名稱屬性"
-description: Name 屬性
+description: 深入瞭解 Agent Control 的 Name 屬性。 這個屬性在執行時間是唯讀的。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: 83d6682c-ac25-4333-8640-7ef468f2de8b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 304dc611c8252d61e4ea052ccffff4f360e7e7e8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 72d4afe24b443117dbdcbdb408f73a2f34068a2b
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933862"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989373"
 ---
 # <a name="name-property-agent-control"></a> (Agent 控制項) 名稱屬性
 

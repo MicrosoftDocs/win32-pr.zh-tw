@@ -1,5 +1,5 @@
 ---
-description: 請注意，此介面已被取代。
+description: 瞭解 IAMFilterData：： CreateFilterData 方法，它會建立篩選的二進位登錄資料。 這個介面已被取代。
 ms.assetid: ab6972ef-7c28-4cd1-b007-eb70f9aeb2cb
 title: 'IAMFilterData：： CreateFilterData 方法 (Fil \_ data .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 4c83f19de8e709f9890b23957f730fbbac12dd7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
+ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982575"
+ms.lasthandoff: 06/10/2021
+ms.locfileid: "111989453"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>IAMFilterData：： CreateFilterData 方法
 
