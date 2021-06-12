@@ -1,6 +1,6 @@
 ---
 title: vs_1_1
-description: 可程式化頂點著色器是由一組在頂點資料上操作的指令所組成。 註冊將資料傳入和傳出 ALU。 您可以套用其他控制項來修改指令、結果，或寫出哪些資料。
+description: 深入瞭解 vs_1_1，這是一個可程式化的頂點著色器，由一組在頂點資料上操作的指令所組成。
 ms.assetid: 54ad41d7-aaa4-4cf4-8834-47f10cd5425c
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b956613c2a4dd882b8bb810e586de9b6b90a2f3b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 78ea10e751fd7fe902b1631376e9eb2023d31c12
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840860"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011061"
 ---
 # <a name="vs_1_1"></a>vs \_ 1 \_ 1
 
@@ -34,9 +34,9 @@ ms.locfileid: "103840860"
 [頂點著色器](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

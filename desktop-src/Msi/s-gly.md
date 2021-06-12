@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 S 為開頭的 Windows Installer 概念，例如順序資料表和來源清單。
 ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: 'S (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b183dc290ff2dec76211039bcb8b279117278dd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988708"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010881"
 ---
 # <a name="s-windows-installer"></a>S (Windows Installer) 
 
@@ -55,7 +55,7 @@ Windows Installer 的內建 [*動作*](a-gly.md) 。 如需詳細資訊，請參
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**摘要資訊串流**
 </dt> <dd>
 
-[*.Msi*](m-gly.md)檔案中的儲存位置，以取得可透過 Microsoft Windows 檔案總管查看的資訊。 如需詳細資訊，請參閱 [關於摘要資訊資料流程](about-the-summary-information-stream.md)。
+[*.msi*](m-gly.md)檔案中的儲存位置，以取得可透過 Microsoft Windows 檔案總管來查看的資訊。 如需詳細資訊，請參閱 [關於摘要資訊資料流程](about-the-summary-information-stream.md)。
 
 </dd> <dt>
 

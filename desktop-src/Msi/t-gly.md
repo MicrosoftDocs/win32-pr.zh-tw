@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 T 開頭的 Windows Installer 概念，例如交易處理和轉換。
 ms.assetid: 06fd0284-5af9-409a-8748-c0b40e0fa317
 title: 'T (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fada27e903c465f9b5e0342fca481e5161b699c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9489455f880ba558e5a9f8584be19718823035
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994391"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011261"
 ---
 # <a name="t-windows-installer"></a>T (Windows Installer) 
 

@@ -1,15 +1,15 @@
 ---
 title: 資源記錄
-description: 資源記錄（通常稱為 RR）是 DNS 區域檔案中的資訊專案單位。Rr 是主機名稱和 IP 資訊的基本組建區塊，可用來解析所有 DNS 查詢。
+description: 瞭解資源記錄。 資源記錄是 DNS 區域檔案中的資訊專案單位，用來解析所有 DNS 查詢。
 ms.assetid: c64907c2-ebd3-4550-9454-13f51a6d7ca6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05b667b95a8ede32018e1aad7de375e77a890487
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a84bd000e2d88884bbb387748eaced1d0d58a324
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674732"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010671"
 ---
 # <a name="resource-records"></a>資源記錄
 
@@ -41,9 +41,9 @@ DNS 中通常會使用下列資源記錄類型：
 
 DNS 中有許多其他資源記錄類型。 如需詳細資訊，請參閱 [DNS WMI 提供者參考](dns-wmi-provider-reference.md)。
 
- 
+ 
 
- 
+ 
 
 
 

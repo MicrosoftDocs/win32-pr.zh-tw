@@ -1,15 +1,15 @@
 ---
 title: 管理 DNS 伺服器
-description: DNS 伺服器是在 DNS 中完成名稱解析程式的電腦。
+description: 瞭解如何管理 DNS 伺服器。 DNS 伺服器是在 DNS 中完成名稱解析程式的電腦。
 ms.assetid: 9ac68e35-112a-44d3-918d-2caea47b6e52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbe97e8b8b02e9d2198e49d0574b2d3fb8bc87df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48d797e05bc326b35e48173082d9b36a2b334fd9
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674484"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010771"
 ---
 # <a name="managing-dns-servers"></a>管理 DNS 伺服器
 
@@ -42,9 +42,9 @@ DNS WMI 提供者可讓您從伺服器本身或從遠端主機管理 DNS 伺服�
 -   [顯示 DNS 伺服器屬性類型](dns-wmi-provider-samples-managing-a-dns-server.md)
 -   [修改 DNS 伺服器屬性](dns-wmi-provider-samples-managing-a-dns-server.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: 子查詢是已儲存的搜尋檔案 (\* . 搜尋-ms) ，您可以用來作為新查詢的篩選準則。
+description: 瞭解 Windows Search 中的子查詢引數。 子查詢是一種儲存的搜尋檔案，您可以用來作為新查詢的篩選準則。
 ms.assetid: a92c774f-310b-4c40-be1c-0c2b0cac907b
 title: " (Windows Search) 的子查詢引數"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f673cf9c2a9867593fd6c8fdac83b5901f531257
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93b23028d0bddcc674714f51f8b31883052431bd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943281"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011031"
 ---
 # <a name="subquery-argument-windows-search"></a> (Windows Search) 的子查詢引數
 

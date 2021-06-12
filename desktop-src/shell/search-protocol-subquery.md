@@ -1,5 +1,5 @@
 ---
-description: 子查詢是已儲存的搜尋檔案 (\* . 搜尋-ms) ，您可以用來作為新查詢的篩選準則。
+description: 瞭解 Windows Shell 中的子查詢引數。 子查詢是一種儲存的搜尋檔案，您可以用來作為新查詢的篩選準則。
 title: " (Windows Shell 的子查詢引數) "
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 43e4a5b904d5e769eb43acad05aa5d8ce37ebde2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef0b37c0f473f2b86c85c18a99124be3b366f447
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991742"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010661"
 ---
 # <a name="subquery-argument-the-windows-shell"></a> (Windows Shell 的子查詢引數) 
 

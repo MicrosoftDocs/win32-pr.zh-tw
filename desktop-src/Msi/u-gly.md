@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 U 為開頭的 Windows Installer 概念，例如升級和使用者帳戶控制。
 ms.assetid: 8dacad71-2cc3-4c9a-b5d4-d9781f4f9d51
 title: 'U (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d1868cd5ee335d56374e9b13ebff2b1d10a515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4609520ab7599c5202a60afd4e51834034e4ae41
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973800"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010701"
 ---
 # <a name="u-windows-installer"></a>U (Windows Installer) 
 

@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 G 開頭的 Windows Installer 概念，例如全域唯一識別碼 (GUID) 。
 ms.assetid: 5cd0e997-cb40-4209-a74e-a65b307637b8
 title: 'G (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 188621a77d439d45cc1b120e41343f14a7a766ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 769388aee6e0a7a3c293165220d2039e552bf35f
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994373"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010762"
 ---
 # <a name="g-windows-installer"></a>G (Windows Installer) 
 

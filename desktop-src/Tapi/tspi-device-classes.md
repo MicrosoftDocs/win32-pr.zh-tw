@@ -1,15 +1,15 @@
 ---
-description: 裝置類別是一組相關實體裝置或設備磁碟機，應用程式會透過這些裝置或設備磁碟機來傳送和接收發出呼叫的資訊或資料。
+description: 瞭解 TSPI 裝置類別。 裝置類別是應用程式用來傳送和接收呼叫資訊或資料的裝置或設備磁碟機群組。
 ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: TSPI 裝置類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10392487657e8190052546605c54bed8cc0ccf4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6775e73df3914339edbdf791659de821855864dd
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320836"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011341"
 ---
 # <a name="tspi-device-classes"></a>TSPI 裝置類別
 

@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 I 開頭的 Windows Installer 概念，例如匯入位址表格和安裝層級。
 ms.assetid: b8e0a14f-ebdc-4b8f-a884-f6276dccda49
 title: '我 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca95a473f648ca9e1a08773d93f47bd198df11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e33b5cfb9c4545a5482b214e0413ab3e3d981109
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850191"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010651"
 ---
 # <a name="i-windows-installer"></a>我 (Windows Installer) 
 
@@ -90,7 +90,7 @@ ms.locfileid: "103850191"
 <span id="_msi_internal_source_files_gly"></span><span id="_MSI_INTERNAL_SOURCE_FILES_GLY"></span>**內部來源檔案**
 </dt> <dd>
 
-儲存在 [*.msi*](m-gly.md)檔案中。 您可以將多個內部來源檔案壓縮並儲存在 .msi 檔案中儲存的封 [*包*](c-gly.md) 檔中。
+儲存在 [*.msi*](m-gly.md)檔案中。 您可以將多個內部來源檔案壓縮並儲存在儲存在 .msi 檔案中的封 [*包*](c-gly.md) 檔中。
 
 </dd> </dl>
 

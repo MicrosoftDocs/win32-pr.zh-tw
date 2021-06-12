@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 O 開頭的 Windows Installer 概念，例如 Over The Shoulder。
 ms.assetid: 67f9755c-2f0f-4ee6-8252-b4e5b84a2acc
 title: 'O (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea77fd971447f87d840d554098374e395e6e08a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2209d1000739e94f09760a659c36f069ab39d01
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848931"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011351"
 ---
 # <a name="o-windows-installer"></a>O (Windows Installer) 
 

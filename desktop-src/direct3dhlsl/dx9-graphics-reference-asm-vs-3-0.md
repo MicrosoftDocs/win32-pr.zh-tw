@@ -1,6 +1,6 @@
 ---
 title: vs_3_0
-description: 可程式化頂點著色器是由一組在頂點資料上操作的指令所組成。 註冊將資料傳入和傳出 ALU。 您可以套用其他控制項來修改指令、結果，或寫出哪些資料。
+description: 深入瞭解 vs_3_0，這是一個可程式化的頂點著色器，由一組在頂點資料上操作的指令所組成。
 ms.assetid: 0f40f946-3525-4203-bfe2-1cd941d8e2ec
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 22a0e6e84aff34dcec44713dc4382e391ad05c2b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 310d64170280053c34766f214969f78d66560ea3
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103842840"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011071"
 ---
 # <a name="vs_3_0"></a>vs \_ 3 \_ 0
 
@@ -146,7 +146,7 @@ ms.locfileid: "103842840"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -155,6 +155,6 @@ ms.locfileid: "103842840"
 [頂點著色器](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

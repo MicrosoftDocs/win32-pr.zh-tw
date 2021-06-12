@@ -1,5 +1,5 @@
 ---
-title: '關於 DirectShow (Windows Media Format 11 SDK) '
+title: 瞭解 Windows Media Format 11 SDK 中的 DirectShow，這是適用于 Windows 平臺的高階、模組化、可擴充的資料串流架構。
 description: 關於 DirectShow
 ms.assetid: 1a0b68c7-9444-4389-8d81-dc734e95634d
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - DirectShow，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd77507643edb220bc71a029779c88fe56760eae
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1a76d7c8971c452f01176be7472e313181eb2831
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024477"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011291"
 ---
 # <a name="about-directshow-windows-media-format-11-sdk"></a>關於 DirectShow (Windows Media Format 11 SDK) 
 

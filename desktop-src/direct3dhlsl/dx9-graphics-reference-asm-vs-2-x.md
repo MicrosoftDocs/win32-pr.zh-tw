@@ -1,6 +1,6 @@
 ---
 title: vs_2_x
-description: 可程式化頂點著色器是由一組在頂點資料上操作的指令所組成。 註冊將資料傳入和傳出 ALU。 您可以套用其他控制項來修改指令、結果，或寫出哪些資料。
+description: 深入瞭解 vs_2_x，這是一個可程式化的頂點著色器，由一組在頂點資料上操作的指令所組成。
 ms.assetid: 64b07597-1e16-4803-b991-e78eabc2c060
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d09af016ca4fd399de0f2aeec1267343b9d11574
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3449ae4c1e1eb3b977916f6fb1d19303e9d21a4e
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463464"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010712"
 ---
 # <a name="vs_2_x"></a>vs \_ 2 \_ x
 
@@ -77,6 +77,6 @@ ms.locfileid: "104463464"
 [頂點著色器](dx9-graphics-reference-asm-vs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

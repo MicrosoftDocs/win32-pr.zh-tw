@@ -1,15 +1,15 @@
 ---
-description: 關於媒體類型
+description: 深入瞭解 DirectShow 中的媒體類型。 媒體類型是用來描述數位媒體格式的通用且可擴充的方式。
 ms.assetid: 9984ba36-4e43-4886-a073-34b330274c9c
 title: '關於媒體類型 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3289a37e95bf5dbd1e5c277b5799a2c7c8c90586
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a7b1489543b33f5eeb2c288add48148b37f31915
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321468"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010891"
 ---
 # <a name="about-media-types-directshow"></a>關於媒體類型 (DirectShow) 
 

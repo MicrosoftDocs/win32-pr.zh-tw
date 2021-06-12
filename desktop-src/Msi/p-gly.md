@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 P 開頭的 Windows Installer 概念，例如封裝程式碼和修補。
 ms.assetid: 868f5ed3-b179-404b-9462-1d3a179103f8
 title: 'P (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4e6b8f1343fdd68f4a6ce042852cff1e28e05c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8923359197916a1186fe28ab0d12e4118b989bc
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115360"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011100"
 ---
 # <a name="p-windows-installer"></a>P (Windows Installer) 
 

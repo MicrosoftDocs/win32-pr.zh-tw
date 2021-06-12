@@ -1,15 +1,15 @@
 ---
-description: 關於 DirectShow
+description: 本文將連結到有關 DirectShow 的文章，包括篩選圖形、事件通知及其他主題。
 ms.assetid: 505c0a49-8e61-4c28-ada6-e8aa96d60a58
 title: '關於 DirectShow (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55cde853cd7d0495cf90af5bb7aba54310dce3dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 572bfb704662f2628c0a5883d3fba455591e8939
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109644"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011371"
 ---
 # <a name="about-directshow-directshow"></a>關於 DirectShow (DirectShow) 
 

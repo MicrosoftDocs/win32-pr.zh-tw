@@ -1,6 +1,6 @@
 ---
 title: 關於 (Mobile) 的外觀
-description: 關於外觀
+description: 瞭解行動裝置播放機的外觀。 面板是 Windows Media Player 的自訂使用者介面。
 ms.assetid: 105c11ce-705b-4a0c-8982-d0f9dd9ae3ac
 keywords:
 - Windows Media Player 行動裝置、外觀
@@ -10,12 +10,12 @@ keywords:
 - 建立外觀 Windows Media Player 行動裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2db0e81c45c253e3a4fe3c12d4cc97a51f4ede0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ebdffdc4075456c6cb7ccf9d1940c5253c732cd3
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317015"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011221"
 ---
 # <a name="about-skins-mobile"></a>關於 (Mobile) 的外觀
 

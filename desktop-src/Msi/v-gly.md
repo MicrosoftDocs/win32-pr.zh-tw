@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 V （例如 volume）開頭的 Windows Installer 概念。
 ms.assetid: d53147c3-5618-496f-b8b9-de20e1d33c01
 title: 'V (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 432359a2f1eaddf6706e987774d802ff802bb72a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22931a448c6dc1933e579af9d4f72d67ece354ca
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113829"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010681"
 ---
 # <a name="v-windows-installer"></a>V (Windows Installer) 
 

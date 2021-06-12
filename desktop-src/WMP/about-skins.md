@@ -1,6 +1,6 @@
 ---
 title: 關於外觀
-description: 關於外觀
+description: 深入瞭解外觀。 面板是依文字檔組織的電腦美工檔案，可告訴 Windows Media Player 如何顯示面板。
 ms.assetid: 35c8c8b0-6feb-4fc5-b944-da712b521300
 keywords:
 - Windows Media Player，外觀
@@ -8,12 +8,12 @@ keywords:
 - 外觀、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5660a4223d7803863f114944e6117d3279dcfe12
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 20bef3149aad859819b03f4ba76b721a622860de
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183726"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011191"
 ---
 # <a name="about-skins"></a>關於外觀
 
@@ -40,7 +40,7 @@ ms.locfileid: "104183726"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ ms.locfileid: "104183726"
 [**Windows Media Player 的外觀**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

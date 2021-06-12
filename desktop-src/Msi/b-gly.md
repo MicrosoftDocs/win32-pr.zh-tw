@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 B 開頭的 Windows Installer 概念，例如基本 UI。
 ms.assetid: 807a6b6a-cace-4f48-b3b3-61919a8eee32
 title: 'B (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a37ba11e8509322f65bd4f5c8104b478db874c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1147a11e9d14024f1fc3edde42ba7d04ad17ae8
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001702"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010741"
 ---
 # <a name="b-windows-installer"></a>B (Windows Installer) 
 

@@ -1,17 +1,17 @@
 ---
 title: DNS 伺服器
-description: DNS 伺服器是在 DNS 中完成名稱解析程式的電腦。
+description: 深入瞭解 DNS 伺服器。 DNS 伺服器是在 DNS 中完成名稱解析程式的電腦。
 ms.assetid: c7ce6e46-491c-482e-8d72-a79b911c3f68
 keywords:
 - DNS 伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 509ceeb811f221560540ae60f269c6ee1b05444f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8fe2415c50cdd2472b20e8f14123afa2aa919d26
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674360"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011251"
 ---
 # <a name="dns-servers"></a>DNS 伺服器
 
@@ -39,9 +39,9 @@ DNS 伺服器可能在準備傳回所要求的解析資料、查詢其他 DNS �
 
 快取 [*伺服器*](c-gly.md)（也稱為僅限快取伺服器）的執行方式如其名稱所示;它們只針對 DNS 回應提供快取查詢服務。 快取 DNS 伺服器會執行查詢、快取答案，然後將結果傳回給查詢用戶端，而不是像其他次要伺服器一樣維護區域檔案。 快取伺服器和其他次要伺服器之間的主要差異在於，其他次要伺服器會在適當的情況下 (維護區域檔案，並在適當時進列區域轉送，進而產生與傳輸) 相關聯的網路流量，而快取伺服器則否。
 
- 
+ 
 
- 
+ 
 
 
 

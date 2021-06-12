@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 C 為開頭的 Windows Installer 概念，例如封包檔和總和檢查碼。
 ms.assetid: f98d19c5-5187-4718-b241-3ec69454c2d6
 title: 'C (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1970c8e9063657701183c91ff337d06d169914fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47e7af99ad32d8dff7f4e8509976b0004045477b
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192451"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010921"
 ---
 # <a name="c-windows-installer"></a>C (Windows Installer) 
 
@@ -20,7 +20,7 @@ ms.locfileid: "104192451"
 <span id="_msi_cabinet_file_using_windows_installer_gly"></span><span id="_MSI_CABINET_FILE_USING_WINDOWS_INSTALLER_GLY"></span>**封包檔**
 </dt> <dd>
 
-單一檔案（通常副檔名為 .cab）會將壓縮檔案儲存在檔案庫中。 封包格式是封裝多個檔案的有效方式，因為壓縮會跨檔案界限執行，大幅改善壓縮率。 如需建立封包的相關資訊，請參閱封 [包](cabinet-files.md)檔。
+單一檔案，通常會有 .cab 副檔名，可將壓縮檔案儲存在檔案庫中。 封包格式是封裝多個檔案的有效方式，因為壓縮會跨檔案界限執行，大幅改善壓縮率。 如需建立封包的相關資訊，請參閱封 [包](cabinet-files.md)檔。
 
 </dd> <dt>
 

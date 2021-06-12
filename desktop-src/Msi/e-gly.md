@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 E 開頭的 Windows Installer 概念，例如提高許可權的和外部原始程式檔。
 ms.assetid: 8f180e2c-06f4-41d5-b167-52525f4a9985
 title: 'E (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6ed712bd054c8dee506fa37c9707235600a7801
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a2c65c50427b1f8271be838971a387388ea53db
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989456"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011091"
 ---
 # <a name="e-windows-installer"></a>E (Windows Installer) 
 
@@ -41,7 +41,7 @@ ms.locfileid: "106989456"
 <span id="_msi_external_source_files_gly"></span><span id="_MSI_EXTERNAL_SOURCE_FILES_GLY"></span>**外部來源檔案**
 </dt> <dd>
 
-所安裝之應用程式的原始程式檔，儲存在 [*.msi*](m-gly.md)檔案之外。 您可以將多個外部來源檔案壓縮並儲存在封裝 [*內含的*](c-gly.md) 封 [*包*](p-gly.md)檔中。
+所安裝之應用程式的原始程式檔，儲存在 [*.msi*](m-gly.md)檔之外。 您可以將多個外部來源檔案壓縮並儲存在封裝 [*內含的*](c-gly.md) 封 [*包*](p-gly.md)檔中。
 
 </dd> <dt>
 

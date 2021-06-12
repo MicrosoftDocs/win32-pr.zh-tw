@@ -1,6 +1,6 @@
 ---
 title: ps_2_0
-description: 可程式化的圖元著色器是由一組操作圖元資料的指令所組成。 註冊將資料傳入和傳出 ALU。 您可以套用其他控制項來修改指令、結果，或寫出哪些資料。
+description: 瞭解 ps_2_0，這是一個可程式化的圖元著色器，由一組操作圖元資料的指令所組成。
 ms.assetid: 15f2e4a4-9c39-434b-bea7-5d2d31cae1d9
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 98b0f252d87a1f7e08c3531415d7ebcb93d4f6f5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2433c8490af06d23d8dccef676ec206fdbb88c0
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104971325"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010981"
 ---
 # <a name="ps_2_0"></a>ps \_ 2 \_ 0
 
@@ -42,9 +42,9 @@ ms.locfileid: "104971325"
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

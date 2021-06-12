@@ -1,15 +1,15 @@
 ---
-description: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+description: 瞭解以字母 D 為開頭的 Windows Installer 概念，例如資料庫函式和差異修補程式。
 ms.assetid: d6dd73e7-657f-4f71-8e9b-70369cb21972
 title: 'D (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4e2673f845d85db88d55cbcd53838f7e682dbe3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d76378d636c8ae14acdc9cb882c31840e3f1550f
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690836"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010931"
 ---
 # <a name="d-windows-installer"></a>D (Windows Installer) 
 

@@ -1,6 +1,6 @@
 ---
 title: ps_3_0
-description: 可程式化的圖元著色器是由一組操作圖元資料的指令所組成。 註冊將資料傳入和傳出 ALU。 您可以套用其他控制項來修改指令、結果，或寫出哪些資料。
+description: 瞭解 ps_3_0，這是一個可程式化的圖元著色器，由一組操作圖元資料的指令所組成。
 ms.assetid: 3eabf173-9d9d-45b2-bc30-de857428f3ee
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5aca251b1e8a462b4f2204241680922d76c45ba0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 19587cbaa79e2b89633560a7b7889219172d0c25
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315580"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010861"
 ---
 # <a name="ps_3_0"></a>ps \_ 3 \_ 0
 
@@ -101,7 +101,7 @@ ms.locfileid: "104315580"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -110,6 +110,6 @@ ms.locfileid: "104315580"
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,15 +1,15 @@
 ---
 title: 管理 DNS 資源記錄
-description: 資源記錄（通常稱為 RR）是 DNS 區域檔案中的資訊專案單位。Rr 是主機名稱和 IP 資訊的基本組建區塊，可用來解析所有 DNS 查詢。
+description: 瞭解如何管理資源記錄。 資源記錄是 DNS 區域檔案中的資訊專案單位，用來解析所有 DNS 查詢。
 ms.assetid: ddad5f14-5a2d-4966-87b7-b354666f9e24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99edffa52b5137858468fd64122d2af826a896ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ba6c818899414cc541a1c89bfd11747051b2f5f1
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840404"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112011111"
 ---
 # <a name="managing-dns-resource-records"></a>管理 DNS 資源記錄
 
@@ -54,7 +54,7 @@ DNS WMI 提供者目前支援下列 RR 類型。 按一下資源記錄的名稱�
 
 
 
- 
+ 
 
 ## <a name="administration-steps"></a>管理步驟
 
@@ -71,9 +71,9 @@ DNS WMI 提供者可讓您從伺服器本身或從遠端主機管理 Rr。 使�
 -   [刪除資源記錄](dns-wmi-provider-samples-managing-dns-resource-records.md)
 -   [修改資源記錄](dns-wmi-provider-samples-managing-dns-resource-records.md)
 
- 
+ 
 
- 
+ 
 
 
 

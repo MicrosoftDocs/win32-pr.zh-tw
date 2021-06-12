@@ -1,15 +1,15 @@
 ---
-description: DirectX 效果是管線狀態的集合，由以 HLSL 撰寫的運算式所設定，以及某些特定于效果架構的語法。
+description: 瞭解 Direct3D 10 效果。 效果是管線狀態，由以 HLSL 撰寫的運算式所設定，以及某些特定于效果架構的語法。
 ms.assetid: db4c7651-b6a1-4bc3-bcf8-a5cb56c7563e
 title: " (Direct3D 10) 的效果"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55e08d0c79a6f7f52982a74d5127da70d7b82f84
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 70a9a863fd34c5bb99389139d09860812b16b4fa
+ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970541"
+ms.lasthandoff: 06/11/2021
+ms.locfileid: "112010911"
 ---
 # <a name="effects-direct3d-10"></a> (Direct3D 10) 的效果
 
