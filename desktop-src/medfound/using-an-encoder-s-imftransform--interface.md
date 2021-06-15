@@ -1,15 +1,15 @@
 ---
-description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 若要使用這些編碼器，必須向系統註冊。
+description: 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 編碼器。 瞭解如何使用 CoCreateInstance 建立編碼器。
 ms.assetid: 96f19dfb-a328-41db-8fa8-77f052b1a192
 title: 使用 CoCreateInstance 建立編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28a19a3ec13f60e7f602fa4f16854efa060dd96d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15c4cdf7b72bbfee97031088502113d085738981
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989325"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068464"
 ---
 # <a name="creating-an-encoder-by-using-cocreateinstance"></a>使用 CoCreateInstance 建立編碼器
 

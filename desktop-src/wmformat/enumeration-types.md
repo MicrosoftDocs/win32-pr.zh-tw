@@ -1,6 +1,6 @@
 ---
 title: Windows Media 格式 SDK 列舉類型
-description: 列舉類型
+description: 瞭解 Windows Media 格式 SDK 所執行的列舉類型，例如 DRM_HTTP_STATUS 和 DRM_LICENSE_STATE_CATEGORY。
 ms.assetid: cd28f608-25ba-44a7-868b-b1cd4dfcfa45
 keywords:
 - Windows Media Format SDK，列舉類型
@@ -9,12 +9,12 @@ keywords:
 - 列舉型別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d3fe85c6c6ed67742590ee52aa32c557056bf86
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685376"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067994"
 ---
 # <a name="windows-media-format-sdk-enumeration-types"></a>Windows Media 格式 SDK 列舉類型
 

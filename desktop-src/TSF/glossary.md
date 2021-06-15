@@ -1,6 +1,6 @@
 ---
 title: '詞彙 (文字服務架構) '
-description: 詞彙
+description: 本詞彙包含文字服務架構的重要詞彙和概念。 請遵循下列連結以查看專案。
 ms.assetid: 2fd6c6bf-c556-414c-98bf-ed042d49920b
 keywords:
 - 文字服務架構 (TSF) ，詞彙
@@ -17,12 +17,12 @@ keywords:
 - 啟用 TSF 的應用程式，定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11b9d66e9cad15b0a65a7d07ecd9b047e5db7415
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5bc44d685ff521b42d47618578ea80c5f7b3007e
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685405"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068105"
 ---
 # <a name="glossary-text-services-framework"></a>詞彙 (文字服務架構) 
 

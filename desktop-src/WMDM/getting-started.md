@@ -1,6 +1,6 @@
 ---
 title: 開始使用 WMDM
-description: 開始使用
+description: 瞭解開始開發使用 Windows Media 裝置管理員的應用程式和服務提供者所需的基本資訊。
 ms.assetid: 0af11e8e-ddfd-4178-aca9-61bb74a2d144
 keywords:
 - Windows Media 裝置管理員，關於
@@ -13,12 +13,12 @@ keywords:
 - 服務提供者，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b18f1e3e7c31de942f050ac19c1bb6b458069862
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: e70c5da5da229f915b4f8b2ef1d79d88c69ab075
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104507740"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068274"
 ---
 # <a name="getting-started-with-wmdm"></a>開始使用 WMDM
 
@@ -35,7 +35,7 @@ ms.locfileid: "104507740"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -44,9 +44,9 @@ ms.locfileid: "104507740"
 [**Windows Media 裝置管理員 11 SDK**](windows-media-device-manager-11-sdk.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: 媒體專案大型縮圖表示的檔案系統路徑。
+description: ThumbnailLargePath 屬性包含媒體專案的大型縮圖標記法的檔案系統路徑。
 ms.assetid: 5a710c2d-ab79-4376-88be-26931346f116
 title: ThumbnailLargePath
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9c761f2086c46a813307dc48c72abb7bec9d23
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f2bd17e148e25d84b254b18f347cff2a8b288554
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195732"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068364"
 ---
 # <a name="systemmediathumbnaillargepath"></a>ThumbnailLargePath
 

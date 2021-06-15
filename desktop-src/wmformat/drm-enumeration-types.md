@@ -1,6 +1,6 @@
 ---
 title: Microsoft Windows Media DRM 用戶端列舉類型
-description: 列舉類型
+description: 深入瞭解 Microsoft Windows Media DRM 用戶端擴充 Api 所支援的列舉。
 ms.assetid: 940f66e1-1dc1-414f-bba9-b91f4f0dfc45
 keywords:
 - Windows Media Format SDK，列舉類型
@@ -10,12 +10,12 @@ keywords:
 - 用戶端擴充 Api，列舉類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c159342367035767d213d57987d93d23eb321a6c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 574136f8016161f4d2c208865a72ad2a86d98f68
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024457"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068425"
 ---
 # <a name="microsoft-windows-media-drm-client-enumeration-types"></a>Microsoft Windows Media DRM 用戶端列舉類型
 

@@ -1,6 +1,6 @@
 ---
 title: " (WMP SDK) 列舉裝置"
-description: 列舉裝置
+description: 此範例程式碼顯示的函式會藉由建立指標的陣列（每個都代表一個裝置）來列舉裝置。
 ms.assetid: 0236a629-c09a-4687-a8ba-fa05107fab33
 keywords:
 - Windows Media Player，可攜式裝置
@@ -14,12 +14,12 @@ keywords:
 - 列舉，可攜式裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5025d0e0a7e99028b22cc24ebc56337ea84d2fb
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d44f71fa26f40983424ced70280d9c03e0892a00
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103932933"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068435"
 ---
 # <a name="enumerating-devices"></a>列舉裝置
 
@@ -145,9 +145,9 @@ STDMETHODIMP CMainDlg::EnumDevices(BOOL bConnectedOnly)
 [**使用可攜式裝置**](working-with-portable-devices.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

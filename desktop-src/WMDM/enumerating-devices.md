@@ -1,6 +1,6 @@
 ---
 title: 列舉 Windows Media 裝置管理員裝置
-description: 列舉裝置
+description: 瞭解如何使用列舉介面來列舉 Windows Media 裝置管理員所偵測到的裝置。
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
 - Windows Media 裝置管理員，列舉裝置
@@ -11,12 +11,12 @@ keywords:
 - 列舉裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3584e625f54ea4e5c601f2a32865515c824cfcd
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104092471"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068195"
 ---
 # <a name="enumerating-windows-media-device-manager-devices"></a>列舉 Windows Media 裝置管理員裝置
 
@@ -187,9 +187,9 @@ HRESULT CWMDMController::EnumDevices()
 [**建立 Windows Media 裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

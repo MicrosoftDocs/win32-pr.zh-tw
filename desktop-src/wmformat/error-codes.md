@@ -1,6 +1,6 @@
 ---
 title: " (Windows Media Format 11 SDK) 的錯誤碼"
-description: 錯誤碼
+description: 瞭解 Windows Media Format SDK 中使用的錯誤和成功碼。 這些程式碼是較大集合的子集。
 ms.assetid: ea1c129b-c0d7-4a1b-934c-c1c07364d4a8
 keywords:
 - Windows Media 格式 SDK，錯誤碼
@@ -24,12 +24,12 @@ keywords:
 - DRM (數位版權管理) ，成功碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3053af57b881bc8f62c4e530a26308e2e8fd9fd2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 51889a678d148abe2e3659edc4d2f5c7826e12a7
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383790"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067894"
 ---
 # <a name="error-codes-windows-media-format-11-sdk"></a> (Windows Media Format 11 SDK) 的錯誤碼
 

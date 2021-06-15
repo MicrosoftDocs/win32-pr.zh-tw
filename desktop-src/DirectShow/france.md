@@ -1,15 +1,15 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含法國國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: 法國
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da01c7645f8ed8a7715ae0514b073b63bd33e0f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 825efa71702dfe617325586d657665a302076369
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970492"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068113"
 ---
 # <a name="france"></a>法國
 

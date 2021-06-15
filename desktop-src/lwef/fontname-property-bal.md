@@ -1,15 +1,15 @@
 ---
 title: 'FontName 屬性 (Balloon 物件) '
-description: FontName 屬性
+description: 瞭解 FontName Balloon 物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: a84a19a4-9e0e-4736-b401-286e6618bc19
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ead06323b36e86dce36163769b329140279f240d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c47e14935f913ce81b5faed5a49c3d731a73532f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093684"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068264"
 ---
 # <a name="fontname-property-balloon-object"></a>FontName 屬性 (Balloon 物件) 
 

@@ -1,15 +1,15 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含適用于紐西蘭之國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: a314d0b1-9e4f-42dd-914a-65a8f3610300
 title: 紐西蘭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b56d806951fff53a674870b446167c2599838cd4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9879e89f6460ab25aa93594001068526404dcd84
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467449"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067979"
 ---
 # <a name="new-zealand"></a>紐西蘭
 

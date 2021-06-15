@@ -1,15 +1,15 @@
 ---
 title: 'Height 屬性 (CommandsWindow 物件) '
-description: Height 屬性
+description: 深入瞭解 CommandsWindow 物件的 Height 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: ca273dcd-2973-4813-b98b-b7dab3fb842c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f6f028015b31d4499b28b6d45851c4cbbe8f4da
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 324100bf8cb1e7ead5c9ae87fa5d17b7623804a3
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464060"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068175"
 ---
 # <a name="height-property-commandswindow-object"></a>Height 屬性 (CommandsWindow 物件) 
 

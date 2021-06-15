@@ -1,6 +1,6 @@
 ---
 title: '如需詳細資訊 (Windows Media Format SDK) '
-description: 詳細資訊
+description: 如需 Windows Media Format SDK 的最新詳細資訊，請使用這些額外的資源。
 ms.assetid: 74933db2-3800-4d49-8720-7e677f208e49
 keywords:
 - Windows Media Format SDK，其他資訊
@@ -11,12 +11,12 @@ keywords:
 - DRM (數位版權管理) ，資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afd9cf32b192607119672e8a30137f0e25cab857
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: ba9a9758bdd2c7571ed6d3f7d769a3511e5d456f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104514280"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067884"
 ---
 # <a name="for-more-information-windows-media-format-sdk"></a>如需詳細資訊 (Windows Media Format SDK) 
 

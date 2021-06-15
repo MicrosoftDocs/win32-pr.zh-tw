@@ -1,6 +1,6 @@
 ---
 title: " (WMDM) 列舉裝置"
-description: 列舉裝置
+description: Windows Media 裝置管理員維護已連線裝置的快取。 瞭解 Windows Media 裝置管理員維護或更新其快取的方式。
 ms.assetid: 7602da65-4c98-4766-b206-2129dad4cc2a
 keywords:
 - Windows Media 裝置管理員，列舉裝置
@@ -11,12 +11,12 @@ keywords:
 - 列舉裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 316b87f6ad3f5680e0c22da832da7b1efec24629
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 6f9b2fd3a891e2c52710bd9a2f6d46a78e9eb238
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679235"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067905"
 ---
 # <a name="enumerating-devices-wmdm"></a> (WMDM) 列舉裝置
 
@@ -58,9 +58,9 @@ PnP 裝置中斷連線
 [**建立服務提供者**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

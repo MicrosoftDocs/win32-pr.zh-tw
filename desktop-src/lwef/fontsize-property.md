@@ -1,15 +1,15 @@
 ---
 title: 'FontSize 屬性 (命令物件) '
-description: FontSize 屬性
+description: 瞭解 FontSize 命令物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: a1113a3a-5da8-4077-8565-168963c503d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee84d5eb966dd7d0605bd0e4f17674fe4499bab6
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 05d4e32bf57d129e7bf1d7b45f97846a1fe90756
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106984950"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068205"
 ---
 # <a name="fontsize-property-commands-object"></a>FontSize 屬性 (命令物件) 
 

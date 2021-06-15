@@ -1,15 +1,15 @@
 ---
-description: 檔案擁有權。
+description: 瞭解 EncryptionOwnersDisplay 屬性，其支援不同 Windows 版本的檔案擁有權。
 ms.assetid: fa47b242-0a5c-437e-9d25-3472bc70ca69
 title: EncryptionOwnersDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57d5f8f63289143fd1942a75bd8447482f4d6aa8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 081f2004cdd3617ee6ca4f0e8a940f397966a49f
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980669"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068474"
 ---
 # <a name="systemsecurityencryptionownersdisplay"></a>EncryptionOwnersDisplay
 

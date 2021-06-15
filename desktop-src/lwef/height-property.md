@@ -1,15 +1,15 @@
 ---
 title: 'Height 屬性 (字元物件) '
-description: Height 屬性
+description: 深入瞭解字元物件的 Height 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: 2c8dc333-e3c1-4f25-833b-9a4262c75b9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e504dcbbfd470c62b4102d86f25a1d2b3c4c25e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d93d288276bd9717378c9a1ab0d9b00489959c00
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685363"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068507"
 ---
 # <a name="height-property-characters-object"></a>Height 屬性 (字元物件) 
 

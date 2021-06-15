@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Winsock 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afeb309f44d5973b204fed805d3f364cb416843
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac97b8f9710163a29dc7d5938df4cb34bb51ec2f
+ms.sourcegitcommit: 04fcd6711f2b167a3023a67310deb58780e1fea8
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994386"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112082383"
 ---
 # <a name="winsock-structures"></a>Winsock 結構
 
@@ -50,8 +50,8 @@ ms.locfileid: "106994386"
 | [**NS \_ 服務 \_ 資訊**](/windows/desktop/api/Nspapi/ns-nspapi-ns_service_infoa)                                            | 包含在指定的命名空間內容中的網路服務或網路服務類型的相關資訊，或一組預設的命名空間。                                                                                                                                   |
 | [**通訊協定 \_ 資訊**](/windows/desktop/api/Nspapi/ns-nspapi-protocol_infoa)                                                 | 包含通訊協定的相關資訊。                                                                                                                                                                                                                                            |
 | [**protoent**](/windows/desktop/api/winsock/ns-winsock-protoent)                                                            | 包含對應至指定通訊協定名稱的名稱和通訊協定編號。                                                                                                                                                                                                  |
-| [**即時 \_ \_ 通知 \_ 設定 \_ 輸入**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | 包含輸入設定，適用于使用 [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041)在 Windows Store 應用程式中接收背景網路通知的 TCP 通訊端 **即時 \_ \_ 通知 \_ 功能** 傳輸設定           |
-| [**即時 \_ \_ 通知 \_ 設定 \_ 輸出**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | 包含與 [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger?view=winrt-19041)搭配使用，以在 Windows Store 應用程式中接收背景網路通知之 TCP 通訊端的 **即時 \_ \_ 通知 \_ 功能** 傳輸設定查詢的輸出設定。 |
+| [**即時 \_ \_ 通知 \_ 設定 \_ 輸入**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input)  | 包含輸入設定，適用于使用 [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger)在 Windows Store 應用程式中接收背景網路通知的 TCP 通訊端 **即時 \_ \_ 通知 \_ 功能** 傳輸設定           |
+| [**即時 \_ \_ 通知 \_ 設定 \_ 輸出**](/windows/desktop/api/Mstcpip/ns-mstcpip-real_time_notification_setting_input) | 包含與 [**ControlChannelTrigger**](/uwp/api/Windows.Networking.Sockets.ControlChannelTrigger)搭配使用，以在 Windows Store 應用程式中接收背景網路通知之 TCP 通訊端的 **即時 \_ \_ 通知 \_ 功能** 傳輸設定查詢的輸出設定。 |
 | [**RIO \_ 擴充 \_ 功能函式 \_ 表**](/windows/win32/api/mswsock/ns-mswsock-rio_extension_function_table)                   | 包含函式的資訊，這些函式會執行 Winsock 已註冊的 i/o 擴充功能。                                                                                                                                                                                       |
 | [**RIO \_ BUF**](/windows/desktop/api/Mswsockdef/ns-mswsockdef-rio_buf)                                                               | 指定已註冊緩衝區的一部分，用來透過 Winsock 註冊的 i/o 擴充功能來傳送或接收網路資料。                                                                                                                                                 |
 | [**RIO \_ BUFFERID**](rio-bufferid.md)                                                     | 指定搭配 Winsock 註冊的 i/o 擴充功能使用的已註冊緩衝區描述元。                                                                                                                                                                                         |

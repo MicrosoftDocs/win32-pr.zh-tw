@@ -1,15 +1,15 @@
 ---
-description: 在 Windows 7 中，使用核心音訊 Api 的高階平臺 Api （例如媒體基礎、DirectSound 和 Wave Api）會藉由處理從現有裝置切換至新的預設音訊端點來執行串流路由功能。
+description: 瞭解串流路由的執行考慮。 Api 會藉由處理切換至新預設音訊端點的資料流程來執行串流路由。
 ms.assetid: ecda0b5b-6583-43b4-a9b4-f12a95f09452
 title: 串流路由的執行考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27dc1f7e3fe56d6b421ca59f528ab1a65d2261a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 62bd753fe027c92ffac9f5a41cea589b600d7f26
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936331"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068034"
 ---
 # <a name="stream-routing-implementation-considerations"></a>串流路由的執行考慮
 

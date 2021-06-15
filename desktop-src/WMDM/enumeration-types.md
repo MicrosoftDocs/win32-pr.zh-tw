@@ -1,6 +1,6 @@
 ---
 title: WMDM 列舉
-description: 列舉類型
+description: 瞭解 Windows Media 裝置管理員定義的列舉，例如 WMDM_ENUM_PROP_VALID_VALUES_FORM 和 WMDM_FIND_SCOPE。
 ms.assetid: 205fe651-a712-4d9a-9ebf-bf7e8ec05ed0
 keywords:
 - Windows Media 裝置管理員，列舉
@@ -9,12 +9,12 @@ keywords:
 - Windows Media 裝置管理員的參考，列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fef8cc4922d00a8d9e32344316557d422cc61f38
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: ec50acdfcf780f65a638c3761f3f6164d29afb74
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104373975"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112067915"
 ---
 # <a name="wmdm-enumerations"></a>WMDM 列舉
 
@@ -36,7 +36,7 @@ Windows Media 裝置管理員定義下列列舉。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ Windows Media 裝置管理員定義下列列舉。
 [**程式設計參考**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

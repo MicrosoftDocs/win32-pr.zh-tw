@@ -1,15 +1,15 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含適用于愛爾蘭國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: 愛爾蘭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dba5254cd64262fa40c330b3f65ba589090fed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b004a811a59a6e2556cdd4187728e5842bea1a46
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509896"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068154"
 ---
 # <a name="ireland"></a>愛爾蘭
 

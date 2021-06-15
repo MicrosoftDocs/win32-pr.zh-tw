@@ -1,15 +1,15 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含適用于捷克文共和國之國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: 6bbef2a3-7104-4b5f-8381-0a89751e572b
 title: 捷克共和國
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 732a8a9082484d0b8167d8c3f565afdafd0664a0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91e3d946fdfc42f0e418d7bba1a786d49c5d6785
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688428"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068024"
 ---
 # <a name="czech-republic"></a>捷克共和國
 

@@ -1,15 +1,15 @@
 ---
 title: 'Height 屬性 (PropertySheet 物件) '
-description: Height 屬性
+description: 深入瞭解 PropertySheet 物件的 Height 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: ad1efe47-3fa5-4885-8855-a9977cf21cef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47b721709e66449d37009226449c6848c4c2b811
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a42c1633606a0898417b209ad2c42020dc333554
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842956"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068535"
 ---
 # <a name="height-property-propertysheet-object"></a>Height 屬性 (PropertySheet 物件) 
 
