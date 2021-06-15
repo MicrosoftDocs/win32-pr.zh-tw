@@ -1,33 +1,33 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含適用于愛爾蘭國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: be60ca37-9f3a-44cd-8646-28fcbda5e79e
 title: 愛爾蘭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81dba5254cd64262fa40c330b3f65ba589090fed
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b004a811a59a6e2556cdd4187728e5842bea1a46
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509896"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068154"
 ---
-# <a name="ireland"></a><span data-ttu-id="5ca78-103">愛爾蘭</span><span class="sxs-lookup"><span data-stu-id="5ca78-103">Ireland</span></span>
+# <a name="ireland"></a><span data-ttu-id="00d2b-104">愛爾蘭</span><span class="sxs-lookup"><span data-stu-id="00d2b-104">Ireland</span></span>
 
-<span data-ttu-id="5ca78-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="5ca78-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="00d2b-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="00d2b-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="5ca78-105">愛爾蘭資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="5ca78-105">The frequency indexes in the Ireland tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="00d2b-106">愛爾蘭資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="00d2b-106">The frequency indexes in the Ireland tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="5ca78-106">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="5ca78-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="5ca78-107">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-107">Ireland Broadcast Assignments</span></span>](#ireland-broadcast-assignments)
-    -   [<span data-ttu-id="5ca78-108">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-108">Ireland Cable Assignments</span></span>](#ireland-cable-assignments)
--   [<span data-ttu-id="5ca78-109">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="5ca78-110">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-110">Ireland Broadcast Assignments</span></span>](#ireland-broadcast-assignments)
-    -   [<span data-ttu-id="5ca78-111">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-111">Ireland Cable Assignments</span></span>](#ireland-cable-assignments)
--   [<span data-ttu-id="5ca78-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="5ca78-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="00d2b-107">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="00d2b-107">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="00d2b-108">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-108">Ireland Broadcast Assignments</span></span>](#ireland-broadcast-assignments)
+    -   [<span data-ttu-id="00d2b-109">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-109">Ireland Cable Assignments</span></span>](#ireland-cable-assignments)
+-   [<span data-ttu-id="00d2b-110">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-110">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="00d2b-111">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-111">Ireland Broadcast Assignments</span></span>](#ireland-broadcast-assignments)
+    -   [<span data-ttu-id="00d2b-112">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-112">Ireland Cable Assignments</span></span>](#ireland-cable-assignments)
+-   [<span data-ttu-id="00d2b-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="00d2b-113">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="5ca78-113">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="5ca78-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="00d2b-114">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="00d2b-114">Windows 7 and Later</span></span>
 
-### <a name="ireland-broadcast-assignments"></a><span data-ttu-id="5ca78-114">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-114">Ireland Broadcast Assignments</span></span>
+### <a name="ireland-broadcast-assignments"></a><span data-ttu-id="00d2b-115">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-115">Ireland Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -103,7 +103,7 @@ ms.locfileid: "104509896"
        855250000L,      // 68 69
 ```
 
-### <a name="ireland-cable-assignments"></a><span data-ttu-id="5ca78-115">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-115">Ireland Cable Assignments</span></span>
+### <a name="ireland-cable-assignments"></a><span data-ttu-id="00d2b-116">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-116">Ireland Cable Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -162,27 +162,9 @@ ms.locfileid: "104509896"
        488000000L,      // 51 TV51
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="5ca78-116">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="00d2b-117">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-117">Earlier Channel Assignments</span></span>
 
-### <a name="ireland-broadcast-assignments"></a><span data-ttu-id="5ca78-117">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-117">Ireland Broadcast Assignments</span></span>
-
-``` syntax
-        1L,             // Lowest channel
-        10L,            // Highest channel
-
-        45750000L,      // A
-        53750000L,      // B
-        61750000L,      // C
-       175250000L,      // D
-       183750000L,      // E
-       191250000L,      // F
-       199250000L,      // G
-       207250000L,      // H
-       215250000L,      // I
-       223250000L,      // J
-```
-
-### <a name="ireland-cable-assignments"></a><span data-ttu-id="5ca78-118">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="5ca78-118">Ireland Cable Assignments</span></span>
+### <a name="ireland-broadcast-assignments"></a><span data-ttu-id="00d2b-118">愛爾蘭廣播指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-118">Ireland Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -200,11 +182,29 @@ ms.locfileid: "104509896"
        223250000L,      // J
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="5ca78-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="5ca78-119">Related topics</span></span>
+### <a name="ireland-cable-assignments"></a><span data-ttu-id="00d2b-119">愛爾蘭纜線指派</span><span class="sxs-lookup"><span data-stu-id="00d2b-119">Ireland Cable Assignments</span></span>
+
+``` syntax
+        1L,             // Lowest channel
+        10L,            // Highest channel
+
+        45750000L,      // A
+        53750000L,      // B
+        61750000L,      // C
+       175250000L,      // D
+       183750000L,      // E
+       191250000L,      // F
+       199250000L,      // G
+       207250000L,      // H
+       215250000L,      // I
+       223250000L,      // J
+```
+
+## <a name="related-topics"></a><span data-ttu-id="00d2b-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="00d2b-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="5ca78-120">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="5ca78-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="00d2b-121">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="00d2b-121">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

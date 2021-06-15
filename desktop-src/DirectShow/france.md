@@ -1,33 +1,33 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含法國國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: 852ead0e-3539-483d-943d-1779f7358ba5
 title: 法國
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5da01c7645f8ed8a7715ae0514b073b63bd33e0f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 825efa71702dfe617325586d657665a302076369
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970492"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068113"
 ---
-# <a name="france"></a><span data-ttu-id="71b04-103">法國</span><span class="sxs-lookup"><span data-stu-id="71b04-103">France</span></span>
+# <a name="france"></a><span data-ttu-id="64af2-104">法國</span><span class="sxs-lookup"><span data-stu-id="64af2-104">France</span></span>
 
-<span data-ttu-id="71b04-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="71b04-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="64af2-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="64af2-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="71b04-105">法國資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="71b04-105">The frequency indexes in the France tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="64af2-106">法國資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="64af2-106">The frequency indexes in the France tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="71b04-106">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="71b04-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="71b04-107">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="71b04-107">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
-    -   [<span data-ttu-id="71b04-108">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="71b04-108">France Cable Assignments</span></span>](#france-cable-assignments)
--   [<span data-ttu-id="71b04-109">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="71b04-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="71b04-110">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="71b04-110">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
-    -   [<span data-ttu-id="71b04-111">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="71b04-111">France Cable Assignments</span></span>](#france-cable-assignments)
--   [<span data-ttu-id="71b04-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="71b04-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="64af2-107">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="64af2-107">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="64af2-108">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="64af2-108">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
+    -   [<span data-ttu-id="64af2-109">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="64af2-109">France Cable Assignments</span></span>](#france-cable-assignments)
+-   [<span data-ttu-id="64af2-110">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="64af2-110">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="64af2-111">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="64af2-111">France Broadcast Assignments</span></span>](#france-broadcast-assignments)
+    -   [<span data-ttu-id="64af2-112">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="64af2-112">France Cable Assignments</span></span>](#france-cable-assignments)
+-   [<span data-ttu-id="64af2-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="64af2-113">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="71b04-113">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="71b04-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="64af2-114">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="64af2-114">Windows 7 and Later</span></span>
 
-### <a name="france-broadcast-assignments"></a><span data-ttu-id="71b04-114">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="71b04-114">France Broadcast Assignments</span></span>
+### <a name="france-broadcast-assignments"></a><span data-ttu-id="64af2-115">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="64af2-115">France Broadcast Assignments</span></span>
 
 ``` syntax
         2L,             // Lowest channel
@@ -103,7 +103,7 @@ ms.locfileid: "106970492"
        855250000L,      // 69
 ```
 
-### <a name="france-cable-assignments"></a><span data-ttu-id="71b04-115">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="71b04-115">France Cable Assignments</span></span>
+### <a name="france-cable-assignments"></a><span data-ttu-id="64af2-116">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="64af2-116">France Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -233,9 +233,9 @@ ms.locfileid: "106970492"
        296000000L,      // 120 TV37++
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="71b04-116">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="71b04-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="64af2-117">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="64af2-117">Earlier Channel Assignments</span></span>
 
-### <a name="france-broadcast-assignments"></a><span data-ttu-id="71b04-117">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="71b04-117">France Broadcast Assignments</span></span>
+### <a name="france-broadcast-assignments"></a><span data-ttu-id="64af2-118">法國廣播指派</span><span class="sxs-lookup"><span data-stu-id="64af2-118">France Broadcast Assignments</span></span>
 
 ``` syntax
         2L,             // Lowest channel
@@ -311,7 +311,7 @@ ms.locfileid: "106970492"
        855250000L,      // 69
 ```
 
-### <a name="france-cable-assignments"></a><span data-ttu-id="71b04-118">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="71b04-118">France Cable Assignments</span></span>
+### <a name="france-cable-assignments"></a><span data-ttu-id="64af2-119">法國纜線指派</span><span class="sxs-lookup"><span data-stu-id="64af2-119">France Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -427,11 +427,11 @@ ms.locfileid: "106970492"
        855250000L,      // 107
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="71b04-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="71b04-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="64af2-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="64af2-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="71b04-120">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="71b04-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="64af2-121">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="64af2-121">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  

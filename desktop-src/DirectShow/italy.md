@@ -1,33 +1,33 @@
 ---
-description: 如需下列資料表的說明，請參閱資料表和指派。
+description: 本文包含適用于義大利之國際類比電視微調的頻率表。 頻率索引不適合頻道號碼。
 ms.assetid: 955fb828-4290-4e60-a5db-d3f243b86d8d
 title: 義大利
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c92fd079a61b95b2007134b17601f6f3dfbfbc4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f1e74092318cfbc889f9173685176d48d6b72fc0
+ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973130"
+ms.lasthandoff: 06/14/2021
+ms.locfileid: "112068574"
 ---
-# <a name="italy"></a><span data-ttu-id="b5b5b-103">義大利</span><span class="sxs-lookup"><span data-stu-id="b5b5b-103">Italy</span></span>
+# <a name="italy"></a><span data-ttu-id="9d77c-104">義大利</span><span class="sxs-lookup"><span data-stu-id="9d77c-104">Italy</span></span>
 
-<span data-ttu-id="b5b5b-104">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="b5b5b-104">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
+<span data-ttu-id="9d77c-105">如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。</span><span class="sxs-lookup"><span data-stu-id="9d77c-105">For an explanation of the following tables, see [Tables and Assignments](tables-and-assignments.md).</span></span>
 
-<span data-ttu-id="b5b5b-105">義大利資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="b5b5b-105">The frequency indexes in the Italy tables are not suitable for use as channel numbers.</span></span>
+<span data-ttu-id="9d77c-106">義大利資料表中的頻率索引不適合作為通道號碼使用。</span><span class="sxs-lookup"><span data-stu-id="9d77c-106">The frequency indexes in the Italy tables are not suitable for use as channel numbers.</span></span>
 
--   [<span data-ttu-id="b5b5b-106">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="b5b5b-106">Windows 7 and Later</span></span>](#windows-7-and-later)
-    -   [<span data-ttu-id="b5b5b-107">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-107">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
-    -   [<span data-ttu-id="b5b5b-108">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-108">Italy Cable Assignments</span></span>](#italy-cable-assignments)
--   [<span data-ttu-id="b5b5b-109">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-109">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
-    -   [<span data-ttu-id="b5b5b-110">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-110">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
-    -   [<span data-ttu-id="b5b5b-111">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-111">Italy Cable Assignments</span></span>](#italy-cable-assignments)
--   [<span data-ttu-id="b5b5b-112">相關主題</span><span class="sxs-lookup"><span data-stu-id="b5b5b-112">Related topics</span></span>](#related-topics)
+-   [<span data-ttu-id="9d77c-107">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="9d77c-107">Windows 7 and Later</span></span>](#windows-7-and-later)
+    -   [<span data-ttu-id="9d77c-108">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-108">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
+    -   [<span data-ttu-id="9d77c-109">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-109">Italy Cable Assignments</span></span>](#italy-cable-assignments)
+-   [<span data-ttu-id="9d77c-110">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-110">Earlier Channel Assignments</span></span>](#earlier-channel-assignments)
+    -   [<span data-ttu-id="9d77c-111">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-111">Italy Broadcast Assignments</span></span>](#italy-broadcast-assignments)
+    -   [<span data-ttu-id="9d77c-112">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-112">Italy Cable Assignments</span></span>](#italy-cable-assignments)
+-   [<span data-ttu-id="9d77c-113">相關主題</span><span class="sxs-lookup"><span data-stu-id="9d77c-113">Related topics</span></span>](#related-topics)
 
-## <a name="windows-7-and-later"></a><span data-ttu-id="b5b5b-113">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="b5b5b-113">Windows 7 and Later</span></span>
+## <a name="windows-7-and-later"></a><span data-ttu-id="9d77c-114">Windows 7 和更新版本</span><span class="sxs-lookup"><span data-stu-id="9d77c-114">Windows 7 and Later</span></span>
 
-### <a name="italy-broadcast-assignments"></a><span data-ttu-id="b5b5b-114">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-114">Italy Broadcast Assignments</span></span>
+### <a name="italy-broadcast-assignments"></a><span data-ttu-id="9d77c-115">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-115">Italy Broadcast Assignments</span></span>
 
 ``` syntax
         1L,             // Lowest channel
@@ -104,7 +104,7 @@ ms.locfileid: "106973130"
        855250000L,      // 69 TV69
 ```
 
-### <a name="italy-cable-assignments"></a><span data-ttu-id="b5b5b-115">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-115">Italy Cable Assignments</span></span>
+### <a name="italy-cable-assignments"></a><span data-ttu-id="9d77c-116">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-116">Italy Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -133,9 +133,9 @@ ms.locfileid: "106973130"
        305250000L,      // 20 Not used
 ```
 
-## <a name="earlier-channel-assignments"></a><span data-ttu-id="b5b5b-116">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-116">Earlier Channel Assignments</span></span>
+## <a name="earlier-channel-assignments"></a><span data-ttu-id="9d77c-117">舊版通道指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-117">Earlier Channel Assignments</span></span>
 
-### <a name="italy-broadcast-assignments"></a><span data-ttu-id="b5b5b-117">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-117">Italy Broadcast Assignments</span></span>
+### <a name="italy-broadcast-assignments"></a><span data-ttu-id="9d77c-118">義大利廣播指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-118">Italy Broadcast Assignments</span></span>
 
 ``` syntax
          1L,             // Lowest channel
@@ -214,7 +214,7 @@ ms.locfileid: "106973130"
        855250000L,      // 69
 ```
 
-### <a name="italy-cable-assignments"></a><span data-ttu-id="b5b5b-118">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="b5b5b-118">Italy Cable Assignments</span></span>
+### <a name="italy-cable-assignments"></a><span data-ttu-id="9d77c-119">義大利纜線指派</span><span class="sxs-lookup"><span data-stu-id="9d77c-119">Italy Cable Assignments</span></span>
 
 ``` syntax
          1L,            // Lowest channel
@@ -243,11 +243,11 @@ ms.locfileid: "106973130"
        305250000L,      // 20 Not used
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="b5b5b-119">相關主題</span><span class="sxs-lookup"><span data-stu-id="b5b5b-119">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9d77c-120">相關主題</span><span class="sxs-lookup"><span data-stu-id="9d77c-120">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b5b5b-120">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="b5b5b-120">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
+[<span data-ttu-id="9d77c-121">國際類比電視微調</span><span class="sxs-lookup"><span data-stu-id="9d77c-121">International Analog TV Tuning</span></span>](international-analog-tv-tuning.md)
 </dt> </dl>
 
  
