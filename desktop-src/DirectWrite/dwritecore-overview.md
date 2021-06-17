@@ -6,18 +6,21 @@ keywords:
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: c619b74cf334218813a74e63cca6d5fab400e563
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0f908f000d340f9cc9f374e036919422c4a940a6
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110550293"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262640"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
 DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于高品質文字轉譯、解析度無關大綱字型，以及完整 Unicode 文字和版面配置支援[) 的 DirectX](/windows/apps/project-reunion/) API。 DWriteCore 是一種 DirectWrite 形式，可在 Windows 版本下執行，以 Windows 10 版本 1809 (10.0;組建 17763) ，並開啟可讓您跨平臺使用的門。
 
 本簡介主題說明 DWriteCore 是什麼，並示範如何將它安裝到您的開發環境和程式。
+
+> [!TIP]
+> 如需有效開發中 DirectX 元件的說明和連結，請參閱 blog post [頁面（Directx 登陸頁面](https://devblogs.microsoft.com/directx/landing-page/)）。
 
 ## <a name="the-value-proposition-of-dwritecore"></a>DWriteCore 的價值主張
 

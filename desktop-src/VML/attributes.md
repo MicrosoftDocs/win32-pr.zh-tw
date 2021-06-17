@@ -1,15 +1,15 @@
 ---
 title: '屬性 (VML) '
-description: 屬性
+description: 本文列出 VML 中的 Shape 元素屬性。 從 Windows Internet Explorer 9 起，已淘汰了 VML。
 ms.assetid: 0EBA02C8-3F44-492E-BC55-AD56849093D2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf184ca87eb7344fe17b959647f672da53eec1b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2a369ce7e5ec416ec3e9c36588dc1fc58a7d0701
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383745"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262740"
 ---
 # <a name="attributes-vml"></a>屬性 (VML) 
 
@@ -83,10 +83,10 @@ ms.locfileid: "104383745"
 -   [Target](msdn-online-vml-target-attribute.md)
 -   [標題](title-attribute--shape--vml.md)
 -   [前幾個](msdn-online-vml-top-attribute.md)
--   [型別](type-attribute--shape--vml.md)
+-   [類型](type-attribute--shape--vml.md)
 -   [UserDrawn](msdn-online-vml-userdrawn-attribute.md)
 -   [UserHidden](msdn-online-vml-userhidden-attribute.md)
--   [可見度](msdn-online-vml-visibility-attribute.md)
+-   [可見性](msdn-online-vml-visibility-attribute.md)
 -   [寬度](msdn-online-vml-width-attribute.md)
 -   [WrapCoords](msdn-online-vml-wrapcoords-attribute.md)
 -   [Z-索引](msdn-online-vml-z-index-attribute.md)

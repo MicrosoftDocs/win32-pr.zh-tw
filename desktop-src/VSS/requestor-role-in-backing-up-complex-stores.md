@@ -1,15 +1,15 @@
 ---
-description: 如同 VSS 下的所有重要作業，增量和差異備份都需要在要求者和寫入器之間密切合作。
+description: 瞭解增量和差異備份中的要求者角色，這需要要求者和寫入器之間的密切合作。
 ms.assetid: 00391a49-8c81-4518-88a2-741ad5ee4ac3
 title: 備份複雜存放區的要求者角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 197351e76b6861ee9b9d1e0589ef028c911430ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a84dfa1b0b1837bacc2488b6bd9e3ffdd51b92c0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026578"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262180"
 ---
 # <a name="requester-role-in-backing-up-complex-stores"></a>備份複雜存放區的要求者角色
 
@@ -98,11 +98,11 @@ ms.locfileid: "104026578"
 
 ### <a name="backup-by-last-modify-time"></a>上次修改時間的備份
 
-[**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)階段中指定的檔案規格資訊，不會提供要求者有關上次備份後已變更之資訊的資訊。 寫入器用來指出變更要求者的其中一種方式，是使用差異的檔案機制。 寫入器可以指定元件中的特定檔案在經過一段時間之後已經過修改，因此應該備份這些檔案;寫入器可以在 [**>ivssbackupcomponents：:P repareforbackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) 或 [**>ivssbackupcomponents：:D osnapshotset**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset)中指定這些檔案。 要求者可以藉由呼叫 [**>ivsscomponent：： GetDifferencedFilesCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfilescount) 和 [**>ivsscomponent：： GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile)來判斷這些檔案。 如果檔案規格符合 **>ivssbackupcomponents：： GatherWriterMetadata** (中的一個集合，而該集合目前根據備份類型遮罩來有效) 則差異檔案資訊會覆寫先前的資訊;也就是說，只有在指定時間之後修改過檔案規格的檔案時，才會備份這些檔案。 上次修改時間是使用 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構進行通訊。 如果此結構的值為零，則表示最後一次修改的時間應該取決於要求者的上次備份時間記錄。
+[**>Ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)階段中指定的檔案規格資訊，不會提供要求者有關上次備份後已變更之資訊的資訊。 寫入器用來指出變更要求者的其中一種方式，是使用差異的檔案機制。 寫入器可以指定元件中的特定檔案在經過一段時間之後已經過修改，因此應該備份這些檔案;寫入器可以在 [**>ivssbackupcomponents：:P repareforbackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) 或 [**>ivssbackupcomponents：:D osnapshotset**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset)中指定這些檔案。 要求者可以藉由呼叫 [**>ivsscomponent：： GetDifferencedFilesCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfilescount) 和 [**>ivsscomponent：： GetDifferencedFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdifferencedfile)來判斷這些檔案。 如果檔案規格符合 **>ivssbackupcomponents：： GatherWriterMetadata** (中的一個集合，而該集合目前根據備份類型遮罩來有效) 則差異檔案資訊會覆寫先前的資訊;也就是說，只有在指定時間之後修改過檔案規格的檔案時，才會備份這些檔案。 上次修改時間是使用 [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) 結構進行通訊。 如果此結構的值為零，則表示最後一次修改的時間應該取決於要求者的上次備份時間記錄。
 
 ### <a name="partial-file-backup"></a>部分檔案備份
 
-寫入器用來表示變更要求者的另一種方式是使用部分檔案機制。 寫入器可以在需要備份的元件檔案內指定位元組範圍;寫入器可以在 [**>ivssbackupcomponents：:P repareforbackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) 或 [**>ivssbackupcomponents：:D osnapshotset**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset)中指定這些檔案範圍。 要求者可以藉由呼叫 [**>ivsscomponent：： GetPartialFileCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount) 和 [**>ivsscomponent：： GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)來判斷這些檔案。 **>ivsscomponent：： GetPartialFile** 會傳回指向檔案的路徑和檔案名，以及表示需要在檔案中備份的範圍字串。 如同差異檔案，如果路徑和檔案名符合 [**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)中的寫入器所設定的檔案規格，則部分檔案資訊會覆寫先前的設定。 範圍字串可以有兩種格式：可以直接指定範圍，也可以指定包含範圍資訊的檔案。 如果直接指定範圍，語法會是 offset1： array2d.length1，offset2： array3d.length2 格式的逗號分隔清單，其中每個位移和長度都是64位不帶正負號的整數。 如果指定範圍檔案，則範圍字串應設定為 File = *filename*，其中 *filename* 是範圍檔案的完整路徑。 範圍檔案本身是一種二進位檔案，格式為64位不帶正負號整數的清單。 第一個整數表示檔案中表示的範圍數目。 每個後續的整數配對表示範圍的位移和長度。 要求者也必須負責備份和還原此範圍檔案。
+寫入器用來表示變更要求者的另一種方式是使用部分檔案機制。 寫入器可以在需要備份的元件檔案內指定位元組範圍;寫入器可以在 [**>ivssbackupcomponents：:P repareforbackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prepareforbackup) 或 [**>ivssbackupcomponents：:D osnapshotset**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-dosnapshotset)中指定這些檔案範圍。 要求者可以藉由呼叫 [**>ivsscomponent：： GetPartialFileCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfilecount) 和 [**>ivsscomponent：： GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)來判斷這些檔案。 **>Ivsscomponent：： GetPartialFile** 會傳回指向檔案的路徑和檔案名，以及表示需要在檔案中備份的範圍字串。 如同差異檔案，如果路徑和檔案名符合 [**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)中的寫入器所設定的檔案規格，則部分檔案資訊會覆寫先前的設定。 範圍字串可以有兩種格式：可以直接指定範圍，也可以指定包含範圍資訊的檔案。 如果直接指定範圍，語法會是 offset1： array2d.length1，offset2： array3d.length2 格式的逗號分隔清單，其中每個位移和長度都是64位不帶正負號的整數。 如果指定範圍檔案，則範圍字串應設定為 File = *filename*，其中 *filename* 是範圍檔案的完整路徑。 範圍檔案本身是一種二進位檔案，格式為64位不帶正負號整數的清單。 第一個整數表示檔案中表示的範圍數目。 每個後續的整數配對表示範圍的位移和長度。 要求者也必須負責備份和還原此範圍檔案。
 
 ### <a name="file-specification-rules"></a>檔案規格規則
 
@@ -163,7 +163,7 @@ ms.locfileid: "104026578"
 
 ### <a name="directed-targets"></a>導向的目標
 
-針對複雜的還原案例，寫入器可能會想要將已備份檔案的範圍對應到相同或不同檔案的不同範圍。 這可以藉由使用導向的目的機制來完成。 要求者可以藉由呼叫 [**>ivsscomponent：： GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget) ，並檢查是否有 **\_ \_ 指向 VSS RT** 的傳回，在 [**>ivssbackupcomponents：:P rerestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore)階段之後判斷此機制用於元件。 要求者可以藉由呼叫 [**>ivsscomponent：： GetDirectedTargetCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtargetcount) 和 [**>ivsscomponent：： GetDirectedTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget)，來取得所有這些重新導向的還原。 **>ivsscomponent：： GetDirectedTarget** 會傳回備份上原始程式檔的完整路徑，以及將還原至的目的地檔案的完整路徑。 它也會針對每個檔案傳回範圍清單。 接著，要求者會負責將來源檔案中指定的範圍還原到目的地檔案中的對應範圍。 範圍字串的格式與 [**>ivsscomponent：： GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)中的格式相同。
+針對複雜的還原案例，寫入器可能會想要將已備份檔案的範圍對應到相同或不同檔案的不同範圍。 這可以藉由使用導向的目的機制來完成。 要求者可以藉由呼叫 [**>ivsscomponent：： GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget) ，並檢查是否有 **\_ \_ 指向 VSS RT** 的傳回，在 [**>ivssbackupcomponents：:P rerestore**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-prerestore)階段之後判斷此機制用於元件。 要求者可以藉由呼叫 [**>ivsscomponent：： GetDirectedTargetCount**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtargetcount) 和 [**>ivsscomponent：： GetDirectedTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getdirectedtarget)，來取得所有這些重新導向的還原。 **>Ivsscomponent：： GetDirectedTarget** 會傳回備份上原始程式檔的完整路徑，以及將還原至的目的地檔案的完整路徑。 它也會針對每個檔案傳回範圍清單。 接著，要求者會負責將來源檔案中指定的範圍還原到目的地檔案中的對應範圍。 範圍字串的格式與 [**>ivsscomponent：： GetPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getpartialfile)中的格式相同。
 
 -   [VSS 增量和差異備份中的寫入器角色](writer-role-in-vss-incremental-and-differential-backups.md)
 -   [VSS 增量和差異備份中的要求者角色](requestor-role-in-vss-incremental-and-differential-backups.md)

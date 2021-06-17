@@ -5,12 +5,12 @@ title: '選項旗標 (WinHTTP. h) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: f9ca6b7c74d484a6bcac235b2396b2005c8c3260
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111386677"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262060"
 ---
 # <a name="option-flags"></a>選項旗標
 
@@ -272,6 +272,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_ENABLE_HTTP2_PLUS_CLIENT_CERT"></span><span id="winhttp_option_enable_http2_plus_client_cert"></span>**WINHTTP \_ 選項 \_ ENABLE \_ HTTP2 \_ PLUS \_ CLIENT \_ CERT**
+</dt> <dd> <dl> <dt>
+
+
+您可以在 WinHttp 會話控制碼上設定這個選項，讓 WinHttp 在使用 HTTP/2 時，使用呼叫端提供的用戶端憑證內容。
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_ENABLETRACING"></span><span id="winhttp_option_enabletracing"></span>**WINHTTP \_ 選項 \_ ENABLETRACING**
 </dt> <dd> <dl> <dt>
 
@@ -383,6 +392,25 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 </dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_KEEPALIVE"></span><span id="winhttp_option_http2_keepalive"></span>**WINHTTP \_ 選項 \_ HTTP2 \_ KEEPALIVE**
+</dt> <dd> <dl> <dt>
+
+
+您可以在會話控制碼上設定這個選項，讓 WinHttp 使用 HTTP/2 偵測框架作為 keepalive 機制。 呼叫端指定的超時時間（以毫秒為單位），且在該超時期間的連線上沒有任何活動之後，WinHttp 將開始傳送 HTTP/2 偵測畫面。 呼叫端無法設定小於5000毫秒的超時值。
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_HTTP2_PLUS_TRANSFER_ENCODING"></span><span id="winhttp_option_http2_plus_transfer_encoding"></span>**WINHTTP \_ 選項 \_ HTTP2 \_ PLUS \_ 傳輸 \_ 編碼**
+</dt> <dd> <dl> <dt>
+
+
+您可以在 WinHttp 要求控制碼上設定這個選項，以控制當 HTTP/2 回應包含「傳輸編碼」標頭時，WinHttp 的行為方式。 在這種情況下，如果此選項設定為 **FALSE**，WinHttp 將會傳回錯誤。
+
+
+</dt> </dl> </dd> <dt>
+
 
 <span id="WINHTTP_OPTION_IGNORE_CERT_REVOCATION_OFFLINE"></span><span id="winhttp_option_ignore_cert_revocation_offline"></span>**WINHTTP \_ 選項會 \_ 離線略過憑證 \_ \_ 撤銷 \_**
 </dt> <dd> <dl> <dt>
@@ -688,6 +716,26 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_REQUIRE_STREAM_END"></span><span id="winhttp_option_require_stream_end"></span>**WINHTTP \_ 選項 \_ 需要 \_ STREAM \_ END**
+</dt> <dd> <dl> <dt>
+
+
+此選項會告知 WinHttp 略過「內容長度」回應標頭，並繼續接收串流，直到收到 END_STREAM 旗標為止。
+
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_RESOLUTION_HOSTNAME"></span><span id="winhttp_option_resolution_hostname"></span>**WINHTTP \_ 選項 \_ 解析 \_ 主機名稱**
+</dt> <dd> <dl> <dt>
+
+
+您可以在 WinHttp 要求控制碼上設定這個選項，然後再傳送。 如果設定，WinHttp 將使用呼叫端提供的字串作為 DNS 解析的主機名稱。
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_RESOLVE_TIMEOUT"></span><span id="winhttp_option_resolve_timeout"></span>**WINHTTP \_ 選項 \_ 解析 \_ 超時**
 </dt> <dd> <dl> <dt>
 
@@ -839,6 +887,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_STREAM_ERROR_CODE"></span><span id="winhttp_option_stream_error_code"></span>**WINHTTP \_ 選項 \_ 資料流程 \_ 錯誤碼 \_**
+</dt> <dd> <dl> <dt>
+
+
+此選項可在 WinHttp 要求控制碼上進行查詢，並會傳回由 HTTP 資料流程接收的 RST_STREAM 框架所指出的錯誤碼。
+
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**WINHTTP \_ 選項 \_ TCP \_ 快速 \_ 開啟**
 </dt> <dd> <dl> <dt>
 
@@ -865,6 +923,16 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 啟用連接的 TLS False Start。
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_TLS_PROTOCOL_INSECURE_FALLBACK"></span><span id="winhttp_option_tls_protocol_insecure_fallback"></span>**WINHTTP \_ 選項 \_ TLS \_ 通訊協定不 \_ 安全 \_ 的回復**
+</dt> <dd> <dl> <dt>
+
+
+
+您可以在 WinHttp 會話控制碼上設定這個選項，以控制如果有較新的通訊協定版本的 TLS 交握失敗，是否允許回溯至 TLS 1.0。
 
 
 </dt> </dl> </dd> <dt>
@@ -1031,6 +1099,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 停用 \_ 串流 \_ 佇列<br/>**Bool** | X | X | \- | X | Windows 10 版本1809 |
 | WINHTTP \_ 選項 \_ 啟用 \_ 功能<br/>**Dword** | \* | \* | \- | X | \- |
 | WINHTTP \_ 選項 \_ 啟用 \_ HTTP \_ 通訊協定<br/>**Dword** | X | X | \- | X | Windows 10 版本 1607 |
+| WINHTTP \_ 選項 \_ ENABLE \_ HTTP2 \_ PLUS \_ CLIENT \_ CERT \_ CONTEXT<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ ENABLETRACING<br/>**Dword** | \- | \- | X | X | \- |
 | WINHTTP \_ 選項 \_ 編碼 \_ 額外<br/>**Bool** | X | X | \- | X | Windows 10 版本1803 |
 | WINHTTP \_ 選項 \_ 到期 \_ 連接<br/>N/A | \- | X | \- | X | Windows 10 版本1903 |
@@ -1041,6 +1110,8 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | \_需要 WINHTTP 選項 \_ HTTP \_ 通訊協定 \_<br/>**Bool** | X | X | \- | X | Windows 10 版本1903 |
 | 使用的 WINHTTP \_ 選項 \_ HTTP \_ 通訊協定 \_<br/>**Dword** | \- | X | X | \- | Windows 10 版本 1607 |
 | WINHTTP \_ 選項 \_ HTTP \_ 版本<br/>[**HTTP \_ 版本 \_ 資訊**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ HTTP2 \_ KEEPALIVE<br/>**Dword** | X | \- | \- | X | Windows 10 版本21H1 |
+| WINHTTP \_ 選項 \_ HTTP2 \_ PLUS \_ 傳輸 \_ 編碼<br/>**Bool** | X | X | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項會 \_ 離線略過憑證 \_ \_ 撤銷 \_<br/>**Bool** | \- | X | \- | X | Windows 10 版本2004 |
 | WINHTTP \_ OPTION \_ IPV6 \_ FAST \_ FALLBACK<br/>**Bool** | X | \- | \- | X | Windows 10 版本1903 |
 | WINHTTP \_ 選項 \_ 為 \_ PROXY \_ CONNECT \_ 回應<br/>**Bool** | X | X | X | \- | \- |
@@ -1069,6 +1140,8 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 要求 \_ 優先順序<br/>**Dword** | \- | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 要求 \_ 統計資料<br/>[**WINHTTP \_ 要求 \_ 統計資料**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10 版本1903 |
 | WINHTTP \_ 選項 \_ 要求 \_ 時間<br/>[**WINHTTP \_ 要求 \_ 時間**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10 版本1903 |
+| WINHTTP \_ 選項 \_ 需要 \_ STREAM \_ END<br/>**Bool** | X | X | \- | X | Windows 10 版本21H1 |
+| WINHTTP \_ 選項 \_ 解析 \_ 主機名稱<br/>**LPWSTR** | \- | X | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ 解析 \_ 超時<br/>**Dword** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 安全 \_ 通訊協定<br/>**Dword** | X | \- | \- | X | \- |
 | WINHTTP \_ 選項 \_ 安全性 \_ 憑證 \_ 結構<br/>[**WINHTTP \_ 憑證 \_ 資訊**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- | \- |
@@ -1081,9 +1154,11 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 伺服器 \_ 證書 \_ 內容<br/>[**憑證內容**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- | \- |
 | 已 \_ 使用 WINHTTP 選項 \_ 伺服器 \_ SPN \_<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ SPN<br/>**Dword** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 資料流程 \_ 錯誤碼 \_<br/>**Dword** | \- | X | X | \- | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ TCP \_ 快速 \_ 開啟<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
 | WINHTTP \_ 選項 \_ TCP \_ KEEPALIVE<br/>[**tcp \_ keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 版本2004 |
 | WINHTTP \_ 選項 \_ TLS \_ FALSE \_ START<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
+| WINHTTP \_ 選項 \_ TLS \_ 通訊協定不 \_ 安全 \_ 的回復<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ UNLOAD \_ 通知 \_ 事件<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
 | WINHTTP \_ 選項 \_ UNSAFE \_ 標頭 \_ 剖析<br/>**Dword** | \- | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 升級 \_ 至 \_ WEB \_ 通訊端<br/>N/A | \- | X | \- | X | \- |

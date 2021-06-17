@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在檔案上執行 MOF 編譯器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad1605544e05f59670f9e6fd73fcd8c01862b46c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 77f62834944e995c3e7f3763c460d72f9f70aa66
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192080"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230246"
 ---
 # <a name="running-the-mof-compiler-on-a-file"></a>在檔案上執行 MOF 編譯器
 
@@ -22,7 +22,7 @@ ms.locfileid: "104192080"
 
 1.  使用下列語法，從命令列呼叫 MOF 編譯器。
 
-    **Mofcomp.exe** *MOFfile * * *. mof**
+    **Mofcomp.exe** _MOFfile_ ****
 
     MOF 編譯器支援各種不同的參數來控制特殊的處理情況。 所有參數都是選擇性的，且允許任何參數組合。 不過，將某些參數與其他參數搭配使用並不合理。 例如，若要結合 **-class： updateonly** 和 **-class：以** 參數會導致編譯器無法執行任何動作。
 

@@ -1,15 +1,15 @@
 ---
-description: 任何可顯示原始封包的網路封包分析器，都可以用來檢查 HTTP 中繼資料交換要求。 建議使用 Microsoft 網路監視器 3 (Netmon) 。 如需 Netmon 的詳細資訊，請參閱下載 Netmon 和範例 DPWS 篩選器。
+description: 瞭解如何使用直接探索來檢查網路追蹤。 顯示原始封包的網路封包分析器可以檢查 HTTP 中繼資料交換要求。
 ms.assetid: 9b124117-06e7-4637-9863-0f9650861526
 title: 使用導向探索檢查應用程式的網路追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98a424117896c18a5fcf84c883ba824b8223ef01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02d94ea3bc102c57c415be518883296e049490ca
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985102"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262120"
 ---
 # <a name="inspecting-network-traces-for-applications-using-directed-discovery"></a>使用導向探索檢查應用程式的網路追蹤
 

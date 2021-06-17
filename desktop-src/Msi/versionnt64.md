@@ -4,12 +4,12 @@ ms.assetid: 190f8251-a377-4490-9de9-98d149185865
 title: VersionNT64 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3b1b5a26b2ba45b859b6330bf153300e239074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31f6c0f2037891527f17feba92d7e9c8494aa622
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998771"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262070"
 ---
 # <a name="versionnt64-property"></a>VersionNT64 屬性
 
@@ -17,7 +17,10 @@ ms.locfileid: "106998771"
 
 此值為整數： MajorVersion \* 100 + MinorVersion。
 
-基於相容性的理由，如果 [**範本摘要**](template-summary.md) 內容指出封裝適用于32位 Intel 系統，且作業系統是不是 Intel64 或 x64 (的64位架構（例如 ARM64) ），則屬性也是未定義的。
+基於相容性的理由，如果 [**範本摘要**](template-summary.md) 內容指出封裝適用于32位 intel (x86) 系統，且作業系統無法執行64位 intel (x64) 程式碼（例如 ARM Windows 10 ARM64 (上的) ），則屬性也是未定義的。
+
+> [!NOTE]
+> 從 Windows 10 組建21277，Windows Insider Preview 計畫的開發人員通道中的 ARM64 組建支援 x64 應用程式。 在這些 ARM64 組建中，會針對 x86 套件定義 VersionNT64 屬性。
 
 ## <a name="remarks"></a>備註
 

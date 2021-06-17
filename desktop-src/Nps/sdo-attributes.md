@@ -1,16 +1,16 @@
 ---
 title: '網路原則伺服器 (的屬性) '
-description: 屬性
+description: 本文將連結至在 SDO 電腦上操作 RADIUS 字典屬性時所要使用的屬性列舉類型。
 ms.assetid: af7d220d-f920-4480-9cf1-72a2cb542e4e
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb457ff27a3040dbbaa6eda685068872cdb3c318
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a8144334eadb2d1109ded73e94b3506752c7872d
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933312"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261990"
 ---
 # <a name="attributes-network-policy-server"></a>網路原則伺服器 (的屬性) 
 
@@ -31,6 +31,6 @@ ms.locfileid: "103933312"
 -   [**POLICYPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-policyproperties)
 -   [**PROFILEPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-profileproperties)
 
- 
+ 
 
- 
+ 

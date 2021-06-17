@@ -1,6 +1,6 @@
 ---
 title: '具有多個值的屬性 (Windows Media Player SDK) '
-description: 具有多個值的屬性
+description: 瞭解 Windows Media Player SDK 中具有多個值的屬性。 某些媒體專案屬性可以有多個值。
 ms.assetid: 8405481c-47f5-4752-9dab-d3c84711fbb4
 keywords:
 - Windows Media Player，媒體專案的屬性
@@ -16,12 +16,12 @@ keywords:
 - 多個屬性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad93c4025d09a234b1834a32e4ca3789bcaa4a35
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a16baf4bab47dc972ec7b043980dccb0f2aadd57
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383718"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262600"
 ---
 # <a name="attributes-with-multiple-values-windows-media-player-sdk"></a>具有多個值的屬性 (Windows Media Player SDK) 
 

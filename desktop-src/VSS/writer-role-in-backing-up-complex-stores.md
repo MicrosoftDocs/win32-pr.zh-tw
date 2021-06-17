@@ -1,15 +1,15 @@
 ---
-description: 如同 VSS 下的所有重要作業，增量和差異備份都需要在要求者和寫入器之間密切合作。
+description: 瞭解增量和差異備份中的寫入器角色，這需要要求者和寫入器之間的密切合作。
 ms.assetid: 3cf5dd1f-dc58-42bc-925f-fee7d34053c5
 title: 備份複雜存放區的寫入器角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80864256b9a19c25a2f0dce0d0c929ed19fd7269
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30e34952cc4a2184d2f9abcc43283d24f64bdcc3
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113152"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262150"
 ---
 # <a name="writer-role-in-backing-up-complex-stores"></a>備份複雜存放區的寫入器角色
 
@@ -139,7 +139,7 @@ ms.locfileid: "104113152"
 
 ### <a name="backup-by-last-modify-time"></a>上次修改時間的備份
 
-寫入器用來指出哪些檔案已變更的其中一種方式，是使用差異的檔案機制。 寫入器可以指定元件中的某些檔案在特定時間之後已經過修改，因此只能備份。 寫入器會呼叫 [**>ivsscomponent：： AddDifferencedFilesByLastModifyTime**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime) 與檔案規格和上次修改時間。 **>ivsscomponent：： AddDifferencedFilesByLastModifyTime** 通常會在處理 PostSnapshot 事件時呼叫，雖然它可以在處理 PrepareForBackup 事件時呼叫。 然後，要求者必須備份符合指定時間之後變更之檔案規格的所有檔案。 如果寫入器使用備份戳記機制，則會根據備份檔案中先前的備份戳記來決定上次修改時間。 寫入器也可以在上次修改時間傳入零，這表示要求者須負責判斷上次備份的時間，以及自該時間以來變更的檔案。
+寫入器用來指出哪些檔案已變更的其中一種方式，是使用差異的檔案機制。 寫入器可以指定元件中的某些檔案在特定時間之後已經過修改，因此只能備份。 寫入器會呼叫 [**>ivsscomponent：： AddDifferencedFilesByLastModifyTime**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime) 與檔案規格和上次修改時間。 **>Ivsscomponent：： AddDifferencedFilesByLastModifyTime** 通常會在處理 PostSnapshot 事件時呼叫，雖然它可以在處理 PrepareForBackup 事件時呼叫。 然後，要求者必須備份符合指定時間之後變更之檔案規格的所有檔案。 如果寫入器使用備份戳記機制，則會根據備份檔案中先前的備份戳記來決定上次修改時間。 寫入器也可以在上次修改時間傳入零，這表示要求者須負責判斷上次備份的時間，以及自該時間以來變更的檔案。
 
 ### <a name="partial-file-backup"></a>部分檔案備份
 
@@ -147,7 +147,7 @@ ms.locfileid: "104113152"
 
 ### <a name="file-specification-rules"></a>檔案規格規則
 
-[**>ivsscomponent：： AddDifferencedFilesByLastModifyTime**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime) 或 [**>ivsscomponent：： AddPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile) 可以用來修改在識別事件期間指定的檔案規格，或將全新的檔案新增至規格。 如果寫入器正在使用 **>ivsscomponent：： AddDifferencedFilesByLastModifyTime** 來修改識別事件期間所設定的資訊，則檔規格必須完全符合目前元件中的其中一個檔案規格。 檔案規格不能部分重迭目前元件中的檔案，而且它不能與任何其他元件中的檔案相符。 不過，使用 **>ivsscomponent：： AddPartialFile** 指定的檔案可以部分重迭另一個檔案規格。 **>ivsscomponent：： AddDifferencedFilesByLastModifyTime** 或 **>ivsscomponent：： AddPartialFile** 設定的資訊會覆寫先前使用 [**IVssCreateWriterMetadata**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata)介面來回應識別事件的資訊集。
+[**>Ivsscomponent：： AddDifferencedFilesByLastModifyTime**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-adddifferencedfilesbylastmodifytime) 或 [**>ivsscomponent：： AddPartialFile**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-addpartialfile) 可以用來修改在識別事件期間指定的檔案規格，或將全新的檔案新增至規格。 如果寫入器正在使用 **>ivsscomponent：： AddDifferencedFilesByLastModifyTime** 來修改識別事件期間所設定的資訊，則檔規格必須完全符合目前元件中的其中一個檔案規格。 檔案規格不能部分重迭目前元件中的檔案，而且它不能與任何其他元件中的檔案相符。 不過，使用 **>ivsscomponent：： AddPartialFile** 指定的檔案可以部分重迭另一個檔案規格。 **>Ivsscomponent：： AddDifferencedFilesByLastModifyTime** 或 **>ivsscomponent：： AddPartialFile** 設定的資訊會覆寫先前使用 [**IVssCreateWriterMetadata**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscreatewritermetadata)介面來回應識別事件的資訊集。
 
 一般檔案規格可以有替代位置值 (由 [**IVssCreateWriterMetadata：：) AddFilesToFileGroup**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscreatewritermetadata-addfilestofilegroup)的 *WszAlternateLocation* 參數設定，這表示在備份時取得檔案的替代位置。 如果透過差異檔案或部分檔案機制設定的檔案規格符合具有替代位置的現有檔案規格，則備份應用程式將會從這個替代位置取得資料。
 
@@ -204,7 +204,7 @@ BackupShutdown 事件一律會在終止備份之後傳送。 如果在執行備�
 
 ## <a name="restore-strategies"></a>還原策略
 
-在還原時，寫入器的基本工作是確認還原可能會在處理 PreRestore 事件，以及在處理 PostRestore 事件時發生還原。 更複雜的存放區也會在 PostRestore 處理常式中執行復原程式。 如果還原是增量或差異還原的一部分，寫入器通常會想要延遲此復原程式，直到完成所有增量或差異還原為止。 [**>ivsscomponent：： GetAdditionalRestores**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getadditionalrestores) 會指出這是否為此元件的最終還原，或是否有更多的還原。 如果 **>ivsscomponent：： GetAdditionalRestores** 傳回 **true**，寫入器不應該在該元件上執行其復原程式。
+在還原時，寫入器的基本工作是確認還原可能會在處理 PreRestore 事件，以及在處理 PostRestore 事件時發生還原。 更複雜的存放區也會在 PostRestore 處理常式中執行復原程式。 如果還原是增量或差異還原的一部分，寫入器通常會想要延遲此復原程式，直到完成所有增量或差異還原為止。 [**>Ivsscomponent：： GetAdditionalRestores**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getadditionalrestores) 會指出這是否為此元件的最終還原，或是否有更多的還原。 如果 **>ivsscomponent：： GetAdditionalRestores** 傳回 **true**，寫入器不應該在該元件上執行其復原程式。
 
 ## <a name="new-targets"></a>新目標
 

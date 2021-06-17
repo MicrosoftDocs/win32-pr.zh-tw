@@ -5,12 +5,12 @@ title: 應用程式資訊清單
 ms.topic: article
 ms.date: 10/08/2020
 ms.custom: 19H1
-ms.openlocfilehash: cb065bc4d6d29f4142c23cdd91c83769e2fb9b87
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 2fb7297310102134dfcacf0e5f0d907fbf3a3e0b
+ms.sourcegitcommit: 7eadd92b1da5eb4eab7d516a5a768e7f7fc02d4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "106986423"
+ms.lasthandoff: 06/16/2021
+ms.locfileid: "112230239"
 ---
 # <a name="application-manifests"></a>應用程式資訊清單
 
@@ -22,39 +22,39 @@ ms.locfileid: "106986423"
 
 | 項目                               | 屬性                | 必要 |
 |---------------------------------------|---------------------------|----------|
-| **裝配**                          |                           | Yes      |
-|                                       | **manifestVersion**       | Yes      |
-| **noInherit**                         |                           | No       |
-| **assemblyIdentity**                  |                           | Yes      |
-|                                       | **type**                  | Yes      |
-|                                       | **name**                  | Yes      |
-|                                       | **language**              | No       |
-|                                       | **processorArchitecture** | No       |
-|                                       | **version**               | Yes      |
-|                                       | **publicKeyToken**        | No       |
-| **相容性**                     |                           | No       |
-| **應用程式**                       |                           | No       |
-| **supportedOS**                       | **識別碼**                    | No       |
-| **maxversiontested**                  | **識別碼**                    | No       |
-| **依賴**                        |                           | No       |
-| **y**                 |                           | No       |
-| **file**                              |                           | No       |
-|                                       | **name**                  | No       |
-|                                       | **hashalg**               | No       |
-|                                       | **hash**                  | No       |
-| **activeCodePage**                    |                           | No       |
-| **autoElevate**                       |                           | No       |
-| **disableTheming**                    |                           | No       |
-| **disableWindowFiltering**            |                           | No       |
-| **DPIAware**                          |                           | No       |
-| **DPIAwareness**                      |                           | No       |
-| **gdiScaling**                        |                           | No       |
-| **highResolutionScrollingAware**      |                           | No       |
-| **longPathAware**                     |                           | No       |
-| **printerDriverIsolation**            |                           | No       |
-| **ultraHighResolutionScrollingAware** |                           | No       |
-| **msix**                              |                           | No       |
-| **heapType**                          |                           | No       |
+| **裝配**                          |                           | 是      |
+|                                       | **manifestVersion**       | 是      |
+| **noInherit**                         |                           | 否       |
+| **assemblyIdentity**                  |                           | 是      |
+|                                       | **type**                  | 是      |
+|                                       | **name**                  | 是      |
+|                                       | **language**              | 否       |
+|                                       | **processorArchitecture** | 否       |
+|                                       | **version**               | 是      |
+|                                       | **publicKeyToken**        | 否       |
+| **相容性**                     |                           | 否       |
+| **應用程式**                       |                           | 否       |
+| **supportedOS**                       | **識別碼**                    | 否       |
+| **maxversiontested**                  | **識別碼**                    | 否       |
+| **依賴**                        |                           | 否       |
+| **y**                 |                           | 否       |
+| **file**                              |                           | 否       |
+|                                       | **name**                  | 否       |
+|                                       | **hashalg**               | 否       |
+|                                       | **hash**                  | 否       |
+| **activeCodePage**                    |                           | 否       |
+| **autoElevate**                       |                           | 否       |
+| **disableTheming**                    |                           | 否       |
+| **disableWindowFiltering**            |                           | 否       |
+| **DPIAware**                          |                           | 否       |
+| **DPIAwareness**                      |                           | 否       |
+| **gdiScaling**                        |                           | 否       |
+| **highResolutionScrollingAware**      |                           | 否       |
+| **longPathAware**                     |                           | 否       |
+| **printerDriverIsolation**            |                           | 否       |
+| **ultraHighResolutionScrollingAware** |                           | 否       |
+| **msix**                              |                           | 否       |
+| **heapType**                          |                           | 否       |
 
 ## <a name="file-location"></a>檔案位置
 
@@ -146,7 +146,7 @@ ms.locfileid: "106986423"
 
 ### <a name="maxversiontested"></a>maxversiontested
 
-**Maxversiontested** 元素會指定測試應用程式所針對的 Windows 最大版本。 這是為了讓使用 [XAML 孤島](/windows/apps/desktop/modernize/xaml-islands) 且未部署在 MSIX 套件中的桌面應用程式使用。 在 Windows 10、1903版和更新版本中支援這個元素。
+**Maxversiontested** 元素會指定從應用程式所支援的最低 OS 版本開始，開始測試應用程式的 Windows 版本，最高可達最高版本。 您可以在 [這裡](https://developer.microsoft.com/windows/downloads/sdk-archive/)找到完整的版本集合。 這是為了讓使用 [XAML 孤島](/windows/apps/desktop/modernize/xaml-islands) 且未部署在 MSIX 套件中的桌面應用程式使用。 在 Windows 10、1903版和更新版本中支援這個元素。
 
 **Maxversiontested** 元素具有下列屬性。 它沒有子項目。
 
@@ -244,7 +244,7 @@ ms.locfileid: "106986423"
 
 下表描述根據 **DPIAware** 專案是否存在，以及它所包含的文字所產生的行為。 元素內的文字不區分大小寫。
 
-| **DpiAware** 元素的狀態 | Description     |
+| **DpiAware** 元素的狀態 | 描述     |
 |-----------------------------------|---------|
 | Absent                            | 目前的進程預設為 DPI 感知。 您可以藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函數，以程式設計方式變更此設定。                                                                                                                                                            |
 | 包含 "true"                   | 目前的進程是系統 DPI 感知。                                                                                                                                                                                                                                                                                                                                                          |
@@ -281,7 +281,7 @@ ms.locfileid: "106986423"
 
 下表描述根據 **DPIAwareness** 元素是否存在，以及其在最左邊辨識的專案中包含的文字所產生的行為。 元素內的文字不區分大小寫。
 
-| **DPIAwareness** 元素狀態：        | Description                          |
+| **DPIAwareness** 元素狀態：        | 描述                          |
 |-----------------------------------------|-------------------------------------------|
 | 元素不存在                       | **DpiAware** 元素會指定進程是否為 DPI 感知。                                                                                                                                                                   |
 | 未包含任何可識別的專案            | 目前的進程預設為 DPI 感知。 您可以藉由呼叫 [**SetProcessDpiAwareness**](/windows/desktop/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness) 或 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware) 函數，以程式設計方式變更此設定。 |

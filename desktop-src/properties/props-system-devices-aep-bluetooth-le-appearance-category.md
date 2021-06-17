@@ -1,15 +1,15 @@
 ---
-description: 藍牙 LE 裝置外觀。
+description: 深入瞭解藍牙 LE 裝置的外觀。 這個參考頁面會說明 Aep 的內容（.）。
 ms.assetid: f4c65c7b-9896-4b6a-9ee7-6e4869f56b39
 title: Aep...... 類別目錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e812d38a119fdb1fa2e034e04dfc25cc6f7dc189
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 500688e71ece8f9e9e06b5f0aaef9e4d62dce53e
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849090"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262170"
 ---
 # <a name="systemdevicesaepbluetoothleappearancecategory"></a>Aep...... 類別目錄
 

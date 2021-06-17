@@ -1,15 +1,15 @@
 ---
-description: 加密套件只能針對支援的 TLS 版本進行協商。
+description: 瞭解 Windows 8 中的 TLS 加密套件。 加密套件只能針對支援的 TLS 版本進行協商。
 ms.assetid: F37C3596-E273-4144-87B9-D589EBB82C0B
 title: Windows 8 中的 TLS 加密套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8613c018857525f7877e883f21b1eea7bd53e55a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a204fabb91ddafc6b4d55c10b58503b4b81ca45
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851332"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262350"
 ---
 # <a name="tls-cipher-suites-in-windows-8"></a>Windows 8 中的 TLS 加密套件
 
@@ -33,44 +33,44 @@ FIPS 合規性已變得更複雜，因為在此資料表的舊版中，讓 FIPS 
 
 | 加密套件字串                                                                                            | .SCH 允許 \_ 使用 \_ 強式 \_ 加密 | TLS/SSL 通訊協定版本                     |
 |----------------------------------------------------------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P256 的 TLS >ecdhe RSA<br/>                                                  | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384 的 TLS >ecdhe RSA<br/>                                                  | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256 的 TLS >ecdhe RSA<br/>                                                  | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384 的 TLS >ecdhe RSA<br/>                                                  | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe RSA<br/>                                                     | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe RSA<br/>                                                     | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe RSA<br/>                                                     | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe RSA<br/>                                                     | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 的 TLS DHE RSA<br/>                                                          | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 的 TLS DHE RSA<br/>                                                          | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 的 TLS RSA<br/>                                                               | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 的 TLS RSA<br/>                                                               | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA256 的 TLS RSA<br/>                                                               | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 的 TLS RSA<br/>                                                               | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA 的 TLS RSA<br/>                                                                  | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA 的 TLS RSA<br/>                                                                  | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P256 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe ECDSA<br/>                                                   | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe ECDSA<br/>                                                   | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe ECDSA<br/>                                                   | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe ECDSA<br/>                                                   | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA256 的 TLS DHE DSS<br/>                                                          | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 的 TLS DHE DSS<br/>                                                          | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                             | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                             | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ 具有 \_ 3des \_ EDE \_ CBC \_ SHA 的 TLS RSA<br/>                                                                 | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 具有 \_ 3des \_ EDE \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                            | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ 使用 \_ RC4 \_ 128 SHA 的 \_ TLS RSA<br/>                                                                       | No<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ 使用 \_ RC4 \_ 128 MD5 的 \_ TLS RSA<br/>                                                                       | No<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ 使用 \_ Null SHA256 的 \_ TLS RSA <br/> 只有在應用程式明確要求時才會使用。<br/>            | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ 使用 \_ Null SHA 的 \_ TLS RSA <br/> 只有在應用程式明確要求時才會使用。<br/>               | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ \_ 使用 MD5 的 SSL CK RC4 128 \_ <br/> 只有在應用程式明確要求時才會使用。<br/>            | No<br/>                       | SSL 2.0<br/>                            |
-| \_ \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK DES 192 EDE3 CBC <br/> 只有在應用程式明確要求時才會使用。<br/> | Yes<br/>                      | SSL 2.0<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P256 的 TLS >ecdhe RSA<br/>                                                  | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384 的 TLS >ecdhe RSA<br/>                                                  | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256 的 TLS >ecdhe RSA<br/>                                                  | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384 的 TLS >ecdhe RSA<br/>                                                  | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe RSA<br/>                                                     | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe RSA<br/>                                                     | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe RSA<br/>                                                     | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe RSA<br/>                                                     | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 的 TLS DHE RSA<br/>                                                          | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 的 TLS DHE RSA<br/>                                                          | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 的 TLS RSA<br/>                                                               | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 的 TLS RSA<br/>                                                               | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA256 的 TLS RSA<br/>                                                               | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 的 TLS RSA<br/>                                                               | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA 的 TLS RSA<br/>                                                                  | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA 的 TLS RSA<br/>                                                                  | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P256 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P256 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P384 的 TLS >ecdhe ECDSA<br/>                                                | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe ECDSA<br/>                                                   | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe ECDSA<br/>                                                   | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P256 的 TLS >ecdhe ECDSA<br/>                                                   | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P384 的 TLS >ecdhe ECDSA<br/>                                                   | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA256 的 TLS DHE DSS<br/>                                                          | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 的 TLS DHE DSS<br/>                                                          | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                             | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                             | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ 具有 \_ 3des \_ EDE \_ CBC \_ SHA 的 TLS RSA<br/>                                                                 | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 具有 \_ 3des \_ EDE \_ CBC \_ SHA 的 TLS DHE DSS<br/>                                                            | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ 使用 \_ RC4 \_ 128 SHA 的 \_ TLS RSA<br/>                                                                       | 否<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ 使用 \_ RC4 \_ 128 MD5 的 \_ TLS RSA<br/>                                                                       | 否<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ 使用 \_ Null SHA256 的 \_ TLS RSA <br/> 只有在應用程式明確要求時才會使用。<br/>            | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ 使用 \_ Null SHA 的 \_ TLS RSA <br/> 只有在應用程式明確要求時才會使用。<br/>               | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ \_ 使用 MD5 的 SSL CK RC4 128 \_ <br/> 只有在應用程式明確要求時才會使用。<br/>            | 否<br/>                       | SSL 2.0<br/>                            |
+| \_ \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK DES 192 EDE3 CBC <br/> 只有在應用程式明確要求時才會使用。<br/> | 是<br/>                      | SSL 2.0<br/>                            |
 
 
 
@@ -82,25 +82,25 @@ Microsoft Schannel 提供者支援下列加密套件，但預設不會啟用：
 
 | 加密套件字串                                             | .SCH 允許 \_ 使用 \_ 強式 \_ 加密 | TLS/SSL 通訊協定版本                     |
 |-----------------------------------------------------------------|-------------------------------------|-----------------------------------------------|
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521 的 TLS >ecdhe RSA<br/>   | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521 的 TLS >ecdhe RSA<br/>   | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe RSA<br/>      | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe RSA<br/>      | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 \_ P521 的 TLS >ecdhe ECDSA<br/> | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P521 的 TLS >ecdhe ECDSA<br/> | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521 的 TLS >ecdhe ECDSA<br/> | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521 的 TLS >ecdhe ECDSA<br/> | Yes<br/>                      | TLS 1.2<br/>                            |
-| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe ECDSA<br/>    | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe ECDSA<br/>    | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
-| \_ \_ 使用 \_ DES \_ CBC SHA 的 \_ TLS RSA<br/>                        | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ 使用 \_ RC4 \_ 56 \_ SHA 的 TLS RSA EXPORT1024<br/>             | No<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ 使用 \_ DES \_ CBC \_ SHA 的 TLS RSA EXPORT1024<br/>            | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ 使用 \_ RC4 \_ 40 \_ MD5 的 TLS RSA 匯出<br/>                 | No<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ 使用 \_ Null MD5 的 \_ TLS RSA<br/>                            | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS<br/>                   | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS EXPORT1024<br/>       | Yes<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
-| \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK DES 64 CBC<br/>                     | Yes<br/>                      | SSL 2.0<br/>                            |
-| \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK RC4 128 EXPORT40<br/>               | No<br/>                       | SSL 2.0<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521 的 TLS >ecdhe RSA<br/>   | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521 的 TLS >ecdhe RSA<br/>   | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe RSA<br/>      | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe RSA<br/>      | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ GCM \_ SHA384 \_ P521 的 TLS >ecdhe ECDSA<br/> | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ GCM \_ SHA256 \_ P521 的 TLS >ecdhe ECDSA<br/> | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA384 \_ P521 的 TLS >ecdhe ECDSA<br/> | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA256 \_ P521 的 TLS >ecdhe ECDSA<br/> | 是<br/>                      | TLS 1.2<br/>                            |
+| \_ \_ \_ 使用 \_ AES \_ 256 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe ECDSA<br/>    | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ \_ 使用 \_ AES \_ 128 \_ CBC \_ SHA \_ P521 的 TLS >ecdhe ECDSA<br/>    | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1。0<br/>          |
+| \_ \_ 使用 \_ DES \_ CBC SHA 的 \_ TLS RSA<br/>                        | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ 使用 \_ RC4 \_ 56 \_ SHA 的 TLS RSA EXPORT1024<br/>             | 否<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ 使用 \_ DES \_ CBC \_ SHA 的 TLS RSA EXPORT1024<br/>            | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ 使用 \_ RC4 \_ 40 \_ MD5 的 TLS RSA 匯出<br/>                 | 否<br/>                       | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ 使用 \_ Null MD5 的 \_ TLS RSA<br/>                            | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS<br/>                   | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS EXPORT1024<br/>       | 是<br/>                      | TLS 1.2、TLS 1.1、TLS 1.0、SSL 3。0<br/> |
+| \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK DES 64 CBC<br/>                     | 是<br/>                      | SSL 2.0<br/>                            |
+| \_ \_ \_ \_ \_ 使用 \_ MD5 的 SSL CK RC4 128 EXPORT40<br/>               | 否<br/>                       | SSL 2.0<br/>                            |
 
 
 

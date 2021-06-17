@@ -1,15 +1,15 @@
 ---
-description: Alpha 混色用來顯示具有透明或半透明圖元的影像。
+description: 請參閱 Alpha 混色的範例。 Alpha 混色用來顯示具有透明或半透明圖元的影像。
 ms.assetid: e08c7ceb-6e9c-4a3e-8bb6-5487e512a801
 title: " (Direct3D 9) 的 Alpha 範例"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e58319dbbdf459acfd9eccbe0574f7ccdb395e4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47a7918ce0257962238d929d69d240a1feeb513e
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386003"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262080"
 ---
 # <a name="alpha-examples-direct3d-9"></a> (Direct3D 9) 的 Alpha 範例
 

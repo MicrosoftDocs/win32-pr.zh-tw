@@ -1,6 +1,6 @@
 ---
 title: " (Mobile) 的藝術檔案格式"
-description: 美工檔案格式
+description: 深入瞭解 Mobile 為面板辨識的藝術檔案格式。 這些包括點陣圖、GIF、JPEG 和 PNG。
 ms.assetid: c20a8eeb-6a13-4631-bb20-df03c4a4a1d2
 keywords:
 - Windows Media Player 行動外觀、美工檔案
@@ -12,16 +12,16 @@ keywords:
 - 面板封面的檔案格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bacb14f38ed11e8811821ed5d3a5d7cc4bcf121
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7b36f1a6679772e45aae71dc66509176121995d0
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685420"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262220"
 ---
 # <a name="art-file-formats-mobile"></a> (Mobile) 的藝術檔案格式
 
-面板的美工圖案可以是點陣圖 ( .bmp) 或 GIF ( .gif) 影像。 也支援 JPEG ( .jpg) 和 PNG ( .png) 影像。 請勿在您的藝術檔案名中包含任何空格或逗號。
+面板的美工圖案可以是點陣圖 (.bmp) 或 GIF (.gif) 影像。 也支援) 影像的 JPEG (.jpg) 和 PNG (.png。 請勿在您的藝術檔案名中包含任何空格或逗號。
 
 如果您要將檔案同步至可攜式裝置，請確定同步處理不會變更副檔名或將影像檔案轉換成另一種格式。
 

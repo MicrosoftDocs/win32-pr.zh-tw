@@ -1,15 +1,15 @@
 ---
-description: 任何可顯示原始封包的網路封包分析器，都可以用來檢查 HTTP 中繼資料交換要求。 建議使用 Microsoft 網路監視器 3 (Netmon) 。 如需 Netmon 的詳細資訊，請參閱下載 Netmon 和範例 DPWS 篩選器。
+description: 瞭解如何檢查 HTTP 中繼資料交換的網路追蹤。 使用可顯示原始封包的網路封包分析器。
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
 title: 檢查 HTTP 中繼資料交換的網路追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c9993c542789b7f11eb35344dd6b0b03bfbafc3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192173"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262680"
 ---
 # <a name="inspecting-network-traces-for-http-metadata-exchange"></a>檢查 HTTP 中繼資料交換的網路追蹤
 

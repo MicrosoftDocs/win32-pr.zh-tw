@@ -1,15 +1,15 @@
 ---
 title: 轉譯 (Direct3D 11) 的效果
-description: 您可以使用效果來儲存資訊，或使用一組狀態來呈現。
+description: 瞭解如何呈現 Direct3D 11 的效果。 您可以使用效果來儲存資訊，或使用一組狀態來呈現。
 ms.assetid: 7af239de-812d-4295-b599-b9deb371b01b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c99aef9f83cdf286e86ca843e57315d9ab88619
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7def8f7bbfb9f2c7a5102eb8e02fc848155e4bde
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375797"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112261830"
 ---
 # <a name="rendering-an-effect-direct3d-11"></a>轉譯 (Direct3D 11) 的效果
 

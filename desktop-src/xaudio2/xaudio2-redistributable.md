@@ -4,16 +4,18 @@ ms.assetid: ''
 title: XAudio 2.9 的可轉散發版本開發人員指南
 ms.topic: article
 ms.date: 10/17/2019
-ms.openlocfilehash: 2b83f2811ada9a41591b4b556a34aa585002c83e
-ms.sourcegitcommit: b61ef7cdd575b086e96db4d4cf37b9fbeb388a47
+ms.openlocfilehash: a73ebd01d599446dc96e1e6735d8af572203a23b
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/17/2021
-ms.locfileid: "107583819"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262590"
 ---
 # <a name="developer-guide-for-redistributable-version-of-xaudio-29"></a>XAudio 2.9 的可轉散發版本開發人員指南
 
 XAudio 2.9 的版本是以 [NuGet 套件](/nuget/what-is-nuget)的形式提供。 開發人員可以將此版本的 XAudio 2.9 與其應用程式一起轉散發。 這可讓應用程式在較舊版本的 Windows 上使用 XAudio 2.9，這些版本不包含 XAudio 2.9 作為作業系統映射的一部分。 因為 XAudio 2.7 自2010起尚未更新，所以最好使用此可轉散發套件，因為從 DirectX SDK 轉散發 XAudio 2.7。
+
+請務必流覽 [Directx 登陸頁面](https://devblogs.microsoft.com/directx/landing-page/) ，以取得更多適用于 directx 開發人員的資源。
 
 ## <a name="supported-platforms"></a>支援的平台
 
@@ -27,11 +29,11 @@ DLL 並非適用于 UWP 應用程式。 UWP 應用程式應該使用屬於 \_ �
 
 ## <a name="installing-the-nuget-package"></a>安裝 NuGet 封裝
 
-安裝 NuGet 套件最簡單的方式，就是在 Microsoft Visual Studio 中使用 [nuget 封裝管理員](/nuget/consume-packages/install-use-packages-visual-studio) 。 如果您這樣做，您的 Visual Studio 專案檔將會自動更新，以包含 *XAudio2*。 *.Targets* 檔案會將包含 XAudio2 標頭檔的 include 資料夾，新增至專案包含路徑的集合。 *.Targets* 檔案也會建立您的。DLL 或。EXE 與 XAUDIO2REDIST 連結。LIB 和 XAPOBASEREDIST。自由。
+安裝 NuGet 套件最簡單的方式，就是在 Microsoft Visual Studio 中使用 [nuget 封裝管理員](/nuget/consume-packages/install-use-packages-visual-studio) 。 如果您這樣做，您的 Visual Studio 專案檔將會自動更新，以包含 *XAudio2*。 *.Targets* 檔案會將包含 XAudio2 標頭檔的 include 資料夾，新增至專案包含路徑的集合。 *.Targets* 檔案也會讓您的 .DLL 或 .EXE 連結 XAUDIO2REDIST。LIB 和 XAPOBASEREDIST。自由。
 
 程式庫 XAPOBASEREDIST。只有當您想要 impement 自訂 XAudio 處理物件 (XAPO) ，而且如果未使用，也可以將它從 *XAudio2* 的可轉散發套件中移除時，才需要 LIB。
 
-您也可以使用其他工具來解壓縮 NuGet 套件的內容，甚至將副檔名重新命名為 .zip，並使用任何 ZIP 解壓縮程式工具將檔案解壓縮。
+您也可以使用其他工具來解壓縮 NuGet 套件的內容，甚至重新命名副檔名以 .zip，並使用任何 ZIP 解壓縮工具工具解壓縮檔案。
 
 > 另外還有一個 ``xaudio2redist`` 可供 [VC + + 封裝管理員](https://github.com/microsoft/vcpkg)使用的埠。
 

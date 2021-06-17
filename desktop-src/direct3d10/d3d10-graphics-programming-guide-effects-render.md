@@ -1,15 +1,15 @@
 ---
-description: 您可以使用效果來儲存資訊，或使用一組狀態來呈現。
+description: 瞭解如何轉譯 Direct3D 10 的效果。 您可以使用效果來儲存資訊，或使用一組狀態來呈現。
 ms.assetid: c5654335-ad80-4a5b-bf1f-5f32b2cc8ea2
 title: 轉譯 (Direct3D 10) 的效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfba9432412846e2dc634d6ab68be999b504e06f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 79db595585c6587648fba12afa5fbb22ff33e845
+ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187652"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "112262570"
 ---
 # <a name="rendering-an-effect-direct3d-10"></a>轉譯 (Direct3D 10) 的效果
 
