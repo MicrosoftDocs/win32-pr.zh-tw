@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: 此範例示範如何使用服務主機，透過 HTTP （具有 SSL 傳輸安全性和 HTTP 標頭基本驗證）來裝載計算機服務。
+description: 請參閱 Windows Web 服務 API (WWSAPI) c + + 範例，其中包含基本的 over SSL 服務的 HTTP 計算機。
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample 原生 Web 服務
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18517b52bf0a623877dc2d04b28daa177f1a9e81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969881"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404151"
 ---
-# <a name="httpcalculatorwithbasicoversslserviceexample"></a><span data-ttu-id="0f4a7-106">HttpCalculatorWithBasicOverSslServiceExample</span><span class="sxs-lookup"><span data-stu-id="0f4a7-106">HttpCalculatorWithBasicOverSslServiceExample</span></span>
+# <a name="httpcalculatorwithbasicoversslserviceexample"></a><span data-ttu-id="138cd-106">HttpCalculatorWithBasicOverSslServiceExample</span><span class="sxs-lookup"><span data-stu-id="138cd-106">HttpCalculatorWithBasicOverSslServiceExample</span></span>
 
-<span data-ttu-id="0f4a7-107">此範例示範如何使用服務主機，透過 HTTP （具有 SSL 傳輸安全性和 HTTP 標頭基本驗證）來裝載計算機服務。</span><span class="sxs-lookup"><span data-stu-id="0f4a7-107">This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.</span></span> <span data-ttu-id="0f4a7-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="0f4a7-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="0f4a7-109">用戶端驗證是透過使用基本配置的 HTTP 標頭中提供的使用者名稱/密碼組來提供。</span><span class="sxs-lookup"><span data-stu-id="0f4a7-109">Client authentication is provided by a username/password pair supplied in HTTP headers using the basic scheme.</span></span>
+<span data-ttu-id="138cd-107">此範例示範如何使用服務主機，透過 HTTP （具有 SSL 傳輸安全性和 HTTP 標頭基本驗證）來裝載計算機服務。</span><span class="sxs-lookup"><span data-stu-id="138cd-107">This example shows how to use service host for hosting a calculator service over HTTP, with SSL transport security and HTTP header basic authentication.</span></span> <span data-ttu-id="138cd-108">在此設定中，傳輸連線會受到 SSL (簽署、加密) 的 SSL，也提供伺服器驗證。</span><span class="sxs-lookup"><span data-stu-id="138cd-108">In this setup, the transport connection is protected (signed, encrypted) by SSL which also provides server authentication.</span></span> <span data-ttu-id="138cd-109">用戶端驗證是透過使用基本配置的 HTTP 標頭中提供的使用者名稱/密碼組來提供。</span><span class="sxs-lookup"><span data-stu-id="138cd-109">Client authentication is provided by a username/password pair supplied in HTTP headers using the basic scheme.</span></span>
 
--   [<span data-ttu-id="0f4a7-110">HttpCalculatorWithBasicOverSslService .cpp</span><span class="sxs-lookup"><span data-stu-id="0f4a7-110">HttpCalculatorWithBasicOverSslService.cpp</span></span>](#httpcalculatorwithbasicoversslservicecpp)
--   [<span data-ttu-id="0f4a7-111">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="0f4a7-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
--   [<span data-ttu-id="0f4a7-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="0f4a7-112">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="138cd-110">HttpCalculatorWithBasicOverSslService .cpp</span><span class="sxs-lookup"><span data-stu-id="138cd-110">HttpCalculatorWithBasicOverSslService.cpp</span></span>](#httpcalculatorwithbasicoversslservicecpp)
+-   [<span data-ttu-id="138cd-111">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="138cd-111">CalculatorService.wsdl</span></span>](#calculatorservicewsdl)
+-   [<span data-ttu-id="138cd-112">Makefile</span><span class="sxs-lookup"><span data-stu-id="138cd-112">Makefile</span></span>](#makefile)
 
-## <a name="httpcalculatorwithbasicoversslservicecpp"></a><span data-ttu-id="0f4a7-113">HttpCalculatorWithBasicOverSslService .cpp</span><span class="sxs-lookup"><span data-stu-id="0f4a7-113">HttpCalculatorWithBasicOverSslService.cpp</span></span>
+## <a name="httpcalculatorwithbasicoversslservicecpp"></a><span data-ttu-id="138cd-113">HttpCalculatorWithBasicOverSslService .cpp</span><span class="sxs-lookup"><span data-stu-id="138cd-113">HttpCalculatorWithBasicOverSslService.cpp</span></span>
 
 
 ```C++
@@ -282,7 +282,7 @@ Exit:
 
 
 
-## <a name="calculatorservicewsdl"></a><span data-ttu-id="0f4a7-114">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="0f4a7-114">CalculatorService.wsdl</span></span>
+## <a name="calculatorservicewsdl"></a><span data-ttu-id="138cd-114">CalculatorService .wsdl</span><span class="sxs-lookup"><span data-stu-id="138cd-114">CalculatorService.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -379,7 +379,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="0f4a7-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="0f4a7-115">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="138cd-115">Makefile</span><span class="sxs-lookup"><span data-stu-id="138cd-115">Makefile</span></span>
 
 ``` syntax
 !include <Win32.Mak>
@@ -407,9 +407,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 
