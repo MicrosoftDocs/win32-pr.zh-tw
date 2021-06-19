@@ -1,26 +1,26 @@
 ---
-description: 下列語法說明如何建立封包。
+description: 查看示範如何使用封包 API 建立封包的程式碼範例。 若要編譯，必須定義回呼函數。
 ms.assetid: a16c332d-5afc-46ad-992b-324ed5e70683
 title: 建立封包
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b54df5e5373de82e7de6cc194d3e16e6917bb62
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7d1d746a61f09237d08ade349ea33b4ec8146913
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187640"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396603"
 ---
-# <a name="creating-a-cabinet"></a><span data-ttu-id="1be9a-103">建立封包</span><span class="sxs-lookup"><span data-stu-id="1be9a-103">Creating a Cabinet</span></span>
+# <a name="creating-a-cabinet"></a><span data-ttu-id="e0589-104">建立封包</span><span class="sxs-lookup"><span data-stu-id="e0589-104">Creating a Cabinet</span></span>
 
-<span data-ttu-id="1be9a-104">下列語法說明如何建立封包。</span><span class="sxs-lookup"><span data-stu-id="1be9a-104">The following syntax illustrates the creation of a cabinet.</span></span>
+<span data-ttu-id="e0589-105">下列語法說明如何建立封包。</span><span class="sxs-lookup"><span data-stu-id="e0589-105">The following syntax illustrates the creation of a cabinet.</span></span>
 
 > [!Note]  
-> <span data-ttu-id="1be9a-105">此程式碼僅供說明之用。</span><span class="sxs-lookup"><span data-stu-id="1be9a-105">This code is for illustrative purposes only.</span></span> <span data-ttu-id="1be9a-106">若要編譯，必須定義回呼函數。</span><span class="sxs-lookup"><span data-stu-id="1be9a-106">To compile, the callback functions must be defined.</span></span>
+> <span data-ttu-id="e0589-106">此程式碼僅供說明之用。</span><span class="sxs-lookup"><span data-stu-id="e0589-106">This code is for illustrative purposes only.</span></span> <span data-ttu-id="e0589-107">若要編譯，必須定義回呼函數。</span><span class="sxs-lookup"><span data-stu-id="e0589-107">To compile, the callback functions must be defined.</span></span>
 
  
 
-## <a name="example"></a><span data-ttu-id="1be9a-107">範例</span><span class="sxs-lookup"><span data-stu-id="1be9a-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e0589-108">範例</span><span class="sxs-lookup"><span data-stu-id="e0589-108">Example</span></span>
 
 
 ```C++
@@ -245,26 +245,26 @@ LPCSTR FCIErrorToString(FCIERROR err)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="1be9a-108">相關主題</span><span class="sxs-lookup"><span data-stu-id="1be9a-108">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="e0589-109">相關主題</span><span class="sxs-lookup"><span data-stu-id="e0589-109">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="1be9a-109">**FCICreate**</span><span class="sxs-lookup"><span data-stu-id="1be9a-109">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
+[<span data-ttu-id="e0589-110">**FCICreate**</span><span class="sxs-lookup"><span data-stu-id="e0589-110">**FCICreate**</span></span>](/windows/desktop/api/Fci/nf-fci-fcicreate)
 </dt> <dt>
 
-[<span data-ttu-id="1be9a-110">**FCIAddFile**</span><span class="sxs-lookup"><span data-stu-id="1be9a-110">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
+[<span data-ttu-id="e0589-111">**FCIAddFile**</span><span class="sxs-lookup"><span data-stu-id="e0589-111">**FCIAddFile**</span></span>](/windows/desktop/api/Fci/nf-fci-fciaddfile)
 </dt> <dt>
 
-[<span data-ttu-id="1be9a-111">**FCIFlushFolder**</span><span class="sxs-lookup"><span data-stu-id="1be9a-111">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
+[<span data-ttu-id="e0589-112">**FCIFlushFolder**</span><span class="sxs-lookup"><span data-stu-id="e0589-112">**FCIFlushFolder**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushfolder)
 </dt> <dt>
 
-[<span data-ttu-id="1be9a-112">**FCIFlushCabinet**</span><span class="sxs-lookup"><span data-stu-id="1be9a-112">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
+[<span data-ttu-id="e0589-113">**FCIFlushCabinet**</span><span class="sxs-lookup"><span data-stu-id="e0589-113">**FCIFlushCabinet**</span></span>](/windows/desktop/api/Fci/nf-fci-fciflushcabinet)
 </dt> <dt>
 
-[<span data-ttu-id="1be9a-113">**FCIDestroy**</span><span class="sxs-lookup"><span data-stu-id="1be9a-113">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
+[<span data-ttu-id="e0589-114">**FCIDestroy**</span><span class="sxs-lookup"><span data-stu-id="e0589-114">**FCIDestroy**</span></span>](/windows/desktop/api/Fci/nf-fci-fcidestroy)
 </dt> <dt>
 
-[<span data-ttu-id="1be9a-114">封包 API 宏</span><span class="sxs-lookup"><span data-stu-id="1be9a-114">Cabinet API Macros</span></span>](cabinet-api-macros.md)
+[<span data-ttu-id="e0589-115">封包 API 宏</span><span class="sxs-lookup"><span data-stu-id="e0589-115">Cabinet API Macros</span></span>](cabinet-api-macros.md)
 </dt> </dl>
 
  

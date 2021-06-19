@@ -1,42 +1,42 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageMediaSizePSOrientation 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: PageMediaSizePSOrientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16a9a2e59ebffb41ad7c9a9c16eaf41497ade62
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: adb1b3aff1099199a98d6c8be899824dd1a1f17c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997555"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395723"
 ---
-# <a name="pagemediasizepsorientation"></a><span data-ttu-id="79541-104">PageMediaSizePSOrientation</span><span class="sxs-lookup"><span data-stu-id="79541-104">PageMediaSizePSOrientation</span></span>
+# <a name="pagemediasizepsorientation"></a><span data-ttu-id="d5dec-105">PageMediaSizePSOrientation</span><span class="sxs-lookup"><span data-stu-id="d5dec-105">PageMediaSizePSOrientation</span></span>
 
-<span data-ttu-id="79541-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="79541-105">This topic is not current.</span></span> <span data-ttu-id="79541-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="79541-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="d5dec-106">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="d5dec-106">This topic is not current.</span></span> <span data-ttu-id="d5dec-107">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="d5dec-107">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="79541-107">指定相對於饋送方向方向的方向 (參考 [PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。</span><span class="sxs-lookup"><span data-stu-id="79541-107">Specifies the orientation relative to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span></span>
+<span data-ttu-id="d5dec-108">指定相對於饋送方向方向的方向 (參考 [PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。</span><span class="sxs-lookup"><span data-stu-id="d5dec-108">Specifies the orientation relative to the feed-orientation direction (Reference [PostScript Printer Description File Format Specification](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)).</span></span>
 
--   [<span data-ttu-id="79541-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="79541-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="79541-109">結構內容</span><span class="sxs-lookup"><span data-stu-id="79541-109">Structure Content</span></span>](#structure-content)
+-   [<span data-ttu-id="d5dec-109">項目資訊</span><span class="sxs-lookup"><span data-stu-id="d5dec-109">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="d5dec-110">結構內容</span><span class="sxs-lookup"><span data-stu-id="d5dec-110">Structure Content</span></span>](#structure-content)
 
-## <a name="element-information"></a><span data-ttu-id="79541-110">項目資訊</span><span class="sxs-lookup"><span data-stu-id="79541-110">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="d5dec-111">項目資訊</span><span class="sxs-lookup"><span data-stu-id="d5dec-111">Element Information</span></span>
 
 
 
-| <span data-ttu-id="79541-111">Name</span><span class="sxs-lookup"><span data-stu-id="79541-111">Name</span></span> | <span data-ttu-id="79541-112">值</span><span class="sxs-lookup"><span data-stu-id="79541-112">Value</span></span> |
+| <span data-ttu-id="d5dec-112">Name</span><span class="sxs-lookup"><span data-stu-id="d5dec-112">Name</span></span> | <span data-ttu-id="d5dec-113">值</span><span class="sxs-lookup"><span data-stu-id="d5dec-113">Value</span></span> |
 |----------------------------|-------------------------------------------------------------|
-| <span data-ttu-id="79541-113">項目類型</span><span class="sxs-lookup"><span data-stu-id="79541-113">Element Type</span></span> <br/>   | <span data-ttu-id="79541-114">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="79541-114">ParameterDef</span></span><br/>                                     |
-| <span data-ttu-id="79541-115">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="79541-115">Scoping Prefix</span></span> <br/> | <span data-ttu-id="79541-116">頁面</span><span class="sxs-lookup"><span data-stu-id="79541-116">Page</span></span><br/>                                             |
-| <span data-ttu-id="79541-117">備註</span><span class="sxs-lookup"><span data-stu-id="79541-117">Notes</span></span> <br/>          | <span data-ttu-id="79541-118">連結至 PageMediaSize 元素，CustomPS 選項</span><span class="sxs-lookup"><span data-stu-id="79541-118">Linked to PageMediaSize element, CustomPS option</span></span><br/> |
+| <span data-ttu-id="d5dec-114">項目類型</span><span class="sxs-lookup"><span data-stu-id="d5dec-114">Element Type</span></span> <br/>   | <span data-ttu-id="d5dec-115">ParameterDef</span><span class="sxs-lookup"><span data-stu-id="d5dec-115">ParameterDef</span></span><br/>                                     |
+| <span data-ttu-id="d5dec-116">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="d5dec-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="d5dec-117">頁面</span><span class="sxs-lookup"><span data-stu-id="d5dec-117">Page</span></span><br/>                                             |
+| <span data-ttu-id="d5dec-118">備註</span><span class="sxs-lookup"><span data-stu-id="d5dec-118">Notes</span></span> <br/>          | <span data-ttu-id="d5dec-119">連結至 PageMediaSize 元素，CustomPS 選項</span><span class="sxs-lookup"><span data-stu-id="d5dec-119">Linked to PageMediaSize element, CustomPS option</span></span><br/> |
 
 
 
  
 
-## <a name="structure-content"></a><span data-ttu-id="79541-119">結構內容</span><span class="sxs-lookup"><span data-stu-id="79541-119">Structure Content</span></span>
+## <a name="structure-content"></a><span data-ttu-id="d5dec-120">結構內容</span><span class="sxs-lookup"><span data-stu-id="d5dec-120">Structure Content</span></span>
 
-<span data-ttu-id="79541-120">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="79541-120">The XML structure of this element is:</span></span>
+<span data-ttu-id="d5dec-121">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="d5dec-121">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:ParameterDef name="psk:PageMediaSizePSOrientation">
@@ -65,34 +65,34 @@ ms.locfileid: "107997555"
       
 ```
 
-## <a name="structure-properties"></a><span data-ttu-id="79541-121">結構屬性</span><span class="sxs-lookup"><span data-stu-id="79541-121">Structure Properties</span></span>
+## <a name="structure-properties"></a><span data-ttu-id="d5dec-122">結構屬性</span><span class="sxs-lookup"><span data-stu-id="d5dec-122">Structure Properties</span></span>
 
-<span data-ttu-id="79541-122">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="79541-122">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="d5dec-123">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="d5dec-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="79541-123">屬性</span><span class="sxs-lookup"><span data-stu-id="79541-123">Property</span></span>                | <span data-ttu-id="79541-124">xsi:type</span><span class="sxs-lookup"><span data-stu-id="79541-124">xsi:type</span></span>           | <span data-ttu-id="79541-125">值</span><span class="sxs-lookup"><span data-stu-id="79541-125">Value</span></span>                        |
+| <span data-ttu-id="d5dec-124">屬性</span><span class="sxs-lookup"><span data-stu-id="d5dec-124">Property</span></span>                | <span data-ttu-id="d5dec-125">xsi:type</span><span class="sxs-lookup"><span data-stu-id="d5dec-125">xsi:type</span></span>           | <span data-ttu-id="d5dec-126">值</span><span class="sxs-lookup"><span data-stu-id="d5dec-126">Value</span></span>                        |
 |-------------------------|--------------------|------------------------------|
-| <span data-ttu-id="79541-126">DataType</span><span class="sxs-lookup"><span data-stu-id="79541-126">DataType</span></span><br/>     | <span data-ttu-id="79541-127">字串</span><span class="sxs-lookup"><span data-stu-id="79541-127">string</span></span><br/>  | <span data-ttu-id="79541-128">xs:integer</span><span class="sxs-lookup"><span data-stu-id="79541-128">xs:integer</span></span><br/>        |
-| <span data-ttu-id="79541-129">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="79541-129">DefaultValue</span></span><br/> | <span data-ttu-id="79541-130">整數</span><span class="sxs-lookup"><span data-stu-id="79541-130">integer</span></span><br/> | <span data-ttu-id="79541-131">0</span><span class="sxs-lookup"><span data-stu-id="79541-131">0</span></span><br/>                 |
-| <span data-ttu-id="79541-132">MaxValue</span><span class="sxs-lookup"><span data-stu-id="79541-132">MaxValue</span></span><br/>     | <span data-ttu-id="79541-133">整數</span><span class="sxs-lookup"><span data-stu-id="79541-133">integer</span></span><br/> | <span data-ttu-id="79541-134">3</span><span class="sxs-lookup"><span data-stu-id="79541-134">3</span></span><br/>                 |
-| <span data-ttu-id="79541-135">MinValue</span><span class="sxs-lookup"><span data-stu-id="79541-135">MinValue</span></span><br/>     | <span data-ttu-id="79541-136">整數</span><span class="sxs-lookup"><span data-stu-id="79541-136">integer</span></span><br/> | <span data-ttu-id="79541-137">0</span><span class="sxs-lookup"><span data-stu-id="79541-137">0</span></span><br/>                 |
-| <span data-ttu-id="79541-138">強制性</span><span class="sxs-lookup"><span data-stu-id="79541-138">Mandatory</span></span><br/>    | <span data-ttu-id="79541-139">字串</span><span class="sxs-lookup"><span data-stu-id="79541-139">string</span></span><br/>  | <span data-ttu-id="79541-140">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="79541-140">psk:Conditional</span></span><br/>   |
-| <span data-ttu-id="79541-141">多個</span><span class="sxs-lookup"><span data-stu-id="79541-141">Multiple</span></span><br/>     | <span data-ttu-id="79541-142">整數</span><span class="sxs-lookup"><span data-stu-id="79541-142">integer</span></span><br/> | <span data-ttu-id="79541-143">1</span><span class="sxs-lookup"><span data-stu-id="79541-143">1</span></span><br/>                 |
-| <span data-ttu-id="79541-144">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="79541-144">UnitType</span></span><br/>     | <span data-ttu-id="79541-145">字串</span><span class="sxs-lookup"><span data-stu-id="79541-145">string</span></span><br/>  | <span data-ttu-id="79541-146">PageMediaSizeEnum</span><span class="sxs-lookup"><span data-stu-id="79541-146">PageMediaSizeEnum</span></span><br/> |
+| <span data-ttu-id="d5dec-127">DataType</span><span class="sxs-lookup"><span data-stu-id="d5dec-127">DataType</span></span><br/>     | <span data-ttu-id="d5dec-128">字串</span><span class="sxs-lookup"><span data-stu-id="d5dec-128">string</span></span><br/>  | <span data-ttu-id="d5dec-129">xs:integer</span><span class="sxs-lookup"><span data-stu-id="d5dec-129">xs:integer</span></span><br/>        |
+| <span data-ttu-id="d5dec-130">DefaultValue</span><span class="sxs-lookup"><span data-stu-id="d5dec-130">DefaultValue</span></span><br/> | <span data-ttu-id="d5dec-131">整數</span><span class="sxs-lookup"><span data-stu-id="d5dec-131">integer</span></span><br/> | <span data-ttu-id="d5dec-132">0</span><span class="sxs-lookup"><span data-stu-id="d5dec-132">0</span></span><br/>                 |
+| <span data-ttu-id="d5dec-133">MaxValue</span><span class="sxs-lookup"><span data-stu-id="d5dec-133">MaxValue</span></span><br/>     | <span data-ttu-id="d5dec-134">整數</span><span class="sxs-lookup"><span data-stu-id="d5dec-134">integer</span></span><br/> | <span data-ttu-id="d5dec-135">3</span><span class="sxs-lookup"><span data-stu-id="d5dec-135">3</span></span><br/>                 |
+| <span data-ttu-id="d5dec-136">MinValue</span><span class="sxs-lookup"><span data-stu-id="d5dec-136">MinValue</span></span><br/>     | <span data-ttu-id="d5dec-137">整數</span><span class="sxs-lookup"><span data-stu-id="d5dec-137">integer</span></span><br/> | <span data-ttu-id="d5dec-138">0</span><span class="sxs-lookup"><span data-stu-id="d5dec-138">0</span></span><br/>                 |
+| <span data-ttu-id="d5dec-139">強制性</span><span class="sxs-lookup"><span data-stu-id="d5dec-139">Mandatory</span></span><br/>    | <span data-ttu-id="d5dec-140">string</span><span class="sxs-lookup"><span data-stu-id="d5dec-140">string</span></span><br/>  | <span data-ttu-id="d5dec-141">psk：條件式</span><span class="sxs-lookup"><span data-stu-id="d5dec-141">psk:Conditional</span></span><br/>   |
+| <span data-ttu-id="d5dec-142">多個</span><span class="sxs-lookup"><span data-stu-id="d5dec-142">Multiple</span></span><br/>     | <span data-ttu-id="d5dec-143">整數</span><span class="sxs-lookup"><span data-stu-id="d5dec-143">integer</span></span><br/> | <span data-ttu-id="d5dec-144">1</span><span class="sxs-lookup"><span data-stu-id="d5dec-144">1</span></span><br/>                 |
+| <span data-ttu-id="d5dec-145">Unittype.pixel 表示</span><span class="sxs-lookup"><span data-stu-id="d5dec-145">UnitType</span></span><br/>     | <span data-ttu-id="d5dec-146">string</span><span class="sxs-lookup"><span data-stu-id="d5dec-146">string</span></span><br/>  | <span data-ttu-id="d5dec-147">PageMediaSizeEnum</span><span class="sxs-lookup"><span data-stu-id="d5dec-147">PageMediaSizeEnum</span></span><br/> |
 
 
 
  
 
-## <a name="related-topics"></a><span data-ttu-id="79541-147">相關主題</span><span class="sxs-lookup"><span data-stu-id="79541-147">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d5dec-148">相關主題</span><span class="sxs-lookup"><span data-stu-id="d5dec-148">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="79541-148">PostScript 印表機描述檔案格式規格</span><span class="sxs-lookup"><span data-stu-id="79541-148">PostScript Printer Description File Format Specification</span></span>](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[<span data-ttu-id="d5dec-149">PostScript 印表機描述檔案格式規格</span><span class="sxs-lookup"><span data-stu-id="d5dec-149">PostScript Printer Description File Format Specification</span></span>](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
-[<span data-ttu-id="79541-149">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="79541-149">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="d5dec-150">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="d5dec-150">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

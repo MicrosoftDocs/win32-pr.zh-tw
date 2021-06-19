@@ -1,43 +1,43 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageTrueTypeFontMode 使用者可設定的元素。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 36b1de5d-8575-42cf-b158-dcf7705ec157
 title: PageTrueTypeFontMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9d9a56e2a8a7ec74403a4b59be2a2f5d23a3a41
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bf30af3684693f594f497dbad95d4f9a7743d624
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995564"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395613"
 ---
-# <a name="pagetruetypefontmode"></a><span data-ttu-id="66d62-104">PageTrueTypeFontMode</span><span class="sxs-lookup"><span data-stu-id="66d62-104">PageTrueTypeFontMode</span></span>
+# <a name="pagetruetypefontmode"></a><span data-ttu-id="69974-105">PageTrueTypeFontMode</span><span class="sxs-lookup"><span data-stu-id="69974-105">PageTrueTypeFontMode</span></span>
 
-<span data-ttu-id="66d62-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="66d62-105">This topic is not current.</span></span> <span data-ttu-id="66d62-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="66d62-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="69974-106">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="69974-106">This topic is not current.</span></span> <span data-ttu-id="69974-107">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="69974-107">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="66d62-107">描述要使用的 TrueType 字型處理方法。</span><span class="sxs-lookup"><span data-stu-id="66d62-107">Describes the method of TrueType font handling to be used.</span></span>
+<span data-ttu-id="69974-108">描述要使用的 TrueType 字型處理方法。</span><span class="sxs-lookup"><span data-stu-id="69974-108">Describes the method of TrueType font handling to be used.</span></span>
 
--   [<span data-ttu-id="66d62-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="66d62-108">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="66d62-109">結構化內容</span><span class="sxs-lookup"><span data-stu-id="66d62-109">Structural Content</span></span>](#structural-content)
--   [<span data-ttu-id="66d62-110">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="66d62-110">Extensible Markup Language (XML) Content</span></span>](#extensible-markup-language-xml-content)
+-   [<span data-ttu-id="69974-109">項目資訊</span><span class="sxs-lookup"><span data-stu-id="69974-109">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="69974-110">結構化內容</span><span class="sxs-lookup"><span data-stu-id="69974-110">Structural Content</span></span>](#structural-content)
+-   [<span data-ttu-id="69974-111">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="69974-111">Extensible Markup Language (XML) Content</span></span>](#extensible-markup-language-xml-content)
 
-## <a name="element-information"></a><span data-ttu-id="66d62-111">項目資訊</span><span class="sxs-lookup"><span data-stu-id="66d62-111">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="69974-112">項目資訊</span><span class="sxs-lookup"><span data-stu-id="69974-112">Element Information</span></span>
 
 
 
-| <span data-ttu-id="66d62-112">Name</span><span class="sxs-lookup"><span data-stu-id="66d62-112">Name</span></span> | <span data-ttu-id="66d62-113">值</span><span class="sxs-lookup"><span data-stu-id="66d62-113">Value</span></span> |
+| <span data-ttu-id="69974-113">Name</span><span class="sxs-lookup"><span data-stu-id="69974-113">Name</span></span> | <span data-ttu-id="69974-114">值</span><span class="sxs-lookup"><span data-stu-id="69974-114">Value</span></span> |
 |----------------------------|--------------------|
-| <span data-ttu-id="66d62-114">項目類型</span><span class="sxs-lookup"><span data-stu-id="66d62-114">Element Type</span></span> <br/>   | <span data-ttu-id="66d62-115">功能</span><span class="sxs-lookup"><span data-stu-id="66d62-115">Feature</span></span><br/> |
-| <span data-ttu-id="66d62-116">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="66d62-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="66d62-117">頁面</span><span class="sxs-lookup"><span data-stu-id="66d62-117">Page</span></span><br/>    |
-| <span data-ttu-id="66d62-118">注意</span><span class="sxs-lookup"><span data-stu-id="66d62-118">Notes</span></span> <br/>          | <span data-ttu-id="66d62-119">None</span><span class="sxs-lookup"><span data-stu-id="66d62-119">None</span></span><br/>    |
+| <span data-ttu-id="69974-115">項目類型</span><span class="sxs-lookup"><span data-stu-id="69974-115">Element Type</span></span> <br/>   | <span data-ttu-id="69974-116">功能</span><span class="sxs-lookup"><span data-stu-id="69974-116">Feature</span></span><br/> |
+| <span data-ttu-id="69974-117">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="69974-117">Scoping Prefix</span></span> <br/> | <span data-ttu-id="69974-118">頁面</span><span class="sxs-lookup"><span data-stu-id="69974-118">Page</span></span><br/>    |
+| <span data-ttu-id="69974-119">注意</span><span class="sxs-lookup"><span data-stu-id="69974-119">Notes</span></span> <br/>          | <span data-ttu-id="69974-120">None</span><span class="sxs-lookup"><span data-stu-id="69974-120">None</span></span><br/>    |
 
 
 
  
 
-## <a name="structural-content"></a><span data-ttu-id="66d62-120">結構化內容</span><span class="sxs-lookup"><span data-stu-id="66d62-120">Structural Content</span></span>
+## <a name="structural-content"></a><span data-ttu-id="69974-121">結構化內容</span><span class="sxs-lookup"><span data-stu-id="69974-121">Structural Content</span></span>
 
-<span data-ttu-id="66d62-121">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="66d62-121">The XML structure of this element is:</span></span>
+<span data-ttu-id="69974-122">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="69974-122">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:Feature name="psk:PageTrueTypeFontMode">
@@ -53,24 +53,24 @@ ms.locfileid: "107995564"
       
 ```
 
-## <a name="structure-variables"></a><span data-ttu-id="66d62-122">結構變數</span><span class="sxs-lookup"><span data-stu-id="66d62-122">Structure Variables</span></span>
+## <a name="structure-variables"></a><span data-ttu-id="69974-123">結構變數</span><span class="sxs-lookup"><span data-stu-id="69974-123">Structure Variables</span></span>
 
-<span data-ttu-id="66d62-123">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="66d62-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="69974-124">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="69974-124">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="66d62-124">Name</span><span class="sxs-lookup"><span data-stu-id="66d62-124">Name</span></span>                               | <span data-ttu-id="66d62-125">資料類型</span><span class="sxs-lookup"><span data-stu-id="66d62-125">Data type</span></span>         | <span data-ttu-id="66d62-126">單位</span><span class="sxs-lookup"><span data-stu-id="66d62-126">Unit</span></span>                  | <span data-ttu-id="66d62-127">支援的值</span><span class="sxs-lookup"><span data-stu-id="66d62-127">Supported values</span></span>                                                                                                                                                                      | <span data-ttu-id="66d62-128">總結</span><span class="sxs-lookup"><span data-stu-id="66d62-128">Summary</span></span>                                                                      |
+| <span data-ttu-id="69974-125">Name</span><span class="sxs-lookup"><span data-stu-id="69974-125">Name</span></span>                               | <span data-ttu-id="69974-126">資料類型</span><span class="sxs-lookup"><span data-stu-id="69974-126">Data type</span></span>         | <span data-ttu-id="69974-127">單位</span><span class="sxs-lookup"><span data-stu-id="69974-127">Unit</span></span>                  | <span data-ttu-id="69974-128">支援的值</span><span class="sxs-lookup"><span data-stu-id="69974-128">Supported values</span></span>                                                                                                                                                                      | <span data-ttu-id="69974-129">總結</span><span class="sxs-lookup"><span data-stu-id="69974-129">Summary</span></span>                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| <span data-ttu-id="66d62-129">\_選項名稱\_</span><span class="sxs-lookup"><span data-stu-id="66d62-129">\_OptionName\_</span></span><br/>          | <span data-ttu-id="66d62-130">字串</span><span class="sxs-lookup"><span data-stu-id="66d62-130">string</span></span><br/> | <span data-ttu-id="66d62-131">字元</span><span class="sxs-lookup"><span data-stu-id="66d62-131">characters</span></span><br/> | <span data-ttu-id="66d62-132">以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。</span><span class="sxs-lookup"><span data-stu-id="66d62-132">Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/).</span></span> <span data-ttu-id="66d62-133">如果未指定命名空間，則會假設為預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="66d62-133">If no namespace is specified, default namespace is assumed.</span></span><br/> | <span data-ttu-id="66d62-134">選項的名稱。</span><span class="sxs-lookup"><span data-stu-id="66d62-134">The name of the option.</span></span><br/>                                           |
-| <span data-ttu-id="66d62-135">\_IdentityOptionValue\_</span><span class="sxs-lookup"><span data-stu-id="66d62-135">\_IdentityOptionValue\_</span></span><br/> | <span data-ttu-id="66d62-136">字串</span><span class="sxs-lookup"><span data-stu-id="66d62-136">string</span></span><br/> | <span data-ttu-id="66d62-137">n/a</span><span class="sxs-lookup"><span data-stu-id="66d62-137">n/a</span></span><br/>        | <span data-ttu-id="66d62-138">True、False。</span><span class="sxs-lookup"><span data-stu-id="66d62-138">True, False.</span></span><br/>                                                                                                                                                               | <span data-ttu-id="66d62-139">定義選項，當選取此選項時，會停用此功能。</span><span class="sxs-lookup"><span data-stu-id="66d62-139">Defines an Option which when selected would disable this feature.</span></span><br/> |
+| <span data-ttu-id="69974-130">\_選項名稱\_</span><span class="sxs-lookup"><span data-stu-id="69974-130">\_OptionName\_</span></span><br/>          | <span data-ttu-id="69974-131">string</span><span class="sxs-lookup"><span data-stu-id="69974-131">string</span></span><br/> | <span data-ttu-id="69974-132">字元</span><span class="sxs-lookup"><span data-stu-id="69974-132">characters</span></span><br/> | <span data-ttu-id="69974-133">以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。</span><span class="sxs-lookup"><span data-stu-id="69974-133">Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/).</span></span> <span data-ttu-id="69974-134">如果未指定命名空間，則會假設為預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="69974-134">If no namespace is specified, default namespace is assumed.</span></span><br/> | <span data-ttu-id="69974-135">選項的名稱。</span><span class="sxs-lookup"><span data-stu-id="69974-135">The name of the option.</span></span><br/>                                           |
+| <span data-ttu-id="69974-136">\_IdentityOptionValue\_</span><span class="sxs-lookup"><span data-stu-id="69974-136">\_IdentityOptionValue\_</span></span><br/> | <span data-ttu-id="69974-137">string</span><span class="sxs-lookup"><span data-stu-id="69974-137">string</span></span><br/> | <span data-ttu-id="69974-138">n/a</span><span class="sxs-lookup"><span data-stu-id="69974-138">n/a</span></span><br/>        | <span data-ttu-id="69974-139">True、False。</span><span class="sxs-lookup"><span data-stu-id="69974-139">True, False.</span></span><br/>                                                                                                                                                               | <span data-ttu-id="69974-140">定義選項，當選取此選項時，會停用此功能。</span><span class="sxs-lookup"><span data-stu-id="69974-140">Defines an Option which when selected would disable this feature.</span></span><br/> |
 
 
 
  
 
-## <a name="extensible-markup-language-xml-content"></a><span data-ttu-id="66d62-140">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="66d62-140">Extensible Markup Language (XML) Content</span></span>
+## <a name="extensible-markup-language-xml-content"></a><span data-ttu-id="69974-141">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="69974-141">Extensible Markup Language (XML) Content</span></span>
 
-<span data-ttu-id="66d62-141">公用列印架構關鍵字是在 https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords 命名空間中定義。</span><span class="sxs-lookup"><span data-stu-id="66d62-141">The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace.</span></span> <span data-ttu-id="66d62-142">此關鍵字的 public 可延伸標記語言 (XML)  (XML) 內容定義如下：</span><span class="sxs-lookup"><span data-stu-id="66d62-142">The public Extensible Markup Language (XML) content for this keyword is defined below:</span></span>
+<span data-ttu-id="69974-142">公用列印架構關鍵字是在 https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords 命名空間中定義。</span><span class="sxs-lookup"><span data-stu-id="69974-142">The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace.</span></span> <span data-ttu-id="69974-143">此關鍵字的 public 可延伸標記語言 (XML)  (XML) 內容定義如下：</span><span class="sxs-lookup"><span data-stu-id="69974-143">The public Extensible Markup Language (XML) content for this keyword is defined below:</span></span>
 
 ``` syntax
 <psf:Feature name="psk:PageTrueTypeFontMode">
@@ -90,11 +90,11 @@ ms.locfileid: "107995564"
 </psf:Feature>    
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="66d62-143">相關主題</span><span class="sxs-lookup"><span data-stu-id="66d62-143">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="69974-144">相關主題</span><span class="sxs-lookup"><span data-stu-id="69974-144">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="66d62-144">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="66d62-144">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="69974-145">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="69974-145">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

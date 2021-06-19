@@ -1,23 +1,23 @@
 ---
-description: 使用受保護的可延伸驗證通訊協定第2版 (PEAP-Eap-mschapv2) 搭配使用者名稱/密碼向網路進行驗證。
+description: 使用受保護的可延伸驗證通訊協定搭配 Microsoft 挑戰交握驗證通訊協定第2版（含 WPA2 Enterprise）。
 ms.assetid: fcbc74a6-1990-45a0-af2e-1c343a84497a
 title: WPA2-Enterprise 與 PEAP-MSCHAPv2 設定檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43363be10a6d7d77d445e188b1c3084f71ce3b10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd05ac34992244eedae08f9c76becd5b2c95564e
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975453"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394803"
 ---
-# <a name="wpa2-enterprise-with-peap-mschapv2-profile-sample"></a><span data-ttu-id="b431a-103">WPA2-Enterprise 與 PEAP-MSCHAPv2 設定檔範例</span><span class="sxs-lookup"><span data-stu-id="b431a-103">WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample</span></span>
+# <a name="wpa2-enterprise-with-peap-mschapv2-profile-sample"></a><span data-ttu-id="bff5c-103">WPA2-Enterprise 與 PEAP-MSCHAPv2 設定檔範例</span><span class="sxs-lookup"><span data-stu-id="bff5c-103">WPA2-Enterprise with PEAP-MSCHAPv2 Profile Sample</span></span>
 
-<span data-ttu-id="b431a-104">此範例設定檔使用受保護的可延伸驗證通訊協定第2版 (PEAP-Eap-mschapv2) 搭配 \* UserName \* **/** _Password_ 來向網路進行驗證。</span><span class="sxs-lookup"><span data-stu-id="b431a-104">This sample profile uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with \*UserName\***/**_Password_ to authenticate to the network.</span></span> <span data-ttu-id="b431a-105">系統會提示使用者輸入認證。</span><span class="sxs-lookup"><span data-stu-id="b431a-105">The user is prompted to enter credentials.</span></span>
+<span data-ttu-id="bff5c-104">此範例設定檔使用受保護的可延伸驗證通訊協定第2版 (PEAP-Eap-mschapv2) 搭配 \* UserName \* **/** _Password_ 來向網路進行驗證。</span><span class="sxs-lookup"><span data-stu-id="bff5c-104">This sample profile uses Protected Extensible Authentication Protocol with Microsoft Challenge Handshake Authentication Protocol version 2 (PEAP-MSCHAPv2) with \*UserName\***/**_Password_ to authenticate to the network.</span></span> <span data-ttu-id="bff5c-105">系統會提示使用者輸入認證。</span><span class="sxs-lookup"><span data-stu-id="bff5c-105">The user is prompted to enter credentials.</span></span>
 
-<span data-ttu-id="b431a-106">此範例設定為使用在企業模式下執行的 Wi-Fi Protected Access 2 安全性 (WPA2-Enterprise) 。</span><span class="sxs-lookup"><span data-stu-id="b431a-106">This sample is configured to use Wi-Fi Protected Access 2 security running in Enterprise mode (WPA2-Enterprise).</span></span> <span data-ttu-id="b431a-107">WPA2-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。</span><span class="sxs-lookup"><span data-stu-id="b431a-107">The WPA2-Enterprise security type uses 802.1X for the authentication exchange with the backend.</span></span> <span data-ttu-id="b431a-108">進階加密標準 (AES) 加密類型。</span><span class="sxs-lookup"><span data-stu-id="b431a-108">The Advanced Encryption Standard (AES) cipher type is used for encryption.</span></span>
+<span data-ttu-id="bff5c-106">此範例設定為使用在企業模式下執行的 Wi-Fi Protected Access 2 安全性 (WPA2-Enterprise) 。</span><span class="sxs-lookup"><span data-stu-id="bff5c-106">This sample is configured to use Wi-Fi Protected Access 2 security running in Enterprise mode (WPA2-Enterprise).</span></span> <span data-ttu-id="bff5c-107">WPA2-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。</span><span class="sxs-lookup"><span data-stu-id="bff5c-107">The WPA2-Enterprise security type uses 802.1X for the authentication exchange with the backend.</span></span> <span data-ttu-id="bff5c-108">進階加密標準 (AES) 加密類型。</span><span class="sxs-lookup"><span data-stu-id="bff5c-108">The Advanced Encryption Standard (AES) cipher type is used for encryption.</span></span>
 
-<span data-ttu-id="b431a-109">Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：**[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素的 [**name**](wlan-profileschema-name-wlanprofile-element.md)子系會被忽略。</span><span class="sxs-lookup"><span data-stu-id="b431a-109">**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-name-wlanprofile-element.md) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored.</span></span> <span data-ttu-id="b431a-110">設定檔的名稱（儲存在設定檔存放區中）是衍生自 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素的 [**名稱**](wlan-profileschema-name-ssid-element.md)子系。</span><span class="sxs-lookup"><span data-stu-id="b431a-110">The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-name-ssid-element.md) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.</span></span>
+<span data-ttu-id="bff5c-109">Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：**[**WLANProfile**](wlan-profileschema-wlanprofile-element.md)元素的 [**name**](wlan-profileschema-name-wlanprofile-element.md)子系會被忽略。</span><span class="sxs-lookup"><span data-stu-id="bff5c-109">**Windows XP with SP3 and Wireless LAN API for Windows XP with SP2:** The [**name**](wlan-profileschema-name-wlanprofile-element.md) child of the [**WLANProfile**](wlan-profileschema-wlanprofile-element.md) element is ignored.</span></span> <span data-ttu-id="bff5c-110">設定檔的名稱（儲存在設定檔存放區中）是衍生自 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素的 [**名稱**](wlan-profileschema-name-ssid-element.md)子系。</span><span class="sxs-lookup"><span data-stu-id="bff5c-110">The name of the profile, as stored in the profile store, is derived from the [**name**](wlan-profileschema-name-ssid-element.md) child of the [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md) element.</span></span>
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>
@@ -78,11 +78,11 @@ ms.locfileid: "106975453"
 </WLANProfile>
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="b431a-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="b431a-111">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="bff5c-111">相關主題</span><span class="sxs-lookup"><span data-stu-id="bff5c-111">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="b431a-112">無線設定檔範例</span><span class="sxs-lookup"><span data-stu-id="b431a-112">Wireless Profile Samples</span></span>](wireless-profile-samples.md)
+[<span data-ttu-id="bff5c-112">無線設定檔範例</span><span class="sxs-lookup"><span data-stu-id="bff5c-112">Wireless Profile Samples</span></span>](wireless-profile-samples.md)
 </dt> </dl>
 
  
