@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 這項 PrintTicket 功能的總覽說明用來表示裝置設定資訊和使用 PrintTicket 的格式。
 ms.assetid: c48b9821-9194-47d9-a3ec-b10dbbdf14cc
 title: PrintTicket 功能總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a70945fcc18e08615a9674a90a023f4ee12a76e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e90aa6f967f5fce25977b52a4d0bec7e9e1ea705
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106999961"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408541"
 ---
 # <a name="overview-of-printticket-functionality"></a>PrintTicket 功能總覽
 

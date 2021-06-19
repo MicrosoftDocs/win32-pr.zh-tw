@@ -1,6 +1,6 @@
 ---
 title: HttpCustomHeaderPurchaseOrderServiceExample
-description: 此範例示範如何使用服務主機透過 HTTP 裝載 PurchaseOrder 服務。
+description: 請參閱 Windows Web 服務 API (WWSAPI) 透過 HTTP 自訂標頭之訂單服務的 c + + 範例。
 ms.assetid: 7a86e0be-6e52-4ad2-bca4-0162a8030cdc
 keywords:
 - HttpCustomHeaderPurchaseOrderServiceExample 原生 Web 服務
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022fa8fa7ddd128fa86f8b1bcb49119bfa369953
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93c412b0106a9343695b4a96cd01e54df7ea654d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372338"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404121"
 ---
 # <a name="httpcustomheaderpurchaseorderserviceexample"></a>HttpCustomHeaderPurchaseOrderServiceExample
 
@@ -545,9 +545,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

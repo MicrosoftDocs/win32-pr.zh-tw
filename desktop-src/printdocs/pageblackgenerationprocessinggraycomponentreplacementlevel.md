@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageBlackGenerationProcessingGrayComponentReplacementLevel 元素，其指定灰色元件取代的百分比。
 ms.assetid: e33634bb-5db5-4197-889d-82caf2e74191
 title: PageBlackGenerationProcessingGrayComponentReplacementLevel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 553919bf9fab43cb1281f625eb518937b5c8b805
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8499c8521b974d01657c171a99e86e738c82b4e5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994525"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408481"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementlevel"></a>PageBlackGenerationProcessingGrayComponentReplacementLevel
 
@@ -77,8 +77,8 @@ ms.locfileid: "107994525"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: 定點陣圖形
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文描述如何在 VML 中定點陣圖形，這是 Windows Internet Explorer 9 淘汰的功能。
 ms.assetid: dbd68f54-201a-48dc-a3a9-a8dd42178c11
 keywords:
 - 網路研討會，定點陣圖形
@@ -36,12 +36,12 @@ keywords:
 - 翻轉位置樣式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8e01d0c7962467b1894f0f4c2c6cd1f6b01509
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7c96a8de891ed1bbd1b9bfee9eff52ede946247b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023633"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407711"
 ---
 # <a name="positioning-shapes"></a>定點陣圖形
 
@@ -50,7 +50,7 @@ ms.locfileid: "104023633"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 您已瞭解如何使用 VML 在網頁上繪製和上色圖形。 在本主題中，您將使用 VML 在網頁上精確地放置圖形。
 
@@ -221,7 +221,7 @@ End.
 
 
 
- 
+ 
 
 可以在 flip 屬性中指定 x 和 y。
 
@@ -239,6 +239,6 @@ End.
 4.  使用 [ **寬度** ] 和 [ **高度** ] 來指定圖形的包含方塊大小。
 5.  使用 **z-索引** 來指定圖形的迭置順序。
 
- 
+ 
 
- 
+ 

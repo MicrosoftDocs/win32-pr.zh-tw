@@ -1,15 +1,15 @@
 ---
-description: Inputlocale 和 keywordlocale 識別碼可協助搜尋引擎使用正確的斷詞工具，其方式是識別使用者輸入查詢的語言，以及使用 Advanced Query 語法關鍵字的語言。
+description: 瞭解 Windows Search 中的 inputlocale 和 keywordlocale 引數，這可協助搜尋引擎使用正確的斷詞工具。
 ms.assetid: dc610f49-5106-47f9-b29b-84949dd2c42b
 title: '地區設定識別碼引數 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cea1549a550e4bf6b8099241a6f3d2275860a983
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe4c56e9c3fb5a84938d4779c7a3ebeb849b0787
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847822"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403751"
 ---
 # <a name="locale-identifier-arguments-windows-search"></a>地區設定識別碼引數 (Windows Search) 
 

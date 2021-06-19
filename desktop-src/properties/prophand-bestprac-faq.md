@@ -1,15 +1,15 @@
 ---
-description: 本主題說明如何建立及註冊屬性處理常式，以便與 Windows 屬性系統搭配使用。
+description: 本文包含建立和註冊屬性處理常式來與 Windows 屬性系統搭配使用的最佳作法和常見問題。
 ms.assetid: E583A00B-F615-41c8-AECF-061F1396DB9A
 title: 屬性處理常式的最佳作法和常見問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5188e66f08f3c6cf449f8bc61feb6aac829d37c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5605c39f1021fcfe91259405bb99f8981510d3dc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194847"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405951"
 ---
 # <a name="property-handler-best-practices-and-faq"></a>屬性處理常式的最佳作法和常見問題
 
@@ -102,7 +102,7 @@ ms.locfileid: "104194847"
 
 -   **問題：** 是否可以 \_ 使用屬性處理常式來儲存 VT Null 值？
 
-    不會。 \_ \_ 在 [**IPropertyStore：： GetValue**](/previous-versions/windows/desktop/legacy/bb761473(v=vs.85))和 [**IPropertyStore：： SETVALUE**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85))的呼叫上，VT Null 值會轉換成 vt 空白。
+    否。 \_ \_ 在 [**IPropertyStore：： GetValue**](/previous-versions/windows/desktop/legacy/bb761473(v=vs.85))和 [**IPropertyStore：： SETVALUE**](/previous-versions/windows/desktop/legacy/bb761475(v=vs.85))的呼叫上，VT Null 值會轉換成 vt 空白。
 
 -   **問題：**[**PropVariantChangeType**](/windows/win32/api/propvarutil/nf-propvarutil-propvariantchangetype)函數支援哪些日期字串格式？
 

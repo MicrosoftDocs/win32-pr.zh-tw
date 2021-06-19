@@ -1,15 +1,15 @@
 ---
-description: CreateThread 函式會為進程建立新的執行緒。
+description: 請參閱如何使用 CreateThread 函式來建立進程的新執行緒。 檢查顯示其使用方式的程式碼範例。
 ms.assetid: eb0cc3c0-14f2-4913-a592-4ba3eaf67002
 title: 建立執行緒
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 545088779bdaff665a8079296014535ab244e821
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: befd6c00cadb6758d076ad6c4d0fe940cf855f89
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993128"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406731"
 ---
 # <a name="creating-threads"></a>建立執行緒
 

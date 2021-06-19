@@ -1,17 +1,17 @@
 ---
 title: Windows 8 的 Direct2D 快速入門
-description: 摘要說明使用 Direct2D 進行繪製所需的步驟，並提供範例程式碼。
+description: 摘要說明使用 Direct2D 來繪製 Windows 8 所需的步驟，並提供範例程式碼。 Direct2D 是用來建立2D 圖形的原生程式碼 API。
 ms.assetid: FF4623FA-CA60-4637-9EE6-34C4EC84E51A
 keywords:
 - Direct2D，繪製矩形程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28e5cfbbf4e63e129a43bec783a64203e20e30a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 43442e57ed0949bdf39fc05ce1a69fded42b4b3d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968913"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406141"
 ---
 # <a name="direct2d-quickstart-for-windows-8"></a>Windows 8 的 Direct2D 快速入門
 
@@ -244,6 +244,6 @@ DX::ThrowIfFailed(
 
 本主題中的程式碼會顯示 Direct2D 應用程式的基本元素。 為了簡潔起見，此主題省略了應用程式架構和錯誤處理常式代碼，該程式碼是妥善撰寫之應用程式的特性。
 
- 
+ 
 
- 
+ 

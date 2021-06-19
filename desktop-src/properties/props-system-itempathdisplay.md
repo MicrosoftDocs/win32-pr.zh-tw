@@ -1,15 +1,15 @@
 ---
-description: 專案的使用者易記顯示路徑。
+description: 請閱讀 ItemPathDisplay 屬性，它代表使用者易記的專案顯示路徑。
 ms.assetid: 27e4490b-7914-4b38-9799-e9d5dc407f13
 title: System. ItemPathDisplay
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddb76a4218e7e7580ec70cb57dd16c635ca024ce
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ddad0edbc1a77a3de1fab7956d8ce6e6f906f06
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115457"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403901"
 ---
 # <a name="systemitempathdisplay"></a>System. ItemPathDisplay
 

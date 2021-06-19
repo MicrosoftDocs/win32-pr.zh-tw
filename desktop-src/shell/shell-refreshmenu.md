@@ -1,5 +1,5 @@
 ---
-description: 重新整理 [開始] 功能表的內容。 只能與 Windows XP 之前的系統搭配使用。
+description: 深入瞭解 RefreshMenu 方法，此方法會重新整理 [開始] 功能表的內容。 只能與 Windows XP 之前的系統搭配使用。
 ms.assetid: 1269c66d-61df-432d-9220-5ac975e3ad58
 title: 'RefreshMenu 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: a5812312c846026f4e0c7d2a4f6a5f857a572a23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 90020cd128f5cbc585bd7bc9ab33a8a81c745f8e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973256"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404531"
 ---
 # <a name="shellrefreshmenu-method"></a>RefreshMenu 方法
 

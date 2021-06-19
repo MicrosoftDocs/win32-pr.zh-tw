@@ -1,15 +1,15 @@
 ---
-description: ASF 檔案接收是媒體基礎所提供的 IMFMediaSink，可讓應用程式用來將 ASF 媒體資料封存至檔案。 如需 ASF 媒體接收物件模型和一般使用方式的相關資訊，請參閱 ASF 媒體接收器。
+description: 瞭解如何將中繼資料新增至 ASF 檔案接收，應用程式可以使用它將 ASF 媒體資料封存至檔案。
 ms.assetid: ecfddf4e-71b4-42c4-8b54-9868cec6ed9b
 title: 將中繼資料新增至 File 接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71bb63a10d935b52e6d048dbc5dcd07370dd2ab4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16ea86a09ff9e3d2a25bbf8d00d46691fd803365
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026265"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409961"
 ---
 # <a name="adding-metadata-to-the-file-sink"></a>將中繼資料新增至 File 接收器
 

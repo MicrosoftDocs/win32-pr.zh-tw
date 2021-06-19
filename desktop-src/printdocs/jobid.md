@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobID 元素，此專案會指定作業的唯一識別碼。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 138a0ae5-160d-46f2-91ae-596d8892351a
 title: JobID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd2d77d185ab7edc611a82f94a2ce92428d9f167
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2bfd17d068f34b56d45e4851c06b7ed1d9bd6fcc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998135"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408881"
 ---
 # <a name="jobid"></a>JobID
 
@@ -53,7 +53,7 @@ ms.locfileid: "107998135"
 
 | Name                      | 資料類型         | 單位 | 支援的值 | 總結 |
 |---------------------------|-------------------|------|------------------|---------|
-| \_JobIDValue\_<br/> | 字串<br/> |      |                  |         |
+| \_JobIDValue\_<br/> | string<br/> |      |                  |         |
 
 
 

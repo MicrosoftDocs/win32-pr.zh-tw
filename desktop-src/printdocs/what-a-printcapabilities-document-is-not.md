@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 PrintCapabilities 檔不打算提供的部分功能和資訊。
 ms.assetid: 87a897cd-d3aa-488a-b129-9837d3500d0d
 title: PrintCapabilities 檔不是什麼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd6e18082a5e551f3997dad8b9688d84ff2f824a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8bcd5dbedf6ee3a7e2713bd3591b182c606cfb0c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992656"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409891"
 ---
 # <a name="what-a-printcapabilities-document-is-not"></a>PrintCapabilities 檔不是什麼
 

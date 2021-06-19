@@ -1,5 +1,5 @@
 ---
-description: 連結引數支援完整的 Advanced Query 語法 (AQS) 語句，特別適用于控制搜尋範圍的方法。
+description: 瞭解如何在 Windows Shell UI 中使用連結引數，做為控制搜尋範圍的方法。
 title: " (Windows Shell 的連結引數) "
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7d38fff38c14a6b537bde068b92e19cedf53d5d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 543bc90647bbe1daed1a3a6d1f7bc54a4713a8ed
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973472"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403601"
 ---
 # <a name="crumb-argument-the-windows-shell"></a> (Windows Shell 的連結引數) 
 
@@ -124,7 +124,7 @@ crumb=location:shell%3a<LocationName>&
 
 
 
-| Name                        | 搜尋字串                   | Description                                                                                                                                                                            |
+| Name                        | 搜尋字串                   | 描述                                                                                                                                                                            |
 |-----------------------------|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 系統管理工具        | 系統管理% 20TOOLS          | 檔案系統目錄，作為系統管理工具的儲存機制。                                                                                                            |
 | APPDATA                     | APPDATA                         | 檔案系統目錄，做為應用程式特定資料的通用存放庫。 典型的路徑是 C： \\ 檔和設定使用者 \\ 名稱的 \\ 應用程式資料。                      |
@@ -186,9 +186,9 @@ crumb=location:shell%3a<LocationName>&
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| 最低作業系統 | Windows Vista 包含 Service Pack 1 (SP1) |
+|                              | 值                                   |
+|------------------------------|-----------------------------------------|
+| **最低作業系統** | Windows Vista 包含 Service Pack 1 (SP1) |
 
 
 

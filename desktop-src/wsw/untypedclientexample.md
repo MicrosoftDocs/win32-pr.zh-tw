@@ -1,6 +1,6 @@
 ---
 title: UnTypedClientExample
-description: 此範例顯示傳送要求-回復訊息的 HTTP 用戶端。
+description: 請參閱使用 Windows Web 服務 API (WWSAPI) 的不具類型用戶端範例。 此範例顯示傳送要求-回復訊息的 HTTP 用戶端。
 ms.assetid: ea6d8696-fd43-4d3c-bfec-3602658a08a7
 keywords:
 - UnTypedClientExample 原生 Web 服務
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a55b70b3eb5b94a6a5073483264c9e0ca4d406cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d66e1fcb2a26ddb0f55aa87f0aa6c4a3ace3a945
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300423"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409731"
 ---
 # <a name="untypedclientexample"></a>UnTypedClientExample
 
@@ -418,9 +418,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

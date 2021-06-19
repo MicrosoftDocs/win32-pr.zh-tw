@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 範圍前置詞是將文字標籤預先附加至 schema 關鍵字，以提供內容約制，包括作業、檔和頁面。
 ms.assetid: 4bad85d7-a933-43fe-9d79-4835d92c82d6
 title: 範圍前置詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef74be192671124872e19e87973a266da4a09226
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b2c027de94fda403eb58905e536d8c6256cb2d6c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853508"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404901"
 ---
 # <a name="scoping-prefix"></a>範圍前置詞
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 PrintCapabilities 架構所加諸的限制。 PrintCapabilities 提供者必須偵測到不正確設定，並加以解決。
 ms.assetid: 420c5c84-abb8-495a-9b74-dc19a16034fb
 title: Schema-Imposed 限制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dc283704ea96e3303de6755a217e454b506bdc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0ee2911d4b90ebc194aa245f398f71575496c877
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975613"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404921"
 ---
 # <a name="schema-imposed-limitations"></a>Schema-Imposed 限制
 

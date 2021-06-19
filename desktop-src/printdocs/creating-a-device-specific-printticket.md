@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何建立裝置特定的 PrintTicket （以特定裝置為目標，並可在多個裝置上移植）。
 ms.assetid: 487f294f-dfe0-48f8-9077-06c55c3af8f1
 title: 建立 Device-Specific 的 PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d31644f25f231f7121e2e492bc3f41a81b82d0b4
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 497b825bd875ada534c8c467cd18d90f2db9a2a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106989135"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409542"
 ---
 # <a name="creating-a-device-specific-printticket"></a>建立 Device-Specific 的 PrintTicket
 

@@ -1,15 +1,15 @@
 ---
-description: D3DX 公用程式程式庫所提供的數學程式庫會提供函數來計算3D 數學運算。
+description: 瞭解 Direct3D 10 圖形中 D3DX 公用程式程式庫所提供的數學程式庫。 此程式庫提供可計算3D 數學運算的函式。
 ms.assetid: 6e180c12-8cbe-4013-8bb4-3ac5bb9c65f1
 title: " (Direct3D 10 圖形) 的數學函數"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5401299b1aafd5663d8aaefefa4c7fa0da88a89
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85b47aec382f8b21d8769722afab51cb69a7452e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847505"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408041"
 ---
 # <a name="math-functions-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的數學函數
 

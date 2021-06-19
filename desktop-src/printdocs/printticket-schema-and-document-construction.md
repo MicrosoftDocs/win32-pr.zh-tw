@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 PrintTicket 格式，此格式會使用以 XML 為基礎的列印架構架構來表示設定資訊。
 ms.assetid: 573c2c82-aeb9-4ef2-8a1b-40b4db6ac6e4
 title: PrintTicket 架構和檔結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffe386638a7f119c52982f1911d602691455343f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 5998aeb534bbbeb16681a4136cf33425a7eefad7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195819"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405431"
 ---
 # <a name="printticket-schema-and-document-construction"></a>PrintTicket 架構和檔結構
 

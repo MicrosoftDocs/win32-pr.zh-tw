@@ -1,6 +1,6 @@
 ---
 title: '迴圈計數器 register (HLSL PS 參考) '
-description: 此銀行中唯一的註冊是) 註冊 (aL 的目前迴圈計數器。
+description: 瞭解圖元著色器的迴圈計數器暫存器。 此銀行中唯一的註冊是) 註冊 (aL 的目前迴圈計數器。
 ms.assetid: 36999873-a251-4939-aac0-faa7f910bc33
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 47582552b7e32ede7cd83637cbc3900494dfd611
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: b2a2f7f42c83308fa72ceae2875c35c600dfd7db
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679227"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405511"
 ---
 # <a name="loop-counter-register-hlsl-ps-reference"></a>迴圈計數器 register (HLSL PS 參考) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "103679227"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -37,9 +37,9 @@ ms.locfileid: "103679227"
 [寄存 器](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

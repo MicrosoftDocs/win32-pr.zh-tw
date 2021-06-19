@@ -1,15 +1,15 @@
 ---
-description: 本主題包含教學課程如何使用媒體基礎來播放媒體檔案的程式碼。
+description: 本文包含適用于教學課程的播放程式 .cpp 檔案的程式碼，說明如何使用媒體基礎來播放媒體檔案。
 ms.assetid: 18715721-f1cd-40c7-a6b7-4bd911ff999d
 title: player .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 013b7d498bb9d98e4993d13b78cc67d97043810f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5938c07b50da12c1765c34b8b89581991f977afe
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512569"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404561"
 ---
 # <a name="playercpp"></a>player .cpp
 

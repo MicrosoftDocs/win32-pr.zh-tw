@@ -1,15 +1,15 @@
 ---
-description: 在 DirectShow 中建立 ASF 檔案
+description: 瞭解如何在 DirectShow 中建立 ASF 檔案。 ASF 是一種容器格式，可包含任何類型的資料。
 ms.assetid: dffda43a-5831-4889-864f-81351b9e2bb3
 title: 在 DirectShow (DirectShow) 中建立 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11f5c9ebac0b14b736c47599ee25a1c1c28dd8f0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d4614ed813c2e9f51c77cd8773739188aa5d4d07
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970304"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403962"
 ---
 # <a name="creating-asf-files-in-directshow-directshow"></a>在 DirectShow (DirectShow) 中建立 ASF 檔案
 

@@ -1,17 +1,17 @@
 ---
 title: InprocHandler
-description: 指定應用程式是否使用自訂處理常式。
+description: InprocHandler 指定應用程式是否在 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID 登錄機碼中使用自訂處理常式。
 ms.assetid: b371b331-148b-46f2-a21e-b88b285bcfc9
 keywords:
 - InprocHandler 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8c19089ece43496465351b44e9faa8793ba893
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: aea1ca0d5eb5dec58a36578d268d7020a963a95e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372446"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404731"
 ---
 # <a name="inprochandler"></a>InprocHandler
 
@@ -21,8 +21,8 @@ ms.locfileid: "104372446"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      InprocHandler = handler.dll
+   {CLSID}
+      InprocHandler = handler.dll
 ```
 
 ## <a name="remarks"></a>備註
@@ -38,9 +38,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**InprocHandler32**](inprochandler32.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

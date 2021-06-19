@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 PropGroup PhotoAdvanced 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: ae4024d2-ffb8-46a3-a35b-08f9c9dfab8c
 title: PropGroup. PhotoAdvanced
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d8c9b7113fba3a2413f18b2306028679438cb7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50dd122f709fc1b9337922277e45a9995a65830b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193170"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403761"
 ---
 # <a name="systempropgroupphotoadvanced"></a>PropGroup. PhotoAdvanced
 

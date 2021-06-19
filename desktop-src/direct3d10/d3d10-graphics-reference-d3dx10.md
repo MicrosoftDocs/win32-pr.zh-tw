@@ -1,15 +1,15 @@
 ---
-description: 本節包含下列小節：
+description: 在 Direct3D 10 圖形中尋找介面、函數、結構和列舉參考區段的連結。
 ms.assetid: 27bd0b8a-fece-4db1-a954-ff91c2a919e6
 title: " (Direct3D 10 圖形) 的 D3DX 參考"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 026ea9d8ce13cc86b4d4a99b5ff90030331ed90a
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 1d594beab253adec6ac452e19c505f92a2c16ca5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826987"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407541"
 ---
 # <a name="d3dx-reference-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的 D3DX 參考
 

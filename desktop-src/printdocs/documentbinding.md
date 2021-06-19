@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 DocumentBinding 元素，其描述系結的方法。 DocumentBinding 和 JobBindAllDocuments 互斥。
 ms.assetid: 36a7c360-2d26-46b9-b829-0fb35b36c79c
 title: DocumentBinding
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da4aeb31acb72932bbf272d52676b7795abe8311
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: bf2b8f44c90cdef37a6599bf25904949748c82ba
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996295"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409461"
 ---
 # <a name="documentbinding"></a>DocumentBinding
 
@@ -63,8 +63,8 @@ ms.locfileid: "107996295"
 
 | Name                               | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                                                                                                                |
 |------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                                     |
-| \_IdentityOptionValue\_<br/> | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                           |
+| \_選項名稱\_<br/>          | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                                     |
+| \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                           |
 | \_BindingGutterValue\_<br/>  | 整數<br/> | 微米<br/>    | 大於或等於0。<br/>                                                                                                                                                | 定義指定之完成裝訂系結的最小裝訂裝訂邊。 裝訂邊會以 microns 相對於實體媒體維度的邊緣來測量。<br/> |
 
 

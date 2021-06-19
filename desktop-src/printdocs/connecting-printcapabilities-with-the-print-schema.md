@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解一般 PrintCapabilities 架構，其中涵蓋各種專案類型的結構、用途和使用。
 ms.assetid: 2f6c51a3-003c-4d68-9e4d-9be5d325a477
 title: 將 PrintCapabilities 與列印架構連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17d2f5a34421dba2402bce1d6699f208fd58c799
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 661a8eb93c6f788381713c0c6620e8a09a53648f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106979858"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409641"
 ---
 # <a name="connecting-printcapabilities-with-the-print-schema"></a>將 PrintCapabilities 與列印架構連接
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何建立一般的 PrintTicket，以防裝置的 PrintCapabilities 檔無法使用。
 ms.assetid: 1f991b6b-8443-4234-ad46-dc4220e34c5c
 title: 建立一般的 PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c34281eda82a48ea0ac4077248547522ddc305ea
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 69e611205663138b9cc3c0d3cd315c2c19d2d7e6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106979857"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409521"
 ---
 # <a name="creating-a-generic-printticket"></a>建立一般的 PrintTicket
 

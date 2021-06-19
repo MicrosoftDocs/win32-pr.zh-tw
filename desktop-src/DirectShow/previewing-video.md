@@ -1,15 +1,15 @@
 ---
-description: 預覽影片
+description: 此範例會使用 DirectShow 中的 ICaptureGraphBuilder2：： RenderStream 方法來建立影片預覽圖形。
 ms.assetid: 9b401de1-910a-41f7-bf80-dda73ee4a204
 title: '預覽影片 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae0a8f0d0a422794c4e887693e80391a99bd8d70
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 482fed2e164bbe867d848b05d417c89d0790256f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104556450"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406891"
 ---
 # <a name="previewing-video-directshow"></a>預覽影片 (DirectShow) 
 

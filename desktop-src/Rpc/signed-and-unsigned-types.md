@@ -1,15 +1,15 @@
 ---
 title: " (RPC) 的帶正負號和不帶正負號的類型"
-description: 針對帶正負號和不帶正負號的類型使用不同預設值的編譯器可能會在分散式應用程式中造成軟體錯誤。
+description: 瞭解 RPC 中的已簽署和不帶正負號的類型。 使用不同預設類型的編譯器可能會在您的分散式應用程式中造成軟體錯誤。
 ms.assetid: 0464d465-84b7-49fc-968e-5efe037966c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 453d45d0a4c29a2e30449fb645e6f40338eac546
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f4c03010262c8492b6738d1e817e165e5ca8f839
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842996"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406541"
 ---
 # <a name="signed-and-unsigned-types-rpc"></a> (RPC) 的帶正負號和不帶正負號的類型
 

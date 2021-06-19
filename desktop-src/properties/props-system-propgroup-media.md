@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 請參閱 PropGroup 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: ac3a5951-d3eb-4862-be1b-de9f12bc887b
 title: PropGroup
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cfcb84198c4aed2b18407c7948ca6e8702e73ca
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1ba33be9057aef8e3222a4ed8d152bb2f47ed5b1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106985821"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404501"
 ---
 # <a name="systempropgroupmedia"></a>PropGroup
 

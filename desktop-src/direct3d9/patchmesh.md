@@ -1,15 +1,15 @@
 ---
-description: 定義貝塞爾修補程式所定義的網格。 第一個陣列是頂點的清單，而第二個數組會透過索引至頂點陣列來定義網格的修補程式。
+description: PatchMesh 會定義貝塞爾修補程式所定義的網格，包括頂點清單以及網格的補充程式，方法是在頂點陣列中編制索引。
 ms.assetid: vs|directx_sdk|~\patchmesh.htm
 title: PatchMesh
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fcdefac9799736c796aef7cbb7222ab1942540d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fabb3846246c7fb76a7146baf0b30bd9730fe24b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509884"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404711"
 ---
 # <a name="patchmesh"></a>PatchMesh
 

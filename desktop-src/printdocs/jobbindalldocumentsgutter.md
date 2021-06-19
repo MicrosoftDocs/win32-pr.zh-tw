@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 JobBindAllDocumentsGutter 元素，它會指定系結裝訂邊的寬度。
 ms.assetid: 97a00cd6-508c-47e9-a1c1-75646ca0c721
 title: JobBindAllDocumentsGutter
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04615b85939d483f6bd2e720afa65a88d44c1caf
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: a42180ff9a00d1502d844b270fe5da7324825ca3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998375"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409071"
 ---
 # <a name="jobbindalldocumentsgutter"></a>JobBindAllDocumentsGutter
 
@@ -79,7 +79,7 @@ ms.locfileid: "107998375"
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
 | 強制性<br/>    | String<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
 
 
 

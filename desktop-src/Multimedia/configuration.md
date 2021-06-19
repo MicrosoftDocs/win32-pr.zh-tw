@@ -1,6 +1,6 @@
 ---
 title: 'Configuration (Windows 多媒體) '
-description: 組態
+description: 瞭解 Windows 多媒體驅動程式如何讓使用者藉由顯示 [設定] 對話方塊來選擇設定。
 ms.assetid: d61d6c8b-8dba-45c2-ba99-0b2111a2d624
 keywords:
 - 可安裝的驅動程式，設定
@@ -11,12 +11,12 @@ keywords:
 - 設定可安裝的驅動程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a248f992a857b88b723bd54c771f1af5709d97
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7804e4d92d30d666d4d28c253a1a44572a707daa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024450"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403921"
 ---
 # <a name="configuration-windows-multimedia"></a>Configuration (Windows 多媒體) 
 

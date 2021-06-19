@@ -1,15 +1,15 @@
 ---
 title: PrintTicket 提供者的考慮
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PrintTicket 提供者的其他考慮、支援 PrintTicket 差異的 inlcuidng，以及建立預設的 PrintTicket。
 ms.assetid: b6ffcd54-b50c-477c-8bb7-de5b7ffa1c73
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7496b9355144c333efc3f4b382e46ed702fee64
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c95ec4d74dc4915b7b364e2c14e5799bfc27816a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945743"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409681"
 ---
 # <a name="additional-considerations-for-printticket-providers"></a>針對 PrintTicket 提供者的其他考慮
 

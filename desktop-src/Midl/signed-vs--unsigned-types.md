@@ -1,17 +1,17 @@
 ---
 title: " (MIDL) 的帶正負號和不帶正負號類型"
-description: 針對帶正負號和不帶正負號的類型使用不同預設值的編譯器可能會在分散式應用程式中造成軟體錯誤。
+description: 瞭解 MIDL 中的正負號和不帶正負號的類型。 使用不同預設類型的編譯器可能會在您的分散式應用程式中造成軟體錯誤。
 ms.assetid: a4c2d811-6cf4-4c0b-af12-bf8247152984
 keywords:
 - 資料類型 MIDL、帶正負號和不帶正負號
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e38fbe1dc27eebae7c7933db1d699600370d960
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e2a3ed3c9f7022123f162fe0240ae190cdb4c8f8
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383550"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407381"
 ---
 # <a name="signed-and-unsigned-types-midl"></a> (MIDL) 的帶正負號和不帶正負號類型
 

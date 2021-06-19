@@ -1,6 +1,6 @@
 ---
 title: 使用 Image 元素
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文說明如何使用 VML 中的 Image 元素，這是 Windows Internet Explorer 9 所淘汰的功能。
 ms.assetid: 444c0b21-35f0-4e2d-ab6d-87a88229d9d2
 keywords:
 - 網路研討會，image 元素
@@ -46,12 +46,12 @@ keywords:
 - gamma 屬性屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 820039ff76f3685eeea7a65e2bbc01578abbe581
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 572acef76afc42e02f476ca1825ef2541f596380
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508088"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407801"
 ---
 # <a name="using-the-image-element"></a>使用 Image 元素
 
@@ -60,7 +60,7 @@ ms.locfileid: "104508088"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 使用 `<image>`
 
@@ -207,6 +207,6 @@ Gamma 屬性屬性的值可以是介於0和1之間的任何值。 依預設，�
 
 如需此元素的詳細資訊，請參閱 [VML 規格](https://www.w3.org/TR/NOTE-VML#-toc416858408) 。
 
- 
+ 
 
- 
+ 

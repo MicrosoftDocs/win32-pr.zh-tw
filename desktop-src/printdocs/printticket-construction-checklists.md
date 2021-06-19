@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 查看 PrintTicket 用戶端的作者如何使用元素類型來建立可描述裝置意圖的 PrintTicket。
 ms.assetid: ed53d1a8-d302-4855-9858-0f37dfbbd1d3
 title: PrintTicket 結構檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e742bcd3b94c5016fda6f97e2fb5e20a2cf70f73
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f76d47911d0060cc6d06604bfaeaa4abcebd3daa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106981751"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405471"
 ---
 # <a name="printticket-construction-checklists"></a>PrintTicket 結構檢查清單
 

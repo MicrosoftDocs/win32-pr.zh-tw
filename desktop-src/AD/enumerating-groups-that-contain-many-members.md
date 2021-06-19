@@ -1,6 +1,6 @@
 ---
 title: 列舉包含許多成員的群組
-description: 群組的成員會儲存在名為 member 的多重值屬性中。
+description: 瞭解如何使用資料 (範圍抓取) 的增量抓取，來列舉包含許多成員的 Azure Active Directory 群組。
 ms.assetid: 78f81b09-2223-4b74-b8d5-7a97494c0324
 ms.tgt_platform: multiple
 keywords:
@@ -8,12 +8,12 @@ keywords:
 - 群組 Active Directory，列舉具有許多成員的群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2d9a5c9abc6e77ac72672379789d1028f92c3f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7cab63b809fdbd2666f39a09d32f601346da00e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092638"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405151"
 ---
 # <a name="enumerating-groups-that-contain-many-members"></a>列舉包含許多成員的群組
 
@@ -28,16 +28,16 @@ ms.locfileid: "104092638"
 | 伺服器作業系統版本 | 已抓取的最大值 |
 |---------------------------------|--------------------------|
 | Windows 2000                    | 1000                     |
-| Windows Server 2003             | 1500                     |
+| Windows Server 2003             | 1500                     |
 
 
 
- 
+ 
 
 如需使用 ADSI 來抓取屬性值範圍的詳細資訊，請參閱 [屬性範圍](/windows/desktop/ADSI/attribute-range-retrieval)抓取。
 
 如需有關使用 [DirectoryServices](/dotnet/api/system.directoryservices)來抓取屬性值範圍的詳細資訊，請參閱 [列舉大型群組中的成員](https://msdn.microsoft.com/library/ms180907(v=VS.80).aspx)。
 
- 
+ 
 
- 
+ 

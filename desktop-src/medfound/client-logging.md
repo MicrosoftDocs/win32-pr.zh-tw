@@ -1,15 +1,15 @@
 ---
-description: 用戶端記錄
+description: 瞭解 Microsoft 媒體基礎的用戶端記錄。 記錄提供了一種方式，讓媒體伺服器追蹤連接到它的用戶端活動。
 ms.assetid: f91b48ae-3989-4c1d-929c-8ab28d7c8177
 title: '用戶端記錄 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3cb03c8026e91acd567358e7004211b7fdde4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d994531ff16466054ca0645a35082a4845e4aa4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191082"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409931"
 ---
 # <a name="client-logging-microsoft-media-foundation"></a>用戶端記錄 (Microsoft 媒體基礎) 
 
@@ -41,7 +41,7 @@ ms.locfileid: "104191082"
 <thead>
 <tr class="header">
 <th>記錄欄位</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -63,7 +63,7 @@ ms.locfileid: "104191082"
 </tr>
 <tr class="odd">
 <td>c-hostexe</td>
-<td>若為播放程式記錄檔專案，則為執行的主機程式 ( .exe) 。 例如，瀏覽器中的網頁、Microsoft Visual Basic 小程式或獨立播放機。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/> 範例值：<br/>
+<td>若為播放程式記錄檔專案，則為執行的主機程式 (.exe) 。 例如，瀏覽器中的網頁、Microsoft Visual Basic 小程式或獨立播放機。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostexe-property.md"><strong>MFNETSOURCE_HOSTEXE</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/> 範例值：<br/>
 <ul>
 <li>&quot;iexplore.exe&quot;</li>
 <li>&quot;myplayer.exe&quot;</li>
@@ -71,7 +71,7 @@ ms.locfileid: "104191082"
 </tr>
 <tr class="even">
 <td>c-hostexever</td>
-<td>主機程式 ( .exe) 版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/></td>
+<td>主機程式 (.exe) 版本號碼。 用戶端可以將此資訊傳送到 <a href="mfnetsource-hostversion-property.md"><strong>MFNETSOURCE_HOSTVERSION</strong></a> 屬性中的伺服器。<br/> 用戶端會在連接結束時將此資訊傳送至伺服器。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -175,7 +175,7 @@ HRESULT GetPacketsReceived(IMFMediaSession *pSession, DWORD *pcPackets)
 
 
 
-| 網路統計資料識別碼              | Description                                                                                                                                                                                                                |
+| 網路統計資料識別碼              | 描述                                                                                                                                                                                                                |
 |--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **MFNETSOURCE \_ AVGBANDWIDTHBPS \_ 識別碼**       | 用戶端連接到伺服器的平均每秒頻寬 (單位) 。 此值會在連接的整個持續時間內計算。                                                              |
 | **MFNETSOURCE \_ BUFFERINGCOUNT \_ 識別碼**        | 用戶端播放資料流程時緩衝處理的次數。                                                                                                                                                              |

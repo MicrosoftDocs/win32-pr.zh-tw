@@ -1,15 +1,15 @@
 ---
 title: '支援裝置端內容 (PropertySheet) '
-description: 支援 Device-Side 內容
+description: 瞭解如何使用 Windows Shell API 或 WPD API 來取得裝置物件的資料，而這些物件無法透過 Windows Vista 中的檔案系統存取。
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd7e054e4c545acd8f34583da5cd9ef3af347643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3aeade3745c37296b334c54af9edcc768fb8c93e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319943"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404191"
 ---
 # <a name="supporting-device-side-content"></a>支援裝置端內容
 

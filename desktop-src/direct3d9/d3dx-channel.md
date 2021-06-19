@@ -1,15 +1,15 @@
 ---
-description: 深入瞭解用來指定材質中要操作哪些通道的旗標，例如 D3DX \_ CHANNEL \_ RED。
+description: 瞭解 D3DX_CHANNEL 旗標，這些旗標可用來指定材質中要操作的通道，例如 D3DX_CHANNEL_RED。
 ms.assetid: b592b42a-0af1-49df-b159-4b84e4e12c95
 title: D3DX_CHANNEL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97f2725644295ac85d892799033cdac1d8f83416
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d1fa9d5df75011e62034d814549202f14fe7cdba
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342903"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408251"
 ---
 # <a name="d3dx_channel"></a>D3DX \_ 通道
 
@@ -17,7 +17,7 @@ ms.locfileid: "110342903"
 
 
 
-| \#定義                 | Description                                                                   |
+| \#定義                 | 描述                                                                   |
 |--------------------------|-------------------------------------------------------------------------------|
 | D3DX \_ 頻道 \_ 紅色       | 表示應該使用紅色通道。                                     |
 | D3DX \_ CHANNEL \_ BLUE      | 表示應該使用藍色通道。                                    |

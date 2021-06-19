@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解可用於 PrintCapabilities 檔的使用者可設定元素和參數定義。
 ms.assetid: 7f08747f-f7ff-4381-b2b9-1917e4708ee3
 title: PrintCapabilities 公用關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d5e7b001a8106f95c830f0af5e99ee9821af64
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2d836ca13297f031897598bb2ecbfc6588c49753
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975606"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407091"
 ---
 # <a name="printcapabilities-public-keywords"></a>PrintCapabilities 公用關鍵字
 

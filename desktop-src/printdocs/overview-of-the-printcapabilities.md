@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: PrintCapabilities 描述可在裝置上使用的設定或狀態，這些設定或狀態通常會放在一些不同的設定中。
 ms.assetid: 094472fc-28ca-4d7a-a8be-cc4623d02ff2
 title: PrintCapabilities 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ac6de8276c275fab05b728054b6f9a4e50e9bd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0c8f61d1ee4125a9a1ac5f9ddb07cf226cd7094e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106988119"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408521"
 ---
 # <a name="overview-of-the-printcapabilities"></a>PrintCapabilities 總覽
 

@@ -1,15 +1,15 @@
 ---
-description: 下列旗標用來指定要在材質中操作的通道。
+description: 瞭解 D3DX_FILTER 旗標，這些旗標可用來指定材質中要操作的通道，例如 D3DX_FILTER_TRIANGLE。
 ms.assetid: 0317b857-2512-4ad7-b6e3-82afdda7ea10
 title: D3DX_FILTER
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c83fd0b3e12d6b5bccb13f9c5fab5e078587dbd4
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 4c7580749eca2134f899356c4632d8171b147aa7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342863"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408221"
 ---
 # <a name="d3dx_filter"></a>D3DX \_ 篩選
 
@@ -17,7 +17,7 @@ ms.locfileid: "110342863"
 
 
 
-| \#定義                | Description                                                                                                                                                                                                 |
+| \#定義                | 描述                                                                                                                                                                                                 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DX \_ 篩選 \_ 無      | 不會進行調整或篩選。 來源影像界限外的圖元會假設為透明的黑色。                                                                                 |
 | D3DX \_ 篩選 \_ 點     | 每個目的地圖元都是從來源影像取樣最接近的圖元來計算。                                                                                                                     |
@@ -39,7 +39,7 @@ ms.locfileid: "110342863"
 
 每個有效的篩選都必須只包含下列其中一個旗標： D3DX \_ filter \_ NONE、D3DX \_ FILTER \_ POINT、D3DX \_ filter \_ 線性、D3DX \_ filter \_ 三角形或 D3DX \_ filter \_ BOX。 此外，您可以使用或運算子，以有效的篩選準則來指定下列一個或多個選擇性旗標： D3DX \_ filter \_ mirror \_ U、D3DX \_ FILTER \_ mirror \_ V、D3DX \_ filter \_ mirror \_ W、D3DX \_ filter \_ 鏡像、D3DX \_ filter \_ 遞色、D3DX \_ filter \_ srgb \_ IN、D3DX filter \_ \_ srgb \_ OUT 或 D3DX \_ filter \_ srgb。
 
-指定 \_ 這個參數的 D3DX 預設值，通常相當於指定 D3DX \_ 濾波器 \_ 三角形 \| D3DX \_ 篩選 \_ 遞色。 不過，D3DX \_ 預設值可以有不同的意義，視使用篩選的方法而定。 例如︰
+指定 \_ 這個參數的 D3DX 預設值，通常相當於指定 D3DX \_ 濾波器 \_ 三角形 \| D3DX \_ 篩選 \_ 遞色。 不過，D3DX \_ 預設值可以有不同的意義，視使用篩選的方法而定。 例如：
 
 -   使用 [**D3DXCreateTextureFromFileEx**](d3dxcreatetexturefromfileex.md)時，D3DX \_ 預設對應至 D3DX \_ 篩選 \_ 三角形 \| D3DX \_ 篩選 \_ 遞色。
 -   使用 [**D3DXFilterTexture**](d3dxfiltertexture.md)時， \_ \_ \_ 如果紋理大小是2的乘冪，D3DX 預設會對應到 D3DX 篩選方塊，否則會使用 D3DX \_ 篩選方塊 \_ \| D3DX \_ 篩選 \_ 遞色。

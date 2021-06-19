@@ -1,5 +1,5 @@
 ---
-description: Inputlocale 和 keywordlocale 識別碼可協助搜尋引擎使用正確的斷詞工具，其方式是識別使用者輸入查詢的語言，以及使用 Advanced Query 語法關鍵字的語言。
+description: 瞭解 Windows Shell UI 中的 inputlocale 和 keywordlocale 引數，這可協助搜尋引擎使用正確的斷詞工具。
 title: " (Windows Shell 的地區設定識別碼引數) "
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 403e0338b61a4dedba37a620000e3fd82c91f383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34eab39e7ed956bf68048d9ce5861c12eedbbe7a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194805"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403591"
 ---
 # <a name="locale-identifier-arguments-the-windows-shell"></a> (Windows Shell 的地區設定識別碼引數) 
 
@@ -33,9 +33,9 @@ search:query=matthew&inputlocale=2072&keywordlocale=1033
 
 
 
-|                          |                                         |
-|--------------------------|-----------------------------------------|
-| 最低作業系統 | Windows Vista 包含 Service Pack 1 (SP1) |
+|                              | 值                                   |
+|------------------------------|-----------------------------------------|
+| **最低作業系統** | Windows Vista 包含 Service Pack 1 (SP1) |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 ParameterDef 元素，此元素會定義參數輸入的有效特性。 藉由 ParameterInit 元素來輸入值。
 ms.assetid: cb00edc9-2c8a-446d-989b-a4429ee8f544
 title: ParameterDef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 697d8ff89f9aa3c9c95bea9995e18e521a17596c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2682e3da11f471401e95e3f6515de5e18b6be895
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106981944"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407291"
 ---
 # <a name="parameterdef"></a>ParameterDef
 

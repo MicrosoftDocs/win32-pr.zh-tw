@@ -1,15 +1,15 @@
 ---
 title: 正在抓取 WPD 物件屬性
-description: 正在抓取物件屬性
+description: WpdServiceApiSample 應用程式會示範應用程式如何取得指定連絡人服務所支援的內容物件屬性。
 ms.assetid: 7fbd6f65-366a-49ea-a680-be77ca0d64f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e2c206b6e3afe75144ce10de615657e788d6d1c
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 98e57258993d0a81f68042195db2caf338c97c53
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424058"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404311"
 ---
 # <a name="retrieving-wpd-object-properties"></a>正在抓取 WPD 物件屬性
 

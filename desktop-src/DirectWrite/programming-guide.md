@@ -1,6 +1,6 @@
 ---
 title: DirectWrite 程式設計指南
-description: 下列主題提供 DirectWrite API 的總覽。
+description: 請參閱《 DirectWrite API 程式設計指南》中的文章。 DirectWrite 可讓 Windows 應用程式增強 UI 和檔的文字體驗。
 ms.assetid: ca80d130-0579-409f-9054-6e63af14ebe3
 keywords:
 - DirectWrite，關於
@@ -8,12 +8,12 @@ keywords:
 - DirectWrite 程式設計指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d1003b18dda9bf91c254f3463cb424b9c05764c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 06b8cbc3ebc816b8cda02624f9fedac32d29e359
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024018"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405561"
 ---
 # <a name="directwrite-programming-guide"></a>DirectWrite 程式設計指南
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: PrintCapabilities 檔的取用者必須先遵守某些義務，才能使用 PrintCapabilities 檔。
 ms.assetid: 2377763b-9b3b-49ec-ab6c-476b8009ddcb
 title: PrintCapabilities 檔的取用者責任
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b74cfc1885ecc5599365bc6eadcef30ef4c4ae3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ec123509515de32b88c7352dcf0fc2c2b54504ff
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106997602"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404941"
 ---
 # <a name="responsibilities-of-consumers-of-the-printcapabilities-document"></a>PrintCapabilities 檔的取用者責任
 

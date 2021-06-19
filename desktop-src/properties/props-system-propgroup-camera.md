@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 PropGroup 的相關資訊。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: 8354e1d1-9c8e-43d8-972f-b7c5c22bbc98
 title: PropGroup 攝影機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61b85d50b16715ee17189331a08d49ba07f852
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b65790c926098947403b8cf9a9af3736eee264b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692827"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403771"
 ---
 # <a name="systempropgroupcamera"></a>PropGroup 攝影機
 

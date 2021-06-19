@@ -1,15 +1,15 @@
 ---
-description: 安全性
+description: 本文列出 Windows 屬性系統的安全性主題，包括 AllowedEnterpriseDataProtectionIdentities 和 EncryptionOwners。
 ms.assetid: 3754BBDB-3CBE-4C79-897D-15359B90AC82
 title: '安全性 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15ae90a92103843e210cde4c81e3b07429bee86e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51f9aa9a536bb42fb3d08d6a3efb0ef092af29aa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847827"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405601"
 ---
 # <a name="security-windows-property-system"></a>安全性 (Windows 屬性系統) 
 

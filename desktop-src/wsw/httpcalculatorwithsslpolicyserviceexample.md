@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithSslPolicyServiceExample
-description: 此範例示範如何使用服務主機，透過 HTTP （具有 SSL 傳輸安全性和 HTTP 標頭基本驗證）來裝載計算機服務。
+description: 請參閱 Windows Web 服務 API (WWSAPI) 使用 SSL 原則服務的 HTTP 計算機的 c + + 範例。
 ms.assetid: 5b3fc119-10c2-444b-91d3-415ad36a65ab
 keywords:
 - HttpCalculatorWithSslPolicyServiceExample 原生 Web 服務
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45fd787d10dab20386c016848e238eb345b347f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05ef60e86ff6c14bb8fb91369785c197b3994c94
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372179"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409771"
 ---
 # <a name="httpcalculatorwithsslpolicyserviceexample"></a>HttpCalculatorWithSslPolicyServiceExample
 
@@ -424,9 +424,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

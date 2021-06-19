@@ -1,15 +1,15 @@
 ---
-description: Microsoft Web Services on Devices API (WSDAPI) 支援執行用戶端控制的裝置和服務，以及符合 Web 服務 (DPWS) 之裝置設定檔的裝置主機。
+description: 瞭解如何在裝置上使用 Microsoft Web 服務 (WSD) API (WSDAPI) 來執行用戶端控制的裝置和服務，以及符合 DPWS 的裝置主機。
 ms.assetid: 88de8dea-56d5-4bfc-8837-03da81b7d0f9
 title: Windows 上的 WSD 應用程式開發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e33976a1903c87ffb6c577cd5a451a3b772a67a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 167cd1ad013ea387a6e33b6de449f3f84d49db13
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987558"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405781"
 ---
 # <a name="wsd-application-development-on-windows"></a>Windows 上的 WSD 應用程式開發
 

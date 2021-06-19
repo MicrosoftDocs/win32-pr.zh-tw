@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 本文包含 PrintCapabilities 檔的範例。 範例中的實例名稱僅供說明之用。
 ms.assetid: 86577c09-919b-4f07-9388-47879c656f32
 title: PrintCapabilities 檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a032958221f531186c5c6ec993102e574aefc315
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f3e2bf839e3e88e43a295912966f5b1906ef8f35
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106993806"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407101"
 ---
 # <a name="printcapabilities-document-example"></a>PrintCapabilities 檔範例
 

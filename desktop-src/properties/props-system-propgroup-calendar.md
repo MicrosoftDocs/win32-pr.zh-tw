@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 [PropGroup] 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: 88873d45-2f9b-477b-87d4-ea269afb42ae
 title: PropGroup 行事曆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d2427cdd5bb6d411d0e7212d2809ba34da06bbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bef2b32609b52a4a621193bb5d8a417967718d3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194814"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404891"
 ---
 # <a name="systempropgroupcalendar"></a>PropGroup 行事曆
 

@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 PropGroup MediaAdvanced 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: 8558141d-7637-4059-8349-7a0755edd7c3
 title: PropGroup. MediaAdvanced
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e2ac2f15664fc4033bc39c897c5faae57b90e58
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 88c1a3ed046f7ed94423cdff392db91919dfb9d0
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195772"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404511"
 ---
 # <a name="systempropgroupmediaadvanced"></a>PropGroup. MediaAdvanced
 

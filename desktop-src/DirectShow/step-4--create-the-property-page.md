@@ -1,15 +1,15 @@
 ---
-description: 步驟 4：
+description: 在建立自訂 DirectShow 篩選的篩選屬性頁時，實作為屬性頁。
 ms.assetid: ed71f26b-0812-4be8-96a4-b9f5dde45540
 title: 步驟 4： 建立屬性頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e8ea1a22e30c57c66b263a62afc1e0cf801903
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d32cd9eacc98af5f273897a3837390ab5cc75f7a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195607"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406851"
 ---
 # <a name="step-4-create-the-property-page"></a>步驟 4： 建立屬性頁
 

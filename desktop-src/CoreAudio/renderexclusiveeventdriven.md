@@ -1,15 +1,15 @@
 ---
-description: 這個範例應用程式會使用核心音訊 Api，將音訊資料轉譯為使用者指定的輸出裝置。
+description: 這個範例應用程式會示範事件驅動的緩衝，使用核心音訊 Api 將音訊資料轉譯至使用者指定的輸出裝置。
 ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: RenderExclusiveEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d3b94fa423cd4d4e7dc7121e927696529bfadf9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 75553496219d0a4ddaf6685089de802e034f94cb
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025942"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405131"
 ---
 # <a name="renderexclusiveeventdriven"></a>RenderExclusiveEventDriven
 
@@ -24,7 +24,7 @@ ms.locfileid: "104025942"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 

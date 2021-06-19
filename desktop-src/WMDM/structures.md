@@ -1,6 +1,6 @@
 ---
 title: WMDM 結構
-description: 結構
+description: 本文包含 Windows Media 裝置管理員（例如 _BITMAPINFOHEADER 和 MTP_COMMAND_DATA_IN）所定義之結構的相關參考文章。
 ms.assetid: 3068359f-5ac0-41e0-a09b-283b439527a0
 keywords:
 - Windows Media 裝置管理員，結構
@@ -9,12 +9,12 @@ keywords:
 - Windows Media 裝置管理員、結構的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 903aa07bbe3d01029eb2020b521523b545843f2a
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 7cc49deb3f4dd28695f5e0e7c3a871c53fa96300
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104373967"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406501"
 ---
 # <a name="wmdm-structures"></a>WMDM 結構
 
@@ -22,7 +22,7 @@ Windows Media 裝置管理員定義下列結構。
 
 
 
-| 結構                                                   | Description                                                                                                                                                                                                                                              |
+| 結構                                                   | 描述                                                                                                                                                                                                                                              |
 |-------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_BITMAPINFOHEADER**](-bitmapinfoheader.md)             | 定義影片框架的格式。                                                                                                                                                                                                                       |
 | [**\_ \_ 中的 MTP 命令資料 \_**](/windows/desktop/api/MtpExt/ns-mtpext-mtp_command_data_in)       | 包含媒體傳輸通訊協定 (MTP) 使用 [**IWMDMDevice3：:D eviceiocontrol**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmdevice3-deviceiocontrol) 方法傳送至裝置的自訂命令。                                                                           |
@@ -43,7 +43,7 @@ Windows Media 裝置管理員定義下列結構。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -52,9 +52,9 @@ Windows Media 裝置管理員定義下列結構。
 [**程式設計參考**](programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

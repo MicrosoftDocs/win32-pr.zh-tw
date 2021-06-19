@@ -1,6 +1,6 @@
 ---
 title: HttpCalculatorWithBasicOverSslServiceExample
-description: 此範例示範如何使用服務主機，透過 HTTP （具有 SSL 傳輸安全性和 HTTP 標頭基本驗證）來裝載計算機服務。
+description: 請參閱 Windows Web 服務 API (WWSAPI) c + + 範例，其中包含基本的 over SSL 服務的 HTTP 計算機。
 ms.assetid: ff56afec-da8c-4a2c-b26e-a065f9b73db1
 keywords:
 - HttpCalculatorWithBasicOverSslServiceExample 原生 Web 服務
@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18517b52bf0a623877dc2d04b28daa177f1a9e81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0490c8409ea8a08c990bad49472303dd4ae58c93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969881"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404151"
 ---
 # <a name="httpcalculatorwithbasicoversslserviceexample"></a>HttpCalculatorWithBasicOverSslServiceExample
 
@@ -407,9 +407,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 
