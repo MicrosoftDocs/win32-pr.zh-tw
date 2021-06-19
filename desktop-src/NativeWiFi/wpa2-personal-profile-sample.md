@@ -1,15 +1,15 @@
 ---
-description: 使用預先共用金鑰進行網路驗證。
+description: 使用預先共用金鑰進行網路驗證。 此範例設定檔會使用以個人模式執行的 Wi-Fi Protected Access 2 安全性 (WPA2-Personal) 。
 ms.assetid: dbbadac6-1b7e-4161-a775-a934cf201c9d
 title: WPA2-Personal 設定檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0054bc28962113a85bb909d4e8cd173b3bc16974
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75e0df238b83a27155e640d56fc81ed5606a76e3
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320224"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394863"
 ---
 # <a name="wpa2-personal-profile-sample"></a>WPA2-Personal 設定檔範例
 

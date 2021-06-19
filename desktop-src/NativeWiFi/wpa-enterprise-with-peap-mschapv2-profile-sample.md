@@ -1,15 +1,15 @@
 ---
-description: 使用受保護的可延伸驗證通訊協定第2版 (PEAP-Eap-mschapv2) 搭配使用者名稱/密碼向網路進行驗證。
+description: 使用受保護的可延伸驗證通訊協定搭配 Microsoft 挑戰交握驗證通訊協定第2版（含 WPA-Enterprise）。
 ms.assetid: e344c360-4ab5-4a5f-a1b2-b0fa890b8666
 title: WPA-Enterprise 與 PEAP-MSCHAPv2 設定檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 787cc2e4652d3b588b49faf2f9215cd9bd1936e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 364cc7a9cc85e4c5e2ef908c0ac2a4726d6c5a96
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469429"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395043"
 ---
 # <a name="wpa-enterprise-with-peap-mschapv2-profile-sample"></a>WPA-Enterprise 與 PEAP-MSCHAPv2 設定檔範例
 

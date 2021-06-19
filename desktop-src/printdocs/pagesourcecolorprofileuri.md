@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageSourceColorProfileURI 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 25c3c70f-20e3-4e44-9c59-bb66b4bd14d9
 title: PageSourceColorProfileURI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f515fca037e58c0794f20bc1dd1afee8a779fb49
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d7b6acd064a6b0652720a6c0d783f10a7467fa16
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996895"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395623"
 ---
 # <a name="pagesourcecolorprofileuri"></a>PageSourceColorProfileURI
 
@@ -74,8 +74,8 @@ ms.locfileid: "107996895"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

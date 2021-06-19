@@ -1,6 +1,6 @@
 ---
 title: 管理使用者
-description: 系統會建立使用者帳戶，並將其儲存為 Active Directory Domain Services 中的物件。
+description: 瞭解如何管理使用者。 系統會建立使用者帳戶，並將其儲存為 Active Directory Domain Services 中的物件。
 ms.assetid: 57c83e4d-2d9f-4f22-97e2-27e2d277f014
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - 使用者 AD，管理使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1105132c6836e108a416331b2f4a6ad666c03d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8154dc9d062b86d10b0df6418b5b4cbb79b44d2
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839296"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395313"
 ---
 # <a name="managing-users"></a>管理使用者
 
@@ -32,9 +32,9 @@ ms.locfileid: "103839296"
 -   移動使用者。 使用者與任何其他 Active Directory 物件的移動方式相同。 如需移動 Active Directory 物件的詳細資訊，請參閱 [移動物件](moving-objects.md)。
 -   [管理成員伺服器與 Windows 2000 Professional 上的使用者](managing-users-on-member-servers-and-windows-2000-professional.md)
 
- 
+ 
 
- 
+ 
 
 
 

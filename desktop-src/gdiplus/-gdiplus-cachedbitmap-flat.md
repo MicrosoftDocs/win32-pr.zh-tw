@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 CachedBitmap c + + 類別包裝。
 ms.assetid: 06718603-e001-49d4-ac5e-decdd98df42b
 title: CachedBitmap 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ebb19648e38425561d1a1609c5f71368718ffb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce265592ad8aa10744ed124d246be69e258773f5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692559"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396194"
 ---
 # <a name="cachedbitmap-functions"></a>CachedBitmap 函式
 
@@ -21,7 +21,7 @@ Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式�
 
 
 
-| 一般函數                                                                                                             | 包裝函式方法                                                                                  | Description                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 一般函數                                                                                                             | 包裝函式方法                                                                                  | 描述                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateCachedBitmap ( GpBitmap \* bitmap、GpGraphics \* Graphics、GpCachedBitmap \* \* cachedBitmap )    | [**CachedBitmap::CachedBitmap**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-cachedbitmap(constcachedbitmap_)) | 根據 [**點陣圖**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-bitmap)物件和 [**圖形**](/windows/desktop/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件建立 [**CachedBitmap：： CachedBitmap**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-cachedbitmap-cachedbitmap(constcachedbitmap_))物件。 快取的點陣圖會接受 **點陣圖** 物件的圖元資料，並將其儲存為針對與 **圖形** 物件相關聯的顯示裝置所優化的格式。 |
 | GpStatus WINGDIPAPI GdipDeleteCachedBitmap (GpCachedBitmap \* cachedBitmap) <br/>                                      | ~ CachedBitmap ()                                                                                  | 清除 [**CachedBitmap**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-cachedbitmap) 物件所使用的資源。                                                                                                                                                                                                                                                                                                                                |

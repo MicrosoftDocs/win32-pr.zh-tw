@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 HatchBrush c + + 類別包裝。
 ms.assetid: c7d9e633-8c3d-4e77-811d-306cd785a7ad
 title: HatchBrush 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d444fea500ce1e56e4c59420b913d5ff6cee965c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8aa455c1194ca4f3397673d1a4412dc9ed7e3473
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991334"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395263"
 ---
 # <a name="hatchbrush-functions"></a>HatchBrush 函式
 

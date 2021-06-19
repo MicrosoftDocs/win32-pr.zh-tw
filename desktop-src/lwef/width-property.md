@@ -1,15 +1,15 @@
 ---
 title: CommandsWindow 物件) 的 Width 屬性 (
-description: Width 屬性
+description: 深入瞭解 CommandsWindow 物件的 Width 屬性，此屬性會傳回整數值，以指定語音命令視窗的寬度（以圖元為單位）。
 ms.assetid: vs|msagent|~\pacontrol_7ca2.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8139497019e29d839c76acf28d69b5bfc9359710
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2c7652205593de29a315b17215068a384f0acf0c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383638"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395093"
 ---
 # <a name="width-property-commandswindow-object"></a>CommandsWindow 物件) 的 Width 屬性 (
 

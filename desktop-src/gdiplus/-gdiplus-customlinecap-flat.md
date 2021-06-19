@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 CustomLineCap c + + 類別包裝。
 ms.assetid: 3462f225-4372-4382-9831-2e960da43a30
 title: CustomLineCap 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0305d5e14c651b825bd33d601c9cf0f6520696c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09853e1ead60faff7f4311b610249151d5deb929
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513172"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395003"
 ---
 # <a name="customlinecap-functions"></a>CustomLineCap 函式
 
@@ -19,7 +19,7 @@ Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式�
 
 
 
-| 一般函數                                                                                                                                         | 包裝函式方法                                                                                                            | Description                                                                                                                                                                                                                                                                                                                                                   |
+| 一般函數                                                                                                                                         | 包裝函式方法                                                                                                            | 描述                                                                                                                                                                                                                                                                                                                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateCustomLineCap (GpPath \* fillPath、GpPath \* StrokePath、GpLineCap BASECAP、REAL BaseInset、GpCustomLineCap \* \* customCap)  | [**CustomLineCap::CustomLineCap**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-customlinecap(constcustomlinecap_)) | 建立 [**CustomLineCap：： CustomLineCap**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-customlinecap(constcustomlinecap_)) 物件。                                                                                                                                                                                                                   |
 | GpStatus WINGDIPAPI GdipDeleteCustomLineCap (GpCustomLineCap \* customCap)                                                                               | virtual ~ CustomLineCap ()                                                                                                   | 清除 [**CustomLineCap：： CustomLineCap**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-customlinecap-customlinecap(constcustomlinecap_)) 物件所使用的資源。                                                                                                                                                                                               |

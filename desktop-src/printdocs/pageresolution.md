@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 閱讀 PageResolution 使用者可設定的元素。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 88f9a9a3-520e-4044-9ab2-961de03878fa
 title: PageResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e44a7ff73c03929d3dfc8bc9f7c31c878ad039c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 760384ff900e7b35e37105fdb19e3635a434aa5a
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993715"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394815"
 ---
 # <a name="pageresolution"></a>PageResolution
 
@@ -69,11 +69,11 @@ ms.locfileid: "107993715"
 
 | Name                                      | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                                                                                                          |
 |-------------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>                 | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                               |
-| \_IdentityOptionValue\_<br/>        | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                     |
+| \_選項名稱\_<br/>                 | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                               |
+| \_IdentityOptionValue\_<br/>        | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                     |
 | \_ResolutionXValue\_<br/>           | 整數<br/> | DPI<br/>        | 大於 0。<br/>                                                                                                                                                            | 以 DPI (（相對於媒體) 的 PageMediaSize 和饋送方向），指定相對於 PageImageableSize 的解析度 x 元件。<br/> |
 | \_ResolutionYValue\_<br/>           | 整數<br/> | DPI<br/>        | 大於 0。<br/>                                                                                                                                                            | 指定相對於媒體) 的 PageMediaSize 和饋送方向，相對於 DPI (的解析度的 y 元件。<br/> |
-| \_QualitativeResolutionValue\_<br/> | 字串<br/>  | n/a<br/>        | 預設值、草稿、高、標準、其他。<br/>                                                                                                                                       | 指定解析度的品質標籤。<br/>                                                                                                         |
+| \_QualitativeResolutionValue\_<br/> | string<br/>  | n/a<br/>        | 預設值、草稿、高、標準、其他。<br/>                                                                                                                                       | 指定解析度的品質標籤。<br/>                                                                                                         |
 
 
 

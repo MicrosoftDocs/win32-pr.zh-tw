@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 閱讀有關 Print Schema Framework 中 ParameterRef 元素的資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 78df6acf-eb4e-46c1-bf1d-c0a99cf49bff
 title: ParameterRef 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30c0e145e99b1ee705d63449cf693c6fc87f6463
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2935317bc4107e2071911ab1df826426b2bcec17
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104035228"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396523"
 ---
 # <a name="parameterref-elements"></a>ParameterRef 元素
 

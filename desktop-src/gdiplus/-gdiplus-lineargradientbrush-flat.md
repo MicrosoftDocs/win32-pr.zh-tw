@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 LinearGradientBrush c + + 類別包裝。
 ms.assetid: ffbf0fe2-7651-4241-8669-2f4e9fe0868e
 title: LinearGradientBrush 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4ae5130610daaacb2cdbe83a9f1ad0c1577ced8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3128657156ed2282669942cda18293f8265e6e2
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991323"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395233"
 ---
 # <a name="lineargradientbrush-functions"></a>LinearGradientBrush 函式
 

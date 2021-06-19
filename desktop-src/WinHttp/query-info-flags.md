@@ -4,12 +4,12 @@ ms.assetid: c26dac1d-9a75-440a-a0ef-a2029f138f3b
 title: " (WinHTTP. h) 的查詢資訊旗標"
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32ba15c258a37627cdbdd79f13859761fd671385
-ms.sourcegitcommit: df0933ad2b42f07031f4340330712c11cf712ff0
+ms.openlocfilehash: 5b3d8a7f95f0e093f175901e4bed30f4055a04b8
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/14/2021
-ms.locfileid: "107385886"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396623"
 ---
 # <a name="query-info-flags-winhttph"></a> (WinHTTP. h) 的查詢資訊旗標
 
@@ -799,6 +799,24 @@ ms.locfileid: "107385886"
 
 
 傳回標頭值作為 [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime) 結構，而不需要應用程式剖析資料。 用於其值為日期/時間字串的標頭，例如「上次修改時間」。
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_TRAILERS"></span><span id="winhttp_query_flag_trailers"></span>**WINHTTP \_ 查詢 \_ 旗標 \_ 尾端**
+</dt> <dd> <dl> <dt>
+
+
+查詢回應尾端。 在查詢回應尾端之前，您必須先呼叫 [**WinHttpReadData**](/windows/win32/api/Winhttp/nf-winhttp-winhttpreaddata) ，直到它傳回0個位元組。
+
+
+</dt> </dl> </dd> </dl>
+
+<span id="WINHTTP_QUERY_FLAG_WIRE_ENCODING"></span><span id="winhttp_query_flag_wire_encoding"></span>**WINHTTP \_ 查詢 \_ 旗標 \_ 網路 \_ 編碼**
+</dt> <dd> <dl> <dt>
+
+
+根據預設， [**WinHttpQueryHeaders**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryheaders) 會先執行 Unicode 轉換，再傳回所查詢的標頭。 如果設定此旗標，WinHttp 會將標頭傳回給呼叫端，而不會執行這項轉換。
 
 
 </dt> </dl> </dd> </dl>

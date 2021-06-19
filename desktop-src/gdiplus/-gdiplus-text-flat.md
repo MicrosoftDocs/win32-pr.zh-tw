@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由圖形文字 c + + 類別所包裝。
 ms.assetid: 70d35c08-08d9-46a6-a6df-76d989551866
 title: 文字函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36890179a975c35e2f09aaeecaec0d9f0e5844a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b308b500c98a447ab747999fc42c485939054a11
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972837"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395543"
 ---
 # <a name="text-functions"></a>文字函數
 

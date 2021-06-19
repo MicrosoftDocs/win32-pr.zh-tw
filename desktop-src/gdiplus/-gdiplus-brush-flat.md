@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由筆刷 c + + 類別包裝。
 ms.assetid: def64d31-9a4b-4365-a618-b87735ce38f1
 title: " (GDI +) 的筆刷函數"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7490cc641312014987b2fb847979de640c28c47e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffe23588c44d8a3a6412cd0c2bc1327b98bbbd95
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319019"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395083"
 ---
 # <a name="brush-functions-gdi"></a> (GDI +) 的筆刷函數
 
@@ -21,7 +21,7 @@ Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式�
 
 
 
-| 一般函數                                                                        | 包裝函式方法                                          | Description                                                                                                                                          |
+| 一般函數                                                                        | 包裝函式方法                                          | 描述                                                                                                                                          |
 |--------------------------------------------------------------------------------------|---------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCloneBrush (GpBrush \* 筆刷，GpBrush \* \* cloneBrush)           | [**筆刷：： Clone**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)     | [**Brush：： Clone**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)方法會根據此筆刷建立新的 [**筆刷**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush)物件。 |
 | GpStatus WINGDIPAPI GdipDeleteBrush (GpBrush \* 筆刷)                                  | 虛擬 ~ 筆刷 ()                                         | 清除 [**筆刷**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-brush) 物件所使用的資源。                                                                    |

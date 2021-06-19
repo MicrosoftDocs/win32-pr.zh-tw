@@ -1,15 +1,15 @@
 ---
 title: 'Visible 屬性 (Command 物件) '
-description: Visible 屬性
+description: 瞭解 Command 物件的 Visible 屬性，它會傳回或設定命令是否顯示在字元的快顯功能表中。
 ms.assetid: 80137e16-4646-4251-b1c0-bca39ff7a233
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: feaa6603812bf0938e6639021eb0f8660382af37
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: af4efec1ad8a97d6412a560a81836273b93ebf2b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106984947"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396243"
 ---
 # <a name="visible-property-command-object"></a>Visible 屬性 (Command 物件) 
 

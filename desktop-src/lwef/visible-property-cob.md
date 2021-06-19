@@ -1,15 +1,15 @@
 ---
 title: 'Visible 屬性 (字元物件) '
-description: Visible 屬性
+description: 深入瞭解字元物件的 Visible 屬性，它會傳回布林值，指出是否可以看見該字元。
 ms.assetid: c06d623d-8997-413a-b4ab-24275eccfa10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a994fd59e5eaaebcaabbd9257b860fa4e27a09b4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7358cd87a7fb3232b22cef33cbee5f2609708875
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106993739"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396303"
 ---
 # <a name="visible-property-characters-object"></a>Visible 屬性 (字元物件) 
 
@@ -34,7 +34,7 @@ ms.locfileid: "106993739"
 | 值 | 描述                            |
 |-------|----------------------------------------|
 | True  | 字元隨即顯示。            |
-| 否 | 隱藏的字元 (看不到) 。 |
+| False | 隱藏的字元 (看不到) 。 |
 
 
 

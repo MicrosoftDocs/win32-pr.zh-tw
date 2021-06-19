@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由矩陣 c + + 類別包裝。
 ms.assetid: 89be396f-7421-4a58-890b-6c7c34fe090c
 title: 矩陣函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 914cde0847c53b1a8239454e099a444ade7d9cf5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 979f502e953b077e644b5c3c7479d521f5ca929b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991322"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395243"
 ---
 # <a name="matrix-functions"></a>矩陣函數
 
@@ -21,7 +21,7 @@ Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式�
 
 
 
-| 一般函數                                                                                                                     | 包裝函式方法                                                                                              | Description                                                                                                                                                                                                                                                                                                                                                           |
+| 一般函數                                                                                                                     | 包裝函式方法                                                                                              | 描述                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateMatrix (GpMatrix \* \* matrix) <br/>                                                              | [**矩陣：：矩陣**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(constmatrix_))<br/>                                          | 建立並初始化 [**矩陣：：矩陣**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(constmatrix_)) 物件，該物件代表識別矩陣。                                                                                                                                                                                                                                         |
 | GpStatus WINGDIPAPI GdipCreateMatrix2 (REAL m11、REAL m12、REAL m21、REAL m22、REAL dx、REAL dy、GpMatrix \* \* matrix) <br/>   | [**矩陣：：矩陣**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inreal_inreal_inreal_inreal_inreal_inreal))                               | 根據定義仿射轉換的六個數字，建立及初始化 [**矩陣：：矩陣**](/windows/win32/api/gdiplusmatrix/nf-gdiplusmatrix-matrix-matrix(inreal_inreal_inreal_inreal_inreal_inreal)) 物件。                                                                                                                                                                                             |

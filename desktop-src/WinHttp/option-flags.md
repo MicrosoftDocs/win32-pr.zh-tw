@@ -5,12 +5,12 @@ title: '選項旗標 (WinHTTP. h) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 91a9506225c53893990d4dcdc534293daa6c8e00
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 25049ee11c59c6b320b794c07bd65e5ec9b930c9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262060"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395413"
 ---
 # <a name="option-flags"></a>選項旗標
 
@@ -45,6 +45,14 @@ ms.locfileid: "112262060"
 
 
 </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_BACKGROUND_CONNECTIONS"></span><span id="winhttp_option_background_connections"></span>**WINHTTP \_ 選項 \_ 背景 \_ 連接**
+</dt> <dd> <dl> <dt>
+
+當您在會話控制碼上設定此選項時，必須傳遞您要開啟的連接數目。 然後，在第一次傳送要求時，WinHttp 會以平行方式開啟多個連接，而不是只開啟單一連線。 這可以改善後續要求對相同目的地的效能，而不會造成連線建立的額外負荷。
+
+
+</dt> </dl> </dd> <dt>
 
 <span id="WINHTTP_OPTION_CALLBACK"></span><span id="winhttp_option_callback"></span>**WINHTTP \_ 選項 \_ 回呼**
 </dt> <dd> <dl> <dt>
@@ -203,6 +211,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
+<span id="WINHTTP_OPTION_DISABLE_CERT_CHAIN_BUILDING"></span><span id="winhttp_option_disable_cert_chain_building"></span>**WINHTTP \_ 選項 \_ 停用 \_ CERT \_ 鏈 \_ 建立**
+</dt> <dd> <dl> <dt>
+
+
+在 WinHttp 會話控制碼上設定這個選項，可讓您啟用/停用伺服器憑證鏈是否已建立。
+
+
+</dt> </dl> </dd> <dt>
+
 <span id="WINHTTP_OPTION_DISABLE_FEATURE"></span><span id="winhttp_option_disable_feature"></span>**WINHTTP \_ 選項 \_ 停用 \_ 功能**
 </dt> <dd> <dl> <dt>
 
@@ -322,6 +339,15 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 抓取不帶正負號的長整數值，其中包含 Microsoft Windows 通訊端錯誤碼，該錯誤碼已對應到 \_ \_ \* 此執行緒內容中最後傳回的錯誤 WINHTTP 錯誤訊息。 您可以傳遞 **Null** 做為控制碼值。
+
+
+</dt> </dl> </dd> <dt>
+
+<span id="WINHTTP_OPTION_FIRST_AVAILABLE_CONNECTION"></span><span id="winhttp_option_first_available_connection"></span>**WINHTTP \_ 選項 \_ FIRST \_ 可用 \_ 連接**
+</dt> <dd> <dl> <dt>
+
+
+根據預設，當 WinHttp 傳送要求時，如果沒有可用的連線來處理要求，WinHttp 將會嘗試建立新的連線，並將要求系結至這個新連接。 當您設定此選項時，會改為在第一個可用的連接上提供這類要求，而不一定是要建立的連接。
 
 
 </dt> </dl> </dd> <dt>
@@ -1082,6 +1108,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 |-|-|-|-|-|-|
 | WINHTTP \_ 選項有 \_ 保證 \_ 非 \_ 封鎖 \_ 回呼<br/>**Bool** | X | \- | \- | X | \- |
 | WINHTTP \_ 選項 \_ 自動登入 \_ 原則<br/>**Dword** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 背景 \_ 連接<br/>**Dword** | X | \- | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ 回呼<br/>**LPVOID** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 內容<br/>[**憑證 \_ 內容**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
 | WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 簽發者 \_ 清單<br/>[**SecPkgCoNtext \_ IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
@@ -1094,6 +1121,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 連接 \_ 統計資料 \_ V1<br/>[**TCP \_ 資訊 \_ v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10 版本2004 |
 | WINHTTP \_ 選項 \_ 內容 \_ 值<br/>**DWORD \_ PTR** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 解壓縮<br/>**Dword** | X | X | \- | X | Windows 8.1 |
+| WINHTTP \_ 選項 \_ 停用 \_ CERT \_ 鏈 \_ 建立<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ 停用 \_ 功能<br/>**Dword** | \- | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 停用 \_ 安全 \_ 通訊協定 \_ 回復<br/>**Bool** | X | \- | \- | X | Windows 10 版本1903 |
 | WINHTTP \_ 選項 \_ 停用 \_ 串流 \_ 佇列<br/>**Bool** | X | X | \- | X | Windows 10 版本1809 |
@@ -1104,6 +1132,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ 編碼 \_ 額外<br/>**Bool** | X | X | \- | X | Windows 10 版本1803 |
 | WINHTTP \_ 選項 \_ 到期 \_ 連接<br/>N/A | \- | X | \- | X | Windows 10 版本1903 |
 | WINHTTP \_ 選項 \_ 延伸 \_ 錯誤<br/>**Dword** | X | X | X | \- | \- |
+| WINHTTP \_ 選項 \_ FIRST \_ 可用 \_ 連接<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
 | WINHTTP \_ 選項 \_ 全域 \_ PROXY \_ 認證<br/>[**WINHTTP \_ 認證**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 全域 \_ 伺服器 \_ 認證<br/>[**WINHTTP \_ 認證 \_ 例如**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 控制碼 \_ 類型<br/>**Dword** | X | X | X | \- | \- |

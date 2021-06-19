@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 讀取 PageCopies 參數的參考資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: a15fe075-6696-4c70-b658-ae62d542bb4e
 title: PageCopies
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83b1fc822d27d104364c2414ca89cf1fdf30c7d3
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5002850fa1df5a86b0022a941e3b2a1f7e414a44
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997665"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396683"
 ---
 # <a name="pagecopies"></a>PageCopies
 
@@ -77,9 +77,9 @@ ms.locfileid: "107997665"
 | DefaultValue<br/> | 整數<br/> | 1<br/>                 |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>         |
 | MinValue<br/>     | 整數<br/> | 1<br/>                 |
-| 強制性<br/>    | 字串<br/>  | psk：無條件<br/> |
+| 強制性<br/>    | string<br/>  | psk：無條件<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>                 |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 副本<br/>            |
+| Unittype.pixel 表示<br/>     | string<br/>  | 副本<br/>            |
 
 
 

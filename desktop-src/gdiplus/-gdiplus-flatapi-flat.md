@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 Microsoft .NET Framework 提供一組適用于 GDI + 的 managed 程式碼包裝函式類別。
 ms.assetid: afd8cf81-8a20-4592-bd0a-46341742cc9b
 title: GDI+ Flat API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450f89439b6ead3b8cd9a49f52a6620571f6db54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65f91c3c925b7de31f27e91c70cbd1bf0cbbb2a4
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991347"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394983"
 ---
 # <a name="gdi-flat-api"></a>GDI+ Flat API
 

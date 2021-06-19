@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 TextureBrush c + + 類別包裝。
 ms.assetid: e338126d-0732-442b-8c3c-b69eb3c7b1ba
 title: 材質筆刷函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 505d50a40807d5ce45c6d444468ea9a8ab28806a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 082c251d02cfae6681480f3c9b57089624bf3e0d
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991095"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395563"
 ---
 # <a name="texture-brush-functions"></a>材質筆刷函數
 

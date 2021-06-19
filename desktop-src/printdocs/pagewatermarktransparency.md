@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageWatermarkTransparency 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: f94c1450-9648-4aee-8f88-2a9213eba4a9
 title: PageWatermarkTransparency
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d46a03cfb1b2129f4c89a6ea7c751e23cd565e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 46ba405c3cd4a269edc4585ad8cba4c81f2c05e9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996875"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394783"
 ---
 # <a name="pagewatermarktransparency"></a>PageWatermarkTransparency
 
@@ -77,8 +77,8 @@ ms.locfileid: "107996875"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 

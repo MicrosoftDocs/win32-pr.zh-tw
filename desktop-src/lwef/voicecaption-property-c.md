@@ -1,15 +1,15 @@
 ---
 title: 'VoiceCaption 屬性 (Command 物件) '
-description: VoiceCaption 屬性
+description: 瞭解 Command 物件的 VoiceCaption 屬性，此屬性會設定或傳回 [語音命令] 視窗中針對命令物件顯示的文字。
 ms.assetid: 97a3015c-6c39-42d5-b6bd-7563bd444b38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1077c8d65a52bc8f0cfa329fdceb740e30e6784
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d700b5d29b4c493be7382d45de55f44e6d02646c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106966486"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396163"
 ---
 # <a name="voicecaption-property-command-object"></a>VoiceCaption 屬性 (Command 物件) 
 

@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 GdiplusBase c + + 類別包裝。
 ms.assetid: b4fcc02c-1b0f-4731-8312-29894b1f722f
 title: 記憶體函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86e748f8a68cc6f04deba3c9676638ee48ee2e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ed10574f9cc88c5b7ca8a2b0ed09924fe8c5192
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972865"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395823"
 ---
 # <a name="memory-functions"></a>記憶體函數
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 閱讀 PrintCapabilities 檔中有關參數定義的資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 82ba4658-f0e1-47a7-bb0c-1b527fabde4a
 title: 參數定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca5a71bfc5a5111a826b5d221ff1436ecf921dd2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 4dc8ad2bed3a972202bc0a5bb07cbdd4ef9d8f44
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195811"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396573"
 ---
 # <a name="parameter-definitions"></a>參數定義
 

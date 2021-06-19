@@ -1,15 +1,15 @@
 ---
 title: 'Top 屬性 (字元物件) '
-description: Top 屬性
+description: 深入瞭解 Top property (字元物件) 。 Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。
 ms.assetid: d5758a77-2d9a-44b8-bbbb-57ddf96c7fe4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef724c7052ad1d9ba5cb51ea46ccd7647723ed32
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 28a5e26d2ef578a98447d47eb2a3fae3613760a9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106968732"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396343"
 ---
 # <a name="top-property-characters-object"></a>Top 屬性 (字元物件) 
 

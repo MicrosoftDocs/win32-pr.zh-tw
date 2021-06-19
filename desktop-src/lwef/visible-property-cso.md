@@ -1,15 +1,15 @@
 ---
 title: 'Visible 屬性 (命令物件) '
-description: Visible 屬性
+description: 瞭解命令物件的 Visible 屬性，判斷命令集合的標題是否出現在字元的快顯功能表中。
 ms.assetid: 0178a789-141b-4d4c-ba7c-05c7995f13bc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7eaba059a375c23569195ddaea82e6d03cb943ec
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: a6ea780ed5f19dbe732b18de741f9d7ee376df67
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383738"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396253"
 ---
 # <a name="visible-property-commands-object"></a>Visible 屬性 (命令物件) 
 

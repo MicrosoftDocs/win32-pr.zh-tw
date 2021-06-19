@@ -1,5 +1,5 @@
 ---
-description: 本主題的組織方式如下：
+description: 瞭解當您在 Windows Shell 中執行自訂檔案格式時，快速鍵功能表處理常式和多個動詞的最佳作法。
 title: 快速鍵功能表處理常式和多個動詞的最佳作法
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: f8b47807c4647aec274e64dbcd137833d13e23cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14ec2e8915aa1df47ca21c6436ec963be3f590f5
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973480"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396443"
 ---
 # <a name="best-practices-for-shortcut-menu-handlers-and-multiple-verbs"></a>快速鍵功能表處理常式和多個動詞的最佳作法
 
@@ -44,8 +44,8 @@ ms.locfileid: "104973480"
 -   請避免使用 **rundll32.exe** 作為動詞的主機。
 -   在實 [**ICoNtextMenu：： QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu) 時，請務必使用 ResultFromShort 宏，透過 **HRESULT** 值傳回已新增至功能表的動詞數。
 -   如果您在下列其中一個登錄機碼專案上註冊，請小心並務必在最特定的類型上註冊處理常式，以減少可能的非預期結果：
-    -   **HKEY \_類別 \_ \\ 根目錄 \** _
-    -   _ *HKEY \_ 類別 \_ 根 \\ AllFileSystemObjects**
+    -   **HKEY \_ 類別 \_ 根目錄\\\***
+    -   **HKEY \_ 類別 \_ 根 \\ AllFileSystemObjects**
     -   **HKEY \_ 類別 \_ 根 \\ 資料夾**
     -   **HKEY \_ 類別 \_ 根目錄 \\**
 -   只有在您預期您可能需要變更快速鍵功能表中的預設動詞時，才設定 **MayChangeDefaultMenu** 索引鍵。 如果您的處理常式未變更預設的動詞命令，您就不應該設定此索引鍵，因為這樣做會導致系統不必要地載入您的 DLL。

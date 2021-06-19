@@ -1,19 +1,19 @@
 ---
-description: 媒體專案之大型縮圖表示的 Uri。
+description: 瞭解 ThumbnailSmallUri 屬性，這表示媒體專案的小型縮圖表示的 URI。
 ms.assetid: 063ab14e-1cb1-4938-99b2-ebc4d53adaae
 title: ThumbnailSmallUri
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6464929e28193bc848795900e0dada8846665e84
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: dfd621ff87596f4f0333d22625e5c10d78aad428
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195730"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396633"
 ---
 # <a name="systemmediathumbnailsmalluri"></a>ThumbnailSmallUri
 
-媒體專案之大型縮圖表示的 Uri。
+媒體專案的小型縮圖表示的 Uri。
 
 ## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507"></a>Windows 10，1703版、Windows 10、1607版、Windows 10、1511版、Windows 10、1507版
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageMediaSize 使用者可設定的元素。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 6f99f54b-c401-42ea-8715-95a2aad73042
 title: PageMediaSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdbaef403027190676b57455aa460198c2868424
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 907f6a76932e17b6d60a67a65c3cfa657282b60c
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995517"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395843"
 ---
 # <a name="pagemediasize"></a>PageMediaSize
 
@@ -27,18 +27,11 @@ ms.locfileid: "107995517"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|                            |                    |
-|----------------------------|--------------------|
-| Name | 值 |
+| Name                 | 值        |
+|----------------------|--------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |
 | 注意 <br/>          | None<br/>    |
-
-
-
- 
 
 ## <a name="structural-content"></a>結構化內容
 
@@ -72,11 +65,11 @@ ms.locfileid: "107995517"
 
 | Name                                | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                                                                                                                   |
 |-------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>           | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 指定媒體的名稱。 命名應使用下列慣例： " \_ OptionNameStandard \_ " " \_ OptionNameCommonName \_ " " \_ OptionNameDescriptor \_ "。<br/> |
-| \_IdentityOptionValue\_<br/>  | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                              |
-| \_OptionNameStandard\_<br/>   | 字串<br/>  | 字元<br/> | 「ISO」、「JIS」、「日本」、「北美洲」、「OtherMetric」、「中國」、「無」。<br/>                                                                                                         | 指出媒體大小是否由特定標準定義。<br/>                                                                                               |
-| \_OptionNameCommonName\_<br/> | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 媒體大小的一般名稱。<br/>                                                                                                                                |
-| \_OptionNameDescriptor\_<br/> | 字串<br/>  | 字元<br/> | 大型、信封、額外的加號、明信片、旋轉、紙、' none '。<br/>                                                                                                              | 大型、信封、額外的加號、明信片、旋轉、紙、' none '。<br/>                                                                                                  |
+| \_選項名稱\_<br/>           | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 指定媒體的名稱。 命名應使用下列慣例： " \_ OptionNameStandard \_ " " \_ OptionNameCommonName \_ " " \_ OptionNameDescriptor \_ "。<br/> |
+| \_IdentityOptionValue\_<br/>  | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                                              |
+| \_OptionNameStandard\_<br/>   | string<br/>  | 字元<br/> | 「ISO」、「JIS」、「日本」、「北美洲」、「OtherMetric」、「中國」、「無」。<br/>                                                                                                         | 指出媒體大小是否由特定標準定義。<br/>                                                                                               |
+| \_OptionNameCommonName\_<br/> | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 媒體大小的一般名稱。<br/>                                                                                                                                |
+| \_OptionNameDescriptor\_<br/> | string<br/>  | 字元<br/> | 大型、信封、額外的加號、明信片、旋轉、紙、' none '。<br/>                                                                                                              | 大型、信封、額外的加號、明信片、旋轉、紙、' none '。<br/>                                                                                                  |
 | \_MediaSizeWidth\_<br/>       | 整數<br/> | 微米<br/>    | 大於0，小於裝置的支援媒體大小上限。<br/>                                                                                                           | 指定實體媒體的寬度。<br/>                                                                                                                     |
 | \_MediaSizeHeight\_<br/>      | 整數<br/> | 微米<br/>    | 大於0，小於裝置的支援媒體大小上限。<br/>                                                                                                           | 指定實體媒體的高度。<br/>                                                                                                                    |
 

@@ -1,15 +1,15 @@
 ---
-description: 下列語法說明如何建立封包。
+description: 查看示範如何使用封包 API 從封包解壓縮檔案的程式碼範例。 若要編譯，必須定義回呼函數。
 ms.assetid: d9d0e14a-f68c-4b3d-b91d-a3fa824031ea
 title: 從封包解壓縮檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ed62779f97c083fd39af79626d5b79baa6d305
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: aeb7089ded913a874a41c458bc99a8546f63bad6
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936197"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396613"
 ---
 # <a name="extracting-files-from-a-cabinet"></a>從封包解壓縮檔案
 

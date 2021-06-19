@@ -1,15 +1,15 @@
 ---
 title: 'Voice 屬性 (命令物件) '
-description: Voice 屬性
+description: 瞭解命令物件的 Voice 屬性，此屬性會傳回或設定傳遞至語音引擎文法 (的文字以進行辨識) 。
 ms.assetid: 1feb5597-7971-4778-8221-2eb3a6e5e1ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0207fb4fb6f09d460496b6886354bc17738def17
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7403075d8ec0b2d16c66130fc9534edf4fc391df
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104508236"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396153"
 ---
 # <a name="voice-property-commands-object"></a>Voice 屬性 (命令物件) 
 

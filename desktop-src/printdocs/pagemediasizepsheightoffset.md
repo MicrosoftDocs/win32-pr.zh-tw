@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageMediaSizePSHeightOffset 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: PageMediaSizePSHeightOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e2e1e0a75c5bb6ec95a611d304d575fcf91a13e
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: b5e2c0e3802a6c461fe2f9eec68b28677c254be9
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998055"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395733"
 ---
 # <a name="pagemediasizepsheightoffset"></a>PageMediaSizePSHeightOffset
 
@@ -77,9 +77,9 @@ ms.locfileid: "107998055"
 | DefaultValue<br/> | 整數<br/> | 未定義<br/>       |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>       |
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
 
 
 

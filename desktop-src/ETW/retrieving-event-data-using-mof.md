@@ -1,15 +1,15 @@
 ---
-description: 取用者必須知道事件資料的格式，才能使用事件特定資料。
+description: 使用受控物件格式 (MOF) 取出事件資料，同時使用事件。 取用者必須知道事件資料的格式，才能使用事件特定資料。
 ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: 使用 MOF 取出事件資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 455ddc08aae189b2ceab05aab365d9b9fb1a15d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8752d7a4dc71ddb7b5a5dbc39e93c5fe16bb652
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972177"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395013"
 ---
 # <a name="retrieving-event-data-using-mof"></a>使用 MOF 取出事件資料
 

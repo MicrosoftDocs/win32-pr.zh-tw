@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由區域 c + + 類別包裝。
 ms.assetid: 2f1d3631-7104-421a-a577-ef764bffe034
 title: '區域函式 (GDI +) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9894a5fb064202262f8fbcc5089fa26c2dc03016
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc17e8cac440f9a749767bd5cce30fe31f2d5b29
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692516"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395143"
 ---
 # <a name="region-functions-gdi"></a>區域函式 (GDI +) 
 

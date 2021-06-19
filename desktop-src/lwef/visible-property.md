@@ -1,15 +1,15 @@
 ---
 title: 'Visible 屬性 (PropertySheet 物件) '
-description: Visible 屬性
+description: 深入瞭解 PropertySheet 物件的 Visible 屬性，此屬性會傳回或設定 Microsoft Agent 屬性工作表視窗是否顯示 (開啟) 。
 ms.assetid: 8a58cd45-0391-4897-b3a2-d4f5d7297ea8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730456563d0349b6a7ce7bf7cba8340db36b39cb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 525c78a3fdfc7e852838ff288194cfc762334409
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106996379"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396213"
 ---
 # <a name="visible-property-propertysheet-object"></a>Visible 屬性 (PropertySheet 物件) 
 

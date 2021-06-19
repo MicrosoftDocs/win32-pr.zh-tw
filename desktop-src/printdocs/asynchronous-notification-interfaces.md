@@ -1,15 +1,15 @@
 ---
-description: 下列介面可用於在列印多工緩衝處理器所裝載的應用程式和元件之間的非同步通訊，例如印表機驅動程式和埠監視器。
+description: 瞭解在列印多工緩衝處理器所裝載的應用程式和元件之間的非同步通訊中所使用的介面。
 ms.assetid: e96c957f-3972-4afc-9d76-a4725b8688f8
 title: 非同步列印通知介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7da8d320b33224e81852542e39f435b45b6dab5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecfe0de2cf8510b1bb039907067b62fce08a4145
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695012"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396093"
 ---
 # <a name="asynchronous-printing-notification-interfaces"></a>非同步列印通知介面
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageWatermarkTextColor 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: edbdd2c7-da04-49fb-a0f8-31a7df88f8ef
 title: PageWatermarkTextColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a2cc4d4f88724080b09ef52d7ded781039ff852
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: db7cb7b893ec9a2ecf774173cf2a9f2410549087
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996885"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396013"
 ---
 # <a name="pagewatermarktextcolor"></a>PageWatermarkTextColor
 
@@ -74,8 +74,8 @@ ms.locfileid: "107996885"
 | DefaultValue<br/> | 整數<br/> | 未定義<br/>       |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>       |
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | sRGB<br/>            |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | sRGB<br/>            |
 
 
 

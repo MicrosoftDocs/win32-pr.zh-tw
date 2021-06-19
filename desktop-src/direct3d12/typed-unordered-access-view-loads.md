@@ -1,16 +1,16 @@
 ---
 title: 具類型的未排序存取視圖 (UAV) 載入
-description: 未排序的存取視圖 (UAV) 具類型的負載，是可讓著色器從具有特定 DXGI 格式的 UAV 讀取的能力 \_ 。
+description: 瞭解如何在 Direct3D 12 中 UAV) 具類型的載入 (未排序的存取視圖。 UAV 具型別的 Load 是可讓著色器從具有特定 DXGI_FORMAT 的 UAV 讀取的能力。
 ms.assetid: 6106D15E-EAF6-4583-B4F2-7CC7EE30DE15
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4adfd7511590a43b7f87507c5a1e0a2a87c925b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96128354132a58e0b8648fba2b4e1e6babb95535
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548386"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394763"
 ---
 # <a name="typed-unordered-access-view-uav-loads"></a>具類型的未排序存取視圖 (UAV) 載入
 
@@ -147,6 +147,6 @@ RWBuffer<unorm float> uav;
 [在 HLSL 中指定根簽章](specifying-root-signatures-in-hlsl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

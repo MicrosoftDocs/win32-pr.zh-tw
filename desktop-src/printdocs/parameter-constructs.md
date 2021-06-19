@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 Print Schema Framework 中的參數結構。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 3cb9dcf9-25fc-4d85-a770-bc5b5fdf74ef
 title: 參數結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62bd00d7beb16694748edcb3102302e576a3145
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0c34a59969a45ca2c3d6a3e4a107aaf42f93eda0
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975612"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394753"
 ---
 # <a name="parameter-constructs"></a>參數結構
 

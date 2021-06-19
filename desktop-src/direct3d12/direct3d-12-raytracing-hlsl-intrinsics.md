@@ -1,16 +1,16 @@
 ---
 title: Direct3D 12 Raytracing HLSL 內建函式
-description: 下列 HLSL 著色器支援 Direct3D 12 raytracing 管線。
+description: 查看描述高階著色器語言 (HLSL) 內建函式（支援 Direct3D 12 raytracing 管線）之文章的連結。
 ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b2e7cc7053705bd66b37d91f3ee06a6a1f249a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 06687866354611f44f295ff4fe2cf171068e83c3
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996350"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396473"
 ---
 # <a name="raytracing-hlsl-intrinsics"></a>Raytracing HLSL 內建函式
 

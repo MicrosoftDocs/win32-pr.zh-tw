@@ -1,15 +1,15 @@
 ---
 title: 具類型的未排序存取視圖載入
-description: 未排序的存取視圖 (UAV) 具類型的負載，是可讓著色器從具有特定 DXGI 格式的 UAV 讀取的能力 \_ 。
+description: 瞭解在 Direct3D 11 中 UAV) 具類型的載入 (未排序的存取視圖。 UAV 具型別的 Load 是可讓著色器從具有特定 DXGI_FORMAT 的 UAV 讀取的能力。
 ms.assetid: BA72BF21-8621-461D-8677-9DFB7D5BC6AA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0958b3563ab8001fd7b34ae62c9bcc37ad75c07a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2c6d2cbfa51c8473dc3da51c5844c63bef944b50
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315454"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396283"
 ---
 # <a name="typed-unordered-access-view-loads"></a>具類型的未排序存取視圖載入
 
@@ -130,6 +130,6 @@ float4 main() : SV_Target
 [著色器模型5。1](/windows/desktop/direct3dhlsl/shader-model-5-1)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

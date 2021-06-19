@@ -1,15 +1,15 @@
 ---
-description: 影片捕獲
+description: 瞭解如何使用 Microsoft DirectShow 來撰寫影片捕獲應用程式，方法是使用本文中連結的文章。
 ms.assetid: 92051a84-5011-42ed-be68-e8841552ca1b
 title: '影片捕獲 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e290c8fdc09b9b538369a9b1b347b1d6ad36285b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d63da84f74152c11e1126d11f6dfc450d8547b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976784"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112396413"
 ---
 # <a name="video-capture-directshow"></a>影片捕獲 (DirectShow) 
 

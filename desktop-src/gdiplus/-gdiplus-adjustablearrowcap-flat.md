@@ -1,15 +1,15 @@
 ---
-description: Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式會在 Gdiplus.dll 中執行，並在 Gdiplusflat 中宣告。
+description: Windows GDI + 會公開由大約600函式組成的一般 API。 這些一般 API 函式是由 AdjustableArrowCap c + + 類別包裝。
 ms.assetid: 809d8b1e-ccdd-4156-b650-1bb7443a59fa
 title: AdjustableArrowCap 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d377b319169a2a10c864db5aec402fe633beb3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91dd9ee90ea50c4b487ceb90e1b30f1329151533
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991455"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112395073"
 ---
 # <a name="adjustablearrowcap-functions"></a>AdjustableArrowCap 函式
 
@@ -21,7 +21,7 @@ Windows GDI + 會公開一個包含大約600函式的一般 API，這些函式�
 
 
 
-| 一般函數                                                                                                          | 包裝函式方法                                                                                                                | Description                                                                                                                                                                                                                              |
+| 一般函數                                                                                                          | 包裝函式方法                                                                                                                | 描述                                                                                                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | GpStatus WINGDIPAPI GdipCreateAdjustableArrowCap (REAL height、REAL width、BOOL isFilled、GpAdjustableArrowCap \* \* cap)  | [**AdjustableArrowCap::AdjustableArrowCap**](/windows/win32/api/gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-adjustablearrowcap(inreal_inreal_inbool)) | 使用指定的高度和寬度，建立可調整的箭號行端點。 可以填滿或 nonfilled 箭號行端點。 中間的內凹預設值為零。                                                                              |
 | GpStatus WINGDIPAPI GdipSetAdjustableArrowCapHeight (GpAdjustableArrowCap \* cap、REAL height)                            | [**AdjustableArrowCap::SetHeight**](/windows/desktop/api/Gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setheight)                                  | [**AdjustableArrowCap：： SetHeight**](/windows/desktop/api/Gdipluslinecaps/nf-gdipluslinecaps-adjustablearrowcap-setheight)方法會設定箭號端點的高度。 這是從箭號基底到其頂點的距離。                                 |

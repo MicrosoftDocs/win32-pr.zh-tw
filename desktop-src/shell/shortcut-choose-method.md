@@ -1,5 +1,5 @@
 ---
-description: 本主題的組織方式如下：
+description: 當您在 Windows Shell 中執行自訂檔案格式時，請選擇靜態或動態快捷方式功能表方法。
 title: 選擇靜態或動態快捷方式功能表方法
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 70c6cb74e2c9a432bfdae2f26da1fdbebfc5f00b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfd73ee052594e1136fe2885ce92b682f229096b
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027057"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394773"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>選擇靜態或動態快捷方式功能表方法
 
@@ -46,7 +46,7 @@ ms.locfileid: "104027057"
 <thead>
 <tr class="header">
 <th>靜態動詞</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -93,7 +93,7 @@ ms.locfileid: "104027057"
 
 
 
-| 動詞類型                                                                                 | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 動詞類型                                                                                 | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 上表中所列的靜態動詞命令 () + Advanced 查詢語法 (AQS)                   | 此選項會取得動態動詞可視性。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | Windows 7 和更新版本： [ **IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand)                         | 此選項可讓您在 Windows 檔案總管的命令模組中顯示動詞和 explorer 命令的一般執行。                                                                                                                                                                                                                                                                                                                                                                                               |
@@ -119,9 +119,8 @@ ms.locfileid: "104027057"
 
 
 
-|                      |            |               |                      |
+| Verb 方法          | Windows XP | Windows Vista | Windows 7 和以上 |
 |----------------------|------------|---------------|----------------------|
-|                      | Windows XP | Windows Vista | Windows 7 和以上 |
 | CreateProcess        | X          | X             | X                    |
 | DDE                  | X          | X             | X                    |
 | DropTarget           | X          | X             | X                    |

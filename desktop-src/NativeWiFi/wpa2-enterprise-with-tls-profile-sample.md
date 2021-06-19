@@ -1,15 +1,15 @@
 ---
-description: 使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 搭配憑證來向網路進行驗證。
+description: 使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 搭配憑證向網路 (WPA2-Enterprise) 進行驗證。
 ms.assetid: ded07fda-ea7f-4c5a-9433-60196c3f14af
 title: 使用 TLS 設定檔的 WPA2-Enterprise 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebd85d30bed631a55f0e7e622aac4a8ade17ba3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba561f552614896ca5da1522180a53146dc5ce54
+ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026239"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112394816"
 ---
 # <a name="wpa2-enterprise-with-tls-profile-sample"></a>使用 TLS 設定檔的 WPA2-Enterprise 範例
 
