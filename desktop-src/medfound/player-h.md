@@ -1,19 +1,19 @@
 ---
-description: 本主題包含教學課程如何使用媒體基礎來播放媒體檔案的程式碼。
+description: 本文包含教學課程的程式碼，說明如何使用媒體基礎來播放媒體檔案。
 ms.assetid: c3f05482-138c-4d95-9b76-a9715227961f
 title: player。h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb04c0d99d2d83843fac8988050e17bf8ebe5efe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c9d1c564edefb1683705d9ef8c4f009b061a7c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512568"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404591"
 ---
-# <a name="playerh"></a><span data-ttu-id="360f0-103">player。h</span><span class="sxs-lookup"><span data-stu-id="360f0-103">player.h</span></span>
+# <a name="playerh"></a><span data-ttu-id="a31bf-103">player。h</span><span class="sxs-lookup"><span data-stu-id="a31bf-103">player.h</span></span>
 
-<span data-ttu-id="360f0-104">本主題包含教學課程 [如何使用媒體基礎來播放媒體](how-to-play-unprotected-media-files.md)檔案的程式碼。</span><span class="sxs-lookup"><span data-stu-id="360f0-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
+<span data-ttu-id="a31bf-104">本主題包含教學課程 [如何使用媒體基礎來播放媒體](how-to-play-unprotected-media-files.md)檔案的程式碼。</span><span class="sxs-lookup"><span data-stu-id="a31bf-104">This topic contains code for the tutorial [How to Play Media Files with Media Foundation](how-to-play-unprotected-media-files.md).</span></span>
 
 
 ```C++
@@ -141,14 +141,14 @@ protected:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="360f0-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="360f0-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="a31bf-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="a31bf-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="360f0-106">媒體會話播放範例</span><span class="sxs-lookup"><span data-stu-id="360f0-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
+[<span data-ttu-id="a31bf-106">媒體會話播放範例</span><span class="sxs-lookup"><span data-stu-id="a31bf-106">Media Session Playback Example</span></span>](media-session-playback-example.md)
 </dt> <dt>
 
-[<span data-ttu-id="360f0-107">音訊/視訊播放</span><span class="sxs-lookup"><span data-stu-id="360f0-107">Audio/Video Playback</span></span>](audio-video-playback.md)
+[<span data-ttu-id="a31bf-107">音訊/視訊播放</span><span class="sxs-lookup"><span data-stu-id="a31bf-107">Audio/Video Playback</span></span>](audio-video-playback.md)
 </dt> </dl>
 
  

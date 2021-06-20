@@ -1,21 +1,21 @@
 ---
 title: '支援 WPD 裝置端內容 (CoNtextMenu) '
-description: 支援 Device-Side 內容
+description: 瞭解如何使用 Windows Shell API 或 WPD API 來取得 WPD 裝置物件的資料，而這些物件無法透過 Windows Vista 中的檔案系統存取。
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b5e7029a6a772a5706eaf80270cc87ea83ab76b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975234"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404281"
 ---
-# <a name="supporting-wpd-device-side-content"></a><span data-ttu-id="82a32-103">支援 WPD 裝置端內容</span><span class="sxs-lookup"><span data-stu-id="82a32-103">Supporting WPD device-side content</span></span>
+# <a name="supporting-wpd-device-side-content"></a><span data-ttu-id="9bbd5-103">支援 WPD 裝置端內容</span><span class="sxs-lookup"><span data-stu-id="9bbd5-103">Supporting WPD device-side content</span></span>
 
-<span data-ttu-id="82a32-104">因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell API 或 WPD API 來取得裝置物件的資料。</span><span class="sxs-lookup"><span data-stu-id="82a32-104">Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects.</span></span> <span data-ttu-id="82a32-105">這是一般內容功能表處理常式和 WPD 內容功能表處理常式之間的主要差異。</span><span class="sxs-lookup"><span data-stu-id="82a32-105">This is the primary difference between a normal context menu handler and a WPD context menu handler.</span></span> <span data-ttu-id="82a32-106">下列範例程式碼示範如何使用 Windows Shell API 抓取裝置端內容。</span><span class="sxs-lookup"><span data-stu-id="82a32-106">The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.</span></span>
+<span data-ttu-id="9bbd5-104">因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell API 或 WPD API 來取得裝置物件的資料。</span><span class="sxs-lookup"><span data-stu-id="9bbd5-104">Because device-side content is not accessible through the file system in Windows Vista, you'll need to use either the Windows Shell API or the WPD API to retrieve data for device objects.</span></span> <span data-ttu-id="9bbd5-105">這是一般內容功能表處理常式和 WPD 內容功能表處理常式之間的主要差異。</span><span class="sxs-lookup"><span data-stu-id="9bbd5-105">This is the primary difference between a normal context menu handler and a WPD context menu handler.</span></span> <span data-ttu-id="9bbd5-106">下列範例程式碼示範如何使用 Windows Shell API 抓取裝置端內容。</span><span class="sxs-lookup"><span data-stu-id="9bbd5-106">The following sample code demonstrates the retrieval of device-side content using the Windows Shell API.</span></span>
 
-<span data-ttu-id="82a32-107">第一個步驟是專案識別碼清單或 PIDL 的初始化。</span><span class="sxs-lookup"><span data-stu-id="82a32-107">The first step is the initialization of the item identifier list or PIDL.</span></span> <span data-ttu-id="82a32-108"> (此清單包含指定裝置物件的唯一識別碼。 ) </span><span class="sxs-lookup"><span data-stu-id="82a32-108">(This list contains the unique identifier for the given device object.)</span></span>
+<span data-ttu-id="9bbd5-107">第一個步驟是專案識別碼清單或 PIDL 的初始化。</span><span class="sxs-lookup"><span data-stu-id="9bbd5-107">The first step is the initialization of the item identifier list or PIDL.</span></span> <span data-ttu-id="9bbd5-108"> (此清單包含指定裝置物件的唯一識別碼。 ) </span><span class="sxs-lookup"><span data-stu-id="9bbd5-108">(This list contains the unique identifier for the given device object.)</span></span>
 
 
 ```C++
@@ -62,7 +62,7 @@ HRESULT CWPDContextMenu::_InitializePIDLArray(IDataObject *pDataObj)
 
 
 
-<span data-ttu-id="82a32-109">初始化函式會呼叫 ExaminePIDLArray 函式，此函式會抓取 \_ PIDL 陣列中 PIDL 所識別之物件的屬性。</span><span class="sxs-lookup"><span data-stu-id="82a32-109">The initialization function calls the \_ExaminePIDLArray function, which retrieves the properties for object identified by a PIDL in the PIDL array.</span></span>
+<span data-ttu-id="9bbd5-109">初始化函式會呼叫 ExaminePIDLArray 函式，此函式會抓取 \_ PIDL 陣列中 PIDL 所識別之物件的屬性。</span><span class="sxs-lookup"><span data-stu-id="9bbd5-109">The initialization function calls the \_ExaminePIDLArray function, which retrieves the properties for object identified by a PIDL in the PIDL array.</span></span>
 
 
 ```C++
@@ -158,11 +158,11 @@ Exit:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="82a32-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="82a32-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9bbd5-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="9bbd5-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="82a32-111">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="82a32-111">**Programming Guide**</span></span>](programming-guide.md)
+[<span data-ttu-id="9bbd5-111">**程式設計指南**</span><span class="sxs-lookup"><span data-stu-id="9bbd5-111">**Programming Guide**</span></span>](programming-guide.md)
 </dt> </dl>
 
  

@@ -1,33 +1,33 @@
 ---
 title: Microsoft Agent Control)  (參考
-description: 參考
+description: 這些參考主題描述 Microsoft Agent 控制項中的物件。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: vs|msagent|~\paface_4dk5.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c93073903c7163e200e37afda9a7ae410ed9b0f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: eb9436f6df6d59cf16975b40046fe58d0fed6787
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464145"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405521"
 ---
-# <a name="reference-microsoft-agent-control"></a><span data-ttu-id="37a9c-103">Microsoft Agent Control)  (參考</span><span class="sxs-lookup"><span data-stu-id="37a9c-103">Reference (Microsoft Agent Control)</span></span>
+# <a name="reference-microsoft-agent-control"></a><span data-ttu-id="ff1a7-104">Microsoft Agent Control)  (參考</span><span class="sxs-lookup"><span data-stu-id="ff1a7-104">Reference (Microsoft Agent Control)</span></span>
 
-<span data-ttu-id="37a9c-104">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="37a9c-104">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
+<span data-ttu-id="ff1a7-105">\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]</span><span class="sxs-lookup"><span data-stu-id="ff1a7-105">\[Microsoft Agent is deprecated as of Windows 7, and may be unavailable in subsequent versions of Windows.\]</span></span>
 
-<span data-ttu-id="37a9c-105">此參考包含下列物件：</span><span class="sxs-lookup"><span data-stu-id="37a9c-105">This reference contains the following objects:</span></span>
+<span data-ttu-id="ff1a7-106">此參考包含下列物件：</span><span class="sxs-lookup"><span data-stu-id="ff1a7-106">This reference contains the following objects:</span></span>
 
--   [<span data-ttu-id="37a9c-106">Request 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-106">The Request Object</span></span>](the-request-object.md)
--   [<span data-ttu-id="37a9c-107">Agent 控制項</span><span class="sxs-lookup"><span data-stu-id="37a9c-107">The Agent Control</span></span>](the-agent-control.md)
--   [<span data-ttu-id="37a9c-108">字元物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-108">The Characters Object</span></span>](the-characters-object.md)
--   [<span data-ttu-id="37a9c-109">命令集合物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-109">The Commands Collection Object</span></span>](the-commands-collection-object.md)
--   [<span data-ttu-id="37a9c-110">Command 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-110">The Command Object</span></span>](the-command-object.md)
--   [<span data-ttu-id="37a9c-111">球形球形物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-111">The Balloon Object</span></span>](the-balloon-object.md)
--   [<span data-ttu-id="37a9c-112">AnimationNames 集合</span><span class="sxs-lookup"><span data-stu-id="37a9c-112">The AnimationNames Collection</span></span>](the-animationnames-collection.md)
--   [<span data-ttu-id="37a9c-113">AudioOutput 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-113">The AudioOutput Object</span></span>](the-audiooutput-object.md)
--   [<span data-ttu-id="37a9c-114">SpeechInput 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-114">The SpeechInput Object</span></span>](the-speechinput-object.md)
--   [<span data-ttu-id="37a9c-115">CommandsWindow 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-115">The CommandsWindow Object</span></span>](the-commandswindow-object.md)
--   [<span data-ttu-id="37a9c-116">PropertySheet 物件</span><span class="sxs-lookup"><span data-stu-id="37a9c-116">The PropertySheet Object</span></span>](the-propertysheet-object.md)
+-   [<span data-ttu-id="ff1a7-107">Request 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-107">The Request Object</span></span>](the-request-object.md)
+-   [<span data-ttu-id="ff1a7-108">Agent 控制項</span><span class="sxs-lookup"><span data-stu-id="ff1a7-108">The Agent Control</span></span>](the-agent-control.md)
+-   [<span data-ttu-id="ff1a7-109">字元物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-109">The Characters Object</span></span>](the-characters-object.md)
+-   [<span data-ttu-id="ff1a7-110">命令集合物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-110">The Commands Collection Object</span></span>](the-commands-collection-object.md)
+-   [<span data-ttu-id="ff1a7-111">Command 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-111">The Command Object</span></span>](the-command-object.md)
+-   [<span data-ttu-id="ff1a7-112">球形球形物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-112">The Balloon Object</span></span>](the-balloon-object.md)
+-   [<span data-ttu-id="ff1a7-113">AnimationNames 集合</span><span class="sxs-lookup"><span data-stu-id="ff1a7-113">The AnimationNames Collection</span></span>](the-animationnames-collection.md)
+-   [<span data-ttu-id="ff1a7-114">AudioOutput 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-114">The AudioOutput Object</span></span>](the-audiooutput-object.md)
+-   [<span data-ttu-id="ff1a7-115">SpeechInput 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-115">The SpeechInput Object</span></span>](the-speechinput-object.md)
+-   [<span data-ttu-id="ff1a7-116">CommandsWindow 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-116">The CommandsWindow Object</span></span>](the-commandswindow-object.md)
+-   [<span data-ttu-id="ff1a7-117">PropertySheet 物件</span><span class="sxs-lookup"><span data-stu-id="ff1a7-117">The PropertySheet Object</span></span>](the-propertysheet-object.md)
 
  
 

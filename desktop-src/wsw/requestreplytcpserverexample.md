@@ -1,6 +1,6 @@
 ---
 title: RequestReplyTcpServerExample
-description: 此範例顯示接受通道並接收和回復訊息的 TCP 伺服器。
+description: 請參閱使用 Windows Web 服務 API (WWSAPI) 的要求和回復 TCP 伺服器範例。 這個範例會接受通道並接收和回復訊息。
 ms.assetid: da9a507b-952d-4378-a37f-c2c4407335e8
 keywords:
 - RequestReplyTcpServerExample 原生 Web 服務
@@ -8,22 +8,22 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6c2d33029c588823e5301198cf4562cc194782
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd347c5adad07140ed2b9942a1a9718bf9f5f85
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969640"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404081"
 ---
-# <a name="requestreplytcpserverexample"></a><span data-ttu-id="3e1dc-106">RequestReplyTcpServerExample</span><span class="sxs-lookup"><span data-stu-id="3e1dc-106">RequestReplyTcpServerExample</span></span>
+# <a name="requestreplytcpserverexample"></a><span data-ttu-id="a4b92-107">RequestReplyTcpServerExample</span><span class="sxs-lookup"><span data-stu-id="a4b92-107">RequestReplyTcpServerExample</span></span>
 
-<span data-ttu-id="3e1dc-107">此範例顯示接受通道並接收和回復訊息的 TCP 伺服器。</span><span class="sxs-lookup"><span data-stu-id="3e1dc-107">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
+<span data-ttu-id="a4b92-108">此範例顯示接受通道並接收和回復訊息的 TCP 伺服器。</span><span class="sxs-lookup"><span data-stu-id="a4b92-108">This example shows a TCP server that accepts a channel and receives and replies to messages.</span></span>
 
--   [<span data-ttu-id="3e1dc-108">RequestReplyTcpServer .cpp</span><span class="sxs-lookup"><span data-stu-id="3e1dc-108">RequestReplyTcpServer.cpp</span></span>](#requestreplytcpservercpp)
--   [<span data-ttu-id="3e1dc-109">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="3e1dc-109">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
--   [<span data-ttu-id="3e1dc-110">Makefile</span><span class="sxs-lookup"><span data-stu-id="3e1dc-110">Makefile</span></span>](#makefile)
+-   [<span data-ttu-id="a4b92-109">RequestReplyTcpServer .cpp</span><span class="sxs-lookup"><span data-stu-id="a4b92-109">RequestReplyTcpServer.cpp</span></span>](#requestreplytcpservercpp)
+-   [<span data-ttu-id="a4b92-110">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="a4b92-110">PurchaseOrder.wsdl</span></span>](#purchaseorderwsdl)
+-   [<span data-ttu-id="a4b92-111">Makefile</span><span class="sxs-lookup"><span data-stu-id="a4b92-111">Makefile</span></span>](#makefile)
 
-## <a name="requestreplytcpservercpp"></a><span data-ttu-id="3e1dc-111">RequestReplyTcpServer .cpp</span><span class="sxs-lookup"><span data-stu-id="3e1dc-111">RequestReplyTcpServer.cpp</span></span>
+## <a name="requestreplytcpservercpp"></a><span data-ttu-id="a4b92-112">RequestReplyTcpServer .cpp</span><span class="sxs-lookup"><span data-stu-id="a4b92-112">RequestReplyTcpServer.cpp</span></span>
 
 
 ```C++
@@ -490,7 +490,7 @@ Exit:
 
 
 
-## <a name="purchaseorderwsdl"></a><span data-ttu-id="3e1dc-112">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="3e1dc-112">PurchaseOrder.wsdl</span></span>
+## <a name="purchaseorderwsdl"></a><span data-ttu-id="a4b92-113">PurchaseOrder .wsdl</span><span class="sxs-lookup"><span data-stu-id="a4b92-113">PurchaseOrder.wsdl</span></span>
 
 ``` syntax
 <wsdl:definitions 
@@ -601,7 +601,7 @@ Exit:
 </wsdl:definitions>
 ```
 
-## <a name="makefile"></a><span data-ttu-id="3e1dc-113">Makefile</span><span class="sxs-lookup"><span data-stu-id="3e1dc-113">Makefile</span></span>
+## <a name="makefile"></a><span data-ttu-id="a4b92-114">Makefile</span><span class="sxs-lookup"><span data-stu-id="a4b92-114">Makefile</span></span>
 
 ``` syntax
 #------------------------------------------------------------
@@ -633,9 +633,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 
