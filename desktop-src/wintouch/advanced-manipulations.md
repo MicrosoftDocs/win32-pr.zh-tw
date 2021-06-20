@@ -1,6 +1,6 @@
 ---
 title: Advanced 操作
-description: 本節說明適用于應用程式的 advanced 操作。
+description: 查看登陸頁面，以取得應用程式的 advanced 操作。 請參閱總覽、擴充、旋轉和轉譯頁面的連結。
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
 - Windows Touch，操作
@@ -10,12 +10,12 @@ keywords:
 - 操作，複雜
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 628e85d9b2963e6377ba5ab239d10c70e8343465
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020935"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406321"
 ---
 # <a name="advanced-manipulations"></a>Advanced 操作
 
@@ -34,7 +34,7 @@ ms.locfileid: "104020935"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -43,9 +43,9 @@ ms.locfileid: "104020935"
 [操作](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

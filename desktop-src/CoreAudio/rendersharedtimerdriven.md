@@ -1,15 +1,15 @@
 ---
-description: 這個範例應用程式會使用核心音訊 Api，將音訊資料轉譯為使用者指定的輸出裝置。
+description: 這個範例應用程式會示範計時器驅動的緩衝，使用核心音訊 Api 將音訊資料轉譯至使用者指定的輸出裝置。
 ms.assetid: eae7d896-77ef-4340-bd77-1f3333166987
 title: RenderSharedTimerDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de4ce441a12d65b8bebb843c7b9a168443b34592
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 89d2814f359668f8724d3deb65a7c2a9eeff5b06
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688947"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410091"
 ---
 # <a name="rendersharedtimerdriven"></a>RenderSharedTimerDriven
 
@@ -24,7 +24,7 @@ ms.locfileid: "103688947"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 

@@ -1,6 +1,6 @@
 ---
 title: Windows 功能區架構簡介
-description: Windows 功能區架構是一種豐富的命令呈現系統，提供了傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的新式替代方案。
+description: 查看 Windows 功能區架構的登陸頁面，這是傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的替代方案。
 ms.assetid: bc19d5eb-e3a4-4022-8051-512cb3a3e065
 keywords:
 - Windows 功能區，架構
@@ -19,12 +19,12 @@ keywords:
 - 功能區，安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5ac5c3acccf1c48a54f93b1752729067e63e4c6
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: db15165b91708a85e5ae6237b66a15bf733e80a7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104563838"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404391"
 ---
 # <a name="introducing-the-windows-ribbon-framework"></a>Windows 功能區架構簡介
 
@@ -126,7 +126,7 @@ Windows 功能區架構是一種豐富的命令呈現系統，提供了傳統 Wi
 
     
 
-    | 屬性索引鍵類型                                                  | Description                                              |
+    | 屬性索引鍵類型                                                  | 描述                                              |
     |--------------------------------------------------------------------|----------------------------------------------------------|
     | [集合](windowsribbon-reference-properties-collection.md)    | 定義以功能區集合為基礎之控制項的屬性。 |
     | [色彩選擇器](windowsribbon-reference-properties-colorpicker.md) | 定義功能區色彩選擇器控制項的屬性。     |

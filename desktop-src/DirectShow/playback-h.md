@@ -1,15 +1,15 @@
 ---
-description: 本主題包含在 DirectShow 中播放教學課程音訊/影片的程式碼。
+description: 本文包含在 DirectShow 中播放教學課程音訊/影片的程式碼。
 ms.assetid: 8cf0f281-3680-4329-80d0-8282d1051c1a
 title: 播放。h
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03bd6ebd1d0b37c0351fbbe1b4e7906b243ffc7a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ba52dc50cd14b26bcd26284a62c96400706d8aa8
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687396"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405111"
 ---
 # <a name="playbackh"></a>播放。h
 

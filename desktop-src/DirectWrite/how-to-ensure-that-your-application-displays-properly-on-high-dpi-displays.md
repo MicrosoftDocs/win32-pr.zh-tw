@@ -1,15 +1,15 @@
 ---
 title: '如何確保您的應用程式在高 DPI 顯示器上正確顯示 (DirectWrite) '
-description: 描述如何建立在高 DPI 顯示器上適當顯示的視窗。
+description: 描述如何確保您的應用程式建立在高 DPI 顯示器上正確顯示的視窗。
 ms.assetid: d174a337-c98e-46c7-86d2-c208900882d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 317eb3379963cec600ab9bac7deb3778f0874e59
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71166d312fe666644c683fe2ece7dd3ced59f765
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315718"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406421"
 ---
 # <a name="how-to-ensure-that-your-application-displays-properly-on-high-dpi-displays"></a>如何確保您的應用程式在高 DPI 顯示器上正確顯示
 
@@ -135,6 +135,6 @@ hWnd = CreateWindow(
 [Direct2D 和高 DPI](../direct2d/direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

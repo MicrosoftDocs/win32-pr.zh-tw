@@ -1,15 +1,15 @@
 ---
 title: 裝置設定空間
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 裝置的設定空間是所有可能值的集合，可指派給裝置的所有屬性。
 ms.assetid: 598299c3-159f-4cad-b6a5-d282cd5bb4a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 120e12b6480675dba6e735390f4820a8782edc5c
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e4871da3695e81168d43504456c357b0cf566b7f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "107000349"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409481"
 ---
 # <a name="device-configuration-space-and-device-configurations"></a>裝置設定空間和裝置設定
 

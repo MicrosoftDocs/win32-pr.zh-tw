@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobStapleAllDocuments 元素，其中描述作業輸出的裝訂特性。
 ms.assetid: a6721c13-a3dc-4273-b40f-2a28184b04a9
 title: JobStapleAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9abf6184c3164e0e5a1492911e15794ea7e1d948
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 8f9598f09181a225bf10d097b8c2aedaf19373a1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993905"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408641"
 ---
 # <a name="jobstaplealldocuments"></a>JobStapleAllDocuments
 
@@ -67,8 +67,8 @@ ms.locfileid: "107993905"
 
 | Name                               | 資料類型          | 單位                       | 支援的值                                                                                                                                                                      | 總結                                                                                                                                               |
 |------------------------------------|--------------------|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | 字串<br/>  | Characters<br/>      | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                    |
-| \_IdentityOptionValue\_<br/> | 字串<br/>  | n/a<br/>             | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                          |
+| \_選項名稱\_<br/>          | string<br/>  | Characters<br/>      | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                                    |
+| \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>             | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                                          |
 | \_AngleValue\_<br/>          | 整數<br/> | 度<br/>         | 大於 0。<br/>                                                                                                                                                            | 指定裝訂角度（相對於 PageImageableSize 的寬度）。 裝訂角度是以逆時針方向來測量。<br/> |
 | \_SheetCapacityValue\_<br/>  | 整數<br/> | 媒體的工作表<br/> | 大於 0。<br/>                                                                                                                                                            | 指定目前所選媒體媒體的裝訂選項所支援的工作表數目。<br/>                                          |
 

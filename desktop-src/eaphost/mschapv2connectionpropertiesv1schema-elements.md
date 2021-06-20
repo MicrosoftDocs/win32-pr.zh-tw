@@ -1,6 +1,6 @@
 ---
 title: mschapv2connectionpropertiesv1 架構元素
-description: 由下列架構元素組成。
+description: 深入瞭解 mschapv2connectionpropertiesv1 架構的架構元素，包括 EapType 和 UseWinLogonCredentials。
 ms.assetid: 59563bbd-3243-447c-b90a-e2cf3b889f69
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c04e9885ef77fe18e2b4f7804b0f5aa12ef376f6
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 83c0c9f86f06488cef34ab24212c8754df7bd63e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104022882"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403941"
 ---
 # <a name="mschapv2connectionpropertiesv1-schema-elements"></a>mschapv2connectionpropertiesv1 架構元素
 
@@ -33,9 +33,9 @@ ms.locfileid: "104022882"
 [mschapv2connectionpropertiesv1 架構](mschapv2connectionpropertiesv1schema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

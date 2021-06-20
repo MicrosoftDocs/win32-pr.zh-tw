@@ -1,6 +1,6 @@
 ---
 title: '在 ASF 檔案中搜尋 (Windows Media Format 11 SDK) '
-description: 在 ASF 檔案中搜尋
+description: 瞭解 WM ASF 讀取器如何針對在 Windows media Format 11 SDK 中具有時態性索引的 Windows Media 內容，執行非常精確的時態搜尋。
 ms.assetid: a1717cb4-9f41-4148-b088-a6517be7da9b
 keywords:
 - Windows Media Format SDK，在 ASF 檔案中搜尋
@@ -12,12 +12,12 @@ keywords:
 - DirectShow，在 ASF 檔案中搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18389ded80f0202564cba0ce6384b5ff02d26fdd
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 807631861cdc820457360058f22fca380fca29ea
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024421"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409881"
 ---
 # <a name="seeking-in-asf-files-windows-media-format-11-sdk"></a>在 ASF 檔案中搜尋 (Windows Media Format 11 SDK) 
 

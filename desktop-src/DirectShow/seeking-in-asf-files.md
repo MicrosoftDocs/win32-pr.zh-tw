@@ -1,15 +1,15 @@
 ---
-description: 在 ASF 檔案中搜尋
+description: 瞭解 WM ASF 讀取器如何針對在 DirectShow 中具有時態性索引的 Windows Media 內容，執行非常精確的時態搜尋。
 ms.assetid: da0d687b-f571-4623-9705-e697ba8bc04e
 title: '在 ASF 檔案中搜尋 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e957fbdf7ed7df1a9cb38b14e39d384b15ab25b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 92ffc570536463b86a88e1f26be338bd748c790c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509983"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405581"
 ---
 # <a name="seeking-in-asf-files-directshow"></a>在 ASF 檔案中搜尋 (DirectShow) 
 

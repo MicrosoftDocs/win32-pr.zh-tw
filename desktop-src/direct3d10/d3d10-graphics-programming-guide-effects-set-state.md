@@ -1,15 +1,15 @@
 ---
-description: 某些效果常數只需要初始化。
+description: 某些效果常數只需要初始化。 請參閱在 Direct3D 10 中設定效果變數的基本程式碼。
 ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
 title: '設定效果狀態 (Direct3D 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f14d4cdfb23c56f9534d1b4029482ce4e494b37
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6df7133276b6392abca8d75eed16de896fb58f84
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936181"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404721"
 ---
 # <a name="set-effect-state-direct3d-10"></a>設定效果狀態 (Direct3D 10) 
 

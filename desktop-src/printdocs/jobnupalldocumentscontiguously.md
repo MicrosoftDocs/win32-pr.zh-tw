@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobNUpAllDocumentsContiguously 元素，其描述多個邏輯頁面至單一實體工作表的輸出。
 ms.assetid: e73e1736-9be5-4831-8277-23a62658b7b5
 title: JobNUpAllDocumentsContiguously
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f90620ac99bf97e85acb22c723a938c31605bd
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9106259c80a7efb89cc4481780bfb55af4f07e23
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998085"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408861"
 ---
 # <a name="jobnupalldocumentscontiguously"></a>JobNUpAllDocumentsContiguously
 
@@ -72,10 +72,10 @@ ms.locfileid: "107998085"
 
 | Name                                           | 資料類型          | 單位                     | 支援的值                                                                                                                                                                      | 總結                                                                                                                              |
 |------------------------------------------------|--------------------|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>                      | 字串<br/>  | 字元<br/>    | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                   |
-| \_IdentityOptionValue\_<br/>             | 字串<br/>  | n/a<br/>           | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                         |
+| \_選項名稱\_<br/>                      | string<br/>  | 字元<br/>    | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                   |
+| \_IdentityOptionValue\_<br/>             | string<br/>  | n/a<br/>           | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                         |
 | \_PagesPerSheetValue\_<br/>              | 整數<br/> | 邏輯頁面<br/> | 所有整數 (大於零) 。<br/>                                                                                                                                          | 指定每個實體工作表的邏輯頁面數目。 支援的集合可以是任何一組整數，例如 {1,2,4,6,8,9,16}.<br/> |
-| \_PresentationDirectionOptionName\_<br/> | 字串<br/>  | 字元<br/>    | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                   |
+| \_PresentationDirectionOptionName\_<br/> | string<br/>  | 字元<br/>    | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                   |
 
 
 

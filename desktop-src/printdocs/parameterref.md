@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 ParameterRef 元素，它會定義 ParameterInit 專案的參考，以及它如何與 ScoredProperty 搭配使用。
 ms.assetid: 35e1ccc2-ffc1-47a6-aba8-5a5cb442e8ae
 title: ParameterRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa2ef6655439718c1038afe2d342910c54db45ba
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1ff3b0e16f53e8399a5bbbb5974a05fd6886cdd2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106997603"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407181"
 ---
 # <a name="parameterref"></a>ParameterRef
 

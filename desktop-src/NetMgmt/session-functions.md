@@ -1,15 +1,15 @@
 ---
 title: " (網路管理) 的會話函數"
-description: 網路管理會話功能會控制在工作站和伺服器之間建立的網路會話。 函數需要在伺服器上啟動伺服器服務。
+description: 檢查會話函式，這是網路管理功能群組。 這些功能會控制在工作站和伺服器之間建立的網路會話。
 ms.assetid: ef912cd9-be5c-4202-89aa-e60f275e8938
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06b1e0236881b50f0363a6c872394cfe42f44748
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 78479391e4dc2d2aa0ced8af16a8b6cf6f3a9b05
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842992"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406121"
 ---
 # <a name="session-functions-network-management"></a> (網路管理) 的會話函數
 

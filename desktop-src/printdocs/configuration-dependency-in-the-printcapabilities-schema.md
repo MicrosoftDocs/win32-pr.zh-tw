@@ -1,15 +1,15 @@
 ---
 title: PrintCapabilities 設定相依性
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 設定相依性是指某些專案可以改變或甚至從一個 PrintCapabilities 檔刪除到下一個檔的事實。
 ms.assetid: 9b1f3f49-2a4a-4413-9708-a430011314e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e7f376d8bd0dab823adb3a2e0665db27508b1d7
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 20f01c8e7bd9a036a53048996ec5a38246471f67
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853524"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409661"
 ---
 # <a name="configuration-dependency-in-the-printcapabilities-schema"></a>PrintCapabilities 架構中的設定相依性
 

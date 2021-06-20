@@ -1,15 +1,15 @@
 ---
-description: 這些值會搭配 ImmGetConversionStatus 和 ImmSetConversionStatus 函數使用。
+description: 查看輸入法編輯器 (IME) 轉換模式值的清單。 這些值會搭配 ImmGetConversionStatus 和 ImmSetConversionStatus 函數使用。
 ms.assetid: 0b0afb4e-f7aa-4ca6-9174-21983b2a422b
 title: IME 轉換模式值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f59b9f1a8d5015e78a5249d3499fc55e1a94d941
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c52bc2f8f6f9fc87df48a15c66ce24b33e51742
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113624"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406751"
 ---
 # <a name="ime-conversion-mode-values"></a>IME 轉換模式值
 

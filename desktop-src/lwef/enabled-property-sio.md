@@ -1,15 +1,15 @@
 ---
 title: '啟用的屬性 (語音輸入物件) '
-description: Enabled 屬性
+description: 瞭解已啟用的語音輸入物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: d48f02f1-7d93-4780-88a7-61597672bb58
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ed92d33a6215a0534181f887662c3549f4f9f62
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 88a3e5d7989da4144805fbb926f744026033638d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383694"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407321"
 ---
 # <a name="enabled-property-speech-input-object"></a>啟用的屬性 (語音輸入物件) 
 

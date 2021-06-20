@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobName 元素，其指定工作的描述性名稱。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 1e7b0681-a29b-4fd6-8518-dc9d0b716b12
 title: JobName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb6259d8623a4611364023bf0f74784fe308b58
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3bfb63a54e9501ff5dc45ff09a925396c168b20c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998105"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408871"
 ---
 # <a name="jobname"></a>JobName
 
@@ -53,7 +53,7 @@ ms.locfileid: "107998105"
 
 | Name                        | 資料類型         | 單位 | 支援的值 | 總結 |
 |-----------------------------|-------------------|------|------------------|---------|
-| \_JobNameValue\_<br/> | 字串<br/> |      |                  |         |
+| \_JobNameValue\_<br/> | string<br/> |      |                  |         |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: 連結引數支援完整的 Advanced Query 語法 (AQS) 語句，特別適用于控制搜尋範圍的方法。
+description: 瞭解如何在 Windows Search 中使用連結引數，作為控制搜尋範圍的方法。
 ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: '連結引數 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51f36764174e0eecaedee4a9c360bb9d7dabca3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f56287c7182c0cf370250d53075a1c951ddf28b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112480"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403731"
 ---
 # <a name="crumb-argument-windows-search"></a>連結引數 (Windows Search) 
 

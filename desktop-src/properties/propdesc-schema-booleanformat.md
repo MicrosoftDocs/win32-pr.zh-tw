@@ -1,15 +1,15 @@
 ---
-description: 指定 IPropertyDescription：： FormatForDisplay 應該如何將屬性的值格式化為字串。 這僅適用于 <displayInfo displayType=&\#0034;String&\#0034;> 。
+description: 指定 IPropertyDescription：： FormatForDisplay 應該如何將 booleanFormat 屬性的值格式化為字串。
 ms.assetid: f6384910-4411-4ac2-884d-3476c1b6ff96
 title: booleanFormat
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d91332f0cc062e7ee4a83e3584776ecf09c5c4b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 528458d9c31d54ef43eca8325b1daeef4eee1195
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944329"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405961"
 ---
 # <a name="booleanformat"></a>booleanFormat
 

@@ -1,15 +1,15 @@
 ---
 title: 在高 DPI 顯示器上適當顯示
-description: 描述如何建立在高 DPI 顯示器上適當顯示的視窗。
+description: 描述為應用程式建立可在高 DPI 顯示器上正確顯示之視窗的步驟。
 ms.assetid: 72a4b076-1cf0-4dc9-bd75-43b5173fc2a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b3e82951dfa77e6f61c661b87064dad5cb9f08
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1dd45b4b654556fc251575410cc11f9b66961263
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933521"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406151"
 ---
 # <a name="displaying-properly-on-a-high-dpi-display"></a>在高 DPI 顯示器上適當顯示
 
@@ -66,7 +66,7 @@ ms.locfileid: "103933521"
 >
 > 從 Windows 8 開始，您可以使用 [**Windows：： Graphics：:D isplay：:D isplayproperties**](/uwp/api/Windows.Graphics.Display.DisplayProperties) 類別來取得系統 DPI。
 
- 
+ 
 
 ## <a name="step-2-declare-that-the-application-is-dpi-aware"></a>步驟2：宣告應用程式是 DPI-Aware
 
@@ -103,6 +103,6 @@ ms.locfileid: "103933521"
 [Direct2D 和高 DPI](direct2d-and-high-dpi.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -1,6 +1,6 @@
 ---
 title: 著色圖形
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文描述如何在 VML 中著色圖形，這是 Windows Internet Explorer 9 所淘汰的功能。
 ms.assetid: f528f0c7-1351-4bca-b309-67511431b711
 keywords:
 - 網路研討會，著色圖形
@@ -20,12 +20,12 @@ keywords:
 - RGB triplet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1257c5f5b0cf8021658820f09de6e87099f0a52b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c203debd01d4234ae58900a023944511f9fc73c1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023779"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407741"
 ---
 # <a name="coloring-shapes"></a>著色圖形
 
@@ -34,7 +34,7 @@ ms.locfileid: "104023779"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 如先前幾節中所述，您可以使用 "red" 來代表紅色的色彩 "blue" 代表藍色的色彩，依此類推。 在本主題中，我們將說明如何以任何您想要的色彩繪製圖形。
 
@@ -92,6 +92,6 @@ fillcolor="#FDF9BA" strokecolor="blue"/>
 2.  fillcolor = "rgb (0，0255) "
 3.  fillcolor = " \# 0000ff"
 
- 
+ 
 
- 
+ 

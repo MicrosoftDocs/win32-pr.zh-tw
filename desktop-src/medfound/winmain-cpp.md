@@ -1,15 +1,15 @@
 ---
-description: 本主題包含教學課程如何使用媒體基礎來播放媒體檔案的程式碼。
+description: 本文包含 winmain 的程式碼，可供教學課程說明如何使用媒體基礎來播放媒體檔案。
 ms.assetid: f13cba48-bfb6-4964-a9de-004cbb5c0dce
 title: winmain .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce99bdc59eb29b77de0418a995b7683e9c040ccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31c0ec32af15d6598dbb34d29f80ec6b4ad7a48f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944382"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406351"
 ---
 # <a name="winmaincpp"></a>winmain .cpp
 

@@ -1,15 +1,15 @@
 ---
-description: Stackedby 引數會指定要用來堆疊結果的屬性資料行。 您可以從屬性系統將任何有效的屬性堆疊。
+description: 瞭解如何在 Windows Search 中使用 stackedby 引數。 這個引數會指定要用來堆疊結果的屬性資料行。
 ms.assetid: 7563bf34-b790-4cb0-94fa-31e771f34455
 title: 'STACKEDBY 引數 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c691f2f9dd08575a9f93a5fc309b167e83f6acff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9844efb21849cad6c1d02f48f7adf793992aec08
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943282"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403711"
 ---
 # <a name="stackedby-argument-windows-search"></a>STACKEDBY 引數 (Windows Search) 
 

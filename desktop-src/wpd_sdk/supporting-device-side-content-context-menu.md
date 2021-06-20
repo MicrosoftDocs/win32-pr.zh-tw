@@ -1,15 +1,15 @@
 ---
 title: '支援 WPD 裝置端內容 (CoNtextMenu) '
-description: 支援 Device-Side 內容
+description: 瞭解如何使用 Windows Shell API 或 WPD API 來取得 WPD 裝置物件的資料，而這些物件無法透過 Windows Vista 中的檔案系統存取。
 ms.assetid: 47fb7f49-9026-43c1-be46-8a520c048862
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b5e7029a6a772a5706eaf80270cc87ea83ab76b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 626c92633b1aa215c0e826a4b720de0375aa6048
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975234"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404281"
 ---
 # <a name="supporting-wpd-device-side-content"></a>支援 WPD 裝置端內容
 

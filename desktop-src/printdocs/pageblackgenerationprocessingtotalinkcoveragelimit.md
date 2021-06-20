@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageBlackGenerationProcessingTotalInkCoverageLimit 元素，其指定影像中任何位置的四個筆墨涵蓋範圍的最大允許總和。
 ms.assetid: 7ccd02c2-7cec-4d9d-83c1-512f25f4045c
 title: PageBlackGenerationProcessingTotalInkCoverageLimit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29918bfe48d1547a3c61b8d79425b36368f6d249
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 68410cabdfafa5ce82450821e4ae45709ee8d4c9
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993875"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408441"
 ---
 # <a name="pageblackgenerationprocessingtotalinkcoveragelimit"></a>PageBlackGenerationProcessingTotalInkCoverageLimit
 
@@ -77,8 +77,8 @@ ms.locfileid: "107993875"
 | MaxValue<br/>     | 整數<br/> | 400<br/>             |
 | MinValue<br/>     | 整數<br/> | 200<br/>             |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 

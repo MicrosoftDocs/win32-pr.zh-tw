@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: Print Schema Framework 會定義命名空間，其中包含在 Print Schema 關鍵字中定義的元素和 XML 屬性。
 ms.assetid: 5a07ec21-dc7c-46d5-b1c2-de06f53fe6bf
 title: 在 Print Schema 關鍵字中定義的物件和名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2347c73dd647f90a88821658cdcf9e2ed846e83
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 73aabdac90de6743388ca1f4d44e1ad52c020dbd
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195797"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408551"
 ---
 # <a name="objects-and-names-defined-in-the-print-schema-keywords"></a>在 Print Schema 關鍵字中定義的物件和名稱
 

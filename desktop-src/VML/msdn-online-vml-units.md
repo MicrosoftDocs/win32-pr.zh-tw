@@ -1,15 +1,15 @@
 ---
 title: VML 單位
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文描述 VML 單位。 VML 是 Windows Internet Explorer 9 淘汰的功能。
 ms.assetid: f95e65ad-d92a-460f-baeb-30fd8a35f84e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e59ff91fb134edeba7e653be30141b3f72c6b65
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 184d577052412bde4a97148b51cab12a87b3672e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682592"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406941"
 ---
 # <a name="vml-units"></a>VML 單位
 
@@ -18,7 +18,7 @@ ms.locfileid: "103682592"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 VML 會使用下列 CSS 單位。
 
@@ -66,7 +66,7 @@ pc
 
 
 
- 
+ 
 
 級聯樣式表 (CSS) 屬性使用長度單位來進行測量和位置。 Internet Explorer 支援兩種類型的長度單位：相對和絕對。
 
@@ -108,8 +108,8 @@ Radians
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

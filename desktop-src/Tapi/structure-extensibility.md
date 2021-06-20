@@ -1,15 +1,15 @@
 ---
-description: 布建是以與裝置無關的方式，以及裝置特定的 (廠商特定) 方式來擴充常數和結構。
+description: 瞭解結構擴充性。 布建是以與裝置無關的方式和裝置特定的方式來擴充常數和結構。
 ms.assetid: d30f80c3-3535-4d78-b0a1-c9a7389f8fd4
 title: 結構擴充性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b00fcf80b1ecfb7cc4d31b9ff040b101707ae236
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ec7e71154ad2550a595e59763bec3a25dd6f20a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978176"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403951"
 ---
 # <a name="structure-extensibility"></a>結構擴充性
 

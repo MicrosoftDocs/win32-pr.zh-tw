@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 這些文章描述可出現在 PrintTicket 中的公用關鍵字。 不需要支援所有關鍵詞。
 ms.assetid: 6ab4b34f-554f-4ecd-b2a5-7eacb66d0d72
 title: PrintTicket 特定屬性描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c79135a32ce370f1918a9166e768708b4c17f3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 884286d631c293c5333e997932928cdeb879fc0e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195803"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405361"
 ---
 # <a name="printticket-specific-property-descriptions"></a>PrintTicket 特定屬性描述
 

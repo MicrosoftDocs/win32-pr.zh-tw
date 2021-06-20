@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 本文提供檢查清單，說明 PrintCapabilities 檔的作者可用來建立描述裝置的 PrintCapabilities 檔。
 ms.assetid: 4b8fa1a4-6461-4722-861b-354f206b2a73
 title: PrintCapabilities 檔結構檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f730a426bb787104e08f879ecccd357fd3102b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ee309c96cf7b2d70cb78f125e7783668fb2298da
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106995883"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407111"
 ---
 # <a name="printcapabilities-document-construction-checklist"></a>PrintCapabilities 檔結構檢查清單
 

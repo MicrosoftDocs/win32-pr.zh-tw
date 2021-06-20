@@ -1,6 +1,6 @@
 ---
 title: '在 DirectShow 中建立 ASF 檔案 (Windows Media Format 11 SDK) '
-description: 在 DirectShow 中建立 ASF 檔案
+description: 瞭解如何使用 Windows Media Format 11 SDK 在 DirectShow 中建立 ASF 檔案。 ASF 是一種容器格式，可包含任何類型的資料。
 ms.assetid: 8b7af340-934d-43a9-88e9-7bbb2d3a38e0
 keywords:
 - Windows Media Format SDK，在 DirectShow 中建立 ASF 檔案
@@ -12,12 +12,12 @@ keywords:
 - DirectShow，建立 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbe4a6a37a508e5d7c713ae4cf38d771d075cefa
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 9e06b6deb6dc9f07115f8143309d32dcf4a58a0f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093615"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406181"
 ---
 # <a name="creating-asf-files-in-directshow-windows-media-format-11-sdk"></a>在 DirectShow 中建立 ASF 檔案 (Windows Media Format 11 SDK) 
 

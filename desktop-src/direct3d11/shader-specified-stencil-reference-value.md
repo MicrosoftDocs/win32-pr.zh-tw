@@ -1,15 +1,15 @@
 ---
 title: " (Direct3D 11 圖形) 的著色器指定樣板參考值"
-description: 啟用圖元著色器以輸出樣板參考值，而不是使用 API 指定的值，讓您能夠對樣板作業進行細微的控制。
+description: 瞭解 Direct3D 11 圖形中的樣板參考值。 啟用圖元著色器以使用樣板參考值，可讓您更精確地控制樣板作業。
 ms.assetid: 6E336623-9746-4872-ADC1-C5489F53D7AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a089ec8ab56a1cf00021f97bb40cf86fe42f04
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c0e8a34d53bc7f30dc2a91fafabb561dff7a1e96
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316979"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408101"
 ---
 # <a name="shader-specified-stencil-reference-value-direct3d-11-graphics"></a> (Direct3D 11 圖形) 的著色器指定樣板參考值
 

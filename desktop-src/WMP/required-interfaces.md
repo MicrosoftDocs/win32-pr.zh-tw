@@ -1,6 +1,6 @@
 ---
 title: 'Windows Media Player SDK (所需的介面) '
-description: 必要的介面
+description: 瞭解 Windows Media Player 在 DirectShow 或媒體基礎中實施的必要介面。
 ms.assetid: 202d5769-edff-46df-bc05-bbb630a8f3f4
 keywords:
 - Windows Media Player 外掛程式，介面
@@ -10,12 +10,12 @@ keywords:
 - 介面、DSP 外掛程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e9c6923af513f2d241955b508f0872f85a4b020
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3d27a0c0ed56db5f35c8cde8203fcf99a81a9260
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103842988"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406091"
 ---
 # <a name="required-interfaces-windows-media-player-sdk"></a>Windows Media Player SDK (所需的介面) 
 

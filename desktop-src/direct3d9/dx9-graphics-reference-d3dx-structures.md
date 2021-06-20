@@ -1,15 +1,15 @@
 ---
-description: 本節包含 D3DX 公用程式程式庫中所包含之結構的相關資訊。
+description: 本節包含 Direct3D 9 圖形中 D3DX 公用程式程式庫中所包含之結構的相關資訊。
 ms.assetid: eee684f1-2d79-444b-86cd-322bf53ab756
 title: 'D3DX 結構 (Direct3D 9 圖形) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058979b3b843175097416be618432b51dc0f80a9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 616797f20a75ed7bd9a49e5bf811fff451d69078
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688099"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408111"
 ---
 # <a name="d3dx-structures-direct3d-9-graphics"></a>D3DX 結構 (Direct3D 9 圖形) 
 

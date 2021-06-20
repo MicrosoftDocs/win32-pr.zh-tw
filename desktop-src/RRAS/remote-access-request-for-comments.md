@@ -1,18 +1,18 @@
 ---
 title: 批註的遠端存取要求
-description: " (Rfc) 的留言要求是一系列討論網際網路和網際網路相關技術的持續系列檔。"
+description: 本文列出 (Rfc) 的遠端存取要求。 Rfc 是一系列討論網際網路相關技術的持續系列檔。
 ms.assetid: ee52dde3-e87d-437f-8321-77d771d715ec
 keywords:
 - Rfc，遠端存取
 - 要求留言、遠端存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 727d866d4dd888df0831b83acacb8ad573232758
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7636f148570e9e1f3f488dad7b23043cec5e7c03
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932972"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406621"
 ---
 # <a name="remote-access-request-for-comments"></a>批註的遠端存取要求
 
@@ -36,9 +36,9 @@ ms.locfileid: "103932972"
 -   [RFC 2869](https://www.ietf.org/rfc/rfc2869.txt) – RADIUS 延伸模組，2000年6月
 -   [Draft RADIUS MSCHAP Attr 01](https://www.freeradius.org/rfc/draft-ietf-radius-mschap-attr-01.txt) -ms-chap 支援的 Radius 屬性，1997年11月
 
- 
+ 
 
- 
+ 
 
 
 

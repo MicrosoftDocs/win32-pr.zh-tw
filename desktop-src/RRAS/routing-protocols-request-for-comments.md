@@ -1,18 +1,18 @@
 ---
 title: 批註的路由通訊協定要求
-description: " (Rfc) 的留言要求是一系列討論網際網路和網際網路相關技術的持續系列檔。"
+description: 本文列出針對路由通訊協定 (Rfc) 批註的要求。 Rfc 是一系列討論網際網路相關技術的持續系列檔。
 ms.assetid: d972ae22-177d-4320-8939-47eae8675aa2
 keywords:
 - Rfc，路由通訊協定
 - 要求留言，路由通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde9664f2d8bbcbc2af1aaf0ef3d92d8b896f0d7
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 3a3d3acb6e269c10a128a2b9519b892cd373ad4f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374646"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404781"
 ---
 # <a name="routing-protocols-request-for-comments"></a>批註的路由通訊協定要求
 
@@ -26,9 +26,9 @@ ms.locfileid: "104374646"
 -   [RFC 2246](https://www.ietf.org/rfc/rfc2246.txt) -TLS 通訊協定，1月1999日
 -   [RFC 2715](https://www.ietf.org/rfc/rfc2715.txt) -多播路由通訊協定的互通性規則，7月1998日
 
- 
+ 
 
- 
+ 
 
 
 

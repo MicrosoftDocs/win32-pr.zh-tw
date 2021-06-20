@@ -1,6 +1,6 @@
 ---
 title: '相對定址 (HLSL PS 參考) '
-description: '\\ 語法只能用在某些著色器模型中可以相對定址的暫存器類型。'
+description: 若是圖元著色器，\ \ 語法只能用在某些著色器模型中可以相對定址的暫存器類型。
 ms.assetid: 37e2bab9-f6fe-438a-8a2d-c963634ef8c3
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38c7be68245cfedbb27898e0fbb689e9e43755ca
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
+ms.openlocfilehash: 8bdafe23696c460da75d87cf1f6d5a968c89ed28
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "103679219"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405481"
 ---
 # <a name="relative-addressing-hlsl-ps-reference"></a>相對定址 (HLSL PS 參考) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "103679219"
 
 
 
- 
+ 
 
 這些暫存器適用于下列版本：
 
@@ -54,7 +54,7 @@ ms.locfileid: "103679219"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -63,9 +63,9 @@ ms.locfileid: "103679219"
 [寄存 器](dx9-graphics-reference-asm-ps-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

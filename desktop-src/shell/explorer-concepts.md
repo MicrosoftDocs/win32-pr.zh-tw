@@ -1,5 +1,5 @@
 ---
-description: Shell 命名空間會將檔案系統和其他由 Shell 管理的物件組織成單一樹狀結構階層。 就概念而言，它是較大且較多的檔案系統版本。
+description: 當您想要擴充 Windows 檔案總管（這是 Windows Shell UI 中許多擴充性選項的其中一個）時，請瞭解一般概念。
 title: Common Explorer 概念
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: d5ea7d154ef0455576d91f99eb53dccd93c25339
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562093"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404931"
 ---
 # <a name="common-explorer-concepts"></a>Common Explorer 概念
 

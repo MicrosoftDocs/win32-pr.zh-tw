@@ -1,15 +1,15 @@
 ---
-description: ASF 檔案接收是媒體基礎所提供的 IMFMediaSink，可讓應用程式用來將 ASF 媒體資料封存至檔案。 如需 ASF 媒體接收物件模型和一般使用方式的相關資訊，請參閱 ASF 媒體接收器。
+description: 瞭解如何建立可讓應用程式用來將 ASF 媒體資料封存至檔案的 ASF file 接收器。
 ms.assetid: 991f3345-a6b4-45c2-a89d-3c13c70b6bbc
 title: 建立 ASF 檔接收器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c43625bcbc581b4967d4db99cef71a0fc779f070
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fcd9ea19f0200dfd330f421fd5dac2cd100b702
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111828"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409921"
 ---
 # <a name="creating-the-asf-file-sink"></a>建立 ASF 檔接收器
 

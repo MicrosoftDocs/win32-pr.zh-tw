@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: PrintCapabilities 提供者必須支援 PrintTicket/PrintCapabilities 提供者介面所隱含的最小一組功能。
 ms.assetid: 92e9bce1-d58e-40a4-9721-832d7c3bc2b2
 title: PrintCapabilities 提供者的責任
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586bbf355f7b62f8f9c8b3f3b0c59714cdd6ade5
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 70cc04137eacdd2395205b96233db3c53964bc02
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106974776"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404911"
 ---
 # <a name="responsibilities-of-printcapabilities-providers"></a>PrintCapabilities 提供者的責任
 

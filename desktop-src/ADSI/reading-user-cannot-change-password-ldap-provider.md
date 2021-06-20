@@ -1,6 +1,6 @@
 ---
 title: 讀取使用者無法變更 LDAP 提供者) 的密碼 (
-description: 使用者變更其密碼的能力是可授與或拒絕的許可權。
+description: 瞭解如何判斷使用者是否有權變更 LDAP 提供者的密碼。 可以授與或拒絕使用者變更密碼的能力。
 ms.assetid: d0d95d20-dcdb-453a-9d15-c386217927c8
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - LDAP 提供者 ADSI、使用者管理範例、使用者必須在下次登入時變更密碼，讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80ea818c8b01fbbac6b80037de13b25a82a07944
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b26818ee02d3876aa209dcd4990288ea1cfe96fc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508124"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405931"
 ---
 # <a name="reading-user-cannot-change-password-ldap-provider"></a>讀取使用者無法變更 LDAP 提供者) 的密碼 (
 
@@ -29,7 +29,7 @@ ms.locfileid: "104508124"
     > [!Note]  
     > "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 因此，不應該直接使用這些字串。 您應該在執行時間取得帳戶名稱，方法是呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) 函式，並搭配 "Everyone" ( "s-1-1-0" ) 和 "NT 授權單位 \\ SELF" ( "S-1-5-10" ) 已知的安全性主體。 下列 c + + **GetSidAccountName**、 **GetSidAccountName \_ Everyone** 和 **GetSidAccountName \_ Self** 程式碼範例示範如何執行這項作業。
 
-     
+     
 
 5.  如果 "Everyone" 和 "NT 授權單位 \\ SELF" ace 都有 ADS ACETYPE [**IADsAccessControlEntry. ACETYPE**](iadsaccesscontrolentry-property-methods.md)屬性的 **\_ \_ \_ 拒絕存取 \_ 物件** 值，則會拒絕許可權。
 
@@ -419,7 +419,7 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszUserDN,
 > [!Note]  
 > 下列程式碼範例只適用于主要語言為英文的網域，因為 "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 在不呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) 函式的情況下，Visual Basic 沒有辦法取得已知安全性主體的帳戶名稱。 如果使用 Visual Basic，建議您使用 WinNT 提供者來判斷使用者無法變更密碼許可權，如「 [讀取使用者無法變更密碼 (WinNT 提供者) ](reading-user-cannot-change-password-winnt-provider.md)中所示。
 
- 
+ 
 
 
 ```VB
@@ -475,6 +475,6 @@ End Function
 
 
 
- 
+ 
 
- 
+ 

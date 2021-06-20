@@ -1,6 +1,6 @@
 ---
 title: " (Windows Media 裝置管理員 11 SDK) 隱私權聲明"
-description: 隱私權聲明
+description: 瞭解隱私權聲明，也就是使用 Windows Media 裝置管理員 11 SDK 的開發人員應該傳達使用者隱私權的影響。
 ms.assetid: cfa5bc63-9774-418a-b1ae-207b277b63ba
 keywords:
 - Windows Media 裝置管理員，隱私權聲明
@@ -11,12 +11,12 @@ keywords:
 - 隱私權聲明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b20ff7414d2aa1ab243523bb9eda3ce1ade885f
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 2ffd5ef7d49d63a2e1fe00d3975252908e1c4819
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464100"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406551"
 ---
 # <a name="privacy-statement-windows-media-device-manager-11-sdk"></a> (Windows Media 裝置管理員 11 SDK) 隱私權聲明
 

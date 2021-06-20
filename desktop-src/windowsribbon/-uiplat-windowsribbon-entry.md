@@ -1,6 +1,6 @@
 ---
 title: Windows 功能區架構
-description: Windows 功能區架構是一種豐富的命令呈現系統，提供了傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的新式替代方案。
+description: 閱讀 Windows 功能區架構的簡介，這是傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的新式替代方案。
 ms.assetid: c6108c38-17ef-4d8a-ab32-171bc496d44c
 keywords:
 - Windows 功能區
@@ -25,12 +25,12 @@ keywords:
 - 功能區，安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6906401573cb244ddc4386faf8c283d7938a0ac5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 211e1e1cf39a547ad0edbc0c180c62e2f40e15fa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934223"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406361"
 ---
 # <a name="windows-ribbon-framework"></a>Windows 功能區架構
 

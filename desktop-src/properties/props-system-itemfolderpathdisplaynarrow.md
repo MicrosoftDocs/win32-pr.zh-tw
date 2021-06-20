@@ -1,15 +1,15 @@
 ---
-description: 專案之父資料夾的使用者易記顯示路徑。
+description: 閱讀 ItemFolderPathDisplayNarrow 屬性，其代表專案之父資料夾的使用者易記顯示路徑。
 ms.assetid: f60b7465-bca4-4c7b-9caf-9cda1bf6eeeb
 title: System. ItemFolderPathDisplayNarrow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898927c23aae95b5037919c908a3ae86e020e1fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbee8a45eb6ea557e99c854464c7dc09ec5613d2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026821"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403911"
 ---
 # <a name="systemitemfolderpathdisplaynarrow"></a>System. ItemFolderPathDisplayNarrow
 

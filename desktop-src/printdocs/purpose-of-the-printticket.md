@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: PrintTicket 的目的是要定義單一特定的設定，以套用至正在處理的工作物件。
 ms.assetid: 8a7dd185-0324-44a0-8405-59a2fdc1efcb
 title: PrintTicket 的用途
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a191f341504a92fbb5f4cd00abd2a4357bbecf21
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c5d0166e150beedf354e4fb2c99a84e94c519fd5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106993800"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405331"
 ---
 # <a name="purpose-of-the-printticket"></a>PrintTicket 的用途
 

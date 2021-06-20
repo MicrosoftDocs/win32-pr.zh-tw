@@ -1,15 +1,15 @@
 ---
-description: 網路管理會話功能會控制在工作站和伺服器之間建立的網路會話。 函數需要在伺服器上啟動伺服器服務。
+description: 瞭解網路共用管理中的會話功能。 這些功能會控制在工作站和伺服器之間建立的網路會話。
 ms.assetid: 931455e3-1301-4a68-93c3-2674b3d4c491
 title: " (網路共用管理) 的會話功能"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c672abd7c976cb9f83fa4f387dd40d175879dee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cdde451eb2942171569b24c36aae5d5742208e5
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983583"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409721"
 ---
 # <a name="session-functions-network-share-management"></a> (網路共用管理) 的會話功能
 

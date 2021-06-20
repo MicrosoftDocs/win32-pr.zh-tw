@@ -1,6 +1,6 @@
 ---
 title: 使用顯示內容
-description: 文字服務架構 (TSF) 可讓文字服務提供文字的顯示內容。
+description: 精簡如何使用顯示內容。 文字服務架構 (TSF) 可讓文字服務提供文字的顯示內容。
 ms.assetid: b0f6e8e8-586a-4b51-a498-fb22bd36161f
 keywords:
 - 文字服務架構 (TSF) ，顯示內容
@@ -9,12 +9,12 @@ keywords:
 - 顯示屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc725f67fab904db23f6232ac5efb5d63c62c26
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c3c576064ab22571b5a7822f5e6ff143add55d03
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671763"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406131"
 ---
 # <a name="using-display-attributes"></a>使用顯示內容
 
@@ -145,9 +145,9 @@ HRESULT GetDispAttrFromRange(   ITfContext *pContext,
  ITfDisplayAttributeInfo::GetAttributeInfo 
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

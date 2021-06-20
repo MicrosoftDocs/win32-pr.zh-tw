@@ -1,15 +1,15 @@
 ---
-description: 步驟 5。
+description: 使用此範例來瞭解在寫入轉換篩選時，RLE 編碼器可能會如何實作為此方法的一部分。
 ms.assetid: b7d878ab-523f-4b52-b98d-c9d4fa18ce8a
 title: 步驟 5。 轉換映射
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 609acb626d00dbceea8b6f5bca6af012d8158b57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ac9d32e48ba438f8bde2d8d4d9aca3b827ebc0c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194224"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406781"
 ---
 # <a name="step-5-transform-the-image"></a>步驟 5。 轉換映射
 

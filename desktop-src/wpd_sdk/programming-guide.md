@@ -1,15 +1,15 @@
 ---
 title: WPD 程式設計指南
-description: 程式設計手冊
+description: 此程式設計指南著重于如何使用介面中找到的 WPD 介面和方法來完成範例工作。
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f774ffd9d7576a07b34c467a5a155d98e4f3e703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db13d50942c28cd4937d27a745d61d7a30a01a15
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979362"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409861"
 ---
 # <a name="wpd-programming-guide"></a>WPD 程式設計指南
 

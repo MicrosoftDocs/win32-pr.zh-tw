@@ -1,15 +1,15 @@
 ---
-description: 將 Bluetooth 裝置位址設定為 [查詢]。
+description: 瞭解 AepService 的裝置屬性如何設定要查詢的藍牙裝置位址。
 ms.assetid: 6a2381b6-1bf6-4b6b-adcc-4fb6a641a015
 title: AepService. RfcommService. 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e9d4daf173fbcc0d6709d83523f383b77d314a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d0f402e1af1bc0e652b88b1b959db49b5c9774c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192570"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405221"
 ---
 # <a name="systemdevicesaepservicebluetoothrfcommservicedevice"></a>AepService. RfcommService. 裝置
 

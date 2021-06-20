@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 這些文章說明可能出現在 PrintCapabilities 檔或 PrintTicket 中的公用關鍵字。
 ms.assetid: 1aa38771-65c1-4441-8ea3-9bda4071879f
 title: 使用者可設定的元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00c33e038ca0ba371456f5ad373f7a1b3eb84ff2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6a67b67c3d8da3dbdb3094692e754220953c8421
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106993799"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405671"
 ---
 # <a name="user-configurable-elements"></a>使用者可設定的元素
 

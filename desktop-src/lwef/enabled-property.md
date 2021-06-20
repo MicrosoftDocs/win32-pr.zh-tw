@@ -1,15 +1,15 @@
 ---
 title: 'Enabled 屬性 (Balloon 物件) '
-description: Enabled 屬性
+description: 深入瞭解 Enabled Balloon 物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
 ms.assetid: 4d73acda-6fcc-4912-a466-570849aeb807
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07179390b183e98a5eaccb2dfdb4405525d7d26e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 602d39a9bef7713a92707d8a43050f04a3577b6d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "107001289"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407301"
 ---
 # <a name="enabled-property-balloon-object"></a>Enabled 屬性 (Balloon 物件) 
 

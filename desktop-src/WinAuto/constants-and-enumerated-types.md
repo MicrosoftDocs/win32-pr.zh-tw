@@ -1,15 +1,15 @@
 ---
 title: " (Active Accessibility 消費者介面服務的常數) "
-description: 常數
+description: 這些文章包含與 Microsoft Active Accessibility 搭配使用之常數的相關資訊。
 ms.assetid: a6325361-ea7b-472d-85d7-bc1544b57352
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3a8538a9e50443df3f9e2d5b762a780aa4808c5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6b63371b29fa5b7a697f96abd6d2d9077124a0ff
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317079"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406951"
 ---
 # <a name="constants-active-accessibility-user-interface-services"></a> (Active Accessibility 消費者介面服務的常數) 
 
