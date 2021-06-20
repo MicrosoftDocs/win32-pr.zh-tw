@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 DocumentPageRanges 元素，其描述頁面中檔的輸出範圍。
 ms.assetid: 4cd1b0f8-7f7e-40cc-8d19-d44187822cd1
 title: DocumentPageRanges
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ded7c18fc781fd4374feb8958a98b845d95546
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 0e854736c72b3bff5ba2e4750e0b09e0b87c2c9f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997175"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409251"
 ---
 # <a name="documentpageranges"></a>DocumentPageRanges
 
@@ -82,8 +82,8 @@ ms.locfileid: "107997175"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

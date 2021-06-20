@@ -1,15 +1,15 @@
 ---
 title: " (舊版 Windows 環境功能擴充索引) "
-description: 使用和開發 Microsoft Windows 桌面搜尋的2.x 版 (WDS) 強烈建議您改用 Windows Search。
+description: 瞭解如何在 Windows Desktop Search 2.x 中擴充索引。 針對 windows XP 和 Windows Server 2003 之後的 Windows 版本，請改用 Windows Search。
 ms.assetid: vs|search|~\search\wds2x\extending_index_ovr.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ad766d6fa1c00649f7cbdc3118039ed50f13491
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 63408cfe1efeb8da4d6a4540cc57b99ea56ae935
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093719"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407351"
 ---
 # <a name="extending-the-index-legacy-windows-environment-features"></a> (舊版 Windows 環境功能擴充索引) 
 

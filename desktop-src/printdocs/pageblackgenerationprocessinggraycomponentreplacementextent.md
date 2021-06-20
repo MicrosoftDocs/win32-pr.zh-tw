@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: PageBlackGenerationProcessingGrayComponentReplacementExtent 參數會將超出 neutrals 的範圍描述為 GCR 套用的彩色色彩。
 ms.assetid: ba62f902-9bc9-4492-ab53-4a4ddbc23530
 title: PageBlackGenerationProcessingGrayComponentReplacementExtent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9a790d66d1f7806a7ef86ee4a85f62225aa836
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5b3bd5e4fdbafba97884a7aed608b23e4c26ce1c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997705"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408501"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementextent"></a>PageBlackGenerationProcessingGrayComponentReplacementExtent
 
@@ -77,8 +77,8 @@ ms.locfileid: "107997705"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 

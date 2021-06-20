@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobPrimaryCoverBackSource 元素，其指定工作的自訂後端主要工作表來源。
 ms.assetid: b5c8e79c-cdae-4c53-b594-915726423b4f
 title: JobPrimaryCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2145bae0843323928d8a7d016fc61f10c0e388ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 74ed9bbc1b49e230eabc3fd7f45773a73401e058
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993975"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408691"
 ---
 # <a name="jobprimarycoverbacksource"></a>JobPrimaryCoverBackSource
 
@@ -73,8 +73,8 @@ ms.locfileid: "107993975"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

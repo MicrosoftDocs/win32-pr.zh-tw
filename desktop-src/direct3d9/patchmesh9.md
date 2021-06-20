@@ -1,15 +1,15 @@
 ---
-description: 定義貝塞爾修補程式所定義的網格。 第一個陣列是頂點的清單，而第二個數組會透過索引至頂點陣列來定義網格的修補程式。
+description: PatchMesh9 會定義貝塞爾修補程式所定義的網格，包括頂點清單以及網格的補充程式，方法是在頂點陣列中編制索引。
 ms.assetid: 642ca513-c83e-4c6d-845c-0eaecc232728
 title: PatchMesh9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b3d8232fe8c83358feb216acfb45a7877d7acb9
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 811e593117f2ec57a4718ea8078d96bcea87e71f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106986241"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404701"
 ---
 # <a name="patchmesh9"></a>PatchMesh9
 

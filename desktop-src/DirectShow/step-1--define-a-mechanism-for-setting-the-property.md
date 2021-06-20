@@ -1,15 +1,15 @@
 ---
-description: 步驟 1：
+description: 在建立自訂 DirectShow 篩選準則的篩選屬性頁時，定義用來設定屬性的機制。
 ms.assetid: 1912af22-11dc-4864-8c20-91675d4f45d9
 title: 步驟 1： 定義用來設定屬性的機制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a1845cfb3cdf5642378a2321e827e52720a83d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 191014c35e27974c52961c2c6218e3a83effcc99
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996821"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410071"
 ---
 # <a name="step-1-define-a-mechanism-for-setting-the-property"></a>步驟 1： 定義用來設定屬性的機制
 

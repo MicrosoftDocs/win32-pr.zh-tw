@@ -1,15 +1,15 @@
 ---
-description: 驅動程式功能旗標。
+description: 查看 D3DCAPS3 驅動程式功能旗標的清單。 包含定義、值和描述，以及 Api 的連結。
 ms.assetid: d9cd7388-3413-472d-aacb-0b8c9c60031a
 title: D3DCAPS3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fda81aa7f77dcaf03eb06b357ebfb91b4956f6d4
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 7b28614b2b2ea3c20f828b39f2b8926cb484a88c
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343363"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408261"
 ---
 # <a name="d3dcaps3"></a>D3DCAPS3
 

@@ -1,15 +1,15 @@
 ---
 title: 伺服器應用程式
-description: 下列範例是從 \\ 平臺軟體發展工具組 (SDK) 的 RPC Hello 目錄中的「Hello World」應用程式。
+description: 查看遠端程序呼叫的伺服器應用程式部分， (RPC) 範例。 此範例來自 Platform SDK 中的「Hello World」應用程式。
 ms.assetid: 82ccfd67-6626-49c4-8974-86ebc5841444
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e6f13e2c8fecdcff820c62f3076dd2a8edd1a5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34b8a2bb66fd415a9b8f778134edb4903f88a717
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840080"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406061"
 ---
 # <a name="the-server-application"></a>伺服器應用程式
 
@@ -78,9 +78,9 @@ void __RPC_USER midl_user_free(void __RPC_FAR * ptr)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

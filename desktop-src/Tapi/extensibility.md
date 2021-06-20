@@ -1,15 +1,15 @@
 ---
-description: 布建是以與裝置無關的方式，以及裝置特定的 (廠商特定) 方式來擴充常數和結構。
+description: 瞭解擴充性。 布建是以與裝置無關的方式和裝置特定的方式來擴充常數和結構。
 ms.assetid: bc0a18f3-1f58-4a24-8afb-c31f3b561375
 title: " (電話語音 API) 的擴充性"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ca446a03a9bdbe6d906e7accf261645401cd937
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f29ad34b5156bdd652ab6b6f8901be7a2341bdc
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192737"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406561"
 ---
 # <a name="extensibility"></a>擴充性
 

@@ -1,6 +1,6 @@
 ---
 title: 使用預先定義的圖形
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文說明如何在 VML 中使用預先定義的圖形，這項功能已在 Windows Internet Explorer 9 淘汰。
 ms.assetid: 9a2e8b5a-b1d0-4a73-b058-24dac1f0b655
 keywords:
 - 網路研討會，預先定義的圖形
@@ -42,12 +42,12 @@ keywords:
 - VML 元素、弧線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c1cafacf00f6f3f9129c29c56837f3f485aa3a3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b410cf288a3ba63e4c1d745fd962a445b0b220b8
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507979"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407681"
 ---
 # <a name="using-predefined-shapes"></a>使用預先定義的圖形
 
@@ -56,7 +56,7 @@ ms.locfileid: "104507979"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 如您所學到的，您可以使用 `<oval>` VML 的元素來建立簡單的橢圓形。 VML 提供數個其他預先定義的元素。 在本主題中，我們將說明如何使用這些元素繪製圖形。
 
@@ -251,6 +251,6 @@ strokecolor="red" strokeweight="2pt"/>
 
 您可以使用 VML 預先定義的專案（例如 `<oval>` 、 `<line>` 、 `<polyline>` 、 `<curve>` 、 `<rect>` 、和）， `<roundrect>` `<arc>` 輕鬆地在網頁上繪製圖形，然後藉由只變更屬性屬性來自訂這些圖形。
 
- 
+ 
 
- 
+ 

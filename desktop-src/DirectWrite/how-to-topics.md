@@ -1,15 +1,15 @@
 ---
 title: " (DirectWrite) 的 how to 主題"
-description: 下列主題提供 DirectWrite API 的總覽。
+description: 請參閱《 DirectWrite API 程式設計指南》中的「如何」主題。 DirectWrite 可讓 Windows 應用程式增強 UI 和檔的文字體驗。
 ms.assetid: da4817ee-0bff-433f-b595-4250199bcc14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a26bbb4500ab016fbf5a5a59f6b551030e28dd1
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7cc35d9b92001bc8c4807f8b77434559994aaac4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024472"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406391"
 ---
 # <a name="how-to-topics-directwrite"></a> (DirectWrite) 的 how to 主題
 

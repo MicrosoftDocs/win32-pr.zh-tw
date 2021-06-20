@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何加入屬性實例。 列印架構可讓屬性實例存在於選項實例中。
 ms.assetid: dac287a9-77ca-44d8-8019-b05e4c61dc52
 title: 加入屬性實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08e3df1b6c271c37c080968cc775ac11eba2e3ce
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 8085fa10f824f32dc76aef0f1e5f78ca05b22b93
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104386332"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409691"
 ---
 # <a name="adding-property-instances"></a>加入屬性實例
 

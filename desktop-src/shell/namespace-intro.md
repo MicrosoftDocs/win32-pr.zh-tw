@@ -1,15 +1,15 @@
 ---
-description: Shell 命名空間會將檔案系統和其他由 Shell 管理的物件組織成單一樹狀結構階層。 就概念而言，它是較大且較多的檔案系統版本。
+description: 深入瞭解 Shell 命名空間和其資料來源物件。 此命名空間提供 Windows Shell UI 中的擴充性選項。
 ms.assetid: 539c4455-e1c7-45a0-b3c3-781f2b7a1617
 title: Shell 命名空間簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28b9ccb87cc67c025f09233128780545d610f90d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e1be0187094ffe7cf7b56b724c5990fe18321fa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318636"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404291"
 ---
 # <a name="introduction-to-the-shell-namespace"></a>Shell 命名空間簡介
 

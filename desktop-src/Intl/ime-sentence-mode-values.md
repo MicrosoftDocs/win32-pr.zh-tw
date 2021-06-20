@@ -1,15 +1,15 @@
 ---
-description: 這些值會搭配 ImmGetConversionStatus 和 ImmSetConversionStatus 函數使用。
+description: 查看輸入法編輯器 (IME) 句子模式值的清單。 這些值會搭配 ImmGetConversionStatus 和 ImmSetConversionStatus 函數使用。
 ms.assetid: 24b12936-7dfc-4c8d-970c-d8354ad46d1d
 title: IME 句子模式值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2fb9d25b2c3b1828e8c36aca554468f6447af2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 285636ab097bd536e5bd0e4e1869f12c648c3cbb
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192981"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406761"
 ---
 # <a name="ime-sentence-mode-values"></a>IME 句子模式值
 

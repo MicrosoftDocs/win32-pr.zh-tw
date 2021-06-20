@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobDeviceLanguage 元素，其描述從驅動程式傳送資料到實體裝置所支援的裝置語言。
 ms.assetid: 3894d9fa-2bf7-447a-bac3-e72a0fdb7187
 title: JobDeviceLanguage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66b9f85b44ae9fdc6efb66ce5b72bb68c5187790
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3b7bf56018a2b395ec5aa182336a89d8872057e7
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998295"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408992"
 ---
 # <a name="jobdevicelanguage"></a>JobDeviceLanguage
 
@@ -70,11 +70,11 @@ ms.locfileid: "107998295"
 
 | Name                                 | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
 |--------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>            | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/>   | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
-| \_LanguageLevelValue\_<br/>    | 字串<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言層級 (例如 PS 層級 2) 。<br/>           |
-| \_LanguageEncodingValue\_<br/> | 字串<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言編碼 (例如 ISOLatin1) 。<br/>         |
-| \_LanguageVersionValue\_<br/>  | 字串<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言版本。<br/>                                   |
+| \_選項名稱\_<br/>            | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/>   | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_LanguageLevelValue\_<br/>    | string<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言層級 (例如 PS 層級 2) 。<br/>           |
+| \_LanguageEncodingValue\_<br/> | string<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言編碼 (例如 ISOLatin1) 。<br/>         |
+| \_LanguageVersionValue\_<br/>  | string<br/> | n/a<br/>        | 無。<br/>                                                                                                                                                                      | 指定語言版本。<br/>                                   |
 
 
 

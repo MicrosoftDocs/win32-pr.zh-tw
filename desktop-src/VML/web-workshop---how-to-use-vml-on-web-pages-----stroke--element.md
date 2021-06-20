@@ -1,6 +1,6 @@
 ---
 title: 使用 Stroke 元素
-description: 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
+description: 本文描述如何使用 VML 的 Stroke 元素，這是 Windows Internet Explorer 9 所淘汰的功能。
 ms.assetid: e3d9dbe5-e087-4b6f-8318-c7d4485cd502
 keywords:
 - 網路研討會，筆劃元素
@@ -33,12 +33,12 @@ keywords:
 - filltype 屬性屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b58e02945884ea63ad1be01e67cfc156951cd5e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dff7a4b3bc654063fe8156476cc9c52453247a0b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316354"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407841"
 ---
 # <a name="using-the-stroke-element"></a>使用 Stroke 元素
 
@@ -47,7 +47,7 @@ ms.locfileid: "104316354"
 > [!Note]  
 > 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 使用 `<stroke>`
 
@@ -432,6 +432,6 @@ strokeweight="15pt">
 
 如需此元素的詳細資訊，請參閱 [VML 規格](https://www.w3.org/TR/NOTE-VML#-toc416858395) 。
 
- 
+ 
 
- 
+ 

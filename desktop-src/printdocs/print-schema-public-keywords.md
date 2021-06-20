@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 本文指定針對列印架構定義的公用關鍵字，以及其 PrintCapabilities 和 PrintTicket 的使用方式。
 ms.assetid: ff966475-626d-4a48-9349-e60454d47c57
 title: 列印架構公用關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3e8fb9a46bbed2b135f4e81456dd65e79be830
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 0878ced6b011393479657a4fcdd4b7b7f9a2b62a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986684"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407141"
 ---
 # <a name="print-schema-public-keywords"></a>列印架構公用關鍵字
 

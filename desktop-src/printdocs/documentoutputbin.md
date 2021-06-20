@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 DocumentOutputBin，它會說明裝置支援的 bin 完整清單，並可讓您以每個檔為基礎來指定輸出 bin。
 ms.assetid: 73840548-f68b-4af8-acb4-6f7faa2e8879
 title: DocumentOutputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96f6d16ca000e76b01cd2c3165054d7acc81351b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2afc20f15aed8d3076afb79d755c54791573b393
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997135"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409241"
 ---
 # <a name="documentoutputbin"></a>DocumentOutputBin
 
@@ -69,9 +69,9 @@ ms.locfileid: "107997135"
 
 | Name                                   | 資料類型          | 單位                  | 支援的值                                                                                                                                                             | 總結                                                                             |
 |----------------------------------------|--------------------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>              | 字串<br/>  | 字元<br/> | 由定義的有效完整名稱 https://www.w3.org/TR/1999/REC-xml-names-19990114/\#dt-qname 。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                  |
-| \_IdentityOptionValue\_<br/>     | 字串<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                      | 定義選項，當選取此選項時，會停用此功能。<br/>        |
-| \_BinTypeValue\_<br/>            | 字串<br/>  | n/a<br/>        | 信箱、排序器、堆疊器、分頁裝訂器、無。<br/>                                                                                                                         | 指定 bin 的一般類型。<br/>                                   |
+| \_選項名稱\_<br/>              | string<br/>  | 字元<br/> | 由定義的有效完整名稱 https://www.w3.org/TR/1999/REC-xml-names-19990114/\#dt-qname 。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                  |
+| \_IdentityOptionValue\_<br/>     | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                      | 定義選項，當選取此選項時，會停用此功能。<br/>        |
+| \_BinTypeValue\_<br/>            | string<br/>  | n/a<br/>        | 信箱、排序器、堆疊器、分頁裝訂器、無。<br/>                                                                                                                         | 指定 bin 的一般類型。<br/>                                   |
 | \_MediaSheetCapacityValue\_<br/> | 整數<br/> | 床單<br/>     | 大於 0。<br/>                                                                                                                                                   | 以 (完整層級) 的頁面數目指定媒體容量。<br/> |
 
 

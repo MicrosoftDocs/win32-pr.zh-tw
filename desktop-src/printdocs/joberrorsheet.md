@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 JobErrorSheet 元素，其描述錯誤表輸出。 整個作業將會有一個錯誤工作表。
 ms.assetid: ad30df59-0051-4471-8c0e-3207bcc7bfbe
 title: JobErrorSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6724e72a9351efc1d3cc5912b9806fb8d65a85
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 6dcee6c50d482793eeef96e29ad98385da11a4e6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998145"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408901"
 ---
 # <a name="joberrorsheet"></a>JobErrorSheet
 
@@ -75,10 +75,10 @@ ms.locfileid: "107998145"
 
 | Name                                             | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
 |--------------------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_ErrorSheetWhenOptionName\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_ErrorSheetWhenIdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義使用者介面 (UI) 選取準則。<br/>               |
-| \_選項名稱\_<br/>                        | 字串<br/> | n/a<br/>        | 由定義的有效完整名稱 https://www.w3.org/TR/1999/REC-xml-names-19990114/\#dt-qname 。 如果未指定命名空間，則會假設為預設命名空間。<br/>          | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/>               | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_ErrorSheetWhenOptionName\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_ErrorSheetWhenIdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義使用者介面 (UI) 選取準則。<br/>               |
+| \_選項名稱\_<br/>                        | string<br/> | n/a<br/>        | 由定義的有效完整名稱 https://www.w3.org/TR/1999/REC-xml-names-19990114/\#dt-qname 。 如果未指定命名空間，則會假設為預設命名空間。<br/>          | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/>               | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
 
 
 

@@ -1,15 +1,15 @@
 ---
-description: 步驟 1：
+description: 選擇基類作為撰寫轉換篩選的一部分。 瞭解哪些類別適合轉換篩選。
 ms.assetid: 4b2d3add-0430-480b-ad5f-bb1aa19fef21
 title: 步驟 1： 選擇基類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4679873e78e75b350335b5294db63579fd41f36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a2bbf704bb2247034bc2ba3a6f35812f46aaaa
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850360"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406461"
 ---
 # <a name="step-1-choose-a-base-class"></a>步驟 1： 選擇基類
 

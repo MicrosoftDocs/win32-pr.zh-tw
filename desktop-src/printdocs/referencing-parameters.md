@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何參考參數和 ParameterDef 元素。 包含 ParameterRef 元素的選項範例是自訂媒體大小選項。
 ms.assetid: 2c796d5c-1556-4348-83e2-23e93780ebc1
 title: 參考參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0815ec7cd412e158a73e2b760f9f6080d7b0326a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 650790af5ca6849bd082b4819dd4c411adea320f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986457"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405321"
 ---
 # <a name="referencing-parameters"></a>參考參數
 

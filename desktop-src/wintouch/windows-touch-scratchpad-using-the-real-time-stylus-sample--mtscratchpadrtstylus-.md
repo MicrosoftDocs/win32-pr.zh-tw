@@ -1,6 +1,6 @@
 ---
 title: '使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) '
-description: Windows Touch 的便箋範例 (MTScratchpadRTStylus) 會示範如何使用 Windows Touch 訊息來繪製觸控點至視窗的追蹤。
+description: 複習 Windows Touch 的 (MTScratchpadRTStylus) 範例，其中會示範如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch，程式碼範例
@@ -10,12 +10,12 @@ keywords:
 - Windows Touch，即時手寫筆 (RTS) 物件
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 94d425bcb39dd35d3bd71636fb19b6b408af9477
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106969689"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406291"
 ---
 # <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a>使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) 
 

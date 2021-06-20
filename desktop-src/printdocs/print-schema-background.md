@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 列印架構會解決列印子系統元件之間以及列印子系統和應用程式之間的通訊 opaqueness 和混淆。
 ms.assetid: 193dd600-7cbb-4f4e-bb7d-7f7117e9d16a
 title: 列印架構背景
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93280b6c8de62c76acdd59e2e596a0f600702451
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: d46990e92c1125d33cced67f596ebcfc1db96053
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103696326"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407151"
 ---
 # <a name="print-schema-background"></a>列印架構背景
 

@@ -1,18 +1,18 @@
 ---
 title: " (Windows Media Format 11 SDK) 註冊應用程式相依性"
-description: 註冊應用程式相依性
+description: 瞭解如何使用 Windows Media Format 11 SDK 所提供之 Api 的執行時間元件來註冊您的應用程式。
 ms.assetid: 09f63519-5c65-4784-9ea4-4fbecfa6d4aa
 keywords:
 - Windows Media Format SDK，註冊應用程式相依性
 - 註冊應用程式相依性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 090cf61d32597800b52e2bc112d2bee1cc1b7cd7
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 1cd546ee9b162652f00a131e87561a7e34f7e3a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024402"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406161"
 ---
 # <a name="registering-application-dependency-windows-media-format-11-sdk"></a> (Windows Media Format 11 SDK) 註冊應用程式相依性
 

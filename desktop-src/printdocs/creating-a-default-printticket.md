@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PrintTicket 提供者介面，其中包含一個傳回預設 PrintTicket 的方法。
 ms.assetid: 3fe4940b-3605-483a-ade5-368d24b630aa
 title: 建立預設的 PrintTicket
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f744a55b135b3abd7c7cff5577f4af64b98b6a33
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: ffa4c0c7d79b373e3fb2249165ac87e5320bf726
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106982156"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409546"
 ---
 # <a name="creating-a-default-printticket"></a>建立預設的 PrintTicket
 

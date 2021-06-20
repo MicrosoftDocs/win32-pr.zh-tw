@@ -1,15 +1,15 @@
 ---
-description: 步驟 3：
+description: 在撰寫轉換篩選時，實作為媒體類型協商的支援。 媒體類型描述資料的格式。
 ms.assetid: b2b5dafc-d38d-4ec3-a390-55229495b4f9
 title: 步驟 3： 支援媒體類型的協商
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3ff8539d0d7de2c9b7300ddb90ad86ca471710
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 3a23784e70330f751325fc5f780463d5a3904d20
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853392"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410041"
 ---
 # <a name="step-3-support-media-type-negotiation"></a>步驟 3： 支援媒體類型的協商
 

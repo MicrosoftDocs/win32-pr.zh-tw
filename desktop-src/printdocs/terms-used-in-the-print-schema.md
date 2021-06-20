@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 本文列出並定義列印架構和相關技術的特定詞彙。
 ms.assetid: ab441a37-3a4e-4dd3-85e9-a50e08618d72
 title: 列印架構中使用的詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 754635b7fb59c8ce8baad29e69c606c9341c207f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: dc28fadfe1f62a971cc28225af77686bd1e88d21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106982157"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408391"
 ---
 # <a name="terms-used-in-the-print-schema"></a>列印架構中使用的詞彙
 

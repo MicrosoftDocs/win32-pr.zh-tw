@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 PropGroup GPS 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: bdc3d22c-d055-47f7-86ad-6e050608ad12
 title: PropGroup GPS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 508782aaf576fbba363a061283b1a837f6ffa6f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3544f433ef83d64b65f1ad33a8d732ccf80b8181
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989367"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404551"
 ---
 # <a name="systempropgroupgps"></a>PropGroup GPS
 

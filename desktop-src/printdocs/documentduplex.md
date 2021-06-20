@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 DocumentDuplex 元素，其描述輸出的雙工特性。 雙工功能可在媒體的兩端進行列印。
 ms.assetid: dadc52e8-1733-4267-85aa-33d0ddd3dfa2
 title: DocumentDuplex
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959bbddbfa06e47fe2bc744af3ead0a72b13af7b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5c2ad8521835213594f10507ab6fd4b9cca24040
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998415"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409341"
 ---
 # <a name="documentduplex"></a>DocumentDuplex
 
@@ -63,9 +63,9 @@ ms.locfileid: "107998415"
 
 | Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                                                                                |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | 字串<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                     |
-| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                           |
-| \_DuplexModeValue\_<br/>     | 字串<br/> | n/a<br/>        | 自動、手動。<br/>                                                                                                                                                         | 定義雙工模式。 自動雙工是由硬體執行。 手動雙工是由軟體和使用者執行。<br/> |
+| \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                     |
+| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                           |
+| \_DuplexModeValue\_<br/>     | string<br/> | n/a<br/>        | 自動、手動。<br/>                                                                                                                                                         | 定義雙工模式。 自動雙工是由硬體執行。 手動雙工是由軟體和使用者執行。<br/> |
 
 
 

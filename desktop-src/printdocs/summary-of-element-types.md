@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 本文列出在 Print Schema Framework 中定義的元素類型，以及用來表示列印架構相關技術的專案類型。
 ms.assetid: 48b259e0-10ff-4964-a8de-a54ae3731c60
 title: 元素類型的摘要
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf93024d8e5547cee3cc15b7d10e26d5308301b2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1e0d339a192facc84483f7625b26781af4169bda
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106977121"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405301"
 ---
 # <a name="summary-of-element-types"></a>元素類型的摘要
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 DocumentCopiesAllPages 元素如何指定檔的複本數目。
 ms.assetid: 6319e8fc-787f-4bc8-8436-1b498b3882d2
 title: DocumentCopiesAllPages
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 723242ddd127113b573f167e6902b27fcca9665a
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 05bf82c23b764f3fe1f8257f4cdb2e7fa03374bd
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993985"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409441"
 ---
 # <a name="documentcopiesallpages"></a>DocumentCopiesAllPages
 
@@ -77,9 +77,9 @@ ms.locfileid: "107993985"
 | DefaultValue<br/> | 整數<br/> | 1<br/>                 |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>         |
 | MinValue<br/>     | 整數<br/> | 1<br/>                 |
-| 強制性<br/>    | 字串<br/>  | psk：無條件<br/> |
+| 強制性<br/>    | string<br/>  | psk：無條件<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>                 |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 副本<br/>            |
+| Unittype.pixel 表示<br/>     | string<br/>  | 副本<br/>            |
 
 
 

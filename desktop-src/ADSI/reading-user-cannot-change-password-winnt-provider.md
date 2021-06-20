@@ -1,6 +1,6 @@
 ---
 title: '讀取使用者無法變更 (WinNT 提供者的密碼) '
-description: 使用者變更其密碼的能力是可授與或拒絕的許可權。
+description: 瞭解如何判斷使用者是否有權變更 WinNT 提供者的密碼。 可以授與或拒絕使用者變更密碼的能力。
 ms.assetid: b8b8de00-0def-4506-ab73-d03a7e06256d
 ms.tgt_platform: multiple
 keywords:
@@ -9,12 +9,12 @@ keywords:
 - WinNT 提供者 ADSI、使用者管理範例、使用者無法變更密碼、讀取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab257f620d3e103866639f8ecacb57cc924efec4
-ms.sourcegitcommit: cb844c9ab17577ce171fd7b03add668645867bc7
+ms.openlocfilehash: dd075bfb6700779b60f9e578a4e89957487a2646
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "103932975"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405911"
 ---
 # <a name="reading-user-cannot-change-password-winnt-provider"></a>讀取使用者無法變更 (WinNT 提供者的密碼) 
 
@@ -120,9 +120,9 @@ HRESULT UserCannotChangePassword(LPCWSTR pwszDomain,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

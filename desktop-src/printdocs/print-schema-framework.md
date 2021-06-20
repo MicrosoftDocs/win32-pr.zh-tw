@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 這些文章提供有關列印架構元素類型之意義和使用方式的詳細資訊。
 ms.assetid: 05c7fd07-1c32-409d-8ca5-820038af3440
 title: Print Schema Framework
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 617f747b950676f2359645684c9e672fb5c87ee3
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 570701df700954ad85fb724b9528b7e7912f3174
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195786"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407161"
 ---
 # <a name="print-schema-framework"></a>Print Schema Framework
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PrintCapabilities 元素，其代表 PrintCapabilities 檔的根目錄。
 ms.assetid: f503b62f-02e1-4621-8799-a8b6ad12f489
 title: PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e10c6dd8ce98b071f1eb239762544a9b72160035
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 2158fd651849df2e4ea24c640065f1041569741a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975614"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407021"
 ---
 # <a name="printcapabilities"></a>PrintCapabilities
 

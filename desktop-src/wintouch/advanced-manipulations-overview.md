@@ -1,6 +1,6 @@
 ---
 title: Advanced 操作總覽
-description: 本節說明適用于應用程式的 advanced 操作。
+description: 閱讀關於應用程式之 advanced 操作的圖形化總覽。 瞭解擴充、旋轉和轉譯。
 ms.assetid: a0c3fecb-d3c7-4f12-90be-5f77f4f5883e
 keywords:
 - Windows Touch，操作
@@ -25,12 +25,12 @@ keywords:
 - 翻譯，advanced
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f58a5dffb3c2d11e07a8c6495ec777579916481
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04dea220c213de75820075c9375a04e1800a880d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020936"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406331"
 ---
 # <a name="advanced-manipulations-overview"></a>Advanced 操作總覽
 
@@ -69,9 +69,9 @@ ms.locfileid: "104020936"
 [操作](getting-started-with-manipulations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

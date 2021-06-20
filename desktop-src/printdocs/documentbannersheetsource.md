@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 DocumentBannerSheetSource 元素，其指定自訂橫幅工作表的來源。
 ms.assetid: 3b55935f-3d71-43cc-9c59-5019d7eb5cc5
 title: DocumentBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da5a2802094a0d20cf1b8b0a177a5b774489bb37
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d33aa949982e98781c42cbf6aa770dbd4e3d1707
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996315"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409471"
 ---
 # <a name="documentbannersheetsource"></a>DocumentBannerSheetSource
 
@@ -74,8 +74,8 @@ ms.locfileid: "107996315"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

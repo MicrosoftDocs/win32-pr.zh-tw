@@ -1,15 +1,15 @@
 ---
-description: 專案的使用者易記顯示路徑。
+description: 請閱讀 ItemPathDisplayNarrow 屬性，它代表使用者易記的專案顯示路徑。
 ms.assetid: 5dd44e13-bc5c-4e32-b5eb-2c7c40e10dfb
 title: System. ItemPathDisplayNarrow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ef7b9d03a78a23e955c20f52e32062a8bcabd0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b84455a8b69ebf42cb91c191d1c275b70eeeb5ac
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194264"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403891"
 ---
 # <a name="systemitempathdisplaynarrow"></a>System. ItemPathDisplayNarrow
 

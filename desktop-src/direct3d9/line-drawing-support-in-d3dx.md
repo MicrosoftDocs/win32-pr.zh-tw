@@ -1,15 +1,15 @@
 ---
-description: D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
+description: 深入瞭解 D3DX 中的線條繪製支援。 D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
 ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: 'D3DX 中的線條繪圖支援 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974a0fdeb24dad1107f85e6c79603368776bce15
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4cf15eae461d0dbe719e99cfac605a6c8b8d272
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385740"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407531"
 ---
 # <a name="line-drawing-support-in-d3dx-direct3d-9"></a>D3DX 中的線條繪圖支援 (Direct3D 9) 
 

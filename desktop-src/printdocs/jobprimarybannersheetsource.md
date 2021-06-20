@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobPrimaryBannerSheetSource 元素，其指定作業主要自訂橫幅工作表的來源。
 ms.assetid: ad33b2cd-8409-4782-8eb9-5f12aca8405b
 title: JobPrimaryBannerSheetSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 556390d58df3073263a6a6b666d98c48ceed6469
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 366266576fca98762fd7d3dcb7e491a6cc94f529
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997735"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408711"
 ---
 # <a name="jobprimarybannersheetsource"></a>JobPrimaryBannerSheetSource
 
@@ -74,8 +74,8 @@ ms.locfileid: "107997735"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

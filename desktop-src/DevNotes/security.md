@@ -1,15 +1,15 @@
 ---
-description: 安全性
+description: 本文列出安全性主題，包括 IIsolatedAppLauncher、FveEnableRawAccessW、IPassportManager3 附加元件和 Ntsecpkg。
 ms.assetid: b53e9104-5515-463c-af95-1e1b51d97845
 title: '安全性 (開發人員注意事項) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11e655c38e4de274075ebe2102063742e2eeb6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 85f09338c60fcb5c3288f9299cac5acc86552c8a
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847174"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410081"
 ---
 # <a name="security-developer-notes"></a>安全性 (開發人員注意事項) 
 

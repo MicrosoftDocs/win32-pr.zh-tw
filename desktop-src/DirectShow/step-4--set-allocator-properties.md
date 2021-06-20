@@ -1,15 +1,15 @@
 ---
-description: 步驟 4：
+description: 將配置器屬性設定為寫入轉換篩選的一部分。 轉換篩選器的輸出釘選會選取下游配置器。
 ms.assetid: c2fd6d8b-b239-45e4-9c02-41edafa58762
 title: 步驟 4： 設定配置器屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a32d5e3affba32b96dc93cb97e1886322bc6f2c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f9ee7d9ecdc85b63ec6bd774a3a47e0e9399dcf3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981195"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406821"
 ---
 # <a name="step-4-set-allocator-properties"></a>步驟 4： 設定配置器屬性
 

@@ -1,15 +1,15 @@
 ---
-description: 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
+description: 閱讀 PropGroup RecordedTV 屬性。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 ms.assetid: f852494d-4d51-4370-9d73-e0659fb5688e
 title: PropGroup. RecordedTV
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: beb574a65e895565b11c3984af7f6cdb4a137db5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ded25a5cfa0d666c5d280684f359495d9c88017
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993105"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403741"
 ---
 # <a name="systempropgrouprecordedtv"></a>PropGroup. RecordedTV
 

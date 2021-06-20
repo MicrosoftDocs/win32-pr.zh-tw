@@ -1,15 +1,15 @@
 ---
 title: Windows 桌面搜尋2。x
-description: 使用和開發 Microsoft Windows 桌面搜尋的2.x 版 (WDS) 強烈建議您改用 Windows Search。
+description: 瞭解 Windows Desktop Search 2.x。 針對 windows XP 和 Windows Server 2003 之後的 Windows 版本，請改用 Windows Search。
 ms.assetid: 3d73f850-58b8-4a41-8863-e2914661d4b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5131fe700b7b049371625249768b0073d009a87
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c1ff43f827458d295e54b71b3f39c7aa471c058d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106968283"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408121"
 ---
 # <a name="windows-desktop-search-2x"></a>Windows 桌面搜尋2。x
 
@@ -43,7 +43,7 @@ WDS 會在指定的編目範圍內、在本機電腦內指定的位置，以及�
 
 ### <a name="about-the-wds-catalog"></a>關於 WDS 類別目錄
 
-WDS 目錄是從指定的電子郵件、本機磁片磁碟機、網路資源和其他本機資料存放區中的專案收集的文字和屬性的索引。 目錄的內容是以 WDS 設定的選項和規則為基礎、以 WDS 平臺為基礎的應用程式、使用者喜好設定和群組原則。 針對每個編制索引的專案，都有超過200的可用屬性，例如建立日期、大小和特定類型的屬性 ( 「寄件者」) 的電子郵件訊息。 如需這些屬性的清單，請參閱 WDS [架構參考](-search-2x-wds-schematable.md)。
+WDS 目錄是從指定的電子郵件、本機磁片磁碟機、網路資源和其他本機資料存放區中的專案收集的文字和屬性的索引。 目錄的內容是以 WDS 設定的選項和規則為基礎、以 WDS 平臺為基礎的應用程式、使用者喜好設定和群組原則。 針對每個編制索引的專案，都有超過200的可用屬性，例如建立日期、大小和特定類型的屬性 ( 「寄件者」) 的電子郵件訊息。 如需這些屬性的清單，請參閱 WDS [架構參考](-search-2x-wds-schematable.md)。
 
 ### <a name="about-the-search-engine-and-results"></a>關於搜尋引擎和結果
 
@@ -108,6 +108,6 @@ WDS 2.6.5 僅適用于 Windows 2000、Windows Server 2003 和 Windows XP。 WDS 
     -   [進階查詢語法](-search-2x-wds-aqsreference.md)
     -   [WDS 感知類型](-search-2x-wds-perceivedtype.md)
 
- 
+ 
 
- 
+ 

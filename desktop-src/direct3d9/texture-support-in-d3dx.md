@@ -1,15 +1,15 @@
 ---
-description: D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
+description: 深入瞭解 D3DX 中的材質支援。 D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
 ms.assetid: 84815851-ca96-47ab-9f84-56ecaeb4a6d9
 title: 'D3DX 中的材質支援 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd9c8d6da498a47d14fe57ca770ba96a6852ae41
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1f31a597ddcab317477d31e0d833c9da96f71ed4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106995179"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112404601"
 ---
 # <a name="texture-support-in-d3dx-direct3d-9"></a>D3DX 中的材質支援 (Direct3D 9) 
 

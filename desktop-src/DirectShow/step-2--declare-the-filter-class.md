@@ -1,15 +1,15 @@
 ---
-description: 步驟 2：
+description: 宣告 c + + 類別，此類別會繼承您在撰寫轉換篩選時所選擇的基類。
 ms.assetid: 74fbfc16-541f-4f80-a72f-26b67dc09a93
 title: 步驟 2： 宣告篩選類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ddfe28b7f31238089c331b319621787aef49f18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88be97e47d529ffa22c90e9c8c200160dbd5f261
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975825"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112410061"
 ---
 # <a name="step-2-declare-the-filter-class"></a>步驟 2： 宣告篩選類別
 

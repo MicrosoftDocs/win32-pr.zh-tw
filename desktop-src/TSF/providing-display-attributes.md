@@ -1,6 +1,6 @@
 ---
 title: 提供顯示內容
-description: 文字服務架構 (TSF) 可讓文字服務提供文字的顯示內容。
+description: 瞭解如何提供顯示內容。 文字服務架構 (TSF) 可讓文字服務提供文字的顯示內容。
 ms.assetid: 5809f5b8-0396-4abd-b5fe-61ecc8cd0914
 keywords:
 - 文字服務架構 (TSF) ，顯示內容
@@ -9,12 +9,12 @@ keywords:
 - 顯示屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f59bb64ef4f06df020a40189d273c703768d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 780cc191e39d5b1d0c3329bab87af5267e4a6c73
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967417"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406111"
 ---
 # <a name="providing-display-attributes"></a>提供顯示內容
 
@@ -179,9 +179,9 @@ STDAPI CEditSession::DoEditSession(TfEditCookie ec)
 [IEnumTfDisplayAttributeInfo：： Next](/windows/desktop/api/Msctf/nf-msctf-ienumtfdisplayattributeinfo-next)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

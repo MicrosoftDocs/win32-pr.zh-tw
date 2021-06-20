@@ -1,15 +1,15 @@
 ---
-description: CreateThread 函式會為進程建立新的執行緒。
+description: 瞭解如何使用 CreateThread 函式來建立進程的新執行緒。 偵錯工具通常需要檢查或變更執行緒的暫存器內容。
 ms.assetid: df59eedd-45ec-4564-96a5-8cecb345cfcc
 title: 用於偵錯工具的執行緒函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb5ab0865d5585656a5c22c24e2604032de8b888
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ff168d4840032a6199ef03e0cf2117c8ea87f4d6
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510579"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112403981"
 ---
 # <a name="thread-functions-for-debugging"></a>用於偵錯工具的執行緒函數
 

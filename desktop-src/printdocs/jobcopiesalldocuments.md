@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 JobCopiesAllDocuments 元素，它會指定作業的複本數目。
 ms.assetid: 584a71cd-fc32-485e-a627-27be95c377a9
 title: JobCopiesAllDocuments
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e8e606095462dc3a2eee1391121bf663de3655c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 05166715a5985c5ddee33fa6808d0fb6b150774b
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998365"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409031"
 ---
 # <a name="jobcopiesalldocuments"></a>JobCopiesAllDocuments
 
@@ -77,9 +77,9 @@ ms.locfileid: "107998365"
 | DefaultValue<br/> | 整數<br/> | 1<br/>                 |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>         |
 | MinValue<br/>     | 整數<br/> | 1<br/>                 |
-| 強制性<br/>    | 字串<br/>  | psk：無條件<br/> |
+| 強制性<br/>    | string<br/>  | psk：無條件<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>                 |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 副本<br/>            |
+| Unittype.pixel 表示<br/>     | string<br/>  | 副本<br/>            |
 
 
 
