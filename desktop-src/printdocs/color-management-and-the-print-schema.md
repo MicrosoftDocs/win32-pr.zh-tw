@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解列印架構中的使用者可設定關鍵字，以進行色彩管理，例如 PageColorManagement 和 PageBlackGenerationProcessing。
 ms.assetid: 296255b8-fe5c-46dd-b717-487aaae0db80
 title: 色彩管理和列印架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 134a598466fd52c66d632a28c750840d4123f529
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9258d9dcc59ab24f9cfca8e170bf3f3f62841b21
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103853536"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409671"
 ---
 # <a name="color-management-and-the-print-schema"></a>色彩管理和列印架構
 
@@ -21,14 +21,14 @@ ms.locfileid: "103853536"
 
 | 列印架構使用者可設定關鍵字       | DEVMODE 相等     | XPS 特定   |
 |----------------------------------------------|------------------------|----------------|
-| PageColorManagement<br/>               | dmICMMethod<br/> | No<br/>  |
-| PageBlackGenerationProcessing<br/>     | 無<br/>        | Yes<br/> |
-| PageBlendColorSpace<br/>               | 無<br/>        | Yes<br/> |
-| PageSourceColorProfile<br/>            | 無<br/>        | No<br/>  |
-| PageDestinationColorProfile<br/>       | 無<br/>        | No<br/>  |
-| PageICMRenderingIntent<br/>            | dmICMIntent<br/> | No<br/>  |
-| JobOptimalDestinationColorProfile<br/> | 無<br/>        | No<br/>  |
-| PageDeviceColorSpaceUsage<br/>         | 無<br/>        | Yes<br/> |
+| PageColorManagement<br/>               | dmICMMethod<br/> | 否<br/>  |
+| PageBlackGenerationProcessing<br/>     | 無<br/>        | 是<br/> |
+| PageBlendColorSpace<br/>               | 無<br/>        | 是<br/> |
+| PageSourceColorProfile<br/>            | 無<br/>        | 否<br/>  |
+| PageDestinationColorProfile<br/>       | 無<br/>        | 否<br/>  |
+| PageICMRenderingIntent<br/>            | dmICMIntent<br/> | 否<br/>  |
+| JobOptimalDestinationColorProfile<br/> | 無<br/>        | 否<br/>  |
+| PageDeviceColorSpaceUsage<br/>         | 無<br/>        | 是<br/> |
 
 
 

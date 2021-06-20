@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 這些文章會指定可適用于 PrintTicket 的 PrintTicket 特定屬性描述和參數初始化運算式。
 ms.assetid: 116f59e9-da65-430d-b5de-e7cd9686bd19
 title: PrintTicket 公用關鍵字
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994052b6acb970a14a8d15843f7f42b976eb23fb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 492b8590681fa6b55effe6db6ebff4b408b76325
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992647"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112405421"
 ---
 # <a name="printticket-public-keywords"></a>PrintTicket 公用關鍵字
 

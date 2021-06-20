@@ -1,15 +1,15 @@
 ---
-description: ASF 檔案接收是媒體基礎所提供的 IMFMediaSink，可讓應用程式用來將 ASF 媒體資料封存至檔案。 如需 ASF 媒體接收物件模型和一般使用方式的相關資訊，請參閱 ASF 媒體接收器。
+description: 瞭解如何設定 ASF 檔案接收中的屬性，應用程式可用來將 ASF 媒體資料封存至檔案。
 ms.assetid: a47caabd-23e3-4d22-b4b6-5fdb79d62ca1
 title: 設定 File 接收中的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30af39cf13e88f6edf2a6ab68caac27c2400955a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64b6b000ed04c7858251f7388d3edc6a40e0b213
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318736"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407511"
 ---
 # <a name="setting-properties-in-the-file-sink"></a>設定 File 接收中的屬性
 
@@ -39,7 +39,7 @@ ContentInfo 物件會維護檔案接收的通用檔案屬性和個別資料流�
 
 若要取得 file 接收器的全域屬性存放區，請在 [**IMFASFContentInfo：： GetEncodingConfigurationPropertyStore**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-getencodingconfigurationpropertystore)方法的 *wStreamNumber* 參數中傳遞0。 藉由呼叫 [**IPropertyStore：： SetValue**](/windows/win32/api/propsys/nn-propsys-ipropertystore)來設定屬性值。 下表描述支援的屬性。
 
-| 檔案層級屬性                                                                                | Description                                                                                                                                                                                                                                                                                           |
+| 檔案層級屬性                                                                                | 描述                                                                                                                                                                                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MFPKEY \_ ASFMEDIASINK \_ BASE \_ SENDTIME**](mfpkey-asfmediasink-base-sendtime-property.md)           | 傳送時間會指出何時會釋放有漏洞 bucket 內的承載。 這個屬性值表示第一個傳送時間。 多工器會使用此值來計算所產生封包的後續傳送時間，並確保資料會透過有漏洞值區穩定流動。 |
 | [**MFPKEY \_ ASFMEDIASINK \_ AUTOADJUST \_ 位元速率**](mfpkey-asfmediasink-autoadjust-bitrate-property.md) | 這個 BOOL 值會指出多工器是否需要自動調整位元速率，以確保資料不會溢位有漏洞值區。                                                                                                                                                  |

@@ -1,15 +1,15 @@
 ---
 title: '設定效果狀態 (Direct3D 11) '
-description: 某些效果常數只需要初始化。
+description: 某些效果常數只需要初始化。 請參閱在 Direct3D 12 中設定效果變數的基本程式碼。
 ms.assetid: f94ba82e-fc67-4e4d-a49d-20e1163bdff7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8df65e164c2df01f78ae9ea9ab83a547b977335
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65c64f9e642e867e9398722d4590a4c2ce9193b4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507076"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407661"
 ---
 # <a name="set-effect-state-direct3d-11"></a>設定效果狀態 (Direct3D 11) 
 
@@ -231,9 +231,9 @@ OnD3D11FrameRender()
 [轉譯 (Direct3D 11) 的效果 ](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

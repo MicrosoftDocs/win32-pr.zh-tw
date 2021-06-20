@@ -1,15 +1,15 @@
 ---
-description: 組態
+description: 本參考章節描述 Windows 和訊息的設定。 深入瞭解顯示元素和系統計量。
 ms.assetid: aba21473-07cc-4de9-a310-ad9b43c133eb
 title: 'Configuration (Windows 和訊息) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bac66d2ba25e81582734eb13148d2651b276ea01
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffa516e87aa7d338d4e2fd46a160fcbd6dadb305
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194566"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406341"
 ---
 # <a name="configuration-windows-and-messages"></a>Configuration (Windows 和訊息) 
 

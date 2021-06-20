@@ -1,15 +1,15 @@
 ---
-description: 已取代。 請參閱 D3DX10CompileFromResource。
+description: 瞭解已淘汰的 D3DX10CompileEffectFromResource 函式。 請參閱 D3DX10CompileFromResource。
 ms.assetid: 0acc0f4b-a9f6-4ac5-9ccc-7b9805269c02
 title: D3DX10CompileEffectFromResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e34bd3a6e4afedf83bc1dbae4edef6659d173b6f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d7e7f11ea6748d76da99422be409a110ccae0e0e
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025988"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407941"
 ---
 # <a name="d3dx10compileeffectfromresource"></a>D3DX10CompileEffectFromResource
 

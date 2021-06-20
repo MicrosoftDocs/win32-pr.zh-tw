@@ -1,6 +1,6 @@
 ---
 title: '用戶端記錄 (Windows Media Format 11 SDK) '
-description: 用戶端記錄
+description: 瞭解 Windows Media Format 11 SDK 的用戶端記錄。 記錄提供了一種方式，讓媒體伺服器追蹤連接到它的用戶端活動。
 ms.assetid: 3e0d0fea-4370-41f8-b461-73a37de8d8bc
 keywords:
 - Windows Media Format SDK，用戶端記錄
@@ -13,12 +13,12 @@ keywords:
 - 記錄用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 856f2df4c2377b94edc40574c3e2efcced34aa81
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 095e01fcf0730fdec8d06a931a9a988ca79ea77f
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093580"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406261"
 ---
 # <a name="client-logging-windows-media-format-11-sdk"></a>用戶端記錄 (Windows Media Format 11 SDK) 
 

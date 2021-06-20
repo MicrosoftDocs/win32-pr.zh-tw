@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 當 PrintTicket 經過驗證之後，就可以用來建立 PrintCapabilities 的快照集。
 ms.assetid: b49e20b7-bd9e-4b8f-bb4a-bb1e99b0c417
 title: 建立 PrintCapabilities 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ccb1adf4626254ba9f71c706ad7d4556a23aeb6
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b96ea51cef9dfd0f351704b3b71a7f6163737736
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106993794"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409511"
 ---
 # <a name="creating-a-printcapabilities-document"></a>建立 PrintCapabilities 檔
 

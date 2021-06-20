@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解指定目前裝置設定的最佳色彩設定檔的 JobOptimalDestinationColorProfile 元素。
 ms.assetid: 70790dc2-180a-4e04-91a9-a10ee76c836b
 title: JobOptimalDestinationColorProfile
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45630b2ddbe94f19905f01c508fc4d852d29566b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3e7ad2ea269594809b047922ea4f6c99b924e5ae
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999247"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408841"
 ---
 # <a name="joboptimaldestinationcolorprofile"></a>JobOptimalDestinationColorProfile
 
@@ -61,9 +61,9 @@ ms.locfileid: "107999247"
 
 | Name                            | 資料類型         | 單位           | 支援的值          | 總結                                        |
 |---------------------------------|-------------------|----------------|---------------------------|------------------------------------------------|
-| \_ProfileValue\_<br/>     | 字串<br/> | n/a<br/> | RGB、ICC、CMYK<br/> | 指定色彩設定檔。<br/>        |
-| \_PathValue\_<br/>        | 字串<br/> | n/a<br/> | n/a<br/>            | 指定設定檔的檔案路徑。<br/> |
-| \_ProfileDataValue\_<br/> | 字串<br/> | n/a<br/> | n/a<br/>            | 包含設定檔資料內容。<br/>      |
+| \_ProfileValue\_<br/>     | string<br/> | n/a<br/> | RGB、ICC、CMYK<br/> | 指定色彩設定檔。<br/>        |
+| \_PathValue\_<br/>        | string<br/> | n/a<br/> | n/a<br/>            | 指定設定檔的檔案路徑。<br/> |
+| \_ProfileDataValue\_<br/> | string<br/> | n/a<br/> | n/a<br/>            | 包含設定檔資料內容。<br/>      |
 
 
 

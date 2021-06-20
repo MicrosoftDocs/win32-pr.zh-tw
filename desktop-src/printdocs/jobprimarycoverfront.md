@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobPrimaryCoverFront 元素，其中描述了 front 封面工作表。 整個作業將會有單一主表。
 ms.assetid: 270b16f6-677c-430a-aa69-1b5c6dfd3ba4
 title: JobPrimaryCoverFront
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e9d7130d69d081f7f999dc0bb352ccde3404d6c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3c60aef4a70404ce6777b9bfe2848fddffa4e89d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107993965"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408671"
 ---
 # <a name="jobprimarycoverfront"></a>JobPrimaryCoverFront
 
@@ -65,8 +65,8 @@ ms.locfileid: "107993965"
 
 | Name                               | 資料類型         | 單位           | 支援的值                                                                                                                                                                      | 總結                                                                      |
 |------------------------------------|-------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | 字串<br/> | n/a<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
-| \_IdentityOptionValue\_<br/> | 字串<br/> | n/a<br/> | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_選項名稱\_<br/>          | string<br/> | n/a<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
+| \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/> | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |
 
 
 

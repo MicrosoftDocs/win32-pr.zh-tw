@@ -1,15 +1,15 @@
 ---
-description: 本主題說明如何建立及註冊屬性處理常式，以便與 Windows 屬性系統搭配使用。
+description: 本文說明如何將屬性處理常式初始化，以與 Windows 屬性系統搭配使用。
 ms.assetid: 3b54dd65-b7db-4e6a-bc3d-1008fdabcfa9
 title: 初始化屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f8eb11bc44217e508313bfb477c65925b44216e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7d7626f92b3d81a6764e635c10302747f82a383
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193004"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406991"
 ---
 # <a name="initializing-property-handlers"></a>初始化屬性處理常式
 
@@ -34,7 +34,7 @@ ms.locfileid: "104193004"
 
 屬性處理常式是屬性系統的重要部分。 索引子會在同進程中叫用它們，以讀取和編制屬性值的索引，而且也會透過 Windows 檔案總管同進程來叫用，以便直接在檔案中讀取和寫入屬性值。 這些處理常式必須經過謹慎撰寫和測試，以避免效能降低或受影響檔案中的資料遺失。 如需會影響屬性處理常式執行之索引子特定考慮的詳細資訊，請參閱 [開發 Windows Search 的屬性處理常式](../search/-search-3x-wds-extidx-propertyhandlers.md)。
 
-本主題將討論以範例 XML 為基礎的檔案格式，以描述具有配方副檔名的配方。 配方副檔名會註冊為其本身的相異檔案格式，而不是依賴較通用的 .xml 檔案格式，其處理常式會使用次要資料流程來儲存屬性。 建議您為您的檔案類型註冊唯一的副檔名。
+本主題將討論以範例 XML 為基礎的檔案格式，以描述具有配方副檔名的配方。 配方副檔名會註冊為它自己的相異檔案格式，而不是依賴更一般的 .xml 檔案格式，而其處理常式會使用次要資料流程來儲存屬性。 建議您為您的檔案類型註冊唯一的副檔名。
 
 ## <a name="before-you-begin"></a>開始之前
 
@@ -54,7 +54,7 @@ ms.locfileid: "104193004"
 -   屬性處理常式可以在受限制的程式中執行 (重要的安全性功能) 沒有直接讀取或寫入檔案的存取權限，而是透過資料流程存取其內容。
 -   系統可信任以正確地處理檔案 oplock，這是一項重要的可靠性措施。
 -   屬性系統會提供自動安全儲存服務，而不需要屬性處理常式執行所需的任何額外功能。 如需資料流程的詳細資訊，請參閱 [寫回值](#writing-back-values) 一節。
--   使用 [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream) 會將您的實作為檔案系統詳細資料的摘要。 這可讓處理常式透過替代的儲存體（例如檔案傳輸通訊協定 (FTP) 資料夾或副檔名為 .zip 的壓縮檔）支援初始化。
+-   使用 [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream) 會將您的實作為檔案系統詳細資料的摘要。 這可讓處理常式透過替代的儲存體（例如檔案傳輸通訊協定 (FTP) 資料夾或副檔名 .zip 的壓縮檔）支援初始化。
 
 在某些情況下，不可能使用資料流程進行初始化。 在這些情況下，屬性處理常式可以執行兩個進一步的介面： [**IInitializeWithFile**](/windows/win32/api/propsys/nn-propsys-iinitializewithfile) 和 [**IInitializeWithItem**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinitializewithitem)。 如果屬性處理常式未執行 [**IInitializeWithStream**](/windows/win32/api/propsys/nn-propsys-iinitializewithstream)，它必須選擇不在隔離的進程中執行，如果資料流程有變更，系統索引子預設會將它放在其中。 若要退出宣告這項功能，請設定下列登錄值。
 

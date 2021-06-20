@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: ScoredProperty 實例也可以嵌套在其他 ScoredProperty 實例內或作為選項實例的子項目。
 ms.assetid: 071dc91f-3574-4e0e-b2ba-0e4a56ce4a28
 title: 嵌套 ScoredProperty 實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f1bfed09c48bc0ac6e93e09f96dc8116e8b0a91
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 15a80d291fa59b2f36191f42b2f99ea9d22789a2
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106991400"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408601"
 ---
 # <a name="nested-scoredproperty-instances"></a>嵌套 ScoredProperty 實例
 

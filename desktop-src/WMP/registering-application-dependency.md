@@ -1,6 +1,6 @@
 ---
 title: Windows Media Player SDK) 註冊應用程式相依性 (
-description: 註冊應用程式相依性
+description: 瞭解如何向 Windows Media Player SDK 所提供之 Api 的執行時間元件註冊您的應用程式。
 ms.assetid: 966683d6-e082-448d-8473-baae2311c082
 keywords:
 - Windows Media Player，應用程式相依性登錄設定
@@ -13,12 +13,12 @@ keywords:
 - 應用程式相依性登錄設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67aac78417f5ec8e4347b97a5c2b5f37db20183e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: fb4b1692c6a4e1a8274472bbe9d718721c1ab4f1
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464153"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407361"
 ---
 # <a name="registering-application-dependency-windows-media-player-sdk"></a>Windows Media Player SDK) 註冊應用程式相依性 (
 

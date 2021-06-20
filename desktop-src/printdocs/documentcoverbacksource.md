@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 DocumentCoverBackSource 元素，其指定自訂後置封面表的來源。
 ms.assetid: 43a0c881-75cc-4fbc-a0c3-b3eab9dfe4df
 title: DocumentCoverBackSource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6547ac2dc2c3f91ea4d0ebeea87622c790ae7d4d
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 5be16ab26a4aa3dd7109fee7d630ed354b9b686d
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996275"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112409351"
 ---
 # <a name="documentcoverbacksource"></a>DocumentCoverBackSource
 
@@ -73,8 +73,8 @@ ms.locfileid: "107996275"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
 
 
 

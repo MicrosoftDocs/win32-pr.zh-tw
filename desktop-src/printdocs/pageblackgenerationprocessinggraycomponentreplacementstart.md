@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageBlackGenerationProcessingGrayComponentReplacementStart 元素，其描述 GCR 應開始的位置。
 ms.assetid: 28ea95a2-e602-4f71-9488-48525e995814
 title: PageBlackGenerationProcessingGrayComponentReplacementStart
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2608535c65cbde04005334ed970c0d27cb1feffb
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: f2e7e5a7e22c20b15dc373a2cce2bfe19e3417d4
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996175"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408461"
 ---
 # <a name="pageblackgenerationprocessinggraycomponentreplacementstart"></a>PageBlackGenerationProcessingGrayComponentReplacementStart
 
@@ -77,8 +77,8 @@ ms.locfileid: "107996175"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 
