@@ -1,19 +1,19 @@
 ---
-description: 本主題包含在 DirectShow 中播放教學課程音訊/影片的程式碼。
+description: 本文包含適用于 DirectShow 音訊/影片播放的影片 .cpp 檔案的程式碼。
 ms.assetid: c406a099-4956-46a8-b1f4-6d2e6ab3427a
 title: video .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623372e1d958959d410e6e60f5a976f52f9f3180
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f24d7bd3f27ce995d69e3f1425b7cae95d8997f3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974156"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407851"
 ---
-# <a name="videocpp"></a><span data-ttu-id="775c6-103">video .cpp</span><span class="sxs-lookup"><span data-stu-id="775c6-103">video.cpp</span></span>
+# <a name="videocpp"></a><span data-ttu-id="644c6-103">video .cpp</span><span class="sxs-lookup"><span data-stu-id="644c6-103">video.cpp</span></span>
 
-<span data-ttu-id="775c6-104">本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。</span><span class="sxs-lookup"><span data-stu-id="775c6-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
+<span data-ttu-id="644c6-104">本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。</span><span class="sxs-lookup"><span data-stu-id="644c6-104">This topic contains code for the tutorial [Audio/Video Playback in DirectShow](audio-video-playback-in-directshow.md).</span></span>
 
 
 ```C++
@@ -650,14 +650,14 @@ done:
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="775c6-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="775c6-105">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="644c6-105">相關主題</span><span class="sxs-lookup"><span data-stu-id="644c6-105">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="775c6-106">在 DirectShow 播放音訊/影片</span><span class="sxs-lookup"><span data-stu-id="775c6-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
+[<span data-ttu-id="644c6-106">在 DirectShow 播放音訊/影片</span><span class="sxs-lookup"><span data-stu-id="644c6-106">Audio/Video Playback in DirectShow</span></span>](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[<span data-ttu-id="775c6-107">DirectShow 播放範例</span><span class="sxs-lookup"><span data-stu-id="775c6-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
+[<span data-ttu-id="644c6-107">DirectShow 播放範例</span><span class="sxs-lookup"><span data-stu-id="644c6-107">DirectShow Playback Example</span></span>](directshow-playback-example.md)
 </dt> </dl>
 
  
