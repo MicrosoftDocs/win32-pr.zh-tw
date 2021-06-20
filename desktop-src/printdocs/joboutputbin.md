@@ -1,43 +1,43 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 JobOutputBin 元素，其描述裝置中已安裝的輸出 bin 或裝置支援的 bin 完整清單。
 ms.assetid: 324ec426-b7c8-43af-96b9-74929358e262
 title: JobOutputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 973433ac7f6e051d4656777696cc3a37cedd953b
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 1243e9409f781b8babde6d6310ce7a2b083f8703
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999215"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112408851"
 ---
-# <a name="joboutputbin"></a><span data-ttu-id="a64f1-104">JobOutputBin</span><span class="sxs-lookup"><span data-stu-id="a64f1-104">JobOutputBin</span></span>
+# <a name="joboutputbin"></a><span data-ttu-id="6dd41-103">JobOutputBin</span><span class="sxs-lookup"><span data-stu-id="6dd41-103">JobOutputBin</span></span>
 
-<span data-ttu-id="a64f1-105">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="a64f1-105">This topic is not current.</span></span> <span data-ttu-id="a64f1-106">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="a64f1-106">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
+<span data-ttu-id="6dd41-104">本主題並非最新的。</span><span class="sxs-lookup"><span data-stu-id="6dd41-104">This topic is not current.</span></span> <span data-ttu-id="6dd41-105">如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。</span><span class="sxs-lookup"><span data-stu-id="6dd41-105">For the most current information, see the [Print Schema Specification](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip).</span></span>
 
-<span data-ttu-id="a64f1-107">描述裝置中已安裝的輸出 bin 或裝置支援的 bin 完整清單。</span><span class="sxs-lookup"><span data-stu-id="a64f1-107">Describes the installed output bin in a device or the full list of supported bins for a device.</span></span> <span data-ttu-id="a64f1-108">JobOutputBin、DocumentOutputBin 和 PageOutputBin 關鍵字都是互斥或列印功能檔中的唯一一項指定。</span><span class="sxs-lookup"><span data-stu-id="a64f1-108">The JobOutputBin, DocumentOutputBin and PageOutputBin keywords are mutually exclusive only one should be specified in a PrintTicket or Print Capabilities document.</span></span>
+<span data-ttu-id="6dd41-106">描述裝置中已安裝的輸出 bin 或裝置支援的 bin 完整清單。</span><span class="sxs-lookup"><span data-stu-id="6dd41-106">Describes the installed output bin in a device or the full list of supported bins for a device.</span></span> <span data-ttu-id="6dd41-107">JobOutputBin、DocumentOutputBin 和 PageOutputBin 關鍵字都是互斥或列印功能檔中的唯一一項指定。</span><span class="sxs-lookup"><span data-stu-id="6dd41-107">The JobOutputBin, DocumentOutputBin and PageOutputBin keywords are mutually exclusive only one should be specified in a PrintTicket or Print Capabilities document.</span></span>
 
--   [<span data-ttu-id="a64f1-109">項目資訊</span><span class="sxs-lookup"><span data-stu-id="a64f1-109">Element Information</span></span>](#element-information)
--   [<span data-ttu-id="a64f1-110">結構化內容</span><span class="sxs-lookup"><span data-stu-id="a64f1-110">Structural Content</span></span>](#structural-content)
--   [<span data-ttu-id="a64f1-111">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="a64f1-111">Extensible Markup Language (XML) Content</span></span>](#extensible-markup-language-xml-content)
+-   [<span data-ttu-id="6dd41-108">項目資訊</span><span class="sxs-lookup"><span data-stu-id="6dd41-108">Element Information</span></span>](#element-information)
+-   [<span data-ttu-id="6dd41-109">結構化內容</span><span class="sxs-lookup"><span data-stu-id="6dd41-109">Structural Content</span></span>](#structural-content)
+-   [<span data-ttu-id="6dd41-110">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="6dd41-110">Extensible Markup Language (XML) Content</span></span>](#extensible-markup-language-xml-content)
 
-## <a name="element-information"></a><span data-ttu-id="a64f1-112">項目資訊</span><span class="sxs-lookup"><span data-stu-id="a64f1-112">Element Information</span></span>
+## <a name="element-information"></a><span data-ttu-id="6dd41-111">項目資訊</span><span class="sxs-lookup"><span data-stu-id="6dd41-111">Element Information</span></span>
 
 
 
-| <span data-ttu-id="a64f1-113">Name</span><span class="sxs-lookup"><span data-stu-id="a64f1-113">Name</span></span> | <span data-ttu-id="a64f1-114">值</span><span class="sxs-lookup"><span data-stu-id="a64f1-114">Value</span></span> |
+| <span data-ttu-id="6dd41-112">Name</span><span class="sxs-lookup"><span data-stu-id="6dd41-112">Name</span></span> | <span data-ttu-id="6dd41-113">值</span><span class="sxs-lookup"><span data-stu-id="6dd41-113">Value</span></span> |
 |----------------------------|--------------------|
-| <span data-ttu-id="a64f1-115">項目類型</span><span class="sxs-lookup"><span data-stu-id="a64f1-115">Element Type</span></span> <br/>   | <span data-ttu-id="a64f1-116">功能</span><span class="sxs-lookup"><span data-stu-id="a64f1-116">Feature</span></span><br/> |
-| <span data-ttu-id="a64f1-117">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="a64f1-117">Scoping Prefix</span></span> <br/> | <span data-ttu-id="a64f1-118">工作 (Job)</span><span class="sxs-lookup"><span data-stu-id="a64f1-118">Job</span></span><br/>     |
-| <span data-ttu-id="a64f1-119">注意</span><span class="sxs-lookup"><span data-stu-id="a64f1-119">Notes</span></span> <br/>          | <span data-ttu-id="a64f1-120">None</span><span class="sxs-lookup"><span data-stu-id="a64f1-120">None</span></span><br/>    |
+| <span data-ttu-id="6dd41-114">項目類型</span><span class="sxs-lookup"><span data-stu-id="6dd41-114">Element Type</span></span> <br/>   | <span data-ttu-id="6dd41-115">功能</span><span class="sxs-lookup"><span data-stu-id="6dd41-115">Feature</span></span><br/> |
+| <span data-ttu-id="6dd41-116">範圍前置詞</span><span class="sxs-lookup"><span data-stu-id="6dd41-116">Scoping Prefix</span></span> <br/> | <span data-ttu-id="6dd41-117">工作 (Job)</span><span class="sxs-lookup"><span data-stu-id="6dd41-117">Job</span></span><br/>     |
+| <span data-ttu-id="6dd41-118">注意</span><span class="sxs-lookup"><span data-stu-id="6dd41-118">Notes</span></span> <br/>          | <span data-ttu-id="6dd41-119">None</span><span class="sxs-lookup"><span data-stu-id="6dd41-119">None</span></span><br/>    |
 
 
 
  
 
-## <a name="structural-content"></a><span data-ttu-id="a64f1-121">結構化內容</span><span class="sxs-lookup"><span data-stu-id="a64f1-121">Structural Content</span></span>
+## <a name="structural-content"></a><span data-ttu-id="6dd41-120">結構化內容</span><span class="sxs-lookup"><span data-stu-id="6dd41-120">Structural Content</span></span>
 
-<span data-ttu-id="a64f1-122">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="a64f1-122">The XML structure of this element is:</span></span>
+<span data-ttu-id="6dd41-121">此元素的 XML 結構為：</span><span class="sxs-lookup"><span data-stu-id="6dd41-121">The XML structure of this element is:</span></span>
 
 ``` syntax
 <psf:Feature name="psk:JobOutputBin">
@@ -59,26 +59,26 @@ ms.locfileid: "107999215"
       
 ```
 
-## <a name="structure-variables"></a><span data-ttu-id="a64f1-123">結構變數</span><span class="sxs-lookup"><span data-stu-id="a64f1-123">Structure Variables</span></span>
+## <a name="structure-variables"></a><span data-ttu-id="6dd41-122">結構變數</span><span class="sxs-lookup"><span data-stu-id="6dd41-122">Structure Variables</span></span>
 
-<span data-ttu-id="a64f1-124">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="a64f1-124">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
+<span data-ttu-id="6dd41-123">下表概述 XML 結構中所定義之變數的特性。</span><span class="sxs-lookup"><span data-stu-id="6dd41-123">The following table outlines the characteristics of the variables defined in the XML structure.</span></span>
 
 
 
-| <span data-ttu-id="a64f1-125">Name</span><span class="sxs-lookup"><span data-stu-id="a64f1-125">Name</span></span>                                   | <span data-ttu-id="a64f1-126">資料類型</span><span class="sxs-lookup"><span data-stu-id="a64f1-126">Data type</span></span>          | <span data-ttu-id="a64f1-127">單位</span><span class="sxs-lookup"><span data-stu-id="a64f1-127">Unit</span></span>                  | <span data-ttu-id="a64f1-128">支援的值</span><span class="sxs-lookup"><span data-stu-id="a64f1-128">Supported values</span></span>                                                                                                                                                                      | <span data-ttu-id="a64f1-129">總結</span><span class="sxs-lookup"><span data-stu-id="a64f1-129">Summary</span></span>                                                                             |
+| <span data-ttu-id="6dd41-124">Name</span><span class="sxs-lookup"><span data-stu-id="6dd41-124">Name</span></span>                                   | <span data-ttu-id="6dd41-125">資料類型</span><span class="sxs-lookup"><span data-stu-id="6dd41-125">Data type</span></span>          | <span data-ttu-id="6dd41-126">單位</span><span class="sxs-lookup"><span data-stu-id="6dd41-126">Unit</span></span>                  | <span data-ttu-id="6dd41-127">支援的值</span><span class="sxs-lookup"><span data-stu-id="6dd41-127">Supported values</span></span>                                                                                                                                                                      | <span data-ttu-id="6dd41-128">總結</span><span class="sxs-lookup"><span data-stu-id="6dd41-128">Summary</span></span>                                                                             |
 |----------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| <span data-ttu-id="a64f1-130">\_選項名稱\_</span><span class="sxs-lookup"><span data-stu-id="a64f1-130">\_OptionName\_</span></span><br/>              | <span data-ttu-id="a64f1-131">字串</span><span class="sxs-lookup"><span data-stu-id="a64f1-131">string</span></span><br/>  | <span data-ttu-id="a64f1-132">字元</span><span class="sxs-lookup"><span data-stu-id="a64f1-132">characters</span></span><br/> | <span data-ttu-id="a64f1-133">以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。</span><span class="sxs-lookup"><span data-stu-id="a64f1-133">Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/).</span></span> <span data-ttu-id="a64f1-134">如果未指定命名空間，則會假設為預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="a64f1-134">If no namespace is specified, default namespace is assumed.</span></span><br/> | <span data-ttu-id="a64f1-135">選項的名稱。</span><span class="sxs-lookup"><span data-stu-id="a64f1-135">The name of the option.</span></span><br/>                                                  |
-| <span data-ttu-id="a64f1-136">\_IdentityOptionValue\_</span><span class="sxs-lookup"><span data-stu-id="a64f1-136">\_IdentityOptionValue\_</span></span><br/>     | <span data-ttu-id="a64f1-137">字串</span><span class="sxs-lookup"><span data-stu-id="a64f1-137">string</span></span><br/>  | <span data-ttu-id="a64f1-138">n/a</span><span class="sxs-lookup"><span data-stu-id="a64f1-138">n/a</span></span><br/>        | <span data-ttu-id="a64f1-139">True、False。</span><span class="sxs-lookup"><span data-stu-id="a64f1-139">True, False.</span></span><br/>                                                                                                                                                               | <span data-ttu-id="a64f1-140">定義選項，當選取此選項時，會停用此功能。</span><span class="sxs-lookup"><span data-stu-id="a64f1-140">Defines an Option which when selected would disable this feature.</span></span><br/>        |
-| <span data-ttu-id="a64f1-141">\_BinTypeValue\_</span><span class="sxs-lookup"><span data-stu-id="a64f1-141">\_BinTypeValue\_</span></span><br/>            | <span data-ttu-id="a64f1-142">字串</span><span class="sxs-lookup"><span data-stu-id="a64f1-142">string</span></span><br/>  | <span data-ttu-id="a64f1-143">n/a</span><span class="sxs-lookup"><span data-stu-id="a64f1-143">n/a</span></span><br/>        | <span data-ttu-id="a64f1-144">信箱、排序器、堆疊器、分頁裝訂器、無。</span><span class="sxs-lookup"><span data-stu-id="a64f1-144">MailBox, Sorter, Stacker, Finisher, None.</span></span><br/>                                                                                                                                  | <span data-ttu-id="a64f1-145">指定 bin 的一般類型。</span><span class="sxs-lookup"><span data-stu-id="a64f1-145">Specifies the general type of the bin.</span></span><br/>                                   |
-| <span data-ttu-id="a64f1-146">\_MediaSheetCapacityValue\_</span><span class="sxs-lookup"><span data-stu-id="a64f1-146">\_MediaSheetCapacityValue\_</span></span><br/> | <span data-ttu-id="a64f1-147">整數</span><span class="sxs-lookup"><span data-stu-id="a64f1-147">integer</span></span><br/> | <span data-ttu-id="a64f1-148">床單</span><span class="sxs-lookup"><span data-stu-id="a64f1-148">sheets</span></span><br/>     | <span data-ttu-id="a64f1-149">裝置允許的最大整數條件約束。</span><span class="sxs-lookup"><span data-stu-id="a64f1-149">Maximum integer constraint allowed by device.</span></span><br/>                                                                                                                              | <span data-ttu-id="a64f1-150">以 (完整層級) 的頁面數目指定媒體容量。</span><span class="sxs-lookup"><span data-stu-id="a64f1-150">Specifies the Media capacity in number of pages (full level) of the bin.</span></span><br/> |
+| <span data-ttu-id="6dd41-129">\_選項名稱\_</span><span class="sxs-lookup"><span data-stu-id="6dd41-129">\_OptionName\_</span></span><br/>              | <span data-ttu-id="6dd41-130">string</span><span class="sxs-lookup"><span data-stu-id="6dd41-130">string</span></span><br/>  | <span data-ttu-id="6dd41-131">字元</span><span class="sxs-lookup"><span data-stu-id="6dd41-131">characters</span></span><br/> | <span data-ttu-id="6dd41-132">以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。</span><span class="sxs-lookup"><span data-stu-id="6dd41-132">Valid fully qualified name as defined by [Namespaces in XML](https://www.w3.org/TR/1999/REC-xml-names-19990114/).</span></span> <span data-ttu-id="6dd41-133">如果未指定命名空間，則會假設為預設命名空間。</span><span class="sxs-lookup"><span data-stu-id="6dd41-133">If no namespace is specified, default namespace is assumed.</span></span><br/> | <span data-ttu-id="6dd41-134">選項的名稱。</span><span class="sxs-lookup"><span data-stu-id="6dd41-134">The name of the option.</span></span><br/>                                                  |
+| <span data-ttu-id="6dd41-135">\_IdentityOptionValue\_</span><span class="sxs-lookup"><span data-stu-id="6dd41-135">\_IdentityOptionValue\_</span></span><br/>     | <span data-ttu-id="6dd41-136">string</span><span class="sxs-lookup"><span data-stu-id="6dd41-136">string</span></span><br/>  | <span data-ttu-id="6dd41-137">n/a</span><span class="sxs-lookup"><span data-stu-id="6dd41-137">n/a</span></span><br/>        | <span data-ttu-id="6dd41-138">True、False。</span><span class="sxs-lookup"><span data-stu-id="6dd41-138">True, False.</span></span><br/>                                                                                                                                                               | <span data-ttu-id="6dd41-139">定義選項，當選取此選項時，會停用此功能。</span><span class="sxs-lookup"><span data-stu-id="6dd41-139">Defines an Option which when selected would disable this feature.</span></span><br/>        |
+| <span data-ttu-id="6dd41-140">\_BinTypeValue\_</span><span class="sxs-lookup"><span data-stu-id="6dd41-140">\_BinTypeValue\_</span></span><br/>            | <span data-ttu-id="6dd41-141">string</span><span class="sxs-lookup"><span data-stu-id="6dd41-141">string</span></span><br/>  | <span data-ttu-id="6dd41-142">n/a</span><span class="sxs-lookup"><span data-stu-id="6dd41-142">n/a</span></span><br/>        | <span data-ttu-id="6dd41-143">信箱、排序器、堆疊器、分頁裝訂器、無。</span><span class="sxs-lookup"><span data-stu-id="6dd41-143">MailBox, Sorter, Stacker, Finisher, None.</span></span><br/>                                                                                                                                  | <span data-ttu-id="6dd41-144">指定 bin 的一般類型。</span><span class="sxs-lookup"><span data-stu-id="6dd41-144">Specifies the general type of the bin.</span></span><br/>                                   |
+| <span data-ttu-id="6dd41-145">\_MediaSheetCapacityValue\_</span><span class="sxs-lookup"><span data-stu-id="6dd41-145">\_MediaSheetCapacityValue\_</span></span><br/> | <span data-ttu-id="6dd41-146">整數</span><span class="sxs-lookup"><span data-stu-id="6dd41-146">integer</span></span><br/> | <span data-ttu-id="6dd41-147">床單</span><span class="sxs-lookup"><span data-stu-id="6dd41-147">sheets</span></span><br/>     | <span data-ttu-id="6dd41-148">裝置允許的最大整數條件約束。</span><span class="sxs-lookup"><span data-stu-id="6dd41-148">Maximum integer constraint allowed by device.</span></span><br/>                                                                                                                              | <span data-ttu-id="6dd41-149">以 (完整層級) 的頁面數目指定媒體容量。</span><span class="sxs-lookup"><span data-stu-id="6dd41-149">Specifies the Media capacity in number of pages (full level) of the bin.</span></span><br/> |
 
 
 
  
 
-## <a name="extensible-markup-language-xml-content"></a><span data-ttu-id="a64f1-151">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="a64f1-151">Extensible Markup Language (XML) Content</span></span>
+## <a name="extensible-markup-language-xml-content"></a><span data-ttu-id="6dd41-150">可延伸標記語言 (XML)  (XML) 內容</span><span class="sxs-lookup"><span data-stu-id="6dd41-150">Extensible Markup Language (XML) Content</span></span>
 
-<span data-ttu-id="a64f1-152">公用列印架構關鍵字是在 https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords 命名空間中定義。</span><span class="sxs-lookup"><span data-stu-id="a64f1-152">The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace.</span></span> <span data-ttu-id="a64f1-153">此關鍵字的 public 可延伸標記語言 (XML)  (XML) 內容定義如下：</span><span class="sxs-lookup"><span data-stu-id="a64f1-153">The public Extensible Markup Language (XML) content for this keyword is defined below:</span></span>
+<span data-ttu-id="6dd41-151">公用列印架構關鍵字是在 https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords 命名空間中定義。</span><span class="sxs-lookup"><span data-stu-id="6dd41-151">The public Print Schema keywords are defined in the https://schemas.microsoft.com/windows/2003/08/printing/printschemakeywords namespace.</span></span> <span data-ttu-id="6dd41-152">此關鍵字的 public 可延伸標記語言 (XML)  (XML) 內容定義如下：</span><span class="sxs-lookup"><span data-stu-id="6dd41-152">The public Extensible Markup Language (XML) content for this keyword is defined below:</span></span>
 
 ``` syntax
 <psf:Feature name="psk:JobOutputBin">
@@ -97,11 +97,11 @@ ms.locfileid: "107999215"
     
 ```
 
-## <a name="related-topics"></a><span data-ttu-id="a64f1-154">相關主題</span><span class="sxs-lookup"><span data-stu-id="a64f1-154">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="6dd41-153">相關主題</span><span class="sxs-lookup"><span data-stu-id="6dd41-153">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a64f1-155">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="a64f1-155">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
+[<span data-ttu-id="6dd41-154">列印架構規格</span><span class="sxs-lookup"><span data-stu-id="6dd41-154">Print Schema Specification</span></span>](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)
 </dt> </dl>
 
  

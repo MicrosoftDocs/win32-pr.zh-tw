@@ -1,71 +1,71 @@
 ---
-description: D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
+description: 深入瞭解 D3DX 中的線條繪製支援。 D3DX 是提供 helper 服務的公用程式庫。 它是 Direct3D 元件之上的一層。
 ms.assetid: 34ad82f2-542c-4342-af02-a767d6d4c96c
 title: 'D3DX 中的線條繪圖支援 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974a0fdeb24dad1107f85e6c79603368776bce15
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c4cf15eae461d0dbe719e99cfac605a6c8b8d272
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385740"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112407531"
 ---
-# <a name="line-drawing-support-in-d3dx-direct3d-9"></a><span data-ttu-id="a5430-104">D3DX 中的線條繪圖支援 (Direct3D 9) </span><span class="sxs-lookup"><span data-stu-id="a5430-104">Line Drawing Support in D3DX (Direct3D 9)</span></span>
+# <a name="line-drawing-support-in-d3dx-direct3d-9"></a><span data-ttu-id="9bcc2-105">D3DX 中的線條繪圖支援 (Direct3D 9) </span><span class="sxs-lookup"><span data-stu-id="9bcc2-105">Line Drawing Support in D3DX (Direct3D 9)</span></span>
 
-<span data-ttu-id="a5430-105">D3DX 是提供 helper 服務的公用程式庫。</span><span class="sxs-lookup"><span data-stu-id="a5430-105">D3DX is a utility library that provides helper services.</span></span> <span data-ttu-id="a5430-106">它是 Direct3D 元件之上的一層。</span><span class="sxs-lookup"><span data-stu-id="a5430-106">It is a layer above the Direct3D component.</span></span>
+<span data-ttu-id="9bcc2-106">D3DX 是提供 helper 服務的公用程式庫。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-106">D3DX is a utility library that provides helper services.</span></span> <span data-ttu-id="9bcc2-107">它是 Direct3D 元件之上的一層。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-107">It is a layer above the Direct3D component.</span></span>
 
-<span data-ttu-id="a5430-107">D3DX 支援全圖元的反鋸齒線條。</span><span class="sxs-lookup"><span data-stu-id="a5430-107">D3DX supports single-pixel-wide antialiased lines.</span></span> <span data-ttu-id="a5430-108">不再支援行模式。</span><span class="sxs-lookup"><span data-stu-id="a5430-108">Line patterns are no longer supported.</span></span>
+<span data-ttu-id="9bcc2-108">D3DX 支援全圖元的反鋸齒線條。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-108">D3DX supports single-pixel-wide antialiased lines.</span></span> <span data-ttu-id="9bcc2-109">不再支援行模式。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-109">Line patterns are no longer supported.</span></span>
 
-<span data-ttu-id="a5430-109">線條繪圖程式庫會使用材質三角形來模擬線條，並假設如下：</span><span class="sxs-lookup"><span data-stu-id="a5430-109">The line drawing library emulates lines using texture triangles and assumes the following:</span></span>
+<span data-ttu-id="9bcc2-110">線條繪圖程式庫會使用材質三角形來模擬線條，並假設如下：</span><span class="sxs-lookup"><span data-stu-id="9bcc2-110">The line drawing library emulates lines using texture triangles and assumes the following:</span></span>
 
--   <span data-ttu-id="a5430-110">透過 Direct3D 9 介面可取得硬體。</span><span class="sxs-lookup"><span data-stu-id="a5430-110">Hardware is available through the Direct3D 9 interfaces.</span></span>
--   <span data-ttu-id="a5430-111">至少有一個材質階段可供使用。</span><span class="sxs-lookup"><span data-stu-id="a5430-111">At least one texture stage is available.</span></span>
--   <span data-ttu-id="a5430-112">使用64x64 紋理。</span><span class="sxs-lookup"><span data-stu-id="a5430-112">64x64 textures are used.</span></span>
--   <span data-ttu-id="a5430-113">可用的模式如下：</span><span class="sxs-lookup"><span data-stu-id="a5430-113">The following modes are available:</span></span>
-    -   <span data-ttu-id="a5430-114">雙線性篩選</span><span class="sxs-lookup"><span data-stu-id="a5430-114">Bilinear filtering</span></span>
-    -   <span data-ttu-id="a5430-115">夾具位址模式</span><span class="sxs-lookup"><span data-stu-id="a5430-115">Clamp address mode</span></span>
-    -   <span data-ttu-id="a5430-116">換行位址模式</span><span class="sxs-lookup"><span data-stu-id="a5430-116">Wrap address mode</span></span>
-    -   <span data-ttu-id="a5430-117">Alpha op lambert</span><span class="sxs-lookup"><span data-stu-id="a5430-117">Alpha op modulate</span></span>
-    -   <span data-ttu-id="a5430-118">Alpha 混色 (SRCBLEND = SRC \_ Alpha，DESTBLEND = INV \_ src \_ Alpha) </span><span class="sxs-lookup"><span data-stu-id="a5430-118">Alpha blending (SRCBLEND = SRC\_ALPHA, DESTBLEND = INV\_SRC\_ALPHA)</span></span>
-    -   <span data-ttu-id="a5430-119">Alpha 測試是否無法使用 Alpha 混色;低品質結果</span><span class="sxs-lookup"><span data-stu-id="a5430-119">Alpha test if alpha blending is not available; lower quality result</span></span>
+-   <span data-ttu-id="9bcc2-111">透過 Direct3D 9 介面可取得硬體。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-111">Hardware is available through the Direct3D 9 interfaces.</span></span>
+-   <span data-ttu-id="9bcc2-112">至少有一個材質階段可供使用。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-112">At least one texture stage is available.</span></span>
+-   <span data-ttu-id="9bcc2-113">使用64x64 紋理。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-113">64x64 textures are used.</span></span>
+-   <span data-ttu-id="9bcc2-114">可用的模式如下：</span><span class="sxs-lookup"><span data-stu-id="9bcc2-114">The following modes are available:</span></span>
+    -   <span data-ttu-id="9bcc2-115">雙線性篩選</span><span class="sxs-lookup"><span data-stu-id="9bcc2-115">Bilinear filtering</span></span>
+    -   <span data-ttu-id="9bcc2-116">夾具位址模式</span><span class="sxs-lookup"><span data-stu-id="9bcc2-116">Clamp address mode</span></span>
+    -   <span data-ttu-id="9bcc2-117">換行位址模式</span><span class="sxs-lookup"><span data-stu-id="9bcc2-117">Wrap address mode</span></span>
+    -   <span data-ttu-id="9bcc2-118">Alpha op lambert</span><span class="sxs-lookup"><span data-stu-id="9bcc2-118">Alpha op modulate</span></span>
+    -   <span data-ttu-id="9bcc2-119">Alpha 混色 (SRCBLEND = SRC \_ Alpha，DESTBLEND = INV \_ src \_ Alpha) </span><span class="sxs-lookup"><span data-stu-id="9bcc2-119">Alpha blending (SRCBLEND = SRC\_ALPHA, DESTBLEND = INV\_SRC\_ALPHA)</span></span>
+    -   <span data-ttu-id="9bcc2-120">Alpha 測試是否無法使用 Alpha 混色;低品質結果</span><span class="sxs-lookup"><span data-stu-id="9bcc2-120">Alpha test if alpha blending is not available; lower quality result</span></span>
 
-<span data-ttu-id="a5430-120">若要在多重取樣轉譯目標中呈現反鋸齒線條，請使用會產生紋理多邊形的 [**ID3DXLine**](id3dxline.md) 。</span><span class="sxs-lookup"><span data-stu-id="a5430-120">For antialiased line rendering in multisample render targets, use [**ID3DXLine**](id3dxline.md) which generates textured polygons.</span></span> <span data-ttu-id="a5430-121">以反鋸齒線分隔的圖元涵蓋範圍值，lambert 圖元著色器所計算的圖元 Alpha 值。</span><span class="sxs-lookup"><span data-stu-id="a5430-121">The pixel coverage values, generated by antialiased line rasterization, modulate the pixel's alpha value computed by the pixel shader.</span></span> <span data-ttu-id="a5430-122">若要繪製反鋸齒線，應用程式必須啟用 Alpha 混合，然後必須將 D3DRS \_ ANTIALIASEDLINEENABLE 轉譯狀態設為 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="a5430-122">To draw an antialiased line, an application must enable alpha blending and then it must set the D3DRS\_ANTIALIASEDLINEENABLE render state to **TRUE**.</span></span>
+<span data-ttu-id="9bcc2-121">若要在多重取樣轉譯目標中呈現反鋸齒線條，請使用會產生紋理多邊形的 [**ID3DXLine**](id3dxline.md) 。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-121">For antialiased line rendering in multisample render targets, use [**ID3DXLine**](id3dxline.md) which generates textured polygons.</span></span> <span data-ttu-id="9bcc2-122">以反鋸齒線分隔的圖元涵蓋範圍值，lambert 圖元著色器所計算的圖元 Alpha 值。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-122">The pixel coverage values, generated by antialiased line rasterization, modulate the pixel's alpha value computed by the pixel shader.</span></span> <span data-ttu-id="9bcc2-123">若要繪製反鋸齒線，應用程式必須啟用 Alpha 混合，然後必須將 D3DRS \_ ANTIALIASEDLINEENABLE 轉譯狀態設為 **TRUE**。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-123">To draw an antialiased line, an application must enable alpha blending and then it must set the D3DRS\_ANTIALIASEDLINEENABLE render state to **TRUE**.</span></span>
 
-## <a name="functionality-description"></a><span data-ttu-id="a5430-123">功能描述</span><span class="sxs-lookup"><span data-stu-id="a5430-123">Functionality Description</span></span>
+## <a name="functionality-description"></a><span data-ttu-id="9bcc2-124">功能描述</span><span class="sxs-lookup"><span data-stu-id="9bcc2-124">Functionality Description</span></span>
 
-<span data-ttu-id="a5430-124">此程式庫支援以下列線條功能繪製彩色的行條紋，其中每個功能都與任何其他功能無關：</span><span class="sxs-lookup"><span data-stu-id="a5430-124">The library supports drawing colored line strips with the following line features, each of which is independent of any other:</span></span>
+<span data-ttu-id="9bcc2-125">此程式庫支援以下列線條功能繪製彩色的行條紋，其中每個功能都與任何其他功能無關：</span><span class="sxs-lookup"><span data-stu-id="9bcc2-125">The library supports drawing colored line strips with the following line features, each of which is independent of any other:</span></span>
 
--   <span data-ttu-id="a5430-125">線條寬度</span><span class="sxs-lookup"><span data-stu-id="a5430-125">Line width</span></span>
--   <span data-ttu-id="a5430-126">具有重複 (行模式計數器會隨著每個 ID3DXLine 而重設的行模式 [**：:D raw**](id3dxline--draw.md) 或 [**ID3DXLine：:D rawtransform**](id3dxline--drawtransform.md) 呼叫。</span><span class="sxs-lookup"><span data-stu-id="a5430-126">Line pattern with repetition (the line pattern counter resets with each [**ID3DXLine::Draw**](id3dxline--draw.md) or [**ID3DXLine::DrawTransform**](id3dxline--drawtransform.md) call.</span></span> <span data-ttu-id="a5430-127">它不會隨著行帶的每個區段重設。 ) </span><span class="sxs-lookup"><span data-stu-id="a5430-127">It does not reset with each segment of the line strip.)</span></span>
--   <span data-ttu-id="a5430-128">消除鋸齒</span><span class="sxs-lookup"><span data-stu-id="a5430-128">Antialiasing</span></span>
--   <span data-ttu-id="a5430-129">OpenGL 樣式行</span><span class="sxs-lookup"><span data-stu-id="a5430-129">OpenGL-style lines</span></span>
+-   <span data-ttu-id="9bcc2-126">線條寬度</span><span class="sxs-lookup"><span data-stu-id="9bcc2-126">Line width</span></span>
+-   <span data-ttu-id="9bcc2-127">具有重複 (行模式計數器會隨著每個 ID3DXLine 而重設的行模式 [**：:D raw**](id3dxline--draw.md) 或 [**ID3DXLine：:D rawtransform**](id3dxline--drawtransform.md) 呼叫。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-127">Line pattern with repetition (the line pattern counter resets with each [**ID3DXLine::Draw**](id3dxline--draw.md) or [**ID3DXLine::DrawTransform**](id3dxline--drawtransform.md) call.</span></span> <span data-ttu-id="9bcc2-128">它不會隨著行帶的每個區段重設。 ) </span><span class="sxs-lookup"><span data-stu-id="9bcc2-128">It does not reset with each segment of the line strip.)</span></span>
+-   <span data-ttu-id="9bcc2-129">消除鋸齒</span><span class="sxs-lookup"><span data-stu-id="9bcc2-129">Antialiasing</span></span>
+-   <span data-ttu-id="9bcc2-130">OpenGL 樣式行</span><span class="sxs-lookup"><span data-stu-id="9bcc2-130">OpenGL-style lines</span></span>
 
 > [!Note]  
-> <span data-ttu-id="a5430-130">不支援 mitering。</span><span class="sxs-lookup"><span data-stu-id="a5430-130">No mitering is supported.</span></span>
+> <span data-ttu-id="9bcc2-131">不支援 mitering。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-131">No mitering is supported.</span></span>
 
  
 
-<span data-ttu-id="a5430-131">程式庫會使用原生硬體線路繪圖支援 (如果只有在下列情況才可在裝置) ：</span><span class="sxs-lookup"><span data-stu-id="a5430-131">The library uses native hardware line drawing support (if available in the device) only if:</span></span>
+<span data-ttu-id="9bcc2-132">程式庫會使用原生硬體線路繪圖支援 (如果只有在下列情況才可在裝置) ：</span><span class="sxs-lookup"><span data-stu-id="9bcc2-132">The library uses native hardware line drawing support (if available in the device) only if:</span></span>
 
--   <span data-ttu-id="a5430-132">線條寬度為1。</span><span class="sxs-lookup"><span data-stu-id="a5430-132">Line width is 1.</span></span>
--   <span data-ttu-id="a5430-133">未啟用行模式。</span><span class="sxs-lookup"><span data-stu-id="a5430-133">No line pattern is enabled.</span></span>
+-   <span data-ttu-id="9bcc2-133">線條寬度為1。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-133">Line width is 1.</span></span>
+-   <span data-ttu-id="9bcc2-134">未啟用行模式。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-134">No line pattern is enabled.</span></span>
 
-<span data-ttu-id="a5430-134">某些硬體支援全圖元的反鋸齒程式列，因此，程式庫會使用該程式碼（如果有的話）。</span><span class="sxs-lookup"><span data-stu-id="a5430-134">Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available.</span></span> <span data-ttu-id="a5430-135">[**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)結構的 LineCaps 成員會列舉線條繪圖基本專案的硬體功能。</span><span class="sxs-lookup"><span data-stu-id="a5430-135">The LineCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure enumerates hardware capabilities for line-drawing primitives.</span></span>
+<span data-ttu-id="9bcc2-135">某些硬體支援全圖元的反鋸齒程式列，因此，程式庫會使用該程式碼（如果有的話）。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-135">Single-pixel-wide antialiased lines are supported by some hardware, so the library uses that, if available.</span></span> <span data-ttu-id="9bcc2-136">[**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9)結構的 LineCaps 成員會列舉線條繪圖基本專案的硬體功能。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-136">The LineCaps member of the [**D3DCAPS9**](/windows/desktop/api/D3D9Caps/ns-d3d9caps-d3dcaps9) structure enumerates hardware capabilities for line-drawing primitives.</span></span>
 
-<span data-ttu-id="a5430-136">使用軟體線繪圖時，每一行都會展開至矩形，並將四個頂點向下傳送至驅動程式。</span><span class="sxs-lookup"><span data-stu-id="a5430-136">When the software line drawing is used, each line is expanded into a rectangle and four vertices are sent down to the driver.</span></span>
+<span data-ttu-id="9bcc2-137">使用軟體線繪圖時，每一行都會展開至矩形，並將四個頂點向下傳送至驅動程式。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-137">When the software line drawing is used, each line is expanded into a rectangle and four vertices are sent down to the driver.</span></span>
 
-<span data-ttu-id="a5430-137">每個線段都會以兩個三角形繪製。</span><span class="sxs-lookup"><span data-stu-id="a5430-137">Each line segment is drawn with two triangles.</span></span> <span data-ttu-id="a5430-138">基本的寬度是指定的寬度加上1.0，這可能會導致額外的資料列或資料行的圖元。</span><span class="sxs-lookup"><span data-stu-id="a5430-138">The width of the primitive is the specified width plus 1.0, which may result in an extra row or column of pixels.</span></span> <span data-ttu-id="a5430-139">當線條變得更寬時，材質中的消除鋸齒漸層會變得更粗糙，而在中間會複寫更完全不透明的材質。</span><span class="sxs-lookup"><span data-stu-id="a5430-139">As the line gets wider, the antialias gradient in the texture becomes more coarse, and more fully-opaque texels are replicated around the middle.</span></span> <span data-ttu-id="a5430-140">漸層是以材質的 v 方向進行編碼，通常是沿著 u 方向進行複製。</span><span class="sxs-lookup"><span data-stu-id="a5430-140">The gradient is encoded in the v-direction of the texture, and typically replicated along the u-direction.</span></span> <span data-ttu-id="a5430-141">V 的材質定址模式是夾具。</span><span class="sxs-lookup"><span data-stu-id="a5430-141">The texture addressing mode for v is clamp.</span></span>
+<span data-ttu-id="9bcc2-138">每個線段都會以兩個三角形繪製。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-138">Each line segment is drawn with two triangles.</span></span> <span data-ttu-id="9bcc2-139">基本的寬度是指定的寬度加上1.0，這可能會導致額外的資料列或資料行的圖元。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-139">The width of the primitive is the specified width plus 1.0, which may result in an extra row or column of pixels.</span></span> <span data-ttu-id="9bcc2-140">當線條變得更寬時，材質中的消除鋸齒漸層會變得更粗糙，而在中間會複寫更完全不透明的材質。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-140">As the line gets wider, the antialias gradient in the texture becomes more coarse, and more fully-opaque texels are replicated around the middle.</span></span> <span data-ttu-id="9bcc2-141">漸層是以材質的 v 方向進行編碼，通常是沿著 u 方向進行複製。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-141">The gradient is encoded in the v-direction of the texture, and typically replicated along the u-direction.</span></span> <span data-ttu-id="9bcc2-142">V 的材質定址模式是夾具。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-142">The texture addressing mode for v is clamp.</span></span>
 
-<span data-ttu-id="a5430-142">清單中的每個線條區段都可以被視為從上一個結束點開始的另一行。</span><span class="sxs-lookup"><span data-stu-id="a5430-142">Each line segment in the list can be considered to be a separate line that happens to start from the previous end point.</span></span>
+<span data-ttu-id="9bcc2-143">清單中的每個線條區段都可以被視為從上一個結束點開始的另一行。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-143">Each line segment in the list can be considered to be a separate line that happens to start from the previous end point.</span></span>
 
-<span data-ttu-id="a5430-143">沿著邊緣平行至原始線條長度的消除鋸齒品質，會隨著線條變得更寬而受到影響。</span><span class="sxs-lookup"><span data-stu-id="a5430-143">Antialiasing quality along the edges parallel to the length of the original line suffers as the line gets wider.</span></span> <span data-ttu-id="a5430-144">如果行寬度大於32.0，則會開始展示這些邊緣的成品。</span><span class="sxs-lookup"><span data-stu-id="a5430-144">It is expected that line widths greater than 32.0 will start to exhibit artifacts along these edges.</span></span>
+<span data-ttu-id="9bcc2-144">沿著邊緣平行至原始線條長度的消除鋸齒品質，會隨著線條變得更寬而受到影響。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-144">Antialiasing quality along the edges parallel to the length of the original line suffers as the line gets wider.</span></span> <span data-ttu-id="9bcc2-145">如果行寬度大於32.0，則會開始展示這些邊緣的成品。</span><span class="sxs-lookup"><span data-stu-id="9bcc2-145">It is expected that line widths greater than 32.0 will start to exhibit artifacts along these edges.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="a5430-145">相關主題</span><span class="sxs-lookup"><span data-stu-id="a5430-145">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="9bcc2-146">相關主題</span><span class="sxs-lookup"><span data-stu-id="9bcc2-146">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a5430-146">D3DX</span><span class="sxs-lookup"><span data-stu-id="a5430-146">D3DX</span></span>](d3dx.md)
+[<span data-ttu-id="9bcc2-147">D3DX</span><span class="sxs-lookup"><span data-stu-id="9bcc2-147">D3DX</span></span>](d3dx.md)
 </dt> </dl>
 
  

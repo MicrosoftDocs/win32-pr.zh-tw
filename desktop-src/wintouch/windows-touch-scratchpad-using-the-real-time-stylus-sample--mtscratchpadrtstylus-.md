@@ -1,6 +1,6 @@
 ---
 title: '使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) '
-description: Windows Touch 的便箋範例 (MTScratchpadRTStylus) 會示範如何使用 Windows Touch 訊息來繪製觸控點至視窗的追蹤。
+description: 複習 Windows Touch 的 (MTScratchpadRTStylus) 範例，其中會示範如何使用 Windows Touch 的訊息，將觸控點的追蹤繪製至視窗。
 ms.assetid: c72ddc71-48b7-4c26-af2b-10919038eaf8
 keywords:
 - Windows Touch，程式碼範例
@@ -10,22 +10,22 @@ keywords:
 - Windows Touch，即時手寫筆 (RTS) 物件
 ms.topic: article
 ms.date: 02/18/2020
-ms.openlocfilehash: 94d425bcb39dd35d3bd71636fb19b6b408af9477
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 42e32e66942f3dcfad11b8b777e846e0cee6c0b3
+ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106969689"
+ms.lasthandoff: 06/19/2021
+ms.locfileid: "112406291"
 ---
-# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a><span data-ttu-id="a2c1f-108">使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) </span><span class="sxs-lookup"><span data-stu-id="a2c1f-108">Windows Touch Scratchpad using the Real-time Stylus Sample (C++)</span></span>
+# <a name="windows-touch-scratchpad-using-the-real-time-stylus-sample-c"></a><span data-ttu-id="da691-108">使用即時手寫筆範例 (c + + 的 Windows Touch 便箋) </span><span class="sxs-lookup"><span data-stu-id="da691-108">Windows Touch Scratchpad using the Real-time Stylus Sample (C++)</span></span>
 
-<span data-ttu-id="a2c1f-109">Windows Touch 的便箋範例 ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) 會示範如何使用 Windows Touch 訊息來繪製觸控點至視窗的追蹤。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-109">The Windows Touch Scratchpad sample ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) shows how to use Windows Touch messages to draw traces of the touch points to a window.</span></span> <span data-ttu-id="a2c1f-110">主要手指的追蹤（先放在數位板上）會以黑色繪製。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-110">The trace of the primary finger, the one that was put on the digitizer first, is drawn in black.</span></span> <span data-ttu-id="a2c1f-111">次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-111">Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow.</span></span> <span data-ttu-id="a2c1f-112">下列螢幕擷取畫面顯示應用程式在執行時的外觀。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-112">The following screen shot shows how the application could look while running.</span></span>
+<span data-ttu-id="da691-109">Windows Touch 的便箋範例 ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) 會示範如何使用 Windows Touch 訊息來繪製觸控點至視窗的追蹤。</span><span class="sxs-lookup"><span data-stu-id="da691-109">The Windows Touch Scratchpad sample ([MTScratchpadRTStylus](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)) shows how to use Windows Touch messages to draw traces of the touch points to a window.</span></span> <span data-ttu-id="da691-110">主要手指的追蹤（先放在數位板上）會以黑色繪製。</span><span class="sxs-lookup"><span data-stu-id="da691-110">The trace of the primary finger, the one that was put on the digitizer first, is drawn in black.</span></span> <span data-ttu-id="da691-111">次要手指會以六種其他色彩繪製：紅色、綠色、藍色、青色、洋紅和黃色。</span><span class="sxs-lookup"><span data-stu-id="da691-111">Secondary fingers are drawn in six other colors: red, green, blue, cyan, magenta, and yellow.</span></span> <span data-ttu-id="da691-112">下列螢幕擷取畫面顯示應用程式在執行時的外觀。</span><span class="sxs-lookup"><span data-stu-id="da691-112">The following screen shot shows how the application could look while running.</span></span>
 
 ![螢幕擷取畫面，其中顯示使用即時手寫筆的 windows touch 攝影範例，並在畫面上顯示綠色、紅色、三個黑色和藍線](images/mtscratchpadrtstylus.png)
 
-<span data-ttu-id="a2c1f-114">在此範例中，會建立即時手寫筆 (RTS) 物件，並啟用多個連絡人點的支援。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-114">For this sample, the Real-time Stylus (RTS) object is created and support for multiple contact points is enabled.</span></span> <span data-ttu-id="a2c1f-115">DynamicRenderer 外掛程式會新增至 RTS 以呈現內容。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-115">A DynamicRenderer plug-in is added to the RTS to render content.</span></span> <span data-ttu-id="a2c1f-116">外掛程式（ **CSyncEventHandlerRTS**）的執行是追蹤手指的數目，以及變更動態轉譯器繪製的色彩。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-116">A plug-in, **CSyncEventHandlerRTS**, is implemented to track down the number of fingers and to change the color that the dynamic renderer is drawing.</span></span> <span data-ttu-id="a2c1f-117">使用 RTS 外掛程式堆疊中的這兩個外掛程式時，Windows Touch 的便箋會將主要連絡人轉譯為黑色，而其餘的連絡人會以各種不同的色彩呈現。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-117">With both plug-ins in the RTS plug-in stack, the Windows Touch Scratchpad application will render the primary contact in black and the rest of the contacts in the various colors.</span></span>
+<span data-ttu-id="da691-114">在此範例中，會建立即時手寫筆 (RTS) 物件，並啟用多個連絡人點的支援。</span><span class="sxs-lookup"><span data-stu-id="da691-114">For this sample, the Real-time Stylus (RTS) object is created and support for multiple contact points is enabled.</span></span> <span data-ttu-id="da691-115">DynamicRenderer 外掛程式會新增至 RTS 以呈現內容。</span><span class="sxs-lookup"><span data-stu-id="da691-115">A DynamicRenderer plug-in is added to the RTS to render content.</span></span> <span data-ttu-id="da691-116">外掛程式（ **CSyncEventHandlerRTS**）的執行是追蹤手指的數目，以及變更動態轉譯器繪製的色彩。</span><span class="sxs-lookup"><span data-stu-id="da691-116">A plug-in, **CSyncEventHandlerRTS**, is implemented to track down the number of fingers and to change the color that the dynamic renderer is drawing.</span></span> <span data-ttu-id="da691-117">使用 RTS 外掛程式堆疊中的這兩個外掛程式時，Windows Touch 的便箋會將主要連絡人轉譯為黑色，而其餘的連絡人會以各種不同的色彩呈現。</span><span class="sxs-lookup"><span data-stu-id="da691-117">With both plug-ins in the RTS plug-in stack, the Windows Touch Scratchpad application will render the primary contact in black and the rest of the contacts in the various colors.</span></span>
 
-<span data-ttu-id="a2c1f-118">下列程式碼顯示如何建立 RTS 物件，並支援多個接觸點。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-118">The following code shows how the RTS object is created with support for multiple contact points.</span></span>
+<span data-ttu-id="da691-118">下列程式碼顯示如何建立 RTS 物件，並支援多個接觸點。</span><span class="sxs-lookup"><span data-stu-id="da691-118">The following code shows how the RTS object is created with support for multiple contact points.</span></span>
 
 ```C++
 IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
@@ -78,7 +78,7 @@ IRealTimeStylus* CreateRealTimeStylus(HWND hWnd)
 }
 ```
 
-<span data-ttu-id="a2c1f-119">下列程式碼顯示如何建立動態轉譯器外掛程式，並將其新增至 RTS。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-119">The following code shows how the dynamic renderer plug-in is created and added to the RTS.</span></span>
+<span data-ttu-id="da691-119">下列程式碼顯示如何建立動態轉譯器外掛程式，並將其新增至 RTS。</span><span class="sxs-lookup"><span data-stu-id="da691-119">The following code shows how the dynamic renderer plug-in is created and added to the RTS.</span></span>
 
 ```C++
 IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
@@ -145,7 +145,7 @@ IDynamicRenderer* CreateDynamicRenderer(IRealTimeStylus* pRealTimeStylus)
 }
 ```
 
-<span data-ttu-id="a2c1f-120">下列程式碼會在 **CSyncEventHandlerRTS**（自訂的 RTS 外掛程式）中變更 **StylusDown** 事件處理常式的手寫筆筆觸色彩。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-120">The following code changes the stylus stroke color for the **StylusDown** event handler in the **CSyncEventHandlerRTS**, a custom RTS plug-in.</span></span>
+<span data-ttu-id="da691-120">下列程式碼會在 **CSyncEventHandlerRTS**（自訂的 RTS 外掛程式）中變更 **StylusDown** 事件處理常式的手寫筆筆觸色彩。</span><span class="sxs-lookup"><span data-stu-id="da691-120">The following code changes the stylus stroke color for the **StylusDown** event handler in the **CSyncEventHandlerRTS**, a custom RTS plug-in.</span></span>
 
 ```C++
 HRESULT CSyncEventHandlerRTS::StylusDown(
@@ -182,8 +182,8 @@ HRESULT CSyncEventHandlerRTS::StylusDown(
 }
 ```
 
-<span data-ttu-id="a2c1f-121">當 *m_nContacts* 值遞增時，它將會變更動態轉譯器中所設定的色彩。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-121">When the *m_nContacts* value is incremented, it will change the color set in the dynamic renderer.</span></span> <span data-ttu-id="a2c1f-122">非主要連絡人的筆觸將會以不同的色彩來繪製。</span><span class="sxs-lookup"><span data-stu-id="a2c1f-122">Strokes that are not the primary contact will be drawn with different colors.</span></span>
+<span data-ttu-id="da691-121">當 *m_nContacts* 值遞增時，它將會變更動態轉譯器中所設定的色彩。</span><span class="sxs-lookup"><span data-stu-id="da691-121">When the *m_nContacts* value is incremented, it will change the color set in the dynamic renderer.</span></span> <span data-ttu-id="da691-122">非主要連絡人的筆觸將會以不同的色彩來繪製。</span><span class="sxs-lookup"><span data-stu-id="da691-122">Strokes that are not the primary contact will be drawn with different colors.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="a2c1f-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="a2c1f-123">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="da691-123">相關主題</span><span class="sxs-lookup"><span data-stu-id="da691-123">Related topics</span></span>
 
-<span data-ttu-id="a2c1f-124">[多點觸控式的程式簿應用程式 (rts/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)、多點觸控式的 [程式 (RTS/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)、 [Windows Touch 範例](windows-touch-samples.md)</span><span class="sxs-lookup"><span data-stu-id="a2c1f-124">[Multi-touch Scratchpad Application (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [Multi-touch Scratchpad Application (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [Windows Touch Samples](windows-touch-samples.md)</span></span>
+<span data-ttu-id="da691-124">[多點觸控式的程式簿應用程式 (rts/c # ) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS)、多點觸控式的 [程式 (RTS/c + +) ](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp)、 [Windows Touch 範例](windows-touch-samples.md)</span><span class="sxs-lookup"><span data-stu-id="da691-124">[Multi-touch Scratchpad Application (RTS/C#)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/CS), [Multi-touch Scratchpad Application (RTS/C++)](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/Touch/MTScratchpadRTStylus/cpp), [Windows Touch Samples](windows-touch-samples.md)</span></span>
