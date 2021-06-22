@@ -4,12 +4,12 @@ ms.assetid: 036fb0ee-8165-41a3-b41a-2e9bf035a6a6
 title: AAC 解碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dde090dee98cddce9658366bde593b5fc779d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7554d6bc4a13fe1e4af4c51e75f1fe8a0bd38286
+ms.sourcegitcommit: 3a0a8a8fdce560a81a27789a1c04172ed96147b1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971392"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112436582"
 ---
 # <a name="aac-decoder"></a>AAC 解碼器
 
@@ -22,6 +22,10 @@ Microsoft 媒體基礎的 AAC 解碼器是 [媒體基礎轉換](media-foundation
 AAC 解碼器支援音訊資料傳輸串流中沒有標頭和 AAC 的原始 AAC 串流 (ADTS) 。
 
 從 Windows 8 開始，AAC 解碼器也支援使用多工層來解碼 MPEG-2 音訊廣播串流， (LATM) 和同步處理層 (LOA) 。 它也可以將 LATM/LOA 資料流程轉換為 ADTS。
+
+## <a name="class-identifier"></a>類別識別碼
+
+AAC 編碼器 (CLSID) 的類別識別碼是 **clsid \_ CMSAACDecMFT**，定義于標頭檔 wmcodecdsp 中。
 
 ## <a name="media-types"></a>媒體類型
 
@@ -137,7 +141,7 @@ AudioSpecificConfig () 資料的長度為2個位元組，適用于 AAC-LC 或 AA
 <thead>
 <tr class="header">
 <th>Subtype</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
