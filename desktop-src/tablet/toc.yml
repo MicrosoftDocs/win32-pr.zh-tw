@@ -22,7 +22,7 @@
             - name: 'COM 程式庫和 ActiveX 控制項 (Tablet PC) '
               href: com-library-and-activex-controls--tablet-pc.md
         - name: 常見問題集
-          href: frequently-asked-questions.md
+          href: frequently-asked-questions.yml
     - name: 平板電腦程式設計
       href: programming-the-tablet-pc.md
       items:
