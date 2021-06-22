@@ -5,12 +5,12 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aadbd1e71b3c9895b75c973397488472b57f8eb1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
+ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548456"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112426962"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>透過緩衝區上傳材質資料
 
@@ -134,7 +134,7 @@ D3D12 不支援使用 [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resour
 -   線性 subresource 複製必須對齊512個位元組 (資料列間距對齊 D3D12 \_ 材質 \_ 資料 \_ 間距 \_ 對齊位元組) 。
 -   常數資料讀取必須是來自堆積開頭的256個位元組倍數 (也就是，只有來自256位元組對齊) 的位址。
 -   索引資料讀取必須是索引資料類型大小的倍數 (亦即，僅來自針對資料) 自然對齊的位址。
--   [**ID3D12GraphicsCommandList：:D rawinstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawinstanced) 和 [**ID3D12GraphicsCommandList：:D rawindexedinstanced**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-drawindexedinstanced) 資料必須是來自 (4 的倍數的位移，也就是只有來自以 DWORD 對齊) 的位址。
+-   [**ID3D12GraphicsCommandList：： ExecuteIndirect**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-executeindirect) 資料必須是來自 4 (倍數的位移，也就是只有來自以 DWORD 對齊) 的位址。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -143,6 +143,6 @@ D3D12 不支援使用 [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resour
 [在緩衝區內進行子分配](large-buffers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
