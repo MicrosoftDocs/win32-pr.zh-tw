@@ -4,12 +4,12 @@ ms.assetid: f0fc7ab9-7653-45c5-be06-a628c6c3e526
 title: 平板電腦
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20fd2a8d76d0c1a6822b35b7613413efcbc9c5f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6c444a9dc2b08c75635335d5bb3b6f6330359f3
+ms.sourcegitcommit: 4be05a12840be3d2e7c71fe57401b2edee72e354
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945350"
+ms.lasthandoff: 06/22/2021
+ms.locfileid: "112449891"
 ---
 # <a name="tablet-pc"></a>平板電腦
 
@@ -43,7 +43,7 @@ Windows 中的 tablet PC 技術可讓您在 Tablet PC 上輸入和輸出手寫�
 
 <dl> <dt>
 
-[常見問題集](frequently-asked-questions.md)
+[常見問題集](frequently-asked-questions.yml)
 </dt> </dl>
 
  
