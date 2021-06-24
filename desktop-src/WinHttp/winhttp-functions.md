@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: WinHTTP 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6511d2e66acc923072cc7a961aae3cb572b8e466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972858"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587743"
 ---
 # <a name="winhttp-functions"></a>WinHTTP 函數
 
@@ -80,6 +80,13 @@ WinHTTP 提供下列功能：
 
 </dd> <dt>
 
+[**WinHttpFreeQueryConnectionGroupResult**](/windows/win32/api/Winhttp/nf-winhttp-winhttpfreequeryconnectiongroupresult)
+</dt> <dd>
+
+釋放先前呼叫 [WinHttpQueryConnectionGroup](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)所配置的記憶體。
+
+</dd> <dt>
+
 [**WinHttpGetDefaultProxyConfiguration**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpgetdefaultproxyconfiguration)
 </dt> <dd>
 
@@ -133,6 +140,13 @@ WinHTTP 提供下列功能：
 </dt> <dd>
 
 傳回伺服器支援的授權配置。
+
+</dd> <dt>
+
+[**WinHttpQueryConnectionGroup**](/windows/win32/api/Winhttp/nf-winhttp-winhttpqueryconnectiongroup)
+</dt> <dd>
+
+抓取 WinHttp 連接的目前狀態原因。
 
 </dd> <dt>
 

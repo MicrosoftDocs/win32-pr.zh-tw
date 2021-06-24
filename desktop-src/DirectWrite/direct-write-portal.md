@@ -4,12 +4,12 @@ description: 現今的應用程式必須支援高品質的文字轉譯、解析�
 ms.assetid: 62a8d723-ae1c-4cbc-a9da-3177e80d4a3a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b1e2ff44083a56a7202847fc07ad9daaa67b7ba
-ms.sourcegitcommit: dd4a3716477b1363be58ecc0d439029f81467104
+ms.openlocfilehash: 4c6bdc75845c2387a4fa4335fa462d0b97ec5669
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "104464173"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587933"
 ---
 # <a name="directwrite-dwrite"></a>DirectWrite (DWrite) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "104464173"
 API 支援測量、繪製和點擊測試多重格式的文字。 DirectWrite 會以 Windows 7 中的主要語言基礎結構為基礎，處理全球和當地語系化應用程式的所有支援語言文字。 DirectWrite 也提供低階字符轉譯 API，適用於想要執行自己的版面配置和 Unicode 對字符處理的開發人員。
 
 > [!NOTE]
-> [Project 留尼旺島](/windows/apps/project-reunion/) 導入了新版本的 DirectWrite， &mdash; 稱為 DWriteCore &mdash; ，可在 Windows 版本下執行以 Windows 8，並開啟您在跨平臺使用的大門。 如需詳細資訊，請參閱 [DWriteCore 總覽](dwritecore-overview.md)。
+> [Windows APP SDK](/windows/apps/windows-app-sdk/) 引進新版本的 DirectWrite， &mdash; 稱為 DWriteCore &mdash; ，可在 Windows 版本下執行以 Windows 8，並開啟您在跨平臺使用的大門。 如需詳細資訊，請參閱 [DWriteCore 總覽](dwritecore-overview.md)。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

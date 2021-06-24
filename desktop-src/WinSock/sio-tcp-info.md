@@ -8,16 +8,16 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: cea9a2d31654d1263f285ee9967b24700fe25138
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: f6076440f117ed287ad544c308e574454f33e2b7
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106992246"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587796"
 ---
 # <a name="sio_tcp_info-control-code"></a>SIO_TCP_INFO 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 **SIO \_ tcp \_ 資訊** 控制程式代碼會抓取傳輸控制通訊協定， (指定之通訊端的 TCP) 統計資料。
 
@@ -67,7 +67,7 @@ int WSPIoctl(
 ### <a name="lpvinbuffer"></a>lpvInBuffer
 
 輸入緩衝區的指標。
-此參數包含 **DWORD** 的指標，可指定您所使用的 **SIO \_ TCP \_ 資訊** 控制程式代碼版本。 指定0會使用 [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0)。 指定1可使用 [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1)，povides 更多欄位。
+此參數包含 **DWORD** 的指標，可指定您所使用的 **SIO \_ TCP \_ 資訊** 控制程式代碼版本。 指定0會使用 [TCP_INFO_v0](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0)。 指定1可使用 [TCP_INFO_v1](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1)，以提供更多欄位。
 
 ### <a name="cbinbuffer"></a>cbInBuffer
 

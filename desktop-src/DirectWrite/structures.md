@@ -6,12 +6,12 @@ keywords:
 - DirectWrite，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea132cde1ea6b740cc02b938767f941e9c999e5a
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 19f678be8e02c8afecd849673d97ae20f6b1a710
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106974747"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587918"
 ---
 # <a name="directwrite-structures"></a>DirectWrite 結構
 
@@ -21,7 +21,7 @@ DirectWrite 會定義下列結構。
 
 | 主題 | 描述 |
 |-|-|
-| [**DWRITE_BITMAP_DATA_BGRA32**](./dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32.md) | 代表 BGRA32 格式的點陣圖資料。 |
+| [**DWRITE_BITMAP_DATA_BGRA32**](/windows/windows-app-sdk/api/win32/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32) | 代表 BGRA32 格式的點陣圖資料。 |
 | [**DWRITE \_ 插入號 \_ 計量**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics) | [**DWRITE \_ 插入號 \_ 度量**](/windows/win32/api/dwrite_1/ns-dwrite_1-dwrite_caret_metrics)結構會指定字型中插入號位置的度量。 |
 | [**DWRITE \_ 叢集 \_ 計量**](/windows/win32/api/dwrite/ns-dwrite-dwrite_cluster_metrics) | 包含圖像叢集的相關資訊。 |
 | [**DWRITE \_ 色彩 \_ F**](dwrite-color-f.md) | 描述色彩的紅色、綠色、藍色和 Alpha 元件。 |

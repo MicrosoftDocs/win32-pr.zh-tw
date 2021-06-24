@@ -6,12 +6,12 @@ keywords:
 - DirectWrite，介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0297875bfe4b5f0a0610091f7330a427ed51b822
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8ff423289eb76a3506edb3537875a99a364be457
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106982793"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588041"
 ---
 # <a name="directwrite-interfaces"></a>DirectWrite 介面
 
@@ -24,7 +24,7 @@ DirectWrite 會定義下列介面。
 | [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult) | 表示非同步作業的結果。 用戶端可以使用介面來等候作業完成，並取得結果。  |
 | [**IDWriteBitmapRenderTarget**](/windows/win32/api/dwrite/nn-dwrite-idwritebitmaprendertarget) | 封裝可用於轉譯圖像的32位裝置獨立點陣圖和裝置內容。 |
 | [**IDWriteBitmapRenderTarget1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritebitmaprendertarget1) | 封裝32位裝置獨立點陣圖和裝置內容，您可以使用它來呈現圖像。 |
-| [**IDWriteBitmapRenderTarget2**](./dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2.md) | 封裝可用於轉譯圖像的32位裝置獨立點陣圖和裝置內容。 |
+| [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nn-dwrite_3-idwritebitmaprendertarget2) | 封裝可用於轉譯圖像的32位裝置獨立點陣圖和裝置內容。 |
 | [**IDWriteColorGlyphRunEnumerator**](idwritecolorglyphrunenumerator.md) | 此介面可讓應用程式透過色彩圖像執行來列舉。 |
 | [**IDWriteColorGlyphRunEnumerator1**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritecolorglyphrunenumerator1) | 色彩圖像執行之已排序集合的列舉值。 |
 | [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) | 用來建立所有後續的 DirectWrite 物件。 這個介面是所有 DirectWrite 物件的根 factory 介面。 |

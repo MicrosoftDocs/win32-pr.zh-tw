@@ -4,12 +4,12 @@ ms.assetid: b1a9c0ca-349d-49d2-9b8b-ae7d3bf94c10
 title: 'OCM__BASE (Olectl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bc79cc842a7f25ba66dc8d807c5ab355fc04547
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa3713d8a7b7447430e914e2582089244a417b1c
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985657"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588059"
 ---
 # <a name="ocm__base"></a>OCM \_ \_ 基底
 
@@ -28,7 +28,7 @@ ms.locfileid: "106985657"
 
 | 範圍                                                 | 意義                                                        |
 |-------------------------------------------------------|----------------------------------------------------------------|
-| 0到 [**WM \_ 使用者**](wm-user.md)  1<br/>   | 保留供系統使用的訊息。<br/>            |
+| 0到 [**WM \_ 使用者**](wm-user.md)1<br/>   | 保留供系統使用的訊息。<br/>            |
 | [**WM \_使用者**](wm-user.md) 透過0x7FFF<br/> | 私用視窗類別使用的整數訊息。<br/> |
 | [**WM \_**](wm-app.md)透過0xBFFF 的應用程式<br/>   | 應用程式可使用的訊息。<br/>         |
 | 0xC000 至0xFFFF<br/>                      | 應用程式所使用的字串訊息。<br/>            |

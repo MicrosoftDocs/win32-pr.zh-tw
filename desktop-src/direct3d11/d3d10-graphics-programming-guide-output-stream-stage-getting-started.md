@@ -4,12 +4,12 @@ description: 本節說明如何搭配資料流程輸出階段使用幾何著色�
 ms.assetid: 37146486-5922-4833-850c-cc4a51de0957
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 909b3ba37e8b80201a4afc3e5bf18f016fed38a0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae2e72d25177926c948f43996b6c57d42a7c557b
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971741"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587875"
 ---
 # <a name="getting-started-with-the-stream-output-stage"></a>使用 Stream-Output 階段開始使用
 
@@ -136,14 +136,14 @@ void GS( triangle GSPS_INPUT input[3], inout TriangleStream<GSPS_INPUT> TriStrea
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream<GSPS_INPUT> TriStream</code></pre></td>
+<td><pre><code>triangle GSPS_INPUT input[3] , inout TriangleStream&lt;GSPS_INPUTT&gt; TriStream</code></pre></td>
 </tr>
 </tbody>
 </table>
 
 </div>
 <p>第一個參數是頂點 (3 的陣列，在此案例中) 由 GSPS_INPUT 結構定義， (會將每個頂點的資料定義為位置、一般和材質座標) 。 第一個參數也會使用三角形關鍵字，這表示輸入組合語言階段必須將資料輸出到幾何著色器，做為其中一個三角形基本型別 (三角形清單或三角形帶狀) 。</p>
-<p>第二個參數是 TriangleStream 類型所定義的三角形資料流程 <GSPS_INPUT> 。 這表示參數是三角形的陣列，其中每個都是由三個頂點組成 (其中包含 GSPS_INPUT) 成員的資料。</p>
+<p>第二個參數是由型別 TriangleStream GSPS_INPUTT 所定義的三角形資料流程 &lt; &gt; 。 這表示參數是三角形的陣列，其中每個都是由三個頂點組成 (其中包含 GSPS_INPUT) 成員的資料。</p>
 <p>使用三角形和 trianglestream 關鍵字來識別 GS 中的個別三角形或三角形串流。</p></td>
 </tr>
 <tr class="odd">

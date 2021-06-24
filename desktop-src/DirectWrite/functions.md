@@ -6,12 +6,12 @@ keywords:
 - DirectWrite，函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e3c773ade980e5359899c038fd13ba4a5cb69a2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 367017bd696477dbac99cee609ab4fdbbe522e26
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965660"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587899"
 ---
 # <a name="directwrite-functions"></a>DirectWrite 函式
 
@@ -24,10 +24,4 @@ DirectWrite 提供下列功能。 所有其他作業都是使用由下列函式�
 | 主題                                                         | 描述                                                                                                             |
 |---------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)<br/> | 建立 DirectWrite factory 物件，該物件用於後續建立個別的 DirectWrite 物件。<br/> |
-
-
-
- 
-
- 
-
+| [**DWriteCoreCreateFactory (DWriteCore)**](/windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory)<br/> | 建立 DirectWrite factory 物件，該物件用於後續建立個別的 DWriteCore 物件。<br/> |

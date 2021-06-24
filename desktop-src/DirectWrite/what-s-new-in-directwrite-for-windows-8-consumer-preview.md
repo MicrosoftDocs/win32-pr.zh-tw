@@ -4,20 +4,20 @@ description: 以下是一些 DirectWrite 新增專案。
 ms.assetid: 2512D222-C6EB-4C2D-80A6-7978FED56F7A
 ms.topic: article
 ms.date: 09/23/2019
-ms.openlocfilehash: 6b54a7f671ab6472ee2e412c2797d80bf7de245e
-ms.sourcegitcommit: d5f16b9d3d5d2e2080ba7b6837eb37250fa67a30
+ms.openlocfilehash: ea9e36487477f51179a77b97726b787a0f5da844
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/02/2021
-ms.locfileid: "111349957"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112587886"
 ---
 # <a name="whats-new-in-directwrite"></a>DirectWrite 的新功能
 
 本主題說明各種 Windows 10 版本的 [DirectWrite](direct-write-portal.md) 新功能。
 
-## <a name="project-reunion-01-prerelease"></a>Project 留尼旺島0.1 發行前版本
+## <a name="windows-app-sdk"></a>Windows 應用程式 SDK
 
-[Project 留尼旺島](/windows/apps/project-reunion/) 導入了新版本的 DirectWrite （稱為 DWriteCore），它會在 Windows 8 的 Windows 版本上執行，並開啟您在跨平臺使用的門。 如需詳細資訊，請參閱 [DWriteCore 總覽](dwritecore-overview.md)。
+[Windows APP SDK](/windows/apps/windows-app-sdk/)引進新版本的 DirectWrite，稱為 DWriteCore。 如需詳細資訊，請參閱 [DWriteCore 總覽](dwritecore-overview.md)。
 
 ## <a name="windows-10-may-2019-update"></a>Windows 10 2019 年 5 月更新
 

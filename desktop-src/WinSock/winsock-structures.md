@@ -4,12 +4,12 @@ ms.assetid: 96bacf00-d1ea-4ba7-adf4-9078568ac44b
 title: Winsock 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac97b8f9710163a29dc7d5938df4cb34bb51ec2f
-ms.sourcegitcommit: 04fcd6711f2b167a3023a67310deb58780e1fea8
+ms.openlocfilehash: 627fed267944787dde754dce4690e350ec0bd9e1
+ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112082383"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "112588043"
 ---
 # <a name="winsock-structures"></a>Winsock 結構
 
@@ -17,14 +17,17 @@ ms.locfileid: "112082383"
 
 
 
-| 結構                                                                                 | Description                                                                                                                                                                                                                                                                       |
+| 結構                                                                                 | 描述                                                                                                                                                                                                                                                                       |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**addrinfo**](/windows/win32/api/ws2def/ns-ws2def-addrinfoa)                                                            | 由 [**getaddrinfo**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfo) 函數用來保存主機位址資訊。                                                                                                                                                                                       |
 | [**addrinfoW**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfow)                                                            | 由 [**GetAddrInfoW**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfow) 函數用來保存主機位址資訊。                                                                                                                                                                                       |
+| [**ADDRINFO_DNS_SERVER**](/windows/win32/api/ws2def/ns-ws2def-addrinfo_dns_server) | 代表在 Winsock Api 中使用之 DNS) 伺服器 (的自訂網域名稱系統。 |
 | [**addrinfoex**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoexw)                                                          | 由 [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函數用來保存主機位址資訊。                                                                                                                                                                                     |
 | [**addrinfoex2**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex2w)                                                        | 當標準名稱和完整功能變數名稱都已要求時， [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函式會用來保存主機位址資訊。                                                                                                    |
 | [**addrinfoex3**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex3)                                                        | 當要求特定的網路介面時， [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函式會用來保存主機位址資訊。                                                                                                                                |
 | [**addrinfoex4**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex4)                                                        | 當要求完整功能變數名稱的控制碼時， [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函式會使用此功能來保存主機位址資訊。                                                                                                                 |
+| [**addrinfoex5**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex5) | 當要求完整功能變數名稱的控制碼時， [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函式會使用此功能來保存主機位址資訊。 |
+| [**addrinfoex6**](/windows/desktop/api/Ws2def/ns-ws2def-addrinfoex6) | 當要求完整功能變數名稱的控制碼時， [**GetAddrInfoEx**](/windows/desktop/api/Ws2tcpip/nf-ws2tcpip-getaddrinfoexa) 函式會使用此功能來保存主機位址資訊。 |
 | [**AFPROTOCOLS**](/windows/desktop/api/Winsock2/ns-winsock2-afprotocols)                                                      | 提供應用程式程式設計人員可以限制查詢的通訊協定清單。 僅用於查詢用途。                                                                                                                                                                |
 | [**Blob**](/windows/win32/api/wtypesbase/ns-wtypesbase-blob)                                                                    | 包含資料區塊的相關資訊。 衍生自二進位大型物件。                                                                                                                                                                                                     |
 | [**CSADDR \_ 資訊**](/windows/win32/api/ws2def/ns-ws2def-csaddr_info)                                                     | 包含網路服務或命名空間提供者的 Winsock 位址資訊。                                                                                                                                                                                                 |
