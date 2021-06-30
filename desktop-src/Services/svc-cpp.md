@@ -4,18 +4,18 @@ ms.assetid: dc968bd2-0397-4cec-a825-f807037b4c14
 title: Svc.cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57db06947be0143712568eb8a25e8700fc075c7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6388a51335883aa48d15a52667d89d2188ac4ea3
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975218"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102117"
 ---
-# <a name="svccpp"></a><span data-ttu-id="d9d02-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="d9d02-104">Svc.cpp</span></span>
+# <a name="svccpp"></a><span data-ttu-id="f030b-104">Svc.cpp</span><span class="sxs-lookup"><span data-stu-id="f030b-104">Svc.cpp</span></span>
 
-<span data-ttu-id="d9d02-105">以下是完整的服務範例。</span><span class="sxs-lookup"><span data-stu-id="d9d02-105">The following is a complete service sample.</span></span> <span data-ttu-id="d9d02-106">將此程式碼作為範本使用時，只需將程式碼加入開頭為的區段 `TO_DO` 。</span><span class="sxs-lookup"><span data-stu-id="d9d02-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
+<span data-ttu-id="f030b-105">以下是完整的服務範例。</span><span class="sxs-lookup"><span data-stu-id="f030b-105">The following is a complete service sample.</span></span> <span data-ttu-id="f030b-106">將此程式碼作為範本使用時，只需將程式碼加入開頭為的區段 `TO_DO` 。</span><span class="sxs-lookup"><span data-stu-id="f030b-106">When using this code as a template, simply add code to the sections that are prefaced by `TO_DO`.</span></span>
 
-<span data-ttu-id="d9d02-107">建立範例時，請務必連結 Kernel32.dll .lib 和 Advapi32.dll。</span><span class="sxs-lookup"><span data-stu-id="d9d02-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="d9d02-108">建立僅限資源的 DLL 時，會產生 file 範例 .h，Sample.dll。</span><span class="sxs-lookup"><span data-stu-id="d9d02-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="d9d02-109">如需詳細資訊，請參閱 [Sample.mc](sample-mc.md)。</span><span class="sxs-lookup"><span data-stu-id="d9d02-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
+<span data-ttu-id="f030b-107">建立範例時，請務必連結 Kernel32.dll .lib 和 Advapi32.dll。</span><span class="sxs-lookup"><span data-stu-id="f030b-107">When building the sample, be sure to link with Kernel32.lib and Advapi32.lib.</span></span> <span data-ttu-id="f030b-108">建立僅限資源的 DLL 時，會產生 file 範例 .h，Sample.dll。</span><span class="sxs-lookup"><span data-stu-id="f030b-108">The file Sample.h is generated when building the resource-only DLL, Sample.dll.</span></span> <span data-ttu-id="f030b-109">如需詳細資訊，請參閱 [Sample.mc](sample-mc.md)。</span><span class="sxs-lookup"><span data-stu-id="f030b-109">For more information, see [Sample.mc](sample-mc.md).</span></span>
 
 
 ```C++
@@ -214,7 +214,7 @@ VOID SvcInit( DWORD dwArgc, LPTSTR *lpszArgv)
 
     if ( ghSvcStopEvent == NULL)
     {
-        ReportSvcStatus( SERVICE_STOPPED, NO_ERROR, 0 );
+        ReportSvcStatus( SERVICE_STOPPED, GetLastError(), 0 );
         return;
     }
 
@@ -354,11 +354,11 @@ VOID SvcReportEvent(LPTSTR szFunction)
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="d9d02-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="d9d02-110">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="f030b-110">相關主題</span><span class="sxs-lookup"><span data-stu-id="f030b-110">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="d9d02-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="d9d02-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
+[<span data-ttu-id="f030b-111">完整的服務範例</span><span class="sxs-lookup"><span data-stu-id="f030b-111">The Complete Service Sample</span></span>](the-complete-service-sample.md)
 </dt> </dl>
 
  
