@@ -4,12 +4,12 @@ ms.assetid: 4dddc262-1271-4e00-a986-53380b957b17
 title: Orca.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3f17874e08fcdbfdbab38c480219579897b9896
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4647b137650bfba521dba3976ea7a1ae66451ce
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026162"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102157"
 ---
 # <a name="orcaexe"></a>Orca.exe
 
@@ -19,7 +19,7 @@ Orca.exe 是用來建立和編輯 Windows Installer 封裝和合併模組的資�
 
 ## <a name="syntax"></a>Syntax
 
-**orca***\[<options>\]\[<source file>\]*
+**orca***\[\<options>\]\[\<source file>\]*
 
 ## <a name="command-line-options"></a>命令列選項
 
@@ -27,7 +27,7 @@ Orca.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔符�
 
 
 
-| 選項 | Description                                                 |
+| 選項 | 描述                                                 |
 |--------|-------------------------------------------------------------|
 | -Q     | 無訊息模式                                                  |
 | -S     | <*database*> 架構資料庫 \[ "orca"-預設\] |

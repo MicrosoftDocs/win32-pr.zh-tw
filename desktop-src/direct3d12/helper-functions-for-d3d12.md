@@ -8,12 +8,12 @@ keywords:
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6cacaaf5ad2a8204cc35b8a89f7c3c00e756116
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 10736d91da0e2c4efa2a3c981ab5c4f64e2af86d
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969467"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102130"
 ---
 # <a name="helper-functions-for-d3d12"></a>D3D12 的 Helper 函式
 
@@ -25,7 +25,7 @@ ms.locfileid: "106969467"
 
 | 主題                                                                                             | 描述                                                                                                                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**CommandListCast**](cd3dx12-shader-bytecode.md)<br/>                                     | 這個函式範本會將任何命令清單的常數指標轉換成 ID3D12CommandList 的 const 指標。<br/>                                                                                                                               |
+| [**CommandListCast**](commandlistcast.md)<br/>                                     | 這個函式範本會將任何命令清單的常數指標轉換成 ID3D12CommandList 的 const 指標。<br/>                                                                                                                               |
 | [**D3D12CalcSubresource**](d3d12calcsubresource.md)<br/>                                   | 計算材質的 subresource 索引。 <br/>                                                                                                                                                                                                  |
 | [**D3D12DecomposeSubresource**](d3d12decomposesubresource.md)<br/>                         | 輸出對應至指定之 subresource 索引的 mip 配量、陣列配量和平面配量。 <br/>                                                                                                                                        |
 | [**D3D12GetFormatPlaneCount**](d3d12getformatplanecount.md)<br/>                           | 針對指定的虛擬配接器 (**ID3D12Device**) ，取得指定之 DXGI 格式的平面數目。 <br/>                                                                                                                               |

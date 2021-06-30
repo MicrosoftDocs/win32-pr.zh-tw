@@ -4,12 +4,12 @@ description: 本主題說明如何設定您的應用程式，以確保通用控�
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39339c0535767011a59730534486604389f62468
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: a4673d0a47f42f557e09f4afe46131cd48bad1b0
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933678"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102167"
 ---
 # <a name="enabling-visual-styles"></a>啟用視覺化樣式
 
@@ -44,11 +44,11 @@ ms.locfileid: "103933678"
 | version               | 資訊清單的版本。 版本的格式必須是 (主要的.. n n n n. n n n n. n n n n. n n n <= 65535) 。 |
 | processorArchitecture | 開發應用程式的處理器。                                                                          |
 | NAME                  | 包括公司名稱、產品名稱和應用程式名稱。                                                                   |
-| 類型                  | 應用程式的類型，例如 Win32。                                                                                    |
+| type                  | 應用程式的類型，例如 Win32。                                                                                    |
 
 
 
- 
+ 
 
 範例資訊清單也會提供應用程式的描述，並指定應用程式相依性。 下表顯示 [相依性] 區段中 **assemblyIdentity** 元素所設定的屬性。
 
@@ -65,14 +65,14 @@ ms.locfileid: "103933678"
 
 
 
- 
+ 
 
 以下是資訊清單檔案的範例。
 
 > [!IMPORTANT]
 > 如果您的應用程式是以32位 Windows 平臺為目標，請將 **processorArchitecture** 專案設定為 **"X86"** ，如果您的應用程式是以64位 windows 平臺為目標，則設定為 **"amd64"** 。 您也可以指定 **" \* "**，以確保所有平臺皆為目標，如下列範例所示。
 
- 
+ 
 
 
 ```C++
@@ -120,10 +120,10 @@ processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 以下是未使用協力廠商擴充功能的應用程式範例。
 
 -   Calculator
--   新接龍
--   踩地雷
+-   Windows Vista 和 Windows 7) 的空當接龍 (
+-   Windows Vista 和 Windows 7) 的 < a0/&gt; 掃雷 (
 -   [記事本]
--   接龍
+-   Windows Vista 和 Windows 7) 的紙牌 (
 
 **建立資訊清單，並讓您的應用程式使用視覺化樣式。**
 
@@ -166,7 +166,7 @@ processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
     > [!Note]  
     > 當您將前一個專案加入至資源時，您必須將它格式化為一行。 或者，您可以將 XML 資訊清單檔案放在與應用程式可執行檔相同的目錄中。 作業系統會先從檔案系統載入資訊清單，然後檢查可執行檔的資源區段。 檔案系統版本優先。
 
-     
+     
 
 當您建立應用程式時，資訊清單會新增為二進位資源。
 
@@ -208,7 +208,7 @@ processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 > [!Note]  
 > 當您撰寫主控台的應用程式時，請將它放在適當的類別中。 主控台現在支援主控台應用程式的分類。 這表示主控台的應用程式可以被指派識別碼，並區分為工作區域，例如新增或移除程式、外觀和主題，或日期、時間、語言和地區選項。
 
- 
+ 
 
 ## <a name="adding-visual-style-support-to-an-extension-plug-in-mmc-snap-in-or-a-dll-that-is-brought-into-a-process"></a>將視覺化樣式支援新增至延伸模組、外掛程式、MMC 嵌入式管理單元或進入進程的 DLL
 
@@ -290,7 +290,7 @@ SetWindowTheme(hwnd, L" ", L" ");
 > [!Note]  
 > 如果瀏覽器設定和標記設定不一致，則頁面不會套用視覺化樣式。 例如，如果中繼標籤設定為 [否]，而瀏覽器設定為啟用視覺化樣式，則視覺效果樣式不會套用至頁面。 但是，如果瀏覽器或中繼標籤設定為 [是]，而未指定其他專案，則會套用視覺化樣式。
 
- 
+ 
 
 視覺化樣式可能會變更內容的版面配置。 此外，如果您在內部 HTML 控制項（例如按鈕的寬度）上設定某些屬性，您可能會發現按鈕上的標籤在某些視覺效果樣式下無法閱讀。
 
@@ -320,6 +320,6 @@ SetWindowTheme(hwnd, L" ", L" ");
 [視覺化樣式](themes-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

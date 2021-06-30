@@ -4,12 +4,12 @@ description: Windows Vista 中的 Microsoft Agent 變更
 ms.assetid: 2498e8d5-2274-477c-a807-77443c76afb7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f73af45553f876c413fbea906de2369e888f1483
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 440fb8afb7acb0118c1e48669089c083e935db5b
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183635"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102147"
 ---
 # <a name="microsoft-agent-changes-in-windows-vista"></a>Windows Vista 中的 Microsoft Agent 變更
 
@@ -21,13 +21,13 @@ Microsoft Agent 現在支援 SAPI 5 文字轉換語音和語音辨識元件。 �
 
 如同之前，如果文字轉換語音或語音辨識功能不存在，TTSModeID 和 SRModeID 將會傳回空白字串。 您可以藉由將這些屬性設定為適當的 SAPI 4 模式字串或 SAPI 5 權杖名稱，來選取特定的語音或辨識器。 設定特定模式或權杖之後，您也可以再次讀取屬性，以確認它的值已被採用，這表示新的模式或權杖確實可用，且已成功選取。 針對透過 web 部署代理程式的開發人員，請注意，有許多 Vista 使用者已經安裝一或多個 SAPI 5 語音，因此您可能會想要避免自動下載 SAPI 4 語音，除非您的腳本明確要求，否則下載的聲音將不會最後使用。
 
-SAPI 5 文字轉換語音引擎所使用的一組標準與 SAPI 4 不同，以使用標記來標注語音，例如變更語音的音調或速率。 在 SAPI 4 中，您可以使用「斜線」命令，例如/pit = 170/。 在 SAPI 5 中，您會使用 XML 標記，例如 <PITCH MIDDLE="5"/> 。 在 Vista 中，代理程式將會在「朗讀」方法字串中接受兩種類型的批註：「斜線」命令將會被 SAPI 5 引擎忽略，而「SAPI 4 引擎」將會忽略 XML 標記。 和斜線標記一樣，支援 SAPI 5 的 XML 標記會因廠商而異，而某些廠商可能會支援其他標記。 如需有關 SAPI 5 XML 標記的詳細資訊，請參閱 SAPI 5 規格。
+SAPI 5 文字轉換語音引擎所使用的一組標準與 SAPI 4 不同，以使用標記來標注語音，例如變更語音的音調或速率。 在 SAPI 4 中，您可以使用「斜線」命令，例如/pit = 170/。 在 SAPI 5 中，您會使用 XML 標記，例如 \<PITCH MIDDLE="5"/> 。 在 Vista 中，代理程式將會在「朗讀」方法字串中接受兩種類型的批註：「斜線」命令將會被 SAPI 5 引擎忽略，而「SAPI 4 引擎」將會忽略 XML 標記。 和斜線標記一樣，支援 SAPI 5 的 XML 標記會因廠商而異，而某些廠商可能會支援其他標記。 如需有關 SAPI 5 XML 標記的詳細資訊，請參閱 SAPI 5 規格。
 
 代理程式已不再支援多種語言。 代理程式所使用的語言一律會假設為使用者目前的語言，並向作業系統註冊。 Agent 物件的 LanguageID 屬性仍然是可寫入的，但 Vista 上的代理程式會忽略它的值。 例如，如果使用者的語言設定為美式英文 (&H0409) ，而他或她使用將 LanguageID 設定為法文 (&H040C) 的程式，則 [語音提示文字] 和 [先進字元選項] 對話方塊仍會以英文顯示。
 
- 
+ 
 
- 
+ 
 
 
 

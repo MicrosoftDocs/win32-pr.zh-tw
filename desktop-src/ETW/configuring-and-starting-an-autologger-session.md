@@ -4,12 +4,12 @@ ms.assetid: df5a79f4-abbf-4b83-afc3-cbd14b166067
 title: 設定和啟動自動記錄器會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b17e7e818193aa4fa316d17a0e4392e41b55dfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6560aece87506b1d064981ee5f49a56bbf0da19e
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973849"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102037"
 ---
 # <a name="configuring-and-starting-an-autologger-session"></a>設定和啟動自動記錄器會話
 
@@ -83,7 +83,7 @@ HKEY_LOCAL_MACHINE
 <tr class="header">
 <th>值</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -116,12 +116,12 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>記錄檔的完整路徑。 這個檔案的路徑必須存在。 記錄檔是連續的記錄檔。 路徑的限制為1024個字元。<br/> 如果未指定 <strong>FileName</strong> ，則會將事件寫入%SystemRoot%\System32\LogFiles\WMI\ <sessionname> 。 <br/></td>
+<td>記錄檔的完整路徑。 這個檔案的路徑必須存在。 記錄檔是連續的記錄檔。 路徑的限制為1024個字元。<br/> 如果未指定 <strong>FileName</strong> ，則會將事件寫入%SystemRoot%\System32\LogFiles\WMI \& lt; sessionname &gt; 。 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FileMax</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>ETW 所建立記錄檔的最大實例數目。 如果 <strong>檔案名</strong> 中指定的記錄檔存在，ETW 會將 <strong>FileCounter</strong> 值附加至檔案名。 例如，如果使用預設的記錄檔名稱，則格式為%SystemRoot%\System32\LogFiles\WMI\ <sessionname> 。NNNN. <br/> 電腦第一次啟動時，檔案名是 <sessionname> .etl，第二次檔案名是 <sessionname> .etl. 0002，依此類推。 如果 <strong>FileMax</strong> 為3，則在第四次重新開機電腦時，ETW 會將計數器重設為1，並覆寫 <sessionname> .etl （如果存在的話）。<br/> 支援的記錄檔實例數目上限為16。<br/> 請勿將這項功能與 <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> 記錄檔模式搭配使用。<br/></td>
+<td>ETW 所建立記錄檔的最大實例數目。 如果 <strong>檔案名</strong> 中指定的記錄檔存在，ETW 會將 <strong>FileCounter</strong> 值附加至檔案名。 例如，如果使用預設的記錄檔名稱，則格式為%SystemRoot%\System32\LogFiles\WMI \& lt &gt; 。NNNN. <br/> 電腦第一次啟動時，檔案名為 sessionname............. 1 &lt; &gt; 日，第二次檔案名為 sessionname.. &lt; &gt; /。 如果 <strong>FileMax</strong> 為3，則在第四次重新開機電腦時，ETW 會將計數器重設為1，並覆寫 &lt; sessionname &gt; （如果存在的話）。<br/> 支援的記錄檔實例數目上限為16。<br/> 請勿將這項功能與 <a href="logging-mode-constants.md">EVENT_TRACE_FILE_MODE_NEWFILE</a> 記錄檔模式搭配使用。<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>FlushTimer</strong></td>
@@ -184,7 +184,7 @@ HKEY_LOCAL_MACHINE
 <tr class="header">
 <th>值</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

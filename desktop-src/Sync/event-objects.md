@@ -4,16 +4,16 @@ ms.assetid: 63dc2991-e070-4981-9e2d-90b4fdaaee7a
 title: " (同步處理的事件物件) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 365b42bb7550507fe3522f07d950dac74c88843d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03ef4f5102df91cabb76529c9d4a9958859418aa
+ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985254"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113102129"
 ---
 # <a name="event-objects-synchronization"></a> (同步處理的事件物件) 
 
-*事件物件* 是一種同步處理物件，其狀態可以明確設定為使用 [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-resetevent)函式來發出信號。 以下是兩種類型的事件物件。
+*事件物件* 是一種同步處理物件，其狀態可以明確設定為使用 [**SetEvent**](/windows/win32/api/synchapi/nf-synchapi-setevent)函式來發出信號。 以下是兩種類型的事件物件。
 
 
 
