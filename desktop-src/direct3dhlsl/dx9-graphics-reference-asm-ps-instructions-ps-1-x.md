@@ -1,6 +1,6 @@
 ---
 title: ps_1_1、ps_1_2、ps_1_3 ps_1_4 指示
-description: 本章節包含圖元著色器第 1 X 個指令的參考資訊 \_ 。
+description: 本章節包含圖元著色器第1版指示的參考資訊 \_ 。
 ms.assetid: cb496887-6755-4f29-b465-a36548b88722
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2c3fa8e76e1075da321a60d05504dff074dbfcfe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc624c3f3b64d41f428f68fcf2643f4600dcdec1
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184196"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129896"
 ---
 # <a name="ps_1_1-ps_1_2-ps_1_3-ps_1_4-instructions"></a>ps \_ 1 \_ 1、ps \_ 1 \_ 2、ps \_ 1 \_ 3、ps \_ 1 \_ 4 指示
 
@@ -26,7 +26,7 @@ ms.locfileid: "104184196"
 
 
 
-| 版本                                    |                                                                               | 指令插槽 | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
+| 版本                                    | 描述                                                                   | 指令插槽 | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
 |--------------------------------------------|-------------------------------------------------------------------------------|-------------------|------|------|------|------|
 | [Ps](ps---ps.md)                          | 版本號碼                                                                | 0                 | x    | x    | x    | x    |
 | 常數指示                      |                                                                               |                   | 1\_1 | 1\_2 | 1 \_ 3 | 1\_4 |
@@ -71,7 +71,7 @@ ms.locfileid: "104184196"
 
 
 
- 
+ 
 
 1.  1個插槽（ps \_ 1 \_ 4）; ps \_ 1 \_ 2 和 ps \_ 1 \_ 3 中的2個插槽
 2.  1 + 1 = 1 算術指令 + 1 個材質指令
@@ -83,9 +83,9 @@ ms.locfileid: "104184196"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

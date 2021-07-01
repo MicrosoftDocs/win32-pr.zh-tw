@@ -14,12 +14,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a1b78da747a248bf4bb5774add1bf97f14f048c4
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f314be4b8da98ff80bd7404c270479855e13fb6e
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685390"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129957"
 ---
 # <a name="shader-constants-hlsl"></a>著色器常數 (HLSL)
 
@@ -48,7 +48,7 @@ ms.locfileid: "103685390"
 
 
 
-| BufferType | Description     |
+| BufferType | 描述     |
 |------------|-----------------|
 | cbuffer    | 常數緩衝區 |
 | tbuffer    | 材質緩衝區  |
@@ -105,11 +105,9 @@ ms.locfileid: "103685390"
 
 有兩種方式可以封裝常數資料：使用 [register (DIRECTX HLSL) ](dx-graphics-hlsl-variable-register.md) 和 [PACKOFFSET (directx HLSL) ](dx-graphics-hlsl-variable-packoffset.md) 關鍵字。
 
+Direct3D 9 與 Direct3D 10 和11之間的差異：
 
-
-|                                                                                                                                                                                                                                                                                                        |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 和11之間的差異：<br/> 不同于 Direct3D 9 中未執行封裝，而改為將每個變數指派給一組 float4 暫存器的常數的自動設定，HLSL 常數變數在 Direct3D 10 和11中遵循封裝規則。<br/> |
+- 不同于 Direct3D 9 中未執行封裝，而改為將每個變數指派給一組 float4 暫存器的常數的自動設定，HLSL 常數變數在 Direct3D 10 和11中遵循封裝規則。
 
 
 

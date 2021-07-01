@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ad61ea8d733ed01fcd2e57ba06c38e0b3efac682
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 4f2ba81650611351970ff4068edaa75d27d34fc4
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373851"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130097"
 ---
 # <a name="dcl---sm2-sm3---ps-asm"></a>dcl- (sm2、sm3-ps asm) 
 
@@ -22,15 +22,11 @@ ms.locfileid: "104373851"
 
 ## <a name="syntax"></a>Syntax
 
-
-
-|                           |
-|---------------------------|
-| dcl \[ \_ pp \] 目標 \[ . 遮罩\] |
+dcl \[ \_ pp \] 目標 \[ . 遮罩\]
 
 
 
- 
+ 
 
 其中：
 
@@ -48,7 +44,7 @@ ms.locfileid: "104373851"
 
 
 
- 
+ 
 
 所有的 dcl 指令都必須出現在第一個可執行指令之前。
 
@@ -59,9 +55,9 @@ ms.locfileid: "104373851"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

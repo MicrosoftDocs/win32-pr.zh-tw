@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 請參閱有關檔和列印功能和選項的使用者介面行為討論。
 ms.assetid: dc19a568-3673-4061-b19a-50d5df0485d0
 title: 消費者介面行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d475472330c8e3ba2ceb06d0cbde9f3a7fb0be
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e81d007c653ed3f019892e944d9fa4203dc6de11
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106976412"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119433"
 ---
 # <a name="user-interface-behavior"></a>消費者介面行為
 

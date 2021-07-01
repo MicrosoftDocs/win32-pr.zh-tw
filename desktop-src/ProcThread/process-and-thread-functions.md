@@ -4,12 +4,12 @@ ms.assetid: 8c8e8af0-bf50-4a4b-945c-83bae1eff7dd
 title: 處理序和執行緒函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43841e86c151e7f617a702668f9de203ccb34654
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 2ebb1e281feb83b4a0da0c230792399d8e21684f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111550010"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120995"
 ---
 # <a name="process-and-thread-functions"></a>處理序和執行緒函式
 
@@ -132,9 +132,8 @@ ms.locfileid: "111550010"
 
 
 
-|                                                      |                                                       |
+|  函式                                                    |  描述                                                     |
 |------------------------------------------------------|-------------------------------------------------------|
-| 函式                                             | 描述                                           |
 | [**QueryProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-queryprotectedpolicy) | 查詢與受保護原則相關聯的值。 |
 | [**SetProtectedPolicy**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setprotectedpolicy)     | 設定受保護的原則。                              |
 

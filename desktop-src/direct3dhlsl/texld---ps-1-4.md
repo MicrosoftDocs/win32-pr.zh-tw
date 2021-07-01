@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ca305b16db0f390354962a3e959f08b6e956f2ef
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: d956d9176a6356dc3837ee4f4d13b5bb700dda98
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107996865"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118823"
 ---
 # <a name="texld---ps_1_4"></a>texld-ps \_ 1 \_ 4
 
@@ -33,7 +33,7 @@ ms.locfileid: "107996865"
 
 
 
-|          |                      | vn        | 快遞 之 家  | Tn  | Rn  |              |
+| 值         | 描述                     | vn        | 快遞 之 家  | Tn  | Rn  | 圖元著色器版本              |
 |----------|----------------------|-----------|-----|-----|-----|--------------|
 | Dst      | 目的地註冊 |           |     |     | x   | 1\_4         |
 | src      | 來源註冊      |           |     | x   |     | 1 \_ 4 階段1 |

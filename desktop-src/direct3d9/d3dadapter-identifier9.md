@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: db4b25cb44b3b43b3b9754f241e2c505bdfedbc7
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 85401573956d29386b5ddabbd48711a7be140463
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343393"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129967"
 ---
 # <a name="d3dadapter_identifier9-structure"></a>D3DADAPTER \_ IDENTIFIER9 結構
 
@@ -32,9 +32,12 @@ typedef struct D3DADAPTER_IDENTIFIER9 {
   char          Driver[MAX_DEVICE_IDENTIFIER_STRING];
   char          Description[MAX_DEVICE_IDENTIFIER_STRING];
   char          DeviceName[32];
+#ifdef _WIN32
   LARGE_INTEGER DriverVersion;
+#else
   DWORD         DriverVersionLowPart;
   DWORD         DriverVersionHighPart;
+#endif
   DWORD         VendorId;
   DWORD         DeviceId;
   DWORD         SubSysId;
@@ -182,7 +185,7 @@ GDI 的裝置名稱。
 
 
 
-| Bits  |  Description                                             |
+| Bits  |  描述                                             |
 |-------|-----------------------------------------------|
 | 31-16 | 年份，從1999向上的十進位數。 |
 | 15-8  | 月份，介於1到12之間的十進位數。     |

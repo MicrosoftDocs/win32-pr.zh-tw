@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6c97196040a8f5f9888cb2fb354dcc18ca3743c7
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: b9291d818252c95bc11fae72bd3311ec733a45fa
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988723"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129937"
 ---
 # <a name="modifiers-for-ps_1_x"></a>Ps \_ 1 X 的修飾詞 \_
 
@@ -24,9 +24,8 @@ ms.locfileid: "111988723"
 
 
 
-| 修飾詞 | 描述                   | 語法           | 版本 |      |      |      |
+| 修飾詞 | 描述                   | 語法           | \_第1版 | \_第1版     |第1版 \_    | \_第1版    |
 |----------|-------------------------------|------------------|---------|------|------|------|
-|          |                               |                  | 1\_1    | 1\_2 | 1 \_ 3 | 1\_4 |
 | \_x2     | 乘以2                 | 指令 \_ x2  | X       | X    | X    | X    |
 | \_四     | 乘以4                 | 指示 \_ x4  | X       | X    | X    | X    |
 | \_x8     | 乘以8                 | 指令 \_ x8  |         |      |      | X    |

@@ -4,12 +4,12 @@ ms.assetid: e7afafca-e993-4096-bad4-399ee6c67fe9
 title: 控制捕捉圖形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0089fa11adbc0ac861fb9e8e30e2cd0f56b23680
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: a00573256c1c010e23dfc598ceca5ac62d772711
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909046"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119473"
 ---
 # <a name="controlling-a-capture-graph"></a>控制捕捉圖形
 
@@ -72,9 +72,8 @@ while (hr = pEvent->GetEvent(&evCode, &param1, &param2, 0), SUCCEEDED(hr))
 
 
 
-| 標籤 | 值 |
-|-------------|----------------------------------------|------------------------------------|
-|             | 開始                                  | Stop                               |
+| 值 | 開始                                  | Stop                               |
+|-------------|----------------------------------------|---------|
 | MAXLONGLONG | 永遠不會啟動此資料流程。               | 除非圖形停止，否則請勿停止。 |
 | **NULL**    | 在圖形執行時立即啟動。 | 立即停止。                  |
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 934931d6063ac264a2e6685104f8ed6fbdaaa64e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 7a6da220e50b43ce990c090c61d1caf84afec653
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022855"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129665"
 ---
 # <a name="dcl_samplertype-sm2-sm3---ps-asm"></a>dcl \_ samplerType (sm2、sm3-ps asm) 
 
@@ -22,15 +22,11 @@ ms.locfileid: "104022855"
 
 ## <a name="syntax"></a>Syntax
 
-
-
-|                      |
-|----------------------|
-| dcl \_ samplerType s\# |
+dcl \_ samplerType s\#
 
 
 
- 
+ 
 
 其中：
 
@@ -50,7 +46,7 @@ ms.locfileid: "104022855"
 
 
 
- 
+ 
 
 所有 \_ 的 dcl samplerType 指令都必須出現在第一個可執行指令之前。
 
@@ -75,9 +71,9 @@ texld r0, s0, r0; // Load r0 with a color sampled from stage0
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

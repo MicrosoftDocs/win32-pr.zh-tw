@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f8c6ef7c14ac54610301f283d076751b0c4d4a5e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 54092caf19a486b68b92ef63d992f11289a51c93
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104973933"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113130087"
 ---
 # <a name="add---ps"></a>新增-ps
 
@@ -65,7 +65,7 @@ dest.w = src0.w + src1.w;
 
 
 
-|                          |            |
+|   需求                       | 值           |
 |--------------------------|------------|
 | 最低作業系統 | Windows 98 |
 

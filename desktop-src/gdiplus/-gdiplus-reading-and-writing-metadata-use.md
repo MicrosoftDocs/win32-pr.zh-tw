@@ -4,12 +4,12 @@ ms.assetid: 2febea35-3fea-4a2d-baaf-7a4f935fc81f
 title: 讀取和寫入中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2f599c1134efc8768d0b6ed59deaae8adf9f6f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e4ea0a8f389f31870b31a0b15480815bdd7cf1f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690335"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118293"
 ---
 # <a name="reading-and-writing-metadata"></a>讀取和寫入中繼資料
 
@@ -70,7 +70,7 @@ GDI + 會將個別的中繼資料儲存在 [**PropertyItem**](/windows/win32/api
 
 
 
-|            |                                                                                                                                                                                                                                                                                                        |
+|            | 描述                                                                                                                                                                                                                                                                                                       |
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **id**     | 識別中繼資料專案的標記。 可以指派給 **識別碼** 的值 (PropertyTagImageTitle、PropertyTagEquipMake、PropertyTagExifExposureTime 和 like) 都定義于 Gdiplusimaging 中。                                                                                           |
 | **length** (長度) | **值** 資料成員所指向之值陣列的長度（以位元組為單位）。 請注意，如果 **類型** 資料成員設為 PropertyTagTypeASCII，則長度資料成員是以 null 結束的字元字串 **長度** ，包括 null 結束字元。                        |

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 556655d793e94b9290fcd1a4a40fdf7f797e80ae
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 2fbcb934ad591274d743f09c810de2db42278261
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990826"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129866"
 ---
 # <a name="dcl_samplertype-sm3---vs-asm"></a>dcl \_ samplerType (sm3-vs asm) 
 
@@ -22,15 +22,11 @@ ms.locfileid: "104990826"
 
 ## <a name="syntax"></a>Syntax
 
-
-
-|                      |
-|----------------------|
-| dcl \_ samplerType s\# |
+dcl \_ samplerType s\#
 
 
 
- 
+ 
 
 其中：
 
@@ -50,7 +46,7 @@ ms.locfileid: "104990826"
 
 
 
- 
+ 
 
 所有 \_ 的 dcl samplerType 指令都必須出現在第一個可執行指令之前。
 
@@ -61,9 +57,9 @@ ms.locfileid: "104990826"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

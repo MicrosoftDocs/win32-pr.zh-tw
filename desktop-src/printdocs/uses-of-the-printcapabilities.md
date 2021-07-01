@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 PrintCapabilities 的用途。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: ea75a7ac-d4d7-42b6-91e9-e28607fd684c
 title: 使用 PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63dda5b21d1472ec8d4162c8d7229ff47264fb55
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f09882d42814930ef5ba08e087f1df87e0d0e9bc
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945749"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119423"
 ---
 # <a name="uses-of-the-printcapabilities"></a>使用 PrintCapabilities
 

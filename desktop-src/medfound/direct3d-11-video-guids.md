@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: 'Direct3D 11 Video Guid (D3d11 .h) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d97a43285a59cf5196584b9be04fc36b02e5243f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a16f5277123c3d174427debc3f0ad5e184e49a6c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026043"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118633"
 ---
 # <a name="direct3d-11-video-guids"></a>Direct3D 11 影片 Guid
 
@@ -50,7 +50,7 @@ ms.locfileid: "104026043"
 
 
 
-|                  |                                                                                                                                                                                                                                                     |
+| 值                 | 描述                                                                                                                                                                                                                                                    |
 |------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *ContentKeySize* | 包含 [**D3D11 \_ 影片 \_ 解碼器 \_ 開始 \_ 畫面格 \_ 加密 \_ 會話**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session) 結構的大小。                                                                                                  |
 | *pContentKey*    | [**D3D11 \_ 影片 \_ 解碼器 \_ 開始 \_ 畫面 \_ \_**](/windows/desktop/api/d3d11_1/ns-d3d11_1-d3d11_video_decoder_begin_frame_crypto_session)格密碼編譯會話的指標，提供 [**ID3D11CryptoSession**](/windows/desktop/api/d3d11/nn-d3d11-id3d11cryptosession)和解密框架所需的金鑰資訊。 |

@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f333c204b77d6e0c64119e16f31e170fec1d0f6c
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: 4659ba19e9fa950a659969f2491533858f4658fb
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644100"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120543"
 ---
 # <a name="gather-directx-hlsl-texture-object"></a>收集 (DirectX HLSL 材質物件) 
 
 取得 (紅色元件的四個範例，只有在取樣材質時用於雙線性插補的) 。
 
-
-
-|                                                                                                    |
-|----------------------------------------------------------------------------------------------------|
-| &lt;範本類型 &gt; 4 物件。收集 ( 取樣器 \_ 狀態 S、float2 \| 3 \| 4 位置 \[ 、int2 位移 \] ) ; |
+&lt;範本類型 &gt; 4 物件。收集 ( 取樣器 \_ 狀態 S、float2 \| 3 \| 4 位置 \[ 、int2 位移 \] ) ;
 
 
 

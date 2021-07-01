@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7c591555e2cbd2c6eaebf6e392bb94d6ec50e748
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1adae07e3e2ebbca085981ca03a3b6449e2ffd9d
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373839"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129927"
 ---
 # <a name="bem---ps"></a>bem-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373839"
 
 
 
- 
+ 
 
 其中
 
@@ -47,7 +47,7 @@ ms.locfileid: "104373839"
 
 
 
- 
+ 
 
 此指令會執行下列計算。
 
@@ -76,13 +76,13 @@ dest.g = src0.g + D3DTSS_BUMPENVMAT01(stage n) * src1.r
 
 
 
-|                          |            |
+| 需求                         | 值           |
 |--------------------------|------------|
 | 最低作業系統 | Windows 98 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -91,9 +91,9 @@ dest.g = src0.g + D3DTSS_BUMPENVMAT01(stage n) * src1.r
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 50f8c18ebc23455563b4b3e6bfee72bfa9d3ec4c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0cbcf06f28a327e18aa9f31b417dc1911411d0c9
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092357"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119074"
 ---
 # <a name="for-statement"></a>for 陳述式
 
 根據條件運算式的評估，反復執行一系列的語句。
 
-
-
-|                                                                                       |
-|---------------------------------------------------------------------------------------|
-| \[*屬性* \]針對 (*初始化運算式;條件式反覆運算器*) {*語句區塊*;} |
+\[*屬性* \]針對 (*初始化運算式;條件式反覆運算器*) {*語句區塊*;}
 
 
 

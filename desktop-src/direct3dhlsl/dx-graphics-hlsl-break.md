@@ -13,26 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5832d992a6992696b45981460f856b029bc870a4
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 56f90da8a6ec6d52b87ed53f8fca726d969e336b
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104507573"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129695"
 ---
 # <a name="break-statement"></a>break 陳述式
 
 結束周圍迴圈 ([在) 時](dx-graphics-hlsl-while.md)[進行](dx-graphics-hlsl-do.md)。 [](dx-graphics-hlsl-for.md)
 
-
-
-|        |
-|--------|
-| break; |
+break;
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>參數
 
@@ -45,9 +41,9 @@ None
 [流程式控制制](dx-graphics-hlsl-flow-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

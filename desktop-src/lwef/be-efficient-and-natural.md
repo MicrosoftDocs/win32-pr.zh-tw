@@ -4,12 +4,12 @@ description: 有效率且自然
 ms.assetid: 6642b41c-1833-41be-9de2-ef091cefaa45
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5de146d19f4b2bc3ce7ca1da78fb41a1e39df1dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e1e4d7410283de231d9ee08ca586e3b8067ebffa
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672455"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118433"
 ---
 # <a name="be-efficient-and-natural"></a>有效率且自然
 
@@ -25,16 +25,9 @@ ms.locfileid: "103672455"
 
 隱含理解也可以透過其他形式的縮寫對話樣式來傳達，其中內容是在沒有重複的情況下推斷，如下列範例所示：
 
+**使用者：** 我想要一個芝加哥樣式的比薩。
 
-
-|            |                                 |
-|------------|---------------------------------|
-| 使用者：      | 我想要一個芝加哥樣式的比薩。 |
-| 字元： | 有「額外乳酪」？            |
-
-
-
- 
+**字元：** 有「額外乳酪」？
 
 同樣地，如果有人說「它很忙碌了」，則片語是可理解的，如果您知道說話者的位置，則不需要進一步的詳細資料。 但是，如果內容未妥善建立或不明確，則刪除所有內容參考可能會讓使用者混淆。
 
@@ -42,9 +35,9 @@ ms.locfileid: "103672455"
 
 一致性對語音輸出而言很重要。 奇怪的語音模式或韻律可能會被解釋為降級字元的智慧。 同樣地，在 TTS 和錄製的語音之間切換，可能會導致使用者將字元解釋為奇怪或擁有多個特質。 已同步處理的嘴運動可以改善語音的理解性。 Microsoft Agent 會針對符合所需的 SAPI 介面的 TTS 引擎自動支援 lip 同步處理。 不過，已錄製的語音也支援 lip 同步處理。 音效檔也可以使用 Microsoft 語言音效編輯工具來增強。
 
- 
+ 
 
- 
+ 
 
 
 

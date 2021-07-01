@@ -1,15 +1,15 @@
 ---
-description: 使用 OpenSearch 技術對遠端資料存放區進行搜尋同盟的 Windows 7 支援，可讓使用者從 Windows 檔案總管記憶體取遠端資料並與其互動。
+description: 瞭解同盟搜尋，可讓使用者從 Windows 檔案總管記憶體取其遠端資料並與其互動。
 ms.assetid: c25dbc33-3f9a-4e40-965e-9be639ababed
 title: 在 Windows 中使用同盟搜尋開始使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 058c1f887ff2bdba279cdd25e4910162dd9263d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2de3fc42686e94f2edc1c5d45bbb0374afe79535
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511085"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119063"
 ---
 # <a name="getting-started-with-federated-search-in-windows"></a>在 Windows 中使用同盟搜尋開始使用
 

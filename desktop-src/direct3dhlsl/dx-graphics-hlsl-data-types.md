@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8cee02e38180b903b235c32ebc2c7ca486777b20
-ms.sourcegitcommit: 316ce582d9b972634a0521e0380e054e9cbb5bae
+ms.openlocfilehash: c4cb8f6fd15db857daa3005c99381d437a5289f6
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104991838"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129645"
 ---
 # <a name="data-types-hlsl"></a>資料類型 (HLSL) 
 
@@ -22,10 +22,9 @@ HLSL 支援許多不同的內建資料類型。 下表顯示用來定義著色�
 
 
 
-|                                                                                                                         |                                            |
+| 使用此內建類型                                                                                                                         | 若要定義這個著色器變數                                            |
 |-------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|
-| 使用此內建類型                                                                                                 | 若要定義這個著色器變數             |
-| [標量](dx-graphics-hlsl-scalar.md)                                                                                   | 一元件純量                       |
+| [純量](dx-graphics-hlsl-scalar.md)                                                                                   | 一元件純量                       |
 | [向量](dx-graphics-hlsl-vector.md)、 [矩陣](dx-graphics-hlsl-matrix.md)                                            | 多元件向量或矩陣        |
 | [取樣](dx-graphics-hlsl-sampler.md)器、 [材質](dx-graphics-hlsl-texture.md) 或 [緩衝區](dx-graphics-hlsl-buffer.md)   | 取樣器、材質或 buffer 物件         |
 | [結構](dx-graphics-hlsl-struct.md)， [使用者定義](dx-graphics-hlsl-user-defined.md)                                | 自訂結構或 typedef                |

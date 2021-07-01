@@ -4,12 +4,12 @@ description: Mixed-Mode DPI 縮放比例和 DPI 感知 Api
 ms.assetid: 44AC0B29-3283-4801-90F5-3E78CCD87B9F
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2244ea79d489ae1e20260f72336c15bc64b97de0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d6f5b16e4c438cfe1f0d04e61524899e213b25ea
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090096"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119723"
 ---
 # <a name="mixed-mode-dpi-scaling-and-dpi-aware-apis"></a>Mixed-Mode DPI 縮放比例和 DPI 感知 Api
 
@@ -59,9 +59,8 @@ ms.locfileid: "108090096"
 -   數個經常使用的 Api （例如 [**GetSystemMetrics**](/windows/desktop/api/winuser/nf-winuser-getsystemmetrics) ）沒有 HWND 的任何內容，因此無法針對其傳回值推算出適當的 DPI 感知。 從不同 DPI 感知模式或內容中執行的執行緒呼叫這些 Api，可能會傳回未針對呼叫執行緒內容進行調整的值。 [* * * * GetSystemMetricForDpi * *](/windows/desktop/api/Winuser/nf-winuser-getsystemmetricsfordpi)* *、 [* * * * SystemParametersInfoForDpi * *](/windows/desktop/api/Winuser/nf-winuser-systemparametersinfofordpi)* 和 * * * * [AdjustWindowRectExForDpi *](/windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi) * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 -   **GetSystemMetricForDpi** 和 **SystemParametersInfoForDpi** 將會根據此方程式傳回 DPI 縮放的系統度量值和系統參數值：
 
-    |                                                                 |
-    |-----------------------------------------------------------------|
-    | GetSystemMetrics ( ... ) @ DPI = = GetSystemMetricsForDpi ( ...，DPI)  |
+    
+    GetSystemMetrics ( ... ) @ DPI = = GetSystemMetricsForDpi ( ...，DPI) 
 
     
 

@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c59b8da97ff1cbe0bd88d6a49120a0a040cf3c30
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9e307527f93c153f0f78ce58b4d70ead4f7c1bc4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104971804"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120553"
 ---
 # <a name="calculatelevelofdetail-directx-hlsl-texture-object"></a>CalculateLevelOfDetail (DirectX HLSL 材質物件) 
 
 計算詳細資料的層級。
 
-
-
-|                                                                 |
-|-----------------------------------------------------------------|
-| ret 物件. CalculateLevelOfDetail ( 取樣器 \_ 狀態 S，float x ) ; |
+ret 物件. CalculateLevelOfDetail ( 取樣器 \_ 狀態 S，float x ) ;
 
 
 

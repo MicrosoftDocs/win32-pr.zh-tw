@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d2346e1ca2302f80c796558b4aa2bbdce016d494
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b77f1050beaee2b269d12e69704018e3c5abee6e
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104507736"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129846"
 ---
 # <a name="grammar"></a>文法
 
@@ -22,7 +22,7 @@ HLSL 語句會使用下列文法規則來建立。
 
 -   [空白](#whitespace)
 -   [浮點數](#floating-point-numbers)
--   [整數數位](#integer-numbers)
+-   [整數數字](#integer-numbers)
 -   [Characters](#characters)
 -   [字串](#strings)
 -   [識別碼](#identifiers)
@@ -33,19 +33,11 @@ HLSL 語句會使用下列文法規則來建立。
 
 下列字元會被辨識為空白字元。
 
-
-
-|                            |
-|----------------------------|
-| SPACE                      |
-| TAB                        |
-| Eol                        |
-| C 樣式批註 (/ \* \* /)  |
-| C + + 樣式批註 (//)     |
-
-
-
- 
+- SPACE
+- TAB
+- Eol
+- C 樣式批註 (/ \* \* /) 
+- C + + 樣式批註 (//) 
 
 ## <a name="floating-point-numbers"></a>浮點數
 
@@ -99,7 +91,7 @@ HLSL 語句會使用下列文法規則來建立。
 
     
 
-## <a name="integer-numbers"></a>整數數位
+## <a name="integer-numbers"></a>整數數字
 
 整數會以 HLSL 表示，如下所示：
 
@@ -122,7 +114,7 @@ HLSL 語句會使用下列文法規則來建立。
 
 
 
-|                                           |                                                                 |
+| 字元                                          | 描述                                                                |
 |-------------------------------------------|-----------------------------------------------------------------|
 | 交流                                       |  (字元)                                                      |
 | ' \\ a ' ' \\ b ' ' \\ f ' ' \\ b ' ' \\ r ' ' \\ t ' ' \\ v ' |  (的 esc)                                                        |
@@ -132,7 +124,7 @@ HLSL 語句會使用下列文法規則來建立。
 
 
 
- 
+ 
 
 預處理器運算式中不支援 esc。
 
@@ -172,9 +164,9 @@ HLSL 語句會使用下列文法規則來建立。
 [附錄 (DirectX HLSL) ](dx-graphics-hlsl-appendix.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

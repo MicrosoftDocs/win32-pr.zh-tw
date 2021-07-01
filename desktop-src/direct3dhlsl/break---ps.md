@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce370cb53a5589c2e3318e54b109a535f323a23a
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: b5df9f4edf7a4261e907bd715a5528b8036799b5
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373838"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129876"
 ---
 # <a name="break---ps"></a>中斷-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373838"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -43,17 +43,17 @@ ms.locfileid: "104373838"
 
 
 
- 
+ 
 
 
 
-|                          |            |
+|   需求                       | 值           |
 |--------------------------|------------|
 | 最低作業系統 | Windows 98 |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,9 +62,9 @@ ms.locfileid: "104373838"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

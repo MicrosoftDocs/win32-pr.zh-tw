@@ -4,12 +4,12 @@ ms.assetid: 7c9abda9-7968-463c-b4a9-19b54012ef56
 title: mfdetours 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c09d39d6f8a7c7ff1d88471e71c6fc58aa49bd62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cd03711c74c21a9a6ff33d2cc2560e4b6d6e0a3
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985418"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119333"
 ---
 # <a name="mfdetours-element"></a>mfdetours 元素
 
@@ -30,7 +30,7 @@ ms.locfileid: "106985418"
 
 | 屬性            | 類型             | 必要       | 描述                             |
 |----------------------|------------------|----------------|-----------------------------------------|
-| **level**<br/> | CDATA<br/> | Yes<br/> | 追蹤層級。<br/> <br/> |
+| **level**<br/> | CDATA<br/> | 是<br/> | 追蹤層級。<br/> <br/> |
 
 
 
@@ -52,8 +52,6 @@ keyword+
 
 ## <a name="parent-elements"></a>父元素
 
-
-
 | 元素                                   |
 |-------------------------------------------|
 | [**供應商**](providers.md)<br/> |
@@ -62,13 +60,14 @@ keyword+
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|              |     |
-|--------------|-----|
-| 可以是空的 | 否  |
-
-
+:::row:::
+    :::column:::
+        可以是空的
+    :::column-end:::
+    :::column span="2":::
+        否
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>另請參閱
 

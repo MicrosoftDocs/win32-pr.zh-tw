@@ -4,12 +4,12 @@ ms.assetid: 52165e1b-a178-4483-bf76-4197281f856d
 title: OPM 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8aa14026123656b26e978bc179d65c3b61913c62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6b00240925c28322b911ab55a0e4f026f051d6ec
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976789"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119143"
 ---
 # <a name="opm-commands"></a>OPM 命令
 
@@ -19,7 +19,7 @@ ms.locfileid: "106976789"
 
 
 
-|              |                                                                                                                                                             |
+| 值             | 描述                                                                                                                                                            |
 |--------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 命令 GUID | 識別命令。 將 [**OPM 設定 \_ \_ 參數**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters)結構的 **guidSetting** 成員設定為等於此值。 |
 | 輸入資料   | 指定如何在 [**OPM \_ 設定 \_ 參數**](/windows/desktop/api/opmapi/ns-opmapi-opm_configure_parameters)結構中解讀 **abParameters** 陣列。                      |

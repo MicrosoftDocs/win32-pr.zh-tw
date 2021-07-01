@@ -4,12 +4,12 @@ description: IAgentCharacterEx SetLanguageID
 ms.assetid: 064f4c3c-1871-4372-9796-5b53f05c6d9a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ec8a396c174fd251b1cc7ac8d7e9696c9b9f2d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 036e1d41878adaae878a5961b45d190971d790af
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672119"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119003"
 ---
 # <a name="iagentcharacterexsetlanguageid"></a>IAgentCharacterEx::SetLanguageID
 
@@ -38,7 +38,7 @@ HRESULT SetLanguageID(
 
 
 
-|                       |        |                       |        |
+| 語言              | 識別碼     |  語言             | 識別碼     |
 |-----------------------|--------|-----------------------|--------|
 | 阿拉伯文 (沙烏地阿拉伯)         | 0x0401 | 義大利文               | 0x0410 |
 | 巴斯克文                | 0x042d | 日文              | 0x0411 |
@@ -55,11 +55,11 @@ HRESULT SetLanguageID(
 | 德文                | 0x0407 | 瑞典文               | 0x041D |
 | 希臘文                 | 0x0408 | 泰文                  | 0x041E |
 | Hebrew                | 0x040D | 土耳其文               | 0x041F |
-| 匈牙利文             | 0x040E |                       |        |
+| 匈牙利文             | 0x040E |                       |        |
 
 
 
- 
+ 
 
 如果您未設定字元的語言識別項，則如果已安裝對應的代理程式語言 DLL，則其語言識別項會是目前的系統語言識別項;否則，字元的語言將會是英文 (US) 。
 
@@ -72,16 +72,16 @@ HRESULT SetLanguageID(
 > [!Note]  
 > 如果您將字元的語言識別項設定為支援雙向文字 (例如阿拉伯文或希伯來文) ，但執行您的應用程式的系統沒有安裝雙向支援，則文字會以邏輯方式出現在文字提示字元中，而不是顯示順序。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentCharacterEx： GetLanguageID**](iagentcharacterex--getlanguageid.md)、 [**IAgentCharacterEx：： GetSRModeID**](iagentcharacterex--getsrmodeid.md)、 [**IAgentCharacterEx：： GetTTSModeID**](iagentcharacterex--getttsmodeid.md)
 
 
- 
+ 
 
- 
+ 
 
 
 
