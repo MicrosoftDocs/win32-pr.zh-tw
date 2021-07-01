@@ -9,51 +9,47 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 178b31a386a7ae4aa266ac33ddbb1ee5c842f2d1
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 2c506d2ad23003f93bbaea409cacc60b18c86534
+ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997165"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113129705"
 ---
-# <a name="dcl_semantics-sm3---ps-asm"></a><span data-ttu-id="a9b20-103">dcl \_ 語義 (sm3-ps asm) </span><span class="sxs-lookup"><span data-stu-id="a9b20-103">dcl\_semantics (sm3 - ps asm)</span></span>
+# <a name="dcl_semantics-sm3---ps-asm"></a><span data-ttu-id="34db9-103">dcl \_ 語義 (sm3-ps asm) </span><span class="sxs-lookup"><span data-stu-id="34db9-103">dcl\_semantics (sm3 - ps asm)</span></span>
 
-<span data-ttu-id="a9b20-104">宣告頂點著色器輸出和圖元著色器輸入之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="a9b20-104">Declare the association between vertex shader output and pixel shader input.</span></span>
+<span data-ttu-id="34db9-104">宣告頂點著色器輸出和圖元著色器輸入之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="34db9-104">Declare the association between vertex shader output and pixel shader input.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a9b20-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="a9b20-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="34db9-105">Syntax</span><span class="sxs-lookup"><span data-stu-id="34db9-105">Syntax</span></span>
 
-
-
-|                                                   |
-|---------------------------------------------------|
-| <span data-ttu-id="a9b20-106">\_ \[ \_ 距心 \] dst 的 dcl 語義 \[ 。寫入 \_ 遮罩\]</span><span class="sxs-lookup"><span data-stu-id="a9b20-106">dcl\_semantics \[\_centroid\] dst\[.write\_mask\]</span></span> |
+<span data-ttu-id="34db9-106">\_ \[ \_ 距心 \] dst 的 dcl 語義 \[ 。寫入 \_ 遮罩\]</span><span class="sxs-lookup"><span data-stu-id="34db9-106">dcl\_semantics \[\_centroid\] dst\[.write\_mask\]</span></span>
 
 
 
  
 
-<span data-ttu-id="a9b20-107">其中：</span><span class="sxs-lookup"><span data-stu-id="a9b20-107">Where:</span></span>
+<span data-ttu-id="34db9-107">其中：</span><span class="sxs-lookup"><span data-stu-id="34db9-107">Where:</span></span>
 
--   <span data-ttu-id="a9b20-108">\_語義：識別預期的資料使用方式，而且可以是 [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (中沒有 D3DDECLUSAGE 前置詞) 的任何值 \_ 。</span><span class="sxs-lookup"><span data-stu-id="a9b20-108">\_semantics: Identifies the intended data usage, and may be any of the values in [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (without the D3DDECLUSAGE\_ prefix).</span></span> <span data-ttu-id="a9b20-109">此外，您可以將整數索引附加至語義，以區分使用類似語義的參數。</span><span class="sxs-lookup"><span data-stu-id="a9b20-109">Additionally, an integer index can be appended to the semantic to distinguish parameters that use similar semantics.</span></span>
--   <span data-ttu-id="a9b20-110">\[\_[距心](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md) \]這是選擇性的指令修飾詞。</span><span class="sxs-lookup"><span data-stu-id="a9b20-110">\[\_[Centroid](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md)\] is an optional instruction modifier.</span></span> <span data-ttu-id="a9b20-111">在宣告輸入暫存器 \_ 和紋理查閱指示的 dcl 使用指示上支援此功能。</span><span class="sxs-lookup"><span data-stu-id="a9b20-111">It is is supported on dcl\_usage instructions that declare the input registers and on texture lookup instructions.</span></span> <span data-ttu-id="a9b20-112">距心會附加沒有空格的位置。</span><span class="sxs-lookup"><span data-stu-id="a9b20-112">The centroid is appended with no space.</span></span>
--   <span data-ttu-id="a9b20-113">dst：目的地註冊。</span><span class="sxs-lookup"><span data-stu-id="a9b20-113">dst: destination register.</span></span> <span data-ttu-id="a9b20-114">請參閱 [ps \_ 3 \_ 0 註冊](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)。</span><span class="sxs-lookup"><span data-stu-id="a9b20-114">See [ps\_3\_0 Registers](dx9-graphics-reference-asm-ps-registers-ps-3-0.md).</span></span>
--   <span data-ttu-id="a9b20-115">寫入 \_ 遮罩：相同的輸出暫存器可以多次宣告，每次都有唯一的寫入遮罩 (如此一來，就可以將不同的語義套用至) 的個別元件。</span><span class="sxs-lookup"><span data-stu-id="a9b20-115">write\_mask: The same output register may be declared multiple times, each time with a unique write mask (so different semantics can be applied to individual components).</span></span> <span data-ttu-id="a9b20-116">不過，在宣告中不能多次使用相同的語義。</span><span class="sxs-lookup"><span data-stu-id="a9b20-116">However, the same semantic cannot be used multiple times in a declaration.</span></span> <span data-ttu-id="a9b20-117">這表示向量必須是四個或更少的元件，而且無法跨四個元件的暫存器界限 (個別的輸出暫存器) 。</span><span class="sxs-lookup"><span data-stu-id="a9b20-117">This means that vectors must be four components or less, and cannot go across four-component register boundaries (individual output registers).</span></span> <span data-ttu-id="a9b20-118">\_使用 psize 語義時，它應該有完整的寫入遮罩，因為它會被視為純量。</span><span class="sxs-lookup"><span data-stu-id="a9b20-118">When the \_psize semantic is used, it should have a full write mask because it is considered a scalar.</span></span> <span data-ttu-id="a9b20-119">\_使用位置語義時，它應該有完整的寫入遮罩，因為必須寫入全部四個元件。</span><span class="sxs-lookup"><span data-stu-id="a9b20-119">When the \_position semantic is used, it should have full write mask because all four components have to be written.</span></span>
+-   <span data-ttu-id="34db9-108">\_語義：識別預期的資料使用方式，而且可以是 [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (中沒有 D3DDECLUSAGE 前置詞) 的任何值 \_ 。</span><span class="sxs-lookup"><span data-stu-id="34db9-108">\_semantics: Identifies the intended data usage, and may be any of the values in [**D3DDECLUSAGE**](/windows/desktop/direct3d9/d3ddeclusage) (without the D3DDECLUSAGE\_ prefix).</span></span> <span data-ttu-id="34db9-109">此外，您可以將整數索引附加至語義，以區分使用類似語義的參數。</span><span class="sxs-lookup"><span data-stu-id="34db9-109">Additionally, an integer index can be appended to the semantic to distinguish parameters that use similar semantics.</span></span>
+-   <span data-ttu-id="34db9-110">\[\_[距心](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md) \]這是選擇性的指令修飾詞。</span><span class="sxs-lookup"><span data-stu-id="34db9-110">\[\_[Centroid](dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md)\] is an optional instruction modifier.</span></span> <span data-ttu-id="34db9-111">在宣告輸入暫存器 \_ 和紋理查閱指示的 dcl 使用指示上支援此功能。</span><span class="sxs-lookup"><span data-stu-id="34db9-111">It is is supported on dcl\_usage instructions that declare the input registers and on texture lookup instructions.</span></span> <span data-ttu-id="34db9-112">距心會附加沒有空格的位置。</span><span class="sxs-lookup"><span data-stu-id="34db9-112">The centroid is appended with no space.</span></span>
+-   <span data-ttu-id="34db9-113">dst：目的地註冊。</span><span class="sxs-lookup"><span data-stu-id="34db9-113">dst: destination register.</span></span> <span data-ttu-id="34db9-114">請參閱 [ps \_ 3 \_ 0 註冊](dx9-graphics-reference-asm-ps-registers-ps-3-0.md)。</span><span class="sxs-lookup"><span data-stu-id="34db9-114">See [ps\_3\_0 Registers](dx9-graphics-reference-asm-ps-registers-ps-3-0.md).</span></span>
+-   <span data-ttu-id="34db9-115">寫入 \_ 遮罩：相同的輸出暫存器可以多次宣告，每次都有唯一的寫入遮罩 (如此一來，就可以將不同的語義套用至) 的個別元件。</span><span class="sxs-lookup"><span data-stu-id="34db9-115">write\_mask: The same output register may be declared multiple times, each time with a unique write mask (so different semantics can be applied to individual components).</span></span> <span data-ttu-id="34db9-116">不過，在宣告中不能多次使用相同的語義。</span><span class="sxs-lookup"><span data-stu-id="34db9-116">However, the same semantic cannot be used multiple times in a declaration.</span></span> <span data-ttu-id="34db9-117">這表示向量必須是四個或更少的元件，而且無法跨四個元件的暫存器界限 (個別的輸出暫存器) 。</span><span class="sxs-lookup"><span data-stu-id="34db9-117">This means that vectors must be four components or less, and cannot go across four-component register boundaries (individual output registers).</span></span> <span data-ttu-id="34db9-118">\_使用 psize 語義時，它應該有完整的寫入遮罩，因為它會被視為純量。</span><span class="sxs-lookup"><span data-stu-id="34db9-118">When the \_psize semantic is used, it should have a full write mask because it is considered a scalar.</span></span> <span data-ttu-id="34db9-119">\_使用位置語義時，它應該有完整的寫入遮罩，因為必須寫入全部四個元件。</span><span class="sxs-lookup"><span data-stu-id="34db9-119">When the \_position semantic is used, it should have full write mask because all four components have to be written.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a9b20-120">備註</span><span class="sxs-lookup"><span data-stu-id="a9b20-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="34db9-120">備註</span><span class="sxs-lookup"><span data-stu-id="34db9-120">Remarks</span></span>
 
 
 
-| <span data-ttu-id="a9b20-121">圖元著色器版本</span><span class="sxs-lookup"><span data-stu-id="a9b20-121">Pixel shader versions</span></span> | <span data-ttu-id="a9b20-122">1\_1</span><span class="sxs-lookup"><span data-stu-id="a9b20-122">1\_1</span></span> | <span data-ttu-id="a9b20-123">1\_2</span><span class="sxs-lookup"><span data-stu-id="a9b20-123">1\_2</span></span> | <span data-ttu-id="a9b20-124">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="a9b20-124">1\_3</span></span> | <span data-ttu-id="a9b20-125">1\_4</span><span class="sxs-lookup"><span data-stu-id="a9b20-125">1\_4</span></span> | <span data-ttu-id="a9b20-126">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="a9b20-126">2\_0</span></span> | <span data-ttu-id="a9b20-127">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="a9b20-127">2\_x</span></span> | <span data-ttu-id="a9b20-128">2個 \_ sw</span><span class="sxs-lookup"><span data-stu-id="a9b20-128">2\_sw</span></span> | <span data-ttu-id="a9b20-129">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="a9b20-129">3\_0</span></span> | <span data-ttu-id="a9b20-130">3個 \_ sw</span><span class="sxs-lookup"><span data-stu-id="a9b20-130">3\_sw</span></span> |
+| <span data-ttu-id="34db9-121">圖元著色器版本</span><span class="sxs-lookup"><span data-stu-id="34db9-121">Pixel shader versions</span></span> | <span data-ttu-id="34db9-122">1\_1</span><span class="sxs-lookup"><span data-stu-id="34db9-122">1\_1</span></span> | <span data-ttu-id="34db9-123">1\_2</span><span class="sxs-lookup"><span data-stu-id="34db9-123">1\_2</span></span> | <span data-ttu-id="34db9-124">1 \_ 3</span><span class="sxs-lookup"><span data-stu-id="34db9-124">1\_3</span></span> | <span data-ttu-id="34db9-125">1\_4</span><span class="sxs-lookup"><span data-stu-id="34db9-125">1\_4</span></span> | <span data-ttu-id="34db9-126">2 \_ 0</span><span class="sxs-lookup"><span data-stu-id="34db9-126">2\_0</span></span> | <span data-ttu-id="34db9-127">2 \_ x</span><span class="sxs-lookup"><span data-stu-id="34db9-127">2\_x</span></span> | <span data-ttu-id="34db9-128">2個 \_ sw</span><span class="sxs-lookup"><span data-stu-id="34db9-128">2\_sw</span></span> | <span data-ttu-id="34db9-129">3 \_ 0</span><span class="sxs-lookup"><span data-stu-id="34db9-129">3\_0</span></span> | <span data-ttu-id="34db9-130">3個 \_ sw</span><span class="sxs-lookup"><span data-stu-id="34db9-130">3\_sw</span></span> |
 |-----------------------|------|------|------|------|------|------|-------|------|-------|
-| <span data-ttu-id="a9b20-131">dcl \_ 使用方式</span><span class="sxs-lookup"><span data-stu-id="a9b20-131">dcl\_usage</span></span>            |      |      |      |      |      |      |       | <span data-ttu-id="a9b20-132">x</span><span class="sxs-lookup"><span data-stu-id="a9b20-132">x</span></span>    | <span data-ttu-id="a9b20-133">x</span><span class="sxs-lookup"><span data-stu-id="a9b20-133">x</span></span>     |
+| <span data-ttu-id="34db9-131">dcl \_ 使用方式</span><span class="sxs-lookup"><span data-stu-id="34db9-131">dcl\_usage</span></span>            |      |      |      |      |      |      |       | <span data-ttu-id="34db9-132">x</span><span class="sxs-lookup"><span data-stu-id="34db9-132">x</span></span>    | <span data-ttu-id="34db9-133">x</span><span class="sxs-lookup"><span data-stu-id="34db9-133">x</span></span>     |
 
 
 
  
 
-<span data-ttu-id="a9b20-134">所有 \_ 的 dcl 使用方式指令都必須出現在第一個可執行指令之前。</span><span class="sxs-lookup"><span data-stu-id="a9b20-134">All dcl\_usage instructions must appear before the first executable instruction.</span></span>
+<span data-ttu-id="34db9-134">所有 \_ 的 dcl 使用方式指令都必須出現在第一個可執行指令之前。</span><span class="sxs-lookup"><span data-stu-id="34db9-134">All dcl\_usage instructions must appear before the first executable instruction.</span></span>
 
-## <a name="declaration-examples"></a><span data-ttu-id="a9b20-135">宣告範例</span><span class="sxs-lookup"><span data-stu-id="a9b20-135">Declaration Examples</span></span>
+## <a name="declaration-examples"></a><span data-ttu-id="34db9-135">宣告範例</span><span class="sxs-lookup"><span data-stu-id="34db9-135">Declaration Examples</span></span>
 
 
 ```
@@ -82,14 +78,14 @@ texld r1, v1.zw, s1
 
 
 
-## <a name="related-topics"></a><span data-ttu-id="a9b20-136">相關主題</span><span class="sxs-lookup"><span data-stu-id="a9b20-136">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="34db9-136">相關主題</span><span class="sxs-lookup"><span data-stu-id="34db9-136">Related topics</span></span>
 
 <dl> <dt>
 
-[<span data-ttu-id="a9b20-137">圖元著色器指示</span><span class="sxs-lookup"><span data-stu-id="a9b20-137">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
+[<span data-ttu-id="34db9-137">圖元著色器指示</span><span class="sxs-lookup"><span data-stu-id="34db9-137">Pixel Shader Instructions</span></span>](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> <dt>
 
-<span data-ttu-id="a9b20-138">[消除鋸齒範例](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)</span><span class="sxs-lookup"><span data-stu-id="a9b20-138">[Antialias Sample](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)</span></span>
+<span data-ttu-id="34db9-138">[消除鋸齒範例](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)</span><span class="sxs-lookup"><span data-stu-id="34db9-138">[Antialias Sample](https://msdn.microsoft.com/library/Ee415231(v=VS.85).aspx)</span></span>
 </dt> </dl>
 
  
