@@ -4,12 +4,12 @@ ms.assetid: 1135b309-b158-4b70-9f76-5c93d0ad3250
 title: 如何撰寫 EVR 展示者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94933d9eb53b0b03105edc7056ace4fe73238d16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 505ba7ec225ac5f1316ad4343a4e1058ff0b6cb8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551245"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118773"
 ---
 # <a name="how-to-write-an-evr-presenter"></a>如何撰寫 EVR 展示者
 
@@ -19,7 +19,7 @@ ms.locfileid: "104551245"
 
 本主題包含下列幾節：
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [展示者物件模型](#presenter-object-model)
     -   [EVR 內的資料流程](#data-flow-inside-the-evr)
     -   [展示者狀態](#presenter-states)
@@ -197,7 +197,7 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 
 
-| EVR 介面                                | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| EVR 介面                                | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IMediaEventSink**](/windows/win32/api/strmif/nn-strmif-imediaeventsink) | 提供方法讓展示者將訊息傳送至 EVR。 此介面定義于 DirectShow SDK 中，因此訊息會遵循 DirectShow 事件的模式，而不是媒體基礎事件。<br/>                                                                                                                                                                                                                                                                                                                                              |
 | [**IMFClock**](/windows/desktop/api/mfidl/nn-mfidl-imfclock)                 | 表示 EVR 的時鐘。 展示者會使用此介面來排程簡報的範例。 EVR 可在沒有時鐘的情況下執行，因此可能無法使用此介面。 如果沒有，請忽略 [**LookupService**](/windows/desktop/api/evr/nf-evr-imftopologyservicelookup-lookupservice)中的錯誤碼。<br/> 時鐘也會實 [**IMFTimer**](/windows/desktop/api/mfidl/nn-mfidl-imftimer) 介面。 在媒體基礎管線中，時鐘會實 [**IMFPresentationClock**](/windows/desktop/api/mfidl/nn-mfidl-imfpresentationclock) 介面。 它不會在 DirectShow 中執行這個介面。<br/> |
@@ -210,7 +210,7 @@ HRESULT EVRCustomPresenter::GetDeviceID(IID* pDeviceID)
 
 
 
-| 混音器介面                              | Description                                                |
+| 混音器介面                              | 描述                                                |
 |----------------------------------------------|------------------------------------------------------------|
 | [**IMFTransform**](/windows/desktop/api/mftransform/nn-mftransform-imftransform)         | 讓展示者與混音器進行通訊。       |
 | [**IMFVideoDeviceID**](/windows/desktop/api/evr/nn-evr-imfvideodeviceid) | 讓展示者可以驗證混音器的裝置 GUID。 |
@@ -476,7 +476,7 @@ done:
 
 
 
-|                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| 值                                                          | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GetSlowestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getslowestrate)   | 傳回零以指出沒有最小的播放速率。                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | [**GetFastestRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratesupport-getfastestrate)   | 若為非 thinned 播放，播放速率不應超過監視器的重新整理頻率：*最大速率* 重新整理  =  *頻率* (Hz) /*影片畫面播放速率* (fps) 。 影片畫面播放速率是在展示者的媒體類型中指定。 <br/> 針對 thinned 播放，播放速率為未系結;傳回 **FLT_MAX** 的值。 在實務上，來源和解碼器將會是 thinned 播放期間的限制因素。 <br/> 針對反向播放，傳回最大速率的負數。<br/> |
@@ -938,7 +938,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
         // required.
     }
 
-    /*** Begin lock **_/
+    /*** Begin lock ***/
 
     EnterCriticalSection(&m_ObjectLock);
 
@@ -958,7 +958,7 @@ HRESULT EVRCustomPresenter::OnSampleFree(IMFAsyncResult *pResult)
 
     LeaveCriticalSection(&m_ObjectLock);
 
-    /_*_ End lock _*_/
+    /*** End lock ***/
 
 done:
     if (FAILED(hr))
@@ -976,7 +976,7 @@ done:
 
 ## <a name="processing-output"></a>處理輸出
 
-只要混音器收到新的輸入範例，EVR 就會將 _ *MFVP_MESSAGE_PROCESSINPUTNOTIFY** 訊息傳送給展示者。 此訊息表示混音器可能會有新的影片框架可供傳遞。 在回應中，展示者會在混音器上呼叫 [**IMFTransform：:P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) 。 如果方法成功，則展示者會排定展示的範例。
+只要混音器收到新的輸入範例，EVR 就會將 **MFVP_MESSAGE_PROCESSINPUTNOTIFY** 訊息傳送給展示者。 此訊息表示混音器可能會有新的影片框架可供傳遞。 在回應中，展示者會在混音器上呼叫 [**IMFTransform：:P rocessoutput**](/windows/desktop/api/mftransform/nf-mftransform-imftransform-processoutput) 。 如果方法成功，則展示者會排定展示的範例。
 
 若要從混音器取得輸出，請執行下列步驟：
 

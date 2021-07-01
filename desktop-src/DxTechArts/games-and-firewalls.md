@@ -4,12 +4,12 @@ description: 本文說明 Windows 防火牆的原因、其存在的原因，以�
 ms.assetid: 2ee9f769-03dc-3661-5d5b-6a4ecd151fd5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88656fb3f622a847c15544646c333b807f3a0fb2
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 15c7ff3c9b651b6264703732f0eec57054784034
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104514372"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120233"
 ---
 # <a name="windows-firewall-for-game-developers"></a>適用于遊戲開發人員的 Windows 防火牆
 
@@ -99,10 +99,10 @@ Windows XP SP2 和 Windows Server 2003 Service Pack 1 (SP1) 都有提供新的 W
 
 
 
-|             |                                                                              |
+|             | 檔案                                                                             |
 |-------------|------------------------------------------------------------------------------|
-| 來源：     |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ FirewallInstallHelper                        |
-| 可執行檔： |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ Bin \\ <arch> \\FirewallInstallHelper.dll |
+| **來源：**     |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ FirewallInstallHelper                        |
+| **可執行：** |  (SDK 根) \\ 範例 \\ c + + \\ 其他 \\ Bin \\ <arch> \\FirewallInstallHelper.dll |
 
 
 

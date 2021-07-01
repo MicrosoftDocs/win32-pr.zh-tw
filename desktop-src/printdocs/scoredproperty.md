@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 尋找 ScoredProperty 元素的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 0552d301-5105-490f-962b-135c8c2e936b
 title: ScoredProperty
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1605d173e0ab311841a6fcc37a46a0ba3b59b005
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cb93fbdaeb6101cbd1ff75d6c0b3a829afe0d317
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106988116"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119113"
 ---
 # <a name="scoredproperty"></a>ScoredProperty
 

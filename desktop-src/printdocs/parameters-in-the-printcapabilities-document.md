@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 PrintCapabilities 檔中的參數。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: d317d052-c207-412a-896e-09cb57b0dd5f
 title: PrintCapabilities 檔中的參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ecfcfee581014bdb57ff70adebaf5f4c8b6fedc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: cc6b2ba61f1985fdcd02f40e8e08100725968a8e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321708"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118623"
 ---
 # <a name="parameters-in-the-printcapabilities-document"></a>PrintCapabilities 檔中的參數
 

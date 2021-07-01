@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8e8a3c20e73b9783d39b4f4cbdb7c0be5b75fcda
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: df4a1f049526422f39c3529395481548943c7e84
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104022976"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118953"
 ---
 # <a name="if-statement"></a>if 陳述式
 
 根據條件運算式的評估，有條件地執行一連串的語句。
 
-
-
-|                                                               |
-|---------------------------------------------------------------|
-| \[*屬性* \]如果 (*條件* 式 ) {*語句區塊*;} |
+\[*屬性* \]如果 (*條件* 式 ) {*語句區塊*;}
 
 
 

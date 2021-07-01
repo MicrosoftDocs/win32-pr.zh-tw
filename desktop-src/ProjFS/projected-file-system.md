@@ -4,12 +4,12 @@ description: '介紹 Windows 投射的檔案系統 (ProjFS) '
 ms.assetid: <GUID-GOES-HERE>
 ms.date: 09/14/2018
 ms.topic: article
-ms.openlocfilehash: 8391ec63f23c9ebae5b47e4cac862f6ab3079ceb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 68f121162efdf75fb9226b41f9b3a1121bef6480
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842375"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120583"
 ---
 # <a name="windows-projected-file-system-projfs"></a>Windows 投射的檔案系統 (ProjFS) 
 
@@ -28,7 +28,7 @@ Windows 投射的檔案系統 (ProjFS) 允許名為「提供者」的使用者�
 
 ## <a name="additional-resources"></a>其他資源
 
-|                                                                                                              |                                                                                   |
+| 主題                                                                                                             | 描述                                                                                  |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | [RegFS 範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/ProjectedFileSystem) | 將 Windows 登錄投射到檔案系統的範例 ProjFS 提供者。 |
 <!--

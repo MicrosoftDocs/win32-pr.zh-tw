@@ -4,12 +4,12 @@ ms.assetid: 0d355ad1-d674-432e-809a-9fb27ac5f610
 title: Microsoft 媒體基礎
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db8f14a671550e75343311e0cddf488690496af4
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 4341a0aea1d51c7260e0fa532eb48b80699e053a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853324"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119153"
 ---
 # <a name="microsoft-media-foundation"></a>Microsoft 媒體基礎
 
@@ -21,7 +21,7 @@ Microsoft 媒體基礎可在 Windows Vista 和更新版本上開發使用數位�
 
 
 
-|                                                                                      |                                                                                                                                                        |
+| 主題                                                                                     | 描述                                                                                                                                                       |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [媒體基礎的新功能](whats-new-for-media-foundation.md)                | 描述媒體基礎最新版本中的變更。                                                                                  |
 | [關於媒體基礎](about-the-media-foundation-sdk.md)                         | 列出您將需要的標頭和程式庫，並描述提供讓媒體基礎開發更容易的工具和程式碼範例。 |

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 檢查功能元素，其中包含描述裝置屬性、作業格式設定或其他相關特性的選項和屬性專案清單。
 ms.assetid: 5a6553c2-f322-47e2-bbc8-44f6541f1288
 title: 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad89655181563e2da3a8d4841b1d90ecd4e6ac07
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b28ab7e8cc69ecc9ba3956fbae3c5278baace8cf
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "107000212"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120633"
 ---
 # <a name="feature"></a>功能
 

@@ -4,12 +4,12 @@ ms.assetid: 428d08c6-e9f0-49fb-9ef9-d0f95416669d
 title: OPM 狀態要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd994d7cb8d43db23fe59352dba830e741b74b98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdbf7338fe1309feb49fd191e3f4a1a22f3639b4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691635"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120173"
 ---
 # <a name="opm-status-requests"></a>OPM 狀態要求
 
@@ -17,7 +17,7 @@ ms.locfileid: "103691635"
 
 
 
-|              |                                                                                                                                                            |
+| 值             | 描述                                                                                                                                                           |
 |--------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 要求 GUID | 識別要求。 將 [**OPM \_ GET \_ INFO \_ PARAMETERS**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters)結構的 **guidSetting** 成員設定為等於此值。 |
 | 輸入資料   | 指定如何解讀 [**OPM \_ 取得 \_ 資訊 \_ 參數**](/windows/desktop/api/ksopmapi/ns-ksopmapi-opm_get_info_parameters)結構中的 **abParameters** 陣列。                      |
@@ -31,7 +31,7 @@ ms.locfileid: "103691635"
 
 
 
-| 狀態要求                                                                                      | Description                                                                                                                                           |
+| 狀態要求                                                                                      | 描述                                                                                                                                           |
 |-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**OPM \_ 取得 \_ ACP \_ 和 \_ CGMSA \_ 信號**](opm-get-acp-and-cgmsa-signaling.md)                     | 傳回關於影片輸出的下列資訊：                                                                                               |
 | [**OPM \_ 取得 \_ 實際 \_ 輸出 \_ 格式**](opm-get-actual-output-format.md)                            | 傳回透過連接器傳輸之視訊訊號的描述。                                                               |

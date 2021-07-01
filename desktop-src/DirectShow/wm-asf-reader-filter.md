@@ -1,15 +1,15 @@
 ---
-description: WM ASF 讀取器篩選器
+description: 瞭解適用于 DirectShow 的 WM ASF 讀取器篩選器。 這是 Windows Media Format SDK 所提供之 reader 物件的包裝函式篩選。
 ms.assetid: 82b9f849-b9dc-439b-8ca7-9dcd992338ab
 title: " (DirectShow) 的 WM ASF 讀取器篩選器"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a35cea4b6dbf8c720f3059e0317484fd2f34d10
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 330ab870b97fc3e84ccb5b0f726d4f35ef1af147
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908866"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118663"
 ---
 # <a name="wm-asf-reader-filter-directshow"></a> (DirectShow) 的 WM ASF 讀取器篩選器
 

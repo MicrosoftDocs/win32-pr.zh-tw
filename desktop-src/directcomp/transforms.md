@@ -4,12 +4,12 @@ description: 本主題討論 Microsoft DirectComposition 對二維 (2D) 仿射 (
 ms.assetid: a0f41cc6-e848-4831-8063-609e17d9b4c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27a1fec5774d208f240e6d2f1c8b7df09d25c486
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 991e1205422864efdec82bbd4067b9c7662aaf29
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104554080"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118653"
 ---
 # <a name="transforms-directcomposition"></a>轉換 (DirectComposition) 
 
@@ -36,31 +36,38 @@ DirectComposition 也支援3D 的觀點轉換，但因為它們需要建立中�
 
 2D 轉換的達成方式是將視覺效果的點從某個位置對應到相同座標空間內的另一個位置，或從某個座標空間對應到另一個位置。 這項對應是由稱為轉換矩陣的值表所描述，定義為三個數據列的集合，其中有三個浮點值的資料行，如下表所示。
 
-
-
-|                 |                 |     |
-|-----------------|-----------------|-----|
-| M11Default：1。0 | M12Default：0。0 | 0.0 |
-| M21Default：0。0 | M22Default：1。0 | 0.0 |
-| M31OffsetX：0。0 | M32OffsetY：0。0 | 1.0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default：1。0<br/>
+        M21Default：0。0<br/>
+        M31OffsetX：0。0
+    :::column-end:::
+    :::column:::
+        M12Default：0。0<br/>
+        M22Default：1。0<br/>
+        M32OffsetY：0。0
+    :::column-end:::
+    :::column:::
+        0.0<br/>
+        0.0<br/>
+        1.0
+    :::column-end:::
+:::row-end:::
 
 仿射2D 轉換的轉換矩陣是從上一個轉換矩陣省略第三個數據行的3到2個矩陣。 下表顯示此矩陣的版面配置。
 
-
-
-|                 |                 |
-|-----------------|-----------------|
-| M11Default：1。0 | M12Default：0。0 |
-| M21Default：0。0 | M22Default：1。0 |
-| M31OffsetX：0。0 | M32OffsetY：0。0 |
-
-
-
- 
+:::row:::
+    :::column:::
+        M11Default：1。0<br/>
+        M21Default：0。0<br/>
+        M31OffsetX：0。0
+    :::column-end:::
+    :::column:::
+        M12Default：0。0<br/>
+        M22Default：1。0<br/>
+        M32OffsetY：0。0
+    :::column-end:::
+:::row-end:::
 
 > [!Note]  
 > 將2D 轉換套用至身歷聲內容時，DirectComposition 不會執行任何特殊處理。 這表示在套用2D 轉換時，3D 內容可能會失真。

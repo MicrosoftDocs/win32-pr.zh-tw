@@ -11,22 +11,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: dadb0e8bb3ddda16305ac701b34523668bd9c1a5
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: e06bbc184a4b5f82d5edaaf7fdbfbd55f1906f12
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "103679368"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120613"
 ---
 # <a name="geometry-shader-object"></a>Geometry-Shader 物件
 
 幾何著色器物件會處理整個基本專案。 使用下列語法來宣告幾何著色器物件。
 
-
-
-|                                                                                                                                        |
-|----------------------------------------------------------------------------------------------------------------------------------------|
-| \[maxvertexcount (*NumVerts*) \] Void *ShaderName* ( *PrimitiveType DataType Name \[ NumElements \]*，inout *StreamOutputObject* ) ; |
+\[maxvertexcount (*NumVerts*) \] Void *ShaderName* ( *PrimitiveType DataType Name \[ NumElements \]*，inout *StreamOutputObject* ) ;
 
 
 
@@ -60,7 +56,7 @@ ms.locfileid: "103679368"
 
 
 
-| 基本類型 | Description                                                   |
+| 基本類型 | 描述                                                   |
 |----------------|---------------------------------------------------------------|
 | *點*        | 點清單                                                    |
 | *line*         | 行清單或行帶                                       |

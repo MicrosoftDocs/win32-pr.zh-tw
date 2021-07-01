@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 以功能/選項結構或參數表示屬性。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 055e502d-631f-49d2-8577-65396373d478
 title: 將屬性工作表示為功能/選項結構或參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2c24843a175337f40a84dcdacc41e1a2ab1e15e
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c93f4de56709ed310a7f0aa259b1dbfd3377ed42
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104027698"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120053"
 ---
 # <a name="representing-attributes-as-featureoption-constructs-or-as-parameters"></a>將屬性工作表示為功能/選項結構或參數
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解更詳盡的選項定義。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: fafced09-97fd-44f6-a41b-e17757c85c38
 title: 更詳盡的選項定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d56dea81059aea806e66b55895c595ad6610dc77
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6c8118a94308664b7e5e22f2f21e4a0cc9fe944d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106986030"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118453"
 ---
 # <a name="more-elaborate-option-definitions"></a>更詳盡的選項定義
 

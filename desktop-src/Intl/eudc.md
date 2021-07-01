@@ -4,12 +4,12 @@ ms.assetid: d78a1d8f-a239-4388-aa21-c162953fe355
 title: EUDC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 781f7c28460c2e56f4bcdb393277f509f88a0383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27b583c7a0bfaa67684901e8d0a4a95ac5e45658
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990413"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120703"
 ---
 # <a name="eudc"></a>EUDC
 
@@ -25,7 +25,7 @@ EUDC SystemDefaultEUDCFont = TrueTypeEUDCFontFileName TrueTypeFontTypeface = Tru
 
 
 
-|                          |                                                                                                                                          |
+| 值                         | 描述                                                                                                                                         |
 |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
 | SystemDefaultEUDCFont    | 預先定義的名稱，用來設定系統預設字型。 除非明確指定此專案，否則不會有系統預設的 EUDC 字型。     |
 | TrueTypeFontTypeface     | 與非 EUDC TrueType 字型相關聯的使用者定義名稱。                                                                              |

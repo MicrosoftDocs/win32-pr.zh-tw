@@ -4,12 +4,12 @@ description: 本文提供在 Windows 上執行之遊戲的技術需求和最佳�
 ms.assetid: 8b816e9f-de68-cf84-1501-a9c36c6b75d8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e38b9476a4ab2aad5edc6210f55bc4d2b85845f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 60c7a0f52685b0b99247ebfd86af3727d834ca63
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683044"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120303"
 ---
 # <a name="games-for-windows-technical-requirements-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 技術需求的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
@@ -506,7 +506,7 @@ Visual Studio 2010 包含專案屬性中的設定，名為 **啟用 DPI 感知**
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**要求**
 </dt> <dd>
 
-每個可執行檔 (也就是說，副檔名為 .exe) 的每個檔案都必須包含內嵌的資訊清單，藉由包含下列標記來定義其執行層級：
+每個可執行檔 (也就是每個具有 .exe 副檔名) 的檔案都必須包含內嵌的資訊清單，藉由包含下列標記來定義其執行層級：
 
 ``` syntax
             <requestedExecutionLevel>
@@ -609,9 +609,9 @@ Windows on Windows 64 (WOW64) 可讓32位程式碼在64位版本的 Windows 上�
 <span id="Requirement"></span><span id="requirement"></span><span id="REQUIREMENT"></span>**要求**
 </dt> <dd>
 
-所有的可執行程式碼檔案通常 (，副檔名為 .exe 或 .dll) 的檔案必須使用公開有效的 Authenticode 憑證來簽署，而且必須具有有效的時間戳記伺服器 URL，才能進行生產簽署。
+所有可執行程式碼檔案 (通常是具有副檔名 .exe 或 .dll) 的檔案必須使用公開有效的 Authenticode 憑證進行簽署，而且必須具有有效的時間戳記伺服器 URL，才能進行生產簽署。
 
-如果您的遊戲使用 Windows Installer，) 必須簽署 ( .msi 檔案的安裝程式套件檔案。
+如果您的遊戲使用 Windows Installer，) 必須簽署安裝程式套件檔案 (.msi 檔案。
 
 </dd> <dt>
 
@@ -629,7 +629,7 @@ Windows on Windows 64 (WOW64) 可讓32位程式碼在64位版本的 Windows 上�
 
 如果您的遊戲使用 Windows Installer，建議您加入 MsiPatchCertificate 資料表，以啟用 UAC/LUA 修補。 如需詳細資訊，請參閱 [ (UAC) 修補的使用者帳戶控制](/windows/desktop/Msi/user-account-control--uac--patching)。
 
-除非封包 ( .cab) 檔案相對較小，否則不建議您將其簽章 (小於 100 MB 的) 。
+除非 (.cab) 的檔案相對較 100 (小，否則我們不建議將它簽署檔案，) 。
 
 </dd> </dl>
 
@@ -1102,7 +1102,7 @@ Visual Studio Team System 包含已整合至偵錯工具環境的 AppVerifier �
 若要啟用 Windows 錯誤報告支援，遊戲必須符合下列需求：
 
 -   遊戲必須只處理已知和預期的例外狀況。 Windows 錯誤報告不得停用。 如果遊戲中出現錯誤（例如存取違規），則必須允許 Windows 錯誤報告報告損毀。
--   所有可執行檔 (例如，.exe 檔案或 Dll) 都必須包含正確的產品名稱、公司名稱和檔案版本。
+-   所有可執行檔 (例如 .exe 檔案或 Dll) 必須包含正確的產品名稱、公司名稱和檔案版本。
 -   正常結束遊戲時，不能造成不明的例外狀況錯誤。
 
 </dd> <dt>
@@ -1129,26 +1129,26 @@ Windows 錯誤報告 Api 提供對 Microsoft 的重要意見反應，以偵測�
 
 
 
-|                                          |                                                                                                  |
+| Name                                          | 描述                                                                                                 |
 |------------------------------------------|--------------------------------------------------------------------------------------------------|
-| A                                        | 按鈕                                                                                     |
-| B                                        | B 按鈕                                                                                     |
-| 返回                                     | [上一頁] 按鈕                                                                                  |
+| A                                        | 按鈕。                                                                                     |
+| B                                        | B 按鈕。                                                                                     |
+| 返回                                     | [上一步] 按鈕。                                                                                  |
 |  (右/左) 的緩衝器                      | 位於控制器右上方和左邊緣的按鈕。 相當於肩按鈕。    |
-| 方向板                          | 控制器方向面板                                                                   |
-| D-pad                                    | 已接受的方向板縮寫                                                         |
-| DP                                       | 方向板縮寫和控制器標籤                                                |
-| RB、LB                                   | 右與左的緩衝器縮寫和控制器標籤                                        |
-| RS、LS                                   | 靠右和向左的縮寫和控制器標籤                                         |
-| RT、LT                                   | 右邊和左方觸發程式縮寫和控制器標籤                                       |
-| RSB、LSB                                 | 靠右和向左的縮寫和控制器標籤                                         |
-| START                                    | [啟動] 按鈕                                                                                 |
+| 方向板                          | 控制器方向面板。                                                                   |
+| D-pad                                    | 已接受的方向板縮寫。                                                         |
+| DP                                       | 方向板縮寫和控制器標籤。                                                |
+| RB、LB                                   | 靠右和左的緩衝器縮寫和控制器標籤。                                        |
+| RS、LS                                   | 靠右和向左的縮寫和控制器標籤。                                         |
+| RT、LT                                   | 靠右和向左觸發程式縮寫和控制器標籤。                                       |
+| RSB、LSB                                 | 靠右和向左的縮寫和控制器標籤。                                         |
+| START                                    | [開始] 按鈕。                                                                                 |
 |  (右/左) 杆                       | 控制器杆。 先前為操縱杆。                                                       |
 |  (右/左) 駕駛按鈕                | 控制器杆按鈕。 先前為操縱杆按鈕。                                         |
 |  (右/左) 觸發程式                     | 控制器觸發程式。                                                                          |
 | 震動                                | 遊戲控制器馬達產生的意見反應。 請勿使用 rumble。                           |
-| X                                        | X 按鈕                                                                                     |
-| Y                                        | Y 按鈕                                                                                     |
+| X                                        | X 按鈕。                                                                                     |
+| Y                                        | Y 按鈕。                                                                                     |
 | 適用于 Windows 的 Xbox 360 控制器          | Xbox 360 的遊戲台銷售為電腦硬體 SKU，包括 Windows 設備磁碟機光碟。          |
 | 適用于 Windows 的 Xbox 360 無線控制器 | Xbox 360 的無線遊戲台銷售為電腦硬體 SKU，包括 Windows 設備磁碟機光碟。 |
 

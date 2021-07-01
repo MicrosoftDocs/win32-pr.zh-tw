@@ -8,29 +8,64 @@ keywords:
 - 狀態資訊 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfac92233e971104fd4d343970a9ecc79496ed54
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8329fd34fc68122be8d63e4dc28756f88faf7797
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672679"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120683"
 ---
 # <a name="obtaining-state-information"></a>取得狀態資訊
 
 OpenGL 會維護許多會影響許多函數行為的狀態變數。 其中有些變數有專門的查詢函數。
 
+:::row:::
+    :::column:::
+        [**glGetClipPlane**](glgetclipplane.md)
+    :::column-end:::
+    :::column:::
+        [**glGetPixelMap**](glgetpixelmap.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexImage**](glgetteximage.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**glGetLight**](glgetlight.md)
+    :::column-end:::
+    :::column:::
+        [**glGetPolygonStipple**](glgetpolygonstipple.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexLevelParameter**](glgettexlevelparameter.md)
+    :::column-end:::
+:::row-end:::
 
-|                                          |                                                    |                                                          |
-|------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
-| [**glGetClipPlane**](glgetclipplane.md) | [**glGetPixelMap**](glgetpixelmap.md)             | [**glGetTexImage**](glgetteximage.md)                   |
-| [**glGetLight**](glgetlight.md)         | [**glGetPolygonStipple**](glgetpolygonstipple.md) | [**glGetTexLevelParameter**](glgettexlevelparameter.md) |
-| [**glGetMap**](glgetmap.md)             | [**glGetTexEnv**](glgettexenv.md)                 | [**glGetTexParameter**](glgettexparameter.md)           |
-| [**glGetMaterial**](glgetmaterial.md)   | [**glGetTexGen**](glgettexgen.md)                 |                                                          |
+:::row:::
+    :::column:::
+        [**glGetMap**](glgetmap.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexEnv**](glgettexenv.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexParameter**](glgettexparameter.md)
+    :::column-end:::
+:::row-end:::
 
+:::row:::
+    :::column:::
+        [**glGetMaterial**](glgetmaterial.md)
+    :::column-end:::
+    :::column:::
+        [**glGetTexGen**](glgettexgen.md)
+    :::column-end:::
+    :::column:::
 
-
- 
+    :::column-end:::
+:::row-end:::
 
 若要取得其他狀態變數的值，請視需要使用 [**glGetBooleanv**](glgetbooleanv.md)、 [**glGetDoublev**](glgetdoublev.md)、 [**glGetFloatv**](glgetfloatv.md)或 [**glGetIntegerv**](glgetintegerv.md)。 如需如何使用這些函數的詳細資訊，請參閱 [**glGet**](glgetbooleanv--glgetdoublev--glgetfloatv--glgetintegerv.md) 。 您可能想要使用的其他查詢函數包括 [**glGetError**](glgeterror.md)、 [**glGetString**](glgetstring.md)和 [**glIsEnabled**](glisenabled.md)。  (請參閱 [處理錯誤](handling-errors.md) ，以取得與錯誤處理相關之函式的詳細資訊。 ) 若要儲存和還原狀態變數集，請使用 [**glPushAttrib**](glpushattrib.md) 和 [**glPopAttrib**](glpopattrib.md)。
 
@@ -41,9 +76,9 @@ OpenGL 會維護許多會影響許多函數行為的狀態變數。 其中有些
 -   [OpenGL 狀態變數](opengl-state-variables.md)
 -   [狀態資訊參考](state-information-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

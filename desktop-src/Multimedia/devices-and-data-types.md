@@ -28,12 +28,12 @@ keywords:
 - 關閉波形-音訊輸出裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29561a74695fb8bde950e2e75a430803a1a0351b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2abe0c2c20c52f4498316fb619885d41f85e41d6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966856"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120243"
 ---
 # <a name="devices-and-data-types"></a>裝置和資料類型
 
@@ -59,7 +59,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
- 
+ 
 
 音訊裝置是由裝置識別碼來識別。 裝置識別碼是由系統中的裝置數目隱含決定。 裝置識別碼的範圍介於0到1之間，且小於裝置數目。 例如，如果系統中有兩個波形音訊輸出裝置，則有效的裝置識別碼為0和1。
 
@@ -75,22 +75,21 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
- 
+ 
 
 這些函式中的每一個都會以指定裝置功能的相關資訊填入結構。 下表列出對應至每個函數的結構。
 
 
 
-|                                                |                                    |
+|  函式                                              |  結構                                  |
 |------------------------------------------------|------------------------------------|
-| 函式                                       | 結構                          |
 | [**auxGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-auxgetdevcaps)         | [**AUXCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-auxcaps)         |
 | [**waveInGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveingetdevcaps)   | [**WAVEINCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveincaps)   |
 | [**waveOutGetDevCaps**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutgetdevcaps) | [**WAVEOUTCAPS**](/windows/win32/api/mmeapi/ns-mmeapi-waveoutcaps) |
 
 
 
- 
+ 
 
 標準格式會列在 **WAVEOUTCAPS** 結構的 **dwFormats** 成員中。 波形-音訊裝置可支援非標準格式。 若要判斷裝置是否支援特定格式 (標準或非標準) ，您可以使用 WAVE [](/windows/win32/api/mmeapi/nf-mmeapi-waveoutopen) \_ 格式查詢旗標來呼叫 waveOutOpen 函數 \_ 。 此旗標不會開啟裝置。 您可以在傳遞給 **waveOutOpen** 的 *pwfx* 參數所指向的 [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex)結構中指定有問題的格式。
 
@@ -113,7 +112,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
-| 類型                                 | Description                                                                                                                                                   |
+| 類型                                 | 描述                                                                                                                                                   |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **HWAVEOUT**                         | 開啟波形音訊輸出裝置的控制碼。                                                                                                               |
 | [**WAVEFORMATEX**](/windows/win32/api/mmeapi/ns-mmeapi-waveformatex) | 結構，指定特定波形音訊輸入裝置所支援的資料格式。 此結構也會 usedfor 波形-音訊輸入裝置。 |
@@ -122,7 +121,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
- 
+ 
 
 ## <a name="specifying-waveform-audio-data-formats"></a>指定 Waveform-Audio 資料格式
 
@@ -146,15 +145,14 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
-|             |                 |                  |                |
-|-------------|-----------------|------------------|----------------|
 | 資料格式 | 最大值   | 最小值    | 中點值 |
+|-------------|-----------------|------------------|----------------|
 | 8位 PCM   | 255 (0xFF)       | 0                | 128 (0x80)      |
 | 16位 PCM  | 32767 (0x7FFF)  | – 32768 (0x8000)  | 0              |
 
 
 
- 
+ 
 
 ## <a name="pcm-data-packing"></a>PCM 資料封裝
 
@@ -162,7 +160,7 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
-| PCM 波形-音訊格式 | Description                                                                                                                                                                                                                                                                                                                                     |
+| PCM 波形-音訊格式 | 描述                                                                                                                                                                                                                                                                                                                                     |
 |---------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 8位 mono                | 每個範例都是一個對應至單一音訊通道的1個位元組。 範例1後面接著範例2、3、4等等。                                                                                                                                                                                                                           |
 | 8位身歷聲              | 每個範例都是2個位元組。 範例1後面接著範例2、3、4等等。 針對每個範例，第一個位元組是通道 0 (左聲道) ，而第二個位元組是通道1， (右通道) 。                                                                                                                                               |
@@ -172,12 +170,12 @@ Windows 提供下列功能來判斷系統中有多少裝置具有特定類型。
 
 
 
- 
+ 
 
 ## <a name="closing-waveform-audio-output-devices"></a>關閉 Waveform-Audio 輸出裝置
 
 波形-音訊播放完成之後，請呼叫 [**waveOutClose**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutclose) 來關閉輸出裝置。 如果在播放波形音訊檔案時呼叫 **waveOutClose** ，關閉作業就會失敗，且函式會傳回錯誤碼，指出裝置未關閉。 如果您不想要在關閉裝置之前等候播放結束，請在關閉之前呼叫 [**waveOutReset**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutreset) 函式。 這會結束播放，並允許關閉裝置。 在關閉裝置之前，請務必使用 [**waveOutUnprepareHeader**](/windows/win32/api/mmeapi/nf-mmeapi-waveoutunprepareheader) 函式來清除所有資料區塊的準備工作。
 
- 
+ 
 
- 
+ 

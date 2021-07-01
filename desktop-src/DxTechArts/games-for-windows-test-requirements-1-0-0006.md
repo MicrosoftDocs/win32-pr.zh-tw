@@ -4,12 +4,12 @@ description: 本文提供適用于 Windows 遊戲的測試案例。
 ms.assetid: bbe84d3f-e7ff-f14f-ec25-ae1c980749fe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae26274f199f070ce605227fa19796716df9fbaf
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0b13a4934c539579e49c9b00c60f3603bd64c711
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023800"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120273"
 ---
 # <a name="games-for-windows-test-cases-best-practices-for-games-on-windows-xp-windows-vista-windows-7-and-windows-8"></a>Windows 測試案例的遊戲： Windows XP、Windows Vista、Windows 7 和 Windows 8 遊戲的最佳作法
 
@@ -272,10 +272,10 @@ ms.locfileid: "104023800"
 
 
 
-|                                                                     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| OS                                                                    | 需求                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> Windows XP<br/> | 如果遊戲使用 Direct3D，支援的最低版本必須是 Direct3D 9，而且 Direct3D 必須是任何顯示設定選項的預設值。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-|                                                                     | <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>手動</dt> <dd> 啟動遊戲。 在影片選項中，檢查是否有呈現選項、D3D 和/或 OpenGL。 如果有的話，請確認遊戲轉譯選項預設為 Direct3D。 如果您無法確認 D3D9 是所使用的 DirectX 版本，請繼續進行自動化測試。 <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 使用工具： Depends.exe <br/> </dd> </dl> |
+|     <dl> <dt><span id="Manual"></span><span id="manual"></span><span id="MANUAL"></span>手動</dt> <dd> 啟動遊戲。 在影片選項中，檢查是否有呈現選項、D3D 和/或 OpenGL。 如果有的話，請確認遊戲轉譯選項預設為 Direct3D。 如果您無法確認 D3D9 是所使用的 DirectX 版本，請繼續進行自動化測試。 <br/> </dd> <dt><span id="Automated_Test"></span><span id="automated_test"></span><span id="AUTOMATED_TEST"></span>自動化測試</dt> <dd> 使用工具： Depends.exe <br/> </dd> </dl> |
 
 
 
@@ -325,7 +325,7 @@ ms.locfileid: "104023800"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/></td>
-<td>每個可執行檔 (。應用程式隨附的 EXE 延伸) 必須具有可定義其執行層級的內嵌資訊清單：
+<td>應用程式所包含的每個可執行檔 (.EXE 擴充) 都必須有定義其執行層級的內嵌資訊清單：
 <pre class="syntax" data-space="preserve"><code><requestedExecutionLevel level=&quot;asInvoker|highestAvailable|requireAdministrator&quot; 
               uiAccess=&quot;true|false&quot;/></code></pre>
 <br/>
@@ -401,7 +401,7 @@ ms.locfileid: "104023800"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>所有可執行程式碼檔案 (例如，.exe 和 .dll 副檔名) 都必須使用 Authenticode 憑證進行簽署。 <br/> 如果您使用 Windows Installer，則必須簽署安裝程式的套件檔案 ( .msi 檔案) 。 <br/></td>
+<td>所有可執行程式碼檔案 (例如，.exe 和 .dll 延伸模組) 必須使用 Authenticode 憑證進行簽署。 <br/> 如果您使用 Windows Installer，則必須簽署安裝程式 (.msi 檔案) 的封裝檔案。 <br/></td>
 </tr>
 <tr class="even">
 
@@ -799,7 +799,7 @@ ms.locfileid: "104023800"
 
 
 
-|                                               |                                                                                                                                                                    |
+| OS                                              | 需求                                                                                                                                                                   |
 |-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Windows 7<br/> Windows Vista<br/> | 所有應用程式安裝程式都必須利用重新開機管理員 Api 來避免系統重新開機 (請參閱 [需求 3.5](#35-avoid-reboots-during-installation)) 。 |
 
@@ -888,7 +888,7 @@ ms.locfileid: "104023800"
 <tbody>
 <tr class="odd">
 <td>Windows 7<br/> Windows Vista<br/> Windows XP<br/></td>
-<td>所有可執行檔 (例如，.exe 或 .dll 檔) 都必須包含正確的產品名稱、公司名稱和檔案版本。</td>
+<td>所有可執行檔 (例如，.exe 或 .dll 檔案) 必須包含正確的產品名稱、公司名稱和檔案版本。</td>
 </tr>
 <tr class="even">
 
@@ -1119,7 +1119,7 @@ ms.locfileid: "104023800"
 
     1.  按一下 [開始-> 電腦]
     2.  流覽至遊戲目錄
-    3.  在 [搜尋] 視窗中，輸入 \* .dll
+    3.  在 [搜尋] 視窗中，輸入 \*.dll
     4.  針對每個檔案：以滑鼠右鍵按一下檔案，然後按一下 [屬性]
 
         -   在 Windows XP 中：按一下 [版本] 索引標籤。確認已正確填入 [產品名稱]、[公司名稱] 和 [檔案版本] 欄位。 \[4.3\]
@@ -1177,7 +1177,7 @@ ms.locfileid: "104023800"
 9.  玩遊戲
 10. 關閉遊戲
 11. 在 AppVerifier 中選取 View-> 記錄
-12. 在 [應用程式] 區段中，選取應用程式 .exe 檔案
+12. 在 [應用程式] 區段中，選取應用程式 .exe 檔
 13. 在 [記錄檔] 區段中，選取記錄檔並觀察錯誤計數。 如果沒有任何錯誤，請結束 AppVerifier 測試。 如果發生錯誤，請按一下 [流覽] 按鈕
 14. 搜尋檔 (CTRL + F) 嚴重性 = "錯誤
 15. 根據失敗的 LayerName = 部分建立 bug
@@ -1195,9 +1195,9 @@ mt.exe -inputresource:"c:\yourdir\YourGame.exe";#1 -out:yourgame.manifest
 ```
 
 1.  按一下 [開始-> 執行-> 輸入 cmd，然後按一下 [確定] 按鈕
-2.  執行 mt.exe 工具，為隨遊戲安裝的每個 .exe 檔案產生資訊清單檔。
+2.  執行 mt.exe 工具，為隨遊戲安裝的每個 .exe 檔案產生資訊清單檔
 3.  開啟產生的資訊清單檔案
-4.  確定每個 .exe 檔案都包含下列 (要求：
+4.  確定每個 .exe 檔案都包含下列所要求的 (：
 
     ``` syntax
     <description>Example Game Name</description>
@@ -1262,7 +1262,7 @@ threadhijacker.exe /process:str
 8.  核取 [**報表**] 和 [ **Bug 編輯**] 索引標籤，以在查看報表 (之後返回 [**專案**] 索引標籤) 。
 9.  按一下 [ **編譯報告**]。
 
-    當報表完成編譯時，就會開啟一個視窗。 您將在這裡找到。ZIP 檔案名 *專案* 名稱 \_report.zip。 此檔案包含在測試階段期間收集的所有記錄和結果。
+    當報表完成編譯時，就會開啟一個視窗。 您會在這裡找到 .ZIP *的檔案名report.zip 的名稱* \_ 。 此檔案包含在測試階段期間收集的所有記錄和結果。
 
 ### <a name="writing-a-bug"></a>撰寫 Bug
 

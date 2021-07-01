@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69fc29f366fa781483edb5fd4653674b387fd156
-ms.sourcegitcommit: 37fb32f6150b6ca1db6c52d68a553ec2c8c0879a
+ms.openlocfilehash: d7a44fe02983038658247fedaec7122f09306548
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "104462757"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119603"
 ---
 # <a name="operators"></a>運算子
 
@@ -22,9 +22,8 @@ ms.locfileid: "104462757"
 
 
 
-|                                                                                 |                                                                    |
+| 操作員名稱                                                                                | 運算子                                                                   |
 |---------------------------------------------------------------------------------|--------------------------------------------------------------------|
-| 運算子名稱                                                                   | 運算子                                                          |
 | [加法和乘法運算子](#additive-and-multiplicative-operators) | +, -, \*, /, %                                                     |
 | [陣列運算子](#array-operator)                                               | \[i\]                                                              |
 | [指派運算子](#assignment-operators)                                   | =, +=, -=, \*=, /=, %=                                             |
@@ -40,7 +39,7 @@ ms.locfileid: "104462757"
 
 
 
- 
+ 
 
 許多運算子都是每個元件，這表示會針對每個變數的每個元件獨立執行作業。 例如，單一元件變數已執行一項作業。 另一方面，四個元件的變數有四個執行的作業，每個元件各一個。
 
@@ -259,13 +258,12 @@ HLSL 支援下列位運算子，其遵循與 C 相關的優先順序，與其他
 > [!Note]  
 > 位運算子需要具有 Direct3D 10 和更高硬體的 [著色器模型 4 \_ 0](dx-graphics-hlsl-sm4.md) 。
 
- 
+ 
 
 
 
-|           |                   |
+| 運算子          |  函式                 |
 |-----------|-------------------|
-| 運算子  | 函式          |
 | ~         | 邏輯 Not       |
 | <<  | 左移        |
 | >>  | 右移       |
@@ -280,7 +278,7 @@ HLSL 支援下列位運算子，其遵循與 C 相關的優先順序，與其他
 
 
 
- 
+ 
 
 位運算子定義為只在 int 和 uint 資料類型上運作。 嘗試在 float 或 struct 資料類型上使用位運算子將會產生錯誤。
 
@@ -541,9 +539,9 @@ int j = +i2;       // j = +2
 [ (DirectX HLSL) 的語句 ](dx-graphics-hlsl-statements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

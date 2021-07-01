@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 062bf08064faf112fdc1efe5b371fcad72efeeea
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9a1e5f4dc71d5af2e7973ef180c919a49e65ef81
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373711"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118583"
 ---
 # <a name="getsampleposition-directx-hlsl-texture-object"></a>GetSamplePosition (DirectX HLSL 材質物件) 
 
 取得指定之範例的位置。
 
-
-
-|                                        |
-|----------------------------------------|
-| ret 物件. GetSamplePosition ( int s ) ; |
+ret 物件. GetSamplePosition ( int s ) ;
 
 
 

@@ -4,12 +4,12 @@ description: IAgentBalloon SetFontCharSet
 ms.assetid: ce1b152d-c8af-47ec-9e6b-5768dbcf3566
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6202aa144d13c3c7435be03721a3f8fd4878b93
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 18cc462895ff9f19f7e722660608a268af13446f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106978568"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120203"
 ---
 # <a name="iagentballoonsetfontcharset"></a>IAgentBalloon::SetFontCharSet
 
@@ -34,7 +34,7 @@ HRESULT SetFontCharSet(
 
 
 
-|     |                                                                                        |
+| 值    | 字元集                                                                                       |
 |-----|----------------------------------------------------------------------------------------|
 | 0   | 標準 Windows 字元 (ANSI) 。                                                    |
 | 1   | 預設字元集。                                                                 |
@@ -47,7 +47,7 @@ HRESULT SetFontCharSet(
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -60,9 +60,9 @@ HRESULT SetFontCharSet(
 [**IAgentBalloon::GetFontCharSet**](iagentballoon--getfontcharset.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

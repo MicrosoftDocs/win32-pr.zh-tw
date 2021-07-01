@@ -4,12 +4,12 @@ ms.assetid: cfba12eb-4123-4b57-8311-d4fc8f9f514e
 title: Windows Search 中的編制索引進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87867d5925cd53b237092435bbc9d16428418b4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b819a056b9a3dd44ea799ee56ae6b2e87606f552
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689879"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119533"
 ---
 # <a name="indexing-process-in-windows-search"></a>Windows Search 中的編制索引進程
 
@@ -27,7 +27,7 @@ ms.locfileid: "103689879"
 
 ## <a name="overview"></a>概觀
 
-Windows Search 支援從不同檔案格式的檔案（例如 .doc 或 jpeg 格式）以及資料存放區（例如檔案系統或 Windows Outlook 信箱）來編制屬性和內容的索引。 有兩種類型的索引：值索引，允許依屬性的整個值進行篩選和排序，以及將文字屬性或內容中的單字編制為索引的反向索引。 如果您有自訂的檔案格式或資料存放區，您必須瞭解 Windows Search 索引，才能讓您的專案正確編制索引。
+Windows Search 支援從不同檔案格式的檔案編制屬性和內容的索引，例如 .doc 或 jpeg 格式，以及資料存放區，例如檔案系統或 Windows Outlook 信箱。 有兩種類型的索引：值索引，允許依屬性的整個值進行篩選和排序，以及將文字屬性或內容中的單字編制為索引的反向索引。 如果您有自訂的檔案格式或資料存放區，您必須瞭解 Windows Search 索引，才能讓您的專案正確編制索引。
 
 索引程式是由稱為「收集器」 Windows Search 元件所控制的三個階段進行。 在第一個階段中，收集會將 Url 新增至佇列。 這些 Url 會識別要編制索引的專案，而佇列只是 Url 的優先順序清單。 在第二個階段中，收集程式會協調其他 Windows Search 和協力廠商元件，以存取專案並收集這些專案的相關資料。 最後，在第三個階段中，收集的資料會新增至索引。
 
@@ -101,14 +101,14 @@ Windows Search 也會使用主機進程，將通訊協定處理常式的實例�
 
 |                            | [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) | [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) |
 |----------------------------|------------------------------------|-------------------------------------------------|
-| 允許寫入                | 否                                 | 是                                             |
-| 混合內容和屬性 | 是                                | 否                                              |
-| 多 語種               | 是                                | 否                                              |
-| 發出連結                 | 是                                | 否                                              |
-| MIME                       | 是                                | 否                                              |
-| 文字界限            | 句子、段落、章節       | 無                                            |
-| 用戶端/伺服器            | 兩者                               | 用戶端                                          |
-| 實作             | Complex                            | 簡單                                          |
+| **允許寫入**                | 否                                 | 是                                             |
+| **混合內容和屬性** | 是                                | 否                                              |
+| **多 語種**               | 是                                | 否                                              |
+| **發出連結**                 | 是                                | 否                                              |
+| **MIME**                       | 是                                | 否                                              |
+| **文字界限**            | 句子、段落、章節       | 無                                            |
+| **用戶端/伺服器**            | 兩者                               | 用戶端                                          |
+| **實作**             | Complex                            | 簡單                                          |
 
 **屬性處理常式**  屬性處理常式是針對特定檔案格式讀取和寫入屬性的元件。 他們會以篩選器為內容進行的相同方式，存取專案併發出收集程式的屬性。 屬性處理常式比篩選器更容易執行。 如果以文字為基礎的檔案格式很簡單，或是檔案預期會很小，則屬性處理常式可以同時發出屬性和內容。
 

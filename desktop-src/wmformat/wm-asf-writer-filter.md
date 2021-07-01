@@ -1,6 +1,6 @@
 ---
 title: 'WM ASF 寫入器篩選器 (Windows Media Format 11 SDK) '
-description: 深入瞭解 WM ASF 寫入器篩選器。
+description: 瞭解適用于 Windows Media Format 11 SDK 的 WM ASF 寫入器篩選器。 查看篩選資訊並查看相關主題。
 ms.assetid: a902c92e-836d-492c-b2d2-89c216125774
 keywords:
 - Windows Media Format SDK，WM ASF 寫入器
@@ -11,12 +11,12 @@ keywords:
 - ASF (Advanced Systems Format) ，WM ASF 寫入器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0fbd6e36a8178f6ebd1943cdaac214597e0ba4e
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 24ee013b55455c3100ee23e076b767d70fb3ffda
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444699"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119663"
 ---
 # <a name="wm-asf-writer-filter-windows-media-format-11-sdk"></a>WM ASF 寫入器篩選器 (Windows Media Format 11 SDK) 
 

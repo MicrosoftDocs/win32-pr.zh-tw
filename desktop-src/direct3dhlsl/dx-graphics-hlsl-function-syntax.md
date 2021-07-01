@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2781d173eb4a1c18a661495d9fb55a0cced81921
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 847194c08b865542cff1deb20c8518a7e4b62ab9
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998325"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119043"
 ---
 # <a name="function-declaration-syntax"></a>函式宣告語法
 
 HLSL 函式會使用下列語法來宣告。
 
-
-
-|                                                                                                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*StorageClass* \]\[clipplanes () \] \[精確的傳回 \] \_ 值 *名稱* ( \[ *ArgumentList* \] ) \[ ：*語義* \] { \[ *StatementBlock* \] }; |
+\[*StorageClass* \]\[clipplanes () \] \[精確的傳回 \] \_ 值 *名稱* ( \[ *ArgumentList* \] ) \[ ：*語義* \] { \[ *StatementBlock* \] };
 
 
 

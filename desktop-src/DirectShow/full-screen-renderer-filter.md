@@ -4,12 +4,12 @@ ms.assetid: 59332096-bdfe-4208-b99a-1f434652f287
 title: 全螢幕轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c175907ef0f60c3b1fe183eb0941b5118d24c9f2
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 3d331ff6f31d1c985c7e255b23381a289931da60
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908606"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120473"
 ---
 # <a name="full-screen-renderer-filter"></a>全螢幕轉譯器篩選
 
@@ -42,9 +42,8 @@ ms.locfileid: "107908606"
 
 
 
-| 標籤 | 值 |
+| 模式 | 寬度 | 高度 | 位元深度 |
 |------|-------|--------|-----------|
-| 模式 | 寬度 | 高度 | 位深度 |
 | 0    | 320   | 200    | 16        |
 | 1    | 320   | 200    | 8         |
 | 2    | 320   | 240    | 16        |

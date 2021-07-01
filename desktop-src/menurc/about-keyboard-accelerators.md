@@ -14,12 +14,12 @@ keywords:
 - 快速鍵對應表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be9c89301f58d7d76b5d9b28dd6835850c0674db
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 88e97f0b4997d15d55601e571270276e7d7a3bd4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933121"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120373"
 ---
 # <a name="about-keyboard-accelerators"></a>關於鍵盤加速器
 
@@ -73,7 +73,7 @@ ms.locfileid: "103933121"
 
 
 
-|                  |                                                                                                       |
+| 加速器                 | 描述                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------|
 | ALT+ESC          | 切換至下一個應用程式。                                                                     |
 | ALT+F4           | 關閉應用程式或視窗。                                                                    |
@@ -89,7 +89,7 @@ ms.locfileid: "103933121"
 
 
 
- 
+ 
 
 ## <a name="accelerators-and-menus"></a>加速器和功能表
 
@@ -124,7 +124,7 @@ Windows 可讓應用程式隱藏或顯示其 UI 中的各種功能。 這些設�
 
 
 
- 
+ 
 
 依預設，最上層視窗的所有子視窗都會以與其父系相同的 UI 狀態來建立。
 
@@ -132,6 +132,6 @@ Windows 可讓應用程式隱藏或顯示其 UI 中的各種功能。 這些設�
 
 如果控制項支援在其所包含的 UI 元素之間進行導覽，則可以更新它自己的 UI 狀態。 控制項可以呼叫 [**WM \_ QUERYUISTATE**](wm-queryuistate.md) 來取出和快取初始的 UI 狀態。 每當控制項收到 [**wm \_ UPDATEUISTATE**](wm-updateuistate.md) 訊息時，它就可以更新其 UI 狀態，並將 [**WM \_ CHANGEUISTATE**](wm-changeuistate.md) 訊息傳送到其父系。 每個視窗會繼續將訊息傳送到其父系，直到到達最上層視窗為止。 最上層視窗會將 **WM \_ UPDATEUISTATE** 訊息傳送至視窗樹狀結構中的視窗。 如果視窗未通過 **WM \_ CHANGEUISTATE** 訊息，它就不會到達最上層視窗，也不會更新 UI 狀態。
 
- 
+ 
 
- 
+ 

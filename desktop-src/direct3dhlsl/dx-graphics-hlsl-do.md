@@ -14,22 +14,18 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46c0ced3c9747f0bfbdf01847b21350a45b68aa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: a1f019af77ef0021ad0574bf703ff2a2a52ac0f6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196247"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118783"
 ---
 # <a name="do-statement"></a>do 語句
 
 持續執行一連串的語句，直到條件運算式失敗為止。
 
-
-
-|                                                                     |
-|---------------------------------------------------------------------|
-| \[*屬性* \] (*條件* 式 ) 時，請進行 {*語句區塊*;} |
+\[*屬性* \] (*條件* 式 ) 時，請進行 {*語句區塊*;}
 
 
 

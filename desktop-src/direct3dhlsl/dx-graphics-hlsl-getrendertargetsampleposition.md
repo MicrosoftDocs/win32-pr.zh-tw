@@ -13,22 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3b0cd944b175522ab7d722ae791f3548c6633b71
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: c31bc829f8990517ddbea8be7c25eead413ab666
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678051"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120573"
 ---
 # <a name="getrendertargetsampleposition"></a>GetRenderTargetSamplePosition
 
 取得給定範例索引的取樣位置 (x，y) 。
 
-
-
-|                                                                                  |
-|----------------------------------------------------------------------------------|
-| float<2> GetRenderTargetSamplePosition ( in int<1> Index<br/>); |
+float<2> GetRenderTargetSamplePosition ( in int<1> Index<br/>);
 
 
 
@@ -63,9 +59,9 @@ ms.locfileid: "103678051"
 | 著色器模型                                                        | 支援 |
 |---------------------------------------------------------------------|-----------|
 | [著色器模型 4](dx-graphics-hlsl-sm4.md) 和更高的著色器模型 | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 否        |
 
 
 

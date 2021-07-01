@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 808365fbcba4a1180c1838b94a6c098aa4c6f9ac
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 308034fe607283ef9f1213cca1cabb4a7229765e
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999055"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118893"
 ---
 # <a name="sv_tessfactor"></a>SV \_ TessFactor
 
@@ -28,9 +28,8 @@ ms.locfileid: "107999055"
 
 
 
-|            |                |
+|  類型          |  輸入拓撲              |
 |------------|----------------|
-| 類型       | 輸入拓撲 |
 | float \[ 4\] | 四個修補程式     |
 | float \[ 3\] | 三個修補程式      |
 | float \[ 2\] | 等值 線        |

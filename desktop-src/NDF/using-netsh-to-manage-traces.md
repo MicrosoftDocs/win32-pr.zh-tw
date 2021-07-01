@@ -4,12 +4,12 @@ description: 在 Windows 7 中，您可以從命令提示字元使用 netsh.exe 
 ms.assetid: f0f0fc7b-7cfa-43c7-89a3-3b80050875f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1978345da984ac90699b5355b36af18b9b285d5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0c1cf869f60b69e227e78e19e8e05d3765ddb67d
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372259"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119023"
 ---
 # <a name="using-netsh-to-manage-traces"></a>使用 Netsh 來管理追蹤
 
@@ -37,9 +37,9 @@ ms.locfileid: "104372259"
 
 追蹤事件會收集在 ETL 檔案中，您可以使用網路監視器之類的工具來查看這些事件。 ETL 檔案預設會命名為 nettrace，或者，您可以在啟動追蹤時包含 **tracefile = filename** ，以指定不同的名稱。
 
-.Cab 檔案包含有關系統上的軟體和硬體的豐富資訊，例如介面卡資訊、組建、作業系統和無線設定。 預設會將 .cab 檔案命名為 nettrace.cab，除非指定了其他名稱，如上所示。
+.cab 檔案包含有關系統上的軟體和硬體的豐富資訊，例如介面卡資訊、組建、作業系統和無線設定。 除非如上所述指定了其他名稱，否則 .cab 檔案預設會命名為 nettrace.cab。
 
-這個 .cab 檔將包含兩個檔案，這些檔案一律會有相同的名稱。 .Etl 是 nettrace 中所含相同資訊的另一份複本。 report.html 檔案包含追蹤事件和所收集其他資訊的其他資訊。 若要接收最多可用的詳細資料，請在啟動追蹤時，包含命令 **report = yes** 。
+此 .cab 檔案將包含兩個檔案，這些檔案一律會有相同的名稱。 .Etl 是 nettrace 中所含相同資訊的另一份複本。 report.html 檔案包含追蹤事件和所收集其他資訊的其他資訊。 若要接收最多可用的詳細資料，請在啟動追蹤時，包含命令 **report = yes** 。
 
 ## <a name="using-filters-to-reduce-the-amount-of-data-in-the-etl-trace-file"></a>使用篩選器減少 ETL 追蹤檔中的資料量
 
@@ -55,9 +55,8 @@ ms.locfileid: "104372259"
 
 
 
-|       |               |                                                                            |
+| 層級      | 設定              | 描述                                                                           |
 |-------|---------------|----------------------------------------------------------------------------|
-| 層級 | 設定       | 描述                                                                |
 | 1     | 重大      | 只會顯示重大事件。                                        |
 | 2     | Errors        | 將會顯示重大事件和錯誤。                                  |
 | 3     | 警告      | 將會顯示重大事件、錯誤和警告。                       |
@@ -66,7 +65,7 @@ ms.locfileid: "104372259"
 
 
 
- 
+ 
 
 關鍵字 **ReceivePath** 和 Ui **： SentPath** 會篩選事件，只顯示在接收或傳送路徑上追蹤的事件。 輸入 **netsh trace show provider** ，後面接著提供者名稱，即可找到特定提供者的關鍵字完整清單。 例如，輸入 **netsh trace show Provider microsoft-windows-tcpip** 將會顯示有關 MICROSOFT windows tcpip 提供者的資訊，包括關鍵字清單。
 
@@ -74,9 +73,9 @@ Netsh 也支援封包篩選功能 (類似于網路監視器) 當封包捕捉開�
 
 如需有關如何使用封包篩選的詳細資訊，您可以輸入 **netsh trace Show capturefilterHelp**。
 
- 
+ 
 
- 
+ 
 
 
 

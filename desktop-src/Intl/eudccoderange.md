@@ -4,12 +4,12 @@ ms.assetid: 11a167a0-f2a3-4b8b-a38c-70cf14c895be
 title: EUDCCodeRange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e68c71751ca5d13cd04c95ff66c84067fd1d46d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8619bce02f4ca66fa9b4ce6d25aff0c5a3e66f96
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975454"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120673"
 ---
 # <a name="eudccoderange"></a>EUDCCodeRange
 
@@ -25,7 +25,7 @@ EUDCCodeRange 字碼頁 = FromTo \[ 、FromTo\]
 
 
 
-|          |                                                                                                                                                                                                          |
+| 值         | 描述                                                                                                                                                                                                         |
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CodePage | 其中一個字串 "932" (日文) 、"936" (簡體中文) 、"949" (韓文) 、"950" (繁體中文) 或 "Unicode" (Unicode) 。 不支援其他值。                                     |
 | FromTo   | 由一組4位數的十六進位值所組成的字串值，以連字號 ( ) 。 最多可以指定四個 FromTo 值，但每個值都必須以逗號分隔， (，) 。 |

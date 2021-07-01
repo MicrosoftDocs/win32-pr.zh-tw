@@ -13,26 +13,22 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 525abf6d815d2073ee39a6bc6a5a81120cf652ee
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 876c69f3ecfcf1ee1c8391ccc503b2316056b37a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104971469"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119583"
 ---
 # <a name="return-statement"></a>return 陳述式
 
 Return 語句表示函式的結尾。
 
-
-
-|                   |
-|-------------------|
-| 傳回 \[ 值 \] ; |
+傳回 \[ 值 \] ;
 
 
 
- 
+ 
 
 最簡單的 return 語句會從函式將控制權傳回給呼叫的程式。它不會傳回任何值。
 
@@ -116,9 +112,9 @@ VS_OUTPUT VertexShader_Tutorial_1(float4 inPos : POSITION )
 [ (DirectX HLSL) 的函式 ](dx-graphics-hlsl-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

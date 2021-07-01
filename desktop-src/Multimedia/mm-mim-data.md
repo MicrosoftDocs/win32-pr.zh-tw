@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aa8c015ba5e08302f7567fe8f474bedca74d3064
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2a79a5a4ab6b0422705fe737ba3da4a6fd4f923
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024701"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119693"
 ---
 # <a name="mm_mim_data-message"></a>MM \_ MIM \_ 資料訊息
 
@@ -52,7 +52,7 @@ lParam = (LPARAM) (DWORD) lMidiMessage
 
 
 
-| 需求 | 值 |
+| 需求 | 值 | 描述 |
 |-----------|-----------------|-----------------------------------------------------|
 | 高單字 | 高序位位元組 | 未使用。                                           |
 |           | 低序位位元組  | 視需要) ，包含第二個位元組的 MIDI 資料 (。  |

@@ -14,22 +14,19 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c65049acce4265dd2abdf849119aad5902db9e6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 4af131ca3a126cd6f1fd54160418bfbe70cc9cce
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696559"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119083"
 ---
 # <a name="switch-statement"></a>switch 陳述式
 
 將控制權傳輸至切換主體內的不同語句區塊（視選取器的值而定）。
 
 
-
-|                                                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| \[*屬性* \]切換 (*選取器*) {case 0： { *StatementBlock*;}  折  案例1： { *StatementBlock*;}  折  案例 n： { *StatementBlock*;}  折  預設值： { *StatementBlock*;}  折 |
+\[*屬性* \]切換 (*選取器*) {case 0： { *StatementBlock*;}  折  案例1： { *StatementBlock*;}  折  案例 n： { *StatementBlock*;}  折  預設值： { *StatementBlock*;}  折
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 5162800c-9c55-40de-be66-a98765324f76
 title: 'MEEnablerCompleted 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a74f7379ccc2983abd2327e1250bcf1ca14e688
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f05459a648f6b357fd483baa9fc56809540e64a1
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114629"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119443"
 ---
 # <a name="meenablercompleted-event"></a>MEEnablerCompleted 事件
 
@@ -24,7 +24,7 @@ ms.locfileid: "104114629"
 
 
 
-| VARTYPE              | Description                           |
+| VARTYPE              | 描述                           |
 |----------------------|---------------------------------------|
 | VT \_ 空白<br/> | 沒有事件資料。<br/> <br/> |
 
@@ -36,7 +36,7 @@ ms.locfileid: "104114629"
 
 
 
-|                                      |                                                                                                                                                                                 |
+| 值                                     | 描述                                                                                                                                                                                |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **S \_ 確定**                            | 作業成功。                                                                                                                                                        |
 | **NS \_ E \_ DRM \_ 授權 \_ NOTACQUIRED** | 未取得 DRM 授權。 如果先前的嘗試使用 [**AutomaticEnable**](/windows/desktop/api/mfidl/nf-mfidl-imfcontentenabler-automaticenable)，應用程式應該嘗試非無訊息的取得。 |

@@ -4,12 +4,12 @@ ms.assetid: d5419c40-43e9-49ff-a378-9aeb0757e400
 title: ParameterInit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e211fcad2c53824c7786850a7fc78c6825c219a7
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0e0e0cadbf26d6ff516ab0ace90165e11420a9b7
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407261"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118973"
 ---
 # <a name="parameterinit"></a>ParameterInit
 
@@ -43,7 +43,7 @@ ms.locfileid: "112407261"
 
 
 
-| 類別                   |                                                                                                   |
+| 類別                   | 名稱或限制                                                                                                  |
 |----------------------------|---------------------------------------------------------------------------------------------------|
 | 父元素<br/> | PrintTicket (PrintTicket 根) <br/>                                                         |
 | 子元素<br/>  | 值 (一) <br/>                                                                            |

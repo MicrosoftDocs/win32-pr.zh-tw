@@ -4,12 +4,12 @@ ms.assetid: a85fe46c-ce5f-4978-aa37-a3666560426b
 title: 對等
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a62469eee79fbc501da911a60d8e21e3c6e94452
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ed371f203d34166f1d84462a363326adc32100ae
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108094556"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118603"
 ---
 # <a name="peer-to-peer"></a>對等
 
@@ -57,7 +57,7 @@ Windows Vista、Windows XP Service Pack 2 (SP2) 和更新版本，以及適用�
 
 您可以在下列位置找到有關點對點技術的進一步資訊：
 
-|                                                                                                           |                                                                                                                |
+| 主題                                                                                                          | 描述                                                                                                               |
 |-----------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [Windows 對等網路資源](https://www.microsoft.com/p2p)                       | 存取已發佈的白皮書、範例和簡報，詳述對等網路技術。<br/> |
 | [Microsoft 對等網路的 Blog](/archive/blogs/p2p/)                          | 閱讀來自 Microsoft 對等網路團隊的最新 blog 專案。<br/>                                 |

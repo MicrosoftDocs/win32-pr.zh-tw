@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 查看 PrintTicket 驗證檢查清單。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 4698f151-2237-4d16-b32f-4d15024cd063
 title: PrintTicket 驗證檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 160a0e9f3eb71b1e9a3b670456e04e2efa3c8b15
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6154b7cabb5825a0f0edcc8f90b8294557001f1a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106975610"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120143"
 ---
 # <a name="printticket-validation-checklist"></a>PrintTicket 驗證檢查清單
 

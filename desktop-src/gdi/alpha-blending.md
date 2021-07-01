@@ -4,12 +4,12 @@ ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
 title: " (Windows GDI) 的 Alpha 混合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f68cb34d189fb80d23cbb5eeec9d9006aa93a1eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 4add2aca8ac4e2d7e1b24988eb5d40f80bac259c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972785"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120283"
 ---
 # <a name="alpha-blending-windows-gdi"></a> (Windows GDI) 的 Alpha 混合
 
@@ -33,16 +33,35 @@ typedef struct {
 
 這會在記憶體中表示，如下表所示。
 
+:::row:::
+    :::column:::
+        31:24
+    :::column-end:::
+    :::column:::
+        23:16
+    :::column-end:::
+    :::column:::
+        15:08
+    :::column-end:::
+    :::column:::
+        07:00
+    :::column-end:::
+:::row-end:::
 
-
-|       |       |       |       |
-|-------|-------|-------|-------|
-| 31:24 | 23:16 | 15:08 | 07:00 |
-| Alpha | 紅色   | 綠色 | 藍色  |
-
-
-
- 
+:::row:::
+    :::column:::
+        Alpha
+    :::column-end:::
+    :::column:::
+        紅色
+    :::column-end:::
+    :::column:::
+        綠色
+    :::column-end:::
+    :::column:::
+        藍色
+    :::column-end:::
+:::row-end:::
 
 點陣圖也可能會以套用至整個點陣圖的透明因數來顯示。 您可以藉由在 [**BLENDFUNCTION**](/windows/desktop/api/Wingdi/ns-wingdi-blendfunction)結構中設定 **SourceConstantAlpha** ，來顯示任何點陣圖格式和全域常數 Alpha 值。 全域常數 Alpha 值具有256的透明度層級，從 0 (整個點陣圖完全透明) 至 255 (整個點陣圖完全不透明) 。 全域常數 Alpha 值會與每圖元的 Alpha 值結合。
 

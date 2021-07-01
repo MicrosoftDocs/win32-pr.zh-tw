@@ -1,6 +1,6 @@
 ---
 title: 'WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) '
-description: 瞭解 WM ASF 讀取器篩選器。
+description: 瞭解適用于 Windows Media Format 11 SDK 的 WM ASF 讀取器篩選器。 查看篩選資訊並查看相關主題。
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
 - Windows Media Format SDK，WM ASF 讀取器
@@ -11,12 +11,12 @@ keywords:
 - ASF (Advanced Systems Format) 、WM ASF 讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 421ab634a0d68837b22961b37005c5670d73e5fa
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444279"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119643"
 ---
 # <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) 
 

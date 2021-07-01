@@ -4,12 +4,12 @@ ms.assetid: 49c91c8c-6889-48c6-8fa5-84929c03d951
 title: '未壓縮的 RGB 影片子類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 894034c01b42f58cbc6a1e5a5c7fe6d77f50befd
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1f149786c32c0734492179e2d3e75e5a7d7df969
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909526"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119243"
 ---
 # <a name="uncompressed-rgb-video-subtypes"></a>未壓縮的 RGB 影片子類型
 
@@ -65,12 +65,12 @@ ms.locfileid: "107909526"
 
     
 
--   針對 RGB 24，每個圖元都是 [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple)。 每個色彩都是一個位元組，其值介於0到255（含）之間。 記憶體配置為： 
+-   針對 RGB 24，每個圖元都是 [**RGBTRIPLE**](/windows/win32/api/wingdi/ns-wingdi-rgbtriple)。 每個色彩都是一個位元組，其值介於0到255（含）之間。 記憶體配置為：
 
-| 標籤 | 值 |
+    |       | Layout     | Layout      | Layout     |
     |-------|------|-------|-----|
-    | Byte  | 0    | 1     | 2   |
-    | 值 | 藍色 | 綠色 | 紅色 |
+    | **位元組**  | 0    | 1     | 2   |
+    | **值** | 藍色 | 綠色 | 紅色 |
 
     
 
@@ -78,23 +78,23 @@ ms.locfileid: "107909526"
 
 -   針對 RGB 32，每個圖元都是 **RGBQUAD**。 每個色彩都是一個位元組，其值介於0到255（含）之間。 記憶體配置為： 
 
-| 標籤 | 值 |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|------|-------|-----|---------------------|
-    | Byte  | 0    | 1     | 2   | 3                   |
-    | 值 | 藍色 | 綠色 | 紅色 | Alpha 或不在意 |
+    | **位元組**  | 0    | 1     | 2   | 3                   |
+    | **值** | 藍色 | 綠色 | 紅色 | Alpha 或不在意 |
 
     
 
      
 
-    If the subtype is MEDIASUBTYPE\_ARGB32, byte 3 contains a value for the alpha channel. If the subtype is MEDIASUBTYPE\_RGB32, byte 3 should be ignored.
+    如果子類型為 MEDIASUBTYPE \_ ARGB32，則 byte 3 會包含 Alpha 色板的值。 如果子類型為 MEDIASUBTYPE \_ RGB32，則應忽略 byte 3。
 
 -   A2R10G10B10 會使用下列配置： 
 
-| 標籤 | 值 |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|-------|---------|---------|---------|
-    | bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
-    | 值 | 藍色  | 綠色   | 紅色     | Alpha   |
+    | **位**   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
+    | **值** | 藍色  | 綠色   | 紅色     | Alpha   |
 
     
 
@@ -102,10 +102,10 @@ ms.locfileid: "107909526"
 
 -   A2B10G10R10 會使用下列配置： 
 
-| 標籤 | 值 |
+    |       | Layout     | Layout      | Layout     | Layout |
     |-------|-------|---------|---------|---------|
-    | bit   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
-    | 值 | 紅色   | 綠色   | 藍色    | Alpha   |
+    | **位**   | 0 - 9 | 10 - 19 | 20 - 29 | 30 - 31 |
+    | **值** | 紅色   | 綠色   | 藍色    | Alpha   |
 
     
 

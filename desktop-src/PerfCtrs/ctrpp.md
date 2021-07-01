@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: dce12de641dda7b07871a4447190772533598748
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eacfbb83abd56becc579c6b9bbaedacda96f94b4
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104321719"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119103"
 ---
 # <a name="ctrpp"></a>CTRPP
 
@@ -29,7 +29,7 @@ ctrpp -o codeFile -rc rcFile [-legacy] [-MemoryRoutines] [-NotificationCallback]
 
 ## <a name="arguments"></a>引數
 
-|選項              |Description
+|選項              |描述
 |--------------------|-----------
 |*inputFile*         |**必要：** 指定 `.man` 定義您的計數器 (XML 資訊清單) 檔案的名稱。
 |**-o** *codeFile*   |**必要：** 指定 `.h` 要由 CTRPP 產生的程式碼檔案名。 這個檔案將包含 C/c + + 內嵌 helper 函式，可簡化您的提供者的初始化和取消初始化。
@@ -55,7 +55,7 @@ CTRPP 工具會產生 `.rc` 資源檔，其中包含提供者 countersets 取用
 
 字串資源應該依照下列方式處理：
 
-- 開發人員編輯提供者資訊清單 (`.man`) 檔案，將 `applicationIdentity` 提供者的屬性設定為提供者二進位 ( 的名稱。Dll。SYS 或。EXE) ，其中包含提供者的字串資源，且將會安裝為提供者元件的一部分。
+- 開發人員會編輯提供者資訊清單 () 檔案，將 `.man` 提供者的 `applicationIdentity` 屬性設定為提供者二進位檔的名稱 (.DLL、.SYS 或 .EXE，其中將包含提供者的字串資源，且將會安裝為提供者元件的一部分。
 - CTRPP 工具會讀取提供者資訊清單，並產生檔案 `.rc` 。
 - [RC (資源編譯器) ](../menurc/resource-compiler.md)工具會從 CTRPP 產生的檔案編譯資料 `.rc` ，以產生 `.res` 包含二進位資源的檔案。 這可以藉由直接編譯 CTRPP 產生的檔案 `.rc` ，或透過指示詞編譯 `.rc` 包含 CTRPP 產生之檔案的另一個檔案來完成 `.rc` `#include` 。
 - 連結器會將 RC 產生之檔案中的資料內嵌 `.res` 至提供者二進位檔。
@@ -100,7 +100,7 @@ CTRPP 工具會產生 `.h` C/c + + 程式碼檔案。 如果提供者資訊清�
 
 ## <a name="requirements"></a>規格需求
 
-|                         ||
-|-------------------------|----
+| 需求             | 值 |
+|-------------------------|-------|
 | 最低支援的用戶端| \[僅限 Windows Vista 桌面應用程式\]
 | 最低支援的伺服器| 僅限 Windows Server 2008 \[ desktop 應用程式\]

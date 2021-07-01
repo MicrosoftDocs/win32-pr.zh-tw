@@ -4,16 +4,19 @@ ms.assetid: 23693eb7-cc8d-4757-bca7-394114d9a3c9
 title: DirectX 圖形和遊戲
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac372f7480e498fa9da18e6553c3e367fd3f14aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceb7ba5fc771b88feb340e1b12c8e4f6d025e4dd
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512752"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120033"
 ---
 # <a name="directx-graphics-and-gaming"></a>DirectX 圖形和遊戲
 
 此內容著重于在 Win32 應用程式中使用 DirectX。 如需在 UWP 應用程式中使用 DirectX 的詳細資訊，請參閱 [Windows 10 遊戲開發指南 (uwp) ](/windows/uwp/gaming/e2e)。
+
+> [!TIP]
+> 如需有效開發中 DirectX 元件的說明和連結，請參閱 blog post [頁面（Directx 登陸頁面](https://devblogs.microsoft.com/directx/landing-page/)）。
 
 ## <a name="in-this-section"></a>本節內容
 

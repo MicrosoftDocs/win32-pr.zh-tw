@@ -4,12 +4,12 @@ ms.assetid: 24d3e11f-8281-4464-a2d7-f4f2466e9d9e
 title: " (網路監視器) 的程式設計考慮"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 213104060f7dd3c6b6dbe56d22044508e0878c07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2deb53a27d8abda4f45663b65fb922600a5b5386
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692784"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120223"
 ---
 # <a name="programming-considerations-network-monitor"></a> (網路監視器) 的程式設計考慮
 
@@ -17,7 +17,7 @@ ms.locfileid: "103692784"
 
 
 
-|                                                 |                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 提示                                                | 描述                                                                                                                                                                                                                                                                                                                                                                                                          |
 |-------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 自動安裝剖析器                     | 執行 [**ParserAutoInstallInfo**](parserautoinstallinfo.md) 函式以自動安裝您的剖析器，並更新相關聯的 INI 檔案。 如果您手動安裝剖析器，則必須手動更新所有相關聯的 INI 檔案。                                                                                                                                                          |
 | 剖析通訊協定屬性                     | 執行 [**AttachProperties**](attachproperties.md) 函式來剖析通訊協定屬性。 當您附加屬性實例時，請避免使用 [**AttachPropertyInstanceEx**](attachpropertyinstanceex.md) 函式，並將它用於非位元組對齊的資料，或必須解碼的資料。 附加屬性是指將屬性實例對應到捕捉中的特定位置。 |

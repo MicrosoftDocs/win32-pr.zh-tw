@@ -4,12 +4,12 @@ ms.assetid: ee483f0a-5a90-4150-ada4-0b63ae312523
 title: providers 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04e5aaedcd14d840cfdc0d85559f6a7981943593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d38a86bf3ca8ffa1ea9e3da20e0244e7abec8513
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191760"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118483"
 ---
 # <a name="providers-element"></a>providers 元素
 
@@ -53,13 +53,14 @@ ms.locfileid: "104191760"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|              |     |
-|--------------|-----|
-| 可以是空的 | Yes |
-
-
+:::row:::
+    :::column:::
+        可以是空的
+    :::column-end:::
+    :::column span="2":::
+        是
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>另請參閱
 

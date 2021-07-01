@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何在 PrintCapabilities 檔中使用參數。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 4a596604-8a0d-4971-96f3-643727312cfc
 title: 使用參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 950fe8fc7c79ed27c467b59ef67132e816cdcd63
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6417a6d30716cf19d22773c28dbf471e75f967d6
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104195807"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119393"
 ---
 # <a name="using-parameters"></a>使用參數
 

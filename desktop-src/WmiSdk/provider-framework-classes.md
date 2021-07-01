@@ -1,16 +1,16 @@
 ---
-description: 屬於 WMI 提供者架構一部分的 WMI c + + 類別現在會被視為最終狀態。
+description: 瞭解屬於 WMI 提供者架構的 WMI c + + 類別，現在會被視為最終狀態。
 ms.assetid: 062a7724-0589-4e9d-af7a-39fd9c08e40b
 ms.tgt_platform: multiple
 title: 提供者架構類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1562d00e6b3b1563ece933ba7dd9361dd8a5d94f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9bf4ef94b25e51b7f012987552babd30a93e7792
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980309"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120443"
 ---
 # <a name="provider-framework-classes"></a>提供者架構類別
 
@@ -20,7 +20,7 @@ ms.locfileid: "106980309"
 
 
 
-| Framework 類別                                | Description                                                                                                                                                                                                         |
+| Framework 類別                                | 描述                                                                                                                                                                                                         |
 |------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CFrameworkQuery**](/windows/desktop/api/FrQuery/nl-frquery-cframeworkquery)     | 包含查詢處理的方法。                                                                                                                                                                              |
 | [**CInstance**](/windows/desktop/api/Instance/nl-instance-cinstance)                 | 包含用來設定和取出屬性的方法，而且是 [**IWbemClassObject**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemclassobject) 介面的封裝。 實施者應該不需要直接存取 **IWbemClassObject** 方法。 |

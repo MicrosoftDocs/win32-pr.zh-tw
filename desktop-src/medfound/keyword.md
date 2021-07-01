@@ -4,12 +4,12 @@ ms.assetid: 1ce4a5ee-c053-4d31-a984-dc11acebbf2a
 title: 關鍵字元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b11632a257e7d51378ddb816124e51548746a178
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ba871fea760ed3b604048ade2722afc0323e03b
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983855"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119373"
 ---
 # <a name="keyword-element"></a>關鍵字元素
 
@@ -28,7 +28,7 @@ ms.locfileid: "106983855"
 
 | 屬性         | 類型             | 必要       | 描述                                             |
 |-------------------|------------------|----------------|---------------------------------------------------------|
-| **識別碼**<br/> | CDATA<br/> | Yes<br/> | 關鍵字組的名稱或遮罩<br/> <br/> |
+| **識別碼**<br/> | CDATA<br/> | 是<br/> | 關鍵字組的名稱或遮罩<br/> <br/> |
 
 
 
@@ -37,8 +37,6 @@ ms.locfileid: "106983855"
 沒有任何子項目。
 
 ## <a name="parent-elements"></a>父元素
-
-
 
 | 元素                                   |
 |-------------------------------------------|
@@ -55,13 +53,14 @@ ms.locfileid: "106983855"
 
 ## <a name="element-information"></a>項目資訊
 
-
-
-|              |     |
-|--------------|-----|
-| 可以是空的 | Yes |
-
-
+:::row:::
+    :::column:::
+        可以是空的
+    :::column-end:::
+    :::column span="2":::
+        是
+    :::column-end:::
+:::row-end:::
 
 ## <a name="see-also"></a>另請參閱
 

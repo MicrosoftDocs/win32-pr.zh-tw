@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 16b31bbd1e2f72ce6b31a0c079f7ec5739aba87a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: aafd6407d556a6d0b4269c38192107edbc7cb1fa
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104990935"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120193"
 ---
 # <a name="restartstrip-directx-hlsl-stream-output-object"></a>RestartStrip (DirectX HLSL Stream-Output 物件) 
 
 結束目前的基本區域並啟動新的帶。 如果目前的帶狀沒有發出足夠的頂點來填滿基本拓撲，則會捨棄結尾不完整的基本。
 
-
-
-|                 |
-|-----------------|
-| RestartStrip () ; |
+RestartStrip () ;
 
 
 
@@ -66,9 +62,9 @@ ms.locfileid: "104990935"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

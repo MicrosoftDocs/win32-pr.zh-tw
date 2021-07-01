@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何支援不同的 Print Schema Framework 版本。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: fc89dd2d-9a5d-400b-aee9-a1e4cf7d83da
 title: 支援的架構版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d674449d581aca2ddfc80da2312b31eb6c930a6f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7eac627d3dd711bc952d881efd393720af128e7f
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106976415"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120593"
 ---
 # <a name="supporting-schema-versions"></a>支援的架構版本
 

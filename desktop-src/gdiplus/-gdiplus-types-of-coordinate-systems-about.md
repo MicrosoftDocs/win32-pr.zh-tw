@@ -4,12 +4,12 @@ ms.assetid: eb20f5e9-25f5-4f27-8ea5-83f6819425ed
 title: 座標系統類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05908196662918eb93f4fa6e2b356a6989ed5a58
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e259f43d4fc0d6a74021f3a6125f85652f51ac95
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104561546"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120623"
 ---
 # <a name="types-of-coordinate-systems"></a>座標系統類型
 
@@ -27,7 +27,7 @@ Windows GDI + 會使用三個座標空間：世界、頁面和裝置。 當您�
 
 
 
-|        |                         |
+| Space       |  端點座標                       |
 |--------|-------------------------|
 | World  |  (0、0)  (160、80)      |
 | 頁面   |  (100、50)  (260、130)  |
@@ -74,7 +74,7 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-|        |                     |
+| Space       | 端點座標                    |
 |--------|---------------------|
 | World  |  (0、0) 至 (2、1)     |
 | 頁面   |  (0、0) 至 (2、1)     |
@@ -103,7 +103,7 @@ myGraphics.DrawLine(&myPen, 0, 0, 2, 1);
 
 
 
-|        |                         |
+| Space       | 端點座標                        |
 |--------|-------------------------|
 | World  |  (0、0) 至 (2、1)         |
 | 頁面   |  (2、0.5) 至 (4、1.5)     |

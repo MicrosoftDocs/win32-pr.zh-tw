@@ -4,12 +4,12 @@ description: 高 DPI 參考
 ms.assetid: 07A2D45E-721C-4DA8-82A5-38B2FB94BC6D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c10bcf5c5297b0adcfceef6853f2292c3fc8b98
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a9c6a9302541683dbf97c06194285f9e8cfcf3c0
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087796"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118413"
 ---
 # <a name="high-dpi-reference"></a>高 DPI 參考
 
@@ -17,9 +17,8 @@ ms.locfileid: "108087796"
 
 
 
-|                                                                                          |                                                                                                                                                                   |
+| 主題                                                                                         |描述                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **主題**                                                                                | **說明**                                                                                                                                                   |
 | [**AdjustWindowRectExForDpi**](/windows/desktop/api/Winuser/nf-winuser-adjustwindowrectexfordpi)                             | [AdjustWindowRectEx](/windows/desktop/api/winuser/nf-winuser-adjustwindowrectex)的變體，可傳回檔整為特定 DPI 的值。       |
 | [**AreDpiAwarenessCoNtextsEqual**](/windows/desktop/api/Winuser/nf-winuser-aredpiawarenesscontextsequal)                     | 判斷兩個 [**DPI \_ 感知 \_ 內容**](dpi-awareness-context.md) 值是否相等。                                                            |
 | [**EnableNonClientDpiScaling**](/windows/desktop/api/Winuser/nf-winuser-enablenonclientdpiscaling)                           | 啟用自動調整指定最上層視窗的非工作區。                                                                               |
@@ -57,9 +56,8 @@ ms.locfileid: "108087796"
 
 
 
-|                                                                            |                                                                                        |
+| 主題                                                                           |描述                                                                                        |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| **主題**                                                                  | **說明**                                                                        |
 | [**DPI \_ 感知**](/windows/desktop/api/windef/ne-windef-dpi_awareness)                                    | 代表 DPI 座標虛擬化模式。                                        |
 | [**DPI \_ 感知 \_ 內容**](dpi-awareness-context.md)                   | 代表 DPI 虛擬化模式和相關行為的 token。           |
 | [**對話方塊 \_ 控制項 \_ DPI \_ 變更 \_ 行為**](/windows/desktop/api/winuser/ne-winuser-dialog_control_dpi_change_behaviors) | 描述對話方塊內子視窗的每個監視器 DPI 調整行為覆寫。 |
@@ -76,9 +74,8 @@ ms.locfileid: "108087796"
 
 
 
-|                                                                    |                                                                                                                                         |
+| 主題                                                                   | 描述                                                                                                                                        |
 |--------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| **主題**                                                          | **說明**                                                                                                                         |
 | [**WM \_ DPICHANGED**](wm-dpichanged.md)                            | 通知最上層視窗其 DPI 已變更。                                                                                   |
 | [**WM \_ DPICHANGED \_ BEFOREPARENT**](wm-dpichanged-beforeparent.md) | 通知子視窗與其包含的視窗相關聯的 DPI 已變更。 在父視窗收到通知之前傳遞。 |
 | [**WM \_ DPICHANGED \_ AFTERPARENT**](wm-dpichanged-afterparent.md)   | 通知子視窗與其包含的視窗相關聯的 DPI 已變更。 在父視窗收到通知之後傳遞。  |

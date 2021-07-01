@@ -1,15 +1,15 @@
 ---
-description: Windows Search 可讓您使用三個主要元件來管理 Windows Search 索引：「搜尋管理員」、「目錄管理員」和編目範圍管理員。
+description: 瞭解 Windows Search 如何讓您使用搜尋管理員、目錄管理員和編目範圍管理員來管理 Windows Search 索引。
 ms.assetid: 80f0387c-5c91-41b8-9767-5f5e6563c112
 title: 用於管理索引的介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7191fbdb4e83c9e3f1460b96123901b5f277b41a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f68360ec9c4a616f74392fd9dd34fc9f53b46114
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191195"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120013"
 ---
 # <a name="interfaces-for-managing-the-index"></a>用於管理索引的介面
 
@@ -27,7 +27,7 @@ Windows Search 可讓您使用三個主要元件來管理 Windows Search 索引�
 <tr class="header">
 <th>元件</th>
 <th>介面</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

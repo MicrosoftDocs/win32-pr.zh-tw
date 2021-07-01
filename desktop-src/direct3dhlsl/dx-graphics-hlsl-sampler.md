@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: fe3cd51c81617632d240dd06df5c8f61b103bf91
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c0206f7030d3b3a05570e74273d9510bb9c2592c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023502"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119573"
 ---
 # <a name="sampler-type"></a>取樣器類型
 
@@ -91,11 +91,9 @@ ms.locfileid: "104023502"
 
 \[在 \] 取樣器型別中，也就是下列其中一項： *取樣* 器、 *sampler1D*、 *sampler2D*、 *sampler3D*、 *samplerCUBE*、 *取樣器 \_ 狀態*、 *SamplerState*。
 
+Direct3D 9 與 Direct3D 10 和更新版本之間的差異：
 
-
-|                                                                                                                                                                       |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Direct3D 9 與 Direct3D 10 和更新版本之間的差異：<br/> Direct3D 10 和更新版本支援一個額外的取樣器類型： *SamplerComparisonState*。<br/> |
+- Direct3D 10 和更新版本支援一個額外的取樣器類型： *SamplerComparisonState*。
 
 
 

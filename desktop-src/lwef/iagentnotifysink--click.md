@@ -4,12 +4,12 @@ description: IAgentNotifySink 按一下
 ms.assetid: 6587fed8-4651-4c5c-b257-6e3f991cd3a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d1dccd838152503c603d158f043a0279d4b5c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f0e63244a89467225a7bfd045af6dc112431d12
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021642"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120901"
 ---
 # <a name="iagentnotifysinkclick"></a>IAgentNotifySink：： Click
 
@@ -44,7 +44,7 @@ HRESULT Click(
 
 
 
-|        |                                                |
+| 值  | 描述                                    |
 |--------|------------------------------------------------|
 | 0x0001 | 左方按鈕                                    |
 | 0x0010 | 中間按鈕                                  |
@@ -56,7 +56,7 @@ HRESULT Click(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,9 +76,9 @@ HRESULT Click(
 
 此事件會傳送到字元的輸入-主動用戶端。 如果沒有任何字元的用戶端為輸入-主動，伺服器會通知該字元的作用中用戶端。 如果顯示此字元，伺服器也會讓該用戶端輸入為主動，並傳送 [**IAgentNotifySink：： ActivateInputState**](iagentnotifysink--activateinputstate.md)。 如果隱藏字元，則也會自動顯示該字元。
 
- 
+ 
 
- 
+ 
 
 
 

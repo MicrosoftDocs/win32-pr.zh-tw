@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48f96d2c23e64700a7a923cdd7633dabfcba9d1d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a11d2701d488fe29ae6d0bc0742c32c803b28076
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844403"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118403"
 ---
 # <a name="mim_data-message"></a>MIM \_ 資料訊息
 
@@ -45,7 +45,7 @@ dwParam2 = dwTimestamp
 
 
 
-| 需求 | 值 |
+| 需求 | 值 | 描述 |
 |-----------|-----------------|-----------------------------------------------------|
 | 高單字 | 高序位位元組 | 未使用。                                           |
 |           | 低序位位元組  | 視需要) ，包含第二個位元組的 MIDI 資料 (。  |

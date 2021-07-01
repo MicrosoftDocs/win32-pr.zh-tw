@@ -9,22 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 97ab88961b22529accb4402fc2bd095ede5275c1
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 19d767f3c501cc42e21bbc44a196ba08cd6f1883
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104313887"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120183"
 ---
 # <a name="append-directx-hlsl-stream-output-object"></a>附加 (DirectX HLSL Stream-Output 物件) 
 
 將幾何-著色器輸出資料附加至現有的資料流程。
 
-
-
-|                            |
-|----------------------------|
-| 附加 ( *StreamDataType*) ; |
+附加 ( *StreamDataType*) ;
 
 
 
@@ -84,9 +80,9 @@ void GS_CubeMap( triangle GS_CUBEMAP_IN input[3],
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

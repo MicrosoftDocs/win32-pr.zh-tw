@@ -4,12 +4,12 @@ description: IAgentNotifySink DblClick
 ms.assetid: 7e86cc9b-8bc3-405e-9bbf-764cec9c3130
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ec7372d524027588dae5a0a3aafaf07146556e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88193f228f94d24384e6bf2b874e9208d67f3e9c
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372194"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113120921"
 ---
 # <a name="iagentnotifysinkdblclick"></a>IAgentNotifySink：:D blClick
 
@@ -44,7 +44,7 @@ HRESULT DblClick(
 
 
 
-|        |                                                |
+| 值  | 描述                               |
 |--------|------------------------------------------------|
 | 0x0001 | 左方按鈕                                    |
 | 0x0010 | 中間按鈕                                  |
@@ -56,7 +56,7 @@ HRESULT DblClick(
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -76,9 +76,9 @@ HRESULT DblClick(
 
 此事件會傳送到字元的輸入-主動用戶端。 如果沒有任何字元的用戶端為輸入-主動，伺服器會通知該字元的作用中用戶端。 如果顯示此字元，伺服器也會讓該用戶端輸入為主動，並傳送 [**IAgentNotifySink：： ActivateInputState**](iagentnotifysink--activateinputstate.md)。 如果隱藏字元，則也會自動顯示該字元。
 
- 
+ 
 
- 
+ 
 
 
 

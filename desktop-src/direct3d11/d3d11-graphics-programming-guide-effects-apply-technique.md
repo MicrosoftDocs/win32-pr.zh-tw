@@ -1,15 +1,15 @@
 ---
 title: '將技術套用 (Direct3D 11) '
-description: 宣告並初始化常數、紋理和著色器狀態之後，唯一要做的事就是在裝置中設定效果狀態。
+description: 瞭解如何在宣告和初始化常數、紋理和著色器狀態之後，為 Direct3D 11 裝置設定效果狀態。
 ms.assetid: 16001913-7ae2-4629-a625-eb850e29fc77
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e67668b27c1f0271974f20edc62619a7b1ae8ee
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 136d03f92957eaf1b3d501c0acd54aafde7e16d8
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021537"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113118943"
 ---
 # <a name="apply-a-technique-direct3d-11"></a>將技術套用 (Direct3D 11) 
 
@@ -61,9 +61,9 @@ ms.locfileid: "104021537"
 [轉譯 (Direct3D 11) 的效果 ](d3d11-graphics-programming-guide-effects-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

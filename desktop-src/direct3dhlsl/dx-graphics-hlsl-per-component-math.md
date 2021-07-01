@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5ff30cd19b7821c9a059251e105f6acfa9cf961e
-ms.sourcegitcommit: fa5c081bf792b119a7bb92182cde1f85ca75967b
+ms.openlocfilehash: 2c8c9eeea1072c53915588ac0099998e76c0452a
+ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "104974781"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "113119593"
 ---
 # <a name="per-component-math-operations"></a>Per-Component 數學運算
 
@@ -373,14 +373,33 @@ tempMatrix._11_m23 = worldMatrix._11_22;
 
 資料列主要矩陣的配置方式如下所示：
 
+:::row:::
+    :::column:::
+        11<br/>
+        21<br/>
+        31<br/>
+        41<br/>
+    :::column-end:::
+    :::column:::
+        12<br/>
+        22<br/>
+        32<br/>
+        42<br/>
+    :::column-end:::
+    :::column:::
+        13<br/>
+        23<br/>
+        33<br/>
+        43<br/>
+    :::column-end:::
+    :::column:::
+        14<br/>
+        24<br/>
+        34<br/>
+        44<br/>
+    :::column-end:::
+:::row-end:::
 
-
-|     |     |     |     |
-|-----|-----|-----|-----|
-| 11  | 12  | 13  | 14  |
-| 21  | 22  | 23  | 24  |
-| 31  | 32  | 33  | 34  |
-| 41  | 42  | 43  | 44  |
 
 
 
@@ -389,13 +408,33 @@ tempMatrix._11_m23 = worldMatrix._11_22;
 資料行主要矩陣的配置方式如下所示：
 
 
+:::row:::
+    :::column:::
+        11<br/>
+        12<br/>
+        13<br/>
+        14<br/>
+    :::column-end:::
+    :::column:::
+        21<br/>
+        22<br/>
+        23<br/>
+        24<br/>
+    :::column-end:::
+    :::column:::
+        31<br/>
+        32<br/>
+        33<br/>
+        34<br/>
+    :::column-end:::
+    :::column:::
+        14<br/>
+        24<br/>
+        34<br/>
+        44<br/>
+    :::column-end:::
+:::row-end:::
 
-|     |     |     |     |
-|-----|-----|-----|-----|
-| 11  | 21  | 31  | 41  |
-| 12  | 22  | 32  | 42  |
-| 13  | 23  | 33  | 43  |
-| 14  | 24  | 34  | 44  |
 
 
 
