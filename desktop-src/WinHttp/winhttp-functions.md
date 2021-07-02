@@ -4,12 +4,12 @@ ms.assetid: dcb56d5d-ed0d-49bb-95bf-940a49c033f1
 title: WinHTTP 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf5f9db8fcde5589a86556111bec6df3b2b18c76
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 41e45289230c1cc22a7f8799dfbbe1dafddccf38
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587743"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113174976"
 ---
 # <a name="winhttp-functions"></a>WinHTTP 函數
 
@@ -21,6 +21,13 @@ WinHTTP 提供下列功能：
 </dt> <dd>
 
 將一或多個 HTTP 要求標頭新增至 HTTP 要求控制碼。
+
+</dd> <dt>
+
+[**WinHttpAddRequestHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpaddrequestheadersex)
+</dt> <dd>
+
+將一或多個 HTTP 要求標頭新增至 HTTP 要求控制碼，讓您可以使用不同的名稱/值字串。
 
 </dd> <dt>
 
@@ -164,6 +171,13 @@ WinHTTP 提供下列功能：
 
 </dd> <dt>
 
+[**WinHttpQueryHeadersEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheadersex)
+</dt> <dd>
+
+抓取與 HTTP 要求相關聯的標頭資訊;提供一種方式來取出剖析的標頭名稱和值字串。
+
+</dd> <dt>
+
 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)
 </dt> <dd>
 
@@ -172,6 +186,13 @@ WinHTTP 提供下列功能：
 </dd> <dt>
 
 [**WinHttpReadData**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddata)
+</dt> <dd>
+
+從 [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) 函數所開啟的控制碼讀取資料。
+
+</dd> <dt>
+
+[**WinHttpReadDataEx**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreaddataex)
 </dt> <dd>
 
 從 [**WinHttpOpenRequest**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpopenrequest) 函數所開啟的控制碼讀取資料。
@@ -297,6 +318,4 @@ WinHTTP 提供下列功能：
 
 </dd> </dl>
 
- 
 
- 

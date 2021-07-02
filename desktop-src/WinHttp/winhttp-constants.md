@@ -4,18 +4,20 @@ ms.assetid: 460f1463-57a8-47eb-9957-17976757bd7f
 title: WinHTTP 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db7c277b4235e23254000766fdef53d25f19ddbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e37b0e4de7aa3df5e155933bea2be25386c1637
+ms.sourcegitcommit: 8e3d8594fa073a9c43eb5dcc7babea03ea30f10f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469080"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "113175002"
 ---
 # <a name="winhttp-constants"></a>WinHTTP 常數
 
 WinHTTP 使用下列常數：
 
-<dl> <dt>
+<dl>
+
+<dt>
 
 [**錯誤訊息**](error-messages.md)
 </dt> <dd>
@@ -50,18 +52,33 @@ WinHTTP 函數特定的錯誤訊息。 這些函數也會在適當的情況下�
 
 WinHTTP 支援的網際網路架構。
 
-</dd> <dt>
+</dd>
+
+<dt>
 
 [**查詢資訊旗標**](query-info-flags.md)
-</dt> <dd>
+</dt>
+<dd>
 
 [**WinHttpQueryHeaders**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryheaders)所使用的屬性和修飾詞。
+</dd>
 
-</dd> </dl>
+<dt>
 
- 
+**WINHTTP_EXTENDED_HEADER_FLAG_UNICODE**
+</dt>
+<dd>
 
- 
+的值為0x00000001。 表示 [WinHttpAddRequestHeadersEx](/windows/win32/api/winhttp/nf-winhttp-winhttpaddrequestheadersex) 傳入的字串是 Unicode 字串。
+</dd>
 
+<dt>
 
+**WINHTTP_READ_DATA_EX_FLAG_FILL_BUFFER**
+</dt>
+<dd>
 
+的值為0x0000000000000001ull。 指示 [WinHttpReadDataEx](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddataex) 在已填入提供的資料緩衝區或回應完成之前，不會完成呼叫。 傳遞此旗標會使 **WinHttpReadDataEx** 的行為等同于 [WinHttpReadData](/windows/win32/api/winhttp/nf-winhttp-winhttpreaddata)的行為。
+</dd>
+
+</dl>
