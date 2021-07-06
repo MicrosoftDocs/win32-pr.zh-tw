@@ -44,12 +44,12 @@ api_location:
 - DirectML.h
 api_name:
 - DML_CUMULATIVE_PRODUCT_OPERATOR_DESC
-ms.openlocfilehash: 68b001467496ab9affc559e76ecac5461902399c
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: cb4006a20dd25751c027ba97e63dcfc60c25faf6
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521194"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282557"
 ---
 # <a name="dml_cumulative_product_operator_desc-directmlh"></a>DML_CUMULATIVE_PRODUCT_OPERATOR_DESC (directml) 
 
@@ -180,9 +180,16 @@ OutputTensor: (Sizes:{1,1,3,4}, DataType:FLOAT32)
 這個運算子是在中引進 `DML_FEATURE_LEVEL_3_1` 。
 
 ## <a name="tensor-constraints"></a>Tensor 條件約束
-*InputTensor* 和 *OutputTensor* 必須具有相同的 *資料類型* 和 *大小*。
+*InputTensor* 和 *OutputTensor* 必須具有相同的 *資料類型*、 *DimensionCount* 和 *大小*。
 
 ## <a name="tensor-support"></a>Tensor 支援
+### <a name="dml_feature_level_4_0-and-above"></a>DML_FEATURE_LEVEL_4_0 和更新版本
+| 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
+| ------ | ---- | -------------------------- | -------------------- |
+| InputTensor | 輸入 | 1至8 | FLOAT32、FLOAT16、UINT32、UINT16 |
+| OutputTensor | 輸出 | 1至8 | FLOAT32、FLOAT16、UINT32、UINT16 |
+
+### <a name="dml_feature_level_3_1-and-above"></a>DML_FEATURE_LEVEL_3_1 和更新版本
 | 張 | 種類 | 支援的維度計數 | 支援的資料類型 |
 | ------ | ---- | -------------------------- | -------------------- |
 | InputTensor | 輸入 | 4 | FLOAT32、FLOAT16、UINT32、UINT16 |

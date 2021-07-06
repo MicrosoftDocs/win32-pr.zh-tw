@@ -5,12 +5,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: d64fce5bf57362943fdb1bef447aebd8ae801d7d
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: fb923bb7546dffb6320802b933a170ccef685d21
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521154"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282577"
 ---
 # <a name="directml-structures"></a>DirectML 結構
 
@@ -62,6 +62,7 @@ ms.locfileid: "111521154"
 | [**DML_DEPTH_TO_SPACE_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_depth_to_space_operator_desc)。 描述 DirectML 資料重組運算子，可將 (permutes) 資料從深度重新排列到空間資料的區塊。 |
 | [**DML_DEPTH_TO_SPACE1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_depth_to_space1_operator_desc)。 重新排列 (permutes) 資料從深度到空間資料的區塊。 運算子會輸出輸入 tensor 的複本，其中深度維度的值會移至 [高度] 和 [寬度] 維度的空間區塊中。 |
 | [**DML_DIAGONAL_MATRIX_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_diagonal_matrix_operator_desc)。 描述 DirectML 數學運算子，這個運算子會產生類似類似矩陣的矩陣，並在主要對角和零的其他地方使用。 |
+| [**DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc)。 計算量化 *InputTensor* 所需的量化比例和零點值，然後套用該量化，將結果寫入 *OutputTensor*。 |
 | [**DML_ELEMENT_WISE_ABS_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_abs_operator_desc)。 描述 DirectML 數學運算子，這個運算子會執行專案的絕對值函式 f (x) = abs (x * scale + 偏差) ，其中尺規和偏差詞彙是選擇性的。 |
 | [**DML_ELEMENT_WISE_ACOS_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_acos_operator_desc)。 描述 DirectML 三角函數運算子，這個運算子會執行元素的反余弦函數 f (x) = acos (x * scale + 偏差) ，其中尺規和偏差詞彙是選擇性的。 |
 | [**DML_ELEMENT_WISE_ACOSH_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_acosh_operator_desc)。 描述 DirectML 三角函數運算子，這個運算子會執行元素的反雙曲余弦函數 f (x) = log (x + sqrt (x * x-1) ) * scale + 偏差，其中尺規和偏差詞彙是選擇性的。 |
@@ -113,6 +114,7 @@ ms.locfileid: "111521154"
 | [**DML_ELEMENT_WISE_MULTIPLY_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_multiply_operator_desc)。 描述 DirectML 的數學運算子，這個運算子會執行將中的每個專案乘以 `ATensor` 其對應元素的函式 `BTensor` 。 |
 | [**DML_ELEMENT_WISE_POW_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_pow_operator_desc)。 描述 DirectML 數學運算子，這個運算子會執行專案取向的函式 f (x、指數) = pow (x * 刻度 + 偏差、指數) ，其中尺規和偏差詞彙是選擇性的。 |
 | [**DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc)。 描述 DirectML 運算子，它會針對中的每個專案，執行線性量化函式， `InputTensor` 以及其在和 ZeroPointTensor 中的對應元素 `ScaleTensor` 。 |
+| [**DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc)。 將 *ATensor* 中的每個元素加入至 *BTensor* 中的對應元素，並將結果放入 *OutputTensor* 的對應元素。 |
 | [**DML_ELEMENT_WISE_RECIP_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_element_wise_recip_operator_desc)。 描述在輸入中的每個元素上執行交互函數的 DirectML 數學運算子。 |
 | [**DML_ELEMENT_WISE_ROUND_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_round_operator_desc)。 將 *InputTensor* 的每個元素四捨五入為整數值，並將結果放入 *OutputTensor* 的對應元素。|
 | [**DML_ELEMENT_WISE_SIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_element_wise_sign_operator_desc)。 描述在輸入上執行 elementwise shrink 啟用函數的 DirectML 運算子。 |
@@ -167,7 +169,8 @@ ms.locfileid: "111521154"
 | [**DML_RESAMPLE1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_resample1_operator_desc)。 使用縮放因數來計算目的地 tensor 大小，以將來源中的專案 Resamples 至目的地 tensor。 您可以使用線性或最接近的相鄰插補模式。|
 | [**DML_REVERSE_SUBSEQUENCES_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_reverse_subsequences_desc)。 反轉 tensor 的一或多個 *個子序列* 元素。 根據提供的軸和序列長度，選擇要反轉的個子序列集。|
 | [**DML_RNN_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_rnn_operator_desc)。 描述 DirectML 深度學習運算子，該運算子會執行一層簡單的遞迴類神經網路， (RNN 輸入上的) 函式。 |
-| [**DML_ROI_ALIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc)。 Performs an ROI Align operation, as described in the [Mask R-CNN paper](https://arxiv.org/abs/1703.06870). 總而言之，此作業會解壓縮來自輸入影像 tensor 的裁剪，並使用指定的 *InterpolationMode*，將其調整為 *OutputTensor* 最後2個維度所指定的一般輸出大小。 |
+| [**DML_ROI_ALIGN_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc)。 Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. 總而言之，此作業會解壓縮來自輸入影像 tensor 的裁剪，並使用指定的 *InterpolationMode*，將其調整為 *OutputTensor* 最後2個維度所指定的一般輸出大小。 |
+| [**DML_ROI_ALIGN1_OPERATOR_DESC**](/windows/win32/api/directml/ns-directml-dml_roi_align1_operator_desc)。 Performs an ROI align operation, as described in the [Mask R-CNN](https://arxiv.org/abs/1703.06870) paper. 總而言之，此作業會從輸入影像 tensor 中取出裁剪的視窗，並使用指定的 *InterpolationMode*，將其大小調整為最後2個 *OutputTensor* 維度所指定的一般輸出大小。 |
 | [**DML_ROI_POOLING_OPERATOR_DESC**](/windows/desktop/api/directml/ns-directml-dml_roi_pooling_operator_desc)。 描述 DirectML 運算子，該運算子會根據感興趣的區域或 ROIs) ，在輸入 tensor (上執行共用函數。 |
 | [**DML_SCALAR_UNION**](/windows/win32/api/directml/ns-directml-dml_scalar_union)。 純量類型的聯集。|
 | [**DML_SCALE_BIAS**](/windows/desktop/api/directml/ns-directml-dml_scale_bias)。 包含提供給 DirectML 運算子之刻度和偏差詞彙的值。 |

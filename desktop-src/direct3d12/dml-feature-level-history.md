@@ -4,22 +4,52 @@ description: TBD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/05/2020
-ms.openlocfilehash: 1e5d9f8b0532b809bab617655694af68ba530430
-ms.sourcegitcommit: d168355cd7112871f24643b4079c2640b36f4975
+ms.openlocfilehash: 3ddb2eec80448b8119bf2d990afbb998f212db26
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111521203"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282547"
 ---
 # <a name="directml-feature-level-history"></a>DirectML 功能等級歷程記錄
 
 如需一般 DirectML 版本歷程記錄，請參閱 [DirectML 版本歷程記錄](./dml-version-history.md)。
 
+## <a name="dml_feature_level_4_0"></a>DML_FEATURE_LEVEL_4_0
+
+在 DirectML 版本1.6.0 中引進。
+
+已新增下列運算子類型的支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 針對每個運算子類型常數，該主題會提供對應結構的連結。
+
+* **DML_OPERATOR_ELEMENT_WISE_QUANTIZED_LINEAR_ADD**
+* **DML_OPERATOR_DYNAMIC_QUANTIZE_LINEAR**
+* **DML_OPERATOR_ROI_ALIGN1**
+
+下列運算子的擴充資料類型和維度計數支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 如需 [**DML_FEATURE_LEVEL_4_0**](/windows/win32/api/directml/ne-directml-dml_feature_level)中新增之特定支援的詳細資訊，請參閱每個運算子的結構主題。
+
+* **DML_OPERATOR_ACTI加值稅ION_RELU_GRAD**
+* **DML_OPERATOR_ADAM_OPTIMIZER**
+* **DML_OPERATOR_CONVOLUTION**
+* **DML_OPERATOR_CONVOLUTION_INTEGER**
+* **DML_OPERATOR_CUMULATIVE_PRODUCT**
+* **DML_OPERATOR_CUMULATIVE_SUMMATION**
+* **DML_OPERATOR_DIAGONAL_MATRIX**
+* **DML_OPERATOR_FILL_VALUE_CONSTANT**
+* **DML_OPERATOR_FILL_VALUE_SEQUENCE**
+* **DML_OPERATOR_GEMM**
+* **DML_OPERATOR_MATRIX_MULTIPLY_INTEGER**
+* **DML_OPERATOR_MAX_POOLING_GRAD**
+* **DML_OPERATOR_NONZERO_COORDINATES**
+* **DML_OPERATOR_QUANTIZED_LINEAR_CONVOLUTION**
+* **DML_OPERATOR_QUANTIZED_LINEAR_MATRIX_MULTIPLY**
+* **DML_OPERATOR_RANDOM_GENERATOR**
+* **DML_OPERATOR_REVERSE_SUBSEQUENCES**
+
 ## <a name="dml_feature_level_3_1"></a>DML_FEATURE_LEVEL_3_1
 
 在 DirectML 1.5.0 版中引進。
 
-已新增下列 [運算子](/windows/win32/api/directml/ne-directml-dml_operator_type)的支援。
+已新增下列運算子類型的支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 針對每個運算子類型常數，該主題會提供對應結構的連結。
 
 * **DML_OPERATOR_ELEMENT_WISE_ATAN_YX**
 * **DML_OPERATOR_ELEMENT_WISE_CLIP_GRAD**
@@ -46,7 +76,7 @@ ms.locfileid: "111521203"
 
 在 DirectML 版本1.4.0 中引進。
 
-已新增下列 [運算子](/windows/win32/api/directml/ne-directml-dml_operator_type)的支援。
+已新增下列運算子類型的支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 針對每個運算子類型常數，該主題會提供對應結構的連結。
 
 * **DML_OPERATOR_ELEMENT_WISE_BIT_AND**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_OR**
@@ -95,7 +125,7 @@ ms.locfileid: "111521203"
 * [IDMLDevice1 介面](/windows/win32/api/directml/nn-directml-idmldevice1)
 * Operator graph 支援 (參閱 [IDMLDevice1：： CompileGraph](/windows/win32/api/directml/nf-directml-idmldevice1-compilegraph)
 
-已新增下列運算子的支援。
+已新增下列運算子類型的支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 針對每個運算子類型常數，該主題會提供對應結構的連結。
 
 * **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_LEFT**
 * **DML_OPERATOR_ELEMENT_WISE_BIT_SHIFT_RIGHT**
@@ -170,7 +200,7 @@ ms.locfileid: "111521203"
 * [DML_FEATURE_LEVEL 列舉](/windows/win32/api/directml/ne-directml-dml_feature_level)
 * 功能等級查詢 (查看 [DML_FEATURE_QUERY_FEATURE_LEVELS](/windows/win32/api/directml/ns-directml-dml_feature_query_feature_levels)) 
 
-已新增下列運算子的支援。
+已新增下列運算子類型的支援，記載于 [**DML_OPERATOR_TYPE**](/windows/win32/api/directml/ne-directml-dml_operator_type)中。 針對每個運算子類型常數，該主題會提供對應結構的連結。
 
 * **DML_OPERATOR_ELEMENT_WISE_SIGN**
 * **DML_OPERATOR_ELEMENT_WISE_IS_NAN**

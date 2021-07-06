@@ -9,14 +9,17 @@ keywords:
 - 功能等級，DirectX
 ms.topic: article
 ms.date: 09/01/2020
-ms.openlocfilehash: 82667a7a2e02d675185fd65c318aeed10db79844
-ms.sourcegitcommit: 85bd7112570865dd2136e0d05bd0a4132e6313ec
+ms.openlocfilehash: 9c4717d743e50e91376e57e5d13acbe2cfae41d8
+ms.sourcegitcommit: 0b93de98c4afc79a6801a113bc91adbc89e835b9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "104024235"
+ms.lasthandoff: 07/03/2021
+ms.locfileid: "113282467"
 ---
 # <a name="direct3d-feature-levels"></a>Direct3D 功能層級
+
+> [!NOTE]
+> **針對發行前產品的部分相關資訊，在產品正式發行時可能會有大幅修改。Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。**
 
 為了處理新電腦和現有電腦的視訊卡多樣性，Microsoft Direct3D 11 引進了功能等級的概念。 本主題討論 Direct3D 功能等級。
 
@@ -47,60 +50,60 @@ Direct3D 版本、著色器模型和功能層級有三種格式。
 - 著色器模型使用句號;例如，著色器模型5.1。
 - 功能層級使用底線;例如，功能層級 12 \_ 0。
 
-## <a name="feature-support-for-feature-levels-12_1-through-9_3"></a>功能層級透過 9_3 12_1 的功能支援
+## <a name="feature-support-for-feature-levels-12_2-through-9_3"></a>功能層級透過 9_3 12_2 的功能支援
 
 下列功能適用于列出的功能等級。 頂端資料列上的標題是 Direct3D 功能等級。 左邊資料行中的標題是功能。 另請參閱 [資料表的註腳](#footnotes-for-the-tables)。
 
-| 功能 \\ 功能等級 | 12 \_ 1<sup>0</sup> | 12 \_ 0<sup>0</sup> | 11 \_ 1<sup>1</sup> | 11 \_ 0 | 10 \_ 1 | 10 \_ 0 | 9 \_ 3<sup>7</sup> |
-|-|-|-|-|-|-|-|-|
-| 著色器模型 (D3D11)  | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 4.x | 4.0 | 2.0 (4 \_ 0 \_ 層級 \_ 9 \_ 3) \[ vs \_ 2 \_ a/ps \_ 2 \_ x \] <sup>5</sup> |
-| 著色器模型 (D3D12)  | 5.1<sup>2</sup> | 5.1<sup>2</sup> | 5.1<sup>2</sup> | 5.1<sup>2</sup> | N/A | N/A | N/A |
-| [磚資源](tiled-resources.md) | 第2層<sup>6</sup> | 第2層<sup>6</sup> | 選用 | 選用 | 否 | 否 | 否 |
-| [保守的點陣化](conservative-rasterization.md) | 第1層<sup>6</sup> | 選用 | 選用 | 否 | 否 | 否 | 否 |
-| [轉譯器順序視圖](rasterizer-order-views.md) | 是 | 選用 | 選用 | 否 | 否 | 否 | 否 |
-| [最小/最大篩選](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | 是 | 是 | 選用 | 否 | 否 | 否 | 否 |
-| 對應預設緩衝區 | 選用 | 選用 | 選用 | 選用 | 否 | 否 | 否 |
-| [著色器指定的樣板參考值](shader-specified-stencil-reference-value.md) | 選用 | 選用 | 選用 | 否 | 否 | 否 | 否 |
-| 具類型的未排序存取視圖載入 | 18種格式，更選擇性 | 18種格式，更選擇性 | 3種格式，更選擇性 | 3種格式，更選擇性 | 否 | 否 | 否 |
-| [幾何著色器](/previous-versions/bb205146(v=vs.85)) | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [串流輸出](./d3d10-graphics-programming-guide-output-stream-stage.md) | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [DirectCompute/計算著色器](direct3d-11-advanced-stages-compute-shader.md) | 是 | 是 | 是 | 是 | 選用 | 選用 | N/A |
-| <b>功能 \\ 功能等級</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| [輪廓和網域著色器](direct3d-11-advanced-stages-tessellation.md) | 是 | 是 | 是 | 是 | 否 | 否 | 否 |
-| [材質資源陣列](overviews-direct3d-11-resources-textures-intro.md) | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [立方體貼圖資源陣列](overviews-direct3d-11-resources-textures-intro.md) | 是 | 是 | 是 | 是 | 是 | 否 | 否 |
-| [BC4/BC5 壓縮](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [BC6H/BC7 壓縮](texture-block-compression-in-direct3d-11.md) | 是 | 是 | 是 | 是 | 否 | 否 | 否 |
-| [Alpha 到涵蓋範圍](./d3d10-graphics-programming-guide-blend-state.md) | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
-| [擴充格式 (BGRA 等等) ](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 選用 | 選用 | Yes |
-| [10 位元 XR 高彩格式](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 選用 | 選用 | N/A |
-| [ (輸出合併的邏輯作業) ](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | No |
-| 目標獨立的點陣化 | 是 | 是 | 是 | 否 | 否 | 否 | 否 |
-| [多重轉譯目標 (MRT.LOG) 與 ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | No |
-| UAV 插槽 | 64 | 64 | 64 | 8 | 1 | 1 | N/A |
-| <b>功能 \\ 功能等級</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| 每個階段的 UAVs | 是 | 是 | 是 | 否 | 否 | 否 | N/A |
-| [僅限 UAV 轉譯的強制樣本計數上限](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 16 | 16 | 8 | N/A | N/A | N/A |
-| 常數緩衝區偏移和部分更新 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 是<sup>1</sup> |
-| 每圖元16個位 (bpp) 格式 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> |
-| 最大材質維度 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 |
-| 最大立方體貼圖維度 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 |
-| 最大磁片區範圍 | 2048 | 2048 | 2048 | 2048 | 2048 | 2048 | 256 |
-| 最大材質重複 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 8192 |
-| 最大 Anisotropy | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
-| 最大基本計數 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 1048575 |
-| 最大頂點索引 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 1048575 |
-| 最大輸入位置 | 32 | 32 | 32 | 32 | 32 | 16 | 16 |
-| 同時呈現目標 | 8 | 8 | 8 | 8 | 8 | 8 | 4 |
-| 遮蔽查詢 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
-| <b>功能 \\ 功能等級</b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
-| 分隔 Alpha Blend | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
-| 鏡像一次 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
-| 重迭頂點元素 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
-| 獨立寫入遮罩 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
-| 實例 | 是 | 是 | 是 | 是 | 是 | 是 | 是<sup>7</sup> |
-| Nonpowers-2 條件<sup>3</sup> | 否 | 否 | 否 | 否 | 否 | 否 | 是 |
-| Nonpowers<sup>無條件為</sup>-2 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| 功能 \\ 功能等級 | 12 \_ 2<sup>8</sup> | 12 \_ 1<sup>0</sup> | 12 \_ 0<sup>0</sup> | 11 \_ 1<sup>1</sup> | 11 \_ 0 | 10 \_ 1 | 10 \_ 0 | 9 \_ 3<sup>7</sup> |
+|-|-|-|-|-|-|-|-|-|
+| 著色器模型 (D3D11)  | N/A | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 5.0<sup>2</sup> | 4.x | 4.0 | 2.0 (4 \_ 0 \_ 層級 \_ 9 \_ 3) \[ vs \_ 2 \_ a/ps \_ 2 \_ x \] <sup>5</sup> |
+| 著色器模型 (D3D12)  | 6.5 | 5.1<sup>2</sup> | 5.1<sup>2</sup> | 5.1<sup>2</sup> | 5.1<sup>2</sup> | N/A | N/A | N/A |
+| [磚資源](tiled-resources.md) | Tier3 | 第2層<sup>6</sup> | 第2層<sup>6</sup> | 選用 | 選用 | 否 | 否 | 否 |
+| [保守的點陣化](conservative-rasterization.md) | Tier3 | 第1層<sup>6</sup> | 選用 | 選用 | 否 | 否 | 否 | 否 |
+| [轉譯器順序視圖](rasterizer-order-views.md) | 是 | 是 | 選用 | 選用 | 否 | 否 | 否 | 否 |
+| [最小/最大篩選](/windows/win32/api/D3D11/ne-d3d11-d3d11_filter) | 是 | 是 | 是 | 選用 | 否 | 否 | 否 | 否 |
+| 對應預設緩衝區 | N/A | 選用 | 選用 | 選用 | 選用 | 否 | 否 | 否 |
+| [著色器指定的樣板參考值](shader-specified-stencil-reference-value.md) | 選用 | 選用 | 選用 | 選用 | 否 | 否 | 否 | 否 |
+| 具類型的未排序存取視圖載入 | 18種格式，更選擇性 | 18種格式，更選擇性 | 18種格式，更選擇性 | 3種格式，更選擇性 | 3種格式，更選擇性 | 否 | 否 | 否 |
+| [幾何著色器](/previous-versions/bb205146(v=vs.85)) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| [串流輸出](./d3d10-graphics-programming-guide-output-stream-stage.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| [DirectCompute/計算著色器](direct3d-11-advanced-stages-compute-shader.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | N/A |
+| <b>功能 \\ 功能等級</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| [輪廓和網域著色器](direct3d-11-advanced-stages-tessellation.md) | 是 | 是 | 是 | 是 | 是 | 否 | 否 | 否 |
+| [材質資源陣列](overviews-direct3d-11-resources-textures-intro.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| [立方體貼圖資源陣列](overviews-direct3d-11-resources-textures-intro.md) | 是 | 是 | 是 | 是 | 是 | 是 | 否 | 否 |
+| [BC4/BC5 壓縮](../direct3d10/d3d10-graphics-programming-guide-resources-block-compression.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| [BC6H/BC7 壓縮](texture-block-compression-in-direct3d-11.md) | 是 | 是 | 是 | 是 | 是 | 否 | 否 | 否 |
+| [Alpha 到涵蓋範圍](./d3d10-graphics-programming-guide-blend-state.md) | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
+| [擴充格式 (BGRA 等等) ](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | 是 |
+| [10 位元 XR 高彩格式](overviews-direct3d-11-devices-downlevel-exceptions.md) | 是 | 是 | 是 | 是 | 是 | 選用 | 選用 | N/A |
+| [ (輸出合併的邏輯作業) ](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 否 |
+| 目標獨立的點陣化 | 是 | 是 | 是 | 是 | 否 | 否 | 否 | 否 |
+| [多重轉譯目標 (MRT.LOG) 與 ForcedSampleCount 1](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 否 |
+| UAV 插槽 | 分層<sup>9</sup> | 64 | 64 | 64 | 8 | 1 | 1 | N/A |
+| <b>功能 \\ 功能等級</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| 每個階段的 UAVs | 是 | 是 | 是 | 是 | 否 | 否 | 否 | N/A |
+| [僅限 UAV 轉譯的強制樣本計數上限](/windows/win32/api/D3D11/ns-d3d11-d3d11_feature_data_d3d11_options) | 16 | 16 | 16 | 16 | 8 | N/A | N/A | N/A |
+| 常數緩衝區偏移和部分更新 | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 是<sup>1</sup> |
+| 每圖元16個位 (bpp) 格式 | 是 | 是 | 是 | 是 | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> | 選用<sup>1</sup> |
+| 最大材質維度 | 16384 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 |
+| 最大立方體貼圖維度 | 16384 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 4096 |
+| 最大磁片區範圍 | 2048 | 2048 | 2048 | 2048 | 2048 | 2048 | 2048 | 256 |
+| 最大材質重複 | 16384 | 16384 | 16384 | 16384 | 16384 | 8192 | 8192 | 8192 |
+| 最大 Anisotropy | 16 | 16 | 16 | 16 | 16 | 16 | 16 | 16 |
+| 最大基本計數 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 1048575 |
+| 最大頂點索引 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 2 ^ 32-1 | 1048575 |
+| 最大輸入位置 | 32 | 32 | 32 | 32 | 32 | 32 | 16 | 16 |
+| 同時呈現目標 | 8 | 8 | 8 | 8 | 8 | 8 | 8 | 4 |
+| 遮蔽查詢 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
+| <b>功能 \\ 功能等級</b> | <b>12 \_ 2<sup>8</sup></b> | <b>12 \_ 1<sup>0</sup></b> | <b>12 \_ 0<sup>0</sup></b> | <b>11 \_ 1<sup>1</sup></b> | <b>11 \_ 0</b> | <b>10 \_ 1</b> | <b>10 \_ 0</b> | <b>9 \_ 3<sup>7</sup></b> |
+| 分隔 Alpha Blend | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
+| 鏡像一次 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
+| 重迭頂點元素 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
+| 獨立寫入遮罩 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是 |
+| 實例 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 是<sup>7</sup> |
+| Nonpowers-2 條件<sup>3</sup> | 否 | 否 | 否 | 否 | 否 | 否 | 否 | 是 |
+| Nonpowers<sup>無條件為</sup>-2 | 是 | 是 | 是 | 是 | 是 | 是 | 是 | 否 |
 
 ## <a name="feature-support-for-feature-levels-9_2-and-9_1"></a>功能層級9_2 和9_1 的功能支援
 
@@ -173,6 +176,10 @@ Direct3D 版本、著色器模型和功能層級有三種格式。
 <sup>6</sup> 個較高層級的選用。
 
 <sup>7</sup> 針對功能層級9_3，唯一支援的轉譯方法為 **Draw**、 **DrawIndexed** 和 **DrawIndexInstanced**。 此外，對於功能層級9_3，僅支援透過 **Draw** 轉譯的點清單轉譯。
+
+<sup>8</sup> 需要 Direct3D 12 執行時間。
+
+在 Direct3D 12 API 中有<sup>9</sup>個 CBV/SRV/UAV 堆積中的描述項數目有所限制。 如需詳細資訊，請參閱 [硬體層](/windows/win32/direct3d12/hardware-support) 。 在所有階段（以 [資源系結層](https://microsoft.github.io/DirectX-Specs/d3d/ResourceBinding.html#levels-of-hardware-support)為基礎）中，所有描述項資料表中的 UAVs 數目會分別受到限制。
 
 如需不同硬體功能層級的格式支援詳細資訊，請參閱：
 

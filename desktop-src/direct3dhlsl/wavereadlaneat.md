@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e40940f2df6685a3096da6886ad3bcb6d9ca99af
-ms.sourcegitcommit: 4423a9d48f1c90d2ec2eca68e9cae30df1787f25
-ms.translationtype: HT
+ms.openlocfilehash: 573730053a93a110381637ef8e62dc08a4aa1535
+ms.sourcegitcommit: 1897c2a39b4ac4ca4b1e4aec394cef2ce2619c03
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/25/2020
-ms.locfileid: "104374896"
+ms.lasthandoff: 07/06/2021
+ms.locfileid: "113316480"
 ---
 # <a name="wavereadlaneat-function"></a>WaveReadLaneAt 函式
 
@@ -28,8 +28,8 @@ ms.locfileid: "104374896"
 
 ``` syntax
 <type> WaveReadLaneAt(
-   <type> expr,
-   uint laneIndex
+   <type> expr,
+   uint laneIndex
 );
 ```
 
@@ -57,34 +57,11 @@ ms.locfileid: "104374896"
 
 ## <a name="remarks"></a>備註
 
-此函數實際上是 laneIndex'th 通道中的值廣播。
+此函式實際上是 *laneIndex* 的第一個通道中的值廣播。
 
-著色器模型6.0 支援下列著色器類型中的函數：
-
-
-
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
-|--------|------|--------|----------|-------|---------|
-|        |      |        |          | x     | x       |
-
-
-
- 
+所有著色器階段中的著色器模型6.0 都支援此函數。
 
 ## <a name="see-also"></a>另請參閱
 
-<dl> <dt>
-
-[著色器模型6總覽](hlsl-shader-model-6-0-features-for-direct3d-12.md)
-</dt> <dt>
-
-[著色器模型6](shader-model-6-0.md)
-</dt> </dl>
-
- 
-
- 
-
-
-
-
+* [著色器模型6總覽](hlsl-shader-model-6-0-features-for-direct3d-12.md)
+* [著色器模型6](shader-model-6-0.md)
