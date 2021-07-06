@@ -32,7 +32,7 @@
               href: managing-graphics-pipeline-state-in-direct3d-12.md
             - name: 在 Direct3D 12 中使用資源阻礙來同步處理資源狀態
               href: using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md
-            - name: 使用 Direct3D 12 的管線和著色器
+            - name: 使用 Direct3D 12 的 Pipelines 和著色器
               href: pipelines-and-shaders-with-directx-12.md
             - name: '可變速率陰影 (VRS) '
               href: vrs.md
@@ -236,7 +236,7 @@
                   href: gpu-cuda-in-wsl.md
                 - name: 在 WSL 2 中使用 DirectML 啟用 TensorFlow
                   href: gpu-tensorflow-wsl.md
-                - name: 在 Windows 上使用 DirectML 啟用 TensorFlow
+                - name: 在 Windows 上啟用搭配 DirectML 的 TensorFlow
                   href: gpu-tensorflow-windows.md
                 - name: 使用 DirectML 套件 TensorFlow 的常見問題
                   href: gpu-faq.yml
@@ -1969,6 +1969,8 @@
                   href: /windows/win32/api/directml/ns-directml-dml_depth_to_space1_operator_desc
                 - name: 'DML_DIAGONAL_MATRIX_OPERATOR_DESC '
                   href: /windows/win32/api/directml/ns-directml-dml_diagonal_matrix_operator_desc
+                - name: DML_DYNAMIC_QUANTIZE_LINEAR_OPERATOR_DESC
+                  href: /windows/win32/api/directml/ns-directml-dml_dynamic_quantize_linear_operator_desc
                 - name: DML_ELEMENT_WISE_ABS_OPERATOR_DESC
                   href: /windows/win32/api/directml/ns-directml-dml_element_wise_abs_operator_desc
                 - name: DML_ELEMENT_WISE_ACOS_OPERATOR_DESC
@@ -2071,6 +2073,8 @@
                   href: /windows/win32/api/directml/ns-directml-dml_element_wise_pow_operator_desc
                 - name: DML_ELEMENT_WISE_QUANTIZE_LINEAR_OPERATOR_DESC
                   href: /windows/win32/api/directml/ns-directml-dml_element_wise_quantize_linear_operator_desc
+                - name: DML_ELEMENT_WISE_QUANTIZED_LINEAR_ADD_OPERATOR_DESC
+                  href: /windows/win32/api/directml/ns-directml-dml_element_wise_quantized_linear_add_operator_desc
                 - name: DML_ELEMENT_WISE_RECIP_OPERATOR_DESC
                   href: /windows/win32/api/directml/ns-directml-dml_element_wise_recip_operator_desc
                 - name: DML_ELEMENT_WISE_ROUND_OPERATOR_DESC
@@ -2181,6 +2185,8 @@
                   href: /windows/win32/api/directml/ns-directml-dml_rnn_operator_desc
                 - name: DML_ROI_ALIGN_OPERATOR_DESC
                   href: /windows/win32/api/directml/ns-directml-dml_roi_align_operator_desc
+                - name: DML_ROI_ALIGN1_OPERATOR_DESC
+                  href: /windows/win32/api/directml/ns-directml-dml_roi_align1_operator_desc
                 - name: DML_ROI_POOLING_OPERATOR_DESC
                   href: /windows/win32/api/directml/ns-directml-dml_roi_pooling_operator_desc
                 - name: DML_SCALAR_UNION
@@ -2547,7 +2553,7 @@
         - name: Windows 7 上的 Direct3D 12
           href: direct3d-12on7-reference.md
           items:
-            - name: Windows 7 上的 Direct3D 12 介面
+            - name: Windows 7 介面上的 Direct3D 12
               href: direct3d-12on7-interfaces.md
               items:
                 - name: ID3D12CommandQueueDownlevel
@@ -2560,7 +2566,7 @@
                   items:
                     - name: 'ID3D12DeviceDownlevel::QueryVideoMemoryInfo'
                       href: id3d12devicedownlevel-queryvideomemoryinfo.md
-            - name: Windows 7 上的 Direct3D 12 列舉
+            - name: Windows 7 列舉上的 Direct3D 12
               href: direct3d-12on7-enumerations.md
               items:
                 - name: D3D12_DOWNLEVEL_PRESENT_FLAGS
