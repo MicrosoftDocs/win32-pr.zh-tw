@@ -4,12 +4,12 @@ ms.assetid: 52761cb2-4433-4824-ba19-fe597de2faf0
 title: InkEdit 控制項參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b53edfdc6a72a7792c60a6c7c7bf0e38ffc5e0c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbbe2aad6b7d8b536f2ede35fd93bd19840e69fc
+ms.sourcegitcommit: f8f06d7ad2ff6599e90b0493b355e0c1811d898f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027415"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113369310"
 ---
 # <a name="inkedit-control-reference"></a>InkEdit 控制項參考
 
@@ -60,7 +60,7 @@ InkEdit 控制項可讓您收集筆跡、辨識筆墨，以及將筆墨顯示為
 
 | 事件                                                  | 描述                                                                                                                                                                                 |
 |--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**變更**](inkedit-change.md)                       | 發生于控制項的內容或屬性值變更時。<br/>                                                                                                              |
+| [**改變**](inkedit-change.md)                       | 發生于控制項的內容或屬性值變更時。<br/>                                                                                                              |
 | [**按一下**](inkedit-click.md)                         | 發生於按下控制項時。<br/>                                                                                                                                              |
 | [**DblClick**](inkedit-dblclick.md)                   | 發生於按兩下控制項時。<br/>                                                                                                                                       |
 | [**手勢**](inkedit-gesture.md)                     | 當應用程式手勢被辨識時發生。<br/>                                                                                                                                |
@@ -141,13 +141,13 @@ InkEdit 控制項可讓您收集筆跡、辨識筆墨，以及將筆墨顯示為
 | [**hWnd**](/windows/desktop/api/inked/nf-inked-iinkedit-get_hwnd)                             | 取得 [**InkDisp**](inkdisp-class.md) 控制項所系結的視窗控制碼。<br/>                                                                                     |
 | [**InkInsertMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkinsertmode)           | 取得或設定值，這個值會指定如何將筆墨插入至 InkEdit 控制項（以文字或筆墨的形式）。<br/>                                                                |
 | [**InkMode**](/windows/desktop/api/inked/nf-inked-iinkedit-get_inkmode)                       | 取得或設定值，這個值會指定是否停用筆墨收集、收集筆跡，或是收集筆跡和手勢。<br/>                                               |
-| [**鎖定**](/windows/desktop/api/inked/nf-inked-iinkedit-get_locked)                         | 取得或設定值，這個值會指定 InkEdit 控制項是否為唯讀。<br/>                                                                                       |
+| [**已鎖定**](/windows/desktop/api/inked/nf-inked-iinkedit-get_locked)                         | 取得或設定值，這個值會指定 InkEdit 控制項是否為唯讀。<br/>                                                                                       |
 | [**MaxLength**](/windows/desktop/api/inked/nf-inked-iinkedit-get_maxlength)                   | 取得或設定值，指出 InkEdit 控制項是否可以保留最大字元數，如果是，則指定最大字元數。<br/>                 |
 | [**MouseIcon**](/windows/desktop/api/inked/nf-inked-iinkedit-get_mouseicon)                   | 取得或設定目前的自訂滑鼠圖示。<br/>                                                                                                                                |
 | [**MousePointer**](/windows/desktop/api/inked/nf-inked-iinkedit-get_mousepointer)             | 取得或設定值，這個值表示當滑鼠停留在 InkEdit 控制項的特定部分時，所顯示的滑鼠指標類型。<br/>                                |
 | [**適用**](/windows/desktop/api/inked/nf-inked-iinkedit-get_multiline)                   | 取得或設定值，這個值會指出這是否為多行 InkEdit 控制項。<br/>                                                                                           |
 | [**RecognitionTimeout**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognitiontimeout)        | 取得或設定上次收集 [**IInkStrokeDisp**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkstrokedisp) 物件與文字辨識開頭之間的時間長度（以毫秒為單位）。<br/>        |
-| [**辨識器**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer)                 | 取得或設定要用於辨識的 [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) 物件。<br/>                                                                                   |
+| [**識別**](/windows/desktop/api/inked/nf-inked-iinkedit-get_recognizer)                 | 取得或設定要用於辨識的 [**IInkRecognizer**](/windows/desktop/api/msinkaut/nn-msinkaut-iinkrecognizer) 物件。<br/>                                                                                   |
 | [**ScrollBars**](/windows/desktop/api/inked/nf-inked-iinkedit-get_scrollbars)                 | 取得或設定顯示在 InkEdit 控制項中的捲軸類型。<br/>                                                                                                   |
 | [**SelAlignment**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selalignment)             | 取得或設定要套用至目前選取範圍或插入點的對齊， (執行時間僅) 。<br/>                                                                           |
 | [**SelBold**](/windows/desktop/api/inked/nf-inked-iinkedit-get_selbold)                       | 取得或設定值，這個值會指定 InkEdit 控制項中目前所選取文字的字型樣式是否僅)  (執行時間。<br/>                                  |
@@ -168,38 +168,18 @@ InkEdit 控制項可讓您收集筆跡、辨識筆墨，以及將筆墨顯示為
 | [**TextRTF**](/windows/desktop/api/inked/nf-inked-iinkedit-get_textrtf)                       | 取得或設定 InkEdit 控制項的文字，包括所有 RTF 程式碼。<br/>                                                                                                     |
 | [**UseMouseForInput**](/windows/desktop/api/inked/nf-inked-iinkedit-get_usemouseforinput)     | 取得或設定值，這個值表示是否可以使用滑鼠做為輸入裝置。<br/>                                                                                      |
 
-
-
- 
-
-
-
 | 結構                                                                    | Description                                                                                  |
 |------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | [**IEC \_ STROKEINFO**](/windows/desktop/api/inked/ns-inked-iec_strokeinfo)                       | 包含 [**筆劃**](inkedit-stroke.md) 事件 (僅限 Win32) 的相關資訊。<br/> |
 | [**IEC \_ GESTUREINFO**](/windows/desktop/api/inked/ns-inked-iec_gestureinfo)                     | 包含特定手勢 (僅限 Win32) 的相關資訊。<br/>                       |
 | [**IEC \_ RECOGNITIONRESULTINFO**](/windows/desktop/api/inked/ns-inked-iec_recognitionresultinfo) | 包含 (Win32) 的辨識結果相關資訊。<br/>                     |
 
-
-
- 
-
 ## <a name="com-implementation"></a>COM 執行
 
-這個物件會實 **IInkEdit** COM 介面。
+這個物件會實 [IInkEdit](/windows/win32/api/inked/nn-inked-iinkedit) COM 介面。
 
 ## <a name="related-topics"></a>相關主題
 
-<dl> <dt>
-
-[**InkOverlay 類別**](inkoverlay-class.md)
-</dt> <dt>
-
-[InkPicture 控制項參考](inkpicture-control-reference.md)
-</dt> <dt>
-
-[**InkRecognizerCoNtext 類別**](inkrecognizercontext-class.md)
-</dt> </dl>
-
- 
-
+- [**InkOverlay 類別**](inkoverlay-class.md)， 
+- [InkPicture 控制項參考](inkpicture-control-reference.md)
+- [**InkRecognizerCoNtext 類別**](inkrecognizercontext-class.md)

@@ -1,19 +1,19 @@
 ---
-description: 適用于 網頁程式開發人員和線上提供者的指導方針，可針對 Windows 8 Web 驗證訊息代理程式 Api，建立專為單一登入 (SSO) 功能量身打造的網頁。
+description: 適用于 網頁程式開發人員和線上提供者的指導方針，可針對 Windows 8 web 驗證訊息代理程式 api，建立專為單一登入 (SSO) 功能量身打造的網頁。
 ms.assetid: E2AECE26-9649-41CB-9808-4F8171C707C3
 title: 與 Web 驗證訊息代理程式 Api 整合之線上提供者的使用者入門指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 842f3c562d2ad288efaecec82f8da8ca771886a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2bf0ce59cd92e32264823861aaef44e90b4f2c0
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851148"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353631"
 ---
 # <a name="getting-started-guidance-for-online-providers-integrating-with-the-web-authentication-broker-apis"></a>與 Web 驗證訊息代理程式 Api 整合之線上提供者的使用者入門指南
 
-本節將引導 網頁程式開發人員和線上提供者，以建立專為 Windows 8 Web Authentication Broker Api 量身打造的網頁。 它針對網頁的端對端使用者體驗提供視覺效果和互動式建議，以及如何啟用 (SSO) 功能的單一登入。
+本節將引導 網頁程式開發人員和線上提供者，以建立專為 Windows 8 web Authentication Broker api 量身打造的網頁。 它針對網頁的端對端使用者體驗提供視覺效果和互動式建議，以及如何啟用 (SSO) 功能的單一登入。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -21,11 +21,11 @@ ms.locfileid: "103851148"
 
 | 主題                                                                                                     | 描述                                                                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [網頁開發的考量](considerations-for-the-web-page-development.md)<br/> | Web 驗證訊息代理程式建置於與 Windows Internet Explorer 的相同技術之上。 不過，由於此元件的特殊用途，Internet Explorer 的某些功能已停用或鎖定特定的設定。 <br/> |
+| [網頁開發的考量](considerations-for-the-web-page-development.md)<br/> | Web 驗證訊息代理程式建置於 power Internet Explorer 的相同技術上 Windows。 不過，由於此元件的特殊用途，Internet Explorer 的某些功能已停用或鎖定特定的設定。 <br/> |
 | [如何自訂 UI 元素](how-to-customize-the-ui-elements.md)<br/>                       | 網頁會使用網頁上定義的元資料標記，利用標題、圖示和標題色彩，自訂使用者介面 (UI) 。<br/>                                                                                                                                |
 | [驗證網頁的教學課程](tutorial-for-authenticating-web-pages.md)<br/>             |                                                                                                                                                                                                                                                                                |
 | [Web 驗證問題](web-authentication-problems.md)<br/>                                 | 本主題說明針對您的網頁使用 Web 驗證訊息代理程式 Api 的疑難排解秘訣。<br/>                                                                                                                                                          |
-| [Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.md)<br/>                     | Web 驗證訊息代理程式的常見問題。<br/>                                                                                                                                                                                                           |
+| [Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.yml)<br/>                     | Web 驗證訊息代理程式的常見問題。<br/>                                                                                                                                                                                                           |
 
 
 

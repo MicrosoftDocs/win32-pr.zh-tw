@@ -4,12 +4,12 @@ ms.assetid: 271EC68B-5E58-4C1C-B631-DED6A694E98F
 title: 設計驗證網頁的最佳做法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6360e313b49a69c16aebf532911bcdf562f9a4a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfdd6ab5dc067c23cfb29d21d2ff4780cee0ef1c
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318723"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353671"
 ---
 # <a name="best-practices-for-designing-authentication-web-pages"></a>設計驗證網頁的最佳做法
 
@@ -41,7 +41,7 @@ ms.locfileid: "104318723"
 
 ## <a name="use-of-windows-8-css-styling"></a>使用 Windows 8 CSS 樣式
 
-提供的 ui-light 樣式表單是 Windows Store 應用程式所使用的 Windows 8 樣式表單。 它會針對印刷樣式和標準控制項（例如按鈕、文字方塊、超連結和核取方塊）定義 Windows Store 應用程式樣式，以確保它們的觸控性很容易理解。 當您設計和量身打造 Windows 8 的 web 授權頁面時，建議您使用此樣式表單，並視需要進行更新，只要您的網頁仍以自己的方式遵循最佳作法。
+提供的 ui-light 樣式表單是 Windows Store 應用程式所使用的 Windows 8 樣式表單。 它會定義印刷樣式和標準控制項（例如按鈕、文字方塊、超連結和核取方塊）的 Windows 存放區應用程式樣式，以確保它們的觸控性很好用。 當您設計和量身打造 Windows 8 的 web 授權頁面時，建議您使用此樣式表單，並視需要進行更新，只要您的網頁仍以自己的方式遵循最佳作法。
 
 比方說，如果您有一個特殊的樣式表單，讓超連結看起來像是在您的網頁上，最好是仔細確定您所提供的樣式跟標準 Windows 8 超連結一樣容易使用。 這對於在其觸控裝置上使用 Windows 8 的取用者基底而言是不可或缺的。
 
@@ -103,7 +103,7 @@ ms.locfileid: "104318723"
 [網頁開發的考量](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.md)
+[Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Web Authentication Broker SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)

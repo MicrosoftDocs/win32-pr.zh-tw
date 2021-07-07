@@ -4,12 +4,12 @@ ms.assetid: 25A024AA-9A70-40A5-BF5E-452FD148D0D2
 title: Web 驗證問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cc4611461effd9cbc5546059e71fc8ca3f1f0be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f996527c58b9620b8417ac3e6cdd6e0f61bd5217
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555480"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353661"
 ---
 # <a name="web-authentication-problems"></a>Web 驗證問題
 
@@ -21,7 +21,7 @@ ms.locfileid: "104555480"
 
 ## <a name="operational-logs"></a>作業記錄
 
-通常您可以透過使用作業記錄來判斷哪裡出問題。 有一個專屬的事件記錄檔頻道可供 Microsoft Windows WebAuth \\ 操作，讓網站開發人員瞭解 Web 驗證訊息代理程式處理網頁的方式。 若要啟用它，請啟動 eventvwr.exe，並在應用程式和服務 \\ Microsoft \\ Windows WebAuth 下啟用操作記錄 \\ 。 此外，Web 驗證訊息代理程式會將唯一字串附加至使用者代理字串，以在 Web 服務器上識別其本身。 這個字串是 "MSAuthHost/1.0"。 請注意，版本號碼在日後可能會有變更，因此在程式碼中不應該依據該版本號碼。 完整使用者代理程式字串的範例如下：
+通常您可以透過使用作業記錄來判斷哪裡出問題。 Microsoft Windows WebAuth 作業有專屬的事件記錄檔通道，可 \\ 讓網站開發人員瞭解 web 驗證訊息代理程式處理網頁的方式。 若要啟用它，請啟動 eventvwr.exe，並在應用程式和服務 \\ Microsoft \\ Windows WebAuth 下啟用操作記錄 \\ 。 此外，Web 驗證訊息代理程式會將唯一字串附加至使用者代理字串，以在 Web 服務器上識別其本身。 這個字串是 "MSAuthHost/1.0"。 請注意，版本號碼在日後可能會有變更，因此在程式碼中不應該依據該版本號碼。 完整使用者代理程式字串的範例如下：
 
 `User-Agent: Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Win64; x64; Trident/6.0; MSAuthHost/1.0)`
 
@@ -71,7 +71,7 @@ Fiddler web 偵錯工具可以與 Windows 8 apps 搭配使用。
 
 3.  將連入流量防火牆規則新增到 Fiddler。
 
-如需詳細資訊，請參閱 [使用 Fiddler web 偵錯工具搭配 Windows Store 應用程式的 Blog](/archive/blogs/fiddler/revisiting-fiddler-and-win8-immersive-applications)。
+如需詳細資訊，請參閱[使用 Fiddler web 偵錯工具搭配 Windows Store 應用程式的 Blog](/archive/blogs/fiddler/revisiting-fiddler-and-win8-immersive-applications)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -80,13 +80,13 @@ Fiddler web 偵錯工具可以與 Windows 8 apps 搭配使用。
 [網頁開發的考量](considerations-for-the-web-page-development.md)
 </dt> <dt>
 
-[Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.md)
+[Web 驗證訊息代理程式的常見問題](faq-for-web-authentication-broker.yml)
 </dt> <dt>
 
 [Web Authentication Broker SDK 範例應用程式](https://github.com/microsoft/Windows-universal-samples/tree/master/Samples/WebAuthenticationBroker)
 </dt> <dt>
 
-[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web?view=winrt-19041)
+[**Windows.Security.Authentication.Web**](/uwp/api/Windows.Security.Authentication.Web?view=winrt-19041&preserve-view=true)
 </dt> </dl>
 
  

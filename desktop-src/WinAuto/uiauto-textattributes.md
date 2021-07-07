@@ -11,12 +11,12 @@ keywords:
 - 消費者介面自動化，文字屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b011203111a6484156921d63cc27bb11b017e596
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7f8ae2d51a222e3833d0dd95fa6c048114a370a6
+ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106980276"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113353621"
 ---
 # <a name="ui-automation-text-attributes"></a>消費者介面自動化 Text 屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106980276"
 > [!Note]  
 > 從 Windows 8 開始支援列出的部分屬性。 如需有關版本支援的附注，請參閱 [**文字屬性識別碼**](uiauto-textattribute-ids.md) 。
 
- 
+ 
 
 本主題包含下列幾節：
 
@@ -53,12 +53,12 @@ ms.locfileid: "106980276"
 
 | 屬性             | 識別碼                                                            |
 |-----------------------|-----------------------------------------------------------------------|
-| **AnnotationObjects** | [**UIA \_ AnnotationObjectsAttributeId**](uiauto-textattribute-ids.md) |
-| **AnnotationTypes**   | [**UIA \_ AnnotationTypesAttributeId**](uiauto-textattribute-ids.md)   |
+| **AnnotationObjects** | [**UIA \_ AnnotationObjectsAttributeId**](uiauto-annotation-type-identifiers.md) |
+| **AnnotationTypes**   | [**UIA \_ AnnotationTypesAttributeId**](uiauto-annotation-type-identifiers.md)   |
 
 
 
- 
+ 
 
 ## <a name="font-attributes"></a>字型屬性
 
@@ -74,7 +74,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="language-attributes"></a>語言屬性
 
@@ -89,7 +89,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="link-attribute"></a>連結屬性
 
@@ -103,7 +103,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="page-margin-attributes"></a>頁面邊界屬性
 
@@ -120,7 +120,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="text-alignment-attributes"></a>文字對齊屬性
 
@@ -138,7 +138,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="text-color-attributes"></a>文字色彩屬性
 
@@ -153,7 +153,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="text-decoration-attributes"></a>文字裝飾屬性
 
@@ -177,7 +177,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="text-style-attributes"></a>文字樣式屬性
 
@@ -196,7 +196,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="interaction-and-selection-attributes"></a>互動和選取屬性
 
@@ -213,7 +213,7 @@ ms.locfileid: "106980276"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -231,6 +231,6 @@ ms.locfileid: "106980276"
 [使用以文字為基礎的控制項](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

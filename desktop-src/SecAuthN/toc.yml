@@ -28,7 +28,7 @@
             - name: 驗證套件
               href: authentication-packages.md
               items:
-                - name: Windows 驗證套件
+                - name: Windows驗證套件
                   href: windows-authentication-packages.md
                 - name: 安全性支援提供者/驗證套件
                   href: security-support-provider-authentication-packages.md
@@ -160,7 +160,7 @@
                       items:
                         - name: 金鑰驗證
                           href: key-authentication.md
-                        - name: 驗證器訊息
+                        - name: Authenticator消息
                           href: authenticator-messages.md
                         - name: 金鑰散發
                           href: key-distribution.md
@@ -175,7 +175,7 @@
                           href: authentication-service-exchange.md
                         - name: 票證授權服務交換
                           href: ticket-granting-service-exchange.md
-                        - name: 用戶端/伺服器交換
+                        - name: 用戶端/伺服器 Exchange
                           href: client-server-exchange.md
                     - name: Kerberos 模型
                       href: kerberos-components.md
@@ -393,7 +393,7 @@
             - name: Web 驗證問題
               href: web-authentication-problems.md
             - name: Web 驗證訊息代理程式的常見問題
-              href: faq-for-web-authentication-broker.md
+              href: faq-for-web-authentication-broker.yml
         - name: 使用網路提供者 API
           href: using-network-provider-api.md
           items:
@@ -445,7 +445,7 @@
                       items:
                         - name: 伺服器接續
                           href: server-continuation.md
-                - name: 確保訊息交換期間的通訊完整性
+                - name: 確保訊息 Exchange 期間的通訊完整性
                   href: ensuring-communication-integrity-during-message-exchange.md
                 - name: 結束 SSPI 會話
                   href: ending-an-sspi-session.md
@@ -1434,11 +1434,6 @@
                       href: ibytebuffer-unlockregion.md
                     - name: Write 方法
                       href: ibytebuffer-write.md
-            - name: ICcgDomainAuthCredentials
-              href: windows/win32/api/ccgplugins/nn-ccgplugins-iccgdomainauthcredentials
-              items:
-                - name: GetPasswordCredentials 方法
-                  href: windows/win32/api/ccgplugins/nf-ccgplugins-iccgdomainauthcredentials-getpasswordcredentials
             - name: IConnectedIdentityProvider
               href: /windows/desktop/api/Identityprovider/nn-identityprovider-iconnectedidentityprovider
               items:
