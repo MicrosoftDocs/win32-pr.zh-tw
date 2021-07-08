@@ -4,12 +4,12 @@ ms.assetid: 1466b4c7-49ea-417a-ac94-7b45515ccb96
 title: 使用種類名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f358306deaeb04d4ea30b10b0665cdc8323b4d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dca36d7c1de587efd8d96f0c18aaca9457721714
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318903"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481873"
 ---
 # <a name="using-kind-names"></a>使用種類名稱
 
@@ -24,7 +24,7 @@ ms.locfileid: "104318903"
 
 ## <a name="about-the-systemkind-property"></a>關於 System.object 屬性
 
-Windows Vista 引進了種類，以表達更容易使用的檔案類型概念。 `System.Kind`屬性會將專案分割成類型，並提供終端使用者可以識別的種類名稱，例如檔、音樂、圖片等等。 因此，種類名稱就稱為「使用者易記」。 因為 `System.Kind` 相同檔案類型的專案會將屬性設定為相同的值，並將具有類似特性的專案與通用屬性產生關聯，所以系統和使用者可以針對整個群組進行動作。 例如， `System.Kind` 屬性可用來限制搜尋特定種類的專案、顯示內容視圖中專案的最相關屬性，或將類似的專案群組在一起。
+種類是在 Windows Vista 中引進，以表達更容易使用的檔案類型概念。 `System.Kind`屬性會將專案分割成類型，並提供終端使用者可以識別的種類名稱，例如檔、音樂、圖片等等。 因此，種類名稱就稱為「使用者易記」。 因為 `System.Kind` 相同檔案類型的專案會將屬性設定為相同的值，並將具有類似特性的專案與通用屬性產生關聯，所以系統和使用者可以針對整個群組進行動作。 例如， `System.Kind` 屬性可用來限制搜尋特定種類的專案、顯示內容視圖中專案的最相關屬性，或將類似的專案群組在一起。
 
 因為 Kind 是多重值字串屬性，所以您可以有 `audio;video` 或種類的 `link;document` 值。 `System.Kind`值是字串值的排序清單。 在某些情況下，該清單中可能只有一個元素。 在其他情況下，專案可以屬於一個以上的類型。 如需屬於一種以上類型的專案範例，請參閱本主題中的登錄機碼範例。 字串值來自一組預先定義的已知值。 使用不區分大小寫和不區分地區設定的字串比較函式來比較值。 這些字串並不會當地語系化。
 
@@ -97,7 +97,7 @@ HKEY_LOCAL_MACHINE
 [註冊和散發屬性處理常式](./prophand-reg-dist.md)
 </dt> <dt>
 
-[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.md)
+[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

@@ -1,0 +1,158 @@
+### YamlMime:FAQ
+metadata:
+  title: 程式設計腳本常見問題
+  description: 程式設計腳本常見問題
+  ms.assetid: 84078c5b-7b04-48fa-9d0a-d95393c323eb
+  ms.topic: article
+  ms.date: 05/31/2018
+  ms.openlocfilehash: f3e9604bdc6bcd3871cbd931fb22b16400764dbd
+  ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+  ms.translationtype: MT
+  ms.contentlocale: zh-TW
+  ms.lasthandoff: 07/07/2021
+  ms.locfileid: "113483645"
+title: 程式設計腳本常見問題
+summary: >
+  \[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
+sections:
+- name: 忽略
+  questions:
+  - question: >
+      當我使用 microsoft Visual Basic (或其他開發) 工具來撰寫 microsoft Agent 的腳本時，我看不到您範例中使用的所有屬性和事件。 如何? 存取它們？
+    answer: >
+      Microsoft Agent 控制項所支援的大部分事件、方法和屬性，只會在執行時間公開。 如需詳細資訊，請參閱 [Microsoft Agent 控制項程式設計](programming-the-microsoft-agent-control.md) 。
+  - question: >
+      地圖示記 (或某些其他標記) 似乎無法運作。
+    answer: "某些標記包含加上引號的字串。 針對某些程式設計語言（例如 Microsoft Visual Basic 和 Visual Basic 腳本撰寫版），您可能必須使用兩個引號來指定標記的參數，或串連雙引號字元作為字串的一部分。 後者會顯示在此 Visual Basic 範例中：\n\n代理 1 \"瓶精靈\" )  ( 字元。說 \"This This \\\\ map =\" + chr (34) + \"口頭 text\" \\_ + chr (34) + \"=\" + chr (34) + \"Balloon text\" + chr (34) + \" \\\\ .\"\n\n若為 C、c + + 和 JAVA 程式設計，請在反斜線和雙引號前面加上反斜線。 例如：\n\nBSTR bszSpeak = SysAllocString (L \"This This \\\\ \\\\ map = \\\\ \" 說出的文字 \\\\ \"= \\\\ \" Balloon text \\\\ \" \\\\ \\\\ \" ) ;\n\npCharacter >說 (bszSpeak，... ) ;\n\n> [!Note]  \n> Microsoft 代理程式不支援 Microsoft Speech API 中指定的所有標記。 此外，對某些參數的支援可能取決於所安裝的文字轉換語音引擎。 如需詳細資訊，請參閱 [Microsoft Agent 語音輸出標記](microsoft-agent-speech-output-tags.md)。\n\n \n"
+  - question: >
+      我似乎未在腳本 (或程式) 中取得 RequestStart 和 RequestComplete 事件。
+    answer: >
+      這可能是下列其中一個問題所造成：
+
+
+      -   您的程式設計語言並不完全支援 ActiveX 控制項。 請檢查您的檔，以確定它支援 ActiveX 物件的 ActiveX 介面和事件。
+
+      -   在已編寫腳本的網頁上，另一個控制項無法安裝或載入。 檢查以確定所有其他控制項都已正確安裝，且沒有 Microsoft 代理程式可正常載入。
+
+      -   在具有框架的腳本網頁上，您會在 `<OBJECT>` 單一頁面上有 Microsoft Agent 控制項的標記，以及在另一個頁面上編寫腳本的事件。 事件只會傳送至裝載控制項的頁面。
+  - question: >
+      我在我的網頁上使用 Microsoft Agent control 與其他 ActiveX 控制項，但似乎沒有收到任何事件。
+    answer: >
+      查看是否已正確安裝其他控制項。 如果另一個 ActiveX 控制項無法正確註冊本身，Microsoft Agent 控制項可能會接收到其事件。
+  - question: >
+      我可以使用哪些程式設計語言來設計 Microsoft Agent 控制項？
+    answer: >
+      Microsoft Agent 應可從支援 ActiveX 介面的任何語言支援。 它包含 Visual Basic、VBScript、JScript、c/c + + 和 JAVA 的程式碼範例。
+  - question: >
+      我可以使用 JScript 來存取 Microsoft 代理程式所傳回的參數嗎？
+    answer: >
+      是的，但目前唯一的方法是使用 `<SCRIPT LANGUAGE="JScript" FOR="*object*" EVENT="event()">` 語法。 雖然 Microsoft Internet Explorer 支援這個語法，但其他瀏覽器並不支援，因此您可能會想要避免在頁面腳本的這個部分使用 JScript。
+  - question: >
+      Microsoft 代理程式是否可以搭配語音辨識或語音合成 (Microsoft 提供的文字轉換語音或 TTS) 引擎？
+    answer: >
+      是的，前提是引擎支援 microsoft 代理程式所需的 Microsoft Speech API (SAPI) 4.0 介面。 請與引擎供應商確認。 如需 Microsoft Agent 所需的 SAPI 介面完整詳細資訊，請參閱 [語音引擎支援需求](speech-engine-support-requirements.md)。
+  - question: >
+      [我的頁面] 包含適用于 Microsoft Agent、Lernout & Hauspie TruVoice TTS 引擎的 HTML 物件標記，以及 Microsoft 命令和 Control speech 辨識引擎，但不是所有元件的安裝。
+    answer: >
+      通常，您可以藉由重新整理頁面來修正此問題。 一般來說，最好先指定 Microsoft Agent Control `<OBJECT>` 標記，接著 Lernout & Hauspie TruVoice engine，然後命令和控制語音辨識引擎。
+  - question: >
+      在呼叫 MoveTo 方法之後，即使我已傳回指派給移動狀態動畫的動畫，我的字元還是會凍結。
+    answer: >
+      當您播放動畫時，動畫服務會繼續顯示最後一個畫面格，直到呼叫另一個動畫為止。 因此，您應該在呼叫 [**MoveTo**](moveto-method.md)之後播放另一個動畫。 如果您定義了 **移動** 狀態動畫的 **傳回動畫，** 伺服器將會先播放動畫。
+  - question: >
+      當我查詢字元的「音調」屬性時，它會傳回值-1。
+    answer: >
+      如果已使用語音引擎的預設音調屬性編譯字元，就會發生這種情況;也就是說，建立字元時，不會變更音調。
+  - question: >
+      當我的程式碼嘗試設定文字轉換語音引擎的 TTS 模式識別碼時，我收到下列錯誤：無法進行外寄呼叫，因為應用程式正在分派輸入同步呼叫。
+    answer: >
+      若要設定 TTSModeID 屬性，您必須安裝 Speech.dll。 這通常是語音引擎安裝程式碼的一部分。 您也可以安裝 [語音物件] 控制台（可從 Microsoft 代理程式下載頁面取得）來安裝此功能。
+  - question: >
+      當我重試載入無法載入的字元時，呼叫會失敗並出現「已載入的字元」錯誤。
+    answer: "Microsoft Agent 控制項不會卸載字元物件 (在其相關聯的字元檔載入失敗時，釋放參考) 。 如果您想要重試載入該字元，您必須在第二次呼叫 [**Load**](load-method.md)之前明確呼叫 [**Unload**](unload-method.md) 。 如果您嘗試從網頁腳本進行此操作，您也必須在 **Unload** 呼叫之前加上 On Error Resume Next 語句，否則卸載 **呼叫也** 會失敗。  (請注意，JScript 繼續下一個語句時，不會有任何錯誤。 ) \n\n不過，當檔案無法載入時，您可能不需要包含程式碼來立即重試載入某個字元。 Microsoft Internet Explorer 和 Microsoft 代理程式伺服器元件會自動嘗試重試數次，因此您的重試可能會導致在遠端成功載入。 更好的策略是等候 (設定計時器) 幾秒鐘後再重試。\n"
+  - question: >
+      如何在我的應用程式或 web 伺服器上安裝 Microsoft Agent？
+    answer: "您可以從 Microsoft 網站安裝代理程式，方法是 *在 HTML 物件標記中* 包含其 CLSID。 但是，如果您想要從自己的應用程式安裝程式或您自己的伺服器包含並安裝代理程式，您必須下載 Microsoft 代理程式自行安裝封包檔，方法是從 [下載] 頁面下載該檔案。 下載時，請選擇瀏覽器的 [儲存]，而非 [執行] 選項。 每當執行此檔案時，它會自動在目的電腦上安裝 Microsoft 代理程式。 因此，您可以在安裝腳本中指定檔案。\n\n請勿嘗試透過複製其不同的方式來安裝 Microsoft 代理程式。Dll 和嘗試自行註冊。 若嘗試以其他方式安裝代理程式，則不支援執行其自行安裝的封包檔。\n\n目標系統也必須包含最新版本的 MSVCRT.DLL (VC++ 執行時間) 、REGSVR32.EXE Microsoft (VC++ 和 COM 隨附的) 註冊工具。 確保安裝正確版本的最佳方式，是要求安裝 Microsoft Internet Explorer 3.02 或更新版本。 不過，您也可以授權這些執行時間需求。  (最新版本的 COM，請從 Microsoft 網站存取 DCOM 更新。 ) \n\nmicrosoft 代理程式2.0 將不會安裝在 microsoft Windows 2000，因為此版本的作業系統已包含代理程式。\n"
+  - question: >
+      我可以使用 Visual Basic 設定向導來安裝 Microsoft 代理程式嗎？
+    answer: >
+      雖然您可以使用 Visual Basic (VB) 程式碼來建立自己的安裝程式，但無法使用 [Visual Basic 安裝程式] 來執行此作業。 若要從 VB 安裝代理程式，您可以使用 Shell 命令，並指定 Microsoft 代理程式自行安裝封包檔。
+  - question: >
+      如何? 在 Windows 2000 上安裝 Microsoft 代理程式？
+    answer: >
+      Microsoft 代理程式2.0 不會安裝在 Windows 2000 上，因為它已包含在作業系統中。
+  - question: >
+      使用 WAV 檔呼叫說話時，AgentSvr 損毀。
+    answer: >
+      這可能是因為字元已使用 TTS 進行語音輸出，然後變更為使用 WAV 檔案。 未在說話方法的第一個參數中提供文字。
+
+
+      若要避免損毀，請在說話方法的第一個參數中包含空白字元，即使您沒有文字輸出也一樣。
+  - question: >
+      即使我已安裝特定語言的代理程式語言元件 (DLL) ，仍會收到錯誤，指出當我將字元的語言設定為該語言時，元件遺失。
+    answer: >
+      當您安裝代理程式語言元件時，例如 Microsoft Office 2000 開啟時，通常就會發生這種情況。 關閉所有應用程式，然後再試一次。 如果問題持續發生，請重新開機您的電腦，您應該能夠立即設定語言識別項。
+  - question: >
+      當我使用連字號 "&" 符號時，會截斷字元在字元的單字批註中的文字周圍文字。
+    answer: >
+      這是已知問題。 您可以使用 map 標記來解決這個問題。 例如，若要在字元的字提示字元中顯示 "A & B"，請 \\ 在朗讀語句中使用 "a map =" 和 "=" && " \\ B"。
+  - question: >
+      我的應用程式可讓使用者變更預設字元，當程式完成時，程式會損毀。
+    answer: >
+      有兩個可能的原因：
+
+
+      如果您變更預設字元的 TTS 模式識別碼，然後允許使用者透過 ShowDefaultCharacterProperties 變更預設字元，AgentSvr 將會損毀。
+
+
+      此問題已在 Windows 2000 和 Windows XP 作業系統中修正。 若要避免在其他平臺上損毀，您應該不要讓使用者在變更預設字元的 TTS 模式識別碼之後變更預設字元，或是不要使用應用程式或網頁中的預設字元。
+
+
+      如果您的應用程式未使用 Microsoft 提供的代理程式字元，請確定您的自訂字元使用具有完整調色板256色彩的調色板。 如需詳細資訊，請參閱設計 Microsoft Agent 檔的字元。
+  - question: >
+      我的頁面會從多個畫面載入代理程式字元。 使用 IE 5 時，我收到 Microsoft 代理程式無法載入錯誤。
+    answer: >
+      這是 IE 5 的已知問題。 瀏覽器處理特定事件的方式有所變更，這會導致 HTML 腳本在 AgentSvr 啟動之前開始執行。 為了讓您的頁面能夠與所有版本的瀏覽器搭配使用，您必須將這一行新增至您的腳本：
+
+
+      AgentControl。 Connected = True
+
+
+      這會明確建立與 AgentSvr 的連接。 請注意，如果您的頁面從多個畫面載入代理程式，您只需要這麼做。
+  - question: >
+      當我的應用程式嘗試在 Windows 2000 (或 Windows XP) 上安裝 Microsoft Agent 時，我收到錯誤訊息，指出代理程式與 Windows 2000 (或 Windows xp) 不相容。
+    answer: >
+      舊版的代理程式核心元件封包檔 MSAGENT.exe，在 Windows 2000 (和 Windows XP) 上執行時，將會封鎖安裝並顯示不正確的錯誤訊息，指出代理程式與您正在執行的作業系統版本不相容。 事實上，Microsoft Agent 2.0 核心元件隨附于 Windows 2000 (和 Windows XP) ，而且預設已透過 Windows 安裝程式安裝。
+
+
+      在此版本中，會移除檢查，而且安裝檔案不會在 Windows 2000 (或 Windows XP) 下顯示上述的錯誤訊息。 請注意，這是安裝檔案的唯一變更，而代理程式核心元件本身也不會變更任何程式碼。 因此，如果您已安裝代理程式2.0，或您的網站使用物件標記來觸發從 Microsoft 物件存放區自動下載代理程式核心元件，則不會受到此更新的影響。
+
+
+      如果您將代理程式核心元件安裝檔案包含在您的應用程式中，或是在伺服器上張貼安裝檔案，您可能會想要下載此更新。 若要這樣做，請按一下這裡，然後選取 [將此程式儲存到磁片] 選項。 在這些情況下，您必須具備有效且目前的代理程式散發授權。
+
+
+      或者，您也可以在安裝舊版 MSAGENT.exe 安裝檔案時，使用 [無訊息] 選項來解決這個問題。 Shell 命令為：
+
+
+      **MSAGENT.exe/q： a**
+
+
+      這同樣適用于1998年10月發行的代理程式語言元件。 有一項檢查會防止阿拉伯文、法文、德文、希伯來文、義大利文、日文、韓文、簡體中文、西班牙文和繁體中文語言元件安裝在 Windows 2000 (和 Windows XP) 下。 這些安裝檔案的較新版本，以及在2000年3月新增的額外19種語言，不包含這項檢查，而且會成功安裝在 Windows 2000 (和 Windows XP) 上。
+  - question: >
+      我的自訂字元在 Windows 2000 (和 Windows XP) 上展示了一些非預期的行為，其透明度色彩。
+    answer: >
+      這是使用小於256色彩之調色板建立的字元的已知問題。 這些字元的問題包括背景、透明氣球文字、透明氣球框線或透明氣球背景中顯示的透明色彩。 請注意，這類字元可能會導致您的應用程式在 [代理程式字元選擇器] 對話方塊或 Microsoft Office 助理資源庫中載入時損毀。 您自訂的字元必須使用具有256色彩的完整調色板。 您可以使用 Office 小幫手字元所提供的範例調色板做為具有完整256色調色板的起點。
+  - question: >
+      即使我已將其語言識別項設定為英式英文 &h0809，字元也不會使用英國英文 TTS 引擎。
+    answer: >
+      首先，請確定您已安裝所有必要元件，例如代理程式核心元件、SAPI 執行時間二進位檔，以及 SAPI4 相容的英式英文 TTS 引擎（例如 TTS3000 英式英文引擎），可在代理程式下載頁面上下載。 如果您的字元仍未使用美式英文 TTS 引擎，您可能也會安裝美式英文 TTS 引擎。 由於英國和美式英文兩者共用相同的主要語言 (英文) 和美式英文是預設值，因此代理程式會挑選由 SAPI 傳回的第一個可用的美式英文 TTS 引擎。 若要使用英式英文的 TTS 引擎，請改用字元的 TTSModeID 屬性。 例如，TTS3000 英式英文男性語氣的 TTSModeID 是 {227A0E41-A92A-11d1-B17B-0020AFED142E}。 在 Microsoft Visual Basic 您可以藉由設定 Merlin 的 TTSModeID 來使用此引擎，如下所示：
+
+
+      AgentControl "Merlin" )  ( 字元。TTSModeID = {227A0E41-A92A-11d1-B17B-0020AFED142E}
+  - question: >
+      當使用聲控標籤 \Vol = 0 將字元的磁片區設定為零時， \, 就不會有任何作用或損毀 AgentSvr。
+    answer: >
+      這是已知的問題。 在 Windows 95、Windows 98 和 Windows Me 作業系統上，字元的磁片區不會變更，但會保留在先前設定的層級。 在 Windows NT 4.0、Windows 2000 和 Windows XP 平臺上，這會導致 AgentSvr 損毀，即使未安裝 TTS 引擎也是如此。 由於字元的磁片區範圍從 0 (無回應) 為 65535 (最大磁片區) 、很大，而且連續層級之間的差異不會明顯，因此，簡單的因應措施是在您想要聽不清楚字元的聲音時，將磁片區設定為1，而不是0。
+  - question: >
+      在 MoveDown、MoveLeft、MoveRight 和/或上移動畫之後，我的自訂字元傳回動畫無法正常播放。
+    answer: 請確定已將簡單的說話動畫指派給說話狀態。 例如，您可以使用單一框架，其中包含字元的中性位置和嘴重迭。

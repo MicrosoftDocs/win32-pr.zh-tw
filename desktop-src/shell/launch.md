@@ -4,12 +4,12 @@ ms.assetid: d774c3b2-4caf-460a-ac32-0ed603491d5f
 title: '啟動應用程式 (ShellExecute、ShellExecuteEx、SHELLEXECUTEINFO) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e528e6c816040a83d57864999fbb2d683f9fea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3ae5640acdbf4d959b97607cc66a4fd8fe8ac24
+ms.sourcegitcommit: 89aa14b1f685f8d65d56ecbdb8bef12246c33cf9
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848795"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "113508609"
 ---
 # <a name="launching-applications-shellexecute-shellexecuteex-shellexecuteinfo"></a>啟動應用程式 (ShellExecute、ShellExecuteEx、SHELLEXECUTEINFO) 
 
@@ -52,13 +52,11 @@ ms.locfileid: "103848795"
 | 開啟       | 啟動應用程式。 如果此檔案不是可執行檔，則會啟動其相關聯的應用程式。 |
 | print      | 列印檔案檔。                                                                                |
 | properties | 顯示物件的屬性。                                                                        |
-| runas      | 以系統管理員身分啟動應用程式。  (UAC) 的使用者帳戶控制會提示使用者同意 |
-|            | 提高許可權執行應用程式，或輸入用來執行的系統管理員帳戶的認證        |
-|            | 應用程式中設定單一登入。                                                                                             |
+| runas      | 以系統管理員身分啟動應用程式。 使用者帳戶控制 (UAC) 會提示使用者同意執行提高許可權的應用程式，或輸入用來執行應用程式之系統管理員帳戶的認證。 |
 
- 
 
-每個動詞命令都對應至用來從主控台視窗啟動應用程式的命令。 **Open** 動詞是很好的範例，因為它通常是受支援的。 若是 .exe 檔案， **開啟** 只會啟動應用程式。 不過，這通常是用來啟動在特定檔案上運作的應用程式。 比方說，Microsoft WordPad 可以開啟 .txt 檔。 .Txt 檔案的 **open** 動詞將對應至類似下列的命令：
+
+每個動詞命令都對應至用來從主控台視窗啟動應用程式的命令。 **Open** 動詞是很好的範例，因為它通常是受支援的。 針對 .exe 檔案， **開啟** 只會啟動應用程式。 不過，這通常是用來啟動在特定檔案上運作的應用程式。 比方說，Microsoft WordPad 可以開啟 .txt 的檔案。 因此，.txt 檔案的 **open** 動詞會對應至類似下列的命令：
 
 
 ```C++
@@ -67,13 +65,13 @@ C:\Program Files\Windows NT\Accessories\Wordpad.exe" "%1"
 
 
 
-當您使用 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 或 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 來開啟 .txt 檔案時，會以指定的檔案作為其引數來啟動 Wordpad.exe。 某些命令可以有額外的引數（例如旗標），可視需要新增以正確啟動應用程式。 如需快捷方式功能表和動詞的進一步討論，請參閱 [擴充快捷方式功能表](context.md)。
+當您使用 [**ShellExecute**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecutea) 或 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 來開啟 .txt 檔案時，Wordpad.exe 會以指定的檔案作為其引數來啟動。 某些命令可以有額外的引數（例如旗標），可視需要新增以正確啟動應用程式。 如需快捷方式功能表和動詞的進一步討論，請參閱 [擴充快捷方式功能表](context.md)。
 
 一般情況下，嘗試判斷特定檔案的可用動詞清單會有點複雜。 在許多情況下，您只要將 *lpVerb* 參數設定為 **Null**，就會叫用檔案類型的預設命令。 此程式通常相當於將 *lpVerb* 設定為「開啟」，但某些檔案類型可能會有不同的預設命令。 如需詳細資訊，請參閱 [擴充快捷方式功能表](context.md) 和 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 參考檔。
 
 ### <a name="using-shellexecuteex-to-provide-activation-services-from-a-site"></a>使用 ShellExecuteEx 從網站提供啟用服務
 
-網站鏈的服務可以控制專案啟用的許多行為。 Windows 8，您可以提供指向 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 的網站鏈指標，以啟用這些行為。 若要提供網站給 **ShellExecuteEx**：
+網站鏈的服務可以控制專案啟用的許多行為。 Windows 8，您可以提供指向 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)的網站鏈指標，以啟用這些行為。 若要提供網站給 **ShellExecuteEx**：
 
 -   \_ \_ \_ \_ \_ 在 [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa)的 **fMask** 成員中，指定 HINST 為 SITE 旗標的 [請參閱遮罩旗標]。
 -   在 [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa)的 **hInstApp** 成員中提供 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 。
@@ -162,7 +160,7 @@ main()
 
 應用程式會先抓取 Windows 目錄的 PIDL，並列舉其內容，直到找到第一個 .bmp 檔案為止。 不同于先前的範例， [**IShellFolder：： GetDisplayNameOf**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-getdisplaynameof) 是用來抓取檔案的剖析名稱，而不是其顯示名稱。 因為這是檔系統資料夾，所以剖析名稱是完整路徑，這是 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)所需的路徑。
 
-一旦找到第一個 .bmp 檔案，就會將適當的值指派給 [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) 結構的成員。 **LpFile** 成員會設定為檔案的剖析名稱，而 **lpVerb** 成員會設定為 **Null**，以開始預設作業。 在此情況下，預設作業為 "open"。 然後，會將結構傳遞至 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)，以啟動點陣圖檔案的預設處理常式（通常 MSPaint.exe）來開啟檔案。 函數傳回之後，Pidl 就會釋出，並釋放 Windows 資料夾的 [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder) 介面。
+一旦找到第一個 .bmp 檔案，就會將適當的值指派給 [**SHELLEXECUTEINFO**](/windows/desktop/api/Shellapi/ns-shellapi-shellexecuteinfoa) 結構的成員。 **LpFile** 成員會設定為檔案的剖析名稱，而 **lpVerb** 成員會設定為 **Null**，以開始預設作業。 在此情況下，預設作業為 "open"。 然後，會將結構傳遞至 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)，以啟動點陣圖檔案的預設處理常式（通常 MSPaint.exe）來開啟檔案。 函數傳回之後，pidl 就會釋出，並釋放 Windows 資料夾的 [**IShellFolder**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellfolder)介面。
 
  
 

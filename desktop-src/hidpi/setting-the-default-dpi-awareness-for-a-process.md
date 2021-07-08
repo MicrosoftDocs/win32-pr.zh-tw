@@ -8,16 +8,16 @@ ms:contentKeyID: 74520139
 ms.date: 03/30/2018
 ms.topic: article
 mtps_version: v=VS.85
-ms.openlocfilehash: ff869974e6d9aa2eec2b3251832c061d7b6826da
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: c9192bf650588b7c21f17afb45149fe460f91bea
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106997606"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481863"
 ---
 # <a name="setting-the-default-dpi-awareness-for-a-process"></a>設定進程的預設 DPI 感知
 
-Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 這些模式會啟用不同的 DPI 縮放比例行為，而且可以使用不同的座標空間。 如需 DPI 感知的詳細資訊，請參閱 [Windows 上的高 DPI 桌面應用程式開發。](https://msdn.microsoft.com/library/mt843498\(v=vs.85\)) 請務必明確地設定流程的預設 DPI 感知模式，以避免非預期的行為。
+Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 這些模式會啟用不同的 DPI 縮放比例行為，而且可以使用不同的座標空間。 如需 DPI 感知的詳細資訊，請參閱[Windows 上的高 DPI 桌面應用程式開發。](https://msdn.microsoft.com/library/mt843498\(v=vs.85\)) 請務必明確地設定流程的預設 DPI 感知模式，以避免非預期的行為。
 
 有兩個主要方法可指定進程的預設 DPI 感知：
 
@@ -29,7 +29,7 @@ Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 
 
 ## <a name="setting-default-awareness-with-the-application-manifest"></a>使用應用程式資訊清單設定預設感知
 
-有兩個資訊清單設定可讓您指定進程的預設 DPI 感知模式： \<dpiAwareness\> 和 \<dpiAware\> 。 \<dpiAware\> 是在 Windows Vista 中引進的，而且只會讓您的進程預設值設定為系統感知。 \<dpiAwareness\> 是在 Windows 10 1607 版中引進，可讓您指定進程預設 DPI 感知模式的已排序清單。 這可讓您設定備份 DPI 感知模式，如果您的應用程式是在某個版本的 Windows 上執行，而無法支援指定的第一個感知模式，則會使用此模式。 在較舊版本的 Windows 上，將會忽略較新的 \<dpiAwareness\> 標記。 這表示您可以同時使用這兩個資訊清單設定，以啟用您的進程預設值可能會對舊版 Windows 進行系統感知的情況，同時 Per-Monitor 高於 Windows 10 1607 版的版本。 在 Windows 10、版本1607和上， \<dpiAware\> 如果有元素，則會忽略此設定 \<dpiAwareness\> 。
+有兩個資訊清單設定可讓您指定進程的預設 DPI 感知模式： \<dpiAwareness\> 和 \<dpiAware\> 。 \<dpiAware\>是在 Windows Vista 中引進，而且只會讓您的進程預設值設定為系統感知。 \<dpiAwareness\>是在 Windows 10 1607 版中引進，可讓您指定進程預設 DPI 感知模式的已排序清單。 這可讓您設定備份 DPI 感知模式，如果您的應用程式是在某個版本的 Windows 無法支援指定的第一個感知模式時，就會使用此模式。 在較舊版本的 Windows 上，將會忽略較新的 \<dpiAwareness\> 標記。 這表示您可以同時使用這兩個資訊清單設定，以啟用您的進程預設值可能在舊版 Windows 的系統感知，Per-Monitor 但版本大於 Windows 10 1607 版本的情況。 在 Windows 10、版本1607和上， \<dpiAware\> 如果有元素，則會忽略此設定 \<dpiAwareness\> 。
 
 下表說明如何使用兩個資訊清單設定來指定不同的進程預設 DPI 感知模式：
 
@@ -115,18 +115,18 @@ Windows 上的桌面應用程式可以在不同的 DPI 感知模式下執行。 
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDpiAware</a></td>
+<td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiaware">SetProcessDPIAware</a></td>
 <td>Windows Vista</td>
 <td>N/A</td>
-<td>SetProcessDpiAware () </td>
+<td>SetProcessDPIAware () </td>
 <td>N/A</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shellscalingapi/nf-shellscalingapi-setprocessdpiawareness"><strong>SetProcessDpiAwareness</strong></a></td>
 <td>Windows 8.1</td>
 <td>SetProcessDpiAwareness (PROCESS_DPI_UNAWARE) </td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_SYSTEM_DPI_AWARE) </td>
-<td>SetProcessDpiAwareness (PROCESS_DPI_PER_MONITOR_DPI_AWARE) </td>
+<td>SetProcessDpiAwareness (PROCESS_SYSTEM_DPI_AWARE) </td>
+<td>SetProcessDpiAwareness (PROCESS_PER_MONITOR_DPI_AWARE) </td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext"><strong>SetProcessDpiAwarenessCoNtext</strong></a></td>

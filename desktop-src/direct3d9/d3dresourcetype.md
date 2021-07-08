@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 4d7fab861d85a2c0289ba1636dece0e76c7819e1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ecb6b0c84f884df6441f3272a585ee3e09928661
+ms.sourcegitcommit: bfab92e16614d4fa54b044917358261232bda81a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946056"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "113489682"
 ---
 # <a name="d3dresourcetype-enumeration"></a>D3DRESOURCETYPE 列舉
 
@@ -33,7 +33,7 @@ typedef enum D3DRESOURCETYPE {
   D3DRTYPE_VOLUME         = 2,
   D3DRTYPE_TEXTURE        = 3,
   D3DRTYPE_VOLUMETEXTURE  = 4,
-  D3DRTYPE_CubeTexture    = 5,
+  D3DRTYPE_CUBETEXTURE    = 5,
   D3DRTYPE_VERTEXBUFFER   = 6,
   D3DRTYPE_INDEXBUFFER    = 7,
   D3DRTYPE_FORCE_DWORD    = 0x7fffffff
@@ -74,7 +74,7 @@ Surface 資源。
 
 </dd> <dt>
 
-<span id="D3DRTYPE_CubeTexture"></span><span id="d3drtype_cubetexture"></span><span id="D3DRTYPE_CUBETEXTURE"></span>**D3DRTYPE \_ CubeTexture**
+<span id="D3DRTYPE_CubeTexture"></span><span id="d3drtype_cubetexture"></span><span id="D3DRTYPE_CUBETEXTURE"></span>**D3DRTYPE \_ CUBETEXTURE**
 </dt> <dd>
 
 Cube 材質資源。

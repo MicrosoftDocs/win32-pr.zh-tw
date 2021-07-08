@@ -1,4 +1,4 @@
-- name: Windows 屬性系統
+- name: Windows屬性系統
   href: windows-properties-system.md
   items:
     - name: 屬性系統概觀
@@ -25,7 +25,7 @@
             - name: 註冊和散發屬性處理常式
               href: prophand-reg-dist.md
             - name: 屬性處理常式的最佳作法和常見問題
-              href: prophand-bestprac-faq.md
+              href: prophand-bestprac-faq.yml
     - name: 屬性系統參考
       href: property-system-reference.md
       items:
@@ -88,7 +88,7 @@
                   href: props-system-calendar-showtimeas.md
                 - name: ShowTimeAsText
                   href: props-system-calendar-showtimeastext.md
-            - name: 通訊
+            - name: 溝通
               href: communication-bumper.md
               items:
                 - name: System.servicemodel
@@ -664,7 +664,7 @@
                   href: props-system-priority.md
                 - name: System. PriorityText
                   href: props-system-prioritytext.md
-                - name: System. 專案
+                - name: 系統。Project
                   href: props-system-project.md
                 - name: System. ProviderItemID
                   href: props-system-provideritemid.md
@@ -757,25 +757,25 @@
               items:
                 - name: PrinterURL
                   href: props-system-device-printerurl.md
-                - name: DeviceInterface 藍牙. DeviceAddress
+                - name: DeviceInterface。藍牙。DeviceAddress
                   href: props-system-deviceinterface-bluetooth-deviceaddress.md
-                - name: DeviceInterface。
+                - name: DeviceInterface。藍牙。標誌
                   href: props-system-deviceinterface-bluetooth-flags.md
-                - name: DeviceInterface 藍牙. LastConnectedTime
+                - name: DeviceInterface。藍牙。LastConnectedTime
                   href: props-system-deviceinterface-bluetooth-lastconnectedtime.md
-                - name: DeviceInterface，製造商
+                - name: DeviceInterface。藍牙。製造商
                   href: props-system-deviceinterface-bluetooth-manufacturer.md
-                - name: DeviceInterface 藍牙. ModelNumber
+                - name: DeviceInterface。藍牙。ModelNumber
                   href: props-system-deviceinterface-bluetooth-modelnumber.md
-                - name: DeviceInterface。
+                - name: DeviceInterface。藍牙。產品
                   href: props-system-deviceinterface-bluetooth-productid.md
-                - name: DeviceInterface 藍牙. ProductVersion
+                - name: DeviceInterface。藍牙。ProductVersion
                   href: props-system-deviceinterface-bluetooth-productversion.md
-                - name: DeviceInterface 藍牙. ServiceGuid
+                - name: DeviceInterface。藍牙。ServiceGuid
                   href: props-system-deviceinterface-bluetooth-serviceguid.md
-                - name: DeviceInterface。
+                - name: DeviceInterface。藍牙。VendorId
                   href: props-system-deviceinterface-bluetooth-vendorid.md
-                - name: DeviceInterface 藍牙. VendorIdSource
+                - name: DeviceInterface。藍牙。VendorIdSource
                   href: props-system-deviceinterface-bluetooth-vendoridsource.md
                 - name: DeviceInterface. IsReadOnly
                   href: props-system-deviceinterface-hid-isreadonly.md
@@ -821,43 +821,43 @@
                   href: props-system-deviceinterface-winusb-usbvendorid.md
                 - name: System.Devices.Aep.AepId
                   href: props-system-devices-aep-aepid.md
-                - name: Aep 的主要版本。
+                - name: Aep。藍牙。貨貨。主要
                   href: props-system-devices-aep-bluetooth-cod-major.md
-                - name: AepService 藍牙. CacheMode
+                - name: AepService。藍牙。CacheMode
                   href: props-system-devices-aepservice-bluetooth-cachemode.md
-                - name: AepService 藍牙. ServiceGuid
+                - name: AepService。藍牙。ServiceGuid
                   href: props-system-devices-aepservice-bluetooth-serviceguid.md
-                - name: AepService 藍牙. TargetDevice
+                - name: AepService。藍牙。TargetDevice
                   href: props-system-devices-aepservice-bluetooth-targetdevice.md
-                - name: Aep...。
+                - name: Aep。藍牙。貨。次要
                   href: props-system-devices-aep-bluetooth-cod-minor.md
-                - name: Aep....。
+                - name: Aep。藍牙。. 音訊
                   href: props-system-devices-aep-bluetooth-cod-services-audio.md
-                - name: Aep... a。
+                - name: Aep。藍牙。. 服務. 捕獲
                   href: props-system-devices-aep-bluetooth-cod-services-capturing.md
-                - name: Aep，資訊的資訊。
+                - name: Aep。藍牙資訊
                   href: props-system-devices-aep-bluetooth-cod-services-information.md
-                - name: Aep.... LimitedDiscovery
+                - name: Aep。藍牙。LimitedDiscovery
                   href: props-system-devices-aep-bluetooth-cod-services-limiteddiscovery.md
-                - name: Aep....。
+                - name: Aep。藍牙的.. 服務
                   href: props-system-devices-aep-bluetooth-cod-services-networking.md
-                - name: Aep.... ObjectXfer
+                - name: Aep。藍牙。ObjectXfer
                   href: props-system-devices-aep-bluetooth-cod-services-objectxfer.md
-                - name: Aep.....。
+                - name: Aep。藍牙。. 服務。定位
                   href: props-system-devices-aep-bluetooth-cod-services-positioning.md
-                - name: Aep....。
+                - name: Aep。藍牙。. 服務. 轉譯
                   href: props-system-devices-aep-bluetooth-cod-services-rendering.md
-                - name: Aep....。
+                - name: 'Aep。藍牙。[中]。電話語音'
                   href: props-system-devices-aep-bluetooth-cod-services-telephony.md
-                - name: Aep... AddressType
+                - name: Aep。藍牙。Le. AddressType
                   href: props-system-devices-aep-bluetooth-le-addresstype.md
-                - name: Aep...。
+                - name: Aep。藍牙。Le. 外觀
                   href: props-system-devices-aep-bluetooth-le-appearance.md
-                - name: Aep...... 類別目錄
+                - name: Aep。藍牙。Le. 類別目錄
                   href: props-system-devices-aep-bluetooth-le-appearance-category.md
-                - name: Aep。分類子類別目錄
+                - name: Aep。藍牙。Le. 類別目錄
                   href: props-system-devices-aep-bluetooth-le-appearance-subcategory.md
-                - name: Aep... IsConnectable
+                - name: Aep。藍牙。Le. IsConnectable
                   href: props-system-devices-aep-bluetooth-le-isconnectable.md
                 - name: System.Devices.Aep.CanPair
                   href: props-system-devices-aep-canpair.md
@@ -933,13 +933,13 @@
                   href: props-system-devices-aepcontainer-supportsvideo.md
                 - name: System.Devices.AepService.AepId
                   href: props-system-devices-aepservice-aepid.md
-                - name: AepService. GattService. CacheMode
+                - name: AepService。藍牙。GattService. CacheMode
                   href: props-system-devices-aepservice-bluetooth-gattservice-cachemode.md
-                - name: AepService. GattService. 裝置
+                - name: AepService。藍牙。GattService 裝置
                   href: props-system-devices-aepservice-bluetooth-gattservice-device.md
-                - name: AepService. RfcommService. CacheMode
+                - name: AepService。藍牙。RfcommService. CacheMode
                   href: props-system-devices-aepservice-bluetooth-rfcommservice-cachemode.md
-                - name: AepService. RfcommService. 裝置
+                - name: AepService。藍牙。RfcommService 裝置
                   href: props-system-devices-aepservice-bluetooth-rfcommservice-device.md
                 - name: System.Devices.AepService.ContainerId
                   href: props-system-devices-aepservice-containerid.md
@@ -1205,9 +1205,9 @@
                   href: props-system-devices-winphone8cameraflags.md
                 - name: System.object. InterfaceGuid
                   href: props-system-devices-wwan-interfaceguid.md
-                - name: 系統可攜性
+                - name: 系統。儲存體。可擕式
                   href: props-system-storage-portable.md
-                - name: RemovableMedia
+                - name: 系統。儲存體。RemovableMedia
                   href: props-system-storage-removablemedia.md
                 - name: System.Storage.SystemCritical
                   href: props-system-storage-systemcritical.md
@@ -1432,7 +1432,7 @@
                   href: props-system-identityprovider-name.md
                 - name: IdentityProvider。圖片
                   href: props-system-identityprovider-picture.md
-            - name: Image
+            - name: 映像
               href: image-bumper.md
               items:
                 - name: BitDepth
@@ -1561,7 +1561,7 @@
                   href: props-system-media-providerrating.md
                 - name: ProviderStyle
                   href: props-system-media-providerstyle.md
-                - name: 系統。發行者
+                - name: System. Media。Publisher
                   href: props-system-media-publisher.md
                 - name: SeasonNumber
                   href: props-system-media-seasonnumber.md
@@ -1661,7 +1661,7 @@
                   href: props-system-music-artistsortoverride.md
                 - name: BeatsPerMinute
                   href: props-system-music-beatsperminute.md
-                - name: 系統音樂編輯器
+                - name: 系統音樂。Composer
                   href: props-system-music-composer.md
                 - name: ComposerSortOverride
                   href: props-system-music-composersortoverride.md
@@ -2022,7 +2022,7 @@
                   href: props-system-search-urltoindex.md
                 - name: UrlToIndexWithModificationTime
                   href: props-system-search-urltoindexwithmodificationtime.md
-            - name: 殼層
+            - name: Shell
               href: shell-bumper.md
               items:
                 - name: System. DescriptionID
@@ -2226,7 +2226,7 @@
             - name: IPropertyChangeArray
               href: /windows/desktop/api/Propsys/nn-propsys-ipropertychangearray
               items:
-                - name: Append
+                - name: 附加
                   href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-append
                 - name: AppendOrReplace
                   href: /windows/desktop/api/Propsys/nf-propsys-ipropertychangearray-appendorreplace

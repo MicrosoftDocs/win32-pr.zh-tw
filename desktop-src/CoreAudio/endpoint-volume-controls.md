@@ -4,12 +4,12 @@ ms.assetid: 667c3659-69ae-469d-9ae0-e32a189cbc71
 title: 端點磁片區控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526403be9c600f67791650956bd7e5096f6c9afc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 57be477a86a1de4584a7590d20d4e0199e782f10
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936336"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481883"
 ---
 # <a name="endpoint-volume-controls"></a>端點磁片區控制項
 
@@ -86,7 +86,6 @@ public:
             delete this;
         }
         return ulRef;
-
     }
 
     HRESULT STDMETHODCALLTYPE QueryInterface(REFIID riid, VOID **ppvInterface)
@@ -147,7 +146,7 @@ public:
 
 應用程式會呼叫 [**IAudioEndpointVolume：： RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) 方法來註冊其 [**IAudioEndpointVolumeCallback**](/windows/desktop/api/Endpointvolume/nn-endpointvolume-iaudioendpointvolumecallback) 介面，以接收通知。 當應用程式不再需要通知時，它會呼叫 [**IAudioEndpointVolume：： UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) 方法來刪除註冊。
 
-下列程式碼範例是 Windows 應用程式，它會呼叫 [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify) 和 [**UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify) 方法，以在上述程式碼範例中註冊和取消註冊 CAudioEndpointVolumeCallback 類別：
+下列程式碼範例是 Windows 的應用程式，它會呼叫 [**RegisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-registercontrolchangenotify)和 [**UnregisterControlChangeNotify**](/windows/desktop/api/Endpointvolume/nf-endpointvolume-iaudioendpointvolume-unregistercontrolchangenotify)方法，以在上述程式碼範例中註冊和取消註冊 CAudioEndpointVolumeCallback 類別：
 
 
 ```C++
@@ -224,7 +223,7 @@ Exit:
         MessageBox(NULL, TEXT("This program requires Windows Vista."),
                    TEXT("Error termination"), MB_OK);
     }
-    if (pEnumerator != NULL)
+    if (g_pEndptVol != NULL)
     {
         g_pEndptVol->UnregisterControlChangeNotify(
                     (IAudioEndpointVolumeCallback*)&EPVolEvents);

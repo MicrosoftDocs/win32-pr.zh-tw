@@ -4,12 +4,12 @@ ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: 使用屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8644e0d51141751ac55d50966cd6163a3359435d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ade6cba2807e87306aa9cacb3649499d9e5ffe1
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943858"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481913"
 ---
 # <a name="using-property-lists"></a>使用屬性清單
 
@@ -112,7 +112,7 @@ HKEY_CLASSES_ROOT
       PreviewDetails = prop:*System.Title;*System.Author
 ```
 
-如 [Shell 檔案關聯](../shell/fa-file-types.md) 主題所述，檔案關聯可以針對最常見的最常見形式來描述。 最特定的形式是單一副檔名，最常見的形式是套用至所有檔案和檔案資料夾的金鑰。 在這兩個極端之間，您也可以定義會將一組副檔名群組在一起的 [PROGID](../shell/fa-progids.md) (例如，.jpg 和 jpeg 類型會分組為 **jpegfile**) 。 當您定義屬性清單時，您應該針對 Progid 或在某些情況下，針對特定的副檔名來定義它們。 避免依賴廣泛的專案，例如 **AllFileSystemObjects** 金鑰。
+如 [Shell 檔案關聯](../shell/fa-file-types.md) 主題所述，檔案關聯可以針對最常見的最常見形式來描述。 最特定的形式是單一副檔名，最常見的形式是套用至所有檔案和檔案資料夾的金鑰。 在這兩個極端之間，您也可以定義一個 [PROGID](../shell/fa-progids.md) 來將一組副檔名群組在一起 (例如，將 .jpg 和 jpeg 類型分組為 **jpegfile**) 。 當您定義屬性清單時，您應該針對 Progid 或在某些情況下，針對特定的副檔名來定義它們。 避免依賴廣泛的專案，例如 **AllFileSystemObjects** 金鑰。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -130,7 +130,7 @@ HKEY_CLASSES_ROOT
 [註冊和散發屬性處理常式](./prophand-reg-dist.md)
 </dt> <dt>
 
-[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.md)
+[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

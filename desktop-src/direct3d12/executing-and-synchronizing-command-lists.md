@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ef910463ba3a771ac142d41309ae590884e3bc9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90d5362d0f093c7c1034e03d396ad28c40d4d600
+ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548468"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113489176"
 ---
 # <a name="executing-and-synchronizing-command-lists"></a>執行和同步處理命令清單
 
@@ -72,8 +72,9 @@ Direct3D 12 命令佇列取代立即模式工作提交的執行時間和驅動�
 
 執行時間有幾個規則會限制來自多個命令佇列的資源存取。 這些規則如下：
 
-<dl> 1. 無法同時從多個命令佇列寫入資源。 當資源轉換為佇列上的可寫入狀態時，該佇列會被視為獨佔擁有，而且必須轉換到讀取或一般狀態 (請參閱 <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states">**D3D12 \_ 資源 \_ 狀態**</a>) ，然後再由另一個佇列存取。  </dl>
-<dl> 2. 處於讀取狀態時，可以從多個命令佇列同時讀取資源（包括跨進程），並以其讀取狀態為基礎。 </dl>
+1. 無法同時從多個命令佇列寫入資源。 當資源轉換為佇列上的可寫入狀態時，該佇列會被視為獨佔擁有，而且必須轉換到讀取或一般狀態 (請參閱 [**D3D12_RESOURCE_STATES**](/windows/desktop/api/d3d12/ne-d3d12-d3d12_resource_states)) ，才能讓另一個佇列存取該資源。
+
+2. 處於讀取狀態時，可以從多個命令佇列同時讀取資源（包括跨進程），並以其讀取狀態為基礎。
 
 如需資源存取限制和使用資源阻礙來同步存取資源的詳細資訊，請參閱 [使用資源阻礙來同步處理資源狀態](using-resource-barriers-to-synchronize-resource-states-in-direct3d-12.md)。
 

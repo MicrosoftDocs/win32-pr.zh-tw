@@ -222,7 +222,7 @@
                       href: create-personality.md
                     - name: 觀察適當的禮儀
                       href: observe-appropriate-etiquette.md
-                    - name: 使用讚揚
+                    - name: 使用稱讚
                       href: use-praise.md
                     - name: 建立小組玩家
                       href: create-a-team-player.md
@@ -1045,7 +1045,7 @@
                         - name: IAgentUserInput：： GetItemText
                           href: iagentuserinput--getitemtext.md
             - name: 程式設計/腳本常見問題
-              href: programming-scripting-faq.md
+              href: programming-scripting-faq.yml
             - name: Microsoft 代理程式錯誤碼
               href: microsoft-agent-error-codes.md
         - name: 搭配 Microsoft 代理程式使用語音引擎
@@ -1135,7 +1135,7 @@
               items:
                 - name: 動畫設計
                   href: animation-design.md
-                - name: Office 動畫組
+                - name: Office 的動畫集合
                   href: the-office-animation-set.md
                 - name: 安裝您的字元
                   href: installing-your-character.md
@@ -1182,7 +1182,7 @@
               href: microsoft-agent-animations-for-peedy-character.md
         - name: 參考書目
           href: bibliography.md
-    - name: Windows 桌面搜尋2。x
+    - name: WindowsDesktop Search 2。x
       href: '-search-2x-wds-overview.md'
       items:
         - name: 查詢 (WDS 2.x) 的索引
@@ -1220,7 +1220,7 @@
           href: '-search-2x-wds-perceivedtype.md'
         - name: 內容索引服務通訊協定
           href: '-search-2x-wds-content-indexing-services-protocol.md'
-        - name: WDS 2.x ActiveX 控制項介面
+        - name: WDS 2.x ActiveX 控制介面
           href: '-search-activex-control-reference-entry-page.md'
           items:
             - name: IPropertyFilter
@@ -1327,7 +1327,7 @@
                   href: '-search-2x-iresultverb-displayname.md'
                 - name: Doit r
                   href: '-search-2x-iresultverb-doit.md'
-                - name: 已啟用
+                - name: 啟用
                   href: '-search-2x-iresultverb-enabled.md'
                 - name: HelpText
                   href: '-search-2x-iresultverb-helptext.md'
@@ -1413,7 +1413,7 @@
         - name: 參考
           href: defender-ref-entry.md
           items:
-            - name: Windows Defender 列舉
+            - name: Windows Defender枚舉
               href: windows-defender-enumerations.md
               items:
                 - name: MPCALLBACK_TYPE
@@ -1458,7 +1458,7 @@
                   href: mpthreat-status.md
                 - name: MPTHREAT_TYPE
                   href: mpthreat-type.md
-            - name: Windows Defender 函式
+            - name: Windows Defender功能
               href: windows-defender-functions.md
               items:
                 - name: MpErrorMessageFormat
@@ -1493,7 +1493,7 @@
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdenable
                 - name: WDStatus
                   href: /windows/desktop/api/Windowsdefender/nf-windowsdefender-wdstatus
-            - name: Windows Defender 結構
+            - name: Windows Defender結構
               href: windows-defender-structures.md
               items:
                 - name: MPCALLBACK_DATA

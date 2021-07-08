@@ -4,16 +4,16 @@ ms.assetid: E6E81E04-9CC1-4df5-9A87-DE0CBD177356
 title: 註冊和散發屬性處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cffd6169ecbf371e49e27c555f468cdc03e2c3fc
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ce53f0805c4db5efe38e77ba4e7d1ab5b331c83f
+ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408341"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "113481923"
 ---
 # <a name="registering-and-distributing-property-handlers"></a>註冊和散發屬性處理常式
 
-本主題說明如何建立及註冊屬性處理常式，以便與 Windows 屬性系統搭配使用。
+本主題說明如何建立和註冊屬性處理常式，以便與 Windows 的屬性系統搭配使用。
 
 本主題的組織方式如下：
 
@@ -82,7 +82,7 @@ HKEY_LOCAL_MACHINE
 
 -   **屬性處理常式並行**
 
-    屬性處理常式和 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) 介面是針對序列而非平行存取所設計。 從 Windows 程式碼基底的 Windows 檔案總管、Windows Search 索引子和其他所有屬性處理常式調用都保證此使用方式。 協力廠商不應該同時使用屬性處理常式，但無法保證此行為。 此外，即使呼叫模式必須是序列，呼叫也可能會在不同的執行緒 (例如，當透過 COM RPC 從遠端呼叫物件時，會發生在索引子) 中。 因此，屬性處理常式的執行必須支援在不同的執行緒上呼叫，而在此情況下，如果同時呼叫，則應該不會影響任何不良的效果 因為預定的呼叫模式是序列，所以使用重要區段的簡單執行應該足以滿足大部分情況下的這些需求。 您可以使用 [**TryEnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-tryentercriticalsection) 函式偵測和失敗並行呼叫，以避免封鎖並行呼叫。
+    屬性處理常式和 [**IPropertyStore**](/windows/win32/api/propsys/nn-propsys-ipropertystore) 介面是針對序列而非平行存取所設計。 WindowsExplorer、Windows Search 索引子和 Windows 程式碼基底中的所有其他屬性處理常式叫用都能保證此使用方式。 協力廠商不應該同時使用屬性處理常式，但無法保證此行為。 此外，即使呼叫模式必須是序列，呼叫也可能會在不同的執行緒 (例如，當透過 COM RPC 從遠端呼叫物件時，會發生在索引子) 中。 因此，屬性處理常式的執行必須支援在不同的執行緒上呼叫，而在此情況下，如果同時呼叫，則應該不會影響任何不良的效果 因為預定的呼叫模式是序列，所以使用重要區段的簡單執行應該足以滿足大部分情況下的這些需求。 您可以使用 [**TryEnterCriticalSection**](/windows/win32/api/synchapi/nf-synchapi-tryentercriticalsection) 函式偵測和失敗並行呼叫，以避免封鎖並行呼叫。
 
 -   **檔案並行**
 
@@ -125,7 +125,7 @@ HKEY_LOCAL_MACHINE
 [初始化屬性處理常式](./building-property-handlers-property-handlers.md)
 </dt> <dt>
 
-[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.md)
+[屬性處理常式的最佳作法和常見問題](./prophand-bestprac-faq.yml)
 </dt> </dl>
 
  

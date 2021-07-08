@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 7a9c20050e7d0dce5a19664d937c016a475a9a13
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 0778e879a6147c185964808ee4b4c302bd211ef3
+ms.sourcegitcommit: bfab92e16614d4fa54b044917358261232bda81a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343073"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "113489692"
 ---
 # <a name="d3dquerytype-enumeration"></a>D3DQUERYTYPE 列舉
 
@@ -30,7 +30,7 @@ ms.locfileid: "110343073"
 ```C++
 typedef enum D3DQUERYTYPE { 
   D3DQUERYTYPE_VCACHE             = 4,
-  D3DQUERYTYPE_ResourceManager    = 5,
+  D3DQUERYTYPE_RESOURCEMANAGER    = 5,
   D3DQUERYTYPE_VERTEXSTATS        = 6,
   D3DQUERYTYPE_EVENT              = 8,
   D3DQUERYTYPE_OCCLUSION          = 9,
@@ -158,7 +158,7 @@ typedef enum D3DQUERYTYPE {
 
 Direct3D 9 與 Direct3D 9Ex 之間的差異：
 
-- D3DQUERYTYPE \_ MEMORYPRESSURE 僅適用于在 Windows 7 上執行的 Direct3D9Ex (或更多目前的作業系統) 。
+- D3DQUERYTYPE \_ MEMORYPRESSURE 僅適用于 Windows 7 (或更多目前作業系統) 上執行的 Direct3D9Ex。
 
 
 
