@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 探索與列印架構相關的技術。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 360325dc-51b5-44d5-981b-b69f7d6c82fd
 title: 列印 Schema-Related 技術
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8618493c2d24e8aebd7609c893d9de5a675bf24f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7c39d002b956fdd012a2b74a94ae0a4c58f568d8
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104116093"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548785"
 ---
 # <a name="print-schema-related-technologies"></a>列印 Schema-Related 技術
 

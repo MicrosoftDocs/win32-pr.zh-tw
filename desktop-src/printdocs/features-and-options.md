@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 閱讀 PrintCapabilities 檔中的功能和選項。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 8084fa15-85e5-4c8d-b585-8c349482a6eb
 title: 功能與選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 866cead02021b8d933ca03483e77de832d8d094a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 7ae6d0918b6237885c2c7240efb0dc0f982b882f
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992118"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549406"
 ---
 # <a name="features-and-options"></a>功能與選項
 

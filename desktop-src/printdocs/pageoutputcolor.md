@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 深入瞭解 PageOutputColor 使用者可設定的元素。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 1afcf2e6-5d6d-4b87-a005-15d42a610f69
 title: PageOutputColor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4791ca4a53b8bdcc43a32c5c7aa5a1e38bbe1e5
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 79fc71f58bde44224642d3a5f6979e3aef929976
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107998045"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548986"
 ---
 # <a name="pageoutputcolor"></a>PageOutputColor
 
@@ -65,10 +65,10 @@ ms.locfileid: "107998045"
 
 
 
-| Name                                   | 資料類型          | 單位                      | 支援的值                                                                                                                                                                      | 總結                                                                                                                           |
+| Name                                   | 資料類型          | 單位                      | 支援的值                                                                                                                                                                      | 摘要                                                                                                                           |
 |----------------------------------------|--------------------|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>              | 字串<br/>  | 字元<br/>     | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                |
-| \_IdentityOptionValue\_<br/>     | 字串<br/>  | n/a<br/>            | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                      |
+| \_選項名稱\_<br/>              | string<br/>  | 字元<br/>     | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                                                                |
+| \_IdentityOptionValue\_<br/>     | string<br/>  | n/a<br/>            | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>                                                      |
 | \_DeviceBitsPerPixelValue\_<br/> | 整數<br/> | 每圖元的位數<br/> | 大於0，小於裝置支援值上限。<br/>                                                                                                                    | 數值，指出印表機所支援之色彩資料的每一像素位元數。<br/>                          |
 | \_DriverBitsPerPixelValue\_<br/> | 整數<br/> | 每圖元的位數<br/> | 大於0，小於裝置支援值上限。<br/>                                                                                                                    | 數值，表示核心驅動程式應針對其點陣圖轉譯緩衝區使用的每一像素位元數。<br/> |
 

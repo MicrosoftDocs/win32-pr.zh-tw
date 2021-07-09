@@ -1,15 +1,15 @@
 ---
 title: PageBlackGenerationProcessingUnderColorAdditionStart
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 檢查 PageBlackGenerationProcessingUnderColorAdditionStart 參數。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 6c2a7bb5-436d-40ed-a855-242a6a04bc16
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 595bc3e4514b1a2e8a4d302005b97e2625a560e2
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 11bdbd970f30a7d573b7c803ea447e4ac3e94ca2
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999185"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549346"
 ---
 # <a name="pageblackgenerationprocessingundercoloradditionstart"></a>PageBlackGenerationProcessingUnderColorAdditionStart
 
@@ -77,8 +77,8 @@ ms.locfileid: "107999185"
 | MaxValue<br/>     | 整數<br/> | 100<br/>             |
 | MinValue<br/>     | 整數<br/> | 0<br/>               |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | percent<br/>         |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | string<br/>  | percent<br/>         |
 
 
 

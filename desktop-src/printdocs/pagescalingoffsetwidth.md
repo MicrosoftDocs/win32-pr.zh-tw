@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 PageScalingOffsetWidth 參數的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: e82394d1-f765-4679-b1de-ea17825d6478
 title: PageScalingOffsetWidth
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b82c2b0c0f2c86a792706ec7e00819ccda1038c
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 63152e6a3d9f8ea47bac3b5a0efe559e71e0cb35
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107997955"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548846"
 ---
 # <a name="pagescalingoffsetwidth"></a>PageScalingOffsetWidth
 
@@ -77,9 +77,9 @@ ms.locfileid: "107997955"
 | DefaultValue<br/> | 整數<br/> | 未定義<br/>       |
 | MaxValue<br/>     | 整數<br/> | 未定義<br/>       |
 | MinValue<br/>     | 整數<br/> | 未定義<br/>       |
-| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
 | 多個<br/>     | 整數<br/> | 1<br/>               |
-| Unittype.pixel 表示<br/>     | 字串<br/>  | 微米<br/>         |
+| Unittype.pixel 表示<br/>     | string<br/>  | 微米<br/>         |
 
 
 

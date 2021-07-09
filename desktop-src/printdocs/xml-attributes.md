@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解 Print Schema Framework 中的 XML 屬性。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 41bc10fe-6c00-44c5-ba9a-10414b31cbdf
 title: XML 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70dd05effe6f3ea79afd0972867cb2734ace1a71
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: d410dcb1476d90568bee10c7c1e41ee7a9bee2e7
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106976648"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548816"
 ---
 # <a name="xml-attributes"></a>XML 屬性
 

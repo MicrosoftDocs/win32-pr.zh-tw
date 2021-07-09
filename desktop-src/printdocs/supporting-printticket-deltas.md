@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 瞭解如何支援 PrintTicket 差異。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: 80fdc8f1-4fda-4102-9b27-16d9acb4d077
 title: 支援 PrintTicket 差異
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 730c8d32d881dd30a6ab57b88d8fc1dfa87eee7a
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b7f72f82875d0207ed232f4db897c78295ce2ee0
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106992658"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113548776"
 ---
 # <a name="supporting-printticket-deltas"></a>支援 PrintTicket 差異
 

@@ -1,15 +1,15 @@
 ---
-description: 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
+description: 取得 Option 元素的相關資訊。 本主題並非最新的。 如需最新資訊，請參閱列印架構規格。
 ms.assetid: feda78d9-58e7-4668-8a25-40e5fd8ad456
 title: 選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 379834d12cd01847c95783d727be5dcdc6c575bf
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 6ac4318e6a79a3d4daa77f15901d032c66134bdd
+ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106982818"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113549376"
 ---
 # <a name="option"></a>選項
 
