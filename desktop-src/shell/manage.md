@@ -4,12 +4,12 @@ ms.assetid: d9ffda6f-adc0-44a3-b410-e23bf5f4f165
 title: 管理檔案系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 404b456ce1f26c128e6c3fc3bc9971672378a0d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0f3b47e17e691c540a9775f3b8588b311b9878
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317948"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581616"
 ---
 # <a name="managing-the-file-system"></a>管理檔案系統
 
@@ -17,7 +17,7 @@ Shell 提供許多方式來管理檔案系統。 Shell 提供可讓應用程式�
 
 -   HTML 檔案可以 *連接* 到相關的檔案，例如圖形檔案或樣式表單。 移動或複製檔時，也會自動移動或複製連接的檔案。
 -   針對多個使用者可用的系統，可以每個使用者為基礎來管理檔案。 使用者可以輕鬆地存取其資料檔案，但不能存取屬於其他使用者的檔案。
--   如果新增或修改檔檔案，則可以將它們新增至命令介面的最新檔案清單。 當使用者按一下 [開始] 功能表上的 [ **檔** ] 命令時，會顯示檔的連結清單。
+-   如果新增或修改檔檔案，則可以將它們新增至命令介面的最新檔案清單。 當使用者按一下 [開始] 功能表上的 [**檔**] 命令時，會顯示檔的連結清單。
 
 本檔討論這些檔案管理技術的運作方式。 接著，它會概述如何使用 Shell 來移動、複製、重新命名和刪除檔案，以及如何管理資源回收筒中的物件。
 
@@ -31,7 +31,7 @@ Shell 提供許多方式來管理檔案系統。 Shell 提供可讓應用程式�
 
 ## <a name="per-user-file-management"></a>Per-User 檔案管理
 
-Windows 2000 Shell 可讓檔案與特定使用者建立關聯，讓其他使用者無法看見檔案。 就檔案系統而言，檔案會儲存在使用者的設定檔資料夾下，通常是在 \\ \\  \\ Windows 2000 系統上的 [檔] 和 [設定使用者名稱]。 這項功能可讓許多人使用同一部電腦，同時維持其他使用者的檔案隱私權。 不同的使用者可以使用不同的程式。 它也提供簡單的方法，讓系統管理員和應用程式儲存 ( .ini) 的初始化，或連結 ( .lnk) 檔。 因此，應用程式可以為每個使用者保留不同的狀態，並在需要時輕鬆地復原該特定狀態。 另外還有一個設定檔資料夾，用來儲存所有使用者通用的資訊。
+Windows 2000 Shell 可讓檔案與特定使用者建立關聯，讓其他使用者無法看見檔案。 就檔案系統而言，檔案會儲存在使用者的設定檔資料夾下，通常是 C： \\ Documents，而設定 \\  \\ Windows 2000 系統上的使用者名稱。 這項功能可讓許多人使用同一部電腦，同時維持其他使用者的檔案隱私權。 不同的使用者可以使用不同的程式。 此外，它也為系統管理員和應用程式提供簡單的方式，讓系統管理員和應用程式儲存 (.ini) 或連結 ( .lnk) 檔案等專案。 因此，應用程式可以為每個使用者保留不同的狀態，並在需要時輕鬆地復原該特定狀態。 另外還有一個設定檔資料夾，用來儲存所有使用者通用的資訊。
 
 因為無法判斷登入的使用者及其檔案的位置，所以標準的每個使用者資料夾是特殊的資料夾，而且是由 [**CSIDL**](csidl.md)所識別。 比方說，每個使用者 Program Files 資料夾的 CSIDL 是 CSIDL \_ 程式。 如果您的應用程式使用其中一個每個使用者 CSIDLs 呼叫 [**SHGetFolderLocation**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderlocation) 或 [**SHGetFolderPath**](/windows/desktop/api/shlobj_core/nf-shlobj_core-shgetfolderpatha) ，此函式會傳回專案識別碼清單的指標 (PIDL) 或適用于目前登入使用者的路徑。 如果您的應用程式需要取出設定檔資料夾的路徑或 PIDL，其 CSIDL 為 **CSIDL \_ 設定檔**。
 
@@ -39,7 +39,7 @@ Windows 2000 Shell 可讓檔案與特定使用者建立關聯，讓其他使用�
 
 在桌面上找到的其中一個標準圖示是 **我的檔**。 當您開啟這個資料夾時，它會包含目前使用者的檔檔案。 我的檔的桌面實例是虛擬資料夾，也就是用來實際儲存使用者檔的檔案系統位置（位於命名空間階層的桌面上）的別名。
 
-[我的檔] 和 [我的圖片] 資料夾的目的是要提供簡單且安全的方式，讓使用者在可能有多位使用者的系統上存取其檔和圖片檔案。 每位使用者都會為其檔案指派個別的檔系統資料夾。 例如，使用者在檔案系統中的 [檔] 資料夾位置通常像 C： [檔] \\ 和 [設定使用者 \\ *名稱*] \\ 我的檔。 使用者不需要知道其檔系統資料夾的實體位置。 他們只需透過我的檔圖示來存取檔案。
+[我的檔] 和 [我的圖片] 資料夾的目的是要提供簡單且安全的方式，讓使用者在可能有多位使用者的系統上存取其檔和圖片檔案。 每位使用者都會為其檔案指派個別的檔系統資料夾。 例如，使用者在檔案系統中的 [檔] 資料夾位置通常是 C： \\ documents 和設定使用者 \\ *名稱* \\ 我的檔等內容。 使用者不需要知道其檔系統資料夾的實體位置。 他們只需透過我的檔圖示來存取檔案。
 
 > [!Note]  
 > 我的檔可讓使用者存取自己的檔案，但不能存取任何其他使用者的檔案。 如果有多個人使用同一部電腦，系統管理員可以在儲存實際檔案的檔案系統部分鎖定使用者。 如此一來，使用者就能夠透過我的檔資料夾來處理自己的檔，但不能處理屬於任何其他使用者的檔。
@@ -66,22 +66,96 @@ hr = psfDeskTop->ParseDisplayName(NULL,
 
 ## <a name="connected-files"></a>連接的檔案
 
-HTML 檔案通常會有許多相關聯的圖形檔案、樣式表單檔案、數個 Microsoft JScript (與 ECMA 262 語言規格 ) 檔案等相容。 當您移動或複製主要的 HTML 檔案時，通常也會想要移動或複製其相關聯的檔案，以避免中斷連結。 可惜的是，到目前為止，我們都沒有簡單的方法可以判斷哪些檔案與任何指定的 HTML 檔案相關，而不是藉由分析其內容。 為了減輕這個問題，Windows 2000 提供簡單的方法，讓您將主要的 HTML 檔案 *連接* 到其相關聯的檔案群組。 如果已啟用檔案連接，則在移動或複製檔時，會將其所有連接的檔案移至其中。
+HTML 檔案通常會有許多相關聯的圖形檔案、樣式表單檔案、數個 Microsoft JScript (與 ECMA 262 語言規格 ) 檔案等相容。 當您移動或複製主要的 HTML 檔案時，通常也會想要移動或複製其相關聯的檔案，以避免中斷連結。 可惜的是，到目前為止，我們都沒有簡單的方法可以判斷哪些檔案與任何指定的 HTML 檔案相關，而不是藉由分析其內容。 為了減輕這個問題，Windows 2000 提供簡單的方式，將主要 HTML 檔案 *連接* 到其相關聯的檔案群組。 如果已啟用檔案連接，則在移動或複製檔時，會將其所有連接的檔案移至其中。
 
-若要建立連接的檔案群組，主要檔的副檔名必須是 .htm 或 .html。 建立主要檔的父資料夾的子資料夾。 子資料夾的名稱必須是主要檔的名稱，而不是 .htm 或 .html 副檔名，後面接著列出的其中一個延伸模組。 最常使用的延伸模組為 ". files" 或 " \_ files"。 比方說，如果主要檔命名為 MyDoc.htm，則將子資料夾命名為 "MyDoc \_ files" 會將子資料夾定義為檔連接檔案的容器。 如果移動或複製主要檔，也會移動或複製子資料夾及其檔案。
+若要建立已連接的檔案群組，主要檔必須有 .htm 或 .html 副檔名。 建立主要檔的父資料夾的子資料夾。 子資料夾的名稱必須是主要檔的名稱，而不是 .htm 或 .html 副檔名，後面接著下列其中一個延伸模組。 最常使用的延伸模組為 ". files" 或 " \_ files"。 比方說，如果主要檔命名為 MyDoc.htm，則將子資料夾命名為 "MyDoc \_ files" 會將子資料夾定義為檔連接檔案的容器。 如果移動或複製主要檔，也會移動或複製子資料夾及其檔案。
 
 針對某些語言，您可以使用「檔案」的當地語系化對等專案 \_ 來建立連接檔案的子資料夾。 下表列出可以附加至檔案名稱以建立連接檔案子資料夾的有效字串。 請注意，其中有些字串的第一個字元是 '-'，而不是 ' \_ ' 或 '. '。
 
 
 
-|              |               |                 |               |
-|--------------|---------------|-----------------|---------------|
-| " \_ archivos" | " \_ arquivos"  | " \_ bestanden"   | " \_ bylos"     |
-| "-檔案"   | " \_ datoteke"  | " \_ dosyalar"    | " \_ elemei"    |
-| " \_ failid"   | 「 \_ 失敗」     | " \_ fajlovi"     | " \_ ficheiros" |
-| " \_ fichiers" | "-檔案管理工具"      | ". files"        | " \_ files"     |
-| " \_ file"     | " \_ fitxers"   | " \_ fitxategiak" | " \_ pliki"     |
-| " \_ 檔案"  | " \_ tiedostot" |                 |               |
+:::row:::
+   :::column span="":::
+      " \_ archivos"
+   :::column-end:::
+   :::column span="":::
+      " \_ arquivos"
+   :::column-end:::
+   :::column span="":::
+      " \_ bestanden"
+   :::column-end:::
+   :::column span="":::
+      " \_ bylos"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      "-檔案"
+   :::column-end:::
+   :::column span="":::
+      " \_ datoteke"
+   :::column-end:::
+   :::column span="":::
+      " \_ dosyalar"
+   :::column-end:::
+   :::column span="":::
+      " \_ elemei"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      " \_ failid"
+   :::column-end:::
+   :::column span="":::
+      「 \_ 失敗」
+   :::column-end:::
+   :::column span="":::
+      " \_ fajlovi"
+   :::column-end:::
+   :::column span="":::
+      " \_ ficheiros"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      " \_ fichiers"
+   :::column-end:::
+   :::column span="":::
+      "-檔案管理工具"
+   :::column-end:::
+   :::column span="":::
+      ". files"
+   :::column-end:::
+   :::column span="":::
+      " \_ files"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      " \_ file"
+   :::column-end:::
+   :::column span="":::
+      " \_ fitxers"
+   :::column-end:::
+   :::column span="":::
+      " \_ fitxategiak"
+   :::column-end:::
+   :::column span="":::
+      " \_ pliki"
+   :::column-end:::
+:::row-end:::
+:::row:::
+   :::column span="":::
+      " \_ 檔案"
+   :::column-end:::
+   :::column span="":::
+      " \_ tiedostot"
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+   :::column span="":::
+   :::column-end:::
+:::row-end:::
 
 
 

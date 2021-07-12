@@ -4,12 +4,12 @@ ms.assetid: 12F6E6AE-2776-408c-B9AC-E885BE93C27F
 title: 程式庫描述架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bebbd7ed168cd977530ccfeb0b319c33142687
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 0a6da99820e81c55e5d705c72d4d0509ea271a4a
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104973904"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581736"
 ---
 # <a name="library-description-schema"></a>程式庫描述架構
 
@@ -30,7 +30,7 @@ ms.locfileid: "104973904"
 
 
 
-|                             |                                                                                                                                                            |
+| 部分                        | 描述                                                                                                                                                |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 一般程式庫資訊 | 程式庫顯示給使用者時，Windows 檔案總管可以使用的程式庫相關資訊，例如名稱、擁有者、版本、圖示。                   |
 | 程式庫屬性          | 描述程式庫的一或多個屬性。 這些自訂屬性是程式庫特有的。                                                     |
@@ -44,7 +44,7 @@ Windows 7 中的程式庫檔案會儲存在已知的資料夾 FOLDERID 連結 \_
 
 ## <a name="namespace-versioning"></a>命名空間版本控制
 
-程式庫描述檔案格式 (程式庫 \* -ms) 的版本是藉由變更命名空間來追蹤。 若為 Windows 7，檔案格式具有下列預設命名空間： https://schemas.microsoft.com/windows/2009/library 。
+程式庫描述檔案格式 (程式庫 \* -ms) 的版本是藉由變更命名空間來追蹤。 針對 Windows 7，檔案格式具有下列預設命名空間： https://schemas.microsoft.com/windows/2009/library 。
 
 不過，您可以使用特定程式庫描述檔案中的專案來追蹤文件庫內容的版本 [<version>](schema-library-version.md) 。
 

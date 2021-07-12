@@ -3,12 +3,12 @@ description: 您可以透過快捷方式檔案，將連接點的根目錄檢視�
 title: 如何透過快捷方式檔案開啟連接點的根目錄檢視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb83a6628b0dcffdf7d3bad66a25fc671c1feea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52096f0dbbcebadb60e2612f0304ed497199b2ed
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192680"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581606"
 ---
 # <a name="how-to-open-a-rooted-view-of-a-junction-point-through-a-shortcut-file"></a>如何透過快捷方式檔案開啟連接點的根目錄檢視
 
@@ -41,7 +41,7 @@ ms.locfileid: "104192680"
 
     
 
-    |                   |                                        |
+    | 系統資料夾     | 類別識別碼                       |
     |-------------------|----------------------------------------|
     | 我的電腦       | {20D04FE0-3AEA-1069-A2D8-08002B30309D} |
     | 網路上的芳鄰 | {208D2C60-3AEA-1069-A2D7-08002B30309D} |

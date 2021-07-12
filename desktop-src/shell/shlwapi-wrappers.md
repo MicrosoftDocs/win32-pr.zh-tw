@@ -1,5 +1,5 @@
 ---
-description: 本檔中的表格列出從 Shlwapi.dll 提供有限的 Unicode 功能給 Windows 95、Windows 98 以及 Windows Millennium Edition (Windows Me) 的包裝函式。
+description: 本檔中的表格列出 Shlwapi.dll 的包裝函式，提供有限的 Unicode 功能給 Windows 95、Windows 98 和 Windows Millennium Edition (Windows Me) 。
 title: SHLWAPI 包裝函式
 ms.topic: reference
 ms.date: 05/31/2018
@@ -83,20 +83,20 @@ api_location: ''
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 6d928228873b893228c7fddc22fc1ca29ca511cd
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: 7c166e005c9bcc9efe68fee926c9fa9c2a4f4e7e
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549750"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581766"
 ---
 # <a name="shlwapi-wrapper-functions"></a>SHLWAPI 包裝函式
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得這些功能。 它們可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這些函數可透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 取得。 它們可能會在 Windows 的後續版本中變更或無法使用。\]
 
-本檔中的表格列出從 Shlwapi.dll 提供有限的 Unicode 功能給 Windows 95、Windows 98 以及 Windows Millennium Edition (Windows Me) 的包裝函式。
+本檔中的表格列出 Shlwapi.dll 的包裝函式，提供有限的 Unicode 功能給 Windows 95、Windows 98 和 Windows Millennium Edition (Windows Me) 。
 
-Windows 95、Windows 98 以及 Windows Millennium Edition (Windows Me) 在這裡稱為「原生 ANSI 平臺」。 在原生 ANSI 平臺上，這些包裝函式會將 Unicode 輸入字串參數轉換成 ANSI，並在 [ **轉送到** ] 資料行中呼叫 ansi 版本的函式。 例如， **AppendMenuWrapW** 會呼叫 **AppendMenuA**，也就是 [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)的 ANSI 版本。 其他函式會遵循相同的模式。 ANSI 函數所傳回的任何字串都會轉換成 Unicode，並傳回給呼叫的應用程式。 除了 [ **備註** ] 資料行中所述的例外之外，包裝函式的語法也相同，而且提供的功能與 [ **轉送至** ] 資料行中的函數相同。 您應該參考該參考頁面，以取得詳細的使用資訊。
+Windows 95、Windows 98 和 Windows Millennium Edition (Windows Me) 在此稱為「原生 ANSI 平臺」。 在原生 ANSI 平臺上，這些包裝函式會將 Unicode 輸入字串參數轉換成 ANSI，並在 [ **轉送到** ] 資料行中呼叫 ansi 版本的函式。 例如， **AppendMenuWrapW** 會呼叫 **AppendMenuA**，也就是 [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)的 ANSI 版本。 其他函式會遵循相同的模式。 ANSI 函數所傳回的任何字串都會轉換成 Unicode，並傳回給呼叫的應用程式。 除了 [ **備註** ] 資料行中所述的例外之外，包裝函式的語法也相同，而且提供的功能與 [ **轉送至** ] 資料行中的函數相同。 您應該參考該參考頁面，以取得詳細的使用資訊。
 
 **安全性警告：** 多個 Unicode 字串可以轉換成相同的 ANSI 字串。 轉換後未預期的衝突可能會導致非預期的行為。 例如，如果使用 **CreateEventWrapW** 來建立兩個名稱不同的名稱事件，而這些事件的名稱在從 Unicode 轉換為 ANSI 之後是相符的，則第二個呼叫會將控制碼傳回至與第一個呼叫相同的事件，即使原始 Unicode 字串不同也是一樣。
 
@@ -107,13 +107,13 @@ Microsoft Windows NT、Windows 2000、Windows XP、Windows Server 2003 和更新
 此資料表中的包裝函數全都包含在 Shlwapi.dll 中。 若要呼叫它們，您必須使用資料表中所列的序數。
 
 > [!Note]  
-> 這些包裝函式可在 Windows XP 上取得，但無法在 Windows XP Service Pack 2 (SP2) 和更新版本中提供任何包裝函式功能。 它們也不提供 Windows Server 2003 中的包裝函式功能。 您應該改用 [ **轉寄至** ] 資料行中所列的函數。
+> 這些包裝函式可在 Windows xp 上取得，但不提供 Windows XP Service Pack 2 (SP2) 和更新版本中的任何包裝函式功能。 它們也不會提供 Windows Server 2003 中的包裝函式功能。 您應該改用 [ **轉寄至** ] 資料行中所列的函數。
 
  
 
 
 
-| 函數                  | 序數 | 轉寄至                                             | DLL      | 備註                                                                                                                             |
+| 函式                  | 序數 | 轉寄至                                             | DLL      | 備註                                                                                                                             |
 |---------------------------|---------|---------------------------------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------|
 | AppendMenuWrapW           | 36      | [**AppendMenu**](/windows/win32/api/winuser/nf-winuser-appendmenua)                     | USER32.DLL   | [ () ](#shlwapi-wrapper-functions)、 [ (f) ](#dragqueryfile)、 [ (功能表) ](#menu)                                                           |
 | CallWindowProcWrapW       | 37      | [**CallWindowProc**](/windows/win32/api/winuser/nf-winuser-callwindowproca)             | USER32.DLL   | [ (我) ](#shlwapi-wrapper-functions)                                                                                                   |
@@ -187,7 +187,7 @@ Microsoft Windows NT、Windows 2000、Windows XP、Windows Server 2003 和更新
 
 
 
-| 函數                     | 序數 | 轉寄至                                                                     | DLL      | 備註                                                                        |
+| 函式                     | 序數 | 轉寄至                                                                     | DLL      | 備註                                                                        |
 |------------------------------|---------|---------------------------------------------------------------------------------|----------|--------------------------------------------------------------------------------|
 | MLGetUILanguage              | 376     | [**GetUserDefaultUILanguage**](/windows/win32/api/winnls/nf-winnls-getuserdefaultuilanguage)                   | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
 | SHCancelTimerQueueTimer      | 265     | [**DeleteTimerQueueTimer**](/windows/win32/api/threadpoollegacyapiset/nf-threadpoollegacyapiset-deletetimerqueuetimer)                         | KERNEL32.DLL | [ (h) ](#shlwapi-wrapper-functions)                                              |
@@ -321,7 +321,7 @@ MSLU 沒有這些限制。
 
 ### <a name="menuiteminfo"></a> (MenuItemInfo) 
 
-此函數僅支援 Microsoft Windows NT 4.0 版的 [**MENUITEMINFOW**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa) 結構。 此結構缺少 **hbmpItem** 成員。 此外，此函數不支援 MIIM \_ 點陣圖旗標。 MSLU 沒有這些限制。
+此函數僅支援 Microsoft Windows NT 4.0 版的 [**MENUITEMINFOW**](/windows/win32/api/winuser/ns-winuser-menuiteminfoa)結構。 此結構缺少 **hbmpItem** 成員。 此外，此函數不支援 MIIM \_ 點陣圖旗標。 MSLU 沒有這些限制。
 
 ### <a name="openfilename"></a> (OpenFileName) 
 
@@ -395,7 +395,7 @@ MSLU 沒有這些限制。
 
 
 
-|                      |                                                                                                           |
+| 訊息              | 描述                                                                                               |
 |----------------------|-----------------------------------------------------------------------------------------------------------|
 | CB \_ ADDSTRING        |  (b)  (f)  (c)                                                                                                |
 | CB \_ FINDSTRING       |  (b)  (f)  (c)                                                                                                |
@@ -437,7 +437,7 @@ MSLU 沒有這些限制。
 -    (d) 指定的視窗控制碼必須是 listbox 控制項的控制碼。 如果 listbox 是主控描繪，而且不是使用 [清單方塊樣式](../controls/list-box-styles.md) 樣式建立的，則此訊息的轉譯會失敗，甚至可能會損毀。
 -    (e) 如果需要字串轉換，則所有字串都會透過 CP \_ ACP 字碼頁進行轉換。
 
-    從 ANSI 轉換成 Unicode 以進行輸出時，如果在提供的緩衝區中無法容納傳回的字串，則包裝函式會將它截斷。 傳回復制到緩衝區的字元數目的函式傳回值，或為了避免截斷所需的字元數，是指複製到緩衝區或基礎 ANSI 函數所需的 ANSI 字元數目，而不是從呼叫的應用程式呼叫包裝函式所提供或所需的 Unicode 字元數。 MSLU 沒有這項限制。 如需詳細資訊，請參閱 [Windows 95/98/Me 系統上的 Microsoft Layer For Unicode](/previous-versions/ms812865(v=msdn.10))。
+    從 ANSI 轉換成 Unicode 以進行輸出時，如果在提供的緩衝區中無法容納傳回的字串，則包裝函式會將它截斷。 傳回復制到緩衝區的字元數目的函式傳回值，或為了避免截斷所需的字元數，是指複製到緩衝區或基礎 ANSI 函數所需的 ANSI 字元數目，而不是從呼叫的應用程式呼叫包裝函式所提供或所需的 Unicode 字元數。 MSLU 沒有這項限制。 如需詳細資訊，請參閱[Windows 95/98/Me 系統上的 Microsoft Layer for Unicode](/previous-versions/ms812865(v=msdn.10))。
 
 ### <a name="settimerqueuetimer"></a> (SetTimerQueueTimer) 
 

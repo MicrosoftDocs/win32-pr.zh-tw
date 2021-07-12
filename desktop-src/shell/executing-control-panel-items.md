@@ -1,15 +1,15 @@
 ---
-description: 討論針對 Windows Vista 和更新版本的系統開啟主控台專案，以及涵蓋舊版主控台命令的方法。
+description: 討論為 Windows Vista 和更新版本的系統開啟主控台專案，以及涵蓋舊版主控台命令的方法。
 ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: 執行主控台專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaaac4b782273e0b4444fb2b5b6d3cab0b3599ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 08cb6ae2fa08231d3876e1a5a636e404f519f4a6
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991690"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581756"
 ---
 # <a name="executing-control-panel-items"></a>執行主控台專案
 
@@ -41,7 +41,7 @@ WinExec("c:\windows\system32\control.exe MyCpl.cpl", SW_NORMAL);
 
 
 
-透過命令列開啟主控台專案時，您可以指示它開啟至專案中的特定索引標籤。 由於某些 Windows Vista 主控台專案中的特定索引標籤的新增和移除，因此在 Windows XP 中，索引標籤的編號可能已變更。 例如，下列範例會在 Windows XP 上的系統專案和 Windows Vista 的第三個索引標籤上啟動第四個索引標籤。
+透過命令列開啟主控台專案時，您可以指示它開啟至專案中的特定索引標籤。 由於某些 Windows Vista 主控台專案中的特定索引標籤的新增和移除，在 Windows XP 中，索引標籤的編號可能已變更。 例如，下列範例會在 Windows XP 上的系統專案中，以及 Windows Vista 的第三個索引標籤上，啟動第四個索引標籤。
 
 
 ```
@@ -52,14 +52,14 @@ control.exe sysdm.cpl,,3
 
 本主題將討論下列內容：
 
--   [Windows Vista 標準名稱](#windows-vista-canonical-names)
+-   [WindowsVista 標準名稱](#windows-vista-canonical-names)
 -   [Windows Vista 的新命令](#new-commands-for-windows-vista)
 -   [舊版主控台命令](#legacy-control-panel-commands)
 -   [相關主題](#related-topics)
 
-## <a name="windows-vista-canonical-names"></a>Windows Vista 標準名稱
+## <a name="windows-vista-canonical-names"></a>WindowsVista 標準名稱
 
-在 Windows Vista 和更新版本中，從命令列啟動主控台專案的慣用方法是使用主控台專案的正式名稱。 標準名稱是主控台專案在登錄中宣告的非當地語系化字串。 使用標準名稱的值，是它會將主控台專案的模組名稱抽象化。 專案可以在 .dll 中執行，稍後以 .exe 的形式根據或變更其模組名稱。 只要正式名稱維持不變，就不需要更新使用該正式名稱開啟該名稱的任何程式。
+在 Windows Vista 和更新版本中，從命令列啟動主控台專案的慣用方法是使用主控台專案的正式名稱。 標準名稱是主控台專案在登錄中宣告的非當地語系化字串。 使用標準名稱的值，是它會將主控台專案的模組名稱抽象化。 專案可以在 .dll 中執行，並在稍後根據為 .exe 或變更其模組名稱。 只要正式名稱維持不變，就不需要更新使用該正式名稱開啟該名稱的任何程式。
 
 依照慣例，正式名稱的格式為 "CorporationName. ControlPanelItemName"。
 
@@ -82,13 +82,13 @@ WinExec("%systemroot%\system32\control.exe /name Microsoft.WindowsUpdate", SW_NO
 
 ## <a name="new-commands-for-windows-vista"></a>Windows Vista 的新命令
 
-在 Windows Vista 中，Windows XP 上的 cpl 模組所存取的某些選項現在會實作為 .exe 檔。 這可讓標準使用者在嘗試啟動檔案時提供系統管理員認證，以提供額外的安全性。 不需要額外安全性的選項，是透過 Windows XP 中使用的相同命令列來存取。 以下是 Windows Vista 中用來存取主控台專案特定索引標籤的命令清單：
+在 Windows Vista 中，Windows XP 上的 .cpl 模組所存取的某些選項現在會實作為 .exe 檔。 這可讓標準使用者在嘗試啟動檔案時提供系統管理員認證，以提供額外的安全性。 不需要額外安全性的選項，可透過 Windows XP 中使用的相同命令列來存取。 以下是 Windows Vista 中用來存取主控台專案的特定索引標籤的命令清單：
 
 ### <a name="personalization"></a>個人化
 
 -   字型大小和 DPI：% windir% \\ system32 \\DpiScaling.exe
 -   螢幕解析度：% windir% \\ system32 \\control.exe desk.cpl，設定，@Settings
--   顯示設定：% windir% \\ system32 \\control.exe desk.cpl，設定，@Settings
+-   顯示設定：% windir% \\ system32 \\control.exe desk.cpl、設定、@Settings
 -   主題：% windir% \\ system32 \\control.exe desk.cpl，主題，@Themes
 -   螢幕保護裝置：% windir% \\ system32 \\control.exe desk.cpl、螢幕保護裝置程式@screensaver
 -   多重監視器：% windir% \\ system32 \\control.exe desk.cpl，監視，@Monitor
@@ -131,7 +131,7 @@ WinExec("%systemroot%\system32\control.exe /name Microsoft.WindowsUpdate", SW_NO
 -   編輯目前的計畫設定：% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions/page pagePlanSettings
 -   系統設定：% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions/page pageGlobalSettings
 -   建立電源計劃：% windir% \\ system32 \\control.exe/name Microsoft. PowerOptions/page pageCreateNewPlan
--   [Advanced Settings] 頁面沒有標準命令，它會以較舊的方式存取：% windir% \\ system32 \\control.exe powercfg.cpl，，3
+-   Advanced 設定 page 沒有標準命令，它會以較舊的方式存取：% windir% \\ system32 \\control.exe powercfg.cpl，，3
 
 ## <a name="legacy-control-panel-commands"></a>舊版主控台命令
 
@@ -193,11 +193,11 @@ Starter 和 Basic 版本不支援此命令。
 
 
 
-|                            |                                                          |
+| 命令                    | 描述                                              |
 |----------------------------|----------------------------------------------------------|
 | control.exe 資料夾        | 啟動 [ **資料夾選項** ] 視窗。                  |
 | control.exe netware        | 如果已安裝) ，則啟動 **Novell NetWare** 視窗 (。   |
-| control.exe 電話語音      | 啟動 [ **電話和數據機選項** ] 視窗。         |
+| control.exe 電話語音      | 啟動 [**電話和數據機選項**] 視窗。         |
 | control.exe admintools     | 顯示 [系統 **管理工具** ] 資料夾。            |
 | control.exe schedtasks     | 顯示 [ **排定** 的工作] 資料夾。                 |
 | control.exe netconnections | 顯示 [ **網路連接** ] 資料夾。             |
@@ -236,7 +236,7 @@ Starter 和 Basic 版本不支援此命令。
 [建立主控台專案的可搜尋工作連結](creating-searchable-task-links.md)
 </dt> <dt>
 
-[在 Windows Vista 下存取安全模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
+[在 Windows Vista 下存取保管庫模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

@@ -4,25 +4,25 @@ ms.assetid: a01bc5db-17b9-44fe-adf8-0c2954fcd369
 title: Microsoft AES 密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4c774eb2cb9d01bcb3a12f5550537abe44b364
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2449c53cb828a94c8dd596133c3a8c21c9b0388
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991752"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581866"
 ---
 # <a name="microsoft-aes-cryptographic-provider"></a>Microsoft AES 密碼編譯提供者
 
 Microsoft 增強型 RSA 和 AES 密碼編譯提供者支援與 Microsoft 基底密碼編譯提供者相同的功能，稱為「基底提供者」。 AES 提供者透過更長的金鑰和其他演算法，支援更強的安全性。 它可以與所有 CryptoAPI 版本搭配使用。
 
-**WINDOWS XP：** Microsoft AES 密碼編譯提供者的名稱為 Microsoft 增強型 RSA 和 AES 密碼編譯提供者 (原型) 。
+**Windows XP：** Microsoft AES 密碼編譯提供者的名稱為 Microsoft 增強型 RSA 和 AES 密碼編譯提供者 (原型) 。
 
 為了維持與先前的提供者版本之間的回溯相容性，提供者名稱（如 Wincrypt .h 標頭檔中所定義）會保留版本1.0 指定，即使已寄出此提供者的較新版本也一樣。 若要判斷使用中的提供者版本，請呼叫 [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) ，並將 *dwParam* 參數設定為 PP \_ 版本。 如果傳回0x0200，則會使用2.0 版。
 
-|                |                             |
-|----------------|-----------------------------|
-| 提供者類型： | **>PROV \_ RSA \_ AES**          |
-| 提供者名稱： | **MS \_ ENH \_ RSA \_ AES \_ >PROV** |
+|                   | 值                    |
+|-------------------|--------------------------|
+| **提供者類型** | >PROV \_ RSA \_ AES           |
+| **提供者名稱** | MS \_ ENH \_ RSA \_ AES \_ >PROV  |
 
 
 

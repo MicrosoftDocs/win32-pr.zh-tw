@@ -1,5 +1,5 @@
 ---
-description: Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visual Basic 和指令碼語言（例如 Microsoft JScript）來設計 Shell， (與 ECMA 262 語言規格相容) 和 Microsoft Visual Basic Scripting Edition (VBScript) 。 您可以使用這些物件來存取許多 Shell 的功能和對話方塊。 例如，您可以存取檔案系統、啟動程式，以及變更系統設定。
+description: Windows Shell 提供一組強大的自動化物件，可讓您使用 microsoft Visual Basic 和指令碼語言來設計 Shell，例如 microsoft JScript (與 ECMA 262 語言規格相容) 和 microsoft Visual Basic 腳本撰寫版 (VBScript) 。 您可以使用這些物件來存取許多 Shell 的功能和對話方塊。 例如，您可以存取檔案系統、啟動程式，以及變更系統設定。
 title: 可編寫腳本的 Shell 物件
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4c39e7e58a9715598056fb74aa154ed8a850f523
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8685b44d00d3f48e8de2a567218ef08c1cb5070
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973605"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581776"
 ---
 # <a name="scriptable-shell-objects"></a>可編寫腳本的 Shell 物件
 
-Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visual Basic 和指令碼語言（例如 Microsoft JScript）來設計 Shell， (與 ECMA 262 語言規格相容) 和 Microsoft Visual Basic Scripting Edition (VBScript) 。 您可以使用這些物件來存取許多 Shell 的功能和對話方塊。 例如，您可以存取檔案系統、啟動程式，以及變更系統設定。
+Windows Shell 提供一組強大的自動化物件，可讓您使用 microsoft Visual Basic 和指令碼語言來設計 Shell，例如 microsoft JScript (與 ECMA 262 語言規格相容) 和 microsoft Visual Basic 腳本撰寫版 (VBScript) 。 您可以使用這些物件來存取許多 Shell 的功能和對話方塊。 例如，您可以存取檔案系統、啟動程式，以及變更系統設定。
 
 本節介紹可編寫腳本的 Shell 物件。
 
@@ -32,7 +32,7 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 
 ## <a name="shell-versions"></a>Shell 版本
 
-許多 Shell 物件在 Shell 的 [4.71 版](versions.md) 中都有提供。 其他則可在5.00 版和更新版本中使用。 Windows 2000 已可使用5.00 版。 下表列出物件變成可用之 Shell 版本底下的每個 Shell 物件。
+許多 Shell 物件在 Shell 的 [4.71 版](versions.md) 中都有提供。 其他則可在5.00 版和更新版本中使用。 版本5.00 已在 Windows 2000 中推出。 下表列出物件變成可用之 Shell 版本底下的每個 Shell 物件。
 
 
 
@@ -41,7 +41,7 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 | [**資料夾**](folder.md)                                | [**DIDiskQuotaUser**](didiskquotauser-object.md)     |
 | [**FolderItemVerb**](folderitemverb.md)                | [**DiskQuotaControl**](diskquotacontrol-object.md)   |
 | [**FolderItemVerbs**](folderitemverbs.md)              | [**Folder2**](folder2-object.md)                     |
-| [**殼層**](shell.md)                                  | [**FolderItem**](folderitem.md)                      |
+| [**Shell**](shell.md)                                  | [**FolderItem**](folderitem.md)                      |
 | [**ShellFolderView**](shellfolderview.md)              | [**FolderItems**](folderitems.md)                    |
 | [**ShellUIHelper**](shelluihelper.md)                  | [**FolderItems2**](folderitems2-object.md)           |
 | [**ShellWindows**](shellwindows.md)                    | [**IShellDispatch2**](ishelldispatch2-object.md)     |
@@ -63,7 +63,7 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 
 ### <a name="late-binding"></a>晚期繫結
 
-您也可以使用晚期繫結將許多 Shell 物件具現化。 這種方法適用于 Visual Basic 應用程式和腳本。 下列範例顯示如何在 JScript 中具現化 [**Shell**](shell.md) 物件。
+您也可以使用晚期繫結將許多 Shell 物件具現化。 這種方法適用于 Visual Basic 應用程式和腳本。 下列範例顯示如何在 JScript 中具現化 [**Shell**](shell.md)物件。
 
 
 ```
@@ -121,13 +121,13 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 | [**FolderItemVerbs**](folderitemverbs.md)              | FolderItem，或 Shell. NameSpace ( "..." ) 。自我動詞                                   |
 | [**IShellDispatch2**](ishelldispatch2-object.md)       | 殼。Shell \_ 應用程式                                                                |
 | [**IShellLinkDual2**](ishelllinkdual2-object.md)       | Shell. NameSpace ( "..." ) 。GetLink 或 Shell. NameSpace ( "..." ) 。 () 專案。GetLink           |
-| [**殼層**](shell.md)                                  | 殼。Shell \_ 應用程式                                                                |
+| [**Shell**](shell.md)                                  | 殼。Shell \_ 應用程式                                                                |
 | [**ShellFolderItem**](shellfolderitem-object.md)       | Shell. NameSpace ( "..." ) 。Self 或 Shell. NameSpace ( "..." ) 。專案 ()                            |
 | [**ShellFolderView**](shellfolderview.md)              | 無法晚期繫結                                                                        |
 | [**ShellFolderViewOC**](shellfolderviewoc-object.md)   | 無法晚期繫結                                                                        |
 | [**ShellLinkObject**](shelllinkobject-object.md)       | Shell. NameSpace ( "..." ) 。GetLink 或 Shell. NameSpace ( "..." ) 。 () 專案。GetLink           |
 | [**ShellUIHelper**](shelluihelper.md)                  | 無法晚期繫結                                                                        |
-| [**ShellWindows**](shellwindows.md)                    | 殼。Shell \_ 視窗或 ShellWindows。 \_NewEnum                                          |
+| [**ShellWindows**](shellwindows.md)                    | 殼。Shell \_ Windows 或 ShellWindows。 \_NewEnum                                          |
 | [**WebViewFolderContents**](../lwef/webviewfoldercontents.md) | 無法晚期繫結                                                                        |
 
 
@@ -152,8 +152,8 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 
 
 
-|                                                         |                                      |
-|---------------------------------------------------------|--------------------------------------|
+| Shell 物件                                           | CLASSID                              |
+|--------------------------------------------------------|--------------------------------------|
 | [**DIDiskQuotaUser**](didiskquotauser-object.md)       | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**DiskQuotaControl**](diskquotacontrol-object.md)     | 7988B571-EC89-11cf-9C00-00AA00A14F56 |
 | [**資料夾**](folder.md)                                | BBCBDE60-C3FF-11CE-8350-444553540000 |
@@ -165,7 +165,7 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 | [**FolderItemVerbs**](folderitemverbs.md)              | 1F8352C0-50B0-11CF-960C-0080C7F4EE85 |
 | [**IShellDispatch2**](ishelldispatch2-object.md)       | A4C6892C-3BA9-11d2-9DEA-00C04FB16162 |
 | [**IShellLinkDual2**](ishelllinkdual2-object.md)       | 317EE249-F12E-11d2-B1E4-00C04F8EEB3E |
-| [**殼層**](shell.md)                                  | 13709620-C279-11CE-A49E-444553540000 |
+| [**Shell**](shell.md)                                  | 13709620-C279-11CE-A49E-444553540000 |
 | [**ShellFolderItem**](shellfolderitem-object.md)       | 2fe352ea-fd1f-11d2-b1f4-00c04f8eeb3e |
 | [**ShellFolderView**](shellfolderview.md)              | 62112AA1-EBE4-11cf-A5FB-0020AFE7292D |
 | [**ShellFolderViewOC**](shellfolderviewoc-object.md)   | 4a3df050-23bd-11d2-939f-00a0c91eedba |
@@ -263,7 +263,7 @@ Windows Shell 提供一組強大的自動化物件，可讓您以 Microsoft Visu
 
 ### <a name="security"></a>安全性
 
-以應用程式來說，HTA 會在與網頁不同的安全性模型下執行。 若要與執行 Shell 物件功能的網頁互動，使用者必須啟用 [ **初始化] 和 [編寫 ActiveX 控制項未標示為安全的 ActiveX 控制項** ] 選項，以供他們在其中查看頁面的安全性區域使用。
+以應用程式來說，HTA 會在與網頁不同的安全性模型下執行。 若要與執行 Shell 物件功能的網頁互動，使用者必須啟用 **未標示為** 安全選項的 [初始化] 和 [腳本] ActiveX 控制項，以供他們在其中看到頁面的安全性區域。
 
 ## <a name="folder-objects"></a>資料夾物件
 
@@ -319,7 +319,7 @@ End Sub
 
 
 
-在下列 JScript 範例中（這是先前 VBScript 範例的直接轉譯），請注意如何使用空括弧 ' () ' 來叫用 [**專案**](folder-items.md) 和 [**專案**](folderitems-item.md) 方法。
+在下列 JScript 範例（這是先前 VBScript 範例的直接轉譯），請注意如何使用空括弧 ' () ' 來叫用 [**專案**](folder-items.md)和 [**專案**](folderitems-item.md)方法。
 
 
 ```

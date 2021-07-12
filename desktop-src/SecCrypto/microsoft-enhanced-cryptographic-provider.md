@@ -4,12 +4,12 @@ ms.assetid: 87d0c865-8b29-439c-81aa-a40dc0034e3b
 title: Microsoft 增強型密碼編譯提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cadaa0b6325dc7d855aa0b7eeb8d7ff5f114cfd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9cf3b3b421e3151811da033e7536f334e3883487
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943496"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581826"
 ---
 # <a name="microsoft-enhanced-cryptographic-provider"></a>Microsoft 增強型密碼編譯提供者
 
@@ -17,10 +17,10 @@ Microsoft 增強型密碼編譯提供者（稱為增強型提供者）支援與 
 
 為了維持與舊版提供者版本的回溯相容性，提供者名稱（如 Wincrypt .h 標頭檔中所定義）會保留1.0 版指定。 不過，此提供者的2.0 版目前為出貨。 若要判斷使用中的提供者版本，請呼叫 [**CryptGetProvParam**](/windows/desktop/api/Wincrypt/nf-wincrypt-cryptgetprovparam) ，並將 *dwParam* 引數設定為 **PP \_ 版本**。 如果傳回0x0200，則會使用2.0 版。
 
-|                |                        |
-|----------------|------------------------|
-| 提供者類型： | **>PROV \_ RSA \_ FULL**    |
-| 提供者名稱： | **MS \_ 增強的 \_ >PROV** |
+|                   | 值               |
+|-------------------|---------------------|
+| **提供者類型** | >PROV \_ RSA \_ FULL     |
+| **提供者名稱** | MS \_ 增強的 \_ >PROV  |
 
 
 

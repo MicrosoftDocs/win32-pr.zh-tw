@@ -4,12 +4,12 @@ ms.assetid: c63d339e-ac62-4da1-b5ce-22d45a6a3413
 title: 命令介面資料物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 812e5c18f5a2120fbf22682c6e768dc005128630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69a6c411310b6c9e9f28df4de048d3b6909c44b9
+ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191176"
+ms.lasthandoff: 07/09/2021
+ms.locfileid: "113581626"
 ---
 # <a name="shell-data-object"></a>命令介面資料物件
 
@@ -64,7 +64,7 @@ ms.locfileid: "104191176"
 -   Shell 會使用 **lIndex** 成員及其 [CFSTR \_ FILECONTENTS](clipboard.md) 格式，讓資料物件能夠包含每個格式的一個以上資料項目。 如需如何使用此格式的討論，請參閱 [處理 Shell 資料傳輸案例](datascenarios.md)的 *使用 CFSTR \_ FILECONTENTS 格式從檔案解壓縮資料* 一節。
 -   **DwAspect** 成員通常會設定為 >dvaspect \_ 內容。 不過，Shlobj.h 中定義了三個可用於 Shell 資料傳輸的值。 
 
-    |                     |                                                                                                   |
+    | 值               | 描述                                                                                       |
     |---------------------|---------------------------------------------------------------------------------------------------|
     | >DVASPECT \_ 複製      | 用來表示格式代表資料的複本。                                   |
     | >DVASPECT \_ 連結      | 用來表示格式代表資料的快捷方式。                               |
