@@ -2,20 +2,20 @@
 title: DWriteCore 總覽
 description: DWriteCore 是 DirectWrite 的 Windows App SDK 執行。
 keywords:
-- DirectWrite 核心
+- DirectWrite核心
 - DWriteCore
 ms.topic: article
 ms.date: 04/22/2021
-ms.openlocfilehash: a537d26f6aca4e2be64b61fd41da91e1f8829894
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: 644ce3c5715e1cc57129b36047169c20e80a6697
+ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587779"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113689191"
 ---
 # <a name="dwritecore-overview"></a>DWriteCore 總覽
 
-DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于高品質文字轉譯的 DirectX API、解析度無關的大綱字型，以及完整的 Unicode 文字和版面配置支援) 。 [](/windows/apps/windows-app-sdk/) DWriteCore 是一種 DirectWrite 形式，可在 Windows 版本下執行，以 Windows 10 版本 1809 (10.0;組建 17763) ，並開啟可讓您跨平臺使用的門。
+DWriteCore 是[DirectWrite](./direct-write-portal.md) (的[Windows App SDK](/windows/apps/windows-app-sdk/) DirectWrite 是適用于高品質文字轉譯的 DirectX API、與解析度無關的大綱字型，以及) 的完整 Unicode 文字和版面配置支援。 DWriteCore 是一種 DirectWrite 形式，可在 Windows 向下執行以 Windows 10 版本 1809 (10.0;組建 17763) ，並開啟可讓您跨平臺使用的門。
 
 本簡介主題說明 DWriteCore 是什麼，並示範如何將它安裝到您的開發環境和程式。
 
@@ -24,41 +24,41 @@ DWriteCore 是[DirectWrite](./direct-write-portal.md) (DirectWrite 是適用于�
 
 ## <a name="the-value-proposition-of-dwritecore"></a>DWriteCore 的價值主張
 
-[DirectWrite](./direct-write-portal.md) 本身支援豐富的功能陣列，讓它成為大部分應用程式（ &mdash; 無論是透過直接呼叫或透過 [Direct2D](../direct2d/direct2d-portal.md)）在 Windows 上選擇的字型呈現工具。 DirectWrite 包含與裝置無關的文字版面配置系統、高品質的子圖元 [Microsoft ClearType](/typography/cleartype/) 文字轉譯、硬體加速文字、多重格式文字、先進的 [OpenType®](/typography/opentype/) 印刷樣式功能、寬語言支援，以及與 [GDI](../gdi/windows-gdi.md)相容的版面配置和轉譯。 自 Windows Vista SP2 起，DirectWrite 已推出，其多年來加入更先進的功能，例如變數字型，可讓您將樣式、權數和其他屬性套用至只有一個字型資源的字型。
+[DirectWrite](./direct-write-portal.md)本身支援豐富的功能陣列，讓它成為大部分應用程式（ &mdash; 無論是透過直接呼叫或透過[Direct2D](../direct2d/direct2d-portal.md)） Windows 的字型轉譯工具。 DirectWrite 包含與裝置無關的文字版面配置系統、高品質的子圖元[Microsoft ClearType](/typography/cleartype/)文字轉譯、硬體加速文字、多重格式文字、先進的[OpenType®](/typography/opentype/)印刷樣式功能、寬語言支援，以及與[GDI](../gdi/windows-gdi.md)相容的版面配置和轉譯。 自 Windows Vista SP2 起，DirectWrite 已可供使用，而且已多年來加入更先進的功能，例如變數字型，可讓您將樣式、權數和其他屬性套用至只有一個字型資源的字型。
 
-但由於 DirectWrite 的存留期較長，因此開發的進展比起讓舊版的 Windows 保持在幕後。 此外，DirectWrite 的狀態為頂級文字轉譯技術僅限於 Windows，讓跨平臺應用程式可以撰寫自己的文字呈現堆疊，或依賴協力廠商解決方案。
+不過，由於 DirectWrite 的存留期很長，因此開發的進展比起將舊版的 Windows 遺留下來。 此外，DirectWrite 的狀態，因為 premier text 轉譯技術僅限於 Windows，因此跨平臺應用程式可以撰寫自己的文字呈現堆疊，或依賴協力廠商解決方案。
 
 DWriteCore 可解決版本功能損壞和跨平臺相容性的基本問題，方法是從系統中移除程式庫，並將所有可能支援的端點設為目標。 為此，我們已將 DWriteCore 整合到 Windows App SDK。
 
-DWriteCore 可讓您以開發人員的身分，在 Windows 應用程式 SDK 中提供給您的主要價值是，它可讓您存取許多 (以及最終所有) 的 DirectWrite 功能。 DWriteCore 的所有功能在所有下層版本上的運作都相同，而不需要任何差異有關哪些功能可在哪些版本上運作。
+DWriteCore 可讓您以開發人員身分在 Windows App SDK 中提供您的主要價值，就是它可提供許多 (的存取權，以及最終所有) DirectWrite 功能。 DWriteCore 的所有功能在所有下層版本上的運作都相同，而不需要任何差異有關哪些功能可在哪些版本上運作。
 
 ## <a name="the-dwritecore-demo-appmdashdwritecoregallery"></a>DWriteCore 示範應用程式 &mdash; DWriteCoreGallery
 
-DWriteCore 會透過 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式來示範，您現在可以在此下載及研究。
+DWriteCore 會透過 [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) 範例應用程式來示範，您現在可以在此下載及研究。
 
 ## <a name="get-started-with-dwritecore"></a>DWriteCore 入門
 
-DWriteCore 是 [Windows APP SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0)的一部分。 本節說明如何設定您的開發環境，以使用 DWriteCore 進行程式設計。
+DWriteCore 是[Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0)的一部分。 本節說明如何設定您的開發環境，以使用 DWriteCore 進行程式設計。
 
 ### <a name="install-the-windows-app-sdk-08-vsix"></a>安裝 Windows App SDK 0.8 VSIX
 
-在 Visual Studio 中，按一下 [**擴充** 功能  >  **管理延伸** 模組]、[搜尋 *windows app sdk*]，然後下載 windows app sdk 擴充功能。 關閉並重新開啟 Visual Studio，並遵循提示來安裝擴充功能。
+在 Visual Studio 中，按一下 [**擴充** 功能  >  **管理延伸** 模組]，搜尋 *Windows App sdk*]，然後下載 Windows App sdk 擴充功能。 關閉並重新開啟 Visual Studio，並遵循提示來安裝擴充功能。
 
-如需詳細資訊，請參閱 [Windows 應用程式 SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0) 並 [設定您的開發環境](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio)。
+如需詳細資訊，請參閱[Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0)並[設定您的開發環境](/windows/apps/windows-app-sdk/set-up-your-development-environment#3-install-the-windows-app-sdk-extension-for-visual-studio)。
 
 ### <a name="create-a-new-project"></a>建立新專案
 
-在 Visual Studio 中，從空白應用程式建立新的專案 **，並在桌面) 專案範本中封裝 (WinUI 3** 。 您可以選擇 [language： *c + +*;] 來尋找該專案範本。平臺： *Windows APP SDK*;專案類型： *Desktop*。
+在 Visual Studio 中，從空白應用程式建立新的專案 **，並在桌面) 專案範本中封裝 (WinUI 3** 。 您可以選擇 [language： *c + +*;] 來尋找該專案範本。平臺： *Windows App SDK*;專案類型： *Desktop*。
 
-如需詳細資訊，請參閱 [WinUI 3 的專案範本](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3)。
+如需詳細資訊，請參閱[WinUI 3 的 Project 範本](/windows/apps/winui/winui3/winui-project-templates-in-visual-studio#project-templates-for-winui-3)。
 
-### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>安裝 ProjectReunion DWrite NuGet 套件
+### <a name="install-the-microsoftprojectreuniondwrite-nuget-package"></a>安裝 ProjectReunion. DWrite NuGet 套件
 
-在 Visual Studio 中，按一下 [ **專案** \> **管理 NuGet 封裝** \> **]**，然後在 [搜尋] 方塊中輸入或貼上 **ProjectReunion DWrite** ，在搜尋結果中選取專案，然後按一下 [ **安裝** ] 以安裝該專案的套件。
+在 Visual Studio 中，按一下 [ **Project** \> **管理 NuGet 套件** \> **]**，然後在 [搜尋] 方塊中輸入或貼上 **ProjectReunion** ，在搜尋結果中選取專案，然後按一下 [**安裝**] 以安裝該專案的套件。
 
 ### <a name="alternatively-begin-with-the-dwritecoregallery-sample-app"></a>或者，從 DWriteCoreGallery 範例應用程式開始
 
-或者，您可以從 [DWriteCoreGallery](https://github.com/microsoft/Project-Reunion-Samples/tree/main/DWriteCore/DWriteCoreGallery) 範例應用程式專案開始使用 DWriteCore 進行程式設計，並以該專案為基礎進行開發。 然後您可以隨意移除任何現有的原始程式碼 (或從該範例專案) 的檔案，以及將任何新的原始程式碼 (或) 至專案的檔案中。
+或者，您可以從 [DWriteCoreGallery](https://github.com/microsoft/WindowsAppSDK-Samples/tree/main/Samples/TextRendering) 範例應用程式專案開始使用 DWriteCore 進行程式設計，並以該專案為基礎進行開發。 然後您可以隨意移除任何現有的原始程式碼 (或從該範例專案) 的檔案，以及將任何新的原始程式碼 (或) 至專案的檔案中。
 
 ### <a name="use-dwritecore-in-your-project"></a>在您的專案中使用 DWriteCore
 
@@ -66,11 +66,11 @@ DWriteCore 是 [Windows APP SDK 0.8](https://github.com/microsoft/ProjectReunion
 
 ## <a name="the-release-phases-of-dwritecore"></a>DWriteCore 的發行階段
 
-將 DirectWrite 移植到 DWriteCore 是一種夠大的專案，可跨越多個 Windows 發行週期。 該專案會分成幾個階段，每個階段都對應至一個發行中傳遞的功能區塊。
+將 DirectWrite 移植至 DWriteCore 是一項夠大的專案，以跨越多個 Windows 的發行週期。 該專案會分成幾個階段，每個階段都對應至一個發行中傳遞的功能區塊。
 
 ### <a name="features-in-the-current-release-of-dwritecore"></a>目前版本的 DWriteCore 功能
 
-目前可用的 DWriteCore 版本是 [Windows APP SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0)的一部分。 它包含您以開發人員身分使用 DWriteCore 所需的基本工具，包含下列功能。
+目前可用的 DWriteCore 版本是[Windows App SDK 0.8](https://github.com/microsoft/ProjectReunion/releases/tag/v0.8.0)的一部分。 它包含您以開發人員身分使用 DWriteCore 所需的基本工具，包含下列功能。
 
 - 字型列舉。
 - 字型 API。
@@ -86,7 +86,7 @@ DWriteCore 是 [Windows APP SDK 0.8](https://github.com/microsoft/ProjectReunion
 - 透過 IDWriteTextLayout 支援垂直文字[](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) &mdash; 請參閱[垂直文字](/windows/win32/directwrite/vertical-text)。
 - [**IDWriteTextAnalyzer**](/windows/win32/api/dwrite/nn-dwrite-idwritetextanalyzer)和 [**IDWriteTextAnalyzer1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritetextanalyzer1)介面的所有方法都是實作為。
 
-橫幅功能為色彩字型。 色彩字型可讓您以更精密的色彩功能轉譯字型，而不只是簡單的單一色彩。 例如，色彩字型是能夠轉譯表情和工具列圖示字型 (後者會由 Office 使用，例如) 。 色彩字型是在 Windows 8.1 中首次引進，但此功能已在 Windows 10 的版本 1607 (年度更新) 中大幅擴充。
+橫幅功能為色彩字型。 色彩字型可讓您以更精密的色彩功能轉譯字型，而不只是簡單的單一色彩。 例如，色彩字型是可轉譯表情和工具列圖示字型 (後者會由 Office 使用的功能，例如) 。 色彩字型是在 Windows 8.1 中首次引進，但此功能已在 Windows 10 的版本 1607 (年度更新) 中大幅擴充。
 
 清除字型快取的工作，以及記憶體中的字型載入器，可讓您更快速地載入字型和記憶體改善。
 
@@ -94,11 +94,11 @@ DWriteCore 是 [Windows APP SDK 0.8](https://github.com/microsoft/ProjectReunion
 
 ## <a name="our-invitation-to-you-as-a-directwrite-developer"></a>我們邀請您成為 DirectWrite 開發人員
 
-DWriteCore 和其他 Windows App SDK 元件將會以開放性開發人員意見反應來開發。 我們邀請您開始探索 DWriteCore，並在 [Windows APP SDK GitHub 存放庫](https://github.com/microsoft/ProjectReunion/)上提供深入解析或要求至功能開發。
+DWriteCore 以及其他 Windows App SDK 元件，將會以開放性開發人員意見反應來開發。 我們邀請您開始探索 DWriteCore，並在我們的[Windows App SDK GitHub 存放庫](https://github.com/microsoft/ProjectReunion/)上提供見解或要求至功能開發。
 
 ## <a name="programming-with-dwritecore"></a>使用 DWriteCore 進行程式設計
 
-就像使用 [DirectWrite](./direct-write-portal.md)，您可以透過 [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) 介面，透過其 COM light API 來進行程式設計。
+就像 [DirectWrite](./direct-write-portal.md)一樣，您也可以透過 [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory)介面，透過其 DWriteCore 的 COM light API 來進行程式設計。
 
 若要使用 DWriteCore，必須包含 `dwrite_core.h` 標頭檔。
 
@@ -109,17 +109,17 @@ DWriteCore 和其他 Windows App SDK 元件將會以開放性開發人員意見�
 #include <dwrite_core.h>
 ```
 
-`dwrite_core.h`標頭檔會先定義權杖 *DWRITE_CORE*，然後再包含 `dwrite_3.h` 標頭檔。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite api 可供您使用。 當您的專案包含之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
+`dwrite_core.h`標頭檔會先定義權杖 *DWRITE_CORE*，然後再包含 `dwrite_3.h` 標頭檔。 *DWRITE_CORE* token 很重要，因為它會指示任何後續包含的標頭，讓所有 DirectWrite 的 api 都可供您使用。 當您的專案包含之後 `dwrite_core.h` ，您就可以繼續撰寫程式碼、建立和執行。
 
 ### <a name="apis-that-are-new-or-different-for-dwritecore"></a>適用于 DWriteCore 的新或不同 Api
 
-DWriteCore API 表面與 [DirectWrite](/windows/win32/api/_directwrite/)的方式大致相同。 但目前只有 DWriteCore 有少量的新 Api。
+DWriteCore API 表面與[DirectWrite](/windows/win32/api/_directwrite/)的方式大致相同。 但目前只有 DWriteCore 有少量的新 Api。
 
 #### <a name="create-a-factory-object"></a>建立 factory 物件
 
 [**DWriteCoreCreateFactory**](/windows/windows-app-sdk/api/win32/dwrite_core/nf-dwrite_core-dwritecorecreatefactory) free 函式會建立用於後續建立個別 DWriteCore 物件的 factory 物件。
 
-**DWriteCoreCreateFactory** 的功能與系統版本的 DirectWrite 所匯出的 [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) 函式相同。 DWriteCore 函式有不同的名稱，以避免混淆。
+**DWriteCoreCreateFactory** 的功能與系統版 DirectWrite 所匯出的 [DWriteCreateFactory](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)函式相同。 DWriteCore 函式有不同的名稱，以避免混淆。
 
 #### <a name="create-a-restricted-factory-object"></a>建立受限制的 factory 物件
 
@@ -146,9 +146,9 @@ DirectWrite 具有點陣圖轉譯目標介面，可支援將圖像轉譯成系�
 
 因此，DWriteCore 引進了 [**IDWriteBitmapRenderTarget2**](/windows/windows-app-sdk/api/win32/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata) 介面，以及其方法 [**IDWriteBitmapRenderTarget2：： GetBitmapData**](/windows/windows-app-sdk/api/win32/dwrite_3/nf-dwrite_3-idwritebitmaprendertarget2-getbitmapdata)。 該方法會接受 (指標的參數，以) 類型 [**DWRITE_BITMAP_DATA_BGRA32**](/windows/windows-app-sdk/api/win32/dwrite_3/ns-dwrite_3-dwrite_bitmap_data_bgra32)，也就是新的結構。
 
-您的應用程式會藉由呼叫 [IDWriteGdiInterop：： CreateBitmapRenderTarget](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)來建立點陣圖呈現目標。 在 Windows 上，點陣圖轉譯目標會封裝 GDI 記憶體 DC，其中含有與 GDI 裝置無關的點陣圖 (DIB) 選取。 [IDWriteBitmapRenderTarget：:D rawglyphrun](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) 會將圖像轉譯為 DIB。 DirectWrite 會呈現圖像本身，而不會透過 GDI。 然後，您的應用程式可以從點陣圖轉譯目標取得 **HDC** ，然後使用 [BitBlt](/windows/win32/api/wingdi/nf-wingdi-bitblt) 將圖元複製到視窗 **HDC**。
+您的應用程式會藉由呼叫 [IDWriteGdiInterop：： CreateBitmapRenderTarget](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createbitmaprendertarget)來建立點陣圖呈現目標。 在 Windows 上，點陣圖轉譯目標會封裝 gdi 記憶體 DC，並在其中選取與 gdi 裝置無關的點陣圖 (DIB) 。 [IDWriteBitmapRenderTarget：:D rawglyphrun](/windows/win32/api/dwrite/nf-dwrite-idwritebitmaprendertarget-drawglyphrun) 會將圖像轉譯為 DIB。 DirectWrite 直接轉譯圖像本身，而不需要透過 GDI。 然後，您的應用程式可以從點陣圖轉譯目標取得 **HDC** ，然後使用 [BitBlt](/windows/win32/api/wingdi/nf-wingdi-bitblt) 將圖元複製到視窗 **HDC**。
 
-在非 Windows 平臺上，您的應用程式仍然可以建立點陣圖轉譯目標，但它只會封裝沒有 **HDC** 和 DIB 的系統記憶體陣列。 如果沒有使用 **HDC**，您的應用程式就必須有另一種方式來取得點陣圖圖元，讓它可以複製或使用它們。 即使是在 Windows 上，取得實際的圖元資料有時也會很有用，而且我們會在下面的程式碼範例中，示範目前的做法。
+在非 Windows 的平臺上，您的應用程式仍然可以建立點陣圖轉譯目標，但它只會封裝沒有 **HDC** 和 DIB 的系統記憶體陣列。 如果沒有使用 **HDC**，您的應用程式就必須有另一種方式來取得點陣圖圖元，讓它可以複製或使用它們。 即使在 Windows 上，取得實際的圖元資料有時也會很有用，而且我們會在下面的程式碼範例中，示範目前的做法。
 
 ```cppwinrt
 // pch.h
@@ -206,8 +206,8 @@ int __stdcall wWinMain(HINSTANCE, HINSTANCE, LPWSTR, int)
 }
 ```
 
-#### <a name="other-api-differences-between-dwritecore-and-directwrite"></a>DWriteCore 和 DirectWrite 之間的其他 API 差異
+#### <a name="other-api-differences-between-dwritecore-and-directwrite"></a>DWriteCore 與 DirectWrite 之間的其他 API 差異
 
-有一些僅限存根的 Api，或在非 Windows 平臺上的行為稍有不同。 例如， [IDWriteGdiInterop：： CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc)會傳回非 Windows 平臺上的 **E_NOTIMPL** ，因為沒有 [GDI](../gdi/windows-gdi.md)的 **HDC** 沒有任何這類內容。
+有幾個僅限存根的 api，或它們在非 Windows 平臺上的行為稍有不同。 例如， [IDWriteGdiInterop：： CreateFontFaceFromHdc](/windows/win32/api/dwrite/nf-dwrite-idwritegdiinterop-createfontfacefromhdc)會在非 Windows 的平臺上傳回 **E_NOTIMPL** ，因為沒有 [GDI](../gdi/windows-gdi.md)的 **HDC** 沒有任何這類內容。
 
-最後，還有一些其他 Windows Api 通常會與 DirectWrite 一起使用 (Direct2D 是值得注意的範例) 。 但是，Direct2D 和 DWriteCore 目前無法互通。 例如，如果您使用 DWriteCore 建立 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) ，並將它傳遞至 [**D2D1RenderTarget：:D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)，則該呼叫會失敗。
+最後，還有一些其他 Windows 的 api，通常會與 DirectWrite 一起使用， (Direct2D 是值得注意的範例) 。 但是，Direct2D 和 DWriteCore 目前無法互通。 例如，如果您使用 DWriteCore 建立 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) ，並將它傳遞至 [**D2D1RenderTarget：:D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)，則該呼叫會失敗。

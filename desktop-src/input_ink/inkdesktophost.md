@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - InkPresenterDesktop.idl
-ms.openlocfilehash: d5dac80a4ee09bb4b78a4d61ca0efa74e99babb9
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 74eebdbdfdbe3a4018d63b1f2161687152ebb5cc
+ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106974753"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113689221"
 ---
 # <a name="inkdesktophost-class"></a>InkDesktopHost 類別
 
@@ -50,14 +50,14 @@ ms.locfileid: "106974753"
 CoCreateInstance(__uuidof(InkDesktopHost), 
   nullptr, 
   CLSCTX_INPROC_SERVER, 
-  IID_PPV_ARGS(&amp;_spInkHost));
+  IID_PPV_ARGS(&_spInkHost));
 ```
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |---|---|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/> |
 | 標頭<br/>                   | <dl> <dt>InkPresenterDesktop。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>InkPresenterDesktop .idl</dt> </dl> |

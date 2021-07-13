@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 051e7f0aa08305e4c38d7eefec94483fd11f3bdf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9f94bf4474e208d0b1d29df7a5e2939d7826ca77
+ms.sourcegitcommit: 1f917afc149b5cc449a4a25a87de311e4842734b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104856"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113689201"
 ---
 # <a name="wm_pointerdown-message"></a>WM_POINTERDOWN 訊息
 
@@ -166,7 +166,7 @@ POINTER_INFO pointerInfo;
 UINT32       pointerId = GET_POINTERID_WPARAM(wParam);
 
 // Retrieve common pointer information
-if (!GetPointerInfo(pointerId, &amp;pointerInfo))
+if (!GetPointerInfo(pointerId, &pointerInfo))
 {
     // failure, call GetLastError()
 }
@@ -191,7 +191,7 @@ POINTER_TYPE         pointerType = PT_POINTER;
 // default to unhandled to enable call to DefWindowProc
 fHandled = FALSE;
 
-if (!GetPointerType(pointerId, &amp;pointerType))
+if (!GetPointerType(pointerId, &pointerType))
 {
     // failure, call GetLastError()
     // set PT_POINTER to fall to default case below
@@ -202,7 +202,7 @@ switch (pointerType)
 {
 case PT_TOUCH:
     // Retrieve touch information
-    if (!GetPointerTouchInfo(pointerId, &amp;touchInfo))
+    if (!GetPointerTouchInfo(pointerId, &touchInfo))
     {
         // failure, call GetLastError()
     }
@@ -215,7 +215,7 @@ case PT_TOUCH:
     break;
 case PT_PEN:
     // Retrieve pen information
-    if (!GetPointerPenInfo(pointerId, &amp;penInfo))
+    if (!GetPointerPenInfo(pointerId, &penInfo))
     {
         // failure, call GetLastError()
     }
@@ -227,14 +227,14 @@ case PT_PEN:
     }
     break;
 default:
-    if (!GetPointerInfo(pointerId, &amp;pointerInfo)) 
+    if (!GetPointerInfo(pointerId, &pointerInfo)) 
     {
         // failure.
     } 
     else 
     {
         // success, proceed with pointerInfo.
-        fHandled = HandleGenericPointerMessage(&amp;pointerInfo);
+        fHandled = HandleGenericPointerMessage(&pointerInfo);
     }
     break;
 }
@@ -249,9 +249,9 @@ default:
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                               |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -297,6 +297,3 @@ default:
 
 [**IS_POINTER_FIFTHBUTTON_WPARAM**](/previous-versions/windows/desktop/api)
 </dt> </dl>
-
- 
-
