@@ -1,40 +1,40 @@
 ---
-title: Windows 功能區架構
+title: Windows功能區架構
 description: 閱讀 Windows 功能區架構的簡介，這是傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的新式替代方案。
 ms.assetid: c6108c38-17ef-4d8a-ab32-171bc496d44c
 keywords:
-- Windows 功能區
+- Windows絲帶
 - 功能區
-- Windows 功能區檔
+- Windows功能區檔
 - 功能區檔
-- Windows 功能區 API
+- Windows功能區 API
 - 功能區 API
-- Windows 功能區，架構
+- Windows功能區，架構
 - 功能區，架構
-- Windows 功能區，關於
+- Windows功能區，關於
 - 功能區，關於
-- Windows 功能區，元件
+- Windows功能區、元件
 - 功能區、元件
-- Windows 功能區，views
+- Windows功能區、視圖
 - 功能區、視圖
-- Windows 功能區，架構
+- Windows功能區，架構
 - 功能區，架構
-- Windows 功能區，Api
+- Windows功能區，Api
 - 功能區，Api
-- Windows 功能區，安全性
+- Windows功能區，安全性
 - 功能區，安全性
 ms.topic: article
-ms.date: 05/31/2018
-ms.openlocfilehash: 211e1e1cf39a547ad0edbc0c180c62e2f40e15fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.date: 07/13/2021
+ms.openlocfilehash: 98f7dbf42d604f93c76bb9897aa25918d45d126f
+ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406361"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "113691647"
 ---
-# <a name="windows-ribbon-framework"></a>Windows 功能區架構
+# <a name="windows-ribbon-framework"></a>Windows功能區架構
 
-Windows 功能區架構是一種豐富的命令呈現系統，提供了傳統 Windows 應用程式之階層式功能表、工具列和工作窗格的新式替代方案。 類似于 Microsoft Office 2007 流暢的使用者介面的功能和外觀，功能區架構是由功能區命令列所組成，可透過應用程式視窗頂端的一系列索引標籤來公開應用程式的主要功能，以及內容功能表系統。
+Windows 功能區架構是一個豐富的命令呈現系統，為傳統 Windows 應用程式的階層式功能表、工具列和工作窗格提供新式替代方法。 類似于 Microsoft Office 2007 Fluent 使用者介面的功能和外觀，功能區架構是由功能區命令列所組成，可透過應用程式視窗頂端的一系列索引標籤來公開應用程式的主要功能，以及內容功能表系統。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -59,14 +59,14 @@ Windows 功能區架構是設計來供 C/c + + 開發人員和 UI 設計人員�
 
 建議的 proficiencies：
 
--   COM 程式設計
--   Windows API 程式設計
--   XML/XAML 程式設計
+- COM 程式設計
+- WindowsAPI 程式設計
+- XML/XAML 程式設計
 
 建議的基本知識：
 
--   UI 程式設計概念
--   一般 UI 概念
+- UI 程式設計概念
+- 一般 UI 概念
 
 ## <a name="minimum-requirements"></a>最低需求
 
@@ -74,8 +74,8 @@ Windows 功能區架構是設計來供 C/c + + 開發人員和 UI 設計人員�
 
 | 需求 | 值 |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端               | Windows 7<br/> Windows Vista Service Pack 2 (SP2) 和 [Windows vista 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
-| 最低支援的伺服器               | Windows Server 2008 R2<br/> Windows server 2008 SP2 和 [Windows server 2008 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
+| 最低支援的用戶端               | Windows 7<br/> Windowsvista Service Pack 2 (SP2) 和[適用于 Windows Vista 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx)<br/>         |
+| 最低支援的伺服器               | Windows Server 2008 R2<br/> Windowsserver 2008 SP2 和[Windows server 2008 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx)<br/> |
 | Windows Software Development Kit (SDK) | 7.0                                                                                                                                                                      |
 | 標頭檔和 IDL 檔案                   | uiribbon .h、uiribbon .idl                                                                                                                                                 |
 
@@ -84,7 +84,7 @@ Windows 功能區架構是設計來供 C/c + + 開發人員和 UI 設計人員�
  
 
 > [!Note]  
-> Windows [vista 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx) 和 [windows Server 2008 的平臺更新](https://msdn.microsoft.com/library/dd378748.aspx) 是一組執行時間程式庫，可讓開發人員將 windows 功能區應用程式的目標設為 Windows vista 和 windows Server 2008。 所有 Windows Vista 和 Windows Server 2008 客戶都可以透過 Windows Update 取得平臺更新。 需要 [適用于 Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx) 或 [Windows Server 2008 平臺更新](https://msdn.microsoft.com/library/dd378748.aspx) 的協力廠商應用程式，可以 Windows Update 偵測是否已安裝必要的更新;如果不是，Windows Update 會在背景中下載並安裝它。
+> 適用于[Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx)的 Windows Vista 和 platform update 的[平臺更新](https://msdn.microsoft.com/library/dd378748.aspx)是一組執行時間程式庫，可讓開發人員將 Windows 功能區應用程式的目標設為 Windows Vista 和 Windows 伺服器2008。 所有 Windows Vista 和 Windows Server 2008 客戶都可以透過 Windows Update 取得平臺更新。 需要適用于[Windows Server 2008](https://msdn.microsoft.com/library/dd378748.aspx) [Windows Vista](https://msdn.microsoft.com/library/dd378748.aspx)或平臺更新的協力廠商應用程式，可以讓 Windows Update 偵測是否已安裝必要的更新;如果不是，Windows Update 會在背景中下載並安裝它。
 
  
 
