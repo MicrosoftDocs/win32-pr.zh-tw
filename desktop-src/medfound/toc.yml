@@ -355,13 +355,13 @@
             - name: 管線層 ASF 元件
               href: pipeline-layer-asf-components.md
               items:
-                - name: 如何建立 Two-Pass Windows Media 編碼的拓撲
+                - name: 如何建立 Two-Pass Windows 媒體編碼的拓撲
                   href: how-to-create-a-topology-for-2-pass-windows-media-encoding.md
-                - name: 教學課程：單一傳遞 Windows Media 編碼
+                - name: 教學課程：單一傳遞 Windows 媒體編碼
                   href: tutorial--1-pass-windows-media-encoding.md
                 - name: ASF 媒體來源
                   href: asf-media-source.md
-                - name: Windows Media 編碼器
+                - name: Windows媒體編碼器
                   href: windows-media-encoders.md
                   items:
                     - name: 具現化編碼器 MFT
@@ -527,13 +527,13 @@
             - name: 增強的影片轉譯器
               href: enhanced-video-renderer.md
               items:
-                - name: 使用 DirectShow EVR 篩選器
+                - name: 使用 DirectShow EVR 篩選
                   href: using-the-directshow-evr-filter.md
                 - name: 使用 EVR 媒體接收
                   href: using-the-evr-media-sink.md
                 - name: 使用影片顯示控制項
                   href: using-the-video-display-controls.md
-                - name: 使用影片混音器控制項
+                - name: 使用影片 Mixer 控制項
                   href: using-the-video-mixer-controls.md
                 - name: EVR 媒體類型的協商
                   href: evr-media-type-negotiation.md
@@ -1802,7 +1802,7 @@
               href: about-dxva-2-0.md
             - name: Direct3D 裝置管理員
               href: direct3d-device-manager.md
-            - name: 支援 DirectShow 中的 DXVA 2。0
+            - name: DirectShow 中支援 DXVA 2。0
               href: supporting-dxva-2-0-in-directshow.md
             - name: 媒體基礎中支援 DXVA 2。0
               href: supporting-dxva-2-0-in-media-foundation.md
@@ -1861,7 +1861,7 @@
             - name: 網路來源的 Proxy 支援
               href: proxy-support-for-network-sources.md
               items:
-                - name: Proxy 定位器設定
+                - name: Proxy 定位器設定設定
                   href: proxy-locator-configuration-settings.md
                 - name: 如何設定 Proxy 定位器
                   href: how-to-configure-the-proxy-locator.md
@@ -2042,7 +2042,7 @@
         - name: Windows Media 轉碼器
           href: windows-media-codecs.md
           items:
-            - name: 關於 Windows Media 編解碼器
+            - name: 關於 Windows 媒體編解碼器
               href: about-the-windows-media-codecs.md
             - name: 使用編解碼器和 DSP 物件
               href: decidinghowtousethewindowsmediaaudioandvideocodecs.md
@@ -2055,19 +2055,19 @@
             - name: 使用編解碼器 DMOs
               href: workingwithcodecdmos.md
               items:
-                - name: SQL-DMO 基本概念
+                - name: DMO基礎
                   href: dmobasics-ebet.md
                 - name: 具現化編解碼器 DMOs
                   href: instantiatingcodecdmos.md
-                - name: 使用 SQL-DMO 媒體緩衝區
+                - name: 使用 DMO 媒體緩衝區
                   href: workingwithmediabuffers.md
-                - name: 使用 SQL-DMO 媒體類型
+                - name: 使用 DMO 媒體類型
                   href: workingwithmediatypes.md
                 - name: 使用 MFT 媒體緩衝區和範例
                   href: workingwithmftmediabuffersandsamples.md
                 - name: 設定編解碼器 DMOs
                   href: enumeratingsupportedformats.md
-                - name: 處理編解碼器 SQL-DMO 輸入和輸出
+                - name: 處理編解碼器 DMO 輸入和輸出
                   href: processingsamples.md
                 - name: 在 DirectShow 中使用視窗媒體編解碼器
                   href: usingthecodecdmoswithdirectshow.md
@@ -2094,7 +2094,7 @@
                   items:
                     - name: 尋找音訊編碼器輸出類型
                       href: findingaudioencoderoutputtypes.md
-                    - name: 設定標準、專業或不失真音訊編碼
+                    - name: 設定標準、Professional 或不失真音訊編碼
                       href: configuring-standard--professional--or-lossless-audio-encoding.md
                     - name: 列舉特定編碼模式的音訊類型
                       href: enumeratingaudiotypesforspecificencodingmodes.md
@@ -2281,7 +2281,7 @@
                           href: /windows/desktop/api/wmcodecdsp/ne-wmcodecdsp-toc_pos_type
                     - name: 目錄剖析器函式
                       href: toc-parser-functions.md
-            - name: Windows Media 編解碼器常見問題
+            - name: Windows媒體編解碼器常見問題
               href: frequentlyaskedquestions.md
               items:
                 - name: 使用以品質為基礎的 VBR 編碼的影片資料流程如何比原始串流更少的框架？
@@ -2375,29 +2375,29 @@
               href: mpeg-2-video-decoder.md
             - name: MPEG 4 第2部分影片解碼
               href: mpeg4part2videodecoder.md
-            - name: Windows Media 音訊的解碼器
+            - name: Windows媒體音訊解碼器
               href: windowsmediaaudiodecoder.md
-            - name: Windows Media 音訊編碼器
+            - name: Windows媒體音訊編碼器
               href: windowsmediaaudioencoder.md
-            - name: Windows Media 音訊語音解碼器
+            - name: WindowsMedia Audio Voice 解碼
               href: windowsmediaaudiovoicedecoder.md
-            - name: Windows Media 音訊語音編碼器
+            - name: WindowsMedia Audio Voice 編碼器
               href: windowsmediaaudiovoiceencoder.md
-            - name: Windows Media MP3 解碼
+            - name: Windows媒體 MP3 解碼
               href: windows-media-mp3-decoder.md
-            - name: Windows Media MPEG4 V1/V2 解碼器
+            - name: WindowsMedia MPEG4 V1/V2 解碼器
               href: windowsmediampeg4decoder.md
-            - name: Windows Media MPEG-2 V3 解碼器
+            - name: Windows媒體 MPEG-2 V3 解碼器
               href: windowsmediampeg4v3decoder.md
-            - name: Windows Media 視訊7/8 編碼器
+            - name: Windows媒體影片7/8 編碼器
               href: windows-media-video-7-and-8-encoders.md
-            - name: Windows Media 視訊9解碼器
+            - name: Windows媒體 Video 9 解碼器
               href: windowsmediavideo9decoder.md
-            - name: Windows Media 視訊9編碼器
+            - name: WindowsMedia Video 9 編碼器
               href: windowsmediavideo9encoder.md
-            - name: Windows Media 視訊9螢幕解碼
+            - name: WindowsMedia Video 9 螢幕解碼
               href: windowsmediavideo9screendecoder.md
-            - name: Windows Media 視訊9螢幕編碼器
+            - name: WindowsMedia Video 9 螢幕編碼器
               href: windowsmediavideo9screenencoder.md
         - name: 數位訊號處理器
           href: windowsmediadigitalsignalprocessors.md
@@ -2541,6 +2541,8 @@
                   href: mf-capture-engine-use-video-device-only.md
                 - name: MF_CAPTURE_METADATA_DIGITALWINDOW
                   href: mf-capture-metadata-digitalwindow.md
+                - name: MF_CAPTURE_METADATA_FRAME_BACKGROUND_MASK
+                  href: mf-capture-metadata-frame-background-mask.md
                 - name: MF_CAPTURE_METADATA_FRAME_ILLUMINATION
                   href: mf-capture-metadata-frame-illumination.md
                 - name: MF_CAPTURE_METADATA_PHOTO_FRAME_FLASH
@@ -3241,6 +3243,8 @@
                   href: mf-video-processor-algorithm.md
                 - name: MF_VIDEODSP_MODE
                   href: mf-videodsp-mode.md
+                - name: MF_VIRTUALCAMERA_APP_PACKAGE_FAMILY_NAME
+                  href: mf-virtualcamera-configuration-app-package-family-name.md
                 - name: MF_XVP_CALLER_ALLOCATES_OUTPUT
                   href: mf-xvp-caller-allocates-output.md
                 - name: MF_XVP_DISABLE_FRC
