@@ -139,6 +139,8 @@
                       href: /windows/desktop/api/RTWorkQ/nf-rtworkq-rtwqunregisterplatformfrommmcss
             - name: 處理器群組
               href: processor-groups.md
+            - name: 服務品質
+              href: quality-of-service.md
         - name: 多個執行緒
           href: multiple-threads.md
           items:
@@ -154,7 +156,7 @@
               href: multiple-threads-and-gdi-objects.md
             - name: 執行緒區域儲存區
               href: thread-local-storage.md
-            - name: 線上程中建立視窗
+            - name: 線上程中建立 Windows
               href: creating-windows-in-threads.md
             - name: '  終結執行緒'
               href: terminating-a-thread.md
@@ -214,7 +216,7 @@
           href: isolated-user-mode--ium--processes.md
         - name: 變更環境變數
           href: changing-environment-variables.md
-        - name: 使用執行緒區域儲存區
+        - name: 使用執行緒區域儲存體
           href: using-thread-local-storage.md
         - name: 使用纖維
           href: using-fibers.md
