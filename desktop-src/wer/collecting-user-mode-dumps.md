@@ -1,19 +1,19 @@
 ---
 title: 收集 User-Mode 傾印
-description: 從 Windows Server 2008 和 Windows Vista （含 Service Pack 1） (SP1) 開始，Windows 錯誤報告 (WER) 可進行設定，以便在使用者模式應用程式損毀之後，收集完整的使用者模式傾印並儲存在本機。
+description: 從 Windows Server 2008 和 Windows Vista （含 Service Pack 1 (SP1) ）開始，可以設定 Windows 錯誤報告 (WER) ，以便在使用者模式應用程式損毀之後，收集完整的使用者模式傾印並儲存在本機。
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b7b1e7850e84d9fa6c8d10953d23640b41b1bc6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6e6291d3ad8dfeb641582a93f6789ca7844594ad
+ms.sourcegitcommit: 892997f4126d44df413286074e08a9c6065313ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842111"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114300183"
 ---
 # <a name="collecting-user-mode-dumps"></a>收集 User-Mode 傾印
 
-從 Windows Server 2008 和 Windows Vista （含 Service Pack 1） (SP1) 開始，Windows 錯誤報告 (WER) 可進行設定，以便在使用者模式應用程式損毀之後，收集完整的使用者模式傾印並儲存在本機。 這項功能不支援自行自訂損毀報告（包括 .NET 應用程式）的應用程式。
+從 Windows Server 2008 和 Windows Vista （含 Service Pack 1 (SP1) ）開始，可以設定 Windows 錯誤報告 (WER) ，以便在使用者模式應用程式損毀之後，收集完整的使用者模式傾印並儲存在本機。 這項功能不支援自行自訂損毀報告（包括 .NET 應用程式）的應用程式。
 
 預設不會啟用此功能。 啟用此功能需要系統管理員許可權。 若要啟用並設定此功能，請使用 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ Windows 錯誤報告 \\ LocalDumps** 機碼底下的下列登錄值。
 
@@ -60,7 +60,7 @@ ms.locfileid: "103842111"
 <td><strong>CustomDumpFlags</strong></td>
 <td>要使用的自訂傾印選項。 只有當 <strong>DumpType</strong> 設為0時，才會使用這個值。<br/> 這些選項是 <a href="/windows/desktop/api/minidumpapiset/ne-minidumpapiset-minidump_type"><strong>MINIDUMP_TYPE</strong></a> 列舉值的位元組合。<br/></td>
 <td>REG_DWORD</td>
-<td><code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData.</code></td>
+ <td><code>0x00000121</code> (<code>MiniDumpWithDataSegs | MiniDumpWithUnloadedModules | MiniDumpWithProcessThreadData == 0x00000001 | 0x00000020 | 0x00000100)</code></td>
 </tr>
 </tbody>
 </table>
@@ -68,7 +68,7 @@ ms.locfileid: "103842111"
 >[!NOTE]
 > 當您 [為 **應用程式**](../debug/configuring-automatic-debugging.md#configuring-automatic-debugging-for-application-crashes)損毀設定自動偵測時，不會收集損毀傾印。 
 
-這些登錄值代表全域設定。 您也可以提供覆寫全域設定的每個應用程式設定。 若要建立每個應用程式的設定，請在 [ **HKEY \_ local \_ machine \\ software \\ microsoft \\ windows \\ Windows 錯誤報告 (\\ LocalDumps** ] 下，為您的應用程式建立新的金鑰，例如 **HKEY \_ local \_ machine \\ software \\ microsoft \\ windows \\ Windows 錯誤報告 \\ LocalDumps \\MyApplication.exe**) 。 在 **MyApplication.exe** 機碼下新增傾印設定。 如果您的應用程式當機，則 WER 會先讀取全域設定，然後使用您的應用程式特定設定來覆寫任何設定。
+這些登錄值代表全域設定。 您也可以提供覆寫全域設定的每個應用程式設定。 若要建立每個應用程式的設定，請在 **HKEY \_ local \_ machine \\ software \\ microsoft \\ Windows \\ Windows 錯誤報告 \\ LocalDumps** (例如 **HKEY \_ local \_ machine \\ software \\ microsoft \\ Windows \\ Windows 錯誤報告 \\ LocalDumps \\MyApplication.exe**) 中，為您的應用程式建立新的金鑰。 在 **MyApplication.exe** 機碼下新增傾印設定。 如果您的應用程式當機，則 WER 會先讀取全域設定，然後使用您的應用程式特定設定來覆寫任何設定。
 
 當應用程式損毀並在終止之前，系統會檢查登錄設定，以判斷是否要收集本機傾印。 傾印收集完成後，應用程式就可以正常終止。 如果應用程式支援復原，則在呼叫復原回呼之前，會先收集本機傾印。
 
