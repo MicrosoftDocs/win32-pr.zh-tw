@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: ac68ba25d1e8f35c5a41daec4d7a5295235a5d98
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 027be097c5c21929f3ccdbaa169a1f3dac55b394
+ms.sourcegitcommit: 698ce2d9ba2fa650f2875225d99623995fac246a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549183"
+ms.lasthandoff: 07/15/2021
+ms.locfileid: "114231605"
 ---
 # <a name="layers-overview"></a>圖層總覽
 
@@ -43,7 +43,7 @@ ms.locfileid: "110549183"
 
 ## <a name="layers-in-windows-8-and-later"></a>Windows 8 和更新版本中的圖層
 
-Windows 8 引進了新的分層相關 Api，可簡化、改善的效能，並將功能新增至圖層。
+Windows 8 引進了新的分層相關 api，可簡化、改善的效能，並將功能新增至圖層。
 
 ### <a name="id2d1devicecontext-and-pushlayer"></a>ID2D1DeviceCoNtext 和 PushLayer
 
@@ -61,7 +61,7 @@ Windows 8 引進了新的分層相關 Api，可簡化、改善的效能，並將
 
 ### <a name="blend-modes"></a>混合模式
 
-從 Windows 8 開始，裝置內容具有 [**基本 blend 模式**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) ，可決定每個基本類型如何與目標介面混合。 當您呼叫 [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) 方法時，這個模式也適用于圖層。
+從 Windows 8 開始，裝置內容具有 [**基本 blend 模式**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend)，可決定每個基本類型如何與目標介面混合。 當您呼叫 [**PushLayer**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-pushlayer(constd2d1_layer_parameters1_id2d1layer)) 方法時，這個模式也適用于圖層。
 
 例如，如果您使用圖層來裁剪具有透明度的基本專案，請在裝置內容上設定 [**D2D1 \_ 基本 \_ BLEND \_ 複製**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_primitive_blend) 模式，以取得適當的結果。 複製模式會根據圖層的幾何遮罩，讓裝置內容線性將所有4色通道（包括 Alpha 色板）插補，其中每個圖元都有目標介面的內容。
 
@@ -83,7 +83,7 @@ Windows 8 引進了新的分層相關 Api，可簡化、改善的效能，並將
 
     | 欄位                 | 描述|
     |-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | **contentBounds**     | 圖層的內容界限。 這些界限以外的內容不會呈現。 此參數的預設值為 [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect)。 使用預設值時，內容界限實際上會被視為呈現目標的界限。 |
+    | **contentBounds**     | 圖層的內容界限。 內容不會在這些界限之外轉譯。 此參數的預設值為 [**InfiniteRect**](/windows/desktop/api/d2d1Helper/nf-d2d1helper-infiniterect)。 使用預設值時，內容界限實際上會被視為呈現目標的界限。 |
     | **geometricMask**     |  (選擇性的) 區域（由 [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry)定義），應將該圖層裁剪至該區域。 如果不應該將圖層裁剪成幾何，請設定為 **Null** 。 |
     | **maskAntialiasMode** | 值，指定 **geometricMask** 欄位所指定之幾何遮罩的消除鋸齒模式。 |
     | **maskTransform**     | 值，指定在組合圖層時，套用至幾何遮罩的轉換。 這是與世界轉換相關的。  |
@@ -511,7 +511,7 @@ m_d2dContext->FillGeometry(
 在此程式碼範例中，當您呼叫 PushLayer 方法時，不會傳入應用程式所建立的圖層。 Direct2D 會為您建立圖層。 Direct2D 可以管理此資源的配置和終結，而不需要應用程式的任何介入。 這可讓 Direct2D 在內部重複使用圖層，並套用資源管理優化。
 
 > [!Note]  
-> 在 Windows 8 已對層級使用進行許多優化，建議您盡可能嘗試使用層 Api，而不是 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 。
+> 在 Windows 8 已對層級使用進行許多優化，建議您盡可能嘗試使用層 api，而不是 [**FillGeometry**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-fillgeometry) 。
 
  
 
