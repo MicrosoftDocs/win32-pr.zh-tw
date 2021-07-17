@@ -4,12 +4,12 @@ description: 下列函式會在本機電腦上抓取和修改 TCP/IP 傳輸的�
 ms.topic: article
 ms.date: 05/31/2018
 ms.assetid: 5f562470-f3e8-4305-a015-3a84cd09a1eb
-ms.openlocfilehash: ae19803c25512242b613735a060c7beda8c1df70
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: ee16bb0b65545c4abbef387c5b90d42fb9d3c629
+ms.sourcegitcommit: ea0069adb72dbfa717e73f3a96c3407a49ec0dab
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549503"
+ms.lasthandoff: 07/17/2021
+ms.locfileid: "114394207"
 ---
 # <a name="ip-helper-functions"></a>IP Helper 函式
 
@@ -55,6 +55,7 @@ ms.locfileid: "110549503"
 
 ## <a name="interface-management"></a>介面管理
 
+-   [**FreeInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-freeinterfacednssettings)
 -   [**GetFriendlyIfIndex**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getfriendlyifindex)
 -   [**GetIfEntry**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getifentry)
 -   [**GetIfEntry2**](/windows/win32/api/Netioapi/nf-netioapi-getifentry2)
@@ -63,6 +64,7 @@ ms.locfileid: "110549503"
 -   [**GetIfTable**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getiftable)
 -   [**GetIfTable2**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2)
 -   [**GetIfTable2Ex**](/windows/win32/api/Netioapi/nf-netioapi-getiftable2ex)
+-   [**GetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-getinterfacednssettings)
 -   [**GetInterfaceInfo**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getinterfaceinfo)
 -   [**GetInvertedIfStackTable**](/windows/win32/api/Netioapi/nf-netioapi-getinvertedifstacktable)
 -   [**GetIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-getipinterfaceentry)
@@ -70,6 +72,7 @@ ms.locfileid: "110549503"
 -   [**GetNumberOfInterfaces**](/windows/win32/api/Iphlpapi/nf-iphlpapi-getnumberofinterfaces)
 -   [**InitializeIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-initializeipinterfaceentry)
 -   [**SetIfEntry**](/windows/win32/api/Iphlpapi/nf-iphlpapi-setifentry)
+-   [**SetInterfaceDnsSettings**](/windows/win32/api/netioapi/nf-netioapi-setinterfacednssettings)
 -   [**SetIpInterfaceEntry**](/windows/win32/api/Netioapi/nf-netioapi-setipinterfaceentry)
 
 ## <a name="internet-protocol-ip-and-internet-control-message-protocol-icmp"></a>網際網路通訊協定 (IP) 和網際網路控制訊息通訊協定 (ICMP) 
@@ -204,7 +207,7 @@ ms.locfileid: "110549503"
 -   [**CancelSecurityHealthChangeNotify**](/previous-versions/windows/desktop/legacy/bb442512(v=vs.85))
 -   [**NotifySecurityHealthChange**](/previous-versions/windows/desktop/legacy/bb451761(v=vs.85))
 
-這些函式只會在 Windows Server 2003 上定義。
+這些函數只會在 Windows Server 2003 上定義。
 
 > [!Note]  
 > 這些功能不適用於 Windows Vista，也不適用於 Windows Server 2008。

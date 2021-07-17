@@ -4,12 +4,12 @@ ms.assetid: 13512236-c416-43ba-bf36-b05c5c08d6c9
 title: 使用 MOF 取出事件資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8752d7a4dc71ddb7b5a5dbc39e93c5fe16bb652
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 2f6086c878a0e98c0451d1ba2f1e11e2cd0e9016
+ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395013"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114373137"
 ---
 # <a name="retrieving-event-data-using-mof"></a>使用 MOF 取出事件資料
 
@@ -600,7 +600,7 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
 
     // Retrieve the property names.
 
-    hr = pClass->GetNames(NULL, WBEM_FLAG_LOCAL_ONLY, NULL, &pNames);
+    hr = pClass->GetNames(NULL, WBEM_FLAG_NONSYSTEM_ONLY, NULL, &pNames);
     if (pNames)
     {
         *pPropertyCount = pNames->rgsabound->cElements;
@@ -654,6 +654,10 @@ BOOL GetPropertyList(IWbemClassObject* pClass, PROPERTY_LIST** ppProperties, DWO
                 j = var.intVal - 1;
                 VariantClear(&var);
                 *(*ppPropertyIndex+j) = i;
+            }
+            else if (WBEM_E_NOT_FOUND == hr)
+            {
+                continue; // Ignore property without WmiDataId
             }
             else
             {

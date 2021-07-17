@@ -16,12 +16,12 @@ keywords:
 - 死字元訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65ad481bad6756bb374b98a5510bdc26f1cded6a
-ms.sourcegitcommit: ac62be2f60f757f61ea647a95c168c9841ffabac
+ms.openlocfilehash: 0de85794901be3fef37156bde29520039f85702b
+ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104552060"
+ms.lasthandoff: 07/16/2021
+ms.locfileid: "114373196"
 ---
 # <a name="about-keyboard-input"></a>關於鍵盤輸入
 
@@ -116,9 +116,32 @@ ms.locfileid: "104552060"
 | **KF \_ 重複**   | 操作先前的金鑰狀態旗標。                                          |
 | **\_向上 KF**       | 操縱轉換狀態旗標。                                            |
 
+程式碼範例：
 
+```cpp
+case WM_KEYDOWN:
+case WM_KEYUP:
+case WM_SYSKEYDOWN:
+case WM_SYSKEYUP:
+{
+    WORD vkCode = LOWORD(wParam);                                       // virtual-key code
 
- 
+    BYTE scanCode = LOBYTE(HIWORD(lParam));                             // scan code
+    BOOL scanCodeE0 = (HIWORD(lParam) & KF_EXTENDED) == KF_EXTENDED;    // extended-key flag, 1 if scancode has 0xE0 prefix
+
+    BOOL upFlag = (HIWORD(lParam) & KF_UP) == KF_UP;                    // transition-state flag, 1 on keyup
+    BOOL repeatFlag = (HIWORD(lParam) & KF_REPEAT) == KF_REPEAT;        // previous key-state flag, 1 on autorepeat
+    WORD repeatCount = LOWORD(lParam);                                  // repeat count, > 0 if several keydown messages was combined into one message
+
+    BOOL altDownFlag = (HIWORD(lParam) & KF_ALTDOWN) == KF_ALTDOWN;     // ALT key was pressed
+
+    BOOL dlgModeFlag = (HIWORD(lParam) & KF_DLGMODE) == KF_DLGMODE;     // dialog box is active
+    BOOL menuModeFlag = (HIWORD(lParam) & KF_MENUMODE) == KF_MENUMODE;  // menu is active
+    
+    // ...
+}
+break;
+```
 
 ### <a name="repeat-count"></a>重複計數
 
@@ -131,6 +154,8 @@ ms.locfileid: "104552060"
 ### <a name="extended-key-flag"></a>Extended-Key 旗標
 
 擴充按鍵旗標會指出擊鍵訊息是否源自增強型鍵盤上的其中一個額外的按鍵。 擴充的按鍵包含鍵盤右手邊的 ALT 和 CTRL 鍵;位於數位鍵台左邊的叢集中的 INS、DEL、HOME、END、PAGE UP、PAGE DOWN 和方向鍵;NUM LOCK 鍵;中斷 (CTRL + PAUSE) 鍵;PRINT SCRN 鍵;並將 (/) ，然後在數位鍵台中輸入按鍵。 如果金鑰是擴充索引鍵，則會設定擴充按鍵旗標。
+
+如果指定，則掃描程式碼前面會加上值為 0xE0 (224) 的前置位元組。
 
 ### <a name="context-code"></a>內容程式碼
 
@@ -200,7 +225,7 @@ ms.locfileid: "104552060"
 
 ## <a name="keyboard-keys-for-browsing-and-other-functions"></a>流覽和其他功能的鍵盤按鍵
 
-Windows 針對瀏覽器函式、媒體功能、應用程式啟動和電源管理提供特殊按鍵的鍵盤支援。 [**WM \_ APPCOMMAND**](wm-appcommand.md)支援額外的鍵盤按鍵。 此外， [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) 函式會經過修改，以支援額外的鍵盤按鍵。
+Windows 針對瀏覽器函式、媒體功能、應用程式啟動和電源管理的特殊按鍵，提供鍵盤的支援。 [**WM \_ APPCOMMAND**](wm-appcommand.md)支援額外的鍵盤按鍵。 此外， [**ShellProc**](/previous-versions/windows/desktop/legacy/ms644991(v=vs.85)) 函式會經過修改，以支援額外的鍵盤按鍵。
 
 元件應用程式中的子視窗不太可能會直接針對這些額外的鍵盤按鍵來執行命令。 因此，當按下其中一個索引鍵時， [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 會將 [**WM \_ APPCOMMAND**](wm-appcommand.md) 訊息傳送至視窗。 **DefWindowProc** 也會將 **WM \_ APPCOMMAND** 訊息反升至其父視窗。 這與使用滑鼠右鍵叫用快顯功能表的方式類似，也就是 **DefWindowProc** 會在按一下滑鼠右鍵時傳送 [**WM \_ CONTEXTMENU**](/windows/desktop/menurc/wm-contextmenu) 訊息，然後將它反升到其父系。 此外，如果 **DefWindowProc** 收到最上層視窗的 **WM \_ APPCOMMAND** 訊息，它就會使用程式碼 **HSHELL \_ APPCOMMAND** 來呼叫 shell 勾點。
 
