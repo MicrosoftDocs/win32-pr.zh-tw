@@ -4,12 +4,12 @@ ms.assetid: d1b9bd7f-e420-4290-a542-f1216b6ef203
 title: CanReClassify 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c8c2898ce789e8c967c74ca26d2ab46d968c22d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f243b4237e0dd9195a2a254a06cd86dceb31b63
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689228"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436473"
 ---
 # <a name="canreclassify-element"></a>CanReClassify 元素
 
@@ -37,11 +37,11 @@ ms.locfileid: "103689228"
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| 項目類型 | **xs:boolean**                             |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink |
-| 結構描述名稱  | 日誌讀者                             |
+|                  | 值                                      |
+|------------------|--------------------------------------------|
+| **元素類型** | xs:boolean                                 |
+| **Namespace**    | urn：架構-microsoft-com：平板電腦： richink |
+| **結構描述名稱**  | 日誌讀者                             |
 
 
 

@@ -4,12 +4,12 @@ description: 本檔包含 BC7 材質壓縮格式區塊的8區塊模式和位配�
 ms.assetid: B1CEB729-6694-49BF-ACB9-FD1EFAB0B0D1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 719a223e6ac057b949d5e1222582058f637ec526
-ms.sourcegitcommit: 62e758931c610782807c7c9fad284921a6c56232
-ms.translationtype: HT
+ms.openlocfilehash: f9756582d7d5ac52d4c16b2f4734decebbd66ae8
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "104374158"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436103"
 ---
 # <a name="bc7-format-mode-reference"></a>BC7 格式模式參考
 
@@ -142,7 +142,7 @@ BC7 模式 7 的特性如下︰
     -   RAB \| G：「綠色」色頻分開
     -   RGA \| B： "blue" 色頻道分隔
 
-    解碼器在解碼之後會將通道順序重新排列回 RGBA，因此開發人員看不到內部區塊格式。 具有獨立色彩和 Alpha 元件的黑色也有兩組索引資料︰一個用於通道的向量集，一個用於純量通道。 在模式4的情況下 (，這些索引的寬度為 \[ 2 或3位 \] 。 模式 4 也包含 1 位元選取器，可指定向量或純量通道是否使用 3 位元索引。)
+    解碼器在解碼之後會將通道順序重新排列回 RGBA，因此開發人員看不到內部區塊格式。 具有個別色彩和 Alpha 元件的區塊也有兩組索引資料：一個用於向量組通道，另一個用於純量通道。 在模式4的情況下 (，這些索引的寬度為 \[ 2 或3位 \] 。 模式 4 也包含 1 位元選取器，可指定向量或純量通道是否使用 3 位元索引。)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -151,9 +151,9 @@ BC7 模式 7 的特性如下︰
 [BC7 格式](bc7-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

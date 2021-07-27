@@ -4,12 +4,12 @@ ms.assetid: cb7b50fc-6591-48a9-b3a7-327de9a6dc06
 title: Windows 系統資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1df90d6e7a5a90d9ee108d67e5f9182ffca59f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f7144d5be7f6ba33dc1743e57935f9bf3bbdadd
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974636"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436233"
 ---
 # <a name="windows-system-information"></a>Windows 系統資訊
 
@@ -17,14 +17,14 @@ ms.locfileid: "106974636"
 
 
 
-| 概觀                                                | Description                                                                                                                                                                                                                                                                                                                         |
+| 概觀                                                | 描述                                                                                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [控制碼和物件](handles-and-objects.md)          | *物件* 是代表系統資源的資料結構，例如檔案、執行緒或圖形影像。 應用程式無法直接存取物件資料或物件所代表的系統資源。 相反地，應用程式必須取得物件 *控制碼*，它可以用來檢查或修改系統資源。 |
 | [登錄](registry.md)                                | 系統定義的資料庫，其中的應用程式和系統會儲存並取得設定資訊。                                                                                                                                                                                                                        |
 | [系統資訊](system-information.md)            | 抓取或設定系統組態、設定、版本和計量。                                                                                                                                                                                                                                                             |
 | [Time](time.md)                                        | 捕獲或設定系統時間。                                                                                                                                                                                                                                                                                                  |
 | [時間提供者](time-provider.md)                      | 從硬體或網路抓取精確的時間戳記，並提供時間戳記給網路上的其他用戶端。                                                                                                                                                                                                              |
-| [WaaS 評量平臺](update-assessor-service.md) | Windows 即服務 (WaaS) 更新評估平臺提供裝置 Windows 更新的相關資訊。                                                                                                                                                                                                                      |
+| [WaaS 評量平臺](update-assessor-service.md) | Windows 即服務 (WaaS) 更新評估平臺會提供裝置 Windows 更新的相關資訊。                                                                                                                                                                                                                      |
 
 
 
@@ -34,9 +34,9 @@ ms.locfileid: "106974636"
 
 
 
-|                                                                                                                                   |                                                                                                                   |
+| Item                                                                                                                              | 描述                                                                                                       |
 |-----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| [一般 Windows 開發問題論壇](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | 討論 Windows 系統資訊和開發 Windows 應用程式的其他一般問題。<br/> |
+| [一般 Windows 開發問題論壇](https://social.msdn.microsoft.com/Forums/windowsdesktop/home?forum=windowsgeneraldevelopmentissues) | 討論 Windows 開發應用程式的 Windows 系統資訊和其他一般問題。<br/> |
 
 
 

@@ -4,16 +4,16 @@ description: SignTool 是一種命令列工具，可數位簽署檔案、驗證�
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
 ms.date: 10/12/2020
-ms.openlocfilehash: 884d4c132a2877a51cef7610dd32e8ef6b9c4bc3
-ms.sourcegitcommit: 25e1fa2b3641ae13b79e0afdf9cb7a168d99e009
+ms.openlocfilehash: f738eddb6e47da12297bffd13a816398ba2c46c9
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "104383186"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436443"
 ---
 # <a name="signtool"></a>SignTool
 
-SignTool 是一種命令列工具，可數位簽署檔案、驗證檔案中的簽章，以及時間戳記檔案。 如需有關為什麼簽署檔案很重要的詳細資訊，請參閱程式 [代碼簽署簡介](cryptography-tools.md)。 此工具會安裝在 \\ Microsoft Windows 軟體開發套件 (SDK) 安裝路徑的 Bin 資料夾中。
+SignTool 是一種命令列工具，可數位簽署檔案、驗證檔案中的簽章，以及時間戳記檔案。 如需有關為什麼簽署檔案很重要的詳細資訊，請參閱程式 [代碼簽署簡介](cryptography-tools.md)。 此工具會安裝在 \\ Microsoft Windows 軟體開發套件 (SDK) 安裝路徑的 Bin 資料夾中 (範例： C:\Program Files (x86) \ Windows Kits\10\bin\10.0.19041.0\x64\signtool.exe) 。
 
 SignTool 可做為 Windows SDK 的一部分，可供您下載 <https://developer.microsoft.com/windows/downloads/windows-10-sdk/> 。
 
@@ -47,18 +47,18 @@ SignTool 支援下列命令。
 
  下列選項適用於所有簽署工具命令。  
   
-|Global 選項|Description|  
+|Global 選項|描述|  
 |----|----|  
 |**/q**|如果命令成功執行則不顯示任何輸出，如果命令失敗則顯示最少的輸出。|  
 |**/v**|不論命令執行成功或失敗，都顯示詳細資訊輸出，並顯示警告訊息。|  
 |**/debug**|顯示偵錯資訊。|  
 
- 
+ 
 ## <a name="catdb-command-options"></a>Catdb 命令選項  
 
  下表列出可以搭配 `Catdb` 命令使用的選項。
 
-| Catdb 選項 | Description |
+| Catdb 選項 | 描述 |
 |----|----| 
 | **/d** | 指定要更新的預設目錄資料庫。 如果 **/d** 和 **/g** 選項都不是使用，SignTool 會更新系統元件和驅動程式資料庫。 |
 | **/G** *GUID* | 指定由 GUID 所識別的目錄資料庫已更新。|
@@ -73,7 +73,7 @@ SignTool 支援下列命令。
 
  下表列出可以搭配 `sign` 命令使用的選項。  
   
-|Sign 命令選項|Description|  
+|Sign 命令選項|描述|  
 |----|----| 
 |`/a`|自動選取最佳的簽署憑證。 簽署工具會找到滿足所有指定條件的所有有效憑證，並且選取有效時間最長的一個。 如果沒有這個選項，簽署工具只需要找出一個有效的簽署憑證。|  
 |`/ac`  *檔*|從 *file* 將其他憑證加入至簽章區塊。|  
@@ -102,12 +102,12 @@ SignTool 支援下列命令。
 |`/ph`|如果支援，則產生可執行檔的頁面雜湊。|  
 |`/r`  *RootSubjectName*|指定簽署憑證必須鏈結之根憑證的主體名稱。 這個值可以是完整根憑證主體名稱的子字串。|  
 |`/s`  *StoreName*|指定搜尋憑證時要開啟的存放區。 如果沒有指定這個選項，則會開啟 `My` 存放區。|  
-|`/sha1`  *散 列*|指定簽署憑證的 SHA1 雜湊。 在多重憑證符合其餘參數指定的準則時，SHA1 雜湊最常被指定。|  
+|`/sha1`  *雜湊*|指定簽署憑證的 SHA1 雜湊。 在多重憑證符合其餘參數指定的準則時，SHA1 雜湊最常被指定。|  
 |`/sm`|指定使用電腦存放區，而非使用者存放區。|  
 |`/t`  *URL*|指定時間戳記伺服器的 URL。 如果沒有這個選項 (或 `/tr`)，簽署的檔案就不會加上時間戳記。 如果加上時間戳記失敗，便會產生警告。 這個選項無法與 `/tr` 選項搭配使用。|  
 |`/td`  *alg*|與 `/tr` 選項一起使用以要求 RFC 3161 時間戳記伺服器使用的摘要演算法。 </br> **注意：** 如果在時間戳記時未提供 <strong>/td</strong> 參數，則會產生警告。 預設的 alg 為 SHA1，但建議使用 SHA256。 <br/> <strong>/Td</strong>參數必須在<strong>/tr</strong>參數之後宣告，而不是在之前。 如果在<strong>/tr</strong>參數之前宣告<strong>/td</strong>參數，則傳回的時間戳記是來自 SHA1 演算法，而不是預期的 SHA256 演算法。 |
 |`/tr`  *URL*|指定 RFC 3161 時間戳記伺服器的 URL。 如果沒有這個選項 (或 `/t`)，簽署的檔案就不會加上時間戳記。 如果加上時間戳記失敗，便會產生警告。 這個選項無法與 `/t` 選項搭配使用。|  
-|`/u`  *使用方式*|指定在簽署憑證時必須存在的增強金鑰使用方法 (Enhanced Key Usage，EKU)。 使用方法的值可以利用 OID 或字串指定。 預設的使用方法為 "Code Signing" (1.3.6.1.5.5.7.3.3)。|  
+|`/u`  *使用量*|指定在簽署憑證時必須存在的增強金鑰使用方法 (Enhanced Key Usage，EKU)。 使用方法的值可以利用 OID 或字串指定。 預設的使用方法為 "Code Signing" (1.3.6.1.5.5.7.3.3)。|  
 |`/uw`|指定「Windows 系統元件驗證」(1.3.6.1.4.1.311.10.3.6) 的使用方式。|  
   
  如需使用方式範例，請參閱[使用 SignTool 簽署檔案](using-signtool-to-sign-a-file.md)。  
@@ -117,7 +117,7 @@ SignTool 支援下列命令。
 
  下表列出可以搭配 `TimeStamp` 命令使用的選項。  
   
-|TimeStamp 選項|Description|  
+|TimeStamp 選項|描述|  
 |----|----|  
 |`/p7`|為 PKCS #7 檔案加上時間戳記。|  
 |`/t`  *URL*|指定時間戳記伺服器的 URL。 要加上時間戳記的檔案必須先經過簽署。 必須有 `/t` 或 `/tr` 任一選項。|  
@@ -128,7 +128,7 @@ SignTool 支援下列命令。
 
 ## <a name="verify-command-options"></a>驗證命令選項  
 
-|Verify 選項|Description|
+|Verify 選項|描述|
 |----|----|
 | **/a** | 指定所有方法都可以用來驗證檔案。 首先會搜尋目錄資料庫，判斷檔案是否已在目錄中簽署。 如果檔案未登入任何目錄，SignTool 會嘗試驗證檔案的內嵌簽章。 驗證不一定已在目錄中簽署的檔案時，建議您採用這個選項。 可能或可能未簽署的檔案範例包括 Windows 檔案或驅動程式。 |
 | **/ad** | 使用預設目錄資料庫尋找目錄。 |
@@ -141,7 +141,7 @@ SignTool 支援下列命令。
 | **/hash**{**SHA1** \| **SHA256**} | 指定在目錄中搜尋檔案時，要使用的選擇性雜湊演算法。 |
 | **/kp** | 使用 x64 核心模式驅動程式簽署原則來執行驗證。 |
 | **/ms** | 使用多個驗證語意。 這是 [**WinVerifyTrust**](/windows/desktop/api/Wintrust/nf-wintrust-winverifytrust) 呼叫的預設行為。 |
-| **/O** *版本* | 根據作業系統版本驗證檔案。 Version 參數的格式如下：<br/> *PlatformID ***：***>vermajor ***。***>verminor ***。*** BuildNumber*<br/> 建議使用 */o* 參數。 如果未指定 */o* ，SignTool 可能會傳回非預期的結果。 例如，如果您未包含 */o* 參數，則在較舊 os 上正確驗證的系統目錄可能無法在較新的作業系統上正確地進行驗證。 |
+| **/O** *版本* | 根據作業系統版本驗證檔案。 Version 參數的格式如下：<br/> *PlatformID ***：**_>vermajor_*_。_*_>Verminor_*_。_ *_BuildNumber_<br/> 建議使用 */o* 參數。 如果未指定 */o* ，SignTool 可能會傳回非預期的結果。 例如，如果您未包含 */o* 參數，則在較舊 os 上正確驗證的系統目錄可能無法在較新的作業系統上正確地進行驗證。 |
 | **/p7** | 確認 PKCS \# 7 檔案。 PKCS 7 驗證不會使用任何現有的原則 \# 。 檢查簽章，並建置簽署憑證鏈結。 |
 | **/pa** | 指定使用預設驗證驗證原則。 如果未指定 **/pa** 選項，SignTool 會使用 Windows 驅動程式驗證原則。 此選項不能與 **catdb** 選項搭配使用。 |
 | **/Pg** *PolicyGUID* | 依 **GUID** 指定驗證原則。 **GUID** 對應于驗證原則的 ActionID。 此選項不能與 **catdb** 選項搭配使用。 |

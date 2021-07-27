@@ -1,5 +1,5 @@
 ---
-description: Windows Vista 引進了新的儲存案例和新的使用者設定檔命名空間。
+description: WindowsVista 引進了新的儲存案例和新的使用者設定檔命名空間。
 title: 已知的資料夾
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 7527b7242c68f0d6c78cd0fae427626c182302f7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b5fbdaf0086f88fc4eed42ce47749a99ab07b40
+ms.sourcegitcommit: 8bfe4f468ee5de7bbe096e5db81e427db53d977c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973493"
+ms.lasthandoff: 07/26/2021
+ms.locfileid: "114680311"
 ---
 # <a name="known-folders"></a>已知的資料夾
 
-Windows Vista 引進了新的儲存案例和新的使用者設定檔命名空間。 為了解決這些新的因素，已取代以 [**CSIDL**](csidl.md) 值參照標準資料夾的較舊系統。 在 Windows Vista 中，這些資料夾是由一組新的 GUID 值所參考，稱為已知的資料夾識別碼。
+WindowsVista 引進了新的儲存案例和新的使用者設定檔命名空間。 為了解決這些新的因素，已取代以 [**CSIDL**](csidl.md) 值參照標準資料夾的較舊系統。 從 Windows Vista 中，這些資料夾是由一組稱為已知資料夾識別碼的新 GUID 值所參考。
 
 已知的資料夾系統提供下列優點：
 
@@ -56,15 +56,11 @@ Windows Vista 引進了新的儲存案例和新的使用者設定檔命名空間
 -   [**IKnownFolder**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfolder)
 -   [**IKnownFolderManager**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iknownfoldermanager)
 
-示範已知資料夾 Api 的 c + + 範例包含在 Windows 軟體開發套件 (SDK) 中。 當您在電腦上安裝 Windows SDK 之後，就可以在% ProgramFiles% \\ Microsoft sdk \\ Windows \\ 6.0 \\ 範例 \\ WinUI \\ Shell \\ AppPlatform \\ KnownFolders 中找到此範例。
+示範已知資料夾 api 的 c + + 範例包含在 Windows 軟體開發套件 (SDK) 中。 當您在電腦上安裝 Windows SDK 之後，就可以在% ProgramFiles% \\ Microsoft sdk \\ Windows \\ v 6.0 \\ 範例 \\ WinUI \\ Shell \\ AppPlatform \\ KnownFolders 中找到此範例。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[已知資料夾範例](/previous-versions/windows/desktop/legacy/dd940364(v=vs.85))
+[已知資料夾範例](/windows/win32/shell/samples-knownfolders)
 </dt> </dl>
-
- 
-
- 

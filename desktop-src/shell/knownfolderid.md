@@ -5,16 +5,16 @@ title: 'KNOWNFOLDERID (Knownfolders) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 97748d074d6b0982708f51ea679f0629e8abfad6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb4b6ef46179abbe515edfcd323a349c7d091ac9
+ms.sourcegitcommit: c8f1dc81483739b697c96ae97ca533028efc3b2c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974801"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "114656876"
 ---
 # <a name="knownfolderid"></a>KNOWNFOLDERID
 
-**KNOWNFOLDERID** 常數代表 guid，可識別以 [已知的資料夾](known-folders.md)向系統註冊的標準資料夾。 這些資料夾會與 Windows Vista 和更新版本的作業系統一起安裝，而電腦將只會有適合安裝的資料夾。 如需這些資料夾的說明，請參閱 [**CSIDL**](csidl.md)。
+**KNOWNFOLDERID** 常數代表 guid，可識別以 [已知的資料夾](known-folders.md)向系統註冊的標準資料夾。 這些資料夾會隨 Windows Vista 和更新版本的作業系統一起安裝，而電腦將只會安裝適用于它的資料夾。 如需這些資料夾的說明，請參閱 [**CSIDL**](csidl.md)。
 
 ## <a name="example"></a>範例
 
@@ -56,7 +56,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 
 ```
 
-從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp) 取得的範例。
+GitHub 上[Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/winui/shell/appplatform/ExplorerBrowserCustomContents/ExplorerBrowserCustomContents.cpp)的範例。
 
 ## <a name="constants"></a>常數
 
@@ -93,7 +93,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\AccountPictures</td>
+<td>%APPDATA%\Microsoft\ Windows \AccountPictures</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -169,7 +169,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start Menu\Programs\Administrative 工具</td>
+<td>%APPDATA%\Microsoft\ Windows \Start Menu\Programs\Administrative 工具</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -363,7 +363,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Application 快捷方式</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Application 快速鍵</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -447,7 +447,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
-<td>無，在 Windows Vista 中引進的價值。 在舊版的 Windows 中，如果已核取 [<strong>顯示更新</strong>] 方塊，這個頁面上的資訊就會包含在 [<strong>新增或移除程式</strong>] 中。</td>
+<td>無，在 Windows Vista 中引進的價值。 在舊版 Windows 中，如果已核取 [<strong>顯示更新</strong>] 方塊，此頁面上的資訊就會包含在 [<strong>新增或移除程式</strong>] 中。</td>
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
@@ -515,7 +515,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Burn\Burn</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Burn\Burn</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -527,7 +527,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>%USERPROFILE%\Local Settings\Application Data\microsoft\cd burning 燒錄</td>
+<td>%USERPROFILE%\Local 設定 \Application Data\microsoft\cd burning 燒錄</td>
 </tr>
 </tbody>
 </table>
@@ -591,7 +591,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\Administrative 工具</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Start Menu\Programs\Administrative 工具</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -705,7 +705,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Start 功能表</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Start] 功能表</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -743,7 +743,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Start Menu\Programs\StartUp</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Start Menu\Programs\StartUp</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -781,7 +781,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Templates</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Templates</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -861,11 +861,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
-<td>不適用。 此 <strong>KNOWNFOLDERID</strong> 是指 Windows Vista 同步處理管理員。 它不是舊版 <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a>所參考的資料夾。</td>
+<td>不適用。 此<strong>KNOWNFOLDERID</strong>是指 Windows Vista 同步處理管理員。 它不是舊版 <a href="/windows/desktop/api/Syncmgr/nn-syncmgr-isyncmgrconflictfolder"><strong>ISyncMgrConflictFolder</strong></a>所參考的資料夾。</td>
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
@@ -937,7 +937,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1009,7 +1009,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Cookies</td>
+<td>%APPDATA%\Microsoft\ Windows \Cookies</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -1085,11 +1085,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\DeviceMetadataStore</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \DeviceMetadataStore</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1161,11 +1161,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Documents.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Documents.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1360,11 +1360,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\GameExplorer</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \GameExplorer</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1398,7 +1398,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\History</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \History</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -1410,7 +1410,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>%USERPROFILE%\Local Settings\History</td>
+<td>%USERPROFILE%\Local 設定 \History</td>
 </tr>
 </tbody>
 </table>
@@ -1440,7 +1440,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1516,7 +1516,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1550,7 +1550,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Temporary 網際網路檔案</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Temporary Internet Files</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -1562,7 +1562,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>%USERPROFILE%\Local Settings\Temporary Internet Files</td>
+<td>%USERPROFILE%\Local 設定 \Temporary Internet Files</td>
 </tr>
 </tbody>
 </table>
@@ -1626,11 +1626,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1714,7 +1714,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>%USERPROFILE%\Local Settings\Application 資料</td>
+<td>%USERPROFILE%\Local 設定 \Application 資料</td>
 </tr>
 </tbody>
 </table>
@@ -1854,11 +1854,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Music.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Music.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -1892,7 +1892,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Network 快捷方式</td>
+<td>%APPDATA%\Microsoft\ Windows \Network 快速鍵</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -2006,11 +2006,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows 相片 Gallery\Original 影像</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows 相片 Gallery\Original 影像</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2048,7 +2048,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2082,11 +2082,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Pictures.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Pictures.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2234,7 +2234,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Printer 快捷方式</td>
+<td>%APPDATA%\Microsoft\ Windows \Printer 快速鍵</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -2284,7 +2284,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>% USERPROFILE% (%Systemdrive%\documents and 和設定 \% USERNAME% ) </td>
+<td>% USERPROFILE% (%systemdrive%\documents and 和設定 \% USERNAME% ) </td>
 </tr>
 </tbody>
 </table>
@@ -2582,7 +2582,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start Menu\Programs</td>
+<td>%APPDATA%\Microsoft\ Windows \Start Menu\Programs</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -2738,7 +2738,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2772,11 +2772,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\GameExplorer</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \GameExplorer</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2810,11 +2810,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Libraries</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Libraries</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -2924,11 +2924,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ALLUSERSPROFILE%\Microsoft\Windows\Ringtones</td>
+<td>%ALLUSERSPROFILE%\Microsoft\ Windows \Ringtones</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3076,7 +3076,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Recent</td>
+<td>%APPDATA%\Microsoft\ Windows \Recent</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3097,7 +3097,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTV"></span><span id="folderid_recordedtv"></span><span id="FOLDERID_RECORDEDTV"></span><dl> <dt><strong>FOLDERID_RecordedTV</strong></dt> </dl></td>
-<td style="text-align: left;"><p>未使用。 在 Windows 7 中，此值未定義。</p></td>
+<td style="text-align: left;"><p>未使用。 未定義 Windows 7 的值。</p></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_RecordedTVLibrary"></span><span id="folderid_recordedtvlibrary"></span><span id="FOLDERID_RECORDEDTVLIBRARY"></span><dl> <dt><strong>FOLDERID_RecordedTVLibrary</strong></dt> </dl></td>
@@ -3122,7 +3122,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3232,11 +3232,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\Ringtones</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \Ringtones</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3308,7 +3308,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\RoamedTileImages</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \RoamedTileImages</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3346,7 +3346,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\RoamingTiles</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \RoamingTiles</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3464,7 +3464,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3540,7 +3540,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3612,7 +3612,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATE%\Microsoft\Windows\Libraries\SavedPictures.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\SavedPictures.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3764,7 +3764,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\History</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \ConnectedSearch\History</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3878,7 +3878,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows\ConnectedSearch\Templates</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows \ConnectedSearch\Templates</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3916,7 +3916,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\SendTo</td>
+<td>%APPDATA%\Microsoft\ Windows \SendTo</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -3954,11 +3954,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%ProgramFiles%\Windows Sidebar\Gadgets</td>
+<td>% ProgramFiles% \ Windows Sidebar\Gadgets</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，Windows 7 的新內容</td>
+<td>無，Windows 7 的新</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -3992,11 +3992,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%LOCALAPPDATA%\Microsoft\Windows Sidebar\Gadgets</td>
+<td>%LOCALAPPDATA%\Microsoft\ Windows Sidebar\Gadgets</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，Windows 7 的新內容</td>
+<td>無，Windows 7 的新</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4030,7 +4030,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive</td>
+<td>% USERPROFILE% \ OneDrive</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4068,7 +4068,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Pictures\Camera 匯總</td>
+<td>% USERPROFILE% \ OneDrive \Pictures\Camera 滾動</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4106,7 +4106,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Documents</td>
+<td>% USERPROFILE% \ OneDrive \Documents</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4144,7 +4144,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%USERPROFILE%\OneDrive\Pictures</td>
+<td>% USERPROFILE% \ OneDrive \Pictures</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4182,7 +4182,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start 功能表</td>
+<td>%APPDATA%\Microsoft\ Windows \Start] 功能表</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4220,7 +4220,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Start Menu\Programs\StartUp</td>
+<td>%APPDATA%\Microsoft\ Windows \Start Menu\Programs\StartUp</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4262,7 +4262,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4300,7 +4300,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4338,7 +4338,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows Vista 中引進的價值</td>
+<td>無，Windows Vista 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4448,7 +4448,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Templates</td>
+<td>%APPDATA%\Microsoft\ Windows \Templates</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4469,7 +4469,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="FOLDERID_TreeProperties"></span><span id="folderid_treeproperties"></span><span id="FOLDERID_TREEPROPERTIES"></span><dl> <dt><strong>FOLDERID_TreeProperties</strong></dt> </dl></td>
-<td style="text-align: left;"><p>不是在 Windows Vista 中使用。 不支援 Windows 7。</p></td>
+<td style="text-align: left;"><p>未在 Windows Vista 中使用。 從 Windows 7 中不支援。</p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="FOLDERID_UserPinned"></span><span id="folderid_userpinned"></span><span id="FOLDERID_USERPINNED"></span><dl> <dt><strong>FOLDERID_UserPinned</strong></dt> </dl></td>
@@ -4494,7 +4494,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4570,7 +4570,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4608,7 +4608,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4684,7 +4684,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4756,11 +4756,11 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>%APPDATA%\Microsoft\Windows\Libraries\Videos.library-ms</td>
+<td>%APPDATA%\Microsoft\ Windows \Libraries\Videos.library-ms</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
-<td>無，在 Windows 7 中引進的價值</td>
+<td>無，Windows 7 中引進的價值</td>
 </tr>
 <tr class="even">
 <td>舊版顯示名稱</td>
@@ -4794,7 +4794,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="even">
 <td>Default Path</td>
-<td>windir</td>
+<td>%windir%</td>
 </tr>
 <tr class="odd">
 <td>CSIDL 對等專案</td>
@@ -4806,7 +4806,7 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 </tr>
 <tr class="odd">
 <td>舊版預設路徑</td>
-<td>windir</td>
+<td>%windir%</td>
 </tr>
 </tbody>
 </table>
@@ -4867,35 +4867,35 @@ HRESULT CExplorerBrowserHostDialog::_FillViewWithKnownFolders(IResultsFolder *pr
 | 64 位元 | 32 位元 | FOLDERID \_ SystemX86 | % windir% \\ syswow64 | CSIDL \_ SYSTEMX86 |
 
 
-我們已使用環境字串來提供整個主題的一般路徑。 下表提供這些環境字串所代表路徑的範例。 在某些情況下，這些路徑可能不符合特定電腦上的路徑，因為在安裝或稍後的資料夾重新導向期間所做的選擇。 請注意，Windows Vista 的某些路徑已變更。
+我們已使用環境字串來提供整個主題的一般路徑。 下表提供這些環境字串所代表路徑的範例。 在某些情況下，這些路徑可能不符合特定電腦上的路徑，因為在安裝或稍後的資料夾重新導向期間所做的選擇。 請注意，某些路徑已針對 Windows Vista 變更。
 
 
-**Windows Vista 和更新版本**
+**WindowsVista 和更新版本**
 
 | 環境字串 | 範例路徑 |
 |--------------------|--------------|
-| ALLUSERSPROFILE | C： \\ ProgramData |
+| %ALLUSERSPROFILE% | C： \\ ProgramData |
 | %APPDATA% | C： \\ 使用者使用者 \\ *名稱* \\ AppData \\ 漫遊 |
-| LOCALAPPDATA | C： \\ Users \\ *username* \\ AppData \\ Local |
+| %LOCALAPPDATA% | C： \\ Users \\ *username* \\ AppData \\ Local |
 | %ProgramData% | C： \\ ProgramData |
 | %ProgramFiles% | C： \\ Program Files |
 | %ProgramFiles(x86)% | C： \\ Program Files (x86)  |
 | 公共 | C： \\ 使用者 \\ 公用 |
 | %SystemDrive% | C. |
 | USERPROFILE | C： \\ 使用者使用者 \\ *名稱* |
-| windir | C： \\ Windows |
+| %windir% | C： \\ Windows |
 
 
-**Windows XP 及更早版本**
+**WindowsXP 及更早版本**
 
 | 環境字串 | 範例路徑 |
 |--------------------|--------------|
-| ALLUSERSPROFILE | C： \\ 檔和設定 \\ 所有使用者 |
-| %APPDATA% | C： \\ 檔和設定使用者名稱使用者的 \\  \\ 應用程式資料 |
+| %ALLUSERSPROFILE% | C： \\ 檔和設定 \\ 所有使用者 |
+| %APPDATA% | C： \\ 檔和設定使用者 \\ *名稱* \\ 應用程式資料 |
 | %ProgramFiles% | C： \\ Program Files |
 | %SystemDrive% | C. |
 | USERPROFILE | C： \\ 檔和設定使用者 \\ *名稱* |
-| windir | C： \\ Windows |
+| %windir% | C： \\ Windows |
 
 
 ## <a name="requirements"></a>規格需求

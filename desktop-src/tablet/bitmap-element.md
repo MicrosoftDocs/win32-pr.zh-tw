@@ -4,12 +4,12 @@ ms.assetid: 27578a45-e6b4-4e87-9541-0e83bc67dfc5
 title: Bitmap 項目
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd99c9f372c0141c2898abd61eba3ae952ffa4fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40fd0e133604a29746357a0ff7b2dd17180f73c4
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972580"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436483"
 ---
 # <a name="bitmap-element"></a>Bitmap 項目
 
@@ -23,7 +23,7 @@ ms.locfileid: "106972580"
 
 ## <a name="parent-elements"></a>父項目
 
-[**Image**](image-element.md)
+[**映像**](image-element.md)
 
 ## <a name="child-elements"></a>子元素
 
@@ -37,11 +37,11 @@ ms.locfileid: "106972580"
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| 項目類型 | **xs:base64Binary**                        |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink |
-| 結構描述名稱  | 日誌讀者                             |
+|                  | 值                                      |
+|------------------|--------------------------------------------|
+| **元素類型** | xs:base64Binary                            |
+| **Namespace**    | urn：架構-microsoft-com：平板電腦： richink |
+| **結構描述名稱**  | 日誌讀者                             |
 
 
 

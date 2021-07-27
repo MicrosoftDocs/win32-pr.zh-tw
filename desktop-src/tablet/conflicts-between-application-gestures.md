@@ -4,12 +4,12 @@ ms.assetid: 9d331961-5fb4-4bcb-93bc-9b53c7f83ff1
 title: 應用程式手勢之間的衝突
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17713f6c906fb949dddb258bb9fd1afaac031956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad377ab618f297aac7200f51961ae73c15e877f6
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972367"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436499"
 ---
 # <a name="conflicts-between-application-gestures"></a>應用程式手勢之間的衝突
 
@@ -19,13 +19,13 @@ ms.locfileid: "106972367"
 
 
 
-|                          | UpLeft       | UpRight      | DownLeft     | DownRight    | ChevronDown  |
-|--------------------------|--------------|--------------|--------------|--------------|--------------|
-| UpLeftLong<br/>    | X<br/> | -<br/> | -<br/> | -<br/> | -<br/> |
-| UpRightLong<br/>   | -<br/> | X<br/> | -<br/> | -<br/> | -<br/> |
-| DownLeftLong<br/>  | -<br/> | -<br/> | X<br/> | -<br/> | -<br/> |
-| DownRightLong<br/> | -<br/> | -<br/> | -<br/> | X<br/> | -<br/> |
-| 勾選<br/>         | -<br/> | -<br/> | -<br/> | -<br/> | X<br/> |
+|                   | UpLeft       | UpRight      | DownLeft     | DownRight    | ChevronDown  |
+|-------------------|--------------|--------------|--------------|--------------|--------------|
+| **UpLeftLong**    | X<br/> | -<br/> | -<br/> | -<br/> | -<br/> |
+| **UpRightLong**   | -<br/> | X<br/> | -<br/> | -<br/> | -<br/> |
+| **DownLeftLong**  | -<br/> | -<br/> | X<br/> | -<br/> | -<br/> |
+| **DownRightLong** | -<br/> | -<br/> | -<br/> | X<br/> | -<br/> |
+| **檢查**         | -<br/> | -<br/> | -<br/> | -<br/> | X<br/> |
 
 
 

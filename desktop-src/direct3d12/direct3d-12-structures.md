@@ -6,12 +6,12 @@ ms.localizationpriority: low
 ms.topic: article
 ms.date: 04/19/2019
 ms.custom: 19H1
-ms.openlocfilehash: 456ca501426142182d9823427c7d13599e4a92db
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b748793cfdc1d2d74111cfb48e020108f32ec07
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965039"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436433"
 ---
 # <a name="core-structures"></a>核心結構
 
@@ -62,6 +62,9 @@ ms.locfileid: "106965039"
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS4**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options4)。 指出支援64KB 對齊的 MSAA 紋理、跨 API 共用和原生16位著色器作業的層級。 |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS5**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options5)。 指出介面卡針對轉譯行程、光線追蹤和著色器所提供的支援層級，以及並排顯示的資源。 |
 | [**D3D12_FEATURE_DATA_D3D12_OPTIONS6**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options6)。 指出介面卡為可變速率陰影提供的支援層級 (VRS) ，並指出是否支援背景處理。 |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS7**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options7)。 指出介面卡針對網格和放大著色器提供的支援層級，以及取樣器的意見反應。 |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS8**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options8)。 指出是否支援未對齊的區塊壓縮紋理。 |
+| [**D3D12_FEATURE_DATA_D3D12_OPTIONS9**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_d3d12_options9)。 指出網格著色器的支援是否存在、8或以上的 *SV_RenderTargetArrayIndex* 值、具類型的資源64位整數 atomics、衍生和衍生相依紋理範例作業，以及 WaveMMA (wave_matrix) 作業的支援層級。 |
 | [**D3D12_FEATURE_DATA_EXISTING_HEAPS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_existing_heaps)。 用來 determinine 介面卡是否支援從現有的系統記憶體建立堆積。 這類堆積並非供一般用途使用，但對診斷用途來說非常有用，因為即使在介面卡發生錯誤或遇到裝置移除事件之後，仍保證仍能保存這些堆積。 |
 | [**D3D12_FEATURE_DATA_FEATURE_LEVELS**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_feature_levels)。 描述目前圖形驅動程式所支援之 [功能層級](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro) 的相關資訊。 |
 | [**D3D12_FEATURE_DATA_FORMAT_INFO**](/windows/desktop/api/d3d12/ns-d3d12-d3d12_feature_data_format_info)。 描述 DXGI 資料格式。 |

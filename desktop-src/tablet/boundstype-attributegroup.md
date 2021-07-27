@@ -4,12 +4,12 @@ ms.assetid: 7841aa65-fb35-4909-a34e-3c883555f764
 title: BoundsType 屬性群組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 411a9d3ec30363e5c405cf27654330a0886f8946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78c51fcb9bc0041bbc030f2c67e434a964212562
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689231"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436500"
 ---
 # <a name="boundstype-attribute-group"></a>BoundsType 屬性群組
 
@@ -49,10 +49,10 @@ ms.locfileid: "103689231"
 
 
 
-|             |                                            |
-|-------------|--------------------------------------------|
-| 命名空間   | urn：架構-microsoft-com：平板電腦： richink |
-| 結構描述名稱 | 日誌讀者                             |
+|                 | 值                                      |
+|-----------------|--------------------------------------------|
+| **Namespace**   | urn：架構-microsoft-com：平板電腦： richink |
+| **結構描述名稱** | 日誌讀者                             |
 
 
 

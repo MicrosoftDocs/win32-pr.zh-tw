@@ -4,12 +4,12 @@ ms.assetid: 037AF841-C2C9-4551-9CCB-F2A2F199083A
 title: 使用 NVMe 磁片磁碟機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9be94adf8355940bd93de137d122d91e468c2173
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 425516946d1e76e5c01f6ae5d11f104244f85ce0
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001355"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436273"
 ---
 # <a name="working-with-nvme-drives"></a>使用 NVMe 磁片磁碟機
 
@@ -18,7 +18,7 @@ ms.locfileid: "107001355"
 -   Windows 10
 -   Windows Server 2016
 
-瞭解如何從您的 Windows 應用程式使用高速 NVMe 裝置。 您可以透過 **StorNVMe.sys** 啟用裝置存取，並在 Windows Server 2012 R2 和 Windows 8.1 中首次引進驅動程式驅動程式。 Windows 7 裝置也可以透過 KB 熱修正來取得此功能。 在 Windows 10 中引進了幾項新功能，包括廠商專屬 NVMe 命令的傳遞機制，以及現有 IOCTLs 的更新。
+瞭解如何從您的 Windows 應用程式使用高速 NVMe 裝置。 裝置存取是透過 **StorNVMe.sys** 啟用，而內建驅動程式是在 Windows Server 2012 R2 和 Windows 8.1 中首次引進。 您也可以透過 KB 熱修正來 Windows 7 裝置。 在 Windows 10 中引進了幾項新功能，包括廠商專屬 NVMe 命令的傳遞機制，以及現有 IOCTLs 的更新。
 
 本主題概要說明您可以用來存取 Windows 10 中 NVMe 磁片磁碟機的一般使用 Api。 它也會說明：
 
@@ -186,7 +186,7 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 -   `Update-StorageFirmware `
 
 > [!Note]  
-> 若要更新 Windows 8.1 中 NVMe 的固件，請使用 IOCTL \_ SCSI \_ 微型埠 \_ 固件。 這個 IOCTL 未 backport 至 Windows 7。 如需詳細資訊，請參閱 [Windows 8.1 中的升級 NVMe 裝置的固件](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device)。
+> 若要更新 Windows 8.1 中 NVMe 的固件，請使用 IOCTL \_ SCSI \_ 微型埠 \_ 固件。 這個 IOCTL 未 backport 至 Windows 7。 如需詳細資訊，請參閱[Windows 8.1 中的升級 NVMe 裝置的固件](/windows-hardware/drivers/storage/upgrading-firmware-for-an-nvme-device)。
 
  
 
@@ -243,9 +243,9 @@ typedef struct _STORAGE_PROTOCOL_COMMAND {
 
 ## <a name="protocol-specific-queries"></a>特定通訊協定的查詢
 
-Windows 8.1 引進了資料抓取的 [**IOCTL \_ 儲存體 \_ 查詢 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) 。 在 Windows 10 中，已增強 IOCTL 以支援一般要求的 NVMe 功能，例如 **取得記錄頁面**、 **取得功能** 和 **識別**。 這可讓您抓取 NVMe 特定資訊，以供監視和清查之用。
+Windows 8.1 引進了資料抓取的 [**IOCTL \_ 儲存體 \_ 查詢 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property)。 在 Windows 10 中，已增強 IOCTL 以支援一般要求的 NVMe 功能，例如 **取得記錄頁面**、**取得功能** 和 **識別**。 這可讓您抓取 NVMe 特定資訊，以供監視和清查之用。
 
-以下顯示 IOCTL 的輸入緩衝區、Windows 10)  ([**儲存體 \_ 屬性 \_ 查詢**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) 。
+以下顯示 IOCTL 的輸入緩衝區、Windows 10)  ([**儲存體 \_ 屬性 \_ 查詢**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query)。
 
 
 ```C++
@@ -268,7 +268,7 @@ typedef struct _STORAGE_PROPERTY_QUERY {
 
 -   以所需的值填入 [**儲存體 \_ 通訊協定 \_ 特定的 \_ 資料**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) 結構。 **儲存體 \_ 通訊協定 \_ 特定 \_ 資料** 的開始是 [**儲存體 \_ 屬性 \_ 查詢**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query)的 **AdditionalParameters** 欄位。
 
-從 Windows 10)  ([**儲存體 \_ 通訊協定 \_ 特定的 \_ 資料**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data) 結構，如下所示。
+從 Windows 10)  ([**儲存體 \_ 通訊協定 \_ 特定的 \_ 資料**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_protocol_specific_data)結構，如下所示。
 
 
 ```C++
@@ -302,6 +302,10 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
     -   使用 **NVMeDataTypeFeature** 取得 NVMe 磁片磁碟機的功能。
 
 使用 **ProtocolTypeNVMe** 做為 **ProtocolType** 時，可以使用 NVMe 磁片磁碟機上的其他 i/o 來平行抓取通訊協定特定資訊的查詢。
+
+> [!IMPORTANT]
+> 若為使用 [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) **STORAGE_PROPERTY_ID** 的 IOCTL_STORAGE_QUERY_PROPERTY，以及其 [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data)或 [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext)結構設定為和的 [](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) `ProtocolType=ProtocolTypeNvme` `DataType=NVMeDataTypeLogPage` ，請將該相同結構的 ProtocolDataLength 成員設定為最小值 512 (位元組) 。
+
 
 下列範例示範 NVMe 通訊協定特定的查詢。
 
@@ -419,20 +423,22 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
             _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Identify Controller Data not valid.\n"));
             goto exit;
         } else {
-            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Identify Controller Data succeeded_*_.\n"));
+            _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Identify Controller Data succeeded***.\n"));
         }
     }
 
   
 ```
 
+> [!IMPORTANT]
+> 若為使用 [**StorageAdapterProtocolSpecificProperty**](/windows/win32/api/winioctl/ne-winioctl-storage_property_id) **STORAGE_PROPERTY_ID** 的 IOCTL_STORAGE_QUERY_PROPERTY，以及其 [**STORAGE_PROTOCOL_SPECIFIC_DATA**](/windows/win32/api/winioctl/ns-winioctl-storage_protocol_specific_data)或 [**STORAGE_PROTOCOL_SPECIFIC_DATA_EXT**](/windows-hardware/drivers/ddi/ntddstor/ns-ntddstor-storage_protocol_specific_data_ext)結構設定為和的 [](/windows/win32/api/winioctl/ni-winioctl-ioctl_storage_query_property) `ProtocolType=ProtocolTypeNvme` `DataType=NVMeDataTypeLogPage` ，請將該相同結構的 ProtocolDataLength 成員設定為最小值 512 (位元組) 。
 
 
 請注意，呼叫端必須配置單一緩衝區，其中包含儲存體 \_ 屬性 \_ 查詢和儲存體 \_ 通訊協定特定資料的大小 \_ \_ 。 在此範例中，它會針對屬性查詢的輸入和輸出使用相同的緩衝區。 這就是為什麼配置的緩衝區大小為「欄位 \_ 位移 (儲存體 \_ 屬性 \_ 查詢，AdditionalParameters) + sizeof (儲存體 \_ 通訊協定 \_ 特定 \_ 資料) + NVME 記錄檔 \_ 大小上限」 \_ \_ 。 雖然可以為輸入和輸出配置不同的緩衝區，但我們建議使用單一緩衝區來查詢 NVMe 相關資訊。
 
 ### <a name="example-nvme-get-log-pages-query"></a>範例： NVMe 取得記錄頁面查詢
 
-在此範例中，根據上一個範例，_ *取得記錄頁面** 要求會傳送至 NVMe 磁片磁碟機。 下列程式碼會準備查詢資料結構，然後透過 DeviceIoControl 將命令向下傳送至裝置。
+在此範例中，會將 **Get Log Pages** 要求傳送到 NVMe 磁片磁碟機，並以前一項為基礎。 下列程式碼會準備查詢資料結構，然後透過 DeviceIoControl 將命令向下傳送至裝置。
 
 
 ```C++
@@ -499,7 +505,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: SMART/Health Information Log Data - Temperature %d.\n"), ((ULONG)smartInfo->Temperature[1] << 8 | smartInfo->Temperature[0]) - 273);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_SMART/Health Information Log succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***SMART/Health Information Log succeeded***.\n"));
     }
 
 ```
@@ -508,7 +514,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
 
 ### <a name="example-nvme-get-features-query"></a>範例： NVMe Get Features 查詢
 
-在此範例中，根據上一個範例，_ *Get Features** 要求會傳送至 NVMe 磁片磁碟機。 下列程式碼會準備查詢資料結構，然後透過 DeviceIoControl 將命令向下傳送至裝置。
+在此範例中，會將 **Get 功能** 要求傳送到 NVMe 磁片磁碟機，並以前一項為基礎。 下列程式碼會準備查詢資料結構，然後透過 DeviceIoControl 將命令向下傳送至裝置。
 
 
 ```C++
@@ -568,7 +574,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA {
     {
         _tprintf(_T("DeviceNVMeQueryProtocolDataTest: Get Feature - Volatile Cache - %x.\n"), protocolDataDescr->ProtocolSpecificData.FixedProtocolReturnData);
 
-        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: **_Get Feature - Volatile Cache succeeded_*_.\n"));
+        _tprintf(_T("DeviceNVMeQueryProtocolDataTest: ***Get Feature - Volatile Cache succeeded***.\n"));
     }
 ```
 ## <a name="protocol-specific-set"></a>通訊協定特定的集合
@@ -598,7 +604,7 @@ typedef struct _STORAGE_PROPERTY_SET {
 
     UCHAR AdditionalParameters[1];
 
-} STORAGE_PROPERTY_SET, _PSTORAGE_PROPERTY_SET;
+} STORAGE_PROPERTY_SET, *PSTORAGE_PROPERTY_SET;
 ```
 
 使用 IOCTL_STORAGE_SET_PROPERTY 設定 NVMe 功能時，請設定 STORAGE_PROPERTY_SET 結構，如下所示：
@@ -696,7 +702,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
 
 ## <a name="temperature-queries"></a>溫度查詢
 
-在 Windows 10 中，您也可以使用 [**IOCTL \_ 儲存體 \_ 查詢 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property) ，從 NVMe 裝置查詢溫度資料。
+在 Windows 10 中，您也可以使用 [**IOCTL \_ 儲存體 \_ 查詢 \_ 屬性**](/windows/desktop/api/WinIoCtl/ni-winioctl-ioctl_storage_query_property)，從 NVMe 裝置查詢溫度資料。
 
 若要從 [**儲存體 \_ 溫度 \_ 資料 \_ 描述**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_data_descriptor)項中的 NVMe 磁片磁碟機取出溫度資訊，請依照下列方式設定 [**儲存體 \_ 屬性 \_ 查詢**](/windows/desktop/api/WinIoCtl/ns-winioctl-storage_property_query) 結構：
 
@@ -706,7 +712,7 @@ typedef struct _STORAGE_PROTOCOL_SPECIFIC_DATA_EXT {
 
 -   將 **QueryType** 欄位設定為 **PropertyStandardQuery**。
 
-從 Windows 10)  (的 [**儲存體 \_ 溫度 \_ 資訊**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info) 結構如下所示。
+從 Windows 10)  (的 [**儲存體 \_ 溫度 \_ 資訊**](/windows/desktop/api/WinIoctl/ns-winioctl-storage_temperature_info)結構如下所示。
 
 
 ```C++
@@ -732,7 +738,7 @@ typedef struct _STORAGE_TEMPERATURE_INFO {
 
 操作裝置屬性或可能影響裝置行為的命令，對作業系統來說更難處理。 如果在處理 i/o 時，裝置屬性在執行時間變更，則如果未正確處理，則可能會發生同步處理或資料完整性問題。
 
-NVMe **設定功能** 命令是行為變更命令的良好範例。 它可讓您變更仲裁機制和溫度臨界值的設定。 為了確保在進行行為影響的 set 命令時，進行中的資料不會有風險，Windows 會將所有 i/o 暫停至 NVMe 裝置、清空佇列，以及清除緩衝區。 成功執行 set 命令之後，如果可能) ，就會繼續 (i/o。 如果 i/o 無法繼續，可能需要重設裝置。
+NVMe **設定功能** 命令是行為變更命令的良好範例。 它可讓您變更仲裁機制和溫度臨界值的設定。 為了確保在進行行為影響的 set 命令時，進行中的資料不會有風險，Windows 將會暫停 NVMe 裝置的所有 i/o、清空佇列，以及清除緩衝區。 成功執行 set 命令之後，如果可能) ，就會繼續 (i/o。 如果 i/o 無法繼續，可能需要重設裝置。
 
 ### <a name="setting-temperature-thresholds"></a>設定溫度閾值
 
@@ -782,11 +788,11 @@ Windows 10 引進了 [**ioctl \_ 儲存 \_ 集 \_ 溫度閾值 \_**](/windows/de
 
 ## <a name="header-files"></a>標頭檔
 
-下列檔案與 NVMe 開發相關。 這些檔案隨附于 [Microsoft Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads)。
+下列檔案與 NVMe 開發相關。 這些檔案隨附于[Microsoft Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads)。
 
 
 
-| 標頭檔    | Description                                                                             |
+| 標頭檔    | 描述                                                                             |
 |----------------|-----------------------------------------------------------------------------------------|
 | **ntddstor。h** | 定義常數和類型，以從核心模式存取儲存類別驅動程式。   |
 | **nvme。h**     | 適用于其他 NVMe 相關的資料結構。                                                 |

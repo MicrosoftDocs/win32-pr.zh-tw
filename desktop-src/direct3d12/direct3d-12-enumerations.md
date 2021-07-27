@@ -5,12 +5,12 @@ ms.assetid: 76E76C85-128E-4F0E-9711-C72C4CF6C835
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 09/19/2019
-ms.openlocfilehash: 7f34266e4afdec14e97caa81f393733f1c1ec684
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: 31cac62c8dfa6b1126d8ff2a7c134490c0c58038
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "106969545"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436223"
 ---
 # <a name="core-enumerations"></a>核心列舉
 
@@ -71,6 +71,7 @@ ms.locfileid: "106969545"
 | [**D3D12_LOGIC_OP**](/windows/win32/api/d3d12/ne-d3d12-d3d12_logic_op)。 指定要為呈現目標設定的邏輯作業。 |
 | [**D3D12_MEASUREMENTS_ACTION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_measurements_action)。 定義常數，指定應如何使用較早的工作負載檢測結果來完成。 |
 | [**D3D12_MEMORY_POOL**](/windows/win32/api/d3d12/ne-d3d12-d3d12_memory_pool)。 指定堆積的記憶體集區。 |
+| [**D3D12_MESH_SHADER_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_mesh_shader_tier)。 定義常數，指定網格和放大著色器支援。 |
 | [**D3D12_META_COMMAND_PARAMETER_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_flags)。 定義常數，指定中繼命令的參數旗標。 值可以是位 OR。 |
 | [**D3D12_META_COMMAND_PARAMETER_STAGE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_stage)。 定義常數，指定中繼命令的參數階段。 |
 | [**D3D12_META_COMMAND_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_meta_command_parameter_type)。 定義常數，指定中繼命令之參數的資料類型。 |
@@ -112,6 +113,7 @@ ms.locfileid: "106969545"
 | [**D3D12_ROOT_PARAMETER_TYPE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_parameter_type)。 指定根簽章位置的類型。  |
 | [**D3D12_ROOT_SIGNATURE_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_root_signature_flags)。 指定根簽章版面配置的選項。  |
 | [**D3D12_RTV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_rtv_dimension)。 識別要視為呈現目標的資源類型。 |
+| [**D3D12_SAMPLER_FEEDBACK_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_sampler_feedback_tier)。 定義指定取樣器意見支援的常數。 |
 | [**D3D12_SHADER_CACHE_SUPPORT_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_cache_support_flags)。 描述目前圖形驅動程式中著色器快取的支援層級。 |
 | [**D3D12_SHADER_COMPONENT_MAPPING**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_component_mapping)。 指定著色器資源檢視 (SRV) 如何路由記憶體。  |
 | [**D3D12_SHADER_MIN_PRECISION_SUPPORT**](/windows/win32/api/d3d12/ne-d3d12-d3d12_shader_min_precision_support)。 描述目前圖形驅動程式中著色器的最小精確度支援選項。  |
@@ -130,6 +132,7 @@ ms.locfileid: "106969545"
 | [**D3D12_UAV_DIMENSION**](/windows/win32/api/d3d12/ne-d3d12-d3d12_uav_dimension)。 識別未排序的存取視圖選項。 |
 | [**D3D12_VIEW_INSTANCING_FLAGS**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_flags)。 指定 view 實例的選項。 |
 | [**D3D12_VIEW_INSTANCING_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_view_instancing_tier)。 指出支援 view 實例的層級層級。 |
+| [**D3D12_WAVE_MMA_TIER**](/windows/win32/api/d3d12/ne-d3d12-d3d12_wave_mma_tier)。 定義常數，指定 WaveMMA (wave_matrix) 作業的支援層級。 |
 | [**D3D12_WRITEBUFFERIMMEDIATE_MODE**](/windows/win32/api/d3d12/ne-d3d12-d3d12_writebufferimmediate_mode)。 指定 **WriteBufferImmediate** 操作所使用的模式。 |
 
 ## <a name="related-topics"></a>相關主題

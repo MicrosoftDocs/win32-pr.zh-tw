@@ -4,12 +4,12 @@ description: 下表摘要說明您必須執行以編寫 WinSNMP 應用程式程�
 ms.assetid: 70c24042-bf44-4484-8e5e-d117e2ba28d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d75fa8d2ad223fbd8f71eff78c7cd232ddc492a9
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7543a0fef8fff3f2ef1672ee29d72b0f82b75af7
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "103841867"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436616"
 ---
 # <a name="winsnmp-programming-tasks"></a>WinSNMP 程式設計工作
 
@@ -90,7 +90,7 @@ ms.locfileid: "103841867"
 
 
 
-|                                                                    |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 主題                                                              | 概念                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [一般程式設計工作](general-winsnmp-programming-tasks.md) | [管理物件識別碼](managing-object-identifiers.md)[釋放 WinSNMP 描述](freeing-winsnmp-descriptors.md)項<br/> [設定實體和內容轉譯模式](setting-the-entity-and-context-translation-mode.md)<br/> [管理重新傳輸原則](managing-the-retransmission-policy.md)<br/> [使用多個執行緒撰寫的 WinSNMP 應用程式](writing-winsnmp-applications-with-multiple-threads.md)<br/> [註冊 SNMP 代理程式應用程式](registering-an-snmp-agent-application.md)<br/> |
 

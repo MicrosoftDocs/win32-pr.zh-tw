@@ -4,12 +4,12 @@ ms.assetid: ff6a97ad-0e48-4128-8f94-24802b6ddc05
 title: 基準元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b64986707eaa1b382d2f88851367b9147c59c5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bc64f332608b4bd0281ae2a7f29db96101e9d2e
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191124"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436563"
 ---
 # <a name="baseline-element"></a>基準元素
 
@@ -47,11 +47,11 @@ ms.locfileid: "104191124"
 
 
 
-|              |                                                               |
-|--------------|---------------------------------------------------------------|
-| 項目類型 | [**BaselineType**](baselinetype-complex-type.md) complexType |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink                    |
-| 結構描述名稱  | 日誌讀者                                                |
+|                  | 值                                                         |
+|------------------|---------------------------------------------------------------|
+| **元素類型** | [**BaselineType**](baselinetype-complex-type.md) complexType |
+| **Namespace**    | urn：架構-microsoft-com：平板電腦： richink                    |
+| **結構描述名稱**  | 日誌讀者                                                |
 
 
 

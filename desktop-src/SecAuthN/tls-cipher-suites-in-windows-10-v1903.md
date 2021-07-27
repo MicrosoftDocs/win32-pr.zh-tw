@@ -3,12 +3,12 @@ description: 瞭解 Windows 10 v1903、v1909 和 v2004 中的 TLS 加密套件�
 title: Windows 10 v1903、v1909 和 v2004 中的 TLS 加密套件
 ms.topic: article
 ms.date: 10/09/2018
-ms.openlocfilehash: 8bfea2623a7935ec64c4cc1ef1e04271d4227b3c
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 5c5cd0ff5b61d301ded666f1c236e83539698fe1
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262340"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436243"
 ---
 # <a name="tls-cipher-suites-in-windows-10-v1903-v1909-and-v2004"></a>Windows 10 v1903、v1909 和 v2004 中的 TLS 加密套件
 
@@ -24,7 +24,7 @@ ms.locfileid: "112262340"
 
  
 
-FIPS 合規性已變得更複雜，因為在此資料表的舊版中，讓 FIPS 模式啟用的資料行誤導。 例如，使用 NIST 橢圓曲線時，加密套件（例如 TLS \_ >ecdhe \_ RSA \_ 與 \_ AES \_ 128 \_ CBC \_ SHA256）只是 FIPS 投訴。 To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf).
+FIPS 合規性已變得更複雜，因為在此資料表的舊版中，讓 FIPS 模式啟用的資料行誤導。 例如， \_ \_ 使用 NIST 橢圓曲線時，只有 FIPS 相容的加密套件（例如 TLS >ecdhe RSA \_ 和 \_ AES \_ 128 \_ CBC SHA256） \_ 才符合 FIPS 規範。 To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r2.pdf).
 
 針對 Windows 10、1903、1909和2004版，預設會啟用下列加密套件，並依預設使用 Microsoft Schannel 提供者：
 
@@ -111,8 +111,8 @@ Microsoft Schannel 提供者支援下列加密套件，但預設不會啟用：
 
 若要新增加密套件，請部署群組原則或使用 TLS Cmdlet：
 
--   若要使用 [群組原則]，請在 [電腦設定] 下設定 SSL 密碼套件順序 > 系統管理範本 > 網路 > SSL 設定] 設定，以及您想要啟用之所有加密套件的優先順序清單。
+-   若要使用群組原則，請在 [電腦設定] 下設定 SSL 密碼套件順序 > 系統管理範本 > 網路 > SSL 設定] 設定，以及您想要啟用之所有加密套件的優先順序清單。
 -   若要使用 PowerShell，請參閱 [TLS Cmdlet](/powershell/module/tls/?view=win10-ps)。
 
 > [!Note]  
-> 在 Windows 10 之前，會使用橢圓曲線附加加密套件字串來決定曲線的優先順序。 Windows 10 支援橢圓曲線優先順序順序設定，因此不需要橢圓曲線尾碼，而是在提供時由新的橢圓曲線優先順序順序覆寫，以允許組織使用群組原則，以相同的加密套件來設定不同版本的 Windows。
+> 在 Windows 10 之前，會使用橢圓曲線附加加密套件字串來決定曲線的優先順序。 Windows 10 支援橢圓曲線優先順序設定，因此不需要橢圓曲線尾碼，而是在提供時由新的橢圓曲線優先順序順序覆寫，以便讓組織使用群組原則，以相同的加密套件來設定不同版本的 Windows。

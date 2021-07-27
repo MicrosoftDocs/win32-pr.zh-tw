@@ -4,12 +4,12 @@ ms.assetid: 76c9b923-bad8-4c08-9b31-199d4f7aaeff
 title: AlternateList 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7ea704641f06954301bdce8d7553ab74b82b88c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f04593fd93b33adde17d93033ccaffe6f97577d
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510765"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436593"
 ---
 # <a name="alternatelist-element"></a>AlternateList 元素
 
@@ -31,17 +31,17 @@ ms.locfileid: "104510765"
 
 ## <a name="attributes"></a>屬性
 
-無
+None
 
 ## <a name="element-information"></a>項目資訊
 
 
 
-|              |                                                                           |
-|--------------|---------------------------------------------------------------------------|
-| 項目類型 | [**AlternatesListType**](alternateslisttype-complex-type.md) complexType |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink                                |
-| 結構描述名稱  | 日誌讀者                                                            |
+|                 | 值                                                                     |
+|-----------------|---------------------------------------------------------------------------|
+| **元素類型**| [**AlternatesListType**](alternateslisttype-complex-type.md) complexType |
+| **Namespace**   | urn：架構-microsoft-com：平板電腦： richink                                |
+| **結構描述名稱** | 日誌讀者                                                            |
 
 
 

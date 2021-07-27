@@ -3,12 +3,12 @@ description: 服務品質表示執行緒的效能和電源效率，這可能會�
 title: 服務品質
 ms.topic: article
 ms.date: 07/09/2021
-ms.openlocfilehash: c506e810bafad41e9a5f14112c1398b0d6fb3ffc
-ms.sourcegitcommit: 2805e19a2738a408d3c5ab69a8d84ec92ca25e36
+ms.openlocfilehash: 98c8b8c4fc340eb49b13d7bdfd9b2a611a8f7244
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/14/2021
-ms.locfileid: "113989787"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436287"
 ---
 # <a name="quality-of-service"></a>服務品質
 
@@ -20,14 +20,14 @@ ms.locfileid: "113989787"
 
 系統會維護多個 QoS 層級，而每個層級都有差異的效能和電源效率。 Windows 針對每個 QoS 層級提供排程和處理器電源管理的標準預設設定。 您可以透過 Windows 布建來修改每個 QoS 層級的處理器電源管理和異類排程的精確調整。 如需效能微調和布建的詳細資訊，請參閱 [處理器電源管理選項](/windows-hardware/customize/power-settings/configure-processor-power-management-options)。
 
-| QoS 層級 | Description|效能和威力 | 版本 |
+| QoS 層級 | 描述|效能和威力 | 版本 |
 | --- | --- | --- | --- |
-| 高 | 以視窗化的應用程式，其位於前景和焦點，或可聽見 | 標準高效能 |1709 |
-| 中 | 可對終端使用者顯示但不在焦點中的視窗化應用程式 | 依平臺而異，介於高與低 | 1709 |
-| 低 | 以視窗化的應用程式，對使用者而言看不到或無法聽見 | 在電池上，選取最有效率的 CPU 頻率和排程來提高核心 | 1709 |
-| 生態 | 使用[SetThreadInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)以[SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)或執行緒明確標記進程的應用程式 | 一律為有效率的核心選取最有效率的 CPU 頻率和排程 | Windows 11 |
-| 媒體 | 由 [多媒體類別](/windows/desktop/procthread/multimedia-class-scheduler-service) 排程器服務明確標記以表示多媒體批次緩衝的執行緒 | 降低 CPU 頻率以有效率地處理批次處理 | 2004 |
-| 期限 | 由 [多媒體類別](/windows/desktop/procthread/multimedia-class-scheduler-service) 排程器服務明確標記的執行緒，表示音訊執行緒需要效能才能符合期限 | 符合媒體期限的高效能 | 2004 |
+| 高 | 以視窗化的應用程式，這些應用程式位於前景和焦點，或可聽見，並使用[SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation)以[SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)或執行緒明確標記處理常式 | 標準高效能。 |1709 |
+| 中 | 視窗化的應用程式，可能會對終端使用者顯示，但不在焦點內。 | 依平臺而異，介於高與低之間。 | 1709 |
+| 低 | 視窗化的應用程式，這些應用程式不會顯示或聽不到終端使用者。 | 在電池上，選取最有效率的 CPU 頻率和排程，以提升核心的效率。 | 1709 |
+| 生態 | 使用 [SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation) 或具有 [SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation)的執行緒明確標記進程的應用程式。 | 一律為有效率的核心選取最有效率的 CPU 頻率和排程。 | Windows 11 |
+| 媒體 | 由 [多媒體類別](/windows/desktop/procthread/multimedia-class-scheduler-service) 排程器服務明確標記以表示多媒體批次緩衝的執行緒。 | 針對有效率的批次處理，減少 CPU 頻率。 | 2004 |
+| 期限 | 由 [多媒體類別](/windows/desktop/procthread/multimedia-class-scheduler-service) 排程器服務明確標記的執行緒，表示音訊執行緒需要符合期限的效能。 | 符合媒體期限的高效能。 | 2004 |
 
 ## <a name="quality-of-service-classification"></a>服務分類品質
 

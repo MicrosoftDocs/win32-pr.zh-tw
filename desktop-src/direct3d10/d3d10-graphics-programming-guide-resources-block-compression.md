@@ -4,12 +4,12 @@ ms.assetid: add98d8f-6846-4dd6-b0e2-a4b6e89cbcc5
 title: " (Direct3D 10) 封鎖壓縮"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fcfb4bc91256415ab23686b7333df7d21df335d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f7c3a74fba0b4c7c2adade210a9a54952b5d1269
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551857"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436544"
 ---
 # <a name="block-compression-direct3d-10"></a> (Direct3D 10) 封鎖壓縮
 
@@ -51,9 +51,9 @@ ms.locfileid: "104551857"
 
 ### <a name="storing-compressed-data"></a>儲存壓縮的資料
 
-既然您已經看過未壓縮圖片會使用多少記憶體，現在就來看看壓縮圖片會節省多少記憶體。 [BC1](#bc1) 壓縮格式儲存 2 種色彩 (每種 1 位元組) 和 16 個 3 位元索引 (48 位元或 6 位元組)，用來插入材質內的原始色彩，如下列圖例所示。
+既然您已經看過未壓縮圖片會使用多少記憶體，現在就來看看壓縮圖片會節省多少記憶體。 [BC4](#bc4)壓縮格式會儲存2個色彩 (1 個位元組的每個) 和 16 3 位索引 (48 位，或6個位元組) 用來在材質中插入原始色彩，如下圖所示。
 
-![bc1 壓縮格式的圖例](images/d3d10-block-compress-3.png)
+![bc4 壓縮格式的圖例](images/d3d10-block-compress-3.png)
 
 儲存壓縮資料所需的總空間為 8 位元組，和未壓縮的範例相比省下 50% 的記憶體空間。 使用多個色彩元件時，會省下更大的空間。
 

@@ -4,12 +4,12 @@ description: 本文提供如何在偵錯工具中最好使用符號的概要說�
 ms.assetid: 7ce0c9c7-485c-8d72-0353-27fd2e369a7c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff63e2404a07a2f0ab5adcb156d83dc989b42fd4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd9935c490204736995e17e3c8013ce56f57624b
+ms.sourcegitcommit: 4c71a269e3a114c72dd9eb31ccb4948a32beaa5b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508016"
+ms.lasthandoff: 07/24/2021
+ms.locfileid: "114662258"
 ---
 # <a name="debugging-with-symbols"></a>使用符號進行調試
 
@@ -18,7 +18,7 @@ ms.locfileid: "104508016"
 -   [Symbols](#debugging-with-symbols)
 -   [使用符號進行調試](#using-symbols-for-debugging)
 -   [取得您需要的符號](#getting-the-symbols-you-need)
-    -   [檢查相同資料夾中的指定 DLL 或 .exe 檔和 PDB 是否相符](#check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match)
+    -   [檢查指定的 DLL 或 .exe 檔案和 PDB 是否位於相同的資料夾中](#check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match)
     -   [檢查一組資料夾中的所有 Dll 和可執行檔是否都有相符的 Pdb](#check-if-all-the-dlls-and-executable-files-in-a-set-of-folders-have-matching-pdbs)
     -   [Symchk 的運作方式](#how-symchk-works)
 -   [符號伺服器](#symbol-servers)
@@ -44,7 +44,7 @@ ms.locfileid: "104508016"
 -   本機變數和資料結構的名稱和類型資訊
 -   來源檔案和行號資訊
 
-如果您在意使用 PDB 檔案資訊的人員，以協助他們對可執行檔進行反向工程，您也可以使用 **/PDBSTRIPPED： filename** 連結器選項來產生已移除的 PDB 檔案。 如果您有想要從中去除私用資訊的現有 PDB 檔案，您可以使用稱為 pdbcopy 的工具，這是適用于 Windows 的偵錯工具的一部分。
+如果您在意使用 PDB 檔案資訊的人員，以協助他們對可執行檔進行反向工程，您也可以使用 **/PDBSTRIPPED： filename** 連結器選項來產生已移除的 PDB 檔案。 如果您有想要從中去除私用資訊的現有 PDB 檔案，您可以使用稱為 pdbcopy 的工具，這是 Windows 偵錯工具的一部分。
 
 依預設，去除的 PDB 檔案包含下列資訊：
 
@@ -70,7 +70,7 @@ kernel32.dll!@BaseThreadInitThunk@12() + 0x12 bytes
 ntdll.dll!__RtlUserThreadStart@8() + 0x27 bytes
 ```
 
-在許多情況下，您可以繼續進行不含符號的偵錯工具，因為問題是在具有正確符號的位置，而您不需要查看呼叫堆疊下的函式。 即使在呼叫堆疊中的程式庫沒有 Pdb 可用，只要它們是使用框架指標進行編譯，偵錯工具就應該能夠正確地在父函式上猜測。 從 Windows XP Service Pack 2 開始，所有的 Windows DLL 和可執行檔都會以已停用的 FPO 進行編譯，因為它讓偵錯工具更準確。 停用 FPO 也可讓取樣分析工具在執行時間期間引導堆疊，並對效能造成最大的影響。 在 Windows XP SP2 之前的 Windows 版本上，所有作業系統二進位檔都需要相符的符號檔，其中包含 FPO 資訊，以允許正確的偵錯工具和分析。
+在許多情況下，您可以繼續進行不含符號的偵錯工具，因為問題是在具有正確符號的位置，而您不需要查看呼叫堆疊下的函式。 即使在呼叫堆疊中的程式庫沒有 Pdb 可用，只要它們是使用框架指標進行編譯，偵錯工具就應該能夠正確地在父函式上猜測。 從 Windows XP Service Pack 2 開始，所有 Windows DLL 和可執行檔都會以已停用的 FPO 進行編譯，因為它讓偵錯工具更準確。 停用 FPO 也可讓取樣分析工具在執行時間期間引導堆疊，並對效能造成最大的影響。 在 Windows XP SP2 之前的 Windows 版本上，所有作業系統二進位檔都需要相符的符號檔案，其中包含 FPO 資訊，以允許正確的偵錯工具和分析。
 
 如果您要進行64位原生可執行檔的偵錯工具，則不需要符號檔來產生有效的堆疊追蹤，因為 x64 作業系統和編譯器的設計不需要它們。 不過，您仍然需要符號檔來取得函式名稱、呼叫參數和區域變數。
 
@@ -91,20 +91,20 @@ ntdll.dll!__RtlUserThreadStart@8() + 0x27 bytes
 -   任何區域網路檔案共用符號伺服器。
 -   任何網際網路符號伺服器，例如 Microsoft 符號伺服器。
 
-為確保您擁有正確的偵錯工具所需的所有 Pdb，請安裝適用于 Windows 的偵錯工具。 您可以在 [Windows 的偵錯工具](/windows-hardware/drivers/debugger/)中找到32和64位版本。
+為了確保您擁有正確的偵錯工具所需的所有 Pdb，請安裝 Windows 的偵錯工具。 您可以在[Windows 的偵錯工具](/windows-hardware/drivers/debugger/)中找到32和64位版本。
 
 隨此封裝安裝的公用程式是 symchk.exe。 它有助於找出遺漏或不正確的符號。 此工具有大量的可能命令列選項。 以下是兩個更實用且常用的兩個。
 
-### <a name="check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match"></a>檢查相同資料夾中的指定 DLL 或 .exe 檔和 PDB 是否相符
+### <a name="check-if-a-given-dll-or-exe-file-and-pdb-in-the-same-folder-match"></a>檢查指定的 DLL 或 .exe 檔案和 PDB 是否位於相同的資料夾中
 
 ``` syntax
-"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s
+"c:\Program Files\Debugging Tools for Windows\symchk" testing.dll /s .
 
 SYMCHK: FAILED files = 0
 SYMCHK: PASSED + IGNORED files = 1
 ```
 
-**/S** 選項會指示 **symchk** 只尋找目前資料夾中的符號，而不會尋找任何符號伺服器。
+**/S。** 選項會指示 **symchk** 只尋找目前資料夾中的符號，而不會尋找任何符號伺服器。
 
 ### <a name="check-if-all-the-dlls-and-executable-files-in-a-set-of-folders-have-matching-pdbs"></a>檢查一組資料夾中的所有 Dll 和可執行檔是否都有相符的 Pdb
 
@@ -112,7 +112,7 @@ SYMCHK: PASSED + IGNORED files = 1
 "c:\Program Files\Debugging Tools for Windows\symchk" *.* /r
 ```
 
-**/R** 選項會將 **symchk** 設定為以遞迴方式跨越資料夾，以檢查所有可執行檔是否有相符的 pdb。 如果沒有 **/s** 選項， **symchk** 會使用目前的 \_ NT \_ 符號 \_ 路徑來搜尋任何私用或本機伺服器或 Microsoft 符號伺服器上的符號。 **Symchk** 工具只會搜尋可執行檔的符號 ( .exe、.dll 和類似的) 。 您無法使用萬用字元來搜尋無法執行檔的符號。
+**/R** 選項會將 **symchk** 設定為以遞迴方式跨越資料夾，以檢查所有可執行檔是否有相符的 pdb。 如果沒有 **/s** 選項， **symchk** 會使用目前的 \_ NT \_ 符號 \_ 路徑來搜尋任何私用或本機伺服器或 Microsoft 符號伺服器上的符號。 **Symchk** 工具只會搜尋可執行檔的符號 (.exe、.dll 和類似的) 。 您無法使用萬用字元來搜尋無法執行檔的符號。
 
 ### <a name="how-symchk-works"></a>Symchk 的運作方式
 
@@ -144,7 +144,7 @@ Microsoft 符號伺服器可讓您取得所有最新的符號，包括已修補�
 
 您可以使用下列其中一種方式來存取符號伺服器：
 
--   直接輸入伺服器位址。 在 Visual Studio 中，從 [ **工具** ] 功能表選擇 [ **選項**]，然後選擇 [ **調試**]，然後選擇 [ **符號**]。
+-   直接輸入伺服器位址。 在 Visual Studio 中，從 [**工具**] 功能表選擇 [**選項**]，然後選擇 [**調試**]，然後選擇 [**符號**]。
 -   使用環境變數 \_ NT \_ 符號 \_ 路徑。 建議採用此方法。
 
     所有偵錯工具都使用此功能。 Visual Studio 也會使用它，並在 Visual Studio 開啟時進行讀取和解碼。 因此，如果您變更它，就必須重新開機 Visual Studio。
@@ -167,7 +167,7 @@ srv*[local cache]*[private symbol server]*https://msdl.microsoft.com/download/sy
 srv*c:\symbols*https://msdl.microsoft.com/download/symbols
 ```
 
-您可以 \_ \_ \_ 在與 Microsoft 偵錯工具 for Windows 套件一起安裝的說明檔中，找到 NT 符號路徑的其他選項。
+您可以 \_ \_ \_ 在與 Microsoft 偵錯工具 for Windows 套件一起安裝的說明檔中，找到其他 NT 符號路徑的選項。
 
 如果您使用符號伺服器，沒有符號的可執行檔可能會增加啟動偵錯工具所需的時間。 這是因為偵錯工具會在每次嘗試載入可執行檔時查詢符號伺服器。 基於這個理由，最好一律要求所有元件的符號。
 
@@ -183,7 +183,7 @@ srv*c:\symbols*https://msdl.microsoft.com/download/symbols
 "c:\Program Files\Debugging Tools for Windows\symchk" c:\Windows\System32\d3dx9_30.dll /oc \.
 ```
 
-**Symchk** 工具有許多其他用途。 如需詳細資訊，請參閱 **symchk/？** 或查看 Microsoft 的 Windows 偵錯工具檔。
+**Symchk** 工具有許多其他用途。 如需詳細資訊，請參閱 **symchk/？**，或查看 Microsoft 偵錯工具以取得 Windows 檔。
 
 ## <a name="setting-up-a-symbol-server"></a>設定符號伺服器
 
@@ -193,7 +193,7 @@ srv*c:\symbols*https://msdl.microsoft.com/download/symbols
 -   儲存舊版組建、版本或應用程式外部版本的符號。 藉由將這些組建的符號儲存在您可以輕鬆存取的符號伺服器上，您可以在任何具有偵錯工具的電腦和本機符號伺服器的連接上，對這些組建中的當機和問題進行偵測。 如果您要針對您未自行建立的可執行檔（也就是由另一位程式設計人員或組建電腦所產生的組建）來進行您的可執行檔所產生的偵測，則這特別有用。 如果這些組建的符號儲存在符號伺服器上，您將會有可靠且正確的偵錯工具。
 -   將符號保持在最新狀態。 更新元件時（例如 Windows Update 或 DirectX SDK 修改的 OS 元件），您仍然可以使用所有最新的符號來進行 debug。
 
-在您自己的區域網路上設定符號伺服器，就像是在伺服器上建立檔案共用，並授與使用者存取共用的完整許可權來建立檔案和資料夾一樣簡單。 此共用應建立在伺服器作業系統（例如 Windows Server 2003）上，如此一來，就能同時存取共用的人數不受限制。
+在您自己的區域網路上設定符號伺服器，就像是在伺服器上建立檔案共用，並授與使用者存取共用的完整許可權來建立檔案和資料夾一樣簡單。 您應在伺服器作業系統上建立此共用，例如 Windows server 2003，如此一來，可同時存取共用的人員數目也不受限制。
 
 例如，如果您在 mainserver 符號上設定檔案共用 \\ \\ \\ ，則小組的成員會將 \_ NT \_ 符號 \_ 路徑設定為下列專案：
 
@@ -207,7 +207,7 @@ Srv*c:\symbols*\\mainserver\symbols*https://msdl.microsoft.com/download/symbols
 
 ## <a name="adding-symbols-to-a-symbol-server"></a>將符號新增至符號伺服器
 
-若要在符號伺服器共用上新增、刪除或編輯檔案，請使用 symstore.exe 工具。 這項工具是 Microsoft 的 Windows 偵錯工具封裝的一部分。 適用于 Windows 的偵錯工具套件中包含符號伺服器、symstore 工具和索引符號的完整檔。
+若要在符號伺服器共用上新增、刪除或編輯檔案，請使用 symstore.exe 工具。 這項工具是適用于 Windows 套件之 Microsoft 偵錯工具的一部分。 Windows 套件的偵錯工具中包含符號伺服器、symstore 工具和索引符號的完整檔。
 
 您可能會想要將符號直接新增到您自己的符號伺服器，做為組建程式的一部分，或讓您的協力廠商程式庫或工具的整個小組都能使用符號。 將符號新增至符號伺服器檔案共用的程式稱為「索引符號」。 有兩種常見的方式可編制符號的索引。 您可以將符號檔複製到符號伺服器。 或者，您可以將符號位置的指標複製到符號伺服器。 如果您有包含舊組建的封存資料夾，您可能會想要為已經存在於共用上的 PDB 檔案建立指標的索引，而不是複製符號。 由於符號的大小有時可能是數十 mb，因此最好事先規劃在整個開發過程中，您可能需要多少空間來保存專案的所有組建。 如果您只針對符號的指標編制索引，您可能會在移除舊組建時遇到問題，或變更檔案共用的名稱。
 
@@ -226,8 +226,8 @@ Srv*c:\symbols*\\mainserver\symbols*https://msdl.microsoft.com/download/symbols
 -   設定 \_ NT \_ 符號 \_ 路徑以指向本機快取、私用符號伺服器，以及 Microsoft 符號伺服器。
 -   如果偵錯工具無法載入您要進行偵錯工具的符號，請聯繫元件的擁有者以要求符號，至少有一個已移除的 PDB。
 -   設定自動化的組建系統，在私用符號伺服器上為每個產生的組建編制符號索引。 確定您所散發的組建是由這個進程產生的組建。 這可確保這些符號永遠可用於偵測問題。
--   設定符號伺服器，以允許偵錯工具直接從以視覺效果來源安全或 Perforce 為基礎的原始檔控制系統，存取特定模組的原始程式碼。 如果已為已發行的遊戲版本編制來源檔案資訊和符號的索引，可存取您符號伺服器的開發人員可以擁有所回報問題的完整來源層級偵錯工具，而不需要在其開發電腦上保留組建環境或舊版來源檔案。 若要設定符號伺服器以允許編制原始程式檔資訊的索引，請參閱來源伺服器檔。
+-   設定符號伺服器，以允許偵錯工具直接從視覺效果來源保管庫或以 Perforce 為基礎的原始檔控制系統，存取特定模組的原始程式碼。 如果已為已發行的遊戲版本編制來源檔案資訊和符號的索引，可存取您符號伺服器的開發人員可以擁有所回報問題的完整來源層級偵錯工具，而不需要在其開發電腦上保留組建環境或舊版來源檔案。 若要設定符號伺服器以允許編制原始程式檔資訊的索引，請參閱來源伺服器檔。
 
- 
+ 
 
- 
+ 

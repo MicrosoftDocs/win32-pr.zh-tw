@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI 疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ccb8afa1af64e6eb80050c96973a9ad9456a52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58919617c663b52ffb840b3c3382b5707f0a305e
+ms.sourcegitcommit: a3e96b6c9c6a3fb629e760dd6cc6327f9e4b62b6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848735"
+ms.lasthandoff: 07/27/2021
+ms.locfileid: "114714796"
 ---
 # <a name="wmi-troubleshooting"></a>WMI 疑難排解
 
@@ -29,13 +29,13 @@ ms.locfileid: "103848735"
 
 如果 WMI 傳回錯誤訊息，請注意，它們可能不會指出 WMI 服務或 WMI 提供者中的問題。 失敗可能源自于作業系統的其他部分，並透過 WMI 出現錯誤。 在任何情況下，請勿將 WMI 儲存機制刪除為第一個動作，因為刪除存放庫可能會導致系統損毀或已安裝的應用程式。
 
-若要取得問題來源的詳細資訊，您可以下載並執行 [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en) 診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以[下載下載中心的 WMI Diagnosis Utility。](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)
+若要取得問題來源的詳細資訊，您可以下載並執行[WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en)診斷命令列工具。 這項工具會產生一份報告，通常可以找出問題的來源，並提供如何修正問題的指示。 報表也會協助 Microsoft 支援服務協助您。 您可以[下載下載中心的 WMI Diagnosis Utility。](https://www.microsoft.com/downloads/details.aspx?FamilyID=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d)
 
 除非您要撰寫低 [*耦合提供者*](gloss-d.md)，否則提供者寫入器可能也會發生偵錯工具的問題。 如需詳細資訊，請參閱 [偵錯工具提供者](debugging-providers.md)。
 
 ## <a name="logging-and-tracing"></a>記錄和追蹤
 
-WMI 記錄檔不再存在;它們已由 [Windows (ETW) 的事件追蹤 ](/windows/desktop/ETW/event-tracing-portal)取代。 如需詳細資訊，請參閱 [追蹤 Wmi 活動](tracing-wmi-activity.md)、 [記錄 Wmi 活動](logging-wmi-activity.md)和 [wmi 記錄](wmi-log-files.md)檔。
+WMI 記錄檔不再存在;它們已由[Windows (ETW) 的事件追蹤](/windows/desktop/ETW/event-tracing-portal)取代。 如需詳細資訊，請參閱 [追蹤 Wmi 活動](tracing-wmi-activity.md)、 [記錄 Wmi 活動](logging-wmi-activity.md)和 [wmi 記錄](wmi-log-files.md)檔。
 
 ## <a name="troubleshooting-in-scripts-and-applications"></a>腳本和應用程式中的疑難排解
 
@@ -56,11 +56,11 @@ WMI 包含一組類別，可針對使用 WMI 提供者的用戶端應用程式 [
 
 
 
-| 錯誤                                                                                                                        | 可能的問題                                                                                                                                                                                                                                                                                                                                                                     | 解決方法                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 錯誤                                                                                                                        | 可能的問題                                                                                                                                                                                                                                                                                                                                                                     | 解決方案                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 0x800706BA `HRESULT_FROM_WIN32(RPC_S_SERVER_UNAVAILABLE)`<br/> 防火牆問題或伺服器無法使用。<br/>      | 電腦真的不存在，Windows 防火牆會封鎖連線<br/>                                                                                                                                                                                                                                                                                        | 連接到 Vista： **netsh advfirewall firewall set rule group = "windows management instrumentation (wmi) " new enable = yes** 連接到下層：允許 windows 防火牆中的「遠端系統管理」規則。<br/>                                                                                                                                                                                                                                                                                                            |
+| 0x800706BA `HRESULT_FROM_WIN32(RPC_S_SERVER_UNAVAILABLE)`<br/> 防火牆問題或伺服器無法使用。<br/>      | 電腦真的不存在，或者 Windows 防火牆封鎖連線<br/>                                                                                                                                                                                                                                                                                        | 連接到 Vista： **netsh advfirewall firewall set rule group = "windows management instrumentation (wmi) " new enable = yes** 連接到下層：允許 Windows 防火牆中的「遠端系統管理」規則。<br/>                                                                                                                                                                                                                                                                                                            |
 | 0x80070005 **E \_ \_ 拒絕存取**<br/> DCOM 安全性拒絕存取。<br/>                                       | 使用者無法透過 DCOM 遠端存取電腦。 通常，當連接到具有不同作業系統版本的遠端電腦時，就會發生 DCOM 錯誤。<br/>                                                                                                                                                                                          | 在 dcomcnfg 中提供使用者遠端啟動和遠端啟用許可權。 以滑鼠右鍵按一下 [我的電腦 > 屬性。 在 [COM 安全性] 底下，按一下兩個區段的 [編輯限制]。 將您想要遠端存取、遠端啟動和遠端啟用的使用者提供給使用者。 然後移至 DCOM 設定，尋找「Windows Management Instrumentation」，並提供您想要遠端啟動和遠端啟用的使用者。 如需詳細資訊，請參閱 [在不同的作業系統間連接](/windows/desktop/WmiSdk/troubleshooting-a-remote-wmi-connection)<br/> |
-| 0x80041003 **WBEM \_ E \_ \_ 拒絕存取**<br/> 存取者拒絕存取[ ](gloss-p.md)<br/> | 使用者沒有在 WMI 中執行操作的許可權。 當您將某些類別查詢為低許可權的使用者時，通常會發生這種情況，但當您嘗試叫用方法或將 WMI 實例變更為低許可權使用者時，通常會發生這種情況。 您要連接的命名空間已加密，而且使用者嘗試使用未加密的連接進行連線<br/> | 授與使用者使用 WMI 控制的存取權 (確定他們已 \_ 將遠端存取設定為 true) 使用支援加密的用戶端進行連接。<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
+| 0x80041003 **WBEM \_ E \_ \_ 拒絕存取**<br/> 存取者拒絕存取[ ](gloss-p.md)<br/> | 使用者沒有在 WMI 中執行操作的許可權。 當您將某些類別查詢為低許可權的使用者時，通常會發生這種情況，但當您嘗試叫用方法或將 WMI 實例變更為低許可權使用者時，通常會發生這種情況。 您要連接的命名空間已加密，而且使用者嘗試使用未加密的連接進行連線<br/> | 授與使用者使用 WMI 控制的存取權 (確定他們 \_ 使用支援加密的用戶端，將遠端存取設定為 true) 連線。<br/>                                                                                                                                                                                                                                                                                                                                                                                  |
 
 
 
@@ -72,9 +72,9 @@ WMI 包含一組類別，可針對使用 WMI 提供者的用戶端應用程式 [
 
 -   從網際網路連線防火牆 (ICF) 變更時發生拒絕存取錯誤。
 
-    如需詳細資訊，請參閱 [透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。
+    如需詳細資訊，請參閱[透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。
 
--   當低完整性用戶端嘗試存取 WMI 時，DCOM 安全性會傳回拒絕存取錯誤。 例如，在 Internet Explorer 中執行的 ActiveX 控制項（其安全性層級設定為 low）沒有執行本機 WMI 作業的存取權。
+-   當低完整性用戶端嘗試存取 WMI 時，DCOM 安全性會傳回拒絕存取錯誤。 例如，在 Internet Explorer 中執行的 ActiveX 控制項（其安全性層級設定為 [低]）沒有執行本機 WMI 作業的存取權。
 
     **Windows 7：** 低完整性使用者具有本機 WMI 作業的唯讀許可權。
 

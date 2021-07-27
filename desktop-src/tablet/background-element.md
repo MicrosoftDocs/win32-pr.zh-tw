@@ -4,12 +4,12 @@ ms.assetid: 48527c4e-50fb-4800-ac87-1646234783ba
 title: Background 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e58a836c7cfd13130779c1cd6b017105bcaa6321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46388d56c04fc24ecd578788eecf9926ef01a301
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980418"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436583"
 ---
 # <a name="background-element"></a>Background 元素
 
@@ -27,7 +27,7 @@ ms.locfileid: "106980418"
 
 ## <a name="child-elements"></a>子元素
 
-[**Image**](image-element.md)
+[**映像**](image-element.md)
 
 ## <a name="attributes"></a>屬性
 
@@ -57,7 +57,7 @@ ms.locfileid: "106980418"
 <td>必要</td>
 <td>指定背景的樣式。</td>
 <td><ul>
-<li>無</li>
+<li>None</li>
 <li>實線</li>
 </ul></td>
 </tr>
@@ -79,11 +79,11 @@ ms.locfileid: "106980418"
 
 
 
-|              |                                                                   |
-|--------------|-------------------------------------------------------------------|
-| 項目類型 | [**BackgroundType**](backgroundtype-complex-type.md) complexType |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink                        |
-| 結構描述名稱  | 日誌讀者                                                    |
+|                  | 值                                                             |
+|------------------|-------------------------------------------------------------------|
+| **元素類型** | [**BackgroundType**](backgroundtype-complex-type.md) complexType |
+| **Namespace**    | urn：架構-microsoft-com：平板電腦： richink                        |
+| **結構描述名稱**  | 日誌讀者                                                    |
 
 
 

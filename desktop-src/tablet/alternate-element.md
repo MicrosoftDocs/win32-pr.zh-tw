@@ -4,12 +4,12 @@ ms.assetid: 6ec78ac9-c10c-4227-bead-5ddfc48ce27e
 title: " (Wingdi 的替代元素) "
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71eb1bc0bf74462cadecb480ceb87a0b610be876
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55dfb629aadea988a6aeec1cba1020c8ab47c994
+ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983226"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "114436603"
 ---
 # <a name="alternate-element"></a>替代元素
 
@@ -37,11 +37,11 @@ ms.locfileid: "106983226"
 
 
 
-|              |                                            |
-|--------------|--------------------------------------------|
-| 項目類型 | **xs:string**                              |
-| 命名空間    | urn：架構-microsoft-com：平板電腦： richink |
-| 結構描述名稱  | 日誌讀者                             |
+|                  | 值                                      |
+|------------------|--------------------------------------------|
+| **元素類型** | xs:string                                  |
+| **Namespace**    | urn：架構-microsoft-com：平板電腦： richink |
+| **結構描述名稱**  | 日誌讀者                             |
 
 
 
