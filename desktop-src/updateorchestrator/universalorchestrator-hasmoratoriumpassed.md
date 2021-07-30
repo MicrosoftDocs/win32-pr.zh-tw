@@ -1,14 +1,14 @@
 ---
 title: IUniversalOrchestrator::HasMoratoriumPassed
 description: 查詢通用協調器，以判斷是否已超過過了時間（OOBE）。
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 2ed354d365b795a0c959396e6b26d6bc73baad97
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 3ccbf673b8fe22fabe7001112e04e87bd45eeaa4
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "106974734"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991795"
 ---
 # <a name="iuniversalorchestratorhasmoratoriumpassed-method"></a>IUniversalOrchestrator：： HasMoratoriumPassed 方法
 

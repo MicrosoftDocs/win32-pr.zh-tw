@@ -1,14 +1,14 @@
 ---
 title: IUniversalOrchestrator::ScheduleWork
 description: 呼叫通用協調器來排程工作
-ms.topic: method
+ms.topic: reference
 ms.date: 01/14/2021
-ms.openlocfilehash: 456df8f975114f7bdf750a0449f3bd98efcc3b2e
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 4c49d06a28497c33e86cc1e919fdb59f2363d1f5
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "107000500"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991815"
 ---
 # <a name="iuniversalorchestratorschedulework-method"></a>IUniversalOrchestrator：： ScheduleWork 方法
 

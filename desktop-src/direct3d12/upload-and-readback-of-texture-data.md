@@ -5,30 +5,30 @@ ms.assetid: 22A25A94-A45C-482D-853A-FA6860EE7E4E
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72177be1fefbf102e901d28d47413c8bcff41ab
-ms.sourcegitcommit: 39754f1af7853adff2525d0936afe9aad2066a9a
+ms.openlocfilehash: d8846fd5f916c440d3dbdf5d907cc7f66cc6a313
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/22/2021
-ms.locfileid: "112426962"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991805"
 ---
 # <a name="uploading-texture-data-through-buffers"></a>透過緩衝區上傳材質資料
 
 上傳2D 或3D 紋理資料與上傳1D 資料類似，不同之處在于應用程式必須特別注意與資料列間距相關的資料對齊。 您可以從圖形管線的多個部分 orthogonally 和並行使用緩衝區，而且非常有彈性。
 
--   [透過緩衝區上傳材質資料](#upload-texture-data-via-buffers)
+-   [Upload經由緩衝區的材質資料](#upload-texture-data-via-buffers)
 -   [複製](#copying)
 -   [對應和取消對應](#mapping-and-unmapping)
 -   [緩衝區對齊](#buffer-alignment)
 -   [相關主題](#related-topics)
 
-## <a name="upload-texture-data-via-buffers"></a>透過緩衝區上傳材質資料
+## <a name="upload-texture-data-via-buffers"></a>Upload經由緩衝區的材質資料
 
 應用程式必須透過 [**ID3D12GraphicsCommandList：： CopyTextureRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copytextureregion) 或 [**ID3D12GraphicsCommandList：： CopyBufferRegion**](/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist-copybufferregion)上傳資料。 紋理資料更可能更大、不斷地存取，並受益于比其他資源資料更快的非線性記憶體配置的快取一致性。 在 D3D12 中使用緩衝區時，只要滿足記憶體對齊需求，應用程式就可以完全掌控與複製資源資料相關聯的資料放置和相片順序。
 
 此範例會反白顯示應用程式在將2D 資料放入緩衝區之前，直接將2D 資料壓平合併成1D。 在 mipmap 2D 案例中，應用程式可以將每個子資源分開簡維，並快速使用1D 子配置演算法，或使用更複雜的2D 子配置技術來將視訊記憶體的使用率降至最低。 第一個技巧應更頻繁地使用，因為它較為簡單。 當將資料封裝到磁片或網路上時，第二項技術可能會很有用。 無論是哪一種情況，應用程式仍必須呼叫每個子資源的複製 Api。
 
-``` syntax
+```cpp
 // Prepare a pBitmap in memory, with bitmapWidth, bitmapHeight, and pixel format of DXGI_FORMAT_B8G8R8A8_UNORM. 
 //
 // Sub-allocate from the buffer for texture data.
@@ -101,7 +101,7 @@ D3D12 方法可讓應用程式取代 D3D11 [**UpdateSubresource**](/windows/desk
 
 請注意下列兩個常數：
 
-``` syntax
+```cpp
 const UINT D3D12_TEXTURE_DATA_PITCH_ALIGNMENT = 256;
 const UINT D3D12_TEXTURE_DATA_PLACEMENT_ALIGNMENT = 512;
 ```
@@ -138,11 +138,4 @@ D3D12 不支援使用 [**Map**](/windows/desktop/api/d3d12/nf-d3d12-id3d12resour
 
 ## <a name="related-topics"></a>相關主題
 
-<dl> <dt>
-
-[在緩衝區內進行子分配](large-buffers.md)
-</dt> </dl>
-
- 
-
- 
+* [在緩衝區內進行子分配](large-buffers.md)

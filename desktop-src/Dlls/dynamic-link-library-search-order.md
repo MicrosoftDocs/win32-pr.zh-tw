@@ -5,12 +5,12 @@ title: Dynamic-Link 程式庫搜尋順序
 ms.topic: article
 ms.date: 09/11/2020
 ms.custom: contperf-fy21q1
-ms.openlocfilehash: 928cf9030e24c91145ae95e1eed680017bf68533
-ms.sourcegitcommit: f374b50b37160b683da16b59ac9340282a8f50a5
+ms.openlocfilehash: 73c90e176983aa542ec524c2bfa32623821c2f21
+ms.sourcegitcommit: 3cea99a2ed9579a94236fa7924abd6149db51a58
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/04/2021
-ms.locfileid: "104509744"
+ms.lasthandoff: 07/30/2021
+ms.locfileid: "114991835"
 ---
 # <a name="dynamic-link-library-search-order"></a>Dynamic-Link 程式庫搜尋順序
 
@@ -23,7 +23,7 @@ ms.locfileid: "104509744"
 -   [桌面應用程式的搜尋順序](#search-order-for-desktop-applications)
     -   [桌面應用程式的標準搜尋順序](#standard-search-order-for-desktop-applications)
     -   [桌面應用程式的替代搜尋順序](#alternate-search-order-for-desktop-applications)
-    -   [使用載入連結 **\_ 庫 \_ 搜尋** 旗標搜尋順序](/windows)
+    -   [使用載入連結 **\_ 庫 \_ 搜尋** 旗標搜尋順序](#search-order-using-load_library_search-flags)
 -   [相關主題](#related-topics)
 
 ## <a name="factors-that-affect-searching"></a>影響搜尋的因素
@@ -31,17 +31,17 @@ ms.locfileid: "104509744"
 下列因素會影響系統是否搜尋 DLL：
 
 -   如果已在記憶體中載入具有相同模組名稱的 DLL，則系統只會檢查重新導向和資訊清單，然後再解析成載入的 DLL，而不論其所在的目錄為何。 系統不會搜尋 DLL。
--   如果 DLL 是在執行應用程式之 Windows 版本的已知 Dll 清單上，則系統會使用其已知 DLL 的複本 (以及已知 DLL 的相依 Dll （如果有任何) ，而不是搜尋 DLL）。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
+-   如果 dll 是在執行應用程式之 Windows 版本的已知 dll 清單上，則系統會使用其已知 dll (和已知 dll 的相依 dll 的複本（如果有) 的話），而不是搜尋 DLL。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
 -   如果 DLL 具有相依性，系統就會搜尋相依的 Dll，如同它們是以其模組名稱載入一樣。 即使是藉由指定完整路徑來載入第一個 DLL，也是如此。
 
 ## <a name="search-order-for-uwp-apps"></a>UWP 應用程式的搜尋順序
 
-當 Windows 10 (的 UWP 應用程式或適用于 Windows 8 的商店應用程式) 透過呼叫 [**>loadpackagedlibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary) 函式來載入封裝的模組時，DLL 必須在進程的封裝相依性圖形中。 如需詳細資訊，請參閱 **>loadpackagedlibrary**。 當 UWP 應用程式以其他方式載入模組，但未指定完整路徑時，系統會在載入時搜尋 DLL 和其相依性，如本節所述。
+當 Windows 10 (的 UWP 應用程式或適用于 Windows 8 的商店應用程式) 透過呼叫 [**>loadpackagedlibrary**](/windows/desktop/api/Winbase/nf-winbase-loadpackagedlibrary)函式來載入封裝的模組時，DLL 必須在進程的封裝相依性圖形中。 如需詳細資訊，請參閱 **>loadpackagedlibrary**。 當 UWP 應用程式以其他方式載入模組，但未指定完整路徑時，系統會在載入時搜尋 DLL 和其相依性，如本節所述。
 
 在系統搜尋 DLL 之前，它會檢查下列各項：
 
 -   如果已在記憶體中載入具有相同模組名稱的 DLL，系統就會使用載入的 DLL，而不論其所在的目錄為何。 系統不會搜尋 DLL。
--   如果 DLL 是在執行應用程式之 Windows 版本的已知 Dll 清單上，則系統會使用其已知 DLL 的複本 (以及已知 DLL 的相依 Dll （如果有任何) ）。 系統不會搜尋 DLL。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
+-   如果 dll 是在執行應用程式之 Windows 版本的已知 dll 清單上，則系統會使用其已知 dll 的複本 (以及已知 dll 的相依 dll （如果有任何) ）。 系統不會搜尋 DLL。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
 
 如果系統必須搜尋模組或其相依性，即使相依性不是 UWP 應用程式程式碼，它一律會使用 UWP 應用程式的搜尋順序。
 
@@ -70,7 +70,7 @@ ms.locfileid: "104509744"
 在系統搜尋 DLL 之前，它會檢查下列各項：
 
 -   如果已在記憶體中載入具有相同模組名稱的 DLL，系統就會使用載入的 DLL，而不論其所在的目錄為何。 系統不會搜尋 DLL。
--   如果 DLL 是在執行應用程式之 Windows 版本的已知 Dll 清單上，則系統會使用其已知 DLL 的複本 (以及已知 DLL 的相依 Dll （如果有任何) ）。 系統不會搜尋 DLL。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
+-   如果 dll 是在執行應用程式之 Windows 版本的已知 dll 清單上，則系統會使用其已知 dll 的複本 (以及已知 dll 的相依 dll （如果有任何) ）。 系統不會搜尋 DLL。 如需目前系統上已知 Dll 的清單，請參閱下列登錄機碼： **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager \\ KnownDLLs**。
 
 如果 DLL 具有相依性，系統就會搜尋相依的 Dll，如同它們是以其模組名稱載入一樣。 即使是藉由指定完整路徑來載入第一個 DLL，也是如此。
 
@@ -79,9 +79,9 @@ ms.locfileid: "104509744"
 
 ### <a name="standard-search-order-for-desktop-applications"></a>桌面應用程式的標準搜尋順序
 
-系統所使用的標準 DLL 搜尋順序取決於是否啟用或停用安全 DLL 搜尋模式。 安全的 DLL 搜尋模式會將使用者的目前目錄放在搜尋順序後面。
+系統所使用的標準 DLL 搜尋順序取決於是否啟用或停用安全 DLL 搜尋模式。 保管庫DLL 搜尋模式會將使用者的目前目錄放在搜尋順序的後面。
 
-預設會啟用安全的 DLL 搜尋模式。 若要停用此功能，請建立 **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager** \\ **SafeDllSearchMode** 登錄值，並將它設定為0。 呼叫 [**SetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) 函式會在指定目錄位於搜尋路徑中時，有效地停用 **SafeDllSearchMode** ，並變更搜尋順序，如本主題中所述。
+保管庫預設會啟用 DLL 搜尋模式。 若要停用此功能，請建立 **HKEY \_ LOCAL \_ MACHINE \\ System \\ CurrentControlSet \\ Control \\ Session Manager** \\ **SafeDllSearchMode** 登錄值，並將它設定為0。 呼叫 [**SetDllDirectory**](/windows/desktop/api/winbase/nf-winbase-setdlldirectorya) 函式會在指定目錄位於搜尋路徑中時，有效地停用 **SafeDllSearchMode** ，並變更搜尋順序，如本主題中所述。
 
 如果已啟用 **SafeDllSearchMode** ，則搜尋順序如下所示：
 
