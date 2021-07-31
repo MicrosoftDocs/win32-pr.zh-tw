@@ -5,12 +5,12 @@ ms.assetid: 09C586BF-11CE-4392-9BFD-A40B05DD0624
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 11/19/2018
-ms.openlocfilehash: b3ff1896372719b011b283e3ff1f5426db9e13d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f82b01ba33cfa6660f266a481b2eaaab20ade236
+ms.sourcegitcommit: 60ff57d8cf94ae7a47c6046ad49f7c7256a7edb6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104530"
+ms.lasthandoff: 07/31/2021
+ms.locfileid: "115006793"
 ---
 # <a name="what-is-direct3d-12"></a>什麼是 Direct3D 12？
 
@@ -24,7 +24,7 @@ Direct3D 12 和 Direct3D 11.3 引進一組適用于轉譯管線的新功能。
 
 - [保守的光柵](../direct3d11/conservative-rasterization.md) 化，以啟用可靠的點擊偵測。
 - [磁片](../direct3d11/volume-tiled-resources.md) 區並排顯示的資源，可讓您將串流處理的三維資源視為全部都在視訊記憶體中。
-- 以轉譯器為[排序的視圖](../direct3d11/volume-tiled-resources.md)，可啟用可靠的透明呈現。
+- 以轉譯器為[排序的視圖](../direct3d11/rasterizer-order-views.md)，可啟用可靠的透明呈現。
 - 設定著色器內的樣板參考，以啟用特殊遮蔽和其他效果。
 - 改良的材質對應和具類型的未排序存取視圖 (UAV) 載入。
 
@@ -35,7 +35,7 @@ Direct3D 12 和 Direct3D 11.3 引進一組適用于轉譯管線的新功能。
 - 大幅降低 CPU 額外負荷。
 - 大幅降低耗電量。
 - 最高 (大約) 20% 的 GPU 效率改進。
-- 適用于 Windows 10 裝置的跨平臺開發 (PC、平板電腦、主控台、行動) 。
+- Windows 10 裝置的跨平臺開發 (電腦、平板電腦、主控台、行動) 。
 
 Direct3D 12 的設計目的是要讓先進的圖形程式設計人員使用。 它會呼叫大量的圖形專長，以及高度微調。 Direct3D 12 的設計目的是充分利用多重執行緒、審慎的 CPU/GPU 同步處理，以及將資源從一個用途轉換和重複使用到另一個用途。 這些都是需要大量記憶體層級程式設計技能的技術。
 
