@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI，使用 IDirectoryObject 介面存取屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1da62b6a5cf7e1389276475c46faac6455672790
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1fb7f2b8302c2e92a7e604bdc85389fb78acb24a59e467ca42b8bbd3c6c004e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931867"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181537"
 ---
 # <a name="accessing-attributes-with-the-idirectoryobject-interface"></a>使用 IDirectoryObject 介面存取屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "103931867"
 > [!Note]  
 > [**ADS \_ ATTR \_ 資訊**](/windows/desktop/api/Iads/ns-iads-ads_attr_info)結構不會傳回所有要求的屬性。 只有包含值的屬性才是傳回結構的一部分。
 
- 
+ 
 
 傳回的屬性數目取決於傳遞給 [**IDirectoryObject：： GetObjectAttributes**](/windows/desktop/api/Iads/nf-iads-idirectoryobject-getobjectattributes)方法的 *dwNumberAttributes* 參數。
 
@@ -111,9 +111,9 @@ CoUninitialize();
 
 
 
- 
+ 
 
- 
+ 
 
 
 

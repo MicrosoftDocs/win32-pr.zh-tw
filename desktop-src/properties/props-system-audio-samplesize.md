@@ -4,18 +4,18 @@ ms.assetid: abbfd194-e800-46c3-b961-1cf3f5d59c82
 title: SampleSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36f1428de5052936684a97c93d4b275181e2fd8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be9568e1e60d568be9f2ffde0ddd77ed3db3f80318dcc4071a0facfeb9cffef5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232626"
 ---
 # <a name="systemaudiosamplesize"></a>SampleSize
 
 指出音訊檔案的取樣大小（以每個樣本的位為單位）。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

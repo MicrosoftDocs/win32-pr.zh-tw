@@ -4,18 +4,18 @@ ms.assetid: afdd1bc6-87c3-4c47-9d29-43422fd699b3
 title: FlashEnergy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09b4277b1cca48666f14ac2b68e31317ceda82d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 431d311725717d9da0b696b79567d12908f7c48f867bc0a105304b389e23de94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229963"
 ---
 # <a name="systemphotoflashenergy"></a>FlashEnergy
 
 表示在拍攝影像時的閃光燈能源，以橫樑蠟燭的電源秒為單位。 從 PKEY \_ photo \_ FLASHENERGYNUMERATOR 和 PKEY \_ photo FlashEnergyDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

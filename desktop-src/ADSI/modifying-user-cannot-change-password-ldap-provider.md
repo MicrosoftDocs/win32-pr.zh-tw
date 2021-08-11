@@ -9,12 +9,12 @@ keywords:
 - LDAP 提供者 ADSI、使用者管理範例、使用者必須在下次登入時變更密碼，以及修改
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e1628b113c2f15278bc72e41aa79e4be03a98f2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ec664f9a79e0de4ff0b75ae31abd8dc1532cd17c0d3d35a934e094da45eb3383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179016"
 ---
 # <a name="modifying-user-cannot-change-password-ldap-provider"></a>修改使用者無法變更 LDAP 提供者) 的密碼 (
 
@@ -32,7 +32,7 @@ ms.locfileid: "103683101"
     > [!Note]  
     > "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 因此，不應該直接使用字串。 您應該在執行時間取得帳戶名稱，方法是呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) 函式，並使用 "Everyone" ( "s-1-1-0" ) 和 "NT 授權單位 \\ SELF" ( "S-1-5-10" ) 已知的安全性主體。 讀取使用者所顯示的 **GetSidAccountName**、 **GetSidAccountName \_ Everyone** 和 **GetSidAccountName \_ Self** c + + 範例函式 [無法 (LDAP 提供者變更密碼)](reading-user-cannot-change-password-ldap-provider.md) 示範如何進行這項操作。
 
-     
+     
 
 5.  如果使用者無法變更密碼或 **ads \_ AceType \_ 存取 \_ 允許的 \_ 物件**（如果使用者可以變更其密碼），請修改找到之 ace 的 [**IADsAccessControlEntry. AceType**](iadsaccesscontrolentry-property-methods.md)屬性，以 **\_ AceType \_ 拒絕存取的 \_ \_ 物件**。
 6.  如果找不到「Everyone」 ACE，請建立新的 [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry) 物件，其中包含下表所示的屬性值，並使用 [**IADsAccessControlList. AddAce**](/windows/desktop/api/Iads/nf-iads-iadsaccesscontrollist-addace) 方法將新的專案新增至 ACL。
@@ -57,7 +57,7 @@ ms.locfileid: "103683101"
 
 
 
- 
+ 
 
 ## <a name="example-code"></a>範例程式碼
 
@@ -66,7 +66,7 @@ ms.locfileid: "103683101"
 > [!Note]  
 > 若要使用此範例中記載的程式碼，您必須是系統管理員。 如果您不是系統管理員，則需要加入更多程式碼，以使用可讓使用者變更用戶端快取重新排回 Active Directory 網域服務方式的介面。
 
- 
+ 
 
 
 ```C++
@@ -420,9 +420,9 @@ HRESULT SetUserCannotChangePassword(LPCWSTR pwszUserDN,
 下列程式碼範例顯示如何使用 LDAP 提供者修改使用者無法變更密碼許可權。
 
 > [!Note]  
-> 下列範例只會在主要語言為英文的網域上運作，因為 "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 在不呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida) 函式的情況下，Visual Basic 沒有辦法取得已知安全性主體的帳戶名稱。 如果使用 Visual Basic，建議您使用 WinNT 提供者來修改使用者無法變更密碼許可權，如 [修改使用者無法變更密碼 (WinNT 提供者) ](modifying-user-cannot-change-password-winnt-provider.md)中所示。
+> 下列範例只會在主要語言為英文的網域上運作，因為 "Everyone" 和 "NT 授權單位 \\ SELF" 字串會根據網域中第一個網域控制站的語言進行當地語系化。 在不呼叫 [**LookupAccountSid**](/windows/desktop/api/winbase/nf-winbase-lookupaccountsida)函式的情況下，Visual Basic 沒有辦法取得已知安全性主體的帳戶名稱。 如果使用 Visual Basic，建議您使用 winnt 提供者來修改使用者無法變更密碼許可權，如[修改使用者無法變更密碼 (WinNT 提供者) ](modifying-user-cannot-change-password-winnt-provider.md)中所示。
 
- 
+ 
 
 
 ```VB
@@ -507,6 +507,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

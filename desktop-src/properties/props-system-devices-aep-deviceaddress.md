@@ -4,12 +4,12 @@ ms.assetid: 20bc4ac6-151e-4666-bf17-5eb4a3c87c40
 title: System.Devices.Aep.DeviceAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe170bc76184ed2cf739468809c725020c14f1e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d03231756b625b93d1375d2c27e06c0f3272dd5aac262369dfc0a74de3bca60f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232246"
 ---
 # <a name="systemdevicesaepdeviceaddress"></a>System.Devices.Aep.DeviceAddress
 

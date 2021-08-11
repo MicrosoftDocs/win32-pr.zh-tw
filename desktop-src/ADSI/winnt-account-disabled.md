@@ -9,12 +9,12 @@ keywords:
 - WinNT 提供者 ADSI，使用者管理範例，帳戶已停用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a99b1fe45b71eda14547703f8721b2a13d581b8e
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 1659bad4ab930615aed7d02e3c54fc3899b60eb476999676ff765fe2a2e94f87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104386412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178503"
 ---
 # <a name="account-disabled-winnt-provider"></a>帳戶已停用 (WinNT 提供者) 
 

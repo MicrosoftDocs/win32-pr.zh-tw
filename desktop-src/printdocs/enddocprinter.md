@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - WinSpool.Drv
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 8d3e2bc110e5ee9412bb1edb89779f896edb015a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bad07cd965d3a0c1ed16b508af025cfcadcf3fb8a5cf465f8e1fb2541bc7552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234748"
 ---
 # <a name="enddocprinter-function"></a>EndDocPrinter 函式
 
@@ -83,7 +83,7 @@ BOOL EndDocPrinter(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Spoolss.dll</dt> </dl>                    |
 

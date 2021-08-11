@@ -4,16 +4,16 @@ description: 本主題說明如何在建立 ADSI 的延伸模組時解決函式�
 ms.assetid: 8121f037-3845-44ba-a2cd-8d7f15e0beb2
 ms.tgt_platform: multiple
 keywords:
-- ADSI ADSI，範例程式碼 Visual Basic，解析函數名稱衝突
+- adsi adsi，範例程式碼 Visual Basic，解析函數名稱衝突
 - 解決函式名稱衝突 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 049f9ce6447bf6d6ead783db3e34f74374333f10
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 2e6ce09251ba61b31768d973e258c568694067aff0420f0512a13913bb6fce90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179978"
 ---
 # <a name="example-for-resolving-function-name-conflicts"></a>解析函數名稱衝突的範例
 
@@ -108,6 +108,6 @@ myInfNone.Func0
 
 ADSI 藉由不支援具有衝突函式或屬性名稱的多個介面，來解決第一個問題。 它會解決第二個問題，方法是將唯一的（位於相同的延伸模組物件內）介面編號新增至 DISPID 未使用的位。
 
- 
+ 
 
- 
+ 

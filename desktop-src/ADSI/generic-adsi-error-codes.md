@@ -5,16 +5,16 @@ ms.assetid: 193c5808-fc39-48e6-8bb8-8338e5c980ad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfbea2148ab07bcf045808ae80d14947621aac8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7d82ffb20b2dbba1c6b953177eddc0dc8da95aaeb5a10e6b0c985659246906aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179816"
 ---
 # <a name="generic-adsi-error-codes"></a>一般 ADSI 錯誤碼
 
-任何 ADSI 系統提供者都可以傳回這些類型的錯誤碼，以表示 ADSI 特定的錯誤訊息。 它們具有已設定 **為 true** 或 **false** 之嚴重性位的設備代碼5。 當嚴重性位設定為 **true** 時，會導致表單0x80005xxx 的錯誤值和表單 **E \_ ADS \_ \*** 的錯誤訊息。 當嚴重性位設定為 **false** 時，就會產生0x00005xxx 形式的錯誤值，而錯誤訊息則是 **S \_ ADS \_ \*** 表單。
+任何 ADSI 系統提供者都可以傳回這些類型的錯誤碼，以表示 ADSI 特定的錯誤訊息。 它們具有已設定 **為 true** 或 **false** 之嚴重性位的設備代碼5。 當嚴重性位設定為 **true** 時，會產生表單0x80005xxx 的錯誤值和表單 **E ADS _ 的錯誤訊息 \_ \_ \* *。當嚴重性位設定為 _ false 時***，就會產生0x00005xxx 形式的錯誤值，而錯誤訊息則是 **S \_ ADS \_ \*** 表單。
 
 下表列出 Adserr 中定義的一般 ADSI 錯誤碼。
 
@@ -46,11 +46,11 @@ ms.locfileid: "104182990"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,18 +4,18 @@ ms.assetid: af6445d4-b91d-4999-a809-b2a3b63c67ba
 title: DecoratedFreeSpace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 057c4e475f48caf389c3fd03e05614dbb8651e3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d25f629526f8631ca2c1cf5c1184f2ef78ef0bdb2100b1ced04c34c6297556ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232507"
 ---
 # <a name="systemcomputerdecoratedfreespace"></a>DecoratedFreeSpace
 
 電腦的可用空間和總空間，指出為 "% s free of% s"。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

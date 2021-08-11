@@ -8,12 +8,12 @@ keywords:
 - LDAP 提供者 ADSI，使用者管理範例，帳戶已停用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e61fb65a06f4e2afb1b43595b955c577b2a6090
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: cf753da0770e19504d496be20ba350f79bd4788a797eb5241e68261df844b626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106975644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181442"
 ---
 # <a name="account-disabled-ldap-provider"></a>帳戶已停用 (LDAP 提供者) 
 

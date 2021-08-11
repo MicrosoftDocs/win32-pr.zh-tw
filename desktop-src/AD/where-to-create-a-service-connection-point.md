@@ -11,12 +11,12 @@ keywords:
 - 服務連接點 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf122ebabcfd8085ebad46314ffd1c09f827e783
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b585c11333b8e307a7f6771bd89ccf5ad82038fb22f10fca7eb114c1101a063a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182079"
 ---
 # <a name="where-to-create-a-service-connection-point"></a>建立服務連接點的位置
 
@@ -55,11 +55,11 @@ ms.locfileid: "104020819"
 不應該在下欄區域中建立服務特定物件：
 
 -   服務不應該直接在網域分割區的 [使用者] 或 [電腦] 容器中發佈物件，也不應該在這些容器中建立新的容器。 不過，無論電腦物件是否儲存在 [電腦] 容器中，服務都可以將物件發佈為電腦物件的子物件。
--   使用 Windows 通訊端註冊和解析 (RnR) 或 RPC 名稱服務的服務， (RpcNs) Api 來通告本身，請在 WinsockServices 和 RpcServices 容器的網域分割區系統容器底下建立適當的物件。 請勿在這些容器中明確建立物件。 這樣做並不會造成直接損害，但對系統管理員來說可能會造成混淆。
+-   使用 Windows 通訊端註冊和解析 (RnR) 或 RPC 名稱服務 (RpcNs) api 來公告本身的服務，會在 WinsockServices 和 RpcServices 容器的網域分割區系統容器底下建立適當的物件。 請勿在這些容器中明確建立物件。 這樣做並不會造成直接損害，但對系統管理員來說可能會造成混淆。
 
- 
+ 
 
- 
+ 
 
 
 

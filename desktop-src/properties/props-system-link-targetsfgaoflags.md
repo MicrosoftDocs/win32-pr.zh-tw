@@ -4,12 +4,12 @@ ms.assetid: ac17754c-efd5-4894-8013-dd67a5d2e486
 title: TargetSFGAOFlags
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5e9b35a61b890d608394ecffbcad3bb50d36b3a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46e67f053441b0533f736adfae7280a2b046708babb72c68abfd4bd6fce24a15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118231176"
 ---
 # <a name="systemlinktargetsfgaoflags"></a>TargetSFGAOFlags
 

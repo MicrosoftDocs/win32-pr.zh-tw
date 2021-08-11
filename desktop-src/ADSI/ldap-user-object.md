@@ -7,12 +7,12 @@ keywords:
 - LDAP 提供者 ADSI、user 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bcc05808f0942e95b3bf4e09251e04c6a256e9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cc8115906656da4fa571fe0d27622a2d87c1aae443673fde6b95ecdca6b9672a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179357"
 ---
 # <a name="ldap-user-object"></a>LDAP 使用者物件
 
@@ -25,9 +25,9 @@ ms.locfileid: "106969634"
 
 此外，Active Directory 中的使用者物件包含比 [IADsUser](iadsuser-property-methods.md) 區段中所列更多的屬性。 因為 Active Directory 架構是可擴充的，所以其他廠商也可以將其他屬性加入至類別。
 
- 
+ 
 
- 
+ 
 
 
 

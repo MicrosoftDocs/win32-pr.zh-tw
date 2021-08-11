@@ -4,12 +4,12 @@ ms.assetid: ea75a7ac-d4d7-42b6-91e9-e28607fd684c
 title: 使用 PrintCapabilities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f09882d42814930ef5ba08e087f1df87e0d0e9bc
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 96aec2d21a2751305ae1f2e191a37adb584a0209542a78a0bf53253ea66faa20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233526"
 ---
 # <a name="uses-of-the-printcapabilities"></a>使用 PrintCapabilities
 

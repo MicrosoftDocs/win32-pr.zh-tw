@@ -9,12 +9,12 @@ keywords:
 - DsAddSidHistory Active Directory，使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d45792dbd8c7a2bfa2dd047111a3ed165a2011e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: afb37e09d5c7b337717f27b0e68ad17331ee27270da9e7b79a0d6bba791d2e5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182522"
 ---
 # <a name="using-dsaddsidhistory"></a>使用 DsAddSidHistory
 
@@ -22,14 +22,14 @@ ms.locfileid: "103671207"
 
 將 Sid 新增至安全性主體的 **sIDHistory** 是一項安全性敏感的作業，可有效地授與目的地主體存取來源主體可存取的所有資源，但前提是該信任存在於適用的資源網域到目的地網域中。
 
-在原生模式 Windows 2000 網域中，使用者登入會建立存取權杖，其中包含使用者主要帳戶 SID 和群組 Sid，以及使用者為其成員之群組的使用者 **sidhistory** 和 **sIDHistory** 。 將這些先前的 Sid (**sIDHistory** 值) 在使用者的權杖中，會授與使用者存取受存取控制清單保護之資源的存取權 (acl) 包含先前的 sid。
+在原生模式 Windows 2000 網域中，使用者登入會建立存取權杖，其中包含使用者主要帳戶 SID 和群組 sid，以及使用者為其成員之群組的使用者 **sidhistory** 和 **sIDHistory** 。 將這些先前的 Sid (**sIDHistory** 值) 在使用者的權杖中，會授與使用者存取受存取控制清單保護之資源的存取權 (acl) 包含先前的 sid。
 
-這種操作可加速特定的 Windows 2000 部署案例。 尤其是，它支援一種案例，其中會為已存在於 Windows NT 4.0 生產環境中的使用者和群組建立新 Windows 2000 樹系中的帳戶。 藉由將 Windows NT 4.0 帳戶 SID 放在 Windows 2000 帳戶 **sIDHistory** 中，就會保留使用者登入新的 Windows 2000 帳戶的網路資源存取權。
+這種作業有助於某些 Windows 2000 的部署案例。 尤其是，它支援在 Windows NT 4.0 生產環境中，為已存在於生產環境中的使用者和群組建立新 Windows 2000 樹系中帳戶的案例。 藉由將 Windows NT 4.0 帳戶 SID 放在 Windows 2000 帳戶 **sIDHistory** 中，就會保留使用者登入新的 Windows 2000 帳戶的網路資源存取權。
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 也支援將 Windows NT 4.0 備份網域控制站 (bdc) 資源伺服器 (或原生模式 windows 2000 網域中的 dc 和成員伺服器，) 到 Windows 2000 網域做為成員伺服器。 這項遷移需要在目的地 Windows 2000 網域中，建立包含在其 SIDHistory 的網域本機群組的網網域本機群組（在其 **sIDHistory** 中），在 BDC (或在來源網域中的 Windows 2000 伺服器) 上 acl 中所參考的網域本機群組的主要 sid。 藉由建立包含 **sIDHistory** 的目的地本機群組和來源本機群組的所有成員，將會針對所有成員維護由參考來源本機群組之 acl 所保護的已遷移伺服器資源存取權。
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)也 ()  (4.0 Windows NT 支援以原生模式 Windows 2000 網域) Windows 2000 若要進行這項遷移，必須在目的地 Windows 2000 網域中，在其 **sIDHistory** 的網網域本機群組中包含的本機群組 sid，其為在來源網域中 Windows 2000 伺服器) 上 acl 中所參考之本機群組的主要 sid (或網網域本機群組。 藉由建立包含 **sIDHistory** 的目的地本機群組和來源本機群組的所有成員，將會針對所有成員維護由參考來源本機群組之 acl 所保護的已遷移伺服器資源存取權。
 
 > [!Note]  
-> 使用 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 需要瞭解在這些案例和其他案例中，其管理和安全性方面的影響。 Dommig.doc 如需詳細資訊，請參閱 Windows 2000 支援工具中的「規劃從 Windows NT 到 Microsoft Windows 2000」的白皮書。 您也可以在產品 CD 的 [支援工具] 下找到此檔集 \\ \\ 。
+> 使用 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 需要瞭解在這些案例和其他案例中，其管理和安全性方面的影響。 如需詳細資訊，請參閱《 Windows 2000 支援工具》中 Dommig.doc 提供的「規劃從 Windows NT 到 Microsoft Windows 2000」的技術白皮書。 您也可以在產品 CD 的 [支援工具] 下找到此檔集 \\ \\ 。
 
  
 
@@ -39,13 +39,13 @@ ms.locfileid: "103671207"
 
 ## <a name="domain-and-trust-requirements"></a>網域和信任需求
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 要求目的地網域必須處於 Windows 2000 原生模式或更新版本，因為只有此網欄位型別支援 **sIDHistory** 屬性。 來源網域可以是 Windows NT 4.0 或 Windows 2000、混合模式或原生模式。 來源和目的地網域不得位於相同的樹系中。 Windows NT 4.0 網域的定義不在樹系中。 此樹系內的條件約束可確保不會在相同的樹系中建立重複的 Sid （不論是否顯示為主要 Sid 或 **sIDHistory** 值）。
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)要求目的地網域必須處於 Windows 2000 原生模式或更新版本中，因為只有此網欄位型別支援 **sIDHistory** 屬性。 來源網域可以是 Windows NT 4.0 或 Windows 2000、混合或原生模式。 來源和目的地網域不得位於相同的樹系中。 Windows NT 4.0 網域的定義不在樹系中。 此樹系內的條件約束可確保不會在相同的樹系中建立重複的 Sid （不論是否顯示為主要 Sid 或 **sIDHistory** 值）。
 
 在下表所列的情況下， [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)需要來源網域到目的地網域的外部信任。
 
 
 
-| 案例                                                                             | Description                                                                                                                                                                                                                                                                 |
+| 案例                                                                             | 描述                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 來源網域是 Windows 2000。<br/>                                    | 來源 **sIDHistory** 屬性（僅適用于 Windows 2000 來源網域）可能會使用 LDAP 唯讀，這需要此信任以進行完整性保護。<br/>                                                                                             |
 | 來源網域是 Windows NT 4.0，而 *SrcDomainCreds* 為 **Null**。<br/> | 使用呼叫端認證支援來源網域作業所需的模擬，取決於此信任。 模擬也需要目的地網域控制站預設在網域控制站上啟用「受信任的委派」。<br/> |
@@ -58,7 +58,7 @@ ms.locfileid: "103671207"
 
 ## <a name="source-domain-controller-requirements"></a>來源網域控制站需求
 
-[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 需要在來源網域中選取作為作業目標的網域控制站成為 Windows NT 4.0 網域中的 pdc，或 Windows 2000 網域中的 pdc 模擬器。 來源網域審核是透過寫入作業產生的，因此，在 Windows NT 4.0 來源網域中需要 PDC，而且僅限 PDC 的限制可確保在單一電腦上產生 **DsAddSidHistory** 的審核。 這可減少審核所有 Dc 之審核記錄的需求，以監視此作業的使用情形。
+[**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya)需要選取作為來源網域中作業目標的網域控制站，是 Windows NT 4.0 網域中的 pdc，或 Windows 2000 網域中的 pdc Emulator。 來源網域審核是透過寫入作業產生的，因此，在 Windows NT 4.0 來源網域中需要 pdc，而且僅限 pdc 的限制可確保在單一電腦上產生 **DsAddSidHistory** 的審核。 這可減少審核所有 Dc 之審核記錄的需求，以監視此作業的使用情形。
 
 > [!Note]  
 > 在 Windows NT 4.0 來源網域中，來源網域中的作業 PDC (目標) 必須執行 Service Pack 4 (SP4) 和更新版本，以確保適當的審核支援。
@@ -95,7 +95,7 @@ HKEY_LOCAL_MACHINE
 
 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 會強制執行下列安全性措施：
 
--   從 Windows 2000 工作站呼叫，呼叫者的認證是用來驗證和隱私權-保護對目的地網域控制站的 RPC 呼叫。 如果 *SrcDomainCreds* 不是 **Null**，則工作站和目的地 DC 都必須支援128位加密，以保護認證的安全。 如果無法使用128位加密且提供 *SrcDomainCreds* ，則必須在目的地 DC 上進行呼叫。
+-   從 Windows 2000 工作站進行呼叫時，會使用呼叫端的認證來驗證和隱私權-保護對目的地網域控制站的 RPC 呼叫。 如果 *SrcDomainCreds* 不是 **Null**，則工作站和目的地 DC 都必須支援128位加密，以保護認證的安全。 如果無法使用128位加密且提供 *SrcDomainCreds* ，則必須在目的地 DC 上進行呼叫。
 -   目的地網域控制站會使用 *SrcDomainCreds* 或呼叫端的認證與來源網域控制站進行通訊，以相互驗證和完整性-使用 SAM 查閱) 和 **sIDHistory** (（使用 LDAP 讀取) ）來保護來源帳戶 SID 的讀取 (。
 
 ## <a name="threat-models"></a>威脅模型
@@ -149,7 +149,7 @@ HKEY_LOCAL_MACHINE
 <td>資源網域系統管理員只會設定從安全性觀點來合理的信任關係，以保護其資源。 在受信任的目標網域中，使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a> 受限於網域系統管理員群組的成員，這些成員在其職責範圍內已經有廣泛的許可權。<br/></td>
 </tr>
 <tr class="even">
-<td>Rogue 目標網域<br/> 未經授權的使用者建立 Windows 2000 網域，其 <strong>sIDHistory</strong> 包含已從來源網域遭竊的 SID。 未經授權的使用者會使用此帳戶來取得資源的未經授權存取權。<br/></td>
+<td>Rogue 目標網域<br/> 未經授權的使用者會使用其<strong>sIDHistory</strong>包含已從來源網域遭竊之 SID 的帳戶，建立 Windows 2000 網域。 未經授權的使用者會使用此帳戶來取得資源的未經授權存取權。<br/></td>
 <td>未經授權的使用者需要來源網域的系統管理員認證，才能使用 <a href="/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya"><strong>DsAddSidHistory</strong></a>，並在來源網域控制站上保留審核記錄。 Rogue 目標網域只會在信任 rogue 網域的其他網域中取得未經授權的存取權，這需要這些資源網域中的系統管理員許可權。<br/></td>
 </tr>
 </tbody>
@@ -172,12 +172,12 @@ HKEY_LOCAL_MACHINE
 
 *SrcPrincipal* 和 *DstPrincipal* 必須是下列其中一種類型：
 
--   User
+-   使用者
 -   啟用安全性的群組，包括：
 
     <dl> 本機群組  
     通用群組  
-    僅)  (Windows 2000 原生模式的網域本機群組  
+    網域本機群組 (Windows 2000 原生模式)   
     萬用群組 (Windows 2000 原生模式)   
     </dl>
 
@@ -234,7 +234,7 @@ HKEY_LOCAL_MACHINE
 2.  以滑鼠右鍵按一下 [ **網域控制站** ]，然後選擇 [ **屬性**]。
 3.  按一下 [ **群組原則** ] 索引標籤。
 4.  選取 [ **預設網域控制站原則** ]，然後按一下 [ **編輯**]。
-5.  在 [ **電腦 \\ 設定 Windows 設定 \\ 安全性設定 \\ 本機原則 \\ 稽核原則**] 下，按兩下 [ **審核帳戶管理**]。
+5.  在 [電腦設定] **\\ Windows 設定 \\ 安全性設定 \\ 本機原則 \\ 稽核原則**] 下，按兩下 [**審核帳戶管理**]。
 6.  在 [ **審核帳戶管理** ] 視窗中，選取 [ **成功** ] 和 [ **失敗** ] 審核。 原則更新會在重新開機之後或重新整理之後生效。
 7.  藉由在群組原則 MMC 嵌入式管理單元中查看有效稽核原則來確認是否已啟用審核。
 
@@ -251,7 +251,7 @@ HKEY_LOCAL_MACHINE
 **啟用 Windows NT 4.0、Windows 2000 或 Windows Server 2003 來源網域中的使用者/群組管理事件的審核**
 
 1.  在 [ **網域的使用者管理員**] 中，按一下 [ **使用者** ] 功能表，然後選取 [ **新的本機群組**]。
-2.  輸入由來源網域 NetBIOS 名稱所組成的組名，該名稱會附加三個貨幣符號 ($) ，例如 FABRIKAM $ $ $。 [描述] 欄位應該會指出此群組是用來審核 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 或複製作業的使用。 確定群組中沒有成員。 按一下 [確定]  。
+2.  輸入由來源網域 NetBIOS 名稱所組成的組名，該名稱會附加三個貨幣符號 ($) ，例如 FABRIKAM $ $ $。 [描述] 欄位應該會指出此群組是用來審核 [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 或複製作業的使用。 確定群組中沒有成員。 按一下 [確定]。
 
 如果未如這裡所述啟用來源和目的地的審核， [**DsAddSidHistory**](/windows/desktop/api/Ntdsapi/nf-ntdsapi-dsaddsidhistorya) 作業就會失敗。
 

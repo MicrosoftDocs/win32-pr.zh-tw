@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3baf2cc07a9f6d48a4e521d30b5553cfcebbad58
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8bf0d88a044dffc21a691289c1678f4c0a5ea5828515f64f2ccecdb9cbad7609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106991318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177743"
 ---
 # <a name="dhcp-mask-attribute"></a>dhcp 遮罩屬性
 

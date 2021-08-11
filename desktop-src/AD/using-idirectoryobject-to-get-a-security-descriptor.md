@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，使用 IDirectoryObject 取得安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 562438d37d6bfadadfee95d13f80cb4c4728e0f2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: bd7b2bd256fb9601cc61ff41465763ccc30c39bc68ff79760019dad1f8d510bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182512"
 ---
 # <a name="using-idirectoryobject-to-get-a-security-descriptor"></a>使用 IDirectoryObject 取得安全描述項
 
@@ -85,6 +85,6 @@ HRESULT GetSDFromIDirectoryObject(
 
 
 
- 
+ 
 
- 
+ 

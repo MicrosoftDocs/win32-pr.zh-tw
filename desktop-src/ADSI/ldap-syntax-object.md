@@ -10,12 +10,12 @@ keywords:
 - LDAP 服務提供者 ADSI，將 ADSI 語法對應到 LDAP 語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2272a0805ec32fd7ade9c4584feefb64fb1467f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e776c795df239c026cd47fe60042d0ccbd1ae79bee1397af1853f91d5d9aa1a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179492"
 ---
 # <a name="ldap-syntax-object"></a>LDAP 語法物件
 
@@ -40,15 +40,15 @@ LDAP 提供者會使用 LDAP 語法和 ADSI 語法之間的下列對應。
 | PostalAddress | VT \_ BSTR                            |
 | SmallInterval | VT \_ I4                              |
 | String        | VT \_ BSTR                            |
-| Time          | VT \_ 日期                            |
+| 時間          | VT \_ 日期                            |
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: c1adbc13-5069-4760-901c-d5ca47913695
 title: System.object
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb29e6242dcdc97fe3b814a6fa571551f77e4765
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1d056cda4cbd3a7de6d639eb96076ca90dfd8afa60ad15e0f7d1de34ee9ff6bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230542"
 ---
 # <a name="systemmusicgenre"></a>System.object
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription
@@ -32,7 +32,7 @@ propertyDescription
 
 PKEY 值定義于 Propkey 中。
 
-請注意，某些檔案格式（例如 mp3 檔）只支援單一類型。 其他專案（例如 .wma 檔案）則支援多個內容。 如果您為單一類型的檔案格式指定多個內容，則只會辨識清單中的第一個類型。
+請注意，某些檔案格式（例如 .mp3 檔案）只支援單一類型。 其他專案（例如 .wma 檔案）則支援多個內容。 如果您為單一類型的檔案格式指定多個內容，則只會辨識清單中的第一個類型。
 
 ## <a name="related-topics"></a>相關主題
 

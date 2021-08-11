@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b7dc97c17e9f7b38fa2f6f0ea863099bbef838a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: bd72f8cfab55c9bd0f089aa487e0b895ca528cfdb6ceac9ae42bdae867a1050f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178341"
 ---
 # <a name="acs-service-type-attribute"></a>ACS-服務類型屬性
 
@@ -58,7 +58,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -79,7 +79,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -100,7 +100,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -121,7 +121,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -142,7 +142,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |
@@ -163,7 +163,7 @@ ACS 服務類型。 控制的負載或保證的頻寬。
 | 連結識別碼                | \-                                                                                                         |
 | MAPI-Id                | \-                                                                                                         |
 | System-Only            | 否                                                                                                      |
-| 是-單一值       | 對                                                                                                       |
+| 是-單一值       | 是                                                                                                       |
 | 已編制索引             | 否                                                                                                      |
 | 在通用類別目錄中      | 否                                                                                                      |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                               |

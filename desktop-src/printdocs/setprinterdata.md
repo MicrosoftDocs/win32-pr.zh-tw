@@ -17,12 +17,12 @@ api_location:
 - Winspool.drv
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 36af84fe665d68fd7996a0b81fbbf291314cc69e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b28c61030271b9de2e946fd59cddf5253a80cd4faec40ee66ceb2ae6cefdce3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233947"
 ---
 # <a name="setprinterdata-function"></a>SetPrinterData 函式
 
@@ -109,11 +109,11 @@ DWORD SetPrinterData(
 
 | 值                                                               | 註解                                                                                                                                                                                                                        |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **SPLREG \_ 允許 \_ 使用者 \_ MANAGEFORMS**                                | Windows XP Service Pack 2 (SP2) 和更新版本<br/> Windows Server 2003 （含 Service Pack 1） (SP1) 和更新版本<br/>                                                                                                    |
+| **SPLREG \_ 允許 \_ 使用者 \_ MANAGEFORMS**                                | WindowsXP Service Pack 2 (SP2) 和更新版本<br/> WindowsServer 2003 Service Pack 1 (SP1) 和更新版本<br/>                                                                                                    |
 | **SPLREG \_ 嗶聲 \_ 已啟用**                                           |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 預設多工 \_ 緩衝處理 \_ 目錄**                               |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 事件 \_ 記錄檔**                                              |                                                                                                                                                                                                                                 |
-| **SPLREG \_ NET \_ 快顯視窗**                                              | Windows Server 2003 和更新版本不支援<br/>                                                                                                                                                                       |
+| **SPLREG \_ NET \_ 快顯視窗**                                              | Windows Server 2003 和更新版本中不支援<br/>                                                                                                                                                                       |
 | **SPLREG \_ 埠 \_ 執行緒 \_ 優先順序 \_ 預設值**                         |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 埠 \_ 執行緒 \_ 優先順序**                                  |                                                                                                                                                                                                                                 |
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離 \_ 群組**                        | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
@@ -122,10 +122,10 @@ DWORD SetPrinterData(
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離 \_ 空閒 \_ 時間**                 | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離 \_ 執行 \_ 原則**             | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
 | **SPLREG \_ 列印 \_ 驅動程式 \_ 隔離覆 \_ 寫 \_ 原則**              | Windows 7 和更新版本<br/>                                                                                                                                                                                                  |
-| **SPLREG \_ 重試 \_ 快顯視窗**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本不支援<br/> |
+| **SPLREG \_ 重試 \_ 快顯視窗**                                            | 在成功傳回時，如果伺服器設定為所有作業的 [重試] 快顯視窗， *.pdata* 會包含 1; 如果伺服器不會針對所有作業重試快顯視窗，則為0。<br/> Windows Server 2003 和更新版本中不支援<br/> |
 | **SPLREG 排程器 \_ \_ 執行緒 \_ 優先順序**                             |                                                                                                                                                                                                                                 |
 | **SPLREG 排程器 \_ \_ 執行緒 \_ 優先順序 \_ 預設值**                    |                                                                                                                                                                                                                                 |
-| **SPLREG \_ WEBSHAREMGMT**                                            | Windows Server 2003 和更新版本<br/>                                                                                                                                                                                        |
+| **SPLREG \_ WEBSHAREMGMT**                                            | Windows伺服器2003和更新版本<br/>                                                                                                                                                                                        |
 
 
 
@@ -161,7 +161,7 @@ DWORD SetPrinterData(
 
  
 
-在 Windows 7 和更新版本的 Windows 中，預設會在用戶端上轉譯傳送至列印伺服器的列印工作。 您可以藉由在 *pValueName* 中設定下列值，為每一部印表機設定用戶端的列印工作轉譯。
+在 Windows 7 和更新版本的 Windows 中，傳送至列印伺服器的列印工作預設會在用戶端上呈現。 您可以藉由在 *pValueName* 中設定下列值，為每一部印表機設定用戶端的列印工作轉譯。
 
 
 
@@ -182,7 +182,7 @@ DWORD SetPrinterData(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **SetPrinterDataW** (Unicode) 和 **SetPrinterDataA** (ANSI) <br/>                                   |

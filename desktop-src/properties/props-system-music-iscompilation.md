@@ -4,12 +4,12 @@ ms.assetid: E3FD56F1-8886-408b-BDF2-7499AAF5AF97
 title: IsCompilation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75b0ed2150265996d40fb638e1c6304f02d329b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7c1483f48c2d84b16282f4acfa74ae3b26e9034eaa1d7b7b5e445568753ace3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230496"
 ---
 # <a name="systemmusiciscompilation"></a>IsCompilation
 

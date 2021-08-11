@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e4ff416a6e0e39c3fe5e405adf90533d8e35388
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: aafeec55047c63dd43b96a7ddf1a9d40dbb9e33de9fdc804aa2cc1f80b4d4d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182001"
 ---
 # <a name="wm_adsprop_notify_change-message"></a>WM \_ ADSPROP \_ 通知 \_ 變更訊息
 

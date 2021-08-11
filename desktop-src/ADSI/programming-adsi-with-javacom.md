@@ -10,12 +10,12 @@ keywords:
 - ADSI ADSI，範例程式碼 JAVA，系結至 ADSI 物件，並在該物件上叫用方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6899804208f9899823f266bc941bcf3c2dec372
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e4778d1d1f71920f880fe38a71874283f7cd8628ae0376b3f9ce227305ab184
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178972"
 ---
 # <a name="programming-adsi-with-javacom"></a>使用 JAVA/COM 編寫 ADSI 程式設計
 
@@ -58,14 +58,14 @@ public Class SimpleADSI
 
 **建立包裝函式類別，並將它們包含在您的專案中**
 
-1.  在 Visual c + + 專案中，從 [**專案**] 功能表選取 [**加入 Com 包裝** 函式 ...]。
+1.  在 Visual c + + 專案中，選取 [ **Project** ] 功能表中的 [**加入 Com 包裝** 函式 ...]。
 2.  從 [COM 包裝函式] 對話方塊的 [ **已安裝的元件** ] 中選取 [Active DS 類型程式庫]。 如果清單方塊中未顯示類型程式庫，請按一下 [ **流覽 ...]** 按鈕，流覽至儲存 Activeds 的目錄，然後選取類型程式庫。
 
-Visual c + + 會建立 JAVA 包裝函式類別的 activeds 封裝，並將封裝包含在專案的預設路徑中。 如需詳細資訊，請參閱 Visual c + + 視窗上 [ **專案探索** ] 窗格中的 activeds 套件。
+Visual c + + 會建立 JAVA 包裝函式類別的 activeds 封裝，並將封裝包含在專案的預設路徑中。 如需詳細資訊，請參閱 Visual c + + 視窗的 **Project 探索**] 窗格中的 activeds 封裝。
 
 若要取得無法 cocreated 的 ADSI 物件，請使用其中一個已公開的 ADSI API 函式，例如 [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) 或 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject)，這些函式也會封裝在 Activeds.dll 中。 Microsoft J/Direct 提供這些和其他原生 Api 的存取權。 上述程式碼範例的最後兩行說明這一點。
 
-在編譯時，請確定已啟用 Microsoft 語言延伸模組。 若要這樣做，請從 [Visual j + + 專案] 視窗中的 [**專案**] 功能表選取 [ **<project> 屬性 ...** ]。 然後，按一下 [ **<project> 屬性**] 對話方塊中的 [**編譯**] 索引標籤。 清除 [ **停用 Microsoft 語言擴充** 功能] 核取方塊。 如果是從命令列編譯，請使用 "/x-" 參數，例如：
+在編譯時，請確定已啟用 Microsoft 語言延伸模組。 若要這樣做，請從 [Visual j + + 專案] 視窗中的 [ **Project** ] 功能表選取 [ **<project> 屬性 ...** ]。 然後，按一下 [ **<project> 屬性**] 對話方塊中的 [**編譯**] 索引標籤。 清除 [ **停用 Microsoft 語言擴充** 功能] 核取方塊。 如果是從命令列編譯，請使用 "/x-" 參數，例如：
 
 **jvc/x-SimpleADSI .java**
 
@@ -73,9 +73,9 @@ Visual c + + 會建立 JAVA 包裝函式類別的 activeds 封裝，並將封裝
 
 **set PATH =% PATH%;c： \\ adsi \\ lib**
 
- 
+ 
 
- 
+ 
 
 
 

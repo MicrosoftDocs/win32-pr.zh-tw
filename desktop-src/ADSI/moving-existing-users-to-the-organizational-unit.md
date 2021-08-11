@@ -7,12 +7,12 @@ keywords:
 - 將現有的使用者移至組織單位的 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 535ff7110eaf956f108854e8442faa7386667346
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d26104feb5d4c8b6a1f24176ce23fcbb6ef6a965ca29c58887f02724b3ccba8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178952"
 ---
 # <a name="moving-existing-users-to-the-organizational-unit"></a>將現有的使用者移至組織單位
 
@@ -43,9 +43,9 @@ Set usr = salesOU.MoveHere("LDAP://CN=jeffsmith,CN=Users,DC=Fabrikam,DC=com", "C
 [在組織單位中建立新的使用者](creating-new-users-in-the-organizational-unit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

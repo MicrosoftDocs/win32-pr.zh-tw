@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 955267bf1e494d6bb0c98b3f5d25832896393ff2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c217d5aa5ef94f16a250bdd5c6ec8bd506a8acd668eb3094d9e9adc35d0efccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178277"
 ---
 # <a name="admin-context-menu-attribute"></a>系統管理-內容功能表屬性
 

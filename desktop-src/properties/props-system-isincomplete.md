@@ -4,12 +4,12 @@ ms.assetid: 23cbbd16-fc32-40f2-bdea-25dac2f78191
 title: System. IsIncomplete
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d12be8403cba397f514874e302ef34d53370538a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9a5f81251c571b1e98e9a08f2c0c0b8e1d431d860995e3f57cd46f533f293eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118231709"
 ---
 # <a name="systemisincomplete"></a>System. IsIncomplete
 

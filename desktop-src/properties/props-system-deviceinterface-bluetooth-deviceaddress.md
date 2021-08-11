@@ -1,17 +1,17 @@
 ---
 description: 藍牙裝置位址。
 ms.assetid: 41588629-d1cd-4274-989b-0e81cbdc1e87
-title: DeviceInterface 藍牙. DeviceAddress
+title: DeviceInterface。藍牙。DeviceAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1244c13d93ec832d77159a802ee87ae884d48502
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e2ea679b0672fb5eeea1db8798042ecd812006463cceb781673ed67b5fe006f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232256"
 ---
-# <a name="systemdeviceinterfacebluetoothdeviceaddress"></a>DeviceInterface 藍牙. DeviceAddress
+# <a name="systemdeviceinterfacebluetoothdeviceaddress"></a>DeviceInterface。藍牙。DeviceAddress
 
 藍牙裝置位址。
 

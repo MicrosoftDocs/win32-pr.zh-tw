@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 32d74ef4b7dfa525cfb77a6d89499837cbfac8f9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e144bb0b24112cabe1a806d4c746aac07708443665c0f457df8756be36d80b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181962"
 ---
 # <a name="wm_adsprop_notify_exit-message"></a>WM \_ ADSPROP \_ 通知結束 \_ 訊息
 

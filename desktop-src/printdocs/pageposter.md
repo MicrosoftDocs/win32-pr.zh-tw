@@ -4,12 +4,12 @@ ms.assetid: 66a3ac9a-674e-4f16-a2d8-8f5b753f876c
 title: PagePoster
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72b8bb7b57074fe058c7cc5be8dd609577ceb6c1
-ms.sourcegitcommit: 998d50f6def8a25850fc113fc8a2df903c829c5e
+ms.openlocfilehash: 377ec97b688545a0a7a94c56322f1a030b3550f3c9f6d4692b50df4297bd8022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113548966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234461"
 ---
 # <a name="pageposter"></a>PagePoster
 
@@ -25,7 +25,7 @@ ms.locfileid: "113548966"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 頁面<br/>    |
@@ -62,10 +62,10 @@ ms.locfileid: "113548966"
 
 
 
-| Name                               | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
+| 名稱                               | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
 |------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
-| \_選項名稱\_<br/>          | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                            |
-| \_IdentityOptionValue\_<br/> | string<br/>  | n/a<br/>        | True、False<br/>                                                                                                                                                                | 定義選項，當選取此選項時，會停用此功能。<br/> |
+| \_選項名稱\_<br/>          | 字串<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                            |
+| \_IdentityOptionValue\_<br/> | 字串<br/>  | n/a<br/>        | True、False<br/>                                                                                                                                                                | 定義選項，當選取此選項時，會停用此功能。<br/> |
 | \_SheetsPerPageValue\_<br/>  | 整數<br/> | 頁面<br/>      | 大於或等於0。<br/>                                                                                                                                                | 指定每個邏輯頁面的實體工作表數目。<br/>         |
 
 

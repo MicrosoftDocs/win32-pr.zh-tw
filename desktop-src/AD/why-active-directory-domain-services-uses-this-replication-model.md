@@ -7,12 +7,12 @@ keywords:
 - 複寫模型 Active Directory，優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 538fe291a04953d373ff3cd45cbd4693d3dafab4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 79c137fadf768c97b6d8be962b22c74b45e30bc41c7dfb7e9ea67e1f145cd92d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181989"
 ---
 # <a name="why-active-directory-domain-services-uses-this-replication-model"></a>為何 Active Directory Domain Services 使用此複寫模型
 
@@ -32,9 +32,9 @@ Active Directory Domain Services 是一個自由形式的系統，原因如下�
 
 因為本機系統管理、中斷連線的作業，以及非常大量節點的擴充性需求，所以將緊密結合的解決方案拒絕為不適合 Active Directory Domain Services。 選擇的鬆散結合模型、聚合的多宿主鬆散一致性，滿足所有需求。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 3cc174fdc8617a8ff59afc5a12740eaba715114f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 753b05b9d59bb98742d5c49102b604cc0a499a4dcdc6c624489d261400279297
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234837"
 ---
 # <a name="driver_info_8-structure"></a>驅動程式 \_ 資訊 \_ 8 結構
 
@@ -82,7 +82,7 @@ typedef struct _DRIVER_INFO_8 {
 **pEnvironment**
 </dt> <dd>
 
-以 null 結束的字串指標，指定驅動程式所撰寫的環境 (例如，Windows x86、Windows IA64 和 Windows x64。
+指標，指向以 null 終止的字串，這個字串會指定撰寫驅動程式的環境 (例如 Windows x86、Windows IA64 和 Windows x64。
 
 </dd> <dt>
 
@@ -249,14 +249,14 @@ MultiSZ 緩衝區的指標，其中包含以 null 終止之字串的序列。 �
 **ftMinInboxDriverVerDate**
 </dt> <dd>
 
-Windows 隨附的任何驅動程式和此驅動程式相依的最早允許日期。
+Windows 隨附的任何驅動程式，以及此驅動程式相依的最早允許日期。
 
 </dd> <dt>
 
 **dwlMinInboxDriverVerVersion**
 </dt> <dd>
 
-隨附于 Windows 以及此驅動程式所相依之任何驅動程式的最早允許版本。
+隨附于 Windows 且此驅動程式所相依之任何驅動程式的最早允許版本。
 
 </dd> </dl>
 
@@ -270,9 +270,9 @@ Windows 隨附的任何驅動程式和此驅動程式相依的最早允許日期
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 驅動程式 \_ 資訊 \_ 8W** (Unicode) 和 **\_ 驅動程式 \_ 資訊 \_ 8A** (ANSI) <br/>                             |
 
 

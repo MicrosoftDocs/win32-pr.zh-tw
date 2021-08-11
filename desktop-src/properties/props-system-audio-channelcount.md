@@ -4,12 +4,12 @@ ms.assetid: 8a028167-dc0f-4ed9-a710-568caf1b9a47
 title: ChannelCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9a370e517f8c3552e27bf034c4873b5e1cb593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2e6de40e3c214b060955f011769dc4ce80660b936e7a576c6ed0f1516190568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232948"
 ---
 # <a name="systemaudiochannelcount"></a>ChannelCount
 

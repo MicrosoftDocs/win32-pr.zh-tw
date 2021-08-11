@@ -5,12 +5,12 @@ ms.assetid: 935d39ca-cfb9-4aa3-aa0e-b614f7b359f2
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b86491966e2bfddbef72d68d7a96869448c38188
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c7fdc4b363fea83029fc5526464bd5825fa851dbe82e874911a0ab45d869843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178817"
 ---
 # <a name="schema-extensions"></a>架構延伸模組
 
@@ -19,13 +19,13 @@ ADSI 架構的架構可讓您將新的架構類別加入至架構類別容器，
 > [!Note]  
 > 在 COM 介面詞彙中，只有屬性可以加入至現有的架構類別，而不是方法。 加入新的方法需要加入該方法的新實，因此需要額外的程式碼。
 
- 
+ 
 
 如需特定提供者架構的範例，請參閱 [架構管理](schema-management.md)。
 
- 
+ 
 
- 
+ 
 
 
 

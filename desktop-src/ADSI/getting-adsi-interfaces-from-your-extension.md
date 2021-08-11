@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI，範例程式碼 C/c + +，從您的延伸模組取得 ADSI 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1eeff55f2e382ce2816f59ee53dbd78033b79c
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 41df2498bd0c25996cfd0941f823e414289c0a9fbe006df846960c6f455e4301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106984945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179728"
 ---
 # <a name="getting-adsi-interfaces-from-your-extension"></a>從您的延伸模組取得 ADSI 介面
 
@@ -44,6 +44,6 @@ if ( SUCCEEDED(hr) )
 
 您應該在使用介面之後立即加以釋放。 如果延伸模組具有匯總工具的開啟參考，則您已建立迴圈參考，且匯總工具無法釋放延伸模組。 因此，無法釋放匯總工具，且結果會在您的應用程式中造成記憶體流失。
 
- 
+ 
 
- 
+ 

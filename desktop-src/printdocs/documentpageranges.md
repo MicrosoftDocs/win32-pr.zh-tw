@@ -4,12 +4,12 @@ ms.assetid: 4cd1b0f8-7f7e-40cc-8d19-d44187822cd1
 title: DocumentPageRanges
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e854736c72b3bff5ba2e4750e0b09e0b87c2c9f
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 8c9a1941b36970628ddcb5c94cad42bd7f520f0b48e00ff5e1263079818757a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235115"
 ---
 # <a name="documentpageranges"></a>DocumentPageRanges
 
@@ -32,7 +32,7 @@ ms.locfileid: "112409251"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|-------------------------|
 | 項目類型 <br/>   | ParameterDef<br/> |
 | 範圍前置詞 <br/> | 文件<br/>     |
@@ -82,8 +82,8 @@ ms.locfileid: "112409251"
 | DefaultValue<br/> | 字串<br/>  | 未定義<br/>       |
 | MaxLength<br/>    | 整數<br/> | 未定義<br/>       |
 | MinLength<br/>    | 整數<br/> | 1<br/>               |
-| 強制性<br/>    | string<br/>  | psk：條件式<br/> |
-| Unittype.pixel 表示<br/>     | string<br/>  | 字元<br/>      |
+| 強制性<br/>    | 字串<br/>  | psk：條件式<br/> |
+| Unittype.pixel 表示<br/>     | 字串<br/>  | 字元<br/>      |
 
 
 

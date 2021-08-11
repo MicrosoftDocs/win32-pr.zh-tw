@@ -4,12 +4,12 @@ ms.assetid: 7b949b2a-77c9-41d3-90f3-f2ba4cfa2762
 title: System. ItemSubType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8132c2df1b532a4452006cadb661b082d0c6ef69
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23e8350a3227a0756c8503a2b8d9f91e53657dbe41baba5c09a39bb0f689c889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118231481"
 ---
 # <a name="systemitemsubtype"></a>System. ItemSubType
 

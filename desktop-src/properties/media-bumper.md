@@ -4,12 +4,12 @@ ms.assetid: cd71978d-09d9-43f1-ab1b-4b213e3a193b
 title: 媒體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72d436db24aba399b49cc6c905091900d8c08c23
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cdfac0eafc04def953e669facff17bd1df1594623a7d32c4e4c4318fabf2a7dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233173"
 ---
 # <a name="media"></a>媒體
 
@@ -45,7 +45,7 @@ ms.locfileid: "108105026"
 | [Set-protectiontype](./props-system-media-protectiontype.md)<br/>                       | 描述媒體保護的類型。<br/>                                                                     |
 | [ProviderRating](./props-system-media-providerrating.md)<br/>                       | 中繼資料提供者所提供的評等 (0-99) 。<br/>                                                          |
 | [ProviderStyle](./props-system-media-providerstyle.md)<br/>                         | 由中繼資料提供者提供的音樂或影片的樣式。<br/>                                                 |
-| [系統。發行者](./props-system-media-publisher.md)<br/>                                 |                                                                                                                        |
+| [System. Media。Publisher](./props-system-media-publisher.md)<br/>                                 |                                                                                                                        |
 | [SeasonNumber](props-system-media-seasonnumber.md)<br/>                                  | 以1為准的單純遞增數位，對應于第一次展示節目的季節<br/> |
 | [SeriesName](props-system-media-seriesname.md)<br/>                                      | 代表特定系列的名稱，例如播客或錄製的電視節目系列。<br/>                  |
 | [SubscriptionContentId](./props-system-media-subscriptioncontentid.md)<br/>         |                                                                                                                        |

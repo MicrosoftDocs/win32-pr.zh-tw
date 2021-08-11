@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 97d4e3814662cc8acf1a987cb92a1b9579cc43a4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a32f79b8e85243ae3d69b3b024171301fe60810c4f4e530985691f1ddd39200d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "107000035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178037"
 ---
 # <a name="admin-property-pages-attribute"></a>管理-屬性頁屬性
 

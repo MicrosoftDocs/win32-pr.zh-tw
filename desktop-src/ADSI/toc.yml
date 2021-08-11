@@ -75,7 +75,7 @@
       items:
         - name: 多個目錄服務
           href: multiple-directory-services.md
-        - name: 誰將使用 Active Directory 服務介面？
+        - name: 神秘將會使用 Active Directory 服務介面嗎？
           href: who-will-use-active-directory-service-interfaces.md
         - name: 今天的目錄服務
           href: directory-services-today.md
@@ -273,7 +273,7 @@
                 - name: Dialect
                   href: dialect.md
                   items:
-                    - name: SQL 方言
+                    - name: SQL方言
                       href: sql-dialect.md
                     - name: LDAP 方言
                       href: ldap-dialect.md
@@ -385,7 +385,7 @@
               items:
                 - name: 解析函數名稱衝突的範例
                   href: example-for-resolving-function-name-conflicts.md
-        - name: 搭配 Exchange 使用 ADSI
+        - name: 使用 ADSI 搭配 Exchange
           href: using-adsi-with-exchange.md
         - name: ADSI 公用程式介面
           href: adsi-utility-interfaces.md

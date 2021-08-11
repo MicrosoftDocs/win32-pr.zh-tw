@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e205d80779a1a228ee50e062f6904c1ed4a4934
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4bf08abd68d5d99640435d355609d5647c71116f9fa29c137ba67a311d41f493
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235270"
 ---
 # <a name="font-resource"></a>字型資源
 
@@ -55,9 +55,9 @@ nameID FONT filename
 5 FONT  "cmroman.fnt"
 ```
 
- 
+ 
 
- 
+ 
 
 
 

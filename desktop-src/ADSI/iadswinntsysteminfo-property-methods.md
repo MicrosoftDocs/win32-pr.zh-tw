@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d647cf672032a4a06967ee034eb7b6430faf8dc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87942adb526b88ae2b538841cd274da69aa0ea5150f6b528ea4ef299ad478f2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179466"
 ---
 # <a name="iadswinntsysteminfo-property-methods"></a>IADsWinNTSystemInfo 屬性方法
 
@@ -211,7 +211,7 @@ Debug.print "PDC: " & ntsys.PDC
 
 
 
-下列 Visual Basic Scripting Edition/Active Server Pages 程式碼範例會抓取 WinNT 系統資訊。
+下列 Visual Basic 腳本 Edition/Active Server Pages 程式碼範例會抓取 WinNT 系統資訊。
 
 
 ```VB

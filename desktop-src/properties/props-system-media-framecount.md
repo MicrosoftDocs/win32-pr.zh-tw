@@ -4,12 +4,12 @@ ms.assetid: c24d397a-69c3-4a2c-a9b8-967a03a89e58
 title: FrameCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12170c336a8c35fa6ec439b4304b9126e22a4029
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a55eb350529a32bfdce1b5a3f22b5f1f11e04d54331adc783ad0b84df9c9efae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106986437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230840"
 ---
 # <a name="systemmediaframecount"></a>FrameCount
 

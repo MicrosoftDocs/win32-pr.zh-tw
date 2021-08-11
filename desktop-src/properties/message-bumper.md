@@ -4,12 +4,12 @@ ms.assetid: 608536cd-cb34-405d-baa7-d99167128cfe
 title: '訊息 (Windows 屬性系統) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecc0c008a68fbdfec1d6786228df7bd8a5e8547
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b93d2f0b530a6b6349e4d80dac693a1aa24139af7d3565e778c32a737b9b3788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233200"
 ---
 # <a name="message-windows-property-system"></a>訊息 (Windows 屬性系統) 
 
@@ -34,7 +34,7 @@ ms.locfileid: "108087406"
 | [FromName](./props-system-message-fromname.md)<br/>                     | [寄件者：] 欄位中的人員名稱。<br/>                                                                                                                                |
 | [HasAttachments](./props-system-message-hasattachments.md)<br/>         |                                                                                                                                                                                   |
 | [IsFwdOrReply](./props-system-message-isfwdorreply.md)<br/>             |                                                                                                                                                                                   |
-| [MessageClass](./props-system-message-messageclass.md)<br/>             | Microsoft Outlook 訊息的類型 (會議、工作、郵件等) 。<br/>                                                                                                |
+| [MessageClass](./props-system-message-messageclass.md)<br/>             | Microsoft Outlook 訊息的類型 (會議、工作、郵件等等) 。<br/>                                                                                                |
 | [系統。參與者](props-system-message-participants.md)<br/>                    | 參與通訊的參與者。<br/>                                                                                                                                         |
 | [ProofInProgress](./props-system-message-proofinprogress.md)<br/>       | 識別訊息的垃圾郵件是否仍在進行中。<br/>                                                                                              |
 | [SenderAddress](./props-system-message-senderaddress.md)<br/>           |                                                                                                                                                                                   |

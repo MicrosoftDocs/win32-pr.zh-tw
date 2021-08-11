@@ -4,12 +4,12 @@ ms.assetid: b782a90c-34ae-4e76-b1b8-ba13f17885bd
 title: EpisodeNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d9466577e8cbb55b5aecb2c035b00ee1dab7f5a
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 636b72b6f844f834f5b935dc292e1fcf90d7cdd196991b60e4e1efee1c840f1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230850"
 ---
 # <a name="systemmediaepisodenumber"></a>EpisodeNumber
 

@@ -28,12 +28,12 @@ keywords:
 - IADsPrintQueueOperations 的提供者支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf12803929d96a61aac6603be2c528084c91693c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c393cb8476830617a300f33eac741bd27b3cacbd686442dd4def5bf6c35526e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118178827"
 ---
 # <a name="provider-support-of-adsi-interfaces"></a>ADSI 介面的提供者支援
 
@@ -109,7 +109,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsuser"></a>IADsUser 的提供者支援
 
@@ -142,7 +142,7 @@ ms.locfileid: "104300075"
 | [**LoginHours**](iadsuser-property-methods.md)             | 支援     | 支援     |
 | [**LoginScript**](iadsuser-property-methods.md)            | 支援     | 支援     |
 | [**LoginWorkstations**](iadsuser-property-methods.md)      | 支援     | 支援     |
-| [**經理**](iadsuser-property-methods.md)                | 支援     | 不支援   |
+| [**Manager**](iadsuser-property-methods.md)                | 支援     | 不支援   |
 | [**MaxLogins**](iadsuser-property-methods.md)              | 不支援   | 不支援   |
 | [**MaxStorage**](iadsuser-property-methods.md)             | 支援     | 支援     |
 | [**NamePrefix**](iadsuser-property-methods.md)             | 支援     | 不支援   |
@@ -167,7 +167,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadscomputer"></a>IADsComputer 的提供者支援
 
@@ -195,7 +195,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadscomputeroperations"></a>IADsComputerOperations 的提供者支援
 
@@ -203,12 +203,12 @@ ms.locfileid: "104300075"
 
 | 屬性                                   | LDAP                    | WinNT           |
 |--------------------------------------------|-------------------------|-----------------|
-| [**關閉**](/windows/desktop/api/Iads/nn-iads-iadscomputeroperations) | 不支援的介面 | 未實作 |
+| [**關機**](/windows/desktop/api/Iads/nn-iads-iadscomputeroperations) | 不支援的介面 | 未實作 |
 | [**狀態**](/windows/desktop/api/Iads/nn-iads-iadscomputeroperations)   | 不支援的介面 | 未實作 |
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsdomain"></a>IADsDomain 的提供者支援
 
@@ -228,7 +228,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsfileservice"></a>IADsFileService 的提供者支援
 
@@ -241,7 +241,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsgroup"></a>IADsGroup 的提供者支援
 
@@ -253,7 +253,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsclass"></a>得到 iadsclass 的提供者支援
 
@@ -281,7 +281,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsproperty"></a>IADsProperty 的提供者支援
 
@@ -297,7 +297,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadssyntax"></a>IADsSyntax 的提供者支援
 
@@ -309,7 +309,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadscontainer"></a>IADsContainer 的提供者支援
 
@@ -323,7 +323,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsnamespaces"></a>IADsNamespaces 的提供者支援
 
@@ -335,7 +335,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsaccesscontrolentry"></a>IADsAccessControlEntry 的提供者支援
 
@@ -353,7 +353,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsaccesscontrollist"></a>IADsAccessControlList 的提供者支援
 
@@ -371,7 +371,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadssecuritydescriptor"></a>IADsSecurityDescriptor 的提供者支援
 
@@ -393,7 +393,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsobjectoptions"></a>IADsObjectOptions 的提供者支援
 
@@ -406,7 +406,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadscollection"></a>IADsCollection 的提供者支援
 
@@ -414,14 +414,14 @@ ms.locfileid: "104300075"
 
 | 方法                                                | LDAP                    | WinNT       |
 |-------------------------------------------------------|-------------------------|-------------|
-| [**加入**](/windows/desktop/api/Iads/nf-iads-iadscollection-add)                     | 不支援的介面 | 不支援 |
+| [**加**](/windows/desktop/api/Iads/nf-iads-iadscollection-add)                     | 不支援的介面 | 不支援 |
 | [**取得 \_ \_ NewEnum**](/windows/desktop/api/Iads/nf-iads-iadscollection-get__newenum) | 不支援的介面 | 支援   |
 | [**GetObject**](/windows/desktop/api/Iads/nf-iads-iadscollection-getobject)         | 不支援的介面 | 支援   |
 | [**移除**](/windows/desktop/api/Iads/nf-iads-iadscollection-remove)               | 不支援的介面 | 支援   |
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsmembers"></a>IADsMembers 的提供者支援
 
@@ -436,7 +436,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadspathname"></a>IADsPathname 的提供者支援
 
@@ -446,7 +446,7 @@ ms.locfileid: "104300075"
 |-------------------------------------------------------------|-----------|-------------|
 | [**EscapedMode**](/windows/desktop/api/Iads/nn-iads-iadspathname)                         | 支援 | 支援   |
 | 方法                                                      | LDAP      | WinNT       |
-| [**設定**](/windows/desktop/api/Iads/nf-iads-iadspathname-set)                             | 支援 | 支援   |
+| [**設置**](/windows/desktop/api/Iads/nf-iads-iadspathname-set)                             | 支援 | 支援   |
 | [**SetDisplayType**](/windows/desktop/api/Iads/nf-iads-iadspathname-setdisplaytype)       | 支援 | 支援   |
 | [**擷取**](/windows/desktop/api/Iads/nf-iads-iadspathname-retrieve)                   | 支援 | 支援   |
 | [**GetNumElements**](/windows/desktop/api/Iads/nf-iads-iadspathname-getnumelements)       | 支援 | 支援   |
@@ -457,7 +457,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsprintqueue"></a>IADsPrintQueue 的提供者支援
 
@@ -481,7 +481,7 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
 ## <a name="provider-support-for-iadsprintqueueoperations"></a>IADsPrintQueueOperations 的提供者支援
 
@@ -498,11 +498,11 @@ ms.locfileid: "104300075"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

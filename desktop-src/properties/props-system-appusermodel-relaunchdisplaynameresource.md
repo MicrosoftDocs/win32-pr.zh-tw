@@ -4,19 +4,19 @@ ms.assetid: a149838b-83b6-44ce-b705-e2804efb3d31
 title: AppUserModel. RelaunchDisplayNameResource
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d79c22d0ccecb8bac86fe5ca3636ed10ed2ca50b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22b0af752fb345dd5dd5f1b091a22255e856031affaca266ff6307045f148cd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118233020"
 ---
 # <a name="systemappusermodelrelaunchdisplaynameresource"></a>AppUserModel. RelaunchDisplayNameResource
 
 指定當使用者選擇將應用程式釘選到工作列或透過按鈕的捷徑清單啟動新實例時，在工作列上建立的快捷方式所使用的顯示名稱。 這個屬性的值必須是下列其中一項：
 
 -   間接資源字串，例如 "@% systemdir% \\ system32 \\shell32.dll，-19263"。 請注意，必須有 ' @ ' 字元，才能區別純文字字串中的間接字串 (下一個點符段落) 所述。 這個間接字串是由二進位檔案和該二進位檔中所包含之字串的資源識別碼所組成。 強烈建議您使用這個間接字串表單，以確保當系統語言透過多語系消費者介面 (MUI) 變更時，顯示名稱會適當地變更。 需要資源識別碼之前的 '-' 字元。
--   未指向資源的純文字字串。 只有當顯示名稱是動態計算，或從不支援 MUI 的資料來源取得時，才應該使用此方法。 例如，如果應用程式在裝置連接到電腦時出現，則字串可能是裝置的名稱（例如 "Microsoft Zune"）。
+-   未指向資源的純文字字串。 只有當顯示名稱是動態計算，或從不支援 MUI 的資料來源取得時，才應該使用此方法。 例如，如果應用程式在裝置連接到電腦時出現，則字串可能是裝置的名稱，例如「Microsoft Zune」。
 
 > [!Note]  
 > [AppUserModel. RelaunchCommand](./props-system-appusermodel-relaunchcommand.md) 和 [AppUserModel. RelaunchDisplayNameResource]() 一律必須一起設定。 如果未設定其中一個屬性，則不會使用這兩個屬性。

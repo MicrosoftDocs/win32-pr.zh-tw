@@ -4,12 +4,12 @@ ms.assetid: 4bad85d7-a933-43fe-9d79-4835d92c82d6
 title: 範圍前置詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2c027de94fda403eb58905e536d8c6256cb2d6c
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 06ad23369d2b2c60c00752e4f5be31f6ad605e2814d0b7502d42ff79baa10977
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118234091"
 ---
 # <a name="scoping-prefix"></a>範圍前置詞
 

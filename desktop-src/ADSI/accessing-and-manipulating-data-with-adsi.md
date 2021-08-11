@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI，存取和運算元據
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3291db7490c79aae6363f619582ed24339fb83d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 03ed09c1717f4f9a9c1c75372e7efdc23d2cce1adb39242197346061ae4df00f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106969935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181628"
 ---
 # <a name="accessing-and-manipulating-data-with-adsi"></a>使用 ADSI 存取及運算元據
 
@@ -37,6 +37,6 @@ ADSI 可讓您從目錄伺服器讀取屬性，在本機快取內容。 這可�
 -   [使用 IADsProperty 介面直接存取屬性快取](accessing-the-property-cache-directly-with-the-iadsproperty-interfaces.md)
 -   [ADSI 屬性語法](adsi-attribute-syntax.md)
 
- 
+ 
 
- 
+ 

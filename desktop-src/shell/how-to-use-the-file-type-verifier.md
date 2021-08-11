@@ -4,16 +4,16 @@ ms.assetid: 96FCA74B-DEB2-49D1-B670-EBD8BE0783F1
 title: 如何使用檔案類型驗證器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f083897499f972f945867a0c02318df192e734d9
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 65af06de30d4fca2a9f5209d20e200153c061248576e7e94c8342cf9ae60e4f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104195635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223370"
 ---
 # <a name="how-to-use-the-file-type-verifier"></a>如何使用檔案類型驗證器
 
-本主題說明如何使用 [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中所提供的檔案類型驗證器。 如果您的程式會從 Windows Shell 建立使用者預期要與之互動的檔案類型 (通常儲存在使用者的已知資料夾（例如 **我的檔**) ）中，請務必測試您的應用程式，並確認它所建立的檔案已正確註冊，並在流覽和搜尋檔案時提供高品質的使用者體驗。 如果您希望使用者在 Windows 7 上執行您的應用程式，而該應用程式依賴許多 Shell 功能的高品質檔案類型處理常式，則這點特別重要。
+本主題說明如何使用[Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中所提供的檔案類型驗證器。 如果您的程式會從 Windows Shell 建立要與使用者互動的檔案類型 (通常儲存在使用者的已知資料夾（例如 **我的檔**) ）中，請務必測試您的應用程式，並確認它所建立的檔案已正確註冊，並在流覽和搜尋檔案時提供高品質的使用者體驗。 如果您希望使用者在 Windows 7 上執行您的應用程式，這項功能特別重要，因為許多 Shell 功能都依賴高品質的檔案類型處理常式。
 
 若要使用檔案類型驗證器驗證您的檔案類型，請遵循下列步驟。
 
@@ -21,7 +21,7 @@ ms.locfileid: "104195635"
 
 ### <a name="step-1"></a>步驟 1:
 
-在您的測試環境上安裝應用程式，並將檔案類型驗證器複製到該環境。 檔案類型驗證器可在 [Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中取得。
+在您的測試環境上安裝應用程式，並將檔案類型驗證器複製到該環境。 檔案類型驗證器可在[Windows 7 SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)中取得。
 
 ### <a name="step-2"></a>步驟 2:
 

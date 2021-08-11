@@ -4,18 +4,18 @@ ms.assetid: 84f85431-27cb-485a-8ced-53b708451714
 title: System.Contact.Initials
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d204c2a2195ae126ebbb0d8fd3402cfb9dfee80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 653f19ce69dd8b065f844a5f252906d62643cbf7423a4659f5de1e1fc5a1a8c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232356"
 ---
 # <a name="systemcontactinitials"></a>System.Contact.Initials
 
 連絡人的縮寫。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

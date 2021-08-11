@@ -4,12 +4,12 @@ ms.assetid: 67562a20-19d3-495b-9618-f13603946ecc
 title: System.Devices.Aep.IsConnected
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffb8f311444a724f270643afc7b9cc9dd3728499
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 843862ca3c856cc74e7b3af0b111773cf200bcd74fc239709243576fca1869ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118232101"
 ---
 # <a name="systemdevicesaepisconnected"></a>System.Devices.Aep.IsConnected
 
