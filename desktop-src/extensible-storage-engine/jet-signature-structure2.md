@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f5c8ce12b23194aea2a45c273e0207f88faad6f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0f9c6508f3901d9755b3a244f88eb948959164918278f067ee6f6d25fefd3e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118253412"
 ---
 # <a name="jet_signature-structure"></a>JET_SIGNATURE 結構
 

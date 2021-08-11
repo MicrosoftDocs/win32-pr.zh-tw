@@ -4,23 +4,23 @@ description: 語音輸入問題
 ms.assetid: b42664a2-9615-4e15-97a6-115e9556096b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a7b29a85c79996eb0c01260c8e2b738fcd926f2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d135ac8a098f52066854c6003c22caa7290efbd01c8038bda116cd843b21a2e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246227"
 ---
 # <a name="speech-input-problems"></a>語音輸入問題
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ### <a name="the-character-does-not-respond-to-my-spoken-input"></a>字元不會回應我的朗讀輸入。
 
 此徵兆可能是因為一些問題所造成。 請嘗試下列各項以找出問題：
 
 -   確認麥克風已正確插入。 使用另一個音效輸入應用程式進行測試，以確保它能正常運作，是個不錯的主意。
--   確認已安裝相容的語音引擎。 在 Windows 95、Windows 98 和 Windows NT 4.0 下，開啟主控台。 如果您在該處找到語音物件，請開啟它，它會列出您的系統上可用並已安裝的語音引擎。
+-   確認已安裝相容的語音引擎。 在 [Windows 95、Windows 98] 和 [Windows NT 4.0] 下，開啟主控台。 如果您在該處找到語音物件，請開啟它，它會列出您的系統上可用並已安裝的語音引擎。
 -   確認音效卡與 Microsoft Windows 95、Windows 98 或 Windows NT 相容。
 
     執行這項操作的最佳方式是執行 Windows 隨附的答錄機應用程式。 它通常可以在 [開始] 功能表上找到。 按一下 [[開始] 按鈕]，依序按一下 [程式]、[附屬應用程式]、[多媒體]，然後按一下 [答錄機]。 當 [答錄機] 視窗顯示時，請按一下 [ **錄製** ] 按鈕，然後與您的麥克風交談。 視窗中的行應該會以動畫顯示，以回應您的語音輸入。
@@ -30,7 +30,7 @@ ms.locfileid: "103932109"
 -   確認語音輸入的音效輸入設定正確。
     1.  在主控台中開啟語音輸入物件。 如果語音物件不存在，請安裝一個。
     2.  選取您已安裝的語音輸入引擎。
-    3.  選擇 [麥克風設定] Wizard 按鈕。 如果此按鈕顯示為停用，則未安裝相容的語音引擎或您安裝的語音引擎可能不支援自動調整。
+    3.  選擇 [麥克風] 設定 Wizard 按鈕。 如果此按鈕顯示為停用，則未安裝相容的語音引擎或您安裝的語音引擎可能不支援自動調整。
 -   確認已啟用代理程式的應用程式或網頁支援語音輸入。 並非所有頁面都 (或應用程式) 支援語音輸入。 按住接聽鍵。 除非您加以變更，否則這通常會是捲軸鎖定金鑰。 快顯視窗應該會出現在字元下方。 提示中的文字會告訴您該字元的接聽狀態。 如果未顯示任何提示，表示應用程式或網頁不支援語音輸入，或您未安裝相容的語音引擎。 如果出現提示，並指出該字元正在接聽，請說出其中一個字元的語音命令。 如果您不知道有哪些聲音命令可供使用，請放開接聽按鍵，然後以滑鼠右鍵按一下該字元。 然後，從快顯功能表中選擇 [開啟語音命令] 視窗。 如果未出現命令，則表示您所使用的應用程式或網頁無法使用語音支援。 如果出現，請再次按下並按住接聽金鑰。 如果接聽提示出現在字元下方，並指出該字元正在接聽，請說出視窗中所列的其中一個命令。 如果字元沒有回應，請移至下一個步驟。
 -   確認目前沒有其他應用程式正在使用音訊輸出裝置。
 -   確認 Microsoft 代理程式的 MIDI 使用未封鎖音訊頻道 (請參閱 [輸出問題] 區段中的 [ [播放 midi 沒有音訊輸出的應用程式](output-problems.md)]) 。
@@ -45,11 +45,11 @@ ms.locfileid: "103932109"
 
 ### <a name="the-character-does-not-respond-to-voice-input-but-i-can-hear-my-voice-through-my-speakers-when-i-talk-into-my-microphone"></a>此字元不會回應語音輸入，但我可以在我說話麥克風時，透過我的說話者聽到語音。
 
-您的音效卡未正確設定，無法與 Microsoft 代理程式搭配使用。 在主控台中語音物件的屬性工作表上，選擇 [麥克風設定]。 如需如何存取此按鈕的相關資訊，請參閱「[字元沒有回應我的朗讀輸入](#the-character-does-not-respond-to-my-spoken-input)」的步驟。
+您的音效卡未正確設定，無法與 Microsoft 代理程式搭配使用。 在主控台的語音物件的屬性工作表中，選擇麥克風設定 Wizard。 如需如何存取此按鈕的相關資訊，請參閱「[字元沒有回應我的朗讀輸入](#the-character-does-not-respond-to-my-spoken-input)」的步驟。
 
- 
+ 
 
- 
+ 
 
 
 

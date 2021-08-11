@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39511949
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 68b7c9fe0060a1da4a456d4ae47b8883d964b078
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38713eae7b8f87ff2a1901552a14e5f1bd8b7ba435cb8f55337991df891cb0d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255939"
 ---
 # <a name="jet_bkinfo-methods"></a>JET_BKINFO 方法
 

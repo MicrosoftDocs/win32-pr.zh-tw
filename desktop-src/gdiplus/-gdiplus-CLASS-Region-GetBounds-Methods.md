@@ -4,12 +4,12 @@ ms.assetid: 20e6f834-1f36-4de0-b574-b89ebce917de
 title: GetBounds 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 1f5dfd8473162df3f56cb55ea20d1ee3acd5de6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89dd3f82c6f336409d0bcbd9346decc52f463dd539d3dab2a43c129871df5cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249980"
 ---
 # <a name="regiongetbounds-methods"></a>GetBounds 方法
 

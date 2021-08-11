@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cf786d1f47b5eaae3f9540c8635853020f9b0521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f829e78ff54e77011346ae1bfd39f909411cbee12c18d19781f8fe5d62865097
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252253"
 ---
 # <a name="jet_spacehints-structure"></a>JET_SPACEHINTS 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_spacehints-structure"></a>JET_SPACEHINTS 結構
 
 當 b 型樹狀結構透過附加或 hotpoint 分割成長時， **JET_SPACEHINTS** 結構包含空間配置模式的相關資訊。 當將記錄加入 b 型樹狀目錄的結尾，並在多筆記錄新增至相同的虛擬插入點時，就會發生 hotpoint 分割 (例如，將 ' Marie '、' Mark '、' Martin'，' Mary ' 加入到依字母) 順序排序的 b 型樹狀目錄中間。
 
-**Windows 7：** 在 Windows 7 中引進 **JET_SPACEHINTS** 結構。
+**Windows 7：** Windows 7 中引進 **JET_SPACEHINTS** 結構。
 
 ```cpp
     typedef struct tagJET_SPACEHINTS {
@@ -152,7 +152,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

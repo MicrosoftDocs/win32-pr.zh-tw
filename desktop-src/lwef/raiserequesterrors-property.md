@@ -4,16 +4,16 @@ description: RaiseRequestErrors 屬性
 ms.assetid: 60eb4478-526e-492a-8fb3-d1e54eff9868
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf9e559f999db663a8a9f5874f6d16a10e1e78ac
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 081a47eef17378c24df5bdbcb0f5141b0dece45ec9933f289d0b3da9193793d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104185934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246611"
 ---
 # <a name="raiserequesterrors-property"></a>RaiseRequestErrors 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

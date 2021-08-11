@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: eed0d5773c5e45cc99611386b851985623e3359c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6252fa84dd8b04e317ec2d0dbab91df2f28986418a855a87d177e7d75d62337c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257035"
 ---
 # <a name="esentunicodetranslationbuffertoosmallexception-constructor"></a>EsentUnicodeTranslationBufferTooSmallException 函式
 

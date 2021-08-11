@@ -4,12 +4,12 @@ ms.assetid: 5454c92b-5f71-4be3-ac98-b2195c482ea4
 title: player .rc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73ed6537a42b572d88571a5d81abb97f6fb7fe35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6489fce2f63c9abc394fbcac1ecb122bffee9896084674d3fc7f846b2e983890
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239230"
 ---
 # <a name="playerrc"></a>player .rc
 

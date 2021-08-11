@@ -4,16 +4,16 @@ ms.assetid: 98b9fa12-02e7-42bf-9cbd-03ee696188f6
 title: 圖形容器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab8bf6469d0835137be1bb76b7727fd961bba16b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26af00a17f793a1f3ce587963343556b8c4ad685f930b707bd81de1008d610ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248667"
 ---
 # <a name="graphics-containers"></a>圖形容器
 
-圖形狀態（剪下區域、轉換和品質設定）會儲存在 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件中。 Windows GDI + 可讓您使用容器，在 **圖形** 物件中暫時取代或增強部分狀態。 您可以藉由呼叫 **graphics 物件的** [**Graphics：： BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit))方法來啟動容器，然後藉由呼叫 [**graphics：： EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer)方法來結束容器。 在 **graphics：： BeginContainer** 與 **Graphics：： EndContainer** 之間，您對 **圖形** 物件所做的任何狀態變更都屬於容器，而不會覆寫 **圖形** 物件的現有狀態。
+圖形狀態（剪下區域、轉換和品質設定）會儲存在 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件中。 Windows GDI+ 可讓您使用容器，在 **圖形** 物件中暫時取代或增強部分狀態。 您可以藉由呼叫 **graphics 物件的** [**Graphics：： BeginContainer**](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-begincontainer(inconstrectf__inconstrectf__inunit))方法來啟動容器，然後藉由呼叫 [**graphics：： EndContainer**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-endcontainer)方法來結束容器。 在 **graphics：： BeginContainer** 與 **Graphics：： EndContainer** 之間，您對 **圖形** 物件所做的任何狀態變更都屬於容器，而不會覆寫 **圖形** 物件的現有狀態。
 
 下列範例會在 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件中建立容器。 **圖形** 物件的世界轉換是將200單位轉譯為右邊的轉換，而容器的世界轉換則是轉譯100單位。
 

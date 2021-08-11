@@ -4,12 +4,12 @@ ms.assetid: F6F17EC7-6553-4127-B691-C20C945DD4D8
 title: 'MF_MEDIA_ENGINE_CONTENT_PROTECTION_MANAGER 屬性 (Mfmediaengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afb99d1df36c9b9adbf1c099d619df60e1144b87
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fe80e619f3b256f6aa587f32d9ee5b6f43cd2978a5dfb043c62536ff5315bacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "107000518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244687"
 ---
 # <a name="mf_media_engine_content_protection_manager-attribute"></a>MF \_ 媒體 \_ 引擎 \_ 內容 \_ 保護 \_ 管理員屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "107000518"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Mfmediaengine。h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ description: IMAPI.EXE 讓應用程式開發人員能夠建立 ISO 9660 和 UDF 
 ms.assetid: 691fdc3a-e762-4d6d-9980-e2d9227100a5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2581672fac78d23a0d2f4e2bc36ee4227adbca1d
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 68d816d293a3474f46dc3a48577a46615672103099dc2aa561d393953f29ccf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104566163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249405"
 ---
 # <a name="imapi-multisession-layout"></a>IMAPI.EXE 多會話配置
 
-IMAPI.EXE 讓應用程式開發人員能夠建立 ISO 9660 和 UDF 檔案系統映射，並將它們燒錄到 CD、DVD 和藍光™光學媒體上。 在 Windows 7 中，IMAPI.EXE 提供對 DVD 和藍光™可讀寫媒體上的多會話燒錄的額外支援。
+IMAPI.EXE 讓應用程式開發人員能夠建立 ISO 9660 和 UDF 檔案系統映射，並將它們燒錄到 CD、DVD 和藍光™光學媒體上。 使用 Windows 7，imapi.exe 可為 DVD 和藍光™可讀寫媒體上的多會話燒錄提供額外支援。
 
 下列檔詳細說明 IMAPI.EXE 利用來執行多會話的光碟版面配置。 這項資訊應該用來確保 IMAPI.EXE 與其他燒錄軟體之間的互通性，以及允許此軟體的開發人員建立與 IMAPI.EXE 相容的多會話光碟映射。
 
@@ -65,7 +65,7 @@ IMAPI.EXE 讓應用程式開發人員能夠建立 ISO 9660 和 UDF 檔案系統�
 
 -   **UDF 磁碟分割類型**
 
-    IMAPI.EXE 會在可寫入的媒體上，使用 **唯讀** UDF 磁碟分割類型來執行多會話。 協力廠商燒錄軟體的開發人員應該使用 **唯讀** UDF 磁碟分割類型，透過 Imapi.exe 達成 Windows 主要燒錄的相容性。 如果使用另一個 UDF 分割類型，例如可重 **寫** ，則 imapi.exe 無法提供主控支援。
+    IMAPI.EXE 會在可寫入的媒體上，使用 **唯讀** UDF 磁碟分割類型來執行多會話。 協力廠商燒錄軟體的開發人員應該使用 **唯讀** UDF 磁碟分割類型，以透過 imapi.exe 取得 Windows 主要燒錄的相容性。 如果使用另一個 UDF 分割類型，例如可重 **寫** ，則 imapi.exe 無法提供主控支援。
 
 ## <a name="related-topics"></a>相關主題
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b9f1b0f95a2919c3f71f8ba30a500aa8af676005
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faec2088b6df73e896c2aca54c58af580b611558b4f4a37684af375ee8307673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255270"
 ---
 # <a name="jet_bklogtimetostring-method"></a>JET_BKLOGTIME。ToString 方法
 

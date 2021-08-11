@@ -4,12 +4,12 @@ ms.assetid: 5f393247-0209-41b4-a97c-89e4d5d7d55d
 title: 'RectF 擴充方法 (Gdiplustypes) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 991cc06b75181976181314e5575f134e2b37ab4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c86842991450c87f3c4ad32a33596be3f754aeb6b1abb154df91207882c35db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118250157"
 ---
 # <a name="rectfinflate-methods"></a>RectF 擴充方法
 

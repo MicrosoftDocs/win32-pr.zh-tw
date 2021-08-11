@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7f5e71f9a443e12ea56cb8ca23daea148da92aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 667b2974015edd8b8d3ac0505f4eb4d6c64d1da5b82737ec7d9bb89cc3e8776e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248002"
 ---
 # <a name="wm_appcommand-message"></a>WM \_ APPCOMMAND 訊息
 
@@ -89,7 +89,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 | <span id="APPCOMMAND_LAUNCH_MEDIA_SELECT"></span><span id="appcommand_launch_media_select"></span><dl> <dt>**APPCOMMAND \_啟動 \_ 媒體 \_ 選取**</dt> <dt>16</dt> </dl>                                             | 移至媒體選取模式。<br/>                                                                                                                                                                                                                                                        |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_DOWN"></span><span id="appcommand_media_channel_down"></span><dl> <dt>**APPCOMMAND \_媒體 \_ 頻道已 \_ 關閉**</dt> <dt>52</dt> </dl>                                                | 減少頻道值，例如電視或無線電調諧器。 <br/>                                                                                                                                                                                                             |
 | <span id="APPCOMMAND_MEDIA_CHANNEL_UP"></span><span id="appcommand_media_channel_up"></span><dl> <dt>**APPCOMMAND \_媒體 \_ 頻道已 \_ 達**</dt> <dt>51</dt> </dl>                                                      | 將通道值遞增，例如電視或無線電調諧器。 <br/>                                                                                                                                                                                                             |
-| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**APPCOMMAND \_媒體 \_ \_ 向前快**</dt>轉 <dt>49</dt> </dl>                                                | 提高串流播放的速度。 這可以透過許多方式來執行，例如，使用固定速度或透過一連串逐漸增加的速度來切換。 <br/>                                                                                                               |
+| <span id="APPCOMMAND_MEDIA_FAST_FORWARD"></span><span id="appcommand_media_fast_forward"></span><dl> <dt>**APPCOMMAND \_媒體 \_ FAST \_ 轉寄**</dt> <dt>49</dt> </dl>                                                | 提高串流播放的速度。 這可以透過許多方式來執行，例如，使用固定速度或透過一連串逐漸增加的速度來切換。 <br/>                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_NEXTTRACK"></span><span id="appcommand_media_nexttrack"></span><dl> <dt>**APPCOMMAND \_MEDIA \_ NEXTTRACK**</dt> <dt>11</dt> </dl>                                                          | 移至下一個曲目。<br/>                                                                                                                                                                                                                                                               |
 | <span id="APPCOMMAND_MEDIA_PAUSE"></span><span id="appcommand_media_pause"></span><dl> <dt>**APPCOMMAND \_媒體 \_ 暫停**</dt> <dt>47</dt> </dl>                                                                      | 暫停： 如果已經暫停，則不採取任何進一步的動作。 這是沒有狀態的直接暫停命令。 如果有離散的 [播放] 和 [暫停] 按鈕，應用程式應該對此命令採取動作，以及 **APPCOMMAND \_ MEDIA \_ Play \_ 暫停**。 <br/>                               |
 | <span id="APPCOMMAND_MEDIA_PLAY"></span><span id="appcommand_media_play"></span><dl> <dt>**APPCOMMAND \_MEDIA \_ PLAY**</dt> <dt>46</dt> </dl>                                                                         | 在目前的位置開始播放。 如果已經暫停，則會繼續。 這是沒有狀態的直接播放命令。 如果有離散的 [ **播放** ] 和 [ **暫停** ] 按鈕，應用程式應該對此命令採取動作，以及 **APPCOMMAND \_ MEDIA \_ Play \_ 暫停**。<br/> |
@@ -168,7 +168,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 
 若要取得游標的座標（如果訊息是由滑鼠按一下所產生），應用程式可以呼叫 [**GetMessagePos**](/windows/desktop/api/winuser/nf-winuser-getmessagepos)。 應用程式可以藉由檢查 *lParam* 是否包含 **FAPPCOMMAND \_ 滑鼠**，來測試訊息是否由滑鼠所產生。
 
-與其他 windows 訊息不同的是，應用程式在處理應用程式時，應該會從這個訊息傳回 **TRUE** 。 這麼做可讓在 Windows 2000 之前的 Windows 系統上模擬此訊息的軟體，判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 來處理訊息。
+與其他 windows 訊息不同的是，應用程式在處理應用程式時，應該會從這個訊息傳回 **TRUE** 。 這樣做會允許在早于 Windows 2000 的 Windows 系統上模擬此訊息的軟體，以判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)來處理訊息。
 
 ## <a name="requirements"></a>規格需求
 
@@ -178,7 +178,7 @@ dwKeys = GET_KEYSTATE_LPARAM(lParam);
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

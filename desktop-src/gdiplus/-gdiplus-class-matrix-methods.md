@@ -4,18 +4,18 @@ ms.assetid: d43a7956-9822-4093-9722-91f0d2edf50c
 title: 矩陣方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8830b7b0210152027994d5af43c03e35c7a6936
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 639be4d7e000d7126bc81f0cb27aeb77e93f26d25c941d87fadf2409c1410103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249345"
 ---
 # <a name="matrix-methods"></a>矩陣方法
 
 本主題列出 [**Matrix**](/windows/desktop/api/gdiplusmatrix/nl-gdiplusmatrix-matrix) 類別的方法。 如需完整的類別清單，請參閱 **矩陣類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone)
+-   [**複製**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-clone)
 -   [**等於**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-equals)
 -   [**GetElements**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-getelements)
 -   [**GetLastStatus**](/windows/desktop/api/Gdiplusmatrix/nf-gdiplusmatrix-matrix-getlaststatus)

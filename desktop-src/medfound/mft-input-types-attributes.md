@@ -4,12 +4,12 @@ ms.assetid: 0fb1d9f2-2b57-41bc-8365-0b88bd5a2f3d
 title: 'MFT_INPUT_TYPES_Attributes 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c42a051c124cdb96e57ea239c02ebaa47f22e0c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a750094361cdaa877bff82e20a74c1beae4e1a1f76ea0a9ad5be83f308c1f2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512605"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240233"
 ---
 # <a name="mft_input_types_attributes-attribute"></a>MFT \_ 輸入 \_ 類型 \_ 屬性屬性
 
@@ -40,7 +40,7 @@ ms.locfileid: "104512605"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

@@ -11,12 +11,12 @@ keywords:
 - 游標，鍵盤輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d76b3f90a626506430b91e7539069c6ecdf634c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cb1be8753ec6a5f920f09f6e5376b7988a88de0f9a49551492408e84908bb0c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248270"
 ---
 # <a name="using-keyboard-input"></a>使用鍵盤輸入
 
@@ -561,6 +561,6 @@ LONG APIENTRY MainWndProc(HWND hwndMain, UINT uMsg, WPARAM wParam, LPARAM lParam
 
 
 
- 
+ 
 
- 
+ 

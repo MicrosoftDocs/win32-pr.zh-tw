@@ -4,12 +4,12 @@ ms.assetid: ecf6113f-1d8e-4680-87ab-bfd45a9663e4
 title: 影片預覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9d458568a18f598e5aa4ee7e8fb21059e503362
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6a58e6c7c70469492ffef38173f0447e19dcf3fe324307e51f3b19609b7d2865
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237414"
 ---
 # <a name="video-preview"></a>影片預覽
 

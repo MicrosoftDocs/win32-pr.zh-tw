@@ -1,21 +1,21 @@
 ---
-description: 筆墨轉譯器 Api 可將筆墨筆劃轉譯至通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 InkCanvas 控制項。
+description: 筆墨轉譯器 api 可將筆墨筆劃轉譯到通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 InkCanvas 控制項。
 ms.assetid: 8E532066-19EB-4FA6-823D-21823591742F
 title: 筆墨轉譯器
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: f9e1e654859dd8d777855bc2bffaf953feb8ba8c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d7ba9325f6aeccca706fab206aee0835243341376108d9355fac9e54ff9998d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249136"
 ---
 # <a name="ink-renderer"></a>筆墨轉譯器
 
-筆墨轉譯器 Api 可將筆墨筆劃轉譯至通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) 控制項。
+筆墨轉譯器 api 可將筆墨筆劃轉譯到通用 Windows 應用程式的指定 Direct2D 裝置內容，而不是預設的 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項。
 
-筆墨轉譯器的設計目的是要讓通用 Windows 應用程式開發人員有興趣自訂筆跡筆劃的呈現方式「幹」，以及與 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas) 控制項的相同品質。
+筆墨轉譯器的設計目的是要讓通用 Windows 應用程式開發人員有興趣自訂如何將筆墨筆劃轉譯為「幹」以及 [**InkCanvas**](/uwp/api/Windows.UI.Xaml.Controls.InkCanvas)控制項的品質相同。
 
 ## <a name="in-this-section"></a>本節內容
 

@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 8a24a08abaeea0b6aeac49d1040748b01e007245
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8926fb7a02e41ca0e0420c8cce4701ac8f50e05dd7cfd3513f5411743da30703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248937"
 ---
 # <a name="sizesize-constructors"></a>大小。大小的函式
 

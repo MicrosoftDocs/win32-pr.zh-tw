@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102989
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ccb19f68f2037ec59656aad4cdf92d8347481cfa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67c85c6694b61e5f9766b3ff6503dd68ad6e8a563360864b2b6c6f777d8d7017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104571379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118259641"
 ---
 # <a name="esentstartingrestorelogtoohighexception-members"></a>EsentStartingRestoreLogTooHighException 成員
 

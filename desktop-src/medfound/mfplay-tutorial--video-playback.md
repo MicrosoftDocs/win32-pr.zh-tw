@@ -4,12 +4,12 @@ ms.assetid: f72a7c1f-b059-474c-96f2-8fad3b1f7035
 title: MFPlay 教學課程：影片播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30bbadae22e72799c64a42d09b6eed904b56a60d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb5b98de6cc845d121928fb18a33db055154f717e8fe583bcd1ad6ef8da32deb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242005"
 ---
 # <a name="mfplay-tutorial-video-playback"></a>MFPlay 教學課程：影片播放
 
@@ -228,7 +228,7 @@ HRESULT PlayMediaFile(HWND hwnd, PCWSTR pszURL)
 
 
 
-此函式會 `OnFileOpen` 顯示 [一般檔案] 對話方塊，可讓使用者選取要播放的檔案。 **IFileOpenDialog** 介面是用來顯示 [一般檔案] 對話方塊。 此介面是 Windows Shell Api 的一部分;它是在 Windows Vista 中引進來取代舊版的 **GetOpenFileName** 函式。 當使用者選取檔案後， `OnFileOpen` 就會呼叫 `PlayMediaFile` 以開始播放。
+此函式會 `OnFileOpen` 顯示 [一般檔案] 對話方塊，可讓使用者選取要播放的檔案。 **IFileOpenDialog** 介面是用來顯示 [一般檔案] 對話方塊。 此介面是 Windows Shell api 的一部分;它是在 Windows Vista 中引進來取代舊版 **GetOpenFileName** 函式。 當使用者選取檔案後， `OnFileOpen` 就會呼叫 `PlayMediaFile` 以開始播放。
 
 
 ```C++

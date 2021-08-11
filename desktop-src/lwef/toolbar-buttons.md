@@ -4,16 +4,16 @@ description: 工具列按鈕
 ms.assetid: 346a55e6-b506-4fd4-9ef8-bf4fbd866dd3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ae1436222b048ad8b92c9f467bbc74068bdfe4
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 8220ee55f3a3abdfb5b9588bd2962fdabdd63491d28218314e53aa3ffb192f49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104560404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245662"
 ---
 # <a name="toolbar-buttons-linguistic-information-sound-editing-tool"></a> (語言資訊音效編輯工具的工具列按鈕) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 :::image type="icon" source="images/f9charnew.gif":::
 
@@ -55,7 +55,7 @@ ms.locfileid: "104560404"
 <span id="Cut"></span><span id="cut"></span><span id="CUT"></span>**削減**
 </dt> <dd>
 
-從編輯器中移除選取的文字，並將它放在 Windows 剪貼簿上。
+從編輯器中移除選取的文字，並將它放在 Windows 剪貼簿。
 
 </dd> </dl>
 

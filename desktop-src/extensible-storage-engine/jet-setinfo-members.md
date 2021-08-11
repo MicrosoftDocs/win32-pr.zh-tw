@@ -7,19 +7,19 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103871
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c782eace916b3871ade67870b08e1766faeafd28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d817450d596af67c41550d6f22e91bbd51e3ec244e8cd1e0b0805c069a95201
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254364"
 ---
 # <a name="jet_setinfo-members"></a>JET_SETINFO 成員
 
 包含受保護的成員  
 包含繼承的成員  
 
-JetSetColumn 的設定。
+適用于 JetSetColumn 的設定。
 
 [JET_SETINFO](./jet-setinfo-class.md)類型會公開下列成員。
 

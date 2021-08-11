@@ -4,12 +4,12 @@ ms.assetid: 714c8bda-5ce1-47e2-ba73-9304e26b3129
 title: 簡報描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44f1581e35fe6d875c691efdd5ef5736c1aa5215
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 963faeebbb180b504cc11202645a9432bbb3a94e988495b9ddcf96e550b05519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238829"
 ---
 # <a name="presentation-descriptors"></a>簡報描述項
 

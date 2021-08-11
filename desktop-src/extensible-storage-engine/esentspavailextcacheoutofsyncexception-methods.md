@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102980
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 98619ccbea2c9fe6773a895fb063fb595f2f925e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9294a04cc6d681a08d9dce8f03fd1c936d4c1ff3369de3c633fb5f63d5e918f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118258762"
 ---
 # <a name="esentspavailextcacheoutofsyncexception-methods"></a>EsentSPAvailExtCacheOutOfSyncException 方法
 

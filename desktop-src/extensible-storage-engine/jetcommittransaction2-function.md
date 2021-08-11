@@ -19,17 +19,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 24dfecd091de027f51ed8f69c0441fbc7cbd57af
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 697a3760dc3312230bb2fe755dbfc881c1fdbacd7d21c98e64d8aa83a271ecdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251370"
 ---
 # <a name="jetcommittransaction2-function"></a>JetCommitTransaction2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 **JetCommitTransaction2** 函式會在目前的儲存點期間認可對資料庫狀態所做的變更，並將其遷移至先前的儲存點。 如果已認可最外層的儲存點，則在該儲存點期間所做的變更將會認可至資料庫的狀態，而會話將會結束交易。
 
@@ -77,7 +77,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <td><p>所有先前由尚未排清至交易記錄檔的會話所認可的交易，都會立即進行清除。 此 API 會等到交易已排清之後，再返回呼叫端。</p>
 <p>即使會話目前不在交易中，也可以使用此選項。</p>
 <p>此選項不能與任何其他選項搭配使用。</p>
-<p>從 Windows Server 2003 開始，此選項適用于 Windows Server 作業系統的版本。</p></td>
+<p>從 Windows Server 2003 開始，Windows Server 作業系統的版本中有提供此選項。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_bitWaitLastLevel0Commit</p></td>
@@ -99,7 +99,7 @@ JET_ERR JET_API JetCommitTransaction2(
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回 [JET_ERR](./jet-err.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能的可延伸儲存引擎 (ESE) 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回 [JET_ERR](./jet-err.md) 資料類型，其中包含下表所列的其中一個傳回碼。 如需可能的可延伸儲存體引擎 (ESE) 錯誤的詳細資訊，請參閱[可擴展的儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -109,7 +109,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <thead>
 <tr class="header">
 <th><p>傳回碼</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -124,7 +124,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <tr class="odd">
 <td><p>JET_errInstanceUnavailable</p></td>
 <td><p>無法完成作業，因為與會話相關聯的實例發生嚴重錯誤，需要撤銷所有資料的存取權，以保護該資料的完整性。</p>
-<p>此錯誤只會由 windows XP 開頭的 Windows 作業系統版本傳回。</p></td>
+<p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errInvalidgrbit</p></td>
@@ -150,7 +150,7 @@ JET_ERR JET_API JetCommitTransaction2(
 <tr class="even">
 <td><p>JET_errSessionSharingViolation</p></td>
 <td><p>相同的會話無法同時用於一個以上的執行緒。</p>
-<p>此錯誤只會由 windows XP 開頭的 Windows 作業系統版本傳回。</p></td>
+<p>此錯誤只會由 Windows XP 起的 Windows 作業系統版本傳回。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errTermInProgress</p></td>

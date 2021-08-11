@@ -4,12 +4,12 @@ ms.assetid: 382D60F5-9E21-4881-915F-A5F0257A701D
 title: '函數 (輸入來源識別) '
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: 6a618607df31076f2fd021cee61d62220a8cc5e5
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: f84c2b44f80e045332aa2df1976e676f21e7489ed55c481662e5f29424738a06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106978536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248797"
 ---
 # <a name="input-source-identification-functions"></a>輸入來源識別函式
 

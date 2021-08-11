@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 13dad71f033f283acf2827cb24183b09c079274a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27ef9da11b9b0fa42448bb7bbeb94f24231ca9053330dac0f31f2bd126ae8ca3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257246"
 ---
 # <a name="esentunicodenormalizationnotsupportedexception-constructor"></a>EsentUnicodeNormalizationNotSupportedException 函式
 

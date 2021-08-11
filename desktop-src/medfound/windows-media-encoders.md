@@ -1,23 +1,23 @@
 ---
-description: 編碼器會使用應用程式所指定的格式，將未壓縮的音訊或影片轉換成壓縮的封包。 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 音訊和影片編解碼器。
+description: 編碼器會使用應用程式所指定的格式，將未壓縮的音訊或影片轉換成壓縮的封包。 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體音訊和影片編解碼器。
 ms.assetid: 6dcf12d0-ea37-446b-a807-2b27fd1f6124
-title: Windows Media 編碼器
+title: Windows媒體編碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a642702562cbb6a70b0380deb196c70c4f8207b6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 8d79ff55e98227c63e9761a8dec5ae068c8b1786c067230548ad0028dbe301a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106989114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237287"
 ---
-# <a name="windows-media-encoders"></a>Windows Media 編碼器
+# <a name="windows-media-encoders"></a>Windows媒體編碼器
 
-編碼器會使用應用程式所指定的格式，將未壓縮的音訊或影片轉換成壓縮的封包。 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows Media 音訊和影片編解碼器。
+編碼器會使用應用程式所指定的格式，將未壓縮的音訊或影片轉換成壓縮的封包。 若要將媒體檔案轉換成 ASF 格式，您可以使用 Windows 媒體音訊和影片編解碼器。
 
 編碼器是由代表類別：音訊或影片的 GUID 所識別。 編碼器的輸出類型是以媒體類型的主要和子類型 GUID 表示。
 
--   Windows Media 音訊編解碼器
+-   Windows媒體音訊編解碼器
 
     類別： **MFT \_ 類別 \_ 音訊 \_ 編碼器**
 
@@ -25,7 +25,7 @@ ms.locfileid: "106989114"
 
     子類型： MFAudioFormat \_ WMAudioV9、MFAudioFormat \_ WMAudioV8、MFAudioFormat \_ WMAudio \_ 無損、MFAudioFormat \_ WMASPDIF
 
--   Windows Media video 編解碼器
+-   Windows媒體視頻編碼器
 
     類別： **MFT \_ 類別 \_ 影片 \_ 編碼器**
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2edbe2e8819d8b4a3a7299d285a39e8f7e3e05c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c67097724d8afb9028ba4a4593999671a4deff5ac1ffc22d99e7a5469462e2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251702"
 ---
 # <a name="jet_unicodeindexlcid-property"></a>JET_UNICODEINDEX lcid 屬性
 

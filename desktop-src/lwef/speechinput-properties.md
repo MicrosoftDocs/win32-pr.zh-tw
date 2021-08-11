@@ -4,16 +4,16 @@ description: SpeechInput 屬性
 ms.assetid: 1358e475-d4c2-4aab-b197-d8a98c3702a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97c5676dbe59287a3b2231ad2527a5af47aa58ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 088bf1d3bd2124e944c150ef6a3d71e085797fdc0867e87d1dd22e4e79db5527
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246217"
 ---
 # <a name="speechinput-properties"></a>SpeechInput 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 如果已安裝並啟用語音辨識引擎，存取這些屬性將會啟動語音引擎：
 
@@ -21,9 +21,9 @@ ms.locfileid: "104311469"
 -   [**熱鍵**](hotkey-property.md)
 -   [**ListeningTip**](listeningtip-property.md)
 
- 
+ 
 
- 
+ 
 
 
 

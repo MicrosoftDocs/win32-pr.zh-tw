@@ -4,12 +4,12 @@ ms.assetid: 93BB6E41-308E-4527-A04B-C685C818FEC4
 title: 'MFSampleExtension_DeviceReferenceSystemTime 屬性 (Mfcaptureengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00af99e3d2c34d0e4cf72af519497ea04f13e62c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0458c1a2b0f5b204483cba0e6f571a2a5ace34b7b39463cc20ded664eecaaa0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241133"
 ---
 # <a name="mfsampleextension_devicereferencesystemtime-attribute"></a>MFSampleExtension \_ DeviceReferenceSystemTime 屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "103848445"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Mfcaptureengine .idl</dt> </dl> |
 

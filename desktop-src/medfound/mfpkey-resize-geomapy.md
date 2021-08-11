@@ -4,12 +4,12 @@ ms.assetid: 5015e864-fd34-449f-b3fc-1ddcb507dfdf
 title: 'MFPKEY_RESIZE_GEOMAPY 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d695aea69e590cf9ff447dcf095f9b2151fceb50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cddc1ce0c74aa1606db22004b92a13eaeeaa63a632bb642b37a11bb06167f040
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242402"
 ---
 # <a name="mfpkey_resize_geomapy-property"></a>MFPKEY \_ RESIZE \_ GEOMAPY 屬性
 
@@ -37,8 +37,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

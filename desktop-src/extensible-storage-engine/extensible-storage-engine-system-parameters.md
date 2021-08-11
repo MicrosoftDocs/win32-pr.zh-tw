@@ -1,6 +1,6 @@
 ---
-description: 深入瞭解：可擴充儲存引擎系統參數
-title: 可擴充儲存引擎系統參數
+description: 深入瞭解：可擴充的儲存體引擎系統參數
+title: 可擴充的儲存體引擎系統參數
 TOCTitle: Extensible Storage Engine System Parameters
 ms:assetid: f95c2e87-b25e-4be5-8c17-8486ba37dad4
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294139(v=EXCHG.10)
@@ -15,19 +15,19 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 43473f1bf5f599ba8efd06bd31345485acc07061
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 531e599c66279312f80216f1eb09fc612636821227e76f3572645ab6b4ee5137
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256445"
 ---
-# <a name="extensible-storage-engine-system-parameters"></a>可擴充儲存引擎系統參數
+# <a name="extensible-storage-engine-system-parameters"></a>可擴充的儲存體引擎系統參數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-system-parameters"></a>可擴充儲存引擎系統參數
+## <a name="extensible-storage-engine-system-parameters"></a>可擴充的儲存體引擎系統參數
 
 下列常數會當做 [JetGetSystemParameter](./jetgetsystemparameter-function.md)和 [JetSetSystemParameter](./jetsetsystemparameter-function.md)函數之 *paramid* 參數的值使用。
 

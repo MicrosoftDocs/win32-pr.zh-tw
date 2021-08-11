@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ab03bd1967cd4702827c606dc0a0629baae6108e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3192c4dbb4f95357f4088aaf5984b7caf951abb96e1404be45a797ae55d4a14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252925"
 ---
 # <a name="jet_snprog-constructor"></a>JET_SNPROG 的函式
 

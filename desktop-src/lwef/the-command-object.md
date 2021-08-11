@@ -4,16 +4,16 @@ description: Command 物件
 ms.assetid: a757846a-c2d0-4239-9533-babf5dc8399f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e9e9ce22b3a1c0c2286232b5e2204e158501332
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 242a90022431b826cf877edd862cd89a39d193865ed31afc1e4ff911f4189756
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106967890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245614"
 ---
 # <a name="the-command-object"></a>Command 物件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [**命令**](/windows/desktop/lwef/the-command-object)物件是 [**命令**](/windows/desktop/lwef/the-commands-collection-object)集合中的專案。 當您的用戶端應用程式變成輸入-主動時，伺服器會為使用者提供 **命令** 物件的存取權。
 
@@ -542,7 +542,7 @@ False
 
 未出現
 
-No
+否
 
  如果屬性設定為 null。 在某些程式設計語言中，空字串可能不會被解釋為 null 字串。  此命令仍然可以語音存取。<br/>
 

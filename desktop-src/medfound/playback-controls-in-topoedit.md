@@ -4,12 +4,12 @@ ms.assetid: 36ebfa9e-7092-4a93-b633-8eefef8ac9e6
 title: TopoEdit 中的播放控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 174317fbf53dc6d2573414c60d5d4cde1a010f95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10c59dfceb30f839ba58d37385a3178d42429eb858c98f3f5196dd95141ac2a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239674"
 ---
 # <a name="playback-controls-in-topoedit"></a>TopoEdit 中的播放控制項
 

@@ -4,18 +4,18 @@ ms.assetid: bbaa4027-94aa-497f-8efb-a82d251847af
 title: 區域方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 060afdea5f625a1b5f8944a2c17ed1cf8b42f7ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d83fd5cd279bc2e71a39c565d3fdfe615ce15d4e105b329ed56d73548e613334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249108"
 ---
 # <a name="region-methods"></a>區域方法
 
 本主題列出 [**Region**](/windows/desktop/api/gdiplusheaders/nl-gdiplusheaders-region) 類別的方法。 如需完整的類別清單，請參閱 **Region 類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-clone)
+-   [**複製**](/windows/desktop/api/Gdiplusheaders/nf-gdiplusheaders-region-clone)
 -   [**補充 (GraphicsPath \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstgraphicspath))
 -   [**(區域補充 \*)**](/windows/win32/api/gdiplusheaders/nf-gdiplusheaders-region-complement(inconstregion))
 -   [**補充 (Rect&)**](/previous-versions//ms534918(v=vs.85))

@@ -4,12 +4,12 @@ ms.assetid: DEA2B19A-CF15-4BF4-84C3-9A6417C942E2
 title: 媒體基礎架構的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0944eae1a74c1a5ba3dda8d94b69088128237f1
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: de953d05c55c96d1affa2213e1a7f11143a71aa319b4671c159f085e65268d05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104551798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239627"
 ---
 # <a name="overview-of-the-media-foundation-architecture"></a>媒體基礎架構的總覽
 

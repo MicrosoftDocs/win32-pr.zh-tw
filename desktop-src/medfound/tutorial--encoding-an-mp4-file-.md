@@ -4,12 +4,12 @@ ms.assetid: 60873aa6-46ec-4a73-94b9-0d8ac602f850
 title: 教學課程：編碼的檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae895ef321b35f080bf946384ee32d83c2c539fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 242777f04015f5444be5e0d8424ca06fc4b95cd84ca88c2b997d7b7466c734af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237621"
 ---
 # <a name="tutorial-encoding-an-mp4-file"></a>教學課程：編碼的檔
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bd986b9df7956709d5a756dd066d612ddb4624c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f324e3ac54ed7faa3b69b23248b9fa0e1959ed4b83d60adff20a3061bad6cbda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118251622"
 ---
 # <a name="jet_unicodeindexszlocalename-property"></a>JET_UNICODEINDEX szLocaleName 屬性
 

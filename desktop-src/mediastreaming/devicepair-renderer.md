@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f74b212ed4e8ec29b0234a3769c3beff91c0c777
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 05707fd65e2ac8998fa2412ec15c12d3b003b88990641aad6510d87bd7692e1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118236081"
 ---
 # <a name="devicepairrenderer-property"></a>DevicePair：：轉譯器屬性
 
@@ -34,7 +34,7 @@ ms.locfileid: "104375064"
 
 ```C++
 HRESULT get_Renderer(
-  [out] ActiveBasicDevice **value
+  [out] ActiveBasicDevice **value
 );
 ```
 
@@ -51,6 +51,6 @@ HRESULT get_Renderer(
 [**DevicePair**](/previous-versions/windows/desktop/legacy/dn385771(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b8be789f4343779d315808a4fc5f203f62dd58c8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 255cbf9680e40d019a7b4fa3fda669e33e051111a975d4d63905353e81ccb53a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118236412"
 ---
 # <a name="createmediarendereroperation-class"></a>CreateMediaRendererOperation 類別
 
@@ -50,7 +50,7 @@ ms.locfileid: "104022536"
 
 
 
-| 屬性                                                               | 存取類型           | Description                                                                                                                                                                                                                                                                                                               |
+| 屬性                                                               | 存取類型           | 描述                                                                                                                                                                                                                                                                                                               |
 |:-----------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Completed**](createmediarendereroperation-completed.md)<br/> | 讀取/寫入<br/> | 取得或設定當 [**CreateMediaRendererAsync**](imediarendererfactory-createmediarendererasync.md) 或 [**CreateMediaRendererFromBasicDeviceAsync**](imediarendererfactory-createmediarendererfrombasicdeviceasync.md) 啟動的非同步作業完成時叫用的事件處理常式。 <br/> |
 

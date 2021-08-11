@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103207
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a3849fef3606255a812d39addd4c9919967a0084
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e96f776aaa635b20188c4a70c37d56713363fa2c7d8e7829b92dee553151744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256751"
 ---
 # <a name="esentversionstoreoutofmemoryandcleanuptimedoutexception-methods"></a>EsentVersionStoreOutOfMemoryAndCleanupTimedOutException 方法
 

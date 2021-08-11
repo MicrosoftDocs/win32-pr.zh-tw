@@ -4,12 +4,12 @@ ms.assetid: CF3A427D-31D2-45FF-BE87-F192B758204E
 title: PMP 媒體會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abf2cb1ff173d6fd085f6e98dd4608c84ff40200
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 683bc6d3dcc78bfb18daedabab614c95c33492fb7e17d48cbe7f6f08bdc766ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239199"
 ---
 # <a name="pmp-media-session"></a>PMP 媒體會話
 
@@ -25,7 +25,7 @@ ms.locfileid: "108092716"
 
 1.  媒體來源必須執行 [**IMFPMPClient**](/windows/desktop/api/mfidl/nn-mfidl-imfpmpclient) 介面。
 2.  在拓撲解析期間，媒體會話 proxy 會呼叫媒體來源上的 [**IMFPMPClient：： SetPMPHost**](/windows/desktop/api/mfidl/nf-mfidl-imfpmpclient-setpmphost) 方法。
-3.  媒體來源會呼叫 [**IMFPMPHost：： CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) ，以在 PMP 進程內建立物件。 物件必須有已註冊的 CLSID。 此外，若要在 PE 中載入，物件必須是受信任且經過數位簽署。 如需程式碼簽署受保護媒體元件的相關資訊，請參閱 [Windows Vista 中受保護媒體元件的白皮書程式碼簽署](/windows-hardware/test/hlk/)
+3.  媒體來源會呼叫 [**IMFPMPHost：： CreateObjectByCLSID**](/windows/desktop/api/mfidl/nf-mfidl-imfpmphost-createobjectbyclsid) ，以在 PMP 進程內建立物件。 物件必須有已註冊的 CLSID。 此外，若要在 PE 中載入，物件必須是受信任且經過數位簽署。 如需程式碼簽署受保護媒體元件的相關資訊，請參閱[Windows Vista 中受保護媒體元件的白皮書代碼簽署](/windows-hardware/test/hlk/)
 
 下圖顯示在應用程式進程中建立的媒體來源。
 

@@ -4,16 +4,16 @@ description: RemoveAll 方法
 ms.assetid: 233f8d65-36ec-4c83-8c91-59d406edd70a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e56a22536d2d481f9da0073265e529b9a73a4088
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6795201f9a37118e9def28c306cca8923d58443824a12a4883ccac3a9c307de7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246476"
 ---
 # <a name="removeall-method"></a>RemoveAll 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "103933244"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。字元 ( "*** CharacterID * * *" ) . RemoveAll**
+*代理程式 ***。字元 ( "**_CharacterID_*_" ) . RemoveAll_*
 
 </dd> </dl>
 
@@ -40,6 +40,6 @@ ms.locfileid: "103933244"
 [**Remove 方法**](remove-method.md)
 
 
- 
+ 
 
- 
+ 

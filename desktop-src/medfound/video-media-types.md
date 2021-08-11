@@ -4,12 +4,12 @@ ms.assetid: b8cfe0d1-013d-4706-bb76-6d426836ab6a
 title: 影片媒體類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89b08aa7117f73139b6f90ea56e4f0f93d42ac0f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a2363be01030b4d2d7f3ca74a55c24967d9b36ed27910a155c409784b2ad8a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106998187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237476"
 ---
 # <a name="video-media-types"></a>影片媒體類型
 

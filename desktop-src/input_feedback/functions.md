@@ -12,12 +12,12 @@ keywords:
 - 手寫筆
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: e7b2ea940da878b4229b405aa4b4e8ece4680481
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 47134be85bcc02ee6b2f224c39b1e915a7638317df003687f040d8cf11ee713b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106978533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249308"
 ---
 # <a name="input-feedback-configuration-functions"></a>輸入回饋設定函數
 

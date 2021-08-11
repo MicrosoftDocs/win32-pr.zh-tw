@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67395437303de0adc8c1af226210f8ca2f45958d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 29c8a966a21b07744ce05063ae8c68f09156c47717fcff825875f82b4535f945
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235647"
 ---
 # <a name="autoradiobutton-control"></a>AUTORADIOBUTTON 控制項
 
@@ -60,9 +60,9 @@ AUTORADIOBUTTON text, id, x, y, width, height [, style [, extended-style]]
 [**RADIOBUTTON**](radiobutton-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

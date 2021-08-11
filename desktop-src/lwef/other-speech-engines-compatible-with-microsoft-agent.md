@@ -4,16 +4,16 @@ description: 其他與 Microsoft Agent 相容的語音引擎
 ms.assetid: fa87c592-c819-4dea-a1d0-6ccb25cc0bcc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9855a0f5374d35634d02f808b46449a053cada9a
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 521a236c08904c731035b709a808dc28b31bfb8e6664c07b0e6feb395dee469f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247129"
 ---
 # <a name="other-speech-engines-compatible-with-microsoft-agent"></a>其他與 Microsoft Agent 相容的語音引擎
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 除了隨附于和支援 Microsoft Agent 的 Microsoft 語音引擎之外，許多公司也提供支援 Microsoft 代理程式的語音引擎。 此頁面提供這類引擎的簡短總覽，這些引擎可能會以美式英文和其他語言提供。 如需有關如何安裝和存取，以及授權和轉散發引擎的資訊，請參閱其網站。
 
@@ -42,9 +42,9 @@ Elan 語音引擎使用 Elan 的文字轉換語音技術，並提供七種語言
 
 IBM 已開發了數個 Microsoft 代理程式字元，可搭配 ViaVoice Outloud 使用。 IBM ViaVoice Outloud 是一種文字轉換語音 (語音合成) 技術，並提供法文、德文、義大利文、西班牙文、UK 和美式英文。 結合 Microsoft Agent 時，您可以使用多種語言建立活躍的應用程式，並將銷售商機延伸至新的全球市場。
 
- 
+ 
 
- 
+ 
 
 
 

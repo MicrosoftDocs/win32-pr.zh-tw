@@ -34,12 +34,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8f6cad661d8265c32d605bbef94d75714ccb1783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d25137c9e976d05bd065837fed7753e26e3afdae020499b3388948e11733fd77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252522"
 ---
 # <a name="jet_snt-enumeration"></a>JET_SNT 列舉
 
@@ -101,7 +101,7 @@ public enum JET_SNT
 <td></td>
 <td>RecoveryStep</td>
 <td>恢復控制的回呼。
-<p>用於在早于 Windows 8 的 Windows 作業系統版本中進行內部處理。 此值不適用於以 Windows 8 開頭的 Windows 版本。</p></td>
+<p>用於在 Windows 8 之前的 Windows 作業系統版本中進行內部處理。 此值不適用於從 Windows 8 開始的 Windows 版本。</p></td>
 </tr>
 </tbody>
 </table>

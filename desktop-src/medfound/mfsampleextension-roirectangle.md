@@ -4,12 +4,12 @@ ms.assetid: F06CACF0-AE75-4707-8CD0-7BA7D51BB80A
 title: 'MFSampleExtension_ROIRectangle 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 71d84d2054caa96feaf7bfb4ccc7a91ecf4ac9f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 311b17cab20de16a83d145563e8ba0b8ead6f055428ffc6a3823c99deab05fc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240323"
 ---
 # <a name="mfsampleextension_roirectangle-attribute"></a>MFSampleExtension \_ ROIRectangle 屬性
 
@@ -39,8 +39,8 @@ H.264 **/AVC 編碼器：** **QPDelta** 應介於 \[ -25、+ 25 之間 \] 。 �
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

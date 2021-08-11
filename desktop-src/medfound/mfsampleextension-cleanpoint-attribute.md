@@ -4,12 +4,12 @@ ms.assetid: 03d4bfd8-1148-4551-8e71-05cfba2e15fa
 title: 'MFSampleExtension_CleanPoint 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a54ea9bf4f1ca207a6ab12bac331c57db63136a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7181c08b19382a6b9d9da0475ec0a7a0522bd132dc10a2da1da4531d631d02d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241495"
 ---
 # <a name="mfsampleextension_cleanpoint-attribute"></a>MFSampleExtension \_ CleanPoint 屬性
 
@@ -56,8 +56,8 @@ inline BOOL IsRandomAccessPoint(IMFSample *pSample)
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

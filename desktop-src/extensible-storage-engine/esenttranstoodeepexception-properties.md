@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103137
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0a07ce09f556e95357c48fc630d1f55433f12946
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c853b072189aa2f130da41bc87d27b4099eef6805ec386ef5702a17482efedda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257336"
 ---
 # <a name="esenttranstoodeepexception-properties"></a>EsentTransTooDeepException 屬性
 

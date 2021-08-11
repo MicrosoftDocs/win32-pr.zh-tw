@@ -4,12 +4,12 @@ ms.assetid: 99ee6f50-1de7-41ea-be5b-135730138d5d
 title: 'MFT_TRANSFORM_CLSID_Attribute 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b5ca1aa6a9d7691200761509e1a5e407a6c7db6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0122b783d8b321aa2a5c7788a589e19625b6a2bde8e37b0b659b0a1192f8c7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240196"
 ---
 # <a name="mft_transform_clsid_attribute-attribute"></a>MFT \_ 轉換 \_ CLSID \_ 屬性屬性
 
@@ -42,7 +42,7 @@ ms.locfileid: "103943733"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

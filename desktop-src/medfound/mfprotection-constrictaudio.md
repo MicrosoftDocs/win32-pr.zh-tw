@@ -4,12 +4,12 @@ ms.assetid: 455F12C9-FBD0-483F-AAC1-63FAC2A5F1F3
 title: 'MFPROTECTION_CONSTRICTAUDIO 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bee7862b2ac1a95906fe73015617dc94a8906098
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed2b20bb1d3bf579e7d1c6f3248bf6d79e9c59da6fd582ed681ea69c041550bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241646"
 ---
 # <a name="mfprotection_constrictaudio-attribute"></a>MFPROTECTION \_ CONSTRICTAUDIO 屬性
 
@@ -25,8 +25,8 @@ ms.locfileid: "106979077"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

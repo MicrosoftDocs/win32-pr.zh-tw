@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: d57f4d1b7b0377518f55a50e08606c02f68339d6
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 255167085390629387819696a02729d5e7f92cd6468378219c14b55092af84b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106999772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252025"
 ---
 # <a name="jet_tableidtostring-method-overload-list"></a>JET_TABLEID。ToString 方法多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "106999772"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

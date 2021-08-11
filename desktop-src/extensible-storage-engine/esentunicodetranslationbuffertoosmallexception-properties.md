@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103158
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4b31c349423840f807d1a7538014743d45445a9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6b1291d31b8b2d1037cf57575657a4c92b58f283e979b82b12d6fae7e980b33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257065"
 ---
 # <a name="esentunicodetranslationbuffertoosmallexception-properties"></a>EsentUnicodeTranslationBufferTooSmallException 屬性
 

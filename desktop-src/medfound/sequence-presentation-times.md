@@ -4,12 +4,12 @@ ms.assetid: 0d095e25-5ccf-4319-8767-07b417ed7ee8
 title: 順序呈現時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d17f5b0ff4bd6f0cfee2b1b461d6fbd11bdbf0fb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b45ea9c8b315171365810f33bb9a66ca4d223fb2119d7aea19288c3ebdd93ac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238364"
 ---
 # <a name="sequence-presentation-times"></a>順序呈現時間
 

@@ -4,12 +4,12 @@ ms.assetid: bd776dc2-341a-4d87-8a06-8063daf53ede
 title: 'MFNETSOURCE_MAXBUFFERTIMEMS 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f98cd17f33bb893dacd02b2a00669f3d2355e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99d0bf07da8b931ee5487715a4b4430e5ed4384142fc69678a075275d9c7757b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243430"
 ---
 # <a name="mfnetsource_maxbuffertimems-property"></a>MFNETSOURCE \_ MAXBUFFERTIMEMS 屬性
 
@@ -45,8 +45,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

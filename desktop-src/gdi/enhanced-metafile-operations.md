@@ -4,12 +4,12 @@ ms.assetid: 8f887c38-6cfa-4918-aa44-dd5fb837b40b
 title: 增強的中繼檔作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18ba9e2ac2f14c4436c039a66cc3211b471c0461
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5daf08ef5d8d48b81aea4daa5d2696ececec3fce44b1303c9ff7ccd692151a7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118250282"
 ---
 # <a name="enhanced-metafile-operations"></a>增強的中繼檔作業
 

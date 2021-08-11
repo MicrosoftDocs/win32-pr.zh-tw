@@ -4,18 +4,18 @@ ms.assetid: fbbc4cca-6337-4429-b35f-ef9de951ea12
 title: LinearGradientBrush 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03967a302c75731db2f327fc4a7cc1b63856f074
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2fe55b9506047eccc89d8e01ccedb01f77f7db0b6ba0224e3df00b0219834de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249492"
 ---
 # <a name="lineargradientbrush-methods"></a>LinearGradientBrush 方法
 
 本主題列出 [**LinearGradientBrush**](/windows/desktop/api/gdiplusbrush/nl-gdiplusbrush-lineargradientbrush) 類別的方法。 如需完整的類別清單，請參閱 **LinearGradientBrush 類別**。
 
--   [**克隆**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
+-   [**複製**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-brush-clone)
 -   [**GetBlend**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblend)
 -   [**GetBlendCount**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getblendcount)
 -   [**GetGammaCorrection**](/windows/desktop/api/Gdiplusbrush/nf-gdiplusbrush-lineargradientbrush-getgammacorrection)

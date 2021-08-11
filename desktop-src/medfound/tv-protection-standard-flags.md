@@ -4,12 +4,12 @@ ms.assetid: 8f26aa92-ed40-483e-ac78-c071619f0e12
 title: '電視保護標準旗標 (Opmapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28fc4db73bb68fd1aeb0749134d8d6cf998cec40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bf739e9ec2fc93f427891e2e841d7dc77049eb5d878028372b2c7757f536169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237577"
 ---
 # <a name="tv-protection-standard-flags"></a>電視防護標準旗標
 
@@ -17,7 +17,7 @@ ms.locfileid: "104026529"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                              | Description                                                    |
+| 常數/值                                                                                                                                                                                                                                                                                                              | 描述                                                    |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------|
 | <span id="OPM_PROTECTION_STANDARD_OTHER"></span><span id="opm_protection_standard_other"></span><dl> <dt>**OPM \_保護 \_ 標準 \_ 其他**</dt> <dt>0x80000000</dt> </dl>                                             | 保護標準未知。<br/>                 |
 | <span id="OPM_PROTECTION_STANDARD_NONE"></span><span id="opm_protection_standard_none"></span><dl> <dt>**OPM \_保護 \_ 標準 \_ 無**</dt> <dt>0x00000000</dt> </dl>                                                | 未準備好任何保護標準。<br/>                 |
@@ -49,8 +49,8 @@ ms.locfileid: "104026529"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: c246efa3-25dc-4471-9b0f-619e5d125c93
 title: '使用音訊 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d465bfb538d68245e16ce4c3238271d12a9dbd07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02cf7ecb0f6d85172dc65becb26112b9e02feaf267fdbba15ea57853982d3d27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237250"
 ---
 # <a name="working-with-audio-microsoft-media-foundation"></a>使用音訊 (Microsoft 媒體基礎) 
 
@@ -24,7 +24,7 @@ ms.locfileid: "104194856"
 | [設定音訊解碼](configuringaudiodecoding.md)                            | 說明如何設定音訊解碼器 DMOs。                                                      |
 | [使用 High-Definition 音訊](usinghighdefinitionaudio.md)                           | 說明如何使用多頻道音訊和高定義音訊。                                |
 | [使用 Windows Media 音訊語音編解碼器](usingthewindowsmediaaudio9voicecodec.md) | 說明如何使用 Windows Media 音訊語音編解碼器。                                               |
-| [解碼至 S/PDIF](decodingtospdif.md)                                             | 說明如何使用 Windows Media 音訊 Professional to S/PDIF 轉換。                          |
+| [解碼至 S/PDIF](decodingtospdif.md)                                             | 說明如何使用 Windows Media 音訊 Professional S/PDIF 轉換。                          |
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4dd2496eedfcd6aeaafe5838c959037ee3f486f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28c18340f21c8b5ee8ef670253076b02a6f2b01b4aa728a1e7951a6607d00805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256860"
 ---
 # <a name="esentupdatenotpreparedexception-constructor"></a>EsentUpdateNotPreparedException 函式
 

@@ -4,12 +4,12 @@ ms.assetid: cc2fbadc-43f7-470c-873b-de2dc9d84e5d
 title: 目錄的位置類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e1b6782a3722a6ce5a36117694f35442f8e4d43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f0f94f23e185b46f52123a80a0d27f7fefffcaff7e711a5e9718e07dab7da40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237892"
 ---
 # <a name="the-position-type-of-a-table-of-contents"></a>目錄的位置類型
 

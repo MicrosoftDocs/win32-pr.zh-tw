@@ -4,12 +4,12 @@ ms.assetid: 640CD70D-4424-407F-B801-6796199D260B
 title: 'MFSampleExtension_ForwardedDecodeUnitType 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afe577b9c90c6a6288c7d6de053e648ef3195b03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a639af642bc2f30896ef25ea89c22e00de96c73dcb6ace22e7ade5423ee79b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240682"
 ---
 # <a name="mfsampleextension_forwardeddecodeunittype-attribute"></a>MFSampleExtension \_ ForwardedDecodeUnitType 屬性
 
@@ -30,7 +30,7 @@ ms.locfileid: "104512616"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

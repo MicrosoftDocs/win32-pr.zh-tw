@@ -4,12 +4,12 @@ ms.assetid: 37362642-1b8a-4fb3-950d-ed1afe3696e5
 title: MP3 檔案來源
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2241e3b99d5a1918be8ff0182a9eca8939c12ce2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89b5649f1bdbc9d9b3dfa0af2f04878dfa64852af85ff8e829d4d2d4c4d20d8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240103"
 ---
 # <a name="mp3-file-source"></a>MP3 檔案來源
 
@@ -107,8 +107,8 @@ MP3 檔案來源會透過 [**QueryInterface**](/windows/win32/api/unknwn/nf-unkn
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                           |
 | DLL<br/>                      | <dl> <dt>Mf.dll</dt> </dl> |
 
 

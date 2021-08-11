@@ -4,12 +4,12 @@ ms.assetid: 7F0358F1-794A-4E75-8D97-3B91955E19EE
 title: 'MFSampleExtension_MeanAbsoluteDifference 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f4b7187b295071b8e27b68d9b5804aab6b2ddef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7908c8ea69d5d2b074fa8d2ac6b44ca0b3f40ba5b2ca72cd358350c2e749b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240635"
 ---
 # <a name="mfsampleextension_meanabsolutedifference-attribute"></a>MFSampleExtension \_ MeanAbsoluteDifference 屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "104512613"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

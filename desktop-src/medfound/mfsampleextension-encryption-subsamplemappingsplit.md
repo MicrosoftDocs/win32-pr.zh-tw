@@ -4,12 +4,12 @@ ms.assetid: E672F53D-2083-430B-90D2-A1DA482EF9E1
 title: 'MFSampleExtension_Encryption_SubSampleMappingSplit 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c90fb6ae22417f059bfa3268382877363178940
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 19f10f845b337ab92774f36b46940fe9d5203ca3a672f573e33fbcea26e96e16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118240791"
 ---
 # <a name="mfsampleextension_encryption_subsamplemappingsplit-attribute"></a>MFSampleExtension \_ Encryption \_ SubSampleMappingSplit 屬性
 
@@ -46,8 +46,8 @@ m_spSample->SetBlob( MFSampleExtension_Encryption_SubSampleMappingSplit,
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

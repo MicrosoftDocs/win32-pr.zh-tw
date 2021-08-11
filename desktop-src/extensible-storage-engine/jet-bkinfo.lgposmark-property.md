@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a6d51fc144e649d442e9b6ce0ab80b7dd5cc3153
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 759307cb9ef54fce8c63a53af59e03da8085ea8ca315c6e50080f3501ef6c8cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255409"
 ---
 # <a name="jet_bkinfolgposmark-property"></a>JET_BKINFO lgposMark 屬性
 

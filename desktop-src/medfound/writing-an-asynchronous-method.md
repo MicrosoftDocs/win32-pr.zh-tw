@@ -4,12 +4,12 @@ ms.assetid: cd94280d-7267-4d35-8333-aa4a5bd81b73
 title: 撰寫非同步方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3d8360d0c15fe25661b8cd0f0f5adc9768db8ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2efc9b38212f729dc840dde1ad1976a1b523103312710a0f316369637f3b66d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237005"
 ---
 # <a name="writing-an-asynchronous-method"></a>撰寫非同步方法
 

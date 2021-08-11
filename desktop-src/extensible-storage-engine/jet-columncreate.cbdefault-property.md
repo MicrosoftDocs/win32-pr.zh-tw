@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 7d93ec4936b137a18d13bf82eb318cf1000c7f74
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c3ee915c42c0c3536f49a1ebb506ad80045cc8ba4a17d75bd09a3317c2acaa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254968"
 ---
 # <a name="jet_columncreatecbdefault-property"></a>JET_COLUMNCREATE cbDefault 屬性
 

@@ -4,16 +4,16 @@ description: 瞭解 Command 物件的 Voice 屬性，它會傳回或設定語音
 ms.assetid: e393aa89-6fa7-4080-9faf-66faca83d561
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ee7981de076fb3c7d8f796a8cc7d1177f96495c
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 698b39bf2129ff30eae78a949cf6d694af3c356e4c994a1a192bc55ab29fa23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245074"
 ---
 # <a name="voice-property-command-object"></a>語音屬性 (命令物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

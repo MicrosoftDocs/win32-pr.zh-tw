@@ -4,12 +4,12 @@ ms.assetid: 8F541BDB-6801-49BC-A825-03FDE2409099
 title: 'MFPROTECTIONATTRIBUTE_FAIL_OVER 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d74b081d66cd3cd5bdd8b856da6f5f5e89fdbe5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6578111938d1df76d5d0c4a5a9ccd25715b87ec9e8dc8a460ae0c0c3f06e412e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241509"
 ---
 # <a name="mfprotectionattribute_fail_over-attribute"></a>MFPROTECTIONATTRIBUTE \_ 故障 \_ 轉移屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "106977204"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 UWP 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ UWP 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限 UWP 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限 UWP 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2CA548FC-0923-4E02-BFEE-A5179C0C5110
 title: 'MFPROTECTION_DISABLE_SCREEN_SCRAPE 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7577e3efc9e52419ed965a4599841543d565d722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c97de33bd4ebbf7b66693881a9eedddcae7c14d9ac0d773d82ce3a23e952b832
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118241619"
 ---
 # <a name="mfprotection_disable_screen_scrape-attribute"></a>MFPROTECTION \_ DISABLE \_ SCREEN \_ 抓取屬性
 
@@ -25,8 +25,8 @@ ms.locfileid: "104026400"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

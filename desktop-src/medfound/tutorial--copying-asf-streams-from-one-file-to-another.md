@@ -4,12 +4,12 @@ ms.assetid: 158fe3a1-42e6-461d-b56b-5419cd961fca
 title: 教學課程：使用 WMContainer 物件複製 ASF 資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44bac13626a8c80f474eeb029db4eb1351273910
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2149358d216e044f3392b882a997ef4aa455ae799b6ece450bca11f0f22a6781
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237872"
 ---
 # <a name="tutorial-copying-asf-streams-by-using-wmcontainer-objects"></a>教學課程：使用 WMContainer 物件複製 ASF 資料流程
 
@@ -21,7 +21,7 @@ ms.locfileid: "106978887"
 
 -   [先決條件](#prerequisites)
 -   [術語](#terminology)
--   [1. 設定專案](#1-set-up-the-project)
+-   [1. 設定 Project](#1-set-up-the-project)
 -   [2. 宣告 Helper 函數](#2-declare-helper-functions)
 -   [3. 開啟輸入 ASF 檔案](#3-open-the-input-asf-file)
 -   [4. 初始化輸入檔的物件](#4-initialize-objects-for-the-input-file)
@@ -32,7 +32,7 @@ ms.locfileid: "106978887"
 -   [9撰寫 Entry-Point 函式](#9-write-the-entry-point-function)
 -   [相關主題](#related-topics)
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>Prerequisites
 
 本教學課程假設您已句備下列條件：
 
@@ -53,7 +53,7 @@ ms.locfileid: "106978887"
 -   資料封包：媒體範例（公開 [**IMFSample**](/windows/desktop/api/mfobjects/nn-mfobjects-imfsample) 介面）由多工器所產生，代表將寫入資料位元組資料流程的 ASF 資料封包。
 -   輸出位元組資料流程：位元組資料流程物件會公開 [**IMFByteStream**](/windows/desktop/api/mfobjects/nn-mfobjects-imfbytestream) 介面，其中包含輸出檔的內容。
 
-## <a name="1-set-up-the-project"></a>1. 設定專案
+## <a name="1-set-up-the-project"></a>1. 設定 Project
 
 在原始程式檔中包含下列標頭：
 

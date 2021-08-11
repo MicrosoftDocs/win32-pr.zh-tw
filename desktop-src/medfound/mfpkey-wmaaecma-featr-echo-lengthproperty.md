@@ -4,12 +4,12 @@ ms.assetid: d451b90f-7ef7-4f66-be83-aca93e3ad894
 title: 'MFPKEY_WMAAECMA_FEATR_ECHO_LENGTH 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d66f7dcc4764447495e0f3ae55d2d038c2a8d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba4b8f22b87622c00c296f194cb7ba618c55b04901ac30ce216d7387e2e04033
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118242025"
 ---
 # <a name="mfpkey_wmaaecma_featr_echo_length-property"></a>MFPKEY \_ WMAAECMA \_ FEATR \_ ECHO \_ LENGTH 屬性
 
@@ -50,8 +50,8 @@ AEC 演算法會使用彈性篩選，其長度取決於回應的持續時間。 
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

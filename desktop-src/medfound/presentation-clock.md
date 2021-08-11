@@ -4,12 +4,12 @@ ms.assetid: cb8bb62a-ef80-4de0-9a44-3bb77edc9dd5
 title: 簡報時鐘
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f61ad02537a2591c681db78721376651f7854ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f0219b6384373fd75bc8a424935e502841071f69eaa9ae719ec6ed35c950218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239155"
 ---
 # <a name="presentation-clock"></a>簡報時鐘
 

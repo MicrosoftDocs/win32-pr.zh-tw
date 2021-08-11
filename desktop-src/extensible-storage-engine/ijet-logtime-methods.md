@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.ijet
 ms:contentKeyID: 39514015
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bfce3d5543592e8a1dad5e80f98f85cc651de6b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d7b37dadc8d4b8b3bfdc202317ab083f330a9c12067fc0380fcf2c0b3c60911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118255996"
 ---
 # <a name="ijet_logtime-methods"></a>IJET_LOGTIME 方法
 

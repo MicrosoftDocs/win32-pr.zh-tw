@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2aeb09ca52438f7b2f4903e5403eeb722e5d7d7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0e7ba2d19bbab6346f7a62afe56269f762cd94f7ef1730654fb6ac1abf317e4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118235737"
 ---
 # <a name="accelerators-resource"></a>加速器資源
 
@@ -53,7 +53,7 @@ acctablename ACCELERATORS [optional-statements] {event, idvalue, [type] [options
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ acctablename ACCELERATORS [optional-statements] {event, idvalue, [type] [options
 
 
 
-| 類型                    | Description                                                                                                                                                                                                                                  |
+| 類型                    | 描述                                                                                                                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "*char*"                | 用雙引號括住的單一字元 ( ") 。 字元前面可以加上插入號 (^) ，表示字元是控制字元。                                                                                  |
 | *字元*             | 代表字元的整數值。 *型* 別參數必須是 **ASCII**。                                                                                                                                                           |
@@ -72,7 +72,7 @@ acctablename ACCELERATORS [optional-statements] {event, idvalue, [type] [options
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -97,16 +97,16 @@ acctablename ACCELERATORS [optional-statements] {event, idvalue, [type] [options
 
 
 
-| 選項                             | Description                                                                                                                                                                                                                                                                                                                                                                                                                                  |
+| 選項                             | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **NOINVERT**                       | 指定使用快速鍵時，不會反白顯示最上層功能表項目。 當您針對未對應至功能表項目的動作定義快速鍵時，這會很有用。 如果省略 **NOINVERT** ，當使用快速鍵時，最上層的功能表項目會反白顯示 (可能的) 。 這個屬性已過時，而且只是為了與針對16位 Windows 設計的資源檔回溯相容。 |
+| **NOINVERT**                       | 指定使用快速鍵時，不會反白顯示最上層功能表項目。 當您針對未對應至功能表項目的動作定義快速鍵時，這會很有用。 如果省略 **NOINVERT** ，當使用快速鍵時，最上層的功能表項目會反白顯示 (可能的) 。 這個屬性已過時，而且只是為了與針對16位 Windows 所設計資源檔的回溯相容性而保留。 |
 | **ALT**                            | 只有在 ALT 鍵關閉時，才會啟用快速鍵。 只適用于虛擬機器碼。                                                                                                                                                                                                                                                                                                                                            |
 | **轉變**                          | 只有在 SHIFT 鍵已關閉時，才會啟用快速鍵。 僅適用于虛擬機器碼                                                                                                                                                                                                                                                                                                                                           |
 | [**控制**](control-control.md) | 將字元定義為控制字元 (只有在控制項索引鍵) 關閉時，才會啟用快速鍵。 這與使用插入號 (^) 在 *事件* 參數中的快速鍵之前，會有相同的效果。 僅適用于虛擬機器碼                                                                                                                                                                                           |
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -171,6 +171,6 @@ acctablename ACCELERATORS [optional-statements] {event, idvalue, [type] [options
 [**版本**](version-statement.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
