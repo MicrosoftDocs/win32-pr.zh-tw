@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102368
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3f29ab40ae3a5b1cd1335ffd7cc31083341fb459
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6240d1e50ffd762ae17639d9575c74284dbda57ce666f139a9a70164253fccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118263618"
 ---
 # <a name="esentnotindistributedtransactionexception-methods"></a>EsentNotInDistributedTransactionException 方法
 

@@ -1,22 +1,22 @@
 ---
-title: Windows 圖形 Api 之間的介面共用
-description: 本主題提供在 Windows 圖形 Api （包括 Direct3D 11、Direct2D、DirectWrite、Direct3D 10 和 Direct3D 9Ex）之間使用介面共用的互通性技術總覽。
+title: Windows 圖形 api 之間的介面共用
+description: 本主題提供在 Windows 圖形 api （包括 direct3d 11、Direct2D、DirectWrite、direct3d 10 和 direct3d 9Ex）之間使用介面共用的互通性技術總覽。
 ms.assetid: 65abf33e-3d15-42ff-99bd-674f24da773e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1032cb1cf9b16280088f00e79e7e59bb7f1510b1
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 15a5d3e1b52691aeaee2373600dc247da679f0e452a6737741418e54df9490a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290217"
 ---
-# <a name="surface-sharing-between-windows-graphics-apis"></a>Windows 圖形 Api 之間的介面共用
+# <a name="surface-sharing-between-windows-graphics-apis"></a>Windows 圖形 api 之間的介面共用
 
-本主題提供在 Windows 圖形 Api （包括 Direct3D 11、Direct2D、DirectWrite、Direct3D 10 和 Direct3D 9Ex）之間使用介面共用的互通性技術總覽。 如果您已經瞭解這些 Api，這份檔可協助您在針對 Windows 7 或 Windows Vista 作業系統設計的應用程式中，使用多個 Api 轉譯成相同的介面。 本主題也提供最佳做法指導方針和其他資源的指標。
+本主題提供在 Windows 圖形 api （包括 direct3d 11、Direct2D、DirectWrite、direct3d 10 和 direct3d 9Ex）之間使用介面共用的互通性技術總覽。 如果您已經瞭解這些 api，這份檔可協助您使用多個 api，在針對 Windows 7 或 Windows Vista 作業系統設計的應用程式中，轉譯成相同的介面。 本主題也提供最佳做法指導方針和其他資源的指標。
 
 > [!Note]  
-> 針對 DirectX 11.1 執行時間上的 Direct2D 和 DirectWrite 互通性，您可以使用 [Direct2D 裝置和裝置](/windows/desktop/Direct2D/devices-and-device-contexts) 內容直接轉譯至 Direct3D 11 裝置。
+> 若要 Direct2D 和 DirectWrite DirectX 11.1 執行時間的互通性，您可以使用[Direct2D 裝置和裝置](/windows/desktop/Direct2D/devices-and-device-contexts)內容直接轉譯至 Direct3D 11 裝置。
 
  
 
@@ -32,13 +32,13 @@ ms.locfileid: "110343613"
 
 ## <a name="introduction"></a>簡介
 
-在本檔中，Windows 圖形 API 互通性是指由不同的 Api 共用相同的呈現介面。 這種互通性可讓應用程式利用多個 Windows 圖形 Api 來建立吸引人的顯示器，並藉由維持與現有 Api 的相容性，讓您輕鬆地遷移至新的技術。
+在本檔中，Windows 圖形 API 互通性是指不同的 api 共用相同的呈現介面。 這種互通性可讓應用程式利用多種 Windows 圖形 api 來建立吸引人的顯示器，並藉由維持與現有 api 的相容性，讓您更輕鬆地遷移至新的技術。
 
-在 Windows 7 (和 Windows Vista SP2 （含 Windows 7 Interop 套件）中，使用 Vista 7IP) ，圖形轉譯 Api 是 Direct3D 11、Direct2D、Direct3D 10.1、Direct3D 10.0、Direct3D 9Ex、Direct3D 9c 及舊版 Direct3D Api，以及 GDI 和 GDI +。 Windows 影像處理元件 (WIC) 和 DirectWrite 是影像處理的相關技術，而 Direct2D 會執行文字轉譯。 以 Direct3D 9c 和 Direct3D 9Ex 為基礎的 DirectX Video 加速 API (DXVA) 用於影片處理。
+在 Windows 7 (和 Windows vista SP2 與 Windows 7 Interop 套件，vista 7IP) 中，圖形轉譯 api 是 direct3d 11、Direct2D、direct3d 10.1、direct3d 10.0、direct3d 9Ex、direct3d 9c 及舊版 Direct3D api，以及 GDI 和 GDI+。 Windows (WIC 的影像處理元件) 和 DirectWrite 是影像處理的相關技術，而 Direct2D 會執行文字轉譯。 以 Direct3D 9c 和 Direct3D 9Ex 為基礎的 DirectX Video 加速 API (DXVA) 用於影片處理。
 
-隨著 Windows 圖形 Api 的發展，Microsoft 致力於確保 Api 之間的互通性。 根據 Direct3D Api 的新開發 Direct3D Api 和較高層級 Api 也會提供支援，讓您在需要時將相容性與舊版 Api 銜接。 為了說明，Direct2D 應用程式可以藉由共用 Direct3D 10.1 裝置，來使用 Direct3D 10.1。 此外，Direct3D 11、Direct2D 和 Direct3D 10.1 Api 都能充分利用 DirectX Graphic Infrastructure (DXGI) 1.1，這會啟用完整支援這些 Api 之間互通性的同步共用表面。 透過從 DXGI 1.1 介面取得 GDI 裝置內容，以透過關聯性來與 GDI 互動的 DXGI 1.1 型 Api。 如需詳細資訊，請參閱 MSDN 上提供的 DXGI 和 GDI 互通性檔。
+隨著 Windows graphics api 的發展，在以 Direct3D 為基礎的情況下，Microsoft 投入更多精力來確保 api 之間的互通性。 根據 Direct3D Api 的新開發 Direct3D Api 和較高層級 Api 也會提供支援，讓您在需要時將相容性與舊版 Api 銜接。 為了說明，Direct2D 應用程式可以藉由共用 Direct3D 10.1 裝置，來使用 Direct3D 10.1。 此外，Direct3D 11、Direct2D 和 Direct3D 10.1 Api 都能充分利用 DirectX Graphic Infrastructure (DXGI) 1.1，這會啟用完整支援這些 Api 之間互通性的同步共用表面。 透過從 dxgi 1.1 介面取得 gdi 裝置內容，以透過關聯 GDI+ 的 dxgi 1.1 型 api 與 gdi 互動。 如需詳細資訊，請參閱 MSDN 上提供的 DXGI 和 GDI 互通性檔。
 
-Direct3D 9Ex 執行時間支援未同步的介面共用。 以 DXVA 為基礎的影片應用程式，可以使用 direct3d 9Ex 和 DXGI 互通性協助程式進行 direct3d 9Ex 型 DXVA 與 Direct3D 11 for compute 著色器的互通性，或者可以與 Direct2D 互動以進行2D 控制項或文字轉譯。 WIC 和 DirectWrite 也會與 GDI、Direct2D 以及其他 Direct3D Api 相互關聯。
+Direct3D 9Ex 執行時間支援未同步的介面共用。 以 DXVA 為基礎的影片應用程式，可以使用 direct3d 9Ex 和 DXGI 互通性協助程式進行 direct3d 9Ex 型 DXVA 與 Direct3D 11 for compute 著色器的互通性，或者可以與 Direct2D 互動以進行2D 控制項或文字轉譯。 WIC 和 DirectWrite 也會與 GDI、Direct2D，以及其他 Direct3D api 相互關聯。
 
 Direct3D 10.0、Direct3D 9c 和舊版 Direct3D 執行時間不支援共用的表面。 系統記憶體複本將繼續用於與 GDI 或 DXGI 型 Api 的互通性。
 
@@ -46,7 +46,7 @@ Direct3D 10.0、Direct3D 9c 和舊版 Direct3D 執行時間不支援共用的表
 
 ## <a name="api-interoperability-overview"></a>API 互通性總覽
 
-您可以根據 API 對 API 案例和對應的互通性功能，來描述 Windows 圖形 Api 的介面共用互通性。 從 Windows 7 開始，開始使用7IP 的 Windows Vista SP2，新的 Api 和相關聯的執行時間包括 Direct2D 和相關技術： Direct3D 11 和 DXGI 1.1。 Windows 7 也改善了 GDI 效能。 Windows Vista SP1 引進了 Direct3D 10.1。 下圖顯示 Api 之間的互通性支援。
+您可以根據 api 對 api 案例和對應的互通性功能，來描述 Windows 圖形 api 的介面共用互通性。 從 Windows 7 開始，到 Windows Vista SP2 （含7IP）開始，新的 api 和相關聯的執行時間包括 Direct2D 和相關技術： Direct3D 11 和 DXGI 1.1。 Windows 7 也改善了 GDI 效能。 Direct3D 10.1 是在 Windows Vista SP1 中引進。 下圖顯示 Api 之間的互通性支援。
 
 ![windows 圖形 api 之間的互通性支援圖表](images/surface-sharing-interoperability.png)
 
@@ -54,11 +54,11 @@ Direct3D 10.0、Direct3D 9c 和舊版 Direct3D 執行時間不支援共用的表
 
 ## <a name="interoperability-scenarios"></a>互通性案例
 
-從 Windows 7 和 Windows Vista 7IP 開始，Windows 圖形 Api 的主流供應專案支援多個 Api 轉譯成相同的 DXGI 1.1 介面。
+從 Windows 7 和 Windows Vista 7IP，Windows 圖形 api 的主要供應專案支援多個 api 轉譯為相同的 DXGI 1.1 介面。
 
 **Direct3D 11、Direct3D 10.1、Direct2D-互通性**
 
-Direct3d 11、Direct3D 10.1 和 Direct2D Api (與其相關的 Api （例如 DirectWrite 和 WIC）) 可以使用 Direct3D 10.1 裝置共用或同步處理的共用介面彼此交互操作。
+direct3d 11、direct3d 10.1 和 Direct2D api (與其相關的 api （例如 DirectWrite 和 WIC）) 可以使用 Direct3D 10.1 裝置共用或同步處理的共用表面彼此交互操作。
 
 ### <a name="direct3d-101-device-sharing-with-direct2d"></a>使用 Direct2D 共用 Direct3D 10.1 裝置
 
@@ -396,7 +396,7 @@ HRESULT CreateSurfaceQueue(
 
  *pDesc* \[在 \]  要建立之共用介面佇列的描述中。  
 
- *pDevice* \[\]應該用來建立共用表面的裝置。 這是 Windows Vista 中的一項功能，因此是明確的參數。 若為 Direct3D 9 與 Direct3D 10 之間共用的介面，則必須使用 Direct3D 9 來建立這些表面。  
+ *pDevice* \[\]應該用來建立共用表面的裝置。 這是 Windows Vista 中的功能所需的明確參數。 若為 Direct3D 9 與 Direct3D 10 之間共用的介面，則必須使用 Direct3D 9 來建立這些表面。  
 
  *ppQueue* \[傳回 \]  時，包含 ISurfaceQueue 物件的指標。  
 
@@ -540,7 +540,7 @@ HRESULT Dequeue(
 
 **備註**
 
-如果佇列是空的，此 API 就會封鎖。 *DwTimeout* 參數的運作方式與 Windows 同步處理 api 相同，例如 WaitForSingleObject。 若為非封鎖的行為，請使用 timeout 0。  
+如果佇列是空的，此 API 就會封鎖。 *dwTimeout* 參數的運作方式與 Windows 同步處理 api 相同，例如 WaitForSingleObject。 若為非封鎖的行為，請使用 timeout 0。  
 </dl>
 
 ### <a name="isurfaceproducer"></a>ISurfaceProducer
@@ -602,7 +602,7 @@ HRESULT Flush(
 
 
 **參數**  
-*Flags* \[in\]  
+*旗標* \[在\]  
 唯一的旗標是介面佇列旗標不會 \_ \_ \_ \_ \_ 等候。 請參閱＜備註＞。 *nSurfaces* \[out \] 會傳回仍在暫止且未排清的表面數目。  
 </dl>
 

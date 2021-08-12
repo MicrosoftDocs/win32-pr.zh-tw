@@ -7,17 +7,17 @@ keywords:
 - DirectComposition 基本概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0550dc12cb0dcc5262701658d8e3883ee1ce8d82
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 4c2dadcea55ec18089380d7dbe17d99e5dba92b06dd15774c43cd604f28f991c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104565485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118282015"
 ---
 # <a name="basic-concepts"></a>基本概念
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題概要說明 Microsoft DirectComposition 的基本概念。 它包含下列區段：
 
@@ -229,6 +229,6 @@ DirectComposition 物件不是執行緒系結;您可以使用多個執行緒來�
 [DirectComposition 概念](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

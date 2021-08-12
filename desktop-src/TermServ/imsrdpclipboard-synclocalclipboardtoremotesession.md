@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 12/16/2020
-ms.openlocfilehash: 55e407b86a34cf08d356676181d3225b4a5a768c
-ms.sourcegitcommit: 04e801237156e90b48111d60bddf437f87f5cdfe
+ms.openlocfilehash: 516782dcb86dd02b0d3fd31fee5cc463a64b0e86726c826a855e245f37ba5908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/19/2020
-ms.locfileid: "106973122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606903"
 ---
 # <a name="imsrdpclipboardsynclocalclipboardtoremotesession-method"></a>IMsRdpClipboard：： SyncLocalClipboardToRemoteSession 方法
 

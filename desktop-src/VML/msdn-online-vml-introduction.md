@@ -20,21 +20,21 @@ keywords:
 - VML (Vector Markup Language) ，JAVAscript
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7a370519e3f173e7418f1aa0510cac768ff46c3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 96c694f87cab48a3f5da78db0e32ea576b889dbc3f6e49ba886c56d46b6ca244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118600144"
 ---
 # <a name="vml-introduction"></a>VML 簡介
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 本檔提供 Microsoft Office 2000 隨附的 Vector Markup Language (VML) 之執行的完整詳細參考。 其他實施可能會有所不同。 如需 VML 的詳細資訊，請參閱 [vml 規格](https://www.w3.org/TR/NOTE-datetime.html) 。
 
@@ -48,6 +48,6 @@ VML 定義為一組 XML 元素，以及每個專案的對應屬性。 由於 **S
 
 [VML 參考](shape-element--vml.md)
 
- 
+ 
 
- 
+ 

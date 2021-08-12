@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c8334aa54b56a9dccaa7aa0787d8c997baf0445e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: be18f77c4946a5d8a79adc09e97bc9ab35782fdb837f15b82794cbf5f624d59d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546160"
 ---
 # <a name="subscriptionsforcomponent-collection"></a>SubscriptionsForComponent 集合
 
@@ -64,7 +64,7 @@ ms.locfileid: "106973572"
 -   [SubscriberPartitionID](#subscriberpartitionid)
 -   [使用者名稱](#username)
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "106973572"
 
  
 
-### <a name="enabled"></a>已啟用
+### <a name="enabled"></a>啟用
 
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "106973572"
 | 描述    | 指出目前是否已啟用訂用帳戶。 |
 | Access         | 讀寫                                                |
 | 類型           | Bool                                                     |
-| 預設        | 對                                                     |
+| 預設        | 是                                                     |
 | 最小系統 | Windows 2000                                             |
 
 
@@ -208,7 +208,7 @@ ms.locfileid: "106973572"
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 
@@ -304,7 +304,7 @@ ms.locfileid: "106973572"
 
  
 
-### <a name="username"></a>UserName
+### <a name="username"></a>使用者名稱
 
 
 

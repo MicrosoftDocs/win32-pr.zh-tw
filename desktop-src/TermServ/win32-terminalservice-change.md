@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa34ea0c9c38cd0b11f97a0bbf651f1aebf37a46
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: c10e8c7b0a26ce2ca1e602478a64a888a1ad6b299f8ab7965303832bba7a3fc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106995136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604430"
 ---
 # <a name="change-method-of-the-win32_service-class-mbnapih---terminalservice"></a>Win32_Service 類別的 Change 方法 (Mbnapi) -TerminalService
 
@@ -167,7 +167,7 @@ uint32 Change(
 *StartMode* \[在\]
 </dt> <dd>
 
-Windows 基底服務的啟動模式。 如需詳細資訊，請參閱＜備註＞一節。
+Windows 基礎服務的啟動模式。 如需詳細資訊，請參閱＜備註＞一節。
 
 <dt>
 

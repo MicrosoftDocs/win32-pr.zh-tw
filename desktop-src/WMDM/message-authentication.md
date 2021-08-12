@@ -3,7 +3,7 @@ title: 訊息驗證
 description: 訊息驗證
 ms.assetid: 6cb49f6b-e303-4840-9343-9891e75e07a4
 keywords:
-- Windows Media 裝置管理員，訊息驗證
+- Windows媒體裝置管理員，訊息驗證
 - 裝置管理員，訊息驗證
 - 桌面應用程式，訊息驗證
 - 服務提供者，訊息驗證
@@ -13,22 +13,22 @@ keywords:
 - 'MAC (訊息驗證碼) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14805e2074509e918902aae9eb9e9680ca52a6d6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2921b80d42207bab608c6a8260e6756d3e9f323eab70742acc787ff731ad4b80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584482"
 ---
 # <a name="message-authentication"></a>訊息驗證
 
-訊息驗證是一種程式，可讓應用程式和服務提供者確認它們之間傳遞的資料並未遭到篡改。 Windows Media 裝置管理員可讓應用程式和服務提供者使用訊息驗證代碼 (Mac) 來執行訊息驗證。 以下是 MAC 驗證的運作方式：
+訊息驗證是一種程式，可讓應用程式和服務提供者確認它們之間傳遞的資料並未遭到篡改。 Windows媒體裝置管理員可讓應用程式和服務提供者使用訊息驗證代碼 (Mac) 來執行訊息驗證。 以下是 MAC 驗證的運作方式：
 
 資料傳送者（通常是服務提供者）會透過單向密碼編譯函式傳遞一或多個資料片段，該函式會針對所有資料產生單一簽章（MAC）。 接著，傳送者會將所有簽署的資料和 MAC 一起傳送給接收者， (通常是應用程式) 。 接收者會透過相同的密碼編譯函式來傳遞資料，以產生 MAC，並將其與所傳送的 MAC 進行比較。 如果 MAC 相符，就不會修改資料。
 
 若要執行 MAC 驗證，應用程式或服務提供者需要加密金鑰和相符的憑證。 如需如何取得這些資訊的相關資訊，請參閱 [適用于開發的工具](tools-for-development.md)。
 
-下列步驟描述傳送者如何簽署資料，並于稍後由接收者檢查。 在 Windows Media 裝置管理員中，服務提供者會使用 [CSecureChannelServer](csecurechannelserver-class.md) 類別來產生 mac，而應用程式會使用 [CSecureChannelClient](csecurechannelclient-class.md) 類別。 這兩個類別都提供具有相同參數的相同函式，因此下列步驟適用于這兩個類別。
+下列步驟描述傳送者如何簽署資料，並于稍後由接收者檢查。 在 Windows 媒體裝置管理員中，服務提供者會使用[CSecureChannelServer](csecurechannelserver-class.md)類別來產生 mac，而應用程式會使用[CSecureChannelClient](csecurechannelclient-class.md)類別。 這兩個類別都提供具有相同參數的相同函式，因此下列步驟適用于這兩個類別。
 
 傳送者 (通常是服務提供者) ：
 
@@ -159,9 +159,9 @@ if (hr == S_OK)
 [**使用安全驗證通道**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

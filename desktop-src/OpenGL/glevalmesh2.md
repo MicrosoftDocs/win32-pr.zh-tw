@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 531e9f1f6288116d052c728654cd2cf03f38550a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 75d5f1a16b1ceda2c13f24a779032b0e920d364db46167a9dc02ca2b27277262
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616104"
 ---
 # <a name="glevalmesh2-function"></a>glEvalMesh2 函式
 
@@ -89,7 +89,7 @@ void WINAPI glEvalMesh2(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                |
+| 名稱                                                                                                  | 意義                                                                                                                                |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | 表示 *模式* 不是可接受的值。 <br/>                                                                            |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。 <br/> |

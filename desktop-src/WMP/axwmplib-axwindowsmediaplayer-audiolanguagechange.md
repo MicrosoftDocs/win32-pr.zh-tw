@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 354a34f30df237827e3d369721963ec2c1797e71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a40538dad18c4cb6767a034ab5d163f16d1822d9149e15c07ca1130f5eb17f30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582723"
 ---
 # <a name="audiolanguagechange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 AudioLanguageChange 事件
 

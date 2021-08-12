@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e63180386c094f0c4e4de0f1a361bc3bcb1c6e5e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1e3dd966aa08eb5c74fa15235ed51f07a671c4e6f1378a990c6686fdc801e1d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106998017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617346"
 ---
 # <a name="glcopyteximage1d-function"></a>glCopyTexImage1D 函式
 
@@ -152,7 +152,7 @@ void WINAPI glCopyTexImage1D(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                  |
+| 名稱                                                                                                  | 意義                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是可接受的值。<br/>                                                                                                           |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *層級* 小於零或大於 log2 *max*，其中 *max* 是 GL \_ 最大紋理大小的傳回值 \_ \_ 。<br/>                           |

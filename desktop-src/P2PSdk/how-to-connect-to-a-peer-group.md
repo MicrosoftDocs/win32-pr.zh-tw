@@ -1,17 +1,17 @@
 ---
 description: 本主題討論應用程式如何使用對等群組 Api 連接至對等群組。
 ms.assetid: 56fa28d8-3b3a-4cd5-8448-c8c4ce8d0b2c
-title: 如何連接至對等群組
+title: 如何連線到對等群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bb3f41342573742e634a6e7ebce283188f3ffd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bb1cfd08fde0fc733873648dfae1ffb4f86b713b3ed790430686b641a893d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612764"
 ---
-# <a name="how-to-connect-to-a-peer-group"></a>如何連接至對等群組
+# <a name="how-to-connect-to-a-peer-group"></a>如何連線到對等群組
 
 本主題討論應用程式如何使用對等群組 Api 連接至對等群組。
 
@@ -33,7 +33,7 @@ ms.locfileid: "106998107"
 
 離線應用程式可以隨時透過呼叫 [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect)上線。 一旦連線之後，對等群組將無法離線，直到與此身分識別相關聯的其他所有應用程式和共用此群組的連接也都關閉為止。
 
-對等群組是共用資源，具有相同的對等群組可供多個應用程式使用。 如果有一個以上的應用程式適用于相同的身分識別，而 Windows 使用者使用相同的對等群組，則它們也會共用相同的基礎資料庫和連接 (鄰近和直接) 。 如果其中任何一個應用程式呼叫 [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect)，則參與群組的這個身分識別/使用者的所有其他應用程式也會連接到群組。 如果某個應用程式在群組離線時新增了記錄，其他應用程式也可以看到它。 如此一來，應用程式就必須隨時都可上線。
+對等群組是共用資源，具有相同的對等群組可供多個應用程式使用。 如果同一個身分識別有一個以上的應用程式，且 Windows 使用者使用相同的對等群組，則它們也會共用相同的基礎資料庫和連接 (鄰近和直接) 。 如果其中任何一個應用程式呼叫 [**PeerGroupConnect**](/windows/desktop/api/P2P/nf-p2p-peergroupconnect)，則參與群組的這個身分識別/使用者的所有其他應用程式也會連接到群組。 如果某個應用程式在群組離線時新增了記錄，其他應用程式也可以看到它。 如此一來，應用程式就必須隨時都可上線。
 
 ## <a name="connecting-to-a-peer-group-online"></a>連接至對等群組 (線上) 
 

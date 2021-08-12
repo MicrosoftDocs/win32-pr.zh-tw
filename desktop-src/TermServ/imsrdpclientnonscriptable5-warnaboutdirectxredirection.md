@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b39bb49a79e319d848b12e4bbf50e191b21605f3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 02d8d35e4b6088745f9bfd4cfc3af9920db6fca3f88d671f6613af959e259d87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "107000536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118607446"
 ---
 # <a name="imsrdpclientnonscriptable5warnaboutdirectxredirection-property"></a>IMsRdpClientNonScriptable5：： WarnAboutDirectXRedirection 屬性
 

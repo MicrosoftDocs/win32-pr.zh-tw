@@ -3,19 +3,19 @@ title: 主要序列
 description: 金鑰序列字串是一組以逗號分隔的索引鍵識別碼，用來模擬標準美國101按鍵的按鍵和發行順序。
 ms.assetid: 6f5301d1-af6e-4b43-8884-c76b2300ba92
 keywords:
-- Windows Virtual PC Virtual PC，金鑰序列
+- WindowsVirtual PC Virtual PC，金鑰序列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b0c973b5aafd3bf02746ac1550ffedf3d4a4c1f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3b300c1d417bad30f7a0e06fd8cfb411184eb8f6b800549536c9b6452dcdfefa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591443"
 ---
 # <a name="key-sequences"></a>主要序列
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 金鑰序列字串是一組以逗號分隔的索引鍵識別碼，用來模擬標準美國101按鍵的按鍵和發行順序。
 
@@ -120,11 +120,11 @@ ms.locfileid: "103682853"
 | 鍵台 \_ 3             | 鍵盤上的 **3** 鍵     |
 | 鍵盤 \_ 輸入         | 鍵盤上的 **Enter** 鍵 |
 | 金鑰 \_ LeftCtrl         | **左 Ctrl** 鍵           |
-| 金鑰 \_ LeftWindows      | **左邊的 Windows** 鍵        |
+| 金鑰 \_ LeftWindows      | **左方 Windows** 索引鍵        |
 | 金鑰 \_ LeftAlt          | **左 Alt** 鍵            |
 | 金鑰 \_ 空間            | **Space** 鍵               |
 | 金鑰 \_ RightAlt         | **右 Alt** 鍵           |
-| 金鑰 \_ RightWindows     | **正確的 Windows** 鍵       |
+| 金鑰 \_ RightWindows     | **右邊 Windows** 索引鍵       |
 | 金鑰 \_ RightCtrl        | **右 Ctrl** 鍵          |
 | 金鑰 \_ 應用程式      | **應用程式** 金鑰         |
 | 剩餘的索引鍵 \_             | **左邊** 的按鍵                |
@@ -135,7 +135,7 @@ ms.locfileid: "103682853"
 
 
 
- 
+ 
 
 ## <a name="key-modifiers"></a>索引鍵修飾詞
 
@@ -149,7 +149,7 @@ ms.locfileid: "103682853"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -158,6 +158,6 @@ ms.locfileid: "103682853"
 [**IVMKeyboard**](ivmkeyboard.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

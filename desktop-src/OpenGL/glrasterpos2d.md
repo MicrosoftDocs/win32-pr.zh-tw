@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0567843e157f869bc6caf5fa0932e238e54bcf61
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0006361f14e166e8407f2d5c5045e1204ce7b3782e59b15c6d4b5daccf022645
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106991961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614792"
 ---
 # <a name="glrasterpos2d-function"></a>glRasterPos2d 函式
 

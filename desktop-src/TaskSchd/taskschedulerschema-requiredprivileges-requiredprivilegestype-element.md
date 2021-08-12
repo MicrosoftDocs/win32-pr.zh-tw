@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 70476cff01113dcf612f890e8a6aa5538d0ca38e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e395a61aace07dccb27eab04d9c0299115c25f16d84cd42e3d607435478f8060
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611485"
 ---
 # <a name="requiredprivileges-requiredprivilegestype-element"></a>RequiredPrivileges (requiredPrivilegesType) 元素
 
@@ -37,7 +37,7 @@ ms.locfileid: "104106355"
 
 
 
-| 元素                                                                                  | 衍生自                                                           | Description                                                    |
+| 元素                                                                                  | 衍生自                                                           | 描述                                                    |
 |------------------------------------------------------------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------|
 | [**Principal (principalType)**](taskschedulerschema-principal-principaltype-element.md) | [**principalType**](taskschedulerschema-principaltype-complextype.md) | 指定主體的安全性認證。<br/> |
 
@@ -68,8 +68,8 @@ ms.locfileid: "104106355"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

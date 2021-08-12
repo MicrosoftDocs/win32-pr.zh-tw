@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 351ecb8022e06b1a5a24abad8fa8541798d13ba0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a432f1df1ad905ca3200789aa6245212cc180d4c7ef5a8723cf02695aeeb7454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294031"
 ---
 # <a name="id3dxprtenginecomputeldprtcoeffs-method"></a>ID3DXPRTEngine：： ComputeLDPRTCoeffs 方法
 

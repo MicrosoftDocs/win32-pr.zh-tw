@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53934f6682d1a23f99916588aa4eac3b18526c06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cf3d0464b42159ca1827caf579e21982c08d066495cd664ec1adfcaa883a4b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118610403"
 ---
 # <a name="addlstotslsgroup-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 AddLStoTSLSGroup 方法 \_
 

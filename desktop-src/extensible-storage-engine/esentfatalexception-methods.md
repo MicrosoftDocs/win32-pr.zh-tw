@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101655
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9801ca7f05b501ce15884c9ed3384d6a796f095f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8562969ece301c5a9d05af583d8acc970087937f8dcf48ab27a133729021ddbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104565339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118269337"
 ---
 # <a name="esentfatalexception-methods"></a>EsentFatalException 方法
 

@@ -13,12 +13,12 @@ keywords:
 - 圖元、函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5205b8e0d8335aadd67330bf8f883e7066e360fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51a12b832253b347773fefeb299b8c0d5c89bd22d954cd1ccb0e88fd937f9be4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615359"
 ---
 # <a name="glpixelstore-functions"></a>glPixelStore 函式
 
@@ -27,9 +27,9 @@ ms.locfileid: "106967203"
 -   [**glPixelStoref**](glpixelstoref.md)
 -   [**glPixelStorei**](glpixelstorei.md)
 
- 
+ 
 
- 
+ 
 
 
 

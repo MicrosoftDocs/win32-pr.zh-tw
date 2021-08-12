@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1005fba795c8926052dd8a42e13533e6b3319e94
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7948d402219faa930ddc9087af1ba387bde3ce8d70752fd842a364e85b41abb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118609289"
 ---
 # <a name="imsrdpclient5-interface"></a>IMsRdpClient5 介面
 
@@ -54,7 +54,7 @@ ms.locfileid: "104094111"
 
 
 
-| 屬性                                                                | 存取類型          | Description                                                                                         |
+| 屬性                                                                | 存取類型          | 描述                                                                                         |
 |:------------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------------|
 | [**AdvancedSettings6**](imsrdpclient5-advancedsettings6.md)<br/> | 唯讀<br/> | 要 [**IMsRdpClientAdvancedSettings5**](imsrdpclientadvancedsettings5.md)的介面。<br/> |
 | [**MsRdpClientShell**](imsrdpclient5-msrdpclientshell.md)<br/>   | 唯讀<br/> | 入口網站啟動器的用戶端設定。<br/>                                         |

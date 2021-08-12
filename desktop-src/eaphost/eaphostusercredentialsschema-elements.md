@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 762200967b5d1127dc1904d1a3348d50950c04a7
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b6012733a16f7eab84b4242828ce94113e52fc5df7fc62240f9dfce7193d868a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274300"
 ---
 # <a name="eaphostusercredentials-schema-elements"></a>eaphostusercredentials 架構元素
 
@@ -35,9 +35,9 @@ ms.locfileid: "104382890"
 [eaphostusercredentials 架構](eaphostusercredentialsschema-schema.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

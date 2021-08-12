@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9530be7334e1f3fefa7f73007334e448362a95ed
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c14f4a002a0b33e403c02dba74385edd21e211fb27bcfb144c7a9ddc080a40fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606101"
 ---
 # <a name="irdvtaskplugininitialize-method"></a>IRDVTaskPlugin：： Initialize 方法
 
@@ -45,9 +45,9 @@ HRESULT Initialize(
 *pNotifySink* \[在\]
 </dt> <dd>
 
-類型： **[**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md) \** _
+類型： **[ **IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)\***
 
-[_ *IRDVTaskPluginNotifySink* *](irdvtaskpluginnotifysink.md)介面的指標，工作代理程式會使用此介面與觸發程式代理程式進行通訊。 如果不再需要此介面，您必須釋放這個介面。
+[**IRDVTaskPluginNotifySink**](irdvtaskpluginnotifysink.md)介面的指標，工作代理程式會使用此介面與觸發程式代理程式進行通訊。 如果不再需要此介面，您必須釋放這個介面。
 
 </dd> </dl>
 

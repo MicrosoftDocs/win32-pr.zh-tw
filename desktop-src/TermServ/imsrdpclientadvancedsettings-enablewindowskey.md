@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientAdvancedSettings EnableWindowsKey 屬性
-description: 指定是否可以在遠端會話中使用 Windows 金鑰。
+description: 指定是否可以在遠端會話中使用 Windows 索引鍵。
 ms.assetid: fcf0460d-3cd1-4da4-8009-0b1256adf312
 ms.tgt_platform: multiple
 keywords:
@@ -54,16 +54,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e31571e44d6b391250c32268750b25a76105eb2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16c639ee9bb31a5ef0092ec6a2aef8c0235639896a6d6934d8dc9cbadc42f40e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686357"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608598"
 ---
 # <a name="imsrdpclientadvancedsettingsenablewindowskey-property"></a>IMsRdpClientAdvancedSettings：： EnableWindowsKey 屬性
 
-指定是否可以在遠端會話中使用 Windows 金鑰。
+指定是否可以在遠端會話中使用 Windows 索引鍵。
 
 這是可讀寫的屬性。
 

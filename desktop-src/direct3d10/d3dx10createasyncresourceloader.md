@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: 0539817ffff75c28af41289fc5197f6440a915bd
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bedb3559ead576c074dafed526fc0ebfefebaf5c3e53a6559223af346e7f9c98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303453"
 ---
 # <a name="d3dx10createasyncresourceloader-function"></a>D3DX10CreateAsyncResourceLoader 函式
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1344aadfa5fe67e411048bac2a83330ea704c50
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 474bc44550408591616d3a8d2c6c3c69a5a0d073c90297c60b4a831627c996e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611296"
 ---
 # <a name="showmessage-actiongroup-element"></a>ShowMessage (actionGroup) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "104317175"
 
 
 
-| 元素                                                                    | 衍生自                                                       | Description                                            |
+| 元素                                                                    | 衍生自                                                       | 描述                                            |
 |----------------------------------------------------------------------------|--------------------------------------------------------------------|--------------------------------------------------------|
 | [**動作 (taskType)**](taskschedulerschema-actions-tasktype-element.md) | [**actionsType**](taskschedulerschema-actionstype-complextype.md) | 包含工作所執行的動作。<br/> |
 
@@ -46,7 +46,7 @@ ms.locfileid: "104317175"
 
 
 
-| 元素                                                            | 類型           | Description                                                               |
+| 元素                                                            | 類型           | 描述                                                               |
 |--------------------------------------------------------------------|----------------|---------------------------------------------------------------------------|
 | [**本文**](taskschedulerschema-body-showmessagetype-element.md)   | nonEmptyString | 指定要顯示在訊息方塊主體中的文字。 <br/> |
 | [**標題**](taskschedulerschema-title-showmessagetype-element.md) | nonEmptyString | 指定訊息方塊的標題。 <br/>                       |
@@ -59,7 +59,7 @@ ms.locfileid: "104317175"
 
 針對 c + + 開發，會使用 [**IShowMessageAction**](/windows/desktop/api/taskschd/nn-taskschd-ishowmessageaction) 介面指定訊息方塊動作。
 
-**Windows 8 和 Windows Server 2012：** 已移除這個元素。 您可以使用 IExecAction 搭配 Windows 腳本 [**MsgBox 函數**](/previous-versions/sfw6660x(v=vs.80)) ，在使用者會話中顯示訊息。
+**Windows 8 和 Windows Server 2012：** 已移除這個元素。 您可以使用 IExecAction 搭配 Windows 腳本 [**MsgBox 函數**](/previous-versions/sfw6660x(v=vs.80))，在使用者會話中顯示訊息。
 
 ## <a name="examples"></a>範例
 
@@ -71,8 +71,8 @@ ms.locfileid: "104317175"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                 |
 | 伺服器支援結束<br/>    | Windows Server 2008 R2<br/>                    |
 

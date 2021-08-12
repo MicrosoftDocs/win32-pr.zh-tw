@@ -15,18 +15,18 @@ api_type:
 api_location:
 - FrameDynOS.dll
 - FrameDyn.dll
-ms.openlocfilehash: 5d2f06b06db998dc18a876e0e5534e1d86c6ae89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16b4e8933113386e877aec23313f74695b321f932c10f0e2730bcf5888675cc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553244"
 ---
 # <a name="wbemtime-class"></a>WBEMTime 類別
 
 \[**WBEMTime** 類別是 WMI 提供者架構的一部分，現在會被視為最終狀態，而且不會對影響這些程式庫的非安全性相關問題提供進一步的開發、增強功能或更新。 [MI api](/previous-versions/windows/desktop/wmi_v2/windows-management-infrastructure)應該用於所有新的開發。\]
 
-**WBEMTime** 類別可加速各種 WINDOWS 和 ANSI C 執行時間時間格式之間的轉換。 如需詳細資訊，請參閱 [**WBEMTimeSpan 類別方法**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan)。
+**WBEMTime** 類別可加速各種 Windows 和 ANSI C 執行時間時間格式之間的轉換。 如需詳細資訊，請參閱 [**WBEMTimeSpan 類別方法**](/windows/desktop/api/WbemTime/nl-wbemtime-wbemtimespan)。
 
 ## <a name="members"></a>成員
 
@@ -57,7 +57,7 @@ ms.locfileid: "106981217"
 
 | 方法                                                           | 描述                                                                                                                            |
 |:-----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
-| [**清楚**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear)                                  | 將 **WBEMTime** 物件中的時間設定為無效時間。<br/>                                                                |
+| [**清除**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-clear)                                  | 將 **WBEMTime** 物件中的時間設定為無效時間。<br/>                                                                |
 | [**GetBSTR**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getbstr)                              | 以 **BSTR** 值呈現時間。<br/>                                                                                      |
 | [**GetDMTF**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtf)                              | 以 CIM datetime 格式取得 **BSTR** 值的時間。<br/>                                                                   |
 | [**GetDMTFNonNtfs**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-getdmtfnonntfs)                | 取得以 FAT 或 [日期和時間格式](date-and-time-format.md) 為基礎的 DMTF 日期（UTC 未知）。<br/> |
@@ -80,9 +80,9 @@ ms.locfileid: "106981217"
 
 
 
-| WBEMTime 多載運算子                                                                                                                                                                                                                                                                                                                                                                                                                                        | Description                                                                                                                       |
+| WBEMTime 多載運算子                                                                                                                                                                                                                                                                                                                                                                                                                                        | 描述                                                                                                                       |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| [**運算子 =**](/previous-versions/windows/desktop/legacy/aa394050(v=vs.85))                                                                                                                                                                                                                                                                                                                                                                                                                       | *指派* 運算子可加速各種 WINDOWS 和 ANSI C 執行時間時間格式之間的轉換。                           |
+| [**運算子 =**](/previous-versions/windows/desktop/legacy/aa394050(v=vs.85))                                                                                                                                                                                                                                                                                                                                                                                                                       | *指派* 運算子可加速各種 Windows 和 ANSI C 執行時間時間格式之間的轉換。                           |
 | [**運算子 +**](/windows/desktop/api/WbemTime/nf-wbemtime-wbemtime-operator-add)                                                                                                                                                                                                                                                                                                                                                                                                                         | *加法* 運算子會以時間範圍遞增物件的時間。 結果會在新的 **WBEMTime** 物件中傳回。              |
 | [**運算子 + =**](/windows/win32/api/directxmath/nf-directxmath-operator-add-assign)                                                                                                                                                                                                                                                                                                                                                                                                                  | *Add 和 assign* 運算子會以時間範圍遞增物件的時間。                                                             |
 | [**運算子**](/previous-versions/windows/desktop/legacy/aa394051(v=vs.85))                                                                                                                                                                                                                                                                                                                                                                                                                       | *減法* 運算子會將物件的時間遞減為另一個物件的時間。 結果會在新的 **WBEMTime** 物件中傳回。 |

@@ -4,12 +4,12 @@ ms.assetid: b9146e18-b47e-47f1-a25e-7b9e1e81ebb5
 title: 廣播到區域網路
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af56af409ec90358854f63e726d77c9e9407ac99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cb468b5762586b8b44618facdaf6105c6c8d8404c7b2b1a89276a9976326833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560168"
 ---
 # <a name="broadcast-to-local-network"></a>廣播到區域網路
 

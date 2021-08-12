@@ -4,12 +4,12 @@ description: 您在資訊清單中指定的每個訊息字串都必須參考資�
 ms.assetid: aeae9ef6-6ef7-46f5-a9ab-fabe418549b2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7812aed8bf376994a2cbecfa5997737d9740ec1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b55b94ea8e8a40de1401cf3aba97488d5531a77b441361e38f1ff98219940afc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587896"
 ---
 # <a name="localizing-message-strings"></a>當地語系化訊息字串
 
@@ -21,8 +21,8 @@ ms.locfileid: "104023777"
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>

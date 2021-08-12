@@ -5,19 +5,19 @@ ms.assetid: 52963eda-ea95-4307-8924-d4143bc1f53d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd630fd683342c45ab35161bf2c740ac7e8a6fa2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8054ad8234ca4772a52619d83bc85a9d357f2cf8da2f1c969eed918c75a8305a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618944"
 ---
 # <a name="realms-processing-and-attribute-manipulation"></a>領域處理和屬性操作
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 領域處理（也稱為屬性操作）是指將要求存取權的使用者名稱轉換。 也可以操作呼叫端識別碼和被呼叫的工作站識別碼。 領域處理規則是 Proxy 配置檔案屬性集合的一部分。
 
@@ -39,7 +39,7 @@ ms.locfileid: "103682674"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -63,6 +63,6 @@ ms.locfileid: "103682674"
 [**IASPROPERTIES**](/windows/desktop/api/sdoias/ne-sdoias-iasproperties)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

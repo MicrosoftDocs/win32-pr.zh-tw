@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4d5e6703b86f5e60a50ead05f8015df61cfdc6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3c87cb55b22658f704b328a51435ca2554d4c6574e25484253f9899475918642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606175"
 ---
 # <a name="imstscadvancedsettingskeyboardlayoutstr-property"></a>IMsTscAdvancedSettings：： KeyBoardLayoutStr 屬性
 

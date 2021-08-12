@@ -12,18 +12,18 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 644a4afbd10fbfff870007befda964fc9babd593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d58ed866e79269e604fe49ad8afe65d557f27a90d0be03904b8d27da5ac5c2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619055"
 ---
 # <a name="ssid-ssidconfig-element"></a>SSID (SSIDConfig) 元素
 
 SSID (SSIDConfig) 元素包含無線區域網路的 SSID。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 設定檔中最多隻能出現一個 **SSID** 元素。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 設定檔中最多隻能出現一個 **SSID** 元素。
 
 ``` syntax
 <xs:element name="SSID"
@@ -80,7 +80,7 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 
 
-| 元素                                              | 類型 | Description                                                           |
+| 元素                                              | 類型 | 描述                                                           |
 |------------------------------------------------------|------|-----------------------------------------------------------------------|
 | [**hex**](wlan-profileschema-hex-ssid-element.md)   |      | 包含十六進位格式的無線區域網路 SSID。<br/> |
 | [**名字**](wlan-profileschema-name-ssid-element.md) |      | 包含無線區域網路的 SSID。<br/>                      |
@@ -105,8 +105,8 @@ Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                 |
 
 

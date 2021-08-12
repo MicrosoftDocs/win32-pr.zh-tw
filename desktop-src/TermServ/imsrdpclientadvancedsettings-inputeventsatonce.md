@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 999d00cb706e4fdd4cf0c9ed606c33de4a81e8d6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 820b054a97246e81af1b21e46a0e5b272a95749c1aaabc77561e091d00677aaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608526"
 ---
 # <a name="imsrdpclientadvancedsettingsinputeventsatonce-property"></a>IMsRdpClientAdvancedSettings：： InputEventsAtOnce 屬性
 

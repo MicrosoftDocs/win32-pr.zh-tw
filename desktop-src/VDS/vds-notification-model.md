@@ -4,16 +4,16 @@ ms.assetid: a0841215-3eb0-4769-b320-4da25b535362
 title: VDS 通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa99751912f110a77b061d50134135413baf2894
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 931731cc9c2b4aa73f7599c1fcbfad2f885bc74978ab15ba4e1efbf9d2a7522c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104566017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603108"
 ---
 # <a name="vds-notifications"></a>VDS 通知
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 提供者可以將事件通知傳送至 VDS，而 VDS 也可以將通知轉寄給應用程式。 VDS 使用的通知模型類似于 COM 物件所使用的連接點模型。
 

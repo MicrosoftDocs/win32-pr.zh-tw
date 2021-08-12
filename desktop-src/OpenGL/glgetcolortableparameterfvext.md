@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 533ca0c847548fa1de4518079ca6e49d15b6830f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6e7cd93c45c602b35e88fe28c467943829669d329f75007607783ece06f1b51b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104386388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118615768"
 ---
 # <a name="glgetcolortableparameterfvext-function"></a>glGetColorTableParameterfvEXT 函式
 

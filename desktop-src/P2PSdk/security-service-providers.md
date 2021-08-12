@@ -4,12 +4,12 @@ ms.assetid: c3cebb9d-9094-493f-96d3-763a0c282dfb
 title: 安全性服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2121940337d0f4e06c53981cf30f0125180c466
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b53353dc9ed3236ccca5d9a345053870151a7b79e004c5e2ea69e39944209b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612151"
 ---
 # <a name="security-service-providers"></a>安全性服務提供者
 
@@ -49,7 +49,7 @@ ms.locfileid: "106985473"
 
 呼叫 [**EncryptMessage**](graphing-reference-links.md)時，會在 **SecBufferDesc** 結構中傳遞四個緩衝區。 下表指出傳遞緩衝區的順序。
 
-| SSP 特定結構         | Description                                                                                                                                                                                                       |
+| SSP 特定結構         | 描述                                                                                                                                                                                                       |
 |--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **之 SECBUFFER \_ 資料流程 \_ 標頭**  | 包含安全性標頭資料。 標頭緩衝區的大小是藉由呼叫 [**QueryCoNtextAttributes**](graphing-reference-links.md) 並指定 **SECPKG \_ ATTR \_ 資料流程 \_ 大小** 屬性取得。  |
 | **之 SECBUFFER \_ 資料**            | 包含要加密的純文字訊息。                                                                                                                                                                  |

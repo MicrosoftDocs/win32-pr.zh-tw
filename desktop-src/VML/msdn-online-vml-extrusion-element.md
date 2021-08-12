@@ -4,21 +4,21 @@ description: VML Extrusion 元素
 ms.assetid: d26b2451-383a-4ded-a46d-5ecca05ddb7f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a6160a035853153c615576c3875ef9d90791245
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e9ee19db9d933f0b6b749c3165281614d1be87b0e0828f43849f8a36a5b37067
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118601338"
 ---
 # <a name="vml-extrusion-element"></a>VML Extrusion 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義圖形的延伸。
 
@@ -58,13 +58,13 @@ ms.locfileid: "104375745"
 | [SkewAmt](msdn-online-vml-skewamt-attribute.md)                       | 定義拉伸的扭曲量。                                                             |
 | [SkewAngle](msdn-online-vml-skewangle-attribute.md)                   | 定義拉伸的扭曲角度。                                                              |
 | [Specularity](msdn-online-vml-specularity-attribute.md)               | 定義拉伸圖形的 specularity。                                                           |
-| [型別](type-attribute--extrusion--vml.md)                             | 定義形狀的拉伸方式。                                                             |
+| [類型](type-attribute--extrusion--vml.md)                             | 定義形狀的拉伸方式。                                                             |
 | [觀點](msdn-online-vml-viewpoint-attribute.md)                   | 定義觀察者的觀點。                                                                  |
 | [ViewpointOrigin](msdn-online-vml-viewpointorigin-attribute.md)       | 定義圖形周框方塊內的觀點原點。                               |
 
 
 
- 
+ 
 
 **備註**
 
@@ -88,6 +88,6 @@ ms.locfileid: "104375745"
 -   [簡單圖形延伸](/previous-versions/bb229656(v=vs.85))
 -   [動態形狀的延伸](/previous-versions/bb229657(v=vs.85))
 
- 
+ 
 
- 
+ 

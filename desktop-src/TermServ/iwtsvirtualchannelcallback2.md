@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 88b242bce4c76ca45c14eadfba845bd37cb63ba6
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: dea5766bbf43747c11d0aa1d00825ad41e924aa7b9565ceb8444427593977fa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118605431"
 ---
 # <a name="iwtsvirtualchannelcallback2-interface"></a>IWTSVirtualChannelCallback2 介面
 

@@ -4,12 +4,12 @@ description: 若要使用連線到網路資源的本機裝置或網路的名稱�
 ms.assetid: aed410af-d5f0-4389-882b-5b4338b5f900
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d0aeb8df11187828be0865d6b73e08325f2e0e7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 98aeafc849e1a66b373fcb81af46ec47b49644c4b9c753fad480876180a5592a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566476"
 ---
 # <a name="retrieving-the-user-name"></a>正在抓取使用者名稱
 
@@ -45,6 +45,6 @@ else
 
 如需使用應用程式定義錯誤處理常式的詳細資訊，請參閱抓取 [網路錯誤](retrieving-network-errors.md)。
 
- 
+ 
 
- 
+ 

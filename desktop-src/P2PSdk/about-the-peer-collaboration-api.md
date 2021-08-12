@@ -4,12 +4,12 @@ ms.assetid: e61a1d6c-52c6-4ea5-9d92-b047697de78f
 title: 關於對等共同作業 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fb88cdbe1ce2e64ea7b9ce38e044a52b0906868
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f37c0d71b31a107e630fa7f38e5a2304fff8de212163087e81bd457f2cc86fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612802"
 ---
 # <a name="about-the-peer-collaboration-api"></a>關於對等共同作業 API
 

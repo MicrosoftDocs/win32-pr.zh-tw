@@ -1,6 +1,6 @@
 ---
 title: IMsRdpClientNonScriptable 介面
-description: 提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 IMsTscNonScriptable 介面。
+description: 在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 IMsTscNonScriptable 介面。
 ms.assetid: e449342c-b328-4659-8542-28c15bd71edf
 ms.tgt_platform: multiple
 keywords:
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c82ec9c7e882f720851ef576ee77ae3d3b10f4d0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 997f68164e314829a5850f5d9b6be7a42cd2cfba541f16bc12c5846f1ef7e09c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118607724"
 ---
 # <a name="imsrdpclientnonscriptable-interface"></a>IMsRdpClientNonScriptable 介面
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) 介面。 這個介面的方法只能透過 vtable 存取;它們無法用於可編寫腳本的用戶端。
 
 ## <a name="members"></a>成員
 
@@ -41,7 +41,7 @@ ms.locfileid: "104024756"
 
 | 方法                                                                                     | 描述                                                                                                                                                                                                                            |
 |:-------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md) | 通知遠端桌面 ActiveX 控制項的裝置重新導向模組，表示系統上已發生裝置變更。 這個方法會將 [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) 通知傳遞給控制項。<br/> |
+| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md) | 通知遠端桌面的裝置重新導向模組，ActiveX 控制系統上的裝置變更已發生。 這個方法會將 [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) 通知傳遞給控制項。<br/> |
 | [**SendKeys**](imsrdpclientnonscriptable-sendkeys.md)                                     | 將一連串的按鍵傳送到控制項。 按鍵是掃描程式碼形式，也就是實際實體索引鍵的鍵盤資料。<br/>                                                                                |
 
 

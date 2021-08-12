@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\d3d10_shader.htm
 title: D3D10_SHADER 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f16480e2aceada7f5ed05912eca59cc88886ac9b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2e965c050d3643e80b493875b27ba5a9b774b351487e191584f40297819758f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303521"
 ---
 # <a name="d3d10_shader-constants"></a>D3D10 \_ 著色器常數
 
@@ -17,7 +17,7 @@ HLSL 編譯選項。
 
 
 
-| \#定義                                        | Description                                                                                                                                                                                                                                    |
+| \#定義                                        | 描述                                                                                                                                                                                                                                    |
 |-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3D10 \_ 著色器 \_ 避免 \_ 流量 \_ 控制             | 告知編譯器不允許流量控制 (可能的) 。                                                                                                                                                                                       |
 | D3D10 \_ 著色器 \_ 調試                            | 插入 debug 檔案/行/類型/符號資訊。                                                                                                                                                                                                |

@@ -1,6 +1,6 @@
 ---
 title: AxWindowsMediaPlayer. stretchToFit 屬性
-description: StretchToFit 屬性會取得或設定值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
+description: stretchToFit 屬性會取得或設定值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
 ms.assetid: 02e2bcba-4975-4ddd-996b-9bd40774ebc1
 keywords:
 - stretchToFit 屬性 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dd6937ffa556817a80f0b21dfaed6d270c2e351
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a3090889207e0631fbc2f35613398b4c979f4c907cfe240e9f0a7374c74b00b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581508"
 ---
 # <a name="axwindowsmediaplayerstretchtofit-property"></a>AxWindowsMediaPlayer. stretchToFit 屬性
 
-StretchToFit 屬性會取得或設定值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
+stretchToFit 屬性會取得或設定值，指出當影片視窗大於影片影像的尺寸時，Windows Media Player 控制項所顯示的影片是否會自動調整大小以符合影片視窗。
 
 ## <a name="syntax"></a>Syntax
 

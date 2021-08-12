@@ -1,9 +1,9 @@
 ---
-title: 'IWMPError (VB 和 C ) '
+title: IWMPError (VB 和 C ) 的專案
 description: 專案屬性 (\_ 在 C \ ) 中的 get 專案方法，會在錯誤佇列中的指定索引處取得 IWMPErrorItem 介面。
 ms.assetid: acfaaaa5-eb13-4ba0-8417-4229adc62c5d
 keywords:
-- " (VB 和 C ) Windows Media Player 的 IWMPError 專案"
+- IWMPError (VB 和 C ) Windows Media Player 的專案
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9217ec772512171c828dd0dad06ec8fe3704dba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: be8d212eca9e9e54770e7e2751df345d80bbfb6bfc1b12714e811c7795990725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575630"
 ---
-# <a name="iwmperroritem-vb-and-c"></a>IWMPError (VB 和 c # ) 
+# <a name="iwmperroritem-vb-and-c"></a>IWMPError (VB 和 c # ) 的專案
 
 **Item** 屬性 (c # 中的 **get \_ Item** 方法 ) 在錯誤佇列中的指定索引處取得 **IWMPErrorItem** 介面。
 

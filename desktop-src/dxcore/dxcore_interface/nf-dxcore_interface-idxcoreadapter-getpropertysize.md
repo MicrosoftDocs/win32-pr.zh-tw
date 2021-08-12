@@ -4,12 +4,12 @@ description: 針對指定的介面卡屬性，會抓取 [GetProperty](./nf-dxcor
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: ff077d3c4c827a55f7fd9b10dfe93f1271649f72
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 525e2657ab7af5fa6f7cee4f527b74604d2674dbc67da232dd6501ddc45b0291
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279250"
 ---
 # <a name="idxcoreadaptergetpropertysize-method"></a>IDXCoreAdapter：： GetPropertySize 方法
 

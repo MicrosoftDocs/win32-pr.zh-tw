@@ -3,7 +3,7 @@ title: 驗證服務提供者
 description: 驗證服務提供者
 ms.assetid: e48a8a7c-0277-4f0c-bad2-5bc9d0286da8
 keywords:
-- Windows Media 裝置管理員，驗證
+- Windows媒體裝置管理員，驗證
 - 裝置管理員，驗證
 - 程式設計指南，驗證
 - 服務提供者，驗證
@@ -11,22 +11,22 @@ keywords:
 - 驗證 (authentication)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 271bf5594e4adaede01bb8e3795780f8f5c5177a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52d6931acb4644d4222659d428be10877deb164a184c95609663a915c12b95d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586484"
 ---
 # <a name="authenticating-the-service-provider"></a>驗證服務提供者
 
-若要從 Windows Media 裝置管理員存取，服務提供者必須繼承和執行 [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate) 介面。
+若要從 Windows 媒體裝置管理員存取，服務提供者必須繼承和執行 [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate)介面。
 
 若要驗證本身，服務提供者會執行下列步驟：
 
 1.  在具現化時，它會建立新的全域 [CSecureChannelServer](csecurechannelserver-class.md) 物件，並從其金鑰檔設定憑證和金鑰值。
 2.  它會藉由直接將參數傳遞至其全域 CSecureChannelServer 成員，來實 [**IComponentAuthenticate：： SACAuth**](/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacauth) 和 [**IComponentAuthenticate：： SACGetProtocols**](/windows/desktop/api/mswmdm/nf-mswmdm-icomponentauthenticate-sacgetprotocols) 方法。
-3.  在處理任何已執行的 Windows Media 裝置管理員方法之前，服務提供者必須藉由呼叫 CSecureChannelServer：： fIsAuthenticated 來驗證呼叫端的驗證，如果呼叫端未通過驗證，則會失敗。
+3.  在處理任何實 Windows 媒體裝置管理員方法之前，服務提供者必須藉由呼叫 CSecureChannelServer：： fIsAuthenticated 來驗證呼叫端的驗證，如果呼叫端未通過驗證，則會失敗。
 
 下列 c + + 範例會顯示這些步驟。
 
@@ -137,9 +137,9 @@ STDMETHODIMP CMyServiceProvider::GetDeviceCount(DWORD * pdwCount)
 [**建立服務提供者**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

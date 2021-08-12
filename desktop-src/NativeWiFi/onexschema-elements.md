@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7b7f3e7bac256b915d0e134720fc63b3519b21e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c20e6bf2b15fa53e5567d02bf3a88135b66fe7de80a171310249ddb941aedb16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619983"
 ---
 # <a name="onex-schema-elements"></a>OneX 架構元素
 

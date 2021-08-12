@@ -1,23 +1,23 @@
 ---
-title: SQL 可程式性
+title: SQL能力
 description: NPS 支援 SQL Server 記錄。
 ms.assetid: 55152f56-9ca4-4d0b-a0e9-223168dba83f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7dcc3d68519e6e260613d2729cabdb1e9991540a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 33aab125b8e4d00e0be06206dbdd855b7768638a8dd2545e71448a0e1a0f4f8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618533"
 ---
-# <a name="sql-programmability"></a>SQL 可程式性
+# <a name="sql-programmability"></a>SQL能力
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 NPS 支援 SQL Server 記錄。
 
@@ -26,11 +26,11 @@ NPS 支援 SQL Server 記錄。
 ## <a name="sample-stored-procedure"></a>範例預存程式
 
 > [!Note]  
-> NPS 所呼叫 SQL Server 資料庫中的預存程式必須命名為 **report \_ 事件**，否則 nps SQL Server 記錄將會失敗。
+> nps 所呼叫 SQL Server 資料庫中的預存程式必須命名為 **report \_ 事件**，否則 nps SQL Server 記錄將會失敗。
 
- 
+ 
 
-下列範例會在 SQL Server 2000 資料庫環境中建立 NPS 資料庫，並處理設定為記錄至此 SQL Server 的 NPS 伺服器所傳送的 XML 檔。
+下列範例會在 SQL Server 2000 資料庫環境中建立 nps 資料庫，並處理設定為記錄至此 SQL Server 的 nps 伺服器所傳送的 XML 檔。
 
 在此範例中，NAP 專屬資訊（僅適用于 Windows Server 2008 或更新版本上執行的 NPS 伺服器）會儲存在 MS \_ 隔離狀態資料 \_ 行中。 預存程式報表 \_ 事件會從 XML 元素 **'./MS-Quarantine-State '** 抓取這個資料行的值。 MS 隔離狀態資料行允許的值為 \_ \_ 0 (完整存取) 、1 (隔離) ，以及 2 (試用) 。
 
@@ -403,6 +403,6 @@ GO
 [TechNet： IAS SQL Server 記錄的重要概念](/previous-versions/windows/it-pro/windows-server-2003/cc778830(v=ws.10))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

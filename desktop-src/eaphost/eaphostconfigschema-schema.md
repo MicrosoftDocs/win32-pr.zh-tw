@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 28aca669b2099e489738f9d5dac59d3e60c58b13
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 771bd2149b50dac140de6b789d0a9198baea6eb5baf769dd7df15ef052c0d72d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274540"
 ---
 # <a name="eaphostconfig-schema"></a>eaphostconfig 架構
 
@@ -29,9 +29,9 @@ Eaphostconfig 架構會定義 EAPHost 設定架構。
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

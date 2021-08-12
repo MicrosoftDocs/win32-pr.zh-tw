@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e7498db4b39a4ad0e89761cbec439895e4e9a152
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7a7680e27b0d67c9273e4f47da4725c0acab6d173c560bb5b288a30a96931d7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606923"
 ---
 # <a name="imsrdpclienttransportsettings3-interface"></a>IMsRdpClientTransportSettings3 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "103853639"
 
 
 
-| 屬性                                                                                                           | 存取類型           | Description                                                                                                                                          |
+| 屬性                                                                                                           | 存取類型           | 描述                                                                                                                                          |
 |:-------------------------------------------------------------------------------------------------------------------|:----------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**GatewayAuthCookieServerAddr**](imsrdpclienttransportsettings3-gatewayauthcookieserveraddr.md)<br/>       | 讀取/寫入<br/> | 以 cookie 為基礎的驗證的伺服器位址。<br/>                                                                                       |
 | [**GatewayAuthLoginPage**](imsrdpclienttransportsettings3-gatewayauthloginpage.md)<br/>                     | 讀取/寫入<br/> | 用來驗證使用者的登入網頁位址。<br/>                                                                           |
