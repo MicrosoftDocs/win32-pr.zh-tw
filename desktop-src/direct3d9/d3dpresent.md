@@ -4,12 +4,12 @@ ms.assetid: a7d774c1-93c0-47d8-a8a7-e66e394726a3
 title: D3DPRESENT (D3d9.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b8bf496c8c8e10d50b23ad4f784634fb983d2d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f3fd05609e86682b4524e68e985f03abac59f1dbd4537d1ffd683990ca371fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527588"
 ---
 # <a name="d3dpresent"></a>D3DPRESENT
 
@@ -41,7 +41,7 @@ ms.locfileid: "106998210"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_FORCEIMMEDIATE"></span><span id="d3dpresent_forceimmediate"></span><dl> <dt><strong>D3DPRESENT_FORCEIMMEDIATE</strong></dt> </dl></td>
-<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE 會在此 <a href="/windows/desktop/api"><strong>目前</strong></a> 的呼叫上強制執行。 只有在使用 D3DSWAPEFFECT_FLIPEX 時，才能指定此旗標。 視窗化和全螢幕呈現行為相同。 如果媒體應用程式想要捨棄已偵測為最晚的框架，並在組合時顯示後續的畫面格，這特別有用。 如果未正確指定此旗標，則會傳回不正確參數錯誤。 當有多個具有 D3DPRESENT_FORCEIMMEDIATEs 的連續框架排入佇列時，只會顯示最後一個畫面格，同時顯示視窗和全螢幕簡報。<br/> 此旗標可在 Windows 7 或更新版本的作業系統上的 Direct3D 9Ex 中取得。<br/> 使用 D3DSWAPEFFECT_FLIPEX 時，使用 D3DPRESENT_INTERVAL_IMMEDIATE 或 D3DPRESENT_INTERVAL_FORCEIMMEDIATE 所顯示的每個框架都會覆寫上一個畫面格的目前間隔。 例如，如果您使用下列交換效果將下列畫面格排在佇列中：框架 A (D3DPRESENT_INTERVAL_ONE) 、框架 B (D3DPRESENT_INTERVAL_ONE) 、框架 C (D3DPRESENT_INTERVAL_ONE) 、框架 D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE) ，框架 D 將會覆寫框架 C 的目前間隔。 每個出現間隔的顯示畫面格為框架 A、框架 B (框架 C，) 框架 D 覆寫。<br/> 請參閱＜備註＞。<br/></td>
+<td style="text-align: left;">D3DPRESENT_INTERVAL_IMMEDIATE 會在此 <a href="/windows/desktop/api"><strong>目前</strong></a> 的呼叫上強制執行。 只有在使用 D3DSWAPEFFECT_FLIPEX 時，才能指定此旗標。 視窗化和全螢幕呈現行為相同。 如果媒體應用程式想要捨棄已偵測為最晚的框架，並在組合時顯示後續的畫面格，這特別有用。 如果未正確指定此旗標，則會傳回不正確參數錯誤。 當有多個具有 D3DPRESENT_FORCEIMMEDIATEs 的連續框架排入佇列時，只會顯示最後一個畫面格，同時顯示視窗和全螢幕簡報。<br/> 此旗標可在 Windows 7 或更新版本作業系統上的 Direct3D 9Ex 中取得。<br/> 使用 D3DSWAPEFFECT_FLIPEX 時，使用 D3DPRESENT_INTERVAL_IMMEDIATE 或 D3DPRESENT_INTERVAL_FORCEIMMEDIATE 所顯示的每個框架都會覆寫上一個畫面格的目前間隔。 例如，如果您使用下列交換效果將下列畫面格排在佇列中：框架 A (D3DPRESENT_INTERVAL_ONE) 、框架 B (D3DPRESENT_INTERVAL_ONE) 、框架 C (D3DPRESENT_INTERVAL_ONE) 、框架 D (D3DPRESENT_INTERVAL_FORCEIMMEDIATE) ，框架 D 將會覆寫框架 C 的目前間隔。 每個出現間隔的顯示畫面格為框架 A、框架 B (框架 C，) 框架 D 覆寫。<br/> 請參閱＜備註＞。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="D3DPRESENT_INTERVAL_DEFAULT"></span><span id="d3dpresent_interval_default"></span><dl> <dt><strong>D3DPRESENT_INTERVAL_DEFAULT</strong></dt> </dl></td>
@@ -81,10 +81,10 @@ ms.locfileid: "106998210"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR"></span><span id="d3dpresent_video_restrict_to_monitor"></span><dl> <dt><strong>D3DPRESENT_VIDEO_RESTRICT_TO_MONITOR</strong></dt> </dl></td>
-<td style="text-align: left;">將轉譯的內容裁剪至介面卡設為目標的監視器/裝置，並顯示 Flip3D 視圖中的內容縮圖，以及其他監視器的工作列縮圖。 <br/> 此旗標僅適用于 Direct3D 9Ex。<br/> 如需 Windows Vista 這項功能的進一步詳細資訊，請參閱 <a href="/windows/desktop/dwm/dwm-overview">桌面視窗管理員</a> 。 如果您不是在桌面撰寫模式中執行，旗標會提供與 <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>相同的行為。<br/>
+<td style="text-align: left;">將轉譯的內容裁剪至介面卡設為目標的監視器/裝置，並顯示 Flip3D 視圖中的內容縮圖，以及其他監視器的工作列縮圖。 <br/> 此旗標僅適用于 Direct3D 9Ex。<br/> 如需 Windows Vista 這項功能的進一步詳細資料，請參閱<a href="/windows/desktop/dwm/dwm-overview">桌面視窗管理員</a>。 如果您不是在桌面撰寫模式中執行，旗標會提供與 <a href="d3dpresentflag.md">D3DPRESENTFLAG_DEVICECLIP</a>相同的行為。<br/>
 <blockquote>
 [!Note]<br />
-此旗標只能搭配 D3DSWAPEFFECT_FLIPEX 交換效果使用。 此旗標與 <em>其他</em> 交換效果的用法已被取代，在未來的 Windows 版本中可能無法運作。
+此旗標只能搭配 D3DSWAPEFFECT_FLIPEX 交換效果使用。 此旗標與<em>其他</em>交換效果的用法已被取代，在未來的 Windows 版本中可能無法運作。
 </blockquote>
 <br/></td>
 </tr>

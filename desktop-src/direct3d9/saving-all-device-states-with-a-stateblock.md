@@ -4,12 +4,12 @@ ms.assetid: e14077e4-1453-4aa3-b2de-4d3a829a819a
 title: 以 StateBlock (Direct3D 9) 儲存所有裝置狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bfdb4f9b3a9c1e33c2e8e7f50765f1656bd59e1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ffda5b5d637a31c774e97af85ddeca78b0995ee53c015bb2dcd245b42277a4cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520079"
 ---
 # <a name="saving-all-device-states-with-a-stateblock-direct3d-9"></a>以 StateBlock (Direct3D 9) 儲存所有裝置狀態
 

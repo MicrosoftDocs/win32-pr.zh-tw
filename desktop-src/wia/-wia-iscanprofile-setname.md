@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: bd5fbe0e723fea7f7fa75f838b898beceebed0a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0023353f298d5b6690345d559517c3840d33da6eb836c983b85924b5c4ac4260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441472"
 ---
 # <a name="iscanprofilesetname-method"></a>IScanProfile：： SetName 方法
 
@@ -70,8 +70,8 @@ HRESULT SetName(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
 | Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\vertex_tweening.htm
 title: " (Direct3D 9) 的頂點補間"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7a5458e384fa69b91b1eab1623fb526d514591f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8486f53e4eb1a3a003b15255baeb50d30f0ed205f4259625d7d66ba33e8274c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519219"
 ---
 # <a name="vertex-tweening-direct3d-9"></a> (Direct3D 9) 的頂點補間
 

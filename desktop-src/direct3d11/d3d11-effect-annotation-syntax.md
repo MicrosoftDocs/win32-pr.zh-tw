@@ -4,12 +4,12 @@ description: 批註是使用者定義的資訊片段，以本節所述的語法�
 ms.assetid: a81198d2-c4d7-47b5-b3b8-2de11a9ee9a3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9583dafd3e1fb314ae6ac9e53d609bebc74a030
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1109695f6239708e8f241b796b888b8d494acd7ab806b98c08352dbe3aeaee3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538562"
 ---
 # <a name="annotation-syntax-direct3d-11"></a> (Direct3D 11) 的批註語法
 
@@ -28,7 +28,7 @@ ms.locfileid: "103933267"
 
 
 
-| 項目                                                                                                   | 描述                                                                                                                                                                      |
+| Item                                                                                                   | 描述                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*資料類型*<br/> | \[在 \] 資料類型中，包含任何純量 [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) 類型以及 [字串類型](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar)。<br/> |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>*名字*<br/>                 | \[\]表示批註名稱的 ASCII 字串。<br/>                                                                                                          |

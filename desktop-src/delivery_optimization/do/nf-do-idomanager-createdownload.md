@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: b79bf0a1c5602fafea113585dfe6e8ca5b01057c
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 87b78afdf5687bb60efb77815898274a8fb405f588f28b263eb1b01a752a9bc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104374019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543835"
 ---
 # <a name="idomanagercreatedownload-method"></a>IDOManager：： CreateDownload 方法
 
@@ -47,6 +47,6 @@ HRESULT CreateDownload(
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | \[僅限 Windows 10 版本1809的 Win32 應用程式\] |
-| **最低支援的伺服器** | Windows Server，僅限1809版的 \[ Win32 應用程式\] |
+| **最低支援的用戶端** | Windows 10 版本 1809 \[僅限 Win32 應用程式\] |
+| **最低支援的伺服器** | WindowsServer，僅限1809版的 \[ Win32 應用程式\] |
 | **標頭** | Do。h |

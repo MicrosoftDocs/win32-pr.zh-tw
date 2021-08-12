@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: 9f1214f7f9e429b5f9b5b9614c2ccfc7fd1800b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b67e4c15d40f2da7a616295f10a7762b242fb40d9c0b5f42c00eb51d190cc03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118450573"
 ---
 # <a name="itabletcreatecontext-method"></a>ITablet：： CreateCoNtext 方法
 
@@ -121,7 +121,7 @@ Tablet 內容將附加的視窗。
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -139,7 +139,7 @@ Tablet 內容將附加的視窗。
 
  
 
-*>dwoptions* 參數是一組用來描述內容選項的位旗標。 下表描述這些旗標。
+*>Dwoptions* 參數是一組用來描述內容選項的位旗標。 下表描述這些旗標。
 
 
 
@@ -153,7 +153,7 @@ Tablet 內容將附加的視窗。
 | TCXO \_ POSTHOOK<br/>                | 0x00000020<br/>                                                                                                                                                                         | Posthooks 會在一般的 tablet 內容之後，但在系統內容之前取得封包。 它們會以建立的相反順序取得封包。<br/>                                                                                                                   |
 | TCXO \_ 不要 \_ 顯示資料 \_ 指標<br/>      | 0x00000080<br/>                                                                                                                                                                         | TC 不會設定資料指標的位置。<br/>                                                                                                                                                                                                                      |
 | TCXO 不會 \_ \_ 驗證 \_ TCS<br/>     | 0x00000100<br/>                                                                                                                                                                         | TC 不會針對裝置支援的屬性驗證 tablet 內容設定中傳遞的 GUID。<br/>                                                                                                                                      |
-| TCXO \_ 允許 \_ 筆觸<br/>           | 0x00000400<br/>                                                                                                                                                                         | TC 將允許執行筆觸偵測 (預設只允許在系統內容) ，而且用戶端會取得 SE 筆觸 \_ 事件。<br/>                                                                                                               |
+| TCXO \_ 允許 \_ 筆觸<br/>           | 0x00000400<br/>                                                                                                                                                                         | TC 將允許執行筆觸偵測 (預設只允許在系統內容) ，而且用戶端會取得 SE 的 \_ 筆鋒事件。<br/>                                                                                                               |
 | TCXO \_ 允許 \_ 意見反應 \_ 點擊<br/>   | 0x00000800<br/>                                                                                                                                                                         | TC 將允許顯示畫筆意見反應。 根據預設，這只允許在系統內容上使用。<br/>                                                                                                                                                              |
 | TCXO \_ 允許 \_ 意見反應 \_ 桶<br/> | 0x00001000<br/>                                                                                                                                                                         | TC 將允許顯示畫筆意見反應。 根據預設，這只允許在系統內容上使用。<br/>                                                                                                                                                              |
 | TCXO \_ 全部<br/>                     | TCXO \_ MARGIN \| TCXO \_ PREHOOK \| TCXO 資料 \_ 指標 \_ 狀態 \| TCXO \_ 沒有 \_ 游標 \_ 向下 \| TCXO \_ 非整合式 \_ \| TCXO \_ POSTHOOK TCXO 不顯示資料 \| \_ \_ \_ 指標 TCXO 不 \| \_ \_ 驗證 \_ TCS<br/> | 所有已定義的 tablet coNtext 選項。<br/>                                                                                                                                                                                                                           |
@@ -169,7 +169,7 @@ Tablet 內容將附加的視窗。
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

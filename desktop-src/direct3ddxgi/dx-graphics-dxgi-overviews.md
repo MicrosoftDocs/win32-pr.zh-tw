@@ -4,12 +4,12 @@ ms.assetid: bcbeb4bc-3bd1-40ed-b176-a8091cc6ee9f
 title: DXGI 的程式設計指南
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7834b2fc68019dccfb8ab8b2e62698465ff1ea2d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ee0ac41155557c14ca41f8e0ea9f1836247bd3b78da213c1fbbed521499eae7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518381"
 ---
 # <a name="programming-guide-for-dxgi"></a>DXGI 的程式設計指南
 
@@ -39,7 +39,7 @@ Microsoft DirectX Graphic Infrastructure (DXGI) 管理可獨立于 Direct3D 圖�
 | [Direct3D 功能等級12.0 硬體的格式支援](hardware-support-for-direct3d-12-0-formats.md)<br/>               | 此區段會指定 Direct3D 功能等級12.0 硬體支援的格式 ([**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 值) 。<br/>          |
 | [Direct3D 功能等級12.1 硬體的格式支援](hardware-support-for-direct3d-12-1-formats.md)<br/>               | 此區段會指定 Direct3D 12.1 硬體中所支援)  ([**DXGI \_ 格式**](/windows/win32/api/dxgiformat/ne-dxgiformat-dxgi_format) 值的格式。<br/>                        |
 | [檢查硬體功能支援](checking-hardware-feature-support.md)<br/>                                              | 本節涵蓋如何使用 API 呼叫來檢查 Direct3D 功能等級硬體的格式支援。<br/>                                                       |
-| [為了達到最佳效能，請使用 DXGI 翻轉模型](for-best-performance--use-dxgi-flip-model.md)<br/>                              | 本主題提供開發人員指引，說明如何在新式 Windows 的簡報堆疊中最大化效能和效率。<br/>                 |
+| [為了達到最佳效能，請使用 DXGI 翻轉模型](for-best-performance--use-dxgi-flip-model.md)<br/>                              | 本主題提供的開發人員指導方針，可讓您瞭解如何在新式 Windows 版本的展示堆疊中最大化效能和效率。<br/>                 |
 
 
 

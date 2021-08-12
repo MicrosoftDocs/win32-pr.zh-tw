@@ -6,12 +6,12 @@ keywords:
 - 函數，Direct3D 11 著色器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64eed6da7d56babf56c98721242db345a604949
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
-ms.translationtype: HT
+ms.openlocfilehash: d2499f8f1c45d56af5b831cf8ddac2625de3fc80715ad11277986d1dbddbbaec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537474"
 ---
 # <a name="shader-functions-direct3d-11-graphics"></a> (Direct3D 11 圖形) 的著色器函式
 

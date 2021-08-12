@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bb65a8ea83feaf2fec80403fc9ac6c2ab38c1936
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f23fac2f6671584c69ecad045d13e885e86fb260164675da3bc51f7edf847f73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103679180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515633"
 ---
 # <a name="dcl_resource-sm4---asm"></a>dcl \_ 資源 (sm4-asm) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "103679180"
 
 
 
-| 項目                                                                                                                                                     | 描述                                                                                                                                                                                                                                                              |
+| Item                                                                                                                                                     | 描述                                                                                                                                                                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="tN"></span><span id="tn"></span><span id="TN"></span>t *N*<br/>                                                                           | \[在材質暫存器中 \] ，其中 *N* 是表示註冊編號的整數。<br/>                                                                                                                                                                        |
 | <span id="resourceType"></span><span id="resourcetype"></span><span id="RESOURCETYPE"></span>*resourceType*<br/>                                   | \[在 \] [ [材質物件](dx-graphics-hlsl-to-type.md) ] 頁面中所列的任何物件類型中。<br/>                                                                                                                                                                     |
@@ -93,9 +93,9 @@ dcl_resource t3, buffer, UNORM
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

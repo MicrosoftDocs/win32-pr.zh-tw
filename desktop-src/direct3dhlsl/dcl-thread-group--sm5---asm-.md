@@ -4,12 +4,12 @@ description: 宣告執行緒群組大小。
 ms.assetid: CB8192C4-100D-49B6-94E7-6CD3AEC28149
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8141c80e82f1dfd1ae5a4d360d04fac32ba5221
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 5402e53e2252d8019ba553c6a8ff449200625b1469ee923f3c26234f1faa292e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515476"
 ---
 # <a name="dcl_thread_group-sm5---asm"></a>dcl \_ 執行緒 \_ 群組 (sm5-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104022846"
 
 
 
-| 項目                                                   | 描述                                                        |
+| Item                                                   | 描述                                                        |
 |--------------------------------------------------------|--------------------------------------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/> | \[在 \] usigned 32 位整數中。 1 <= x <= 1024 <br/> |
 | <span id="y"></span><span id="Y"></span>*Y*<br/> | \[在 \] usigned 32 位整數中。 1 <= y <= 1024<br/>  |
@@ -46,7 +46,7 @@ x \* y \* z <= 1024
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | X       |
 
@@ -63,11 +63,11 @@ x \* y \* z <= 1024
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

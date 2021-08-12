@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cac6e842dabeaabc60451737fae56eb2cb61915
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 8ec7328ce346b51c3315086dcc193f421081dd77fc3a169bc448fba10bc7fa3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536833"
 ---
 # <a name="d3dx11_pass_shader_desc-structure"></a>D3DX11 \_ PASS \_ 著色器 \_ DESC 結構
 

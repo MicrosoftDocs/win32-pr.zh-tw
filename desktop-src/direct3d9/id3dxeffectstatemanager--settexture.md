@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: b395c19b65bb39b8328da24f727292f7dbe2a0f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 96ed2d8abfd7cb815292c81e6cc9feb2ae84c184cded3b5c5a808dbb4456598f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118521244"
 ---
 # <a name="id3dxeffectstatemanagersettexture-method"></a>ID3DXEffectStateManager：： SetTexture 方法
 
@@ -41,7 +41,7 @@ HRESULT SetTexture(
 
 <dl> <dt>
 
-*Stage* \[in\]
+*階段* \[在\]
 </dt> <dd>
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**

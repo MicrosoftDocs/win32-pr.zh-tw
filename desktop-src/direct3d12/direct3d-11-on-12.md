@@ -5,19 +5,19 @@ ms.assetid: 8412D8BB-B6DD-471E-AAB2-A81121FB0FFA
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62816ea0d7d7969cd56e0a9f525b2c412c8da182
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 12a67c7e0cd3592d35af80f280fc9f1893f4741fcadcc73afd3753880bccda3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530226"
 ---
 # <a name="direct3d-11-on-12"></a>Direct3D 11 on 12
 
 D3D11On12 是一種機制，開發人員可以使用 D3D11 介面和物件來驅動 D3D12 API。 D3D11on12 可讓使用 D3D11 撰寫的元件 (例如，D2D 文字和 UI) 與以 D3D12 API 為目標的元件一起運作。 D3D11on12 也可讓應用程式從 D3D11 增量移植至 D3D12，方法是讓應用程式的某些部分繼續以較簡單的目標為目標，同時讓其他人以 D3D12 為效能，同時一律具有完整且正確的呈現。 D3D11On12 可讓您更輕鬆地使用 interop 技術來共用資源，並在兩個 Api 之間同步處理工作。
 
 -   [正在初始化 D3D11On12](#initializing-d3d11on12)
--   [使用方式範例](#example-usage)
+-   [使用範例](#example-usage)
 -   [背景](#background)
 -   [清除](#cleaning-up)
 -   [限制](#limitations)
@@ -69,9 +69,9 @@ D3D11On12 所建立的所有其他資源或物件，會在 GPU 完成使用時�
 
 D3D11On12 層會實作為 D3D11 API 的一小部分，但除了可能會導致轉譯) 不正確的之外，還有一些已知的間隙 (。
 
-從 Windows 10 版本 1809 (10.0;組建 17763) ，只要 D3D11On12 在支援著色器模型6.0 或更新版本的驅動程式上執行，就可以執行使用介面的著色器。 在舊版的 Windows 中，著色器介面功能不會在 D3D11On12 中執行，而且嘗試使用此功能將會造成錯誤和偵錯工具訊息。
+從 Windows 10 版本 1809 (10.0;組建 17763) ，只要 D3D11On12 在支援著色器模型6.0 或更新版本的驅動程式上執行，就可以執行使用介面的著色器。 在舊版 Windows 中，著色器介面功能不會在 D3D11On12 中執行，而且嘗試使用此功能將會造成錯誤和偵錯工具訊息。
 
-從 Windows 10 版本 1803 (10.0;組建 17134) ，D3D11On12 裝置上支援交換鏈。 在舊版的 Windows 中，則不是。
+從 Windows 10，1803版 (10.0;組建 17134) ，D3D11On12 裝置上支援交換鏈。 在舊版 Windows 中，則不是。
 
 D3D11On12 尚未針對效能優化。 相較于標準 D3D11 驅動程式、最少量的 GPU 額外負荷，以及已知的記憶體額外負荷，可能會有適中的 CPU 負擔。 因此，不建議將 D3D11On12 用於複雜的3D 場景，而是改為使用簡單的場景或2D 轉譯。
 
@@ -92,6 +92,6 @@ D3D11On12 尚未針對效能優化。 相較于標準 D3D11 驅動程式、最�
 [使用 Direct3D 11、Direct3D 10 和 Direct2D](direct3d-12-interop.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

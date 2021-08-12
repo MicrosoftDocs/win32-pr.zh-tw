@@ -4,12 +4,12 @@ description: 本章節會說明 Direct3D 11 API。
 ms.assetid: c6ec864b-4565-45af-a95f-d1ed1e70a316
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd135a17ebf09a4e1db1d431a2f5b69cba624db4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa87c6c20870e0a385bf41ca739f19492098d1da1c500fe8948949b1fb3d2fe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118537212"
 ---
 # <a name="direct3d-11-reference"></a>Direct3D 11 參考
 

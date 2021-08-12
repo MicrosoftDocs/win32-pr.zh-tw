@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 276c8c44d2b2b034543aae25361c5f5c94046f5d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dcf6905388d54103aaac34ae934c89e2fd8ccc16ce32a384eb730376606351b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542925"
 ---
 # <a name="ibackgroundcopyjobsetnoprogresstimeout-method"></a>IBackgroundCopyJob：： SetNoProgressTimeout 方法
 
@@ -56,7 +56,7 @@ HRESULT SetNoProgressTimeout(
 
 
 
-| 傳回碼                                                                                          | Description                                                                                          |
+| 傳回碼                                                                                          | 描述                                                                                          |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl>             | 已成功設定重試期限。<br/>                                                            |
 | <dl> <dt>**DO_E_INVALID_STATE**</dt> </dl> | 無法 BG_JOB_STATE_CANCELLED 或 BG_JOB_STATE_ACKNOWLEDGED 作業的狀態。<br/> |
@@ -76,8 +76,8 @@ HRESULT SetNoProgressTimeout(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |

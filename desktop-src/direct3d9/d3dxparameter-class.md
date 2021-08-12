@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9shader.h
-ms.openlocfilehash: c42bfc9335c38de04ab484193a1e178a122f2210
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 10d786dbbb50c44519f4f6bb1239b9fd07dfadeb706c13eca588051a918103cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103853967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525237"
 ---
 # <a name="d3dxparameter_class-enumeration"></a>D3DXPARAMETER \_ 類別列舉
 

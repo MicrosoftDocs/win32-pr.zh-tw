@@ -4,12 +4,12 @@ ms.assetid: 2b442cf7-2146-4dea-809a-ebb8bcfbec08
 title: " (Direct3D 9) 建立深度緩衝區"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa30ccba6c44d3582201ea96017a16cc903fecce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0d2f79e6ad32aa2c10b92d0233f85d86744d0a2c562b1991c89990d61bad506c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527920"
 ---
 # <a name="creating-a-depth-buffer-direct3d-9"></a> (Direct3D 9) 建立深度緩衝區
 

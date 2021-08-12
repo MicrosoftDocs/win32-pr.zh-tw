@@ -4,12 +4,12 @@ ms.assetid: c72bbd47-0219-40ba-a7d5-2a6b725972d0
 title: COM + 設計假設和原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7dea86c404896a3d6095d39ebd6031767f6ccdd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 28b87c5ae631cd5517b215efae3a09968649cd49ea94fe33b33d9b826082e911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549393"
 ---
 # <a name="com-design-assumptions-and-principles"></a>COM + 設計假設和原則
 
@@ -22,7 +22,7 @@ COM + 的開發目的是要讓您更輕鬆地建立分散式應用程式。 整�
 這些假設如下：
 
 -   **COM + 應用程式會跨多個伺服器支援多個使用者。** 換句話說，您要建立分散式應用程式，而這些使用者會在程式碼執行所在的不同主機電腦上。 使用者會透過網際網路或私人網路來存取程式碼。 使用者介面會透過瀏覽器或自訂應用程式呈現，例如以 Microsoft Visual Basic 或 MFC 撰寫的表單架構應用程式。 該使用者介面即將位於用戶端電腦上。
--   **您可以透過將應用程式部署到多部伺服器電腦，將 COM + 應用程式設為可調整，並提供更高的可用性和可靠性。** 如此一來，您就可以平衡應用程式的工作負載，並使用 Windows 叢集來提供容錯能力。
+-   **您可以透過將應用程式部署到多部伺服器電腦，將 COM + 應用程式設為可調整，並提供更高的可用性和可靠性。** 如此一來，您就可以在應用程式的工作負載之間取得平衡，並利用 Windows 叢集來提供容錯能力。
 -   **如果發生錯誤，當您使用交易時，將會維護從 COM + 應用程式儲存在資料庫中之保存資料的狀態。** 應用程式狀態必須存活可能發生的事故，例如應用程式錯誤、系統損毀或網路失敗。
 
 ## <a name="principles"></a>原則
@@ -48,7 +48,7 @@ COM + 的開發目的是要讓您更輕鬆地建立分散式應用程式。 整�
 [使用 UML 設計 COM + 應用程式](designing-the-com--application-using-uml.md)
 </dt> <dt>
 
-[使用 COM + 的一般設計秘訣](general-design-tips-for-using-com-.md)
+[使用 COM + 的一般設計提示](general-design-tips-for-using-com-.md)
 </dt> <dt>
 
 [優化與 COM + 商務邏輯層的互動](optimizing-interactions-with-the-com--business-logic-tier.md)

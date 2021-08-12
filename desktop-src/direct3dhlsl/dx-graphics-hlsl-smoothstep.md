@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 64e828b52a4d4517e53ba1f1aaf0f687255ad02b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5416dab57fc77f7b664518afcb0f4623875fd2a660f7d1aff82ab42f2c297b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513790"
 ---
 # <a name="smoothstep"></a>smoothstep
 
@@ -37,7 +37,7 @@ ms.locfileid: "104971708"
 
 
 
-| 項目                                                         | 描述                                               |
+| Item                                                         | 描述                                               |
 |--------------------------------------------------------------|-----------------------------------------------------------|
 | <span id="min"></span><span id="MIN"></span>*化*<br/> | \[在 \] *x* 參數的最小範圍內。<br/> |
 | <span id="max"></span><span id="MAX"></span>*麥克斯*<br/> | \[在 \] *x* 參數的最大範圍內。<br/> |
@@ -59,7 +59,7 @@ ms.locfileid: "104971708"
 
 
 
-| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小                           |
+| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小                           |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|--------------------------------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意                            |
 | *min* | 與輸入 *x* 相同                                                                                              | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | ) 為輸入 *x* 的相同維度 (s |

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofile.h
-ms.openlocfilehash: 13d8d276ca4b849fc1a2ae108369f84354d44361
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b8193259844732b708e56ba5fb191bd9ed7f9bf8fac27609c256b4df9cc7ccb2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441471"
 ---
 # <a name="iscanprofilegetnumpropids-method"></a>IScanProfile：： GetNumPropIDS 方法
 
@@ -42,7 +42,7 @@ HRESULT GetNumPropIDS(
 *num* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
 設定檔中的屬性識別碼數目。
 
@@ -50,7 +50,7 @@ HRESULT GetNumPropIDS(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -60,8 +60,8 @@ HRESULT GetNumPropIDS(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofile。h</dt> </dl>    |
 | Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 

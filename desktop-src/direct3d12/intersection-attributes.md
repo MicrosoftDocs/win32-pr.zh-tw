@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: language-reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2f1dd8fee7371f81dd538b6ea6622f22e3bfd3d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: fea10edb8402f07431d488ff9d28d1de539259e51bc1893d20e76e8f4cc3cdab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "106986663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118528116"
 ---
 # <a name="intersection-attributes-structure"></a>交集屬性結構 
 

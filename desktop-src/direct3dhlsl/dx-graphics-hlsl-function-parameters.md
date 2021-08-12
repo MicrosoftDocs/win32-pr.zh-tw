@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3ba35ad04b20b67e45550644e842d69209ca5088
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
+ms.openlocfilehash: 7a2f2fdb656917ccf9dc57f06713fe01d77398d35776ac0c479b7d088281bc0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514761"
 ---
 # <a name="function-arguments"></a>函數引數
 
@@ -45,7 +45,7 @@ ms.locfileid: "104374295"
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -72,7 +72,7 @@ ms.locfileid: "104374295"
 <td>僅輸出</td>
 </tr>
 <tr class="odd">
-<td><strong>均勻</strong></td>
+<td><strong>uniform</strong></td>
 <td>只輸入常數資料</td>
 </tr>
 </tbody>

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0b4d22740a9ad06a9848dc7649d62ac06d37a056
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ecc7f99e26088ff03b626604279bffe5c64ddb82b95a6f6219b637b3fce5a59b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527302"
 ---
 # <a name="d3dvertexblendflags-enumeration"></a>D3DVERTEXBLENDFLAGS 列舉
 

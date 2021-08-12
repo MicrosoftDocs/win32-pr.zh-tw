@@ -4,12 +4,12 @@ ms.assetid: f55ad3c0-0457-4d5a-a7d3-8eff744d573d
 title: 分散式檔案系統結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42fc3351402c4721952cbfc4dc3fe3c6ac6d3a76
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ab1561a4586cc03304c6aa1c1e323eb42fd09766df0cc3c7210636367337873a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541279"
 ---
 # <a name="distributed-file-system-structures"></a>分散式檔案系統結構
 

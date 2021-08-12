@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f561a4109fbab2163b2ec51e95b45a618da5b6d5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 030e4a796be5c35b5f57e1e17832b7da7c3514edd494d5421e3c13d7b2dc3e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118540179"
 ---
 # <a name="id3dx10meshsetindexdata-method"></a>ID3DX10Mesh：： SetIndexData 方法
 

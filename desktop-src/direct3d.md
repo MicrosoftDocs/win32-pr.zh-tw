@@ -4,12 +4,12 @@ ms.assetid: 193640FE-7E88-4BC4-B4CD-867169375F2B
 title: Direct3D
 ms.topic: article
 ms.date: 02/07/2020
-ms.openlocfilehash: f4fa0c25ab169b0faae9c467c437b96d0453cd34
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a7a0e892964b958da6011ee24e5b91cd2eee48c25975564f16f30524248cdb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541269"
 ---
 # <a name="direct3d"></a>Direct3D
 

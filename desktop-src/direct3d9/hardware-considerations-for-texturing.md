@@ -4,12 +4,12 @@ ms.assetid: 7b5f586c-616c-4351-b6b9-5c0179db5d8b
 title: " (Direct3D 9) 進行紋理的硬體考慮"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21f1ba8bea85cc3657478767aac7c7ffc2abebbd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: b41344d1ee091a1d2d619e366de549d58b69aebf234b89b6cf8115511703b799
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522799"
 ---
 # <a name="hardware-considerations-for-texturing-direct3d-9"></a> (Direct3D 9) 進行紋理的硬體考慮
 

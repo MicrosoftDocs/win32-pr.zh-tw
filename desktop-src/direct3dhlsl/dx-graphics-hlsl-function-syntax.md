@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 847194c08b865542cff1deb20c8518a7e4b62ab9
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: ce8c6ec83963dac74dce32d248b23548c767192a604ddb8afbe35cf932dedee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514603"
 ---
 # <a name="function-declaration-syntax"></a>函式宣告語法
 
@@ -82,7 +82,7 @@ HLSL 函式會使用下列語法來宣告。
 
 只要指定了參數類型和/或參數順序的唯一組合，就可以多載函式。 HLSL 也會執行一些內建或 [**內建函式**](dx-graphics-hlsl-intrinsic-functions.md)。
 
-您可以使用 **clipplanes** 屬性來指定使用者特定的剪輯平面。 Windows 會將這些剪輯平面套用至所有繪製的基本專案。 **Clipplanes** 屬性的運作方式類似 [SV \_ ClipDistance](dx-graphics-hlsl-semantics.md) ，但適用于所有硬體 [功能層級](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro)9 \_ x 和更高。 如需詳細資訊，請參閱「 [功能等級9硬體上的使用者剪輯平面](/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9)」。
+您可以使用 **clipplanes** 屬性來指定使用者特定的剪輯平面。 Windows 將這些剪切平面套用至所有繪製的基本專案。 **Clipplanes** 屬性的運作方式類似 [SV \_ ClipDistance](dx-graphics-hlsl-semantics.md) ，但適用于所有硬體 [功能層級](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro)9 \_ x 和更高。 如需詳細資訊，請參閱「 [功能等級9硬體上的使用者剪輯平面](/windows/desktop/direct3dhlsl/user-clip-planes-on-10level9)」。
 
 ## <a name="examples"></a>範例
 

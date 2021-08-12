@@ -5,12 +5,12 @@ ms.assetid: DF266915-6224-4FFB-BE3E-34A44F7318DD
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfef479e88e5c77df0732113597a4742ecb909c
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: c974516a09552fc5e3b301ca3ef91a3aea3d1752d0177f34d5fc94928ee8f293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530550"
 ---
 # <a name="descriptor-heap-configurability-summary"></a>描述元堆積的配置摘要
 

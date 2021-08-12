@@ -3,15 +3,15 @@ title: 其他考量
 description: 移植您的程式碼時，請考慮下列幾點。
 ms.assetid: 2d649a09-b593-477a-9b4f-d2404784f4b0
 keywords:
-- 移植提示 64-位 Windows 程式設計
+- 移植秘訣 64-位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7607685f4b4ba04b86da276c38090a48ce0fead
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 199f522bebf0d6d5552aa81d99aab12f77685dea35eb329b9e7d11d46b4f1500
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "107000640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561533"
 ---
 # <a name="additional-considerations"></a>其他考量
 
@@ -120,7 +120,7 @@ ms.locfileid: "107000640"
     ```
 
 - 請勿傳遞給函式 `(HANDLE)0xFFFFFFFF` ，例如 [**CreateFileMapping**](/windows/desktop/api/winbase/nf-winbase-createfilemappinga)。 相反地，請使用 **不正確 \_ 控制碼 \_ 值**。
-- 列印字串時，請使用適當的格式規範。 使用% p 以十六進位列印指標。 這是列印指標的最佳選擇。 Microsoft Visual C++ 支援% I列印多型資料。 Visual C++ 也支援% I64 來列印64位的值。
+- 列印字串時，請使用適當的格式規範。 使用% p 以十六進位列印指標。 這是列印指標的最佳選擇。 Microsoft Visual C++ 支援% I 來列印多型資料。 Visual C++ 也支援% I64 來列印64位的值。
 
  
 

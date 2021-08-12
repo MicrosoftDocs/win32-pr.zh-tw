@@ -9,12 +9,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90d5362d0f093c7c1034e03d396ad28c40d4d600
-ms.sourcegitcommit: 170bc12e9724d00cecbb96d57c7226c51e135dee
+ms.openlocfilehash: b41677ee1bc17fb2a935f157d969352617c0d5c3c15eb38a76225b3a8c71e7f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113489176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529138"
 ---
 # <a name="executing-and-synchronizing-command-lists"></a>執行和同步處理命令清單
 

@@ -3,7 +3,7 @@ title: 'XTYP_ADVSTART 交易 (Ddeml .h) '
 description: 用戶端會使用 XTYP \_ ADVSTART 交易來建立與伺服器之間的建議迴圈。
 ms.assetid: 8911e722-5656-4ca6-8b0a-6bdf8281611a
 keywords:
-- XTYP_ADVSTART 交易資料交換
+- XTYP_ADVSTART 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 852351ad902a0552ee012d6c1e5c4d61501e6e58
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb18bda3dce4db465045991e26cdc2d97ddd87ddc69c494ffaf103c566955da1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544757"
 ---
 # <a name="xtyp_advstart-transaction"></a>XTYP \_ ADVSTART 交易
 
-用戶端會使用 **XTYP \_ ADVSTART** 交易來建立與伺服器之間的建議迴圈。 當用戶端將 **XTYP \_ ADVSTART** 指定為 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)函數的 *WTYPE* 參數時，動態資料交換 (DDE) server 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)會接收此交易。
+用戶端會使用 **XTYP \_ ADVSTART** 交易來建立與伺服器之間的建議迴圈。 當用戶端將 **XTYP \_ ADVSTART** 指定為 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)函數的 *wType* 參數時，動態資料交換 (DDE) server 回呼函式 [*DdeCallback*](/windows/win32/api/ddeml/nc-ddeml-pfncallback)會接收此交易。
 
 
 ```C++
@@ -111,7 +111,7 @@ ms.locfileid: "103685997"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51c9b945f09ad0424ecd6b546aefe68bea276ffc
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 670e60cf68c812b6d8b296aac41c3000fa8c1405c909e8827532625a6cd93b0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535926"
 ---
 # <a name="id3dx11effect-interface"></a>ID3DX11Effect 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "107314451"
 | [**GetVariableBySemantic**](id3dx11effect-getvariablebysemantic.md)       | 依語義取得變數。<br/>                                                    |
 | [**IsOptimized**](id3dx11effect-isoptimized.md)                           | 測試效果，以查看反映中繼資料是否已從記憶體中移除。<br/> |
 | [**IsValid**](id3dx11effect-isvalid.md)                                   | 測試效果，以查看它是否包含有效的語法。<br/>                             |
-| [**優化**](id3dx11effect-optimize.md)                                 | 將效果所需的記憶體數量降到最低。<br/>                          |
+| [**最佳化**](id3dx11effect-optimize.md)                                 | 將效果所需的記憶體數量降到最低。<br/>                          |
 
 
 

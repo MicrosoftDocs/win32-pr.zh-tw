@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1a2d351eb36c6910790e2dceb94e3a97951ad850
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ac8be8a81cca5c0ed7377475f2e3688a8c0c90c33fddcaab8c4de0f15f174eca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104971772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514771"
 ---
 # <a name="asuint"></a>asuint
 
@@ -37,7 +37,7 @@ ms.locfileid: "104971772"
 
 
 
-| 項目                                                   | 描述                        |
+| Item                                                   | 描述                        |
 |--------------------------------------------------------|------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/> | \[在 \] 輸入值中。<br/> |
 
@@ -53,7 +53,7 @@ ms.locfileid: "104971772"
 
 
 
-| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                 | 大小                           |
+| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md)                 | 大小                           |
 |-------|----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|--------------------------------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**float**](/windows/desktop/WinProg/windows-data-types)、 [ **int**](/windows/desktop/WinProg/windows-data-types) | 任意                            |
 | *Ret* | 與輸入 *x* 相同                                                                                              | [**uint**](/windows/desktop/WinProg/windows-data-types)                                         | ) 為輸入 *x* 的相同維度 (s |
@@ -71,9 +71,9 @@ ms.locfileid: "104971772"
 | 著色器模型                                                        | 支援 |
 |---------------------------------------------------------------------|-----------|
 | [著色器模型 4](dx-graphics-hlsl-sm4.md) 和更高的著色器模型 | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md)           | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md)           | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md)           | 否        |
 
 
 

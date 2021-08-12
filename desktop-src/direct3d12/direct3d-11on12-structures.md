@@ -5,12 +5,12 @@ ms.assetid: 9EB0E780-0000-413C-BA3E-A735B8422BF6
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58df9ce2415f697cd4ca07907ffae761b671a256
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5993ea0ddb5ef452bc32c2c22051597aff4254a6d5ff16acbcf65b8d1971150d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529922"
 ---
 # <a name="11on12-structures"></a>11on12 結構
 

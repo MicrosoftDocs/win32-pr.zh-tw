@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c7310e0ebac496fc8f5a56ba3843b7496b8ce7c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e7241fa5546edffb2b7c5ff36d2e43919e6d0b6fef9ff617c0fb63a674ffee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118516671"
 ---
 # <a name="checkaccessfullymapped-function"></a>CheckAccessFullyMapped 函式
 
@@ -28,7 +28,7 @@ ms.locfileid: "103682875"
 
 ``` syntax
 bool CheckAccessFullyMapped(
-  in uint_only status
+  in uint_only status
 );
 ```
 
@@ -65,19 +65,19 @@ bool CheckAccessFullyMapped(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -86,6 +86,6 @@ bool CheckAccessFullyMapped(
 [內建函式](dx-graphics-hlsl-intrinsic-functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

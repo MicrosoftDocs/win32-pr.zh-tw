@@ -4,12 +4,12 @@ ms.assetid: c3d3b247-e482-4750-a6fb-724f81ee2b19
 title: " (Direct3D 9) 的全球轉換"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e192f8ce4350c767122ef60f3cd36777753d2e22
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bfbddefbaa5ad4bd41e7dafa79e086605d8f40e761cca2bd6ce9b9c0b212950a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518899"
 ---
 # <a name="world-transform-direct3d-9"></a> (Direct3D 9) 的全球轉換
 

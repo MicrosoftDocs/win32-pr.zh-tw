@@ -4,12 +4,12 @@ description: 傳遞最佳化 () 介面會使用下列列舉。
 ms.assetid: 0B0C627D-F6B7-4A10-83C0-03BFE329E974
 ms.topic: article
 ms.date: 07/02/2019
-ms.openlocfilehash: c9bac26e0e16751f2f6a7a8444d6e7149a5b6fb0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a80e8c44adff3ea655512516f04a7a2c865177c64049e16f9f36c55fb235d878
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544043"
 ---
 # <a name="do-enumerations"></a>進行列舉
 

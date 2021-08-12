@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 0d496f49851aab665e49f3aaeb51e4b941d6c183
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: a7d966edb083107b80f0723bce195bfc588797efb8ad1931e0e75a468bec5a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "103679243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543897"
 ---
 # <a name="idodownloadsetproperty-method"></a>IDODownload：： SetProperty 方法
 
@@ -57,6 +57,6 @@ HRESULT SetProperty(
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | \[僅限 Windows 10 版本1809的 Win32 應用程式\] |
-| **最低支援的伺服器** | Windows Server，僅限1809版的 \[ Win32 應用程式\] |
+| **最低支援的用戶端** | Windows 10 版本 1809 \[僅限 Win32 應用程式\] |
+| **最低支援的伺服器** | WindowsServer，僅限1809版的 \[ Win32 應用程式\] |
 | **標頭** | Do。h |

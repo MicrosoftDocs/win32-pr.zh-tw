@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9anim.h
-ms.openlocfilehash: 5e6d82807cbd0e93e7a1127db80726c0ec06b5da
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7ea5b7447b896c6b582280216af4d6c05cc540286ad31a2bfb337975fe6c88a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386449"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524847"
 ---
 # <a name="d3dxpriority_type-enumeration"></a>D3DXPRIORITY \_ 類型列舉
 

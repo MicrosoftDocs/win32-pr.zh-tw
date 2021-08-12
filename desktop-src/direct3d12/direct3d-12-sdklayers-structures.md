@@ -5,12 +5,12 @@ ms.assetid: FE8796A7-98D1-4333-8755-2A47567560B3
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 573d49d34c4432796ebac68ce004f265259b9eb2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a14bc7ab299c9f01979be1bb7f0ca446e64ba8b482215920b075be96da91807c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529748"
 ---
 # <a name="debug-layer-structures"></a>Debug 圖層結構
 

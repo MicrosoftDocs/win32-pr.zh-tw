@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 488a400928ecc270612a307fbede971e02b43b25
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d9bac71e89657f4df176a1ee15e2dca0cda6e4a25b8c47560adc5cf26c982383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526152"
 ---
 # <a name="d3dxcreatefont-function"></a>D3DXCreateFont 函式
 
@@ -119,7 +119,7 @@ Mipmap 層級的數目。
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**
 
-指定 Windows 應該如何嘗試符合所需的字型大小和特性與實際字型。 \_ \_ 例如，只使用 OUT TT \_ PRECIS，以確保一律取得 TrueType 字型。
+指定 Windows 應如何嘗試將所需的字型大小和特性與實際字型相符。 \_ \_ 例如，只使用 OUT TT \_ PRECIS，以確保一律取得 TrueType 字型。
 
 </dd> <dt>
 
@@ -128,7 +128,7 @@ Mipmap 層級的數目。
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**
 
-指定 Windows 如何以真實字型符合所需的字型。 它只適用于點陣字型，不應該影響 TrueType 字型。
+指定 Windows 應如何與實際字型相符所需的字型。 它只適用于點陣字型，不應該影響 TrueType 字型。
 
 </dd> <dt>
 

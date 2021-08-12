@@ -4,12 +4,12 @@ ms.assetid: a66fe0b9-1ccd-4cbd-a3e7-78081047e378
 title: '私用介面資料 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66eabd8ce8b5cb93508d3ca8197970fb5d52d96a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c010e24f691dc64c75e4dcea428af21d46ebfcb95b31775b9c8db81b2263e6d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106991614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520190"
 ---
 # <a name="private-surface-data-direct3d-9"></a>私用介面資料 (Direct3D 9) 
 

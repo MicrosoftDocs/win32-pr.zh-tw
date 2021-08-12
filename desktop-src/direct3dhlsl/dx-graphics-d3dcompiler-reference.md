@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ddb205c1201281a04977df42c094d40b4792572
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: b3dd02691f335a246e694b667181ed73814326b52b9e58f8c11ac13595f9eaf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515016"
 ---
 # <a name="d3dcompiler-reference"></a>D3DCompiler 參考
 
@@ -32,9 +32,9 @@ Direct3D API 會定義數個 API 元素來編譯著色器程式碼。
 [HLSL 的參考](dx-graphics-hlsl-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

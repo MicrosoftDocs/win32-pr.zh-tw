@@ -4,12 +4,12 @@ ms.assetid: c70a7f7d-1833-478f-bd71-7462d860b5f4
 description: 深入瞭解：舊版推出的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd1a055ce4d3c021c64af1855c01feef7cbfacd6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2b43905762202064643c6e2b017bb56f1c76da17f0281a97e5b9cc6c96addea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538119"
 ---
 # <a name="features-introduced-in-previous-releases"></a>先前版本中引進的功能
 

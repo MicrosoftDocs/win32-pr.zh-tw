@@ -4,12 +4,12 @@ ms.assetid: c1aa0d65-cfea-4720-ad09-7add724e03c7
 title: 使用一個畫筆的多重功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8313e6a13cb48900e0c0d31c2e1e590e07df6c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22cbba4c95ef215b8ae1e0c94cbe1d43eaceb966fd775284c57a365bbba2f7fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449669"
 ---
 # <a name="multiple-functionality-with-one-pen"></a>使用一個畫筆的多重功能
 

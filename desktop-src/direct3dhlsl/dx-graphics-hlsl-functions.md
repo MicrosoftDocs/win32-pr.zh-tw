@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 59b0bfcb2079329d4d7ad7c02e7e5a326d22c236
-ms.sourcegitcommit: cba7f424a292fd7f3a8518947b9466439b455419
-ms.translationtype: HT
+ms.openlocfilehash: 37086a030ad902f2bfb5deab52ffba620e97890bd13e7c6957170572087ce7c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "104313773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514576"
 ---
 # <a name="functions-hlsl-reference"></a>函數 (HLSL 參考) 
 
@@ -34,9 +34,9 @@ HLSL 也有一些內建的 [**內建函式 (DIRECTX HLSL)**](dx-graphics-hlsl-in
 [ (DirectX HLSL 的語言語法) ](dx-graphics-hlsl-language-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

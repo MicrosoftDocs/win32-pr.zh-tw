@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b796ee24be44bf65be7df938bdfe85d6784cc5f3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0bfa3d06970d138ff1c868403c20bb41cf14f0a5cbb7116cbe0f0843a51258dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524528"
 ---
 # <a name="d3dxsaveprtbuffertofile-function"></a>D3DXSavePRTBufferToFile 函式
 

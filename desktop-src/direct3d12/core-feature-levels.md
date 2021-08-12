@@ -3,16 +3,16 @@ title: Direct3D 12 Core 1.0 功能層級
 description: 核心1.0 功能層級是完整的 Direct3D 12 功能集的子集。
 ms.topic: article
 ms.date: 11/05/2019
-ms.openlocfilehash: 42d13b71c516e55ecce378cf9cb415c45e520ba9
-ms.sourcegitcommit: bba068130240d16de8a3f3468b7cd72b2cd760f6
+ms.openlocfilehash: 93eab39509074114bf2032cfb1cdea3e4e767dae9786241a34f970ca5cd51703
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/03/2020
-ms.locfileid: "106965419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530718"
 ---
 # <a name="the-direct3d-12-core-10-feature-level"></a>Direct3D 12 Core 1.0 功能層級
 
-核心1.0 功能層級是完整的 Direct3D 12 功能集的子集。 核心1.0 功能等級可以由稱為 *僅限計算裝置* 的裝置類別公開。 計算專用裝置的整體驅動程式模型是 Microsoft 計算驅動程式模型 (MCDM) 。 MCDM 是 Windows 設備磁碟機模型的向下調整對等， (WDDM) ，其範圍較大。
+核心1.0 功能層級是完整的 Direct3D 12 功能集的子集。 核心1.0 功能等級可以由稱為 *僅限計算裝置* 的裝置類別公開。 計算專用裝置的整體驅動程式模型是 Microsoft 計算驅動程式模型 (MCDM) 。 MCDM 是 Windows 設備磁碟機模型的向下調整對等 (WDDM) ，其範圍較大。
 
 *僅* 支援核心功能等級內功能的裝置稱為 *核心裝置*。
 

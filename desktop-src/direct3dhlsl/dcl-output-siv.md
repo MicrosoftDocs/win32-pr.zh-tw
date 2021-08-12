@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: df57ea991b9177dc081443301e426560834df894
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 3035724a76aff71c2ba2b7500874365ea284f55b0bf16389b3d83c99205e606b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515675"
 ---
 # <a name="dcl_output_siv-sm4---asm"></a>dcl \_ 輸出 \_ siv (sm4-asm) 
 
@@ -31,7 +31,7 @@ ms.locfileid: "104990831"
 
 
 
-| 項目                                                                                                                               | 描述                                                                                                                                         |
+| Item                                                                                                                               | 描述                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="oN"></span><span id="on"></span><span id="ON"></span>o *N*<br/>                                                     | \[在 \] 輸出資料註冊中; *N* 是表示註冊編號的整數。<br/>                                                      |
 | <span id="_.mask_"></span><span id="_.MASK_"></span>*\[mask\]*<br/>                                                         | \[（ \] 選擇性）。 元件遮罩 ( xyzw) ，可指定要使用的註冊元件。<br/>                                        |
@@ -79,9 +79,9 @@ dcl_output_siv o[0].z, cullDistance
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

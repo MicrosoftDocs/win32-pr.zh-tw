@@ -1,22 +1,22 @@
 ---
-description: 大部分 UNIX 執行所提供的 SIOCGIFCONF 命令都支援使用命令 SIO \_ GET INTERFACE LIST 形式的 WSAIoctl 和 WSPIoctl 函數 \_ \_ 。 此命令會傳回已設定之介面及其參數的清單。
+description: 使用命令 SIO \_ 取得介面清單，以 WSAIoctl 和 WSPIoctl 函式的形式支援大多數 UNIX 實作為的 SIOCGIFCONF 命令 \_ \_ 。 此命令會傳回已設定之介面及其參數的清單。
 ms.assetid: c5028dae-052a-444c-837c-cd8d6d901b6c
 title: 在 Winsock 中使用 UNIX Ioctls
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0b52c311ea8c5f67dc374503f00c3ca16c5d053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: da517adb6480a1bd20100a3d9a6d0896f544c1b541ce547a0f76e5c88aa24210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558860"
 ---
 # <a name="using-unix-ioctls-in-winsock"></a>在 Winsock 中使用 UNIX Ioctls
 
-大部分 UNIX 執行所提供的 **SIOCGIFCONF** 命令都支援使用命令 **SIO \_ GET \_ INTERFACE \_ LIST** 形式的 [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl)和 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))函數。 此命令會傳回已設定之介面及其參數的清單。
+使用命令 **SIO \_ 取得 \_ 介面 \_ 清單**，以 [**WSAIoctl**](/windows/desktop/api/Winsock2/nf-winsock2-wsaioctl)和 [**WSPIoctl**](/previous-versions/windows/hardware/network/ff566296(v=vs.85))函式的形式支援大多數 UNIX 實作為的 **SIOCGIFCONF** 命令。 此命令會傳回已設定之介面及其參數的清單。
 
 > [!Note]  
-> 對 Windows 通訊端2相容的 TCP/IP 服務提供者，此命令的支援是必要的。
+> 此命令的支援是 Windows 通訊端2相容 tcp/ip 服務提供者的必要項。
 
  
 

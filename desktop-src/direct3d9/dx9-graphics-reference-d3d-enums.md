@@ -4,12 +4,12 @@ ms.assetid: ae64eb17-63a8-44c5-8d41-e021c49f338a
 title: Direct3D 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47c06f727e66e51d73eb217f73923979d56de0ae
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 480b5530fbe00339d2f4faf39e9c0b8d83acd3075e01a459ae9ce26e4d4875c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523419"
 ---
 # <a name="direct3d-enumerations"></a>Direct3D 列舉
 

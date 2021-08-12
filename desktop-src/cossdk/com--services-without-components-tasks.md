@@ -4,12 +4,12 @@ ms.assetid: 69001046-938b-4429-8a22-276185dba1a2
 title: 沒有元件工作的 COM + 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea5cd513fb7a1b2ccaa6b6fdcdb64207d5355566
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e61ba9b9b12651e8f983a0600464f06d98c404a5cca33232162d2ca3ddc44a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548575"
 ---
 # <a name="com-services-without-components-tasks"></a>沒有元件工作的 COM + 服務
 

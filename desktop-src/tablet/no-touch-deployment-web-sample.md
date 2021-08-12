@@ -4,20 +4,20 @@ ms.assetid: d226bd67-e20d-431b-b0c3-9361b00a9340
 title: No-Touch 部署 Web 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a0742deef8ea9b418fba6de4724975ee27693f8
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 7d8fb9989785dc081022c2e76d8fade6d48bf521b3f27449ff5aac963706f356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104514289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449649"
 ---
 # <a name="no-touch-deployment-web-sample"></a>No-Touch 部署 Web 範例
 
-此範例示範如何使用無觸控部署，透過 Web 部署受管理的 Tablet PC 應用程式。 您應該熟悉 .NET Framework 中的 [無觸控部署](/documentation/?url=%2flibrary%2fdv_vstechart%2fhtml%2fvbtchno-touchdeploymentinnetframework.asp)所討論的概念。 您的電腦必須安裝 Microsoft Internet Information Services (IIS) ，才能執行此範例。
+此範例示範如何使用無觸控部署，透過 Web 部署受管理的 Tablet PC 應用程式。 您應該熟悉 .NET Framework 中的[無觸控部署](/documentation/?url=%2flibrary%2fdv_vstechart%2fhtml%2fvbtchno-touchdeploymentinnetframework.asp)所討論的概念。 您的電腦必須安裝 Microsoft Internet Information Services (IIS) ，才能執行此範例。
 
 ## <a name="overview"></a>概觀
 
-使用無觸控部署，Tablet PCWindows Forms 應用程式-使用 Microsoft .NET Framework 和 Microsoft Windows XP Tablet PC Edition 開發工具組1.7 中的類別所建立的桌面應用程式，可以直接在使用者的電腦上下載、安裝及執行，而不需要變更登錄或共用的系統元件。
+使用無觸控部署的平板電腦 PCWindows 表單應用程式-使用系統中的類別所建立的桌面應用程式。Windows。microsoft .NET Framework 和 microsoft Windows XP Tablet PC Edition 開發工具組1.7 的 Forms 命名空間-可以直接在使用者的電腦上下載、安裝及執行，而不需要改變登錄或共用的系統元件。
 
 此範例會採用 [自動宣告表單範例](auto-claims-form-sample.md)、AutoClaims 的原始專案，並提供安裝程式專案 AutoClaims \_ NoTouchWeb。 編譯並執行之後，安裝程式專案會建立新的虛擬根目錄，也稱為 AutoClaims \_ NoTouchWeb。 安裝程式會複製 default.htm 的檔案，其中包含 AutoClaims.exe 元件的連結。 若要啟動豐富型用戶端應用程式，請流覽至 Microsoft Internet Explorer 的虛擬根目錄，然後按一下 [default.htm] 頁面中的連結。
 

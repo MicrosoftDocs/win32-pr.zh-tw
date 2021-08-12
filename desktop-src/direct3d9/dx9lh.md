@@ -1,19 +1,19 @@
 ---
-description: 本檔特別提到適用于 DirectX 圖形的 Windows Vista 擴充功能。
+description: 本檔特別指的是適用于 DirectX 圖形的 Windows Vista 擴充功能。
 ms.assetid: 3cc0b08c-e126-4f1b-b5d1-0d6c1ebeb0c5
-title: Windows Vista) 的功能摘要 (Direct3D 9
+title: Windows Vista) 的 (Direct3D 9 功能摘要
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d5cf2447297b7f24edf7d0200e640d5aef90bff
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 242af80fa4d6f00c1e55d4852884f9fbbf8de287c6792b3b4aaaad196a6cd113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523075"
 ---
-# <a name="feature-summary-direct3d-9-for-windows-vista"></a>Windows Vista) 的功能摘要 (Direct3D 9
+# <a name="feature-summary-direct3d-9-for-windows-vista"></a>Windows Vista) 的 (Direct3D 9 功能摘要
 
-本檔特別提到適用于 DirectX 圖形的 Windows Vista 擴充功能。 若要開發 Windows Vista 的 DirectX 功能，您必須安裝 Windows Vista SDK 和 DirectX SDK。 使用適用于 Windows Vista 的 DirectX 的應用程式必須使用使用 WDDM 驅動程式 (Windows 設備磁碟機模型) 而非 (XP 驅動程式模型) ;未執行 WDDM 的驅動程式無法具現化 Windows Vista DirectX 圖形介面。
+本檔特別指的是適用于 DirectX 圖形的 Windows Vista 擴充功能。 若要開發 Windows vista 的 DirectX 功能，您必須安裝 Windows Vista sdk 和 directx sdk。 針對 Windows Vista 使用 DirectX 的應用程式，必須使用使用 WDDM 驅動程式 (Windows 設備磁碟機模型) 的硬體，而不是使用 XPDM (XP 驅動程式模型) ;未執行 WDDM 的驅動程式無法將 Windows Vista DirectX 圖形介面具現化。
 
 在下列其中一節中探索 Windows Vista 的新 DirectX 圖形功能：
 
@@ -34,7 +34,7 @@ ms.locfileid: "106970692"
 
 當視窗模式中的另一個視窗隱藏表示區，或將全螢幕應用程式最小化時， [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) 會傳回 S \_ D3DPRESENTATIONOCCLUDED。 全螢幕應用程式可在收到 [**WM \_ ACTI加值稅EAPP**](../winmsg/wm-activateapp.md) 回呼訊息時繼續呈現。
 
-在舊版 DirectX 中，當應用程式發生模式變更時，復原的唯一方法是重設裝置，並重新建立所有的視訊記憶體資源和交換鏈。 現在有了適用于 Windows Vista 的 DirectX，在模式變更之後呼叫 Reset，並不會造成材質記憶體表面、材質和狀態資訊遺失，也不需要重新建立這些資源。
+在舊版 DirectX 中，當應用程式發生模式變更時，復原的唯一方法是重設裝置，並重新建立所有的視訊記憶體資源和交換鏈。 現在有了適用于 Windows Vista 的 DirectX，在模式變更之後呼叫 Reset，並不會造成紋理記憶體介面、材質和狀態資訊遺失，且不需要重新建立這些資源。
 
 ## <a name="disabling-multithreaded-software-vertex-processing"></a>停用多執行緒軟體頂點處理
 
@@ -92,7 +92,7 @@ Direct3D 資源現在可以在裝置或進程之間共用。 這適用于任何 
 
 資源建立 Api 包括- [**CreateTexture**](/windows/desktop/api)、 [**CreateVolumeTexture**](/windows/desktop/api)、 [**CreateCubeTexture**](/windows/desktop/api)、 [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget)、 [**CreateVertexBuffer**](/windows/desktop/api)、 [**CreateIndexBuffer**](/windows/desktop/api)、 [**CreateDepthStencilSurface**](/windows/desktop/api)、 [**CreateOffscreenPlainSurface**](/windows/desktop/api)、 [**CreateDepthStencilSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createdepthstencilsurfaceex)、 [**CreateOffscreenPlainSurfaceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createoffscreenplainsurfaceex)和 [**CreateRenderTargetEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-createrendertargetex)。
 
-使用共用資源有一些限制。 這些包括：
+使用共用資源有一些限制。 其中包含：
 
 -   您用來開啟共用資源的 API 必須符合您用來建立共用資源的 API。 例如，如果您使用 [**CreateTexture**](/windows/desktop/api) 來建立共用資源，就必須使用 **CreateTexture** 來開啟該共用資源;如果您使用 [**CreateRenderTarget**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-createrendertarget) 來建立共用資源，就必須使用 **CreateRenderTarget** 來開啟該共用資源; 依此類推。
 -   當您開啟共用資源時，您必須指定 D3DPOOL \_ 預設值。
@@ -117,7 +117,7 @@ D3DPMISCCAPS_POSTBLENDSRGBCONVERT
 
 ## <a name="stretchrect-improvements"></a>StretchRect 改進
 
-在舊版的 DirectX 中，StretchRect 有許多限制來容納不同的驅動程式 (請參閱 IDirect3DDevice9：： StretchRect) 。 Windows Vista 建基於 Windows 設備磁碟機模型 (WDDM) 。 這個新的驅動程式模型更為穩固，而且可讓驅動程式處理硬體中的特殊情況。
+在舊版的 DirectX 中，StretchRect 有許多限制來容納不同的驅動程式 (請參閱 IDirect3DDevice9：： StretchRect) 。 WindowsVista 建基於 Windows 的設備磁碟機模型 (WDDM) 。 這個新的驅動程式模型更為穩固，而且可讓驅動程式處理硬體中的特殊情況。
 
 一般而言，唯一的限制是必須以轉譯目標使用方式建立轉譯目標 (D3DUSAGE \_ RENDERTARGET) 。 如果您要執行簡單的複製 (，其中來源和目的地的格式相同，而且沒有子矩形) ，則會提高此限制。
 

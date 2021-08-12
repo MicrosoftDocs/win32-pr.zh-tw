@@ -4,12 +4,12 @@ ms.assetid: 931fc69a-1f7a-492c-8158-0691cd2fe57a
 title: 手勢的 Unicode 範圍值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b66b9b4ee511e9eeadd79e0dff2675391ceee6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1f96c1f59ea9e53d63999c01db73c45080f205bccf043e26463563b0f1f6af3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449221"
 ---
 # <a name="unicode-range-values-of-gestures"></a>手勢的 Unicode 範圍值
 
