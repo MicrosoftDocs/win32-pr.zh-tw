@@ -4,12 +4,12 @@ ms.assetid: f18b235c-97ff-4779-8584-8e96b62c7ca3
 title: " (Direct3D 9 的向量、頂點和四元數) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c2e6e6e316b633359205ffd24a64aa349eeec74
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 601b6a71dcb00356d4de4637a6aabb1eba5c02e49c62380b32732351d15bfcb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290437"
 ---
 # <a name="vectors-vertices-and-quaternions-direct3d-9"></a> (Direct3D 9 的向量、頂點和四元數) 
 

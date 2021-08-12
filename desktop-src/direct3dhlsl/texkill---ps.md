@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4da9c6b59a3c16eeecb8755f2f19542df6ee8a7b
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 462549a9caba9b4b49ca5b5ac088e41320b3d6f731a78a0251d5191cc601a2e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284026"
 ---
 # <a name="texkill---ps"></a>texkill-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104313616"
 
 
 
- 
+ 
 
 其中
 
@@ -45,7 +45,7 @@ ms.locfileid: "104313616"
 
 
 
- 
+ 
 
 此指令對應于 HLSL 的 [**剪輯**](dx-graphics-hlsl-clip.md) 函數。
 
@@ -120,9 +120,9 @@ static CUSTOMVERTEX g_Vertices[]=
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

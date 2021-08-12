@@ -4,12 +4,12 @@ ms.assetid: 3664215d-ad03-400e-beab-b0421cf6b693
 title: " (Direct3D 9) 的框架緩衝區 Alpha"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb310e2c66f43282e65425fd0d6c6a24961accaa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ec091e8cc42d6b21142d3b9372f6d2931ba25d1dfe12aa7717e0b09acf0b0718
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297493"
 ---
 # <a name="frame-buffer-alpha-direct3d-9"></a> (Direct3D 9) 的框架緩衝區 Alpha
 
@@ -30,7 +30,7 @@ ObjectColor 是在目前圖元位置轉譯的基本內容。 PixelColor 是來�
 
 
 
-| Blend 模式因數         | Description                                                                                                                                                                              |
+| Blend 模式因數         | 描述                                                                                                                                                                              |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | D3DBLEND \_ 零            |  (0、0、0、0)                                                                                                                                                                              |
 | D3DBLEND \_ 一             |  (1，1，1，1)                                                                                                                                                                              |

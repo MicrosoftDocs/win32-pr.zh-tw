@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 705940dae0f7ebe885db4c295714df538c56c705
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f387c9ba1d46b99c44a3d6616df95f7b6f9cece959a943b63ed12ce6fe8af900
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548017"
 ---
 # <a name="dcomprotocols-collection"></a>DCOMProtocols 集合
 
@@ -39,7 +39,7 @@ ms.locfileid: "104468193"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 
@@ -49,7 +49,7 @@ ms.locfileid: "104468193"
 -   [順序](#order)
 -   [ProtocolCode](#protocolcode)
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 

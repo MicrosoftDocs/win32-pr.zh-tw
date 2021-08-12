@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 54f286ae393e67d9732e21bc40cbb0f9c46d8c63
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23ce8d7dc343e9cbca9aab642aee99424c5fffdde8ef0f15a52d2959bf492095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549421"
 ---
 # <a name="applications-collection"></a>應用程式集合
 
@@ -47,8 +47,8 @@ ms.locfileid: "104111056"
 
 您可以從下列集合流覽至這個集合：
 
--   [**分區**](partitions.md)
--   [**根**](root.md)
+-   [**分割區**](partitions.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "104111056"
 
 -   [3GigSupportEnabled](#3gigsupportenabled)
 -   [AccessChecksLevel](#accesscheckslevel)
--   [啟用](#recycleactivationlimit)
+-   [啟動](#recycleactivationlimit)
 -   [ApplicationAccessChecksEnabled](#applicationaccesschecksenabled)
 -   [ApplicationDirectory](#applicationdirectory)
 -   [ApplicationProxy](#applicationproxyservername)
@@ -162,7 +162,7 @@ ms.locfileid: "104111056"
 | 描述    | 指出當用戶端對應用程式進行呼叫時，是否對該應用程式執行存取檢查。 |
 | Access         | 讀寫                                                                                          |
 | 類型           | Bool                                                                                               |
-| 預設        | 對                                                                                               |
+| 預設        | 是                                                                                               |
 | 最小系統 | Windows 2000                                                                                       |
 
 
@@ -175,7 +175,7 @@ ms.locfileid: "104111056"
 
 | 進入 | 值 |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 描述    | 應用程式的完整路徑。 當您設定並存 (SxS) 元件時，需要這項資訊。 並存 (SxS) 元件可讓 ASP 應用程式指定要使用的 SxS 支援系統 DLL 版本，例如 MSVCRT.LIB、MSXML、COMCTL、GDIPLUS.DLL 等等。 例如，如果您的 ASP 應用程式依賴 MSVCRT.LIB 2.0 版，您可以確保即使在將 service pack 套用至伺服器之後，您的應用程式仍會使用 MSVCRT.LIB 2.0 版。 電腦上仍會安裝任何新版的 MSVCRT.LIB，但您的應用程式會保留2.0 版並使用。 SxS 支援的 Dll 儲存在% WINDIR% \\ WinSxS 中。 |
+| 描述    | 應用程式的完整路徑。 當您設定並存 (SxS) 元件時，需要這項資訊。 並存 (SxS) 元件可讓 ASP 應用程式指定要使用的 sxs 支援系統 DLL 版本，例如 msvcrt.lib、MSXML、COMCTL、gdiplus.dll 等等。 例如，如果您的 ASP 應用程式依賴 MSVCRT.LIB 2.0 版，您可以確保即使在將 service pack 套用至伺服器之後，您的應用程式仍會使用 MSVCRT.LIB 2.0 版。 電腦上仍會安裝任何新版的 MSVCRT.LIB，但您的應用程式會保留2.0 版並使用。 SxS 支援的 Dll 儲存在% WINDIR% \\ WinSxS 中。 |
 | Access         | 讀寫                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | 類型           | String                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | 預設值        | ""                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
@@ -286,7 +286,7 @@ ms.locfileid: "104111056"
 | 描述    | 決定是否允許以程式設計方式或透過「元件服務」系統管理工具，來變更應用程式設定或其元件的變更。 |
 | Access         | 讀寫                                                                                                                                                                     |
 | 類型           | Bool                                                                                                                                                                          |
-| 預設        | 對                                                                                                                                                                          |
+| 預設        | 是                                                                                                                                                                          |
 | 最小系統 | Windows 2000                                                                                                                                                                  |
 
 
@@ -382,14 +382,14 @@ ms.locfileid: "104111056"
 | 描述    | 設定是否可透過程式設計方式或透過元件服務管理工具來刪除應用程式。 |
 | Access         | 讀寫                                                                                                                   |
 | 類型           | Bool                                                                                                                        |
-| 預設        | 對                                                                                                                        |
+| 預設        | 是                                                                                                                        |
 | 最小系統 | Windows 2000                                                                                                                |
 
 
 
  
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -422,7 +422,7 @@ ms.locfileid: "104111056"
  
 
 > [!Note]  
-> 從 Windows Server 2003，只有系統管理員具有 COM + 傾印檔案的讀取存取許可權。
+> 從 Windows Server 2003，只有系統管理員具有 com + 傾印檔案的讀取存取許可權。
 
  
 
@@ -475,7 +475,7 @@ ms.locfileid: "104111056"
  
 
 > [!Note]  
-> 從 Windows Server 2003，只有系統管理員具有 COM + 傾印檔案的讀取存取許可權。
+> 從 Windows Server 2003，只有系統管理員具有 com + 傾印檔案的讀取存取許可權。
 
  
 
@@ -488,7 +488,7 @@ ms.locfileid: "104111056"
 | 描述    | 指出是否已針對應用程式啟用事件。 |
 | Access         | 讀寫                                                 |
 | 類型           | Bool                                                      |
-| 預設        | 對                                                      |
+| 預設        | 是                                                      |
 | 最小系統 | Windows 2000                                              |
 
 
@@ -556,7 +556,7 @@ ms.locfileid: "104111056"
 | 描述    | 如果 COM + 應用程式或元件已停用，則 IsEnabled 為 False。 如果已啟用 COM + 應用程式或元件，IsEnabled 為 True。 |
 | Access         | 讀寫                                                                                                                                 |
 | 類型           | Bool                                                                                                                                      |
-| 預設        | 對                                                                                                                                      |
+| 預設        | 是                                                                                                                                      |
 | 最小系統 | Windows XP                                                                                                                                |
 
 
@@ -595,7 +595,7 @@ ms.locfileid: "104111056"
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 
@@ -792,7 +792,7 @@ ms.locfileid: "104111056"
 | 描述    | 指出是否可以複寫應用程式。 |
 | Access         | 讀寫                                            |
 | 類型           | Bool                                                 |
-| 預設        | 對                                                 |
+| 預設        | 是                                                 |
 | 最小系統 | Windows XP                                           |
 
 

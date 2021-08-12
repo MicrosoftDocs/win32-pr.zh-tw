@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 63c4b10ba9a16b7e63e9eaa0f866b21492fe11d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79b099b9a6211f73255abe8a758f29a9810b9ee7014641f8a8a3cff8383dafdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252650"
 ---
 # <a name="jet_snprogcunitdone-property"></a>JET_SNPROG cunitDone 屬性
 

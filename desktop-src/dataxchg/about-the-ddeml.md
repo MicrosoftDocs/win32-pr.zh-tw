@@ -3,22 +3,22 @@ title: 關於 DDEML
 description: 本主題討論動態資料交換。
 ms.assetid: 155b4cb0-dfbb-42f5-9fa3-8129349a0754
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (的 DDE) ，關於
 - DDE (動態資料交換) ，關於
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) ，關於
 - DDEML (動態資料交換管理程式庫) ，關於
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84ed77565c8b4e20841ad2ef80ae84c1f5c39724
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 755d4efea534918ac3fd3da46364e3cb528e4199498ea7533c1635af6780cc08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545559"
 ---
 # <a name="about-the-ddeml"></a>關於 DDEML
 
@@ -32,9 +32,9 @@ ms.locfileid: "104507448"
 
 每當 DDEML 函式失敗時，應用程式就可以呼叫 [**DdeGetLastError**](/windows/desktop/api/Ddeml/nf-ddeml-ddegetlasterror) 函數來判斷失敗的原因。 **DdeGetLastError** 會傳回錯誤值，以指定最新錯誤的原因。
 
- 
+ 
 
- 
+ 
 
 
 

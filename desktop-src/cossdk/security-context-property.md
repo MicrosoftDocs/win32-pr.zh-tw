@@ -4,12 +4,12 @@ ms.assetid: 7ffae145-be13-4a2c-beb1-eaa1d11ad9a7
 title: 資訊安全內容屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b061ef7c0d0d0c146b626c11fd550c48ab488a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 31c537dc8c9b925fff5f7fc4f3da99fd361bfb02f61008b7d7af8a421b9f1d11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546819"
 ---
 # <a name="security-context-property"></a>資訊安全內容屬性
 

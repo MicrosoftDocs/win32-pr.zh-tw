@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 69db4438545bb23cdc99f2fdfe26132bb5b892cf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b998444447a0fa5c16b3db9767371ffa3d52cd62ca5eb3a4c89e2b0a4a1a453
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572940"
 ---
 # <a name="playernetwork"></a>Player. 網路
 

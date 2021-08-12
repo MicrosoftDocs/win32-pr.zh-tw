@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c934b83b28e510f29b84a45b48bde700968c97b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f426bbaf1092b64cdb3578cb681282c9b27d9d2e2e23a69d50f9c065353ad104
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577702"
 ---
 # <a name="erroritemerrorcode"></a>ErrorItem。 errorCode
 
@@ -37,7 +37,7 @@ player.error.item(
 
 ## <a name="remarks"></a>備註
 
-您 *應該設定設定。* 如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
+您應該設定 *設定*。如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
 
 ## <a name="examples"></a>範例
 

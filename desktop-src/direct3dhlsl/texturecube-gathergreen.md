@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: b0eaac705ce15b0174903cc87e630b14df28becb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: acc46aec3c248fc89c69eba9f4a820e1b3c3c513a7ac36afa36b3f48aac521d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283697"
 ---
 # <a name="texturecubegathergreen-methods"></a>TextureCube：： GatherGreen 方法
 

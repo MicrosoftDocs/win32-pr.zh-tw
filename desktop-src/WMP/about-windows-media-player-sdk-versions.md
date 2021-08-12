@@ -31,12 +31,12 @@ keywords:
 - 檔，Windows Media Player 11 SDK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e3d94f435afac6f6b929e56f9c7dcaa37f4cfc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c314f40ae031247e632ae180f0cbde8bf4c11f6bfa572923fd0d55fb3fbb7b45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583587"
 ---
 # <a name="about-windows-media-player-sdk-versions"></a>關於 Windows Media Player SDK 版本
 
@@ -49,11 +49,11 @@ ms.locfileid: "104183942"
 -   Windows Media Player 11 SDK
 -   Windows Media Player 12 SDK
 
-每個 SDK 版本都與 Windows Media Player 的版本相關聯。 例如，Windows Media Player 10 SDK 引進了 Windows Media Player 10 支援的新功能。 請注意，沒有 Windows Media Player SDK 的更新與 Windows XP 的 Windows Media Player 一起發行。
+每個 SDK 版本都與 Windows Media Player 的版本相關聯。 例如，Windows Media Player 10 SDK 引進了 Windows Media Player 10 支援的新功能。 請注意，Windows Media Player 適用于 Windows XP 的 Windows Media Player SDK 沒有任何更新。
 
 在整份檔中，會在適當的情況下提供每項功能的版本控制需求。 如果未提供特定的版本資訊，則此功能會在 Windows Media Player 7 SDK 中引進，並在所有後續版本中受到支援。
 
-如需有關如何升級以 Windows Media Player 6.4 SDK 為基礎的專案，以使用 Windows Media Player 7 或更新版本的物件模型的詳細資訊，請參閱 [物件模型遷移指南](object-model-migration-guide.md)。
+如需有關如何升級以 Windows Media Player 6.4 SDK 為基礎的專案，以使用 Windows Media Player 7 或更新版本的物件模型的詳細資訊，請參閱[物件模型遷移指南](object-model-migration-guide.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -65,9 +65,9 @@ ms.locfileid: "104183942"
 [**Windows Media Player 12的新功能**](what-s-new-in-windows-media-player-12.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

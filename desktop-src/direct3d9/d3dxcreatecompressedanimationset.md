@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8aab23466cecf43a50a4136eb0b3d93a271dcb0e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2acca9d1b697bb9b06b47aa75948ca74ec00cc7ecb919334c01cf874293cb495
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299283"
 ---
 # <a name="d3dxcreatecompressedanimationset-function"></a>D3DXCreateCompressedAnimationSet 函式
 

@@ -3,19 +3,19 @@ title: Advanced 播放清單
 description: Advanced 播放清單
 ms.assetid: 3f27562f-bc3b-4b7f-a83b-78317d3ad612
 keywords:
-- Windows Media 中繼檔播放清單、播放清單範例
+- Windows媒體中繼檔播放清單、播放清單範例
 - 播放清單、播放清單範例
 - 中繼檔播放清單，播放清單範例
-- Windows Media 中繼檔播放清單，範例播放清單
+- Windows媒體中繼檔播放清單，範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
-- Windows Media 中繼檔播放清單、範例播放清單
+- Windows媒體中繼檔播放清單、範例播放清單
 - 播放清單、範例播放清單
 - 中繼檔播放清單，範例播放清單
-- Windows Media 中繼檔播放清單，程式碼範例
+- Windows媒體中繼檔播放清單，程式碼範例
 - 播放清單，程式碼範例
 - 中繼檔播放清單，程式碼範例
-- Windows Media 中繼檔播放清單，advanced 播放清單範例
+- Windows媒體中繼檔播放清單，advanced 播放清單範例
 - 播放清單、advanced 播放清單範例
 - 中繼檔播放清單，advanced 播放清單範例
 - Windows Media Player，播放清單範例
@@ -32,12 +32,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f52251fedb13d41be5c94706bee4460c3f13c1e9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6573d5bef05c8af943368a12d03677526a9783915d6915b6cc5f1516bc9942f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583255"
 ---
 # <a name="an-advanced-playlist"></a>Advanced 播放清單
 
@@ -92,9 +92,9 @@ ms.locfileid: "104021238"
 
 
 
-| 線條                                                                                            | Description                                                                                                                                                                                                                                                                                                                             |
+| 折線圖                                                                                            | 描述                                                                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `<ASX version = "3.0">`                                                                     | [ASX](asx-element.md)元素會識別用戶端 (Windows Media Player) 這是 Windows Media 中繼檔播放清單。 **Version** 屬性會指定中繼檔元素的版本號碼。                                                                                                                    |
+| `<ASX version = "3.0">`                                                                     | [ASX](asx-element.md)元素會識別用戶端 (Windows Media Player) 這是 Windows 媒體中繼檔播放清單。 **Version** 屬性會指定中繼檔元素的版本號碼。                                                                                                                    |
 | `<TITLE>Advanced Playlist Demo</TITLE>`                                               | [Title](title-element--metafile.md)元素會識別播放清單的整體標題。 Windows Media Player 會將此中繼資料顯示為 [顯示標題]。                                                                                                                                                                        |
 | `<ABSTRACT>More Information at this Web Site< /ABSTRACT>`                             | [ABSTRACT](abstract-element.md)元素提供顯示標題的工具提示。                                                                                                                                                                                                                                                   |
 | `<MOREINFO HREF ="https://www.microsoft.com/windows/windowsmedia" />`                        | [MOREINFO](moreinfo-element.md)元素會將顯示標題連結到 URL。 如果已定義工具提示，則將滑鼠指標暫停在顯示標題上方即可存取工具提示。 選取 [顯示標題] 之後，就會開啟指定的 URL。                                                                                                                |
@@ -112,7 +112,7 @@ ms.locfileid: "104021238"
 | `<!--This is the ToolTip text for the Title text -->`                                       | 註解。 只有在程式碼被查看時，才會顯示[批註](comments.md)。                                                                                                                                                                                                                                                        |
 | `<Abstract>Visit the YourImage website</abstract>`                                    | 提供剪輯 **標題** 文字的工具提示。                                                                                                                                                                                                                                                                                       |
 | `<TITLE>The first entry in an advanced playlist</TITLE>`                              | 識別剪輯的標題。 這是剪輯 **標題** ，因為它是在 **專案專案** 內進行嵌套。 Windows Media Player 會將此中繼資料顯示為剪輯標題。                                                                                                                                                             |
-| `<AUTHOR>YourImage</AUTHOR>`                                                          | 識別媒體剪輯的作者。 Windows Media Player，此中繼資料會顯示為剪輯 **作者** 。                                                                                                                                                                                                                     |
+| `<AUTHOR>YourImage</AUTHOR>`                                                          | 識別媒體剪輯的作者。 Windows Media Player，此中繼資料會顯示為剪輯 **作者**。                                                                                                                                                                                                                     |
 | `<COPYRIGHT>(c)2000 YourImage</COPYRIGHT>`                                            | [著作權](copyright-element.md)元素會指定與媒體剪輯相關聯的著作權。 Windows Media Player 會將此中繼資料顯示為剪輯著作權。                                                                                                                                                              |
 | `<!-- This is a comment. Change the following path to point to your Windows Media file -->` | 與 **XML** 批註相同格式的批註。                                                                                                                                                                                                                                                                                      |
 | `<REF HREF = "..\\media\\laure.wma" />`                                                     | 媒體內容的 URL。 [REF](ref-element.md)元素會將該行識別為媒體內容的指標。 **HREF** 屬性是檔案的 URL。請注意，使用類似 XML 的元素 "/>" 而非 " &lt; /REF &gt; "。 因為這個元素沒有子專案，所以它會自行關閉。<br/> |
@@ -144,10 +144,10 @@ ms.locfileid: "104021238"
 [**中繼檔播放清單**](metafile-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
  

@@ -1,5 +1,5 @@
 ---
-title: 'IWMPPlaylistCollection (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPPlaylistCollection (VB 和 C ) 介面 (Wmp. h) '
 description: 提供在集合中操作 IWMPPlaylist 和 IWMPPlaylistArray 介面的方法。
 ms.assetid: 19a4e0d7-cb3f-42ec-9acb-7ac0c5837662
 keywords:
@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc97f9e98838fedc3bd5441d6bfda2da5319dd6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ae130b9134d9ad6e19fa062946a591cdf7749b428201750fda8ff55252c3212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575214"
 ---
 # <a name="iwmpplaylistcollection-vb-and-c-interface"></a>IWMPPlaylistCollection (VB 和 c # ) 介面
 
@@ -79,7 +79,7 @@ ms.locfileid: "106995916"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylist 介面 (VB 和 c # )**](iwmpplaylist--vb-and-c.md)

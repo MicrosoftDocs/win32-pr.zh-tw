@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 455752375b76e574923ccdd96d1d05fc9142c16c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 022d12b78416ce4ec84cf02ae8696f17bf5c315a207ae04f28a8980f6aaac073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544596"
 ---
 # <a name="bits_job_transfer_policy-enumeration"></a>BITS_JOB_TRANSFER_POLICY 列舉
 
@@ -88,8 +88,8 @@ typedef enum _BITS_JOB_TRANSFER_POLICY {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                     |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl> |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                     |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl> |
 
 
 

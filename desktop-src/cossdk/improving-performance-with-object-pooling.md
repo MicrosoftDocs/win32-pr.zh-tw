@@ -4,12 +4,12 @@ ms.assetid: 7a8a38d8-6549-4686-a298-f3b427b380e3
 title: 使用物件共用改善效能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 398b9140080d3a439293b5152b4da7251978e800
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 68ce6a86e76f7a97395973cc9cab4c4e9e81177f4312a389c2b01ec2d88eb7a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547845"
 ---
 # <a name="improving-performance-with-object-pooling"></a>使用物件共用改善效能
 

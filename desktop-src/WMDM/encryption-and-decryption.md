@@ -3,13 +3,13 @@ title: 加密和解密
 description: 加密和解密
 ms.assetid: 6aef4138-0391-4edd-b4fc-d6d0ec3c735b
 keywords:
-- Windows Media 裝置管理員，加密
+- Windows媒體裝置管理員，加密
 - 裝置管理員，加密
 - 桌面應用程式，加密
 - 服務提供者，加密
 - 程式設計指南，加密
 - 加密
-- Windows Media 裝置管理員，解密
+- Windows媒體裝置管理員、解密
 - 裝置管理員，解密
 - 桌面應用程式，解密
 - 服務提供者，解密
@@ -17,16 +17,16 @@ keywords:
 - 解密
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78688c1b4ca9991d8b322c6991de96a51e7e8d22
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1c154910709007e502c1505fc6fc3274665942c9eabe8e24de5b30fe932d813
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584666"
 ---
 # <a name="encryption-and-decryption"></a>加密和解密
 
-Windows Media 裝置管理員需要加密服務提供者和應用程式之間傳送的檔案。 完成此步驟的方式有兩種：
+Windows媒體裝置管理員需要加密服務提供者和應用程式之間傳送的檔案。 完成此步驟的方式有兩種：
 
 -   如果服務提供者只支援 [**IMDSPObject：： Read**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-read) 和 [**IMDSPObject：： Write**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject-write)，則必須分別使用 [CSecureChannelClient](csecurechannelclient-class.md) 和 [CSecureChannelServer](csecurechannelserver-class.md) 方法，以將資料加密和解密為應用程式和服務提供者。
 -   如果服務提供者支援 [**IMDSPObject2：： ReadOnClearChannel**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-readonclearchannel) 和 [**IMDSPObject2：： WriteOnClearChannel**](/windows/desktop/api/mswmdm/nf-mswmdm-imdspobject2-writeonclearchannel)，則您的應用程式可以避免昂貴的安全通道訊息驗證。  (保留安全通道，讓未執行 [**IMDSPObject2**](/windows/desktop/api/mswmdm/nn-mswmdm-imdspobject2) 的舊版服務提供者仍能繼續運作。 ) 
@@ -45,7 +45,7 @@ Windows Media 裝置管理員需要加密服務提供者和應用程式之間傳
 
 
 
- 
+ 
 
 加密和解密都是透過單一方法呼叫來完成。 加密是透過 [**CSecureChannelClient：： EncryptParam**](/previous-versions/bb231587(v=vs.85)) （適用于應用程式）或 [**CSecureChannelServer：： EncryptParam**](/previous-versions/ms868509(v=msdn.10)) （代表服務提供者）來完成。 解密是由 CSecureChannelClient：適用于應用程式的 [**:D ecryptparam**](/previous-versions/bb231586(v=vs.85)) 或 CSecureChannelServer：適用于服務提供者的 [**:D ecryptparam**](/previous-versions/bb231598(v=vs.85)) 所完成。 用戶端和伺服器方法之間的參數相同。
 
@@ -219,6 +219,6 @@ Error:
 [**使用安全驗證通道**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

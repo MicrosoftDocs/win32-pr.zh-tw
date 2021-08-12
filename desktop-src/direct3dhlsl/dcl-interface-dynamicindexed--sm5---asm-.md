@@ -4,12 +4,12 @@ description: ')  (介面宣告函數資料表指標。 |dcl_interface_dynamicind
 ms.assetid: 5C77EBB6-7AEC-4471-AA6E-0F6D3E215156
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f78bb0152b44f7e29b9e76221db13da0c465a434
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c4bc52dc841b2e6de3c5af9725faac2c6dc5900b95117a28f77d8bc5087248df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286050"
 ---
 # <a name="dcl_interface_dynamicindexed-sm5---asm"></a>dcl \_ 介面 \_ dynamicindexed (sm5-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104992070"
 
 
 
-| 項目                                                          | 描述                                    |
+| Item                                                          | 描述                                    |
 |---------------------------------------------------------------|------------------------------------------------|
 | <span id="fp_"></span><span id="FP_"></span>*Fp\#*<br/> | \[在 \] 函數資料表指標中。<br/> |
 
@@ -73,7 +73,7 @@ ms.locfileid: "104992070"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -90,11 +90,11 @@ ms.locfileid: "104992070"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa65ae4b453fe919116a33c5ee86b14ba353f681
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 380d1f2751487f5c648b154852be625a5c93103851541dea7e2488ba75080ca0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572828"
 ---
 # <a name="playernewplaylist-method"></a>[] 方法
 
@@ -53,7 +53,7 @@ retVal = Player.newPlaylist(
 *URL* \[在\]
 </dt> <dd>
 
-**字串** ，包含要用來建立 **播放清單** 物件之 Windows Media 中繼檔播放清單的 URL。
+**字串**，包含用來建立 **播放清單** 物件之 Windows 媒體中繼檔播放清單的 URL。
 
 </dd> </dl>
 
@@ -93,7 +93,7 @@ retVal = Player.newPlaylist(
 [**PlaylistCollection. []**](playlistcollection-newplaylist.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔**](windows-media-metafiles.md)
+[**Windows媒體中繼檔**](windows-media-metafiles.md)
 </dt> </dl>
 
  

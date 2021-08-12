@@ -3,10 +3,10 @@ title: 使用 HTMLView 的優點
 description: 使用 HTMLView 的優點
 ms.assetid: bbec9471-87f1-4c41-a322-f11e9e1dec37
 keywords:
-- Windows Media 中繼檔播放清單，HTMLView 優點
+- Windows媒體中繼檔播放清單，HTMLView 的優點
 - 播放清單，HTMLView 優點
 - 中繼檔播放清單，HTMLView 優點
-- Windows Media 中繼檔播放清單，HTMLView 的優點
+- Windows媒體中繼檔播放清單，HTMLView 的優點
 - 播放清單，HTMLView 的優點
 - 中繼檔播放清單，HTMLView 的優點
 - HTMLView 的優點
@@ -20,12 +20,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f5e5409db969f5e9a8e0df18738f4995490b1d83
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a6019ec83466be9f4eca649d870422dce640fddc3ff011c46c6f918a1a09faa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583265"
 ---
 # <a name="advantages-of-using-htmlview"></a>使用 HTMLView 的優點
 
@@ -35,11 +35,11 @@ HTMLView 功能可讓您輕鬆地建立以網路為基礎的整合式使用者�
 
 使用者想要存取可透過數位媒體內容提供的資訊，但不想要處理看似無限的快顯公告系列。 使用快顯瀏覽器視窗來顯示網路上的廣告已經很常見，因為現在有軟體可以防止這些視窗開啟。 這種軟體可能會造成不必要的副作用，以防止顯示合法的網頁，有時會隱藏整個數位媒體簡報。
 
-當您使用 HTMLView 功能時，使用者不再需要處理快顯視窗。 您不需要開啟另一個瀏覽器視窗來提供其他資訊給使用者，您可以在播放程式播放使用者想要的音訊或影片內容時，在 Windows Media Player UI 的「 **立即播放** 」功能中顯示自訂的 Web 內容。 使用者可以使用 Windows Media Player 控制項來控制播放。 由於您的內容是在全模式播放程式中播放，因此設計來防止彈出廣告的軟體不會阻止使用者享受內容。
+當您使用 HTMLView 功能時，使用者不再需要處理快顯視窗。 您不需要開啟另一個瀏覽器視窗來提供其他資訊給使用者，您可以在播放程式播放使用者想要的音訊或影片內容時，在 Windows Media Player UI 的「**立即播放**」功能中顯示自訂的 Web 內容。 使用者可以使用 Windows Media Player 控制項來控制播放。 由於您的內容是在全模式播放程式中播放，因此設計來防止彈出廣告的軟體不會阻止使用者享受內容。
 
 ## <a name="htmlview-content-is-easy-to-create"></a>HTMLView 內容很容易建立
 
-如同功能名稱所示，您可以使用超文字標記語言 (HTML)  (HTML) 來建立以 HTMLView 功能顯示的 Web 內容。 如果您已經建立 Web 的內容，這表示您不需要學習新的程式設計語言，即可輕鬆地使用 HTMLView 功能建立豐富的內容。 如果您已經有內嵌 Windows Media Player ActiveX 控制項的網頁，您可以將這些頁面出現在播放程式 UI 中，只要從 Windows Media 中繼檔中指向這些網頁，就可以使用特殊參數) 的 ( .asx 檔。
+如同功能名稱所示，您可以使用超文字標記語言 (HTML)  (HTML) 來建立以 HTMLView 功能顯示的 Web 內容。 如果您已經建立 Web 的內容，這表示您不需要學習新的程式設計語言，即可輕鬆地使用 HTMLView 功能建立豐富的內容。 如果您已經有內嵌 Windows Media Player ActiveX 控制項的網頁，您可以將這些頁面出現在播放程式 UI 中，只要從 Windows 媒體 ( 中繼檔中指向這些網頁，即可使用特殊參數) 。
 
 Windows Media Player 使用內嵌的 Microsoft Internet Explorer 實例來顯示 HTMLView 內容。 這表示在建立網頁時，您不需要考慮不同的網際網路瀏覽器、多個腳本模型或不同的指令碼語言。 即使使用者未使用 Internet Explorer 作為預設瀏覽器，您的網頁仍會在播放程式中正確顯示。
 
@@ -55,9 +55,9 @@ Windows Media Player 以外的程式可能會將自己註冊為開啟 .asx 檔�
 [**OpenPlayer**](player-openplayer.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

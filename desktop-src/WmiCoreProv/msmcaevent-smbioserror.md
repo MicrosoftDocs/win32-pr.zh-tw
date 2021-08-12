@@ -1,5 +1,5 @@
 ---
-description: 指出電腦檢查架構 (MCA) 系統 BIOS 錯誤。 此類別僅適用于64位的 Windows 系統。
+description: 指出電腦檢查架構 (MCA) 系統 BIOS 錯誤。 此類別僅適用于64位 Windows 系統。
 ms.assetid: b451ca45-6208-4445-b9f1-b4e3174837a4
 title: MSMCAEvent_SMBIOSError 類別
 ms.topic: reference
@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 709d480e8865c5d5bde2a9f5e8de45f138e66548
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fccb38a73585db71c6418929a35458f26b9749159e537de47a298d920b318e08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558393"
 ---
 # <a name="msmcaevent_smbioserror-class"></a>MSMCAEvent \_ SMBIOSError 類別
 
-**MSMCAEvent \_ SMBIOSError** 類別指出電腦檢查架構 (MCA) 系統 BIOS 錯誤。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ SMBIOSError** 類別指出電腦檢查架構 (MCA) 系統 BIOS 錯誤。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -250,7 +250,7 @@ class MSMCAEvent_SMBIOSError : WMIEvent
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -259,7 +259,7 @@ class MSMCAEvent_SMBIOSError : WMIEvent
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> <dt>
 

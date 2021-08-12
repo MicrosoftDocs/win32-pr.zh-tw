@@ -11,12 +11,12 @@ keywords:
 - 範例、視覺效果的轉譯函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a1ee5d00bc1aed5bd8bd91880e43e2ac2d1f6bc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51265191ba7fd8b5eb9e4b1140990a7713eba08356d01c58097c727ec2fe533e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569784"
 ---
 # <a name="sample-render-code"></a>範例轉譯程式碼
 
@@ -67,7 +67,7 @@ STDMETHODIMP CStock::Render(TimedLevel *pLevels, HDC hdc, RECT *prc)
 
 轉譯函式是程式 **代碼的主要** 工作發生的位置。 每次 Windows Media Player 取得音訊的快照時，它就會呼叫這個函式，而您的程式碼將會執行。
 
-此程式碼會執行下列工作。 如需特定功能的詳細資訊，請參閱 Microsoft Windows Platform SDK for 32 位 Windows。
+此程式碼會執行下列工作。 如需有關特定功能的詳細資訊，請參閱 Microsoft Windows Platform SDK for 32 位 Windows。
 
 ## <a name="creating-objects"></a>建立物件
 
@@ -120,9 +120,9 @@ STDMETHODIMP CStock::Render(TimedLevel *pLevels, HDC hdc, RECT *prc)
 [**執行轉譯**](implementing-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

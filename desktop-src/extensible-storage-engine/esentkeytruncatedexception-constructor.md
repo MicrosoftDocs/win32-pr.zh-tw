@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 26571c95c810b9b89005a212f35d265c5968ce7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aae4fd709cbb956e8e59776bcf242f87c9deb1ee4fd53b653a4d9a71f5019d90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118264751"
 ---
 # <a name="esentkeytruncatedexception-constructor"></a>EsentKeyTruncatedException 函式
 

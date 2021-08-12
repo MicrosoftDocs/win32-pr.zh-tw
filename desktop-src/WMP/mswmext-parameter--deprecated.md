@@ -3,7 +3,7 @@ title: " (已淘汰的 MSWMExt 參數) "
 description: " (已淘汰的 MSWMExt 參數) "
 ms.assetid: cc52da1a-26d1-4321-b421-b0d6f44635cc
 keywords:
-- Windows Media 中繼檔，MSWMExt 參數
+- Windows媒體中繼檔，MSWMExt 參數
 - 中繼檔，MSWMExt 參數
 - MSWMExt 參數
 ms.topic: article
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 745ecfb2cf716e973aec3d574247e3e45d8f49ff
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2ec80530f95d4429769758488e5a2b24b0268c57255248c7685a0d00125aa130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574595"
 ---
 # <a name="mswmext-parameter-deprecated"></a> (已淘汰的 MSWMExt 參數) 
 
@@ -54,12 +54,12 @@ Ref01 = https://example.com/GenerateASFFile.aspx?MSWMExt=.asf
 
 <dl> <dt>
 
-[**舊版的 Windows Media 中繼檔 (已淘汰)**](previous-versions-of-windows-media-metafiles--deprecated.md)
+[**舊版 Windows 媒體中繼檔 (已淘汰)**](previous-versions-of-windows-media-metafiles--deprecated.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

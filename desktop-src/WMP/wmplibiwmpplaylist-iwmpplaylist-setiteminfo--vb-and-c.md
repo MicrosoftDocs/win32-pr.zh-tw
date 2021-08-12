@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cce882d050f1ce7839fe3589fced3a87d9052fec
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcd4bf2d90b90a825942c5634b2b2cde3bb82e7806fe62ecd5e7d298cd191997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568703"
 ---
 # <a name="iwmpplaylistsetiteminfo-method"></a>IWMPPlaylist：： setItemInfo 方法
 

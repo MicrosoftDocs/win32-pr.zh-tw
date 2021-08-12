@@ -4,12 +4,12 @@ ms.assetid: ebe0afc7-6261-4c96-a54e-9b491e240c03
 title: " (Direct3D 10) 的效果介面"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1946e7b9e3711bf2d79c0876efca1c533e0ff4ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d07e6ecf45f4ef052c7d576849a55d00ef0f877dde7c41fa5dc80b7592761325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303971"
 ---
 # <a name="effect-interfaces-direct3d-10"></a> (Direct3D 10) 的效果介面
 
@@ -17,7 +17,7 @@ ms.locfileid: "103688684"
 
 
 
-| 介面                                                                                     | Description                                                      |
+| 介面                                                                                     | 描述                                                      |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | [**ID3D10EffectBlendVariable 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectblendvariable)                       | 存取 blend 狀態。                                            |
 | [**ID3D10EffectConstantBuffer 介面**](/windows/desktop/api/D3D10Effect/nn-d3d10effect-id3d10effectconstantbuffer)                     | 存取材質緩衝區或常數緩衝區。                  |

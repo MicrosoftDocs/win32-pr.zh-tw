@@ -4,18 +4,18 @@ ms.assetid: e7073ba5-6b19-4d94-8cc0-b4e16bb44afd
 title: COM + 1.5 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994237002ea5d19c2cb00364f1064df38ed7271f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af0fd6705775e84f49d3a60afd7d89b7a5412b4a87fd5d04f202fadc77fd850d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304879"
 ---
 # <a name="whats-new-in-com-15"></a>COM + 1.5 的新功能
 
 COM + 1.5 版新增了新功能，其設計目的是為了提升開發人員和系統管理員的 COM + 應用程式的整體擴充性、可用性和管理性。
 
-從 Windows XP 和 Windows Server 2003 開始，可以使用 COM + 1.5。 Windows 2000 中無法使用新的 COM + 1.5 功能。
+從 Windows XP 和 Windows Server 2003 開始，可以使用 com + 1.5。 Windows 2000 中無法使用新的 com + 1.5 功能。
 
 ## <a name="application-level-access-checks-enabled-by-default"></a>預設啟用 Application-Level 存取檢查
 
@@ -57,7 +57,7 @@ COM + 開發人員可以使用新的 TxIsolationLevel 內容或 [元件服務] �
 
 若要使用 XA 資料庫進行復原，建議您提供執行此復原所需的許可權和角色給 NetworkService 帳戶。 執行這項操作的確切方法是每個資料庫特有的方法。 如需詳細資訊，請參閱停用原生分散式交易和停用秘訣和 XA 交易。
 
-為了在使用 XA 交易時提供更安全的系統，Windows Server 2003 平臺包含新的登錄專案，用來指定 XA DLL 檔案。 升級至 Windows Server 2003 時，您可以像之前一樣使用 XA 交易，方法是在 [ **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ MSDTC \\ XADLL**] 底下建立登錄專案，其中值名稱是 dll 的名稱 (格式為 *dllname*.dll) ，而值則是 dll 檔案的完整路徑。 您必須為每個使用中的 XA DLL 檔案建立一個專案。 如果執行 DTC 的電腦是叢集的一部分，則必須為叢集中的每個節點建立登錄專案。 如需詳細資訊，請參閱管理 XA 交易。
+為了在使用 xa 交易時提供更安全的系統，Windows Server 2003 平臺包含新的登錄專案，用來指定 xa DLL 檔案。 升級至 Windows Server 2003 時，您可以像之前一樣使用 XA 交易，方法是在 [ **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ MSDTC \\ XADLL**] 底下建立登錄專案，其中值名稱是 dll 的名稱 (格式為 *dllname*.dll) ，而值則是 dll 檔案的完整路徑。 您必須為每個使用中的 XA DLL 檔案建立一個專案。 如果執行 DTC 的電腦是叢集的一部分，則必須為叢集中的每個節點建立登錄專案。 如需詳細資訊，請參閱管理 XA 交易。
 
 ## <a name="low-memory-activation-gates"></a>Low-Memory 啟用閘道
 
@@ -69,23 +69,23 @@ COM + 開發人員可以使用新的 TxIsolationLevel 內容或 [元件服務] �
 
 ## <a name="network-access"></a>網路存取
 
-預設會停用 Windows Server 2003 上的 COM + 網路存取，這表示 COM + 預設只能在本機使用。 使用下列程式可啟用網路 COM + 存取。
+預設會停用 Windows Server 2003 上的 com + 網路存取，這表示 com + 預設只能在本機使用。 使用下列程式可啟用網路 COM + 存取。
 
 **啟用網路 COM + 存取**
 
 1.  在 [ **開始** ] 功能表上，指向 [ **主控台**]，然後選取 [ **新增或移除程式**]。
 
-2.  按一下 [ **新增/移除 Windows 元件**]。
+2.  按一下 [**新增/移除 Windows 元件**]。
 
 3.  選取 **[應用程式伺服器]** 並按一下 **[詳細資料]**。
 
 4.  核取 [ **啟用網路 COM + 存取**] 旁的核取方塊，然後按一下 **[確定]**。
 
-5.  按 **[下一步** ] 完成 [Windows 元件] wizard。
+5.  按 **[下一步**] 完成 [Windows 元件] wizard。
 
 6.  按一下 **[完成** ] 以關閉嚮導。
 
-在 Windows Server 2003 上，DTC 網路交易存取預設為停用。 在這些平臺上，DTC 預設只能執行本機交易。 使用下列程式來啟用網路 DTC 存取。
+預設會停用 Windows Server 2003 上的 DTC 網路交易存取。 在這些平臺上，DTC 預設只能執行本機交易。 使用下列程式來啟用網路 DTC 存取。
 
 > [!NOTE]
 > 您也可以使用 [元件服務] 系統管理工具，或透過 COM + 系統管理程式庫以程式設計方式啟用網路 DTC 存取。 如需相關的程式資訊，請參閱元件服務管理說明中的「設定 DTC 安全性」。
@@ -94,13 +94,13 @@ COM + 開發人員可以使用新的 TxIsolationLevel 內容或 [元件服務] �
 
 1.  在 [ **開始** ] 功能表上，指向 [ **主控台**]，然後選取 [ **新增或移除程式**]。
 
-2.  按一下 [ **新增/移除 Windows 元件**]。
+2.  按一下 [**新增/移除 Windows 元件**]。
 
 3.  選取 **[應用程式伺服器]** 並按一下 **[詳細資料]**。
 
 4.  核取 [ **啟用網路 DTC 存取**] 旁的核取方塊，然後按一下 **[確定]**。
 
-5.  按 **[下一步** ] 完成 [Windows 元件] wizard。
+5.  按 **[下一步**] 完成 [Windows 元件] wizard。
 
 6.  按一下 **[完成** ] 以關閉嚮導。
 
@@ -114,7 +114,7 @@ COM + 應用程式現在更容易管理。 系統管理員可以暫停和繼續 
 
 ## <a name="process-initialization"></a>進程初始化
 
-許多伺服器應用程式在啟動和關閉時，都必須進行特定的初始化和清除作業。 在 Windows Server 2003 上執行時，您可以建立可執行 [**IProcessInitializer**](/windows/desktop/api/ComSvcs/nn-comsvcs-iprocessinitializer) 介面的類別。 當處理常式啟動時，它會呼叫 [**IProcessInitializer：： Startup**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-startup) ，而當關機時，它會呼叫 [**IProcessInitializer：： Shutdown**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown)。 這可讓您的元件有機會進行需要的工作，例如初始化連接、檔案和快取。
+許多伺服器應用程式在啟動和關閉時，都必須進行特定的初始化和清除作業。 在 Windows Server 2003 上執行時，您可以建立可執行 [**IProcessInitializer**](/windows/desktop/api/ComSvcs/nn-comsvcs-iprocessinitializer)介面的類別。 當處理常式啟動時，它會呼叫 [**IProcessInitializer：： Startup**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-startup) ，而當關機時，它會呼叫 [**IProcessInitializer：： Shutdown**](/windows/desktop/api/ComSvcs/nf-comsvcs-iprocessinitializer-shutdown)。 這可讓您的元件有機會進行需要的工作，例如初始化連接、檔案和快取。
 
 ## <a name="running-com-applications-as-nt-services"></a>以 NT 服務的形式執行 COM + 應用程式
 
@@ -122,13 +122,13 @@ COM + 開發人員現在可以使用 [元件服務] 系統管理工具，將 COM
 
 ## <a name="side-by-side-assemblies"></a>並存元件
 
-並存 (SxS) 元件可讓應用程式指定要使用哪個版本的系統 DLL 或傳統 COM 元件，例如 MDAC、MFS、MSVCRT.LIB 或 MSXML。 例如，如果 ASP 應用程式依賴 MSXML 2.0 版，您可以確保即使在將 service pack 套用到伺服器之後，此應用程式仍會使用 MSXML 2.0 版。 也就是，即使電腦上已安裝 MSXML 的新版本，仍會保留版本2.0，並供您的應用程式使用。
+並存 (SxS) 元件可讓應用程式指定要使用哪個版本的系統 DLL 或傳統 COM 元件，例如 MDAC、MFS、MSVCRT.LIB 或 MSXML。 例如，如果 ASP 應用程式依賴 MSXML 版本2.0，您可以確保即使在將 service pack 套用到伺服器之後，此應用程式仍會使用 MSXML 2.0 版。 也就是，即使電腦上已安裝新版的 MSXML，仍會保留2.0 版並供您的應用程式使用。
 
 若要設定 SxS 元件，您需要知道 DLL 的路徑，而且每個需要使用 DLL 的虛擬目錄中都有 COM + 資訊清單檔案。 COM + 資訊清單是 XML 檔案，其中包含安裝 DLL 的相關資訊。 資訊清單是用來建立應用程式的啟用內容。 啟用內容可讓應用程式載入特定 DLL 版本、COM 物件實例或自訂視窗版本。 您可以使用 [元件服務] 系統管理工具或 ApplicationDirectory 屬性，輸入包含有效 SxS 組件資訊清單檔的應用程式根目錄的完整路徑。 如需詳細資訊，請參閱 [隔離的應用程式和並存元件](/windows/desktop/SbsCs/isolated-applications-and-side-by-side-assemblies-portal)。
 
 ## <a name="windows-error-reporting"></a>Windows 錯誤報告
 
-COM + 1.5 包含從 Windows XP 開始提供 Windows 錯誤報告 (WER) 元件的支援。 WER 可讓使用者將應用程式錯誤、核心錯誤和無回應的代理程式更新 Microsoft。 這些通知可讓 Microsoft 客戶支援小組更有效率地解決技術問題。 此外，Windows 錯誤報告元件可讓 COM + 開發人員接收可用來改善其應用程式的資訊。 如需詳細資訊，請參閱 [Windows 錯誤報告](/windows/desktop/wer/windows-error-reporting)。
+com + 1.5 包含 Windows 錯誤報告 (WER) 元件的支援，從 Windows XP 開始提供。 WER 可讓使用者將應用程式錯誤、核心錯誤和無回應的代理程式更新 Microsoft。 這些通知可讓 Microsoft 客戶支援小組更有效率地解決技術問題。 此外，Windows 錯誤報告元件可讓 com + 開發人員接收可用來改善其應用程式的資訊。 如需詳細資訊，請參閱 [Windows 錯誤報告](/windows/desktop/wer/windows-error-reporting)。
 
  
 

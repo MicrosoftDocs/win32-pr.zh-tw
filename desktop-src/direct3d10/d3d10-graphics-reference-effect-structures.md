@@ -4,12 +4,12 @@ ms.assetid: bbd69b4b-d2f4-471f-a607-328f5fc603b5
 title: " (Direct3D 10) 的效果結構"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991061fa75ff04222d842b3bb31bf7638e511f54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 914f6b2adab91dc73755abf3925717caf4c53e7a481800b193f2db3406cac619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118303800"
 ---
 # <a name="effect-structures-direct3d-10"></a> (Direct3D 10) 的效果結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "104510623"
 
 
 
-| 結構                                                          | Description                        |
+| 結構                                                          | 描述                        |
 |---------------------------------------------------------------------|------------------------------------|
 | [**D3D10 \_ 效果 \_ DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_desc)                    | 描述效果。               |
 | [**D3D10 \_ 效果 \_ 著色器 \_ DESC**](/windows/desktop/api/d3d10effect/ns-d3d10effect-d3d10_effect_shader_desc)     | 描述效果著色器。        |

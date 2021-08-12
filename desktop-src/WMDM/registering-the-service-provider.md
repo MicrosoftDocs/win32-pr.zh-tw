@@ -3,7 +3,7 @@ title: 註冊服務提供者
 description: 註冊服務提供者
 ms.assetid: 556d6519-bc24-446b-a360-e3d83b40d541
 keywords:
-- Windows Media 裝置管理員，註冊服務提供者
+- Windows媒體裝置管理員，註冊服務提供者
 - 裝置管理員，註冊服務提供者
 - 程式設計指南，註冊服務提供者
 - 服務提供者，註冊服務提供者
@@ -11,16 +11,16 @@ keywords:
 - 註冊服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1226b724b06990fc1e000a522e3a61672789cf3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f480fff04d34cf671bdc37e3bcded92c73f20d31d2fb67e4d6e41593a724d392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584281"
 ---
 # <a name="registering-the-service-provider"></a>註冊服務提供者
 
-除了註冊為 COM 物件之外，服務提供者還必須註冊為 Windows Media 裝置管理員的外掛程式。 若要註冊，服務提供者必須建立下列登錄機碼：
+除了註冊為 COM 物件之外，服務提供者必須註冊為外掛程式，才能 Windows 媒體裝置管理員。 若要註冊，服務提供者必須建立下列登錄機碼：
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows Media Device Manager\Plugins\SP\<             `
 
@@ -35,9 +35,9 @@ ms.locfileid: "104020986"
 [**建立服務提供者**](creating-a-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

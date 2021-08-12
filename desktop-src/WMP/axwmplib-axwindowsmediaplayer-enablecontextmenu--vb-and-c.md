@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 09c705fd45b9b994863ab4f93df1c3ae10858930
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5603762ec9823f7e9896c5c22c1dee33f2399bb02301921057f8502046bcc002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582337"
 ---
 # <a name="axwindowsmediaplayerenablecontextmenu-property"></a>AxWindowsMediaPlayer. enableCoNtextMenu 屬性
 
@@ -50,7 +50,7 @@ Public Property enableContextMenu As System.Boolean
 
 ## <a name="remarks"></a>備註
 
-在全螢幕播放期間，Windows Media Player 會在 **enableCoNtextMenu** 等於 False 且 **uiMode** 等於 "none" 時隱藏滑鼠游標。
+在全螢幕播放期間，Windows Media Player 會在 **enableCoNtextMenu** 等於 false 且 **uiMode** 等於 "none" 時隱藏滑鼠游標。
 
 ## <a name="requirements"></a>規格需求
 

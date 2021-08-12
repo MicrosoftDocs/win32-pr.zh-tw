@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: ad896c69ab6fad75179c9bb30668143aa2ea741e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0aba7a308a37ee531adf0886b8d06d4fd8c17369f73bd2bddf3211c2c184a4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000045"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547015"
 ---
 # <a name="root-collection"></a>根集合
 
@@ -45,7 +45,7 @@ ms.locfileid: "107000045"
 -   [**InprocServers**](inprocservers.md)
 -   [**LegacyServers**](legacyservers.md)
 -   [**LocalComputer**](localcomputer.md)
--   [**分區**](partitions.md)
+-   [**分割區**](partitions.md)
 -   [**PartitionUsers**](partitionusers.md)
 -   [**PropertyInfo**](propertyinfo.md)
 -   [**RelatedCollectionInfo**](relatedcollectioninfo.md)

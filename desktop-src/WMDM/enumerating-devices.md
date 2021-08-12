@@ -1,26 +1,26 @@
 ---
-title: 列舉 Windows Media 裝置管理員裝置
-description: 瞭解如何使用列舉介面來列舉 Windows Media 裝置管理員所偵測到的裝置。
+title: 列舉 Windows 媒體裝置管理員裝置
+description: 瞭解如何使用列舉介面 Windows 媒體裝置管理員來列舉偵測到的裝置。
 ms.assetid: c5935681-b530-4446-a026-7ddc74084d23
 keywords:
-- Windows Media 裝置管理員，列舉裝置
+- Windows媒體裝置管理員，列舉裝置
 - 裝置管理員，列舉裝置
 - 程式設計指南，列舉裝置
 - 桌面應用程式，列舉裝置
-- 建立 Windows Media 裝置管理員應用程式，列舉裝置
+- 建立 Windows 媒體裝置管理員應用程式，列舉裝置
 - 列舉裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94653d59b0880e9d52f43b34e21522a220d39beb
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 0009e2206bf7c97839d890d00c08a8e1806196efee9af95db72336b95d8b2cdf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584656"
 ---
-# <a name="enumerating-windows-media-device-manager-devices"></a>列舉 Windows Media 裝置管理員裝置
+# <a name="enumerating-windows-media-device-manager-devices"></a>列舉 Windows 媒體裝置管理員裝置
 
-驗證應用程式之後，您可以開始列舉 Windows Media 裝置管理員所偵測到的裝置。 列舉是藉由使用 [**IWMDeviceManager2：： EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2)或 [**IWMDeviceManager：： EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices)所取得的列舉介面 [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice)來完成。 如果支援，則使用 **EnumDevices2** 方法，因為較早的版本只會傳回裝置上的舊版介面，而新的版本則會傳回舊版和新的介面。
+驗證應用程式之後，您可以開始列舉 Windows 媒體裝置管理員偵測到的裝置。 列舉是藉由使用 [**IWMDeviceManager2：： EnumDevices2**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager2-enumdevices2)或 [**IWMDeviceManager：： EnumDevices**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdevicemanager-enumdevices)所取得的列舉介面 [**IWMDMEnumDevice**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmenumdevice)來完成。 如果支援，則使用 **EnumDevices2** 方法，因為較早的版本只會傳回裝置上的舊版介面，而新的版本則會傳回舊版和新的介面。
 
 取得列舉值之前，您應該決定要使用的列舉視圖。 有些裝置會將每個存放裝置公開為不同的裝置。 例如，裝置上的兩個快閃記憶卡會列舉為不同的裝置。 您可以指定將裝置上的所有存放裝置都列舉成單一裝置。 您只能在應用程式中設定此喜好設定一次。如果您想要變更它，則必須關閉並重新啟動應用程式。 不過，請注意，舊版裝置有時候會忽略將個別裝置存放裝置列舉為單一裝置的要求，並繼續個別列舉它們。
 
@@ -184,7 +184,7 @@ HRESULT CWMDMController::EnumDevices()
 
 <dl> <dt>
 
-[**建立 Windows Media 裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
+[**建立 Windows 媒體裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
  

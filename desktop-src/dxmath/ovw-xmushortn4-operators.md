@@ -4,12 +4,12 @@ ms.assetid: ed6ebfb8-d988-4fdf-917d-08e29214c117
 title: XMUSHORTN4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f850434a80a264db8d5e71825cde666ed41c19bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 102e0c3aa4fb2bdbb0e3aa0ac9811edf1999a04e13d6c2109a5d1d645a6c5623
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118277040"
 ---
 # <a name="xmushortn4-operators"></a>XMUSHORTN4 運算子
 

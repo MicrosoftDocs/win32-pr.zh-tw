@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72af5fe4c5e90effeb34745ea71e3edb457da357
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 009432040deace140dd3cf4d7d7da1246c0a38dbd9fc0da028832af137cefa83
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572848"
 ---
 # <a name="playermediacollectionmediaremoved-event"></a>MediaCollectionMediaRemoved 事件
 

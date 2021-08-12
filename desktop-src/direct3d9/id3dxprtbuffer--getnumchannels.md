@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5dab8491128a242116c48a58e8edba1be9eb51b6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a86bac0a827839180cf746f762c39c583e64a4f80c4ebeac1d4e5e936ca69c51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108107336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294101"
 ---
 # <a name="id3dxprtbuffergetnumchannels-method"></a>ID3DXPRTBuffer：： GetNumChannels 方法
 

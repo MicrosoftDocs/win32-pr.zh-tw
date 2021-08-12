@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101586
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1de7d65e239d265e72dbdbe4dd60d462d2ca71da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1749b82b3308b0a04f3f3c582fba164d8f4fa4859c8b51f32c1ee4ea8c87306
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118270945"
 ---
 # <a name="esentddlnotinheritableexception-members"></a>EsentDDLNotInheritableException 成員
 

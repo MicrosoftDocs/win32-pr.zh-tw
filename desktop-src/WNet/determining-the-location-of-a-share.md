@@ -4,12 +4,12 @@ description: 下列範例示範如何呼叫 WNetGetUniversalName 函式，以判
 ms.assetid: ce57fecb-8b14-4514-a3fd-45d7ef6eee89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c50c0d46e9ac2e520f7be15812b2f541fd3e588f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 90a881d452c6aa9eac5eea85d4ef0e9ddce83524f001294d2a6d6d6307f5ff1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566891"
 ---
 # <a name="determining-the-location-of-a-share"></a>判斷共用的位置
 
@@ -95,6 +95,6 @@ void main( int argc, char *argv[] )
 
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 43417389-69c1-4af6-92c2-75b621f9c165
 title: VertexDuplicationIndices
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b33a8c5fca4f479eec6e9864d4528d4e3e4a1e32
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1a9ac9b43e0aa05d75727e24bb4677ef0b21fcb41366800185551c48f5fb76f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290333"
 ---
 # <a name="vertexduplicationindices"></a>VertexDuplicationIndices
 

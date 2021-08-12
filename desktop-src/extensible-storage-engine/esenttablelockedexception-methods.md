@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103019
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 1d46ea7cb360035370cc46e0a3a725a9c270103f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb1d0a3441b71a53ac7371e37aded3ca50c95dc0b827b6d358fe3e07cd9523e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257839"
 ---
 # <a name="esenttablelockedexception-methods"></a>EsentTableLockedException 方法
 

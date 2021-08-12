@@ -10,18 +10,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8e2d3f68f4d7384781110958070b33b67a78405f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 737ae9505a0f775c26c5049eeb2f8500c9e3222d78181e18326ff53d39dfde01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554829"
 ---
 # <a name="querying-with-wql"></a>使用 WQL 查詢
 
 WMI 查詢語言 (WQL) 是標準美國國家標準局結構化查詢語言 (SQL)  (ANSI SQL) 的子集，其中包含支援 WMI 的次要語義變更。
 
-如需支援的 WQL 關鍵字完整清單，請參閱 [wql (適用于 WMI 的 SQL) ](wql-sql-for-wmi.md)。 針對物件或屬性名稱使用 SQL 關鍵字可能會限制無法剖析查詢。 下列 SQL 關鍵字受到限制： **Null**、 **TRUE** 和 **FALSE**。
+如需支援的 wql 關鍵字的完整清單，請參閱[WMI) 的 wql (SQL ](wql-sql-for-wmi.md)。 針對物件或屬性名稱使用 SQL 關鍵字可能會限制無法剖析查詢。 下列 SQL 關鍵字受到限制： **Null**、 **TRUE** 和 **FALSE**。
 
 > [!Note]  
 > WQL 查詢中可使用的和和或關鍵字數目有一些限制。 複雜查詢中使用的大量 WQL 關鍵字可能會導致 WMI 將 **WBEM \_ E \_ 配額 \_ 違規** 錯誤碼傳回為 **HRESULT** 值。 WQL 關鍵字的限制取決於查詢的複雜程度。

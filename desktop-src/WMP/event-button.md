@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f218c0703bd2847cc0f3b7fb2091bbb02e7863e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dbf9b98412630c91f0b0ffea03acf5c8f9a53043b280efdabbfffb8b972a17d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577665"
 ---
 # <a name="eventbutton"></a>事件。按鈕
 

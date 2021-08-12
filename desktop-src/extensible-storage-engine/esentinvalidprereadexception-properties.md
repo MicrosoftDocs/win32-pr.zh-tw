@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102079
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 93a0c54adac03ffadc0794a2ececfbdd091fba10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be9d64953899dd3d9b4aa820c20c90f771cc26c9afc94f540e3449bf92cd40a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118265331"
 ---
 # <a name="esentinvalidprereadexception-properties"></a>EsentInvalidPrereadException 屬性
 

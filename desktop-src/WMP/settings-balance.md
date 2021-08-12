@@ -3,7 +3,7 @@ title: 設定。餘額
 description: '[餘額] 屬性會指定或抓取目前的立體餘額。'
 ms.assetid: 26f04989-a1b1-4aec-8a15-c4e3737a4e62
 keywords:
-- 設定。餘額 Windows Media Player
+- 設定餘額 Windows Media Player
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 248cd3b2bbf735ef54382fb5b1be52755cad3799
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e569c40214655fc643762da8580bd8d6a16e098b99c649bb27e1a1485d498931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569573"
 ---
 # <a name="settingsbalance"></a>設定。餘額
 
@@ -52,7 +52,7 @@ ms.locfileid: "106982522"
 
 <dl> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> </dl>
 
  

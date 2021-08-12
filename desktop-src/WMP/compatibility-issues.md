@@ -3,10 +3,10 @@ title: 相容性問題
 description: 相容性問題
 ms.assetid: 2a912f95-4edd-48b8-80c9-c226b06077f8
 keywords:
-- Windows Media 中繼檔播放清單，相容性問題
+- Windows媒體中繼檔播放清單，相容性問題
 - 播放清單、相容性問題
 - 中繼檔播放清單，相容性問題
-- Windows Media 中繼檔播放清單，Netscape
+- Windows媒體中繼檔播放清單，Netscape
 - 播放清單，Netscape
 - 中繼檔播放清單，Netscape
 - 相容性，HTMLView
@@ -23,12 +23,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: be155f0fce4155514e9459e3cd49a89e24e2be04
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e8234960c28e09408a152fbf185acabca825ad83ab489867c48439491e2b320
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580570"
 ---
 # <a name="compatibility-issues"></a>相容性問題
 
@@ -47,9 +47,9 @@ HTMLView 功能所開啟的網頁會使用 Microsoft Internet Explorer 的內嵌
 [**建立 Type 2 線上商店的外掛程式**](building-the-plug-in-for-a-type-2-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

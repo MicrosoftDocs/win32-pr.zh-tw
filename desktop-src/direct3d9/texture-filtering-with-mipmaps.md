@@ -4,12 +4,12 @@ ms.assetid: b64abca9-0efb-4939-849d-e75a8d0dc10b
 title: 使用 Mipmap (Direct3D 9) 的材質篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdc109ae6de93a26b5d5e5b90e948761e92ee92c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c68f98c1189f130261981fdd309bb3f06bcca1e66f6e23a70e141a5abfe32f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104570930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291630"
 ---
 # <a name="texture-filtering-with-mipmaps-direct3d-9"></a>使用 Mipmap (Direct3D 9) 的材質篩選
 

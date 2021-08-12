@@ -31,12 +31,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681a0aef767afe92cdb93eee3849df8ed6a5f080
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4590e62397ac069cb0fc9661f615288c2d8df36ba41304fff71e4ef0293f9f3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552210"
 ---
 # <a name="identity-constants"></a>身分識別常數
 
@@ -49,7 +49,7 @@ ms.locfileid: "106967323"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                   | Description                                                                                                                            |
+| 常數/值                                                                                                                                                                                                                                                                                                   | 描述                                                                                                                            |
 |:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="APPLICATION_USER_MODEL_ID_MAX_LENGTH"></span><span id="application_user_model_id_max_length"></span><dl> <dt>**應用程式 \_使用者 \_ 型號 \_ 識別碼 \_ 最大 \_ 長度**</dt> <dt>130</dt> </dl>                  | 應用程式使用者模型識別碼的最大長度。 包含 Null 結束字元的空間。<br/>                             |
 | <span id="APPLICATION_USER_MODEL_ID_MIN_LENGTH"></span><span id="application_user_model_id_min_length"></span><dl> <dt>**應用程式 \_使用者 \_ 模型 \_ 識別碼 \_ 最小 \_ 長度**</dt> <dt>21</dt> </dl>                   | 應用程式使用者模型識別碼的最小長度。 包含 Null 結束字元的空間。<br/>                             |
@@ -80,8 +80,8 @@ ms.locfileid: "106967323"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>AppModel. h</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d7e9438299386d754be3c0fa87876fc2aff0b1e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50f2aecef8fecc2eae495990480ee14d3c841dcca0cd95f29f5444967ed14214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573504"
 ---
 # <a name="pixelaspectratiox"></a>PixelAspectRatioX
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e53a1611e052f2582be3b268a9f72b3bc9488a1c
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 4645dab93b0b9b6fd2a7be6f553326e550a9744e7b21014c0bdf471fa7cee906
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106991076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118270005"
 ---
 # <a name="esentexception-constructor-overload-list"></a>EsentException 函式多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "106991076"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

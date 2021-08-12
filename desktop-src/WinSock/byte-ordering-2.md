@@ -4,18 +4,18 @@ ms.assetid: 54c84cdb-50a1-4f5e-a18f-0477d90c74d2
 title: 位元組順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47af5ea9d22c01e6ae1ad3d78af48b4216f71ecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 554b9f00b67fcd602daee0ed33443e228e4e3976f334506d949e3af79fef7e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560178"
 ---
 # <a name="byte-ordering"></a>位元組順序
 
-請務必務必將用來儲存整數的位元組順序和個別傳輸通訊協定在網路上使用的位元組順序之間的任何差異列入考慮。 任何對 Windows 通訊端常式傳遞或傳送的位址或埠號碼的參考，都必須以網路順序 (可供使用之通訊協定的位元組由大到小的) 。 在 IP 的案例中，這包括 [**sockaddr**](sockaddr-2.md) 結構的 ip 位址和埠參數 (但不是) 的 *sin \_ 系列* 參數。
+請務必務必將用來儲存整數的位元組順序和個別傳輸通訊協定在網路上使用的位元組順序之間的任何差異列入考慮。 傳遞至 Windows 通訊端常式或從中傳遞的位址或埠號碼的任何參考，都必須以網路順序 (可供使用之通訊協定的位元組由大到小) 。 在 IP 的案例中，這包括 [**sockaddr**](sockaddr-2.md) 結構的 ip 位址和埠參數 (但不是) 的 *sin \_ 系列* 參數。
 
-許多 UNIX 系統都是在 Cpu 上運作，以網路位元組順序表示整數 (位元組由大到小的) 。 因此，將整數從主機位元組順序轉換成網路位元組順序的需要略過，而不會造成問題，即使不建議對可攜性也是如此。
+許多 UNIX 系統會在 cpu 上運作，而這些 cpu 代表以網路位元組順序表示的整數 (位元組由大到小的) 。 因此，將整數從主機位元組順序轉換成網路位元組順序的需要略過，而不會造成問題，即使不建議對可攜性也是如此。
 
 相反地，大部分 Intel® Cpu 用來表示整數的位元組順序是以位元組為單位。 因此，從主機位元組順序轉換成網路位元組順序之前，必須先將整數轉換成網路位元組順序，然後才能在 Winsock 通訊端函數和結構中使用。
 

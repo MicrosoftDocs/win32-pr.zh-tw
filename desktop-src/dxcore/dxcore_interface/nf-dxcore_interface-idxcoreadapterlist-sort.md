@@ -4,16 +4,16 @@ description: 根據提供的排序準則輸入陣列來排序 DXCore 介面卡�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
-ms.openlocfilehash: 6260e700053a99b531a66a5c19e15d4a32f07e46
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 59580fb8b76c80a264796f829d2b0a1d2e8eabb4375896fbd27fb34a7697cf90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278869"
 ---
 # <a name="idxcoreadapterlistsort-method"></a>IDXCoreAdapterList：： Sort 方法
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 根據提供的排序準則輸入陣列排序 DXCore 介面卡清單物件，其中較早在準則陣列中的陣列專案會獲得較高的加權。 **排序** 可協助您更輕鬆地在介面卡清單中尋找理想的介面卡。
 

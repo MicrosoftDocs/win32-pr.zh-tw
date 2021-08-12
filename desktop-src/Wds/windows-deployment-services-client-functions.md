@@ -1,17 +1,17 @@
 ---
-title: Windows 部署服務用戶端函數
+title: Windows部署服務用戶端函數
 description: 下列函式會與 Windows 部署服務用戶端 API 搭配使用。
 ms.assetid: 4cedd8a8-7f46-4229-9d96-58965b751e43
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe124c6f02d12943d40fbc98af4a687d5b892f86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c213822323405e030ba9907f692d6fcaa370356fb395a390dfa0f1fc0818244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566383"
 ---
-# <a name="windows-deployment-services-client-functions"></a>Windows 部署服務用戶端函數
+# <a name="windows-deployment-services-client-functions"></a>Windows部署服務用戶端函數
 
 下列函式會與 Windows 部署服務用戶端 API 搭配使用。
 
@@ -55,7 +55,7 @@ ms.locfileid: "106966821"
 
 
 
- 
+ 
 
 
 
@@ -66,11 +66,11 @@ ms.locfileid: "106966821"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

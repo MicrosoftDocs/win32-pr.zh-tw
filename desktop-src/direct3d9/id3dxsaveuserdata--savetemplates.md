@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 92040629b1b21cbfa1219eee237e357aa056b473
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 00695f11f267c77838bc2d9a3d2932df108c7323f3751b385c009abe2b21f540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118293104"
 ---
 # <a name="id3dxsaveuserdatasavetemplates-method"></a>ID3DXSaveUserData：： SaveTemplates 方法
 

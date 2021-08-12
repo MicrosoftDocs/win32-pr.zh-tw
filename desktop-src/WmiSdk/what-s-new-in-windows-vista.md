@@ -1,20 +1,20 @@
 ---
-description: 從 Windows Vista 開始，WMI 包含許多以 WMI 使用者要求為基礎的新功能。
+description: 從 Windows Vista 開始，wmi 包含許多以 wmi 使用者要求為基礎的新功能。
 ms.assetid: 604a86d2-9a8e-4266-93b8-13676f768b29
 ms.tgt_platform: multiple
 title: Windows Vista 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee950becb906f89445f9ddfb258f4f7a608ce1a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c47a2e63307004430099923d3d0a151ed9122b7fb96ff127c59145f1a911a1dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553263"
 ---
 # <a name="whats-new-in-windowsvista"></a>Windows Vista 的新功能
 
-從 Windows Vista 開始，WMI 包含許多以 WMI 使用者要求為基礎的新功能。
+從 Windows Vista 開始，wmi 包含許多以 wmi 使用者要求為基礎的新功能。
 
 -   [新的疑難排解工具](#new-troubleshooting-tool)
 -   [Windows Vista 中的新安全性功能](#new-security-features-in-windows-vista)
@@ -30,7 +30,7 @@ ms.locfileid: "106991936"
 <span id="WMI_Diagnosis_Utility"></span><span id="wmi_diagnosis_utility"></span><span id="WMI_DIAGNOSIS_UTILITY"></span>WMI Diagnosis Utility
 </dt> <dd>
 
-此公用程式會檢查本機電腦上 WMI 服務的目前狀態以及相關元件、DCOM 設定和登錄設定。 此公用程式會報告問題，並提供修復的建議。 如需詳細資訊及下載公用程式，請參閱 [WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en)。
+此公用程式會檢查本機電腦上 WMI 服務的目前狀態以及相關元件、DCOM 設定和登錄設定。 此公用程式會報告問題，並提供修復的建議。 如需詳細資訊及下載公用程式，請參閱[WMI Diagnosis Utility](https://www.microsoft.com/downloads/en/details.aspx?familyid=d7ba3cd6-18d1-4d05-b11e-4c64192ae97d&displaylang=en)。
 
 </dd> </dl>
 
@@ -78,7 +78,7 @@ WMI 會使用命名空間系統存取控制清單 (SACL) 來審核命名空間�
 <span id="User_Account_Control"></span><span id="user_account_control"></span><span id="USER_ACCOUNT_CONTROL"></span>使用者帳戶控制
 </dt> <dd>
 
- (UAC) 的使用者帳戶控制會影響傳回的 WMI 資料、遠端存取，以及腳本必須如何執行。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。 如需 UAC 的詳細資訊，請參閱 [使用 Windows Vista 的使用者帳戶控制開始使用](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista)。
+ (UAC) 的使用者帳戶控制會影響傳回的 WMI 資料、遠端存取，以及腳本必須如何執行。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。 如需 UAC 的詳細資訊，請參閱[Windows Vista 上的開始使用與使用者帳戶控制](https://support.microsoft.com/help/922708/how-to-use-user-account-control-uac-in-windows-vista)。
 
 </dd> </dl>
 
@@ -112,14 +112,14 @@ WMI [IP 路由提供者](/previous-versions/windows/desktop/wmiiprouteprov/ip-ro
 <span id="Changes_to_remote_connections"></span><span id="changes_to_remote_connections"></span><span id="CHANGES_TO_REMOTE_CONNECTIONS"></span>遠端連線的變更
 </dt> <dd>
 
-連接到執行 Windows Vista 的遠端電腦上的 WMI 命名空間，可能需要變更 [Windows 防火牆](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx)、 [使用者帳戶控制](/previous-versions/aa905108(v=msdn.10))或 DCOM 的設定。 如需詳細資訊，請參閱 [從 Vista 開始遠端連線到 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
+連接到執行 Windows Vista 之遠端電腦上的 WMI 命名空間，可能需要變更[Windows 防火牆](https://www.microsoft.com/technet/itsolutions/network/wf/default.mspx)、[使用者帳戶控制](/previous-versions/aa905108(v=msdn.10))或 DCOM 的設定。 如需詳細資訊，請參閱 [從 Vista 開始遠端連線到 WMI](connecting-to-wmi-remotely-starting-with-vista.md)。
 
 </dd> <dt>
 
 <span id="Changes_to_________Win32_QuickFixEngineering"></span><span id="changes_to_________win32_quickfixengineering"></span><span id="CHANGES_TO_________WIN32_QUICKFIXENGINEERING"></span>[ **Win32 \_ QuickFixEngineering** 的變更](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)
 </dt> <dd>
 
-如果是在 Windows Vista 和更新版本的作業系統上執行的系統，這個類別只會傳回以元件為基礎的服務 (CBS) 所提供的更新。 這些更新不會列在登錄中。 [**Win32 \_ QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)不會傳回 Windows Installer (MSI) 或 [Windows Update](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us)所提供的更新。
+針對在 Windows Vista 和更新版本的作業系統上執行的系統，這個類別只會傳回以元件為基礎的服務 (CBS) 所提供的更新。 這些更新不會列在登錄中。 [**Win32 \_ QuickFixEngineering**](/windows/desktop/CIMWin32Prov/win32-quickfixengineering)不會傳回 Windows Installer (MSI) 或 [Windows Update](https://update.microsoft.com/microsoftupdate/v6/default.aspx?ln=en-us)所提供的更新。
 
 </dd> <dt>
 
@@ -130,7 +130,7 @@ WMI [IP 路由提供者](/previous-versions/windows/desktop/wmiiprouteprov/ip-ro
 
 </dd> <dt>
 
-<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Windows Installer 提供者變更
+<span id="Windows_Installer_Provider_changes"></span><span id="windows_installer_provider_changes"></span><span id="WINDOWS_INSTALLER_PROVIDER_CHANGES"></span>Windows安裝程式提供者變更
 </dt> <dd>
 
 [**Win32 \_產品**](/previous-versions/windows/desktop/legacy/aa394378(v=vs.85)) 有新的屬性和方法，可提供更多關於產品的資料。
@@ -161,7 +161,7 @@ WMI [IPMI 提供者](/previous-versions/windows/desktop/ipmiprv/ipmi-provider) �
 <span id="Event_messages"></span><span id="event_messages"></span><span id="EVENT_MESSAGES"></span>事件訊息
 </dt> <dd>
 
-Windows Vista 有新的事件訊息。 如需詳細資訊，請參閱 [WMI 事件](wmi-events.md)。
+WindowsVista 有新的事件訊息。 如需詳細資訊，請參閱 [WMI 事件](wmi-events.md)。
 
 </dd> <dt>
 

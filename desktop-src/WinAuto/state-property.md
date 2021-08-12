@@ -4,12 +4,12 @@ description: State 屬性會在某個時間點描述物件的狀態。 所有物
 ms.assetid: 6a56070f-7913-45b2-b693-3c0a8b7fa2f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d151f09fca6c31abaaa98a19139d3e22eb28ec90
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e174e938dd6252852ded6de957a54f6f94264aa811bd5bb76094af7bbba61f48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564416"
 ---
 # <a name="state-property"></a>State 屬性
 
@@ -21,9 +21,9 @@ Microsoft Active Accessibility 提供在 oleacc 中定義的 [物件狀態常數
 
 偶而動畫的圖形應該將 [ **狀態** ] 屬性設定為 [ [**狀態 \_ 系統 \_ 動畫**](object-state-constants.md) ]，並將 [ [**角色**](role-property.md) ] 屬性設定為 [ [**角色 \_ 系統 \_ 圖形**](object-roles.md)]。
 
- 
+ 
 
- 
+ 
 
 
 

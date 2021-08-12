@@ -4,12 +4,12 @@ ms.assetid: 19c36f94-8088-417d-867d-3a02912087dc
 title: 標頭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cfaa589382812cfd752d47cc8b95cda0139385b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: baaed7884cef465110167d3e235197c534e48d19eb47ee308c0650bd86773ea3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297068"
 ---
 # <a name="header"></a>標頭
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: a90411b937dbd4b7844837529fc19f27927bd035
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: 5cb52d703caf03645a8be6f35196f12c858cdcb342f9e693cdea54b9e2b81b7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106976312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118260901"
 ---
 # <a name="esentresourcedispose-method-overload-list"></a>EsentResource 方法多載清單
 
@@ -32,7 +32,7 @@ ms.locfileid: "106976312"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

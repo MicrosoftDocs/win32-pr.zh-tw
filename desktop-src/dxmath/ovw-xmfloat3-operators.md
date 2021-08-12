@@ -4,12 +4,12 @@ ms.assetid: dc98a2ed-da87-4ba3-8394-682143b378b8
 title: XMFLOAT3 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 78c24d8c9486b4e6fddf03c227cd1a9b131b83d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e127aacbbb20740dd3de1a240f44c4f2eb111b970ef527b4908271a40ad1a26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278042"
 ---
 # <a name="xmfloat3-operators"></a>XMFLOAT3 運算子
 

@@ -4,12 +4,12 @@ ms.assetid: 2f7f80d6-3abb-462f-a571-b223a1d59da6
 title: '有漏洞 Bucket 緩衝區模型 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5a99932fb121808f6a49323360c47c09d0acbb
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 848a0088a0e2b155deb6945e4a6532edb2677dc484341e50172f1bb1eb8187d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106981754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238047"
 ---
 # <a name="the-leaky-bucket-buffer-model-microsoft-media-foundation"></a>有漏洞 Bucket 緩衝區模型 (Microsoft 媒體基礎) 
 
@@ -52,7 +52,7 @@ ASF 承載資料可能會以不規則的時間輸入有漏洞值區，並以不�
 
 對於透過網路的無問題串流，媒體內容中的壓縮資料流程必須在整個播放期間維持固定的位元速率。 ASF 有漏洞 bucket 模型可確保媒體資料會以固定的位元速率傳送到網路上。 有漏洞 bucket 的參數是在 [ASF 標頭物件](asf-file-structure.md)的擴充資料流程屬性物件中指定。 在 Microsoft 媒體基礎中，這些屬性會設定為代表資料流程之媒體類型上的屬性。
 
-有漏洞值區值會定義在 ASF 檔案接收和基礎的 ASF 多工器物件中，以及 Windows Media 編碼器中。 這些值可能相同或不同。 例如，假設有一個串流案例，這需要比影片範例更晚傳遞音訊範例，以便在不延遲的情況下串流檔。 為了達到此目的，媒體接收器中的音訊串流有漏洞 bucket 可以設定為高於 Windows Media 音訊編碼器中所設定之值的值。
+有漏洞值區值會定義在 asf 檔案接收和基礎的 asf 多工器物件中，以及 Windows 媒體編碼器中。 這些值可能相同或不同。 例如，假設有一個串流案例，這需要比影片範例更晚傳遞音訊範例，以便在不延遲的情況下串流檔。 為了達到此目的，媒體接收器中的音訊串流有漏洞 bucket 可以設定為高於 Windows media 音訊編碼器中所設定之值的值。
 
 若要在編碼器中設定 B/R 值，應用程式必須設定 [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md)、 [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md)、 [**MFPKEY \_ RMAX**](mfpkey-rmaxproperty.md)和 [**MFPKEY \_ BMAX**](mfpkey-bmaxproperty.md) 屬性。 如需在編碼器中設定屬性的相關資訊，請參閱 [編碼屬性](configuring-the-encoder.md)。
 
@@ -89,9 +89,9 @@ ASF 承載資料可能會以不規則的時間輸入有漏洞值區，並以不�
 
 針對2通過編碼模式，您必須設定這兩個屬性，以指定平均值和最大值。
 
-針對 VBR 編碼，應用程式只能在編碼階段完成之後，查詢編碼器所使用的有漏洞 bucket 值。 因此，在設定媒體接收器時，應用程式可以選擇不設定與有漏洞 bucket 相關的屬性或屬性。 編碼之後，應用程式必須查詢 [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md)、 [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md)、 [**MFPKEY \_ RMAX**](mfpkey-rmaxproperty.md)和 [**MFPKEY \_ BMAX**](mfpkey-bmaxproperty.md) 屬性的編碼器，並在媒體接收器中進行設定，讓正確的值反映在 Header 物件中。 如需有關如何更新 VBR 編碼值的程式碼範例，請參閱 [教學課程： 1-傳遞 Windows Media 編碼](tutorial--1-pass-windows-media-encoding.md)中的「更新檔案接收中的編碼屬性」。
+針對 VBR 編碼，應用程式只能在編碼階段完成之後，查詢編碼器所使用的有漏洞 bucket 值。 因此，在設定媒體接收器時，應用程式可以選擇不設定與有漏洞 bucket 相關的屬性或屬性。 編碼之後，應用程式必須查詢 [**MFPKEY \_ RAVG**](mfpkey-ravgproperty.md)、 [**MFPKEY \_ BAVG**](mfpkey-bavgproperty.md)、 [**MFPKEY \_ RMAX**](mfpkey-rmaxproperty.md)和 [**MFPKEY \_ BMAX**](mfpkey-bmaxproperty.md) 屬性的編碼器，並在媒體接收器中進行設定，讓正確的值反映在 Header 物件中。 如需有關如何更新 VBR 編碼值的程式碼範例，請參閱[教學課程： 1-傳遞 Windows 媒體編碼](tutorial--1-pass-windows-media-encoding.md)中的「更新檔案接收中的編碼屬性」。
 
-如果您在沒有編碼的情況下，將 Windows Media 內容從來源複製到媒體接收，則必須在媒體接收器中設定有漏洞 bucket 值。
+如果您在不編碼的情況下將 Windows 媒體內容從來源複製到媒體接收，則必須在媒體接收器中設定有漏洞 bucket 值。
 
 ## <a name="leaky-bucket-values-in-the-asf-multiplexer"></a>在 ASF 多工器中有漏洞 Bucket 值
 

@@ -4,12 +4,12 @@ ms.assetid: 89ca4ee3-ab6a-403a-9cd9-18de02d285ac
 title: XMU555 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd00064b11e678cee59244da3953618a24b29253
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6967a93f6350abaddb2b366a9927a81ce8fe6b4e4e4ff891a983ba9f6379f55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118277705"
 ---
 # <a name="xmu555-extensions"></a>XMU555 延伸模組
 

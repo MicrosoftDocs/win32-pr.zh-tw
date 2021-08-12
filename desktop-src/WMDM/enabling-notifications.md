@@ -3,28 +3,28 @@ title: 啟用通知
 description: 啟用通知
 ms.assetid: b4fc7714-a7d0-409f-a47c-4903bab883cc
 keywords:
-- Windows Media 裝置管理員，通知
+- Windows媒體裝置管理員，通知
 - 裝置管理員，通知
 - 程式設計指南，通知
 - 桌面應用程式，通知
-- 建立 Windows Media 裝置管理員應用程式，通知
+- 建立 Windows 媒體裝置管理員應用程式、通知
 - 通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618356c9d63d20a8b6b14e6c99072074cfc75073
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33ab1b71482db78571f141b7042d8abc926b0d79ca2f487ee7dc961396993b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585061"
 ---
 # <a name="enabling-notifications"></a>啟用通知
 
-Windows Media 裝置管理員宣告了四個介面，可讓應用程式在 COM 類別中執行以接收事件通知。 這些介面分為兩個群組，如下表所示。
+Windows媒體裝置管理員宣告了四個介面，可讓應用程式在 COM 類別中執行以接收事件通知。 這些介面分為兩個群組，如下表所示。
 
 
 
-| 介面                                                                                                                                                | Description                                                                                                                                                                   |
+| 介面                                                                                                                                                | 描述                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMDMNotification**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmnotification)                                                                                                            | 當裝置或存放裝置媒體已連線或中斷連線時，通知應用程式。                                                                                         |
 | [**IWMDMProgress**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress)<br/> [**IWMDMProgress2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2)<br/> [**IWMDMProgress3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3)<br/> | 一個非常簡單的通知系統，用來警示應用程式有關任何事件的進度。 應用程式不需要採取任何動作來回應這些訊息。 |
@@ -125,7 +125,7 @@ HRESULT CWMDMController::UnregisterForNotifications()
 
 **使用 IWMDMProgress**
 
-Windows Media 裝置管理員可在特定動作（例如內容傳輸、安全的時鐘取得，以及遇到 DRM 檔案資訊）時，傳送您的應用程式狀態消息。 您的應用程式可以使用這些訊息來監視事件的狀態，或取消事件。 若要使用這個介面，請執行 [**IWMDMProgress**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress)、 [**IWMDMProgress2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2)或 [**IWMDMProgress3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3)，然後將它當作參數傳遞至將接受進度訊息的方法。 請注意， **IWMDMProgress3** 是最上層的介面，因為它會提供指定要追蹤之動作的識別碼 GUID。 下列應用程式方法會接受進度介面 (對應的服務提供者方法應該能夠將通知傳送至已提交的介面) ：
+Windows媒體裝置管理員可在特定動作（例如內容傳輸、安全的時鐘取得，以及遇到 DRM 檔案資訊）時，傳送您的應用程式狀態消息。 您的應用程式可以使用這些訊息來監視事件的狀態，或取消事件。 若要使用這個介面，請執行 [**IWMDMProgress**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress)、 [**IWMDMProgress2**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress2)或 [**IWMDMProgress3**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmprogress3)，然後將它當作參數傳遞至將接受進度訊息的方法。 請注意， **IWMDMProgress3** 是最上層的介面，因為它會提供指定要追蹤之動作的識別碼 GUID。 下列應用程式方法會接受進度介面 (對應的服務提供者方法應該能夠將通知傳送至已提交的介面) ：
 
 [**IWMDMStorageControl：:D elete**](/windows/desktop/api/mswmdm/nf-mswmdm-iwmdmstoragecontrol-delete)
 
@@ -151,7 +151,7 @@ Windows Media 裝置管理員可在特定動作（例如內容傳輸、安全的
 
 <dl> <dt>
 
-[**建立 Windows Media 裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
+[**建立 Windows 媒體裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
  

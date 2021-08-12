@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f8d92bd5718e626f95cc7d08fbc01d5881ff9b59
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3361f9f92fd04aa0e08c6eba76e05bcfe870c8c769a87da95e667c78e45e01b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118273517"
 ---
 # <a name="performservervalidation-element"></a>PerformServerValidation 元素
 
@@ -43,8 +43,8 @@ ms.locfileid: "106976434"
 
 | 角色 | 最低 OS 版本 |
 |------|--------------------|
-| 用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

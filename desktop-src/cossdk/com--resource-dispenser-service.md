@@ -4,12 +4,12 @@ ms.assetid: 34825538-85dd-4e86-a306-79cd60b3bc0b
 title: COM + 資源配置器服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f78bf9d9338473572ef5d1f38c05b3e49e2772a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4dfb83d6f88eff89ccccad313f8c5251df1924b299d4b082d850cbde562ce4c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548774"
 ---
 # <a name="com-resource-dispenser-service"></a>COM + 資源配置器服務
 

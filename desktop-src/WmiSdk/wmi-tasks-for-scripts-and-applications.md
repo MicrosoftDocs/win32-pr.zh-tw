@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e2a18791f5055a7574b9e130cf10c0cd1246f6eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d273db41b832b8141fe13bdf0538b51fb221688949792e214c9f81c1e7b96e69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553122"
 ---
 # <a name="wmi-tasks-for-scripts-and-applications"></a>腳本和應用程式的 WMI 工作
 
@@ -29,7 +29,7 @@ ms.locfileid: "104513060"
 
 
 
-| 工作分類                                                               | Description                                                                                                                                                                                                                                                                                                                                               |
+| 工作分類                                                               | 描述                                                                                                                                                                                                                                                                                                                                               |
 |-------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [帳戶和網域](wmi-tasks--accounts-and-domains.md)                   | 取得電腦網域或目前登入的使用者之類的資訊。 許多網域或帳戶相關的工作，最好是使用 [ADSI](/windows/desktop/ADSI/active-directory-service-interfaces-adsi) 腳本來執行。 如需範例，請參閱 TechNet ScriptCenter，網址為 [https://www.microsoft.com/technet](https://technet.microsoft.com/default.aspx) 。 |
 | [電腦硬體](wmi-tasks--computer-hardware.md)                         | 取得硬體元件的狀態、狀態或屬性的相關資訊。 例如，您可以判斷電腦是否為桌上型電腦或膝上型電腦。                                                                                                                                                                                             |
@@ -40,7 +40,7 @@ ms.locfileid: "104513060"
 | [磁片和檔案系統](wmi-tasks--disks-and-file-systems.md)               | 取得磁片磁碟機硬體狀態的相關資訊、邏輯磁片區。                                                                                                                                                                                                                                                                                      |
 | [事件記錄](wmi-tasks--event-logs.md)                                       | 從 NT 事件記錄檔取得事件資料，並執行備份或清除記錄檔等作業。                                                                                                                                                                                                                                                   |
 | [檔案和資料夾](wmi-tasks--files-and-folders.md)                         | 透過 WMI 變更檔案或資料夾屬性，包括建立共用或重新命名檔案。                                                                                                                                                                                                                                                              |
-| [網路功能](wmi-tasks--networking.md)                                       | 管理和取得連線和 IP 或 MAC 位址的相關資訊。                                                                                                                                                                                                                                                                                  |
+| [網路](wmi-tasks--networking.md)                                       | 管理和取得連線和 IP 或 MAC 位址的相關資訊。                                                                                                                                                                                                                                                                                  |
 | [作業系統](wmi-tasks--operating-systems.md)                         | 取得作業系統的相關資訊，例如版本、是否已啟用，或已安裝的修補程式。                                                                                                                                                                                                                                  |
 | [效能監控](wmi-tasks--performance-monitoring.md)               | 使用從效能計數器取得資料的 WMI 類別，存取和重新整理有關電腦效能的資料。                                                                                                                                                                                                                                     |
 | [處理序](wmi-tasks--processes.md)                                         | 取得資訊，例如正在執行進程的帳戶。 您可以執行動作，例如建立進程。                                                                                                                                                                                                                                 |

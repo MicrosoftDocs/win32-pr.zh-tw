@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 39d48abcffa537d886397092c6d4a7b558825021
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2da001117fa75ccef737647038d3e58b942f666ba40e1fd14ec98cb4ebdd44af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553314"
 ---
 # <a name="user-account-control-and-wmi"></a>使用者帳戶控制和 WMI
 

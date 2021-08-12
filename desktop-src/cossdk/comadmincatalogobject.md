@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - ComAdmin.Idl
-ms.openlocfilehash: 19fb873e29ad235b11dfe6e7a95b2ad47a8405b2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bce57021774b3abc2f69a1120862912452629c3e70d9c8fd0ebcc5d39ce5203d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548585"
 ---
 # <a name="comadmincatalogobject-class"></a>COMAdminCatalogObject 類別
 
@@ -102,7 +102,7 @@ SysFreeString(bstrItemName);
 
 
 
-若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 COM + 系統管理員類型程式庫。 您可以藉由呼叫 [**COMAdminCatalog**](comadmincatalog.md)或 [**COMAdminCatalogCollection**](comadmincatalogcollection.md)物件上的 [**>getcollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection)來建立 COMAdminCatalogCollection 物件。
+若要從 Microsoft Visual Basic 使用這個類別，請將參考新增至 com + 系統管理員類型程式庫。 您可以藉由呼叫 [**COMAdminCatalog**](comadmincatalog.md)或 [**COMAdminCatalogCollection**](comadmincatalogcollection.md)物件上的 [**>getcollection**](/windows/desktop/api/ComAdmin/nf-comadmin-icomadmincatalog-getcollection)來建立 COMAdminCatalogCollection 物件。
 
 呼叫 [**COMAdminCatalogCollection**](comadmincatalogcollection.md)物件的 [**填入**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-populate)方法，以填入集合中的所有專案。 逐一查看集合中的每個專案。 當您找到感興趣的專案時，您可以修改專案的屬性，並結束反復專案。 如果您對集合中的任何專案進行任何變更，您必須呼叫 **COMAdminCatalogCollection** 物件的 [**SaveChanges**](/windows/desktop/api/ComAdmin/nf-comadmin-icatalogcollection-savechanges)方法，以將變更儲存至 com + 類別目錄。
 

@@ -6,12 +6,12 @@ keywords:
 - VersionIndependentProgID 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5774dfa5202521bb5055bab6a62aa7c6a60b3cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4fe1defaa52df5251d6c021655d6e84c90677e2a2d57f0bfb67f925e0ffa5bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549714"
 ---
 # <a name="versionindependentprogid"></a>VersionIndependentProgID
 
@@ -21,8 +21,8 @@ ms.locfileid: "104022095"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      VersionIndependentProgID = Program.Component
+   {CLSID}
+      VersionIndependentProgID = Program.Component
 ```
 
 ## <a name="remarks"></a>備註
@@ -33,9 +33,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 
 您可以使用 [**CLSIDFromProgID**](/windows/desktop/api/combaseapi/nf-combaseapi-clsidfromprogid) 和 [**ProgIDFromCLSID**](/windows/desktop/api/combaseapi/nf-combaseapi-progidfromclsid) ，在這兩種標記法之間進行轉換。
 
- 
+ 
 
- 
+ 
 
 
 

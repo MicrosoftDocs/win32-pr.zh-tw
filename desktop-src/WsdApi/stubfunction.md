@@ -4,18 +4,18 @@ ms.assetid: 2547f71d-8a30-4df8-ba38-6707c415708e
 title: stubFunction 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a77f37aed20dae4f04eea087e3d1eac2d23369af
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: dc9304aa33bd193edc631949a93e1d770a1fade3d0c5726a9f2d897ea1862476
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552409"
 ---
 # <a name="stubfunction-element"></a>stubFunction 元素
 
 指定存根函式參考是否應該包含在單向和雙向作業的埠類型定義中的作業結構中。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <stubFunction/>

@@ -4,12 +4,12 @@ description: 以隨機方式將 1-4 32 位元件寫入至結構化緩衝區未�
 ms.assetid: 8080B2CA-5BDA-4F01-8B2B-B85BDD58C5AF
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b5890d30fac57923365f0bdea89fcce55f7922c7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 6a220fca330ba4198669245f0336b363c448067613e3f21fce44c9af9325bd9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285753"
 ---
 # <a name="store_structured-sm5---asm"></a>儲存 \_ 結構化 (sm5-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104022812"
 
 
 
-| 項目                                                                                                                       | 描述                                                    |
+| Item                                                                                                                       | 描述                                                    |
 |----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
 | <span id="dst0"></span><span id="DST0"></span>*dst0*<br/>                                                            | \[在 \] 操作結果的位址中。<br/> |
 | <span id="dstAddress"></span><span id="dstaddress"></span><span id="DSTADDRESS"></span>*dstAddress*<br/>             | \[在 \] 要寫入的位址中。<br/>               |
@@ -92,7 +92,7 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援 UAV 和 TGSM 的這個指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | X     | X       |
 
@@ -104,7 +104,7 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援 UAV 和 TGSM 的這個指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -121,11 +121,11 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援 UAV 和 TGSM 的這個指令。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

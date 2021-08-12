@@ -4,12 +4,12 @@ description: 翻譯為 VBScript
 ms.assetid: 12eac4bd-06d9-45db-81c2-0591200cbacc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14b9f64e25a22ffe83c148c1fd1b7a7603b8f3f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9241dbcbfd15ff50da5e6a9cb32db2318d21c7f70aab6d2420a8e80c59229852
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550582"
 ---
 # <a name="translating-to-vbscript"></a>翻譯為 VBScript
 
@@ -17,7 +17,7 @@ VBScript 是 Microsoft Visual Basic for Applications 語言的子集。 由於 V
 
 除了 VBScript 所提供的語言功能之外，腳本主機也可能會公開您的腳本可以存取的 VBScript 物件模型。 例如，Internet Explorer 會公開物件模型，讓腳本能夠與互動並以程式設計方式控制瀏覽器。 如需有關使用這類物件模型的詳細資訊，請參閱腳本主機上的檔。
 
-下列主題描述當您從 JavaScript 或 JScript 將腳本轉譯為 VBScript 時，應該考慮的問題：
+下列主題描述當您從 JavaScript 或 JScript 將腳本轉譯成 VBScript 時應考慮的問題：
 
 -   [從 JScript 轉換成 VBScript](translating-to-vbscript-from-jscript.md)
 -   [從 JavaScript 轉換成 VBScript](translating-to-vbscript-from-javascript.md)
@@ -32,9 +32,9 @@ VBScript 是 Microsoft Visual Basic for Applications 語言的子集。 由於 V
 [翻譯為 JScript](translating-to-jscript.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

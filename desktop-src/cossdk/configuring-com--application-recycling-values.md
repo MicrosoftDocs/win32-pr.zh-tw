@@ -4,19 +4,19 @@ ms.assetid: 8f6a4879-cf4c-4171-8448-bc07371e038c
 title: 設定 COM + 應用程式回收值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b34c989d81f2e3486adb1d12ec76859a1d28f090
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2613fb6f063a49d53baa90fad6f7dac862b848c6abf95fddcc36ace25e3d6b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548639"
 ---
 # <a name="configuring-com-application-recycling-values"></a>設定 COM + 應用程式回收值
 
 您可以使用下列方法來為您的 COM + 應用程式設定應用程式回收值。
 
 > [!Note]  
-> 您無法回收已設定為以 Windows 服務形式執行的 COM + 應用程式。 此外，程式庫應用程式具有其主機進程的回收和共用屬性。
+> 您無法回收已設定為以 Windows 服務的方式執行的 com + 應用程式。 此外，程式庫應用程式具有其主機進程的回收和共用屬性。
 
  
 
@@ -39,11 +39,11 @@ ms.locfileid: "104111444"
 
      
 
-3.  按一下 [確定]  。
+3.  按一下 [確定]。
 
 ## <a name="visual-basic"></a>Visual Basic
 
-Microsoft Visual Basic 中的下列函式示範如何為您選擇的任何 COM + 伺服器應用程式設定應用程式回收值。 若要從 Visual Basic 使用它，請將參考新增至 COM + 系統管理員類型程式庫。
+Microsoft Visual Basic 中的下列函式示範如何為您選擇的任何 com + 伺服器應用程式設定應用程式回收值。 若要從 Visual Basic 使用它，請將參考新增至 com + 系統管理員類型程式庫。
 
 
 ```VB

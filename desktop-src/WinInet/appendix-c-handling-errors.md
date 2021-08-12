@@ -1,17 +1,17 @@
 ---
-title: " (Windows 網際網路) 處理錯誤"
+title: 處理 (Windows 網際網路) 的錯誤
 description: GetLastError 函式會針對所有 WinINet 函數抓取最後一個錯誤碼。
 ms.assetid: ee619803-b2a3-4a99-a3e6-120e147843f7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc175c80fd8bd10b6a3807376e1a207d805aee65
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6ef5c40a2a7b018c1da25932ecbea24259f2bcdb18eff1e424500dcda60dc208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104187267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562348"
 ---
-# <a name="handling-errors-windows-internet"></a> (Windows 網際網路) 處理錯誤
+# <a name="handling-errors-windows-internet"></a>處理 (Windows 網際網路) 的錯誤
 
 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror)函式會針對所有 WinINet 函數抓取最後一個錯誤碼。 如果傳回 [**錯誤 \_ 網際網路 \_ 延伸 \_ 錯誤**](wininet-errors.md) ，則會有包含詳細錯誤訊息的字串或緩衝區。 呼叫 [**InternetGetLastResponseInfo**](/windows/desktop/api/Wininet/nf-wininet-internetgetlastresponseinfoa) 函數，以抓取擴充的錯誤文字。
 
@@ -186,7 +186,7 @@ void WINAPI addLastErrorToMsg( LPTSTR szMsgBuffer, DWORD dwSize )
 
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

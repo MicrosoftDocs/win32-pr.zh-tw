@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b9ab64f76243065e28ebf83eedb0845f30642751
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 4c0b6684722478ef913a5d03d5e50c2f7d76fc692696661357b970388397b494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570639"
 ---
 # <a name="query-object"></a>Query 物件
 
@@ -35,7 +35,7 @@ ms.locfileid: "104373443"
 
 
 
- 
+ 
 
 為了方便說明，mediaCollection. createQuery () 用來表示參考語法區段中的 **查詢** 物件。
 
@@ -45,9 +45,9 @@ ms.locfileid: "104373443"
 -   [MediaCollection.getStringCollectionByQuery](mediacollection-getstringcollectionbyquery.md)
 -   [腳本的物件模型參考](object-model-reference-for-scripting.md)
 
- 
+ 
 
- 
+ 
 
 
 

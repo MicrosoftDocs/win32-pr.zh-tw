@@ -12,12 +12,12 @@ api_type:
 - DllExport
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d6e163fe83af68319f20f6f531366e04a7bc6422
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0abd8a3126c2846820d8aae4836016766f065c5fdc12837116b5b4792e772879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281272"
 ---
 # <a name="idcompositiontranslatetransformsetoffsetx-methods"></a>IDCompositionTranslateTransform：： SetOffsetX 方法
 
@@ -41,7 +41,7 @@ ms.locfileid: "104384650"
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2012 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Dcomp。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Dcomp .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Dcomp.dll</dt> </dl> |

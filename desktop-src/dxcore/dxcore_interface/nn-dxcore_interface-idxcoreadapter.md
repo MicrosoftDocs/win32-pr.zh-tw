@@ -1,19 +1,19 @@
 ---
 title: IDXCoreAdapter
-description: " **IDXCoreAdapter**   介面會執行方法，以取得介面卡專案的詳細資料。"
+description: '**IDXCoreAdapter** 介面會執行方法，以取得介面卡專案的詳細資料。'
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 0930ce76353d556f7839f476ec8979823eac3a6c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 18cdd8082701ea4f1a8b5a3cfa047decd0f77df81b17eebe49bf5a8a887663fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278785"
 ---
 # <a name="idxcoreadapter-interface"></a>IDXCoreAdapter 介面
 
- **IDXCoreAdapter**   介面會執行方法，以取得介面卡專案的詳細資料。 **IDXCoreAdapter** 繼承自 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面。 如需程式設計指引和程式碼範例，請參閱 [使用 DXCore 來列舉介面卡](../dxcore-enum-adapters.md)。
+**IDXCoreAdapter** 介面會執行方法，以取得介面卡專案的詳細資料。 **IDXCoreAdapter** 繼承自 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面。 如需程式設計指引和程式碼範例，請參閱 [使用 DXCore 來列舉介面卡](../dxcore-enum-adapters.md)。
 
 ## <a name="remarks"></a>備註
 

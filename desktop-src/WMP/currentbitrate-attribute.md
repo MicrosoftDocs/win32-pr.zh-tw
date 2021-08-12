@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 567c2e6b43679204f0e2d0f249c1b16dff4071a9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c3e614e241093a5b81a8b636410f0581aac277fc45925b55d741e4d3c9277d29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579897"
 ---
 # <a name="currentbitrate-attribute"></a>CurrentBitrate 屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "106993349"
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMCurrentBitrate。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMCurrentBitrate。
 
 ## <a name="requirements"></a>規格需求
 

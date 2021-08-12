@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4971c2a7f601132640d7654a95dd288f1740a467
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb157bb30c2e728b7840fe7021a2a4fcacc317b10eb6778b5702d7d2277c4a92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570611"
 ---
 # <a name="queryset-element"></a>querySet 元素
 
@@ -102,7 +102,7 @@ ms.locfileid: "106996005"
 [**sourceFilter 元素**](sourcefilter-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2c951f3121aae4267fbbb0a40dc83a250c38165c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d207badad9b483435fb177eaec035122413e27e0cc5d5714ed4d0507703bb3f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106966610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283203"
 ---
 # <a name="span-idvspixengineipixelhistorycallbackspanipixelhistorycallback-interface"></a><span id="vspixengine.ipixelhistorycallback"></span>IPixelHistoryCallback 介面
 

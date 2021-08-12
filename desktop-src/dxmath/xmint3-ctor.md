@@ -4,12 +4,12 @@ ms.assetid: 69eb08b8-a533-40cc-8efb-ccb9106e0e24
 title: 'XMINT3 函式 (Directxmath) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 08d5440f2a0c6302e936a0c58127aae8044338b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3b9b8adeeaaaf43023da2dc924e0d1bb646c6c36b3c0a3c4cc3f949511dde7b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276183"
 ---
 # <a name="xmint3-constructors"></a>XMINT3 函式
 

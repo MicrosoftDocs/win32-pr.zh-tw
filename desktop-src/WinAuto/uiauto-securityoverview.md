@@ -19,12 +19,12 @@ keywords:
 - 安全性，並無 requestedexecutionlevel 標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f2f5cf006c0adaf9b170a4ed11abd9afd52012
-ms.sourcegitcommit: 4e4f9e7c90d25af0774deec1d44bd49fa9b6daa9
+ms.openlocfilehash: f88ba97be98795be3725efaf76cf01297d7a00a2bb0112b0211581b3e0e4035f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "106993737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563961"
 ---
 # <a name="security-considerations-for-assistive-technologies"></a>輔助技術的安全性考慮
 
@@ -52,7 +52,7 @@ ms.locfileid: "106993737"
 
 ## <a name="uiaccess-requirements-for-assistive-technology-applications"></a>輔助技術應用程式的 UIAccess 需求
 
-輔助技術應用程式是 Windows Windows 傳統型應用程式，可與桌面上和新的 Windows UI 中執行的其他進程互動，以從系統和應用程式取得資訊。 輔助技術應用程式接著可以提供資訊給協助工具使用者。
+輔助技術應用程式是一種 Windows Windows 桌面應用程式，可與桌面上和新的 Windows UI 中執行的其他進程互動，以取得系統和應用程式的資訊。 輔助技術應用程式接著可以提供資訊給協助工具使用者。
 
 輔助技術應用程式會在應用程式資訊清單中設定 UIAccess 旗標，以取得其他進程的存取權。 若要使用 UIAccess 旗標，輔助技術應用程式必須符合下列需求。
 
@@ -73,7 +73,7 @@ ms.locfileid: "106993737"
     > [!Note]  
     > 針對新的 Windows UI 開發的應用程式沒有 UIAccess 作為可用的選項。
 
-     
+     
 
 ## <a name="setting-uiaccess-in-the-application-manifest-file"></a>在應用程式資訊清單檔中設定 UIAccess
 
@@ -98,7 +98,7 @@ ms.locfileid: "106993737"
 
 **UIAccess** 預設為 "false"。 如果省略此屬性，或沒有資訊清單，應用程式將無法取得受保護 UI 的存取權。
 
-如需有關 Windows 安全性、簽署應用程式以及建立資訊清單的詳細資訊，請參閱[Windows vista 和 Windows Server 2008 開發人員故事： MSDN 上的 Windows Vista 應用程式開發需求 (UAC) 的使用者帳戶控制](/previous-versions/aa905330(v=msdn.10))
+如需有關 Windows 安全性、簽署應用程式以及建立資訊清單的詳細資訊，請參閱[Windows Vista 和 Windows Server 2008 開發人員故事： Windows MSDN 上的使用者帳戶控制 (的 vista 應用程式開發需求) UAC](/previous-versions/aa905330(v=msdn.10)) 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -107,6 +107,6 @@ ms.locfileid: "106993737"
 [UI 自動化基礎](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

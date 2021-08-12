@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 356e2779d82e886946e93d2071ae693279c07eb8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6eb4e4f6d3320bcac06c973ef28e8af0934f3a55da9045f01141157240434fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284296"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatuint-function"></a>SampleLevel：： SampleLevel (S，float，float，uint) 函數
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 047f1acd0944a283ad8a1333c593eb906daa81b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb1b0f307bb13d205ed01d489281d784a3c2869db7e837e00b3f02ed3e56b0b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118262301"
 ---
 # <a name="esentoutofcursorsexception-constructor"></a>EsentOutOfCursorsException 函式
 

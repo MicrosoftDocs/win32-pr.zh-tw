@@ -4,12 +4,12 @@ description: 呼叫安全性可判斷用戶端是否有權呼叫伺服器的方�
 ms.assetid: 7ce162d0-20e0-4385-ad9f-472f2c17b060
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a838a9c7936c126a1fedeeafc977f55641b63c5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6d8d8f4a48baed00655761e89a12f0aa84846a0a2defdc0b2e444b2bee9103f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550562"
 ---
 # <a name="turning-off-call-security"></a>關閉通話安全性
 
@@ -40,7 +40,7 @@ ms.locfileid: "104371963"
 > [!Note]  
 > 將全電腦的驗證層級設定為 [無] 非常不安全。
 
- 
+ 
 
 1.  執行 Dcomcnfg.exe。
 2.  選擇 [ **預設** 內容] 索引標籤。
@@ -58,9 +58,9 @@ ms.locfileid: "104371963"
 [關閉啟用安全性](turning-off-activation-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

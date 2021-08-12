@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ceae33a201086d268942e47496874678ec13f459
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7139c567eab5fbb3c324916dec260d34f57429cb50bb99d199f35be8aee7a1c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573213"
 ---
 # <a name="playercurrentplaylist"></a>CurrentPlaylist
 
@@ -87,7 +87,7 @@ document.write("Found first playlist. Name: " + Player.currentPlaylist.name);
 [**PlaylistCollection. []**](playlistcollection-newplaylist.md)
 </dt> <dt>
 
-[**設定。 autoStart**](settings-autostart.md)
+[**設定 autoStart**](settings-autostart.md)
 </dt> </dl>
 
  

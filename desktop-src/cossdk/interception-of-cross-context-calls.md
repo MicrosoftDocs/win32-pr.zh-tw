@@ -4,12 +4,12 @@ ms.assetid: 9e234b41-f269-4674-adc4-12018277a14b
 title: 攔截跨內容呼叫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d70bc8bff83d02b13656f9854f0e6d16cd4e173
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1a3a969479419b75313f8b439f3cf9ffc7b94946e9007752ccc4e99a54cd6ad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547835"
 ---
 # <a name="interception-of-cross-context-calls"></a>攔截跨內容呼叫
 

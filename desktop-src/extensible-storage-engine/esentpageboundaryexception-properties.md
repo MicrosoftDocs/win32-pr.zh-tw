@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102504
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: eb2a1ed6e0e1312308fd67a74374faf47f0b4405
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 117f81064111da0837cbe69c46bb39484967ff5d498d52eec6a0efd9e872302d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944922"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118261468"
 ---
 # <a name="esentpageboundaryexception-properties"></a>EsentPageBoundaryException 屬性
 

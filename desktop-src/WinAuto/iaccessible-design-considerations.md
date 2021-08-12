@@ -4,12 +4,12 @@ description: 本節將討論伺服器開發人員在根據 IAccessible 介面設
 ms.assetid: 240cdff1-a4c3-477a-b146-2ac295d7a148
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ebb8648bd0398117f1d3da895ff4b4288aa5e7c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f36e4b1bab270ab9de21dfe69609d516f8c15518f6dbe4db22fcf1baad1290e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566132"
 ---
 # <a name="iaccessible-design-considerations"></a>IAccessible 設計考慮
 
@@ -24,9 +24,9 @@ ms.locfileid: "104301159"
 -   [產生適當的 WinEvents](generating-appropriate-winevents.md)
 -   [公開 IAccessible 介面未涵蓋的其他資訊](exposing-additional-information-not-covered-by-iaccessible-interface.md)
 
- 
+ 
 
- 
+ 
 
 
 

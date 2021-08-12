@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 7fe6c0393e5cfb9ed8aeaf5808d33175e7f9bfe5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8442577ab70b3ce4b08229d1b21989e614d8f328d3012042d3b1b5dc524f4604
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295334"
 ---
 # <a name="id3dxfiledatagetchild-method"></a>ID3DXFileData：： System.windows.media.visualtreehelper.getchild 方法
 

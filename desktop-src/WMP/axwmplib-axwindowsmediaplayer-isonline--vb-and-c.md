@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 506251f7a53343a1c9183919661e3fc3f3ee2cac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 02888183113387c2c1073be6772b1fb6f53319a2473ac9a520387223b5b32bf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582166"
 ---
 # <a name="axwindowsmediaplayerisonline-property"></a>AxWindowsMediaPlayer. isOnline 屬性
 

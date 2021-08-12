@@ -1,6 +1,6 @@
 ---
 title: 發佈嚮導簡介
-description: Windows XP 引進了 Web 發佈嚮導和線上列印順序 Wizard。
+description: WindowsXP 引進了 Web 發佈嚮導和線上列印順序 Wizard。
 ms.assetid: da3adc24-5b37-48b5-b055-d5bfa572defd
 keywords:
 - 發佈嚮導，關於
@@ -10,16 +10,16 @@ keywords:
 - 發佈嚮導，線上列印訂購嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b4e6d3c515edae23d0e74f550e000bdfdfacf03
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 70d576d04579847d2e65bbc59399d11689259f8e64823a3c3068cafad912ff8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104462985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246665"
 ---
 # <a name="publishing-wizards-introduction"></a>發佈嚮導簡介
 
-Windows XP 引進了 Web 發佈嚮導和線上列印順序 Wizard。 根據相同的架構，這些嚮導為使用者提供一個簡單的機制，可將內容發佈至網站，或訂購從數位影像檔進行的列印。 這些瀏覽器的優點在於能夠在其 wizard 頁面中裝載來自不同提供者的 HTML 內容，讓 [外觀]、[程式] 和 [可用] 使用者選項可以完全由提供者控制，而且可能會隨時變更，而不會影響裝載它們的用戶端 wizard。 雖然這些現有的嚮導都是以非常重要的數位影像來建立的，但架構和概念可用於許多其他用途，例如檔列印服務，或作為與朋友和家人共用影像的方法。
+WindowsXP 引進了 Web 發佈嚮導和線上列印順序 Wizard。 根據相同的架構，這些嚮導為使用者提供一個簡單的機制，可將內容發佈至網站，或訂購從數位影像檔進行的列印。 這些瀏覽器的優點在於能夠在其 wizard 頁面中裝載來自不同提供者的 HTML 內容，讓 [外觀]、[程式] 和 [可用] 使用者選項可以完全由提供者控制，而且可能會隨時變更，而不會影響裝載它們的用戶端 wizard。 雖然這些現有的嚮導都是以非常重要的數位影像來建立的，但架構和概念可用於許多其他用途，例如檔列印服務，或作為與朋友和家人共用影像的方法。
 
 -   [它如何運作？](#how-does-it-work)
 -   [發佈嚮導檔](#publishing-wizard-documentation)
@@ -52,6 +52,6 @@ Web 發佈嚮導和線上列印順序 Wizard 的使用者體驗很類似，但�
 -   [使用傳送資訊清單](pubwiz-manifest.md)
 -   [傳送資訊清單架構](/windows/desktop/shell/interfaces)
 
- 
+ 
 
- 
+ 

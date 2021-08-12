@@ -1,6 +1,6 @@
 ---
 title: AxWindowsMediaPlayer. windowlessVideo 屬性
-description: WindowlessVideo 屬性會取得或設定值，這個值表示 Windows Media Player 控制項是否以無視窗模式呈現影片。
+description: windowlessVideo 屬性會取得或設定值，這個值表示 Windows Media Player 控制項是否以無視窗模式呈現影片。
 ms.assetid: 70386aae-cd30-405d-90dd-9b3fa63dad17
 keywords:
 - windowlessVideo 屬性 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d22ecc0f39b03201809877fe8ebc667d62e16d0b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3a63a7246e730f73bd6d6f27111112a3db2029e3b53c80569e2e013771da6708
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581518"
 ---
 # <a name="axwindowsmediaplayerwindowlessvideo-property"></a>AxWindowsMediaPlayer. windowlessVideo 屬性
 
-WindowlessVideo 屬性會取得或設定值，這個值表示 Windows Media Player 控制項是否以無視窗模式呈現影片。
+windowlessVideo 屬性會取得或設定值，這個值表示 Windows Media Player 控制項是否以無視窗模式呈現影片。
 
 ## <a name="syntax"></a>Syntax
 
@@ -46,7 +46,7 @@ Public Property windowlessVideo As System.Boolean
 
 ## <a name="property-value"></a>屬性值
 
-System.string 值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。 預設值為 false。
+system.string 值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。 預設值為 false。
 
 ## <a name="remarks"></a>備註
 

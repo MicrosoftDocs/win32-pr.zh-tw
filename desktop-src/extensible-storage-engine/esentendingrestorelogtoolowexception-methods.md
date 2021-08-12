@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101640
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7a843b14278c58f881c07aac016b0c38f09e5ac3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6ca82bd5c93872a03d87dcd4dfaa24c4e4bc00cf2778c61d31d176e379afc8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118270194"
 ---
 # <a name="esentendingrestorelogtoolowexception-methods"></a>EsentEndingRestoreLogTooLowException 方法
 

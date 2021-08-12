@@ -4,12 +4,12 @@ ms.assetid: d3d22ae6-7d16-4f25-9f15-21b2163cb0f5
 title: 使用佇列的標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228964157d08aca868474167ae16590692f16ba9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8e83d720478064f1427966de69d98ef06ac82f1da98cc50aa1ec3d3b3ac4c4d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305155"
 ---
 # <a name="using-the-queue-moniker"></a>使用佇列的標記
 
@@ -79,7 +79,7 @@ hr = CoGetObject (
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +130,7 @@ COM + 佇列的元件接聽程式只能從與標示為已排入佇列的 COM + �
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -222,7 +222,7 @@ COM + 佇列的元件接聽程式只能從與標示為已排入佇列的 COM + �
 </ul></td>
 </tr>
 <tr class="even">
-<td><em>追蹤</em><br/></td>
+<td><em>跟蹤</em><br/></td>
 <td>指定追蹤訊息佇列路由中使用的追蹤選項。<br/> 可接受的值：<br/>
 <ul>
 <li>MQMSG_TRACE_NONE，0</li>

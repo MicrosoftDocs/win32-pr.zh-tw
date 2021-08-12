@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e69c35ebfb2bf263882c6fb0337fc44c609bab3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5346aff83f9a7f56907d67025ee92ec1148cff6af3f4b3a3ee917589be721ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275176"
 ---
 # <a name="name-connection-element"></a>) 元素 (連接名稱
 
@@ -39,8 +39,8 @@ ms.locfileid: "104104069"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 
@@ -51,7 +51,7 @@ ms.locfileid: "104104069"
 **架構中的元素定義內容**
 </dt> <dt>
 
-[**連線**](eapconnectionpropertiesv1schema-connection-connections-element.md)
+[**連接**](eapconnectionpropertiesv1schema-connection-connections-element.md)
 </dt> <dt>
 
 **架構實例中可能的直屬父元素**

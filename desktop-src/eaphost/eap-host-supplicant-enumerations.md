@@ -4,12 +4,12 @@ description: 瞭解 EAPHost 要求者 API 列舉，例如 EapHostPeerMethodResul
 ms.assetid: ba4d5a7f-3a5d-4ca3-975e-1ffa182b9014
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e214682a9b94c98db5981a0df8c2b8619814f1e5
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d38ef1901ad53e64f43aeddaea52b9d62ebc23876996dcf877945cb745b25b67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275158"
 ---
 # <a name="eaphost-supplicant-enumerations"></a>EAPHost 要求者列舉
 
@@ -30,11 +30,11 @@ EAPHost 要求者 API 列舉如下所示。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

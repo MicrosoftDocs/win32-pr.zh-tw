@@ -4,12 +4,12 @@ description: 與內容提供者互動的多播伺服器所提供的功能。
 ms.assetid: 6d5bcda4-6be4-49e2-9e0f-77b16057952d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a594e6117d10f76f8984136c8ceb2b70a20bf71c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47b17347deeddbc5a8fc104150ceeb05c44451327a6a4f9122614fc18d5bdedc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566422"
 ---
 # <a name="wds-transport-server-functions"></a>WDS 傳輸伺服器功能
 
@@ -28,11 +28,11 @@ ms.locfileid: "104301860"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c662a6d6-5e0b-4c28-841d-5774d4103d4b
 title: 'MFNETSOURCE_PLAYERUSERAGENT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f4d06eaea566e22e1239ed04594f2f592c7cd6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4b431780345c8b297bf154813a9713b5b158ecc99cc4384294ee983b8066ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118243420"
 ---
 # <a name="mfnetsource_playeruseragent-property"></a>MFNETSOURCE \_ PLAYERUSERAGENT 屬性
 
@@ -43,8 +43,8 @@ VT \_ LPWSTR
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

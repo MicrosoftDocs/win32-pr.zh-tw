@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b5fa690ed127c41b8a84f5d8aa012510f3a9c3e4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e58048098b137c4a0443cddc725c61622ee8bef94cf3752abf5b45a24d385734
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272662"
 ---
 # <a name="apijetcreateindex2-method"></a>JetCreateIndex2 方法
 

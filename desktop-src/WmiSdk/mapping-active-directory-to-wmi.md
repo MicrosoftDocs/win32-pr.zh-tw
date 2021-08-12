@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 將 Active Directory 對應至 WMI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e0162f722eb8a053270ac2a8e75eaed4f1cd405
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e94072ec0a95a8f64a072c7df5efd3973fc6a864e64bdca80c2841beac9097f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987674"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555188"
 ---
 # <a name="mapping-active-directory-to-wmi"></a>將 Active Directory 對應至 WMI
 

@@ -4,12 +4,12 @@ ms.assetid: 3fbeb81a-e3e4-495b-b891-896877fab92f
 title: 已排入佇列的元件安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b51592f6216d7380e877f2cd582a277f1583b8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 682a9b409df2f605c259a6af6741dcc6e59d9fc23852b950a13225b24386c010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547080"
 ---
 # <a name="queued-components-security"></a>已排入佇列的元件安全性
 
@@ -28,7 +28,7 @@ COM + 佇列元件支援以角色為基礎的安全性語義，就像是為了�
 
 QC 信任的使用者角色的成員可以指定任意的識別碼，這表示惡意的成員可以利用較高的權限來執行佇列元件呼叫。 因此建議將這類使用者的數目保持在絕對最少數。
 
-因為有一項複雜的攻擊與任何機制（會在網路上傳播身分識別）相關聯，以及藉由使用 unexecutable 要求淹沒佇列的簡單阻絕服務攻擊的風險，建議您只在信任的主機網路（例如，在私人網路或虛擬私人網路）上部署 COM + 佇列的元件服務或在適當設定的防火牆後方。
+因為有一項複雜的攻擊與任何機制（會在網路上傳播身分識別）相關聯，以及透過 unexecutable 要求而產生簡單阻絕服務攻擊的風險，所以建議您只在受信任主機的網路上部署 COM + 佇列的元件服務，例如： 在私人網路或虛擬私人網路中，或在適當設定的防火牆後方。
 
 COM + 佇列元件會透過 DCOM 執行，因此您可以在佇列應用程式的 [內容]**工作表的**[**安全性**] 索引標籤上，選取 [封 **包隱私權**] 作為 [**呼叫的驗證等級**] 設定，以協助保護佇列方法呼叫的完整性和機密性。
 

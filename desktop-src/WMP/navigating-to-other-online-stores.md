@@ -9,12 +9,12 @@ keywords:
 - 流覽類型2線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a8456954d5a7197a054098320b35fb38409ba62
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ff1b2cb120ac161fd92bf8d35826b9dc096c95c37d916f19eb2aeb7362aabe7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574431"
 ---
 # <a name="navigating-to-other-online-stores"></a>流覽至其他線上商店
 
@@ -44,9 +44,9 @@ ms.locfileid: "104300024"
 [**類型2線上商店的流覽**](navigation-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

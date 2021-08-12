@@ -4,12 +4,12 @@ ms.assetid: 1a6d94b8-bb41-cf4a-6e6e-3fc9756f56d2
 title: DirectXMath 程式庫4D 向量比較函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f8cb3b0a888cd77473c48e6231892d32fd403f0b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57a46d7ca48696a3767e5008ddcd9684faaa2003c783670d945a98538bda5a9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276735"
 ---
 # <a name="directxmath-library-4d-vector-comparison-functions"></a>DirectXMath 程式庫4D 向量比較函數
 

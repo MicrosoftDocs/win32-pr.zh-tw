@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 979304a350c226a9406e62896bb84492d8046e74
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 9d645e12f7159963f9b9bc5abeb960aee0bac2282537c482465be3ea08690181
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299410"
 ---
 # <a name="d3dxcomputeimtfromsignal-function"></a>D3DXComputeIMTFromSignal 函式
 

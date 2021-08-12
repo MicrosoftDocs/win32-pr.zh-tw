@@ -10,12 +10,12 @@ keywords:
 - Echo DSP 外掛程式範例，小數位數屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd91e2315db9d0d1e14d2aec55f79a8b05c442ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b10073e01213469dcb6a85ddffd378421fddb6ae8f2fd432b9822c3a5046fdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574615"
 ---
 # <a name="modifying-the-scale-property"></a>修改尺規屬性
 
@@ -82,9 +82,9 @@ HRESULT put_delay([in] DWORD newVal);
 [**Echo 範例屬性**](echo-sample-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

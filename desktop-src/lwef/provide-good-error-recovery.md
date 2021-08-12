@@ -4,16 +4,16 @@ description: 提供良好的錯誤修復
 ms.assetid: 48e00638-9274-49db-93ec-ed444f526441
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a20a3d203ab0fcd93a6f4645be4af44b049f3cd
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 486e6db4365e9a279c844e7637ca3281a66b51a2e47d6d2d74d374ab4c55f146
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118246918"
 ---
 # <a name="provide-good-error-recovery"></a>提供良好的錯誤修復
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 如同任何設計完善的介面，互動式程式應該將導致錯誤的情況降到最低。 不過，很少可以消除所有錯誤，因此，若要維護使用者的信心和興趣，就必須支援良好的錯誤復原。 一般情況下，錯誤修復牽涉到偵測錯誤、判斷原因，以及定義解決錯誤的方法。 使用者可以更妥善地回應合作的介面，與使用者合作來完成工作。
 

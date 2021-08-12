@@ -1,15 +1,15 @@
 ---
-description: Windows 通訊端 (Winsock) SPI 命名空間服務提供者函數的流覽頁面。
+description: Windows 通訊端的流覽頁面 (Winsock) SPI 命名空間服務提供者函數。
 ms.assetid: fb48cc4e-5225-4ad9-9fcd-7a7992f01e6d
 title: 命名空間提供者函式的摘要
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcaf23d86c1e2c08768452e61659730dfc37f8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dda395764b9a37bbb713dc56269e7feb2b1967510aad65280f54fa7ccc44fd57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559744"
 ---
 # <a name="summary-of-namespace-provider-functions"></a>命名空間提供者函式的摘要
 

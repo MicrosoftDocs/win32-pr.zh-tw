@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 209ed2f2bd0f075dbaa8d442a276c994d50ce2e5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b3f444cdc66874c907bb4c6412fa10384fde67145563d79153c28cb675c6fc3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575603"
 ---
 # <a name="iwmpevents4syncestimationcomplete-method"></a>IWMPEvents4：： SyncEstimationComplete 方法
 
