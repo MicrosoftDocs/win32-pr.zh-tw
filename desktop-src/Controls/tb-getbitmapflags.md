@@ -3,7 +3,7 @@ title: 'TB_GETBITMAPFLAGS 訊息 (Commctrl .h) '
 description: 抓取描述要使用之點陣圖類型的旗標。
 ms.assetid: 64a66fe6-1446-424c-a0c6-388da6a7b081
 keywords:
-- TB_GETBITMAPFLAGS message Windows 控制項
+- TB_GETBITMAPFLAGS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e21b5b14fa57d6e454c997cbd0e80ac5716d230e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 97b9bce2f6e9bf862b10b162bf9172c0144d15c07328b61cbdb79bcf05c759e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670026"
 ---
 # <a name="tb_getbitmapflags-message"></a>TB \_ GETBITMAPFLAGS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104106602"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -3,7 +3,7 @@ title: 'TVM_SETITEMHEIGHT 訊息 (Commctrl .h) '
 description: 設定樹狀檢視專案的高度。 您可以使用 TreeView SetItemHeight 宏明確地傳送此訊息 \_ 。
 ms.assetid: 23f6f2a4-cdd9-441d-af24-ed40513d2721
 keywords:
-- TVM_SETITEMHEIGHT message Windows 控制項
+- TVM_SETITEMHEIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 114769f689cbf8d9475460e40d205c4282a1a787
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9afff57188a9683d18c6bff780b4a9f61479526d44ea77985742520a47e66cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669643"
 ---
 # <a name="tvm_setitemheight-message"></a>TVM \_ SETITEMHEIGHT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103934538"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 9ab9ac2d-bf1d-419c-8f6b-e2ee80a4bf20
 title: 步驟1：建立交易式元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdc378d85e628504e8724b765362b3397826f5e5
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 87f5c87fb5c5f615ee04a3233f1a563d5ae5230e4dd18908c78e94092ff0f5c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104321348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305405"
 ---
 # <a name="step-1-creating-a-transactional-component"></a>步驟1：建立交易式元件
 
@@ -21,7 +21,7 @@ ms.locfileid: "104321348"
 -   COM + 服務的預設設定是什麼
 -   如何設定 COM + 服務
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 UpdateAuthorAddress 元件是在此區段中建立的元件，會更新 Pubs 資料庫中現有作者的位址。 Pubs 資料庫是 Microsoft SQL Server 隨附的範例資料庫。 它包含作者姓名、位址和書籍標題等發行資訊。
 
@@ -49,7 +49,7 @@ COM + 會將交易服務系結至即時 (JIT) 啟用和平行存取。 當您將
 
 UpdateAuthorAddress 元件會開啟與 Pubs 資料庫的連接，讓使用者可以修改作者的名稱、位址或合約狀態。 它也會呼叫第二個元件，這會在 [步驟2：跨多個元件延伸交易](step-2--extending-a-transaction-across-multiple-components.md)時討論。
 
-若要在 Microsoft Visual Basic 專案中使用下列程式碼，請開啟新的 ActiveX.dll 專案，並將參考新增至 Microsoft ActiveX Data Objects 程式庫和 COM + 服務型別程式庫。
+若要在 microsoft Visual Basic 專案中使用下列程式碼，請開啟新的 ActiveX.dll 專案，並將參考新增至 microsoft ActiveX Data Objects 程式庫和 com + 服務型別程式庫。
 
 > [!Note]  
 > 本入門中的範例程式碼是為了說明的目的，對於實際的預備和生產來說可能不是最有效率的。
@@ -161,7 +161,7 @@ End Sub
 
 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 -   COM + 會指派預設屬性值。 您可以重新設定大部分的服務屬性。
 -   將元件的交易屬性設定為 [ **必要** ] 可保證 com + 必須在交易中建立該元件的每個實例，但不一定會啟動新的交易。

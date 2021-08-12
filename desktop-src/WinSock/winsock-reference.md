@@ -1,15 +1,15 @@
 ---
-description: Windows 通訊端 (Winsock) 參考區段流覽頁面。
+description: Windows (Winsock) 參考區段導覽頁面的通訊端。
 ms.assetid: baae2bf9-f505-4365-b60e-e3247a0218c8
 title: Winsock 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef3d681d639c443182ae6d6b612dd4e2b27508b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86d86e33b7399bddca65e1c50675e0a50d2c9d096be1d2d2f0f0cde4f2279b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195562"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558870"
 ---
 # <a name="winsock-reference"></a>Winsock 參考
 
@@ -22,7 +22,7 @@ Winsock 參考分成下列各節：
 -   [Winsock 函數](winsock-functions.md)
 -   [Winsock 結構](winsock-structures.md)
 -   [Winsock SPI](winsock-spi.md)
--   [Windows 通訊端錯誤碼](windows-sockets-error-codes-2.md)
+-   [Windows通訊端錯誤碼](windows-sockets-error-codes-2.md)
 
 ## <a name="related-topics"></a>相關主題
 

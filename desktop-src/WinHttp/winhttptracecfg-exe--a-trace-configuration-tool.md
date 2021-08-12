@@ -1,19 +1,19 @@
 ---
-description: Microsoft Windows HTTP Services (WinHTTP) 追蹤設定工具（WinHttpTraceCfg.exe）是用來設定偵錯工具和封包探查用途的追蹤功能。
+description: Microsoft Windows HTTP 服務 (WinHTTP) 追蹤設定工具 WinHttpTraceCfg.exe，可用來設定用於偵測和封包探查用途的追蹤功能。
 ms.assetid: 744cae92-9c64-459e-96eb-eb609e62183c
 title: WinHttpTraceCfg.exe，追蹤設定工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6c6423c581a51f0cf6b55856f2e8cd0ea670515
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7747e0b2fe023ab3c2c86d19a722059482aed19062cf2a450b8d0f237a8b3a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562409"
 ---
 # <a name="winhttptracecfgexe-a-trace-configuration-tool"></a>WinHttpTraceCfg.exe，追蹤設定工具
 
-[Microsoft WINDOWS HTTP Services (WinHTTP) ](about-winhttp.md)追蹤設定工具（WinHttpTraceCfg.exe）是用來設定偵錯工具和封包探查用途的追蹤功能。 監視 WinHTTP 函式和其對應網路流量的能力很重要。 將使用加密網路通訊協定的應用程式（例如安全通訊端層 (SSL) ）偵測到網路傳輸層上的探查封包，並在用戶端與伺服器解密之後，需要能夠攔截流量。 Microsoft Windows HTTP Services (WinHTTP) 提供的追蹤設備，有一系列的功能可攔截用戶端與伺服器之間的流量串流。
+[Microsoft Windows HTTP 服務 (WinHTTP) ](about-winhttp.md)追蹤設定工具 WinHttpTraceCfg.exe，可用來設定用於偵測和封包探查用途的追蹤功能。 監視 WinHTTP 函式和其對應網路流量的能力很重要。 將使用加密網路通訊協定的應用程式（例如安全通訊端層 (SSL) ）偵測到網路傳輸層上的探查封包，並在用戶端與伺服器解密之後，需要能夠攔截流量。 Microsoft Windows HTTP Services (WinHTTP) 提供的追蹤設備，有一系列的功能可攔截用戶端與伺服器之間的流量串流。
 
 此追蹤工具可以是很重要的偵錯工具。 例如，您可以使用它來查看傳遞給各種函式呼叫的參數，以及查看 WinHTTP 應用程式傳送和接收的實際資料。
 
@@ -24,7 +24,7 @@ ms.locfileid: "106973277"
 
 WinHTTP 從登錄取得追蹤控制參數。 這些控制項參數會影響 WinHTTP 產生追蹤輸出的方式，以及該輸出的格式化方式。 使用 WinHTTP 的所有應用程式都會共用相同的設定。
 
-您可以從 [Windows Server 2003 資源套件工具](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd) 網站下載追蹤設備設定工具（WinHttpTraceCfg.exe）。 Configuration tool 會根據指定的命令列參數，設定或抓取追蹤設備登錄設定。
+WinHttpTraceCfg.exe 的追蹤設備設定工具，可從[Windows Server 2003 資源套件工具](https://www.microsoft.com/downloads/details.aspx?familyid=9d467a69-57ff-4ae7-96ee-b18c4790cffd)網站下載。 Configuration tool 會根據指定的命令列參數，設定或抓取追蹤設備登錄設定。
 
 ``` syntax
 WinHttpTraceCfg [-e <0|1>] [-l [log-file]] [-d <0|1>] [-s <0|1|2>] 
@@ -43,7 +43,7 @@ WinHttpTraceCfg [-e <0|1>] [-l [log-file]] [-d <0|1>] [-s <0|1|2>]
 <thead>
 <tr class="header">
 <th>參數</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

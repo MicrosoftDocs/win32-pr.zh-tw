@@ -4,12 +4,12 @@ description: 沒有 Microsoft 消費者介面自動化提供者，但會執行 I
 ms.assetid: 5523156e-c9b8-4aad-b568-f3b3c402d33e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a74e7d464acf18244d91bc69199a56004b20beb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1170e6160a05350fa459090b2f51dbedd618ebdb81512a7e9730b50f8533ef95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118566009"
 ---
 # <a name="the-iaccessibleex-interface"></a>IAccessibleEx 介面
 
@@ -32,9 +32,9 @@ ms.locfileid: "104092297"
 [一般基礎結構](common-infrastructure.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

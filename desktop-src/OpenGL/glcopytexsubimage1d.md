@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64006f9cec7e5fd2f3ca6f860249e579b16dbf10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 38c35e28a37608ebbbdbaf331e2837f83022768cf4eb4033cad2a482d477b37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617133"
 ---
 # <a name="glcopytexsubimage1d-function"></a>glCopyTexSubImage1D 函式
 
@@ -97,7 +97,7 @@ void WINAPI glCopyTexSubImage1D(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                      |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是可接受的值。<br/>                                                                                                                                                                               |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *層級* 小於零，或 *層級* 大於 *log* 2 (*max*) ，其中 *max* 是 GL \_ 最大 \_ 紋理大小的傳回值 \_ 。<br/>                                                                                 |

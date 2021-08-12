@@ -4,12 +4,12 @@ ms.assetid: 125d39f5-af38-4a87-a649-2f77a3e77c27
 title: 物件共用和 COM + JIT 啟用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8042d838aaaae62eace6f61a8fe1aa820e17d079
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: beb4a61534d19559c5d3492cd73f99fe65cf837c059d5f58b226d56a6cd301d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306146"
 ---
 # <a name="object-pooling-and-com-jit-activation"></a>物件共用和 COM + JIT 啟用
 

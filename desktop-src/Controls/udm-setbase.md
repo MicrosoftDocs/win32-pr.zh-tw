@@ -3,7 +3,7 @@ title: 'UDM_SETBASE 訊息 (Commctrl .h) '
 description: 設定上下按鈕控制項的基本基底。 基底值會決定合作者視窗是否以十進位或十六進位數字顯示數位。 十六進位數位一律不帶正負號，而且會簽署十進位數。
 ms.assetid: c76cdec1-e73b-4b4b-89be-9a00ff2ea172
 keywords:
-- UDM_SETBASE message Windows 控制項
+- UDM_SETBASE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d6bcd7d6154b4ba732e5ffbbec889b326ec8176
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f9fd3750a70e676c3e9f32efe9ff0bfd9b300b812d09f4a04c34e4a90f36933
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669076"
 ---
 # <a name="udm_setbase-message"></a>UDM \_ SETBASE 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103934700"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 701921f8f88656753857707c045da0c8e231e1a0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e0acd1bfd374c4d0cdb2eb43b49288f0527847abeec97d8bb96c0c5aecd74585
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547005"
 ---
 # <a name="rolesforcomponent-collection"></a>RolesForComponent 集合
 
@@ -47,7 +47,7 @@ ms.locfileid: "106972965"
 
 -   [名稱](#name)
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 

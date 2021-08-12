@@ -4,12 +4,12 @@ description: 現在就來瞭解如何使用著色器和著色器資源來開發 
 ms.assetid: 25a11983-e3f6-4bd3-86f1-d660edc4cd4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26ac147971221b04b02f2a45af8e8d4f6855a5e3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bbf0152ba74dcc8dd1c602b69d854634502c928a0deefe5521bcab8999954049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118288548"
 ---
 # <a name="work-with-shaders-and-shader-resources"></a>使用著色器和著色器資源
 
@@ -24,7 +24,7 @@ ms.locfileid: "104375712"
 
 著色器程式是以 Microsoft 高階著色器語言撰寫 (HLSL) 。 HLSL 語法看起來很像 C，但是沒有指標。 著色器程式必須非常精簡且有效率。 如果您的著色器編譯為太多指示，則無法執行，而且會傳回錯誤。  (請注意，所允許的確切指令數目是 [Direct3D 功能等級](/windows/desktop/direct3d11/overviews-direct3d-11-devices-downlevel-intro)的一部分。 ) 
 
-在 Direct3D 中，著色器不會在執行時間編譯;這些專案會在編譯器的其餘部分編譯時進行編譯。 當您使用 Microsoft Visual Studio 2013 來編譯應用程式時，HLSL 檔案會編譯成 CSO () 您的應用程式必須先載入並置於 GPU 記憶體中的檔案，才能進行繪製。 當您封裝應用程式時，請確定您已將這些 CSO 檔案包含在您的應用程式中;這些資產就像是網格和材質一樣。
+在 Direct3D 中，著色器不會在執行時間編譯;這些專案會在編譯器的其餘部分編譯時進行編譯。 當您使用 Microsoft Visual Studio 2013 來編譯應用程式時，HLSL 檔案會編譯成 cso () 您的應用程式必須先載入並置於 GPU 記憶體中的檔案，才能進行繪製。 當您封裝應用程式時，請確定您已將這些 CSO 檔案包含在您的應用程式中;這些資產就像是網格和材質一樣。
 
 ## <a name="understand-hlsl-semantics"></a>瞭解 HLSL 語義
 
@@ -91,9 +91,9 @@ cbuffer ModelViewProjectionConstantBuffer : register(b0)
 
 所有緩衝區（常數、材質、取樣器或其他）都必須定義暫存器，以便 GPU 可以存取它們。 每個著色器階段最多可允許15個常數緩衝區，而且每個緩衝區最多可以容納4096個常數變數。 使用 register 宣告語法如下所示：
 
--   **b * * *\#* ：常數緩衝區的註冊 (** cbuffer * * ) 。
--   **t * * *\#* ： (** tbuffer * * ) 的材質緩衝區註冊。
--   **s * \#**：為取樣器註冊。  (取樣器會定義材質資源中材質的查閱行為。 ) 
+-   **b** _\#_ ：常數緩衝區的註冊 (**cbuffer**) 。
+-   **t** _\#_ ： (**tbuffer**) 的材質緩衝區註冊。
+-   **s** _\#_ ：為取樣器註冊。  (取樣器會定義材質資源中材質的查閱行為。 ) 
 
 例如，圖元著色器的 HLSL 可能會採用材質和取樣器做為輸入，如下所示。
 
@@ -385,7 +385,7 @@ float4 SimplePixelShader(PixelShaderInput input) : SV_TARGET
 
 著色器是功能強大的工具，可用來產生像是陰影地圖或雜訊紋理等程式性資源。 事實上，先進的技術要求您將紋理視為更以抽象方式，而不是視覺元素，但作為緩衝區。 它們包含高度資訊等資料，或其他可在最終圖元著色器階段中取樣的資料，或是在多階段效果通過時，可在該特定框架中取樣的資料。 多取樣是一種功能強大的工具，以及許多新式視覺效果的骨幹。
 
-## <a name="next-steps"></a>下一步
+## <a name="next-steps"></a>後續步驟
 
 希望您現在已熟悉 DirectX 11at，並已準備好開始處理您的專案。 以下連結可協助您回答使用 DirectX 和 c + + 進行開發時可能遇到的其他問題：
 
@@ -404,6 +404,6 @@ float4 SimplePixelShader(PixelShaderInput input) : SV_TARGET
 [瞭解 Direct3D 11 轉譯管線](understand-the-directx-11-2-graphics-pipeline.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

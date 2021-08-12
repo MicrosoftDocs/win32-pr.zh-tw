@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - dvdevcode.h
-ms.openlocfilehash: 43e1414c0f9cee7e8daf37b87d5f0c3d0599a017
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a25c4ea621875403ad47ee6815b07b84572f939e4f2a6713d47aa53ba61f983e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652672"
 ---
 # <a name="ec_dvd_chapter_autostop"></a>EC \_ DVD \_ 章節 \_ AUTOSTOP
 

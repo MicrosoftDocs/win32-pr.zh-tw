@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ee6e798b8df32822de481f3af1dc6b21a81d1024
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7cdea363ce835297469242a4166d5e1e9eeea0845f27d0c780eef88f775bf751
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675990"
 ---
 # <a name="getavailablevirtualsize-method-of-the-win32_process-class"></a>Win32 進程類別的 GetAvailableVirtualSize 方法 \_
 

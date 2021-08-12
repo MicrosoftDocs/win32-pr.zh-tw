@@ -3,7 +3,7 @@ title: 'LB_DIR 訊息 (Winuser .h) '
 description: 將名稱加入清單方塊所顯示的清單中。 訊息會新增符合指定字串和檔案屬性集的目錄和檔案的名稱。 LB \_ DIR 也可以在清單方塊中新增對應的磁碟機號。
 ms.assetid: 5ec134e9-fe42-4cc0-bdea-fa5e66c218f6
 keywords:
-- LB_DIR message Windows 控制項
+- LB_DIR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80abddbce13adec2e66824057fc5e873def306ad
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f3add3c0ea14c637e0240ab296095bcc720aff9efb4c3e8e99a2f3de7019a711
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671664"
 ---
 # <a name="lb_dir-message"></a>LB \_ DIR 訊息
 
@@ -76,7 +76,7 @@ ms.locfileid: "104106001"
 
 此清單會顯示長檔名（如果有的話）。
 
-若為 ANSI 應用程式，系統會使用 CP ACP 將清單方塊中的文字轉換成 Unicode \_ 。 這可能會造成問題。 例如，在日文視窗的非 Unicode 清單方塊中，重音的羅馬字元將會出現模糊。 若要修正此問題，請將應用程式編譯為 Unicode 或使用主控描繪清單方塊。
+若為 ANSI 應用程式，系統會使用 CP ACP 將清單方塊中的文字轉換成 Unicode \_ 。 這可能會造成問題。 例如，日文 Windows 的非 Unicode 清單方塊中有重音的羅馬字元，將會出現混亂。 若要修正此問題，請將應用程式編譯為 Unicode 或使用主控描繪清單方塊。
 
 ## <a name="requirements"></a>規格需求
 
@@ -84,9 +84,9 @@ ms.locfileid: "104106001"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

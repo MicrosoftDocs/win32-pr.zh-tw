@@ -11,12 +11,12 @@ api_name:
 - SecurityCallContext
 api_type:
 - COM
-ms.openlocfilehash: bd15b7e0317a507a2340cc148bb927bb5d94a37b
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f0efa73ef704d77cc68b5a1193ccdc3de71b1ed0a5b8c730a2ea67474600bf5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106998962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546262"
 ---
 # <a name="securitycallcontext-class"></a>SecurityCallCoNtext 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "106998962"
 
 您無法直接建立 **SecurityCallCoNtext** 物件。 若要使用 [**ISecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallcontext)的方法，您必須藉由呼叫 [**CoGetCallCoNtext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext)（ \_ 為 *riid* 參數提供 IID ISecurityCallCoNtext）來取得其實址的參考。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. SecurityCallCoNtext" 將 SecurityCallCoNtext 物件宣告為類別名稱;它是透過呼叫 [**GetSecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext)來建立。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您可以使用 "COMSVCSLib. SecurityCallCoNtext" 將 SecurityCallCoNtext 物件宣告為類別名稱;它是透過呼叫 [**GetSecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext)來建立。
 
 ## <a name="requirements"></a>規格需求
 

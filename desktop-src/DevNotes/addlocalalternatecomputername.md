@@ -23,12 +23,12 @@ api_location:
 - API-Ms-Win-Core-Kernel32-Legacy-Ansi-L1-1-0.dll
 - API-MS-Win-Core-Kernel32-Legacy-L1-1-4.dll
 - API-MS-Win-Core-Kernel32-Legacy-L1-1-5.dll
-ms.openlocfilehash: 6027752a0e60f135f0cc8a1c0cdd536c59c09621
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90945188209abdcaf16a7250e43db2af9a99ab4a3fbb55b8baabf0ea610c99e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118668680"
 ---
 # <a name="addlocalalternatecomputername-function"></a>AddLocalAlternateComputerName 函式
 
@@ -70,7 +70,7 @@ DWORD AddLocalAlternateComputerName(
 
 
 
-| 傳回碼                                                                                               | Description                                                                                                                                         |
+| 傳回碼                                                                                               | 描述                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**錯誤 \_ 不正確 \_ 參數**</dt> </dl>  | 指出 *lpDnsFQHostname* 參數未指向有效的 DNS 名稱，或 *ulFlags* 參數不等於零。<br/> |
 | <dl> <dt>**錯誤 \_ 沒有 \_ 足夠的 \_ 記憶體**</dt> </dl> | 記憶體不足，無法完成此作業。<br/>                                                                                    |

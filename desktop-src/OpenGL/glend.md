@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9bb41395b3ed2e38a64094506e07e2a69ad1d52
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0817bec7874b9a3a58e28653ff10497eb1e3f5e5170c57dbe2c26a6b20b64460
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616550"
 ---
 # <a name="glend-function"></a>glEnd 函式
 
@@ -48,7 +48,7 @@ void WINAPI glEnd(void);
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | **GlVertex**、 **glColor**、 **glIndex**、 **glNormal**、 **glTexCoord**、 **glEvalCoord**、 **glEvalPoint**、 **glMaterial**、 **glEdgeFlag**、 **glCallList** 或 **glCallLists** 以外的函式會在 **glBegin** 與對應的 **glEnd** 之間呼叫。 函數 **glEnd** 是在呼叫對應的 **glBegin** 之前呼叫，或在 **glBegin** / **glEnd** 序列內呼叫 glBegin。 <br/> |
 

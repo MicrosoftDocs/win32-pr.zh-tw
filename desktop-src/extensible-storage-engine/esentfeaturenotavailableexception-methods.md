@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101665
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 20251d1a9614907e830443c3cf068e71b815e3d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a1a8caf0086c6c55e2b16e6a1d3756f5f22f4afb6bfb67e116b46b03fb444aef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118269365"
 ---
 # <a name="esentfeaturenotavailableexception-methods"></a>EsentFeatureNotAvailableException 方法
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: 639f5c39d0d9e4086009fd08bd0204f9f5f25060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5d7e091ab250dc8b7475dbf17a1d1502cd1c4aa110106584c8c8b190c927f4aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561173"
 ---
 # <a name="asyncactioncompletedhandler-interface"></a>AsyncActionCompletedHandler 介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "106973466"
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                              |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                    |
-| 標頭<br/>                   | <dl> <dt>Windows .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。Foundation .idl</dt> </dl> |
 
 
 

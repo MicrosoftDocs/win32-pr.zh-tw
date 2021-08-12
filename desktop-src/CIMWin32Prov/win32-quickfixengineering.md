@@ -25,16 +25,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0e9db31dd452161a31575b6f7184a34c35dea71e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 15110b5801555947eed434b8148aec3cc753f6eec359f32b96cd67a5b2649f31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675010"
 ---
 # <a name="win32_quickfixengineering-class"></a>Win32 \_ QuickFixEngineering 類別
 
-**Win32 \_ QuickFixEngineering** [WMI 類別](../wmisdk/retrieving-a-class.md)代表小規模的全系統更新，通常稱為快速修正工程 (QFE) 更新，套用至目前的作業系統。 這個類別只會傳回以元件為基礎的服務 (CBS) 所提供的更新。 這些更新不會列在登錄中。 [https://update.microsoft.com](https://update.microsoft.com/) **Win32 \_ QuickFixEngineering** 不會傳回 Microsoft Windows Installer (MSI) 或 Windows update 網站 () 所提供的更新。
+**Win32 \_ QuickFixEngineering** [WMI 類別](../wmisdk/retrieving-a-class.md)代表小規模的全系統更新，通常稱為快速修正工程 (QFE) 更新，套用至目前的作業系統。 這個類別只會傳回以元件為基礎的服務 (CBS) 所提供的更新。 這些更新不會列在登錄中。 [https://update.microsoft.com](https://update.microsoft.com/) **Win32 \_ QuickFixEngineering** 不會傳回 Microsoft Windows Installer (MSI) 或 Windows 更新網站 () 所提供的更新。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -357,7 +357,7 @@ class Win32_QuickFixEngineering : CIM_LogicalElement
 
 因為更新會儲存在兩個位置中，所以這個類別的列舉可能會產生重複的專案。
 
-熱修正是 Microsoft 快速修正工程團隊所產生的暫時性作業系統修補程式。 如同 service pack，熱修正代表在作業系統發行之後，對 Windows 版本所做的變更。
+熱修正是 Microsoft 快速修正工程團隊所產生的暫時性作業系統修補程式。 就像 service pack 一樣，熱修正代表在作業系統發行之後，對某個版本的 Windows 所做的變更。
 
 不像 service pack，熱修正並非適用于所有電腦上的完整安裝。 相反地，它們是為了解決特定電腦設定而開發的特定問題。
 

@@ -6,27 +6,27 @@ keywords:
 - Windows Media Player，MediaCollection 物件
 - Windows Media Player 物件模型，MediaCollection 物件
 - 物件模型，MediaCollection 物件
-- Windows Media Player ActiveX 控制項，MediaCollection 物件
-- ActiveX 控制項，MediaCollection 物件
-- Windows Media Player 行動 ActiveX 控制項，MediaCollection 物件
-- Windows Media Player Mobile，MediaCollection 物件
+- Windows Media Player ActiveX control、MediaCollection 物件
+- ActiveX control、MediaCollection 物件
+- Windows Media PlayerMobile ActiveX control、MediaCollection 物件
+- Windows Media PlayerMobile、MediaCollection 物件
 - MediaCollection 物件
 - Windows Media Player，媒體物件
 - Windows Media Player 物件模型，媒體物件
 - 物件模型，媒體物件
 - Windows Media Player ActiveX 控制項、媒體物件
-- ActiveX 控制項、媒體物件
-- Windows Media Player 的行動 ActiveX 控制項、媒體物件
-- Windows Media Player Mobile，Media 物件
+- ActiveX 控制項，媒體物件
+- Windows Media PlayerMobile ActiveX control，Media 物件
+- Windows Media Player行動裝置、媒體物件
 - 媒體物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe902fd9ed046e0197fb5c8c2d995d26befafe29
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 082bea6eb3707915422a0bfa5cba63a2a999ac8df27ffa13876e74ffcfc6a882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583680"
 ---
 # <a name="about-the-mediacollection-and-media-objects"></a>關於 MediaCollection 和 Media 物件
 
@@ -116,9 +116,9 @@ player.playlistCollection.getAll.item(1).item(2).duration;
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -17,12 +17,12 @@ keywords:
 - 正在抓取目錄資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e721d6ba3e4d6b5106cf44446d4c96ed842ccd61
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae3b28da6d2d5f5143dab0664c10d0c906f971a6a60e4fdb502f4331fa71f408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570199"
 ---
 # <a name="retrieving-catalog-information"></a>正在抓取目錄資訊
 
@@ -53,9 +53,9 @@ catcomp info C:\Catalog210\catalog.wmdb track 3256
 
 
 
- 
+ 
 
- 
+ 
 
 
 

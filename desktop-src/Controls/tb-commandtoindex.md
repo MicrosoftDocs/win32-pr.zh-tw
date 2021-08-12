@@ -3,7 +3,7 @@ title: 'TB_COMMANDTOINDEX 訊息 (Commctrl .h) '
 description: 針對與指定的命令識別碼相關聯的按鈕，取得以零為基底的索引。
 ms.assetid: vs|controls|~\controls\toolbar\messages\tb_commandtoindex.htm
 keywords:
-- TB_COMMANDTOINDEX message Windows 控制項
+- TB_COMMANDTOINDEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0257f55e01db59f1d23d59583f1ef78f44b1dac1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ea21f7436745ff3b6a8d69df4c2be43e59fc82e8e4e934302cddb71c9d342e43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670391"
 ---
 # <a name="tb_commandtoindex-message"></a>TB \_ COMMANDTOINDEX 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104106607"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

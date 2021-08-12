@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e25adc8ad28791086020a37d3a30651e169bfd07
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26546b0c0d8c335f2f741f10d50a7042fffc304ad54be4ed779910fcb84246be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118616540"
 ---
 # <a name="gldrawpixels-function"></a>glDrawPixels 函式
 
@@ -150,11 +150,11 @@ void WINAPI glDrawPixels(
 </tr>
 <tr class="even">
 <td><span id="GL_BGR_EXT"></span><span id="gl_bgr_ext"></span><dl> <dt><strong>GL_BGR_EXT</strong></dt> </dl></td>
-<td>每個圖元都是三個元件的群組，順序如下：藍色、綠色、紅色。<br/> GL_BGR_EXT 提供的格式符合 Windows 裝置獨立點陣圖 (Dib) 的記憶體配置。 因此，您的應用程式可以使用 Windows 函式呼叫和 OpenGL 圖元函式呼叫的相同資料。<br/></td>
+<td>每個圖元都是三個元件的群組，順序如下：藍色、綠色、紅色。<br/> GL_BGR_EXT 提供的格式符合 Windows 裝置獨立點陣圖 (dib) 的記憶體配置。 因此，您的應用程式可以使用 Windows 函式呼叫和 OpenGL 圖元函式呼叫的相同資料。<br/></td>
 </tr>
 <tr class="odd">
 <td><span id="GL_BGRA_EXT"></span><span id="gl_bgra_ext"></span><dl> <dt><strong>GL_BGRA_EXT</strong></dt> </dl></td>
-<td>每個圖元都是四個元件的群組，順序如下： blue、綠、red、Alpha。<br/> GL_BGRA_EXT 提供的格式符合 Windows 裝置獨立點陣圖 (Dib) 的記憶體配置。 因此，您的應用程式可以使用 Windows 函式呼叫和 OpenGL 圖元函式呼叫的相同資料。<br/></td>
+<td>每個圖元都是四個元件的群組，順序如下： blue、綠、red、Alpha。<br/> GL_BGRA_EXT 提供的格式符合 Windows 裝置獨立點陣圖 (dib) 的記憶體配置。 因此，您的應用程式可以使用 Windows 函式呼叫和 OpenGL 圖元函式呼叫的相同資料。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -206,7 +206,7 @@ void WINAPI glDrawPixels(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                                                                                      |
+| 名稱                                                                                                  | 意義                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *寬度* 或 *高度* 都是負數。<br/>                                                                                                                                          |
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *格式* 或 *類型* 都不是可接受的值。 <br/>                                                                                                                             |

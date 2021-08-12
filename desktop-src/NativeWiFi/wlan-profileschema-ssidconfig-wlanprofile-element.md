@@ -12,12 +12,12 @@ api_name:
 api_type:
 - Schema
 api_location: ''
-ms.openlocfilehash: 5665b385c3264ff9d36e79ad671c8f9e8377d4bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6df6edc3affa551d62473b616562257cd422fcc4a4021ea7e4ef05ba3c8af9dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619037"
 ---
 # <a name="ssidconfig-wlanprofile-element"></a>SSIDConfig (WLANProfile) 元素
 
@@ -96,12 +96,12 @@ SSIDConfig (WLANProfile) 元素包含一個或多個適用于無線區域網路�
 
 
 
-| 元素                                                                    | 類型                                                              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| 元素                                                                    | 類型                                                              | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 |----------------------------------------------------------------------------|-------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**hex**](wlan-profileschema-hex-ssid-element.md)                         |                                                                   | 包含十六進位格式的無線區域網路 SSID。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**名字**](wlan-profileschema-name-ssid-element.md)                       |                                                                   | 包含無線區域網路的 SSID (區分大小寫) 名稱。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| [**廣播**](wlan-profileschema-nonbroadcast-ssidconfig-element.md) | [boolean](/dotnet/api/system.boolean) | 指出網路是否會廣播其 SSID。<br/> 如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 ESS，此值可以是 **TRUE** 或 **FALSE**。 如果這個元素不存在，則預設值為 **TRUE** 。<br/> 如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 IBSS，則這個值必須是 **FALSE**。<br/> Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 不支援這個元素。<br/> |
-| [**Ssid**](wlan-profileschema-ssid-ssidconfig-element.md)                 |                                                                   | 包含無線區域網路的 SSID。<br/> Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 設定檔中最多隻能出現一個 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素。<br/>                                                                                                                                                                                                                                                                                                        |
+| [**廣播**](wlan-profileschema-nonbroadcast-ssidconfig-element.md) | [boolean](/dotnet/api/system.boolean) | 指出網路是否會廣播其 SSID。<br/> 如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 ESS，此值可以是 **TRUE** 或 **FALSE**。 如果這個元素不存在，則預設值為 **TRUE** 。<br/> 如果 [**connectionType**](wlan-profileschema-connectiontype-wlanprofile-element.md) 設定為 IBSS，則這個值必須是 **FALSE**。<br/> **Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 不支援這個元素。<br/> |
+| [**Ssid**](wlan-profileschema-ssid-ssidconfig-element.md)                 |                                                                   | 包含無線區域網路的 SSID。<br/> **Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 設定檔中最多隻能出現一個 [**SSID**](wlan-profileschema-ssid-ssidconfig-element.md)元素。<br/>                                                                                                                                                                                                                                                                                                        |
 
 
 
@@ -115,8 +115,8 @@ SSIDConfig (WLANProfile) 元素包含一個或多個適用于無線區域網路�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows XP （僅含 SP3） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                |
+| 最低支援的用戶端<br/> | WindowsVista，Windows XP 只提供 SP3 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                |
 | 可轉散發套件<br/>          | 適用于 Windows XP SP2 的無線區域網路 API<br/>                 |
 
 

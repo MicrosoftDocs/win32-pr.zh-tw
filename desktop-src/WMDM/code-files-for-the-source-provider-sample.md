@@ -3,20 +3,20 @@ title: 來源提供者範例的程式碼檔案
 description: 來源提供者範例的程式碼檔案
 ms.assetid: bd6bfc98-a805-4e04-8a80-7af42ed3dbef
 keywords:
-- Windows Media 裝置管理員，範例
+- Windows媒體裝置管理員、範例
 - 裝置管理員，範例
-- Windows Media 裝置管理員、服務提供者範例
+- Windows媒體裝置管理員、服務提供者範例
 - 裝置管理員，服務提供者範例
 - 服務提供者，範例
 - 範例，服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b8af4b34310ae183ce55b2e52d3dd346dc6665
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11c29127aebea6898868b29adb17a15c8d174e1fedfd3228bd565bf8ef4ce9c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586365"
 ---
 # <a name="code-files-for-the-source-provider-sample"></a>來源提供者範例的程式碼檔案
 
@@ -41,7 +41,7 @@ ms.locfileid: "104092275"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -50,9 +50,9 @@ ms.locfileid: "104092275"
 [**範例服務提供者**](sample-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101706
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f3bbee167d53ba5b76058f6a14f9a106d5a99a99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78e24c6e971f7e3fc7a42d3f345bc92e12c118b7d7bfbfde55096d0bceed4b8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118268884"
 ---
 # <a name="esentfileiosparseexception-properties"></a>EsentFileIOSparseException 屬性
 

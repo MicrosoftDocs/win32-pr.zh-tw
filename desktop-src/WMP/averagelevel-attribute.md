@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 594612f3675d818f94270b1952d2a9ca7bed15d7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e169b1e2d63e6f8215515acc852d431ff13ccd513924e4c2a237b16c17dacfc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118582743"
 ---
 # <a name="averagelevel-attribute"></a>AverageLevel 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106998600"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -37,7 +37,7 @@ Windows Media Player 會在下列其中一個實例中設定此值：
 -   完成檔案的翻錄之後。
 -   當已啟用自動磁片區調節增強功能時，它會在播放檔 () 。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszAverageLevel。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszAverageLevel。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

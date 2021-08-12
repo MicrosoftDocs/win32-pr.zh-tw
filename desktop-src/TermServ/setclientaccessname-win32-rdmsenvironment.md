@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 13f9087fe2c2139833baeb21bc62da508c6e5989
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: efbb962a6dd1600ad0cd439f7f34772f69d91b925308e2247e1283575d8f68cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118604870"
 ---
 # <a name="setclientaccessname-method-of-the-win32_rdmsenvironment-class"></a>Win32 RDMSEnvironment 類別的 SetClientAccessName 方法 \_
 

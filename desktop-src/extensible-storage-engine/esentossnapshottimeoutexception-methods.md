@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102442
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4b7f17a053beebb2b67097bd6fd6eca5f241cfb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87198e10d957ff2a6e3bf8390df278be6d920f9aed9e4672b62d7e0b4841e315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118263081"
 ---
 # <a name="esentossnapshottimeoutexception-methods"></a>EsentOSSnapshotTimeOutException 方法
 

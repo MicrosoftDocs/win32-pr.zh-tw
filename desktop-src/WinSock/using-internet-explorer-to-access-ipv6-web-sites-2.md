@@ -4,12 +4,12 @@ ms.assetid: c3a8303a-50d6-4deb-a371-171ac0a7c5a9
 title: 使用 Internet Explorer 來存取 IPv6 網站
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d11e7b207de132441d2152a4e0593b20bc00d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e48a9f18e80e0e163ad6fe4ccda0aaef43826edd4becb28e294aad5eca7085c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559269"
 ---
 # <a name="using-internet-explorer-to-access-ipv6-websites"></a>使用 Internet Explorer 來存取 IPv6 網站
 

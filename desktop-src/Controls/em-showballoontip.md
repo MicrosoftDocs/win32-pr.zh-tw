@@ -3,7 +3,7 @@ title: 'EM_SHOWBALLOONTIP 訊息 (Commctrl .h) '
 description: EM \_ SHOWBALLOONTIP 訊息會顯示與編輯控制項相關聯的氣球提示。
 ms.assetid: 1e6915b7-4b61-43b2-be13-b89c72378a1a
 keywords:
-- EM_SHOWBALLOONTIP message Windows 控制項
+- EM_SHOWBALLOONTIP 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8fc0174752ab8214873da9478a0af435be76427
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f0ec2666d18c0f6ce43d5c7644eca0aa2a2cc1f3af72cea03ad34af5ca451cda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672321"
 ---
 # <a name="em_showballoontip-message"></a>EM \_ SHOWBALLOONTIP 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "104104207"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

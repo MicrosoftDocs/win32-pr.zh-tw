@@ -3,7 +3,7 @@ title: 'TB_GETBUTTONINFO 訊息 (Commctrl .h) '
 description: 抓取工具列中按鈕的擴充資訊。
 ms.assetid: 87430dd2-43d1-4e33-96ac-d33f89a654b6
 keywords:
-- TB_GETBUTTONINFO message Windows 控制項
+- TB_GETBUTTONINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74c7f6a8d1d36737d09cfb4d307129200a51180c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 457b8ca82d570b9d6c55cf97392803fce9a81cbe1d5db8122fcdaa975dd99d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669931"
 ---
 # <a name="tb_getbuttoninfo-message"></a>TB \_ GETBUTTONINFO 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104106601"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_GETBUTTONINFOW** (Unicode) 和 **TB \_ GETBUTTONINFOA** (ANSI) <br/>         |
 

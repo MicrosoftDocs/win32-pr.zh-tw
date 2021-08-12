@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfb89056d6e18429ad787c0325689918e7b959ba
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 031bce6f0f4eda1281e8ec09185177d81d4b445ea798556d41aa0af32cc40787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581382"
 ---
 # <a name="buttonelementindex"></a>BUTTONELEMENT。索引
 

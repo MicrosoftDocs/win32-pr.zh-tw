@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2688824d9fc3c7c5c84bc2432cc81d26b3de8a22
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c2d8f19c1d06ba726809d658860850dfd4fdf0360695e01aea91df6cfa14b152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274280"
 ---
 # <a name="eaphostusercredentials-schema"></a>eaphostusercredentials 架構
 
@@ -29,9 +29,9 @@ Eaphostusercredentials 架構會定義 EAPHost 認證架構。
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

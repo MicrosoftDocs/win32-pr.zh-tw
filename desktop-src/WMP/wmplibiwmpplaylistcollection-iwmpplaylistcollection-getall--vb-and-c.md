@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4260f5c960650cf6c04a1dd8b39d887f711fb8a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c9ff50c2983d911e7aa3951e34f908d9982b623912539aa4e162c9cccb2f5256
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568446"
 ---
 # <a name="iwmpplaylistcollectiongetall-method"></a>IWMPPlaylistCollection：： getAll 方法
 

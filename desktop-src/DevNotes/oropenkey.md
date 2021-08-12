@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Offreg.dll
-ms.openlocfilehash: 4a55bb2c06d8b2d13491b766bf08184631fa2164
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c0f641925fbc35fba6072ee395f67fad540dcd2ec5198b945ad658a723238b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667091"
 ---
 # <a name="oropenkey-function"></a>OROpenKey 函式
 
@@ -88,7 +88,7 @@ UNICODE 字串的指標，其中包含要開啟的登錄機碼名稱。 此索�
 
 | 需求 | 值 |
 |----------------------------|---------------------------------------------------------------------------------------|
-| 可轉散發套件<br/> | Windows Offline Registry library 1.0 版或更新版本<br/>                      |
+| 可轉散發套件<br/> | Windows離線登錄庫1.0 版或更新版本<br/>                      |
 | 標頭<br/>          | <dl> <dt>Offreg。h</dt> </dl>   |
 | DLL<br/>             | <dl> <dt>Offreg.dll</dt> </dl> |
 

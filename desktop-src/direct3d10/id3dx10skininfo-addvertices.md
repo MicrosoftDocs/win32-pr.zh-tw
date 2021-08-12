@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 8f126b31c375e4e3463133960c5a1bcfbd995b62
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 232778cdec6c8ab1c4874c6dcef3cadb9b1492d12fe1d4d60d787a484a3425c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106976751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118302464"
 ---
 # <a name="id3dx10skininfoaddvertices-method"></a>ID3DX10SkinInfo：： AddVertices 方法
 

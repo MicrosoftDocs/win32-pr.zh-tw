@@ -3,7 +3,7 @@ title: 'TVM_SETBORDER 訊息 (Commctrl .h) '
 description: 針對樹狀檢視控制項中的專案，設定框線的大小。 您可以使用 TreeView SetBorder 宏明確地傳送訊息 \_ 。
 ms.assetid: 468b46ae-2ab2-4753-a0af-7c644f75ce62
 keywords:
-- TVM_SETBORDER message Windows 控制項
+- TVM_SETBORDER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b4401959e2579caab7f2cb4b6eed1ea34481ffa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8d1c8cab133fb654e431638be96301325d68d9743109f84ed8def1ee9cc67c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669653"
 ---
 # <a name="tvm_setborder-message"></a>TVM \_ SETBORDER 訊息
 
@@ -80,8 +80,8 @@ ms.locfileid: "103843784"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

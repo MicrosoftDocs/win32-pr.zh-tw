@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101964
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fe693f1a56f90f36d858c052e09178cbf2f2f591
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d37b31b38928dafc04f7b5bb8bc643bc7ebb8a0da469dba08d811a804d6d8367
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118266240"
 ---
 # <a name="esentinvalidinstanceexception-methods"></a>EsentInvalidInstanceException 方法
 

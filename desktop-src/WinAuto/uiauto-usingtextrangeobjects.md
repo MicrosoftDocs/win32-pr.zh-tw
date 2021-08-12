@@ -9,12 +9,12 @@ keywords:
 - 用戶端、TextRange 控制項模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a2aef7c23db6903e3492fec7c83ba7c14599c63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f2c409f39d437135854463e83c361a9afd22204758c360119bd0033e4fd11416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563980"
 ---
 # <a name="using-text-ranges"></a>使用文字範圍
 
@@ -168,7 +168,7 @@ Text 屬性會決定文字型控制項中文字的格式化樣式，並包含前
 
 ## <a name="invoking-context-menus-from-text-ranges"></a>從文字範圍叫用內容功能表
 
-從 Windows 8.1 開始，文字範圍可能會支援 [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2) 介面。 此介面支援 [**ShowCoNtextMenu**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) 方法。 您可以呼叫這個方法來叫用任何與文字範圍相關聯的內容功能表。 這種情況的案例是文字範圍或 IME 候選選取專案的自動校正。 在這些情況下，會出現支援使用者互動的內容功能表。
+從 Windows 8.1 開始，文字範圍可能會支援 [**IUIAutomationTextRange2**](/windows/desktop/api/UIAutomationClient/nn-uiautomationclient-iuiautomationtextrange2)介面。 此介面支援 [**ShowCoNtextMenu**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationtextrange2-showcontextmenu) 方法。 您可以呼叫這個方法來叫用任何與文字範圍相關聯的內容功能表。 這種情況的案例是文字範圍或 IME 候選選取專案的自動校正。 在這些情況下，會出現支援使用者互動的內容功能表。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -183,6 +183,6 @@ Text 屬性會決定文字型控制項中文字的格式化樣式，並包含前
 [使用以文字為基礎的控制項](uiauto-workingwithtextbasedcontrols.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

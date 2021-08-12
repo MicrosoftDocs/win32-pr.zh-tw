@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8b42d35b851154197a92df0c0c65e2f14575a68d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15c84a2198919c138b9c342ac6971472c35f1f9120307a6285fef7633259a109
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118267404"
 ---
 # <a name="esentindextuplesinvalidlimitsexception-constructor"></a>EsentIndexTuplesInvalidLimitsException 函式
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3d634a0c4185d8854543697368bac1e2374ab8ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2f77f9ececd7e23aac043f042c08baecf085eb80037da17bb6e06fd1a87a5171
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675666"
 ---
 # <a name="setpowerstate-method-of-the-cim_magnetoopticaldrive-class"></a>CIM MagnetoOpticalDrive 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

@@ -3,7 +3,7 @@ title: 'EM_SETCUEBANNER 訊息 (Commctrl .h) '
 description: 設定 [編輯] 控制項所顯示的文字提示或提示，以提示使用者輸入資訊。
 ms.assetid: 1b1ff5e7-e0b8-40c1-8b7e-7003e9ef959b
 keywords:
-- EM_SETCUEBANNER message Windows 控制項
+- EM_SETCUEBANNER 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d740bf0a3a055f45c6d104d44349f078d3bf9ad2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b08694d7368a994c639f236f18537e13d81f57083521599c23671941c74889bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673101"
 ---
 # <a name="em_setcuebanner-message"></a>EM \_ SETCUEBANNER 訊息
 
@@ -64,8 +64,8 @@ Unicode 字串的指標，其中包含要顯示為文字提示的文字。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

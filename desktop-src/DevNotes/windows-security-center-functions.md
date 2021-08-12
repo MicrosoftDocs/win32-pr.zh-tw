@@ -1,17 +1,17 @@
 ---
 description: 下列函式會搭配 Windows 安全性中心使用。
 ms.assetid: FC28ACD2-A3C6-42A9-AE59-61892A139FB7
-title: Windows 安全性中心函數
+title: Windows 安全性中間函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250d5b3dd7213d9d7f9363ce6b1a83a1e170e01a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e0205620498bf6346208075863cf953eb912048478e1559a7829ba3f3ff52d2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846980"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666369"
 ---
-# <a name="windows-security-center-functions"></a>Windows 安全性中心函數
+# <a name="windows-security-center-functions"></a>Windows 安全性中間函數
 
 下列函式會搭配 Windows 安全性中心使用。
 

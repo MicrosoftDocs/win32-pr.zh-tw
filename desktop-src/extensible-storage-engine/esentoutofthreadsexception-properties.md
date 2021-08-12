@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102500
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0fad9b49b3e3b25ed17961dee7a094c705da4bcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc2f1b8f94c8954f3d325eaaa466d51909b3c621f68514d3beb6f3a67ff5423e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118261729"
 ---
 # <a name="esentoutofthreadsexception-properties"></a>EsentOutOfThreadsException 屬性
 

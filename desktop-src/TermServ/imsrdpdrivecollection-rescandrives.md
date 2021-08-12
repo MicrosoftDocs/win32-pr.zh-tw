@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7488187e44caeaedb7c73b01ff8a3711e20dcdd1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2490e3879420701537cd36999ba33fde9ebfaf1e2f93d75550807e552fadacd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606185"
 ---
 # <a name="imsrdpdrivecollectionrescandrives-method"></a>IMsRdpDriveCollection：： RescanDrives 方法
 

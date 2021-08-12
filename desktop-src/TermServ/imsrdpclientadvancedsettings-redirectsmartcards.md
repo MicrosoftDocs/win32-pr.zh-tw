@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ba58a492ede5371c0f43d996f46ed7a898df7f8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0044ba51e9eb0b3987ec337536e288f1687e04d7838e61a9bbcbae2a2176c003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118608397"
 ---
 # <a name="imsrdpclientadvancedsettingsredirectsmartcards-property"></a>IMsRdpClientAdvancedSettings：： RedirectSmartCards 屬性
 

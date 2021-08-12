@@ -3,7 +3,7 @@ title: 'EM_SETCHARFORMAT 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項中的字元格式。
 ms.assetid: 5e7a545d-4ca4-4dc6-badb-584c11194982
 keywords:
-- EM_SETCHARFORMAT message Windows 控制項
+- EM_SETCHARFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba8f37960659f29dd33d5b8f27f0b5a2e3d35eb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 100cfb1d322cde2d411a0298ee86c224899669defc585826b16bf96751bb4639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673128"
 ---
 # <a name="em_setcharformat-message"></a>EM \_ SETCHARFORMAT 訊息
 
@@ -84,8 +84,8 @@ Microsoft Rich Edit 2.0 和更新版本：此參數可以是 [**CHARFORMAT2**](/
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: ComboBox 控制項通知
 ms.assetid: e5804e9e-e847-4f07-819e-569bd8d60117
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47502d7b45772399deff368ca21ed587b66fbac4
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 7b6e176d0b3d0b73f15e2a04bb7ea5769ed826250449fb63cafc2391a6cbf274
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673974"
 ---
 # <a name="combobox-control-notifications"></a>ComboBox 控制項通知
 

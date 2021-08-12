@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3d9types.h
-ms.openlocfilehash: 12d539e44528c5e54a54209763e4cbe262cd16f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: caa6bc1eb9586c1526a7af674040fd703ff0a75a5055ce42e13378206e82c879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103853971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300322"
 ---
 # <a name="d3dcolor_xyuv-macro"></a>D3DCOLOR \_ XYUV 宏
 
@@ -55,7 +55,7 @@ D3DCOLOR D3DCOLOR_XYUV(
 
 </dd> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 色彩的紅色亮度。 這個值必須介於0到255之間。

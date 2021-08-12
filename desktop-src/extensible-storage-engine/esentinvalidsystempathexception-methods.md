@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102083
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 65f3dd4a3c158496732051be80f54e0fbedd7617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 276bf843e2881656d15bffab887cd5fc2ac0ed1af36159332539ad70f1d572c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118264951"
 ---
 # <a name="esentinvalidsystempathexception-methods"></a>EsentInvalidSystemPathException 方法
 

@@ -3,7 +3,7 @@ title: 'LB_FINDSTRING 訊息 (Winuser .h) '
 description: 在清單方塊中尋找以指定字串開頭的第一個字串。
 ms.assetid: 1b7f25a7-0892-4d12-b3e3-21180d9ddfb1
 keywords:
-- LB_FINDSTRING message Windows 控制項
+- LB_FINDSTRING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b528dbafbc386af05a091f24c8c28327739f5d40
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0a4eb2abbff27c6bde6a4bb44d0faa192ca75229be657bd787aa437b243cd59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671301"
 ---
 # <a name="lb_findstring-message"></a>LB \_ FINDSTRING 訊息
 
@@ -59,9 +59,9 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

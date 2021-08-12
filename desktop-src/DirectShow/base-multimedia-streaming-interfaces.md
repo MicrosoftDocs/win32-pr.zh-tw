@@ -4,17 +4,17 @@ ms.assetid: a94dbb64-dfca-4c24-8c11-761835faf8a8
 title: 基底多媒體串流介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b715a68bd65a2fa3a3923edf10f0e2d1f6c22edb
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: de5268855231169c6c0a7ffab02aa5145a7c1813511421b04b2420773e1588ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103945718"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662918"
 ---
 # <a name="base-multimedia-streaming-interfaces"></a>基底多媒體串流介面
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

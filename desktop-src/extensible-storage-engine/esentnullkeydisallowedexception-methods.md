@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102394
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4d6efcecebaabc04ad3f6c66cff0ea05bce1f806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66635b405033d8bb60b70e097b10c7db6d5284d5c5508b6068c8fbe5ee14c3a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104568948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118263158"
 ---
 # <a name="esentnullkeydisallowedexception-methods"></a>EsentNullKeyDisallowedException 方法
 

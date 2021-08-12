@@ -4,12 +4,12 @@ ms.assetid: 254f003f-b3fd-40ab-a472-6bae93f11326
 title: 'AVDecVideoSoftwareDeinterlaceMode 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e728b12d11def7f35c207bb8f76a5c763675397b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 67c48f60b0d54487ab2ee227c72e2a4f068b520542a6bcfe424fb384984a33db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663449"
 ---
 # <a name="avdecvideosoftwaredeinterlacemode-property"></a>AVDecVideoSoftwareDeinterlaceMode 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103688191"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

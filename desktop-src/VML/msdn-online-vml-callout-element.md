@@ -4,21 +4,21 @@ description: VML 標注元素
 ms.assetid: 0e93fb2f-494c-44eb-b7ef-0e3786c64ce5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 530d06bcd0e06247ee5a3f69974049761c705a0d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ce365e9baf8af31c35ed9c7c39a8405f870844c6d61ea96bbe41257efc838b11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118602179"
 ---
 # <a name="vml-callout-element"></a>VML 標注元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義圖形的標注。
 
@@ -41,11 +41,11 @@ ms.locfileid: "104463321"
 | [MinusY](msdn-online-vml-minusy-attribute.md)                   | 決定是否要沿著 y 軸翻轉標注。                              |
 | [開啟](on-attribute--callout--vml.md)                             | 判斷圖形是否為標注。                                                |
 | [TextBorder](msdn-online-vml-textborder-attribute.md)           | 決定標注是否會有文字框線。                                   |
-| [型別](type-attribute--callout--vml.md)                         | 定義標注的類型。                                                            |
+| [類型](type-attribute--callout--vml.md)                         | 定義標注的類型。                                                            |
 
 
 
- 
+ 
 
 **備註**
 
@@ -53,6 +53,6 @@ ms.locfileid: "104463321"
 
 **標注** 元素是 VML 的 Microsoft Office 延伸模組。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 清單視圖宏
 ms.assetid: b0fd0c7c-3902-4b8a-9f22-74b44ac3dea7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27a3faf6106cc42944c5c0be698396ee56296d59
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c8699511b10573f1a0bb5a65d6953c8ed4b913d8816df86c3337e1aeb3d6e301
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673250"
 ---
 # <a name="list-view-macros"></a>清單視圖宏
 

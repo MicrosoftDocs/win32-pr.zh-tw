@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102963
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 802204516d03812ed89c7e949e881e2ba3d605ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5d26fc12a0f26a38f58bc435d6ca096078917e425c49d2c10c3b39755f505d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118259469"
 ---
 # <a name="esentsoftrecoveryonsnapshotexception-members"></a>EsentSoftRecoveryOnSnapshotException 成員
 

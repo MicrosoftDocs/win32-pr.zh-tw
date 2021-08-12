@@ -4,12 +4,12 @@ description: '宣告著色器資源輸入，並將其指派給資源的 t-a 預�
 ms.assetid: 87FC8A56-9DB2-424B-889C-2AB59885DA13
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ab993e0cb260529c3419210c33f5d735a625bce
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 79ec0bc0b818b345c62bb48ae6f5db68671127110ed06a85c988f8a0449fd490
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118285891"
 ---
 # <a name="dcl_resource-structured-sm5---asm"></a>dcl \_ 資源結構化 (sm5-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104195925"
 
 
 
-| 項目                                                                                                                                   | 描述                                                                                                                                                                      |
+| Item                                                                                                                                   | 描述                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="dstSRV"></span><span id="dstsrv"></span><span id="DSTSRV"></span>*dstSRV*<br/>                                         | \[在宣告 \] \# 為參考之結構化緩衝區 ShaderResourceView 的 t 暫存器中，具有指定的 stride 必須系結至 API 的 SRV \# 位置。 <br/> |
 | <span id="structByteStride"></span><span id="structbytestride"></span><span id="STRUCTBYTESTRIDE"></span>*structByteStride*<br/> | \[以 \] 位元組為單位，指定要宣告的緩衝區中的結構大小（以位元組為單位）。 這個值必須大於零。<br/>                                   |
@@ -47,7 +47,7 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援此指令。
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -64,11 +64,11 @@ cs \_ 4 \_ 0 和 cs \_ 4 \_ 1 支援此指令。
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

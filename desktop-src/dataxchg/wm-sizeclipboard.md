@@ -3,7 +3,7 @@ title: 'WM_SIZECLIPBOARD 訊息 (Winuser .h) '
 description: 當剪貼簿包含 CF \_ OWNERDISPLAY 格式的資料，而剪貼簿檢視器的工作區已變更時，由剪貼簿檢視器視窗傳送給剪貼簿擁有者。
 ms.assetid: 95991d03-8677-4dde-b72a-082dec4834b3
 keywords:
-- WM_SIZECLIPBOARD 訊息資料交換
+- WM_SIZECLIPBOARD 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 235de630b20757a571b1917a975d1425bee06cde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 778caa6538992d927a0451518fcb28b82891773563614ba97c9d9df121fb69f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545317"
 ---
 # <a name="wm_sizeclipboard-message"></a>WM \_ SIZECLIPBOARD 訊息
 
@@ -68,7 +68,7 @@ ms.locfileid: "103685998"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

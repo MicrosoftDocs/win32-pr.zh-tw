@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ab21e17b83ae25286d2775d9dbd97dfd4cf493bc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e34e23d3d2bf2ecfbc1c668e02c177e4d1516c73acabccc88aa7190ec33e211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118667215"
 ---
 # <a name="multi_sector_header-structure"></a>多 \_ 磁區 \_ 標頭結構
 

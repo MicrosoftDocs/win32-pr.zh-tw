@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c2b3ec0c1bd771f59a4e456cb8e57c3bb3e9e394
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee8c4737ff7513441532275e24f2cfe20f8e30fa2932e854cc566eb032c49d0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555134"
 ---
 # <a name="making-an-asynchronous-call-with-vbscript"></a>使用 VBScript 進行非同步呼叫
 
@@ -42,7 +42,7 @@ ms.locfileid: "106988822"
 
 **使用 VBScript 進行非同步呼叫**
 
-1.  連接至 WMI 並取得 [**SWbemServices**](swbemservices.md) 物件。
+1.  連線至 WMI 並取得 [**SWbemServices**](swbemservices.md)物件。
 
     ```VB
     Set Service = GetObject("Winmgmts:")
@@ -50,7 +50,7 @@ ms.locfileid: "106988822"
 
     
 
-2.  使用 [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) 或 (（僅適用于 Windows Script Host 2.0）建立物件接收) 將 events 屬性設為 **TRUE** 的物件標記。
+2.  使用 [CreateObject](/previous-versions//xzysf6hc(v=vs.85))或 (為 Windows 腳本主機2.0 建立物件接收，只) 將 events 屬性設為 **TRUE** 的物件標記。
 
     ```VB
     Set sink = WScript.CreateObject("WbemScripting.SWbemSink","SINK_")
@@ -96,7 +96,7 @@ ms.locfileid: "106988822"
 
     
 
-5.  進行呼叫，以防止腳本在接收到所有事件之前結束。 如果您的腳本可以使用螢幕介面執行，簡單的方法是使用 Windows Script Host (WSH) `Echo` 命令，如下列範例所示。
+5.  進行呼叫，以防止腳本在接收到所有事件之前結束。 如果您的腳本可以使用螢幕介面執行，簡單的方式就是使用 Windows 腳本主機 (WSH) `Echo` 命令，如下列範例所示。
 
     ```VB
     WScript.Echo "Waiting for instances."

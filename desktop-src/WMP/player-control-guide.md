@@ -6,18 +6,18 @@ keywords:
 - Windows Media Player、控制指南
 - Windows Media Player 物件模型，控制指南
 - 物件模型，控制指南
-- Windows Media Player 行動裝置、控制指南
+- Windows Media Player行動裝置、控制指南
 - Windows Media Player ActiveX 控制項，關於
-- Windows Media Player 的行動 ActiveX 控制項，關於
+- Windows Media PlayerMobile ActiveX 控制項，關於
 - ActiveX 控制項，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c53d5b614920162d6def582fcf09fef1440845
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4331889aaa38ea7bd6a050146dff72a0c0438dd25354df7a73678f9ab967993e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573423"
 ---
 # <a name="player-control-guide"></a>播放機控制指南
 
@@ -44,18 +44,18 @@ Microsoft Windows Media Player ActiveX 控制項物件模型會公開您可以�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 物件模型**](windows-media-player-object-model.md)
+[**Windows Media Player物件模型**](windows-media-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'WM_VSCROLLCLIPBOARD 訊息 (Winuser .h) '
 description: 當剪貼簿包含 CF \_ OWNERDISPLAY 格式的資料，並在剪貼簿檢視器的垂直捲動條中發生事件時，將剪貼簿檢視器視窗傳送給剪貼簿擁有者。
 ms.assetid: 17bd32c4-1b07-42b7-b269-f517e3ec13f3
 keywords:
-- WM_VSCROLLCLIPBOARD 訊息資料交換
+- WM_VSCROLLCLIPBOARD 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a9e80aa342065ee88c8e1d7aa44c1fd598e411
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fbcf634870ce232543cd20ccd42c9e8ca255705810e81af39cc6e81f8e41658d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544873"
 ---
 # <a name="wm_vscrollclipboard-message"></a>WM \_ VSCROLLCLIPBOARD 訊息
 
@@ -85,7 +85,7 @@ ms.locfileid: "104465613"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

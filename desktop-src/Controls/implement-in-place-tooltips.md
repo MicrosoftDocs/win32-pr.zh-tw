@@ -4,12 +4,12 @@ description: 就地工具提示是用來顯示已裁剪之物件的文字字串�
 ms.assetid: 2FE39B99-75F3-4978-B0B3-B769E2961F23
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc321ecdd6df151a151e6d21c8419326edb63d38
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 9dd3b01d30a20b52cbb80121cc8c1d793965acf0ea3cf4f2be1ce4553f4ccb98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118671724"
 ---
 # <a name="how-to-implement-in-place-tooltips"></a>如何執行 In-Place 工具提示
 
@@ -21,12 +21,12 @@ ms.locfileid: "104024354"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
-### <a name="prerequisites"></a>必要條件
+### <a name="prerequisites"></a>先決條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

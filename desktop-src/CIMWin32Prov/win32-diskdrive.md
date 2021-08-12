@@ -67,12 +67,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 751dee053574be417cb312f6b046ae6b7703d543
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 94d9afa6fb4c38c4286f705b50011f5378057004cbe7fe5a4b2b700a0385c10f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675234"
 ---
 # <a name="win32_diskdrive-class"></a>Win32 \_ DiskDrive 類別
 
@@ -386,7 +386,7 @@ class Win32_DiskDrive : CIM_DiskDrive
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能陣列。 例如，裝置可能支援隨機存取 (3) 、卸載式媒體 (7) ，以及自動清除 (9) 。
@@ -598,7 +598,7 @@ class Win32_DiskDrive : CIM_DiskDrive
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1108,7 +1108,7 @@ Windows 仍在設定裝置。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Windows 95/98 函式 \| 磁片磁碟機 \_ MAP \_ INFO \| btInt13Unit" ) 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| Windows 95/98 函式 \| 磁片磁碟機 \_ 對應 \_ 資訊 \| btInt13Unit" ) 
 </dt> </dl>
 
 指定磁片磁碟機的實體磁片磁碟機編號。 這個屬性會填入從 [**IOCTL \_ 儲存體 \_ 取得 \_ 裝置 \_ 編號**](/windows/desktop/api/winioctl/ni-winioctl-ioctl_storage_get_device_number)控制程式代碼傳回的 [**儲存 \_ 裝置 \_ 編號**](/windows/desktop/api/winioctl/ns-winioctl-storage_device_number)結構。 0xffffffff 的值表示指定的磁片磁碟機不會對應至實體磁片磁碟機。
@@ -1386,7 +1386,7 @@ USB
 
 </dd> <dt>
 
-**分區**
+**分割區**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -1416,7 +1416,7 @@ USB
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1977,7 +1977,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 若要有效率地管理資料，請務必詳細清查您的所有實體磁片、其功能和容量。 您可以使用 **Win32 \_ DiskDrive** 類別來衍生這種類型的清查。
 
-Windows 實體磁片磁碟機的任何介面都是此類別 (或成員) 的子系。 透過此物件查看之磁片磁碟機的功能，會對應到磁片磁碟機的邏輯和管理特性。 在某些情況下，這可能不會反映裝置的實際實體特性。 以其他邏輯裝置為基礎的任何物件都不會是此類別的成員。
+Windows 實體磁片磁碟機的任何介面都是此類別的子系 (或成員) 。 透過此物件查看之磁片磁碟機的功能，會對應到磁片磁碟機的邏輯和管理特性。 在某些情況下，這可能不會反映裝置的實際實體特性。 以其他邏輯裝置為基礎的任何物件都不會是此類別的成員。
 
 基於安全性理由，從遠端電腦連接的使用者必須啟用 **SC \_ MANAGER \_ CONNECT** 許可權，才能列舉此類別。 如需詳細資訊，請參閱 [服務安全性和存取權限](/windows/desktop/Services/service-security-and-access-rights)。
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 讀取和寫入 SNMP 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c8fc25f384d499e16e19c5e909f7d091ea34f9a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0419a5fc426c183ee1eb89a957a0c2f6a210ecd9b5d4612b6c4deb4e0f775a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118554253"
 ---
 # <a name="reading-from-and-writing-to-snmp-devices"></a>讀取和寫入 SNMP 裝置
 

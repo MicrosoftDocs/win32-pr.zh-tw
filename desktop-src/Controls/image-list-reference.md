@@ -4,12 +4,12 @@ description: 本章節包含與影像清單搭配使用之程式設計項目的�
 ms.assetid: 8a2bdc59-747c-47bb-b125-9b0b97af205e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8a29bdc8b9687ab2f7f076999c6821b7f1f0bcc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c6a9a24bfda9156fc3e84cece4c7710ab42d9c9766578bb2c3bde6809b246292
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672103"
 ---
 # <a name="image-lists"></a>影像清單
 
@@ -110,10 +110,10 @@ ms.locfileid: "104322424"
 
 | 主題                                                       | 目錄                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**加入**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-add)                               | 將影像或影像加入至影像清單。<br/>                                                                                                                                                                                                                                                                |
+| [**加**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-add)                               | 將影像或影像加入至影像清單。<br/>                                                                                                                                                                                                                                                                |
 | [**AddMasked**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-addmasked)                   | 將影像或影像加入至影像清單，從指定的點陣圖產生遮罩。 <br/>                                                                                                                                                                                                                  |
 | [**BeginDrag**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-begindrag)                   | 開始拖曳影像。 <br/>                                                                                                                                                                                                                                                                               |
-| [**克隆**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-clone)                           | 複製現有的影像清單。 <br/>                                                                                                                                                                                                                                                                          |
+| [**複製**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-clone)                           | 複製現有的影像清單。 <br/>                                                                                                                                                                                                                                                                          |
 | [**複製**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-copy)                             | 從指定的影像清單複製影像。 <br/>                                                                                                                                                                                                                                                                  |
 | [**DragEnter**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-dragenter)                   | 在拖曳作業期間鎖定指定視窗的更新，並在視窗內的指定位置顯示拖曳影像。 <br/>                                                                                                                                                                  |
 | [**DragLeave**](/windows/desktop/api/CommonControls/nf-commoncontrols-iimagelist-dragleave)                   | 解除鎖定指定的視窗，並隱藏拖曳影像，讓視窗更新。 <br/>                                                                                                                                                                                                              |

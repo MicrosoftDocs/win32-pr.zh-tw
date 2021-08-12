@@ -12,29 +12,29 @@ keywords:
 - 物件模型，屬性
 - 物件模型，方法
 - 物件模型，事件
-- Windows Media Player ActiveX 控制項，物件模型的屬性
+- Windows Media Player ActiveX 控制項、物件模型的屬性
 - ActiveX 控制項，物件模型的屬性
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的屬性
-- Windows Media Player 行動裝置，物件模型的屬性
-- Windows Media Player ActiveX 控制項，物件模型的方法
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的屬性
+- Windows Media PlayerMobile，物件模型的屬性
+- Windows Media Player ActiveX 控制項、物件模型的方法
 - ActiveX 控制項，物件模型的方法
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的方法
-- Windows Media Player 行動裝置，物件模型的方法
-- Windows Media Player 的 ActiveX 控制項、物件模型的事件
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的方法
+- Windows Media Player行動，物件模型的方法
+- Windows Media Player ActiveX 控制項、物件模型的事件
 - ActiveX 控制項，物件模型的事件
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的事件
-- Windows Media Player 行動裝置，物件模型的事件
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的事件
+- Windows Media Player行動裝置，物件模型的事件
 - 屬性，Windows Media Player 物件模型
 - 方法，Windows Media Player 物件模型
 - 事件，Windows Media Player 物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e06a860d04bfc1a5ccd5b33c0604a0ef818a0127
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbcc07977bc7ddcd2dd162600d4fa3d2822a3f52f38983ea8427f89d9403ecf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571082"
 ---
 # <a name="properties-methods-and-events"></a>屬性、方法和事件
 
@@ -45,7 +45,7 @@ ms.locfileid: "104092277"
 > [!Note]  
 > Windows Media Player 物件模型中的所有方法都是非同步。 如果您在相同的程式中呼叫兩個方法，則第二個方法無法依賴已完成其動作的第一個方法。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -54,9 +54,9 @@ ms.locfileid: "104092277"
 [**關於 Player 物件模型**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

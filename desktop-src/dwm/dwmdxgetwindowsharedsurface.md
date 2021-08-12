@@ -13,12 +13,12 @@ api_location:
 - Dwmapi.dll
 api_name:
 - DwmDxGetWindowSharedSurface
-ms.openlocfilehash: 15e7829383ce23e5bc06bb61ab9c0c224ab18182
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47f8c75ee55521c0f1da4151f5161cf44a63dc51aab5658edbca288cb8edce24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280128"
 ---
 # <a name="dwmdxgetwindowsharedsurface-function"></a>DwmDxGetWindowSharedSurface 函式
 
@@ -77,7 +77,7 @@ HRESULT WINAPI DwmDxGetWindowSharedSurface(
 
 此函數可以傳回其中一個值。
 
-| 傳回碼 | Description |
+| 傳回碼 | 描述 |
 |-|-|
 | **S \_ 確定** | 呼叫成功，您應該更新介面，在提交更新時，請務必將更新識別碼傳遞至 D3DKMT 轉譯結構的 **PresentHistoryToken** 成員中 **的 \_** [D3DKMTRender](/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtrender) (，然後使用相同的更新識別碼來呼叫 [**DwmDxUpdateWindowSharedSurface**](dwmdxupdatewindowsharedsurface.md) 。 請注意，不論是否已實際更新介面，都應該呼叫 **DwmDxUpdateWindowSharedSurface** 。 |
 | **DWM \_ S \_ GDI 重新導向 \_ \_ 介面** | 呼叫成功，您應該呼叫 [D3DKMTPresent](/windows-hardware/drivers/ddi/content/d3dkmthk/nf-d3dkmthk-d3dkmtpresent)來更新介面，並將 **PresentHistoryToken** 成員的 **模型** 設定為 **D3DKMT PM 重新 \_ \_ 導向 \_ BLT**，並在聯集的 **BLT** 成員中提供更新識別碼。 只有在 *dwFlags* 中指定了 **針對 \_ \_ \_ \_ \_ \_ GDI \_ 介面提供的 DWM** 重新導向旗標支援時，才會傳回這個值。 |
@@ -86,13 +86,13 @@ HRESULT WINAPI DwmDxGetWindowSharedSurface(
 
 ## <a name="remarks"></a>備註
 
-此 API 適用于執行圖形驅動程式或執行時間。 應用程式可能不會呼叫這個方法。 本檔僅適用于 Windows 7，而且此 API 不保證存在，也不會在其他 Windows 版本上以類似的方式運作。 此函式不會出現在任何標頭或靜態程式庫中，而且位於 dwmapi.dll 的序數100。
+此 API 適用于執行圖形驅動程式或執行時間。 應用程式可能不會呼叫這個方法。 本檔僅適用于 Windows 7，此 API 不保證存在，也不會在其他版本的 Windows 上以類似的方式運作。 此函式不會出現在任何標頭或靜態程式庫中，而且位於 dwmapi.dll 的序數100。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |-|-|
-| 最低支援的用戶端 | \[僅限 Windows 7 桌面應用程式\] |
+| 最低支援的用戶端 | 僅 Windows 7 \[ 桌面應用程式\] |
 | 最低支援的伺服器 | 都不支援 |
 | 用戶端支援結束 | Windows 7 |
 | 標頭 | N/A |

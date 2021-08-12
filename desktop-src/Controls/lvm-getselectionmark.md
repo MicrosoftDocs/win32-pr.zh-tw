@@ -3,7 +3,7 @@ title: 'LVM_GETSELECTIONMARK 訊息 (Commctrl .h) '
 description: 從清單視圖控制項抓取選取標記。 您可以明確地傳送此訊息，或使用 ListView \_ GetSelectionMark 宏。
 ms.assetid: 21daf7d7-1217-4608-93f9-c390546f1591
 keywords:
-- LVM_GETSELECTIONMARK message Windows 控制項
+- LVM_GETSELECTIONMARK 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 076aff15ff69c4b442c74022ed5a7c02b92a8c52
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed2675550ebc4cf456b439a2e5869068e983f46c82bf6fdde99d8b92806e6cac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670976"
 ---
 # <a name="lvm_getselectionmark-message"></a>LVM \_ GETSELECTIONMARK 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "106965749"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

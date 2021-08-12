@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b2bd5472bd4ad92ddde47f7d6a492916006a80cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c92e9cc8a71516fa105e350ae8070ca417024c1802e9ea8a676d7355cb3aea7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675091"
 ---
 # <a name="win32_diskdrivetodiskpartition-class"></a>Win32 \_ DiskDriveToDiskPartition 類別
 

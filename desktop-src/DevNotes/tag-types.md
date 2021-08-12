@@ -4,12 +4,12 @@ ms.assetid: 009ad522-35da-4053-a7f6-61d7d240b98c
 title: 標記類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f7ab53b9c3b85263ddcdbe80e3979d576685bd73
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8308f0adb9195363825a95253f1118305a88b9adeb46e9e7ce9518a6e005d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666389"
 ---
 # <a name="tag-types"></a>標記類型
 
@@ -17,7 +17,7 @@ ms.locfileid: "104187636"
 
 
 
-| 常數/值                                                                                                                                                                                                                            | Description                                           |
+| 常數/值                                                                                                                                                                                                                            | 描述                                           |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:------------------------------------------------------|
 | <span id="TAG_TYPE_NULL"></span><span id="tag_type_null"></span><dl> <dt>**標記 \_輸入 \_ Null**</dt> <dt>0x1000</dt> </dl>                | 沒有與標記相關聯的值。<br/> |
 | <span id="TAG_TYPE_BYTE"></span><span id="tag_type_byte"></span><dl> <dt>**標記 \_類型 \_ 位元組**</dt> <dt>0x2000</dt> </dl>                | **位元組** 值。<br/>                          |
@@ -37,8 +37,8 @@ ms.locfileid: "104187636"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

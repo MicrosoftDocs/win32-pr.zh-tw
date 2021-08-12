@@ -1,17 +1,17 @@
 ---
 description: 用來回應中繼資料要求的 WS-Transfer 訊息。
 ms.assetid: aff05317-35db-4ea6-9692-1e09e4682fe7
-title: GetResponse (中繼資料交換) 訊息
+title: GetResponse (中繼資料 Exchange) 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b91546076698f17a25b8a87444ae3eca71d65a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11bc76038a32d28f4ed773a937654e6d159ab75460e8cb6d6d5af60f614fa7e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192911"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552399"
 ---
-# <a name="getresponse-metadata-exchange-message"></a>GetResponse (中繼資料交換) 訊息
+# <a name="getresponse-metadata-exchange-message"></a>GetResponse (中繼資料 Exchange) 訊息
 
 GetResponse 訊息是用來回應中繼資料要求的 WS-Transfer 訊息。 如需有關 GetResponse 訊息的詳細資訊，請參閱 [WS-傳輸規格](https://specs.xmlsoap.org/ws/2004/09/transfer/WS-Transfer.pdf)的3.1 節。
 
@@ -124,7 +124,7 @@ GetResponse 訊息具有下列焦點點。
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -160,7 +160,7 @@ GetResponse 訊息具有下列焦點點。
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [取得訊息](get--metadata-exchange--http-request-and-message.md)

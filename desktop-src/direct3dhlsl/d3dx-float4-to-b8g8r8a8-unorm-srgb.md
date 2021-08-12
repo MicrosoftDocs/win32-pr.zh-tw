@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c20292e1038d31c6d853eb8ae62f7e764e722a6c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6661ea7bce5f5a10fec8c3d96bf178fc4e169ba53d013143b89c8114de71cc60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286834"
 ---
 # <a name="d3dx_float4_to_b8g8r8a8_unorm_srgb-function"></a>D3DX \_ FLOAT4 \_ 到 \_ B8G8R8A8 \_ UNORM \_ SRGB 函數
 

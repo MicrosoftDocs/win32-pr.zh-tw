@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e3c3de590dfee56013c76402c840a959e8f9306c
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 1449ed9fb061ea2d5a83d37cb7c0d744a4c7e8b6517d49c0d2e32a10f7f5ed9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287022"
 ---
 # <a name="callnz-pred---vs"></a>callnz pred-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104022818"
 
 
 
- 
+ 
 
 其中：
 
@@ -48,7 +48,7 @@ ms.locfileid: "104022818"
 
 
 
- 
+ 
 
 此指令會執行下列動作：
 
@@ -72,9 +72,9 @@ if (specified register component is not zero)
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

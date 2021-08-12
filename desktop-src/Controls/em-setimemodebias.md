@@ -3,7 +3,7 @@ title: 'EM_SETIMEMODEBIAS 訊息 (Richedit .h) '
 description: 針對 rich edit 控制項設定輸入法的 (IME) 模式偏差。
 ms.assetid: 4a3f97eb-fe80-4e84-a73e-3ed6d73644de
 keywords:
-- EM_SETIMEMODEBIAS message Windows 控制項
+- EM_SETIMEMODEBIAS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48fbd93971a57cffa3441c2a3db0816572f761d7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4812c21558fba07be2709c0fd1a011f31d79fad17e0b4146fa0c7d65843a087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672668"
 ---
 # <a name="em_setimemodebias-message"></a>EM \_ SETIMEMODEBIAS 訊息
 
@@ -72,8 +72,8 @@ ms.locfileid: "104465709"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

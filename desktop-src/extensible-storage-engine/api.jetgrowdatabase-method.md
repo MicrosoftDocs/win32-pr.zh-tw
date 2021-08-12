@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3a51f0d55187b6f6eac66c0cba2ec7b9daa7d1dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80652f60e7c7bf8afad3e3dd6bc36d1998dc64b989c307e130ec9d664a7949f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118271912"
 ---
 # <a name="apijetgrowdatabase-method"></a>JetGrowDatabase 方法
 

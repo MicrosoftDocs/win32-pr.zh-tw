@@ -1,5 +1,5 @@
 ---
-title: 'IWMPDVD (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPDVD (VB 和 C ) 介面 (Wmp. h) '
 description: IWMPDVD 介面提供使用 Dvd 的屬性和方法。 IWMPDVD 介面會公開下列屬性。
 ms.assetid: 6bb32eed-475e-4867-8318-34578dc430a4
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 425c048096ad7cd65e0e48ccf2932f00a817d790
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5391a6bc2a22dfd33a7df5b8c6f40c0a441012d7fa8d16f7b54c238b7fa31baa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575881"
 ---
 # <a name="iwmpdvd-vb-and-c-interface"></a>IWMPDVD (VB 和 c # ) 介面
 
@@ -58,7 +58,7 @@ ms.locfileid: "106995746"
 
 
 
-| 屬性                                                            | 存取類型          | Description                                                                                                                                                                          |
+| 屬性                                                            | 存取類型          | 描述                                                                                                                                                                          |
 |:--------------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**域**](wmplibiwmpdvd-iwmpdvd-domain--vb-and-c.md)<br/> | 唯讀<br/> | 取得 DVD 的目前網域。<br/>                                                                                                                                       |
 | [**isAvailable**](iwmpdvd-isavailable--vb-and-c.md)<br/>     | 唯讀<br/> | 取得值，這個值表示指定的資訊類型是否可用，或是否可以執行指定的動作。 在 c # 中，這是 **get \_ isAvailable** 方法。<br/> |
@@ -93,7 +93,7 @@ ms.locfileid: "106995746"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  
