@@ -4,12 +4,12 @@ ms.assetid: ab00de56-a5e6-41e9-9193-adb60d17854f
 title: COM + 安全性工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaa383c2ab2081ef0354b27e97fd4110059fbfb5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 49328496a074e2c496e76a9fa2ffd69ee422cb91b5ebcddf6067195d7a9e7a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548650"
 ---
 # <a name="com-security-tasks"></a>COM + 安全性工作
 

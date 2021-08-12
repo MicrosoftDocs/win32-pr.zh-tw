@@ -16,12 +16,12 @@ api_location:
 api_name:
 - RoFailFastWithErrorContextInternal2
 targetos: Windows
-ms.openlocfilehash: 84584c339851ecbf8df5d6dbda2aaa575ca6487b
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a2e8e2e357b7c4768596ca36cb48cdf1bb2cfdbd839ecc6949a607975d6000c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106969735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560624"
 ---
 # <a name="rofailfastwitherrorcontextinternal2-function"></a>RoFailFastWithErrorCoNtextInternal2 函式
 

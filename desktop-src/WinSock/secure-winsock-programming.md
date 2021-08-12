@@ -4,12 +4,12 @@ ms.assetid: 70210e86-ead6-4b0c-ae47-66b2ef0a8d11
 title: 安全 Winsock 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a70d7a0710a4446486835ec14435fa7d7ba1458c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2c3644e18a45da4a1d4fa9c20bd2d023ba41d02fed3014f2992c219601bf963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559716"
 ---
 # <a name="secure-winsock-programming"></a>安全 Winsock 程式設計
 

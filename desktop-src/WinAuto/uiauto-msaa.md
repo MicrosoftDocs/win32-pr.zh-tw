@@ -1,6 +1,6 @@
 ---
 title: 消費者介面自動化和 Active Accessibility
-description: Microsoft Active Accessibility 是 Windows 95 中引進的舊版 API，其設計目的是讓 Windows 應用程式可供存取。
+description: Microsoft Active Accessibility 是在 Windows 95 中引進的舊版 API，其設計目的是要讓 Windows 的應用程式可供存取。
 ms.assetid: 6fc92e67-b94b-4ba3-9f5d-42be6072f110
 keywords:
 - 消費者介面自動化，Microsoft Active Accessibility
@@ -16,16 +16,16 @@ keywords:
 - 控制項類型，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5e6b1ba80fb2c44b8c08753fa1fb43173843eb
-ms.sourcegitcommit: b0bb3e2918aec9daae6a68bb03494f0c5cdf3902
+ms.openlocfilehash: 20a784a6537a3206f32c1299342a521de01d60fab2968294a067f8cc1f7e6dff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/02/2020
-ms.locfileid: "106965676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564379"
 ---
 # <a name="ui-automation-and-active-accessibility"></a>消費者介面自動化和 Active Accessibility
 
-Microsoft Active Accessibility 是 Windows 95 中引進的舊版 API，其設計目的是讓 Windows 應用程式可供存取。 Microsoft 消費者介面自動化是 Windows 的新協助工具模型，目的是要解決輔助技術產品和自動化測試控管的需求。 消費者介面自動化在 Microsoft Active Accessibility 方面提供了許多改進功能。 本主題說明這兩種技術之間的差異。
+Microsoft Active Accessibility 是在 Windows 95 中引進的舊版 API，其設計目的是要讓 Windows 的應用程式可供存取。 Microsoft 消費者介面自動化是適用于 Windows 的新協助工具模型，旨在解決輔助技術產品和自動化測試控管的需求。 消費者介面自動化在 Microsoft Active Accessibility 方面提供了許多改進功能。 本主題說明這兩種技術之間的差異。
 
 本主題包含下列各節。
 
@@ -43,7 +43,7 @@ Microsoft Active Accessibility 是 Windows 95 中引進的舊版 API，其設計
 
 Microsoft Active Accessibility 是以元件物件模型為基礎， (COM) ，並支援雙重介面，因此可在 C/c + + 和指令碼語言中進行程式設計。
 
-當導入消費者介面自動化時，用戶端 API 會限制為 managed 程式碼，而提供者 API 則包含受控和非受控的實作為。 在 Windows 7 中，引進了新的 COM 型用戶端 API，讓您更輕鬆地在 C/c + + 中編寫消費者介面自動化用戶端應用程式的程式。
+當導入消費者介面自動化時，用戶端 API 會限制為 managed 程式碼，而提供者 API 則包含受控和非受控的實作為。 在 Windows 7 中引進了新的 COM 型用戶端 API，可讓您更輕鬆地在 C/c + + 中編寫消費者介面自動化用戶端應用程式的程式。
 
 ## <a name="servers-and-clients"></a>伺服器和用戶端
 
@@ -100,14 +100,14 @@ Microsoft Active Accessibility 使用 accRole 屬性 ([**IAccessible：： get \
 | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | [標頭](uiauto-supportheadercontroltype.md)                                                  |
 | [**角色 \_ 系統 \_ COLUMNHEADER**](object-roles.md) | [HeaderItem](uiauto-supportheaderitemcontroltype.md)                                          |
 | [**角色 \_ 系統 \_ 連結**](object-roles.md)                 | [超連結](uiauto-supporthyperlinkcontroltype.md)                                            |
-| [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | [影像](uiauto-supportimagecontroltype.md)                                                    |
+| [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | [映像](uiauto-supportimagecontroltype.md)                                                    |
 | [**角色 \_ 系統 \_ 清單**](object-roles.md)                 | [清單](uiauto-supportlistcontroltype.md)                                                      |
 | [**角色 \_ 系統 \_**](object-roles.md)         | [ListItem](uiauto-supportlistitemcontroltype.md)                                              |
 | [**角色 \_ 系統 \_ MENUPOPUP**](object-roles.md)       | [功能表](uiauto-supportmenucontroltype.md)                                                      |
 | [**角色 \_ 系統 \_ 功能表列**](object-roles.md)           | [MenuBar](uiauto-supportmenubarcontroltype.md)                                                |
 | [**角色 \_ 系統 \_ MENUITEM**](object-roles.md)         | [MenuItem](uiauto-supportmenuitemcontroltype.md)                                              |
 | [**角色 \_ 系統 \_ 窗格**](object-roles.md)                 | [窗格](uiauto-supportpanecontroltype.md)                                                      |
-| [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | [進度列](uiauto-supportprogressbarcontroltype.md)                                        |
+| [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | [ProgressBar](uiauto-supportprogressbarcontroltype.md)                                        |
 | [**角色 \_ 系統 \_ 選項按鈕**](object-roles.md)   | [RadioButton](uiauto-supportradiobuttoncontroltype.md)                                        |
 | [**角色 \_ 系統 \_ 捲軸**](object-roles.md)       | [ScrollBar](uiauto-supportscrollbarcontroltype.md)                                            |
 | [**角色 \_ 系統 \_ 分隔符號**](object-roles.md)       | [Separator](uiauto-supportseparatorcontroltype.md)                                            |
@@ -129,7 +129,7 @@ Microsoft Active Accessibility 使用 accRole 屬性 ([**IAccessible：： get \
 
 
 
- 
+ 
 
 ## <a name="states-and-properties"></a>狀態和屬性
 
@@ -156,7 +156,7 @@ Microsoft Active Accessibility 元素支援一組通用屬性。 某些屬性（
 
 
 
- 
+ 
 
 下表顯示對應至 Microsoft Active Accessibility [物件狀態常數](object-state-constants.md)的消費者介面自動化屬性識別碼。
 
@@ -185,7 +185,7 @@ Microsoft Active Accessibility 元素支援一組通用屬性。 某些屬性（
 
 
 
- 
+ 
 
 如需屬性 Id 的完整清單，請參閱 [屬性識別碼](uiauto-entry-propids.md)。
 
@@ -258,7 +258,7 @@ Microsoft Active Accessibility 元素支援一組通用屬性。 某些屬性（
 
 
 
- 
+ 
 
 ## <a name="accessing-active-accessibility-properties-and-objects-from-ui-automation"></a>從消費者介面自動化存取 Active Accessibility 屬性和物件
 
@@ -292,6 +292,6 @@ Microsoft Active Accessibility 中未提供消費者介面自動化的主要功�
 [Microsoft Active Accessibility](microsoft-active-accessibility.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

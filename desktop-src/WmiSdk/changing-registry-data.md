@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7b51f3f18eb718dab7c79f31a4b2188dd7afa529
-ms.sourcegitcommit: 3d9eb6638763fee8b87c378657458f814182e36c
+ms.openlocfilehash: 32258fb64e075889a6e423e2b6a3fa2e7b0fdeb0ee5a80e2f45436674ba79c4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106976398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556943"
 ---
 # <a name="changing-registry-data"></a>變更登錄資料
 
