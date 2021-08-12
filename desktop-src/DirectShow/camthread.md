@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e5c2bde058267ae4c530f33a96778792d5fe247b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca7182ecc16cd873732b2d39d2659f42017f9e01c1308642af4b8cac7ff2a682
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118662109"
 ---
 # <a name="camthread-class"></a>CAMThread 類別
 
@@ -29,13 +29,13 @@ ms.locfileid: "106984031"
 
 
 
-| 受保護的成員變數                                 | Description                                                                  |
+| 受保護的成員變數                                 | 描述                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------------------|
 | [**m \_ hThread**](camthread-m-hthread.md)                  | 執行緒的控制碼。                                                        |
-| Public 成員變數                                    | Description                                                                  |
+| Public 成員變數                                    | 描述                                                                  |
 | [**m \_ AccessLock**](camthread-m-accesslock.md)            | 防止其他執行緒存取執行緒的重要區段。 |
 | [**m \_ WorkerLock**](camthread-m-workerlock.md)            | 鎖定執行緒之間共用之資料的重要區段。                       |
-| 公用方法                                             | Description                                                                  |
+| 公用方法                                             | 描述                                                                  |
 | [**CAMThread**](camthread-camthread.md)                   | 函式方法。                                                          |
 | [**~ CAMThread**](camthread--camthread.md)                | 函式方法。 虛擬。                                                  |
 | [**InitialThreadProc**](camthread-initialthreadproc.md)   | 在建立執行緒時呼叫 ThreadProc 方法。                      |
@@ -49,7 +49,7 @@ ms.locfileid: "106984031"
 | [**GetRequestHandle**](camthread-getrequesthandle.md)     | 抓取 CallWorker 方法所發出之事件的控制碼。           |
 | [**GetRequestParam**](camthread-getrequestparam.md)       | 捕獲最新的要求。                                                |
 | [**CoInitializeHelper**](camthread-coinitializehelper.md) | 線上程的開頭呼叫 CoInitializeEx。                             |
-| 純虛擬方法                                       | Description                                                                  |
+| 純虛擬方法                                       | 描述                                                                  |
 | [**ThreadProc**](camthread-threadproc.md)                 | 執行緒程式。                                                            |
 
 

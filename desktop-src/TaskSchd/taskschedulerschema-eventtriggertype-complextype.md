@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 16c3d4257d89ebb8d0efb6dadcd3ac466b929c9a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0acd4bafa6033e461b69180862a8302e76f363b581d7f06b0812824f2031780b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612051"
 ---
 # <a name="eventtriggertype-complex-type"></a>eventTriggerType 複雜類型
 
@@ -53,7 +53,7 @@ ms.locfileid: "106968369"
 
 
 
-| 元素                                                                           | 類型                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| 元素                                                                           | 類型                                                                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |-----------------------------------------------------------------------------------|-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**延遲**](taskschedulerschema-delay-eventtriggertype-element.md)               | duration                                                                | 指定事件發生時間和工作啟動時間之間的時間量。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 | [**訂用帳戶**](taskschedulerschema-subscription-eventtriggertype-element.md) | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md) | 指定 XPath 查詢，以識別引發觸發程式的事件。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -71,8 +71,8 @@ ms.locfileid: "106968369"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

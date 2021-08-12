@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 56d8fff53f3d56676805eca9029670d51210ef2b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79aab0677cfd5cba5f6a889519e0c12ed2236d8f82eca28b3fa7b227b941b2b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658781"
 ---
 # <a name="cbasevideorendererget_avgframerate-method"></a>CBaseVideoRenderer. 取得 \_ AvgFrameRate 方法
 

@@ -10,12 +10,12 @@ keywords:
 - Echo DSP 外掛程式範例，串流資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a1df8cc221f3d75c8333b3ffd41a144d28bed7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 268dc57bfad71f8ee46a3b934e671e478ca6a78a6b05fc30b7123e7b3f7f6ba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118567167"
 ---
 # <a name="working-with-streaming-resources"></a>使用串流資源
 
@@ -34,9 +34,9 @@ Windows Media Player 外掛程式 Wizard 所產生的範例音訊 DSP 外掛程�
 [**Echo 範例**](the-echo-sample.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

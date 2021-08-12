@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21b52d4f7651a21b1baad31448e47866dfb5bf4c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 51a36c6c579209903c45e3888a11f17d40c168bbb2e215c60fb25e5b12330962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118593996"
 ---
 # <a name="ivmguestos-interface"></a>IVMGuestOS 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義在虛擬機器內執行的客體作業系統。 此介面可讓您與在客體作業系統內執行的整合元件互動。 您可以使用 [**IVMVirtualMachine：： GuestOS**](ivmvirtualmachine-guestos.md)屬性來抓取虛擬機器的 **IVMGuestOS** 。
 
@@ -50,7 +50,7 @@ ms.locfileid: "104105815"
 | [**登出**](ivmguestos-logoff.md)                                             | 登出客體作業系統中的所有使用者。<br/>                                          |
 | [**重新啟動**](ivmguestos-restart.md)                                           | 重新開機客體作業系統。<br/>                                                         |
 | [**SetParameter**](ivmguestos-setparameter.md)                                 | 設定來賓內的具名引數。<br/>                                                     |
-| [**關閉**](ivmguestos-shutdown.md)                                         | 關閉客體作業系統。<br/>                                                       |
+| [**關機**](ivmguestos-shutdown.md)                                         | 關閉客體作業系統。<br/>                                                       |
 
 
 
@@ -62,7 +62,7 @@ ms.locfileid: "104105815"
 
 
 
-| 屬性                                                                                   | 存取類型           | Description                                                                                                                                 |
+| 屬性                                                                                   | 存取類型           | 描述                                                                                                                                 |
 |:-------------------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CanShutdown**](ivmguestos-canshutdown.md)<br/>                                   | 唯讀<br/>  | 指出是否可以完全關閉客體作業系統 (需要) 整合元件。<br/>                         |
 | [**名稱**](ivmguestos-computername.md)<br/>                                 | 唯讀<br/>  | 虛擬機器中執行之客體作業系統的電腦名稱稱。<br/>                                                  |
@@ -96,7 +96,7 @@ ms.locfileid: "104105815"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

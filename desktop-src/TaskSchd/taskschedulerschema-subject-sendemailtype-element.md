@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b3b4871f8d61603ea77c7699a9993d29e2fc0187
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15bf3c84befd9dd8f4c9c4a544fc920b7066184c6bf367c404bb14f22f573b92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611186"
 ---
 # <a name="subject-sendemailtype-element"></a>Subject (sendEmailType) 元素
 
@@ -36,7 +36,7 @@ ms.locfileid: "104509442"
 
 
 
-| 元素                                                                              | 衍生自                                                           | Description                                                  |
+| 元素                                                                              | 衍生自                                                           | 描述                                                  |
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------|--------------------------------------------------------------|
 | [**SendEmail (actionGroup)**](taskschedulerschema-sendemail-actiongroup-element.md) | [**sendEMailType**](taskschedulerschema-sendemailtype-complextype.md) | 表示傳送電子郵件訊息的動作。<br/> |
 
@@ -54,8 +54,8 @@ ms.locfileid: "104509442"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

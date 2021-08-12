@@ -5,16 +5,16 @@ ms.assetid: 1cf28cfb-ce96-4659-955d-0088bddcb9ce
 title: 虛擬磁碟服務詞彙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cc8804f1aea832f59fcbcab65423e92e134939f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af7e73e9de8f6c30b69f2e39e78fae36e5c3ea547cccfed2f25f9a15327e3f8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118602991"
 ---
 # <a name="virtual-disk-service-glossary"></a>虛擬磁碟服務詞彙
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 本節提供虛擬磁碟服務中所使用之技術術語的詞彙， (VDS) 檔。
 

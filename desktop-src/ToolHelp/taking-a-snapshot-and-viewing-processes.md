@@ -4,12 +4,12 @@ description: 下列簡單的主控台應用程式會取得正在執行的進程�
 ms.assetid: 318d166f-858f-4f33-9422-977e0c4beb3f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b90a90ea3456d2783c6015ae230d0f0b9e84806e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9cdf74ec3d0d0d47e91b385598b06a672ee17e63681f2c82305474db06993ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603791"
 ---
 # <a name="taking-a-snapshot-and-viewing-processes"></a>拍攝快照集和觀看進程
 
@@ -217,6 +217,6 @@ void printError( TCHAR* msg )
 [系統的快照集](snapshots-of-the-system.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

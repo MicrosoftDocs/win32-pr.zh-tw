@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101757
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 838ebe0eb7b277c2e3036096de09dea3f72e80f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9df83454c9665fed9f626d58593665f8d59e762725d2c09358284c25e28d5c0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118267892"
 ---
 # <a name="esentindexinuseexception-methods"></a>EsentIndexInUseException 方法
 

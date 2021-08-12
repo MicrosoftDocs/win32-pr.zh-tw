@@ -4,12 +4,12 @@ ms.assetid: 5a42d4c9-d593-4d7f-bfee-37271c48e5cf
 title: 'AVDSPSpeakerFill 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16bcdda053439b76c9445f2f9c866ee26afb4858
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9ff4886f1b6f1e6ae19f9f1b5bf78e20159df390f2d642ac2b9cb3c4c834d1bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106966622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118663429"
 ---
 # <a name="avdspspeakerfill-property"></a>AVDSPSpeakerFill 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "106966622"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

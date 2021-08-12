@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f433d880fd7f568a173a91c533e0d07bf97e6443
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d6ec35cc3fa831218fb7c5c4810643d58b9c9d303a9501d10969d847649c2efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661514"
 ---
 # <a name="cbasecontrolvideoget_destinationleft-method"></a>CBaseControlVideo. 取得 \_ DestinationLeft 方法
 
@@ -55,7 +55,7 @@ HRESULT get_DestinationLeft(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/>                                            |

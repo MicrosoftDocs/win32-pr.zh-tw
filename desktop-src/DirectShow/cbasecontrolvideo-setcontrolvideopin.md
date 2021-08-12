@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: a4cf47469800a4d1ecd8abe373d6f3c1fd53ece5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6169b5d2ec71148cd868e340c5a2f4e206355044ce55e0905c20787ddb3a263e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660783"
 ---
 # <a name="cbasecontrolvideosetcontrolvideopin-method"></a>CBaseControlVideo. SetControlVideoPin 方法
 

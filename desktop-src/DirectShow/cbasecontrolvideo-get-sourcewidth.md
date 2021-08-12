@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 60a78fe647ebf488a47907c058962f13790f2538
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 79241f52f9d7b6cb32bd9022d6d022c880656780043e8c78481975c80907511d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661493"
 ---
 # <a name="cbasecontrolvideoget_sourcewidth-method"></a>CBaseControlVideo. 取得 \_ SourceWidth 方法
 
@@ -55,7 +55,7 @@ HRESULT get_SourceWidth(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/>                                            |

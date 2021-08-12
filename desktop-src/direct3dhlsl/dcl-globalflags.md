@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e15fce958056f91a41954b987850ad4c5a43e521
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 0901482dd2c282aab98dda72a5c449df69d4551a9a7bb68d80e47c9693c54609
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286372"
 ---
 # <a name="dcl_globalflags-sm4---asm"></a>dcl \_ globalFlags (sm4-asm) 
 
@@ -27,7 +27,7 @@ ms.locfileid: "104373927"
 
 
 
- 
+ 
 
 <dl> <dt>
 
@@ -54,7 +54,7 @@ ms.locfileid: "104373927"
 >
 > 重新排列算數運算可能會產生不同的結果。
 
- 
+ 
 
 </dd> </dl>
 
@@ -70,7 +70,7 @@ ms.locfileid: "104373927"
 
 
 
- 
+ 
 
 包含此指令的目的是協助您在元件中進行著色器的偵錯工具。您無法使用著色器模型4來撰寫元件語言中的著色器。
 
@@ -85,13 +85,13 @@ ms.locfileid: "104373927"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -100,9 +100,9 @@ ms.locfileid: "104373927"
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 91e04efac3a67c262b4eeb85948f846dbb06086a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e9356b449adbb4ee760ec70990c4db0b6703c16e9d0970f2756bac23907b1bfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660257"
 ---
 # <a name="cbasecontrolwindowget_windowstyle-method"></a>CBaseControlWindow. 取得 \_ system.windows.window.windowstyle 方法
 

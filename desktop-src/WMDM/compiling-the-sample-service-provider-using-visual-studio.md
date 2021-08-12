@@ -3,25 +3,25 @@ title: 使用 Visual Studio 編譯範例服務提供者
 description: 使用 Visual Studio 編譯範例服務提供者
 ms.assetid: db0ecc18-d5b0-47d8-9b3f-3a9644343de8
 keywords:
-- Windows Media 裝置管理員，範例
+- Windows媒體裝置管理員、範例
 - 裝置管理員，範例
-- Windows Media 裝置管理員、服務提供者範例
+- Windows媒體裝置管理員、服務提供者範例
 - 裝置管理員，服務提供者範例
 - 服務提供者，範例
 - 範例，服務提供者
 - 範例，使用 Visual Studio 編譯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abded2aa1272f2e5e14b711c0d8b0a8ec79f280
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cd220e314a6de0a9c5e4cf50ccd710a0236c3b3ec469247ef99f319b553b15c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586016"
 ---
 # <a name="compiling-the-sample-service-provider-using-visual-studio"></a>使用 Visual Studio 編譯範例服務提供者
 
-Windows Media 格式 SDK 不包含 Visual Studio 方案檔。 不過，本檔包含兩個檔案，可讓您使用 Visual Studio 建立和偵測範例服務提供者。 提供的檔案都適用于 Visual Studio .NET 2003。
+Windows 媒體格式 SDK 不包含 Visual Studio 方案檔。 不過，本檔包含兩個檔案，可讓您使用 Visual Studio 建立和偵測範例服務提供者。 提供的檔案都是 Visual Studio .net 2003。
 
 -   將下列程式碼儲存為 <*SDK 安裝路徑* > \\ WMFSDK \\ WMFSDK95 \\ WMDM \\ mdsp \\ mshdsp 資料夾中名為 mshdsp. vcproj 的文字檔。
 
@@ -338,9 +338,9 @@ EndGlobal
 [**範例服務提供者**](sample-service-provider.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

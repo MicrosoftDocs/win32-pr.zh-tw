@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8e339f3a8186e845e28261633806a61b1b15c281
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d1096cc7cd4ed31346b38719a3f622edf780408fd50262d93515f68d92b421d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661504"
 ---
 # <a name="cbaseallocatorreleasebuffer-method"></a>CBaseAllocator. ReleaseBuffer 方法
 

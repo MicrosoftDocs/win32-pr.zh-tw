@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 799775a5958903bc2d5e98b6ae467088b355962f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc18a978a391c7d2aff5efa3ca10fdbb84ddadc820c6b5990fa16f04692af38e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577945"
 ---
 # <a name="equalizersettingspreviouspreset"></a>EQUALIZERSETTINGS.previousPreset
 

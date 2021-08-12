@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 22507995621d708e40437175d7004d10f68fedb5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a39cef0ac5a0a7c4f186b8eae90a96a8e26fbf886f819dc7562cb7d8df4e087e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659718"
 ---
 # <a name="cbasefilterreconnectpin-method"></a>CBaseFilter. ReconnectPin 方法
 
@@ -63,7 +63,7 @@ HRESULT ReconnectPin(
 
 
 
-| 傳回碼                                                                                   | Description                                                                       |
+| 傳回碼                                                                                   | 描述                                                                       |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 成功。<br/>                                                               |
 | <dl> <dt>**E \_ NOINTERFACE**</dt> </dl> | [**m \_ pGraph**](cbasefilter-m-pgraph.md) 成員變數為 **Null**。<br/> |

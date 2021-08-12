@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 610888193762618d427a0329a27d3019bd625e69
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2067c7698c1af7d7295cffed552ab4f58d0402594dd13bfd82224c81652b9aff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108119996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118659161"
 ---
 # <a name="cbaseinputpinnotify-method"></a>CBaseInputPin。通知方法
 

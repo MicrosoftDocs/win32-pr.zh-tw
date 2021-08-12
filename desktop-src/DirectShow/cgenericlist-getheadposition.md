@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b8f0669dd5b6647b362b610805ddc8a394e1ba59
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b34b8e4c01a66e27c4a9a98aae8db87ce83cf46e5c46345d336da08548aa7383
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656164"
 ---
 # <a name="cgenericlistgetheadposition-method"></a>CGenericList. GetHeadPosition 方法
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d02ee595bce4903631ff4efa480a5727aa28c7d8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3dbd9caf74554d2616efbbe16a4aa43a7f05bde10d74f157ccaa57fe5076610
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118265795"
 ---
 # <a name="esentinvalidlanguageidexception-class"></a>EsentInvalidLanguageIdException 類別
 

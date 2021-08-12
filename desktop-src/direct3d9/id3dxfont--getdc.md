@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: cce659d2436faa521e965774f06cbc4deaf46663
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3ceabce512bc48038795292347cab87ed0472b8affb163b4b8f605861ef367ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295367"
 ---
 # <a name="id3dxfontgetdc-method"></a>ID3DXFont：： GetDC 方法
 

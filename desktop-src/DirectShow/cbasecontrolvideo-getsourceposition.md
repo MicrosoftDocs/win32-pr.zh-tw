@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 2422845a7b5c64bc07b8e8942b2f19cd10a54d26
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9ed52109284d9c9f8aa7884f4a0e361ec1a8f5564d0a22ae7fbf528d35a5e6ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661072"
 ---
 # <a name="cbasecontrolvideogetsourceposition-method"></a>CBaseControlVideo. GetSourcePosition 方法
 
@@ -79,7 +79,7 @@ HRESULT GetSourcePosition(
 
 
 
-| 傳回碼                                                                                           | Description                                                                      |
+| 傳回碼                                                                                           | 描述                                                                      |
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ 失敗**</dt> </dl>                | 失敗。<br/>                                                              |
 | <dl> <dt>**E \_ 指標**</dt> </dl>             | **Null** 指標引數。<br/>                                            |

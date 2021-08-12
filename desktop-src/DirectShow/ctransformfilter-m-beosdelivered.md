@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f24b87f9808c53b5f64f66031a8ee2a4e9449089
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 38d27fabb9dd3ed2a37ed5d836bfdfb1036f4255e6af48580ab6e0678abad74b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655102"
 ---
 # <a name="ctransformfilterm_beosdelivered-member"></a>CTransformFilter：： m \_ bEOSDelivered 成員
 

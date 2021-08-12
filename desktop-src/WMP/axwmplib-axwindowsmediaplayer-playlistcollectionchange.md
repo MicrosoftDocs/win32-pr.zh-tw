@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb7dd88b558bb13b8835be1a8f840df8f8316706
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 15bf5b60fe1e2c0d6bf8a08555048122993b11b900530af400966a9736bf5b00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581861"
 ---
 # <a name="playlistcollectionchange-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 PlaylistCollectionChange 事件
 

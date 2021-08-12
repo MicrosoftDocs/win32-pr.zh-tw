@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5aa0bff92cdc274c8dba56aa11a44791e3ad9f01
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a3c7c44acd410566c4f048cdf36bac904c18b21df42f53543051e3b94f49bfbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118609370"
 ---
 # <a name="fileextensions-method-of-the-win32_tsapplicationfileextensions-class"></a>Win32 TSApplicationFileExtensions 類別的 FileExtensions 方法 \_
 

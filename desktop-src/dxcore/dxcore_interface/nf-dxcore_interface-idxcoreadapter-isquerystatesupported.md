@@ -4,12 +4,12 @@ description: 判斷這個 DXCore 介面卡物件和目前作業系統 (作業系
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: d154597f9b3ddbec24cff230317d881b9595bcde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8ae77c308cb251982947d91e23eaef8f6d828c1233df442cb013bf9737e3c57d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279219"
 ---
 # <a name="idxcoreadapterisquerystatesupported-method"></a>IDXCoreAdapter：： IsQueryStateSupported 方法
 
@@ -34,7 +34,7 @@ virtual bool STDMETHODCALLTYPE IsQueryStateSupported(
 
 類型： **bool**
 
- `true`   如果這個 DXCore 介面卡物件和目前作業系統 (作業系統) 支援查詢指定的介面卡狀態，則會傳回。 否則，會傳回  `false` 。
+`true`如果這個 DXCore 介面卡物件和目前作業系統 (作業系統) 支援查詢指定的介面卡狀態，則會傳回。 否則傳回 `false`。
 
 ## <a name="see-also"></a>另請參閱
 

@@ -4,16 +4,16 @@ ms.assetid: E132DAF5-80B7-4C52-A760-3779CC140CE7
 title: DXGI 翻轉模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ee82febd13a3b57a06d93fd01eb8d230d6b78a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 04b4b4cf8f792a23d4d32e5cb4b4273594745283cb803a638ea3d0cf4c45977f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289434"
 ---
 # <a name="dxgi-flip-model"></a>DXGI 翻轉模型
 
-Windows 8 在 DXGI 1.2 中新增對 flip 展示模型及其相關聯的目前統計資料的支援。 Windows 8 的 DXGI 翻轉表示模型類似于 Windows 7 的 [DIRECT3D 9EX 翻轉模式展示](../direct3darticles/direct3d-9ex-improvements.md)。 以影片或畫面播放速率為基礎的展示應用程式（例如遊戲）可以利用翻轉簡報模型來獲益。 使用 DXGI 反轉展示模型的應用程式可降低系統資源的載入並提升效能。 應用程式也可以透過提供即時意見反應和修正機制，使用目前的統計資料增強功能搭配翻轉展示模型，更有效地控制簡報率。
+Windows 8 在 DXGI 1.2 中新增對 flip 展示模型及其相關聯的目前統計資料的支援。 Windows 8 的 DXGI 翻轉表示模型類似于 Windows 7 的[Direct3D 9EX 翻轉模式展示](../direct3darticles/direct3d-9ex-improvements.md)。 以影片或畫面播放速率為基礎的展示應用程式（例如遊戲）可以利用翻轉簡報模型來獲益。 使用 DXGI 反轉展示模型的應用程式可降低系統資源的載入並提升效能。 應用程式也可以透過提供即時意見反應和修正機制，使用目前的統計資料增強功能搭配翻轉展示模型，更有效地控制簡報率。
 
 -   [比較 DXGI 翻轉模型和 BitBlt 模型](#comparing-the-dxgi-flip-model-and-the-bitblt-model)
 -   [如何使用 DXGI 翻轉模型](#how-to-use-dxgi-flip-model)
@@ -23,9 +23,9 @@ Windows 8 在 DXGI 1.2 中新增對 flip 展示模型及其相關聯的目前統
 
 ## <a name="comparing-the-dxgi-flip-model-and-the-bitblt-model"></a>比較 DXGI 翻轉模型和 BitBlt 模型
 
-執行時間會使用位區塊傳輸 (bitblt) 並翻轉簡報模型，以在顯示監視器上顯示圖形內容。 Bitblt 和翻轉展示模型之間的最大差異，在於背景緩衝區內容如何取得 Windows 8 DWM 以進行組合。 在 bitblt 模型中，會在每次呼叫 IDXGISwapChain1 時，將背景緩衝區的內容複寫到重新導向介面 [**：:P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)。 在反轉模型中，所有背景緩衝區都會與桌面視窗管理員 (DWM) 共用。 因此，DWM 可以直接從這些背景緩衝區中撰寫，而不需要任何額外的複製作業。 一般而言，翻轉模型較有效率。 翻轉模型也提供更多功能，例如增強的目前統計資料。
+執行時間會使用位區塊傳輸 (bitblt) 並翻轉簡報模型，以在顯示監視器上顯示圖形內容。 bitblt 和翻轉展示模型之間的最大差異，在於背景緩衝區內容如何取得 Windows 8 DWM 以進行組合。 在 bitblt 模型中，會在每次呼叫 IDXGISwapChain1 時，將背景緩衝區的內容複寫到重新導向介面 [**：:P resent1**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgiswapchain1-present1)。 在反轉模型中，所有背景緩衝區都會與桌面視窗管理員 (DWM) 共用。 因此，DWM 可以直接從這些背景緩衝區中撰寫，而不需要任何額外的複製作業。 一般而言，翻轉模型較有效率。 翻轉模型也提供更多功能，例如增強的目前統計資料。
 
-如果您有使用 Windows 圖形裝置介面 (GDI) 直接寫入 [**HWND**](../winprog/windows-data-types.md) 的舊版元件，請使用 bitblt 模型。
+如果您有使用 Windows 圖形裝置介面 (GDI) 直接寫入 [**HWND**](../winprog/windows-data-types.md)的舊版元件，請使用 bitblt 模型。
 
 當應用程式處於視窗模式時，DXGI 翻轉模型的效能改進相當重要。 此表格中的順序和圖例比較記憶體頻寬的使用方式，以及選擇翻轉模型與 bitblt 模型的視窗化應用程式的系統讀取和寫入。
 
@@ -53,7 +53,7 @@ Flip 模型藉由針對 DWM 的視窗化框架組合，減少 Direct3D runtime �
 -   將格式 **設定** 為 DXGI \_ 格式 \_ R16G16B16A16 \_ FLOAT、DXGI \_ format \_ B8G8R8A8 \_ UNORM 或 dxgi \_ format \_ R8G8B8A8 \_ UNORM
 -   **SampleDesc** 成員所指定之 [**dxgi 範例 \_ \_ desc**](/windows/desktop/api/dxgicommon/ns-dxgicommon-dxgi_sample_desc)結構的 **計數****成員，** 因為不支援多個範例消除鋸齒 (MSAA) **\_ \_**
 
-如果您在 Windows 7 或更早版本的作業系統上使用 [**DXGI \_ 交換 \_ 效果 \_ 反轉 \_**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) ，則裝置建立會失敗。 當您使用翻轉模型時，您可以在視窗模式中使用全螢幕的顯示統計資料。 全螢幕的行為不會受到影響。 如果您將 **Null** 傳遞給視窗型交換鏈的 [**IDXGIFactory2：： CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd)的 *PFullscreenDesc* 參數，並將 **SwapEffect** 設定為 **DXGI \_ 交換效果的 \_ \_ \_ 順序**，則執行時間會建立一個額外的背景緩衝區，並將任何控制碼都轉換成在呈現時成為前端緩衝區的緩衝區。
+如果您在 Windows 7 或更早版本的作業系統上使用 [**DXGI \_ 交換 \_ 效果 \_ \_**](/windows/desktop/api/DXGI/ne-dxgi-dxgi_swap_effect) ，則裝置建立會失敗。 當您使用翻轉模型時，您可以在視窗模式中使用全螢幕的顯示統計資料。 全螢幕的行為不會受到影響。 如果您將 **Null** 傳遞給視窗型交換鏈的 [**IDXGIFactory2：： CreateSwapChainForHwnd**](/windows/desktop/api/DXGI1_2/nf-dxgi1_2-idxgifactory2-createswapchainforhwnd)的 *PFullscreenDesc* 參數，並將 **SwapEffect** 設定為 **DXGI \_ 交換效果的 \_ \_ \_ 順序**，則執行時間會建立一個額外的背景緩衝區，並將任何控制碼都轉換成在呈現時成為前端緩衝區的緩衝區。
 
 當您使用 flip 模型時，請考慮下列秘訣：
 

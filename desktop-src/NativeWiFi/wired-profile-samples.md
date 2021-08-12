@@ -4,12 +4,12 @@ ms.assetid: d96e56c3-3d38-4b4e-be31-05f825fec211
 title: 有線設定檔範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1515ecb220f78acb251fe94d8b6886b3877177b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 988b97e4064094d550a5fe870ad40cab28d09bd4565af09d3ba149598352ac78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619963"
 ---
 # <a name="wired-profile-samples"></a>有線設定檔範例
 

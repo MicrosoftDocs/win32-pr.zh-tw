@@ -6,12 +6,12 @@ keywords:
 - 可延伸的驗證通訊協定，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e631299c9e57a233794dde8bf205d98b8c91b76c
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 84866f7f550213850bf95c39a6f0847df31bed3550db66139f2ec30bf921b5a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383097"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276041"
 ---
 # <a name="about-eap"></a>關於 EAP
 
@@ -50,9 +50,9 @@ PEAP 讓撰寫 EAP 通訊協定更加容易，因為程式設計師不再需要�
 [關於 EAP 和 EAPHost](about-extenstible-authentication-protocol-and-eaphhost.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

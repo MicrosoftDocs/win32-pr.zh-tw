@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: a029dc0857e91c22343d8c50b49535de008aaccc
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 9111825e943be0c7ea777dad196b24040a115f1eb4a840cac6d29a0309109b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104022723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287356"
 ---
 # <a name="load4-methods"></a>Load4 方法
 

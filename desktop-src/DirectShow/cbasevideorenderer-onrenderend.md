@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8f37b4d03f77090f4cac40a218fd3ac27c0c349d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 24d622ec62b27ae2e85eb9bef37516c82acbb17e03bef9a51b161edacd0b95c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658684"
 ---
 # <a name="cbasevideorendereronrenderend-method"></a>CBaseVideoRenderer. OnRenderEnd 方法
 

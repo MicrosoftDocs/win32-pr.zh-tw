@@ -5,12 +5,12 @@ ms.assetid: 5F4F7148-FCD0-4FBF-A67A-56B43CB4DE12
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5a033978a78e7710bfba05e806f0e08c3a92e43
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6e2f6da92d5c0ebee8de98fa8d92d2f24cef0635dd9724ddf57defc5d902d0b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106965203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118607770"
 ---
 # <a name="imsrdpclientadvancedsettings7-properties"></a>IMsRdpClientAdvancedSettings7 屬性
 
@@ -26,9 +26,9 @@ ms.locfileid: "106965203"
 -   [**SuperPanAccelerationFactor 屬性**](imsrdpclientadvancedsettings7-superpanaccelerationfactor.md)
 -   [**VideoPlaybackMode 屬性**](imsrdpclientadvancedsettings7-videoplaybackmode.md)
 
- 
+ 
 
- 
+ 
 
 
 

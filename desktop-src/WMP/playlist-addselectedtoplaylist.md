@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5cda55f82d13db6061cb713388a618dfa8f2b5e2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b67fd824bb5055156a6ae1846ab4017b662dbeea9434ff1657d7fe76ebda640b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571478"
 ---
 # <a name="playlistaddselectedtoplaylist"></a>播放清單。 addSelectedToPlaylist
 

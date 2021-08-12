@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 5469a4d84a17e5804cbc0bd36f2c6f68159c6f30
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 8edf90276ca7d08272d9b945f4abd273df067047751ca8d3f69c077283be3a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283717"
 ---
 # <a name="texture3dsample-methods"></a>Texture3D：： Sample 方法
 

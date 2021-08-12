@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 82fbf7ec7db6f64f1bac9776376fa8fe89659d9c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0f62ab040f57fdeb4e4208554c642e9b0bc2fb1135512d1c512f0b0ef90b69e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589633"
 ---
 # <a name="definitiontype-complex-type"></a>DefinitionType 複雜類型
 
@@ -44,10 +44,10 @@ ms.locfileid: "106965899"
 
 
 
-| 元素                                                           | 類型                                                                                       | Description                                                                                                                                                                                                                                                                             |
+| 元素                                                           | 類型                                                                                       | 描述                                                                                                                                                                                                                                                                             |
 |-------------------------------------------------------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**事件**](eventmanifestschema-event-definitiontype-element.md) | [**EventDefinitionType**](eventmanifestschema-eventdefinitiontype-complextype.md)         | 定義您的提供者可以記錄的事件。<br/>                                                                                                                                                                                                                                 |
-| [**任務**](eventmanifestschema-task-definitiontype-element.md)   | [**TaskEventDefinitionType**](eventmanifestschema-taskeventdefinitiontype-complextype.md) | 不支援。<br/> **Windows Server 2008 和 Windows Vista：** 定義您的提供者可以記錄的工作特定事件。  (從 Windows SDK 的 Windows 7 版本隨附的訊息編譯器開始，不再支援工作特定事件。 ) <br/> |
+| [**任務**](eventmanifestschema-task-definitiontype-element.md)   | [**TaskEventDefinitionType**](eventmanifestschema-taskeventdefinitiontype-complextype.md) | 不支援。<br/> **Windows Server 2008 和 Windows Vista：** 定義您的提供者可以記錄的工作特定事件。  (從 Windows SDK Windows 7 版隨附的訊息編譯器開始，不再支援工作特定事件。 ) <br/> |
 
 
 
@@ -57,8 +57,8 @@ ms.locfileid: "106965899"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

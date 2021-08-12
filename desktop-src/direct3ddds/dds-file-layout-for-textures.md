@@ -4,12 +4,12 @@ description: 若是未壓縮的材質，請使用 DDSD \_ 音調和 DDPF \_ RGB 
 ms.assetid: 5bf54e8d-1dc5-4782-96c1-132d258fb560
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbaa6f86dddc7e60d7f41fc34d7c9fe994d50e4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 47fe1d7da71727c2c84bb3745772a10520367ac1cf6e9c4033932548d86c1302
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289795"
 ---
 # <a name="dds-texture-example"></a>DDS 紋理範例
 
@@ -43,7 +43,7 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
 下表列出使用壓縮 (DXT1) 的相同材質，各圖層所佔用的空間量。
 
@@ -64,7 +64,7 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
 下表列出使用 DXGI 壓縮格式之相同材質的每個圖層所佔用的空間量 (在此案例中為 BC3 \_ UNORM) ，因此需要延伸標頭：
 
@@ -86,7 +86,7 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,9 +95,9 @@ max(1, ( (width + 3) / 4 ) ) x max(1, ( (height + 3) / 4 ) ) x 8(DXT1) or 16(DXT
 [DDS 程式設計指南](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

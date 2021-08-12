@@ -1,9 +1,9 @@
 ---
-title: 'IWMPPlaylist (VB 和 C ) '
+title: IWMPPlaylist (VB 和 C ) 的專案
 description: 專案屬性 (\_ C \ ) 中的 get 專案方法會取得指定索引處之媒體專案的介面。
 ms.assetid: 874663e2-0b89-4ef7-9d4a-3a334482b352
 keywords:
-- " (VB 和 C ) Windows Media Player 的 IWMPPlaylist 專案"
+- IWMPPlaylist (VB 和 C ) Windows Media Player 的專案
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d1318f37c3f590eec2c97252e2f484b0d1bc6d83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 06b4c29b5f3821ad2ec3434fcad2defc2e4128e7f6e69c70940294ef0ff7f963
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575415"
 ---
-# <a name="iwmpplaylistitem-vb-and-c"></a>IWMPPlaylist (VB 和 c # ) 
+# <a name="iwmpplaylistitem-vb-and-c"></a>IWMPPlaylist (VB 和 c # ) 的專案
 
 **Item** 屬性 (c # 中的 **get \_ Item** 方法 ) 取得位於指定索引之媒體專案的介面。
 

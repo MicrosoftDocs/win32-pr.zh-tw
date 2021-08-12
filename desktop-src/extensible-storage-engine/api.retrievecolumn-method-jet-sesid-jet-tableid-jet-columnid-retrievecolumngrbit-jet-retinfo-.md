@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 43657ec60e521795ba4d474306de9380618cd21f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50a42d3ca0b1e81dc7f5205482c99a019b4143e5d3f1e6cb8f7cb61c65886f4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118271902"
 ---
 # <a name="apiretrievecolumn-method-jet_sesid-jet_tableid-jet_columnid-retrievecolumngrbit-jet_retinfo"></a>RetrieveColumn 方法 (JET_SESID、JET_TABLEID、JET_COLUMNID、RetrieveColumnGrbit、JET_RETINFO) 
 

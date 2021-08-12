@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ecb8ff3bb68829e944461cedb1c86904c7150593
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 50d3ea585182794c1e96195fdbef842bc35c86342d390dd59e7077b31d4ef9a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591701"
 ---
 # <a name="ivmvirtualpcsetconfigurationvalue-method"></a>IVMVirtualPC：： SetConfigurationValue 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 設定指定之設定的值。
 
@@ -48,7 +48,7 @@ HRESULT SetConfigurationValue(
 *preferenceKey* \[在\]
 </dt> <dd>
 
-用來識別喜好設定的金鑰，會儲存在每個使用者的設定檔中， (Options.xml 于 "% LocalAppData% \\ Microsoft \\ WINDOWS Virtual PC" ) 。
+用來識別喜好設定的金鑰，會儲存在每個使用者的設定檔中， (Options.xml 在 "% LocalAppData% \\ Microsoft \\ Windows Virtual PC" ) 中。
 
 > [!IMPORTANT]
 > Options.xml 只能使用 **SetConfigurationValue** 方法進行變更。 不支援使用任何其他方法來變更 Options.xml。
@@ -70,7 +70,7 @@ HRESULT SetConfigurationValue(
 
 
 
-| 傳回碼/值                                                                                                                                                                        | Description                                                                                     |
+| 傳回碼/值                                                                                                                                                                        | 描述                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0</dt> </dl>                                              | 作業成功。<br/>                                                        |
 | <dl> <dt>**E \_指標**</dt><dt>且顯示 0x80004003</dt> </dl>                                | *PreferenceKey* 或 *PreferenceValue* 參數為 **Null**。<br/>                      |
@@ -89,9 +89,9 @@ HRESULT SetConfigurationValue(
 
 
 
-| *preferenceKey* 值      | Description                                                                                                                                                                           | 資料類型            | 預設值   |
+| *preferenceKey* 值      | 描述                                                                                                                                                                           | 資料類型            | 預設值   |
 |----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|-----------------|
-| 「閒置 \_ timeout」<br/> | 如果沒有作用中的 Vm 或應用程式正在使用 [Windows VIRTUAL PC 介面](virtual-pc-interfaces.md)，vpc.exe 應等候的秒數。<br/> | 等效<br/> | 30<br/> |
+| 「閒置 \_ timeout」<br/> | 如果沒有作用中的 vm 或應用程式使用[Windows Virtual PC 介面](virtual-pc-interfaces.md)，vpc.exe 應等候的秒數。<br/> | 等效<br/> | 30<br/> |
 
 
 
@@ -99,7 +99,7 @@ HRESULT SetConfigurationValue(
 
 這個方法會提供任何設定值的低層級存取權。 可以用來設定客戶定義索引鍵的設定值。 如果您使用這個方法來設定系統組態值，請小心，因為設定值不會執行錯誤檢查。 此外，當虛擬機器正在執行時，某些設定值無法變更。
 
-設定金鑰位於虛擬機器的「Options.xml」檔案中（XML 格式）。 金鑰會以類似于 Windows 中登錄機碼的階層式方式儲存。 若要指定特定的子機碼，會使用「金鑰路徑」來建立，並以斜線標記分隔格式來指定不同的索引鍵。
+設定金鑰位於虛擬機器的「Options.xml」檔案中（XML 格式）。 金鑰會以階層方式儲存，類似于 Windows 中的登錄機碼。 若要指定特定的子機碼，會使用「金鑰路徑」來建立，並以斜線標記分隔格式來指定不同的索引鍵。
 
 例如，若要設定 \_ 位於下列金鑰樹狀結構中的「閒置 timeout」機碼值：
 
@@ -141,7 +141,7 @@ HRESULT SetConfigurationValue(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

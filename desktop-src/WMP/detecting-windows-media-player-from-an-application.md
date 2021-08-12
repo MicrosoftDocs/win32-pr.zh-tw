@@ -8,12 +8,12 @@ keywords:
 - 登錄，從應用程式偵測 Windows Media Player
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ae0c7d30b71749a22ecef10806817cd4182224
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5267dc6c3202d9ecf894377899dfb34cf02ad42dfee05f8d42896c39ae48fc24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579484"
 ---
 # <a name="detecting-windows-media-player-from-an-application"></a>從應用程式偵測 Windows Media Player
 
@@ -40,9 +40,9 @@ ms.locfileid: "106967845"
 [**轉散發 Windows Media Player 軟體**](redistributing-windows-media-player-software.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
