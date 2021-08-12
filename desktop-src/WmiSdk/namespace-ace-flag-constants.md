@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winnt.h
-ms.openlocfilehash: 053d4166882b6254dec313cb10fbf10588ba0071
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b4051a6c17e9861d656207335b2543cf7d886e74569c269df2a4f680f47fbe3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555178"
 ---
 # <a name="namespace-ace-flag-constants"></a>命名空間 ACE 旗標常數
 

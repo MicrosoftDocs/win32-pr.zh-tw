@@ -23,12 +23,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d37a255b0a894ab257166f17c765f009d33b075
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 658f6a91d256806af7740e5e389523e2257e9b02b96e6cfff4b26b109a487cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603899"
 ---
 # <a name="win32_terminalservicetosetting-class"></a>Win32 \_ TerminalServiceToSetting 類別
 

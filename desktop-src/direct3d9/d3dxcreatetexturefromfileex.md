@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f4dba1424f98389a9282fdebf9dae55c7e1601f2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d5964f7f466dac135d08958ef66c12a1dfe2e61a19180eb45072c5489f9f4a64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103853988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118299243"
 ---
 # <a name="d3dxcreatetexturefromfileex-function"></a>D3DXCreateTextureFromFileEx 函式
 
@@ -143,7 +143,7 @@ HRESULT D3DXCreateTextureFromFileEx(
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -191,7 +191,7 @@ HRESULT D3DXCreateTextureFromFileEx(
 
 使用 [**D3DXCheckTextureRequirements**](d3dxchecktexturerequirements.md) 來判斷您的裝置是否可以支援指定目前狀態的材質。
 
-此函式支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函數支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 Mipmapped 紋理會自動以載入的材質填滿每個層級。 將影像載入 mipmapped 材質時，某些裝置無法進入1x1 影像，而且此函式將會失敗。 如果發生這種情況，則必須以手動方式載入映射。
 

@@ -4,12 +4,12 @@ description: 瞭解 EAP-TLS 使用者屬性。 請參閱 eaptlsuserpropertiesv1 
 ms.assetid: d5a265a9-4c09-4a60-a188-dff471ee72c9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d104d8eb5eaca67985be5574504dfbe57b5a6f9
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 9eb62acc8cbe5a56eb56152f8625bf3c9cfeb79fdf31558aa5de4bf131e82f61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "106965260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118275180"
 ---
 # <a name="eap-tls-user-properties"></a>EAP-TLS 使用者屬性
 
@@ -49,9 +49,9 @@ ms.locfileid: "106965260"
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

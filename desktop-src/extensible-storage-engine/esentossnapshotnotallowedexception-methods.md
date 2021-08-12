@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102390
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 29068b8d6bd83dc52bf1ee49e1490809904e30ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b545d0108f9677ced28f219837c0ecf694b47d1136a1fbabb91e305ecb233448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104561582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118263040"
 ---
 # <a name="esentossnapshotnotallowedexception-methods"></a>EsentOSSnapshotNotAllowedException 方法
 

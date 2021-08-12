@@ -7,17 +7,17 @@ keywords:
 - DirectComposition 2D 轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b52d2e0ce9fbb56547c42ea4ea18d57d173a7e40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6ef965ce98bb064eb63b34de569160c9b68932c96ce757e3e5d13450f73098b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118281951"
 ---
 # <a name="how-to-apply-2d-transforms"></a>如何套用2D 轉換
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題示範如何使用 Microsoft DirectComposition 將2D 轉換套用至視覺效果。 本主題中的範例會套用一組轉換，這些轉換會：
 
@@ -37,7 +37,7 @@ ms.locfileid: "104382453"
 -   [Direct3D 11 圖形](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11)
 -   [DirectX Graphic Infrastructure (DXGI) ](/windows/desktop/direct3ddxgi/dx-graphics-dxgi)
 
-### <a name="prerequisites"></a>必要條件
+### <a name="prerequisites"></a>Prerequisites
 
 -   C/C++
 -   Microsoft Win32
@@ -327,6 +327,6 @@ HRESULT DemoApp::ApplyTransformGroup(IDCompositionDevice *pDevice,
 [轉換](transforms.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

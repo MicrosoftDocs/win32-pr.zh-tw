@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c1b107f759e051f5fb9bdf5c52092cec832c66a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 008702e2012eab6e33c83c8189322e9148b8ffe01607dae9e51669504d1f5d28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118263971"
 ---
 # <a name="esentmustbeseparatelongvalueexception-constructor"></a>EsentMustBeSeparateLongValueException 函式
 

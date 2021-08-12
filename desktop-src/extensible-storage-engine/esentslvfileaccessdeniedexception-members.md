@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102796
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7233837fa900e1256d397b291d5feca01fe63192
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96ca162b05d51a1393472cb48edbe0a003ac2188381d53031624eb232805164c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118259500"
 ---
 # <a name="esentslvfileaccessdeniedexception-members"></a>EsentSLVFileAccessDeniedException 成員
 

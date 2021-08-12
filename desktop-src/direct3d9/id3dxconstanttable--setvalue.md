@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: e5e02c43e0d0ad84615650bc0b1c0d5fd5654e38
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 630d63e8cd70f3743940bc4b71b1312fa777e7cda868fd20f546793b816e6f5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296078"
 ---
 # <a name="id3dxconstanttablesetvalue-method"></a>ID3DXConstantTable：： SetValue 方法
 

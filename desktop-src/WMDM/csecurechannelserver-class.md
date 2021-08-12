@@ -3,24 +3,24 @@ title: CSecureChannelServer 類別
 description: CSecureChannelServer 類別
 ms.assetid: e6e1463a-5a26-4b83-85e0-a639d384a199
 keywords:
-- Windows Media 裝置管理員、CSecureChannelServer 類別
+- WindowsMedia 裝置管理員、CSecureChannelServer 類別
 - 裝置管理員，CSecureChannelServer 類別
 - 服務提供者、CSecureChannelServer 類別
 - 程式設計參考，CSecureChannelServer 類別
-- Windows Media 裝置管理員的參考，CSecureChannelServer 類別
+- Windows 媒體裝置管理員、CSecureChannelServer 類別的參考
 - CSecureChannelServer 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99efdd4d4fa245000d27b5874439375d968591e5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 87627fcdee6da42927ab88411dd579225dc38f025ae73bf9f4fe787c0c5e44bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585482"
 ---
 # <a name="csecurechannelserver-class"></a>CSecureChannelServer 類別
 
-**CSecureChannelServer** 類別是一個 helper 類別， (不是介面) ，可讓服務提供者或安全內容提供者使用 [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate)介面來驗證應用程式、加密和解密資料，以及建立 MAC 簽章。 驗證程式會要求應用程式建立 **CSecureChannelClient** 物件，並讓服務提供者建立 **CSecureChannelServer** 物件。 **CSecureChannelClient** 和 **CSecureChannelServer** 類別是在靜態程式庫（Mssachlp）中宣告。 所有 Windows Media 裝置管理員、服務提供者和安全內容提供者介面的方法，都 \_ 可以 \_ 傳回 WMDM E NOTCERTIFIED，表示呼叫者未成功驗證。
+**CSecureChannelServer** 類別是一個 helper 類別， (不是介面) ，可讓服務提供者或安全內容提供者使用 [**IComponentAuthenticate**](/windows/desktop/api/mswmdm/nn-mswmdm-icomponentauthenticate)介面來驗證應用程式、加密和解密資料，以及建立 MAC 簽章。 驗證程式會要求應用程式建立 **CSecureChannelClient** 物件，並讓服務提供者建立 **CSecureChannelServer** 物件。 **CSecureChannelClient** 和 **CSecureChannelServer** 類別是在靜態程式庫（Mssachlp）中宣告。 Windows 媒體裝置管理員、服務提供者和安全內容提供者介面的所有方法，都 \_ 可以 \_ 傳回 WMDM E NOTCERTIFIED，表示呼叫端未成功驗證。
 
 **CSecureChannelServer** 類別會公開下列方法。
 
@@ -43,7 +43,7 @@ ms.locfileid: "103682502"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,6 +61,6 @@ ms.locfileid: "103682502"
 [**使用安全驗證通道**](using-secure-authenticated-channels.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

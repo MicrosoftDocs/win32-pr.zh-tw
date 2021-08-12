@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 5220ad500312792cd158967e9502381f49b0e3e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 75877e8af86a22f80703742f148d5171e3a99e5c0c580bff588c27deba269b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118293372"
 ---
 # <a name="id3dxprtenginesetpertexelnormal-method"></a>ID3DXPRTEngine：： SetPerTexelNormal 方法
 

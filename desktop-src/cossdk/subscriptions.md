@@ -4,12 +4,12 @@ ms.assetid: 190e88f3-1d87-4c27-9451-0a633cbae829
 title: 訂用帳戶
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9973eb76fc22354f1a2fc8e381c90cf5be1efee3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 48810ae90f3507ea7afb661b106c4d05f8cc5b9a4f1b09aafdfb26d9fdb03a75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118546170"
 ---
 # <a name="subscriptions"></a>訂用帳戶
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: d5e1405c87d0c2a0c41a0244f79cea7b2e86ea40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0b50b253527162ae5d459f4e2fb919d3167059303d0c6ae7e35a129f7a32e39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560613"
 ---
 # <a name="ivectorchangedeventargs-interface"></a>IVectorChangedEventArgs 介面
 

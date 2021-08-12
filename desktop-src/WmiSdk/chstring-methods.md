@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CHString 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e15a26bf2b5945990f8cd37ee67c2953395ca98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50d15726702177aa484a070cca3ec1aab56d708b57991d3ff6a7aae43b1ccf68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556953"
 ---
 # <a name="chstring-methods"></a>CHString 方法
 

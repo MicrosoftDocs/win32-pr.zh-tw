@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在命名空間之間建立實例的關聯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8347d3a35f06f72d3344f5c12606d82709a1370
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d743b835d28af4fe0a8dd5d09858b2ba6ff0abacd0f35219c3dd90d39d0810d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557016"
 ---
 # <a name="associating-instances-between-namespaces"></a>在命名空間之間建立實例的關聯
 

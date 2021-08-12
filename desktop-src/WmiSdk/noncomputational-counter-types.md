@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Noncomputational 計數器類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87ba2757f08dcb2256236117daf2ef3343004425
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a05da34058ceeb99ab60d8cc3d4f72cb3eec85194e48bb707a929eb2f68aa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118555158"
 ---
 # <a name="noncomputational-counter-types"></a>Noncomputational 計數器類型
 
@@ -22,7 +22,7 @@ Noncomputational 計數器類型沒有相關聯的公式。 原始值直接有�
 
 
 
-| CounterType                                                                                                 | Description                                                                                                            |
+| CounterType                                                                                                 | 描述                                                                                                            |
 |-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | [效能 \_計數器 \_ TEXT](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))Decimal 2816<br/>                | 此計數器類型會以 Unicode 顯示可變長度的文字字串。 它不會顯示計算的值。               |
 | [效能 \_\_RAWCOUNT](/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10))Decimal 65536 的計數器<br/>           | 不需要計算的原始計數器值，且代表只是最後觀察到之值的一個樣本。 |

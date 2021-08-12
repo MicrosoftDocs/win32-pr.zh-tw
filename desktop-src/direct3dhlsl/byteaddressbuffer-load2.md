@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 0731438349dff99d8e285c0da761f402df0dd135
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 5684b154828e138c840ac4260ffd8af6998021117ba611938a7d53b046ea08b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103678884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287561"
 ---
 # <a name="load2-methods"></a>Load2 方法
 

@@ -4,12 +4,12 @@ description: 瞭解如何使用 (EAP) 的可延伸驗證通訊協定。 查看 E
 ms.assetid: 739fcb95-5d92-42c2-a28c-0f718ee45f17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3244b19ea30b2b59a7884e36594f234ffc6ce73
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: c9e39ba91a38434235f3ae7116a4150b584222363d86ec1ac8ce43bb08cc7a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106996167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118276051"
 ---
 # <a name="using-the-extensible-authentication-protocol"></a>使用可延伸的驗證通訊協定
 
@@ -32,9 +32,9 @@ ms.locfileid: "106996167"
 [關於 EAP 和 EAPHost](about-extenstible-authentication-protocol-and-eaphhost.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

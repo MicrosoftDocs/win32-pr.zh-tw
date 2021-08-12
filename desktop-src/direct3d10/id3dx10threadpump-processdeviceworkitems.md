@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 88b98d68e4e0e47b2c8e7f9a2e095565c53e2561
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e7179cf285c056601d00df5126ba98aaa34f827cbcac15400166d8301dc143a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118301774"
 ---
 # <a name="id3dx10threadpumpprocessdeviceworkitems-method"></a>ID3DX10ThreadPump：:P rocessDeviceWorkItems 方法
 

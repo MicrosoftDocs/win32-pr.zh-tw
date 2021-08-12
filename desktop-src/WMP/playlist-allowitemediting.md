@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8949b02a9a0be61ea3dbf2e54fa01b2bb9521e19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53a3f07c3212cddeb45ff4ba4c5c6c268483025e782b41d79c8cc51765aa6d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571488"
 ---
 # <a name="playlistallowitemediting"></a>播放清單。 allowItemEditing
 

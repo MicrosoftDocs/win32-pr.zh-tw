@@ -3,22 +3,22 @@ title: 內嵌 Windows Media Player 控制項
 description: 內嵌 Windows Media Player 控制項
 ms.assetid: 867a500c-8407-4a2c-8999-96392a4bc2c0
 keywords:
-- Windows Media Player 嵌入 ActiveX 控制項
-- Windows Media Player 物件模型，嵌入 ActiveX 控制項
+- Windows Media Player，內嵌 ActiveX 控制項
+- Windows Media Player 物件模型，內嵌 ActiveX 控制項
 - 物件模型，嵌入 ActiveX 控制項
-- Windows Media Player ActiveX 控制項，內嵌
-- ActiveX 控制項，嵌入
-- Windows Media Player 的行動 ActiveX 控制項，內嵌
-- Windows Media Player 行動裝置，內嵌 ActiveX 控制項
+- Windows Media Player ActiveX 控制項、內嵌
+- ActiveX 控制項，內嵌
+- Windows Media PlayerMobile ActiveX 控制項，內嵌
+- Windows Media PlayerMobile、內嵌 ActiveX 控制項
 - 內嵌、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c42191069676e6fce0f2bdff119fe83667e4292
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f1b74a5bd0b682be116d888a88620b7fd309daddc5614f0bcf5941ea0bb2347f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118578510"
 ---
 # <a name="embedding-the-windows-media-player-control"></a>內嵌 Windows Media Player 控制項
 
@@ -36,7 +36,7 @@ ms.locfileid: "106969018"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ ms.locfileid: "106969018"
 [**關於 Player 物件模型**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

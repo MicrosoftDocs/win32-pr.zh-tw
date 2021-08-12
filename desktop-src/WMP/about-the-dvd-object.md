@@ -7,18 +7,18 @@ keywords:
 - Windows Media Player 物件模型、DVD 物件
 - 物件模型、DVD 物件
 - Windows Media Player ActiveX 控制項、DVD 物件
-- ActiveX 控制項、DVD 物件
-- Windows Media Player Mobile ActiveX 控制項、DVD 物件
-- Windows Media Player Mobile、DVD 物件
+- ActiveX 控制項，DVD 物件
+- Windows Media PlayerMobile ActiveX control、DVD 物件
+- Windows Media Player行動電話、DVD 物件
 - DVD 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b9432fa90e409b40f9e1acd3e7686628bca3d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 109587f30e7df0ff49b1cdbe5b45d818decb1a3f50ffe4a4ba9cde53d00833f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583760"
 ---
 # <a name="about-the-dvd-object"></a>關於 DVD 物件
 
@@ -42,9 +42,9 @@ mydomain = player.dvd.domain;
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

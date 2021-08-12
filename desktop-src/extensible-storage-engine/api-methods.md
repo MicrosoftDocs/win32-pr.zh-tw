@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.api_
 ms:contentKeyID: 55100697
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3c6dbcee8fb33065169d0cfdfea3d8d557ef1d98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75a2c7e81952b7afdbb73eb75228314f8ae3c77a35329626975fc6f5b03dee8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104560064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272826"
 ---
 # <a name="api-methods"></a>Api 方法
 
@@ -400,7 +400,7 @@ ms.locfileid: "104560064"
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn292177(v=exchg.10).md">JetGetLS</a></td>
-<td>讓應用程式取出與資料指標相關聯的內容控制碼，或與該資料指標相關聯的資料表。 先前必須使用 <a href="dn334015(v=exchg.10).md">JetSetLS (JET_SESID、JET_TABLEID、JET_LS、LsGrbit) </a>設定此內容控制碼。 JetGetLS 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。</td>
+<td>讓應用程式抓取與資料指標或與該資料指標相關聯之資料表相關聯的內容控制碼，稱為本機儲存體。 先前必須使用 <a href="dn334015(v=exchg.10).md">JetSetLS (JET_SESID、JET_TABLEID、JET_LS、LsGrbit) </a>設定此內容控制碼。 JetGetLS 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
@@ -740,7 +740,7 @@ ms.locfileid: "104560064"
 <tr class="even">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>
 <td><a href="dn334015(v=exchg.10).md">JetSetLS</a></td>
-<td>讓應用程式將稱為本機儲存的內容控制碼與資料指標或與該資料指標相關聯的資料表產生關聯。 應用程式可以使用此內容控制碼來儲存與資料指標或資料表相關聯的輔助資料。 當內容控制碼必須釋放時，應用程式稍後會使用執行時間回呼來通知。 這樣就可以將動態配置的狀態與資料指標或資料表產生關聯。</td>
+<td>讓應用程式將稱為本機儲存體的內容控制碼與資料指標或與該資料指標相關聯的資料表產生關聯。 應用程式可以使用此內容控制碼來儲存與資料指標或資料表相關聯的輔助資料。 當內容控制碼必須釋放時，應用程式稍後會使用執行時間回呼來通知。 這樣就可以將動態配置的狀態與資料指標或資料表產生關聯。</td>
 </tr>
 <tr class="odd">
 <td><img src="../images/dn292146.pubmethod(exchg.10).gif" title="公用方法" alt="Public method" /><img src="../images/dn292146.static(exchg.10).gif" title="靜態成員" alt="Static member" /></td>

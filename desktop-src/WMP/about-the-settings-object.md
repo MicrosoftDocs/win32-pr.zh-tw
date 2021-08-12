@@ -1,28 +1,28 @@
 ---
-title: 關於 Settings 物件
-description: 關於 Settings 物件
+title: 關於設定物件
+description: 關於設定物件
 ms.assetid: 941463e6-7928-438e-824e-e5e281421a4a
 keywords:
-- Windows Media Player，Settings 物件
-- Windows Media Player 物件模型，Settings 物件
+- Windows Media Player，設定物件
+- Windows Media Player 物件模型，設定物件
 - 物件模型，設定物件
-- Windows Media Player ActiveX 控制項，Settings 物件
-- ActiveX 控制項，Settings 物件
-- Windows Media Player 行動 ActiveX 控制項，Settings 物件
-- Windows Media Player Mobile，Settings 物件
-- Settings 物件
+- Windows Media Player ActiveX 控制項，設定物件
+- ActiveX 控制項，設定物件
+- Windows Media PlayerMobile ActiveX control、設定物件
+- Windows Media Player行動設定物件
+- 設定物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b20dae51d42e6c67a59ddc23dca19bc7f4180001
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b74b8bd9db946a2915486647fa5831158198bef6115a34b6bb9fb81177f433de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583670"
 ---
-# <a name="about-the-settings-object"></a>關於 Settings 物件
+# <a name="about-the-settings-object"></a>關於設定物件
 
-[ **設定** ] 物件控制控制項的設定，例如音量、播放次數、靜音等等。 它只能透過 **Player** 物件的 **Settings** 屬性來存取。 **Settings** 屬性會傳回 **settings** 物件。 建立之後，您只能存取 **設定** 物件的屬性。 例如，若要取得 **Volume** 屬性的值，您必須使用下列程式碼：
+**設定** 物件控制了控制項的設定，例如音量、播放次數、靜音等等。 它只能透過 **Player** 物件的 **設定** 屬性來存取。 **設定** 屬性會傳回 **設定** 物件。 您只能在建立 **設定** 物件的屬性之後，才能存取該物件的屬性。 例如，若要取得 **Volume** 屬性的值，您必須使用下列程式碼：
 
 
 ```C++
@@ -39,12 +39,12 @@ myvolume = player.settings.volume;
 [**指令碼語言的播放程式物件模型**](player-object-model-for-scripting-languages.md)
 </dt> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 3d9cba77-ef84-4835-b914-c43b3629166b
 title: Winsock 附件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3e4bdcfc2462904f6dbb2b9c7b0e680e2fb115
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fae000361114935974d4bbf988b39dd324e3a01453466a65a28c31d90444dce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558880"
 ---
 # <a name="winsock-annexes"></a>Winsock 附件
 

@@ -13,12 +13,12 @@ api_location:
 - Dwmapi.dll
 api_name:
 - DwmDxUpdateWindowSharedSurface
-ms.openlocfilehash: 7649e96fb3a16458b518d0fc2c6dd09725a4b0ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9eac390cd6ccf79ed3f916f4c9605b938ab9fd338df3643301d7f5e5c900c0d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280118"
 ---
 # <a name="dwmdxupdatewindowsharedsurface-function"></a>DwmDxUpdateWindowSharedSurface 函式
 
@@ -64,7 +64,7 @@ HRESULT WINAPI DwmDxUpdateWindowSharedSurface(
 
 ## <a name="remarks"></a>備註
 
-此 API 適用于執行圖形驅動程式或執行時間。 應用程式可能不會呼叫這個方法。 本檔僅適用于 Windows 7，而且此 API 不保證存在，也不會在其他 Windows 版本上以類似的方式運作。 此函式不會出現在任何標頭或靜態程式庫中，而且位於 dwmapi.dll 的序數101。
+此 API 適用于執行圖形驅動程式或執行時間。 應用程式可能不會呼叫這個方法。 本檔僅適用于 Windows 7，此 API 不保證存在，也不會在其他版本的 Windows 上以類似的方式運作。 此函式不會出現在任何標頭或靜態程式庫中，而且位於 dwmapi.dll 的序數101。
 
 只有在 [**DwmDxGetWindowSharedSurface**](dwmdxgetwindowsharedsurface.md) 傳回 **S \_ OK** 之後，才應該呼叫這個方法，而且必須在該情況下呼叫，不論介面是否更新。
 
@@ -72,7 +72,7 @@ HRESULT WINAPI DwmDxUpdateWindowSharedSurface(
 
 | 需求 | 值 |
 |-|-|
-| 最低支援的用戶端 | \[僅限 Windows 7 桌面應用程式\] |
+| 最低支援的用戶端 | 僅 Windows 7 \[ 桌面應用程式\] |
 | 最低支援的伺服器 | 都不支援 |
 | 用戶端支援結束 | Windows 7 |
 | 標頭 | N/A |

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c077117de5891133232c2ec1c3e163cd53f2030c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b7573cc182ba3d47ec111e6e25b219d563bcc7148ab9504d14ad69fe649f672d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568433"
 ---
 # <a name="iwmpsettingsenableerrordialogs-property"></a>IWMPSettings：： enableErrorDialogs 屬性
 

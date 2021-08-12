@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 範例：從遠端電腦取得 WMI 資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3375bd25073defa92358f697ee4165ddb57793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 722247d9b58c9fc27c5fac63a97f86d0c155faa92e41fc68506c5d280d0b040a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556621"
 ---
 # <a name="example-getting-wmi-data-from-a-remote-computer"></a>範例：從遠端電腦取得 WMI 資料
 
@@ -37,7 +37,7 @@ ms.locfileid: "106980782"
 
     如需詳細資訊，請參閱 [建立與 WMI 命名空間的連接](creating-a-connection-to-a-wmi-namespace.md)。
 
-4.  藉 [](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) \\ \\ \\ 由呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)，取得遠端電腦上根 cimv2 命名空間的 IWbemServices 指標。 連線到遠端電腦時，您需要知道您要連接之遠端電腦的電腦名稱稱、網域、使用者名稱和密碼。 這些屬性都會傳遞至 **IWbemLocator：： ConnectServer** 方法。 此外，請確認嘗試連線到遠端電腦之電腦上的使用者名稱，在遠端電腦上具有正確的存取權限。 如需詳細資訊，請參閱 [透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。 若要連接到本機電腦，請參閱 [範例：從本機電腦取得 Wmi 資料](example--getting-wmi-data-from-the-local-computer.md) 及 [建立 wmi 命名空間的連接](creating-a-connection-to-a-wmi-namespace.md)。
+4.  藉 [](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) \\ \\ \\ 由呼叫 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)，取得遠端電腦上根 cimv2 命名空間的 IWbemServices 指標。 連線到遠端電腦時，您需要知道您要連接之遠端電腦的電腦名稱稱、網域、使用者名稱和密碼。 這些屬性都會傳遞至 **IWbemLocator：： ConnectServer** 方法。 此外，請確認嘗試連線到遠端電腦之電腦上的使用者名稱，在遠端電腦上具有正確的存取權限。 如需詳細資訊，請參閱[透過 Windows 防火牆連接](/windows/desktop/WmiSdk/connecting-to-wmi-remotely-starting-with-vista)。 若要連接到本機電腦，請參閱 [範例：從本機電腦取得 Wmi 資料](example--getting-wmi-data-from-the-local-computer.md) 及 [建立 wmi 命名空間的連接](creating-a-connection-to-a-wmi-namespace.md)。
 
     處理使用者名稱和密碼時，建議使用者提示輸入資訊、使用資訊，然後刪除資訊，如此一來，未經授權的使用者就不會攔截資訊。 下列範例程式碼中的步驟4使用 [**CredUIPromptForCredentials**](/windows/desktop/api/wincred/nf-wincred-creduipromptforcredentialsa) 取得使用者名稱和密碼，然後使用 [**SecureZeroMemory**](/previous-versions/windows/desktop/legacy/aa366877(v=vs.85)) 在 [**IWbemLocator：： ConnectServer**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemlocator-connectserver)中使用該資訊。 如需詳細資訊，請參閱 MSDN 上的 [處理密碼](/windows/desktop/SecBP/handling-passwords) 和 [要求使用者提供認證](/windows/desktop/SecBP/asking-the-user-for-credentials) 。
 

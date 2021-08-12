@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI，範例程式碼 C/c + +，使用 IDirectoryObject 修改屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8715826d0fc835f3d9ecae914fcc51603883af5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 30fa7d75d3e0dce489f676dafb36992c95a1cba2e9856bbbaf49f14806a6c1ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179026"
 ---
 # <a name="modifying-attributes-with-the-idirectoryobject-interface"></a>使用 IDirectoryObject 介面修改屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "104092194"
 > [!Note]  
 > 如同 [**IADs：:P**](/windows/desktop/api/Iads/nf-iads-iads-put) 的 [**IADs：:P utex**](/windows/desktop/api/Iads/nf-iads-iads-putex) With [**IADs：： SetInfo**](/windows/desktop/api/Iads/nf-iads-iads-setinfo)，屬性變更可能會在 Active Directory 中完整認可或捨棄。 如果不允許有一或多項修改，因而無法執行，則對屬性進行的任何集體修改都不會認可至該目錄。
 
- 
+ 
 
 ## <a name="example"></a>範例
 
@@ -92,9 +92,9 @@ if(SUCCEEDED(hr))
 
 
 
- 
+ 
 
- 
+ 
 
 
 

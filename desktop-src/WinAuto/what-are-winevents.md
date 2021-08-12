@@ -4,18 +4,18 @@ description: 當系統或使用者介面發生變更時，伺服器應用程式�
 ms.assetid: 43723706-a173-4ddc-b135-824a7a8e8b40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97864f2b1464718680d781ad843345f1e46fce13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 87c177183fa776a6becf52d62b86fe0ae6785c5be19dd287324ba3345b586af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563509"
 ---
 # <a name="what-are-winevents"></a>什麼是 WinEvents？
 
 當系統或使用者介面發生變更時，伺服器應用程式和作業系統會使用 WinEvents 來通知用戶端。
 
-New-winevent 支援是 Windows 作業系統的一項功能，可提供下列功能：
+new-winevent 支援是 Windows 作業系統的一項功能，可提供下列功能：
 
 -   用戶端用來註冊事件通知的簡單方式。
 -   將用戶端程式代碼插入伺服器的機制。
@@ -36,9 +36,9 @@ New-winevent 支援是 Windows 作業系統的一項功能，可提供下列功�
 
 當 Microsoft Active Accessibility 收到事件的通知時，它會呼叫任何針對該事件註冊的攔截函式，並從 [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent)傳遞參數。
 
- 
+ 
 
- 
+ 
 
 
 

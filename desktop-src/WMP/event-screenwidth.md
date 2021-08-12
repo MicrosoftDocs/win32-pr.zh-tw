@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f7d50c6c9d99b04b2562d27b7de1e82c507f2a2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 885909243c35a26f05368245240b18a2a091100715a57081386414a427d51544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577020"
 ---
 # <a name="eventscreenwidth"></a>screenWidth
 

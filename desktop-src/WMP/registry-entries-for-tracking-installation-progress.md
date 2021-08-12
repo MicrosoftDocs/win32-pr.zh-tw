@@ -16,12 +16,12 @@ keywords:
 - 安裝進度追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3add1d2feb668ee90418704b9a11b0072530f120
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7febb9f25a04c5e4358e891f963ab6a8569cfd6facef7e4f2072807bd09e2605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570299"
 ---
 # <a name="registry-entries-for-tracking-installation-progress"></a>用於追蹤安裝進度的登錄專案
 
@@ -40,7 +40,7 @@ ms.locfileid: "104022080"
 
 在上述的登錄語法中， *value* 是整數值的預留位置。
 
-進度 \_ CurrentDialog 指出目前顯示 Windows Media Player 安裝程式的對話方塊。 進度 \_ MaxDialog 指出 Windows Media 將顯示的對話方塊總數。 例如，如果進度 \_ CurrentDialog = 2 和進度 \_ MaxDialog = 5，Windows Media Player 目前會以五的序列顯示第二個對話方塊。
+進度 \_ CurrentDialog 指出目前顯示 Windows Media Player 安裝程式的對話方塊。 進度 \_ MaxDialog 指出 Windows 媒體將顯示的對話方塊總數。 例如，如果進度 \_ CurrentDialog = 2 和進度 \_ MaxDialog = 5，Windows Media Player 目前會以五的序列顯示第二個對話方塊。
 
 進度 \_ CurrentInstall 和進度 \_ MaxInstall 會合在一起，指出目前對話方塊完成的百分比。 例如，如果進度 \_ CurrentInstall = 6 且進度 \_ MaxInstall = 25，則目前的對話是 6/25 (也就是 24% ) 完成。
 
@@ -51,9 +51,9 @@ ms.locfileid: "104022080"
 [**登錄設定**](registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

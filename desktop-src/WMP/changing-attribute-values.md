@@ -6,22 +6,22 @@ keywords:
 - Windows Media Player，媒體專案的屬性
 - Windows Media Player 物件模型，媒體專案的屬性
 - 物件模型、媒體專案的屬性
-- Windows Media Player 行動裝置，媒體專案的屬性
+- Windows Media Player行動電話，媒體專案的屬性
 - Windows Media Player ActiveX 控制項、媒體專案的屬性
-- Windows Media Player 的行動 ActiveX 控制項、媒體專案的屬性
-- ActiveX 控制項、媒體專案的屬性
+- Windows Media Player行動 ActiveX 控制項、媒體專案的屬性
+- ActiveX 控制項，媒體專案的屬性
 - Windows Media Player 文件庫、媒體專案的屬性
 - 文件庫、媒體專案的屬性
 - 屬性，變更值
 - 變更屬性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 133e004e1140bdaac19b22be8bc1c77fe9327601
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e870d8bfa13012bd79fdd672f1543db4a484ca5d9674ef1a9e48e832119ea1b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581114"
 ---
 # <a name="changing-attribute-values"></a>變更屬性值
 
@@ -59,7 +59,7 @@ media.setItemInfo("WM/Genre", "My New Genre");
 > [!Note]  
 > 如果您將控制項內嵌在您的應用程式中，除非使用者執行 Windows Media Player，否則您變更的檔案屬性不會寫入數位媒體檔案。 如果您在以 c + + 撰寫的遠端應用程式中使用控制項，則在進行變更之後，將會立即將您變更的檔案屬性寫入數位媒體檔案。 無論是哪一種情況，您都可以透過程式庫立即使用變更。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -77,9 +77,9 @@ media.setItemInfo("WM/Genre", "My New Genre");
 [**讀取屬性值**](reading-attribute-values.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

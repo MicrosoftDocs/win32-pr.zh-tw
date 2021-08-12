@@ -1,19 +1,19 @@
 ---
 title: 'MDI 用戶端視窗 (MSAA UI 元素參考) '
-description: 多重文件介面 (MDI) 是一種規格，可定義針對 Windows 撰寫之應用程式的標準使用者介面。 MDI 應用程式可讓使用者一次使用一個以上的檔。
+description: 多重文件介面 (MDI) 是一種規格，定義針對 Windows 撰寫之應用程式的標準使用者介面。 MDI 應用程式可讓使用者一次使用一個以上的檔。
 ms.assetid: ede2dd19-e4c6-43e8-8f22-f807621dfa0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1557176752d29b7d429a0c434554df09b69a8e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cff8279e9934c953e30a7d91710565562cb538d3140d971b1f74ff8963ca7345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118565129"
 ---
 # <a name="mdi-client-window-msaa-ui-element-reference"></a>MDI 用戶端視窗 (MSAA UI 元素參考) 
 
-多重文件介面 (MDI) 是一種規格，可定義針對 Windows 撰寫之應用程式的標準使用者介面。 MDI 應用程式可讓使用者一次使用一個以上的檔。
+多重文件介面 (MDI) 是一種規格，定義針對 Windows 撰寫之應用程式的標準使用者介面。 MDI 應用程式可讓使用者一次使用一個以上的檔。
 
 MDI 應用程式有三種視窗：框架視窗、用戶端視窗和一些子視窗。 框架視窗就像是應用程式的主視窗，它會圍住用戶端視窗。 用戶端視窗是框架視窗的子系，作為子視窗的背景。 用戶端視窗也提供建立和操作在其中顯示檔之子視窗的支援。
 

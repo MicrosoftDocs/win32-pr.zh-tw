@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d952a98bea78bab18f76da091a392e4b6247ca5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 69200d90253b27f9e73035a14ba5817917b24e1367d3bc4a54fff37e15d112ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590056"
 ---
 # <a name="eventmanifest-schema-complex-types"></a>EventManifest 架構複雜類型
 
@@ -22,7 +22,7 @@ ms.locfileid: "106964972"
 
 
 
-| 複雜類型                                                                                       | Description                                                                                                                                                                                                                             |
+| 複雜類型                                                                                       | 描述                                                                                                                                                                                                                             |
 |----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**BitMapType**](eventmanifestschema-bitmaptype-complextype.md)                                   | 定義位值與字串值之間的名稱/值對應清單。<br/>                                                                                                                                                  |
 | [**BitMapValueType**](eventmanifestschema-bitmapvaluetype-complextype.md)                         | 定義位值與字串值之間的對應。<br/>                                                                                                                                                                  |

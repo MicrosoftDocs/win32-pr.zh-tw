@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 94865042edf8b049b7140673a8aee1b4e2d91573
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29796919302b19b708878feb31e1fd53151700694a67bd1f6943bfa9d82d419c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272454"
 ---
 # <a name="apijetgetattachinfoinstance-method"></a>JetGetAttachInfoInstance 方法
 

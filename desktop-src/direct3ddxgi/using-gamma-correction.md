@@ -4,12 +4,12 @@ ms.assetid: 97ACDAE3-514E-4AAF-A27D-E5FFC162DB2A
 title: 使用 gamma 更正
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c940db1a94fb41e9babecbeb3075aa9e01b3732
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e5c5f5d3af8550f86280e6203858444469a5aa8caaab462f560da152caaa2a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104561060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118288960"
 ---
 # <a name="using-gamma-correction"></a>使用 gamma 更正
 
@@ -37,7 +37,7 @@ Gamma 值通常接近2.0 的值。 LCD 監視器和其他所有較新的技術�
 
 人類眼也有一個回應函式，其大約會反轉 CRT 電源函式。 這表示，圖元的感覺亮度在該圖元的 RGB 值上大致上會呈線性。
 
-由於 gamma 值2.2 已經成為一種被忽略的標準，因此我們通常不需要擔心此資料表中編碼的 gamma 曲線太多，而且可以將它保留為線性、一對一的對應。 當然，適當的色彩比對需要 exquisite 此功能，但該討論已超出本主題的範圍。 Windows 包含一種工具，可讓使用者將其顯示內容調整為 gamma 2.2，而此工具會使用查閱資料表硬體，為其電腦衍生出審慎選擇的微妙調整。 使用者可以藉由搜尋「校正色彩」來執行此工具。 針對將此程式自動化的特定監視器，也有妥善定義的色彩設定檔。 「校正色彩」工具可以偵測這些較新的監視器，並通知使用者已在進行校正。
+由於 gamma 值2.2 已經成為一種被忽略的標準，因此我們通常不需要擔心此資料表中編碼的 gamma 曲線太多，而且可以將它保留為線性、一對一的對應。 當然，適當的色彩比對需要 exquisite 此功能，但該討論已超出本主題的範圍。 Windows 包含一種工具，可讓使用者將其顯示內容調整為 gamma 2.2，而此工具會使用查閱資料表硬體，為其電腦衍生出謹慎選擇的微妙調整。 使用者可以藉由搜尋「校正色彩」來執行此工具。 針對將此程式自動化的特定監視器，也有妥善定義的色彩設定檔。 「校正色彩」工具可以偵測這些較新的監視器，並通知使用者已在進行校正。
 
 這種將 power 定律編碼成色彩值的概念，在圖形管線中的其他地方很有用，尤其是在材質中。 針對材質，您希望較深的色彩有更高的精確度，因為我們剛剛提到的是對數人類眼的回應。 在管線的這個部分中小心處理 gamma 是很重要的。 如需詳細資訊，請參閱 [轉換色彩空間的資料](converting-data-color-space.md)。
 
@@ -45,15 +45,15 @@ Gamma 值通常接近2.0 的值。 LCD 監視器和其他所有較新的技術�
 
 ## <a name="background-of-gamma-on-windows"></a>Windows 上的 gamma 背景
 
-Windows 電腦通常會有一個 gamma 資料表，此資料表是採用三個位元組並輸出三位元組位元組的查閱資料表。 這些 triplet 是 768 (256 x 3) 個位元組的 RAM。 當您的顯示格式包含三個 RGB 位元組值，但無法描述當顯示格式的範圍大於 \[ 0、1 \] （例如浮點值）時，您可能想要的轉換，這是不錯的選擇。 Windows 中控制 gamma 的 Api，因為顯示格式變得更複雜。
+Windows 的電腦通常有一個 gamma 資料表，此資料表是採用三個位元組並輸出三個位元組的查閱資料表。 這些 triplet 是 768 (256 x 3) 個位元組的 RAM。 當您的顯示格式包含三個 RGB 位元組值，但無法描述當顯示格式的範圍大於 \[ 0、1 \] （例如浮點值）時，您可能想要的轉換，這是不錯的選擇。 在 Windows 中，控制 gamma 的 api 已遵循演進，因為顯示格式已變得更複雜。
 
-提供 gamma 控制項的第一個 Windows Api 是 Windows 圖形裝置介面 (GDI) 的 [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp) 和 [**GetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-getdevicegammaramp)。 這些 Api 會使用 3 256-entry 陣列，其中每個單字編碼為零，並以單字值0和65535表示。 單字的額外精確度通常不適用於實際的硬體查閱資料表，但是這些 Api 的目的是要有彈性。 這些 Api 相對於本節稍後所述的其他 Api，只允許來自身分識別函式的小偏差。 事實上，這一條的任何專案都必須在識別值的32768內。 這種限制表示沒有任何應用程式可以將顯示器完全變為黑色或其他無法閱讀的色彩。
+提供 gamma 控制項的第一個 Windows api Windows 圖形裝置介面 (GDI) 的 [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp)和 [**GetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-getdevicegammaramp)。 這些 Api 會使用 3 256-entry 陣列，其中每個單字編碼為零，並以單字值0和65535表示。 單字的額外精確度通常不適用於實際的硬體查閱資料表，但是這些 Api 的目的是要有彈性。 這些 Api 相對於本節稍後所述的其他 Api，只允許來自身分識別函式的小偏差。 事實上，這一條的任何專案都必須在識別值的32768內。 這種限制表示沒有任何應用程式可以將顯示器完全變為黑色或其他無法閱讀的色彩。
 
 下一個 API 是 Microsoft Direct3D 9 的 [**SetGammaRamp**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3ddevice9-setgammaramp)，其遵循與 [**SetDeviceGammaRamp**](/windows/win32/api/wingdi/nf-wingdi-setdevicegammaramp)相同的模式和資料格式。 Direct3D 9 gamma 曲線的預設值並不特別有用;雖然 API 是以0-65535 來定義的，但它是一種初始化為0-255 而非0-65535 的單字。
 
 最新的 API 是 [**IDXGIOutput：： SetGammaControl**](/windows/desktop/api/DXGI/nf-dxgi-idxgioutput-setgammacontrol)。 此 API 有更具彈性的配置，可表示 gamma 控制項，因為適用 DXGI 增加了一組顯示格式，包括每個通道10個整數位、16位浮點數格式，以及 XR \_ 偏差延伸範圍格式。
 
-這些 Api 全都在相同的硬體上運作，並且變更相同的值。 Direct3D 9 和 DXGI Api 都是「僅限寫入」。 您無法讀取硬體的值、加以修改，然後設定它。 您只能設定滑軌。 此外，您只能在應用程式全螢幕時，設定 gamma。 這項限制是保證桌面永遠可讀取的另一種方式。 也就是說，應用程式可以擾亂自己的顯示器，但是當應用程式失去全螢幕時，Windows 會還原先前的 gamma 曲線 (例如，透過 alt-tab 或 ctrl-alt-del) 。
+這些 Api 全都在相同的硬體上運作，並且變更相同的值。 Direct3D 9 和 DXGI Api 都是「僅限寫入」。 您無法讀取硬體的值、加以修改，然後設定它。 您只能設定滑軌。 此外，您只能在應用程式全螢幕時，設定 gamma。 這項限制是保證桌面永遠可讀取的另一種方式。 也就是說，應用程式可以打擾自己的顯示，但 Windows 會在應用程式失去全 (螢幕時，還原先前的 gamma 曲線，例如，透過 alt-tab 或 ctrl-alt-del) 。
 
 ## <a name="evolution-of-display-hardware"></a>顯示器硬體的演進
 
@@ -92,7 +92,7 @@ DXGI 會設定 [**dxgi \_ GAMMA \_ 控制項 \_ 功能**](/previous-versions/win
 
 ## <a name="gamma-control-practicalities"></a>Gamma 控制項 practicalities
 
-只有當應用程式是全螢幕時，才適用 DXGI 的 gamma 控制項。 當應用程式結束或返回視窗模式時，Windows 會還原顯示的先前狀態。 但是，如果應用程式重新進入全螢幕模式，則 Windows 不會還原您的應用程式 gamma 狀態。 當您的應用程式重新進入全螢幕模式時，必須明確地還原其 gamma 狀態。
+只有當應用程式是全螢幕時，才適用 DXGI 的 gamma 控制項。 Windows 會在應用程式結束或返回視窗模式時，還原顯示的先前狀態。 但是，如果應用程式重新進入全螢幕模式，Windows 不會還原您的應用程式 gamma 狀態。 當您的應用程式重新進入全螢幕模式時，必須明確地還原其 gamma 狀態。
 
 並非所有的介面卡都支援 gamma 控制項。 如果介面卡不支援 gamma 控制項，則會忽略呼叫來設定 gamma 的斜坡。
 

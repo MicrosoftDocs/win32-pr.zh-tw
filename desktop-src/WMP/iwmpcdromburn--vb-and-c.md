@@ -1,5 +1,5 @@
 ---
-title: 'IWMPCdromBurn (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPCdromBurn (VB 和 C ) 介面 (Wmp. h) '
 description: 提供用來管理建立音訊 Cd 的屬性和方法。
 ms.assetid: d98b243d-d6c2-4d85-8d5a-de49c62d0acf
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d2fe21a20194f57e4a8b52a3ba05032a07cb31f9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7731d5491e683c2a5d2e577c41dc96264c90f0d070538405d0fa3c3ea7283a0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998657"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575956"
 ---
 # <a name="iwmpcdromburn-vb-and-c-interface"></a>IWMPCdromBurn (VB 和 c # ) 介面
 
@@ -58,7 +58,7 @@ ms.locfileid: "106998657"
 
 
 
-| 屬性                                                                                    | 存取類型          | Description                                                                 |
+| 屬性                                                                                    | 存取類型          | 描述                                                                 |
 |:--------------------------------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------|
 | [**burnFormat**](wmplibiwmpcdromburn-iwmpcdromburn-burnformat--vb-and-c.md)<br/>     | 唯讀<br/> | 取得值，這個值表示要燒錄的 CD 類型。<br/>              |
 | [**burnPlaylist**](wmplibiwmpcdromburn-iwmpcdromburn-burnplaylist--vb-and-c.md)<br/> | 唯讀<br/> | 取得要燒錄到 CD 的目前播放清單。<br/>                     |
@@ -86,7 +86,7 @@ ms.locfileid: "106998657"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> </dl>
 
  

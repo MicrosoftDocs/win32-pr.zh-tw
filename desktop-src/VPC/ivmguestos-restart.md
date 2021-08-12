@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 110718e45d04445dd895a2bdb27419fbd24731c7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b25d5fc2bec8c8a0a10425f63b6abc7c6363e8562b84376af4d053ec710e709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118594006"
 ---
 # <a name="ivmguestosrestart-method"></a>IVMGuestOS：： Restart 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 重新開機客體作業系統。
 
@@ -65,7 +65,7 @@ HRESULT Restart(
 
 
 
-| 傳回碼/值                                                                                                                                                                    | Description                                                                |
+| 傳回碼/值                                                                                                                                                                    | 描述                                                                |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0</dt> </dl>                                          | 作業成功。<br/>                                   |
 | <dl> <dt>**E \_指標**</dt><dt>且顯示 0x80004003</dt> </dl>                            | *OutRestartTask* 參數為 **Null**。<br/>                     |
@@ -85,7 +85,7 @@ HRESULT Restart(
 
 
 
-| [**錯誤碼**](ivmtask-error.md) /值                                                                                                                                                                                                                                                                          | Description                                                                         |
+| [**錯誤碼**](ivmtask-error.md) /值                                                                                                                                                                                                                                                                          | 描述                                                                         |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <span id="HRESULT_FROM_WIN32_ERROR_ACCESS_DENIED___0x80070005_"></span><span id="hresult_from_win32_error_access_denied___0x80070005_"></span><span id="HRESULT_FROM_WIN32_ERROR_ACCESS_DENIED___0X80070005_"></span>`HRESULT_FROM_WIN32(ERROR_ACCESS_DENIED)` (0x80070005) <br/>                             | 呼叫端必須具有此 VM 的「執行」存取權限。<br/>             |
 | <span id="HRESULT_FROM_WIN32_ERROR_MACHINE_LOCKED___0x800704f7_"></span><span id="hresult_from_win32_error_machine_locked___0x800704f7_"></span><span id="HRESULT_FROM_WIN32_ERROR_MACHINE_LOCKED___0X800704F7_"></span>`HRESULT_FROM_WIN32(ERROR_MACHINE_LOCKED)` (0x800704f7) <br/>                         | 電腦已鎖定，無法在沒有強制選項的情況下關閉。<br/> |
@@ -102,7 +102,7 @@ HRESULT Restart(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

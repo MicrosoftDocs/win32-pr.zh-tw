@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faad446749cbf3cdb75d6e8fa7469022cc004ea7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 91598284d3765c5ff6de185ca0cf3b652036c226d80b0fe01a9944a9d7480b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106979691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118594178"
 ---
 # <a name="ivmguestosisheartbeating-property"></a>IVMGuestOS：： IsHeartbeating 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 判斷虛擬機器是否有信號。
 
@@ -64,9 +64,9 @@ HRESULT get_IsHeartbeating(
 
 ## <a name="remarks"></a>備註
 
-當整合元件安裝在客體作業系統時，系統會從虛擬機器會話將一般的「滴答」或心跳傳送至 Windows Virtual PC。 如果虛擬電腦的負載很高，則虛擬電腦可能會收到比預期更少的心跳。 如果未偵測到任何偵測到的偵測，則可能是客體作業系統沒有回應或損毀。
+當整合元件安裝在客體作業系統時，系統會將標準的「滴答」或心跳從虛擬機器會話傳送到 Windows virtual PC。 如果虛擬電腦的負載很高，則虛擬電腦可能會收到比預期更少的心跳。 如果未偵測到任何偵測到的偵測，則可能是客體作業系統沒有回應或損毀。
 
-根據預設，虛擬機器每分鐘會產生10個信號刻度。 如果未偵測到整分鐘的任何心跳滴答，Windows Virtual PC 會每十秒嘗試重新開機虛擬機器會話一次，最多兩分鐘。 此行為是由虛擬機器會話設定檔中的下列索引鍵值所控制。
+根據預設，虛擬機器每分鐘會產生10個信號刻度。 如果未偵測到整分鐘的任何心跳滴答，Windows virtual PC 會每十秒嘗試重新開機虛擬機器會話一次，最多兩分鐘。 此行為是由虛擬機器會話設定檔中的下列索引鍵值所控制。
 
 
 
@@ -87,7 +87,7 @@ HRESULT get_IsHeartbeating(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

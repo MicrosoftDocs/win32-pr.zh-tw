@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102427
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: a774344c0d600ad7a1cb5fb6ab9f8756b642d1f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9e710fae3dc930a02c3ea32eef3c5aef6828f689022c605e083bc708d8c98ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118262168"
 ---
 # <a name="esentoutoflongvalueidsexception-properties"></a>EsentOutOfLongValueIDsException 屬性
 

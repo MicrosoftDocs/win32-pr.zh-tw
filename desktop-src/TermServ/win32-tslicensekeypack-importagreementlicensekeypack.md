@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff61d022f9cf195eb357817f7733f4ec49e2986f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3b911a722f4f26aaf83debcb70413cb9dad2b40d2ca12b4ad3310aee4510ca1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603801"
 ---
 # <a name="importagreementlicensekeypack-method-of-the-win32_tslicensekeypack-class"></a>Win32 TSLicenseKeyPack 類別的 ImportAgreementLicenseKeyPack 方法 \_
 
@@ -67,7 +67,7 @@ uint32 ImportAgreementLicenseKeyPack(
 1
 </dt> <dd>
 
-授權金鑰套件是針對具有250或更多電腦的客戶提供的 Enterprise volume 授權合約。 *SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。
+授權金鑰套件適用于具有250或更多電腦的客戶 Enterprise 大量授權合約。 *SAgreementNumber* 參數是在簽署的合約表單上) 找到的 (七個數字的註冊編號。
 
 </dd> <dt>
 

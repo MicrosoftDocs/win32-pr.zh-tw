@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 0b346451e87b62116d7202b476e554c84604ea48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f878b93fe0db24334f406c2a6c85663e7f37a05095998f157cbf44878b39daf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562894"
 ---
 # <a name="iwinhttprequestsetclientcertificate-method"></a>IWinHttpRequest：： SetClientCertificate 方法
 
@@ -62,13 +62,13 @@ HRESULT SetClientCertificate(
 Microsoft Windows HTTP Services (WinHTTP) 不提供用戶端憑證給要求憑證進行驗證的 proxy 伺服器。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
 ## <a name="examples"></a>範例
 
-下列腳本範例示範如何選取要隨要求傳送的用戶端憑證。 在 **HKEY \_ 本機 \_ 電腦** 的登錄中，從登錄中的 [個人] 憑證存放區選擇具有「我的 Middle-Tier 憑證」主體的憑證。 因為此程式碼範例是 Microsoft JScript 專屬的，使用反斜線作為 escape 字元，所以需要兩個連續的反斜線來分隔憑證字串的元件。
+下列腳本範例示範如何選取要隨要求傳送的用戶端憑證。 在 **HKEY \_ 本機 \_ 電腦** 的登錄中，從登錄中的 [個人] 憑證存放區選擇具有「我的 Middle-Tier 憑證」主體的憑證。 因為此程式碼範例專屬於 Microsoft JScript，使用反斜線作為 escape 字元，所以需要兩個連續的反斜線來分隔憑證字串的元件。
 
 
 ```JScript
@@ -94,8 +94,8 @@ HttpReq.Send();
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
 | Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |

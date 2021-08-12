@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 90b86ad3d5d9fe5aa65db722757bdb34574a1006
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ffbaffbb47d91b18a6fad9bdee98012fa11fb923a7c7586acf7d7b0cd181bcc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118294111"
 ---
 # <a name="id3dxprtbufferaddbuffer-method"></a>ID3DXPRTBuffer：： AddBuffer 方法
 

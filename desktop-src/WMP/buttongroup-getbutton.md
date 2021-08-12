@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d4f302480730ffba472366ac851412483040b7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c29e1516fcbfc3a777553c412b34608ae46a74bdc75b96c265969e066c533be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581362"
 ---
 # <a name="buttongroupgetbutton"></a>BUTTONGROUP. getButton
 

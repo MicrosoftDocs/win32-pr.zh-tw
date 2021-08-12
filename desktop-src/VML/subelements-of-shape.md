@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 40b8f1fef957040c15bd622f20bf596e8b5f85d9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 53db60fa6aa199e2ef3c6c39de4207dc2f1ac620b404d4f0bee10e5419452041
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118596614"
 ---
 # <a name="subelements-of-shape"></a>Shape 的子項目
 
@@ -23,9 +23,9 @@ ms.locfileid: "103842336"
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 本章節描述的元素是圖形元素 *(或子項目)* 的子專案。
 
@@ -45,6 +45,6 @@ ms.locfileid: "103842336"
 -   [TextBox 元素](msdn-online-vml-textbox-element.md)
 -   [TextPath 元素](msdn-online-vml-textpath-element.md)
 
- 
+ 
 
- 
+ 

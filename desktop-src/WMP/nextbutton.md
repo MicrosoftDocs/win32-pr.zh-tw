@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 92bbfef52dd5cd0d46a61b017fd90f82133a3b91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 104763690584576c04aa7be53fd6013e6dfae8a02e5830cf4703d9cbd694e725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573812"
 ---
 # <a name="nextbutton"></a>>NEXTBUTTON
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0a100406edf93ebdf33a3c198a2dde65a398667e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e3e3d86402e557710237391f97b5aed665f4aeffa2feaaafa78dd59aae66dc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118259644"
 ---
 # <a name="esentslvcolumndefaultvaluenotallowedexception-constructor"></a>EsentSLVColumnDefaultValueNotAllowedException 函式
 

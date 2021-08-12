@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 76ac19cc914fa154c2800fab9f9b784cc3f0d809
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b12899c8ec44034a8cca827400d814dd69925c0b4deb1b4725d10cd00d0fa57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118576096"
 ---
 # <a name="itemsplaylist"></a>ITEMSPLAYLIST
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.Foundation.idl
-ms.openlocfilehash: 292c73846227f1bb8884b24b7e709bc6b2296e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62196c7f8ded67bed0ecdb3ea33420de54301bbd379615126ada158ea9e725ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118561050"
 ---
 # <a name="iasyncactiongetresults-method"></a>IAsyncAction：： GetResults 方法
 
@@ -55,7 +55,7 @@ HRESULT GetResults();
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                              |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                    |
-| 標頭<br/>                   | <dl> <dt>Windows .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。Foundation .idl</dt> </dl> |
 
 
 

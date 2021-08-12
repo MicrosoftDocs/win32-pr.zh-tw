@@ -4,12 +4,12 @@ ms.assetid: f7b0a941-0d6f-497c-bf88-fbf8ee151885
 title: Winsock 伺服器應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c01bcb2677fcb47de0990bf5d3a577d0305a336
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce85df84f2f1ccd428ef9a08036acfb4bf2791e307e7ba37a532b2c9b8a3f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558721"
 ---
 # <a name="winsock-server-application"></a>Winsock 伺服器應用程式
 

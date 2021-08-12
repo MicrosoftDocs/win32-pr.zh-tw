@@ -3,8 +3,8 @@ title: 列印屬性工作表
 description: '[列印] 屬性工作表是標準使用者介面，可讓使用者指定特定列印工作的屬性。'
 ms.assetid: b52b71cc-a583-4a21-8a53-501ab442e6f8
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面、通用對話方塊程式庫
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，通用對話方塊程式庫
 - 使用者輸入、通用對話方塊程式庫
 - 正在捕獲使用者輸入，通用對話方塊程式庫
 - 通用對話方塊程式庫
@@ -15,16 +15,16 @@ keywords:
 - 對話方塊、列印屬性工作表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20905f76af290b3978bec828a382604147297998
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cc54bc8065ada207702755e8fc0a1586620f660db9f3acf2a67e32b56e393143
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280504"
 ---
 # <a name="print-property-sheet"></a>列印屬性工作表
 
-[ **列印** ] 屬性工作表是標準使用者介面，可讓使用者指定特定列印工作的屬性。 屬性工作表是由印表機或應用程式一組不同的屬性頁所組成。 在標準 Windows 屬性頁的子集，某些印表機可能會新增驅動程式特定的屬性頁，而某些應用程式可能會新增應用程式特定的屬性頁。
+[ **列印** ] 屬性工作表是標準使用者介面，可讓使用者指定特定列印工作的屬性。 屬性工作表是由印表機或應用程式一組不同的屬性頁所組成。 若為標準 Windows 內容頁的子集，某些印表機可能會新增驅動程式特定的屬性頁，而某些應用程式可能會新增應用程式特定的屬性頁。
 
 若要建立和顯示 **列印** 屬性工作表，請初始化 [**PRINTDLGEX**](/windows/win32/api/commdlg/ns-commdlg-printdlgexa) 結構，並將結構傳遞至 [**PRINTDLGEX**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85)) 函數。
 
@@ -90,6 +90,6 @@ ms.locfileid: "104024062"
 
 回呼物件也應該執行 [**IObjectWithSite**](/windows/win32/api/ocidl/nn-ocidl-iobjectwithsite) 介面。 [**PrintDlgEx**](/previous-versions/windows/desktop/legacy/ms646942(v=vs.85))函式會呼叫方法，以將 [**IPrintDialogServices**](/windows/win32/api/commdlg/nn-commdlg-iprintdialogservices)介面的指標傳遞至應用程式。 [**IPrintDialogCallback**](/windows/win32/api/commdlg/nn-commdlg-iprintdialogcallback)方法可以使用 **IPrintDialogServices** 介面來取得目前所選印表機的相關資訊。 **IPrintDialogServices** 介面也適用于建立其他頁面的應用程式，以遵循 [**列印** 屬性工作表] 的 **[一般**] 頁面。 其他頁面的對話方塊程式可以呼叫 **IPrintDialogServices** 方法。
 
- 
+ 
 
- 
+ 

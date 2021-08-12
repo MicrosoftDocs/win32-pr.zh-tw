@@ -4,12 +4,12 @@ description: 抓取指定之介面卡屬性的值。
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: c8a7f7b36fdb0128b4047335051823da07a074c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8adb48994580125d153c36394c4db65cb38f4a08306814d1638e5c27eb3d4868
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279398"
 ---
 # <a name="idxcoreadaptergetproperty-method"></a>IDXCoreAdapter：： GetProperty 方法
 

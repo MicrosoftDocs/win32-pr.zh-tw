@@ -4,16 +4,16 @@ ms.assetid: 872609c8-a123-40a8-96ca-58f34d37f3d8
 title: 使用追蹤工具搭配 ASR 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c13eee1c62cd6636eebe5bcfd35bd5abb119645
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e2d22dbb1488b5fd60836926d3c5ef2de5913ff1cc1529fdb278773b2ccd8b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590867"
 ---
 # <a name="using-tracing-tools-with-asr-applications"></a>使用追蹤工具搭配 ASR 應用程式
 
-您可以使用 Logman 工具，針對使用 [自動化系統復原 (ASR) ](using-vss-automated-system-recovery-for-disaster-recovery.md)的 VSS 應用程式收集追蹤資訊。 Logman (logman.exe) 是追蹤事件和效能計數器的追蹤控制器。 它包含在 Windows XP 和更新版本的 Windows 中。 或者，如果您想要的話，也可以使用 Tracelog.exe 工具來收集相同的 ASR 追蹤資訊。 Tracelog.exe 包含在 Windows 驅動程式套件 (WDK) 中。
+您可以使用 Logman 工具，針對使用 [自動化系統復原 (ASR) ](using-vss-automated-system-recovery-for-disaster-recovery.md)的 VSS 應用程式收集追蹤資訊。 Logman (logman.exe) 是追蹤事件和效能計數器的追蹤控制器。 它包含在 Windows Windows XP 和更新版本中。 或者，如果您想要的話，也可以使用 Tracelog.exe 工具來收集相同的 ASR 追蹤資訊。 tracelog.exe 包含在 Windows 驅動程式套件 (WDK) 中。
 
 若要搭配使用追蹤工具與 VSS，請參閱搭配 [Vss 使用追蹤工具](using-tracing-tools-with-vss.md)。
 

@@ -1,21 +1,21 @@
 ---
-description: 本節說明 Windows 中的實際一般多播 (PGM) 多播通訊協定（通常稱為可靠多播）。 可靠多播是透過 Windows Server 2003 和更新版本中的 Windows 通訊端來執行。
+description: 本節說明 Windows 中的實際一般多播 (PGM) 多播通訊協定，通常稱為可靠的多播。 可靠多播是透過 Windows Server 2003 和更新版本中的 Windows 通訊端來實行。
 ms.assetid: 81c203ed-739f-4a06-99a1-9a99c6164edc
 title: '可靠的多播程式設計 (PGM) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce57fcce7bf2faf471604bed97d345971801ca1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48c34365bdc8db553d24182fcb193dc03177627ccf9b00a03f309ab4cf7bbe01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559950"
 ---
 # <a name="reliable-multicast-programming-pgm"></a>可靠的多播程式設計 (PGM) 
 
-本節說明 Windows 中的實際一般多播 (PGM) 多播通訊協定（通常稱為可靠多播）。 可靠多播是透過 Windows Server 2003 和更新版本中的 Windows 通訊端來執行。
+本節說明 Windows 中的實際一般多播 (PGM) 多播通訊協定，通常稱為可靠的多播。 可靠多播是透過 Windows Server 2003 和更新版本中的 Windows 通訊端來實行。
 
-**WINDOWS XP：** 只有在安裝 Microsoft Message Queuing (MSMQ) 3.0 時，才支援 PGM。
+**Windows XP：** 只有在安裝 Microsoft Message Queuing (MSMQ) 3.0 時，才支援 PGM。
 
 PGM 是可靠且可擴充的多播通訊協定，可讓接收者偵測遺失、要求重新傳輸遺失的資料，或通知應用程式無法復原的遺失。 PGM 是接收者可靠的通訊協定，這表示接收者負責確保收到所有資料，absolving 接收責任的寄件者。
 

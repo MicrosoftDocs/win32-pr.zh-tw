@@ -4,12 +4,12 @@ ms.assetid: 1c7c7c76-ec27-4ee4-a860-24244843a1e5
 title: 屬性之間的相互相關性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6df8015c3fc49e35f5079315f6c056f680ebcc12
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fdb039db26ee06868da0b1832e1a3af2692ac47cde73bf7fe5c2e934916c4f4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547663"
 ---
 # <a name="interdependencies-between-properties"></a>屬性之間的相互相關性
 

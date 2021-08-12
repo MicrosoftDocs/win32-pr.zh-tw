@@ -8,18 +8,18 @@ keywords:
 - 物件模型、CD 翻錄
 - Windows Media Player ActiveX 控制項、CD 翻錄
 - ActiveX 控制項，CD 翻錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
-- Windows Media Player 行動電話、CD 翻錄
+- Windows Media PlayerMobile ActiveX control、CD 翻錄
+- Windows Media Player行動電話、CD 翻錄
 - CD 翻錄，正在抓取 rip 狀態
 - 將 Cd 翻錄，正在抓取 rip 狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3be1fce1a46f9cc2d8477cabcc12a3a1b5bd159d
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a3210fa9e0db5f9260989d7bebb3650770cec7626892bc20546a6b602fb98955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118570189"
 ---
 # <a name="retrieving-the-rip-status"></a>正在抓取 Rip 狀態
 
@@ -35,7 +35,7 @@ ms.locfileid: "104023082"
 
 
 
-| 控制識別碼                   | Description                                                                                                        |
+| 控制識別碼                   | 描述                                                                                                        |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------|
 | IDC \_ 目前的 \_ 追蹤          | 靜態文字，代表目前正在進行翻錄的曲目索引。                                         |
 | IDC \_ 追蹤 \_ 進度 \_ 文字   | 靜態文字，表示目前以百分比形式翻錄的曲目進度。                      |
@@ -46,7 +46,7 @@ ms.locfileid: "104023082"
 
 
 
- 
+ 
 
 
 ```C++
@@ -167,9 +167,9 @@ HRESULT CMainDlg::UpdateStatus (void)
 [**選取要進行翻錄的專案**](selecting-items-for-ripping.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

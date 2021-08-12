@@ -4,21 +4,21 @@ description: VML IVgColor
 ms.assetid: 6121c5bf-1969-4402-9f45-8891a1538fea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7d4800fbb99557acfbd3fd6e0dbbd893f30158f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 97093d9e9315db1389c71db7e8e21fdbf640353c95c5cf11f607c708e1679166
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118599513"
 ---
 # <a name="vml-ivgcolor"></a>VML IVgColor
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 指定色彩。
 
@@ -89,8 +89,8 @@ ms.locfileid: "104463317"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

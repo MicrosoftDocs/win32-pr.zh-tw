@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3b4128ae81484343bec7fb4f52a736db149f0eb6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb62823f083c77cec9f91f6ecd3e43b27bd73756cfea903849bb35b66bf4505d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112600"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118272527"
 ---
 # <a name="apijetdeletetable-method"></a>JetDeleteTable 方法
 
@@ -78,7 +78,7 @@ public static void JetDeleteTable(
 
 <!-- end list -->
 
-  - 資料表  
+  - table  
     類型： [system.string](/dotnet/api/system.string)  
     
     要刪除的資料表名稱。

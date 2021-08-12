@@ -16,12 +16,12 @@ keywords:
 - 模糊背後效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec76a4920a91f9502940e866d58641a2550d9354
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7affbbf5ebca91a4e5172e75f88da4b9fe8e33f6e1e3de1e7a735add816a313f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106999803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280271"
 ---
 # <a name="performance-considerations-and-best-practices"></a>效能考慮和最佳作法
 
@@ -57,9 +57,9 @@ ms.locfileid: "106999803"
 
 避免在非工作區中繪圖。 雖然此區域可以由應用程式存取，而 Microsoft WIN32 API 也支援繪圖，但是這樣做可能會導致視窗遺失任何半透明框線。
 
-除非 Windows 圖形裝置介面不會重迭，否則請避免混用 Windows (GDI) 和 Microsoft DirectX。 如果需要混合，請將 GDI 內容繪製到 DirectX 軟體介面，並在組合到畫面之前將其合併，或在不同的視窗中繪製。
+避免混合 Windows 圖形裝置介面 (GDI) 和 Microsoft DirectX，除非它們不重迭。 如果需要混合，請將 GDI 內容繪製到 DirectX 軟體介面，並在組合到畫面之前將其合併，或在不同的視窗中繪製。
 
-使用 [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt) 或 [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt) 函式，而不是使用 Windows gdi + 來呈現您的繪圖以進行轉譯。 GDI + 以軟體轉譯一次轉譯一個掃描行。 這可能會導致您的應用程式發生閃爍。
+使用 [**BitBlt**](/windows/desktop/api/wingdi/nf-wingdi-bitblt)或 [**StretchBlt**](/windows/desktop/api/wingdi/nf-wingdi-stretchblt)函式，而不是 Windows GDI+ 來呈現要轉譯的繪圖。 GDI+ 使用軟體轉譯一次轉譯一個掃描行。 這可能會導致您的應用程式發生閃爍。
 
 ## <a name="dwm-blur-behind-client-region"></a>DWM Blur-Behind 用戶端區域
 
@@ -69,6 +69,6 @@ ms.locfileid: "106999803"
 -   當您預期模糊的用戶端區域有重大更新時。 這將需要在每次更新時重新繪製模糊，並耗用過度的資源。
 -   如果模糊預期會涵蓋重要區域，而且也預期會有該區域的更新，強烈建議您不要模糊工作區。
 
- 
+ 
 
- 
+ 

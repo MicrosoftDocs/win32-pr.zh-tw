@@ -4,12 +4,12 @@ description: 浮點數轉換的不帶正負號的整數。
 ms.assetid: 5A52C959-7B4C-4FA1-B29C-BCAF448419F8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c9283857df12a85819f0d191d13450e0311fdade
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: edd5e69476c77ee71e25c3e2286ddd53cc01027197b7ad9d83ed723438a93882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104022852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283006"
 ---
 # <a name="utof-sm4---asm"></a>utof (sm4-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104022852"
 
 
 
-| 項目                                                            | 描述                                                   |
+| Item                                                            | 描述                                                   |
 |-----------------------------------------------------------------|---------------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*目標*<br/> | \[在 \] 操作結果的位址中。<br/> |
 | <span id="src0"></span><span id="SRC0"></span>*src0*<br/> | \[在 \] 要轉換的元件中。<br/>                  |
@@ -64,9 +64,9 @@ ms.locfileid: "104022852"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

@@ -4,12 +4,12 @@ description: 您可以查詢來自通道或記錄檔的事件。
 ms.assetid: 929bedbf-6dce-428e-b2c0-de9dcfe4531b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6fa69f9b1308cd7ebbc4e4510692bb25ab031ec
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 981e4a8c39daebbce641c79e7d26331b9b36845d3c71fd1902ea667ca85c5dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587799"
 ---
 # <a name="querying-for-events"></a>查詢事件
 
@@ -270,6 +270,6 @@ cleanup:
 
 如果您想要從離開的地方查詢事件，請建立最後一個事件的書簽，並在下次執行查詢時使用它。 如需詳細資訊，請參閱將事件加上 [書簽](bookmarking-events.md)。
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: b1e6e05d7ca6a49d3386eae40092083b2a8e76f9
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 16733f393be44842777b8e11efa7f122fa6f8b324ba1abe9e4383910a018a777
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283092"
 ---
 # <a name="texturecubearraygathercmpred-methods"></a>TextureCubeArray：： GatherCmpRed 方法
 

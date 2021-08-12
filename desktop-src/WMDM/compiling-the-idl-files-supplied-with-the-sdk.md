@@ -3,7 +3,7 @@ title: 編譯 SDK 提供的 IDL 檔案
 description: 編譯 SDK 提供的 IDL 檔案
 ms.assetid: 718528eb-6ac4-466d-8dfd-d6f2b6c30303
 keywords:
-- Windows Media 裝置管理員、IDL 檔案
+- Windows媒體裝置管理員，IDL 檔案
 - 裝置管理員，IDL 檔案
 - 桌面應用程式，IDL 檔案
 - 服務提供者，IDL 檔案
@@ -11,12 +11,12 @@ keywords:
 - IDL 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19e3d4ecd7f4f9df7b884cf70de3ba3ad62c7939
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: d89ae614d6e20d0b05d9b7b6f054505433f4a4d33e2f9feaff60a37f7605e9ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586337"
 ---
 # <a name="compiling-the-idl-files-supplied-with-the-sdk"></a>編譯 SDK 提供的 IDL 檔案
 

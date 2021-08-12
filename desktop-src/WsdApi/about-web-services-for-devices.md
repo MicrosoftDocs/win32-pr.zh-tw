@@ -1,19 +1,19 @@
 ---
-description: 裝置上的 web 服務 API (WSDAPI) 是適用于 Web 服務的裝置設定檔 (DPWS) 適用于 Windows Vista 和 Windows Server 2008。
+description: 裝置上的 web 服務 API (WSDAPI) 是 Windows Vista 和 Windows Server 2008 的 web 服務 (DPWS) 的裝置設定檔的執行。
 ms.assetid: 8eaeacb3-43db-4a57-8548-e5b81213269c
 title: 關於裝置上的 Web 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dca7f7dc97dabd3dde7af12f3cece992b4f0ef6d
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 3c7facef3bfed004a834e151db0c58c83a1576e515ed89fa0d690813bc4c18bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "103853284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552507"
 ---
 # <a name="about-web-services-on-devices"></a>關於裝置上的 Web 服務
 
-裝置上的 web 服務 API (WSDAPI) 是適用于 [Web 服務的裝置設定檔](https://specs.xmlsoap.org/ws/2006/02/devprof/) (DPWS) 適用于 windows Vista 和 windows Server 2008。 DPWS 會限制 Web 服務規格，讓用戶端可以輕鬆地探索裝置。 探索到裝置之後，用戶端就可以取出該裝置上所裝載之服務的描述，並使用這些服務。
+裝置上的 web 服務 API (WSDAPI) 是 Windows Vista 和 Windows Server 2008 的 web 服務 (DPWS) 的[裝置設定檔](https://specs.xmlsoap.org/ws/2006/02/devprof/)的執行。 DPWS 會限制 Web 服務規格，讓用戶端可以輕鬆地探索裝置。 探索到裝置之後，用戶端就可以取出該裝置上所裝載之服務的描述，並使用這些服務。
 
 ## <a name="devices-and-services"></a>裝置和服務
 
@@ -33,7 +33,7 @@ WSDAPI 用戶端會先查詢裝置以取得其服務的完整說明，包括服�
 
 ![顯示 WSDAPI 用戶端如何查詢和與裝置互動的圖表。](images/netdevice01.png)
 
-如需裝置訊息模式的詳細資訊，請參閱 [探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
+如需裝置訊息模式的詳細資訊，請參閱[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
 
 ## <a name="logical-and-physical-addressing"></a>邏輯與實體定址
 
@@ -51,7 +51,7 @@ WSDAPI 提供一般 DPWS SOAP 堆疊，供用戶端和服務應用程式使用�
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [WSDAPI 規格合規性](wsdapi-specification-compliance.md)

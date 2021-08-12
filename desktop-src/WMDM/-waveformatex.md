@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d1d0ede83e22033aee8f18d11b6230e471e0dfe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e149608d740df6df40b39b64b09ac11837a721b5b4844f1a73eb52e1b5cea479
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586743"
 ---
 # <a name="_waveformatex-structure"></a>\_WAVEFORMATEX 結構
 
@@ -49,7 +49,7 @@ typedef struct _tWAVEFORMATEX {
 **wFormatTag**
 </dt> <dd>
 
-必須設定為裝置支援的格式或格式。 請注意，舊版 Windows Media 裝置管理員建議您使用 WMDM \_ WAVE \_ FORMAT \_ all 來指出所有格式的支援。 不過，這不再是建議的作法，因為不同的媒體播放機會以不同的方式來解讀這一點，而只有少數裝置才能真正播放任何檔案格式。 現在建議您使用 WMDM \_ 列舉 \_ \_ \_ 的有效值 \_ ，以提供任何 [**WMDM 列舉的有效值 \_ \_ \_ \_ \_ 形式**](wmdm-enum-prop-valid-values-form.md) 列舉值，或更好的方式，同時使用 [**WMDM 的 \_ \_ 值 \_ 範圍**](wmdm-prop-values-range.md) 結構來指定格式範圍。
+必須設定為裝置支援的格式或格式。 請注意，舊版 Windows 媒體裝置管理員建議您使用 WMDM \_ WAVE \_ FORMAT \_ all 來指出所有格式的支援。 不過，這不再是建議的作法，因為不同的媒體播放機會以不同的方式來解讀這一點，而只有少數裝置才能真正播放任何檔案格式。 現在建議您使用 WMDM \_ 列舉 \_ \_ \_ 的有效值 \_ ，以提供任何 [**WMDM 列舉的有效值 \_ \_ \_ \_ \_ 形式**](wmdm-enum-prop-valid-values-form.md) 列舉值，或更好的方式，同時使用 [**WMDM 的 \_ \_ 值 \_ 範圍**](wmdm-prop-values-range.md) 結構來指定格式範圍。
 
 </dd> <dt>
 

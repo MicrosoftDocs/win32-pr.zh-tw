@@ -4,12 +4,12 @@ ms.assetid: c57d9c39-3f30-4205-9b0a-665fe53f2b14
 title: " (Direct3D 10 圖形) 的 D3DX 介面"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c064edce5d5841875eb3148bf74b18f50f93081
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 65edec72206540d1f0c8e91e8a375daf3844f3703d2f05a3b844697230b300e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304220"
 ---
 # <a name="d3dx-interfaces-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的 D3DX 介面
 

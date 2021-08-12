@@ -7,12 +7,12 @@ keywords:
 - 屬性 ADSI、將 Active Directory 語法對應至 ADSI 語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6ba332a39a5d2452925f1a8f1cc8c8ca766ca10
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d04682a1e299e14c55c520310bff697ea6664d4dabe71380f7a146fd2dfff053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118179276"
 ---
 # <a name="mapping-active-directory-syntax-to-adsi-syntax"></a>將 Active Directory 語法對應至 ADSI 語法
 
@@ -32,7 +32,7 @@ ms.locfileid: "106966376"
 | 2.5.5.8<br/>  | 布林值<br/>                       | 布林值<br/>                                                  |
 | 2.5.5.9<br/>  | 整數<br/>                       | 整數<br/>                                                  |
 | 2.5.5.10<br/> | 八位字串<br/>                  | 八位字串<br/>                                             |
-| 2.5.5.11<br/> | Time<br/>                          | UTC 時間<br/>                                                 |
+| 2.5.5.11<br/> | 時間<br/>                          | UTC 時間<br/>                                                 |
 | 2.5.5.12<br/> | Unicode<br/>                       | Case 忽略字串<br/>                                       |
 | 2.5.5.13<br/> | 位址<br/>                       | 不支援<br/>                                            |
 | 2.5.5.14<br/> | Distname-Address<br/>              |                                                                     |

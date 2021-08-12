@@ -9,12 +9,12 @@ keywords:
 - 外觀的色彩參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f67b6a5fb44aa7576c82b6567e7d3d4a91bc4ac8
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 8dcea6a7f9edbfab7a0c84a5c8d6704ad8a032873c19e237a8eda95d595e3c5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580635"
 ---
 # <a name="color-reference-windows-media-player-sdk"></a>Windows Media Player SDK) 的色彩參考 (
 
@@ -72,7 +72,7 @@ ms.locfileid: "110424098"
 
 <dl> <dt>
 
-[**雜項**](miscellaneous.md)
+[**其他**](miscellaneous.md)
 </dt> </dl>
 
  

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f2365337bb1d046f72bd965f3812dd126c041db
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d55221a1448b23e2ea308e0e16cd174fe4cd0d404164a01a7ff59011010075a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577242"
 ---
 # <a name="eventctrlkey"></a>ctrlKey
 

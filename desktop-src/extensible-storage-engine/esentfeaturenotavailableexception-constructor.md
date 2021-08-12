@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0805b86804ea5cb7a3905211f7fd16515071938b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62bbb38c622f00ab348e0cb0d9427734047aa984a90775bec9d427ca3e141b6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118269224"
 ---
 # <a name="esentfeaturenotavailableexception-constructor"></a>EsentFeatureNotAvailableException 函式
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07bd0f377499276aeed02260988c668f236594b6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2254b2e37c892d35cfbc6e3afa649679e55ae05a8f103a7afacaa1acd8647506
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569061"
 ---
 # <a name="sliderondragend"></a>滑杆. onDragEnd
 

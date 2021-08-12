@@ -4,16 +4,16 @@ ms.assetid: 30ee6e39-c1e5-4173-a3dd-5644632140d1
 title: VDS 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49da784104c939a99f7341e7c9d5043824c6eeaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50efb71cc74731636abeefbac955699b57c9e7fc76845931353074b2b5894a5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603095"
 ---
 # <a name="vds-enumerations"></a>VDS 列舉
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 VDS 列舉代表 VDS 物件模型中的物件類型、旗標、狀態和其他實體。 如需 VDS 物件及其相關列舉的詳細資訊，請參閱 [Vds 物件模型](vds-object-model.md)。
 

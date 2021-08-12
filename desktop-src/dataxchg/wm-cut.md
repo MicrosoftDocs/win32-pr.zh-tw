@@ -3,7 +3,7 @@ title: 'WM_CUT 訊息 (Winuser .h) '
 description: 應用程式會將 WM \_ 剪下訊息傳送至編輯控制項或下拉式方塊，以刪除 (剪下) 目前的選取專案（如果有的話），並將已刪除的文字複製到 [剪貼簿] 中的 CF \_ 文字格式。
 ms.assetid: 6ac45589-3e34-491c-9562-e072ddc478f9
 keywords:
-- WM_CUT 訊息資料交換
+- WM_CUT 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a63dfe85fb637636fbabbce5fa139699fd09a65
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d117e0a942c0d9e24e1a9c40d3d66e605ab8d5cf26bbad0e287e9b03a9b25780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118304491"
 ---
 # <a name="wm_cut-message"></a>WM \_ 剪下訊息
 
@@ -70,7 +70,7 @@ ms.locfileid: "106968959"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

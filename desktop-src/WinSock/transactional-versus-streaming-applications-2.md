@@ -4,12 +4,12 @@ ms.assetid: 85795cdd-5a4f-4199-98bd-b5ce2299338b
 title: 交易式與串流應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a000f3aa9c52fe6ce60622a613d6f4b9689b8bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f0e55a21ba552ed768b29b784a557633edfc5734ec266893ede04fded76e538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118559494"
 ---
 # <a name="transactional-versus-streaming-applications"></a>交易式與串流應用程式
 
@@ -25,7 +25,7 @@ ms.locfileid: "106972407"
 
 <dl> <dt>
 
-[高效能的 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
+[高效能 Windows 通訊端應用程式](high-performance-windows-sockets-applications-2.md)
 </dt> <dt>
 
 [效能維度](performance-dimensions-2.md)

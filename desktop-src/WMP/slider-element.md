@@ -10,12 +10,12 @@ keywords:
 - 元素、滑杆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34607c8706fccc8f416ebc83ae483c98a784c08b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 140c84f6bec826b34ff4e1c5a4a3365d44ba9aa67ca9504cea642aba25f076d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569083"
 ---
 # <a name="slider-element"></a>滑杆元素
 
@@ -56,13 +56,13 @@ ms.locfileid: "104301148"
 
 
 
- 
+ 
 
 **滑杆** 元素可以執行下列事件處理常式。
 
 
 
-| 事件處理常式                                   | Description                                                                                                          |
+| 事件處理常式                                   | 描述                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | [onDragBegin](slider-ondragbegin.md)           | 處理當使用者按一下並按住滑鼠左鍵並開始拖曳滑鼠時所發生的事件。 |
 | [onDragEnd](slider-ondragend.md)               | 處理在拖曳作業之後放開滑鼠左鍵時所發生的事件。                      |
@@ -70,7 +70,7 @@ ms.locfileid: "104301148"
 
 
 
- 
+ 
 
 **滑杆** 元素支援環境屬性，並可執行環境事件處理常式。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -78,7 +78,7 @@ ms.locfileid: "104301148"
 
 
 
-| 預先定義的滑杆                  | Description                                                    |
+| 預先定義的滑杆                  | 描述                                                    |
 |------------------------------------|----------------------------------------------------------------|
 | [BALANCESLIDER](balanceslider.md) | 用來設定音訊餘額的 **滑杆** 。                        |
 | [SEEKSLIDER](seekslider.md)       | 用來搜尋媒體檔案內任何位置的 **滑杆** 。 |
@@ -86,7 +86,7 @@ ms.locfileid: "104301148"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -95,9 +95,9 @@ ms.locfileid: "104301148"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

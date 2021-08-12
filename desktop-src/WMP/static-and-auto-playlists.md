@@ -6,26 +6,26 @@ keywords:
 - Windows Media Player，播放清單
 - Windows Media Player 物件模型，播放清單
 - 物件模型，播放清單
-- Windows Media Player 行動裝置、播放清單
-- Windows Media Player ActiveX 控制項，播放清單
-- Windows Media Player 的行動 ActiveX 控制項、播放清單
+- Windows Media Player行動裝置、播放清單
+- Windows Media Player ActiveX 控制項、播放清單
+- Windows Media Player行動 ActiveX 控制項、播放清單
 - ActiveX 控制項，播放清單
 - 播放清單、靜態
 - 中繼檔播放清單，靜態
-- Windows Media 中繼檔播放清單、靜態
+- Windows媒體中繼檔播放清單，靜態
 - 靜態播放清單
 - 自動播放清單
 - 播放清單、自動
 - 中繼檔播放清單，自動
-- Windows Media 中繼檔播放清單，自動
+- Windows媒體中繼檔播放清單，自動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 083ee2029eec2cfee7510766790f4ca7eb6468e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 645b3bd9ca9ddeebcce9fd6cbb905caa54717e87876be6e449ebd4d3ab64a11a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568780"
 ---
 # <a name="static-and-auto-playlists"></a>靜態和自動播放清單
 
@@ -68,9 +68,9 @@ private void addStaticPlaylist()
 [**管理播放清單**](managing-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

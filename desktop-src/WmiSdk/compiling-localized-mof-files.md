@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 編譯當地語系化的 MOF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41ab1341a37269ba98fdbbdecaa64b5e5a119703
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d23c77fee8a745b6032848c124a24ffb8e7cf626b0ff3c87fecc7e05b14d372
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556797"
 ---
 # <a name="compiling-localized-mof-files"></a>編譯當地語系化的 MOF 檔案
 

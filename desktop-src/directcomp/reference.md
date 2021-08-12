@@ -4,12 +4,12 @@ description: 本節提供組成 Microsoft DirectComposition \ 32 的元素詳細
 ms.assetid: A220189D-8546-4352-8F6F-AC5D2192940D
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b89838ea69a5e100ab0741ac1617abba3b0f3f33
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ba067e105530d9d998c684de24550539a735bd87289ad2380766c3b865b16db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118280584"
 ---
 # <a name="directcomposition-reference"></a>DirectComposition 參考
 

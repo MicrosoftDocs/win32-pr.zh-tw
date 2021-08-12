@@ -4,16 +4,16 @@ ms.assetid: f605a5de-9256-4b43-8e12-3d78fd6cd9f1
 title: 子系統物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c8314a798ea809b3175377bc5484f19629094db
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 4af9837da90497b07d133362c0a61549a63665f2c75d4c97b2d07369e4589fa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104560629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603145"
 ---
 # <a name="subsystem-object"></a>子系統物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 子系統物件會建立儲存子系統的模型。 子系統可以是 RAID 主機殼或 PCI RAID 卡。 單一主機電腦可以連接至任意數目的子系統。 每個子系統只會由一個硬體提供者管理。 在 SAN 設定中，子系統類別代表 SAN 存放裝置主機殼。
 
