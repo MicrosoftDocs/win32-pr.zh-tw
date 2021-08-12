@@ -4,12 +4,12 @@ description: 查詢緩衝區上的元素計數 (但不是常數緩衝區) 。
 ms.assetid: 3A5C28F3-FE59-4C67-92AC-66B10E1D9692
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff8dd33871aa5bd56db6e7375979c6d49f374b74
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: a107896973e7457b4bf596843ec77934d95675d50a146190a7f9f40e1c2ce3c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287581"
 ---
 # <a name="bufinfo-sm5---asm"></a>bufinfo (sm5-asm) 
 
@@ -26,7 +26,7 @@ ms.locfileid: "104990762"
 
 
 
-| 項目                                                                                                               | 描述                                                                           |
+| Item                                                                                                               | 描述                                                                           |
 |--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
 | <span id="dest"></span><span id="DEST"></span>*目標*<br/>                                                    | \[在 \] 結果的位址中。<br/>                                         |
 | <span id="srcResource"></span><span id="srcresource"></span><span id="SRCRESOURCE"></span>*srcResource*<br/> | \[在 \] 緩衝區中，不是常數緩衝區，而是在 SRV (t \#) 或 UAV (u \#) 。<br/> |
@@ -49,7 +49,7 @@ ms.locfileid: "104990762"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | X      | X    | X      | X        | X     | X       |
 
@@ -66,11 +66,11 @@ ms.locfileid: "104990762"
 | 著色器模型                                              | 支援 |
 |-----------------------------------------------------------|-----------|
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
-| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 不可以        |
-| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 不可以        |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 否        |
+| [著色器模型4](dx-graphics-hlsl-sm4.md)                | 否        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

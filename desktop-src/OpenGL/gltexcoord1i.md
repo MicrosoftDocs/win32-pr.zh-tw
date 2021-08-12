@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6beb3bb6c452422c6ba28283bd9f9f3467bc9d86
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6f0b47f10ff0d47333c4aebf05dbe39371ad3e79e8572692fc774a5607e4e20f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118614002"
 ---
 # <a name="gltexcoord1i-function"></a>glTexCoord1i 函式
 

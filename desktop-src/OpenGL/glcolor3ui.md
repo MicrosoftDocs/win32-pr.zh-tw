@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b09368fb8aba65c78eddb9ceb135476f6cfe13
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 062ec8fbbcb135c28c3bb7454ad3ca2782c7d60068b9da82dcd980cf9cfb20a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617410"
 ---
 # <a name="glcolor3ui-function"></a>glColor3ui 函式
 

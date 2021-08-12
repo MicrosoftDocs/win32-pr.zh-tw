@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IVectorChangedEventArgs.h
-ms.openlocfilehash: 5c131567ec7fc2861ce11db9e5d7ec581f6f663a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72df7f0d46e1e3073262c43064daf58b1fefbf43af913bb7f1b912ed22e67a7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560644"
 ---
 # <a name="ivectorchangedeventargsget_index-method"></a>IVectorChangedEventArgs：： get \_ Index 方法
 
@@ -42,7 +42,7 @@ HRESULT get_Index(
 *值* \[退出，retval\]
 </dt> <dd>
 
-類型： **未 \* 簽署* _
+類型：**未 \* 簽署**
 
 向量中發生變更之以零為起始的位置（如果適用）。
 
@@ -50,7 +50,7 @@ HRESULT get_Index(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

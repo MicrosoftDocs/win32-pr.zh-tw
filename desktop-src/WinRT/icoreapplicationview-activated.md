@@ -1,19 +1,19 @@
 ---
-description: 在啟用 Windows Store 應用程式時發生。
+description: 在啟用 Windows 存放區應用程式時發生。
 ms.assetid: CA0DB2D4-3417-48F5-8455-D87D0F323A1E
-title: 'ICoreApplicationView：：啟動的事件 (ApplicationModel) '
+title: 'ICoreApplicationView：：已啟用事件 (Windows。ApplicationModel) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 612f7110aa149396b18815afe664ee404c70fc52
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93e736d0fb5403fe76d6d402c261e6b7e5336dfc096d8c39d7b3300b93ab1332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118560992"
 ---
 # <a name="icoreapplicationviewactivated-event"></a>ICoreApplicationView：：已啟用事件
 
-在啟用 Windows Store 應用程式時發生。
+在啟用 Windows 存放區應用程式時發生。
 
 ## <a name="syntax"></a>語法
 
@@ -49,8 +49,8 @@ void Activated(
 |-------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                                         |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                               |
-| 標頭<br/>                   | <dl> <dt>ApplicationModel Core。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>ApplicationModel。</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。ApplicationModel Core。h</dt> </dl>   |
+| Idl<br/>                      | <dl> <dt>Windows。ApplicationModel</dt> </dl> |
 
 
 

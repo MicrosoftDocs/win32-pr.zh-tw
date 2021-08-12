@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: b1c38d7790d575bdf6794e0e21f1c4043e80257c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b888bc7fe8be0aa8bbac1150717ff90440bb797d84d910f7bcb6ee4f35f49345
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118296206"
 ---
 # <a name="id3dxbasemeshconvertpointrepstoadjacency-method"></a>ID3DXBaseMesh：： ConvertPointRepsToAdjacency 方法
 

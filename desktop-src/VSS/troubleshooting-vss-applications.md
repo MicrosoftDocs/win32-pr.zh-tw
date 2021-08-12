@@ -4,12 +4,12 @@ ms.assetid: afdbcdaf-4e91-45c8-b8fe-11bd304f6e2d
 title: 針對 VSS 應用程式進行疑難排解
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 578a0e5f1b8ab3bca235cdf0f26ea651949866b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b80715afc59e84cb3493c0bf703de5688a6517029062c05e61f365b2b0e04a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590894"
 ---
 # <a name="troubleshooting-vss-applications"></a>針對 VSS 應用程式進行疑難排解
 

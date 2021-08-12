@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: bb32e3f668884a6f51bd5c5058a4f27e141f0aa3
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 06b6a7404f664e8ec18247b2eda57c5097cd575a3556853bfe8a9eb67705d071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295901"
 ---
 # <a name="id3dxeffectsetstatemanager-method"></a>ID3DXEffect：： SetStateManager 方法
 

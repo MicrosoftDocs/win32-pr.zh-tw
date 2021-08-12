@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8c83a723dde56fc80f643d7209c56fc05ad6cce5
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 77f6e27f3a44b48333563a31a93afce1233cd04d52bd45fddc3c8f9814d54c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118292462"
 ---
 # <a name="id3dxtextureshadergetconstantbuffer-method"></a>ID3DXTextureShader：： GetConstantBuffer 方法
 

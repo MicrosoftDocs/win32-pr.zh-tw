@@ -9,19 +9,19 @@ ms.custom:
 - CI 111497
 - CSSTroubleshooting
 - contperf-fy21q2
-ms.openlocfilehash: a2ee7c28e7de2d616bd01e9b5cae0de3c325caf4
-ms.sourcegitcommit: 80198645ddacc3c12c72f3814b71ade0f415e705
+ms.openlocfilehash: ce602d4a65d0287154a9eee94665d025a628f6d8ce3a7f086700625820637a5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/25/2021
-ms.locfileid: "106993689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552308"
 ---
 # <a name="troubleshooting-packaging-deployment-and-query-of-windows-apps"></a>對 Windows 應用程式的封裝、部署及查詢進行疑難排解
 
-使用這些建議來針對您在封裝、部署或查詢 Windows 應用程式套件時所遇到的問題進行疑難排解 ( msix/.appx) 開發人員。
+使用這些建議來針對您在封裝、部署或查詢 Windows 應用程式套件時所遇到的問題進行疑難排解， (. msix/.appx) 開發人員。
 
 > [!NOTE]
-> 本文適用于開發人員。 如果您不是開發人員，而且您正在尋找 Windows 應用程式安裝錯誤的說明，請參閱 [windows 支援](https://support.microsoft.com/hub/4338813/windows-help?os=windows-10)。
+> 本文適用于開發人員。 如果您不是開發人員，而且您正在尋找 Windows 應用程式安裝錯誤的說明，請參閱[Windows 支援](https://support.microsoft.com/hub/4338813/windows-help?os=windows-10)。
 
 ## <a name="get-diagnostic-information"></a>取得診斷資訊
 
@@ -31,14 +31,14 @@ ms.locfileid: "106993689"
 
 1. 請執行下列其中一個步驟：
 
-    * 按一下 [Windows] 功能表上的 [ **開始** ]，輸入 **事件檢視器**，然後 **按 enter**。
+    * 按一下 [Windows] 功能表上的 [**啟動**]，輸入 **事件檢視器**，然後 **按 enter 鍵**。
     * 執行 **eventvwr.msc services.msc**。
 
 2. 在左側頁面中，展開 [**本機)**  >  **應用程式和服務記錄** 檔] 事件檢視器 ( >  **Microsoft**  >  **Windows**。
 3. 檢查下列類別的可用記錄：
 
-    * **AppxPackagingOM**  > **Microsoft-Windows-AppxPackaging/Operational**
-    * **Appxdeployment-server-伺服器**  > **Microsoft-Windows-AppXDeploymentServer/Operational**
+    * **AppxPackagingOM**  > **Microsoft Windows-AppxPackaging/Operational**
+    * **Appxdeployment-server-伺服器**  > **Microsoft Windows-AppXDeploymentServer/Operational**
 
 從查看 **appxdeployment-server-Server** 底下的記錄開始。 如果錯誤是由 **0x80073CF0** 或 **ERROR_INSTALL_OPEN_PACKAGE_FAILED** 所造成，則 **AppxpackagingOM** 記錄中可能會有其他詳細資料。
 
@@ -85,7 +85,7 @@ Get-Appxlog | Out-GridView
 <tr class="even">
 <td><strong>E_INVALIDARG</strong></td>
 <td>0x80070057</td>
-<td>一或多個引數無效。 如果您檢查 AppXDeployment-Server 事件記錄檔，並看到下列事件：「安裝封裝時，系統無法登錄 repositoryExtension 副檔名，因為發生下列錯誤：參數不正確。」 <br/> 如果資訊清單元素 DisplayName 或 Description 包含 Windows 防火牆不允許的字元，您可能會收到這個錯誤;亦即 | 而且全部都是因為 Windows 無法建立套件的 AppContainer 設定檔。 請從資訊清單移除這些字元，並嘗試安裝套件。 <br/></td>
+<td>一或多個引數無效。 如果您檢查 AppXDeployment-Server 事件記錄檔，並看到下列事件：「安裝封裝時，系統無法登錄 repositoryExtension 副檔名，因為發生下列錯誤：參數不正確。」 <br/> 如果資訊清單元素 DisplayName 或 Description 包含 Windows 防火牆不允許的字元，您可能會收到這個錯誤;亦即 | 而且，因為 Windows 無法建立套件的 AppContainer 設定檔。 請從資訊清單移除這些字元，並嘗試安裝套件。 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_INSTALL_OPEN_</strong><br/> <strong>PACKAGE_FAILED</strong><br/></td>
@@ -172,7 +172,7 @@ Get-Appxlog | Out-GridView
 <tr class="even">
 <td><strong>ERROR_PACKAGE_</strong><br/> <strong>REPOSITORY_CORRUPTED</strong><br/></td>
 <td>0x80073CFE</td>
-<td>套件存放庫已損毀。<br/> 如果此登錄機碼參考的資料夾不存在或已損毀，您可能會收到此錯誤： <br/> <strong>HKLM\Software\Microsoft\Windows</strong><br/> <strong>CurrentVersion\Appx\PackageRepositoryRoot</strong><br/> 若要從此狀態復原，請重新整理您的電腦。<br/></td>
+<td>套件存放庫已損毀。<br/> 如果此登錄機碼參考的資料夾不存在或已損毀，您可能會收到此錯誤： <br/> <strong>HKLM\Software\Microsoft\ Windows \</strong><br/> <strong>CurrentVersion\Appx\PackageRepositoryRoot</strong><br/> 若要從此狀態復原，請重新整理您的電腦。<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_INSTALL_</strong><br/> <strong>POLICY_FAILURE</strong><br/></td>
@@ -242,7 +242,7 @@ Get-Appxlog | Out-GridView
 <tr class="even">
 <td><strong>ERROR_INSTALL_FIREWALL_</strong><br/> <strong>SERVICE_NOT_RUNNING</strong><br/></td>
 <td>0x80073D0A</td>
-<td>無法安裝封裝，因為 Windows 防火牆服務未執行。 啟用 Windows 防火牆服務，然後再試一次。<br/></td>
+<td>無法安裝封裝，因為 Windows 防火牆服務未執行。 請啟用 Windows 防火牆服務，然後再試一次。<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_PACKAGE_MOVE_FAILED</strong></td>
@@ -255,7 +255,7 @@ Get-Appxlog | Out-GridView
 <td>部署作業失敗，因為磁片區不是空的。<br/></td>
 </tr>
 <tr class="odd">
-<td><strong>ERROR_INSTALL_VOLUME_</strong><br/> <strong>OFFLINE</strong><br/></td>
+<td><strong>ERROR_INSTALL_VOLUME_</strong><br/> <strong>離線</strong><br/></td>
 <td>0x80073D0D</td>
 <td>部署作業失敗，因為磁片區已離線。 針對套件更新，磁片區指的是所有套件版本的已安裝磁片區。<br/></td>
 </tr>
@@ -357,12 +357,12 @@ Get-Appxlog | Out-GridView
 <tr class="odd">
 <td><strong>ERROR_DEPLOYMENT_BLOCKED_</strong><br/> <strong>BY_VOLUME_POLICY_PACKAGE</strong><br/></td>
 <td>0x80073D21</td>
-<td>因為每個套件系列的原則限制了非系統磁片區上的部署，所以部署作業已遭到封鎖。 針對每個原則，此應用程式必須安裝到系統磁片磁碟機，但不會設為預設值。 在 [存放裝置設定] 中，讓系統磁片磁碟機成為儲存新內容的預設位置，然後重試安裝。<br/></td>
+<td>因為每個套件系列的原則限制了非系統磁片區上的部署，所以部署作業已遭到封鎖。 針對每個原則，此應用程式必須安裝到系統磁片磁碟機，但不會設為預設值。 在儲存體設定中，讓系統磁片磁碟機成為儲存新內容的預設位置，然後重試安裝。<br/></td>
 </tr>
 <tr class="even">
 <td><strong>ERROR_DEPLOYMENT_BLOCKED_</strong><br/> <strong>BY_VOLUME_POLICY_MACHINE</strong><br/></td>
 <td>0x80073D22</td>
-<td>因為電腦範圍內的原則限制了非系統磁片區上的部署，所以部署作業已遭到封鎖。 針對每個原則，此應用程式必須安裝到系統磁片磁碟機，但不會設為預設值。 在 [存放裝置設定] 中，讓系統磁片磁碟機成為儲存新內容的預設位置，然後重試安裝。<br/></td>
+<td>因為電腦範圍內的原則限制了非系統磁片區上的部署，所以部署作業已遭到封鎖。 針對每個原則，此應用程式必須安裝到系統磁片磁碟機，但不會設為預設值。 在儲存體設定中，讓系統磁片磁碟機成為儲存新內容的預設位置，然後重試安裝。<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>ERROR_DEPLOYMENT_BLOCKED_</strong><br/> <strong>BY_PROFILE_POLICY</strong><br/></td>
@@ -578,23 +578,23 @@ Get-Appxlog | Out-GridView
 > 發生問題 \<*application name*> 。 請洽詢您的系統管理員，瞭解如何修復或重新安裝  
 > 錯誤：無法開啟此應用程式
 
-此外，下列事件專案會記錄在 **應用程式和 Services\Microsoft\Windows\Apps** 下的「TWinUI/Operational」記錄檔中：
+此外，下列事件專案會記錄在 **應用程式和 Services\Microsoft\ Windows \Apps** 的「Microsoft Windows TWinUI/Operational」記錄檔中：
 
 > 記錄檔名稱： Microsoft-Windows-TWinUI/Operational  
-> 來源： Microsoft-Windows-沉浸式 Shell  
+> 來源： Microsoft Windows-沉浸式 Shell  
 > 日期： <*日期*>  
 > 事件識別碼：5960  
 > 工作分類： (5960)   
 > 層級：錯誤  
 > 關鍵字：  
 > 描述：  
-> 應用程式的啟用 Microsoft.BingNews_8wekyb3d8bbwe！適用于 Windows 的 AppexNews。 因為啟動合約的套件處於狀態：已修改，所以已封鎖其錯誤0x80073CFC。  
+> 應用程式的啟用 Microsoft.BingNews_8wekyb3d8bbwe！Windows 的 AppexNews。 因為啟動合約的套件處於狀態：已修改，所以已封鎖其錯誤0x80073CFC。  
 
 ### <a name="cause"></a>原因
 
 發生此問題的原因是已修改應用程式對應套件狀態值的登錄專案。
 
-### <a name="resolution"></a>解決方案
+### <a name="resolution"></a>解決方法
 
 > [!WARNING]
 > 如果您使用登錄編輯程式或使用其他方法不正確地修改登錄，則可能會發生嚴重問題。 您可能必須重新安裝作業系統才能解決問題。 Microsoft 無法保證可以解決這些問題。 您必須自行承擔修改登錄的風險。

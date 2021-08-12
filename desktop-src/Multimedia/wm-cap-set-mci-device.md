@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_MCI_DEVICE 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ 設定 \_ MCI \_ 裝置訊息] 會指定要用來捕捉資料的 MCI video 裝置名稱。 您可以使用 capSetMCIDeviceName 宏明確地傳送此訊息。'
 ms.assetid: 83fdf567-ceb2-45aa-8529-433a5c64ac0a
 keywords:
-- WM_CAP_SET_MCI_DEVICE message Windows 多媒體
+- WM_CAP_SET_MCI_DEVICE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86187f3357bf72866e05b497332454c10bcd2fd3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f2df82b171e2353b51198fcd4a908abb586d981417c3fd14e5a81731975012aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622177"
 ---
 # <a name="wm_cap_set_mci_device-message"></a>WM \_ CAP \_ 設定 \_ MCI \_ 裝置訊息
 

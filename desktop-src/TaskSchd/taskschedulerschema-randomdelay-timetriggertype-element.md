@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a28613cb236b6dc8a3ae77dce9452423a992a866
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c4c9fde8a0f88ed7e87b5a0d3ccc252f141f6b677f535adf853ef0aca9499b4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106998573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611504"
 ---
 # <a name="randomdelay-timetriggertype-element"></a>RandomDelay (timeTriggerType) 元素
 
@@ -38,7 +38,7 @@ ms.locfileid: "106998573"
 
 
 
-| 元素                                                                                    | 衍生自                                                               | Description                                                                      |
+| 元素                                                                                    | 衍生自                                                               | 描述                                                                      |
 |--------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------------------------------------|
 | [**TimeTrigger (triggerGroup)**](taskschedulerschema-timetrigger-triggergroup-element.md) | [**timeTriggerType**](taskschedulerschema-timetriggertype-complextype.md) | 指定啟動觸發程式時啟動工作的觸發程式。<br/> |
 
@@ -56,8 +56,8 @@ ms.locfileid: "106998573"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

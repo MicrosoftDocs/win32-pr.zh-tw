@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12fdbfc46578a4e64a92accc46f6b910a44dd946
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2b6438394120ecd901c6de6d7a8ccac40f742d9f73d27a36682de894d9c5a7ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118620847"
 ---
 # <a name="inapsystemhealthvalidationrequest2-interface"></a>INapSystemHealthValidationRequest2 介面
 
@@ -67,7 +67,7 @@ ms.locfileid: "106966546"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthValidator。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapSystemHealthValidator .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qshvhost.dll</dt> </dl>                 |

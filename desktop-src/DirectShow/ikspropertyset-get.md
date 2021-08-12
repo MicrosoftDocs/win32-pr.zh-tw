@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Strmiids.lib
 - Strmiids.dll
-ms.openlocfilehash: 9c4461e8c5886d84bcf3b7faa6675b749bc0c37d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fbfd44002270209c055b5a4003d9062a6821aeffb3ce71de7977fc20d0c64e81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652240"
 ---
 # <a name="ikspropertysetget-method"></a>IKsPropertySet：： Get 方法
 
@@ -101,7 +101,7 @@ HRESULT Get(
 
 
 
-| 傳回碼                                                                                              | Description                                                                 |
+| 傳回碼                                                                                              | 描述                                                                 |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                     | 成功。<br/>                                                         |
 | <dl> <dt>**E \_ \_ 設定 \_ 不支援的設定**</dt> </dl> | 不支援屬性集。<br/>                               |

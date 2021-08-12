@@ -4,12 +4,12 @@ ms.assetid: 4e6b46b0-df9e-4458-b0ac-e237d7656337
 title: 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb336dbb51fcbd715ea236ecdc0c62d81daf29d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c9e098981c6246392fef75f717b1d7676df1aa134e4faef3e436ee8b3eb537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591325"
 ---
 # <a name="providers"></a>提供者
 
@@ -19,7 +19,7 @@ ms.locfileid: "106977861"
 
 當陰影複製存在時，提供者會建立一個環境，在此環境中，已有陰影複製的任何磁片區實際上有兩個獨立的複本：一個是正在使用的磁片磁碟機，而另一個則是磁片固定且穩定的備份。
 
-雖然提供了預設提供者作為 Windows 的一部分，但其他廠商也可免費提供自己的實作為其本身的儲存體硬體和軟體供應專案的實施。
+雖然提供了預設提供者做為 Windows 的一部分，但其他廠商也可免費提供其專屬的實作為其本身的儲存體硬體和軟體供應專案的實施。
 
 從使用者或備份/還原應用程式開發人員的觀點來看，所有提供者都有相同的介面 (請參閱) [選取提供者](selecting-providers.md) 。
 
@@ -37,7 +37,7 @@ ms.locfileid: "106977861"
 
 ## <a name="system-provider"></a>系統提供者
 
-系統提供一個陰影複製提供者（ [*系統提供者*](vssgloss-s.md)），是 Windows 作業系統安裝的預設部分。 目前，系統提供者是軟體提供者的特定實例。 不過，未來可能會變更。
+Windows 作業系統安裝的預設部分會提供一個陰影複製提供者（[*系統提供者*](vssgloss-s.md)）。 目前，系統提供者是軟體提供者的特定實例。 不過，未來可能會變更。
 
 為了維護陰影複製所包含之磁片區的「時間點」視圖，系統提供者會使用寫入時複製技術。 磁片上已修改的磁區複本 (稱為「差異」 ) ，因為陰影複製建立的開頭是儲存在陰影複製存放區域中。
 

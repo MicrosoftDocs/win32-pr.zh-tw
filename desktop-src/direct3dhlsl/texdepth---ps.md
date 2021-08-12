@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3eb5cd337108d08efee465c136adf1afb4921123
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: f39135c34c07a9a20f03c9ebc979647733884b37680ef07b9bc666b882052690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "103841640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118284172"
 ---
 # <a name="texdepth---ps"></a>texdepth-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "103841640"
 
 
 
- 
+ 
 
 其中
 
@@ -45,7 +45,7 @@ ms.locfileid: "103841640"
 
 
 
- 
+ 
 
 此指令會在此圖元的深度緩衝區比較測試中使用 r5. r/r5. g。 藍色和 Alpha 通道中的資料會被忽略。 如果 r5 = 0，則是 r5. r/r5. g = 1.0 的結果。
 
@@ -81,9 +81,9 @@ texdepth  r5         // Calculate pixel depth as r5.r / r5.g
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

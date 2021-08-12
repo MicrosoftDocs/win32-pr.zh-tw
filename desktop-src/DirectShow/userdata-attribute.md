@@ -4,12 +4,12 @@ ms.assetid: 7f1390be-93d4-440f-8b46-57a6a3e0e2a1
 title: userdata 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4828e378bcdafddbf83b3676e0941c8a1a066cbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f25b9293781fe89618e7e0db7359f8a7bfbc002f2c2a057314827bdf876262b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651202"
 ---
 # <a name="userdata-attribute"></a>userdata 屬性
 

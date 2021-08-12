@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: d73360f6c9bc10478bd8d0b0ade9ea984d0b998b
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 330672a54f1d66b0c8674828d3e1f2c8538ba9cda9f1621d42e7c517813d7d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283925"
 ---
 # <a name="texture1darrayload-methods"></a>Texture1DArray：： Load 方法
 

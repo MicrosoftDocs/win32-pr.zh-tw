@@ -4,12 +4,12 @@ ms.assetid: 20cf12e4-4611-4e39-9f6f-e29f15e58b36
 title: 磁片區陰影複製 API 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1bb699277faa30c6a570203cd820d552cc9f1b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f95527f505430e0283b44d233605febb5695cada3f9740e850945f58e751f3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590550"
 ---
 # <a name="volume-shadow-copy-api-structures"></a>磁片區陰影複製 API 結構
 
@@ -17,7 +17,7 @@ ms.locfileid: "107001671"
 
 
 
-| 結構                                                           | Description                                                                                                                                                                                                                                                         |
+| 結構                                                           | 描述                                                                                                                                                                                                                                                         |
 |---------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**VSS \_ COMPONENTINFO**](/windows/desktop/api/VsBackup/ns-vsbackup-vss_componentinfo)                     | 包含指定元件的相關資訊。                                                                                                                                                                                                                       |
 | [**VSS \_ 差異 \_ 區域的比較 \_**](/windows/desktop/api/VsMgmt/ns-vsmgmt-vss_diff_area_prop)                 | 描述來源磁片區之間的關聯，包含原始檔案資料和包含陰影複製存放區域的磁片區。                                                                                                                                |

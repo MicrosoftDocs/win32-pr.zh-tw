@@ -3,7 +3,7 @@ title: 'DRV_CLOSE 訊息 (Mmsystem .h) '
 description: 指示驅動程式關閉指定的實例。 如果沒有開啟其他實例，驅動程式應該準備好從記憶體進行後續的發行。
 ms.assetid: 98d7fe47-5194-4912-a9d6-3af3d1fa4e60
 keywords:
-- DRV_CLOSE message Windows 多媒體
+- DRV_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a205b7e6edb4a427b0e80d32cc711d9bf2b052c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d89be1821b03e43fbe05b5ed2efc90e40db03e36538cf0412201baa7273e596
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622665"
 ---
 # <a name="drv_close-message"></a>WINSPOOL.DRV \_ 關閉訊息
 
@@ -69,7 +69,7 @@ ms.locfileid: "106965949"
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

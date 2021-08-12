@@ -4,19 +4,19 @@ ms.assetid: 07f68734-a382-4fe5-86af-90805f61c68d
 title: COM + 檢測概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d86b5dbb7bb3f6db14d82220d88c58dbc0a8255
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 160a546c07ea4204f1f4da3ba4c56c76a6eed6b52a8d397d470d0bc34b76adc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549504"
 ---
 # <a name="com-instrumentation-concepts"></a>COM + 檢測概念
 
-當您想要顯示 COM + 元件的各種效能計量時，COM + 檢測服務可讓您建立自己的 COM + 事件管理和記錄程式。 您也可以使用 COM + 檢測來設定使用者定義的事件，以及在升級要接收 MTS 事件的 MTS 套件時，將 COM + 事件轉換成 Visual Studio Analyzer (VSA) 格式。
+當您想要顯示 COM + 元件的各種效能計量時，COM + 檢測服務可讓您建立自己的 COM + 事件管理和記錄程式。 您也可以使用 com + 檢測來設定使用者定義的事件，以及在升級要接收 mts 事件的 mts 套件時，將 com + 事件轉換成 Visual Studio 分析器 (VSA) 格式。
 
 > [!Note]  
-> 從 Windows Server 2003 版，只有系統管理員對系統事件的追蹤記錄具有讀取存取許可權。
+> 從 Windows Server 2003，只有系統管理員對系統事件的追蹤記錄具有讀取存取許可權。
 
  
 

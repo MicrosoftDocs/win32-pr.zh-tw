@@ -4,16 +4,16 @@ ms.assetid: e55acb06-03f4-4191-bffe-3196f41ef2c7
 title: 執行緒和重要區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 576cb28e7e382db92328adf09980a825e71b5a3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d13473a917ae49e80ec658b0d6187fdfdff80c6e3a080a229aca7ccbbe536c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651400"
 ---
 # <a name="threads-and-critical-sections"></a>執行緒和重要區段
 
-本節說明 DirectShow 篩選器中的執行緒，以及您應採取的步驟，以避免在自訂篩選器中發生損毀或鎖死。
+本節說明 DirectShow 篩選準則中的執行緒，以及在自訂篩選器中避免損毀或鎖死所應採取的步驟。
 
 本節中的範例會使用虛擬程式碼來說明您需要撰寫的程式碼。 它們假設自訂篩選器使用衍生自 DirectShow 基類的類別，如下所示：
 
@@ -31,17 +31,17 @@ ms.locfileid: "104321111"
 -   [清除資料](flushing-data.md)
 -   [停止中](stopping.md)
 -   [取得緩衝區](getting-buffers.md)
--   [串流執行緒和篩選圖形管理員](streaming-threads-and-the-filter-graph-manager.md)
+-   [串流處理執行緒和篩選 Graph 管理員](streaming-threads-and-the-filter-graph-manager.md)
 -   [篩選準則執行緒的摘要](summary-of-filter-threading.md)
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[篩選開發人員的資料流程](data-flow-for-filter-developers.md)
+[篩選準則開發人員的資料 Flow](data-flow-for-filter-developers.md)
 </dt> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

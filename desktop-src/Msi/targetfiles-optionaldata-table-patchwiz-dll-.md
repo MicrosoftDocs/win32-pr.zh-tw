@@ -4,12 +4,12 @@ ms.assetid: 577b1674-1e44-42e1-b011-c0fb561b514c
 title: 'TargetFiles_OptionalData 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 859ac2e03f68c28eff5ebf7f5afa2bf53ab69299
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5664e2e21968cb3fee5ce3d606dd07008f2436c4b649a7bcefeebd77df9cf6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623733"
 ---
 # <a name="targetfiles_optionaldata-table-patchwizdll"></a>TargetFiles \_ OptionalData 資料表 (Patchwiz.dll) 
 

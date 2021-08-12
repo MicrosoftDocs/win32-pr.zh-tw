@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6e09217bc45b866cfb08aa2ab0cae5a7a28815fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9a9930472b5c8a2873ca0a7f3280565bd41ac6b0aac7e1e33303464d3a2c1ca3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118656443"
 ---
 # <a name="cenummediatypesskip-method"></a>CEnumMediaTypes. Skip 方法
 
@@ -55,7 +55,7 @@ HRESULT Skip(
 
 
 
-| 傳回碼                                                                                                | Description                                                                         |
+| 傳回碼                                                                                                | 描述                                                                         |
 |------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                    | 略過序列結尾的尾端。<br/>                                    |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 成功。<br/>                                                                 |

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8ff2035ede3e49feb2bc14a7aa31cfc18f2e7d23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 755965864692cf2b34ebaadc6e064a47a7514c69fe891a6a15f1bb364e5345e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998595"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655249"
 ---
 # <a name="cmediasamplegettime-method"></a>CMediaSample. GetTime 方法
 
@@ -63,7 +63,7 @@ HRESULT GetTime(
 
 
 
-| 傳回碼                                                                                                   | Description                                                 |
+| 傳回碼                                                                                                   | 描述                                                 |
 |---------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                          | 成功。<br/>                                         |
 | <dl> <dt>**VFW \_ S \_ 沒有 \_ 停止 \_ 時間**</dt> </dl>         | 範例有有效的開始時間，但沒有停止時間。<br/> |
@@ -77,7 +77,7 @@ HRESULT GetTime(
 
 [**CMediaSample：： m \_ Start**](cmediasample-m-start.md)和 [**CMediaSample：： m \_ End**](cmediasample-m-end.md)成員變數會指定時間戳記。 [**CMediaSample：： m \_ dwFlags**](cmediasample-m-dwflags.md)成員變數會指定時間戳記是否有效。
 
-如需時間戳記的詳細資訊，請參閱 [DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
+如需時間戳記的詳細資訊，請參閱[DirectShow 中的時間和時鐘](time-and-clocks-in-directshow.md)。
 
 ## <a name="requirements"></a>規格需求
 

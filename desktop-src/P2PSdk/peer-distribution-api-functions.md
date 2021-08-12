@@ -4,12 +4,12 @@ ms.assetid: 3f5af891-4f5d-4523-8fe6-47fc6ff13b35
 title: 對等散發 API 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2532ad8bf5cbb14e18bd16a14bb1be2d79c1791
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a594313300c6bf39a2ea4f08efba89d1ed757ba4b8a50eda074466b94433e1e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612319"
 ---
 # <a name="peer-distribution-api-functions"></a>對等散發 API 函數
 
@@ -19,7 +19,7 @@ Microsoft 對等散發服務支援取用者角色和發行者角色案例的功�
 
 
 
-| 一般函數                                                                                       | Description                                                                                                     |
+| 一般函數                                                                                       | 描述                                                                                                     |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | [**PeerDistStartup**](/windows/desktop/api/PeerDist/nf-peerdist-peerdiststartup)                                                             | 建立新的 **PEERDIST \_ 實例 \_ 控制碼** 實例，必須傳遞給所有其他對等散發 api。 |
 | [**PeerDistShutdown**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistshutdown)                                                           | 釋放呼叫 [**PeerDistStartup**](/windows/desktop/api/PeerDist/nf-peerdist-peerdiststartup)所配置的資源。                         |
@@ -38,7 +38,7 @@ Microsoft 對等散發服務支援取用者角色和發行者角色案例的功�
 
 
 
-| 用戶端函數                                                                             | Description                                                                                                                                                                                                                                                                                                                                      |
+| 用戶端函數                                                                             | 描述                                                                                                                                                                                                                                                                                                                                      |
 |----------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**PeerDistClientOpenContent**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientopencontent)                               | 開啟並傳回要參考該內容的 **PEERDIST \_ 內容 \_ 控制碼** 。                                                                                                                                                                                                                                                                     |
 | [**PeerDistClientCloseContent**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistclientclosecontent)                             | 關閉 **PEERDIST \_ 內容 \_ 控制碼**。                                                                                                                                                                                                                                                                                                        |
@@ -59,7 +59,7 @@ Microsoft 對等散發服務支援取用者角色和發行者角色案例的功�
 
 
 
-| 伺服器函數                                                                             | Description                                                                                                                                                                                        |
+| 伺服器函數                                                                             | 描述                                                                                                                                                                                        |
 |----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**PeerDistServerPublishStream**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishstream)                           | 建立可與 [**PeerDistServerPublishAddToStream**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishaddtostream)搭配使用的 **PEERDIST \_ 資料流程 \_ 控制碼**，以建立內容資料流程的內容資訊。 |
 | [**PeerDistServerPublishAddToStream**](/windows/desktop/api/PeerDist/nf-peerdist-peerdistserverpublishaddtostream)                 | 將資料加入至由 PeerDist 資料流程控制碼所參考的資料流程。                                                                                                                                  |

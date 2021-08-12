@@ -4,18 +4,18 @@ ms.assetid: 0f3adf78-e650-414f-b85d-b53b986eafda
 title: 指定快速鍵
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29edf10a51827880a67826320d7f8415e70ea52a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a67b43a104ee05b3711ac98395098acf9393faab8e046296e58d93df4d6b9218
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624682"
 ---
 # <a name="specifying-shortcuts"></a>指定快速鍵
 
 安裝資料庫的 [快捷方式資料表](shortcut-table.md) 和相關資料表會保存安裝快捷方式所需的資訊。 請參閱「 [程式資訊資料表」群組](program-information-tables-group.md) 和 [編輯安裝程式快捷方式](editing-installer-shortcuts.md)。
 
-在本節中，您會新增資訊，以指定「記事本」範例的公告和非公告快捷方式。
+在本節中，您會新增資訊，以指定記事本範例的公告和非公告快捷方式。
 
 使用您的資料庫編輯器開啟 MNP2000.msi，並在快捷方式資料表中輸入下列資料。
 
@@ -23,13 +23,13 @@ ms.locfileid: "106974405"
 
 
 
-| 快速鍵  | 目錄\_ | Name         | 元件\_ | 目標             | 引數 | 描述 | 熱鍵 | 圖示\_         | >iconindex | ShowCmd | WkDir |
+| 快速鍵  | 目錄\_ | 名稱         | 元件\_ | 目標             | 引數 | 描述 | 熱鍵 | 圖示\_         | >iconindex | ShowCmd | WkDir |
 |-----------|-------------|--------------|-------------|--------------------|-----------|-------------|--------|----------------|-----------|---------|-------|
 | sBaseball | MENUDIR     | Baseball.txt | 棒球    | 棒球           |           |             |        | orca \_icon.exe |           |         |       |
 | sConcert  | MENUDIR     | Concert.txt  | 演唱會     | \[\#Concert.txt\]  |           |             |        |                |           |         |       |
 | sDance    | MENUDIR     | Dance.txt    | 舞蹈       | \[\#Dance.txt\]    |           |             |        |                |           |         |       |
 | sFootball | MENUDIR     | Football.txt | 足球    | \[\#Football.txt\] |           |             |        |                |           |         |       |
-| 現成     | MENUDIR     | Help.txt     | Help        | \[\#Help.txt\]     |           |             |        |                |           |         |       |
+| 現成     | MENUDIR     | Help.txt     | 說明        | \[\#Help.txt\]     |           |             |        |                |           |         |       |
 | sJanuary  | MENUDIR     | January.txt  | 一月     | \[\#January.txt\]  |           |             |        |                |           |         |       |
 | sNewYears | MENUDIR     | NewYears.txt | NewYears    | \[\#NewYears.txt\] |           |             |        |                |           |         |       |
 | sNotepad  | MENUDIR     | Redpark.exe  | [記事本]     | \[\#Redpark.exe\]  |           |             |        |                |           |         |       |
@@ -45,7 +45,7 @@ ms.locfileid: "106974405"
 
 
 
-| Name           | 資料            |
+| 名稱           | 資料            |
 |----------------|-----------------|
 | orca \_icon.exe | \[Binary Data\] |
 

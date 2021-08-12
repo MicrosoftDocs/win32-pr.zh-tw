@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0c021e2856ea3d4cb2571804fe5e4c3f72d901fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58cba7990001259a311644dec540183b2eced85aabbb84cb649646e7e0acc114
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587705"
 ---
 # <a name="query-schema-elements"></a>查詢架構元素
 

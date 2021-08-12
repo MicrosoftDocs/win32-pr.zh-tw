@@ -50,12 +50,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ef2e518145ae34533477bcbefb92e15d9c8d94
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e896a8ce82a6e1dee7896a242bb2dace442dba595a66a7c45a7c3baf3060dff3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118606129"
 ---
 # <a name="imstscadvancedsettingsplugindlls-property"></a>IMsTscAdvancedSettings：:P luginDlls 屬性
 
@@ -86,7 +86,7 @@ HRESULT put_PluginDlls(
 
 基於安全性理由，如果控制項裝載在網頁中， **PluginDlls** 屬性只接受虛擬通道用戶端 dll 的命名清單。 如果指定了檔案系統或 UNC 路徑，控制項就會傳回錯誤。
 
-將從網頁存取的虛擬通道用戶端 Dll 必須安裝在 "% WinDir% \\ system32" 目錄中，因為遠端桌面 ActiveX 控制項只會存取該位置中的 DLL 檔案。 如果控制項未裝載在網頁中，此安全性限制並不存在，而且可以使用完整路徑來存取和載入位於檔案系統任何位置的虛擬通道用戶端 Dll。
+將從網頁存取的虛擬通道用戶端 dll 必須安裝在 "% WinDir% \\ system32" 目錄中，因為遠端桌面 ActiveX 控制項只會存取該位置中的 DLL 檔案。 如果控制項未裝載在網頁中，此安全性限制並不存在，而且可以使用完整路徑來存取和載入位於檔案系統任何位置的虛擬通道用戶端 Dll。
 
 如需遠端桌面網頁連線的詳細資訊，請參閱 [遠端桌面網頁連線的需求](requirements-for-remote-desktop-web-connection.md)。
 

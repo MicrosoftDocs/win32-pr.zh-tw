@@ -4,12 +4,12 @@ ms.assetid: 7247758e-f486-4ce2-afca-f0d10fffe626
 title: Role-Based 安全性管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 714cede74e105a68b0a5fed2371858054add954e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c72ed2f1fdd5eb0b650b991b776364bf982c774b3ffcaff1358ea2c3ed1ee4d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547070"
 ---
 # <a name="role-based-security-administration"></a>Role-Based 安全性管理
 
@@ -24,7 +24,7 @@ ms.locfileid: "104510671"
 -   您可以利用以角色為基礎的安全性來進行詳細的審核，因為您可以取得整個上游呼叫鏈的呼叫端安全性資訊。
 
 > [!Note]  
-> 系統應用程式之系統管理員角色中的使用者必須是本機系統管理員群組的成員。 此外，從 Windows Server 2003，COM + 系統應用程式的驗證功能包含 EOAC \_ DISABLE AAA 的值 \_ 。 此值會在啟動系統應用程式時，在 [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) 呼叫中使用停用的 (AAA) 啟用。 將驗證功能設定為 EOAC \_ DISABLE \_ AAA，可讓在特殊許可權帳戶下執行的應用程式 (例如 LocalSystem) ，以協助防止其身分識別用來啟動未受信任的元件。
+> 系統應用程式之系統管理員角色中的使用者必須是本機系統管理員群組的成員。 此外，從 Windows Server 2003 中，com + 系統應用程式的驗證功能包含 EOAC \_ DISABLE AAA 的值 \_ 。 此值會在啟動系統應用程式時，在 [**CoInitializeSecurity**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializesecurity) 呼叫中使用停用的 (AAA) 啟用。 將驗證功能設定為 EOAC \_ DISABLE \_ AAA，可讓在特殊許可權帳戶下執行的應用程式 (例如 LocalSystem) ，以協助防止其身分識別用來啟動未受信任的元件。
 
  
 

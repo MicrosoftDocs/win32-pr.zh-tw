@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - Root
-ms.openlocfilehash: c54ec47b1f67d96816cf24a6b6e0108ee0b1de70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d027fec5aea132524924655047c0f0a8aa8605d1972c6f91b2c2315c5834ad1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557922"
 ---
 # <a name="__eventprovidercachecontrol-class"></a>\_\_EventProviderCacheControl 類別
 

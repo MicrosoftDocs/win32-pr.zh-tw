@@ -4,12 +4,12 @@ ms.assetid: 5fc345ff-8a47-4372-806f-64b8c271fd2d
 title: 系統還原點和 Windows Installer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7fe9bd4b8e22f5aee7e49d3e4c452378f402e7b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48b8de832208f2bee301a1a159da058ba0f97cf2ecbd74892cb809e1186fbb65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624089"
 ---
 # <a name="system-restore-points-and-the-windows-installer"></a>系統還原點和 Windows Installer
 
@@ -21,7 +21,7 @@ ms.locfileid: "107000084"
 
 在具有許多小型應用程式的公司中，系統管理員可能會決定停用安裝程式內的檢查點，以改善效能。 如需詳細資訊，請參閱 [LimitSystemRestoreCheckpointing](limitsystemrestorecheckpointing.md) 或 [設定自訂動作的還原點](setting-a-restore-point-from-a-custom-action.md)。
 
-從 Windows Installer 5.0 開始，可以設定 [**MSIFASTINSTALL**](msifastinstall.md) 屬性，以防止安裝產生系統還原點。
+從 Windows Installer 5.0 開始，可以設定 [**MSIFASTINSTALL**](msifastinstall.md)屬性，以防止安裝產生系統還原點。
 
  
 

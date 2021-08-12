@@ -4,12 +4,12 @@ ms.assetid: 1DD8E2D3-430F-4EE4-9C41-78736C904920
 title: 轉換色彩空間的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91b5dbec2f826c40d5274cbddb3b54d1cdd9f695
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 391d7e1cfd2882603529e28261e6872020dfbb1bbf461a9fd6f5d03efb3aaee3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289633"
 ---
 # <a name="converting-data-for-the-color-space"></a>轉換色彩空間的資料
 

@@ -1,17 +1,17 @@
 ---
-description: 動態圖表建立
+description: 動態 Graph 大樓
 ms.assetid: 13fed430-979b-40f7-91ba-aff2d811bd92
-title: 動態圖表建立
+title: 動態 Graph 大樓
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 710bf5f648fc91e8db6bf62d81b41327f874ddf7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f8c7296b95bc97461eb5a16ee577acb4bd267ee1a25f9be357a00fef7d4bdba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652788"
 ---
-# <a name="dynamic-graph-building"></a>動態圖表建立
+# <a name="dynamic-graph-building"></a>動態 Graph 大樓
 
 如果您需要修改現有的篩選圖形，您可以停止圖形、進行變更，然後重新開機圖形。 這通常是最好的方法。 不過，在某些情況下，您可能會想要在圖形仍在執行時加以變更。 例如：
 

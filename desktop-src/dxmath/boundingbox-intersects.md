@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9039d99640ae3989d0b20e9d48f681edabb021f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be730abe6d723f8a1eacd212a1c5cec971400afeeea733efba590838f19a0f5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278775"
 ---
 # <a name="boundingboxintersects-methods"></a>BoundingBox 交集方法
 

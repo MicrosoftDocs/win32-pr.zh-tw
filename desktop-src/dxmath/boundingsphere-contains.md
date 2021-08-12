@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 10277f897b3b5888a5bb44be88b9df7eb0c3316b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cba59831335523f4b80074c3c25118a4545b317607834191d070f310ae5eee21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278212"
 ---
 # <a name="boundingspherecontains-methods"></a>BoundingSphere 包含方法
 

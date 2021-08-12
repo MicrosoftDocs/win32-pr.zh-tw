@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 02b82b7b3307244402ce93d3a3377795ae68ad2e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ba8434a76fc6849df22c1655518660d88b3d57fac4632a02a5b22a0f7bd15a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571468"
 ---
 # <a name="playlistcheckboxesvisible"></a>播放清單。 checkboxesVisible
 

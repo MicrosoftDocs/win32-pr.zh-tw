@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 19584c28a7bdf7ae01b87d1f414b9464b7b4271d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fa492acf00740b0df9b761c40797ec05feb5b2e38b84ec0682296dd845cbe613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589603"
 ---
 # <a name="datadefinitiontype-complex-type"></a>DataDefinitionType 複雜類型
 
@@ -111,12 +111,12 @@ ms.locfileid: "106992525"
 <tr class="odd">
 <td>NAME</td>
 <td>字串</td>
-<td>資料項目的名稱。 如果您在範本中指定 <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> 區段，您可以使用此名稱來參考 XML 片段中的這個資料項目。 如果這個資料項目包含長度或計數值，您也可以在另一個資料項目的長度或計數屬性中參考此名稱。<br/> <strong>Windows Vista：</strong> 這個屬性是選擇性的。<br/></td>
+<td>資料項目的名稱。 如果您在範本中指定 <a href="eventmanifestschema-userdata-templateitemtype-element.md"><strong>UserData</strong></a> 區段，您可以使用此名稱來參考 XML 片段中的這個資料項目。 如果這個資料項目包含長度或計數值，您也可以在另一個資料項目的長度或計數屬性中參考此名稱。<br/> <strong>Windows Vista：</strong>這個屬性是選擇性的。<br/></td>
 </tr>
 <tr class="even">
 <td>outType</td>
 <td><strong>QName</strong></td>
-<td>轉譯這個資料項目時要使用的資料型別。 如需預先定義之輸出資料類型的清單，請參閱 <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> 複雜型別。<br/> <strong>Windows Vista：</strong> 輸出類型會被忽略，而服務會根據輸入類型來決定型別。<br/></td>
+<td>轉譯這個資料項目時要使用的資料型別。 如需預先定義之輸出資料類型的清單，請參閱 <a href="eventmanifestschema-outputtype-complextype.md"><strong>OutputType</strong></a> 複雜型別。<br/> <strong>Windows Vista：</strong>輸出類型會被忽略，而服務會根據輸入類型來決定型別。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -209,8 +209,8 @@ ms.locfileid: "106992525"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

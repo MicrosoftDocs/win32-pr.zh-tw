@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6651cd5248094f82d9faa1862492f82648e94125
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 31a95f9ad491b0b5a6354bb5c44a7ff54f64b29ffa715762ab43a7752e3a3ac0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118621333"
 ---
 # <a name="inapenforcementclientconnection2setinstalledshvs-method"></a>INapEnforcementClientConnection2：： SetInstalledShvs 方法
 
@@ -68,7 +68,7 @@ HRESULT SetInstalledShvs(
 
 
 
-| 傳回碼                                                                                  | Description                                    |
+| 傳回碼                                                                                  | 描述                                    |
 |----------------------------------------------------------------------------------------------|------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>        | 此方法成功。<br/>          |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *Count* 參數為 0 (零) 。<br/> |
@@ -83,8 +83,8 @@ HRESULT SetInstalledShvs(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapEnforcementClient。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

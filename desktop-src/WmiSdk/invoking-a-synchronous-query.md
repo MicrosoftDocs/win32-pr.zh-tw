@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 叫用同步查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2d4bb2ff61a1c94bf7390a65d51e773ad943a45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f089ac5a2d315aa55fe7af7e648d3b001bae032b92ed5b7d67a1b6b120b96561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556116"
 ---
 # <a name="invoking-a-synchronous-query"></a>叫用同步查詢
 

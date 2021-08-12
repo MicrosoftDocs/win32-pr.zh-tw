@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 20f6b6b620fad6cd8378f194ee615af47c93fb27
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
-ms.translationtype: HT
+ms.openlocfilehash: cce256708cc6b2a0c7c041306ce83010f493761290977bf02db1207e03bb97d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118283173"
 ---
 # <a name="texturecubearraygathercmpblue-methods"></a>TextureCubeArray：： GatherCmpBlue 方法
 

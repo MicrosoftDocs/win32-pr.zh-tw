@@ -16,12 +16,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8225db8cccb1e1d3bb364ba1dc29f30526fe36b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6d27bca855bb9c719b485060fabf1f10b7130bd864569e74f98516ca76b8fb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544633"
 ---
 # <a name="ideliveryoptimizationjob2addfilewithranges-method"></a>IDeliveryOptimizationJob2：： AddFileWithRanges 方法
 
@@ -95,8 +95,8 @@ IDeliveryOptimizationFile 物件，代表下載檔案。
 | 需求 | 值 |
 |---------------------------|---------------------------------------------------------------------------------|
 | 最低支援的用戶端  | Windows 10， \[ 僅限1803版桌面應用程式\]                                  |
-| 最低支援的伺服器  | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                              |
-| 標頭                    | >deliveryoptimization。h                                                          |
+| 最低支援的伺服器  | WindowsServer， \[ 僅限1709版桌面應用程式\]                              |
+| 標頭                    | >Deliveryoptimization。h                                                          |
 | Idl                       | >deliveryoptimization .idl                                                        |
 | 程式庫                   | Dosvc .lib                                                                       |
 | DLL                       | Dosvc.dll                                                                       |

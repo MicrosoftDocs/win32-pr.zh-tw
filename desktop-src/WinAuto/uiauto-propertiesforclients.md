@@ -15,12 +15,12 @@ keywords:
 - 正在抓取屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e199522dbefaa2f722a67b0ede57fe910b8ed63b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fbbe524e6f82f8c7dba018b24895ade54ced3e6a4632e1caefed410753b56fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106996565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564369"
 ---
 # <a name="retrieving-properties-from-ui-automation-elements"></a>從消費者介面自動化元素抓取屬性
 
@@ -87,6 +87,6 @@ Microsoft 消費者介面自動化屬性是唯讀的。 若要設定控制項的
 [屬性識別項](uiauto-entry-propids.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

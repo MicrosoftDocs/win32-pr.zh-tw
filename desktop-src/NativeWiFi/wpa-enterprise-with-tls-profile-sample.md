@@ -1,29 +1,29 @@
 ---
-description: 使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 搭配憑證來向網路 (WPA-Enterprise) 進行驗證。
+description: 使用可延伸的驗證通訊協定傳輸層級安全性 (eap-tls) 搭配憑證向網路驗證， (WPA Enterprise) 。
 ms.assetid: fceeae22-3761-48ab-a190-1a7b1568ed64
 title: 使用 TLS 設定檔的 WPA-Enterprise 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d6f236429c94e9602e173c2d6c3eb1e3bc8111f
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: a9ebb9fa779c1a1d9a4e77c20d462f31fcafc9ec562e47ae106386b58c112a1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619038"
 ---
 # <a name="wpa-enterprise-with-tls-profile-sample"></a>使用 TLS 設定檔的 WPA-Enterprise 範例
 
 此範例設定檔會使用可延伸的驗證通訊協定傳輸層級安全性 (EAP-TLS) 搭配憑證來向網路進行驗證。
 
-此範例設定為使用在企業模式下執行 Wi-Fi 保護的存取安全性 (WPA-Enterprise) 。 WPA-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。 時態性金鑰完整性通訊協定 (TKIP) 用於加密。
+此範例設定為使用 Wi-Fi 在 Enterprise 模式下執行的受保護存取安全性 (WPA Enterprise) 。 WPA-Enterprise 的安全性類型會使用 802.1 X 作為與後端的驗證交換。 時態性金鑰完整性通訊協定 (TKIP) 用於加密。
 
 EAP-TLS 認證是從憑證存放區取得。 如果以憑證存放區中的認證為基礎的驗證失敗，系統會提示使用者提供有效的認證。 如果第一次嘗試失敗，則不會使用替代的伺服器、根憑證授權單位或使用者名稱進行驗證。
 
 此無線設定檔範例中使用的 EAPHost 設定衍生自 [eap-tls 連線屬性](../eaphost/eap-tls-connection-properties.md) 範例。
 
-**安裝了無線局域網路服務的 windows 7 和 Windows Server 2008 R2：** 變更會在已安裝無線局域網路服務的 Windows 7 和 Windows Server 2008 R2 上執行，以將無線網路效能優化。 當無線局域網路設定檔中未設定此元素時， [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) 的預設設定已變更。 在安裝了無線局域網路服務的 Windows 7 和 Windows Server 2008 R2 上，預設設定會變更為 "false"。 Windows Server 2008 和 Windows Vista 上的預設設定為 "true"。 如需詳細資訊，請參閱 [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) 架構元素的描述。
+**安裝了無線局域網路服務 Windows 7 和 Windows Server 2008 R2：** 變更是在安裝了無線局域網路服務的 Windows 7 和 Windows Server 2008 R2 上執行，以將無線網路效能優化。 當無線局域網路設定檔中未設定此元素時， [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) 的預設設定已變更。 預設設定在 Windows 7 和已安裝無線局域網路服務 Windows Server 2008 R2 上變更為 "false"。 Windows Server 2008 和 Windows Vista 上的預設設定為 "true"。 如需詳細資訊，請參閱 [**autoSwitch**](wlan-profileschema-autoswitch-wlanprofile-element.md) 架構元素的描述。
 
-Windows **xp （含 SP3）和適用于 WINDOWS XP SP2 的無線區域網路 API：** 不支援 EAP-TLS。
+**Windows xp 搭配 SP3 和適用于 Windows XP SP2 的無線區域網路 API：** 不支援 EAP-TLS。
 
 ``` syntax
 <?xml version="1.0" encoding="US-ASCII"?>

@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - Root\interop
-ms.openlocfilehash: 8fdc0d8dccd325ae7e13de971e09cce6faf93455
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39cfa6dac2fd827b2ce690afa5cdd7126322c2f81182db674517c75911791a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118556808"
 ---
 # <a name="cim_referencedprofile-class"></a>CIM \_ ReferencedProfile 類別
 

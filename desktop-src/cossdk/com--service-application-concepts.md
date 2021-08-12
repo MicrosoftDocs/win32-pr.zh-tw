@@ -4,19 +4,19 @@ ms.assetid: d6b1cf4a-ca39-4d50-a33d-aa639937ef9e
 title: COM + 服務應用程式概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54b24db7a031ed0520f30891d98688af67e853ec
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f0d0cedae4af19825e6e48a0e2aded102f96bed0c08b45c48cfb2f7e3bbd52ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548764"
 ---
 # <a name="com-service-application-concepts"></a>COM + 服務應用程式概念
 
 您可以使用 [元件服務] 系統管理工具，將 COM + 伺服器應用程式設定為服務應用程式。 以服務方式執行 COM + 伺服器應用程式可提供下列優點：
 
 -   如果您的應用程式一律需要執行，則元件服務可以選擇性地自動啟動伺服器，也可以在伺服器超時時重新開機伺服器。例如，如果執行已排入佇列之元件接聽程式元件的電腦重新開機，則已排入佇列的元件接聽程式如果設定為服務，就可以自動啟動。
--   如果您的應用程式需要執行特殊許可權的作業，應用程式可以執行為本機系統帳戶。 只有 NT 服務可使用此層級的安全性來執行。 應用程式將與 Windows 叢集服務相容，這會在系統容錯移轉期間管理服務。
+-   如果您的應用程式需要執行特殊許可權的作業，應用程式可以執行為本機系統帳戶。 只有 NT 服務可使用此層級的安全性來執行。 應用程式將會與 Windows 的叢集服務相容，管理系統容錯移轉期間的服務。
 -   如果其他服務需要標記為相依的，則元件服務會提供該選項。 例如，如果您的應用程式使用其他服務所提供的功能，則會在應用程式啟動之前啟動標示為相依的服務。
 
 ## <a name="starting-an-application-automatically"></a>自動啟動應用程式

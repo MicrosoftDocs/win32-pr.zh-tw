@@ -4,12 +4,12 @@ ms.assetid: 73677573-945f-4646-89d8-93e28f7856fe
 title: 使用可轉移的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35982aafd486a62ce8560e507b8b6caf88e32591
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 49ad6906b3e5d29ba6c0e3f8e279f4a1df2d5578f931219b6962062efaabd375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622886"
 ---
 # <a name="using-transitive-components"></a>使用可轉移的元件
 

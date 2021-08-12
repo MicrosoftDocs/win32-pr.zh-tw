@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f83960751138ef477bf90269f345fd63f913ade6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6948de26a8850e5f8083bc8302ee0f778edd7490f488fb6435938ab032f50b2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118655844"
 ---
 # <a name="cimagedisplaym_display-member"></a>CImageDisplay：： m \_ 顯示成員
 

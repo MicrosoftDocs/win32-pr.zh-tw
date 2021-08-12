@@ -4,12 +4,12 @@ ms.assetid: 2bd8d651-e60e-409c-9257-5b30e212372e
 title: XMHALF4 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: afded103fc14c94396b476ae0448fd697c445955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c0feeeb54c2f9139f251965295fff15af25f56e7deb987f744d0a3edf20bb31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118277860"
 ---
 # <a name="xmhalf4-extensions"></a>XMHALF4 延伸模組
 

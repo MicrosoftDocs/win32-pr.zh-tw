@@ -4,16 +4,16 @@ description: 您可以使用 IDWriteTextFormat 介面的 SetTextAlignment 方法
 ms.assetid: 7f79dcff-11f6-4e74-b5bd-98bfebe6e393
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb765860f2fbaac94409aa9ec20c2269beb45cbb
-ms.sourcegitcommit: 3b9424e1dcd951b2a73e47de3c7f4d734de4263b
+ms.openlocfilehash: c3a9d73443577468d794e43dc62d19e7dd24a86227ba6b5e5d8c3542cdded8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106976307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650361"
 ---
 # <a name="how-to-align-text"></a>如何對齊文字
 
-您可以使用 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat)介面的 [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment)方法來對齊 [DirectWrite](direct-write-portal.md)文字，如下列將文字置中的程式碼所示。
+您可以使用 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat)介面的 [**SetTextAlignment**](/windows/win32/api/dwrite/nf-dwrite-idwritetextformat-settextalignment)方法來對齊 [DirectWrite](direct-write-portal.md)的文字，如下列將文字置中的程式碼所示。
 
 
 ```C++

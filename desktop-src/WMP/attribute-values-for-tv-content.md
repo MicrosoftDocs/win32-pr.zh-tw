@@ -6,22 +6,22 @@ keywords:
 - Windows Media Player，媒體專案的屬性
 - Windows Media Player 物件模型，媒體專案的屬性
 - 物件模型、媒體專案的屬性
-- Windows Media Player 行動裝置，媒體專案的屬性
+- Windows Media Player行動電話，媒體專案的屬性
 - Windows Media Player ActiveX 控制項、媒體專案的屬性
-- Windows Media Player 的行動 ActiveX 控制項、媒體專案的屬性
-- ActiveX 控制項、媒體專案的屬性
+- Windows Media Player行動 ActiveX 控制項、媒體專案的屬性
+- ActiveX 控制項，媒體專案的屬性
 - Windows Media Player 文件庫、媒體專案的屬性
 - 文件庫、媒體專案的屬性
 - 屬性、電視內容
 - 電視內容屬性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb63e872edd80944772a320da5f2094e6d8f5757
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fa96f855d90fe0b65c4e9483dcb2ba4ae3ff7be049f1346f1038097789b2126c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583029"
 ---
 # <a name="attribute-values-for-tv-content"></a>電視內容的屬性值
 
@@ -47,7 +47,7 @@ Windows Media Player 10 或更新版本可以組織媒體櫃中的電視內容�
 
 
 
- 
+ 
 
 您也可以使用這些值來判斷特定的數位媒體專案是否包含電視內容（使用 *媒體*）。**getItemInfo** 或 *媒體*。**getItemInfoByType** 方法。
 
@@ -71,7 +71,7 @@ media.setItemInfo("WM/MediaClassSecondaryID", "BA7F258A-62F7-47A9-B21F-4651C42A0
 
 
 
-如需媒體類別屬性可能值的詳細資訊，請參閱 [Windows Media 中繼資料使用指導方針](/previous-versions/ms867702(v=msdn.10))。
+如需媒體類別屬性可能值的詳細資訊，請參閱[Windows 媒體中繼資料使用指導方針](/previous-versions/ms867702(v=msdn.10))。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -86,9 +86,9 @@ media.setItemInfo("WM/MediaClassSecondaryID", "BA7F258A-62F7-47A9-B21F-4651C42A0
 [**媒體物件**](media-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

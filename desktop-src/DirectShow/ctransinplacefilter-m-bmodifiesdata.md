@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5bc0d630fd0eda6e9915f8c11f5b15d21b725ce8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7461f7f62a6cbd1fea2ff18f6e8f2e4b73825ea04cb9e3b0a679ee7cf15fef90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654877"
 ---
 # <a name="ctransinplacefilterm_bmodifiesdata-member"></a>CTransInPlaceFilter：： m \_ bModifiesData 成員
 

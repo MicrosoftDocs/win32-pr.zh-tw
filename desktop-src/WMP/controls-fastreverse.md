@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73e5a63c4299bf08c25e36e2d61924f3fb171792
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d4643525f66102cbd7b017a4a48f1068489062ec0849f197f1f55df45fc6f1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118580274"
 ---
 # <a name="controlsfastreverse-method"></a>FastReverse 方法
 
@@ -46,7 +46,7 @@ Controls.fastReverse()
 
 ## <a name="remarks"></a>備註
 
-**FastReverse** 方法會以正常速度的五倍反向掃描剪輯，如果是影片檔案，則只會顯示主要畫面格。 叫用 **fastReverse** 會變更 *設定*。**rate** 屬性為5.0。 如果之後變更了 **速率** ，或呼叫了 **播放** 或 **停止** ，Windows Media Player 將會停止快速反轉。
+**FastReverse** 方法會以正常速度的五倍反向掃描剪輯，如果是影片檔案，則只會顯示主要畫面格。 叫用 **fastReverse** 會變更 *設定*。**rate** 屬性為5.0。 如果之後變更了 **速率**，或呼叫了 **播放** 或 **停止**，Windows Media Player 將會停止快速反轉。
 
 如果專案是播放清單的一部分， **fastReverse** 就會在目前的播放軌開始時停止。比方說，如果 track 3 是在 **fastReverse** 中，當到達 track 3 的開頭時，Windows Media Player 將不會移至「追蹤2」。 呼叫 **fastReverse** 時，播放次數不會遞增。
 
@@ -102,7 +102,7 @@ Controls.fastReverse()
 [**控制項。停止**](controls-stop.md)
 </dt> <dt>
 
-[**設定。費率**](settings-rate.md)
+[**設定。速率**](settings-rate.md)
 </dt> </dl>
 
  

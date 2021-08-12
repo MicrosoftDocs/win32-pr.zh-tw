@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6a61b8e1e09e749579f323d506371138b0d9b59
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 5012cd94c14532eb94eb452c9c7aa20d50ffb8a447c2d14f56e8c6df02456849
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572416"
 ---
 # <a name="playerstringcollectionchange-event"></a>StringCollectionChange 事件
 
@@ -89,7 +89,7 @@ Number (long) ，其中包含已變更之字串收集項目的索引。
 
 **Windows Media Player 10** 行動裝置版：不支援這個事件。
 
-## <a name="requirements"></a>需求
+## <a name="requirements"></a>規格需求
 
 
 

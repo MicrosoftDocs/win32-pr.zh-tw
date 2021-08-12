@@ -4,12 +4,12 @@ ms.assetid: 212e34d8-573f-4443-b1ce-358e982d4861
 title: 使用隔離的元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c25f17b255b2792a0b708d66cd8d70aec5e6bba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b20662b15fff0a755f661d7f68154fd8934d398227b3d00f95ba3f288e4095dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943446"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622934"
 ---
 # <a name="using-isolated-components"></a>使用隔離的元件
 

@@ -4,17 +4,17 @@ ms.assetid: f8d06a30-d6d5-43b9-b838-741d781f8d01
 title: CurrentVolume 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7b91c394be620dfc3f00b8793222848131355f2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d07f9d82facc243654bad2e16e9a028e8cf920a51f15dd92cc879b0ea1340d68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654599"
 ---
 # <a name="currentvolume-property"></a>CurrentVolume 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

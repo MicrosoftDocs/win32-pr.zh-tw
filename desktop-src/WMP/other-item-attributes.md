@@ -4,22 +4,22 @@ description: 其他專案屬性
 ms.assetid: 18090c66-32a1-42af-b4a1-e3d539491e19
 keywords:
 - Windows Media Player，其他專案屬性
-- Windows Media Player Mobile，其他專案屬性
+- Windows Media PlayerMobile，其他專案屬性
 - Windows Media Player 物件模型，其他專案屬性
 - 物件模型、其他專案屬性
 - ActiveX 控制項，其他專案屬性
 - Windows Media Player ActiveX 控制項，其他專案屬性
-- Windows Media Player 的行動 ActiveX 控制項，其他專案屬性
+- Windows Media PlayerMobile ActiveX 控制項，其他專案屬性
 - 物件模型、其他專案屬性的參考
 - 屬性、其他專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28622c9a55091376f618874889b8d2e6897e2172
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c64a3289cec8490c801a530f001aef818498239864b34bfa7e81601b4f1d226
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573701"
 ---
 # <a name="other-item-attributes"></a>其他專案屬性
 
@@ -64,9 +64,9 @@ ms.locfileid: "106966383"
 [**屬性參考**](attribute-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

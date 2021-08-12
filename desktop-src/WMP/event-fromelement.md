@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 03f78a1240e166b4304be6e88c605d72dc6c4f23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3eac363efa39a23b2cafd2130a1cb13a4375f643fce79159bf6d34ebde1f6736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577232"
 ---
 # <a name="eventfromelement"></a>fromElement
 

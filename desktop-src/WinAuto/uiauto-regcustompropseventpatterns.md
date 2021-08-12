@@ -24,12 +24,12 @@ keywords:
 - 執行模式處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b6b157e8f08a2c0be74af6b9f53d3578d1e4d03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7205d088f76f235b3078d5a053202f3d39b609389ef6adbc5dbdbca18d9b652b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564051"
 ---
 # <a name="register-custom-properties-events-and-control-patterns"></a>註冊自訂屬性、事件和控制項模式
 
@@ -113,7 +113,7 @@ HRESULT RegisterProperty()
 > [!IMPORTANT]
 > 如果您的程式碼是 Microsoft Active Accessibility (MSAA) 用戶端，則當您變更自訂屬性的值時，必須呼叫 [**NotifyWinEvent**](/windows/desktop/api/Winuser/nf-winuser-notifywinevent) 函數。
 
- 
+ 
 
 ## <a name="implementing-custom-control-patterns"></a>執行自訂控制項模式
 
@@ -122,7 +122,7 @@ HRESULT RegisterProperty()
 > [!Note]  
 > 下列主題中的範例將說明如何執行自訂控制項模式，以複製現有 [值](uiauto-implementingvalue.md) 控制項模式的功能。 這些範例僅供教學之用。 實際的自訂控制項模式應該提供標準消費者介面自動化控制項模式無法使用的功能。
 
- 
+ 
 
 ### <a name="the-client-wrapper-and-the-pattern-handler"></a>用戶端包裝函式和模式處理常式
 
@@ -534,6 +534,6 @@ HRESULT RegisterPattern()
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

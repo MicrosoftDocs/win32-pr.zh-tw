@@ -8,28 +8,28 @@ keywords:
 - 物件模型、CD 翻錄
 - Windows Media Player ActiveX 控制項、CD 翻錄
 - ActiveX 控制項，CD 翻錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 翻錄
-- Windows Media Player 行動電話、CD 翻錄
+- Windows Media PlayerMobile ActiveX control、CD 翻錄
+- Windows Media Player行動電話、CD 翻錄
 - CD 翻錄、IWMPPlayerServices setTaskPane 介面
 - 翻錄 Cd、IWMPPlayerServices setTaskPane 介面
 - IWMPPlayerServices setTaskPane 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfb1a09d67f310266ae4818bc0b594fe3b74d128
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2abf53d29284b5da629598e6f23d6dcae78c69c60c23ba07f30445d5252845e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104462777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118569831"
 ---
 # <a name="ripping-by-using-iwmpplayerservicessettaskpane"></a>使用 IWMPPlayerServices：： setTaskPane 進行翻錄
 
 > [!Note]  
-> 本節記載 Windows Media Player 9 系列和 Windows Media Player 10 個 ActiveX 控制項的功能。 建議您在較新的版本中使用 **IWMPCdromRip** 介面。 請參閱 [IWMPCdromRip 介面](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip)。
+> 本節記載 Windows Media Player 9 系列和 Windows Media Player 10 ActiveX 控制項的功能。 建議您在較新的版本中使用 **IWMPCdromRip** 介面。 請參閱 [IWMPCdromRip 介面](/previous-versions/windows/desktop/api/wmp/nn-wmp-iwmpcdromrip)。
 
- 
+ 
 
-您可以使用 Windows Media Player 9 系列或更新版本的控制項，將 CD 曲目複製到使用者的電腦。 此進程稱為「 *翻錄*」。 若要這樣做，您必須在遠端模式中內嵌 Windows Media Player 控制項。 如需遠端模式的詳細資訊，請參閱遠端 [處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。
+您可以使用 Windows Media Player 9 系列或更新版本的控制項，將 CD 曲目複製到使用者的電腦。 此進程稱為「 *翻錄*」。 若要這樣做，您必須在遠端模式中內嵌 Windows Media Player 控制項。 如需遠端模式的詳細資訊，請參閱遠端[處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)。
 
 若要開始進行翻錄程式，請呼叫 [IWMPPlayerServices：： setTaskPane](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpplayerservices-settaskpane)，並傳遞 CopyFromCD？自動]： *bstrTaskPane* 參數的 *識別碼* 值，其中 *id* 是要複製之來源 CD 光碟機的索引。 此索引對應于 **IWMPCdromCollection** 介面或 **CdromMediaChange** 事件中之 **Cdrom** 物件的索引。
 
@@ -268,9 +268,9 @@ void CMyApp::MediaChange(IDispatch * Item)
 [**使用 IWMPCdromRip 介面進行翻錄**](ripping-by-using-the-iwmpcdromrip-interface.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

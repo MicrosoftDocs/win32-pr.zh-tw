@@ -6,23 +6,23 @@ keywords:
 - Windows Media Player，同步播放清單
 - Windows Media Player 物件模型，同步播放清單
 - 物件模型，同步處理播放清單
-- Windows Media Player 行動裝置、同步播放清單
-- Windows Media Player ActiveX 控制項，同步播放清單
-- Windows Media Player 的行動 ActiveX 控制項、同步播放清單
+- Windows Media Player行動裝置，同步播放清單
+- Windows Media Player ActiveX 控制項、同步播放清單
+- Windows Media Player行動 ActiveX 控制項、同步播放清單
 - ActiveX 控制項，同步播放清單
 - 播放清單，同步處理
 - 中繼檔播放清單，同步處理
-- Windows Media 中繼檔播放清單，同步處理
+- Windows媒體中繼檔播放清單，同步處理
 - 可攜式裝置，判斷同步播放清單的狀態
 - 同步播放清單，同步處理狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9758cfbb73c698a40d6d4f48e645e57750d8a332
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: a14af59f66d1b21eac00208ecc805f756761256e47a35042694bcd65e6f96558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106996362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579457"
 ---
 # <a name="determining-playlist-synchronization-state"></a>判斷播放清單同步處理狀態
 
@@ -109,9 +109,9 @@ STDMETHODIMP CSyncSettings::GetPartnershipSyncState(IWMPMedia* pMedia, long lPsI
 [**SyncState 屬性**](syncstate-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

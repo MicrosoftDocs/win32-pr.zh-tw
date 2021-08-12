@@ -4,12 +4,12 @@ description: 針對三種環境對應，cube 的一或多個臉部會使用未�
 ms.assetid: a77234f6-ba10-40dd-902f-33e600384aa5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235749bc0cf95a2e2120f66f3bcfb8a46e158628
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 97a51526570a775eb0cff8ec5ed665ac3dc4b218a876743b29e983bd9c03e9ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118289860"
 ---
 # <a name="dds-cube-map-example"></a>DDS Cube 對應範例
 
@@ -36,11 +36,11 @@ ms.locfileid: "104507296"
 
 
 
- 
+ 
 
 從 DirectX 8 開始，會儲存 cube 對應和所有定義的臉部。
 
-## <a name="dxgi-cube-maps"></a>DXGI Cube 對應
+## <a name="dxgi-cube-maps"></a>DXGI Cube 地圖
 
 Direct3D 10. x 和 Direct3D 11 中的三層環境對應相當於具有6個影像的2D 材質陣列，而且可以像這樣儲存在 DDS 檔案中。 使用 Direct3D 10.1 和 Direct3D 11 時，硬體也可以支援 cubemaps 陣列，也就是具有6個影像的倍數的2D 材質陣列 (6、12、18、24等 ) 。
 
@@ -69,7 +69,7 @@ Direct3D 10. x 和 Direct3D 11 中的三層環境對應相當於具有6個影像
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -78,9 +78,9 @@ Direct3D 10. x 和 Direct3D 11 中的三層環境對應相當於具有6個影像
 [DDS 程式設計指南](dx-graphics-dds-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

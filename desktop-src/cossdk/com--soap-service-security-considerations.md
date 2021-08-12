@@ -4,12 +4,12 @@ ms.assetid: c4f7744c-ff57-4d9d-8632-7e5bbb73449a
 title: COM + SOAP 服務安全性考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a238860e154e9928672a64ef44f9db37e9c8ad2c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c67e034dfeaa4ec7f8688420aafcaec434653c942665ec3e3cbaa1535b51980d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847549"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548547"
 ---
 # <a name="com-soap-service-security-considerations"></a>COM + SOAP 服務安全性考慮
 

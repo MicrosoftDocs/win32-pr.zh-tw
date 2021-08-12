@@ -4,12 +4,12 @@ ms.assetid: 96531830-2df1-40d4-af46-09b1ca153834
 title: " (Direct3D 9) 的霧化類型"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b5dd845373ac4a42a32ab7a9965501df4894568
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cdde2f4dd10ea468b72c1ac91e6a43326ccac81a459a893b5235a43d4428ff38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297538"
 ---
 # <a name="fog-types-direct3d-9"></a> (Direct3D 9) 的霧化類型
 

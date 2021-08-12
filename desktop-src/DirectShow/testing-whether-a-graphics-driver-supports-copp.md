@@ -4,12 +4,12 @@ ms.assetid: e3e1c795-5cfa-4e4b-86aa-948dd2bf91a4
 title: 測試圖形驅動程式是否支援 COPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f98a5bfc3f577d1acb45969ec5d10503ae87b27a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22280f880ba01a8e51acda74a2a46dff595d5569f885ce1da3a3631bacd8db06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118651828"
 ---
 # <a name="testing-whether-a-graphics-driver-supports-copp"></a>測試圖形驅動程式是否支援 COPP
 
@@ -17,7 +17,7 @@ ms.locfileid: "106987722"
 
 不過，您可能會想要檢查圖形驅動程式是否支援 COPP，而不需驗證憑證。 例如，當數位媒體提供者發出數位版權管理 (DRM) 授權時，可能會想要檢查使用者是否有已啟用 COPP 的圖形驅動程式。 提供者不需要在發出授權時強制執行 COPP;它只需要測試驅動程式是否支援 COPP。
 
-下列程式碼顯示如何測試驅動程式是否支援 COPP。 應用程式必須傳入將用來測試驅動程式的影片檔案名。 這是必要的，因為在連線到篩選器之前，Microsoft® DirectShow®的影片混合轉譯器篩選器不會將 COPP 會話初始化。 此函數可以包含在用戶端應用程式中，以檢查驅動程式是否能夠執行 COPP。
+下列程式碼顯示如何測試驅動程式是否支援 COPP。 應用程式必須傳入將用來測試驅動程式的影片檔案名。 這是必要的，因為 Microsoft® DirectShow®的影片混合轉譯器篩選器在連接篩選器之前，不會將 COPP 會話初始化。 此函數可以包含在用戶端應用程式中，以檢查驅動程式是否能夠執行 COPP。
 
 > [!Note]  
 > 如果使用者的電腦有兩個圖形配接器，此函式會測試主要圖形配接器的驅動程式，而不是次要圖形配接器的驅動程式。

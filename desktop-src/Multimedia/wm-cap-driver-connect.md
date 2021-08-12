@@ -3,7 +3,7 @@ title: 'WM_CAP_DRIVER_CONNECT 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ 驅動程式連線 \_ ] 訊息會將捕獲視窗連接至 capture 驅動程式。 您可以使用 capDriverConnect 宏明確地傳送此訊息。'
 ms.assetid: 8804bb3c-d06c-4ddc-b116-3d292205a52d
 keywords:
-- WM_CAP_DRIVER_CONNECT message Windows 多媒體
+- WM_CAP_DRIVER_CONNECT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d73fdeb89968926429f7225912e3d1b3b348e287
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8b0e54d496302488db653505321778bcd22546bd2ed9b2180aa0e15cb6969f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622627"
 ---
 # <a name="wm_cap_driver_connect-message"></a>WM \_ CAP \_ 驅動程式 \_ 連接訊息
 

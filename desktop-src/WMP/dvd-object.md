@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 656b08f90f3b6878cfde2a526ddf682a82dd8498
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: e7d399a3d62eb2d37402db599bd5d3303e5e978ab6ab5fbfee4b4c8970c9e836
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118579060"
 ---
 # <a name="dvd-object"></a>DVD 物件
 
@@ -35,7 +35,7 @@ ms.locfileid: "104373471"
 
 
 
- 
+ 
 
 **DVD** 物件支援下列方法。
 
@@ -50,7 +50,7 @@ ms.locfileid: "104373471"
 
 
 
- 
+ 
 
 **DVD** 物件可透過下列屬性來存取。
 
@@ -62,7 +62,7 @@ ms.locfileid: "104373471"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -71,9 +71,9 @@ ms.locfileid: "104373471"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

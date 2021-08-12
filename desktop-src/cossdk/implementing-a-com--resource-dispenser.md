@@ -4,12 +4,12 @@ ms.assetid: 083c5962-f55a-435a-964e-fdc868f9bd3d
 title: 執行 COM + 資源配置器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a81e189f3bfc5025bc949ef6e5bc82bf9408c339
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7b9c37de2a4910af908bdc3f2e38f1c1b55699b133a59a818b8a09236f8c0a38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547890"
 ---
 # <a name="implementing-a-com-resource-dispenser"></a>執行 COM + 資源配置器
 

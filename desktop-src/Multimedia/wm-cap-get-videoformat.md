@@ -3,7 +3,7 @@ title: 'WM_CAP_GET_VIDEOFORMAT 訊息 (Vfw .h) '
 description: WM \_ CAP \_ GET \_ VIDEOFORMAT 訊息會取得使用中的影片格式或影片格式所需大小的複本。 您可以使用 capGetVideoFormat 和 capGetVideoFormatSize 宏明確地傳送此訊息。
 ms.assetid: ac72dfdb-fe1a-4007-bdce-41e5e67d076a
 keywords:
-- WM_CAP_GET_VIDEOFORMAT message Windows 多媒體
+- WM_CAP_GET_VIDEOFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 072d71366efee550b037d4a20388817954937854
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: afae3ea79b29cad6a758272f8f3952fdfb830a2b3d6d60f9fc5b4ca5042179fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622617"
 ---
 # <a name="wm_cap_get_videoformat-message"></a>WM \_ CAP \_ 取得 \_ VIDEOFORMAT 訊息
 

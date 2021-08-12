@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d1071fbbb9eba6bf6ebf0d74d4caaac50e1ccce4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b66ccc002372159540895dfbe95786921266320bb4d3a4e6827085ae7822c12c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589623"
 ---
 # <a name="filterlisttype-complex-type"></a>FilterListType 複雜類型
 
@@ -40,7 +40,7 @@ ms.locfileid: "104317463"
 
 
 
-| 元素    | 類型                                                             | Description                   |
+| 元素    | 類型                                                             | 描述                   |
 |------------|------------------------------------------------------------------|-------------------------------|
 | **filter** | [**FilterType**](eventmanifestschema-filtertype-complextype.md) | 篩選準則的清單。<br/> |
 
@@ -56,8 +56,8 @@ ETW 控制器是一種應用程式，可呼叫 [**StartTrace**](/windows/desktop
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

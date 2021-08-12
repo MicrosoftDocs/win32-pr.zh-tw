@@ -4,12 +4,12 @@ ms.assetid: 0a575efe-968c-48ab-a446-0d910ecb5708
 title: 關於群組 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e0c14e2731dd133afac32f2cd21905fa7e0c5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5b4cd1b2783d7605f9198e3c8171177e70b531944a8f2f707def5750dd6d985
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612792"
 ---
 # <a name="about-the-grouping-api"></a>關於群組 API
 
@@ -27,7 +27,7 @@ ms.locfileid: "106989414"
 | [如何使用群組](how-to-work-with-groups.md)               | 說明對等群組應用程式中從啟動到關機的呼叫流程。         |
 | [群組安全性的運作方式](how-group-security-works.md)             | 描述對等群組成員資格和資料交換如何受到保護。                      |
 | [邀請對等群組](inviting-a-peer-to-a-group.md)         | 描述對等受邀並新增至對等群組的進程。              |
-| [如何連接至對等群組](how-to-connect-to-a-peer-group.md) | 描述對等互連如何連接至對等群組並與之互動。                        |
+| [如何連線到對等群組](how-to-connect-to-a-peer-group.md) | 描述對等互連如何連接至對等群組並與之互動。                        |
 | [管理群組記錄](managing-group-records.md)                 | 描述對等群組記錄，以及如何以成員和系統管理員的身分來管理它們。 |
 
 

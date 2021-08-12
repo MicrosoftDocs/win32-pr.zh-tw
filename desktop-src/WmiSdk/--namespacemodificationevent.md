@@ -19,12 +19,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 5af5783d3ebfbfb4b7842cb86b1919f8dbed1365
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3243afe0a8cae34e83ad85e2d89a3becab8d07775ba3ec0c3283fd4ea8ed8bbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118557811"
 ---
 # <a name="__namespacemodificationevent-class"></a>\_\_NamespaceModificationEvent 類別
 

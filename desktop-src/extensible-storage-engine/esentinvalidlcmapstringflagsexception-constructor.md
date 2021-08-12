@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4963f1f0bfc4dc81752b8f997fc893e91bd89d9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8373e1a9ec8a151b4472a5af34bbad4612e872136232188e5e6bfb0bc76dddc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118265745"
 ---
 # <a name="esentinvalidlcmapstringflagsexception-constructor"></a>EsentInvalidLCMapStringFlagsException 函式
 

@@ -3,7 +3,7 @@ title: 'WM_CAP_GRAB_FRAME_NOSTOP 訊息 (Vfw .h) '
 description: '[WM \_ 端點 \_ 抓取 \_ 框架] \_ NOSTOP 訊息會以單一未壓縮的框架（取自捕獲裝置）填滿框架緩衝區，並加以顯示。'
 ms.assetid: 5f6e3ce7-3595-456e-82c8-eeb162ace81a
 keywords:
-- WM_CAP_GRAB_FRAME_NOSTOP message Windows 多媒體
+- WM_CAP_GRAB_FRAME_NOSTOP 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5073cf5eae44f564d24cd1ebb67193d8738fd77b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b81c581ad7e3913640271b32b18791ebf7b48ed09cd365af82ed263449f05471
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622597"
 ---
 # <a name="wm_cap_grab_frame_nostop-message"></a>WM \_ CAP \_ 抓取 \_ 框架 \_ NOSTOP 訊息
 

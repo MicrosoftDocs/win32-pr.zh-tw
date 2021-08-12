@@ -4,12 +4,12 @@ ms.assetid: 774fcb12-8928-4667-8ef6-dce86717cc29
 title: 步驟3A。 執行 CheckInputType 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c5eb6ff440838d7a4b65b586e5dba963ff254eef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692175e0def453f86b618a355044e4a117a4343fed56f029704091134e8bc31f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118652138"
 ---
 # <a name="step-3a-implement-the-checkinputtype-method"></a>步驟3A。 執行 CheckInputType 方法
 
@@ -17,7 +17,7 @@ ms.locfileid: "106988941"
 
 當上游篩選準則向轉換篩選器提出媒體類型時，就會呼叫 [**CTransformFilter：： CheckInputType**](ctransformfilter-checkinputtype.md) 方法。 這個方法會採用 [**CMediaType**](cmediatype.md) 物件的指標，這是 [**AM \_ 媒體 \_ 類型**](/windows/win32/api/strmif/ns-strmif-am_media_type) 結構的精簡型包裝函式。 在這個方法中，您應該檢查 **AM \_ 媒體 \_ 類型** 結構的每個相關欄位，包括格式區塊中的欄位。 您可以使用 **CMediaType** 中定義的存取子方法，或直接參考結構成員。 如果有任何欄位無效，則傳回 \_ \_ \_ 不接受的 VFW E 類型 \_ 。 如果整個媒體類型都有效，請返回 \_ [確定]。
 
-例如，在 RLE 編碼器篩選器中，輸入類型必須是8位或4位未壓縮的 RGB 影片。 由於篩選準則必須將它們轉換成較低的位深度，而 DirectShow 已經為該用途提供 [色彩空間轉換器](color-space-converter-filter.md) 篩選，因此不支援其他輸入格式，例如16或24位 RGB。 下列範例假設編碼器支援8位的影片，但不支援4位的影片：
+例如，在 RLE 編碼器篩選器中，輸入類型必須是8位或4位未壓縮的 RGB 影片。 由於篩選準則必須將它們轉換成較低的位深度，而 DirectShow 已經為該用途提供[色彩空間轉換器](color-space-converter-filter.md)篩選，因此不支援其他輸入格式，例如16或24位 RGB。 下列範例假設編碼器支援8位的影片，但不支援4位的影片：
 
 
 ```C++
@@ -78,7 +78,7 @@ pbFormat
 
 <dl> <dt>
 
-[撰寫 DirectShow 篩選器](writing-directshow-filters.md)
+[撰寫 DirectShow 篩選](writing-directshow-filters.md)
 </dt> </dl>
 
  

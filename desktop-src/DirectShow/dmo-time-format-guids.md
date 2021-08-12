@@ -1,23 +1,23 @@
 ---
 description: 下表列出 (Guid) 針對媒體參數時間格式定義的全域唯一識別碼。
 ms.assetid: 1622c5bb-94f7-4bbb-8564-d7180b37c910
-title: )  (的 Medparam 時間格式 Guid
+title: 'DMO時間格式 Guid (Medparam .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2559c702ed7310343aea017bacec28a154ab3cb9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e55c74a0c52e9af0c4536d2a6c9c45b303e0bae57b39b679aec02f0e0769624c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653048"
 ---
-# <a name="dmo-time-format-guids"></a>SQL-DMO 時間格式 Guid
+# <a name="dmo-time-format-guids"></a>DMO時間格式 Guid
 
 下表列出 (Guid) 針對媒體參數時間格式定義的全域唯一識別碼。
 
 
 
-| GUID                                                                                                                                                                             | Description                                         |
+| GUID                                                                                                                                                                             | 描述                                         |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------|
 | <span id="GUID_TIME_MUSIC"></span><span id="guid_time_music"></span><dl> <dt>**GUID \_ 時間 \_ 音樂**</dt> </dl>             | 音樂時間，每季的部分注意事項。<br/>   |
 | <span id="GUID_TIME_REFERENCE"></span><span id="guid_time_reference"></span><dl> <dt>**GUID \_ 時間 \_ 參考**</dt> </dl> | 參考時間，以 100-毫微秒單位表示。<br/> |
@@ -39,7 +39,7 @@ ms.locfileid: "107000437"
 
 <dl> <dt>
 
-[**SQL-DMO 常數**](dmo-constants.md)
+[**DMO常數**](dmo-constants.md)
 </dt> </dl>
 
  

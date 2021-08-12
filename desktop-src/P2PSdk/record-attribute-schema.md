@@ -4,12 +4,12 @@ ms.assetid: 2991af9b-da32-4915-b4d6-575e3faac04e
 title: 記錄屬性架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eefa8c4c8b00b09e9c8cb988088af645e9f9c967
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3597369d7214b51b94a74b777315bb2ce2beb280232be5fb29571376ad3fc93e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118612309"
 ---
 # <a name="record-attribute-schema"></a>記錄屬性架構
 
