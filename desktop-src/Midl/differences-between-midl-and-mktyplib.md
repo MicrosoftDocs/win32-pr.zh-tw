@@ -7,19 +7,19 @@ keywords:
 - Mktyplib.exe MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a54b6103cc230e1c5e6700b0ddc93312c767f9b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 43ae20e00dab492a140f48c9de683abeac04676824bd6513ccf086889b4460e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643622"
 ---
 # <a name="differences-between-midl-and-mktyplib"></a>MIDL 與 Mktyplib.exe 之間的差異
 
 > [!Note]  
 > Mktyplib.exe 工具已淘汰。 請改用 MIDL 編譯器。
 
- 
+ 
 
 MIDL 編譯器與 Mktyplib.exe 有幾個重要區域。 因為 MIDL 的方向比 Mktyplib.exe 更接近 C 語法，所以會發生這些差異。
 
@@ -123,9 +123,9 @@ MIDL 編譯器與 Mktyplib.exe 有幾個重要區域。 因為 MIDL 的方向比
 
 如需詳細資訊，請參閱 [**/mktyplib203**](-mktyplib203.md)、 [**/Iid**](-iid.md)和 [封送處理 OLE 資料類型](marshaling-ole-data-types.md)。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_PCMCIAController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01306b2c1def014810cfcee88eab38e8c1d9110b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 50142553d22e8cdad58c02ea2e9f1812af99e25e76735084c59e1947e4007fe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678938"
 ---
 # <a name="cim_pcmciacontroller-methods"></a>CIM \_ PCMCIAController 方法
 

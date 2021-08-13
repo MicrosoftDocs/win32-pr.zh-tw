@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 51961bd1300157eef4acb4dd15484d5146a166f7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d445f2250ec29dbc4b964fecf538a4272985d2396c3cd0e605ca751aa810b3d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535916"
 ---
 # <a name="id3dx11effectdepthstencilviewvariable-interface"></a>ID3DX11EffectDepthStencilViewVariable 介面
 

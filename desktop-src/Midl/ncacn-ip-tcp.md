@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1adb57951e862ebcdfa6889aae170bfdf5a14f96
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c34ba0a872af79245469818121761a38d356316b53a31743f9ebf2cd66f72325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106967479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642227"
 ---
 # <a name="ncacn_ip_tcp-attribute"></a>ncacn \_ ip \_ tcp 屬性
 
@@ -91,6 +91,6 @@ endpoint("ncacn_ip_tcp:128.10.2.30[1404]")
 [**字串系結**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

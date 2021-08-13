@@ -4,12 +4,12 @@ ms.assetid: 26cc5e15-8dfd-4bf5-8830-225164302278
 title: ModuleAdminExecuteSequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e0f062f552f92ec667a2889d2bf26a98900e152
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e820c721fbbaa7d8925b07ee584cbb0b97fee66eac05fd7b8dafbe38f3f319d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628714"
 ---
 # <a name="moduleadminexecutesequence-table"></a>ModuleAdminExecuteSequence 資料表
 

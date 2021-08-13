@@ -4,12 +4,12 @@ ms.assetid: 2eb00fe5-e441-4fce-9623-81a089269a2b
 title: 使用 Windows Installer 設定新增/移除程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6850163e18af94aa9cceaf6c4bb2e8059dcf2121
-ms.sourcegitcommit: 4af3e9ec3142ba499d20ed8b174c2b219c5eacd2
+ms.openlocfilehash: 99e1393eb586cfe1067840e4622fddd777a84512f55f9e82f7c9fad3b1f5688f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/30/2021
-ms.locfileid: "106995126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638747"
 ---
 # <a name="configuring-addremove-programs-with-windows-installer"></a>使用 Windows Installer 設定新增/移除程式
 

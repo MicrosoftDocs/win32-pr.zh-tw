@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 283dbf37ae168a7130c3c5a86a484ee19e90a5c1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 18d192f929e34961f3aaf3659aadf782b6194af6958a21c284213ad109451807
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681681"
 ---
 # <a name="role-occupant-attribute"></a>Role-Occupant 屬性
 

@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: a3dc1b58dd97582e229497e754d10c3f307eab76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce3126cf208032e4d43e9ce1866e1cd0ab42c17930684c98d4ad351de88713b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647366"
 ---
 # <a name="cim_storageextent-class-hyper-v-management"></a>CIM_StorageExtent 類別 (Hyper-v 管理) 
 
@@ -144,7 +144,7 @@ class CIM_StorageExtent : CIM_LogicalDevice
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Bytes" ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 主機存放裝置 \| 001.4 "，" MIB。IETF \| 主機-RESOURCES-hrStorageAllocationUnits "，" MIF。DMTF \| 儲存裝置 \| 001.5」 ) 
+限定詞：[**單位**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Bytes" ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 主機儲存體 \| 001.4 "，" MIB。IETF \| 主機-RESOURCES-hrStorageAllocationUnits "，" MIF。DMTF \| 儲存體裝置 \| 001.5」 ) 
 </dt> </dl>
 
 形成儲存範圍之區塊的大小（以位元組為單位）。 如果使用變數區塊大小，則此屬性應指定最大區塊大小。 如果區塊大小未知或區塊概念無效 (例如，對於 **cim \_ AggregateExtent**、 [**cim \_ 記憶體**](cim-memory.md) 或 [**cim \_ LogicalDisk**](cim-logicaldisk.md)) ，則此屬性應該設為 "1" (未知) 。
@@ -658,7 +658,7 @@ Name 屬性的命名空間。
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 主機存放裝置 \| 001.5 "，" MIB。IETF \| 主機-RESOURCES-hrStorageSize ") 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 主機儲存體 \| 001.5 "，" MIB。IETF \| 主機-RESOURCES-hrStorageSize ") 
 </dt> </dl>
 
 形成儲存區的邏輯連續區塊總數。 儲存區的總大小是藉由 **NumberOfBlocks** 來乘以 **區塊** 來計算。 如果 **區塊** 值為 "1"，則此屬性為儲存區的總大小。

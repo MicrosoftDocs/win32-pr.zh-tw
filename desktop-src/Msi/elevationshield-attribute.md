@@ -4,12 +4,12 @@ ms.assetid: ec52d660-eb83-4f27-b640-ea89156260aa
 title: ElevationShield 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4c580beefd1d2c0a80b0ee63b7a44e58a2a2fae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce4c5da7133a7216386be56328c0e21e2e365129caa185e045984cb5e89b7d95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637488"
 ---
 # <a name="elevationshield-attribute"></a>ElevationShield 屬性
 

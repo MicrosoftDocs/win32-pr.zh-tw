@@ -4,12 +4,12 @@ ms.assetid: 65fe46d7-16b6-46ef-a440-73f954b03105
 title: '取得和設定屬性 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0154b84af656d295b9fa84ebcca881eab1c288f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1009fc9370a870c53b3fe5ad471f52dea195648b36bab28dff76fe1271283be1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635948"
 ---
 # <a name="getting-and-setting-properties-windows-installer"></a>取得和設定屬性 (Windows Installer) 
 

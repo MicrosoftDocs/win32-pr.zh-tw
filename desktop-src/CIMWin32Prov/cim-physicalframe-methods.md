@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_PhysicalFrame 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c7c24f8a44686a7f57e1ad8c5d25c711171dc82
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1eda80994215f569258923f0138ce9509f8680872bb6ad51e9cb14727d477e7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678134"
 ---
 # <a name="cim_physicalframe-methods"></a>CIM \_ PhysicalFrame 方法
 

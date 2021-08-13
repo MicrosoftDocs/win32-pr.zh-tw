@@ -4,22 +4,22 @@ ms.assetid: f521cfb8-32a8-4b62-b258-5b99cc3e0416
 title: MUI 快捷方式範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0392713c1eaedabaa989baecd79478a9b329e955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3b38f674a63e854fbcd4439229c5aded5b0efe6cfc17d3e475f8a52f30db949
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640285"
 ---
 # <a name="a-mui-shortcut-example"></a>MUI 快捷方式範例
 
-本節說明如何將資源字串加入 Windows Installer 的 [快捷方式](shortcut-table.md) 資料表中，以供 (MUI) 的多語系使用者介面使用。
+本節說明如何將資源字串加入 Windows Installer 的[快捷方式](shortcut-table.md)資料表中，以供 (MUI) 的多語系使用者介面使用。
 
 **Windows Installer 2.0 和 Windows Installer 3.0：** 不支援。 此範例需要 Windows Installer 4.0。
 
-如需如何開發具備 MUI 功能的應用程式的相關資訊，請參閱 [多語系消費者介面 (MUI) ](/windows/desktop/Intl/multilingual-user-interface) 檔。
+如需如何開發具備 MUI 功能的應用程式的相關資訊，請參閱[多語系消費者介面 (MUI) ](/windows/desktop/Intl/multilingual-user-interface)檔。
 
-若要將 Windows Vista 多語系使用者介面所使用的資源字串新增至 Windows Installer 套件：
+將 Windows Vista 多語系使用者介面所使用的資源字串新增至 Windows Installer 封裝：
 
 1.  將所有語言中性和語言檔案的資訊新增至檔案 [資料表](file-table.md)。 例如，檔案可能包含語言中性檔案 (msimsg.dll) 和英文的語言檔案（英文） (msimsgen.dll mui) 、日文 (msimsgja.dll mui) 和中文 (msimsgcs.dll mui) 。 每個檔案都可以屬於不同的元件。 每個檔案都可以同時具有完整和簡短的檔案名。 在此範例中，您可以將下列資訊新增至檔案 [資料表](file-table.md)。
 
@@ -96,7 +96,7 @@ ms.locfileid: "106988761"
 
     
 
-    | 功能               | 功能 \_ 父系       | 標題                 | 屬性 |
+    | 功能               | 功能 \_ 父系       | Title                 | 屬性 |
     |-----------------------|-----------------------|-----------------------|------------|
     | FeatureParent1 \_ 本機 |                       | FeatureParent1 \_ 本機 | 16         |
     | FeatureChild1 \_ 本機  | FeatureParent1 \_ 本機 | FeatureParent1 \_ 本機 | 0          |

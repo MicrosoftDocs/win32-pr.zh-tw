@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbccf1205c9a937b78b08c46f31bc09aa3b75c70
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 73bee998e96d26c0f5bb2a1e0f28446433681a7175ff181556ad7976c58af356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644557"
 ---
 # <a name="ms_ext-switch"></a>/ms \_ ext 參數
 
@@ -65,6 +65,6 @@ midl /ms_ext
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

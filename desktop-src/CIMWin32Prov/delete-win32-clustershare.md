@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3dac06fabddd93b4072ea1f1a91cf4e6c6032f34
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 05f9c9227085156b4eee6a4b1a839e0cee95a5224504f89037a998ed88b6b3d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676656"
 ---
 # <a name="delete-method-of-the-win32_clustershare-class"></a>Win32 ClusterShare 類別的 Delete 方法 \_
 

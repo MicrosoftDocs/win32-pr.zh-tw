@@ -4,12 +4,12 @@ ms.assetid: 72822c25-cd21-454b-ab49-846474b55ef1
 title: 命名合併模組資料庫中的主鍵
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e5481e7fd29c4d3750e8fac01b6ca4bd6593af3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b5ab2f7dbb5a41f5999271e5c679b67c6ee37d9b79302509ef61e9dbca97894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627806"
 ---
 # <a name="naming-primary-keys-in-merge-module-databases"></a>命名合併模組資料庫中的主鍵
 

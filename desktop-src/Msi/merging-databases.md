@@ -4,12 +4,12 @@ ms.assetid: c53ef3d2-b3dc-4cd1-bd98-a856a223917f
 title: 合併資料庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8212355f37a12aa3b92bc10e6e3e41abdcf361dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2931bb624037f2f909b99cfeb19a64fcb4abef689fe988a308d35766f50b1dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628704"
 ---
 # <a name="merging-databases"></a>合併資料庫
 

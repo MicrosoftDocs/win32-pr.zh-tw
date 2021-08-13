@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 313f1b222f3b0096d3f5bf92c15e2097afb29848
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 60d2a3004343df7846d4bf600690bc6a1e45b46111f91828c7de31219a751308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657191"
 ---
 # <a name="cbasewindow-class"></a>CBaseWindow 類別
 
@@ -35,7 +35,7 @@ ms.locfileid: "106994914"
 
 
 
-| 受保護的成員變數                                           | Description                                                                    |
+| 受保護的成員變數                                           | 描述                                                                    |
 |----------------------------------------------------------------------|--------------------------------------------------------------------------------|
 | [**m \_ hInstance**](cbasewindow-m-hinstance.md)                      | 模組實例的控制碼。                                                 |
 | [**m \_ hwnd**](cbasewindow-m-hwnd.md)                                | 物件視窗的控制碼。                                                 |
@@ -58,9 +58,9 @@ ms.locfileid: "106994914"
 | [**m \_ WindowLock**](cbasewindow-m-windowlock.md)                    | 重要區段，用來序列化物件的存取權。                           |
 | [**m \_ bDoGetDC**](cbasewindow-m-bdogetdc.md)                        | 指定是否要取得裝置內容的旗標。                    |
 | [**m \_ bDoPostToDestroy**](cbasewindow-m-bdoposttodestroy.md)        | 指定視窗是否張貼或傳送其損毀訊息的旗標。 |
-| 保護方法                                                    | Description                                                                    |
+| 保護方法                                                    | 描述                                                                    |
 | [**OnPaletteChange**](cbasewindow-onpalettechange.md)               | 處理調色板變更訊息。 虛擬。                                      |
-| 公用方法                                                       | Description                                                                    |
+| 公用方法                                                       | 描述                                                                    |
 | [**CBaseWindow**](cbasewindow-cbasewindow.md)                       | 函式方法。                                                            |
 | [**DoneWithWindow**](cbasewindow-donewithwindow.md)                 | 終結視窗。 虛擬。                                                  |
 | [**PrepareWindow**](cbasewindow-preparewindow.md)                   | 建立視窗。 虛擬。                                                   |
@@ -88,7 +88,7 @@ ms.locfileid: "106994914"
 | [**GetWindowHDC**](cbasewindow-getwindowhdc.md)                     | 抓取視窗的裝置內容控制碼。                             |
 | [**OnReceiveMessage**](cbasewindow-onreceivemessage.md)             | 處理視窗訊息。 虛擬。                                              |
 | [**UnsetPalette**](cbasewindow-unsetpalette.md)                     | 刪除視窗目前的調色板，並還原預設的系統調色板。  |
-| 純虛擬方法                                                 | Description                                                                    |
+| 純虛擬方法                                                 | 描述                                                                    |
 | [**GetClassWindowStyles**](cbasewindow-getclasswindowstyles.md)     | 抓取視窗的類別樣式和視窗樣式。                         |
 
 

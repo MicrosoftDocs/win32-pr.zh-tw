@@ -1,7 +1,7 @@
 ---
 description: 安裝程式物件的 FileAttributes 屬性會傳回數位，表示檔案或資料夾之指定路徑的合併檔案屬性。
 ms.assetid: a09ac346-4e4d-440f-bfbe-ff8fb3f69823
-title: 'FileAttributes 屬性 (Windows. .h) '
+title: 'FileAttributes 屬性 (Windows. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e9a4d2b956c7d325fabcda7d6950274249120a0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7fe43028d856ca26b1c5e8fa21a88a3b77381670ccc044a79f10d3b922f38c21
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630911"
 ---
 # <a name="installerfileattributes-property"></a>FileAttributes 屬性
 
@@ -67,8 +67,8 @@ propVal = Installer.FileAttributes
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
-| 標頭<br/>  | <dl> <dt>：。H</dt> </dl>                                                                                                                                                            |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
+| 標頭<br/>  | <dl> <dt>Windows。h</dt> </dl>                                                                                                                                                            |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

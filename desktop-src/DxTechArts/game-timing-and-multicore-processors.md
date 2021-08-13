@@ -1,19 +1,19 @@
 ---
 title: 遊戲計時與多核心處理器
-description: 本文建議更準確、可靠的解決方案，以使用 Windows Api QueryPerformanceCounter 和 QueryPerformanceFrequency 來取得高解析度的 CPU 時間。
+description: 本文建議更準確、可靠的解決方案，以使用 Windows api QueryPerformanceCounter 和 QueryPerformanceFrequency 來取得高解析度的 CPU 時間。
 ms.assetid: 1512324d-dffa-3681-be3f-f63a3b8f11db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7a6d9d65ccb79c7b496b4d02b1bed132bdc2d3f
-ms.sourcegitcommit: 998a611c97d5e20ac0c45e3bda768ae67d8c2cca
+ms.openlocfilehash: ed5e668e87a2645859838b1fdf9cfb35263381e9ce9c73fbe72232ad3d3a46cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/11/2021
-ms.locfileid: "109725007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649346"
 ---
 # <a name="game-timing-and-multicore-processors"></a>遊戲計時與多核心處理器
 
-由於電源管理技術在現今的電腦中變得越來越普遍，所以取得高解析度 CPU 時間的常用方法（RDTSC 指令）可能無法再如預期般運作。 本文建議更準確、可靠的解決方案，以使用 Windows Api [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 和 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)來取得高解析度的 CPU 時間。
+由於電源管理技術在現今的電腦中變得越來越普遍，所以取得高解析度 CPU 時間的常用方法（RDTSC 指令）可能無法再如預期般運作。 本文建議更準確、可靠的解決方案，以使用 Windows api [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)和 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)來取得高解析度的 CPU 時間。
 
 -   [背景](#background)
 -   [建議](#recommendations)
@@ -21,7 +21,7 @@ ms.locfileid: "109725007"
 
 ## <a name="background"></a>背景
 
-自 x86 P5 指令集推出之後，許多遊戲開發人員都已使用讀取時間戳記計數器（RDTSC 指令）來執行高解析度的時機。 Windows 多媒體計時器的精確度足以讓聲音和影片進行處理，但框架時間在數十毫秒或更短的時間內，沒有足夠的解析度來提供差異時間資訊。 許多遊戲仍在啟動時使用多媒體計時器來建立 CPU 的頻率，並使用該頻率值調整 RDTSC 的結果，以取得準確的時間。 由於 RDTSC 的限制，Windows API 會透過 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 和 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)的常式公開更正確的方式來存取這項功能。
+自 x86 P5 指令集推出之後，許多遊戲開發人員都已使用讀取時間戳記計數器（RDTSC 指令）來執行高解析度的時機。 Windows 的多媒體計時器相當精確，可進行聲音和影片處理，但是在幀時間中，有數十毫秒或更短的時間，它們沒有足夠的解析度來提供差異時間資訊。 許多遊戲仍在啟動時使用多媒體計時器來建立 CPU 的頻率，並使用該頻率值調整 RDTSC 的結果，以取得準確的時間。 由於 RDTSC 的限制，Windows API 會透過 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)和 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)的常式公開更正確的方式來存取這項功能。
 
 此使用 RDTSC 來因應這些基本問題的時機：
 
@@ -46,7 +46,7 @@ ms.locfileid: "109725007"
 
 許多開發人員已經對 RDTSC 的行為進行了許多方面的假設，因此當時間執行時，某些現有的應用程式很有可能會在具有多個處理器或核心的系統上執行時出現問題。 這些問題通常會以瑕疵或緩慢移動的方式來表現。 對於不知道電源管理的應用程式並不容易，但有一個現有的填充碼可以強制應用程式一律在多處理器系統中的單一處理器上執行。
 
-若要建立此填充碼，請從 [Windows 應用程式相容性](/archive/blogs/yongrhee/download-application-compatibility-toolkit-act-for-windows-10)下載 Microsoft 應用程式相容性工具組。
+若要建立此填充碼，請從[Windows 應用程式相容性](/archive/blogs/yongrhee/download-application-compatibility-toolkit-act-for-windows-10)下載 Microsoft 應用程式相容性工具組。
 
 使用工具組的 [相容性管理員]，建立應用程式的資料庫和相關聯的修正程式。 為此資料庫建立新的相容性模式，並選取相容性修正 **SingleProcAffinity** ，以強制應用程式的所有線程都在單一處理器/核心上執行。 藉由使用命令列工具 Fixpack.exe (也是工具組) 的一部分，您可以將此資料庫轉換成可安裝的套件以進行安裝、測試和散發。
 
@@ -54,8 +54,8 @@ ms.locfileid: "109725007"
 
 如需客戶導向的資訊，請參閱下列來自 Microsoft 說明及支援的知識庫文章：
 
--   [使用 QueryPerformanceCounter 函式的程式在 Windows Server 2003 和 WINDOWS XP 中的執行效能可能不佳](https://support.microsoft.com/kb/895980) (文章 895980) 
--   在[使用雙核心處理器 (文章909944的 WINDOWS XP 電腦上，遊戲效能可能不佳](https://support.microsoft.com/kb/909944)) 
+-   [使用 QueryPerformanceCounter 函式的程式在 Windows Server 2003 和 Windows XP](https://support.microsoft.com/kb/895980) (文章895980中的執行效能可能不佳) 
+-   在[使用雙核心處理器的 Windows XP 電腦上，遊戲效能可能不佳](https://support.microsoft.com/kb/909944) (文章 909944) 
 
  
 

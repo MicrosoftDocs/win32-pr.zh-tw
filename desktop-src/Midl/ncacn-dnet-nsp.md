@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6312aff15d3bdef85d1e37829d669ce1faa5fbb4
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c4fa7448ff9d0cf3946ad3d0293ade19a5c2c0c407ca157d79c2c425f4a8ef6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092713"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642759"
 ---
 # <a name="ncacn_dnet_nsp-attribute"></a>ncacn \_ dnet \_ nsp 屬性
 
@@ -52,7 +52,7 @@ DECnet 傳輸埠字串的語法（像是所有的埠字串），會與 IDL 規�
 > [!Note]  
 > Windows XP 不支援此通訊協定系列。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -87,6 +87,6 @@ interface iface
 [**字串系結**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

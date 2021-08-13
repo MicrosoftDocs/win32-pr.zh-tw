@@ -4,12 +4,12 @@ ms.assetid: cf70b0b3-ac81-47ab-a4c8-4db53ed9dc84
 title: 從自訂動作內部存取目前的安裝程式會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29a870247f70742d408c0f5d1d0e67f20cef65d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3ee3214b8f8664b57f5216b28a7f5d5269d76049fe5c4dd24f7ab8d130d89a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640187"
 ---
 # <a name="accessing-the-current-installer-session-from-inside-a-custom-action"></a>從自訂動作內部存取目前的安裝程式會話
 
@@ -32,7 +32,7 @@ UINT __stdcall CustomAction(MSIHANDLE hInstall)
 
 [指令碼](scripts.md)
 
-以 VBScript 或 JScript 撰寫的自訂動作可以使用 [**Session 物件**](session-object.md)存取目前的安裝會話。 安裝程式會建立名為「會話」的 **會話** 物件，該物件會參考目前的安裝。 若為目前資料庫的唯讀存取權，請使用 **Session** 物件的 [**database**](session-database.md)屬性。
+以 VBScript 或 JScript 撰寫的自訂動作可使用 [**session 物件**](session-object.md)存取目前的安裝會話。 安裝程式會建立名為「會話」的 **會話** 物件，該物件會參考目前的安裝。 若為目前資料庫的唯讀存取權，請使用 **Session** 物件的 [**database**](session-database.md)屬性。
 
 因為腳本是從 [**會話**](session-object.md) 物件的內容中執行，所以並不一定需要完整限定屬性和方法。 在下列範例中，使用 VBScript 時，我的參考可以取代 **會話** 物件，例如，下列三行是相等的。
 

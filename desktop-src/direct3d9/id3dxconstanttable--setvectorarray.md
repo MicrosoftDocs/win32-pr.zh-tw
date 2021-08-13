@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fe93ef7a75cda743399133445a5f6efd34dd5ad7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 694f51a08260a6e75ddde6b6abae2114ae7a001d68809fbf667b1c53d66c3dad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118521234"
 ---
 # <a name="id3dxconstanttablesetvectorarray-method"></a>ID3DXConstantTable：： SetVectorArray 方法
 

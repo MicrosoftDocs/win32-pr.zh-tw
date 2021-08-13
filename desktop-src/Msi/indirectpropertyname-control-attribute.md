@@ -4,12 +4,12 @@ ms.assetid: f6834427-014b-4c6f-b6bb-d8df6189f43b
 title: IndirectPropertyName 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3f4ed68b557de12620c56757a267b2737c68a1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f4ab3aca3ff3ad9b7d5c311cf1a9a2d62ca69355cb7da8d83ca7ebf3408b2a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634322"
 ---
 # <a name="indirectpropertyname-control-attribute"></a>IndirectPropertyName 控制項屬性
 

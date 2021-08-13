@@ -4,12 +4,12 @@ ms.assetid: c75591c2-5266-4a99-8104-53815f6550e2
 title: 'ExternalFiles 資料表 (Patchwiz.dll) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f0002961408be9f43685ef40cd2ccff729e48b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2573556e8e4e00cf9004b83520468724ad1c959704cf8be32769a7ee41e24ebf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636875"
 ---
 # <a name="externalfiles-table-patchwizdll"></a>ExternalFiles 資料表 (Patchwiz.dll) 
 
@@ -48,7 +48,7 @@ ImageFamilies 資料表之 [家族] 資料行的外鍵 [ (Patchwiz.dll) ](imagef
 <span id="FTK"></span><span id="ftk"></span>FTK
 </dt> <dd>
 
-已升級映射之 .msi 檔案的檔案 [資料表](file-table.md) 中的外鍵。
+已升級影像之 .msi 檔案的檔案 [資料表](file-table.md) 中的外鍵。
 
 </dd> <dt>
 

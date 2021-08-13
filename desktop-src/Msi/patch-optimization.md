@@ -1,19 +1,19 @@
 ---
-description: Windows Installer 可以優化修補程式，以減少將修補程式套用至已安裝應用程式所需的時間。
+description: Windows安裝程式可以優化修補程式，以縮短將修補程式套用至已安裝應用程式所需的時間。
 ms.assetid: 2bb1c94a-55b6-4aee-b86d-ee9e1f8ed290
 title: 修補程式優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86215855bb02314d7eb54c774541b0a2086c7c99
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fee37ba48764f6249410a6dfc2512245aa6ca6dfca68cff09ec15e06a42f9156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627641"
 ---
 # <a name="patch-optimization"></a>修補程式優化
 
-Windows Installer 可以優化修補程式，以減少將修補程式套用至已安裝應用程式所需的時間。
+Windows安裝程式可以優化修補程式，以縮短將修補程式套用至已安裝應用程式所需的時間。
 
 **Windows Installer 2.0：** 不支援。 針對 Windows Installer 3.0 之前發行的 Windows Installer 版本，修補會執行應用程式的完整修複安裝，這可能需要花費更多時間。
 
@@ -21,7 +21,7 @@ Windows Installer 可以優化修補程式，以減少將修補程式套用至�
 
 **Windows Installer 3.1 和更新版本：** 從 Windows Installer 3.1 開始，修補程式優化要求交易中的所有修補程式都會將 OptimizedInstallMode 屬性設定為1， ([MsiPatchMetadata 資料表](msipatchmetadata-table.md)中的一個) 。
 
-如果 patch 只修改了下表，則 Windows Installer 3.0 或更新版本會略過與其他所有資料表相關聯的動作，即使這些動作列在原始應用程式安裝套件的順序資料表中， ( .msi 檔案) 。
+如果 patch 只修改了下表，則 Windows Installer 3.0 或更新版本會略過與其他所有資料表相關聯的動作，即使這些動作列在原始應用程式安裝套件的順序資料表中， (.msi 檔) 。
 
 -   [AdminExecuteSequence](adminexecutesequence-table.md)
 -   [AdminUISequence](adminuisequence-table.md)

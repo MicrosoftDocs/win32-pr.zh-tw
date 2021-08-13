@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 03f71411abdb0a21fd279ab0216c03493d0ffc08
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a62a155009208526ef15745ab3a713d489a494696ddda58b72e4f4d62cb63075
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661710"
 ---
 # <a name="cautousingoutputpincautousingoutputpin-destructor"></a>CAutoUsingOutputPin. ~ CAutoUsingOutputPin 的函式
 

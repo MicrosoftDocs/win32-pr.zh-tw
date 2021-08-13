@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c41d93111742e975490d97169c7e9147ba5fb1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a37171c594cb3a51b131220bb604234bcae108fa025ea6343da99fdc998a7dc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676126"
 ---
 # <a name="excludefromautochk-method-of-the-win32_logicaldisk-class"></a>Win32 LogicalDisk 類別的 ExcludeFromAutochk 方法 \_
 

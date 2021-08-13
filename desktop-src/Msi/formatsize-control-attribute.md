@@ -4,12 +4,12 @@ ms.assetid: acf76fff-b7a4-456b-91b9-eb3087879d7b
 title: FormatSize 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d7fa656b81272b8ac60985d3dac0416c0f81bef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34df03c87ceb742b543f32b770c201646185ce02df6386e38c9c5af02c6a1a47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636034"
 ---
 # <a name="formatsize-control-attribute"></a>FormatSize 控制項屬性
 

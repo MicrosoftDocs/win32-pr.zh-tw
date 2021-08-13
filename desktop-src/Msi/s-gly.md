@@ -4,12 +4,12 @@ ms.assetid: 8570bf99-e7db-4af1-acc5-abc236a640d6
 title: 'S (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e288396a35a90346ffc6581653f32a4478e535
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 17d0bc61230433857a903476dab7ba25e1a75e3a6c405944731b73bfbb29ad78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625548"
 ---
 # <a name="s-windows-installer"></a>S (Windows Installer) 
 
@@ -34,7 +34,7 @@ ms.locfileid: "112010881"
 <span id="_msi_standard_action_gly"></span><span id="_MSI_STANDARD_ACTION_GLY"></span>**標準動作**
 </dt> <dd>
 
-Windows Installer 的內建 [*動作*](a-gly.md) 。 如需詳細資訊，請參閱 [標準動作](standard-actions.md)。
+Windows Installer 的內建 [*動作*](a-gly.md)。 如需詳細資訊，請參閱 [標準動作](standard-actions.md)。
 
 </dd> <dt>
 
@@ -48,14 +48,14 @@ Windows Installer 的內建 [*動作*](a-gly.md) 。 如需詳細資訊，請參
 <span id="_msi_structured_query_language_gly"></span><span id="_MSI_STRUCTURED_QUERY_LANGUAGE_GLY"></span>**結構化查詢語言 (SQL)  (SQL)**
 </dt> <dd>
 
-用來處理關係資料庫中資料的語言。 您可以使用 SQL 進行安裝程式資料庫的查詢。 如需詳細資訊，請參閱 [使用查詢](working-with-queries.md)。
+用來處理關係資料庫中資料的語言。 您可以使用 SQL 對安裝程式資料庫進行查詢。 如需詳細資訊，請參閱 [使用查詢](working-with-queries.md)。
 
 </dd> <dt>
 
 <span id="_msi_summary_information_stream_gly"></span><span id="_MSI_SUMMARY_INFORMATION_STREAM_GLY"></span>**摘要資訊串流**
 </dt> <dd>
 
-[*.msi*](m-gly.md)檔案中的儲存位置，以取得可透過 Microsoft Windows 檔案總管來查看的資訊。 如需詳細資訊，請參閱 [關於摘要資訊資料流程](about-the-summary-information-stream.md)。
+儲存體 [*.msi*](m-gly.md)檔案中的位置，以取得可透過 Microsoft Windows 檔案總管來查看的資訊。 如需詳細資訊，請參閱 [關於摘要資訊資料流程](about-the-summary-information-stream.md)。
 
 </dd> <dt>
 
@@ -69,7 +69,7 @@ Windows Installer 的內建 [*動作*](a-gly.md) 。 如需詳細資訊，請參
 <span id="_msi_system_policy_using_windows_installer__gly"></span><span id="_MSI_SYSTEM_POLICY_USING_WINDOWS_INSTALLER__GLY"></span>**系統原則**
 </dt> <dd>
 
-由系統管理員用來控制網路上單一位置的使用者和電腦設定。 系統原則會將登錄設定傳播至大量電腦，而不需要系統管理員瞭解登錄的詳細知識。 您可以使用 Windows 2000 隨附的群組原則編輯器 (GPE) 來設定安裝程式的系統原則。 如需詳細資訊，請參閱 [系統原則](system-policy.md)。
+由系統管理員用來控制網路上單一位置的使用者和電腦設定。 系統原則會將登錄設定傳播至大量電腦，而不需要系統管理員瞭解登錄的詳細知識。 您可以使用 Windows 2000 中包含的群組原則編輯器 (GPE) 來設定安裝程式的系統原則。 如需詳細資訊，請參閱 [系統原則](system-policy.md)。
 
 </dd> </dl>
 

@@ -3,7 +3,7 @@ title: 'EM_SETEXTENDEDSTYLE 訊息 (Commctrl .h) '
 description: 通知編輯控制項設定擴充樣式。 傳送此訊息或使用巨集編輯 \_ SetExtendedStyle。
 ms.assetid: 4ca010c3-2c70-41e5-ade4-11e1895fda26
 keywords:
-- EM_SETEXTENDEDSTYLE message Windows 控制項
+- EM_SETEXTENDEDSTYLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 10/19/2018
-ms.openlocfilehash: 560b675927b4497810b8d492fd89b5765aa5a2c2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 710ad6535bd7891f322a4bf02a5fed0f766dd97c2569fa5ec9b961478bf6a457
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118673074"
 ---
 # <a name="em_setextendedstyle-message"></a>EM \_ SETEXTENDEDSTYLE 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104105570"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 版本1809桌面應用程式\]<br/>                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2019 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 10 版本 1809 \[僅限桌面應用程式\]<br/>                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2019 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

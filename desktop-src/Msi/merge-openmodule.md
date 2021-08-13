@@ -1,5 +1,5 @@
 ---
-description: Merge 物件的 OpenModule 方法會以唯讀模式開啟 Windows Installer 合併模組。 必須先開啟模組，才能與安裝資料庫合併。
+description: merge 物件的 OpenModule 方法會以唯讀模式開啟 Windows Installer 合併模組。 必須先開啟模組，才能與安裝資料庫合併。
 ms.assetid: fc976899-2c39-4314-b2fb-417e0dfc53b9
 title: 'OpenModule 方法 (Mergemod .h) '
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 9d83a9331c91817f70c49ecf74c7171c5e627be6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4659fbd2c96d883b04e653fc67c6aa3017f16135405f956bf9b4eb78101bb404
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118628724"
 ---
 # <a name="mergeopenmodule-method"></a>Merge. OpenModule 方法
 
-[**Merge**](merge-object.md)物件的 **OpenModule** 方法會以唯讀模式開啟 Windows Installer 合併模組。 必須先開啟模組，才能與安裝資料庫合併。
+[**merge**](merge-object.md)物件的 **OpenModule** 方法會以唯讀模式開啟 Windows Installer 合併模組。 必須先開啟模組，才能與安裝資料庫合併。
 
 ## <a name="syntax"></a>語法
 

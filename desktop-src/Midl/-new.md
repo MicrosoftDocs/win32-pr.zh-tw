@@ -12,20 +12,20 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3beec66f3e1a9e5aa8218218667bee4b6a3a82ce
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5a97f75064ff5f05c0253555fe19555d23d8eb6abca355ed7a212eec0262cd29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644107"
 ---
 # <a name="new-switch"></a>/new 參數
 
 此參數已淘汰，且已由 [**/newtlb**](-newtlb.md) 選項取代。
 
- 
+ 
 
- 
+ 
 
 
 

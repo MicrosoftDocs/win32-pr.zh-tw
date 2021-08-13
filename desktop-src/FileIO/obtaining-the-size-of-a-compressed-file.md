@@ -4,12 +4,12 @@ ms.assetid: c6bfd221-f125-48b4-b38b-822a23639c40
 title: 取得壓縮檔案的大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4954a53184e55341838fef7cd70f01639f13bc67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d3090272145c19ec5040a8df573a5100cad4d21b3fdc6f543e40d24f933dc3cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648563"
 ---
 # <a name="obtaining-the-size-of-a-compressed-file"></a>取得壓縮檔案的大小
 

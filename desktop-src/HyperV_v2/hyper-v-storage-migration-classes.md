@@ -4,12 +4,12 @@ ms.assetid: E1FE7351-2F14-4C8F-AF5C-9009CC61CE22
 title: Hyper-v 遷移 API 參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e40a05bc976cf1722aba558eeca9c7b04cdf7287
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c6a188e369ba6f99860721b8ebc84d886bad6833a94ce06958be4af617e9bdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118645275"
 ---
 # <a name="hyper-v-migration-api-reference"></a>Hyper-v 遷移 API 參考
 

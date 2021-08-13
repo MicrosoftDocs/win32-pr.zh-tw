@@ -4,12 +4,12 @@ ms.assetid: e9cda321-6978-4f9f-aff4-ccf609c88667
 title: 安裝機制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78455cb26e7672614266453e82f1a44c44e6b14d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bce4396701ab5cddb43a67dddbafd1e8310092d04d779af04ad7876681cc3bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634216"
 ---
 # <a name="installation-mechanism"></a>安裝機制
 

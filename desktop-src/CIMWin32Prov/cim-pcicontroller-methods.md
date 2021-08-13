@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_PCIController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b061d56cb8d509e9173e944c385a624a3e33a5e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5344e76e068886e0cef888c8c73541e880a43ada5ecaa7abaf2cec8c9eb24be9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678948"
 ---
 # <a name="cim_pcicontroller-methods"></a>CIM \_ PCIController 方法
 

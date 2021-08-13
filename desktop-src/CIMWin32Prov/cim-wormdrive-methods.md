@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_WORMDrive 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6ecd49da5cc4cb24423525ae90fd329254facb5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 428c81cf99196a35a35bb12127dde31d21422f2f4ecd98380d88c4f2b3f0329a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676889"
 ---
 # <a name="cim_wormdrive-methods"></a>CIM \_ WORMDrive 方法
 

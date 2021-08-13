@@ -4,18 +4,18 @@ ms.assetid: 8e155846-cc29-43f4-b1f7-9880320edbec
 title: 圖示類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7c90de925ff34977e7ff192dffe0b8614e5734
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28510eff674d1f25e632b1181943af70da73d9fc97a6a64ec5abd0807fe15cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634951"
 ---
 # <a name="icon-type"></a>圖示類型
 
 [語義類型](semantic-types.md)的圖示類型是其中一種[主要格式類型](key-format-types.md)。 此類型是由使用者提供的 [圖示表格](icon-table.md) 中的索引鍵所組成。
 
-合併工具必須將有效的 Windows Installer [識別碼](identifier.md) 取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由合併工具所組成，以確保使用者在圖示表格中提供有效的金鑰。
+合併工具必須將有效的 Windows Installer[識別碼](identifier.md)取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由合併工具所組成，以確保使用者在圖示表格中提供有效的金鑰。
 
 除非 msmConfigItemNonNullable 已包含在 [ModuleConfiguration 資料表](moduleconfiguration-table.md)的 [屬性] 欄位中，否則 Null 對此型別是有效的值。
 

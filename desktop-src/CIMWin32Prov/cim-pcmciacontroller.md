@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 95d05e11dd0c439708c477e3ec776bc7a2c333d7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 040d9a9150cd9a6ae1c123b5ea35abb7cc819340e1007cb170d0982f22ef9725
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678838"
 ---
 # <a name="cim_pcmciacontroller-class"></a>CIM \_ PCMCIAController 類別
 
@@ -149,7 +149,7 @@ class CIM_PCMCIAController : cim_controller
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -969,7 +969,7 @@ PCMCIA 控制器製造商的名稱。
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -1173,7 +1173,7 @@ PCMCIA 控制器製造商的名稱。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

@@ -4,12 +4,12 @@ ms.assetid: bf90acc0-4e90-4180-9df7-268b63a66538
 title: BindImage 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa2ac4c5ca16b83a3f0f0796d9a755542ec108c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d621728de551c182d6678561b2ef5daf649fb8fae840f47a460d83a4d38f3635
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638774"
 ---
 # <a name="bindimage-action"></a>BindImage 動作
 

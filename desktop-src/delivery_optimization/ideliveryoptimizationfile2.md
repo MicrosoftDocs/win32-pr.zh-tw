@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 01/18/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a45efd821116b24e883ec29d494a1d588559f57a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed7409635444885b662688ce94c300aae6e62186dd76bd7278b3e7445ef50c90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542043"
 ---
 # <a name="ideliveryoptimizationfile2-interface"></a>IDeliveryOptimizationFile2 介面
 
@@ -46,8 +46,8 @@ ms.locfileid: "104024865"
 | 需求 | 值 |
 |-------------------------------|-----------------------------------------------------------------------------------|
 | 最低支援的用戶端      | Windows 10， \[ 僅限1803版桌面應用程式\]                                    |
-| 最低支援的伺服器      | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]                                |
-| 標頭                        | >deliveryoptimization。h                                                            |
+| 最低支援的伺服器      | WindowsServer， \[ 僅限1709版桌面應用程式\]                                |
+| 標頭                        | >Deliveryoptimization。h                                                            |
 | Idl                           | >deliveryoptimization .idl                                                          |
 | 程式庫                       | Dosvc .lib                                                                         |
 | DLL                           | Dosvc.dll                                                                         |

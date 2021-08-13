@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: feb69036ad9cd33b8f0a60f5356192acbea8dd71
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0b702a26c61920f5a3868ccc479b1f8578a3075907b5dc5bc2eb9d070321c91d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680778"
 ---
 # <a name="ms-ds-bindable-object-class"></a>ms DS 可系結物件類別
 
@@ -91,7 +91,7 @@ ms.locfileid: "103844840"
 | [**DS-核心-傳播-資料**](a-dscorepropagationdata.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**從-進入**](a-fromentry.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**實例類型**](a-instancetype.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**實例類型**](a-instancetype.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**已刪除**](a-isdeleted.md)                                                              | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**是-DL 的成員**](a-memberof.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
@@ -120,12 +120,12 @@ ms.locfileid: "103844840"
 | [**ms-DS-使用者密碼-已過期**](a-msds-userpasswordexpired.md)                              | 否     | **ms DS 可系結-物件**                                                                    |
 | [**ms-DS-使用者-密碼-非必要**](a-ms-ds-userpasswordnotrequired.md)                    | 否     | **ms DS 可系結-物件**                                                                    |
 | [**Nt-Pwd-歷程記錄**](a-ntpwdhistory.md)                                                       | 否     | **ms DS 可系結-物件**                                                                    |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                       | 對      | [**安全性-主體**](c-securityprincipal.md)<br/> [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                       | 是      | [**安全性-主體**](c-securityprincipal.md)<br/> [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件-類別**](a-objectcategory.md)                                                    | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件類別**](a-objectclass.md)                                                          | 對      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件-類別**](a-objectcategory.md)                                                    | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
+| [**物件類別**](a-objectclass.md)                                                          | 是      | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**物件-Guid**](a-objectguid.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
-| [**物件 Sid**](a-objectsid.md)                                                              | 對      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
+| [**物件 Sid**](a-objectsid.md)                                                              | 是      | [**安全性-主體**](c-securityprincipal.md)<br/>                                 |
 | [**物件版本**](a-objectversion.md)                                                      | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                                                              |
 | [**部分屬性-刪除-清單**](a-partialattributedeletionlist.md)                      | 否     | [**返回頁首**](c-top.md)<br/>                                                              |

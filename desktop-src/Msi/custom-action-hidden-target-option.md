@@ -4,12 +4,12 @@ ms.assetid: b0f99851-a774-4804-8c85-f94943c2d2b0
 title: 自訂動作隱藏目標選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acca69e4c3efc2b43302bf926a56bc53b2bf5e7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1adc0df477510ac7d5d6bec65025b6fed1bfd7971e6ddf35da3a7e4cbc714690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638161"
 ---
 # <a name="custom-action-hidden-target-option"></a>自訂動作隱藏目標選項
 
@@ -17,7 +17,7 @@ ms.locfileid: "104026887"
 
 
 
-| 常數                            | 十六進位 | Decimal | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 常數                            | 十六進位 | Decimal | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-------------------------------------|-------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | (無)                              | 0x0000      | 0       | 安裝程式可能會將 CustomAction 資料表的目標資料行中的值寫入記錄檔中。                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 | **msidbCustomActionTypeHideTarget** | 0x2000      | 8192    | 安裝程式無法將 [CustomAction 資料表](customaction-table.md) 的目標資料行中的值寫入記錄檔中。 當安裝程式執行自訂動作時，也不會記錄 CustomActionData 屬性。<br/> 因為安裝程式會從與自訂動作相同名稱的屬性中設定 CustomActionData 的值，所以該屬性必須列在 [**MsiHiddenProperties**](msihiddenproperties.md) 屬性中，以防止其值出現在記錄檔中。<br/> |

@@ -5,12 +5,12 @@ ms.assetid: 861D89C4-59D1-43BF-9791-375DD1577716
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 02/25/2019
-ms.openlocfilehash: 32dc44fca7bf3aaf73d325ac28be6b4e53e560b2
-ms.sourcegitcommit: 80d74c0bf4fc402865a1ad223480abe1ce4d1115
+ms.openlocfilehash: 5aaba399490edda5a67a4a55823380df8d53e2139300540c13711da607a75375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "106996366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530144"
 ---
 # <a name="11on12-interfaces"></a>11on12 介面
 下列介面是在 d3d11on12 中宣告。

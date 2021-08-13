@@ -4,12 +4,12 @@ ms.assetid: 814eca94-2bb5-4aff-8de3-473da71d4400
 title: 使現有封裝中的 COM 元件成為私用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4935d20c5034af81a52c18d35454553b04cfb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5119e2d9417f51bb815fe9c76cd47be496e4c03cab81e4e0ccd2b7c49c7b8b63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629029"
 ---
 # <a name="make-a-com-component-in-an-existing-package-private"></a>使現有封裝中的 COM 元件成為私用
 

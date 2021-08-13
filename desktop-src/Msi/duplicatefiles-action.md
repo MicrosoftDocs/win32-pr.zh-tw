@@ -4,12 +4,12 @@ ms.assetid: 51cc0b3f-aa01-4f4d-9a4d-add832698061
 title: DuplicateFiles 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 711f6bbd4716beb227dea348826bc302e2f4ba2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7969440aed4361ad264baa0d30a9c1d16f0ca673c72a2a7c3c1326e5d393ffc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637710"
 ---
 # <a name="duplicatefiles-action"></a>DuplicateFiles 動作
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: ce0bb59dd26bd8bb9723bcdff23bbc79ee810253
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 425dc1d56801bbbd6b73429d8d17024a78dffe47a045ec6b34d5cd45b752bcca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513846"
 ---
 # <a name="reference-for-hlsl"></a>HLSL 的參考
 
@@ -39,9 +39,9 @@ HLSL 參考檔會指定語言特性。 它分成數個部分。
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

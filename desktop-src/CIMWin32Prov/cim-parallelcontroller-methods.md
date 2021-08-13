@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_ParallelController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e8b6a3779ff7c419e866bce62fa292f2f625297
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d31db14df95f9e228f9dbaa2170986c9629d077afacbbfc1ce4d4befe8d9402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679074"
 ---
 # <a name="cim_parallelcontroller-methods"></a>CIM \_ ParallelController 方法
 

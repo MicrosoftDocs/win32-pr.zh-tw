@@ -9,12 +9,12 @@ keywords:
 - 傳送工作 BITS 的認證
 ms.topic: article
 ms.date: 10/04/2018
-ms.openlocfilehash: 475a623e6b105d3ef2bdc6586db613c010fe8923
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a996471afefb00b0dea87b07f477f5cab2fd29352c567dc9182fcf28fa5b168a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679900"
 ---
 # <a name="service-accounts-and-bits"></a>服務帳戶和 BITS
 

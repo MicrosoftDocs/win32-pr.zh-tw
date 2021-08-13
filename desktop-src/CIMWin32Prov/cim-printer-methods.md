@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Printer 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9717fe3ad65f0be75476d962b5ce940872996a7b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d5df53e2698ea97c0971a7a0de17f1c1c23f0502b12467e43d8501aa92cdde1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677679"
 ---
 # <a name="cim_printer-methods"></a>CIM \_ 印表機方法
 

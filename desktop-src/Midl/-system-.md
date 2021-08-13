@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e09f2cf97f8edb86ad831cff35420fad9a07d76
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 31def6297a1a91f6ed28943290a66b544dc368d5a00a91932035a338af50bac5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643776"
 ---
 # <a name="system-switch"></a>/<system> 開關
 
@@ -43,7 +43,7 @@ midl /{win32 | ia64 | amd64}
 
 </dt> <dd>
 
-Windows 2000、Windows XP、Windows Vista、Windows 7
+Windows 2000、Windows XP、Windows Vista Windows 7
 
 </dd> <dt>
 
@@ -87,9 +87,9 @@ Intel 架構的64位 Windows 環境，例如 Windows 2000、Windows Server 2003�
 [**/env**](-env.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 94c3d5a8-a560-4a1d-b40e-7ebc92d659f3
 title: 隨選安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f25c83135a0497d09aa0a7800a1272105d0db1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd20f83465fa110c4f749c6f11ba5ece1c6797a521174a8caebb9d152740aaba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118633867"
 ---
 # <a name="installation-on-demand"></a>隨選安裝
 

@@ -4,12 +4,12 @@ ms.assetid: e1bcdd59-8cbc-46f7-b908-c8cbc2ea0539
 title: ForceReboot 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 807bab474f1faacfbc7684797b7a0b7b74f354d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c41af6b656222a31ab75c9df3f2fa9f94af415f94d6d0b50010c0b25c5742502
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636069"
 ---
 # <a name="forcereboot-action"></a>ForceReboot 動作
 
@@ -49,7 +49,7 @@ ForceReboot 動作必須一律搭配條件陳述式使用，讓安裝程式只�
 
 ForceReboot 會在提示重新開機或重新開機之前，執行任何先前動作所產生的系統作業。 例如， [InstallFiles](installfiles-action.md) 和 [WriteRegistryValues](writeregistryvalues-action.md) 所產生的系統作業會在重新開機之前執行。
 
-ForceReboot 動作會寫入登錄機碼，以便在重新開機後啟動安裝程式。 此機碼的位置是 **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ RunOnce**。
+ForceReboot 動作會寫入登錄機碼，以便在重新開機後啟動安裝程式。 此金鑰的位置是 **HKEY \_ LOCAL \_ MACHINE \\ SOFTWARE \\ Microsoft \\ Windows \\ CurrentVersion \\ RunOnce**。
 
 ## <a name="related-topics"></a>相關主題
 

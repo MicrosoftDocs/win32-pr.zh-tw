@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_UnitaryComputerSystem 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77c4724d6175211ed4c6cb25d699481f1b4723f0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b432ff3425800d723b88058d83bc91db3fd96ba1604bcd68b44b042f4a122028
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677374"
 ---
 # <a name="cim_unitarycomputersystem-methods"></a>CIM \_ UnitaryComputerSystem 方法
 

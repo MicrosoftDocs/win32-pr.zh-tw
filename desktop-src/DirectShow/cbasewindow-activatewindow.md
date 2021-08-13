@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f747f108bb6c7e42e90a0ff8503ec59a83c59699
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e00c3ccc43e2583ce8664e62967a22f753148cfa271dd1995e2374c2bfa53c71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658242"
 ---
 # <a name="cbasewindowactivatewindow-method"></a>CBaseWindow. ActivateWindow 方法
 
@@ -46,7 +46,7 @@ virtual HRESULT ActivateWindow();
 
 
 
-| 傳回碼                                                                             | Description                              |
+| 傳回碼                                                                             | 描述                              |
 |-----------------------------------------------------------------------------------------|------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 視窗已經啟用。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 成功。<br/>                      |

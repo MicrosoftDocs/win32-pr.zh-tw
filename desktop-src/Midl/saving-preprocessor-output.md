@@ -6,12 +6,12 @@ keywords:
 - MIDL 編譯器 MIDL，儲存預處理器輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49ca1e07658fb2da525999e396b7c3da27add385
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f016885ac4d669d7b62eaf3ff1d5ee3154f03d5eae64fca5f63c6111dff4c931
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641373"
 ---
 # <a name="saving-preprocessor-output"></a>正在儲存預處理器輸出
 
@@ -26,7 +26,7 @@ ms.locfileid: "104372305"
 > [!Note]  
 > 如果有) 以及每個匯入的檔案，MIDL 會為 IDL 和 ACF 檔案 (產生個別的預處理器執行。
 
- 
+ 
 
 針對 DCOM 編譯，通常會產生數個預處理器檔案，即使 MIDL 以虛擬連續輸入資料流程的方式處理也是一樣。 在一般的 Windows 程式設計環境中，可以在臨時目錄中找到暫存檔案，以作為檔案名，例如 \* MID。 如果保留預處理器輸出，最好先監看 Temp 目錄中的最新檔案，以識別哪些檔案與預處理器執行相關聯。
 
@@ -42,9 +42,9 @@ ms.locfileid: "104372305"
 
 **Midl-Oicf-win32-cpp \_ opt "/E/p-Id： \\ nt \\ public \\ sdk \\ inc.-DNTENV = 1" stub**
 
- 
+ 
 
- 
+ 
 
 
 

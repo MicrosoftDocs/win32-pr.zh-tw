@@ -37,12 +37,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f8709128c189956bba4bc371e0f5bfb30d67b49f
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f595128b69d976363605d2b3cc1ac030b5d92c54c26318d376235185387d1c23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104195764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677550"
 ---
 # <a name="cim_physicalmedia-class"></a>CIM \_ PhysicalMedia 類別
 

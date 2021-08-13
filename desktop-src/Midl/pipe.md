@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0aaab8d399c99e02b5393ee9f5258da53aea491
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6b8c407bef0a9e610d21e7221eb9a06560f33300f4f1f388fa699ca9dfb18531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641951"
 ---
 # <a name="pipe-attribute"></a>pipe 屬性
 
@@ -64,7 +64,7 @@ typedef pipe element-type pipe-declarator;
 > [!Note]  
 > MIDL 編譯器只支援 [**/Oif**](-oi.md) 模式中的管道。
 
- 
+ 
 
 如需使用管道參數來執行常式的詳細資訊，請參閱《 RPC 程式設計人員指南》中的 [管道](/windows/desktop/Rpc/pipes) 和參考。
 
@@ -105,7 +105,7 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**物件**](object.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**ptr**](ptr.md)
@@ -132,6 +132,6 @@ typedef pipe SIMPLE_STRUCT SIMPLE_STRUCT_PIPE;
 [**網路 \_ 封送處理**](wire-marshal.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

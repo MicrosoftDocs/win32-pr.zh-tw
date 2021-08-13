@@ -4,12 +4,12 @@ description: 本節包含 Cfgmgr32 標頭的參考主題。
 ms.assetid: 73b4b2ec-ce3d-47c1-9b0e-1052f390ae94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ccc2baf458fea5e20842c9bfa60028c2cb8e23
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 7cd09a0e905b85d2eae52bb267929d2e1e89e5c6c179a8d6ab4de00320e9f8f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106966273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541422"
 ---
 # <a name="cfgmgr32h"></a>Cfgmgr32.h
 
@@ -629,7 +629,7 @@ ms.locfileid: "106966273"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a><br/></td>
-<td>如果您的程式碼是以 Windows 7 或較早的 Windows 版本為目標，請使用 <a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a> 而不是 <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> 。 核心模式呼叫端應該改用 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> 。<br/> 當所指定類型的 PnP 事件發生時， <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> 函數會註冊要呼叫的應用程式回呼常式。<br/></td>
+<td>如果您的程式碼是以 Windows 7 或舊版 Windows 為目標，請使用<a href="/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa"><strong>RegisterDeviceNotification</strong></a>而不是<a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> 。 核心模式呼叫端應該改用 <a href="/windows-hardware/drivers/ddi/content/wdm/nf-wdm-ioregisterplugplaynotification"><strong>IoRegisterPlugPlayNotification</strong></a> 。<br/> 當所指定類型的 PnP 事件發生時， <a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_register_notification"><strong>CM_Register_Notification</strong></a> 函數會註冊要呼叫的應用程式回呼常式。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_request_device_ejectw"><strong>CM_Request_Device_Eject</strong></a><br/></td>
@@ -721,7 +721,7 @@ ms.locfileid: "106966273"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Cfgmgr32/nf-cfgmgr32-cm_unregister_notification"><strong>CM_Unregister_Notification</strong></a><br/></td>
-<td>如果您的程式碼是以 Windows 7 或較早的 Windows 版本為目標，請使用 <a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a> 而不是 <strong>CM_Unregister_Notification</strong> 。<br/> <strong>CM_Unregister_Notification</strong>函式會關閉指定的 HCMNOTIFICATION 控制碼。<br/></td>
+<td>如果您的程式碼是以 Windows 7 或舊版 Windows 為目標，請使用<a href="/windows/desktop/api/winuser/nf-winuser-unregisterdevicenotification"><strong>UnregisterDeviceNotification</strong></a>而不是<strong>CM_Unregister_Notification</strong> 。<br/> <strong>CM_Unregister_Notification</strong>函式會關閉指定的 HCMNOTIFICATION 控制碼。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/cfgmgr32/nf-cfgmgr32-cm_waitnopendinginstallevents"><strong>CMP_WaitNoPendingInstallEvents</strong></a><br/></td>

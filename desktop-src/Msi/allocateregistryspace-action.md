@@ -4,12 +4,12 @@ ms.assetid: bb6ac685-5ad8-48e6-9c03-9ca42268d727
 title: AllocateRegistrySpace 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e6f986561595c73bf3bb1188d899af3d3d7d528
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40e47a0a0ebc3edec4605cbfac45443e4d30ee25df82ad3eaeb9da9ec9d3a94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639575"
 ---
 # <a name="allocateregistryspace-action"></a>AllocateRegistrySpace 動作
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 933bbec72950bd2c73fda8b3781dd46393ca4c96
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a7406670b055a11f30a71677a88dc6230aecec8d7660d886b1d63f53e6e61566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104116241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527514"
 ---
 # <a name="d3dprimitivetype-enumeration"></a>D3DPRIMITIVETYPE 列舉
 
