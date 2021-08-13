@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 37e307ea9be68f48b8d53b813abffb1fbfd86853
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 4bdadf3f4260c39581d77d8334bf418494cf57596c03841a785756fbff797784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118788474"
 ---
 # <a name="texture2darraygathergreensfloatint2int2int2int2uint-function"></a>Texture2DArray：： GatherGreen (S、float、int2、int2、int2、int2、uint) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherGreen(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

@@ -4,16 +4,16 @@ ms.assetid: 67a36123-4fce-4d40-83c3-b9668221276b
 title: 簽署檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ce1754cdfa1e89c23525474bae880dc2809c242
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526bc4cd98d6cab40efc884a2377f3720c9849dbb7f6c1d4e8da5d49898bfa64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898162"
 ---
 # <a name="signing-a-document"></a>簽署檔
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 簽章的標準用途是簽署文字，並將該帶正負號的文字儲存至檔案。 簽署的文字也可透過網際網路傳送。 簽署的訊息是 PKCS \# 7 格式。
 

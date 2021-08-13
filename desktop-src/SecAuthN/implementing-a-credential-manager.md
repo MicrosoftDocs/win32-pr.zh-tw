@@ -4,12 +4,12 @@ ms.assetid: 8b176dd6-0e0b-4330-8889-f87384977ceb
 title: 執行認證管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0bbd42f4ade57b754c6f7a067519d7df2711cfb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f1a1787fcf72d88ad809f904f9f83179ac86631b83a23314f9d24ee31ce3dec9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482658"
 ---
 # <a name="implementing-a-credential-manager"></a>執行認證管理員
 
@@ -31,7 +31,7 @@ HKEY_LOCAL_MACHINE
             SmartCardLogonNotify = 1
 ```
 
-**Windows Server 2003 和 WINDOWS XP：** 不需要 **SmartCardLogonNotify** 登錄專案。
+**Windows Server 2003 和 Windows XP：** 不需要 **SmartCardLogonNotify** 登錄專案。
 
 此外，認證管理員也應該支援 WNNC 開始 (的 [**NPGetCaps**](/windows/desktop/api/Npapi/nf-npapi-npgetcaps) 函式， \_) 的認證管理員不需要支援其他索引。 這會告訴 MPR 何時將啟動認證管理員。 藉由呼叫 **NPGetCaps** ，並將 *nIndex* 參數設定為 WNNC \_ START，MPR 會取得呼叫提供者的認證管理進入點函式之前所等待的時間。 如果 MPR 有此資訊，它可以將它轉寄到認證管理員，設定超時時間。
 

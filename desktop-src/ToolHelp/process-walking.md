@@ -9,12 +9,12 @@ keywords:
 - 進程，列舉進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbc95f0de4021ce3c355286376decbdecef2c883
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d6efa129182da256a6ce62b3754ea422df908248f7b0ecc30d3b690c29ffaf9d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419658"
 ---
 # <a name="process-walking"></a>流程行走
 
@@ -27,8 +27,8 @@ ms.locfileid: "104463361"
 > [!Note]  
 > [**PROCESSENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-processentry32)的 **th32ProcessID** 和 **th32ParentProcessID** 成員的內容是處理序識別碼，並且可供任何需要處理序識別碼的函式使用。
 
- 
+ 
 
- 
+ 
 
- 
+ 

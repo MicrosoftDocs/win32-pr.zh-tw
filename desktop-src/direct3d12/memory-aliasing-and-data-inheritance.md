@@ -5,12 +5,12 @@ ms.assetid: 53C5804B-0F81-41AF-83D2-A96DCDFDC94A
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cace5b5997e2a460406ae72abb247224886f3926
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2b584ef95f4ee89bc98940c8407427203a19f55046134e1d3c15cb672fef8fef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74103614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460918"
 ---
 # <a name="memory-aliasing-and-data-inheritance"></a>記憶體別名和資料繼承
 
@@ -60,9 +60,9 @@ ms.locfileid: "74103614"
 [堆積中的子分配](suballocation-within-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

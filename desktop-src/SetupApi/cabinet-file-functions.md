@@ -4,12 +4,12 @@ ms.assetid: f857c85b-7fc6-447a-b694-c99ecdda45cc
 title: 封包檔函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fc072cd3b8c4540b5f701d5a510f8c4ab85dcbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a80f607ea855f79f29754d6139fa419150fb746b6ba4eabc7f6cc121199bf862
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887870"
 ---
 # <a name="cabinet-file-functions"></a>封包檔函式
 

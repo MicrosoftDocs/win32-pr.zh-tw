@@ -4,12 +4,12 @@ ms.assetid: 8a02cbb4-0b59-4c1e-9831-592a2005905e
 title: 使用 LSA Unicode 字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc00e5b98bf2e287f32934b4ea093570ba3359ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddb3c3c41ddd1e3a76ca86880fa47c1d0b2a47897727b820c5f4caf501f4263d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892987"
 ---
 # <a name="using-lsa-unicode-strings"></a>使用 LSA Unicode 字串
 

@@ -5,12 +5,12 @@ title: WIC 動畫 Gif 範例
 ms.topic: article
 ms.date: 03/19/2021
 ms.custom: project-verbatim
-ms.openlocfilehash: afb0c1368e2c66d40d1be4095ec56d5daeb5ab53
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 925beb45b58bdecb7d12505a9d2067cbcb9e6fbf1867786286f18333fea986e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "107000646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709597"
 ---
 # <a name="wic-animated-gif-sample"></a>WIC 動畫 GIF 範例
 
@@ -23,7 +23,7 @@ ms.locfileid: "107000646"
 | 需求 | 值 |
 |-|-|
 | 最低支援的用戶端 | Windows 7 |
-| 最小 Windows SDK | 適用于 Windows 7 的[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
+| 最小 Windows SDK | Windows 7 的[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx) |
 
 ## <a name="downloading-the-sample"></a>下載範例
 
@@ -50,7 +50,7 @@ ms.locfileid: "107000646"
 
 ## <a name="see-also"></a>另請參閱
 
-[Microsoft Windows Imaging 編解碼器](-wic-lh.md)
+[Microsoft Windows 映像編解碼器](-wic-lh.md)
 
 [程式設計手冊](-wic-programming-guide.md)
 

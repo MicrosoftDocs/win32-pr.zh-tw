@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8c09077c0598a35855bf6f1f70fa7f211eb7a3e7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55f623cf098cce8d0877249947d971857f2de5d9084b78f736f13746704dc5c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118766172"
 ---
 # <a name="jet_dbinfomisclogtimedetach-property"></a>JET_DBINFOMISC logtimeDetach 屬性
 

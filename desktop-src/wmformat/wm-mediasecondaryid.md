@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5923ff0ff0545f1feb769973f2528bd82e351e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9a37c0b4314a518132d08454ef2cf7472273795cbb0b50f98d22b800e06cc1b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431642"
 ---
 # <a name="wmmediaclasssecondaryid"></a>WM/MediaClassSecondaryID
 
@@ -37,7 +37,7 @@ g \_ wszWMMediaClassSecondaryID
 
 
 
-| 次要類別 GUID                   | Description                                                                                                                                                                             |
+| 次要類別 GUID                   | 描述                                                                                                                                                                             |
 |----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | "E0236BEB-C281-4EDE-A36D-7AF76A3D45B5" | 用於音訊書籍檔案。                                                                                                                                                               |
 | "3A172A13-2BD9-4831-835B-114F6A95943F" | 適用于包含語音文字的音訊檔案，但不是音訊叢書。 例如，喜劇常式。                                                                           |
@@ -56,7 +56,7 @@ g \_ wszWMMediaClassSecondaryID
 
 
 
- 
+ 
 
 指定次要類別識別碼時，檔案也應該包含主要類別識別碼屬性。
 
@@ -70,9 +70,9 @@ g \_ wszWMMediaClassSecondaryID
 [**WM/MediaClassPrimaryID**](wm-mediaprimaryid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

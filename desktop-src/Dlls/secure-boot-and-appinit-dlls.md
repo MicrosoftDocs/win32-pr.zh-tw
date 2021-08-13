@@ -4,12 +4,12 @@ ms.assetid: 3ADE71C7-7113-4D26-8D6D-5609CAF13397
 title: AppInit Dll 和安全開機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2915dda53959f2a403a62112385fe80e735cbfd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67db758eebbccd1916b5c2611c20598c3f4d25cc80cd2910be22a65b4222bbae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119256018"
 ---
 # <a name="appinit-dlls-and-secure-boot"></a>AppInit Dll 和安全開機
 
@@ -27,15 +27,15 @@ Windows 8 採用 UEFI 和安全開機來改善整體系統完整性，並為複�
 
 ## <a name="appinit_dlls-certification-requirement-for-windows-8-desktop-apps"></a>\_Windows 8 桌面應用程式的 AppInit dll 認證需求
 
-Windows 8 傳統型應用程式的其中一項認證需求是，應用程式不能載入任意 Dll 來攔截使用 AppInit dll 機制的 WIN32 API 呼叫 \_ 。 如需有關認證需求的詳細資訊，請參閱 [Windows 8 傳統型應用程式的認證需求](../win_cert/certification-requirements-for-windows-desktop-apps.md)1.1 一節。
+Windows 8 傳統型應用程式的其中一項認證需求是，應用程式不能載入任意 dll 來攔截使用 AppInit dll 機制的 WIN32 API 呼叫 \_ 。 如需有關認證需求的詳細資訊，請參閱[Windows 8 傳統型應用程式的認證需求](../win_cert/certification-requirements-for-windows-desktop-apps.md)1.1 一節。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 -   AppInit \_ dll 機制不是合法應用程式的建議方法，因為它可能會導致系統鎖死和效能問題。
 -   \_啟用安全開機時，預設會停用 AppInit dll 機制。
--   \_在 Windows 8 desktop 應用程式中使用 AppInit dll 是 Windows 桌面應用程式認證失敗。
+-   \_在 Windows 8 傳統型應用程式中使用 AppInit dll 是 Windows 的桌面應用程式認證失敗。
 
-請參閱下列白皮書，以取得有關 2008 Windows 7 和 windows server \_ [2008 r2 中](/previous-versions/windows/hardware/download/dn550976(v=vs.85))的 AppInit dll 的詳細資訊： AppInit dll。
+請參閱下列白皮書，以取得 \_ Windows 7 和 Windows server 2008 r2 上的 AppInit dll 相關資訊： [Windows 7 和 Windows Server 2008 r2 中的 AppInit dll](/previous-versions/windows/hardware/download/dn550976(v=vs.85))。
 
  
 

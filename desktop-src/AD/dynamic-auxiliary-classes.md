@@ -7,12 +7,12 @@ keywords:
 - 動態輔助類別 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8c13fc8231b5232b82a61b9409f1736e5bd9249
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 45ce88f525b5d72a271aab1746a0ce0d0b308cb7022c4702433b82038c101435
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429898"
 ---
 # <a name="dynamic-auxiliary-classes"></a>動態輔助類別
 
@@ -20,11 +20,11 @@ ms.locfileid: "104462876"
 
 不同于結構化類別，您無法建立輔助類別的實例，就像您可以使用結構化類別一樣。 相反地，您可以使用輔助類別來擴充與另一個結構化、抽象或輔助物件類別相關聯的屬性清單。
 
-在 Windows 2000 的初始版本中，Active Directory Domain Services 提供將輔助類別靜態連結至另一個物件類別之 [**classSchema**](/windows/desktop/ADSchema/c-classschema) 定義的支援。 以這種方式使用輔助類別時，物件類別的每個實例都支援輔助類別的屬性。
+在 Windows 2000 的初始版本中，Active Directory Domain Services 提供將輔助類別靜態連結至另一個物件類別 [**classSchema**](/windows/desktop/ADSchema/c-classschema)定義的支援。 以這種方式使用輔助類別時，物件類別的每個實例都支援輔助類別的屬性。
 
-**Windows 2000 伺服器和較早版本：** Active Directory Domain Services 不會提供將輔助類別動態連結至個別物件的支援，而不是只支援整個物件類別。 此外，附加至物件實例的輔助類別，之後無法從實例中移除。
+**Windows 2000 Server 及更早版本：** Active Directory Domain Services 不會提供將輔助類別動態連結至個別物件的支援，而不是只支援整個物件類別。 此外，附加至物件實例的輔助類別，之後無法從實例中移除。
 
-**Windows Server 2003：** 當樹系中的所有網域控制站都執行 Windows Server 2003 且樹系功能模式為 Windows Server 2003 時，就會支援動態輔助類別。
+**Windows Server 2003：** 當樹系中的所有網域控制站都執行 Windows server 2003 且樹系功能模式 Windows server 2003 時，即支援動態輔助類別。
 
 如需輔助類別的詳細資訊，請參閱：
 
@@ -35,6 +35,6 @@ ms.locfileid: "104462876"
 
 For more information about forest functional levels, see "How to raise Active Directory domain and forest functional levels" in the Help and Support Knowledge Base at [https://support/microsoft.com/kb/322692\#4](https://support.microsoft.com/kb/322692).
 
- 
+ 
 
- 
+ 

@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列裝置屬性。
+description: Windows可攜式裝置支援下列裝置屬性。
 ms.assetid: 1caf4c1a-ceb6-4aa5-b430-df01c9fb22ce
 title: '裝置屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 696d5fefd65d194f9bb451b0095ed87b90f8a22c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5490323e60d353fade6dfb7f517533ecb5fa26ca9e78ae221b9ff584d8c13a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430976"
 ---
 # <a name="device-properties-portabledeviceh"></a>裝置屬性 (PortableDevice .h) 
 
-Windows 可攜式裝置支援下列裝置屬性。
+Windows可攜式裝置支援下列裝置屬性。
 
 
 
@@ -31,7 +31,7 @@ Windows 可攜式裝置支援下列裝置屬性。
 <tr class="header">
 <th>屬性</th>
 <th>VarType</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

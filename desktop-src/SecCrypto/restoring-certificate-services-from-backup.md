@@ -4,12 +4,12 @@ ms.assetid: f4914f45-629d-4f24-8328-d7f27e8a0062
 title: 從備份還原憑證服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f5adf46d802194909397a3b70483b3cf43bb409
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 665a1aed873cdf25f24dc5a7bc8b8466a5c3ae7a6c1aaf6bec07d2e8be336e9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900521"
 ---
 # <a name="restoring-certificate-services-from-backup"></a>從備份還原憑證服務
 

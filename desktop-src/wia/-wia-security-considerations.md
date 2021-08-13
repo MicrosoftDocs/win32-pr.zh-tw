@@ -1,19 +1,19 @@
 ---
-description: 本檔提供與 Windows 映像取得 (WIA) 相關之安全性考慮的資訊。
+description: 本檔提供與 Windows 映像取得相關的安全性考慮 (WIA) 的相關資訊。
 ms.assetid: 35455320-7d08-49de-938d-40dc0873917b
 title: 安全性考慮： Windows 映像取得
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ab080582492a0c03eab7879624bfb49a370e6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bb8f78e0f45b5b63d5d8deb8ffdd35bc64ee5566ced65ded30ecc51366c0793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439681"
 ---
 # <a name="security-considerations-windows-image-acquisition"></a>安全性考慮： Windows 映像取得
 
-本檔提供與 Windows 映像取得 (WIA) 相關之安全性考慮的資訊。 本檔並不提供您需要瞭解的安全性問題，而是將其作為此技術領域的起點和參考。
+本檔提供與 Windows 映像取得相關的安全性考慮 (WIA) 的相關資訊。 本檔並不提供您需要瞭解的安全性問題，而是將其作為此技術領域的起點和參考。
 
 -   [使用引號括住路徑名稱](#use-quotation-marks-around-path-names)
 -   [將已註冊的應用程式放在安全的位置](#place-registered-applications-in-secure-locations)

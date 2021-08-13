@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 94ce34393ec494f34cce621afc168a4d6bbe4325
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a0e000f5b2b8de645924300eb650a05a66a4b57c16c5eda3f124e7bc0903a8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432098"
 ---
 # <a name="validatestringptra-macro"></a>ValidateStringPtrA 宏
 
@@ -44,7 +44,7 @@ void ValidateStringPtrA(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 以 Null 結束的 ANSI 字串指標。
@@ -57,7 +57,7 @@ void ValidateStringPtrA(
 
 ## <a name="remarks"></a>備註
 
-除非包含了 DirectShow 基類標頭檔，否則會忽略這個宏，除非已定義 DEBUG、 \_ debug 或 VFWROBUST。
+除非包含了 DirectShow 的基類標頭檔，否則會忽略這個宏，除非已定義 debug、 \_ debug 或 VFWROBUST。
 
 ## <a name="requirements"></a>規格需求
 

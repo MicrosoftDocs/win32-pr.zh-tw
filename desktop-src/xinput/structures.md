@@ -4,12 +4,12 @@ description: 可用的 XInput 結構。
 ms.assetid: 89bb00ea-0be3-9619-1629-a7b7894302d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81fbba6d4b483e37e87cff7c1ac3e1366298b491
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7e4666ac9a0e17ca4ab8a0040b9adb530be9c1c9490887dddd3a154e7425182d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430831"
 ---
 # <a name="structures-xinput-game-controller-apis"></a>結構 (XInput 遊戲控制器 Api) 
 

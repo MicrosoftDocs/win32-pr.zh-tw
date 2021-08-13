@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 79eb172641cbd96e2ed0fa6631bc18718340628f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a95d57edb7992c9511e34480190580d34ad42da23c64c4297f5e4ebb75a95e73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452125"
 ---
 # <a name="shellfolderview-object"></a>ShellFolderView 物件
 
@@ -68,13 +68,13 @@ ms.locfileid: "104991722"
 
 
 
-| 屬性                                                      | 存取類型          | Description                                                                                                  |
+| 屬性                                                      | 存取類型          | 描述                                                                                                  |
 |:--------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------|
 | [**Application**](shellfolderview-application.md)<br/> | 唯讀<br/> | 包含物件的應用程式物件。<br/>                                                         |
 | [**FocusedItem**](shellfolderview-focuseditem.md)<br/> | 唯讀<br/> | 取得代表具有輸入焦點之專案的 [**FolderItem**](folderitem.md) 物件。<br/> |
 | [**資料夾**](shellfolderview-folder.md)<br/>           | 唯讀<br/> | 取得代表視圖的 [**資料夾**](folder.md) 物件。<br/>                                  |
 | [**父代**](shellfolderview-parent.md)<br/>           | 唯讀<br/> | 未實作。<br/>                                                                                  |
-| [**腳本**](shellfolderview-script.md)<br/>           | 唯讀<br/> | 已取代。<br/>                                                                                       |
+| [**指令碼**](shellfolderview-script.md)<br/>           | 唯讀<br/> | 已取代。<br/>                                                                                       |
 | [**ViewOptions**](shellfolderview-viewoptions.md)<br/> | 唯讀<br/> | 取得一組旗標，指出視圖的目前選項。<br/>                                |
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104991722"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

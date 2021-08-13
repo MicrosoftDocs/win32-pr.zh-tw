@@ -4,16 +4,16 @@ ms.assetid: 7ae672d3-e11d-453c-b9c0-354d21830ae4
 title: 傳送封包的資料訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f59c04418a2f1d0186ddc0d88c30e7cc790c715b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d93c73e22a9ac98e08d12164e78aa585a6b2ba3da6f47bf53675a7320bc206e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900358"
 ---
 # <a name="sending-an-enveloped-data-message"></a>傳送封包的資料訊息
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 在下列範例中，會從檔案中讀取純文字訊息，並開啟包含預定訊息收件者憑證的憑證存放區。 存放區中的所有憑證都會新增為郵件的收件者、封包訊息，然後將封包訊息寫入檔案。
 

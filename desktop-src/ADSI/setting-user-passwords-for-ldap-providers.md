@@ -7,12 +7,12 @@ keywords:
 - LDAP 提供者 ADSI、使用者物件、設定密碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5488146de271ac1108a904cd85163fad9d7dd205
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: efbbd0439a011575fbc9278dbe506d46db2210ce03d807ea74097499cb764b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690523"
 ---
 # <a name="setting-and-changing-user-passwords-with-the-ldap-provider"></a>使用 LDAP 提供者來設定和變更使用者密碼
 
@@ -29,6 +29,6 @@ Active Directory 的 LDAP 提供者會使用三個處理常式的其中一個來
 -   首先，LDAP 提供者會嘗試在128位 SSL 連線上使用 LDAP。
 -   其次，如果 128-SSL 連線失敗，LDAP 提供者會嘗試 [**NetUserChangePassword**](/windows/desktop/api/lmaccess/nf-lmaccess-netuserchangepassword) API 呼叫。 如同 [**SetPassword**](/windows/desktop/api/Iads/nf-iads-iadsuser-setpassword)，在舊版中，ADSI LDAP 提供者會模擬使用 [**IADsOpenDSObject. Objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) 方法或 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) 函數傳遞的使用者認證。
 
- 
+ 
 
- 
+ 

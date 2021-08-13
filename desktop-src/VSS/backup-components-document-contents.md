@@ -4,12 +4,12 @@ ms.assetid: 8c7ebba8-58c4-4733-ba59-802abf902c5e
 title: 備份元件檔內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e12c88ebffa0037702e1f30dd818d4fd23fe4e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c844f2e9e106817c8201822d000c2f6cb94c0fa272bb5b165d98e4cc48b1c21
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119248338"
 ---
 # <a name="backup-components-document-contents"></a>備份元件檔內容
 
@@ -37,7 +37,7 @@ ms.locfileid: "103852655"
 
 -   隱含新增至備份 ([*子*](vssgloss-s.md) 元件的元件) 可 [*供還原*](vssgloss-s.md) 並明確地新增至還原。
 
-    這些元件可以是可選取的或其，但是具有可選取的上階，用來以隱含方式選取它們進行備份。 [**>ivssbackupcomponents：： AddRestoreSubcomponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent)會將它們新增至備份元件檔。
+    這些元件可以是可選取的或其，但是具有可選取的上階，用來以隱含方式選取它們進行備份。 [**>Ivssbackupcomponents：： AddRestoreSubcomponent**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addrestoresubcomponent)會將它們新增至備份元件檔。
 
 還原中隱含包含的元件身分識別不會儲存在備份元件檔中。
 
@@ -47,7 +47,7 @@ VSS 可以存取元件包含的資訊：在還原或備份中未明確包含任�
 
 要求者可以判斷哪些元件已明確包含在作業中。
 
-[**>ivssbackupcomponents：： GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount)方法會傳回 (儲存在備份元件檔中之元件資訊的寫入器數目，而不是檔) 中的元件數目。
+[**>Ivssbackupcomponents：： GetWriterComponentsCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponentscount)方法會傳回 (儲存在備份元件檔中之元件資訊的寫入器數目，而不是檔) 中的元件數目。
 
 要求者會使用 [**>ivssbackupcomponents：： GetWriterComponents**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritercomponents)透過預存寫入器資訊來編制索引，以傳回 [**IVssWriterComponentsExt**](/windows/win32/api/vsbackup/nl-vsbackup-ivsswritercomponentsext) 介面的實例。 **IVssWriterComponentsExt** 介面可讓要求者取得參與寫入 [*器的寫入器類別*](vssgloss-w.md)和 [*寫入器實例*](vssgloss-w.md)，以及存取儲存在備份元件檔中之元件的相關資訊。
 
@@ -63,7 +63,7 @@ VSS 可以存取元件包含的資訊：在還原或備份中未明確包含任�
 
 如 [備份元件檔生命週期](backup-components-document-life-cycle.md)所述，寫入器可在處理 PrepareForBackup、PrepareForSnapshot、PostSnapshot、BackupComplete、PreRestore 或 PostRestore 事件時，透過 [**IVssWriterComponents**](/windows/desktop/api/VsWriter/nl-vswriter-ivsswritercomponents) 介面取得相同資訊的存取權。
 
-[**>ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) 可讓寫入器和要求者取得下列資訊：
+[**>Ivsscomponent**](/windows/desktop/api/VsWriter/nl-vswriter-ivsscomponent) 可讓寫入器和要求者取得下列資訊：
 
 -   元件的名稱、類型和 [*邏輯路徑*](vssgloss-l.md) ([**GetComponentName**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponentname)、 [**GetComponentType**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getcomponenttype)、 [**GetLogicalPath**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getlogicalpath)) 
 -   如何依照 [*還原目標*](vssgloss-r.md) 的指示還原元件 ([**>ivsscomponent：： GetRestoreTarget**](/windows/desktop/api/VsWriter/nf-vswriter-ivsscomponent-getrestoretarget)) 

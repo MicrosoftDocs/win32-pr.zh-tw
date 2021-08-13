@@ -4,12 +4,12 @@ ms.assetid: 03680CE5-A858-4876-B41C-6F2E08C02C22
 title: 直接操作介面
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 5eb3ae1b06cd940adc126d53a9cce58e4b6b5935
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 14216fca82e370866212dcec32ce65e427adb5eb720235a1f4349cd4f9c29183
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786942"
 ---
 # <a name="direct-manipulation-interfaces"></a>直接操作介面
 

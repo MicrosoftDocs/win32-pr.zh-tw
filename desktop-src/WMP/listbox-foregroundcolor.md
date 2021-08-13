@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caf5d298531700d022b03bc2e22d52beb04282ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9d32cdf1aef883d8dff812c2ba4a74eea09f3582d32975dcedf28ad11dbe3b0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118574990"
 ---
 # <a name="listboxforegroundcolor"></a>LISTBOX. foregroundColor
 
@@ -29,7 +29,7 @@ ms.locfileid: "106993338"
 
 ## <a name="possible-values"></a>可能的值
 
-這個屬性是包含任何 Microsoft Internet Explorer 色彩值的讀取/寫入 **字串** 。 其預設值等於 Windows 文字色彩。
+這個屬性是包含任何 Microsoft Internet Explorer 色彩值的讀取/寫入 **字串** 。 它的預設值等於 Windows 文字色彩。
 
 ## <a name="requirements"></a>規格需求
 
@@ -37,7 +37,7 @@ ms.locfileid: "106993338"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

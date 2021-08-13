@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35a767957053c37183a86dd2dcd12fe006f82b71
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f6fe57dd9edc5a3ac4a6d749ccaf4c067c074aa9249a4fcbd5bf12cfde32451d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431652"
 ---
 # <a name="wmmediaisrepeat"></a>WM/MediaIsRepeat
 
@@ -42,9 +42,9 @@ g \_ wszWMMediaIsRepeat
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

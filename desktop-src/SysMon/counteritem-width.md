@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e67892f9e4cf6799f1b9311bb2cd47ec02744cb6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5deca3d7fa188c834f2ca952c9b6c4760a3a1b56c83eb8250e343257b8108de5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883504"
 ---
 # <a name="counteritemwidth-property"></a>CounterItem Width 屬性
 
@@ -42,7 +42,7 @@ Property Width As Long
 
 線條圖形中所使用的線條寬度。 有效值的範圍從1到3，其中 1 (預設值) 是最小寬度。
 
-**在 Windows Vista 之前：** 有效的值範圍從1到9。 如果您的應用程式將會在 Windows Vista 上執行，請勿使用大於3的寬度值。
+**在 Windows Vista 之前：** 有效的值範圍從1到9。 如果您的應用程式將在 Windows Vista 上執行，請勿使用大於3的寬度值。
 
 ## <a name="exceptions"></a>例外狀況
 

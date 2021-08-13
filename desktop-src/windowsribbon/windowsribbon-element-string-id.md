@@ -3,7 +3,7 @@ title: String.Id 屬性
 description: 表示字串資源的唯一識別碼。
 ms.assetid: 393da279-bdf6-4796-a546-1931cbe49113
 keywords:
-- String.Id 屬性視窗功能區
+- String.Id 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3ab87327ed4f11a901fb8a201e72137ab62c7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 15f9c1af4ba32982ce52ba470f6b3d1996abe11c81bdd520a4e50203adb56093
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441648"
 ---
 # <a name="stringid-property"></a>String.Id 屬性
 
 表示字串資源的唯一識別碼。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <String.Id/>
@@ -84,8 +84,8 @@ ms.locfileid: "104105623"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

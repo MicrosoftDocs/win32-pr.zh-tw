@@ -4,12 +4,12 @@ ms.assetid: 54975fa0-0c50-48a8-8e0e-0ac907634717
 title: ConnectedServiceDisplayName
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ec318d047d2068f9e2b40eb8eaf70856bb42e5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3d8338746e3d70945a740613962da228bc6864f04499d53a3eaa8d72f94a765e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108102535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730194"
 ---
 # <a name="systemcontactconnectedservicedisplayname"></a>ConnectedServiceDisplayName
 

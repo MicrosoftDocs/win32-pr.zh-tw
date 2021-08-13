@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cb5b890ce082b27ca76842540113c0560c5e122c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fc1f6fb6bda8e1dcf70208b4e2a74c2857adeec3f07658c6b88458cbc33bf0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118766192"
 ---
 # <a name="jet_dbinfomisclogtimerepair-property"></a>JET_DBINFOMISC logtimeRepair 屬性
 

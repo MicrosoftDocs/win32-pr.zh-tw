@@ -4,16 +4,16 @@ description: 中斷方法
 ms.assetid: b8442e25-a629-47c7-acdd-1d28e74d78a2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d58050e181525cc4a4b9f35ec169e92d91ab28e7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 05e66814963bb3de3db95d60cbc25777244626168e95ceee4bd3d8d76992dd72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749255"
 ---
 # <a name="interrupt-method"></a>中斷方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104375328"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。中斷* *  *要求*
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。中斷_ *  *要求*
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "104375328"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -88,13 +88,13 @@ ms.locfileid: "104375328"
 > [!Note]  
 > **中斷** 不會排清字元的佇列;它會中止現有的動畫，並移至字元佇列中的下一個動畫。 若要停止並清除字元的佇列，請使用 [**Stop**](stop-method.md) 方法。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**Stop 方法**](stop-method.md)
 
 
- 
+ 
 
- 
+ 

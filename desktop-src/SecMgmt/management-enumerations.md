@@ -4,12 +4,12 @@ ms.assetid: f4fd2a61-61bc-44d2-b01f-3ca07699bcb8
 title: 安全性管理列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39bec2cdd731e2a3befe75e543f692d93bc5d9ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf87e6c41cb3e687a8927c294fe3bc1433a294aaf48991310b1c230f4741f299
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894454"
 ---
 # <a name="security-management-enumerations"></a>安全性管理列舉
 
@@ -43,7 +43,7 @@ LSA 原則管理函數會使用下列列舉類型。
 
 
 
-| Name                                                               | 描述                                                                                                                                                                                      |
+| 名稱                                                               | 描述                                                                                                                                                                                      |
 |--------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**更安全的 \_ 識別 \_ 類型**](/windows/desktop/api/WinSafer/ne-winsafer-safer_identification_types) | 列舉類型，定義可由 [**更安全的 \_ 識別 \_ 標頭**](/windows/desktop/api/WinSafer/ns-winsafer-safer_identification_header) 結構識別的識別規則結構的可能類型。 |
 | [**更安全的 \_ 物件 \_ 資訊 \_ 類別**](/windows/desktop/api/WinSafer/ne-winsafer-safer_object_info_class)      | 列舉類型，定義針對較安全物件所要求的資訊類型。                                                                                                            |

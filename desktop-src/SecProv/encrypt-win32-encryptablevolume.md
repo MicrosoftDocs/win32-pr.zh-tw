@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 463f13c250404e9a66095144166e74dbfae933ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6e2ed0eea4bb9c70949a3916733bf2777397fcb509ba0ce2f91633bf15a74d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892466"
 ---
 # <a name="encrypt-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 Encrypt 方法 \_
 
@@ -56,7 +56,7 @@ uint32 Encrypt(
 
 如需可能 EncryptionMethod 值的清單，請參閱 [**GetEncryptionMethod**](getencryptionmethod-win32-encryptablevolume.md) 方法。
 
-Windows 7 或更低的預設值為： 1 (\_ \_ 具有擴散器) 的 AES 128 \_ 。
+Windows 7 或以下的預設值為： 1 (AES \_ 128 \_ （具有 \_ 擴散器) ）。
 
 Windows 8、Windows 8.1 或 1507 Windows 10 的預設值為： 3 (AES \_ 128) 。
 
@@ -71,7 +71,7 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 
 描述加密行為的旗標。
 
-**Windows 7、Windows Server 2008 R2、Windows Vista Enterprise 和 Windows Server 2008：** 此參數無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista Enterprise 和 Windows Server 2008：** 此參數無法使用。
 
 目前定義了下列位的32位組合。
 
@@ -107,7 +107,7 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -130,7 +130,7 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 <li><a href="protectkeywithtpmandpinandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndPINAndStartupKey</strong></a></li>
 <li><a href="protectkeywithtpmandstartupkey-win32-encryptablevolume.md"><strong>ProtectKeyWithTPMAndStartupKey</strong></a></li>
 </ul>
-<strong>Windows Vista：</strong> 當磁片區不存在任何加密金鑰時，會改為傳回 ERROR_INVALID_OPERATION。 十進位值是4317，而十六進位值為0x10DD。<br/></td>
+<strong>Windows Vista：</strong>當磁片區不存在任何加密金鑰時，會改為傳回 ERROR_INVALID_OPERATION。 十進位值是4317，而十六進位值為0x10DD。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>FVE_E_CANNOT_SET_FVEK_ENCRYPTED</strong></dt> <dt>2150694957 (0x8031002D) </dt> </dl></td>
@@ -157,7 +157,7 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 
 ## <a name="remarks"></a>備註
 
-當您使用這個方法時，如果沒有第二個選擇性參數 (根據 Windows 7 和 Windows Vista Enterprise 定義) ，方法一律會起始完整模式轉換，以保持回溯相容的行為。 如此一來，在 Windows 8 和 Windows Server 2012 中新增第二個選擇性參數，就不會中斷現有應用程式和腳本的安全性期望。
+當您使用這個方法時，如果沒有第二個選擇性參數 (根據 Windows 7 和 Windows Vista Enterprise 定義) ，此方法一律會起始完整模式轉換，以維持回溯相容的行為。 如此一來，現有應用程式和腳本的安全性期望將不會在 Windows 8 和 Windows Server 2012 中新增第二個選擇性參數的情況下中斷。
 
 您可以呼叫 [**GetConversionStatus**](getconversionstatus-win32-encryptablevolume.md) 來判斷加密是否正在進行中，以及已加密之磁片區的百分比。
 
@@ -171,8 +171,8 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

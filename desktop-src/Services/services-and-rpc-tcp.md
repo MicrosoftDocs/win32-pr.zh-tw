@@ -1,23 +1,23 @@
 ---
-description: 從 Windows Vista 開始，服務控制管理員 (SCM) 支援使用傳輸控制)  (通訊協定的遠端程序呼叫， (RPC/NP) 的具名管道。
+description: 從 Windows Vista 開始，服務控制管理員 (SCM) 支援透過傳輸控制通訊協定進行遠端程序呼叫， (rpc/NP) 和具名管道 (rpc/NP) 。
 ms.assetid: c51732f6-c22f-4726-afaa-13a8948ac44f
 title: 服務和 RPC/TCP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fdb2ef3b21f280ba4e5078d302813de41a5a43a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d4ddfe95e114a972c600c9bef44864aa99fbe4ec412312d03e08fa7d7fe15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888555"
 ---
 # <a name="services-and-rpctcp"></a>服務和 RPC/TCP
 
-從 Windows Vista 開始，服務控制管理員 (SCM) 支援使用傳輸控制)  (通訊協定的遠端程序呼叫， (RPC/NP) 的具名管道。 用戶端 SCM 函式預設會使用 RPC/TCP。
+從 Windows Vista 開始，服務控制管理員 (SCM) 支援透過傳輸控制通訊協定進行遠端程序呼叫， (rpc/NP) 和具名管道 (rpc/NP) 。 用戶端 SCM 函式預設會使用 RPC/TCP。
 
 RPC/TCP 適用于從遠端使用 SCM 功能的大部分應用程式，例如遠端系統管理或監視工具。 不過，針對相容性和效能，有些應用程式可能需要藉由設定本主題中所述的登錄值來停用 RPC/TCP。
 
-當服務呼叫遠端 SCM 函數時，用戶端 SCM 會先嘗試使用 RPC/TCP 來與伺服器端 SCM 通訊。 如果伺服器執行的是支援 RPC/TCP 的 Windows 版本，並允許 RPC/TCP 流量，RPC/TCPP 連接將會成功。 如果伺服器執行的 Windows 版本不支援 RPC/TCP，或支援 RPC/TCP，但在只允許具名管道流量的防火牆後方運作，則 RPC/TCP 連接逾時，且 SCM 會重試與 RPC/NP 的連接。 最後，這將會成功，但可能需要一些時間 (通常超過20秒的) ，導致 [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) 函式顯示為封鎖。
+當服務呼叫遠端 SCM 函數時，用戶端 SCM 會先嘗試使用 RPC/TCP 來與伺服器端 SCM 通訊。 如果伺服器正在執行支援 rpc/tcp 的 Windows 版本，並允許 rpc/tcp 流量，rpc/TCPP 連接將會成功。 如果伺服器正在執行不支援 rpc/tcp 的 Windows 版本，或支援 rpc/tcp，但在只允許具名管道流量的防火牆後方運作，則 RPC/TCP 連接逾時，且 SCM 會重試與 rpc/NP 的連接。 最後，這將會成功，但可能需要一些時間 (通常超過20秒的) ，導致 [**OpenSCManager**](/windows/desktop/api/Winsvc/nf-winsvc-openscmanagera) 函式顯示為封鎖。
 
 TCP 不包含使用 **net use** 命令指定的使用者認證。 因此，如果啟用了 RPC/TCP，並使用 **sc.exe** 來嘗試存取指定的服務，則命令可能會失敗並拒絕存取。 在用戶端上停用 RPC/TCP 會導致 **sc.exe** 命令使用具有使用者認證的具名管道，因此命令將會成功。 如需 sc.exe 的詳細資訊，請參閱 [使用 SC 控制服務](controlling-a-service-using-sc.md)。
 

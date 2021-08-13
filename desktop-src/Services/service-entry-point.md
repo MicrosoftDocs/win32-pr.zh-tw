@@ -4,12 +4,12 @@ ms.assetid: ed6945fc-ac08-4776-8d75-d33e8df3882a
 title: 服務進入點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de9e2683c4a69949b6f51c7d000c0ee3571fe118
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8a8f44322048351161bb8f3b8afdd619129d18b5effb5dc850d8909afbb3673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888970"
 ---
 # <a name="service-entry-point"></a>服務進入點
 

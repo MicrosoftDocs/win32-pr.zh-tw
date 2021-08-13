@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ea657c58312b8145b8c7c8f973f002db3da846ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baca69039c2ea5755046e971a13c1f2700f9b773d76e3bbd83689971d3cbfccf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118769180"
 ---
 # <a name="esenttaggednotnullexception-constructor"></a>EsentTaggedNotNullException 函式
 

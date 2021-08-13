@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b372188df81bc172a13bcb16a974009d8be85983
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: eb00a065bea9df9beba20414371c6f7d6b67c74eaa027271e6c5626c60eddc4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698298"
 ---
 # <a name="wmuserweburl"></a>WM/UserWebURL
 
@@ -38,9 +38,9 @@ g \_ wszWMUserWebURL
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

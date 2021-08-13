@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57b4a86a2f08baf7d6e3af9960bd68db1eba86f1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ab103291a919a166d63656718629a7781bdd5f3a4b3023283f2dd114decd966e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461328"
 ---
 # <a name="checkbox-control"></a>CHECKBOX 控制項
 
@@ -76,6 +76,6 @@ CHECKBOX "Italic", 3, 10, 10, 40, 10
 [**STATE3**](state3-control.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

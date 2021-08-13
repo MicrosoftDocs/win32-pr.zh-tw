@@ -4,12 +4,12 @@ ms.assetid: 3aa9175b-f889-4d5d-8eb2-a8a42f9fe750
 title: CMC 延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b104af2b28470627ea593321627ae5e5076b1e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48d29873bc43f7a7229b363a7b09cdf03a23127cc5d5e0e738036c6005a6cc7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901841"
 ---
 # <a name="cmc-extensions"></a>CMC 延伸模組
 

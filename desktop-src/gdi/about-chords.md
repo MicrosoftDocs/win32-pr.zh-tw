@@ -4,12 +4,12 @@ ms.assetid: 9aa35b39-06f2-48bf-b32c-3e3e32fab68b
 title: 關於 Chords
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18d6310c47a503766e61b9c7936816a5891da89a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc3bad0d17d34386ada7c7c3b46bb1bcc4db5f9a2ce572ce78c33f8f4b6af909
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400528"
 ---
 # <a name="about-chords"></a>關於 Chords
 

@@ -4,12 +4,12 @@ ms.assetid: 63dc2991-e070-4981-9e2d-90b4fdaaee7a
 title: " (同步處理的事件物件) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03ef4f5102df91cabb76529c9d4a9958859418aa
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: dc9ea7c77fd61723b6ab927616817a5de2c323bf800431547800e2a96f33deee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886311"
 ---
 # <a name="event-objects-synchronization"></a> (同步處理的事件物件) 
 

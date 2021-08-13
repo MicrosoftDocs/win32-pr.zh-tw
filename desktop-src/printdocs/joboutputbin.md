@@ -4,12 +4,12 @@ ms.assetid: 324ec426-b7c8-43af-96b9-74929358e262
 title: JobOutputBin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1243e9409f781b8babde6d6310ce7a2b083f8703
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 35a1322a75ac7aef5ff2c5d30f9dd63a64beb00a147f8eb4cf7529a3f9582d96
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112408851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119447458"
 ---
 # <a name="joboutputbin"></a>JobOutputBin
 
@@ -25,7 +25,7 @@ ms.locfileid: "112408851"
 
 
 
-| Name | 值 |
+| 名稱 | 值 |
 |----------------------------|--------------------|
 | 項目類型 <br/>   | 功能<br/> |
 | 範圍前置詞 <br/> | 工作 (Job)<br/>     |
@@ -65,7 +65,7 @@ ms.locfileid: "112408851"
 
 
 
-| Name                                   | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                             |
+| 名稱                                   | 資料類型          | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                             |
 |----------------------------------------|--------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
 | \_選項名稱\_<br/>              | string<br/>  | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                                  |
 | \_IdentityOptionValue\_<br/>     | string<br/>  | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/>        |

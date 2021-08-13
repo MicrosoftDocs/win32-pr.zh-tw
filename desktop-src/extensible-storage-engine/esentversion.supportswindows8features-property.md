@@ -25,16 +25,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 92de5a008f8a5759865b163f53bc518d9484b60f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c7693a68c93c38a668bf637cdb428782d9bb57cfdbf1c4f048d710c9bbe5001
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119454178"
 ---
 # <a name="esentversionsupportswindows8features-property"></a>EsentVersion. SupportsWindows8Features 屬性
 
-取得值，這個值會指出目前的 ESENT 版本是否支援 Windows 8 版 ESENT 中可用的功能。
+取得值，這個值會指出目前的 esent 版本是否支援 Windows 8 版 esent 中可用的功能。
 
 **命名空間：**  [Microsoft. Isam. Interop](./microsoft.isam.esent.interop-namespace.md)  
 **元件：**  (在 Microsoft.Isam.Esent.Interop.dll) 中的 Microsoft。

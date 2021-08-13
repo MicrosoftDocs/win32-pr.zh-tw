@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 91aaf2924638b1db5b0e8ec0782b90fa964a9543
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7bec167a7afc438b73516feacd95fb3fea180efa6806788010d399638a474a55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241488"
 ---
 # <a name="d3dxassembleshaderfromfile-function"></a>D3DXAssembleShaderFromFile 函式
 
@@ -72,7 +72,7 @@ Type： **Const [**D3DXMACRO**](d3dxmacro.md) \***
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **DWORD**](../winprog/windows-data-types.md)**

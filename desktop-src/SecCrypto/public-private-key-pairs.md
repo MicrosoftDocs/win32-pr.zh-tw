@@ -4,12 +4,12 @@ ms.assetid: f75e5e6c-0a84-47ac-97db-5063327f7931
 title: 非對稱金鑰
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73c475b1d0260bd20495d28ab542ca18c0d1cefa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 374ba5ae17610154e306f7bdafd895116e83371ea446babfa19b5c92c29a2247
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901470"
 ---
 # <a name="asymmetric-keys"></a>非對稱金鑰
 
@@ -27,7 +27,7 @@ ms.locfileid: "103695060"
 
 請注意，雖然大多數 [*密碼編譯服務提供者*](../secgloss/c-gly.md) 所建立的金鑰容器 (csp) 包含兩個金鑰組，但這並不是必要的。 有些 Csp 不會儲存任何 [*金鑰*](../secgloss/k-gly.md) 組，其他 csp 則儲存兩組以上。
 
-CryptoAPI 中的所有金鑰都儲存在 Csp 內。 Csp 也負責建立金鑰、終結它們，以及使用它們來執行各種不同的密碼編譯作業。 從 CSP 匯出金鑰，以將其傳送給其他使用者，將在 [密碼編譯金鑰儲存和交換](cryptographic-key-storage-and-exchange.md)中討論。
+CryptoAPI 中的所有金鑰都儲存在 Csp 內。 Csp 也負責建立金鑰、終結它們，以及使用它們來執行各種不同的密碼編譯作業。 從 CSP 匯出金鑰，以便將金鑰傳送給其他使用者，[儲存體和 Exchange 的密碼編譯金鑰](cryptographic-key-storage-and-exchange.md)中有討論。
 
  
 

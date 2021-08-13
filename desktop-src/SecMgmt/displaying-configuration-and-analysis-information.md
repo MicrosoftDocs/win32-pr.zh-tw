@@ -4,12 +4,12 @@ ms.assetid: 503bc283-c1cd-4258-a27e-4046553882fa
 title: 顯示設定和分析資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc2f0d598ced5f789d9b417d79df591a71f82ab4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d33971f413058279aa840db4a61e529eb25ee7f317145a66bcb4474142a35c76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894781"
 ---
 # <a name="displaying-configuration-and-analysis-information"></a>顯示設定和分析資訊
 

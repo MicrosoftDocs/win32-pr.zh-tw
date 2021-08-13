@@ -4,12 +4,12 @@ ms.assetid: 86a318fa-4d7c-4191-a309-d25b492dd915
 title: 互動式驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: afeb09044f4b34f28c02cd0f03b3358a8158af65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 876f3aced39afba0d08a9643e14caae91336daf38a63f3855e76fe50136a16a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482290"
 ---
 # <a name="interactive-authentication"></a>互動式驗證
 

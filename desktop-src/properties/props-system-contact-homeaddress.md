@@ -4,18 +4,18 @@ ms.assetid: c187317a-5636-4542-a97d-e9cc80e9aaa9
 title: HomeAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01068fb3fea7149a1cb27cb14d1d41dc98da34ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7dc3cc648eb3e7e0beb9d887b7e3f09357a07661d7f5e8d4b830cfa01a8143a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118729896"
 ---
 # <a name="systemcontacthomeaddress"></a>HomeAddress
 
 連絡人的首頁位址。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

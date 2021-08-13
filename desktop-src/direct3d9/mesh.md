@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\mesh.htm
 title: 網狀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ced60785a5f013db7fc26e4d203119a160953b65
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f4ce4cf6fb6a3eee3417a7d0fe1594164c1e22df9d118f4f995955f8070fc015
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119240738"
 ---
 # <a name="mesh"></a>網狀
 

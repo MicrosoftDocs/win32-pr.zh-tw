@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9f3c41c25a0df0895c645c34f97495712b113ffc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b2e4120b3eceea6d2a664edec9b48a46d33ad19b788bb820458a8802dccd2d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415738"
 ---
 # <a name="meta-element"></a>中繼元素
 
@@ -59,12 +59,12 @@ ms.locfileid: "106998610"
 
 ## <a name="remarks"></a>備註
 
-Windows Media 播放清單的建立者可以將中繼元素的 name 屬性設定為任何字串。 下列清單顯示在 Windows Media Player 和其他 Microsoft 元件所建立的 Windows Media 播放清單中找到的一些典型名稱屬性。
+Windows 媒體播放清單的建立者可以將中繼元素的 name 屬性設定為任何字串。 下列清單顯示在 Windows Media Player 和其他 Microsoft 元件 Windows 媒體播放清單中找到的一些典型的名稱屬性。
 
 -   作者
 -   類別
 -   Genre
--   UserName
+-   使用者名稱
 -   UserRating
 -   Generator
 
@@ -98,7 +98,7 @@ Windows Media 播放清單的建立者可以將中繼元素的 name 屬性設定
 [**head 元素**](head-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

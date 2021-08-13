@@ -4,12 +4,12 @@ ms.assetid: d56d45f4-aeb8-4b6d-8648-7a21d7c74d80
 title: 檔案佇列資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f097c820fab4c79a957a647b446e5395a5405af1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f626378b431f443f681f22ec9af26a0035a3e64ff897bd0437a602ee776348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887057"
 ---
 # <a name="file-queue-data-types"></a>檔案佇列資料類型
 

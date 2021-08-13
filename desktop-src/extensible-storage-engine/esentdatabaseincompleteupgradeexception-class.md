@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8ae6272559c537ae870794a9d5a7a76bb8672b26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: adf061a556c4afe7f6cd593b5cf9123f9450c049318a54b168d3f2521916cad7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118781060"
 ---
 # <a name="esentdatabaseincompleteupgradeexception-class"></a>EsentDatabaseIncompleteUpgradeException 類別
 

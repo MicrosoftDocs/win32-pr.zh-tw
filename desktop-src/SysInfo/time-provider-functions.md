@@ -4,12 +4,12 @@ ms.assetid: 05687a67-4e0b-4a44-9c2d-7e097be9008c
 title: 時間提供者函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20a24f15bd67751dc09a689078a8a518224267c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a3c0647574aaa807788e9cf510ce9293460c0394bcdaa794e243009ad6710bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884813"
 ---
 # <a name="time-provider-functions"></a>時間提供者函數
 

@@ -3,19 +3,19 @@ title: High-Resolution 音訊支援
 description: High-Resolution 音訊支援
 ms.assetid: 9545420f-70c4-4fd7-9033-5b5c7712c04c
 keywords:
-- Windows Media Format SDK，高解析度音訊支援
-- Windows Media Format SDK，音訊支援
+- Windows媒體格式 SDK，高解析度音訊支援
+- Windows媒體格式 SDK，音訊支援
 - 編解碼器、高解析度音訊支援
 - 編解碼器、音訊支援
 - 高解析度音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5c524e3f73ee1c525fbb9f8539563f3190f2994
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 32d80810409eb494d58bd0881a0137feedafd09a21574852c706a716238e6c84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433597"
 ---
 # <a name="high-resolution-audio-support"></a>High-Resolution 音訊支援
 
@@ -30,9 +30,9 @@ Windows Media 音訊 9 Professional 編解碼器和 Windows Media 音訊9無失�
 [**編解碼器功能**](codec-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

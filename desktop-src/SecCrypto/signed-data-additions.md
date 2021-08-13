@@ -4,12 +4,12 @@ ms.assetid: 0518a336-d996-4a82-9336-a448284c72dd
 title: 新增簽署的資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bfc242072f82afcf0877d713a3437e797f24d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db5e9f1433a432ba3c3a414e11b83e429ad9c0abc7364b5e5b7451f72d886e33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900388"
 ---
 # <a name="signed-data-additions"></a>新增簽署的資料
 

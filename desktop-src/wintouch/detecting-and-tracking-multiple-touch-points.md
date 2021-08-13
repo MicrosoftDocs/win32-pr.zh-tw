@@ -3,17 +3,17 @@ title: 偵測和追蹤多個觸控點
 description: 偵測和追蹤多個觸控點
 ms.assetid: 7a5c7595-f341-4e11-805f-ed0b9c63cbff
 keywords:
-- Windows Touch，多個觸控點
+- Windows觸控、多個觸控點
 - 偵測多個觸控點
 - 追蹤多個觸控點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13b9eaf665b850eea8925bd531ffd1e9ec3fcf40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a4a5b8086988dc1a87b5596d5a0ac74ec1f1df5ce4b85d928cbe306b791d17b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436042"
 ---
 # <a name="detecting-and-tracking-multiple-touch-points"></a>偵測和追蹤多個觸控點
 
@@ -29,7 +29,7 @@ ms.locfileid: "104463476"
 
 ## <a name="create-an-application-and-enable-windows-touch"></a>建立應用程式並啟用 Windows Touch
 
-使用 Microsoft Visual Studio wizard，從 Microsoft Win32 應用程式開始。 當您完成嚮導之後，請在 targetver.h 中設定 Windows 版本，並在應用程式中包含 windows .h 和 windowsx，以新增 Windows Touch 訊息的支援。 下列程式碼顯示如何在 targetver.h 中設定 Windows 版本。
+使用 Microsoft Visual Studio wizard，從 Microsoft Win32 應用程式開始。 完成嚮導之後，請在 targetver.h 中設定 Windows 版本，並在您的應用程式中包含 Windows .h 和 windowsx，以新增 Windows Touch 訊息的支援。 下列程式碼顯示如何在 targetver.h 中設定 Windows 版本。
 
 
 ```C++
@@ -183,7 +183,7 @@ case WM_TOUCH:
 > [!Note]  
 > 若要使用 [**ScreenToClient**](/windows/desktop/api/winuser/nf-winuser-screentoclient) 函式，您的應用程式中必須有高 DPI 支援。 如需有關支援高 DPI 的詳細資訊，請參閱 MSDN 的 [高 DPI]( ../hidpi/high-dpi-desktop-application-development-on-windows.md) 區段。
 
- 
+ 
 
 現在當使用者接觸螢幕時，他或她所觸及的位置將會儲存在點陣列中。 [**TOUCHINPUT**](/windows/win32/api/winuser/ns-winuser-touchinput)結構的 **dwID** 成員會儲存與硬體相依的識別碼。
 
@@ -277,9 +277,9 @@ int GetContactIndex(int dwID){
 
 <dl> <dt>
 
-[Windows Touch 輸入](guide-multi-touch-input.md)
+[Windows觸控輸入](guide-multi-touch-input.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

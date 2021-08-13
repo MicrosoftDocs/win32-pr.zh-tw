@@ -4,12 +4,12 @@ ms.assetid: 5d1ed2e4-82c2-4364-b8f0-22bba974bc22
 title: 金鑰轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3e4f83bbe26f49989d612efe718c2d838ce7f1d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a9fc5b905b1650b6db6bb98b542193160825b8bd6dd74626ef9bddc91b118118
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118397272"
 ---
 # <a name="key-transition"></a>金鑰轉換
 
@@ -34,7 +34,7 @@ CLSID 變數名稱： CLSID \_ DxtKey
 
 
 
-| 屬性   | 類型  | 有效範圍           | Description                                                                                                                                                                                                                                                | 套用至                     |
+| 屬性   | 類型  | 有效範圍           | 描述                                                                                                                                                                                                                                                | 套用至                     |
 |------------|-------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------|
 | 色調        | int   | 0-360                 | 要做為索引鍵的色調值。                                                                                                                                                                                                                             | 色調                            |
 | Invert     | BOOL  | **FALSE** 或 **TRUE** | 布林值，指出是否要反轉索引鍵的預設運算。 如果 **為 FALSE**，則會以預設方式將上層影像中的圖元變成透明。 若 **為 TRUE**，則作業反轉。                                                   | 色度、色調、亮度、Nonred |

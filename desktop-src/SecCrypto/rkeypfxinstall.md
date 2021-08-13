@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 4908b7224a02f5a28b876b1ff67cbcec7d23df5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f19a01e9132bf9c4b1e281a75b0e0d7a27b4f9c7f299eefdd47bef8d60daea97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900543"
 ---
 # <a name="rkeypfxinstall-function"></a>RKeyPFXInstall 函式
 
 不支援 **RKeyPFXInstall** 函數。
 
-**Windows Server 2003：****RKeyPFXInstall** 函式會在遠端電腦上安裝憑證。 請注意，此行為已隨著 Windows Server 2003 Service Pack 1 (SP1) 而變更。
+**Windows Server 2003：****RKeyPFXInstall** 函式會在遠端電腦上安裝憑證。 請注意，這種行為隨著 Windows Server 2003 Service Pack 1 (SP1) 而有所變更。
 
 ## <a name="syntax"></a>語法
 
@@ -96,7 +96,7 @@ ULONG RKeyPFXInstall(
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Rkeysvcc。h</dt> </dl> |
 
 

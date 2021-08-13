@@ -4,12 +4,12 @@ ms.assetid: f53cecaa-dee7-4b02-a4ac-ffbd917f73aa
 title: 使用無視窗模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 393b112c6d340c3440521876da08111dd4bb0e81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5189fb52932a328493baec9a79ccd6598a9a0659c198ee3ce3d4d157574a63c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119271248"
 ---
 # <a name="using-windowless-mode"></a>使用無視窗模式
 
@@ -18,7 +18,7 @@ ms.locfileid: "103850332"
 為了維持與現有應用程式的回溯相容性，VMR 預設為視窗模式。 在視窗模式中，轉譯器會建立自己的視窗來顯示影片。 一般而言，應用程式會將影片視窗設定為應用程式視窗的子系。 有個別的影片視窗會造成一些問題，不過：
 
 -   最重要的是，如果線上程之間傳送視窗訊息，則可能會發生鎖死。
--   篩選圖形管理員必須將某些視窗訊息（例如 WM \_ 油漆）轉寄給影片轉譯器。 應用程式必須使用篩選圖形管理員的 [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) (，而不是影片轉譯器的) ，如此篩選圖形管理員就會維持正確的內部狀態。
+-   篩選 Graph 管理員必須將某些視窗訊息（例如 WM \_ 油漆）轉寄給影片轉譯器。 應用程式必須使用篩選 Graph Manager [**IVideoWindow**](/windows/desktop/api/Control/nn-control-ivideowindow) (的執行，而不是影片轉譯器的) ，讓篩選 Graph 管理員維持正確的內部狀態。
 -   若要從影片視窗接收滑鼠或鍵盤事件，應用程式必須設定 *訊息清空*，使影片視窗將這些訊息轉送到應用程式。
 -   若要防止裁剪問題，影片視窗必須有正確的視窗樣式。
 
@@ -34,7 +34,7 @@ VMR-7 篩選和 VMR-9 篩選器會公開不同的介面，但每個都有相同�
 
 **VMR-7**
 
-1.  建立篩選圖形管理員。
+1.  建立篩選 Graph 管理員。
 2.  建立 VMR-7 並將它新增至篩選圖形。
 3.  使用 **VMRMode \_ 無視窗** 旗標，在 VMR-7 上呼叫 [**IVMRFilterConfig：： SetRenderingMode**](/windows/desktop/api/Strmif/nf-strmif-ivmrfilterconfig-setrenderingmode) 。
 4.  針對 [**IVMRWindowlessControl**](/windows/desktop/api/Strmif/nn-strmif-ivmrwindowlesscontrol) 介面查詢 VMR-7。
@@ -42,13 +42,13 @@ VMR-7 篩選和 VMR-9 篩選器會公開不同的介面，但每個都有相同�
 
 **VMR-9**
 
-1.  建立篩選圖形管理員。
+1.  建立篩選 Graph 管理員。
 2.  建立 VMR-9 並將它新增至篩選圖形。
 3.  使用 **VMR9Mode \_ 無視窗** 旗標，在 VMR-9 上呼叫 [**IVMRFilterConfig9：： SetRenderingMode**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrfilterconfig9-setrenderingmode) 。
 4.  針對 [**IVMRWindowlessControl9**](/previous-versions/windows/desktop/api/Vmr9/nn-vmr9-ivmrwindowlesscontrol9) 介面查詢 VMR-9。
 5.  在 VMR-9 上呼叫 [**IVMRWindowlessControl9：： SetVideoClippingWindow**](/previous-versions/windows/desktop/api/Vmr9/nf-vmr9-ivmrwindowlesscontrol9-setvideoclippingwindow) 。 指定應顯示影片的視窗控制碼。
 
-現在請呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) 或其他圖形建立方法，以建立篩選圖形的其餘部分。 篩選圖形管理員會自動使用您新增至圖形的 VMR 實例。  (如需發生此情況的詳細資訊，請參閱 [智慧型連接](intelligent-connect.md)。 ) 
+現在請呼叫 [**IGraphBuilder：： RenderFile**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-renderfile) 或其他圖形建立方法，以建立篩選圖形的其餘部分。 篩選 Graph 管理員會自動使用您新增至圖形的 VMR 實例。  (如需發生此情況的詳細資訊，請參閱[智慧型連線](intelligent-connect.md)。 ) 
 
 下列程式碼顯示 helper 函式，此函式會建立 VMR-7、將它新增至圖形，並設定無視窗模式。
 

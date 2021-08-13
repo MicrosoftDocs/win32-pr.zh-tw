@@ -4,12 +4,12 @@ ms.assetid: 3a2e3fa6-2d6a-4ab0-a531-d1c968458e96
 title: RenderExclusiveEventDriven
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75553496219d0a4ddaf6685089de802e034f94cb
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0c23213e1e60d0fdf77de67a91ea3bba3c928a51f9e562876dd1a4e018595dfb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119216548"
 ---
 # <a name="renderexclusiveeventdriven"></a>RenderExclusiveEventDriven
 
@@ -64,7 +64,7 @@ ms.locfileid: "112405131"
 
 1.  開啟 Windows SDK 的 CMD shell，並變更為 RenderExclusiveEventDriven 範例目錄。
 2.  在 RenderExclusiveEventDriven 目錄中執行命令 `start WASAPIRenderExclusiveEventDriven.sln` ，以在 Visual Studio 視窗中開啟 WASAPIRenderExclusiveEventDriven 專案。
-3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderExclusiveEventDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
+3.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 WASAPIRenderExclusiveEventDriven 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 

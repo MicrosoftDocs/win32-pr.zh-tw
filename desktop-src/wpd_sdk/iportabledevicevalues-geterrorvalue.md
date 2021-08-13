@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 86e5dacfa398cfe2bb57bfd289e4c8e792f14a66
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 594ed35191433ec817f1e37bd4c037652f6b564d3a5c6191d56ad1c5e855ab34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697147"
 ---
 # <a name="iportabledevicevaluesgeterrorvalue-method"></a>IPortableDeviceValues：： GetErrorValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetErrorValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                            |
+| 傳回碼                                                                                                            | 描述                                                            |
 |------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                       |
 | <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 所指定的屬性不是 **HRESULT** 型別。<br/> |

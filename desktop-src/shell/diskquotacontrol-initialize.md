@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 919720f01c67b6df3189b760aa8cefbb29615179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0df879c626ccdac7494077f021c23a6e42b24f0df3aa780d1be8b1af8225527a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119455898"
 ---
 # <a name="diskquotacontrolinitialize-method"></a>DiskQuotaControl.Initialize 方法
 

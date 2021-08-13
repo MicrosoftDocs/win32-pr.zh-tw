@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: '事件安全性常數 (Wbemcli .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a3009b16e468a647ee96b9be365286caba2c12b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8ae26364c7edf6daaf9b70dcf769675c0a39966286b3b8f725fefe0af73ff8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244288"
 ---
 # <a name="event-security-constants"></a>事件安全性常數
 

@@ -4,12 +4,12 @@ ms.assetid: 72f51b38-d62c-4400-a38d-b9a0e90e9db4
 title: 依需求啟動服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c70be74e6cf54468f244ca798ae7ca48da3512
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc3762721eaeaea32d42da729f57c0753b18fb951cb57ad091aa697c144df0de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888464"
 ---
 # <a name="starting-services-on-demand"></a>依需求啟動服務
 

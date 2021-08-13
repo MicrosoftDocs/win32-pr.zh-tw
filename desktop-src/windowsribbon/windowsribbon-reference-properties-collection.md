@@ -4,12 +4,12 @@ description: 功能區架構集合型控制項的屬性索引鍵參考檔。
 ms.assetid: fa317765-25e2-42ef-8558-fb5ef951fc17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d9aa78db8acdf7b0a1a4f994f65c08e774129f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eef0698f41e870f834ea55e97d34957edbffdf28675caac9ac0191b6299bca68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438793"
 ---
 # <a name="collection-properties"></a>集合屬性
 

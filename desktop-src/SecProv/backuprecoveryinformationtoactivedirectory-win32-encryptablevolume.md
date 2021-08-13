@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: a04901139aa46f42e06eaea1c91af0e3bac202e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd24a13b7f41f2e87f48c2e5ba97a890d10df3245fcbc6e16f9291c1e0629d27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892956"
 ---
 # <a name="backuprecoveryinformationtoactivedirectory-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 BackupRecoveryInformationToActiveDirectory 方法 \_
 
@@ -56,7 +56,7 @@ uint32 BackupRecoveryInformationToActiveDirectory(
 
 
 
-| 傳回碼/值                                                                                                                                                                            | Description                                                                                                              |
+| 傳回碼/值                                                                                                                                                                            | 描述                                                                                                              |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                            | 此方法成功。<br/>                                                                                    |
 | <dl> <dt>**S \_FALSE**</dt> <dt>1 (0x1)</dt> </dl>                                         | 群組原則不允許將修復資訊儲存到 Active Directory。<br/>                         |
@@ -73,8 +73,8 @@ uint32 BackupRecoveryInformationToActiveDirectory(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

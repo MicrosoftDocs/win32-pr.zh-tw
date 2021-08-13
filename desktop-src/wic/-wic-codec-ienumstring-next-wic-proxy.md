@@ -1,5 +1,5 @@
 ---
-description: Windows 影像處理元件 (WIC) proxy 函式用於 IEnumString：： Next。
+description: WindowsIEnumString：： Next 的影像處理元件 (WIC) proxy 函式。
 ms.assetid: a3f6a32b-3043-4bea-a70b-0b4507b4e3a1
 title: IEnumString_Next_WIC_Proxy 函式
 ms.topic: reference
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: ae3e25b355268fe63025692bf116b60b45122e76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ef7fcced4e38b83372c214a11486f5942c9594e7158f3463699ea82c56b81c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439579"
 ---
 # <a name="ienumstring_next_wic_proxy-function"></a>IEnumString \_ 下一個 \_ WIC \_ Proxy 函式
 
-Windows 影像處理元件 (WIC) proxy 函式用於 IEnumString：： Next。
+WindowsIEnumString：： Next 的影像處理元件 (WIC) proxy 函式。
 
 ## <a name="syntax"></a>語法
 
@@ -43,7 +43,7 @@ HRESULT IEnumString_Next_WIC_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **IEnumString \** _
+類型： **IEnumString \***
 
 PARAMDESC
 
@@ -51,7 +51,7 @@ PARAMDESC
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -63,8 +63,8 @@ PARAMDESC
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

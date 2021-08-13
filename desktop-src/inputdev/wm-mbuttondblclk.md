@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f9dd012051e9845fa2de608725f0f8b6af38334
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b63506ff4501005a0f3711b81c2a00fbf0a70116e122fd03a74ad2eebc01f280
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451678"
 ---
 # <a name="wm_mbuttondblclk-message"></a>WM \_ MBUTTONDBLCLK 訊息
 

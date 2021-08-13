@@ -4,12 +4,12 @@ ms.assetid: 1738e586-580f-4b74-95dc-ede300b6ac9a
 title: 進程進程同步處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7c18fb26d6a64fdc2d785d16c7bccb8b007c3f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0caf4818a05d526a70a1e3257ec6f86d0279f39ce3cf05a4411e49991db6ba15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886348"
 ---
 # <a name="interprocess-synchronization"></a>進程進程同步處理
 

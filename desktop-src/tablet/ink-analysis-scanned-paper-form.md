@@ -4,12 +4,12 @@ ms.assetid: 1eae5962-b4e0-4947-a6d2-63713a68198c
 title: 筆跡分析掃描的紙張表單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94d366c77e19bd5c32d3d1e4efa286cb3b089ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4069efd5ba8763e00e9b3170ffb0a39a4a70c4d66d07d3c8bf08bc3688f57ed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718644"
 ---
 # <a name="ink-analysis-scanned-paper-form"></a>筆跡分析掃描的紙張表單
 
@@ -19,7 +19,7 @@ ms.locfileid: "104191167"
 
 這個範例應用程式示範筆墨分析 API 的下列功能，以及 Windows Forms 筆墨控制項：
 
--   正在載入掃描的紙張表單。 此範例會從 .png 格式的影像匯入表單。
+-   正在載入掃描的紙張表單。 此範例會從影像匯入 .png 格式的表單。
 -   在掃描的表單上方收集和轉譯筆墨。
 -   使用 [InkAnalyzer](/previous-versions/ms583671(v=vs.100)) 物件來剖析手寫。
 -   產生 [AnalysisHintNode](/previous-versions/ms573018(v=vs.100)) 物件以改善手寫結果。

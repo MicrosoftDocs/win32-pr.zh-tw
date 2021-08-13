@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: ef4ffe89a4b726ecfa33fb95d213d809cae2487b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d70c6410d0ecb8edb91aa722bcf6f35cb9536c3ed2b7f03c2d5cb141937aeb69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897801"
 ---
 # <a name="storeopen-method"></a>Store. Open 方法
 
@@ -150,7 +150,7 @@ Store.Open( _
 
 <dl> <dt>
 
-[**市集**](store.md)
+[**儲存**](store.md)
 </dt> <dt>
 
 [**加密物件**](cryptography-objects.md)

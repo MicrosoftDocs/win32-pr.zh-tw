@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - UpdateEndpointAuth.h
-ms.openlocfilehash: 942bcb5275c6a4f39d6e2828025e5b9a40e52c46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fbfd67b3009fbe904284ea7a92cdea996d0a6e23a43a17639eb567d66536917
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462908"
 ---
 # <a name="updateendpointtype-enumeration"></a>UpdateEndpointType 列舉
 
@@ -95,14 +95,14 @@ typedef enum tagEndpointType {
 <span id="uetSecuredClientServer"></span><span id="uetsecuredclientserver"></span><span id="UETSECUREDCLIENTSERVER"></span>**uetSecuredClientServer**
 </dt> <dd>
 
-安全的用戶端-伺服器端點，可讓用戶端取得需要授權之應用程式的相關資訊，以便在用戶端電腦上使用這些應用程式。 此授權架構目前僅供 Windows 8 用來部署透過 Windows Store 取得的應用程式和更新。 Windows Update、Microsoft Update 或 WSUS 目前未使用安全的用戶端-伺服器端點。
+安全的用戶端-伺服器端點，可讓用戶端取得需要授權之應用程式的相關資訊，以便在用戶端電腦上使用這些應用程式。 此授權架構目前僅供 Windows 8 用來部署透過 Windows 存放區取得的應用程式和更新。 Windows Update、Microsoft Update 或 WSUS 目前未使用安全的用戶端-伺服器端點。
 
 </dd> <dt>
 
 <span id="uetSecondaryServiceAuth"></span><span id="uetsecondaryserviceauth"></span><span id="UETSECONDARYSERVICEAUTH"></span>**uetSecondaryServiceAuth**
 </dt> <dd>
 
-用戶端會使用次要服務驗證端點來提供驗證，然後才能取得需要授權的應用程式資訊，以便在用戶端電腦上使用。 此授權架構目前僅供 Windows 8 用來部署透過 Windows Store 取得的應用程式和更新。 Windows Update、Microsoft Update 或 WSUS 目前未使用次要服務驗證端點。
+用戶端會使用次要服務驗證端點來提供驗證，然後才能取得需要授權的應用程式資訊，以便在用戶端電腦上使用。 此授權架構目前僅供 Windows 8 用來部署透過 Windows 存放區取得的應用程式和更新。 Windows Update、Microsoft Update 或 WSUS 目前未使用次要服務驗證端點。
 
 </dd> </dl>
 
@@ -112,8 +112,8 @@ typedef enum tagEndpointType {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                              |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                              |
 | 標頭<br/>                   | <dl> <dt>UpdateEndpointAuth。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>UpdateEndpointAuth .idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 91e29f22-2873-4ab4-8285-61c54e710f87
 title: AppUserModel. IsDualMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c7040254f95d38dcc0c3de181a56a408a63cba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d08598f42f9a21cce55d7293587e7802afa999e13254768f0aa485713ef551f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731028"
 ---
 # <a name="systemappusermodelisdualmode"></a>AppUserModel. IsDualMode
 

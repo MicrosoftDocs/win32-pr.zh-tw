@@ -4,12 +4,12 @@ ms.assetid: 19E94CA6-C5E0-4e2f-A931-B08B6E2BF4DC
 title: 系統相片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e2b058690bbe641ed4587297a6b25acff59c045
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f6109e2796305036c7dd97903cd582b98a44807dcd20397052baac440fefee4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709235"
 ---
 # <a name="systemphoto"></a>系統相片
 

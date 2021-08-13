@@ -23,12 +23,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 84704e59ed43466c47435f4804cb4dedc9c3a92d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: ab336b147557722f1bec72bfe662b12599a64ee1622b31bdad6a92a05af6d92e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119483008"
 ---
 # <a name="eaphost-constants"></a>EAPHost 常數
 
@@ -122,7 +122,7 @@ EAPHost 對等 API 的版本。
 
 
 
-Windows Vista SP1 或更新版本：代表 UI 中顯示之輸入欄位專案的預設屬性值。
+WindowsVista SP1 或更新版本：代表 UI 中顯示之輸入欄位專案的預設屬性值。
 
 
 </dt> </dl> </dd> <dt>
@@ -148,7 +148,7 @@ Windows Vista SP1 或更新版本：代表 UI 中顯示之輸入欄位專案的�
 
 
 
-Windows Vista SP1 或更新版本：指定輸入欄位專案將不會顯示在 UI 中 (密碼或 PIN 碼，例如) 。
+WindowsVista SP1 或更新版本：指定輸入欄位專案將不會顯示在 UI 中 (密碼或 PIN 碼，例如) 。
 
 
 </dt> </dl> </dd> <dt>
@@ -174,7 +174,7 @@ Windows Vista SP1 或更新版本：指定輸入欄位專案將不會顯示在 U
 
 
 
-Windows Vista （含 SP1 或更新版本）：表示 EAP 方法不會快取欄位資料;要求者必須快取欄位資料以進行漫遊。
+WindowsVista SP1 或更新版本：表示 EAP 方法不會快取欄位資料;要求者必須快取欄位資料以進行漫遊。
 
 
 </dt> </dl> </dd> <dt>
@@ -187,7 +187,7 @@ Windows Vista （含 SP1 或更新版本）：表示 EAP 方法不會快取欄�
 
 
 
-Windows Vista （含 SP1 或更新版本）：表示輸入欄位是唯讀的，而且無法編輯。
+WindowsVista SP1 或更新版本：表示輸入欄位是唯讀的，而且無法編輯。
 
 
 </dt> </dl> </dd> </dl>
@@ -198,8 +198,8 @@ Windows Vista （含 SP1 或更新版本）：表示輸入欄位是唯讀的，�
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/> |
-| 伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/> |
+| 伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/> |
 
 
 

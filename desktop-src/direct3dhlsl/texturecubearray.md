@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e559214626fadbc08b8e9cd4d5568358f130779c
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
-ms.translationtype: HT
+ms.openlocfilehash: a0b5687e26ebb8a80dbd75e5849ad95de29dacec90c64e660e59dce71c796b0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104991846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786166"
 ---
 # <a name="texturecubearray-object"></a>TextureCubeArray 物件
 
@@ -76,7 +76,7 @@ ms.locfileid: "104991846"
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

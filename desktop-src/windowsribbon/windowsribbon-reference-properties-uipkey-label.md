@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ 標籤屬性。
 ms.assetid: 4d704133-bba7-4c32-a552-d748b66455eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 245ce8d239e1a0893c907a047aa9a48996cbf606
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13506d1609f915c2eab9824a3f5256383c5f2aecf73ed5787e3372f17b44b435
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706429"
 ---
 # <a name="ui_pkey_label"></a>UI \_ PKEY \_ 標籤
 
@@ -17,12 +17,12 @@ ms.locfileid: "103840300"
 
 ```
 propertyDescription
-   name = UI_PKEY_Label
-   shellPKey = UI_PKEY_Label
-   formatID = 00000004-7363-696e-8441798acf5aebb7
-   propID = 4
-   typeInfo
-      type = VT_LPWSTR
+   name = UI_PKEY_Label
+   shellPKey = UI_PKEY_Label
+   formatID = 00000004-7363-696e-8441798acf5aebb7
+   propID = 4
+   typeInfo
+      type = VT_LPWSTR
 ```
 
 ## <a name="remarks"></a>備註
@@ -30,16 +30,16 @@ propertyDescription
 UI \_ PKEY \_ 標籤是由應用程式用來查詢索引標籤、群組、按鈕、圖庫專案和其他功能區控制項的標籤文字。
 
 > [!Note]  
-> Windows 8 和更新版本： [應用程式功能表](windowsribbon-controls-applicationmenu.md) 按鈕影像已變更為 Label： **File**。 建議您不要使用 [檔案] 作為任何您自己的索引標籤的標籤。
+> Windows 8 和更新版本：[應用程式功能表](windowsribbon-controls-applicationmenu.md)按鈕影像已變更為 label： **File**。 建議您不要使用 [檔案] 作為任何您自己的索引標籤的標籤。
 
- 
+ 
 
 屬性值是限制為任何字元序列（包括空白字元和分行符號字元）的字串。
 
 > [!Note]  
 > 使用通用字元集 (UCS) XML 字元參考 `&#xA;` 來指定分行符號。
 
- 
+ 
 
 不支援靠右對齊。
 
@@ -84,9 +84,9 @@ UI PKEY 標籤的最大長度 \_ \_ 為未系結。
 [UI \_ PKEY \_ LabelDescription](windowsribbon-reference-properties-uipkey-labeldescription.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

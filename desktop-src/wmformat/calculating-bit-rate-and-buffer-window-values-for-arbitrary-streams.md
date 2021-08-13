@@ -9,12 +9,12 @@ keywords:
 - 串流，計算任意資料流程的位元速率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d704352d414b1fe5079fb068593c2d0d8b2f8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6c86a866536bbe2565a3bc44bbe9f40743db26d948555bc6ec8a11eb60d7aa4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434482"
 ---
 # <a name="calculating-bit-rate-and-buffer-window-values-for-arbitrary-streams"></a>計算任意資料流程的位元速率和緩衝區視窗值
 
@@ -34,9 +34,9 @@ ms.locfileid: "104020874"
 [**設定任意資料流程類型**](configuring-arbitrary-stream-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

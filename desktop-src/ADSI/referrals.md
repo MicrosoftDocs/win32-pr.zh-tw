@@ -7,12 +7,12 @@ keywords:
 - 參考 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e79e6b2e8a737f6bb40386effd68f7f31d8d490d
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 1d5fb6ad299c2f47efa9723857b53cf7eee5350589757153eaaae869b2c37e6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119444018"
 ---
 # <a name="referrals-adsi"></a>ADSI)  (的參考
 
@@ -43,7 +43,7 @@ Active Directory 提供搜尋參考服務。 用戶端可以選擇下列任何�
 > [!Note]  
 > 在 Active Directory 中，通用類別目錄包含給定企業中的所有物件。 搜尋通用類別目錄伺服器可產生比從一部伺服器到另一部伺服器的參照更佳的效能。
 
- 
+ 
 
 在大多數情況下，呼叫端的參考追蹤將會是透明的。 如果是參考不同網域或樹系中的物件，基礎 LDAP API 將會嘗試使用目前的認證來系結至參考的目標。 如果成功，則參考追蹤將會是透明的。 如果不成功，則會傳回參考和參考錯誤碼。
 
@@ -53,6 +53,6 @@ Active Directory 提供搜尋參考服務。 用戶端可以選擇下列任何�
 -   [使用 ActiveX Data Objects 搜尋](searching-with-activex-data-objects-ado.md)
 -   [使用 OLE DB 搜尋](searching-with-ole-db.md)
 
- 
+ 
 
- 
+ 

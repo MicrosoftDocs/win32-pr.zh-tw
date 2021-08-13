@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74968d0c5b11502e2ba867bccfff246fb50cae80
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: fff4e294a51a92e48682e1b81ed4153939ab770d118257e2aa304ec4f63e1e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689347"
 ---
 # <a name="acs-server-list-attribute"></a>ACS-伺服器清單屬性
 

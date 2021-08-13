@@ -5,12 +5,12 @@ ms.assetid: 4165b820-30fc-477e-a690-81109f161323
 title: 'H (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 665cd90cfc8a849030b6a1cfd1cb4e6d6f687557
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a147162a99ec4c8cc669c6cff2c39203c3da5b9d4e56802377c273e7dbe8e288
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895601"
 ---
 # <a name="h-security-glossary"></a>H (安全性詞彙) 
 

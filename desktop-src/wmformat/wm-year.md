@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0536cd86a4bc4eb317735aa993c15ff137c4382c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 832fe6f77bb817d6df131aa42e9a3d680c906fee6d486a8ea15402652d6c973c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698154"
 ---
 # <a name="wmyear"></a>WM/年
 
@@ -41,7 +41,7 @@ g \_ wszWMYear
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -50,9 +50,9 @@ g \_ wszWMYear
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

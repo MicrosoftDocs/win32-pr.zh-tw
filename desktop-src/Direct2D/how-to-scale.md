@@ -4,12 +4,12 @@ description: 顯示如何調整物件。
 ms.assetid: 3da749e2-50d5-4f4e-9ccd-8c230efe3436
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9f46ae37197cb7cbfeb3f86588e1b5298cfc467
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d833ea44e4a38672729dd7647063e8ed9f8de3574d820a3db40d5a848064ef15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463501"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259141"
 ---
 # <a name="how-to-scale-an-object"></a>如何調整物件
 
@@ -70,6 +70,6 @@ ms.locfileid: "104463501"
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

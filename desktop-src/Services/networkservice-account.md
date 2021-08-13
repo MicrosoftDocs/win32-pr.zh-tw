@@ -4,12 +4,12 @@ ms.assetid: f90d9346-10ed-4eba-bae2-9a1f1e6dc6b7
 title: NetworkService 帳戶
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c319518dbe925a146882014211d131c30420a282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f8256a15b43d9a9c0403067a61f9a7cbf6b9d2df0d78936c4d9c06f6dfd87c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889392"
 ---
 # <a name="networkservice-account"></a>NetworkService 帳戶
 
@@ -26,7 +26,7 @@ NetworkService 帳戶具有下列許可權：
 -   **SE \_ASSIGNPRIMARYTOKEN \_ 名稱** (停用) 
 -   **SE \_ (\_** 停用的審核名稱) 
 -   **SE \_ (啟用變更 \_ 通知 \_ 名稱**) 
--   **SE \_ (啟用 [建立 \_ 全域 \_ 名稱** ]) 
+-   **SE \_ (啟用 [建立 \_ 全域 \_ 名稱**]) 
 -   **SE \_ (\_** 啟用模擬名稱) 
 -   **SE \_ (停用) 增加 \_ 配額 \_ 名稱**
 -   **SE \_停用的關機 \_ 名稱** () 

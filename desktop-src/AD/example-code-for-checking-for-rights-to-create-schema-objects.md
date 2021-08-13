@@ -7,12 +7,12 @@ keywords:
 - 檢查許可權以建立架構物件 AD 的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bef0d4958313a189a0a50c0b4233fdb4a30aaf75
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0200253fe10f91db1c1e67fbfc727d9165ecb8430aa4e2f648de9d3a1b8c73bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694480"
 ---
 # <a name="example-code-for-checking-for-rights-to-create-schema-objects"></a>檢查許可權以建立架構物件的範例程式碼
 
@@ -95,9 +95,9 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

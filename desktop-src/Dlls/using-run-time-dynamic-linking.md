@@ -4,12 +4,12 @@ ms.assetid: 0ffce2b1-ce50-4550-aa68-6628fdcac01a
 title: 使用 Run-Time 動態連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4d6ca65c510433350b81a282d8bf7a3a3825ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8c13cc66a34f0fd5938fcdada027b30223ebff0abe6e9ce459d60f93a6546f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119255978"
 ---
 # <a name="using-run-time-dynamic-linking"></a>使用 Run-Time 動態連結
 

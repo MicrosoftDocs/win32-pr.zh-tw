@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 40bc813135f056485b2056cb29fb62f6988fbe63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7983b1b862377b382f8d44628e29073b38135be924cb340a8eeb403d9957cb2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118782691"
 ---
 # <a name="esentcheckpointfilenotfoundexception-constructor"></a>EsentCheckpointFileNotFoundException 函式
 

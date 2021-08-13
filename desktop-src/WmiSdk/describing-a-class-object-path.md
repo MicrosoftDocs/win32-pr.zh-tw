@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 描述類別物件路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f1cfd603ea3b6de151d297a7f4b6fc8a2a27dfda
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5afa6801d91c4236a7892d7db121dc02c73d93640b7dbc4969c86db55a8789b3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244398"
 ---
 # <a name="describing-a-class-object-path"></a>描述類別物件路徑
 

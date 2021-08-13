@@ -4,12 +4,12 @@ ms.assetid: 6ee6eecb-3812-45c6-8b27-7dfd6fa82758
 title: 列舉服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2eca8221a9a34bf9e921bcaca00eac99f2a75d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 149384f9c4ab5cf352561d08b28a961c8074cc39c018cef6b5deb64307d107ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697604"
 ---
 # <a name="enumerating-services"></a>列舉服務
 

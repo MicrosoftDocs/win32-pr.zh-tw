@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3300fd88c0dd1e1fca55722bf58350e28f3c3b08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38ddb306ee6fdcbd1eb792b2c29ca367adc0f4b88cc25dfcbdde22c2638258d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765035"
 ---
 # <a name="jet_ls"></a>JET_LS
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_ls"></a>JET_LS
 
 **JET_LS** 資料類型包含本機儲存體 (LS) 的內容控制碼。這個控制碼可能會與資料指標或資料表相關聯，而且可能會參考動態配置的資源。
 
-**WINDOWS xp： JET_LS** 是在 windows xp 中引進。
+**Windows xp： JET_LS** 是 Windows xp 引進的。
 
 ```cpp
     typedef JET_API_PTR JET_LS;
@@ -97,7 +97,7 @@ JET_LSNil 的值表示不正確內容控制碼。
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 1890ff127f60188deae8fdad251e44b3edb614f7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a59aa1d9f7bdc5babc29461ca90c01b6fe604482cb78ba6549e782b1e34d54b5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251998"
 ---
 # <a name="componentinfo-object"></a>ComponentInfo 物件
 
@@ -54,7 +54,7 @@ ComponentInfo 物件代表可透過從 MsiGetComponentPathEx 呼叫取得之元�
 
 | 需求 | 值 |
 |--------------------|------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Installer 5.0 或更新版本。<br/>                                         |
+| 版本<br/> | Windows安裝程式5.0 或更新版本。<br/>                                         |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl> |
 | IID<br/>     | IID \_ IComponentInfo 定義為000C1099-0000-0000-C000-000000000046<br/>  |
 
@@ -67,7 +67,7 @@ ComponentInfo 物件代表可透過從 MsiGetComponentPathEx 呼叫取得之元�
 [使用 Automation 介面](using-the-automation-interface.md)
 </dt> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

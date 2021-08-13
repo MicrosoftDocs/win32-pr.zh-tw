@@ -4,12 +4,12 @@ ms.assetid: 63d59aa3-52a6-4b6f-b6ec-a1c4abcee83f
 title: 系統 GPS. 高度相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 003d39d135c625a01035c023b5d7dc8d890b3b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40a9209bfb0bbc1a4c6f95ce4a995d32d3f532c293dd2295c335eea61c22df89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987364"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119441998"
 ---
 # <a name="systemgpsaltitude-photo-metadata-policy"></a>系統 GPS. 高度相片中繼資料原則
 
@@ -19,7 +19,7 @@ ms.locfileid: "106987364"
 
 PKEY \_ GPS \_ 高度
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 高度會表示為計量中參考的絕對值。
 
@@ -29,7 +29,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-Yes
+是
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

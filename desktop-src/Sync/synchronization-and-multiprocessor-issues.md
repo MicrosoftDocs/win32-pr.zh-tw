@@ -4,12 +4,12 @@ ms.assetid: b20a1d2c-b795-4ed8-ac33-539a347020c8
 title: 同步處理和多處理器問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3896dc240e76f1506bac2a6a2e95f101b05beca7
-ms.sourcegitcommit: 9c8ddec1e955f181beecad0478c1fb79013b5e9d
+ms.openlocfilehash: 2d0e86a2c69cf0a0c0e56656475f73fb489f7433a94511703b3777302702bb32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "107000499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886206"
 ---
 # <a name="synchronization-and-multiprocessor-issues"></a>同步處理和多處理器問題
 

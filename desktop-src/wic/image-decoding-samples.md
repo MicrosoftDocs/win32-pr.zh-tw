@@ -4,12 +4,12 @@ ms.assetid: 16AE71A7-E105-4c9a-8522-84B1C7C4A50D
 title: 影像解碼範例
 ms.topic: article
 ms.date: 03/19/2021
-ms.openlocfilehash: 681ed3d3bfdf0c0c5f83a0e447c6c4e12abf9bd2
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 4b315c71aeadf8163535a989d67eaba8a72532d279ac77d5bcff155dd664518c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106988632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709360"
 ---
 # <a name="image-decoding-samples"></a>影像解碼範例
 

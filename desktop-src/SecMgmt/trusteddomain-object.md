@@ -4,12 +4,12 @@ ms.assetid: fab69367-2143-49ef-a1b9-9c1d846fd4e1
 title: TrustedDomain 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 837d8a9e56273a87b22b9697ef4e5917d73bcc81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50d3f5c2669cc45c067316aa960c7ced075b5a05a088f07987ea7dc27c6e82ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892991"
 ---
 # <a name="trusteddomain-object"></a>TrustedDomain 物件
 
