@@ -4,12 +4,12 @@ ms.assetid: 3A76E6F7-C38B-4843-9496-36F3C78B700C
 title: 同步處理阻礙
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4276f0bbc5a10eef391c12cc51ebd475e563bd44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1247d7ab3b20d4fe89763aea0429d742e8ce1c4d11030088316d4e9f3272556b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885980"
 ---
 # <a name="synchronization-barriers"></a>同步處理阻礙
 

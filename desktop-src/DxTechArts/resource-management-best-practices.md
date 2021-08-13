@@ -4,12 +4,12 @@ description: 本文討論一般處理資源的最佳作法、受控和非受控�
 ms.assetid: 265ae0b2-f268-a4a4-551e-9d3dae886517
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27cdadb8cee3cb57f4208657054784937ecd1ea2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: bacf57c33ef765596ffa660ba884708ee000dd370c90edd3fcd158a9c526a7ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119213215"
 ---
 # <a name="resource-management-best-practices"></a>資源管理最佳作法
 
@@ -134,6 +134,6 @@ Direct3D 驅動程式可自由執行驅動程式管理的材質功能（由 D3DC
 [D3DCREATE](/windows/desktop/direct3d9/d3dcreate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

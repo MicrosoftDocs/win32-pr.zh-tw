@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 4367551cdf2d48a06c633329ad850c3f7c2e0976
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e3c4ee64583710e84af0d377999c389f6fe1bfa6876bb150789a5fd118f79f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452841"
 ---
 # <a name="sfvm_updateobject-message"></a>SFVM \_ UPDATEOBJECT 訊息
 

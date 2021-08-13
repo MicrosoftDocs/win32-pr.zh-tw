@@ -4,12 +4,12 @@ ms.assetid: c2def964-6f2d-4b79-bfbf-a6719baf3c13
 title: 使用筆劃集合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdeb03ce8168cec489dfed954a091f50f8d846d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35673ef17882f246969e7c74869f47b09b604195c74bb1456c3624713a42045d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119221868"
 ---
 # <a name="working-with-a-strokes-collection"></a>使用筆劃集合
 

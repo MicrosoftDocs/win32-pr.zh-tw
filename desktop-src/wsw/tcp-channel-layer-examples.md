@@ -4,12 +4,12 @@ ms.assetid: 0672544c-699b-4ab8-8e40-b6aa165daab0
 description: 深入瞭解： TCP 通道層範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fbd2b150f1b7fb51a45fb566b681542db594d80
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be0a5226b909375086f7f80ba32156cb19516ac2db319e8694e428c1deda51ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262318"
 ---
 # <a name="tcp-channel-layer-examples"></a>TCP 通道層範例
 

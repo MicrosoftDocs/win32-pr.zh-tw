@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77e251a0b542f2e3ef38ea78100cb27007752e8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 126cda1be91e8fcd4b9ba6c08b4fe9e14cc50de7f8106b4c7d2ab1fec5c9793b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118777054"
 ---
 # <a name="esentlinknotsupportedexception-constructor"></a>EsentLinkNotSupportedException 函式
 

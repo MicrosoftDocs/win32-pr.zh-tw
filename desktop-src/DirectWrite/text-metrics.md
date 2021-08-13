@@ -1,19 +1,19 @@
 ---
 title: 文字度量
-description: 為了協助您的版面配置、自訂字型選取，以及其他需要大量計量的作業，從 Windows 8 開始，DirectWrite 有許多新的 Api，可表達您開發 rich text 應用程式時可能需要的字型相關資訊。
+description: 為了協助您的版面配置、自訂字型選取，以及其他需要大量計量的作業，從 Windows 8 開始，DirectWrite 有一些新的 api，可表達您開發 rich text 應用程式時可能需要的字型相關資訊。
 ms.assetid: 9df8c675-6f4d-4de7-916e-7dc51f5f04aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73647ae4521b23afb399a4c66c8b25cdc46ba1b5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 27e5c5eecce93eac3726195410cf5b215bd65de3d7e48248a68d6d96858f8fed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106996566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329238"
 ---
 # <a name="text-metrics"></a>文字度量
 
-為了協助您的版面配置、自訂字型選取，以及其他需要大量計量的作業，從 Windows 8 開始， [DirectWrite](direct-write-portal.md) 有許多新的 api，可表達您開發 rich text 應用程式時可能需要的字型相關資訊。
+為了協助您的版面配置、自訂字型選取，以及其他需要大量計量的作業，從 Windows 8 開始， [DirectWrite](direct-write-portal.md)有一些新的 api，可表達您開發 rich text 應用程式時可能需要的字型相關資訊。
 
 ## <a name="panose"></a>PANOSE
 
@@ -40,13 +40,13 @@ PANOSE 是用來識別字體的視覺化分類系統。 PANOSE 分類包含系�
 
 ## <a name="monospaced-discoverability"></a>等寬字型可探索性
 
-讓使用者撰寫電腦程式代碼的應用程式，通常會使用等寬字型字型來取代更傳統的字型。 因此，您可以對開發相關應用程式中的字型選取進行更多的控制， [DirectWrite](direct-write-portal.md) 表示是否透過 API 等寬字型字型。 [**IDWriteFontFace1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1)介面上的 [**IsMonospacedFont**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-ismonospacedfont)方法會傳回布林值，指出字型是否為等寬字型。
+讓使用者撰寫電腦程式代碼的應用程式，通常會使用等寬字型字型來取代更傳統的字型。 因此，您可以對開發相關應用程式中的字型選擇提供更多的控制， [DirectWrite](direct-write-portal.md)表示字型是否透過 API 等寬字型。 [**IDWriteFontFace1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefontface1)介面上的 [**IsMonospacedFont**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefont1-ismonospacedfont)方法會傳回布林值，指出字型是否為等寬字型。
 
 ## <a name="font-name-matching"></a>符合的字型名稱
 
-PDF 讀取器等 Rich text 應用程式必須能夠將其內容中的字型與系統上的字型進行比對，因此需要存取多種格式的字型完整名稱。 因此，您可以更有效地比對字型， [DirectWrite](direct-write-portal.md) 包含的列舉會以許多格式表達字型的完整命名資訊。
+PDF 讀取器等 Rich text 應用程式必須能夠將其內容中的字型與系統上的字型進行比對，因此需要存取多種格式的字型完整名稱。 因此，您可以更有效地比對字型， [DirectWrite](direct-write-portal.md)包含的列舉會以許多格式表達字型的完整命名資訊。
 
-您可以使用 [**DWRITE \_ 資訊 \_ 字串 \_ 識別碼**](/windows/win32/api/dwrite/ne-dwrite-dwrite_informational_string_id) 列舉來取得系統上任何字型的完整名稱、postscript 名稱和 postscript CID 名稱。 當您需要將應用程式中的字型與本機系統上的適當字型進行比對時，此資訊非常重要。
+您可以使用 [**DWRITE \_ 資訊 \_ 字串 \_ 識別碼**](/windows/win32/api/dwrite/ne-dwrite-dwrite_informational_string_id)列舉來取得系統上任何字型的完整名稱、PostScript 名稱和 PostScript CID 名稱。 當您需要將應用程式中的字型與本機系統上的適當字型進行比對時，此資訊非常重要。
 
 ## <a name="glyph-advances"></a>字元前進
 
@@ -62,6 +62,6 @@ PDF 讀取器等 Rich text 應用程式必須能夠將其內容中的字型與�
 
 在 [**IDWriteFactory1**](/windows/win32/api/dwrite_1/nn-dwrite_1-idwritefactory1)介面上使用 [**GetEudcFontCollection**](/windows/win32/api/dwrite_1/nf-dwrite_1-idwritefactory1-geteudcfontcollection)方法，存取 EUDC 字型集合。 這個方法的運作方式與 [**GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection)相同，但會傳回 EUDC 字型集合的指標。
 
- 
+ 
 
- 
+ 

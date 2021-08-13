@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Mssign32.dll
-ms.openlocfilehash: 9944a09459219ccac74f5fafc9424e9f85a01112
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b880cc02053d5a90089cffc721b057c6fce9f34b8be6517c12ef59fef9e0ed4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692459"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898321"
 ---
 # <a name="signersignex-function"></a>SignerSignEx 函式
 
@@ -63,11 +63,11 @@ HRESULT WINAPI SignerSignEx(
 
 | 值                                                                                                                                                                                                                                                                                    | 意義                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SPC_EXC_PE_PAGE_HASHES_FLAG"></span><span id="spc_exc_pe_page_hashes_flag"></span><dl> <dt>**SPC \_專有 \_ PE \_ 頁面 \_ 雜湊 \_ 旗**</dt>標 <dt>0x10</dt> </dl>                    | 建立 PE 檔案的 SIP 間接資料時，請排除頁面雜湊。 此旗標優先于 **SPC \_ Inc. \_ PE \_ 頁面 \_ 雜湊 \_ 旗** 標旗標。<br/> 如果未指定 **spc \_ 專有 \_ PE \_ page \_ 雜湊 \_ 旗** 標或 **spc \_ inc. \_ pe \_ Page \_ 雜湊 \_** 旗標旗標，則會使用 [**WintrustSetDefaultIncludePEPageHashes**](/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) 函數所設定的值來進行此設定。 這項設定的預設值是在建立 PE 檔案的 SIP 間接資料時排除頁面雜湊。<br/> **Windows Server 2003 和 WINDOWS XP：** 不支援這個值。<br/> |
+| <span id="SPC_EXC_PE_PAGE_HASHES_FLAG"></span><span id="spc_exc_pe_page_hashes_flag"></span><dl> <dt>**SPC \_專有 \_ PE \_ 頁面 \_ 雜湊 \_ 旗**</dt>標 <dt>0x10</dt> </dl>                    | 建立 PE 檔案的 SIP 間接資料時，請排除頁面雜湊。 此旗標優先于 **SPC \_ Inc. \_ PE \_ 頁面 \_ 雜湊 \_ 旗** 標旗標。<br/> 如果未指定 **spc \_ 專有 \_ PE \_ page \_ 雜湊 \_ 旗** 標或 **spc \_ inc. \_ pe \_ Page \_ 雜湊 \_** 旗標旗標，則會使用 [**WintrustSetDefaultIncludePEPageHashes**](/windows/desktop/api/Wintrust/nf-wintrust-wintrustsetdefaultincludepepagehashes) 函數所設定的值來進行此設定。 這項設定的預設值是在建立 PE 檔案的 SIP 間接資料時排除頁面雜湊。<br/> **Windows Server 2003 和 Windows XP：** 不支援這個值。<br/> |
 | <span id="SPC_INC_PE_IMPORT_ADDR_TABLE_FLAG"></span><span id="spc_inc_pe_import_addr_table_flag"></span><dl> <dt>**SPC \_INC. \_ PE 匯 \_ 入 \_ 位址 \_ 表 \_ 旗**</dt>標 <dt>0x20</dt> </dl> | 不支援這個值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="SPC_INC_PE_DEBUG_INFO_FLAG"></span><span id="spc_inc_pe_debug_info_flag"></span><dl> <dt>**SPC \_INC \_ PE \_ DEBUG \_ INFO \_ 旗**</dt>標 <dt>0x40</dt> </dl>                       | 不支援這個值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | <span id="SPC_INC_PE_RESOURCES_FLAG"></span><span id="spc_inc_pe_resources_flag"></span><dl> <dt>**SPC \_INC. \_ PE \_ 資源 \_ 旗**</dt>標 <dt>0x80</dt> </dl>                           | 不支援這個值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| <span id="SPC_INC_PE_PAGE_HASHES_FLAG"></span><span id="spc_inc_pe_page_hashes_flag"></span><dl> <dt>**SPC \_INC \_ PE \_ 頁面 \_ 雜湊 \_ 旗**</dt>標 <dt>0x100</dt> </dl>                   | 建立 PE 檔案的 SIP 間接資料時包含頁面雜湊。<br/> **Windows Server 2003 和 WINDOWS XP：** 不支援這個值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <span id="SPC_INC_PE_PAGE_HASHES_FLAG"></span><span id="spc_inc_pe_page_hashes_flag"></span><dl> <dt>**SPC \_INC \_ PE \_ 頁面 \_ 雜湊 \_ 旗**</dt>標 <dt>0x100</dt> </dl>                   | 建立 PE 檔案的 SIP 間接資料時包含頁面雜湊。<br/> **Windows Server 2003 和 Windows XP：** 不支援這個值。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 
 
@@ -145,8 +145,8 @@ HRESULT WINAPI SignerSignEx(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | DLL<br/>                      | <dl> <dt>Mssign32.dll</dt> </dl> |
 
 

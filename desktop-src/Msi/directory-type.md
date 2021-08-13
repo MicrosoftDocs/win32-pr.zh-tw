@@ -4,18 +4,18 @@ ms.assetid: b5a0ed38-1dda-4c33-9429-0cbe87e13aef
 title: 目錄類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e3ba336dd5de7cd45ef9215f0397ba51ce544d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c784ea91ceb9baaeb2c97883cace0266a146d80634ec07f5e25f0b01ac057c7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119251798"
 ---
 # <a name="directory-type"></a>目錄類型
 
 [語義類型](semantic-types.md)的目錄類型是其中一種[主要格式類型](key-format-types.md)，其中包含由使用者提供的[目錄資料表](directory-table.md)中的外鍵。
 
-合併工具必須將有效的 Windows Installer [識別碼](identifier.md) 取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由「合併」工具組成，以確保使用者在目錄資料表中提供有效的金鑰。
+合併工具必須將有效的 Windows Installer[識別碼](identifier.md)取代為此類型的專案。 Mergemod.dll 不會強制執行這項限制，而是由「合併」工具組成，以確保使用者在目錄資料表中提供有效的金鑰。
 
 目錄類型的可設定專案只能修改安裝的目的地目錄，而不會修改來源映射。 因此，此類型的可設定專案應只修改目錄資料表的外鍵，而不會直接修改目錄資料表。
 

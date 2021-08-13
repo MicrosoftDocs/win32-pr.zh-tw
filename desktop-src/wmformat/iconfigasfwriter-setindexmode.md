@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 25d5f2b985aeca490323aecaef2595d52b99056c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2b65fbd3d279b8a66c132d24476b09b0f897c5993ea9a97d86096cf856832f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433608"
 ---
 # <a name="iconfigasfwritersetindexmode-method"></a>IConfigAsfWriter：： SetIndexMode 方法
 
@@ -31,7 +31,7 @@ ms.locfileid: "104023522"
 
 ```C++
 HRESULT SetIndexMode(
-  [in] BOOL bIndexFile
+  [in] BOOL bIndexFile
 );
 ```
 
@@ -54,7 +54,7 @@ HRESULT SetIndexMode(
 
 ## <a name="remarks"></a>備註
 
-根據預設， [WM ASF 寫入器](wm-asf-writer-filter.md) 會建立暫時索引的 asf 檔案。 當圖形停止時，它會執行索引編制。 如果您想要做為後置處理步驟來執行您自己的框架型索引，則可以停用此行為。 若要建立框架索引檔案，請 (FALSE) 呼叫 **SetIndexMode** 、建立檔案，然後直接使用 Windows MEDIA 格式 SDK 方法來建立檔案的框架型索引。
+根據預設， [WM ASF 寫入器](wm-asf-writer-filter.md) 會建立暫時索引的 asf 檔案。 當圖形停止時，它會執行索引編制。 如果您想要做為後置處理步驟來執行您自己的框架型索引，則可以停用此行為。 若要建立框架索引的檔案，請呼叫 **SetIndexMode** (FALSE) 、建立檔案，然後直接使用 Windows 媒體格式 SDK 方法來建立檔案的框架型索引。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -63,6 +63,6 @@ HRESULT SetIndexMode(
 [**IConfigAsfWriter 介面**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

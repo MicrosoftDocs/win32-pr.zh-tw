@@ -26,12 +26,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 820628bfba59ec980e5128b9d9df3ee21b49a064
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42ecccb6535afec2d32ff0466428af36c432bc981a1bc23cfa24161ca969a80e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119285188"
 ---
 # <a name="imsrdpclient7getstatustext-method"></a>IMsRdpClient7：： GetStatusText 方法
 

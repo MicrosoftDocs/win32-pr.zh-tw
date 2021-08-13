@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5eab60175fef179ea39b3628121ba072ff868b61
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 310daf4bbfc24ecd405761e9af135059cb710b78e3430089c1911b9b6d40a868
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119326268"
 ---
 # <a name="ms-wmi-targetobject-attribute"></a>TargetObject 屬性
 

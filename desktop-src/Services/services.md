@@ -4,12 +4,12 @@ ms.assetid: 711391da-05c6-4d89-88d6-c68c2e5c2f86
 title: '服務 (服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04c13f9f09bd2731a60b80fbc198ca7ce709bd06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e829f1a6a29aca521cf18600ffbf5ed7d6c271c0d2b9a607e6ccae57d858aa5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888535"
 ---
 # <a name="services-services"></a>服務 (服務) 
 

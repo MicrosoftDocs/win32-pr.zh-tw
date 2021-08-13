@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2294a8de2e3603a638607efad5baaa6af6c1ec17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c2a25c117dfc60c7494ac532e178410b63260aa76aca7448ad07289347fffac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118767879"
 ---
 # <a name="instanceparametersmaxsessions-property"></a>InstanceParameters. MaxSessions 屬性
 

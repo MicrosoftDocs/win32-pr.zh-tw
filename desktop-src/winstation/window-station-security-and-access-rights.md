@@ -4,12 +4,12 @@ description: 安全性可讓您控制對 window 站物件的存取。 如需安�
 ms.assetid: b132da61-26b7-4457-9433-4894ca0e640a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c41bfb6d7990c104b60bd9770fde3f45cee0432
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 04e3b6871fe0e465b4394e871537fbb8ca07f6439577833d61a7fe0c3106685f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435993"
 ---
 # <a name="window-station-security-and-access-rights"></a>Windows 工作站安全性與存取權限
 
@@ -33,13 +33,13 @@ Windows 工作站物件的有效存取權限包括 [標準存取權限](/windows
 
 
 
- 
+ 
 
 下表列出特定物件的存取權限。
 
 
 
-| 存取權限                        | Description                                                                                                                                                                                                                                                                   |
+| 存取權限                        | 描述                                                                                                                                                                                                                                                                   |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | WINSTA \_ 所有 \_ 存取 (0x37F)          | 視窗工作站的所有可能存取權限。                                                                                                                                                                                                                            |
 | WINSTA \_ ACCESSCLIPBOARD (0x0004L)    | 使用剪貼簿所需。                                                                                                                                                                                                                                                |
@@ -54,7 +54,7 @@ Windows 工作站物件的有效存取權限包括 [標準存取權限](/windows
 
 
 
- 
+ 
 
 以下是互動式視窗工作站物件的 [一般存取權限](/windows/desktop/SecAuthZ/generic-access-rights) ，也就是指派給互動式使用者登入會話的視窗站。
 
@@ -64,7 +64,7 @@ Windows 工作站物件的有效存取權限包括 [標準存取權限](/windows
 <thead>
 <tr class="header">
 <th>存取權限</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -111,7 +111,7 @@ WINSTA_WRITEATTRIBUTES<br />
 
 
 
- 
+ 
 
 以下是非互動式視窗工作站物件的 [一般存取權限](/windows/desktop/SecAuthZ/generic-access-rights) 。 系統會將非互動式視窗工作站指派給互動式使用者以外的所有登入會話。
 
@@ -121,7 +121,7 @@ WINSTA_WRITEATTRIBUTES<br />
 <thead>
 <tr class="header">
 <th>存取權限</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -164,10 +164,10 @@ WINSTA_READATTRIBUTES<br />
 
 
 
- 
+ 
 
 \_ \_ 如果您想要讀取或寫入物件的 SACL，您可以向 windows 工作站物件要求存取系統安全性存取權。 如需詳細資訊，請參閱 (Acl) 和[SACL 訪問](/windows/desktop/SecAuthZ/sacl-access-right)許可權[的存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。
 
- 
+ 
 
- 
+ 

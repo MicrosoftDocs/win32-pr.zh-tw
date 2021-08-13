@@ -4,12 +4,12 @@ ms.assetid: b9d41400-f3b5-4f85-8728-56f9b90a50ca
 title: CMSM 特殊格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae9b6fa0bc5e84f125d0872a2937db7701f70820
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8521c422d62980da0d222f8a8fc8395afa40b68bfd65c5600298372b1035f97d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252138"
 ---
 # <a name="cmsm-special-format"></a>CMSM 特殊格式
 

@@ -8,12 +8,12 @@ keywords:
 - COM MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b43f3a90b16db4989d1739ec49f64822b0e2660
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ccbb7b63a15316a6c26381e732d02e7c4637fcbf8687b13ca2a2d95fabe00d8b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119252318"
 ---
 # <a name="midl-and-com"></a>MIDL 和 COM
 
@@ -24,6 +24,6 @@ ms.locfileid: "106969899"
 
 如需使用 MIDL 來定義 COM 介面的詳細資訊，請參閱 [定義 Com 介面](../com/defining-com-interfaces.md)。 如需為各種平臺建立產生之檔案的詳細資訊，請參閱 [以特定32位或64位平臺為目標的存根](targeting-stubs-for-specific-32-bit-or-64-bit-platforms.md)。
 
- 
+ 
 
- 
+ 

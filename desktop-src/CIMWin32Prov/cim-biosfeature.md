@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 538dc9e4c18d976901519ae0e2d6f5249fd25c35
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8fb99bffde80e16d5e37764ecbb49581cacc117f554abfec5603e9b3a3e76ec9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119218588"
 ---
 # <a name="cim_biosfeature-class"></a>CIM \_ BIOSFeature 類別
 
@@ -148,7 +148,7 @@ class CIM_BIOSFeature : CIM_SoftwareFeature
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -617,7 +617,7 @@ Name 屬性會定義物件在資料處理系統外部已知的標籤。 這個�
 限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**廠商**") ， [**CIM \_ Key**](/windows/desktop/WmiSdk/standard-wmi-qualifiers)， [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (256) ， [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.1 ") 
 </dt> </dl>
 
-產品供應商的名稱，其對應至「DMTF 解決方案交換標準」產品物件中的 **廠商** 屬性。
+產品供應商的名稱，其對應至 DMTF 解決方案之 product 物件中的 **廠商** 屬性 Exchange Standard。
 
 這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。
 
@@ -635,7 +635,7 @@ Name 屬性會定義物件在資料處理系統外部已知的標籤。 這個�
 限定詞： [**傳播**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「[**CIM \_ 產品**](cim-product.md)」。**Version**") 、 [**Key**](/windows/desktop/WmiSdk/key-qualifier)、 [**Maxlen**](/windows/desktop/WmiSdk/standard-qualifiers) (64) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) (" DMTF \| 元件 \| 001.3 ") 
 </dt> </dl>
 
-產品版本資訊，對應至 [DMTF 解決方案交換標準] 產品物件中的 [ **版本** ] 屬性。
+產品版本資訊，對應至 DMTF 解決方案之 product 物件中的 **version** 屬性 Exchange Standard。
 
 這個屬性繼承自 [**CIM \_ SoftwareFeature**](cim-softwarefeature.md)。
 

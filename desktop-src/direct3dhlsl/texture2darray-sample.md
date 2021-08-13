@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: f7d9fc380bb101b64c7f7ad13cb20739c8cead0c
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: d3930275205102010686c1b94cf626f33ad756d5291ec41c8f1c597b9ee90fdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "103932772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787134"
 ---
 # <a name="texture2darraysample-methods"></a>Texture2DArray：： Sample 方法
 

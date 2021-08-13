@@ -3,20 +3,20 @@ title: 廣播 ASF 資料
 description: 廣播 ASF 資料
 ms.assetid: 1b04f361-8147-4f6a-8c9d-d8eeed28550a
 keywords:
-- Windows Media Format SDK，廣播 ASF 資料
+- Windows媒體格式 SDK，廣播 ASF 資料
 - Advanced Systems Format (ASF) ，廣播資料
 - ASF (Advanced Systems Format) ，廣播資料
-- Windows Media Format SDK，傳送 ASF 資料
+- Windows媒體格式 SDK，傳送 ASF 資料
 - Advanced Systems Format (ASF) ，傳送資料
 - ASF (Advanced Systems Format) ，傳送資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42339b4a3e60666c1ea0cb69a07dfdc836b19409
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: a44fc9ea0515822c765b0cb3af457254341a64f08e64d566aa9e226a48758e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104023151"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434462"
 ---
 # <a name="broadcasting-asf-data"></a>廣播 ASF 資料
 
@@ -139,9 +139,9 @@ HRESULT CNetWrite::OnTime(QWORD cnsCurrentTime, void *pvContext)
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

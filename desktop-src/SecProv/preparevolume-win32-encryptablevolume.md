@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 918e4289f8f2c38af2a4a51bfe92f82a74b30b22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 67b36703883825d4144037c54ffb55c00308ed1cfb8ee3e4b074d75d63bf7390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891544"
 ---
 # <a name="preparevolume-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 PrepareVolume 方法 \_
 
-[**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md)類別的 **PrepareVolume** 方法會使用探索磁片區的指定檔案系統類型來建立 BitLocker 磁片區。 必須先呼叫這個方法，才能使用任何 **ProtectKeyWith \** _ 方法來保護磁片區。
+[**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md)類別的 **PrepareVolume** 方法會使用探索磁片區的指定檔案系統類型來建立 BitLocker 磁片區。 必須先呼叫這個方法，才能使用任何 **ProtectKeyWith \*** 方法來保護磁片區。
 
 ## <a name="syntax"></a>語法
 
@@ -37,7 +37,7 @@ uint32 PrepareVolume(
 
 <dl> <dt>
 
-_DiscoveryVolumeType * \[ in\]
+*DiscoveryVolumeType* \[在\]
 </dt> <dd>
 
 類型： **字串**
@@ -73,7 +73,7 @@ _DiscoveryVolumeType * \[ in\]
 
 這個方法會傳回下列其中一個程式碼，如果失敗，則傳回另一個錯誤碼。
 
-| 傳回碼/值      | Description                     |
+| 傳回碼/值      | 描述                     |
 |------------------------|---------------------------------|
 | **S_OK** <br/> 0 (0x0)  | 此方法成功。<br/> |
 
@@ -85,8 +85,8 @@ _DiscoveryVolumeType * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

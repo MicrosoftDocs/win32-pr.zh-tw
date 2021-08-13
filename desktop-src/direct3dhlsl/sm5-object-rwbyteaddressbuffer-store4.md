@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 219cd04e4f68ad6f0d16d964e6685c558fed98b1
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: bc644647616f6c6654023be23aaa8e420dbb85ad439547d1befd44c0ea7b210c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789969"
 ---
 # <a name="store4-function"></a>Store4 函式
 
@@ -28,8 +28,8 @@ ms.locfileid: "104373515"
 
 ``` syntax
 void Store4(
-  in uint address,
-  in uint4 values
+  in uint address,
+  in uint4 values
 );
 ```
 
@@ -65,13 +65,13 @@ void Store4(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -83,9 +83,9 @@ void Store4(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

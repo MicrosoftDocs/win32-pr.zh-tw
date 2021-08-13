@@ -4,12 +4,12 @@ ms.assetid: 01d616ff-e1e4-4cad-9145-c01181e4f8b8
 title: 'AVEncMPVGenerateHeaderPicDispExt 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b064082895f890d2c68174f55ed7c03107f78cac
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2ff031a60c9e1dfd2b6ef59da0241f14386c063104974be8b85b9b1a0e620d3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276178"
 ---
 # <a name="avencmpvgenerateheaderpicdispext-property"></a>AVEncMPVGenerateHeaderPicDispExt 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "104385772"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

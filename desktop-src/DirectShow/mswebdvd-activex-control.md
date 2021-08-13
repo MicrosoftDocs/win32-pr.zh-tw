@@ -4,26 +4,26 @@ ms.assetid: 34097283-f5df-46e0-aed2-89505d32ac08
 title: MSWebDVD ActiveX 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a451b7087fd159bb9e8eb2bc295f5d16f214fe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 481a016c809fa4ca498d291e4a3753bb73cc6646f834ba0a92e9c1118c1e5c2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119302878"
 ---
 # <a name="mswebdvd-activex-control"></a>MSWebDVD ActiveX 控制項
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 
 > [!Note]  
-> 此元件已被取代。 如需有關在 DirectShow 播放和流覽 DVD 的詳細資訊，請參閱 [Dvd 應用程式](dvd-applications.md)。
+> 此元件已被取代。 如需 DirectShow dvd 播放和流覽的相關資訊，請參閱[dvd 應用程式](dvd-applications.md)。
 
  
 
-Microsoft® MSWebDVD ActiveX® control 可以用來建立以腳本為基礎的 DVD 應用程式。 它會將下列物件和事件公開給應用程式。
+您可以使用 Microsoft® MSWebDVD ActiveX®控制項來建立以腳本為基礎的 DVD 應用程式。 它會將下列物件和事件公開給應用程式。
 
 -   [MSWebDVD](mswebdvd-object.md)
 -   [MSDVDAdm](msdvdadm-object.md)

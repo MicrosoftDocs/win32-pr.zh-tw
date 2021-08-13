@@ -4,12 +4,12 @@ ms.assetid: 918ba4a3-d2ac-47ee-ba29-f7ddf67ffbc5
 title: 檢查支援的感應器資料欄位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfd9cf42d1008ec1bb0e2785ec5113c5a817105
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aa75c474dc4cd38d34074872765abc77a7dae00d18e8cc37d74cde70b6f22a95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890263"
 ---
 # <a name="checking-for-supported-sensor-data-fields"></a>檢查支援的感應器資料欄位
 

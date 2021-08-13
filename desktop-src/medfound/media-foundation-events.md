@@ -4,12 +4,12 @@ ms.assetid: d925f63d-3359-4ba1-802f-0c2b11a3f973
 title: 媒體基礎事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a63beeb3222ffef4151f45be95d13f9cf9ff4f9
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 38a922127941bd94103eac9cfb02ef33d1c0b789eb632f2689a3adc81494c377
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119268818"
 ---
 # <a name="media-foundation-events"></a>媒體基礎事件
 
@@ -24,12 +24,12 @@ ms.locfileid: "106982138"
 | [MEAudioSessionGroupingParamChanged](meaudiosessiongroupingparamchanged.md)                 | 已變更音訊會話的群組參數。                                                                                                   |
 | [MEAudioSessionIconChanged](meaudiosessioniconchanged.md)                                   | 音訊會話圖示已變更。                                                                                                                          |
 | [MEAudioSessionNameChanged](meaudiosessionnamechanged.md)                                   | 音訊會話的顯示名稱已變更。                                                                                                                  |
-| [MEAudioSessionServerShutdown](meaudiosessionservershutdown.md)                             | Windows 音訊伺服器系統已關閉。                                                                                                           |
+| [MEAudioSessionServerShutdown](meaudiosessionservershutdown.md)                             | Windows 的音訊伺服器系統已關閉。                                                                                                           |
 | [MEAudioSessionVolumeChanged](meaudiosessionvolumechanged.md)                               | 音訊會話的音量或靜音狀態已變更                                                                                                    |
 | [MEBufferingStarted](mebufferingstarted.md)                                                 | 媒體來源已開始緩衝資料。                                                                                                                   |
 | [MEBufferingStopped](mebufferingstopped.md)                                                 | 媒體來源已停止緩衝資料。                                                                                                                   |
 | [MECaptureAudioSessionDeviceRemoved](mecaptureaudiosessiondeviceremoved.md)                 | 裝置已移除。                                                                                                                                  |
-| [MECaptureAudioSessionDisconnected](mecaptureaudiosessiondisconnected.md)                   | 音訊會話已中斷連線，因為使用者登出 Windows 終端機服務 (WTS) 會話。                                            |
+| [MECaptureAudioSessionDisconnected](mecaptureaudiosessiondisconnected.md)                   | 因為使用者登出 Windows 終端機服務 (WTS) 會話，所以音訊會話已中斷連線。                                            |
 | [MECaptureAudioSessionExclusiveModeOverride](mecaptureaudiosessionexclusivemodeoverride.md) | 使用者以獨佔模式開啟音訊串流。                                                                                                       |
 | [MECaptureAudioSessionFormatChanged](mecaptureaudiosessionformatchanged.md)                 | 音訊格式已變更。                                                                                                                                |
 | [MECaptureAudioSessionServerShutdown](mecaptureaudiosessionservershutdown.md)               | 音訊會話伺服器關機。                                                                                                                       |

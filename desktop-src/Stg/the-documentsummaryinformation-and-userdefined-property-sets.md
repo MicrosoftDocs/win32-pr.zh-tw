@@ -7,12 +7,12 @@ keywords:
 - 使用者設定的屬性集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 411c6081ec098539baa2b26b6594d04216f5b455
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d76c679fd8b4059e821598bed37d68735c45f914e4685e43a1c514b832e199e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886834"
 ---
 # <a name="the-documentsummaryinformation-and-userdefined-property-sets"></a>DocumentSummaryInformation 和使用者設定的屬性集
 
@@ -38,7 +38,7 @@ ms.locfileid: "104507204"
 | 線條              | **PIDDSI \_ LINECOUNT**   | 0x00000005                | **VT \_ I4**                        |
 | 段落         | **PIDDSI \_ PARCOUNT**    | 0x00000006                | **VT \_ I4**                        |
 | 投影片             | **PIDDSI \_ SLIDECOUNT**  | 0x00000007                | **VT \_ I4**                        |
-| 備註              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_ I4**                        |
+| 附註              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_ I4**                        |
 | HiddenSlides       | **PIDDSI \_ HIDDENCOUNT** | 0x00000009                | **VT \_ I4**                        |
 | MMClips            | **PIDDSI \_ MMCLIPCOUNT** | 0x0000000A                | **VT \_ I4**                        |
 | ScaleCrop          | **PIDDSI \_ SCALE**       | 0x0000000B                | **VT \_ BOOL**                      |
@@ -50,7 +50,7 @@ ms.locfileid: "104507204"
 
 
 
- 
+ 
 
 這些屬性具有下列用途：
 
@@ -162,15 +162,15 @@ ms.locfileid: "104507204"
 > [!Note]  
 > 如12.3 中所述。 OLE 2.0 設計規格之屬性集的序列化格式， **HeadingPairs** 和 **TitlesofParts** 屬性中的 vector 元素應該在屬性集內的32位界限上對齊。 不過，在 **DocumentSummaryInformation** 和 **使用者** 配置的屬性集中，當屬性集的字碼頁不是 Unicode 時，必須封裝這些元素。
 
- 
+ 
 
 </dd> </dl>
 
 您可以使用可設定的屬性集來保存 **任何屬性。** 通常，它是用來儲存使用者所建立的命名屬性。
 
- 
+ 
 
- 
+ 
 
 
 

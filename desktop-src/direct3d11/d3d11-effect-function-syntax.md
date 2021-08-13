@@ -4,12 +4,12 @@ description: 效果函式是以 HLSL 撰寫，並使用本節所述的語法來�
 ms.assetid: 5e12ba65-98bf-4f21-be75-602687157eb1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f569211d5f178b96cf7415478010285e7a836b58
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 945f7104d44947f37af71ce664dd99ff64362062b1d42af62af2054538bacb52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682377"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046616"
 ---
 # <a name="effect-function-syntax-direct3d-11"></a> (Direct3D 11) 的效果函數語法
 
@@ -37,7 +37,7 @@ ms.locfileid: "103682377"
 
 
 
- 
+ 
 
 效果函式可能是著色器，也可能只是著色器所呼叫的函式。 函式是由其名稱、其參數的類型和目標平臺來唯一識別;因此，可以多載函式。 任何有效的 HLSL 函式都應該符合此格式;如需 HLSL 函式的語法詳細清單，請參閱) 的函式 [ (DIRECTX HLSL ](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-functions)。
 
@@ -73,6 +73,6 @@ PS_OUTPUT RenderScenePS( VS_OUTPUT In,
 [效果格式](d3d11-effect-format.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

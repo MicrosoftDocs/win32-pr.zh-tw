@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a4c24576a8cbc72483822d4f327f09180364fe9d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 300ff528f6da4199a0ff05030bb5c8102c12f44448afdfb145ddc672b44b70f0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106997363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119285028"
 ---
 # <a name="imsrdpclientadvancedsettingsorderdrawthreshold-property"></a>IMsRdpClientAdvancedSettings：： orderDrawThreshold 屬性
 

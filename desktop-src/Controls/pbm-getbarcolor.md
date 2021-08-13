@@ -3,7 +3,7 @@ title: 'PBM_GETBARCOLOR 訊息 (Commctrl .h) '
 description: 取得進度列的色彩。
 ms.assetid: d046f7e4-e21e-4dd9-a7be-2bf820c3c492
 keywords:
-- PBM_GETBARCOLOR message Windows 控制項
+- PBM_GETBARCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 35586d3483d1d487f740a1a3d991c884c814f452
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8cb42d878840ad05f0854ec7ca9cb50dc1b3be2a55b3b65ddf652d961b6d818b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119312438"
 ---
 # <a name="pbm_getbarcolor-message"></a>PBM \_ GETBARCOLOR 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "104104801"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.assetid: 3cf5acc6-2f17-49d4-aca5-a84a846d1749
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: 3a50a6e3ab421e2275644051ed647d5c4501f8e0
-ms.sourcegitcommit: 015fb35e736a235d3c9becff1f6832a0965b4303
+ms.openlocfilehash: 0c9223eb561ecc391014bc4a89c86a634181bec6d1e3917866aeef2723f1510a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259530"
 ---
 # <a name="how-to-create-a-linear-gradient-brush"></a>如何建立線性漸層筆刷
 
@@ -29,7 +29,7 @@ ms.locfileid: "103843024"
 
 2.  您可以使用 [**ID2D1RenderTarget：： CreateGradientStopCollection**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-creategradientstopcollection(constd2d1_gradient_stop_uint32_id2d1gradientstopcollection))方法，利用 [**D2D1 \_ 梯度 \_ 停**](/windows/desktop/api/d2d1/ns-d2d1-d2d1_gradient_stop)用結構的宣告陣列來建立 [**ID2D1GradientStopCollection**](/windows/win32/api/d2d1/nn-d2d1-id2d1gradientstopcollection)集合，如下列程式碼所示。
     > [!Note]  
-    > 從 Windows 8 開始，您可以改用 [**ID2D1DeviceCoNtext：： CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection) 方法來建立 [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1) 集合。 此介面會以直線或 prmultiplied 色彩新增高彩漸層和漸層的插補。 如需詳細資訊，請參閱 **ID2DDeviceCoNtext：： CreateGradientStopCollection** 頁面。
+    > 從 Windows 8 開始，您可以改用 [**ID2D1DeviceCoNtext：： CreateGradientStopCollection**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-creategradientstopcollection)方法來建立 [**ID2D1GradientStopCollection1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1gradientstopcollection1)集合。 此介面會以直線或 prmultiplied 色彩新增高彩漸層和漸層的插補。 如需詳細資訊，請參閱 **ID2DDeviceCoNtext：： CreateGradientStopCollection** 頁面。
 
      
 

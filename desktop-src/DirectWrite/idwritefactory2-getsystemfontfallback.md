@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3f0eb73ee80dc3e6195267d25f6043225b8613ed
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 4513c8ee7fb4e7a3796ec442d4d36bb663a0c8803bb6276a584edcfda306d588
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119329441"
 ---
 # <a name="idwritefactory2getsystemfontfallback-method"></a>IDWriteFactory2：： GetSystemFontFallback 方法
 
@@ -31,7 +31,7 @@ ms.locfileid: "104376209"
 
 ```C++
 HRESULT GetSystemFontFallback(
-  [out] IDWriteFontFallback **fontFallback
+  [out] IDWriteFontFallback **fontFallback
 );
 ```
 
@@ -63,6 +63,6 @@ HRESULT GetSystemFontFallback(
 [**IDWriteFactory2**](idwritefactory2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

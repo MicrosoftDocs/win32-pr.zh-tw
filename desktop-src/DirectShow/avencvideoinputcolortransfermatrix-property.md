@@ -4,12 +4,12 @@ ms.assetid: de03f3e6-12c8-4a7c-a424-ef974d223e70
 title: 'AVEncVideoInputColorTransferMatrix 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 362c73f5527f5db30e906b46e93a9e6f7c1733fb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 41927641a43b104d59248cdcba5743dda647cf24afeb3970e9a87cd87b983b54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119275328"
 ---
 # <a name="avencvideoinputcolortransfermatrix-property"></a>AVEncVideoInputColorTransferMatrix 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106971938"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Icfgnt5.dll
-ms.openlocfilehash: c851ed7d5610d96af636afb60114a51be9c711f4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9b0d533e234986f54c6a4de668273bda08d9c810dc9f5a93acb3aaf030cea665
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390658"
 ---
 # <a name="icfgneedinetcomponents-function"></a>IcfgNeedInetComponents 函式
 
@@ -49,7 +49,7 @@ HRESULT IcfgNeedInetComponents(
 
 | 值                                                                                                                                                                                                                                  | 意義                                         |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**ICFG \_INSTALLMAIL**</dt> <dt>0x00000004</dt> </dl> | 需要交換或網際網路郵件嗎？<br/> |
+| <span id="ICFG_INSTALLMAIL"></span><span id="icfg_installmail"></span><dl> <dt>**ICFG \_INSTALLMAIL**</dt> <dt>0x00000004</dt> </dl> | 需要 Exchange 或網際網路郵件？<br/> |
 | <span id="ICFG_INSTALLRAS"></span><span id="icfg_installras"></span><dl> <dt>**ICFG \_INSTALLRAS**</dt> <dt>0x00000002</dt> </dl>    | 需要 RAS 嗎？<br/>                       |
 | <span id="ICFG_INSTALLTCP"></span><span id="icfg_installtcp"></span><dl> <dt>**ICFG \_INSTALLTCP**</dt> <dt>0x00000001</dt> </dl>    | 是否需要 TCP/IP？<br/>                    |
 

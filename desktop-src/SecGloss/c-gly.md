@@ -5,12 +5,12 @@ ms.assetid: db46def4-bfdc-4801-a57d-d568e94a2dbb
 title: 'C (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 863422525326ec0a04a597d33a29553006bb014b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec3196913ae4e6b7cba256a5bc7978666dda0e0ca2b78760c40dd8793f4d2b9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895716"
 ---
 # <a name="c-security-glossary"></a>C (安全性詞彙) 
 
@@ -263,7 +263,7 @@ Cmc。 透過 CMS 的憑證管理。 CMC 是一種憑證管理通訊協定，它
 <span id="_security_certificate_template_gly"></span><span id="_SECURITY_CERTIFICATE_TEMPLATE_GLY"></span>**憑證範本**
 </dt> <dd>
 
-分析憑證 (的 Windows 結構，也就是根據其預期的使用方式，來 prespecifies 格式和內容) 。 從 Windows 企業 *憑證授權單位* 單位要求 [*憑證*](/windows) (CA) 時，憑證要求者會根據其存取權限，從以憑證範本為基礎的各種憑證類型（例如使用者和程式碼簽署）進行選取。
+設定檔的 Windows 結構 (亦即，它會根據其預期的使用方式來 prespecifies 格式和內容) 。 向 Windows 的企業 *憑證授權單位* 單位 (CA) 要求 [*憑證*](/windows)時，憑證要求者是根據其存取權限，可以從以憑證範本為基礎的各種憑證類型（例如使用者和程式碼簽署）進行選取。
 
 </dd> <dt>
 
@@ -404,7 +404,7 @@ OFB：使用類似于 CFB 之意見反應的區塊加密模式。
 
 允許伺服器將要求僅代表用戶端轉寄給指定服務清單的行為。
 
-**WINDOWS XP：** 不支援限制委派。
+**Windows XP：** 不支援限制委派。
 
 </dd> <dt>
 

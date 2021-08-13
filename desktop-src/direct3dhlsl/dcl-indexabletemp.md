@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1ec3ef1222cd3bf73b4ea3f9ac6e2c3e706aa18e
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 9f1d6e02b36daef0643910d69404adc0973ebbcf6370ae5f5c11ad2aa7bd3480
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118793444"
 ---
 # <a name="dcl_indexabletemp-sm4---asm"></a>dcl \_ indexableTemp (sm4-asm) 
 
@@ -31,7 +31,7 @@ ms.locfileid: "104990843"
 
 
 
-| 項目                                                                                                                           | 描述                                                                                 |
+| Item                                                                                                                           | 描述                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | <span id="N"></span><span id="n"></span>*N-1*<br/>                                                                         | \[\]代表註冊編號的整數。<br/>                              |
 | <span id="_size_"></span><span id="_SIZE_"></span>*\[大小\]*<br/>                                                        | \[在 \] 選擇性的整數值中。 暫存器陣列中的元素數目。<br/>  |
@@ -80,9 +80,9 @@ dcl_indexableTemp x1[16], 4 ; // An indexable array of 16, 4-component, 32-bit e
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

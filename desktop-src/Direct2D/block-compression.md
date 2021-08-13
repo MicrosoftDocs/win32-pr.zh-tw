@@ -5,12 +5,12 @@ ms.assetid: 52AF86A5-16E8-4AC8-BB67-CC2F1A3635B5
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: aeb6ba9427a04f7a251a1d59062be508e4249b41
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: e8ee83911cc7be1ab6e611a735a7a5b3a7397c472b78e3192468d2e323ed0c4d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104514268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119331737"
 ---
 # <a name="block-compression"></a>區塊壓縮
 
@@ -124,9 +124,9 @@ Windows 8.1 中的下列方法會更新以支援 BC 格式：
 -   [**ID2D1Bitmap::CopyFromBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1bitmap-copyfrombitmap)
 -   [**ID2D1Bitmap1::GetSurface**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1bitmap1-getsurface)
 
-請注意， [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md) 會採用 [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) 作為介面;不過，在 Windows 8.1 WIC 不支援從 **IWICBitmapSource** 取得區塊壓縮資料，而且沒有對應至 DXGI \_ 格式 \_ BC1 UNORM 等的 WIC 像素格式 \_ 。相反地， **CreateBitmapFromWicBitmap** 會判斷 **IWICBitmapSource** 是否為有效的 DDS [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) ，並直接載入區塊壓縮的資料。 您可以在 [**D2D1 \_ 點陣圖 \_ PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) 結構中明確指定像素格式，或允許 Direct2D 自動判斷正確的格式。
+請注意， [**CreateBitmapFromWicBitmap**](id2d1devicecontext-createbitmapfromwicbitmap-overload.md)會採用 [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource)作為介面;不過，在 Windows 8.1 WIC 不支援從 **IWICBitmapSource** 取得區塊壓縮資料，而且沒有對應至 DXGI \_ 格式 \_ BC1 UNORM 等的 WIC 像素格式 \_ 。相反地， **CreateBitmapFromWicBitmap** 會判斷 **IWICBitmapSource** 是否為有效的 DDS [**IWICBitmapFrameDecode**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapframedecode) ，並直接載入區塊壓縮的資料。 您可以在 [**D2D1 \_ 點陣圖 \_ PROPERTIES1**](/windows/desktop/api/D2D1_1/ns-d2d1_1-d2d1_bitmap_properties1) 結構中明確指定像素格式，或允許 Direct2D 自動判斷正確的格式。
 
-### <a name="windows-imaging-component-apis"></a>Windows 影像處理元件 Api
+### <a name="windows-imaging-component-apis"></a>Windows映射處理元件 Api
 
 Windows 影像處理元件 (WIC) 會在 Windows 8.1 中加入新的 DDS 編解碼器。 此外，它還新增了支援存取 DDS 特定資料的新介面，包括區塊壓縮的圖元資料：
 

@@ -4,12 +4,12 @@ ms.assetid: aa05eb75-15f2-4e2a-a8e2-a770ad078b41
 title: RemoveRegistryValues 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0e6e7473be344faa08ed456e72e3b9c80c4aa8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5fe284043f76cbffe3fe6a6887f46d6ab16ba65e9103efce6e4e62baac31d31
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119339658"
 ---
 # <a name="removeregistryvalues-action"></a>RemoveRegistryValues 動作
 

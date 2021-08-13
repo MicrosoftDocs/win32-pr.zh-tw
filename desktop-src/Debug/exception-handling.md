@@ -4,12 +4,12 @@ ms.assetid: 760ddcaa-a18c-4fdf-836c-9028a2e4b62e
 title: '例外狀況處理 (錯誤處理) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb44cd294d89be81862c5330dda5b14811add1f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 253776619100095ae1ba9c92fa2caa373bc950bdf6725c6ef5d0239520320bd9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104109972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260868"
 ---
 # <a name="exception-handling-error-handling"></a>例外狀況處理 (錯誤處理) 
 

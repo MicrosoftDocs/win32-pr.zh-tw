@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f2da3504596c3b351318b33c929dad3b5a958165
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d58a34d4018588d5f0dfd2bfac9cb118677045e7693532008361062bcdc596b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458789"
 ---
 # <a name="folderitemparent-property"></a>FolderItem 父系屬性
 
@@ -41,9 +41,9 @@ objParent = FolderItem.Parent
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **父系** 。
+下列範例顯示 JScript、VBScript 和 Visual Basic 的 **父系** 適當用途。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -151,7 +151,7 @@ Visual Basic：
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

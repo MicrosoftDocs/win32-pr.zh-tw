@@ -4,12 +4,12 @@ description: 用戶端如何取得子識別碼
 ms.assetid: 8e5786fe-5123-4262-b0b8-5c9aff4787bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 18a67322a80a00c7cc65463ef50e5d1b470fc0b0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 78a12dc3f40c2aaa776c1fa8e61713c52ffbdcde554c9f6a1cbca7093998780c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388598"
 ---
 # <a name="how-clients-obtain-child-ids"></a>用戶端如何取得子識別碼
 
@@ -22,8 +22,8 @@ ms.locfileid: "103682463"
 > [!Note]  
 > 用戶端必須負責釋放用於 [**變異**](variant-structure.md) 結構的記憶體。 用戶端也必須在傳回的任何 [**IDispatch**](idispatch-interface.md)介面上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) 。
 
- 
+ 
 
- 
+ 
 
- 
+ 

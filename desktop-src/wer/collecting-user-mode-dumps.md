@@ -4,12 +4,12 @@ description: 從 Windows Server 2008 和 Windows Vista （含 Service Pack 1 (SP
 ms.assetid: 8dad892b-04df-4aeb-b6c4-82f7676d382a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e6291d3ad8dfeb641582a93f6789ca7844594ad
-ms.sourcegitcommit: 892997f4126d44df413286074e08a9c6065313ec
+ms.openlocfilehash: 4597c4bf1fd583b647e7ad74b7f1cb2cd41be9c0118226d502932c61f481cedd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114300183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442362"
 ---
 # <a name="collecting-user-mode-dumps"></a>收集 User-Mode 傾印
 
