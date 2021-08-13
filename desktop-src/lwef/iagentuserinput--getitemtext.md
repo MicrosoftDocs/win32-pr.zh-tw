@@ -4,16 +4,16 @@ description: IAgentUserInput GetItemText
 ms.assetid: 69653806-c001-4015-bd05-3c261a312ede
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7010172147f86282903641c46aa5137ce69c80be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3dd9c1392bd56e3bb59212edeb79d862260786edb87583c0e8fdf049e8345b40
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359038"
 ---
 # <a name="iagentuserinputgetitemtext"></a>IAgentUserInput：： GetItemText
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetItemText(
@@ -49,9 +49,9 @@ HRESULT GetItemText(
 [**IAgentUserInput：： GetItemConfidence**](iagentuserinput--getitemconfidence.md)、 [**IAgentUserInput：： GetItemID**](iagentuserinput--getitemid.md)、 [**IAgentUserInput：： GetAllItemData**](iagentuserinput--getallitemdata.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 94fe2f5076e9ff7cc0de0f7c916f6edacf2d03fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46496360d7b54bed837ba287d604233a9fac98ee13807744b4adbfb52e9934d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450258"
 ---
 # <a name="iwiasegmentationfilterdetectregions-method"></a>IWiaSegmentationFilter：:D etectRegions 方法
 
@@ -53,18 +53,18 @@ HRESULT DetectRegions(
 *pInputStream* \[在\]
 </dt> <dd>
 
-類型： **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+類型： **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 指定 [IStream](/windows/win32/api/objidl/nn-objidl-istream) 預覽影像的指標。
 
 </dd> <dt>
 
-_pWiaItem2 * \[ in\]
+*pWiaItem2* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-指定取得 *pInputStream* 之 [_ *IWiaItem2* *](-wia-iwiaitem2.md)專案的指標。 分割篩選會建立此專案的子專案。
+指定取得 *pInputStream* 之 [**IWiaItem2**](-wia-iwiaitem2.md)專案的指標。 分割篩選會建立此專案的子專案。
 
 </dd> </dl>
 
@@ -219,8 +219,8 @@ DownloadPreviewImage(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

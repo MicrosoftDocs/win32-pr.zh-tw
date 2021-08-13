@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f725a626ae13caaa36acd598694fef2f3b03e697
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 68075c13cfc65b79d992b849b310bd3c88b09f7901567baf249bff15496ede05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118594071"
 ---
 # <a name="ivmguestosmultipleusersessionsallowed-property"></a>IVMGuestOS：： MultipleUserSessionsAllowed 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 判斷客體作業系統中是否允許多個並行使用者會話。
 
@@ -66,7 +66,7 @@ HRESULT get_MultipleUserSessionsAllowed(
 
 除非 [**TerminalServicesInitialized**](ivmguestos-terminalservicesinitialized.md) 屬性為 **VARIANT \_ TRUE**，否則這個屬性的值無效。
 
-針對 Windows 用戶端作業系統，如果支援快速使用者切換，則 **MultipleUserSessionsAllowed** 是 **變異 \_** 。 若是 Windows Server 作業系統，如果已安裝並啟用遠端桌面服務 (之前稱為「終端機) 服務」，則 **MultipleUserSessionsAllowed** 是 **VARIANT \_** 。
+針對 Windows 用戶端作業系統，如果支援快速使用者切換，則 **MultipleUserSessionsAllowed** 為 **VARIANT \_** 。 針對 Windows Server 作業系統，如果已安裝並啟用遠端桌面服務 (之前稱為「終端機) 服務」，則 **MultipleUserSessionsAllowed** 是 **VARIANT \_** 。
 
 ## <a name="requirements"></a>規格需求
 
@@ -74,7 +74,7 @@ HRESULT get_MultipleUserSessionsAllowed(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                 |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                      |
 | Idl<br/>                      | <dl> <dt>IVMGuestOS .idl</dt> </dl> |

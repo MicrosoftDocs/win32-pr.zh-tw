@@ -4,12 +4,12 @@ ms.assetid: ce11485c-da0e-4c16-962e-eeedc2da3de4
 title: 在還原期間使用新目標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31f20a6e8c27c186648d0f662921160ab5c76988
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9f7b9a614b043a423dd90868b0a66b505ee194ef968daed4952b0ba60fec6b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118590462"
 ---
 # <a name="working-with-new-targets-during-restore"></a>在還原期間使用新目標
 

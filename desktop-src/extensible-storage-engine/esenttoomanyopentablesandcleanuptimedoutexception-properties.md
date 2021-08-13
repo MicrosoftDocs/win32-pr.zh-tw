@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103110
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 05609b274e6986605af92580f2a93263efa3351b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca8a48ccaa85cb51cd65c82ce963ddf45007a6f2a83320a25cc1b8067287442f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402435"
 ---
 # <a name="esenttoomanyopentablesandcleanuptimedoutexception-properties"></a>EsentTooManyOpenTablesAndCleanupTimedOutException 屬性
 

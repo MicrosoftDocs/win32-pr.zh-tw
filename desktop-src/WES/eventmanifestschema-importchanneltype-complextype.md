@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7500d52179c3282c7f15dcdd5dd5a32620bbc076
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 66136ee767c16aa85bfcef33fd23d5d42817f844fc309f7633d2a3d2bd35f2e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471048"
 ---
 # <a name="importchanneltype-complex-type"></a>ImportChannelType 複雜類型
 
@@ -53,7 +53,7 @@ ms.locfileid: "104094536"
 
 
 
-| 名稱   | 類型                                                              | Description                                                                                                                                                                                                                                                                                                            |
+| 名稱   | 類型                                                              | 描述                                                                                                                                                                                                                                                                                                            |
 |--------|-------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 子   | token                                                             | 此識別碼可唯一識別提供者所定義或匯入通道清單中的通道。 在事件定義中參考此通道時，請使用此值。 如果您未指定通道識別碼，請使用通道的名稱在事件定義中參考這個通道。<br/>  |
 | NAME   | anyURI                                                            | 要匯入的通道名稱。<br/>                                                                                                                                                                                                                                                                          |
@@ -71,8 +71,8 @@ ms.locfileid: "104094536"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

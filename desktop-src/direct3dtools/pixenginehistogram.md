@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: c19b77c962121949cc2495170061fee3adcecfc7
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: afa9de8ecb598c76daee56367cc9f3ee80a0d0a43f706d11d2eaaa33cd814f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118282307"
 ---
 # <a name="span-idvspixenginepixenginehistogramspanpixenginehistogram-structure"></a><span id="vspixengine.pixenginehistogram"></span>PixEngineHistogram 結構
 

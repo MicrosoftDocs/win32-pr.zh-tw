@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Winhttp.dll
-ms.openlocfilehash: 0040ed6c09814a2b2112a91173d84430b8130a30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47155c946d8f49655bf6336a858d2b0752c70caa80f9dd75e0f415ce18ea94c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694195"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562938"
 ---
 # <a name="iwinhttprequestsend-method"></a>IWinHttpRequest：： Send 方法
 
@@ -56,7 +56,7 @@ HRESULT Send(
 要傳送的要求是在先前的 [**Open**](iwinhttprequest-open.md) 方法呼叫中定義。 呼叫應用程式可以提供資料，以透過 *主體* 參數傳送至伺服器。 如果物件的 [*HTTP 動詞*](glossary.md)[**命令為 "**](iwinhttprequest-open.md) GET"，則這個方法會傳送沒有 *主體* 的要求，即使是由呼叫的應用程式提供也一樣。
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHttp 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -191,8 +191,8 @@ WinHttpReq.Send("Post data");
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
 | Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WinHTTP .lib</dt> </dl>     |

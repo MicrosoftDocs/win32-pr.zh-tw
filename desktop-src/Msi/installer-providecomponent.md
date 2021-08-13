@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: e383c532d496ed217bdb7743b8171d732d61b2d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49e3808fdad44e4bc3cb7312c1b352874eab3b768920f23ac198811d29f6c8ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118630326"
 ---
 # <a name="installerprovidecomponent-method"></a>ProvideComponent 方法
 
@@ -70,7 +70,7 @@ Installer.ProvideComponent(
 
 
 
-| Name                                                                                                                                                                                                                                                                                                                                                               | 意義                                                                                                                                                                                                                             |
+| 名稱                                                                                                                                                                                                                                                                                                                                                               | 意義                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="msiInstallModeDefault"></span><span id="msiinstallmodedefault"></span><span id="MSIINSTALLMODEDEFAULT"></span><dl> <dt>**msiInstallModeDefault**</dt> <dt>0</dt> </dl>                                                                                | 提供元件路徑，視需要執行任何安裝。<br/>                                                                                                                                                  |
 | <span id="msiInstallModeExisting"></span><span id="msiinstallmodeexisting"></span><span id="MSIINSTALLMODEEXISTING"></span><dl> <dt>**msiInstallModeExisting**</dt> <dt>– 1</dt> </dl>                                                                           | 只有在功能存在時，才會提供元件路徑;否則，會傳回空字串。 這個模式會確認元件的金鑰檔是否存在。<br/>                                                                |
@@ -102,7 +102,7 @@ MsiInstallModeExisting 選項不能搭配 msiReinstallMode 旗標一起使用。
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 

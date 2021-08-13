@@ -4,12 +4,12 @@ ms.assetid: 3373D767-EC21-4CA7-8FA0-03DB39224728
 title: Hyper-v WMI 類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f47315c491b06a69307dc686c728207ead93d4c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 278aded589441ddb43cc666a51e0bc1466999b27a6fa875243063a0a9482fed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644990"
 ---
 # <a name="hyper-v-wmi-classes"></a>Hyper-v WMI 類別
 

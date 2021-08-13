@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5bf08057ec075448d9912e37c33b6087c381f97d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: decd5892d480e4f236ae9d7acdc1a25c018557166535c963eb35dc3f6f62ffa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675567"
 ---
 # <a name="setpriority-method-of-the-win32_process-class"></a>Win32 進程類別的 SetPriority 方法 \_
 
@@ -144,7 +144,7 @@ uint32 SetPriority(
 
 ## <a name="remarks"></a>備註
 
-若要將優先權設定為即時，呼叫端必須具有 **SeIncreaseBasePriorityPrivilege** (**SE \_ inc. \_ 基本 \_ 優先權 \_ 許可權**) 。 如果沒有此許可權，優先順序最高的優先順序可以設定為高優先順序。
+若要將優先權設定為即時，呼叫端必須具有 **SeIncreaseBasePriorityPrivilege** (**SE \_ INC \_ 基本 \_ 優先權 \_ 許可權**) 。 如果沒有此許可權，優先順序最高的優先順序可以設定為高優先順序。
 
 ## <a name="examples"></a>範例
 

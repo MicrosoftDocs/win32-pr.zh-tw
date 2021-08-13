@@ -1,26 +1,26 @@
 ---
-title: MIDLRT.EXE 根據和 Windows 執行階段元件
+title: midlrt.exe 根據和 Windows 執行階段元件
 description: 顯示如何建立中繼資料 ( winmd) 檔案，這些檔案代表自訂 Windows 執行階段元件的 API。
 ms.assetid: 7830A5DB-9696-4A93-948B-51DA46A5143C
 keywords:
 - MIDL 編譯器 MIDL
-- MIDL 編譯器 MIDL、MIDL 和 Windows 執行階段 winrt
-- Windows 執行階段 MIDL
+- midl 編譯器 MIDL、midl 和 Windows 執行階段 winrt
+- Windows執行時間 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4edf4d40b3fc5b0a5ed8eeb9b5fd47a3b87c4543
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6f827178216bbb7e78c16f2c11fa68b29b2eb50cfc0714a0ed53b02ce5bdc4ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104508200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642902"
 ---
-# <a name="midlrt-and-windows-runtime-components"></a>MIDLRT.EXE 根據和 Windows 執行階段元件
+# <a name="midlrt-and-windows-runtime-components"></a>midlrt.exe 根據和 Windows 執行階段元件
 
 顯示如何建立中繼資料 ( winmd) 檔案，這些檔案代表自訂 Windows 執行階段元件的 API。
 
 
-使用 MIDLRT.EXE 根據編譯器，針對您的自訂 Windows 執行階段元件 ( winmd) 檔案建立中繼資料。
+使用 midlrt.exe 根據編譯器，針對您的自訂 Windows 執行階段元件 ( winmd) 檔案建立中繼資料。
 
 產生中繼資料檔案時，您可以使用 MDMERGE 公用程式，將它們組成更有效率的封裝。 如需詳細資訊，請參閱 [MDMERGE 和中繼資料](mdmerge-and-metadata-files.md)檔案。
 

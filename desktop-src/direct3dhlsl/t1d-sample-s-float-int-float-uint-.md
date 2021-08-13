@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9fad13781cbf862e386293ff96f8e99b57603c76
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b438b407275e572fc8133ec27eb6b47c65cab6f7c3f833ecd6b6f986ef997333
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104991987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119367688"
 ---
 # <a name="texture1dsamplesfloatintfloatuint-function"></a>Texture1D：： Sample (S，float，int，float，uint) 函數
 

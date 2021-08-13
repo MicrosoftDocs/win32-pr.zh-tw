@@ -3,7 +3,7 @@ title: 'MCIWNDM_CAN_RECORD 訊息 (Vfw .h) '
 description: MCIWNDM \_ 可以 \_ 記錄訊息，判斷 MCI 裝置是否支援錄製。 您可以使用 MCIWndCanRecord 宏明確地傳送此訊息。
 ms.assetid: b5a789fa-6a88-487d-a374-8f4798ee5a62
 keywords:
-- MCIWNDM_CAN_RECORD message Windows 多媒體
+- MCIWNDM_CAN_RECORD 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2acbc9efa3ca973c12112a599d1202ad936107a9
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5df46ce0cbffe17f890e50159a13a93192e67f60e323d6ba711bee6af7ac3f79
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429648"
 ---
 # <a name="mciwndm_can_record-message"></a>MCIWNDM \_ 可以 \_ 記錄訊息
 

@@ -3,7 +3,7 @@ title: 'EM_STOPGROUPTYPING 訊息 (Richedit .h) '
 description: 停止 rich edit 控制項，使其無法將其他輸入動作收集到目前的復原動作。 控制項會將下一個輸入動作（如果有的話）儲存至復原佇列中的新動作。
 ms.assetid: 3059826f-84d1-4b7b-b4a8-da17d5f41013
 keywords:
-- EM_STOPGROUPTYPING message Windows 控制項
+- EM_STOPGROUPTYPING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eced7ff12526296552e4adcc38c927ae94ee0502
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5e62a5d652218b24240ce612851c4c08e335b31230532bc778bb44c5d7e74854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118672276"
 ---
 # <a name="em_stopgrouptyping-message"></a>EM \_ STOPGROUPTYPING 訊息
 
@@ -65,8 +65,8 @@ Rich edit 控制項會將連續的輸入動作（包括使用 **倒退鍵** 刪�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

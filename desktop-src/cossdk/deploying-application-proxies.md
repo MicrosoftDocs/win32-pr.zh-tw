@@ -4,12 +4,12 @@ ms.assetid: 293b424c-4cd4-43a9-9b56-687c753a34f2
 title: 部署應用程式 proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5e6439574602005ca53917945fa9005f8959b5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5e651338e4bd89cb4fe5cb77789e5e10392f62e065da0f61ec4ea19f7cca312b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118547987"
 ---
 # <a name="deploying-application-proxies"></a>部署應用程式 proxy
 
@@ -22,7 +22,7 @@ ms.locfileid: "103936535"
 
  
 
-COM + 產生的應用程式 proxy 是 Windows Installer 安裝套件。 安裝之後，應用程式 proxy 會顯示在用戶端電腦的 [新增/移除程式] 控制台 (除非使用 Windows Installer authoring tool) 修改 .msi 檔案。
+com + 產生的應用程式 proxy 是 Windows Installer 安裝套件。 安裝之後，應用程式 proxy 會顯示在用戶端電腦的 [新增/移除程式] 控制台 (除非使用 Windows Installer authoring tool) 修改 .msi 檔。
 
 ## <a name="remote-access-via-application-proxies"></a>透過應用程式 proxy 進行遠端存取
 
@@ -38,10 +38,10 @@ COM + 產生的應用程式 proxy 是 Windows Installer 安裝套件。 安裝�
 
 ## <a name="installing-application-proxies-on-other-operating-systems"></a>在其他作業系統上安裝應用程式 proxy
 
-與 COM + 伺服器應用程式不同的是，應用程式 proxy 可以安裝在任何支援 DCOM (和 Windows Installer) 的作業系統上。 在未執行 COM + 的電腦上，只會安裝 DCOM 遠端處理所需的資訊子集。 這項資訊會安裝到 Windows 登錄 (使用 HKEY \_ 類別 \_ ROOT、APPID/CLSID 機碼) 。
+與 com + 伺服器應用程式不同的是，應用程式 proxy 可以安裝在任何支援 DCOM (和 Windows Installer) 的作業系統上。 在未執行 COM + 的電腦上，只會安裝 DCOM 遠端處理所需的資訊子集。 這項資訊會安裝到 Windows 登錄 (使用 HKEY \_ 類別 \_ ROOT、APPID/CLSID 機碼) 。
 
 > [!Note]  
-> 在未執行 COM + 的電腦上安裝應用程式 proxy ( .msi 檔案) ，必須在這些電腦上執行 Windows Installer。 建議開發人員提供 Windows Installer 可轉散發檔案 (instmsi.exe) 以及其應用程式的 .msi 檔案。 這可確保系統管理員在未執行 COM + 的用戶端上部署應用程式 proxy 時，有 Windows Installer 可供使用。
+> 在未執行 com + 的電腦上安裝應用程式 proxy (.msi 檔案) 時，必須在這些電腦上執行 Windows Installer。 建議開發人員將 Windows Installer 可轉散發檔案 (instmsi.exe) 以及其應用程式的 .msi 檔一起寄送。 這可確保系統管理員在未執行 com + 的用戶端上部署應用程式 proxy 時，有 Windows Installer 可供使用。
 
  
 

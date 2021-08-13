@@ -4,12 +4,12 @@ ms.assetid: CF2F3058-328A-4128-B5C6-29723B49AB1E
 title: 'Direct3D 11 Video Guid (D3d11 .h) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a16f5277123c3d174427debc3f0ad5e184e49a6c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 905621e26edcc149d456d5d7b4ef7294ae39c80ae35955e9a19902484d5ff5eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346468"
 ---
 # <a name="direct3d-11-video-guids"></a>Direct3D 11 影片 Guid
 
@@ -68,8 +68,8 @@ ms.locfileid: "113118633"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>D3d11。h</dt> </dl> |
 
 

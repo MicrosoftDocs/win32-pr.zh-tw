@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e37893874f143a210bde0099caa7b5ec266f8948
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 408019d3bfe226c9e7ecdc2ea00182a0b11c78fa64a0210be658ded4556850cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118617043"
 ---
 # <a name="gldeletetextures-function"></a>glDeleteTextures 函式
 
@@ -65,7 +65,7 @@ void WINAPI glDeleteTextures(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *n* 為負數值。<br/>                                                                                                  |
 | <dl> <dt>**GL \_ 不正確 \_ 操作**</dt> </dl> | 呼叫 [**glBegin**](glbegin.md) 和對應的 [**glEnd**](glend.md)呼叫之間呼叫了函數。<br/> |

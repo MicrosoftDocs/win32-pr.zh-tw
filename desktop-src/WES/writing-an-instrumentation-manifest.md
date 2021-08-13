@@ -4,12 +4,12 @@ description: 應用程式和 Dll 會使用檢測資訊清單來識別其檢測�
 ms.assetid: eec9d129-acde-4302-9121-634b3fad8455
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cdad802526ad177eb5daa8846535c434fff32eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 82b3462d6adc264fba8ba155620a2bbb402d51d5d6fc24f7dbe879b9e2a91ec9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118587049"
 ---
 # <a name="writing-an-instrumentation-manifest"></a>撰寫檢測資訊清單
 
@@ -19,7 +19,7 @@ ms.locfileid: "104375389"
 
 為每個 DLL 指定提供者的優點是，您接著可以啟用和停用個別提供者，以及它們所產生的事件。 只有當 ETW 追蹤會話啟用提供者時，才適用這項優點。 指定事件記錄檔通道的任何事件一律會寫入至該通道。
 
-資訊清單必須識別提供者和它所寫入的事件，但其他中繼資料（例如通道、層級和關鍵字）是選擇性的;您是否要定義選擇性的中繼資料，取決於將取用事件的物件。 例如，如果系統管理員或支援人員使用從事件記錄通道讀取事件的 Windows 事件檢視器之類的工具來取用事件，則您必須定義要寫入事件的通道。 不過，如果提供者只會由 ETW 追蹤會話啟用，則您不需要定義通道。
+資訊清單必須識別提供者和它所寫入的事件，但其他中繼資料（例如通道、層級和關鍵字）是選擇性的;您是否要定義選擇性的中繼資料，取決於將取用事件的物件。 例如，如果系統管理員或支援人員使用像是從事件記錄通道讀取事件的 Windows 事件檢視器工具來取用事件，則您必須定義要寫入事件的通道。 不過，如果提供者只會由 ETW 追蹤會話啟用，則您不需要定義通道。
 
 雖然層級、工作、opcode 和關鍵字中繼資料都是選擇性的，但您應該使用它們來以邏輯方式分組或區出事件。 分組事件可協助取用者只取用感興趣的事件。 例如，取用者可以查詢層級為「重大」且關鍵字為「寫入」的所有事件，或查詢特定工作所寫入的所有事件。
 
@@ -41,7 +41,7 @@ ms.locfileid: "104375389"
 
 雖然您可以手動撰寫檢測資訊清單，但您應該考慮使用 Windows SDK Bin 資料夾中包含的 ECManGen.exe 工具 \\ 。 ECManGen.exe 工具會使用 GUI，引導您從頭開始建立資訊清單，而不需要使用 XML 標記。 在使用此工具時，知道本節和 [EventManifest 架構](eventmanifestschema-schema.md) 區段中的資訊將有所説明。
 
-如果您使用 Visual Studio 做為 XML 編輯器，則可以將 [EventManifest](eventmanifestschema-schema.md) 架構加入至專案 (請參閱 XML 功能表) 以利用 Intellisense、內嵌架構驗證及其他功能，讓您更輕鬆且精確地撰寫資訊清單。
+如果您使用 Visual Studio 做為 XML 編輯器，則可以將[EventManifest](eventmanifestschema-schema.md)架構加入至專案 (請參閱 XML 功能表) 以利用 Intellisense、內嵌架構驗證及其他功能，讓您更輕鬆且精確地撰寫資訊清單。
 
 寫入資訊清單之後，請使用訊息編譯器來驗證資訊清單，並產生您在提供者中包含的資源和標頭檔。 如需詳細資訊，請參閱 [編譯檢測資訊清單](compiling-an-instrumentation-manifest.md)。
 
@@ -51,8 +51,8 @@ ms.locfileid: "104375389"
 ```XML
 <instrumentationManifest
     xmlns="http://schemas.microsoft.com/win/2004/08/events" 
-    xmlns:win="https://manifests.microsoft.com/win/2004/08/windows/events"
-    xmlns:xs="https://www.w3.org/2001/XMLSchema"    
+    xmlns:win="http://manifests.microsoft.com/win/2004/08/windows/events"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     >
 
     <instrumentation>
@@ -113,6 +113,6 @@ ms.locfileid: "104375389"
 
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 30e0a532cd39f2150591a3eb74ed9bbba83a7080
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7b5ba81aad49a33a987b2c16c072a6666776b665bf1bd936086a25d1ddd542f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408728"
 ---
 # <a name="keyusageisnonrepudiationenabled-property"></a>KeyUsage. IsNonRepudiationEnabled 屬性
 

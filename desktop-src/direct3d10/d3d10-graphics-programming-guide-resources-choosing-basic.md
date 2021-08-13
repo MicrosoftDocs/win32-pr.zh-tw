@@ -4,12 +4,12 @@ ms.assetid: 802400fa-a606-4d3d-a61d-1cdb5a9f0437
 title: 選擇 (Direct3D 10) 的資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4be887fb94f04783b01f8873fb61812bca20faa5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3de635e9ad5ece322de9c34438be45db991e6700dc6192509f70b6b0f53e351b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119380318"
 ---
 # <a name="choosing-a-resource-direct3d-10"></a>選擇 (Direct3D 10) 的資源
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 97ac67ab66a0072598bfea3b190bdf2c81ceba9a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: d24a550e4f07d0c82e6c114cb70eadf496b3bc3db312c27492b94112a8ca27c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525625"
 ---
 # <a name="d3dxloadvolumefromfileinmemory-function"></a>D3DXLoadVolumeFromFileInMemory 函式
 
@@ -111,7 +111,7 @@ Type： **Const [**D3DBOX**](d3dbox.md) \***
 
 </dd> <dt>
 
-*>colorkey* \[在\]
+*>Colorkey* \[在\]
 </dt> <dd>
 
 類型： **[ **D3DCOLOR**](d3dcolor.md)**
@@ -137,7 +137,7 @@ Type： **Const [**D3DBOX**](d3dbox.md) \***
 
 ## <a name="remarks"></a>備註
 
-此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、.jpg、.dib、hdr、.jpg、. pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
+此函式會處理壓縮紋理格式的轉換，並支援下列檔案格式： .bmp、dds、.dib、hdr、.jpg、pfm、.png、ppm 和. tga。 請參閱 [**D3DXIMAGE \_ >fileformat**](./d3dximage-fileformat.md)。
 
 寫入至非層級零的音量材質介面，不會讓中途的矩形更新。 如果呼叫 **D3DXLoadVolumeFromFileInMemory** ，但材質尚未中途變更 (在) 的一般使用案例下，應用程式必須明確地呼叫磁片區材質上的 [**IDirect3DVolumeTexture9：： AddDirtyBox**](/windows/win32/api/d3d9helper/nf-d3d9helper-idirect3dvolumetexture9-adddirtybox) 。
 

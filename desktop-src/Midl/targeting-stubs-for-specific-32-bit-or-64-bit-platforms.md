@@ -8,12 +8,12 @@ keywords:
 - stub MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 526265a60f8b2ef2f31d19d0356d4ec3a3ae8c8f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 04e0f78e47ed078bf7cd1fd78fa8730b597554a6c8ba1ed4fc5a67bc562e7d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641168"
 ---
 # <a name="targeting-stubs-for-specific-32-bit-or-64-bit-platforms"></a>以特定32位或64位平臺為目標的存根
 
@@ -74,9 +74,9 @@ Rpcndr 中定義的 guard 宏取決於 WINVER 和 WIN32 WINNT 的設定， \_ \_
 [封送處理 OLE 資料類型](marshaling-ole-data-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

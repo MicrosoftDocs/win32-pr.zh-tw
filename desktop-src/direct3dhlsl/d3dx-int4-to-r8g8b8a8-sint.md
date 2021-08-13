@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9df4e4094ac96e7da2ccbff1da08e7aa1f7c4de
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: cdeb7a92bff374d7b93d647971afd52746fbb768d9a33ec7c3a5c33b1c493523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515862"
 ---
 # <a name="d3dx_int4_to_r8g8b8a8_sint-function"></a>D3DX \_ INT4 \_ to \_ R8G8B8A8 \_ 聖函數
 

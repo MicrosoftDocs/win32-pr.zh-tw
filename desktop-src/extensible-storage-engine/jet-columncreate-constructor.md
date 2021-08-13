@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b87f1118cf1c2ecb75edee778511fa6723e395e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf01f1b4462fd5d964d41e12053c05205683361066c408e9ea3a7f3f15fe6385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475668"
 ---
 # <a name="jet_columncreate-constructor"></a>JET_COLUMNCREATE 的函式
 

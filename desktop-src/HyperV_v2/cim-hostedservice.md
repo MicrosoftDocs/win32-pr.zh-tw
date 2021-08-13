@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 841c0e26898ed3baa4b4947779a395ee9ce870d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65667d46ea3af91f33a118d49902c77e411fc56959eb1f1345d4b42fab372270
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648553"
 ---
 # <a name="cim_hostedservice-class-hyper-v-management"></a>CIM_HostedService 類別 (Hyper-v 管理) 
 

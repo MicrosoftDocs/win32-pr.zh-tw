@@ -4,16 +4,16 @@ description: 瞭解命令物件的 VoiceCaption 屬性，此屬性會傳回或�
 ms.assetid: 2c4fa175-fc2d-4474-b15f-7e838103a435
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a4a2113e0a952f253df901d192b42466fa30350
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 76b753a1f76769a6d6ec28de3161d01a097108c0c3f973f78e397f1c764fba8c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112396123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358728"
 ---
 # <a name="voicecaption-property-commands-object"></a>VoiceCaption 屬性 (命令物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

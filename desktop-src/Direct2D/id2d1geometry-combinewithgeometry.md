@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 1475655ae44055a41da17c231fe1ea7a60924378
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7bcd7cb18c9a2748e0c30264bc1b2593057dd9d8c1f891f854ea9afe71d0a312
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342888"
 ---
 # <a name="id2d1geometrycombinewithgeometry-methods"></a>ID2D1Geometry：： CombineWithGeometry 方法
 

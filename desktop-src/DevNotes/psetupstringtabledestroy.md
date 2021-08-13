@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 472ee152d98c064edb8bac5d4de849b505b634da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: adbde578b144aaa79993ede50ef5fbd480582c3354467a2d37b424a1897cae63
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386408"
 ---
 # <a name="psetupstringtabledestroy-function"></a>pSetupStringTableDestroy 函式
 
-\[在 Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
+\[Windows Vista 或 Windows Server 2008 中無法使用此功能。\]
 
 刪除字串資料表。
 

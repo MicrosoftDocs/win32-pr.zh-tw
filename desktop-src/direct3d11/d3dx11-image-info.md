@@ -15,17 +15,17 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 927967f8e76d0147ccc264bcbdd773191a170ae7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 64366755e9bb9398e8107d931ee5425d2fcee78fdd9d03487b9533270cc17c19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118536865"
 ---
 # <a name="d3dx11_image_info-structure"></a>D3DX11 \_ 影像 \_ 資訊結構
 
 > [!Note]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，而且不支援 Windows Store 應用程式。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式庫已針對 Windows 8 淘汰，不支援 Windows Store 應用程式。
 
  
 

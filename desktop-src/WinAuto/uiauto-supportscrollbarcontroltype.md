@@ -21,12 +21,12 @@ keywords:
 - 控制項類型、捲軸
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2168401c313dd9139f44ba615de945802b307d64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a25d0398ca8e094e1dbec5e06eb725f3e9d7edbb5c193fdc3699e166b118142
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106991289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413368"
 ---
 # <a name="scrollbar-control-type"></a>捲軸控制項類型
 
@@ -77,7 +77,7 @@ ms.locfileid: "106991289"
 
 
 
- 
+ 
 
 捲軸控制項可以有零到五個子系。 因為子樹有一個以上的按鈕控制項，所以元素必須將特定的 [**UIA \_ AutomationIdPropertyId**](uiauto-automation-element-propids.md) 值設定為每個專案，才能讓自動化測試控管可以找到它們。
 
@@ -105,7 +105,7 @@ ms.locfileid: "106991289"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -114,7 +114,7 @@ ms.locfileid: "106991289"
 > [!Note]  
 > 使用捲軸作為僅限滑鼠操作的控制項時，不支援控制項模式。 如果用來作為應用程式內的滑杆控制項，則必須提供 [滑杆](uiauto-supportslidercontroltype.md) 控制項類型給它。
 
- 
+ 
 
 
 
@@ -125,7 +125,7 @@ ms.locfileid: "106991289"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -133,7 +133,7 @@ ms.locfileid: "106991289"
 
 
 
-| 消費者介面自動化事件                                                                                                                   | 備註                                                                                                                      |
+| 消費者介面自動化事件                                                                                                                   | 附註                                                                                                                      |
 |---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
 | [**UIA \_ AutomationFocusChangedEventId**](uiauto-event-ids.md)                                      |                                                                                                                            |
 | [**UIA \_BoundingRectanglePropertyId**](uiauto-automation-element-propids.md) 屬性變更事件。 |                                                                                                                            |
@@ -144,7 +144,7 @@ ms.locfileid: "106991289"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -159,9 +159,9 @@ ms.locfileid: "106991289"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

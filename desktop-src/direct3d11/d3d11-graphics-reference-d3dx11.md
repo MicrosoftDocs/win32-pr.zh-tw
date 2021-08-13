@@ -4,19 +4,19 @@ description: 本節將說明 D3DX 11 API。
 ms.assetid: 78520da0-4be0-42d8-93a4-9bd17ef50007
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e6938c28869745a26799fb654ae27c89e296ce2
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: 798efe22595d867b205927cd1031135bf84a11837f616513523e962dd6a57052
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111826403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119378458"
 ---
 # <a name="d3dx-11-reference"></a>D3DX 11 參考
 
 本節將說明 D3DX 11 API。
 
 > [!NOTE]  
-> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式程式庫已針對 Windows 8 淘汰，而且不支援 Microsoft Store 應用程式。 如需 D3DX11 建議取代的詳細資訊，請參閱 [不使用 D3DX 的生活](https://walbourn.github.io/living-without-d3dx/)。 針對較舊的專案，您可以使用 [DXSDK D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件，而不是依賴舊版 DirectX SDK 或 DirectSetup。
+> D3DX (D3DX 9、D3DX 10 和 D3DX 11) 公用程式程式庫已針對 Windows 8 淘汰，而且不支援 Microsoft Store 應用程式。 如需 D3DX11 建議取代的詳細資訊，請參閱 [不使用 D3DX 的生活](https://walbourn.github.io/living-without-d3dx/)。 針對較舊的專案，您可以使用[DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件，而不是依賴舊版 DirectX SDK 或 DirectSetup。
 
 ## <a name="in-this-section"></a>本節內容
 

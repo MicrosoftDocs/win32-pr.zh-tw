@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fdaf6f80340a08562ed644ee44ac92c42874d149
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5f9bad9968a52fb6c3b11de96936f48e432bd038e172318cb52f21fad4b08ae2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525645"
 ---
 # <a name="d3dxfvffromdeclarator-function"></a>D3DXFVFFromDeclarator 函式
 

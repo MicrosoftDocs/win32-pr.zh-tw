@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8fca9c0dcb7526df0373cbf26099a8ca810ab3eb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbf30cc758fac35cb881759ad6c1e3c916ab0159906e4767bc1739f4b6ff6884
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404198"
 ---
 # <a name="esentattacheddatabasemismatchexception-class"></a>EsentAttachedDatabaseMismatchException 類別
 

@@ -1,21 +1,21 @@
 ---
-description: 合併模組基本上是簡化的 .msi 檔案，也就是 Windows Installer 安裝套件的副檔名。 標準合併模組的副檔名為 .msm。
+description: 合併模組基本上是簡化 .msi 檔案，也就是 Windows Installer 安裝套件的副檔名。 標準合併模組的副檔名為 .msm。
 ms.assetid: 580fe58a-4636-4f9a-a68d-4fd0e281e949
 title: 關於合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70d416b89f0979d5651480a05052e95b4d32e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca3e6c0ec1d4d7073d85984539ce54b47de92885a64570bc1de709be64748b22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640160"
 ---
 # <a name="about-merge-modules"></a>關於合併模組
 
-合併模組基本上是簡化的 .msi 檔案，也就是 Windows Installer 安裝套件的副檔名。 標準合併模組的副檔名為 .msm。
+合併模組基本上是簡化 .msi 檔案，也就是 Windows Installer 安裝套件的副檔名。 標準合併模組的副檔名為 .msm。
 
-無法單獨安裝合併模組，因為它缺少安裝資料庫中有的一些重要資料庫資料表。 合併模組也包含本身特有的其他資料表。 若要安裝合併模組與應用程式所提供的資訊，模組必須先合併到應用程式的 .msi 檔案中。
+無法單獨安裝合併模組，因為它缺少安裝資料庫中有的一些重要資料庫資料表。 合併模組也包含本身特有的其他資料表。 若要安裝合併模組與應用程式所提供的資訊，必須先將模組合併到應用程式的 .msi 檔。
 
 合併模組包含下列部分：
 

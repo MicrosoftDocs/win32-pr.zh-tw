@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 45b6da3bcdb027a00edeb4f009773533424efeb8
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 86e0e04558c9ca1c10f89e924605c8999a7f7346d2278850d7cd6449968fd13c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104383061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515537"
 ---
 # <a name="dcl_sampler-sm4---asm"></a>dcl \_ 取樣器 (sm4-asm) 
 
@@ -38,7 +38,7 @@ ms.locfileid: "104383061"
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>
@@ -53,7 +53,7 @@ ms.locfileid: "104383061"
 <table>
 <thead>
 <tr class="header">
-<th>模式</th>
+<th>[模式]</th>
 <th>已接受取樣器狀態</th>
 </tr>
 </thead>
@@ -134,9 +134,9 @@ dcl_sampler s3, default
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

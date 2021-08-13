@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 33a62c8dad7ef6e15b9b11461303b1bced977a96
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 13aad8d0214c65c01237c8e74548c3915af9287c935b53e33c6d229b2da5b12e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654213"
 ---
 # <a name="dbginitialise-function"></a>DbgInitialise 函式
 
@@ -55,7 +55,7 @@ void DbgInitialise(
 
 ## <a name="remarks"></a>備註
 
-在可執行檔中，請先呼叫這個方法，再使用 DirectShow debug 功能。 在可執行檔結束之前，呼叫 [**DbgTerminate**](dbgterminate.md) 函式來清除偵錯工具程式庫。
+在可執行檔中，請先呼叫這個方法，再使用 DirectShow 的 debug 設備。 在可執行檔結束之前，呼叫 [**DbgTerminate**](dbgterminate.md) 函式來清除偵錯工具程式庫。
 
 在連結至基類程式庫 (Strmbase .lib) 的 DLL 中，不需要呼叫此函式。 載入 DLL 時，會自動呼叫函數。
 

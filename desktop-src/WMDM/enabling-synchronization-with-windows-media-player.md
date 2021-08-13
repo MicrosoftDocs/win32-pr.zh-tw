@@ -3,7 +3,7 @@ title: 使用 Windows Media Player 啟用同步處理
 description: 使用 Windows Media Player 啟用同步處理
 ms.assetid: a312dfef-ac48-4c58-a59a-b277f5386419
 keywords:
-- Windows Media 裝置管理員，與 Windows Media Player 同步處理
+- Windows媒體裝置管理員，與 Windows Media Player 同步處理
 - 裝置管理員，與 Windows Media Player 同步處理
 - 程式設計指南，與 Windows Media Player 同步處理
 - 服務提供者，與 Windows Media Player 同步處理
@@ -11,12 +11,12 @@ keywords:
 - 與 Windows Media Player 同步處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b621be3b17d42368bc859081f47bc29bb2cfc667
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef06dd0e32e0ea95674f54b94336ecb6882e8215775c857ee0780a58b71af75c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585006"
 ---
 # <a name="enabling-synchronization-with-windows-media-player"></a>使用 Windows Media Player 啟用同步處理
 
@@ -51,9 +51,9 @@ ms.locfileid: "106965613"
 [**裝置參數**](device-parameters.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

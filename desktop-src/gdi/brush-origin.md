@@ -4,12 +4,12 @@ ms.assetid: b951fd9a-1e87-4b17-9be8-263896c73922
 title: 筆刷來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 016237b97a52da6fd7fa14a3b6ba2dc25b03b96e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ccdc1dfa370ceb84216c89d562ef56dd206ce744b3be4fd38deb87175c1cf73
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104568002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119400388"
 ---
 # <a name="brush-origin"></a>筆刷來源
 

@@ -3,7 +3,7 @@ title: 'EM_SETZOOM 訊息 (Richedit .h) '
 description: 設定縮放比例。 比率必須是介於1/64 到64之間的值。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 6cdec5b8-4ce7-4fd5-8083-4daa63d17f63
 keywords:
-- EM_SETZOOM message Windows 控制項
+- EM_SETZOOM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d38630f27afcfc0ed29e3ccc3129e2dea22d4ac
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ecf6541bc018df253a3ed45f8bced42e2f19938449d7fc35bf7f309909d53a3c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437178"
 ---
 # <a name="em_setzoom-message"></a>EM \_ SETZOOM 訊息
 
@@ -71,8 +71,8 @@ ms.locfileid: "103843803"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit .h/Commctrl。h</dt> </dl> |
 

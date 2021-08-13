@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 43fceababaf6ced44a1ba3aef020900ed1afe4df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d85abf322d34d03c0f5e8863b5434343946b676e477e18077c82d83de78cafb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118545569"
 ---
 # <a name="wowinprocservers-collection"></a>WOWInprocServers 集合
 
@@ -38,7 +38,7 @@ ms.locfileid: "104510470"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 

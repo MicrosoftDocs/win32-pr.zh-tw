@@ -4,12 +4,12 @@ ms.assetid: 1fc46062-c4a0-4aa2-ae05-3d7cded18584
 title: 備份初始化的總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53fb97b43cf19ca60e3e4601899700e35bdad3aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4054dc644056100a4db28ea11b6dcaf9c358084a1b01b9ad28c13e14133fc5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118591352"
 ---
 # <a name="overview-of-backup-initialization"></a>備份初始化的總覽
 
@@ -32,7 +32,7 @@ ms.locfileid: "106975037"
 
 ## <a name="requester-actions-during-backup-initialization"></a>備份初始化期間的要求者動作
 
-[**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)物件只能用於一個備份。 因此，要求者必須繼續進行備份的結尾，包括釋放 **>ivssbackupcomponents** 介面。 如果備份必須提前終止，要求者必須呼叫 [**>ivssbackupcomponents：： AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup) ，然後釋放 **>ivssbackupcomponents** 物件 (如需詳細資訊，請參閱 [中止 VSS 作業](aborting-vss-operations.md)) 。 請勿嘗試繼續 **>ivssbackupcomponents** 介面。
+[**>Ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents)物件只能用於一個備份。 因此，要求者必須繼續進行備份的結尾，包括釋放 **>ivssbackupcomponents** 介面。 如果備份必須提前終止，要求者必須呼叫 [**>ivssbackupcomponents：： AbortBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-abortbackup) ，然後釋放 **>ivssbackupcomponents** 物件 (如需詳細資訊，請參閱 [中止 VSS 作業](aborting-vss-operations.md)) 。 請勿嘗試繼續 **>ivssbackupcomponents** 介面。
 
 通常，要求者的備份元件檔會初始化為空白。 當呼叫 [**>ivssbackupcomponents：： InitializeForBackup**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-initializeforbackup) 時，可以載入預存的備份元件檔，通常支援可轉移陰影複製的磁片區。 在此情況下，寫入器要求者通訊將會與下面所述的內容稍有不同。  (如需詳細資訊，請參閱匯 [入可傳送的陰影複製磁片](importing-transportable-shadow-copied-volumes.md) 區。 ) 
 
@@ -50,7 +50,7 @@ ms.locfileid: "106975037"
 
 因為沒有任何方法可以在呼叫 [**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)之前取得系統上的寫入器清單，所以要求者可以考慮建立然後刪除第二個 [**>ivssbackupcomponents**](/windows/desktop/api/VsBackup/nl-vsbackup-ivssbackupcomponents) 實例來取得清單。
 
-[**>ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)完成後，就不需要呼叫 [**>ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 。 無法處理呼叫所產生之 [*識別*](vssgloss-i.md) 事件的寫入器，將不會成為提供 [**>ivssbackupcomponents：： GetWriterMetadataCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount) 和 [**>ivssbackupcomponents：： GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata) 所找到之中繼資料的寫入器清單的一部分 (請參閱 [判斷寫入器狀態](determining-writer-status.md)) 。
+[**>Ivssbackupcomponents：： GatherWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwritermetadata)完成後，就不需要呼叫 [**>ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 。 無法處理呼叫所產生之 [*識別*](vssgloss-i.md) 事件的寫入器，將不會成為提供 [**>ivssbackupcomponents：： GetWriterMetadataCount**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadatacount) 和 [**>ivssbackupcomponents：： GetWriterMetadata**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-getwritermetadata) 所找到之中繼資料的寫入器清單的一部分 (請參閱 [判斷寫入器狀態](determining-writer-status.md)) 。
 
 ## <a name="writer-actions-during-backup-initialization"></a>備份初始化期間的寫入器動作
 

@@ -7,12 +7,12 @@ keywords:
 - OpenGL、片段參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 668ab732c2b9ea13c87a55637c46698d07b33270
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a445383f1540b5945e334507b710faa08d3f62ee2c9371394340eb395141e99d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618068"
 ---
 # <a name="fragments-reference"></a>片段參考
 
@@ -24,9 +24,9 @@ ms.locfileid: "106965181"
 -   [**glStencilFunc**](glstencilfunc.md)
 -   [**glStencilOp**](glstencilop.md)
 
- 
+ 
 
- 
+ 
 
 
 

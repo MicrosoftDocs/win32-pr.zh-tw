@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f965885d4a7a12e09c8875f71032ce2fded61bd2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a183079e954b3a0d8b07fc1d7daf039db8fcc840243a6ea421b2390ce02a3625
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118661680"
 ---
 # <a name="cbaseallocatorgetbuffer-method"></a>CBaseAllocator. GetBuffer 方法
 
@@ -89,7 +89,7 @@ HRESULT GetBuffer(
 
 
 
-| 傳回碼                                                                                           | Description                             |
+| 傳回碼                                                                                           | 描述                             |
 |-------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                  | 成功。<br/>                     |
 | <dl> <dt>**VFW \_ E \_ 未 \_ 認可**</dt> </dl> | 未認可配置器。<br/> |

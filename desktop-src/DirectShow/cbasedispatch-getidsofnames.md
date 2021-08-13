@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 3f3b718c95d588ffdc7fa63902e6b26ffbf11fd6
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a9153dd2412018321374f558539690d5d146d8547d6247874bf5c1c79f1d4d9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118660025"
 ---
 # <a name="cbasedispatchgetidsofnames-method"></a>CBaseDispatch. GetIDsOfNames 方法
 
@@ -87,7 +87,7 @@ HRESULT GetIDsOfNames(
 
 
 
-| 傳回碼                                                                                         | Description                                         |
+| 傳回碼                                                                                         | 描述                                         |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 成功。<br/>                                 |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl>       | 記憶體不足。<br/>                     |

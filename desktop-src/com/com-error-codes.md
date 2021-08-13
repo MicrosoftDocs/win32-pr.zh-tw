@@ -4,12 +4,12 @@ description: 下列主題提供以 COM 為基礎的 Api 所使用的錯誤碼清
 ms.assetid: 373671fe-489e-4f12-afe5-b7541f32441b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8317eb9ad5281f99ccd494c228b03d2d2142c5b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9743eb419c6af179d351ace4784d2cc251b12153da1edb7c3d0a743592eec150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118550600"
 ---
 # <a name="com-error-codes"></a>COM 錯誤碼
 
@@ -28,9 +28,9 @@ ms.locfileid: "104021942"
 
 如果您在安裝或執行的應用程式遇到困難，請洽詢客戶對顯示錯誤訊息之軟體的支援。 若要取得 Microsoft 產品的支援，請移至 [https://support.microsoft.com](https://support.microsoft.com) 。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 1931b365108bb7b3df4269ae6acbb78292a0401d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4278043511348f3df5f72886f0c96bf18a34158a61b31a4590f880c7a1c0f150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118647266"
 ---
 # <a name="cim_settingsdefinestate-class"></a>CIM \_ SettingsDefineState 類別
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f97e8917f453e7c2c2db99b8f894d557d7b7909f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 63b3dfa3ae42ead2088193c42b2eef86c05ebb82c04d4a07162fb26970c5d29c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118526142"
 ---
 # <a name="d3dxfloat16-extensions"></a>D3DXFLOAT16 延伸模組
 

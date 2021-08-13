@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475860(v=EXCHG.10)
 ms:contentKeyID: 37033566
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: fe3f5ebad9f0838d089beb83b20b818b7faa4001
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd72ecab62eeccb3ed7e586e2e793bdb9796f09a57686e70d9177eb496316760
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118254320"
 ---
 # <a name="jet_errcat"></a>JET_ERRCAT
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_errcat"></a>JET_ERRCAT
 
 **JET_ERRCAT** 的常數群組描述較高層級的分類或錯誤類別。 這個常數群組可讓應用程式定義錯誤分類的預設處理方式，而不是個別處理每個錯誤案例。 它也可確保應用程式不需要處理現有分類中包含的新錯誤條件。
 
-注意：本檔是以可延伸儲存引擎的初步發行版本為基礎。 此資訊可能隨時變更。
+注意：本檔是以可延伸儲存體引擎的初步發行版本為基礎。 此資訊可能隨時變更。
 
 **JET_ERRCAT** 的常數會排列在特定的條件和 subconditions 階層中，如下所示：
 
@@ -40,7 +40,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>常數/值</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 <th><p>復原</p></th>
 </tr>
 </thead>
@@ -128,7 +128,7 @@ _**適用于：** Windows |Windows Server_
 <tr class="odd">
 <td><p>JET_errcatObsolete 16</p></td>
 <td><p>表示來自舊版引擎的錯誤。 目前的引擎不應傳回這些錯誤。</p></td>
-<td><p>不明。</p></td>
+<td><p>未知。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_errcatMax 17</p></td>

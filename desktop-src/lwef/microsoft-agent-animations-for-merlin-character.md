@@ -4,16 +4,16 @@ description: 適用于 Merlin 字元的 Microsoft Agent 動畫
 ms.assetid: 4563a464-2c1a-4928-a471-e3f0fdfe85c0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5138dab8b3a4d411226cfe03b9341a73f301c037
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 797002897f0e3bdb7efb309de8b73a33df8bdf399279895be8daa2b47d8ec084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247471"
 ---
 # <a name="microsoft-agent-animations-for-merlin-character"></a>適用于 Merlin 字元的 Microsoft Agent 動畫
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [Microsoft Agent Merlin 字元](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5)是 Microsoft Corporation 的受版權保護工作。
 
@@ -27,77 +27,77 @@ Merlin 支援下表所列的動畫。 如需如何呼叫字元動畫的詳細資
 
 
 
-| 動畫                 | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | Description                                      |
+| 動畫                 | 返回動畫         | 支援說話 | 音效 | 指派至狀態                            | 描述                                      |
 |---------------------------|--------------------------|-------------------|---------------|----------------------------------------------|--------------------------------------------------|
-| **承認**           | 無                     | No                | **否**        | 無                                         | 節點 head                                        |
-| **警示**                 | 是，使用結束分支 | Yes               | **否**        | **聽**                                | Straightens 並引發眉毛                  |
+| **承認**           | 無                     | 否                | **否**        | 無                                         | 節點 head                                        |
+| **警示**                 | 是，使用結束分支 | 是               | **否**        | **聽**                                | Straightens 並引發眉毛                  |
 | **宣佈**              | 是，使用結束分支 | 是               | **是**       | 無                                         | 引發 trumpet 和播放                         |
-| **Blink**                 | 無                     | No                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 眨眼眼睛                                      |
+| **Blink**                 | 無                     | 否                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 眨眼眼睛                                      |
 | **困惑**              | 是，使用結束分支 | 是               | **是**       | 無                                         | 劃痕標頭                                   |
 | **祝賀**          | 是，使用結束分支 | 是               | **是**       | 無                                         | 顯示獎盃                                  |
 | **恭喜 \_ 2**       | 是，使用結束分支 | 是               | **是**       | 無                                         | 讚揚                                         |
-| **拒絕**               | 是，使用結束分支 | Yes               | **否**        | 無                                         | 引發實習和訪談標頭                     |
-| **DoMagic1**              | 無                     | Yes               | **否**        | 無                                         | 引發魔術棒                                |
+| **拒絕**               | 是，使用結束分支 | 是               | **否**        | 無                                         | 引發實習和訪談標頭                     |
+| **DoMagic1**              | 無                     | 是               | **否**        | 無                                         | 引發魔術棒                                |
 | **DoMagic2**              | 是，使用結束分支 | 否                | **是**       | 無                                         | 降低棒，雲端顯示                       |
-| **DontRecognize**         | 是，使用結束分支 | Yes               | **否**        | 無                                         | 將手交給 ear                                |
-| **說明**               | 是，使用結束分支 | Yes               | **否**        | 無                                         | 將 arm 延伸至側面                             |
-| **GestureDown**           | 是，使用結束分支 | Yes               | **否**        | **GesturingDown**                            | 手勢向下                                    |
-| **GestureLeft**           | 是，使用結束分支 | Yes               | **否**        | **GesturingLeft**                            | 左邊的手勢                                    |
-| **GestureRight**          | 是，使用結束分支 | Yes               | **否**        | **GesturingRight**                           | 手勢右邊                                   |
-| **GestureUp**             | 是，使用結束分支 | Yes               | **否**        | **GesturingUp**                              | 手勢                                      |
+| **DontRecognize**         | 是，使用結束分支 | 是               | **否**        | 無                                         | 將手交給 ear                                |
+| **說明**               | 是，使用結束分支 | 是               | **否**        | 無                                         | 將 arm 延伸至側面                             |
+| **GestureDown**           | 是，使用結束分支 | 是               | **否**        | **GesturingDown**                            | 手勢向下                                    |
+| **GestureLeft**           | 是，使用結束分支 | 是               | **否**        | **GesturingLeft**                            | 左邊的手勢                                    |
+| **GestureRight**          | 是，使用結束分支 | 是               | **否**        | **GesturingRight**                           | 手勢右邊                                   |
+| **GestureUp**             | 是，使用結束分支 | 是               | **否**        | **GesturingUp**                              | 手勢                                      |
 | **GetAttention**          | **GetAttentionReturn**   | 是               | **是**       | 無                                         | 向前和挖仰賴                         |
 | **GetAttentionContinued** | **GetAttentionReturn**   | 是               | **是**       | 無                                         | 向前 Leaning，然後再按一次                    |
-| **GetAttentionReturn**    | 無                     | No                | **否**        | 無                                         | 返回中性位置                      |
+| **GetAttentionReturn**    | 無                     | 否                | **否**        | 無                                         | 返回中性位置                      |
 | **問候**                 | 是，使用結束分支 | 是               | **是**       | 無                                         | 弓                                             |
-| **聽力 \_ 1**            | 無                     | No                | **否**        | **聽覺**                                  | 耳延伸 (\* 迴圈動畫)                 |
-| **聽力 \_ 2**            | 無                     | No                | **否**        | **聽覺**                                  | 將標頭左方 (\* 迴圈動畫)             |
-| **聽力 \_ 3**            | 無                     | No                | **否**        | **聽覺**                                  | 開啟 (\* 迴圈動畫) 的標頭            |
-| **聽力 \_ 4**            | 無                     | No                | **否**        | **聽覺**                                  | 將標頭 (\* 迴圈動畫)            |
+| **聽力 \_ 1**            | 無                     | 否                | **否**        | **聽覺**                                  | 耳延伸 (\* 迴圈動畫)                 |
+| **聽力 \_ 2**            | 無                     | 否                | **否**        | **聽覺**                                  | 將標頭左方 (\* 迴圈動畫)             |
+| **聽力 \_ 3**            | 無                     | 否                | **否**        | **聽覺**                                  | 開啟 (\* 迴圈動畫) 的標頭            |
+| **聽力 \_ 4**            | 無                     | 否                | **否**        | **聽覺**                                  | 將標頭 (\* 迴圈動畫)            |
 | [隱藏]                   | 無                     | 否                | **是**       | **隱藏**                                   | 在 cap 下消失                             |
-| **Idle1 \_ 1**              | 是，使用結束分支 | No                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 採用吸一口氣                                     |
-| **Idle1 \_ 2**              | 是，使用結束分支 | No                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向左和眨眼的概覽                          |
-| **Idle1 \_ 3**              | 是，使用結束分支 | No                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向右概覽                                    |
-| **Idle1 \_ 4**              | 是，使用結束分支 | No                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向右和閃爍               |
-| **Idle2 \_ 1**              | 無                     | No                | **否**        | **IdlingLevel2**                             | 查看杆並閃爍                         |
-| **Idle2 \_ 2**              | 無                     | No                | **否**        | **IdlingLevel2**                             | 保有手和閃爍                           |
+| **Idle1 \_ 1**              | 是，使用結束分支 | 否                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 採用吸一口氣                                     |
+| **Idle1 \_ 2**              | 是，使用結束分支 | 否                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向左和眨眼的概覽                          |
+| **Idle1 \_ 3**              | 是，使用結束分支 | 否                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向右概覽                                    |
+| **Idle1 \_ 4**              | 是，使用結束分支 | 否                | **否**        | **IdlingLevel1** **IdlingLevel2**<br/> | 向右和閃爍               |
+| **Idle2 \_ 1**              | 無                     | 否                | **否**        | **IdlingLevel2**                             | 查看杆並閃爍                         |
+| **Idle2 \_ 2**              | 無                     | 否                | **否**        | **IdlingLevel2**                             | 保有手和閃爍                           |
 | **Idle3 \_ 1**              | 無                     | 否                | **是**       | **IdlingLevel3**                             | 打哈欠                                            |
 | **Idle3 \_ 2**              | 是，使用結束分支 | 否                | **是**       | **IdlingLevel3**                             | 落在睡眠 (\* 迴圈動畫)                |
-| **LookDown**              | **LookDownReturn**       | No                | **否**        | 無                                         | 向下查看                                       |
-| **LookDownBlink**         | **LookDownReturn**       | No                | **否**        | 無                                         | 閃爍查看                              |
-| **LookDownReturn**        | 無                     | No                | **否**        | 無                                         | 返回中性位置                      |
-| **LookLeft**              | **LookLeftReturn**       | No                | **否**        | 無                                         | 向左查看                                       |
-| **LookLeftBlink**         | **LookLeftReturn**       | No                | **否**        | 無                                         | 靠左閃爍                              |
-| **LookLeftReturn**        | 無                     | No                | **否**        | 無                                         | 返回中性位置                      |
-| **LookRight**             | **LookRightReturn**      | No                | **否**        | 無                                         | 看起來正確                                      |
-| **LookRightBlink**        | **LookRightReturn**      | No                | **否**        | 無                                         | 靠右閃爍                             |
-| **LookRightReturn**       | 無                     | No                | **否**        | 無                                         | 返回中性位置                      |
-| **查找**                | **LookUpReturn**         | No                | **否**        | 無                                         | 查閱                                         |
-| **LookUpBlink**           | **LookUpReturn**         | No                | **否**        | 無                                         | 眨眼查閱                                |
-| **LookUpReturn**          | 無                     | No                | **否**        | 無                                         | 返回中性位置                      |
+| **LookDown**              | **LookDownReturn**       | 否                | **否**        | 無                                         | 向下查看                                       |
+| **LookDownBlink**         | **LookDownReturn**       | 否                | **否**        | 無                                         | 閃爍查看                              |
+| **LookDownReturn**        | 無                     | 否                | **否**        | 無                                         | 返回中性位置                      |
+| **LookLeft**              | **LookLeftReturn**       | 否                | **否**        | 無                                         | 向左查看                                       |
+| **LookLeftBlink**         | **LookLeftReturn**       | 否                | **否**        | 無                                         | 靠左閃爍                              |
+| **LookLeftReturn**        | 無                     | 否                | **否**        | 無                                         | 返回中性位置                      |
+| **LookRight**             | **LookRightReturn**      | 否                | **否**        | 無                                         | 看起來正確                                      |
+| **LookRightBlink**        | **LookRightReturn**      | 否                | **否**        | 無                                         | 靠右閃爍                             |
+| **LookRightReturn**       | 無                     | 否                | **否**        | 無                                         | 返回中性位置                      |
+| **查找**                | **LookUpReturn**         | 否                | **否**        | 無                                         | 查閱                                         |
+| **LookUpBlink**           | **LookUpReturn**         | 否                | **否**        | 無                                         | 眨眼查閱                                |
+| **LookUpReturn**          | 無                     | 否                | **否**        | 無                                         | 返回中性位置                      |
 | **MoveDown**              | 是，使用結束分支 | 否                | **是**       | **MovingDown**                               | 飛下                                       |
 | **MoveLeft**              | 是，使用結束分支 | 否                | **是**       | **MovingLeft**                               | 向左飛出                                       |
 | **MoveRight**             | 是，使用結束分支 | 否                | **是**       | **MovingRight**                              | 向右飛出                                      |
 | **上移**                | 是，使用結束分支 | 否                | **是**       | **MovingUp**                                 | 飛出                                         |
-| **高興**               | 是，使用結束分支 | Yes               | **否**        | 無                                         | 肯定和保存手合                  |
+| **高興**               | 是，使用結束分支 | 是               | **否**        | 無                                         | 肯定和保存手合                  |
 | **處理**               | 否                       | 否                | **是**       | 無                                         | Stirs caldron                                    |
 | **Processing**            | 是，使用結束分支 | 否                | **是**       | 無                                         | Stirs caldron (\* 迴圈動畫)               |
 | **讀取**                  | **ReadReturn**           | 是               | **是**       | 無                                         | 開啟書籍、讀取和查閱                   |
 | **ReadContinued**         | **ReadReturn**           | 是               | **是**       | 無                                         | 讀取和查閱                               |
 | **ReadReturn**            | 無                     | 否                | **是**       | 無                                         | 返回中性位置                      |
 | **讀取**               | 是，使用結束分支 | 否                | **是**       | 無                                         | 讀取 (\* 迴圈動畫)                       |
-| **RestPose**              | 無                     | Yes               | **否**        | **說**                                 | 中性位置                                 |
-| **傷心**                   | 是，使用結束分支 | Yes               | **否**        | 無                                         | 悲傷運算式                                   |
+| **RestPose**              | 無                     | 是               | **否**        | **說**                                 | 中性位置                                 |
+| **傷心**                   | 是，使用結束分支 | 是               | **否**        | 無                                         | 悲傷運算式                                   |
 | **搜尋**                | 否                       | 否                | **是**       | 無                                         | 查看 crystal 球                          |
 | **搜索**             | 是，使用結束分支 | 否                | **是**       | 無                                         | 查看 crystal 球 (\* 迴圈動畫)     |
 | **顯示**                  | 無                     | 否                | **是**       | **正在顯示**                                  | 出現超出上限                               |
-| **StartListening**        | 是，使用結束分支 | Yes               | **否**        | 無                                         | 把手交給 ear                                 |
-| **StopListening**         | 是，使用結束分支 | Yes               | **否**        | 無                                         | 將手放在整個耳                             |
+| **StartListening**        | 是，使用結束分支 | 是               | **否**        | 無                                         | 把手交給 ear                                 |
+| **StopListening**         | 是，使用結束分支 | 是               | **否**        | 無                                         | 將手放在整個耳                             |
 | **建議**               | 是，使用結束分支 | 是               | **是**       | 無                                         | 顯示燈泡                               |
 | **驚訝**             | 是，使用結束分支 | 是               | **是**       | 無                                         | 看起來很驚訝                                  |
-| **認為**                 | 是，使用結束分支 | Yes               | **否**        | 無                                         | 在下巴上尋找手                       |
+| **認為**                 | 是，使用結束分支 | 是               | **否**        | 無                                         | 在下巴上尋找手                       |
 | **思維**              | 否                       | 否                | **否**        | 無                                         | 以手下巴 (\* 迴圈動畫)  |
-| **不確定性**             | 是，使用結束分支 | Yes               | **否**        | 無                                         | 向前仰賴並引發置頂路徑連結                 |
-| **波**                  | 是，使用結束分支 | Yes               | **否**        | 無                                         | 波                                            |
+| **不確定性**             | 是，使用結束分支 | 是               | **否**        | 無                                         | 向前仰賴並引發置頂路徑連結                 |
+| **波**                  | 是，使用結束分支 | 是               | **否**        | 無                                         | 波                                            |
 | **寫入**                 | **WriteReturn**          | 是               | **是**       | 無                                         | 開啟書籍、寫入及查閱                  |
 | **WriteContinued**        | **WriteReturn**          | 是               | **是**       | 無                                         | 寫入和查閱                              |
 | **WriteReturn**           | 無                     | 否                | **是**       | 無                                         | 返回中性位置                      |

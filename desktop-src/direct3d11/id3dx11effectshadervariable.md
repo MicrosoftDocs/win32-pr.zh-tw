@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcbb011591f715b4bac57dfa34f640ea90278f6b
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 75db5950f485cb15701b4963b24f9a0478b716b8ab61ed6de0df9ce1f0f5cecc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408138"
 ---
 # <a name="id3dx11effectshadervariable-interface"></a>ID3DX11EffectShaderVariable 介面
 

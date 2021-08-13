@@ -4,12 +4,12 @@ description: 在非同步模式中，應用程式可以執行任何包含內容�
 ms.assetid: 4b8ade00-deb3-4d9f-9ceb-5ba3296c8c68
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a7e1d0cf84aa92691e1d926d771ea809d31a171
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2e494b79b28b9aaf005fc6b1790d0cf84b07ceade6606f03ce03198426ac33d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118562090"
 ---
 # <a name="asynchronous-operation"></a>非同步作業
 
@@ -62,7 +62,7 @@ ms.locfileid: "103682765"
 
 
 
- 
+ 
 
 另一個範例是網頁瀏覽器，例如 Microsoft Internet Explorer。 當瀏覽器下載頁面時，通常需要下載其他資源，例如影像和音效檔。 在非同步模式中，頁面和其相關聯的資源可以在可用時同時進行要求和下載，而不是一次要求和下載頁面和每一個資源。
 
@@ -103,13 +103,13 @@ ms.locfileid: "103682765"
 > [!Note]  
 > [**FtpCreateDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpcreatedirectorya)、 [**FtpRemoveDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpremovedirectorya)、 [**FtpSetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpsetcurrentdirectorya)、 [**FtpGetCurrentDirectory**](/windows/desktop/api/Wininet/nf-wininet-ftpgetcurrentdirectorya)、 [**FtpDeleteFile**](/windows/desktop/api/Wininet/nf-wininet-ftpdeletefilea)和 [**FtpRenameFile**](/windows/desktop/api/Wininet/nf-wininet-ftprenamefilea)函數會使用對 [**InternetConnect**](/windows/desktop/api/Wininet/nf-wininet-internetconnecta)函式的呼叫中所提供的內容值。
 
- 
+ 
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
- 
+ 
 
- 
+ 
 
- 
+ 

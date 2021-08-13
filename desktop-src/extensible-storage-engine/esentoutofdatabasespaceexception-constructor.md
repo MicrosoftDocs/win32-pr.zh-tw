@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3ba28e2c4340d01dfbbdec7a6965218dbe66d68f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62bd2440bf18691effe7e0706163e76469e213347d853a5170c6ea1dbb10bc18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118262300"
 ---
 # <a name="esentoutofdatabasespaceexception-constructor"></a>EsentOutOfDatabaseSpaceException 函式
 

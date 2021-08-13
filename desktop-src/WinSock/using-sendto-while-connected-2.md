@@ -4,12 +4,12 @@ ms.assetid: 984a059c-fa56-4463-a8a8-3a634db85fc6
 title: 連接時使用 Sendto
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f2b03a883a219a3fdb176b4e4f9a801f57dd5bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df18c137f538f2af2f1b8e8a363868c76270dc11bd387db40e1f1999507f6467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558812"
 ---
 # <a name="using-sendto-while-connected"></a>連接時使用 Sendto
 

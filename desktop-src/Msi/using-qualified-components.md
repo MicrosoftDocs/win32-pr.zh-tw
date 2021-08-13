@@ -4,12 +4,12 @@ ms.assetid: 45a05ab2-d951-415d-bdb8-cb0a73eb9967
 title: 使用限定元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d11233a91e8883d1a4151957d3e73d18ebdcff25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46c92d165bc06640efea4b8678eeaefa5eb04c36f1b47b6c965faeea00c66adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622944"
 ---
 # <a name="using-qualified-components"></a>使用限定元件
 
@@ -32,7 +32,7 @@ ms.locfileid: "104113241"
 
 
 
-| ComponentId                  | Qualifier | AppData             | 功能\_   | 元件\_    |
+| ComponentId                  | Qualifier | AppData             | 特徵\_   | 元件\_    |
 |------------------------------|-----------|---------------------|-------------|----------------|
 | {傳真範本類別 GUID} | 1033      | 美式英文範本 | FAXTemplate | FAXTemplateENU |
 |                              | 1041      | 日文範本   | FAXTemplate | FAXTemplateJPN |

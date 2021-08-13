@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0466af2552fbb108f31de94b3f970d6e7d5571b7
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a7a558a551972bb76558dcd60223d8ddc29783aeaa23e6dbe9263f34642c1c3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473328"
 ---
 # <a name="ivmdisplaythumbnail-property"></a>IVMDisplay：：縮圖屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取圖元的陣列，表示虛擬機器畫面的縮圖影像。
 
@@ -69,10 +69,10 @@ HRESULT get_Thumbnail(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
-| 產品<br/>                  | Windows Virtual PC<br/>                                                                 |
+| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | 標頭<br/>                   | <dl> <dt>VPCCOMInterfaces。h</dt> </dl> |
 | IID<br/>                      | IID \_ IVMDisplay 定義為960895e9-f743-4498-96aa-261f867e7fc5<br/>                 |
 

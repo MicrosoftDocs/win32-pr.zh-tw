@@ -4,12 +4,12 @@ description: 工具列是包含一或多個按鈕的控制項。
 ms.assetid: b5a00a81-8d23-4844-8b0a-776e7cceced8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f615da972f14bb88c4915504c089dd6b40d9aca
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 8f8ada6db00cdf9e1b3c2eceecabf40e9c69addd0c29a4fe54b54b5ae0e491e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387917"
 ---
 # <a name="about-toolbar-controls"></a>關於工具列控制項
 
@@ -63,7 +63,7 @@ Toolbar 控制項支援可讓工具列下的工作區顯示的透明外觀。 �
 
 ![兩個視窗的螢幕擷取畫面，其中包含不同樣式的工具列，但兩個工具列都是透明的](images/toolbartrans.jpg)
 
-下列螢幕擷取畫面顯示透明工具列，因為它可能會出現在 Windows Vista 中，並啟用視覺化樣式。 對話方塊的背景色彩已變更，使透明度更明顯。
+下列螢幕擷取畫面顯示透明的工具列，因為它可能會出現在 Windows Vista 中，並啟用視覺化樣式。 對話方塊的背景色彩已變更，使透明度更明顯。
 
 ![windows vista 中具有透明工具列之視窗的螢幕擷取畫面](images/tb-transparent.png)
 
@@ -94,7 +94,7 @@ Toolbar 控制項支援可讓工具列下的工作區顯示的透明外觀。 �
 
 每個映射都有以零為基底的索引。 新增至內部清單的第一個影像的索引為0，第二個影像的索引為1，依此類推。 [**TB \_ADDBITMAP**](tb-addbitmap.md) 會將影像新增至清單的結尾，並傳回它所新增之第一個新映射的索引。 若要將影像與按鈕建立關聯，您必須在將點陣圖新增至內部影像清單之後傳送 [**TB \_ ADDBUTTONS**](tb-addbuttons.md) 訊息，並指定映射的索引。
 
-Windows 假設所有工具列的點陣圖影像大小都相同。 您可以使用 [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex)來指定建立工具列時的大小。 如果您使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式來建立工具列，影像的大小會設定為預設維度 16 x 15 圖元。 您可以使用 [**TB 的 \_ SETBITMAPSIZE**](tb-setbitmapsize.md) 訊息來變更點陣圖影像的維度，但您必須先執行此動作，才能將任何影像新增至內部清單。
+Windows 假設工具列的所有點陣圖影像大小都相同。 您可以使用 [**CreateToolbarEx**](/windows/desktop/api/Commctrl/nf-commctrl-createtoolbarex)來指定建立工具列時的大小。 如果您使用 [**CreateWindowEx**](/windows/desktop/api/winuser/nf-winuser-createwindowexa) 函式來建立工具列，影像的大小會設定為預設維度 16 x 15 圖元。 您可以使用 [**TB 的 \_ SETBITMAPSIZE**](tb-setbitmapsize.md) 訊息來變更點陣圖影像的維度，但您必須先執行此動作，才能將任何影像新增至內部清單。
 
 ### <a name="defining-button-images-by-using-image-lists"></a>使用影像清單定義按鈕影像
 
@@ -106,7 +106,7 @@ Windows 假設所有工具列的點陣圖影像大小都相同。 您可以使�
 |----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 正常   | 處於預設狀態的按鈕。                                                                                                                                                              |
 | 經常性存取層      | 指標或按下的按鈕。 只有具有 [**TBSTYLE \_ 平面**](toolbar-control-and-button-styles.md) 樣式的工具列控制項才支援熱專案。 |
-| 停用 | 已停用的按鈕。                                                                                                                                                                   |
+| 已停用 | 已停用的按鈕。                                                                                                                                                                   |
 
 
 

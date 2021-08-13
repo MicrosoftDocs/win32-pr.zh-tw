@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 125b5fa2cab8bf3f9da12bd842a1a102beee3fb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c34ddd1607a59c0425f7ec789bedb4981a05983ead276a14308fbf6aaadf26de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118274862"
 ---
 # <a name="eaphostconfig-element"></a>EapHostConfig 元素
 
@@ -57,9 +57,9 @@ ms.locfileid: "104024518"
 
 
 
-| 元素                                                                    | 類型                                                                                     | Description                                                                                          |
+| 元素                                                                    | 類型                                                                                     | 描述                                                                                          |
 |----------------------------------------------------------------------------|------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [**配置**](eaphostconfigschema-config-eaphostconfig-element.md)         | [**BaseEapMethodConfig**](baseeapmethodconfigschema-baseeapmethodconfig-complextype.md) | 當方法設定為 XML 文字格式，而非二進位 BLOB 時，會使用。<br/>       |
+| [**Config**](eaphostconfigschema-config-eaphostconfig-element.md)         | [**BaseEapMethodConfig**](baseeapmethodconfigschema-baseeapmethodconfig-complextype.md) | 當方法設定為 XML 文字格式，而非二進位 BLOB 時，會使用。<br/>       |
 | [**ConfigBlob**](eaphostconfigschema-configblob-eaphostconfig-element.md) | hexBinary                                                                                | 當方法設定為二進位 BLOB 格式，而不是字串文字格式時，就會使用。<br/> |
 | [**EapMethod**](eaphostconfigschema-eapmethod-eaphostconfig-element.md)   | [**EapMethodType**](eapcommonschema-eapmethodtype-complextype.md)                       | 識別所參考的方法。 <br/>                                                 |
 
@@ -75,8 +75,8 @@ ms.locfileid: "104024518"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

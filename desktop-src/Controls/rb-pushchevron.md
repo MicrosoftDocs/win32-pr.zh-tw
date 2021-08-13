@@ -3,7 +3,7 @@ title: 'RB_PUSHCHEVRON 訊息 (Commctrl .h) '
 description: 傳送至 Rebar 控制項以程式設計方式推送燕形。
 ms.assetid: 00a8ce10-1fb2-488a-a6f9-1814f73f82bd
 keywords:
-- RB_PUSHCHEVRON message Windows 控制項
+- RB_PUSHCHEVRON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e09e558d5574d4fd28cf01e9794657556dda4ae8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2d095cd824970b7ea90541420274b204a1e2f63ce6e1218e62221741f572feb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119434968"
 ---
 # <a name="rb_pushchevron-message"></a>RB \_ PUSHCHEVRON 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104508907"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

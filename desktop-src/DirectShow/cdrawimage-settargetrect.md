@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 4513b6aeda16d19476769290a6139f91b2fd1f19
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9363112a2d843db4e816c5826e9869076ea5647975aa8f6fef1530dbdbabb041
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000774"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384138"
 ---
 # <a name="cdrawimagesettargetrect-method"></a>CDrawImage. SetTargetRect 方法
 

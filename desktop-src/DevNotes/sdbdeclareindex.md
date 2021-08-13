@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Apphelp.dll
-ms.openlocfilehash: 68004a29d01288a2e1d177b8a33df32b919e73ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b428699641d5a18bad8a1869f59ab1bb5402e7b667526070c3dc0575e435fc38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118666587"
 ---
 # <a name="sdbdeclareindex-function"></a>SdbDeclareIndex 函式
 
@@ -100,8 +100,8 @@ BOOL WINAPI SdbDeclareIndex(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | DLL<br/>                      | <dl> <dt>Apphelp.dll</dt> </dl> |
 
 

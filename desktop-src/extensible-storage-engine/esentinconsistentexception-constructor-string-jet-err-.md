@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 96d8b7a055d07ae120a23665004712772f67f215
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a36b6d3e5fdf8ea85e44ca663726da4964c09bb63055746cd0fee0f4f043e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118268060"
 ---
 # <a name="esentinconsistentexception-constructor-string-jet_err"></a>EsentInconsistentException (字串 JET_err) 的函式
 

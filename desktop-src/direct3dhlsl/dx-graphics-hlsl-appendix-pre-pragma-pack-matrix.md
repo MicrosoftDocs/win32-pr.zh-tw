@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4bb5474702a1caba3f772002c34677601715caff
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1c12129b6840197b21d1d259cc13bd07e75620176bdc797e6828c10d71e1c95d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514781"
 ---
 # <a name="pack_matrix-pragma-directive"></a>pack \_ 矩陣 pragma 指示詞
 
@@ -44,7 +44,7 @@ ms.locfileid: "104022473"
 </colgroup>
 <thead>
 <tr class="header">
-<th>項目</th>
+<th>Item</th>
 <th>描述</th>
 </tr>
 </thead>

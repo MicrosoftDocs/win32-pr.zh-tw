@@ -4,12 +4,12 @@ description: 用戶端應用程式會在 WinEventProc 回呼函數中接收 WinE
 ms.assetid: 7e999335-6a41-4d22-82ef-1a8dd6cb656e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b1f39a535b366af72b1034cc9344171d253ea0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c444d2ee291cb07386e775a649ba0c3d42486c45b70e4d3f4629b9b67274f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118564648"
 ---
 # <a name="registering-a-hook-function"></a>註冊攔截函式
 
@@ -26,9 +26,9 @@ ms.locfileid: "103839663"
 
 當產生的事件符合指定的準則時，系統會呼叫用戶端的 [*WinEventProc*](/windows/desktop/api/Winuser/nc-winuser-wineventproc) 回呼函數 (或「攔截程式」 ) 。 攔截函式接收的參數會告訴用戶端有關視窗、物件，以及產生事件的可能子項目。 用戶端會在物件抓取呼叫中使用這些參數，例如 [**AccessibleObjectFromEvent**](/windows/desktop/api/Oleacc/nf-oleacc-accessibleobjectfromevent)。
 
- 
+ 
 
- 
+ 
 
 
 

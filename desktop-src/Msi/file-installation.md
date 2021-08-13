@@ -4,12 +4,12 @@ ms.assetid: 2e6d6eb3-1e71-46e6-a946-d9cc0b209325
 title: 檔案安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 472c58db3dc2e9094a26d57f871359a38930877b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 005a987a7e61f646f58abd0ec699ce03bd29d85dfa2ddb01e8f693750acda740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118636696"
 ---
 # <a name="file-installation"></a>檔案安裝
 

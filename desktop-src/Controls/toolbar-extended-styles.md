@@ -17,12 +17,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 056e48753485364017f04f7b84e609b19473bf5a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 25929fdc2d59d5cbed130693e795b722d1b99d831a8ee3d1b6129fe9a1955b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119387808"
 ---
 # <a name="toolbar-extended-styles"></a>工具列擴充樣式
 

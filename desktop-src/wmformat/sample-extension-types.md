@@ -3,13 +3,13 @@ title: 範例擴充功能類型
 description: 範例擴充功能類型
 ms.assetid: 8de2e003-cb21-4be9-bcde-7f5909b6260a
 keywords:
-- Windows Media 格式 SDK，範例延伸模組
+- Windows媒體格式 SDK，範例延伸模組
 - Advanced Systems Format (ASF) 、範例延伸模組
 - ASF (Advanced Systems Format) ，範例延伸模組
-- Windows Media Format SDK，資料單位延伸模組
+- Windows媒體格式 SDK，資料單位延伸模組
 - Advanced Systems Format (ASF) 、資料單位延伸模組
 - ASF (Advanced Systems Format) 、資料單位延伸模組
-- Windows Media Format SDK，緩衝區屬性
+- Windows媒體格式 SDK，緩衝區屬性
 - Advanced Systems Format (ASF) ，buffer 屬性
 - ASF (Advanced Systems Format) ，buffer 屬性
 - 範例延伸模組，類型
@@ -17,16 +17,16 @@ keywords:
 - 緩衝區屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 972e3da1ecaad277158bb270cc358436f53db9e2
-ms.sourcegitcommit: c2a1c4314550ea9bd202d28adfcc7bfe6180932f
+ms.openlocfilehash: 94161486fee7a31419f2e7fb9af2ed7fc968f00e8b43b81c58254547ec2f74e0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2020
-ms.locfileid: "106996161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119345388"
 ---
 # <a name="sample-extension-types"></a>範例擴充功能類型
 
-範例延伸模組（也稱為資料單位延伸 () 或緩衝區屬性）是附加至 ASF 檔案之 data 區段中媒體範例的資料項目目。 Windows Media 格式 SDK 中定義了數種類型的範例延伸模組。 您也可以建立自己的延伸模組類型。
+範例延伸模組（也稱為資料單位延伸 () 或緩衝區屬性）是附加至 ASF 檔案之 data 區段中媒體範例的資料項目目。 Windows 媒體格式 SDK 中定義了數種類型的範例延伸模組。 您也可以建立自己的延伸模組類型。
 
 若要使用範例延伸模組，您必須在設定檔的串流設定資料中識別延伸模組類型。 呼叫 [**IWMStreamConfig2：： AddDataUnitExtension**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmstreamconfig2-adddataunitextension) 方法，將資料流程設定為接受擴充資料的範例。
 
@@ -44,7 +44,7 @@ ms.locfileid: "106996161"
 <thead>
 <tr class="header">
 <th>範例延伸模組 GUID</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -99,7 +99,7 @@ ms.locfileid: "106996161"
 </tr>
 <tr class="even">
 <td>WM_SampleExtensionGUID_SampleProtectionSalt</td>
-<td>資料會以範例加密。 此範例延伸模組類型用於從非 ASF 檔案格式匯入的內容，以及 Windows Media DRM 以外的版權保護設定。匯入受保護的內容時，每個範例都必須包含唯一的 salt。 此值通常是單純增加的計數器。<br/></td>
+<td>資料會以範例加密。 此範例延伸模組類型用於從非 ASF 檔案格式匯入的內容，以及 Windows 媒體 DRM 以外的版權保護設定。匯入受保護的內容時，每個範例都必須包含唯一的 salt。 此值通常是單純增加的計數器。<br/></td>
 </tr>
 </tbody>
 </table>

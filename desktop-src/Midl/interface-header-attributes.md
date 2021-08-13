@@ -6,12 +6,12 @@ keywords:
 - IDL MIDL、屬性、介面標頭
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3e5fc25a0e441b092749872a1b4d4735d483cae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a26dac473c95625162e6dbb689f54833a166b1c58ae478654c52fededf3dd529
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642984"
 ---
 # <a name="interface-header-attributes"></a>介面標頭屬性
 
@@ -19,10 +19,10 @@ ms.locfileid: "104021254"
 
 
 
-| 屬性                                   | 使用方式                                                                                                                                                                                                                                            |
+| 屬性                                   | 使用量                                                                                                                                                                                                                                            |
 |---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**非同步 \_ uuid**](async-uuid.md)           | 指示 MIDL 編譯器定義 COM 介面的同步和非同步版本。                                                                                                                                               |
-| [**uuid**](uuid.md)                        | 指定可區分特定介面與其他介面的128位值。 實際值可能代表 GUID、CLSID 或 IID。                                                                                                 |
+| [**Uuid**](uuid.md)                        | 指定可區分特定介面與其他介面的128位值。 實際值可能代表 GUID、CLSID 或 IID。                                                                                                 |
 | [**當地**](local.md)                      | 指示 MIDL 編譯器只產生標頭檔。 介面必須有 [**uuid**](uuid.md) 或 [**區域**](local.md) 屬性。                                                                                             |
 | [**ms 聯 \_ 集**](-ms-union.md)              | 控制 nonencapsulated 聯集的 NDR 對齊。 用於回溯相容性與以 MIDL 1.0 或2.0 為基礎的介面。                                                                                                                   |
 | [**物件**](object.md)                    | 將介面識別為 COM 介面，並指示 MIDL 編譯器產生 proxy/stub 程式碼，而不是 RPC 用戶端和伺服器 stub。                                                                                                    |
@@ -32,13 +32,13 @@ ms.locfileid: "104021254"
 
 
 
- 
+ 
 
 請參閱程式庫語句內所定義或參考之介面屬性的 [類型程式庫屬性](type-library-attributes.md) （例如 [**雙重**](dual.md) 和 [**oleautomation**](oleautomation.md)）。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 83012ed755ab876618147c013e99868927e16f1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9908933a65faad3908e60b2ce64b072b51b271dffd95bb159c6513c120f3e8b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987690"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358668"
 ---
 # <a name="jet_lgposcompareto-method"></a>JET_LGPOS CompareTo 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 82034950-78a7-4bab-b449-1b8ea7d90676
 title: 開發環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fefa29a518beaf21aa8b2457abf17d9581075f73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6d6c0de35fa84ec4ee01b3f25aaefec6ab3470fde83161f7aaf2157197bbf1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449211"
 ---
 # <a name="the-development-environment"></a>開發環境
 
@@ -33,31 +33,31 @@ HID 代表人類介面裝置，這是輸入裝置的標準。 不符合 HID 規�
 -   Windows 7
 -   Windows Vista
 -   Windows Server 2008
--   Windows XP Tablet PC Edition 2005
+-   WindowsXP Tablet PC Edition 2005
 -   Windows Server 2003
 -   Windows XP Professional
 
 您也會需要：
 
--   Visual Studio 第6版（含 Service Pack 5）、Visual Studio .NET 或 Visual Studio .NET 2005
+-   Visual Studio 第6版（含 Service Pack 5）或 Visual Studio .net 或 Visual Studio .net 2005
 -   建議使用 Microsoft Internet Explorer 6 或更高版本 () 
 
-### <a name="details-on-developing-on-non-tablet-pc-skus-of-windows"></a>在 Windows 的非 Tablet PC Sku 上進行開發的詳細資料
+### <a name="details-on-developing-on-non-tablet-pc-skus-of-windows"></a>Windows 的非 Tablet PC Sku 上進行開發的詳細資料
 
-Tablet PC 平臺元件可以安裝在 Windows XP Professional Service Pack 2 或 Windows Server 2003 上。 在這些作業系統上，您的應用程式可以使用 [**InkCollector**](inkcollector-class.md) 類別來收集筆墨，並且可以進行測試和調試。 不過，除非您同時安裝 Microsoft Windows XP Tablet PC Edition 2005 辨識器套件，否則無法使用任何辨識。 您可以從 MSDN 上的下載中心下載該套件。
+Tablet PC 平臺元件可以安裝在 Windows XP Professional Service Pack 2 或 Windows Server 2003。 在這些作業系統上，您的應用程式可以使用 [**InkCollector**](inkcollector-class.md) 類別來收集筆墨，並且可以進行測試和調試。 不過，除非您同時安裝 Microsoft Windows XP Tablet PC Edition 2005 辨識器套件，否則無法使用任何辨識。 您可以從 MSDN 上的下載中心下載該套件。
 
-將 Windows SDK 安裝到 Windows XP Professional 或 Windows Server 2003 系統之後，您將擁有建立筆跡應用程式所需的所有開發檔案 (例如 COM 開發人員) 的 msinkaut。 不過，在您安裝執行時間檔案之前，您將無法在該系統上執行或錯用應用程式。 比方說，如果是 COM 開發人員，就必須安裝並註冊 inkobj.dll。 由於您不是在具有這些平臺檔案的系統上，因此您必須從可轉散發合併模組（mstpcrt）安裝 Tablet PC 平臺元件，才能取得系統上的執行時間檔案。
+將 Windows SDK 安裝到 Windows XP Professional 或 Windows Server 2003 系統之後，您將擁有建立筆跡應用程式所需的所有開發檔案 (例如 msinkaut .com 開發人員) 。 不過，在您安裝執行時間檔案之前，您將無法在該系統上執行或錯用應用程式。 比方說，如果是 COM 開發人員，就必須安裝並註冊 inkobj.dll。 由於您不是在具有這些平臺檔案的系統上，因此您必須從可轉散發合併模組（mstpcrt）安裝 Tablet PC 平臺元件，才能取得系統上的執行時間檔案。
 
-將安裝在 Windows XP Professional 或 Windows 2000 系統上的平臺執行時間用於開發的最簡單方式，就是編譯行動電腦和 Tablet PC 範例所提供的範例安裝程式專案，然後將它部署到開發電腦上。
+將安裝在 Windows XP Professional 或 Windows 2000 系統上的平臺執行時間最簡單的方法，是編譯行動電腦和 Tablet PC 範例所提供的範例安裝程式專案，並將其部署至開發電腦。
 
 > [!Note]  
-> Windows Vista 和 Windows XP Tablet PC Edition 2005 已安裝平臺元件，因此不需要額外的步驟來執行和錯用 Tablet PC 應用程式。
+> WindowsVista 和 Windows XP Tablet pc Edition 2005 已安裝平臺元件，因此不需要額外的步驟來執行和錯用 Tablet PC 應用程式。
 
  
 
-[InkEdit](inkedit-control-reference.md)和[InkPicture](inkpicture-control-reference.md)控制項可以用來在 Windows 2000 （含 service Pack 4）或 Windows XP Professional service pack 2 上，透過安裝 tablet pc SDK 1.7 版來收集筆墨，但無法在未安裝 tablet pc 平臺元件的非 tablet pc 系統上收集筆跡。
+[InkEdit](inkedit-control-reference.md)和[InkPicture](inkpicture-control-reference.md)控制項可以用來 2000 Windows 在安裝 tablet pc SDK 1.7 版的 tablet pc 平臺元件時，透過 service pack 4 或 Windows XP Professional service pack 2 來收集筆墨，但無法在未安裝 tablet pc 平臺元件的非 tablet pc 系統上收集筆跡。
 
-Windows SDK 提供在 Windows 的非平板電腦 Sku 上開發 Tablet PC 應用程式所需的所有元件。 將下列 **DWORD** 登錄機碼設定為1，以便在 Windows 的非平板電腦 sku 上收集筆墨：
+Windows SDK 提供在 Windows 的非平板電腦上開發 Tablet PC 應用程式的所有必要元件。 將下列 **DWORD** 登錄機碼設定為1，以便在 Windows 的非平板電腦 sku 上收集筆跡：
 
 `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\TabletPC\Controls\EnableInkCollectionOnNonTablets`
 

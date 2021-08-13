@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0de364243e71c6653085b4c9c9ff81f148dc299d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c2c399efa33d542de14c0753f5812298de83024c8856ea00a1e1fda002cd33c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390096"
 ---
 # <a name="mediaimagesourceheight"></a>ImageSourceHeight
 

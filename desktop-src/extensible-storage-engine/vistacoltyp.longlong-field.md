@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: df5e4a7e31dd40b786fdc69bbedc047879c225ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75b0575a1416b02df279c17b1a2ad1800b912524f6dbebd60cf607ad3ef6d3aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471168"
 ---
 # <a name="vistacoltyplonglong-field"></a>VistaColtyp. LongLong 欄位
 

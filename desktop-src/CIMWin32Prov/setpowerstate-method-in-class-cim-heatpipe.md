@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 61944986d1800c238e91d9f8b418bd909f940477
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19b5a5a244c54485887cccd85c2fb242ebb742b2e77c8dd8d66adb6bb058decc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118675694"
 ---
 # <a name="setpowerstate-method-of-the-cim_heatpipe-class"></a>CIM HeatPipe 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定邏輯裝置所需電源狀態的 **ValueMap** 值。

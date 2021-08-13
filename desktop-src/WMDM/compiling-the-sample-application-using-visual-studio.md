@@ -3,21 +3,21 @@ title: 使用 Visual Studio 編譯範例應用程式
 description: 使用 Visual Studio 編譯範例應用程式
 ms.assetid: 78345cdb-5f0d-4ea8-9492-30386f5fa6ee
 keywords:
-- Windows Media 裝置管理員，範例
+- Windows媒體裝置管理員、範例
 - 裝置管理員，範例
 - 桌面應用程式、範例
-- Windows Media 裝置管理員，桌面應用程式範例
+- WindowsMedia 裝置管理員，桌面應用程式範例
 - 裝置管理員，桌面應用程式範例
 - 範例，桌面應用程式
 - 範例，使用 Visual Studio 編譯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf47f7a45ad17711145df810926fafb0f2aedcec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a8b32cd5931a88bc41b8eee7171b6ab4ab18b629a8108007d68094180efaa77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118586249"
 ---
 # <a name="compiling-the-sample-application-using-visual-studio"></a>使用 Visual Studio 編譯範例應用程式
 
@@ -34,9 +34,9 @@ Windows Media 裝置管理員 SDK 包含與 Microsoft Visual Studio 2005 相容�
 [**桌面應用程式範例**](sample-desktop-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

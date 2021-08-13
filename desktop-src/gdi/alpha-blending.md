@@ -1,17 +1,17 @@
 ---
 description: Alpha 混色用來顯示 Alpha 點陣圖，也就是具有透明或半透明圖元的點陣圖。
 ms.assetid: 52a044cc-a471-4951-adbe-32319b8e3129
-title: " (Windows GDI) 的 Alpha 混合"
+title: " (Windows GDI) 的 Alpha 混色"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4add2aca8ac4e2d7e1b24988eb5d40f80bac259c
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 4eb59f6b628236124305e4564803fa826c279bfdc2353725a62029b293cb1e90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470128"
 ---
-# <a name="alpha-blending-windows-gdi"></a> (Windows GDI) 的 Alpha 混合
+# <a name="alpha-blending-windows-gdi"></a> (Windows GDI) 的 Alpha 混色
 
 *Alpha 混色* 用來顯示 Alpha 點陣圖，也就是具有透明或半透明圖元的點陣圖。 除了紅色、綠色和藍色色頻外，Alpha 點陣圖中的每個圖元都有一個透明元件，稱為 *Alpha* 色板。 Alpha 色板通常會包含與色頻一樣多的位數。 例如，8位 Alpha 通道可以代表256的透明度層級，從 0 (整個點陣圖) 至 255 (整個點陣圖是不透明的) 。
 

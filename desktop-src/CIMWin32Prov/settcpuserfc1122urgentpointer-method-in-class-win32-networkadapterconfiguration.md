@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 928a809211288eb7f024c735ce033b819e5d49f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a67fbeed1cd7f5627ad1ab7471ace0e5af71ccb84d1119168e9c2298f450e2f7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110740"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439238"
 ---
 # <a name="settcpuserfc1122urgentpointer-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetTcpUseRFC1122UrgentPointer 方法 \_
 

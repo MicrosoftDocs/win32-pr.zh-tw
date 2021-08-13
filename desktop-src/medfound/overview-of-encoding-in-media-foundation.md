@@ -4,12 +4,12 @@ ms.assetid: 69dbef63-e272-4ad2-8d04-ae9366f79b33
 title: 媒體基礎中的編碼總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81882bd6da43f4040614347b662d988844c7b7a6
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: a663260d92aad4eb23902ec35721c252f15fbba64c3404ff97bfb60f0622c674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104559715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239739"
 ---
 # <a name="overview-of-encoding-in-media-foundation"></a>媒體基礎中的編碼總覽
 
@@ -79,7 +79,7 @@ ms.locfileid: "104559715"
 
 ![顯示媒體會話如何執行轉碼的圖表](images/encoding01.png)
 
-[轉碼 API](transcode-api.md) (藍色陰影方塊) 是一組在 Windows 7 中引進的 api，可讓您更輕鬆地設定媒體會話以進行編碼。
+[轉碼 API](transcode-api.md) (藍色陰影方塊) 是 Windows 7 中引進的一組 api，可讓您更輕鬆地設定媒體會話以進行編碼。
 
 下圖顯示來源讀取器和接收寫入器：
 

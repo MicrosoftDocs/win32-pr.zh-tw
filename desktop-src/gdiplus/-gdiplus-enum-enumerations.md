@@ -1,19 +1,19 @@
 ---
-title: GDI + 列舉
-description: Windows GDI + 會定義下列列舉：
+title: GDI+ 列舉
+description: Windows GDI+ 會定義下列列舉：
 ms.assetid: e37295d3-9bfe-4708-94b4-b45a8da894b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 383e92efd0ed1603373b354e7f610936462d9efb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f5b3432968e61457a0ac213979f14bf4013304b1740e1aa5cd7f9712e18b204
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118248835"
 ---
-# <a name="gdi-enumerations"></a>GDI + 列舉
+# <a name="gdi-enumerations"></a>GDI+ 列舉
 
-Windows GDI + 會定義下列列舉：
+Windows GDI+ 會定義下列列舉：
 
 -   [**BrushType**](/windows/desktop/api/Gdiplusenums/ne-gdiplusenums-brushtype)
 -   [**ColorAdjustType**](/windows/desktop/api/Gdipluscolormatrix/ne-gdipluscolormatrix-coloradjusttype)

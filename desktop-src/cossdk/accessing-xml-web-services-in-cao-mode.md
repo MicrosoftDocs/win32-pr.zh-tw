@@ -4,12 +4,12 @@ ms.assetid: 471de0fa-3429-45f8-abe2-aff0cf6fb350
 title: 以 CAO 模式存取 XML Web Service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50f1e15c18a925ba88f1b9c7c8267bfb2ef12292
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1e3f8dc1fa3c037d03d8b69cf45737c7211d92f7d38e733a97b9be109a2243a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118549454"
 ---
 # <a name="accessing-xml-web-services-in-cao-mode"></a>以 CAO 模式存取 XML Web Service
 
@@ -21,7 +21,7 @@ ms.locfileid: "106970722"
 
 ## <a name="visual-basic"></a>Visual Basic
 
-下列 Visual Basic 程式碼片段說明如何使用以 CAO 模式公開為 XML web service 的 COM + 應用程式的元件。
+下列 Visual Basic 程式碼片段說明如何使用以 CAO 模式公開為 XML web service 的 com + 應用程式的元件。
 
 
 ```VB

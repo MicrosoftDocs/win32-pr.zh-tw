@@ -4,12 +4,12 @@ ms.assetid: c4925a04-b590-4312-a5ca-7997523d3587
 title: 點陣圖來源的 how to 主題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de20c36692aa056b3a86d8489ae5ea02c3b4045f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39ad478d92176c5c17947dbba3e4bfbac14a52ba317f763c210a476832370435
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393578"
 ---
 # <a name="bitmap-sources-how-to-topics"></a>點陣圖來源的 how to 主題
 

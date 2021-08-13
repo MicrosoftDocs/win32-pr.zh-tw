@@ -4,12 +4,12 @@ ms.assetid: b122d6f4-2be6-4b9b-b8e0-ca08fe9c4f94
 title: DisableLUAPatching
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b76357211523d0a69a56ab2a047623a63f211df9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5821eb480ac09a2fc0416d7b3a54c0df5699a7096b45e56a843afe691886296f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637775"
 ---
 # <a name="disableluapatching"></a>DisableLUAPatching
 
@@ -21,7 +21,7 @@ ms.locfileid: "106992204"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

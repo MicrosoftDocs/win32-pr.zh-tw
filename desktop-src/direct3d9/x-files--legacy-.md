@@ -4,12 +4,12 @@ ms.assetid: 06b3dcb3-03fc-4d99-b8c3-32f56d8bf49e
 title: 'X 檔案 (舊版)  (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e0e4ce85a0ff5ecbc2f680f55b8162d13bc1042
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7134decc9dc9de9b5610089a88a2c88b8b2fc58d238cd55c4e34db6ef594ed0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518725"
 ---
 # <a name="x-files-legacy-direct3d-9"></a>X 檔案 (舊版)  (Direct3D 9) 
 

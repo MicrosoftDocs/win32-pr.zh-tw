@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 59ebed57297a294c4e1e181594d0576b5714df9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb8e8fc0f635edd0f0345bfac106156fb7771e4747a447a44e8e246587474e25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119479245"
 ---
 # <a name="esentmissingpatchpageexception-class"></a>EsentMissingPatchPageException 類別
 

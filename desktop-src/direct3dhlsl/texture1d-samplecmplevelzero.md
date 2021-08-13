@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: c19322c33bb9740f9eccd1508552f11e8fe81b8d
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 6a8ac0971c501adbf91b393d009a2b97f377708a671b78f5bd77c7366fd53316
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104971493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119367038"
 ---
 # <a name="texture1dsamplecmplevelzero-methods"></a>Texture1D：： SampleCmpLevelZero 方法
 

@@ -4,12 +4,12 @@ ms.assetid: a28e77dd-72c9-42a3-a72d-1b3eaf59d9cf
 title: MakeCert
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461c15db364066d9edadb6a0c4d2c24dceab5cc9
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: acd9f15f942fb6dd7c4c831cb33552b6f59ec2cd6cf9cac9654386d6adc27649
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425738"
 ---
 # <a name="makecert"></a>MakeCert
 
@@ -48,7 +48,7 @@ MakeCert 的選項也可以分為三個功能群組：
 <thead>
 <tr class="header">
 <th>基本選項</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -166,7 +166,7 @@ MakeCert 的選項也可以分為三個功能群組：
 
  
 
-下列選項僅適用于 (SPC) 檔和私密金鑰技術的 [*軟體發行者憑證*](../secgloss/s-gly.md) 。
+下列選項僅適用于 [*軟體 Publisher 憑證*](../secgloss/s-gly.md) (SPC) 檔案和私密金鑰技術。
 
 
 
@@ -178,7 +178,7 @@ MakeCert 的選項也可以分為三個功能群組：
 <thead>
 <tr class="header">
 <th>SPC 和私用金鑰選項</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -228,7 +228,7 @@ MakeCert 的選項也可以分為三個功能群組：
 
 
 
-| 憑證存放區選項          | Description                                                                                                                                                                                                                                                                                                                              |
+| 憑證存放區選項          | 描述                                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **-ic** *IssuerCertFile*          | 包含簽發者憑證的檔案。 MakeCert 會在憑證存放區中搜尋完全相符的憑證。                                                                                                                                                                                                        |
 | **-in** *IssuerNameString*        | 簽發者憑證的一般名稱。 MakeCert 會在憑證存放區中搜尋一般名稱包含 *IssuerNameString* 的憑證。                                                                                                                                                                                  |

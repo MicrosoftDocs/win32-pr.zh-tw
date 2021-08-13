@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a59956e68b5b656e7182e62969b3212c2ef6732c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d8d05b496eaa0d6f1520f22efeed8a39af5eb8e4c338457e18c65a7913489472
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965090"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118542286"
 ---
 # <a name="ibackgroundcopymanagergetjob-method"></a>IBackgroundCopyManager：： GetJob 方法
 
@@ -47,7 +47,7 @@ HRESULT GetJob(
 *JobID* \[在\]
 </dt> <dd>
 
-識別要從傳送佇列中取出的作業。 [**>batchclient.joboperations.createjob**](ibackgroundcopymanager-createjob.md)方法會傳回作業識別碼。
+識別要從傳送佇列中取出的作業。 [**>Batchclient.joboperations.createjob**](ibackgroundcopymanager-createjob.md)方法會傳回作業識別碼。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ HRESULT GetJob(
 
 
 
-| 傳回碼                                                                                      | Description                                                        |
+| 傳回碼                                                                                      | 描述                                                        |
 |--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl>         | 已成功從傳送佇列中取出作業。<br/> |
 | <dl> <dt>**DO_E_NOT_FOUND**</dt> </dl> | 在佇列中找不到作業。<br/>                     |
@@ -81,8 +81,8 @@ HRESULT GetJob(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |

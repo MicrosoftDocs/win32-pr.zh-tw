@@ -3,30 +3,30 @@ title: 探索檔案的格式
 description: 探索檔案的格式
 ms.assetid: f1b3f811-8161-41ca-a92c-2735c0bec2e8
 keywords:
-- Windows Media 裝置管理員，檔案格式
+- Windows媒體裝置管理員，檔案格式
 - 裝置管理員，檔案格式
 - 程式設計指南，檔案格式
 - 桌面應用程式，檔案格式
-- 建立 Windows Media 裝置管理員應用程式，檔案格式
+- 建立 Windows 媒體裝置管理員應用程式、檔案格式
 - 將檔案寫入裝置、檔案格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b06c963b01e3b681fd078d8685e1c788c73352e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 83706a3026968a694d3629551d310db9021b7f8c8118f3d98621751a95af26b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118585327"
 ---
 # <a name="discovering-a-files-format"></a>探索檔案的格式
 
 將檔案傳送至裝置之前，應用程式應判斷裝置是否支援該檔案格式。
 
-探索檔案的格式可能很複雜。 最簡單的方式是建立對應至特定 WMDM \_ FORMATCODE 列舉值的副檔名清單。 不過，這個系統有幾個問題：一個是單一格式可以有多個副檔名 (例如 .jpg、jpe 和 jpeg 影像) 。 此外，不同的程式可以使用相同的副檔名來進行不同的格式。
+探索檔案的格式可能很複雜。 最簡單的方式是建立對應至特定 WMDM \_ FORMATCODE 列舉值的副檔名清單。 不過，這個系統有幾個問題：一個是單一格式可以有多個延伸模組 (例如 .jpg、jpe 和 jpeg 影像) 。 此外，不同的程式可以使用相同的副檔名來進行不同的格式。
 
-若要克服嚴格對應的限制，應用程式最好驗證格式是否符合延伸模組。 DirectShow SDK 提供的工具可讓應用程式探索大部分媒體檔案類型的一組有限詳細資料。 Windows Media Format SDK 會公開大量的詳細資料，但只會顯示最多 ASF 檔。 由於所有檔案類型的格式程式碼都應該盡可能驗證，因此最好使用 DirectShow 來探索或驗證基本的格式程式碼，然後使用 Windows Media Format SDK 來探索任何其他有關 ASF 檔案的中繼資料。 DirectShow 也可以用來探索非 ASF 檔案的基本中繼資料。
+若要克服嚴格對應的限制，應用程式最好驗證格式是否符合延伸模組。 DirectShow SDK 所提供的工具，可讓應用程式探索大部分媒體檔案類型的一組有限詳細資料。 Windows 媒體格式 SDK 會公開大量的詳細資料，但只會顯示最多 ASF 檔。 因為所有檔案類型應該盡可能驗證其格式程式碼，所以最好使用 DirectShow 來探索或驗證基本格式程式碼，然後使用 Windows 媒體格式 SDK 來探索任何其他有關 ASF 檔案的中繼資料。 DirectShow 也可以用來探索非 ASF 檔案的基本中繼資料。
 
-以下是使用延伸模組對應和 DirectShow 探索檔案格式的一種方式。
+以下是使用延伸模組對應和 DirectShow 探索檔案格式的其中一種方式。
 
 首先，將副檔名與已知的副檔名清單進行比較。 務必讓您的比較不區分大小寫。 如果延伸模組未對應，請將格式設定為 WMDM \_ FORMATCODE \_ UNDEFINED。
 
@@ -184,9 +184,9 @@ WMDM_FORMATCODE CWMDMController::myGetWMDM_FORMATCODE(LPCWSTR pFileName)
 [**將檔案寫入至裝置**](writing-files-to-the-device.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

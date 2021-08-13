@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d32a8fdfe61e02e6ffe3a8dd2f115e57f338aec6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 02716e784b8bcc4a0bfbe7c00d2a6a9c5b836d869399187b1128118a5ea2228a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439208"
 ---
 # <a name="cim_bootservice-class"></a>CIM \_ BootService 類別
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 1b73c495a1af1dec9114e5a59274e457c1d09694
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 21927605b2ac303ec0f568e0648a1f16b04be1c5aa1e7ab44d93f04efae55f6b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119372538"
 ---
 # <a name="usersinrole-collection"></a>UsersInRole 集合
 
@@ -47,7 +47,7 @@ ms.locfileid: "108105536"
 
 -   [使用者](#usersinrole-collection)
 
-### <a name="user"></a>User
+### <a name="user"></a>使用者
 
 
 

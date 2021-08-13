@@ -4,12 +4,12 @@ ms.assetid: 1DD236D9-775B-4417-BC49-BF52A6B3C8AD
 title: 何時及如何使用 h.264/AVC Remux MFT 和數量的接收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 132c582fa16eae56c4fec8809caa4bd501469e16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6ce5b6d63a21e7a9d6b75acd29690cdeaeba5b0105dcf8d45fe0c93e6b768f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119357948"
 ---
 # <a name="when-and-how-to-use-h264avc-remux-mft-and-mp4-sink"></a>何時及如何使用 h.264/AVC Remux MFT 和數量的接收
 

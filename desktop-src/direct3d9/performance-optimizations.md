@@ -4,18 +4,18 @@ ms.assetid: 074f848e-4a42-48a2-adf7-4026b8967413
 title: " (Direct3D 9) 的效能優化"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d42be994522f0d83e36387b1a5866b3eee10df3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3e22ff22e3cde3673a1fc5ccd1da1bdccd95c6a094d670f59742178b28954773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520425"
 ---
 # <a name="performance-optimizations-direct3d-9"></a> (Direct3D 9) 的效能優化
 
 建立使用3D 圖形之即時應用程式的每位開發人員都關心效能優化。 本節提供從程式碼取得最佳效能的指導方針。
 
--   [一般效能秘訣](#general-performance-tips)
+-   [一般效能提示](#general-performance-tips)
 -   [資料庫和剔除](#databases-and-culling)
 -   [批次處理基本專案](#batching-primitives)
 -   [光源提示](#lighting-tips)
@@ -26,7 +26,7 @@ ms.locfileid: "104467434"
 -   [使用網格](#using-meshes)
 -   [Z 緩衝區效能](#z-buffer-performance)
 
-## <a name="general-performance-tips"></a>一般效能秘訣
+## <a name="general-performance-tips"></a>一般效能提示
 
 -   只有在您必須時才清除。
 -   將狀態變更降至最低，並將剩餘的狀態變更為群組。
@@ -229,7 +229,7 @@ D3DX 網格物件可以有標記有 DWORD 的每個三角形（或臉部），�
 
 <dl> <dt>
 
-[程式設計秘訣](programming-tips.md)
+[程式設計提示](programming-tips.md)
 </dt> </dl>
 
  

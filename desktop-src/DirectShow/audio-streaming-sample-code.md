@@ -4,17 +4,17 @@ ms.assetid: f3ba32c5-c3de-4f6b-bc89-f7860ca5f65b
 title: 音訊串流範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ba09e4d0305fa2eca92755422a76fd06130c51c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5fdd93279c92813db61c44b4f7d45b478ea89bc188415fb0b5966a1d6e550cf7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384898"
 ---
 # <a name="audio-streaming-sample-code"></a>音訊串流範例程式碼
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

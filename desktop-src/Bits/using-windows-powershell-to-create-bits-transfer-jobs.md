@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af4879d1fc8f1b25fa0b1b51816432aad3bed8bd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e939342414d62e4e1af0551318dfec0fb9a5ca59a7e310f13de7b6b67b0440cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679890"
 ---
 # <a name="using-windows-powershell-to-create-bits-transfer-jobs"></a>使用 Windows PowerShell 建立 BITS 傳送工作
 
@@ -53,7 +53,7 @@ Start-BitsTransfer -Source https://Server01/serverdir/testfile1.txt `
 
 在上述範例中，檔案的本機和遠端名稱會分別在 *來源* 和 *目的地* 參數中指定。 當檔案傳送完成或進入錯誤狀態時，命令提示字元就會出現。
 
-預設的傳輸類型為 [下載]。 當您將檔案上傳到 HTTP 位置時， *TransferType* 參數必須設定為 [上傳]。
+預設的傳輸類型為 [下載]。 當您將檔案上傳到 HTTP 位置時， *TransferType* 參數必須設定為 Upload。
 
 因為 [BitsTransfer](/previous-versions//dd347701(v=technet.10)) Cmdlet 會強制執行參數位置，所以不需要為來源和目的地參數指定參數名稱。 因此，可以簡化此命令，如下所示。
 
@@ -147,13 +147,13 @@ Switch($Job.JobState)
 
 ## <a name="to-manage-powershell-remote-sessions"></a>管理 PowerShell 遠端會話
 
-從 Windows 10 （1607版）開始，您可以執行 PowerShell Cmdlet、BITSAdmin 或其他應用程式，這些應用程式會使用連線到另一部電腦 (實體或虛擬) 的 PowerShell 遠端命令列中的 BITS [介面](bits-interfaces.md) 。 使用 PowerShell Direct 命令列將 [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) 命令列使用於相同實體電腦上的虛擬機器時，無法使用此功能。使用 WinRM Cmdlet 時，無法使用此功能。
+從 Windows 10 （1607版）開始，您可以執行 powershell Cmdlet、BITSAdmin 或其他應用程式，這些應用程式會使用連線到另一部電腦 (實體或虛擬) 的 powershell 遠端命令列中的 BITS[介面](bits-interfaces.md)。 使用 PowerShell Direct 命令列將 [PowerShell Direct](/virtualization/hyper-v-on-windows/user_guide/vmsession) 命令列使用於相同實體電腦上的虛擬機器時，無法使用此功能。使用 WinRM Cmdlet 時，無法使用此功能。
 
 從遠端 PowerShell 會話建立的 BITS 作業會在該會話的使用者帳戶內容下執行，而且只會在至少有一個作用中的本機登入會話或與該使用者帳戶相關聯的遠端 PowerShell 會話時才會進行。 您可以使用 PowerShell 的持續性 Pssession 來執行遠端命令，而不需要為每個作業保持開啟 PowerShell 視窗以繼續進行進度，如 [PowerShell 基本概念：遠端系統管理](https://techgenix.com/remote-management-powershell-part1/)中所述。
 
 -   [新的-PSSession](/powershell/module/microsoft.powershell.core/new-pssession?view=powershell-7&preserve-view=true) 會建立持續性遠端 PowerShell 會話。 一旦建立之後，PSSession 物件會保存在遠端電腦中，直到明確刪除為止。 即使在用戶端與會話中斷連線之後，在使用中的會話中起始的任何 BITS 工作也會進行資料傳輸。
 -   [中斷連線-PSSession](/powershell/module/microsoft.powershell.core/disconnect-pssession?view=powershell-7&preserve-view=true) 會中斷用戶端電腦與遠端 PowerShell 會話的連線，而會話的狀態會繼續由遠端電腦維護。 最重要的是，遠端會話的進程會繼續執行，而 BITS 作業會繼續進行。 用戶端電腦甚至可以在呼叫中斷連線-PSSession 之後重新開機及/或關閉。
--   [Connect-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true) 將用戶端電腦重新連接到作用中的遠端 PowerShell 會話。
+-   [連線-PSSession](/powershell/module/microsoft.powershell.core/connect-pssession?view=powershell-7&preserve-view=true)將用戶端電腦重新連線到作用中的遠端 PowerShell 會話。
 -   [移除-PSSession](/powershell/module/microsoft.powershell.core/remove-pssession?view=powershell-7&preserve-view=true) 眼淚遠端 PowerShell 會話。
 
 下列範例示範如何使用 PowerShell Remote 來處理非同步 BITS 傳送工作，讓作業可以繼續進行，即使您未主動連線到遠端會話也一樣。

@@ -4,12 +4,12 @@ ms.assetid: a6cc7308-a9fa-4a84-9e7c-4d0adda28db5
 title: BETest 工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7559c304532b337214108435b740595897694f7c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5f37e8bfc224061a8205bf0759cbba4798b0d53227e4f12d89b1e9ddf629d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471148"
 ---
 # <a name="betest-tool"></a>BETest 工具
 
@@ -20,11 +20,11 @@ BETest 是可測試 advanced backup 和 restore 作業的 VSS 要求者。 此�
 -   向前復原選項
 
 > [!Note]  
-> BETest 隨附于適用于 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 。 VSS 7.2 SDK 包含的 BETest 版本只會在 Windows Server 2003 上執行。 本主題說明 BETest 的 Windows SDK 版本，而不是 VSS 7.2 SDK 中包含的 Windows Server 2003 版本。 如需下載 Windows SDK 和 VSS 7.2 SDK 的詳細資訊，請參閱 [磁碟區陰影複製服務](volume-shadow-copy-service-portal.md)。
+> BETest 隨附于適用于 Windows Vista 和更新版本的 Microsoft Windows 軟體開發套件 (SDK) 。 VSS 7.2 SDK 包含只能在 Windows Server 2003 上執行的 BETest 版本。 本主題說明 Windows SDK 版本的 BETest，而不是 VSS 7.2 SDK 隨附的 Windows Server 2003 版本。 如需下載 Windows SDK 和 VSS 7.2 SDK 的詳細資訊，請參閱[磁碟區陰影複製服務](volume-shadow-copy-service-portal.md)。
 
  
 
-在 Windows SDK 安裝中，您可以在 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` 64 位 windows) 的 (和 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 32 位 windows) 的 (中找到 BETest 工具。
+在 Windows SDK 安裝中，您可以 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` (在64位 Windows) 和 (32 位 Windows) 中找到 BETest 工具 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 。
 
 ## <a name="running-the-betest-tool"></a>執行 BETest 工具
 
@@ -146,7 +146,7 @@ BETest 工具會使用下列命令列選項來識別要執行的工作。
 
 如果在 **/t** 命令列選項中指定的備份類型是 [增量] 或 [差異]，請將備份檔案設定為 [ *檔案名* ] 所指定的檔案，以用於先前的完整或增量備份。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援此命令列選項。
+**Windows Server 2003 和 Windows XP：** 不支援此命令列選項。
 
 </dd> <dt>
 

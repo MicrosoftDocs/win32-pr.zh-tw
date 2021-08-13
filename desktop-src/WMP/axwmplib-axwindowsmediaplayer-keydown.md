@@ -14,12 +14,12 @@ api_type:
 - Assembly
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc89814063e1a43badd22e658b5f19ece7abb074
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 054736007219021dbc0a4c1c968f61e1bbdb285fa416aae5f3c92c3880fb55de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984821"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119469718"
 ---
 # <a name="keydown-event-of-the-axwindowsmediaplayer-object"></a>AxWindowsMediaPlayer 物件的 KeyDown 事件
 
@@ -109,8 +109,8 @@ Private Sub player_KeyDownEvent(
 
 | Key         | 值 |
 |-------------|-------|
-| Insert      | 45    |
-| 刪除      | 46    |
+| INSERT      | 45    |
+| DELETE      | 46    |
 | HOME        | 36    |
 | END         | 35    |
 | PAGE UP     | 33    |

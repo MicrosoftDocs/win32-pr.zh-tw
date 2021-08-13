@@ -4,12 +4,12 @@ ms.assetid: 6b1917a8-8685-40c3-983d-6bd2fed95642
 title: '狀態欄塊儲存和還原狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c8f19d6409e0dc9c40f1d4c7711440a0dc09fe2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c9a56ed6490b0d81b7e643ef892e6a760f00b841531bd21dc69a4069f07b9aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103935618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118291725"
 ---
 # <a name="state-blocks-save-and-restore-state-direct3d-9"></a>狀態欄塊儲存和還原狀態 (Direct3D 9) 
 

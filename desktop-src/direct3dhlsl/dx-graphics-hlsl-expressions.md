@@ -9,18 +9,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6149968cff0d38f6bff47d61c7e3b9c569bbe3cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe93b62b27a0c33cf669f9b815b047996b861248ac107baf4868992a3fa70687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514715"
 ---
 # <a name="expressions"></a>運算式
 
 運算式是由[運算子](dx-graphics-hlsl-statement-blocks.md)引起哈欠的[變數](dx-graphics-hlsl-variable-syntax.md)和常值序列。 常值是明確的資料值，例如1代表整數或2.1 （浮點數）。 常值通常用來將值指派給變數。
 
-運算式後面接著分號 (; ) 稱為語句。 語句的複雜度範圍從簡單的運算式到完成一連串動作的語句區塊。 流程式控制制語句會決定是否執行 order 語句。
+運算式後面接著分號 (; ) 稱為語句。 語句的複雜度範圍從簡單的運算式到完成一連串動作的語句區塊。 Flow 控制語句會決定是否執行 order 語句。
 
 語句區塊也會指出子範圍。 語句區塊內宣告的變數只能在區塊內辨識。 HLSL 語句決定運算式的評估順序。 每個運算式可以是下列其中一項。
 
@@ -36,9 +36,9 @@ ms.locfileid: "104183328"
 [ (DirectX HLSL) 的語句 ](dx-graphics-hlsl-statements.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

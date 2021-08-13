@@ -3,15 +3,15 @@ title: 建立用戶端應用程式
 description: 如何使用 Windows 生物特徵辨識架構 API 來建立用戶端應用程式。
 ms.assetid: 7bef37ee-7685-4aaa-8dad-3c5a9c335eca
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API、用戶端應用程式
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API、用戶端應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98c2b25df11897a4e5f164c079dc2cd31faa4e77
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a920cafac56367a0994bf15af7d72e84791bc2454d8dc8d9b83b8bcd860c30a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119411268"
 ---
 # <a name="create-client-applications"></a>建立用戶端應用程式
 
@@ -1054,7 +1054,7 @@ e_Exit:
 
 ## <a name="manage-credentials"></a>管理認證
 
-認證提供者和認證管理員是 Windows 生物特徵辨識架構中的元件。 此提供者會從安全存放區抓取使用者認證，並回應登入、解除鎖定、密碼變更和 UAC 提高許可權要求。 它也會在快速使用者切換期間回應，以將新的使用者登入。 管理員會將登入認證對應到生物識別身分識別，並安全地儲存認證。 對應通常是在生物識別註冊期間由協力廠商註冊應用程式所建立，但如果已註冊的使用者嘗試驗證 biometrically 但未註冊，或認證與安全存放區中的認證不符，則也可以在登入期間由 Windows 生物識別認證提供者建立。
+認證提供者和認證管理員是 Windows 生物特徵辨識架構中的元件。 此提供者會從安全存放區抓取使用者認證，並回應登入、解除鎖定、密碼變更和 UAC 提高許可權要求。 它也會在快速使用者切換期間回應，以將新的使用者登入。 管理員會將登入認證對應到生物識別身分識別，並安全地儲存認證。 對應通常是在生物識別註冊期間由協力廠商註冊應用程式所建立，但如果已註冊的使用者嘗試驗證 biometrically，但未註冊，或認證不符合安全存放區中的認證，則也可以在登入期間由 Windows 生物識別認證提供者建立。
 
 ### <a name="credential-manager-api-guidelines"></a>認證管理員 API 指導方針
 
@@ -1496,9 +1496,9 @@ e_Exit:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

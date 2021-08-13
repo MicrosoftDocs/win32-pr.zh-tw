@@ -4,12 +4,12 @@ ms.assetid: 0b1a6daa-55e1-4a74-be01-e39473e3c0cc
 title: 磁碟分割和 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b08e7b70c4b474e7b7bd949f530fb73973d39c6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 144dde53c6247dcf09dbf9540ce535afb12725822b8e9895f7eb33b569135089
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119462138"
 ---
 # <a name="partitions-and-active-directory"></a>磁碟分割和 Active Directory
 

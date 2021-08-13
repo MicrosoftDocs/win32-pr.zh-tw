@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6cbf1cbb622610a01a533195752b3532b25f8959
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c50330f44fe481398ca9c831c349d3b99a33f735b13be7cc5843c566b8897a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676739"
 ---
 # <a name="copyex-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 CopyEx 方法 \_
 
@@ -131,7 +131,7 @@ uint32 CopyEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

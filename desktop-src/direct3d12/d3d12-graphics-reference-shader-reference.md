@@ -5,12 +5,12 @@ ms.assetid: d2e414bd-02ed-4f55-90ad-d17c322ec728
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5ca16937839cb5d321fd7f5f2eecf4e774433e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6ac4a3897d271882d02910bfddd263e8b1d4e5286a3ef0c99964060d4af7e506
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106968734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530616"
 ---
 # <a name="shader-reference-direct3d-12-graphics"></a> (Direct3D 12 圖形) 的著色器參考
 

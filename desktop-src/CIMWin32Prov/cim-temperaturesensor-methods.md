@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_TemperatureSensor 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 517b6a7c8b1c370ca8044e010e21d4ba128cb91c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19efde5f9171c5d3d97f95252b8f3d0ec88792d7389112c0e5263681c9ccfa51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677412"
 ---
 # <a name="cim_temperaturesensor-methods"></a>CIM \_ 溫度感應器方法
 

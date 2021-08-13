@@ -4,12 +4,12 @@ ms.assetid: c9577988-e52f-4f71-ab1b-51bb5368812e
 title: DrawImage 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e84b854d662d8bc14435059eb89569388da7eb8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73e3ca43831913942643488efa977d452e67dfec51f874bbaf913322747ffb6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467938"
 ---
 # <a name="graphicsdrawimage-methods"></a>DrawImage 方法
 

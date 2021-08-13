@@ -4,16 +4,16 @@ ms.assetid: 39c2aef4-24e3-4ea0-8b23-dff842f9ab84
 title: 'ITSdp：： get_SessionVersion 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3466844f3f21f54ec0ec76a3569e7af25e4b0143
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7661fb5f133d214748991510d56387991872fa69243353b5144623a1ef19f91
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119476588"
 ---
 # <a name="itsdpget_sessionversion-method"></a>ITSdp：： get \_ SessionVersion 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ SessionVersion** 方法會取得32位 (理想的網路時間通訊協定，或作為會話版本的 NTP) 值。 雖然這是在會話建立時自動產生的，但在更改 SDP 時，使用者必須負責變更。
 
@@ -45,7 +45,7 @@ HRESULT get_SessionVersion(
 
 
 
-| 傳回碼                                                                                   | Description                                                        |
+| 傳回碼                                                                                   | 描述                                                        |
 |-----------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                       |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *PSessionVersion* 參數無效。<br/>           |

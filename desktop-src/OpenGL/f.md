@@ -14,12 +14,12 @@ keywords:
 - 截
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7085765a5585268acb2f20a77c72bdd7cf1b4b81
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 748eb0fade84ef76c133453165db53d8540326dae3111ac04f3b7a6819ae825a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106969746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118618183"
 ---
 # <a name="f-opengl"></a>F (OpenGL) 
 

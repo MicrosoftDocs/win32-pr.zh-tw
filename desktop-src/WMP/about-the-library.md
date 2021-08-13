@@ -6,21 +6,21 @@ keywords:
 - Windows Media Player，程式庫
 - Windows Media Player 物件模型，程式庫
 - 物件模型，程式庫
-- Windows Media Player ActiveX 控制項，物件模型的程式庫
+- Windows Media Player ActiveX 控制項、物件模型的程式庫
 - ActiveX 控制項，物件模型的程式庫
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的程式庫
-- Windows Media Player 行動裝置、物件模型的程式庫
+- Windows Media PlayerMobile ActiveX 控制項，物件模型的程式庫
+- Windows Media Player適用于物件模型的 Mobile、library
 - Windows Media Player 程式庫，關於
 - 程式庫，關於
 - 中繼資料，Windows Media Player 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1781329a78bcb2e9cb25c45135e03465b9d63df
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63fdaa19fc8be11de1886074a21b0cc1fb6d4be7dde73faa05c67e1f496ac17c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470348"
 ---
 # <a name="about-the-library"></a>關於程式庫
 
@@ -44,9 +44,9 @@ ms.locfileid: "106965772"
 [**關於 Player 物件模型**](about-the-player-object-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

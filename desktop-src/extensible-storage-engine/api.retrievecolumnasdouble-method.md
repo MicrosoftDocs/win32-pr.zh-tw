@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 9654a4fc90b0ff45b5fafbd04c1accece5ced62a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e744b33aed8b5e0f2b7c8df82f2b7c20981a559dc8746ce50866230cd7cfaf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104569138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118271831"
 ---
 # <a name="apiretrievecolumnasdouble-method"></a>RetrieveColumnAsDouble 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104569138"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

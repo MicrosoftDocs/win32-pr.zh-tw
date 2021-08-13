@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: 51db9352-7188-4fb7-9c92-1d9579cd7250
-ms.openlocfilehash: 7d31d261629853c3b82b9d1564c5e8755e047570
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 8430142553e2c9e89a580760e9f9a041af07425f5380e35b7a2d53a48a953855
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109840619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119395898"
 ---
 # <a name="freemrulist-function"></a>FreeMRUList 函式
 

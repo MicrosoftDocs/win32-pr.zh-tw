@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 7ea5ad32de18046f3d23145d82e971391c3e304c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ca35cb98f279674285610fbd06b0399e93a68d59749fe4129475ab8bd970824a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108096186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658861"
 ---
 # <a name="cbaseoutputpincheckconnect-method"></a>CBaseOutputPin. CheckConnect 方法
 
@@ -55,7 +55,7 @@ HRESULT CheckConnect(
 
 
 
-| 傳回碼                                                                                               | Description                                                                 |
+| 傳回碼                                                                                               | 描述                                                                 |
 |-----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                      | 成功。<br/>                                                         |
 | <dl> <dt>**E \_ NOINTERFACE**</dt> </dl>             | 輸入 pin 不支援 [**IMemInputPin**](/windows/desktop/api/Strmif/nn-strmif-imeminputpin)。<br/> |

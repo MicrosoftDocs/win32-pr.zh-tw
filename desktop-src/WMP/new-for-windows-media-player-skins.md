@@ -15,16 +15,16 @@ keywords:
 - 相容性，外觀
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 512f23c3cd4dca45ae84a2ae96a3c78c98a73268
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17a7290c42728a8e847279fc467b6f8a619ef2ff5235eb6eee2f1fa2554a9133
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118573784"
 ---
 # <a name="new-for-windows-media-player-skins"></a>Windows Media Player 的新外觀
 
-Windows Media Player 7.0 推出了面板技術。 適用于 Windows XP 的 Windows Media Player 7.1 和 Windows Media Player 的可用專案和屬性保持不變。 Windows Media Player 9 系列引進了您可以使用的新元素和屬性。 Windows Media Player 10 引進了一個新的屬性。
+Windows Media Player 7.0 推出了面板技術。 Windows XP 的 Windows Media Player 7.1 和 Windows Media Player 的可用專案和屬性保持不變。 Windows Media Player 9 系列引進了您可以使用的新元素和屬性。 Windows Media Player 10 引進了一個新的屬性。
 
 [外觀程式設計參考] 區段中的每個主題都包含 [需求] 區段，其中列出個別元素、方法、事件處理常式或屬性的最低需求。 下列清單也會詳細說明特定 Windows Media Player 版本的新專案。
 
@@ -56,7 +56,7 @@ Windows Media Player 7.0 推出了面板技術。 適用于 Windows XP 的 Windo
 -   [DURATIONTEXT](durationtext.md) 預先定義的元素
 -   [編輯方塊](editbox-element.md) 元素
 -   [EffectTitle](effects-effecttitle.md) 方法
--   [>effecttype](effects-effecttype.md) 方法
+-   [>Effecttype](effects-effecttype.md) 方法
 -   [EQUALIZERSETTINGS. crossFade](equalizersettings-crossfade.md) 屬性
 -   [EQUALIZERSETTINGS. crossFadeWindow](equalizersettings-crossfadewindow.md) 屬性
 -   [EQUALIZERSETTINGS. currentSpeakerName](equalizersettings-currentspeakername.md) 屬性
@@ -137,9 +137,9 @@ Windows Media Player 7.0 推出了面板技術。 適用于 Windows XP 的 Windo
 [Windows Media Player 11的新功能](what-was-new-in-windows-media-player-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg294059(v=EXCHG.10)
 ms:contentKeyID: 32765674
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: e5966990a51e87b90946416161e20d677116f8c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b86b37663f7968ad77874ebcc7b2d0f8fd569cc265424bc36feeecccb6d7e148
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119471278"
 ---
 # <a name="version-auto-increment-and-escrow-columns"></a>版本、自動遞增和託管資料行
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="version-auto-increment-and-escrow-columns"></a>版本、自動遞增和託管資料行
 

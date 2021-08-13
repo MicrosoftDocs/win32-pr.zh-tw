@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: f6f549011b9750f69187c0e0cbf34ec94764c9ef
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: dc992c5b8246ce302cda8924b8521c923575c8914c83b35c8c1e789e4bc1c826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106990017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527470"
 ---
 # <a name="d3dresourcestats-structure"></a>D3DRESOURCESTATS 結構
 
