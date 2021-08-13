@@ -4,12 +4,12 @@ description: 如果應用程式需要更多的工作集，以將並排顯示的�
 ms.assetid: 529E874E-650B-4BFD-97F6-E66E743564A9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86368da46f7c2219f42b5ecbc122b79fee19e72c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 00b91e3942e5da88c58c391f652a2b23a7b02513777060d78e86522b892da478
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119375808"
 ---
 # <a name="tile-pool-resizing"></a>調整磚集區大小
 
@@ -30,9 +30,9 @@ ms.locfileid: "103839436"
 [對應在磚集區中](mappings-are-into-a-tile-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

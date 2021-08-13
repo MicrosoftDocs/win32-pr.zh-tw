@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5afa6bc6ba28de799795a049dde3ab98ebdb4c78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c6bd8ddc173915e2bbd912a6a668c63b4be733f32357189fe6ff3365a20bacfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410308"
 ---
 # <a name="winbio_ansi_385_face-constants"></a>WINBIO \_ ANSI \_ 385 \_ 臉部常數
 
@@ -27,7 +27,7 @@ ms.locfileid: "104105413"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                          | Description                                                |
+| 常數/值                                                                                                                                                                                                                                                                          | 描述                                                |
 |:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------|
 | <span id="WINBIO_ANSI_385_FACE_TYPE_UNKNOWN"></span><span id="winbio_ansi_385_face_type_unknown"></span><dl> <dt>**WINBIO \_ANSI \_ 385 \_ 臉部 \_ 類型 \_ 未知**</dt> <dt>0</dt> </dl>    | 正面臉部影像類型未知。<br/>         |
 | <span id="WINBIO_ANSI_385_FACE_FRONTAL_FULL"></span><span id="winbio_ansi_385_face_frontal_full"></span><dl> <dt>**WINBIO \_ANSI \_ 385 \_ 臉部 \_ 正面 \_ FULL**</dt> <dt>1</dt> </dl>    | 正面臉部影像類型為完整解析度。<br/> |
@@ -41,8 +41,8 @@ ms.locfileid: "104105413"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

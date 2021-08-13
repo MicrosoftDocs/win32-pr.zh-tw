@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 466c344892f2c4bf4a1e979ac9c1f50cd709325a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 043138fd82f5d5423703e860c5811f3e21b8513adb7bb4238ad6d6f7fa7215cd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439878"
 ---
 # <a name="setmtu-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetMTU 方法 \_
 

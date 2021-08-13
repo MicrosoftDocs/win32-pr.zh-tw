@@ -10,12 +10,12 @@ keywords:
 - Direct2D，路徑幾何
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceb4a0e63a3274473153e1871a8a085bb04d5146
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5540d96b9befddaa8eb6eef7fcc61e3e6c7665a7319de1ea123c9ce94281f101
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375521"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119259248"
 ---
 # <a name="how-to-create-geometry-groups"></a>如何建立 Geometry 群組
 
@@ -204,6 +204,6 @@ HRESULT DemoApp::OnRender()
 
 ![四個同心圓的圖，其中一組已填滿第二個和第四個環形，另一個則填滿所有環形](images/create-geometry-group.png)
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: c1a5f546ea13cf085b09315abe56369d5ba0e152
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d0d00f5d7317777da0194c685a8dbcb2238e8e093be80c86b2920bb136f2ee55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439558"
 ---
 # <a name="setpowerstate-method-of-the-cim_currentsensor-class"></a>CIM CurrentSensor 類別的 SetPowerState 方法 \_
 

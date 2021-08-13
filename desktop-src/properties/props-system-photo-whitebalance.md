@@ -4,12 +4,12 @@ ms.assetid: efa1f1db-b99e-49c1-b9ff-3e9e0e98905c
 title: WhiteBalance
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3997307e4358c734534132cd0125062343c40955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96cbc44a7229577df93db7611af743f330b2dae15f66c78299773b151e8aba26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992033"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723166"
 ---
 # <a name="systemphotowhitebalance"></a>WhiteBalance
 

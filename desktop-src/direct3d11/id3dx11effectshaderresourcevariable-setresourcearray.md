@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 570c461c7bb503b2a11f46a4bb1dca24dfd16201
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b5e20a7e24a2ea129c9a72d440dc2cb634bc8ae79a55b8ba47be1bffe6b75e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408158"
 ---
 # <a name="id3dx11effectshaderresourcevariablesetresourcearray-method"></a>ID3DX11EffectShaderResourceVariable：： SetResourceArray 方法
 

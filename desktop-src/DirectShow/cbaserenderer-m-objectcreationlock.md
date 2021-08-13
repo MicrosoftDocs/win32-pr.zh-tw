@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e344b20b4924ac26ebe6253f5388136b350abefe
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6b0925aab0345d5eed8da19e12f355c417d66c1f36a1384a05950a87d4c95b3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976221"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429308"
 ---
 # <a name="cbaserendererm_objectcreationlock-member"></a>CBaseRenderer：： m \_ ObjectCreationLock 成員
 

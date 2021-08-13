@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cac3d4fa0914225d8cda540435b4ddb3a7f0691
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 580f88b92ba86d6546a538f98cd939b177644d32aa284751fe2b5a01b97c2d9f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470068"
 ---
 # <a name="ambientattributeselementtype"></a>AmbientAttributes 的 elementType
 

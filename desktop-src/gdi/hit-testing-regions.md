@@ -4,12 +4,12 @@ ms.assetid: 861a2558-0967-43f6-be3f-580992da05ff
 title: 點擊測試區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe136c3ba9ab4babfc1150ae4c3eee878cb42327
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5734ffb886bd2978d3ee0b49773d752d4abf43a4d98dc060f3dfaf2956e3084a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118760974"
 ---
 # <a name="hit-testing-regions"></a>點擊測試區域
 

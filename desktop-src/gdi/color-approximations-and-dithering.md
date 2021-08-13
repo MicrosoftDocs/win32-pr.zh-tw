@@ -4,12 +4,12 @@ ms.assetid: 008c8a8e-3456-4727-9b27-00b20ae880a2
 title: 色彩近似值和遞色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a72e28dbc3ce20a42b53b5ff060d950719e2d861
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af9733259aff787856ac9c6fed68f708c3b580c6200b65652424264eef3c73d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761965"
 ---
 # <a name="color-approximations-and-dithering"></a>色彩近似值和遞色
 

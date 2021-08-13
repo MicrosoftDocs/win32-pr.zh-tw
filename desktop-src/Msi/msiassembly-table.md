@@ -4,18 +4,18 @@ ms.assetid: 3a8cd206-0112-4840-8c9d-773483f5c771
 title: MsiAssembly 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b54bd6e58e2ff6d12c582309c23856a7bb825b2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acda246bd6baba75d0f7e8d53f515a25abb0c163c2d3ef0b1b9705c123b8e69e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381378"
 ---
 # <a name="msiassembly-table"></a>MsiAssembly 資料表
 
 MsiAssembly 資料表會指定 Microsoft .NET Framework 元件和 Win32 元件的 Windows Installer 設定。 如需詳細資訊，請參閱 [將元件安裝到全域組件快取](installation-of-assemblies-to-the-global-assembly-cache.md) 和 [Win32 元件的安裝](installation-of-win32-assemblies.md)。
 
-在 Windows XP 上，Windows Installer 可以安裝 Win32 元件作為 [並存元件](side-by-side-assemblies.md)。 如需詳細資訊，請參閱 [並存元件 API](../sbscs/side-by-side-assembly-api.md)。
+在 Windows XP 上，Windows Installer 可以安裝 Win32 元件作為[並存元件](side-by-side-assemblies.md)。 如需詳細資訊，請參閱 [並存元件 API](../sbscs/side-by-side-assembly-api.md)。
 
 **Windows 2000：** 這項功能不受支援。
 
@@ -26,7 +26,7 @@ MsiAssembly 資料表具有下列資料行。
 | Column            | 類型                         | 答案 | Nullable |
 |-------------------|------------------------------|-----|----------|
 | 元件\_       | [識別碼](identifier.md) | Y   | N        |
-| 功能\_         | [識別碼](identifier.md) | N   | N        |
+| 特徵\_         | [識別碼](identifier.md) | N   | N        |
 | 檔案 \_ 資訊清單    | [識別碼](identifier.md) | N   | Y        |
 | 檔 \_ 應用程式 | [識別碼](identifier.md) | N   | Y        |
 | 屬性        | [整數](integer.md)       | N   | Y        |
@@ -62,7 +62,7 @@ MsiAssembly 資料表具有下列資料行。
 <span id="File_Manifest"></span><span id="file_manifest"></span><span id="FILE_MANIFEST"></span>檔案 \_ 資訊清單
 </dt> <dd>
 
-檔案 [資料表](file-table.md) 中的外部索引鍵，指定包含 .NET Framework 元件或 Win32 元件之資訊清單的檔案。
+檔案[資料表](file-table.md)中的外部索引鍵，指定包含 .NET Framework 元件或 Win32 元件之資訊清單的檔案。
 
 若為 Win32 元件，請勿在 [元件資料表](component-table.md)的 [KeyPath] 欄位中，將此檔案指定為元件金鑰路徑檔案。
 

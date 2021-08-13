@@ -7,12 +7,12 @@ MSHAttr:
 title: PurposeGroupGuid
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d20d6c9d1687ea0e3fca344fd3b534ccc0b3ee57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29ead67e44ac4735d17d97580b6bce5f187422994c9854bac19febf7a988bcbf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119358830"
 ---
 # <a name="span-idwwan_profile_v4element_purposegroupguidspanpurposegroupguid"></a><span id="WWAN_profile_v4.element_PurposeGroupGuid"></span>PurposeGroupGuid
 
@@ -67,7 +67,7 @@ ms.locfileid: "104386158"
 <thead>
 <tr class="header">
 <th>Parent 項目</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

@@ -6,12 +6,12 @@ keywords:
 - DllSurrogateExecutable 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 877297673b0a518006ecf903f447984f9023da34
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 86fc12af22d1f85c2d2e5ff6e75b2904c5fc5eea636a64e314f997ff36a44e38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106978587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373378"
 ---
 # <a name="dllsurrogateexecutable"></a>DllSurrogateExecutable
 
@@ -21,8 +21,8 @@ ms.locfileid: "106978587"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      DllSurrogateExecutable = file
+   {AppID_GUID}
+      DllSurrogateExecutable = file
 ```
 
 ## <a name="remarks"></a>備註
@@ -45,6 +45,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [**ISurrogate**](/windows/win32/api/objidlbase/nn-objidlbase-isurrogate)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: d8770b45-a05c-4dd8-9fa7-08fb4330d734
 title: " (Direct3D 10 圖形) 的著色器介面"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 838a65d263533d0b2225515664e21c2d93114495
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 96962407492f5fc6b6f7bbacd155c265ffd03e11eff31f2b012a2d1c644d3f9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409148"
 ---
 # <a name="shader-interfaces-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的著色器介面
 
@@ -19,7 +19,7 @@ ms.locfileid: "104468285"
 
 
 
-| Pipeline-Stage 介面                                      | Description                                                                                                                                 |
+| Pipeline-Stage 介面                                      | 描述                                                                                                                                 |
 |----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ID3D10GeometryShader 介面**](/windows/win32/api/d3d10/nn-d3d10-id3d10geometryshader) | 幾何著色器會在 [幾何著色器階段](d3d10-graphics-programming-guide-pipeline-stages.md)中執行每個基本處理。 |
 | [**ID3D10PixelShader 介面**](/windows/win32/api/d3d10/nn-d3d10-id3d10pixelshader)       | 圖元著色器會在 [圖元著色器階段](d3d10-graphics-programming-guide-pipeline-stages.md)中執行每圖元處理。           |
@@ -33,7 +33,7 @@ ms.locfileid: "104468285"
 
 
 
-| Shader-Reflection 介面                                                                   | Description                                                                        |
+| Shader-Reflection 介面                                                                   | 描述                                                                        |
 |------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | [**ID3D10ShaderReflection 介面**](/windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflection)                             | COM 介面，可在作者時從編譯的著色器讀取資訊。     |
 | [**ID3D10ShaderReflectionConstantBuffer 介面**](/windows/desktop/api/D3D10Shader/nn-d3d10shader-id3d10shaderreflectionconstantbuffer) | 取得著色器反射常數緩衝區介面的 helper 介面。      |

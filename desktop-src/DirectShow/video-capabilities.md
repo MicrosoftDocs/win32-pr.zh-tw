@@ -4,12 +4,12 @@ ms.assetid: 305bd009-f58e-4dcc-9b70-252de87dc86d
 title: 影片功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6287839b75bd5044644480c3abcc8248cc46dc0a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4841f5f33b39adc6bd12775e07085e14886d250cd59c988884ae7ca8a6a21b80
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119290837"
 ---
 # <a name="video-capabilities"></a>影片功能
 

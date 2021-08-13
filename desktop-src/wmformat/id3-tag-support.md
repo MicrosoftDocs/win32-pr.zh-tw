@@ -3,19 +3,19 @@ title: ID3 標記支援
 description: ID3 標記支援
 ms.assetid: 57119b88-5901-4bea-abf6-a67fe71afd1b
 keywords:
-- Windows Media Format SDK，屬性
+- Windows媒體格式 SDK，屬性
 - Advanced Systems Format (ASF) 、屬性
 - ASF (Advanced 系統格式) ，屬性
 - 屬性、ID3 標記
 - ID3 標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4f3dd91119aedf2983e654b4925231b8fd9e4b9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 28fd65ffadb952e9370af609e336c08fc07c9b96f50d09d95c78492bef2163db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703023"
 ---
 # <a name="id3-tag-support"></a>ID3 標記支援
 
@@ -31,7 +31,7 @@ ms.locfileid: "104021869"
 | **說明**                | 註解 | COM     | COMM         |
 | **有效期間**                   |         | TLE     | TLEN         |
 | **FileSize**                   |         |         | TSIZ         |
-| **標題**                      | 標題   | TT2     | TIT2         |
+| **標題**                      | Title   | TT2     | TIT2         |
 | **WM/AlbumArtist**             |         | TP2     | TPE2         |
 | **WM/AlbumSortOrder**          |         |         | TSOA         |
 | **WM/AlbumTitle**              | 專輯   | 塔爾     | TALB         |
@@ -42,7 +42,7 @@ ms.locfileid: "104021869"
 | **WM/BeatsPerMinute**          |         |         | TBPM         |
 | **WM/二進位**                  |         | 地理     | GEOB         |
 | **WM/評論**                |         | COM     | COMM         |
-| **WM/編輯器**                |         | TCM     | TCOM         |
+| **WM/Composer**                |         | TCM     | TCOM         |
 | **WM/導體**               |         | TP3     | TPE3         |
 | **WM/ContentGroupDescription** |         | TT1     | TIT1         |
 | **WM/EncodedBy**               |         | 十     | TENC         |
@@ -64,7 +64,7 @@ ms.locfileid: "104021869"
 | **WM/PartOfSet**               |         | Tpa     | TPOS         |
 | **WM/圖片**                 |         | PIC     | APIC         |
 | **WM/PlaylistDelay**           |         |         | TDLY         |
-| **WM/發行者**               |         | 城 規 會     | TPUB         |
+| **WM/Publisher**               |         | 城 規 會     | TPUB         |
 | **WM/RadioStationName**        |         | TRN     | TRSN         |
 | **WM/RadioStationOwner**       |         | TRO     | TRSO         |
 | **WM/SetSubTitle**             |         |         | TSST         |
@@ -79,7 +79,7 @@ ms.locfileid: "104021869"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -88,9 +88,9 @@ ms.locfileid: "104021869"
 [**屬性**](attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

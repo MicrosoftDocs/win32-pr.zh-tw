@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: c8ac54e813d622f47462b73b763534977ba0932f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8521bc5319919855f734f6b7ac75a58af1af99a58ca360e833984649eb574bbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119351618"
 ---
 # <a name="wm_lbuttondown-message"></a>WM \_ LBUTTONDOWN 訊息
 
@@ -101,7 +101,7 @@ LRESULT CALLBACK WndProc(_In_ HWND hWnd, _In_ UINT msg, _In_ WPARAM wParam, _In_
 }
 ```
 
-如需更多範例，請參閱 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples) 。
+如需更多範例，請參閱 GitHub 上[Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples)。
 
 ## <a name="remarks"></a>備註
 

@@ -3,7 +3,7 @@ title: 'EM_SETHYPHENATEINFO 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項進行斷字的方式。
 ms.assetid: 67126cb8-ab50-49a9-b32f-2245debf2fe3
 keywords:
-- EM_SETHYPHENATEINFO message Windows 控制項
+- EM_SETHYPHENATEINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8369d463ae03e9410347ab58a50346625e3de47
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5551aace3ab054c1c6fa322242ae06386ff19f5a44775bd6dcc6887d19c65c62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119437558"
 ---
 # <a name="em_sethyphenateinfo-message"></a>EM \_ SETHYPHENATEINFO 訊息
 
@@ -56,8 +56,8 @@ ms.locfileid: "103844128"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

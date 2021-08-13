@@ -4,18 +4,18 @@ ms.assetid: 75eaec65-d042-4873-8be4-9778e2d0a432
 title: AltitudeDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1f78609c1c4b9e3a98ad2b47e766a0bfd9c00a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d323e3d6ff1a18b5d804fc72c27ce04a4b58247e0bc51446345f281f0b6ce8cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727469"
 ---
 # <a name="systemgpsaltitudedenominator"></a>AltitudeDenominator
 
 PKEY \_ GPS 高度的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

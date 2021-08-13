@@ -6,12 +6,12 @@ keywords:
 - 磚效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c5def48ab30cadb28673179f6eec5d7ffa7e19e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b0df10143a727fb8ce6585264b65b6db46d75c731070f2ea46ff8e7dffd59dd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430490"
 ---
 # <a name="tile-effect"></a>磚效果
 
@@ -53,7 +53,7 @@ m_d2dContext->EndDraw();
 
 
 
-| 顯示名稱和索引列舉                | 類型和預設值                                              | Description                                                                                                                                        |
+| 顯示名稱和索引列舉                | 類型和預設值                                              | 描述                                                                                                                                        |
 |---------------------------------------------------|---------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 | Rect<br/> D2D1 \_ 圖格的圖示 \_ \_ RECT<br/> | D2D1 \_ 向量 \_ 4F<br/> {0.0 f、0.0 f、100.0 f、100.0 f}<br/> | 要並排顯示之影像的區域。 這個屬性是 D2D1 \_ 向量 \_ 4F，定義為： (左、上、右、下) 。 單位為 Dip。<br/> |
 
@@ -73,8 +73,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

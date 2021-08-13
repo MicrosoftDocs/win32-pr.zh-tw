@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102707
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 877d90bc374627b84ae1a780bd3a0a99a763862a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5642a37df19ab7e6f7570c222654a2e485699506f6625444e51add44b9c3f599
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402848"
 ---
 # <a name="esentsessioncontextnotsetbythisthreadexception-properties"></a>EsentSessionCoNtextNotSetByThisThreadException 屬性
 

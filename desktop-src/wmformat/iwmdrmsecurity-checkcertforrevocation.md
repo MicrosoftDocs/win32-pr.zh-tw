@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2439085c6483720e84956ef9932f4f1ab95535
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e090dfb655837ad2cf36cf45486488fde1440b499b73f16fdfbdaf2989532687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700784"
 ---
 # <a name="iwmdrmsecuritycheckcertforrevocation-method"></a>IWMDRMSecurity：： CheckCertForRevocation 方法
 
@@ -53,11 +53,11 @@ HRESULT CheckCertForRevocation(
 
 
 
-| GUID 常數                 | Description                                                                                |
+| GUID 常數                 | 描述                                                                                |
 |-------------------------------|--------------------------------------------------------------------------------------------|
 | WMDRM \_ REVOCATIONTYPE \_ 應用程式    | 指定應用程式憑證撤銷清單。                                     |
 | WMDRM \_ REVOCATIONTYPE \_ 裝置 | 指定裝置憑證撤銷清單。                                          |
-| WMDRM \_ REVOCATIONTYPE \_ CARDEA | 指定 Microsoft Windows Media DRM for Network Devices 憑證撤銷清單。 |
+| WMDRM \_ REVOCATIONTYPE \_ CARDEA | 指定 Microsoft Windows 媒體 DRM 的網路裝置憑證撤銷清單。 |
 
 
 
@@ -92,7 +92,7 @@ HRESULT CheckCertForRevocation(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 709e938c28f9bf09e34d918eea7be3029c7a11e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 868f13f220dbd5d5867e5ee2bbb54c1ef946e267d87e9ea0aa625108b945d537
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697293"
 ---
 # <a name="ienumportabledeviceconnectorsnext-method"></a>IEnumPortableDeviceConnectors：： Next 方法
 
@@ -69,10 +69,10 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                             | Description                                                      |
+| 傳回碼                                                                             | 描述                                                      |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 此方法已成功。<br/>                                 |
-| <dl> <dt>**S \_ FALSE**</dt> </dl> | 沒有其他 MTP 藍牙裝置可供列舉。<br/> |
+| <dl> <dt>**S \_ FALSE**</dt> </dl> | 沒有其他 MTP 藍牙裝置可列舉。<br/> |
 
 
 
@@ -80,7 +80,7 @@ HRESULT Next(
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用這個方法來列舉成對的 MTP/Bluetooth 裝置，以及將非同步連線要求傳送給每個裝置。
+下列範例示範如何使用這個方法來列舉成對的 MTP/藍牙裝置，以及將非同步連接要求傳送給每個裝置。
 
 
 ```C++
@@ -122,7 +122,7 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                             |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                              |
 | 標頭<br/>                   | <dl> <dt>Devpkey .h;</dt><dt>Portabledeviceconnectapi .h</dt> </dl> |
 | Idl<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |

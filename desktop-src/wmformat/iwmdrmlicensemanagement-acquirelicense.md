@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 279a3d4d84617c4a4fa5454d1f39f6f78f0cf3fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3ad8251650c8a7e16c6eb2fc957df5e70459239c0cd6cf1184b5209ae51b6aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118701124"
 ---
 # <a name="iwmdrmlicensemanagementacquirelicense-method"></a>IWMDRMLicenseManagement：： AcquireLicense 方法
 
@@ -111,7 +111,7 @@ HRESULT AcquireLicense(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 
@@ -123,7 +123,7 @@ HRESULT AcquireLicense(
 
 這個方法會以非同步方式執行。 它會在呼叫後立即傳回，然後在處理完成時產生 **MEWMDRMLicenseAcquisitionCompleted** 事件。 針對非無訊息授權取得作業，藉由呼叫 **IMFMediaEvent：： GetValue** 取得的事件值是 **IUnknown** 指標。 您可以呼叫所抓取 **IUnknown** 介面的 **QueryInterface** 方法，以取得 [**IWMDRMNonSilentLicenseAquisition**](iwmdrmnonsilentlicenseaquisition.md)介面的實例。
 
-如需使用 Windows Media DRM 用戶端擴充 Api 的非同步方法的詳細資訊，請參閱 [使用媒體基礎事件模型](using-the-media-foundation-model.md)。
+如需使用 Windows 媒體 DRM 用戶端擴充 api 的非同步方法的詳細資訊，請參閱[使用媒體基礎事件模型](using-the-media-foundation-model.md)。
 
 ## <a name="requirements"></a>規格需求
 

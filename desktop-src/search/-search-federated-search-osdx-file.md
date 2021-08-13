@@ -1,23 +1,23 @@
 ---
-description: 描述如何建立 ( 的 OpenSearch 描述，以將外部資料存放區連接到 Windows 用戶端的 .osdx) 檔。
+description: 說明如何建立 OpenSearch 描述 (. .osdx) 檔，以透過 OpenSearch 通訊協定將外部資料存放區連接到 Windows 用戶端。
 ms.assetid: 62cd88cd-e6ff-4e46-887d-e62f7018c065
-title: 在 Windows 同盟搜尋中建立 OpenSearch 描述檔案
+title: 在 Windows 同盟搜尋中建立 OpenSearch 的描述檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 406b166d6963517d692ef9de8292190d7eb92102
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f58b29a860c7d53583b7fd17ddd942bb21b08d649ea7e54d5b2278be2f8d4c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119456859"
 ---
-# <a name="creating-an-opensearch-description-file-in-windows-federated-search"></a>在 Windows 同盟搜尋中建立 OpenSearch 描述檔案
+# <a name="creating-an-opensearch-description-file-in-windows-federated-search"></a>在 Windows 同盟搜尋中建立 OpenSearch 的描述檔案
 
-描述如何建立 ( 的 OpenSearch 描述，以將外部資料存放區連接到 Windows 客戶 [端的 .osdx](https://github.com/dewitt/opensearch)) 檔。 同盟搜尋可讓使用者搜尋遠端資料存放區，並從 Windows 檔案總管內查看結果。
+說明如何建立 OpenSearch 描述 (. .osdx) 檔，以透過[OpenSearch](https://github.com/dewitt/opensearch)通訊協定將外部資料存放區連接到 Windows 用戶端。 同盟搜尋可讓使用者搜尋遠端資料存放區，並從 Windows 檔案總管內查看結果。
 
 本主題包含下列幾節：
 
--   [OpenSearch 描述檔](#opensearch-description-file)
+-   [OpenSearch描述檔](#opensearch-description-file)
     -   [必要的必要子項目](#mininum-required-child-elements)
 -   [Windows 同盟搜尋中的標準元素](#standard-elements-in-windows-federated-search)
     -   [Shortname](#shortname)
@@ -37,13 +37,13 @@ ms.locfileid: "103943280"
 -   [其他資源](#additional-resources)
 -   [相關主題](#related-topics)
 
-## <a name="opensearch-description-file"></a>OpenSearch 描述檔
+## <a name="opensearch-description-file"></a>OpenSearch描述檔
 
-適用于 Windows 同盟搜尋 ( .osdx) 檔的 OpenSearch 描述必須遵守下列規則：
+Windows 同盟搜尋的 OpenSearch 描述 (. .osdx) 檔必須遵守下列規則：
 
--   這是由 [opensearch](https://github.com/dewitt/opensearch) 1.1 規格所定義的有效的 OpenSearch 描述檔。
+-   這是有效的 OpenSearch 描述檔（如[OpenSearch](https://github.com/dewitt/opensearch) 1.1 規格所定義）。
 -   請提供具有 RSS 或 Atom 格式類型的 URL 範本。
--   從 web 下載時，請使用 .osdx 副檔名，或與 .osdx 副檔名相關聯。 例如，伺服器不需要使用 .osdx。 伺服器可以傳回具有任何副檔名的檔案（例如 .xml），並將其視為 .osdx 檔案（如果它使用適用于 OpenSearch 描述檔的正確 MIME 型別， (. .osdx 檔案) 。
+-   從 web 下載時，請使用 .osdx 副檔名，或與 .osdx 副檔名相關聯。 例如，伺服器不需要使用 .osdx。 伺服器可以傳回具有任何副檔名的檔案，例如 .xml，並將其視為 .osdx 檔（如果它使用正確的 MIME 類型來 OpenSearch 描述檔 (. .osdx 檔案) 。
 -    (建議的) 提供 **ShortName** 元素值。
 
 ### <a name="mininum-required-child-elements"></a>必要的必要子項目
@@ -68,7 +68,7 @@ ms.locfileid: "103943280"
 
 ### <a name="shortname"></a>Shortname
 
-Windows 使用 **ShortName** 元素值，將 searchconnector-ms (搜尋連接器命名為當使用者開啟 .osdx 檔案時所建立的) 檔案。 Windows 可確保產生的檔案名只使用 Windows 檔案名中允許的字元。 如果未提供任何 **ShortName** 值，searchconnector-ms 檔案會嘗試改用 .osdx 檔案的檔案名。
+Windows 使用 **ShortName** 元素值來命名 searchconnector-ms (搜尋連接器) 在使用者開啟 .osdx 檔案時所建立的檔案。 Windows 可確保產生的檔案名只使用 Windows 檔案名中允許的字元。 如果未提供任何 **ShortName** 值，searchconnector-ms 檔案會嘗試改用 .osdx 檔案的檔案名。
 
 下列程式碼說明如何在 .osdx 檔案中使用 **ShortName** 元素。
 
@@ -82,9 +82,9 @@ Windows 使用 **ShortName** 元素值，將 searchconnector-ms (搜尋連接器
 
 
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
-當使用者選取 searchconnector-ms 檔案時，Windows 會使用 **Description** 元素值來填入 [Windows 檔案總管詳細資料] 窗格中顯示的檔案描述。
+當使用者選取 searchconnector-ms 檔案時，Windows 使用 **Description** 元素值來填入 Windows 檔案總管詳細資料窗格中所顯示的檔案描述。
 
 
 ```
@@ -134,7 +134,7 @@ Windows 使用 **ShortName** 元素值，將 searchconnector-ms (搜尋連接器
 
 ![顯示 [web 搜尋匯總] 按鈕的螢幕擷取畫面。](images/websearchroll-overcommandbarbutton.png)
 
-在某些案例中，查詢回復至資料存放區的 web UI 是很重要的。 例如，使用者可能會想要查看超過100的結果 (的 OpenSearch 提供者所要求的預設專案數) 。 若是如此，使用者可能也會想要使用僅適用于資料存放區網站的搜尋功能，例如使用不同的排序次序重新查詢，或使用相關的中繼資料來切換和篩選查詢。
+在某些案例中，查詢回復至資料存放區的 web UI 是很重要的。 例如，使用者可能會想要查看超過100的結果 (OpenSearch 提供者要求) 的預設專案數。 若是如此，使用者可能也會想要使用僅適用于資料存放區網站的搜尋功能，例如使用不同的排序次序重新查詢，或使用相關的中繼資料來切換和篩選查詢。
 
 ### <a name="url-template-parameters"></a>URL 範本參數
 
@@ -147,7 +147,7 @@ OpenSearch 提供者一律會執行下列動作：
 
 
 
-| 支援的權杖  | 由 OpenSearch 提供者使用的方式                                                                                                                 |
+| 支援的權杖  | OpenSearch 提供者的使用方式                                                                                                                 |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | SearchTerms    | 取代為使用者在 Windows 檔案總管搜尋輸入方塊中輸入的搜尋字詞。<br/>                                         |
 | StartIndex     | 在「頁面」中取得結果時使用。<br/> 取代為要傳回的第一個結果專案的索引。<br/>                        |
@@ -163,7 +163,7 @@ OpenSearch 提供者一律會執行下列動作：
 
 ### <a name="paged-results"></a>分頁的結果
 
-您可能會想要限制每個要求傳回的結果數目。 您可以選擇一次傳回結果的「頁面」，或讓 OpenSearch 提供者依專案編號或頁碼取得額外的結果頁面。 例如，如果您每個頁面傳送二十個結果，則您傳送的第一個頁面會在專案索引1和頁面1開始：您傳送的第二個頁面會從專案索引21開始，在第2頁開始。 您可以使用 `{startItem}` URL 範本中的或標記，來定義要讓 OpenSearch 提供者要求專案的方式 `{startPage}` 。
+您可能會想要限制每個要求傳回的結果數目。 您可以選擇一次傳回結果的「頁面」，或讓 OpenSearch 提供者依專案編號或頁碼取得額外的結果頁面。 例如，如果您每個頁面傳送二十個結果，則您傳送的第一個頁面會在專案索引1和頁面1開始：您傳送的第二個頁面會從專案索引21開始，在第2頁開始。 您可以使用 `{startItem}` URL 範本中的或標記，定義您希望 OpenSearch 提供者如何要求專案 `{startPage}` 。
 
 ### <a name="paging-using-the-item-index"></a>使用專案索引進行分頁
 
@@ -177,7 +177,7 @@ OpenSearch 提供者一律會執行下列動作：
 
 
 
-然後，[ [OpenSearch](https://github.com/dewitt/opensearch) 提供者] 會將 URL 中的權杖取代為起始索引值。 第一個要求會從第一個專案開始，如下列範例所示：
+然後[OpenSearch](https://github.com/dewitt/opensearch)提供者會以起始索引值取代 URL 中的權杖。 第一個要求會從第一個專案開始，如下列範例所示：
 
 
 ```
@@ -186,7 +186,7 @@ https://example.com/rss.php?query=frogs&start=1
 
 
 
-藉由變更 `{startIndex}` 參數值併發出新的要求，OpenSearch 提供者可以取得其他專案。 提供者會重複此程式，直到取得足夠的結果來滿足其限制，或達到結果的結尾。 [OpenSearch 提供者] 會查看第一個結果頁面中的 web 服務所傳回的專案數，並將預期的頁面大小設定為該數位。 它會使用該數位來遞增 `{startIndex}` 後續要求的值。 例如，如果 web 服務在第一個要求中傳回20個結果，則提供者會將預期的頁面大小設定為20。 在下一個要求中，提供者會以 `{startIndex}` 值21取代，以取得接下來的20個專案。
+OpenSearch 提供者可以藉由變更 `{startIndex}` 參數值併發出新的要求，來取得其他專案。 提供者會重複此程式，直到取得足夠的結果來滿足其限制，或達到結果的結尾。 OpenSearch 提供者會在結果的第一頁中查看 web 服務所傳回的專案數，並將預期的頁面大小設定為該數位。 它會使用該數位來遞增 `{startIndex}` 後續要求的值。 例如，如果 web 服務在第一個要求中傳回20個結果，則提供者會將預期的頁面大小設定為20。 在下一個要求中，提供者會以 `{startIndex}` 值21取代，以取得接下來的20個專案。
 
 > [!Note]  
 > 如果 web 服務所傳回的結果頁面所含的專案數少於預期的頁面大小，則 OpenSearch 提供者會假設它已收到最後一頁的結果，並停止發出要求。
@@ -205,7 +205,7 @@ https://example.com/rss.php?query=frogs&start=1
 
 
 
-然後，在 URL 中使用頁碼參數來取代權杖。 第一個要求會從第一頁開始，如下列範例所示：
+然後 OpenSearch 提供者會使用頁碼參數來取代 URL 中的權杖。 第一個要求會從第一頁開始，如下列範例所示：
 
 
 ```
@@ -231,7 +231,7 @@ https://example.com/rss.php?query=frogs&page=1
 
 
 
-然後 [，您](https://github.com/dewitt/opensearch) 可以在每個頁面的結果數目中設定所需的頁面大小，如下列範例所示：
+然後[OpenSearch](https://github.com/dewitt/opensearch)提供者可以設定所需的頁面大小（以每頁的結果數目為單位），如下列範例所示：
 
 
 ```
@@ -240,15 +240,15 @@ https://example.com/rss.php?query=frogs&start=1&cnt=50
 
 
 
-根據預設，[OpenSearch 提供者] 會使用頁面大小50來提出要求。 如果您想要不同的頁面大小，則請勿提供 `{count}` 權杖，而是將所需的數位直接放在 **Url 範本** 專案中。
+根據預設，OpenSearch 提供者會使用50的頁面大小來提出要求。 如果您想要不同的頁面大小，則請勿提供 `{count}` 權杖，而是將所需的數位直接放在 **Url 範本** 專案中。
 
-[OpenSearch 提供者] 會根據第一個要求傳回的結果數目來決定頁面大小。 如果所收到結果的第一頁的專案數少於所要求的計數，則提供者會重設任何後續頁面要求的頁面大小。 如果後續頁面要求傳回的專案數少於所要求的數目，則 OpenSearch 提供者會假設它已達到結果的結尾。
+OpenSearch 提供者會根據第一個要求傳回的結果數目來決定頁面大小。 如果所收到結果的第一頁的專案數少於所要求的計數，則提供者會重設任何後續頁面要求的頁面大小。 如果後續頁面要求傳回的專案數少於所要求的數目，OpenSearch 提供者會假設它已達到結果的結尾。
 
 ## <a name="extended-elements-in-windows-federated-search"></a>Windows 同盟搜尋中的擴充元素
 
 除了標準元素之外，同盟搜尋也支援下列擴充元素： **MaximumResultCount** 和 **ResultsProcessing**。
 
-由於在 [OpenSearch](https://github.com/dewitt/opensearch) v1.1 規格中不支援這些擴充的子項目，因此必須使用下列命名空間來新增這些專案：
+由於[OpenSearch](https://github.com/dewitt/opensearch) v1.1 規格中不支援這些擴充的子項目，因此必須使用下列命名空間來新增這些專案：
 
 
 ```
@@ -272,27 +272,27 @@ http://schemas.microsoft.com/opensearchext/2009/
 
 
 
-上述範例會宣告最上層 OpenSearchDescription 專案中的命名空間前置詞 `ms-ose` ，然後在專案名稱中使用該前置詞做為前置詞。 此宣告是必要的，因為在 [OpenSearch](https://github.com/dewitt/opensearch) v1.1 規格中不支援 **MaximumResultCount** 。
+上述範例會宣告最上層 OpenSearchDescription 專案中的命名空間前置詞 `ms-ose` ，然後在專案名稱中使用該前置詞做為前置詞。 這是必要的宣告，因為 [OpenSearch](https://github.com/dewitt/opensearch) v1.1 規格中不支援 **MaximumResultCount** 。
 
 ### <a name="property-mapping"></a>屬性對應
 
-當 web 服務以 RSS 或 Atom 摘要傳回結果時，OpenSearch 提供者必須將摘要中的專案中繼資料對應至 Windows Shell 可以使用的屬性。 下列螢幕擷取畫面說明了 OpenSearch 提供者如何對應一些預設的 RSS 元素。
+當 web 服務以 RSS 或 Atom 摘要傳回結果時，OpenSearch 提供者必須將摘要中的專案中繼資料對應至 Windows Shell 可以使用的屬性。 下列螢幕擷取畫面說明 OpenSearch 提供者如何對應部分預設 RSS 元素。
 
 ![顯示內建 rss 與 windows shell 屬性對應的螢幕擷取畫面](images/built-inrsstowindowsshellpropertymappings.png)
 
 ### <a name="default-mappings"></a>預設對應
 
-下表列出 RSS XML 元素與 Windows Shell 系統屬性的預設對應。 XML 路徑相對於 item 元素。 `"media:"`前置詞是由[Yahoo Search namespace](https://www.rssboard.org/media-rss)命名空間所定義。
+下表列出 RSS XML 元素 Windows Shell 系統屬性的預設對應。 XML 路徑相對於 item 元素。 `"media:"`前置詞是由[Yahoo Search namespace](https://www.rssboard.org/media-rss)命名空間所定義。
 
 
 
-| RSS XML 路徑                  | Windows Shell 屬性 (標準名稱)  |
+| RSS XML 路徑                  | WindowsShell 屬性 (標準名稱)  |
 |-------------------------------|-----------------------------------------|
 | 連結                          | System. ItemUrl                          |
-| 標題                         | System.servicemodel                         |
+| Title                         | System.servicemodel                         |
 | 作者                        | System.Author                           |
 | pubDate                       | System. DateModified                     |
-| Description                   | System. AutoSummary                      |
+| 描述                   | System. AutoSummary                      |
 | 類別                      | System.Keywords                         |
 | enclosure/@type               | System. MIMEType                         |
 | enclosure/@length             | System. Size                             |
@@ -311,22 +311,22 @@ http://schemas.microsoft.com/opensearchext/2009/
  
 
 > [!Note]  
-> 除了標準 RSS 或 Atom 專案的預設對應之外，您還可以在 Windows 命名空間中包含每個屬性的其他 XML 元素，藉以對應其他 Windows Shell 系統屬性。 您也可以在 .osdx 檔案中新增自訂屬性對應，以從其他現有的 XML 命名空間（例如 MediaRSS、iTunes 等等）對應元素。
+> 除了標準 RSS 或 Atom 專案的預設對應之外，您還可以在每個屬性的 Windows 命名空間中包含額外的 XML 元素，藉以對應其他 Windows Shell 系統屬性。 您也可以在 .osdx 檔案中新增自訂屬性對應，以從其他現有的 XML 命名空間（例如 MediaRSS、iTunes 等等）對應元素。
 
  
 
 ### <a name="custom-property-mappings"></a>自訂屬性對應
 
-您可以藉由指定 .osdx 檔案中的對應，自訂將 RSS 輸出中的專案對應至 Windows Shell 系統屬性。
+您可以藉由指定 .osdx 檔中的對應，自訂將 RSS 輸出中的專案對應至 Windows Shell 系統屬性。
 
 RSS 輸出會指定：
 
 -   XML 命名空間和
 -   若為專案的任何子項目，則為要對應的元素名稱。
 
-.Osdx 檔案會識別命名空間中每個元素名稱的 Windows Shell 屬性。 您在 .osdx 檔案中定義的屬性對應會覆寫這些指定屬性的預設對應（如果存在的話）。
+.osdx 檔案會識別命名空間中每個元素名稱的 Windows Shell 屬性。 您在 .osdx 檔案中定義的屬性對應會覆寫這些指定屬性的預設對應（如果存在的話）。
 
-下圖說明 RSS 擴充功能如何對應至 Windows 屬性 (正式名稱) 。
+下圖說明 RSS 擴充功能如何對應至 Windows 的屬性 (正式名稱) 。
 
 ![圖表顯示 xml 命名空間和 xml 路徑的組合會產生正式名稱](images/rssextensionsusexmlnamespaceandpathstomaptowindowsproperties.png)
 
@@ -346,7 +346,7 @@ RSS 輸出會指定：
 
 
 
-在下列 .osdx 檔中，XML **電子郵件** 專案會對應至 Windows Shell 屬性 [系統. EmailAddress](../properties/props-system-contact-emailaddress.md)。
+在下列 .osdx 檔中，XML **電子郵件** 專案對應至 Windows Shell 屬性 [系統. EmailAddress](../properties/props-system-contact-emailaddress.md)。
 
 
 ```
@@ -376,7 +376,7 @@ RSS 輸出會指定：
 
 ### <a name="open-file-location-context-menu"></a>開啟檔案位置內容功能表
 
-Windows 會提供一個快捷方式功能表，名為 [結果專案的 **開啟檔案位置** ]。 如果使用者從該功能表選取專案，則會開啟所選取專案的「父系」 URL。 如果 URL 是 web URL （例如 `https://...` ），則會開啟網頁瀏覽器並流覽至該 url。 您的摘要應該提供每個專案的自訂 URL，以確保 Windows 會開啟有效的 URL。 這可以藉由在專案 XML 內的元素內包含 URL 來完成，如下列範例所示：
+Windows 提供名為 [結果專案的 **開啟檔案位置**] 的快捷方式功能表。 如果使用者從該功能表選取專案，則會開啟所選取專案的「父系」 URL。 如果 URL 是 web URL （例如 `https://...` ），則會開啟網頁瀏覽器並流覽至該 url。 您的摘要應該提供每個專案的自訂 url，以確保 Windows 開啟有效的 url。 這可以藉由在專案 XML 內的元素內包含 URL 來完成，如下列範例所示：
 
 
 ```
@@ -394,11 +394,11 @@ Windows 會提供一個快捷方式功能表，名為 [結果專案的 **開啟�
 
 
 
-如果未在專案的 XML 中明確設定此屬性，則 OpenSearch 提供者會將它設定為專案 URL 的父資料夾。 在上述範例中，[OpenSearch 提供者] 會使用連結值，並將 [ [ItemFolderPathDisplay](../properties/props-system-itemfolderpathdisplay.md) Windows Shell] 屬性值設定為 `"https://example.com/"` 。
+如果未在專案的 XML 中明確設定此屬性，則 OpenSearch 提供者會將它設定為專案 URL 的父資料夾。 在上述範例中，OpenSearch 提供者會使用連結值，並將[ItemFolderPathDisplay](../properties/props-system-itemfolderpathdisplay.md) Windows Shell 屬性值設定為 `"https://example.com/"` 。
 
 ### <a name="customize-windows-explorer-views-with-property-description-lists"></a>使用屬性描述清單自訂 Windows 檔案總管的視圖
 
-某些 Windows 檔案總管 view 版面配置是由屬性描述清單或 proplists 所定義。 Proplist 是以分號分隔的屬性清單（例如 `"prop:System.ItemName; System.Author"` ），可用來控制 Windows 檔案總管中顯示結果的方式。
+某些 Windows 檔案總管 view 版面配置是由屬性描述清單或 proplists 所定義。 proplist 是以分號分隔的屬性清單（例如 `"prop:System.ItemName; System.Author"` ），可用來控制 Windows 檔案總管中顯示結果的方式。
 
 下列螢幕擷取畫面說明可使用 proplists 自訂之 Windows 檔案總管的 UI 區域：
 
@@ -408,7 +408,7 @@ Windows 檔案總管的每個區域都有相關聯的 proplists 集合，其本�
 
 
 
-| 要自訂的 UI 區域               | 執行自訂的 Windows Shell 屬性 |
+| 要自訂的 UI 區域               | Windows執行自訂的 Shell 屬性 |
 |------------------------------------|----------------------------------------------------------|
 | 搜尋) 時 (內容視圖模式 | PropList. ContentViewModeForSearch                 |
 | 流覽) 時 (內容視圖模式  | PropList. ContentViewModeForBrowse                 |
@@ -483,9 +483,9 @@ prop:~System.ItemNameDisplay;System.Author;System.ItemPathDisplay;~System.Search
 
 預覽版中所要顯示的內容是由 URL 指定，如下所示：
 
-1.  如果已針對專案設定 **WebPreviewUrl** Windows Shell 屬性，請使用該 URL。
+1.  如果已針對專案設定 **WebPreviewUrl** Windows Shell 屬性，則請使用該 URL。
     > [!Note]  
-    > 您必須使用 Windows Shell 命名空間在 RSS 中提供屬性，或在 .osdx 檔案中明確地對應。
+    > 使用 Windows Shell 命名空間，或在 .osdx 檔案中明確對應，就必須在 RSS 中提供屬性。
 
      
 
@@ -495,13 +495,13 @@ prop:~System.ItemNameDisplay;System.Author;System.ItemPathDisplay;~System.Search
 
 ![流程圖顯示 windows explorer 如何選取要用於預覽的 url](images/howwindowsexploreridentifieswhichurltouseforpreviews.png)
 
-預覽可能會使用不同于專案本身的 URL。 這表示，如果您為連結 URL 和主機殼提供不同的 Url，或 `media:content URL` Windows 檔案總管使用連結 url 來預覽專案，但是會使用其他 URL 進行檔案類型偵測、開啟、下載等等。
+預覽可能會使用不同于專案本身的 URL。 這表示，如果您為連結 url 和主機殼提供不同的 url，或 `media:content URL` Windows 檔案總管使用連結 url 來預覽專案，但是會使用其他 URL 進行檔案類型偵測、開啟、下載等等。
 
 Windows 檔案總管如何判斷要使用的 URL：
 
 1.  如果您提供 ItemFolderPathDisplay 的對應，則 Windows 檔案總管會使用該 URL [。](../properties/props-system-itemfolderpathdisplay.md)
-2.  如果您未提供對應，則 Windows 檔案總管會識別連結和主機殼 Url 是否不同。 如果是的話，Windows 檔案總管使用連結 URL。
-3.  如果 Url 相同或只有連結 URL，則 Windows 檔案總管會從完整的 URL 中移除檔案名，以剖析連結以尋找父容器。
+2.  如果您未提供對應，則 Windows 檔案總管會識別連結和主機殼 url 是否不同。 如果是的話，Windows 檔案總管使用連結 URL。
+3.  如果 url 相同或只有連結 URL，則 Windows 檔案總管會從完整的 url 中移除檔案名，以剖析連結以尋找父容器。
     > [!Note]  
     > 如果您認為 URL 剖析會導致服務的無作用連結，您應該提供屬性的明確對應。
 
@@ -511,13 +511,13 @@ Windows 檔案總管如何判斷要使用的 URL：
 
 當您以滑鼠右鍵按一下專案時，就會出現 [ **開啟檔案位置** ] 功能表命令。 此命令會將使用者帶到容器或該專案的位置。 例如，在 SharePoint 搜尋中，針對文件庫中的檔案選取此選項，就會在網頁瀏覽器中開啟文件庫根。
 
-當使用者按一下 [ **開啟檔案位置**] 時，Windows 檔案總管會使用下列流程圖所示的邏輯，嘗試尋找父容器：
+當使用者按一下 [**開啟檔案位置**] 時，Windows 檔案總管會使用下列流程圖所示的邏輯，嘗試尋找父容器：
 
 ![顯示 windows explorer 如何識別父容器的流程圖](images/howwindowsexploreridentifiesaparentcontainer.png)
 
 ## <a name="additional-resources"></a>其他資源
 
-如需有關使用 Windows 7 和更新版本中的 OpenSearch 技術來執行遠端資料存放區之搜尋同盟的詳細資訊，請參閱 [windows 同盟搜尋中](/previous-versions//dd742958(v=vs.85))的「其他資源」。
+如需有關使用 Windows 7 和更新版本中的 OpenSearch 技術來執行遠端資料存放區之搜尋同盟的詳細資訊，請參閱[Windows 中同盟搜尋](/previous-versions//dd742958(v=vs.85))的「其他資源」。
 
 ## <a name="related-topics"></a>相關主題
 

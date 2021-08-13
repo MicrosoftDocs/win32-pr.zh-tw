@@ -5,12 +5,12 @@ ms.assetid: 5e24f90a-dd53-4720-815e-9a1db51847a3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 448941b7ab0d85d50123985a120beb04f256d877
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f6d95c80627c878bbc9d8cb6ac16436e6dae3e12cf262e797724cd5053f371ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695361"
 ---
 # <a name="effective-date-and-time"></a>有效的日期和時間
 
@@ -19,13 +19,13 @@ ms.locfileid: "104020864"
 一些重要考量︰
 
 -   選擇此方法的應用程式必須確保有一組適用的資料可供使用，直到更新的物件變成有效為止。
--   Windows NT 4.0 中的分散式時間服務會將已連線的 Windows 2000 的時鐘保持同步。 不過，沒有時間服務是完美的，因此有一個小型的版本扭曲視窗。
+-   Windows NT 4.0 中的分散式時間服務會保持連接 Windows 2000 的時鐘同步。 不過，沒有時間服務是完美的，因此有一個小型的版本扭曲視窗。
 -   設定有效的日期，就能瞭解分散式系統的整體複寫延遲。 在穩定的網路中，有效日期的最佳經驗法則是更新的 (時間) + (2 \* (平均整體延遲) ) 。 因此，對於整體延遲平均4小時的系統而言，延遲為8小時是合理的。
 -   在不穩定的網路中，判斷有效日期的「良好」值會變得更困難，因為延遲可能會有極大的變化。 相較于其他規避或偵測策略（例如總和檢查碼或一致性 Guid），有效日期在不穩定的網路中是最有效的。 如需詳細資訊，請參閱總和檢查碼 [和物件計數](checksums-and-object-counts.md)。
 
- 
+ 
 
- 
+ 
 
 
 

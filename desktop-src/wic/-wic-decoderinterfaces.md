@@ -4,12 +4,12 @@ ms.assetid: b88517cc-06fe-4d83-a6a9-76e1f34293f4
 title: 解碼器介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef90ca2dd521c15460295505a6d5b7ea451c4dba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a52a0924f6302e45b10cb32a1d621db04967d33a3251ee39cce359e5030af5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119393520"
 ---
 # <a name="decoder-interfaces"></a>解碼器介面
 
@@ -62,7 +62,7 @@ Frame-Level 的解碼器介面
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

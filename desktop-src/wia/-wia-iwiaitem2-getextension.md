@@ -1,5 +1,5 @@
 ---
-description: 取得可能隨附于 Windows 映像取得的擴充介面 (WIA) 2.0 設備磁碟機。
+description: 取得可能隨附于 Windows 映像取得 (WIA) 2.0 設備磁碟機的延伸模組介面。
 ms.assetid: 70f20f33-905c-4a88-8065-1cf876e98302
 title: 'IWiaItem2：： GetExtension 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2fea4c4b9a2dd909b7ec49097ee94664b47f7e47
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c9738afe60d79b73149c9dd7dda8c3bbd1017c3b41d023b47160b624bcd7c8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450410"
 ---
 # <a name="iwiaitem2getextension-method"></a>IWiaItem2：： GetExtension 方法
 
-取得可能隨附于 Windows 映像取得的擴充介面 (WIA) 2.0 設備磁碟機。
+取得可能隨附于 Windows 映像取得 (WIA) 2.0 設備磁碟機的延伸模組介面。
 
 ## <a name="syntax"></a>語法
 
@@ -156,8 +156,8 @@ CreateSegmentationFilter(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

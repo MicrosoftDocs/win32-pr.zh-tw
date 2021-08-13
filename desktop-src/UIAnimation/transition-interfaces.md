@@ -4,12 +4,12 @@ description: 本節包含支援轉換之 Windows 動畫管理員介面的參考�
 ms.assetid: 581C853D-F213-4227-AC61-4ED2E5D4EF04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0110c44a1805c093f0872b62a4a21e13f29e00cd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b5791de6e2ca148e42ef836c8bb9be2d9dc96304df00a856b1bc036e05fca3fc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418598"
 ---
 # <a name="transition-interfaces"></a>轉換介面
 

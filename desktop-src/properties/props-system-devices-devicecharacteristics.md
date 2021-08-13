@@ -4,12 +4,12 @@ ms.assetid: c059a14d-e698-433f-a483-d29d30ab703f
 title: DeviceCharacteristics
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 287a1ba8180af959cb14ce84d1c317915c95e14a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b9551d6e2bbce49786b707d4482a42caae89f6fe534c0af97a4ae77a5d1f3ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728512"
 ---
 # <a name="systemdevicesdevicecharacteristics"></a>DeviceCharacteristics
 

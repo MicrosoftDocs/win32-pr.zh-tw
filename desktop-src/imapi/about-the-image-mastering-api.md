@@ -6,12 +6,12 @@ keywords:
 - 映射主控 API IMAPI.EXE，描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3db1dc7846d2e47483abf2ca8856d593b874467f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccb16ab8c542e7c4686c7a3f4d027169a520495a8d3fab9927f11ed974deeef6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104553277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451900"
 ---
 # <a name="about-the-image-mastering-api"></a>關於映射主控 API
 
@@ -36,9 +36,9 @@ ms.locfileid: "104553277"
 
 其餘的物件（ **MSDiscStashObj** 和 **MSBURNENGINEOBJ**）是 imapi.exe 所存取的內建物件。 此處提及的只是用來闡明 IMAPI.EXE 架構。 **MSDiscStashObj** 透過 **IDiscStash** 介面表示 (，) **MSDiscMasterObj** 用來建立要燒錄之音訊影像或資料光碟的大小（大小上限為 800 MB）。 當從較低層級的引擎要求燒錄時，會透過 **IMSBurnEngine** 介面將隱藏專案傳遞至 **MSBurnEngineObj** () 。 **MSBurnEngineObj** 物件預期隱藏內容的格式必須是已知的格式。 在這方面， **MSDiscMasterObj** 和 **MSBurnEngineObj** 有關于隱藏專案內容的合約。
 
- 
+ 
 
- 
+ 
 
 
 

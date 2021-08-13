@@ -1,19 +1,19 @@
 ---
-description: 若要使用 Windows GDI + 繪製線條，您需要建立繪圖物件和 Pen 物件。
+description: 若要使用 Windows 繪製線條 GDI+ 您需要建立繪圖物件和 Pen 物件。
 ms.assetid: d91562ab-41e6-4bca-a320-74f490a4f88f
 title: 畫筆、線條和矩形
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5e9749b1c1af6ca4808e797d016267bb251e6fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: eb8ac54d1e98a617492aa6f5f1194767fc56a34ffcaaee71ba71753dda08f8bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119359588"
 ---
 # <a name="pens-lines-and-rectangles"></a>畫筆、線條和矩形
 
-若要使用 Windows GDI + 繪製線條，您需要建立 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件和 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件。 **Graphics** 物件提供實際繪製繪圖的方法，而 **Pen** 物件會儲存線條的屬性，例如色彩、寬度和樣式。 繪製線條只是呼叫 **Graphics** 物件的 [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))方法。 **畫筆** 物件的位址會做為 DrawLine 方法的其中一個引數傳遞。 下列範例會繪製從點 (4，2) 到 (12，6) 點的直線。
+若要使用 Windows 繪製線條 GDI+ 您需要建立 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics)物件和 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen)物件。 **Graphics** 物件提供實際繪製繪圖的方法，而 **Pen** 物件會儲存線條的屬性，例如色彩、寬度和樣式。 繪製線條只是呼叫 **Graphics** 物件的 [DrawLine](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawline(inconstpen_inint_inint_inint_inint))方法。 **畫筆** 物件的位址會做為 DrawLine 方法的其中一個引數傳遞。 下列範例會繪製從點 (4，2) 到 (12，6) 點的直線。
 
 
 ```
@@ -57,7 +57,7 @@ myGraphics.DrawLine(&myPen, 100, 50, 300, 80);
 
 ![這兩行的圖解，示範圓角和圓形結束、圓角和斜接角，以及兩個箭號樣式](images/aboutgdip02-art04.png)
 
-使用 GDI + 繪製矩形類似于繪製線條。 若要繪製矩形，您需要 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件和 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件。 **Graphics** 物件提供 [graphicswindow.drawrectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint))方法，而 **Pen** 物件會儲存屬性，例如線條寬度和色彩。 **畫筆** 物件的位址會做為 graphicswindow.drawrectangle 方法的其中一個引數傳遞。 下列範例會在 (100、50) 、寬度為80且高度為40的情況下，繪製一個矩形，其左上角。
+使用 GDI+ 繪製矩形類似于繪製線條。 若要繪製矩形，您需要 [**圖形**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 物件和 [**Pen**](/windows/win32/api/gdipluspen/nl-gdipluspen-pen) 物件。 **Graphics** 物件提供 [graphicswindow.drawrectangle](/windows/win32/api/gdiplusgraphics/nf-gdiplusgraphics-graphics-drawrectangle(inconstpen_inint_inint_inint_inint))方法，而 **Pen** 物件會儲存屬性，例如線條寬度和色彩。 **畫筆** 物件的位址會做為 graphicswindow.drawrectangle 方法的其中一個引數傳遞。 下列範例會在 (100、50) 、寬度為80且高度為40的情況下，繪製一個矩形，其左上角。
 
 
 ```

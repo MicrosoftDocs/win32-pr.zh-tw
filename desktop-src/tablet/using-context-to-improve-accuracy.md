@@ -4,12 +4,12 @@ ms.assetid: b64f6856-453c-4080-84e0-0a9e69e79de7
 title: 使用內容改善精確度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ddd5c807804c1855e0be56b09f08448e3dc2967d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7564c18ace39c17e8877c3e5edee6464caea0c36d148cffbfcfb3b5ac09f666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715272"
 ---
 # <a name="using-context-to-improve-accuracy"></a>使用內容改善精確度
 
@@ -18,7 +18,7 @@ ms.locfileid: "106985603"
 本節說明您可以利用 Tablet PC 應用程式中內容的不同方式，特別強調未啟用筆墨的應用程式的慣用程式設計技巧。
 
 > [!Note]  
-> Windows Vista 軟體發展工具組的 Tablet PC 技術章節中有一些地方 (SDK) 在 [**RecognizerCoNtext**](inkrecognizercontext-class.md) 物件和其 [**PrefixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext) 和 [**SuffixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext) 屬性方面使用「內容」一詞。 請勿將「內容」的其他使用方式與本節中的定義混淆。
+> Windows Vista 軟體發展工具組 (SDK) 的 Tablet PC 技術章節中有一些地方，在 [**RecognizerCoNtext**](inkrecognizercontext-class.md)物件及其 [**PrefixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_prefixtext)和 [**SuffixText**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_suffixtext)屬性方面使用「內容」一詞。 請勿將「內容」的其他使用方式與本節中的定義混淆。
 
  
 

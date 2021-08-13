@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 5e1c01daae4e86fa18c087b67bf902daaf6f8793
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2672211e5c1a17fa360a6078069ae8260687dc896843ffb6bf572d9b7be8caa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442068"
 ---
 # <a name="iwiapreview-interface"></a>IWiaPreview 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "104191399"
 
 | 方法                                                  | 描述                                                                                                                                                                                 |
 |:--------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**清楚**](-wia-iwiapreview-clear.md)                 | 釋放 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md) 方法所快取的未篩選映射。 它也會釋放影像處理篩選。 <br/>          |
+| [**清除**](-wia-iwiapreview-clear.md)                 | 釋放 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md) 方法所快取的未篩選映射。 它也會釋放影像處理篩選。 <br/>          |
 | [**DetectRegions**](-wia-iwiapreview-detectregions.md) | 叫用驅動程式分割篩選，並將 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md) 方法快取的未篩選影像傳遞至篩選。 <br/> |
 | [**GetNewPreview**](-wia-iwiapreview-getnewpreview.md) | 在內部快取從驅動程式傳回之未篩選的映射。 <br/>                                                                                                                |
 | [**UpdatePreview**](-wia-iwiapreview-updatepreview.md) | 取得 [**IWiaPreview：： GetNewPreview**](-wia-iwiapreview-getnewpreview.md) 方法快取的未篩選影像。 <br/>                                                            |
@@ -55,7 +55,7 @@ ms.locfileid: "104191399"
 
 
 
-| IUnknown 方法                                        | Description                               |
+| IUnknown 方法                                        | 描述                               |
 |---------------------------------------------------------|-------------------------------------------|
 | [IUnknown：： QueryInterface](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) | 傳回受支援介面的指標。 |
 | [IUnknown：： AddRef](/windows/win32/api/unknwn/nf-unknwn-iunknown-addref)                 | 遞增參考次數。               |
@@ -71,8 +71,8 @@ ms.locfileid: "104191399"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: 分散式檔案系統 (DFS) 函式可讓您以邏輯方式將多部
 ms.assetid: a29cde3e-483a-4658-94d4-27398f66abfb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73738d4f503d10e7668f0f323583f49604e3a90d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 898d44ecfaeb99145570230e49156440dc9e2aac02051baa47bb496a0f58b2b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119380578"
 ---
 # <a name="distributed-file-system-dfs-functions"></a>分散式檔案系統 (DFS) 函式
 
@@ -34,6 +34,6 @@ DFS 連結可以指向一或多個共用資料夾;這些資料夾稱為 *目標*
 
 如需 DFS 結構的清單，請參閱 [分散式檔案系統結構](distributed-file-system-structures.md)。
 
-在執行 Microsoft Windows 的電腦上，您可以在 DFS 命名空間中發佈目標。 您也可以發佈任何可在 DFS 命名空間中使用用戶端重新導向程式的非 Microsoft 共用。 但是，不同于在執行 Windows Server 的伺服器上發佈的共用，它們無法裝載 DFS 根目錄或提供其他 DFS 目標的參考。
+在執行 Microsoft Windows 的電腦上，您可以在 DFS 命名空間中發佈目標。 您也可以發佈任何可在 DFS 命名空間中使用用戶端重新導向程式的非 Microsoft 共用。 不過，與在執行 Windows server 的伺服器上發佈的共用不同，它們無法裝載 dfs 根目錄或提供其他 dfs 目標的參考。
 
-DFS 使用 Windows Server 檔案複寫服務複製複寫目標之間的變更。 使用者可以修改儲存在某個目標上的檔案，而且檔案複寫服務會將變更傳播到其他指定的目標。 服務會保留檔或檔案的最新變更。
+DFS 使用 Windows Server 檔案複寫服務來複製複寫目標之間的變更。 使用者可以修改儲存在某個目標上的檔案，而且檔案複寫服務會將變更傳播到其他指定的目標。 服務會保留檔或檔案的最新變更。

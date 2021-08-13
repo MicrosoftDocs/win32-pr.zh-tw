@@ -4,12 +4,12 @@ ms.assetid: 00198aec-d05d-4aaf-b63e-1625d8befe06
 title: Contact
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d170b94a8a1b6a33345ff06eb051740e179aaca
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 024f8330e2aa5402fac76192928afd8064b4ff456fd37adab5d8e0e7d3d785d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119460138"
 ---
 # <a name="contact"></a>Contact
 
@@ -135,7 +135,7 @@ ms.locfileid: "108105086"
 | [MiddleName](./props-system-contact-middlename.md)<br/>                                      | 連絡人的中間名。<br/>                                                                         |
 | [MobileTelephone](./props-system-contact-mobiletelephone.md)<br/>                            | 連絡人的行動電話號碼。<br/>                                                             |
 | [System.object](./props-system-contact-nickname.md)<br/>                                          | 連絡人的暱稱。<br/>                                                                            |
-| [OfficeLocation](./props-system-contact-officelocation.md)<br/>                              | 連絡人的辦公室位置。<br/>                                                                     |
+| [OfficeLocation](./props-system-contact-officelocation.md)<br/>                              | 連絡人的 Office 位置。<br/>                                                                     |
 | [OtherAddress](./props-system-contact-otheraddress.md)<br/>                                  | 連絡人的其他位址<br/>                                                                        |
 | [OtherAddress1Country](props-system-contact-otheraddress1country.md)<br/>                         |                                                                                                                |
 | [OtherAddress1Locality](props-system-contact-otheraddress1locality.md)<br/>                       |                                                                                                                |

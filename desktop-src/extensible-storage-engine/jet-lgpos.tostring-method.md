@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f9935282c221b72af72c1afb13c8ae4f6797dc86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceac2f30987d956ba98034f12c9bebce98d723b032893861f0d2be494ad75520
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401425"
 ---
 # <a name="jet_lgpostostring-method"></a>JET_LGPOS。ToString 方法
 

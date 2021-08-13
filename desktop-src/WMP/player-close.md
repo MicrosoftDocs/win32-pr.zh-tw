@@ -1,6 +1,6 @@
 ---
 title: Player. close 方法
-description: Close 方法會釋放 Windows Media Player 資源。
+description: close 方法會釋放 Windows Media Player 資源。
 ms.assetid: 15bd5a05-dbfa-4bea-90c2-afd9f69631e0
 keywords:
 - close 方法 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: debc2667c42da92b3a2639e0f14c767d2b5b0651
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a29e68aed11b095dff80c8c91c88410f98b9a236bbcadcbff75da0fc0de392fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467878"
 ---
 # <a name="playerclose-method"></a>Player. close 方法
 
-**Close** 方法會釋放 Windows Media Player 資源。
+**close** 方法會釋放 Windows Media Player 資源。
 
 ## <a name="syntax"></a>語法
 

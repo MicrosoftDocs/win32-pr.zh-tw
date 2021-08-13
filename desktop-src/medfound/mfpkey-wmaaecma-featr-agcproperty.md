@@ -4,12 +4,12 @@ ms.assetid: 85ac8de0-ac36-4b34-a93d-0ac792a677b2
 title: 'MFPKEY_WMAAECMA_FEATR_AGC 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f42c7abd854b8fe18b5cfd4fe23ededb28faa6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f038b18657363677e0953f8fe973c2e3029130ffc2183a08344e1b0cd6905747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343808"
 ---
 # <a name="mfpkey_wmaaecma_featr_agc-property"></a>MFPKEY \_ WMAAECMA \_ FEATR \_ AGC 屬性
 
@@ -56,8 +56,8 @@ VARIANT \_ FALSE
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

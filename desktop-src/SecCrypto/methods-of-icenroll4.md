@@ -4,12 +4,12 @@ ms.assetid: f15a2a96-35b2-4064-8601-972d0c8ad97b
 title: ICEnroll4 的方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff0b315b2b256408aba7c57471e95f78bd9f8415
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be84ad49169e273ecb2f1829a1ca358dffaf580469a4f8c1b1061262235ade04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119425568"
 ---
 # <a name="methods-of-icenroll4"></a>ICEnroll4 的方法
 
@@ -31,10 +31,10 @@ ms.locfileid: "104113560"
 | [**addNameValuePairToRequest**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-addnamevaluepairtorequest)       | 將名稱/值字串組加入至要求。<br/>                                                                                                                                                                                                                                                                                                                               |
 | [**addNameValuePairToSignature**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll2-addnamevaluepairtosignature)   | 將 [*屬性*](../secgloss/a-gly.md) 的名稱和值組加入至要求。 它是由 CA 來解讀名稱/值配對的意義。<br/>                                                                                                                                                                        |
 | [**binaryToString**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-binarytostring)                             | 將二進位資料 [*BLOB*](../secgloss/b-gly.md) 轉換成字串。<br/>                                                                                                                                                                                                                                                                          |
-| [**createFilePFX**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createfilepfx)                               | 將接受的憑證鏈和 [*私密金鑰*](../secgloss/p-gly.md) 儲存在個人資訊交換 (PFX) 格式的檔案中。<br/>                                                                                                                                                                                       |
+| [**createFilePFX**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createfilepfx)                               | 將接受的憑證鏈和 [*私密金鑰*](../secgloss/p-gly.md)儲存在個人資訊 Exchange (PFX) 格式的檔案中。<br/>                                                                                                                                                                                       |
 | [**createFilePKCS10**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll-createfilepkcs10)                         | 建立 base64 編碼的 PKCS \# 10 [*憑證要求*](../secgloss/c-gly.md) ，並將它儲存在檔案中。<br/>                                                                                                                                                                                                      |
 | [**createFileRequest**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createfilerequest)                       | 建立 PKCS \# 10 憑證要求、pkcs \) (CMC) 要求，並將它儲存在檔案中。<br/>                                                                                                               |
-| [**createPFX**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createpfx)                                       | 將接受的憑證鏈和私密金鑰儲存在個人資訊交換 (PFX) 格式字串中。 PFX 格式也稱為 PKCS \# 12。<br/>                                                                                                                                                                                                                     |
+| [**createPFX**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createpfx)                                       | 將接受的憑證鏈和私密金鑰儲存在個人資訊 Exchange (PFX) 格式字串中。 PFX 格式也稱為 PKCS \# 12。<br/>                                                                                                                                                                                                                     |
 | [**createPKCS10**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll-createpkcs10)                                 | 建立 base64 編碼的 PKCS \# 10 憑證要求。<br/>                                                                                                                                                                                                                                                                                                                     |
 | [**createRequest**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll4-createrequest)                               | 建立 PKCS \# 10、pkcs \) (CMC) 格式的 [*憑證要求*](../secgloss/c-gly.md) ，並將它儲存在字串中。<br/>                                  |
 | [**EnumAlgs**](/windows/desktop/api/Xenroll/nf-xenroll-icenroll3-enumalgs)                                         | 抓取目前 CSP 所支援之指定演算法類別中的密碼編譯演算法識別碼。<br/>                                                                                                                                                                                                                                                             |

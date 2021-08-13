@@ -4,12 +4,12 @@ ms.assetid: 8ed8a2c3-f88e-427a-9b92-dc244dd453c9
 title: '轉譯狀態 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0531aacedd4029eb39eb29ef777c9c9b09767b7d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7f7a540ca4ba6c5b1db44672fd8fab7105b8c203a45eb245816f3c20c5988800
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119368808"
 ---
 # <a name="render-states-direct3d-9"></a>轉譯狀態 (Direct3D 9) 
 

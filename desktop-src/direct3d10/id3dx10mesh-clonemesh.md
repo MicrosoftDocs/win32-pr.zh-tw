@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 0f007475ea9f6aeaa6dc0c01bbd721c4a5103adf
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 292522e47dbaf6937d871209006134e866e92fdeb27f6edba4f4f71f6d1fad14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106991971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409128"
 ---
 # <a name="id3dx10meshclonemesh-method"></a>ID3DX10Mesh：： CloneMesh 方法
 
@@ -44,7 +44,7 @@ HRESULT CloneMesh(
 
 <dl> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**

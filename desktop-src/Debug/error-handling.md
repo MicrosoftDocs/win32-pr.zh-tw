@@ -4,12 +4,12 @@ ms.assetid: b8d84980-6ba9-4784-8ab0-d5e9c5c95bae
 title: '錯誤處理 (錯誤處理) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 781dee321acacbee8b740935d8b2569720cdb62f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fe2c7df2257fde950de2ed67bf92a1ec65fc805ff30f65aa7aef6fa246245a13
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343628"
 ---
 # <a name="error-handling-error-handling"></a>錯誤處理 (錯誤處理) 
 

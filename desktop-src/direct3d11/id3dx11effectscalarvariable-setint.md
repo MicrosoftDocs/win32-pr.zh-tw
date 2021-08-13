@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b4e2f44a3b67db12bd84f5dd23426c033b99b57
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: 215083d35bfbdd67cd970bfe31b81a1e19594b2bf849e1c19692fa96af257036
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119377538"
 ---
 # <a name="id3dx11effectscalarvariablesetint-method"></a>ID3DX11EffectScalarVariable：： SetInt 方法
 

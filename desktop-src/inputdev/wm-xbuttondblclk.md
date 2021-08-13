@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed0612c2850f784901f01313935145fc9d3d7910
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48f15ed64871cee3b5a97ad8067e883d7ad31206896f6b20150acdb490a2f44c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118757147"
 ---
 # <a name="wm_xbuttondblclk-message"></a>WM \_ XBUTTONDBLCLK 訊息
 
@@ -118,7 +118,7 @@ yPos = GET_Y_LPARAM(lParam);
 
 只有具有 **CS \_ DBLCLKS** 樣式的視窗可以接收 **WM \_ XBUTTONDBLCLK** 訊息，每次使用者按下、放開，然後在系統的按兩下時間限制內再次按下 X 按鈕時，系統就會產生此訊息。 按兩下其中一個按鈕會實際產生四則訊息： [**wm \_ XBUTTONDOWN**](wm-xbuttondown.md)、 [**wm \_ XBUTTONUP**](wm-xbuttonup.md)、 **wm \_ XBUTTONDBLCLK** 和 **wm \_ XBUTTONUP** 。
 
-不同于 [**wm \_ LBUTTONDBLCLK**](wm-lbuttondblclk.md)、 [**wm \_ MBUTTONDBLCLK**](wm-mbuttondblclk.md)和 [**wm \_ RBUTTONDBLCLK**](wm-rbuttondblclk.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這麼做可讓在 Windows 2000 之前的 Windows 系統上模擬此訊息的軟體，判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca) 來處理訊息。
+不同于 [**wm \_ LBUTTONDBLCLK**](wm-lbuttondblclk.md)、 [**wm \_ MBUTTONDBLCLK**](wm-mbuttondblclk.md)和 [**wm \_ RBUTTONDBLCLK**](wm-rbuttondblclk.md) 訊息，應用程式應該會在處理時從這個訊息傳回 **TRUE** 。 這樣做會允許在早于 Windows 2000 的 Windows 系統上模擬此訊息的軟體，以判斷視窗程式是否已處理訊息或呼叫 [**DefWindowProc**](/windows/desktop/api/winuser/nf-winuser-defwindowproca)來處理訊息。
 
 ## <a name="requirements"></a>規格需求
 

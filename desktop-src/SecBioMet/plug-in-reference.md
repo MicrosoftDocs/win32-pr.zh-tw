@@ -3,15 +3,15 @@ title: 外掛程式參考
 description: 介面卡函式、包裝函式，以及用來建立三種類型引擎、感應器和儲存體之自訂外掛程式介面卡的結構。
 ms.assetid: 1886c389-b914-4b2d-ab7e-3e163782673d
 keywords:
-- Windows 生物特徵辨識架構 API Windows 生物特徵辨識架構 API、外掛程式參考
+- Windows生物特徵辨識架構 api Windows 生物特徵辨識架構 API、外掛程式參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc764be98f6417d211effe1c182279d54c95d234
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2223f398579663d94c0cc40daef1fcf37e4239d8d0dc8246fedd15b454b3354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119410958"
 ---
 # <a name="plug-in-reference"></a>外掛程式參考
 

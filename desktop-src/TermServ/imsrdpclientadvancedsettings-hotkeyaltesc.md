@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b661a91a0204177525063629825c478b40b4c29e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8757a2c8ba35ad2ba3080f340126fd689704769682a72389806eb905ecbf9aae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104467029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119475458"
 ---
 # <a name="imsrdpclientadvancedsettingshotkeyaltesc-property"></a>IMsRdpClientAdvancedSettings：： HotKeyAltEsc 屬性
 

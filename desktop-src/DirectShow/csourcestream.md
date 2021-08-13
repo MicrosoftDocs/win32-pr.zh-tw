@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 36b9085df8c15e765c751be8b5fcdfd4f4a02140
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0f7563cabff97626ac45a150e9a763033d9ce9261e5ae528e83d174e35d4f0d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428780"
 ---
 # <a name="csourcestream-class"></a>CSourceStream 類別
 
@@ -49,10 +49,10 @@ ms.locfileid: "106999417"
 
 
 
-| 受保護的成員變數                                             | Description                                                                                                                       |
+| 受保護的成員變數                                             | 描述                                                                                                                       |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | [**m \_ pFilter**](csourcestream-m-pfilter.md)                          | 包含此 pin 之篩選準則的指標。                                                                                     |
-| 保護方法                                                      | Description                                                                                                                       |
+| 保護方法                                                      | 描述                                                                                                                       |
 | [**OnThreadCreate**](csourcestream-onthreadcreate.md)                 | 在串流處理執行緒初始化時呼叫。 虛擬。                                                                         |
 | [**OnThreadDestroy**](csourcestream-onthreaddestroy.md)               | 當串流執行緒即將結束時呼叫。 虛擬。                                                                       |
 | [**OnThreadStartPlay**](csourcestream-onthreadstartplay.md)           | 在 [**CSourceStream：:D obufferprocessingloop**](csourcestream-dobufferprocessingloop.md) 方法開始時呼叫。 虛擬。 |
@@ -64,7 +64,7 @@ ms.locfileid: "106999417"
 | [**DoBufferProcessingLoop**](csourcestream-dobufferprocessingloop.md) | 產生媒體資料，並將其傳遞至下游輸入 pin。 虛擬。                                                        |
 | [**CheckMediaType**](csourcestream-checkmediatype.md)                 | 判斷 pin 是否接受特定的媒體類型。 虛擬。                                                                     |
 | [**GetMediaType**](csourcestream-getmediatype.md)                     | 捕獲慣用的媒體類型。 虛擬。                                                                                        |
-| 公用方法                                                         | Description                                                                                                                       |
+| 公用方法                                                         | 描述                                                                                                                       |
 | [**CSourceStream**](csourcestream-csourcestream.md)                   | 函式方法。                                                                                                               |
 | [**~ CSourceStream**](csourcestream--csourcestream.md)                | 函式方法。 虛擬。                                                                                                       |
 | [**Init**](csourcestream-init.md)                                     | 初始化串流執行緒。                                                                                                 |
@@ -72,9 +72,9 @@ ms.locfileid: "106999417"
 | [**執行**](csourcestream-run.md)                                       | 指示要執行的串流執行緒。                                                                                              |
 | [**暫停**](csourcestream-pause.md)                                   | 通知串流執行緒成為作用中。                                                                                    |
 | [**停止**](csourcestream-stop.md)                                     | 通知串流執行緒停止。                                                                                             |
-| 純虛擬方法                                                   | Description                                                                                                                       |
+| 純虛擬方法                                                   | 描述                                                                                                                       |
 | [**FillBuffer**](csourcestream-fillbuffer.md)                         | 使用資料填滿媒體範例。                                                                                                   |
-| IPin 方法                                                           | Description                                                                                                                       |
+| IPin 方法                                                           | 描述                                                                                                                       |
 | [**QueryId**](/windows/desktop/api/Strmif/nf-strmif-ipin-queryid)                                        | 抓取 pin 的識別碼。                                                                                              |
 
 

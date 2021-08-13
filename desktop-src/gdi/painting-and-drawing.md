@@ -4,12 +4,12 @@ ms.assetid: 8e6034af-4dea-4579-b476-52f6dd3d5bc7
 title: 繪製和繪製
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3176ef624da48af471ffe230e33d7c80aee4ee70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53b85464aecb638dbd7a804eea58ab7e551a681a1bcb7a7131c77c11c1e8cae6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118759565"
 ---
 # <a name="painting-and-drawing"></a>繪製和繪製
 

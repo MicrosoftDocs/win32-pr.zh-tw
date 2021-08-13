@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Controller 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef17eaf2c8bd22863f0146163e74081bd793de15
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ce98abed2162b288b94ca3ddeb79c8daad9a06749586aa1038b70930412ec80f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119439118"
 ---
 # <a name="cim_controller-methods"></a>CIM \_ 控制器方法
 

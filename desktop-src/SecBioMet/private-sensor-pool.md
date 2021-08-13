@@ -4,12 +4,12 @@ description: 保留給用戶端應用程式專用使用的生物識別單位集�
 ms.assetid: f0ccbafd-e7a8-4389-bd05-0b062dfc4dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf829290b0e412247b5e629a46e8c0efdafb4880
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 306f4e0d4e28cfb29dda694e835348721113a5c23ec51054169537282ae2c365
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119480438"
 ---
 # <a name="private-sensor-pool"></a>私人感應器集區
 
@@ -32,7 +32,7 @@ ms.locfileid: "104184057"
 > [!Note]  
 > 應用程式只能針對指紋生物識別建立私人感應器集區。 如果應用程式嘗試為其他任何人建立一個 (例如，臉部) ，要求將會失敗。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -47,9 +47,9 @@ ms.locfileid: "104184057"
 [系統感應器集區](system-sensor-pool.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

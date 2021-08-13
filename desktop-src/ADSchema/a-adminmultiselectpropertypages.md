@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e653568d4f8f6653e4c7dc939c91a7d3cd8b83c6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6ed42d2383d194ca417a381da8ef0e849b4d4b6b93665fd7d360df2829f7e0d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106972711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688392"
 ---
 # <a name="admin-multiselect-property-pages-attribute"></a>系統管理-多重複選-屬性頁屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "106972711"
 | Ldap-顯示名稱 | adminMultiselectPropertyPages                                                                                                               |
 | 大小              | 40位元組                                                                                                                                    |
 | 更新許可權  | 網域系統管理員                                                                                                                        |
-| 更新頻率  | 只有在已安裝的服務（例如 Exchange 或終端機伺服器）上執行時，才會更新，以執行自己的多重選取屬性頁。 |
+| 更新頻率  | 只有在安裝了 Exchange 或終端機伺服器之類的服務時，才會進行更新，以執行自己的多重選取屬性頁。 |
 | Attribute-Id      | 1.2.840.113556.1.4.1690                                                                                                                     |
 | 系統識別碼-Guid    | 18f9b67d-5ac6-4b3b-97db-d0a406afb7ba                                                                                                        |
 | Syntax            | [**String(Unicode)**](s-string-unicode.md)                                                                                                 |

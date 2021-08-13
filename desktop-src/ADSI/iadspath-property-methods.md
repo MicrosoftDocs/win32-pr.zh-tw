@@ -24,12 +24,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5adcc1c60a9b678e99074ae3547d35c7ac8c7356
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 743410e7ceea97b7066979bf753a4e73afbc8a852b5b36175a9d62109b6d6ef8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691326"
 ---
 # <a name="iadspath-property-methods"></a>IADsPath 屬性方法
 
@@ -67,7 +67,7 @@ HRESULT put_Path(
 
 </dt> </dl> </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl>
 
 檔案系統的檔案類型。

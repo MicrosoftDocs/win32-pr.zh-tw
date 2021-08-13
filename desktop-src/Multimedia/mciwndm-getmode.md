@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETMODE 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETMODE 訊息會抓取 MCI 裝置目前的作業模式。 MCI 裝置有數個作業模式，由常數指定。 您可以使用 MCIWndGetMode 宏明確地傳送此訊息。
 ms.assetid: cc327281-434e-4047-9e15-c04a10953f47
 keywords:
-- MCIWNDM_GETMODE message Windows 多媒體
+- MCIWNDM_GETMODE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5daefea2c550a1d0cf807ae03840c38ae8b2567c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 645d7a660df8d22cb2adb70a775d5431eb31dc986b502bb4dbb36b1963ce06f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429268"
 ---
 # <a name="mciwndm_getmode-message"></a>MCIWNDM \_ GETMODE 訊息
 

@@ -4,12 +4,12 @@ ms.assetid: 4b45d9b0-5e17-4b75-9e04-4786276b3106
 description: 深入瞭解： IMAPI.EXE 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02230d9ea34429c3f2f4605b2300865a7583dbd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7e1ea83bbb632615240669fa205685d52a114633ad7976d5a3ff933f4689aa0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119399938"
 ---
 # <a name="imapi-enumerations"></a>IMAPI.EXE 列舉
 

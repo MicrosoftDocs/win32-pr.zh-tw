@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.uint
 ms:contentKeyID: 55104183
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bba1d2a2c1209248e35188a79c01839eb825da12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24c5603f8b3a53abd67bf567f40a0d0911a9f287923234c361eb471d1da9fa70
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401178"
 ---
 # <a name="uint64columnvalue-methods"></a>UInt64ColumnValue 方法
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ntdll.dll
-ms.openlocfilehash: 8b3de7192a9a26d367fc0b6ad231fbc046514ec6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8d6268857387d4caf4b024eb6dd308ac11349fe839173d307a311bf63ef84b56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119385558"
 ---
 # <a name="rtlutf8tounicoden-function"></a>RtlUTF8ToUnicodeN 函式
 
@@ -84,7 +84,7 @@ NTSTATUS WINAPI RtlUTF8ToUnicodeN(
 
 
 
-| 傳回碼                                                                                                  | Description                                                                                                     |
+| 傳回碼                                                                                                  | 描述                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**狀態 \_ 成功**</dt> </dl>               | 字串已轉換成 Unicode。<br/>                                                                 |
 | <dl> <dt>**狀態 \_ 部分 \_ 未 \_ 對應**</dt> </dl>     | 遇到不正確輸入字元，並被取代。 此狀態會被視為成功狀態。<br/> |
@@ -114,8 +114,8 @@ NTSTATUS WINAPI RtlUTF8ToUnicodeN(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wdm</dt> </dl>     |
 | DLL<br/>                      | <dl> <dt>Ntdll.dll</dt> </dl> |
 

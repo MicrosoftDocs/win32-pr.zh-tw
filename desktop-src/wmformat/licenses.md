@@ -3,9 +3,9 @@ title: 授權
 description: 授權
 ms.assetid: 74717519-bfd5-4a64-88eb-680d4bdfe74a
 keywords:
-- 'Windows Media 格式 SDK、數位版權管理 (DRM) '
-- Windows Media Format SDK，DRM 授權
-- Windows Media Format SDK，DRM 的授權
+- 'Windows媒體格式 SDK、數位版權管理 (DRM) '
+- Windows媒體格式 SDK，DRM 授權
+- Windows媒體格式 SDK，DRM 的授權
 - 數位版權管理 (DRM) 、授權
 - DRM (數位版權管理) 、授權
 - 數位版權管理 (DRM) 、受保護的檔案授權
@@ -13,12 +13,12 @@ keywords:
 - 授權，DRM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0fbf2d7c0a25b2b19241d90743f43f46a71d7e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b899e44ffdff5d2a7f3c5fb3237b477ae0143327a331f63bd9717e3ae4320483
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700832"
 ---
 # <a name="licenses"></a>授權
 
@@ -37,9 +37,9 @@ ms.locfileid: "104311259"
 [**概念**](drmconcepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

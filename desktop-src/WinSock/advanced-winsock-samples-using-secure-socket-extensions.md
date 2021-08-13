@@ -4,12 +4,12 @@ ms.assetid: 9c429363-f9bb-4394-89be-f87507f5cbdd
 title: 使用安全通訊端延伸模組的 Advanced Winsock 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6701809ad97c7d39acf1f0eae646e7555e5c967f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ead38a7e62be527e91474ac921803327647ca6cefd1ec68778d03e1c68c1bf3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412168"
 ---
 # <a name="advanced-winsock-samples-using-secure-socket-extensions"></a>使用安全通訊端延伸模組的 Advanced Winsock 範例
 
@@ -80,7 +80,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含更先進的 Winsock 範例，�
 [Windows 篩選平台](/windows/desktop/FWP/windows-filtering-platform-start-page)
 </dt> <dt>
 
-[Windows 篩選平台 API 函式](/windows/desktop/FWP/fwp-functions)
+[Windows篩選平臺 API 函數](/windows/desktop/FWP/fwp-functions)
 </dt> <dt>
 
 [Winsock 安全通訊端擴充功能](winsock-secure-socket-extensions.md)

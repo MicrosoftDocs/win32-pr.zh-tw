@@ -1,5 +1,5 @@
 ---
-title: 'IWMPPlaylistArray (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPPlaylistArray (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性和方法，以依索引編號存取 IWMPPlaylist 介面的集合。IWMPPlaylistArray 介面會公開下列屬性。
 ms.assetid: 8a7477ee-58c5-41b2-9259-d1976433ae02
 keywords:
@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c3c926545635e1e83c7ba18eac99b2e96da59f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de9cd5db545e75aaf03c488608e825c92645f7cfaeaf0f645cc764fc6e886ecd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119468428"
 ---
 # <a name="iwmpplaylistarray-vb-and-c-interface"></a>IWMPPlaylistArray (VB 和 c # ) 介面
 
@@ -55,7 +55,7 @@ ms.locfileid: "106982492"
 
 
 
-| 屬性                                                                              | 存取類型          | Description                                                   |
+| 屬性                                                                              | 存取類型          | 描述                                                   |
 |:--------------------------------------------------------------------------------------|:---------------------|:--------------------------------------------------------------|
 | [**count**](wmplibiwmpplaylistarray-iwmpplaylistarray-count--vb-and-c.md)<br/> | 唯讀<br/> | 取得播放清單陣列中的播放清單數目<br/> |
 
@@ -89,7 +89,7 @@ ms.locfileid: "106982492"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**IWMPPlaylist 介面 (VB 和 c # )**](iwmpplaylist--vb-and-c.md)

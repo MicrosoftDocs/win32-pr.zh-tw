@@ -4,18 +4,18 @@ ms.assetid: 539f41d3-5fb8-4e20-99ba-0d5af1f0cc54
 title: 適用于 PenInputPanel 使用者的 TextInputPanel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14ed213db49427d997f0ea1dda414cf1a6a0c2d4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fd75fddb929dfd9e0e783aefc0d3f57743d23d5c35f23c845a9745660512f52
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119222159"
 ---
 # <a name="textinputpanel-for-users-of-peninputpanel"></a>適用于 PenInputPanel 使用者的 TextInputPanel
 
 Windows Vista 的發行版本包含了 [Tablet PC 輸入面板] 的新可程式性物件，可提供應用程式如何使用和與輸入面板互動的新範圍。 第一次，應用程式開發人員可以將 In-Place 輸入面板圖示定位至文字方塊中，或將它放在客戶筆跡表面的角落，以提供替代輸入模式的存取權。 當輸入面板圖示展開至 In-Place 輸入面板之後，開發人員就會有相同的定位控制權。 如此一來，就可以確保 In-Place 輸入面板永遠不會與應用程式佈建中的主要使用者介面元素重迭，或甚至是重新排列應用程式的使用者介面，以為 In-Place 輸入面板建立空間，然後將它放在保留空間中。 新的可程式性模型不僅支援定位，開發人員也可以自訂輸入區域、更正模式以及許多其他的輸入面板屬性，以在應用程式中量身訂做文字輸入體驗。 最後，在第一次，應用程式可能會接收使用者筆跡，除了可辨識的文字之外，還能與輸入面板中的文字插入相關聯。 這會啟用新的應用程式案例，包括變更追蹤記錄中的筆墨，以及允許使用者在應用程式中編輯或查看筆墨。 這些新的程式設計功能是 Microsoft 針對輸入面板開發人員故事所收到意見反應的直接結果，並代表更緊密地整合應用程式與輸入面板的第一步。
 
-為了提供此擴充的輸入面板可程式化模型，現有的機制可以用程式設計方式與輸入面板互動， [**PenInputPanel**](peninputpanel-class.md) 物件會被取代，並取代為新的 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) 物件。 除了提供新的程式設計功能之外， **TextInputPanel** 物件也提供 **PenInputPanel** 物件的所有程式設計功能。 **TextInputPanel** 物件包含在 windows Vista 和 Windows Vista 軟體發展人員套件中。 **TextInputPanel** 物件只與 windows Vista 的 [輸入面板] 相容，且不能與 Windows XP Service Pack 2 或舊版的 [輸入面板] 搭配使用。 先前撰寫為使用 **PenInputPanel** 物件的應用程式將會繼續使用 Windows Vista 輸入面板，不過，在撰寫新的平板電腦應用程式時，強烈建議您使用新的 **TextInputPanel** 物件，而不是已淘汰的 **PenInputPanel** 物件。
+為了提供此擴充的輸入面板可程式化模型，現有的機制可以用程式設計方式與輸入面板互動， [**PenInputPanel**](peninputpanel-class.md) 物件會被取代，並取代為新的 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) 物件。 除了提供新的程式設計功能之外， **TextInputPanel** 物件也提供 **PenInputPanel** 物件的所有程式設計功能。 **TextInputPanel** 物件包含在 Windows vista 和 Windows vista 軟體發展人員套件中。 **TextInputPanel** 物件只與 Windows Vista 輸入面板相容，且不能與 Windows XP Service Pack 2 或舊版的輸入面板一起使用。 先前撰寫為使用 **PenInputPanel** 物件的應用程式將繼續使用 Windows Vista 輸入面板，不過，在撰寫新的平板電腦應用程式時，強烈建議您使用新的 **TextInputPanel** 物件，而不是已被取代的 **PenInputPanel** 物件。
 
 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel)物件的每個可程式性選項，都可以根據每個文字欄位來套用。 使用 [**AttachedEditWindow**](/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpanel-get_attachededitwindow)屬性附加 **TextInputPanel** 物件的實例，即可完成這項作業。 屬性應該設定為文字欄位的視窗控制碼。
 
@@ -26,7 +26,7 @@ Windows Vista 的發行版本包含了 [Tablet PC 輸入面板] 的新可程式�
 
 ## <a name="control-of-input-panel-icon-and-input-panel-visibility"></a>輸入面板圖示和輸入面板可見度的控制權
 
-輸入面板的第一個層面是，應用程式開發人員可以在 Windows Vista 中獲得更多的控制權。 您可以使用 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) 物件，以三種方式控制 In-Place 輸入面板的可見度。 使用屬性和方法的組合，應用程式可以判斷 In-Place 輸入面板是否顯示、In-Place 輸入面板顯示時，以及它是先顯示為輸入面板圖示或立即顯示展開。 藉由結合這些技術，以控制在下一節中所討論的定位技術，應用程式開發人員可以使用應用程式中的 In-Place 輸入面板來建立自訂啟動點和自訂工作流程。
+輸入面板的第一個層面，是應用程式開發人員在 Windows Vista 中更能掌控的部分。 您可以使用 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) 物件，以三種方式控制 In-Place 輸入面板的可見度。 使用屬性和方法的組合，應用程式可以判斷 In-Place 輸入面板是否顯示、In-Place 輸入面板顯示時，以及它是先顯示為輸入面板圖示或立即顯示展開。 藉由結合這些技術，以控制在下一節中所討論的定位技術，應用程式開發人員可以使用應用程式中的 In-Place 輸入面板來建立自訂啟動點和自訂工作流程。
 
 > [!Note]  
 > 只有當輸入面板處於 In-Place 互動模式時，本節中所討論的屬性和方法才適用。
@@ -140,11 +140,11 @@ InteractionMode \_ DockedBottom – Docked-Bottom 互動模式與 Docked-Top 模
 
 為了接收透過 [輸入面板] 輸入之文字的 [**InkDisp**](inkdisp-class.md)物件，應用程式必須註冊，才能接收 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel)物件所產生的 [**TextInserting**](/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserting)或 [**TextInserted**](/windows/desktop/api/peninputpanel/nf-peninputpanel-itextinputpaneleventsink-textinserted)事件。 **TextInserting** 事件會在文字從輸入面板插入應用程式之前立即引發，而且在所有事件處理常式完成之前，不會插入文字。 **TextInserted** 事件會在插入測試之後立即引發。 **TextInserting** 和 **TextInserted** 事件的唯一參數是 **InkDisp** 物件的陣列，其中包含從輸入面板插入的每一行文字的一個 **InkDisp** 物件。 注意：當事件處理常式正在執行時，輸入面板處於非使用中狀態，而且可能會對使用者顯示為無回應，因此請務必讓這些事件處理常式變得輕量，並確保它們能快速執行。 此外，應用程式不應該建立此事件的處理常式，除非它有特定的資訊用途，因為這樣做會有相關聯的效能成本。 輸入面板只會在有應用程式要求資料時封送處理筆墨資料，否則輸入面板可以略過這項昂貴的作業。 **TextInserting** 和 **TextInserted** 事件的參數都是唯讀的，這表示應用程式在插入應用程式之前，不可能變更插入的文字。
 
-應用程式可以使用這種新功能執行的可能性很廣泛，而且使用起來可能不容易。 允許應用程式收集透過輸入面板所輸入的已辨識文字和筆墨，就是在 Windows Vista 中改善輸入面板開發人員故事的另一種方式。
+應用程式可以使用這種新功能執行的可能性很廣泛，而且使用起來可能不容易。 藉由應用程式收集透過輸入面板所輸入的已辨識文字和筆墨，就是在 Windows Vista 中改善輸入面板開發人員故事的另一種方式。
 
 ## <a name="conclusion"></a>結論
 
-整體來說，[Tablet PC 輸入面板] 的可程式性案例在 Windows Vista 中引進 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel) 物件，大幅改善了。 藉由使用 **TextInputPanel** 物件，應用程式開發人員可以更充分掌控舊版中狀態輸入面板的控制權和詳細資訊。 因此，強烈建議應用程式開發人員建立新的 Tablet PC 應用程式或更新現有的應用程式，以使用 **TextInputPanel** 物件，而不是現在已被取代的 [**PenInputPanel**](peninputpanel-class.md) 物件。 此外，支援新功能（例如輸入面板的絕對位置和輸入面板圖示），以及應用程式透過 [輸入面板] 同時接收辨識器文字和筆墨的功能，可啟用新的應用程式功能和案例。 包含這些功能和其他幾項功能，可直接回應開發人員的意見反應，並標示將輸入面板與 Tablet PC 應用程式完全整合的第一步。 最後，擴充 Tablet PC 應用程式功能對應用程式開發人員和 Tablet PC 平臺而言都是一大勝利。
+整體來說，[Tablet PC 輸入面板] 的可程式性案例在 Windows Vista 中引進 [**TextInputPanel**](/windows/desktop/api/peninputpanel/nn-peninputpanel-itextinputpanel)物件，大幅改進。 藉由使用 **TextInputPanel** 物件，應用程式開發人員可以更充分掌控舊版中狀態輸入面板的控制權和詳細資訊。 因此，強烈建議應用程式開發人員建立新的 Tablet PC 應用程式或更新現有的應用程式，以使用 **TextInputPanel** 物件，而不是現在已被取代的 [**PenInputPanel**](peninputpanel-class.md) 物件。 此外，支援新功能（例如輸入面板的絕對位置和輸入面板圖示），以及應用程式透過 [輸入面板] 同時接收辨識器文字和筆墨的功能，可啟用新的應用程式功能和案例。 包含這些功能和其他幾項功能，可直接回應開發人員的意見反應，並標示將輸入面板與 Tablet PC 應用程式完全整合的第一步。 最後，擴充 Tablet PC 應用程式功能對應用程式開發人員和 Tablet PC 平臺而言都是一大勝利。
 
  
 

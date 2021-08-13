@@ -1,5 +1,5 @@
 ---
-description: WiaTransferParams 會在 Windows 映像取得 (WIA) 執行時間系統轉換成 IWiaTransferCallback：： TransferCallback 方法的資料傳輸期間傳送至應用程式。
+description: WiaTransferParams 會在資料傳輸期間傳送至應用程式，Windows 影像取得 (WIA) 執行時間系統轉換為 IWiaTransferCallback：： TransferCallback 方法。
 ms.assetid: 4f1bbacf-e9fd-4129-ab05-3edaeecfaf43
 title: 'WiaTransferParams 結構 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - Wia.h
-ms.openlocfilehash: 4c432cab14e08d89a49234dd7c6de059cc9d72c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d128a39ff5d9d29bf0766273adaace7eae86b10c9556284c1f5b6f1c9285d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119449901"
 ---
 # <a name="wiatransferparams-structure"></a>WiaTransferParams 結構
 
-**WiaTransferParams** 會在 Windows 映像取得 (WIA) 執行時間系統轉換成 [**IWiaTransferCallback：： TransferCallback**](-wia-iwiatransfercallback-transfercallback.md)方法的資料傳輸期間傳送至應用程式。
+**WiaTransferParams** 會在資料傳輸期間傳送至應用程式，Windows 影像取得 (WIA) 執行時間系統轉換為 [**IWiaTransferCallback：： TransferCallback**](-wia-iwiatransfercallback-transfercallback.md)方法。
 
 ## <a name="syntax"></a>語法
 
@@ -127,8 +127,8 @@ typedef struct _WiaTransferParams {
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl> |
 
 

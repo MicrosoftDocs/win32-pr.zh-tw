@@ -4,16 +4,16 @@ ms.assetid: 3acd0428-e623-4c6a-81b3-de49c7e0fa3b
 title: 播放 .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe08d0d6ef9b04a5f6e2a2b46d68baafb3999660
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 0d4e62088636b13f7c48e42f89b5fb19e4e66581089cfde9cd064de65172dd09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112405121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119432204"
 ---
 # <a name="playbackcpp"></a>播放 .cpp
 
-本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。
+本主題包含 DirectShow 中的教學課程[音訊/影片播放](audio-video-playback-in-directshow.md)程式碼。
 
 
 ```C++
@@ -399,10 +399,10 @@ done:
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> </dl>
 
  

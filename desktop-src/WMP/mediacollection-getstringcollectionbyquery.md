@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bf304d22cb207d8a2bfb046522e8704e900d508
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6d9e8f2eae2ce52a566d4db6b8298187df1d4d444432e99dda22d3cacc0ed3ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390108"
 ---
 # <a name="mediacollectiongetstringcollectionbyquery-method"></a>MediaCollection. getStringCollectionByQuery 方法
 

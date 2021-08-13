@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e4a0b397d17b841877796bd9c33432896208ed6d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
-ms.translationtype: HT
+ms.openlocfilehash: 3cfa17c09315f4cdca98f5c5fc10f7ab15541eb8b774835963b06169c4afe225
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119457768"
 ---
 # <a name="output-registers"></a>輸出暫存器
 
@@ -38,7 +38,7 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 
 
 
- 
+ 
 
 ## <a name="fog-register---ofog"></a>霧化註冊-oFog
 
@@ -52,7 +52,7 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 
 
 
- 
+ 
 
 ## <a name="position-register---opos"></a>位置註冊-oPos
 
@@ -66,7 +66,7 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 
 
 
- 
+ 
 
 ## <a name="point-size-register---opts"></a>點大小注冊-選擇
 
@@ -80,7 +80,7 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 
 
 
- 
+ 
 
 ## <a name="texture-coordinate-register---ot0-to-ot7"></a>材質座標註冊-oT0 至 oT7
 
@@ -94,7 +94,7 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 
 
 
- 
+ 
 
 寫入材質座標暫存器時，建議您只將許多浮點值傳遞為對應紋理對應的維度。 控制以修飾詞傳遞的值。 例如，使用 xy 作為2D 材質地圖。
 
@@ -117,9 +117,9 @@ oD0 是擴散色彩註冊。 oD1 是反射色彩註冊。 OD0 值會插入，並
 [頂點著色器暫存器](dx9-graphics-reference-asm-vs-registers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

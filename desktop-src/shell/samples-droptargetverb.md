@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 1f737c951c5bd588760dbb716859c04c0dc062fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae9ae3edb2d993f2e42a2556899d45cb3b10722fc7d7a9dc5e9786560fc3078f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118719530"
 ---
 # <a name="droptarget-verb-sample"></a>DropTarget 動詞範例
 
@@ -28,15 +28,15 @@ ms.locfileid: "104973340"
 -   [建立範例](#building-the-sample)
 -   [執行範例](#running-the-sample)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-這個範例示範如何使用 DropTarget 方法來執行 Shell 動詞命令。 對於必須在 Windows XP 上運作的動詞命令而言，這是慣用的方法。 此範例會將獨立本機伺服器元件物件模型 (COM) 物件中，但必須將動詞執行整合至現有的應用程式。 若要這樣做，您的主要應用程式物件會自行註冊 class factory。 該物件會針對您的應用程式動詞來實行 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) 。 請注意，如果您的應用程式尚未執行，COM 會啟動應用程式，但如果有的話，則會連接到應用程式的執行中實例。
+這個範例示範如何使用 DropTarget 方法來執行 Shell 動詞命令。 這是必須在 Windows XP 上運作的動詞執行的慣用方法。 此範例會將獨立本機伺服器元件物件模型 (COM) 物件中，但必須將動詞執行整合至現有的應用程式。 若要這樣做，您的主要應用程式物件會自行註冊 class factory。 該物件會針對您的應用程式動詞來實行 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) 。 請注意，如果您的應用程式尚未執行，COM 會啟動應用程式，但如果有的話，則會連接到應用程式的執行中實例。
 
 ## <a name="requirements"></a>規格需求
 
 
 
-| 產品                                | 最小產品版本 |
+| Product                                | 最小產品版本 |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows Vista           |
 | Windows Software Development Kit (SDK) | 7.0                     |

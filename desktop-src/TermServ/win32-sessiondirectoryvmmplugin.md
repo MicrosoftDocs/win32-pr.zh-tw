@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c5fc6b899eaa264357527eb107e11ad5a40ad67
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7481022951664b49b912b854e96e2d30895b0716ee67b6eb01ce1a9f1b1561ee
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422358"
 ---
 # <a name="win32_sessiondirectoryvmmplugin-class"></a>Win32 \_ SessionDirectoryVMMPlugin 類別
 

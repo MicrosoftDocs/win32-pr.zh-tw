@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101055
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5d2f92825d6d352209f444a88c58c2537d0f7f72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5af0d453c07afd3d554c73ebda0f4a55a0b6c974207c00e69ec449c4a14000
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119365488"
 ---
 # <a name="esentalreadypreparedexception-methods"></a>EsentAlreadyPreparedException 方法
 

@@ -4,12 +4,12 @@ ms.assetid: a605ae27-10c9-49b4-98fe-8c788c2c0752
 title: LPD3DXU加值稅LASCB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfe073b5e6a798ccb74421d42502b089d59be11f
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: d4473134d7ecf98c50d0c3a69085e7f46344d1d57ff2650c1adbc54c43dba266
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110342793"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119458710"
 ---
 # <a name="lpd3dxuvatlascb"></a>LPD3DXU加值稅LASCB
 
@@ -39,7 +39,7 @@ typedef HRESULT (*LPD3DXUVATLASCB (
 
 ## <a name="remarks"></a>備註
 
-宣告回呼函數時，請務必指定 [**Windows 資料類型**](../winprog/windows-data-types.md) 呼叫慣例。 否則，可能會發生堆疊溢位。
+宣告回呼函數時，請務必指定 [**Windows 資料類型**](../winprog/windows-data-types.md)呼叫慣例。 否則，可能會發生堆疊溢位。
 
 
 

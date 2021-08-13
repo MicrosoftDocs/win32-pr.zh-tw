@@ -4,18 +4,18 @@ ms.assetid: cdd4f02a-cfe6-4a23-9fc2-f4cb810379aa
 title: 匯入 InstallExecuteSequence
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e4728b0a59c92dcc0d007fc816fd298455e049
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 586557130c6aa9af197d5d28f6bd750f4de736feb6982f3b7f12ce73ccf41c83
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119430768"
 ---
 # <a name="importing-the-installexecutesequence"></a>匯入 InstallExecuteSequence
 
 [InstallExecuteSequence 資料表](installexecutesequence-table.md)會列出安裝程式執行最上層[安裝動作](install-action.md)時所執行的動作。 請參閱 [安裝程式資料表群組](installation-procedure-tables-group.md)、 [使用順序資料表](using-a-sequence-table.md)，以及 [順序資料表詳細的範例](sequence-table-detailed-example.md)。
 
-如果您在匯入 uisample.msi 從 Windows Installer SDK 使用的 [空白資料庫](importing-a-blank-database.md) ，則 MNP2000.msi 副本中的順序資料表已包含 [使用順序資料表](using-a-sequence-table.md)中所述的建議動作順序。 撰寫「記事本」安裝套件不需要變更這些序列。
+如果您在匯入 uisample.msi 從 Windows Installer SDK 使用的[空白資料庫](importing-a-blank-database.md)，則 MNP2000.msi 副本中的順序資料表已包含[使用順序資料表](using-a-sequence-table.md)中所述的建議動作順序。 撰寫記事本安裝套件時，不需要變更這些序列。
 
 使用您的資料庫編輯器開啟 MNP2000.msi，並在 InstallExecuteSequence 資料表中輸入下列資料。
 

@@ -4,16 +4,16 @@ ms.assetid: 4c375369-51d9-44ac-a8f0-c2a96fc10805
 title: 'ITFormatControl：： GetStreamCaps 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a1ccaf825912e53eafb5112f14ed369f999959a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1f54cbd44a946c0fcd3cf297c4cacadc49369765b8c1b6505031a145768c3b17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119406108"
 ---
 # <a name="itformatcontrolgetstreamcaps-method"></a>ITFormatControl：： GetStreamCaps 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **GetStreamCaps** 方法會取得與指定之格式索引相關聯的功能。
 
@@ -69,7 +69,7 @@ HRESULT GetStreamCaps(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足，無法執行操作。<br/> |

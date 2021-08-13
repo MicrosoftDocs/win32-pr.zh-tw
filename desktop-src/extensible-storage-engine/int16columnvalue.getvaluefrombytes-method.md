@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1464dd417607024f377c1c9af0cd3d56cfa5d9f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8ebbdd0eae4e91c3897a7bed1686f38c5ae234738bb0ae023a6296318fa8e5f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119362722"
 ---
 # <a name="int16columnvaluegetvaluefrombytes-method"></a>Int16ColumnValue. GetValueFromBytes 方法
 
@@ -69,7 +69,7 @@ protected override void GetValueFromBytes(
 
 #### <a name="parameters"></a>參數
 
-  - value  
+  - 值  
     類型： \[\]  
     
     位元組陣列。
@@ -83,7 +83,7 @@ protected override void GetValueFromBytes(
 
 <!-- end list -->
 
-  - count  
+  - 計數  
     類型： [system.object](/dotnet/api/system.int32)  
     
     要解碼的位元組數。

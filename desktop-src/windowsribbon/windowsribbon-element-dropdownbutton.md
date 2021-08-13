@@ -3,7 +3,7 @@ title: DropDownButton 元素
 description: 表示標準 Drop-Down 按鈕控制項。
 ms.assetid: 41031be2-43bc-4f75-b37a-1dcecc1635e1
 keywords:
-- DropDownButton 元素視窗功能區
+- DropDownButton 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a42b8ffb6d39c1da8993972c0b25995f778bdaca
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 3275e6de398c42d29424b2a1f9b0c750989357ef21c10d5db1e1680e7adb0836
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707266"
 ---
 # <a name="dropdownbutton-element"></a>DropDownButton 元素
 
 表示標準 [下拉式按鈕](windowsribbon-controls-dropdownbutton.md) 控制項。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <DropDownButton
@@ -80,7 +80,7 @@ ms.locfileid: "111442959"
 | 元素                                                                             | 描述                                        |
 |-------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                           | 可能會發生一次或多次<br/> <br/> |
-| [**相應**](windowsribbon-element-checkbox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                       | 可能會發生一次或多次<br/> <br/> |
 | **DropDownButton**<br/>                                                       | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownColorPicker**](windowsribbon-element-dropdowncolorpicker.md)<br/> | 可能會發生一次或多次<br/> <br/> |
@@ -101,7 +101,7 @@ ms.locfileid: "111442959"
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/>             |
 | **DropDownButton**<br/>                                                     |
 | [**DropDownGallery**](windowsribbon-element-dropdowngallery.md)<br/>       |
-| [**群組**](windowsribbon-element-group.md)<br/>                           |
+| [**Group**](windowsribbon-element-group.md)<br/>                           |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>                   |
 | [**SplitButton**](windowsribbon-element-splitbutton.md)<br/>               |
 | [**SplitButtonGallery**](windowsribbon-element-splitbuttongallery.md)<br/> |

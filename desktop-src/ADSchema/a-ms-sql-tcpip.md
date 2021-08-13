@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-TCPIP 屬性
+title: MS SQL-TCPIP 屬性
 description: TCP 連接點。
 ms.assetid: f61f7d54-958e-4f34-852e-222338c26de0
 ms.tgt_platform: multiple
 keywords:
-- MS-SQL-TCPIP 屬性 AD 架構
-- mS-SQL-TCPIP 屬性 AD 架構
+- MS SQL-TCPIP 屬性 AD 架構
+- mS SQL-TCPIP 屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 098d5e7818789774b425ad9e238f8f3b3a4d5378
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 5d387ff6600618330c67549133169f4f8f321a72e0ff2d64ffec4b5dbdd9cf40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686521"
 ---
-# <a name="ms-sql-tcpip-attribute"></a>MS-SQL-TCPIP 屬性
+# <a name="ms-sql-tcpip-attribute"></a>MS SQL-TCPIP 屬性
 
 TCP 連接點。
 
@@ -29,8 +29,8 @@ TCP 連接點。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-TCPIP                                |
-| Ldap-顯示名稱 | mS-SQL-TCPIP                                |
+| CN                | MS SQL-TCPIP                                |
+| Ldap-顯示名稱 | mS SQL-TCPIP                                |
 | 大小              | \-                                          |
 | 更新許可權  | 此值是由系統所設定。            |
 | 更新頻率  | 在系統啟動時。                          |
@@ -58,7 +58,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -66,7 +66,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -87,7 +87,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -108,7 +108,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -129,7 +129,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -150,7 +150,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ TCP 連接點。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -171,7 +171,7 @@ TCP 連接點。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 

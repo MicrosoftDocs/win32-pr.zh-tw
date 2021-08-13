@@ -4,18 +4,18 @@ ms.assetid: 0280d798-c76a-4de6-9b83-ce5c0fe98fdb
 title: PropList. FileOperationPrompt
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94a0f04d30e7ae68b191f3bb92493207443c8e75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50efd360c54345916fec557d55382a2be29dbeddf902b68e040026f390efa3ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723000"
 ---
 # <a name="systemproplistfileoperationprompt"></a>PropList. FileOperationPrompt
 
 要在檔案作業確認對話方塊中顯示的屬性清單。 將不會顯示具有空白值的屬性。 如果未指定此清單，則會改用 [提示] 屬性清單。 在 "FileOperationPrompt" 的 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

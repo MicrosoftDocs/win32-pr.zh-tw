@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 504b9083f4bdb1651496b4ab2d3b937740596243
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3dcf24c65b7f282b1a1e15d3109ce1af9ccfc0af6436c80c94760f0b4cd18069
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461878"
 ---
 # <a name="ienumbackgroundcopyfilesnext-method"></a>IEnumBackgroundCopyFiles：： Next 方法
 
@@ -72,7 +72,7 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                              | Description                                                        |
+| 傳回碼                                                                              | 描述                                                        |
 |------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl> | 已成功傳回要求的元素數目。<br/> |
 | <dl> <dt>**S_FALSE**</dt> </dl>  | 傳回的數目小於要求的元素數目。<br/>    |
@@ -88,8 +88,8 @@ HRESULT Next(
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                                       |
-| 標頭<br/>                   | <dl> <dt>>deliveryoptimization。h</dt> </dl>   |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
+| 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |

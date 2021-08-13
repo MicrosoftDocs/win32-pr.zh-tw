@@ -4,12 +4,12 @@ ms.assetid: 3663b63f-127c-49fc-923a-d05521fe3d35
 title: 如何設定媒體會話的播放率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: deed8bf480bba1bf1e7d86a41a75b8f41f61046b
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 696932d0da0147ba87e49cbc22d7ad53a525bc52c9bc2b3518c0f3e956a650aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119465988"
 ---
 # <a name="how-to-set-the-playback-rate-on-the-media-session"></a>如何設定媒體會話的播放率
 
@@ -25,7 +25,7 @@ ms.locfileid: "103696202"
 
     呼叫 [**MFGetService**](/windows/desktop/api/mfidl/nf-mfidl-mfgetservice) 的應用程式必須確保下列各項：
 
-    -   *>punkobject* 參數包含已初始化的 [**IMFMediaSession**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasession)介面指標。
+    -   *>Punkobject* 參數包含已初始化的 [**IMFMediaSession**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasession)介面指標。
     -   在 *ppvObject* 參數中收到的速率控制物件會釋放，以避免記憶體流失。
 
 2.  呼叫 [**IMFRateControl：： SetRate**](/windows/desktop/api/mfidl/nf-mfidl-imfratecontrol-setrate) 方法來設定播放速率。 以非同步方式完成 **SetRate** 之後，應用程式會收到 [MESessionRateChanged](mesessionratechanged.md) 事件。

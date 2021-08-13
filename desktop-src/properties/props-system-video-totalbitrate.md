@@ -4,18 +4,18 @@ ms.assetid: 7667da66-261c-4627-8322-2c939738659b
 title: TotalBitrate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f89af8e54051c8c6b1c5a2a2408f7bb24a6ae2a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e02616f2961af961f44875dfa28edda9b3beb15c585908727ebebbdd5a6b7e20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396619"
 ---
 # <a name="systemvideototalbitrate"></a>TotalBitrate
 
 表示所有影片和音訊串流的總數據速率（以「每秒位數」為單位）。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

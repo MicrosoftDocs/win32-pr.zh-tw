@@ -4,12 +4,12 @@ ms.assetid: ADE2E3CB-AAAC-4208-BB75-72AFF1D24C26
 title: DlnaProfileID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ffffd55031c1b5c6c8349dc121f13f13acfb856
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: cf74a968f93fe2d27de556e032be264089411ddd86b847f5b58714bc2c061579
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106998941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118725270"
 ---
 # <a name="systemmediadlnaprofileid"></a>DlnaProfileID
 

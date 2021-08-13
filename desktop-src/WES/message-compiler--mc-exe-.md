@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 06/03/2020
-ms.openlocfilehash: 5eb852dcbb13800705db0a0f19d912de899f9b0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1ba213a1d7047b61ba7ba875adf9c281726eaae123ae018aea9920050b201644
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119470938"
 ---
 # <a name="message-compiler-mcexe"></a>訊息編譯器 (MC.exe) 
 
@@ -145,7 +145,7 @@ MC [-?aAbcdnouUv] [-m <length>] [-h <path>] [-e <extension>] [-r <path>]
 
 ### <a name="arguments-specific-to-generating-code-that-your-provider-would-use-to-log-events"></a>產生提供者用來記錄事件之程式碼的特定引數
 
-您可以使用下列編譯器引數來產生核心模式或使用者模式程式碼，您可以用來記錄事件。 您也可以要求編譯器產生程式碼，以支援在 Windows Vista 之前的電腦上寫入事件。 如果您的應用程式是以 c # 撰寫，則編譯器可以產生可供您用來記錄事件的 c # 類別。 從 Windows 7 版的 Window SDK 隨附的 MC 版本1.12.7051 開始，可以使用這些引數。
+您可以使用下列編譯器引數來產生核心模式或使用者模式程式碼，您可以用來記錄事件。 您也可以要求編譯器產生程式碼，以支援在 Windows Vista 之前將事件寫入電腦上。 如果您的應用程式是以 c # 撰寫，則編譯器可以產生可供您用來記錄事件的 c # 類別。 從 windows SDK Windows 7 版隨附的 MC 版本1.12.7051 開始，可以使用這些引數。
 
 <dl> <dt>
 
@@ -201,7 +201,7 @@ pFnUserFunction(
 <span id="-mof"></span><span id="-MOF"></span>**-mof**
 </dt> <dd>
 
-廢棄。 使用這個引數，讓編譯器產生程式碼，讓您可以在 Windows Vista 之前，用來記錄電腦上的事件。 此選項也會建立一個 MOF 檔案，其中包含資訊清單中所定義之每個事件的 MOF 類別。 若要註冊 MOF 檔案中的類別，讓取用者可以解碼事件，請使用 MOF 編譯器 (Mofcomp.exe) 。 如需使用 MOF 編譯器的詳細資訊，請參閱 [受控物件格式](/windows/desktop/WmiSdk/managed-object-format--mof-)。
+廢棄。 您可以使用這個引數，讓編譯器產生程式碼，以便在 Windows Vista 之前將事件記錄到電腦上。 此選項也會建立一個 MOF 檔案，其中包含資訊清單中所定義之每個事件的 MOF 類別。 若要註冊 MOF 檔案中的類別，讓取用者可以解碼事件，請使用 MOF 編譯器 (Mofcomp.exe) 。 如需使用 MOF 編譯器的詳細資訊，請參閱 [受控物件格式](/windows/desktop/WmiSdk/managed-object-format--mof-)。
 
 若要使用此參數，您必須遵守下列限制：
 
@@ -259,7 +259,7 @@ pFnUserFunction(
 <span id="-a"></span><span id="-A"></span>**-a**
 </dt> <dd>
 
-使用這個引數來指定 *檔案名* 輸入檔案包含系統預設 Windows ANSI 字碼頁中的內容 (CP_ACP) 。 此為預設值。 使用 **-u** 代表 Unicode。 如果輸入檔包含 BOM，則會忽略此引數。
+使用這個引數來指定 *檔案名* 輸入檔包含系統預設 Windows ANSI 字碼頁中的內容 (CP_ACP) 。 此為預設值。 使用 **-u** 代表 Unicode。 如果輸入檔包含 BOM，則會忽略此引數。
 
 </dd> <dt>
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101594
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 4333b126fadc49e1637f6470eb9eb31eb28b393c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 629daaba2097f7330ae56c1c4529dfc073feb846be1705ecc799495bb71f5967
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119364810"
 ---
 # <a name="esentexistinglogfilehasbadsignatureexception-methods"></a>EsentExistingLogFileHasBadSignatureException 方法
 

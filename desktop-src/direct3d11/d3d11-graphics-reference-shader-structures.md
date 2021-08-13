@@ -6,12 +6,12 @@ keywords:
 - 結構，Direct3D 11 著色器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14739e3db38c075e19e58a90b12bbf7d06b48a4e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 49f5f5c346e4f46b1ca108200a88ae8b2ad3540585fd1a4bfc73b1dafe2b2b16
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408188"
 ---
 # <a name="shader-structures-direct3d-11-graphics"></a> (Direct3D 11 圖形) 的著色器結構
 

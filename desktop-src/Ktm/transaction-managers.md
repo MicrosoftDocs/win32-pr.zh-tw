@@ -4,12 +4,12 @@ ms.assetid: 8d43977a-84cf-4109-b7db-f9c94a226c5d
 title: 交易管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 313215816642201c75ae5f0facae3bf98799c8d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0ea492a3eb10d95002d4e0a61500e7f1e74e87da21bc90daf680a2899e3fa67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119424438"
 ---
 # <a name="transaction-managers"></a>交易管理員
 

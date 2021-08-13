@@ -4,12 +4,12 @@ ms.assetid: 7f8f278a-a737-4116-9938-2850dbb611fa
 title: 選項按鈕資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 097f8fbe3081c865e3668631ed0fa9d43a4488cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ffc91ece6b5c71cd6ba46143f33e49b90b0278139d194a218a2fddb797bb55a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381048"
 ---
 # <a name="radiobutton-table"></a>選項按鈕資料表
 
@@ -29,7 +29,7 @@ ms.locfileid: "104192646"
 | 寬度    | [整數](integer.md)       | N   | N        |
 | 高度   | [整數](integer.md)       | N   | N        |
 | Text     | [格式 化](formatted.md)   | N   | Y        |
-| Help     | [Text](text.md)             | N   | Y        |
+| 說明     | [Text](text.md)             | N   | Y        |
 
 
 

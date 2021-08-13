@@ -4,12 +4,12 @@ ms.assetid: f85c4114-ac94-4deb-a1cf-896209079f8b
 title: 'EVRConfig_ForceScaling 屬性 (Uuid. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b82b7e017d414e86b8b4332fe5646e4808d4009
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd85fa67af3cea27564400b86cf6c8e32e3c15645cbb4f84cc97344fbab9ef60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346198"
 ---
 # <a name="evrconfig_forcescaling-attribute"></a>EVRConfig \_ ForceScaling 屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "104026035"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Uuid。h</dt> </dl> |
 
 

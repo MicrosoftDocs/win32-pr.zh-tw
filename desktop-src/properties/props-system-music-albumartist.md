@@ -4,16 +4,16 @@ ms.assetid: 6b951418-9076-42ca-9ed5-4e260e8c19bc
 title: AlbumArtist
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b2108b9e9f958d7778dc369e1ee512eaa2faa644
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: af4ecceb41b20843942b01323fe01c1aeb559dfec38d9e1fc10938a0ebae4cea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724505"
 ---
 # <a name="systemmusicalbumartist"></a>AlbumArtist
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

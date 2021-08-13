@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1250b10763aca6155ef7ac12bc64adbb95ac77a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fa68330e778d5a08fef91e909379f2dcd40c77ed4f201d78e37bce666c11350
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119454318"
 ---
 # <a name="esentstopwatch-class"></a>EsentStopwatch 類別
 

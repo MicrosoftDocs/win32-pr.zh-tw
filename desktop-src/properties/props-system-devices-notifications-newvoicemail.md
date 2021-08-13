@@ -4,12 +4,12 @@ ms.assetid: 91993898-a342-4009-b0eb-8d8286079e91
 title: NewVoicemail。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40ca1ea899139fbda60e1db49045d30a3e323487
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dcc9cbe0ba090f258e70592b6a9327333ae8b993620931f97948c6d24acb350a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728275"
 ---
 # <a name="systemdevicesnotificationsnewvoicemail"></a>NewVoicemail。
 
