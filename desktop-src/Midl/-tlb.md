@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ff0078f75865c8048eead911b310e102b779317
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 081723648788ec51fa65a4770deb336f665804a9527dc223000826870dbe1ee0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106968073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643748"
 ---
 # <a name="tlb-switch"></a>/tlb 參數
 
@@ -52,9 +52,9 @@ midl /tlb filename
 [**/notlb**](-notlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: efe3e98b-938d-4d4c-b790-2b8c8aab0ded
 title: VertexElement
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 049511c89b335c0da31a9f41344082c3b818fa0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9c2ecef6cfa8c522532599acef1b83343c64edd2b5eca93fe461d8bf8419ada8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518850"
 ---
 # <a name="vertexelement"></a>VertexElement
 

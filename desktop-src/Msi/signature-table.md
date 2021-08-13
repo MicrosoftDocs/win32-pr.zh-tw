@@ -4,16 +4,16 @@ ms.assetid: 4780356f-e02a-45d9-883c-4f84867dbdea
 title: 簽名表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efb75155c4c7b8ddf4a82706bc38f09d0af75260
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5ddda5c501b24e12498f356c10a1aa2a3549426daca5e4cc3c19c1f62ed04cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624645"
 ---
 # <a name="signature-table"></a>簽名表
 
-簽章資料表會保存唯一識別檔案簽章的資訊。 如需有關簽章的詳細資訊，請參閱 [數位簽章和 Windows Installer](digital-signatures-and-windows-installer.md)。
+簽章資料表會保存唯一識別檔案簽章的資訊。 如需有關簽章的詳細資訊，請參閱[數位簽章和 Windows Installer](digital-signatures-and-windows-installer.md)。
 
 簽章資料表具有下列資料行。
 
@@ -113,7 +113,7 @@ ms.locfileid: "106987227"
 
 使用 [RegLocator 資料表](reglocator-table.md)、 [IniLocator 資料表](inilocator-table.md)、 [CompLocator 資料表](complocator-table.md)和 [DrLocator 資料表](drlocator-table.md)來搜尋簽章。 此資料表的資料行通常不會當地語系化。 如果作者決定搜尋多種語言的產品，則每種語言的表格中都可以有個別的專案。
 
-簽名表通常會遵循 Windows Installer 檔案 [版本控制規則](file-versioning-rules.md)。 除非檔案版本相等，否則不會評估簽章資料表的 [語言] 資料行中指定的語言。 [語言] 資料行可確保檔案為所要求版本的特定語言。 沒有任何方法可忽略 [語言] 資料行。 在 [語言] 資料行中輸入的 Null 值會被視為沒有語言的檔案，而且不符合簽章資料表中出現之語言的檔案簽章。 下列範例會搜尋特定版本的 MSI.DLL。
+簽名表通常會遵循 Windows Installer 檔案[版本控制規則](file-versioning-rules.md)。 除非檔案版本相等，否則不會評估簽章資料表的 [語言] 資料行中指定的語言。 [語言] 資料行可確保檔案為所要求版本的特定語言。 沒有任何方法可忽略 [語言] 資料行。 在 [語言] 資料行中輸入的 Null 值會被視為沒有語言的檔案，而且不符合簽章資料表中出現之語言的檔案簽章。 下列範例會搜尋特定版本的 MSI.DLL。
 
 [DrLocator 資料表](drlocator-table.md)
 
@@ -149,7 +149,7 @@ ms.locfileid: "106987227"
 
  
 
-在此情況下，以及在 Windows XP SP1 上， [AppSearch 動作](appsearch-action.md) 會將 MSIDLL 設定為 c： \\ Windows \\ system32 \\msi.dll，因為 MSI.DLL 是中性語言的檔案。 如果 [語言] 資料行的值從0變更為1033，則 AppSearch 動作會找不到相符的 msi.dll，且 MSIDLL 屬性未定義。
+在此情況下，以及在 Windows XP SP1 上， [AppSearch 動作](appsearch-action.md)會將 MSIDLL 設定為 c： \\ Windows \\ system32 \\msi.dll，因為 MSI.DLL 是中性語言的檔案。 如果 [語言] 資料行的值從0變更為1033，則 AppSearch 動作會找不到相符的 msi.dll，且 MSIDLL 屬性未定義。
 
 您無法使用簽章資料表來單獨查詢語言。 若要搜尋檔案的不同語言版本，每個語言版本的簽章資料表中都必須有不同的專案。 如果 [語言] 欄中提供多種語言，則搜尋是針對支援所有語言的檔案。
 

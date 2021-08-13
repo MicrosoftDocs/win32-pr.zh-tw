@@ -4,12 +4,12 @@ ms.assetid: 32c26632-03f4-4f21-8c67-ebf38b67d251
 title: StylusInput API 的部分信任考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceda5edfb2e4133bb0fcb3d260ff1e13f9fdb521
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 596e8b50692ae09e9fbaf73f9254afbec8f29d6481a2dc3e27727beb27546441
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449348"
 ---
 # <a name="partial-trust-considerations-for-the-stylusinput-api"></a>StylusInput API 的部分信任考慮
 

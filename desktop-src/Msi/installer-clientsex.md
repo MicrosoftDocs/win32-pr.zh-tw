@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 5a609ab0ba6edc5b0e3e9bbd26bc3539858ebdee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 54ecc8c0d76ae5105aec07a85adb18d93a8e7a9b75162f8124bb32fdd7f64597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118632925"
 ---
 # <a name="installerclientsex-property"></a>ClientsEx 屬性
 
@@ -45,7 +45,7 @@ propVal = Installer.ClientsEx
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5。0<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的安裝程式5。0<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                      |
 | IID<br/>     | IID \_ IInstaller 定義為000C1090-0000-0000-C000-000000000046<br/>                           |
 

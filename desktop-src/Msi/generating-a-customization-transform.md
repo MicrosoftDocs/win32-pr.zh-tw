@@ -4,16 +4,16 @@ ms.assetid: c016fcba-0d54-4b99-bcdd-36967b2c9da0
 title: 產生自訂轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f73609b7be60dbfe236d31ed5a865e86ff6e310
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b790917100cc06da97e09fd8aabf45b580e62008d23c9fc5065e6005112d8d4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635996"
 ---
 # <a name="generating-a-customization-transform"></a>產生自訂轉換
 
-您可以使用 [**MsiDatabaseGenerateTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma)或 [**Database 物件**](database-object.md)的產生器 [**方法**](database-generatetransform.md)來產生轉換檔案。 Windows Installer SDK 中提供的範例是公用程式 WiGenXfm.vbs。 下列程式碼片段（Gen.vbs）也會說明 **此提供** 器方法，並可用於 Windows Script Host。
+您可以使用 [**MsiDatabaseGenerateTransform**](/windows/desktop/api/Msiquery/nf-msiquery-msidatabasegeneratetransforma)或 [**Database 物件**](database-object.md)的產生器 [**方法**](database-generatetransform.md)來產生轉換檔案。 Windows Installer SDK 中提供的範例是公用程式 WiGenXfm.vbs。 下列程式碼片段（Gen.vbs）也會說明 **此表示** 法，並可搭配 Windows 腳本主機使用。
 
 
 ```VB

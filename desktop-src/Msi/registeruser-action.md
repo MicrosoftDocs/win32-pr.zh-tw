@@ -4,12 +4,12 @@ ms.assetid: da615cb4-d36d-4180-8f97-c9f83c0df1c6
 title: RegisterUser 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 686628d29094f951994b072ad4451a383a405965
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f89d43d18839e806939b7a084d37840b9895fdc81efb79fc03867eebe4c5c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118626713"
 ---
 # <a name="registeruser-action"></a>RegisterUser 動作
 

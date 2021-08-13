@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: f8e9071f26da944c2c5ea206b2f70582d731ef59
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ff05a2f89244da09caa6cd3b26fc4b5d9cdbec95c0fcc3098fddf0c39dc68519
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627671"
 ---
 # <a name="product-object"></a>Product 物件
 
@@ -61,7 +61,7 @@ ms.locfileid: "106982978"
 | 屬性                                                      | 描述                                                                                 |
 |:--------------------------------------------------------------|:--------------------------------------------------------------------------------------------|
 | [**ComponentState**](product-componentstate.md)<br/>   | 此產品實例之指定元件的狀態。 <br/>                   |
-| [**Context**](product-context.md)<br/>                 | 此產品實例的內容，做為 MSIINSTALLCONTEXT 值。 <br/>                 |
+| [**內容**](product-context.md)<br/>                 | 此產品實例的內容，做為 MSIINSTALLCONTEXT 值。 <br/>                 |
 | [**FeatureState**](product-featurestate.md)<br/>       | 此產品實例之指定功能的狀態。 <br/>                     |
 | [**InstallProperty**](product-installproperty.md)<br/> | 指定之屬性的值。 <br/>                                              |
 | [**MediaDisks**](product-mediadisks.md)<br/>           | 列舉此產品實例的所有媒體磁片。<br/>                        |
@@ -81,7 +81,7 @@ ms.locfileid: "106982978"
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003、Windows XP 及 Windows 2000 上的 Windows Installer 3.0 或更新版本<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003、Windows XP 和 Windows 2000 上的安裝程式3.0 或更新版本<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct 定義為000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 
@@ -91,7 +91,7 @@ ms.locfileid: "106982978"
 
 <dl> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

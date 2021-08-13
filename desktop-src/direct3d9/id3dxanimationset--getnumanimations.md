@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 04503d7ef03003ce7616adc3071d761964222830
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7d0a1aea6265549bf71d5d4a79ff1f9b224165e734888f05f7f90c874cd253f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982909"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522337"
 ---
 # <a name="id3dxanimationsetgetnumanimations-method"></a>ID3DXAnimationSet：： GetNumAnimations 方法
 

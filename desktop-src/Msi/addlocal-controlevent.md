@@ -4,12 +4,12 @@ ms.assetid: 074f347e-37d3-4365-a25d-caa0392a0dbc
 title: AddLocal ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 112975d31e341c06a21609b173b9682283e71610
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cfb2db93bea39d167d5b8f08af2cdecfcb07194fb68d4c1e39f5511e2a09f8c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118639558"
 ---
 # <a name="addlocal-controlevent"></a>AddLocal ControlEvent
 

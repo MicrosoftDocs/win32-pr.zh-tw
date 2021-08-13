@@ -4,12 +4,12 @@ ms.assetid: b2c43763-799c-4f09-b9f8-47a4a5f4faf3
 title: Progress95 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df2242dde671484274be946802ba4fd4c1cfd687
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a0e6fa8f2c0cd0e1622db4bb406d3ada1b63229e92b60a35e915bf0dacc72fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850923"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627347"
 ---
 # <a name="progress95-control-attribute"></a>Progress95 控制項屬性
 
@@ -17,7 +17,7 @@ ms.locfileid: "103850923"
 
 ## <a name="valid-controls"></a>有效的控制項
 
-[進度列](progressbar-control.md)
+[ProgressBar](progressbar-control.md)
 
 ## <a name="value"></a>值
 

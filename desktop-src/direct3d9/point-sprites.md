@@ -4,12 +4,12 @@ ms.assetid: a9046c7e-779c-4f33-b8ff-f189da3dcfc5
 title: '點 Sprite (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c988a104eb65b5e2d7e56ff2444e8d422c422df2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90abd21207d9b3866ff93bd6c73069b655056f1c28811689762b0ce669183793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520463"
 ---
 # <a name="point-sprites-direct3d-9"></a>點 Sprite (Direct3D 9) 
 

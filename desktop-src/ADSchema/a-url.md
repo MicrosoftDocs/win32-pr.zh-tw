@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c0dc607dfb29f1448138d29c47ec8bd17a2fcd00
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6c2f5be844bc10e76ad3bda030922a9cf905696ce67b25acbd8f558dd7e4472b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118680971"
 ---
 # <a name="www-page-other-attribute"></a>WWW-頁面-其他屬性
 

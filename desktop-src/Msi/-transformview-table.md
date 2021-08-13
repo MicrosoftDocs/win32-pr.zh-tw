@@ -4,12 +4,12 @@ ms.assetid: 4763ac0e-900f-45f1-bee5-34d413c5e401
 title: _TransformView 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cc513b1aae388d01cda178bfbefdc88874f6d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92b3254c7419ed5d4964377a466ecd557429a22450a9ba84fdd892822fca86c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640463"
 ---
 # <a name="_transformview-table"></a>\_TransformView 資料表
 
@@ -76,13 +76,13 @@ ms.locfileid: "104513249"
 
 ## <a name="remarks"></a>備註
 
-\_TransformView 會透過鎖定計數保留在記憶體中，可使用下列 SQL 命令來釋放。
+\_TransformView 會透過鎖定計數保留在記憶體中，可以使用下列 SQL 命令來釋放。
 
 「ALTER TABLE \_ TRANSFORMVIEW FREE」。
 
-您可以使用 SQL 查詢來存取資料表中的資料。 SQL 語言有兩個主要部分：「資料定義語言」 (DDL) 用來定義 SQL 資料庫中的所有物件，以及用來選取、插入、更新和刪除使用 DDL 定義之物件中資料的資料操作語言 (DML) 。
+您可以使用 SQL 查詢來存取資料表中的資料。 SQL 語言有兩個主要部分：資料定義語言 (DDL) 用來定義 SQL 資料庫中的所有物件，以及用來選取、插入、更新和刪除使用 DDL 定義之物件中資料的資料操作語言 (DML) 。
 
-資料操作語言 (DML) 轉換作業，如下所示。 資料操作語言 (DML) 是 SQL 中可操作的語句，而不是定義資料。
+資料操作語言 (DML) 轉換作業，如下所示。 資料操作語言 (DML) 是 SQL 中操作的語句，而不是定義資料。
 
 
 
@@ -114,7 +114,7 @@ ms.locfileid: "104513249"
 
 
 
-| bit                                                                                                       | Description                                                                                                                                                                                                                                                                                                              |
+| bit                                                                                                       | 描述                                                                                                                                                                                                                                                                                                              |
 |-----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="Bits_07"></span><span id="bits_07"></span><span id="BITS_07"></span>Bits 0 7<br/>         | 十六進位： 0x0000 0x0100<br/> Decimal： 0 255<br/> 資料行寬度<br/>                                                                                                                                                                                                                                  |
 | <span id="Bit_8"></span><span id="bit_8"></span><span id="BIT_8"></span>位8<br/>                  | 十六進位：0x0100<br/> Decimal：256<br/> 持續性資料行。 零表示暫時的資料行。 <br/>                                                                                                                                                                                                   |

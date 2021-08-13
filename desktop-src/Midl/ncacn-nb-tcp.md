@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d59a544c592643cffcb282ba8a0f3fdab48c03fd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 683be3c986c81feb270d5d502f3da0f56a65d78973c60e4b664c2e4bd75e0494
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642163"
 ---
 # <a name="ncacn_nb_tcp-attribute"></a>ncacn \_ nb \_ tcp 屬性
 
@@ -45,7 +45,7 @@ NetBIOS 埠字串的語法（如同所有的埠字串）是由傳輸執行所定
 > [!Note]  
 > Windows XP 不支援此通訊協定系列。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -89,6 +89,6 @@ interface iface
 [**字串系結**](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

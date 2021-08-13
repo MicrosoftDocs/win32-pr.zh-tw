@@ -4,12 +4,12 @@ ms.assetid: 44ab770b-1a7f-4590-9681-8f6bd343bf86
 title: 定位器資料表群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 300a869a912c06b2112476f50bcda021833cfbe7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1ad0cf5b2d28d01b6e10cf796dc9653c82feb8ffb63adc57c7a7bc244e7ccfcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629165"
 ---
 # <a name="locator-tables-group"></a>定位器資料表群組
 
@@ -22,7 +22,7 @@ ms.locfileid: "106975763"
 下表構成定位器資料表群組，用來判斷檔案簽章。
 
 -   [RegLocator 資料表](reglocator-table.md)包含搜尋登錄中的檔案或目錄所需的資訊。
--   [IniLocator 資料表](inilocator-table.md)會保存搜尋 .ini 檔案所需的資訊。 .Ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
+-   [IniLocator 資料表](inilocator-table.md)會保存搜尋 .ini 檔案所需的資訊。 .ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
 -   [CompLocator 資料表](complocator-table.md)包含使用安裝程式的設定資料搜尋檔案或目錄所需的資訊。
 -   [DrLocator 資料表](drlocator-table.md)包含搜尋目錄樹狀目錄中的檔案或目錄所需的資訊。
 -   [AppSearch 資料表](appsearch-table.md)包含必須設定為對應檔案簽章之搜尋結果的屬性。

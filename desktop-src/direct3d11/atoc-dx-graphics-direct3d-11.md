@@ -4,12 +4,12 @@ description: Direct3D 11 圖形
 ms.assetid: 11413056-5033-4b4f-b80c-fccccb4057bc
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 90b038ecc2b1c55d1e0a2edab9dcb52065b51810
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: bd2847c271c3a5ad4ec04a7156b3ef552edea7112bdb84b8f8ba10d93f340d69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118538627"
 ---
 # <a name="direct3d-11-graphics"></a>Direct3D 11 圖形
 
@@ -23,7 +23,7 @@ ms.locfileid: "110335338"
 
 |                                   | 支援                                                                                                  |
 |-----------------------------------|---------------------------------------------------------------------------------------------------|
-| **支援的執行時間環境**    | Windows/c + +            |
+| **支援的執行時間環境**    | Windows/C + +            |
 | **建議的程式設計語言** | C/C++                                                                                             |
 | **最低支援的用戶端**          | Windows 7             |
 | **最低支援的伺服器**          | Windows Server 2008 R2 |
@@ -41,9 +41,9 @@ ms.locfileid: "110335338"
 
  
 
-除了 Windows 7 及更新版本以及 Windows Server 2008 R2 和更新版本所支援的 Direct3D 11 之外，還可以下載適用于 Windows Vista Service Pack 2 (SP2) 和 Windows Server 2008 的舊版，方法是下載 [KB 971644](https://support.microsoft.com/kb/971644) 和 [kb 971512](https://support.microsoft.com/kb/971512/)。
+除了 Windows 7 和更新版本以及 Windows Server 2008 R2 和更新版本支援的 direct3d 11 之外，Windows Vista Service Pack 2 (SP2) 和 Windows server 2008 都可透過下載[KB 971644](https://support.microsoft.com/kb/971644)和[kb 971512](https://support.microsoft.com/kb/971512/)來提供舊版的 direct3d 11。
 
-如需 Windows 8、Windows Server 2012 隨附之新 Direct3D 11.1 功能的相關資訊，以及透過 Windows 7 的 [Platform update](https://support.microsoft.com/kb/2670838)在 windows 7 和 windows Server 2008 R2 部分提供的相關資訊，請參閱 [Direct3D 11.1 功能](direct3d-11-1-features.md) 和 [windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)。
+如需 Windows 8、Windows Server 2012 中所含之新 Direct3D 11.1 功能的相關資訊，並透過[Windows 7 的平臺更新](https://support.microsoft.com/kb/2670838)，在 Windows 7 和 Windows Server 2008 R2 部分提供，請參閱[Direct3D 11.1 功能](direct3d-11-1-features.md)和[Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)。
 
  
 

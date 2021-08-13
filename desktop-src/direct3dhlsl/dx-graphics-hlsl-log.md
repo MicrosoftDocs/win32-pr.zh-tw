@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0cdd08fe178925406145476b3250e8d256b263c3
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc53ffb972178ee7fce86034ccb344d3ccdb89df0651084086a0c317e06ce3f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513866"
 ---
 # <a name="log"></a>log
 
@@ -37,7 +37,7 @@ ms.locfileid: "103682823"
 
 
 
-| 項目                                                   | 描述                            |
+| Item                                                   | 描述                            |
 |--------------------------------------------------------|----------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/> | \[在 \] 指定的值中。<br/> |
 

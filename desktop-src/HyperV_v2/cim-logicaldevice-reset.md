@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 851332103143e84863762d8cc1183ec3ad841ca6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81f69f57af9d8633874a6b3713ff85cd1342c9df56b22924096619b834f1b867
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648533"
 ---
 # <a name="reset-method-of-the-cim_logicaldevice-class-hyper-v-management"></a> (Hyper-v 管理的 CIM_LogicalDevice 類別重設方法) 
 

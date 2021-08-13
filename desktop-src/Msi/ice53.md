@@ -4,12 +4,12 @@ ms.assetid: f5afca1f-bd36-4f95-a62a-f6b2e37238a6
 title: ICE53
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c323a502642e3cf5999e6cb332a434a9fc8a41db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a2d1e661eb832439a9b4fde423e005dc4b3a0c3ca9b266045c0ddd04daa63f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635129"
 ---
 # <a name="ice53"></a>ICE53
 

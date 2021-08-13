@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_NonVolatileStorage 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a65e79b7c55af0fbcc258bb9287ad8e27041fcba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5bf4aa65220b36231d451a24cc3f57736b6a2edac092b3d82c45ca3121284410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679833"
 ---
 # <a name="cim_nonvolatilestorage-methods"></a>CIM \_ NonVolatileStorage 方法
 

@@ -4,12 +4,12 @@ ms.assetid: ecde1389-50ea-479e-bbc1-a36ce3aceccd
 title: ICE04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4da25a23a26f8a2c49e224ad334791a6081b697b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b77bf11d26d694a25f62db8da005139566b2c92310e2bb2dded4eecbca79719
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635660"
 ---
 # <a name="ice04"></a>ICE04
 

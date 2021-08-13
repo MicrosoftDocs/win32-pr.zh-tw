@@ -5,12 +5,12 @@ ms.assetid: 5faf294f-acd5-4b39-92f4-1d6b2abe3040
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb346ef89a5937b03fe6b577b003a3865f36c91b
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: e1c69dc3bae9a6a63f83a36725fca641c63222c73bbcc52d7fed5608475538fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530540"
 ---
 # <a name="descriptor-tables"></a>描述中繼資料表
 

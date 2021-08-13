@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: 64cc116199b688fc9dcd8d6fbf331d85da508948
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1edcf2b1cbe2363f805bee1f5eb67f5558702ea9e163a865e1a6c51d6f5ed6ff
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106982875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523834"
 ---
 # <a name="d3dxuvatlas-enumeration"></a>D3DXU加值稅LAS 列舉
 
@@ -48,7 +48,7 @@ typedef enum _D3DXUVATLAS {
 
 </dd> <dt>
 
-<span id="D3DXUVATLAS_GEODESIC_FAST"></span><span id="d3dxuvatlas_geodesic_fast"></span>**\_快速 D3DXU加值稅LAS 測測 \_**
+<span id="D3DXUVATLAS_GEODESIC_FAST"></span><span id="d3dxuvatlas_geodesic_fast"></span>**D3DXU加值稅LAS \_ 地線 \_ FAST**
 </dt> <dd>
 
 使用近似值來改善圖表速度，代價是新增的延展或更多圖表是網格的輸出。

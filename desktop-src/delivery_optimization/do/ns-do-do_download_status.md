@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 07/03/2019
-ms.openlocfilehash: 5e113bb4866ef1033886dbb1579d21aa296d0e5e
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 8775b7daf55d58698d00bcaa2820b909e302933c9f407d1cb6416d6b095a872b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106968077"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118543732"
 ---
 # <a name="do_download_status-structure"></a>DO_DOWNLOAD_STATUS 結構
 
@@ -63,6 +63,6 @@ typedef struct _DO_DOWNLOAD_STATUS
 
 | &nbsp; | &nbsp; |
 | ---- |:---- |
-| **最低支援的用戶端** | \[僅限 Windows 10 版本1809的 Win32 應用程式\] |
-| **最低支援的伺服器** | Windows Server，僅限1809版的 \[ Win32 應用程式\] |
+| **最低支援的用戶端** | Windows 10 版本 1809 \[僅限 Win32 應用程式\] |
+| **最低支援的伺服器** | WindowsServer，僅限1809版的 \[ Win32 應用程式\] |
 | **標頭** | Do。h |

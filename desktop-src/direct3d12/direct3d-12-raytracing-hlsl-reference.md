@@ -5,12 +5,12 @@ ms.assetid: ''
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7522d26eef8d3c9865a456a94fbd7eafdf99604f
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 09d2619b1323a1de205215710ac8a8db0e4d6382f9fa09a283c04054af0deee7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106976414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529874"
 ---
 # <a name="raytracing-hlsl-reference"></a>Raytracing HLSL 參考
 

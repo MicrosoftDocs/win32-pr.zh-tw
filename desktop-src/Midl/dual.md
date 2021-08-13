@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 39a9e44de464f58fd1ffc0606551b9a0203ae9e9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a1e1e9cd15c1b219d07518c9630880a5010226c96c63d57539ffb66fab3a6c02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643092"
 ---
 # <a name="dual-attribute"></a>dual 屬性
 
@@ -74,7 +74,7 @@ interface interface-name
 > [!Note]  
 > 如果您的應用程式藉由在介面呼叫內轉換 *this* 指標來存取物件資料，您應該針對自己的 vtbl 指標檢查物件中的 vtbl 指標，以確定您已連接到適當的 proxy。
 
- 
+ 
 
 在介面上指定 **雙重** 表示介面與 Automation 相容，因此會同時 \_ 設定 TYPEFLAG FDUAL 和 TYPEFLAG \_ FOLEAUTOMATION 旗標。
 
@@ -117,12 +117,12 @@ interface IHello : IDispatch
 [ODL 檔案範例](/previous-versions/windows/desktop/automat/odl-file-example)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**retval**](retval.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

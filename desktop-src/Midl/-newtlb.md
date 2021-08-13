@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f864a4bd4d5e4c7c899cda839ae39d95791c7b23
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b15ebed12b968738c1d5b26e264b88879ab61e2e6d4d587663b03365548c8b87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644026"
 ---
 # <a name="newtlb-switch"></a>/newtlb 參數
 
@@ -33,7 +33,7 @@ midl /newtlb filename
 
 ## <a name="remarks"></a>備註
 
-在最新版本的 Windows 上，此參數不會執行任何動作。 在不支援的 Windows 版本上，在 MIDL 命令列中指定這個參數將會產生錯誤。
+在 Windows 的最新版本上，此參數不會執行任何動作。 在不支援的 Windows 版本上，在 MIDL 命令列中指定這個參數將會產生錯誤。
 
 ## <a name="examples"></a>範例
 
@@ -51,9 +51,9 @@ midl /newtlb filename
 [**/oldtlb**](-oldtlb.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

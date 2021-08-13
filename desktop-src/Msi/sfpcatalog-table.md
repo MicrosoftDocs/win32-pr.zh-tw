@@ -1,19 +1,19 @@
 ---
-description: SFPCatalog 資料表包含 Windows Me 使用的目錄。
+description: SFPCatalog 資料表包含 Windows Me 所使用的目錄。
 ms.assetid: e9dc65a9-4ec9-4310-b03a-a2c38720ca8c
 title: SFPCatalog 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08fe887644faf6cf0a5cda626bbf757e9f448ef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97498ff6437967a4a588be7b957aea130dad201699d55fad3abace6ff094b271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118624889"
 ---
 # <a name="sfpcatalog-table"></a>SFPCatalog 資料表
 
-SFPCatalog 資料表包含 Windows Me 使用的目錄。
+SFPCatalog 資料表包含 Windows Me 所使用的目錄。
 
 SFPCatalog 資料表具有下列資料行。
 

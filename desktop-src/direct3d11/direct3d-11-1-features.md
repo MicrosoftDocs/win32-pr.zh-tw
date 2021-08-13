@@ -1,19 +1,19 @@
 ---
 title: Direct3D 11.1 功能
-description: 以下是在 Direct3D 11.1 中新增的功能，其中包含在 Windows 8、Windows RT 和 Windows Server 2012 中。
+description: 下列是在 Direct3D 11.1 中新增的功能，其包含在 Windows 8、Windows RT 和 Windows Server 2012 中。
 ms.assetid: 2203D2D2-ECF6-4753-90FA-12A52678DFBB
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dece9ed6e0a40ade28857277c344be0e9f2e7ce1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ee5f4721a9f7ef7727539387603e839f36690ed5d4b6762121ceddefa0672ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535963"
 ---
 # <a name="direct3d-111-features"></a>Direct3D 11.1 功能
 
-以下是在 Direct3D 11.1 中新增的功能，其中包含在 Windows 8、Windows RT 和 Windows Server 2012 中。 您可以透過 windows 7 的平臺[更新，在](/windows/desktop/direct3darticles/platform-update-for-windows-7)windows 7 和 windows Server 2008 R2 上取得[Direct3D 11.1](direct3d-11-features.md)的部分支援（可透過[windows 7 的平臺更新取得](https://support.microsoft.com/kb/2670838)）。
+下列是在 Direct3D 11.1 中新增的功能，其包含在 Windows 8、Windows RT 和 Windows Server 2012 中。 您可以透過適用于[Windows 7](/windows/desktop/direct3darticles/platform-update-for-windows-7)的平臺更新，在 Windows 7 和 Windows Server 2008 R2 上取得[Direct3D 11.1](direct3d-11-features.md)的部分支援，其可透過[Windows 7 的平臺更新](https://support.microsoft.com/kb/2670838)取得。
 
 -   [著色器追蹤和編譯器增強功能](#shader-tracing-and-compiler-enhancements)
 -   [Direct3D 裝置共用](#direct3d-device-sharing)
@@ -69,9 +69,9 @@ Direct3D 11.1 可讓您使用著色器追蹤，以確保您的程式碼會如預
 D3dcompiler .lib 程式庫需要 D3dcompiler \_nn.dll。 此 DLL 不是 Windows 8 的一部分;它位於 Windows SDK 的 \\ bin 資料夾中，Windows 8 以及 Fxc.exe 命令列版本的 HLSL 編譯器。
 
 > [!Note]  
-> 雖然您可以使用此程式庫和 DLL 組合進行開發，但無法部署使用此組合的 Windows Store 應用程式。 因此，您必須改為先編譯 HLSL 著色器，再寄送您的 Windows Store 應用程式。 您可以將 HLSL 編譯二進位檔寫入磁片，或編譯器可以產生包含著色器 blob 資料之靜態位元組陣列的標頭。 您可以使用 [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) 介面來存取 blob 資料。 若要開發您的 Windows Store 應用程式，請呼叫 [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2) 或 [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile) 來編譯原始 HLSL 來源，然後將產生的 Blob 資料摘要至 Direct3D。
+> 雖然您可以使用此程式庫和 DLL 組合進行開發，但無法部署使用此組合 Windows 存放區應用程式。 因此，您必須改為先編譯 HLSL 著色器，再寄送 Windows Store 應用程式。 您可以將 HLSL 編譯二進位檔寫入磁片，或編譯器可以產生包含著色器 blob 資料之靜態位元組陣列的標頭。 您可以使用 [**ID3DBlob**](/previous-versions/windows/desktop/legacy/ff728743(v=vs.85)) 介面來存取 blob 資料。 若要開發 Windows 存放區應用程式，請呼叫 [**D3DCompile2**](/windows/desktop/direct3dhlsl/d3dcompile2)或 [**D3DCompileFromFile**](/windows/desktop/direct3dhlsl/d3dcompilefromfile)來編譯原始 HLSL 來源，然後將產生的 blob 資料摘要至 Direct3D。
 
- 
+ 
 
 ## <a name="direct3d-device-sharing"></a>Direct3D 裝置共用
 
@@ -94,7 +94,7 @@ Direct3D 11.1 可讓您檢查圖形驅動程式可能支援的新功能，以及
 
 ## <a name="use-hlsl-minimum-precision"></a>使用 HLSL 最小有效位數
 
-從 Windows 8 開始，圖形驅動程式可以使用任何有效位數大於或等於指定的位精確度，來執行最小有效位數 HLSL 純量 [資料類型](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) 。 當您的 HLSL 最小精確度著色器程式碼在實 HLSL 最小精確度的硬體上使用時，您會使用較少的記憶體頻寬，因此您也會使用較少的系統電源。
+從 Windows 8 開始，圖形驅動程式可以使用任何有效位數大於或等於指定的位精確度，來執行最小有效位數 HLSL 純量[資料類型](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar)。 當您的 HLSL 最小精確度著色器程式碼在實 HLSL 最小精確度的硬體上使用時，您會使用較少的記憶體頻寬，因此您也會使用較少的系統電源。
 
 您可以藉由呼叫 [**ID3D11Device：： CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport) 與 [**D3D11 \_ 功能 \_ 著色器的 \_ 最小 \_ 精確度 \_ 支援**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_feature) 值，來查詢圖形驅動程式所提供的最小精確度支援。 在這個 **ID3D11Device：： CheckFeatureSupport** 呼叫中，將指標傳遞至 [**D3D11 \_ 功能 \_ 資料 \_ 著色器的 \_ 最小 \_ 精確度 \_ 支援**](/windows/desktop/api/D3D11/ns-d3d11-d3d11_feature_data_shader_min_precision_support) 結構， **ID3D11Device：： CheckFeatureSupport** 會填滿驅動程式支援的最小精確度層級（適用于圖元著色器階段和其他著色器階段）。 傳回的資訊只會指出圖形硬體可以用比標準的32位浮點數有效位數更低的精確度來執行 HLSL 作業，但不保證圖形硬體會實際以較低的精確度執行。
 
@@ -140,7 +140,7 @@ Direct3D 11.1 可讓您使用邏輯作業，而不是在轉譯目標中混合。
 >
 > 否則，轉譯行為未定義。 如需如何設定深度範本的詳細資訊，請參閱設定 [Depth-Stencil 功能](d3d10-graphics-programming-guide-depth-stencil.md)。
 
- 
+ 
 
 ## <a name="process-video-resources-with-shaders"></a>使用著色器處理影片資源
 
@@ -154,7 +154,7 @@ Direct3D 11.1 會更新這項功能的下列方法。
 
 ## <a name="extended-support-for-shared-texture2d-resources"></a>共用 Texture2D 資源的擴充支援
 
-Direct3D 11.1 可保證您可以共用以特定資源類型和格式建立的 Texture2D 資源。 若要共用 Texture2D 資源，請使用 [**D3D11 \_ 資源的 \_ 其他 \_ 共用**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)、 [**D3D11 資源的 \_ \_ 其他 \_ 共用 \_ KEYEDMUTEX**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)，或 D3D11 資源的其他共用 **\_ \_ \_ \_ KEYEDMUTEX** 和 [**D3D11 \_ 資源 \_ 其他 \_ 共用 \_ NTHANDLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag) 的組合 (新的 Windows 8) 旗標在建立這些資源時使用。
+Direct3D 11.1 可保證您可以共用以特定資源類型和格式建立的 Texture2D 資源。 若要共用 Texture2D 資源，請使用 [**D3D11 \_ 資源的 \_ 其他 \_ 共用**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)、 [**D3D11 資源的 \_ \_ 其他 \_ 共用 \_ KEYEDMUTEX**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)，或 D3D11 資源的其他共用 **\_ \_ \_ \_ KEYEDMUTEX** 和 [**D3D11 \_ 資源 \_ 其他 \_ 共用 \_ NTHANDLE**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_resource_misc_flag)的組合 (新的 Windows 8) 旗標在建立這些資源時使用。
 
 Direct3D 11.1 保證您可以共用以這些 [**DXGI \_ 格式**](/windows/desktop/api/dxgiformat/ne-dxgiformat-dxgi_format) 值建立的 Texture2D 資源：
 
@@ -246,7 +246,7 @@ Direct3D 11.1 可讓您共用更多的 Texture2D 資源類型和格式。 您可
 > [!Note]  
 > 當 **ExtendedResourceSharing** 為 **TRUE** 時，當您指定系結旗標以共用 Texture2D 資源時，會有更大的彈性。 圖形驅動程式和硬體不僅支援更多系結旗標，也支援更可能的系結旗標組合。 例如，您可以只指定 D3D11 系結轉譯 [**\_ \_ \_ 目標**](/windows/desktop/api/D3D11/ne-d3d11-d3d11_bind_flag) 或沒有系結旗標等等。
 
- 
+ 
 
 即使 [**ID3D11Device：： CheckFeatureSupport**](/windows/desktop/api/D3D11/nf-d3d11-id3d11device-checkfeaturesupport)在 **ExtendedResourceSharing** 中傳回 **TRUE** ，您仍無法共用以這些功能和旗標建立的資源：
 
@@ -376,7 +376,7 @@ Direct3D 11.1 延伸了對 [變形](overviews-direct3d-11-devices-create-warp.md
 
 ## <a name="use-direct3d-in-session-0-processes"></a>在會話0進程中使用 Direct3D
 
-從 Windows 8 和 Windows Server 2012 開始，您可以在會話0進程中使用大部分的 Direct3D Api。
+從 Windows 8 和 Windows Server 2012 開始，您可以在會話0進程中使用大部分的 Direct3D api。
 
 > [!Note]  
 > 這些輸出、視窗、交換鏈和展示相關的 Api 無法在會話0進程中使用，因為它們不適用於會話0環境：
@@ -397,7 +397,7 @@ Direct3D 11.1 延伸了對 [變形](overviews-direct3d-11-devices-create-warp.md
 >
 > 如果您在會話0進程中呼叫上述其中一個 Api，它會傳回 [**\_ \_ \_ 目前無法 \_ 使用的 DXGI 錯誤**](/windows/desktop/direct3ddxgi/dxgi-error)。
 
- 
+ 
 
 ## <a name="support-for-shadow-buffer-on-feature-level-9"></a>功能層級9的陰影緩衝區支援
 
@@ -410,6 +410,6 @@ Direct3D 11.1 延伸了對 [變形](overviews-direct3d-11-devices-create-warp.md
 [Direct3D 11 的新功能](dx-graphics-overviews-introduction.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

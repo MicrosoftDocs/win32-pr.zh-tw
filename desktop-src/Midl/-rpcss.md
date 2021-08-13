@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dabdd6340005c4e56080dc91bdd372a858e0e7a3
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3e0c3087f47bd12c852ef168b2684d5b094239cdac45933c8e7d831fc6461c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643738"
 ---
 # <a name="rpcss-switch"></a>/rpcss 參數
 
@@ -55,9 +55,9 @@ midl /rpcss
 [**/osf**](-osf.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

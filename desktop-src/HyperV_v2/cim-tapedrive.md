@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: b92360388b71abcb0b67d30fddea9b4f5ed7920f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4c12dce8e67a2f46d9c7e7a1ab4ae0772b9e20517da6ab58c00c45a9ea8c71b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118646706"
 ---
 # <a name="cim_tapedrive-class-hyper-v-management"></a>CIM_TapeDrive 類別 (Hyper-v 管理) 
 

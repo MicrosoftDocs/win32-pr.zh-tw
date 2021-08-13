@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d4ce4a314378c5a4a211a52b99ea1b36ae1fda8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7c332a524b334933d587929cdd0e5b5fa61bc15d9110260af8af8e472d7c05fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118568475"
 ---
 # <a name="iwmpplaylistcollectionisdeleted-method"></a>IWMPPlaylistCollection：： isDeleted 方法
 

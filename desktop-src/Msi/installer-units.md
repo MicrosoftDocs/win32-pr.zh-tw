@@ -4,12 +4,12 @@ ms.assetid: 5ef6dee1-71e7-446b-b526-5c6c4e7525f2
 title: 安裝程式單位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4672ff1bb3eb6af4b7a31c20e03d62e1db166ba6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4679847c76ee5128ade4640e2360fcddedf6b015cfafb9f2fa943c880914597c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629984"
 ---
 # <a name="installer-units"></a>安裝程式單位
 

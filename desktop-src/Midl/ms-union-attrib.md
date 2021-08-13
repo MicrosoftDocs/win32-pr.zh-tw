@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7ad9b750027163aef806f5a66e51f87874a0ad2
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 860054fe26657c4028c172da08e0c56dbf6ae257ffc98e79905f8420b54e6878
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642796"
 ---
 # <a name="ms_union-attribute"></a>ms 聯 \_ 集屬性
 
@@ -90,9 +90,9 @@ interface interface-name
 [**/ms 聯 \_ 集**](-ms-union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

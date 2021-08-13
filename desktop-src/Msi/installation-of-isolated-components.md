@@ -1,19 +1,19 @@
 ---
-description: 當封裝包含隔離的元件時，Windows Installer 在安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
+description: Windows當封裝包含隔離的元件時，安裝程式會在安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
 ms.assetid: fbc5dd86-5d38-4ce8-ab38-03c84cc77e80
 title: 獨立元件的安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c1b9a7e21c212474701409e887d0afd5517774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82f842f626775dce436abedace96549fd55079c577885aad81492df861cd1a68
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118634123"
 ---
 # <a name="installation-of-isolated-components"></a>獨立元件的安裝
 
-當封裝包含隔離的元件時，Windows Installer 在安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
+Windows當封裝包含隔離的元件時，安裝程式會在安裝應用程式期間執行下列動作。 通常， \_ 共用元件是元件 \_ 應用程式和其他用戶端可執行檔共用的 DLL。
 
 ## <a name="installation"></a>安裝
 

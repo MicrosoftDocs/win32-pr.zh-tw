@@ -4,12 +4,12 @@ ms.assetid: FFCA890D-6102-47BB-B499-4B9D77D75E9B
 title: 輸入類別
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2955cadfb00dcc39fed490a9c706b12bb1a8993
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5df9c5a2f1d2743e062cf685dc6fd849f33333808315459560dfd840e925135
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118644860"
 ---
 # <a name="input-classes"></a>輸入類別
 

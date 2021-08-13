@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 94465862c34cc9c6fb645f63c0add48d0fded56b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 988cd3f8927ed3e765f1f01ab172de98607c018c579ce86d8976b920a083df8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678642"
 ---
 # <a name="cim_pcvideocontroller-class"></a>CIM \_ PCVideoController 類別
 
@@ -459,7 +459,7 @@ class CIM_PCVideoController : CIM_VideoController
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1465,7 +1465,7 @@ Windows 仍在設定裝置。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

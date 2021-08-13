@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9math.h
-ms.openlocfilehash: f67acc6389ce809c1aa5f4987d9502735fe61e49
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 9818772163d5286d764c0f025b955a663457dd853c2db0efec8ad0b0a4967c5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118524610"
 ---
 # <a name="d3dxquaternion-structure-d3dx9mathh"></a>D3DXQUATERNION 結構 (D3dx9math .h) 
 
@@ -64,7 +64,7 @@ Y 元件。
 
 </dd> <dt>
 
-**Z**
+**z**
 </dt> <dd>
 
 類型： **[ **FLOAT**](../winprog/windows-data-types.md)**

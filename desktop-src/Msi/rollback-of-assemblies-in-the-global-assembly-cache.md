@@ -4,12 +4,12 @@ ms.assetid: 065a380c-4eb5-48a5-ab0a-7f1229b77898
 title: 全域組件快取中的元件回復
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c84bc3107355cb50c17043ee571edff708ba3f6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef1379d8132e4a0789108bae4b26fc02c492f5ccb9a0ec7699bba3d9d4de04d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625823"
 ---
 # <a name="rollback-of-assemblies-in-the-global-assembly-cache"></a>全域組件快取中的元件回復
 

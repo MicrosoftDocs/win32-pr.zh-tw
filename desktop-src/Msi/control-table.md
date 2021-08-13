@@ -4,12 +4,12 @@ ms.assetid: cbe7acd6-b916-45f3-b694-d2345c5a892a
 title: 控制資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ced41fcaf020a043962b16cf12d9c339901b415
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2e1832a2cb600e8d7a27b43bc28c94836396d74a50a90b44d0e5013bde973c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638530"
 ---
 # <a name="control-table"></a>控制資料表
 
@@ -32,7 +32,7 @@ ms.locfileid: "104194102"
 | 屬性      | [識別碼](identifier.md)       | N   | Y        |
 | Text          | [格式 化](formatted.md)         | N   | Y        |
 | 控制 \_ 下一步 | [識別碼](identifier.md)       | N   | Y        |
-| Help          | [Text](text.md)                   | N   | Y        |
+| 說明          | [Text](text.md)                   | N   | Y        |
 
 
 

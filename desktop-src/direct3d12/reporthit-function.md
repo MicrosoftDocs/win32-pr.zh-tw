@@ -12,12 +12,12 @@ api_name:
 - ReportHit
 api_type:
 - NA
-ms.openlocfilehash: 58d109f184974f76c533aaeee055f1ebf21d10eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8714cabc02f70ca12bcc78493de3a61482ba5aed5490087d309f6ec091cecf75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118528106"
 ---
 # <a name="reporthit-function"></a>ReportHit 函式
 

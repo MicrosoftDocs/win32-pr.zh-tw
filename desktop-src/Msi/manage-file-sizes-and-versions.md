@@ -4,12 +4,12 @@ ms.assetid: 21550eea-c30b-4738-9201-ab500356fabf
 title: 管理檔案大小和版本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426acf71956d87fe1458447119d79bc142f1ee75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79dcb5bec9b7fd24d7171efed9295479e56d979a3f7aa69352f2231d409417f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118629039"
 ---
 # <a name="manage-file-sizes-and-versions"></a>管理檔案大小和版本
 
@@ -31,7 +31,7 @@ ms.locfileid: "103691064"
 -   [**至 convertfrom-stringdata**](record-stringdata.md) 屬性
 -   [](record-integerdata.md) [ **Record 物件** 的 IntegerData 屬性](record-object.md)
 
-使用此範例需要 Windows Script Host 的 CScript.exe 或 WScript.exe 版本。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令：
+使用此範例需要 Windows 腳本主機的 CScript.exe 或 WScript.exe 版本。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令：
 
 **cscript WiFilVer.vbs \[ 資料庫 \] \[ 選擇性來源位置的路徑\]**
 
@@ -47,7 +47,7 @@ ms.locfileid: "103691064"
 
 
 
-| 選項                | Description                                                                              |
+| 選項                | 描述                                                                              |
 |-----------------------|------------------------------------------------------------------------------------------|
 | *未指定任何選項* | 顯示資料庫的檔案資訊。                                            |
 | /U                    | 從來源更新資料庫中的檔案大小、版本和語言資訊。 |
@@ -56,7 +56,7 @@ ms.locfileid: "103691064"
 
  
 
-如需詳細資訊，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md) 和 [Windows Installer 開發工具](windows-installer-development-tools.md)。
+如需詳細資訊，請參閱[Windows Installer 腳本範例](windows-installer-scripting-examples.md)和[Windows Installer 開發工具](windows-installer-development-tools.md)。
 
  
 

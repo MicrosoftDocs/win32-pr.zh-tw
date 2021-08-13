@@ -4,12 +4,12 @@ ms.assetid: 52b1c537-efb6-4bb8-9e7f-b4848be52a71
 title: _Validation 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 666f00ccccda11706dce6a8d7e04e0efea91b7cd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81a42fbe2a2f8da4abceb04912eee2a12edd708ff88d979fbf45f7de8051dc80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118640443"
 ---
 # <a name="_validation-table"></a>\_驗證資料表
 
@@ -29,8 +29,8 @@ ms.locfileid: "103849003"
 | KeyTable    | [識別碼](identifier.md)       | N   | Y        |
 | KeyColumn   | [整數](integer.md)             | N   | Y        |
 | 類別    | [Text](text.md)                   | N   | Y        |
-| 設定         | [Text](text.md)                   | N   | Y        |
-| Description | [Text](text.md)                   | N   | Y        |
+| 集合         | [Text](text.md)                   | N   | Y        |
+| 描述 | [Text](text.md)                   | N   | Y        |
 
 
 

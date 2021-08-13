@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fc217211455d8804de47b2b3ffc761d4328fa49a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 8dfe86439e9760fb06e8cd29e9140e73e71030744b064408df6275ced4a2e30c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118676594"
 ---
 # <a name="enabledns-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 EnableDNS 方法 \_
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27f2e2040acbc0e8f65c02f4f4ec7c3ad329959b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ca7dfa7e8cdc5b1df752a3a6eb442524157228d354079f262a27a5514860e335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118642964"
 ---
 # <a name="max_is-attribute"></a>max \_ 為 attribute
 
@@ -88,6 +88,6 @@ HRESULT Proc2(
 [**大小 \_ 為**](size-is.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

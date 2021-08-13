@@ -4,12 +4,12 @@ ms.assetid: 71cfd516-4a92-446c-bd8f-a3a04dba0bb2
 title: SetInstallLevel ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 347f54cee1494b2ff91f7dc1701f0b7749d47e4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3e7632e666dc169318e04cbcaf979aa82432d028cc6b7230e6a5e711350ef35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118625106"
 ---
 # <a name="setinstalllevel-controlevent"></a>SetInstallLevel ControlEvent
 

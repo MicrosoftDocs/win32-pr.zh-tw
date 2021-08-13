@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - d3dx9mesh.h
-ms.openlocfilehash: a312c2618960691184182039afe38acc8947eb6a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6b83389ae4d92027245877e24e01621f0d93f123dee9ff4f040586b3e7c5111d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118525267"
 ---
 # <a name="d3dxmesh-enumeration"></a>D3DXMESH 列舉
 
@@ -102,7 +102,7 @@ typedef enum D3DXMESH {
 
 </dd> <dt>
 
-<span id="D3DXMESH_VB_MANAGED"></span><span id="d3dxmesh_vb_managed"></span>**D3DXMESH \_ VB \_ MANAGED**
+<span id="D3DXMESH_VB_MANAGED"></span><span id="d3dxmesh_vb_managed"></span>**D3DXMESH \_ VB \_ 受控**
 </dt> <dd>
 
 針對頂點緩衝區使用 [**D3DPOOL \_ 受控**](./d3dpool.md) 使用旗標。
@@ -189,21 +189,21 @@ typedef enum D3DXMESH {
 <span id="D3DXMESH_MANAGED"></span><span id="d3dxmesh_managed"></span>**D3DXMESH \_ 受控**
 </dt> <dd>
 
-相當於指定 D3DXMESH \_ VB managed \_ 和 D3DXMESH \_ IB \_ managed。
+相當於指定 D3DXMESH \_ VB \_ managed 和 D3DXMESH \_ IB \_ managed。
 
 </dd> <dt>
 
 <span id="D3DXMESH_WRITEONLY"></span><span id="d3dxmesh_writeonly"></span>**D3DXMESH \_ WRITEONLY**
 </dt> <dd>
 
-相當於同時指定 D3DXMESH \_ VB \_ WRITEONLY 和 D3DXMESH \_ IB \_ writeonly。
+相當於同時指定 D3DXMESH \_ VB \_ WRITEONLY 和 D3DXMESH \_ IB \_ WRITEONLY。
 
 </dd> <dt>
 
 <span id="D3DXMESH_DYNAMIC"></span><span id="d3dxmesh_dynamic"></span>**D3DXMESH \_ 動態**
 </dt> <dd>
 
-相當於同時指定 D3DXMESH \_ VB \_ DYNAMIC 和 D3DXMESH \_ IB \_ dynamic。
+相當於同時指定 D3DXMESH \_ VB \_ 動態和 D3DXMESH \_ IB \_ 動態。
 
 </dd> <dt>
 
