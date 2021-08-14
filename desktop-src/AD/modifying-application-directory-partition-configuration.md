@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割 AD，修改設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c976c297e8491dbb87a32cf2241446ca0403e7f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cc378536a552bb7612877fc09913fdbad9daf507adbb34b5f53f8946c946e8ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186313"
 ---
 # <a name="modifying-application-directory-partition-configuration"></a>修改應用程式目錄分割設定
 
@@ -30,8 +30,8 @@ ms.locfileid: "103842067"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

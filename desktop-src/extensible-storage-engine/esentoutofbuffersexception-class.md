@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6fc8c5d22a6dc4d33d855d6d98a78e8ce7d33ad1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4229d82da08b55a80c68e97548d9183674db7b922e7bfa567c99b978f9c07c95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119478486"
 ---
 # <a name="esentoutofbuffersexception-class"></a>EsentOutOfBuffersException 類別
 

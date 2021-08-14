@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9d1eeb5d4c635379704a7dc250c3c80a2f9c07
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f73aa1deee1052c070e948da29429f43d98acaf2b3d40d400d87ae0424b1c04d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118687232"
 ---
 # <a name="moniker-attribute"></a>標記屬性
 

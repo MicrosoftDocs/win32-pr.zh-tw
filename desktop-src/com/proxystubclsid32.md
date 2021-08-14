@@ -1,28 +1,28 @@
 ---
 title: ProxyStubClsid32
-description: 將 IID 對應至32位 proxy Dll 中的 CLSID。
+description: 將 IID 地圖32位 proxy Dll 中的 CLSID。
 ms.assetid: 8d63d2b1-c8ba-4fe8-8025-e7ceee422ee7
 keywords:
 - ProxyStubClsid32 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7d1d70ad2deb4f747ecf57fd12f0707ac8b2b9d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4d9098ffc7771d3f900489292694ade462a2214e733294a1ed18e6ddb9817692
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309894"
 ---
 # <a name="proxystubclsid32"></a>ProxyStubClsid32
 
-將 IID 對應至32位 proxy Dll 中的 CLSID。
+將 IID 地圖32位 proxy Dll 中的 CLSID。
 
 ## <a name="registry-entry"></a>登錄項目
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
-   {IID}
-      ProxyStubClsid32 = {CLSID}
+   {IID}
+      ProxyStubClsid32 = {CLSID}
 ```
 
 ## <a name="remarks"></a>備註
@@ -46,6 +46,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Interface
 [**ProxyStubClsid**](proxystubclsid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

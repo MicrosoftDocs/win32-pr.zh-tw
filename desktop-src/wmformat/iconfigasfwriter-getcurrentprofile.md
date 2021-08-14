@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 88931d83674ffa84288b4bec10e3c9dba15c812a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9b7a07ed6ab5b94138c0c04d40782496535e0ae4a3eff0f443c89d7ccd0c4b1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118198379"
 ---
 # <a name="iconfigasfwritergetcurrentprofile-method"></a>IConfigAsfWriter：： GetCurrentProfile 方法
 
@@ -31,7 +31,7 @@ ms.locfileid: "106969910"
 
 ```C++
 HRESULT GetCurrentProfile(
-  [out] IWMProfile **ppProfile
+  [out] IWMProfile **ppProfile
 );
 ```
 
@@ -63,6 +63,6 @@ HRESULT GetCurrentProfile(
 [**IConfigAsfWriter 介面**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

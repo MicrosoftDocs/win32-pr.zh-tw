@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: d6ab6b4614c336d3e0da50c0291b2e69a260ae1f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2d134cb61831426451b1c6068bde5ca787b027fbe5b153587b45d9693ef739c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697245"
 ---
 # <a name="iportabledevicevaluescopyvaluestopropertystore-method"></a>IPortableDeviceValues：： CopyValuesToPropertyStore 方法
 
@@ -53,7 +53,7 @@ HRESULT CopyValuesToPropertyStore(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 
@@ -65,7 +65,7 @@ HRESULT CopyValuesToPropertyStore(
 
 這個方法不會將 VT LPWSTR 的值轉換 \_ 成 vt \_ BSTR。 許多與您的應用程式通訊的外部應用程式或元件（例如某些 shell 應用程式）都會使用 **IPropertyStore** 介面。 這種方法可讓您快速輕鬆地與這些程式交換資料。
 
-Windows Vista 和更新版本的 Windows 中支援這個方法。
+Windows Vista 和更新版本的 Windows 支援此方法。
 
 ## <a name="requirements"></a>規格需求
 

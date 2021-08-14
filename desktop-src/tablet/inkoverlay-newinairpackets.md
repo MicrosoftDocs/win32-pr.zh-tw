@@ -4,12 +4,12 @@ ms.assetid: 10dc1909-bfbc-4ea0-b77a-e33149205107
 title: 'NewInAirPackets 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f39e568941b1af0727ad9c8464913325409b4604
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7198fe2d105421654bfba037049e46a592d603bd94409350e97b794882ab4de2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219166"
 ---
 # <a name="inkoverlaynewinairpackets-event"></a>NewInAirPackets 事件
 
@@ -80,7 +80,7 @@ void NewInAirPackets(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

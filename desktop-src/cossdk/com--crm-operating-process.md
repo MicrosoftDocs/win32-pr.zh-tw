@@ -4,12 +4,12 @@ ms.assetid: be50912e-b9fd-4ef7-b81a-e37617a96955
 title: COM + CRM 操作進程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d39dba3dedcbdefebe0f62144547ebb6985fa51f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c6d294d60429faeaad7a4d58808760ecd327bcaff252f2b71070c6605f5327ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308127"
 ---
 # <a name="com-crm-operating-process"></a>COM + CRM 操作進程
 

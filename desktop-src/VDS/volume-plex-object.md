@@ -4,16 +4,16 @@ ms.assetid: 9e770bfc-2bcb-45f0-a7fc-ba526349839e
 title: 磁片區 Plex 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a858bc6ce98761bb687e8dca473b1b68879da8
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: c140cbf50e1939be7f62499aa90a299e07c157cd22b1a2e039e5e7bb2053b497
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104321332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118603023"
 ---
 # <a name="volume-plex-object"></a>磁片區 Plex 物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 磁片區 plex 物件會建立磁片區所包含的磁片區 plex 模型。 只有鏡像磁片區可以有多個 plex;所有其他磁片區類型都有一個 plex。 每個 plex 都包含磁片區上的資料複本。 VDS 支援四個磁片區的磁片區 plex 類型：簡單、跨距、等量和同位檢查。 如需這些磁片區類型的說明，請參閱 [磁片區物件](volume-object.md)。
 

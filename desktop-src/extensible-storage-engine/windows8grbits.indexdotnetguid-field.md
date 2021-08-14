@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f14ee4785eb3819b346f1fd04d977392bf12616e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc53c5a9ff1f2e71e634c93081d183e0afbd19e46a758078881b4efb33e43689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117889285"
 ---
 # <a name="windows8grbitsindexdotnetguid-field"></a>Windows8Grbits. IndexDotNetGuid 欄位
 

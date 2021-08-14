@@ -4,12 +4,12 @@ ms.assetid: 0f8cea07-da96-4d2a-8444-6073b51e1236
 title: 系統 GPS. 緯度相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5320869c1e8fd0d4b17bb17da455fc939bf44b9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41dd1eb0ee21ab02eeb8c83d5ea84f28c07c2811929f2b8c973cace4a4a06fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710622"
 ---
 # <a name="systemgpslatitude-photo-metadata-policy"></a>系統 GPS. 緯度相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-Yes
+是
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

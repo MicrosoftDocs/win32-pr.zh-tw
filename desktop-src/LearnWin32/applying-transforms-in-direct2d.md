@@ -4,12 +4,12 @@ description: 在 Direct2D 中套用轉換
 ms.assetid: 4b54dcfc-f915-4e4a-aa88-ee23c341c2a4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8edddbb3150f16428c56bd4c6da828c9b2ce594e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ab83cb9a7981ada944de07e362c2f568889a84a4f90f2171150fbab948ab3a6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388483"
 ---
 # <a name="applying-transforms-in-direct2d"></a>在 Direct2D 中套用轉換
 
@@ -109,7 +109,7 @@ void Scene::RenderScene()
 }
 ```
 
-您可以從 [Direct2D Clock 範例](direct2d-clock-sample.md)下載完整的 Visual Studio 專案。  (只是為了有趣，下載版本會將放射星形 gradiant 新增至時鐘臉部。 ) 
+您可以從[Direct2D Clock 範例](direct2d-clock-sample.md)下載完整的 Visual Studio 專案。  (只是為了有趣，下載版本會將放射星形 gradiant 新增至時鐘臉部。 ) 
 
 ## <a name="combining-transforms"></a>合併轉換
 

@@ -4,21 +4,21 @@ description: VML 鎖定元素
 ms.assetid: 1dfdc23a-0ad1-468f-a850-2068f3cc1803
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46a3d246e486d1b7db99484777355b9160b71b6b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 258ad050ea59427e43faba5b92ddc93dfd62e5065c874a0c5f5d25d88e30fecc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119573978"
 ---
 # <a name="vml-locks-element"></a>VML 鎖定元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 定義圖形的鎖定。
 
@@ -42,7 +42,7 @@ ms.locfileid: "104092932"
 
 
 
- 
+ 
 
 **備註**
 
@@ -50,6 +50,6 @@ ms.locfileid: "104092932"
 
 **鎖定** 元素是 VML 的 Microsoft Office 延伸模組。
 
- 
+ 
 
- 
+ 

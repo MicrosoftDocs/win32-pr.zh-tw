@@ -1,32 +1,32 @@
 ---
 description: CNG 提供私密金鑰儲存的模型，可讓您根據目前和未來建立使用加密功能（例如公用或私密金鑰加密）的應用程式，以及儲存金鑰資料的需求。
 ms.assetid: 95e5750f-fdc5-41f3-a4ce-9593a7081e95
-title: 金鑰儲存和抓取
+title: 金鑰儲存體和抓取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5abfd6319353440c580d53990075a71613a1eba9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e81b2100f005f0ff293e34a3f4c0a7460b7a4d4e9c2b15fbe0b3577b5e52394a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907681"
 ---
-# <a name="key-storage-and-retrieval"></a>金鑰儲存和抓取
+# <a name="key-storage-and-retrieval"></a>金鑰儲存體和抓取
 
--   [金鑰儲存架構](#key-storage-architecture)
+-   [主要儲存體架構](#key-storage-architecture)
 -   [金鑰類型](#key-types)
 -   [支援的演算法](#supported-algorithms)
 -   [金鑰目錄和檔案](#key-directories-and-files)
 
-## <a name="key-storage-architecture"></a>金鑰儲存架構
+## <a name="key-storage-architecture"></a>主要儲存體架構
 
 CNG 提供私密金鑰儲存的模型，可讓您根據目前和未來建立使用加密功能（例如公用或私密金鑰加密）的應用程式，以及儲存金鑰資料的需求。 金鑰儲存路由器是此模型中的中央常式，並在 Ncrypt.dll 中執行。 應用程式會透過金鑰儲存路由器 (在系統上 Ksp) 來存取金鑰儲存提供者，這會從應用程式和存放裝置提供者本身隱藏詳細資料，例如金鑰隔離。 下圖顯示 CNG 金鑰隔離架構的設計和功能。
 
 ![cng 金鑰儲存提供者](images/cng-key-storage-provider.png)
 
-為了符合 (CC) 需求的通用準則，必須隔離長時間的金鑰，使其永遠不會出現在應用程式進程中。 CNG 目前支援使用 Windows Server 2008 和 Windows Vista 隨附的 Microsoft 軟體 KSP 儲存非對稱式私密金鑰，並預設會安裝這些金鑰。
+為了符合 (CC) 需求的通用準則，必須隔離長時間的金鑰，使其永遠不會出現在應用程式進程中。 CNG 目前支援使用隨附于 Windows Server 2008 和 Windows Vista 的 Microsoft 軟體 KSP 來儲存非對稱私密金鑰，並預設安裝。
 
-Windows Server 2008 和 Windows Vista 中預設會啟用金鑰隔離。 在這些平臺之前，您無法在平臺上使用金鑰隔離功能。 此外，協力廠商 Ksp 不會載入 (LSA 進程) 的金鑰隔離服務中。 只有 Microsoft KSP 會在金鑰隔離服務中載入。
+預設會啟用 Windows Server 2008 和 Windows Vista 中的金鑰隔離。 在這些平臺之前，您無法在平臺上使用金鑰隔離功能。 此外，協力廠商 Ksp 不會載入 (LSA 進程) 的金鑰隔離服務中。 只有 Microsoft KSP 會在金鑰隔離服務中載入。
 
 LSA 處理常式是用來將效能最大化的金鑰隔離程式。 私密金鑰的所有存取都是透過金鑰儲存路由器，它會公開一組完整的功能來管理和使用私密金鑰。
 
@@ -34,7 +34,7 @@ CNG 會將預存金鑰的公開部分與私用部分分開儲存。 金鑰組的
 
 如上所述，您可以支援各種不同的硬體儲存體裝置。 在每個案例中，所有這些儲存裝置的介面都相同。 它包含執行各種私密金鑰作業的函式，以及與金鑰儲存和管理相關的功能。
 
-CNG 提供一組 Api，可用來建立、儲存和取出密碼編譯金鑰。 如需這些 Api 的清單，請參閱 [CNG 金鑰儲存功能](cng-key-storage-functions.md)。
+CNG 提供一組 Api，可用來建立、儲存和取出密碼編譯金鑰。 如需這些 Api 的清單，請參閱[CNG 金鑰儲存體](cng-key-storage-functions.md)函式。
 
 ## <a name="key-types"></a>索引鍵類型
 

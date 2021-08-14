@@ -3,9 +3,9 @@ title: 支援多種語言
 description: 支援多種語言
 ms.assetid: b0061de4-d725-455f-9d9b-5bd0dbe8ff53
 keywords:
-- Windows Media Format SDK，支援多種語言
-- Windows Media Format SDK，多重語言支援
-- Windows Media Format SDK，語言支援
+- Windows媒體格式 SDK，支援多種語言
+- Windows媒體格式 SDK，多重語言支援
+- Windows媒體格式 SDK，語言支援
 - Advanced Systems Format (ASF) ，支援多種語言
 - ASF (Advanced Systems Format) ，支援多種語言
 - Advanced Systems Format (ASF) 、多重語言支援
@@ -14,16 +14,16 @@ keywords:
 - ASF (Advanced Systems Format) ，語言支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc070bda1cc25c6b7fd0fa583a8ac63a55fa603
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: aa610d5a9b0c92fb205ecdc234a18d816190223b5bca843a542e7222695fa24f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103933006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699099"
 ---
 # <a name="to-support-multiple-languages"></a>支援多種語言
 
-您可以在資料流程和中繼資料中支援多種語言。 Windows Media 格式 SDK 中的多語言支援核心是 [**IWMLanguageList**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist) 介面，可維護所支援的語言清單。 語言清單會為每個支援的語言提供一個索引，此索引會在處理多種語言時用於 SDK 中的各種物件。
+您可以在資料流程和中繼資料中支援多種語言。 Windows 媒體格式 SDK 的多重語言支援核心是 [**IWMLanguageList**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlanguagelist)介面，可維護所支援的語言清單。 語言清單會為每個支援的語言提供一個索引，此索引會在處理多種語言時用於 SDK 中的各種物件。
 
 [**IWMLanguageList：： AddLanguageByRFC1766String**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlanguagelist-addlanguagebyrfc1766string)方法會將語言新增至清單。 您可以使用 [**IWMLanguageList：： GetLanguageCount**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagecount) 取得語言的總數量，然後針對每個語言逐一查看呼叫 [**IWMLanguageList：： GetLanguageDetails**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmlanguagelist-getlanguagedetails) 的語言，以識別已在清單中的語言。 語言索引是以零為基底。
 
@@ -70,9 +70,9 @@ Reader 物件提供方法，以識別檔案中資料流程的可用語言。 您
 [**IWMStreamConfig3 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig3)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

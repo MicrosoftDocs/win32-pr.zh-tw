@@ -4,12 +4,12 @@ description: 本章節包含與狀態列控制項搭配使用之程式設計項�
 ms.assetid: 77923055-9d00-4528-bda7-b602a26b577f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ca6e46f1c573b75439cc10aa27ae3245e47e3de9
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a1be3ea518b63118fc80b02b382943c40ba2fd13b15713488b351b5d6cc827e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103683405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696488"
 ---
 # <a name="status-bar"></a>狀態列
 

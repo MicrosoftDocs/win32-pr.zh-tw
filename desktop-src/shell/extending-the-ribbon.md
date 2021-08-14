@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 6a0a3af3ac21e0bac0471bc9a987849536303556
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 635698461f897a08248ea99bf68d534ea8ad24763f926460d2e9ce64181ba2a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860849"
 ---
 # <a name="extending-the-ribbon"></a>擴充功能區
 

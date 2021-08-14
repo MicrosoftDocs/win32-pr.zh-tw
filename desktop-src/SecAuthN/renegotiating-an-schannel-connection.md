@@ -4,12 +4,12 @@ ms.assetid: 681b607d-66d8-4012-9a84-d202c9778a26
 title: 重新交涉 Schannel 連線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fbcd25dad39ab7f35e77277eee9275004cd8a26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b904400f5a440046214c39ea736c296685e0e56859f43b3a458f621d2a07d273
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919397"
 ---
 # <a name="renegotiating-an-schannel-connection"></a>重新交涉 Schannel 連線
 

@@ -3,21 +3,21 @@ title: 影像串流
 description: 影像串流
 ms.assetid: 17a945aa-463a-4aac-82cc-68b49c720c0a
 keywords:
-- Windows Media Format SDK，映射資料流程
+- Windows媒體格式 SDK，映射資料流程
 - 先進的系統格式 (ASF) 、影像串流
 - ASF (Advanced 系統格式) 、影像串流
-- Windows Media Format SDK，資料流程
+- Windows媒體格式 SDK，資料流程
 - Advanced Systems Format (ASF) 、串流
 - ASF (Advanced Systems Format) ，資料流程
 - 影像串流，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 280d029715a3c722d05ee335a3a88ae4632cabbb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c2067710e6b2be627bd16125d73e567a2f1ba1557ae01b81f55712d8c5a7b8bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301683"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702862"
 ---
 # <a name="image-streams"></a>影像串流
 
@@ -41,9 +41,9 @@ ms.locfileid: "104301683"
 [**寫入影像資料流程**](writing-image-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

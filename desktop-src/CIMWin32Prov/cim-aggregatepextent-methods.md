@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_AggregatePExtent 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3febd898142299b2f7b336b223be986ed60b930
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b6e0654fd9d2323375ca42f334a487bcdb2c05ec973d38d77576bb46a988ff7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701278"
 ---
 # <a name="cim_aggregatepextent-methods"></a>CIM \_ AggregatePExtent 方法
 

@@ -21,12 +21,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55763b7c52071ca5bfd0a875912941090b7992c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29c42a005b89215a974fe0d546a1e87b23c78be25c33a1b494b172fa19bead94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428393"
 ---
 # <a name="iadsaccesscontrollist-property-methods"></a>IADsAccessControlList 屬性方法
 

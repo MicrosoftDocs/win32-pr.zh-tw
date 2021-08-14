@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d517e13f8da103b1f9cee9498cce58a62eaf6462
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0709b24779d3aac90d496b38b4654596479ad7a9122660158b53b4b2e75ba622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336716"
 ---
 # <a name="playlist-object"></a>播放清單物件
 
@@ -37,7 +37,7 @@ ms.locfileid: "104022248"
 
 
 
- 
+ 
 
 **播放清單** 物件支援下列方法。
 
@@ -57,7 +57,7 @@ ms.locfileid: "104022248"
 
 
 
- 
+ 
 
 **播放清單** 物件是透過下列屬性和方法來存取。
 
@@ -73,7 +73,7 @@ ms.locfileid: "104022248"
 
 
 
- 
+ 
 
 因為這是最常見的存取方式，也就是 *播放機*。**currentPlaylist** 是用於參考語法區段中的說明用途。
 
@@ -84,9 +84,9 @@ ms.locfileid: "104022248"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

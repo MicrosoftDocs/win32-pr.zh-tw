@@ -3,7 +3,7 @@ title: ComboBox 元素
 description: 表示下拉式方塊控制項。
 ms.assetid: d796e26b-44c2-4e11-b1a5-2ede5bcff676
 keywords:
-- ComboBox 元素視窗功能區
+- ComboBox 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 60ad8866b655be587e0c3d0f123d8bc59b6b8a21
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 60ee7a03d25508df45469577f4d4159b5db5f5190f188ca594b71f176d037526
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851185"
 ---
 # <a name="combobox-element"></a>ComboBox 元素
 
@@ -57,28 +57,28 @@ ms.locfileid: "111443579"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsAutoCompleteEnabled</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>IsEditable</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ResizeType</strong><br/></td>
 <td>ComboBoxResizeType<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (NoResize) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (VerticalResize) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 </tbody>
@@ -119,7 +119,7 @@ ms.locfileid: "111443579"
 
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-group.md"><strong>群組</strong></a><br/></td>
+<td><a href="windowsribbon-element-group.md"><strong>Group</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
@@ -151,7 +151,7 @@ Windows 8 和更新版本。
 
 因為 **ComboBox** 只是一個專案資源庫，所以不支援命令專案。 它也是唯一不支援命令空間的資源庫控制項 (標記中宣告的命令集合，並列在專案庫或命令資源庫) 的底部。 如需詳細資訊，請參閱 [使用資源庫](ribbon-controls-galleries.md)。
 
-下列螢幕擷取畫面說明 Windows Live Movie Maker 的功能區 [下拉式列示方塊](windowsribbon-controls-combobox.md) 控制項。
+下列螢幕擷取畫面說明 Windows Live Movie Maker 中的功能區[下拉式列示方塊](windowsribbon-controls-combobox.md)控制項。
 
 ![microsoft 油漆功能區中 combobox 控制項的螢幕擷取畫面。](images/controls/combobox.png)
 

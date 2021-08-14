@@ -4,12 +4,12 @@ ms.assetid: 40622282-e190-40d0-80d4-cab9eddc2091
 title: 使用 CNG 加密資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f161cd23ec6863bee7f5ffd5b696fa99880e3b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b264518c2a0ccfe0f626c869ba3062c0429941234ca0c286f9e7801961485b74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907736"
 ---
 # <a name="encrypting-data-with-cng"></a>使用 CNG 加密資料
 

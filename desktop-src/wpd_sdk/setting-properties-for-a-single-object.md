@@ -4,12 +4,12 @@ ms.assetid: 1c003534-96b4-419b-94d1-73b5ffa2eba1
 title: 設定單一物件的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5649d05ccadfeaef0dd8805abd7d556f7725f175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44a38964282b4ff6a51ee104bafc596f40f6107a87ae8069eba84a25386e7842
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704278"
 ---
 # <a name="setting-properties-for-a-single-object"></a>設定單一物件的屬性
 

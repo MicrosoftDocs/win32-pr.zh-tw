@@ -15,12 +15,12 @@ keywords:
 - 音訊 DSP 外掛程式，修改範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdde8e7f00fc9ea3ad9bb8b7adb2d0a8bfba6b32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2f18ca0aada7072ca7cd1c0796c3cd6770a9b45340a4d9f67a342944f4c22887
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338639"
 ---
 # <a name="implementing-an-audio-dsp-plug-in"></a>執行音訊 DSP 外掛程式
 
@@ -38,7 +38,7 @@ ms.locfileid: "104021765"
 
 
 
- 
+ 
 
 下列各節提供有關如何修改 Windows Media Player 外掛程式 Wizard 產生的程式碼，以建立您自己的音訊 DSP 外掛程式的詳細資料：
 
@@ -56,9 +56,9 @@ ms.locfileid: "104021765"
 [**關於 DSP 外掛程式**](about-dsp-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

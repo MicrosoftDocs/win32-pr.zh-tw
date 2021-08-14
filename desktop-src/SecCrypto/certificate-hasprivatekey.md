@@ -15,16 +15,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 43110e48a1172977ad979d6ec2d94c5b8e3ffc50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac38a62e11d75e21de5fd61dffd821cb4384e4e9b59d2bf11f6e217589ab578b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771529"
 ---
 # <a name="icertificate2hasprivatekey-method"></a>ICertificate2：： HasPrivateKey 方法
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
 
 **HasPrivateKey** 方法會判斷 [*憑證*](../secgloss/c-gly.md)是否有與其相關聯的 [*私密金鑰*](../secgloss/p-gly.md)。 方法會藉由檢查是否 \_ 有 CERT KEY \_ >prov \_ INFO \_ \_ 屬性識別碼屬性來決定這一點。
 

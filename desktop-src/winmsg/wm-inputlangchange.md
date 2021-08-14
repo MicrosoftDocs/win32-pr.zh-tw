@@ -4,12 +4,12 @@ ms.assetid: 4d403b1d-f6f7-40d5-9bf5-6a9c4da0803c
 title: 'WM_INPUTLANGCHANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7e2ceb943290fceab13bf6f22c3d9dafbac27a8
-ms.sourcegitcommit: 40dddb65cba5c5470631f1f4c78218edf7e515de
+ms.openlocfilehash: 72f56367045fe72a8288220e1aeef662e648d702c3b48ead23bf179142dff92c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/01/2021
-ms.locfileid: "108332403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436243"
 ---
 # <a name="wm_inputlangchange-message"></a>WM \_ INPUTLANGCHANGE 訊息
 
@@ -73,7 +73,7 @@ case WM_INPUTLANGCHANGE:
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱
 

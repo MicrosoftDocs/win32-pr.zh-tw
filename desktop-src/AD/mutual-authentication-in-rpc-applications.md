@@ -8,12 +8,12 @@ keywords:
 - Active Directory，使用，相互驗證，RPC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05a8591056293c916205b5b600c1b1a061d169f0
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 75c7d5ea3632d08671861b72267419efd54c1a6a89770fbde72543596b29fa8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186053"
 ---
 # <a name="mutual-authentication-in-rpc-applications"></a>RPC 應用程式中的相互驗證
 
@@ -58,6 +58,6 @@ RPC 服務可以使用服務連接點來發佈本身，也可以使用 RPC 名�
 -   [使用 RPC 名稱服務發行 (RpcNs) ](publishing-with-the-rpc-name-service-rpcns.md)
 -   [RPC 安全性基本知識](/windows/desktop/Rpc/rpc-security-essentials)
 
- 
+ 
 
- 
+ 

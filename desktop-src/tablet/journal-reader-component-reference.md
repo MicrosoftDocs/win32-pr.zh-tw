@@ -4,12 +4,12 @@ ms.assetid: 8d8e633e-3294-4594-b1b6-ec0daf2c418d
 title: 日誌讀取器元件參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ef9cb52669601ccf74ac13fda1f7fd38e1ade6e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 1e5f3975c5306fcd78046f3be8dc785f658191da147b1f71060238bb6e418ed3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856993"
 ---
 # <a name="journal-reader-component-reference"></a>日誌讀取器元件參考
 

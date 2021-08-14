@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2684f713cb973c0d4b25b95cf2e09602d42b0cbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df5d3e12495d24deba8348db19e5459efc6be9701c4e9a92796eedf9784b8cea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387139"
 ---
 # <a name="locationdispdispcivicaddressreportaddressline1-property"></a>LocationDisp. DispCivicAddressReport. AddressLine1 屬性
 
-\[位置 API 物件模型可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，若要從網站存取位置，請使用 [W3C 地理位置 API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))。 若要從桌面應用程式存取位置，請使用 [**Windows. 地理位置**](/uwp/api/Windows.Devices.Geolocation) API。\]
+\[位置 API 物件模型可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，若要從網站存取位置，請使用 [W3C 地理位置 API](/previous-versions/windows/internet-explorer/ie-developer/samples/gg589513(v=vs.85))。 若要從桌面應用程式存取位置，請使用 [**Windows。裝置。地理位置**](/uwp/api/Windows.Devices.Geolocation)API。\]
 
 街道位址的第一行。
 
@@ -50,7 +50,7 @@ strAddressLine1 = LocationDisp.DispCivicAddressReport.AddressLine1
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                  |
 
 

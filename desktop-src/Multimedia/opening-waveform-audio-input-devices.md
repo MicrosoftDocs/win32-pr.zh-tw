@@ -10,12 +10,12 @@ keywords:
 - waveInOpen 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c92b7f49b9d170ceb8ebce287025ce0e0c1c5530
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5e6391ca5bfe0690d2235504057865fb588f08d0359417ccbcc04b6a7e5eb082
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969702"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802305"
 ---
 # <a name="opening-waveform-audio-input-devices"></a>開啟 Waveform-Audio 輸入裝置
 
@@ -30,6 +30,6 @@ ms.locfileid: "106969702"
 [錄製波形音訊](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

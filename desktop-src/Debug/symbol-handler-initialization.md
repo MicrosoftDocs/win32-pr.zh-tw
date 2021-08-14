@@ -4,12 +4,12 @@ ms.assetid: 1bd7ac25-e46d-442b-b365-52edcd8bf922
 title: 符號處理常式初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 146af0e1118e85a3478ca45be7a86c4b1d8dfe83
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf9d3664a564b0198d97549f2815abebf0e5e6058beb197ed33ca191a64407f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406078"
 ---
 # <a name="symbol-handler-initialization"></a>符號處理常式初始化
 

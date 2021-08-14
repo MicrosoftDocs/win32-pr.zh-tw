@@ -4,12 +4,12 @@ ms.assetid: 80c80c14-ceef-4a74-810d-6aa3cc320cef
 title: 啟用程式庫應用程式的驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74cfa9f2a6a5e3c1312fa13e0aff1e9f4ea17e4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bceb3d5799ee8fac1d8eb266e6513c4d2a759adb10b78b2117424b08f8c5d6ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736417"
 ---
 # <a name="enabling-authentication-for-a-library-application"></a>啟用程式庫應用程式的驗證
 
@@ -25,7 +25,7 @@ ms.locfileid: "106972142"
 
 3.  在 [ **驗證**] 下，選取 [ **啟用驗證** ] 核取方塊以啟用驗證;清除此核取方塊將會停用驗證。
 
-4.  按一下 [確定]  。
+4.  按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 

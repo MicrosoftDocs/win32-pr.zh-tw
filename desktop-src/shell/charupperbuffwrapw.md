@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: dacc5e7609ca7f91bf7c66651d7ba9bdd11ab688
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 288a119586e9f2e58172daaba33a8b9f27c791aa0005b5349f47cb0b2670a631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861553"
 ---
 # <a name="charupperbuffwrapw-function"></a>CharUpperBuffWrapW 函式
 
-\[**CharUpperBuffWrapW** 可用於 Windows XP。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) 。\]
+\[**CharUpperBuffWrapW** 可在 Windows XP 中使用。 在後續版本中可能無法使用。 您應該在其位置使用 [**CharUpperBuffW**](/windows/win32/api/winuser/nf-winuser-charupperbuffa) 。\]
 
 將緩衝區中的小寫字元轉換成大寫字元。 函數會就地轉換字元。
 
@@ -83,8 +83,8 @@ DWORD CharUpperBuffWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 
 

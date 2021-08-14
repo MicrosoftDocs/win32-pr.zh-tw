@@ -4,12 +4,12 @@ ms.assetid: 04b44f71-0174-4571-80cd-55179355bd53
 title: 以角色為基礎的授權優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f3fdf9ee9f2c441b74cdaf087b4af545020464
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ae1aa88231068d378f098d8ed760e8f9491d2ba10f2fbf5b9951e97cbdd0e0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914335"
 ---
 # <a name="advantages-of-role-based-authorization"></a>以角色為基礎的授權優點
 

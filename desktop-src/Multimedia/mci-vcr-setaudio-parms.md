@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 143345f494f381054335d2dfec3b0c10222adca4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fa07d4cf8b88eb246019bf18dd1c1328413718a70b17ebb16e27606958473f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802956"
 ---
 # <a name="mci_vcr_setaudio_parms-structure"></a>MCI \_ VCR \_ SETAUDIO \_ PARMS 結構
 
@@ -91,7 +91,7 @@ typedef struct tagMCI_VCR_SETAUDIO_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

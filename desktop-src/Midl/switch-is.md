@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c52661c4fa1ebce57011f4424901dd1ec18250f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1975dcf38a04fc127de199e7cc663c8af41b63e6ce8f92d38be2115316ed0727
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382839"
 ---
 # <a name="switch_is-attribute"></a>切換 \_ 為屬性
 
@@ -199,7 +199,7 @@ typedef struct _WINNER_TYPE
 [**大小 \_ 為**](size-is.md)
 </dt> <dt>
 
-[**字串**](string.md)
+[**string**](string.md)
 </dt> <dt>
 
 [**結構**](struct.md)
@@ -214,9 +214,9 @@ typedef struct _WINNER_TYPE
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

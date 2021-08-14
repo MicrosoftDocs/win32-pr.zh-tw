@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: c342ebb19f4e051d7650e905506a5bb32a9de890
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d76208c74df5f939a7ff06ec3ac4b4da0f91f5c52db6ac2625e8cb6dce94a9ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460831"
 ---
 # <a name="cfolderitems-class"></a>CFolderItems 類別
 

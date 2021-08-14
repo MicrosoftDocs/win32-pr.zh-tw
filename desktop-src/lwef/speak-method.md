@@ -4,16 +4,16 @@ description: 說話方法
 ms.assetid: 6267e04c-feb5-4f48-8a88-4e6ca3388bf3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88792a53fac80c68154f938e91fb9bfe63b2b8e3
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7c8798809dc4cdfa38438bee2fa9449f879871e4018b0e6b046d95a73583b03c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475340"
 ---
 # <a name="speak-method"></a>說話方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104463048"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。說* 出 *  \[ *文字* \] ， \[ *Url*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。說_ 出 *  \[ *文字* \] ， \[ *Url*\]
 
 
 
@@ -38,7 +38,7 @@ ms.locfileid: "104463048"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -111,18 +111,18 @@ ms.locfileid: "104463048"
 > [!Note]  
 > 文字氣球的 [**Enabled**](enabled-property.md) 屬性也必須為 **True** ，才能顯示文字。
 
- 
+ 
 
 > [!Note]  
 > 設定字元的語言識別項 (，方法是在使用 [**朗讀**] 方法之前，先設定字元的 **LanguageID** ，以確保文字氣球內適當的文字顯示。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**Bookmark 事件**](bookmark-event.md)、 [**RequestStart 事件**](requeststart-event.md)、 [**RequestComplete 事件**](requestcomplete-event.md)
 
 
- 
+ 
 
- 
+ 

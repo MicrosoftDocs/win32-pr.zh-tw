@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a967db8f6a322ac29ba8a1e9352972ff1f4f4b76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea254a4affde3ad6b2252f4ebe2f4b59137570066cc4ecc38c2e75d22e52b2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719236"
 ---
 # <a name="apijetcreatetablecolumnindex3-method"></a>JetCreateTableColumnIndex3 方法
 

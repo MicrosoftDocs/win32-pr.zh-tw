@@ -4,12 +4,12 @@ ms.assetid: f8196a9c-786a-49a3-85a4-1bd5f414a653
 title: 之 secbuffer 和 SecBufferDesc 範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7d28e885d6eec65c209caeda299b2f7e5f2ad3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b60b776dd85e29c3f91d2840849d18e48d100dada6037bff556074b1041bdb8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918445"
 ---
 # <a name="secbuffer-and-secbufferdesc-example-code"></a>之 secbuffer 和 SecBufferDesc 範例程式碼
 

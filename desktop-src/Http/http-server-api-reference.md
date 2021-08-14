@@ -6,12 +6,12 @@ keywords:
 - HTTP 伺服器 API，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e75d84d76695142a9ea17fa62e52dd5aaf824bb8
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: cc4692dfac113a2041c5d673be1ad507e66f2196ea7dabf5926d4ac1b5550dbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104374607"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394359"
 ---
 # <a name="http-server-api-reference"></a>HTTP 伺服器 API 參考
 
@@ -22,9 +22,9 @@ ms.locfileid: "104374607"
 
 如需有關超文字傳輸通訊協定 (HTTP) 的詳細資訊，請參閱 [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt)。
 
- 
+ 
 
- 
+ 
 
 
 

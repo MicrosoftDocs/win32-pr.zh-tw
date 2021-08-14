@@ -4,12 +4,12 @@ ms.assetid: d2d5825e-02a5-44b8-8615-55b7259d24ba
 title: 'WM_NCCALCSIZE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b7d63fea3ad0a80bba686d8d86aa5354f0bb45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f0a73b469a920bcba79cc19670a7b9536c1bac9e0b0ffcab7ddf5930b984dae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978978"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200074"
 ---
 # <a name="wm_nccalcsize-message"></a>WM \_ NCCALCSIZE 訊息
 
@@ -79,7 +79,7 @@ ms.locfileid: "106978978"
 
 當 *wParam* 為 **TRUE** 時，只要在未處理 [**NCCALCSIZE \_ PARAMS**](/windows/win32/api/winuser/ns-winuser-nccalcsize_params) 矩形的情況下傳回0，就會使工作區大小調整為視窗的大小，包括視窗框架。 這會從您的視窗中移除視窗框架和標題專案，只留下顯示的工作區。
 
-從 Windows Vista 開始，只要在 *wParam* 為 **TRUE** 時傳回0，就不會影響使用 [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea) 函式延伸至工作區的框架，藉以移除標準框架。 只會移除標準框架。
+從 Windows Vista 開始，只要在 *wParam* 為 **TRUE** 時直接傳回0，即可移除標準框架，而不會影響使用 [**DwmExtendFrameIntoClientArea**](/windows/win32/api/dwmapi/nf-dwmapi-dwmextendframeintoclientarea)函數延伸至工作區的框架。 只會移除標準框架。
 
 ## <a name="requirements"></a>規格需求
 
@@ -89,7 +89,7 @@ ms.locfileid: "106978978"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

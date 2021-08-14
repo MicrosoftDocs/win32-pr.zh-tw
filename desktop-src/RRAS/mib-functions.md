@@ -4,12 +4,12 @@ description: 使用下列路由器管理員函數來查詢和設定 MIB 變數
 ms.assetid: c911daa4-4f3d-4944-9dc0-695a4efbcb1b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 603df49dd0bb2a5ddc1ce21cb89e079e9583b1c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df886dc90909ddbb70bb8ab7157a231052aebdf6306939a88f55e710b5fd484b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790442"
 ---
 # <a name="router-management-mib-functions"></a>路由器管理 MIB 功能
 
@@ -27,9 +27,9 @@ ms.locfileid: "103840715"
 -   [**MprAdminMIBServerDisconnect**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibserverdisconnect)
 -   [**MprAdminMIBSetTrapInfo**](/windows/desktop/api/Mprapi/nf-mprapi-mpradminmibsettrapinfo)
 
- 
+ 
 
- 
+ 
 
 
 

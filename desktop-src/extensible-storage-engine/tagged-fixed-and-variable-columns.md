@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269304(v=EXCHG.10)
 ms:contentKeyID: 32765595
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 3f27237c5f75874f7320f675affe20f3833084b1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af2ab8ece57342f211b0dd4488b6feb25b191c1977ae39038fb61ea56f20d543
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484737"
 ---
 # <a name="tagged-fixed-and-variable-columns"></a>標記、固定和變數資料行
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="tagged-fixed-and-variable-columns"></a>標記、固定和變數資料行
 

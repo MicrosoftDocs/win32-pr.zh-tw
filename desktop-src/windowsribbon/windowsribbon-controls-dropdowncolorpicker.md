@@ -4,12 +4,12 @@ description: Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器
 ms.assetid: 65e1fc23-7ac0-4bb3-9359-28ce88acf356
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 366cc7eadaca23271d5b2afa43ec66235839694a
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 9e8104ba92d0be9d56607083508d7f30728a7f3a141839d74314561d392fb942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707656"
 ---
 # <a name="drop-down-color-picker"></a>Drop-Down 色彩選擇器
 
@@ -194,7 +194,7 @@ Windows 功能區架構提供特製化的 Drop-Down 色彩選擇器控制項，�
 <tr class="header">
 <th>屬性索引鍵</th>
 <th>描述</th>
-<th>注意</th>
+<th>附註</th>
 </tr>
 </thead>
 <tbody>
@@ -443,7 +443,7 @@ STDMETHODIMP DropDownColorPickerHandler::Execute(
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**DropDownColorPicker 標記元素**](windowsribbon-element-dropdowncolorpicker.md)

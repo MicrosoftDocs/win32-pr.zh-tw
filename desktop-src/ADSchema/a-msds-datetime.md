@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e8367c4e9ca38fb12767eba6cd42ca6ecb082a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 57b3417f1447e3c1a7b62b832c962e64317cef6f59a3167fc699742c05c59adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426703"
 ---
 # <a name="ms-ds-date-time-attribute"></a>ms DS-日期時間屬性
 

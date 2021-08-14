@@ -1,6 +1,6 @@
 ---
 title: Roots2 屬性
-description: 供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange 設定物件上的這個屬性會列出通訊錄容器樹狀結構的根。 |Roots2 屬性
+description: 供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange Config 物件上的這個屬性會列出通訊錄容器樹狀結構的根目錄。 |Roots2 屬性
 ms.assetid: 1ca41a60-b8ba-4489-9238-b469811d68ac
 ms.tgt_platform: multiple
 keywords:
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d3283a0551ac423f836381483d30cb6bd74d946e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 73b2cea979ee8a7c60d1a29a612d60da1acce972cf07bae277219d4a81a0d954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688941"
 ---
 # <a name="address-book-roots2-attribute"></a>Roots2 屬性
 
-供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange 設定物件上的這個屬性會列出通訊錄容器樹狀結構的根。
+供 Exchange 使用。 Exchange 設定通訊錄容器的樹狀目錄以顯示於 MAPI 通訊錄中。 Exchange Config 物件上的這個屬性會列出通訊錄容器樹狀結構的根目錄。
 
 
 

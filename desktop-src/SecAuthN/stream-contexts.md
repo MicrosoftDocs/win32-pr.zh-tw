@@ -4,12 +4,12 @@ ms.assetid: 05a6b036-1f7f-473f-9813-a1e1534e0f0d
 title: 資料流程內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53103dc1269c05e5a2c162133d21e167d8035c2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c843889df6aec3f82e8cb8516a7c23ccbf7a6de9957f9a0c572f6e6ca63ac75d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916677"
 ---
 # <a name="stream-contexts"></a>資料流程內容
 

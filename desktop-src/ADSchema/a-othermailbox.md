@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d02bb4031da8938fc38bf25562918204089db08
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99e3ce258d9adde1083d288d3668dce97dc43c3787a58606499636fa05702e92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119704438"
 ---
 # <a name="other-mailbox-attribute"></a>Other-Mailbox 屬性
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102750
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 785c56778409ac50948b2478f8855cb8572423a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 594d63c119f2b387d6c102af5bffdea3a9971193e865a0ccb50e5d0c55fd6b90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118491305"
 ---
 # <a name="esentslvdatabasemissingexception-properties"></a>EsentSLVDatabaseMissingException 屬性
 

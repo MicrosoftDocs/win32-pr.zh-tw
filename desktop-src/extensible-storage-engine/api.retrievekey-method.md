@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fcabab7639a9cf3128b0b2c314ba60c2de8f8e09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70eb4900c1b3fc4ea8b66f138db4b51328ae019c15c6fdfc05d7b786a574d5c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117717842"
 ---
 # <a name="apiretrievekey-method"></a>RetrieveKey 方法
 

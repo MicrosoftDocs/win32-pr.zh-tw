@@ -4,12 +4,12 @@ ms.assetid: 62a824d6-0f0d-465a-8b3a-e462104ec612
 title: 專家列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f15574f3d3fcb58e195fcfa7e1cc24f7ec91a25
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 74475e032a351ed91f77a38ec2c979613b059b5efa86c690a216754092a30886
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367099"
 ---
 # <a name="expert-enumerations"></a>專家列舉
 

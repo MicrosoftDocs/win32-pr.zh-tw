@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh578711(v=EXCHG.10)
 ms:contentKeyID: 39512487
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 03a21347a2d88a21e08e086477c7c19ea827edac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5f95bb94424c85cc5b4cfb22272ec4af87077b029955ce281200daa6576138d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104557109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487828"
 ---
 # <a name="jet_bklogtime-operators"></a>JET_BKLOGTIME 運算子
 
@@ -27,7 +27,7 @@ ms.locfileid: "104557109"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

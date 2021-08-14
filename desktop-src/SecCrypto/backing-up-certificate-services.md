@@ -4,12 +4,12 @@ ms.assetid: f5c9c9f9-5211-4151-b8e0-3351d462c71b
 title: 備份憑證服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1be929fcf3bd9b8b9655b48758a97d19af7abc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aeeb0881d517de538971d7eafb835ec48f3f33328e3a026b450e6719bfb23ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852691"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773084"
 ---
 # <a name="backing-up-certificate-services"></a>備份憑證服務
 

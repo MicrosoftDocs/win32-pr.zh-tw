@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb760dae213f28d44fbc707b4430cb151cfe578
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4576522c1b6d6834ded5e100a2618dcb45204f887420968a5828fdc5c9bd0fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330902"
 ---
 # <a name="iwmpstringcollection2isidentical-method"></a>IWMPStringCollection2：： isIdentical 方法
 

@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，系結至使用者的容器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8db1ccb3d2331c4ccef5bbf28f58fa5c046337c7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 21f270f1814f996e84b3fa57f9753219c957cb05cd7cf29a9622f4a64f3b907d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694561"
 ---
 # <a name="example-code-for-binding-to-the-users-container"></a>系結至使用者容器的範例程式碼
 
@@ -100,6 +100,6 @@ HRESULT GetUsersContainer(IADsContainer **ppContainer)
 
 
 
- 
+ 
 
- 
+ 

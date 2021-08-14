@@ -3,7 +3,7 @@ title: 'CBEM_SETUNICODEFORMAT 訊息 (Commctrl .h) '
 description: 設定控制項的 UNICODE 字元格式旗標。 此訊息可讓您變更控制項在執行時間所使用的字元集，而不需要重新建立控制項。
 ms.assetid: 4811709b-1639-4468-8598-97d9dc8d9057
 keywords:
-- CBEM_SETUNICODEFORMAT message Windows 控制項
+- CBEM_SETUNICODEFORMAT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 89540d4e942b8b705685c13addeeb17adf0b4f5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d59730922c1d72da90e1c7ba47a287e42ce4ad40375d8216be114e7c280b5a38
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119699300"
 ---
 # <a name="cbem_setunicodeformat-message"></a>CBEM \_ SETUNICODEFORMAT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104105762"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

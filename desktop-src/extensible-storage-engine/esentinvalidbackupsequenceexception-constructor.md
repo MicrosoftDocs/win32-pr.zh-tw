@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 1a1ade6f81a962d7b10365f269f3681c57b9ce4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3399bffeb1f6422012b69d086469599e837d49390703da4368a34996a0f2b60e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118494554"
 ---
 # <a name="esentinvalidbackupsequenceexception-constructor"></a>EsentInvalidBackupSequenceException 函式
 

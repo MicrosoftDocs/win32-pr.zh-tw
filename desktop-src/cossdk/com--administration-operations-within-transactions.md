@@ -4,12 +4,12 @@ ms.assetid: 832f2e6d-26ff-416e-a92e-ebaa33d4e7e5
 title: 交易內的 COM + 管理作業
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21612ffec1b9f082dc6a91861882a71f18fb07be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4182b143de38d838aea7c5aabd2d91bdb84f94480b2bed4c4441e204412ac834
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308247"
 ---
 # <a name="com-administration-operations-within-transactions"></a>交易內的 COM + 管理作業
 
@@ -43,14 +43,14 @@ COM + 註冊資料庫 (RegDB) 是可參與 COM + 交易的交易式資源管理�
 
 ## <a name="non-transactional-com-catalog-resources"></a>非交易式 COM + 類別目錄資源
 
-登錄、檔案系統和 Windows Installer (MSI) 是非交易式的 COM + 類別目錄資源。
+登錄、檔案系統和 Windows Installer (MSI) 是非交易式的 com + 類別目錄資源。
 
 > [!Note]  
 > 如果有錯誤會中止交易，這些資源的變更可能不會回復。
 
  
 
-如果從 .msi 檔案安裝現有的 COM + 應用程式時發生錯誤，則應用程式不會出現在 [元件服務] 嵌入式管理單元中，但它可能會出現在 [新增/移除程式] 中，在此情況下，您必須手動將其移除。
+如果從 .msi 檔案安裝現有的 COM + 應用程式時發生錯誤，則應用程式不會出現在 [元件服務] 嵌入式管理單元中，但它可能會出現在 [新增/移除程式] 中，在此情況下，您需要手動移除。
 
 ## <a name="recovering-in-the-event-of-system-hangs"></a>在發生系統停止回應時復原
 

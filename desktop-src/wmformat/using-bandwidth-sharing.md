@@ -3,19 +3,19 @@ title: 使用頻寬共用
 description: 使用頻寬共用
 ms.assetid: 1df61a3a-d34a-447e-a7ee-d5d409e7c4fa
 keywords:
-- Windows Media Format SDK，頻寬共用
+- Windows媒體格式 SDK，頻寬共用
 - 頻寬共用、關於
 - 設定檔，頻寬共用
 - 串流，頻寬共用
 - 頻寬共用，IWMProfile 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 298c690b484a8b4b5990aacd5d525867da8923c0
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 7259ddf441a4e32eb7eb4aea19a52d633c6aacd3a27ad6d392e4fea41c3f4fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845154"
 ---
 # <a name="using-bandwidth-sharing"></a>使用頻寬共用
 
@@ -47,9 +47,9 @@ ms.locfileid: "104374813"
 [**使用設定檔**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

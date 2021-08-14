@@ -3,7 +3,7 @@ title: FontControl 元素
 description: 表示字型控制項，這是專供字型操作之個別控制項的特殊容器。
 ms.assetid: 98eddab5-28cb-4b9d-a788-ee28dd6055b1
 keywords:
-- FontControl 元素視窗功能區
+- FontControl 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 42c9d900c2af4f7f8ba26f5ac8dbbdc0d055668d
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 7c7b068246da9b26a4b3547e27abd1a9b60c8fd70de10e4edd2438463a156633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443399"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202511"
 ---
 # <a name="fontcontrol-element"></a>FontControl 元素
 
@@ -63,14 +63,14 @@ ms.locfileid: "111443399"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>FontType</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (FontOnly) <br/> </dt> <dd> 預設值。 <br/> <img src="images/markup/screenshot-fonttype-fontonly.png" alt="Screen shot of the FontControl element with the FontOnly attribute set to true." /><br/> 將 <em>FontType</em> 屬性設定為可 <code>FontOnly</code> 啟用下列功能：<br/>
 <ul>
@@ -127,7 +127,7 @@ ms.locfileid: "111443399"
 <tr class="odd">
 <td><strong>IsGrowShrinkButtonGroupVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><strong>Windows 8 和更新版本</strong><br/> 限制為下列其中一個值： <br/>
 <blockquote>
 [!Note]<br />
@@ -139,7 +139,7 @@ ms.locfileid: "111443399"
 <tr class="even">
 <td><strong>IsHighlightButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/>
 <blockquote>
 [!Note]<br />
@@ -151,42 +151,42 @@ ms.locfileid: "111443399"
 <tr class="odd">
 <td><strong>IsStrikethroughButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 只有當 <em>FontType</em> 的值等於或時才會有效 <code>FontOnly</code> <code>FontWithColor</code> 。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>IsUnderlineButtonVisible</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ： <br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 只有當 <em>FontType</em> 的值等於或時才會有效 <code>FontOnly</code> <code>FontWithColor</code> 。 <br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MaximumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>要顯示的最大點大小。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1到9999（含）之間的整數值。<br/> 預設值為 <strong>9999</strong>。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinimumFontSize</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>要顯示的最小點大小。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1到9999（含）之間的整數值。<br/> 預設值為 <strong>1</strong>。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>ShowTrueTypeOnly</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 只顯示 TrueType 和 OpenType 字型。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 預設值。 所顯示的字型類型沒有任何限制。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>ShowVerticalFonts</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值 (0 和1不是有效的) ：<br/>
 <blockquote>
 [!Note]<br />
@@ -196,7 +196,7 @@ ms.locfileid: "111443399"
 <dt><span></span><span></span><strong></strong> (true) <br/> </dt> <dd> 預設值。 顯示設定為<strong>在 [字型</strong>] 控制台中<strong>顯示</strong>的垂直字型。 <br/> </dd> <dt><span></span><span></span><strong></strong> (false) <br/> </dt> <dd> 允許不支援垂直文字的應用程式隱藏所有設定為 <strong>顯示</strong> 在 <strong>字型 [控制台] 中的垂直</strong> 字型。<br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 中， <strong>[字型</strong> ] 控制台不提供 <strong>顯示</strong> 或 <strong>隱藏</strong> 功能。 在此情況下， <em>ShowVerticalFonts</em> 屬性必須設定為 <code>False</code> 。
+在 Windows Vista 中， <strong>[字型</strong>] 控制台不提供<strong>顯示</strong>或<strong>隱藏</strong>功能。 在此情況下， <em>ShowVerticalFonts</em> 屬性必須設定為 <code>False</code> 。
 </blockquote>
 <br/> </dd> </dl></td>
 </tr>
@@ -216,7 +216,7 @@ ms.locfileid: "111443399"
 | 元素                                                               |
 |-----------------------------------------------------------------------|
 | [**ControlGroup**](windowsribbon-element-controlgroup.md)<br/> |
-| [**群組**](windowsribbon-element-group.md)<br/>               |
+| [**Group**](windowsribbon-element-group.md)<br/>               |
 | [**MenuGroup**](windowsribbon-element-menugroup.md)<br/>       |
 
 

@@ -4,12 +4,12 @@ ms.assetid: bbb78d70-bd3e-4d5a-ba59-2e17d2d1cf30
 title: Encoder-Specific 登錄專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 49e6fbfafa1f8d3b340d7e3864fddacb8cd7e282
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83d5d91d917be3940bcece4bed7c224e0f281dbb1cade5d0dc2c25872f89af93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711227"
 ---
 # <a name="encoder-specific-registry-entries"></a>Encoder-Specific 登錄專案
 
@@ -41,7 +41,7 @@ HKEY_CLASSES_ROOT
                WriteOffset = Offset from beginning of header
 ```
 
-如果您使用 TIFF 樣式或 JPEG 樣式的容器格式，則必須在容器與該容器格式之間註冊關聯。 如需詳細資訊，請參閱 [整合 Windows 影像中心和 Windows 檔案總管](-wic-integrationregentries.md)的簡介。
+如果您使用 TIFF 樣式或 JPEG 樣式的容器格式，則必須在容器與該容器格式之間註冊關聯。 如需詳細資訊，請參閱[整合 Windows 的簡介影像中心和 Windows 檔案總管](-wic-integrationregentries.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -59,7 +59,7 @@ HKEY_CLASSES_ROOT
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

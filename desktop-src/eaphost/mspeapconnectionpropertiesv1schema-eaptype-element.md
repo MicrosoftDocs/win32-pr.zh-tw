@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3336e943170afa0ec1f239d4cf7a0c603a0c8e71
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: 47f3585f35b2e7ee7722cdd99c90605cdb7864b2211fcf28f7ec0ac662b5289b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106995981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719769"
 ---
 # <a name="eaptype-element-mspeapconnectionpropertiesv1schema"></a>EapType 元素 (mspeapconnectionpropertiesv1schema) 
 
@@ -102,8 +102,8 @@ ms.locfileid: "106995981"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -3,19 +3,19 @@ title: 已停用之跟蹤的影像來源
 description: 已停用之跟蹤的影像來源
 ms.assetid: ecbe1670-2914-4b66-92bd-d854e6c1e897
 keywords:
-- Windows Media Player 行動外觀 trackbars
+- Windows Media Player行動外觀、trackbars
 - 外觀，trackbars
 - 外觀的參考，trackbars
 - 外觀中的 trackbars、影像來源
 - 外觀的影像來源，trackbars
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbae540f97c7d1f7241035b074f45e6267e51615
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6b3f5f58198d55f2dcd17b23b102c91eb4dff4787489e13775c6be71faa3223
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338943"
 ---
 # <a name="image-source-for-disabled-trackbar"></a>已停用之跟蹤的影像來源
 
@@ -50,9 +50,9 @@ Disabled @ 50,60
 [**Trackbars**](trackbars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

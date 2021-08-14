@@ -4,18 +4,18 @@ ms.assetid: 3ab29ee9-42d8-498b-b507-13f8efa0b0e2
 title: SSPI/Kerberos 與 GSSAPI 的互通性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f9efaae6b2433d76dff290d57e27e893885692a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5907c79fbf4ef53a40b9dc2198715f216794de5634c60c66fe3d767bfe4af026
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916825"
 ---
 # <a name="sspikerberos-interoperability-with-gssapi"></a>SSPI/Kerberos 與 GSSAPI 的互通性
 
 如果需要與 GSSAPI 的互通性，則在使用 [*Kerberos*](../secgloss/k-gly.md) [*安全性支援提供者*](../secgloss/s-gly.md) (SSP) 時必須特別小心。 下列程式碼慣例允許與 GSSAPI 型應用程式的互通性：
 
--   [Windows 相容名稱](#windows-compatible-names)
+-   [Windows 相容的名稱](#windows-compatible-names)
 -   [驗證](#authentication)
 -   [訊息完整性和隱私權](#message-integrity-and-privacy)
 

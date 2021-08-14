@@ -4,12 +4,12 @@ ms.assetid: 334aa2b9-0ef2-4a4b-9352-de5ded95afa6
 title: SELECT 陳述式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e05832dab0184870a626fa4bce502d908c9b05f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1df8cc5f4b6bab673d20c981e44386d3fdbd651b5a2753d8c965ee55023a6562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227193"
 ---
 # <a name="select-statement"></a>SELECT 陳述式
 
@@ -44,7 +44,7 @@ SELECT [TOP <positive integer>] <column> [ {, <column>} ...]
 
 當查詢傳回的檔沒有所要求的資料行時，該檔的該資料行值就是 **Null**。
 
-您必須在 SELECT 語句中至少提供一個資料行名稱。 在結構化查詢語言 (SQL)  (SQL) 查詢中，您可以使用星號 (\*) 來指定要傳回資料表中的所有資料行。 不過，沒有任何已定義且固定的屬性集會套用至所有檔。 基於這個理由，SELECT 語句的規範中不允許 SQL 星號 <columns> 。
+您必須在 SELECT 語句中至少提供一個資料行名稱。 在 [結構化查詢語言 (SQL)  (SQL) 查詢] 中，您可以使用星號 (\*) 來指定要傳回資料表中的所有資料行。 不過，沒有任何已定義且固定的屬性集會套用至所有檔。 基於這個理由，SELECT 語句的規範中不允許 SQL 星號 <columns> 。
 
 ## <a name="getting-the-top-n-results"></a>取得前 n 個結果
 

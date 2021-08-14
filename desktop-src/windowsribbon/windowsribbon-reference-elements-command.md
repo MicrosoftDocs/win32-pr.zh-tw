@@ -4,12 +4,12 @@ description: Windows 功能區架構中命令和資源標記專案的參考檔�
 ms.assetid: b98ed90e-d2a6-4fdb-bcf9-962f8b41c313
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec7c04b0300b50a46c3ffcf8a079624dd8fed92f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df28c3e77ba5c11ca1d2d15806b62e8b6eb891a6e99cc5a3bb09b8457a1c7213
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850491"
 ---
 # <a name="commands-and-resources"></a>命令和資源
 
@@ -33,7 +33,7 @@ Windows 功能區架構中命令和資源標記專案的參考檔集。
 | [**命令。符號**](windowsribbon-element-command-symbol.md)                                   | 代表可在外部參考的 [**命令**](windowsribbon-element-command.md) 名稱。<br/> |
 | [**TooltipDescription**](windowsribbon-element-command-tooltipdescription.md)           | 表示工具提示描述。<br/>                                                                            |
 | [**TooltipTitle**](windowsribbon-element-command-tooltiptitle.md)                       | 表示工具提示標題。<br/>                                                                                  |
-| [**Image**](windowsribbon-element-image.md)                                                     | 表示影像。<br/>                                                                                         |
+| [**映像**](windowsribbon-element-image.md)                                                     | 表示影像。<br/>                                                                                         |
 | [**映射。來源**](windowsribbon-element-image-source.md)                                       | 代表影像的目錄路徑。<br/>                                                                   |
 | [**字串**](windowsribbon-element-string.md)                                                   | 表示字串資源。<br/>                                                                                |
 | [**字串。內容**](windowsribbon-element-string-content.md)                                   | 表示字串資源的內容。<br/>                                                                 |

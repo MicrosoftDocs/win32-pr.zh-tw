@@ -4,21 +4,21 @@ ms.assetid: d049d83f-b962-4c47-a79a-da556831e319
 title: Winlogon 和 GINA
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a683077f275dc9bf38efca6649cbd8131e0b9334
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9cc39b905d6a49eb84ccab164f99481561133e6cdd9ea40cfd0b1067315569a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915067"
 ---
 # <a name="winlogon-and-gina"></a>Winlogon 和 GINA
 
 [*Winlogon*](../secgloss/w-gly.md)、 [*GINA*](../secgloss/g-gly.md)和網路提供者都是互動式登入模型的部分。 互動式登入程式通常是由 Winlogon、MSGina.dll 和網路提供者控制。 若要變更互動式登入程式，可以使用自訂的 GINA DLL 來取代 MSGina.dll。
 
-若要使用 Winlogon、GINA 和網路提供者，您應該對 Windows 安全性架構有公司的知識，特別是關於 [*權杖*](../secgloss/a-gly.md)、 [*驗證套件*](../secgloss/a-gly.md)和相關事項。
+若要與 Winlogon、GINA 和網路提供者合作，您應該具備 Windows 安全性架構的公司知識，特別是關於 [*權杖*](../secgloss/a-gly.md)、[*驗證套件*](../secgloss/a-gly.md)和相關事項。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 
@@ -26,7 +26,7 @@ ms.locfileid: "103847928"
 
 您可以在平臺軟體發展工具組 (SDK) 安全性範例中找到範例 GINA 程式碼。 這些範例包含用來執行 GINA 存根和 GINA 掛勾的 C 程式碼。 如需有關自訂 GINA DLL 開發的詳細資訊，請將電子郵件訊息傳送至： ginareqs@microsoft.com 。
 
-如需 Windows 所支援之驗證模型的相關資訊，以及有關 [*本地安全機構*](../secgloss/l-gly.md) (LSA) 服務和 [*驗證封裝*](../secgloss/a-gly.md) 介面的詳細資訊，請參閱 [lsa 驗證](lsa-authentication.md)。
+如需 Windows 所支援之驗證模型的相關資訊，以及有關 [*本地安全機構*](../secgloss/l-gly.md) (lsa) 服務和 [*驗證封裝*](../secgloss/a-gly.md)介面的詳細資訊，請參閱 [lsa 驗證](lsa-authentication.md)。
 
 如需有關與安全性原則管理相關之本地安全機構的各方面的資訊，包括與其他電腦和網域的信任關係、許可權指派、審核產生控制、系統協助工具，以及其他類似的主題，請參閱 [LSA 原則](../secmgmt/lsa-policy.md)。
 

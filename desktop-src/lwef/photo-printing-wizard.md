@@ -7,16 +7,16 @@ keywords:
 - IDropTarget，相片列印嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 708f051f658739cebd08e4f8643e5dd7fc0c6f7f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 38199f7977e428f41cbc0560e0eab9ad2e106709579255ec8c3a1e74d7f7a402
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475441"
 ---
 # <a name="photo-printing-wizard"></a>相片列印嚮導
 
-相片列印嚮導可提供簡單易用的 Wizard 介面，協助使用者列印相片。 此嚮導可讓使用者指定相片列印大小及其他列印選項，然後將相片傳送至印表機。 此 wizard 的設計目的是要讓任何應用程式以程式設計方式叫用它，該應用程式想要讓使用者能夠列印相片，以及指定調整大小及其他列印選項。 您可以在 Windows XP 和 Windows Vista 上使用相片列印嚮導。
+相片列印嚮導可提供簡單易用的 Wizard 介面，協助使用者列印相片。 此嚮導可讓使用者指定相片列印大小及其他列印選項，然後將相片傳送至印表機。 此 wizard 的設計目的是要讓任何應用程式以程式設計方式叫用它，該應用程式想要讓使用者能夠列印相片，以及指定調整大小及其他列印選項。 您可以從 Windows XP 和 Windows Vista 取得相片列印嚮導。
 
 -   [相片 Print Wizard 提供的功能](#features-provided-by-the-photo-print-wizard)
 -   [支援的相片檔案格式](#supported-photo-file-formats)
@@ -26,16 +26,16 @@ ms.locfileid: "104375268"
 
 「相片列印嚮導」提供數個可能無法在一般印表機對話方塊上使用的選項，例如具有精確維度的多重版面配置範本。 版面配置範本可讓使用者以最有效率的方式使用照片列印紙張上的可用空間。 可以透過 [相片列印嚮導] 指定或存取的其他選項包括：
 
--   從可用印表機或虛擬列印目的地清單中選取印表機 (例如，[Microsoft XPS Document Writer]) 。 在 Windows Vista 上，視印表機或虛擬列印目的地的功能而定，可能可以使用下列選項：
+-   從可用印表機或虛擬列印目的地清單中選取印表機 (例如，[Microsoft XPS Document Writer]) 。 在 Windows Vista 中，視印表機或虛擬列印目的地的功能而定，可能會提供下列選項：
     -   紙張大小。 例如，"Letter"、"法律聲明"、"A3"。
     -   列印品質（以每英寸支援的點為單位） (DPI) 解析度。
     -   紙張類型。 例如，「純文字」或「光澤」。
 -   啟動特定印表機的列印喜好設定和屬性。
--   在 Windows Vista 上將 **每個圖片** (的複本設定) 或在 windows XP) 微調方塊值上 **使用每個 (圖片的次數** 。
+-   將 **每張圖片的複本** 設定 (在 Windows Vista) 或 **使用每一圖片** (Windows XP) 微調方塊值的次數。
 -   指定列印版面配置範本。 例如， **整頁相片** 或 **錢包印**。
--   選取 [ **符合圖片大小** ] 選項 (僅適用于 Windows Vista) 。
+-   選取 [**符合圖片至** 畫面格] 選項 (僅適用于 Windows Vista) 。
 -   使用目前指定的選項來預覽列印的相片。
--   Accesssing 先進的列印選項，例如，只) Windows Vista 上提供 **的列印** 和 **色彩管理** (。
+-   Accesssing 先進的列印選項（例如，在 Windows Vista 僅) 上提供 **的列印** 和 **色彩管理** (的銳化）。
 
 任何應用程式都可以受益于相片列印嚮導所提供的功能和相片列印功能。 應用程式可以傳入要列印的檔案。 然後，相片列印嚮導會根據使用者指定的選項，負責準備要列印的檔案，並將準備好的檔案傳送至印表機。
 
@@ -49,7 +49,7 @@ ms.locfileid: "104375268"
 
 ## <a name="supported-photo-file-formats"></a>支援的相片檔案格式
 
-在 Windows XP 上，「相片列印嚮導」支援 Windows GDI + 支援的所有圖形檔案格式。 目前，這些檔案格式包括：
+在 Windows XP 上，「相片列印嚮導」支援 Windows GDI+ 支援的所有圖形檔案格式。 目前，這些檔案格式包括：
 
 -   點陣圖 (BMP)
 -   圖形交換格式 (GIF)
@@ -58,9 +58,9 @@ ms.locfileid: "104375268"
 -   可攜式網路圖形 (PNG)
 -   標記的影像檔案格式 (TIFF)
 
-如需 GDI + 所支援之圖形檔案格式的詳細資訊，請參閱 [點陣圖類型](../gdiplus/-gdiplus-types-of-bitmaps-about.md)。
+如需 GDI+ 所支援之圖形檔案格式的詳細資訊，請參閱[點陣圖類型](../gdiplus/-gdiplus-types-of-bitmaps-about.md)。
 
-在 Windows Vista 上，「相片列印嚮導」支援任何已安裝 Windows 影像處理元件 (WIC) 編解碼器的影像檔案格式。 WIC 提供數個標準編解碼器，包括：
+在 Windows Vista 中，相片列印嚮導支援已安裝 Windows 影像處理元件 (WIC) 編解碼器的任何影像檔案格式。 WIC 提供數個標準編解碼器，包括：
 
 -   點陣圖 (BMP)
 -   GIF
@@ -68,9 +68,9 @@ ms.locfileid: "104375268"
 -   JPEG
 -   PNG
 -   TIFF
--   Windows Media 相片格式
+-   Windows媒體相片格式
 
-如需 WIC 和 WIC 編解碼器的詳細資訊，請參閱 [Windows 影像處理元件](https://msdn.microsoft.com/library/ms737408(VS.85).aspx)
+如需 WIC 和 wic 編解碼器的詳細資訊，請參閱[Windows 影像處理元件](https://msdn.microsoft.com/library/ms737408(VS.85).aspx)
 
 ## <a name="programmatically-launching-the-photo-print-wizard"></a>以程式設計方式啟動相片列印嚮導
 
@@ -115,6 +115,6 @@ spDropTarget->Drop(pDataObject, MK_LBUTTON, pt, &dwEffect);}
 
 
 
- 
+ 
 
- 
+ 

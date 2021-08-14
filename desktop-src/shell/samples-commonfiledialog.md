@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 42dc86cb1e777f3580a7f6fb349310621b703913
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2cb9a1a89f122d41066de75002ea0ed2c575a6208a06f0be99b5c7c7bfd2b97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858581"
 ---
 # <a name="common-file-dialog-sample"></a>一般檔案對話方塊範例
 

@@ -4,12 +4,12 @@ ms.assetid: 2e4ed13f-f09e-43b4-9862-95a79c229f0c
 title: 目錄服務存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f24e75db6733a8f5833e7f45ab5a52dafd67f5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 901c8eba5736750e0c91eb713993876c47858407110ca3c8ebc6ed8122e1b8d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913761"
 ---
 # <a name="directory-services-access-rights"></a>目錄服務存取權限
 

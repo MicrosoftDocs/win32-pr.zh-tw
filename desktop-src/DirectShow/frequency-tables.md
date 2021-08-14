@@ -4,12 +4,12 @@ ms.assetid: 58a680ea-1f88-4900-8820-c30a2f3e3901
 title: 頻率資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 933152c7ac38eefe91468aff8bc3a8eb3ced05df
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: db832144aedb8f64d18692a30a8e8c7d812c4cbd517b1b9ab31bd9cdc231019b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401256"
 ---
 # <a name="frequency-tables"></a>頻率資料表
 

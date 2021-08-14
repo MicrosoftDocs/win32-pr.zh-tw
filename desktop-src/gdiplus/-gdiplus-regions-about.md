@@ -4,12 +4,12 @@ ms.assetid: eb78d7a0-6293-487f-88c5-88ba455b965f
 title: 區域 (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82d6a7f0a5a6d3df4b11a491111dbedf9e155c3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd15a7a25b341556b312c540f6fa4caf870da75aa4973be1d7c1e8102511e6ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558910"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117885014"
 ---
 # <a name="regions-gdi"></a>區域 (GDI+)
 

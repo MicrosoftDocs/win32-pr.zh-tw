@@ -3,7 +3,7 @@ title: 設定資料流程
 description: 設定資料流程
 ms.assetid: d119362f-e23c-4985-aff5-8c084106df30
 keywords:
-- Windows Media Format SDK，資料流程
+- Windows媒體格式 SDK，資料流程
 - 設定檔，資料流程
 - 資料流程，設定
 - 編解碼器，設定資料流程
@@ -12,23 +12,23 @@ keywords:
 - IWMStreamConfig
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bc159fbd5390eb430e035db676685153d0cf174
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7d55db0d02c8eae3ddd3ec780f5d6470d87628a6f7b12feceb5faa413b2e4546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199314"
 ---
 # <a name="configuring-streams"></a>設定資料流程
 
 設定檔中唯一需要的就是至少一個資料流程。 其他選項可讓您存取更先進的功能，但至少有一個資料流程可讓您建立一個 ASF 檔。 您必須先瞭解如何設定串流，然後再建立複雜的設定檔。
 
-基於設定檔的目的，資料流程可以分為兩種類型：使用 Windows Media 編解碼器壓縮的類型，以及未使用任何編解碼器處理的任意資料流程。 音訊串流和影片串流是使用 Windows 媒體編解碼器的類型。 當然，串流可以包含使用協力廠商編解碼器壓縮的音訊或影片，但設定這類串流的程式是特殊案例。 如需詳細資訊，請參閱 [使用協力廠商編解碼器建立 ASF](to-create-asf-files-using-third-party-codecs.md)檔案。
+基於設定檔的目的，資料流程可以分為兩種類型：使用 Windows 媒體編解碼器壓縮的類型，以及未使用任何編解碼器處理的任意資料流程。 音訊串流和影片串流是使用 Windows 媒體編解碼器的類型。 當然，串流可以包含使用協力廠商編解碼器壓縮的音訊或影片，但設定這類串流的程式是特殊案例。 如需詳細資訊，請參閱 [使用協力廠商編解碼器建立 ASF](to-create-asf-files-using-third-party-codecs.md)檔案。
 
 下列清單摘要說明設定資料流程的流程。
 
 1.  取得資料流程的資料流程設定物件。
-    -   如果您要使用其中一種 Windows Media 編解碼器來建立資料流程，您必須使用 [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3)方法，以編解碼器格式取得串流設定物件。
+    -   如果您要使用其中一個 Windows 媒體編解碼器來建立資料流程，您必須使用 [**IWMCodecInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmcodecinfo3)方法，以編解碼器格式取得串流設定物件。
     -   如果資料流程是任意類型，請使用 [**IWMProfile：： CreateNewStream**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmprofile-createnewstream)取得空的資料流程設定物件。
 2.  設定串流以符合您的需求。
     -   所有類型的資料流程都應該指派名稱、連接名稱和資料流程號碼。
@@ -61,7 +61,7 @@ ms.locfileid: "104463152"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -73,6 +73,6 @@ ms.locfileid: "104463152"
 [**使用設定檔**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

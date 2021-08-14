@@ -4,12 +4,12 @@ ms.assetid: e7662a26-d7b2-4bff-aa72-e38b58bc15df
 title: 註冊事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b0a554c2e1ea5c226aa4a3c432f3430a30a978e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f61e9c6229525443b81429d713a58b19bfbb97d52745677d18e0e1c96f21a787
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761175"
 ---
 # <a name="register-events"></a>註冊事件
 

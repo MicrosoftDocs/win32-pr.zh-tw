@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cbcea308a8daaa8b9fdf15be765dc5d3a0df182c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f822bed433af6e3fab0250e06a04911ee10187039036211974b046b32df6b7b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823104"
 ---
 # <a name="cbasepropertypageonapplychanges-method"></a>CBasePropertyPage. OnApplyChanges 方法
 

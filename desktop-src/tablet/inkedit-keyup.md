@@ -4,12 +4,12 @@ ms.assetid: 973d99f2-df09-4315-aaab-72877272100b
 title: InkEdit (筆跡) 的 KeyUp 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 590f5f6b2e81e1996bca973f4994c0eade7ead18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60ac908202a22fc1f564c3f21da4cc3cce2e79e2f093ec93b65ff56066f94510
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220753"
 ---
 # <a name="inkeditkeyup-event"></a>InkEdit KeyUp 事件
 
@@ -71,7 +71,7 @@ HRESULT KeyUp(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

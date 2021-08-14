@@ -4,22 +4,22 @@ description: 字元物件方法
 ms.assetid: 0f926b7b-c1cf-4bd6-ba8c-1b2877eb1d24
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bb0dbb256c99660cbce1613c9fdd27d85a92dc
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 141c0fbcfe26e198984fd4a4d8c6c67858085e41178786d2cb78d2938231fdf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480312"
 ---
 # <a name="character-object-methods"></a>字元物件方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 伺服器也會公開 [**字元**](/windows/desktop/lwef/the-characters-object) 集合中每個字元的方法。 以下是支援的方法：
 
--   [**啟動**](activate-method.md)
+-   [**啟用**](activate-method.md)
 -   [**GestureAt**](gestureat-method.md)
--   [**Get**](get-method.md)
+-   [**獲取**](get-method.md)
 -   [**隱藏**](hide-method.md)
 -   [**中斷**](interrupt-method.md)
 -   [**接聽**](listen-method.md)
@@ -171,6 +171,6 @@ ms.locfileid: "103933104"
 
 
 
- 
+ 
 
- 
+ 

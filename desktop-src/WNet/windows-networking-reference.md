@@ -1,5 +1,5 @@
 ---
-title: Windows 網路功能參考
+title: Windows網路參考
 description: 下列 API 元素用於 Windows 網路
 ms.assetid: 2f930380-fc6e-4a39-98c6-a03b64f1bba5
 keywords:
@@ -7,24 +7,24 @@ keywords:
 - WNet WNet，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20f1d0c8dfaa492bf787a8d0c6b2c5a55940eacc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 044300b7f4dfb50e7ec94fcabfe607ea7f5ab4a81d69b189d3363482547df389
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330803"
 ---
-# <a name="windows-networking-reference"></a>Windows 網路功能參考
+# <a name="windows-networking-reference"></a>Windows網路參考
 
 下列 API 元素用於 Windows 網路：
 
--   [Windows 網路回呼](windows-networking-callbacks.md)
--   [Windows 網路功能](windows-networking-functions.md)
--   [Windows 網路結構](windows-networking-structures.md)
+-   [Windows網路回呼](windows-networking-callbacks.md)
+-   [Windows網路功能](windows-networking-functions.md)
+-   [Windows網路結構](windows-networking-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

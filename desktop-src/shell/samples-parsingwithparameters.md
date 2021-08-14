@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b9d14b3aa5386f187b2f6cdf0a5d435e2e57d31e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 5a559732a5a5b2b669402e2e0526dce1a08e37e4bfa31ba97cb41930a15b6cd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219834"
 ---
 # <a name="parsing-with-parameters-sample"></a>使用參數剖析範例
 

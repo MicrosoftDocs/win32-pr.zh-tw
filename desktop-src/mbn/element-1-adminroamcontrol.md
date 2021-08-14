@@ -7,12 +7,12 @@ MSHAttr:
 title: 'AdminRoamControl (v4) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a92ba97fd2657b28d1c845598825aae648124d36
-ms.sourcegitcommit: 4d4a6e9ad5de37e467cd3164276771b71e1f113f
+ms.openlocfilehash: ec631626c937555ae24460be82bd5322a0ae63185922b5e09249526118b35c9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/05/2021
-ms.locfileid: "106990871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882010"
 ---
 # <a name="span-idwwan_profile_v4element_1_adminroamcontrolspanmodemdmconfigprofileadminroamcontrol-v4"></a><span id="WWAN_profile_v4.element_1_AdminRoamControl"></span>ModemDMConfigProfile \/ AdminRoamControl (v4) 
 

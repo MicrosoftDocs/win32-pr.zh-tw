@@ -23,12 +23,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c5196addda0d9ff89f8a4976f3197bbeeae07044
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 13515bcf90c926db839aad60d49599967ee0d24bedbe0deb4b7d1d21c3c016e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428083"
 ---
 # <a name="iadscontainer-property-methods"></a>IADsContainer 屬性方法
 
@@ -127,7 +127,7 @@ HRESULT put_Hints(
 
 ## <a name="examples"></a>範例
 
-下列 Visual Basic 程式碼範例會示範如何使用 [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer) 的屬性方法。
+下列 Visual Basic 程式碼範例會示範如何使用 [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)的屬性方法。
 
 
 ```VB

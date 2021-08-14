@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 96cafb13f2c90c41e4aa6dcaaa72cf052757d0ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8b4abb13735b2ce370623ad8e5b79a8d9830b34a3d566fb57c0539d6f2c6095
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220115"
 ---
 # <a name="iuseridentitygetcookie-method"></a>IUserIdentity：： System.windows.application.getcookie 方法
 
@@ -44,9 +44,9 @@ HRESULT GetCookie(
 *puidCookie* \[擴展\]
 </dt> <dd>
 
-類型： **GUID \** _
+類型： **GUID \***
 
-_ *GUID** 值的指標，此值會接收用來唯一識別此使用者身分識別的 cookie。
+**GUID** 值的指標，此值會接收用來唯一識別此使用者識別的 cookie。
 
 </dd> </dl>
 
