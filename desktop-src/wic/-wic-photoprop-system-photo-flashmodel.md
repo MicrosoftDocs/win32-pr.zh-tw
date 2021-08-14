@@ -4,12 +4,12 @@ ms.assetid: ef322823-1b87-40ea-a5e3-e7551f14e44d
 title: FlashModel 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ade3769cb0d852239af84b769b85d5b3849589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15c9e45e1ef759f2bee0d383cde3bcdabe8be67dc55a463ab6c9f7e6e05889a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204879"
 ---
 # <a name="systemphotoflashmodel-photo-metadata-policy"></a>FlashModel 相片中繼資料原則
 

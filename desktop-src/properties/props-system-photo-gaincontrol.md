@@ -4,12 +4,12 @@ ms.assetid: 5076e03b-2c8a-4ef4-93d6-271a4bd697a6
 title: GainControl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8278120e5e65137eda491f52af7bc36f1c163c61
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65faba3fe41d63d12b5918e229543670f122ac36e2dbcbfd80c96947a3a408a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228989"
 ---
 # <a name="systemphotogaincontrol"></a>GainControl
 

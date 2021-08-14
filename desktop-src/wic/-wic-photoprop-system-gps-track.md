@@ -4,12 +4,12 @@ ms.assetid: ac9e14a0-55f1-437e-9d27-df0fa09671c1
 title: GPS：追蹤相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 773c65eec8b165c51456f3871309644638c1e2da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c89aee05d0c55e78fe4e55d7eacd8a8d0992fcb8d9f56312164c652cbc0bd81c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205529"
 ---
 # <a name="systemgpstrack-photo-metadata-policy"></a>GPS：追蹤相片中繼資料原則
 

@@ -3,14 +3,14 @@ title: 在裝置內容中使用的基本函數
 description: 下列 WCS 函數會在裝置內容中提供基本的色彩對應功能。 這些應用程式對於所有需要以低額外負荷來執行色彩管理的應用程式，以及最少的使用者介入都很有用。
 ms.assetid: 199fac5e-daba-4aa3-a631-bb1eb2270b2e
 keywords:
-- Windows Color System (WCS) ，函數
+- Windows色彩系統 (WCS) ，函數
 - WCS (Windows 色彩系統) ，函數
 - 影像色彩管理，函數
 - 色彩管理，函數
 - 色彩，函數
 - WCS 參考，函數
 - WCS、函數的參考
-- Windows Color System (WCS) 、裝置內容
+- Windows色彩系統 (WCS) 、裝置內容
 - WCS (Windows 色彩系統) 、裝置內容
 - 影像色彩管理、裝置內容
 - 色彩管理，裝置內容
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fde99ed077af108ddc20c73f86e17bedfe1d4a8c
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: a934c1737a7eea8b32a9589325e73300db82334a40ee47b411922b89cb61f568
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "106993765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118210977"
 ---
 # <a name="basic-functions-for-use-within-a-device-context"></a>在裝置內容中使用的基本函數
 

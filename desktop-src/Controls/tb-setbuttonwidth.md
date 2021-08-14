@@ -3,7 +3,7 @@ title: 'TB_SETBUTTONWIDTH 訊息 (Commctrl .h) '
 description: 設定工具列控制項中的最小和最大按鈕寬度。
 ms.assetid: 3311216a-e0b2-48bb-bad7-0a04185573cf
 keywords:
-- TB_SETBUTTONWIDTH message Windows 控制項
+- TB_SETBUTTONWIDTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e105770d72e90108b9c31311f77599520cecea8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 145ae1459b76fba60dd76b34e36d222cf62b93af071f2b430321d86956a3a871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167593"
 ---
 # <a name="tb_setbuttonwidth-message"></a>TB \_ SETBUTTONWIDTH 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "104103758"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -7,12 +7,12 @@ keywords:
 - 將存取權限授與服務登入帳戶 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f4ea5b85e6158109338b881eeb3f59d74a3910
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 3d13d3e06432b3501961f65a3e27ca00a46f18197bef23d78e6f7ca0deec59b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106965229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189077"
 ---
 # <a name="granting-access-rights-to-the-service-logon-account"></a>將存取權限授與服務登入帳戶
 
@@ -22,6 +22,6 @@ ms.locfileid: "106965229"
 
 在某些情況下，您必須將您的服務使用者帳戶新增為一或多個安全性群組的成員。 例如，如果您為您的服務建立系統管理員群組，您可能會將服務設為群組的成員。 然後，您可以將存取權限授與群組，而不是明確地授與服務帳戶。 如需安全性群組的詳細資訊，請參閱 [管理群組](managing-groups.md)。
 
- 
+ 
 
- 
+ 

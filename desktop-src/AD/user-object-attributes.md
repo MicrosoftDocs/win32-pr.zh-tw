@@ -9,12 +9,12 @@ keywords:
 - 物件 AD、使用者、屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f9c90d8d5f28c41971f5f6910cfb8bef1fafd6f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8a1bb6b347bd55daceb07dfe1fad4adc3e1352afc91ec14018aab6b24615c2b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182627"
 ---
 # <a name="user-object-attributes"></a>User 物件屬性
 
@@ -73,6 +73,6 @@ ms.locfileid: "103933037"
 
 無法直接修改使用者的密碼，因為這牽涉到透過網路傳送未加密的密碼。 若要設定使用者的密碼，必須使用 [**IADsUser**](/windows/desktop/api/iads/nf-iads-iadsuser-changepassword) 或 [**IADsUser. SetPassword**](/windows/desktop/api/iads/nf-iads-iadsuser-setpassword) 方法。 當應用程式允許使用者變更自己的密碼時，會使用 **IADsUser. ChangePassword** 方法。 當應用程式可讓系統管理員重設密碼時，會使用 **IADsUser. SetPassword** 方法。
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ keywords:
 - 搜尋通用類別目錄 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a057330309c12df6d18a209fc3d2adaf42b03005
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e03ef9a5e7929d6c6e80773bcadf6e8886a23b76c356e085564d1e094c0eb483
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183886"
 ---
 # <a name="searching-the-global-catalog"></a>搜尋通用類別目錄
 
@@ -33,9 +33,9 @@ Active Directory Domain Services 也有通用類別目錄 (GC) ，其中包含�
 -   若要搜尋通用類別目錄，必須要有包含通用類別目錄的網域控制站。 如果無法使用，則無法執行通用類別目錄搜尋。
 -   通用類別目錄是唯讀的。 這表示您無法系結至全域類別目錄中的物件，以建立、修改或刪除物件。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'EM_LINELENGTH 訊息 (Winuser .h) '
 description: 抓取編輯控制項中的行長度（以字元為單位）。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: cfb0632c-9ba9-4864-939a-dbbaed6c177e
 keywords:
-- EM_LINELENGTH message Windows 控制項
+- EM_LINELENGTH 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce3cbf59cbe31886e55c34bce9f7c2421e431012
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 941a14a40cdc8f0ba0457cff8c789659a4ac3db76e01cd2a1c30047ab888d971
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171387"
 ---
 # <a name="em_linelength-message"></a>EM \_ LINELENGTH 訊息
 
@@ -65,9 +65,9 @@ ms.locfileid: "103844044"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

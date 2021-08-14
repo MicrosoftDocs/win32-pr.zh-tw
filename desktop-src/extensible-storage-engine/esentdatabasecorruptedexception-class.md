@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: a82a0ec101223bae64b39a4db2ca0779d671591c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a6d507bc03c4f0ece588564f27b04b161e2d5d03a91b56aea769128679f5fd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117713164"
 ---
 # <a name="esentdatabasecorruptedexception-class"></a>EsentDatabaseCorruptedException 類別
 

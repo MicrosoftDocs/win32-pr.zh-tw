@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: da23e413ee238f43ae577a51b18a542dc1b0768c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 963dc0059cf4fd45dffb0fc406cb6b2849aef456309cf15e80bf094c2ce01d20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208300"
 ---
 # <a name="iwiaerrorhandlergetstatusdescription-method"></a>IWiaErrorHandler：： GetStatusDescription 方法
 
@@ -47,9 +47,9 @@ HRESULT GetStatusDescription(
 *punkItem* \[在\]
 </dt> <dd>
 
-類型： **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+類型： **[IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-正在傳送之專案的 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 指標。 此物件至少會執行 [_ *IWiaItem2* *](-wia-iwiaitem2.md)和 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer)。
+正在傳送之專案的 [IUnknown](/windows/win32/api/unknwn/nn-unknwn-iunknown) 指標。 此物件至少會執行 [**IWiaItem2**](-wia-iwiaitem2.md) 和 [**IWiaDataTransfer**](/windows/desktop/api/wia_xp/nn-wia_xp-iwiadatatransfer)。
 
 </dd> <dt>
 
@@ -74,18 +74,18 @@ HRESULT GetStatusDescription(
 *>pbdata* \[在\]
 </dt> <dd>
 
-類型： **BYTE \** _
+類型：**位元組 \***
 
-[_ *BandedDataCallback* *](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)所接收之資料緩衝區的指標。
+[**BandedDataCallback**](/windows/desktop/api/wia_xp/nf-wia_xp-iwiadatacallback-bandeddatacallback)所接收之資料緩衝區的指標。
 
 </dd> <dt>
 
 *pbstrDescription* \[擴展\]
 </dt> <dd>
 
-類型： **BSTR \** _
+類型： **BSTR \***
 
-_ *BSTR** 接收資料傳輸期間發生之狀態或錯誤的描述。 此參數不可以是 **Null**。 呼叫端必須使用 [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring)釋放字串，而實作項必須使用 [SysAllocString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring)來配置字串。
+接收在資料傳輸期間遇到之狀態或錯誤描述的 **BSTR** 。 此參數不可以是 **Null**。 呼叫端必須使用 [SysFreeString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysfreestring)釋放字串，而實作項必須使用 [SysAllocString](/previous-versions/windows/desktop/api/oleauto/nf-oleauto-sysallocstring)來配置字串。
 
 </dd> </dl>
 
@@ -112,8 +112,8 @@ _ *BSTR** 接收資料傳輸期間發生之狀態或錯誤的描述。 此參數
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |

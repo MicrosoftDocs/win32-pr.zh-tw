@@ -4,12 +4,12 @@ ms.assetid: 2cb963a8-7077-4419-96d8-cba0fd011e4f
 title: VSS 還原設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f13acfc59f250a859e9c62f2df2e1b1b982608ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f48b3486128c6a91f601a89d697a4db9d8ab27fe9d3ac4cbef28dc870928d37d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344195"
 ---
 # <a name="vss-restore-configurations"></a>VSS 還原設定
 

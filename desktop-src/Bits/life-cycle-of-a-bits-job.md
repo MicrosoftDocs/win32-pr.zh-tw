@@ -4,12 +4,12 @@ description: 當您建立作業時，會開始 BITS 工作的生命週期。
 ms.assetid: b765a8ef-74bd-475e-9cd9-e9e2cf4f0305
 ms.topic: article
 ms.date: 11/13/2018
-ms.openlocfilehash: c6ac23c598d28681968e9c0cbed776ba24c57e98
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 3182aec8eb4f4697ded8cfa5e44385e1fd34531779fa850fca8a9bbb52ac110f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106991401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173483"
 ---
 # <a name="bits-job-states"></a>BITS 作業狀態
 有四種類型 [**的位：**](/windows/desktop/api/Bits/ne-bits-bg_job_state)開始、動作、傳輸和最終。 當作業執行時，它會在不同狀態類別的狀態之間轉換。 一旦作業處於最終狀態之後，就不會移出最後的狀態，也不會顯示在 [作業列舉](/windows/desktop/api/bits/nf-bits-ibackgroundcopymanager-enumjobs)中。
@@ -69,7 +69,7 @@ BITS 會在建立作業時自動暫停作業。 您必須繼續工作，才能�
 
 作業會在已排入佇列、連接和傳輸狀態之間移動，直到 BITS 傳送作業中的所有檔案為止。 屆時，作業會移至已傳送的狀態。 BITS 會使用迴圈配置資源排程來排程相同優先權層級的作業。 每項作業都會有一段時間來處理其檔案。 如果作業未在其時間配量內完成，則作業會回到已排入佇列的狀態，並啟動佇列中的下一個工作。 這可防止大型作業封鎖較小的作業。 作業主要是在先進先出 (FIFO) 基礎上進行處理;不過，BITS 無法保證 FIFO 處理，因為迴圈配置資源排程、作業錯誤和服務重新開機。
 
-在應用程式呼叫 [**IBackgroundCopyJob：： Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) 方法，將檔案的擁有權從 BITS 傳送給使用者之前，用戶端無法使用傳送的檔案。 當伺服器順利接收到檔案時，上傳作業也會設定為已傳輸狀態。 當檔案成功傳送至伺服器，且從伺服器應用程式的回復成功傳送至用戶端之後，上傳-回復作業會設定為已傳輸狀態。
+在應用程式呼叫 [**IBackgroundCopyJob：： Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) 方法，將檔案的擁有權從 BITS 傳送給使用者之前，用戶端無法使用傳送的檔案。 當伺服器順利接收到檔案時，Upload 作業也會設定為 [已傳送] 狀態。 Upload-回復作業會在檔案成功傳送至伺服器之後設定為 [已傳送] 狀態，且從伺服器應用程式的回復已成功傳送至用戶端。
 
 如果發生錯誤，工作會移至嚴重或暫時性錯誤狀態。 嚴重錯誤是指 BITS 無法從復原或需要介入來修正的錯誤。 如果應用程式能夠修正錯誤，應用程式會繼續作業，而 BITS 會將作業移至佇列狀態。 暫時性錯誤是可自行解決的錯誤。 BITS 會重試處於暫時性錯誤狀態的工作，直到傳輸成功或作業超時為止。當應用程式指定的期間內未進行任何進度時，作業就會超時。 如果作業超時，BITS 會將作業移到嚴重錯誤狀態。
 

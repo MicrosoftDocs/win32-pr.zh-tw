@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 48f6093f32d43737b1999c3474f74569ecd3f8cd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: df10faa20094623940e9694a5612c4f49b45f3c979d7e05df3239512cb021ab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000709"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194027"
 ---
 # <a name="iportabledevicevaluesgetunsignedlargeintegervalue-method"></a>IPortableDeviceValues：： GetUnsignedLargeIntegerValue 方法
 

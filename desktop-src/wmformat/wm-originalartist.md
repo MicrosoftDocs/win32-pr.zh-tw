@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac7fe5dfff5f0c00d3e1c58e3ab439b542c281d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d038a7943d848fb86972c113611804fb918b68793215de1b01de9a964463ec40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195628"
 ---
 # <a name="wmoriginalartist"></a>WM/OriginalArtist
 
@@ -42,9 +42,9 @@ g \_ wszWMOriginalArtist
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

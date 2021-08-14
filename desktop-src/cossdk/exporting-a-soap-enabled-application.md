@@ -1,19 +1,19 @@
 ---
-description: 當您使用 COM + 來建立 XML web service 時，該服務可供任何授權用戶端使用，包括未使用 COM + 或甚至 Microsoft Windows 的用戶端。
+description: 當您使用 COM + 來建立 XML web service 時，該服務可供任何授權用戶端使用，包括未使用 COM + 或甚至是 Microsoft Windows 的用戶端。
 ms.assetid: c40031a6-f3de-4ef4-b9aa-3f49e57da5b4
 title: 匯出 SOAP-Enabled 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d5c92029f431fc06964f233c5746c283821d11c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ce79bbc5dca59feb23ba9e976575b3b33570ecd27cf1e6a68560b02e073f48bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307285"
 ---
 # <a name="exporting-a-soap-enabled-application"></a>匯出 SOAP-Enabled 應用程式
 
-當您使用 COM + 來建立 XML web service 時，該服務可供任何授權用戶端使用，包括未使用 COM + 或甚至 Microsoft Windows 的用戶端。 不過，在用戶端啟動的物件中使用 COM + web 服務，從 COM + 用戶端應用程式 (CAO) 模式是特別簡單的。 只要以 proxy 模式匯出啟用 SOAP 的應用程式，然後將它匯 [入](importing-a-soap-enabled-application.md) 您要存取對應之 XML web service 的用戶端。
+當您使用 COM + 來建立 XML web service 時，該服務可供任何授權用戶端使用，包括未使用 COM + 或甚至是 Microsoft Windows 的用戶端。 不過，在用戶端啟動的物件中使用 COM + web 服務，從 COM + 用戶端應用程式 (CAO) 模式是特別簡單的。 只要以 proxy 模式匯出啟用 SOAP 的應用程式，然後將它匯 [入](importing-a-soap-enabled-application.md) 您要存取對應之 XML web service 的用戶端。
 
 ## <a name="component-services-administrative-tool"></a>元件服務系統管理工具
 

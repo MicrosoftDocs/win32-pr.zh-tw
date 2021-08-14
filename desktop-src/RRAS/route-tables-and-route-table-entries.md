@@ -4,18 +4,18 @@ description: 路由表管理員會為每個通訊協定系列維護不同的路�
 ms.assetid: 3848d93d-cc54-4a08-bd36-a9700cde6ce0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f118ec1d0a6f8fe4ef301654e139f217257c3a0b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 31fea4ac965fe397d5bb7eba2b65479358a1e192f1583b1e7e73c2532dbd3a50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106995138"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788053"
 ---
 # <a name="route-tables-and-route-table-entries"></a>路由表和路由表專案
 
-**Windows Server 2003：** 此 API 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md) api 取代，而且將無法在 Windows Server 2003 之外使用。 新的應用程式應該使用路由表管理員第2版 API。
+**Windows Server 2003：** 此 api 已由 [路由表管理員第2版](about-routing-table-manager-version-2.md)api 取代，而且將無法在 Windows Server 2003 之外使用。 新的應用程式應該使用路由表管理員第2版 API。
 
-路由表管理員會為每個通訊協定系列維護不同的路由表。 目前， (IP) 和網際網路封包交換 (IPX) 路由通訊協定系列的網際網路通訊協定，提供明確的支援。 無論通訊協定系列為何，每個路由專案都會包含下列資訊：
+路由表管理員會為每個通訊協定系列維護不同的路由表。 目前， (IP) 和網際網路封包 Exchange (IPX) 路由通訊協定系列的網際網路通訊協定提供明確支援。 無論通訊協定系列為何，每個路由專案都會包含下列資訊：
 
 -   目的地網路。
 -   新增路由的通訊協定識別碼。
@@ -35,9 +35,9 @@ ms.locfileid: "106995138"
 
 一般而言，路由表管理員會針對這些參數值中的任何一個不同的路由建立不同的專案。 但是，不會針對每個目的地網路保留多個專案的路由通訊協定，就會發生例外狀況。 針對這些通訊協定，路由表管理員會忽略介面索引或下一個躍點位址的差異。 這類通訊協定的範例是開放式最短路徑 First (OSPF) 的 RRAS 執行。
 
- 
+ 
 
- 
+ 
 
 
 

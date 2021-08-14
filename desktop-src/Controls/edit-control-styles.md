@@ -26,12 +26,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b255aee665c32f9a14be4946dee0122dad626bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 07713d6badb1ac47e65a0a027bc6b9fe44879b2441d2f699947b5cacfb1efb22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171481"
 ---
 # <a name="edit-control-styles"></a>編輯控制項樣式
 
@@ -61,7 +61,7 @@ LRESULT MsgCreate(HWND hwnd, UINT uMessage, WPARAM wparam, LPARAM lparam)
 }
 ```
 
-從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/netds/winsock/ipxchat/IpxChat.c) 取得的範例。
+GitHub 上[Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples/blob/1d363ff4bd17d8e20415b92e2ee989d615cc0d91/Samples/Win7Samples/netds/winsock/ipxchat/IpxChat.c)的範例。
 
 ## <a name="constants"></a>常數
 
@@ -111,7 +111,7 @@ LRESULT MsgCreate(HWND hwnd, UINT uMessage, WPARAM wparam, LPARAM lparam)
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="ES_OEMCONVERT"></span><span id="es_oemconvert"></span><dl> <dt><strong>ES_OEMCONVERT</strong></dt> </dl></td>
-<td style="text-align: left;">轉換在編輯控制項中輸入的文字。 文字會從 Windows 字元集轉換成 OEM 字元集，然後再轉換回 Windows 字元集。 這可確保當應用程式呼叫 <a href="/windows/desktop/api/winuser/nf-winuser-chartooema"><strong>CharToOem</strong></a> 函式將編輯控制項中的 Windows 字串轉換成 OEM 字元時，會進行適當的字元轉換。 如果編輯控制項包含的檔案名將會用於不支援 Unicode 的檔案系統，此樣式最適合用。 <br/> 若要在建立控制項之後變更這個樣式，請使用 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>。 <br/></td>
+<td style="text-align: left;">轉換在編輯控制項中輸入的文字。 文字會從 Windows 字元集轉換成 OEM 字元集，然後再轉換回 Windows 字元集。 這可確保當應用程式呼叫<a href="/windows/desktop/api/winuser/nf-winuser-chartooema"><strong>CharToOem</strong></a>函式將編輯控制項中的 Windows 字串轉換為 OEM 字元時，會進行適當的字元轉換。 如果編輯控制項包含的檔案名將會用於不支援 Unicode 的檔案系統，此樣式最適合用。 <br/> 若要在建立控制項之後變更這個樣式，請使用 <a href="/windows/desktop/api/winuser/nf-winuser-setwindowlonga"><strong>SetWindowLong</strong></a>。 <br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="ES_PASSWORD"></span><span id="es_password"></span><dl> <dt><strong>ES_PASSWORD</strong></dt> </dl></td>

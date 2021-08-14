@@ -8,12 +8,12 @@ keywords:
 - 搜尋定義域內容 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c18cd879e950fd9c467f6674092947d430d8f87
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51f775e199cd269eec8a67054ca26bcd69e11eacaa6436781f4481083d11e60d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183866"
 ---
 # <a name="searching-domain-contents"></a>搜尋定義域內容
 
@@ -31,9 +31,9 @@ ms.locfileid: "104020831"
 
 如果子域的網域控制站連線速度很慢，子樹會在已開啟參考追蹤的網域樹狀目錄上搜尋，可能會很耗時。 如果您只想要搜尋單一網域，您應該關閉參考追蹤，以避免不必要地搜尋子域。
 
- 
+ 
 
- 
+ 
 
 
 

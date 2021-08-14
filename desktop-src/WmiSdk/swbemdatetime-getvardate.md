@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: b4d0c71e4748774eacab4b234092178179a4a774
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 506c897da130b9558b37637918674a7c6024adb787ac3d91e53e430a6edfcd1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314753"
 ---
 # <a name="swbemdatetimegetvardate-method"></a>SWbemDateTime. GetVarDate 方法
 
 [**SWbemDateTime**](swbemdatetime.md)物件的 **GetVarDate** 方法會將 CIM [**DATETIME**](datetime.md)格式的日期和時間值轉換成 **VT \_ 日期** 格式。
 
-**VT \_ 日期** 格式是 Visual Basic 和 ActiveX 使用的 automation variant [**DATETIME**](datetime.md)值。
+**VT \_ 日期** 格式是 Visual Basic 和 ActiveX 使用的自動化變異日期 [**時間**](datetime.md)值。
 
 如需此語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。
 
@@ -92,8 +92,8 @@ vdate = .GetVarDate( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |

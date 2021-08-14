@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: MethodCoNtext 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2eed4d667a3d656c20b4e30907ee221c256ab9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2dc829c0e56e1808febbd0ff0bd90a7353b1d656f94266d312a18b7412955bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317436"
 ---
 # <a name="methodcontext-methods"></a>MethodCoNtext 方法
 

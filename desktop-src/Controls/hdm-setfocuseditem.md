@@ -3,7 +3,7 @@ title: 'HDM_SETFOCUSEDITEM 訊息 (Commctrl .h) '
 description: 將焦點設定為標題控制項中的指定專案。 明確地傳送此訊息，或使用標頭 \_ SetFocusedItem 宏。
 ms.assetid: 20a321ce-4420-4239-b34d-9e7f24a89fc3
 keywords:
-- HDM_SETFOCUSEDITEM message Windows 控制項
+- HDM_SETFOCUSEDITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd416744478248760f4e2c9f94a362db5a8d327
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9ea853cf625473bee608111eddf877eb09457ee5c2ac6089542b5add0a212195
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171073"
 ---
 # <a name="hdm_setfocuseditem-message"></a>HDM \_ SETFOCUSEDITEM 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104105293"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

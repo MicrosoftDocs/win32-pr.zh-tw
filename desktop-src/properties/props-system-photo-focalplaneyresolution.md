@@ -4,18 +4,18 @@ ms.assetid: 926b6843-0d5b-46be-9608-291e609cf270
 title: FocalPlaneYResolution
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a190629d5e5fba80c595bc6b2dcd2bd131664ae2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e0deef9bd5ecd686dc1c1a1f05864f2ad4aca4c1a700c9bcf94f7716abfa35d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229145"
 ---
 # <a name="systemphotofocalplaneyresolution"></a>FocalPlaneYResolution
 
 指出影像高度 (Y 方向的圖元數，) 攝影機焦點平面上的每個 FocalPlaneResolutionUnit。 從 PKEY \_ photo \_ FOCALPLANEYRESOLUTIONNUMERATOR 和 PKEY \_ photo FocalPlaneYResolutionDenominator 計算 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

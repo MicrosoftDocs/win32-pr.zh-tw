@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8634742d89e0f5f9b0a529dcddc138aa029dd935
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f77fe1a504fbb54c0feb1f52efe3400aa80c8d2eed16a243af9c053d3bafd4a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174672"
 ---
 # <a name="msmq-send-extended-right"></a>msmq-傳送延伸許可權
 

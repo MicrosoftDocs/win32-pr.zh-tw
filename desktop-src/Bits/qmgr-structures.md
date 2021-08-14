@@ -4,12 +4,12 @@ description: 佇列管理員 (QMGR) 介面會使用下列結構。
 ms.assetid: 25512a9e-a085-4fa5-8cc1-dd0b804fbbf4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be8929cefc22866d2626498a330379350ce828b0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 010223c40c41b5dbfca7dcef5cf352ff9957e223d5ee2b0306499e29b9f9922f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020954"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173277"
 ---
 # <a name="qmgr-structures"></a>QMGR 結構
 

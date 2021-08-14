@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 21a739241fd52a7d45d58a1b36bb7de838234d6b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 06d057f1a67fb6e18be0b0ed7e3fc21e1276a4068017c44c4e28d125fe271046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181143"
 ---
 # <a name="adsi-attribute-modification-types"></a>ADSI 屬性修改類型
 

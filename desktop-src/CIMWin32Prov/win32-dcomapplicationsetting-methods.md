@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_DCOMApplicationSetting 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 46de2d900de05b4ef7af56e1f87763662f769c2f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: af8ffd4f2a264c74409052921b0985a622f3097ab2adc17f51a2c09cc5da5288
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172251"
 ---
 # <a name="win32_dcomapplicationsetting-methods"></a>Win32 \_ DCOMApplicationSetting 方法
 

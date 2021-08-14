@@ -4,12 +4,12 @@ ms.assetid: 503d0b11-2113-4df4-8b6b-250f24d09b1f
 title: WPD_CONTENT_TYPE_TASK
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6823a6707cac184ca5e04eda90a036f39f7b89a8
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 5d42761fa8cbd96b4ce5b4085544906d2333b9d1317181b397140468145a4b37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193532"
 ---
 # <a name="wpd_content_type_task"></a>WPD \_ 內容 \_ 類型 \_ 工作
 

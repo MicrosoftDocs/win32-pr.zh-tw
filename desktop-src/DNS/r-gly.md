@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 675287c2-9394-4d32-8ef4-9bb64794d326
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 755df4aba2be70bf4f76e1bcf37629bfe492495e
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3f8824eb5ed60011f3af206d0eacd9c41e69d2ed64c5f9b7d37a98d703f6dc26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162740"
 ---
 # <a name="r-dns"></a>R (DNS) 
 
@@ -28,7 +28,7 @@ B [C](c-gly.md) D E [F](f-gly.md) G [H](h-gly.md) I J K [L](l-gly.md) M N O [P](
 <span id="_dns_resolver_gly"></span><span id="_DNS_RESOLVER_GLY"></span>**解析 器**
 </dt> <dd>
 
-隨附于 Windows 傳輸控制通訊協定/網際網路通訊協定的軟體元件 (TCP/IP) 堆疊，與 DNS 伺服器通訊，以建立及解析名稱解析查詢。
+隨附于 Windows 傳輸控制通訊協定/網際網路通訊協定的軟體元件， (tcp/ip) 堆疊，可與 DNS 伺服器通訊，以建立及解析名稱解析查詢。
 
 </dd> <dt>
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 監視事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea5d9fc6f9a12f4aa1fb7bc0ff6f66fc4dd4a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb90a0a6eef87f88543e8f2414bc38bdea4f7d89c577471d79d23393f331b053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317112"
 ---
 # <a name="monitoring-events"></a>監視事件
 
@@ -32,7 +32,7 @@ WMI 支援事件偵測並傳遞給事件取用者，因為某些 WMI 提供者�
 
 ## <a name="using-temporary-event-consumers"></a>使用暫存事件取用者
 
-暫存事件取用者是傳回符合事件查詢或篩選準則之事件的腳本或應用程式。 暫存事件查詢通常會使用 c + + 應用程式中的 [**IWbemServices：： ExecNotificationQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery) 或腳本和 Visual Basic 中的 [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) 。
+暫存事件取用者是傳回符合事件查詢或篩選準則之事件的腳本或應用程式。 暫存事件查詢通常會使用 c + + 應用程式中的 [**IWbemServices：： ExecNotificationQuery**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-execnotificationquery)或腳本和 Visual Basic 中的 [**SWbemServices.ExecNotificationQuery**](swbemservices-execnotificationquery.md) 。
 
 事件查詢會要求事件類別的實例，以指定特定類型的事件，例如 [**Win32 \_ ProcessTrace**](/previous-versions/windows/desktop/krnlprov/win32-processtrace) 或 [**RegistryKeyChangeEvent**](/previous-versions/windows/desktop/regprov/registrykeychangeevent)。
 
@@ -78,7 +78,7 @@ Loop
     程式設計語言會決定要使用的 API。
 
     -   針對 c + + 程式設計語言，請使用 [適用于 WMI 的 COM API](com-api-for-wmi.md)。
-    -   針對 Visual Basic 或指令碼語言，請使用 [適用于 WMI 的腳本 API](scripting-api-for-wmi.md)。
+    -   針對 Visual Basic 或指令碼語言，請使用[適用于 WMI 的腳本 API](scripting-api-for-wmi.md)。
 
 2.  以您啟動 WMI 應用程式的相同方式開始撰寫暫存事件取用者應用程式的程式碼。
 
@@ -194,7 +194,7 @@ WMI 提供數個永久取用者。 已預先安裝包含程式碼的取用者類
 4.  使用 **regsvr32** 公用程式向 COM 註冊取用者。
 5.  建立事件篩選類別 [**\_ \_ >eventfilter**](--eventfilter.md)的實例。
 
-    設定事件篩選準則實例的必要欄位。 [**\_ \_ >eventfilter**](--eventfilter.md)的必要欄位為 **Name**、 **QueryLanguage** 和 **Query**。 **Name** 屬性可以是這個類別之實例的任何唯一名稱。 **QueryLanguage** 屬性一律設為 "WQL"。 **查詢** 屬性是包含事件查詢的字串。 當永久事件取用者的查詢失敗時，就會產生事件。 事件的來源為 WinMgmt，事件識別碼為10，而事件種類為「錯誤」。
+    設定事件篩選準則實例的必要欄位。 [**\_ \_ >Eventfilter**](--eventfilter.md)的必要欄位為 **Name**、 **QueryLanguage** 和 **Query**。 **Name** 屬性可以是這個類別之實例的任何唯一名稱。 **QueryLanguage** 屬性一律設為 "WQL"。 **查詢** 屬性是包含事件查詢的字串。 當永久事件取用者的查詢失敗時，就會產生事件。 事件的來源為 WinMgmt，事件識別碼為10，而事件種類為「錯誤」。
 
 6.  建立 [**\_ \_ FilterToConsumerBinding**](--filtertoconsumerbinding.md)類別的實例，以將邏輯事件取用者與事件篩選器產生關聯。
 

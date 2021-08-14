@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a361520fc74a10c2c4a726c4a5c4adfababf39c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 08bef16b5b6678d73d58fbf341b3af3fb3a7c7a97d917fd73b39b17a3b2cf94b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341652"
 ---
 # <a name="count-attribute"></a>Count 屬性
 

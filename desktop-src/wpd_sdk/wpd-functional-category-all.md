@@ -4,12 +4,12 @@ ms.assetid: 7849f8e4-1ce3-4a26-8fee-16a66527da6b
 title: WPD_FUNCTIONAL_CATEGORY_ALL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4b14780d16896c4d03751765f052b928ba6572
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47c420f5e1402e24f969193af018f06aff27110e843e5554fe490884acec2581
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193046"
 ---
 # <a name="wpd_functional_category_all"></a>WPD \_ 功能 \_ 類別 \_ 全部
 
@@ -44,7 +44,7 @@ ms.locfileid: "106994450"
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 
 
 

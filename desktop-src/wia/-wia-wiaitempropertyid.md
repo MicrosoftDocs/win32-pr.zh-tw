@@ -1,5 +1,5 @@
 ---
-description: 大部分的 Windows 映像取得 (WIA) 屬性常數都會分組為一個列舉資料類型，WiaItemPropertyId 為腳本作者。
+description: 大部分的 Windows 影像取得 (WIA) 屬性常數會分組為一個列舉資料類型，WiaItemPropertyId 為腳本作者。
 ms.assetid: d0fd6bd1-c646-4ed8-a6b2-43b424af8288
 title: WiaItemPropertyId
 ms.topic: article
@@ -9,16 +9,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6ced5d213d68fa3c4386ecf6f05783bd303bad05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dedd11a35d52d19a4fcff4299dce688e8163ecd19d2bf9e4b49e19cb1997b293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207505"
 ---
 # <a name="wiaitempropertyid"></a>WiaItemPropertyId
 
-大部分的 Windows 映像取得 (WIA) 屬性常數都會分組為一個列舉資料類型，WiaItemPropertyId 為腳本作者。
+大部分的 Windows 影像取得 (WIA) 屬性常數會分組為一個列舉資料類型，WiaItemPropertyId 為腳本作者。
 
 下表提供在腳本和 c + + 中使用的命名慣例之間的對應。 例如，在腳本中，"CameraDevice" 前置詞會 \_ 對應到對應 c + + 常數的 "WIA DPC" 前置詞。 在更明確的範例中，"CameraDeviceFlashMode" 屬性相當於 c + + "WIA \_ DPC \_ FLASH \_ MODE" 常數。 如需每個屬性的描述，請參閱對應的屬性常數主題。 
 

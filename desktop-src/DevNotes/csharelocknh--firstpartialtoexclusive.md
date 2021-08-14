@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Rwnh.dll
-ms.openlocfilehash: 65931cb4747c829a0386c7cc76a1ce7e64d41d60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e56ce4b784d808c073d16e9833a89b27f24a264b35ea3cadc4d84f5b503970ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162399"
 ---
 # <a name="csharelocknhfirstpartialtoexclusive-method"></a>CShareLockNH：： FirstPartialToExclusive 方法
 

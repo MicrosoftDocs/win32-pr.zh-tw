@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 2ad9fe2008b52276a8f68149b33ae3729daaf7d9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f9ed735a1440d124a065a9f509eac7c58b1fded9be0683e361903b9f02fc1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319436"
 ---
 # <a name="connecting-to-wmi-remotely-with-c"></a>使用 C 遠端連線至 WMI#
 
@@ -91,7 +91,7 @@ WMI 是用於監視遠端電腦上的硬體和軟體。 WMI v1 的遠端連線�
 
 **若要使用 c # 從遠端連線到 WMI (System. Management)**
 
-1.  使用電腦名稱稱和 WMI 路徑建立 [ManagementScope](/dotnet/api/system.management.managementscope) 物件，並使用 ManagementScope 的呼叫連接到您的目標。 () 連線。
+1.  使用電腦名稱稱和 WMI 路徑建立[ManagementScope](/dotnet/api/system.management.managementscope)物件，並使用 ManagementScope 的呼叫連接到您的目標。連線 () 。
 
     如果您要使用相同的認證來連線到遠端電腦 (網域和使用者名稱) 登入，則您只需要指定 WMI 路徑。 一旦連線之後，您就可以進行 WMI 查詢。
 

@@ -4,12 +4,12 @@ description: 用戶端可以註冊，以接收路由表管理員中儲存之路�
 ms.assetid: 90dc98eb-0d0b-4450-848b-c7cedab75a52
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c3a98062fee73c481c1f47c32fa7eeb5465a112
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7049478a5be834b08b7bb17ad9ebfb0fdf70736837f27d53e7900bf7bfdc88dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788617"
 ---
 # <a name="registering-for-change-notification"></a>註冊變更通知
 
@@ -21,9 +21,9 @@ ms.locfileid: "104300680"
 
 如需示範如何使用這些函數的範例程式碼，請參閱 [註冊變更通知](register-for-change-notification.md)。
 
- 
+ 
 
- 
+ 
 
 
 

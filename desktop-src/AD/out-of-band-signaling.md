@@ -5,12 +5,12 @@ ms.assetid: 82960273-5cda-44d2-bc17-d604f34f5a9b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bc630bfdf3a2700ab187cd24bbfc5a52def1103
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 06aab6482c9ad7af8e7c9b505b528b3559adb81f990b4d83681e44f418fadc66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185415"
 ---
 # <a name="out-of-band-signaling"></a>頻外信號
 
@@ -20,9 +20,9 @@ ms.locfileid: "104020837"
 
 需要完全相同原則才能彼此通訊的應用程式，可以使用頻外信號來確保不會採用新的原則，直到所有相關的合作物件都收到為止。 例如，如果兩部電腦之間的網際網路通訊協定安全性 (IPsec) 原則變更，則來源機器上的代理程式可以聯繫目的地電腦上的代理程式，以協調已變更原則的應用程式，並讓來源電腦延遲應用程式，直到目的地電腦也收到新的原則為止。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'TB_MARKBUTTON 訊息 (Commctrl .h) '
 description: 在工具列控制項中設定指定按鈕的醒目提示狀態。
 ms.assetid: cba0e2d2-40a7-4e20-a1ef-d5f5444c96d9
 keywords:
-- TB_MARKBUTTON message Windows 控制項
+- TB_MARKBUTTON 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d42983f5fb0ef6e62716cefa2fa8db4fca87fa4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1af7ba20ed9ce3d1b289c0c28db8fc40c476dd99f4ffb1af1af28692c44cab1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168022"
 ---
 # <a name="tb_markbutton-message"></a>TB \_ MARKBUTTON 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104025330"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

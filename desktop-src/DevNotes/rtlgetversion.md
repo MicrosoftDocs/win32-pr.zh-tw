@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ntdll.dll
 - NtosKrnl.exe
-ms.openlocfilehash: a6a026ee55a6ccd75162915729070ad76f621bc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7420b9dba03e3b136331f4463f476908882ca5564d0fc7ac563036c7acccb356
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161680"
 ---
 # <a name="rtlgetversion-function"></a>RtlGetVersion 函式
 
@@ -53,9 +53,9 @@ NTSTATUS RtlGetVersion(
 
 ## <a name="remarks"></a>備註
 
-**RtlGetVersion** 等同于 Windows SDK 中的 [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa) 函數。 請參閱 Windows SDK 中的範例，其中顯示如何取得系統版本。
+**RtlGetVersion** 等同于 Windows SDK 中的 [**GetVersionEx**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getversionexa)函數。 請參閱 Windows SDK 中的範例，其中顯示如何取得系統版本。
 
-使用 **RtlGetVersion** 來判斷特定版本的作業系統是否正在執行時，呼叫端應該檢查是否有大於或等於所需版本號碼的版本號碼。 這可確保版本測試可在較新的 Windows 版本中成功執行。
+使用 **RtlGetVersion** 來判斷特定版本的作業系統是否正在執行時，呼叫端應該檢查是否有大於或等於所需版本號碼的版本號碼。 這可確保版本測試可在 Windows 更新版本時成功。
 
 因為可以在可轉散發 DLL 中新增作業系統功能，所以只檢查主要和次要版本號碼，並不是確認特定系統功能是否存在的最可靠方式。 驅動程式應該使用 [**RtlVerifyVersionInfo**](/windows-hardware/drivers/ddi/wdm/nf-wdm-rtlverifyversioninfo) 來測試特定系統功能是否存在。
 

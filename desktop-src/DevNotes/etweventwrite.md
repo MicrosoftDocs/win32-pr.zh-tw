@@ -12,16 +12,16 @@ api_type:
 - HeaderDef
 api_location:
 - ntetw.h
-ms.openlocfilehash: 149f611dfb298749befca805509e05fa2dec497a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b8e06c2a0922038e37766f44c0b9fcd7c85bbb7fd4fa4bd0841192be9e4e9087
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162099"
 ---
 # <a name="etweventwrite-function"></a>EtwEventWrite 函式
 
-[EtwEventWrite 函式和它所傳回的結構是作業系統的內部，而且可能會從某個 Windows 版本變更為另一個版本。]
+[EtwEventWrite 函式和它所傳回的結構是作業系統的內部，而且可能會從一個 Windows 版本變更為另一個版本。]
 
 將基本事件寫入至會話。
 
@@ -77,7 +77,7 @@ Win32 錯誤碼。
 
 ## <a name="remarks"></a>備註
 
-EtwEventWrite 函式和它所傳回的結構是作業系統的內部，而且可能會從某個 Windows 版本變更為另一個。 若要維持應用程式的相容性，最好改為使用公用函數。
+EtwEventWrite 函式及其傳回的結構都是作業系統的內部，而且可能會從一個 Windows 版本變更為另一個版本。 若要維持應用程式的相容性，最好改為使用公用函數。
 
 ## <a name="requirements"></a>規格需求
 | &nbsp; | &nbsp; |

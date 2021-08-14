@@ -5,12 +5,12 @@ ms.assetid: D308BF3E-8CBE-4DF0-B020-4D202E858D99
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a19988d3f3eec39e8fc298a2fc13031ecc29e3e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 214098f70608d5f20d24edb1312593c6215abea12efecfc6eea97148e8855cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104548436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300979"
 ---
 # <a name="rasterizer-ordered-views"></a>依轉譯器排序的視圖
 

@@ -4,12 +4,12 @@ ms.assetid: 9fc35bef-ecc1-4764-bf69-ec89560daff4
 title: COM + 磁碟分割概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 483a34e6186cda8978c1882ed1fdfbe8732f7ec8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 39c4a2aaaf44d7c4346e4de44cfdb59ca0d75e593122342afe875a6eea71d9f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307965"
 ---
 # <a name="com-partitions-concepts"></a>COM + 磁碟分割概念
 

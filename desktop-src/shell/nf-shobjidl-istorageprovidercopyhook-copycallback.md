@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - shobjidl.h
-ms.openlocfilehash: c7df9296f2261e3907702067ca36265095102f34
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 26fe9079e7fdf53809f8c0763fa38f271536f1339d16647936fb141f8d213be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104991842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677976"
 ---
 # <a name="istorageprovidercopyhookcopycallback-method"></a>IStorageProviderCopyHook：： CopyCallback 方法
 
@@ -127,7 +127,7 @@ HRESULT CopyCallback(
 
 ## <a name="remarks"></a>備註
 
-Shell 會針對註冊的同步根目錄下的每個資料夾，呼叫雲端提供者的複製勾點處理常式。 若要註冊雲端資料夾的複製勾點處理常式，請將 **HKEY_LOCAL_MACHINE/software/microsoft/windows/currentversion/explorer/syncrootmanager/{syncrootid}** 機碼底下的 **CopyHook** 值設定為複製攔截物件的 CLSID。
+Shell 會針對註冊的同步根目錄下的每個資料夾，呼叫雲端提供者的複製勾點處理常式。 若要註冊雲端資料夾的複製勾點處理常式，請將 **HKEY_LOCAL_MACHINE/software/microsoft/Windows/CurrentVersion/Explorer/SyncRootManager/{SyncRootId}** 機碼底下的 **CopyHook** 值設定為複製攔截物件的 CLSID。
 
 呼叫 **CopyCallback** 方法時，Shell 會直接初始化 [IStorageProviderCopyHook](nn-shobjidl-istorageprovidercopyhook.md) 介面，而不會先使用 [IShellExtInit](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishellextinit) 介面。
 
@@ -135,7 +135,7 @@ Shell 會針對註冊的同步根目錄下的每個資料夾，呼叫雲端提�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 Insider Preview 組建19624                                |
+| 最低支援的用戶端 | Windows 10Insider Preview 組建19624                                |
 | 標頭                   | shobjidl.h。h   |
 
 ## <a name="see-also"></a>另請參閱

@@ -3,7 +3,7 @@ title: 'SB_GETRECT 訊息 (Commctrl .h) '
 description: 抓取狀態視窗中某部分的周框。
 ms.assetid: 76b8d470-07ae-440b-9bf5-7875b80b0168
 keywords:
-- SB_GETRECT message Windows 控制項
+- SB_GETRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b48808b7bdf9c97fa6b9da53112e505e8cb8e66e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 85d874a5bf115918432bd6f0310a14ed026e0dc2df22da029bfca0be25649821
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168730"
 ---
 # <a name="sb_getrect-message"></a>SB \_ GETRECT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104466232"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

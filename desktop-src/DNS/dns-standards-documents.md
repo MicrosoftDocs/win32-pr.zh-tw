@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統，標準
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 528198b429da4908f688bd56b430979810f1b08e
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7fb93ca884e93c8e6435d89a8f78a8da6d7b88b1e557551c1bf63d6a8fa1e23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103681453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164029"
 ---
 # <a name="dns-standards-documents"></a>DNS 標準檔
 
@@ -40,9 +40,9 @@ ms.locfileid: "103681453"
 -   [RFC 3596](https://www.ietf.org/rfc/rfc3596.txt)：支援 IP 第6版的 DNS 擴充功能
 -   [RFC 3645](https://www.ietf.org/rfc/rfc3645.txt)： DNS 的密碼金鑰交易驗證的一般安全性服務演算法 (GSS-TSIG) 
 
- 
+ 
 
- 
+ 
 
 
 

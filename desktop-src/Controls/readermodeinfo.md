@@ -4,7 +4,7 @@ description: 包含初始化 DoReaderMode 函數所需的資訊。
 ms.assetid: 7b9c73bc-b093-4592-befd-67508fb86fe0
 keywords:
 - READERMODEINFO 結構 Windows 控制項
-- PREADERMODEINFO 結構指標視窗控制項
+- PREADERMODEINFO 結構指標 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2dacf0fc59ef62447ca12b7a470689e13967d687
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 510dc7a763d50b42f06b2510e609e0bc7c3c6f31fa1f4c08393964cef75487fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169118"
 ---
 # <a name="readermodeinfo-structure"></a>READERMODEINFO 結構
 
-\[**READERMODEINFO** 可透過 Windows XP Service Pack 2 (SP2) 來支援。 可能在後續版本中不支援。\]
+\[Windows XP Service Pack 2 (SP2) 可支援 **READERMODEINFO** 。 可能在後續版本中不支援。\]
 
 包含初始化 [**DoReaderMode**](doreadermode.md) 函數所需的資訊。
 
@@ -147,8 +147,8 @@ typedef struct tagReaderModeInfo {
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista、Windows Vista \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>          |
+| 最低支援的用戶端<br/> | Windowsvista，僅 Windows vista \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>          |
 
 
 

@@ -4,12 +4,12 @@ description: 路由表管理員第2版
 ms.assetid: 570321b2-a499-4428-892b-fbd2cc76be4f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f43801434c98c134ff12b1cc4dbd1ae3a0cc9448
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee7247c423b0058b9da50fdee3073a43fcc584445e7507d671842e3888bf1854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787557"
 ---
 # <a name="routing-table-manager-version-2"></a>路由表管理員第2版
 
@@ -19,9 +19,9 @@ ms.locfileid: "104022143"
 -   [使用路由表管理員第2版](using-routing-table-manager-version-2.md)
 -   [路由表管理員第2版參考](routing-table-manager-version-2-reference.md)
 
- 
+ 
 
- 
+ 
 
 
 

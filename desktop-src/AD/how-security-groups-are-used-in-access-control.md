@@ -8,12 +8,12 @@ keywords:
 - 存取控制，使用的安全性群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf7096e32c64fe420ca6625378725ce8e4864beb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4e8e14d4d8c371d07619d93f4a6d06318f91e7ec011a4c4fe6d436074ac8ff94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188129"
 ---
 # <a name="how-security-groups-are-used-in-access-control"></a>如何在存取控制中使用安全性群組
 
@@ -36,9 +36,9 @@ ms.locfileid: "106966171"
 
 服務會使用這個新的存取權杖來評估資源的存取權。 如果存取權杖中的 SID 出現在 DACL 中的任何 Ace 中，則服務會為使用者提供這些 Ace 中指定的許可權。
 
- 
+ 
 
- 
+ 
 
 
 

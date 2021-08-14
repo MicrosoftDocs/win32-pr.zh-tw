@@ -10,12 +10,12 @@ keywords:
 - 轉換外掛程式的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8009146b26b51e8f067a9422a7fa933afdc24ab
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: d8fdb0e1155a5142de0386663db60f6f3cf58b5c608a6becc763cad28428261e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341787"
 ---
 # <a name="conversion-plug-ins-programming-reference"></a>轉換外掛程式程式設計參考
 
@@ -30,18 +30,18 @@ Microsoft Windows Media Player 軟體發展工具組 (SDK) 支援將一個數位
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
+[**Windows Media Player轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

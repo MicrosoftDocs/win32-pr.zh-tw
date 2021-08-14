@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 023deb4d27d5708468df5495c29d31bb5365e9d3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 78c285d8b4a805cf2c6c3d4c9811a6518b81f45cec45e1d5de20a8e5907f0556
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117712145"
 ---
 # <a name="esentdbtimetoonewexception-constructor"></a>EsentDbTimeTooNewException 函式
 

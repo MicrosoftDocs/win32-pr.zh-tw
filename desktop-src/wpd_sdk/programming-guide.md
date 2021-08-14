@@ -4,12 +4,12 @@ description: 此程式設計指南著重于如何使用介面中找到的 WPD �
 ms.assetid: 87777b0b-a7a0-4032-99bb-92b717d3c452
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db13d50942c28cd4937d27a745d61d7a30a01a15
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 98013a985adaf4dca8860304171a0f8681014eaa4e6ab4896ca2ec65aaed7c69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193849"
 ---
 # <a name="wpd-programming-guide"></a>WPD 程式設計指南
 

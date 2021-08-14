@@ -7,16 +7,16 @@ keywords:
 - 在網域系統容器中發佈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf7d1febd91e3540c7bc2002a36d33346820344
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cb86a49bb14bc88d64a723ca9ab289723ff4ac2b9259f112323e19a04497362c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184952"
 ---
 # <a name="publishing-in-a-domain-system-container"></a>在網域系統容器中發佈
 
-網域分割區的系統容器會保存每個網域的操作資訊。 這包括預設的本機安全性原則、檔案連結追蹤、網路會議，以及 Windows 通訊端註冊和解析的容器 (RnR) 和 RPC 名稱服務 (RpcNs) 連接點。 預設會隱藏 [系統] 容器，並提供方便的位置來儲存系統管理員感興趣的物件，而不是終端使用者。
+網域分割區的系統容器會保存每個網域的操作資訊。 這包括預設的本機安全性原則、檔案連結追蹤、網路會議，以及用於 Windows 通訊端註冊和解析的容器 (RnR) 和 RPC 名稱服務 (RpcNs) 連接點。 預設會隱藏 [系統] 容器，並提供方便的位置來儲存系統管理員感興趣的物件，而不是終端使用者。
 
 未系結至單一主機的服務可能會想要在網域分割區的系統容器下建立其 Scp。 此替代方案適用于在多部主機上安裝複本的服務，每個複本都會為整個網域中的用戶端提供相同的服務。 它可讓您在單一容器下將複寫服務的所有物件分組。
 
@@ -27,9 +27,9 @@ ms.locfileid: "103839275"
 
 具有多項產品的廠商可以使用類似的策略，將服務相關的物件群組至所有產品。 在此情況下，您可以使用清楚識別廠商的名稱來建立 **容器** 物件;然後，將每個服務的 **容器** 物件建立為廠商容器的子系。 建立廠商專屬的容器做為系統容器的子系。
 
- 
+ 
 
- 
+ 
 
 
 

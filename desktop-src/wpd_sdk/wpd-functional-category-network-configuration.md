@@ -4,12 +4,12 @@ ms.assetid: c5c93ebf-0072-49c2-a109-a2edb7e1bd8d
 title: WPD_FUNCTIONAL_CATEGORY_NETWORK_CONFIGURATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6018243644cec4b1b83d14a51c153d9d6f5f8963
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c50c87647e206ed8dfd95a2eb4ee6f8833724a1a8a645beefc67be9254030570
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193056"
 ---
 # <a name="wpd_functional_category_network_configuration"></a>WPD \_ 功能 \_ 類別 \_ 網路 \_ 設定
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別網路 \_ 設定 \_ 功能物件會封裝裝置的網路�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 | [\_允許 WPD 資料夾 \_ 內容 \_ 類型 \_](miscellaneous-properties.md)                 | 建議使用。                                                                                                                                           |
 
 

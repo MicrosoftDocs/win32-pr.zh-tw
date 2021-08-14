@@ -4,12 +4,12 @@ ms.assetid: e2198514-c403-4b31-8c8c-0b1c83c4f936
 title: COM + 交易概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 775537128aa0419d02ad3ab614a3ba2ec5eb5b2a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7275dcc10c6496492333a3ef1050135e0be1e5fa1ec2c4efd47691b0abb570bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307598"
 ---
 # <a name="com-transactions-concepts"></a>COM + 交易概念
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 20d033b8b025955e57a9c3ebed00a6d7a92a666e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a8b35c2a31c26259a12638d09c968b90ea42f93c692bf4c24af9dc987a6df3bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341814"
 ---
 # <a name="controlsfastforward-method"></a>FastForward 方法
 
@@ -46,7 +46,7 @@ Controls.fastForward()
 
 ## <a name="remarks"></a>備註
 
-**FastForward** 方法會以正常速度的五倍來播放剪輯。 叫用 **fastForward** 會變更 *設定*。**rate** 屬性為5.0。 如果之後變更了 **速率** ，或呼叫了 **播放** 或 **停止** ，Windows Media Player 將會停止快速轉送。
+**FastForward** 方法會以正常速度的五倍來播放剪輯。 叫用 **fastForward** 會變更 *設定*。**rate** 屬性為5.0。 如果之後變更了 **速率**，或呼叫了 **播放** 或 **停止**，Windows Media Player 將會停止快速轉送。
 
 **FastForward** 方法不適用於即時廣播和特定媒體類型。 若要判斷您是否可以在剪輯中向前快轉，請呼叫 **isAvailable** ( "FastForward" ) 。
 
@@ -96,7 +96,7 @@ Controls.fastForward()
 [**控制項。停止**](controls-stop.md)
 </dt> <dt>
 
-[**設定。費率**](settings-rate.md)
+[**設定。速率**](settings-rate.md)
 </dt> </dl>
 
  

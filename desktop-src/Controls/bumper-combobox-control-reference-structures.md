@@ -4,12 +4,12 @@ description: ComboBox 控制項結構
 ms.assetid: a7e698b7-1b9b-4b41-92f4-b177ef37aa96
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98ab5e90318a4a99b8036b26b6972f2434b99346
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 0c57d342122ee1063d35f382b45e69735cff8b39595cad9f6391b539c62dd842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171859"
 ---
 # <a name="combobox-control-structures"></a>ComboBox 控制項結構
 

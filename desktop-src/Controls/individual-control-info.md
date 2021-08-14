@@ -4,12 +4,12 @@ description: 本章節中的主題會分別討論每個控制項。 每個控制
 ms.assetid: db0bd2d5-b6e6-4e34-a721-ed6272e3e8db
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ee88f40b1a79aa74da6abd09a28d867d57c3076
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 170af339c40f7aba14e55eefe766f4f342a93e75dc8160e1016dfd39f432e0d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170769"
 ---
 # <a name="control-library"></a>控制項程式庫
 

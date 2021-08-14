@@ -1,5 +1,5 @@
 ---
-description: 標準 Windows 映像取得 (WIA) video 驅動程式 (wiavusd.dll) 支援串流處理影片裝置的下列屬性。
+description: 標準 Windows 映像取得 (WIA) 視頻驅動程式 (wiavusd.dll) 支援串流處理影片裝置的下列屬性。
 ms.assetid: 24fa7e02-c409-49ec-b1a9-309f7c95e292
 title: '影片 WIA 裝置屬性常數 (Wiadef .h) '
 ms.topic: reference
@@ -16,19 +16,19 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: f02991cb5c2b8cc15eb89e335ef1e46442c89510
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9652ac72d6e73a9c44d2f4b299823dad9cc566bb1c7c0129af497ea213a6e5d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207366"
 ---
 # <a name="video-wia-device-property-constants"></a>影片 WIA 裝置屬性常數
 
-標準 Windows 映像取得 (WIA) video 驅動程式 (wiavusd.dll) 支援串流處理影片裝置的下列屬性。
+標準 Windows 映像取得 (WIA) 視頻驅動程式 (wiavusd.dll) 支援串流處理影片裝置的下列屬性。
 
 > [!Note]  
-> WIA 不支援 Windows Server 2003、Windows Vista 或更新版本中的影片裝置。 針對這些版本的 Windows，請使用 [DirectShow](/previous-versions//ms783323(v=vs.85)) 從影片取得影像。
+> WIA 不支援 Windows Server 2003、Windows Vista 或更新版本中的影片裝置。 針對這些版本的 Windows，使用[DirectShow](/previous-versions//ms783323(v=vs.85))從影片取得影像。
 
  
 
@@ -51,8 +51,8 @@ ms.locfileid: "104113260"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

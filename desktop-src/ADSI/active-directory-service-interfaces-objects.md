@@ -7,12 +7,12 @@ keywords:
 - 物件 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e356d9b1212b448d16bb6bba081f6141a877b0b
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: f20d75454b840597e1fd2ac0599d72d04acb1ee674f84aff40da64f9886879cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181181"
 ---
 # <a name="active-directory-service-interfaces-objects"></a>Active Directory 服務介面物件
 
@@ -37,10 +37,10 @@ ADSI 物件是代表目錄服務中專案的 COM 物件：電腦、使用者、�
 
 
 
- 
+ 
 
 更複雜的 ADSI 物件可能會公開額外的介面。 例如， [**IADsCollection**](/windows/desktop/api/Iads/nn-iads-iadscollection) 支援管理相同資料類型之目錄元素集合的方法。 [**IADsGroup**](/windows/desktop/api/Iads/nn-iads-iadsgroup) 方法會管理支援 [**IADsMembers**](/windows/desktop/api/Iads/nn-iads-iadsmembers) 介面之物件的特殊大小寫集合。 針對支援的提供者， [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) 介面支援查詢目錄服務的方法。 此外，ADSI 提供的介面代表知名的邏輯和實體專案。 例如，代表使用者的 ADSI 物件支援 [**IADsUser**](/windows/desktop/api/Iads/nn-iads-iadsuser)，代表電腦的支援 [**IADsComputer**](/windows/desktop/api/Iads/nn-iads-iadscomputer)等等。 如需 ADSI 物件的詳細資訊，請參閱 [IADs 和 IDirectoryObject 介面](the-iads-and-idirectoryobject-interfaces.md)。 並非所有提供者都會在所有介面上執行所有介面或所有方法和屬性。 如需詳細資訊，請參閱 [ADSI 參考](adsi-reference.md)。
 
- 
+ 
 
- 
+ 

@@ -3,7 +3,7 @@ title: 'TB_MAPACCELERATOR 訊息 (Commctrl .h) '
 description: 判斷對應至指定快速鍵的按鈕識別碼。
 ms.assetid: 724b593d-39af-4301-b721-0332844677b1
 keywords:
-- TB_MAPACCELERATOR message Windows 控制項
+- TB_MAPACCELERATOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 029584d9e1614a3a135da5ebd3f4f446795fd9ca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f905ccf5ea01e3c06cb87a160a44598c2c4a7790c972f4ee83b245e3ed5c0111
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168082"
 ---
 # <a name="tb_mapaccelerator-message"></a>TB \_ MAPACCELERATOR 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "103686197"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_MAPACCELERATORW** (Unicode) 和 **TB \_ MAPACCELERATORA** (ANSI) <br/>       |
 

@@ -3,7 +3,7 @@ title: 'PBM_SETRANGE 訊息 (Commctrl .h) '
 description: 設定進度列的最小值和最大值，並重新繪製橫條以反映新的範圍。
 ms.assetid: 251eb8c5-bedc-4e2c-90c2-e1626cb00420
 keywords:
-- PBM_SETRANGE message Windows 控制項
+- PBM_SETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9e588170c80378082eab7e419e9425e716b8caf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: eb5dca4e4be30b50627d8583a67801dc5cb246ef65e9cd267e6d7b3ee3ed7869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170195"
 ---
 # <a name="pbm_setrange-message"></a>PBM \_ SETRANGE 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103843928"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

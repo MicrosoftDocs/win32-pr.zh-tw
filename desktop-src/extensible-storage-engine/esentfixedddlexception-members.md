@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101762
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 98b68e35d62676ea7cef23f9fd40da722e38e8d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98a64d1bb3f315c95f2e6832ce8404be01fb196453ff9484b86b250789375119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117710711"
 ---
 # <a name="esentfixedddlexception-members"></a>EsentFixedDDLException 成員
 

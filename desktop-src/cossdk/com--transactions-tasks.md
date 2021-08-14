@@ -4,12 +4,12 @@ ms.assetid: fe4374f1-2452-4316-be57-b866c438404d
 title: COM + 交易工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70aaebd3e788e1ff12e86b7831979f055367fea7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 102b0ec6ae54430be5499c67b5041ee26035eb077e27b1b860377cd728e3e42d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307588"
 ---
 # <a name="com-transactions-tasks"></a>COM + 交易工作
 

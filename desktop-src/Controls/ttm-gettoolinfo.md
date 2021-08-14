@@ -3,7 +3,7 @@ title: 'TTM_GETTOOLINFO 訊息 (Commctrl .h) '
 description: 抓取工具提示控制項維護的工具相關資訊。
 ms.assetid: b94d3b78-2437-4c60-ba46-b3f57cf9c876
 keywords:
-- TTM_GETTOOLINFO message Windows 控制項
+- TTM_GETTOOLINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cc0de37b97be3bec495c8777b2ddd1cc6fc1bd42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77f19243603ab5d2ba62d498a5595528e39b33658c7a8e4aa0638888806684ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166371"
 ---
 # <a name="ttm_gettoolinfo-message"></a>TTM \_ GETTOOLINFO 訊息
 
@@ -95,8 +95,8 @@ HRESULT MyToolTipClass::OffsetTooltip(int xOffset, int yOffset)
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_GETTOOLINFOW** (Unicode) 和 **TTM \_ GETTOOLINFOA** (ANSI) <br/>           |
 

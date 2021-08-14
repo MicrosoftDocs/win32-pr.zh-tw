@@ -3,7 +3,7 @@ title: 'RB_SETCOLORSCHEME 訊息 (Commctrl .h) '
 description: 設定 Rebar 控制項的色彩配置資訊。
 ms.assetid: ddf8f3e4-66b7-4b53-a04e-b4dd372f71c4
 keywords:
-- RB_SETCOLORSCHEME message Windows 控制項
+- RB_SETCOLORSCHEME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b9c7725d3c0bc3f3a7a7a72db16e19626a3c4d2a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ce7715082a371c3632d8accb8fdf60bbac50d8d7d8182732d6a62c2dbb423c34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169274"
 ---
 # <a name="rb_setcolorscheme-message"></a>RB \_ SETCOLORSCHEME 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104508699"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

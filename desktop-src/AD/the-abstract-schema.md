@@ -7,12 +7,12 @@ keywords:
 - 抽象架構 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9123c72cc4cc38eafa77e0ad0c6384940667e54
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b46e4fefd52e786829e051a14714d2fec118b2ad42cdd95afcaa78b098b0f04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182779"
 ---
 # <a name="the-abstract-schema"></a>抽象架構
 
@@ -35,11 +35,11 @@ ms.locfileid: "104020822"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

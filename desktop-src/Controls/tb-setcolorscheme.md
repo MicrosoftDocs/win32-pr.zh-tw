@@ -3,7 +3,7 @@ title: 'TB_SETCOLORSCHEME 訊息 (Commctrl .h) '
 description: 設定工具列控制項的色彩配置資訊。
 ms.assetid: 96cf6464-b760-46af-910f-984e41dbfca5
 keywords:
-- TB_SETCOLORSCHEME message Windows 控制項
+- TB_SETCOLORSCHEME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b4ed278ea31dfa156dcc8a64afdb98a2ae3b938
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 58c6a07c186fd3f5a521719ba0f75f8e468c3868d8ebfaa0595679d48b45089f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167498"
 ---
 # <a name="tb_setcolorscheme-message"></a>TB \_ SETCOLORSCHEME 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "103844264"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

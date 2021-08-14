@@ -7,12 +7,12 @@ keywords:
 - 保護物件不受繼承的許可權 AD 影響
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78e49991cd8a479e05b024c6ea2538783a843025
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 7dcc1067fcfe0d57e2e7aca837b97d73f18b55a41a4f1347ac36224b987918aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185013"
 ---
 # <a name="protecting-objects-from-the-effects-of-inherited-rights"></a>保護物件不受繼承許可權的影響
 
@@ -28,14 +28,14 @@ ms.locfileid: "104023229"
 
 | 旗標                               | 描述                                                                                                                                                                     |
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **已 \_ 保護 SE DACL \_**<br/> | 防止在父容器的 DACL 上設定 Ace，以及目錄階層中父容器上方的任何物件套用至物件 DACL。<br/> |
-| **SE \_ SACL \_ 受保護**<br/> | 防止將 Ace 設定在父容器的 SACL，以及目錄階層中父容器上方的任何物件，而不會套用到物件 SACL。<br/> |
+| **SE \_已 \_ 保護 DACL**<br/> | 防止在父容器的 DACL 上設定 Ace，以及目錄階層中父容器上方的任何物件套用至物件 DACL。<br/> |
+| **SE \_SACL \_ 受保護**<br/> | 防止將 Ace 設定在父容器的 SACL，以及目錄階層中父容器上方的任何物件，而不會套用到物件 SACL。<br/> |
 
 
 
  
 
-請注意，必須要有「 **se \_ dacl \_** 」旗標，才能設定「 **se \_ dacl \_ 受保護** 」，而「必須」有「se **\_ sacl \_** 」來設定「 **se \_ sacl \_ 受保護**」。
+請注意，必須要有 **SE \_ dacl \_ 存在** 旗標，才能將 SE 的 dacl 設定為 **\_ \_ 受保護**，而且必須要有 **SE \_ sacl \_** ，才能設定 **SE 的 \_ sacl \_ 受保護**。
 
  
 

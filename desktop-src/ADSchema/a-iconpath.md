@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: feb9fd51f2ffd268488fe28ee97af7b8e2547200
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3c1663abe113c349ccf8f43677329f6d419d02415b6e7c7978922099abcf84ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385418"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118176680"
 ---
 # <a name="icon-path-attribute"></a>Icon-Path 屬性
 

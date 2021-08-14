@@ -7,18 +7,18 @@ keywords:
 - 還原 Active Directory Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 273d02fd50d6b3bd68a055a6a783566e4ebddcf7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 865389b4ad80ad8c3009a86a881ff4cf291a4fc1b4606e78e8ecd01ceef7c893
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842027"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184291"
 ---
 # <a name="restoring-an-active-directory-server"></a>還原 Active Directory 伺服器
 
 Active Directory 伺服器必須離線還原。 系統必須以目錄服務還原模式重新開機。 在此模式中，作業系統會在沒有 Active Directory Domain Services 的情況下執行，而且所有使用者驗證都會透過登錄中的安全性帳戶管理員 (SAM) 進行。 若要還原 Active Directory Domain Services，請在還原的網域控制站上使用本機系統管理員的認證。
 
-Restore 函數的呼叫端必須具有 **SE \_ 還原 \_ 名稱** 存取權限。 您可以使用 [**DsSetAuthIdentity**](dssetauthidentity.md) 函數來設定用來呼叫目錄備份和還原功能的安全性內容。
+restore 函數的呼叫端必須具有 **SE \_ restore \_ NAME** 存取權限。 您可以使用 [**DsSetAuthIdentity**](dssetauthidentity.md) 函數來設定用來呼叫目錄備份和還原功能的安全性內容。
 
 請注意，當您還原 Active Directory Domain Services 時，您也必須還原其他的系統狀態元件。
 
@@ -38,8 +38,8 @@ Restore 函數的呼叫端必須具有 **SE \_ 還原 \_ 名稱** 存取權限�
 
 在 Windows 2000 或 Windows Server 2003 上執行的電腦（其中包含目錄服務的複本）是網域控制站。
 
-[**DsRestoreRegister**](dsrestoreregister.md)函式會將資料新增到登錄中，該登錄必須存留登錄還原程式，才能讓還原正常運作。 為了確保保留此登錄資料，在呼叫 [**RegReplaceKey**](/windows/desktop/api/winreg/nf-winreg-regreplacekeya)函式之後，請先使用 **DsRestore \*** 函式還原 Active Directory Domain Services，然後再重新開機電腦。 此程式的運作方式是因為 **RegReplaceKey** 不會實際取代登錄區，直到重新開機電腦，並且明確地排除 **DsRestoreRegister** 函式新增的登錄資料，而不是在登錄還原作業期間遭到取代。
+[**DsRestoreRegister**](dsrestoreregister.md)函式會將資料新增到登錄中，該登錄必須存留登錄還原程式，才能讓還原正常運作。 為了確保保留此登錄資料，在呼叫 [_ *RegReplaceKey* *](/windows/desktop/api/winreg/nf-winreg-regreplacekeya)函式之後，請先使用 **DsRestore \** _ 函式還原 Active Directory Domain Services，然後再重新開機電腦。 此程式的運作方式是因為 **RegReplaceKey** 不會實際取代登錄區，直到重新開機電腦，並且明確地排除 **DsRestoreRegister** 函式新增的登錄資料，而不是在登錄還原作業期間遭到取代。
 
- 
+ 
 
- 
+ 

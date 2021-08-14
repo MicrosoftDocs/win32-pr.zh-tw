@@ -7,18 +7,18 @@ keywords:
 - Active Directory 範例 Active Directory、設定和移除 SACL 保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c77cb1da29aa650fe4559c3da27c6a00f59e98
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6c3ed7c32ebdeb7408037e2e3fcff294f0750fb6a8dcd19837ee9154c65f0c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106968275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190150"
 ---
 # <a name="example-code-for-setting-and-removing-sacl-and-dacl-protection"></a>設定和移除 SACL 和 DACL 保護的範例程式碼
 
 本主題包含用來設定和移除 SACL 和 DACL 保護的程式碼範例。
 
-下列 C 和 c + + 程式碼範例會在物件安全描述項的 [**IADsSecurityDescriptor. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods)屬性中，設定和移除 **se \_ DACL \_ protected** 和 **se \_ \_ 受保護** 的專案。
+下列 C 和 c + + 程式碼範例會在物件安全描述項的 [**IADsSecurityDescriptor. Control**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods)屬性中，設定和移除 **\_ \_ 受保護的 SE DACL** 和 **SE \_ SACL \_ 保護** 的元素。
 
 
 ```C++
@@ -131,6 +131,6 @@ HRESULT SetSDInheritProtect(IADs *pObject, long lControl)
 
 
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28178dfd6621593ee60e6e07043be544445cb6e7
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: ce21117dce4daa428f505d7eb6480d9c0f2532ec4398fa369dcf102304701b9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106967778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118176947"
 ---
 # <a name="global-address-list-attribute"></a>全域通訊清單屬性
 

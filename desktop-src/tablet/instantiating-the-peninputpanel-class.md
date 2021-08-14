@@ -4,12 +4,12 @@ ms.assetid: 185dbed4-8e2c-49a5-a1c8-23a9787ae2f0
 title: 具現化 PenInputPanel 類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50daf1f7808eb9dc19449ebee396faf90602ea1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b117895b06fd66e3ec0be18542d43a00d534e7bd3e354c0aee6627c239a6942c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218527"
 ---
 # <a name="instantiating-the-peninputpanel-class"></a>具現化 PenInputPanel 類別
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d822420bf370f0de1a3165d105bba2013ebe9436
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 57af42ef8a1e23ea06f326588095d26ae0b1e71ae710d036d752ebff6ac2d38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104106698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174625"
 ---
 # <a name="largeinteger-syntax"></a>LargeInteger 語法
 

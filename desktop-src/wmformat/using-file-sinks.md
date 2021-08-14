@@ -16,12 +16,12 @@ keywords:
 - 接收、統計資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c7a7f09a08788128719ea80a2a06d339f6398e6
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 1f94bd6698ca30a645957da36cf3b81a84f9d3e7c8ce6c598be2c39f8ac766db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104092583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196171"
 ---
 # <a name="using-file-sinks"></a>使用檔案接收
 
@@ -74,9 +74,9 @@ ms.locfileid: "104092583"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

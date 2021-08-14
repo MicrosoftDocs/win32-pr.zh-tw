@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33b9b7ff25083c2a03d47e32bdac3b4039f9f035
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 05a6936b9ff9340a4789a79312fb1a9929e2d7231b4986bc38444db594f2b532
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106967583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118176994"
 ---
 # <a name="frs-flags-attribute"></a>FRS-Flags 屬性
 
@@ -58,7 +58,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |
@@ -79,7 +79,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |
@@ -100,7 +100,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |
@@ -121,7 +121,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |
@@ -142,7 +142,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |
@@ -163,7 +163,7 @@ FRS 選項旗標。
 | 連結識別碼                | \-                                                                                                                                                                  |
 | MAPI-Id                | \-                                                                                                                                                                  |
 | System-Only            | 否                                                                                                                                                               |
-| 是-單一值       | 對                                                                                                                                                                |
+| 是-單一值       | 是                                                                                                                                                                |
 | 已編制索引             | 否                                                                                                                                                               |
 | 在通用類別目錄中      | 否                                                                                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                                                                                        |

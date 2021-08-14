@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，讀取物件類別的 defaultSecurityDescriptor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e217ae42214c2c07867c2a57427d74fb7636736
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a26204ebe31155363a1be8bf30bd1c0495d16a939b58789f421a0772d6d90a9d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184689"
 ---
 # <a name="reading-the-defaultsecuritydescriptor-for-an-object-class"></a>讀取物件類別的 defaultSecurityDescriptor
 
@@ -25,6 +25,6 @@ ms.locfileid: "104023224"
 
 如需示範如何進行此作業的程式碼範例，請參閱 [閱讀 defaultSecurityDescriptor 的範例程式碼](example-code-for-reading-defaultsecuritydescriptor.md)。
 
- 
+ 
 
- 
+ 

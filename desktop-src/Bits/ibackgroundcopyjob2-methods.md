@@ -4,12 +4,12 @@ description: IBackgroundCopyJob2 介面會公開下列方法。
 ms.assetid: 8F442C80-FBF8-4BAE-9FB0-43657C4F5336
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4bd782e91f331a2bc498245b758ca0ddbdea9c4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4abe20f4f6b7f40bafe0c389ff0ef75c9c4b832ee520e5ea189dca492ba40333
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173510"
 ---
 # <a name="ibackgroundcopyjob2-methods"></a>IBackgroundCopyJob2 方法
 
@@ -26,9 +26,9 @@ ms.locfileid: "103671431"
 -   [**SetNotifyCmdLine 方法**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setnotifycmdline)
 -   [**SetReplyFileName 方法**](/windows/desktop/api/Bits1_5/nf-bits1_5-ibackgroundcopyjob2-setreplyfilename)
 
- 
+ 
 
- 
+ 
 
 
 

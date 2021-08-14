@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 資料查詢的 ISA 運算子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b4c063c99f50a57c8b22a5bbe7040aa3fe96ba5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3b33c0bc4b78101a4b1e6a38997518fec543b9eb49e42b28cbb2500c321f56ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318300"
 ---
 # <a name="isa-operator-for-data-queries"></a>資料查詢的 ISA 運算子
 

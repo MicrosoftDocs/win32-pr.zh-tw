@@ -16,12 +16,12 @@ api_type:
 api_location:
 - Winspool.drv
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: c5175daf0a59ac4231baa1a32772863a0017c45d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7be4efb1de46a960508972b00d113c5a27ab57187c1a89475eebcde69f14d978
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686730"
 ---
 # <a name="enumprinterdrivers-function"></a>EnumPrinterDrivers 函式
 
@@ -60,7 +60,7 @@ BOOL EnumPrinterDrivers(
 *pEnvironment* \[在\]
 </dt> <dd>
 
-以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64、Windows x64 或 Windows NT R4000) 。 如果這個參數為 **Null**，則函式會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。
+以 null 結束的字串指標，指定環境 (例如 Windows x86、Windows IA64、Windows x64 或 Windows NT R4000) 。 如果這個參數為 **Null**，則函式會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。
 
 如果 *pEnvironment* 字串指定 "all"， **EnumPrinterDrivers** 會列舉安裝在指定伺服器上之所有平臺的印表機驅動程式。
 
@@ -140,7 +140,7 @@ BOOL EnumPrinterDrivers(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **EnumPrinterDriversW** (Unicode) 和 **EnumPrinterDriversA** (ANSI) <br/>                           |

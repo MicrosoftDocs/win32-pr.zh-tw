@@ -1,8 +1,8 @@
 ---
-title: 列出所有服務連接點的 VB 腳本
+title: VB列出所有服務連接點的腳本
 ms.assetid: 7a76f872-3e4e-4bb7-8f2d-e30b1246369f
 ms.tgt_platform: multiple
-description: 深入瞭解： VB 腳本列出所有服務連接點
+description: 深入瞭解：列出所有服務連接點的 VB 腳本
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -10,14 +10,14 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e1166afff8147785332db615b916fd3ff35c15ab
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b6872a8a516d7f6a75cd25ddb6970b0830775fb881f0a0f601756021e2264072
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182262"
 ---
-# <a name="vb-script-listing-all-service-connection-points"></a>列出所有服務連接點的 VB 腳本
+# <a name="vb-script-listing-all-service-connection-points"></a>VB列出所有服務連接點的腳本
 
 您可以使用 VB 腳本來管理服務連接點。 下列範例程式碼示範如何列出命令列上所提供之功能變數名稱上的所有服務連接點：
 

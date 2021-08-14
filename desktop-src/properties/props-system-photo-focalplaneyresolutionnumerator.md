@@ -4,18 +4,18 @@ ms.assetid: 4833546a-bc08-4428-baa5-ee53ee7e318c
 title: FocalPlaneYResolutionNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 693f959fda54fb02739e223d2b28857b8bebb495
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 368bf16c86206b888afd94758773e5320799acb4e31e9ae9c562cde7bc5e5423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228981"
 ---
 # <a name="systemphotofocalplaneyresolutionnumerator"></a>FocalPlaneYResolutionNumerator
 
 PKEY \_ 相片 FocalPlaneYResolution 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

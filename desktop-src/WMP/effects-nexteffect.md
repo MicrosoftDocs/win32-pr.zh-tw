@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b84d7ec4d6095ffdac2a0f0592aa3f3e832e68e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 359571dde65c8cb65f422de58667c715cb7a3099e79a443dd64777edbf8767d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339983"
 ---
 # <a name="effectsnexteffect"></a>效果。 nextEffect
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - Scrcons.exe
-ms.openlocfilehash: 43eae14eea445f546f731605c94b38e770b08691
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a69d30511d01fba2df39483d1f76616bfae7c92812ce75989fd0c23558558b33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316202"
 ---
 # <a name="scriptingstandardconsumersetting-class"></a>ScriptingStandardConsumerSetting 類別
 

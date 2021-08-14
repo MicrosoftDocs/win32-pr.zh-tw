@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Fastprox.dll
-ms.openlocfilehash: 6deec7521ceb58a76db3dbf8064ccc444019cb9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 509508d5e1a273dc681cf3c9f645ead1037408d6ecfe5ed666186ba6e2a2c0d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318290"
 ---
 # <a name="iwbemcausalityaccessischildof-method"></a>IWbemCausalityAccess：： IsChildOf 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 348b6d15-e339-4dce-99f3-4d639ee9bf7d
 title: 原生像素格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4df37481399ac8193effc5d8f93aa49050460ee6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 379e67d422ccbd05ef178e67eb25c973e6b5943ef85d22873097f245f8914a23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206336"
 ---
 # <a name="native-pixel-formats-overview"></a>原生像素格式總覽
 
@@ -207,8 +207,8 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 | GUID \_ WICPixelFormat8bppGray            | 1             | 8                | 8              | UINT         |
 | GUID \_ WICPixelFormat16bppGray           | 1             | 16               | 16             | UINT         |
 | GUID \_ WICPixelFormat16bppGrayFixedPoint | 1             | 16               | 16             | FixedPoint   |
-| GUID \_ WICPixelFormat16bppGrayHalf       | 1             | 16               | 16             | Float        |
-| GUID \_ WICPixelFormat32bppGrayFloat      | 1             | 32               | 32             | Float        |
+| GUID \_ WICPixelFormat16bppGrayHalf       | 1             | 16               | 16             | 浮點數        |
+| GUID \_ WICPixelFormat32bppGrayFloat      | 1             | 32               | 32             | 浮點數        |
 | GUID \_ WICPixelFormat32bppGrayFixedPoint | 1             | 32               | 32             | FixedPoint   |
 
 
@@ -228,14 +228,14 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 | GUID \_ WICPixelFormat32bppBGR             | 3             | 8                | 32             | UINT         |
 | GUID \_ WICPixelFormat32bppRGBA            | 4             | 8                | 32             | UINT         |
 | GUID \_ WICPixelFormat32bppBGRA            | 4             | 8                | 32             | UINT         |
-| GUID \_ WICPixelFormat32bppRGBE\*          | 4             | 8                | 32             | Float        |
+| GUID \_ WICPixelFormat32bppRGBE\*          | 4             | 8                | 32             | 浮點數        |
 | GUID \_ WICPixelFormat32bppPRGBA           | 4             | 8                | 32             | UINT         |
 | GUID \_ WICPixelFormat32bppPBGRA           | 4             | 8                | 32             | UINT         |
 | GUID \_ WICPixelFormat48bppRGB             | 3             | 16               | 48             | UINT         |
 | GUID \_ WICPixelFormat48bppBGR             | 3             | 16               | 48             | UINT         |
 | GUID \_ WICPixelFormat48bppRGBFixedPoint   | 3             | 16               | 48             | 固定式        |
 | GUID \_ WICPixelFormat48bppBGRFixedPoint   | 3             | 16               | 48             | 固定式        |
-| GUID \_ WICPixelFormat48bppRGBHalf         | 3             | 16               | 48             | Float        |
+| GUID \_ WICPixelFormat48bppRGBHalf         | 3             | 16               | 48             | 浮點數        |
 | GUID \_ WICPixelFormat64bppRGBA            | 4             | 16               | 64             | UINT         |
 | GUID \_ WICPixelFormat64bppBGRA            | 4             | 16               | 64             | UINT         |
 | GUID \_ WICPixelFormat64bppPRGBA           | 4             | 16               | 64             | UINT         |
@@ -243,12 +243,12 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 | GUID \_ WICPixelFormat64bppRGBFixedPoint   | 3             | 16               | 64             | 固定式        |
 | GUID \_ WICPixelFormat64bppRGBAFixedPoint  | 4             | 16               | 64             | 固定式        |
 | GUID \_ WICPixelFormat64bppBGRAFixedPoint  | 4             | 16               | 64             | 固定式        |
-| GUID \_ WICPixelFormat64bppRGBHalf         | 3             | 16               | 64             | Float        |
-| GUID \_ WICPixelFormat64bppRGBAHalf        | 4             | 16               | 64             | Float        |
+| GUID \_ WICPixelFormat64bppRGBHalf         | 3             | 16               | 64             | 浮點數        |
+| GUID \_ WICPixelFormat64bppRGBAHalf        | 4             | 16               | 64             | 浮點數        |
 | GUID \_ WICPixelFormat96bppRGBFixedPoint   | 3             | 32               | 96             | 固定式        |
-| GUID \_ WICPixelFormat128bppRGBFloat       | 3             | 32               | 128            | Float        |
-| GUID \_ WICPixelFormat128bppRGBAFloat      | 4             | 32               | 128            | Float        |
-| GUID \_ WICPixelFormat128bppPRGBAFloat     | 4             | 32               | 128            | Float        |
+| GUID \_ WICPixelFormat128bppRGBFloat       | 3             | 32               | 128            | 浮點數        |
+| GUID \_ WICPixelFormat128bppRGBAFloat      | 4             | 32               | 128            | 浮點數        |
+| GUID \_ WICPixelFormat128bppPRGBAFloat     | 4             | 32               | 128            | 浮點數        |
 | GUID \_ WICPixelFormat128bppRGBFixedPoint  | 3             | 32               | 128            | 固定式        |
 | GUID \_ WICPixelFormat128bppRGBAFixedPoint | 4             | 32               | 128            | 固定式        |
 
@@ -261,7 +261,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 
  
 
-從 Windows 8 和 [Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)開始，WIC 會提供其他格式，如下表所示。
+從 Windows 8 和[Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)開始，WIC 會提供其他格式，如下表所示。
 
 
 
@@ -371,7 +371,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 
 ## <a name="native-image-formats"></a>原生映射格式
 
-每個 Windows 提供的 WIC 編解碼器都支援 WIC 像素格式的子集。 針對每個編解碼器，支援的解碼格式可能會與支援的編碼格式不同。
+每個 Windows 提供的 wic 編解碼器都支援 wic 像素格式的子集。 針對每個編解碼器，支援的解碼格式可能會與支援的編碼格式不同。
 
 對影像進行解碼時，如果資料以原生方式儲存為不受解碼器支援的像素格式，則會轉換為支援的格式。 若要判斷輸出像素格式，請呼叫 [**IWICBitmapFrameDecode：： GetPixelFormat**](/windows/desktop/api/Wincodec/nf-wincodec-iwicbitmapsource-getpixelformat)。
 
@@ -402,7 +402,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
  
 
 > [!Note]  
-> \_只有 Windows 8、 [Windows 7 的平臺更新和更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)版本才支援 GUID WICPixelFormat32bppBGRA。
+> \_只有 Windows 8、 [Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)和更新版本才支援 GUID WICPixelFormat32bppBGRA。
 >
 > -   若要編碼為此格式，請使用 **EnableV5Header32bppBGRA** 編碼器選項。 BMP 將會以 BITMAPV5HEADER 標頭來撰寫。
 > -   如果檔案有 BITMAPV5HEADER，則會解碼為 GUID \_ WICPixelFormat32bppBGRA。
@@ -506,7 +506,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
  
 
 > [!Note]  
-> \_只有 Windows 8、 [Windows 7 的平臺更新和更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)版本才支援 GUID WICPixelFormat96bppRGBFloat。
+> \_只有 Windows 8、 [Windows 7 的平臺更新](/windows/desktop/direct3darticles/platform-update-for-windows-7)和更新版本才支援 GUID WICPixelFormat96bppRGBFloat。
 
  
 
@@ -586,7 +586,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
  
 
 > [!Note]  
-> DDS Windows 提供的編解碼器支援使用下列 DXGI 格式值編碼的 DDS 檔案 \_ ：
+> dds Windows 提供的編解碼器支援使用下列 DXGI 格式值編碼的 dds 檔案 \_ ：
 
  
 
@@ -607,7 +607,7 @@ GUID \_ WICPixelFormat32bppR10G10B10A2HDR10 格式是 HDR10 (BT. 2020 color spac
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC Guid 和 Clsid](-wic-guids-clsids.md)

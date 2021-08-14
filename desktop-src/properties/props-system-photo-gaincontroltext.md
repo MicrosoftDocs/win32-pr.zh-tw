@@ -4,18 +4,18 @@ ms.assetid: 18fd47dc-b428-4ada-aee5-e696e23c1f26
 title: GainControlText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38edf2bc287bc4abc683f4c3f3abb0c21273e9ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a80f8443a8d78afb91efeb44834a9e6861eb3b0f13b6a2097185413cf5d7b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228722"
 ---
 # <a name="systemphotogaincontroltext"></a>GainControlText
 
 [GainControl](./props-system-photo-gaincontrol.md)的使用者易記形式。 不打算以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

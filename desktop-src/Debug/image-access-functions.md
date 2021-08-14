@@ -4,12 +4,12 @@ ms.assetid: da72af2b-7afe-42fc-80ae-700ac0829356
 title: 影像存取函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bca0022c29b1ba588740201652957198dbcd607d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c6c13aedf26b0395a7819134f72f3277e277a339b5d7b55a73d54594d6febace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162639"
 ---
 # <a name="image-access-functions"></a>影像存取函式
 

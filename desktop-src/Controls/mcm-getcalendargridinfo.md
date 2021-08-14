@@ -3,7 +3,7 @@ title: 'MCM_GETCALENDARGRIDINFO 訊息 (Commctrl .h) '
 description: 取得行事曆方格的相關資訊。
 ms.assetid: 6b385362-f963-4041-bc9f-d2b7a890c9b4
 keywords:
-- MCM_GETCALENDARGRIDINFO message Windows 控制項
+- MCM_GETCALENDARGRIDINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 506f6193ab32d059bb85fa4583441bfbe027f224
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 26365b940b17617b1f00b93697fc78fa759dd2599d3398ccb8d92725159a70cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170165"
 ---
 # <a name="mcm_getcalendargridinfo-message"></a>MCM \_ GETCALENDARGRIDINFO 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103686675"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

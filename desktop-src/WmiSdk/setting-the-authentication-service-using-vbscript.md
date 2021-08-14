@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bd2cf444560aac7ebce96b52d9abaa528bdcaa76
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 837a69df251b5bbb6cc8bef5ac0b882349fde74646ac6ed33149978b8f69ad7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315385"
 ---
 # <a name="setting-the-authentication-service-using-vbscript"></a>使用 VBScript 設定驗證服務
 
