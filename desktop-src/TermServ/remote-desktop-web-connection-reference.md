@@ -1,5 +1,5 @@
 ---
-title: 遠端桌面 ActiveX 控制項介面
+title: 遠端桌面 ActiveX 控制介面
 description: 您可以用來在遠端桌面服務 web 應用程式中建立和部署可編寫腳本之虛擬通道的介面。
 ms.assetid: 8258411e-eef6-4dcf-a7a2-7d04b0ea3744
 ms.tgt_platform: multiple
@@ -8,14 +8,14 @@ keywords:
 - 遠端桌面通訊協定 (RDP) 遠端桌面服務，介面
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a80c80dcf9799efe2eb5609f54142fd0780cfe54
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: feac7c2ab5d836191f5321d87fafc50350f1d5713bf18cb27dbb879aff127271
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988668"
 ---
-# <a name="remote-desktop-activex-control-interfaces"></a>遠端桌面 ActiveX 控制項介面
+# <a name="remote-desktop-activex-control-interfaces"></a>遠端桌面 ActiveX 控制介面
 
 遠端桌面 ActiveX 控制項支援下列可編寫腳本的和 nonscriptable 介面，這些介面會根據繼承階層進行分組。
 
@@ -131,7 +131,7 @@ ms.locfileid: "104315688"
 [**IMsRdpClientAdvancedSettings6**](imsrdpclientadvancedsettings6.md)
 </dt> <dd>
 
-公開管理 advanced ActiveX control 設定的屬性。
+公開管理 advanced ActiveX 控制項設定的屬性。
 
 </dd> <dt>
 
@@ -152,42 +152,42 @@ ms.locfileid: "104315688"
 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md)
 </dt> <dd>
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) 介面。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsTscNonScriptable**](imstscnonscriptable-interface.md) 介面。
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md)
 </dt> <dd>
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md) 介面。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable**](imsrdpclientnonscriptable-interface.md) 介面。
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md)
 </dt> <dd>
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) 介面。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable2**](imsrdpclientnonscriptable2.md) 介面。
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md)
 </dt> <dd>
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) 介面。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable3**](imsrdpclientnonscriptable3.md) 介面。
 
 </dd> <dt>
 
 [**IMsRdpClientNonScriptable5**](imsrdpclientnonscriptable5.md)
 </dt> <dd>
 
-提供存取遠端桌面 ActiveX 控制項上用戶端遠端會話的 nonscriptable 屬性。 衍生自 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) 介面。
+在遠端桌面 ActiveX 控制項上，提供用戶端遠端會話的 nonscriptable 屬性存取。 衍生自 [**IMsRdpClientNonScriptable4**](imsrdpclientnonscriptable4.md) 介面。
 
 </dd> <dt>
 
 [**IMsRdpClientSecuredSettings**](imsrdpclientsecuredsettings-interface.md)
 </dt> <dd>
 
-包含方法，可取得並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項屬性。
+包含方法，可抓取並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項的屬性。
 
 </dd> <dt>
 
@@ -334,7 +334,7 @@ ms.locfileid: "104315688"
 [**IMsTscSecuredSettings**](imstscsecuredsettings-interface.md)
 </dt> <dd>
 
-包含方法，可取得並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項屬性。
+包含方法，可抓取並設定僅限特定 Internet Explorer URL 安全性區域的遠端桌面 ActiveX 控制項的屬性。
 
 </dd> <dt>
 
@@ -364,7 +364,7 @@ ms.locfileid: "104315688"
 
 提供針對遠端桌面通訊協定 (RDP) 應用程式容器用戶端控制項設定連線設定所需的方法。
 
-使用 [ [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)[**設定**](iremotedesktopclient-settings.md) ] 屬性可取得這個介面的指標。
+您可以使用 [**IRemoteDesktopClient**](/windows/win32/api/rdpappcontainerclient/nn-rdpappcontainerclient-iremotedesktopclient)[**設定**](iremotedesktopclient-settings.md)屬性取得這個介面的指標。
 
 </dd> <dt>
 
@@ -409,6 +409,6 @@ ms.locfileid: "104315688"
 [遠端桌面服務參考](terminal-services-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

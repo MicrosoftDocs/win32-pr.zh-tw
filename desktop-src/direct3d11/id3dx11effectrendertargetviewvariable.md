@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c5b20f83639fd973016bbe263d9d21dae7b295c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 645f6253de34c3c4d2306a73f827dca59ae0ce7ce97e33df63edb592b3da651a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045836"
 ---
 # <a name="id3dx11effectrendertargetviewvariable-interface"></a>ID3DX11EffectRenderTargetViewVariable 介面
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101795
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8a9bc9dff34b0eb7422d5d4df1f5ffe13dfebbb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 719801c1e36c46cad4239e488f72be73d9b915ce6af01e7d7c7f1149b7934615
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104556830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973158"
 ---
 # <a name="esentindextuplessecondaryindexonlyexception-methods"></a>EsentIndexTuplesSecondaryIndexOnlyException 方法
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed321b84e9e7bfbeb4dccb4d97219f6be21389c1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2c3c7e6ff41d1b556e224e4c46850c4ba35239199294570ea2ef51ea3a124d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990791"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333762"
 ---
 # <a name="recordingtimemonth-attribute"></a>RecordingTimeMonth 屬性
 

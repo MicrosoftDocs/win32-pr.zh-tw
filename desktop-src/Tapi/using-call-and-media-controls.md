@@ -4,12 +4,12 @@ ms.assetid: bdf0587d-f701-4413-bc7e-04a7e42c4ea4
 title: 使用呼叫和媒體控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6f5e11aaa86f946410ebcebfddbafbb8c29f3e7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 1f1575cbb9f26fb24e15f4adc996b6556c949b5a6970fb3c6f21724e627eb1c4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119335038"
 ---
 # <a name="using-call-and-media-controls"></a>使用呼叫和媒體控制項
 
@@ -27,7 +27,7 @@ ms.locfileid: "106982153"
 
 編譯各種 TAPI 3 應用程式所需的 LIB 檔案清單（3/1/99）。
 
-[提示和秘訣](hints-and-tips.md)
+[提示和提示](hints-and-tips.md)
 
 要避免的一些陷阱。
 

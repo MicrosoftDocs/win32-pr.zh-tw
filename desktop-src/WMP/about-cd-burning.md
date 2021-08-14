@@ -8,22 +8,22 @@ keywords:
 - 物件模型，CD 燒錄
 - Windows Media Player ActiveX 控制項、CD 燒錄
 - ActiveX 控制項，CD 燒錄
-- Windows Media Player 的行動 ActiveX 控制項、CD 燒錄
-- Windows Media Player Mobile、CD 燒錄
+- Windows Media PlayerMobile ActiveX control、CD 燒錄
+- Windows Media Player行動電話、CD 燒錄
 - CD 燒錄，關於
 - 燒錄 Cd，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc921080d02bef6ffbf916fe4d7d1df09f1e8bbc
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: c784765a09b601da2f0ec75434a37f55a75ff7e6ab6d737f7912daab8f197c07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103681546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957138"
 ---
 # <a name="about-cd-burning"></a>關於 CD 燒錄
 
-Windows Media Player 11 SDK 引進了建立 Cd 的新功能。 此進程稱為「 *燒錄*」。
+Windows Media Player 11 SDK 引進了建立 cd 的新功能。 此進程稱為「 *燒錄*」。
 
 若要列舉使用者電腦上的 CD 磁片磁碟機，請使用 **IWMPCdromCollection** 介面。 您可以藉由呼叫 [IWMPCore：： get \_ cdromCollection](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcore-get_cdromcollection)，來取得這個介面的指標。 藉由使用 **count** 和 **item** 方法，您可以逐一查看集合，以取得使用者電腦上每個 CD 光碟機的 **IWMPCdrom** 介面指標。 **IWMPCdrom** 介面代表個別的 CD 光碟機。
 
@@ -35,7 +35,7 @@ Windows Media Player 11 SDK 引進了建立 Cd 的新功能。 此進程稱為�
 
 每次您設定要燒錄的新播放清單，或對現有的燒錄播放清單進行變更時，都必須呼叫 [IWMPCdromBurn：： refreshStatus](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-refreshstatus) 來更新狀態資訊。 這可確保 Windows Media Player 會執行必要的處理，以提供正確的 CD 燒錄操作狀態資訊。
 
-若要指定要燒錄的 CD 類型，請呼叫 [IWMPCdromBurn：:p 的 \_ burnFormat](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat)。 Windows Media Player 可讓您燒錄兩種類型的 Cd：音訊 Cd 和資料 Cd。 [WMPBurnFormat](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat)列舉會定義 CD 類型。
+若要指定要燒錄的 CD 類型，請呼叫 [IWMPCdromBurn：:p 的 \_ burnFormat](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_burnformat)。 Windows Media Player 可讓您燒錄兩種類型的 cd：音訊 cd 和資料 cd。 [WMPBurnFormat](/previous-versions/windows/desktop/api/wmp/ne-wmp-wmpburnformat)列舉會定義 CD 類型。
 
 您可以藉由呼叫 [IWMPCdromBurn：:p 內容卷 \_ 標](/previous-versions/windows/desktop/api/wmp/nf-wmp-iwmpcdromburn-put_label)來指定 CD 的磁片區標籤。
 
@@ -71,9 +71,9 @@ Windows Media Player 11 SDK 引進了建立 Cd 的新功能。 此進程稱為�
 [**暫存屬性**](temporary-attribute.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

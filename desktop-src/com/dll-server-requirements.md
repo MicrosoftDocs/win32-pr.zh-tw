@@ -4,12 +4,12 @@ description: 雖然大部分的 Dll 都可以在代理中執行，但是某些 D
 ms.assetid: f89dabe6-f65f-4d90-ad0e-c680d4b08ba5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae82aa44771d398d80169c56976df7b0e209ea6e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 624b516f4b6c9deb00e3a093bd3531d3453e631450a1e5ec3b0810569580961a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993238"
 ---
 # <a name="dll-server-requirements"></a>DLL 伺服器需求
 
@@ -28,9 +28,9 @@ DLL 伺服器只會載入至在適當的安全性內容中執行的代理程式�
 [DLL 代理](dll-surrogates.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

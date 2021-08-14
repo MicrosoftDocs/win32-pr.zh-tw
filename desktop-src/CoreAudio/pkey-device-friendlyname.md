@@ -4,12 +4,12 @@ ms.assetid: 3ccd6a78-8bc3-4a46-8f11-7c2ae8a23c63
 title: 'PKEY_Device_FriendlyName (Functiondiscoverykeys \_ devpkey .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab8b8f30e04ae66356fb0910e3767d74b7b697a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 148a9d7f87b32b7175aa794f769d2fa67b42c86c44e8cc7bf773d3fa6b09d106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103846952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406424"
 ---
 # <a name="pkey_device_friendlyname"></a>PKEY \_ 裝置 \_ FriendlyName
 
@@ -25,8 +25,8 @@ ms.locfileid: "103846952"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Functiondiscoverykeys \_ devpkey。h</dt> </dl> |
 
 

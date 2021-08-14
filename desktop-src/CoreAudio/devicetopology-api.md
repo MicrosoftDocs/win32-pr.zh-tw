@@ -5,16 +5,16 @@ title: DeviceTopology API
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: project-verbatim
-ms.openlocfilehash: 472c02cd59ca0cadd922cbe398a768c97cfab73a
-ms.sourcegitcommit: af120ad5c30da2fc5eb717ca2a1c4c45878efd71
+ms.openlocfilehash: 3b79def9f1cb1f5ec9342074b813e50993cbc37e7a7af2a9e0b577c730156247
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/20/2021
-ms.locfileid: "106988633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406753"
 ---
 # <a name="devicetopology-api"></a>DeviceTopology API
 
-請參閱 [Microsoft high quality voice capture 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/audio/aecmicarray)。
+請參閱[Microsoft 高品質語音捕獲 DMO 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/multimedia/audio/aecmicarray)。
 
 DeviceTopology API 可讓用戶端應用程式能夠跨越音訊轉譯和捕獲裝置的功能性硬體拓撲。 透過 DeviceTopology API 中的介面和方法，用戶端可以探索功能次單元連接 (例如，沿著 [音訊端點裝置](audio-endpoint-devices.md)的資料路徑中的音量控制) 。 用戶端可以跨越兩個音訊介面卡裝置和音訊端點裝置的內部拓撲，以及跨連線將一部裝置連結至另一個裝置的步驟。 如需詳細資訊，請參閱 [裝置拓撲](device-topologies.md)。
 

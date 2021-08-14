@@ -10,12 +10,12 @@ keywords:
 - 元素，播放者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a50eb4383eab279c28b75467a9ed803501e7720b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8bef2e7758a0146ae6197d17dc3790011a758f9d2fa4e3d54af9461a8b870c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338114"
 ---
 # <a name="player-element"></a>PLAYER 元素
 
@@ -31,7 +31,7 @@ ms.locfileid: "104092291"
 
 
 
- 
+ 
 
 **Player** 元素可以針對從 **PLAYER** 物件引發的下列事件，執行事件處理常式。
 
@@ -69,7 +69,7 @@ ms.locfileid: "104092291"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -81,9 +81,9 @@ ms.locfileid: "104092291"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

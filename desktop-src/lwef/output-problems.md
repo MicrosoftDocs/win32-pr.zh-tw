@@ -4,16 +4,16 @@ description: 輸出問題
 ms.assetid: 45423b7e-f648-408c-9cff-f7cf1affc42a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d909052feb2463637a8eab6343353f0af617c06
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 2f19afb705e1d71b3b47bc44c35a51cb83029932287c582b0481ff6a5b078049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104314394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961048"
 ---
 # <a name="output-problems"></a>輸出問題
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ### <a name="the-character-leaves-images-or-trails-behind-when-it-moves"></a>字元會在移動時離開影像或軌跡。
 
@@ -48,29 +48,29 @@ ms.locfileid: "104314394"
 
 發生這種情況時， (或應用程式) 嘗試要求特定的文字轉換語音 (TTS) 引擎。 未安裝 Speechapi.dll。
 
-### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>語音引擎似乎不會在 Windows XP 中使用 Microsoft Agent？
+### <a name="the-speech-engines-dont-seem-to-work-with-microsoft-agent-in-windows-xp"></a>在 Windows XP 中，語音引擎似乎不會使用 Microsoft Agent？
 
-Microsoft 代理程式使用 SAPI 4.0 來提供語音服務。 不過，Windows XP 現在隨附于 SAPI 5.0，這不會為其前身提供回溯相容性支援。 幸運的是，在相同的 Windows XP 電腦上，也可以同時存在 SAPI 4.0 和 SAPI 5.0。
+Microsoft 代理程式使用 SAPI 4.0 來提供語音服務。 Windows不過，XP 現在隨附于 SAPI 5.0，這不會為其前身提供回溯相容性支援。 幸運的是，在相同 Windows XP 電腦上，也可以同時存在 sapi 4.0 和 sapi 5.0。
 
-若要讓語音引擎可搭配 Windows XP 中的 Microsoft 代理程式使用，請先安裝 [SAPI 4.0 執行時間二進位](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe)檔，然後安裝特定的語音引擎。
+若要讓語音引擎可與 Windows XP 中的 Microsoft 代理程式搭配使用，請先安裝[SAPI 4.0 執行時間二進位](https://activex.microsoft.com/activex/controls/sapi/spchapi.exe)檔，然後安裝特定的語音引擎。
 
-### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>在升級到 Windows XP 之前，用來與 Microsoft 代理程式搭配使用的語音引擎。 發生什麼事？
+### <a name="the-speech-engines-used-to-work-with-microsoft-agent-until-i-upgraded-to-windows-xp-what-happened"></a>在升級至 Windows XP 之前，用來與 Microsoft 代理程式搭配使用的語音引擎。 發生什麼事？
 
-請參閱先前的問題和解答。 Windows XP 的升級程式可能已經移除電腦上現有的 SAPI 4.0 支援。 升級至 Windows XP 之後，請重新安裝 SAPI 4.0 runtime 和 SAPI 4.0 語音引擎。
+請參閱先前的問題和解答。 Windows XP 的升級程式可能已經移除電腦上現有的 SAPI 4.0 支援。 請在升級至 Windows XP 之後，再重新安裝 sapi 4.0 runtime 和 sapi 4.0 語音引擎。
 
-### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>我將 TTS3000 的文字轉換語音引擎安裝到執行 Windows XP (或 Windows 2000) 的電腦上，並據此正確編輯我的程式設計。 當我或其他本機系統管理員登入時，Microsoft 代理程式字元會使用這些 TTS3000 的文字轉換語音引擎來說語音，而不是在 *沒有系統管理員許可權* 的其他使用者登入此電腦時。 在 Windows 98 和 Windows Me 上，這些 TTS3000 的文字轉換語音引擎可針對這兩組使用者正常運作。 我該怎麼辦？
+### <a name="i-installed-the-tts3000-text-to-speech-engines-onto-my-computer-that-runs-windows-xp-or-windows-2000-and-correctly-edited-my-programming-accordingly-for-their-use-the-microsoft-agent-characters-speak-audibly-using-these-tts3000-text-to-speech-engines-when-i-or-other-local-administrators-are-logged-in-but-not-when-other-users-without-administrator-privileges-are-logged-into-this-computer-on-windows-98-and-windows-me-these-tts3000-text-to-speech-engines-work-correctly-for-both-sets-of-users-how-can-i-fix-this"></a>我已將 TTS3000 的文字轉換語音引擎安裝 Windows XP (或 Windows 2000) ，並根據其用途正確地編輯我的程式設計。 當我或其他本機系統管理員登入時，Microsoft 代理程式字元會使用這些 TTS3000 的文字轉換語音引擎來說語音，而不是在 *沒有系統管理員許可權* 的其他使用者登入此電腦時。 在 Windows 98 和 Windows Me 上，這些 TTS3000 的文字轉換語音引擎都能針對這兩組使用者正常運作。 我該怎麼辦？
 
 您必須為 TTS3000 文字轉換語音引擎的某些登錄機碼設定安全性許可權，才能讓使用者帳戶在沒有系統管理員許可權的情況下使用。 您可以使用作業系統的登錄編輯程式來完成這項作業。
 
-### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>我依照上述問題所述之問題的解決方案，來說明此程式。 如此一來，當 *沒有系統管理員許可權* 的使用者登入 windows XP (或 windows 2000) 電腦時，Microsoft 代理程式字元就可以使用這些 TTS3000 的文字轉換語音引擎來說語音。 接下來幾個月，這些相同的 TTS3000 文字轉換語音引擎已停止運作。 發生什麼事？
+### <a name="i-followed-the-procedure-described-as-a-solution-to-the-problem-stated-in-the-previous-question-this-worked-fine-so-that-the-microsoft-agent-characters-could-speak-audibly-using-these-tts3000-text-to-speech-engines-when-users-without-administrator-privileges-were-logged-into-the-windows-xp-or-windows-2000-computer-now-months-later-these-same-tts3000-text-to-speech-engines-have-stopped-working-again-what-happened"></a>我依照上述問題所述之問題的解決方案，來說明此程式。 如此一來，當 *沒有系統管理員許可權* 的使用者登入 Windows XP (或 Windows 2000) 電腦時，Microsoft 代理程式字元就可以使用這些 TTS3000 的文字轉換語音引擎來說語音。 接下來幾個月，這些相同的 TTS3000 文字轉換語音引擎已停止運作。 發生什麼事？
 
 當您遵循先前問題所提供的說明程式時，這會提供非系統管理員的使用者帳戶，並具備所需登錄機碼的「完全控制」許可權。 其中一個使用者可能已故意或不知不覺地編輯這些值、再次變更許可權，或甚至完全刪除登錄機碼。
 
 檢查這些登錄機碼及其許可權是否已編輯、刪除，或自之後變更。 如有必要，請再次變更這些登錄機碼及其許可權，或重新安裝 TTS3000 文字轉語音。
 
- 
+ 
 
- 
+ 
 
 
 

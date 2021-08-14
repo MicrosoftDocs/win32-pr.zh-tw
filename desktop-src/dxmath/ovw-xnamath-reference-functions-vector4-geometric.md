@@ -4,12 +4,12 @@ ms.assetid: 40cf28ab-aa5a-396d-2f9e-2206651966af
 title: DirectXMath 程式庫4D 向量幾何函數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36bc6ee08abe90ece0a0e0a02aa2a4c2fb549096
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e6c4cd1dc40255fc77d668287c2d06ea288707d32e0d66ca20bd12a378c7cd7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979188"
 ---
 # <a name="directxmath-library-4d-vector-geometric-functions"></a>DirectXMath 程式庫4D 向量幾何函數
 

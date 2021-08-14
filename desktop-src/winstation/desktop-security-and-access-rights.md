@@ -4,12 +4,12 @@ description: 安全性可讓您控制對桌面物件的存取。 如需安全性
 ms.assetid: 6512d128-3b0c-4ba7-8709-2fd225389a40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d18b48e0b80dc39ea1b3f65a77acb615c4cb8c7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1805a9b5b3db70bf496d467b774dc7c959030b43d6f89d40aabd0336540b7e56
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375960"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346688"
 ---
 # <a name="desktop-security-and-access-rights"></a>桌面安全性與存取權限
 
@@ -33,13 +33,13 @@ ms.locfileid: "104375960"
 
 
 
- 
+ 
 
 下表列出特定物件的存取權限。
 
 
 
-| 存取權限                       | Description                                                                                 |
+| 存取權限                       | 描述                                                                                 |
 |------------------------------------|---------------------------------------------------------------------------------------------|
 | DESKTOP \_ CREATEMENU (0x0004L)       | 在桌面上建立功能表所需。                                                   |
 | 桌上型電腦 \_ CREATEWINDOW (0x0002L)     | 需要在桌面上建立視窗。                                                 |
@@ -53,7 +53,7 @@ ms.locfileid: "104375960"
 
 
 
- 
+ 
 
 以下是使用者登入會話的互動式視窗工作站中包含的桌面物件 [一般存取權限](/windows/desktop/SecAuthZ/generic-access-rights) 。
 
@@ -63,7 +63,7 @@ ms.locfileid: "104375960"
 <thead>
 <tr class="header">
 <th>存取權限</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -110,10 +110,10 @@ STANDARD_RIGHTS_REQUIRED<br />
 
 
 
- 
+ 
 
 \_ \_ 如果您想要讀取或寫入物件的 SACL，您可以向桌面物件要求存取系統安全性存取權。 如需詳細資訊，請參閱 (Acl) 和[SACL 訪問](/windows/desktop/SecAuthZ/sacl-access-right)許可權[的存取控制清單](/windows/desktop/SecAuthZ/access-control-lists)。
 
- 
+ 
 
- 
+ 

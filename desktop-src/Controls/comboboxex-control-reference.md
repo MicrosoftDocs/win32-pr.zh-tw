@@ -4,12 +4,12 @@ description: 本章節包含與 ComboBoxEx 控制項搭配使用之程式設計�
 ms.assetid: vs|controls|~\controls\comboex\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d5a926ccf2f9f5b5bb68e040731d6b9d8e37ee8
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ded6ff945424f63baaf0063ce5d8897f84883d5063989aa6c7a9fb1a4f76a704
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413461"
 ---
 # <a name="comboboxex-control"></a>ComboBoxEx 控制項
 

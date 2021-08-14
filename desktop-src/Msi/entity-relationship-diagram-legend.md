@@ -4,12 +4,12 @@ ms.assetid: a72d9b7c-e1ed-422c-a5d2-b19060c72487
 title: 實體關聯性圖表圖例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 216ab8ce79821a811f4da766979b6cb590eacf15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c4c8cec380eb3cae0234c83e338891c2fec37e6b36fbcc81e57a2ae95968205
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378159"
 ---
 # <a name="entity-relationship-diagram-legend"></a>實體關聯性圖表圖例
 

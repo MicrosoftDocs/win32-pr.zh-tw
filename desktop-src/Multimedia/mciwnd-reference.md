@@ -9,12 +9,12 @@ keywords:
 - MCIWnd 參考，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76333f38a5dec3edaadcae69777703ebea61296f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03249d5e0f0a0f4fef8110d878021437f7aee667085a0720a86de77c8cbdfe49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374356"
 ---
 # <a name="mciwnd-reference"></a>MCIWnd 參考
 
@@ -147,9 +147,9 @@ ms.locfileid: "104462116"
 [MCIWnd 視窗類別](mciwnd-window-class.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

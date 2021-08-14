@@ -18,12 +18,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8af938038d2bc7000d80268fb4cb00941f6b282b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f33111bc7dc1acdf5ec12ba81b91b9ec37d7b9994c1af3821c0997562f49e81a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928894"
 ---
 # <a name="interface-registration-flags"></a>介面註冊旗標
 
@@ -52,7 +52,7 @@ ms.locfileid: "104105701"
 <td style="text-align: left;">註冊這個介面旗標時，RPC 執行時間會叫用所有呼叫的已註冊安全性回呼，而不論身分識別、通訊協定順序或用戶端的驗證層級為何。<br/>
 <blockquote>
 [!Note]<br />
-從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供此旗標。 如果未設定此旗標，RPC 會在所有未經驗證的呼叫到達安全性回呼之前自動進行篩選。
+此旗標從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供。 如果未設定此旗標，RPC 會在所有未經驗證的呼叫到達安全性回呼之前自動進行篩選。
 </blockquote>
 <br/></td>
 </tr>
@@ -61,7 +61,7 @@ ms.locfileid: "104105701"
 <td style="text-align: left;">註冊這個介面旗標時，RPC 執行時間會拒絕遠端用戶端所發出的呼叫。 使用 ncadg_ * 和 ncacn_ * 通訊協定序列的所有本機呼叫也會被拒絕，但 ncacn_np 除外。 RPC 只在呼叫不是來自 SRV 時，才允許 ncacn_NP 呼叫。 一律會處理來自 ncalrpc 的呼叫。<br/>
 <blockquote>
 [!Note]<br />
-從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供此旗標。
+此旗標從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供。
 </blockquote>
 <br/></td>
 </tr>
@@ -79,14 +79,14 @@ ms.locfileid: "104105701"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="RPC_IF_ALLOW_SECURE_ONLY"></span><span id="rpc_if_allow_secure_only"></span><dl> <dt><strong>RPC_IF_ALLOW_SECURE_ONLY</strong></dt> </dl></td>
-<td style="text-align: left;">限制使用高於 RPC_C_AUTHN_LEVEL_NONE 的授權等級之用戶端的連接。 指定這個旗標可讓用戶端在 <strong>Null</strong> 會話上進行。 在 Windows XP 與 Windows Server 2003 上，不允許這類用戶端。 RPC_IF_ALLOW_SECURE_ONLY 測試失敗的用戶端會收到 RPC_S_ACCESS_DENIED 錯誤。 使用 RPC_IF_ALLOW_SECURE_ONLY 旗標並不代表或保證呼叫使用者的部分具有高階許可權。 RPC 只會檢查使用者是否擁有有效的認證;呼叫的使用者可能使用 guest 帳戶或其他低許可權帳戶。 使用 RPC_IF_ALLOW_SECURE_ONLY 時，請勿採用高許可權。<br/> <strong>Windows NT 4.0 和 Windows Me/98/95：  </strong><br/></td>
+<td style="text-align: left;">限制使用高於 RPC_C_AUTHN_LEVEL_NONE 的授權等級之用戶端的連接。 指定這個旗標可讓用戶端在 <strong>Null</strong> 會話上進行。 在 Windows XP 和 Windows Server 2003 上，不允許這類用戶端。 RPC_IF_ALLOW_SECURE_ONLY 測試失敗的用戶端會收到 RPC_S_ACCESS_DENIED 錯誤。 使用 RPC_IF_ALLOW_SECURE_ONLY 旗標並不代表或保證呼叫使用者的部分具有高階許可權。 RPC 只會檢查使用者是否擁有有效的認證;呼叫的使用者可能使用 guest 帳戶或其他低許可權帳戶。 使用 RPC_IF_ALLOW_SECURE_ONLY 時，請勿採用高許可權。<br/> <strong>Windows NT 4.0 和 Windows Me/98/95：</strong><br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="RPC_IF_SEC_NO_CACHE"></span><span id="rpc_if_sec_no_cache"></span><dl> <dt><strong>RPC_IF_SEC_NO_CACHE</strong></dt> </dl></td>
 <td style="text-align: left;">停用安全性回呼快取，針對指定介面上的每個 RPC 呼叫強制執行安全性回呼。<br/>
 <blockquote>
 [!Note]<br />
-從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供此旗標。
+此旗標從 Windows XP SP2 和 Windows Server 2003 SP1 開始提供。
 </blockquote>
 <br/></td>
 </tr>

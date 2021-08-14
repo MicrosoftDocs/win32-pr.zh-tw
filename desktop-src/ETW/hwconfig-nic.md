@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: df3897c67ed65eeec5ace49dac1088ca35223a35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1d9b82f8a97c1ca47734b5bb0a1db09167510978c53f86870df01f2acc59b2ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394722"
 ---
 # <a name="hwconfig_nic-class"></a>HWConfig \_ NIC 類別
 
@@ -70,7 +70,7 @@ NICName
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                   |
 
 

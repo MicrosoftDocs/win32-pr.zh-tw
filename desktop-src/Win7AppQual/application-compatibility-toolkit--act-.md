@@ -4,12 +4,12 @@ ms.assetid: 9e288a0e-3978-4fd6-b3a7-b36c1bb2b18b
 title: '應用程式相容性工具組 (ACT) '
 ms.topic: article
 ms.date: 06/12/2020
-ms.openlocfilehash: 4dd332ed30ef85a427d3301b2ffe6ba0e7acc1a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: db71cbd18baefcc1218dc5aeba5869a1e509639e528bc67773304f6395609141
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330091"
 ---
 # <a name="application-compatibility-toolkit-act"></a>應用程式相容性工具組 (ACT) 
 
@@ -18,10 +18,10 @@ ms.locfileid: "103945299"
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
-**用戶端：** Windows XP \| Windows Vista windows \| 7  
+**用戶端：** Windows XP \| Windows Vista \| Windows 7  
 
 
-**伺服器：** Windows Server 2003 \| Windows server 2008 \| windows Server 2008 R2  
+**伺服器：** Windows server 2003 \| Windows server 2008 \| Windows server 2008 R2  
 
 
 ## <a name="description"></a>Description
@@ -39,7 +39,7 @@ Microsoft 應用程式相容性工具組 (ACT) 是一種生命週期管理工具
 -   使用篩選的報告排定應用程式相容性工作的優先順序
 -   新增和管理企業運算環境的問題和解決方案
 -   將自動化緩和措施部署至已知的相容性問題
--   從 Microsoft 相容性交換傳送和接收相容性資訊
+-   從 Microsoft 相容性 Exchange 傳送和接收相容性資訊
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 

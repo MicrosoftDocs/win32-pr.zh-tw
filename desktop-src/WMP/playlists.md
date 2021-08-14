@@ -6,26 +6,26 @@ keywords:
 - Windows Media Player，播放清單
 - Windows Media Player 物件模型，播放清單
 - 物件模型，播放清單
-- Windows Media Player ActiveX 控制項，播放清單
+- Windows Media Player ActiveX 控制項、播放清單
 - ActiveX 控制項，播放清單
-- Windows Media Player 的行動 ActiveX 控制項、播放清單
-- Windows Media Player 行動裝置、播放清單
+- Windows Media Player行動 ActiveX 控制項、播放清單
+- Windows Media Player行動裝置、播放清單
 - 播放清單，遷移
-- Windows Media 中繼檔播放清單，遷移
+- Windows媒體中繼檔播放清單，遷移
 - 中繼檔播放清單，遷移
 - 遷移指南，播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 124c07a6bd3aec0bebd235678e9fa8a5f069ec73
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bccdd98789de6c8d4faa06882376967298646febabd790067710dc4f460ba65b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334471"
 ---
 # <a name="playlists"></a>播放清單
 
-Windows Media Player 6.4 ActiveX 控制項物件模型包含四種方法，以及一個用於處理 Windows Media 中繼檔播放清單的屬性：
+Windows Media Player 6.4 ActiveX 控制項物件模型包含四種方法，以及使用 Windows Media 中繼檔播放清單的一個屬性：
 
 -   *Player6*。**GetCurrentEntry**
 -   *Player6*。**SetCurrentEntry**
@@ -40,7 +40,7 @@ Windows Media Player 7 引進了「媒體媒體櫃」。 程式庫可讓使用�
 > [!Note]  
 > 基於安全性理由，使用者必須先授與程式庫的存取權限，您的程式才能操作其內容。 只能透過 Windows Media Player 9 系列或更新版本的物件模型來要求和授與存取權限。 如需存取權限的詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
- 
+ 
 
 Windows Media Player 7 或更新版本的物件模型包含處理播放清單的三個物件。 **PlaylistCollection** 物件提供組織播放清單的功能;它代表使用者程式庫中的整個播放清單集合。 **PlaylistArray** 物件提供一種方式，可讓您使用索引編號從 **PlaylistCollection** 物件取出特定播放清單;其中兩個 **PlaylistCollection** 物件方法會取出 **PlaylistArray** 物件。 **播放清單** 物件提供操作單一播放清單中包含之媒體專案所需的屬性和方法。
 
@@ -65,7 +65,7 @@ WMP9.currentPlaylist = pl;
 
 您經常會想要使用目前的播放清單。 雖然您可以使用數個播放清單物件，但 *播放* 程式只能抓取一個物件。**currentPlaylist** 屬性（在任何指定時間）： Windows Media Player 正在處理的屬性。
 
-當 Windows Media Player 7 或更新版本播放副檔名為 .asx 的 Windows Media 中繼檔時，它會先建立 **播放清單** 物件。 接下來，它會以 .asx 播放清單中的資訊來填滿物件，然後將該 **播放** 清單物件放在目前的播放清單中。 這表示您可以使用與 **播放清單** 物件相關聯的屬性和方法來操作 .asx 播放清單，就像處理文件庫中的播放清單一樣。 例如，若要使用6.4 版物件模型取出 .asx 播放清單中的專案數，您可以使用 *Player6*。**EntryCount** 屬性：
+當 Windows Media Player 7 或更新版本播放副檔名為 .asx 的 Windows 媒體中繼檔時，它會先建立 **播放清單** 物件。 接下來，它會以 .asx 播放清單中的資訊來填滿物件，然後將該 **播放** 清單物件放在目前的播放清單中。 這表示您可以使用與 **播放清單** 物件相關聯的屬性和方法來操作 .asx 播放清單，就像處理文件庫中的播放清單一樣。 例如，若要使用6.4 版物件模型取出 .asx 播放清單中的專案數，您可以使用 *Player6*。**EntryCount** 屬性：
 
 
 ```C++
@@ -179,7 +179,7 @@ return false;
 
 
 
-Windows Media 中繼檔可以包含自訂參數元素，您可以使用標記來指定這些專案 **<PARAM>** 。 使用6.4 版物件模型時，您可以使用 *Player6* 來取出特定參數的名稱。**GetMediaParameterName** 方法。 下列 JScript 範例會在 .asx 播放清單的第一個專案中，捕獲第一個參數的名稱：
+Windows媒體中繼檔可以包含自訂參數元素，您可以使用標記來指定這些專案 **<PARAM>** 。 使用6.4 版物件模型時，您可以使用 *Player6* 來取出特定參數的名稱。**GetMediaParameterName** 方法。 下列 JScript 範例會在 .asx 播放清單的第一個專案中，捕獲第一個參數的名稱：
 
 
 ```C++
@@ -223,7 +223,7 @@ alert(attname + ": " + attval);
 
 您可以使用 *PlaylistCollection*。將 .asx 播放清單新增至程式庫的 **importPlaylist** 方法。 匯入之後，中繼檔播放清單會變成程式庫播放清單，因此您可以使用所有屬性和方法來操作。 使用者必須授與程式庫的完整存取權限，您的應用程式才能使用 **importPlaylist** 方法。
 
-您可以使用 *PlaylistCollection*。**getByName** 以測試播放清單是否存在。 這個方法一律會傳回有效的 **PlaylistArray** 物件。 如果取出的播放清單陣列只包含一個播放清單，則程式庫中會有該名稱的播放清單。 否則播放清單陣列將不會包含播放清單物件;這表示媒體櫃中沒有播放清單，並將名稱做為引數傳遞至 **getByName** 方法。 下列 JScript 範例會示範：
+您可以使用 *PlaylistCollection*。**getByName** 以測試播放清單是否存在。 這個方法一律會傳回有效的 **PlaylistArray** 物件。 如果取出的播放清單陣列只包含一個播放清單，則程式庫中會有該名稱的播放清單。 否則播放清單陣列將不會包含播放清單物件;這表示媒體櫃中沒有播放清單，並將名稱做為引數傳遞至 **getByName** 方法。 下列 JScript 範例示範：
 
 
 ```C++
@@ -266,9 +266,9 @@ if (!plarray.count)
 [**播放清單物件**](playlist-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

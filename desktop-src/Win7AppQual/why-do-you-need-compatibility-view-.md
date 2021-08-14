@@ -4,12 +4,12 @@ ms.assetid: 5B8D3A76-F30B-4F17-9257-0B6ED7F2D753
 title: 為什麼需要相容性檢視？
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9991e9dc0c2edcd66ae6655c094f17b240be985a
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5653ae72b3cbf3c21bd2458c1561c1d8823f2b883711e2c3890c16f792254b1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118328654"
 ---
 # <a name="why-do-you-need-compatibility-view"></a>為什麼需要相容性檢視？
 
@@ -17,9 +17,9 @@ ms.locfileid: "108113376"
 
 ![網址列旁的中斷頁面圖示圖例](images/iecompatview.png)
 
-如果使用者按一下此圖示，Windows Internet Explorer 8 會切換轉譯模式，並立即重載頁面。
+如果使用者按一下此圖示，Windows Internet Explorer 8 切換轉譯模式，並立即重載頁面。
 
-使用者不一定會看到這個圖示。 它是次要解決方案，而不是主要的應用程式相容性機制。 只有當相容性檢視的變更有意義時（例如當使用者流覽標準模式頁面時），Windows Internet Explorer 才會顯示此圖示。 在所有其他情況下，例如當使用者查看 [其他] 模式頁面或 [view 近端內部網路] 區域網站時，不會出現此圖示。 如需相容性檢視的詳細資訊，以及出現圖示時，請參閱 [相容性檢視簡介](/archive/blogs/ie/)。
+使用者不一定會看到這個圖示。 它是次要解決方案，而不是主要的應用程式相容性機制。 WindowsInternet Explorer 只有在相容性檢視有意義時，才會顯示此圖示，例如，當使用者流覽標準模式頁面時。 在所有其他情況下，例如當使用者查看 [其他] 模式頁面或 [view 近端內部網路] 區域網站時，不會出現此圖示。 如需相容性檢視的詳細資訊，以及出現圖示時，請參閱 [相容性檢視簡介](/archive/blogs/ie/)。
 
 ## <a name="related-topics"></a>相關主題
 

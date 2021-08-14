@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC，描述，資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea859e2d5c160048d79e3c371b47af2bc55e0a65
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae47746119f4c1b22bc066075ed484ef836fa6a68ee103e06975018a6ae49012
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924844"
 ---
 # <a name="strong-typing"></a>強型別
 
@@ -37,9 +37,9 @@ C 是弱型別語言，也就是，編譯器允許在不同類型的變數之間
 -   [三種指標類型](three-pointer-types.md)
 -   [類型屬性](type-attributes.md)
 
- 
+ 
 
- 
+ 
 
 
 

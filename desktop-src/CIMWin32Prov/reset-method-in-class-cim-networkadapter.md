@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4159a4e3232b4cd709848df178d2238b409996a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ab45de17062ee60fc0776ea0d9f2c3dfb9ae3bad254ce815a119d67feb9897de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418988"
 ---
 # <a name="reset-method-of-the-cim_networkadapter-class"></a>CIM NetworkAdapter 類別的 Reset 方法 \_
 

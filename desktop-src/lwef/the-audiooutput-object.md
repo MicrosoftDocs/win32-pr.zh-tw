@@ -4,16 +4,16 @@ description: AudioOutput 物件
 ms.assetid: 7c1c6079-f445-4980-9559-8d26b6014e89
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b919b435edf31b6ae24a8b5c6977d5aed542efac
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 07bfef883e5cb40d0a72ec4d848ad0d77f63f58aaeefd907f632e16798be4397
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474948"
 ---
 # <a name="the-audiooutput-object"></a>AudioOutput 物件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 此物件可讓您存取伺服器所維護的音訊輸出屬性。 這些屬性是唯讀的，但使用者可以在 Microsoft Agent 屬性工作表中變更它們。
 
@@ -23,6 +23,6 @@ ms.locfileid: "104375308"
 -   [**SoundEffects**](soundeffects-property.md)
 -   [**地位**](status-property.md)
 
- 
+ 
 
- 
+ 

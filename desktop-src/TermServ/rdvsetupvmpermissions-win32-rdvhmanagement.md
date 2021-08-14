@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd8028a33bc772f9dd37f25a1dc22074baf771b6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6628e3ac1660c1f0c505e3d5349dd481c7c48b09a77aaedeac1352ecbaf4562
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465305"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988808"
 ---
 # <a name="rdvsetupvmpermissions-method-of-the-win32_rdvhmanagement-class"></a>Win32 RdvhManagement 類別的 RdvSetupVMPermissions 方法 \_
 

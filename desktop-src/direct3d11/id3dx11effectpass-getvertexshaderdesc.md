@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef8c69bab360fa3d12ccfc1a701926183dad7bbe
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7942fc1f8202065ac904223693c70b4dc8ea70bf3421158a08bad253acc67567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045966"
 ---
 # <a name="id3dx11effectpassgetvertexshaderdesc-method"></a>ID3DX11EffectPass：： GetVertexShaderDesc 方法
 

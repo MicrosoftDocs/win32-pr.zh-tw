@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1479c0db3ee826d79cf95a311215c8cf76f1c96b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d2166a206dd1590f83e16bc67482d3b42e24717efae4c44e54a99b9aa7d83b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118911081"
 ---
 # <a name="winbio_bir_header-structure"></a>WINBIO \_ BIR \_ 標頭結構
 
@@ -98,14 +98,14 @@ typedef struct _WINBIO_BIR_HEADER {
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 WINBIO \_ 生物特徵辨識 \_ 類型值，指定生物特徵辨識資訊記錄中所參考的生物特徵辨識資料類型。 目前只支援 **WINBIO \_ 類型 \_ 指紋** 。 如需詳細資訊，請參閱 [**WINBIO \_ 生物特徵辨識 \_ 類型常數**](winbio-biometric-type-constants.md)。
 
 </dd> <dt>
 
-**Subtype**
+**亞**
 </dt> <dd>
 
 **WINBIO \_ 生物特徵辨識 \_ 子類型** 值，指定與生物特徵辨識資料相關聯的輔助因素。 如需詳細資訊，請參閱備註和 [**WINBIO \_ 生物特徵辨識 \_ 子類型常數**](winbio-biometric-subtype-constants.md)。
@@ -218,7 +218,7 @@ BIR 不再有效的日期和時間，以國際標準時間。
 
 > [!IMPORTANT]
 >
-> 請勿嘗試驗證為 *子類型* 參數值提供的值。 Windows 生物識別服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
+> 請勿嘗試驗證為 *子類型* 參數值提供的值。 Windows 生物特徵辨識服務會先驗證提供的值，再將其傳遞至您的實作為。 如果值為 **WINBIO \_ 子類型 \_ NO \_ INFORMATION** 或 **WINBIO \_ 子類型 \_ ANY**，則在適當的位置驗證。
 
  
 
@@ -241,8 +241,8 @@ BIR 不再有效的日期和時間，以國際標準時間。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                    |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                       |
 | 標頭<br/>                   | <dl> <dt>Winbio \_ 類型 .h (包含 Winbio .h) </dt> </dl> |
 
 

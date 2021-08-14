@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: bd02a0ec6512aa7637f0d6b2b281e1b862e61d3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 517c2b72e830c00b105048adc63923291f896cd5d0d77569c91b1aa12e034e60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459790"
 ---
 # <a name="how-to-enable-desktop-toast-notifications-through-an-appusermodelid"></a>如何透過 AppUserModelID 啟用桌面快顯通知
 
@@ -35,8 +35,8 @@ ms.locfileid: "104972800"
 
 -   程式庫
     -   C + +：執行時間 .lib
-    -   C \# ： Windows. Winmd
--   C \# ：適用于 Microsoft .NET Framework 的 WINDOWS API 程式碼套件
+    -   C \# ： Windows。.Winmd
+-   C \# ：適用于 Microsoft .NET Framework Windows API 程式碼套件
 -   至少支援 Windows 8 的 Microsoft Visual Studio 版本
 
 ## <a name="instructions"></a>指示

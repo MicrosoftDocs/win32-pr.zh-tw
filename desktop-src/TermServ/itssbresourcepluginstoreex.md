@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a192b90f38d9b306c59f275d1fed3933d5cbd56a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 23c3ba6689f52d592d9c9799b6c7bec0acd58e1afcbc8e7a18e0cb9dbe6db98b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351287"
 ---
 # <a name="itssbresourcepluginstoreex-interface"></a>ITsSbResourcePluginStoreEx 介面
 
 公開可讓資源外掛程式儲存物件（例如會話和目標）的方法。 這些方法會新增、刪除和查詢這些物件。
 
-這個介面僅適用于已安裝 [KB3091411](https://support.microsoft.com/kb/3091411) 的 Windows Server 2012 R2。 從 Windows Server 2016 開始，可以使用 [**ITsSbResourcePluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore)介面的 [**AcquireTargetLock**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock)和 [**ReleaseTargetLock**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock)方法。
+只有在已安裝[KB3091411](https://support.microsoft.com/kb/3091411)的 Windows Server 2012 R2 上才能使用此介面。 從 Windows Server 2016 開始，可以使用 [**ITsSbResourcePluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore)介面的 [**AcquireTargetLock**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-acquiretargetlock)和 [**ReleaseTargetLock**](/windows/desktop/api/sbtsv/nf-sbtsv-itssbresourcepluginstore-releasetargetlock)方法。
 
 ## <a name="members"></a>成員
 

@@ -6,12 +6,12 @@ keywords:
 - named_type_to_local
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 746cbdd01ea657408b1bf355f41b3b9dfba673a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59fc1d45545c920ef19eb4c230045e62322833d3ef38e765357c29b20a48589c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924058"
 ---
 # <a name="the-named_type_to_local-function"></a>區域函式的命名 \_ 類型 \_ \_
 
@@ -27,9 +27,9 @@ void __RPC_USER <named_type>_to_local(
 
 **\_ \_ \_ 區域** 函式的命名類型必須管理所呈現類型的記憶體。 函式必須為從第二個參數所指定的位址開始的整個資料結構配置記憶體，但參數本身 (存根會為根節點配置記憶體，並將其傳遞至函式) 。 第二個參數的值不能在呼叫期間變更。 函數可以變更該位址的內容。
 
- 
+ 
 
- 
+ 
 
 
 

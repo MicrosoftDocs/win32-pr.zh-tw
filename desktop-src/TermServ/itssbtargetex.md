@@ -15,18 +15,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d53d126d9419f87d91b027b0d69847f67de84be6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fb9be0e4cf5c0395efa93d308fdfa45362a7ac8919ab49a108700106aff6081b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989818"
 ---
 # <a name="itssbtargetex-interface"></a>ITsSbTargetEx 介面
 
 公開屬性，這些屬性會儲存目標的設定和狀態資訊。
 
-這個介面僅適用于已安裝 [KB3091411](https://support.microsoft.com/kb/3091411) 的 Windows Server 2012 R2。 從 Windows Server 2016 開始，可以使用 [**ITsSbTarget**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget)介面的 [**TargetLoad**](itssbtarget-targetload.md)屬性。
+只有在已安裝[KB3091411](https://support.microsoft.com/kb/3091411)的 Windows Server 2012 R2 上才能使用此介面。 從 Windows Server 2016 開始，可以使用 [**ITsSbTarget**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbtarget)介面的 [**TargetLoad**](itssbtarget-targetload.md)屬性。
 
 ## <a name="members"></a>成員
 

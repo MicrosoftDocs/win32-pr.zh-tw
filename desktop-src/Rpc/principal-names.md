@@ -4,12 +4,12 @@ description: 若要讓用戶端使用伺服器程式建立相互驗證的會話�
 ms.assetid: 4d9977f8-0efb-4559-977e-3eba4e277bc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 554ffecff6eb019b4712e6b2d9f5c6319db492e7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 19c0ba17916fb9f9c91ac959ea961c19d0f0a03e31d4caa11784dc123b54c5a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927217"
 ---
 # <a name="principal-names"></a>主體名稱
 
@@ -30,9 +30,9 @@ ms.locfileid: "104462412"
 
 以這種方式查詢伺服器名稱並不安全，應予以避免。 針對伺服器驗證，用戶端程式應該知道它所連接的伺服器，而且應該從頭建立伺服器主體名稱。
 
- 
+ 
 
- 
+ 
 
 
 

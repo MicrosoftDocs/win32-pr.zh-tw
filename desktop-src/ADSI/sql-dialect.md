@@ -1,25 +1,25 @@
 ---
-title: SQL 方言
+title: SQL方言
 description: 從結構化查詢語言 (SQL) 衍生的 SQL 方言會使用人類可讀取的運算式來定義查詢語句。
 ms.assetid: c1032268-e0f5-4d74-ab72-864cdd36851d
 ms.tgt_platform: multiple
 keywords:
-- SQL 方言 ADSI
+- SQL方言 ADSI
 - 方言 ADSI，SQL 方言
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b0936a54bc7bd0028717967ce779fe2f2048a33
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b7483a5e3785f410e6c2fd875122ba24618a82b70d1ed6dc9a85105ae4e8dcfa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119262048"
 ---
-# <a name="sql-dialect"></a>SQL 方言
+# <a name="sql-dialect"></a>SQL方言
 
-從結構化查詢語言 (SQL) 衍生的 SQL 方言會使用人類可讀取的運算式來定義查詢語句。 使用 SQL 查詢語句搭配下列 ADSI 搜尋介面：
+從結構化查詢語言 (SQL) 衍生的 SQL 方言會使用人類可讀取的運算式來定義查詢語句。 使用 SQL query 語句搭配下列 ADSI 搜尋介面：
 
--   [ActiveX Data 物件 (ADO) ](searching-with-activex-data-objects-ado.md)介面，這是使用 OLE DB 的自動化介面。
+-   [ActiveX 資料物件 (ADO) ](searching-with-activex-data-objects-ado.md)介面，也就是使用 OLE DB 的自動化介面。
 -   [OLE DB](searching-with-ole-db.md)，這是一組用來查詢資料庫的 c/c + + 介面。
 
 SQL 語句需要下列語法。
@@ -44,14 +44,14 @@ SELECT [ALL] * | select-list FROM 'ADsPath' [WHERE search-condition] [ORDER BY s
 
 
 
- 
+ 
 
 > [!Note]  
-> 在使用多位元組字元集的情況下，如果使用 SQL 方言以 ADO 執行搜尋，則不能使用反斜線來將字元換用。 相反地，必須使用以 [特殊字元](search-filter-syntax.md) 列出的 escape 序列。 例如，針對使用語法 "samAccountName = Test" 的語句（ \( 使用反斜線 " \\ "）來 escape 左括弧 " ("，改為使用特殊字元 "28" 來取代反斜線，如下所示 \\ ： "samaccountname = \\ 28Test"。
+> 在使用多位元組字元集的情況下，如果使用 SQL 方言的 ADO 執行搜尋，則不能使用反斜線來將字元換用。 相反地，必須使用以 [特殊字元](search-filter-syntax.md) 列出的 escape 序列。 例如，針對使用語法 "samAccountName = Test" 的語句（ \( 使用反斜線 " \\ "）來 escape 左括弧 " ("，改為使用特殊字元 "28" 來取代反斜線，如下所示 \\ ： "samaccountname = \\ 28Test"。
 
- 
+ 
 
-下列查詢語句是 ADSI 中的 SQL 方言範例。
+下列查詢語句是 ADSI 中 SQL 方言的範例。
 
 以搜尋所有群組物件。
 
@@ -100,7 +100,7 @@ boolean-literal ::= TRUE | FALSE | YES | NO | ON | OFF
 
 
 
-Active Directory 的 OLE DB 提供者不支援 SQL 內部聯結，但您可以使用 SQL 來聯結 SQL 和 Active Directory 資料。 如需詳細資訊，請參閱 [建立 SQL Server 與 Active Directory 之間的異類聯結](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md)。
+Active Directory 的 OLE DB 提供者不支援 SQL 內部聯結，但您可以使用 SQL 來聯結 SQL 和 Active Directory 的資料。 如需詳細資訊，請參閱[建立 SQL Server 與 Active Directory 之間的異類聯結](creating-a-heterogeneous-join-between-sql-server-and-active-directory.md)。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -121,9 +121,9 @@ Active Directory 的 OLE DB 提供者不支援 SQL 內部聯結，但您可以�
 [使用 OLE DB 搜尋](searching-with-ole-db.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

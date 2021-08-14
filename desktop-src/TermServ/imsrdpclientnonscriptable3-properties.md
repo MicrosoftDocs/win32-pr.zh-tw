@@ -5,12 +5,12 @@ ms.assetid: 4E35825D-B247-41C0-917C-D7FCA4A8ABFA
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db69f6f7d47173c63779279916a5cee304bc38f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: cd0dd3e2a98fd3b9aece71de586e128b67ede97862a6de613bc387f14a3f6693
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352145"
 ---
 # <a name="imsrdpclientnonscriptable3-properties"></a>IMsRdpClientNonScriptable3 屬性
 
@@ -30,9 +30,9 @@ ms.locfileid: "103932632"
 -   [**WarnAboutClipboardRedirection 屬性**](imsrdpclientnonscriptable3-warnaboutclipboardredirection.md)
 -   [**WarnAboutSendingCredentials 屬性**](imsrdpclientnonscriptable3-warnaboutsendingcredentials.md)
 
- 
+ 
 
- 
+ 
 
 
 

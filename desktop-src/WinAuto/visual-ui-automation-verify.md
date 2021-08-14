@@ -1,19 +1,19 @@
 ---
 title: Visual 消費者介面自動化驗證
-description: Visual 消費者介面自動化確認 (的 Visual UIA 確認) 是 Windows \ 32;UIA 測試程式庫的 GUI 驅動程式，專為手動測試使用者介面自動化所設計。
+description: visual 消費者介面自動化確認 (的 visual UIA 確認) 是 Windows \ 32;UIA 測試程式庫的 GUI 驅動程式，專為手動測試使用者介面自動化所設計。
 ms.assetid: 8AEB083E-785E-4F15-B708-2098A9A41B4E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96e224a52d243427af86c6cd27a3add3be03d9b7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1c50fdd123d24c8a6ef4215ae2451cf49b854b60b26c5d741db1921c42f6f7aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118563652"
 ---
 # <a name="visual-ui-automation-verify"></a>Visual 消費者介面自動化驗證
 
-Visual 消費者介面自動化確認 (的 Visual UIA 確認) 是 UIA 測試程式庫的 Windows GUI 驅動程式，專為手動測試使用者介面自動化所設計。 它提供 UIA 測試程式庫功能的介面，可消除命令列工具的編碼額外負荷。
+visual 消費者介面自動化確認 (的 visual UIA 確認) 是 UIA 測試程式庫的 Windows GUI 驅動程式，專為手動測試使用者介面自動化所設計。 它提供 UIA 測試程式庫功能的介面，可消除命令列工具的編碼額外負荷。
 
 -   [功能表命令](#menu-commands)
 -   [功能窗格](#functional-panes)
@@ -141,7 +141,7 @@ Visual UIA Verify 僅支援 UIA Verify XML 記錄器 (WUIALoggerXml.dll) 原生�
 
 
 
- 
+ 
 
 ## <a name="functional-panes"></a>功能窗格
 
@@ -238,9 +238,9 @@ Visual UIA Verify 僅支援 UIA Verify XML 記錄器 (WUIALoggerXml.dll) 原生�
 -   重新 **整理：重新** 整理 [**屬性**] 樹狀目錄。
 -   **全部展開**：展開 **屬性** 樹狀結構中的所有節點。
 
- 
+ 
 
- 
+ 
 
 
 

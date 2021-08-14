@@ -11,12 +11,12 @@ api_name:
 - contextType
 api_type:
 - Schema
-ms.openlocfilehash: 63d221c6bd388196abfb73a8ac38a26de516d0df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58189cf27f667b3d7e5e6c387a52143b8c757724106e8d9941d31d2582002b0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744445"
 ---
 # <a name="contexttype-complex-type"></a>coNtextType 複雜類型
 
@@ -106,13 +106,13 @@ ms.locfileid: "106973452"
 
 
 
-| 元素                                                               | 類型                                           | Description                                                                                    |
+| 元素                                                               | 類型                                           | 描述                                                                                    |
 |-----------------------------------------------------------------------|------------------------------------------------|------------------------------------------------------------------------------------------------|
 | [**AccessString**](schema-accessstring-contexttype-element.md)       |                                                | 用來建立資料連線的 APN 或撥號字串<br/>                        |
 | [**AuthProtocol**](schema-authprotocol-contexttype-element.md)       |                                                | 用來啟用 PDP 內容的驗證通訊協定。<br/>                    |
 | [**壓縮**](schema-compression-contexttype-element.md)         |                                                | 指定壓縮是否會用於標頭和資料傳輸的資料連結<br/> |
 | [**IgnorePassword**](schema-ignorepassword-userlogoncred-element.md) | boolean                                        | 如何在升級設定檔時處理密碼。<br/>                                    |
-| [**密碼**](schema-password-userlogoncred-element.md)             | 字串                                         | 用來驗證使用者的密碼<br/>                                                |
+| [**密碼**](schema-password-userlogoncred-element.md)             | string                                         | 用來驗證使用者的密碼<br/>                                                |
 | [**UserLogonCred**](schema-userlogoncred-contexttype-element.md)     |                                                | 登入連接的認證。<br/>                                                |
 | [**使用者**](schema-username-userlogoncred-element.md)             | [**nameType**](schema-nametype-simpletype.md) | 登入的使用者名稱<br/>                                                                 |
 

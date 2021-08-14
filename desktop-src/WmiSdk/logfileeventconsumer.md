@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: 462989b740aaf6a6bd78968c951b7c676038cea5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbcf0f90a8bca0cf1f648f74d1b58d7037b79fa8bc9d2d13c4fe2c6dc8306eba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996518"
 ---
 # <a name="logfileeventconsumer-class"></a>LogFileEventConsumer 類別
 

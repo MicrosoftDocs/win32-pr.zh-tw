@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a5137410223f0962b1b6c36c168a78194549c7
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9c43c71c845f194a164c2d9d4964fb296543abae3c5b8d936f4047dde390ab05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197968"
 ---
 # <a name="rating"></a>分級
 
@@ -44,9 +44,9 @@ g \_ wszWMRating
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

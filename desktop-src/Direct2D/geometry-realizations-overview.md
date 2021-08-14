@@ -4,12 +4,12 @@ description: 本主題說明如何使用 Direct2D geometry 實踐，在某些案
 ms.assetid: E8C4C4E5-3102-4F53-847E-A4C2D12A6921
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b903e047ee58a803a7584aaca407281fc803e30
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5108537e9ea9b38bebaab590178d990b44e611e56e82690e9d91ad9b56c19372
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106968287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260130"
 ---
 # <a name="geometry-realizations-overview"></a>幾何實現概觀
 
@@ -30,7 +30,7 @@ ms.locfileid: "106968287"
 
 ## <a name="what-are-geometry-realizations"></a>什麼是幾何實踐？
 
-幾何實踐（Windows 8.1 中引進）是一種新的繪圖基本類型，可讓 [Direct2D](direct2d-portal.md) 應用程式在某些情況下輕鬆地改善幾何轉譯效能。 幾何實踐是以 [**ID2D1GeometryRealization**](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization) 介面表示。
+幾何實踐（Windows 8.1 中引進）是一種新的繪圖基本類型，可讓[Direct2D](direct2d-portal.md)應用程式在某些情況下輕鬆地改善幾何轉譯效能。 幾何實踐是以 [**ID2D1GeometryRealization**](/windows/win32/api/d2d1_2/nn-d2d1_2-id2d1geometryrealization) 介面表示。
 
 ## <a name="why-use-geometry-realizations"></a>為何要使用 geometry 實踐？
 
@@ -65,7 +65,7 @@ ms.locfileid: "106968287"
 > [!Note]  
 > 幾何實現物件與特定圖形裝置相關聯：它們是與裝置相關的資源。
 
- 
+ 
 
 ## <a name="drawing-geometry-realizations"></a>繪製幾何實踐
 
@@ -133,7 +133,7 @@ ms.locfileid: "106968287"
 > [!Note]  
 > 此處所述的方法可能不適合所有的應用程式。 比方說，如果您的應用程式允許以非常大的因素來調整場景 (例如，如果它包含可從100% 移至1000000% 的「縮放」滑杆（在幾個) 框架的範圍內），則這種方法可能會藉由重新建立每個畫面格的幾何實踐來產生過度的工作。 替代方法是在每次完成場景規模的操作之後，才重新建立幾何實踐，例如，在使用者完成縮小手勢) 之後 (。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 

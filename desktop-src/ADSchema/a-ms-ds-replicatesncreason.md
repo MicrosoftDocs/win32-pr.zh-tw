@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a45c587ef82773b5e7fd310e8e8591f18ad27ab
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 681105fe24584afae275a8869ad04698ff7a70daa32832140a98865318672863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686969"
 ---
 # <a name="ms-ds-replicates-nc-reason-attribute"></a>MS-DS-複寫-NC-Reason 屬性
 

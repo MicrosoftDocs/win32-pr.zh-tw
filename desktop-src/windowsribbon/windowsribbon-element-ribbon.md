@@ -3,7 +3,7 @@ title: 功能區元素
 description: 表示功能區視圖中的功能區控制項。
 ms.assetid: 51083180-4e86-4c90-9fd1-a58c12bcc756
 keywords:
-- 功能區元素視窗功能區
+- 功能區元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 9a743fc354dfea73c525884ec5ffe1f9471f3752
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e5dd422013bdaf81d5d6aac6d0a34f4c9479af26cd79f64b854299caa3cac3f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202199"
 ---
 # <a name="ribbon-element"></a>功能區元素
 
@@ -57,13 +57,13 @@ ms.locfileid: "111444999"
 <tr class="odd">
 <td><strong>GroupSpacing</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td><dt><span></span><span></span><strong></strong> (Small) <br/> </dt> <dd> 預設值。 <br/> </dd> <dt><span></span><span></span><strong></strong> (中) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (大型) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>名稱</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>用來批註命令元素。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： string) <br/> </dt> <dd> 任何零或多個字元的序列。<br/> 長度上限為未系結。<br/> </dd> </dl></td>
 </tr>

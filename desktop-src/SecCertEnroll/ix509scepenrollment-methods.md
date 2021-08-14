@@ -4,12 +4,12 @@ ms.assetid: B45B68D2-A14D-4D14-AF5F-1A1BB9921A0D
 title: IX509SCEPEnrollment 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a33c3bdee14b865211b53649075dec6d4617a4c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a15fc7de6392c49bd38381771956685ba6c8427b3562e7c81c372c1bab61db49
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993538"
 ---
 # <a name="ix509scepenrollment-methods"></a>IX509SCEPEnrollment 方法
 

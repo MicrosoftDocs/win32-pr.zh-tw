@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94848023d2cd331545f97d3bea6d92f2fcd4b49c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c99275930155724f47b77de4f85905b92de9d7a7eb612ab713d725a16c1239d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339800"
 ---
 # <a name="errorerrorcount"></a>錯誤。 errorCount
 
@@ -36,11 +36,11 @@ player.error.errorCount
 
 ## <a name="remarks"></a>備註
 
-您 *應該設定設定。* 如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
+您應該設定 *設定*。如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
 
 ## <a name="examples"></a>範例
 
-下列 JScript 範例使用 *錯誤*。在事件處理常式中 **errorCount** ，以警示使用者錯誤佇列中的最新錯誤。 使用 ID = "Player" 建立 **player** 物件。
+下列 JScript 範例會使用 *錯誤*。在事件處理常式中 **errorCount** ，以警示使用者錯誤佇列中的最新錯誤。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

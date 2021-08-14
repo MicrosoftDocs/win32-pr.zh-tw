@@ -4,16 +4,16 @@ description: SRModeID 屬性
 ms.assetid: 4c784fc5-d2c2-4e5b-ba5f-f59b4507f40f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898f90a70c29d409eaa12df3d3fde845e35bd5ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bb2ea6664230f9b2446cbe10a31a0129abb8bc52f0679bb6fdec0a1f0a8be211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106976328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960858"
 ---
 # <a name="srmodeid-property"></a>SRModeID 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106976328"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。SRModeID* *  \[  =  *ModeID*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。SRModeID_ *  \[  =  *ModeID*\]
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "106976328"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -58,21 +58,21 @@ Microsoft 代理程式的語音引擎需求是以 Microsoft 語音 API 為基礎
 > [!Note]  
 > 如果您的系統上未安裝相容的音效支援，這個屬性也會傳回空字串。
 
- 
+ 
 
 > [!Note]  
 > 查詢此屬性通常不會傳回錯誤。 但是，如果語音引擎的載入異常時間很長，您可能會收到錯誤，指出查詢已超時。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**LanguageID 屬性**](languageid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

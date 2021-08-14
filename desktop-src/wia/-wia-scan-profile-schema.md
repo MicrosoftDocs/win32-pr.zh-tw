@@ -4,12 +4,12 @@ ms.assetid: e0848db3-652a-45be-a18b-99b82420c586
 title: 掃描設定檔架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 331c52e933e1e6b771c477bdc8a38f1c5f749448
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 81091e75269206b6b3b5a89f86c6f92da5c1d2080d90382ac6af48c6d1cc32ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208014"
 ---
 # <a name="scan-profile-schema"></a>掃描設定檔架構
 

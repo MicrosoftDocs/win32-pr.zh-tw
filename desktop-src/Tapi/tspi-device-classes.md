@@ -4,12 +4,12 @@ ms.assetid: b29ea789-d017-4e35-b77a-c0d54ac54c66
 title: TSPI 裝置類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6775e73df3914339edbdf791659de821855864dd
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: efd6d2e79e021b6b73bc24ef0edb5b343fb8487ced3ca414084c7f2ad23a6c48
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975434"
 ---
 # <a name="tspi-device-classes"></a>TSPI 裝置類別
 
@@ -34,7 +34,7 @@ ms.locfileid: "112011341"
 | [midi/in](/previous-versions/windows/desktop/legacy/ms725244(v=vs.85))                                 | MIDI sequencer (僅輸入)                       |
 | [midi/輸出](/previous-versions/windows/desktop/legacy/ms725245(v=vs.85))                               | 僅) 的 MIDI sequencer (輸出                     |
 | [tapi/行](/previous-versions/windows/desktop/legacy/ms725511(v=vs.85))                             | 線路裝置                                      |
-| [tapi/電話](/previous-versions/windows/desktop/legacy/ms725512(v=vs.85))                           | 手機裝置                                     |
+| [tapi/電話](/previous-versions/windows/desktop/legacy/ms725512(v=vs.85))                           | 電話裝置                                     |
 | [Ndis](/previous-versions/windows/desktop/legacy/ms725247(v=vs.85))                                       | 網路裝置                                   |
 | [tapi/終端機](/previous-versions/windows/desktop/legacy/ms725515(v=vs.85))                     | 終端機裝置                                  |
 

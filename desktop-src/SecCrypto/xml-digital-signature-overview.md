@@ -4,12 +4,12 @@ ms.assetid: 02ca8d9b-be08-4b15-895f-9c8c4b0ed536
 title: XML 數位簽章總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b41a1b748305ab26b686e126cd201ad9e7f34d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54c23089c6bb49aefd58ada376407785434017a0141f4a4996d8590cc2a05f0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001378"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895726"
 ---
 # <a name="xml-digital-signature-overview"></a>XML 數位簽章總覽
 
@@ -19,7 +19,7 @@ CryptXML 數位簽章 API 所支援的 XML 數位簽章格式是由 XML 簽章�
 
 CryptXML 數位簽章可支援所需的簽章類型、密碼編譯演算法、正常化演算法和指定的封包轉換。
 
-開發人員可以藉由建立密碼編譯延伸模組 Dll，來擴充 CryptXML 所支援的一組預設密碼編譯演算法。 開發人員也可以在 CryptXML API 之上建立自己的自訂轉換和標準化演算法。 開發人員可以使用 CryptXML Api 搭配 Windows 憑證 Api。
+開發人員可以藉由建立密碼編譯延伸模組 Dll，來擴充 CryptXML 所支援的一組預設密碼編譯演算法。 開發人員也可以在 CryptXML API 之上建立自己的自訂轉換和標準化演算法。 開發人員可以搭配 Windows 的憑證 api 來使用 CryptXML api。
 
  
 

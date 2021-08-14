@@ -4,12 +4,12 @@ ms.assetid: 2a0aeadf-e099-4264-8522-e498f437bf75
 title: 伺服器內容初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1362c8fd71e079392f10a8e35f76ad511de3c49f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6d4a81c8033dc6b5dda8baca9ee7dfcc87d2b14c1cd139ff4a7f8eda99603f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918327"
 ---
 # <a name="server-context-initialization"></a>伺服器內容初始化
 

@@ -4,12 +4,12 @@ ms.assetid: edd663db-2893-cef7-ccfa-d84d8bb83ff1
 title: 音訊效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 037d2b02a538a4bbfd0e1651e24ee8fad105d756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54b241b55db3bacd6490c1973af1da0769f3cb192a3f7a20040c99da5e5df5c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192324"
 ---
 # <a name="audio-effects"></a>音訊效果
 

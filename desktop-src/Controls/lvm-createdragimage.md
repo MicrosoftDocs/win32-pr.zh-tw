@@ -3,7 +3,7 @@ title: 'LVM_CREATEDRAGIMAGE 訊息 (Commctrl .h) '
 description: 為指定的專案建立拖曳影像清單。 您可以明確地傳送此訊息，或使用 ListView \_ CreateDragImage 宏來傳送。
 ms.assetid: face4c8f-01ff-4f5a-a468-e306a50dae35
 keywords:
-- LVM_CREATEDRAGIMAGE message Windows 控制項
+- LVM_CREATEDRAGIMAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ace975b178fee85e2794b518a78b40b375c65ae7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d551dfa7b14ecff8c9fd1efe015e173403c1b5981f294a18b3180a42cc03de63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411993"
 ---
 # <a name="lvm_createdragimage-message"></a>LVM \_ CREATEDRAGIMAGE 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104093855"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

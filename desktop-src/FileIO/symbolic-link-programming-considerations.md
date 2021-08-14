@@ -4,12 +4,12 @@ ms.assetid: 8966ac3e-a92b-4d68-b40b-e32a4173f869
 title: " (本機檔案系統的程式設計考慮) "
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a5d63c231c88da95efc0e5078506bf9fc0d6d9a
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 79a98c244dac3fb4a9f6b73d11067af64512e0cfd54e58078bd87a2582b0c2de
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106981750"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981878"
 ---
 # <a name="programming-considerations-local-file-systems"></a> (本機檔案系統的程式設計考慮) 
 
@@ -21,7 +21,7 @@ ms.locfileid: "106981750"
 -   符號連結是重新分析點。 如需詳細資訊，請參閱 [判斷目錄是否為裝載的資料夾](determining-whether-a-directory-is-a-volume-mount-point.md)。
 -   最多可 (63 重新分析點，因此會) 特定路徑中允許的符號連結。
 
-    **Windows Server 2003 和 WINDOWS XP：** 在任何指定的路徑上，都有31個重新分析點的限制。
+    **Windows Server 2003 和 Windows XP：** 在任何指定的路徑上，都有31個重新分析點的限制。
 
 ## <a name="related-topics"></a>相關主題
 

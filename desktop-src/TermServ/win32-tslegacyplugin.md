@@ -22,12 +22,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 548eadac272f6f87daf1c43020cb65485e434aec
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dbbfaa3e1f853867ebd2cb7d0a4b7afd618e585b7dc409e16d233c88432a1cf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348850"
 ---
 # <a name="win32_tslegacyplugin-class"></a>Win32 \_ TSLegacyPlugin 類別
 
@@ -206,7 +206,7 @@ class Win32_TSLegacyPlugin : CIM_LogicalElement
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**

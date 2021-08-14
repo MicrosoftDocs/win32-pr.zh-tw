@@ -4,16 +4,16 @@ ms.assetid: 3251ac00-41f1-44e9-a579-fa31e7c7d2ff
 title: 'PBT_APMOEMEVENT (WinUser 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a99b99bdaf69b1a53a24ad33cd898fd1c806694
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b92feb840e69c3a7e560d7bc71a0a5e4746ae5677920010f0251a1b951ddb8d0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961652"
 ---
 # <a name="pbt_apmoemevent-event"></a>PBT \_ APMOEMEVENT 事件
 
-\[PBT \_ APMOEMEVENT 可用於 [需求] 區段中指定的作業系統。 此事件的支援已在 Windows Vista 中移除。\]
+\[PBT \_ APMOEMEVENT 可用於 [需求] 區段中指定的作業系統。 Windows Vista 中已移除此事件的支援。\]
 
 通知應用程式 APM BIOS 已發出 APM OEM 事件的信號。
 
@@ -83,11 +83,11 @@ WindowProc( HWND   hwnd,    // handle to window
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                                    |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                                           |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

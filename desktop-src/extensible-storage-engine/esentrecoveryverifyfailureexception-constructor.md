@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3eac27a26787b1efaa6b09c79de3d67976694e2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce3d7e0693385e91271538f7351b0ba60c8bb5ec79b791f10a0bc1d11976103e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971118"
 ---
 # <a name="esentrecoveryverifyfailureexception-constructor"></a>EsentRecoveryVerifyFailureException 函式
 

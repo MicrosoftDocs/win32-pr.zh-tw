@@ -4,12 +4,12 @@ description: 網際網路通訊協定協助程式 (IP 協助程式) API 是由�
 ms.assetid: 67dbe639-aff5-4628-9471-63f50504962d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e5936ce9987262fe24cfd6cf718a426b6123b89
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e977dd585f9759a4eef93daca55e0ff95abdc98085393577afabb4ae6e5908ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990798"
 ---
 # <a name="using-teredo-with-ip-helper"></a>使用 Teredo 搭配 IP Helper
 
@@ -21,6 +21,6 @@ IP 協助程式 API 會利用下列函式來加速使用 Teredo 介面：
 -   [**NotifyTeredoPortChange**](/windows/desktop/api/netioapi/nf-netioapi-notifyteredoportchange)
 -   [**NotifyStableUnicastIpAddressTable**](/windows/desktop/api/netioapi/nf-netioapi-notifystableunicastipaddresstable)
 
- 
+ 
 
- 
+ 

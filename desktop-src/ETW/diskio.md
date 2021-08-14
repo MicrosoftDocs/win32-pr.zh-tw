@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 97f9907e4da51675bb1a5f562931e471ee0e133e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e91f5e8b84d77b0938f35da69a84c26fa0f34a4da63bce40330484a29e19b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943251"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395299"
 ---
 # <a name="diskio-class"></a>DiskIo 類別
 
@@ -57,7 +57,7 @@ class DiskIo : MSNT_SystemTrace
 | **活動 \_追蹤 \_ 類型 \_ IO \_ WRITE \_ INIT** (事件種類值為 13) <br/>      | 初始化寫入事件。 [**DiskIo \_ TypeGroup2**](diskio-typegroup2.md) MOF 類別會定義此事件的事件資料。                                  |
 | **活動 \_追蹤 \_ 類型 \_ IO \_ FLUSH** (事件種類值為 14) <br/>            | 初始化寫入事件。 [**DiskIo \_ TypeGroup3**](diskio-typegroup3.md) MOF 類別會定義此事件的事件資料。                                  |
 | **活動 \_追蹤 \_ 類型 \_ IO \_ FLUSH \_ INIT** (事件種類值為 15) <br/>      | 初始化 flush 事件。 [**DiskIo \_ TypeGroup2**](diskio-typegroup2.md) MOF 類別會定義此事件的事件資料。                                  |
-| **活動 \_追蹤 \_ 類型 \_ IO 重新 \_ 導向 \_ INIT** (事件種類值為 16) <br/> | 初始化重新導向的事件。 重新導向的 IO 事件可用來將磁片 Io 對應到 Windows Imaging 格式 (WIM) 到 WIM 內的檔案名。                  |
+| **活動 \_追蹤 \_ 類型 \_ IO 重新 \_ 導向 \_ INIT** (事件種類值為 16) <br/> | 初始化重新導向的事件。 重新導向的 IO 事件可用來將磁片 io 對應到 wim 中的檔案名 (wim) 的 Windows 映像格式。                  |
 | 事件種類值為52<br/>                                               | 驅動程式完成要求事件。 [**DriverCompleteRequest**](drivercompleterequest.md) MOF 類別會定義此事件的事件資料。                    |
 | 事件種類值為53<br/>                                               | 驅動程式完成要求傳回事件。 [**DriverCompleteRequestReturn**](drivercompleterequestreturn.md) MOF 類別會定義此事件的事件資料。 |
 | 事件種類值為37<br/>                                               | 驅動程式完成常式事件。 [**DriverCompletionRoutine**](drivercompletionroutine.md) MOF 類別會定義此事件的事件資料。              |
@@ -78,8 +78,8 @@ class DiskIo : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

@@ -22,19 +22,19 @@ keywords:
 - 向量類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f05b058c919496b608b875f96e6c03bbeb0d50e8
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 70dbb2e540e809b88b446cceda9973f8988c7241cae7f4f96402a0edc7906550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104563761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347773"
 ---
 # <a name="basic-vml-types"></a>基本的 VML 類型
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
  
 
@@ -79,7 +79,7 @@ ms.locfileid: "104563761"
 | [color](#color)       | [c](#color)       | 複雜                    | 允許衍生色彩的元素。                                                        |
 | [字體](#font)         | [字體](#font)     | 複雜                    | 字型的描述。                                                                             |
 | [點陣圖](#bitmap)     | [點陣圖](#bitmap) | href                       | 外部圖片檔案的參考。                                                             |
-| [向量](#vector)     | [V](#vector)      | 複雜                    | 向量路徑的描述                                                                       |
+| [向量](#vector)     | [v](#vector)      | 複雜                    | 向量路徑的描述                                                                       |
 
 
 
@@ -120,7 +120,7 @@ boolean
 | True 的值 | False 的值 |
 |----------------|-----------------|
 | true           | false           |
-| 是            | 不可以              |
+| 是            | 否              |
 | on             | 關             |
 | t              | f               |
 | 1              | 0               |
@@ -673,7 +673,7 @@ bitmap
 
 圖形中使用的任何其他資料格式都會強制圖形至少為編輯層級3，而且可能會轉譯層級 3 (如果需要資料才能轉譯圖形) 。 建議應用程式發佈其所支援的格式。 例如，Microsoft Office 原本就支援下列其他格式，因此可能會以下列格式寫入編輯資料：
 
-1.  WMF--Windows 中繼檔 (Win 3.1 格式) 
+1.  WMF--Windows 的中繼檔 (Win 3.1 格式) 
 2.  EMF--Windows "增強" 中繼檔 (Win32 格式) 
 3.  PICT--Mac OS QuickDraw PICT 檔案 (所有版本，但不含 QuickTime 記錄或其他延伸模組) 
 4.  BMP--Windows 點陣圖檔案格式、"os/2" (BITMAPCORE) 、BITMAPINFO、BITMAPV4 和 BITMAPV5 格式

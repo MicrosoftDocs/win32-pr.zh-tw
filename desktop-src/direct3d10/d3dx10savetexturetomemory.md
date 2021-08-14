@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: f20278f9fc590e72f93051d5fdd4cfbd918098df
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3736b2de21df3e77f5b06d34f2b0b64a7592f2212a71ffd4a37b70454667427a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107001789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047056"
 ---
 # <a name="d3dx10savetexturetomemory-function"></a>D3DX10SaveTextureToMemory 函式
 
@@ -70,7 +70,7 @@ HRESULT D3DX10SaveTextureToMemory(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 類型： **[ **UINT**](../winprog/windows-data-types.md)**

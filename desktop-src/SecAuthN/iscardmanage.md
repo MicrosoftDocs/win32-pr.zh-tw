@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: cce31ea21701c098b09a0bd96360afb374a9bccc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c027ae9004a8437f3d182fdef3335c8fbbad67abaab5c15e351520f2ae592818
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922647"
 ---
 # <a name="iscardmanage-interface"></a>ISCardManage 介面
 
-\[**ISCardManage** 介面不再適用于 windows server 2008、windows Vista 及 windows Server 2003 Service Pack 1 (SP1) 和更新版本。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
+\[**ISCardManage** 介面不再適用于 Windows Server 2008、Windows Vista 和 Windows server 2003 Service Pack 1 (SP1) 和更新版本中使用。 [智慧卡模組](/previous-versions/windows/desktop/secsmart/smart-card-modules)提供類似的功能。\]
 
 下列介面定義是以標準的形式提供，可在開發 [*智慧卡*](../secgloss/s-gly.md)[*服務提供者*](../secgloss/c-gly.md)時遵循。
 
@@ -32,7 +32,7 @@ ms.locfileid: "104194503"
 **連接到智慧卡**
 
 1.  建立與卡片相關聯的 **ISCardManage** 介面。
-2.  連接到特定智慧卡讀卡機 ([**AttachByIFD**](iscardmanage-attachbyifd.md)) 或使用先前取得的控制碼 ([**AttachByHandle**](iscardmanage-attachbyhandle.md)) ，以連接到智慧卡。
+2.  附加至特定智慧卡讀卡機， ([**AttachByIFD**](iscardmanage-attachbyifd.md)) 或使用先前取得的控制碼 ([**AttachByHandle**](iscardmanage-attachbyhandle.md)) ，以連線至智慧卡。
 3.  建立其他介面來執行智慧卡作業 ([**CreateCardAuth**](iscardmanage-createcardauth.md)、 [**CreateFileAccess**](iscardmanage-createfileaccess.md)、 [**CreateCHVerification**](iscardmanage-createchverification.md)或 [**CreateInterface**](iscardmanage-createinterface.md)) 。
 4.  釋放卡片 (卸 [**離**](iscardmanage-detach.md)) 。
 5.  視需要釋放 **ISCardManage** 介面和其他專案。
@@ -73,8 +73,8 @@ ms.locfileid: "104194503"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                       |
 

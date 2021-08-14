@@ -4,12 +4,12 @@ ms.assetid: C705B936-1233-4E1C-8176-813D26F05883
 title: 限定詞屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4383db41365898d3fab626d13fda91f18135ca70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8142621d3ee3da8332d69903267a9c887b55088443f3efa3c4f61c7e5f1e20d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901028"
 ---
 # <a name="qualifier-properties"></a>限定詞屬性
 

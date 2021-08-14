@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101060
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 39cf54c7f1a4659428918001d2666f18f686f1f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89e7098f36c8fabf4aff052d7089d5062e688f0715fa7d8665c2bee8d07cde04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104549804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975948"
 ---
 # <a name="esentbadcheckpointsignatureexception-properties"></a>EsentBadCheckpointSignatureException 屬性
 

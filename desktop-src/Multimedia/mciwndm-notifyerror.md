@@ -3,7 +3,7 @@ title: 'MCIWNDM_NOTIFYERROR 訊息 (Vfw .h) '
 description: MCIWNDM \_ NOTIFYERROR 訊息會通知應用程式的父視窗發生 MCI 錯誤。
 ms.assetid: 0f54886a-77dc-43cc-be46-2d322c75471a
 keywords:
-- MCIWNDM_NOTIFYERROR message Windows 多媒體
+- MCIWNDM_NOTIFYERROR 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbef9180c31091f3bd1a85f23a08990c2f7e7ea0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5dcca10f593c14e1532aa53b59b8c0bb106ea721ad0d09bde742727fddaeb07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024967"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374129"
 ---
 # <a name="mciwndm_notifyerror-message"></a>MCIWNDM \_ NOTIFYERROR 訊息
 

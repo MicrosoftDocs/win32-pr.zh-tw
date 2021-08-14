@@ -3,7 +3,7 @@ title: 'PBM_SETBKCOLOR 訊息 (Commctrl .h) '
 description: 設定進度列中的背景色彩。
 ms.assetid: e28af958-babb-4c2e-9202-89b608c22f8e
 keywords:
-- PBM_SETBKCOLOR message Windows 控制項
+- PBM_SETBKCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ddfaf84695221cf998275d76a9d2d67773150da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 54bdee330aba5a4ff96fc5b26fa7f99553ff8331dd8822fcd350fbae5813c813
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986178"
 ---
 # <a name="pbm_setbkcolor-message"></a>PBM \_ SETBKCOLOR 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103686167"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,16 +4,16 @@ description: IAgentCommandEx SetHelpCoNtextID
 ms.assetid: 861d55dc-f584-495c-a148-016af8f7a3e2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7539cef8e986db40ef94a8fd3d47073fbe489d
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f6b876276d42ff07081b60194e90beff3ad9ef19fec383c50d70a551e1c9a5e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118750184"
 ---
 # <a name="iagentcommandexsethelpcontextid"></a>IAgentCommandEx::SetHelpCoNtextID
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetHelpContextID(
@@ -34,18 +34,18 @@ HRESULT SetHelpContextID(
 
 </dd> </dl>
 
-如果您已為您的應用程式建立 Windows 說明檔，並在字元的 [協助工具 [**] 屬性中**](helpfile-property.md) 進行設定。 當 [**HelpModeOn**](helpmodeon-property.md) 設定為 **True** 且使用者選取命令時，Microsoft Agent 會自動呼叫 Help。 如果 [提供者] 中有內容 [**編號，Agent**](helpcontextid-property-com.md)就會呼叫 [說明]，並搜尋目前內容編號所識別的主題。 目前的內容編號是 **命令的值** 為的值。
+如果您已為您的應用程式建立 Windows 說明檔，並在字元的 [協助工具 [**] 屬性中**](helpfile-property.md)進行設定。 當 [**HelpModeOn**](helpmodeon-property.md) 設定為 **True** 且使用者選取命令時，Microsoft Agent 會自動呼叫 Help。 如果 [提供者] 中有內容 [**編號，Agent**](helpcontextid-property-com.md)就會呼叫 [說明]，並搜尋目前內容編號所識別的主題。 目前的內容編號是 **命令的值** 為的值。
 
 > [!Note]  
-> 建立說明檔需要 Microsoft Windows 說明編譯器。
+> 建立說明檔需要 Microsoft Windows help 編譯器。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentCommandEx：： GetHelpCoNtextID**](iagentcommandex--gethelpcontextid.md)、 [**IAgentCharacterEx：： SetHelpModeOn**](iagentcharacterex--sethelpmodeon.md)、 [**IAgentCharacterEx：： SetHelpFileName**](iagentcharacterex--sethelpfilename.md)
 
 
- 
+ 
 
- 
+ 

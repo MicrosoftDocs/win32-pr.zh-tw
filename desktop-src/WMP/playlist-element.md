@@ -10,12 +10,12 @@ keywords:
 - 元素、播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d9d66aa832a146b0fb8942fae6481095918f9a81
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fed45a2b8d7a0c0c5a2e19a783fbecf1041ecf2550c9f9a3a31e4b7c1aab894d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336744"
 ---
 # <a name="playlist-element"></a>播放清單元素
 
@@ -67,7 +67,7 @@ ms.locfileid: "104021855"
 
 
 
- 
+ 
 
 **播放清單** 元素支援下列方法。
 
@@ -96,7 +96,7 @@ ms.locfileid: "104021855"
 
 
 
- 
+ 
 
 **播放清單** 元素支援環境屬性，而且可以執行環境事件處理常式（除非有注明）。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -111,7 +111,7 @@ ms.locfileid: "104021855"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -120,9 +120,9 @@ ms.locfileid: "104021855"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

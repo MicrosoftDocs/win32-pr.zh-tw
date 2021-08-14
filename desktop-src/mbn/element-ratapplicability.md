@@ -7,12 +7,12 @@ MSHAttr:
 title: RATApplicability
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 155f8e216b6ec00f123d0fe0f378fd9db2e4d75f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd9c8c95b23b7c1652363b910fc53066d09782fcfd44d13fb53af78033792c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959908"
 ---
 # <a name="span-idwwan_profile_v4element_ratapplicabilityspanratapplicability"></a><span id="WWAN_profile_v4.element_RATApplicability"></span>RATApplicability
 

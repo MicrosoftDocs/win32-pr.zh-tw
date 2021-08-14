@@ -4,16 +4,16 @@ description: IAgentNotifySinkEx ActiveClientChange
 ms.assetid: e953e803-c898-4c07-adc0-8b895b5e8473
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b96988f80d8a1799bf46f12bd38906e9357453f3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50549c4b091a39614fd7ff6b15af0bc1436113dfd2e9b3d31ca86e6995a0e94d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961498"
 ---
 # <a name="iagentnotifysinkexactiveclientchange"></a>IAgentNotifySinkEx::ActiveClientChange
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT ActiveClientChange(

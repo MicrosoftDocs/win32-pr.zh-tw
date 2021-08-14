@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: b3b209c7c8e71b49fd3b9fce90b9ea30b584bd65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8f16c32b46544d3966ae5e3a097576074d28bcfa40ce568cd591d37f9d3d0552
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459901"
 ---
 # <a name="diskquotacontroldefaultquotathresholdtext-property"></a>DiskQuotaControl. DefaultQuotaThresholdText 屬性
 

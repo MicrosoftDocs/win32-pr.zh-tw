@@ -4,18 +4,18 @@ ms.assetid: 32c40f4e-a19f-4a61-bc6e-01c891187c68
 title: FocalLengthNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f18c77b0bb1cce94123b5ce55a989de9b72c88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbe012cfd38334bc3eb17aacd80c6c987f962f5bc8cb62194b2600cb537bdf33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229560"
 ---
 # <a name="systemphotofocallengthnumerator"></a>FocalLengthNumerator
 
 PKEY \_ 相片 FocalLength 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

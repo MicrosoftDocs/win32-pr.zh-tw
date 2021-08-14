@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETLENGTH 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETLENGTH 訊息會抓取 MCI 裝置目前所使用的內容或檔案的長度。 您可以使用 MCIWndGetLength 宏明確地傳送此訊息。
 ms.assetid: bee4d9fc-78eb-4577-98bb-d6c2d9acbb7f
 keywords:
-- MCIWNDM_GETLENGTH message Windows 多媒體
+- MCIWNDM_GETLENGTH 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2347647fcff0beb87be12b7f6a05790b97f36d51
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 334d9a4a62171a62cbd0fc914be2d9a81ed901eab6d3893170cb8dabd2426a36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374185"
 ---
 # <a name="mciwndm_getlength-message"></a>MCIWNDM \_ GETLENGTH 訊息
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101386
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 270ba0ac5cf24f573b985dc30cea46a70cda05fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a512c21e5ba555f433bc2ae69908ff6d31d731a2ee360f120e77d210e47cc8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119975171"
 ---
 # <a name="esentcurrencystackoutofmemoryexception-members"></a>EsentCurrencyStackOutOfMemoryException 成員
 

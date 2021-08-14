@@ -4,16 +4,16 @@ ms.assetid: 0afcb25a-2499-4baa-82ad-0706164e2e72
 title: 'IH323LineEx：： SetDefaultCapabilityPreferrence 方法 (H323priv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5604348eb80a3f423f6902f0a9a6e57204280c83
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 64eb3385edb758529f27f9fb90eb0cce998eca60f202c72a28ba48a5318c6b08
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992078"
 ---
 # <a name="ih323lineexsetdefaultcapabilitypreferrence-method"></a>IH323LineEx：： SetDefaultCapabilityPreferrence 方法
 
-\[**SetDefaultCapabilityPreferrence** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**SetDefaultCapabilityPreferrence** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetDefaultCapabilityPreferrence** 方法會設定預設功能的喜好設定。 功能的預設權數為100。 如果應用程式為功能指定較高的權數，則在 h.264 協商期間會有較高的優先順序。 如果應用程式將功能的權數設定為0，它就不會用於 h. 協商。
 

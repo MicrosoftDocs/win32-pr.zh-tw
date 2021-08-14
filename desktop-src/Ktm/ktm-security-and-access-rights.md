@@ -1,19 +1,19 @@
 ---
-description: Windows 安全性模型可讓核心交易管理員的呼叫端 (KTM) 控制交易、交易管理員、資源管理員和登錄物件的存取權。
+description: Windows 的安全性模型可讓核心交易管理員的呼叫端 (KTM) 來控制交易、交易管理員、資源管理員和登錄物件的存取權。
 ms.assetid: c9d51d4d-9f07-44d6-a2e1-4a47367cc4ae
 title: KTM 安全性與存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed4e42c9aaf8498ff16ebd1d32f539fef5b54b17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d0baf273b45a886e40c731c44c261f836fdc0b79012f906a1b4adfe07083be8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388889"
 ---
 # <a name="ktm-security-and-access-rights"></a>KTM 安全性與存取權限
 
-Windows 安全性模型可讓核心交易管理員的呼叫端 (KTM) 控制交易、交易管理員、資源管理員和登錄物件的存取權。 如需詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。 對於不在意安全性的應用程式，可以使用寬鬆的存取控制清單來建立交易 (Acl) ，讓任何資源管理員都能在交易上登記。
+Windows 的安全性模型可讓核心交易管理員的呼叫端 (KTM) 來控制交易、交易管理員、資源管理員和登錄物件的存取權。 如需詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。 對於不在意安全性的應用程式，可以使用寬鬆的存取控制清單來建立交易 (Acl) ，讓任何資源管理員都能在交易上登記。
 
 ## <a name="transactions"></a>交易
 

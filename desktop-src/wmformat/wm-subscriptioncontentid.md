@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2013ddfa4fd6de7737dd317ee5fcaf2725961bfd
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 67cf61973cbf754dfdabee5d88466bc0fe4e3c4f5fb6e3c3856fa476531e3b1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104092361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195601"
 ---
 # <a name="wmsubscriptioncontentid"></a>WM/SubscriptionContentID
 
@@ -38,9 +38,9 @@ g \_ wszWMSubscriptionContentID
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c28d9afa-152c-43b5-9892-7a38fae8c593
 title: ModuleExclusion 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8fb4cc136937d5a01bd16a42c138532dd524ee1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 008d10e65d81b5668821e1a999cf08f5a10c55db3372a4b0230d560462a977c9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119996438"
 ---
 # <a name="moduleexclusion-table"></a>ModuleExclusion 資料表
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 55e4663057bd25ac9768a5913963a5511b662f11
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ea15bf7bbcbea68fabf592ec8bad409990038d03fb1f4014f760b92d124408b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108108526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990018"
 ---
 # <a name="d3dxshrotatez-function-d3dx10h"></a>D3DXSHRotateZ 函式 (D3DX10) 
 

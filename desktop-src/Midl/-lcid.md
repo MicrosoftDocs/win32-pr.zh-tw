@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 370548bb9899ce84173f2321a129aaeda1c6fe81
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b5ceff1f9a4ef2f6c95a8dac12ff689995efe4fdd3619cf48e11043967fec053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385511"
 ---
 # <a name="lcid-switch"></a>/lcid 參數
 
@@ -34,7 +34,7 @@ midl /lcid localeID
 *localeID* 
 </dt> <dd>
 
-指定 Windows 國家語言支援中使用的32位地區設定識別碼。 地區設定識別碼應以 decimal 指定。
+指定用於 Windows 國語言支援的32位地區設定識別碼。 地區設定識別碼應以 decimal 指定。
 
 </dd> </dl>
 
@@ -45,7 +45,7 @@ midl /lcid localeID
 > [!Note]  
 > **/Lcid** 參數可搭配 MIDL 版本3.01.75 和更新版本使用。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -61,9 +61,9 @@ midl /lcid localeID
 [**Lcid**](lcid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

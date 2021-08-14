@@ -1,6 +1,6 @@
 ---
 title: Player. 設定
-description: Settings 屬性會抓取 Settings 物件。
+description: Settings 屬性會抓取設定物件。
 ms.assetid: 9edd7d27-893a-4a32-8aaf-5efec6c50903
 keywords:
 - Player. 設定 Windows Media Player
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d5482574069ea94052016272ff22cde2ac563f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fb14137fba6ba460dda0d3bbdc32f0b97c442d75979e603460a645241d37e84e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337962"
 ---
 # <a name="playersettings"></a>Player. 設定
 
-**Settings** 屬性會抓取 settings 物件。
+**Settings** 屬性會抓取設定物件。
 
 ## <a name="syntax"></a>Syntax
 
@@ -51,7 +51,7 @@ ms.locfileid: "107000798"
 [**Player 物件**](player-object.md)
 </dt> <dt>
 
-[**Settings 物件**](settings-object.md)
+[**設定物件**](settings-object.md)
 </dt> </dl>
 
  

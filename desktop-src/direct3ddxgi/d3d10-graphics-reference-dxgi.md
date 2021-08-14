@@ -4,12 +4,12 @@ ms.assetid: d78ccfe3-2e6f-4e8c-9ea3-1f577e40d21a
 title: DXGI 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0d4af55ad29d3282748c4ca09fd968b87f101a6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e6f0e0f7972e3ca6525c54baa69f1de152d9fe5cac4ffb4bef54771987fb07a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106966602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984178"
 ---
 # <a name="dxgi-reference"></a>DXGI 參考
 

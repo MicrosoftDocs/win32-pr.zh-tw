@@ -4,12 +4,12 @@ description: SignTool 是一種命令列工具，可數位簽署檔案、驗證�
 ms.assetid: aa59cb35-5fba-4ce8-97ea-fc767c83f88e
 ms.topic: article
 ms.date: 10/12/2020
-ms.openlocfilehash: f738eddb6e47da12297bffd13a816398ba2c46c9
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: f7105e81b958e463612a5065003ed04c24b913f87f52d8d72bb7a708917ebbed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897953"
 ---
 # <a name="signtool"></a>SignTool
 

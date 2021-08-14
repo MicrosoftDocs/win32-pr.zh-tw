@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1455454649e24bd984948a81837181a7bcdba11a
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 14e143405717730ce7d7460732941d05f72aa58e9169052a0bb1b5c705185c49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104992427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118510287"
 ---
 # <a name="samplelevelsamplelevelsfloatfloatintuint-function-for-texture2d"></a>Texture2D 的 SampleLevel：： SampleLevel (S、float、float、int、uint) 函數
 

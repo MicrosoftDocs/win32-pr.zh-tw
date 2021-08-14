@@ -4,12 +4,12 @@ ms.assetid: 93434558-ae83-4ea2-9324-659e5873a8c3
 title: " (設定 API) 的通知"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 096d4261a99e0a837a90aa5c965a3b676843945d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f602e2062be01e3f521147d7a820d3afc1424f5421667716d3f8d4273f0dd866
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992658"
 ---
 # <a name="notifications-setup-api"></a> (設定 API) 的通知
 

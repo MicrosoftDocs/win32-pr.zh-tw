@@ -6,12 +6,12 @@ keywords:
 - type_UserSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a29e5936763f9fe7b3513d66ddca7db9c35dbfe7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a5b7c5d0918489dbc41baaa4e799aa1dbbda67723cf8104e0641ced24b9b5bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103683037"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923538"
 ---
 # <a name="the-type_usersize-function"></a>型別 \_ UserSize 函式
 
@@ -39,14 +39,14 @@ unsigned long __RPC_USER  <type>_UserSize(
 
 
 
- 
+ 
 
 封送處理內容旗標可讓您根據 RPC 呼叫的內容改變常式的行為。 比方說，如果您有一個控制碼 (**長**) 至資料區塊，您可以傳送同進程呼叫的控制碼，但您會將呼叫的實際資料傳送給不同的電腦。 封送處理內容旗標及其值會定義在平臺軟體發展工具組 (SDK) 的 Wtypes.h .h 和 Wtypes.h .idl 檔案中。
 
 > [!Note]  
 > 正確定義網路類型時，您不需要使用 NDR 格式旗標，因為 NDR 引擎會執行必要的轉換。
 
- 
+ 
 
 *StartingSize* 參數是目前的緩衝區位移。 起始大小表示使用者物件的緩衝區位移，且可能會正確對齊。 您的常式應考慮需要什麼填補。
 
@@ -71,6 +71,6 @@ unsigned long __RPC_USER  <type>_UserSize(
 [網路 \_ 封送處理](/windows/desktop/Midl/wire-marshal)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

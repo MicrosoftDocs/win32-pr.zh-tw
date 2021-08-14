@@ -8,18 +8,18 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 1e5e5f6c56411ada1e87e8cdf240a89f9c293e4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 268e1bf44c1370e49116414a367119ea8eb008a2711cbfcebdf64f6c3c1b8d62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244938"
 ---
 # <a name="sio_query_wfp_connection_redirect_context-control-code"></a>SIO_QUERY_WFP_CONNECTION_REDIRECT_CONTEXT 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-**SIO \_ QUERY \_ WFP 連接重新 \_ \_ 導向 \_ 內容** 控制程式代碼會針對 Windows 篩選平台 (WFP) 重新導向服務所使用的重新導向記錄，抓取重新導向內容。
+**SIO \_ QUERY \_ WFP 連接重新 \_ \_ 導向 \_ 內容** 控制程式代碼會抓取 Windows 篩選平台 (WFP) 重新導向服務所使用之重新導向記錄的重新導向內容。
 
 若要執行這項作業，請使用下列參數呼叫 [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) 或 **WSPIoctl** 函數。
 
@@ -149,7 +149,7 @@ int WSPIoctl(
 
 ## <a name="remarks"></a>備註
 
-在 Windows 8、Windows Server 2012 和更新版本的作業系統上，都支援 **SIO \_ QUERY \_ WFP \_ 連接重新 \_ 導向 \_ 內容** IOCTL。
+Windows 8、Windows Server 2012 和更新版本的作業系統都支援 **SIO \_ QUERY WFP 連線重新 \_ \_ \_ 導向 \_ 內容** IOCTL。
 
 WFP 允許存取 TCP/IP 封包處理路徑，也就是傳出和傳入的封包可以進行檢查或變更，然後再讓它們進一步處理。
 藉由使用 TCP/IP 處理路徑，獨立軟體廠商 (Isv) 可以更輕鬆地建立防火牆、防毒軟體、診斷軟體及其他類型的應用程式和服務。

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0930ffea67ee100528cf9d592a25f98aa6c92a55
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d3d638c88505233d479445b05267927f72ae077f9c46c99f9e3713fd2980afdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118198406"
 ---
 # <a name="hasaudio"></a>HasAudio
 
@@ -35,7 +35,7 @@ g \_ wszWMHasAudio
 
 這是程式碼屬性。
 
-這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其一般意義傳遞給 Windows Media 格式 SDK 的物件。
+這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其正常意義傳遞給 Windows 媒體格式 SDK 的物件。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -44,9 +44,9 @@ g \_ wszWMHasAudio
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

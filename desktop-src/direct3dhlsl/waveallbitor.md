@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6870ac8406a581e358b00ef728562dc59118a933
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 7efe678093fca38940e0a98a31d4c39065bcf172d04aa5eb0932467fc716457b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504888"
 ---
 # <a name="waveactivebitor-function"></a>WaveActiveBitOr 函式
 

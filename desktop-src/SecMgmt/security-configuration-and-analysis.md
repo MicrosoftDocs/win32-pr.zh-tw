@@ -4,12 +4,12 @@ ms.assetid: 75fcef40-5f7a-4a62-be34-b9d65e51a0c8
 title: 安全性設定及分析
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d13e32a8680ed2168142413883362ca864e6145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bdf0b24a3ff5527563a705bdbd6cf6f0a412b7d734f354fb7a590fdb0743df28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893489"
 ---
 # <a name="security-configuration-and-analysis"></a>安全性設定及分析
 

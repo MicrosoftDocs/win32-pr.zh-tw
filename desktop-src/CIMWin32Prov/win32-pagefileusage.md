@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 9885bea242a9f2b781ccb0dcac479248a9ccc538
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d5d901c771fb71dbda141f6166348d1601317eae7bcda3ea5a059f5836975014
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510685"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972268"
 ---
 # <a name="win32_pagefileusage-class"></a>Win32 \_ PageFileUsage 類別
 

@@ -1,18 +1,18 @@
 ---
-description: 本文提供 PE 映射中控制流程防護中繼資料的其他詳細資料。
+description: 本文提供控制 Flow 在 PE 映射中防護中繼資料的額外詳細資料。
 title: PE 中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52eb54ac953be4ac09461dbc92bb39d8afc5d332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2bce23a94629900f8610cf3cbc1e2ba0db1c4e6a079bd5f610be230df24ec6e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119994487"
 ---
 # <a name="pe-metadata"></a>PE 中繼資料
 
-本文提供控制流程防護 (CFG) PE 映射中中繼資料的額外詳細資料。 假設您熟悉 PE 映射中的 CFG 元資料結構。 請參閱 [Pe 格式](../debug/pe-format.md) 主題，以取得 pe 映射中 CFG 中繼資料的高階檔集。
+本文提供控制 Flow 保護 PE 映射中的 (CFG) 中繼資料的其他詳細資料。 假設您熟悉 PE 映射中的 CFG 元資料結構。 請參閱 [Pe 格式](../debug/pe-format.md) 主題，以取得 pe 映射中 CFG 中繼資料的高階檔集。
 
 - 有效間接呼叫目標的函式會列在附加至 load configuration 目錄的 **GuardCFFunctionTable** 中，有時也稱為 **GFIDS** 資料表，以求簡潔。 這是已排序的相對虛擬位址清單 (RVA) ，其中包含有效的 CFG 呼叫目標的相關資訊。 一般來說，這些都是定址的函式符號。 想要進行 CFG 強制的映射必須列舉其 **GFIDS** 資料表中的所有位址取得函式符號。 **GFIDS** 資料表中的 RVA 清單必須正確地排序，否則不會載入映射。 **GFIDS** 資料表是 4 + *n* 位元組的陣列，其中 *n* 是由 ( (GuardFlags & IMAGE_GUARD_CF_FUNCTION_TABLE_SIZE_MASK)  >> IMAGE_GUARD_CF_FUNCTION_TABLE_SIZE_SHIFT) 指定。 "GuardFlags" 是 load configuration 目錄的 GuardFlags 欄位。 這可讓您在未來將額外的中繼資料附加至 CFG 呼叫目標。 唯一定義的中繼資料是選擇性的1位元組額外旗標欄位 ( 「GFIDS 旗標」 ) 如果有任何呼叫目標具有中繼資料，則會附加至每個 **GFIDS** 專案。 已定義兩個 **GFIDS** 旗標：
   
@@ -68,7 +68,7 @@ ms.locfileid: "106998905"
 
   模組會設定 IMAGE_GUARD_CF_EXPORT_SUPPRESSION_INFO_PRESENT GuardFlags 位，以指出它已列舉位址取得 IAT 資料表中的所有位址，並以 IMAGE_GUARD_FLAG_EXPORT_SUPPRESSED **GFIDS** 旗標標示符合 CFG ES 資格的所有匯出。 請注意，可能會有零個這類 Thunk，而且可能也有零個這類 dllexport 符號。 無法維護取得的位址 IAT 資料表可能是正確性問題，因為某些呼叫目標在載入 DLL 時可能無法有效。
 
-  模組會設定 IMAGE_GUARD_CF_ENABLE_EXPORT_SUPPRESSION GuardFlags 位，表示它想要為進程啟用 CFG ES。 在實務上，這對目前只有 Exe 有意義。 啟用 CFG ES 的進程不應載入未使用 CFG ES 或執行時間失敗的 Dll，因為 undesignated 位址會取得 IAT 符號。 啟用 cfg ES 的支援應為啟用 CFG 的個別加入宣告選項。 根據預設，提供 CFG ES 中繼資料是安全的，且預設為使用 CFG，不過工具組必須小心確保它們會產生正確的中繼資料。 如果沒有，則其產生的映射可能無法在 CFG ES 進程中正確執行。 您應在強制執行 CFG ES 的測試程式中徹底測試這類支援。 作業系統內建的系統 Dll 支援可瞭解 CFG ES 之新式 Windows 10 作業系統版本的 CFG ES 中繼資料。 這項支援之前的作業系統版本並不瞭解 CFG ES，而且會忽略映射中任何 CFG ES 相關的指示詞。 這類映射仍可回溯相容于較舊的作業系統版本。
+  模組會設定 IMAGE_GUARD_CF_ENABLE_EXPORT_SUPPRESSION GuardFlags 位，表示它想要為進程啟用 CFG ES。 在實務上，這對目前只有 Exe 有意義。 啟用 CFG ES 的進程不應載入未使用 CFG ES 或執行時間失敗的 Dll，因為 undesignated 位址會取得 IAT 符號。 啟用 cfg ES 的支援應為啟用 CFG 的個別加入宣告選項。 根據預設，提供 CFG ES 中繼資料是安全的，且預設為使用 CFG，不過工具組必須小心確保它們會產生正確的中繼資料。 如果沒有，則其產生的映射可能無法在 CFG ES 進程中正確執行。 您應在強制執行 CFG ES 的測試程式中徹底測試這類支援。 作業系統內建的系統 dll 支援可瞭解 cfg es 之新式 Windows 10 作業系統版本的 CFG es 中繼資料。 這項支援之前的作業系統版本並不瞭解 CFG ES，而且會忽略映射中任何 CFG ES 相關的指示詞。 這類映射仍可回溯相容于較舊的作業系統版本。
 
   從工具組的角度來看，CFG ES 支援是選擇性的，但建議工具組至少包含列舉足夠的資訊，以便在需要 CFG ES 的進程中執行影像。 如前所述，工具組支援經過徹底測試，以確保它與 CFG ES 相容，因為大部分的處理常式尚未啟用 CFG ES。
 

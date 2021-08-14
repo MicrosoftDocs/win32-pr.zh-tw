@@ -4,12 +4,12 @@ description: 當您開發的 RPC 介面和方法都能處理一致和變化的�
 ms.assetid: 651bdb5c-ad56-4526-9b7d-7165141e7ceb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b897d8d1f2f5e1c11a5328fb095341871e3689e0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3608e908742d4de4b6564787c6d8faffc29efcef81549ff50414cc7716c468b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929424"
 ---
 # <a name="idl-techniques-for-better-interface-and-method-design"></a>適用于更佳介面和方法設計的 IDL 技術
 
@@ -35,7 +35,7 @@ ms.locfileid: "104372109"
 
 -   使用早期關聯性。 通常最好是定義變數大小參數或欄位，使其在控制整數型別之後立即發生。
 
-    例如，
+    例如
 
     ``` syntax
     earlyCorr
@@ -130,9 +130,9 @@ ms.locfileid: "104372109"
 
     呼叫 RPC 方法時，用戶端應用程式元件必須將 *ppStr* 設定為 **Null** 。
 
- 
+ 
 
- 
+ 
 
 
 

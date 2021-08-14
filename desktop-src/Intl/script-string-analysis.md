@@ -4,12 +4,12 @@ ms.assetid: aa93d631-3cfc-449d-9d04-c1f851129c6c
 title: 'SCRIPT_STRING_ANALYSIS (Usp10) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5ef9bf7e2a3a592a279b593d986220350a3d8f72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9481c641f182015d7a318c21c490f45fcc934e0df1baa52483707628eb4daa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390297"
 ---
 # <a name="script_string_analysis"></a>腳本 \_ 字串 \_ 分析
 
@@ -24,9 +24,9 @@ typedef void* SCRIPT_STRING_ANALYSIS;
 
 ## <a name="remarks"></a>備註
 
-這是 [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse)動態配置及取出的不透明結構。 所有其他 **ScriptString \** _ 函式也需要此功能。
+這是 [**ScriptStringAnalyse**](/windows/desktop/api/Usp10/nf-usp10-scriptstringanalyse)動態配置及取出的不透明結構。 所有其他 **ScriptString \*** 函式也都需要此功能。
 
-因為分析可能很大，所以您的應用程式必須在完成字串後立即呼叫 [_ *ScriptStringFree* *](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) 。
+因為分析可能很大，所以您的應用程式必須在完成字串後立即呼叫 [**ScriptStringFree**](/windows/desktop/api/Usp10/nf-usp10-scriptstringfree) 。
 
 ## <a name="requirements"></a>規格需求
 

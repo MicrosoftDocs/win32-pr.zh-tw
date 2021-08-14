@@ -4,12 +4,12 @@ ms.assetid: 3faba514-23b7-4107-aca6-5b113a0ca164
 title: PlayCap 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f916ac1241410eee5046e1ad24a9350bf4256c83
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 27acecdfd0757d4fd9b085b7d09d1372ead0a33b2aebd95684e1a33367b57765
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982588"
 ---
 # <a name="playcap-sample"></a>PlayCap 範例
 
@@ -23,15 +23,15 @@ ms.locfileid: "106973343"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
-此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 捕獲 \\ PlayCap。
+此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ Capture \\ PlayCap。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

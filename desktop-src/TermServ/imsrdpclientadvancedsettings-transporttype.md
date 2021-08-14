@@ -19,12 +19,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0664e0c792725dc112baf786d63c5175eb450dcc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7829e39db819cf43e58856e4ea7ecd8d76621a78b9d45544a85034703e6ba9b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352973"
 ---
 # <a name="imsrdpclientadvancedsettingstransporttype-property"></a>IMsRdpClientAdvancedSettings：： TransportType 屬性
 
@@ -49,7 +49,7 @@ HRESULT get_TransportType(
 
 ## <a name="property-value"></a>屬性值
 
-設定傳輸類型。 這個方法可能會成功，但是遠端桌面 ActiveX 控制項絕不會使用設定的值。
+設定傳輸類型。 這個方法可能會成功，但是遠端桌面 ActiveX 控制項絕對不會使用設定的值。
 
 ## <a name="remarks"></a>備註
 

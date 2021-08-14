@@ -4,12 +4,12 @@ ms.assetid: facbcbee-46c2-4fb5-85f9-5d08244dcf86
 title: 使用封包 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b16ab553e187bd8967f724300e95b8fd2754bf7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ea6604d080054decaff20a36dc3357dc9206053d3190abb6e39eff60d4ae1ffa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404417"
 ---
 # <a name="using-the-cabinet-api"></a>使用封包 API
 

@@ -4,12 +4,12 @@ description: 什麼是 COM 介面
 ms.assetid: 36f27a58-cc63-4b67-bdcb-8f9a19650c6a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da703569beae7a9aa2fc41bcea0214cc9aa488ad
-ms.sourcegitcommit: 8eac40ea4d87a85e036ed5bbffec7b7a3dab39ec
+ms.openlocfilehash: d4a6eac63fb6395e04f36c89826a392046c906a70105e19bb6b9514975d89197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "104372711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387597"
 ---
 # <a name="what-is-a-com-interface"></a>什麼是 COM 介面？
 

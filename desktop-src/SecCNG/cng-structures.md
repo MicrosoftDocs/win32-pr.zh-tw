@@ -4,12 +4,12 @@ ms.assetid: d2015ee9-7bd0-484f-8d6d-66cf4f45b28f
 title: CNG 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb97e8625f1120848aa3871340b2d69944ad93ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e01bf0183b245be37f2ffc2d5c1cc533f1b5e047211bf9d7adf7e169a85da53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118908069"
 ---
 # <a name="cng-structures"></a>CNG 結構
 

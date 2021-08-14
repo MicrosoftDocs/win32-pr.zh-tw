@@ -4,12 +4,12 @@ ms.assetid: 28d48d59-abb2-4682-ab54-60b6aa7b31b1
 title: 註冊暫時性訂用帳戶
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3fc85f189d14fbe6220d6f3760509e1ba0248a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1f93b543a4602b0b4ed7ed4177133f3eb8f543a0db02750af8657ab36f310993
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119990438"
 ---
 # <a name="registering-a-transient-subscription"></a>註冊暫時性訂用帳戶
 

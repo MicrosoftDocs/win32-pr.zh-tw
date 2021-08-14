@@ -4,12 +4,12 @@ description: 若要在 RPC 用戶端/伺服器應用程式中使用訊息佇列�
 ms.assetid: f90318a6-0be6-4e1a-a1a5-1709808b5d3b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1274c888506a6868eb7ded5ba96c5f1ea8dc8b2
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46d9775e720c725ad3b0d06a0be0cf67aa438f739c6a0d1162f4940ac59e561e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924645"
 ---
 # <a name="system-requirements-for-rpc-message-queuing-applications"></a>RPC-Message 佇列應用程式的系統需求
 
@@ -19,7 +19,7 @@ ms.locfileid: "104382490"
 
 -   Microsoft Windows Server 2003、Windows XP 或 Windows 2000 或更新版本。
 -   SQL Server 6.5 版或更新版本。
--   訊息佇列主要企業控制器或主要網站控制器。
+-   訊息佇列主要 Enterprise 控制器或主要網站控制器。
 -   RPC 伺服器端傳輸 DLL (RpcMqSvr.dll) 。
 
 用戶端電腦的需求如下：
@@ -35,6 +35,6 @@ ms.locfileid: "104382490"
 -   Microsoft Windows Server 2003、Windows XP 或 Windows 2000 或更新版本
 -   MIDL 版本3.1.76 或更新版本。
 
- 
+ 
 
- 
+ 

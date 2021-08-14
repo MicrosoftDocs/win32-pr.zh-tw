@@ -3,12 +3,12 @@ description: 指定 IMFTransform 是否使用硬體 DRM。
 title: MFT_USING_HARDWARE_DRM (Mftransform.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e6dbacedbf5fd9298e4da5154bd82fcc9f39bde
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3b46760fd5759abdd601269f5905f0649145649713839de5fe6424bc36219c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473548"
 ---
 # <a name="mft_using_hardware_drm-attribute"></a>\_使用 \_ 硬體 \_ DRM 屬性的 MFT
 
@@ -41,8 +41,8 @@ ms.locfileid: "104469260"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 2020 年4月更新   <br/>                                       |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 102020年4月更新   <br/>                                       |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 
