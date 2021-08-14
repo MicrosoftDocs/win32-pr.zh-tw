@@ -4,12 +4,12 @@ ms.assetid: d58bcd99-c54b-4fda-9fe1-e10a66707d81
 title: 增強型提供者演算法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 841c9327e4cc4c7e7e3b86471ef79fea7b478c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5a8be464a57a482fa74fef07de097508508d7e965a5c20817ccbd884bb169e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766099"
 ---
 # <a name="enhanced-provider-algorithms"></a>增強型提供者演算法
 

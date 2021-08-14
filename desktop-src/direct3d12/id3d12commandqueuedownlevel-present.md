@@ -16,12 +16,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 08/29/2019
-ms.openlocfilehash: a6c74685911e52a671eaeb02645754a45b8d647e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b21a97d15d2666dcfe0a304f2393d6d14c5dbcc4142d8b42f43f295d8751614b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106995902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529128"
 ---
 # <a name="id3d12commandqueuedownlevelpresent-method"></a>ID3D12CommandQueueDownlevel：:P 重發方法
 
@@ -86,6 +86,6 @@ HRESULT Present
 
 ## <a name="see-also"></a>另請參閱
 * [ID3D12CommandQueueDownlevel](id3d12commandqueuedownlevel.md)
-* [Windows 7 上的 Direct3D 12 介面](direct3d-12on7-interfaces.md)
-* [Windows 7 上的 Direct3D 12 參考 (d3d12downlevel .h) ](direct3d-12on7-reference.md)
+* [Windows 7 介面上的 Direct3D 12](direct3d-12on7-interfaces.md)
+* [Windows 7 參考上的 Direct3D 12 (d3d12downlevel .h) ](direct3d-12on7-reference.md)
 * [Windows 7 上的 Direct3D 12](https://devblogs.microsoft.com/directx/porting-directx-12-games-to-windows-7/)

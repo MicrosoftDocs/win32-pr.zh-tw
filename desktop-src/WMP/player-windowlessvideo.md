@@ -1,6 +1,6 @@
 ---
 title: WindowlessVideo
-description: WindowlessVideo 屬性會指定或抓取值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。
+description: windowlessVideo 屬性會指定或抓取值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。
 ms.assetid: 314a75a3-d096-4cd4-a747-e31367e0e265
 keywords:
 - WindowlessVideo Windows Media Player
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 93f4a8a2b70a42cd0893d463eccca0427dde6c43
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 733f8488d1d45f4c7e9794e64e2b3a70b41722048eac82d5d8eb6eb2f1d91cd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118572075"
 ---
 # <a name="playerwindowlessvideo"></a>WindowlessVideo
 
-**WindowlessVideo** 屬性會指定或抓取值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。
+**windowlessVideo** 屬性會指定或抓取值，指出 Windows Media Player 控制項是否以無視窗模式呈現影片。
 
 ## <a name="syntax"></a>Syntax
 

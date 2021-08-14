@@ -4,12 +4,12 @@ ms.assetid: 5b94ae87-91fc-49d6-9355-83327cfdb3f3
 title: 'MFPKEY_SourceOpenMonitor 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a49826ee16a733993b9052e12d9e6fcd5003410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45594e1929e66982d3e518c4ba098d2ca4b22e854e033dc69025aaf3ec5d5cc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872984"
 ---
 # <a name="mfpkey_sourceopenmonitor-property"></a>MFPKEY \_ SourceOpenMonitor 屬性
 
@@ -41,8 +41,8 @@ VT \_ 不明
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: d99400a4-3661-4162-bfd6-8c2a27e0f328
 title: IWinHttpRequestEvents：： OnError 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8582deec90eb6bfc2985460f3127d5c7ee9c01b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 31127dcc3155b804bbda1c3ab94ee8a410c73f5a96c3ecfc6f787479ccd51539
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744336"
 ---
 # <a name="iwinhttprequesteventsonerror-event"></a>IWinHttpRequestEvents：： OnError 事件
 
@@ -52,7 +52,7 @@ void OnError(
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> 針對 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的 [執行時間需求](winhttp-start-page.md) 一節。
+> 如 Windows XP 和 Windows 2000，請參閱 WinHTTP 起始頁的[執行時間需求](winhttp-start-page.md)一節。
 
  
 
@@ -62,10 +62,10 @@ void OnError(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]<br/>            |
-| 最低支援的伺服器<br/> | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]<br/>         |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]<br/>            |
+| 最低支援的伺服器<br/> | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]<br/>         |
 | 可轉散發套件<br/>          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。<br/> |
-| Idl<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>HttpRequest .idl</dt> </dl> |
 
 
 

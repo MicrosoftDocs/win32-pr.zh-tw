@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: e61208f15772a43138e6cd7a38fd6327445bdfa5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd16ee40bfb480b3e7eacef2bc4681e61fdb24ace1ac68985e2016ce11b7c0e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219627"
 ---
 # <a name="taskbar-thumbnail-toolbar-sample"></a>工作列縮圖工具列範例
 

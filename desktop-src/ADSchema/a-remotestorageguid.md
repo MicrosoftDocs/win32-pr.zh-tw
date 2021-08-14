@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f09677b970af3251664edd3901315189acfe18dc
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 54b3f00137661f73356a8b0af41ca0f2882b0b0c6b0f5bfb210d185e7a1b3243
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118423774"
 ---
 # <a name="remote-storage-guid-attribute"></a>遠端儲存體-GUID 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -66,7 +66,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -87,7 +87,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -108,7 +108,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -129,7 +129,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -150,7 +150,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "106973710"
 | 連結識別碼                | \-                                                                             |
 | MAPI-Id                | \-                                                                             |
 | System-Only            | 否                                                                          |
-| 是-單一值       | 對                                                                           |
+| 是-單一值       | 是                                                                           |
 | 已編制索引             | 否                                                                          |
 | 在通用類別目錄中      | 否                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                   |
@@ -171,7 +171,7 @@ ms.locfileid: "106973710"
 | Range-Upper            | \-                                                                             |
 | Search-Flags           | 0x00000000                                                                     |
 | System-Flags           | 0x00000010                                                                     |
-| 中使用的類別        | [**遠端存放服務-點**](c-remotestorageservicepoint.md)<br/> |
+| 中使用的類別        | [**遠端儲存體-服務點**](c-remotestorageservicepoint.md)<br/> |
 
 
 

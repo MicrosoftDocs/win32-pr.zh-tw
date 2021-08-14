@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1c9feb77219aea62e8905ef57148e1c6abac48bf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e61f6a3563f211094e225345c86b999c6e0e93fc33d88adef0a1e942b2e3ff6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571748"
 ---
 # <a name="playerelement"></a>PLAYERELEMENT
 

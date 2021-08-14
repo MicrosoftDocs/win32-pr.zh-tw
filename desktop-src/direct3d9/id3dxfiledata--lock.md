@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: 27ef18fcb12b00f0b778ee15d582610ffe52fe54
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c052f570b3206c5a0661a4cf4ab38b259fb476f4eda1322df80e709608d09bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520705"
 ---
 # <a name="id3dxfiledatalock-method"></a>ID3DXFileData：： Lock 方法
 

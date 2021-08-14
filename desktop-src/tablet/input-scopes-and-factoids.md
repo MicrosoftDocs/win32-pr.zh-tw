@@ -4,12 +4,12 @@ ms.assetid: 9faf6d22-b80d-4020-ac74-ee40b31ae9d4
 title: 輸入範圍和 Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bbb46e21a0524f806daa4eed789fde31e285109
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 881ebd26cbfb70cb215103b9a6face356af078e47b74a2e9140886f81f457eef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118450968"
 ---
 # <a name="input-scopes-and-factoids"></a>輸入範圍和 Factoids
 
@@ -20,7 +20,7 @@ ms.locfileid: "104195118"
 
  
 
-舊版 Tablet PC 技術 API 使用 factoids 來定義內容。 針對實際用途，模擬程式與輸入範圍的內容相同。 第一個版本的 Tablet PC SDK 平臺定義了一 [**組智慧標籤物件中**](factoid-constants.md) 的一組模擬值。 使用 [**RecognizerCoNtext**](inkrecognizercontext-class.md) 物件進行辨識時，這些值可用來設定內容和影響辨識結果。 針對從 Windows XP Tablet PC Edition 2005 開始的拉丁腳本辨識器，您仍然可以使用 **RecognizerCoNtext** 物件的 [[**模擬**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid)] 屬性來設定內容，但您應該傳入輸入範圍、片語清單或手寫的正則運算式值，而不是其中一個版本的模擬值。 東亞字元的 Microsoft 辨識器不支援使用輸入範圍的列舉值。 您應該繼續使用適用于東亞字元辨識器的模擬值。
+舊版 Tablet PC 技術 API 使用 factoids 來定義內容。 針對實際用途，模擬程式與輸入範圍的內容相同。 第一個版本的 Tablet PC SDK 平臺定義了一 [**組智慧標籤物件中**](factoid-constants.md) 的一組模擬值。 使用 [**RecognizerCoNtext**](inkrecognizercontext-class.md) 物件進行辨識時，這些值可用來設定內容和影響辨識結果。 從 Windows XP Tablet PC Edition 2005 開始，若要辨識拉丁腳本的辨識器，您仍然可以使用 **RecognizerCoNtext** 物件的「[**模擬**](/windows/desktop/api/msinkaut/nf-msinkaut-iinkrecognizercontext-get_factoid)」屬性來設定內容，但您應傳入輸入範圍、片語清單或手寫的正則運算式值，而不是其中一個「模擬」值。 東亞字元的 Microsoft 辨識器不支援使用輸入範圍的列舉值。 您應該繼續使用適用于東亞字元辨識器的模擬值。
 
 輸入範圍和 factoids 是文字層級替代項的限制;即使設定了 **強制** 旗標，字元替代字元也可能在指定的輸入範圍之外。
 

@@ -15,12 +15,12 @@ keywords:
 - 程式庫，登錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e48ea1aacdd1e4c553a7e83bfdd711ff331c0878
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 51cb263732dc8071d603c5acd62db25fc8ee887c35b28d109d961a63aba80d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118575128"
 ---
 # <a name="library-classification-registry-entries"></a>程式庫分類登錄專案
 
@@ -36,13 +36,13 @@ ms.locfileid: "106965180"
 
 
 
-| Name                                                  | 資料類型   | 值                                      |
+| 名稱                                                  | 資料類型   | 值                                      |
 |-------------------------------------------------------|-------------|--------------------------------------------|
 | 沒有句點 ( 的副檔名 ) 分隔符號 | **REG \_ SZ** | 指定程式庫位置的字串 |
 
 
 
- 
+ 
 
 另一個登錄專案會進入您所建立的下列子機碼。
 
@@ -54,13 +54,13 @@ ms.locfileid: "106965180"
 
 
 
-| Name          | 資料類型   | 值                                      |
+| 名稱          | 資料類型   | 值                                      |
 |---------------|-------------|--------------------------------------------|
 | PerceivedType | **REG \_ SZ** | 指定程式庫位置的字串 |
 
 
 
- 
+ 
 
 這兩個登錄專案都必須具有相同的值。 下表提供可能的值。
 
@@ -73,7 +73,7 @@ ms.locfileid: "106965180"
 
 
 
- 
+ 
 
 例如，下列登錄專案會指定副檔名為的檔案。 xyz 將會出現在文件庫的音樂部分：
 
@@ -104,9 +104,9 @@ HKEY_CLASSES_ROOT\.xyz
 [**副檔名登錄設定**](file-name-extension-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

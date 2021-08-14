@@ -4,12 +4,12 @@ description: 當您安裝 (SDK) 的平臺軟體發展工具組時，會自動安
 ms.assetid: d5da3bca-5251-4ba4-b873-0817fe0f298d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b418358649d0cf7205b9a3bde236cf66d3ce81e0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 31ddb48a38faadb8235064fa735fa8a75a80a62308990373ab1971d4a6cd9ecb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930793"
 ---
 # <a name="developing-rpc-windows-applications"></a>開發 RPC Windows 應用程式
 
@@ -38,12 +38,12 @@ ms.locfileid: "104023983"
 
 
 
- 
+ 
 
 > [!Note]  
 > Rpcns4 已淘汰，不再支援。
 
- 
+ 
 
 下列 RPC 程式庫隨附于下層支援。
 
@@ -66,10 +66,10 @@ ms.locfileid: "104023983"
 
 
 
- 
+ 
 
 您也將需要 Microsoft 介面定義語言 (MIDL) 編譯器。 如需詳細資訊，請參閱 [使用 MIDL 編譯器](/windows/desktop/Midl/using-the-midl-compiler-2)。
 
- 
+ 
 
- 
+ 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a8b9f93cb7e22b729702f80a2e6f057311ff8df
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2478e0baf788fd3d03448ce024b1f42961513c8a65920274807dabadc668e5b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118581141"
 ---
 # <a name="cameramanufacturer-attribute"></a>CameraManufacturer 屬性
 

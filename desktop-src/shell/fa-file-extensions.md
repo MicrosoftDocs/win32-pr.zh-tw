@@ -4,12 +4,12 @@ ms.assetid: c0c5c3ef-35ff-4ab6-bb8a-1f0640109d50
 title: 檔案類型處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cba365b6eb704def7644002b8a87c3842b62aa77
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 404cfd3be4c3e8a600b2f943bda1243ca243b70af411e104000245edd13d94c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459723"
 ---
 # <a name="file-type-handlers"></a>檔案類型處理常式
 
@@ -23,7 +23,7 @@ ms.locfileid: "103847915"
 
 ## <a name="make-a-file-type-known-to-shell"></a>使檔案類型知道 Shell
 
-在下列 Windows 檔案總管的螢幕擷取畫面中，影像檔案 Desert 會出現在 [Shell **圖片** ] 媒體櫃中，而且只會與油漆應用程式相關聯。
+在下列 Windows 檔案總管的螢幕擷取畫面中，影像檔案 Desert 會出現在 [Shell **圖片**] 媒體櫃中，而且只與小畫家應用程式相關聯。
 
 ![顯示 explorer 開啟沒有檔案類型之影像的螢幕擷取畫面](images/file-assoc/fileassoc-filetypehandler.png)
 
@@ -40,7 +40,7 @@ ms.locfileid: "103847915"
     -   分級
 -   為檔案文字編制索引
 
-在下列螢幕擷取畫面中，相同的檔案 (Desert。已知的) 具有 .jpg 副檔名，也就是具有相關檔案類型處理常式的已註冊檔案類型，因此會顯示縮圖影像和其他屬性。
+在下列螢幕擷取畫面中，相同的檔案 (Desert。已知的) 具有 .jpg 延伸模組，這是具有相關聯檔案類型處理常式的已註冊檔案類型，因此會顯示縮圖影像和其他屬性。
 
 ![具有已註冊檔案類型和相關檔案類型處理常式的影像](images/file-assoc/fileassoc-filetypehandler-2ndex.png)
 

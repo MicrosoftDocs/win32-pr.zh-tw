@@ -4,12 +4,12 @@ ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\windowproperties.htm
 title: 視窗屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a06be9fca67dedeb98afd7a56638622dabc858
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e82aba0544e1763d36c0378e5d06dc25d48f3297ba8bc8b3bd8687dbba4b0afe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200589"
 ---
 # <a name="window-properties"></a>視窗屬性
 

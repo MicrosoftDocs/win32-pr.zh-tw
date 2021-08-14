@@ -4,12 +4,12 @@ ms.assetid: 9bb56d80-670e-4b2b-bf3f-40d0a75a89b6
 title: StructuredQuerySample
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64da74b56658f74b056c64c314a2986ddce45ba3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cab8f32a3ed58133893ed5c38c16c2ac242e9a28c6384a4e354bb6b0524c5a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462573"
 ---
 # <a name="structuredquerysample"></a>StructuredQuerySample
 
@@ -39,7 +39,7 @@ StructuredQuerySample 程式碼範例示範如何從主控台讀取行、使用�
 | GitHub        | [StructuredQuerySample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/StructuredQuerySample)  |
 
 > [!NOTE]  
-> 針對所有 Windows 版本（包括 Windows 7），建議您直接從 GitHub 下載最新版本的範例。
+> 針對所有版本的 Windows （包括 Windows 7），建議您直接從 GitHub 下載這些範例，以取得最新版本。
 
 ## <a name="building-the-sample"></a>建立範例
 
@@ -47,7 +47,7 @@ StructuredQuerySample 程式碼範例示範如何從主控台讀取行、使用�
 2. 按兩下 StructuredQuerySample .sln 檔案的圖示，在 Visual Studio 中開啟專案。
 
     > [!NOTE]  
-    > .Sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
+    > .sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
 
 3. 從 [ **組建** ] 功能表選取 [ **建立方案**]。
 

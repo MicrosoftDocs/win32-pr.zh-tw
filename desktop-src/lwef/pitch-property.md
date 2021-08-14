@@ -4,16 +4,16 @@ description: 音調屬性
 ms.assetid: 98b2ada3-93c6-4fa1-bf12-353eb229c30c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 998ee4bcf77878062425086d67066040f5d58421
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6e346ea0fbb7ebb819d8f00b2fc6aab1ab95e72f391bddc696da18a49f0b2a09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475408"
 ---
 # <a name="pitch-property"></a>音調屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104372643"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。瀝青**
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。推銷_*
 
 </dd> </dl>
 
@@ -37,9 +37,9 @@ ms.locfileid: "104372643"
 
 雖然您的應用程式無法寫入此值，但您可以在輸出文字中包含 **Pit** (音調) 標記，以暫時增加特定語句的間距。 不過，使用 **Pit** 標籤來變更間距，並不會變更 [ **音調** ] 屬性設定。 如需詳細資訊，請參閱 [語音輸出標記](pit-tag.md)。
 
- 
+ 
 
- 
+ 
 
 
 

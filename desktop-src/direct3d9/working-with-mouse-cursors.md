@@ -4,12 +4,12 @@ ms.assetid: 300a8a6f-abcd-49c9-889b-14b12ff5c821
 title: 使用 (Direct3D 9) 的滑鼠游標
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14855e2d17c9d23f078297840d951b8db338d613
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 999bd324c8c3a1a2c743b5417f5d316a9d0f9493ccb4b749545e53e23e58917f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467865"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518916"
 ---
 # <a name="working-with-mouse-cursors-direct3d-9"></a>使用 (Direct3D 9) 的滑鼠游標
 
@@ -27,7 +27,7 @@ Direct3D 可確保在呼叫 IDirect3DDevice9 時執行硬體加速 blitting 作�
 
 <dl> <dt>
 
-[程式設計秘訣](programming-tips.md)
+[程式設計提示](programming-tips.md)
 </dt> </dl>
 
  

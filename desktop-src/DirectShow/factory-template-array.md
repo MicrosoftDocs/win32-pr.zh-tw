@@ -4,12 +4,12 @@ ms.assetid: 310afccd-42a6-426e-b455-7bf98062bf36
 title: Factory 範本陣列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645f2c8d05f37ab64142747755d6a0e7727f4b11
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: f1888a2a054473865c713d96cdfa5706c35229dc938f23513a95066176ab138c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401843"
 ---
 # <a name="factory-template-array"></a>Factory 範本陣列
 

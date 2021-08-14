@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 91004ca276140271e8d73c3fc226e83c4e03d1fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09efeac38babb057621cb6f25d14d3a631c12242e91982ae3ab9e79570416be5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395344"
 ---
 # <a name="cswitch-class"></a>CSwitch 類別
 
@@ -173,7 +173,7 @@ class CSwitch : Thread_V2
 | 4     | 已終止                                    |
 | 5     | 等候中                                       |
 | 6     | 轉換                                    |
-| 7     | DeferredReady (為 Windows Server 2003) 新增 |
+| 7     | 針對 Windows Server 2003) 新增的 DeferredReady ( |
 
 
 
@@ -341,8 +341,8 @@ class CSwitch : Thread_V2
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: 341c551064869532e8b51ddecdbe1d5a78878abd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 1d100d4ecb4caa6fb7230afd3d4ae6572466ae86855ac9bd28155b6b181cdd5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106995884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452153"
 ---
 # <a name="_ianalysisproxyeventscontextnodelinkadding-event"></a>\_IAnalysisProxyEvents：： CoNtextNodeLinkAdding 事件
 
@@ -70,7 +70,7 @@ HRESULT ContextNodeLinkAdding(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

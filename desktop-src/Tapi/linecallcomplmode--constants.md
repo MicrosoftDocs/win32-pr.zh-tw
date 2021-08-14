@@ -4,12 +4,12 @@ ms.assetid: 68f755a1-586b-4c5b-b8e8-c8b40eb71685
 title: 'LINECALLCOMPLMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 373a66b6ce13b7bfba00303bea824f542bf0016a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d43f76c9b8012f9ecb60c6b0ffd787d5a0bad87794eb833cc4095c276ba983f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761752"
 ---
 # <a name="linecallcomplmode_-constants"></a>LINECALLCOMPLMODE \_ 常數
 

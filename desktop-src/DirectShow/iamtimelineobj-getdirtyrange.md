@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 828bb5a88d3bcefcf10f0a6e4f07070a4b60322d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6af9706f2a75b7d8460914bf15f6bcd7935db99539ea907b631a02b8ad94b313
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108098566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118400716"
 ---
 # <a name="iamtimelineobjgetdirtyrange-method"></a>IAMTimelineObj：： GetDirtyRange 方法
 
@@ -72,7 +72,7 @@ HRESULT GetDirtyRange(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

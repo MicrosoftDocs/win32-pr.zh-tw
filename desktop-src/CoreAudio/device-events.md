@@ -4,18 +4,18 @@ ms.assetid: b31500d6-a79d-4e6e-878e-6bd77055f1ad
 title: '裝置事件 (核心音訊 Api) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0513fc49ee5f3cb2bfe95ca2330cb79b74720923
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b61538bd7d8d297b52a321f446bb11c3e1365e549a3c2947b55538730c1660c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407026"
 ---
 # <a name="device-events-core-audio-apis"></a>裝置事件 (核心音訊 Api) 
 
 裝置事件會通知用戶端系統中 [音訊端點裝置](audio-endpoint-devices.md) 的狀態變更。 以下是裝置事件的範例：
 
--   使用者可以從裝置管理員或從 Windows 多媒體控制台 Mmsys.cpl，啟用或停用音訊端點裝置。
+-   使用者可以從裝置管理員或 Windows 多媒體控制台 Mmsys.cpl，啟用或停用音訊端點裝置。
 -   使用者將音訊介面卡新增至系統，或從系統移除音訊介面卡。
 -   使用者將音訊端點裝置插入具有插座狀態偵測的音訊插孔，或從這類插孔移除音訊端點裝置。
 -   使用者變更指派給裝置的 [裝置角色](device-roles.md) 。

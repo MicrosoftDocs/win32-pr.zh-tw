@@ -1,6 +1,6 @@
 ---
 title: 'IVMVirtualPC 執行時間屬性 (VPCCOMInterfaces .h) '
-description: 捕獲 Windows Virtual PC 應用程式執行的秒數。
+description: 抓取 Windows Virtual PC 應用程式執行的秒數。
 ms.assetid: 3007a961-2e8c-4674-aab6-4424d0d73eca
 keywords:
 - 執行時間屬性 Virtual PC
@@ -17,18 +17,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fab07128380a097677e0ad8acca5208e5cef11da
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3ff1d71777db92ba84905fd1908d0c0334d098479ce4210c7407ee129c609ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117752007"
 ---
 # <a name="ivmvirtualpcuptime-property"></a>IVMVirtualPC：：執行時間屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
-捕獲 Windows Virtual PC 應用程式執行的秒數。
+抓取 Windows Virtual PC 應用程式執行的秒數。
 
 這個屬性是唯讀的。
 
@@ -66,7 +66,7 @@ Windows Virtual PC 應用程式執行的秒數。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

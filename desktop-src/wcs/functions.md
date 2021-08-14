@@ -3,7 +3,7 @@ title: '函數 (WCS) '
 description: 在下列主題中，會依類別來組織 WCS 函數。 這可讓您在單一主題中流覽具有相關用途的函式。 函數參考頁面會依字母順序排列。
 ms.assetid: aba45dbd-6fc2-4788-87f0-043579fa53f9
 keywords:
-- Windows Color System (WCS) ，函數
+- Windows色彩系統 (WCS) ，函數
 - WCS (Windows 色彩系統) ，函數
 - 影像色彩管理，函數
 - 色彩管理，函數
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: faec94aa33471bf56922a865b657e558a63d8457
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 09508cf58d1edd87ed14aeee257a6667b5f90106e35c0de7d29a0d7304dd193a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106983262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851944"
 ---
 # <a name="wcs-functions"></a>WCS 函數
 

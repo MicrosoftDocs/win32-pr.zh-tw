@@ -4,12 +4,12 @@ ms.assetid: 5923cb4c-f663-40d2-989a-07d71ac475db
 title: 認證相符控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c184ba01da0a55309fcb27ace9b0fe156edd6425
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 5ac1a39cfc1d1ab819181e37c17328d6015a884f9ae1cce546643480351341b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106995115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781491"
 ---
 # <a name="mandatory-integrity-control"></a>認證相符控制
 
@@ -17,7 +17,7 @@ ms.locfileid: "106995115"
 
 MIC 使用完整性層級和強制性原則來評估存取權。 [*安全性主體*](/windows/desktop/SecGloss/s-gly) 和安全物件會被指派完整性層級，以決定其保護或存取層級。 例如，低完整性層級的主體無法寫入具有中度完整性層級的物件，即使該物件的 DACL 允許主體的寫入存取權也一樣。
 
-Windows 定義四個完整性層級：低、中、高和系統。 標準使用者會收到中高許可權的使用者。 如果可執行檔的層級很低，您所建立的進程和您所建立的物件會收到您的完整性層級 (中或高) 或低;系統服務接收系統完整性。 系統會將缺少完整性標籤的物件視為「中」，這可防止低完整性程式碼修改未標記的物件。 此外，Windows 還可確保以低完整性層級執行的進程無法取得與應用程式容器相關聯之進程的存取權。
+Windows 定義四個完整性層級：低、中、高和系統。 標準使用者會收到中高許可權的使用者。 如果可執行檔的層級很低，您所建立的進程和您所建立的物件會收到您的完整性層級 (中或高) 或低;系統服務接收系統完整性。 系統會將缺少完整性標籤的物件視為「中」，這可防止低完整性程式碼修改未標記的物件。 此外，Windows 可確保以低完整性層級執行的進程無法取得與應用程式容器相關聯之進程的存取權。
 
 ## <a name="integrity-labels"></a>完整性標籤
 

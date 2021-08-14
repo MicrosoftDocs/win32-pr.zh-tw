@@ -4,19 +4,19 @@ description: NAP 用戶端和伺服器端元件通訊
 ms.assetid: 7658cf0c-607b-44ba-b579-72082d0d1f51
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07597ac80a1e02c4f8528b3c99050aefb5963988
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f2d3c390aa8bdc8cc80eec8834dd1c250d523737d63963b4b9370877ffa46329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372538"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799069"
 ---
 # <a name="nap-client-and-server-side-component-communication"></a>NAP 用戶端和伺服器端元件通訊
 
 > [!Note]  
 > 從 Windows 10 開始，無法使用網路存取保護平臺
 
- 
+ 
 
 NAP 代理程式元件可以透過下列程式與 NAP 管理伺服器元件通訊：
 
@@ -57,9 +57,9 @@ SHV 可透過下列進程與其對應的 SHA 通訊：
 
 ![nap 平臺中伺服器對用戶端通訊的架構](images/nap-server-to-client-comm.png)
 
- 
+ 
 
- 
+ 
 
 
 

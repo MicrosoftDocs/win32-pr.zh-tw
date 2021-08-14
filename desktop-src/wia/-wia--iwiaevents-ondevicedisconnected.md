@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 45652f3c447c1dd0f59b0470823782c6ba635cb0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9d61d196e3a9a7471b9a1fb1ab86c3ba918427ccc5dd5060ffaabdf28f80871
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442154"
 ---
 # <a name="wiaondevicedisconnected-event"></a>Wia. OnDeviceDisconnected 事件
 
@@ -62,8 +62,8 @@ Wia.OnDeviceDisconnected(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

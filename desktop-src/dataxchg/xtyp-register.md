@@ -3,7 +3,7 @@ title: 'XTYP_REGISTER 交易 (Ddeml .h) '
 description: '\_每當動態資料交換管理程式庫 (DDEML) 伺服器應用程式使用 DdeNameService 函式來註冊服務名稱，或每當支援系統主題的非 DDEML 應用程式啟動時，動態資料交換 (DDE) 回呼函式 DdeCallback 會收到 XTYP REGISTER 交易類型。'
 ms.assetid: 465e9c10-1526-4e2a-8a46-5984043f5a93
 keywords:
-- XTYP_REGISTER 交易資料交換
+- XTYP_REGISTER 交易資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd56bf4f5ac2b4eb0f714e5348174942f685c2ab
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 79c4ffdb48b7a69109659e65d816b4ab146a1f38bde976e7f8330746f564bc64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118544747"
 ---
 # <a name="xtyp_register-transaction"></a>XTYP \_ 註冊交易
 
@@ -110,7 +110,7 @@ ms.locfileid: "104464949"
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                   |
-| 標頭<br/>                   | <dl> <dt>Ddeml (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Ddeml (包含 Windows .h) </dt> </dl> |
 
 
 

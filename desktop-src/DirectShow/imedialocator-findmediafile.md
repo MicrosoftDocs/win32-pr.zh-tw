@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 3561b77873c90b2d4bd0202bed8e2da822a0362f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cc1acda4a3bc6e2d93ae8b7024ef34f759c11c5c4d487a09d3be3a3542e0c445
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818935"
 ---
 # <a name="imedialocatorfindmediafile-method"></a>IMediaLocator：： FindMediaFile 方法
 
@@ -82,7 +82,7 @@ HRESULT FindMediaFile(
 
 ## <a name="remarks"></a>備註
 
-[開啟檔案] 對話方塊的篩選字串（由 *FilterString* 參數指定）包含內部 Null 字元。 例如，Video \\ 0 \* . avi \\ 0 \\ 0 是有效的篩選字串。 您無法使用 **SysAllocStr** 函式來配置 BSTR，因為該函式需要以 null 終止的字串，且會在第一個 Null 字元截斷字串。 因此，請使用類似 **SysAllocStringLen** 的函式，其中包含長度的明確參數：
+[開啟檔案] 對話方塊的篩選字串（由 *FilterString* 參數指定）包含內部 Null 字元。 例如，影片 \\ 0 \*.avi\\ 0 \\ 0 是有效的篩選字串。 您無法使用 **SysAllocStr** 函式來配置 BSTR，因為該函式需要以 null 終止的字串，且會在第一個 Null 字元截斷字串。 因此，請使用類似 **SysAllocStringLen** 的函式，其中包含長度的明確參數：
 
 
 ```C++
@@ -102,7 +102,7 @@ BSTR filter = SysAllocStringLen(L"Video\0*.avi\0", 12);
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

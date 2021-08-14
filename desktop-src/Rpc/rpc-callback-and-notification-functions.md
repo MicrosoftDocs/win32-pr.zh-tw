@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、參考、回呼和通知函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a8d614c079d762cf740ff7eb449e3c05c932243
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a1e05fab4300724f43972098753806b0d56ba59023fe884d05ab83d054e02a44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926555"
 ---
 # <a name="rpc-callback-and-notification-functions"></a>RPC 回呼和通知函數
 
@@ -24,6 +24,6 @@ ms.locfileid: "103682940"
 -   [**RPC \_ 物件 \_ INQ \_ FN**](/windows/desktop/api/Rpcdce/nc-rpcdce-rpc_object_inq_fn)
 -   [**RPCNOTIFICATION \_ 常式**](/previous-versions/aa375808(v=vs.80))
 
- 
+ 
 
- 
+ 

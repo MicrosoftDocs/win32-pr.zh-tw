@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 7185f9e5-10c6-43cc-b85b-cd077378338f
-ms.openlocfilehash: 3a993312b9e365561018459c43dab87afbd3c2b2
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 719e13e824778ec133ad761d09ccd3bd8f5846ae8cdb36c83ba4f85eca1c2408
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224107"
 ---
 # <a name="fms_toolbarload-structure"></a>FMS \_ TOOLBARLOAD 結構
 

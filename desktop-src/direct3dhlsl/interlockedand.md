@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 487a7daaffe25e4e8bb22aec5805ded2a8091161
-ms.sourcegitcommit: 12e9b14501d51641b690ee0cf764e2b91eb9a140
+ms.openlocfilehash: b058b5d235e04761c24ace1d6f1bb5cca1187f01d8fe0eb1a9d0178c036bf5f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "104990879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511328"
 ---
 # <a name="interlockedand-function-hlsl-reference"></a>InterlockedAnd 函式 (HLSL 參考) 
 
@@ -28,9 +28,9 @@ ms.locfileid: "104990879"
 
 ``` syntax
 void InterlockedAnd(
-  in  R dest,
-  in  T value,
-  out T original_value
+  in  R dest,
+  in  T value,
+  out T original_value
 );
 ```
 
@@ -85,19 +85,19 @@ void InterlockedAnd(
 
 
 
- 
+ 
 
 下列著色器類型支援此函數：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      |  x   |  x     |  x       | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -109,9 +109,9 @@ void InterlockedAnd(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 595cb5c0-da12-4fe9-944c-a61d8ed990b4
 title: Vs_3_0 (DirectX HLSL) 中的頂點紋理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a4e8e7bbf7e1ae9764fe5b30647f318dfaeb3ba
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a4cbd4aa1e1830d29656fea2bc7b028191bee158eede119c9a47ae2457d10e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519445"
 ---
 # <a name="vertex-textures-in-vs_3_0-directx-hlsl"></a>Vs \_ 3 \_ 0 (DirectX HLSL) 的頂點紋理
 

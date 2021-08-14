@@ -4,12 +4,12 @@ ms.assetid: 868218c4-3e1a-4da0-89fa-30a9848da0e8
 title: 沖洗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 575f311020c2c7a567e544b80ba323a29051cc38
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1e70f610a68b2ca81afff736b3e7402d80e5d5675e429d1715ebebf5b640a362
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401742"
 ---
 # <a name="flushing"></a>沖洗
 

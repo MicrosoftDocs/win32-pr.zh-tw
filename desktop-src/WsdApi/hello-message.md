@@ -4,12 +4,12 @@ ms.assetid: a7402e02-9bdc-49ec-ba93-8a32f55b9dd8
 title: Hello 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6504f25d360de055d7c0715266472e212540a14
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 526b51576b36f143a932a757c70d0df19ddf9cc5efad3e51c4f7802003e6565e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118552439"
 ---
 # <a name="hello-message"></a>Hello 訊息
 
@@ -73,7 +73,7 @@ Hello 訊息具有下列焦點點。
 <tr class="header">
 <th>對焦點</th>
 <th>XML</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -115,7 +115,7 @@ Hello 訊息具有下列焦點點。
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息](discovery-and-metadata-exchange-message-patterns.md)
 </dt> <dt>
 
 [再見訊息](bye-message.md)

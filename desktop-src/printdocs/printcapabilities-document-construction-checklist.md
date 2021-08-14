@@ -4,12 +4,12 @@ ms.assetid: 4b8fa1a4-6461-4722-861b-354f206b2a73
 title: PrintCapabilities 檔結構檢查清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee309c96cf7b2d70cb78f125e7783668fb2298da
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 3a5284a480f73151750926d975535ea799457a1ce2cd4c14f197a4fc6519b646
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867960"
 ---
 # <a name="printcapabilities-document-construction-checklist"></a>PrintCapabilities 檔結構檢查清單
 

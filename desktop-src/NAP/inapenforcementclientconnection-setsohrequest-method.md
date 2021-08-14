@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92559d532e99bfa29d7f62fd29b279db20f2c0a3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be2d2d3a4574b086d49cba7d9c0afda72cf62621dbed37add8550a7ae2f93cd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799632"
 ---
 # <a name="inapenforcementclientconnectionsetsohrequest-method"></a>INapEnforcementClientConnection：： SetSoHRequest 方法
 
@@ -82,10 +82,10 @@ HRESULT SetSoHRequest(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapEnforcementClient。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
 
 

@@ -1,5 +1,5 @@
 ---
-description: 指出記憶體頁面已從系統使用中移除，因為發生過多的硬體錯誤檢查，並修正 (ECC) 錯誤。 此類別僅適用于64位的 Windows 系統。
+description: 指出記憶體頁面已從系統使用中移除，因為發生過多的硬體錯誤檢查，並修正 (ECC) 錯誤。 此類別僅適用于64位 Windows 系統。
 ms.assetid: 364a2520-8d7c-44f2-95f6-eea9a5531975
 title: MSMCAEvent_MemoryPageRemoved 類別
 ms.topic: reference
@@ -16,16 +16,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: dc29c5b51531e204ab50f062dd08ef8d5abf1bbf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8229848cf1113736e3b9a4e37cd9493b8c724c58c384387536cded4742ca3c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118558465"
 ---
 # <a name="msmcaevent_memorypageremoved-class"></a>MSMCAEvent \_ MemoryPageRemoved 類別
 
-**MSMCAEvent \_ MemoryPageRemoved** 類別指出記憶體頁面已從系統使用中移除，因為發生過多硬體錯誤檢查和修正 (ECC) 錯誤。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ MemoryPageRemoved** 類別指出記憶體頁面已從系統使用中移除，因為發生過多硬體錯誤檢查和修正 (ECC) 錯誤。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 

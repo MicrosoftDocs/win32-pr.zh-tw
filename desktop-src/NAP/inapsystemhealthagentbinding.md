@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d38d1331996e34c6879fc2e98ce566ce6802527a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 38fe66a5cd6883114ff46da3e98174d299f1813e670ed5ce67ee3843dc210d18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106974822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117799183"
 ---
 # <a name="inapsystemhealthagentbinding-interface"></a>INapSystemHealthAgentBinding 介面
 
@@ -70,10 +70,10 @@ ms.locfileid: "106974822"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |
 
 

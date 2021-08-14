@@ -6,19 +6,19 @@ keywords:
 - Windows Media Player，可攜式裝置
 - Windows Media Player 物件模型，可攜式裝置
 - 物件模型，可攜式裝置
-- Windows Media Player 的 ActiveX 控制項、可攜式裝置
-- ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile、可攜式裝置
+- Windows Media Player ActiveX 控制、可攜式裝置
+- ActiveX 控制，可攜式裝置
+- Windows Media PlayerMobile ActiveX control、可攜式裝置
+- Windows Media Player行動裝置、可攜式裝置
 - 可攜式裝置，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b64c6e7047864b899a2d7dca2ba4754cc7cb5dc2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 34cbff16b293ac4ab438c1b018608497d2a61cdfa6fb727332d5b50a27de313c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745504"
 ---
 # <a name="working-with-portable-devices"></a>使用可攜式裝置
 
@@ -168,9 +168,9 @@ enum UIState
 [**播放機控制指南**](player-control-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

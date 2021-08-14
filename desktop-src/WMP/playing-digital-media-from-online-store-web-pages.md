@@ -20,16 +20,16 @@ keywords:
 - 數位媒體播放
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 678fbdd118a05a5fbaaea06467fa7372def5178a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cbedbdb77b3ec368fb051c626ab769f5830b024205b72f6dd72152a6a8efd07c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118571757"
 ---
 # <a name="playing-digital-media-from-online-store-web-pages"></a>從線上商店 Web Pages 播放數位媒體
 
-您可以從線上商店網頁播放數位媒體內容。 只要內嵌 Windows Media Player 控制項，如 [使用網頁中的 Windows Media Player 控制項](using-the-windows-media-player-control-in-a-web-page.md)所述。 當您在 [服務] 工作窗格中執行此動作時，內嵌控制項會以類似于遠端模式的方式連接到 Windows Media Player 程式 (請參閱遠端 [處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)) 。 這表示使用者可以使用完整模式播放程式的傳輸控制來控制網頁中數位媒體的播放。
+您可以從線上商店網頁播放數位媒體內容。 只要內嵌 Windows Media Player 控制項，如[使用網頁中的 Windows Media Player 控制項](using-the-windows-media-player-control-in-a-web-page.md)所述。 當您在 [服務] 工作窗格中執行此動作時，內嵌控制項會以類似于遠端模式的方式連接到 Windows Media Player 程式 (請參閱遠端[處理 Windows Media Player 控制項](remoting-the-windows-media-player-control.md)) 。 這表示使用者可以使用完整模式播放程式的傳輸控制來控制網頁中數位媒體的播放。
 
 建議您在服務工作窗格網頁中內嵌播放機控制項時，將 **uiMode** 設定為「無」或「隱藏」。
 
@@ -43,9 +43,9 @@ ms.locfileid: "104372661"
 [**UiMode**](player-uimode.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 314c9c9a9a9e62915e9224b3cf165bc54d09a516
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 9ee5f444cbf145957ad93db00160d812e75e4a624019ad9f578b5dc960e84f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107999165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726715"
 ---
 # <a name="dcl_usage-output-sm1-sm2-sm3---vs-asm"></a>dcl \_ 使用方式輸出 (sm1、sm2、sm3-vs asm) 
 

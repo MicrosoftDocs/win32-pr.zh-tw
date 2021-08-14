@@ -4,12 +4,12 @@ description: 欄位屬性 (屬性（attribute）套用至陣列、結構、等�
 ms.assetid: 4508479d-ff0a-4698-94aa-588837032067
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79b9421ddf4ea7e7bc4c70af0ecd826e2681875d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3e6d14bab0cf14710e91fceb466111c4af32d3d2828e4b7bdacc9494fa27b7d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929997"
 ---
 # <a name="field-attributes"></a>欄位屬性
 
@@ -40,6 +40,6 @@ MIDL 提供 *一致*、 *變化* 和 *開放式* 的陣列。 如果陣列的界
 
 如需欄位屬性出現所在內容的相關資訊，請參閱 [Midl 陣列](/windows/desktop/Midl/midl-arrays)、 [Midl 結構](/windows/desktop/Midl/midl-structures)和 [midl](/windows/desktop/Midl/midl-unions)等位。
 
- 
+ 
 
- 
+ 

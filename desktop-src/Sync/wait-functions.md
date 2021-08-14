@@ -4,12 +4,12 @@ ms.assetid: 9c66c71d-fdfd-42ae-895c-2fc842b5bc7a
 title: Wait 函式
 ms.topic: article
 ms.date: 06/25/2020
-ms.openlocfilehash: f5a21b0d95a316b926fcaad037004edc8c418246
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15bfc37dcd8fe541c14b9a0693c7b743cae6ed3e548c418baf0585f078e6d59a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764962"
 ---
 # <a name="wait-functions"></a>Wait 函式
 
@@ -22,7 +22,7 @@ ms.locfileid: "106998320"
 -   [等候位址](#waiting-on-an-address)
 -   [等候函式和逾時間隔](#wait-functions-and-time-out-intervals)
 -   [Wait 函數和同步處理物件](#wait-functions-and-synchronization-objects)
--   [等候函式和建立視窗](#wait-functions-and-creating-windows)
+-   [Wait 函式和建立 Windows](#wait-functions-and-creating-windows)
 
 ## <a name="single-object-wait-functions"></a>單一物件等候函式
 
@@ -79,7 +79,7 @@ ms.locfileid: "106998320"
 -   同步處理計時器的狀態設定為未收到信號。
 -   手動重設事件、手動重設計時器、進程、執行緒和主控台輸入物件的狀態不會受到 wait 函式的影響。
 
-## <a name="wait-functions-and-creating-windows"></a>等候函式和建立視窗
+## <a name="wait-functions-and-creating-windows"></a>Wait 函式和建立 Windows
 
 當您使用直接或間接建立視窗的等候函式和程式碼時，必須特別小心。 如果執行緒建立任何視窗，則必須處理訊息。 系統會將訊息廣播傳送至系統中的所有視窗。 如果您有使用 wait 函式且沒有逾時間隔的執行緒，系統將會鎖死。 間接建立 windows 的兩個程式碼範例是 DDE 和 **CoInitialize** 函數。 因此，如果您有建立 windows 的執行緒，請使用 [**MsgWaitForMultipleObjects**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjects) 或 [**MsgWaitForMultipleObjectsEx**](/windows/desktop/api/Winuser/nf-winuser-msgwaitformultipleobjectsex)，而不是其他等候函式。
 

@@ -4,16 +4,16 @@ ms.assetid: ea22bd6d-4a7a-4674-82e9-08460914ff8e
 title: LUN 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad74fa65802adb1439360fb2fcdb423c642ef736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d315e33b8d253e346b42b01f86a85379aadace73e517a169cc653214a9c674d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997982"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347489"
 ---
 # <a name="lun-object"></a>LUN 物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 LUN (邏輯單元編號) 物件會將由硬體提供者所建立並由子系統所呈現之可定址儲存空間的邏輯單元建立模型。 每個 LUN 都包含至少一個 LUN plex，而後者又是由一或多個磁片磁碟機的範圍所組成。
 
@@ -60,7 +60,7 @@ VDS 針對提供這項功能的子系統支援 LUN 取消遮罩。 所有 Lun �
 | 一律由這個物件公開的介面                                                 | [**IVdsLun**](/windows/desktop/api/Vds/nn-vds-ivdslun)                                                                                                                                                                                                                                                                                          |
 | 只有在 VDS 1.1 和2.0 光纖通道提供者中，此物件一律公開的介面 | [**IVdsLunControllerPorts**](/windows/desktop/api/Vds/nn-vds-ivdsluncontrollerports)                                                                                                                                                                                                                                                            |
 | 只有在 VDS 1.1 和 2.0 iSCSI 提供者中，此物件一律公開的介面         | [**IVdsLunIscsi**](/windows/desktop/api/Vds/nn-vds-ivdsluniscsi)                                                                                                                                                                                                                                                                                |
-| 此物件可能公開的介面\*                                                   | [**IVdsMaintenance**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance)、 [**IVdsLunMpio**](/windows/desktop/api/Vds/nn-vds-ivdslunmpio)、 [**IVdsLunNaming**](/windows/desktop/api/Vds/nn-vds-ivdslunnaming)和 [**IVdsLunNumber**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber)**windows server 2008、Windows Vista 和 windows server 2003：** 不支援 [**IVdsLunNumber**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber) 介面。<br/> |
+| 此物件可能公開的介面\*                                                   | [**IVdsMaintenance**](/windows/desktop/api/Vds/nn-vds-ivdsmaintenance)、 [**IVdsLunMpio**](/windows/desktop/api/Vds/nn-vds-ivdslunmpio)、 [**IVdsLunNaming**](/windows/desktop/api/Vds/nn-vds-ivdslunnaming)和 [**IVdsLunNumber**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber)**Windows Server 2008、Windows Vista 和 Windows Server 2003：** 不支援 [**IVdsLunNumber**](/windows/desktop/api/Vds/nn-vds-ivdslunnumber)介面。<br/> |
 | 相關聯的列舉                                                                           | [**VDS \_LUN \_ 旗**](/windows/desktop/api/Vds/ne-vds-vds_lun_flag) 標和 [**vds \_ Lun \_ 狀態**](/windows/desktop/api/Vds/ne-vds-vds_lun_status)，以及 [**vds \_ lun \_ 類型**](/windows/desktop/api/Vds/ne-vds-vds_lun_type)                                                                                                                                                                                   |
 | 相關聯的結構                                                                             | [**VDS \_LUN \_ 資訊**](/windows/desktop/api/VdsLun/ns-vdslun-vds_lun_information)、 [**Vds \_ lun \_**](/windows/desktop/api/Vds/ns-vds-vds_lun_prop)和 [**vds \_ lun \_ 通知**](/windows/desktop/api/Vds/ns-vds-vds_lun_notification)                                                                                                                                                            |
 

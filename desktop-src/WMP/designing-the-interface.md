@@ -3,17 +3,17 @@ title: 設計介面
 description: 設計介面
 ms.assetid: 7b87bab4-8246-461a-a9cd-2d348e7f0d48
 keywords:
-- Windows Media Player 行動外觀、使用者介面
+- Windows Media Player行動外觀，使用者介面
 - 外觀，使用者介面
 - 建立外觀，使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8070ef6fd4589f762624d7a0b5ee1d380a264066
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6b11dee2a6236f2a279756644a88d69e267c5da93240b5e12c19c32d86e30a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749857"
 ---
 # <a name="designing-the-interface"></a>設計介面
 
@@ -27,7 +27,7 @@ ms.locfileid: "104092299"
     > [!Note]  
     > 只有在建立 Windows Media Player 10 行動裝置版或更新版本的面板時，才能使用 [PlayPauseStop] 按鈕。
 
-     
+     
 
 -   **停止按鈕。** 為了讓您輕鬆找到，它會放在左上角。 使用正方形表示停止。 如果您要建立 Windows Media Player 10 行動裝置版或更新版本的面板，[PlayPauseStop] 按鈕已經提供此功能。
 -   **Next 和上一頁按鈕。** 因為它們不會經常使用，所以會放在左側。 下一步是在上一個按鈕的上方，因為人們很可能想要在播放清單中向前移動。 使用雙箭號，因為它們在函式中類似于向前快轉控制項。
@@ -43,9 +43,9 @@ ms.locfileid: "104092299"
 [**外觀指南**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

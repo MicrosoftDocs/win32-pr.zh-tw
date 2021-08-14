@@ -4,12 +4,12 @@ ms.assetid: 5d486ca8-4c8a-4a15-9d38-7430d0a169ed
 title: VolumeSelectCombo 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed67391d77259cb4306de09ce92464fe6fcffa92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebaed2e7aa4445c7a147cad359a1d7b8a9985939c61ee49e8bde832c1764a95f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375850"
 ---
 # <a name="volumeselectcombo-control"></a>VolumeSelectCombo 控制項
 
@@ -51,7 +51,7 @@ VolumeSelectCombo 控制項可讓使用者從依字母順序排列的磁片區�
 
 ## <a name="remarks"></a>備註
 
-您可以使用 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函數，從 COMBOBOX 類別建立這個控制項。 它具有 **cbs \_ DROPDOWNLIST**、 **cbs \_ OWNERDRAWFIXED**、 **cbs \_ HASSTRINGS**、 **ws \_ VSCROLL**、 **ws \_ CHILD**、 **ws \_ GROUP**、 **ws \_ TABSTOP** 和 **CBS \_ 排序** 樣式。 如需使用 Windows 開發使用者介面的相關資訊，請參閱 [消費者介面的設計和開發](/previous-versions/aa286531(v=msdn.10))。
+您可以使用 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函數，從 COMBOBOX 類別建立這個控制項。 它具有 **cbs \_ DROPDOWNLIST**、 **cbs \_ OWNERDRAWFIXED**、 **cbs \_ HASSTRINGS**、 **ws \_ VSCROLL**、 **ws \_ CHILD**、 **ws \_ GROUP**、 **ws \_ TABSTOP** 和 **CBS \_ 排序** 樣式。 如需有關使用 Windows 開發使用者介面的詳細資訊，請參閱[消費者介面設計和開發](/previous-versions/aa286531(v=msdn.10))。
 
 為了與螢幕閱讀程式相容，撰寫具有 VolumeSelectCombo 控制項的對話方塊做為第一個使用中的控制項時，您必須將 [編輯] 欄位中的文字欄位設為 [對話方塊資料表](dialog-table.md)中的第一個使用中控制項。 由於靜態文字無法取得焦點，因此當建立對話方塊時，[編輯] 欄位一開始會有焦點。 這可確保螢幕讀取器會顯示正確的資訊。
 

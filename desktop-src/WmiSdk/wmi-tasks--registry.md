@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: df6ae73d41c9cbfd6cd303b72e1b9207f3191c85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1d11cfcfd1ab8bf362416e45c7d9afe17fd5178ac9e5015210527ba888c26c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738867"
 ---
 # <a name="wmi-tasks-registry"></a>WMI 工作：登錄
 
@@ -28,7 +28,7 @@ ms.locfileid: "106983828"
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。

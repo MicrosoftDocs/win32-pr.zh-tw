@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 撰寫事件取用者提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0c7aeeb9b44b37d887df49cf5049d5a9e59ad72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 312e0c2ecbf02d8bb0a8f491339d191aadde41a66cd3e3228c3187d5dcf689e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118553095"
 ---
 # <a name="writing-an-event-consumer-provider"></a>撰寫事件取用者提供者
 

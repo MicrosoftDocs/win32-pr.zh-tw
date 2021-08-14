@@ -4,12 +4,12 @@ description: 如果您的介面指定具有特定元素數目的陣列做為參�
 ms.assetid: b9a2fa0b-1386-43e1-ab55-0a57cd8d1f18
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb3a620e86bff47e04afb5078dff50faee9fef0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1040e417cc896b9f4bd2271dc69e23033332354357b2aad32053724d94b79035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929977"
 ---
 # <a name="fixed-arrays"></a>固定陣列
 
@@ -35,9 +35,9 @@ interface MyInterface
 
 當遠端程式終止時，伺服器存根會將陣列的內容傳送回用戶端。 用戶端存根會將它從伺服器 stub 收到的資料複製到原始陣列中。 然後，用戶端程式就可以使用資料，就像從本機程序呼叫接收資料一樣。
 
- 
+ 
 
- 
+ 
 
 
 

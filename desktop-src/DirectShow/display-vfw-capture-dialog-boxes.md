@@ -4,16 +4,16 @@ ms.assetid: 708212ca-d148-4079-8052-3bf6696a33ab
 title: 顯示 VFW 捕捉對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45b8b51b164630a8fa6e91b2e68ca8a9a3a875b6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2713cc4d2eba52626c66974eed23f2c1752a1268fea78a30ca2bc9d7babc3a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821136"
 ---
 # <a name="display-vfw-capture-dialog-boxes"></a>顯示 VFW 捕捉對話方塊
 
-仍使用 Windows (VFW) 驅動程式影片的捕獲裝置可支援下列任何三個對話方塊，可用來設定裝置。
+仍使用影片進行 Windows (VFW) 驅動程式的捕獲裝置可支援下列任何三個對話方塊，可用來設定裝置。
 
 
 

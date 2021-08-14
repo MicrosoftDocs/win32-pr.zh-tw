@@ -5,12 +5,12 @@ ms.assetid: 35a3b261-d499-4154-a022-1e33a9ef7ba8
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d687bbbfadb4d1ccb789e9d5f1051ebfbb4484d7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5d0d22098b0a6b823aa5b7db50c20b5a5e2c80c7e540ffdb95e4e2f73c2550fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187386"
 ---
 # <a name="installing-a-service-on-a-host-computer"></a>在主機電腦上安裝服務
 
@@ -22,7 +22,7 @@ ms.locfileid: "104462849"
 4.  呼叫服務的 **SpnCompose** 副程式，以使用服務的類別字串和 SCP 的分辨名稱來撰寫服務主體名稱 (SPN) 。 如需詳細資訊，請參閱 [使用 SCP 撰寫服務的 spn](composing-the-spns-for-a-service-with-an-scp.md)。 SPN 可唯一識別此服務的實例。
 5.  呼叫服務的 **SpnRegister** 副程式，以在與服務的登入帳戶相關聯的帳戶物件上註冊 SPN。 如需詳細資訊，請參閱 [註冊服務的 spn](registering-the-spns-for-a-service.md)。 註冊 SPN 可讓用戶端應用程式驗證服務。
 
-無論登入帳戶是本機或網域使用者帳戶或 LocalSystem 帳戶，這個程式碼範例都能正常運作。 如果是網域使用者帳戶， *szServiceAccountSAM* 參數會包含帳戶的網域使用者名稱，而 *szServiceAccountDN* 參數則會包含目錄中使用者帳戶物件的分辨名稱。 ****\\**** 如果是 LocalSystem 帳戶， *szServiceAccountSAM* 和 *szPassword* 是 **Null**，而 *szServiceAccountSN* 是目錄中本機電腦帳戶物件的分辨名稱。 如果 *szServiceAccountSAM* 指定本機使用者帳戶 (名稱格式為 "。 \\*UserName*") ，程式碼範例會略過 SPN 註冊，因為本機使用者帳戶不支援相互驗證。
+無論登入帳戶是本機或網域使用者帳戶或 LocalSystem 帳戶，這個程式碼範例都能正常運作。 如果是網域使用者帳戶， *szServiceAccountSAM* 參數會包含 *帳戶的網域 * **\\** 使用者名稱，而 *szServiceAccountDN* 參數則會包含目錄中使用者帳戶物件的分辨名稱。如果是 LocalSystem 帳戶， *szServiceAccountSAM* 和 *szPassword* 是 **Null**，而 *szServiceAccountSN* 是目錄中本機電腦帳戶物件的分辨名稱。如果 *szServiceAccountSAM* 指定本機使用者帳戶 (名稱格式為 "。 \\* UserName * ") ，程式碼範例會略過 SPN 註冊，因為本機使用者帳戶不支援相互驗證。
 
 請注意，預設的安全性設定只允許網域系統管理員執行此程式碼。
 
@@ -150,6 +150,6 @@ return;
 
 如需上述程式碼範例的詳細資訊，請參閱 [使用 SCP 撰寫服務的 spn](composing-the-spns-for-a-service-with-an-scp.md) ，以及 [註冊服務的 spn](registering-the-spns-for-a-service.md)。
 
- 
+ 
 
- 
+ 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43844b0d61d0688a09270d6c6f4e35a9933c70dd
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 85bc29d0cdcfc7f17d66eada77a2361471bafa4546ea459ec0ba1b569b17c8b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118424978"
 ---
 # <a name="mssfu-30-aliases-attribute"></a>msSFU-30-別名屬性
 

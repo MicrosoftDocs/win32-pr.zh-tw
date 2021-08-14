@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c31bc829f8990517ddbea8be7c25eead413ab666
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 8a406fcbd023d0688baf51cabbfea53438f3d58a6fba4d1fc7d1bf8d33077262
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118514332"
 ---
 # <a name="getrendertargetsampleposition"></a>GetRenderTargetSamplePosition
 
@@ -34,7 +34,7 @@ float<2> GetRenderTargetSamplePosition ( in int<1> Index<br/>);
 
 
 
-| 項目                                                                                       | 描述                                  |
+| Item                                                                                       | 描述                                  |
 |--------------------------------------------------------------------------------------------|----------------------------------------------|
 | <span id="Index"></span><span id="index"></span><span id="INDEX"></span>*指數*<br/> | \[以 \] 零為基底的範例索引。<br/> |
 

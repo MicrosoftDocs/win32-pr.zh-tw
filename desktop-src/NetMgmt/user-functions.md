@@ -4,12 +4,12 @@ description: 網路管理使用者功能可控制安全性資料庫中的使用�
 ms.assetid: cf0e5102-3924-46c0-8124-0aa04e95f48d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b6a3349673d09e42fbfe7a5dc949d1bcff53b828
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 34c8d7b59ff121c0225f166888b42ef1a731336ed80799cd0593ba38b4fb04ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796814"
 ---
 # <a name="user-functions"></a>使用者函式
 
@@ -31,9 +31,9 @@ ms.locfileid: "106969926"
 
 
 
- 
+ 
 
-存取網路資源的每個使用者或應用程式都必須具有安全性資料庫中的帳戶。 目錄服務會使用此帳戶來驗證使用者或應用程式是否有權連線到資源。 當使用者或應用程式要求存取資源時，Windows 安全性系統會檢查是否有適當的使用者帳戶或群組帳戶，以允許存取。
+存取網路資源的每個使用者或應用程式都必須具有安全性資料庫中的帳戶。 目錄服務會使用此帳戶來驗證使用者或應用程式是否有權連線到資源。 當使用者或應用程式要求存取資源時，Windows 的安全性系統會檢查是否有適當的使用者帳戶或群組帳戶，以允許存取。
 
 一旦藉由呼叫 [**NetUserDel**](/windows/desktop/api/Lmaccess/nf-lmaccess-netuserdel) 函式來移除使用者帳戶，使用者就無法再存取伺服器，除非使用 guest 帳戶。
 
@@ -83,10 +83,10 @@ ms.locfileid: "106969926"
 
 
 
- 
+ 
 
 如果您正在針對 Active Directory 進行程式設計，您可以呼叫特定 Active Directory 服務介面 (ADSI) 方法，以取得您可以藉由呼叫網路管理使用者功能達成的相同功能。 如需詳細資訊，請參閱 [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) 和 [**IADsComputer**](/windows/desktop/api/iads/nn-iads-iadscomputer)。
 
- 
+ 
 
- 
+ 

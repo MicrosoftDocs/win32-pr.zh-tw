@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: fedefdb61a6881036fb04b045306844d704d211b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09eec1f03ab8290e48014b9582514d62e51878c05c6583e6dcc6c6aebd7ddbf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502443"
 ---
 # <a name="boundingfrustum-constructors"></a>BoundingFrustum 函式
 

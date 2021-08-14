@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 0b0fd06ef4b582987e41c2343f2d4596db6b8528
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32c375f37fbc0bc6352a79c9eb37be56578b236f6131c4ead1ea721cc53ce5e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220070"
 ---
 # <a name="iuseridentity2setname-method"></a>IUserIdentity2：： SetName 方法
 
@@ -44,7 +44,7 @@ HRESULT SetName(
 *pszName* \[在\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 寬字元字串，其中包含身分識別的新名稱。
 
@@ -52,7 +52,7 @@ HRESULT SetName(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 

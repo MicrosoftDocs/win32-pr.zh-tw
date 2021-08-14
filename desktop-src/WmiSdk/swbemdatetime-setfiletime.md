@@ -16,18 +16,18 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: ca3e36a284e3700e166e86f6786218bada8f369e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 138685ba4d6b63591bf460da3cdba219685f015d54789ca60a52660845b2e41a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117739455"
 ---
 # <a name="swbemdatetimesetfiletime-method"></a>SWbemDateTime. SetFileTime 方法
 
 [**SWbemDateTime**](swbemdatetime.md)物件的 **SetFileTime** 方法會將字串 **FILETIME** 格式的日期轉換為 [CIM 日期時間](date-and-time-format.md)格式。
 
-**FILETIME** 格式是64位的日期時間結構，表示自1月 1 1601 日開始起算的 100-毫微秒單位數。 Windows Management Instrumentation (WMI) 會將 **FILETIME** 值視為不帶正負號64位數位的字串表示。
+**FILETIME** 格式是64位的日期時間結構，表示自1月 1 1601 日開始起算的 100-毫微秒單位數。 WindowsManagement Instrumentation (WMI) 會將 **FILETIME** 值視為不帶正負號64位數位的字串表示。
 
 如需語法的說明，請參閱 [腳本 API 的檔慣例](document-conventions-for-the-scripting-api.md)。
 
@@ -94,8 +94,8 @@ SWbemDateTime.SetFileTime( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -112,7 +112,7 @@ SWbemDateTime.SetFileTime( _
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[**Datetime**](datetime.md)
+[**DATETIME**](datetime.md)
 </dt> </dl>
 
  

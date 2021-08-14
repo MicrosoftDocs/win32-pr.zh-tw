@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7dde8ecbd0da40cdbfb1bc9cd72fa190bbd2463
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8b412d376794e94c0e8969600a85faaf5e4ecab039703cd35c73a0f7d5896e0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118577404"
 ---
 # <a name="eventclienty"></a>clientY
 

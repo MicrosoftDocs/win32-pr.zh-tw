@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d03edc8a33fb854aa8790de2415a7039b2792698
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 56dcb57c6572ee8ea9fd10ba753d6d0ffb0149e759cb2250bae7d07ecbfa474f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334519"
 ---
 # <a name="playlistindex-attribute"></a>PlaylistIndex 屬性
 

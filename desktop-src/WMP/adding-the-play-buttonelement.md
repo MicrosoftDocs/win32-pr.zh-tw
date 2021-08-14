@@ -16,12 +16,12 @@ keywords:
 - 播放按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a92b5416adf2e323043eb563ec08e1e4d2525733
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7cab52691b48876327f45fbaf30a98de78c8c0c46a2eafd0a2c342e51c5a8683
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118583542"
 ---
 # <a name="adding-the-play-buttonelement"></a>新增播放 BUTTONELEMENT
 
@@ -54,9 +54,9 @@ ms.locfileid: "104507248"
 
 **onClick**
 
-這會定義滑鼠按一下按鈕時所發生的事件。 這個事件屬性的值稱為「事件處理常式」（event handler），它會是 Microsoft JScript 程式碼的行，或是由 **視圖** 的 **loadScript** 屬性所載入之外部文字檔中的 jscript 函數。 在此情況下，JScript 程式碼會呼叫 Windows Media Player 的 **URL** 方法，這個方法會載入並開始播放名為 "laure" 的檔案。 請注意，在引號內以分號結尾的行，這是良好的 JScript 編碼作法。 也請注意，在雙引號內使用單引號來設定檔案名。 如需 JScript 的詳細資訊，請參閱此 SDK 的「關於面板」一節中的「 [使用 jscript](using-jscript.md) 」。
+這會定義滑鼠按一下按鈕時所發生的事件。 這個事件屬性的值稱為「事件處理常式」（event handler），它會是 Microsoft JScript 程式碼的行，或是在 **視圖** 的 **loadScript** 屬性所載入的外部文字檔中的 JScript 函數。 在此情況下，JScript 程式碼會呼叫 Windows Media Player 的 **URL** 方法，這個方法會載入並開始播放名為 "laure" 的檔案。 請注意，在引號內以分號結尾的行，這是很好的 JScript 編碼做法。 也請注意，在雙引號內使用單引號來設定檔案名。 如需 JScript 的詳細資訊，請參閱此 SDK 的「關於面板」一節中的[使用 JScript](using-jscript.md) 。
 
-請注意，沒有結束的 **BUTTONELEMENT** 標記。 如果專案未括住另一個元素，您可以在右角括弧前面加上正斜線來關閉它。 這會告訴 XML 您已完成該元素。 例如，
+請注意，沒有結束的 **BUTTONELEMENT** 標記。 如果專案未括住另一個元素，您可以在右角括弧前面加上正斜線來關閉它。 這會告訴 XML 您已完成該元素。 例如
 
 
 ```C++
@@ -76,7 +76,7 @@ ms.locfileid: "104507248"
 
 以 XML 傳達相同的資訊。
 
-面板的威力來自于使用事件處理常式。 如果使用者使用滑鼠來執行某項工作，您可以使用 JScript 來處理該事件。 您的程式碼可以是單一行，讓 Windows Media Player 執行簡單的作業，例如播放，或者可以是以 JScript 撰寫的完整應用程式。
+面板的威力來自于使用事件處理常式。 如果使用者使用滑鼠來執行某項工作，您可以使用 JScript 來處理該事件。 您的程式碼可以是一行，讓 Windows Media Player 像播放一樣簡單，也可以是以 JScript 撰寫的完整應用程式。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -85,9 +85,9 @@ ms.locfileid: "104507248"
 [**建立外觀定義檔**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

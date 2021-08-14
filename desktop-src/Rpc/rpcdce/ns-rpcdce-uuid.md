@@ -4,12 +4,12 @@ description: 提供物件的唯一指定，例如介面、管理員進入點向�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/09/2019
-ms.openlocfilehash: 95d2d420502a5d92af64c902ffa82c709639d872
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 31ff8eb22a234020e0da5b5ebb5799d5ddb0c8d1dca7bc094394f79a5ceb0c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104092443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925945"
 ---
 # <a name="uuid-structure"></a>UUID 結構
 

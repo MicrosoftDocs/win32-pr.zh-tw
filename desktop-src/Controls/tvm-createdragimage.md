@@ -3,7 +3,7 @@ title: 'TVM_CREATEDRAGIMAGE 訊息 (Commctrl .h) '
 description: 在樹狀檢視控制項中，為指定的專案建立拖曳點陣圖。
 ms.assetid: fbe97921-c9d3-473c-933c-d6bc0599e24d
 keywords:
-- TVM_CREATEDRAGIMAGE message Windows 控制項
+- TVM_CREATEDRAGIMAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 189b37affc6a4382541faea13199cacfcb9b7df5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a18a00b2225749b30b8dcd9a928fd73e3ffabcfd4a4f9512cd2332d98cc08a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103902"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408658"
 ---
 # <a name="tvm_createdragimage-message"></a>TVM \_ CREATEDRAGIMAGE 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104103902"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

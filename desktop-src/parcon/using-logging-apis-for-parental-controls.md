@@ -4,12 +4,12 @@ ms.assetid: 6c38a634-53ba-4e76-83bf-1a3f36efb0bc
 title: 使用適用于家長監護的記錄 Api
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37d1cedb9ff02856be6ea1ae2069d8635b980681
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 571a24f8bdbf687f8c1975cfc29057035ac56747edc0459682512531194c55a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869060"
 ---
 # <a name="using-logging-apis-for-parental-controls"></a>使用適用于家長監護的記錄 Api
 
@@ -96,7 +96,7 @@ WPC 記錄通道是由 (ACL) 的 [*存取控制清單*](/windows/desktop/SecGlos
 
 ### <a name="parental-controls-logging-provider-details"></a>家長監護記錄提供者詳細資料
 
-WPC 提供者的名稱為 Microsoft.com/Windows/ParentalControls，GUID 為 {01090065-B467-4503-9B28-533766761087}。 預設的本機記錄通道是 Microsoft.com/Windows/ParentalControls/LocalEvents。
+WPC 提供者的名稱為 Microsoft.com/Windows/ParentalControls 加上 GUID {01090065-B467-4503-9B28-533766761087}。 預設的本機記錄通道為 Microsoft.com/Windows/ParentalControls/LocalEvents。
 
 記錄檔會儲存在 Windows \\ System32 \\ Wpc \\ Logs 資料夾中。
 

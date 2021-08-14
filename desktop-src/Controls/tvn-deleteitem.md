@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2953ca0cf272b102a08fba0516d4891dccde9daf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9244fd7a848adc3f2d82f48177482c0ffb8cbe1484bc501accfb7ffab3aefbc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408244"
 ---
 # <a name="tvn_deleteitem-notification-code"></a>IZDEBSKI \_ DELETEITEM 通知碼
 
@@ -61,8 +61,8 @@ TVN_DELETEITEM
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **Izdebski \_DELETEITEMW** (Unicode) 和 **izdebski \_ DELETEITEMA** (ANSI) <br/>             |
 

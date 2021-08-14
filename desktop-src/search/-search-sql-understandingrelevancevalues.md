@@ -4,12 +4,12 @@ ms.assetid: 9f37b494-9b7a-45a6-9ee4-6d582742cbd7
 title: 瞭解相關性值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a24c71ad523ad869c6ff05b81ff75367031ad38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2d28efba26d12e0260d76e02fc4e042e72612df34d383a0e22a34f4be9d9fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226803"
 ---
 # <a name="understanding-relevance-values"></a>瞭解相關性值
 
@@ -17,7 +17,7 @@ ms.locfileid: "103847807"
 
 例如，在關係資料庫中搜尋「程式」一詞，會產生包含該單字特定拼寫的記錄。 記錄是否包含一或100的單字實例不會影響結果。 相反地，Windows Search 會傳回與相符檔相關聯的關聯性值。 標題中具有「程式」的檔相關性高於最後一個段落中只包含單字的檔。 同樣地，包含搜尋詞彙變化的檔（例如「程式」和「程式設計」）也會相符，並由查詢傳回。
 
-Windows Search 查詢會在名為 "rank" 的資料行中傳回整數關聯值。
+Windows搜尋查詢會在名為 "rank" 的資料行中傳回整數關聯值。
 
 此外：
 

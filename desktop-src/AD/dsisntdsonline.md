@@ -17,16 +17,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57f6728f4481eb8820055b48f10cfa0f94c7aaa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0bf65109b4c72e1d403ece18d82b189039d74d58043271e0f5bf317f5272f84d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430020"
 ---
 # <a name="dsisntdsonline-function"></a>DsIsNTDSOnline 函式
 
-\[此函式可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 從 Windows Vista 開始，請改用 [磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]
+\[此函式可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 從 Windows Vista 開始，請改用[磁碟區陰影複製服務 (VSS) ](../vss/volume-shadow-copy-service-overview.md) 。\]
 
 **DsIsNTDSOnline** 函式會判斷指定的伺服器上 Active Directory Domain Services 是否在線上。
 

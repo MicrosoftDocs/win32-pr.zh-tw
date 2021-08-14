@@ -10,12 +10,12 @@ keywords:
 - 非同步讀取器，依時間搜尋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f3e24c04d75d762aef6bac498d4b4c8dfa9552
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 070d480cade395cdbead99b1aedde8928c6fb18b4af15bf6b72c1bcc0dcd6dc3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196457"
 ---
 # <a name="to-seek-by-time-using-the-asynchronous-reader"></a>使用非同步讀取器依時間進行搜尋
 
@@ -39,9 +39,9 @@ ms.locfileid: "103681425"
 [**使用索引**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

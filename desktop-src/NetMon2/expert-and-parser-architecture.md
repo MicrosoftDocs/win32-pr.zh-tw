@@ -4,12 +4,12 @@ ms.assetid: f943f0e6-5fdc-48f9-ba5d-5effdf8229f3
 title: 專家和剖析器架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: caa8477d97604acfb04686170ca6cb5cff8116a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 261343005f0cb9fc7de5b7025f9ffe59f11515614ab43609c1b8da9f396e9f5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795837"
 ---
 # <a name="expert-and-parser-architecture"></a>專家和剖析器架構
 

@@ -4,12 +4,12 @@ ms.assetid: d49ce47b-e91a-452b-b423-07e8d282d28a
 title: 將 Sid 新增至用戶端內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a601f485110ddacea0fdb54cb7dcef587a25cb9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f07805031d299efc400c491c7fff1c43653e90b53f6c753c81a8676d4b0941b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784920"
 ---
 # <a name="adding-sids-to-a-client-context"></a>將 Sid 新增至用戶端內容
 

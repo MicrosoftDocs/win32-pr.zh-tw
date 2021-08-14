@@ -4,16 +4,16 @@ description: IAgentPropertySheet
 ms.assetid: f81091e7-c165-43ac-90ac-c60ffd1bbe79
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a0f85f25087cf4892ea91991ffd3589fb3bd96e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2a8310f5870f9086f22e8b4c8506b69eaa15fd5ff71da11ab60164005731cd26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476725"
 ---
 # <a name="iagentpropertysheet"></a>IAgentPropertySheet
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 **IAgentPropertySheet** 會定義一個介面，可讓應用程式 (視窗) 設定和查詢 Microsoft Agent 屬性工作表的屬性。
 
@@ -32,11 +32,11 @@ ms.locfileid: "104371813"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102506
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 6a7f79a760be0572930d84b64ed7edde1ad73636
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a2333b1a55a76a638589ac0ec0fd89755b7ead1b082e71110dd7471b37e67a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118492205"
 ---
 # <a name="esentpagesizemismatchexception-methods"></a>EsentPageSizeMismatchException 方法
 

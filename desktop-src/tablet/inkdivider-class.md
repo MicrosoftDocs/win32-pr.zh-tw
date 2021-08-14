@@ -15,12 +15,12 @@ api_type:
 api_location:
 - Inkdiv.dll
 - Inkdiv.dll.dll
-ms.openlocfilehash: c0658504303968803bd2abff063694701d121390
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7dd98aaef627bac6a26340464c14c4e46c07d6a23f32c2664651503b5d79014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220829"
 ---
 # <a name="inkdivider-class"></a>InkDivider 類別
 
@@ -106,7 +106,7 @@ ms.locfileid: "106996914"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                           |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                           |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                               |
 | 標頭<br/>                   | <dl> <dt>Msinkaut15 (也需要 Msinkaut15 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Inkdiv.dll</dt> </dl>                                   |

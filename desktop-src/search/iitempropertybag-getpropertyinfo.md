@@ -1,5 +1,5 @@
 ---
-description: 取得讀取或儲存屬性包中的屬性所需的資訊。 只有在 Windows XP 和 Windows Server 2003 上才支援 IItemPropertyBag 介面，且不應再使用。
+description: 取得讀取或儲存屬性包中的屬性所需的資訊。 只有 Windows XP 和 Windows Server 2003 才支援 IItemPropertyBag 介面，因此不應再使用。
 ms.assetid: 1667b67d-9dd2-48a6-81dd-c8b06834cef0
 title: IItemPropertyBag：： GetPropertyInfo 方法
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: a64b064c6c6d3708edc353db136fcad599d14adb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a69ceff2236a101f18ee06b4a87dd60e35ca69e73fdeb085232f102f8450d7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991810"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863087"
 ---
 # <a name="iitempropertybaggetpropertyinfo-method"></a>IItemPropertyBag：： GetPropertyInfo 方法
 
-取得讀取或儲存屬性包中的屬性所需的資訊。 只有在 Windows XP 和 Windows Server 2003 上才支援 [**IItemPropertyBag**](iitempropertybag.md) 介面，且不應再使用。
+取得讀取或儲存屬性包中的屬性所需的資訊。 只有 Windows XP 和 Windows Server 2003 才支援 [**IItemPropertyBag**](iitempropertybag.md)介面，因此不應再使用。
 
 ## <a name="syntax"></a>語法
 
@@ -75,9 +75,9 @@ HRESULT GetPropertyInfo(
 
 ## <a name="remarks"></a>備註
 
-只有在 Windows XP 和 Windows Server 2003 上才支援 [**IItemPropertyBag**](iitempropertybag.md) 介面，且不應再使用。
+只有 Windows XP 和 Windows Server 2003 才支援 [**IItemPropertyBag**](iitempropertybag.md)介面，因此不應再使用。
 
-若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**IItemPropertyBag**](iitempropertybag.md) 介面和下列 Api： [**ISearchProtocolUI**](-search-isearchprotocolui.md)、 [**IItemPreviewerExt**](-search-iitempreviewerext.md) 和 [**ISearchItem**](-search-isearchitem.md) 介面、 [**LINKINFO**](-search-linkinfo.md) 和 [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop) 結構，以及 [**LINKTYPE**](-search-linktype.md) 列舉。
+若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**IItemPropertyBag**](iitempropertybag.md)介面和下列 api： [**ISearchProtocolUI**](-search-isearchprotocolui.md)、 [**IItemPreviewerExt**](-search-iitempreviewerext.md)和 [**ISearchItem**](-search-isearchitem.md)介面、 [**LINKINFO**](-search-linkinfo.md)和 [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop)結構，以及 [**LINKTYPE**](-search-linktype.md)列舉。
 
 ## <a name="requirements"></a>規格需求
 
@@ -85,9 +85,9 @@ HRESULT GetPropertyInfo(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
-| 可轉散發套件<br/>          | Windows 桌面搜尋 (WDS) 3。0<br/>          |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
+| 可轉散發套件<br/>          | Windows (WDS 的桌面搜尋) 3。0<br/>          |
 
 
 

@@ -14,14 +14,14 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3922dd71b70ace579fa4b5f2318776779afdfa4e
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: cf55584aafd5c73ee3ec2b756b59054e8aabaaf4cf5974a09dd11d3b4f40b655
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110548863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504186"
 ---
-# <a name="cdn_typechange-notification-code"></a>CDN \_ TYPECHANGE 通知碼
+# <a name="cdn_typechange-notification-code"></a>CDN \_TYPECHANGE 通知碼
 
 \[從 Windows Vista 開始，[[一般專案] 對話方塊](../shell/common-file-dialog.md)已取代 [**開啟**] 和 [**另存** 新檔] 對話方塊。 我們建議您從通用對話方塊程式庫使用通用專案對話方塊 API，而不是這些對話方塊。\]
 
@@ -53,7 +53,7 @@ ms.locfileid: "110548863"
 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構的指標。
 
-[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構包含 [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr)結構，其程式 **代碼** 成員會指出 **CDN \_ TYPECHANGE** 通知訊息。
+[**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構包含 [**NMHDR**](/windows/win32/api/richedit/ns-richedit-nmhdr)結構，其程式 **代碼** 成員指出 **CDN 的 \_ TYPECHANGE** 通知訊息。
 
 [**OFNOTIFY**](/windows/desktop/api/Commdlg/ns-commdlg-ofnotifya)結構也包含 [**OPENFILENAME**](/windows/win32/api/commdlg/ns-commdlg-openfilenamea)結構的指標，其 **nFilterIndex** 成員表示新選取之檔案類型篩選準則的單一索引。
 
@@ -75,7 +75,7 @@ ms.locfileid: "110548863"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 
 
 

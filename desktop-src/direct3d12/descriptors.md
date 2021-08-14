@@ -5,12 +5,12 @@ ms.assetid: f35b5776-46b0-4659-9e61-c6ebfdb55f87
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9576a2d40ade89c9c7a342feb6b069ca1321028e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ccc2b501a79eddf942e92a3296f2b23af58b08a69ebbb0cded2570752f96263b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74104692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530396"
 ---
 # <a name="descriptors"></a>描述項
 
