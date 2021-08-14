@@ -4,12 +4,12 @@ ms.assetid: 2a9152b7-c72d-4f03-bc3f-b75927fb4b6c
 title: '[審核] 屬性頁'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7fc85691c93994a764199f0b77d52a7a8a71e9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecf116a9079c5b7b6dfeb7e6df57b45d6a0a2555c14de88a32fee4fadcdc6373
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784316"
 ---
 # <a name="auditing-property-page"></a>[審核] 屬性頁
 

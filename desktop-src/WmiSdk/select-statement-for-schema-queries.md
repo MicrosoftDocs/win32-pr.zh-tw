@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 架構查詢的 SELECT 語句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91f9f3f9ae8cc11a94d4d868e36af56ee7dffd2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd08cffa3fccc9a8cc2bf50452dcefcc1b7bfc0a62e512069b2db098bc6d13c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315672"
 ---
 # <a name="select-statement-for-schema-queries"></a>架構查詢的 SELECT 語句
 

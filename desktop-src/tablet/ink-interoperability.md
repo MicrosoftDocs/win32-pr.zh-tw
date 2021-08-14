@@ -4,12 +4,12 @@ ms.assetid: 71e963d8-2917-40e1-8214-27521cffe340
 title: 筆墨互通性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c40fda8e9ab98e32b42b87a0b108651b553653ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9f107e1cf39858434e6d2ca93147be12c6a43c9f28973e7d9b14c441a3ec138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452035"
 ---
 # <a name="ink-interoperability"></a>筆墨互通性
 

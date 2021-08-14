@@ -4,12 +4,12 @@ ms.assetid: 9e5f3da6-346a-4eca-bc85-2755c569986d
 title: 支援 MTP 擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 898df3f1347af2ccc42a796b480156b6603b13ec
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: c16a80b640b50346f1724aec771d8ffd82de565f078e5b3e1d562c346e34973a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193569"
 ---
 # <a name="supporting-mtp-extensions"></a>支援 MTP 擴充功能
 

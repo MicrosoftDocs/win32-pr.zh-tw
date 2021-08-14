@@ -3,7 +3,7 @@ title: ISearchResult 預覽器方法
 description: 保留的。 |ISearchResult 預覽器方法
 ms.assetid: e20e39be-be54-4d34-b62e-9a823144115a
 keywords:
-- 預覽方法舊版 Windows 環境功能
+- 預覽器方法舊版 Windows 環境功能
 - 預覽器方法舊版 Windows 環境功能，ISearchResult 介面
 - ISearchResult 介面舊版 Windows 環境功能，預覽器方法
 ms.topic: reference
@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 63cf7d8ed08a8e2e761ec200d59928019054db6c
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ba2cf215cd0b54effa69a0a8e6e47f1201a2c4898b7a20c9744219755adfe83b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106986059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117694591"
 ---
 # <a name="isearchresultpreviewer-method"></a>ISearchResult：:P 審核者方法
 

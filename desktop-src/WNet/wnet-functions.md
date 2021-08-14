@@ -1,19 +1,19 @@
 ---
 title: WNet 函式
-description: Windows 網路功能提供管理網路資源的資訊與公用程式。
+description: Windows網路功能可提供用來管理網路資源的資訊與公用程式。
 ms.assetid: 8a83186f-a912-4c61-8137-1f6be1f3afd6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623de7adfdb57e21f01bff8b9647d6d2d175bd63
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 771974bcc2967ddba32439bb655173f62b8478ad367e086e620ca02825a2567f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104186066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330783"
 ---
 # <a name="wnet-functions"></a>WNet 函式
 
-Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 網路功能可以依下列方式分組：
+Windows網路功能可提供用來管理網路資源的資訊與公用程式。 Windows 的網路功能可以依下列方式分組：
 
 -   [連接函數](#connection-functions)
 -   [列舉函數](#enumeration-functions)
@@ -29,10 +29,10 @@ Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 
 | 函式                                                                     | 描述                                                                                                                                                                                                                    |
 |------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**MultinetGetConnectionPerformance**](/windows/win32/api/winnetwk/nf-winnetwk-multinetgetconnectionperformancea) | 傳回網路資源連線的預期效能相關資訊。                                                                                                                                      |
-| [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)                               | 將本機裝置連接到網路資源。 提供的 (是為了與16位版本的 Windows 相容。 )                                                                                                                    |
+| [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)                               | 將本機裝置連接到網路資源。  (提供與16位版本的 Windows 相容性。 )                                                                                                                    |
 | [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a)                             | 將本機裝置連接到網路資源。                                                                                                                                                                                 |
 | [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)                             | 將本機裝置連接到網路資源。 這個函式包含一個以上的參數，而非 **WNetAddConnection2** 函式，這是一個視窗的控制碼，可供網路提供者作為對話方塊的主視窗。 |
-| [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)                         | 取消網路連接。 提供的 (是為了與16位版本的 Windows 相容。 )                                                                                                                                     |
+| [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)                         | 取消網路連接。  (提供與16位版本的 Windows 相容性。 )                                                                                                                                     |
 | [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)                       | 取消網路連線，讓您能夠使用持續連線的相關資訊來更新使用者設定檔。                                                                                                  |
 | [**WNetConnectionDialog**](/windows/win32/api/winnetwk/nf-winnetwk-wnetconnectiondialog)                         | 啟動一般流覽對話方塊，以連接到網路資源。                                                                                                                                                      |
 | [**WNetConnectionDialog1**](/windows/win32/api/winnetwk/nf-winnetwk-wnetconnectiondialog1a)                       | 使用 [**CONNECTDLGSTRUCT**](/windows/win32/api/winnetwk/ns-winnetwk-connectdlgstructa) 結構啟動一般流覽對話方塊，以連接到網路資源。                                                                                  |
@@ -45,12 +45,12 @@ Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 
 
 
 
- 
+ 
 
 > [!Note]  
-> [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)和 [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)函式支援與 Windows 的工作組相容。 不過，新的應用程式應該使用 [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) 或 [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)，以及 [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)。
+> [**WNetAddConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnectiona)和 [**WNetCancelConnection**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnectiona)函數支援與工作組的 Windows 相容。 不過，新的應用程式應該使用 [**WNetAddConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection2a) 或 [**WNetAddConnection3**](/windows/win32/api/winnetwk/nf-winnetwk-wnetaddconnection3a)，以及 [**WNetCancelConnection2**](/windows/win32/api/winnetwk/nf-winnetwk-wnetcancelconnection2a)。
 
- 
+ 
 
 ## <a name="enumeration-functions"></a>列舉函數
 
@@ -66,7 +66,7 @@ Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 
 
 
 
- 
+ 
 
 ## <a name="information-functions"></a>資訊函數
 
@@ -84,7 +84,7 @@ Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 
 
 
 
- 
+ 
 
 ## <a name="user-functions"></a>使用者函式
 
@@ -98,10 +98,10 @@ Windows 網路功能提供管理網路資源的資訊與公用程式。 Windows 
 
 
 
- 
+ 
 
 許多 WNet 函數會使用 [**NETRESOURCE**](/windows/desktop/api/Winnetwk/ns-winnetwk-netresourcea) 結構來儲存網路資源的相關資訊。
 
- 
+ 
 
- 
+ 

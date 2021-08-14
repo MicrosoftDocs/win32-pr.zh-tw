@@ -1,22 +1,22 @@
 ---
-description: 啟用 Intel AVX 的 Windows 7 支援
+description: 針對 Intel AVX 啟用 Windows 7 支援
 ms.assetid: fe19e337-3109-42d6-a704-70662ac7c684
-title: 啟用 Intel AVX 的 Windows 7 支援
+title: 針對 Intel AVX 啟用 Windows 7 支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1509bac62634c85aa733b2c1de0c152169ac6cda
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f30469d0218f5da2c9f6df2b4f5637edffe09153ebad721f48b47401ecb1f3d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329812"
 ---
-# <a name="enable-windows-7-support-for-intel-avx"></a>啟用 Intel AVX 的 Windows 7 支援
+# <a name="enable-windows-7-support-for-intel-avx"></a>針對 Intel AVX 啟用 Windows 7 支援
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
- **客戶** 端-WINDOWS 7 SP1  
-**伺服器** -Windows Server 2008 R2 SP1  
+ **客戶** 端-Windows 7 SP1  
+**伺服器**-Windows Server 2008 R2 SP1  
 
 
 ## <a name="feature-impact"></a>功能影響
@@ -78,7 +78,7 @@ Microsoft 開發了一些 API 增強功能（例如 XState 函式），可讓應
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 
--   如需 Windows SDK 中 XState 函式的詳細資訊，請參閱 [偵錯工具功能](../debug/debugging-functions.md)。
+-   如需 Windows SDK 中 XState 函式的詳細資訊，請參閱[偵錯工具功能](../debug/debugging-functions.md)。
 -   如需 Intel AVX 的指示和功能概述，請參閱 [INTEL AVX：效能改進和能源效率的新新領域](https://software.intel.com/articles/intel-avx-new-frontiers-in-performance-improvements-and-energy-efficiency/)。
 
  

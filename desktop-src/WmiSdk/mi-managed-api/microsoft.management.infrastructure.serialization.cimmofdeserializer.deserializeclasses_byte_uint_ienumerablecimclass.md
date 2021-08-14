@@ -20,12 +20,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: edcdb84e9c3a3fe7a070263385c9ee6551341152
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 160925b45cb7ca710c674b5c6f379669460f071adcc8ebf14f2310ceced052f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317371"
 ---
 # <a name="cimmofdeserializerdeserializeclasses-method-byteuint32ienumerablecimclass"></a>CimMofDeserializer. DeserializeClasses 方法 (Byte \[ \] ，UInt32，IEnumerable \<CimClass\>) 
 

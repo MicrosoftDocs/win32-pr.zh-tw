@@ -70,12 +70,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204f38570e1e023ca070ed1845e4574d9570b8ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dff3e4eb9d99288914fb6d4e9a6e2d22aa38689cdc6b60f227e7e5ba2e0c5323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349362"
 ---
 # <a name="win32_tsclientsetting-class"></a>Win32 \_ TSClientSetting 類別
 
@@ -191,7 +191,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 指定是否啟用 RemoteApp 的 advanced RemoteFX 圖形。
 
-**Windows server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2012 R2 和 Windows 8.1 之前，無法使用此屬性。
+**Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 在 Windows Server 2012 R2 和 Windows 8.1 之前，無法使用此屬性。
 
 <dt>
 
@@ -249,7 +249,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 指定是否允許音訊捕獲重新導向。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 <dt>
 
@@ -317,7 +317,7 @@ class Win32_TSClientSetting : Win32_TerminalSetting
 
 指定是否偏好 AVC444 模式。
 
-**Windows 8.1、Windows server 2012 r2、Windows 8、Windows server 2012、windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 10 或 Windows Server 2016 之前無法使用。
+**Windows 8.1、Windows Server 2012 r2、Windows 8、Windows Server 2012、Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 10 或 Windows Server 2016 之前無法使用。
 
 <dt>
 
@@ -727,7 +727,7 @@ COM 埠對應已停用。
 
 指定 RDP 體驗的影像品質。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -765,7 +765,7 @@ COM 埠對應已停用。
 
 指定 RD 工作階段主機伺服器是否使用硬體圖形轉譯器作為預設介面卡。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -851,7 +851,7 @@ COM 埠對應已停用。
 
 伺服器支援的監視器數目上限。 您可以使用 [**SetMaxMonitors**](setmaxmonitors-win32-tsclientsetting.md) 方法來修改此屬性。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -866,7 +866,7 @@ COM 埠對應已停用。
 
 伺服器支援的最大 X 解析度。 您可以使用 [**SetMaxXResolution**](setmaxxresolution-win32-tsclientsetting.md) 方法來修改此屬性。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -881,7 +881,7 @@ COM 埠對應已停用。
 
 伺服器支援的最大 Y 解析度。 您可以使用 [**SetMaxYResolution**](setmaxyresolution-win32-tsclientsetting.md) 方法來修改此屬性。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -948,7 +948,7 @@ COM 埠對應已停用。
 
 指出是否由伺服器或群組原則設定 **AdvancedRemoteAppGraphics** 屬性。
 
-**Windows server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 在 Windows Server 2012 R2 和 Windows 8.1 之前，無法使用此屬性。
+**Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 在 Windows Server 2012 R2 和 Windows 8.1 之前，無法使用此屬性。
 
 <dt>
 
@@ -1012,7 +1012,7 @@ COM 埠對應已停用。
 
 指出是否由伺服器或群組原則設定 **AudioCaptureRedir** 屬性。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 <dt>
 
@@ -1079,7 +1079,7 @@ COM 埠對應已停用。
 
 指出如何設定 **AVC444ModePreferredis** 屬性。
 
-**Windows 8.1、Windows server 2012 r2、Windows 8、Windows server 2012、windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 10 或 Windows Server 2016 之前無法使用。
+**Windows 8.1、Windows Server 2012 r2、Windows 8、Windows Server 2012、Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 10 或 Windows Server 2016 之前無法使用。
 
 <dt>
 
@@ -1326,7 +1326,7 @@ COM 埠對應已停用。
 
 指出如何設定 **EncodeImageQualityi** 。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1357,7 +1357,7 @@ COM 埠對應已停用。
 
 指出如何設定 **HardwareGraphicsAdapter** 。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1447,7 +1447,7 @@ COM 埠對應已停用。
 
 </dd> </dl>
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 </dd> <dt>
 
@@ -1462,7 +1462,7 @@ COM 埠對應已停用。
 
 指出 **MaxXResolution** 和 **MaxYResolution** 屬性是否由伺服器、群組原則或預設值所設定。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 <dt>
 
@@ -1529,7 +1529,7 @@ COM 埠對應已停用。
 
 指出如何設定 **RemoteSessionProfile** 。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1560,7 +1560,7 @@ COM 埠對應已停用。
 
 指出屬性 **SelectNetworkDetect** 的設定方式。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1591,7 +1591,7 @@ COM 埠對應已停用。
 
 指出屬性 **SelectTransport** 的設定方式。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1622,7 +1622,7 @@ COM 埠對應已停用。
 
 指出是否由伺服器或群組原則設定 **VideoPlaybackRedir** 屬性。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 <dt>
 
@@ -1689,7 +1689,7 @@ COM 埠對應已停用。
 
 指定 RDP 體驗的設定檔。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1727,7 +1727,7 @@ COM 埠對應已停用。
 
 指定是否使用網路偵測。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1772,7 +1772,7 @@ COM 埠對應已停用。
 
 指定可使用哪些傳輸通訊協定來進行伺服器的 RDP 存取。
 
-**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
+**Windows 7、Windows server 2008 R2、Windows Vista 和 Windows Server 2008：** 此屬性在 Windows 8 或 Windows Server 2012 之前無法使用。
 
 <dt>
 
@@ -1901,7 +1901,7 @@ COM 埠對應已停用。
 
 指定是否允許播放影片重新導向。
 
-**Windows Server 2008 和 Windows Vista：** 此屬性在 Windows Server 2008 R2 和 Windows 7 之前無法使用。
+**Windows Server 2008 和 Windows Vista：** Windows Server 2008 R2 和 Windows 7 之前，無法使用此屬性。
 
 <dt>
 
@@ -1964,7 +1964,7 @@ COM 埠對應已停用。
 
 若要連接到 \\ 根 \\ CIMV2 \\ microsoft-windows-terminalservices-gateway 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為六。
 
-下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

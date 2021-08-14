@@ -4,12 +4,12 @@ ms.assetid: 95a838a2-f138-4682-b733-3f363b6c4a4b
 title: 調試函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39bf5f81b08e3a7b324f276fc1a7b5d256d40819
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dfafdf5a453d262e75c4ab87356cbe34cfbb8574b520d353de0e66057903087f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162669"
 ---
 # <a name="debugging-functions"></a>調試函數
 

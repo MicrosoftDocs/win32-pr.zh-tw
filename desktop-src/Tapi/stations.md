@@ -4,12 +4,12 @@ ms.assetid: 1d116734-cd8f-40f1-9069-2dad351a24bf
 title: 站
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff497eb70d1a1fd8441eeb8ad24bae6e5d1cd03e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ad9874542a63f05e124ea5df833aa0a433c03713cc3a2d7bb1ca3a471174e86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760713"
 ---
 # <a name="stations"></a>站
 

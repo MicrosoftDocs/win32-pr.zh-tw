@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: da6590d63f4a3c79252e25f3625c0ee75b146b6d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb826d23a168d81d838341e96fa5e613f8b6f5261a3cda548a2be320acebbde8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458916"
 ---
 # <a name="foldermovehere-method"></a>MoveHere 方法
 
@@ -192,9 +192,9 @@ Folder.MoveHere(
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **MoveHere** 將檔案 Temp.txt 從 c 磁片磁碟機的根目錄移至 c： \\ Windows 資料夾。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **MoveHere** 將檔案 Temp.txt 從 c 磁片磁碟機的根目錄移至 c： \\ Windows 資料夾。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -273,7 +273,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

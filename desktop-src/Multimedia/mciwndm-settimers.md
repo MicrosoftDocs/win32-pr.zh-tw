@@ -3,7 +3,7 @@ title: 'MCIWNDM_SETTIMERS 訊息 (Vfw .h) '
 description: MCIWNDM \_ SETTIMERS 訊息會設定 MCIWnd 用來更新 [MCIWnd] 視窗中的提要欄位、更新顯示在視窗標題列中的位置資訊，以及將通知訊息傳送至父視窗的更新期間。
 ms.assetid: 06407c67-b620-4f80-9fe9-456cdf3d0666
 keywords:
-- MCIWNDM_SETTIMERS message Windows 多媒體
+- MCIWNDM_SETTIMERS 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bba3fa2e474a15dc23deb9cdc6d00d148b8cd3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e9c17a131827459555ae51adc5d5bd48d98fabb88fc4c1f0dbbcd1eb3673466
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807551"
 ---
 # <a name="mciwndm_settimers-message"></a>MCIWNDM \_ SETTIMERS 訊息
 

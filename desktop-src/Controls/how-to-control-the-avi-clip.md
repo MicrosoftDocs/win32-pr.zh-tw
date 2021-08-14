@@ -4,12 +4,12 @@ description: 本主題將示範如何使用動畫控制項宏來播放、停止�
 ms.assetid: 4B19F929-B306-4EBF-B82F-6539FAA42BA6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c11f7d8f519f98f3293d5be29fac0e0a40dd704
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 5fbabd3ea6e0694448e4bd8c01e53161333b2df3904cf1578252bdbe150d3d5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463965"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170759"
 ---
 # <a name="how-to-control-the-avi-clip"></a>如何控制 AVI 剪輯
 
@@ -19,12 +19,12 @@ ms.locfileid: "104463965"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 -   AVI 檔案
 
 ## <a name="instructions"></a>指示

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 323604d104be3432a5fc251901c4308bfc989f90
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abfabc93947f5eb583c4178fa47b20468eb7eaf9a8f651c76baf0c1e1256311e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219774"
 ---
 # <a name="tabthumbnails-sample"></a>TabThumbnails 範例
 

@@ -4,12 +4,12 @@ description: 前幾節已討論過滑鼠點擊和滑鼠移動。 以下是一些
 ms.assetid: 6A5B953F-7032-4AA6-8B64-2E9CBB8F59F1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfba63dce8116d79a557cbbbf8895f17d2a8f1b9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a31877ab5a71819fa896fd1253e7391f9ed748dffff636ab9d3e8591669b7fae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315067"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387964"
 ---
 # <a name="miscellaneous-mouse-operations"></a>其他滑鼠操作
 
@@ -37,9 +37,9 @@ ms.locfileid: "104315067"
 以下是概念：當某個程式支援拖放時，您不希望每個滑鼠點擊都能以拖曳的方式轉譯。 否則，當使用者只是想要按一下它時，使用者可能會不小心拖曳某個東西 (例如，將它選取) 。 但是，如果滑鼠特別敏感，則在按一下時，可能很難讓滑鼠保持完美。 因此，Windows 會定義一些圖元的拖曳臨界值。 當使用者按下滑鼠按鍵時，除非滑鼠超過此臨界值，否則不會將它視為拖曳。 [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect)函式會測試是否達到此臨界值。 如果函式傳回 **TRUE**，您可以將滑鼠按一下的方式解讀為拖曳。 否則，請不要這麼做。
 
 > [!Note]  
-> 如果 [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) 傳回 **FALSE**，則當使用者放開滑鼠按鍵時，Windows 會隱藏 [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) 訊息。 因此，除非您的程式目前處於支援拖曳的模式，否則請勿呼叫 **DragDetect** 。  (例如，如果已選取可拖曳的 UI 元素。在此課程模組結束時 ) ，我們會看到使用 **DragDetect** 函式的較長程式碼範例。
+> 如果 [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect)傳回 **FALSE**，Windows 會在使用者放開滑鼠按鍵時隱藏 [**WM \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup)訊息。 因此，除非您的程式目前處於支援拖曳的模式，否則請勿呼叫 **DragDetect** 。  (例如，如果已選取可拖曳的 UI 元素。在此課程模組結束時 ) ，我們會看到使用 **DragDetect** 函式的較長程式碼範例。
 
- 
+ 
 
 ## <a name="confining-the-cursor"></a>將資料指標
 
@@ -232,6 +232,6 @@ int delta = GET_WHEEL_DELTA_WPARAM(wParam);
 
 [鍵盤輸入](keyboard-input.md)
 
- 
+ 
 
- 
+ 

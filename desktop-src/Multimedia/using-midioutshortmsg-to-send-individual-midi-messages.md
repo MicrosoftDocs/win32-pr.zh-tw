@@ -11,12 +11,12 @@ keywords:
 - midiOutShortMsg 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 905b0ce924f9aebce67f515fc0714fdc855cbe33
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: accd4f1f7482c81acdff1c950ada8947d3b1d456438dd96092ae094ae587de42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800820"
 ---
 # <a name="using-midioutshortmsg-to-send-individual-midi-messages"></a>使用 midiOutShortMsg 傳送個別的 MIDI 訊息
 
@@ -49,8 +49,8 @@ UINT sendMIDIEvent(HMIDIOUT hmo, BYTE bStatus, BYTE bData1,
 > [!Note]  
 > 在將資料傳送至輸出埠之前，不需要使用 MIDI 輸出驅動程式來驗證資料。 應用程式必須確定只傳送有效的資料。
 
- 
+ 
 
- 
+ 
 
- 
+ 

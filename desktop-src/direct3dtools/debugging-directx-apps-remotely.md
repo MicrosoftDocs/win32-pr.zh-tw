@@ -4,12 +4,12 @@ description: 您可以使用 Visual Studio 和 Windows 8 SDK，從遠端進行 D
 ms.assetid: CA471465-47C2-4706-B391-C9E6C2CD69D9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55548cd282bf643e16f22177e46643c6e283a909
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 30f9fd97519bb88a0a89206e5a8c3aa43cf990948cb9aa8c9dd40379c53ed1a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382813"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505673"
 ---
 # <a name="debugging-directx-apps-remotely"></a>遠端偵錯程式的 DirectX 應用程式
 

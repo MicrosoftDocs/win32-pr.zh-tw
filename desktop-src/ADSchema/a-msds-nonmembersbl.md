@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 88483757e5c9f87771ce8d71f21d26ea3154f975
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 87426328f9c2c5618374ebdd9c355693e6fff3303e83a44aba55eef7a333d954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683632"
 ---
 # <a name="ms-ds-non-members-bl-attribute"></a>ms DS-非成員-BL 屬性
 
@@ -56,7 +56,7 @@ ms.locfileid: "106970868"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -77,7 +77,7 @@ ms.locfileid: "106970868"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -98,7 +98,7 @@ ms.locfileid: "106970868"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -119,7 +119,7 @@ ms.locfileid: "106970868"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |
@@ -140,7 +140,7 @@ ms.locfileid: "106970868"
 |------------------------|---------------------------------|
 | 連結識別碼                | 2015                            |
 | MAPI-Id                | \-                              |
-| System-Only            | 對                            |
+| System-Only            | 是                            |
 | 是-單一值       | 否                           |
 | 已編制索引             | 否                           |
 | 在通用類別目錄中      | 否                           |

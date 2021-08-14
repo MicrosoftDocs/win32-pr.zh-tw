@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 42f98ae99814495029c67d41b05e86182c6b8b34
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0863db300f18e0231143b4f3aaa28cf4fcdb9ff1a46f4c92bd99d2092fdc088d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221495"
 ---
 # <a name="ishelldispatchtilevertically-method"></a>IShellDispatch. TileVertically 方法
 
@@ -63,7 +63,7 @@ IShellDispatch.TileVertically()
 
 下列範例示範如何在 JScript、VBScript 和 Visual Basic 中使用 **TileVertically** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -119,7 +119,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

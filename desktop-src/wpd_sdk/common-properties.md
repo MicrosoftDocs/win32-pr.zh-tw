@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置 (WPD) 支援下列命令參數的屬性。
+description: Windows可攜式裝置 (WPD) 支援下列命令參數的屬性。
 ms.assetid: 03eff101-5c36-48ea-9dcd-2c4ee29a2ac6
 title: '命令參數 (PortableDevice .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 7687488c38f95fd6d7e7b69d64ad6ae32631700d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e5c58652c27d62e2954e86b9170e2f0a2d4ae4021743ced769adbf46a1f082b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978794"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431055"
 ---
 # <a name="command-parameters"></a>命令參數
 
-Windows 可攜式裝置 (WPD) 支援下列命令參數的屬性。
+Windows可攜式裝置 (WPD) 支援下列命令參數的屬性。
 
 
 

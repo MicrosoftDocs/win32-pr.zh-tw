@@ -4,23 +4,23 @@ description: CD 播放清單屬性
 ms.assetid: 3f447fa8-2d09-49c3-8efd-6bf048429a6b
 keywords:
 - Windows Media Player、CD 播放清單屬性
-- Windows Media Player Mobile、CD 播放清單屬性
+- Windows Media PlayerMobile、CD 播放清單屬性
 - Windows Media Player 物件模型、CD 播放清單屬性
 - 物件模型、CD 播放清單屬性
 - ActiveX 控制項、CD 播放清單屬性
 - Windows Media Player ActiveX 控制項、CD 播放清單屬性
-- Windows Media Player Mobile ActiveX 控制項、CD 播放清單屬性
+- Windows Media PlayerMobile ActiveX control、CD 播放清單屬性
 - 物件模型、CD 播放清單屬性的參考
 - 屬性、播放清單
 - CD 播放清單屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 689b2b3b722a18a0e73305b959a2b4966a3bce79
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1fdc35b110b690952ffff9ad1a525f8b0e5a634c094ac07ad066b2d09e947a15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342651"
 ---
 # <a name="cd-playlist-attributes"></a>CD 播放清單屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106965604"
 -   [演出者別名](author-attribute.md)
 -   [Author 屬性](author-attribute.md)
 -   [BuyNow 屬性](buynow-attribute.md)
--   [編輯器別名](wm-composer-attribute.md)
+-   [Composer 別名](wm-composer-attribute.md)
 -   [著作權屬性](copyright-attribute.md)
 -   [內容類型別名](wm-genre-attribute.md)
 -   [標籤別名](wm-publisher-attribute.md)
@@ -57,9 +57,9 @@ ms.locfileid: "106965604"
 [**CD 曲目**](cd-track-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0801ffae0429b0c1d16d452d4170bdc6ce74937f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2cc50bcfd05b64a842a640bbd25d38382829b15332efb97bdbfbd20c2770e22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117719226"
 ---
 # <a name="apijetdeletecolumn-method"></a>JetDeleteColumn 方法
 
@@ -78,7 +78,7 @@ public static void JetDeleteColumn(
 
 <!-- end list -->
 
-  - 直條圖  
+  - 行  
     類型： [system.string](/dotnet/api/system.string)  
     
     要刪除的資料行名稱。

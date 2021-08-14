@@ -1,17 +1,17 @@
 ---
 description: 瞭解如何檢查 HTTP 中繼資料交換的網路追蹤。 使用可顯示原始封包的網路封包分析器。
 ms.assetid: b3b6c4d1-5fa3-41fb-ae1d-067638e385b0
-title: 檢查 HTTP 中繼資料交換的網路追蹤
+title: 檢查 HTTP 中繼資料 Exchange 的網路追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e653b0852f84382873973cd63fbd3223a245dd4
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 076ead8f6ac0cf78699029189f0d34daaf0e17db3dec33d1a41bedfd0167eb2c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112262680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311597"
 ---
-# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>檢查 HTTP 中繼資料交換的網路追蹤
+# <a name="inspecting-network-traces-for-http-metadata-exchange"></a>檢查 HTTP 中繼資料 Exchange 的網路追蹤
 
 任何可顯示原始封包的網路封包分析器，都可以用來檢查 HTTP 中繼資料交換要求。 建議使用 Microsoft 網路監視器 3 (Netmon) 。 如需 Netmon 的詳細資訊，請參閱 [下載 netmon 和範例 DPWS 篩選器](downloading-netmon-and-sample-dpws-filters.md)。
 
@@ -33,7 +33,7 @@ ms.locfileid: "112262680"
 
 ## <a name="verifying-that-messages-meet-traffic-requirements"></a>確認訊息符合流量需求
 
-WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱 [探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
+WSDAPI 用戶端和主機必須傳送符合下列準則的訊息。 如需訊息模式的一般資訊，請參閱[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)。
 
 -   訊息必須符合 [檢查 UDP WS-探索的網路追蹤](inspecting-network-traces-for-udp-ws-discovery.md)主題中提供的流量需求，除非絕對確定 WS-Discovery 不會用於中繼資料交換。
 -   必須在用戶端與 [ProbeMatches](probematches-message.md)或 [ResolveMatches](resolvematches-message.md)訊息的 **XAddrs** 元素中提供的第一個傳輸位址之間建立 TCP 連接。 下列清單顯示用來建立 TCP 連接的一般封包交換。

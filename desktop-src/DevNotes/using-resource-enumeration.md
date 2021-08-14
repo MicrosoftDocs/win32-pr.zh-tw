@@ -4,12 +4,12 @@ ms.assetid: e0c2c795-2960-44f9-8b63-2329f5b42e15
 title: 使用資源列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36791b39ae08bedce9fffccdb78b6c7591ebbee3
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eb201fb263cf89cc0eaae2c967390c9868fc5d77d6ff9d2e60a641d6659de34d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161200"
 ---
 # <a name="using-resource-enumeration"></a>使用資源列舉
 

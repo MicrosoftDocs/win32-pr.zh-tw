@@ -4,12 +4,12 @@ ms.assetid: edfc2012-d948-4b01-a7c8-387a7d5caa86
 title: 授權參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31ba982d3b717c6896f689f45e32548a3d36c943
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0843554144eee31ed0bf1c20eff30728009ebf6630b354a19d1a6157e1567908
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784164"
 ---
 # <a name="authorization-reference"></a>授權參考
 

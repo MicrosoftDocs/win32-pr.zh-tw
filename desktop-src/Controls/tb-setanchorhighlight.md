@@ -3,7 +3,7 @@ title: 'TB_SETANCHORHIGHLIGHT 訊息 (Commctrl .h) '
 description: 設定工具列的錨點醒目提示設定。
 ms.assetid: d31652d5-e9cf-4bf3-8f90-818eb078fa87
 keywords:
-- TB_SETANCHORHIGHLIGHT message Windows 控制項
+- TB_SETANCHORHIGHLIGHT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 809f71e446f7768d637258152db1dd2d56346dfd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 77a66193aebee80a2ffde97b7e802b5bab750f0a9e2f1773b32d872211d52150
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167981"
 ---
 # <a name="tb_setanchorhighlight-message"></a>TB \_ SETANCHORHIGHLIGHT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "106967712"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

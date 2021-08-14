@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2da2bb15c6401b527a4d6e835e4e4e2f572a0f19
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7fe641087cb5013d408d62d01d2ff51ec7aa65ce23509fbbf5ac5b6bdb20ecb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106966160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174662"
 ---
 # <a name="web-information-property-set"></a>Web-Information 屬性集
 
@@ -50,7 +50,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|----------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/>                    |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/>                    |
 | 當地語系化-顯示識別碼 | 24                                                                                           |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/> |
 
@@ -62,7 +62,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 24                                                                                                                            |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/>                                  |
 
@@ -86,7 +86,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 24                                                                                                                            |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/>                                  |
 
@@ -98,7 +98,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 24                                                                                                                            |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/>                                  |
 
@@ -110,7 +110,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 24                                                                                                                            |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/>                                  |
 
@@ -122,7 +122,7 @@ ms.locfileid: "106966160"
 
 | 進入 | 值 |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Applies-To              | [**User**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
+| Applies-To              | [**使用者**](c-user.md)<br/> [**Contact**](c-contact.md)<br/> [**inetOrgPerson**](c-inetorgperson.md)<br/> |
 | 當地語系化-顯示識別碼 | 24                                                                                                                            |
 | 屬性集成員    | [**WWW-首頁**](a-wwwhomepage.md)<br/> [**WWW-頁面-其他**](a-url.md)<br/>                                  |
 

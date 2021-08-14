@@ -6,12 +6,12 @@ keywords:
 - 2D 仿射轉換效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3017992d34cd98095f01192ea948684a6b52e53
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8b341213dcea6ea37f5dc6b95508ad48f8dfd95243e0b216a4b4522e324150d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161138"
 ---
 # <a name="2d-affine-transform-effect"></a>2D 仿射轉換效果
 
@@ -161,8 +161,8 @@ m_d2dContext->EndDraw();
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

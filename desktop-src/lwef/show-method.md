@@ -4,16 +4,16 @@ description: Show 方法
 ms.assetid: 58adbb55-f4cb-4356-abc4-b85fa3af744d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a05a1adaa46c85f34e02128960330c68d9a86db1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: ede9dd8474b21911fccb0c217b070dbfb84160125d2fd56092685ccaf82905b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475350"
 ---
 # <a name="show-method"></a>Show 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106965640"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID * * *" 的字元 ) 。顯示* *  \[ *快速*\]
+*代理程式 ***。 ( "**_CharacterID_*_" ) 的字元。顯示_ *  \[ *快速*\]
 
 
 

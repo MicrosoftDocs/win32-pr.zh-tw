@@ -3,18 +3,18 @@ title: 操作
 description: 本節說明 Windows Touch 的物件操作。
 ms.assetid: 7f905c36-7804-422c-8a60-a281e03c5e15
 keywords:
-- Windows Touch，操作
+- Windows觸控、操作
 - 操作，關於
 - 操作，手勢差異
 - 手勢、操作差異
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10fe65494de990305e4268aa4191b5dabaa267f4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5368b39de1f35cc9a547bc240fc3c984fc1f10f658972b0f845a965e09bb29c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435983"
 ---
 # <a name="manipulations"></a>操作
 
@@ -36,7 +36,7 @@ ms.locfileid: "104300187"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ ms.locfileid: "104300187"
 [操作和慣性](manipulation-and-inertia.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

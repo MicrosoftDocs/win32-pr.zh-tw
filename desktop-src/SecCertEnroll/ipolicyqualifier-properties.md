@@ -4,12 +4,12 @@ ms.assetid: 872F5E66-8FF0-4307-B398-565FFF5D3DEB
 title: IPolicyQualifier 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc1af86cac2701db3e7877c5de991091615819b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9451e40d9e78482c8fd7a93923d255271a99209ad9d15d2e9884426462043d97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117777584"
 ---
 # <a name="ipolicyqualifier-properties"></a>IPolicyQualifier 屬性
 

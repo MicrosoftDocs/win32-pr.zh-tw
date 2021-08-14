@@ -4,12 +4,12 @@ ms.assetid: 3741fc97-bbe6-41f0-9c0f-fb2f22225fa3
 title: 'WPD_COMMAND_MTP_EXT_GET_VENDOR_EXTENSION_DESCRIPTION 命令 (WpdMtpExtensions .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e1b98d5b8bce699537bc261e915d8233be6082c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 31622676161065ec685640789bc51eef64165542a9ebe4c9367ea1a03195e7cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193505"
 ---
 # <a name="wpd_command_mtp_ext_get_vendor_extension_description-command"></a>WPD \_ 命令 \_ MTP \_ EXT \_ GET \_ 廠商 \_ EXTENSION \_ DESCRIPTION 命令
 

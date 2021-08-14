@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5e6d26bd5e347757fce270d5f2c78ab471755c1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d50f0f3a0908b725d7f704df962324a0f16af1fc6f7353515a8d604e87edd0a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487611"
 ---
 # <a name="jet_callback-callback-function"></a>JET_CALLBACK 回呼函數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_callback-callback-function"></a>JET_CALLBACK 回呼函數
 
@@ -82,7 +82,7 @@ _**適用于：** Windows |Windows Server_
 
 #### <a name="return-value"></a>傳回值
 
-函數會傳回其中一個可延伸的 [儲存引擎錯誤碼](./extensible-storage-engine-error-codes.md)。 如需如何將這些程式碼傳回為 Hresult 的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md)。 成功時，發出回呼的作業可以正常執行。 在某些情況下，回呼可能會傳回會影響該作業的警告。 如需作業使用這些警告的詳細資訊，請參閱 [JET_CBTYP](./jet-cbtyp.md) 。
+函數會傳回其中一個[可擴充的儲存體引擎錯誤碼](./extensible-storage-engine-error-codes.md)。 如需如何將這些程式碼傳回為 Hresult 的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)。 成功時，發出回呼的作業可以正常執行。 在某些情況下，回呼可能會傳回會影響該作業的警告。 如需作業使用這些警告的詳細資訊，請參閱 [JET_CBTYP](./jet-cbtyp.md) 。
 
 失敗時，發出回呼的作業可能會正常進行，或可能會失敗。 如需作業使用錯誤碼的詳細資訊，請參閱 [JET_CBTYP](./jet-cbtyp.md) 。
 
@@ -144,7 +144,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

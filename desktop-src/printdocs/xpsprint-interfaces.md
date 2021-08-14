@@ -4,12 +4,12 @@ ms.assetid: f575109e-e9c4-4db5-945c-7c96b6b5d613
 title: XPS 列印 API 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47cd01c169c82a9e3210f281ec6c44fa206c40b5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: e9c8f7b503581c319aa43dccae521c012ab637aadc28491d2029ee9aa9e29f54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867511"
 ---
 # <a name="xps-print-api-interfaces"></a>XPS 列印 API 介面
 

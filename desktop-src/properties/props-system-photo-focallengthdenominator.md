@@ -4,18 +4,18 @@ ms.assetid: 9bcb7d2f-33be-4e4f-ab8e-2e29e8688c1e
 title: FocalLengthDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1ac983053ba3630c467847497e42ddfb578f1de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbad0ea1b41771d57246ef573624fc76d2626651d5ed4026f8748c9dbf496b6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229720"
 ---
 # <a name="systemphotofocallengthdenominator"></a>FocalLengthDenominator
 
 PKEY \_ 相片 FocalLength 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,12 +4,12 @@ ms.assetid: d932a251-f238-4582-a1c4-cf4855f26fb3
 title: SimpleRating 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 63b91e41a0684c8e395992683e0a1d4fe43306a0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38c65c9e49d7e905a4cefe890b6c5aab257250baa41171470666ba38b3fb5c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709962"
 ---
 # <a name="systemsimplerating-photo-metadata-policy"></a>SimpleRating 相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-No
+否
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

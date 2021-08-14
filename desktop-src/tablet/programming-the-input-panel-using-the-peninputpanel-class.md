@@ -4,12 +4,12 @@ ms.assetid: f83c7709-86dc-4c64-ad17-2ad660eb57b7
 title: 使用 PenInputPanel 類別來設計輸入面板
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80e00d1cb10983255ab2e532aa08de6e9e6a0fb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d430b002fb967652aea046919ec7341a984f420f756fd936e8c68dbfce8c055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449380"
 ---
 # <a name="programming-the-input-panel-using-the-peninputpanel-class"></a>使用 PenInputPanel 類別來設計輸入面板
 
@@ -19,13 +19,13 @@ ms.locfileid: "104320732"
 
 ## <a name="input-panel-vs-the-peninputpanel-object"></a>輸入面板與 PenInputPanel 物件
 
-在 Microsoft Windows XP Tablet PC Edition 1.0 版中，系統層級的 Tablet PC 輸入面板提供了通用的機制，可在 Windows 平臺上完成文字輸入，但不提供程式設計的存取。 在 Windows XP Tablet PC Edition 軟體發展工具組中 (SDK) 1.5 版和更新版本中， [**PenInputPanel**](peninputpanel-class.md) 物件可讓您將文字輸入工具直接整合到您的應用程式，並提供先前未提供的控制層級。 從 Windows XP Tablet PC Edition 2005 開始，系統層級的輸入面板已升級為包含 **PenInputPanel** 物件提供的就地輸入功能，以及更多。
+在 Microsoft Windows XP Tablet pc Edition 1.0 版中，系統層級的 tablet pc 輸入面板會提供通用機制來完成跨 Windows 平臺的文字輸入，但不會提供程式設計的存取。 在 Windows XP Tablet PC Edition 軟體發展工具組 (SDK) 1.5 版和更新版本中， [**PenInputPanel**](peninputpanel-class.md)物件可讓您將文字輸入工具直接整合到您的應用程式，並提供先前未提供的控制層級。 從 Windows XP Tablet PC Edition 2005 開始，系統層級的輸入面板已升級為包含 **PenInputPanel** 物件提供的就地輸入功能，以及更多。
 
 下圖顯示透過 [ [自動宣告表單範例](auto-claims-form-sample.md) ] 範例顯示的輸入面板。
 
 ![輸入面板會顯示在用於汽車宣告的表單上](images/36eaa36b-1b0c-4363-96fa-092f70663ffa.jpg)
 
-輸入面板會將相同的就地輸入功能提供給在 Windows XP Tablet PC Edition 2005 或更新版本上執行的任何應用程式，而不需要額外的程式碼，藉此取代 [**PenInputPanel**](peninputpanel-class.md) 。 本文說明如何使用 **PenInputPanel** 物件來提供回溯相容性。 如果應用程式是在 Windows XP Tablet PC Edition 2005 或更新版本上執行，則已使用 **PenInputPanel** 物件的應用程式將會有相同的功能，但該輸入面板將會顯示，而不是 **PenInputPanel** 。
+輸入面板會將相同的就地輸入功能提供給 Windows XP Tablet PC Edition 2005 或更新版本上執行的任何應用程式，而不需要額外的程式碼，藉此取代 [**PenInputPanel**](peninputpanel-class.md) 。 本文說明如何使用 **PenInputPanel** 物件來提供回溯相容性。 已使用 **PenInputPanel** 物件的應用程式運作相同，不同之處在于應用程式是在 Windows XP Tablet PC Edition 2005 或更新版本上執行時，將會顯示輸入面板而不是 **PenInputPanel** 。
 
 如果您正在開發 Tablet PC 的新應用程式，而且想要擁有就地使用者輸入解決方案，輸入面板會在 Windows XP Tablet PC Edition 2005 或更新版本上自動提供此應用程式。 不需要具現化 [**PenInputPanel**](peninputpanel-class.md) 物件。
 

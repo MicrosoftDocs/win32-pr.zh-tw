@@ -4,12 +4,12 @@ ms.assetid: ff155c01-22ba-46dd-85b8-05eabf956908
 title: 'EC_STREAM_ERROR_STILLPLAYING (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5db74a9f16a0ca01ce74e6d94df50cc402221aaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bf78f1fba25316155e36eef1ed469a32bba1ce7c194a6dffb200f1fce5ede3ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819995"
 ---
 # <a name="ec_stream_error_stillplaying"></a>EC \_ 資料流程 \_ 錯誤 \_ STILLPLAYING
 

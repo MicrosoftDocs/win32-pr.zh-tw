@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 142074d187bb673ea33aec479cc3d790956d4bdb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 600a725b9b03acc130d9dfe2bfcd59aa7834de53e71aec4a9aa95a795d0aa999
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750212"
 ---
 # <a name="customsliderondragbegin"></a>CUSTOMSLIDER.onDragBegin
 

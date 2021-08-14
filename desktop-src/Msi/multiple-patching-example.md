@@ -4,12 +4,12 @@ ms.assetid: 98771652-cec2-4371-8132-a741cf8431fb
 title: 多個修補範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d2d10274531ac4906ef61a49caee9ccbcde98bbb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b8d33d103bb27fde3b7fdc4ee46a0c5d946e73b6948513ea1b8fffb7bab30bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943365"
 ---
 # <a name="multiple-patching-example"></a>多個修補範例
 

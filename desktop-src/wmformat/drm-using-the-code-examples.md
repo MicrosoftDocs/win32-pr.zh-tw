@@ -1,25 +1,25 @@
 ---
-title: 使用 Microsoft Windows Media DRM 用戶端程式代碼範例
-description: 使用 Microsoft Windows Media DRM 用戶端程式代碼範例
+title: 使用 Microsoft Windows 媒體 DRM 用戶端程式代碼範例
+description: 使用 Microsoft Windows 媒體 DRM 用戶端程式代碼範例
 ms.assetid: 75db2663-9eb8-406d-b1a9-8f6092c95f9d
 keywords:
-- Windows Media Format SDK，程式碼範例
-- Windows Media Format SDK，範例程式碼
-- Windows Media Format SDK，DRM 程式碼範例
+- Windows媒體格式 SDK，程式碼範例
+- Windows媒體格式 SDK，範例程式碼
+- Windows媒體格式 SDK，DRM 程式碼範例
 - 數位版權管理 (DRM) ，程式碼範例
 - DRM (數位版權管理) ，程式碼範例
 - 數位版權管理 (DRM) ，範例程式碼
 - DRM (數位版權管理) ，範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 054d1ed804873c8aca104203ee1f235ecb3856f5
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3e14ef7e1d003dec8270bb4cfb63d5b4ead7f11751eb94dd09cd771ebd34b3ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118704211"
 ---
-# <a name="using-the-microsoft-windows-media-drm-client-code-examples"></a>使用 Microsoft Windows Media DRM 用戶端程式代碼範例
+# <a name="using-the-microsoft-windows-media-drm-client-code-examples"></a>使用 Microsoft Windows 媒體 DRM 用戶端程式代碼範例
 
 本檔中包含程式碼範例，以說明元件的使用方式。 這些範例會盡可能清楚且簡潔地撰寫。 閱讀範例時，您應該注意下列慣例。
 

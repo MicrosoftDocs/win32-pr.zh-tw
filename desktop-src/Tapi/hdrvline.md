@@ -4,12 +4,12 @@ ms.assetid: 8bb1c3fe-a3de-4299-bc15-58321c5da549
 title: HDRVLINE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1621c4125634b4d628a2ec281b40048c848ce12f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11fd024863082e81fb11b9210afaef48f5d0171f6a663d8effbd42c83a739e38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762890"
 ---
 # <a name="hdrvline"></a>HDRVLINE
 

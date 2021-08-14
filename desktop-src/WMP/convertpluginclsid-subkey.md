@@ -13,16 +13,16 @@ keywords:
 - ConvertPluginCLSID 子機碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4229617c3999708d89fac976e94b2747b5a69145
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5deeda3e7eb0b5fe465152aa7711717d086c94a06ebed4f9549dc9f6a9b62dd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341662"
 ---
 # <a name="convertpluginclsid-subkey"></a>ConvertPluginCLSID 子機碼
 
-當 Windows Media Player 11 遇到自訂副檔名時，它會尋找符合擴充功能的登錄子機碼。 此子機碼描述于副檔名登錄 [設定](file-name-extension-registry-settings.md)中。 在某些情況下，延伸的子機碼具有名為 **ConvertPluginCLSID** 的子機碼。
+當 Windows Media Player 11 遇到自訂副檔名時，它會尋找符合擴充功能的登錄子機碼。 此子機碼描述于副檔名登錄[設定](file-name-extension-registry-settings.md)中。 在某些情況下，延伸的子機碼具有名為 **ConvertPluginCLSID** 的子機碼。
 
 例如，假設您已建立副檔名為 (的自訂檔案格式。 xyz) 和轉換外掛程式，可將檔案轉換成 Windows Media Player 所支援的格式，然後您可以在下列其中一或兩個子機碼中儲存外掛程式的類別識別碼。
 
@@ -51,7 +51,7 @@ ms.locfileid: "104021541"
 
 
 
- 
+ 
 
 請注意，預設的轉換外掛程式會以兩個登錄專案表示：預設專案和已命名的專案。 Windows Media Player 使用預設專案來判斷哪個外掛程式是主要) 轉換外掛程式的預設 (。 Windows Media Player 會使用已命名的專案來取得所有轉換外掛程式的易記名稱，包括預設外掛程式。
 
@@ -68,12 +68,12 @@ Windows Media Player 11 支援 **ConvertPluginCLSID** 登錄專案。
 [**副檔名登錄設定**](file-name-extension-registry-settings.md)
 </dt> <dt>
 
-[**Windows Media Player 轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
+[**Windows Media Player轉換外掛程式**](windows-media-player-conversion-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

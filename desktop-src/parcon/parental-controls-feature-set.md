@@ -4,12 +4,12 @@ ms.assetid: 25b9d906-6e26-488c-9d5b-a0c27d6cfe76
 title: 家長監護功能集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcc5f43a2e393356dca760f2df70de415b430aeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89544e39ee3a2d4c2c894739ca7ddaf525ed0b8a93c634bcc85153afa1c41dfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869283"
 ---
 # <a name="parental-controls-feature-set"></a>家長監護功能集
 

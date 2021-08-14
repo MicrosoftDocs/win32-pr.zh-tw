@@ -7,12 +7,12 @@ keywords:
 - 程式碼詳細資料 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d959357f2cdd094b26cde4f649c3286389b8415
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: b0f03e7c7ed7d61d56f338a8bb44d51b1890d4bd24cd7dc1e6050f1900f6ff61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692284"
 ---
 # <a name="code-details"></a>程式碼詳細資料
 
@@ -21,13 +21,13 @@ ms.locfileid: "104024084"
 > [!Note]  
 > [**IADs**](/windows/desktop/api/Iads/nn-iads-iads)方法 **GetEx** 和 **PutEx** 不會在 ADSI 範例提供者元件中執行。 也就是說，執行繼承自 **IADs** 的 Active Directory 物件的程式碼沒有 **GetEx** 和 **PutEx** 方法。 這包括支援 [**得到 iadsclass**](/windows/desktop/api/Iads/nn-iads-iadsclass)的架構類別物件、支援 [**IADsProperty**](/windows/desktop/api/Iads/nn-iads-iadsproperty)的屬性物件、支援 **IADs** 的泛型 Active Directory 物件，以及任何支援 [**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)的容器物件。 此外，語法物件不會出現在範例提供者元件中。 不過，ADSI 架構需要將語法物件包含在架構容器物件中，就像架構類別和屬性物件一樣。
 
- 
+ 
 
 下表列出 Active Directory 服務介面 SDK 中提供者範例目錄中所包含的原始程式碼檔。
 
 
 
-| 原始程式碼檔                 | Description                                                                                                                                                       |
+| 原始程式碼檔                 | 描述                                                                                                                                                       |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [cclsobj .cpp](cclsobj-cpp.md)   | 架構類別物件常式。                                                                                                                                     |
 | [cdispmgr .cpp](cdispmgr-cpp.md) | 分派管理員執行。                                                                                                                                  |
@@ -61,8 +61,8 @@ ms.locfileid: "104024084"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

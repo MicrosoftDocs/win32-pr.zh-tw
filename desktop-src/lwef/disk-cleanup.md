@@ -9,12 +9,12 @@ keywords:
 - 註冊，磁片清理處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30584439ae2c38ae8a9b7106dae96f69eea5df37
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 61ce7fc96e16cb27168e00196b65d48d378758a47594122cca978dc1a1f4de94
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106967930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479889"
 ---
 # <a name="creating-a-disk-cleanup-handler"></a>建立磁片清理處理常式
 
@@ -61,7 +61,7 @@ ms.locfileid: "106967930"
 
 -   使用者可以按一下 [ **開始**] 來起始磁片清理;指向 [ **所有程式**]、[ **附屬** 應用程式] 和 [ **系統工具**];然後按一下 [ **磁片清理**]。
 -   系統會通知使用者，指出未使用的磁碟空間已達重大模式。 大於 2.25 gb 的磁片磁碟機的重大模式閾值 (GB) 200 mb (MB) 。 後續的警告會在80、50和 1 MB 提供。 使用者可以選擇手動釋出磁碟空間，或啟動磁片清理公用程式。
--   使用者可以讓 Windows 排程的工作 Wizard (稱為舊版系統上的維護嚮導) 在排程的時間自動執行磁片清理公用程式。
+-   使用者可以在較舊的系統上 Windows 排程的工作 Wizard (稱為「維護嚮導」) 在排程的時間自動執行磁片清理公用程式。
 
 磁片清理所固有的基本挑戰是，盡可能釋放磁碟空間，而不需要刪除重要的檔案。 因為沒有任何標準的方式可標示要清除的檔案，所以沒有任何單一應用程式可以可靠地偵測和清除所有 unessential 檔案。 磁片清理公用程式會藉由分割單一 *磁片清理管理員* 與 *磁片清理處理常式* 集合之間的清除操作來解決此問題。
 
@@ -73,7 +73,7 @@ ms.locfileid: "106967930"
 
 每個處理常式都負責一組妥善定義的檔案。 例如，在圖例中選取的處理常式會負責清除下載的程式檔。 在圖例中選取的處理常式也會提供 [ **View Files** ] 按鈕。 藉由按一下按鈕，使用者可以要求處理常式顯示 UI，通常是 Windows 檔案總管視窗，可讓使用者指定要清除的檔案或檔案類別。
 
-雖然 Windows 有一些磁片清理處理常式，但它們並不是用來處理其他應用程式所產生的檔案。 磁片清理管理員的設計目的是要讓任何開發人員都能執行並註冊自己的磁片清理處理常式，以提供彈性且可擴充的功能。 任何開發人員都可以藉由執行和註冊磁片清理處理常式來擴充可用的磁片清理服務。
+雖然 Windows 有許多磁片清理處理常式，但它們並不是用來處理其他應用程式所產生的檔案。 磁片清理管理員的設計目的是要讓任何開發人員都能執行並註冊自己的磁片清理處理常式，以提供彈性且可擴充的功能。 任何開發人員都可以藉由執行和註冊磁片清理處理常式來擴充可用的磁片清理服務。
 
 產生暫存檔案的所有應用程式都可以執行和註冊磁片清理處理常式。 這麼做可讓使用者有便利且可靠的方式來管理應用程式的暫存檔案。 當您執行此處理程式時，您可以決定哪些檔案受到影響，並決定實際的清除動作。
 
@@ -89,7 +89,7 @@ ms.locfileid: "106967930"
 -   進行清除。
 -   [關閉]。
 
-若要讓「磁片清理管理員」管理這些工作，處理常式必須將 windows 98 的 [**IEmptyVolumeCache**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache) 或 Windows Millennium Edition 的 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2) 匯出 (Windows Me) 、WINDOWS 2000 和 windows XP。 由於 **IEmptyVolumeCache2** 繼承自 **IEmptyVolumeCache**，因此只新增額外的方法 **InitializeEx**，因此不需要額外的工作來執行兩者。 除非您的處理常式只適用于其中一個作業系統，否則它應該匯出這兩個介面。
+若要讓「磁片清理管理員」管理這些工作，處理常式必須為 Windows Millennium 版本 (Windows 我) 、Windows 2000 和 Windows XP 的 Windows 98 或 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)匯出 [**IEmptyVolumeCache**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache) 。 由於 **IEmptyVolumeCache2** 繼承自 **IEmptyVolumeCache**，因此只新增額外的方法 **InitializeEx**，因此不需要額外的工作來執行兩者。 除非您的處理常式只適用于其中一個作業系統，否則它應該匯出這兩個介面。
 
 若要匯出這些介面，您必須執行對應至五個基本工作的這些方法。
 
@@ -101,7 +101,7 @@ ms.locfileid: "106967930"
 
 ### <a name="initializeinitializeex"></a>Initialize/InitializeEx
 
-執行磁片清理公用程式時，會呼叫兩個相當類似的初始化方法。 Windows 98 磁片清理管理員會呼叫處理常式的 [**IEmptyVolumeCache：： Initialize**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize) 方法。 不過，Windows Millennium Edition (Windows Me) 、Windows 2000 或 Windows XP disk 清理管理員，會先嘗試呼叫 [**IEmptyVolumeCache2：： InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex) ，而且只有在處理常式未公開 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)時，才會使用 **IEmptyVolumeCache：： Initialize** 。 磁片清理管理員會將資訊傳遞給方法，例如處理常式的登錄機碼和要清除的磁片區。
+執行磁片清理公用程式時，會呼叫兩個相當類似的初始化方法。 Windows 98 disk 清理管理員會呼叫處理常式的 [**IEmptyVolumeCache：： Initialize**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize)方法。 不過，Windows Millennium Edition (Windows 我) 、Windows 2000 或 Windows XP disk 清理管理員，則會先嘗試呼叫 [**IEmptyVolumeCache2：： InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex) ，而且只有在處理常式未公開 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)時，才會使用 **IEmptyVolumeCache：： Initialize** 。 磁片清理管理員會將資訊傳遞給方法，例如處理常式的登錄機碼和要清除的磁片區。
 
 這兩種方法都可以傳回各種顯示字串，並設定一或多個旗標。 這兩種方法的主要差異在於如何處理磁片清理管理員中顯示的文字。 下列三個字串會受到影響。
 
@@ -110,7 +110,7 @@ ms.locfileid: "106967930"
 | String       | 目的                                                                            | 初始化                                                                           | InitializeEx                                                                                     |
 |--------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 顯示名稱 | 處理常式的名稱會顯示在 [磁片清理管理員] 清單方塊中。               | 如果 *ppwszDisplayName* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDisplayName* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
-| Description  | 選取處理常式的名稱時，顯示于清單方塊下方的描述性文字。 | 如果 *ppwszDescription* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDescription* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
+| 描述  | 選取處理常式的名稱時，顯示于清單方塊下方的描述性文字。 | 如果 *ppwszDescription* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDescription* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
 | 按鈕文字  | 選擇性按鈕的文字，可讓使用者顯示處理常式的 UI。        | 沒有任何可用的參數。 必須在登錄中指定。                           | 您必須在 *ppwszBtnText* 中指定正確的當地語系化字串，而不會使用任何登錄值。     |
 
 
@@ -174,7 +174,7 @@ ms.locfileid: "106967930"
 
 ## <a name="registering-a-disk-cleanup-handler"></a>註冊磁片清理處理常式
 
-若要將處理常式新增到磁片清理管理員的清單中，必須將某些索引鍵和值新增至 Windows 登錄。
+若要將處理常式新增至 [磁片清理管理員] 清單，必須將某些索引鍵和值新增至 Windows 登錄。
 
 -   [註冊處理常式的 CLSID](#registering-a-handlers-clsid)
 -   [使用磁片清理管理員來註冊處理常式：一般](#registering-a-handler-with-the-disk-cleanup-manager-general)
@@ -256,13 +256,13 @@ HKEY_LOCAL_MACHINE
 <td>要包含在檔案搜尋中之特殊資料夾的系統獨立識別碼。 此值必須輸入為實例的數值，0x0000001c，而不是 CSIDL_LOCAL_APPDATA。 如需可能值的清單，請參閱 <a href="/windows/desktop/shell/csidl"><strong>CSIDL</strong></a>。 只能使用單一值。<br/> 如果指定了資料夾值，則會在該資訊前面加上 CSIDL 值所指出的位置，以撰寫搜尋路徑。 例如，請考慮下列案例。<br/>
 <ul>
 <li>CSIDL 值會指定為 0x0000000d (CSIDL_MYMUSIC) </li>
-<li>[我的音樂] 資料夾位於 C:\documents and 和 Settings \<em>username</em>\My 音樂</li>
+<li>[我的音樂] 資料夾位於 c:\documents and 和設定 \ 使用者<em>名稱</em>\My 音樂</li>
 <li>資料夾值包含 &quot; Jazz\Singers&quot;</li>
 </ul>
-該案例的結果是，「磁片清理」處理常式會搜尋 C:\documents and 和 Settings \<em>username</em>\My Music\Jazz\Singers 資料夾。 請注意，如果資料夾值前面沒有斜線，則會加以新增。<br/></td>
+該案例的結果是磁片清理處理常式會搜尋 c:\documents and 和設定 \ 使用者<em>名稱</em>\My Music\Jazz\Singers 資料夾。 請注意，如果資料夾值前面沒有斜線，則會加以新增。<br/></td>
 </tr>
 <tr class="odd">
-<td>Description</td>
+<td>描述</td>
 <td>REG_SZ</td>
 <td>選取處理常式的名稱時，顯示在 [磁片清理管理員] 清單方塊下方的描述性文字。 您可以在這裡說明處理常式的功能、其關注的檔案，以及 elucidatory 給使用者的任何其他資訊。 如果<a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2：： InitializeEx</strong></a>不是由處理常式公開，則在呼叫方法時，可以在<em>ppwszDescription</em>參數中指定替代字串，藉此覆寫此文字。 <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize"><strong></strong></a></td>
 </tr>
@@ -296,7 +296,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td>資料夾</td>
 <td>REG_SZ、REG_MULTI_SZ 或 REG_EXPAND_SZ</td>
-<td>特定資料夾或資料夾，用來搜尋符合 FileList 值中專案的專案。 您可以使用來指定萬用字元？ 或 * 個字元。 如果值是 REG_SZ 類型，則會使用多個資料夾名稱來分隔 |字元，其中任何一側都沒有空格。<br/> 如果有 CSIDL 值，此值中只能指定一個資料夾。 CSIDL 值所指示的位置會在該資料夾路徑的前面加上，以撰寫搜尋路徑。 如需範例，請參閱 CSIDL 值描述。<br/> 如果 Windows Vista Service Pack 1 上沒有這個值 (SP1) 和更新版本，則會忽略清除處理常式，並在初始化時傳回 S_FALSE。<br/> 如果原始版本的 Windows Vista 及更早版本沒有此值，則會使用目前磁片區的根資料夾。 在該情況下，需要 DDEVCF_DOSUBDIRS 旗標來搜尋整個磁片磁碟機。 如果沒有它，就只會搜尋根資料夾本身。<br/> 必須指定磁片磁碟機或磁片磁碟機。 這可以透過 CSIDL 值或 REG_EXPAND_SZ 字串來提供。 不過，您必須在資料夾名稱中指定要搜尋的磁片磁碟機，才能禁止這些選項。 使用？：搜尋目前磁片磁碟機上的資料夾。<br/></td>
+<td>特定資料夾或資料夾，用來搜尋符合 FileList 值中專案的專案。 您可以使用來指定萬用字元？ 或 * 個字元。 如果值是 REG_SZ 類型，則會使用多個資料夾名稱來分隔 |字元，其中任何一側都沒有空格。<br/> 如果有 CSIDL 值，此值中只能指定一個資料夾。 CSIDL 值所指示的位置會在該資料夾路徑的前面加上，以撰寫搜尋路徑。 如需範例，請參閱 CSIDL 值描述。<br/> 如果 Windows Vista Service Pack 1 (SP1) 和更新版本中沒有此值，則會忽略清除處理常式，並在初始化時傳回 S_FALSE。<br/> 如果此值不存在於 Windows Vista 和更早版本的原始版本上，則會使用目前磁片區的根資料夾。 在該情況下，需要 DDEVCF_DOSUBDIRS 旗標來搜尋整個磁片磁碟機。 如果沒有它，就只會搜尋根資料夾本身。<br/> 必須指定磁片磁碟機或磁片磁碟機。 這可以透過 CSIDL 值或 REG_EXPAND_SZ 字串來提供。 不過，您必須在資料夾名稱中指定要搜尋的磁片磁碟機，才能禁止這些選項。 使用？：搜尋目前磁片磁碟機上的資料夾。<br/></td>
 </tr>
 <tr class="even">
 <td>>iconpath</td>
@@ -316,7 +316,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td>PropertyBag</td>
 <td>REG_SZ</td>
-<td>用來為顯示名稱、描述和按鈕文字提供當地語系化文字之資源的 CLSID。 當處理常式未執行 <a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache"><strong>IEmptyVolumeCache</strong></a> ，且處理常式正在 Microsoft Windows NT 或 Windows XP 下執行時，此資源就很有用。<br/> 「磁片清理管理員」會先檢查處理程式的初始化常式是否傳回這些字串，就像 <a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2"><strong>IEmptyVolumeCache2</strong></a> 的情況一樣。 若失敗，管理員接下來會在此值中開啟名為的屬性包。 如果未提供任何內容，則會從登錄抓取文字。<br/></td>
+<td>用來為顯示名稱、描述和按鈕文字提供當地語系化文字之資源的 CLSID。 當處理常式未執行<a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache"><strong>IEmptyVolumeCache</strong></a> ，且處理常式是在 Microsoft Windows NT 或 Windows XP 下執行時，此資源就很有用。<br/> 「磁片清理管理員」會先檢查處理程式的初始化常式是否傳回這些字串，就像 <a href="/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2"><strong>IEmptyVolumeCache2</strong></a> 的情況一樣。 若失敗，管理員接下來會在此值中開啟名為的屬性包。 如果未提供任何內容，則會從登錄抓取文字。<br/></td>
 </tr>
 <tr class="even">
 <td>StateFlags</td>
@@ -354,9 +354,9 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="registering-a-handler-with-the-disk-cleanup-manager-windows-2000-or-later-systems"></a>使用磁片清理管理員來註冊處理常式： Windows 2000 或更新版本的系統
 
-在登錄中指定顯示文字可能會使軟體難以當地語系化。 基於這個理由，Windows 2000 和 Windows XP 支援 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2) 介面及其慣用的初始化方法 [**InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex)。 在 Windows 2000 或更新版本下，一律會嘗試在 [**IEmptyVolumeCache：： Initialize**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize)之前呼叫 **IEmptyVolumeCache2：： InitializeEx** 。 如果未公開 **IEmptyVolumeCache2** ，系統只會使用 **initialize** 來初始化處理常式。
+在登錄中指定顯示文字可能會使軟體難以當地語系化。 基於這個理由，Windows 2000 和 Windows XP 支援 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)介面及其慣用的初始化方法 [**InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex)。 在 Windows 2000 或更新版本下，一律會嘗試在 [**IEmptyVolumeCache：： Initialize**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize)之前呼叫 **IEmptyVolumeCache2：： InitializeEx** 。 如果未公開 **IEmptyVolumeCache2** ，系統只會使用 **initialize** 來初始化處理常式。
 
-就登錄而言，Windows 2000 或更新版本下的唯一差異在於，您可以在處理常式公開 [**IEmptyVolumeCache2：： InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex) 時省略 AdvancedButtonText、顯示及描述值。 這些值（包含適當當地語系化的文字）在呼叫 **InitializeEx** 時，會提供給「磁片清理管理員」。
+就登錄而言，Windows 2000 或更新版本下的唯一差異在於，您可以在處理常式公開 [**IEmptyVolumeCache2：： InitializeEx**](/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex)時省略 AdvancedButtonText、顯示及描述值。 這些值（包含適當當地語系化的文字）在呼叫 **InitializeEx** 時，會提供給「磁片清理管理員」。
 
 ### <a name="using-the-datadrivencleaner-object"></a>使用 DataDrivenCleaner 物件
 
@@ -366,7 +366,7 @@ DataDrivenCleaner 不會公開 [**IEmptyVolumeCache2**](/windows/desktop/api/Emp
 
 ### <a name="example-registration-of-a-disk-cleanup-handler"></a>磁片清理處理常式的註冊範例
 
-以下顯示電話公司所執行之磁片清理處理常式的註冊範例。 此處理程式會同時執行 [**IEmptyVolumeCache**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache) 和 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)，因此，如果在執行 Windows 98 的電腦上使用 AdvancedButtonText、Description 和 Display 值，就會提供這些值。 此處理程式會結合 CSIDL 和資料夾值，以搜尋 C： \\ Program files 中的 \\ Phone 公司 Temp 目錄中的檔案 \\ ，並 \_ 設定 DDEVCF DOSUBDIRS 旗標，因此也會搜尋其子目錄。 只有使用 .tmp 和 tpc 副檔名的檔案會被視為清除，而且會 \_ 設定 DDEVCF 私用 \_ LASTACCESS 旗標，如此一來，就只會考慮未存取14天以上的檔案。 此外， \_ 也會設定 DDEVCF DONTSHOWIFZERO 旗標，讓處理常式不會出現在清單中，除非它找到清除候選項目。
+以下顯示電話公司所執行之磁片清理處理常式的註冊範例。 此處理程式會同時執行 [**IEmptyVolumeCache**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache)和 [**IEmptyVolumeCache2**](/windows/desktop/api/Emptyvc/nn-emptyvc-iemptyvolumecache2)，因此會在執行 Windows 98 的電腦上使用時，提供 AdvancedButtonText、描述和顯示值。 此處理程式會結合 CSIDL 和資料夾值，以搜尋 C： Program 中的檔案 \\ \\ 電話的公司 \\ Temp 目錄，並設定 DDEVCF \_ DOSUBDIRS 旗標，因此也會搜尋其子目錄。 只有使用 .tmp 和 tpc 副檔名的檔案會被視為清除，而且會 \_ 設定 DDEVCF 私用 \_ LASTACCESS 旗標，如此一來，就只會考慮未存取14天以上的檔案。 此外， \_ 也會設定 DDEVCF DONTSHOWIFZERO 旗標，讓處理常式不會出現在清單中，除非它找到清除候選項目。
 
 ```
 HKEY_LOCAL_MACHINE

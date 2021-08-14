@@ -4,12 +4,12 @@ description: OLE 記憶體配置器
 ms.assetid: 026c62e5-c296-4059-b028-77c98fdb77ce
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a64fedd610fd8fd6dab0bcd14deb37e04f6df74d
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: fa0be9cb16459787aa1fd56a691c8475f4d81ba359ecec690f2178e4f5e83cac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118103645"
 ---
 # <a name="the-ole-memory-allocator"></a>OLE 記憶體配置器
 
@@ -27,6 +27,6 @@ COM 程式庫提供記憶體配置器的實作為安全線程。  (也就是說�
 [COM 程式庫](the-com-library.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

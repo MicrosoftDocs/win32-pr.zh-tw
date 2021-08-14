@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.sess
 ms:contentKeyID: 55104007
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 11f8b31d8c74e3074788b60f62677e9e81135ae5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9616fff3977244314eb1c4fc6caabd9bc0e22e5a452bb96bb43334d40c5a0614
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071545"
 ---
 # <a name="session-methods"></a>工作階段方法
 

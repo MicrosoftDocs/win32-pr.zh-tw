@@ -4,12 +4,12 @@ ms.assetid: CD246474-3360-4588-86F7-21EB36B8B121
 title: 傳統 DirectX 圖形
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0af36f087e1757de2c75614354db36b13aa98e73
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 46b5af38baf1ce66bf95bebfd6dfe7813a8b9c1d54ff10be5edf08ed4c61f03d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311379"
 ---
 # <a name="classic-directx-graphics"></a>傳統 DirectX 圖形
 

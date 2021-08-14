@@ -6,12 +6,12 @@ keywords:
 - DataFormats 登錄機碼 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf130461a8db67cfe7fc7c56b0115b27eef6dc6b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cfb8b2cc2ad4d11137fa41f419db2184f1a2b47fb850176227401e3d2b1aec04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310596"
 ---
 # <a name="dataformats"></a>DataFormats
 
@@ -21,11 +21,11 @@ ms.locfileid: "106969676"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
-   {CLSID}
-      DataFormats
-         DefaultFile = file/format
-         GetSet
-            n = formats
+   {CLSID}
+      DataFormats
+         DefaultFile = file/format
+         GetSet
+            n = formats
 ```
 
 ## <a name="remarks"></a>備註
@@ -47,9 +47,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID
 [**IDataObject：： SetData**](/windows/desktop/api/ObjIdl/nf-objidl-idataobject-setdata)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

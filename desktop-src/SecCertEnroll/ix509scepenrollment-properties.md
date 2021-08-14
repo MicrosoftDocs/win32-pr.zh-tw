@@ -4,12 +4,12 @@ ms.assetid: 53BE8DE9-87AC-41D1-B1B5-2FEC72F5FCEA
 title: IX509SCEPEnrollment 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fd9b4cbf9df87f898e61ce0220243044b24607d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf98252a1600ba8f5feceeeffe239730cf53ddee2096b85192083756bc7e5cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774853"
 ---
 # <a name="ix509scepenrollment-properties"></a>IX509SCEPEnrollment 屬性
 

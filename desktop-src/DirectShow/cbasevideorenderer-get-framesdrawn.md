@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ec8254e06429022bf657322e98ab317475c82f90
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65a7c698d129a3606f6ba75f856289ca2b4e15c438d3890eb0a97e4a198ee808
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822581"
 ---
 # <a name="cbasevideorendererget_framesdrawn-method"></a>CBaseVideoRenderer. 取得 \_ FramesDrawn 方法
 

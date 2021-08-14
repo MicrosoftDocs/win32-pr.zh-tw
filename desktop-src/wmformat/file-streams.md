@@ -1,23 +1,23 @@
 ---
-title: '檔案串流 (Windows Media Format 11 SDK) '
+title: '檔案串流 (Windows 媒體格式 11 SDK) '
 description: 檔案資料流程
 ms.assetid: 6a4ad6ef-dc53-4d31-8de5-ce35c343244b
 keywords:
-- Windows Media Format SDK，檔案資料流程
+- Windows媒體格式 SDK，檔案資料流程
 - Advanced Systems Format (ASF) ，檔案資料流程
 - ASF (Advanced 系統格式) 、檔案資料流程
-- Windows Media Format SDK，資料流程
+- Windows媒體格式 SDK，資料流程
 - Advanced Systems Format (ASF) 、串流
 - ASF (Advanced Systems Format) ，資料流程
 - 檔案資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2a850c938d9582bd128980ef59329a5d5aa6a08
-ms.sourcegitcommit: 40a1246849dba8ececf54c716b2794b99c96ad50
+ms.openlocfilehash: e7bc05663ab9f2d81ac94bd1483ac5bc22c903333a8e477cc94e88141ff671ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "103679031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703906"
 ---
 # <a name="file-streams"></a>檔案資料流程
 
@@ -33,9 +33,9 @@ ms.locfileid: "103679031"
 [**設定檔案傳輸資料流程**](configuring-file-transfer-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

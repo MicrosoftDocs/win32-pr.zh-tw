@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c4a2ac73a0c975e5e35d19ff3d247479b4bb0e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 588dd160e59c6b7d8f3467784f2cff8bb1d0c4c408d75dae083070ad5bc04e5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106985989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333576"
 ---
 # <a name="recordingtimeyear-attribute"></a>RecordingTimeYear 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: d282de02-62f4-4a12-a77c-f602f6db0216
 description: 深入瞭解： DPI 和 Device-Independent 圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e6f04e1a056611fcdfe8b59ff65b38ecec99eaf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c9b3aebca97ac466f5158b07d1d976994030b4ba2c83b361a5d7a6d88b572fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118388340"
 ---
 # <a name="dpi-and-device-independent-pixels"></a>DPI 和 Device-Independent 圖元
 
@@ -34,7 +34,7 @@ ms.locfileid: "103852544"
 
 ![顯示72點字型的圖例。](images/graphics11.png)
 
-不過，在電腦顯示時，測量文字大小會有問題，因為圖元的大小不是相同的。 圖元的大小取決於兩個因素：顯示解析度，以及監視的實體大小。 因此，實體英寸不是有用的量值，因為實體的圖元與圖元之間沒有固定的關聯性。 相反地，會以 *邏輯* 單元來測量字型。 72點字型的定義是一種邏輯英寸高度。 邏輯英寸接著會轉換成圖元。 多年來，Windows 使用了下列轉換：一個邏輯英寸等於96圖元。 使用此縮放比例，72點字型會轉譯為96圖元高。 12點字型的高度為16圖元。
+不過，在電腦顯示時，測量文字大小會有問題，因為圖元的大小不是相同的。 圖元的大小取決於兩個因素：顯示解析度，以及監視的實體大小。 因此，實體英寸不是有用的量值，因為實體的圖元與圖元之間沒有固定的關聯性。 相反地，會以 *邏輯* 單元來測量字型。 72點字型的定義是一種邏輯英寸高度。 邏輯英寸接著會轉換成圖元。 多年來，Windows 使用下列轉換：一個邏輯英寸等於96圖元。 使用此縮放比例，72點字型會轉譯為96圖元高。 12點字型的高度為16圖元。
 
 <dl> 12點 = 12/72 邏輯英寸 = 1/6 邏輯英寸 = 96/6 圖元 = 16 圖元  
 </dl>
@@ -76,7 +76,7 @@ ms.locfileid: "103852544"
 
 此處所示的清單只是部分資訊清單，但 Visual Studio 連結器會自動為您產生資訊清單的其餘部分。 若要在專案中包含部分資訊清單，請在 Visual Studio 中執行下列步驟。
 
-1.  在 [ **專案** ] 功能表上，按一下 [ **屬性**]。
+1.  在 [ **Project** ] 功能表上，按一下 [**屬性**]。
 2.  在左窗格中，依序展開 [設定 **屬性**]、[ **資訊清單工具**]，然後按一下 [ **輸入和輸出**]。
 3.  在 [ **其他資訊清單** 檔案] 文字方塊中，輸入資訊清單檔案的名稱，然後按一下 **[確定]**。
 
@@ -106,7 +106,7 @@ Direct2D 會自動執行調整以符合 DPI 設定。 在 Direct2D 中，座標�
 
  
 
-例如，如果使用者的 DPI 設定為 144 DPI，而您要求 Direct2D 繪製200×100矩形，矩形將會是300×150實體圖元。 此外，DirectWrite 會以 Dip 量值來測量字型大小，而不是點。 若要建立12點字型，請指定 16 Dip (12 點 = 1/6 logical 英寸 = 96/6 Dip) 。 在螢幕上繪製文字時，Direct2D 會將 Dip 轉換為實體圖元。 此系統的優點是，不論目前的 DPI 設定為何，測量單位都一致以進行文字和繪圖。
+例如，如果使用者的 DPI 設定為 144 DPI，而您要求 Direct2D 繪製200×100矩形，矩形將會是300×150實體圖元。 此外，DirectWrite 會在 dip 中測量字型大小，而非點。 若要建立12點字型，請指定 16 Dip (12 點 = 1/6 logical 英寸 = 96/6 Dip) 。 在螢幕上繪製文字時，Direct2D 會將 Dip 轉換為實體圖元。 此系統的優點是，不論目前的 DPI 設定為何，測量單位都一致以進行文字和繪圖。
 
 有一點要注意：滑鼠和視窗座標仍然是以實體圖元為單位，而不是 Dip。 例如，如果您處理 [**WM \_ LBUTTONDOWN**](/windows/desktop/inputdev/wm-lbuttondown) 訊息，則會以實體圖元為單位提供滑鼠下位置。 若要在該位置繪製點，您必須將圖元座標轉換為 Dip。
 
@@ -162,7 +162,7 @@ void InitializeDPIScale(HWND hwnd)
 }
 ```
 > [!Note]  
-> 在 Windows 10 上，版本1903、  [**ID2D1Factory：： GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi) 已淘汰，建議為適用于 Windows Store 應用程式的 [**DisplayInformation：： LogicalDpi**](/uwp/api/windows.graphics.display.displayinformation.logicaldpi?view=winrt-19041) ，或適用于桌面應用程式的 [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) 。 如果您仍然想要使用它，請在 [**ID2D1Factory：： GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi)呼叫 [**#pragma 警告 (隱藏： 4996)**](/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?view=vs-2019) ，以隱藏編譯器錯誤訊息。 雖然不建議這麼做，但您可以使用 [**SetProcessDpiAwarenessCoNtext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext)，以程式設計的方式設定預設的 DPI 感知。 在您的進程中建立了一個 (HWND) 的視窗之後，就不再支援變更 DPI 感知模式。 如果您要以程式設計方式設定進程預設的 DPI 感知模式，您必須在建立任何 Hwnd 之前呼叫對應的 API。 如需詳細資訊，請參閱 [設定進程的預設 DPI 感知](../hidpi/setting-the-default-dpi-awareness-for-a-process.md)。
+> 在 Windows 10，1903版、 [**ID2D1Factory：： GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi)已淘汰，建議為適用于 Windows Store 應用程式的 [**DisplayInformation：： LogicalDpi**](/uwp/api/windows.graphics.display.displayinformation.logicaldpi?view=winrt-19041) ，或適用于桌面應用程式的 [**GetDpiForWindow**](/windows/win32/api/winuser/nf-winuser-getdpiforwindow) 。 如果您仍然想要使用它，請在 [**ID2D1Factory：： GetDesktopDpi**](/windows/win32/api/d2d1/nf-d2d1-id2d1factory-getdesktopdpi)呼叫 [**#pragma 警告 (隱藏： 4996)**](/cpp/error-messages/compiler-warnings/compiler-warning-level-3-c4996?view=vs-2019) ，以隱藏編譯器錯誤訊息。 雖然不建議這麼做，但您可以使用 [**SetProcessDpiAwarenessCoNtext**](/windows/win32/api/winuser/nf-winuser-setprocessdpiawarenesscontext)，以程式設計的方式設定預設的 DPI 感知。 在您的進程中建立了一個 (HWND) 的視窗之後，就不再支援變更 DPI 感知模式。 如果您要以程式設計方式設定進程預設的 DPI 感知模式，您必須在建立任何 Hwnd 之前呼叫對應的 API。 如需詳細資訊，請參閱 [設定進程的預設 DPI 感知](../hidpi/setting-the-default-dpi-awareness-for-a-process.md)。
 
 ## <a name="resizing-the-render-target"></a>調整呈現目標的大小
 

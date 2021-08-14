@@ -4,12 +4,12 @@ ms.assetid: eed8ca97-39ad-4188-afc6-8670b5073fad
 title: COM + 系統管理集合
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceb49ecd382e5a5a570e3e479714ad905a5eaf5f
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: bc19ff14959c151dc5736fb4a52c5346d0f5a30b6565551aca2f0edb3cee61b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104561129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308437"
 ---
 # <a name="com-administration-collections"></a>COM + 系統管理集合
 
@@ -57,7 +57,7 @@ COMAdmin 程式庫支援下列集合。
 | [**LegacyServers**](legacyservers.md)                                 | 與 [**InprocServers**](inprocservers.md) 集合相同，不同之處在于此集合也包含本機伺服器。                           |
 | [**LocalComputer**](localcomputer.md)                                 | 包含單一物件，該物件會保存您要存取其目錄之電腦的電腦層級設定資訊。                             |
 | [**MethodsForInterface**](methodsforinterface.md)                     | 針對與集合相關的介面上的每個方法，各包含一個物件。                                                               |
-| [**分區**](partitions.md)                                       | 用來指定每個分割區中包含的應用程式。                                                                                         |
+| [**分割區**](partitions.md)                                       | 用來指定每個分割區中包含的應用程式。                                                                                         |
 | [**PartitionUsers**](partitionusers.md)                               | 用來指定每個資料分割中包含的使用者。                                                                                                |
 | [**PropertyInfo**](propertyinfo.md)                                   | 抓取指定集合所支援之屬性的相關資訊。                                                                      |
 | [**PublisherProperties**](publisherproperties.md)                     | 包含父 [**SubscriptionsForComponent**](subscriptionsforcomponent.md) 集合之每個發行者屬性的物件。              |
@@ -67,7 +67,7 @@ COMAdmin 程式庫支援下列集合。
 | [**RolesForInterface**](rolesforinterface.md)                         | 針對指派給集合所關聯之介面的每個角色，各包含一個物件。                                                        |
 | [**RolesForMethod**](rolesformethod.md)                               | 針對指派給集合相關之方法的每個角色，各包含一個物件。                                                           |
 | [**RolesForPartition**](rolesforpartition.md)                         | 針對指派給集合相關之分割區的每個角色，各包含一個物件。                                                        |
-| [**根**](root.md)                                                   | 包含目錄上的最上層集合。                                                                                                    |
+| [**Root**](root.md)                                                   | 包含目錄上的最上層集合。                                                                                                    |
 | [**SubscriberProperties**](subscriberproperties.md)                   | 包含父 [**SubscriptionsForComponent**](subscriptionsforcomponent.md) 集合之每個訂閱者屬性的物件。             |
 | [**SubscriptionsForComponent**](subscriptionsforcomponent.md)         | 包含父 [**元件**](components.md) 集合之每個訂用帳戶的物件。                                                  |
 | [**TransientPublisherProperties**](transientpublisherproperties.md)   | 包含父 [**TransientSubscriptions**](transientsubscriptions.md) 集合之每個發行者屬性的物件。                    |

@@ -5,12 +5,12 @@ ms.assetid: 81fe751f-51fd-4da6-b44a-0af9007eea9a
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff64a53c4c63b9e552efe90ac057b8a31d603b64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8bcfc2263a9ecd35c050499f0547b5bc5190e5896b430edabe6be8490239b62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931790"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323890"
 ---
 # <a name="operations-plug-in-methods"></a>操作外掛程式方法
 
@@ -30,11 +30,11 @@ ms.locfileid: "103931790"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

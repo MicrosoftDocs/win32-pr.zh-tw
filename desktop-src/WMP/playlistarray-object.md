@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2660b991cdc2885377140f2b99a647285fc4008c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e062ed6b7dee583bb68771dee243fe7271d95ba2728184bf453e5e77f9d21a3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334983"
 ---
 # <a name="playlistarray-object"></a>PlaylistArray 物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "103841016"
 
 
 
- 
+ 
 
 **PlaylistArray** 物件支援下列方法。
 
@@ -46,7 +46,7 @@ ms.locfileid: "103841016"
 
 
 
- 
+ 
 
 **PlaylistArray** 物件是透過下列方法來存取。
 
@@ -58,7 +58,7 @@ ms.locfileid: "103841016"
 
 
 
- 
+ 
 
 例如， *播放* 程式的用途。*playlistCollection*。**getAll** 用於參考語法區段中。
 
@@ -69,9 +69,9 @@ ms.locfileid: "103841016"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

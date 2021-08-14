@@ -4,12 +4,12 @@ ms.assetid: f579745a-5327-4c8b-bfa7-fe81d9657a3b
 title: '命令 (WPD API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 974c6b2b68949e53ae778ed56adcfcb10d2edd5d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a723e9eff52bf0b0b301d1fba672db5887afebef701a312786aeafb4decb733f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118431111"
 ---
 # <a name="commands-wpd-api"></a>命令 (WPD API) 
 
@@ -17,13 +17,13 @@ ms.locfileid: "104191286"
 
 命令是由 **PROPERTYKEY** 結構所識別。 這是由兩個部分所組成： GUID 部分 (*fmtid* 成員) 和 (*pid* 成員) 的 DWORD 部分。 GUID 部分可用來指出命令所屬類別 (相關命令屬於相同的類別，因此將會有相同的 *fmtid*) 。 DWORD 部分表示命令識別碼，用來區別命令類別中的個別命令 (相同類別中命令的 *pid* 值會) 不同。
 
-下表列出 Windows 可攜式裝置所定義命令的類別。 裝置製造商可以藉由建立自己的命令類別和命令識別碼，來定義自己的命令。 不過，製造商不應將命令新增至下列類別，因為這些是由 Microsoft 所保留的類別。
+下表列出 Windows 可攜式裝置所定義命令的分類。 裝置製造商可以藉由建立自己的命令類別和命令識別碼，來定義自己的命令。 不過，製造商不應將命令新增至下列類別，因為這些是由 Microsoft 所保留的類別。
 
 **命令類別目錄**
 
 
 
-| 命令類別目錄                         | Description                                                                                                                             |
+| 命令類別目錄                         | 描述                                                                                                                             |
 |------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 類別 \_ 通用**                | 所有物件和裝置通用的命令。                                                                                    |
 | **WPD \_ 類別 \_ 裝置 \_ 提示**         | 用來取得選擇性裝置資訊的命令，可用來改善終端使用者體驗。                         |

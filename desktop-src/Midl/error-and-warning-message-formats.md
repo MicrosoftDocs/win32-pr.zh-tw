@@ -6,12 +6,12 @@ keywords:
 - 錯誤 MIDL，訊息格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a42552b8106b72d82b2b13b69a7cba7ac2e99e64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4cbe6e32109bbe8e4d40b7715c6463e16cd0c27fc77492f5044ce32a7fe57436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384414"
 ---
 # <a name="error-and-warning-message-formats"></a>錯誤和警告訊息格式
 
@@ -49,11 +49,11 @@ Command line error : MIDLnnnn: <error text>
 "Unexpected internal compiler problem. Try to find a workaround."
 ```
 
-此訊息是由非預期的錯誤所產生。 十六進位錯誤號碼為 Windows XP、Windows 2000、Windows NT、Windows 98 或 Windows 95 系統錯誤識別碼。 您可以在 Winerror.h 或 Ntstatus 中找到其他資訊。 如需解決造成此錯誤之狀況的詳細資訊，請參閱 [編譯器錯誤](compiler-errors.md) MIDL9008 的錯誤文字。
+此訊息是由非預期的錯誤所產生。 十六進位錯誤號碼是 Windows XP、Windows 2000、Windows NT、Windows 98 或 Windows 95 系統錯誤識別碼。 您可以在 Winerror.h 或 Ntstatus 中找到其他資訊。 如需解決造成此錯誤之狀況的詳細資訊，請參閱 [編譯器錯誤](compiler-errors.md) MIDL9008 的錯誤文字。
 
- 
+ 
 
- 
+ 
 
 
 

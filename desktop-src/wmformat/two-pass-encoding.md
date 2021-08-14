@@ -3,20 +3,20 @@ title: Two-Pass 編碼
 description: Two-Pass 編碼
 ms.assetid: 354cd0a5-9a64-4171-9604-694e60b382ad
 keywords:
-- Windows Media Format SDK，雙通編碼
-- Windows Media Format SDK，2-pass 編碼
+- Windows媒體格式 SDK，雙通路編碼
+- Windows媒體格式 SDK，2-傳遞編碼
 - 編解碼器，雙通路編碼
 - 編解碼器，2-通過編碼
 - 雙通路編碼，關於
 - 2-通過編碼，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6764f80857447e122c97c69683243a65da7e83b2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b6cd769049b5fa3869c844e00d9ee14cfae596b197d06d414b04a544d831bbeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845336"
 ---
 # <a name="two-pass-encoding"></a>Two-Pass 編碼
 
@@ -36,9 +36,9 @@ ms.locfileid: "104021208"
 [**使用 Two-Pass 編碼**](using-two-pass-encoding.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

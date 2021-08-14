@@ -4,12 +4,12 @@ ms.assetid: d3072e34-65f2-4eeb-bcfa-e2db2d34e680
 title: 以非同步方式叫用服務方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ef4f0eb2e75b977b53300bed6eab4c909fa7796
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 3288f739b92de78ed25193756791d422fb1a87cf304e97f4aee904a85ed784b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697235"
 ---
 # <a name="invoking-service-methods-asynchronously"></a>以非同步方式叫用服務方法
 

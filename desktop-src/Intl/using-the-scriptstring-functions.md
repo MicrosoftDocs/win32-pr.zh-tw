@@ -4,16 +4,16 @@ ms.assetid: bfbba5df-ce06-4012-a7b1-55d8ea580942
 title: 使用 ScriptString 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93a2df5e7515bd605ad48cc7a246941e9b6f08f2
-ms.sourcegitcommit: 3d718d8f69d3f86eaecf94c5705d761c5a9ef4a1
+ms.openlocfilehash: 6685af7dad2c9e1b8d0cf460d526155f967a9105e1b107047afb99c18a5124f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104024286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389404"
 ---
 # <a name="using-the-scriptstring-functions"></a>使用 ScriptString 函數
 
-如果應用程式處理未格式化的文字，Uniscribe 會 **提供 \* ScriptString** 函數。 這些函式類似于 [**ExtTextOut**](/windows/win32/api/wingdi/nf-wingdi-exttextouta)、 [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)和 [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent)，但它們提供完整的複雜字集支援，包括插入號放置。 這些函式類似于其他 Uniscribe 函式，但會針對純文字處理的較簡單需求量身打造。
+如果應用程式處理未格式化的文字，Uniscribe 會提供 ** \* ScriptString* _ 函數。 這些函式類似 [_ *ExtTextOut* *](/windows/win32/api/wingdi/nf-wingdi-exttextouta)、 [**DrawText**](/windows/win32/api/winuser/nf-winuser-drawtext)和 [**GetTextExtent**](/cpp/mfc/reference/cdc-class#gettextextent)，但它們提供完整的複雜字集支援，包括插入號放置。 這些函式類似于其他 Uniscribe 函式，但會針對純文字處理的較簡單需求量身打造。
 
 下表詳細說明 **ScriptString \*** 函數以及其他 Uniscribe 函數中的任何對應項。
 
@@ -52,7 +52,7 @@ ms.locfileid: "104024286"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringgetorder"><strong>ScriptStringGetOrder</strong></a></td>
-<td>以類似的方式將字元圖像位置對應至 <a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>，僅供舊版使用。 此函式不適用於每個程式碼點產生一個以上圖像的腳本。</td>
+<td>地圖字元字元字元的位置與<a href="/windows/desktop/api/wingdi/nf-wingdi-getcharacterplacementa">GetCharacterPlacement</a>類似，僅供舊版使用。 此函式不適用於每個程式碼點產生一個以上圖像的腳本。</td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Usp10/nf-usp10-scriptstringout"><strong>ScriptStringOut</strong></a></td>
@@ -90,6 +90,6 @@ ms.locfileid: "104024286"
 [使用 Uniscribe](using-uniscribe.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

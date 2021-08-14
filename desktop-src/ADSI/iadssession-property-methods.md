@@ -27,12 +27,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2cf7dd9abe25d731ba63385cd8d632c4212ea349
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8227c855be1704754be6e2b610f492eff26c8ceb966e3294c6672a8fbeb6dac3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690733"
 ---
 # <a name="iadssession-property-methods"></a>IADsSession 屬性方法
 

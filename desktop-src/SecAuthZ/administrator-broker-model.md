@@ -4,12 +4,12 @@ ms.assetid: 1e661915-5797-421d-b96f-72949f441aba
 title: 系統管理員訊息代理程式模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5299d35c995fb56f969fc5983864cfc93b25b6c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c67a68c823221226f56d01b750ab74a70ca30530f44cd174e333c3e4d7cbaa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784939"
 ---
 # <a name="administrator-broker-model"></a>系統管理員訊息代理程式模型
 

@@ -1,6 +1,6 @@
 ---
 title: MicrosoftDNS_WINSType 類別
-description: '\_代表 Windows 網際網路名稱服務 (WINS) 記錄的 MicrosoftDNS ResourceRecord 子類別。'
+description: MicrosoftDNS ResourceRecord 的子類別 \_ ，代表 Windows 的網際網路名稱服務 (WINS) 記錄。
 ms.assetid: 8f891d80-ee4d-4641-8a6c-159c78e5cf86
 keywords:
 - MicrosoftDNS_WINSType 類別 DNS
@@ -21,16 +21,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce23132073305142948518327ea5b6c7e46f1289
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 089faa6fa3cda6780b600dbf6c296fd1ce71f902428e6c2abe16f92dada1e219
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162838"
 ---
 # <a name="microsoftdns_winstype-class"></a>MicrosoftDNS \_ WINSType 類別
 
-代表 Windows 網際網路名稱服務 (WINS) 記錄的 [**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md) 子類別。
+[**MicrosoftDNS \_ ResourceRecord**](microsoftdns-resourcerecord.md)的子類別，代表 Windows 的網際網路名稱服務 (WINS) 記錄。
 
 以下是從 MOF 程式碼簡化的語法。
 
@@ -62,7 +62,7 @@ class MicrosoftDNS_WINSType : MicrosoftDNS_ResourceRecord
 | 方法                             | 描述                                                                                                                                                                                                                                                                                                                                                                                                  |
 |:-----------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **CreateInstanceFromPropertyData** | 根據方法的輸入參數中的資料具現化 WINS 類型的 RR：記錄的 DNS 伺服器名稱、容器名稱、擁有者名稱、類別 (預設值 = IN) 、存留時間值，以及 WINS 對應旗標、查閱超時、快取超時和 IP 位址清單以便查閱。 它會將新物件的參考傳回做為輸出參數。 <br/> 限定詞：實作為、靜態<br/> |
-| **修改**                         | 將 TTL、對應旗標、查閱超時、快取超時和 Wins 伺服器更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>                      |
+| **Modify**                         | 將 TTL、對應旗標、查閱超時、快取超時和 Wins 伺服器更新為指定為此方法之輸入參數的值。 如果未指定參數的新值，則不會變更參數的目前值。 方法會將修改過之物件的參考傳回為輸出參數。 <br/> 限定詞：實作為<br/>                      |
 
 
 

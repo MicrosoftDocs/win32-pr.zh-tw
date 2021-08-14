@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b3ebfd1c0b807a491695ba18d6735e0230a16fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b34740d582e341cce3b2fd0b28203b7346a4de1d94a8586289be8ab252247943
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487720"
 ---
 # <a name="jet_bklogtime-structure"></a>JET_BKLOGTIME 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_bklogtime-structure"></a>JET_BKLOGTIME 結構
 
 **JET_BKLOGTIME** 結構會保存事件的日期和時間元素。 它是 [JET_LOGTIME](./jet-logtime-structure.md)的延伸。
 
-**Windows vista： JET_BKLOGTIME** 是在 windows vista 中引進。
+**Windows vista： JET_BKLOGTIME** 是在 Windows vista 中引進。
 
 ```cpp
     typedef struct {

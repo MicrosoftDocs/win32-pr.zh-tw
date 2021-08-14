@@ -3,7 +3,7 @@ title: 'CB_GETEDITSEL 訊息 (Winuser .h) '
 description: 取得下拉式方塊的編輯控制項中目前選取範圍的開始和結束字元位置。
 ms.assetid: 72b64135-e35a-4f72-9fc7-e6bedf495f23
 keywords:
-- CB_GETEDITSEL message Windows 控制項
+- CB_GETEDITSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 319ce4a3c7a5a61903d4fc3bf04eed223e749787
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 220750e96e08455eb36e6b6d698fb99056ad3dca6dfbb51054c6cd7cc33fd7e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171603"
 ---
 # <a name="cb_geteditsel-message"></a>CB \_ GETEDITSEL 訊息
 
@@ -73,9 +73,9 @@ end = HIWORD(range);
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

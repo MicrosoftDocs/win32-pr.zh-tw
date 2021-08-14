@@ -4,12 +4,12 @@ ms.assetid: 773714fb-3b00-4f03-988f-05c5835f87cf
 title: 音訊端點裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c14d21aa174e34f8cb4ddab520819446a0e0ec89
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d11145227ff4f6cf4eb7dd11342e28b3a8260aac95c41b32faed6b2d6bd414dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407326"
 ---
 # <a name="audio-endpoint-devices"></a>音訊端點裝置
 
@@ -34,7 +34,7 @@ ms.locfileid: "103936496"
 -   Wave 輸入裝置 (包含類比轉數位轉換器) 
 -   輸入控制項裝置 (包含音量控制和多工器) 
 
-一般而言，音訊應用程式的使用者介面會參考音訊端點裝置，而不是介面卡裝置。 Windows Vista 直接支援端點裝置抽象化，以簡化方便使用的應用程式設計。
+一般而言，音訊應用程式的使用者介面會參考音訊端點裝置，而不是介面卡裝置。 WindowsVista 藉由直接支援端點裝置抽象化，簡化了方便使用的應用程式設計。
 
 某些端點裝置可能會永久連接到介面卡裝置。 例如，電腦可能包含已整合至系統底座的內部裝置，例如 CD 播放機、麥克風或喇叭。 一般而言，使用者不會實際移除這些端點裝置。
 
@@ -46,10 +46,10 @@ ms.locfileid: "103936496"
 
 在 Windows Vista 中，音訊系統會持續追蹤端點裝置和介面卡裝置。 端點管理員會註冊端點裝置，而隨插即用 manager 會註冊介面卡裝置。 註冊端點裝置可讓方便使用的應用程式，讓使用者能夠參考使用者直接操作的端點裝置，而不是參照可能隱藏在電腦底座內的介面卡裝置。 作業系統所報告的端點裝置可讓您在設定具有插座目前狀態偵測的音訊硬體時，即時追蹤其動態變更。 當端點裝置保持插上狀態時，系統會列舉該裝置。 當使用者拔除端點裝置時，系統會停止列舉該裝置。
 
-在舊版的 Windows 中，包括 Windows 98、Windows Me、Windows 2000 和 Windows XP，系統只會將 PnP 裝置明確呈現給應用程式。 因此，應用程式必須推斷端點裝置是否存在。 缺少對端點裝置明確支援的作業系統，會強制用戶端應用程式執行更多工作。 例如，音訊捕獲應用程式必須執行下列步驟，才能從外部麥克風進行捕捉：
+在舊版 Windows 中，包括 Windows 98、Windows Me、Windows 2000 以及 Windows XP，系統只會將 PnP 裝置明確呈現給應用程式。 因此，應用程式必須推斷端點裝置是否存在。 缺少對端點裝置明確支援的作業系統，會強制用戶端應用程式執行更多工作。 例如，音訊捕獲應用程式必須執行下列步驟，才能從外部麥克風進行捕捉：
 
 1.  列舉所有音訊捕獲裝置 (這些都是 PnP 管理員先前註冊的介面卡裝置) 。
-2.  選取擷取裝置之後，請呼叫 **waveInOpen** 函式或使用 **DIRECTSOUNDCAPTURE** 或 DirectShow API，在裝置上開啟 capture 串流。
+2.  選取擷取裝置之後，請呼叫 **waveInOpen** 函式或使用 **DirectSoundCapture** 或 DirectShow API，在裝置上開啟 capture 串流。
 3.  呼叫 mixerOpen 函式，並使用其他 **mixerXxx** 函式來尋找 \_ \_ \_ 對應至步驟2中所開啟之捕捉裝置的 MIXERLINE COMPONENTTYPE SRC 麥克風行。 這是一項教育的猜測。
 4.  從麥克風解除封鎖資料路徑。 如果資料路徑包含靜音節點，則用戶端必須停用來自麥克風的信號靜音。 如果捕捉裝置包含可從數個輸入中選取的多工器，則用戶端必須選取麥克風輸入。
 

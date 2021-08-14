@@ -3,7 +3,7 @@ title: '[功能區] 索引標籤屬性'
 description: 代表功能區中所有核心索引標籤的容器。
 ms.assetid: b43d0544-c110-4785-85d7-935842b8f03e
 keywords:
-- '[功能區] 屬性視窗功能區'
+- 功能區的 [索引標籤] 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4300a2385b6ada64e05e16671802460930cc2a7b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b055a2fd8d69b45e2f7059022908b5cb91f8e790196504172c0ad1c608b78c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202209"
 ---
 # <a name="ribbontabs-property"></a>[功能區] 索引標籤屬性
 
@@ -41,7 +41,7 @@ ms.locfileid: "104464441"
 
 | 元素                                             | 描述                                     |
 |-----------------------------------------------------|-------------------------------------------------|
-| [**索引標籤**](windowsribbon-element-tab.md)<br/> | 至少必須發生一次<br/> <br/> |
+| [**Tab**](windowsribbon-element-tab.md)<br/> | 至少必須發生一次<br/> <br/> |
 
 
 
@@ -118,8 +118,8 @@ ms.locfileid: "104464441"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

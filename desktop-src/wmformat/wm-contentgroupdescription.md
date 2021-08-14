@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e578b3c484a69a5bbd8c8103b588d62f1321ff8
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: fd482b079bddc5ac8d4f606fca8588112b71ebb6cdf355e301dc2f73270f8ac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118028242"
 ---
 # <a name="wmcontentgroupdescription"></a>WM/ContentGroupDescription
 
@@ -42,9 +42,9 @@ g \_ wszWMContentGroupDescription
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

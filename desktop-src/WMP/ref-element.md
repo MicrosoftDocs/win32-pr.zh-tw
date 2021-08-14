@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 739ac61007e619055c28732c5c5aa763e84054fa
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9195eb1fc3ca1f13e64376c0200cbb2e6ec4589e6740a74b1ff7670c0951df25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333275"
 ---
 # <a name="ref-element"></a>REF 元素
 
@@ -54,13 +54,13 @@ Windows Media Player 所支援的任何媒體內容的 URL。
 
 這個元素會指定一段媒體內容的 URL。 URL 可以使用 Windows Media Player 所支援的任何通訊協定，指向任何支援的媒體類型。
 
-支援的媒體類型包括仍為 .gif 和 .jpg 影像的影像，以及副檔名為 .gif 的 Flash 檔案。 這些媒體類型適用于將廣告內容包含在播放清單中。 使用迴圈中播放的影像檔案和 Flash 檔案，您也必須在 **REF** 元素中包含 **DURATION** 元素，以指定顯示媒體專案的時間量。 如果您想要在播放播放清單中的下一個專案時，繼續顯示影像，請在 **Entry 專案** 中包含 **PARAM** 元素、將其 **name** 屬性設定為 ShowWhileBuffering，然後將其 **value** 屬性設為 true。
+支援的媒體類型包括靜止的影像，例如 .gif 和 .jpg 的影像和 Flash 檔案（副檔名為）。 這些媒體類型適用于將廣告內容包含在播放清單中。 使用迴圈中播放的影像檔案和 Flash 檔案，您也必須在 **REF** 元素中包含 **DURATION** 元素，以指定顯示媒體專案的時間量。 如果您想要在播放播放清單中的下一個專案時，繼續顯示影像，請在 **Entry 專案** 中包含 **PARAM** 元素、將其 **name** 屬性設定為 ShowWhileBuffering，然後將其 **value** 屬性設為 true。
 
 若要參考 CD 或 DVD 上允許的內容，請提供 wmpcd 和 wmpdvd 通訊協定。 例如，將 **HREF** 屬性設定為 "wmpdvd://f/5/3" 將會播放 dvd 上的第3章，但只有在已撰寫 dvd 才能允許時。
 
 如果使用功能變數名稱伺服器 (DNS) 名稱（而非 IP 位址）指定位址，則開啟媒體專案時，從防火牆後方開啟數位媒體的應用程式將會有較佳的效能。
 
-此元素最常見的用法是用於 URL 變換。 如果 Windows Media Player 無法開啟 **REF** 元素中定義的媒體片段，它會嘗試下一個 **REF** 元素中的 URL。 一旦 Windows Media Player 從一個 **專案專案** 範圍內定義的 URL 開啟媒體內容，它就會忽略該 **entry 專案** 內的後續 **REF** 標記。 內容完成播放之後，Windows Media Player 移至下一個 **專案專案** （如果有的話）。
+此元素最常見的用法是用於 URL 變換。 如果 Windows Media Player 無法開啟 **REF** 元素中定義的媒體片段，它會嘗試下一個 **REF** 元素中的 URL。 一旦 Windows Media Player 從一個 **專案專案** 範圍內定義的 URL 開啟媒體內容，它就會忽略該 **entry 專案** 內的後續 **REF** 標記。 內容完成播放之後，Windows Media Player 移至下一個 **專案專案**（如果有的話）。
 
 -   **重要** 一旦 Windows Media Player 建立與所參考內容片段的連接，它就會忽略該 **專案** 中的所有其他 **REF** 元素，不論連接是正常或異常地終止。
 
@@ -102,10 +102,10 @@ Windows Media Player 所支援的任何媒體內容的 URL。
 [**支援的通訊協定和檔案類型**](supported-protocols-and-file-types.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔參考**](windows-media-metafile-reference.md)
+[**Windows媒體中繼檔參考**](windows-media-metafile-reference.md)
 </dt> </dl>
 
  

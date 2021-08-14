@@ -8,12 +8,12 @@ keywords:
 - 屬性 Active Directory，語法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04386e1b4981a81585fe208afa4cca6ed02d4c3c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c324fef5267ce37b42ede66b618b33148d266ac52dd69662a15bbce6094951ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182836"
 ---
 # <a name="syntaxes-for-attributes-in-active-directory-domain-services"></a>Active Directory Domain Services 中的屬性語法
 
@@ -25,6 +25,6 @@ Active Directory Domain Services 定義一組屬性語法，以指定屬性所�
 
 如需 Active Directory Domain Services 所提供語法的完整清單，包括每個語法的對應 **VARTYPE** 和 [**ADSTYPEENUM**](/windows/win32/api/iads/ne-iads-adstypeenum) 值，請參閱 [語法](/windows/desktop/ADSchema/syntaxes)。
 
- 
+ 
 
- 
+ 

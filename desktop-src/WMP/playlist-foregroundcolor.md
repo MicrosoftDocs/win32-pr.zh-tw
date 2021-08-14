@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 754544dec05319a6d4f1ce0d14b593969d543813
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98dbacf3d6439dc379c41163557189b98b8cdcc27db82eb4ec1bb04ad8de03be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118336754"
 ---
 # <a name="playlistforegroundcolor"></a>播放清單。 foregroundColor
 

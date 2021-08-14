@@ -1,19 +1,19 @@
 ---
 title: 工作排程器2.0 介面
-description: 下列主題中所述的介面，可讓您以程式設計方式存取 Windows Vista 作業系統中所使用工作排程器內可用的功能。
+description: 下列主題中所述的介面，可讓您以程式設計方式存取 Windows Vista 作業系統所使用工作排程器內可用的功能。
 ms.assetid: 67ed58e1-e54c-4c02-a6c4-d9ab8dc0f83e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d833e3f2e1c99b7fbbd45567022e1a9877d1657b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 1c510fc244e596dd3d75e00b4f6a8b8345260a56a1dd256740a94fc207c450db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117759063"
 ---
 # <a name="task-scheduler-20-interfaces"></a>工作排程器2.0 介面
 
-下列主題中所述的介面，可讓您以程式設計方式存取 Windows Vista 作業系統中所使用工作排程器內可用的功能。
+下列主題中所述的介面，可讓您以程式設計方式存取 Windows Vista 作業系統所使用工作排程器內可用的功能。
 
 這些主題包含介面的描述、介面所定義之屬性和方法的清單，以及使用介面時應注意的任何特殊情況的備註。
 
