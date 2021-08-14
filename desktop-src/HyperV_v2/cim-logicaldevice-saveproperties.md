@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: b9a30c955dca01b57238c3e2f8b0315d1d6fc25a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2e5910ea87a6321872b009003bf18d26910b53627dba6c51647f2896dde2e686
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648160"
 ---
 # <a name="saveproperties-method-of-the-cim_logicaldevice-class"></a>CIM LogicalDevice 類別的 SaveProperties 方法 \_
 

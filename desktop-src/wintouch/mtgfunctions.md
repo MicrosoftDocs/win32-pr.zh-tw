@@ -3,17 +3,17 @@ title: '函數 (Windows Touch 手勢) '
 description: 本章節包含 Windows Touch 手勢的功能。
 ms.assetid: 830031d1-eb8d-45d4-b66e-3f4fbb96ae13
 keywords:
-- Windows Touch，函數
-- Windows Touch，手勢
+- Windows觸控功能，函式
+- Windows觸控、手勢
 - 手勢，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2f2c8a1b1a6573cb39907c571ebc053d1efa066
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: f45112d81f80b4c3acba90ee25a65263f0183f296a432d66b3e278a14ae041f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435379"
 ---
 # <a name="functions-windows-touch-gestures"></a>函數 (Windows Touch 手勢) 
 
@@ -39,7 +39,7 @@ ms.locfileid: "104464128"
 
 <dl> <dt>
 
-[Windows Touch 手勢](multi-touch-gestures.md)
+[Windows觸控手勢](multi-touch-gestures.md)
 </dt> <dt>
 
 [手勢的程式設計指南](guide-multi-touch-gestures.md)

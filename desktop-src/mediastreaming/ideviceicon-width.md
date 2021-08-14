@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4b04f8c40cc209ccf1261af0fc2f6cdfd329db88
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cc76fcd7915c350e04cbacfe756e424d31b0d27d5ced38b0ccf8664805fc9bb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473460"
 ---
 # <a name="ideviceiconwidth-method"></a>IDeviceIcon：： Width 方法
 

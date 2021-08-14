@@ -4,12 +4,12 @@ ms.assetid: d3e94b57-3078-4a84-b58a-faa31bdff79e
 title: PacketProperty Guid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94591ccda5cd1f40b79c5cbb4fe80ca3ef99d2e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fb7db9f2d5e05000bdccd5a09b2b799f38aa1bb692fea110ea153a57912cfc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449368"
 ---
 # <a name="packetproperty-guids"></a>PacketProperty Guid
 
@@ -25,7 +25,7 @@ ms.locfileid: "103852812"
 <thead>
 <tr class="header">
 <th>GUID</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

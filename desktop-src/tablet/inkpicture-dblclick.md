@@ -4,12 +4,12 @@ ms.assetid: 5b2a6413-d415-4bf1-a291-35f4c3c5a0dc
 title: InkPicture (Msinkaut) 的 DblClick 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c3d9bb9125c8142186da969acf6ce03f5f76b2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 515d16d16fb585771a8e2e06e642476b6be7a29851b750add4d6de2ca1a89bda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717327"
 ---
 # <a name="inkpicturedblclick-event"></a>InkPicture： DblClick 事件
 
@@ -56,7 +56,7 @@ void DblClick(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

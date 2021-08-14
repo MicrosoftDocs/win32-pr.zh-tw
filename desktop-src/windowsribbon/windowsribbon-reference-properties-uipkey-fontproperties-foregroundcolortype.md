@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ FontProperties \_ ForegroundColorType 屬性�
 ms.assetid: ab04c0b0-911f-4649-9ce8-5ecd847abf9f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f261256a36ee7a387c6c3a695d8c1182898690c2
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: d26b324a4e504c5ef98850f2bbcabd55b34525650b0ecfd3c201d45896e0c800
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118438647"
 ---
 # <a name="ui_pkey_fontproperties_foregroundcolortype"></a>UI \_ PKEY \_ FontProperties \_ ForegroundColorType
 
@@ -40,7 +40,7 @@ UI \_ PKEY \_ FontProperties \_ ForegroundColorType 是由應用程式搭配 [ui
 |     值                           |     描述                                                                                                                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | `UI_SWATCHCOLORTYPE_NOCOLOR`   | [**FontControl**](windowsribbon-element-fontcontrol.md)不支援。                                                                                                                                                                                                                                                                                                                                        |
-| `UI_SWATCHCOLORTYPE_AUTOMATIC` | 應用程式應該針對色彩值查詢適當的系統計量，通常是以 GetSysColor (COLOR WINDOWTEXT) 抓取的目前 Windows 主題 **文字色彩** \_ 。                                                                                                                                                                                                                                  |
+| `UI_SWATCHCOLORTYPE_AUTOMATIC` | 應用程式應該針對色彩值查詢適當的系統計量，通常是使用 GetSysColor (color WINDOWTEXT) 抓取的目前 Windows 主題 **文字色彩** \_ 。                                                                                                                                                                                                                                  |
 | `UI_SWATCHCOLORTYPE_RGB`       | 應用程式應該查詢 [UI \_ PKEY \_ FontProperties \_ ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md) 的色彩值。 [ [UI \_ PKEY \_ FontProperties \_ ForegroundColor](windowsribbon-reference-properties-uipkey-fontproperties-foregroundcolor.md) ] 的色彩值會顯示在 **[文字色彩] 按鈕中** ，並在 [ **文字色彩** ] 圖庫中選取。<br/> |
 
 

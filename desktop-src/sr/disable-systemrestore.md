@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 19556833684aeab0cc126eff7aff0a258335c8e3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41a05d53ee13e2f06c2f4765d2947f49a417ed798965406185619dfce207cf76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452919"
 ---
 # <a name="disable-method-of-the-systemrestore-class"></a>Disable SystemRestore 類別的方法
 
@@ -83,7 +83,7 @@ End If
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                       |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                         |
 | 命名空間<br/>                | 根 \\ 預設值<br/>                                                          |
 | MOF<br/>                      | <dl> <dt>Sr-iov</dt> </dl> |

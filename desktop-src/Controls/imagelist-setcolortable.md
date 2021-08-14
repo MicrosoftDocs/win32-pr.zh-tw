@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 14be5f17d83128933a35730a79726b462436e0c4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7de1acd8f14d9993bc75ea69b910b365e29156a6386933ccb95251a916c37244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412236"
 ---
 # <a name="imagelist_setcolortable-function"></a>ImageList \_ SetColorTable 函式
 
@@ -73,9 +73,9 @@ int ImageList_SetColorTable(
 *prgb* \[在\]
 </dt> <dd>
 
-類型： **[**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) \** _
+類型： **[ **RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad)\***
 
-_Len * [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) 結構陣列的指標，其中包含 DIB 色彩表的新色彩資訊。
+*Len* [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad)結構陣列的指標，其中包含 DIB 色彩表的新色彩資訊。
 
 </dd> </dl>
 
@@ -95,8 +95,8 @@ _Len * [**RGBQUAD**](/windows/win32/api/wingdi/ns-wingdi-rgbquad) 結構陣列�
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                            |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                            |
 | DLL<br/>                      | <dl> <dt>Comctl32.dll (3.51 版或更新版本) </dt> </dl> |
 
 

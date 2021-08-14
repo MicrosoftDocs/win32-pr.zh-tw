@@ -1,19 +1,19 @@
 ---
-title: 'Windows Touch 輸入 (Windows Touch 程式設計) '
+title: 'Windows觸控輸入 (Windows Touch 程式設計) '
 description: 本章節包含 Windows Touch 輸入的程式設計參考。
 ms.assetid: 43f7e400-486d-4041-b78f-44655f6a6e9f
 keywords:
-- Windows Touch，輸入
+- Windows觸控、輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b021bbe47ed6ffc1ad8cdbc4094d1d4929325325
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3f8ce384d67f9418a73c2e4a06c5749547e7a302369ddbb44f58926917466561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435351"
 ---
-# <a name="windows-touch-input-windows-touch-programming"></a>Windows Touch 輸入 (Windows Touch 程式設計) 
+# <a name="windows-touch-input-windows-touch-programming"></a>Windows觸控輸入 (Windows Touch 程式設計) 
 
 本章節包含 Windows Touch 輸入的程式設計參考。
 
@@ -36,7 +36,7 @@ ms.locfileid: "103685412"
 
 <dl> <dt>
 
-[Windows Touch 程式設計參考](windows-touch-programming-reference.md)
+[Windows觸控程式設計參考](windows-touch-programming-reference.md)
 </dt> </dl>
 
  

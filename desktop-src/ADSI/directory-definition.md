@@ -5,12 +5,12 @@ ms.assetid: d8dcd255-4a17-4c80-a749-61c1af605dba
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6156f2e1ab89b34f009f1a86e5de011c20cf9503
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b8a46ee47bfa280fb9cffce32480fdad3164a648eee59a0c0b2740834b1f21cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118691944"
 ---
 # <a name="directory-definition"></a>目錄定義
 
@@ -28,9 +28,9 @@ ms.locfileid: "103839208"
 
 每個架構類別的屬性、其方法以及管理這些物件之內含專案關聯性的規則全都定義在 [架構管理](schema-management.md)中。
 
- 
+ 
 
- 
+ 
 
 
 

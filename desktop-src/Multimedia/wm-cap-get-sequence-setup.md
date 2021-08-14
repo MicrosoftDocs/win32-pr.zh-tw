@@ -3,7 +3,7 @@ title: 'WM_CAP_GET_SEQUENCE_SETUP 訊息 (Vfw .h) '
 description: WM \_ CAP \_ GET \_ SEQUENCE 設定訊息會抓取 \_ 串流處理捕獲參數的目前設定。 您可以使用 capCaptureGetSetup 宏明確地傳送此訊息。
 ms.assetid: 2220c92a-1994-4f15-9730-1cf01972dda6
 keywords:
-- WM_CAP_GET_SEQUENCE_SETUP message Windows 多媒體
+- WM_CAP_GET_SEQUENCE_SETUP 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a5cd1585b165581f9c9646741b92c5dc841472ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 55122a98846f23c609eb371ab5698198729c39e967d7953295850b61764459af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933893"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369536"
 ---
 # <a name="wm_cap_get_sequence_setup-message"></a>WM \_ CAP \_ 取得 \_ 順序 \_ 設定訊息
 

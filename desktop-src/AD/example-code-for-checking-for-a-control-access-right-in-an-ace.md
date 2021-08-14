@@ -7,12 +7,12 @@ keywords:
 - 在 ACE AD 中檢查控制項存取權的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57adb51902b9446259a4fa48587fa3db04aac1e5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8368cce0dbe492fac4cd8be4e2fed448c9a36a239c6ac0054336ae98d892f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694551"
 ---
 # <a name="example-code-for-checking-for-a-control-access-right-in-an-ace"></a>在 ACE 中檢查控制項存取權的範例程式碼
 
@@ -185,9 +185,9 @@ HRESULT ReadExtendedRight(IADs *pObject,
 
 
 
- 
+ 
 
- 
+ 
 
 
 

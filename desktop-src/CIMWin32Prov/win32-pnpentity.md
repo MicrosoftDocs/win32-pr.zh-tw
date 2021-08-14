@@ -42,12 +42,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 62eaa59944c9b71a1b8b3520969122ab23350bba
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f1af23a97b34bd646b608feec2898a57d8f0119bfdc5abede867d9788e1d9458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110233"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417136"
 ---
 # <a name="win32_pnpentity-class"></a>Win32 \_ PnPEntity 類別
 
@@ -367,7 +367,7 @@ class Win32_PnPEntity : CIM_LogicalDevice
 存取類型：唯讀
 </dt> </dl>
 
-安裝程式用來將裝置與 INF 檔案比對的廠商定義識別碼串。 裝置可以擁有與其關聯的相容識別碼的清單。 相容的識別碼應該依照遞減的適用性順序列出。 如果安裝程式找不到符合其中一個裝置硬體識別碼的 INF 檔案，則會使用相容的識別碼來尋找 INF 檔案。 相容識別碼具有與 **sensors** 相同的格式。 如需詳細資訊，請參閱 [Windows 驅動程式套件](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development)。
+安裝程式用來將裝置與 INF 檔案比對的廠商定義識別碼串。 裝置可以擁有與其關聯的相容識別碼的清單。 相容的識別碼應該依照遞減的適用性順序列出。 如果安裝程式找不到符合其中一個裝置硬體識別碼的 INF 檔案，則會使用相容的識別碼來尋找 INF 檔案。 相容識別碼具有與 **sensors** 相同的格式。 如需詳細資訊，請參閱[Windows 驅動程式套件](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development)。
 
 </dd> <dt>
 
@@ -862,7 +862,7 @@ Windows 仍在設定裝置。
 
 <dl> <dd>根 \\ \* PNPOF08</dd> <dd>PC \\ VEN \_ 1000&DEV \_ 001&子系統 \_ 00000000&REV \_ 02</dd> </dl>
 
-如需詳細資訊，請參閱 [Windows 驅動程式套件](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development)。
+如需詳細資訊，請參閱[Windows 驅動程式套件](https://developer.microsoft.com/windows/hardware/download-kits-windows-hardware-development)。
 
 </dd> <dt>
 
@@ -954,7 +954,7 @@ Windows 仍在設定裝置。
 
 此隨插即用裝置的型別名稱。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 這個屬性不在 MOF 檔案中。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 這個屬性不在 MOF 檔案中。
 
 </dd> <dt>
 
@@ -970,7 +970,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1112,7 +1112,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 
 此隨插即用裝置目前是否位於系統中。
 
-**Windows server 2012 R2、Windows 8.1、Windows server 2012、Windows 8、Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 不支援這個屬性。
+**Windows Server 2012 R2、Windows 8.1、Windows Server 2012、Windows 8、Windows server 2008 R2、Windows 7、Windows server 2008 和 Windows Vista：** 不支援這個屬性。
 
 </dd> <dt>
 

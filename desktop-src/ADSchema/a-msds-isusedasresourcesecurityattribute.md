@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d957e25974202e79a49f9f9f0d0ee38ef23c819
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 09c2226c89f1810a7dba7e24b6cb2b299d0246b985b63e9a2a584360352f9cab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425834"
 ---
 # <a name="ms-ds-is-used-as-resource-security-attribute-attribute"></a>ms-chap-使用---------Attribute 屬性
 
@@ -53,7 +53,7 @@ ms.locfileid: "104509623"
 | 連結識別碼                | \-                                                                    |
 | MAPI-Id                | \-                                                                    |
 | System-Only            | 否                                                                 |
-| 是-單一值       | 對                                                                  |
+| 是-單一值       | 是                                                                  |
 | 已編制索引             | 否                                                                 |
 | 在通用類別目錄中      | 否                                                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                          |

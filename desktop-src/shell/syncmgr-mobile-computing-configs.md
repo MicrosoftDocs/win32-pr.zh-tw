@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 682581f20f70317ea7fae6abdf909c2b7d8fbb41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10cfccb7c369e9811fd15f18fd577c98e7304d4c4f2928dfa4174bb939d3692e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451854"
 ---
 # <a name="mobile-computing-configurations"></a>行動計算設定
 

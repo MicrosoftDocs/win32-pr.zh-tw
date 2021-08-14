@@ -4,12 +4,12 @@ ms.assetid: 54225481-a147-4d29-a642-24c9b59fc3ac
 title: 取得資料夾的識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb2e62454bf27f2c203f59aecb325cefe6537d2a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 67d75051d52f0dfcee54b6365a8f546d2cbda2c3b5f7c0f4b6fbbc19fa1e40c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459007"
 ---
 # <a name="getting-a-folders-id"></a>取得資料夾的識別碼
 
@@ -42,7 +42,7 @@ ms.locfileid: "104991590"
 
 系統會將一些常用的資料夾指定為 *特殊* 。 這些資料夾具有妥善定義的用途，且大部分都存在於所有系統上。 即使一開始並不存在，仍然會定義其名稱和位置，以便稍後加入。 特殊資料夾的集合包含所有系統的標準虛擬資料夾，例如 [印表機]、[我的檔] 和 [網路鄰近]。 它也包含一些標準的檔系統資料夾，例如 Program Files 和 System。
 
-雖然這些資料夾是所有系統的標準元件，但在命名空間中的名稱和位置可能會有所不同。 例如，在某些系統上，系統目錄為 C： \\ Winnt \\ System32，而在其他系統上為 c： \\ Windows \\ system32。 在過去，環境變數提供了一種方法來判斷任何特定系統上特殊資料夾的名稱和位置。 Shell 現在提供更健全且更有彈性的方式來識別特殊資料夾 [**CSIDLs**](csidl.md)。 您通常應該使用它們來取代環境變數。
+雖然這些資料夾是所有系統的標準元件，但在命名空間中的名稱和位置可能會有所不同。 例如，在某些系統上，系統目錄是 c： \\ Winnt System32，而在其他系統上則是 \\ c： \\ Windows \\ system32。 在過去，環境變數提供了一種方法來判斷任何特定系統上特殊資料夾的名稱和位置。 Shell 現在提供更健全且更有彈性的方式來識別特殊資料夾 [**CSIDLs**](csidl.md)。 您通常應該使用它們來取代環境變數。
 
 CSIDLs 提供統一的方式來識別和尋找特殊資料夾，無論其名稱或位置是否在特定系統上。 和環境變數不同的是，CSIDLs 可以與虛擬資料夾以及檔系統資料夾一起使用。 每個特殊資料夾都有指派的唯一 CSIDL。 例如，[Program Files file system] 資料夾具有 **CSIDL \_ Program \_ files** 的 CSIDL，而 [網路鄰近] 虛擬資料夾具有 **CSIDL \_ 網路** 的 CSIDL。
 

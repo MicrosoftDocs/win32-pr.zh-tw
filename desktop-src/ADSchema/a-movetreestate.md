@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3041d54dfcdb97d7c9e1629162908fab1577b60c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c904beee7be1452e9e74470e91eaf43b3f655fdf79c767923ada6ab3fa8f01b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686989"
 ---
 # <a name="move-tree-state-attribute"></a>移動樹狀結構狀態屬性
 

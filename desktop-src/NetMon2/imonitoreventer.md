@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7d4ca58b5a0787638eee54b7733b4e1a8fbf7ffe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2af49529a74c23e0f4d4e77e0d2608cd44d12028d93022750fbbd3af891e2e77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365486"
 ---
 # <a name="imonitoreventer-interface"></a>IMonitorEventer 介面
 

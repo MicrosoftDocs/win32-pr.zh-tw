@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1e92c9d0fa5e486d7785ff8184ba4ce0dd42e5be
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 03bceee63109dedbf3b2fa9a855ddbfb410014d48de613f95c7bbfb98d6b0894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118658871"
 ---
 # <a name="cbasemediafiltergetsyncsource-method"></a>CBaseMediaFilter. GetSyncSource 方法
 

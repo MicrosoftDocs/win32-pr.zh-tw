@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64e6ccf5cf941b1abd3577efa5899b8d827e24e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b94941dab692db1007c1c88b87377f9bed6ad248760e7f01c58005c93bcdb2e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118515699"
 ---
 # <a name="d3dx_saturatesigned_float-function"></a>D3DX \_ SaturateSigned \_ FLOAT 函數
 

@@ -3,7 +3,7 @@ title: WCS 轉換建立演算法
 description: WCS 轉換建立演算法
 ms.assetid: 526bbbfc-fb60-415d-b4f0-6a44a5d11a55
 keywords:
-- Windows Color System (WCS) 、轉換建立
+- Windows色彩系統 (WCS) ，轉換建立
 - WCS (Windows 色彩系統) ，轉換建立
 - 影像色彩管理、轉換建立
 - 色彩管理，轉換建立
@@ -14,12 +14,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 418596c0e57571f3e504727d4606921d36ff9461
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: df199f0fa649e7ce545a7b371f1caba65686746766f5572bac8e43b47413eace
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104571500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118445561"
 ---
 # <a name="wcs-transform-creation-algorithms"></a>WCS 轉換建立演算法
 
@@ -47,7 +47,7 @@ ms.locfileid: "104571500"
 
 ## <a name="creation-of-transforms"></a>建立轉換
 
-若要適當地說明色彩轉換的運作方式，請透過 ICM 2.0 和 CTE 的內部說明完整的處理路徑。 ICM 2.0 [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw) 函式會建立應用程式可用來執行色彩管理的色彩轉換。 此函式會從 [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) 和意圖輸入建立色彩內容。 這些意圖會對應至基準 ICC gamut 對應演算法相互關聯。 然後，此函式會呼叫 ICM 2.0 函式 [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/) ，以進行一致的色彩處理。 **CreateColorTransform** 函數通常會將資料複製到內部優化的轉換結構。
+若要適當地說明色彩轉換的運作方式，請透過 ICM 2.0 和 CTE 的內部說明完整的處理路徑。 ICM 2.0 [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw)函式會建立應用程式可用來執行色彩管理的色彩轉換。 此函式會從 [**LOGCOLORSPACE**](/windows/desktop/api/Wingdi/ns-wingdi-taglogcolorspacea) 和意圖輸入建立色彩內容。 這些意圖會對應至基準 ICC gamut 對應演算法相互關聯。 然後，此函式會呼叫 ICM 2.0 函式 [**CreateMultiProfileTransform**](/windows/desktop/api/Wingdi/) ，以進行一致的色彩處理。 **CreateColorTransform** 函數通常會將資料複製到內部優化的轉換結構。
 
 ICM 2.0 CreateMultiProfileTransform 函式會接受設定檔陣列和意圖陣列，或單一裝置連結設定檔，並建立應用程式可用來執行色彩對應的色彩轉換。 它會處理這些輸入設定檔和意圖，以建立裝置模型、色彩外觀模型、gamut 界限描述和範圍對應模型。 做法如下：
 
@@ -85,15 +85,15 @@ HRESULT CreateCITEColorTransform(
 
 ## <a name="transform-execution"></a>轉換執行
 
-ICM 2.0 API [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors) 函式會將色彩的陣列從來源 [色彩空間](c.md) 轉譯為目的色彩空間，如色彩轉換所定義。 此函式會在內部檢查快取色彩的陣列，以便立即符合常用的轉換色彩。 這種轉換支援每個通道位元組陣列8位，每個通道的 float 陣列都有32位。 所有其他格式將會在傳遞至新的 CTE 之前轉換。
+ICM 2.0 API [**TranslateColors**](/windows/win32/api/icm/nf-icm-translatecolors)函式會將色彩的陣列從來源 [色彩空間](c.md)轉譯為目的色彩空間，如色彩轉換所定義。 此函式會在內部檢查快取色彩的陣列，以便立即符合常用的轉換色彩。 這種轉換支援每個通道位元組陣列8位，每個通道的 float 陣列都有32位。 所有其他格式將會在傳遞至新的 CTE 之前轉換。
 
-ICM 2.0 API [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits) 函式會轉譯具有所定義格式之點陣圖的色彩，以產生所要求格式的另一個點陣圖。 此函式會在內部檢查快取色彩的陣列，以便立即符合常用的轉換色彩。 為了避免太多程式碼路徑、支援和測試複雜度，轉換和插補引擎實際上只支援有限數目的點陣圖格式。 此函式必須將非原生傳入和傳出點陣圖格式轉譯成原生支援的格式，才能進行處理。 此轉換只支援每個通道的8位點陣圖，以及每個通道的 float 點陣圖32位。 所有其他格式將會在傳遞至新的 CTE 之前轉換。
+ICM 2.0 API [**TranslateBitmapBits**](/windows/win32/api/icm/nf-icm-translatebitmapbits)函式會轉譯具有所定義格式之點陣圖的色彩，以產生所要求格式的另一個點陣圖。 此函式會在內部檢查快取色彩的陣列，以便立即符合常用的轉換色彩。 為了避免太多程式碼路徑、支援和測試複雜度，轉換和插補引擎實際上只支援有限數目的點陣圖格式。 此函式必須將非原生傳入和傳出點陣圖格式轉譯成原生支援的格式，才能進行處理。 此轉換只支援每個通道的8位點陣圖，以及每個通道的 float 點陣圖32位。 所有其他格式將會在傳遞至新的 CTE 之前轉換。
 
  
 
 ### <a name="sequential-transform-execution"></a>順序轉換執行
 
-如果 \_ 呼叫 ICM 函數 [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw)或 **CreateMultiProfileTransform** 時，dwFlags 參數已設定順序轉換位，則會循序執行轉換步驟。 這表示程式碼會依 **CreateColorTransform** 或 **CreateMultiProfileTransform** 呼叫所指定，分別逐步執行每個裝置模型、色彩外觀模型，以及 gamut 對應模型。 這可能有助於偵測外掛程式模組，但速度會比透過優化轉換執行慢很多。 因此，不建議在生產環境軟體中以連續模式執行。 此外，在連續模式和優化模式中取得的結果可能會有些微差異。 這是因為函數串連在一起時所引進的變化。
+ \_ 當呼叫 ICM 函數 [**CreateColorTransformW**](/windows/win32/api/icm/nf-icm-createcolortransformw)或 **CreateMultiProfileTransform** 時，如果 dwFlags 參數已設定順序轉換位，則會循序執行轉換步驟。 這表示程式碼會依 **CreateColorTransform** 或 **CreateMultiProfileTransform** 呼叫所指定，分別逐步執行每個裝置模型、色彩外觀模型，以及 gamut 對應模型。 這可能有助於偵測外掛程式模組，但速度會比透過優化轉換執行慢很多。 因此，不建議在生產環境軟體中以連續模式執行。 此外，在連續模式和優化模式中取得的結果可能會有些微差異。 這是因為函數串連在一起時所引進的變化。
 
 ### <a name="creation-of-optimized-transforms"></a>建立優化的轉換
 
@@ -161,7 +161,7 @@ Samp *i*： ![ 顯示一維取樣方格。](images/transformcreation-image008.gi
 
 Samp *i*： ![ 顯示 Samp i 演算法。](images/transformcreation-image043.png)
 
-最後，在下表1中指定 *d* 和 *d* (*k* ) 。 三種模式「證明」、「正常」和「最佳」是 ICM 2.0 品質設定。 在這個執行中，證明模式具有最小的記憶體使用量，而最佳模式的記憶體使用量最大。
+最後，在下表1中指定 *d* 和 *d* (*k* ) 。 「證明」、「正常」和「最佳」這三種模式是 ICM 的2.0 品質設定。 在這個執行中，證明模式具有最小的記憶體使用量，而最佳模式的記憶體使用量最大。
 
 若要執行此演算法，您必須呼叫下列演算法 \# 2。 使用者可以使用資料表做為指南，來指定自己的取樣位置。
 
@@ -312,7 +312,7 @@ x (0) = x、輸入點和 BC 定義于 x (k) 。 然後藉由定義一連串的�
 
 ![顯示 Interp (x) 等於 y 上標 (0) 。](images/transformcreation-image107.gif)
 
-## <a name="worked-example"></a>作用中範例
+## <a name="worked-example"></a>有效範例
 
 ![此圖顯示使用單元 cube 的插補範例。](images/transformcreation-image108.png)
 
@@ -384,7 +384,7 @@ x (0) = x、輸入點和 BC 定義于 x (k) 。 然後藉由定義一連串的�
 
 ### <a name="iccprofilefromwcsprofile"></a>ICCProfileFromWCSProfile
 
-由於這項功能的主要目的是要支援 Windows Vista 之前的版本，因此您必須產生2.2 版的 ICC 設定檔（如 ICC 規格中所定義）。1： 1998-09。 在某些情況下 (請參閱下表「基準裝置至 ICC 設定檔類別對應」 ) ，您可以從 WCS 設定檔建立矩陣或 >FLIGHTRECORDERCURRENT.TRC 型的 ICC 設定檔。 在其他情況下，ICC 設定檔是由 LUTs 所組成。 下列程式說明如何建立 AToB 和 BToA LUTs。 當然，ICC 設定檔也有其他欄位。 某些資料可以衍生自 WCS 設定檔。 對於其他資料，您必須開發智慧型預設值。 系統會將著作權指派給 Microsoft;因為它是用來建立 LUTs 的 Microsoft 技術。
+因為這項功能的主要目的是要支援 Windows 的 Vista 之前版本，所以您必須產生2.2 版的 icc 設定檔（如 icc 規格中所定義）。1： 1998-09。 在某些情況下 (請參閱下表「基準裝置至 ICC 設定檔類別對應」 ) ，您可以從 WCS 設定檔建立矩陣或 >FLIGHTRECORDERCURRENT.TRC 型的 ICC 設定檔。 在其他情況下，ICC 設定檔是由 LUTs 所組成。 下列程式說明如何建立 AToB 和 BToA LUTs。 當然，ICC 設定檔也有其他欄位。 某些資料可以衍生自 WCS 設定檔。 對於其他資料，您必須開發智慧型預設值。 系統會將著作權指派給 Microsoft;因為它是用來建立 LUTs 的 Microsoft 技術。
 
 這項設計應該適用于所有類型的裝置模型，包括外掛程式。只要外掛程式有相關聯的基準裝置模型，就可以決定基礎裝置類型。
 
@@ -511,7 +511,7 @@ BW = (1.0 – (max (R、G、B) – min (R、G、B) ) /max (R、G、B) ) \* 相�
 
 ### <a name="checkgamut"></a>CheckGamut
 
-ICM 呼叫 CreateTransform 和 **CreateMultiProfileTransform** 會取得旗標值的文字，其中一個是啟用範圍 \_ \_ 檢查。 當設定這個旗標時，引用必須以不同的方式建立轉換。 初始步驟相同：必須初始化來源和目的地攝影機，然後必須初始化來源和目的地範圍界限描述元。 無論指定的意圖為何，都必須使用 CheckGamut GMM。 CheckGamut GMM 應該使用來源和目的地裝置模型和範圍界限描述項進行初始化。 不過，轉換接著應建立截斷的轉換，其中包含來源裝置模型、來源凸輪、任何仲介 GMMs 和 CheckGamut GMM。 這可確保 CheckGamut CMM 輸出的 delta J、delta C 和 delta h 值會成為最後產生的值。
+ICM 會呼叫 CreateTransform，而 **CreateMultiProfileTransform** 會取得旗標值的文字，其中一個值是啟用 \_ GAMUT \_ 檢查。 當設定這個旗標時，引用必須以不同的方式建立轉換。 初始步驟相同：必須初始化來源和目的地攝影機，然後必須初始化來源和目的地範圍界限描述元。 無論指定的意圖為何，都必須使用 CheckGamut GMM。 CheckGamut GMM 應該使用來源和目的地裝置模型和範圍界限描述項進行初始化。 不過，轉換接著應建立截斷的轉換，其中包含來源裝置模型、來源凸輪、任何仲介 GMMs 和 CheckGamut GMM。 這可確保 CheckGamut CMM 輸出的 delta J、delta C 和 delta h 值會成為最後產生的值。
 
 當轉換中只有兩個裝置設定檔時，CheckGamut 的意義很清楚。 當有兩個以上的裝置設定檔和兩個以上的 GMMs 時，CheckGamut 會報告是否已透過第一個裝置型號轉換的色彩，以及最後一個 GMM 以外的所有色彩是否落在目的地裝置的範圍內。
 
@@ -522,7 +522,7 @@ ICM 呼叫 CreateTransform 和 **CreateMultiProfileTransform** 會取得旗標�
 [基本色彩管理概念](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Windows 色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
+[Windows色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
  

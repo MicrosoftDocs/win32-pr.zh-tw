@@ -1,25 +1,25 @@
 ---
-description: 下表列出 (Guid) 針對 Microsoft DirectX 媒體物件 (的) 類別目錄定義的全域唯一識別碼。 這些 Guid 會定義在標頭檔 Dmoreg 中，並由 Dmoguids .lib 程式庫匯出。
+description: 下表列出 (guid) 為 Microsoft DirectX 媒體物件 (DMO) 類別目錄定義的全域唯一識別碼。 這些 Guid 會定義在標頭檔 Dmoreg 中，並由 Dmoguids .lib 程式庫匯出。
 ms.assetid: d67debd0-8ecb-41ab-bc6c-b27cba97c65a
-title: 'SQL-DMO Guid (Dmoreg .h) '
+title: 'DMOGuid (Dmoreg .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c10d5bd917d6368d398362e76ffa9ea8255933ed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 93db9f78a5c256d2a6703f01fa4195b1aa293ef7e79eeb6b4da59557b849c805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653106"
 ---
-# <a name="dmo-guids"></a>SQL-DMO Guid
+# <a name="dmo-guids"></a>DMOGuid
 
-下表列出 (Guid) 針對 Microsoft DirectX 媒體物件 (的) 類別目錄定義的全域唯一識別碼。 這些 Guid 會定義在標頭檔 Dmoreg 中，並由 Dmoguids .lib 程式庫匯出。
+下表列出 (guid) 為 Microsoft DirectX 媒體物件 (DMO) 類別目錄定義的全域唯一識別碼。 這些 Guid 會定義在標頭檔 Dmoreg 中，並由 Dmoguids .lib 程式庫匯出。
 
 若要列舉分類中註冊的 DMOs，請將對應的 GUID 傳遞給 [**DMOEnum**](/previous-versions/windows/desktop/api/Dmoreg/nf-dmoreg-dmoenum) 函式。
 
 
 
-| GUID                                                                                                                                                                                                                     | Description                     |
+| GUID                                                                                                                                                                                                                     | 描述                     |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------|
 | <span id="DMOCATEGORY_AUDIO_DECODER"></span><span id="dmocategory_audio_decoder"></span><dl> <dt>**DMOCATEGORY \_ 音訊 \_ 解碼器**</dt> </dl>                       | 音訊解碼器<br/>        |
 | <span id="DMOCATEGORY_AUDIO_EFFECT"></span><span id="dmocategory_audio_effect"></span><dl> <dt>**DMOCATEGORY \_ 音訊 \_ 效果**</dt> </dl>                          | 音訊效果<br/>         |
@@ -45,7 +45,7 @@ ms.locfileid: "106994272"
 
 <dl> <dt>
 
-[SQL-DMO 常數](dmo-constants.md)
+[DMO常數](dmo-constants.md)
 </dt> </dl>
 
  

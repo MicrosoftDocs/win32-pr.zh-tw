@@ -4,12 +4,12 @@ ms.assetid: 1117ac64-653d-4640-97cd-f37b0949dc57
 title: 設定程式庫應用程式的安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 102d6a0f102bfd19da0073bca14df8a8211203b1
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 8f0d8b3993a00512c20409f1f029b7402d5f9ace97984cbe9757453b5672125f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "103945552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118548877"
 ---
 # <a name="configuring-security-for-library-applications"></a>設定程式庫應用程式的安全性
 
@@ -51,7 +51,7 @@ ms.locfileid: "103945552"
 
     ![在主機進程內的程式庫應用程式中顯示「檢查角色成員資格」的圖表。](images/e0cc604c-ba86-4087-9a74-1b6fdce8d69a.png)
 
--   **驗證已停用，且未使用以角色為基礎的安全性。** 在此案例中，安全性檢查仍會在進程層級進行，但在上述案例中，程式庫應用程式的呼叫端一律會通過此安全性檢查。 因為也會停用角色檢查，所以不會在程式庫應用層級檢查角色成員資格。 基本上，任何人都可以呼叫程式庫應用程式。 當您的 COM 物件需要接收未經驗證的回呼時，應選擇此案例，例如 Internet Explorer 所裝載的 ActiveX 控制項和 Microsoft Management Console 嵌入式管理單元。 當然，這個 COM 物件必須受到信任，才能在接收未驗證的呼叫時適當地運作。 例如，它不應該代表其呼叫端存取任意檔案。
+-   **驗證已停用，且未使用以角色為基礎的安全性。** 在此案例中，安全性檢查仍會在進程層級進行，但在上述案例中，程式庫應用程式的呼叫端一律會通過此安全性檢查。 因為也會停用角色檢查，所以不會在程式庫應用層級檢查角色成員資格。 基本上，任何人都可以呼叫程式庫應用程式。 當您的 COM 物件需要接收未經驗證的回呼時，應選擇此案例，因為 Internet Explorer 和 Microsoft Management Console 嵌入式管理單元所裝載的 ActiveX 控制項可能是這樣的情況。 當然，這個 COM 物件必須受到信任，才能在接收未驗證的呼叫時適當地運作。 例如，它不應該代表其呼叫端存取任意檔案。
 
     下圖顯示已停用驗證和角色檢查的案例。
 

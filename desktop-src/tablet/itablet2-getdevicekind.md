@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: f20b1fe6a5a48196f6b3adc5982f2596d93f0863
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1db540b1097428e20104d95a8a7a6726566c7cd8939a11ec4041c1aa9475afd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118450525"
 ---
 # <a name="itablet2getdevicekind-method"></a>ITablet2：： GetDeviceKind 方法
 
@@ -53,7 +53,7 @@ HRESULT GetDeviceKind(
 
 
 
-| 傳回碼                                                                            | Description                               |
+| 傳回碼                                                                            | 描述                               |
 |----------------------------------------------------------------------------------------|-------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>   | 成功。<br/>                       |
 | <dl> <dt>**E \_ 失敗**</dt> </dl> | 發生未指定的錯誤。<br/> |
@@ -64,7 +64,7 @@ HRESULT GetDeviceKind(
 
 ## <a name="remarks"></a>備註
 
-這個介面和方法是在 Windows Vista 中引進的。
+Windows Vista 中引進了這個介面和方法。
 
 ## <a name="requirements"></a>規格需求
 
@@ -72,7 +72,7 @@ HRESULT GetDeviceKind(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                          |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

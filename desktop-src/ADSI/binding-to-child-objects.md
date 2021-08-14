@@ -9,12 +9,12 @@ keywords:
 - 子物件，系結至
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a73d7682dedb405c84dfaf048b8b4b2659e7fd3
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e454da1aaea93acc404e92da4b9c45ac8d67b4c3cee8a4fe9a04027c7533b39c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429035"
 ---
 # <a name="binding-to-child-objects"></a>系結至子物件
 
@@ -94,6 +94,6 @@ HRESULT GetChildObject(IADs *pObject,
 
 
 
- 
+ 
 
- 
+ 

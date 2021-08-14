@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d00a1df180b7a30b56bdf198a78edc77cc99755
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0e21929cf41b58688f768ada0b608ca3ef0892a4a54043c30f5cac2d5a72258b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118681085"
 ---
 # <a name="unicode-pwd-attribute"></a>Unicode-Pwd 屬性
 
@@ -59,7 +59,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -67,7 +67,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -80,7 +80,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -88,7 +88,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -101,7 +101,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                                                |
 | MAPI-Id                | \-                                                                |
 | System-Only            | 否                                                             |
-| 是-單一值       | 對                                                              |
+| 是-單一值       | 是                                                              |
 | 已編制索引             | 否                                                             |
 | 在通用類別目錄中      | 否                                                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                      |
@@ -122,7 +122,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -130,7 +130,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -143,7 +143,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -151,7 +151,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -164,7 +164,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -172,7 +172,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -185,7 +185,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |

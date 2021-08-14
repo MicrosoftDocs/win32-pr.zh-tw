@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8daf3c33b43bda95bb1d54145e9e5aebc6f89c2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b55736b2efb8fd4cfbca40710caa930c200c84e1ceec9c8c4f7439468c1add1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118654068"
 ---
 # <a name="dbglocktrace-function"></a>DbgLockTrace 函式
 
@@ -67,7 +67,7 @@ void WINAPI DbgLockTrace(
 
 若要追蹤重要區段，請執行下列步驟：
 
-1.  \_在您包含 DirectShow 標頭之前，請先定義 debug 或 debug。
+1.  請先定義 debug 或 \_ debug，然後再包含 DirectShow 標頭。
 2.  藉由使用記錄鎖定旗標呼叫 [**DbgSetModuleLevel**](dbgsetmodulelevel.md) ，啟用重要區段的 debug 記錄 \_ 。
 3.  在您想要追蹤的重要區段上呼叫 **DbgLockTrace** 。
 

@@ -13,12 +13,12 @@ api_type:
 - UserDefined
 api_location:
 - wfdsink.h
-ms.openlocfilehash: c576f88a5b7f97484647c4c06f44522a5c3c379f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7066f45b714c28b53747d0d0f1851bd94ac2ac902e5b4adba1d0746e8328b3b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980832"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118619973"
 ---
 # <a name="wfd_display_sink_notification_callback-callback-function"></a>WFD \_ 顯示 \_ 接收 \_ 通知 \_ 回呼回呼函式
 
@@ -68,8 +68,8 @@ DWORD CALLBACK WFD_DISPLAY_SINK_NOTIFICATION_CALLBACK(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wfdsink。h</dt> </dl> |
 
 

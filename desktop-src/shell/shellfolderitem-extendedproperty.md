@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 614e42512b17a0d8a6950ac96914128b8746c685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: f5aa8ab3ba61d752cfe4d9f8ecd29bf4fcd06c3dbadde94e51ac9a05a8504b43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452814"
 ---
 # <a name="shellfolderitemextendedproperty-method"></a>ShellFolderItem. ExtendedProperty 方法
 
@@ -50,7 +50,7 @@ retVal = ShellFolderItem.ExtendedProperty(
 
 ## <a name="return-value"></a>傳回值
 
-類型： **Variant \** _
+類型： **Variant \***
 
 當此方法傳回時，會包含屬性的值（如果它存在於指定的專案中）。 此值將會有完整的輸入，例如，日期會以日期（而不是字串）的形式傳回。
 
@@ -58,7 +58,7 @@ retVal = ShellFolderItem.ExtendedProperty(
 
 ## <a name="remarks"></a>備註
 
-有兩種方式可以指定屬性。 第一個是指派屬性的已知名稱，例如 "Author" 或 "Date"，以 _sPropName *。 不過，每個屬性都是元件物件模型 (COM) 屬性集的成員，也可以藉由指定其格式識別碼 (FMTID) 和屬性識別碼 (PID) 來識別。 [**FMTID**](../stg/structured-storage-serialized-property-set-format.md)是識別屬性集的 GUID，而 [**PID**](../stg/structured-storage-serialized-property-set-format.md)是識別屬性集內特定屬性的整數。
+有兩種方式可以指定屬性。 第一個是將屬性的知名名稱（例如 "Author" 或 "Date"）指派給 *sPropName*。 不過，每個屬性都是元件物件模型 (COM) 屬性集的成員，也可以藉由指定其格式識別碼 (FMTID) 和屬性識別碼 (PID) 來識別。 [**FMTID**](../stg/structured-storage-serialized-property-set-format.md)是識別屬性集的 GUID，而 [**PID**](../stg/structured-storage-serialized-property-set-format.md)是識別屬性集內特定屬性的整數。
 
 依 FMTID/PID 值指定屬性，通常比使用其名稱更有效率。 若要使用屬性的 FMTID/PID 值搭配 **ExtendedProperty**，必須將它們合併成 SCID。 SCID 是包含 FMTID/PID 值的字串，其格式為 "*FMTID * * pid*"，其中 FMTID 是屬性集 GUID 的字串形式。 例如，摘要資訊屬性集的作者屬性的 SCID 是 "{F29F85E0-4FF9-1068-AB91-08002B27B3D9} 4"。
 
@@ -97,7 +97,7 @@ Doc_Author=fiWordDoc.ExtendedProperty(SCID_AUTHOR)
 
 下列範例會針對 JScript、VBScript 和 Visual Basic 示範此方法的適當用法。
 
-Jscript：
+JScript：
 
 
 ```JScript

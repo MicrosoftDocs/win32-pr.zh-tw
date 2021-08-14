@@ -3,7 +3,7 @@ title: 'TVM_SETINDENT 訊息 (Commctrl .h) '
 description: 為樹狀檢視控制項設定縮排的寬度，並重新繪製控制項以反映新的寬度。 您可以使用 TreeView SetIndent 宏明確地傳送此訊息 \_ 。
 ms.assetid: 377da8fe-c8e6-479b-a283-f1811cbc3e58
 keywords:
-- TVM_SETINDENT message Windows 控制項
+- TVM_SETINDENT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f85263c7c4330a692dc08949870a0eaa92f2b22c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 538a89439909afe346ae8776d31a2104c7f6014664a33bdd3864bf43b0387e80
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118669663"
 ---
 # <a name="tvm_setindent-message"></a>TVM \_ SETINDENT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104104178"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

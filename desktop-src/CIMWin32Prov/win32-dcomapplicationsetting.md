@@ -26,12 +26,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 085304c5319811ba87979124613c7d8e83fd7479
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3b52ace8ea72d78585ac0df858df1fc807fbc65ca74ace92208d2e9fc5c76861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417729"
 ---
 # <a name="win32_dcomapplicationsetting-class"></a>Win32 \_ DCOMApplicationSetting 類別
 
@@ -137,12 +137,12 @@ class Win32_DCOMApplicationSetting : Win32_COMSetting
 
 <span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>
 
-<span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>**連接** (2) 
+<span id="Connect"></span><span id="connect"></span><span id="CONNECT"></span>**連線** (2) 
 
 
 </dt> <dd>
 
-只有當用戶端與應用程式建立關聯性時，才會執行 Connect (驗證) 
+只有當用戶端與應用程式建立關聯性時，才會執行連線 (驗證) 
 
 </dd> <dt>
 
@@ -317,7 +317,7 @@ DCOM 應用程式所提供之服務的名稱。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32Registry \| HKEY \_ LOCAL \_ MACHINE \\ \\ SOFTWARE class \\ \\ \\ \\ AppID \\ \\ {GUID} \[ ServiceParameters \] " ) 
 </dt> </dl>
 
-傳遞至 DCOM 應用程式的命令列參數。 只有當應用程式是以 Windows 為基礎的服務撰寫時，才會有效。
+傳遞至 DCOM 應用程式的命令列參數。 只有當應用程式撰寫為以 Windows 為基礎的服務時，這才有效。
 
 </dd> <dt>
 

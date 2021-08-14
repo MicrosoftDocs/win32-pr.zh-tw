@@ -4,12 +4,12 @@ ms.assetid: m:microsoft.directx_sdk.reference.xmmin(t,t)
 title: 'XMMin template (DirectXMath) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 550fd93c9776ad8547502b50817446e64f9bdd64
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c2d78b64a66411c31570267c66a7e75171dcf9da039871c07c8bfc31df49149
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499853"
 ---
 # <a name="xmmin-template"></a>XMMin 範本
 
@@ -56,7 +56,7 @@ template<class T> T XMMin(
  
 
 > [!Note]  
-> 在理想情況下，請使用 std：： min 而不是 `XMMin` 。 若要避免與具有 std：： min 的 Windows 標頭髮生衝突，您必須 \# 先定義 NOMINMAX，然後再包含 windows 標頭。
+> 在理想情況下，請使用 std：： min 而不是 `XMMin` 。 若要避免與 std：： min 的 Windows 標頭髮生衝突，您必須 \# 先定義 NOMINMAX，然後再包含 Windows 標頭。
 
  
 
@@ -64,7 +64,7 @@ template<class T> T XMMin(
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

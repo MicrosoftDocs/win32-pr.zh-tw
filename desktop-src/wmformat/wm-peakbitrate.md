@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 959bb1e7f98a68291aaa74d6a8b4105977cbc712
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 87edbde5e524a87262d9d82d0269f8baa99a21797bc6972f0319a51e4aea9d17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698514"
 ---
 # <a name="wmpeakbitrate"></a>WM/PeakBitrate
 
@@ -38,9 +38,9 @@ g \_ wszWMPeakBitrate
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

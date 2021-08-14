@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c371255d6f66204c356d6dd7f056bc765fa76615
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: fb7786d03b79a78f067fbfb1c8447336405c8a2e87bac18819178b2e158a2a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118522789"
 ---
 # <a name="id3dxanimationcontrollergetmaxnumevents-method"></a>ID3DXAnimationController：： GetMaxNumEvents 方法
 

@@ -4,12 +4,12 @@ description: 本章節包含與進度列控制項搭配使用之程式設計項�
 ms.assetid: vs|controls|~\controls\progbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08b99a31bbbd3b80de0d528d5232c79c28af1e1f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03c9cd66326336cd3733f881f3f19d82fedc3bf8d8420f83035bf20dc914c7c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670649"
 ---
 # <a name="progress-bar"></a>進度列
 

@@ -4,12 +4,12 @@ ms.assetid: d841af62-41b0-4b80-960b-4630b9a7210c
 title: " (Direct3D 9) 的材質座標格式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c95eada1cf21f0a4db38589794b08b88023e72d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6c48ec28b9c99357fe8825f5ff79da3c8869719389c4a4bc4874c5740fc71f42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519881"
 ---
 # <a name="texture-coordinate-formats-direct3d-9"></a> (Direct3D 9) 的材質座標格式
 

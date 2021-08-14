@@ -4,16 +4,16 @@ ms.assetid: 7963805e-e279-42cf-ba95-f81a7de8e68e
 title: 瞭解語言資源元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e03c9294eaf6e50de024b866372093a0359fc79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8feb10d14edbf4aba59b912ae1945d5e87ec32ef684f0b1f5530f1770ba70053
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462380"
 ---
 # <a name="understanding-language-resource-components"></a>瞭解語言資源元件
 
-語言資源是由斷詞工具和字幹分析器所組成，可將索引建立和查詢功能延伸至新的語言和地區設定。 建立和查詢索引期間都會使用斷詞工具。 字幹分析器僅用於查詢。 Windows Search 使用語言資源 Dll 來系結至特定語言地區設定的 [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker) 和 [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer) 執行。
+語言資源是由斷詞工具和字幹分析器所組成，可將索引建立和查詢功能延伸至新的語言和地區設定。 建立和查詢索引期間都會使用斷詞工具。 字幹分析器僅用於查詢。 Windows搜尋會使用語言資源 Dll 來系結至特定語言地區設定的 [**IWordBreaker**](/windows/desktop/api/Indexsrv/nn-indexsrv-iwordbreaker)和 [**IStemmer**](/windows/desktop/api/Indexsrv/nn-indexsrv-istemmer)執行。
 
 本主題的組織方式如下：
 
@@ -26,7 +26,7 @@ ms.locfileid: "104511076"
 
 ## <a name="about-language-resources"></a>關於語言資源
 
-Windows Search 使用篩選 ([**IFilter**](/windows/win32/api/filter/nn-filter-ifilter) 介面的執行) 和 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter) 以原生格式存取檔。 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)元件會從檔中解壓縮文字內容、屬性和格式。 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)會識別其正在篩選之檔的地區設定。 索引元件會針對該地區設定叫用適當的斷詞工具。 如果沒有可用的，則索引元件會叫用中性斷詞工具。 斷詞工具會從 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)接收，此為斷詞工具所剖析的 Unicode 字元輸入資料流程，以產生個別的單字和片語。 斷詞工具也會將日期和時間格式標準化。 索引子會將字組轉換成全部大寫字母，以正規化斷詞工具所產生的單字。 索引子會將大寫單字儲存至全文檢索索引，但針對該地區設定所識別的非搜尋字除外。
+Windows搜尋會使用篩選 ([**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)介面) 和 [**ILoadFilter**](/windows/desktop/api/filtereg/nn-filtereg-iloadfilter)的執行，以原生格式存取檔。 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)元件會從檔中解壓縮文字內容、屬性和格式。 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)會識別其正在篩選之檔的地區設定。 索引元件會針對該地區設定叫用適當的斷詞工具。 如果沒有可用的，則索引元件會叫用中性斷詞工具。 斷詞工具會從 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)接收，此為斷詞工具所剖析的 Unicode 字元輸入資料流程，以產生個別的單字和片語。 斷詞工具也會將日期和時間格式標準化。 索引子會將字組轉換成全部大寫字母，以正規化斷詞工具所產生的單字。 索引子會將大寫單字儲存至全文檢索索引，但針對該地區設定所識別的非搜尋字除外。
 
 下表列出「圖1說明在建立索引時，Windows Search 語言資源的角色」一詞的動作和對應的結果。
 
@@ -36,7 +36,7 @@ Windows Search 使用篩選 ([**IFilter**](/windows/win32/api/filter/nn-filter-i
 |-------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | 原始文字           | [圖 1] 說明在建立索引的過程中 Windows Search 語言資源的角色。                    |
 | 篩選               | [圖 1] 說明在建立索引的過程中 Windows Search 語言資源的角色。                    |
-| 斷詞           | 圖1、說明、role、of、language、resources、for、Windows、Search、期間、、索引、建立、進程、EOS |
+| 斷詞           | 圖1、說明、language、resources、for、Windows、搜尋、期間、、索引、建立、進程、EOS |
 | 正規化           | 圖1、說明、角色、、語言、資源、視窗、搜尋、期間、索引、建立、進程           |
 | 移除非搜尋字      | 圖、說明、角色、語言、資源、WINDOWS、搜尋、期間、索引、建立、處理                            |
 | 儲存至全文檢索索引 | 圖、說明、角色、語言、資源、WINDOWS、搜尋、期間、索引、建立、處理                            |
@@ -72,7 +72,7 @@ Windows Search 使用篩選 ([**IFilter**](/windows/win32/api/filter/nn-filter-i
 
 ## <a name="stemming"></a>詞幹分析
 
-Windows Search 在查詢時獨佔套用字幹分析器，以針對 [FREETEXT](-search-sql-freetext.md) 和屬性查詢中的字詞產生額外的單字形式。 字幹分析器執行形態分析並套用語法規則，以產生文字的替代清單或屈折變化形式。 替代形式通常具有相同的詞幹或基底形式。 藉由為單字產生屈折變化表單，編制索引服務會傳回與查詢相關的統計查詢結果。 例如，「泳道」的全文檢索查詢會比對包含「泳道、泳道、游泳、游泳」、游泳、swam、swum」或「符合」、「符合」、「符合」、「符合」、「符合」、「符合」、「符合」、「符合」和「符合」這些條款組合的檔。
+Windows搜尋會在查詢時獨佔套用字幹分析器，以針對[FREETEXT](-search-sql-freetext.md)和屬性查詢中的字詞產生額外的單字形式。 字幹分析器執行形態分析並套用語法規則，以產生文字的替代清單或屈折變化形式。 替代形式通常具有相同的詞幹或基底形式。 藉由為單字產生屈折變化表單，編制索引服務會傳回與查詢相關的統計查詢結果。 例如，「泳道」的全文檢索查詢會比對包含「泳道、泳道、游泳、游泳」、游泳、swam、swum」或「符合」、「符合」、「符合」、「符合」、「符合」、「符合」、「符合」、「符合」和「符合」這些條款組合的檔。
 
 某些語言需要在索引時間和查詢時間產生屈折變化詞彙，以進行標準和變數 inflections。 在此情況下，詞幹分析會發生在斷詞工具元件中，最短詞幹分析在實際的字幹分析器中可正常運作。 例如，日文斷詞工具會在建立索引和查詢期間執行詞幹分析，以便讓查詢尋找不同的屈折變化形式的搜尋字詞。
 

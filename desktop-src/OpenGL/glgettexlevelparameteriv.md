@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfc0fa167eae842784e967538ff1539e0b43a6a2
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d3a52830d673516d38512c0763603a30bf66ad9a564d186c6988c0634027eb1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359764"
 ---
 # <a name="glgettexlevelparameteriv-function"></a>glGetTexLevelParameteriv 函式
 

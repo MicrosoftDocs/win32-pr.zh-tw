@@ -20,12 +20,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6f5b197a5c82e61e054f5875fad466cac808ec38
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c1429423ef5291aecf8a8b48fdc353eceb6c711e5e7b2ca89916ebaa814573d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118677456"
 ---
 # <a name="cim_storageerror-class"></a>CIM \_ StorageError 類別
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 833d3894a85342b0f26323ceed0f4fb3356c48ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a5b7ab11bbb2cfd402888f930d5bcf2afa08b7ba83f74252fb3e443fd9e9309a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503411"
 ---
 # <a name="wm_ctlcolordlg-message"></a>WM \_ CTLCOLORDLG 訊息
 
@@ -62,9 +62,9 @@ ms.locfileid: "103685571"
 
 線上程之間永遠不會傳送 **WM \_ CTLCOLORDLG** 訊息。 它只會在一個執行緒內傳送。
 
-請注意，會將 **WM \_ CTLCOLORDLG** 訊息傳送至對話方塊本身; 所有其他 **WM \_ CTLCOLOR \** _ 訊息都會傳送給控制項的擁有者。
+請注意，會將 **wm \_ CTLCOLORDLG** 訊息傳送至對話方塊本身; 所有其他的 **WM \_ CTLCOLOR \*** 訊息都會傳送給控制項的擁有者。
 
-如果對話方塊程式處理此訊息，則應該將所需的傳回值轉換為 _ *INT \_ PTR** 並直接傳回值。 如果對話方塊程式傳回 **FALSE**，則會執行預設訊息處理。 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga)函數所設定的 **DWL \_ MSGRESULT** 值會被忽略。
+如果對話方塊程式處理此訊息，則應該將所需的傳回值轉換成 **INT \_ PTR** 並直接傳回值。 如果對話方塊程式傳回 **FALSE**，則會執行預設訊息處理。 [**SetWindowLong**](/windows/desktop/api/winuser/nf-winuser-setwindowlonga)函數所設定的 **DWL \_ MSGRESULT** 值會被忽略。
 
 ## <a name="requirements"></a>規格需求
 
@@ -74,7 +74,7 @@ ms.locfileid: "103685571"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

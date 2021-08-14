@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 652007933669db4ed7977474858c7089ca0d577f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 12b9d89724751e778eb9545b6c743dbfbcf077b860a8d85c5ab9297680deb930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698232"
 ---
 # <a name="wmwmcollectiongroupid"></a>WM/WMCollectionGroupID
 
@@ -33,7 +33,7 @@ g \_ wszWMWMCollectionGroupID
 
 ## <a name="remarks"></a>備註
 
-使用三個值（ **wm/WMCollectionGroupID**、 **WM/WMCollectionID** 和 **WM/WMContentID**），以 Windows Media 技術來識別內容。 這些值會識別內容、其所屬的集合，以及集合所屬的群組。 當抓取內容的中繼資料時，會 Windows Media Player 填入上述三個值。 您可以讓您的應用程式記錄這些值，並使用它們來識別內容，但如果有的話，您就不應該變更它們。
+內容是藉由使用三個值 Windows 媒體技術來識別： **WM/WMCollectionGroupID**、 **WM/WMCollectionID** 和 **WM/WMContentID**。 這些值會識別內容、其所屬的集合，以及集合所屬的群組。 當抓取內容的中繼資料時，會 Windows Media Player 填入上述三個值。 您可以讓您的應用程式記錄這些值，並使用它們來識別內容，但如果有的話，您就不應該變更它們。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -42,9 +42,9 @@ g \_ wszWMWMCollectionGroupID
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

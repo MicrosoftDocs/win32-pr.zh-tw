@@ -3,18 +3,18 @@ title: 影片檔案的屬性
 description: 影片檔案的屬性
 ms.assetid: 4250ad27-075e-4daa-bc04-d24ddd2e8252
 keywords:
-- Windows Media Format SDK，屬性
+- Windows媒體格式 SDK，屬性
 - Advanced Systems Format (ASF) 、屬性
 - ASF (Advanced 系統格式) ，屬性
 - 屬性、影片檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd19791857d55be8017d291698a3297b395af550
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be249e28eea5370d0e29f7d744e0e2f7da4e4019db51d44b5f3fc774f1cbd6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118434607"
 ---
 # <a name="attributes-for-video-files"></a>影片檔案的屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "104371973"
 ## <a name="primary-attributes-for-video"></a>影片的主要屬性
 
 -   [**作者**](author.md)
--   [**標題**](title.md)
+-   [**Title**](title.md)
 -   [**WM/ContentDistributor**](wm-contentdistributor.md)
 -   如果有 (，則為 [**WM/DVDID**](wm-dvdid.md)否則，請使用 [**wm/WMCollectionID**](wm-wmcollectionid.md)、 [**wm/WMCollectionGroupID**](wm-wmcollectiongroupid.md)和 [**wm/WMContentID**](wm-wmcontentid.md)) 
 -   [**WM/內容類型**](wm-genre.md)
@@ -40,7 +40,7 @@ ms.locfileid: "104371973"
 ## <a name="secondary-attributes-for-video"></a>影片的次要屬性
 
 -   [**著作權**](copyright.md)
--   [**WM/編輯器**](wm-composer.md)
+-   [**WM/Composer**](wm-composer.md)
 -   [**WM/Director**](wm-director.md)
 -   [**WM/EncodingTime**](wm-encodingtime.md)
 -   [**WM/語言**](wm-language.md)
@@ -64,7 +64,7 @@ ms.locfileid: "104371973"
 -   [**WM/PartOfSet**](wm-partofset.md)
 -   [**WM/圖片**](wmpicture.md)
 -   [**WM/PromotionURL**](wm-promotionurl.md)
--   [**WM/發行者**](wm-publisher.md)
+-   [**WM/Publisher**](wm-publisher.md)
 -   [**WM/子標題**](wm-subtitle.md)
 -   [**WM/UniqueFileIdentifier**](wm-uniquefileidentifier.md)
 -   [**WM/UserWebURL**](wm-userweburl.md)
@@ -79,9 +79,9 @@ ms.locfileid: "104371973"
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

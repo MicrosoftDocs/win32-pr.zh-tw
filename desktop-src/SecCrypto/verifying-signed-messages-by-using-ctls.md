@@ -4,12 +4,12 @@ ms.assetid: e45ea3ae-52bc-49d3-8144-f3becc254f53
 title: 使用 Ctl 驗證已簽署的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a660bcd7e17a168b25048e61684aabc2d3ef3124
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1624a132ed976800d1c8a8ab0dcd878f533f0d0b947879e87e3e8dc21ccff51a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896229"
 ---
 # <a name="verifying-signed-messages-by-using-ctls"></a>使用 Ctl 驗證已簽署的訊息
 

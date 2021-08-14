@@ -24,12 +24,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 647879b972c7cff2c086f656f76fa8decedb49a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44b957fbc1f8ffad78ec73d03a81fa45a8733a53e0e1d78fb31e48b9129a9e93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118394648"
 ---
 # <a name="image_load-class"></a>映射 \_ 載入類別
 
@@ -274,8 +274,8 @@ DCStart 和 DCEnd 事件會分別列舉追蹤開頭和結尾的所有載入的�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 
@@ -283,7 +283,7 @@ DCStart 和 DCEnd 事件會分別列舉追蹤開頭和結尾的所有載入的�
 
 <dl> <dt>
 
-[**Image**](image.md)
+[**映像**](image.md)
 </dt> <dt>
 
 [**影像 \_ V0**](image-v0.md)

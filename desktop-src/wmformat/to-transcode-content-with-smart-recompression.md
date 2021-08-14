@@ -3,10 +3,10 @@ title: 使用智慧型 Recompression 轉碼內容
 description: 使用智慧型 Recompression 轉碼內容
 ms.assetid: 02398462-b0a4-4a17-84e3-4c6f9f26639f
 keywords:
-- Windows Media Format SDK，轉碼內容
-- Windows Media Format SDK、smart recompression
-- Windows Media Format SDK、recompression
-- Windows Media 格式 SDK，Windows Media 音訊編解碼器
+- Windows媒體格式 SDK，轉碼內容
+- Windows媒體格式 SDK，智慧型 recompression
+- Windows媒體格式 SDK，recompression
+- Windows媒體格式 SDK，Windows Media 音訊編解碼器
 - Advanced Systems Format (ASF) 、轉碼內容
 - ASF (Advanced Systems Format) 、轉碼內容
 - Advanced Systems Format (ASF) 、smart recompression
@@ -18,22 +18,22 @@ keywords:
 - 轉碼內容
 - 智慧型 recompression
 - recompression
-- Windows Media 音訊編解碼器、轉碼內容
+- Windows媒體音訊編解碼器，轉碼內容
 - 編解碼器，Windows Media 音訊編解碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a1317989ea9384d4a9747d712af1ce5c61d484c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ee1cf363e196feca81ef9757f006b211758c2ff7fbdd1f50b5136992b394f8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699089"
 ---
 # <a name="to-transcode-content-with-smart-recompression"></a>使用智慧型 Recompression 轉碼內容
 
-您可以使用 Windows Media Format SDK，從一個位元速率轉碼內容到另一個位元速率。 一般來說，這牽涉到直接解碼內容，再將它編碼為所需的位元速率。 Windows Media 音訊9編解碼器支援智慧型 recompression，可讓轉碼比平常更高的品質。
+您可以使用 Windows 媒體格式 SDK，從一個位元速率轉碼內容到另一個位元速率。 一般來說，這牽涉到直接解碼內容，再將它編碼為所需的位元速率。 Windows Media 音訊9編解碼器支援智慧型 recompression，可讓轉碼比平常更高的品質。
 
-針對智慧型 recompression，原始音訊資料流程必須以 Windows Media 音訊編解碼器編碼。 所有版本的編解碼器都受到支援，但特製化音訊編解碼器 (Windows Media 音訊 9 Professional 和 Windows Media 音訊 9 Voice) 不會。 如果原始音訊使用 Windows Media 音訊9無失真編解碼器編碼，則不需要使用智慧型 recompression，因為原始編碼未遺失任何資訊。
+針對智慧型 recompression，原始音訊資料流程必須以 Windows Media 音訊編解碼器編碼。 所有版本的編解碼器都受到支援，但特製化音訊編解碼器 (Windows Media 音訊 9 Professional 和 Windows Media 音訊9語音) 並不支援。 如果原始音訊使用 Windows Media 音訊9無失真編解碼器編碼，則不需要使用智慧型 recompression，因為原始編碼未遺失任何資訊。
 
 若要使用智慧型 recompression，請執行下列步驟。
 
@@ -71,9 +71,9 @@ ms.locfileid: "104314292"
 [**IWMStreamConfig 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmstreamconfig)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

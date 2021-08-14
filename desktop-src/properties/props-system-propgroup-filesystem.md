@@ -4,18 +4,18 @@ ms.assetid: 7e3602aa-b04a-49ad-a0f8-7fd13841f2bb
 title: PropGroup 檔案系統
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a44f35d831a7c9e3abc900f8dd37df4cb2e64d27
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 27a8af3de831b2a3fbcec6524a3de00058b1eaf2f0d1b2893dea8e4f825b9392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118465669"
 ---
 # <a name="systempropgroupfilesystem"></a>PropGroup 檔案系統
 
 屬性清單中用來分隔音訊檔案與其他類型的屬性群組分隔符號。 請勿使用這個屬性來取得或設定值。 它僅供標記之用。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -3,7 +3,7 @@ title: 'MCIWNDM_CAN_PLAY 訊息 (Vfw .h) '
 description: MCIWNDM \_ 可以 \_ 播放訊息，判斷 MCI 裝置是否可以播放某個其他種類的資料檔或內容。 您可以使用 MCIWndCanPlay 宏明確地傳送此訊息。
 ms.assetid: dbb742b0-b8ab-4b80-96da-c4823a4747c9
 keywords:
-- MCIWNDM_CAN_PLAY message Windows 多媒體
+- MCIWNDM_CAN_PLAY 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 043a0fc15260f7448df8d009a6b468616244269d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 84d067b01dbce8aaab7c78ab24c3d11fc5d4a3a19b9bfdb663eb653ebc0c553c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106973303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374240"
 ---
 # <a name="mciwndm_can_play-message"></a>MCIWNDM \_ 可以 \_ 播放訊息
 

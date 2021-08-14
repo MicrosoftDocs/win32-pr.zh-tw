@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 6e79a012413b3b3d78a9c4617f01ca6cc01cf7e1
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 605962315e4eab2cdbd5beab264747d282d78ef7c6f44b3bbcbf2f249bac7548
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473487"
 ---
 # <a name="ibasicdevicediscoveredoncurrentnetwork-method"></a>IBasicDevice：:D iscoveredOnCurrentNetwork 方法
 

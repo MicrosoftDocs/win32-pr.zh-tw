@@ -4,19 +4,19 @@ ms.assetid: 1462bbef-ef32-4053-9930-5b4a0ab46b47
 title: 設定和啟動全域記錄器會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8692e1f7321acc163e48cda7e3323f3d24adc1c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36cc15ad9fdb5150a976b9d7bccfb6315649617271c5ece2a7c676fbdb9f6f93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118395493"
 ---
 # <a name="configuring-and-starting-the-global-logger-session"></a>設定和啟動全域記錄器會話
 
 全域記錄器事件追蹤會話會記錄在作業系統開機程式初期發生的事件。 在使用者登入之前，應用程式和設備磁碟機可以使用全域記錄器會話來捕捉追蹤。 請注意，某些設備磁碟機（例如磁片設備磁碟機）在全域記錄器會話開始時不會載入。
 
 > [!Note]  
-> 如果您要在 Windows Vista 上建立全域記錄器會話，您應該考慮改為建立自動記錄器 [會話](configuring-and-starting-an-autologger-session.md) 。
+> 如果您要在 Windows Vista 上建立全域記錄器會話，您應該考慮改為建立自動記錄器[會話](configuring-and-starting-an-autologger-session.md)。
 
  
 
@@ -67,7 +67,7 @@ HKEY_LOCAL_MACHINE
 <li>2 = 系統計時器</li>
 <li>3 = CPU 週期計數器</li>
 </ul>
-如需每種頻率類型的描述，請參閱<a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>的<strong>ClientCoNtext</strong>成員。<br/> 在 Windows Vista 和更新版本上，預設值為 1 (效能計數器值) 。 在 Windows Vista 之前，預設值為 2 (系統計時器) 。<br/></td>
+如需每種頻率類型的描述，請參閱<a href="wnode-header.md"><strong>WNODE_HEADER</strong></a>的<strong>ClientCoNtext</strong>成員。<br/> 預設值為 1 (效能計數器值) 在 Windows Vista 和更新版本上。 Windows Vista 之前，預設值為 2 (系統計時器) 。<br/></td>
 </tr>
 <tr class="even">
 <td><strong>EnableKernelFlags</strong></td>
@@ -87,7 +87,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>FileName</strong></td>
 <td><strong>REG_SZ</strong></td>
-<td>記錄檔的完整路徑。 這個檔案的路徑必須存在。 記錄檔是連續的記錄檔。 請注意，所有提供者將事件寫入全域記錄器會話的提供者都會將事件寫入此記錄檔。 路徑的限制為1024個字元。如果未指定 <strong>FileName</strong> ，則會將事件寫入至%SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl。 <strong>在 Windows Vista 之前：</strong> 預設檔案為%SystemRoot%\System32\LogFiles\WMI\Trace.log。<br/> <br/></td>
+<td>記錄檔的完整路徑。 這個檔案的路徑必須存在。 記錄檔是連續的記錄檔。 請注意，所有提供者將事件寫入全域記錄器會話的提供者都會將事件寫入此記錄檔。 路徑的限制為1024個字元。如果未指定 <strong>FileName</strong> ，則會將事件寫入至%SystemRoot%\System32\LogFiles\WMI\GlobalLogger.etl。 <strong>在 Windows Vista 之前：</strong>預設檔案為%SystemRoot%\System32\LogFiles\WMI\Trace.log。<br/> <br/></td>
 </tr>
 <tr class="even">
 <td><strong>FlushTimer</strong></td>
@@ -97,7 +97,7 @@ HKEY_LOCAL_MACHINE
 <tr class="odd">
 <td><strong>LogFileMode</strong></td>
 <td><strong>REG_DWORD</strong></td>
-<td>指定記錄會話選項。 如需值，請參閱 <a href="logging-mode-constants.md">記錄模式常數</a>。 Windows Vista 及更新版本支援此值。 <br/></td>
+<td>指定記錄會話選項。 如需值，請參閱 <a href="logging-mode-constants.md">記錄模式常數</a>。 Windows Vista 和更新版本支援此值。 <br/></td>
 </tr>
 <tr class="even">
 <td><strong>MaximumBuffers</strong></td>

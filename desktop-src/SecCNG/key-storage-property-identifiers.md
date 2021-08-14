@@ -1,17 +1,17 @@
 ---
 description: 用來識別索引鍵存放區屬性。
 ms.assetid: 407f0e42-07c8-4ec6-81c6-f8bde005adb0
-title: '金鑰儲存區屬性識別碼 (Ncrypt .h) '
+title: '索引鍵儲存體屬性識別碼 (Ncrypt .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 813a15ba106989cb558eba181bc893d75c6d1bf2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20b8fca27591837a555e4f75040ba16056c42e16ce488c0bb99f2d8f7de70bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907610"
 ---
-# <a name="key-storage-property-identifiers"></a>金鑰儲存區屬性識別碼
+# <a name="key-storage-property-identifiers"></a>索引鍵儲存體屬性識別碼
 
 以下是用來識別索引鍵儲存屬性的值。
 
@@ -95,7 +95,7 @@ L "SmartCardKeyCertificate"
 
 包含與金鑰相關聯之 x.509 憑證的 [*BLOB*](/windows/desktop/SecGloss/b-gly) 。
 
-**Windows server 2008 R2、windows 7、Windows server 2008 和 Windows Vista：** 包含 [*智慧卡*](/windows/desktop/SecGloss/s-gly)金鑰 [*憑證*](/windows/desktop/SecGloss/c-gly)的 [*BLOB*](/windows/desktop/SecGloss/b-gly) 。 Microsoft 軟體金鑰儲存提供者不支援此屬性。
+**Windows server 2008 R2、Windows 7、Windows Server 2008 和 Windows Vista：** 包含 [*智慧卡*](/windows/desktop/SecGloss/s-gly)金鑰 [*憑證*](/windows/desktop/SecGloss/c-gly)的 [*BLOB*](/windows/desktop/SecGloss/b-gly) 。 Microsoft 軟體金鑰儲存體提供者不支援此屬性。
 
 
 </dt> </dl> </dd> <dt>
@@ -559,8 +559,8 @@ L "HWND 控制碼"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Ncrypt。h</dt> </dl> |
 
 

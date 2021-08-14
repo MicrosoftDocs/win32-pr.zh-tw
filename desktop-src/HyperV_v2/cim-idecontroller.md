@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: ee7416fbd0d89b7db1f5af588fae70cde94d25c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b18920caf07659efc33a1ce989e6a77bc7f9dae69446e073b0f0661cd751c7f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118648543"
 ---
 # <a name="cim_idecontroller-class"></a>CIM \_ IDEController 類別
 

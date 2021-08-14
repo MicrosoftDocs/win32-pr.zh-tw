@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a228b61dbed22dc8d285e0fdc833de53b16e7be7
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: 2a40c78fddadde5d58186f9a1ebb01f4d021620862f9d3534e535842a848a2e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104373939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787557"
 ---
 # <a name="texm3x3tex---ps"></a>texm3x3tex-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104373939"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104373939"
 
 
 
- 
+ 
 
 此指令會當做三個指示的最後一個，表示3x3 矩陣乘法運算，後面接著紋理查閱。 3x3 矩陣是由第三個材質階段的材質座標和上述兩個材質階段所組成。 產生的三個元件向量 (u、v、w) 用來取樣第3階段中的材質。 所有指派給上述兩個材質階段的材質都會被忽略。 3x3 矩陣相乘通常適用于將一般向量定位至所呈現介面的正確正切空間。
 
@@ -116,9 +116,9 @@ mov r0, t3            // stage 3 output result
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

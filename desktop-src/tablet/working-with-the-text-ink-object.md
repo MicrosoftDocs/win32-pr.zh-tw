@@ -4,12 +4,12 @@ ms.assetid: 0202e91c-c7a0-4e7b-a1c6-a2f58c11c0be
 title: 使用文字筆墨物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 082323f7e67e76f7ae39c6b592a86f2be0945a86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 938d7e68795147913b64cad399f70ac6c1d2fdb06edc19e6d0c0b6c64add6422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449261"
 ---
 # <a name="working-with-the-text-ink-object"></a>使用文字筆墨物件
 
@@ -27,7 +27,7 @@ ms.locfileid: "106972445"
 -   當應用程式將 [InkStrokes](/previous-versions/windows/desktop/legacy/ms703293(v=vs.85)) 或 [InkEdit](inkedit-control-reference.md) 物件複製到剪貼簿，並設定 [**INKCLIPBOARDFORMATS 列舉**](/windows/desktop/api/msinkaut/ne-msinkaut-inkclipboardformats) 格式時，ole 物件剪貼簿位置會包含文字筆墨 OLE 物件。
 -   Tablet PC 輸入面板可以產生文字筆墨物件。
 
-例如，您的應用程式可以辨識手寫，並將辨識結果新增至筆劃。 然後，如果您將筆劃複製並貼入 Microsoft Word 作為文字筆墨物件，Word 2003 和更新版本中就會提供該單字的替代項。
+例如，您的應用程式可以辨識手寫，並將辨識結果新增至筆劃。 然後，如果您將筆劃複製並貼上做為文字筆墨物件 Microsoft Word，word 2003 和更新版本中就會提供該單字的替代項。
 
 為了成功包含文字筆墨物件，應用程式必須針對内嵌物件執行 OLE 容器支援。 然後，若要讓容器完全支援文字筆墨，您必須建立：
 

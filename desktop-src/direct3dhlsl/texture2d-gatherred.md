@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 176494f0b99b62132a6148462a423d0704840633
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 1affbbee9de7985599dfc1299531985376ac0b9f5576f7a349b9ba537003a3a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104195706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505636"
 ---
 # <a name="texture2dgatherred-methods"></a>Texture2D：： GatherRed 方法
 

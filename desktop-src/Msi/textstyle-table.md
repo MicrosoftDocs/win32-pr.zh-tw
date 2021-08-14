@@ -4,12 +4,12 @@ ms.assetid: a351e67a-8f51-41bf-9202-56488b870fa7
 title: 樣式表單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9993362228e37f01c0e53683755f7bd1310eaa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6f8a5b3141314722bc5b92e34ea214fa8e1505babfbc8b7f942899e6c6779c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623486"
 ---
 # <a name="textstyle-table"></a>樣式表單
 

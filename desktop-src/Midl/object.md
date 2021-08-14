@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cb2c21246282646dcf6ae488411316e07ab62b2f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 2ddf51e020cdcd5d13dde6938a58ea5e51f22d9dd03f8632312b3d6b8453a9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383506"
 ---
 # <a name="object-attribute"></a>object 屬性
 
@@ -143,12 +143,12 @@ interface ILocalInterface : ISomeOldCOMInterface
 [**著**](typedef.md)
 </dt> <dt>
 
-[**uuid**](uuid.md)
+[**Uuid**](uuid.md)
 </dt> <dt>
 
 [**版本**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

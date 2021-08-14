@@ -4,12 +4,12 @@ ms.assetid: d6f16ff2-5a66-48a3-82c4-523faaafa6ae
 title: " (Direct3D 9) 的置換對應"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b687583b0109223d8c2dac807425e235ddf280e4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 87b559c2c4758b773c48c0b556b6d61af54549f1b30e5c2693a24c4c27856c13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118523760"
 ---
 # <a name="displacement-mapping-direct3d-9"></a> (Direct3D 9) 的置換對應
 

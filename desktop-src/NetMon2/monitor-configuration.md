@@ -4,12 +4,12 @@ ms.assetid: 7add5984-5bef-431c-a026-06575514397c
 title: '監視 Configuration (網路監視器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b89125450fc71bba21250a66f5c5458317138899
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93b55765774df3be2722c448a1af264162bcd9cdc51ac958cc555bf820d646b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943513"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364696"
 ---
 # <a name="monitor-configuration-network-monitor"></a>監視 Configuration (網路監視器) 
 

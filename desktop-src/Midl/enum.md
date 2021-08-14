@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 681244c9d852c25d8e63ad389b03f16e6db8148c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 1519e6208e8bccae0288d6e0b31d7897faba4e1c9c7add8987f5dd493f4f5f3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312219"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384487"
 ---
 # <a name="enum-attribute"></a>enum 屬性
 
@@ -98,9 +98,9 @@ typedef enum {Clemens=21, Palmer=22, Ryan=34} pitchers;
 [**v1 \_ 列舉**](v1-enum.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

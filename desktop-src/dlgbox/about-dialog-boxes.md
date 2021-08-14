@@ -16,12 +16,12 @@ keywords:
 - 訊息方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45dd78713c3b87e54e8a992ea9415577c522fc9e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7855ba67a04558e0df8ffad0f63d2bd78856f84829bf029fbf811a4b89eb4b09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118786806"
 ---
 # <a name="about-dialog-boxes"></a>關於對話方塊
 
@@ -125,7 +125,7 @@ ms.locfileid: "104023856"
 > [!Note]  
 > 有關如何建立範本資源並將其新增至應用程式可執行檔的說明，已超出此總覽的範圍。 如需建立範本資源並將其新增至可執行檔的詳細資訊，請參閱應用程式開發工具所提供的檔。
 
- 
+ 
 
 若要建立不使用範本資源的對話方塊，您必須在記憶體中建立範本，並將它傳遞至 [**CreateDialogIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirectparama) 或 [**DialogBoxIndirectParam**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirectparama) 函式，或傳遞至 [**CreateDialogIndirect**](/windows/desktop/api/Winuser/nf-winuser-createdialogindirecta) 或 [**DialogBoxIndirect**](/windows/desktop/api/Winuser/nf-winuser-dialogboxindirecta) 宏。
 
@@ -194,7 +194,7 @@ ms.locfileid: "104023856"
 
 當對話方塊具有 **ds \_ SETFONT** 或 **ds \_ SHELLFONT** 樣式時，系統會將 [**WM \_ SETFONT**](/windows/desktop/winmsg/wm-setfont) 訊息傳送至對話方塊程式，並在建立控制項時將其傳送至每個控制項。 對話方塊程式會負責儲存以 **WM \_ SETFONT** 訊息傳遞的字型控制碼，並在每次將文字寫入視窗時，選取顯示裝置內容的控點。 預先定義的控制項預設會這樣做。
 
-不同版本的 Windows 可能會有不同的系統字型。 若要讓您的應用程式使用系統字型（不論其執行所在的系統），請使用 **DS \_ SHELLFONT** 搭配字型 MS Shell Dlg，並使用 [DIALOGEX 資源](../menurc/dialogex-resource.md) ，而不是 [對話方塊資源](../menurc/dialog-resource.md)。 系統會對應此字樣，讓您的對話方塊使用 Tahoma 字型。 請注意，如果字樣不是 MS Shell Dlg， **DS \_ SHELLFONT** 不會有任何作用。
+不同 Windows 版本之間的系統字型可能會有所不同。 若要讓您的應用程式使用系統字型（不論其執行所在的系統），請使用 **DS \_ SHELLFONT** 搭配字型 MS Shell Dlg，並使用 [DIALOGEX 資源](../menurc/dialogex-resource.md) ，而不是 [對話方塊資源](../menurc/dialog-resource.md)。 系統會對應此字樣，讓您的對話方塊使用 Tahoma 字型。 請注意，如果字樣不是 MS Shell Dlg， **DS \_ SHELLFONT** 不會有任何作用。
 
 ### <a name="templates-in-memory"></a>記憶體中的範本
 
@@ -236,6 +236,6 @@ ms.locfileid: "104023856"
 
 在擴充的範本中，當系統傳送 [**WM \_**](../shell/wm-help.md) 說明訊息時，控制項定義也會指定控制項的說明內容識別碼。
 
- 
+ 
 
- 
+ 

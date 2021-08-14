@@ -4,12 +4,12 @@ description: 本節包含 Newdev 標頭的參考主題。
 ms.assetid: 74195139-6899-4324-af77-d830c2642031
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88efc393fdf192d55c8c5eeef513b56f2711996b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6816bbf2dd912a6cf25401056ecfe93bed53302abdc91f2f1fb7b085101b997b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118541250"
 ---
 # <a name="newdevh"></a>Newdev。h
 

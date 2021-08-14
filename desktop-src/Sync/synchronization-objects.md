@@ -4,12 +4,12 @@ ms.assetid: 11558ae9-1056-48bf-96f5-94a051df41c3
 title: 同步處理物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 299cbd6225b3cc7629378f5fe500fc36ccbe8e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dfd011663e13d8d6992355d99cc643e2f7243f8385ae75f9274367bfc43fe5f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885906"
 ---
 # <a name="synchronization-objects"></a>同步處理物件
 
@@ -19,7 +19,7 @@ ms.locfileid: "104513480"
 
 
 
-| 類型           | Description                                                                                                                                                                                                      |
+| 類型           | 描述                                                                                                                                                                                                      |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 事件          | 告知一個以上的等候中執行緒已發生事件。 如需詳細資訊，請參閱 [事件物件](event-objects.md)。                                                                                   |
 | Mutex          | 一次只能有一個執行緒擁有，可讓執行緒協調對共用資源的互斥存取。 如需詳細資訊，請參閱 [Mutex 物件](mutex-objects.md)。                          |

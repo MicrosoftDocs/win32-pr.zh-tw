@@ -4,12 +4,12 @@ ms.assetid: 352d2a0c-8275-4fe4-b523-4c74126ffadf
 title: 從數學輸入控制項接收輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 830c8f57bb7b27c305928cf68b658dcc37ede5d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 50325b8e9980907b91f4cd6400ed6cfd0ef3f04367a2bc753e5d4065e189bc44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449328"
 ---
 # <a name="receiving-input-from-the-math-input-control"></a>從數學輸入控制項接收輸入
 
