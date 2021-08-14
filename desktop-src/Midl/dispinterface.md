@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f7cc2b6087b53ff81aa7270a209266dd8248884
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3df65adc3bfa486907df0465f2fca5a1427f6d0b1eb89b5c02e6f199be71e9e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384665"
 ---
 # <a name="dispinterface-attribute"></a>dispinterface 屬性
 
@@ -74,13 +74,13 @@ dispinterface dispinterface-name
 
  (語法 1) 清單，其中包含在 **介面介面** 中每個方法和屬性的函式原型。 任何數目的函式定義都可以出現在 *methlist* 中。 *Methlist* 中的函式具有下列形式：
 
-**\[ 屬性 \]** *returntype methname 類型 paramname ***(*** 參數 * * * ) ;**
+**\[**_屬性_ *_\]_**returntype methname 類型 paramname ***(**_參數_* _) ;_*
 
 在 **介面介面** 中的方法上接受下列屬性： **\[ helpstring \]**、 **\[ helpcoNtext \]**、 **\[** [**propget**](propget.md) **\]** 、 **\[** [**propput**](propput.md) **\]** 、 **\[** [**propputref**](propputref.md) **\]** 、 **\[** [**string**](string.md) **\]** 和 **\[** [**vararg**](vararg.md) **\]** 。 如果指定了 **\[ \] vararg** ，則最後一個參數必須是 **VARIANT** 類型的安全陣列。
 
 參數清單是以逗號分隔的清單，其中的每個元素都具有下列格式：
 
-**\[***屬性***\]**
+**\[**_屬性_*_\]_*
 
 *類型* 可以是任何宣告的或內建類型，或任何類型的指標。 參數上的屬性為：
 
@@ -134,7 +134,7 @@ dispinterface helloPro
 > [!Note]  
 > Mktyplib.exe 工具已淘汰。 請改用 MIDL 編譯器。
 
- 
+ 
 
 分派介面的屬性和方法不是介面介面之 VTBL 的一部分。 因此， [CreateStdDispatch](/windows/win32/api/oleauto/nf-oleauto-createstddispatch) 和 [DispInvoke](/windows/win32/api/oleauto/nf-oleauto-dispinvoke) 不能用來執行 IDispatch：： Invoke。 當應用程式需要透過 Automation 公開現有的非 VTBL 函式時，就會使用此介面。 這些應用程式可以藉由檢查 dispidMember 參數並直接呼叫對應的函式，來執行 IDispatch：： Invoke。
 
@@ -217,7 +217,7 @@ dispinterface MyObject
 [**選**](optional.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**nonextensible**](nonextensible.md)
@@ -238,10 +238,10 @@ dispinterface MyObject
 [**限制**](restricted.md)
 </dt> <dt>
 
-[**字串**](string.md)
+[**string**](string.md)
 </dt> <dt>
 
-[**uuid**](uuid.md)
+[**Uuid**](uuid.md)
 </dt> <dt>
 
 [**vararg**](vararg.md)
@@ -250,6 +250,6 @@ dispinterface MyObject
 [**版本**](version.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

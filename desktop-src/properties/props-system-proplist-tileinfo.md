@@ -4,18 +4,18 @@ ms.assetid: f9e7213d-5607-4f85-bb56-34ecf546380e
 title: PropList. TileInfo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12fbc109c886a9d4e463b957368b118695e35c9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7785d7ccf62893215e0b18a8df04ac98fd05c789b07f6c8f67bed0d315596729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228155"
 ---
 # <a name="systemproplisttileinfo"></a>PropList. TileInfo
 
 要在 listview 的磚中顯示的屬性清單。 在 "TileInfo" 的 regvalue 下註冊。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

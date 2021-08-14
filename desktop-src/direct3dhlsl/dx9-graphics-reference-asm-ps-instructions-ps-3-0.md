@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d43f17ef765feb5899c7dd4537a1770155b4aa59
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e44d13bfc726830a8c3fb770b34d5563fde2684f5c8bdf3fea54dec2312af4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119982858"
 ---
 # <a name="ps_3_0-instructions"></a>ps \_ 3 \_ 0 指示
 
@@ -26,7 +26,7 @@ ms.locfileid: "103840864"
 -   設定-圖元著色器必須有版本指令，而且必須是第一個指令。
 -   算術-這些指示可提供著色器中的數學運算。
 -   材質-這些指示可用來載入和取樣材質資料，以及修改材質座標。
--   流程式控制制-這些指示可提供靜態和動態流量控制給執行指示。
+-   Flow 控制項-這些指示會提供靜態和動態流量控制給執行指示。
 -   新的-這些指示是此版本的新指示。
 
 ## <a name="instruction-set"></a>指令集
@@ -98,7 +98,7 @@ ms.locfileid: "103840864"
 
 
 
- 
+ 
 
 注意：
 
@@ -113,9 +113,9 @@ ms.locfileid: "103840864"
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

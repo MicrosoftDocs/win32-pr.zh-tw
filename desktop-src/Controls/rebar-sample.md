@@ -4,12 +4,12 @@ ms.assetid: f26c0819-523d-42a5-be2f-3cd75748b4a6
 description: 深入瞭解： Rebar 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f72b58a66c22b0ef8cc60d97c0965a8ae29a20fc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6d921d3b2e3966e60be0d90327dff625454dcb36db66a61f3a56a1c4f3116376
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169098"
 ---
 # <a name="rebar-sample"></a>Rebar 範例
 
@@ -32,7 +32,7 @@ Rebar 範例顯示如何在應用程式中執行簡單的 Rebar 通用控制項�
 | 產品          | 版本                               |
 |------------------|---------------------------------------|
 | DLL              | comctl32.dll 版本4.71             |
-| 作業系統 | 具有 Internet Explorer 4.0 的 Windows 95 |
+| 作業系統 | Internet Explorer 4.0 的 Windows 95 |
 
 
 
@@ -40,7 +40,7 @@ Rebar 範例顯示如何在應用程式中執行簡單的 Rebar 通用控制項�
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-Rebar 範例會安裝為 [Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx) 的一部分，並可在下列位置中取得。
+Rebar 範例會安裝為[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)的一部分，並可在下列位置中取得。
 
 
 

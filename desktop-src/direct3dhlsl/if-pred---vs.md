@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 0a1a36bb0c6c68f5132757719bbc7e37fbc71501
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: ad9aba5c9f18b88577a456764a71cc27637d24856cdafa95d811344034d514f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104313635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511904"
 ---
 # <a name="if-pred---vs"></a>如果 pred-vs
 
@@ -29,7 +29,7 @@ If pred 的開頭-vs .。。[else-vs](else---vs.md).。。[endif-vs](endif---vs.
 
 
 
- 
+ 
 
 其中：
 
@@ -47,7 +47,7 @@ If pred 的開頭-vs .。。[else-vs](else---vs.md).。。[endif-vs](endif---vs.
 
 
 
- 
+ 
 
 此指令是用來根據述詞登錄的通道，略過程式碼區塊。 每個 if \_ pred 區塊都必須以 else 或 endif 指令結尾。
 
@@ -64,9 +64,9 @@ If pred 的開頭-vs .。。[else-vs](else---vs.md).。。[endif-vs](endif---vs.
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

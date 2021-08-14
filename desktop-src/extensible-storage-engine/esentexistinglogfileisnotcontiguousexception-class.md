@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bacebf1ffadc1eb76208eb4bffdedaa7aa00e973
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c9179f3ee34e93ac84785f6232968ab82ec172578e08a4c90dcafc1fa29f40f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118496817"
 ---
 # <a name="esentexistinglogfileisnotcontiguousexception-class"></a>EsentExistingLogFileIsNotContiguousException 類別
 

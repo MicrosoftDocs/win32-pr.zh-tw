@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 12b6872281164ce3bb4e32640047236efda37c38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 05f6847151abac393e73d3c4bdf7363239a4730f6397d32e32938453a9491e71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499658"
 ---
 # <a name="xmshortn2-constructors"></a>XMSHORTN2 函式
 

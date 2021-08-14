@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 標準取用者類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a5033077f3dabf90d3e935b2dfec9fad892f630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f89463a459adb3dd800f77564002366c7500a2abbaa6010444ba7890802d5a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315275"
 ---
 # <a name="standard-consumer-classes"></a>標準取用者類別
 

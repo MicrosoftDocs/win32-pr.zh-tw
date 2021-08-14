@@ -4,12 +4,12 @@ ms.assetid: 5a54183b-3e7c-41db-b225-2bf399c17629
 title: SubjectDistance Proxy
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65616eea0c1e6923cea774ca9e52be13617af93e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d143d2fc2986f58e1ce5a47f4d841d2f015e4b1e7cfc0763465278f330c3c76b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204636"
 ---
 # <a name="systemphotosubjectdistance-proxy"></a>SubjectDistance Proxy
 

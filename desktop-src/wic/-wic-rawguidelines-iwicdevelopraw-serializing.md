@@ -1,17 +1,17 @@
 ---
-description: 序列化 IWICDevelopRaw 設定的實施指導方針
+description: 序列化 IWICDevelopRaw 設定的實指導方針
 ms.assetid: 4ecff5cc-24f3-4b89-b681-85c867b053e7
-title: 序列化 IWICDevelopRaw 設定的實施指導方針
+title: 序列化 IWICDevelopRaw 設定的實指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48cdc78f68e6d63ee7870b9296ae4cfa4f85547a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 119b6377fc8b75aa9763e8141e17ef79832a2aef5f010c2783a412cef0133788
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709828"
 ---
-# <a name="implementation-guidelines-for-serializing-iwicdevelopraw-settings"></a>序列化 IWICDevelopRaw 設定的實施指導方針
+# <a name="implementation-guidelines-for-serializing-iwicdevelopraw-settings"></a>序列化 IWICDevelopRaw 設定的實指導方針
 
 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)介面會公開設定，讓應用程式用來修改原始影像的處理。 這些設定應該能夠序列化，以便跨會話保存。 雖然這可以透過數種方式來完成，但建議您以與其他中繼資料一致的方式來編碼此資料。
 
@@ -49,7 +49,7 @@ ms.locfileid: "103694171"
     -   設定攝影機設定，類似于自動設定的行為。 如果影像是以手動設定為快照，並允許使用者覆寫手動設定，這就很有用。
     -   不執行任何動作。 當選取 [自動] 時，並非所有控制項都需要設定，而且不會讓設定保持不變。
 
-當使用者針對所有一般編解碼器控制項調整（例如色彩和曝光）選取自動校正時，Windows Vista 影像中心和 Windows Live 影像中心編輯工具和其他編輯應用程式會使用 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw) 自動參數載入來取得最佳結果。
+當使用者針對所有一般編解碼器控制項調整（例如色彩和曝光）選取自動校正時，Windows Vista 影像中心和 Windows Live 影像中心編輯工具和其他編輯應用程式會使用 [**IWICDevelopRaw**](/windows/desktop/api/Wincodec/nn-wincodec-iwicdevelopraw)自動參數載入來取得最佳結果。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -58,7 +58,7 @@ ms.locfileid: "103694171"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

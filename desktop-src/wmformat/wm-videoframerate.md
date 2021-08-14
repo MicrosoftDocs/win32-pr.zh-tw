@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: aaf28ba8864199a2b0c94151ba6f45731feaa226
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 8d5b20b1d7598c32cc9dbb25b472688cd69de5b000fd1de7936babd93f391c85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698308"
 ---
 # <a name="wmvideoframerate"></a>WM/VideoFrameRate
 
@@ -38,9 +38,9 @@ g \_ wszWMVideoFrameRate
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

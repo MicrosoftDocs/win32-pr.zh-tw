@@ -6,12 +6,12 @@ keywords:
 - 工作排程器工作排程器，新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5245ab4e681af937924cfbd217095009d80d6a11
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3592cc5efd08afe4737e9af429d52fa41216b6c756a64faeaa45f6cc5c0774b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354780"
 ---
 # <a name="whats-new-in-task-scheduler"></a>工作排程器的新功能
 
@@ -66,7 +66,7 @@ Windows 7 中引進了下列工作排程器2.0 變更：
     -   引進了新的 ITaskSettings2 介面的兩個新工作設定。
 
         -   DisallowStartOnRemoteAppSession：如果是在 [遠端應用程式中，在遠端應用程式中進行 (整合，) ](/openspecs/windows_protocols/MS-WINPROTLP/df36f95e-6a6b-48d6-a3ae-35a17674f546) 會話，則新的 DisallowStartOnRemoteAppSession 設定可能會拒絕工作啟動。
-        -   UseUnifiedSchedulingEngine：使用 UseUnifiedSchedulingEngine 設定可為 Windows 工作和服務提供一致的行為，因為它是以統一的方式，由一般全系統排程引擎進行管理。 雖然建議使用整合引擎，但不支援某些工作排程器功能。 如果屬性的組合不允許在統一引擎下執行工作，則會拒絕這類的註冊。
+        -   UseUnifiedSchedulingEngine：使用 UseUnifiedSchedulingEngine 設定可為 Windows 的工作和服務提供一致的行為，因為它是以統一的方式，由通用的全系統排程引擎進行管理。 雖然建議使用整合引擎，但不支援某些工作排程器功能。 如果屬性的組合不允許在統一引擎下執行工作，則會拒絕這類的註冊。
         -   整合排程引擎不支援的工作功能包括：
 
             -   登入類型：
@@ -98,7 +98,7 @@ Windows 7 中引進了下列工作排程器2.0 變更：
 
 工作排程器 2.0 API 應該用於開發在 Windows Vista 上使用工作排程器服務的應用程式。 如需詳細資訊，請參閱 [工作排程器參考](task-scheduler-reference.md) 和 [使用工作排程器](using-the-task-scheduler.md)。
 
-## <a name="windows-2000-windows-xp-and-windows-server-2003"></a>Windows 2000、Windows XP 及 Windows Server 2003
+## <a name="windows-2000-windows-xp-and-windows-server-2003"></a>Windows 2000、Windows XP 和 Windows Server 2003
 
 無法使用工作排程器 2.0 API。 使用工作排程器1.0。
 

@@ -4,18 +4,18 @@ ms.assetid: 796206ab-d69c-4dd5-a408-2ecb5cde243f
 title: StreamNumber
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9186d17c23f3eb04c84ee746cf0a6c4b5391c9b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 677a0e8fb35a32422e8eefec3b32fe7ce1bed391c3deb16ce6be713b13ce9046
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227360"
 ---
 # <a name="systemvideostreamnumber"></a>StreamNumber
 
 指出所播放資料流程的序數。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

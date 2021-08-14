@@ -5,12 +5,12 @@ ms.assetid: d405c276-040b-4cde-aeb2-482a25e2867f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2714f3dbe7b23c8b7f04d4271018891960b87f76
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 213627facdd2dee9e4ba7cc698d2be5455424b4394d295448a07aeb52788dd42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988128"
 ---
 # <a name="session-to-session-activation-with-a-session-moniker"></a>使用會話標記的會話對會話啟用
 
@@ -34,7 +34,7 @@ ms.locfileid: "103682937"
 
     其中 *數位* 代表將啟動伺服器進程之會話的會話識別碼，而 *類別識別碼* 代表伺服器的類別識別碼。 請注意，會話識別碼是以10為底數的數位。
 
-    若為執行 Windows XP 或更新版本的電腦，使用下列語法將會導致 COM 將啟用傳送至目前作用中的實體主控台會話（不論其會話識別碼為何）：
+    對於執行 Windows XP 或更新版本的電腦，使用下列語法將會導致 COM 將啟用傳送至目前作用中的實體主控台會話（無論其會話識別碼為何）：
 
     ``` syntax
     "Session:Console!clsid:[class id]"
@@ -51,8 +51,8 @@ ms.locfileid: "103682937"
 > [!Note]  
 > 跨會話建立的進程具有環境區塊大小的上限。 這項限制約為 4 KB，但可能較大或較小，這取決於建立程式所需的其他資訊 (例如) 的新進程的檔案名、目錄和參數。
 
- 
+ 
 
- 
+ 
 
- 
+ 

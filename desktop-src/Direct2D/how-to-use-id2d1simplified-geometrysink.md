@@ -4,12 +4,12 @@ description: 顯示如何藉由擴充 ID2D1SimplifiedGeometrySink 介面來取�
 ms.assetid: c6777b11-6d4e-409e-9c30-da1e060c9aca
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ba3670eb8d0152cc1dae8fbcc164bd8a6167630
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8b9cd7e3f5e01b77c07e0082d3460b718a4363cf88288859b715369a94ca09bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003425"
 ---
 # <a name="how-to-retrieve-geometry-data-by-extending-id2d1simplifiedgeometrysink"></a>如何藉由擴充 ID2D1SimplifiedGeometrySink 來取出幾何資料
 
@@ -205,6 +205,6 @@ if(SUCCEEDED(hr))
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 44fe28db78980064d8f92c0e4ac5f0cd7fca085b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cad4a2118c494afd0aad094f216c8134fcea40cc63624be59a72db00aad37dc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973078"
 ---
 # <a name="esentindextuplestextbinarycolumnsonlyexception-class"></a>EsentIndexTuplesTextBinaryColumnsOnlyException 類別
 

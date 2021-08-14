@@ -4,12 +4,12 @@ description: 以下是 Microsoft 建議的一些最佳作法，可確保您的�
 ms.assetid: C7F5BB21-9D88-4F47-BC49-8DB850ACF69E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a498e9dbe3698a03f8d279000097b03272b8f5d9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b2060c26de15688ab0e59efd3c810d8823f68a4fca2db83c0bf709720ccd856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118211776"
 ---
 # <a name="how-we-can-ensure-compatibility-of-the-combined-ecosystem"></a>如何確保合併生態系統的相容性
 
@@ -26,9 +26,9 @@ ms.locfileid: "104372182"
 -   [非 WHQL 簽署驅動程式的核心檢查](kernel-checks-for-non-whql-signed-drivers.md)
 -   [具有 Credential Guard 的協力廠商安全性支援提供者](third-party-security-support-providers-with-credential-guard.md)
 
- 
+ 
 
- 
+ 
 
 
 

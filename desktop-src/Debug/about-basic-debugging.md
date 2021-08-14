@@ -4,12 +4,12 @@ ms.assetid: 3c9e186b-6844-4126-b035-a3541880e109
 title: 關於基本的調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: daa3e2889d860d747978f2e8866094b0f866910c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9d927deaa4120f52922e22fecc05c9cdf997eaf51355bb830a7ea1065985c593
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984508"
 ---
 # <a name="about-basic-debugging"></a>關於基本的調試
 

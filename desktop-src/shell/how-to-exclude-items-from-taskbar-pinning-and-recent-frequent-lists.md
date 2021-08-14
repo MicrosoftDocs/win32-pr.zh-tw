@@ -3,12 +3,12 @@ description: 應用程式、處理常式和 windows 可以選擇使其無法釘�
 title: 如何從工作列釘選和最近/頻繁清單中排除專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af7f32ad641832703804f94b8cc28f47ea9cabb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: e3adb60353836e436f4327837c30448c7628a435048cc2a41b0464d56341f410
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223562"
 ---
 # <a name="how-to-exclude-items-from-taskbar-pinning-and-recentfrequent-lists"></a>如何從工作列釘選和最近/頻繁清單中排除專案
 
@@ -63,7 +63,7 @@ ms.locfileid: "104973153"
 如果下列任何一個字串（不論大小寫）都包含在快捷方式名稱中，則不會可釘選程式，也不會顯示在最常使用的清單中 (不適用於 Windows 10) ：
 
 -   文件
--   Help
+-   說明
 -   安裝
 -   其他資訊
 -   自述

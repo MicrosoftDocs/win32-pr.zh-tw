@@ -3,7 +3,7 @@ title: SizeDefinitions 屬性
 description: 代表功能區控制項之自訂版面配置範本的容器。
 ms.assetid: 1f5fcffc-7f2e-4763-b0a7-4e8f46534da8
 keywords:
-- SizeDefinitions 屬性視窗功能區
+- 功能區. SizeDefinitions 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b8ffe5a3339b0f32e493a1f7ddc33789526695e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24f3109c7e9f709267310415b48238b24050c7531bc0f784290876ab47706d6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202254"
 ---
 # <a name="ribbonsizedefinitions-property"></a>SizeDefinitions 屬性
 
@@ -90,8 +90,8 @@ ms.locfileid: "104024678"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

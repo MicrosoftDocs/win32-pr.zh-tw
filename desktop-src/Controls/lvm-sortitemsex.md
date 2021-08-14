@@ -3,7 +3,7 @@ title: 'LVM_SORTITEMSEX 訊息 (Commctrl .h) '
 description: 使用應用程式定義的比較函式來排序清單視圖控制項的專案。 每個專案的索引都會變更，以反映新的序列。 您可以明確地傳送此訊息，或使用 ListView \_ SortItemsEx 宏來傳送。
 ms.assetid: eab2f6f5-68fd-4cb6-acf4-cb267ee40fdc
 keywords:
-- LVM_SORTITEMSEX message Windows 控制項
+- LVM_SORTITEMSEX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99e524b00cb5ff1260eb68e7d86e185e5ae60c75
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ef492ff11980e764b33942f54c0732a64e799a94dde0e3d872ef0cb7bfb66c0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170364"
 ---
 # <a name="lvm_sortitemsex-message"></a>LVM \_ SORTITEMSEX 訊息
 
@@ -70,8 +70,8 @@ int CALLBACK CompareFunc(LPARAM lParam1, LPARAM lParam2, LPARAM lParamSort);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

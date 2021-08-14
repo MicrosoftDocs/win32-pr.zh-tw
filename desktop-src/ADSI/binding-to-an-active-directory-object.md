@@ -7,16 +7,16 @@ keywords:
 - 系結至 Active Directory 物件 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 59992dbc88c00be6306dec24523ec4e030d4a516
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: bc788ed9eb124e1da6c21848f02393d46608f00dd3a9e779788fa54429922400
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429129"
 ---
 # <a name="binding-to-an-active-directory-object"></a>系結至 Active Directory 物件
 
-系結至 Active Directory 物件最常見的方式，就是在 ADSI 用戶端和 ADSI 提供者之間使用 **GetObject** 函數。 這也是顯示提供者元件接收和服務要求方式的最簡單方式。 ADSI API 函數 [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject) 或 Visual Basic 函式 **GetObject** 都會遵循相同的系結步驟。
+系結至 Active Directory 物件最常見的方式，就是在 ADSI 用戶端和 ADSI 提供者之間使用 **GetObject** 函數。 這也是顯示提供者元件接收和服務要求方式的最簡單方式。 ADSI API 函數 [**ADsGetObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsgetobject)或 Visual Basic 函式 **GetObject** 都會遵循相同的系結步驟。
 
 在這個範例中，假設 ADSI 用戶端是一個 ADSI 檢視器應用程式，它的使用者介面收到了 ADsPath "Sample://Seattle/Redmond/Shelly" (1) 。 下圖詳細說明按下流程箭號的事件順序。
 
@@ -44,6 +44,6 @@ ADSI server 會確認 ADsPath 中是否存在 ProgID （在此案例中為 "Samp
 
 範例提供者元件的設計，是為了讓作業系統的實際呼叫會以邏輯方式與提供者元件隔離，以建立可攜至多個作業系統 (RegDSAPI .cpp) 的軟體。
 
- 
+ 
 
- 
+ 

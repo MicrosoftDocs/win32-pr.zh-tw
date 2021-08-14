@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 資料查詢的 SELECT 語句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06905cfd9ef5e55022b3fc2275ed705a670a0ecc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44fec0526c5e5d47a74d6e165726222f9e521bd7102072e5a4b79e960f8dae19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315946"
 ---
 # <a name="select-statement-for-data-queries"></a>資料查詢的 SELECT 語句
 

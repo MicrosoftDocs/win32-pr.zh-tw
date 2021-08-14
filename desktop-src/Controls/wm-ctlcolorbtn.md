@@ -3,7 +3,7 @@ title: 'WM_CTLCOLORBTN 訊息 (Winuser .h) '
 description: 在 \_ 繪製按鈕之前，會將 WM CTLCOLORBTN 訊息傳送至按鈕的父視窗。 父視窗可以變更按鈕的文字和背景色彩。 不過，只有主控描繪的按鈕會回應父視窗處理此訊息。
 ms.assetid: fd2ab917-ffd6-4f71-9b1c-0ecdfe53ae8b
 keywords:
-- WM_CTLCOLORBTN message Windows 控制項
+- WM_CTLCOLORBTN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bfdaed4682cbd87bfd86d7829f7c828494ec46fb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c5689d7c76499f1ed180f76831af325c5e311bf06e052ea1446805c39ddf8642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103933905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407637"
 ---
 # <a name="wm_ctlcolorbtn-message"></a>WM \_ CTLCOLORBTN 訊息
 
@@ -75,9 +75,9 @@ WM_CTLCOLORBTN
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

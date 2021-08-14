@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 669c20503551b0a380372524b898559dff472f2a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee009e3f346c7e7a179a324ec68834999acd711934ab5c64a3cae1845372dbdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118211333"
 ---
 # <a name="remote-calls-to-the-sam-rpc-protocol-are-restricted-to-only-local-administrators"></a>SAM RPC 通訊協定的遠端呼叫僅限於本機系統管理員
 
@@ -26,9 +26,9 @@ SAM RPC 通訊協定受到限制。 這表示只有本機系統管理員群組�
 
 確定已將正確的使用者設定為電腦上的系統管理員。 用於存取檢查的 ACL 可透過群組原則來設定。
 
- 
+ 
 
- 
+ 
 
 
 

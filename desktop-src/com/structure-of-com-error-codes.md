@@ -4,12 +4,12 @@ description: COM 錯誤碼的結構
 ms.assetid: 97e68708-eb62-4481-af03-cf8b80304103
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb27143f50028592f6fe0aeb5cab9795dcd10d4a
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 65953582952ce076028ffcf6652e46356c4cf2afacdd088d546c2fdaafd18a33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104550565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104018"
 ---
 # <a name="structure-of-com-error-codes"></a>COM 錯誤碼的結構
 
@@ -34,7 +34,7 @@ R、C、N 和 r 位是保留的。
 | 設備 \_ Null<br/>     | 0<br/> | 適用于廣泛適用的常見狀態碼，例如 \_ [確定]。 <br/>                                                                                                                                                                                                                                                    |
 | 設備 \_ RPC<br/>      | 1<br/> | 適用于遠端程序呼叫所傳回的狀態碼。 <br/>                                                                                                                                                                                                                                                       |
 | 設備 \_ 存放區<br/>  | 3<br/> | 針對與結構化儲存相關的 [**IStorage**](/windows/desktop/api/objidl/nn-objidl-istorage) 或 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream) 方法呼叫所傳回的狀態碼。 其程式碼 (較低16位) 值的狀態碼是在 MS-DOS 錯誤碼的範圍內 (也就是說，小於 256) 與對應的 MS-DOS 錯誤具有相同的意義。 <br/> |
-| 設備 \_ WIN32<br/>    | 7<br/> | 用來提供一種方法，從 Windows API 中的函式以 **HRESULT** 的形式處理錯誤碼。 16位 OLE 中的錯誤碼也已變更為 [設備 \_ WIN32]。 <br/>                                                                                                 |
+| 設備 \_ WIN32<br/>    | 7<br/> | 用來提供一種方法，用來處理 Windows API 中的函式的錯誤碼，以做為 **HRESULT**。 16位 OLE 中的錯誤碼也已變更為 [設備 \_ WIN32]。 <br/>                                                                                                 |
 | 設備 \_ 視窗<br/>  | 8<br/> | 用於 Microsoft 定義介面中的其他錯誤碼。<br/>                                                                                                                                                                                                                                            |
 
 
@@ -56,7 +56,7 @@ R、C、N 和 r 位是保留的。
 [COM 中的錯誤處理](error-handling-in-com.md)
 </dt> <dt>
 
-[Windows 通訊協定： HRESULT](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a)
+[Windows通訊協定： HRESULT](/openspecs/windows_protocols/ms-erref/0642cb2f-2075-4469-918c-4441e69c548a)
 </dt> </dl>
 
  

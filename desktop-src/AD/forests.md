@@ -7,12 +7,12 @@ keywords:
 - 樹系 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc84fca35ce90b20582bd62a675e6cf8d0285f7e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 74ccccbce1c660c3f1e185e75971aa71d613c2db012ce42979cfaee7cd9c2b4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189200"
 ---
 # <a name="forests"></a>樹系
 
@@ -22,6 +22,6 @@ ms.locfileid: "103933068"
 
 ![非連續命名空間的樹系](images/forests.png)
 
- 
+ 
 
- 
+ 

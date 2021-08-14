@@ -28,12 +28,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1c3faddac915f602104d7e5dc4e9b6bc7d6944
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 164c5ebe672a52bb399727940e5e51b98904f7db322cc362425dabda25f547a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186073"
 ---
 # <a name="msad_replpendingop-class"></a>MSAD \_ ReplPendingOp 類別
 

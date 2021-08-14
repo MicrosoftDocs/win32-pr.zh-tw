@@ -8,16 +8,16 @@ keywords:
 - 物件 AD，擴充目錄物件的使用者介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b8d635132a26e80a63fddb35f779211308779f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 459dea32a77b2ced84a9eb85956cea895cf5044138480b8568f0343eac8ff28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189519"
 ---
 # <a name="extending-the-user-interface-for-directory-objects"></a>擴充目錄物件的消費者介面
 
-使用 Microsoft Windows 2000 和更新版本時，可以使用 Microsoft Management Console (MMC) 嵌入式管理單元（例如 Active Directory 消費者和電腦嵌入式管理單元）來管理 Active Directory Domain Services。 此外，Windows 2000 shell 還包含使用者介面， (Ui) 尋找位於目錄中的物件，以及讀取和寫入屬性。 本節說明如何在 Windows shell 中擴充用來查看和管理 Active Directory Domain Services 物件的 UI，並 Active Directory 系統管理嵌入式管理單元。本節也涵蓋將 UI 延伸模組部署到使用者的桌面時所需的內容。
+使用 Microsoft Windows 2000 和更新版本時，可以使用 Microsoft Management Console (MMC) 嵌入式管理單元（例如 Active Directory 消費者和電腦嵌入式管理單元）來管理 Active Directory Domain Services。 此外，Windows 2000 shell 還包含使用者介面， (ui) 尋找位於目錄中的物件，以及讀取和寫入屬性。 本節說明如何在 Windows shell 和 Active Directory 系統管理嵌入式管理單元中，擴充用來查看和管理 Active Directory Domain Services 物件的 UI。本節也涵蓋將 UI 延伸模組部署到使用者的桌面時所需的內容。
 
 具體而言，本節將討論下列各項：
 
@@ -37,9 +37,9 @@ ms.locfileid: "103671280"
 -   [應用程式應該如何使用顯示規範](how-applications-should-use-display-specifiers.md)
 -   [Active Directory 擴充功能的偵錯工具](debugging-an-active-directory-extension.md)
 
- 
+ 
 
- 
+ 
 
 
 

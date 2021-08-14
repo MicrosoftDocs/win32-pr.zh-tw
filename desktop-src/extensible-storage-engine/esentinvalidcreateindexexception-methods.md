@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101910
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: e7cb08816ee640db2ddeb0064bec85031b607ac2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6505e31e77ec79a86a948992fb41494c25a6c5913270dde479361eff3fbc74c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195164"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972376"
 ---
 # <a name="esentinvalidcreateindexexception-methods"></a>EsentInvalidCreateIndexException 方法
 

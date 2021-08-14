@@ -4,12 +4,12 @@ ms.assetid: fac5104d-d0da-40b1-a4a6-00a34718d09f
 title: 'InkEdit： Stroke 事件 (筆跡) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d21abde9deb565f207a44ddd44b51681f1bfa6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a1114f26fa17690b1651321ef15ad11d8ec4d55f11f8e7e1754d6d694fdceda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717893"
 ---
 # <a name="inkeditstroke-event"></a>InkEdit。筆觸事件
 
@@ -67,7 +67,7 @@ HRESULT Stroke(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>筆跡 (也需要筆跡 \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkEd.dll</dt> </dl>                          |

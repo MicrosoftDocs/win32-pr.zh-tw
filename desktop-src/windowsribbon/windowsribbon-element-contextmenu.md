@@ -3,7 +3,7 @@ title: CoNtextMenu 元素
 description: 表示內容功能表控制項。
 ms.assetid: 08cc0514-0795-4e6b-b80c-33d920783032
 keywords:
-- CoNtextMenu 元素視窗功能區
+- CoNtextMenu 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,18 +13,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 916a031ed642a76fb22ecc58dbbe1ce29cbcd105
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 4fb061c08635cff46ca80d803089ebc01c48c19cdcc9136b1052c5a0ef2c3a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707431"
 ---
 # <a name="contextmenu-element"></a>CoNtextMenu 元素
 
 表示內容功能表控制項。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <ContextMenu

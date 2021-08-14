@@ -1,5 +1,5 @@
 ---
-description: Win32 登錄 \_&\# 8194;WMI 類別代表執行 Windows 的電腦系統上的系統登錄。
+description: Win32 登錄 \_&\# 8194;WMI 類別代表執行 Windows 之電腦系統上的系統登錄。
 ms.assetid: 4a6cd7d7-2845-434d-b024-d6dbb77371ea
 ms.tgt_platform: multiple
 title: Win32_Registry 類別
@@ -22,16 +22,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a1dc5fd89ee589aabda5da5f97632d86b39f6beb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 64611f35e08d9b816d990602b43c62330431e8afb65874cee284fac5778a898d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971573"
 ---
 # <a name="win32_registry-class"></a>Win32 登錄 \_ 類別
 
-**\_ Win32** 登錄  [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 的電腦系統上的系統登錄。
+**\_ Win32** 登錄  [WMI 類別](../wmisdk/retrieving-a-class.md)代表執行 Windows 之電腦系統上的系統登錄。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -180,7 +180,7 @@ Windows 登錄的名稱。 最大長度是 256 個字元。
 限定詞： [**MappingStrings**](../wmisdk/standard-qualifiers.md) ( "Win32Registry \| SYSTEM \\ \\ CurrentControlSet \\ \\ Control \| RegistrySizeLimit" ) ，[**單位**](../wmisdk/standard-qualifiers.md) ( "mb" ) 
 </dt> </dl>
 
-建議的 Windows 登錄大小。 這是唯一可以修改的登錄設定，並且會在系統下次開機時嘗試其提案。
+Windows 登錄的建議大小。 這是唯一可以修改的登錄設定，並且會在系統下次開機時嘗試其提案。
 
 </dd> <dt>
 

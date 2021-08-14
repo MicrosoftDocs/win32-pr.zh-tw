@@ -4,16 +4,16 @@ description: 提供適當的意見反應
 ms.assetid: e89b5f08-645e-4048-a153-4f01de8e82f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8002e79822e03c3f1044b61ec2b25ab4e807f71
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d872abbd1f21d0b3a5e30797258be62216b8e9b43adc544ac9bc71790c38ee43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020701"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475380"
 ---
 # <a name="provide-appropriate-feedback"></a>提供適當的意見反應
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 品質、」適當性和時間是在任何介面設計中提供意見反應時要考慮的重要因素。 當您併入互動式字元時，自然形式的意見反應的機會會增加，如同使用者預期意見反應符合適當的社交互動。 字元可以設計成除了說話音訊輸出之外，還能提供口頭和非口頭的對話提示。 使用手勢或臉部運算式來傳達其調式或意圖的相關資訊。 臉部在通訊方面特別重要，因此請一律考慮字元的臉部運算式。 請記住，沒有臉部運算式 *是* 臉部表情。
 
@@ -23,9 +23,9 @@ ms.locfileid: "104020701"
 
 字元的放置和移動應適合其在使用者目前工作中的參與。 如果目前的工作牽涉到字元，則可以將字元放在焦點點上。 當使用者未與該字元互動時，請將它移至一致的「待命」位置，或不會干擾工作或干擾使用者。 一律提供字元從某個位置到另一個位置的基本原理。 同樣地，當字元出現在與其決策與相同的畫面位置時，使用者也覺得最舒適。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,7 +3,7 @@ title: 'TB_SETBOUNDINGSIZE 訊息 (Commctrl .h) '
 description: 設定多欄工具列控制項的周框大小。
 ms.assetid: f406d9e3-1c40-4317-8cf1-51706f4c6adf
 keywords:
-- TB_SETBOUNDINGSIZE message Windows 控制項
+- TB_SETBOUNDINGSIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 419595da16148f7382da5053d3187e9cce9e00a0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7d409769e08e489d922dbdc2361779953555000dca784a6f7b977bbbcd3a5e65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167741"
 ---
 # <a name="tb_setboundingsize-message"></a>TB \_ SETBOUNDINGSIZE 訊息
 
@@ -63,8 +63,8 @@ ms.locfileid: "103843056"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 本節所包含的主題會提供支援 Windows 功能區架構檔�
 ms.assetid: 79d092c9-347b-4b8f-8ba4-a8f696ce6a85
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 44fa4ae8a10956bdea34b0145b1af34156ff0db0
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 0f8f93cc4b86dfbbee3028ae84a1fd6242553213bd7289e24bf33908e535b401
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437721"
 ---
 # <a name="windows-ribbon-framework-samples"></a>Windows功能區架構範例
 

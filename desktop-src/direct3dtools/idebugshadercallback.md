@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 676d76a0dbc199880badebc904a4eb66d2ad4d0e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: cf11c453ccf1d9431e5273ec909015de5916ff3faccc0c3d06d1cb8d29073870
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119981578"
 ---
 # <a name="span-idvspixengineidebugshadercallbackspanidebugshadercallback-interface"></a><span id="vspixengine.idebugshadercallback"></span>IDebugShaderCallback 介面
 

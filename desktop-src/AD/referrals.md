@@ -8,12 +8,12 @@ keywords:
 - Active Directory，推薦
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f63c87fb0248d85ab20191296f9659eb58e460f6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9ea6773157ce01c7b3d47f127697e5aefec02204f3894c10fe856295538334a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106965637"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184669"
 ---
 # <a name="referrals-ad-ds"></a> (AD DS) 的推薦
 
@@ -60,6 +60,6 @@ CN=ChildOfSomeObject,CN=SomeObject,OU=SomeOU,DC=Fabrikam,DC=Com
 
 如需詳細資訊和示範如何取得分割區容器之辨別名稱的程式碼範例，請參閱 [尋找分割區容器的範例程式碼](example-code-for-locating-the-partitions-container.md)。
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - 安全性描述項 AD，如何設定新的目錄物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7858d08944e93165b4a1a63ef7d845ee646dc648
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c5d2009367c4d5604d359913b0154320332cd4be58e50dc5f065c574f8ea5fdb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188109"
 ---
 # <a name="how-security-descriptors-are-set-on-new-directory-objects"></a>如何在新的目錄物件上設定安全描述項
 
@@ -21,7 +21,7 @@ ms.locfileid: "104462856"
 
 Active Directory Domain Services 使用下列規則來設定新物件的安全描述項中的 DACL：
 
--   如果您在建立物件時明確指定安全描述項，系統會將來自父物件的任何可繼承 Ace 合併為指定的 DACL，除非已在安全描述項的控制位中設定 **SE \_ DACL \_ 保護** 的位。
+-   如果您在建立物件時明確指定安全描述項，系統會將父物件的任何可繼承 ace 合併到指定的 dacl，除非在安全描述項的控制位中設定 **SE \_ DACL \_ 保護** 的位。
 -   如果您未指定安全描述項，系統會將父物件的任何可繼承 Ace，從物件類別的 **classSchema** 物件合併到預設 dacl，以建立物件的 dacl。
 -   如果架構沒有預設的 DACL，則物件的 DACL 是建立者之主要或模擬權杖中的預設 DACL。
 -   如果沒有指定、繼承或預設的 DACL，系統就會建立沒有 DACL 的物件，讓每個人都能完全存取該物件。
@@ -32,14 +32,14 @@ Active Directory Domain Services 使用下列規則來設定新物件的安全�
 
 
 
-| 規則          | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| 規則          | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 擁有者         | 預設安全描述項中的擁有者會從建立進程的主要或模擬權杖設定為預設擁有者 SID。 對於大部分的使用者而言，預設擁有者 SID 與識別使用者帳戶的 SID 相同。 請注意，對於屬於內建 administrators 群組成員的使用者，系統會自動將存取權杖中的預設擁有者 SID 設定為系統管理員群組;因此，由 administrators 群組成員建立的物件通常是由 administrators 群組所擁有。 若要取得或設定存取權杖中的預設擁有者，請使用 [**權杖 \_ 擁有**](/windows/desktop/api/winnt/ns-winnt-token_owner)者結構來呼叫 [**GetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-gettokeninformation)或 [**SetTokenInformation**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-settokeninformation)函數。 |
 | 主要群組 | 預設安全描述項中的主要群組會設定為來自建立者主要或模擬權杖的預設主要群組。 請注意，主要群組不會用於 Active Directory Domain Services 的內容中。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
 
- 
+ 
 
 如需 ACE 繼承的詳細資訊，請參閱系統 [管理的繼承與委派](inheritance-and-delegation-of-administration.md)。
 
@@ -47,6 +47,6 @@ Active Directory Domain Services 使用下列規則來設定新物件的安全�
 
 如需 **classSchema** 物件的詳細資訊，請參閱 [Active Directory 架構](active-directory-schema.md)。
 
- 
+ 
 
- 
+ 

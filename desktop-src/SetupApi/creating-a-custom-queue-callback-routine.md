@@ -4,12 +4,12 @@ ms.assetid: 68781565-71a2-43bf-ad01-7c1cdc514f7b
 title: 建立自訂佇列回呼常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a119836e994709ff2d0fa21e12489af947394119
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0602e32ef97ea962ca91375318bb563c0809da0dc4877aa6c9439644b52408e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850824"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887502"
 ---
 # <a name="creating-a-custom-queue-callback-routine"></a>建立自訂佇列回呼常式
 

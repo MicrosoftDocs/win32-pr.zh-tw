@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 35918677e210ac2fe7ac4798a04db9dc628f5fa1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9557ad9e65b33e1ed8889ef1fd013b2d9f5426f8e819fe56608cb6846ea8669f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172632"
 ---
 # <a name="seturgency-method-of-the-cim_alarmdevice-class"></a>CIM AlarmDevice 類別的 SetUrgency 方法 \_
 
@@ -57,7 +57,7 @@ uint32 SetUrgency(
 0
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 

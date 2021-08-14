@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: ec62c2ecab6d8c90a9c9b7b2570bf5d76afd0589
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db0f87b7aec956a74a0c54871da4019c1ddd4f1bcd57fce3806218003fcb70bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162119"
 ---
 # <a name="ctl3dunsubclassctl-function"></a>Ctl3dUnsubclassCtl 函式
 

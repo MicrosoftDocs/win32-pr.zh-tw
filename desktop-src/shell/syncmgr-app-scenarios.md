@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 9d07cf09bbe8ad94935f19ce1ea2b63684f7fa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e286f36b73df65b8144cdfc3440d80f3acf83ce3623436916e9344d5ead5ad0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118451874"
 ---
 # <a name="application-scenarios"></a>應用程式情節
 

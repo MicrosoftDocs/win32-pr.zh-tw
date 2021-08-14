@@ -3,7 +3,7 @@ title: 'LVM_SETTILEINFO 訊息 (Commctrl .h) '
 description: 設定清單視圖控制項之現有磚的資訊。
 ms.assetid: 345e8f16-9a6c-44e3-a262-d5d3be4d33ef
 keywords:
-- LVM_SETTILEINFO message Windows 控制項
+- LVM_SETTILEINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 489e163955b8f9cbf99ad25357b5be5a5d5981fd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5b1b39d3cc98a57c04ff56d0d9c666a259d780f3bcab683baed02d578f2d9304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170624"
 ---
 # <a name="lvm_settileinfo-message"></a>LVM \_ SETTILEINFO 訊息
 
@@ -54,8 +54,8 @@ ms.locfileid: "104094303"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

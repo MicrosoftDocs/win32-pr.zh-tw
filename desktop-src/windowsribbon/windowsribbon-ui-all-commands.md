@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cce287d6ee03734ecbb0dd84e020ec542a83f04b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 24767f2d3839b94ee83c6a9a527b2e80dcf8c1960e877f65a0e7e96fff4e3ec4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705957"
 ---
 # <a name="ui_all_commands"></a>UI \_ 所有 \_ 命令
 
@@ -33,8 +33,8 @@ ms.locfileid: "106966498"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7、windows Vista （含 SP2）和平臺更新（僅適用于 Windows Vista \[ desktop 應用程式）\]<br/>                          |
-| 最低支援的伺服器<br/> | Windows server 2008 R2、Windows Server 2008 SP2 和 Windows Server 的平臺更新（僅適用于 Windows Server 2008 \[ desktop 應用程式）\]<br/> |
+| 最低支援的用戶端<br/> | Windows 7、Windows vista （含 SP2）和僅適用于 Windows Vista \[ 桌面應用程式的平臺更新\]<br/>                          |
+| 最低支援的伺服器<br/> | Windowsserver 2008 R2、Windows server 2008 SP2 和平臺更新，適用于 Windows Server 2008 \[ desktop 應用程式\]<br/> |
 | 標頭<br/>                   | <dl> <dt>Uiribbon。h</dt> </dl>                                             |
 | Idl<br/>                      | <dl> <dt>Uiribbon .idl</dt> </dl>                                           |
 

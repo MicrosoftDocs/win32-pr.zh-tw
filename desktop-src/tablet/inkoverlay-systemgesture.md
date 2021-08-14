@@ -4,12 +4,12 @@ ms.assetid: 6f82b234-2088-4207-a6b4-6c6919623d6a
 title: 'InkOverlay.SystemGesture 事件 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3498d6b5fa779f6a15866ac93d53be8348f3d1a5
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3e1e55048a60edef4344ec3b566b08de29d9f3d0a16ccccc1f3094949c2aec86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218761"
 ---
 # <a name="inkoverlaysystemgesture-event"></a>InkOverlay.SystemGesture 事件
 
@@ -107,7 +107,7 @@ void SystemGesture(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

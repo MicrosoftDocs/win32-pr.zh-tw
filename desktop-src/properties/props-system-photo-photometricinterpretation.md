@@ -4,12 +4,12 @@ ms.assetid: e2bb7f82-10dc-4fa0-875d-fc58c133024d
 title: PhotometricInterpretation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 79f6b431470780def946dbb8958e9e3eb6698322
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e1a39928483b5d60f8d5dec35af27ab231da81dd8a1b6443a7b82e53deddf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228118"
 ---
 # <a name="systemphotophotometricinterpretation"></a>PhotometricInterpretation
 
@@ -73,7 +73,7 @@ propertyDescription
 
 PKEY 值定義于 Propkey 中。
 
-在 `isInnate` Windows Vista Service Pack 1 (SP1) 的情況下， **typeInfo** 元素的屬性預設值已從 **false** 變更為 **true** 。
+`isInnate`當 Windows Vista Service Pack 1 (SP1) 時， **typeInfo** 元素的屬性預設值已從 **false** 變更為 **true** 。
 
 ## <a name="related-topics"></a>相關主題
 

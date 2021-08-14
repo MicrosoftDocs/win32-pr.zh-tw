@@ -5,12 +5,12 @@ ms.assetid: 9743ce32-9262-4af3-b013-668e834e279c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3bc413cb6bc60f5b6a16f282fe3d4d1aa830272
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2f43ab4032e4500732e2f9ee6cfa9a2c17f8b1892e55973ba633758792f00bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353971"
 ---
 # <a name="dvc-server-apis"></a>DVC 伺服器 Api
 
@@ -52,6 +52,6 @@ ms.locfileid: "104382609"
 
     如果使用參數 *WTSVirtualFileHandle* 呼叫 [**WTSVIRTUALCHANNELQUERY**](/windows/desktop/api/Wtsapi32/nf-wtsapi32-wtsvirtualchannelquery)來抓取 DVC 的檔案控制代碼，就會套用相同的規則。 所有讀取都會包含 [**通道 \_ pdu \_ 標頭**](/windows/win32/api/pchannel/ns-pchannel-channel_pdu_header)，且讀取緩衝區必須至少為 **通道 \_ pdu \_ 長度** 的大小。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 941298b4-d703-4b3f-8bde-0e6e158560df
 title: 常值比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d8577e5a97dcc92131658c325f175efa1d0c3fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c1e311c6f98c1114b63a1bf650d6e7be004e1e8e4cf5848b962a7cbf8049bfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227173"
 ---
 # <a name="literal-value-comparison"></a>常值比較
 
@@ -54,7 +54,7 @@ ms.locfileid: "106997079"
 
  
 
-使用 "=" 運算子時，Windows Search 結構化查詢語言 (SQL)  (SQL) 支援使用 BEFORE 和 AFTER 關鍵字，以指定查詢是否應該在字典排序次序中，比較指定值之前或之後的資料行值。
+使用 "=" 運算子時，Windows Search 結構化查詢語言 (SQL)  (SQL) 支援使用 BEFORE 和 after 關鍵字，以指定查詢是否應該在字典排序次序中，比較指定值之前或之後的資料行值。
 
 
 ```

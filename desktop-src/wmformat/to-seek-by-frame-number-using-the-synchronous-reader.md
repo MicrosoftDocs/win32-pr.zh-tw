@@ -12,12 +12,12 @@ keywords:
 - 影片串流，同步讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c26711d2d839e47279e7e52a50f5dc82c6e81da
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 2e1b2da615f23e5c1d17046f08310d0aeda49200d5c4ba9fba890d7ba4951e0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699109"
 ---
 # <a name="to-seek-by-frame-number-using-the-synchronous-reader"></a>使用同步讀取器依框架編號搜尋
 
@@ -38,9 +38,9 @@ ms.locfileid: "104314268"
 [**使用同步讀取器讀取檔案**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

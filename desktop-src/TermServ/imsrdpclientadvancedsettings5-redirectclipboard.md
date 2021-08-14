@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2aba9950b8d602ca239d66364279a5876a432d04
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5847ef4ccb5798ea74cccecbcabbb04303df93f3cd9a8a6155cd94eabbc8a824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352282"
 ---
 # <a name="imsrdpclientadvancedsettings5redirectclipboard-property"></a>IMsRdpClientAdvancedSettings5：： RedirectClipboard 屬性
 

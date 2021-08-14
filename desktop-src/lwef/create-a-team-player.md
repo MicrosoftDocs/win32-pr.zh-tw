@@ -4,16 +4,16 @@ description: 建立小組玩家
 ms.assetid: a252dd9d-69bf-4348-bf59-1ac97faaa3eb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 306691b6d61b0bf7dce702af7c0208c62b8cad13
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1ab130a4ff655e4c215fa89cb4dc7ab69caa82af89aaec4cd00237b016aa70ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118480110"
 ---
 # <a name="create-a-team-player"></a>建立小組玩家
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 建立小組時，群組 dynamics 對群組中的成員具有強大的影響。 首先，群組或小組內容中的人員傾向于找出更多與小組的其他人員比一般非小組設定更多的人。 如此一來，他們也可以使用與小組外的成員團隊來識別更多專案。 但同樣重要的是，小組的成員比較願意合作和修改他們的看法和行為。 因為小組的社交活動會影響其成員的互動，所以在設計與字元的互動時可能會很有用。
 
@@ -21,9 +21,9 @@ ms.locfileid: "103675643"
 
 類型可能比較難實行或花費更長的時間來建立，但請務必考慮，因為類型似乎具有比小組身分識別更強的社交效應。 這會以行銷組織努力建立的產品品牌忠誠度來說明。 建立類型的意義牽涉到示範如何繼續為使用者提供實用性和可靠性。 要回答的重要問題是「字元是否提供價值？」 而「字元能以可預測性又可靠的方式運作嗎？」 這裡的重要因素是如何與使用者建立字元的關聯性。 若要 engender 小組類型的意義，必須將該字元呈現為使用者的對等。 雖然在將字元呈現為專家或 servant 的某些情況下可能會很有用，但若要利用 team dynamics 的共同優勢，就必須有相當的相等，讓使用者不需要 inferiority 即可相依于該字元。 這可能很簡單，只要把字元視為組員或附屬，而非 wizard。 它也會受到字元向使用者要求資訊的影響。 例如，某個字元可能會說：「讓我們一起合作來回答這個問題」。
 
- 
+ 
 
- 
+ 
 
 
 

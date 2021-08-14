@@ -4,12 +4,12 @@ description: 透過參考計數來管理物件存留期
 ms.assetid: 7f9da5a9-0435-431c-8f90-56e2e489c431
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7aac184baea9198721e6cdf9c0444a8c6431db08
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 292f2c75352eef5680eb9a4d8367f76f88c19138dd834b71068740bee18f2315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "106983293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310558"
 ---
 # <a name="managing-object-lifetimes-through-reference-counting"></a>透過參考計數來管理物件存留期
 
@@ -39,9 +39,9 @@ COM 為此一組問題提供可擴充且散佈的方法。 用戶端會在使用
 [使用和執行 IUnknown](using-and-implementing-iunknown.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

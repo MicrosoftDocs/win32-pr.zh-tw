@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca93eee44abd147576c6e678dce871ae4d49d921
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2850c587a9e610fd1e2b935f9a5d8ca0cb60f5b17054249db082dd67c656ee5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118350654"
 ---
 # <a name="moveup-method-of-the-win32_tsgatewayradiusserver-class"></a>Win32 TSGatewayRADIUSServer 類別的上移方法 \_
 

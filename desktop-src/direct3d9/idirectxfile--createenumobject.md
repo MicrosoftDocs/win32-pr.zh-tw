@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dxof.lib
 - D3dxof.dll
-ms.openlocfilehash: 3d15738b78299441fe08333a41f0652f1b4224d2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1af10a0f46877a159ab8c6543fba9c1406d083e6b3f4a57cf1c41b9fb2d92612
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985148"
 ---
 # <a name="idirectxfilecreateenumobject-method"></a>IDirectXFile：： CreateEnumObject 方法
 

@@ -8,12 +8,12 @@ keywords:
 - 錯誤碼 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24d9383998429b2ec64dd16fbed0d0df314f0d72
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e50d031d6ab76f1814d931054f0af2e605536b8a3fa37b24ccae58dd243d44cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180882"
 ---
 # <a name="adsi-error-codes"></a>ADSI 錯誤碼
 
@@ -28,9 +28,9 @@ ms.locfileid: "103839247"
 
 最後，本節所示的 c + + [範例程式碼](code-example-for-working-with-adsi-error-messages.md) 會示範如何工作 ADSI 錯誤訊息。
 
- 
+ 
 
- 
+ 
 
 
 

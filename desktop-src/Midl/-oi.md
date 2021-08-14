@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1671b16640d3f3214f10138e50a2ac08b6114674
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f38b6faee202e15b7c551297678ce301cbfdcb853b48ecd15c75dda7bb281e72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104185614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385282"
 ---
 # <a name="oi-switch"></a>/Oi 參數
 
@@ -39,7 +39,7 @@ midl /{Oi | Oic | Oif | Oicf}
 > [!Note]  
 > 此參數已淘汰。 建議您在其位置使用 **/Oicf** 參數。
 
- 
+ 
 
 </dd> <dt>
 
@@ -51,7 +51,7 @@ midl /{Oi | Oic | Oif | Oicf}
 > [!Note]  
 > 此參數已淘汰。 建議您在其位置使用 **/Oicf** 參數。
 
- 
+ 
 
 </dd> <dt>
 
@@ -66,7 +66,7 @@ midl /{Oi | Oic | Oif | Oicf}
 
 請注意與支援平臺相關的限制。
 
-MIDL 3.0 編譯器提供兩種方法來封送處理常式代碼：完全解讀的 ( **/Oi**、 **/Oic** 和 **/Oicf**) 和混合模式 ( [**/os**](-os.md)) 。 從 MIDL 版本6.0.359 開始，MIDL 編譯器預設會產生 **/Oicf** 的  [**/robust**](-robust.md) 存根。 某些模式不支援某些語言功能。 在此情況下，編譯器會自動切換至適當的模式，併發出警告。
+MIDL 3.0 編譯器提供兩種方法來封送處理常式代碼：完全解讀的 ( **/Oi**、 **/Oic** 和 **/Oicf**) 和混合模式 ( [**/os**](-os.md)) 。 從 MIDL 版本6.0.359 開始，MIDL 編譯器預設會產生 **/Oicf** 的 [**/robust**](-robust.md) 存根。 某些模式不支援某些語言功能。 在此情況下，編譯器會自動切換至適當的模式，併發出警告。
 
 如果有問題，混合模式 ( [**/os**](-os.md)) 方法可能是最好的方法。 在此模式中，編譯器會選擇封送處理產生的存根中內嵌的一些參數。 雖然這會產生較大的存根大小，但它可提供更高的效能。
 
@@ -110,6 +110,6 @@ MIDL 3.0 編譯器提供兩種方法來封送處理常式代碼：完全解讀�
 [**/no \_ 格式 \_ 選擇**](-no-format-opt.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

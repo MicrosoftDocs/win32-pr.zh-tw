@@ -1,20 +1,20 @@
 ---
 title: Read-Only Dc 和 Active Directory 架構
-description: Windows Server 2008 引進了一種新類型的網域控制站， (RODC) 的唯讀網域控制站。
+description: WindowsServer 2008 引進了一種新類型的網域控制站， (RODC) 的唯讀網域控制站。
 ms.assetid: 9d9082d2-6f7f-4ffa-b8c7-6414be764d0c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4284ffdda7ed2fbe481c201f7da69371209ce55
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: a9616230c38ad3d210aca5e18d5492a09610b9b3048b72f810c3c0ac466c4ea5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104093455"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184149"
 ---
 # <a name="read-only-dcs-and-the-active-directory-schema"></a>Read-Only Dc 和 Active Directory 架構
 
-Windows Server 2008 引進了一種新類型的網域控制站， (RODC) 的唯讀網域控制站。 這會提供網域控制站，以便在無法放置完整網域控制站的分公司中使用。 其目的是讓分公司的使用者登入，並執行諸如檔案/印表機共用的工作，即使沒有中樞網站的網路連線。
+WindowsServer 2008 引進了一種新類型的網域控制站， (RODC) 的唯讀網域控制站。 這會提供網域控制站，以便在無法放置完整網域控制站的分公司中使用。 其目的是讓分公司的使用者登入，並執行諸如檔案/印表機共用的工作，即使沒有中樞網站的網路連線。
 
 RODC 不會變更架構的使用方式。 不過，值得一提的是，架構支援 Read-Only 部分屬性集 (RO-PAS) ，也稱為 RODC 已篩選屬性集，這是基於安全性考慮而不會複寫至 Rodc 的特殊屬性集。 RO-PAS 會透過 [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) 屬性在架構中定義。
 
@@ -26,7 +26,7 @@ RODC 不會變更架構的使用方式。 不過，值得一提的是，架構�
 
 RODC 已篩選屬性集為動態屬性集，不會複寫至樹系中的任何 RODC。 您可以在執行 Windows Server 2008 的架構主機上設定 RODC 已篩選屬性集。 當禁止將屬性複寫至 RODC 時，若 RODC 遭竊或被盜用，就可避免資料不慎外洩。
 
-您無法將重要的系統屬性新增至 RODC 已篩選屬性集中。 AD DS、本機安全性授權單位 (LSA)、安全性帳戶管理員 (SAM)，以及任何 Microsoft 特定的安全性服務提供者 (例如，Kerberos 驗證通訊協定) 正常運作所需的屬性，即是重要系統屬性。 在 Beta 3 之後的 Windows Server 2008 版本中，系統關鍵屬性具有 (schemaFlagsEx 屬性值的 schemaFlagsEx 屬性值 & 0x1 = **TRUE**) 。
+您無法將重要的系統屬性新增至 RODC 已篩選屬性集中。 AD DS、本機安全性授權單位 (LSA)、安全性帳戶管理員 (SAM)，以及任何 Microsoft 特定的安全性服務提供者 (例如，Kerberos 驗證通訊協定) 正常運作所需的屬性，即是重要系統屬性。 在 Beta 3 之後的 Windows Server 2008 版本中，系統關鍵屬性的 schemaFlagsEx 屬性值 (schemaFlagsEx 屬性值 & 0x1 = **TRUE**) 。
 
 如需將屬性新增至 RODC 已篩選屬性集的逐步指示，請參閱 [rodc 逐步指南的附錄 D]( /previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc772331(v=ws.10))。
 
@@ -41,6 +41,6 @@ RODC 已篩選屬性集為動態屬性集，不會複寫至樹系中的任何 RO
 [唯讀網域控制站逐步指南]( https://support.microsoft.com/kb/922836)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

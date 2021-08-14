@@ -7,16 +7,16 @@ keywords:
 - Active Directory 範例 Active Directory，列舉成員伺服器上的使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b066e92ced26c58ef932025f4e818d87a907b30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03064d2030cd84ea75c1225bc6592c33e5af5a20b2fe6946987d4ca7caf7497f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118693697"
 ---
 # <a name="example-code-for-enumerating-users-on-a-member-server"></a>列舉成員伺服器使用者的範例程式碼
 
-下列 Visual Basic 程式碼範例會列舉成員伺服器或 Windows 2000 Professional 上的所有使用者。
+下列 Visual Basic 程式碼範例會列舉成員伺服器上的所有使用者，或 Windows 2000 Professional。
 
 
 ```VB
@@ -73,7 +73,7 @@ End Sub
 
 
 
-下列 c + + 程式碼範例會列舉指定類別的所有物件（例如使用者），並顯示成員伺服器或 Windows 2000 Professional 上每個物件中所包含的成員。
+下列 c + + 程式碼範例會列舉指定類別的所有物件（例如使用者），並顯示成員伺服器上的每個物件中所包含的成員或 Windows 2000 Professional。
 
 
 ```C++
@@ -203,9 +203,9 @@ HRESULT ListObjectsWithWinNtProvider(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

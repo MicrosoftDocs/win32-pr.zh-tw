@@ -4,17 +4,17 @@ description: 透過連結，使用者可以流覽至另一個頁面、視窗或�
 ms.assetid: a23748e4-b2dd-4b9f-9a7c-ff6533922c8c
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 161313008612d04b5009942f82f662888d1ffd35
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 985e266428a57bae88cf30090bff97f45787faa1a116993958086547339d465c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118040059"
 ---
 # <a name="links"></a>連結
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 透過 *連結*，使用者可以流覽至另一個頁面、視窗或說明主題;顯示定義;起始命令;或選擇選項。 連結是文字或圖形，表示可以按一下，通常是使用流覽或未造訪的 [連結系統色彩](vis-color.md)來顯示。 傳統上，連結也會加上底線，但這種方法通常不是必要的，而且不是為了減少視覺效果。
 
@@ -156,7 +156,7 @@ ms.locfileid: "111524253"
 
 ### <a name="text-with-icon-links"></a>具有圖示連結的文字
 
--   **只針對命令連結使用箭號圖示。** 一般連結不應使用箭號圖示，除非在 Windows XP 中用來替代 [命令連結](ctrl-command-links.md) 。
+-   **只針對命令連結使用箭號圖示。** 一般連結不應使用箭號圖示，除非在 Windows XP 中用來替代[命令連結](ctrl-command-links.md)。
 -   **將圖示放在文字的左邊。** 圖示需要以視覺化方式導向文字。
 
 **正確：**
@@ -311,7 +311,7 @@ ms.locfileid: "111524253"
 
     **正確：**
 
-    描述
+    Description
 
     在不正確的範例中，「按一下這裡」就不需要說出，也不會傳達連結的相關資訊。
 

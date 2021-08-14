@@ -4,12 +4,12 @@ ms.assetid: 56816212-2B6A-41EC-B57D-29DEBBF440E7
 title: DXGI 1.3 改進
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c863bc30ffdf27705492b56a5348040c8e12f4fa
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 709dc9e98ffe6ecd67f6bd91aa654b1e0bfe0375dabcd2a344f5b012c57dca2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984118"
 ---
 # <a name="dxgi-13-improvements"></a>DXGI 1.3 改進
 

@@ -4,12 +4,12 @@ ms.assetid: 479ca55a-d570-44bc-9f52-88432804df6f
 title: WCT 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32a5ea799a67cb6cf0a0406b7b8042e30abfd60a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4abc212ec021455822cffb84155dd3391e1a6d89b5329a56d5bcaff98cb6ccea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405416"
 ---
 # <a name="wct-reference"></a>WCT 參考
 

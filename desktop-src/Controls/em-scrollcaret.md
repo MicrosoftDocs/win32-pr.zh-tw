@@ -3,7 +3,7 @@ title: 'EM_SCROLLCARET 訊息 (Winuser .h) '
 description: 將插入號滾動至編輯控制項中的 view。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 7a33034d-9369-49f8-a881-0c1d2cedff6a
 keywords:
-- EM_SCROLLCARET message Windows 控制項
+- EM_SCROLLCARET 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: faa9f4bd69605f5e8fad36a683c9be2894546cb0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5fd3a752d9f8c8cf0fed812d10a4d18633fb682f3f127c6fc7f2f47744ae861b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118171377"
 ---
 # <a name="em_scrollcaret-message"></a>EM \_ SCROLLCARET 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "104106265"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

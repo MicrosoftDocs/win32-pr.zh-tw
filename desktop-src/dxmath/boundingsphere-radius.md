@@ -4,12 +4,12 @@ ms.assetid: baa212ac-81f6-4765-a484-f1a98c431474
 title: 'BoundingSphere. Radius (DirectXCollision) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2512406bc5e8815872f071ac5e99193cbc583d50
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eba7ef192b4417454df088a1dccb419c46ee0df3974937629cadc18ddf3c4b3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502104"
 ---
 # <a name="boundingsphereradius"></a>BoundingSphere。 Radius
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

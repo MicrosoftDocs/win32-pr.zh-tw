@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bde9e0b5cf9b8ab88b5efa1c6aae58a9b8a54cfb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f078e040a356cd575dfc222c9c13548737d8846ad9c211ff1dedc334faee1cb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419672"
 ---
 # <a name="copy-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 Copy 方法
 
@@ -102,7 +102,7 @@ uint32 Copy(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

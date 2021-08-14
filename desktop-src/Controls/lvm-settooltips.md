@@ -3,7 +3,7 @@ title: 'LVM_SETTOOLTIPS 訊息 (Commctrl .h) '
 description: 設定 [清單視圖] 控制項將用來顯示工具提示的工具提示控制項。 您可以明確地傳送此訊息，或使用 ListView \_ SetToolTips 宏。
 ms.assetid: 5b4335a4-e9f0-4b13-b00b-516af3b60bf1
 keywords:
-- LVM_SETTOOLTIPS message Windows 控制項
+- LVM_SETTOOLTIPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff749c24a35cf73de2d75b8a3b516197b57aac4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7bf2256d94630b8e792fd1f148864f3588b27e73ea5781eb0bdcd24bf9571507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170394"
 ---
 # <a name="lvm_settooltips-message"></a>LVM \_ SETTOOLTIPS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104464880"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

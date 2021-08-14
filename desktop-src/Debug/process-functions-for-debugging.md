@@ -4,12 +4,12 @@ ms.assetid: 7056e181-9bc5-4530-a7b8-d5ff1e345eef
 title: 用於偵錯工具的進程函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d31378a4115acfdd5a4a1836199b7387adeb6e3f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f6dec70de05e9b77cd3ff0b2ee8cd01c90ded2987f7ba1cacc3530f040344915
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162629"
 ---
 # <a name="process-functions-for-debugging"></a>用於偵錯工具的進程函式
 

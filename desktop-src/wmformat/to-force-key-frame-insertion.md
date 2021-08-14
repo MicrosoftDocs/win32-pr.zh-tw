@@ -10,12 +10,12 @@ keywords:
 - 主要畫面格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23006eef1e51d8bc63f2d55cac22e09a2052d83e
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 80d400c0ee4ba97aa7de559b1394dbe5c9fb2a974c124924aeae0839b1b4dae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104462781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196494"
 ---
 # <a name="to-force-key-frame-insertion"></a>強制插入 Key-Frame
 
@@ -47,9 +47,9 @@ Windows Media 視訊9編解碼器支援強制的主要畫面格插入。 當您�
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

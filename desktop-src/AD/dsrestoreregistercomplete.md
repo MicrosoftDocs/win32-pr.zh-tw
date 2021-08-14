@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ff5e5e01b29281860dff59fbcd08a3b48ec66c4a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6b335f67ed4d392d189553f66655797e03121cbdee6ce19dffbd9803199f6c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025214"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118429926"
 ---
 # <a name="dsrestoreregistercomplete-function"></a>DsRestoreRegisterComplete 函式
 

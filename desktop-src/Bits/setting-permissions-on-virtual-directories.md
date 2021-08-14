@@ -4,12 +4,12 @@ description: 基於安全性理由，背景智慧型傳送服務 (位) 不會將
 ms.assetid: cf5c8b50-066f-431e-8bdf-ed0692219b20
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6753c326e926724a57e1905c3fb9fe24e28fdc7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71b08f4dd7435c9afc28f1a4401f01ad196b1b8d2a1394d4998634f70b750434
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173250"
 ---
 # <a name="setting-permissions-on-virtual-directories"></a>設定虛擬目錄的許可權
 
@@ -28,7 +28,7 @@ BITS 不需要啟用寫入虛擬目錄，因此建議您關閉虛擬目錄的寫
 > [!Note]  
 > 通知的應用程式必須能夠對應及存取遠端檔案，即使是由 web 伺服器所提供的服務，與實體上傳目錄不同的電腦上也一樣。 [位要求-資料檔案名稱](notification-protocol-for-server-applications.md)標頭一律包含相對於裝載 BITS 延伸模組元件之電腦的路徑規格。 在另一部電腦上執行的應用程式可能需要先將路徑轉換成 UNC 路徑，才能存取它。
 
- 
+ 
 
 BITS 支援許多驗證配置組合。 不過，您應該將下列驗證配置用於虛擬目錄和相符的通知 URL。
 
@@ -42,10 +42,10 @@ BITS 支援許多驗證配置組合。 不過，您應該將下列驗證配置�
 
 虛擬目錄可指向不同電腦或網路共用上的對應磁片磁碟機。 如果它指向對應的網路磁碟機機，則用來對應磁片磁碟機的認證應該會在遠端共用上具有完整控制權。
 
-如果虛擬目錄指向網路共用，BITS 會使用虛擬目錄的 **Connect As** 使用者認證來存取遠端共用。 若要存取遠端共用，[線上帳戶 **]** 帳戶必須具有許可權功能的檔中所 [**述的許可權**](/windows/desktop/api/winbase/nf-winbase-logonusera) 。 BITS 會使用 LOGON32 \_ 登入 \_ 批次或 LOGON32 \_ 登入 \_ 互動式登入類型來登入。 **Connect As** 使用者帳戶需要 Full-Access 遠端共用的許可權;授與寫入權限沒有足夠的許可權。
+如果虛擬目錄指向網路共用，BITS 會使用虛擬目錄的 **連線作為** 用來存取遠端共用的使用者認證。 若要存取遠端共用，**連線 as** 帳戶必須擁有許可權，如 [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera)函數的檔所述。 BITS 會使用 LOGON32 \_ 登入 \_ 批次或 LOGON32 \_ 登入 \_ 互動式登入類型來登入。 **連線** 的使用者帳戶必須 Full-Access 遠端共用的許可權;授與寫入權限沒有足夠的許可權。
 
-當實體上傳目錄對應到網路共用時，要求通知 URL 之呼叫端的身分識別是 [連接身分使用者] 或 [實體上傳 **]** 目錄的已驗證使用者 (只有在 IIS 6.0 和更新版本中，當您在 [**連接** 身分]) 對話方塊上選取 [**驗證網路資源的存取權時，一律使用已驗證的使用者認證**
+當實體上傳目錄對應到網路共用時，要求通知 URL 之呼叫端的身分識別是 **連線為** 使用者，或是實體上傳目錄的已驗證使用者 (只有在 IIS 6.0 和更新版本中，當您在 [**連線 As** ]) 對話方塊中選取 [**驗證網路資源的存取權時，一律使用已驗證使用者的認證**]。
 
- 
+ 
 
- 
+ 

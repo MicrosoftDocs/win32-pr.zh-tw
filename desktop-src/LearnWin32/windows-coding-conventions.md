@@ -1,21 +1,21 @@
 ---
-title: Windows 編碼慣例
-description: 如果您是 Windows 程式設計的新手，則在第一次看到 Windows 程式時，可能會令人不安。
+title: Windows編碼慣例
+description: 如果您不熟悉 Windows 程式設計，當您第一次看到 Windows 程式時，可能會令人不安。
 ms.assetid: 466a66db-7681-4fce-9672-07849cd1b096
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 365a9c8509d7cb799bafdfa70c326f1074b64d93
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b78c24f38f9f2f410c044637ca3aa59d4baa39e9b671b3485c5b85899b69c2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387393"
 ---
-# <a name="windows-coding-conventions"></a>Windows 編碼慣例
+# <a name="windows-coding-conventions"></a>Windows編碼慣例
 
-如果您是 Windows 程式設計的新手，則在第一次看到 Windows 程式時，可能會令人不安。 程式碼會填入奇怪的型別定義，例如 **DWORD \_ PTR** 和 **LPRECT**，而變數的名稱像是 *hWnd* 和 *pwsz* (稱為匈牙利文標記法) 。 值得花一點時間學習一些 Windows 程式碼撰寫慣例。
+如果您不熟悉 Windows 程式設計，當您第一次看到 Windows 程式時，可能會令人不安。 程式碼會填入奇怪的型別定義，例如 **DWORD \_ PTR** 和 **LPRECT**，而變數的名稱像是 *hWnd* 和 *pwsz* (稱為匈牙利文標記法) 。 值得花一點時間瞭解一些 Windows 程式碼撰寫慣例。
 
-大部分的 Windows Api 都是由函數或元件物件模型 (COM) 介面所組成。 許多 Windows Api 都是以 c + + 類別的形式提供。  (有個值得注意的例外狀況是 GDI + （2-d 圖形 Api 的其中一個）。 ) 
+大部分的 Windows api 都是由函數或元件物件模型 (COM) 介面所組成。 許多 Windows api 都是以 c + + 類別的形式提供。  (有個值得注意的例外狀況 GDI+，其中一個是2d 圖形 api。 ) 
 
 ## <a name="typedefs"></a>Typedefs
 
@@ -41,9 +41,9 @@ Windows 標頭包含許多 typedef。 其中許多都是在標頭檔 WinDef 中�
 
 
 
- 
+ 
 
-如您所見，這些 typedef 中有一定數量的多餘。 這部分重迭只是因為 Windows Api 的歷程記錄。 此處所列的類型具有固定的大小，在32位和64應用程式中的大小都相同。 例如， **DWORD** 類型一律為32位寬。
+如您所見，這些 typedef 中有一定數量的多餘。 部分重迭只是因為 Windows api 的歷程記錄。 此處所列的類型具有固定的大小，在32位和64應用程式中的大小都相同。 例如， **DWORD** 類型一律為32位寬。
 
 ### <a name="boolean-type"></a>布林類型
 
@@ -88,7 +88,7 @@ if (result == TRUE)
 
 ### <a name="pointer-types"></a>指標類型
 
-Windows 定義許多形式的表單 *指標到 X* 的資料類型。 這些通常會在名稱中使用前置詞 *P* 或 *LP* 。 例如， **LPRECT** [**是矩形的指標，其中**](/previous-versions//dd162897(v=vs.85)) **rect** 是描述矩形的結構。 下列變數宣告是相等的。
+Windows 定義許多表單 *指標至 X* 的資料類型。 這些通常會在名稱中使用前置詞 *P* 或 *LP* 。 例如， **LPRECT** [**是矩形的指標，其中**](/previous-versions//dd162897(v=vs.85)) **rect** 是描述矩形的結構。 下列變數宣告是相等的。
 
 
 ```C++
@@ -99,11 +99,11 @@ PRECT  rect;  // Also the same.
 
 
 
-在過去， *P* 代表「指標」，而 *LP* 代表「長指標」。 長指標 (也稱為 *遠指標*) 是從16位 Windows holdover 的指標，當需要這些指標來處理目前區段之外的記憶體範圍時。 已保留 *LP* 前置詞，可讓您更輕鬆地將16位程式碼移植到32位 Windows。 今天沒有任何差別，指標就是指標。
+在過去， *P* 代表「指標」，而 *LP* 代表「長指標」。 長指標 (也稱為 *遠指標*) 是從16位 Windows 的 holdover，當它們需要處理目前區段以外的記憶體範圍時。 已保留 *LP* 前置詞，可讓您更輕鬆地將16位程式碼移植到32位的 Windows。 今天沒有任何差別，指標就是指標。
 
 ### <a name="pointer-precision-types"></a>指標精確度類型
 
-下列資料類型一律是指標的大小，也就是32位應用程式中的32位寬，以及64位應用程式中的64位寬。 大小是在編譯時期決定。 當32位應用程式在64位的 Windows 上執行時，這些資料類型仍然是4個位元組寬。  (64 位應用程式無法在32位的 Windows 上執行，因此不會發生反向的情況。 ) 
+下列資料類型一律是指標的大小，也就是32位應用程式中的32位寬，以及64位應用程式中的64位寬。 大小是在編譯時期決定。 當32位應用程式在64位 Windows 上執行時，這些資料類型仍然是4個位元組寬。  (64 位應用程式無法在32位 Windows 上執行，因此不會發生反向情況。 ) 
 
 -   **DWORD \_ PTR**
 -   **INT \_ PTR**
@@ -111,7 +111,7 @@ PRECT  rect;  // Also the same.
 -   **ULONG \_ PTR**
 -   **UINT \_ PTR**
 
-這些類型會在整數可能轉換成指標的情況下使用。 它們也可用來定義指標算術的變數，以及定義迴圈計數器，以逐一查看記憶體緩衝區中的完整位元組範圍。 更常見的情況是，它們會出現在現有32位值在64位 Windows 上擴充至64位的位置。
+這些類型會在整數可能轉換成指標的情況下使用。 它們也可用來定義指標算術的變數，以及定義迴圈計數器，以逐一查看記憶體緩衝區中的完整位元組範圍。 更常見的情況是，它們會出現在現有32位值在64位 Windows 上展開至64位的位置。
 
 ## <a name="hungarian-notation"></a>匈牙利文標記法
 
@@ -127,6 +127,6 @@ PRECT  rect;  // Also the same.
 
 [使用字串](working-with-strings.md)
 
- 
+ 
 
- 
+ 

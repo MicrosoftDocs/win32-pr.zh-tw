@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 941fd0b4f0d69deb8dcdea95853ab5d81084af0e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: fab8b2c5c247e8b37134d0cb99280ca7f974bb32cf32fea8d0af0969e632b29d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505456"
 ---
 # <a name="texturecubesamplegrad-methods"></a>TextureCube：： SampleGrad 方法
 

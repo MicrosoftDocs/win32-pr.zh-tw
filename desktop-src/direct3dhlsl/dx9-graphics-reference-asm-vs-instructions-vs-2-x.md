@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: e9997e26625005abd0f2e38ab885b95b8f8febd0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 579e52349031545fd540a98c7ea12876ae0700f725ea81ee05ac0fed65b09a1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104990639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512274"
 ---
 # <a name="instructions---vs_2_x"></a>指示-vs \_ 2 \_ x
 
@@ -25,7 +25,7 @@ ms.locfileid: "104990639"
 -   指示位置-每個指令所使用的指令位置數目。
 -   設定-非算術指令。 每個著色器都必須有 version 指令，而且必須是第一個指令。
 -   算術-這些指示可提供著色器中的數學運算。
--   流程式控制制-這些指示會新增流程式控制制功能，例如 [迴圈-與](loop---vs.md).。。[endloop-vs](endloop---vs.md)、 [if bool-vs](if-bool---vs.md).。。[其他](else---vs.md).。。[endif](endif---vs.md)和副程式呼叫。
+-   Flow 控制項-這些指示會新增流程式控制制功能，例如[迴圈與](loop---vs.md).。。[endloop-vs](endloop---vs.md)、 [if bool-vs](if-bool---vs.md).。。[其他](else---vs.md).。。[endif](endif---vs.md)和副程式呼叫。
 -   新的-這些指示是此版本的新指示。
 
 ## <a name="instruction-set"></a>指令集
@@ -94,7 +94,7 @@ ms.locfileid: "104990639"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -103,9 +103,9 @@ ms.locfileid: "104990639"
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

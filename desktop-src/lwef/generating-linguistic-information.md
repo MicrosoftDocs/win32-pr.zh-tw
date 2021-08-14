@@ -4,16 +4,16 @@ description: 產生語言資訊
 ms.assetid: 903561f0-89dc-4297-8ea0-3fa150f2e6dd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23fb99a5139e287e07e353791ce776b8a04dd8d2
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: a068153863236b7096b67a976bbcf0654af9c75df87d2f527027830a4df33eb4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104560456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118479278"
 ---
 # <a name="generating-linguistic-information"></a>產生語言資訊
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 錄製新的音效檔或載入現有的音效檔之後，您可以在 **文字表示** 方塊中輸入對應到您的聲音檔的文字，以產生語音和斷字資訊。 然後從 [**編輯**] 功能表或從工具列選擇 [**產生語言資訊**] 命令。 音效編輯器會顯示進度訊息，並開始處理您的音效檔。 當它完成產生語言資訊時，它會在 [ **音訊表示** ] 方塊中的方塊中顯示音效檔的 word 和音素標籤對應。 請注意，[ **產生語言資訊** ] 命令會保持停用，直到您輸入音效檔的文字表示。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104560456"
 
 ### <a name="playing-a-sound-file"></a>播放音效檔
 
-您可以從 **音訊** 功能表或編輯器的工具列選擇 [**播放**] 命令，以播放標準的 Windows 音效檔案或語言增強的音效檔。 [ **暫停** ] 和 [ **停止** ] 命令可讓您暫停或停止播放音效檔。 當您播放檔案時，範例嘴影像會以動畫顯示，以顯示 Microsoft 代理程式字元如何使用 lip 同步資訊。
+您可以從 **音訊** 功能表或編輯器的工具列選擇 [**播放**] 命令，來播放標準 Windows 音效檔或語言增強的音效檔。 [ **暫停** ] 和 [ **停止** ] 命令可讓您暫停或停止播放音效檔。 當您播放檔案時，範例嘴影像會以動畫顯示，以顯示 Microsoft 代理程式字元如何使用 lip 同步資訊。
 
 您也可以藉由拖曳 **音訊標記法** 中的選取專案，或按一下單字或音素標籤，然後選擇 [ **播放**]，來播放音效檔的選取部分。 您可以按下 SHIFT 鍵並按一下滑鼠，或按下 SHIFT 並拖曳至 **音訊表示** 中的新位置，以擴充現有的選取範圍。
 

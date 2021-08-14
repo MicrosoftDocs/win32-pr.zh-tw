@@ -6,12 +6,12 @@ keywords:
 - 可延伸的驗證通訊協定，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d0ca739d52ca93cbb22205902f76091e7b1903ba
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 8e3fcb1f0d97b640b96db9e08234f4a27506bd4c651b2a51585d50c253378720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104373995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499143"
 ---
 # <a name="extensible-authentication-protocol-reference"></a>可延伸的驗證通訊協定參考
 
@@ -24,9 +24,9 @@ ms.locfileid: "104373995"
 -   [EAP 介面](eap-interfaces.md)
 -   [EAP 結構](eap-structures.md)
 
- 
+ 
 
- 
+ 
 
 
 

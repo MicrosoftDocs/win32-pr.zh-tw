@@ -4,21 +4,21 @@ ms.assetid: 7695fb64-3918-4d9a-8cd8-01d20edd9c55
 title: 使用 Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54bebe537f82de65efddc086ee457e1abe47a617
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75681987a4bc012618135f666b3ff973880b8129d2ad1ee896bcdbed266d179d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118436964"
 ---
 # <a name="using-windows"></a>使用 Windows
 
 本節中的範例說明如何執行下列工作：
 
 -   [建立主視窗](#creating-a-main-window)
--   [建立、列舉及調整子視窗的大小](#creating-enumerating-and-sizing-child-windows)
+-   [建立、列舉及調整子 Windows](#creating-enumerating-and-sizing-child-windows)
 -   [終結視窗](#destroying-a-window)
--   [使用分層視窗](#using-layered-windows)
+-   [使用分層 Windows](#using-layered-windows)
 
 ## <a name="creating-a-main-window"></a>建立主視窗
 
@@ -66,7 +66,7 @@ UpdateWindow(hwndMain);
 
 請注意，上述範例會在建立主視窗之後呼叫 [**ShowWindow**](/windows/win32/api/winuser/nf-winuser-showwindow) 函式。 這樣做的原因是，系統不會在建立後自動顯示主視窗。 藉由將 **SW \_ SHOWDEFAULT** 旗標傳遞給 **ShowWindow**，應用程式可讓啟動應用程式的程式設定主視窗的初始顯示狀態。 [**UpdateWindow**](/windows/win32/api/winuser/nf-winuser-updatewindow)函式會將它的第一個 [**WM \_ 油漆**](../gdi/wm-paint.md)訊息傳送給視窗。
 
-## <a name="creating-enumerating-and-sizing-child-windows"></a>建立、列舉及調整子視窗的大小
+## <a name="creating-enumerating-and-sizing-child-windows"></a>建立、列舉及調整子 Windows
 
 您可以使用子視窗，將視窗的工作區分割成不同的功能區域。 建立子視窗就像建立主視窗一樣，您也可以使用 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函數。 若要建立應用程式定義視窗類別的視窗，您必須先註冊視窗類別並提供視窗程式，然後再建立子視窗。 您必須提供子視窗的 [**WS \_ 子**](window-styles.md) 系樣式，並在建立時指定子視窗的父視窗。
 
@@ -187,7 +187,7 @@ case WM_DESTROY:
 
 
 
-## <a name="using-layered-windows"></a>使用分層視窗
+## <a name="using-layered-windows"></a>使用分層 Windows
 
 若要讓對話方塊成為半透明視窗，請先照常建立對話方塊。 然後，在 [**WM \_ INITDIALOG**](../dlgbox/wm-initdialog.md)上，設定視窗擴充樣式的分層位，並使用所需的 Alpha 值來呼叫 [**SetLayeredWindowAttributes**](/windows/win32/api/winuser/nf-winuser-setlayeredwindowattributes) 。 程式碼可能如下所示：
 

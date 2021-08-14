@@ -4,12 +4,12 @@ ms.assetid: f36439de-e37a-457c-9485-a435847eb01e
 title: " (Direct3D 9) 的材質座標轉換"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f45b8107f609348ae2367b1171ae7913797f4558
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 755af38c6c58fc2f19297b056e3e9f35ce2559a6a7a2d52e8a23c94f93f4fbaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984788"
 ---
 # <a name="texture-coordinate-transformations-direct3d-9"></a> (Direct3D 9) 的材質座標轉換
 

@@ -4,12 +4,12 @@ ms.assetid: C4EB130F-2A83-4A14-BBA8-DB10225D0C0A
 title: " (設定 API) 的錯誤碼"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42ce77fd224abb16c519f4b77fa93f775fe203d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0c3955bd64f38946a59589259fc750892cfa9e84b3ef6e32ba2d9a5f6ca2244
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887337"
 ---
 # <a name="error-codes-setup-api"></a> (設定 API) 的錯誤碼
 
@@ -17,7 +17,7 @@ ms.locfileid: "104469353"
 
 
 
-| INF 剖析錯誤              | Description                                                                                                         |
+| INF 剖析錯誤              | 描述                                                                                                         |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | 錯誤的 \_ 預期 \_ 區段 \_ 名稱  | 需要區段名稱，但找不到。                                                                          |
 | 錯誤 \_ 的 \_ 區段 \_ 名稱 \_ 行 | 區段名稱的格式不正確。 例如， (不是由右括弧結束的名稱 ( \] ) 。 |
@@ -30,9 +30,9 @@ ms.locfileid: "104469353"
 
 
 
-| INF 執行階段錯誤         | Description                                                                                                                                                                                                                                    |
+| INF 執行階段錯誤         | 描述                                                                                                                                                                                                                                    |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 錯誤 \_ 的 \_ INF \_ 樣式錯誤   | INF 檔案不是函式呼叫中所指定的類型。 例如，如果 INF 檔案是針對早期版本的 Windows 所設計，則 [**SetupOpenAppendInfFile**](/windows/desktop/api/Setupapi/nf-setupapi-setupopenappendinffilea) 函式可能會傳回此錯誤。 |
+| 錯誤 \_ 的 \_ INF \_ 樣式錯誤   | INF 檔案不是函式呼叫中所指定的類型。 例如， [**SetupOpenAppendInfFile**](/windows/desktop/api/Setupapi/nf-setupapi-setupopenappendinffilea)函式可能會傳回此錯誤，如果 INF 檔案是要用於舊版 Windows。 |
 | \_ \_ 找不到錯誤區段 \_ | INF 檔案中找不到區段。                                                                                                                                                                                                     |
 | \_ \_ 找不到錯誤行 \_    | 在 INF 區段中找不到該行。                                                                                                                                                                                                     |
 

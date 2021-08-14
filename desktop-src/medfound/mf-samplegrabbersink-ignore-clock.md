@@ -4,12 +4,12 @@ ms.assetid: 780ec4a6-8e14-4b81-9d50-82b2850c70ae
 title: 'MF_SAMPLEGRABBERSINK_IGNORE_CLOCK 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57ad5476779d958bdbf94af554d889dd8d174ca3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d757b02a060b4e598ff42d3bd8b9ad7f38af41143c807647aa6f2b8528677cf8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474421"
 ---
 # <a name="mf_samplegrabbersink_ignore_clock-attribute"></a>MF \_ SAMPLEGRABBERSINK \_ 忽略 \_ 時鐘屬性
 
@@ -44,8 +44,8 @@ ms.locfileid: "106978208"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

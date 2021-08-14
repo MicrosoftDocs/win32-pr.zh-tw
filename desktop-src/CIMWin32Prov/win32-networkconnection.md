@@ -31,12 +31,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 96d91008ff8ad2f947e6c9957d16c4f007d15e47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4a8c712e8eb373730d24841133264e312694d79b593e83e89a1fc7387e7a77a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972628"
 ---
 # <a name="win32_networkconnection-class"></a>Win32 \_ NetworkConnection 類別
 

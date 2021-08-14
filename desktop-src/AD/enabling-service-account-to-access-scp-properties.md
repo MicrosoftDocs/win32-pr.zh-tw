@@ -7,12 +7,12 @@ keywords:
 - 啟用服務帳戶以存取 SCP 屬性 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b49adcd1b4747b1c13a64a5af54c6cc6a42e6afe
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 260b08d4a7255813e2811c02ebd0e597a518f153db84f35cdb978a44369e5e8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118695307"
 ---
 # <a name="enabling-service-account-to-access-scp-properties"></a>啟用服務帳戶以存取 SCP 屬性
 
@@ -20,7 +20,7 @@ ms.locfileid: "103842083"
 
 一般來說，服務安裝程式會在建立 SCP 物件之後設定這些 Ace。 如需詳細資訊，以及建立 SCP 並呼叫此函式的程式碼範例，請參閱 [用戶端如何尋找和使用服務連接點](how-clients-find-and-use-a-service-connection-point.md)。 如果服務重新設定為以不同的帳戶執行，則必須更新 Ace。 若要成功執行，必須在網域系統管理員的安全性內容中執行此程式碼範例。
 
-範例函式的第一個參數會指定要授與存取權的使用者帳戶名稱。 函數假設名稱是網域使用者名稱 *格式 ***\\**** 。 如果未指定任何帳戶，則函式會假設服務使用 LocalSystem 帳戶。 這表示此函數必須將存取權授與執行服務之主機伺服器的電腦帳戶。 若要這樣做，程式碼範例會呼叫 [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) 函數來取得本機電腦的網域和使用者名稱。
+範例函式的第一個參數會指定要授與存取權的使用者帳戶名稱。 此函式會假設名稱為 * Domain * **\\** _UserName_ 格式。 如果未指定任何帳戶，則函式會假設服務使用 LocalSystem 帳戶。 這表示此函數必須將存取權授與執行服務之主機伺服器的電腦帳戶。 若要這樣做，程式碼範例會呼叫 [**GetComputerObjectName**](/windows/desktop/api/secext/nf-secext-getcomputerobjectnamea) 函數來取得本機電腦的網域和使用者名稱。
 
 您可以修改下列程式碼範例，以授與服務對 SCP 物件的完整存取權，但最佳做法是只授與服務在執行時間所需的特定存取權限。 在此情況下，函數會將存取權授與兩個屬性。
 
@@ -33,7 +33,7 @@ ms.locfileid: "103842083"
 
 
 
- 
+ 
 
 每個屬性都是由屬性的 **attributeSchema** 類別的 **schemaIDGUID** 來識別。 架構中的每個屬性都有自己的唯一 **schemaIDGUID**。 下列程式碼範例會使用字串來指定 Guid。 GUID 字串具有下列格式，其中每個 "X" 都會以十六進位數位取代： {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}。
 
@@ -295,6 +295,6 @@ HRESULT AllowAccessToScpProperties(
 
 
 
- 
+ 
 
- 
+ 

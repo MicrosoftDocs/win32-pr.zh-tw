@@ -4,12 +4,12 @@ description: 判斷 OS 是否可瞭解指定的 [DXCoreAdapterPreference](./ne-d
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 09/03/2019
-ms.openlocfilehash: 1678568eb17c0dd833c130e6184931c8896261e9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f8a42040ecd6c5667a3d33fb506fd97cfdfe53e8950c2e42b6068bbed6c19467
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682542"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502579"
 ---
 # <a name="idxcoreadapterlistisadapterpreferencesupported-method"></a>IDXCoreAdapterList：： IsAdapterPreferenceSupported 方法
 

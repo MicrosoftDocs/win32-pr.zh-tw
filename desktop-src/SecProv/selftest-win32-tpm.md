@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 8681ee8ca49b8b2f7de550ffc5baa0ff8c0c9470
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 42e0cf4e458be4ff95c05086d603f64d17fb7ff3c3da5a6781529d4632627f75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891373"
 ---
 # <a name="selftest-method-of-the-win32_tpm-class"></a>Win32 Tpm 類別的 SelfTest 方法 \_
 
@@ -60,7 +60,7 @@ uint32 SelfTest(
 
 
 
-| 傳回碼/值                                                                                                                                 | Description                             |
+| 傳回碼/值                                                                                                                                 | 描述                             |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl> | 此方法已成功執行。<br/> |
 
@@ -78,8 +78,8 @@ uint32 SelfTest(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                      |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                            |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

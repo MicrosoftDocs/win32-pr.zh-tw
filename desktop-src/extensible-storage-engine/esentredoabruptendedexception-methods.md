@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102595
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 77791d314b32aae7c512e074d8bfc886581f7ccf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4925a98b830a9460d5ce582b4956087efa3d9bd8f6797b255214b5f6f4bcc81d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119971145"
 ---
 # <a name="esentredoabruptendedexception-methods"></a>EsentRedoAbruptEndedException 方法
 

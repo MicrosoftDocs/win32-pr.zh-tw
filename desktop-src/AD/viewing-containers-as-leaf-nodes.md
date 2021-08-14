@@ -9,12 +9,12 @@ keywords:
 - 分葉廣告，以分葉節點形式來查看容器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1631526ed78132829a7576960a997b13cc232b5f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 33713f70e1b84ded536a928f8489f4fd41461bd4e37de46a84036bc6370327db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182252"
 ---
 # <a name="viewing-containers-as-leaf-nodes"></a>以分葉節點形式來查看容器
 
@@ -26,6 +26,6 @@ Active Directory Domain Services 中的任何物件都可以是其他物件的�
 2.  使用 [**IADs：:P**](/windows/desktop/api/iads/nf-iads-iads-put) 的錯誤方法，將 **treatAsLeaf** 屬性設定為 **TRUE** 或 **FALSE**。
 3.  若要認可目錄的變更，請呼叫 [**IADs：： SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) 方法。
 
- 
+ 
 
- 
+ 

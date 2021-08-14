@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f3acac2c36b2962ff2ae9f4c3f36375f09abe0a8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 815c6a5c90aa331390bbe5e35b97bf93e1230dcfbdddbfcfbd078fc97e935ba8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426098"
 ---
 # <a name="ms-ds-is-possible-values-present-attribute"></a>ms-chap-可能-值-出現屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "104385454"
 |------------------------|---------------------------------------------------------|
 | 連結識別碼                | \-                                                      |
 | MAPI-Id                | \-                                                      |
-| System-Only            | 對                                                    |
-| 是-單一值       | 對                                                    |
+| System-Only            | 是                                                    |
+| 是-單一值       | 是                                                    |
 | 已編制索引             | 否                                                   |
 | 在通用類別目錄中      | 否                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                            |

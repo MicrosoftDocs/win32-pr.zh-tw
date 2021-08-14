@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 3db3b8410ca82a97a41fdf45ee3f866cb8d2e4b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbbea545f0f3c75281c5abb7e68795750521251392529d037bf18682e84dc436
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697076"
 ---
 # <a name="iportabledevicevaluesgetiportabledevicevaluescollectionvalue-method"></a>IPortableDeviceValues：： GetIPortableDeviceValuesCollectionValue 方法
 
@@ -61,7 +61,7 @@ HRESULT GetIPortableDeviceValuesCollectionValue(
 
 
 
-| 傳回碼                                                                                                            | Description                                                                                         |
+| 傳回碼                                                                                                            | 描述                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                                   | 此方法已成功。<br/>                                                                    |
 | <dl> <dt>**將 \_ 電子 \_ TYPEMISMATCH**</dt> </dl>                   | 索引 *鍵* 所指定的屬性不是 **IPortableDeviceValuesCollection** 介面。<br/> |

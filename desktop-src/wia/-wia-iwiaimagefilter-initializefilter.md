@@ -1,5 +1,5 @@
 ---
-description: 初始化篩選。 在每個映射下載之前，Windows 映像取得 (WIA) 2.0 中呼叫。
+description: 初始化篩選。 在每個映射下載之前，Windows 影像取得 (WIA) 2.0。
 ms.assetid: 0487900d-2103-4314-b18d-58ff97d6f524
 title: 'IWiaImageFilter：： InitializeFilter 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: a113c9493128a634ce61ccf7c0362bf7a9767f72
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43b818c3adc9926c4ba27f11f5d489ffc0b97e4443d0427e7a12067e9062072a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118440443"
 ---
 # <a name="iwiaimagefilterinitializefilter-method"></a>IWiaImageFilter：： InitializeFilter 方法
 
-初始化篩選。 在每個映射下載之前，Windows 映像取得 (WIA) 2.0 中呼叫。
+初始化篩選。 在每個映射下載之前，Windows 影像取得 (WIA) 2.0。
 
 ## <a name="syntax"></a>語法
 
@@ -43,18 +43,18 @@ HRESULT InitializeFilter(
 *pWiaItem2* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaItem2**](-wia-iwiaitem2.md) \** _
+類型： **[ **IWiaItem2**](-wia-iwiaitem2.md)\***
 
-指定代表預覽影像之 [_ *IWiaItem2* *](-wia-iwiaitem2.md)專案的指標。
+指定表示預覽影像之 [**IWiaItem2**](-wia-iwiaitem2.md) 專案的指標。
 
 </dd> <dt>
 
 *pWiaTransferCallback* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+類型： **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-指定應用程式 [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md)介面的指標。
+指定應用程式 [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) 介面的指標。
 
 </dd> </dl>
 
@@ -74,8 +74,8 @@ HRESULT InitializeFilter(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ ms.assetid: 5e49acc8-1ce1-45ff-b87c-04bdc653156a
 title: InkPicture (Msinkaut) 的 MouseUp 事件
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf652e1ad4110afb4819e5326a5a19a894a310a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ec780348191a4bfe8d0aadb0ad075a3784f49f23504c7dc02ca5f6da14c0d54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218372"
 ---
 # <a name="inkpicturemouseup-event"></a>InkPicture，事件
 
@@ -93,7 +93,7 @@ SHIFT 鍵的狀態。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

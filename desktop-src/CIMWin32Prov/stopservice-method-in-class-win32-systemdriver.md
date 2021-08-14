@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bb45a414ea9cc7198487dbb61d122722816f4728
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 516eeae7907f03a31522620adb08eafaaa4cbbb7928fd0e305c936f19b3d4cb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936286"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172585"
 ---
 # <a name="stopservice-method-of-the-win32_systemdriver-class"></a>Win32 >systemdriver 類別的 StopService 方法 \_
 

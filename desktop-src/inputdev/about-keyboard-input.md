@@ -16,12 +16,12 @@ keywords:
 - 死字元訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0de85794901be3fef37156bde29520039f85702b
-ms.sourcegitcommit: b3839bea8d55c981d53cb8802d666bf49093b428
+ms.openlocfilehash: eec8c9bf3c200ecf24ba3c114807a2bc6db1e0fbee44ef9c7a884c7059759fd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/16/2021
-ms.locfileid: "114373196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482927"
 ---
 # <a name="about-keyboard-input"></a>關於鍵盤輸入
 

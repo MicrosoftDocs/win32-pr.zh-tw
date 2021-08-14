@@ -3,7 +3,7 @@ title: 'PBM_SETMARQUEE 訊息 (Commctrl .h) '
 description: 設定捲軸模式的進度列。 這會使進度列像字幕一樣移動。
 ms.assetid: 6501bcb9-a711-470f-874f-f3484d3613b6
 keywords:
-- PBM_SETMARQUEE message Windows 控制項
+- PBM_SETMARQUEE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9229291113f034924cf9ce8112c0e99376d37932
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f724f87faa6e989fddb17e8d6fb3b115dd04859ea426addb7d4c0b893aff407a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986138"
 ---
 # <a name="pbm_setmarquee-message"></a>PBM \_ SETMARQUEE 訊息
 
@@ -65,8 +65,8 @@ ms.locfileid: "103934719"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

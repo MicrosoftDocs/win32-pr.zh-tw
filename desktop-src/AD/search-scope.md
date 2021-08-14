@@ -8,12 +8,12 @@ keywords:
 - Active Directory、搜尋、指定搜尋範圍
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7ff076e0410088c69eace25f204241c1c51c6fb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 11ea307e349ffc91da41e72798be9c6232c9a510e2edf5563e5407d3d58ef2fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183856"
 ---
 # <a name="specifying-the-search-scope"></a>指定搜尋範圍
 
@@ -23,6 +23,6 @@ ms.locfileid: "103681641"
 -   **一個層級**。 單一層級的搜尋僅限於基底物件的直屬子系，但會排除基底物件本身。 這項設定可以針對父物件的直屬子物件，執行目標搜尋。 例如，請考慮父物件 P1 及其直屬子系： C1、C2 和 C3。 一層搜尋會針對搜尋準則評估 C1、C2 和 C3，但不會評估 P1。 使用一層級的搜尋來列舉物件的所有子系。 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer)列舉會轉譯為一層級的搜尋。
 -   **子樹**。 子樹搜尋 (或深層搜尋) 包含所有子物件以及基底物件。 您可以要求 LDAP 提供者，以對其他 LDAP 目錄服務（包括其他目錄網域或樹系）的參考。
 
- 
+ 
 
- 
+ 
