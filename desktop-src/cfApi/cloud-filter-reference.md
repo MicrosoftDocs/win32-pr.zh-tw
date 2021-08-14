@@ -4,12 +4,12 @@ ms.assetid: 518988BF-9D75-4CA7-8622-33A5C9DD1F4E
 title: 雲端篩選參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3695529217f4eac4b7e85edb68866239cde1cb8a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dbc2b57faa721822fdf7d9bc1c65a9d177c5b7f4872038b4f509b5728541315c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311442"
 ---
 # <a name="cloud-filter-reference"></a>雲端篩選參考
 

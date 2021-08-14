@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b818a1fa0897d103e7d609a676212c6db428935f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 062ae6c5fa37b732411891427770761881429069d030e9266ab20adb3e2d3726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118509547"
 ---
 # <a name="interlockedmin-function"></a>InterlockedMin 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "104023498"
 
 ``` syntax
 void InterlockedMin(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -83,7 +83,7 @@ Nothing
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,6 +95,6 @@ Nothing
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

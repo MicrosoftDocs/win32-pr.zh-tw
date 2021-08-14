@@ -1,19 +1,19 @@
 ---
-description: 當執行緒主動與 Windows 映像取得通訊時 (WIA) 裝置 (例如，傳輸資料或寫入裝置屬性) WIA &\# 0034; 鎖定&\# 0034; 裝置。
+description: 當執行緒主動與 Windows 映像取得通訊時 (wia) 裝置 (例如，傳輸資料或寫入裝置屬性) wia &\# 0034; 鎖定&\# 0034; 裝置。
 ms.assetid: 59533937-284a-4732-a73b-d2e0b5a9a370
 title: 在多個執行緒或應用程式中與 WIA 裝置通訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a7a4b518093c3a0fc09534d67e22e5349d44d09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6f54cc8fe9a3b60d684ff9a62def2c0cf8862576034b16f58d3dd369d2b8be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209262"
 ---
 # <a name="communicating-with-a-wia-device-in-multiple-threads-or-applications"></a>在多個執行緒或應用程式中與 WIA 裝置通訊
 
-當執行緒主動與 Windows 映像取得通訊時 (WIA) 裝置 (例如，傳輸資料或寫入裝置屬性) WIA 「鎖定」裝置。 當裝置鎖定時，其他執行緒或進程都無法主動與該裝置通訊。
+當執行緒主動與 Windows 映像取得通訊時 (wia) 裝置 (例如，傳輸資料或寫入裝置屬性) wia 「鎖定」裝置。 當裝置鎖定時，其他執行緒或進程都無法主動與該裝置通訊。
 
 WIA 不會禁止多個執行緒或進程維護單一裝置的連接。 也就是說，裝置只會在實際通訊期間鎖定，而且兩個或多個應用程式可以同時選取單一裝置。
 

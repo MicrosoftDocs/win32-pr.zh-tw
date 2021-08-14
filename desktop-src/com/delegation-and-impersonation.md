@@ -4,12 +4,12 @@ description: 在用戶端/伺服器案例中，一部伺服器通常會呼叫另
 ms.assetid: 245bff1a-31d3-49ce-847e-c37d0c96f9d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 356708008274bdeb2aa80631bec777fbd02fd38d
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: b00f878c7bc0a37e7d60c246550ff404ed4d0c31312610ab63d1863b34aa52be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104559344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919471"
 ---
 # <a name="delegation-and-impersonation"></a>委派和模擬
 

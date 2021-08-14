@@ -4,12 +4,12 @@ description: HTTP 伺服器 Api 會在註冊期間使用路由資料庫來套用
 ms.assetid: d72aa213-b8e8-4fe9-b98c-41114d2cea56
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c1e02d2511d9967454d5cbddd93b2c0380d1172
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 74454d888cccf083e27fc9067c8a5485e286b4f55df4c5c18f2b2e490dc9db39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104463901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393841"
 ---
 # <a name="processing-registrations"></a>處理註冊
 
@@ -34,9 +34,9 @@ HTTP 伺服器 Api 會在註冊期間使用路由資料庫來套用存取檢查�
 
 註冊的存取檢查不包含委派許可權的檢查。 不會根據保留來檢查存取 (請參閱 [**HttpRemoveUrl**](/windows/desktop/api/Http/nf-http-httpremoveurl)) 。 刪除註冊的唯一需求，就是呼叫進程必須建立註冊。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 801be5f5a0d431f488da6e13e1f3082d147c5974
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e71a090558b31444c550146a2cb99f062080db9b80e7d69561ff891b93262b8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992968"
 ---
 # <a name="keysvc_blob-structure"></a>KEYSVC \_ BLOB 結構
 
@@ -61,7 +61,7 @@ typedef struct _KEYSVC_BLOB {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Rkeysvcc。h</dt> </dl> |
 
 

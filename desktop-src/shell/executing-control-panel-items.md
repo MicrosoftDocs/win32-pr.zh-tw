@@ -4,12 +4,12 @@ ms.assetid: c17167ab-e9a0-4290-955c-484d038b82af
 title: 執行主控台專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08cb6ae2fa08231d3876e1a5a636e404f519f4a6
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: fc1e2bc84ce5225176585f2da221fab6110ce79f9ff68dfc83b3c66125d623d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224274"
 ---
 # <a name="executing-control-panel-items"></a>執行主控台專案
 

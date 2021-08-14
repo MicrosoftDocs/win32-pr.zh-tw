@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102475
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 5314df1b4925e8a250b09196aaa658b322aabf2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e8eb5d5d6a7ae5464603278ec2ee8ee35fef6cf57908234234d658b8c6b868f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104570030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118492686"
 ---
 # <a name="esentoutoffilehandlesexception-methods"></a>EsentOutOfFileHandlesException 方法
 

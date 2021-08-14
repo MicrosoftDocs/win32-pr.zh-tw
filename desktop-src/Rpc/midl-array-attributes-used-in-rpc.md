@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、參考、MIDL 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb1c21d57aed15797a481a2c718f122f13aa797c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c60ff9a4d37472b54e90954b1c22c5f2b2df6632b54c8a850bc9a5223c189596
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928097"
 ---
 # <a name="midl-array-attributes-used-in-rpc"></a>RPC 中使用的 MIDL 陣列屬性
 
@@ -24,9 +24,9 @@ ms.locfileid: "103839619"
 -   [合併陣列屬性](combining-array-attributes.md)
 -   [\[ \] 陣列中的字串屬性](the-string-attribute-in-arrays.md)
 
- 
+ 
 
- 
+ 
 
 
 

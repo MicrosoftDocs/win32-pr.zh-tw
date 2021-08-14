@@ -34,12 +34,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b40be8b8e63f210d060c0f585c9fe31328ac6ed6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df4216b4babf74e5e5f15994c0d8387e0d5087c4f69e4d0245b59cb5765dfe88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352510"
 ---
 # <a name="imsrdpclientadvancedsettings5audioredirectionmode-property"></a>IMsRdpClientAdvancedSettings5：： AudioRedirectionMode 屬性
 
@@ -77,7 +77,7 @@ HRESULT get_AudioRedirectionMode(
 
 <span id="AUDIO_MODE_PLAY_ON_SERVER_1"></span><span id="audio_mode_play_on_server_1"></span>
 
-**音訊 \_\_ \_ 在 \_ 伺服器1上播放的模式** (已啟用音訊重新導向，且此選項為「在遠端電腦上離開」。 只有從遠端連線到執行 Windows Vista 的主機電腦時，才支援「離開遠端電腦」選項。 如果連接到執行 Windows Server 2008 的主機電腦，[離開遠端電腦] 選項會變更為 [不播放]。 ) 
+**音訊 \_\_ \_ 在 \_ 伺服器1上播放的模式** (已啟用音訊重新導向，且此選項為「在遠端電腦上離開」。 只有從遠端連線到執行 Windows Vista 的主機電腦時，才支援 [離開遠端電腦] 選項。 如果連接到執行 Windows Server 2008 的主機電腦，[離開遠端電腦] 選項會變更為 [不播放]。 ) 
 
 
 </dt> <dd></dd> <dt>

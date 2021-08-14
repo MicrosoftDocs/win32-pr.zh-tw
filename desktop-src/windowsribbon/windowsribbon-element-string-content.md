@@ -3,7 +3,7 @@ title: Content 屬性
 description: 表示字串資源的內容。
 ms.assetid: 86f34cdc-1311-4f52-979f-201d71bbb9e9
 keywords:
-- 字串內容視窗功能區
+- Content 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8912264e4f55568c190212227d2e305f9d676a1a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 526062956c6ab7498caac8712ba932d6e7ac1f2dd6307359183d2529e35fc8a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439503"
 ---
 # <a name="stringcontent-property"></a>Content 屬性
 
 表示字串資源的內容。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <String.Content/>
@@ -80,8 +80,8 @@ ms.locfileid: "106969968"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

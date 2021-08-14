@@ -4,12 +4,12 @@ description: BITS 會擴充 IIS 虛擬目錄以支援上傳。
 ms.assetid: 8214904e-8a95-4c4b-a1c5-91e84031587f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83fb689bb3c797a311ec7c2ef8134eb51ffd6f1a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1ce883bbd9f1af31bc7cafb10a2484f3a56ecbcffa7917a5a0e491a38da4701b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422189"
 ---
 # <a name="virtual-directory-cleanup"></a>虛擬目錄清理
 
@@ -22,8 +22,8 @@ BITS 會針對您所建立和啟用的每個虛擬目錄，將工作專案新增
 > [!Note]  
 > 如果在啟用虛擬目錄之後停用工作排程器，虛擬目錄清除程式將無法運作。
 
- 
+ 
 
- 
+ 
 
- 
+ 

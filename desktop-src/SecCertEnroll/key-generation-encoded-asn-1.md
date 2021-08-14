@@ -4,12 +4,12 @@ ms.assetid: d08c33f8-f372-44d3-8c8e-a26440e85c34
 title: 金鑰產生編碼的 ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f46e09273e32d4e7bd63ba035076ebb30facf18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 61c423d209edfe4dbfd6b4ed53511dc5ae8b2f1a4cb41f404d6fae4d927f93b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993588"
 ---
 # <a name="key-generation-encoded-asn1"></a>金鑰產生編碼的 ASN. 1
 

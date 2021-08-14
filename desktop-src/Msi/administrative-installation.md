@@ -4,12 +4,12 @@ ms.assetid: 5840cfab-a127-4b1f-a7af-a2d8e2786928
 title: 系統管理安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c3958bdc81ee43cd1a36e0d464f3e77032b4c2d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26968b6b81c1c2aafedfd74151b139f61062baa29c44b04977a119b14ab1a8f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381848"
 ---
 # <a name="administrative-installation"></a>系統管理安裝
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbadd0d7b2ddce46894d0acdbd90507ab0721142
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 6eacc372da07c13f46ef8ac0bccaa31ff944715ed56d922907c7f9fa13a36ef9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118425655"
 ---
 # <a name="ms-ds-transformation-rules-compiled-attribute"></a>ms DS-轉換-規則編譯的屬性
 
@@ -52,8 +52,8 @@ ms.locfileid: "103687227"
 |------------------------|-----------------------------------------------------------------------------------------------------|
 | 連結識別碼                | \-                                                                                                  |
 | MAPI-Id                | \-                                                                                                  |
-| System-Only            | 對                                                                                                |
-| 是-單一值       | 對                                                                                                |
+| System-Only            | 是                                                                                                |
+| 是-單一值       | 是                                                                                                |
 | 已編制索引             | 否                                                                                               |
 | 在通用類別目錄中      | 否                                                                                               |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                        |

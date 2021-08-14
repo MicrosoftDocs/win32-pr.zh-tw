@@ -4,12 +4,12 @@ ms.assetid: f430fd9a-f865-4cdb-b0ea-4e6d79913308
 title: 平臺路徑覆寫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a9a6ae6795b444c44db91d90ecd93efd19ea9dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c63cc1e6ba4b1cb53c26e380eeab95a96091d5159e8356d8f7067529a6b589d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119992618"
 ---
 # <a name="platform-path-override"></a>平臺路徑覆寫
 

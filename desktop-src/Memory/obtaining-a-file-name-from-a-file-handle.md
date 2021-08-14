@@ -4,16 +4,16 @@ ms.assetid: 359673bf-cc4c-4881-b946-ecdbef4a7ecb
 title: 從檔案控制代碼取得檔案名
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee7d0c6fd8ea6839fdbfbe887f7a28b38571013b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f905051fdc9c26d16c00f3f1acb2629ae06b8581abb5e5de50944a74e0c6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386411"
 ---
 # <a name="obtaining-a-file-name-from-a-file-handle"></a>從檔案控制代碼取得檔案名
 
-[**GetFinalPathNameByHandle**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea)在 windows Vista 和 windows Server 2008 中引進，將會傳回控制碼的路徑。 如果您需要在舊版的 Windows 上執行這項作業，下列範例會使用檔案對應物件，從控制碼取得檔案物件的檔案名。 它會使用 [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) 和 [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) 函數來建立對應。 接著，它會使用 [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) 函數來取得檔案名。 針對遠端檔案，它會列印從此函式收到的裝置路徑。 針對本機檔案，它會將路徑轉換成使用磁碟機號，並列印此路徑。 若要測試此程式碼，請建立 **主要** 函式，以使用 [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) 開啟檔案，並將產生的控制碼傳遞至 `GetFileNameFromHandle` 。
+[**GetFinalPathNameByHandle**](/windows/win32/api/fileapi/nf-fileapi-getfinalpathnamebyhandlea)在 Windows Vista 和 Windows Server 2008 中引進，將會傳回控制碼的路徑。 如果您需要在舊版的 Windows 上執行這項作業，下列範例會使用檔案對應物件，從控制碼取得檔案物件的檔案名。 它會使用 [**CreateFileMapping**](/windows/desktop/api/WinBase/nf-winbase-createfilemappinga) 和 [**MapViewOfFile**](/windows/win32/api/memoryapi/nf-memoryapi-mapviewoffile) 函數來建立對應。 接著，它會使用 [**GetMappedFileName**](/windows/win32/api/psapi/nf-psapi-getmappedfilenamea) 函數來取得檔案名。 針對遠端檔案，它會列印從此函式收到的裝置路徑。 針對本機檔案，它會將路徑轉換成使用磁碟機號，並列印此路徑。 若要測試此程式碼，請建立 **主要** 函式，以使用 [**CreateFile**](/windows/win32/api/fileapi/nf-fileapi-createfilea) 開啟檔案，並將產生的控制碼傳遞至 `GetFileNameFromHandle` 。
 
 
 ```C++

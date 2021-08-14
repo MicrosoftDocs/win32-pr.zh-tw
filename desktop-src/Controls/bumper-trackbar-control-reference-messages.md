@@ -4,12 +4,12 @@ description: '[資訊] 控制項訊息'
 ms.assetid: 1640fc7c-5fe5-4b11-9517-2608b837eedf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef3716595caafa684324c077fa6204344dd07182
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 5fe5d1010fdc737f3c7d098bec6b3ca38e180842e6f0f1ae2a62d378af1870db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414942"
 ---
 # <a name="trackbar-control-messages"></a>[資訊] 控制項訊息
 

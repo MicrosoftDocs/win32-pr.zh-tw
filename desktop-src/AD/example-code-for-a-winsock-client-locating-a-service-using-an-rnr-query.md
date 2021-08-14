@@ -5,16 +5,16 @@ ms.assetid: c05c7f69-d510-4feb-b426-1ae3a3ed5e16
 ms.tgt_platform: multiple
 keywords:
 - 使用 RnR 查詢 AD 尋找服務的範例程式碼
-- Windows 通訊端註冊和解析 AD，範例程式碼，使用 RnR 查詢來尋找服務
+- Windows通訊端註冊和解析 AD，範例程式碼，使用 RnR 查詢尋找服務
 - 使用 RnR 查詢 AD 尋找服務，範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee1202c981de8b4f1e0bd4f4299b1aabf1be520d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 076bf1cbd2c421c9d76b595a381f2884a398c0db42002e9deedfdd2e5084095d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191375"
 ---
 # <a name="example-code-for-locating-a-service-using-an-rnr-query"></a>使用 RnR 查詢找出服務的範例程式碼
 
@@ -97,9 +97,9 @@ int main(void)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

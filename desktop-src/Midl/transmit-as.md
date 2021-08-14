@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ec0cba27e994f7d77d441aef7bb783cad71cbad
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 18d1b8e9aae9a147c929fade8030babbf6b02fd87c9170370252522001742e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106969699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382828"
 ---
 # <a name="transmit_as-attribute"></a>傳輸 \_ 為屬性
 
-[ **\[ 傳輸 \_ 為 \]** ] 屬性會指示編譯器建立 **type-id * * ** 的關聯，這是用戶端和伺服器應用程式操作的呈現型別，且具有傳輸類型 **xmit 類型。**
+[ **\[ 傳輸 \_ 為 \]** ] 屬性會指示編譯器將 **型別識別碼**_（_ 用戶端和伺服器應用程式操作的呈現型別）與傳輸類型 **xmit 類型** 產生關聯。
 
 ``` syntax
 typedef [transmit_as(xmit-type) [[ , type-attribute-list ]] ] type-specifier declarator-list; 
@@ -96,9 +96,9 @@ void __RPC_USER type-id_free_xmit (
 
 
 
- 
+ 
 
- 
+ 
 
 用戶端 stub 會呼叫 *\_ \_ xmit * 的型別 id * *** 來為傳輸的型別配置空間，以及將資料轉譯成 xmit 類型的物件 *。* 伺服器 stub 會為原始資料類型配置空間，並 *\_ 從 \_ xmit * 呼叫類型識別碼 * * **，以將資料從其傳送的類型轉譯為呈現的型別。
 
@@ -180,7 +180,7 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**ref**](ref.md)
 </dt> <dt>
 
-[**字串**](string.md)
+[**string**](string.md)
 </dt> <dt>
 
 [**結構**](struct.md)
@@ -201,6 +201,6 @@ void __RPC_USER TREE_TYPE_free_xmit(
 [**void**](void.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

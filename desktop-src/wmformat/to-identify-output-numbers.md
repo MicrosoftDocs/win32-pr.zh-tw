@@ -3,7 +3,7 @@ title: 識別輸出編號
 description: 識別輸出編號
 ms.assetid: a2135a71-52e6-4f62-8be8-b9886be9b37c
 keywords:
-- Windows Media Format SDK，識別輸出編號
+- Windows媒體格式 SDK，識別輸出編號
 - Advanced Systems Format (ASF) ，識別輸出編號
 - ASF (Advanced 系統格式) ，識別輸出編號
 - Advanced Systems Format (ASF) 、output 數位和格式
@@ -11,12 +11,12 @@ keywords:
 - 輸出編號和格式，識別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c08f8e9a49d672efe7c04ecdde11ca4ef297d552
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c601481520632806ac56e12e16e1474336897d1be341c9d19df8e235d6355ab1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106967464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699378"
 ---
 # <a name="to-identify-output-numbers"></a>識別輸出編號
 
@@ -55,9 +55,9 @@ ms.locfileid: "106967464"
 [**使用輸出**](working-with-outputs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

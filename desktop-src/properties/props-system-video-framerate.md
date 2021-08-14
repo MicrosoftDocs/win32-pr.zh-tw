@@ -4,12 +4,12 @@ ms.assetid: cd5a2ae0-43ef-44e4-aa70-bca33baf2a56
 title: System.string
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bcbdee7991186621a9d636e2072cecafc70176d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ee60d2a222809616064b57a90f9909909c4165494f0d9b62a3c16acd42d0339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227370"
 ---
 # <a name="systemvideoframerate"></a>System.string
 

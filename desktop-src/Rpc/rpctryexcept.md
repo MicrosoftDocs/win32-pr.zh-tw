@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f5876a3fe0b33f96a5e10a9c712bdcadcbfca10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0c7a73ca80eb342b9a23fcaa4b922afe8d19f00e1f22ab82f8c6027ecc43d76d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925965"
 ---
 # <a name="rpctryexcept"></a>RpcTryExcept
 
@@ -27,7 +27,7 @@ ms.locfileid: "104104376"
 
 如需詳細資訊，請參閱 [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept)。
 
-**Windows Vista 和更新版本的 windows：** 建議將 [**RpcExceptionFilter**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter)用於最常見例外狀況的結構化例外狀況處理，做為使用 [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept)的自訂篩選準則的替代方案。  
+**Windows Vista 和更新版本的 Windows：** 建議對最常見的例外狀況進行結構化例外狀況處理，做為使用 [**RpcExcept**](/windows/desktop/api/Rpc/nf-rpc-rpcexcept)的自訂 [**篩選準則的**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcexceptionfilter)替代方案。  
 
 ## <a name="requirements"></a>規格需求
 

@@ -4,12 +4,12 @@ description: 媒體串流 API 提供下列列舉。
 ms.assetid: 5B5FF20E-DC9F-4817-B2D5-E5F15D215CAB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df90f38163c34d63798ee5e0155d38063f9149d9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: c6085767873bac4cf60245f05a01cc10be01089ae632557ed28f355ea1ac989a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104317007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473558"
 ---
 # <a name="media-streaming-enumerations"></a>媒體串流列舉
 

@@ -3,7 +3,7 @@ title: 'LVM_GETFOOTERRECT 訊息 (Commctrl .h) '
 description: 抓取清單視圖控制項頁尾的座標。 明確地傳送此訊息，或使用 ListView \_ GetFooterRect 宏。
 ms.assetid: f8816f35-c1d2-4072-81d3-0a9a3df53d64
 keywords:
-- LVM_GETFOOTERRECT message Windows 控制項
+- LVM_GETFOOTERRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 31df3a1b7b29e5ad9191da9e990e04daec99e948
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 39bc2c5cd724c9b5b4885b99123489e49ead52243d43388e7eb22808fb43a826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411457"
 ---
 # <a name="lvm_getfooterrect-message"></a>LVM \_ GETFOOTERRECT 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104093843"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

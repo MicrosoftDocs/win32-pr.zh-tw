@@ -488,12 +488,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f532c6b2c91b0edb25e06705ec392e6d88de036
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 95ad1b16ddb5e20d1bc2e431c96db377fd83118059ecf0d5c86b6e6fc75a0093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511970"
 ---
 # <a name="hlsl-errors-and-warnings"></a>HLSL 錯誤和警告
 
@@ -696,7 +696,7 @@ ms.locfileid: "104974489"
 | <span id="ERR_NOT_SIMPLE_LOOP"></span><span id="err_not_simple_loop"></span><dl> <dt>**錯誤 \_NOT \_ SIMPLE \_ 迴圈**</dt> <dt>3525</dt> </dl>                                                                | 迴圈無法對應到著色器的目標，因為目標不支援中斷。<br/>                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_GRADIENT_WITH_BREAK"></span><span id="err_gradient_with_break"></span><dl> <dt>**錯誤 \_\_使用 \_ BREAK**</dt> <dt>3526</dt>的漸層 </dl>                                                    | 漸層指令不能用在具有中斷的迴圈中。<br/>                                                                                                                                                                                                                                                                                                                           |
 | <span id="ERR_TEXTURE_OFFSET"></span><span id="err_texture_offset"></span><dl> <dt>**錯誤 \_材質 \_ 位移**</dt> <dt>3527</dt> </dl>                                                                    | 材質存取需要常值位移和多級取樣索引。<br/>                                                                                                                                                                                                                                                                                                                       |
-| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**錯誤 \_無法 \_ 分支**</dt> <dt>3528</dt> </dl>                                                                             | 無法在此設定檔上使用流量控制 (分支) 。<br/>                                                                                                                                                                                                                                                                                                                             |
+| <span id="ERR_CANT_BRANCH"></span><span id="err_cant_branch"></span><dl> <dt>**錯誤 \_無法 \_ 分支**</dt> <dt>3528</dt> </dl>                                                                             | 此設定檔無法使用 Flow 控制 (分支) 。<br/>                                                                                                                                                                                                                                                                                                                             |
 | <span id="ERR_MUST_BRANCH"></span><span id="err_must_branch"></span><dl> <dt>**錯誤 \_必須是 \_ 分支**</dt> <dt>3529</dt> </dl>                                                                             | 此特定情況下的簡維流程式控制件無法完成。<br/>                                                                                                                                                                                                                                                                                                              |
 | <span id="ERR_BIND_INVALID"></span><span id="err_bind_invalid"></span><dl> <dt>**錯誤 \_系結 \_ 無效**</dt> <dt>3530</dt> </dl>                                                                          | 執行的系結作業無效。 例如，緩衝區只能系結至一個位置或一個常數位移;不正確登錄規格，因為必須有特定的系結，但未發生;無法將 packoffset 元素與 cbuffer 中的 nonpackoffset 元素混合。<br/>                                                                                              |
 | <span id="ERR_NEED_UNROLL_FORCED_LOOP"></span><span id="err_need_unroll_forced_loop"></span><dl> <dt>**錯誤 \_需要 \_ 展開 \_ 強制 \_ 迴圈**</dt> <dt>3531</dt> </dl>                                       | 無法展開以 loop 屬性標記的迴圈。<br/>                                                                                                                                                                                                                                                                                                                    |

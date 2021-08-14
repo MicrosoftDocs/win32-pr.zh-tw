@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fbc34bdb27e40316ea1271bf0faa5d8c6b0abfb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b7fbe40d0fc7a28697d0e2fa9727f9e844eb39759db0dddf02c1d9e01bd843c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989908"
 ---
 # <a name="itssbresourcepluginstoreexreleasetargetlock-method"></a>ITsSbResourcePluginStoreEx：： ReleaseTargetLock 方法
 
@@ -56,7 +56,7 @@ HRESULT ReleaseTargetLock(
 
 ## <a name="remarks"></a>備註
 
-只有在已安裝 [KB3091411](https://support.microsoft.com/kb/3091411) 的 Windows Server 2012 R2 上，才可在 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md) 介面中使用此方法。 從 Windows Server 2016 開始， [**ITsSbResourcePluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore) 介面上可以使用這個方法。
+只有在 [KB3091411](https://support.microsoft.com/kb/3091411)安裝在 [**ITsSbResourcePluginStoreEx**](itssbresourcepluginstoreex.md)介面中的 Windows Server 2012 R2 上，才能使用這個方法。 從 Windows Server 2016 開始，可以在 [**ITsSbResourcePluginStore**](/windows/desktop/api/sbtsv/nn-sbtsv-itssbresourcepluginstore)介面上取得這個方法。
 
 ## <a name="requirements"></a>規格需求
 

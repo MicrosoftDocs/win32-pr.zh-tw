@@ -4,12 +4,12 @@ ms.assetid: dc325584-13f7-231a-e0c7-17f38d54ae11
 title: 使用方法：在 XAudio2 中使用 XAPOFX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77b0bb4cbeabb38f408d9102a2534634e8eed7cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 618e508d5e023c29c373193aa38da9d0e7f9f76c94a57f63e50df0c346426b6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118696149"
 ---
 # <a name="how-to-use-xapofx-in-xaudio2"></a>使用方法：在 XAudio2 中使用 XAPOFX
 

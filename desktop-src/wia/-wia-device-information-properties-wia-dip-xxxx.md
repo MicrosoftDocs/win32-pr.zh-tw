@@ -4,12 +4,12 @@ ms.assetid: d0b2999a-87ff-474b-9e63-ed7d898b1aa0
 title: '裝置資訊屬性 (WIA_DIP_XXXX) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dbbbe0611cef190af8ec48ddee5efc410e67f5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e306022c49e845ee56e10719db722bc7039ff04dbcdb88ea8a3343f3e6c37f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442126"
 ---
 # <a name="device-information-properties-wia_dip_xxxx"></a>裝置資訊屬性 (WIA \_ DIP \_ XXXX) 
 

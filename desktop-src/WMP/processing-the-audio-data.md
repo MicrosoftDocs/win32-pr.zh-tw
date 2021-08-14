@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，音訊資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acc14acb99aed20825ff970025363c6a795a0c8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 678e1debd586017bfbe748d4f2bed6d17607afcbe2719b5e3ecba8cabf667af6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334481"
 ---
 # <a name="processing-the-audio-data"></a>處理音訊資料
 
@@ -53,9 +53,9 @@ DWORD dwSamplesToProcess = (*cbBytesProcessed / pWave->nBlockAlign) * pWave->nCh
 [**執行 CEcho：:D oProcessOutput**](implementing-cecho--doprocessoutput.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

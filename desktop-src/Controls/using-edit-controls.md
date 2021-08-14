@@ -4,12 +4,12 @@ description: 本節提供執行編輯控制項的資訊和範例程式碼。
 ms.assetid: a35a8ad6-3207-49f0-ae38-f5151a606de0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6921a693a4b0a2c0a0c61920cd42ace10125e7a9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 42b4dd20442559f2a6c72ee5cf7dd730f8824013542aaee01b3b8336722868c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407944"
 ---
 # <a name="using-edit-controls"></a>使用編輯控制項
 

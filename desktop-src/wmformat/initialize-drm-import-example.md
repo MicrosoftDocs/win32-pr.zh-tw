@@ -3,10 +3,10 @@ title: 初始化 DRM 匯入範例
 description: 初始化 DRM 匯入範例
 ms.assetid: 46a64305-9aac-47df-992d-6aea8ecb54bf
 keywords:
-- Windows Media Format SDK，DRM 匯入
-- Windows Media Format SDK，匯入
-- Windows Media Format SDK，範例程式碼
-- Windows Media Format SDK，程式碼範例
+- Windows媒體格式 SDK，DRM 匯入
+- Windows媒體格式 SDK，匯入
+- Windows媒體格式 SDK，範例程式碼
+- Windows媒體格式 SDK，程式碼範例
 - 數位版權管理 (DRM) ，匯入
 - DRM (數位版權管理) ，匯入
 - 數位版權管理 (DRM) ，初始化匯入
@@ -25,12 +25,12 @@ keywords:
 - 用戶端擴充 Api，程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 450eeaa128c17d0d64511dd028cda3ce1c4f28c3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e9e91d0aac6e9d54dac4cd52de7d84140a9e6af580084bd22ccc0af7283900d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184049"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118702119"
 ---
 # <a name="initialize-drm-import-example"></a>初始化 DRM 匯入範例
 
@@ -110,9 +110,9 @@ EXIT:
 [**DRM 匯入範例**](drm-import-examples.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

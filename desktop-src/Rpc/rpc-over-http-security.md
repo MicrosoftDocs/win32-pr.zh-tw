@@ -4,12 +4,12 @@ description: 除了標準 RPC 安全性之外，RPC over HTTP 還提供三種類
 ms.assetid: 3a44c72b-b74c-433a-8826-1f76ca019f40
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 527cf5ff74120c41606d83a248e355a6ea46d9d5
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: e9f1ebd5a7198a2b2ccae7703b92011bbd45b037db2f7ef8eb116e28ef06d8e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104195693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926128"
 ---
 # <a name="rpc-over-http-security"></a>RPC over HTTP 安全性
 
@@ -31,7 +31,7 @@ RPC over HTTP 可以利用 IIS 的一般驗證機制。 您可以使用 IIS MMC 
 
 ![顯示 [RPC 屬性] 對話方塊的螢幕擷取畫面。](images/rpc-http-2.png)
 
-雖然您可以使用 RPC over HTTP，即使 RPC Proxy 虛擬目錄允許匿名存取，但基於安全性考慮，Microsoft 強烈建議您停用對該虛擬目錄的匿名存取。 相反地，RPC over HTTP 會啟用基本驗證、Windows 整合式驗證或兩者。 請記住，只有 RPC over HTTP v2 能夠針對需要基本或 Windows 整合式驗證的 RPC Proxy 進行驗證;如果停用不 **允許匿名存取** ，則 RPC over HTTP v1 將無法連接。 由於 RPC over HTTP v2 是更安全且穩固的執行，因此使用支援它的 Windows 版本將可提升安裝的安全性。
+雖然您可以使用 RPC over HTTP，即使 RPC Proxy 虛擬目錄允許匿名存取，但基於安全性考慮，Microsoft 強烈建議您停用對該虛擬目錄的匿名存取。 相反地，RPC over HTTP 會啟用基本驗證，Windows 整合式驗證或兩者。 請記住，只有 rpc over HTTP v2 能夠針對需要基本或 Windows 整合式驗證的 rpc Proxy 進行驗證;如果停用不 **允許匿名存取**，則 RPC over HTTP v1 將無法連接。 由於 RPC over HTTP v2 是更安全且穩固的執行，因此使用支援它的 Windows 版本將可提升安裝的安全性。
 
 > [!Note]  
 > 根據預設，RPC proxy 虛擬目錄會標示為允許匿名存取。 不過，rpc over HTTP v2 的 RPC proxy 會拒絕預設未驗證的要求。
@@ -42,7 +42,7 @@ RPC over HTTP 可以利用 IIS 的一般驗證機制。 您可以使用 IIS MMC 
 
 RPC over HTTP 可使用 SSL 加密 RPC over HTTP 用戶端與 RPC proxy 之間的流量。 RPC proxy 與 RPC over HTTP 伺服器之間的流量會使用一般 RPC 安全性機制進行加密，而且不會使用 SSL (即使用戶端和 RPC proxy 之間的 SSL 是) 選擇的。 這是因為流量的部分會在組織的網路內和防火牆後方進行。
 
-RPC over HTTP 用戶端與 RPC proxy 之間的流量（通常透過網際網路傳輸）除了針對 RPC 選擇的加密機制之外，還可以使用 SSL 進行加密。 在此情況下，路由的網際網路部分上的流量會變成雙向加密。 如果 RPC proxy 或周邊網路中的其他電腦遭到入侵，則透過 RPC proxy 加密流量會提供次要防禦。 因為 RPC proxy 無法將次要加密層解密，所以 RPC proxy 無法存取所傳送的資料。 如需詳細資訊，請參閱 [RPC OVER HTTP 部署建議](rpc-over-http-deployment-recommendations.md) 。 SSL 加密僅適用于 RPC over HTTP v2。
+RPC over HTTP 用戶端與 RPC proxy 之間的流量（通常透過網際網路傳輸）除了針對 RPC 選擇的加密機制之外，還可以使用 SSL 進行加密。 在此情況下，路由的網際網路部分上的流量會變成雙向加密。 如果 RPC proxy 或周邊網路中的其他電腦遭到入侵，則透過 RPC proxy 加密流量會提供次要防禦。 因為 RPC proxy 無法將次要加密層解密，所以 RPC proxy 無法存取所傳送的資料。 如需詳細資訊，請參閱[RPC over HTTP 部署建議](rpc-over-http-deployment-recommendations.md)。 SSL 加密僅適用于 RPC over HTTP v2。
 
 ## <a name="restricting-rpc-over-http-calls-to-certain-computers"></a>限制對特定電腦的 RPC over HTTP 呼叫
 

@@ -4,16 +4,16 @@ ms.assetid: 21a4d40b-52da-49e4-a374-afc4927e96e8
 title: 關於訊息和訊息佇列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f0bcf68dbacaae868de3aea1fdc4a5d11290821
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b237b13447abf6a1db2edc698e84755d44b6b3859714ad11af1184c6121ae7be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200854"
 ---
 # <a name="about-messages-and-message-queues"></a>關於訊息和訊息佇列
 
-與以 MS-DOS 為基礎的應用程式不同的是，以 Windows 為基礎的應用程式是事件驅動的應用程式。 它們不會進行明確的函式呼叫 (例如 C 執行時間程式庫呼叫) 來取得輸入。 相反地，它們會等待系統將輸入傳遞給它們。
+與以 ms-dos 為基礎的應用程式不同的是，Windows 為基礎的應用程式是事件驅動的。 它們不會進行明確的函式呼叫 (例如 C 執行時間程式庫呼叫) 來取得輸入。 相反地，它們會等待系統將輸入傳遞給它們。
 
 系統會將應用程式的所有輸入傳遞至應用程式中的各種視窗。 每個視窗都有一個稱為「視窗程式」的函式，每當系統有視窗的輸入時，系統就會呼叫這個函式。 視窗程式會處理輸入，並將控制權傳回系統。 如需視窗程式的詳細資訊，請參閱 [視窗程式](window-procedures.md)。
 
@@ -21,7 +21,7 @@ ms.locfileid: "106988458"
 
 本節將討論下列主題：
 
--   [Windows 訊息](#windows-messages)
+-   [Windows消息](#windows-messages)
 -   [訊息類型](#message-types)
     -   [系統定義的訊息](#system-defined-messages)
     -   [應用程式定義的訊息](#application-defined-messages)
@@ -39,7 +39,7 @@ ms.locfileid: "106988458"
 -   [廣播訊息](#broadcasting-messages)
 -   [查詢訊息](#query-messages)
 
-## <a name="windows-messages"></a>Windows 訊息
+## <a name="windows-messages"></a>Windows消息
 
 系統會以 *訊息* 的形式，將輸入傳遞至視窗程式。 訊息是由系統和應用程式所產生。 系統會在每個輸入事件（例如，當使用者輸入、移動滑鼠或按一下捲軸等控制項）時，產生一則訊息。 系統也會產生訊息，以回應應用程式所帶來的系統變更，例如當應用程式變更系統字型資源的集區，或調整其中一個視窗的大小時。 應用程式可以產生訊息，以導向自己的視窗來執行工作，或與其他應用程式中的 windows 進行通訊。
 

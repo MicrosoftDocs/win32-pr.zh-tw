@@ -4,16 +4,16 @@ ms.assetid: e3afe735-eca8-4fda-bd5b-cc0ab0b6a872
 title: 正則運算式語法參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 23c0de50ff37795032719d9bc90ee81891324ba9
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 33f09bbf81f86e3609f745358f0b18e35cf3f4712f3b1770fb3eb9c8becebc99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104195677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715528"
 ---
 # <a name="regular-expression-syntax-reference"></a>正則運算式語法參考
 
-您可以使用某些 Microsoft 手寫辨識器所瞭解的手寫正則運算式語法，來定義和指派自訂輸入範圍。 語法是 .NET Framework 中 [正則運算式語言實](/documentation/?url=%2flibrary%2fcpgenref%2fhtml%2fcpconRegularExpressionsLanguageElements.asp%3fframe%3dtrue) 作為的子集。
+您可以使用某些 Microsoft 手寫辨識器所瞭解的手寫正則運算式語法，來定義和指派自訂輸入範圍。 語法是 .NET Framework 中[正則運算式語言實](/documentation/?url=%2flibrary%2fcpgenref%2fhtml%2fcpconRegularExpressionsLanguageElements.asp%3fframe%3dtrue)作為的子集。
 
 使用手寫的正則運算式，以及其他類型的正則運算式的使用方式有一些差異。 手寫語法是用來指定將由辨識引擎比對的精確字串，而不是子字串。 For example, the regular expression s(\[a-z\]+)p would return matches for "soup", "stop", "instep", and "esophagus". Whereas, an equivalent handwriting regular expression such as s(!IS\_ONECHAR)+p would match "soup" and "stop", but not "instep" and "esophagus".
 

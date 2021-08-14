@@ -8,12 +8,12 @@ keywords:
 - 群組 AD，查詢網域中的群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a3abd4ec393fbeca1308ed59e08131b9b73e6b1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 6079050519fca00a8e689d8af5c3fae9ce6baec2c02406ae56bccc3616a50bef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184912"
 ---
 # <a name="querying-for-groups-in-a-domain"></a>查詢網域中的群組
 
@@ -25,6 +25,6 @@ ms.locfileid: "103842036"
 
 如需詳細資訊和示範如何在定義域中搜尋群組的程式碼範例，請參閱 [在網域中搜尋群組的範例程式碼](example-code-for-performing-a-query-in-a-domain.md)。
 
- 
+ 
 
- 
+ 

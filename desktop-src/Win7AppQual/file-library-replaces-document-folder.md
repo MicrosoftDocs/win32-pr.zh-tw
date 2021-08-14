@@ -4,19 +4,19 @@ ms.assetid: 80b97bfc-4212-4401-a4a9-d96e2f39be60
 title: 檔案庫取代檔資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 699c645d574012a419f77538bcc58d61a4938120
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: f1e8d08b176ebf4b5801a73695ea03f60a38eeb5a1ca51e1d90d9119dae5fcaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329668"
 ---
 # <a name="file-library-replaces-document-folder"></a>檔案庫取代檔資料夾
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -53,7 +53,7 @@ ms.locfileid: "108088376"
 
 程式庫本身就是檔案，而不是資料夾。 因此，因為應用程式嘗試將檔案串連至檔案，所以路徑操作可能會導致錯誤。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 使用 IFileDialog 時，您必須使用 GetResult 方法，而不是 GetFolder 和 GetFilename 的組合，如同您在先前的作業系統版本中所做的一樣。 盡可能使用 Shell Api 來與 Shell 命名空間中的專案互動和操作 (例如，IShellItem) 。
 

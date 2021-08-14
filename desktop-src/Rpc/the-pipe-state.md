@@ -4,12 +4,12 @@ description: 在伺服器上，MIDL 編譯器會建立可協調 push、pull 和�
 ms.assetid: 7cc59cb3-cf41-40f7-a28f-b896c319ae64
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6d7ec8af1907c98b7cf2098f4979dac62ef573a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8d12c5ef5549d89f3aee2833599f5930f2617478e66e16c3b78188eb63a40e7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924068"
 ---
 # <a name="the-pipe-state"></a>管道狀態
 
@@ -17,6 +17,6 @@ ms.locfileid: "104092904"
 
 如果您要將資料從某個檔案傳送到另一個檔案，用戶端 *狀態* 變數可以像檔案控制代碼一樣簡單。 它也可以是指向陣列中之元素的整數。 或者，您可以定義相當複雜的狀態結構來執行其他工作，例如協調 \[ [in](/windows/desktop/Midl/in)、 [out](/windows/desktop/Midl/out-idl)參數的推送和提取常式 \] 。
 
- 
+ 
 
- 
+ 

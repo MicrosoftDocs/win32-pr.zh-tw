@@ -4,12 +4,12 @@ ms.assetid: 8a53c8bf-b564-4b01-880c-6e3ae0aaff58
 title: System. FolderKind
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 979b7aeeab5f2117994aea89ba5fdaa7412a39f6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f95a6cbdabe9b48f48f85f4fad34f62aaee055c2dd4635da7e52583ca0d0f2d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118466613"
 ---
 # <a name="systemfolderkind"></a>System. FolderKind
 

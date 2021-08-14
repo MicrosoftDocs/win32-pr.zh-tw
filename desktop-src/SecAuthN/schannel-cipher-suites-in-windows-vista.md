@@ -4,12 +4,12 @@ ms.assetid: 380452e2-a9c8-4380-a3bf-9c7942a0c0c2
 title: Windows Vista 中的 TLS 加密套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cf270f0608666b7d766e3f063f24ea39204fd1
-ms.sourcegitcommit: b022a50bc0d11975dad6337b8f399c47234dffcf
+ms.openlocfilehash: dbf77d821612093e3015a0f8dee4cf51ae5bd9b95c653b61fe7a36271ba81ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106991380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918651"
 ---
 # <a name="tls-cipher-suites-in-windows-vista"></a>Windows Vista 中的 TLS 加密套件
 
@@ -80,11 +80,11 @@ Schannel 支援下列加密套件;不過，它們預設不存在。 您必須視
 -   \_ \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS EXPORT1024
 -   \_ \_ \_ 具有 \_ DES \_ CBC \_ SHA 的 TLS DHE DSS
 
-**Windows Server 2003 和 WINDOWS XP：** 如需支援的加密套件的詳細資訊，請參閱下列主題。
+**Windows Server 2003 和 Windows XP：** 如需支援的加密套件的詳細資訊，請參閱下列主題。
 
 | 主題                                                                         | 描述                                                                                                                        |
 |-------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| [TLS 加密套件](tls-cipher-suites.md)<br/>                         | 有關 Windows Server 2003 和 Windows XP 中的 TLS 通訊協定所提供之加密套件的資訊。<br/>              |
+| [TLS 加密套件](tls-cipher-suites.md)<br/>                         | Windows Server 2003 和 Windows XP 中的 TLS 通訊協定可用之加密套件的相關資訊。<br/>              |
 | [安全通訊端層通訊協定](secure-sockets-layer-protocol.md)<br/> | SSL 2.0 和3.0 的一般資訊，包括 Windows Server 2003 和 Windows XP 中的可用加密套件。<br/> |
 
 

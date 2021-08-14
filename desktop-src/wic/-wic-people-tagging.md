@@ -1,23 +1,23 @@
 ---
-description: 本主題將介紹新的可延伸中繼資料平臺 (XMP) 架構和 Windows 7 相片屬性 PeopleNames，可讓您在數位相片中標記個人。
+description: 本主題將介紹新的可延伸中繼資料平臺 (XMP) 架構和 Windows 7 相片屬性 PeopleNames，以便在數位相片中標記個人。
 ms.assetid: 557c3e9a-1756-4abb-8465-b12195ecbc91
 title: 人員標記總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e64f2080e51d4d340474e0610fcce9512fc72429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a262acd70474f75689e99a3bcd1087cd0117ae3602b78a90357aa932fdd7fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205700"
 ---
 # <a name="people-tagging-overview"></a>人員標記總覽
 
-本主題將介紹新的可延伸中繼資料平臺 (XMP) 架構和 Windows 7 相片屬性 [PeopleNames](../properties/props-system-photo-peoplenames.md) ，可讓您在數位相片中標記個人。 本主題也會討論如何使用 Windows 影像處理元件 (WIC) API 來讀取和寫入人員標記所需的中繼資料。
+本主題將介紹新的可延伸中繼資料平臺 (XMP) 架構和 Windows 7 相片屬性[PeopleNames](../properties/props-system-photo-peoplenames.md) ，以便在數位相片中標記個人。 本主題也會討論如何使用 Windows 影像處理元件 (WIC) API 來讀取和寫入人員標記所需的中繼資料。
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [簡介](#introduction)
 -   [人員標記](#people-tagging-overview)
     -   [人員名稱](#people-names)
@@ -31,11 +31,11 @@ ms.locfileid: "104115777"
 
 ## <a name="prerequisites"></a>必要條件
 
-若要瞭解本主題，您應該熟悉 WIC 解碼介面及其相關元件物件模型 (COM) 元件，如 [Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)所述。 它也有助於對影像處理中繼資料（尤其是 XMP）有大致熟悉。
+若要瞭解本主題，您應該熟悉 WIC 解碼介面及其相關元件物件模型 (COM) 元件，如[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)所述。 它也有助於對影像處理中繼資料（尤其是 XMP）有大致熟悉。
 
 ## <a name="introduction"></a>簡介
 
-Microsoft 建立了新的 XMP 架構來標記數位影像內的人員。 此架構可讓應用程式將影像中的個人名稱和位置，儲存為影像內的中繼資料。 除了新的架構，Windows 7 也提供新的相片屬性 [PeopleNames](../properties/props-system-photo-peoplenames.md) 。 這個新的屬性可讓應用程式讀取儲存在影像中繼資料中的個人名稱。 WIC 利用這些新功能，可讓應用程式輕鬆地讀取和寫入人員標記中繼資料到數位相片。
+Microsoft 建立了新的 XMP 架構來標記數位影像內的人員。 此架構可讓應用程式將影像中的個人名稱和位置，儲存為影像內的中繼資料。 除了新的架構，Windows 7 還提供新的相片屬性[PeopleNames](../properties/props-system-photo-peoplenames.md) 。 這個新的屬性可讓應用程式讀取儲存在影像中繼資料中的個人名稱。 WIC 利用這些新功能，可讓應用程式輕鬆地讀取和寫入人員標記中繼資料到數位相片。
 
 ## <a name="people-tagging"></a>人員標記
 
@@ -213,7 +213,7 @@ Microsoft Photo RegionInfo 1.2 架構會提供一組區域資訊的屬性。
 
 | 屬性              | 值類型 | 類別 | 描述                                                                                                    |
 |-----------------------|------------|----------|----------------------------------------------------------------------------------------------------------------|
-| MPRI:DateRegionsValid | Date       | 外部 | **選用** ：上次建立區域的日期。                                                          |
+| MPRI:DateRegionsValid | 日期       | 外部 | **選用** ：上次建立區域的日期。                                                          |
 | MPRI：區域          | 包區域 | 外部 | **必要** ：儲存人物標記區域。 請參閱下面的「Microsoft 照片區域架構」一節。 |
 
 
@@ -279,7 +279,7 @@ Microsoft Photo Region 1.2 架構為影像區域提供一組屬性。
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)

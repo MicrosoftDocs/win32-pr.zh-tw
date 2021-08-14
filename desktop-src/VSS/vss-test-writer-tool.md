@@ -4,12 +4,12 @@ ms.assetid: 02434cb9-390c-4cf0-9941-b833ace55685
 title: VSS 測試編寫器工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61ffdbb513697a701866be5ceeb40168e8c28368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b93f0b81bd5e27db9fdfb70ca52e6f43bbb1e853af87bc12e1d76f01d7966ef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344231"
 ---
 # <a name="vss-test-writer-tool"></a>VSS 測試編寫器工具
 
@@ -22,7 +22,7 @@ ms.locfileid: "106973646"
 
  
 
-在 Windows SDK 安裝中，可在 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` 64 位 Windows) 和 (中找到 VssSampleProvider 工具 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 。
+在 Windows SDK 安裝中，您可以在 `%Program Files(x86)%\Windows Kits\8.1\bin\x64` 64 (的位 Windows) 和中找到 VssSampleProvider 工具 `%Program Files(x86)%\Windows Kits\8.1\bin\x86` 。
 
 ## <a name="running-the-test-writer-tool"></a>執行測試編寫器工具
 
@@ -163,7 +163,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
 </RestoreMethod>
 ```
 
-這個範例會指定要求者應先嘗試將所有符合 c： files 的檔案還原 \\ \\ \* 至 c： \\ files 目錄。 如果無法取代這些檔案的其中一個，要求者應該改為將所有檔案還原至 c： \\ altfiles 目錄。 要求者應該使用 [**>ivssbackupcomponents：： AddAlternativeLocationMapping**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping) 方法來儲存這個替代位置對應。 如果測試寫入器設定為檢查是否已還原檔案，它也會檢查要求者是否已呼叫 **AddAlternativeLocationMapping**。
+這個範例會指定要求者應先嘗試將符合 c： files.txt 的所有檔案 \\ 還原 \\ \* 至 c： \\ files 目錄。 如果無法取代這些檔案的其中一個，要求者應該改為將所有檔案還原至 c： \\ altfiles 目錄。 要求者應該使用 [**>ivssbackupcomponents：： AddAlternativeLocationMapping**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-addalternativelocationmapping) 方法來儲存這個替代位置對應。 如果測試寫入器設定為檢查是否已還原檔案，它也會檢查要求者是否已呼叫 **AddAlternativeLocationMapping**。
 
 ## <a name="specifying-files-to-be-excluded"></a>指定要排除的檔案
 
@@ -190,7 +190,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
                    alternatePath="c:\files\spit" />
 ```
 
-此範例會將測試編寫器設定為在建立磁片區陰影複製之前，立即將符合 c： files 的所有檔案複製 \\ \\ \* 到 c： \\ files \\ 算目錄。 要求者必須從 c： \\ files \\ 算目錄備份檔案。 如果測試寫入器設定為刪除檔案，它會在建立陰影複製之前先刪除原始檔案，因此它們不會出現在陰影複製磁片區的 c： \\ files 目錄中。 在此情況下，會在 \\ \\ 建立陰影複製後刪除 c： files 算中的檔案，因此必須從 \\ 陰影複製磁片區上的 c： files \\ 算目錄進行備份。
+此範例會將測試編寫器設定為在 \\ 建立磁片區陰影複製之前，立即將符合 c： files.txt 的所有檔案複製 \\ \* 到 c： \\ files \\ 算目錄。 要求者必須從 c： \\ files \\ 算目錄備份檔案。 如果測試寫入器設定為刪除檔案，它會在建立陰影複製之前先刪除原始檔案，因此它們不會出現在陰影複製磁片區的 c： \\ files 目錄中。 在此情況下，會在 \\ \\ 建立陰影複製後刪除 c： files 算中的檔案，因此必須從 \\ 陰影複製磁片區上的 c： files \\ 算目錄進行備份。
 
 ## <a name="reporting-component-dependencies"></a>報告元件相依性
 
@@ -248,7 +248,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
                retryable="no" />
 ```
 
-此範例會導致寫入器在 [*凍結*](vssgloss-f.md) 事件期間失敗。 [**>ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 會將寫入器失敗報告為 VSS \_ E \_ WRITERERROR \_ NONRETRYABLE。
+此範例會導致寫入器在 [*凍結*](vssgloss-f.md) 事件期間失敗。 [**>Ivssbackupcomponents：： GatherWriterStatus**](/windows/desktop/api/VsBackup/nf-vsbackup-ivssbackupcomponents-gatherwriterstatus) 會將寫入器失敗報告為 VSS \_ E \_ WRITERERROR \_ NONRETRYABLE。
 
 以下是基本可重試錯誤的範例：
 
@@ -295,7 +295,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
     </Component>
 ```
 
-只有部分符合現有 ComponentFile (的部分檔案，與範例中的第一個部分檔案相同) 或在與現有 ComponentFile (相同的磁片區上的新部分檔案（如同在第二個部分檔案) 應該以此方式指定）。 對於此元件，要求者必須完全備份符合 c： .txt 的所有檔案， \\ \\ \* 但 partial.txt 除外。 接著，要求者必須備份指定的範圍 (其中範圍是位移，後面接著檔案 c： \\ files \\partial.txt 和 c： \\ files2partial.txt 的長度) \\ 。
+只有部分符合現有 ComponentFile (的部分檔案，與範例中的第一個部分檔案相同) 或在與現有 ComponentFile (相同的磁片區上的新部分檔案（如同在第二個部分檔案) 應該以此方式指定）。 對於此元件，要求者必須完全備份符合 c：檔案的所有 \\ 檔案 \\ \*.txt 但 partial.txt 除外。 接著，要求者必須備份指定的範圍 (其中範圍是位移，後面接著檔案 c： \\ files \\partial.txt 和 c： \\ files2partial.txt 的長度) \\ 。
 
 如果將寫入器設定為檢查檔案還原，則只會在還原時檢查部分檔案的備份範圍。 檔案其他部分的修改將會被忽略。 如果設定 TestWriter 根項目的 deletePartialFiles 屬性，則在建立陰影複製之後，會立即從原始磁片區中刪除部分檔案。
 
@@ -332,7 +332,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
     </Component>
 ```
 
-與部分檔案不同的是，差異檔案絕不會部分符合 ComponentFile 規格。 DifferencedFile 元素中的檔案規格應該完全符合 ComponentFile (，就像範例) 的第一個差異檔案中一樣，否則它不應該完全相符，而是在 ComponentFile (所參考的磁片區上，如同第二個差異檔案) 。 日期和時間值應該相對於本地時區，但在回報給要求者之前，將會轉換為 GMT。 在此範例中，只會備份符合 c： \\ files \\ \* .txt 或 c： \\ files2 \\ \* 的檔案，該檔案會在1/22/2003:12:44:17 之後進行修改。
+與部分檔案不同的是，差異檔案絕不會部分符合 ComponentFile 規格。 DifferencedFile 元素中的檔案規格應該完全符合 ComponentFile (，就像範例) 的第一個差異檔案中一樣，否則它不應該完全相符，而是在 ComponentFile (所參考的磁片區上，如同第二個差異檔案) 。 日期和時間值應該相對於本地時區，但在回報給要求者之前，將會轉換為 GMT。 在此範例中，只會備份符合 c： \\ files \\ \*.txt 或 c： \\ files2 \\ \*.txt 的檔案，這些檔案已在1/22/2003:12:44:17 之後修改。
 
 如果測試寫入器設定為檢查檔案還原，則只會檢查修改過的檔案進行還原。 如果設定 TestWriter 根項目的 deleteDifferencedFiles 屬性，就會在建立陰影複製後立即從原始磁片區中刪除差異的檔案。
 
@@ -344,7 +344,7 @@ TestWriter 根項目包含的屬性，可決定寫入器的各種行為。 以�
 
 ## <a name="more-information"></a>相關資訊
 
-測試寫入器支援這裡未描述的更多設定選項。 測試編寫器所有設定功能的完整架構，都是在 `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\x64\vsstools` (for 64 位 windows) 和 `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\vsstools` 32 位 windows)  (的 swriter.xml 中指定的。 這個檔案包含一個 XML 架構，可完整描述組成設定檔的所有元素和屬性。 在此檔案中的每個專案和每個屬性都會以描述，說明文件該元素或屬性的用途。
+測試寫入器支援這裡未描述的更多設定選項。 測試編寫器所有設定功能的完整架構，都是在 `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\x64\vsstools` (for 64 位 Windows) 和 `%ProgramFiles%\Microsoft SDKs\Windows\v7.0\bin\vsstools` (32 位 Windows) 中指定的 swriter.xml。 這個檔案包含一個 XML 架構，可完整描述組成設定檔的所有元素和屬性。 在此檔案中的每個專案和每個屬性都會以描述，說明文件該元素或屬性的用途。
 
  
 

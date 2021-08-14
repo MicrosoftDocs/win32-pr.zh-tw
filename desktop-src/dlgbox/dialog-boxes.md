@@ -7,18 +7,18 @@ keywords:
 - 對話方塊，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14db9d7e5543bcab9c3b004695e3367d464a3529
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 472643d39ecfd3035e047c2676417c646ad992445a8ac6eb88aecf0d358a40ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103933839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503506"
 ---
 # <a name="dialog-boxes-dialog-boxes"></a>對話方塊 (對話方塊) 
 
 對話方塊是應用程式建立以抓取使用者輸入的暫存視窗。 應用程式通常會使用對話方塊來提示使用者輸入功能表項目的其他資訊。 對話方塊通常會包含一或多個控制項 (子視窗) 使用者輸入文字、選擇選項或指示動作。
 
-Windows 也提供預先定義的對話方塊，支援一般功能表項目，例如 [ **開啟** ] 和 [ **列印**]。 使用這些功能表項目的應用程式應該使用通用對話方塊來提示輸入此使用者，不論應用程式類型為何。
+Windows 也提供可支援一般功能表項目（例如 **開啟** 和 **列印**）的預先定義對話方塊。 使用這些功能表項目的應用程式應該使用通用對話方塊來提示輸入此使用者，不論應用程式類型為何。
 
 ### <a name="in-this-section"></a>本節內容
 

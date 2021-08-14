@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，將網域使用者或群組新增至本機群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539e8fbbeed3d865a0878236745b7a3c74c76d27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdca65c26c6ab1195dcd0d7fc3f44b36e39bed1d15e97627664754c918e57e96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694686"
 ---
 # <a name="example-code-for-adding-a-domain-user-or-group-to-a-local-group"></a>將網域使用者或群組新增至本機群組的範例程式碼
 
@@ -106,7 +106,7 @@ HRESULT AddDomainUserToLocalGroup(LPCWSTR pwszComputerName,
 
 
 
-下列 Visual Basic 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組，或 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。
+下列 Visual Basic 程式碼範例會將網域使用者或群組新增到成員伺服器上的本機群組，或是 Windows NT 工作站或 Windows 2000 Professional 上執行的電腦。
 
 
 ```VB
@@ -154,9 +154,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

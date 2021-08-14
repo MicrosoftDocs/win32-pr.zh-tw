@@ -7,12 +7,12 @@ keywords:
 - 物件識別碼廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2253a6173e06f5d7b0c136a520db3e1e5a5e798e
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: af458a003c5a5a8586c32449674019fb6b241d52c4300e107898d91c75047214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "106966434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185509"
 ---
 # <a name="object-identifiers-ad-ds"></a>物件識別碼 (AD DS) 
 
@@ -36,13 +36,13 @@ Active Directory Domain Services 中的 Oid 包括由 ISO 針對 X. 500 類別�
 
 
 
- 
+ 
 
 如需詳細資訊，以及用來取得有效 Oid 以用於擴充 Active Directory 架構的兩個程式的討論，請參閱 [取得物件識別碼](obtaining-an-object-identifier.md)。
 
- 
+ 
 
- 
+ 
 
 
 

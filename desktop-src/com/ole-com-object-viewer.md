@@ -4,12 +4,12 @@ description: Oleview.exe 的 OLE COM 物件檢視器是一種 Visual C++ 提供�
 ms.assetid: 896a78a7-f023-4f32-b5bb-afee4a40a7fc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7ee3fa3f661ad27fc70f50c44ac794ffeadc21c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 576c033c83492b339b872800c63a1c62c700f858c8841d2e5181807e3bc3671f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310568"
 ---
 # <a name="ole-com-object-viewer"></a>OLE COM 物件檢視器
 
@@ -31,6 +31,6 @@ Oleview.exe 的 OLE COM 物件檢視器是一種 Visual C++ 提供的應用程�
 [轉換成 c + +](translating-to-c--.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

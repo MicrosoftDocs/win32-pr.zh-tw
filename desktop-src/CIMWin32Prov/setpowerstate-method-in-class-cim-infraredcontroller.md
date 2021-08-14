@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1730071111d1ebf86af229236826647626ca8f71
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11685ae605c8fb6fa6ba3ef9c49828b636c6deae5a5e513be7763b2a0ffeacf2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172963"
 ---
 # <a name="setpowerstate-method-of-the-cim_infraredcontroller-class"></a>CIM InfraredController 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定邏輯裝置所需電源狀態的 **ValueMap** 值。

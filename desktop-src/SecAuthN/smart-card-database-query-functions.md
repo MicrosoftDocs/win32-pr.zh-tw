@@ -4,12 +4,12 @@ ms.assetid: a30cbb99-522c-4752-bfcd-75be608785f1
 title: 智慧卡資料庫查詢函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd74c15eb475d5de9ccce84ba5936b724c0d8d82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 54050ad6e6b5b4d7e8c91f7cdefab683274d153050100545c9e1ed5452c47cdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917794"
 ---
 # <a name="smart-card-database-query-functions"></a>智慧卡資料庫查詢函數
 

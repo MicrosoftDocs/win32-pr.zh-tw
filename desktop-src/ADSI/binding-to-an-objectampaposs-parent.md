@@ -7,12 +7,12 @@ keywords:
 - ADSI ADSI （使用）系結至物件的父系
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7d72f3b3db3af9f13892494d3855dc5dcb2a74d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3b47bfd71491c3eb0e8410f421630cec20255364b1cfc41bba7d6b48ba67fdd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180393"
 ---
 # <a name="binding-to-an-objects-parent"></a>系結至物件的父系
 
@@ -61,9 +61,9 @@ HRESULT GetParentObject(IADs *pObject,   // Pointer to the object whose parent t
 
 
 
- 
+ 
 
- 
+ 
 
 
 

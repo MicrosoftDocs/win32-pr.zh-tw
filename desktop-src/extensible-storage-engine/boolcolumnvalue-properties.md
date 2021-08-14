@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.bool
 ms:contentKeyID: 55100954
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: ead8c2bb33f0ec366a4fc1dd930501b3a4ec388f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d338418b8855b8ba45e38b42f192cb7b1352f345f48e301eb78b1d0dc75534a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104565531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117902269"
 ---
 # <a name="boolcolumnvalue-properties"></a>BoolColumnValue 屬性
 

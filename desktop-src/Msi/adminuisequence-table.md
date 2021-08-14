@@ -4,12 +4,12 @@ ms.assetid: 7227846d-b755-4af9-acc3-e27742a5097a
 title: AdminUISequence 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8fb460f65d223e75ebd50a7587f5b3f4adeced8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 12feb7080d6d97ee86456bee694cdad57eee9873c9c7f64aecf0f4bd05817cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381696"
 ---
 # <a name="adminuisequence-table"></a>AdminUISequence 資料表
 

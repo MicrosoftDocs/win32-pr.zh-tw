@@ -4,12 +4,12 @@ ms.assetid: 8890c38c-d25f-4b85-b1be-9648e4ce6ecc
 title: XMU555 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d77ddbac50b10f90d282c8bb664939b76f7b14c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c42a86166d3950cc884a9ea5c1a4d4a14f89d83cca191a095cd74e8c6d20d17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500989"
 ---
 # <a name="xmu555-operators"></a>XMU555 運算子
 

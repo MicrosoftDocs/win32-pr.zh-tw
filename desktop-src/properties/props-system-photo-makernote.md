@@ -4,18 +4,18 @@ ms.assetid: 7472fdc6-683c-41cc-a008-f5be77521901
 title: MakerNote
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fffd3d6c22deb615c3252560cdd62b2241021f37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0e4391fe82acd2c756a59dbcc43ea657f883ec3fc3b8d34e5e211f206fcaceb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103693795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228353"
 ---
 # <a name="systemphotomakernote"></a>MakerNote
 
 交換影像檔 (EXIF) 擴充性機制，可讓相機製造商提供自訂資訊。 這個屬性不會顯示在 Shell 中，但可透過程式設計的方式提供給應用程式。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 57bc15fc5d3db78179335b039851d7d3b7cbf8a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 92065d92fa4f6655be5f9e92294bfb224bc840d3744b616c3ebf5e5d9a437a6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172001"
 ---
 # <a name="win32_printershare-class"></a>Win32 \_ PrinterShare 類別
 

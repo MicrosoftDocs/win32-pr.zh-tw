@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102423
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3e81d4bcfcbe8566424dedfe913d949bd6266040
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0f4968793da53815e5e52c18ef28713e87219803610096e930315eb4ccf9d861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118493157"
 ---
 # <a name="esentoutofdbtimevaluesexception-members"></a>EsentOutOfDbtimeValuesException 成員
 

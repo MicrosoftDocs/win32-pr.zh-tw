@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102492
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 54f933237fc8e61df5fbf2d9fe87221f97a16f26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd07aeaed2aa142424656e91c68fdb584e405256b682b3bc131bf4560e0a2d31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118491671"
 ---
 # <a name="esentquotaexception-methods"></a>EsentQuotaException 方法
 

@@ -4,12 +4,12 @@ ms.assetid: ffd7e531-3e0e-40c4-865e-34fa24321655
 title: 搭配大部分安全性封裝和通訊協定使用的程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1053f21fdd085680da1e72f0acf9c7f816e788ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 611ecbf7f2a124ea9352a71c7197d298f30a43391e3692303fcd3f7bc533cc4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920747"
 ---
 # <a name="procedures-used-with-most-security-packages-and-protocols"></a>搭配大部分安全性封裝和通訊協定使用的程式
 
@@ -20,7 +20,7 @@ ms.locfileid: "104511229"
 -   [使用 SecBufferDesc 和之 secbuffer](using-secbufferdesc-and-secbuffer.md)
 -   [初始化 SSPI](initializing-sspi.md)
 -   [使用驗證建立安全連線](establishing-a-secure-connection-with-authentication.md)
--   [確保訊息交換期間的通訊完整性](ensuring-communication-integrity-during-message-exchange.md)
+-   [確保訊息 Exchange 期間的通訊完整性](ensuring-communication-integrity-during-message-exchange.md)
 -   [結束 SSPI 會話](ending-an-sspi-session.md)
 
  

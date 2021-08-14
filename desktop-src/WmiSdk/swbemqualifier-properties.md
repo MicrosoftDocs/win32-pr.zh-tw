@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemQualifier 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ce3aed5adff79c200a8b7ee6fe4047408cbae96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f99b08846eb0570e7a0a695877cec6b9526030ca03d36870d2cb6c3c4500ff0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313019"
 ---
 # <a name="swbemqualifier-properties"></a>SWbemQualifier 屬性
 

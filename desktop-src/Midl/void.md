@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4b14a5ae4a2325f840d8a840cb0a1bc5283bb4a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 7ad758ba334114e13493e7b082f45f37dc6e68efba16dc3a55f14fa57a772d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106994953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382434"
 ---
 # <a name="void-attribute"></a>void 屬性
 
@@ -69,7 +69,7 @@ return-type function-name(
 
 ## <a name="remarks"></a>備註
 
-指標類型 **\* void**（以 C 描述可轉換成代表任何指標類型的泛型指標）在 MIDL 中會限制為與 **\[ 內容 \_ 控制碼 \]** 關鍵字搭配使用。
+指標類型 **void \* *_ （以 C 描述可轉換成代表任何指標類型的泛型指標）在 MIDL 中會限制為使用 _* \[ 內容 \_ 控制碼 \]** 關鍵字。
 
 ## <a name="examples"></a>範例
 
@@ -93,9 +93,9 @@ HRESULT InitHandle([out] MY_CX_HNDL_TYPE * ppCxHndl);
 [ (IDL) 檔案的介面定義](interface-definition-idl-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

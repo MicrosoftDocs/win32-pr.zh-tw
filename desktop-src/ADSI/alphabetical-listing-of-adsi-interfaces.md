@@ -7,12 +7,12 @@ keywords:
 - 依字母順序列出 ADSI 介面 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 760d8b39547248ca1ebaed04a07a8dff499a3a9f
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 9d101357760026c42ae0969832691a2d557c64363220fe662565c0dd3923ad40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104508120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692687"
 ---
 # <a name="alphabetical-listing-of-adsi-interfaces"></a>依字母順序排列的 ADSI 介面清單
 
@@ -41,7 +41,7 @@ ms.locfileid: "104508120"
 | [**IADsDNWithString**](/windows/desktop/api/Iads/nn-iads-iadsdnwithstring)                   | 資料類型                   |
 | [**IADsDomain**](/windows/desktop/api/Iads/nn-iads-iadsdomain)                               | 持續性物件           |
 | [**IADsEmail**](/windows/desktop/api/Iads/nn-iads-iadsemail)                                 | 資料類型                   |
-| [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension)                         | 分機                   |
+| [**IADsExtension**](/windows/desktop/api/Iads/nn-iads-iadsextension)                         | 延伸模組                   |
 | [**IADsFaxNumber**](/windows/desktop/api/Iads/nn-iads-iadsfaxnumber)                         | 資料類型                   |
 | [**IADsFileService**](/windows/desktop/api/Iads/nn-iads-iadsfileservice)                     | 持續性物件           |
 | [**IADsFileServiceOperations**](/windows/desktop/api/Iads/nn-iads-iadsfileserviceoperations) | 動態物件              |
@@ -91,8 +91,8 @@ ms.locfileid: "104508120"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

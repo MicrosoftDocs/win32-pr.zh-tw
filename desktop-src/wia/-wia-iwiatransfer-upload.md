@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 6aae6ca8f86d07ec052fdd59d24b0da2b96599d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66bd542d27f29aa8fd531b6f3d8089d296efe2d963bcf967a0c1ab07e6f0db8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208236"
 ---
 # <a name="iwiatransferupload-method"></a>IWiaTransfer：： Upload 方法
 
@@ -54,18 +54,18 @@ HRESULT Upload(
 *pSource* \[在\]
 </dt> <dd>
 
-類型： **[IStream](/windows/win32/api/objidl/nn-objidl-istream) \** _
+類型： **[IStream](/windows/win32/api/objidl/nn-objidl-istream)\***
 
 指定 [IStream](/windows/win32/api/objidl/nn-objidl-istream) 資料的指標。
 
 </dd> <dt>
 
-_pIWiaTransferCallback * \[ in\]
+*pIWiaTransferCallback* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+類型： **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-指定呼叫端 [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md)介面的指標。
+指定呼叫端之 [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) 介面的指標。
 
 </dd> </dl>
 
@@ -81,8 +81,8 @@ _pIWiaTransferCallback * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |

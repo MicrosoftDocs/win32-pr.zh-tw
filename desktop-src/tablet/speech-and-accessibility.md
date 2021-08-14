@@ -4,12 +4,12 @@ ms.assetid: 6fc4116b-1516-49e2-acad-da376d2efa50
 title: 語音和協助工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e3632b9cd225ee9146d56148974bc823210e553
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34b043b683b6754cb46752201cf0db39a1336f80b04e6f6dd1c2fb6e995d5a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715498"
 ---
 # <a name="speech-and-accessibility"></a>語音和協助工具
 

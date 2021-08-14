@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 05177b542217132bb10004a29faaa3cbe7fcce6b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6bc5af57908371eaf7fd7e75dab39bb966977de358fa9488e54d32e985a104c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338085"
 ---
 # <a name="playermediacollectionchange-event"></a>MediaCollectionChange 事件
 

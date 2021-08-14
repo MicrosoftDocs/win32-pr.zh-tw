@@ -4,12 +4,12 @@ ms.assetid: 131bf48a-0ab9-4b1f-9625-6fca5d15219f
 title: System. StorageProviderShareStatuses
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c92340e4afb1005146a32d2505292a5e60dec971
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f573ad8ee6b10828e5172755d7a28d8df61b7033f924c1007cec2a440f6145a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227505"
 ---
 # <a name="systemstorageprovidersharestatuses"></a>System. StorageProviderShareStatuses
 

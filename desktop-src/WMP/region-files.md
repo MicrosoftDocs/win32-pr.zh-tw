@@ -3,21 +3,21 @@ title: 區域檔案
 description: 區域檔案
 ms.assetid: 20952eb9-4cd1-4d7d-b5cc-f1741977745f
 keywords:
-- Windows Media Player 行動外觀、美工檔案
+- Windows Media Player行動外觀、美工檔案
 - 外觀、美工檔案
 - 適用于外觀、藝術的檔案
 - 適用于外觀、區域檔案的美工檔案
-- Windows Media Player 行動外觀、區域檔案
+- Windows Media Player行動外觀、區域檔案
 - 外觀，區域檔案
 - 外觀中的區域檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48d258afeab029df7218d3616b8aecdb62c72806
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48ce26db27ef6ad3373916337c6378886a2846f71f1d8aa0e8d5266aae23eff4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117934079"
 ---
 # <a name="region-files"></a>區域檔案
 
@@ -32,7 +32,7 @@ ms.locfileid: "104311114"
 > [!Note]  
 > Windows Media Player 10 行動面板中不需要區域藝術檔案，因為 Windows Media Player 10 行動裝置版或更新版本不支援按鈕類型。
 
- 
+ 
 
 下圖是一般的區域檔案。
 
@@ -47,9 +47,9 @@ ms.locfileid: "104311114"
 [**美工檔案**](art-files-mobile.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

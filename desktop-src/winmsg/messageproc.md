@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: 00a1d1c52d50d0d9a028829181c886a813112a15
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6da307d00c9291ab8c27b97c5012c9887b5c12fcbc541beb5a9b7e8c176ec5a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322404"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200780"
 ---
 # <a name="messageproc-function"></a>MessageProc 函式
 
@@ -70,7 +70,7 @@ LRESULT CALLBACK MessageProc(
 
 | 值 | 意義 |
 |-------|---------|
-| **MSGF_DDEMGR** 0x8001 | 當動態資料交換管理程式庫 (DDEML) 等待同步交易完成時，就會發生輸入事件。 如需 DDEML 的詳細資訊，請參閱 [動態資料交換管理程式庫](../dataxchg/dynamic-data-exchange-management-library.md)。 |
+| **MSGF_DDEMGR** 0x8001 | 當動態資料交換管理程式庫 (DDEML) 等待同步交易完成時，就會發生輸入事件。 如需 DDEML 的詳細資訊，請參閱[動態資料交換管理程式庫](../dataxchg/dynamic-data-exchange-management-library.md)。 |
 | **MSGF_DIALOGBOX** 0 | 輸入事件發生在訊息方塊或對話方塊中。 |
 | **MSGF_MENU** 2 | 輸入事件發生在功能表中。 |
 | **MSGF_SCROLLBAR** 5 | 輸入事件發生在捲軸中。 |
@@ -110,4 +110,4 @@ LRESULT CALLBACK MessageProc(
 
 [味精](/windows/win32/api/winuser/ns-winuser-msg)
 
-[鉤](hooks.md)
+[勾點](hooks.md)

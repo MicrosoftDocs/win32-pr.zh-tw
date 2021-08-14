@@ -6,12 +6,12 @@ keywords:
 - ACF MIDL、屬性、錯誤和例外狀況處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d7187ab887fa1d09b18385b86065775ca0e656f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8f780145854a463da9a983c7dccbb24b01c2eca16437bf1254f93ec34def5395
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106984515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384424"
 ---
 # <a name="error-and-exception-handling-acf-attributes"></a>錯誤和例外狀況處理 ACF 屬性
 
@@ -25,7 +25,7 @@ ms.locfileid: "106984515"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -34,6 +34,6 @@ ms.locfileid: "106984515"
 [匯入檔案和型別程式庫](importing-files-and-type-libraries.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

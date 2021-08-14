@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列連絡人屬性。
+description: Windows可攜式裝置支援下列連絡人屬性。
 ms.assetid: 8571b5a3-c3ac-40f2-86e1-33a8d5d0e550
 title: 'Contact 屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 27f96763139cfc3c6f582c93c3d9ad2c36a3f969
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e60d01816e5054ffe6af924464f47eeee297f211e8ea82cf6aaa05089edf23a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697624"
 ---
 # <a name="contact-properties"></a>連絡人屬性
 
-Windows 可攜式裝置支援下列連絡人屬性。
+Windows可攜式裝置支援下列連絡人屬性。
 
 
 
-| 屬性                                                  | VarType                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 屬性                                                  | VarType                    | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------------------------------|----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ CONTACT \_ 周年 \_ 日**                       | **VT \_ 日期**               | 連絡人的週年日。                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **WPD \_ CONTACT \_ ASSISTANT**                               | **VT \_ LPWSTR**             | 連絡人的名稱。                                                                                                                                                                                                                                                                                                                                                                                                                        |

@@ -4,16 +4,16 @@ description: IVMVirtualPC 介面會公開下列方法。
 ms.assetid: 3098D0ED-B16F-4CA1-A76B-83B4988CB6B3
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 197ba4ea639fc6c82fc6501a03a73122af9975b5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 102fe792e2656a45c997dec0d6e955044864837c0aa7c9366407e86810db8641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344295"
 ---
 # <a name="ivmvirtualpc-methods"></a>IVMVirtualPC 方法
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 [**IVMVirtualPC**](ivmvirtualpc.md)介面會公開下列方法。
 
@@ -39,6 +39,6 @@ ms.locfileid: "103933413"
 -   [**SetConfigurationValue 方法**](ivmvirtualpc-setconfigurationvalue.md)
 -   [**UnregisterVirtualMachine 方法**](ivmvirtualpc-unregistervirtualmachine.md)
 
- 
+ 
 
- 
+ 

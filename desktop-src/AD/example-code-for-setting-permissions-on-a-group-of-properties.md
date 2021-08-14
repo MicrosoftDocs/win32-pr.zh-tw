@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，設定屬性群組的許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fb45e75aaab9399fc2962b95397380f4bb4eeb3
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 220a9f306a4691aed53ec5c769405ae5db9f9c53fcb192cc383fbf9e8235def4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933070"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190096"
 ---
 # <a name="example-code-for-setting-permissions-on-a-group-of-properties"></a>設定屬性群組許可權的範例程式碼
 
@@ -132,6 +132,6 @@ HRESULT CreateAceChangePersonalInfoPropGroupOfUsers(LPWSTR pwszTrustee,
 
 
 
- 
+ 
 
- 
+ 

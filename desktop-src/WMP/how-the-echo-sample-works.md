@@ -10,12 +10,12 @@ keywords:
 - Echo DSP 外掛程式範例，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08814a6f0d604c7d566a0fc8d9f07b05446fca64
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 290cb56bbf1900dbcc09874213490f80cdc3af179ff243a2867bb232c3bb85c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338953"
 ---
 # <a name="how-the-echo-sample-works"></a>Echo 範例的運作方式
 
@@ -49,9 +49,9 @@ ms.locfileid: "106999782"
 [**Echo 範例總覽**](echo-sample-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

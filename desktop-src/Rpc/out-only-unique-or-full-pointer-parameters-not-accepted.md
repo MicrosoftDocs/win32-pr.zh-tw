@@ -4,12 +4,12 @@ description: MIDL 編譯器不接受僅限 \ out 的唯一或完整指標。 這
 ms.assetid: 0477980e-d76e-452f-9ab1-71a8ed8642d9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5b21baa370c1b68fb3c708a8fdb21115686646f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5b9511c21045892eb7a5b3230d8f0180578b489b06b5b5402fb0b11f6a3ff31a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927567"
 ---
 # <a name="out-only-unique-or-full-pointer-parameters-not-accepted"></a>Out-Only 不接受的唯一或完整指標參數
 
@@ -19,6 +19,6 @@ ms.locfileid: "104508040"
 
 而非 \[ **out**、 [unique](/windows/desktop/Midl/unique) \] 或 \[ **out**、 [ptr](/windows/desktop/Midl/ptr) \] 指標、使用 \[ **in**、 **out**、 **unique** \] 或 \[ **in**、 **out**、 **ptr** \] 指標，或使用另一個間接取值層級，例如指向有效的 unique 或 full 指標的參考指標。
 
- 
+ 
 
- 
+ 

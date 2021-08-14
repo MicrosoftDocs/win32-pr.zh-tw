@@ -4,12 +4,12 @@ ms.assetid: ec28fbdc-9198-472a-8976-7b5db09069a6
 title: 將 Xenroll.dll 對應至 CertEnroll.dll
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1fcaec56967f4c694b85d454bd21407c3af9029
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e8cd2286823dbf8029896c8656807f614dc0e1994fda908cd9b13ec8ad24c7c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694015"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119993527"
 ---
 # <a name="mapping-xenrolldll-to-certenrolldll"></a>將 Xenroll.dll 對應至 CertEnroll.dll
 
@@ -27,7 +27,7 @@ CertEnroll.dll 會採用一組較大型且更具結構化的 COM 介面。 下�
 -   [私用和公開金鑰函數](private-and-public-key-functions.md)
 -   [密碼編譯服務提供者函數](cryptographic-service-provider-functions.md)
 -   [憑證存放區功能](certificate-store-functions.md)
--   [個人資訊交換功能](personal-information-exchange-functions.md)
+-   [個人資訊 Exchange 功能](personal-information-exchange-functions.md)
 -   [Helper 函式](helper-functions.md)
 
 ## <a name="related-topics"></a>相關主題

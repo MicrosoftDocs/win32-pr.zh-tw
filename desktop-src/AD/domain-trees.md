@@ -7,12 +7,12 @@ keywords:
 - 域樹 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a21d2b36968615fd4e92912fdd94246ef8dda0c1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40a1e2ed05284d2a08735b048fb41d97d6597634f711094d0a3763c2d7f8be67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430510"
 ---
 # <a name="domain-trees"></a>網域樹狀結構
 
@@ -34,9 +34,9 @@ Windows 2000 會根據 Kerberos 安全性通訊協定，在網域之間建立信
 
 ![命名空間網域樹](images/namespace.png)
 
- 
+ 
 
- 
+ 
 
 
 

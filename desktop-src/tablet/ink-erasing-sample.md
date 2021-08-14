@@ -4,12 +4,12 @@ ms.assetid: cec912ee-1645-47e1-8988-626719549e55
 title: 筆跡清除範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46040781d778f936815e57ba96b4ca516617d9a1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5b56885835a2d42c3f4c050938658cfc7cdf5a5d5463309ae2f0a6d8021c817e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452076"
 ---
 # <a name="ink-erasing-sample"></a>筆跡清除範例
 
@@ -25,7 +25,7 @@ ms.locfileid: "104511026"
 
 表單的 `OnPaint` 事件處理常式會先繪製筆劃，視應用程式模式而定，可能會找出所有的 cusps 或交集，並將其標示為一個小的紅色圓圈。 尖點會標示筆劃的方向突然變更。 交集會標示一個筆劃與本身或另一個筆劃相交的點。
 
-每當重新繪製控制項時，就會發生 [繪製](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件。
+每當重新繪製控制項時，就會發生[小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件。
 
 > [!Note]  
 > 此範例會強制表單在每次刪除筆劃時重繪自己，或在應用程式模式變更時，使用表單的 [Refresh](/dotnet/api/system.windows.forms.control.refresh?view=netcore-3.1) 方法。

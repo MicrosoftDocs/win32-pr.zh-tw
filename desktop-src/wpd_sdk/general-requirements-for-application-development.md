@@ -4,16 +4,16 @@ ms.assetid: 8ac88d6f-fc4b-4253-932d-aaa3c801b18f
 title: 應用程式開發 (WPD API) 的一般需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d16be9656f72324b8f3687bca72146320561b0d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ad1ed207774494102f673bd7fb4f92acbdcb4629542d238613637d9509336c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430877"
 ---
 # <a name="general-requirements-for-application-development-wpd-api"></a>應用程式開發 (WPD API) 的一般需求
 
-若要建立 Windows 可攜式裝置應用程式，您必須在電腦上安裝 [Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads) 。 必要的標頭和程式庫會出現在下列清單中。
+若要建立 Windows 可攜式裝置應用程式，您必須在電腦上安裝[Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads) 。 必要的標頭和程式庫會出現在下列清單中。
 
 -   PortableDeviceGuids .lib
 -   PortableDevice。h

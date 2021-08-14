@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c803f9bde466b524b2ca1cb89062f5fc89d6865f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: beeee8256be3cda1e872fb481bb344e319c80d426e747391539ae5fec9f3c6b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118170948"
 ---
 # <a name="hdn_itemchanging-notification-code"></a>HDN \_ ITEMCHANGING 通知碼
 
@@ -57,8 +57,8 @@ HDN_ITEMCHANGING
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **HDN \_ITEMCHANGINGW** (Unicode) 和 **HDN \_ ITEMCHANGINGA** (ANSI) <br/>         |
 
