@@ -15,23 +15,23 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 51cd0dab17096fb8f7371a01ebabfca3abc595be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3958baa23228bdf32807cc4fdc07a471e625d553f57672e318a062038923b5af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119473888"
 ---
 # <a name="jet_pcwstr"></a>JET_PCWSTR
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_pcwstr"></a>JET_PCWSTR
 
 **JET_PCWSTR** 資料類型包含以 null 終止的常數 **Unicode** 字串 (char \*) 。
 
-**Windows vista： JET_PCWSTR** 是在 windows vista 中引進。
+**Windows vista： JET_PCWSTR** 是在 Windows vista 中引進。
 
 ```cpp
     typedef __nullterminated const WCHAR * JET_PCWSTR;

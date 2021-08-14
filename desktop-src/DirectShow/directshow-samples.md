@@ -1,19 +1,19 @@
 ---
-description: DirectShow 範例
+description: DirectShow樣品
 ms.assetid: 4166d5ca-5e02-49f6-bcb1-d448f8175a0c
-title: DirectShow 範例
+title: DirectShow樣品
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09f58c10615aaaa4305a30934e32ef9b11efb18c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: eb99271821fcef80b66b379b29bd42de0505011fd47c8dfee208e6f00b007208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821163"
 ---
-# <a name="directshow-samples"></a>DirectShow 範例
+# <a name="directshow-samples"></a>DirectShow樣品
 
-DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx)中。 它們位於 path \[ SDK 根 \] \\ 範例 \\ 多媒體 \\ DirectShow 下。
+DirectShow 範例包含在[Windows SDK](https://msdn.microsoft.com/windows/aa904949.aspx)中。 它們位於 path \[ SDK 根 \] \\ 範例 \\ 多媒體 \\ DirectShow 下。
 
 下表列出 Windows SDK 中提供的所有 DirectShow 範例。 如需有關如何建立範例的指示，請參閱 Windows SDK 中提供的檔。
 
@@ -38,9 +38,9 @@ DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa90
 </thead>
 <tbody>
 <tr class="odd">
-<td><a href="directshow-base-classes.md">DirectShow 基類</a></td>
+<td><a href="directshow-base-classes.md">DirectShow基類</a></td>
 <td>基礎類別庫</td>
-<td>設計用來執行 DirectShow 篩選器的 c + + 類別和公用程式函式。</td>
+<td>設計用來執行 DirectShow 篩選準則的 c + + 類別和公用程式函式。</td>
 
 </tr>
 <tr class="even">
@@ -62,9 +62,9 @@ DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa90
 
 </tr>
 <tr class="odd">
-<td><a href="dmo-demo-sample.md">SQL-DMO 示範範例</a></td>
-<td>Dmo</td>
-<td>透過音訊效果 SQL-DMO，從 WAV 檔案串流音訊資料。</td>
+<td><a href="dmo-demo-sample.md">DMO示範範例</a></td>
+<td>DMO</td>
+<td>透過音訊效果 DMO 將音訊資料從 WAV 檔案串流處理。</td>
 <td>DirectX SDK</td>
 </tr>
 <tr class="even">
@@ -178,7 +178,7 @@ DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa90
 <tr class="even">
 <td>DDrawXCL 範例</td>
 <td>播放</td>
-<td>使用覆迭<a href="overlay-mixer-filter.md">混音</a>器篩選上的<a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a>介面，在 DirectDraw 專屬全螢幕模式下播放影片。</td>
+<td>使用覆迭<a href="overlay-mixer-filter.md">Mixer</a>篩選上的<a href="/windows/desktop/api/Strmif/nn-strmif-iddrawexclmodevideo"><strong>IDDrawExclModeVideo</strong></a>介面，在 DirectDraw 專屬全螢幕模式下播放影片。</td>
 
 </tr>
 <tr class="odd">
@@ -190,12 +190,12 @@ DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa90
 <tr class="even">
 <td>EVRPlayer 範例</td>
 <td>播放</td>
-<td>示範如何使用 DirectShow EVR 篩選器。
+<td>示範如何使用 DirectShow EVR 篩選。
 <blockquote>
 [!Note]<br />
 需要 Windows Vista 或更新版本。
 </blockquote>
-<br/> <br/> 此範例可在適用于 Windows Server 2008 或更新版本的 Windows SDK 中取得。<br/></td>
+<br/> <br/> 此範例可在 Windows Server 2008 或更新版本的 Windows SDK 中取得。<br/></td>
 <td>strmbase .lib</td>
 </tr>
 <tr class="odd">
@@ -249,11 +249,11 @@ DirectShow 範例包含在 [Windows SDK](https://msdn.microsoft.com/windows/aa90
 
 ## <a name="additional-dependencies"></a>其他相依性
 
-一些範例連結至 DirectShow 基類庫。 若要建立這些範例，您必須先建立基類庫。 如需詳細資訊，請參閱 [DirectShow 基類](directshow-base-classes.md)。 所有範例篩選都需要基底類別庫。
+部分範例會連結到 DirectShow 基類庫。 若要建立這些範例，您必須先建立基類庫。 如需詳細資訊，請參閱[DirectShow 基類](directshow-base-classes.md)。 所有範例篩選都需要基底類別庫。
 
 除了 Windows SDK 之外，一些範例也需要 DirectX SDK。 若要建立這些範例，您必須安裝 DirectX SDK，並將% DXSDK \_ DIR% 環境變數設為等於 DIRECTX SDK 安裝路徑。
 
-許多 DirectShow 範例都會使用一組共通的標頭和原始程式檔，其位於 directrory \[ SDK 根 \] \\ 範例 \\ 多媒體 \\ DirectShow \\ 通用。 如果您將範例資料夾複製到另一個目錄，請務必同時複製 [一般] 資料夾。
+許多 DirectShow 範例都會使用一組常見的標頭和原始程式檔（位於 directrory \[ SDK 根 \] \\ 範例 \\ 多媒體 \\ DirectShow） \\ 。 如果您將範例資料夾複製到另一個目錄，請務必同時複製 [一般] 資料夾。
 
 ## <a name="related-topics"></a>相關主題
 

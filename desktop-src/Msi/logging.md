@@ -4,12 +4,12 @@ ms.assetid: d8649808-5dc3-4496-8c2f-da9b1512b5aa
 title: '記錄 (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a461051022791e414fe7e211e4dde33c7e83101b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e49993419b03e3c092fdf4d2b6d9d118ca4dc2d3d641c82c4fc829cbfd6b68c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103693051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945633"
 ---
 # <a name="logging-windows-installer"></a>記錄 (Windows Installer) 
 
@@ -23,7 +23,7 @@ ms.locfileid: "103693051"
 
 在下列登錄機碼底下，設定名為 [記錄] 的值。
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: b10478e5d0e34020f64d8775e857d9fa6af94d11
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9ea55b96fda6493d0f0790c3a75e5a4876131bab686b0f8aef1101dc98674f61
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119284518"
 ---
 # <a name="cim_card-class"></a>CIM \_ 卡片類別
 

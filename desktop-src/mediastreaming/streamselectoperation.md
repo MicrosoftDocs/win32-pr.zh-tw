@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a4a19ff2826f0f2ea3e5ef01841ce482d2f293a3
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 161434aad9c4eb20960950ba2dd1979c9caaa2ccc5bbe3c2683ee3e4f839a0b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461558"
 ---
 # <a name="streamselectoperation-class"></a>StreamSelectOperation 類別
 
@@ -50,7 +50,7 @@ ms.locfileid: "104196031"
 
 
 
-| 屬性                                                        | 存取類型           | Description                                                                                                                                                                             |
+| 屬性                                                        | 存取類型           | 描述                                                                                                                                                                             |
 |:----------------------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**Completed**](streamselectoperation-completed.md)<br/> | 讀取/寫入<br/> | 取得或設定當 [**SelectBestStreamAsync**](/previous-versions/windows/desktop/legacy/hh829002(v=vs.85)) 啟動的非同步作業完成時叫用的事件處理常式。<br/> |
 

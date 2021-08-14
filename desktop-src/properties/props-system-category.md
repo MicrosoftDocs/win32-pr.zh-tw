@@ -4,18 +4,18 @@ ms.assetid: dcdfb9c2-df14-4edd-8c45-149b327c8fcf
 title: System. Category
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfef254005098aba8652c80a5fa058969b6f307a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df844bb32c4c960e9a5a6e57f4d87f6e463e0058c2f7fda244ead88cbf1db875
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119397458"
 ---
 # <a name="systemcategory"></a>System. Category
 
-已取代。 可以指派給專案（例如檔或檔案）的類別。 這個屬性繼承自 OLE 文件屬性，並已針對 Windows Vista 取代。 應改為使用關鍵字。 較舊的程式碼會將此屬性視為 VT \_ LPSTR。
+已取代。 可以指派給專案（例如檔或檔案）的類別。 這個屬性繼承自 OLE 檔案屬性，並已針對 Windows Vista 取代。 應改為使用關鍵字。 較舊的程式碼會將此屬性視為 VT \_ LPSTR。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

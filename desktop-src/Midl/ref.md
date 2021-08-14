@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 82bc5762eea78b3ce73ab3db58e9bb567b051675
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 916556bdee83817f512c2d86eef2d768c3f6dbddf06b39408da5c25a2ba10ed2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013666"
 ---
 # <a name="ref-attribute"></a>ref 屬性
 
@@ -176,7 +176,7 @@ typedef [ struct | union ]
 [**最大值 \_ 為**](max-is.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**ptr**](ptr.md)
@@ -185,7 +185,7 @@ typedef [ struct | union ]
 [**大小 \_ 為**](size-is.md)
 </dt> <dt>
 
-[**字串**](string.md)
+[**string**](string.md)
 </dt> <dt>
 
 [**結構**](struct.md)
@@ -203,6 +203,6 @@ typedef [ struct | union ]
 [**獨特**](unique.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

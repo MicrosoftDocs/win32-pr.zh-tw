@@ -3,22 +3,22 @@ title: 未壓縮的媒體子類型
 description: 未壓縮的媒體子類型
 ms.assetid: 5586e62a-d0f5-45cc-a690-4efa244b3f32
 keywords:
-- Windows Media Format SDK，媒體類型
+- Windows媒體格式 SDK，媒體類型
 - Advanced Systems Format (ASF) 、媒體類型
 - ASF (Advanced 系統格式) 、媒體類型
-- Windows Media Format SDK，未壓縮的媒體子類型
+- Windows媒體格式 SDK，未壓縮的媒體子類型
 - Advanced Systems Format (ASF) 、未壓縮的媒體子類型
 - ASF (Advanced 系統格式) 、未壓縮的媒體子類型
 - 媒體類型、未壓縮的媒體子類型
 - 未壓縮的媒體子類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d7ea730b480f738caa6e0eeccb8674f3cdc4c9f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9cdbd691a3b43a83656feffa1be114b5180d24cc5e29359b4168a4656d99fd03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807338"
 ---
 # <a name="uncompressed-media-subtypes"></a>未壓縮的媒體子類型
 
@@ -49,13 +49,13 @@ ms.locfileid: "103672599"
 | WMMEDIASUBTYPE \_ YVU9       | YUV 以平面16:1:1 格式儲存的影片。                                                                                                                                                                                |
 | WMMEDIASUBTYPE \_ PCM        | 使用脈衝程式碼調製儲存的未壓縮音訊資料。                                                                                                                                                              |
 | WMMEDIASUBTYPE \_ DRM        | 以安全音訊路徑使用的未壓縮但加密音訊資料。                                                                                                                                                       |
-| WMSCRIPTTYPE \_ TwoStrings   | 由包含命令類型之字串和包含命令資料之字串組成的指令碼命令。 這是 Windows Media 格式 SDK 中唯一支援的腳本類型。                                     |
+| WMSCRIPTTYPE \_ TwoStrings   | 由包含命令類型之字串和包含命令資料之字串組成的指令碼命令。 這是 Windows 媒體格式 SDK 中唯一支援的腳本類型。                                     |
 | WMMEDIASUBTYPE \_ WebStream  | 包含 HTML 檔案的檔案傳輸資料和 Web 串流處理的元件。                                                                                                                                               |
 | WMMEDIASUBTYPE \_ VIDEOIMAGE | Windows Media 視訊9影像編解碼器的輸入類型。 範例是點陣圖影像和轉換資料的組合。                                                                                                |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -76,9 +76,9 @@ ms.locfileid: "103672599"
 [**列舉輸入格式**](to-enumerate-input-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

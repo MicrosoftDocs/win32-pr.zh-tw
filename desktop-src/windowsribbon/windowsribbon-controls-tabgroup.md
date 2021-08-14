@@ -4,12 +4,12 @@ description: 索引標籤群組是在執行時間根據檔或工作區狀態隱�
 ms.assetid: 5b74ff46-2543-43f3-ab42-dab1bc67a75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 253c803a07c0d27692442ddb7a291930a261a2ae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 56ddf1c34903f0660f6f5ead5eb76cd17934ac5cc987358f24c32bc127c73706
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316009"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851254"
 ---
 # <a name="tab-group"></a>Tab 群組
 
@@ -26,9 +26,9 @@ ms.locfileid: "104316009"
 > [!IMPORTANT]
 > 索引標籤群組不支援 [應用程式模式](ribbon-applicationmodes.md)。 不過，您可以在索引標籤群組內 [的個別索引](windowsribbon-controls-tab.md) 標籤控制項。
 
- 
+ 
 
-下列螢幕擷取畫面顯示 Windows 7 繪圖 [的內容](windowsribbon-controls-tab.md) 索引標籤。
+下列螢幕擷取畫面顯示 Windows 7 小畫家[的內容](windowsribbon-controls-tab.md)索引標籤。
 
 ![顯示內容索引標籤控制項的螢幕擷取畫面。](images/controls/contextualtab.png)
 
@@ -43,7 +43,7 @@ ms.locfileid: "104316009"
 > [!Note]  
 > 在某些情況下，可以透過 [**IUIFramework：： GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) 方法抓取屬性，並使用 [**IUIFramework：： SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty) 方法進行設定。
 
- 
+ 
 
 下表列出與 [索引標籤] 群組控制項相關聯的屬性索引鍵。
 
@@ -59,18 +59,18 @@ ms.locfileid: "104316009"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**TabGroup 標記元素**](windowsribbon-element-tabgroup.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

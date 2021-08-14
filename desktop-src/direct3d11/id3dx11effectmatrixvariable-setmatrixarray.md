@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ffe0f6a81e0086a9afd6da9e464f09ae577dab2
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 1c310dcb5d5469edd603b4d8801eed91366b68fbe9a25b089075d4bb8118a811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046086"
 ---
 # <a name="id3dx11effectmatrixvariablesetmatrixarray-method"></a>ID3DX11EffectMatrixVariable：： SetMatrixArray 方法
 

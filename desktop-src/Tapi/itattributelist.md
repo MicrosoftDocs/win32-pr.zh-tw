@@ -4,16 +4,16 @@ ms.assetid: 12806c2e-615c-4d78-a4bb-5cc35ea21175
 title: 'ITAttributeList 介面 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a2afbc7ab447188943c0f02e6c5a664bbcc4c6d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6a8dd0ac143791a09eedbd3fe575dcecb894a1fb6dbb218c8ecfdcadf60ebd60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762424"
 ---
 # <a name="itattributelist-interface"></a>ITAttributeList 介面
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITAttributeList** 介面會提供方法來取得和設定未中斷的屬性。 關於會話描述項通訊協定中的屬性字串位置 (SDP，請參閱 RFC 2327) 封包，方法會假設所有屬性字串都存在於指定媒體屬性之前，以及在所有通用屬性之後。 **ITAttributeList** 介面是藉由在 [**ITDirectoryObject**](/windows/desktop/api/Rend/nn-rend-itdirectoryobject)上呼叫 **QueryInterface** 來建立。
 

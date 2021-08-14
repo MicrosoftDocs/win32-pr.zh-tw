@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 974341eb996f2b5d3701757a5352ef56e2837390
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4da0f63c64a85290d5b36cad046446a9a0feedcd897869a0df1932ee2532a687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118898510"
 ---
 # <a name="signer-object"></a>簽署者物件
 
@@ -53,7 +53,7 @@ ms.locfileid: "106999678"
 
 
 
-| 屬性                                                                     | 存取類型           | Description                                                                                                                                                                                                                                                                                                                                 |
+| 屬性                                                                     | 存取類型           | 描述                                                                                                                                                                                                                                                                                                                                 |
 |:-----------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**AuthenticatedAttributes**](signer-authenticatedattributes.md)<br/> | 唯讀<br/>  | 已驗證之屬性的集合。<br/>                                                                                                                                                                                                                                                                                      |
 | [**憑證**](signer-certificate.md)<br/>                         | 讀取/寫入<br/> | 代表資料簽署者之憑證的 [**憑證**](certificate.md) 物件。<br/> 當這個屬性的值是直接或間接重設時，會重設物件的整個 [*狀態*](../secgloss/s-gly.md) 。<br/> 這是預設屬性。<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 9483bf1f-b40a-4e34-84f2-1892d3194b38
 title: CMSPCallBase MSPI 方法實作為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f8d24a407119a059849b6574ccd08cb8e7b497
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 212a5a57bfb92e923b76f28706572e785455b914b520669d35db7acf2ab589c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118869031"
 ---
 # <a name="cmspcallbase-mspi-methods-implemented"></a>CMSPCallBase MSPI 方法實作為
 

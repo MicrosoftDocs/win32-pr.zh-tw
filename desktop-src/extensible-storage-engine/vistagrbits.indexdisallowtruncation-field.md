@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d359acea8de5b72bc7137feefbc1d1281c07ed57
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 130a109e8e368aabd6113acd683473dd9324c1cb8a0fa6d7af09c05e2a6301b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117889850"
 ---
 # <a name="vistagrbitsindexdisallowtruncation-field"></a>VistaGrbits. IndexDisallowTruncation 欄位
 

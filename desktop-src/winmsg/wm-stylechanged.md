@@ -4,12 +4,12 @@ ms.assetid: 37bc4e1a-f75d-4851-8dee-97fa2da90254
 title: 'WM_STYLECHANGED 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d5429db06dea95dbbc003e432a2b619c5cf8d056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc84d3df087cb8667367830998675903a83f633eba4797e64125269d0c937c64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705938"
 ---
 # <a name="wm_stylechanged-message"></a>WM \_ STYLECHANGED 訊息
 
@@ -67,7 +67,7 @@ ms.locfileid: "104513884"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 接收計時或重複事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c395f77bdc9295b394fdee3b6d48894e07b09cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45808d9d43ddc7b5370b129e29a4fc268fe09856013599c70bb65187a1c0b918
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118817474"
 ---
 # <a name="receiving-a-timed-or-repeating-event"></a>接收計時或重複事件
 

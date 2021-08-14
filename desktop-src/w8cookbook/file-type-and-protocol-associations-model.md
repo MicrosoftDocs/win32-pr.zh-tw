@@ -4,19 +4,19 @@ description: 檔案類型和 URI 關聯模型
 ms.assetid: 4DE7DD08-088A-4E09-B1C7-AE9033EA533D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c78540a072405aade01a9f94503999ad105d2078
-ms.sourcegitcommit: ea4baf9953a78d2d6bd530b680601e39f3884541
+ms.openlocfilehash: aabcdb40bd38aeee24ee0e5d86f11651633a7eead1748810e8c1c6a846827690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "104024230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028856"
 ---
 # <a name="file-type-and-uri-associations-model"></a>檔案類型和 URI 關聯模型
 
 ## <a name="platforms"></a>平台
 
  **客戶** 端-Windows 8  
-**伺服器** -Windows Server 2012  
+**伺服器**-Windows Server 2012  
 
 
 
@@ -40,7 +40,7 @@ Windows 8 中的檔案類型和 URI 關聯模型已變更。 應用程式無法�
 -   [預設程式] 控制台可讓使用者設定應用程式的預設值，或為檔案類型、URI 配置或兩者設定：應用程式可以連結至 [控制台]
 -   您可以從 Windows 檔案總管變更預設值
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 由於這些變更，我們提供了此 API 指引：
 
@@ -75,6 +75,6 @@ Windows 8 中的檔案類型和 URI 關聯模型已變更。 應用程式無法�
 -   [Windows 8 Desktop 應用程式中檔案類型和 URI 關聯的最佳作法](/previous-versions/windows/desktop/legacy/cc144156(v=vs.85))
 -   [檔案類型關聯和自動播放組建會議簡報](https://channel9.msdn.com/events/BUILD/BUILD2011/PLAT-282T)
 
- 
+ 
 
- 
+ 

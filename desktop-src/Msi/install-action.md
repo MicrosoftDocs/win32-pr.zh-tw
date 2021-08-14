@@ -4,12 +4,12 @@ ms.assetid: bf290b59-1ecb-410f-b1f6-fdbeebebe3d3
 title: 安裝動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04279ba66f189ff83146fc2010e6843c20b404d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9b5f648084b7386465f6bb59dd6b523cb51489e4cb83677c0b5cb47fe845be42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119810998"
 ---
 # <a name="install-action"></a>安裝動作
 
@@ -25,7 +25,7 @@ ms.locfileid: "104026584"
 
 ## <a name="remarks"></a>備註
 
-系統不會從動作資料表序列內呼叫安裝動作，它會在呼叫 [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta) 時傳遞給 Windows Installer，或使用 '**/i**' 命令列參數來呼叫命令列可執行檔 Msiexec.exe，或呼叫任何可能執行安裝工作的安裝程式函數，例如 [**MsiConfigureFeature**](/windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea)、 [**MsiProvideComponent**](/windows/desktop/api/Msi/nf-msi-msiprovidecomponenta)或 [**MsiInstallMissingFile**](/windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea)。
+系統不會從動作資料表序列內呼叫安裝動作，它會在呼叫 [**MsiInstallProduct**](/windows/desktop/api/Msi/nf-msi-msiinstallproducta)時傳遞給 Windows Installer，或使用 '**/i**' 命令列參數來呼叫命令列可執行檔 Msiexec.exe，或呼叫任何可能執行安裝工作的安裝程式函數，例如 [**MsiConfigureFeature**](/windows/desktop/api/Msi/nf-msi-msiconfigurefeaturea)、 [**MsiProvideComponent**](/windows/desktop/api/Msi/nf-msi-msiprovidecomponenta)或 [**MsiInstallMissingFile**](/windows/desktop/api/Msi/nf-msi-msiinstallmissingfilea)。
 
  
 

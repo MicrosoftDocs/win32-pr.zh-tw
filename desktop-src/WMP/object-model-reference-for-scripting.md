@@ -4,38 +4,38 @@ description: 腳本的物件模型參考
 ms.assetid: a900fd55-2213-46db-84ad-93f199c60182
 keywords:
 - Windows Media Player，物件模型
-- Windows Media Player 行動裝置，物件模型
+- Windows Media Player行動裝置，物件模型
 - Windows Media Player 物件模型，參考
 - 物件模型，參考
 - ActiveX 控制項，參考
-- Windows Media Player ActiveX 控制項，參考
-- Windows Media Player Mobile ActiveX 控制項，參考
+- Windows Media Player ActiveX 控制項、參考
+- Windows Media PlayerMobile ActiveX 控制項，參考
 - 物件模型的參考，腳本
 - Windows Media Player，腳本參考
-- Windows Media Player 行動版、腳本參考
+- Windows Media Player行動、腳本參考
 - Windows Media Player 物件模型，腳本參考
 - 物件模型，腳本參考
 - Windows Media Player ActiveX 控制項，腳本參考
-- Windows Media Player 的行動 ActiveX 控制項，腳本參考
+- Windows Media PlayerMobile ActiveX 控制項，腳本參考
 - ActiveX 控制項，腳本參考
 - 腳本物件模型參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f20e5bacf6a1fd93579ce40e8957b7ce7aefae0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5058261a169646f0c6cff6f858d1073934039b13cf4ddac55221f2e209beed01
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119415458"
 ---
 # <a name="object-model-reference-for-scripting"></a>腳本的物件模型參考
 
-腳本的物件模型參考包含 Windows Media Player ActiveX 控制項物件模型的詳細資訊。 本節中的資訊是以設計來搭配 Microsoft JScript 之類的指令碼語言使用的樣式來呈現。
+腳本的物件模型參考包含 Windows Media Player ActiveX 控制項物件模型的詳細資訊。 本章節中的資訊是以設計來搭配 Microsoft JScript 等指令碼語言使用的樣式來提供。
 
 > [!Note]  
 > 除非另行明確陳述，否則 Windows Media Player 10 行動版或更新版本中完全支援所有方法、屬性和事件。
 
- 
+ 
 
 腳本的物件模型參考包含下列物件及其相關聯方法、屬性和事件的檔。
 
@@ -66,18 +66,18 @@ ms.locfileid: "106969062"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 物件模型參考**](windows-media-player-object-model-reference.md)
+[**Windows Media Player物件模型參考**](windows-media-player-object-model-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

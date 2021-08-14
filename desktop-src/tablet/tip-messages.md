@@ -4,12 +4,12 @@ ms.assetid: cb11ac2a-c7bb-4d13-b203-f4a4968dc7ae
 title: 文字輸入面板訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7766e0a0cd6c7b843f32b1ae5cd53fd4d1b8a37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d6bc62fd132e6c029468d8b00107a2e16218fe343b4a8cd23e7e1a7f87ef571
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119265518"
 ---
 # <a name="text-input-panel-messages"></a>文字輸入面板訊息
 

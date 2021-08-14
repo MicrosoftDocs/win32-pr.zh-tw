@@ -1,5 +1,5 @@
 ---
-description: 要求網路堆疊應該如何處理特定行為，而這種行為的預設處理方式可能會在 Windows 版本之間不同。
+description: 要求網路堆疊應該如何處理特定行為，這些行為的預設處理方式可能會在 Windows 版本之間不同。
 ms.assetid: 9574e21f-5ac4-4210-8031-2f3b07416813
 title: SIO_SET_COMPATIBILITY_MODE 控制程式代碼
 ms.topic: reference
@@ -8,18 +8,18 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: 58972595adb71a30728cb4817a80814cd987a6de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0cb99f4ad55d4b6df60c71845c40fdfa3c2a3c1dff167f8009c0d1711ad997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384048"
 ---
 # <a name="sio_set_compatibility_mode-control-code"></a>SIO_SET_COMPATIBILITY_MODE 控制程式代碼
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-**SIO \_ SET \_ 相容性 \_ 模式** 控制程式代碼會要求網路堆疊應該如何處理在不同 Windows 版本之間，其行為的預設處理方式可能不同的特定行為。
+**SIO \_ SET \_ 相容性 \_ 模式** 控制程式代碼會要求網路堆疊應該如何處理特定行為，而這種行為的預設處理方式可能會在 Windows 版本之間不同。
 
 若要執行這項作業，請使用下列參數呼叫 [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) 或 **WSPIoctl** 函數。
 
@@ -143,7 +143,7 @@ int WSPIoctl(
 
 ## <a name="remarks"></a>備註
 
-**SIO \_ 設定的 \_ 相容性 \_ 模式** IOCTL 會要求網路堆疊應該如何處理在不同 Windows 版本之間，其行為的預設處理方式可能不同的特定行為。
+**SIO \_ 設定的 \_ 相容性 \_ 模式** IOCTL 會要求網路堆疊應該如何處理特定行為，而這種行為的預設處理方式可能會在 Windows 版本之間不同。
 **SIO \_ 集 \_ 相容性 \_ 模式** 的輸入引數結構是在 *Mswsockdef .H* 標頭檔中定義的 **WSA \_ 相容性 \_ 模式** 結構中指定。
 在 *cbInBuffer* 參數中傳遞 **WSA \_ 相容性 \_ 模式** 結構的指標。
 此結構的定義如下：
@@ -159,7 +159,7 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 ```
 
 **BehaviorId** 成員中指定的值會指出所要求的行為。
-**TargetOsVersion** 成員中指定的值會指出所要求的行為的 Windows 版本。
+在 **TargetOsVersion** 成員中指定的值會指出所要求之行為的 Windows 版本。
 
 **BehaviorId** 成員可以是 *Mswsockdef .h* 標頭檔中所定義之 **WSA \_ 相容性 \_ 行為 \_ 識別碼** 列舉類型的其中一個值。
 **BehaviorId** 成員的可能值如下：
@@ -167,8 +167,8 @@ typedef struct _WSA_COMPATIBILITY_MODE {
 | 詞彙 | 描述 |
 |------|-------------|
 | WsaBehaviorAll | 這相當於要求針對 **WSA \_ 相容性 \_ 行為 \_ 識別碼** 定義的所有可能相容行為。 |
-| WsaBehaviorReceiveBuffering | 當 **TargetOsVersion** 成員設定為 Windows Vista 或更新版本的值時，即使在建立 tcp 連線之後，也允許使用 **SO \_ RCVBUF** 通訊端選項減少此通訊端上的 TCP 接收緩衝區大小。 當 **TargetOsVersion** 成員設定為早于 Windows Vista 的值時，在連線建立之後，就不允許使用 **\_ RCVBUF** 通訊端選項來降低此通訊端上的 TCP 接收緩衝區大小。 |
-| WsaBehaviorAutoTuning | 當 **TargetOsVersion** 成員設定為 Windows Vista 或更新版本的值時，會啟用 [接收視窗自動調整]，並將 [TCP 視窗縮放比例] 從預設值8縮減為2。 當 **TargetOsVersion** 設定為 Windows Vista 之前的值時，會停用 [接收視窗自動調整]。 [TCP 視窗調整] 選項也會停用，而 [最大值] 接收視窗大小則限制為65535個位元組。 即使在此通訊端上呼叫 **\_ RCVBUF** 通訊端選項，在建立連接之前指定大於65535個位元組的值，也無法在連接上協商 TCP 視窗調整選項。 |
+| WsaBehaviorReceiveBuffering | 當 **TargetOsVersion** 成員設定為 Windows Vista 或更新版本的值時，即使在建立 tcp 連線之後，也允許使用 **\_ RCVBUF** 通訊端選項來降低這個通訊端上的 TCP 接收緩衝區大小。 當 **TargetOsVersion** 成員設定為早于 Windows Vista 的值時，在連線建立之後，就不允許使用 **SO \_ RCVBUF** 通訊端選項來降低此通訊端上的 TCP 接收緩衝區大小。 |
+| WsaBehaviorAutoTuning | 當 **TargetOsVersion** 成員設定為 Windows Vista 或更新版本的值時，會啟用 [接收視窗自動調整]，並將 [TCP 視窗縮放比例] 從預設值8縮減為2。 當 **TargetOsVersion** 設定為早于 Windows Vista 的值時，會停用 [接收視窗自動調整]。 [TCP 視窗調整] 選項也會停用，而 [最大值] 接收視窗大小則限制為65535個位元組。 即使在此通訊端上呼叫 **\_ RCVBUF** 通訊端選項，在建立連接之前指定大於65535個位元組的值，也無法在連接上協商 TCP 視窗調整選項。 |
 
 **TargetOsVersion** 成員可以是 *sdkddkver.h .h* 標頭檔中定義的其中一個 NTDDI 版本常數。
 **TargetOsVersion** 成員的一些可能值如下：
@@ -205,11 +205,11 @@ WSopt 延伸模組會定義隱含的縮放比例 (2 到某些電源) ，用來�
 通告傳送者可以傳送的最大資料量是接收端流程式控制制機制，可防止寄件者傳送接收者無法儲存的資料。
 傳送主機只能在等待通知和接收視窗大小更新之前，傳送接收端所通告的資料量上限。
 
-在 Windows Server 2003 和 Windows XP 上，根據傳送介面的連結速度，最大的接收緩衝區空間（代表 TCP/IP 堆疊的接收視窗大小）有預設值。
+在 Windows Server 2003 和 Windows XP 上，代表 tcp/ip 堆疊的接收視窗大小的最大接收緩衝區空間，其預設值為根據傳送介面的連結速度。
 實際的值會自動調整為偶數的區段大小上限， (MSS) 在 TCP 連線建立期間協商。
 因此，若是 10 Mbit/sec 的連結，預設的接收視窗大小通常會設定為16K 位元組，而在 100 MBit/sec 連結上，預設的接收視窗大小會設為65535個位元組。
 
-在 Windows Server 2003 和 Windows XP 上，您可以使用特定介面或整個系統上的下列登錄值，手動設定 TCP/IP 堆疊的真正最大接收視窗大小：
+在 Windows Server 2003 和 Windows XP 上，您可以在特定介面或整個系統上，使用下列登錄值手動設定 tcp/ip 堆疊的真正最大接收視窗大小：
 
 `HKEY_LOCAL_MACHINE\SYSTEM\Current Control Set\Services\Tcpip\Parameters\TCPWindowSize`
 
@@ -229,7 +229,7 @@ WSopt 延伸模組會定義隱含的縮放比例 (2 到某些電源) ，用來�
 
 在 Windows Server 2003 和 Windows XP 上，預設為不會建立 TCPWindowSize 和 Tcp1323Opts 登錄值。
 因此，預設值是停用 WSopt 延伸模組，而且 TCP 接收視窗大小是由系統設定為最大值，最大值為65535個位元組（以連結速度為基礎）。
-藉由設定 Tcp1323Opts 登錄值，在 Windows Server 2003 和 Windows XP 上啟用視窗調整功能時，仍然只會在傳送者和接收者將 [同步處理 (SYN) 區段中包含 [TCP 視窗調整] 選項，以協調視窗縮放比例時使用 TCP 連接。
+藉由設定 Tcp1323Opts 登錄值，在 Windows Server 2003 和 Windows XP 上啟用視窗調整時，在 tcp 連線上的視窗調整，仍然只會在傳送給彼此的同步處理 (SYN) 區段中包含「tcp 視窗調整」選項，以協調視窗縮放比例時使用。
 在連接上使用視窗調整時，TCP 標頭中的 [視窗] 欄位會設為65535個位元組，而 [視窗縮放比例] 則是用來在建立連接時，以協調的視窗縮放因數來調整真正的接收視窗大小。
 
 應用程式可以使用 **\_ RCVBUF** 通訊端選項來指定連接的 TCP 接收視窗大小。
@@ -239,36 +239,36 @@ WSopt 延伸模組會定義隱含的縮放比例 (2 到某些電源) ，用來�
 TCP 接收視窗大小的理想值通常很難判斷。
 為了填滿傳送者與接收者之間的網路容量，接收視窗大小應設定為連線的頻寬延遲產品，也就是頻寬乘以來回時間。
 即使應用程式可以正確地判斷頻寬延遲的產品，仍不知道接收應用程式從傳入資料緩衝區取出資料的速度， (應用程式取得速率) 。
-雖然支援 TCP 視窗調整，但 Windows Server 2003 和 Windows XP 中的接收視窗大小上限仍然會限制輸送量，因為它是所有 TCP 連線的固定大小上限 (除非使用 **\_ RCVBUF**) 為每個應用程式指定，這樣可以增強某些連線的輸送量，並降低其他連線的輸送量。
+儘管支援 TCP 視窗調整，Windows Server 2003 和 Windows XP 中的接收視窗大小上限仍然會限制輸送量，因為它是所有 TCP 連線的固定大小上限 (除非使用 **\_ RCVBUF**) 為每個應用程式指定，這樣可以增強某些連線的輸送量，並降低其他連線的輸送量。
 此外，TCP 連線的固定接收視窗大小上限，不會隨著網路狀況的變更而改變。
 
-為了解決根據網路目前狀況正確判斷 TCP 連接之接收視窗大小上限值的問題，Windows Vista 中的 TCP/IP 堆疊支援「接收視窗自動微調」功能。
+為了解決根據網路目前狀況正確判斷 TCP 連線接收視窗大小上限值的問題，Windows Vista 中的 tcp/ip 堆疊支援「接收視窗自動微調」功能。
 啟用這項功能時，「接收視窗自動微調」會藉由測量頻寬延遲產品和應用程式取出率，持續判斷最佳的真正接收視窗大小，並根據變更的網路狀況調整真正的最大接收視窗大小。
 依預設，[接收視窗自動調整] 會啟用 TCP WSopt 延伸模組，為真正的視窗大小允許最多16776960個位元組。
 當資料在連線上流動時，TCP/IP 堆疊會監視連線、測量連接目前的頻寬延遲產品和應用程式接收率，以及調整實際的接收視窗大小以優化輸送量。
 TCP/IP 堆疊會根據網路條件變更 TCP 標頭中的 [視窗] 欄位的值，因為 WSopt 縮放比例是在第一次建立連接時固定的。
 
-Windows Vista 中的 TCP/IP 堆疊不再使用 **TCPWindowSize** 登錄值。
+Windows Vista 中的 tcp/ip 堆疊不再使用 **TCPWindowSize** 登錄值。
 TCP 對等互連之間有更高的輸送量，則會在資料傳輸期間增加網路頻寬的使用率。
 如果所有應用程式都經過優化以接收 TCP 資料，則網路的整體使用率可能會大幅增加，而使用服務品質 (QoS) 更重要的是在運作或接近容量的網路上。
 
-當您未使用 **WsaBehaviorReceiveBuffering** 指定 **SIO \_ SET \_ 相容性 \_ 模式** 時，Windows Vista 上的 [接收緩衝處理] 的預設行為是，在建立連線之後，不允許使用 [允許 **\_ RCVBUF** 通訊端] 選項來降低接收視窗大小。
+The default behavior on Windows Vista for receive buffering when **SIO\_SET\_COMPATIBILITY\_MODE** is not specified using **WsaBehaviorReceiveBuffering** is that no receive window size reductions using **SO\_RCVBUF** socket option are allowed after a connection is established.
 
-當您未使用 **WsaBehaviorAutoTuning** 指定 **SIO \_ SET \_ 相容性 \_ 模式** 時，Windows Vista 上的預設行為會自動調整，因為堆疊將會使用視窗比例因數8來自動調整視窗。
+使用 WsaBehaviorAutoTuning 時，若未指定 **SIO \_ SET \_ 相容性 \_ 模式** 時，Windows Vista 上的預設行為是使用來進行自動調整，則堆疊將會使用視窗比例因數8來自動調整視窗。
 請注意，如果應用程式使用 **\_ RCVBUF** 通訊端選項設定有效的接收視窗大小，堆疊將會使用指定的大小，且將停用 [視窗接收自動調整]。
-您也可以使用下列命令，完全停用 Windows 自動優化功能， `netsh interface tcp set global autotuninglevel=disabled` 在這種情況下，指定 **WsaBehaviorAutoTuning** 不會有任何影響。
-您也可以根據 Windows Server 2008 上設定的群組原則來停用視窗接收自動優化。
+您也可以使用下列命令，完全停用自動優化 Windows， `netsh interface tcp set global autotuninglevel=disabled` 在這種情況下，指定 **WsaBehaviorAutoTuning** 將不會有任何影響。
+根據 Windows Server 2008 上設定的群組原則，也可以停用視窗接收自動優化。
 
-某些網際網路閘道裝置和防火牆無法正確支援使用 WSopt 擴充功能和 Windows 縮放比例之 TCP 連線的資料流程時，Windows Vista 上需要 **WsaBehaviorAutoTuning** 選項。
-在 Windows Vista 上，接收器預設會將視窗縮放比例（最大值為16776960個位元組的視窗大小）協調為8。
-當資料開始在快速連結上流動時，Windows 一開始會先將 TCP 標頭的視窗欄位設定為256，並在 TCP 選項中將視窗比例因數設定為8，以在 [TCP 選項 (256 * 2 ^ 8 = 64KB) 的情況下，以 64 Kb 的真正視窗大小開始。
+某些網際網路閘道裝置和防火牆無法正確支援使用 WSopt 擴充功能和 Windows 縮放比例之 TCP 連接的資料流程時，Windows Vista 需要 **WsaBehaviorAutoTuning** 選項。
+在 Windows Vista 中，接收者預設會針對16776960個位元組的最大真正視窗大小，協調8的視窗縮放比例。
+當資料開始在快速連結上流動時，Windows 一開始會有 64 kb true 的視窗大小，方法是將 tcp 標頭的視窗欄位設定為256，並在 TCP 選項中將視窗比例因數設定為 8 (256 * 2 ^ 8 = 64kb) 。
 某些網際網路閘道裝置和防火牆會忽略視窗調整比例，並只查看指定為256的 TCP 標頭中的 [通告的視窗] 欄位，然後針對包含超過256個位元組之 TCP 資料的連接卸載連入封包。
 若要支援 TCP 接收視窗調整，閘道裝置或防火牆必須監視 TCP 交握，並在 TCP 連線資料中追蹤已協商的視窗調整係數。
 此外，其他平臺上的某些應用程式和 TCP 堆疊會忽略 TCP WSopt 延伸模組和視窗調整係數。
 因此傳送資料的遠端主機可能會以 TCP 標頭的 [時間範圍] 欄位中通告的速率傳送資料 (256 個位元組) 。
 這可能會導致接收端的資料接收速度非常緩慢。
 
-將 **BehaviorId** 成員設定為 **WsaBehaviorAutoTuning** ，並將 **TargetOsVersion** 到 Windows Vista，將視窗縮放比例縮減為2，因此 TCP 標頭中的 [視窗] 欄位一開始會設定為16384個位元組，而 [視窗縮放比例] 會設定為 [2]，表示初始真正的視窗接收大小為64k 個位元組。
+將 **BehaviorId** 成員設定為 **WsaBehaviorAutoTuning** ，而 **TargetOsVersion** 至 Windows Vista 會將視窗縮放比例縮減為2，因此 TCP 標頭中的 [視窗] 欄位一開始會設定為16384個位元組，而 [視窗縮放比例] 會設定為 [2]，表示初始真正的視窗接收大小為64k 個位元組。
 然後，視窗自動調整功能可將 TCP 標頭中的視窗欄位設定為65535個位元組，以增加最多262140個位元組的真正視窗接收大小。
 一旦建立通訊端之後，應用程式應該立即設定 **SIO \_ set \_ 相容性 \_ 模式** 的 IOCTL，因為在傳送 SYN 之後，這個選項並不合理或不適用。
 設定此選項的影響與下列命令相同： `netsh interface tcp set global autotuninglevel=highlyrestricted`

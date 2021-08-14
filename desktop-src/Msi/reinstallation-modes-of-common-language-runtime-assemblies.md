@@ -4,12 +4,12 @@ ms.assetid: 02b4ad60-d28d-44b8-955f-b367197e69c3
 title: Common Language Runtime 元件的重新安裝模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8512e4c6e888c7d67b2ca252184fa4f748445fb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2bee5678e00f3d981dd628b981409fa1d33ed5c043dc58a96c30eee0facc326
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117990877"
 ---
 # <a name="reinstallation-modes-of-common-language-runtime-assemblies"></a>Common Language Runtime 元件的重新安裝模式
 

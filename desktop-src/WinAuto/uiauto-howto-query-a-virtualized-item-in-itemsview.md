@@ -1,24 +1,24 @@
 ---
 title: 如何在專案視圖中查詢虛擬化專案
-description: 本主題說明如何使用 Microsoft 消費者介面自動化來抓取 Windows 7 專案視圖中虛擬化專案的 UI 資訊。
+description: 本主題說明如何使用 Microsoft 消費者介面自動化，在 [Windows 7 專案] 視圖中取出虛擬化專案的 UI 資訊。
 ms.assetid: a0bff8a1-47b1-4750-8086-e2e65a79099e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a098635d6e1045c6ff4573de088d8455685014d3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9196d62e7aa93b21aed15b76b8ced6a9520b27fb5bcee74a0e0d4ddc510c86f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119759241"
 ---
 # <a name="how-to-query-a-virtualized-item-in-items-view"></a>如何在專案視圖中查詢虛擬化專案
 
-本主題說明如何使用 Microsoft 消費者介面自動化來抓取 Windows 7 專案視圖中虛擬化專案的 UI 資訊。 本主題包含下列各節。
+本主題說明如何使用 Microsoft 消費者介面自動化，在 [Windows 7 專案] 視圖中取出虛擬化專案的 UI 資訊。 本主題包含下列各節。
 
 > [!Note]  
-> 本主題僅適用于 Windows 7。 請注意，本主題中所述的協助工具功能可能會在未來的 Windows 版本中變更。
+> 本主題僅適用于 Windows 7。 請注意，本主題中所述的協助工具功能在 Windows 的未來版本中可能會有所變更。
 
- 
+ 
 
 -   [概觀](#overview)
 -   [專案視圖樹狀結構](#items-view-tree-structure)
@@ -68,7 +68,7 @@ ms.locfileid: "104372530"
 
 ItemStatus 屬性是一個字串，可指定專案總數的計數和選取專案的計數（以逗號分隔）。 例如： "3 個專案，已選取1個專案"。 這個字串是當地語系化的，可直接傳達給使用者。
 
-ItemsView 元素的自訂屬性包含專案計數的一個屬性，而另一個屬性則包含選取專案計數。 包括：
+ItemsView 元素的自訂屬性包含專案計數的一個屬性，而另一個屬性則包含選取專案計數。 其中包括：
 
 -   ItemCount \_ 屬性 \_ GUID (ABBF5C45-5CCC-47b7-BB4E-87CB87BBD162) -view 中所有唯一專案的計數。 如果依據多重值屬性分組 (MVP) 讓單一專案可以多次出現，則每個專案只會計算一次。
 
@@ -78,7 +78,7 @@ ItemsView 元素的自訂屬性包含專案計數的一個屬性，而另一個�
 
      (UIAutomationType： [**UIAutomationType \_ Int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype)，程式設計名稱： "SelectedItemCount" ) 
 
-這些自訂屬性是在 Shlguid 中定義，其中包含在 Windows 軟體開發套件 (SDK) 中，而這些屬性則是透過 [**IUIAutomationRegistrar：： RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) 方法來註冊。 消費者介面自動化用戶端會使用 **RegisterProperty** 來抓取自訂屬性 (PROPERTYIDs) 的屬性識別碼。
+這些自訂屬性是在 Shlguid 中定義，其中包含在 Windows 軟體開發套件 (SDK) 中，而這些屬性則是透過 [**IUIAutomationRegistrar：： RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty)方法來註冊。 消費者介面自動化用戶端會使用 **RegisterProperty** 來抓取自訂屬性 (PROPERTYIDs) 的屬性識別碼。
 
 ## <a name="obtaining-an-item-index-with-respect-to-all-items"></a>取得與所有專案相關的專案索引
 
@@ -92,7 +92,7 @@ ItemStatus 屬性是一個字串，其中包含與專案總數相關之專案的
 
      (UIAutomationType： [**UIAutomationType \_ Int**](/windows/desktop/api/UIAutomationCore/ne-uiautomationcore-uiautomationtype)，程式設計名稱： "ItemIndex" ) 
 
-這個自訂屬性是在 Shlguid 中定義，其中包含在 Windows SDK 中，並透過 [**IUIAutomationRegistrar：： RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty) 方法註冊。 消費者介面自動化用戶端會使用 **RegisterProperty** 來抓取自訂屬性 (PROPERTYIDs) 的屬性識別碼。
+這個自訂屬性是在 Shlguid 中定義，其中包含在 Windows SDK 中，並透過 [**IUIAutomationRegistrar：： RegisterProperty**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iuiautomationregistrar-registerproperty)方法註冊。 消費者介面自動化用戶端會使用 **RegisterProperty** 來抓取自訂屬性 (PROPERTYIDs) 的屬性識別碼。
 
 ## <a name="obtaining-a-reference-to-a-vitualized-item"></a>取得 Vitualized 專案的參考
 
@@ -122,9 +122,9 @@ ItemsView 支援下列 [**FindItemByProperty**](/windows/desktop/api/UIAutomatio
 [使用虛擬化專案](uiauto-workingwithvirtualizeditems.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

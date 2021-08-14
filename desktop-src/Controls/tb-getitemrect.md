@@ -3,7 +3,7 @@ title: 'TB_GETITEMRECT 訊息 (Commctrl .h) '
 description: 抓取工具列中按鈕的周框。
 ms.assetid: 42c2c86e-0002-4029-be6a-fdfdf405b78c
 keywords:
-- TB_GETITEMRECT message Windows 控制項
+- TB_GETITEMRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e71a4c6540a1a7ff918b97b3a331e692f6d44529
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1c6dbfa4c7e305c4e2dfe53b45edaac1d6601631c920fa266c64292fd7e6d97e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829703"
 ---
 # <a name="tb_getitemrect-message"></a>TB \_ GETITEMRECT 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103843991"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

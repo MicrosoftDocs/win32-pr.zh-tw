@@ -4,18 +4,18 @@ ms.assetid: 33e4062e-55bb-438d-8636-670210b75647
 title: TaskStatusText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a215c5932fbaedfb2324cfd8439de2f8918f6ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fd23d5572176a7b29c4fc39c53d6e97f04b0152d7023ed7ba708decc1f21e5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459668"
 ---
 # <a name="systemcommunicationtaskstatustext"></a>TaskStatusText
 
 [TaskStatus](./props-system-communication-taskstatus.md)的使用者易記形式。 此值不能以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

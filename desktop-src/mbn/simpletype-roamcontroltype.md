@@ -7,12 +7,12 @@ MSHAttr:
 title: roamControlType 簡單類型
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 911e379773e7d8eabfb7a1524b1a21ba16718a53
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b88d3d024c7fe4340c3e1ee54492e947f2443a5112c807dde2d494d57175c96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065650"
 ---
 # <a name="span-idwwan_profile_v4simpletype_roamcontroltypespanroamcontroltype-simple-type"></a><span id="WWAN_profile_v4.simpleType_roamControlType"></span>roamControlType 簡單類型
 

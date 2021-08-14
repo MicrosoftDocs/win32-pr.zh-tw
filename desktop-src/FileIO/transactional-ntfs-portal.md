@@ -4,12 +4,12 @@ ms.assetid: e8c3ceed-d391-4934-b3f7-12c2123c8c23
 title: '交易式 NTFS (TxF) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7553bfc7cae0b5389762527f0ac726c674a6a03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a5b44a35e4f83c1389d1fc2e6bc3de4f97f5ad203bbdee4750c2fcd26d87f47
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119431908"
 ---
 # <a name="transactional-ntfs-txf"></a>交易式 NTFS (TxF) 
 
@@ -31,7 +31,7 @@ TxF 使用 [核心交易管理員](/windows/desktop/Ktm/kernel-transaction-manag
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-從 Windows Vista 開始，可以使用 TxF。
+從 Windows Vista 開始提供 TxF。
 
 ## <a name="in-this-section"></a>本節內容
 

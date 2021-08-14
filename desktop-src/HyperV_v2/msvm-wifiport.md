@@ -76,12 +76,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 47ec33236c55d281755b50449a8f33a56152a07a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66f8e86d83ba5eac09903d0c2be221e24ce24ab92c5060856938810a62f427a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117993668"
 ---
 # <a name="msvm_wifiport-class"></a>Msvm \_ WiFiPort 類別
 
@@ -526,7 +526,7 @@ class Msvm_WiFiPort : CIM_WiFiPort
 
 | 值                                                                                                                                                        | 意義                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| <span id="True"></span><span id="true"></span><span id="TRUE"></span><dl> <dt>**對**</dt> </dl>     | Wi-Fi 埠會系結至虛擬機器網路架構。 <br/>     |
+| <span id="True"></span><span id="true"></span><span id="TRUE"></span><dl> <dt>**真**</dt> </dl>     | Wi-Fi 埠會系結至虛擬機器網路架構。 <br/>     |
 | <span id="False"></span><span id="false"></span><span id="FALSE"></span><dl> <dt>**否**</dt> </dl> | Wi-Fi 埠未系結至虛擬機器網路架構。 <br/> |
 
 
@@ -1108,8 +1108,8 @@ class Msvm_WiFiPort : CIM_WiFiPort
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

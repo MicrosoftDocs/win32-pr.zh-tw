@@ -4,12 +4,12 @@ ms.assetid: 82be57d0-487c-4eb7-83d5-0dd2d53a452b
 title: 私用資料物件存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 142aecfe133a9c04237aacf58413e026c4cb3164
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 11037b04791789c7bd2be0624b27114889d550f954f91ec2d8b691207251920c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118893687"
 ---
 # <a name="private-data-object-access-rights"></a>私用資料物件存取權限
 
@@ -17,7 +17,7 @@ ms.locfileid: "104468876"
 
 
 
-| 存取類型          | Description                                      |
+| 存取類型          | 描述                                      |
 |----------------------|--------------------------------------------------|
 | 秘密 \_ 查詢 \_ 值 | 需要此存取類型才能取得秘密。 |
 | 密碼 \_ 集 \_ 值   | 需要此存取類型才能修改秘密。   |

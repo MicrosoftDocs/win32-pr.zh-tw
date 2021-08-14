@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c78b72dd703c13019c71b23af53790aa974927f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7a6ffead25e3127e6b8878736267de67712004eac945d76393ff96ac80513b89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389238"
 ---
 # <a name="playerkeypress-event"></a>Player. KeyPress 事件
 
@@ -57,7 +57,7 @@ Player.KeyPress(
 
 當擊鍵產生任何可列印的鍵盤字元、CTRL 鍵與標準字母中的字元或一些特殊字元的其中一個字元，以及 ENTER 鍵或倒退鍵時，就會發生此事件。
 
-事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入之 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
+事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
 
 **Windows Media Player 10** 行動裝置版：不支援這個事件。
 

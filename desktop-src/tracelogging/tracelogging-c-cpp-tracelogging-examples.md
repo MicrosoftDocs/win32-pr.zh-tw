@@ -4,12 +4,12 @@ description: 本主題包含 C/c + + Tracelogging 範例。
 ms.assetid: FB0A29B9-D1F7-4F13-AA75-5963A0699F7A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 727aa0f46abb9dcffa1d71dac0880c401003cff5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8f85a9ba4aca2da7405a908beb5cebbb2ef7be59422ea1d3706a83257e30106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118041749"
 ---
 # <a name="cc-tracelogging-examples"></a>C/c + + Tracelogging 範例
 
@@ -18,7 +18,7 @@ ms.locfileid: "104372061"
 > [!IMPORTANT]
 > 在編譯這些範例時，連結 advapi32.dll .lib。
 
- 
+ 
 
 -   [記錄內建資料類型](#log-intrinsic-data-types)
 -   [名稱事件欄位](#name-event-fields)
@@ -443,9 +443,9 @@ Error   3       error LNK2001: unresolved external symbol __imp__EventRegister@1
 
 請在您的專案中連結 advapi32.dll，以修正此錯誤。
 
- 
+ 
 
- 
+ 
 
 
 

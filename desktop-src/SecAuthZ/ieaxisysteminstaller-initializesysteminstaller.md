@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 874bee80e23051d5dfdd22e259395293ae532619
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9619557395ede0510e04378a03f2ded32fa7a9c829c8c6f40acdaf58b8e0fda2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414648"
 ---
 # <a name="ieaxisysteminstallerinitializesysteminstaller-method"></a>IeAxiSystemInstaller：： InitializeSystemInstaller 方法
 
@@ -65,7 +65,7 @@ HRESULT InitializeSystemInstaller(
 *pbstrNonce* \[擴展\]
 </dt> <dd>
 
-可以用來在呼叫其他方法時，用來共用狀態資訊的內容，用來驗證及下載 ActiveX 物件。
+可以用來在呼叫其他方法時，用來共用狀態資訊的內容，用來驗證和下載 ActiveX 物件。
 
 </dd> </dl>
 
@@ -81,7 +81,7 @@ HRESULT InitializeSystemInstaller(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista Business、Windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windowsvista Business、Windows vista Enterprise、Windows vista 旗艦版傳統型 \[ 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                 |
 | IID<br/>                      | IID \_ IeAxiSystemInstaller 定義為 a50ea6f8-4764-4299-b309-022b2a8b4d8d<br/>                   |
 

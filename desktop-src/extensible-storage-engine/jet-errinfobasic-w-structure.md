@@ -7,23 +7,23 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh475861(v=EXCHG.10)
 ms:contentKeyID: 37033567
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 99be77326fe9e037430203bf9744e550e8495fe1
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: f6a91d14fe636a2ccf3b00935af53db7caa0bf257833e72780d706e14822d5a3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103946278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401838"
 ---
 # <a name="jet_errinfobasic_w-structure"></a>JET_ERRINFOBASIC_W 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_errinfobasic_w-structure"></a>JET_ERRINFOBASIC_W 結構
 
 **JET_ERRINFOBASIC_W** 結構會定義傳入 JET_ErrorInfoSpecificErr InfoLevel 時，從 [JetGetErrorInfo ()](./jetgeterrorinfow-function.md)方法傳回的資料。
 
-注意：本檔是以可延伸儲存引擎的初步發行版本為基礎。 此資訊可能隨時變更。
+注意：本檔是以可延伸儲存體引擎的初步發行版本為基礎。 此資訊可能隨時變更。
 
 ```cpp
 typedef struct { 

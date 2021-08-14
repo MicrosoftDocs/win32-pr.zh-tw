@@ -7,12 +7,12 @@ keywords:
 - 遠端桌面服務遠端桌面服務 web 存取控制介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02c30f7fbf0030cd62dff221586cf4d44c90f473
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a444aeebed6c4d35d92020c01c302d62c5861c5a1ec1e29d58183354b3c56bbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117940531"
 ---
 # <a name="remote-desktop-services-web-access-control-interfaces"></a>遠端桌面服務 Web 存取控制項介面
 
@@ -43,9 +43,9 @@ ms.locfileid: "104021493"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

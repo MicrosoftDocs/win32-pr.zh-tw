@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 16d7a6e4a96b5a01d259c1c73fb55c5df2a70dec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d5490dbbb6edb79f1aee8e2225cbde3d11041040acb4561976b7d4c8ae8f2ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119361018"
 ---
 # <a name="systemparameterscolumnmost-field"></a>SystemParameters. ColumnMost 欄位
 

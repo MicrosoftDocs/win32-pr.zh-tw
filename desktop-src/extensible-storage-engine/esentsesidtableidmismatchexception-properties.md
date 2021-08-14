@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102702
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d781507c71d9f0b26a743413418edefe43de437b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 801906f240f2d12bad9750f8fc42b45bd408318da62be9c0229eca54ce7c5eb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119402858"
 ---
 # <a name="esentsesidtableidmismatchexception-properties"></a>EsentSesidTableIdMismatchException 屬性
 

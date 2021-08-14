@@ -4,16 +4,16 @@ ms.assetid: 861be39a-012e-473b-a2d3-2a8c7ba3adaa
 title: 事件記錄安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb4e2dce7318efeb6f26917bca1d6812eb32a343
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b52f6c801b061290ebb4d6f47fe78efebc09e1b2d23dc4a598dc9f97c1b3a46d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118151548"
 ---
 # <a name="event-logging-security"></a>事件記錄安全性
 
-**安全** 日誌是設計來供系統使用。 不過，如果使用者已被授與 「SE \_ 安全性 \_ 名稱」許可權 (「管理審核和安全性記錄」使用者權限) ，則使用者可以讀取和清除安全性記錄。 如需詳細資訊，請參閱 [許可權](/windows/desktop/SecAuthZ/privileges)。
+**安全** 日誌是設計來供系統使用。 不過，如果使用者已被授與 「SE \_ 安全性 \_ 名稱」許可權 (「管理審核和安全性記錄」使用者權限) ，則可以讀取和清除安全性記錄。 如需詳細資訊，請參閱 [許可權](/windows/desktop/SecAuthZ/privileges)。
 
 只有本地安全機構 (Lsass.exe) 有 **安全** 日誌的寫入權限。 沒有其他帳戶可以要求此許可權。 若要將事件寫入 **安全** 日誌，請使用 [**AuthzReportSecurityEvent**](/windows/desktop/api/authz/nf-authz-authzreportsecurityevent) 函數。
 
@@ -33,7 +33,7 @@ ms.locfileid: "106983585"
 
 使用 **CustomSD** 登錄值來設定 **應用程式** 記錄檔、 **系統** 記錄檔和自訂記錄檔的安全性。 如需詳細資訊，請參閱 [Eventlog 索引鍵](eventlog-key.md)。
 
-**WINDOWS XP/2000：** 下表說明針對每個記錄檔的每個帳戶授與的存取權限。
+**Windows XP/2000：** 下表說明針對每個記錄檔的每個帳戶授與的存取權限。
 
 | 記錄             | 帳戶                 | 讀取 | 寫入 | 清除 |
 |-----------------|-------------------------|------|-------|-------|

@@ -4,12 +4,12 @@ ms.assetid: 93ef3098-b3cc-4b24-ae82-1c10d937f14f
 title: '交易存取遮罩 (WinNT. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b815bcb04a97dbd059c85c6c615a7d607bf77ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faafcce45944e37418191254fc5a2b81d00d9248b27ea5e8753fe8e34a734754
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119520638"
 ---
 # <a name="transaction-access-masks"></a>交易存取遮罩
 

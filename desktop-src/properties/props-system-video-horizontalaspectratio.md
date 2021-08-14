@@ -4,18 +4,18 @@ ms.assetid: bf490821-2838-46e7-8460-03f7c64c9292
 title: HorizontalAspectRatio
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 401992dcd4afd435105cc03fff9772d65f6c52aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49dd739d9f0a0885f27f00584095772da4ee05f7f1c92d1eeae3b1f30fe2537f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396658"
 ---
 # <a name="systemvideohorizontalaspectratio"></a>HorizontalAspectRatio
 
 表示圖元外觀比例的水準部分。 XX： YY 的 X 部分。 例如，10是10:11 的 X 部分。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,12 +4,12 @@ ms.assetid: 41fe9366-4c17-43bb-91d6-934c7aa87a2d
 title: 系統存放區位置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0863ffde8be5db67459908b1ec26ec73da029744
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d793d94bcb1c58bcc0d8c046b038df7e699d287b9ede3f14d6e2cb3c94ab781e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897430"
 ---
 # <a name="system-store-locations"></a>系統存放區位置
 
@@ -81,9 +81,9 @@ HKEY_LOCAL_MACHINE
 | 系統存放區 | 實體存放區                                                                                    |
 |--------------|---------------------------------------------------------------------------------------------------|
 | MY           | .預設                                                                                          |
-| Root         | .預設值。 AuthRoot<br/> .GroupPolicy<br/> .企業<br/> .智慧卡<br/> |
-| 信任        | .預設值。 GroupPolicy<br/> .企業<br/>                                            |
-| CA           | .預設值。 GroupPolicy<br/> .企業 <br/>                                           |
+| Root         | .預設值。 AuthRoot<br/> .GroupPolicy<br/> .Enterprise<br/> .智慧卡<br/> |
+| 信任        | .預設值。 GroupPolicy<br/> .Enterprise<br/>                                            |
+| CA           | .預設值。 GroupPolicy<br/> .Enterprise <br/>                                           |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 2a27fbb7-93b5-4106-afd3-e63456650fb9
 title: TSPI 線路裝置函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dea2ca54096ac89b76a4658129362e87d4281fcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a52282154e99ca4e400f6b2d5f32d00a19d62cfe98f0b789d4ee24b9a240293
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119403708"
 ---
 # <a name="tspi-line-device-functions"></a>TSPI 線路裝置函式
 

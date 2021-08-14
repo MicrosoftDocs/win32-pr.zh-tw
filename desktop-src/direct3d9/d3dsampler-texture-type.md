@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 337e8b25a8ec8389a6252fb48582128c601730ca
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5b1755f97ad39a5924367747199cf21c1c46a209a8202cc6b38ef22c73e8ccec
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104386426"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408222"
 ---
 # <a name="d3dsampler_texture_type-enumeration"></a>D3DSAMPLER \_ 紋理 \_ 類型列舉
 

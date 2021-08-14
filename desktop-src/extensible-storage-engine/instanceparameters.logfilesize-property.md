@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c141c76a92f49b4b5000cad65e302a7cf15d780f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d605a62541ee8e338aedcbd4109a16661baa64ced420c4cb56b10f472e0d085
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117705899"
 ---
 # <a name="instanceparameterslogfilesize-property"></a>InstanceParameters. LogFileSize 屬性
 

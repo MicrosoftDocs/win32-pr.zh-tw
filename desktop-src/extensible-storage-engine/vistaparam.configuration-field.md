@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b330afb7158c616ba7bb9683a7bbe226d8d63542
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e2e3aeea82a74698243f9a9ba9114c6c91ac34984a505d70d58126daca65d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119356258"
 ---
 # <a name="vistaparamconfiguration-field"></a>VistaParam.Configuration 欄位
 

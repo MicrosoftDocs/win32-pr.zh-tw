@@ -4,12 +4,12 @@ ms.assetid: e2925d92-19df-42e5-9893-2820f437d3a5
 title: AddHijriDate
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22a1c4a721af18e0a8994efdd7641581aa01c133
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 00315b66b53960ae392f8b0daf8f23f3c81302c5adcc4314bf982f85c8dc2bb1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390728"
 ---
 # <a name="addhijridate"></a>AddHijriDate
 
@@ -25,7 +25,7 @@ ms.locfileid: "103847136"
 
  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 指定回曆內日期的調整。
 
@@ -51,7 +51,7 @@ ms.locfileid: "103847136"
 
 ## <a name="change-method"></a>變更方法
 
-若要變更此專案的值，或將它新增至登錄，請先安裝複雜字集和由右至左語言的檔案。 在主控台中，按一下 [ **地區及語言選項**]，然後按一下 [ **語言** ] 索引標籤。在 [ **補充語言支援**] 下，選取 [為 **複雜字集和由右至左的語言安裝** 檔案] 核取方塊， (包括泰文) 。 按一下 [確定]  。
+若要變更此專案的值，或將它新增至登錄，請先安裝複雜字集和由右至左語言的檔案。 在主控台中，按一下 [ **地區及語言選項**]，然後按一下 [ **語言** ] 索引標籤。在 [ **補充語言支援**] 下，選取 [為 **複雜字集和由右至左的語言安裝** 檔案] 核取方塊， (包括泰文) 。 按一下 [確定]。
 
 若要變更此專案的值，或將它新增至登錄，請從主控台按一下 [ **地區及語言選項**]。 在 [ **標準及格式** ] 欄位中，選取使用回曆的地區設定。 按一下 [ **自訂** ] 按鈕，然後按一下 [ **日期** ] 索引標籤。在 [ **調整回曆的日期為：** ] 下拉式清單中，選取適當的值。 按一下 **[確定]**，然後再按一下 **[確定]** 。
 

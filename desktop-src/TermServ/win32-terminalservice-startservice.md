@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ce4bd12150223d7cdc1340b7557ba309a1e07da4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 0a1a921f863ea2e06b7c84cf5ed66424d37f70be34f71c7c5975c95ff3d4308e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119514358"
 ---
 # <a name="startservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 StartService 方法 (遠端桌面服務) 
 

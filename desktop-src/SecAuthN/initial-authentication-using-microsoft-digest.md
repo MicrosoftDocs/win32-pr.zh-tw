@@ -4,12 +4,12 @@ ms.assetid: 8a5cf26b-0b2a-4f19-807b-9ec4d533cdd4
 title: 使用 Microsoft Digest 的初始驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ed4960d947bbc60df962e6a9b71be755e158c8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0b6e9582161eb43e5109af4dc223ae150e94cbddf9b3514dabcb30339a3acc36
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119482618"
 ---
 # <a name="initial-authentication-using-microsoft-digest"></a>使用 Microsoft Digest 的初始驗證
 

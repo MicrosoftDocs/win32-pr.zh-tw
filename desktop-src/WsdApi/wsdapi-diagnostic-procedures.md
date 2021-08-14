@@ -4,12 +4,12 @@ ms.assetid: 482c1460-ab63-4b41-a0ef-65485ca3b88e
 title: WSDAPI 診斷程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a9746909fb6e73dad53c9135d7055e6b3c33445
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c990d492bd5428d4d6ad92de184150979372b4efa0e4bd4e40b2461c0649a05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119382178"
 ---
 # <a name="wsdapi-diagnostic-procedures"></a>WSDAPI 診斷程式
 
@@ -31,9 +31,9 @@ ms.locfileid: "106997133"
 
 ### <a name="http-diagnostic-procedures"></a>HTTP 診斷程式
 
--   [使用泛型主機和用戶端進行 HTTP 中繼資料交換](using-a-generic-host-and-client-for-http-metadata-exchange.md)
+-   [使用泛型主機和用戶端來取得 HTTP 中繼資料 Exchange](using-a-generic-host-and-client-for-http-metadata-exchange.md)
 -   [使用 WinHTTP 記錄來確認取得流量](using-winhttp-logging-to-verify-get-traffic.md)
--   [檢查 HTTP 中繼資料交換的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)
+-   [檢查 HTTP 中繼資料 Exchange 的網路追蹤](inspecting-network-traces-for-http-metadata-exchange.md)
 
 ### <a name="directed-discovery-diagnostic-procedure"></a>導向的探索診斷程式
 

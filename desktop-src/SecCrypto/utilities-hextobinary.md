@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 79276f206cebc0490bff0ba9d44810bed83bce70
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c44290a38d041acf17dfe1a9e3e274674d9d5c15091cfa5767e6974e72bb2b71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999344"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896384"
 ---
 # <a name="utilitieshextobinary-method"></a>HexToBinary 方法
 

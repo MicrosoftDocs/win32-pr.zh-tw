@@ -4,12 +4,12 @@ ms.assetid: bb2c63e6-7525-4d20-ac50-591b3e53dea2
 title: 如何使用自訂資料夾擴充已知資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae3556b2e28664c63e7bc3b5fa28cf8696f679bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e68a04a5ef10c8e3ee909944e6782cf32ca6aa2aa6b50e03f018f31a6aafe529
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119350868"
 ---
 # <a name="how-to-extend-known-folders-with-custom-folders"></a>如何使用自訂資料夾擴充已知資料夾
 

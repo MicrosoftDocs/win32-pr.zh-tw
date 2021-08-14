@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: ca312d86e20c53b2069a92570e2065206b69ccda
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6b5b2e8291d47c3ee36f6474810ddbb0e75849363069e81dd777e6b3ca4a8640
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046886"
 ---
 # <a name="id3dx10threadpumpwaitforallitems-method"></a>ID3DX10ThreadPump：： WaitForAllItems 方法
 

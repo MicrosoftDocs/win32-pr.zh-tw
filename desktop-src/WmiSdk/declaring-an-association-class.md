@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 宣告關聯類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 083ce578ca912290fd026f225799793f89685aab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd569d1dc20ba40be6d19f3009ab4311f69e04ca3e8a01031e74a9c84b461552
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119244418"
 ---
 # <a name="declaring-an-association-class"></a>宣告關聯類別
 

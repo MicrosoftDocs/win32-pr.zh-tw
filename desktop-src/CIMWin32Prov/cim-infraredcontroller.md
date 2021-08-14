@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 27d61c82d3874e0a6d1864b04795dd51203c89eb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6c04ea3b2efa2b9af394d7b1e8792eeff5d9b012b56d2bc899e3668bf3ee7172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119438728"
 ---
 # <a name="cim_infraredcontroller-class"></a>CIM \_ InfraredController 類別
 
@@ -1091,7 +1091,7 @@ Windows 仍在設定裝置。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

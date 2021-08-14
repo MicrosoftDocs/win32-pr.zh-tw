@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2270492258593c1e09128726b286539f8fc9ec4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c33bc2119a920140c45c831787e5810b8f481be036abb53c5bd165cdf3a111e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106976986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705828"
 ---
 # <a name="localized-description-attribute"></a>Localized-Description 屬性
 

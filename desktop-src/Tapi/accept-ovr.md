@@ -4,12 +4,12 @@ ms.assetid: 50684e2a-0799-458b-9402-0958e35026d7
 title: 接受
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1dd23d8ca1ed483b23d1b56fe98721b9fc53fb3d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1240159d1b4b7b8e3e4f2fe58e666e8625d3eee81ab38651f8d98c93d22b20ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118872699"
 ---
 # <a name="accept"></a>接受
 

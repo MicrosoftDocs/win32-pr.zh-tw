@@ -9,12 +9,12 @@ keywords:
 - 設定檔，資料單位延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc7e6794b95128d180bc3922f9bf03a15a2749df
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: e971acb9edacbbb38334dfef9405f3a97569eaf2cb3e5c386562e3885e4ba1c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "103681544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117656091"
 ---
 # <a name="configuring-data-unit-extensions"></a>設定資料單位延伸模組
 
@@ -40,9 +40,9 @@ ms.locfileid: "103681544"
 [**設定資料流程**](configuring-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

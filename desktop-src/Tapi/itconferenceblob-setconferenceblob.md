@@ -4,16 +4,16 @@ ms.assetid: 4a65edb9-77de-42d9-85a1-1e3c41706417
 title: 'ITConferenceBlob：： SetConferenceBlob 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 47779807e5bde6a070b4600aec903309c7679dc8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 391a20ade99d3e35da9d4f76eaab13b6ba65b07b5693321c6c3b2bb63f53c2d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865422"
 ---
 # <a name="itconferenceblobsetconferenceblob-method"></a>ITConferenceBlob：： SetConferenceBlob 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **SetConferenceBlob** 方法會認可會議 blob 的變更。 若要第一次初始化會議 blob，請改用 [**Init**](itconferenceblob-init.md) 方法。
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 1fc3948233fe2716bd4a0a6d720a3f285a5476cc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 344b88be84e2be2b3a199b4cac6bbf1c7bc6d7d0e7082276cee43933ecc7d1ce
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386488"
 ---
 # <a name="psetupinstallcatalog-function"></a>pSetupInstallCatalog 函式
 

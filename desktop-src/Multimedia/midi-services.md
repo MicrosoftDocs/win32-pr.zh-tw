@@ -12,12 +12,12 @@ keywords:
 - MIDI 服務，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc412ddec21245e9682a2a2e79e3f8031d2a6918
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c3f388ccfa222ae95f2e9b56aa9084f1874cefab4bba975b3f57a0f98a994369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985768"
 ---
 # <a name="midi-services"></a>MIDI 服務
 
@@ -30,6 +30,6 @@ ms.locfileid: "104375205"
 -   [要求時間格式](requesting-time-formats.md)
 -   [處理 MIDI 功能的錯誤](handling-errors-with-midi-functions.md)
 
- 
+ 
 
- 
+ 

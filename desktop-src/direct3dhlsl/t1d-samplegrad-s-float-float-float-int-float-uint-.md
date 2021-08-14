@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 3a5f95a87f46e94c971dd19989ffa670e6993e8f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: ba68c7852c19d0e3c65e7a57ba847e4b9ee024ba4b39c1a224625f57f6085119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103946280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118789087"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatintfloatuint-function-for-texture1d"></a>Texture1D 的 SampleGrad：： SampleGrad (S、float、float、float、int、float、uint) 函數
 

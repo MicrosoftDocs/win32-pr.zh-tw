@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104263
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0d29dc2c9fc188f7ee293af316d80dafc9319d0d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76f3aa2d8e877ab5da1758739ca8bce382747c8d600ed7765f53681fe27408e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119356078"
 ---
 # <a name="windows7grbits-fields"></a>Windows7Grbits 欄位
 

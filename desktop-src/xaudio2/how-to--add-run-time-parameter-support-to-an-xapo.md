@@ -4,12 +4,12 @@ ms.assetid: 13f974ec-fcf5-1749-e69d-88de79b7d82b
 title: 使用方法：新增 XAPO 的執行階段參數支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 582f51b3dfbdc6d31422494906d5f945f77ccb03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbf69fcc2570e26f188766a7f908a76d0dfcf3ec190d9fd0d7a1c434b242fdf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805538"
 ---
 # <a name="how-to-add-run-time-parameter-support-to-an-xapo"></a>使用方法：新增 XAPO 的執行階段參數支援
 

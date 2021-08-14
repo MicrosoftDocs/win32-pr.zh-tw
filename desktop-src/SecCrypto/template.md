@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: fedd64979ad74ceac3f6d54af58c57d8d8b2b134
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53c7b06fa4194d0adb4124f3978787f5d1fce0ba88e78ef99dcd6ac162eca2c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897319"
 ---
 # <a name="template-object"></a>範本物件
 
@@ -46,13 +46,13 @@ ms.locfileid: "106996410"
 
 
 
-| 屬性                                                 | 存取類型          | Description                                                                                            |
+| 屬性                                                 | 存取類型          | 描述                                                                                            |
 |:---------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------|
 | [**IsCritical**](template-iscritical.md)<br/>     | 唯讀<br/> | 抓取布林值，指出範本延伸是否標記為重大。<br/> |
 | [**IsPresent**](template-ispresent.md)<br/>       | 唯讀<br/> | 抓取布林值，指出範本延伸是否存在。<br/>         |
 | [**MajorVersion**](template-majorversion.md)<br/> | 唯讀<br/> | 捕獲範本的主要版本號碼。<br/>                                         |
 | [**MinorVersion**](template-minorversion.md)<br/> | 唯讀<br/> | 捕獲範本的次要版本號碼。<br/>                                         |
-| [**Name**](template-name.md)<br/>                 | 唯讀<br/> | 抓取包含範本名稱的字串。<br/>                                  |
+| [**名稱**](template-name.md)<br/>                 | 唯讀<br/> | 抓取包含範本名稱的字串。<br/>                                  |
 | [**老**](template-oid.md)<br/>                   | 唯讀<br/> | 抓取識別 **範本** 物件的 [**OID**](oid.md)物件。<br/>             |
 
 
@@ -69,7 +69,7 @@ CAPICOM 會使用兩種不同版本的憑證範本。 下表顯示每個憑證�
 
 
 
-| 版本 | Name                               | OID                    |
+| 版本 | 名稱                               | OID                    |
 |---------|------------------------------------|------------------------|
 | V1      | szOID \_ 註冊 \_ CERTTYPE \_ 延伸模組 | 元1.3.6.1.4.1.311.20.2 參考 |
 | V2      | szOID \_ 證書 \_ 範本       | "1.3.6.1.4.1.311.21.7" |

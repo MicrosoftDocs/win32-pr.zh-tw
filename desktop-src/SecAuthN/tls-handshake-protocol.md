@@ -4,12 +4,12 @@ ms.assetid: 65fb4db3-e505-457a-9159-dba0b506ea0b
 title: TLS 交握通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0c7cfa9e9db54a6035abe147ce00bbde59bcc86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fe32e11127bf46088aa04e58dd6444620cea327c08d2609e01749efcb1e00df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915816"
 ---
 # <a name="tls-handshake-protocol"></a>TLS 交握通訊協定
 

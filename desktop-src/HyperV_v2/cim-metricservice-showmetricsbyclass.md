@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: f843c835e6c92e39c4ac1f9628d0479b94a691bc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c70d81f153471e841803dde195f09886137f29b390298c2c7d09ce69ad1648e6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119694948"
 ---
 # <a name="showmetricsbyclass-method-of-the-cim_metricservice-class"></a>CIM MetricService 類別的 ShowMetricsByClass 方法 \_
 

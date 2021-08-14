@@ -4,12 +4,12 @@ description: 控制項
 ms.assetid: 73947c81-6727-4112-9da0-efa60360f458
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f440fff8f855f70c1a5ab3df78a6f6f6ed365ea
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: d9fb125988ad73c997772f1a07a170833b6cb36837437632aed46ba3ac0298fa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104316975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117919638"
 ---
 # <a name="controls-com"></a>控制項 (COM) 
 
@@ -35,7 +35,7 @@ ActiveX 控制項其實只是 OLE 物件的另一個詞彙，也是更明確的 
 
 <dl> <dt>
 
-[ActiveX 控制項和控制項容器指導方針](activex-control-and-control-container-guidelines.md)
+[ActiveX控制和控制容器指導方針](activex-control-and-control-container-guidelines.md)
 </dt> </dl>
 
  

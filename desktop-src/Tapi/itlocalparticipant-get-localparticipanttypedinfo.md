@@ -4,12 +4,12 @@ ms.assetid: 46bb70a7-7dc9-463d-8416-737122412750
 title: 'ITLocalParticipant：： get_LocalParticipantTypedInfo 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: caabaf503963c09898c06659884fd3ac3858e704
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e41afb4c55ba769e341b81e5ec1ca721745509ba8bf2bdfd88ae22ebc48bb535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003366"
 ---
 # <a name="itlocalparticipantget_localparticipanttypedinfo-method"></a>ITLocalParticipant：： get \_ LocalParticipantTypedInfo 方法
 

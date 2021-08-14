@@ -6,12 +6,12 @@ keywords:
 - RPC_NS_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e72ee694e08be1b30a75dc1f5b986619043d592
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e7612671b03f507bc2e722520fa775e0e999d0f1456ebfcefa971bba27b65dbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926282"
 ---
 # <a name="rpc_ns_handle"></a>RPC \_ NS \_ 控制碼
 

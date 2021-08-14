@@ -4,12 +4,12 @@ ms.assetid: 7a7d0d8a-3ec8-49b0-819c-e6947ddd6d91
 title: 私用通訊技術
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4961a31addea47378a9a30356b5a4033259feab7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6b804ad5d3f6af2988359d6755be4aa83bd51491f034a8279bd3e85fe78427e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118920757"
 ---
 # <a name="private-communications-technology"></a>私用通訊技術
 

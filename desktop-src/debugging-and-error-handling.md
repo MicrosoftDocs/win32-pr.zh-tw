@@ -4,12 +4,12 @@ ms.assetid: 99745b87-68d9-4190-b81f-06e7107925fa
 title: 調試和錯誤處理
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 040d535682317931470d7f102cf4175ca33a4f5a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 98fee25e67162970b5498d418feae478a260bc837ec058a1ec4011f1ff79179e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119755958"
 ---
 # <a name="debugging-and-error-handling"></a>調試和錯誤處理
 

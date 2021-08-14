@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2900d68f82e859bac7ce1dabbfea2d28fd8998b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: efde9ef1cd9a7230e4493d3e542e1f5f661ed33027ad3e9a88ded9679df812c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119804049"
 ---
 # <a name="ms-ds-has-instantiated-ncs-attribute"></a>ms-chap-已具現化-Nc 屬性
 
@@ -57,7 +57,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
@@ -78,7 +78,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
@@ -99,7 +99,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
@@ -120,7 +120,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
@@ -141,7 +141,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |
@@ -162,7 +162,7 @@ DS 複寫狀態資訊，類似于 (，以及) 現有屬性 hasMasterNCs 和 hasP
 |------------------------|------------------------------------------|
 | 連結識別碼                | 2002                                     |
 | MAPI-Id                | \-                                       |
-| System-Only            | 對                                     |
+| System-Only            | 是                                     |
 | 是-單一值       | 否                                    |
 | 已編制索引             | 否                                    |
 | 在通用類別目錄中      | 否                                    |

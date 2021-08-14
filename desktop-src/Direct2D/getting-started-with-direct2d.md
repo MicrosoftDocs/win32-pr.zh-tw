@@ -6,21 +6,21 @@ keywords:
 - Direct2D，繪製矩形程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa59d7da057a7a9922e270d83937307762b06a40
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1f9c4f7ee6ca99feb3cf7169a59ce73ff3b8f8c62c08ddad88b9e5acf5d9a814
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260062"
 ---
 # <a name="direct2d-quickstart"></a>Direct2D 快速入門
 
 Direct2D 是原生程式碼的立即模式 API，可用於建立2D 圖形。 本主題說明如何在典型的 Win32 應用程式中使用 Direct2D 來繪製至 **HWND**。
 
 > [!Note]  
-> 如果您想要建立使用 Direct2D 的 Windows Store 應用程式，請參閱 [適用于 Windows 8 主題的 Direct2D 快速入門](direct2d-quickstart-with-device-context.md) 。
+> 如果您想要建立使用 Direct2D 的 Windows Store 應用程式，請參閱[Windows 8 主題的 Direct2D 快速入門](direct2d-quickstart-with-device-context.md)。
 
- 
+ 
 
 本主題包含下列幾節：
 
@@ -244,6 +244,6 @@ SafeRelease(pD2DFactory);
 [建立簡單的 Direct2D 應用程式](direct2d-quickstart.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

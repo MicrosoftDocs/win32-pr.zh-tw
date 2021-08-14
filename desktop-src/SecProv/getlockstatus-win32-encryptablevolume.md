@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 3e81f77c37904f26e87f22b8e2b3b88763fe86cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: caa213dbebc7db07851bc8df41b5d9379d3dfe97ee207f9b2578b0567fd9b65b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118892014"
 ---
 # <a name="getlockstatus-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetLockStatus 方法 \_
 
@@ -50,7 +50,7 @@ uint32 GetLockStatus(
 
 | 值                                                                                                                                                                                                                           | 意義                                                                                                                                                                                                                                                                                                                                                                                                               |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="Unlocked"></span><span id="unlocked"></span><span id="UNLOCKED"></span><dl> 已 <dt>**解除鎖定**</dt> <dt>0</dt> </dl> | 針對標準 HDD：<br/> 可以存取磁片區的完整內容。 已解除鎖定的磁片區可能已完全解密，或有可在磁片上清除的加密金鑰。 包含目前正在執行之作業系統的磁片區 (例如，執行中的 Windows 磁片區) 一律可供存取且無法鎖定。<br/> 針對 EHDD：<br/> 頻外永久解除鎖定。<br/> |
+| <span id="Unlocked"></span><span id="unlocked"></span><span id="UNLOCKED"></span><dl> 已 <dt>**解除鎖定**</dt> <dt>0</dt> </dl> | 針對標準 HDD：<br/> 可以存取磁片區的完整內容。 已解除鎖定的磁片區可能已完全解密，或有可在磁片上清除的加密金鑰。 包含目前正在執行之作業系統的磁片區 (例如，執行中 Windows 磁片區) 一律可供存取且無法鎖定。<br/> 針對 EHDD：<br/> 頻外永久解除鎖定。<br/> |
 | <span id="Locked"></span><span id="locked"></span><span id="LOCKED"></span><dl> <dt>**鎖定**</dt>的 <dt>1</dt> </dl>         | 針對標準 HDD：<br/> 無法存取磁片區的所有或部分內容。 鎖定的磁片區必須部分或完整加密，且不能在磁片上的純文字中提供加密金鑰。<br/> 針對 EHDD：<br/> 頻外已解除鎖定或鎖定。<br/>                                                                                                             |
 
 
@@ -67,7 +67,7 @@ uint32 GetLockStatus(
 
 
 
-| 傳回碼/值                                                                                                                                 | Description                           |
+| 傳回碼/值                                                                                                                                 | 描述                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl> | 此方法成功。<br/> |
 
@@ -89,8 +89,8 @@ uint32 GetLockStatus(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

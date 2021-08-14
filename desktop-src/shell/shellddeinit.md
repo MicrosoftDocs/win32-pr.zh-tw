@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shdocvw.dll
-ms.openlocfilehash: cb2f4639d97a99cd063f372e303fd48b7a1d6e4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27d2e304cf3a67f522bbeec4835f5faa98b24d1509363873bb51387391f94b1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117676710"
 ---
 # <a name="shellddeinit-function"></a>ShellDDEInit 函式
 
@@ -64,7 +64,7 @@ void ShellDDEInit(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows XP、Windows 2000 Professional \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | WindowsXP、Windows 2000 Professional \[ 僅限桌面應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shdocvw.dll (6.0 版或更新版本) </dt> </dl> |
 

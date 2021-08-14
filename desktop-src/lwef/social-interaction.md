@@ -4,16 +4,16 @@ description: 社交互動
 ms.assetid: 4e8096e8-7bd1-4225-b12c-832f312ef833
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86125d0365ea503f596d1714560edae7eaa9775a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7e95071e9234d625e9d3ad74a32becfb7badb629de52588aa932f086411164a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119347938"
 ---
 # <a name="social-interaction"></a>社交互動
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 人們的溝通本質上是社交的。 從我們所出生的時間開始，我們會開始回應環境中的社交提示，並學習適用于有效互動的適當規則，其中包括像是聲調或文字排序等口頭行為，以及非口頭的行為，例如狀態、手勢和臉部運算式。 這些行為會傳達對我們的通訊進行色彩的看法、身分識別和表情。 我們通常會為通道建立替代慣例，而不會針對非口頭的提示（例如電子郵件或線上交談會話）自然提供頻寬。
 
@@ -21,13 +21,13 @@ ms.locfileid: "104300703"
 
 -   [建立個人化](create-personality.md)
 -   [觀察適當的禮儀](observe-appropriate-etiquette.md)
--   [使用讚揚](use-praise.md)
+-   [使用稱讚](use-praise.md)
 -   [建立小組玩家](create-a-team-player.md)
 -   [考慮性別效應](consider-gender-effects.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6657090b069cd536c19e1a59372ee2049123cacf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5774351263c0a470004a21f4b5ed946221cecf4aa05ab5e01a39d17ed881870f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119418578"
 ---
 # <a name="ui_animation_dimension_unknown"></a>UI \_ 動畫 \_ 維度 \_ 未知
 
@@ -25,7 +25,7 @@ ms.locfileid: "103686348"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                             | Description     |
+| 常數/值                                                                                                                                                                                                                                                             | 描述     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------|
 | <span id="UI_ANIMATION_DIMENSION_UNKNOWN"></span><span id="ui_animation_dimension_unknown"></span><dl> <dt>**UI \_動畫 \_ 維度 \_ 未知**</dt> <dt>-1</dt> </dl> | UINT<br/> |
 
@@ -37,7 +37,7 @@ ms.locfileid: "103686348"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅適用于 Windows 7 \[ 桌面應用程式的 Windows 8、windows 7 和平臺更新\]<br/>    |
+| 最低支援的用戶端<br/> | Windows 8，僅適用于 Windows 7 \[ 桌面應用程式的 Windows 7 和平臺更新\]<br/>    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                  |
 | 標頭<br/>                   | <dl> <dt>UIAnimation。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>UIAnimation .idl</dt> </dl> |

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Setupapi.dll
-ms.openlocfilehash: 3de792ae6738277d2ab7cb21d8be7f4c5ecfb573
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5c7ad6e866fd82773ab55e57011e14c1cfae2dd47d6f5c91a772eab9cfce42c6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386228"
 ---
 # <a name="psetupverifycatalogfile-function"></a>pSetupVerifyCatalogFile 函式
 

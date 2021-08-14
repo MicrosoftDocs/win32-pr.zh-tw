@@ -4,12 +4,12 @@ ms.assetid: b7af0491-2ece-42b5-8eea-32643854632f
 title: 使用屬性清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ade6cba2807e87306aa9cacb3649499d9e5ffe1
-ms.sourcegitcommit: ecd0ba4732f5264aab9baa2839c11f7fea36318f
+ms.openlocfilehash: 68dc3f25b1f0223e62a969a5b0846bcbdcaaef9fd93b45c654c367a0c1fc949d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113481913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119397818"
 ---
 # <a name="using-property-lists"></a>使用屬性清單
 

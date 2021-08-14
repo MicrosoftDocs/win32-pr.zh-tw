@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0c460912e8b891503771425fc72484fcc471ff
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f4e08a07c76f8b89809782f14d31e677417dbe18f20d6a817f3b1f234a01d12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118877896"
 ---
 # <a name="isoftkbddestroysoftkeyboardwindow-method"></a>ISoftKbd：:D estroySoftKeyboardWindow 方法
 
@@ -68,7 +68,7 @@ HRESULT DestroySoftKeyboardWindow();
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Softkbdc。h</dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Softkbd .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Softkbd.dll</dt> </dl> |
 
 

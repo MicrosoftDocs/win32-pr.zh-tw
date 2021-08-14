@@ -4,12 +4,12 @@ ms.assetid: f4ae76e3-0f61-4a33-8ea4-ef14a117df6a
 title: 類比電視微調
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b85d0826340b913df88cb20dc538bc85943949b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0ae14407b1e0c9e7062e7813d88a832cc29bd926ff57b17f2933abeef44b21dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001576"
 ---
 # <a name="analog-television-tuning"></a>類比電視微調
 

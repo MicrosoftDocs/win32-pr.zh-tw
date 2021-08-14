@@ -3,17 +3,17 @@ title: 非同步模型
 description: Windows Web 服務 API 中的大部分作業都可以同步或非同步方式執行。
 ms.assetid: d0b3f154-2219-4085-a652-e9aeb126598c
 keywords:
-- 適用于 Windows 的非同步模型 Web 服務
+- Windows 的非同步模型 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c5e38dfbc0bc2ed397949da86f9a572a5b1ed5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 54cc59df90c37d8bad0ba3db145f9a4a61185c9577152215b027545bbea32494
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106990877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344928"
 ---
 # <a name="asynchronous-model"></a>非同步模型
 
@@ -72,14 +72,14 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 
 非同步模型會使用下列 API 元素。
 
-| 回呼                                         | Description                                                                                                                           |
+| 回呼                                         | 描述                                                                                                                           |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ ASYNC \_ 回呼**](/windows/desktop/api/WebServices/nc-webservices-ws_async_callback) | 用於非同步模型的回呼函數參數。                                                                     |
 | [**WS \_ ASYNC \_ 函數**](/windows/desktop/api/WebServices/nc-webservices-ws_async_function) | 與 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) 搭配使用，以指定要在一系列非同步作業中叫用的下一個函數。 |
 
 
 
- 
+ 
 
 
 
@@ -89,7 +89,7 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 
 
 
- 
+ 
 
 
 
@@ -99,11 +99,11 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 
 
 
- 
+ 
 
 
 
-| 結構                                          | Description                                                                                                                           |
+| 結構                                          | 描述                                                                                                                           |
 |----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [**WS \_ 非同步 \_ 內容**](/windows/desktop/api/WebServices/ns-webservices-ws_async_context)     | 指定非同步回呼以及使用者定義資料的指標，其將會傳遞至非同步回呼。            |
 | [**WS \_ 非同步 \_ 操作**](/windows/desktop/api/WebServices/ns-webservices-ws_async_operation) | 與 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute) 搭配使用，以指定要在一系列非同步作業中叫用的下一個函數。 |
@@ -111,7 +111,7 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -132,9 +132,9 @@ void CALLBACK MyCallback(HRESULT hr, WS_CALLBACK_MODEL callbackModel, void* call
 [**WsAsyncExecute**](/windows/desktop/api/WebServices/nf-webservices-wsasyncexecute)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

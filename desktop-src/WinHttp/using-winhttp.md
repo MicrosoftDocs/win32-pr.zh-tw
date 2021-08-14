@@ -1,19 +1,19 @@
 ---
-description: 本節說明如何使用適用于 Microsoft Windows HTTP Services (WinHTTP) 的 C/c + + API，以及 WinHttpRequest 物件所公開的 COM 介面。
+description: 本節說明如何使用適用于 Microsoft Windows HTTP 服務的 C/c + + API (WinHTTP) 以及 WinHttpRequest 物件所公開的 COM 介面。
 ms.assetid: 16178bb8-5e95-46a5-825a-880edc402445
 title: 使用 WinHTTP
 ms.topic: article
 ms.date: 07/22/2020
-ms.openlocfilehash: cda0a7772b88dfd9c03675c522f4b7504ea00b06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65e85e0c54e6cdf1be846e98e40c6bad68e5d1bf76efa7bad4c361f58cf5f351
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119386558"
 ---
 # <a name="using-winhttp"></a>使用 WinHTTP
 
-本節說明如何使用適用于 Microsoft Windows HTTP Services (WinHTTP) 的 C/c + + API，以及 **WinHttpRequest** 物件所公開的 COM 介面。 如需這些介面的比較，請參閱 [選擇 WinHTTP 介面](choosing-a-winhttp-interface.md) 。 它也會說明如何使用 WinHTTP 隨附的系統管理工具。
+本節說明如何使用適用于 Microsoft Windows HTTP 服務的 C/c + + API (WinHTTP) 以及 **WinHttpRequest** 物件所公開的 COM 介面。 如需這些介面的比較，請參閱 [選擇 WinHTTP 介面](choosing-a-winhttp-interface.md) 。 它也會說明如何使用 WinHTTP 隨附的系統管理工具。
 
 ## <a name="how-to-topics"></a>如何主題
 

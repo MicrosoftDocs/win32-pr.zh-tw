@@ -4,12 +4,12 @@ description: 如先前所述，\ 8211; Oi 和 \ 8211; Oif 樣式參數描述項�
 ms.assetid: c2dad284-abe5-4b38-b3a6-3c7373fc5b84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22f6f8b19eb6632c4111547925151865b03b9adc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b4a13b052d49629333bd9cb121b4d1b661722cb3a7a69ad2a17d3e2740a0cd8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682885"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927547"
 ---
 # <a name="parameter-descriptors"></a>參數描述項
 
@@ -70,14 +70,14 @@ type_offset<2>
 
 
 
- 
+ 
 
 堆疊 \_ 大小<1> 是堆疊上參數的大小，以參數在堆疊上佔據的整數數目表示。
 
 > [!Note]  
 > 64位平臺上不支援 [**– Oi**](/windows/desktop/Midl/-oi) 模式。
 
- 
+ 
 
 Type \_ offset<2> field 是 type format string 資料表中的位移，表示引數的型別描述項。
 
@@ -133,6 +133,6 @@ typedef struct
 -   **IsBasetype** 位是針對由 Main [**– Oif**](/windows/desktop/Midl/-oi)解譯器迴圈封送處理的簡單類型所設定。 尤其是，在其上具有範圍屬性的簡單類型，並不會標示為基底類型，以強制使用 FC 範圍權杖來強制執行範圍常式封送處理 \_ 。
 -   **IsByValue** 位是針對以傳值方式傳送的複合類型而設定，但不會針對簡單類型設定，不論引數是否為指標。 其所設定的複合類型為結構、等位、 [**傳輸 \_ 為**](/windows/desktop/Midl/transmit-as)， [**表示 \_ 為**](/windows/desktop/Midl/represent-as)、 [**連網 \_ 封送**](/windows/desktop/Midl/wire-marshal) 處理和 SAFEARRAY。 一般來說，在 [**– Oicf**](/windows/desktop/Midl/-oi) 解譯器中，主要解譯器迴圈的優點引進了位，以確保簡單引數 (稱為複合類型引數，) 可正確取值。 先前的解譯器版本中從未使用過此位。
 
- 
+ 
 
- 
+ 

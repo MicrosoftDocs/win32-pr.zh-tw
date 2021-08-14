@@ -4,16 +4,16 @@ description: 動畫設計
 ms.assetid: 8812e4cc-9062-4c65-81ef-229bd29534cd
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7d6cf86cfe115ec209fb305f0ae017951bd7f41
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 225a500d94b4de6f9133650a6aed415a49329585bc9bc9f83dec028668e51215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118752289"
 ---
 # <a name="animation-design"></a>動畫設計
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ### <a name="image-design"></a>影像設計
 
@@ -25,7 +25,7 @@ Microsoft 代理程式可讓您在動畫中播放音效。 建議您不要包含
 
 ### <a name="frame-size"></a>畫面格大小
 
-典型的辦公室助理為 123 x 93 圖元。 雖然您可以建立其他大小的字元，但它們會在助理資源庫中調整為 123 x 93。
+典型的 Office 助理是 123 x 93 圖元。 雖然您可以建立其他大小的字元，但它們會在助理資源庫中調整為 123 x 93。
 
 ### <a name="frame-transition"></a>框架轉換
 
@@ -41,9 +41,9 @@ IntroPhrase1~~IntroPhrase2~~IntroPhrase3 ^ ^ ReminderPhrase1~~ReminderPhrase2~~R
 
 簡介片語會以成對的波狀字元字元分隔， (~) ，後面接著提醒片語。 這些提醒片語也會以成對的波狀字元字元分隔。 這兩組片語會以兩個插入號字元分隔 (^^) 。 每一種片語的數目都沒有限制，不同之處在于每個片語都必須至少有一個。
 
- 
+ 
 
- 
+ 
 
 
 

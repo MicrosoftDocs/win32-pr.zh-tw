@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86e49463c5e443a07d1fa86736047435eaf60a06
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c0616cd36e35690649cac145b9462b96af19499e3a10f7fdee3ec2820891544d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119394448"
 ---
 # <a name="ivmvirtualmachinerdppipename-property"></a>IVMVirtualMachine：： RdpPipeName 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取用於影片和輸入的 RDP 連接具名管道名稱。
 
@@ -68,10 +68,10 @@ HRESULT get_RdpPipeName(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
-| 產品<br/>                  | Windows Virtual PC<br/>                                                                 |
+| Product<br/>                  | Windows Virtual PC<br/>                                                                 |
 | 標頭<br/>                   | <dl> <dt>VPCCOMInterfaces。h</dt> </dl> |
 | IID<br/>                      | IID \_ IVMVirtualMachine 定義為 f7092aa1-33ed-4f78-a59f-c00adfc2edd7<br/>          |
 

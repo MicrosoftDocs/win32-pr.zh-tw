@@ -4,12 +4,12 @@ description: 若要完成任何遠端程序呼叫，所有分散式應用程式�
 ms.assetid: 7b8adba2-19aa-4179-b6b3-ef27f4383bd4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56fdd64352df4bbefc1ec41960b78109b22510c6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8ed8bce6f97ecfc7bd257d20eebbb35d068624fe017c01a662b47fceb463b98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926029"
 ---
 # <a name="rpc-security-essentials"></a>RPC 安全性基本知識
 
@@ -27,9 +27,9 @@ ms.locfileid: "103840651"
 -   [金鑰取得函式](key-acquisition-functions.md)
 -   [用戶端模擬](client-impersonation.md)
 
- 
+ 
 
- 
+ 
 
 
 

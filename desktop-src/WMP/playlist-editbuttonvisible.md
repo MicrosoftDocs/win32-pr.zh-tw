@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 48534d9e933f5c0e304fe0bb743c048c765cc772
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c8e22712e37f3fcd800677af0659673d9ca85d818b86b1efdf8f039f731b0306
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119467738"
 ---
 # <a name="playlisteditbuttonvisible"></a>播放清單。 editButtonVisible
 

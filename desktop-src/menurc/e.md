@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 14e12ba3-8451-4a93-a555-e1c9e6040a67
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 029f8d26d341a114ab7bfeae269a391f8df90423
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: b4f2423b002afe055c425978a643753e029d817eee5e7eccfc4379d2410f88ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119461248"
 ---
 # <a name="e-menus-and-other-resources"></a>E (功能表和其他資源) 
 
@@ -84,7 +84,7 @@ Microsoft Windows 32 資源編譯器 (RC) 需要 [**快速鍵**](accelerators-re
 <span id="tools.e_10_gly"></span><span id="TOOLS.E_10_GLY"></span>**預期的數值命令值**
 </dt> <dd>
 
-Microsoft Windows 資源編譯器 (RC) 在 [**快速鍵**](accelerators-resource.md)語句中必須要有數值 *idvalue* 參數。 請確定您已使用 [**\# define**](-define.md)語句來指定值，而且使用的常數拼寫正確。
+在 [**加速器**](accelerators-resource.md)語句中，Microsoft Windows 資源編譯器 (RC) 預期有數值 *idvalue* 參數。 請確定您已使用 [**\# define**](-define.md)語句來指定值，而且使用的常數拼寫正確。
 
 </dd> <dt>
 

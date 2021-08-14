@@ -4,12 +4,12 @@ ms.assetid: c2a208b0-8069-4070-8e82-9e6e8979a84f
 title: Serviceaddress.uri
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 462241c7ec71315788c17b885c746e2a2d69ae8d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d75cc33ce5dbdaf50e09bc1d7265df696d7c9fb907ba547ee6f5a3eb9dc160cc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119353178"
 ---
 # <a name="systemdevicesserviceaddress"></a>Serviceaddress.uri
 

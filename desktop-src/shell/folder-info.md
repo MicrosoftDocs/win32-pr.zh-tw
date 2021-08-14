@@ -4,12 +4,12 @@ ms.assetid: c99a2f6c-3144-41ec-ad97-59a30bfec9ab
 title: 取得資料夾內容的相關資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f7eb26e9df28af4811e74f2878eebb7af9d5c92a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cc72e79843861b0faa645594e9b6646589645a16bc0a3cf6ffdf1f5821794e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050111"
 ---
 # <a name="getting-information-about-the-contents-of-a-folder"></a>取得資料夾內容的相關資訊
 

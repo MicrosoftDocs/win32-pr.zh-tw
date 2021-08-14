@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e52e5dafe5f0453861ddcddadf9f7115d17ee404
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 96997b7a29d4a7ca0ad586263bfe7846142963f7ba60e4bdf01a3991e3cfcbff
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119751688"
 ---
 # <a name="takeownership-method-of-the-win32_codecfile-class"></a>Win32 CodecFile 類別的 TakeOwnerShip 方法 \_
 
@@ -91,7 +91,7 @@ uint32 TakeOwnerShip();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 
