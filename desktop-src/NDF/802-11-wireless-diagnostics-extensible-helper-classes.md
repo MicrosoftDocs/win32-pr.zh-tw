@@ -4,12 +4,12 @@ description: 內建的無線診斷基礎結構有兩個擴充點。父協助程�
 ms.assetid: b54f836d-4fae-4e71-bf7b-af5a6e9e615c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bde49561c68044157c9d518571b8241c49dcf25
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: a3b7ac72cb42b12a96e5c57db0897a13d49d76370126e119ac2f5ed457d55c9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104507812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118133443"
 ---
 # <a name="80211-wireless-diagnostics-extensible-helper-classes"></a>802.11 無線診斷可延伸的 Helper 類別
 
@@ -22,12 +22,12 @@ ms.locfileid: "104507812"
 
 
 
- 
+ 
 
 > [!Note]  
 > 協力廠商協助程式類別應該註冊兩個父項 helper 類別，以確保呼叫協力廠商類別。 如需註冊的詳細資訊，請參閱 [註冊 NDF Helper 類別延伸](registering-ndf-helper-class-extensions.md)。
 
- 
+ 
 
 ## <a name="rnwf-extensible-helper-class"></a>RNWF 可擴充的 Helper 類別
 
@@ -62,7 +62,7 @@ RNWF helper 類別所提供的兩個索引鍵屬性是發生問題之介面的 G
 > [!Note]  
 > **WDIAG \_啟用的 IHV \_ WLAN \_ 識別碼 \_ 旗標 \_ 安全性 \_** 是唯一可能的 **dwFlags** 值。
 
- 
+ 
 
 協力廠商協助程式類別的相符屬性應該與其對應的軟體模組的服務識別碼相同。 這也是要在登錄中註冊協力廠商的相同名稱。 無線診斷將會在發生問題的無線會話期間查詢服務識別碼。 這項資訊會傳回給 NDF，以判斷協力廠商協助程式類別是否存在並註冊，然後再呼叫。
 
@@ -76,7 +76,7 @@ RNWF helper 類別所提供的兩個索引鍵屬性是發生問題之介面的 G
 
 
 
- 
+ 
 
 ## <a name="l2security-extensible-helper-class"></a>L2Security 可擴充的 Helper 類別
 
@@ -111,7 +111,7 @@ Parent = L"Extensible L2Sec Helper Class";
 > [!Note]  
 > **WDIAG \_啟用的 IHV \_ WLAN \_ 識別碼 \_ 旗標 \_ 安全性 \_** 是唯一可能的 **dwFlags** 值。
 
- 
+ 
 
 協力廠商協助程式類別的相符屬性應該與其對應的軟體模組的服務識別碼相同。 這也是要在登錄中註冊協力廠商的相同名稱。 無線診斷將會在發生問題的無線會話期間查詢服務識別碼。 這項資訊會傳回給 NDF，以判斷協力廠商協助程式類別是否存在並註冊，然後再呼叫。
 
@@ -125,7 +125,7 @@ Parent = L"Extensible L2Sec Helper Class";
 
 
 
- 
+ 
 
 ## <a name="matching-attributes"></a>相符屬性
 
@@ -148,7 +148,7 @@ HKR,Ndi\IHVExtensions, DiagnosticsID,0, "<Diagnostics ID GUID>"
 802.11 無線診斷協助程式類別目前會診斷下欄區域中的無線問題。
 
 -   任何802.11 連線問題，包括802.11 關聯、802.11 驗證、與802.11 標準相關的802.11 安全性設定 & 在作業系統中原本就支援的通訊協定，以及效能問題。
--   802.1 x 設定和第2層驗證相關問題的第2層安全性問題，其使用 Windows Vista 和 Windows Server 2008 原生支援的方法。
+-   關於 802.1 x 設定的第2層安全性問題，以及使用 Windows Vista 和 Windows Server 2008 原生支援的方法，與第2層驗證相關的任何問題。
 -   用戶端與存取點之間的設定檔設定不符，或是網路基礎結構和服務。
 
 802.11 無線診斷協助程式類別目前不會診斷下欄區域中的無線問題。
@@ -161,9 +161,9 @@ HKR,Ndi\IHVExtensions, DiagnosticsID,0, "<Diagnostics ID GUID>"
 
 此外，802.11 無線診斷無法分析 [**HighUtilization**](/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-highutilization) 案例。 已識別的無線效能問題將會進行分析，並回報為 [**LowHealth**](/windows/desktop/api/ndhelper/nf-ndhelper-inetdiaghelper-lowhealth) 案例。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: b3c56278-b9a2-4e08-bf98-7b3e4c8bd082
 title: 'ABM_SETPOS 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c6886249f42638745ca038aa1f216ddc995f0e7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 431bbdc02ed202c94d66b6b93ce43aba0ebd40f1fb7058583f56c027cfc29b70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861600"
 ---
 # <a name="abm_setpos-message"></a>ABM \_ SETPOS 訊息
 
-設定 appbar 的大小和螢幕位置。 此訊息會指定螢幕邊緣和 appbar 的周框。 系統可能會調整周框，讓 appbar 不會干擾 Windows 工作列或其他任何透過像 appbars。
+設定 appbar 的大小和螢幕位置。 此訊息會指定螢幕邊緣和 appbar 的周框。 系統可能會調整周框，讓 appbar 不會干擾 Windows 的工作列或其他任何透過像 appbars。
 
 
 ```C++
@@ -47,7 +47,7 @@ SHAppBarMessage(ABM_SETPOS, pabd);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

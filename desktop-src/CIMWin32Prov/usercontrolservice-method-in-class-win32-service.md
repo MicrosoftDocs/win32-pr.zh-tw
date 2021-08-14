@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 455128b35c2645c6aa6ea10f64d12dff392fecca
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3d5d723c704e236d2d8d07e716e25fa49cefaa8d53e71afd1dc625ee15ccfaac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172399"
 ---
 # <a name="usercontrolservice-method-of-the-win32_service-class-cimwin32-wmi-providers"></a> (CIMWin32 WMI 提供者的 Win32_Service 類別的 UserControlService 方法) 
 

@@ -4,12 +4,12 @@ ms.assetid: 3ca8518d-42f0-428c-b94c-ff244d17b314
 title: '設定2： IPv4 網路上不同子網的節點之間的 IPv6 流量 (6to4) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e1abd5477005e6a1e71c13aaf19a734e9191097d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d976aa3ea21d990ea22f861fbf05a816866e6b0d21502211e23a0e331a2f851
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118112496"
 ---
 # <a name="configuration-2-ipv6-traffic-between-nodes-on-different-subnets-of-an-ipv4-internetwork-6to4"></a>設定2： IPv4 網路上不同子網的節點之間的 IPv6 流量 (6to4) 
 
@@ -21,7 +21,7 @@ ms.locfileid: "104469061"
 
 使用6to4 的主要需求是您網站的一個可全域路由的 IPv4 位址。 假設您的網站是由一組您管理的 IPv6 電腦所組成， (某些執行的 Microsoft IPv6 通訊協定，以及一些執行中的其他 IPv6 執行) 。 也假設所有 IPv6 電腦都是使用乙太網路或6到4來直接連接。 您必須將可全域路由的 IPv4 位址指派給執行 Microsoft IPv6 通訊協定的其中一部電腦。 這部電腦將是您的6to4 閘道。
 
-如果您的 IPv4 位址是私人位址空間的一部分 (10.0.0.0/8、172.16.0.0/12 或 192.168.0.0/16) 或自動私人 IP 位址 (APIPA) 位址空間（由 Windows 2000 使用），則無法全域路由傳送。 否則，它可能是公用 IP 位址，而且可全域路由傳送。 See the [Debugging 6to4 Configuration](#debugging-6to4-configuration) topic in this document for more help in determining whether your ISP connection supports 6to4.
+如果您的 IPv4 位址是私人位址空間的一部分 (10.0.0.0/8、172.16.0.0/12 或 192.168.0.0/16) 或自動私人 IP 位址 (APIPA) 位址空間（Windows 2000 使用的 169.254.0.0/16），則無法全域路由傳送。 否則，它可能是公用 IP 位址，而且可全域路由傳送。 See the [Debugging 6to4 Configuration](#debugging-6to4-configuration) topic in this document for more help in determining whether your ISP connection supports 6to4.
 
 ## <a name="the-6to4cfgexe-tool"></a>6to4cfg.exe 工具
 

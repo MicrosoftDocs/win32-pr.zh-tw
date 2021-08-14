@@ -4,16 +4,16 @@ ms.assetid: c3859590-7674-4315-b171-3747e5d9350b
 title: WPD_CONTENT_TYPE_DOCUMENT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af8a0a902fb30eb0343a3846eaf3668a4a005a82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47684fa261b3455adba371c81095dea5cc5243266a662a922da7108e0d3b07c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193504"
 ---
 # <a name="wpd_content_type_document"></a>WPD \_ 內容 \_ 類型 \_ 檔
 
-描述其類型作為 WPD \_ 內容類型檔的物件， \_ \_ 代表檔。 範例包括 Microsoft Office Word 檔案、Microsoft Office Excel 檔案、純文字檔和其他專屬檔案格式。
+描述其類型作為 WPD \_ 內容類型檔的物件， \_ \_ 代表檔。 範例包括 Microsoft Office Word 檔案、Microsoft Office Excel 檔、純文字檔和其他專屬檔案格式。
 
 這種類型的物件可以裝載下列屬性。
 

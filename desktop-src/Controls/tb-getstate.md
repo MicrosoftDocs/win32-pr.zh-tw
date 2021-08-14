@@ -3,7 +3,7 @@ title: 'TB_GETSTATE 訊息 (Commctrl .h) '
 description: 抓取工具列中指定之按鈕的狀態相關資訊，例如是否已啟用、已按下或已核取。
 ms.assetid: e8a9e1ff-506f-413b-8f8c-986c25bce736
 keywords:
-- TB_GETSTATE message Windows 控制項
+- TB_GETSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b5c50978da78218be7f3d47208c0ea430ff36c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de1757cfd71427904dc7060cc0084c64b82f143e1a8db666e40fe9e08c64c7ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168234"
 ---
 # <a name="tb_getstate-message"></a>TB \_ >getstate 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103843247"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

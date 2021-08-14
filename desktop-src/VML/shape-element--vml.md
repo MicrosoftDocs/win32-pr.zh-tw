@@ -4,21 +4,21 @@ description: " (VML) 的 Shape 元素"
 ms.assetid: bc0db691-f0f0-4a99-adbb-8a5f5cfd9c00
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 085fb26339aa4db26b3b8680db9f706990102278
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d1ce528e8579bda60a00a2a835d3ffe89667be6bfed7a13308b4826cf131bda6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104383081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117754163"
 ---
 # <a name="shape-element-vml"></a> (VML) 的 Shape 元素
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
- 
+ 
 
 用來描述圖形的最上層元素。
 
@@ -67,8 +67,8 @@ ms.locfileid: "104383081"
 | [毛利率-上方](msdn-online-vml-margin-top-attribute.md)                                             | 指定相對於圖形錨點之圖形內含矩形的上邊緣。       |
 | [MSO-位置-水準](msdn-online-vml-mso-position-horizontal-attribute.md)                   | 指定 Microsoft Word 中物件的水準位置資料。                       |
 | [MSO-位置-水準-相對](msdn-online-vml-mso-position-horizontal-relative-attribute.md) | 在 Microsoft Word 中指定物件的相對水準位置資料。                     |
-| [MSO-位置-垂直](msdn-online-vml-mso-position-vertical-attribute.md)                       | 在 Microsoft Word 中指定物件的垂直位置資料。                            |
-| [MSO-位置-垂直-相對](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | 在 Microsoft Word 中指定物件的相對垂直位置資料。                       |
+| [MSO-位置-垂直](msdn-online-vml-mso-position-vertical-attribute.md)                       | 指定 Microsoft Word 中物件的垂直位置資料。                            |
+| [MSO-位置-垂直-相對](msdn-online-vml-mso-position-vertical-relative-attribute.md)     | 指定 Microsoft Word 中物件的相對垂直位置資料。                       |
 | [MSO-換行距離-下](msdn-online-vml-mso-wrap-distance-bottom-attribute.md)                 | 定義從圖形底部到換行文字的距離。       |
 | [MSO-換行距離-左方](msdn-online-vml-mso-wrap-distance-left-attribute.md)                     | 定義從圖形左邊到換行文字的距離。         |
 | [MSO-換行-右](msdn-online-vml-mso-wrap-distance-right-attribute.md)                   | 定義從圖形右邊到換行文字的距離。        |
@@ -96,17 +96,17 @@ ms.locfileid: "104383081"
 | [Target](msdn-online-vml-target-attribute.md)                                                     | 定義將在其中顯示 URL 的框架或視窗。                                     |
 | [標題](title-attribute--shape--vml.md)                                                           | 定義滑鼠指標移至圖形上方時所顯示的文字。                        |
 | [前幾個](msdn-online-vml-top-attribute.md)                                                           | 定義圖形相對於頁面流程中其上方元素的位置。    |
-| [型別](type-attribute--shape--vml.md)                                                             | 定義 [ShapeType](msdn-online-vml-shapetype-element.md) 元素之識別碼的參考。 |
+| [類型](type-attribute--shape--vml.md)                                                             | 定義 [ShapeType](msdn-online-vml-shapetype-element.md) 元素之識別碼的參考。 |
 | [UserDrawn](msdn-online-vml-userdrawn-attribute.md)                                               | 判斷使用者是否已將圖形新增至主投影片。                             |
 | [UserHidden](msdn-online-vml-userhidden-attribute.md)                                             | 判斷是否隱藏腳本錨點。                                                  |
-| [可見度](msdn-online-vml-visibility-attribute.md)                                             | 決定是否要顯示圖形。                                                       |
+| [可見性](msdn-online-vml-visibility-attribute.md)                                             | 決定是否要顯示圖形。                                                       |
 | [寬度](msdn-online-vml-width-attribute.md)                                                       | 定義圖形的寬度。                                                                |
 | [WrapCoords](msdn-online-vml-wrapcoords-attribute.md)                                             | 定義圍繞形狀的周框多邊形。                                           |
 | [Z-索引](msdn-online-vml-z-index-attribute.md)                                                   | 決定重迭圖形的顯示順序。                                            |
 
 
 
- 
+ 
 
 **備註**
 
@@ -125,7 +125,7 @@ ms.locfileid: "104383081"
 
 
 
-此外，您必須將下列程式碼放在網頁的 [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx) 專案中，才能取得 VML 和 Microsoft Office 延伸模組的正確架構。 如果您不是使用 Office 擴充功能，可以省略第二個架構。
+此外，您必須將下列程式碼放在網頁的 [**HTML**](https://msdn.microsoft.com/library/ms535255(v=VS.85).aspx)專案中，才能取得 VML 和 Microsoft Office 延伸模組的正確架構。 如果您不是使用 Office 擴充功能，您可以省略第二個架構。
 
 
 ```HTML
@@ -135,7 +135,7 @@ xmlns:o="urn:schemas-microsoft-com:office:office"
 
 
 
-您也必須在 [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style) 專案中有下列專案，才能註冊 VML 和 Microsoft Office 延伸模組的行為。 如果您不是使用 Office 擴充功能，可以省略第二個行為定義。
+您也必須在 [**STYLE**](https://developer.mozilla.org/docs/Web/HTML/Element/style)專案中有下列專案，才能註冊 VML 和 Microsoft Office 延伸模組的行為。 如果您不是使用 Office 擴充功能，您可以省略第二個行為定義。
 
 
 ```HTML
@@ -169,7 +169,7 @@ o\:* { behavior: url(#default#VML); }
 
 
 
- 
+ 
 
 **其他元素**
 
@@ -185,7 +185,7 @@ o\:* { behavior: url(#default#VML); }
 
 
 
- 
+ 
 
 **預先定義的圖形**
 
@@ -200,13 +200,13 @@ o\:* { behavior: url(#default#VML); }
 | [線條](msdn-online-vml-line-element.md)           | 定義圖形的線條。       |
 | [聚合線條](msdn-online-vml-polyline-element.md)   | 定義圖形的聚合線條。   |
 | [橢圓形](msdn-online-vml-oval-element.md)           | 定義圖形的橢圓形。      |
-| [影像](msdn-online-vml-image-element.md)         | 定義圖形的影像。     |
+| [映像](msdn-online-vml-image-element.md)         | 定義圖形的影像。     |
 | [曲線](msdn-online-vml-curve-element.md)         | 定義圖形的曲線。      |
 | [Arc](msdn-online-vml-arc-element.md)             | 定義圖形的弧形。       |
 
 
 
- 
+ 
 
 **另請參閱**
 
@@ -239,6 +239,6 @@ o\:* { behavior: url(#default#VML);}
 
 
 
- 
+ 
 
- 
+ 

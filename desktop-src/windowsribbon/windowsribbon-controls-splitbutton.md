@@ -4,12 +4,12 @@ description: '[分割] 按鈕是複合控制項，使用者可以選取系結至
 ms.assetid: 0939b3be-fa88-4864-8096-a664ab2e97b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b78aa261eebb24404eeaf8b3fdad7f630331f58
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 9bc5d9554af8c580b5288a2f18eaef89a1d7e864bae628ebac59599f6b7f820f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106969734"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202487"
 ---
 # <a name="split-button"></a>Split Button
 
@@ -88,7 +88,7 @@ ms.locfileid: "106969734"
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**SplitButton 標記元素**](windowsribbon-element-splitbutton.md)

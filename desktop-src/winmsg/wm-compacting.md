@@ -4,12 +4,12 @@ ms.assetid: e8adc655-0252-4a43-8a62-b08e96f5744e
 title: 'WM_COMPACTING 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8fb94e77a1c6b27701b26ed4b7e6e01f326aaa40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 553662bccb223ed7fb987df5d2918e3d8d1c6ab95f125cbacbd50c1e2484c0c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200569"
 ---
 # <a name="wm_compacting-message"></a>WM \_ 壓縮訊息
 
@@ -65,7 +65,7 @@ ms.locfileid: "106975788"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -73,7 +73,7 @@ ms.locfileid: "106975788"
 
 <dl> <dt>
 
-[Windows 總覽](windows.md)
+[Windows概述](windows.md)
 </dt> </dl>
 
  

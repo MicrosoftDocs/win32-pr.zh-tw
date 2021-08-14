@@ -3,8 +3,8 @@ title: 關於鍵盤加速器
 description: 本主題討論鍵盤加速器。
 ms.assetid: cbf7619d-289d-40c9-9a06-6ce47026d43f
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面，鍵盤快速鍵
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，鍵盤快速鍵
 - 使用者輸入，鍵盤快速鍵
 - 捕獲使用者輸入，鍵盤快捷
 - 鍵盤加速器
@@ -14,12 +14,12 @@ keywords:
 - 快速鍵對應表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88e97f0b4997d15d55601e571270276e7d7a3bd4
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 1b81240feb0ca21028c9d1813f4c8004e1c3bb932fe1ec8767e3719c26e7a5db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113120373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870727"
 ---
 # <a name="about-keyboard-accelerators"></a>關於鍵盤加速器
 
@@ -73,7 +73,7 @@ ms.locfileid: "113120373"
 
 
 
-| 加速器                 | 描述                                                                                                      |
+| 加速器                 | Description                                                                                                      |
 |------------------|-------------------------------------------------------------------------------------------------------|
 | ALT+ESC          | 切換至下一個應用程式。                                                                     |
 | ALT+F4           | 關閉應用程式或視窗。                                                                    |

@@ -4,12 +4,12 @@ ms.assetid: 4e3af0ef-3bee-4640-b6d0-c36ca7b3bd08
 title: AccountPictureLarge
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 749331c8a0bad282cd89487ac7689231ad16ff30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fdfc91cd0756e0e6147f156452119eefc57b3b5687984ffd1396c173baec8ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989477"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867248"
 ---
 # <a name="systemcontactaccountpicturelarge"></a>AccountPictureLarge
 

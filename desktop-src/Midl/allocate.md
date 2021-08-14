@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ff902e34e07ebd34edcb73797baa131eec8b222
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 345652b9da5ed5087793606d963d6cf9b8ce225587ee150c27f6410ae99b8d25
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808433"
 ---
 # <a name="allocate-attribute"></a>配置屬性
 
@@ -67,7 +67,7 @@ typedef [allocate (allocate-option-list) [, type-attribute-list] ] type-name;
 
 
 
- 
+ 
 
 根據預設，存根可以針對每個指標個別呼叫 [**midl \_ 使用者 \_ 配置**](midl-user-allocate-1.md) 和 [**midl \_ 使用者 \_**](midl-user-free-1.md) ，來為唯一或完整指標所參考的資料配置儲存區。
 
@@ -112,15 +112,15 @@ typedef [allocate(dont_free)] PTYPE3;
 [**midl \_ 使用者 \_ 免費**](midl-user-free-1.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
 [**著**](typedef.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

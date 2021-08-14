@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Wfext.h
 ms.assetid: 210168c6-d83b-4ffd-93d4-d22fa748cef2
-ms.openlocfilehash: 0513955fd1b03dfae321d52fe9a5df3794f54782
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: fa38b55fdcd7c338102ed62bd9d7011ca4b7caf79fa81e834bcf915d8f934464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842349"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224264"
 ---
 # <a name="fm_refresh_windows-message"></a>FM \_ REFRESH \_ WINDOWS 訊息
 

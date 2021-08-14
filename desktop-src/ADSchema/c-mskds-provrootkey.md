@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: baedb7bb995da28264bb457fb0d6d34f2d612e57
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 68c54ffcacf7f4b4f1df442c7c8530e30ee2b32848777b414ae2547eaa106d19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106967784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118175722"
 ---
 # <a name="ms-kds-prov-rootkey-class"></a>Kds 根金鑰->prov-RootKey 類別
 
@@ -64,9 +64,9 @@ ms.locfileid: "106967784"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -80,7 +80,7 @@ ms.locfileid: "106967784"
 | [**允許-子類別-有效**](a-allowedchildclasseseffective.md)                    | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**橋頭-伺服器-清單-BL**](a-bridgeheadserverlistbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**標準名稱**](a-canonicalname.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**一般名稱**](a-cn.md)                                                                  | 對      | **kds 根金鑰->prov-RootKey** [ **Top**](c-top.md)<br/> |
+| [**一般名稱**](a-cn.md)                                                                  | 是      | **kds 根金鑰->prov-RootKey** [ **Top**](c-top.md)<br/> |
 | [**建立時間戳記**](a-createtimestamp.md)                                               | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**描述**](a-description.md)                                                         | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**顯示名稱**](a-displayname.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                         |
@@ -93,7 +93,7 @@ ms.locfileid: "106967784"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/>                         |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/>                         |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                         |
@@ -143,28 +143,28 @@ ms.locfileid: "106967784"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                         |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**Kds 根金鑰-Createtimefilterend**](a-mskds-createtime.md)                                              | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-DomainID**](a-mskds-domainid.md)                                                  | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-KDF-AlgorithmID**](a-mskds-kdfalgorithmid.md)                                     | 對      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-Createtimefilterend**](a-mskds-createtime.md)                                              | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-DomainID**](a-mskds-domainid.md)                                                  | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-KDF-AlgorithmID**](a-mskds-kdfalgorithmid.md)                                     | 是      | **Kds 根金鑰->prov-RootKey**                                 |
 | [**Kds 根金鑰-KDF-Param**](a-mskds-kdfparam.md)                                                 | 否     | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-PrivateKey-Length**](a-mskds-privatekeylength.md)                                 | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-PublicKey-Length**](a-mskds-publickeylength.md)                                   | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-RootKeyData**](a-mskds-rootkeydata.md)                                            | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-SecretAgreement-AlgorithmID**](a-mskds-secretagreementalgorithmid.md)             | 對      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-PrivateKey-Length**](a-mskds-privatekeylength.md)                                 | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-PublicKey-Length**](a-mskds-publickeylength.md)                                   | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-RootKeyData**](a-mskds-rootkeydata.md)                                            | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-SecretAgreement-AlgorithmID**](a-mskds-secretagreementalgorithmid.md)             | 是      | **Kds 根金鑰->prov-RootKey**                                 |
 | [**Kds 根金鑰-SecretAgreement-Param**](a-mskds-secretagreementparam.md)                         | 否     | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-UseStartTime**](a-mskds-usestarttime.md)                                          | 對      | **Kds 根金鑰->prov-RootKey**                                 |
-| [**Kds 根金鑰-版本**](a-mskds-version.md)                                                    | 對      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-UseStartTime**](a-mskds-usestarttime.md)                                          | 是      | **Kds 根金鑰->prov-RootKey**                                 |
+| [**Kds 根金鑰-版本**](a-mskds-version.md)                                                    | 是      | **Kds 根金鑰->prov-RootKey**                                 |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/>                         |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/>                         |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/>                         |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/>                         |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/>                         |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/>                         |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/>                         |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/>                         |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/>                         |

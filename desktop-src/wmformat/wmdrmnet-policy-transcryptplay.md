@@ -1,6 +1,6 @@
 ---
 title: 'WMDRMNET_POLICY_TRANSCRYPTPLAY 結構 (Wmdrmsdk .h) '
-description: WMDRMNET \_ POLICY \_ TRANSCRYPTPLAY 結構包含使用 WINDOWS Media DRM 為網路裝置播放內容的原則資訊。
+description: WMDRMNET \_ policy \_ TRANSCRYPTPLAY 結構包含使用網路裝置 Windows 媒體 DRM 播放內容的原則資訊。
 ms.assetid: 95671c58-a593-40bb-856e-28ad1cba340e
 keywords:
 - WMDRMNET_POLICY_TRANSCRYPTPLAY 結構 windows 媒體格式
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0681251428b87b323c9ad3e73277ec8cdd2b95f0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8fe64c796a1f2f15e4733e7dd3d82e918306fb95d78c61fb85ad2d813d946d60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195503"
 ---
 # <a name="wmdrmnet_policy_transcryptplay-structure"></a>WMDRMNET \_ 原則 \_ TRANSCRYPTPLAY 結構
 
-**WMDRMNET \_ POLICY \_ TRANSCRYPTPLAY** 結構包含使用 Windows Media DRM 為網路裝置播放內容的原則資訊。
+**WMDRMNET \_ policy \_ TRANSCRYPTPLAY** 結構包含使用網路裝置 Windows 媒體 DRM 播放內容的原則資訊。
 
 ## <a name="syntax"></a>語法
 

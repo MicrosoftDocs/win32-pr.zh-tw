@@ -4,12 +4,12 @@ ms.assetid: a2a30a0d-fbfd-4317-8e3a-d1e1e8b86ae0
 title: 補充電話語音服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d93a7d12840e2001c6a2742e6bbd870d291e836
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9762b2d9ca74d0212170e1e87662242d3983663db024ce52018d108cc37fb883
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760750"
 ---
 # <a name="supplementary-telephony-services"></a>補充電話語音服務
 

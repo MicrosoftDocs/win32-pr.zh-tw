@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c4621b5eace56cb883a6c8b14c3b1f082b12d3a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1e1a4f668cec560528270d52a2abe4777ce32d3ceb38ce21345342ef87866c38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118115875"
 ---
 # <a name="iwmpcontrols3currentaudiolanguage-property"></a>IWMPControls3：： currentAudioLanguage 屬性
 
@@ -52,7 +52,7 @@ System.string **，它** 是音訊語言的 LCID。
 
 LCID 可唯一識別特定語言方言，稱為地區設定。
 
-針對 Windows Media 內容，與語言選取相關的屬性和方法只支援單一輸出。
+針對 Windows 媒體型內容，與語言選取相關的屬性和方法只支援單一輸出。
 
 使用 DVD 內容時，指定 LCID 將會導致第一個可用的音訊播放軌選取指定的語言識別項。
 

@@ -6,12 +6,12 @@ keywords:
 - AriaTabIndexErrorId
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acfec56fe1f9f6074579a8b84bccc9dfdef2e1da
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 1637008b6679f196f7bba0701606e0514abe44410032e1a5ffc063977ddf10e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104024265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118326742"
 ---
 # <a name="aria-tabindex-error"></a>ARIA Tabindex 錯誤
 
@@ -38,9 +38,9 @@ ms.locfileid: "104024265"
 
 
 
- 
+ 
 
- 
+ 
 
 
 

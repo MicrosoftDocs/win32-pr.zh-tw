@@ -4,12 +4,12 @@ ms.assetid: 94d9504b-2838-4516-8031-daa7bd9d2fec
 title: 磁片區陰影複製 API 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea8651c987c01ce67f1383f2ab1a24ca3fea8bbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fbc2d0bec6d68572a67a1dc80327fb80028d7f8d98487f24fec24e2c2e65f95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751525"
 ---
 # <a name="volume-shadow-copy-api-reference"></a>磁片區陰影複製 API 參考
 

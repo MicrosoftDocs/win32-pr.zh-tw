@@ -3,7 +3,7 @@ title: 'TB_GETTOOLTIPS 訊息 (Commctrl .h) '
 description: 抓取與工具列相關聯之工具提示控制項（如果有的話）的控制碼。
 ms.assetid: 1e0edfdc-d0cb-41f3-9178-1239d81d3034
 keywords:
-- TB_GETTOOLTIPS message Windows 控制項
+- TB_GETTOOLTIPS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 488212b34f9f1816797f097a5a1f42d2ea4f68c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 41f326ffcc12e9fcf115b6f010e9fc8f7e327ce6381ce9a2fb3d397d8e322f92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025178"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168224"
 ---
 # <a name="tb_gettooltips-message"></a>TB \_ GETTOOLTIPS 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104025178"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

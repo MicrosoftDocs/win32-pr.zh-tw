@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8caf66c318b0a00973f287513ae495cdf3479edc
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 00a03ed20284839b36e520f28e0e079dc8b00bf3b93b50996353be51bfe8e395
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163189"
 ---
 # <a name="getdistinguishedname-method-of-the-microsoftdns_server-class"></a>MicrosoftDNS 伺服器類別的 GetDistinguishedName 方法 \_
 

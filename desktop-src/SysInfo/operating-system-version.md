@@ -4,12 +4,12 @@ ms.assetid: 1a70b1d9-ed66-4201-9921-4e26e4001020
 title: 作業系統版本
 ms.topic: article
 ms.date: 09/15/2020
-ms.openlocfilehash: 73eb9a81880f29f9292713af46c5c79a7e9eb2de
-ms.sourcegitcommit: 7ea69db68bca2b1592802e676ada8432a2583410
+ms.openlocfilehash: ae90f4eac5546fccd7513d781234896fbbbda93ff3723a9ac1db438321ecf214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/17/2020
-ms.locfileid: "104024275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763950"
 ---
 # <a name="operating-system-version"></a>作業系統版本
 
@@ -32,11 +32,11 @@ ms.locfileid: "104024275"
 | Windows Vista    | 6.0            |
 | Windows Server 2003 R2 | 5.2      |
 | Windows Server 2003 | 5.2         |
-| Windows XP 64 位版本 | 5.2   |
+| WindowsXP 64-Bit Edition | 5.2   |
 | Windows XP | 5.1                  |
 | Windows 2000     | 5.0            |
 
-**\*** 適用于已針對 Windows 8.1 或 Windows 10 所列入的應用程式。 未針對 Windows 8.1 或 Windows 10 所找出的應用程式將會傳回 Windows 8 的 OS 版本值 (6.2) 。 若要將您的應用程式 Windows 8.1 或 Windows 10 的資訊清單，請參閱以 [Windows 的應用程式為目標](targeting-your-application-at-windows-8-1.md)。<br/>
+**\*** 適用于已針對 Windows 8.1 或 Windows 10 所列入的應用程式。 未針對 Windows 8.1 或 Windows 10 所找出的應用程式將會傳回 Windows 8 的 OS 版本值 (6.2) 。 若要將您的應用程式 Windows 8.1 或 Windows 10 的資訊清單，請參閱[Windows 的應用程式目標](targeting-your-application-at-windows-8-1.md)。<br/>
 
 識別目前的作業系統，通常並不是判斷特定作業系統功能是否存在的最佳方式。 這是因為作業系統可能已在可轉散發 DLL 中新增新功能。 您可以測試功能本身是否存在，而不是使用 [版本 API](version-helper-apis.md) 協助程式函式來判斷作業系統平臺或版本號碼。
 
@@ -50,5 +50,5 @@ ms.locfileid: "104024275"
 
 請注意，32位應用程式可以藉由呼叫 [**IsWow64Process**](/windows/desktop/api/wow64apiset/nf-wow64apiset-iswow64process) 函式，來偵測它是否正在 WOW64 下執行。 它可以藉由呼叫 [**GetNativeSystemInfo**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getnativesysteminfo) 函數來取得額外的處理器資訊。
 
-如需詳細資訊，請參閱 [Windows 10 版本資訊](/windows/release-information/) 和 [Windows 生命週期事實表](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)。
+如需詳細資訊，請參閱[Windows 10 版本資訊](/windows/release-information/)和[Windows 生命週期的事實表](https://support.microsoft.com/help/13853/windows-lifecycle-fact-sheet)。
 

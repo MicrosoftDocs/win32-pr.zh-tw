@@ -31,12 +31,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 620f73beb726eea065d8c8a63a635ff04fdeba37
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bcc88ea2c3c5d32dff9920b2699474a810f29b14dcf50d9b4c2401863c875778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169088"
 ---
 # <a name="rich-edit-control-styles"></a>Rich Edit 控制項樣式
 

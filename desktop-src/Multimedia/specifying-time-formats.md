@@ -9,12 +9,12 @@ keywords:
 - MCIWndUseFrames 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e390e811bde4d797572c19f372923906f6b738b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 50c14303879a3d13d018be8691eb1947ee1ed67907df796ae38cffc3936bf2ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300908"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801701"
 ---
 # <a name="specifying-time-formats"></a>指定時間格式
 
@@ -25,11 +25,11 @@ ms.locfileid: "104300908"
 > [!Note]  
 > Noncontinuous 格式（例如追蹤和 SMPTE）可能會造成工具列的行為不穩定。 針對這些時間格式，您可能會想要在 \_ 建立 MCIWnd 視窗時，指定 MCIWNDF NOPLAYBAR 視窗樣式來關閉工具列。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

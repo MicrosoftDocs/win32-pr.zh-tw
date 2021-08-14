@@ -3,8 +3,8 @@ title: 使用協力廠商編解碼器建立 ASF 檔案
 description: 使用協力廠商編解碼器建立 ASF 檔案
 ms.assetid: 5cd348ca-1f86-429d-92ee-4eab4ced8571
 keywords:
-- Windows Media Format SDK，建立 ASF 檔案
-- Windows Media Format SDK，協力廠商編解碼器
+- Windows媒體格式 SDK，建立 ASF 檔案
+- Windows媒體格式 SDK，協力廠商編解碼器
 - Advanced Systems Format (ASF) ，建立檔案
 - ASF (Advanced Systems Format) ，建立檔案
 - Advanced Systems Format (ASF) ，協力廠商編解碼器
@@ -14,16 +14,16 @@ keywords:
 - 編解碼器，建立 ASF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d6c057f1785ed50e328ac6094ff7dbe078e98fc
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 2d1eeeb891037581a550d8c15c2f2b4cefa14f81f20d0d55623d382d0e933e95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104314505"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197077"
 ---
 # <a name="to-create-asf-files-using-third-party-codecs"></a>使用協力廠商編解碼器建立 ASF 檔案
 
-您可以使用 Windows Media Format SDK 來建立 ASF 檔案，其中包含以您選擇的任何編解碼器編碼的數位媒體。 使用此 SDK 隨附的編解碼器時，您必須執行下列步驟。
+您可以使用 Windows 媒體格式 SDK 來建立 ASF 檔案，其中包含以您選擇的任何編解碼器編碼的數位媒體。 使用此 SDK 隨附的編解碼器時，您必須執行下列步驟。
 
 1.  使用所需的編解碼器將內容編碼。
 2.  尋找或建立 GUID 值，以識別使用步驟1中所用編解碼器編碼的內容。
@@ -40,9 +40,9 @@ ms.locfileid: "104314505"
 ## <a name="putting-mpeg-2-streams-into-asf"></a>將 MPEG 2 串流放入 ASF
 
 > [!Note]  
-> 本主題適用于使用 Windows Media Format SDK 的應用程式，可將使用 B 框架) 的 MPEG-2 (或其他壓縮格式放入 ASF 檔案容器中。
+> 本主題適用于使用 Windows 媒體格式 SDK 的應用程式，可將使用 B 框架) 的 mpeg-2 (或其他壓縮格式放置於 ASF 檔案容器中。
 
- 
+ 
 
 寫入器物件要求所有輸入範例都必須有時間戳記，並假設每個輸入範例的呈現時間晚于其之前的呈現時間。 雖然幾乎所有未壓縮的影片，甚至某些壓縮的影片串流都符合這些條件，但 MPEG-2 資料流程並不會。 在 MPEG 2 中，並非所有樣本都有時間戳記，而當 B 框架存在時，範例解碼順序與轉譯順序不同。 當寫入器物件遇到無法排序的範例時，它會將它們重新排列成「正確」的順序。 因此，若要將 MPEG-2 資料流程原生 (未解碼) 在 ASF 容器中，您必須執行下列步驟：
 
@@ -53,7 +53,7 @@ ms.locfileid: "104314505"
 
 讀取檔案時：
 
--   針對從檔案讀取的每個範例，檢查是否已到期。 如果它包含大於或等於零的開始時間，請將該值複製到輸出範例的時間戳記，然後再傳遞給解碼器。 將輸出範例上的所有其他時間戳記設為 **Null**。 在 DirectShow 中，藉由呼叫 **IMediaSample：： SetTime** (**null**，**null**) 來完成這項操作。
+-   針對從檔案讀取的每個範例，檢查是否已到期。 如果它包含大於或等於零的開始時間，請將該值複製到輸出範例的時間戳記，然後再傳遞給解碼器。 將輸出範例上的所有其他時間戳記設為 **Null**。 在 DirectShow 中，藉由呼叫 **IMediaSample：： SetTime** (**null**、**null**) 來完成此動作。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -83,9 +83,9 @@ ms.locfileid: "104314505"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

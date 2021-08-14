@@ -4,12 +4,12 @@ description: NLM 介面
 ms.assetid: 57cc2a07-4551-428c-a303-9b1a4510f225
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 322086a2860ff9bade47c9971662931f9ecada60
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 07751a3f28c713b699cf60aa391d7141b19db0fcafd3ef13437f951c944dcb04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117798505"
 ---
 # <a name="nlm-interfaces"></a>NLM 介面
 
@@ -32,11 +32,11 @@ ms.locfileid: "104462485"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

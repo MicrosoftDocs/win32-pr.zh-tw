@@ -4,12 +4,12 @@ ms.assetid: 617ddbf4-212f-4990-93c2-f38f04b035ab
 title: 'LINEEQOSINFO_ 常數 (Tspi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 423cc6172a1c6c87c1f3bb38929f727a15dad5c4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0c07a2d532e578b1f7df752cfd4930660d1d22dd4dd8406f0f8cc8bd61924bf6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761391"
 ---
 # <a name="lineeqosinfo_-constants"></a>LINEEQOSINFO \_ 常數
 

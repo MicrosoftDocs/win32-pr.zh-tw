@@ -4,12 +4,12 @@ ms.assetid: 42020071-b536-46b5-be82-d89b0653c008
 title: SelectionCount
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ab92d1d57e407adb0dab9dd7b6f49cfc95b606a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 032c00e129d6e1bf21cb272a5b78bc433b7ecbc646b828bcb59c1ae446c5a866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117866033"
 ---
 # <a name="systemhistoryselectioncount"></a>SelectionCount
 

@@ -6,12 +6,12 @@ keywords:
 - 遠端存取服務 RAS，錯誤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f37c18a795f5675fc6df80da6027526f81a87010
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b870678eb2dbe95c190bc67415b9abb5481c33918429194404893349c0d7f7a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791276"
 ---
 # <a name="handling-ras-errors"></a>處理 RAS 錯誤
 
@@ -19,9 +19,9 @@ ms.locfileid: "103674779"
 
 識別 RAS 錯誤的錯誤碼定義于 raserror 檔案中。 RAS 用戶端可以使用 [**RasGetErrorString**](/windows/desktop/api/Ras/nf-ras-rasgeterrorstringa) 函數取得描述錯誤的顯示字串。 如需這些錯誤的說明，請參閱 [路由和遠端存取錯誤碼](routing-and-remote-access-error-codes.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

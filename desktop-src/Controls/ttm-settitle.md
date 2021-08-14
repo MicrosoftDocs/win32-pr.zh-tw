@@ -3,7 +3,7 @@ title: 'TTM_SETTITLE 訊息 (Commctrl .h) '
 description: 將標準圖示和標題字串新增至工具提示。
 ms.assetid: e745a592-eef7-4e0d-8939-a48b52c4ab9f
 keywords:
-- TTM_SETTITLE message Windows 控制項
+- TTM_SETTITLE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d7972a9d40347995e9d641e7fc8706f9ad4c58bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e0e159ce522ea27361f93beaa96da06959fba6f92fedf5981dfd049ddc7f36cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166351"
 ---
 # <a name="ttm_settitle-message"></a>TTM \_ SETTITLE 訊息
 
@@ -93,8 +93,8 @@ DestroyIcon(hIcon);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TTM \_SETTITLEW** (Unicode) 和 **TTM \_ SETTITLEA** (ANSI) <br/>                 |
 

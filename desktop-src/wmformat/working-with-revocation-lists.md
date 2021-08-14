@@ -3,7 +3,7 @@ title: 使用撤銷清單
 description: 使用撤銷清單
 ms.assetid: 4463abb5-f48f-484f-b837-512313572c0a
 keywords:
-- Windows Media Format SDK，撤銷清單
+- Windows媒體格式 SDK，撤銷清單
 - Advanced Systems Format (ASF) ，撤銷清單
 - ASF (Advanced Systems Format) ，撤銷清單
 - 撤銷清單
@@ -11,12 +11,12 @@ keywords:
 - DRM (數位版權管理) ，撤銷清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75f4eca82dd82c9225406a85034ff2a6df227fce
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 3d022b9b55a1a14b147d76d289efeac956bae8f1858d155f138efa579d533fa9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104507776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194876"
 ---
 # <a name="working-with-revocation-lists"></a>使用撤銷清單
 
@@ -39,9 +39,9 @@ ms.locfileid: "104507776"
 [**處理授權取得事件**](handling-license-acquisition-events.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,22 +1,22 @@
 ---
 title: 64位 Windows) 的虛擬位址空間 (程式設計指南
-description: 根據預設，64位的 Microsoft Windows 應用程式具有數 tb 的使用者模式位址空間。
+description: 根據預設，64位的 Microsoft Windows 架構應用程式具有數 tb 的使用者模式位址空間。
 ms.assetid: c5c4af39-727e-46e1-821e-8342c555bf4c
 keywords:
 - 64位 Windows 程式設計指南64位 Windows 程式設計，虛擬位址空間
-- 虛擬位址空間64位 Windows 程式設計
+- 虛擬位址空間 64-位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91e4aa6eb67ebf931d1152b3a1101df2757e899b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: cb2e673befb66c45501558effb37f3d04ee1a99199010f8cca89abb2cb31c6d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118113368"
 ---
 # <a name="virtual-address-space-programming-guide-for-64-bit-windows"></a>64位 Windows) 的虛擬位址空間 (程式設計指南
 
-根據預設，64位的 Microsoft Windows 應用程式具有數 tb 的使用者模式位址空間。 如需精確的值，請參閱 [windows 和 Windows Server 版本的記憶體限制](/windows/desktop/Memory/memory-limits-for-windows-releases)。 不過，應用程式可以指定系統應配置低於 2 gb 的應用程式記憶體。 如果下列條件成立，則這項功能對64位應用程式很有説明：
+根據預設，64位的 Microsoft Windows 架構應用程式具有數 tb 的使用者模式位址空間。 如需精確的值，請參閱[Windows 和 Windows 伺服器版本的記憶體限制](/windows/desktop/Memory/memory-limits-for-windows-releases)。 不過，應用程式可以指定系統應配置低於 2 gb 的應用程式記憶體。 如果下列條件成立，則這項功能對64位應用程式很有説明：
 
 -   2 GB 的位址空間已足夠。
 -   程式碼有許多指標截斷警告。

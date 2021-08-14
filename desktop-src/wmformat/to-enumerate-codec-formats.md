@@ -13,12 +13,12 @@ keywords:
 - IWMCodecInfo3，編解碼器格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a00c9afdbeba5a187be4b992a19d4c9bdb138e1
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 5221b675c5aa3b5602bcfda96b22233f77d4ba92199f29f36885a4053700dfd2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196514"
 ---
 # <a name="to-enumerate-codec-formats"></a>列舉編解碼器格式
 

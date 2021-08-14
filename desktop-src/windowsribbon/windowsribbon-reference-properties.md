@@ -1,24 +1,24 @@
 ---
 title: 屬性索引鍵
-description: Windows 功能區架構屬性索引鍵的參考檔，PROPERTYKEY 和 PROPVARIANT 索引鍵/值組的集合，用來描述功能區架構命令的狀態。
+description: Windows 功能區架構屬性索引鍵的參考檔，這是 PROPERTYKEY 和 PROPVARIANT 索引鍵/值組的集合，可用來描述功能區架構命令的狀態。
 ms.assetid: 12bc7fda-ff69-4316-8baf-cc97e19a231c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dbf916de92b4819797846b889b42306c7c00f21
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9a55d7c1cb84bc3491c07c566b9ae3f0ecf7b2829c84203d382339c0123650c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372622"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201330"
 ---
 # <a name="property-keys"></a>屬性索引鍵
 
-Windows 功能區架構屬性索引鍵的參考檔， **PROPERTYKEY** 和 **PROPVARIANT** 索引鍵/值組的集合，用來描述功能區架構命令的狀態。
+Windows 功能區架構屬性索引鍵的參考檔，這是 **PROPERTYKEY** 和 **PROPVARIANT** 索引鍵/值組的集合，可用來描述功能區架構命令的狀態。
 
 > [!Note]  
 > 每個命令的集合中都必須有唯一的索引鍵。
 
- 
+ 
 
 ## <a name="property-types"></a>屬性類型
 
@@ -54,12 +54,12 @@ Windows 功能區架構屬性索引鍵的參考檔， **PROPERTYKEY** 和 **PROP
 
 <dl> <dt>
 
-[Windows 功能區架構參考](windowsribbon-reference-entry.md)
+[Windows功能區架構參考](windowsribbon-reference-entry.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

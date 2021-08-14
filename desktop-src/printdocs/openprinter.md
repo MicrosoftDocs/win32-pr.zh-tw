@@ -19,12 +19,12 @@ api_location:
 - Ext-MS-Win-printer-Winspool-l1-1-1.dll
 - Ext-MS-Win-Printer-WinSpool-l1-1-2.dll
 - Ext-MS-Win-Printer-WinSpool-L1-1-3.dll
-ms.openlocfilehash: 02cd6f6b5d56eec525bd00e2feef50f4d5f07734
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48f25f9c8aec314b997a4600335e22bea2f0bbd8eefa78235ddbb25192f556f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106969386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868599"
 ---
 # <a name="openprinter-function"></a>OpenPrinter 函式
 
@@ -98,7 +98,7 @@ BOOL OpenPrinter(
 
 *PDefault* 參數可讓您指定用來列印 [**StartDocPrinter**](startdocprinter.md)函數所提交檔的資料類型和裝置模式值。 不過，您可以在檔啟動後使用 [**SetJob**](setjob.md) 函式來覆寫這些值。
 
-當在 [**StartDocPrinter**](startdocprinter.md)呼叫的 *pDocInfo* 參數中傳遞的 [**DOC \_ INFO \_ 1**](doc-info-1.md)結構的 *pDatatype* 成員值為 "RAW" 時，不會使用 *PDefault* 參數的 [**印表機 \_ 預設**](printer-defaults.md)值結構中所定義的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)設定。 當高階檔 (例如 Adobe PDF 或 Microsoft Word 檔案) 或其他印表機資料 (這類 PCL、PS 或 HPGL) 直接傳送至 *pDatatype* 設定為「原始」的印表機時，檔必須完整地以硬體理解的語言描述 **DEVMODE** 樣式的列印工作設定。
+當在 [**StartDocPrinter**](startdocprinter.md)呼叫的 *pDocInfo* 參數中傳遞的 [**DOC \_ INFO \_ 1**](doc-info-1.md)結構的 *pDatatype* 成員值為 "RAW" 時，不會使用 *PDefault* 參數的 [**印表機 \_ 預設**](printer-defaults.md)值結構中所定義的 [**DEVMODE**](/windows/win32/api/wingdi/ns-wingdi-devmodea)設定。 當高階檔 (例如 Adobe PDF 或 Microsoft Word 檔案) 或其他印表機資料 (這類 PCL、PS 或 HPGL) 直接傳送至 *pDatatype* 設定為「原始」的印表機時，檔必須完整地以硬體理解的語言來描述 **DEVMODE** 樣式的列印工作設定。
 
 您可以呼叫 **OpenPrinter** 函數來開啟列印伺服器的控制碼，或判斷用戶端對列印伺服器的存取權限。 若要這樣做，請在 *pPrinterName* 參數中指定列印伺服器的名稱，將 [**印表機 \_ 預設**](printer-defaults.md)結構的 **PDatatype** 和 **PDevMode** 成員設為 **Null**，並設定 **DesiredAccess** 成員以指定伺服器存取遮罩值，例如 [伺服器 \_ 所有存取] \_ 。 當您完成控制碼時，請將它傳遞至 [**ClosePrinter**](closeprinter.md) 函式來關閉它。
 
@@ -132,7 +132,7 @@ BOOL OpenPrinter(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **OpenPrinterW** (Unicode) 和 **OpenPrinterA** (ANSI) <br/>                                         |

@@ -4,16 +4,16 @@ ms.assetid: 9f28141e-e795-4740-891b-cd8226481da7
 title: FromAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0326e41cc812d610a4d0213cd7c3290102278f4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bb7bba5ce4afe4882a6aec9e2368ceace43cbe315ca9835612b8103e00a56720
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097366"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118052890"
 ---
 # <a name="systemmessagefromaddress"></a>FromAddress
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

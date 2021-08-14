@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Wzcsapi.dll
-ms.openlocfilehash: 36457eebf5c38b32bb46eb8cfa44cae104f1bc6b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3dd7ce876501486b9bec4dbad63ce5812b910b32b9dcdaa1eb80aff3e7cc415e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117797408"
 ---
 # <a name="wzcqueryinterface-function"></a>WZCQueryInterface 函式
 
@@ -139,9 +139,9 @@ DWORD WZCQueryInterface(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
-| 用戶端支援結束<br/>    | Windows XP （含 SP3）<br/>                                                         |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
+| 用戶端支援結束<br/>    | WindowsXP SP3<br/>                                                         |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Wzcsapi。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Wzcsapi .lib</dt> </dl> |

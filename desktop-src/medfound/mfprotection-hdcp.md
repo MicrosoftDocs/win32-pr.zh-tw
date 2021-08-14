@@ -4,12 +4,12 @@ ms.assetid: 3C4B6E66-D68B-4BE9-A821-8F91EF28B70B
 title: 'MFPROTECTION_HDCP 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5126bbab3c030a07cfee3d5b3a1f187079e1f869
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ed0f0412165f1376a298486894654b2282143113e05d99d3b167cbe8fcc8163
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983528"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872472"
 ---
 # <a name="mfprotection_hdcp-attribute"></a>MFPROTECTION \_ HDCP 屬性
 
@@ -25,8 +25,8 @@ ms.locfileid: "106983528"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

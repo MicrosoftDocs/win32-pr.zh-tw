@@ -23,16 +23,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f18917eeb2eb3c60c1a35683b20f7e4604eddde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c789a9963086128e93546415247cfb3db69afe59c67a445b851ee5cf3687d16c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756854"
 ---
 # <a name="itsremoteprogramserverstartprogram-method"></a>ITSRemoteProgram：： ServerStartProgram 方法
 
-指定要在遠端會話中啟動的 RemoteApp 程式。 當用戶端) 收到會話連線通知之後，就必須在連線的會話上叫用此函數 (。 任何數目的 RemoteApp 程式都可以在會話中啟動。 如果沒有在會話中啟動 RemoteApp 程式（Windows Server 2008 的兩分鐘），RemoteApp 會話將會超時。
+指定要在遠端會話中啟動的 RemoteApp 程式。 當用戶端) 收到會話連線通知之後，就必須在連線的會話上叫用此函數 (。 任何數目的 RemoteApp 程式都可以在會話中啟動。 如果會話中沒有任何 remoteapp 程式在超時時間限制內啟動（這是 Windows Server 2008 的兩分鐘）時，remoteapp 會話將會過期。
 
 ## <a name="syntax"></a>語法
 

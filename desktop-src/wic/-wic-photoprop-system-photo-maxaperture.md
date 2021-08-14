@@ -4,12 +4,12 @@ ms.assetid: 9d12d265-0b0a-44d9-bbf6-ca7d748382ee
 title: MaxAperture 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9f3dab4d5ebf89033de03dfce887a7cea10fa11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8d692c12b9a5df584331a9a5ff4a82707d8549ab7891e1d9162eef318a77fe4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204710"
 ---
 # <a name="systemphotomaxaperture-photo-metadata-policy"></a>MaxAperture 相片中繼資料原則
 

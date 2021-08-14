@@ -15,12 +15,12 @@ keywords:
 - SMPTE 時間代碼，同步讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c843ba802272d02f1dfc885a3c65b3d124b7423
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: b368492d45d3bc564ce0fbb84a6013349c26fcdaca8c1ad576863a9cee6f6f36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104314328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196467"
 ---
 # <a name="to-seek-by-smpte-time-code-using-the-synchronous-reader"></a>使用同步讀取器依 SMPTE 時間碼進行搜尋
 
@@ -46,9 +46,9 @@ SMPTE 時間代碼是由範圍和該範圍內的時間代碼所定義。 範圍�
 [**使用索引**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,28 +1,28 @@
 ---
 title: 使用功能區標記宣告命令和控制項
-description: Windows 功能區架構會根據 Extensible Application Markup Language (XAML) 以宣告方式來執行功能區應用程式的外觀。
+description: Windows 功能區架構會根據 Extensible Application Markup Language (XAML) ，使用以宣告方式執行功能區應用程式外觀的標記語言。
 ms.assetid: 76bacfb3-ecaf-47b3-be97-afa5e7e52330
 keywords:
-- Windows 功能區，標記結構
+- Windows功能區，標記結構
 - 功能區，標記結構
-- Windows 功能區，從命令邏輯分隔簡報
+- Windows從命令邏輯分隔簡報的功能區
 - 從命令邏輯分隔簡報的功能區
-- Windows 功能區，元件
+- Windows功能區、元件
 - 功能區、元件
 - Windows 功能區的命令系統
 - Windows 功能區的控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c97c5c193332ce217709c825a58f0ae546c03c9c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 20ae6c8d62012fac240c6d044c688295d89d8d5899e3673a3b914d8d142111d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118201320"
 ---
 # <a name="declaring-commands-and-controls-with-ribbon-markup"></a>使用功能區標記宣告命令和控制項
 
-Windows 功能區架構會根據 Extensible Application Markup Language (XAML) 以宣告方式來執行功能區應用程式的外觀。
+Windows 功能區架構會根據 Extensible Application Markup Language (XAML) ，使用以宣告方式執行功能區應用程式外觀的標記語言。
 
 -   [分隔來自命令邏輯的簡報](#separating-presentation-from-command-logic)
 -   [標記結構](#markup-structure)
@@ -175,6 +175,6 @@ Windows 功能區架構會根據 Extensible Application Markup Language (XAML) �
 [編譯功能區標記](windowsribbon-intentcl.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 511829233b93dbe164ce2feccd1247ccebf3ec3c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca2136936d45850726e64b61c4fae62889d2b5e5ea30cd2b9c3a98357006e962
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104971981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224673"
 ---
 # <a name="didiskquotauserquotathresholdtext-property"></a>DIDiskQuotaUser. QuotaThresholdText 屬性
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 2ea542fa539ea1eb1cceae0f4cb8ba8dc2012085
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3968b3cb7068f994d3ff44e7182add2b1e3cb7a44c0d73019cf583a0e8c7f70f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306356"
 ---
 # <a name="legacyservers-collection"></a>LegacyServers 集合
 
@@ -39,7 +39,7 @@ ms.locfileid: "106991629"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 

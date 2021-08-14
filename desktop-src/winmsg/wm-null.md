@@ -4,12 +4,12 @@ ms.assetid: edbcfba6-7b79-4d53-84e3-2e4227e17369
 title: 'WM_Null 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b445e13200bdeb2947e4d8fd363a1a39f0c86db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ade89ee83a7d0d0b9d012248da729facbd07d269387a86cd4dfac873b76be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199944"
 ---
 # <a name="wm_null-message"></a>WM \_ Null 訊息
 
@@ -62,7 +62,7 @@ ms.locfileid: "104192787"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "104192787"
 
 <dl> <dt>
 
-[Windows 總覽](windows.md)
+[Windows概述](windows.md)
 </dt> </dl>
 
  

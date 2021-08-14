@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cd77bbdb1a7e5c708ebcd955a0c8854c7c7404b4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c2c82b9cb06f7fa141100856bac86aaf6afe1635721a224603b4e78e51fe335f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164204"
 ---
 # <a name="mdm_windowslicensing-class"></a>MDM \_ WindowsLicensing 類別
 
@@ -93,7 +93,7 @@ XML 授權檔案內容必須經過正確的轉義 (也就是說，它不應該�
 </blockquote>
 <br/> 以下是透過 MDM 或布建套件使用此節點時的有效版本升級路徑：
 <ul>
-<li>Windows 10 Mobileto Windows 10 行動裝置企業版<br/></li>
+<li>Windows 10Mobileto Windows 10 行動裝置企業版<br/></li>
 </ul>
 <br/></td>
 </tr>
@@ -214,7 +214,7 @@ XML 授權檔案內容必須經過正確的轉義 (也就是說，它不應該�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ CIMv2 \\ MDM \\ DMMap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

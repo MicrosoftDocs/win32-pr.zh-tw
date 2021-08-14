@@ -4,12 +4,12 @@ ms.assetid: 5f85bd0e-31bb-45aa-af7c-15299ed31b26
 title: VSS 中繼資料元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c913262158d59a69de21a6e0d49e31979c1a0cae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac121ae62798d0318233dba48e6d0b56c36e2065a71fe8e12af9c963893dd027
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751431"
 ---
 # <a name="vss-metadata-components"></a>VSS 中繼資料元件
 

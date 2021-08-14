@@ -6,12 +6,12 @@ keywords:
 - RTM，架構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc36c339ac89f01d5ba14c00857b3ced9c29414c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a1637eed71a89a6de4fa7dad6a4fea4a5918366f69ee05a490824699605a117a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117791354"
 ---
 # <a name="how-the-routing-table-manager-architecture-fits-together"></a>路由表管理員架構如何搭配在一起
 
@@ -47,9 +47,9 @@ ms.locfileid: "104311594"
 
 路由只能包含與擁有路由之用戶端相關聯的下一個躍點清單的指標。
 
- 
+ 
 
- 
+ 
 
 
 

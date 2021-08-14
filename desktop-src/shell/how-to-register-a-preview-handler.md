@@ -4,12 +4,12 @@ ms.assetid: 5f194d29-d09f-4426-a63e-911db65ce700
 title: 如何註冊預覽處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5af9610de1822678521557fc20aa53f4e556e0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0e1879261750609015acee2ccea1bc6f48f82df78ac7c18cbb2f46fa493c4e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973132"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223437"
 ---
 # <a name="how-to-register-a-preview-handler"></a>如何註冊預覽處理常式
 
@@ -67,7 +67,7 @@ HKEY_CLASSES_ROOT
 
 子機碼的預設值 (在此處， **{ec3a629a-a47c-4245-bc78-b4b63d0e3154}**) 並非必要或使用。 但是，將其設定為未當地語系化的字串可協助您偵測註冊問題。
 
-DisplayName 專案的 .dll 資源中的負號 (-101) 存在於舊版的原因。 相反地，圖示專案不需要減號。
+DisplayName 專案中 .dll 資源的負號 (-101) 存在於舊版的原因。 相反地，圖示專案不需要減號。
 
 AppID 值會提供與副檔名相關聯之應用程式的 appid 參考， (儲存在 **HKEY \_ 類別 \_ 根目錄** \\ **AppID** 下。 此處所使用的值（{6d2b5079-2f0b-48dd-ab7f-97cec514d30b}）是 Prevhost.exe 代理主機的識別碼。 32位預覽處理常式在64位作業系統上安裝時，應使用 **AppID** {534A1E02-D58F-44f0-B58B-36CBED287C7C}。
 

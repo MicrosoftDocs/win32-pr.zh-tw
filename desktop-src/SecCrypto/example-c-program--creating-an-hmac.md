@@ -4,12 +4,12 @@ ms.assetid: a4bb67fb-8217-4e76-b1bf-461ccd39f58a
 title: 範例 C 程式：建立 HMAC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a18da226c9e88d535b34fe9c319a042132749e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25d4f6a91025ed159e580cfcb9780527536a31f4f72ae54d5a821a328d45abec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765886"
 ---
 # <a name="example-c-program-creating-an-hmac"></a>範例 C 程式：建立 HMAC
 

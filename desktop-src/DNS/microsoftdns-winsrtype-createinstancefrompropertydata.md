@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c35863e00ace6c0772383604d0fbdfd7915cd02c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9d8bc5103c9a7034b79500496cc7a066c1fbc65aa32d20dd29ea3160dfbaf0ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162939"
 ---
 # <a name="createinstancefrompropertydata-method-of-the-microsoftdns_winsrtype-class"></a>MicrosoftDNS WINSRType 類別的 CreateInstanceFromPropertyData 方法 \_
 

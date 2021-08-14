@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0932138ce5aec85ad3d3e7058db0c2a93e131181
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d452ebf68487dcf9b3177b5f89c81748b45760030dbddb6c3ae60070ca66bf0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118091198"
 ---
 # <a name="line-directive"></a>\#line 指示詞
 

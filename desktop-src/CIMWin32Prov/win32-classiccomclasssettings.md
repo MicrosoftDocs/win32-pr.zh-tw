@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb9c190157742aeca7c1ba6008a784005d054ca6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ec3f71a231fe137413cd6ebfebf11e2d9775f58c12525c25c74eca3de4231d2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172379"
 ---
 # <a name="win32_classiccomclasssettings-class"></a>Win32 \_ ClassicCOMClassSettings 類別
 

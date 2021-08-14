@@ -1,19 +1,19 @@
 ---
-description: Windows 使用者可以將搜尋儲存為搜尋資料夾，這個檔案是由 XML 檔案所產生，該檔案是以可供 Windows 搜尋子系統使用的形式儲存查詢。
+description: Windows 使用者可以將搜尋儲存為搜尋資料夾，這個檔案是由 XML 檔案所產生，該檔案會將查詢儲存在可供 Windows 搜尋子系統使用的表單中。
 ms.assetid: 1c73e220-a999-4243-879c-ac7310151def
 title: 儲存的搜尋檔案格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d19cf936f78b045814bf7cba31a123c40d61927a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 614eb357a82d2c70e068a9fa5258974423d755c48e779d5f5fe8be184a864d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863721"
 ---
 # <a name="saved-search-file-format"></a>儲存的搜尋檔案格式
 
-在 Windows Vista 和更新版本中，使用者可以將搜尋儲存為搜尋資料夾，這個檔案是由 XML 檔案所產生，該檔案是以可供 Windows 搜尋子系統使用的形式來儲存查詢。 本主題說明 (的檔案格式 \* 。搜尋-ms) ，其中包含下列各節：
+在 Windows Vista 和更新版本中，使用者可以將搜尋儲存為搜尋資料夾，這個檔案是由 XML 檔案所產生，該檔案會將查詢儲存在可供 Windows 搜尋子系統使用的表單中。 本主題說明 (的檔案格式 \* 。搜尋-ms) ，其中包含下列各節：
 
 - [已儲存搜尋的總覽](#overview-of-saved-searches)
 - [\<viewInfo> 元素](/windows)
@@ -170,7 +170,7 @@ ms.locfileid: "104511094"
 |------------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 提供者  | 僅供內部使用。 請勿使用。                                                                                        | n/a                                                                                                                                                                                                                                                            |
 | 對子 | 僅供內部使用。 請勿使用。                                                                                        | n/a                                                                                                                                                                                                                                                            |
-| 影響範圍      | 識別要在搜尋中包含或排除的位置。                                                                 | 要包含或排除之位置的路徑或 [已知資料夾識別碼](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getid) 。 此元素也可以指定搜尋是否應包含/排除 (淺層或深層搜尋) 的子路徑。 |
+| 範圍      | 識別要在搜尋中包含或排除的位置。                                                                 | 要包含或排除之位置的路徑或 [已知資料夾識別碼](/windows/win32/api/shobjidl_core/nf-shobjidl_core-iknownfolder-getid) 。 此元素也可以指定搜尋是否應包含/排除 (淺層或深層搜尋) 的子路徑。 |
 | kindList   | 識別要搜尋)  (的檔案類型。                                                                             | 任何 system.string 值。                                                                                                                                                                                                                                         |
 | 條件 | 指定篩選結果的規則。 例如，可能會將結果限制為傳送給特定人員或的電子郵件。 | Microsoft.visualstudio.testtools.uitest.extension.andcondition.match、orCondition、notCondition、leafCondition。                                                                                                                                                                                                        |
 

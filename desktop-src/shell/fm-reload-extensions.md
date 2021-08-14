@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wfext.h
-ms.openlocfilehash: 9e82ec9ec638cb70cc7b571ed9e5e76d604cd4da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e4e632ac153a78e729ce0d3fcd65f49ae90781bd29cfe354d4571ba04e63be0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224172"
 ---
 # <a name="fm_reload_extensions-message"></a>FM \_ 重載 \_ 延伸模組訊息
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3e256329bc235f7fe5a0428ba33710fa6b838f04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 947cda4094491702fa0f847e6a8abd4fed7bcbe9bd3504c5f8aec2097b0d6b8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220934"
 ---
 # <a name="ishellfoldersearchablefindstring-method"></a>IShellFolderSearchable：： FindString 方法
 
@@ -54,18 +54,18 @@ HRESULT FindString(
 *pdwFlags* \[在\]
 </dt> <dd>
 
-類型： **DWORD \** _
+類型： **DWORD \***
 
-目前未定義任何旗標;設定為 _ * Null * *。
+目前未定義任何旗標;設定為 **Null**。
 
 </dd> <dt>
 
 *punkOnAsyncSearch* \[在\]
 </dt> <dd>
 
-類型： **[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) \** _
+類型： **[ **IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)\***
 
-[_ *IUnknown* *](/windows/win32/api/unknwn/nn-unknwn-iunknown)類型之物件的指標。 這個物件必須支援 [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) 介面。 如果不需要回呼，請設定為 **Null** 。
+[**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown)類型之物件的指標。 這個物件必須支援 [**IShellFolderSearchableCallback**](ishellfoldersearchablecallback.md) 介面。 如果不需要回呼，請設定為 **Null** 。
 
 </dd> <dt>
 

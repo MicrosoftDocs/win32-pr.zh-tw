@@ -4,12 +4,12 @@ ms.assetid: b4769e19-7478-4919-a9d2-8086ece6da70
 title: 控制碼和物件函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ec161f74dcd48ef0c8f2828927e1c0525221cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbdab5a0780dbcd9ad3063cb7e4de0c114a6d1b5970f3b1b65039171e28fdf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764396"
 ---
 # <a name="handle-and-object-functions"></a>控制碼和物件函式
 

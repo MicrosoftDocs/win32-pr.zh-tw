@@ -4,12 +4,12 @@ ms.assetid: 67f79c31-9dd7-4e3f-bfe1-701b10611f91
 title: 註冊時間提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a98e5e516db6b2c800c917c5e47da9bd75ba5c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6eeb7bce1370e443eaf3eb42d78cdfd058cf2c38147da038de1e921d85e957f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849591"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763923"
 ---
 # <a name="registering-a-time-provider"></a>註冊時間提供者
 

@@ -3,18 +3,18 @@ title: 操作和慣性
 description: 本章節包含與操作和慣性相關的主題。
 ms.assetid: ba56fa56-c74f-47ac-a15c-ba82a0521995
 keywords:
-- Windows Touch，操作
-- Windows Touch，慣性
+- Windows觸控、操作
+- Windows觸控、慣性
 - 操作，關於
 - 慣性，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a55def8acb5f3dcf517ae90f4f220511e0650a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 03d47661630fd0cc3f14125d1590816145d48a0f3485cedde68c76b52064eb4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199486"
 ---
 # <a name="manipulations-and-inertia"></a>操作和慣性
 
@@ -31,7 +31,7 @@ ms.locfileid: "104021085"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -40,9 +40,9 @@ ms.locfileid: "104021085"
 [程式設計指南](programming-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

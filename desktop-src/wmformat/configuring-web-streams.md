@@ -8,12 +8,12 @@ keywords:
 - Web 串流，設定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 27c91c36788b858b2378ebf46b553f076c5ec490
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8df1ced96a772a26b674fb47a30a8664d6431ff946328f45467554857b1ee4b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199119"
 ---
 # <a name="configuring-web-streams"></a>設定 Web 資料流程
 
@@ -38,7 +38,7 @@ Web 串流是一種特殊類型的檔案傳輸資料流程，用來在單一資�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -53,9 +53,9 @@ Web 串流是一種特殊類型的檔案傳輸資料流程，用來在單一資�
 [**Web 串流**](web-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,10 +3,10 @@ title: 建立中繼檔播放清單
 description: 建立中繼檔播放清單
 ms.assetid: 0afe3aaa-bcd1-4060-8772-add50f3b6bac
 keywords:
-- Windows Media 中繼檔播放清單，建立
+- Windows媒體中繼檔播放清單，建立
 - 播放清單，建立
 - 中繼檔播放清單，建立
-- 建立 Windows Media 中繼檔播放清單
+- 建立 Windows 媒體中繼檔播放清單
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -14,25 +14,25 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d4acff6452640c3f0b66219b765a931033b9f3a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 765d8ab507c2ce502f1cad021696b0fc2ecfd110da8dfa95ccc84a43a8987561
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750465"
 ---
 # <a name="creating-metafile-playlists"></a>建立中繼檔播放清單
 
-您可以使用任何文字編輯器（例如 Microsoft 記事本）來建立播放清單。 開啟您的文字編輯器。 輸入您想要執行的腳本專案。 完成輸入記事本之後，請以適當的檔案名和副檔名儲存檔案。 如需擴充功能的詳細資訊，請參閱 [中繼檔延伸指導方針](metafile-extension-guidelines.md)。 檔案名通常是 Windows Media 檔案或資料流程的名稱，後面接著地板蠟、. 300k.wvx 或 .asx 的副檔名。 例如，如果您的媒體內容是副檔名為 .wma 的 Windows Media 音訊檔案，則在命名播放清單時，請使用地板蠟副檔名。 播放清單不能包含文字處理器（例如 Microsoft Word）中的任何格式設定代碼。 若要確定播放清單中未包含任何格式設定代碼，請將檔案儲存為純文字或 ASCII 檔。
+您可以使用任何文字編輯器（例如 Microsoft 記事本）來建立播放清單。 開啟您的文字編輯器。 輸入您想要執行的腳本專案。 完成輸入記事本之後，請以適當的檔案名和副檔名儲存檔案。 如需擴充功能的詳細資訊，請參閱 [中繼檔延伸指導方針](metafile-extension-guidelines.md)。 檔案名通常是 Windows 媒體檔案或資料流程的名稱，後面接著地板蠟、. 300k.wvx 或 .asx 的副檔名。 例如，如果您的媒體內容是副檔名為 .wma 的 Windows 媒體音訊檔案，則在命名播放清單時，請使用地板蠟副檔名。 播放清單不能包含文字處理器的任何格式設定代碼，例如 Microsoft Word。 若要確定播放清單中未包含任何格式設定代碼，請將檔案儲存為純文字或 ASCII 檔。
 
 > [!Note]  
 > 元素和屬性不區分大小寫。 播放清單中用來定義元素或屬性的文字可以是大寫或小寫，或是兩者的混合。
 
- 
+ 
 
 如果專案沒有任何子項目 (修改或包含在另一個專案) 中的專案，就可以在開頭標記的結尾處使用單一斜線字元 (/) ，而不是在 ' > ' 之前，用來取代結束記號。 專案的子項目必須出現在該元素的開頭和結束記號之間;否則這些專案不是該專案的子專案，而且會被忽略，或在播放清單的語法中造成錯誤。
 
-播放清單的前四個字元必須是 " &lt; ASX"。 當所有播放清單中的地板蠟、. 300k.wvx 或 .asx 時，都使用了 **ASX** 元素。 每個播放清單必須只有一個 **ASX** 元素。 這個元素會將檔案識別為 Windows Media 中繼檔播放清單。 它不會指定播放清單的類型。
+播放清單的前四個字元必須是 " &lt; ASX"。 當所有播放清單中的地板蠟、. 300k.wvx 或 .asx 時，都使用了 **ASX** 元素。 每個播放清單必須只有一個 **ASX** 元素。 這個元素會將檔案識別為 Windows 媒體中繼檔播放清單。 它不會指定播放清單的類型。
 
 **ASX** 元素有三個可能的屬性：
 
@@ -91,7 +91,7 @@ ms.locfileid: "104183857"
 下列各節包含詳細資訊：
 
 -   [嵌套中繼檔](nesting-metafiles.md)
--   [使用 ASP 頁面動態建立 Windows Media 中繼檔播放清單](using-asp-pages-to-dynamically-create-windows-media-metafile-playlists.md)
+-   [使用 ASP 頁面動態建立 Windows 媒體中繼檔播放清單](using-asp-pages-to-dynamically-create-windows-media-metafile-playlists.md)
 
 ## <a name="related-topics"></a>相關主題
 
@@ -103,15 +103,15 @@ ms.locfileid: "104183857"
 [**範例播放清單**](example-playlists.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔元素參考**](windows-media-metafile-elements-reference.md)
+[**Windows媒體中繼檔元素參考**](windows-media-metafile-elements-reference.md)
 </dt> <dt>
 
-[**Windows Media 中繼檔指南**](windows-media-metafile-guide.md)
+[**Windows媒體中繼檔指南**](windows-media-metafile-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

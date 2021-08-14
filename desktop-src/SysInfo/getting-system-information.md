@@ -4,12 +4,12 @@ ms.assetid: 965bd14b-be93-4084-bce8-642f5704cef1
 title: 取得系統資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399cf2473358afed5cf870d379a147197945aedd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad25c4be03121d8139a3eeea253370bfcae20997736df109e0f116144f866ccb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764443"
 ---
 # <a name="getting-system-information"></a>取得系統資訊
 

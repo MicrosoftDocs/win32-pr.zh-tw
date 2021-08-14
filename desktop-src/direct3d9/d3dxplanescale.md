@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 39bd80ceebaee915b8175f2adf13b3b200000fa6
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 248236bd4b1952a8a53b25087f9acf2ce952e99ff7f39d0d9d20a49d314fa22f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106989181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118095446"
 ---
 # <a name="d3dxplanescale-function"></a>D3DXPlaneScale 函式
 

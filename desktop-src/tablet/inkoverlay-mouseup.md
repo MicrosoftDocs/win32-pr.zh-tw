@@ -4,12 +4,12 @@ ms.assetid: 049e1560-d4b2-4d34-9d54-2b45217001b2
 title: 'InkOverlay 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 402083aa677b134ea469980227a482ac5546da2b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 675c588d12976a506afec02e1bec58d97a99fd13ec897250f0e472dfbc519490
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108086806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219784"
 ---
 # <a name="inkoverlaymouseup-event"></a>InkOverlay 事件
 
@@ -95,7 +95,7 @@ SHIFT 鍵的狀態。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

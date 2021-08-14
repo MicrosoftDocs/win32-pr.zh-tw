@@ -3,7 +3,7 @@ title: 'WM_CAP_DLG_VIDEOCOMPRESSION 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ DLG \_ VIDEOCOMPRESSION] 訊息會顯示一個對話方塊，讓使用者可以在此對話方塊中選取要在捕獲進程期間使用的壓縮程式。'
 ms.assetid: 526e4b5d-49a4-4bb5-92d6-cdd567636354
 keywords:
-- WM_CAP_DLG_VIDEOCOMPRESSION message Windows 多媒體
+- WM_CAP_DLG_VIDEOCOMPRESSION 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d851f73df7adbc205585eb7c69ad9d4d969aba66
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 816aeb26455ba375b4446edc275ec4fbaa318b67b1fea64bd6049760f45d8235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118135441"
 ---
 # <a name="wm_cap_dlg_videocompression-message"></a>WM \_ CAP \_ DLG \_ VIDEOCOMPRESSION 訊息
 

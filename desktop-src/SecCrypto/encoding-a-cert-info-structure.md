@@ -4,12 +4,12 @@ ms.assetid: 5d3311e5-a2fb-46f7-aa76-f232b39b34fd
 title: 編碼 CERT_INFO 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 645a1d3054546a7b11c57d4f515dc7d3e26b5fe0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b469ae0bdf02ffd8f30f8b0c2dd44051239a5702ff32704d58de8b60f1ca9701
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766779"
 ---
 # <a name="encoding-a-cert_info-structure"></a>編碼 CERT \_ 資訊結構
 

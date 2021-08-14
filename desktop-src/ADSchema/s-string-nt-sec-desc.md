@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67828c317cb2d2be2203686dc74e5e531b503360
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c44b15080160e642e40625ac6b39f267e8b4adee0999c369eaa82c228c9b42b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509526"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118174635"
 ---
 # <a name="stringnt-sec-desc-syntax"></a>字串 (NT-Sec-Desc) 語法
 

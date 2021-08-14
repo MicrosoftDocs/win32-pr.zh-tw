@@ -4,12 +4,12 @@ ms.assetid: cb71ea3a-0edd-4d46-8088-a395fab89d2b
 title: 解碼封包資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dc1a0ba12e967f5a0cd56347c0839ce9fca40f02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 99df9df80b2a4bc1e3c9d6894bc83624908468edb63f7d0283ee3dca1b50a147
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767805"
 ---
 # <a name="decoding-enveloped-data"></a>解碼封包資料
 

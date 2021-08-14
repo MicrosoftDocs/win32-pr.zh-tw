@@ -4,12 +4,12 @@ ms.assetid: 74aa6dbc-5c0d-433e-96d9-a8db63907342
 title: 非全文檢索述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d41076ebc61aa56ed547f13f717ac40bed35959
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2915120106e98fd031571b1b974bb09957c9fa02790c050e81374e7717b269d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680509"
 ---
 # <a name="non-full-text-predicates"></a>非全文檢索述詞
 

@@ -4,12 +4,12 @@ ms.assetid: 34a66a9c-c1bc-437d-b034-59dc0c88228c
 title: 正在產生備份組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 827d9ecb90ac376aa9818b61e8dab65550ff8c50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 120643c827afdabfbb9a2c347fa16290e03969f0e87f913b0c5d9fdb682f2619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106988745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118122114"
 ---
 # <a name="generating-a-backup-set"></a>正在產生備份組
 

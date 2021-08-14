@@ -4,26 +4,26 @@ ms.assetid: dace2f65-df60-419a-8be8-ab60668e6396
 title: 登錄虛擬化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 642bda46b43fc0b4f7efa60cfcd9e2178643811f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f14d8a82a12be74d3c5f2963e8b4edf47baaa85c4a8299e4ff632284bbac83fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991374"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763585"
 ---
 # <a name="registry-virtualization"></a>登錄虛擬化
 
 登錄 *虛擬化* 是一種應用程式相容性技術，可讓具有全域影響的登錄寫入作業重新導向至每個使用者的位置。 對於讀取或寫入登錄的應用程式而言，此重新導向是透明的。 從 Windows Vista 開始支援。
 
-這種形式的虛擬化是暫時的應用程式相容性技術;Microsoft 打算將它從未來版本的 Windows 作業系統中移除，因為更多應用程式都與 Windows Vista 和更新版本的 Windows 相容。 因此，您的應用程式不一定會依賴系統中的登錄虛擬化行為。
+這種形式的虛擬化是暫時的應用程式相容性技術;Microsoft 打算將它從未來的 Windows 作業系統版本中移除，因為更多應用程式都與 Windows Vista 和更新版本的 Windows 相容。 因此，您的應用程式不一定會依賴系統中的登錄虛擬化行為。
 
-虛擬化的目的只是為了提供現有應用程式的相容性。 針對 Windows Vista 和更新版本的 Windows 設計的應用程式不應寫入敏感性系統區域，也不應該依賴虛擬化來補救任何問題。 當更新現有的程式碼以在 Windows Vista 和更新版本的 Windows 上執行時，開發人員應該確保應用程式只會將資料儲存在每個使用者的位置，或是儲存在% alluserprofile% 內的電腦位置，以正確地使用存取控制清單 (ACL) 。
+虛擬化的目的只是為了提供現有應用程式的相容性。 針對 Windows Vista 和更新版本的 Windows 而設計的應用程式不應寫入敏感性系統區域，也不應該依賴虛擬化來補救任何問題。 當更新現有的程式碼以在 Windows Vista 和更新版本的 Windows 上執行時，開發人員應該確保應用程式只會將資料儲存在每個使用者的位置，或是儲存在% alluserprofile% 內的電腦位置，以正確地使用存取控制清單 (ACL) 。
 
 如需建立符合 UAC 規範之應用程式的詳細資訊，請參閱《 [Uac 開發人員指南》](/previous-versions/dotnet/articles/aa480150(v=msdn.10))。
 
 ## <a name="virtualization-overview"></a>虛擬化總覽
 
-在 Windows Vista 之前，應用程式通常是由系統管理員執行。 因此，應用程式可以自由地存取系統檔案和登錄機碼。 如果這些應用程式是由標準使用者執行，則會因為存取權限不足而失敗。 Windows Vista 和更新版本的 Windows 會自動重新導向這些作業，藉此改善應用程式的應用程式相容性。 例如，全域存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體** 的登錄操作，) 會重新導向至使用者設定檔中的每個使用者位置，稱為「*虛擬存放區*」 (**HKEY \_ USERS \\ <User SID> \_ 類別 \\ VirtualStore \\ 電腦 \\ 軟體**) 。
+在 Windows Vista 之前，應用程式通常是由系統管理員執行。 因此，應用程式可以自由地存取系統檔案和登錄機碼。 如果這些應用程式是由標準使用者執行，則會因為存取權限不足而失敗。 WindowsVista 和更新版本的 Windows 會自動重新導向這些作業，藉此改善應用程式的應用程式相容性。 例如，全域存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體** 的登錄操作，) 會重新導向至使用者設定檔中的每個使用者位置，稱為「*虛擬存放區*」 (**HKEY \_ USERS \\ <User SID> \_ 類別 \\ VirtualStore \\ 電腦 \\ 軟體**) 。
 
 登錄虛擬化可以廣泛分類為下列類型：
 
@@ -64,7 +64,7 @@ ms.locfileid: "106991374"
 
 -   32位的互動式進程。
 -   **HKEY \_ 本機 \_ 電腦 \\ 軟體** 中的金鑰。
--   系統管理員可以寫入的金鑰。  (如果系統管理員無法寫入金鑰，則應用程式在舊版的 Windows 上會失敗，即使是由系統管理員執行也一樣。 ) 
+-   系統管理員可以寫入的金鑰。  (如果系統管理員無法寫入金鑰，則應用程式在舊版 Windows 上會失敗，即使是由系統管理員執行也一樣。 ) 
 
 已針對下列各項停用登錄虛擬化：
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 24a944b011c926d1638e5d0bcb0d35fc348e5783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3a3c265f71b0bdf66d7825e65eb69ab975bfc6bffa5c9a8674ed5a0fb8feb38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224930"
 ---
 # <a name="creating-an-autorun-enabled-application"></a>建立 AutoRun-Enabled 應用程式
 
@@ -102,7 +102,7 @@ icon=IconFile.ico
 
 您可以使用任何卸載式媒體上的 **\[ DeviceInstall \]** 區段。 只有在 Windows XP 下才支援此功能。 您可以使用 **DriverPath** 來指定 Windows XP 搜尋驅動程式檔案的目錄路徑，以避免長時間搜尋整個內容。
 
-您可以使用 **\[ DeviceInstall \]** 區段和驅動程式安裝，來指定 Windows XP 應該在媒體上搜尋驅動程式檔案的目錄。 在 Windows XP 中，預設不會再搜尋整個媒體，因此需要 **\[ DeviceInstall \]** 指定搜尋位置。 以下是 Windows XP 在執行 .inf 檔案中完全不需要 **\[ DeviceInstall \]** 區段就能完全搜尋的卸載式媒體。
+您可以使用 **\[ DeviceInstall \]** 區段和驅動程式安裝來指定目錄，其中 Windows XP 應該在媒體上搜尋驅動程式檔案。 在 Windows XP 下，預設不會再搜尋整個媒體，因此需要 **\[ DeviceInstall \]** 指定搜尋位置。 以下是唯一 Windows XP 完整搜尋的卸載式媒體，而不需要在執行 .inf 檔案中 **\[ DeviceInstall \]** 區段。
 
 -   磁片磁碟機 A 或 B 中找到的磁片。
 -   CD/DVD 媒體的大小不會超過 1 gb (GB) 。

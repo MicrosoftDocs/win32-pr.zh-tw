@@ -4,12 +4,12 @@ ms.assetid: 0f197165-e6e5-456b-9615-1edc8ada7bb5
 title: 'MFPKEY_WMAAECMA_FEATR_MICARR_PREPROC 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f992d8d26ba547eb1b5d1eac470536a963209f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ebbba5faeb1a1e70feb1ef6182d3ac2a397a52c4a56f27e767be93f4a3fff773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873012"
 ---
 # <a name="mfpkey_wmaaecma_featr_micarr_preproc-property"></a>MFPKEY \_ WMAAECMA \_ FEATR \_ MICARR \_ PREPROC 屬性
 
@@ -58,8 +58,8 @@ VARIANT \_ TRUE
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

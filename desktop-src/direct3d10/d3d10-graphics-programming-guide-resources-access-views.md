@@ -4,12 +4,12 @@ ms.assetid: ccfe6273-0dcf-4b42-9d74-665a0b4cd14a
 title: " (Direct3D 10) 的材質視圖"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83dd83b1a3896637ce73505de00027ea9dfadac4
-ms.sourcegitcommit: ca37395fd832e798375e81142b97cffcffabf184
+ms.openlocfilehash: cc420e39c4d577947cae657f3296b15f0052db9e823e07d3a3ba1ccb641fb6b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110335582"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118101339"
 ---
 # <a name="texture-views-direct3d-10"></a> (Direct3D 10) 的材質視圖
 

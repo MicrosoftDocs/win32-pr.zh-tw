@@ -4,12 +4,12 @@ description: 裝置集合是包含一或多個裝置物件的物件。 裝置集
 ms.assetid: 45455c3f-7281-4f96-a609-2efd2cf36aa2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fd581b7c79fe67a825e411d53e8c44c0f3d4326
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 94901dd2f3988327c32d7c21799ff4db7647e76fd987247e903501bd8937851a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755524"
 ---
 # <a name="device-collections-returned-by-synchronous-searches"></a>同步搜尋所傳回的裝置集合
 
@@ -84,6 +84,6 @@ HRESULT TraverseCollection(IUPnPDevices * pDevices)
 
 第一個步驟是使用 [**\_ NewEnum**](/windows/win32/api/upnp/nf-upnp-iupnpdevices-get__newenum)屬性來要求集合的新枚舉器。 這會傳回一個枚舉器作為 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面。 範例程式碼會叫用 [**IUnknown：： QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 來取得 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 然後，範例程式碼會叫用 [**IEnumVARIANT：： Reset**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-reset) 方法，將列舉值設定為集合的開頭。 最後，範例程式碼會叫用 [**IEnumVARIANT：： Next**](/windows/win32/api/oaidl/nf-oaidl-ienumvariant-next) 方法以遍歷集合。 集合中的裝置物件包含在 **VARIANT** 結構內。 這些結構包含裝置物件上的 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) 介面指標。 為了取得 [**IUPnPDevice**](/windows/desktop/api/Upnp/nn-upnp-iupnpdevice)介面，範例程式碼會在 **IDispatch** 介面上叫用 **QueryInterface** 。
 
- 
+ 
 
- 
+ 

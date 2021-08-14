@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location: ''
 ms.assetid: d8fb8fa5-452b-45fd-b015-d9bf3d0c642e
-ms.openlocfilehash: 300474dde82274c668e52d9fe9910634d0ac904c
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: e5acd71a56ef0dd569315ee924313b10e27e6a4ba7ca75d1dbfa0d1e50932cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223592"
 ---
 # <a name="iaclcustommruaddmrustring-method"></a>IACLCustomMRU：： AddMRUString 方法
 
@@ -59,8 +59,8 @@ HRESULT AddMRUString(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 
