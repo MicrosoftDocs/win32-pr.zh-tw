@@ -4,12 +4,12 @@ ms.assetid: ae69ad03-5acc-4a62-ba71-3a4e477d34ab
 title: CostFinalize 動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72a5423f1050f9c9d755d33e492b9b65cfcaa08b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f6b8fb49218925d3f517a9d198a638bc9dff5a1184beef24a487de0112830f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118638352"
 ---
 # <a name="costfinalize-action"></a>CostFinalize 動作
 

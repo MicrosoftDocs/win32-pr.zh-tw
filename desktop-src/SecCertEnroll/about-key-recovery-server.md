@@ -4,12 +4,12 @@ ms.assetid: c6535dbf-c3fe-4f70-9a70-02805253a651
 title: 金鑰修復伺服器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4e9fd60b7ee6596b98953d382978be64695c035
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a313ac46bf540d6d0f356f7e2c4910e31bee1f2a4268931ac6a942085505b423
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903771"
 ---
 # <a name="key-recovery-server"></a>金鑰修復伺服器
 
@@ -36,7 +36,7 @@ ms.locfileid: "103849246"
 
 Active Directory 憑證服務或憑證註冊 API 不直接支援金鑰復原。 不過，Microsoft 會提供下列應用程式來協助處理：
 
--   Certutil.exe 是命令列程式，可用來取出 CA 設定資訊、驗證憑證、金鑰組和憑證鏈，以及備份和還原金鑰。 它包含在從 Windows Server 2003 開始的伺服器作業系統中。
+-   Certutil.exe 是命令列程式，可用來取出 CA 設定資訊、驗證憑證、金鑰組和憑證鏈，以及備份和還原金鑰。 它包含在從 Windows server 2003 開始的伺服器作業系統中。
 -   Krecover.exe 是以對話方塊為基礎的程式，可進行金鑰修復。 它隨附于從 Windows Server 2003 開始的資源套件。
 
 您可以執行下列步驟來復原私密金鑰：

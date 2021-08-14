@@ -3,26 +3,26 @@ title: 使用範例桌面應用程式
 description: 使用範例桌面應用程式
 ms.assetid: 5e3e5283-9e27-4f6a-93a9-84d84f2e875a
 keywords:
-- Windows Media 裝置管理員，範例
+- Windows媒體裝置管理員、範例
 - 裝置管理員，範例
 - 桌面應用程式、範例
-- Windows Media 裝置管理員，桌面應用程式範例
+- WindowsMedia 裝置管理員，桌面應用程式範例
 - 裝置管理員，桌面應用程式範例
 - 範例，桌面應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd511ea5241f458d2cd926dc8fb2f3681757ff8b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 91b418458c9e6091b3e2002a30afb95abb77919d062667a9667a3aac9d4dad6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118584164"
 ---
 # <a name="using-the-sample-desktop-application"></a>使用範例桌面應用程式
 
 桌面應用程式範例是一個基本的雙窗格視窗，類似 Windows 檔案總管。 它可讓您流覽裝置的內容，使用左窗格中資料夾的樹狀檢視顯示，以及右窗格中的檔案。 每個資料夾樹狀結構的根目錄都會以邏輯方式被視為不同的裝置，不過某些裝置可能會將自己表示為多個物件 (每個根儲存體) 各有一個物件。 若要讀取資料夾或檔案的基本屬性，請以滑鼠右鍵按一下物件，然後選取 [ **屬性**]。
 
-您可以在右窗格中選取檔案，然後在 [檔案 **] 功能表上選取 [** **刪除**]，以刪除裝置上的檔案。 若要將媒體檔案新增至裝置，您可以將檔案從桌面拖曳至程式的右窗格。 請注意，檔案必須是裝置支援的媒體格式;無法接受的格式檔案 (非媒體檔案，例如 .txt 檔案，或裝置) 不支援的媒體格式，將不會傳送到裝置。  (請注意，這項限制是程式的;Windows Media 裝置管理員可讓您將任何檔案傳送至裝置（如果裝置會接受）。 ) 
+您可以在右窗格中選取檔案，然後在 [檔案 **] 功能表上選取 [** **刪除**]，以刪除裝置上的檔案。 若要將媒體檔案新增至裝置，您可以將檔案從桌面拖曳至程式的右窗格。 請注意，檔案必須是裝置支援的媒體格式;無法接受的格式檔案 (非媒體檔案（例如 .txt 檔），或裝置不支援的媒體格式) 將不會傳送到裝置。  (請注意，這項限制是程式的;Windows媒體裝置管理員可讓您在裝置接受裝置時，將任何檔案傳送至裝置。 ) 
 
 若要捕捉傳送至 [**IWMDMOperation**](/windows/desktop/api/mswmdm/nn-mswmdm-iwmdmoperation) 介面的回呼事件，您必須核取 [ **選項** ] 功能表中的 [使用操作介面] 選項。
 
@@ -39,9 +39,9 @@ ms.locfileid: "103672031"
 [**桌面應用程式範例**](sample-desktop-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6e44935c-2b3b-4062-8273-f1f3e70300d2
 title: 色彩值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67e46cd7ee87871c660702bed120958e7096745d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b1518060e1ad4af7ada1c244ecdcac742f27a36133080f31199714dd8059d5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761928"
 ---
 # <a name="color-values"></a>色彩值
 

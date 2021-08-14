@@ -4,12 +4,12 @@ ms.assetid: 14871dc7-c928-4381-a043-6beb06d25214
 title: 強制回應對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecd0004cc7b31557f9a606050a1f8569fa2a493d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3663445a81acf07aebd9961f8ddb048dc8c8f466968573ac2c45544d6bd79baa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945475"
 ---
 # <a name="modal-dialog-style-bit"></a>強制回應對話方塊樣式位
 

@@ -1,11 +1,11 @@
 ---
-title: TRANSACT-SQL-SortOrder 屬性
+title: 毫秒-SQL-SortOrder 屬性
 description: SQL Server 目前實例的排序次序。
 ms.assetid: cd58cb56-19aa-4ee6-b241-1198b3e9e097
 ms.tgt_platform: multiple
 keywords:
-- MS-SQL-SortOrder 屬性 AD 架構
-- mS-SQL-SortOrder 屬性 AD 架構
+- 毫秒-SQL-SortOrder 屬性 AD 架構
+- 毫秒-SQL-SortOrder 屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 940dafa4cc9bfce15ae1a5df472720e6e779f19e
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52af99f17be381db7499e453b9e1f5419a45a3c92c57a80a8defd752486597f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106990915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686585"
 ---
-# <a name="ms-sql-sortorder-attribute"></a>TRANSACT-SQL-SortOrder 屬性
+# <a name="ms-sql-sortorder-attribute"></a>毫秒-SQL-SortOrder 屬性
 
 SQL Server 目前實例的排序次序。
 
@@ -29,8 +29,8 @@ SQL Server 目前實例的排序次序。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-CHAP-SortOrder                            |
-| Ldap-顯示名稱 | Ms-chap-SortOrder                            |
+| CN                | 毫秒-SQL-SortOrder                            |
+| Ldap-顯示名稱 | 毫秒-SQL-SortOrder                            |
 | 大小              | \-                                          |
 | 更新許可權  | 網域系統管理員                        |
 | 更新頻率  | 在系統設定時。                            |
@@ -58,7 +58,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -66,7 +66,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -87,7 +87,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -108,7 +108,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -129,7 +129,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -150,7 +150,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ SQL Server 目前實例的排序次序。
 | 連結識別碼                | \-                                                        |
 | MAPI-Id                | \-                                                        |
 | System-Only            | 否                                                     |
-| 是-單一值       | 對                                                      |
+| 是-單一值       | 是                                                      |
 | 已編制索引             | 否                                                     |
 | 在通用類別目錄中      | 否                                                     |
 | NT-Security-描述元 | O:BAG：不正確： S：                                              |
@@ -171,7 +171,7 @@ SQL Server 目前實例的排序次序。
 | Range-Upper            | \-                                                        |
 | Search-Flags           | 0x00000000                                                |
 | System-Flags           | 0x00000010                                                |
-| 中使用的類別        | [**MS-CHAP-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLServer**](c-ms-sql-sqlserver.md)<br/> |
 
 
 

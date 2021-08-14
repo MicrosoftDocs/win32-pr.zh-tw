@@ -4,12 +4,12 @@ description: 按鈕是使用者可以按一下來提供應用程式輸入的控�
 ms.assetid: 6d4aa571-dbea-4139-a6b7-45a85595dd04
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1514a1ae66e383d18f81d1ca0ee1a5a8e453335d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: e82a1a71181b3478e065922b5a1836f6cd0f47bf9b3f2e497f45564118449b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104093596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118707789"
 ---
 # <a name="button-windows-ribbon-framework"></a>按鈕 (Windows 功能區架構) 
 
@@ -42,7 +42,7 @@ ms.locfileid: "104093596"
 
 
 
-| 屬性索引鍵                                                                                             | 備註                                                                                                                                                                                                                         |
+| 屬性索引鍵                                                                                             | 附註                                                                                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [UI \_ PKEY \_ 已啟用](windowsribbon-reference-properties-uipkey-enabled.md)                               | 支援 [**IUIFramework：： GetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-getuicommandproperty) 和 [**IUIFramework：： SetUICommandProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-setuicommandproperty)。 |
 | [UI \_ PKEY \_ 按鍵提示](windowsribbon-reference-properties-uipkey-keytip.md)                                 | 只能透過失效進行更新。                                                                                                                                                                                     |
@@ -63,7 +63,7 @@ ms.locfileid: "104093596"
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**按鈕標記元素**](windowsribbon-element-button.md)

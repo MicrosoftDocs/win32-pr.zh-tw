@@ -4,12 +4,12 @@ description: 「索引標籤控制項」類似於筆記本裡的分隔頁或檔�
 ms.assetid: 55ed2863-7f8d-43ce-a0f9-6f6d41e3f947
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c45ac7caa05c73e1dcf22a8e6f0eb4d031ca079
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 512955ec2b3426227366ef109669c52a6c07c8882374d935023123182de194ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118670420"
 ---
 # <a name="about-tab-controls"></a>關於索引標籤控制項
 
@@ -150,8 +150,8 @@ ms.locfileid: "104093380"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

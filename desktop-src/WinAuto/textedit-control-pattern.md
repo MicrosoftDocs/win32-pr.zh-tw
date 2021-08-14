@@ -8,12 +8,12 @@ keywords:
 - 控制項模式，Macos textedit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bdf8512db4f676a263bf46bdbdfea7b6b7eaba11
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fc30701639301a49f23637067f5c8666f13b0276de4133e151b5e528af1f1ae1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118827798"
 ---
 # <a name="textedit-control-pattern"></a>Macos textedit 控制項模式
 

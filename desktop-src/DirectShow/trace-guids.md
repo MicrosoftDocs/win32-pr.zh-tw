@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 api_location:
 - PerfStruct.h
-ms.openlocfilehash: 4b2f2a6a678c029d01d9bf55481837d81d48557e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 89465996c57e1f1f97f2c101c8dfee99a00219f992a4e68681f76465d21bef10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951547"
 ---
 # <a name="trace-guids"></a>追蹤 Guid
 

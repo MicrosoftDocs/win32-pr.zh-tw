@@ -4,16 +4,16 @@ description: IAgentNotifySinkEx HelpComplete
 ms.assetid: f8285d05-3b96-4046-a058-0e001e47b54b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b3b7dbbdf272844242943d49ed86b303d220185
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a8c6ad0cc7212a7e7bedbcb968f9b9d2a658f520f1a3593595ff03091b03ba32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118749560"
 ---
 # <a name="iagentnotifysinkexhelpcomplete"></a>IAgentNotifySinkEx::HelpComplete
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT HelpComplete(

@@ -4,12 +4,12 @@ ms.assetid: 92954b40-1424-4dee-997c-fc41089b7fa5
 title: 接收和傳遞範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a364743e0dfc201d419a61fa4c88bde686976d6b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e507cb3e20a8fd08c891cca5143f8bbf8c9d4f9a90bad27dc201dd43c43283e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846155"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952147"
 ---
 # <a name="receiving-and-delivering-samples"></a>接收和傳遞範例
 

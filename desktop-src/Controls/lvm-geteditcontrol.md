@@ -3,7 +3,7 @@ title: 'LVM_GETEDITCONTROL 訊息 (Commctrl .h) '
 description: 取得編輯控制項的控制碼，這個控制項是用來編輯清單視圖專案的文字。 您可以明確地傳送此訊息，或使用 ListView \_ GetEditControl 宏來傳送。
 ms.assetid: 70450b24-9879-4be8-9bc9-f87008b66415
 keywords:
-- LVM_GETEDITCONTROL message Windows 控制項
+- LVM_GETEDITCONTROL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79a8790f86fee17f72078f61899edcd79b331759
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29f7e7ac31b3d429ab32ac6564a47f859f0e5dc2207d991cb580173838a4c366
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024593"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968308"
 ---
 # <a name="lvm_geteditcontrol-message"></a>LVM \_ GETEDITCONTROL 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "104024593"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

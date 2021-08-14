@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d0f403430f70fde71696ec2a35a34161f08bada9
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 239486792eb218d51c305f9955331e90c6c165586153dab167f2e19d3a0324e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118641033"
 ---
 # <a name="usesgetlasterror-attribute"></a>usesgetlasterror 屬性
 
@@ -88,7 +88,7 @@ module module-name
 
 ## <a name="remarks"></a>備註
 
-**\[ Usesgetlasterror \]** 屬性可以在模組進入點上設定，如果該進入點使用 Windows 函數 [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror)傳回錯誤碼。 屬性會告知呼叫端，如果呼叫該函式時發生錯誤，呼叫端可以呼叫 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 來取得錯誤碼。
+**\[ usesgetlasterror \]** 屬性可以在模組進入點上設定，如果該進入點使用 Windows 函數 [**SetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-setlasterror)來傳回錯誤碼。 屬性會告知呼叫端，如果呼叫該函式時發生錯誤，呼叫端可以呼叫 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 來取得錯誤碼。
 
 ## <a name="examples"></a>範例
 
@@ -123,6 +123,6 @@ module MyModule
 [ODL 檔語法](/previous-versions/windows/desktop/automat/odl-file-syntax)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

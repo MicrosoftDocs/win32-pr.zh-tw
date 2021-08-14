@@ -4,12 +4,12 @@ description: HTTP 伺服器 API 版本2.0 資料類型
 ms.assetid: 13a0cac9-9e75-4350-a523-5ad9a57caad7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 670099f3303682f52fdc78397dc7f229577b94d1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 61a347b58a97ad89e499136c07f85e18ee2ce1bddc31b5c6d67b8f14a2348a44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950767"
 ---
 # <a name="http-server-api-version-20-data-types"></a>HTTP 伺服器 API 版本2.0 資料類型
 
@@ -24,9 +24,9 @@ HTTP 伺服器 API 會使用 Http. h 標頭中所宣告的各種特殊用途識�
 
 應用程式不應該嘗試產生或修改屬於其中一種類型的任何識別碼。
 
- 
+ 
 
- 
+ 
 
 
 

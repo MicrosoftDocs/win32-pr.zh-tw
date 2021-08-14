@@ -4,12 +4,12 @@ description: 本主題說明 OpenType 變數字型、其在 DirectWrite 和 Dire
 ms.assetid: 788558a7-efe7-b075-942f-ac75a5b86b84
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60a9e6bdf27da0d70841973515636736859294dd
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: c671bebce73cf3bdec42d1f7f570add914db7eb33b8a6bfd1b196d569b9975d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "103853232"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649388"
 ---
 # <a name="opentype-variable-fonts"></a>OpenType 變數字型
 
@@ -39,7 +39,7 @@ OpenType 變數字型格式會使用在傳統 OpenType 字型中找到的資料�
 
 因為變數字型可支援任意一組變異軸，所以它們需要可延伸的字型系列模型，更直接反映字型設計工具建立字型系列的方式：字型家族是由家族名稱和某些常數的設計特性所定義，而且有任一數字 (由字型開發人員) ，以設計的變化方式來決定。 您可以使用權數的變異來建立一個字型系列，但是可以使用 x-height、serif 大小、"funkiness" 或任何字型開發人員想要的變數來建立不同的字型系列。 在此模型中，使用一般或「慣用」或「印刷樣式」、系列名稱加上一組成對的索引鍵/值組，其中每個索引鍵/值組都代表一種不同的變化和特定值，且一般是一種可延伸的集合，就能描述字型選取範圍。 字型家族的一般概念可以套用至傳統、非變數字型以及變數字型。 例如，在此一般的印刷樣式系列模型中，「Selawik VF」系列可能會有權數、光學大小和 serif 設計的變化，例如「Semilight 做橫幅 San」。 
 
-不過，某些現有的軟體實施（包括現有的 DirectWrite Api）可能會設計為假設有更多的字型家族模型。 例如，有些應用程式可能會假設字型家族最多隻能有一般、粗體、斜體和粗體字。 現有的 [**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) 和 [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) 介面採用權數/延展/樣式 ( "WSS" ) 系列模型，讓您可以使用 [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)、 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch) 或 [**DWRITE \_ 字型 \_ 樣式**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style) 列舉作為參數，來指定系列內的變體。 在上述範例中，不會將光學大小和 serif 軸視為 WSS 模型中變化的系列內部軸。 
+不過，某些現有的軟體實施（包括現有的 DirectWrite api）可能會以較有限的字型系列模型設計。 例如，有些應用程式可能會假設字型家族最多隻能有一般、粗體、斜體和粗體字。 現有的 [**IDWriteFontCollection**](/windows/win32/api/dwrite/nn-dwrite-idwritefontcollection) 和 [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) 介面採用權數/延展/樣式 ( "WSS" ) 系列模型，讓您可以使用 [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)、 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch) 或 [**DWRITE \_ 字型 \_ 樣式**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style) 列舉作為參數，來指定系列內的變體。 在上述範例中，不會將光學大小和 serif 軸視為 WSS 模型中變化的系列內部軸。 
 
 完整支援變數字型需要 Api，讓您能夠以字型所決定的數個參數來指定家庭成員。 但現有的 API 設計可以藉由將變數字型中定義的命名實例投射到更受限的字型系列模型中，來提供變數字型的部分支援。 在上述範例中，"Selawik VF Semilight 做橫幅 San" 可投影至 WSS 模型，作為「Selawik VF 橫幅 San」系列（具有 "Semilight 做" 作為權數變化）。 
 
@@ -65,7 +65,7 @@ WSS 系列模型
 
 Sitka 文字
 
-標準
+定期
 
 錫特卡
 
@@ -91,23 +91,23 @@ Sitka 標題
 
 ## <a name="opentype-variable-font-support-in-directwrite"></a>DirectWrite 中的 OpenType 變數字型支援
 
-在 Windows 10 Creators Update 版本中，OpenType 變數字型格式仍然是非常新的，而字型廠商、平臺和應用程式仍在執行新格式的流程中。 此更新會在 DirectWrite 中提供此格式的初始實作為。 
+在 Windows 10 Creators Update 版本中，OpenType 變數字型格式仍然是非常新的，而字型廠商、平臺和應用程式仍在執行新格式的流程中。 此更新會在 DirectWrite 中提供此格式的初始執行。 
 
 DirectWrite 內部已更新為支援 OpenType 變數字型。 使用目前的 Api，這會提供變數字型之任何命名實例的支援。 這項支援可用於完整的工作流程，從列舉的實例列舉、已命名實例的選取專案、用於版面配置和成形，到轉譯和列印。 為了讓也針對某些作業使用 GDI 文字 interop 的應用程式受益，也在現有的 GDI Api 中新增了類似的支援。 
 
-在 Windows 10 Creators Update 中，DirectWrite 不支援使用變數字型之連續變化功能的任意實例。
+在 Windows 10 Creators Update 中，DirectWrite 不支援利用變數字型之連續變化功能的任意實例。
 
-在許多作業中，變數字型的命名實例 DirectWrite 中的行為，無法與非變數字型的行為進行區別。 由於支援是使用現有的 DirectWrite Api 所提供，因此，已命名的變數字型實例甚至可以在許多現有的 DirectWrite 應用程式中運作，而不需要進行任何變更。 不過，在某些情況下可能會發生例外狀況：  
+在許多作業中，變數字型的命名實例 DirectWrite 中的行為，不能與非變數字型的行為進行區別。 由於支援是使用現有的 DirectWrite api 所提供，因此，已命名的變數字型實例甚至可以在許多現有的 DirectWrite 應用程式中運作，而不需要進行任何變更。 不過，在某些情況下可能會發生例外狀況：  
 
 -   如果應用程式直接處理特定作業的字型資料。 例如，如果應用程式直接從字型檔案讀取圖像大綱資料，以建立某些視覺效果。
--   如果應用程式使用協力廠商程式庫來進行某些作業。 例如，如果應用程式使用 DirectWrite 進行配置，則會取得最終的字元索引和位置，但接著會使用協力廠商程式庫來轉譯。
+-   如果應用程式使用協力廠商程式庫來進行某些作業。 例如，如果應用程式使用 DirectWrite 進行版面配置，則會取得最終的字元索引和位置，但接著會使用協力廠商程式庫來呈現。
 -   如果應用程式將字型資料內嵌至檔，或以其他方式將字型資料傳遞給下游處理常式。
 
-如果使用不支援變數字型的執行來執行作業，則這些作業可能不會產生預期的結果。 例如，可能會為變數字型的一個命名實例計算圖像位置，但可能會以不同的已命名實例來呈現圖像。 視應用程式的執行而定，結果可能會在某些環境中運作，但無法在其他可能使用其他程式庫的內容中運作。 例如，文字可能會在螢幕上正確顯示，但在列印時則不會正確顯示。 如果僅使用 DirectWrite 來執行端對端工作流程，則可能會對變數字型的命名實例有正確的行為。 
+如果使用不支援變數字型的執行來執行作業，則這些作業可能不會產生預期的結果。 例如，可能會為變數字型的一個命名實例計算圖像位置，但可能會以不同的已命名實例來呈現圖像。 視應用程式的執行而定，結果可能會在某些環境中運作，但無法在其他可能使用其他程式庫的內容中運作。 例如，文字可能會在螢幕上正確顯示，但在列印時則不會正確顯示。 如果只使用 DirectWrite 來執行端對端工作流程，則可能會對變數字型的命名實例進行正確的行為。 
 
-由於現有的 DirectWrite Api 支援使用權數/延展/樣式模型的臉部選取，因此使用其他變異軸的已命名字型實例將會從一般的印刷樣式系列模型投射到 WSS 模型中，如上所述。 這會依賴變數字型，包括「樣式屬性」 ( ' STAT ' ) 資料表（具有軸值 subtables），而 DWrite 會使用此標記來區別臉部名稱標記，以從與其他軸變異相關的標記中指定權數、stretch 或樣式屬性。  
+由於現有的 DirectWrite api 支援使用權數/延展/樣式模型的臉部選取，因此使用其他變異軸的已命名字型實例將會從一般的印刷樣式系列模型投射到 WSS 模型中，如上所述。 這會依賴變數字型，包括「樣式屬性」 ( ' STAT ' ) 資料表（具有軸值 subtables），而 DWrite 會使用此標記來區別臉部名稱標記，以從與其他軸變異相關的標記中指定權數、stretch 或樣式屬性。  
 
-如果變數字型未包含 OpenType 規格所需的「STAT」資料表，則 DirectWrite 會將字型視為包含預設實例的非變數字型。  
+如果變數字型不含 OpenType 規格所需的「STAT」資料表，則 DirectWrite 會將字型視為包含預設實例的非變數字型。  
 
 如果字型包含 ' STAT ' 資料表，但不包含適當的軸值 subtables，這可能會導致非預期的結果，例如擁有具有相同臉部名稱的多個臉部。 這一次不支援這類字型。 
 
@@ -122,8 +122,8 @@ OpenType 規格允許以兩種格式的其中一種來表示字元外框資料�
 -   目前只支援變數字型的命名實例。
 -   目前只支援使用 TrueType 字元外框大綱資料 (未 CFF 大綱的變數字型) 。 
 -   如果字型使用權數、stretch 或 style 以外的設計變化軸，則會將名為 instance 的實例投射到 WSS 系列模型中，這可能會導致某些命名的實例顯示為個別的系列， (在過去針對非變數字型) 的情況。 若要支援這種情況，變數字型必須有包含適當軸值 subtables 的 ' STAT ' 資料表。
--   DirectWrite Api 支援變數字型的命名實例，但如果某些作業是在不支援可變字型的舊版執行中執行，則這些作業可能會產生不正確的結果。 
--   某些 DirectWrite Api 會使用 [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)、 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch) 和 [**DWRITE \_ 字型 \_ 樣式**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style) 列舉，在選取臉部時指定權數、延展和樣式屬性。 如果變數字型使用對應的變異軸，但是有許多命名的實例需要更細微的資料細微性，則並非所有的命名實例都可在這些 Api 中選取。
+-   DirectWrite api 中支援變數字型的命名實例，但如果某些作業是在不支援變數字型的較舊版本中執行，則可能會產生不正確的結果。 
+-   某些 DirectWrite api 會使用 [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)、 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)和 [**DWRITE \_ 字型 \_ 樣式**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_style)列舉，在選取臉部時指定權數、延展和樣式屬性。 如果變數字型使用對應的變異軸，但是有許多命名的實例需要更細微的資料細微性，則並非所有的命名實例都可在這些 Api 中選取。
 
 符合這些需求的 OpenType 變數字型可以從 Windows shell 安裝，就像其他 OpenType 字型一樣，也可以在應用程式所建立的自訂字型集中使用。  
 
@@ -131,13 +131,13 @@ OpenType 規格允許以兩種格式的其中一種來表示字元外框資料�
 
 同樣地，變數字型的所有已命名實例都會在 IDWriteFactory：：[**GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) 方法所傳回的字型集合中表示。 因為字型集合的元素是以 WSS 模型為基礎的字型系列，所以變數字型的命名實例可能會在集合中表示為兩個或多個字型系列的成員。 如果使用 [**IDWriteFontCollection：： FindFamilyName**](/windows/win32/api/dwrite/nf-dwrite-idwritefontcollection-findfamilyname) 方法，則 familyName 參數必須是 WSS 相容的系列名稱。 若要從字型集合中尋找所有 WSS 相容的系列名稱，應用程式可以在每個系列中執行迴圈，並呼叫 [**IDWriteFontFamily：： GetFamilyNames**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfamily-getfamilynames)，不過，您可以更輕鬆地取得對應的字型集，並使用上述的 [**system.configuration.settingsprovider.getpropertyvalues**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontset-getpropertyvalues(dwrite_font_property_id_idwritestringlist)) 方法。 
 
-使用自訂字型時，可使用 [自訂字型組](custom-font-sets-win10.md) 主題中所述的各種方法來建立字型集。 若要將變數字型加入自訂字型集，建議使用 [**IDWriteFontSetBuilder1：： AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile) 方法，因為它支援變數字型，並會在單一呼叫中加入變數字型的所有已命名實例。 目前沒有任何方法可以使用 [**IDWriteFontSetBuilder：： AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference)) 方法，將自訂變數字型的個別名稱實例新增至字型集，因為無法建立字型臉部參考，以指定要從變數字型檔案指定的命名實例。 這表示目前沒有任何方法可將自訂字型的命名實例加入至已指派自訂屬性的自訂字型集。 也就是說，自訂變數字型目前無法輕易地與遠端字型的 DirectWrite Api 搭配使用。 如果系統字型集中包含變數字型的命名實例，則每個已命名實例的字型臉部參考都會存在，而且可以加入自訂的字型集，包括使用自訂屬性值。 如需詳細資訊，請參閱自訂字型組主題。 
+使用自訂字型時，可使用 [自訂字型組](custom-font-sets-win10.md) 主題中所述的各種方法來建立字型集。 若要將變數字型加入自訂字型集，建議使用 [**IDWriteFontSetBuilder1：： AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile) 方法，因為它支援變數字型，並會在單一呼叫中加入變數字型的所有已命名實例。 目前沒有任何方法可以使用 [**IDWriteFontSetBuilder：： AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference)) 方法，將自訂變數字型的個別名稱實例新增至字型集，因為無法建立字型臉部參考，以指定要從變數字型檔案指定的命名實例。 這表示目前沒有任何方法可將自訂字型的命名實例加入至已指派自訂屬性的自訂字型集。 也就是說，自訂變數字型目前無法輕易地與遠端字型的 DirectWrite api 搭配使用。 如果系統字型集中包含變數字型的命名實例，則每個已命名實例的字型臉部參考都會存在，而且可以加入自訂的字型集，包括使用自訂屬性值。 如需詳細資訊，請參閱自訂字型組主題。 
 
-使用可變字型時，DirectWrite [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight) 和 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch) 列舉會緊密地連接至 OpenType 規格中定義的權數和寬度變化軸，但不相同。 首先，任何變化軸的數值小數位數一律支援小數值，而 fontWeight 和 fontStretch 則使用整數。 OpenType 權數軸刻度使用的值範圍從1到1000，這也是 fontWeight 所支援的值。 因此，從變異的權數軸值變更為 fontWeight 相對較小：針對命名實例所報告的 fontWeight 可能會從用來在字型內定義已命名實例的精確值中四捨五入。 DirectWrite fontStretch 和 OpenType 寬度軸刻度的差異較大： DirectWrite 會使用1到9的值，並遵循 OpenType OS/2 資料表的 [usWidthClass](/typography/opentype/spec/os2#uswidthclass) 值，而 opentype 寬度軸刻度則使用表示正常寬度百分比的正值。 OpenType 規格中的 [usWidthClass](/typography/opentype/spec/os2#uswidthclass) 檔會提供介於1到9之間的值與百分比標準值之間的對應。 從寬度軸值進行轉換時，針對命名實例所報告的 fontStretch 值可能牽涉到四捨五入。 
+使用可變字型時，DirectWrite [**DWRITE \_ 字型 \_ 粗細**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_weight)和 [**DWRITE \_ 字型 \_ 延展**](/windows/win32/api/dwrite/ne-dwrite-dwrite_font_stretch)列舉會緊密地連接至 OpenType 規格中定義的權數和寬度變化軸，但不相同。 首先，任何變化軸的數值小數位數一律支援小數值，而 fontWeight 和 fontStretch 則使用整數。 OpenType 權數軸刻度使用的值範圍從1到1000，這也是 fontWeight 所支援的值。 因此，從變異的權數軸值變更為 fontWeight 相對較小：針對命名實例所報告的 fontWeight 可能會從用來在字型內定義已命名實例的精確值中四捨五入。 DirectWrite fontStretch 和 OpenType 寬度軸刻度之間的差異較大： DirectWrite 使用從1到9的值，並遵循 OpenType OS/2 資料表的[usWidthClass](/typography/opentype/spec/os2#uswidthclass)值，而 opentype 寬度軸尺規則使用代表正常寬度百分比的正值。 OpenType 規格中的 [usWidthClass](/typography/opentype/spec/os2#uswidthclass) 檔會提供介於1到9之間的值與百分比標準值之間的對應。 從寬度軸值進行轉換時，針對命名實例所報告的 fontStretch 值可能牽涉到四捨五入。 
 
-建立 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat)時，必須指定字型集合和 WSS 相容的字型屬性 (系列名稱、權數、延展和樣式) 。 這也適用于設定 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 文字範圍的字型格式屬性時。 您可以從 [**IDWriteFontFace3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3) 物件或 [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) 和 [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) 物件（代表特定的已命名實例）中取得屬性。 如上所述，GetWeight 和 GetStretch 方法所傳回的值，可能會針對用來定義已命名之實例的實際座標軸值進行舍入，但 DirectWrite 會將屬性的組合對應回所需的已命名實例。 
+建立 [**IDWriteTextFormat**](/windows/win32/api/dwrite/nn-dwrite-idwritetextformat)時，必須指定字型集合和 WSS 相容的字型屬性 (系列名稱、權數、延展和樣式) 。 這也適用于設定 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 文字範圍的字型格式屬性時。 您可以從 [**IDWriteFontFace3**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontface3) 物件或 [**IDWriteFont**](/windows/win32/api/dwrite/nn-dwrite-idwritefont) 和 [**IDWriteFontFamily**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfamily) 物件（代表特定的已命名實例）中取得屬性。 如上所述，GetWeight 和 GetStretch 方法所傳回的值，可能會針對用來定義已命名之實例的實際座標軸值進行四捨五入，但是 DirectWrite 會將屬性的組合對應回所需的已命名實例。 
 
-同樣地，如果應用程式使用 [**IDWriteFontFallbackBuilder**](idwritefontfallbackbuilder.md) 來建立自訂字型回資料，則會使用與 WSS 相容的系列名稱來指定字元範圍對應的系列。 DirectWrite 內的字型回復是以家族為基礎，而 DirectWrite 則是在回復系列內選取變異，這是與起始系列變異的最接近之處。 對於涉及加權、stretch 和 style 以外維度的變體，除非特別建立自訂的回溯資料來為具有特定非 WSS 屬性的系列（例如 "Caption" 光學大小變化）提供回溯對應，否則 DirectWrite 目前無法在該回系列內選取這類變異。
+同樣地，如果應用程式使用 [**IDWriteFontFallbackBuilder**](idwritefontfallbackbuilder.md) 來建立自訂字型回資料，則會使用與 WSS 相容的系列名稱來指定字元範圍對應的系列。 DirectWrite 內的字型回復是以家族為基礎，DirectWrite 在一個備用系列內選取變異，這是與起始系列變異最相符的範圍。 對於涉及加權、stretch 和 style 以外維度的變體，除非特別建立自訂的回溯資料來為具有特定非 WSS 屬性的系列（例如 "Caption" 光學大小變化）提供回溯對應，否則 DirectWrite 目前無法在該回系列內選取這類變異。
 
  
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ncrypt.dll
-ms.openlocfilehash: 8991842f38f3d3dc3d721cd30ebfb857ad20308a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d9fb40bf6bfebff6d0659640dfb68b718586ac822c8a779a56de300b8d55b73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118906690"
 ---
 # <a name="sslenumciphersuites-function"></a>SslEnumCipherSuites 函式
 
@@ -119,8 +119,8 @@ SSL 通訊協定提供者實例的控制碼。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Sslprovider。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Ncrypt .lib</dt> </dl>    |
 | DLL<br/>                      | <dl> <dt>Ncrypt.dll</dt> </dl>    |

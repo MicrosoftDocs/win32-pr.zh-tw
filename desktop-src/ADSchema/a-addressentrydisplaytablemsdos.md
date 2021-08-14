@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 25fbb7d84615c79067f5295ac552a13cbbb6a90a
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 386c5388116a32193ef8a75e3821fd4312d7a70ba5ce073e1886673589b149a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118688688"
 ---
 # <a name="address-entry-display-table-msdos-attribute"></a>位址-輸入-顯示資料表-MSDOS.SYS 屬性
 
@@ -58,7 +58,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -79,7 +79,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -100,7 +100,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -121,7 +121,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -142,7 +142,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |
@@ -163,7 +163,7 @@ MSDOS.SYS 用戶端位址專案的 MAPI 顯示表格。
 | 連結識別碼                | \-                                                       |
 | MAPI-Id                | 0x8047                                                   |
 | System-Only            | 否                                                    |
-| 是-單一值       | 對                                                     |
+| 是-單一值       | 是                                                     |
 | 已編制索引             | 否                                                    |
 | 在通用類別目錄中      | 否                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                             |

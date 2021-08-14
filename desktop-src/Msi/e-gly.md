@@ -4,12 +4,12 @@ ms.assetid: 8f180e2c-06f4-41d5-b167-52525f4a9985
 title: 'E (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a2c65c50427b1f8271be838971a387388ea53db
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: ee445b6ea36ad0c68042410e694c681f982b101757f3453ac9b39284df01f8c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118637613"
 ---
 # <a name="e-windows-installer"></a>E (Windows Installer) 
 

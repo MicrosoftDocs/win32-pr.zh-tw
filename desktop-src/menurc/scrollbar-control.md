@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44ef4069988603c7c89ec2ed8a363d3515a0b8bb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0b03865f66a06198cc1b1b78f8bb0b0213d998b7e5407506e4b8ed64ed9efaf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118733436"
 ---
 # <a name="scrollbar-control"></a>捲軸控制項
 
@@ -59,6 +59,6 @@ SCROLLBAR IDC_SCROLLBARV, 7, 55, 187, 44, SBS_VERT
 [捲軸](../controls/about-scroll-bars.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

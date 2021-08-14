@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: WMI SNMP 類別相互關聯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdc0ca4740c90563fce05e1b6352ef33b0e3ce32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 755d795b7e998e3b7392baa45c23d688f1a2cef6a4069f6671d4c209788e7c1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118815701"
 ---
 # <a name="wmi-snmp-class-correlation"></a>WMI SNMP 類別相互關聯
 
@@ -36,7 +36,7 @@ objNamedValueSet.Add "Correlate", FALSE, 0
 
 
 
-另一方面，另一個網路系統管理員可能會想要監視網路上的所有 UNIX 機器磁片磁碟機，但不熟悉這些機器上的 MIB 資料。 在此情況下，相互關聯會開啟。
+另一方面，另一個網路系統管理員可能會想要監視網路上的所有 UNIX 機磁片磁碟機，但不熟悉這些機器上的 MIB 資料。 在此情況下，相互關聯會開啟。
 
  
 

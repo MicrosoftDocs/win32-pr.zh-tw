@@ -4,16 +4,16 @@ ms.assetid: fa8e9d68-3db1-4d17-aa99-2ca0ed421c7a
 title: Msimsp.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1810fd0c544695742273bbb0e63b22138529c129
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: aa82f2fbefc9046877f4f98cf4a3c126d94e6542b60076f0491bd0f311ee00a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106976641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118627795"
 ---
 # <a name="msimspexe"></a>Msimsp.exe
 
-產生修補程式套件的建議方法是使用修補程式建立工具，例如 Msimsp.exe 和 [Patchwiz.dll](patchwiz-dll.md)。 Msimsp.exe 工具僅適用于 [Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+產生修補程式套件的建議方法是使用修補程式建立工具，例如 Msimsp.exe 和 [Patchwiz.dll](patchwiz-dll.md)。 Msimsp.exe 工具僅適用于[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 Msimsp.exe 是呼叫 [Patchwiz.dll](patchwiz-dll.md)的可執行檔。 此工具可用來建立修補程式套件，方法是將路徑傳遞至 patch 建立屬性檔 ( pcp 檔案) ，以及要建立之修補程式套件的路徑。 Msimsp 也可以用來建立記錄檔，並指定暫存資料夾，以儲存用來建立修補程式套件的轉換、封包和檔案。
 
@@ -82,7 +82,7 @@ Msimsp.exe 的命令列語法為：
 </dd> </dl>
 
 > [!Note]
-> 如果安裝 [套件的檔案](file-table.md) 資料行中有值只有大小寫不同，Msimsp.exe 可能會在呼叫 Makecab.exe 時失敗。 Windows Installer 會區分大小寫，而且只有在 Comp1 和 Comp2 安裝到不同的目錄時，才允許安裝套件，例如下表中的。 不過，在此案例中，您無法使用 Msimsp.exe 或 [Patchwiz.dll](patchwiz-dll.md) 來產生封裝的修補程式，因為 Msimsp.exe 和 Patchwiz.dll 呼叫不區分大小寫的 Makecab.exe。
+> 如果安裝 [套件的檔案](file-table.md) 資料行中有值只有大小寫不同，Msimsp.exe 可能會在呼叫 Makecab.exe 時失敗。 Windows安裝程式會區分大小寫，而且只有在 Comp1 和 Comp2 安裝到不同的目錄時，才允許安裝封裝（例如下表中的表格）。 不過，在此案例中，您無法使用 Msimsp.exe 或 [Patchwiz.dll](patchwiz-dll.md) 來產生封裝的修補程式，因為 Msimsp.exe 和 Patchwiz.dll 呼叫不區分大小寫的 Makecab.exe。
 > 
 > 避免撰寫安裝套件，例如下列部分檔案 [資料表](file-table.md)。
 > 
@@ -102,7 +102,7 @@ Msimsp.exe 的命令列語法為：
 [小型更新修補範例](a-small-update-patching-example.md)
 </dt> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> <dt>
 
 [已發行的版本、工具和可轉散發套件](released-versions-tools-and-redistributables.md)

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c436151eeef2a08a2b1d0208b046e23dc8d1559b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f01ec292c29de72cb2df92eb7c4246392e3b12b4dc2008caf2a09ab1be5a8b1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118683923"
 ---
 # <a name="ms-ds-non-security-group-extra-classes-attribute"></a>ms DS-非安全性群組-額外類別屬性
 
@@ -158,7 +158,7 @@ ms.locfileid: "104385450"
 下列清單會識別可透過 Active Directory 消費者和電腦嵌入式管理單元新增至群組的標準類別。
 
 -   [**Group**](c-group.md)
--   [**User**](c-user.md)
+-   [**使用者**](c-user.md)
 -   [**inetOrgPerson**](c-inetorgperson.md)
 -   [**Contact**](c-contact.md)
 -   [**電腦**](c-computer.md)

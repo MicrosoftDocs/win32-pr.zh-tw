@@ -4,12 +4,12 @@ ms.assetid: 4723cc02-8c48-488e-95b8-c646a99b6aab
 title: 編碼的標記位元組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a5994f7beea0aba6896e94cb992a1e72eb70914
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27face1fe04cf52c79d6c4047f87f58e98f2bc1a7b7656109341c9ce2be59d0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904318"
 ---
 # <a name="encoded-tag-bytes"></a>編碼的標記位元組
 

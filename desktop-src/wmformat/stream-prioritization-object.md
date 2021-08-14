@@ -3,7 +3,7 @@ title: 串流優先順序物件
 description: 串流優先順序物件
 ms.assetid: cb0345ce-6847-435b-8cbb-f8b93856af9f
 keywords:
-- Windows Media Format SDK，資料流程優先順序物件
+- Windows媒體格式 SDK，資料流程優先順序物件
 - Advanced Systems Format (ASF) 、串流優先順序物件
 - ASF (Advanced 系統格式) 、串流優先順序物件
 - 物件，資料流程優先順序物件
@@ -11,12 +11,12 @@ keywords:
 - 資料流程，資料流程優先順序物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cce4189f64e85cca4e0d649dbc00409cf9d7c06
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9a0d8ce386dfa6d3eed64361d77326c515feadb2a6aa05eb697e402d120a55ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106965633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699965"
 ---
 # <a name="stream-prioritization-object"></a>串流優先順序物件
 
@@ -33,7 +33,7 @@ ms.locfileid: "106965633"
 
 
 
- 
+ 
 
 上表中的兩個方法都會設定 **IWMStreamPrioritization** 介面的指標。 這是資料流程優先權物件唯一支援的介面。
 
@@ -45,7 +45,7 @@ ms.locfileid: "106965633"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -64,9 +64,9 @@ ms.locfileid: "106965633"
 [**使用資料流程優先順序**](using-stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

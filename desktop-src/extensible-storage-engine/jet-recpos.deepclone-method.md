@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fe20641de82d19d4a852fca6b9e19e1025e08b48
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 76d98704394f82c634a2c965c1f9806f81c887ff6c1edd204f209c5199300f95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118763852"
 ---
 # <a name="jet_recposdeepclone-method"></a>JET_RECPOS。DeepClone 方法
 

@@ -4,12 +4,12 @@ description: 在資料流程中使用壓縮的影片資料
 ms.assetid: b701e072-f162-438f-b607-aea7491a02f9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0587ee6c12a93eb014368642ba1605f546129e0
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e7c09de239fa28f3d9739dafc953ce10c2a6f1d69c0c607aeb03bc388a0f3003
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023370"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118622088"
 ---
 # <a name="working-with-compressed-video-data-in-a-stream"></a>在資料流程中使用壓縮的影片資料
 
@@ -27,6 +27,6 @@ AVIFile 提供可解壓縮單一影片框架的函式。 若要配置資源，�
 
 如需解壓縮影像的詳細資訊，請參閱 [影片壓縮管理員](video-compression-manager.md)。
 
- 
+ 
 
- 
+ 

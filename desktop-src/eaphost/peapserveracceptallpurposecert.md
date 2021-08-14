@@ -4,12 +4,12 @@ description: PeapServerAcceptAllPurposeCert 登錄機碼會判斷是否接受 PE
 ms.assetid: 59C58459-7735-4733-9F95-646864802D70
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b291696c6bee90b4f980d8f96ad96faf40fe3376
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: 8d568ef2cf3e7fd5eeeaa650e5e6e4fd32a8e1c8d6baa0ed91434a5c0aa60ee0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106969089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784680"
 ---
 # <a name="peapserveracceptallpurposecert"></a>PeapServerAcceptAllPurposeCert
 
@@ -19,7 +19,7 @@ PeapServerAcceptAllPurposeCert 登錄機碼會判斷是否接受 PEAP 驗證的�
 
 ```
 HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
-   PeapServerAcceptAllPurposeCert = value
+   PeapServerAcceptAllPurposeCert = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -35,7 +35,7 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 
 
- 
+ 
 
 如果此登錄值不存在，伺服器和用戶端會接受由另一方針對 PEAP 驗證傳送的所有用途憑證。
 
@@ -43,12 +43,12 @@ HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Rasman\PPP\EAP\25
 
 <dl> <dt>
 
-[EAPHost 登錄設定](eaphost-registry-settings.md)
+[EAPHost Registry 設定](eaphost-registry-settings.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

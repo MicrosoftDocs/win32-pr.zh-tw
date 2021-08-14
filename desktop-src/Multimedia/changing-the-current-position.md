@@ -6,12 +6,12 @@ keywords:
 - MCI_SEEK 命令訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 235dc2639d7d9fc01f94aff700ae9e0ebf1dcbe2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: a14f062fc93a89f54fb89a30b6ac3e53c8d6240cfc28b661a25da48a0b1b2fbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941286"
 ---
 # <a name="changing-the-current-position"></a>變更目前的位置
 
@@ -19,6 +19,6 @@ ms.locfileid: "104375336"
 
 除了指定具有 **dwTo** 成員的位置之外，您還可以指定 \_ 要啟動的 mci 搜尋， \_ \_ 或針對 mciSendCommand 函式的 dwParam1 參數指定「mci」 \_ \_ 以 \_ 結束旗標，以尋找設備元素的開始和結束位置。  [](/previous-versions//dd757160(v=vs.85)) 如果您使用其中一個旗標，請不要指定要旗標的 MCI \_ 。
 
- 
+ 
 
- 
+ 

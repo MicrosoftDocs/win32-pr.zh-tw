@@ -5,12 +5,12 @@ title: 'COLORREF (Windef) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/27/2020
-ms.openlocfilehash: 6836cfcc1b18d0b20d5e347fb83206551b27de06
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
-ms.translationtype: HT
+ms.openlocfilehash: 3e51b2a906af5939a5c7a8753e5fcc4fbcfae64590e62bcb6df1da2c2bd8426d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992451"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761891"
 ---
 # <a name="colorref"></a>COLORREF
 
@@ -45,7 +45,7 @@ const COLORREF rgbBlack =  0x00000000;
 const COLORREF rgbWhite =  0x00FFFFFF;
 ```
 
-從 GitHub 上的 [Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples) 取得的範例。
+GitHub 上[Windows 傳統範例](https://github.com/microsoft/Windows-classic-samples)的範例。
 
 ## <a name="requirements"></a>規格需求
 
@@ -55,7 +55,7 @@ const COLORREF rgbWhite =  0x00FFFFFF;
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                              |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                    |
-| 標頭<br/>                   | <dl> <dt>Windef (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windef (包含 Windows .h) </dt> </dl> |
 
 
 

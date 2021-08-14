@@ -1,17 +1,17 @@
 ---
-description: DirectShow 結構
+description: DirectShow結構
 ms.assetid: 378f6f43-5c05-4ae4-be24-956f9fc0cacf
-title: DirectShow 結構
+title: DirectShow結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61bf15858ea602d27b17c8853d0e911ebb37cfad
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fca0c1c877026b1df1b423f66c22cd9c5525927e3c693c5ee5afb93496e970d3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966338"
 ---
-# <a name="directshow-structures"></a>DirectShow 結構
+# <a name="directshow-structures"></a>DirectShow結構
 
 本節說明 DirectShow 結構。
 
@@ -30,7 +30,7 @@ ms.locfileid: "104509809"
 | [**AM \_ MPEGSYSTEMTYPE**](/previous-versions/windows/desktop/api/mpegtype/ns-mpegtype-am_mpegsystemtype)                             | 定義 MPEG-2 系統資料流程的格式區塊。                                                                                                                                                                 |
 | [**AM \_ Sample2.xml \_ 屬性**](/windows/win32/api/strmif/ns-strmif-am_sample2_properties)                    | 描述一般媒體範例的屬性。                                                                                                                                                                   |
 | [**AM \_ 串流 \_ 資訊**](/windows/desktop/api/strmif/ns-strmif-am_stream_info)                                  | 包含提供給 pin 的開始和停止訊息。                                                                                                                                                                   |
-| [**\_WMT \_ 事件 \_ 資料**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | 包含與 WMT 狀態事件有關的資訊 \_ ，以及 Windows Media 格式 SDK 所傳回的相關狀態碼。                                                                                       |
+| [**\_WMT \_ 事件 \_ 資料**](/previous-versions/windows/desktop/api/evcode/ns-evcode-am_wmt_event_data)                           | 包含與 WMT 狀態事件有關的資訊 \_ ，以及 Windows 媒體格式 SDK 所傳回之相關聯的狀態碼。                                                                                       |
 | [**AM \_ WST \_ 頁面**](/previous-versions/windows/desktop/api/iwstdec/ns-iwstdec-am_wst_page)                                        | 描述 WST 文字的頁面。                                                                                                                                                                                         |
 | [**AMOVIESETUP \_ 篩選**](amoviesetup-filter.md)                           | 包含用來註冊篩選準則的篩選資訊。                                                                                                                                                                 |
 | [**AMOVIESETUP \_ 媒體媒體**](amoviesetup-mediatype.md)                     | 包含用來註冊篩選準則的媒體類型資訊。                                                                                                                                                             |
@@ -131,7 +131,7 @@ ms.locfileid: "104509809"
 
 <dl> <dt>
 
-[DirectShow 參考](directshow-reference.md)
+[DirectShow參考](directshow-reference.md)
 </dt> </dl>
 
  

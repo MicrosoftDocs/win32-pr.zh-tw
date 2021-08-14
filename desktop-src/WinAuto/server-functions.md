@@ -1,17 +1,17 @@
 ---
-title: '伺服器功能 (Windows 協助工具功能) '
+title: '伺服器函式 (Windows 的協助工具功能) '
 description: 伺服器函數
 ms.assetid: 3cfa42c4-3d8b-44a1-9b8e-19248da12334
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10a747c073e84049fe578d19561b25d0b754dbb9
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 5b2eb449e81371a1c0c9e230610de97b8abdefb41429c5753059540e45f921d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828066"
 ---
-# <a name="server-functions-windows-accessibility-features"></a>伺服器功能 (Windows 協助工具功能) 
+# <a name="server-functions-windows-accessibility-features"></a>伺服器函式 (Windows 的協助工具功能) 
 
 本章節包含與 Microsoft Active Accessibility 搭配使用之伺服器函數的相關資訊。
 

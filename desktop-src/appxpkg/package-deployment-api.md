@@ -1,19 +1,19 @@
 ---
 title: 套件部署 API
-description: 瞭解套件部署 API，您可以用來在系統上安裝、更新及卸載應用程式套件。 每個應用程式套件都包含構成 Windows 應用程式的檔案，以及描述軟體至 Windows 的資訊清單檔案。
+description: 瞭解套件部署 API，您可以用來在系統上安裝、更新及卸載應用程式套件。 每個應用程式套件都包含構成 Windows 應用程式的檔案，以及描述要 Windows 之軟體的資訊清單檔案。
 ms.assetid: E2D408E1-6048-4D15-8BF4-69FF6ACF7BD2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a7559739d721781101fad804ebb040333c71c9
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b5bc1c9fc44487ff2244bee9b27d1ba26677468a2113536763b86e254a23f689
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106966847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118814054"
 ---
 # <a name="package-deployment-api"></a>套件部署 API
 
-瞭解套件部署 API，您可以用來在系統上安裝、更新及卸載應用程式套件。 每個應用程式套件都包含構成 Windows 應用程式的檔案，以及描述軟體至 Windows 的資訊清單檔案。
+瞭解套件部署 API，您可以用來在系統上安裝、更新及卸載應用程式套件。 每個應用程式套件都包含構成 Windows 應用程式的檔案，以及描述要 Windows 之軟體的資訊清單檔案。
 
 ## <a name="windows-runtime-reference"></a>Windows 執行階段參考
 
@@ -62,6 +62,6 @@ ms.locfileid: "106966847"
 [封裝查詢 API](functions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

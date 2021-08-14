@@ -4,12 +4,12 @@ ms.assetid: 10770f16-8db2-4719-bce3-452f578002ec
 title: ColorSpace 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b6ef2003d05fa19b958b28950f71ec2d5f73027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85c7d7c9134a8bd93a12ba6cfb6bd8605e228cb6b745ad4401a94f91a2ba9ff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710418"
 ---
 # <a name="systemimagecolorspace-photo-metadata-policy"></a>ColorSpace 相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-Yes
+是
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

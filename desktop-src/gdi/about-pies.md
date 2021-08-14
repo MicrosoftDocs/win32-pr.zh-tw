@@ -4,12 +4,12 @@ ms.assetid: 9ba7834e-02d2-4335-94c3-ab2f5c355619
 title: 關於圓形圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a2184276fc208827ddac82fd7f4cacec3ddb20f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e447e313a3088bbf9a72c790115fb3bb25770017cf13ce7922685fd18ccfe671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966458"
 ---
 # <a name="about-pies"></a>關於圓形圖
 

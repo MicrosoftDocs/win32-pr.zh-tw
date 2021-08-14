@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50db900d3cea82197fb56ce3a57a5a548220ca1f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0c4d184f1912e3518c63e3e1720c0438acee9c84eba52b7a3a6717bbb2d9e091
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118534944"
 ---
 # <a name="id3dx11effectpassisvalid-method"></a>ID3DX11EffectPass：： IsValid 方法
 

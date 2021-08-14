@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，[類型]
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5093ef62793d96a5438c27edd29e96a96cfa407
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7fc7df30fc9aeebbabd5a5fdb9572c9f4b81bda4507eac751f283841a14054a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825550"
 ---
 # <a name="listitem-control-type"></a>[類型] 控制項類型
 
@@ -81,7 +81,7 @@ ms.locfileid: "106965171"
 
 
 
- 
+ 
 
 消費者介面自動化樹狀結構之內容視圖內清單專案控制項的子系必須一律顯示零個子系。 如果控制項的結構是讓其他專案包含在清單專案下，則應該遵循 [TreeItem](uiauto-supporttreeitemcontroltype.md) 控制項類型的消費者介面自動化支援需求。
 
@@ -110,7 +110,7 @@ ms.locfileid: "106965171"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -130,7 +130,7 @@ ms.locfileid: "106965171"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -157,7 +157,7 @@ ms.locfileid: "106965171"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -176,9 +176,9 @@ ms.locfileid: "106965171"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

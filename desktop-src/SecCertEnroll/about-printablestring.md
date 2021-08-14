@@ -4,12 +4,12 @@ ms.assetid: 998fef66-7a24-462f-96f2-92c739bbefa2
 title: PrintableString
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 72ebc95f1a58e8d7beb4a1d3bbb037788252349a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b7e2714013c037e834a7c083c7ab89fcdafd59e1306226af25fcb4b6edc8b0af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903749"
 ---
 # <a name="printablestring"></a>PrintableString
 

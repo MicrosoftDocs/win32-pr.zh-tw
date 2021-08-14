@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103765
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 00151423255a6b937a74fe4cd6cc6fcec0b484b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b91f29bdfe3688cd0ce732237d73cb6c2bd21987a61b37fa64c23649309583a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765984"
 ---
 # <a name="jet_objectlist-members"></a>JET_OBJECTLIST 成員
 

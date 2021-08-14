@@ -1,19 +1,19 @@
 ---
-description: IniLocator 資料表包含使用 .ini 檔搜尋檔案或目錄，或搜尋特定 .ini 專案本身所需的資訊。 .Ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
+description: IniLocator 資料表會保存使用 .ini 檔案搜尋檔案或目錄，或搜尋特定 .ini 專案本身所需的資訊。 .ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
 ms.assetid: 5a3c6077-34ef-48c8-b4e6-ecb1deb40f96
 title: IniLocator 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89583a2d69fd88dd4b5624920e2374aa7e203103
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5fae106340a953c59358c7c4108991d1510d49ea6d8940bcef72c538b7165ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946538"
 ---
 # <a name="inilocator-table"></a>IniLocator 資料表
 
-IniLocator 資料表包含使用 .ini 檔搜尋檔案或目錄，或搜尋特定 .ini 專案本身所需的資訊。 .Ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
+IniLocator 資料表會保存使用 .ini 檔案搜尋檔案或目錄，或搜尋特定 .ini 專案本身所需的資訊。 .ini 檔案必須存在於預設的 Microsoft Windows 目錄中。
 
 IniLocator 資料表具有下列資料行。
 
@@ -39,21 +39,21 @@ IniLocator 資料表具有下列資料行。
 <span id="Signature_"></span><span id="signature_"></span><span id="SIGNATURE_"></span>簽名\_
 </dt> <dd>
 
-簽章 [資料表](signature-table.md)的第一個資料行中的外部索引鍵。 簽章 \_ 代表唯一的簽章，而且也是在簽章資料表的第一個資料行中的外部索引鍵。 如果簽章資料表中有這個簽章，則搜尋是用於檔案。 如果簽章資料表中沒有此索引鍵，且 [類型] 資料行的值是 **msidbLocatorTypeRawValue**，則搜尋是針對 IniLocator 資料表所指定的 .ini 專案。 否則搜尋是針對 IniLocator 資料表所指定的目錄。
+簽章 [資料表](signature-table.md)的第一個資料行中的外部索引鍵。 簽章 \_ 代表唯一的簽章，而且也是在簽章資料表的第一個資料行中的外部索引鍵。 如果簽章資料表中有這個簽章，則搜尋是用於檔案。 如果簽章資料表中沒有此索引鍵，且 Type 資料行的值是 **msidbLocatorTypeRawValue**，則搜尋是針對 IniLocator 資料表所指定的 .ini 專案。 否則搜尋是針對 IniLocator 資料表所指定的目錄。
 
 </dd> <dt>
 
 <span id="FileName"></span><span id="filename"></span><span id="FILENAME"></span>檔案名
 </dt> <dd>
 
-.Ini 檔案名。
+.ini 的檔案名。
 
 </dd> <dt>
 
 <span id="Section"></span><span id="section"></span><span id="SECTION"></span>部分
 </dt> <dd>
 
-.Ini 檔案內的區段名稱。
+.ini 檔案中的區段名稱。
 
 </dd> <dt>
 
@@ -67,14 +67,14 @@ IniLocator 資料表具有下列資料行。
 <span id="Field"></span><span id="field"></span><span id="FIELD"></span>領域
 </dt> <dd>
 
-.Ini 行中的欄位。 如果欄位為 Null 或0，則會讀取整行。 此值必須是非負數。
+.ini 行中的欄位。 如果欄位為 Null 或0，則會讀取整行。 此值必須是非負數。
 
 </dd> <dt>
 
 <span id="Type"></span><span id="type"></span><span id="TYPE"></span>類型
 </dt> <dd>
 
-值，決定 .ini 值是否為檔案位置、目錄位置或原始 .ini 值。
+值，這個值會判斷 .ini 值為檔案位置、目錄位置或原始 .ini 值。
 
 下表列出有效的值。 如果不存在，則類型會設定為1。
 
@@ -84,7 +84,7 @@ IniLocator 資料表具有下列資料行。
 |-------------------------------|-------------|---------|-----------------------|
 | **msidbLocatorTypeDirectory** | 0x000       | 0       | 目錄位置。 |
 | **msidbLocatorTypeFileName**  | 0x001       | 1       | 檔案位置。      |
-| **msidbLocatorTypeRawValue**  | 0x002       | 2       | 原始 .ini 值。     |
+| **msidbLocatorTypeRawValue**  | 0x002       | 2       | 原始的 .ini 值。     |
 
 
 

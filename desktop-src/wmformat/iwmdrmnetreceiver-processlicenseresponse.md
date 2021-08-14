@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a09ebab81b71e21b9ef922423a7bbe67b20596
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb7ba84c7bf58091bb17500b0d35390062710a79a9a32b939ac8b9517cbcfaba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983983"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118700822"
 ---
 # <a name="iwmdrmnetreceiverprocesslicenseresponse-method"></a>IWMDRMNetReceiver：:P rocessLicenseResponse 方法
 
@@ -79,7 +79,7 @@ HRESULT ProcessLicenseResponse(
 
 
 
-| 傳回碼                                                                                                | Description                                              |
+| 傳回碼                                                                                                | 描述                                              |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**NS \_ E \_ DRM \_ RIV \_ 太 \_ 小**</dt> </dl> | 需要更新的內容撤銷清單。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>                       | 此方法已成功。<br/>                         |

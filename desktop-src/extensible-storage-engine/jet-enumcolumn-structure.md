@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ca204fef4e67e6883584511b1ac424149a137b79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ac89a45e37631b554fc7b2dc28266c95cfae3fba54debb427abfd8db621ea3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118766086"
 ---
 # <a name="jet_enumcolumn-structure"></a>JET_ENUMCOLUMN 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_enumcolumn-structure"></a>JET_ENUMCOLUMN 結構
 
@@ -148,7 +148,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

@@ -4,12 +4,12 @@ ms.assetid: a0839c49-09e9-4407-8702-051b88ef2231
 title: 從 ACL 取得資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f87aebc2bc9b05191b5026b990714c2519091be
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: df5ef90d40058efd19790829f92c37a976359cbc61601d72fa2fee4cc4a93ec7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118913670"
 ---
 # <a name="getting-information-from-an-acl"></a>從 ACL 取得資訊
 

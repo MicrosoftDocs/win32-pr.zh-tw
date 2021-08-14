@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.wind
 ms:contentKeyID: 55104399
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bfa9dc3e63158f672b7611cf56b115e79c874ff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d0d4dd6ff25891fe977cb030231fa19bf39d4fb1f4eb641c26dc29e26522ff2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104551692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118767058"
 ---
 # <a name="jet_commit_id-members"></a>JET_COMMIT_ID 成員
 
@@ -86,7 +86,7 @@ ms.locfileid: "104551692"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

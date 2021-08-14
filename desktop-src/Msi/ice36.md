@@ -4,18 +4,18 @@ ms.assetid: d502c0a9-17e5-467a-8b02-8b254e77b96b
 title: ICE36
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7f24eebc1b591edde418c59b6765d7ee91a00dc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97c3d951e90ac9f3dc46a564757c1a1d5a1737bf054740e3109a26c8c7b91055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118635301"
 ---
 # <a name="ice36"></a>ICE36
 
 ICE36 會驗證圖示資料表中的每個圖示至少在 [**ARPPRODUCTICON**](arpproducticon.md) 屬性或 [類別](class-table.md)、 [ProgId](progid-table.md)或 [快速鍵](shortcut-table.md) 資料表中列出一次。
 
-在公告期間，安裝程式會安裝使用者電腦上 [圖示表格](icon-table.md) 中所列的所有圖示。 在圖示表格中具有未使用的圖示，並不會阻止安裝執行，不過它會不必要地增加 .msi 檔案的大小，以及通告功能所需的時間和空間。
+在公告期間，安裝程式會安裝使用者電腦上 [圖示表格](icon-table.md) 中所列的所有圖示。 在圖示表格中具有未使用的圖示，並不會防止安裝執行，不過它會不必要地增加 .msi 檔案的大小，以及通告功能所需的時間和空間。
 
 如果屬性或資料表中未參考圖示，而且沒有提供 UI 可在執行時間建立參考，您應該移除圖示以達到更佳的效能。
 
@@ -35,7 +35,7 @@ Icon Bloat. Icon Icon4 is not used in the Class, Shortcut, or ProgID table. This
 
 
 
-| Name  | 資料     |
+| 名稱  | 資料     |
 |-------|----------|
 | Icon1 | Control1 |
 | Icon2 | Control2 |

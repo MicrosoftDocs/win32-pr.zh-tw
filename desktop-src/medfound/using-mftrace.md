@@ -4,18 +4,18 @@ ms.assetid: f93060dc-cb64-4623-847d-5d78bca59d50
 title: 使用 MFTrace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 022f888ba8b202e4b77a3a571a25874032ec233e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a03cb19f17978236b3e4edd8415f524913c90d99d7a7caf4183dd885d340cfbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692300"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737321"
 ---
 # <a name="using-mftrace"></a>使用 MFTrace
 
 MFTrace 是一種工具，可為 Microsoft 媒體基礎應用程式產生追蹤記錄。
 
-MFTrace 會使用繞道程式庫連結至媒體基礎 API 呼叫並產生追蹤記錄。 MFTrace 也可以記錄使用 Windows 事件追蹤 (ETW) 或軟體追蹤預處理器 (WPP) 來產生追蹤的任何元件的追蹤。 您可以從 MFTrace 啟動新的進程，或將 MFTrace 附加至現有的進程，以產生追蹤記錄。
+MFTrace 會使用繞道程式庫連結至媒體基礎 API 呼叫並產生追蹤記錄。 MFTrace 也可以從使用事件追蹤 Windows (ETW) 或軟體追蹤預處理器 (WPP) 的任何元件記錄追蹤，以產生追蹤。 您可以從 MFTrace 啟動新的進程，或將 MFTrace 附加至現有的進程，以產生追蹤記錄。
 
 ## <a name="usage"></a>使用方式
 
@@ -106,7 +106,7 @@ MFTrace 會使用繞道程式庫連結至媒體基礎 API 呼叫並產生追蹤�
 <span id="TRACE_FORMAT_SEARCH_PATH"></span><span id="trace_format_search_path"></span>TRACE_FORMAT_SEARCH_PATH
 </dt> <dd>
 
-若要追蹤使用 Windows 軟體追蹤預處理器 (WPP) 的元件，請將此環境變數設定為指定追蹤訊息格式的路徑 (TMF 元件的) 檔。
+若要追蹤使用 Windows 軟體追蹤預處理器 (WPP) 的元件，請將此環境變數設定為 [指定追蹤訊息格式的路徑] (TMF 元件的) 檔。
 
 </dd> <dt>
 
@@ -260,7 +260,7 @@ MFTrace 可將輸出傳送至下列目的地：
 <td>&quot;範例 &quot; ， &quot; CMemInputPinDetours&quot;</td>
 </tr>
 <tr class="odd">
-<td>DirectShow：使用了什麼篩選圖形？</td>
+<td>DirectShow：使用了哪一個篩選圖形？</td>
 <td>&quot;CGraphHelpers：： Trace&quot;</td>
 </tr>
 <tr class="even">

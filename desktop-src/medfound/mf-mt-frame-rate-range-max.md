@@ -4,12 +4,12 @@ ms.assetid: 8e0c4996-9f78-424e-b012-502228b6a27a
 title: 'MF_MT_FRAME_RATE_RANGE_MAX 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62399445cd31c7820ea9de7082fce71febbf3ba2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5988a6aee872489327707c7e87639f7467560014c5bdd29bc9b0bd9a136ccbac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742040"
 ---
 # <a name="mf_mt_frame_rate_range_max-attribute"></a>MF \_ MT \_ 幀 \_ 速率 \_ 範圍 \_ 最大值屬性
 
@@ -42,7 +42,7 @@ ms.locfileid: "103943783"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

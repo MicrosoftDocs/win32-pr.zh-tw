@@ -4,18 +4,18 @@ ms.assetid: 9f8f42f8-af90-4f2d-a58c-f892139e86b7
 title: System. MIMEType
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3db5ced29df603f8e5a5d04011f8d5ff99dc876
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 808e947cf877999896fd5a0fc14e85237957ab805ecf143a4c16159345b97a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724496"
 ---
 # <a name="systemmimetype"></a>System. MIMEType
 
 MIME 類型。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

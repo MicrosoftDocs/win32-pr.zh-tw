@@ -4,12 +4,12 @@ ms.assetid: 7c450b74-1f91-4a1c-beee-646a407eb8a8
 title: MsiServiceConfigFailureActions 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae55d095e227611271de35d673289fc9eb5b174e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 907c0feb2e331c1e19ff4292d11cc58b65340a7543d9af5d0a1ccf23d2e80a48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944415"
 ---
 # <a name="msiserviceconfigfailureactions-table"></a>MsiServiceConfigFailureActions 資料表
 

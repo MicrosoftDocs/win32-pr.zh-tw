@@ -4,16 +4,16 @@ description: ISRResGraphEx 和 IAttributes
 ms.assetid: 6eb37da1-5252-4c41-891c-c19cca6fb7d1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 659d7d4723bfc5145fb8abcc77043031a0e48e8b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 81f5e08b77b917e4630afcaeb8baed5aac4e13c20a1ed289418681abbbdca20b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748994"
 ---
 # <a name="isrresgraphex-and-iattributes"></a>ISRResGraphEx 和 IAttributes
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 引擎所傳回的結果物件必須支援 ISRResGraphEx 介面和 IAttributes 介面。 只支援 ISRResGraphEx 介面足以讓音效編輯器提供斷字資訊，但不會提供音素資訊的必要支援。
 
@@ -49,6 +49,6 @@ typedef struct tagSRPHONESEG {
 
 SAPI 4.0 SDK 包含 (SRFunc) 的工具，可用於測試與 SAPI 4.0 規格的合規性。包含在該工具中的測試是與這組介面相容的測試。 這項工具的原始程式碼是不錯的起點，可讓您瞭解這些介面如何與音效編輯器互動，以及如何在開發期間進行介面的調試。
 
- 
+ 
 
- 
+ 

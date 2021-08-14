@@ -4,12 +4,12 @@ ms.assetid: ccecc1e6-2d30-4e89-849f-c3acad97f312
 title: 'MF_TOPONODE_WORKQUEUE_MMCSS_TASKID 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53af119c58d725d42ec5737ffd9bf96286a65ac1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bf75dc911c9d00cab2d21d937ef16a43b38cc4271299c6fae4f2ed7381ec63a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739626"
 ---
 # <a name="mf_toponode_workqueue_mmcss_taskid-attribute"></a>MF \_ TOPONODE \_ WORKQUEUE \_ MMCSS \_ TASKID 屬性
 
@@ -40,8 +40,8 @@ ms.locfileid: "104512268"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_PCVideoController 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4d79ae9f52aae05ade509c7b5f625ac5b00740
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3c44739882a62ad635c4bc41361a9dd1c15dadea0c81ca0e0a3d530d939ab54e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118678811"
 ---
 # <a name="cim_pcvideocontroller-methods"></a>CIM \_ PCVideoController 方法
 

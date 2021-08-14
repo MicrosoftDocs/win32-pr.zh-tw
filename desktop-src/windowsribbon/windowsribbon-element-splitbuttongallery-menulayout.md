@@ -12,18 +12,18 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 04428c14b5e47795da47e5c03970610cd08a6e8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f40cf184d6122fc40041cfb77953bba2b7950d9d1a957d99aae659633ee5c194
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706896"
 ---
 # <a name="splitbuttongallerymenulayout-property"></a>SplitButtonGallery. MenuLayout 屬性
 
 代表 [分割按鈕庫](windowsribbon-controls-splitbuttongallery.md) 下拉式功能表版面配置的容器。
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 ``` syntax
 <SplitButtonGallery.MenuLayout>
@@ -104,8 +104,8 @@ ms.locfileid: "106967956"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

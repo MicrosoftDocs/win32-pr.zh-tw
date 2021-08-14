@@ -23,12 +23,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 45923c0c3ea3bfc28e67634e3b447e46b62765f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 773bb54ec4d132e629f21513ffa617cbe3435d35941e7c98c55810d267f614c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821153"
 ---
 # <a name="__instanceproviderregistration-class"></a>\_\_InstanceProviderRegistration 類別
 
@@ -195,7 +195,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 <dt>
 
-對
+是
 </dt> <dd>
 
 提供者藉由執行 [**iwbemservices：:D eleteclassasync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteclassasync) (類別提供者) 或 [**Iwbemservices：:D eleteinstanceasync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-deleteinstanceasync) (執行個體提供者) ，支援類別或實例的刪除。
@@ -261,7 +261,7 @@ class __InstanceProviderRegistration : __ObjectProviderRegistration
 
 <dt>
 
-對
+是
 </dt> <dd>
 
 提供者可透過執行 [**IWbemServices：： GetObjectAsync**](/windows/desktop/api/WbemCli/nf-wbemcli-iwbemservices-getobjectasync)來支援資料抓取。

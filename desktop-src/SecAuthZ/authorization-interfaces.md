@@ -4,12 +4,12 @@ ms.assetid: ede464a2-0be5-445a-aff7-d707dfccee13
 title: 授權介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff566127c90abcaebd91fc26af23734680bd2e11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e485090de7ee2b64ac30be64eabee7b3e05dd932b3758bda7be01323ae09d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914210"
 ---
 # <a name="authorization-interfaces"></a>授權介面
 
@@ -56,7 +56,7 @@ ms.locfileid: "104321223"
 | [**IAzTask2**](/windows/desktop/api/Azroles/nn-azroles-iaztask2)<br/>                               | 擴充 [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) 介面的方法，此方法會傳回與工作相關聯的角色指派。<br/>                                                                                                                                                                                                                                                                                                                                                                 |
 | [**IAzTasks**](/windows/desktop/api/Azroles/nn-azroles-iaztasks)<br/>                               | 代表 [**IAzTask**](/windows/desktop/api/Azroles/nn-azroles-iaztask) 物件的集合。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                             |
 | [**IeAxiService**](ieaxiservice.md)<br/>                       | 當目前的使用者沒有安裝物件的許可權時，初始化系統服務物件以安裝 ActiveX 物件。<br/>                                                                                                                                                                                                                                                                                                                                                     |
-| [**IeAxiServiceCallback**](ieaxiservicecallback.md)<br/>       | 由 [**IeAxiSystemInstaller**](ieaxisysteminstaller.md) 介面呼叫，以確認可以安裝 ActiveX 物件。<br/>                                                                                                                                                                                                                                                                                                                                                            |
+| [**IeAxiServiceCallback**](ieaxiservicecallback.md)<br/>       | 由 [**IeAxiSystemInstaller**](ieaxisysteminstaller.md)介面呼叫，以確認可以安裝 ActiveX 物件。<br/>                                                                                                                                                                                                                                                                                                                                                            |
 | [**IeAxiSystemInstaller**](ieaxisysteminstaller.md)<br/>       | 安裝 ActiveX 物件。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 | [**IEffectivePermission**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission)<br/>       | 提供方法來判斷物件上安全性主體的有效許可權。<br/>                                                                                                                                                                                                                                                                                                                                                                                                  |
 | [**IEffectivePermission2**](/windows/win32/api/aclui/nn-aclui-ieffectivepermission2)<br/>     | 提供一種方法來判斷物件上安全性主體的有效許可權。<br/>                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -73,7 +73,7 @@ ms.locfileid: "104321223"
 授權介面會根據使用方式進行分類，如下所示：
 
 -   [存取控制編輯器介面](#access-control-editor-interfaces)
--   [ActiveX 安裝程式介面](#activex-installer-interfaces)
+-   [ActiveX安裝程式介面](#activex-installer-interfaces)
 -   [授權管理員介面](#authorization-manager-interfaces)
 
 ## <a name="access-control-editor-interfaces"></a>存取控制編輯器介面
@@ -86,9 +86,9 @@ ms.locfileid: "104321223"
 -   [**ISecurityInformation3**](/windows/win32/api/aclui/nn-aclui-isecurityinformation3)
 -   [**ISecurityObjectTypeInfo**](/windows/win32/api/aclui/nn-aclui-isecurityobjecttypeinfo)
 
-## <a name="activex-installer-interfaces"></a>ActiveX 安裝程式介面
+## <a name="activex-installer-interfaces"></a>ActiveX安裝程式介面
 
-ActiveX 安裝程式提供下列介面。
+ActiveX安裝程式會提供下列介面。
 
 -   [**IeAxiService**](ieaxiservice.md)
 -   [**IeAxiServiceCallback**](ieaxiservicecallback.md)

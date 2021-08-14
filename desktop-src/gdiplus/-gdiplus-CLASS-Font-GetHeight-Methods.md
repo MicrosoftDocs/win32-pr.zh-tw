@@ -4,12 +4,12 @@ ms.assetid: 74ace32d-5650-4a8c-80d8-567ad5ac8c49
 title: GetHeight 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 7e93070049f3aee9d07b7e19f00115eb5b4d139d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254f66e08a5dae536f2f15d32fb912fbc23171c589b0f4de5b2a16b123ffc15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118977888"
 ---
 # <a name="fontgetheight-methods"></a>GetHeight 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 6c456a59-ee6c-420d-b075-7de8bd2fd8ff
 title: SetReg
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05da29d3eddf7e04ba5bd735e1032f388d9d204a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5267aa140cad713e550ddf8afd0281d489bdd90ac0b26a7f7a4781240ecac24c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900298"
 ---
 # <a name="setreg"></a>SetReg
 
@@ -17,7 +17,7 @@ SetReg 工具會設定登錄機碼的值，以控制 Authenticode 憑證驗證�
 
 **SetReg** \[*選項* \]\[*選擇 \#* {**TRUE** \| **FALSE**}\]
 
-Set Registry tool 僅隨附于 .NET Framework SDK 1.0 版和1.1 版，您可以從 [Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=16217)下載。
+Set Registry tool 僅隨附于 .NET Framework SDK 1.0 版和1.1 版，您可以從[Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=16217)下載。
 
 ## <a name="options"></a>選項
 
@@ -25,7 +25,7 @@ Set Registry tool 僅隨附于 .NET Framework SDK 1.0 版和1.1 版，您可以�
 
 
 
-| 選項 | Description                                                                                                                                            |
+| 選項 | 描述                                                                                                                                            |
 |--------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **-q** | SetReg 完成要求的動作之後，隱藏軟體發佈狀態金鑰值的顯示。 預設會顯示這些值。 |
 | **-?** | 列出命令語法和選項。                                                                                                                       |
@@ -42,7 +42,7 @@ Set Registry tool 僅隨附于 .NET Framework SDK 1.0 版和1.1 版，您可以�
 
 | 選擇 | 描述                                                                                                                       | 結果                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 |--------|-----------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **1**  | 信任測試根目錄                                                                                                               | 此值會被忽略。**WINDOWS XP/2000：** 若 **為 TRUE**，則信任測試根目錄。 這相當於在 Internet Explorer 3 中執行 "regedit wvtston .reg"。*x*。<br/> 預設值為 **FALSE**。 除非此旗標設定為 **TRUE**，否則任何以測試根目錄簽署的檔案都不會進行驗證。 請注意，此行為隨著 Windows XP Service Pack 1 (SP1) 而變更，因為 Windows XP SP1 會忽略此值。<br/> <br/> |
+| **1**  | 信任測試根目錄                                                                                                               | 此值會被忽略。**Windows XP/2000：** 若 **為 TRUE**，則信任測試根目錄。 這相當於在 Internet Explorer 3 中執行 "regedit wvtston .reg"。*x*。<br/> 預設值為 **FALSE**。 除非此旗標設定為 **TRUE**，否則任何以測試根目錄簽署的檔案都不會進行驗證。 請注意，此行為已隨著 Windows XP Service Pack 1 (SP1) 而變更，因為 Windows XP SP1 會忽略此值。<br/> <br/> |
 | **2**  | 使用憑證的到期日                                                                                               | 若 **為 TRUE**，則會檢查憑證到期日。 若要忽略到期日，請將此旗標設定為 **FALSE**。 預設值為 **TRUE**。                                                                                                                                                                                                                                                                                                       |
 | **3**  | 檢查 [*撤銷清單*](../secgloss/c-gly.md) | 若 **為 TRUE**，則會執行撤銷檢查。 若要略過撤銷檢查，請將此旗標設定為 **FALSE**。 預設值為 **TRUE**。**Internet Explorer 3。*x*：** 預設值為 **FALSE**。<br/>                                                                                                                                                                                                                                               |
 | **4**  | 離線撤銷伺服器正常 (個別) <br/>                                                                              | 若 **為 TRUE，則** 允許個別憑證的離線核准。 預設值為 **FALSE**。                                                                                                                                                                                                                                                                                                                                                 |

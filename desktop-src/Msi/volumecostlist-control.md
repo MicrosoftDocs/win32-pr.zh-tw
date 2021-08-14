@@ -4,12 +4,12 @@ ms.assetid: b4aa8ea1-591f-4665-98af-9fa73a3f4202
 title: VolumeCostList 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 713a2958a837471e741a3479fd277b096f3e8a03
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f3d25c0786643a347322ea70ebd345c8c62f374d0b5dbbf87f727599be37d93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942218"
 ---
 # <a name="volumecostlist-control"></a>VolumeCostList 控制項
 
@@ -28,7 +28,7 @@ VolumeCostList 控制項會顯示與不同磁片區上的選取相關聯的成�
 -   **Bytes**
 -   **KB**
 -   **MB**
--   **GB**
+-   **G b**
 
 作者可以在任何字型規格之後附加資料行寬度，藉以設定 VolumeCostList 控制項中的資料行寬度。 資料行寬度是以大括弧括住的一連串正整數來輸入。 空的大括弧或 {0} 隱藏資料行。 負數或無法轉換成正整數的字串是不正確資料行寬度。 當數列中出現不正確資料行寬度時，會隱藏其餘的資料行。 最多可以指定五個數據行的寬度。
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8066190082cfe0f1bbb8825768ad135090a7a4f8
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4b4174643c27a6b4eac47bafb161aab4e48931c092ca7a8342b5ab7bfe2fada2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106971918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118689174"
 ---
 # <a name="additional-trusted-service-names-attribute"></a>其他受信任的服務名稱屬性
 

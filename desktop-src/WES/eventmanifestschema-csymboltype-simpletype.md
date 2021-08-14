@@ -1,6 +1,6 @@
 ---
-title: 'CSymbolType 簡單類型 (Windows 事件記錄檔) '
-description: CSymbolType Simple Type (Windows 事件記錄檔) -定義有效的 C/c + + 符號名稱。
+title: 'CSymbolType 簡單類型 (Windows 事件記錄) '
+description: CSymbolType 簡單類型 (Windows 事件記錄檔) -定義有效的 c/c + + 符號名稱。
 ms.assetid: d19827b6-2b61-4d75-ac9d-56a384b0cc4b
 keywords:
 - CSymbolType 簡單類型 EventLog
@@ -13,14 +13,14 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e0c8c17a9f4bb7e86b573d60187ffffd55c6cb96
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5e51438a49a45c167b247882f0976b27a4ad8d4da048437f385ccff545663b4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118589891"
 ---
-# <a name="csymboltype-simple-type-windows-event-log"></a>CSymbolType 簡單類型 (Windows 事件記錄檔) 
+# <a name="csymboltype-simple-type-windows-event-log"></a>CSymbolType 簡單類型 (Windows 事件記錄) 
 
 定義有效的 C/c + + 符號名稱。
 
@@ -46,7 +46,7 @@ ms.locfileid: "108090616"
 
 ## <a name="remarks"></a>備註
 
-如果符號名稱是空的，訊息編譯器會使用您定義之專案的 **name** 屬性來產生符號名稱。 編譯器會以底線取代任何非英數位元和前置數位。 例如，如果通道的 **名稱** 屬性是 Microsoft-Windows-SampleProvider/Operational，編譯器會使用 Microsoft \_ Windows \_ SampleProvider 作業 \_ 做為符號名稱。
+如果符號名稱是空的，訊息編譯器會使用您定義之專案的 **name** 屬性來產生符號名稱。 編譯器會以底線取代任何非英數位元和前置數位。 例如，如果通道的 **名稱** 屬性是 microsoft Windows SampleProvider/Operational，編譯器會使用 microsoft \_ Windows \_ SampleProvider 作業 \_ 作為符號名稱。
 
 ## <a name="requirements"></a>規格需求
 
@@ -54,8 +54,8 @@ ms.locfileid: "108090616"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

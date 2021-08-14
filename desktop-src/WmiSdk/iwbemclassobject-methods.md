@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: IWbemClassObject 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 825b3f15f17dca6dd0871bbcae3f531a90c90f1e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d11c1ec1a85567d942349d14bb86ef3030d05714b10a4645f4b5e8ae9e0a696
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818839"
 ---
 # <a name="iwbemclassobject-methods"></a>IWbemClassObject 方法
 

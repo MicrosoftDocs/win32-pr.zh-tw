@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 555a09520079df624fffb2cb3cb3aa34b81502c2
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f9c362e6938437d4fcc02b3d3965aa222d9e855d041492f9ea9eb1247b4fda8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684328"
 ---
 # <a name="ms-ds-nc-repl-cursors-attribute"></a>ms DS-NC-複寫資料指標屬性
 

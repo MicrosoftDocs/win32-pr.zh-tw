@@ -39,12 +39,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: bc21290de08b6e22c0bc69ec127f3c996ee5b65e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c1aea36930de2d084f5875a827a484d00852c31f2b26ff996375beb286c67dc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118679084"
 ---
 # <a name="cim_parallelcontroller-class"></a>CIM \_ ParallelController 類別
 
@@ -1217,7 +1217,7 @@ Windows 仍在設定裝置。
 
 <span id="SCSI_Serial_Storage_Architecture"></span><span id="scsi_serial_storage_architecture"></span><span id="SCSI_SERIAL_STORAGE_ARCHITECTURE"></span>
 
-**SCSI 序列儲存架構** (13) 
+**SCSI 序列儲存體架構** (13) 
 
 
 </dt> <dd></dd> <dt>

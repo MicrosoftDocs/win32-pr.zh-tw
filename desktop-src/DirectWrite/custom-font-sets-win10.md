@@ -4,12 +4,12 @@ description: 本主題說明您可以在應用程式中使用自訂字型的各�
 ms.assetid: 50842838-d150-df9a-f1b7-67ce5ea2bc80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a79f1ccfcb1dadd355c5f582417aacb5041ecf8b
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: fb4b8b9c49895c2b137aaa33cf0788d9518a1d53834c74eb27feb6b44fa045d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "104383238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118650282"
 ---
 # <a name="custom-font-sets"></a>自訂字型集
 
@@ -25,17 +25,17 @@ ms.locfileid: "104383238"
     -   [使用本機檔案系統中的已知字型建立字型組](#creating-a-font-set-using-known-fonts-in-the-local-file-system)
     -   [在 Web 上使用已知的遠端字型來建立自訂字型組](#creating-a-custom-font-set-using-known-remote-fonts-on-the-web)
     -   [使用載入至記憶體的字型資料來建立自訂字型組](#creating-a-custom-font-set-using-font-data-loaded-into-memory)
--   [進階案例](#advanced-scenarios)
+-   [Advanced 案例](#advanced-scenarios)
     -   [組合字型組](#combining-font-sets)
     -   [使用本機 WOFF 或 WOFF2 字型資料 ](#using-local-woff-or-woff2-font-data)
-    -   [使用 DirectWrite 遠端字型機制搭配自訂的低層級網路執行 ](#using-directwrite-remote-font-mechanisms-with-custom-low-level-network-implementation)
-    -   [舊版 Windows 上的支援案例 ](#supporting-scenarios-on-earlier-windows-versions)
+    -   [使用 DirectWrite 遠端字型機制搭配自訂的低層級網路執行](#using-directwrite-remote-font-mechanisms-with-custom-low-level-network-implementation)
+    -   [舊版 Windows 的支援案例](#supporting-scenarios-on-earlier-windows-versions)
 
 ## <a name="introduction"></a>簡介
 
-大部分的情況下，應用程式會使用安裝在本機系統上的字型。 DirectWrite 可讓您使用 [**IDWriteFactory3：： GetSystemFontSet**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontset) 或 [**IDWriteFactory：： GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection) 方法存取這些字型。 在某些情況下，應用程式可能也會想要使用包含在 Windows 10 中的字型，但目前系統並未安裝該字型。 您可以使用 **GetSystemFontSet** 方法，或藉由呼叫 [**IDWriteFactory3：： GetSystemFontCollection**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontcollection) （includeDownloadableFonts 設定為 TRUE），從 Windows 字型服務存取這類字型。 
+大部分的情況下，應用程式會使用安裝在本機系統上的字型。 DirectWrite 使用 [**IDWriteFactory3：： GetSystemFontSet**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontset)或 [**IDWriteFactory：： GetSystemFontCollection**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-getsystemfontcollection)方法，提供這些字型的存取權。 在某些情況下，應用程式可能也會想要使用包含在 Windows 10 中的字型，但目前系統並未安裝該字型。 您可以使用 **GetSystemFontSet** 方法，或藉由呼叫 [**IDWriteFactory3：： GetSystemFontCollection**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getsystemfontcollection) （includeDownloadableFonts 設定為 TRUE），從 Windows 字型服務存取這類字型。 
 
-不過，在某些應用程式案例中，應用程式需要使用未安裝在系統中且不是由 Windows 字型服務提供的字型。 以下是這類案例的範例：
+不過，在某些應用程式案例中，應用程式需要使用未安裝在系統中的字型，而且不是由 Windows 字型服務所提供。 以下是這類案例的範例：
 
 -   字型會內嵌為應用程式二進位檔內的資源。
 -   字型檔案會在應用程式套件中配套，並儲存在應用程式安裝資料夾下的磁片上。
@@ -44,10 +44,10 @@ ms.locfileid: "104383238"
 -   應用程式會使用從公用 Web 字型服務取得的字型。 
 -   應用程式會使用透過私人網路協定進行資料流程處理的字型資料。 
 
-DirectWrite 提供 Api，可在這些和其他類似的案例中使用自訂字型。 自訂字型資料可能來自本機檔案系統中的檔案;從使用 HTTP 存取的遠端雲端式來源;或從任意來源載入至記憶體緩衝區之後。 
+DirectWrite 提供在這些和其他類似案例中使用自訂字型的 api。 自訂字型資料可能來自本機檔案系統中的檔案;從使用 HTTP 存取的遠端雲端式來源;或從任意來源載入至記憶體緩衝區之後。 
 
 > [!Note]  
-> 雖然 DirectWrite 提供了自 Windows 7 之後使用自訂字型的 Api，但新的 Api 已新增至 Windows 10，並同樣在 Windows 10 Creators Update (preview 組建15021或更新版本) 中，可讓您更輕鬆地執行所述的數個案例。 本主題著重于 Windows 10 中提供的 Api。 對於需要在舊版 Windows 上運作的應用程式，請參閱 [ (Windows 7/8) 的自訂字型集合 ](custom-font-collections.md)。 
+> 雖然 DirectWrite 提供了自 Windows 7 以來使用自訂字型的 api，但較新的 api 已 Windows 10 新增到 Windows 10 Creators Update (preview 組建15021或更新版本) 中，可讓您更輕鬆地執行所述的數個案例。 本主題著重于 Windows 10 中提供的 Api。 對於需要使用舊版 Windows 的應用程式，請參閱[自訂字型集合 (Windows 7/8) ](custom-font-collections.md)。 
 
  
 
@@ -84,9 +84,9 @@ DirectWrite 提供 Api，可在這些和其他類似的案例中使用自訂字�
 
 ## <a name="key-concepts"></a>重要概念
 
-若要瞭解使用自訂字型的 DirectWrite Api，瞭解這些 Api 基礎的概念模型可能會很有説明。 重要概念將在此說明。 
+若要瞭解使用自訂字型的 DirectWrite api，瞭解這些 api 基礎的概念模型可能會很有説明。 重要概念將在此說明。 
 
-當 DirectWrite 進行實際的文字版面配置或轉譯時，它需要存取實際的字型資料。 字型臉部物件會保存實際的字型資料，而這些資料必須存在於本機系統中。 但是針對其他作業（例如檢查特定字型的可用性或向使用者呈現字型選項），只需要特定字型的參考，而不是實際字型資料本身。 在 DirectWrite 中，字型參考物件只會包含尋找和具現化字型所需的資訊。 因為字體臉部參考不會保存實際的資料，所以 DirectWrite 可以處理字型臉部參考，讓實際資料在遠端網路位置，以及實際資料在本機。
+當 DirectWrite 實際的文字版面配置或轉譯時，它需要存取實際的字型資料。 字型臉部物件會保存實際的字型資料，而這些資料必須存在於本機系統中。 但是針對其他作業（例如檢查特定字型的可用性或向使用者呈現字型選項），只需要特定字型的參考，而不是實際字型資料本身。 在 DirectWrite 中，字型參考物件只會包含尋找和具現化字型所需的資訊。 由於字型參考不會保存實際的資料，因此 DirectWrite 可以處理字型臉部參考，其中實際的資料位於遠端網路位置，以及實際的資料在本機。
 
 字型組是一組字型臉部參考，以及某些基本的參考屬性，可用來參考字型或與其他字型（例如，系列名稱或字型粗細值）進行比較。 各種字型的實際資料可能是本機的，也可能是遠端或某些混合。
 
@@ -108,7 +108,7 @@ IDWriteFontFile 介面會為每個字型或字型臉部參考進行基礎。 這
 
 針對網路上所使用的字型，字型資料通常會封裝成特定的容器格式 WOFF 或 WOFF2，以提供一些壓縮的字型資料，以及某種程度的保護，以防範字型授權的盜版和違規。 功能上，WOFF 或 WOFF2 檔案相當於 OpenType 字型或字型集合檔案，但資料會以不同的格式進行編碼，而這種格式需要先解壓縮才能使用。 
 
-某些 DirectWrite Api 可能會處理個別字型的臉部，而其他 Api 則可以處理可能包含包含多個臉部之 OpenType 集合檔案的檔案。 同樣地，某些 Api 只會處理未經處理的 OpenType 格式資料，而其他 Api 則可以處理封裝的、WOFF 和 WOFF2 容器格式。 下列討論提供這些詳細資料。 
+某些 DirectWrite api 可能會處理個別字型的臉部，而其他 api 則可處理可能包含包含多個臉部之 OpenType 集合檔案的檔案。 同樣地，某些 Api 只會處理未經處理的 OpenType 格式資料，而其他 Api 則可以處理封裝的、WOFF 和 WOFF2 容器格式。 下列討論提供這些詳細資料。 
 
 ## <a name="font-sets-and-font-collections"></a>字型組和字型集合
 
@@ -118,7 +118,7 @@ IDWriteFontFile 介面會為每個字型或字型臉部參考進行基礎。 這
 
 如果應用程式具有集合物件，且需要取得對應的字型集，則可以使用 [**IDWriteFontCollection1：： GetFontSet**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontcollection1-getfontset) 方法來完成此動作。 
 
-## <a name="common-scenarios"></a>常見的案例
+## <a name="common-scenarios"></a>常見案例
 
 本節說明一些涉及自訂字型組的最常見案例：
 
@@ -127,7 +127,7 @@ IDWriteFontFile 介面會為每個字型或字型臉部參考進行基礎。 這
 -   在 Web 上使用已知的遠端字型來建立自訂字型集。
 -   使用載入記憶體的字型資料來建立自訂字型集。
 
-這些案例的完整執行是在 [DirectWrite 自訂字型集範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中提供。 該範例也會說明處理以 WOFF 或 WOFF2 容器格式封裝之字型資料的一個更先進案例，如下所述。 
+這些案例的完整執行是在[DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中提供。 該範例也會說明處理以 WOFF 或 WOFF2 容器格式封裝之字型資料的一個更先進案例，如下所述。 
 
 ### <a name="creating-a-font-set-using-arbitrary-fonts-in-the-local-file-system"></a>使用本機檔案系統中的任意字型建立字型組
 
@@ -283,7 +283,7 @@ for (uint32_t fontIndex = 0; fontIndex < numberOfFonts; fontIndex++)
 6. 將所有臉部都新增至字型組產生器之後，請建立自訂字型集，如上所示。  
 </dl>
 
-您可以設計應用程式，讓它在 Windows 10 Creators Update 上執行時使用慣用的 [**AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile) 方法，但在舊版 Windows 10 上執行時，會改回使用 [**AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference)) 方法。 如上面所述，測試 [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) 介面的可用性，然後據以進行分支。 這種方法會在 [DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中說明。 
+您可以設計應用程式，讓它在 Windows 10 Creators Update 上執行時使用慣用的 [**AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile)方法，但在舊版 Windows 10 上執行時，會改回使用 [**AddFontFaceReference**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontfacereference(idwritefontfacereference))方法。 如上面所述，測試 [**IDWriteFactory5**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefactory5) 介面的可用性，然後據以進行分支。 這種方法會在[DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中加以說明。 
 
 ### <a name="creating-a-font-set-using-known-fonts-in-the-local-file-system"></a>使用本機檔案系統中的已知字型建立字型組
 
@@ -334,7 +334,7 @@ hr = pFontSetBuilder->AddFontFaceReference(pFontFaceReference, props, ARRAYSIZE(
 
 將遠端字型新增至字型組的 API 呼叫順序，類似于前一個案例所述的順序。 但是由於字型資料是遠端的，因此讀取實際字型資料所涉及的作業將會與使用本機儲存體中的檔案時不同。 在此情況下，Windows 10 Creators Update 中新增了較低層級的介面 [**IDWriteRemoteFontFileLoader**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader)。 
 
-若要使用遠端字型檔案載入器，它必須先向 DirectWrite factory 註冊。 只要使用與其相關聯的字型，應用程式就必須保留載入器。 當字型不再使用，且在處理站終結之前的某個時間點，必須將載入器取消註冊。 這可以在擁有載入器物件之類別的函式中完成。 這些步驟將如下所示。 
+若要使用遠端字型檔案載入器，必須先向 DirectWrite factory 註冊。 只要使用與其相關聯的字型，應用程式就必須保留載入器。 當字型不再使用，且在處理站終結之前的某個時間點，必須將載入器取消註冊。 這可以在擁有載入器物件之類別的函式中完成。 這些步驟將如下所示。 
 
 使用遠端字型建立自訂字型集的方法如下所示：這需要 Windows 10 Creators Update。  
 
@@ -393,10 +393,10 @@ if (SUCCEEDED(hr))
 
 
 
-請注意，您可以在 fontFileUrl 參數中指定完整的 URL，也可以將它分割成基底和相對部分。 如果指定基底 URL，則 baseUrl 和 fontFileUrl 值的串連必須提供完整的 URL，DirectWrite 將不會提供任何其他分隔符號。  
+請注意，您可以在 fontFileUrl 參數中指定完整的 URL，也可以將它分割成基底和相對部分。 如果指定基底 URL，則 baseUrl 和 fontFileUrl 值的串連必須提供完整的 url，DirectWrite 不會提供任何其他分隔符號。  
 
 > [!IMPORTANT]
-> 安全性/效能附注：嘗試提取遠端字型時，不保證 Windows 會收到伺服器的回應。 在某些情況下，伺服器可能會回應無效相對 URL 的檔案找不到錯誤，但如果收到多個不正確要求，就會停止回應。 如果伺服器沒有回應，Windows 最終將會過期，但如果已起始多個提取，這可能需要幾分鐘的時間。 進行呼叫時，您應該執行哪些動作，以確保 Url 會是有效的。 
+> 安全性/效能附注：嘗試提取遠端字型時，不保證 Windows 會接收來自伺服器的回應。 在某些情況下，伺服器可能會回應無效相對 URL 的檔案找不到錯誤，但如果收到多個不正確要求，就會停止回應。 如果伺服器沒有回應，Windows 最終會過期，但如果起始多個提取，這可能需要幾分鐘的時間。 進行呼叫時，您應該執行哪些動作，以確保 Url 會是有效的。 
 
  
 
@@ -427,13 +427,13 @@ hr = pDWriteFactory->UnregisterFontFileLoader(pRemoteFontFileLoader);
   
 </dl>
 
-建立具有自訂遠端字型的自訂字型之後，字型集會包含遠端字型的參考和參考屬性，但實際的資料仍會在遠端。 遠端字型的 DirectWrite 支援可讓您在字型集中維護字型臉部參考，並在配置和轉譯中選取要使用的字型，但是實際的資料必須在實際使用時才會下載，例如在執行文字配置時。  
+建立具有自訂遠端字型的自訂字型之後，字型集會包含遠端字型的參考和參考屬性，但實際的資料仍會在遠端。 遠端字型的 DirectWrite 支援可在字型集內維護字型臉部參考，並在配置和轉譯中選取要使用的字型，但是實際的資料必須在實際需要使用時才會下載，例如在執行文字配置時。  
 
-應用程式可透過要求 DirectWrite 下載字型資料，然後在開始進行字型的任何處理之前等候成功下載的確認，來採取預先的方法。 但網路下載意指某些延遲的時間無法預期，而且也不確定成功。 基於這個理由，通常最好採用不同的方法，讓版面配置和轉譯一開始先使用已在本機的替代或備用字型，同時要求以平行方式下載所需的遠端字型，然後在所需的字型下載之後更新結果。 
+應用程式可透過要求 DirectWrite 下載字型資料，然後在使用字型的任何處理開始之前等候確認成功下載，來採取預先的方法。 但網路下載意指某些延遲的時間無法預期，而且也不確定成功。 基於這個理由，通常最好採用不同的方法，讓版面配置和轉譯一開始先使用已在本機的替代或備用字型，同時要求以平行方式下載所需的遠端字型，然後在所需的字型下載之後更新結果。 
 
-若要要求在使用之前先下載整個字型，可以使用 [**IDWriteFontFaceReference：： EnqueueFontDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest) 方法。 如果字型很大，則可能只需要部分資料來處理特定字串。 DirectWrite 提供其他方法，可用來要求特定內容、 [**EnqueueCharacterDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest) 和 [**EnqueueGlyphDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest)所需的字型資料部分。  
+若要要求在使用之前先下載整個字型，可以使用 [**IDWriteFontFaceReference：： EnqueueFontDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuefontdownloadrequest) 方法。 如果字型很大，則可能只需要部分資料來處理特定字串。 DirectWrite 提供其他方法，可用來要求特定內容、 [**EnqueueCharacterDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueuecharacterdownloadrequest)和 [**EnqueueGlyphDownloadRequest**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontfacereference-enqueueglyphdownloadrequest)所需的字型資料部分。  
 
-假設在應用程式中採取的方法，是讓處理一開始就使用本機、替代或備用字型來完成。 IDWriteFontFallback：：[**MapCharacters**](idwritefontfallback-mapcharacters.md) 方法可以用來識別本機的恢復字型，也會自動將要求排入佇列，以下載慣用的字型。 此外，如果使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) ，且版面配置中的部分或全部文字是使用遠端字型參考格式化，則 DirectWrite 會自動使用 **MapCharacters** 方法來取得本機的回復字型，並將下載遠端字型資料的要求排入佇列。 
+假設在應用程式中採取的方法，是讓處理一開始就使用本機、替代或備用字型來完成。 IDWriteFontFallback：：[**MapCharacters**](idwritefontfallback-mapcharacters.md) 方法可以用來識別本機的恢復字型，也會自動將要求排入佇列，以下載慣用的字型。 此外，如果使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) ，而且版面配置中的部分或所有文字都是使用遠端字型參考格式化，則 DirectWrite 會自動使用 **MapCharacters** 方法來取得本機的回復字型，並將下載遠端字型資料的要求排入佇列。 
 
 DirectWrite 會維護每個處理站的字型下載佇列，而使用上述方法所提出的要求會新增至該佇列。 您可以使用 [**IDWriteFactory3：： GetFontDownloadQueue**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory3-getfontdownloadqueue) 方法來取得字型下載佇列。 
 
@@ -441,14 +441,14 @@ DirectWrite 會維護每個處理站的字型下載佇列，而使用上述方�
 
 將遠端字型要求新增至佇列之後，必須起始下載程式。 在 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)中使用遠端字型時，會在應用程式呼叫強制版面配置或轉譯作業的 **IDWriteTextLayout** 方法（例如 GetLineMetrics 或 Draw 方法）時自動起始下載。 在其他情況下，應用程式必須藉由呼叫 [**IDWriteFontDownloadQueue：： BeginDownload**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload)來直接起始下載。  
 
-當下載完成時，應用程式會由應用程式採取適當的動作（繼續進行暫止的作業），或一開始使用回復字型完成的重複作業。  (如果使用 DirectWrite 的文字版面配置，則可以使用 [**IDWriteTextLayout3：： InvalidateLayout**](idwritetextlayout3-invalidatelayout.md) 清除使用回復字型計算的暫存結果。 ) 為了讓應用程式在下載程式完成時收到通知，並採取適當的動作，應用程式必須提供 [**IDWriteFontDownloadListener**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener) 介面的執行，並將其傳遞至 BeginDownload 呼叫。 
+當下載完成時，應用程式會由應用程式採取適當的動作（繼續進行暫止的作業），或一開始使用回復字型完成的重複作業。  (如果 DirectWrite 的文字版面配置正在使用中，則可以使用 [**IDWriteTextLayout3：： InvalidateLayout**](idwritetextlayout3-invalidatelayout.md)清除使用回復字型計算的暫存結果。 ) ，以便在下載程式完成並採取適當動作時通知應用程式，應用程式必須提供 [**IDWriteFontDownloadListener**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener)介面的執行，並將其傳遞至 BeginDownload 呼叫。 
 
 > [!IMPORTANT]
-> 安全性/效能附注：嘗試提取遠端字型時，不保證 Windows 會收到伺服器的回應。 如果伺服器沒有回應，Windows 最終將會出現時間，但如果有多個遠端字型正在提取但失敗，可能需要幾分鐘的時間。 BeginDownload 呼叫會立即傳回。 應用程式不應該在等候 IDWriteFontDownloadListener 時封鎖 UI [**：:D 的 ownloadcompleted**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadlistener-downloadcompleted) 呼叫。 
+> 安全性/效能附注：嘗試提取遠端字型時，不保證 Windows 會接收來自伺服器的回應。 如果伺服器沒有回應，Windows 最終會過期，但如果有多個遠端字型正在提取但失敗，可能需要幾分鐘的時間。 BeginDownload 呼叫會立即傳回。 應用程式不應該在等候 IDWriteFontDownloadListener 時封鎖 UI [**：:D 的 ownloadcompleted**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadlistener-downloadcompleted) 呼叫。 
 
  
 
-您可以在 [DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)和 [DirectWrite 可下載字型範例](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont)中，看到這些與 DirectWrite 的字型下載佇列和 [**IDWriteFontDownloadListener**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener)介面互動的範例。 
+您可以在 [DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中，也可以在 [DirectWrite 可下載](https://github.com/Microsoft/Windows-universal-samples/tree/master/Samples/DWriteTextLayoutCloudFont)的字型範例中，看到這些與 DirectWrite 字型下載佇列和 [**IDWriteFontDownloadListener**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwritefontdownloadlistener)介面互動的範例。 
 
 ### <a name="creating-a-custom-font-set-using-font-data-loaded-into-memory"></a>使用載入至記憶體的字型資料來建立自訂字型組
 
@@ -458,9 +458,9 @@ DirectWrite 會維護每個處理站的字型下載佇列，而使用上述方�
 
 如果應用程式具有資料所代表字型字型的個別相關資訊，則可以將個別字型臉部參考新增至字型集產生器，並指定自訂屬性。 不過，由於字型資料位於本機記憶體中，因此不需要這樣做;DirectWrite 將能夠直接讀取資料，以衍生屬性值。 
 
-DirectWrite 假設字型資料是原始的 OpenType 格式，相當於 OpenType 檔案 (. ttf、otf、simsun18030.ttc、otc-n-us-sat-bsa-press) ，但在記憶體中，而不是在磁片上。 資料不能是 WOFF 或 WOFF2 容器格式。 資料可以表示 OpenType 字型集合。 如果未使用自訂屬性，則可以使用 [**IDWriteFontSetBuilder1：： AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile) 方法，在單一呼叫中將所有字型臉部新增至資料。 
+DirectWrite 假設字型資料是原始的 opentype 格式，相當於 opentype 檔案 (. ttf、. otf、simsun18030.ttc、otc-n-us-sat-bsa-press) ，但在記憶體中，而不是在磁片上。 資料不能是 WOFF 或 WOFF2 容器格式。 資料可以表示 OpenType 字型集合。 如果未使用自訂屬性，則可以使用 [**IDWriteFontSetBuilder1：： AddFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder1-addfontfile) 方法，在單一呼叫中將所有字型臉部新增至資料。 
 
-記憶體內部案例的重要考慮是資料的存留期。 如果提供緩衝區的指標給 DirectWrite，而沒有明確指出有擁有者，則 DirectWrite 會將資料的複本複製到它所擁有的新記憶體緩衝區。 為了避免複製資料和額外的記憶體配置，應用程式可以傳遞可執行 IUnknown 的資料擁有者物件，並擁有包含字型資料的記憶體緩衝區。 藉由執行這個介面，DirectWrite 可以新增至物件的參考計數，藉此確保擁有資料的存留期。 
+記憶體內部案例的重要考慮是資料的存留期。 如果提供緩衝區的指標給 DirectWrite 而沒有明確指出有擁有者，則 DirectWrite 會將資料的複本複製到它所擁有的新記憶體緩衝區。 為了避免複製資料和額外的記憶體配置，應用程式可以傳遞可執行 IUnknown 的資料擁有者物件，並擁有包含字型資料的記憶體緩衝區。 藉由執行這個介面，DirectWrite 可以加入至物件的參考計數，藉此確保擁有資料的存留期。 
 
 使用記憶體中字型資料建立自訂字型集的方法如下所示：這需要 Windows 10 Creators Update。 這會假設是由應用程式所執行的資料擁有者物件，它會執行 IUnknown，而且也有傳回記憶體緩衝區指標和緩衝區大小的方法。 
 
@@ -532,13 +532,13 @@ hr = pDWriteFactory->UnregisterFontFileLoader(pInMemoryFontFileLoader);
 
 ### <a name="combining-font-sets"></a>組合字型組
 
-有些應用程式可能需要建立一組字型，其包含其他字型集中的一些專案組合。 例如，應用程式可能會想要建立一組字型，將安裝在系統上的所有字型與選取的自訂字型合併，或是將符合特定準則的已安裝字型與其他字型合併。 DirectWrite 具有 Api，可支援操作和組合字型組。 
+有些應用程式可能需要建立一組字型，其包含其他字型集中的一些專案組合。 例如，應用程式可能會想要建立一組字型，將安裝在系統上的所有字型與選取的自訂字型合併，或是將符合特定準則的已安裝字型與其他字型合併。 DirectWrite 有 api 可支援操作和組合字型組。 
 
 若要結合兩個或多個字型集， [**IDWriteFontSetBuilder：： AddFontSet**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontsetbuilder-addfontset) 方法會加入指定字型中的所有字型，以在單一呼叫中新增至字型組產生器。 如果新的字型集中只需要現有字型的特定字型，則可以使用 [**IDWriteFontSet：： GetMatchingFonts**](idwritefontset-getmatchingfonts-overload.md) 方法來衍生已篩選成隻包含符合指定屬性之字型的新字型集物件。 這些方法可讓您輕鬆地建立自訂字型組，以結合兩個或多個現有字型集中的字型。 
 
 ### <a name="using-local-woff-or-woff2-font-data"></a>使用本機 WOFF 或 WOFF2 字型資料
 
-如果應用程式在本機檔案系統或記憶體緩衝區中有字型檔案，但它們使用 WOFF 或 WOFF2 容器格式，則 DirectWrite (Windows 10 Creator Update 或更新版本) 會提供解除封裝容器格式的方法， [**IDWriteFactory5：： UnpackFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile)會傳回 [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream)。 
+如果應用程式在本機檔案系統或記憶體緩衝區中有字型檔案，但它們使用 WOFF 或 WOFF2 容器格式，DirectWrite (Windows 10 Creator Update 或更新版本) 會提供解除封裝容器格式的方法， [**IDWriteFactory5：： UnpackFontFile**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefactory5-unpackfontfile)會傳回 [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream)。 
 
 不過，應用程式需要一種方式，讓 [**IDWriteFontFileStream**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfilestream) 進入字型檔案載入器物件。 其中一個方法是建立包裝資料流程的自訂 [**IDWriteFontFileLoader**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfileloader) 執行。 和其他字型檔案載入器一樣，這必須在使用之前註冊，並在處理站超出範圍之前取消註冊。  
 
@@ -546,28 +546,28 @@ hr = pDWriteFactory->UnregisterFontFileLoader(pInMemoryFontFileLoader);
 
 建立自訂字型檔案載入器物件之後，會依應用程式特定的方式將壓縮的字型檔案資料新增至載入器。 載入器可以處理多個字型檔案，其中每個都是使用 DirectWrite 不透明的應用程式定義索引鍵來識別。 將壓縮的字型檔案新增至載入器之後，會使用 [**IDWriteFactory：： CreateCustomFontFileReference**](/windows/win32/api/dwrite/nf-dwrite-idwritefactory-createcustomfontfilereference) 方法，根據指定索引鍵所識別之字型資料的載入器來取得 [**IDWriteFontFile**](/windows/win32/api/dwrite/nn-dwrite-idwritefontfile) 。  
 
-當字型新增至載入器時，可以將字型資料的實際解除封裝完成，但是也可以在 [**IDWriteFontFileLoader：： CreateStreamFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileloader-createstreamfromkey) 方法中處理，DirectWrite 將會在第一次需要讀取字型資料時呼叫。 
+當字型新增至載入器時，可以將字型資料的實際解除封裝完成，但是也可以在 [**IDWriteFontFileLoader：： CreateStreamFromKey**](/windows/win32/api/dwrite/nf-dwrite-idwritefontfileloader-createstreamfromkey)方法中處理，DirectWrite 將會在第一次需要讀取字型資料時呼叫。 
 
 建立 IDWriteFontFile 物件之後，將字型新增至自訂字型集的其餘步驟將會如上所述。 
 
-使用此方法的實作為 [DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中的說明。 
+使用此方法的實作為[DirectWrite 自訂字型組範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/DirectWriteCustomFontSets/)中的說明。 
 
 ### <a name="using-directwrite-remote-font-mechanisms-with-custom-low-level-network-implementation"></a>使用 DirectWrite 遠端字型機制搭配自訂的低層級網路執行
 
-處理遠端字型的 DirectWrite 機制可以分為較高層級的機制，包括包含遠端字型字型參考的字型、檢查字型資料的位置，以及管理字型下載要求的佇列，以及處理實際下載的較低層級機制。 有些應用程式可能會想要利用較高層級的遠端字型機制，但也需要自訂網路互動，例如使用 HTTP 以外的通訊協定與伺服器通訊。 
+處理遠端字型的 DirectWrite 機制可以分成較高層級的機制，包括遠端字型的字型臉部參考、檢查字型資料的位置，以及管理字型下載要求的佇列，以及處理實際下載的較低層級機制。 有些應用程式可能會想要利用較高層級的遠端字型機制，但也需要自訂網路互動，例如使用 HTTP 以外的通訊協定與伺服器通訊。 
 
-在這種情況下，應用程式必須建立 [**IDWriteRemoteFontFileLoader**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader) 介面的自訂執行，以所需的方式與其他較低層級的介面互動。 應用程式也必須提供這些較低層級介面的自訂執行： [**IDWriteRemoteFontFileStream**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream)和 [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult)。 這三個介面具有回呼方法，DirectWrite 會在下載作業期間呼叫此方法。 
+在這種情況下，應用程式必須建立 [**IDWriteRemoteFontFileLoader**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfileloader) 介面的自訂執行，以所需的方式與其他較低層級的介面互動。 應用程式也必須提供這些較低層級介面的自訂執行： [**IDWriteRemoteFontFileStream**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteremotefontfilestream)和 [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult)。 這三個介面具有回呼方法，DirectWrite 會在下載作業期間呼叫。 
 
-當呼叫 [**IDWriteFontDownloadQueue：： BeginDownload**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload) 時，DirectWrite 會對遠端字型檔案載入器進行有關資料位置的查詢，並且會要求遠端資料流。 如果資料不是本機資料，則會呼叫資料流程的 BeginDownload 方法。 資料流程的執行不應該在該呼叫上封鎖，但應該立即傳回，傳回提供等候控制碼的 [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult) 物件，DirectWrite 會使用此物件來等候非同步下載作業。 自訂資料流程的執行負責處理遠端通訊。 當完成事件發生時，DirectWrite 會呼叫 [**IDWriteAsyncResult：： GetResult**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getresult) 來判斷作業的結果。 如果結果成功，則預期針對下載範圍的後續 ReadFragment 呼叫串流將會成功。 
+當呼叫 [**IDWriteFontDownloadQueue：： BeginDownload**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwritefontdownloadqueue-begindownload)時，DirectWrite 會對遠端字型檔案載入器進行有關資料位置的查詢，並且會要求遠端資料流。 如果資料不是本機資料，則會呼叫資料流程的 BeginDownload 方法。 資料流程的執行不應該在該呼叫上封鎖，但應該立即傳回，傳回提供等候控制碼的 [**IDWriteAsyncResult**](/windows/win32/api/dwrite_3/nn-dwrite_3-idwriteasyncresult)物件，DirectWrite 將會使用此物件來等候非同步下載作業。 自訂資料流程的執行負責處理遠端通訊。 當完成事件發生時，DirectWrite 會呼叫 [**IDWriteAsyncResult：： GetResult**](/windows/win32/api/dwrite_3/nf-dwrite_3-idwriteasyncresult-getresult)來判斷作業的結果。 如果結果成功，則預期針對下載範圍的後續 ReadFragment 呼叫串流將會成功。 
 
 > [!IMPORTANT]
-> 安全性/效能附注：嘗試提取遠端字型時，可能是因為攻擊者可能會偽造要呼叫的目標伺服器，或是伺服器可能沒有回應。 如果您正在執行自訂網路互動，您可能會比處理協力廠商伺服器更能掌控緩和措施。 不過，您必須考慮適當的緩和措施，以避免資訊洩漏或阻斷服務。 建議使用安全的通訊協定，例如 HTTPS。 此外，您應該以一些時間來建立，讓傳回給 DirectWrite 的事件控制碼最後會被設定。 
+> 安全性/效能附注：嘗試提取遠端字型時，可能是因為攻擊者可能會偽造要呼叫的目標伺服器，或是伺服器可能沒有回應。 如果您正在執行自訂網路互動，您可能會比處理協力廠商伺服器更能掌控緩和措施。 不過，您必須考慮適當的緩和措施，以避免資訊洩漏或阻斷服務。 建議使用安全的通訊協定，例如 HTTPS。 此外，您應該以一些時間來建立，讓傳回 DirectWrite 的事件控制碼最終都有設定。 
 
  
 
-### <a name="supporting-scenarios-on-earlier-windows-versions"></a>舊版 Windows 上的支援案例
+### <a name="supporting-scenarios-on-earlier-windows-versions"></a>舊版 Windows 的支援案例
 
-舊版 Windows 上的 DirectWrite 可支援所述的案例，但在應用程式的元件上需要更多自訂的程式，使用 Windows 10 之前可用的較有限 Api。 如需詳細資訊，請參閱 [自訂字型集合 (Windows 7/8) ](custom-font-collections.md)。
+舊版 Windows 的 DirectWrite 可以支援已描述的案例，但在應用程式的元件上需要更多自訂的執行，方法是使用 Windows 10 之前可用的較有限 api。 如需詳細資訊，請參閱[自訂字型集合 (Windows 7/8) ](custom-font-collections.md)。
 
  
 

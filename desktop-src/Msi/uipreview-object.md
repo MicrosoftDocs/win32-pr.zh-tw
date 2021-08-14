@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 6650dc9bcc66a24d0e8a9d7f0d971884a2379f60
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 82436f21cc3920c2e1f635f8d1612118831e7d29f3fb1202105511f2e61f7a3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995295"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118623497"
 ---
 # <a name="uipreview-object"></a>UIPreview 物件
 
@@ -52,7 +52,7 @@ ms.locfileid: "106995295"
 
 
 
-| 屬性                                          | 存取類型           | Description                                                                                                                                                                       |
+| 屬性                                          | 存取類型           | 描述                                                                                                                                                                       |
 |:--------------------------------------------------|:----------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**屬性**](uipreview-property.md)<br/> | 讀取/寫入<br/> | 表示指定之安裝程式屬性的字串值，如果前面加上百分比符號 (% ) ，則為目前進程的系統內容變數值。<br/> |
 
@@ -66,7 +66,7 @@ ms.locfileid: "106995295"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IUIPreview 定義為 000C109A-0000-0000-C000-000000000046<br/>                                                                                                                                                                           |
 
@@ -76,7 +76,7 @@ ms.locfileid: "106995295"
 
 <dl> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

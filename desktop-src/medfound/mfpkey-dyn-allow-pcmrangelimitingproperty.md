@@ -4,12 +4,12 @@ ms.assetid: 00427337-8f5a-41c9-a303-378a37be1913
 title: 'MFPKEY_DYN_ALLOW_PCMRANGELIMITING 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 40c9c3e9dbae3bf0637614602832cf9b08e23a58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: da5f6d44b9e75188ba3611b2af78c6c35bf8f40f98a587891a1e9c9206d72ebf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118738221"
 ---
 # <a name="mfpkey_dyn_allow_pcmrangelimiting-property"></a>MFPKEY \_ DYN \_ ALLOW \_ PCMRANGELIMITING 屬性
 

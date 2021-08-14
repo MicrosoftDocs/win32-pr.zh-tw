@@ -7,17 +7,17 @@ keywords:
 - 協助工具選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dcef8efa9efc0241d0f813da01623a1c02e6d226
-ms.sourcegitcommit: adba238660d8a5f4fe98fc6f5d105d56aac3a400
+ms.openlocfilehash: f8c72fba29a409fdce60c026c832f68ff6d182bcd9c8a53e1918e7ac847f4332
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "111827634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118828704"
 ---
 # <a name="accessibility-tools---inspect"></a>協助工具工具-檢查
 
 > [!Important]
-> **檢查** 是舊版工具。 建議您改為使用 [協助工具深入](https://accessibilityinsights.io/) 解析。
+> **檢查** 是舊版工具。 建議您改為使用[協助工具 Insights](https://accessibilityinsights.io/) 。
 
 **檢查** (Inspect.exe) 是以 Windows 為基礎的工具，可讓您選取任何 UI 元素，並查看元素的協助工具資料。 您可以查看 Microsoft 消費者介面自動化的屬性和控制項模式，以及 Microsoft Active Accessibility 屬性。 **檢查** 也可讓您測試消費者介面自動化樹狀結構中 automation 元素的導覽結構，以及 Microsoft Active Accessibility 階層中的可存取物件。
 
@@ -25,12 +25,12 @@ ms.locfileid: "111827634"
 
 若要檢查消費者介面自動化，消費者介面自動化必須存在於系統上。 如需詳細資訊，請參閱 [消費者介面自動化](entry-uiauto-win32.md)的「需求」一節。
 
-**檢查** 會安裝為 WINDOWS 軟體開發套件 (SDK) 的整體工具組的一部分，而不是以個別下載方式來散發。 Windows SDK 包含本節中記載的所有協助工具相關工具。
+**檢查** 會安裝為 Windows 軟體開發套件 (SDK) 的整體工具組的一部分，而不是以個別下載方式來散發。 Windows SDK 包含本節中記載的所有協助工具相關工具。
 
 [下載 Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk/)。
 
 > [!NOTE]
-> 如需舊版 Windows SDK，請參閱 [Windows SDK 和模擬器保存](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)。
+> 如需舊版 Windows SDK，請參閱[Windows SDK 和模擬器保存](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/)。
 
 **Inspect.exe** 位於 \\ \\ < SDK 安裝路徑的 bin *版本* > \\ < *平臺*> 資料夾中， (您通常不需要以系統管理員身分執行) 。
 
@@ -68,11 +68,11 @@ ms.locfileid: "111827634"
 
 ### <a name="configure-property-settings"></a>設定屬性設定
 
-1. 從 [ **選項** ] 功能表選取 [ **設定**]，或從工具列選取 [ **顯示設定] 對話方塊** 。
+1. 從 [**選項**] 功能表選取 [**設定**]，或從工具列選取 [**顯示設定] 對話方塊**。
 2. 在 **主視窗的 [顯示]** 清單中，選取您要在 [**檢查**] 的 [**資料**] 查看中顯示的屬性。
 3. 在 **資訊工具提示** 清單的 [顯示] 中，選取您要在工具提示中顯示的屬性。
 4. 若要查看 UI 元素可能不支援的屬性，請選取 [ **顯示不支援的屬性** ] 方塊。
-5. 按一下 [確定]  。
+5. 按一下 [確定]。
 
 ### <a name="to-configure-viewing-options"></a>設定查看選項
 
@@ -83,7 +83,7 @@ ms.locfileid: "111827634"
 | 永遠開啟頂端                | 會顯示在螢幕上的任何其他視窗上方。                                                                                                                                                                                  |
 | MSAA 模式                    | 顯示 Microsoft Active Accessibility 屬性資訊。                                                                                                                                                                      |
 | 消費者介面自動化模式           | 顯示消費者介面自動化屬性資訊。                                                                                                                                                                                       |
-| 僅可見的 Windows View    | 僅適用于 MSAA 模式。                                                                                                                                                                                                       |
+| 僅限可見的 Windows 查看    | 僅適用于 MSAA 模式。                                                                                                                                                                                                       |
 | 未經處理的檢視                     | 顯示 **樹** 視圖中消費者介面自動化樹狀結構或 MSAA 樹狀結構的 [原始視圖](uiauto-treeoverview.md)。                                                                                                             |
 | 控制項檢視                 | 在 **樹** 視圖中顯示消費者介面自動化樹狀結構的 [控制項視圖](uiauto-treeoverview.md)。 僅適用于消費者介面自動化模式。                                                                            |
 | 內容檢視                 | 在 **樹** 視圖中顯示消費者介面自動化樹狀結構的 [內容視圖](uiauto-treeoverview.md)。 僅適用于消費者介面自動化模式。                                                                            |
@@ -101,7 +101,7 @@ ms.locfileid: "111827634"
 
 ## <a name="verifying-accessibility-navigation"></a>驗證協助工具導覽
 
-當您使用 [ **檢查**] 來選取 UI 元素之後，就可以驗證該專案是否公開輔助技術產品的正確 Windows 自動化導覽。
+當您使用 [**檢查**] 選取 UI 元素之後，就可以驗證專案是否公開輔助技術產品的正確 Windows 自動化導覽。
 
 ### <a name="verify-accessibility-navigation"></a>確認協助工具導覽
 
@@ -114,13 +114,13 @@ ms.locfileid: "111827634"
 
 ## <a name="interacting-with-ui-elements"></a>與 UI 元素互動
 
-Windows Automation 公開的方法可讓輔助技術產品與 UI 元素互動，就像是使用滑鼠或鍵盤一樣 (例如，按一下按鈕) 。 [ **檢查** 動作] 功能表可讓測試人員在元素上叫用 Windows Automation 方法 (例如，叫用 **。 invoke** 會) 呼叫 [**IUIAutomationInvokePattern：： invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke) 方法。
+WindowsAutomation 會公開方法，讓輔助技術產品與 UI 元素互動，就像是使用滑鼠或鍵盤一樣 (例如，按一下按鈕) 。 [**檢查** 動作] 功能表可讓測試人員在元素上叫用 Windows 的自動化方法 (例如，叫用 **。 invoke** 會呼叫 [**IUIAutomationInvokePattern：： invoke**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationinvokepattern-invoke)方法) 。
 
 ### <a name="interact-with-ui-elements"></a>與 UI 元素互動
 
 1. 開啟 [ **檢查** ] 和您想要測試的應用程式。
 2. 選取您要與之互動的 UI 元素。
-3. 從 [ **動作** ] 功能表或工具列中，選取對應至您想要叫用之 Windows Automation 方法的動作。
+3. 從 [**動作**] 功能表或工具列中，選取對應至您要叫用之 Windows Automation 方法的動作。
 
 [**動作**] 功能表包含 [重新整理] 和 [**焦點**] 專案，以及根據選取的消費者介面自動化模式或 MSAA 模式而 **有所不同的其他** 專案。 在消費者介面自動化模式中，其他專案會反映目前選取的 UI 元素所支援的控制項模式。 在 MSAA 模式中，其他專案一律是由下列專案所組成：
 

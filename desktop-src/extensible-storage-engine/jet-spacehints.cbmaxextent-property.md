@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8d95ada63fc6269dce6e21c4a7f3db04d1732a7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a73ada68d58b8c971393ddcbdf807aa40d45a40d5dfd6fc849bf88249269bc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979248"
 ---
 # <a name="jet_spacehintscbmaxextent-property"></a>JET_SPACEHINTS cbMaxExtent 屬性
 

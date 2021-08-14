@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8466c2df8ec18eb51e8292e8573d92331c2d73b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13c27f0f88c2e5e43cd651e29fdeb1faeb7ebeb1a8acd1f06d74e69cf1034119
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118781801"
 ---
 # <a name="esentdatabasealreadyrunningmaintenanceexception-constructor"></a>EsentDatabaseAlreadyRunningMaintenanceException 函式
 

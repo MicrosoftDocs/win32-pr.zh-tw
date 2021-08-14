@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b57e463ccf71f22f12a964b1e1de72f426963c0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0d7a6af51cad3a1e0ea5c78aee92e9650af16d6b0d699d28a7d9d48cb51d0784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118823270"
 ---
 # <a name="wsmansessionflagusenegotiate-method"></a>WSMan. SessionFlagUseNegotiate 方法
 
@@ -65,7 +65,7 @@ WSMan.SessionFlagUseNegotiate( _
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>WSManDisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>WSManDisp .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>WSManDisp .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>WSMAuto.dll</dt> </dl>   |
 
@@ -78,7 +78,7 @@ WSMan.SessionFlagUseNegotiate( _
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

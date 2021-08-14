@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d1e68cf8195294dba67bc7674c6752df2dc9b50d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcd094b53e1afcf13c2dbe548526893ce6f6bd0df1a5fc294b0e7d12982afd2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118779432"
 ---
 # <a name="esentdiskioexception-constructor"></a>EsentDiskIOException 函式
 

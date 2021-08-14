@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c6713f3de47cfbde6df67662f89ab3c094d0674
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3af26786c8ef021794876d8876ae5d8faee65b8cbbfc39b434b000ff502c64c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939433"
 ---
 # <a name="inapsystemhealthagentcallbackcomparesohrequests-method"></a>INapSystemHealthAgentCallback：： CompareSoHRequests 方法
 
@@ -101,8 +101,8 @@ SHA 應比較 Soh，如果 Soh 是語義相等，則傳回 **TRUE** 。 NapAgent
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapSystemHealthAgent。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapSystemHealthAgent .idl</dt> </dl> |
 

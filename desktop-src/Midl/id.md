@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 07c57d8ea818bbd7b8fd5bd35816e6b7227eb917
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 0a4d783265ebfcf9dca454c80c39031dc0c37dfb63a8749b4d0e6299a510d91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118643064"
 ---
 # <a name="id-attribute"></a>id 屬性
 
@@ -106,6 +106,6 @@ interface IKnown : IUnknown
 [使用 MIDL 產生類型程式庫](generating-a-type-library-with-midl-2.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

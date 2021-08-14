@@ -4,12 +4,12 @@ description: 這個程式碼範例會示範使用 Windows 功能區架構中包�
 ms.assetid: 1a462f4e-e75a-40cf-9c52-0bad0a645d57
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: ef776a8a1a8eadf9ee41cf9964066cc612a9f9a1
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 8c62e8955e737ac78ee5543c0a12febc5436bacd7f9d739bc9af02bacd555d2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118706704"
 ---
 # <a name="gallery-sample"></a>資源庫範例
 
@@ -22,7 +22,7 @@ ms.locfileid: "113691747"
 - [最低需求](#minimum-requirements)
 - [相關主題](#related-topics)
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 您可以從[Microsoft 下載中心](https://www.microsoft.com/download/details.aspx?id=9620)以獨立 Microsoft Visual Studio 專案形式下載 Windows 功能區架構範例，或將其安裝為[Windows 軟體開發套件 (SDK) ](https://developer.microsoft.com/windows/downloads/sdk-archive/)的一部分。
 

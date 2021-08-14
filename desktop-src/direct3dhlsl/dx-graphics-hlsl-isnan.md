@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef9f4549b6a142f5bf6011cdfb144de92efde64c
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a5f60f04d577bcd2e2f8d13cf11e1c02237ae9ddfacd225dff3d0bfca4266c72
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791937"
 ---
 # <a name="isnan"></a>isnan
 
@@ -38,7 +38,7 @@ ms.locfileid: "104035424"
 
 
 
-| 項目                                                   | 描述                            |
+| Item                                                   | 描述                            |
 |--------------------------------------------------------|----------------------------------------|
 | <span id="x"></span><span id="X"></span>*X*<br/> | \[在 \] 指定的值中。<br/> |
 
@@ -54,7 +54,7 @@ ms.locfileid: "104035424"
 
 
 
-| Name  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
+| 名稱  | [**範本類型**](dx-graphics-hlsl-intrinsic-functions.md)                                                  | [**元件類型**](dx-graphics-hlsl-intrinsic-functions.md) | 大小     |
 |-------|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|----------|
 | *x*   | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**浮動**](/windows/desktop/WinProg/windows-data-types)                        | 任意      |
 | *Ret* | 純 [**量、**](dx-graphics-hlsl-intrinsic-functions.md)**向量** 或 **矩陣** | [**bool**](/windows/desktop/WinProg/windows-data-types)                         | 作為輸入 |

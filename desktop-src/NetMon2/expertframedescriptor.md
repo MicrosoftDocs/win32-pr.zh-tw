@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 98bafae39819b16b479df22fe6560888ef15d8e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a11c131188cdd5230d309a6ff2e39a77ac7886333dafd9860d565fdcb10efc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939025"
 ---
 # <a name="expertframedescriptor-structure"></a>EXPERTFRAMEDESCRIPTOR 結構
 

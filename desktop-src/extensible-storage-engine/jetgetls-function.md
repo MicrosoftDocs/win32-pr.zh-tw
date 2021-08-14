@@ -18,23 +18,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: b7a89cf4e20798a2c412ba6eb39b08f99a60a464
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a359bb2899a2dea604e236a7118c914e795bffba7ca675229e28ad3a7f25dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979058"
 ---
 # <a name="jetgetls-function"></a>JetGetLS 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgetls-function"></a>JetGetLS 函式
 
-**JetGetLS** 函式可讓應用程式取出與資料指標相關聯的內容控制碼，或與該資料指標相關聯的資料表。 此內容控制碼必須先前已使用 [JetSetLS](./jetsetls-function.md)設定。 **JetGetLS** 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。
+**JetGetLS** 函式可讓應用程式取出與資料指標相關聯的內容句儲存體柄，或與該資料指標相關聯的資料表。 此內容控制碼必須先前已使用 [JetSetLS](./jetsetls-function.md)設定。 **JetGetLS** 也可以用來同時提取資料指標或資料表的目前內容控制碼，並重設該內容控制碼。
 
-**Windows xp： JetGetLS** 是在 windows xp 中引進的。
+**Windows xp： JetGetLS** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetGetLS(
@@ -95,7 +95,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -166,7 +166,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

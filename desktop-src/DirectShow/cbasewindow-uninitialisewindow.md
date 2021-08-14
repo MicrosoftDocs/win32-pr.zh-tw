@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ceeadd0ec7a61422f0127c957125caa9a01dcefb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c275e4d683bcc698c8f04c5a85017b081b6aad17f93c91d66e0a75f2da88692e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118657490"
 ---
 # <a name="cbasewindowuninitialisewindow-method"></a>CBaseWindow. UninitialiseWindow 方法
 

@@ -4,12 +4,12 @@ description: ElementIsChildOfParentMulipleTimes
 ms.assetid: B966ABE0-5109-4DAD-8125-EB4A3B3A5F61
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da27c66027f7948dfa794c85dace015565d636c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bfed0716423d8b1fef182be7cb0cb8ef122cf70cff6a574069fe40b63549f744
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104184198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118829547"
 ---
 # <a name="elementischildofparentmulipletimes"></a>ElementIsChildOfParentMulipleTimes
 
@@ -38,9 +38,9 @@ ms.locfileid: "104184198"
 [**IAccessible：： get \_ accParent**](/windows/desktop/api/Oleacc/nf-oleacc-iaccessible-get_accparent)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

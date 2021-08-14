@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 06d085ca5c11ba550eb8f934f2db87c96a9605a2
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 7e44b1237bbcfc0538792db93dd10d2f729a0496183830cb08b0f1254c37fa89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104321427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787284"
 ---
 # <a name="texture2dgatherblue-methods"></a>Texture2D：： GatherBlue 方法
 

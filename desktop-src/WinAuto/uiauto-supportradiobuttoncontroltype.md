@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，選項按鈕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4702a2227a5164ff694378c82fa3b7cde33f9823
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 358a71f74b40d8465c910f8afe258183c8ea4d5c322fb70e6b6ea946ef7d44ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825479"
 ---
 # <a name="radiobutton-control-type"></a>選項按鈕控制項類型
 
@@ -37,7 +37,7 @@ ms.locfileid: "103674668"
 > [!Note]  
 > 按鈕的另一個控制項一般化，其中只有一個群組中的按鈕可以選取切換按鈕的內容。 某些 UI 架構會將選項按鈕視為特製化切換按鈕。
 
- 
+ 
 
 下列章節會定義 **選項按鈕** 控制項類型所需的消費者介面自動化樹狀結構、屬性、控制項模式和事件。 消費者介面自動化需求適用于所有按鈕控制項，其中 UI 架構/平臺會整合控制項類型和控制項模式的消費者介面自動化支援。
 
@@ -81,7 +81,7 @@ ms.locfileid: "103674668"
 
 
 
- 
+ 
 
 控制項檢視或內容檢視中沒有任何子系。
 
@@ -106,7 +106,7 @@ ms.locfileid: "103674668"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -122,7 +122,7 @@ ms.locfileid: "103674668"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -142,7 +142,7 @@ ms.locfileid: "103674668"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -161,9 +161,9 @@ ms.locfileid: "103674668"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

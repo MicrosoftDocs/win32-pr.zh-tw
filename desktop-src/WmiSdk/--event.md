@@ -16,12 +16,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 39a032b3f082ed64ba7999d20366b89e8b3890c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a74abb8a02676ba97ffb7a41df6ee4a3bd7f428d5288e376f85d61927fbb0e06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118821088"
 ---
 # <a name="__event-class"></a>\_\_事件類別
 

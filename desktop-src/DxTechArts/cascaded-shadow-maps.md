@@ -4,12 +4,12 @@ description: 串聯陰影地圖 (網網的) ，是對抗其中一個最常見的
 ms.assetid: d3570d0a-74e0-5b9c-6586-c933f630c4ee
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae70433f97f33c3cc28af8e282b14ea1f513cf4d
-ms.sourcegitcommit: 54db9e6a00a5c8f68e7c1a16b8c6d4943374498c
+ms.openlocfilehash: 29498dc882133215c910f3bd6caa5966aa0e141aaf4f7a68051834d33f2a3b16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/01/2021
-ms.locfileid: "106981675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118649604"
 ---
 # <a name="cascaded-shadow-maps"></a>重疊的陰影圖
 
@@ -21,11 +21,11 @@ ms.locfileid: "106981675"
 -   識別並解決一些與新增篩選至網的常見錯誤相關的問題;和
 -   示範如何透過 Direct3D 11 硬體，將網達10網的網到 Direct3D 10。
 
-本文中所使用的程式碼可在 CascadedShadowMaps11 和 VarianceShadows11 範例中的 DirectX 軟體發展工具組 (SDK) 中找到。 本文將在執行技術檔中涵蓋的技術文章、 [改善陰影深度對應的常用技巧，以](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps)充分發揮最大效用。
+本文中所使用的程式碼可在 CascadedShadowMaps11 和 VarianceShadows11 範例中的 DirectX 軟體發展工具組 (SDK) 中找到。 本文將在執行技術檔中涵蓋的技術文章、[改善陰影深度地圖的常見技巧，以](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps)充分發揮最大效用。
 
-## <a name="cascaded-shadow-maps-and-perspective-aliasing"></a>串聯陰影地圖和透視圖別名
+## <a name="cascaded-shadow-maps-and-perspective-aliasing"></a>串聯陰影地圖和透視別名
 
-陰影地圖中的觀點別名是最難克服的問題之一。 在技術檔中，改善陰影深度對應的常見技術，描述了觀點別名，而且有一些方法可減輕問題。 在實務上，網達業界的解決方案通常是最適合的解決方案，而且通常會在新式遊戲中採用。
+陰影地圖中的觀點別名是最難克服的問題之一。 在技術檔中，有改善陰影深度地圖的常見技術、描述觀點別名，以及一些可減輕問題的方法。 在實務上，網達業界的解決方案通常是最適合的解決方案，而且通常會在新式遊戲中採用。
 
 網基礎網的基本概念很容易理解。 相機的不同區域必須具有不同解析度的陰影對應。 最接近眼睛的物件所需的解析度，必須比更遠的物件更高。 事實上，當眼睛非常接近幾何時，最接近眼睛的圖元可能需要這麼多的解析度，即使4096×4096陰影地圖也不夠。
 
@@ -107,7 +107,7 @@ ms.locfileid: "106981675"
 
 或者，您可以使用實際的資料分割間隔來建立 frusta，以作為接近和遠的平面。 這會造成更緊密的配合，但會變質為適用于 dueling frusta 的場景。 CascadedShadowMaps11 範例會將這項技術適當地呼叫，以進行串聯。
 
-圖6顯示這兩種方法。 配合串聯可減少解析度。 符合 cascade 的問題是，正向投射會根據視圖的錐的方向來放大和縮小。 「調整成場景」技術會以視圖的大小上限來填補正向投射，以移除在移動攝影機移動時所顯示的構件。 [改善陰影深度對應的常見技術，可](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps) 解決在「以材質大小遞增」一節中移動燈光時所顯示的構件。
+圖6顯示這兩種方法。 配合串聯可減少解析度。 符合 cascade 的問題是，正向投射會根據視圖的錐的方向來放大和縮小。 「調整成場景」技術會以視圖的大小上限來填補正向投射，以移除在移動攝影機移動時所顯示的構件。 [改善陰影深度的常見技術地圖](/windows/desktop/DxTechArts/common-techniques-to-improve-shadow-depth-maps)可解決在「以材質大小遞增」一節中移動燈光時所顯示的構件。
 
 **[圖 6]。符合場景與縮放比例**
 
@@ -199,7 +199,7 @@ vShadowTexCoord = mul( InterpolatedPosition, m_mShadow[iCascadeIndex] );
 
  (左) 可在重迭的情況下看見可見的接合。  (右) 當串聯混合在一起時，不會發生接合。
 
-## <a name="filtering-shadow-maps"></a>篩選陰影對應
+## <a name="filtering-shadow-maps"></a>篩選陰影地圖
 
 ### <a name="pcf"></a>PCF
 
@@ -349,7 +349,7 @@ PCF 無法在 Direct3D 10 中的材質陣列上運作。 若要使用 PCF，所�
 
 如果未填補陰影緩衝區，則為串聯分割區以外的 PCF 核心索引。 解決方法是以 PCF 核心的一半大小來填補 cascade 的外緣。 這必須在著色器中執行，以選取要在投影矩陣中選取串聯和，且必須將框線轉譯得夠大，才能保留框線。
 
-## <a name="variance-shadow-maps"></a>差異陰影對應
+## <a name="variance-shadow-maps"></a>差異陰影地圖
 
 VSMs (如需詳細資訊，請參閱 Donnelly 和 Lauritzen 的變異數 [陰影](https://portal.acm.org/citation.cfm?doid=1111411.1111440) 對應，) 啟用直接陰影對應篩選。 使用 VSMs 時，可以使用材質篩選硬體的所有功能。 三線性和各向異性 ([圖 15]) 篩選都可以使用。 此外，VSMs 也可以直接透過卷積來模糊。 VSMs 的確有一些缺點;您必須將兩個深度資料通道儲存 (深度和深度平方) 。 當陰影重迭時，輕不規則很常見。 不過，它們的運作方式很低，而且可以與網達網的結合。
 
@@ -460,7 +460,7 @@ VSMs 和 PCF 都會嘗試接近將通過深度測試的圖元區域分數。 VSM
 
 VSMs 和 PCF 代表 GPU 計算能力和 GPU 材質頻寬之間的取捨。 VSMs 需要執行更多數學運算來計算變異數。 PCF 需要更多紋理記憶體頻寬。 大型 PCF 核心可能會因為材質頻寬很快就會變成瓶頸。 隨著 gpu 計算能力的成長速度比 GPU 頻寬更快，VSMs 會變得更實際的這兩種演算法。 由於混合和篩選，VSMs 也能以較低解析度的陰影地圖呈現更好的效果。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 網網的解決方案提供了觀點別名問題的解決方案。 有幾個可能的設定可取得標題的需要視覺精確度。 PCF 和 VSMs 廣泛使用，且應與網合併以減少別名。
 

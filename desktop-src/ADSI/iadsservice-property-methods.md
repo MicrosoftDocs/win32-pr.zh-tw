@@ -51,12 +51,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b0e0d8b09618c7346280697843281ca74536c11
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: babbd7605b990776141d158d455e9df2aeb9864d7619158e16bab7e113f84d7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118690977"
 ---
 # <a name="iadsservice-property-methods"></a>IADsService 屬性方法
 

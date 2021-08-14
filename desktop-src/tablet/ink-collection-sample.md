@@ -4,19 +4,19 @@ ms.assetid: e799fb16-5a1e-4d57-a033-554f72e2e685
 title: 筆墨集合範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25f31ce83a55b6f352d76ad1cb8d184b41618c5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e5f568abf38abfa31d9374a7a1874f9f73481a799a740c402f3e8f168963c3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718257"
 ---
 # <a name="ink-collection-sample"></a>筆墨集合範例
 
 此應用程式是以 [InkCollector](/previous-versions/ms836493(v=msdn.10)) 物件為基礎，並示範筆墨的集合。 應用程式會建立一個視窗、附加 InkCollector 物件給它，並提供使用者可用來變更筆墨色彩、筆墨寬度以及啟用和停用筆墨集合的功能表選項。
 
 > [!Note]  
-> 本節中所討論的版本是 Visual Basic .NET。 範例程式庫中的其他語言版本之間的概念相同。
+> 本節中所討論的版本是 Visual Basic .net。 範例程式庫中的其他語言版本之間的概念相同。
 
  
 
