@@ -4,12 +4,12 @@ ms.assetid: 7782ac24-ea6c-4a97-b1b6-982f276fcefc
 title: WITH--AS Group Alias 述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29218e11fbffe5f47128eeefba3a7fe847a5b21d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ed77072c83d1c28dcc3ec63396b46a21a57c4a97d9c6dcd70259bd861d19762
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226731"
 ---
 # <a name="with----as-group-alias-predicate"></a>WITH--AS Group Alias 述詞
 

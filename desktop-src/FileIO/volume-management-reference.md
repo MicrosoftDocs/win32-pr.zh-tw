@@ -4,12 +4,12 @@ ms.assetid: 9b805586-5c4a-4562-8571-345e8fe0c62b
 title: 磁片區管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 170ee50d6084489d6fd039df32483f0805989e06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae9afea7fc7e4962423474eb97ae1e7a5e2a08a2dafff724113925a8d892ab50
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315598"
 ---
 # <a name="volume-management-reference"></a>磁片區管理參考
 

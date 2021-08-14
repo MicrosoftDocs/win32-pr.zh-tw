@@ -4,12 +4,12 @@ ms.assetid: 48A515C2-96D3-4CBF-A48F-3F0B91F0CB2C
 title: Windows 8.1 中的 TLS 加密套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14580b70168fd032005e7fa6bc418f1eff9e9593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 316dc649379f785662d1d818d0af11d882c33f1236113a0c8a8f71458b7e964b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916127"
 ---
 # <a name="tls-cipher-suites-in-windows-81"></a>Windows 8.1 中的 TLS 加密套件
 
@@ -27,7 +27,7 @@ ms.locfileid: "104468733"
 
 FIPS 合規性已變得更複雜，因為在此資料表的舊版中，讓 FIPS 模式啟用的資料行誤導。 例如，使用 NIST 橢圓曲線時，加密套件（例如 TLS \_ >ecdhe \_ RSA \_ 與 \_ AES \_ 128 \_ CBC \_ SHA256）只是 FIPS 投訴。 To find out which combinations of elliptic curves and cipher suites will be enabled in FIPS mode, see section 3.3.1 of [Guidelines for the Selection, Configuration, and Use of TLS Implementations]( https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-52r1.pdf).
 
-Windows 8.1 和 Windows Server 2012 R2 會由套用的 [更新 2919355](https://support.microsoft.com/kb/2919355) Windows Update 更新，以新增新的加密套件並變更優先權順序。 依預設，Microsoft Schannel 提供者預設會啟用下列加密套件，並依此優先順序排列：
+Windows 8.1 和 Windows Server 2012 R2 會透過套用的[更新 2919355](https://support.microsoft.com/kb/2919355)進行 Windows Update 更新，這會新增新的加密套件並變更優先權順序。 依預設，Microsoft Schannel 提供者預設會啟用下列加密套件，並依此優先順序排列：
 
 
 
@@ -108,7 +108,7 @@ Microsoft Schannel 提供者支援下列加密套件，但預設不會啟用：
 
  
 
-若要新增加密套件，請使用群組原則設定 [電腦設定] 底下的 SSL 加密套件順序 > 系統管理範本 > 網路 > SSL 設定]，為您要啟用的所有加密套件設定優先順序清單。
+若要新增加密套件，請使用群組原則設定 [電腦設定] 底下的 SSL 加密套件順序 > 系統管理範本 > 網路 > SSL 設定] 設定設定您要啟用的所有加密套件的優先順序清單。
 
  
 

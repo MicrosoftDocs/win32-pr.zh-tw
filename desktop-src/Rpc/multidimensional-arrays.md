@@ -4,12 +4,12 @@ description: 陣列屬性也可以搭配多維度陣列使用。
 ms.assetid: a01b904c-fbe8-4af4-8393-6864f7ef7364
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb7bcf94d97e1f35fdd6ab432ea5869e47f79ed
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 52f7dac2b6d093fa56383ecaf976a83acf13fec9aa0c3820c1d608ccb69e9e9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928079"
 ---
 # <a name="multidimensional-arrays"></a>多維陣列
 
@@ -38,7 +38,7 @@ MIDL 2.0 編譯器提供兩種方法來封送處理參數：混合模式 (/**Os*
 > [!Caution]  
 > 在此模式中編譯 IDL 檔案時，請務必小心。 在混合模式中使用多維陣列可能會導致未正確封送處理的參數。 當您的介面定義屬於多維陣列的參數時，建議使用 [**/Oicf**](/windows/desktop/Midl/-oi) 命令列參數。
 
- 
+ 
 
 \[[**字串**](/windows/desktop/Midl/string) \] 屬性也可以搭配多維度陣列使用。 屬性會套用至最不重要的維度，例如符合標準的字串陣列。 您也可以使用多維度指標屬性。 例如：
 
@@ -66,6 +66,6 @@ interface multiarray
 
 `long a1[20] []`
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: c86a29c4a7d01fad3b91db20035cb84751e0b78a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 8af53b6617ad2d655367969195e16854715e9ab75b65416bd9c75deaa9932988
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219814"
 ---
 # <a name="search-folder-sample"></a>搜尋資料夾範例
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Dn350940(v=EXCHG.10)
 ms:contentKeyID: 55103283
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 07994fc17f29ced622c2a6685cb6d4297be444c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48fe8e1113091cd12214c5c86c886aaea1f55eb8b5b8f1a0cf05348665fa2668
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119968768"
 ---
 # <a name="instance-type-conversions"></a>實例類型轉換
 

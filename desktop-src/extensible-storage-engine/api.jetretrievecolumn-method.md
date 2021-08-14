@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: e4e43d57f4393d6b0d4ce2f1cdbe4ecd8338ec54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aec81c85450a51c0b7ef4ac747cab2aec46199e81d9334f0b867390e40b8ee0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119977838"
 ---
 # <a name="apijetretrievecolumn-method"></a>JetRetrieveColumn 方法
 

@@ -24,16 +24,16 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 900943a30295631dafcb49a5fe866e3728c22a11
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3725ef2ea1c3a2c84bb5d087527b0370fff6385e0638e764f1180ff756712130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967158"
 ---
 # <a name="windows7grbits-class"></a>Windows7Grbits 類別
 
-已新增至 Windows 7 版本 ESENT 的 Grbits。
+已新增至 Windows 7 版 ESENT 的 Grbits。
 
 ## <a name="inheritance-hierarchy"></a>繼承階層
 

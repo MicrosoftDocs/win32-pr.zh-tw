@@ -5,19 +5,19 @@ ms.assetid: fbbd9031-3ebe-47b8-8d8b-e359fa7d4b67
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14e8589f31144f12b120f9a77f281dd57a9f30ce
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 737d53bd25a28321c333e890a019af881ae54fa1c5ae92299b1776689f9abb74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962508"
 ---
 # <a name="setting-up-the-extension-dlls"></a>設定延伸模組 Dll
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 在啟動時，NPS 會檢查登錄以取得要呼叫的協力廠商 Dll 清單。
 
@@ -47,6 +47,6 @@ ms.locfileid: "104023795"
 [使用者識別屬性](/windows/desktop/Nps/ias-user-identification-attributes)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: 在 NDR 引擎的存留期內，標頭已延伸數次。 根據編�
 ms.assetid: 05b152b9-bd6d-49d1-8484-d104949c67b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9c28878d82820e519242172496a7932ac4832e
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd9572c9a29ea8477f1d06d8786d50f6abf920de140b6d1663c2431b2ad0c76f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118927129"
 ---
 # <a name="procedure-header-descriptor"></a>程式標頭描述元
 
@@ -42,7 +42,7 @@ stack_size<2>
 
 
 
- 
+ 
 
 如果控制碼 \_ 類型<1> 欄位為非零值，則程式會使用指定種類的隱含控制碼。 如需詳細資訊，請參閱「 [控制碼](handles.md) 」主題。 如果控制碼 \_ 類型<1> 欄位為零，則用於系結的控制碼就是該程式的其中一個參數。
 
@@ -56,7 +56,7 @@ stack_size<2>
 
 
 
- 
+ 
 
 依照慣例，DCOM 介面的控制碼類型為 FC \_ 自動 \_ 處理。
 
@@ -77,7 +77,7 @@ Oi \_ 旗標<1> 欄位是下列旗標的8位遮罩。
 
 
 
- 
+ 
 
 以下是多載的旗標。
 
@@ -93,14 +93,14 @@ Oi \_ 旗標<1> 欄位是下列旗標的8位遮罩。
 
 
 
- 
+ 
 
 Rpc \_ 旗標<4> 欄位說明如何設定 [**rpc \_ 訊息**](/windows/desktop/api/RpcdceP/ns-rpcdcep-rpc_message)結構的 **RpcFlags** 欄位。 只有當 Oi \_ 旗標<1> 欄位有 oi 已 \_ 設定 RPCFLAGS 時，才會出現此欄位 \_ 。 如果這個欄位不存在，則遠端程式的 RPC 旗標為零。
 
 > [!Note]  
 > 針對效能，非同步解譯器一律會有 \_<4> 欄位的 rpc 旗標。
 
- 
+ 
 
 [Proc \_ num<2>] 欄位提供程式的程式編號。
 
@@ -108,6 +108,6 @@ Rpc \_ 旗標<4> 欄位說明如何設定 [**rpc \_ 訊息**](/windows/desktop/a
 
 \_ \_ 本檔稍後會說明<> 欄位的明確控制碼描述。 如果程式使用隱含控制碼，就不會出現這個欄位。
 
- 
+ 
 
- 
+ 

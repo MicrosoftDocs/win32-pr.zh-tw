@@ -1,19 +1,19 @@
 ---
-description: 登錄中硬式編碼字串的儲存是 Windows Vista 之前的當地語系化模型的一部分。
+description: 登錄中的硬式編碼字串儲存體是預先 Windows Vista 當地語系化模型的一部分。
 ms.assetid: 70185942-7d32-4151-a4e1-f71cf45e87af
 title: 使用登錄字串重新導向
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 287f6e1420aae0ff41c386e19852bebbd1a322c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 30f0804d0586f8340e5a84e9da9c82ca39ffc30b55f72f4695d5216cbb26aab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389414"
 ---
 # <a name="using-registry-string-redirection"></a>使用登錄字串重新導向
 
-登錄中硬式編碼字串的儲存是 Windows Vista 之前的當地語系化模型的一部分。 MUI 不支援此功能。 在目前的模型中，作業系統的使用者介面會在語言中立的基底之上，以特定語言的資源檔執行。 作業系統的元件會以非語言相關的方式使用登錄。
+登錄中的硬式編碼字串儲存體是預先 Windows Vista 當地語系化模型的一部分。 MUI 不支援此功能。 在目前的模型中，作業系統的使用者介面會在語言中立的基底之上，以特定語言的資源檔執行。 作業系統的元件會以非語言相關的方式使用登錄。
 
 MUI 只會使用基底語言資源檔中的 Win32 PE 資源所定義的重新導向登錄字串。 重新導向是個別定義，例如在 .inf 檔案中。 這種類型的儲存體可讓資源載入器在資源模組載入期間自動選取正確的語言資源。
 
@@ -45,7 +45,7 @@ MUI 只會使用基底語言資源檔中的 Win32 PE 資源所定義的重新導
 
 `shell32.dll, -22912`
 
-Windows Vista 的其中一個範例是具有下列資料的登錄值：
+Windows Vista 的範例是具有下列資料的登錄值：
 
 `@%SystemRoot%\system32\input.dll,-5020`
 
@@ -111,7 +111,7 @@ Windows Vista 的其中一個範例是具有下列資料的登錄值：
 2.  在 [檔案類型] 登錄機碼底下新增 FriendlyTypeName 值。 值的資料會在模式 "" 之後 `@<path>,-<resID>` ，其中 *path* 表示可執行檔，而 *resID* 是與該可執行檔相關聯之可當地語系化字串資源的資源識別碼。
 3.  根據 "" 格式指定提示登錄值 `@<path>,-<resID>` 。
 
-下列範例顯示 .txt 檔案的登錄設定：
+下列範例顯示 .txt 檔的登錄設定：
 
 
 ```C++
@@ -133,7 +133,7 @@ HKCR\txtfile
 
 特定動詞的動作字串（例如「開啟」和「編輯」）會顯示在使用者以滑鼠右鍵按一下 Windows 檔案總管中的檔案時顯示的快顯功能表中。 您的應用程式不需要指定常用 shell 動詞命令的字串，因為 shell 針對這些動詞電腦有其具有 MUI 功能的預設值。 不過，您應該為代表不尋常動詞的字串提供可當地語系化的字串資源。
 
-在 Windows XP 之前的作業系統上，會使用下列語法來轉譯登錄中 shell 動詞命令的字串，其中 *verb* 會指定實際的動詞名稱：
+在預先 Windows XP 作業系統上，會使用下列語法來轉譯登錄中 shell 動詞命令的字串，其中 *verb* 會指定實際的動詞名稱：
 
 
 ```C++
@@ -153,7 +153,7 @@ HKCR\Sample.app\shell\Disc
 
 
 
-在 Windows XP 和更新版本上，您可以使用間接取值層級，讓動作字串相依于使用者介面語言。 這些作業系統支援 MUIVerb 值來定義與 MUI 相容的字串。 以下是非常見動詞命令的登錄專案範例：
+在 Windows XP 和更新版本上，您可以使用一層間接取值來讓動作字串相依于使用者介面語言。 這些作業系統支援 MUIVerb 值來定義與 MUI 相容的字串。 以下是非常見動詞命令的登錄專案範例：
 
 
 ```C++
@@ -175,7 +175,7 @@ HKCR\Sample.app\shell\Disc
 
 
 > [!Note]  
-> 不建議您註冊舊的預設值，因為它需要在 Windows XP 和更新版本上使用不同于舊版作業系統上的安裝程式進行不同的設定。
+> 不建議您註冊舊的預設值，因為它需要 Windows XP 和更新版本上的不同安裝程式，而不是舊版作業系統上所使用的安裝程式。
 
  
 
@@ -213,7 +213,7 @@ HKCR\<Your_Name>\protocol\StdFileEditing\verb\<number>
 
 ## <a name="create-a-resource-for-the-uninstall-program"></a>建立卸載程式的資源
 
-若要註冊應用程式的卸載程式，您可以在登錄機碼 HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ Microsoft \\ Windows \\ CurrentVersion \\ 卸載的應用程式的唯一識別碼子機碼中建立登錄值。 要設定的值包括： DisplayName、DisplayVersion、Publisher、ProductID、RegOwner、RegCompany、UrlInfoAbout、HelpTelephone、HelpLink、InstallLocation、InstallSource、InstallDate、Contact、comment、DisplayIcon、Readme、UrlUpdateInfo。
+若要註冊應用程式的卸載程式，您可以在登錄機碼 HKEY \_ LOCAL \_ MACHINE \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ uninstall 下，于應用程式的唯一識別碼子機碼中建立登錄值。 要設定的值包括： DisplayName、DisplayVersion、Publisher、ProductID、RegOwner、RegCompany、UrlInfoAbout、HelpTelephone、HelpLink、InstallLocation、InstallSource、InstallDate、Contact、comment、DisplayIcon、Readme、UrlUpdateInfo。
 
 > [!Note]  
 > 若要啟用每個值的 MUI 技術，您可以在值名稱中附加「 \_ 當地語系化」。
@@ -224,7 +224,7 @@ HKCR\<Your_Name>\protocol\StdFileEditing\verb\<number>
 
 ## <a name="create-resources-for-sound-events"></a>建立音效事件的資源
 
-Windows 會將某些事件與音效檔產生關聯，例如新的郵件通知事件或重大電池警示事件。 事件名稱必須由使用者介面顯示，且必須支援全球化。 因此，您應該針對每個事件描述的描述，執行可當地語系化的字串資源。 針對每個事件名稱新增一個新的登錄值，以及硬式編碼的預設值。
+Windows 將某些事件與音效檔產生關聯，例如新的郵件通知事件或重大電池警示事件。 事件名稱必須由使用者介面顯示，且必須支援全球化。 因此，您應該針對每個事件描述的描述，執行可當地語系化的字串資源。 針對每個事件名稱新增一個新的登錄值，以及硬式編碼的預設值。
 
 執行下列動作來啟用音效事件：
 
@@ -255,7 +255,7 @@ HKCR\AppEvents\EventLabels
 
 ## <a name="represent-ole-insert-object-common-dialog-strings"></a>代表 OLE 插入物件的通用對話方塊字串
 
-您可以將 OLE 可插入物件的顯示名稱，作為與執行該物件之程式碼相關聯的可當地語系化字串資源。 [ [OLE 插入物件] 對話方塊](/cpp/mfc/reference/coleinsertdialog-class) 會從登錄機碼 HKCR \\ CLSID {} 取得顯示名稱 \\ *<GUID>* ，其中 *GUID* 會識別可插入的 OLE 物件的類別識別碼。 Windows Vista 和更新版本會以可當地語系化的方式來執行這種類型的物件，並使用符合 MUI 規範的顯示名稱，以允許自訂使用者介面語言。 相反地，Windows Vista 之前的作業系統會使用對應的登錄機碼的預設值來執行此類型物件的顯示名稱。 此名稱通常是英文 (美國) 名稱或系統預設 UI 語言中的名稱。
+您可以將 OLE 可插入物件的顯示名稱，作為與執行該物件之程式碼相關聯的可當地語系化字串資源。 [ [OLE 插入物件] 對話方塊](/cpp/mfc/reference/coleinsertdialog-class) 會從登錄機碼 HKCR \\ CLSID {} 取得顯示名稱 \\ *<GUID>* ，其中 *GUID* 會識別可插入的 OLE 物件的類別識別碼。 WindowsVista 和更新版本會以可當地語系化的方式來執行這種類型的物件，並使用符合 MUI 規範的顯示名稱來自訂使用者介面語言。 相反地，預先 Windows Vista 作業系統會使用對應的登錄機碼的預設值來執行這種類型物件的顯示名稱。 此名稱通常是英文 (美國) 名稱或系統預設 UI 語言中的名稱。
 
 > [!Note]  
 > 並非所有對應到登錄機碼子機碼的物件都是可插入的。
@@ -297,9 +297,9 @@ NameStringIndirect=@%systemroot%@c:\windir\system32\mymmc.dll,-12345
 
 ## <a name="create-string-resources-for-a-windows-service"></a>建立 Windows 服務的字串資源
 
-雖然 Windows 服務通常只有少量或沒有使用者介面，但它必須顯示符合 MUI 規範的名稱，而且通常會提供符合 MUI 規範的語言特定描述。 描述 Windows 服務的登錄機碼只支援服務名稱的 DisplayName 值和服務描述的描述值。
+雖然 Windows 服務通常沒有任何使用者介面，但它必須顯示符合 mui 規範的名稱，而且通常會提供符合 mui 規範的語言特定描述。 描述 Windows 服務的登錄機碼只支援服務名稱的 DisplayName 值和服務描述的描述值。
 
-Windows 服務的設定是從應用程式進行，如在 [尋找重新導向的字串](locating-redirected-strings.md)中從登錄設定 windows 服務的顯示名稱和描述所述。 如果您的應用程式未設定服務使用者介面的登錄值，則登錄中的值仍會設定為 [英文]，即使使用者介面是另一種語言。
+從應用程式進行 Windows 服務的設定，如在[尋找重新導向的字串](locating-redirected-strings.md)中從登錄設定 Windows 服務的顯示名稱和描述所述。 如果您的應用程式未設定服務使用者介面的登錄值，則登錄中的值仍會設定為 [英文]，即使使用者介面是另一種語言。
 
 ## <a name="related-topics"></a>相關主題
 

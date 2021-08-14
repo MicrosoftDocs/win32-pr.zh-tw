@@ -3,7 +3,7 @@ title: 'EM_SETIMESTATUS 訊息 (Winuser .h) '
 description: 設定狀態旗標，以決定編輯控制項如何與輸入方法編輯器互動 (IME) 。
 ms.assetid: 3de2e8b5-bdd8-4b25-9427-38a11b77a17a
 keywords:
-- EM_SETIMESTATUS message Windows 控制項
+- EM_SETIMESTATUS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e896c358281b2d4b5012fe13003720e0d008e6a4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bb5a3e5413c577fcecd89ebb27bc61e5fff31f7e71b3ec7e6da67523d6ee9392
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412395"
 ---
 # <a name="em_setimestatus-message"></a>EM \_ SETIMESTATUS 訊息
 
@@ -79,9 +79,9 @@ ms.locfileid: "103686035"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

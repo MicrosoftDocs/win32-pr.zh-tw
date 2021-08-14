@@ -3,7 +3,7 @@ title: 'TB_SETHOTITEM 訊息 (Commctrl .h) '
 description: TB_SETHOTITEM 訊息：設定工具列中的熱專案。
 ms.assetid: 15005741-29d2-48c6-b5f0-15178a49b917
 keywords:
-- TB_SETHOTITEM message Windows 控制項
+- TB_SETHOTITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a90e5b38675d33a361857c4303fa2a89f22cff29
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a48de58e07d877d999c2d0388bf32845fce349511da563c3a6b1fa9f9c7b3d20
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119318838"
 ---
 # <a name="tb_sethotitem-message"></a>TB \_ SETHOTITEM 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108104176"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

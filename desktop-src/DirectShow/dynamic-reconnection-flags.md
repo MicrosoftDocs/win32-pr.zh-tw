@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 322c7d88cd84857ba0ebc1d19ed76a24e11cc3fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f7bd2ff28c0928c59c632df501e6545b50707cfd948dd57e4ff1bd1cf01d1721
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994246"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966238"
 ---
 # <a name="dynamic-reconnection-flags"></a>動態重新連接旗標
 

@@ -11,16 +11,16 @@ keywords:
 - 寫入器接收器，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d5b690d9e1ab25d15f7c1e8612bf20e32f87c81
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 407e5bf2e87bfbf3084d19f75170a12be693d804d4d902f919096dca5aeab057
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194865"
 ---
 # <a name="working-with-writer-sinks"></a>使用寫入器接收器
 
-Windows Media 格式 SDK 的寫入器物件會將輸入媒體資料處理成位資料流程。 但是，寫入器物件不會將位資料流程傳遞至其最終目的地 () 的檔案或網路位置。 若要將 ASF 內容寫入可使用的格式，您必須使用寫入器接收器。
+Windows 媒體格式 SDK 的寫入器物件會將輸入媒體資料處理成位串流。 但是，寫入器物件不會將位資料流程傳遞至其最終目的地 () 的檔案或網路位置。 若要將 ASF 內容寫入可使用的格式，您必須使用寫入器接收器。
 
 寫入器物件支援三種接收類型：檔接收、網路接收和推播接收。 File 接收會將 ASF 內容寫入磁片上的 ASF 檔案。 網路接收會從網路位址廣播 ASF 內容。 推播接收會將資料傳遞至執行 Windows Media Services 的伺服器，讓伺服器可以將內容提供給其預定的物件。 您也可以建立自己的接收器，以應用程式所需的任何方式來傳遞 ASF 資料。 如需網路接收和推播接收的詳細資訊，請參閱透過 [網路傳送 ASF 資料](sending-asf-data-over-a-network.md)。 本節的其餘部分將討論寫入器接收器。
 
@@ -40,7 +40,7 @@ Windows Media 格式 SDK 的寫入器物件會將輸入媒體資料處理成位�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -55,9 +55,9 @@ Windows Media 格式 SDK 的寫入器物件會將輸入媒體資料處理成位�
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

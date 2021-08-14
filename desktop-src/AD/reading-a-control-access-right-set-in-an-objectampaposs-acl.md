@@ -7,12 +7,12 @@ keywords:
 - 讀取物件 ACL 中的 Control 存取權限集 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4877c96a95fc94095c79ad129e8a07b1c786abe1
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 52a7bb241eabc8a853f30e1ff64d469141d694dc56351786fdf7d486f06ed67e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184882"
 ---
 # <a name="reading-a-control-access-right-set-in-an-objects-acl"></a>讀取物件 ACL 中的 Control 存取權限集合
 
@@ -41,6 +41,6 @@ ms.locfileid: "104023227"
 11. 當 [**ObjectType**](/windows/desktop/ADSI/iadsaccesscontrolentry-property-methods) 和 **信任** 字串完成時，請使用 [**SysFreeString**](/windows/win32/api/oleauto/nf-oleauto-sysfreestring) 釋放這些字串的記憶體。
 12. 完成介面之後，呼叫 **release** 以遞減或釋放所有介面參考。
 
- 
+ 
 
- 
+ 

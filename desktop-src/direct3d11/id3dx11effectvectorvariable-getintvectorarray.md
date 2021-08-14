@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 024db61b559d74c6453c6838795d5785ca7a0eec
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 813f8cb952e8dc82f7cd3bd9eecce18029947ece9e607121c18b9570f25d5cbc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104323167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045786"
 ---
 # <a name="id3dx11effectvectorvariablegetintvectorarray-method"></a>ID3DX11EffectVectorVariable：： GetIntVectorArray 方法
 

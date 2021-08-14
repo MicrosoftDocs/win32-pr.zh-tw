@@ -6,12 +6,12 @@ keywords:
 - 介面 MIDL、IDL 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 950daa2c1841f6e4b3f015f14e373804fcd34b80
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 5c2666e02fc7812d9ecdc9a00e77400d5016ac627c9fcbd42d81be77bc41d487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383692"
 ---
 # <a name="interface-definition-idl-file"></a> (IDL) 檔案的介面定義
 
@@ -19,6 +19,6 @@ ms.locfileid: "103681890"
 
 每個介面都是由標頭和主體組成。 介面標頭包含適用于整個介面的屬性。 介面的主體包含其餘的介面定義。 如需介面和 IDL 檔案的總覽，請參閱 [介面定義語言 (IDL) ](/windows/desktop/Rpc/the-interface-definition-language-idl-file)檔。 如需可在介面標頭中使用之屬性的摘要，請參閱 [IDL 屬性](idl-attributes.md)。
 
- 
+ 
 
- 
+ 

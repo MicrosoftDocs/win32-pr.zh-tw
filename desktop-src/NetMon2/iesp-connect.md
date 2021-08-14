@@ -1,7 +1,7 @@
 ---
-description: Connect 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+description: 連線方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 ms.assetid: 48189b2b-9889-4bd8-8972-26005fb7c341
-title: 'IESP：： Connect 方法 (Netmon. h) '
+title: 'IESP：：連線方法 (Netmon. h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 4fc9c88b0eb4671c61f268c5857dceba3dc500f2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2095f25128e524b32b8ad8561ee85119537c32be5e61f77d5c72637396a2183
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365606"
 ---
-# <a name="iespconnect-method"></a>IESP：： Connect 方法
+# <a name="iespconnect-method"></a>IESP：：連線方法
 
-**Connect** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
+**連線** 方法會使用指定的 NIC 將 NPP 連接到網路，並提供連線的設定資訊。
 
 ## <a name="syntax"></a>語法
 
@@ -101,7 +101,7 @@ BLOB 的控制碼，指定 NPP 連接的 NIC，以及該連接的設定資訊。
 </tr>
 <tr class="odd">
 <td><dl> <dt><strong>NMERR_BLOB_ENTRY_DOES_NOT_EXIST</strong></dt> </dl></td>
-<td><em>HInputBlob</em>參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由 <strong>IESP：： Connect</strong> 或 <strong>IESP：： Configure</strong> 呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/></td>
+<td><em>HInputBlob</em>參數所指定的輸入 BLOB 缺少執行這項作業所需的專案。 此錯誤可能是由<strong>IESP：：連線</strong>或<strong>IESP：： Configure</strong>呼叫所產生。 查看 <em>hErrorBlob</em> 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/></td>
 </tr>
 <tr class="even">
 <td><dl> <dt><strong>NMERR_BLOB_NOT_INITIALIZED</strong></dt> </dl></td>
@@ -145,7 +145,7 @@ BLOB 的控制碼，指定 NPP 連接的 NIC，以及該連接的設定資訊。
 
 ## <a name="remarks"></a>備註
 
-呼叫 **Connect** 方法時，網路監視器會使用 *hInputBlob* 參數所提供的 BLOB，自動呼叫 **IESP：： Configure** 。 請注意， **IESP：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IESP：： Connect** 呼叫傳回。
+呼叫 **連線** 方法時，網路監視器會使用 *hInputBlob* 參數所提供的 BLOB，自動呼叫 **IESP：： Configure** 。 請注意， **IESP：： Configure** 的呼叫所傳回的任何錯誤碼都會回傳，並由 **IESP：：連線** 呼叫傳回。
 
 您必須先呼叫這個方法，才能開始捕獲框架。 請注意，當您使用此方法連接到網路時，您必須繼續使用 **IESP** 介面來捕捉畫面格。
 

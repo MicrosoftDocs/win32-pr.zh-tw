@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 00a9b9a249b5076bf821c17156b090466aefe3ab
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: a1308fd63f675d8d58d7450999032b0330bac8a0b8635319bb4bb89da4ad47bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106991319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427593"
 ---
 # <a name="carlicense-attribute"></a>carLicense 屬性
 
@@ -64,7 +64,7 @@ ms.locfileid: "106991319"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -85,7 +85,7 @@ ms.locfileid: "106991319"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -106,7 +106,7 @@ ms.locfileid: "106991319"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -127,7 +127,7 @@ ms.locfileid: "106991319"
 | Range-Upper            | \-                                                                                    |
 | Search-Flags           | 0x00000000                                                                            |
 | System-Flags           | 0x00000000                                                                            |
-| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**inetOrgPerson**](c-inetorgperson.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 

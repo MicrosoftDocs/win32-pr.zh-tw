@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e4b015891a37c5cc92bbf102482f48306d537bb6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a1ec5bdbe5ab91b14c294f715aa4fc4fe26ad2a42cd63892f60288456af10505
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973388"
 ---
 # <a name="win32_logicaldiskrootdirectory-class"></a>Win32 \_ LogicalDiskRootDirectory 類別
 

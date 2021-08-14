@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Scanprofilemgr.h
-ms.openlocfilehash: 10a7d891a114fc36de3f91341febf1616a06ed22
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8ca150d02aff2f84becf8b36aca87e2da24b2b83c9ccd85c0cf5a1c5ced0d664
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118209054"
 ---
 # <a name="iscanprofilemgrgetprofilesfordeviceid-method"></a>IScanProfileMgr：： GetProfilesforDeviceID 方法
 
@@ -53,13 +53,13 @@ HRESULT GetProfilesforDeviceID(
 *pulNumProfiles* \[in、out\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
 傳遞時，為要傳回的最大設定檔數目的指標。 傳回時，為所傳回設定檔數目的指標。
 
 </dd> <dt>
 
-_ppScanProfile * \[ out\]
+*ppScanProfile* \[擴展\]
 </dt> <dd>
 
 類型： **[ **IScanProfile**](-wia-iscanprofile.md)\*\***
@@ -84,8 +84,8 @@ _ppScanProfile * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                        |
 | 標頭<br/>                   | <dl> <dt>Scanprofilemgr。h</dt> </dl> |
 | Idl<br/>                      | <dl> <dt>Scanprofiles .idl</dt> </dl> |
 

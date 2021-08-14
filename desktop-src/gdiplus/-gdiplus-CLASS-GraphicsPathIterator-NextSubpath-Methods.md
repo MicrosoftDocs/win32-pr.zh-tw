@@ -4,12 +4,12 @@ ms.assetid: 91137029-182d-4dc5-89a3-f3835f55d327
 title: 'GraphicsPathIterator. NextSubpath 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 34e57228a130fcec580cf3966f1af078d15b8d7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e8f16fbef71a6adcc027b0ed9a666a8a4850e67bbc28e3ee42d31efff08b880a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964408"
 ---
 # <a name="graphicspathiteratornextsubpath-methods"></a>GraphicsPathIterator. NextSubpath 方法
 

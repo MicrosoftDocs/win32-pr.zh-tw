@@ -7,12 +7,12 @@ keywords:
 - 設定服務的使用者帳戶 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 705fa16d8d2cce137755f4a5086716aaaef8046a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: f310ee97c68ded8c4086694302feccb5991d726e01f9addbeced21cc5b9acfdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183275"
 ---
 # <a name="setting-up-a-services-user-account"></a>設定服務的使用者帳戶
 
@@ -24,6 +24,6 @@ ms.locfileid: "103681634"
 
 您必須為每個帳戶產生密碼。 如需有關如何撰寫可自動化更新服務帳戶密碼之工作的詳細資訊，請參閱 [變更服務之使用者帳戶的密碼](changing-the-password-on-a-serviceampaposs-user-account.md)。
 
- 
+ 
 
- 
+ 

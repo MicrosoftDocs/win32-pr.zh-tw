@@ -4,12 +4,12 @@ description: 下列標頭代表可由最新版本的 MIDL 產生的其中一個�
 ms.assetid: 2078d2d9-1757-4449-9cc1-a21804654722
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0afcc9ad880278fdbcb8efc45fdabdc22ad06224
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b27ee00425f3611234b0cd001f254b1499a0d4873d05846c65a2828c3eeffe57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842659"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118924537"
 ---
 # <a name="the-header"></a>標頭
 
@@ -30,7 +30,7 @@ INTERPRETER_OPT_FLAGS<1>
 number_of_params<1>
 ```
 
-從 Windows 2000 開始的延伸模組：適用于32位的 <8>，<12> 64 位) 
+從 Windows 2000 開始的延伸模組： <8> 32 位，<12> 64 位) 
 
 ``` syntax
 extension_version<1>
@@ -70,7 +70,7 @@ typedef struct
 > [!Note]  
 > 針對物件常式，第一個引數會在第二個登錄中結束，因為這個指標是第一個。 針對每個註冊，bits 的意義如下表所示。
 
- 
+ 
 
 
 
@@ -81,7 +81,7 @@ typedef struct
 
 
 
- 
+ 
 
 00和11是不正確位值。
 
@@ -108,6 +108,6 @@ typedef struct _NDR_DCOM_OI2_PROC_HEADER
   } NDR_DCOM_OI2_PROC_HEADER, *PNDR_DCOM_OI2_PROC_HEADER;
 ```
 
- 
+ 
 
- 
+ 

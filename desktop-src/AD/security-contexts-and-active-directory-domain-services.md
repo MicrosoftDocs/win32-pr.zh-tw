@@ -8,12 +8,12 @@ keywords:
 - 安全性內容 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c337cb05f8158dbb90f231652c42fb10a486aef4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 844b5814eb5cf6c5b677ad0e541d18f9487c0929b7dde6ad0a11c5d91653cf15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183875"
 ---
 # <a name="security-contexts-and-active-directory-domain-services"></a>安全性內容和 Active Directory Domain Services
 
@@ -33,9 +33,9 @@ ms.locfileid: "104023218"
 有些安全性內容比其他內容更加強大。 例如，網域控制站上的 LocalSystem 帳戶具有 Active Directory Domain Services 的完整存取權，而一般使用者只能存取目錄中的部分物件。 一般來說，當效能較低的安全性內容足以執行作業時，您的應用程式不應該在強大的安全性內容中執行，例如 LocalSystem。 這表示您可能會想要將應用程式分成不同的元件，而每個元件都是在適用于要執行之作業的安全性內容中執行。 例如，您的應用程式安裝可以分為：
 
 -   在屬於 Schema Administrators 群組成員之使用者的內容中，執行架構變更和延伸。
--   在屬於企業系統管理員群組成員之使用者的內容中，執行設定容器變更。
+-   在屬於 Enterprise Administrators 群組成員之使用者的內容中，執行設定容器變更。
 -   在屬於 Domain Administrators 群組成員之使用者的內容中執行網域容器變更。
 
- 
+ 
 
- 
+ 

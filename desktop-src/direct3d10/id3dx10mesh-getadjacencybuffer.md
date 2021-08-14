@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: 80dd5c6e6d9b12cb1c648c42a4758d215d3810c7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a26c6c1ecf90b4cdbc7f362be04960b6a53467124a583017ea87cd8fbcec6951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106997408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119046936"
 ---
 # <a name="id3dx10meshgetadjacencybuffer-method"></a>ID3DX10Mesh：： GetAdjacencyBuffer 方法
 

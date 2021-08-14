@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6831b06c92dd1dbeda296409f31980adc699ecee
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: b1211d83391d729e16b1d4549657a54447997ecba6566271871f6e4aff6a3b32
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119276168"
 ---
 # <a name="texturecubearraysamplecmplevelzero-methods"></a>TextureCubeArray：： SampleCmpLevelZero 方法
 

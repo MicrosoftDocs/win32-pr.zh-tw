@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 24a56e832600b551dd3ab43ea93d59c5805af630
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe08288929a5f14c4a920c52121c2ccfbdb35888f2ed220291e30e53a3ef0c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364833"
 ---
 # <a name="labeled_bit-structure"></a>標記的 \_ 位結構
 

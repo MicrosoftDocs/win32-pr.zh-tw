@@ -4,12 +4,12 @@ ms.assetid: cc15a166-9a0c-41ce-9cb1-ecdc922565c0
 title: 'MAXUIDLEN (Wincrypt) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 199d8e697deba86ffe48d4f76501f2d9d3a6d4e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d3a2cad5f6e676fc0e0677ccc9f76262f4ba4104aa58d0662b92f23206cb6d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408006"
 ---
 # <a name="maxuidlen"></a>MAXUIDLEN
 
@@ -29,8 +29,8 @@ MAXUIDLEN 是一個數值常數，可指定某些 Microsoft 密碼編譯提供�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wincrypt。h</dt> </dl> |
 
 

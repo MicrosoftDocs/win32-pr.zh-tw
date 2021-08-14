@@ -1,19 +1,19 @@
 ---
-description: Schannel 支援 Windows Server 2003 和 Windows XP 中的下列 TLS 1.0 加密套件。
+description: Schannel 針對 Windows Server 2003 和 Windows XP 中的 TLS 1.0 支援下列加密套件。
 ms.assetid: af9a749d-9ed4-48d0-a5f0-497be0435e34
 title: TLS 加密套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a113d72306b77b0d2c870b309cffb83b9d44fa5e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d002de6df85f3057e9d4494ef11da963e27785f7229cce46dc298a55edbf329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983818"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916056"
 ---
 # <a name="tls-cipher-suites"></a>TLS 加密套件
 
-Schannel 支援 Windows Server 2003 和 Windows XP 中的下列 TLS 1.0 加密套件。 套件會以選擇的預設順序列出。 如需 Windows Server 2008 和 Windows Vista 的加密套件，請參閱 [Schannel 中的加密套件](cipher-suites-in-schannel.md)。
+Schannel 針對 Windows Server 2003 和 Windows XP 中的 TLS 1.0 支援下列加密套件。 套件會以選擇的預設順序列出。 如需 Windows Server 2008 和 Windows Vista 的加密套件，請參閱[Schannel 中的加密套件](cipher-suites-in-schannel.md)。
 
 -   \_ \_ 使用 \_ RC4 \_ 128 MD5 的 \_ TLS RSA
 -   \_ \_ 使用 \_ RC4 \_ 128 SHA 的 \_ TLS RSA

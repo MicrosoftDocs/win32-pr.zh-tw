@@ -4,21 +4,21 @@ ms.assetid: 45536902-af80-4dca-b3ce-207086844763
 title: 安全通訊端層通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3ed2555c854a6cc25948abe0dc83043ee632170
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faf8e6b7232db8bef98d5170887d6be75c9770927954a40b606450bf214efdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918381"
 ---
 # <a name="secure-sockets-layer-protocol"></a>安全通訊端層通訊協定
 
-本主題中的資訊適用于 Windows Server 2003 和 Windows XP。 如需 Windows Server 2008 和 Windows Vista 的加密套件，請參閱 [Schannel 中的加密套件](cipher-suites-in-schannel.md)。
+本主題中的資訊適用于 Windows Server 2003 和 Windows XP。 如需 Windows Server 2008 和 Windows Vista 的加密套件，請參閱[Schannel 中的加密套件](cipher-suites-in-schannel.md)。
 
 Schannel 支援 [*安全通訊端層 (SSL) 通訊協定*](../secgloss/s-gly.md)的版本2.0 和3.0。
 
 > [!Note]  
-> 從 Windows 10 開始，1607和 Windows Server 2016 版，SSL 2.0 已經移除，不再受到支援。
+> 從 Windows 10 開始，版本1607和 Windows Server 2016，已移除 SSL 2.0，且已不再支援。
 
  
 

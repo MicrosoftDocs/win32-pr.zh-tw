@@ -4,12 +4,12 @@ ms.assetid: 6df4655a-f707-4893-b6e6-f7e4d7f67b4e
 title: 點陣圖標頭類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5910b0fb5be1166e807db1f3362186a206abc2b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c88839947845cc45633cbc07b7c36aec727318c91910bfc277680b1946080531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966408"
 ---
 # <a name="bitmap-header-types"></a>點陣圖標頭類型
 
@@ -26,7 +26,7 @@ ms.locfileid: "103848576"
 
 [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader)和 [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)格式分別由 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))和 [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header)格式取代。 提供 **BITMAPCOREHEADER** 和 **BITMAPV4HEADER** 格式，以提供完整性和回溯相容性。
 
-DIB 的格式如下 (如需詳細資訊，請參閱 [點陣圖儲存體](bitmap-storage.md) ) ：
+DIB 的格式如下 (如需詳細資訊，請參閱[點陣圖儲存體](bitmap-storage.md)) ：
 
 -   [**BITMAPFILEHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapfileheader)結構
 -   可能是 [**BITMAPCOREHEADER**](/windows/win32/api/wingdi/ns-wingdi-bitmapcoreheader)、 [**BITMAPINFOHEADER**](/previous-versions//dd183376(v=vs.85))、 [**BITMAPV4HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv4header)或 [**BITMAPV5HEADER**](/windows/desktop/api/Wingdi/ns-wingdi-bitmapv5header) 結構。

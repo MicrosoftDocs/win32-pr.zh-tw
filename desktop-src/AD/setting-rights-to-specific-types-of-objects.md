@@ -9,12 +9,12 @@ keywords:
 - Active Directory，使用，安全性，將許可權設定為物件的類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f44cfbe753e6f92787f8269eab1f4eab4c2e98
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 8d8740b4454eac5de158c826ec135a0becf6777f320e16729598187a3093f088
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183286"
 ---
 # <a name="setting-rights-to-specific-types-of-objects"></a>設定特定物件類型的許可權
 
@@ -30,10 +30,10 @@ ms.locfileid: "103933042"
 > [!IMPORTANT]
 > Set **ADS \_ ACEFLAG \_ INHERIT \_ ace** ，使 ace 成為繼承的。 此外，如果套用此 ACE 的物件類型不符合指定 ACE 之容器的物件類型，則您必須設定 **ADS \_ ACEFLAG \_ \_ 僅繼承 \_ ace** 。 如果未這麼做，ACE 也會在容器上生效，而且可以授與非預期的許可權。
 
- 
+ 
 
 如需可用來設定這類 ACE 的詳細資訊和程式碼範例，請參閱 [在目錄物件上設定 ACE 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
 
- 
+ 
 
- 
+ 

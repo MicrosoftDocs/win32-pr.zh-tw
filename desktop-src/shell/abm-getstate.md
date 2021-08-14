@@ -1,5 +1,5 @@
 ---
-description: 抓取 Windows 工作列的自動隱藏和 alwayson 最上層狀態。
+description: 抓取 Windows 工作列的自動隱藏和 alwayson 狀態。
 title: 'ABM_GETSTATE 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
@@ -13,16 +13,16 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 71225cd8d93de09a07cb0049066e52be08c18a36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b1a3618be793f4728dc6184b50b7a4e0e57c3ffd2c4d2cd8acde17372aa031f4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225227"
 ---
 # <a name="abm_getstate-message"></a>ABM \_ >getstate 訊息
 
-抓取 Windows 工作列的自動隱藏和 alwayson 最上層狀態。
+抓取 Windows 工作列的自動隱藏和 alwayson 狀態。
 
 
 ```C++
@@ -65,7 +65,7 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 <td>工作列處於 always on 最上層狀態。 <br/>
 <blockquote>
 [!Note]<br />
-從 Windows 7，因為工作列永遠處于該狀態，所以不會再傳回 ABS_ALWAYSONTOP。 您應該更新較舊的程式碼，以忽略此值不存在的情況下，不假設該傳回值表示工作列不是處於最新狀態。
+從 Windows 7，因為工作列一律處於該狀態，所以不會再傳回 ABS_ALWAYSONTOP。 您應該更新較舊的程式碼，以忽略此值不存在的情況下，不假設該傳回值表示工作列不是處於最新狀態。
 </blockquote>
 <br/></td>
 </tr>
@@ -86,7 +86,7 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

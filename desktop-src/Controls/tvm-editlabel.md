@@ -3,7 +3,7 @@ title: 'TVM_EDITLABEL 訊息 (Commctrl .h) '
 description: 開始編輯指定專案的文字，並將專案的文字取代為包含文字的單行編輯控制項。
 ms.assetid: ae844cbf-fa43-4f91-90cc-688f44bf77a5
 keywords:
-- TVM_EDITLABEL message Windows 控制項
+- TVM_EDITLABEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3608c3f959c45571d9bc085518b763cf505180ee
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 87ba9f9d0af4d6afb3c454f5e5477ccd67728bdec7f378b0f0a04adc901ba322
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408585"
 ---
 # <a name="tvm_editlabel-message"></a>TVM \_ EDITLABEL 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103934190"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TVM \_EDITLABELW** (Unicode) 和 **TVM \_ EDITLABELA** (ANSI) <br/>               |
 

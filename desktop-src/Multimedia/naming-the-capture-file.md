@@ -7,12 +7,12 @@ keywords:
 - capFileAlloc 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47ea091a36777e176124689ba57be6c0fb75d07d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 75c07653b854b4af476c22566aac5e9ecf27cb78b3dac5b317aab4b8f3f23a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373313"
 ---
 # <a name="naming-the-capture-file"></a>命名捕獲檔案
 
@@ -36,9 +36,9 @@ capFileAlloc( hWndC, (1024L * 1024L * 5));
 [使用影片捕獲](using-video-capture.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

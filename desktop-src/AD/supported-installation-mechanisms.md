@@ -7,12 +7,12 @@ keywords:
 - 支援的安裝機制 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb89ce4a74120e53b69b229bf931bb165eb1a097
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e29f2de8b6b15070f6173d4cf79fd085dd3c628c938140b1037276c566c49124
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183042"
 ---
 # <a name="supported-installation-mechanisms"></a>支援的安裝機制
 
@@ -23,9 +23,9 @@ Active Directory Domain Services 支援四種擴充 Active Directory 架構的�
 -   [程式設計延伸](programmatic-extension.md)
 -   以及 [延伸目錄物件的消費者介面](extending-the-user-interface-for-directory-objects.md)。
 
- 
+ 
 
- 
+ 
 
 
 

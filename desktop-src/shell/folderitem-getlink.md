@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d12c0fbd296610174c8b8363602288f59fcb9714
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f4eaf3019ad46599fe572cdc403738d281f97eecd0b09752cdcc35335abb856
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224062"
 ---
 # <a name="folderitemgetlink-property"></a>FolderItem. GetLink 屬性
 
@@ -41,9 +41,9 @@ objGetLink = FolderItem.GetLink
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **GetLink** 來捕獲 [**ShellLinkObject**](shelllinkobject-object.md) 物件，以取得 Internet Explorer 的快捷方式。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **GetLink** 來捕獲 [**ShellLinkObject**](shelllinkobject-object.md) 物件，以取得 Internet Explorer 的快捷方式。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -163,7 +163,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

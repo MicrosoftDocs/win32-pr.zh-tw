@@ -4,12 +4,12 @@ ms.assetid: 83c0fb91-857c-40d9-8fb8-8734c1b573c4
 title: 從登錄中移除計數器名稱和描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04ea8c0a8efbe9a798f980a061c6cfc65745b89b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c086520f1fb261a0b9850c03f2aee28065a03ee514df277fbf1cae602deed6a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119962348"
 ---
 # <a name="removing-counter-names-and-descriptions-from-the-registry"></a>從登錄中移除計數器名稱和描述
 

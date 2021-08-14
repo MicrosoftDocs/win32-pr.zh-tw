@@ -7,12 +7,12 @@ keywords:
 - 搜尋物件 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb3c26f05b63524e3a657c0c460efb921978bd19
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: bd41e87ad3396694b2f87158b15278c1dfbe28b044ad03ebbb09ddded705910a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103841927"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973499"
 ---
 # <a name="searching-for-objects"></a>搜尋物件
 
@@ -52,7 +52,7 @@ Wend
 
 
 
-若要在 Visual Basic 或腳本環境中執行 ADSI 搜尋，需要三個 ADO 元件： **連接**、 **命令** 和 **記錄集**。 **Connection** 物件可讓您指定提供者名稱、替代認證（如果適用）和其他旗標。 **命令** 物件可讓您指定搜尋喜好設定和查詢字串。 您必須在查詢執行之前，將 **連接** 物件與 **命令** 物件建立關聯。 最後，會使用 **記錄集** 物件來逐一查看結果集。
+若要在 Visual Basic 或腳本環境中執行 ADSI 搜尋，需要三個 ADO 元件：**連接**、**命令** 和 **記錄集**。 **Connection** 物件可讓您指定提供者名稱、替代認證（如果適用）和其他旗標。 **命令** 物件可讓您指定搜尋喜好設定和查詢字串。 您必須在查詢執行之前，將 **連接** 物件與 **命令** 物件建立關聯。 最後，會使用 **記錄集** 物件來逐一查看結果集。
 
 ADSI 支援兩種類型的查詢字串或方言。 上述程式碼範例使用 SQL 方言。 您也可以使用 LDAP 方言。 LDAP 方言查詢字串是以 [rfc 2254](https://www.ietf.org/rfc/rfc2254.txt) 為基礎 (Rfc 是註釋檔的要求，這是) 開發 LDAP 標準的基礎。 上述範例可轉譯為下列程式碼範例。
 
@@ -70,7 +70,7 @@ oCommand1.CommandText = "<LDAP://DC=fabrikam,DC=COM>;" & _
 
 為什麼字串結尾的「子樹」一字？ 在目錄世界中，您可以指定搜尋的範圍。 選項包括： "base"、"onelevel" 和 "子樹"。 "base" 用來讀取物件本身;"onelevel" 指的是直屬子系，類似于 **dir** 命令;「子樹」用來搜尋多個層級 (類似于 **dir/s**) 。
 
-您可以使用 SQL 方言，在命令屬性中指定範圍，如下列程式碼範例所示。
+使用 SQL 方言，您可以在命令屬性中指定範圍，如下列程式碼範例所示。
 
 
 ```VB
@@ -84,7 +84,7 @@ oCommand1.Properties("SearchScope") = ADS_SCOPE_ONELEVEL
 > [!Note]  
 > 如果您使用 c + +，您可以從 ADSI 使用 [**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch) 介面。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -93,9 +93,9 @@ oCommand1.Properties("SearchScope") = ADS_SCOPE_ONELEVEL
 [重組](reorganization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

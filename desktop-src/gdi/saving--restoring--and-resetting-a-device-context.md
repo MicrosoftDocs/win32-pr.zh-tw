@@ -4,12 +4,12 @@ ms.assetid: 22837876-2665-49c6-908e-80e107fc09f4
 title: 儲存、還原和重設裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e2714360c07f4a4eca354ede5b460864cc897e58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 434ef484fecee17251a31616e396ee0fa66b381bc30cf858575f4455ca36a1ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965248"
 ---
 # <a name="saving-restoring-and-resetting-a-device-context"></a>儲存、還原和重設裝置內容
 

@@ -4,12 +4,12 @@ ms.assetid: 819d2026-dd5c-48d3-8af1-e96364acae72
 title: 調整大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f3c1ba409abda6e9c6b471a4d0a143b28d4c08e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dbf8cb7293be4083c08de1d104bb8349b3cd5003a0abddf77d41922cfb294cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119965238"
 ---
 # <a name="scaling"></a>調整大小
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 64b95ee09616566b1adfcb7dee0c6e115cf2fa69
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c6ec70064df9764f85f47a759848b6783787950f1ce9ee3ebd73eaf57b3fbfbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118423839"
 ---
 # <a name="priority-attribute"></a>Priority 屬性
 
@@ -58,7 +58,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -79,7 +79,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -100,7 +100,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -121,7 +121,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -142,7 +142,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |
@@ -163,7 +163,7 @@ ms.locfileid: "106973112"
 | 連結識別碼                | \-                                             |
 | MAPI-Id                | \-                                             |
 | System-Only            | 否                                          |
-| 是-單一值       | 對                                           |
+| 是-單一值       | 是                                           |
 | 已編制索引             | 否                                          |
 | 在通用類別目錄中      | 否                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                   |

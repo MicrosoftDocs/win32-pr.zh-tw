@@ -4,12 +4,12 @@ description: 格式字串是 NDR 引擎可理解的已轉譯標記。 格式字�
 ms.assetid: 548283bd-023a-41dd-b1d0-661305d019e9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 563dd9e4145a7d83b2e49f180329c05c1d55155d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7a8c14fa649e71411c5706193e83fd9a09d30f8a0c57fec411d8c34fef675ab5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929865"
 ---
 # <a name="format-strings"></a>格式字串
 
@@ -39,7 +39,7 @@ ms.locfileid: "103673819"
 
 
 
- 
+ 
 
 下列格式字元具有特殊意義。
 
@@ -52,11 +52,11 @@ ms.locfileid: "103673819"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

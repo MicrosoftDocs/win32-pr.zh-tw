@@ -7,12 +7,12 @@ keywords:
 - Active Directory、使用、複寫和資料完整性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 499f7e2c3193a280d009f53521e7a94fa3b89c5e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08ec62ec3e44b9252d2d186b690105623b338bdaedf6ed15e4a253bfc2f06927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184453"
 ---
 # <a name="replication-and-data-integrity"></a>複寫與資料完整性
 
@@ -24,9 +24,9 @@ Active Directory Domain Services 提供 *多宿主更新*。 多宿主更新表�
 -   [Active Directory Domain Services 中的複寫行為](replication-behavior-in-active-directory-domain-services.md)
 -   [偵測和避免複寫延遲](detecting-and-avoiding-replication-latency.md)
 
- 
+ 
 
- 
+ 
 
 
 

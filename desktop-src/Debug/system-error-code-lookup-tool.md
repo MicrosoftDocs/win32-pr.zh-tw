@@ -1,14 +1,14 @@
 ---
-description: 說明如何使用 Microsoft 錯誤查閱工具來尋找 Windows 中十六進位錯誤碼的文字說明。
+description: 描述如何使用 Microsoft 錯誤查閱工具，在 Windows 中尋找十六進位錯誤碼的文字說明。
 title: Microsoft 錯誤查閱工具
 ms.topic: article
 ms.date: 12/4/2019
-ms.openlocfilehash: e39b5623458fc176f5ecc81eae71212ba279945c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 534b2af92b8dc0e906bd033e8ce1f0fbd08ead0cda21406d1818a318356db613
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405888"
 ---
 # <a name="the-microsoft-error-lookup-tool"></a>Microsoft 錯誤查閱工具
 
@@ -33,7 +33,7 @@ Microsoft 錯誤查閱工具會顯示與十六進位狀態碼 (或其他程式�
    > 如果您將檔案複製或移動到作業系統 **Path** 環境變數中所列的資料夾，它就會在任何命令提示字元中運作。
 
 1. 開啟命令提示字元視窗。 如有必要，請將目錄變更為錯誤查閱工具的位置。
-1. 執行以下命令：
+1. 執行下列命令：
    ```cmd
    Err_6.4.5.exe <error code>
    ```
@@ -73,6 +73,6 @@ C:\Tools>Err_6.4.5.exe 7b
 # 4 matches found for "7b"
 ```
 
-## <a name="more-information"></a>詳細資訊
+## <a name="more-information"></a>更多資訊
 
-請記住，這是「時間點」工具。 Microsoft Error Lookup 工具會將大部分的 Microsoft 錯誤碼解碼為工具的編譯日期。 當新的 Windows 版本加入新的事件和錯誤碼時，您可能必須下載新版本的錯誤查閱工具。 請檢查 Microsoft 下載中心以取得新版本，或查看 [錯誤碼](system-error-codes.md)。
+請記住，這是「時間點」工具。 Microsoft Error Lookup 工具會將大部分的 Microsoft 錯誤碼解碼為工具的編譯日期。 當新版本的 Windows 加入新的事件和錯誤碼時，您可能必須下載新版本的錯誤查閱工具。 請檢查 Microsoft 下載中心以取得新版本，或查看 [錯誤碼](system-error-codes.md)。

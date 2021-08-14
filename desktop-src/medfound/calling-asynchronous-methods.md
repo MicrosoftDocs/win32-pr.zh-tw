@@ -4,12 +4,12 @@ ms.assetid: 1d8688a5-d476-457d-a0ad-e4f106ac3484
 title: 呼叫非同步方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5bdd6e272aeb3203706f0c621b4634cf3e6c0562
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4a53f5f0a3062ad6af955fbbfdd8cd05c82b30271cf680d6434bc652d567325
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959198"
 ---
 # <a name="calling-asynchronous-methods"></a>呼叫非同步方法
 

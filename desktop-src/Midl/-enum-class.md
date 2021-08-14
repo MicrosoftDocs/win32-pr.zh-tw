@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a6c61affceacbe11707c57ac11f17d4027901d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b8bae465e1e47802b2b6ba961586bf8f09eb255fdcbe238d666ceeee26808b8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979578"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385765"
 ---
 # <a name="enum_class-switch"></a>/enum \_ 類別參數
 

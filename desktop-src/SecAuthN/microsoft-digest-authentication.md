@@ -4,12 +4,12 @@ ms.assetid: c65bb134-d480-4a71-872c-30e2884237a6
 title: Microsoft 摘要式驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 336d5eb9c2d114bae70c28d07ed9fef64f9d0514
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 135e5374515acb0604ee14a6770b9523e9bf31fd0e2d6c946fec26d2ad789c2b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921827"
 ---
 # <a name="microsoft-digest-authentication"></a>Microsoft 摘要式驗證
 

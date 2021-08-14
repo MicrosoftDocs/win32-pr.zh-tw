@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: c643c180eecc6127eb5789f6be8c06019c2b5a37
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 44195f68eb347917367cb6a50c723cbd93b9eafead20616061a8da0034a78d9a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967048"
 ---
 # <a name="id2d1devicecontextdrawbitmap-methods"></a>ID2D1DeviceCoNtext：:D rawBitmap 方法
 

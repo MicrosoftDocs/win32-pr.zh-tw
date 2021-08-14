@@ -4,12 +4,12 @@ ms.assetid: 44a82d6c-9cf9-440f-904d-5931dcb6117b
 title: 'AVEncDDAtoDConverterType 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 999880964b462f6d2e90196eeb6df369509a0a42
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d9057646597e213f7745e90cbc67eb8023df9ebec4faab81894a880372f4326d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971112"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403844"
 ---
 # <a name="avencddatodconvertertype-property"></a>AVEncDDAtoDConverterType 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106971112"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

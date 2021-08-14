@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 957ae5974d65430bd39ea41f2e094e9f9c7efb06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b693c78ba3a3d7c68c33f68ec1494997536ffb10272cc384d89d9e94ded7145b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206744"
 ---
 # <a name="iwicbitmaplock_getdatapointer_sta_proxy-function"></a>IWICBitmapLock \_ GetDataPointer \_ STA \_ Proxy 函式
 
@@ -45,22 +45,22 @@ HRESULT IWICBitmapLock_GetDataPointer_STA_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) \** _
+類型： **[ **IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock)\***
 
-這個 [_ *IWICBitmapLock* *](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock)物件的指標。
+這個 [**IWICBitmapLock**](/windows/desktop/api/Wincodec/nn-wincodec-iwicbitmaplock) 物件的指標。
 
 </dd> <dt>
 
 *pcbBufferSize* \[擴展\]
 </dt> <dd>
 
-類型： **UINT \** _
+類型： **UINT \***
 
 接收緩衝區大小的指標。
 
 </dd> <dt>
 
-_ppbData * \[ out\]
+*ppbData* \[擴展\]
 </dt> <dd>
 
 類型：**位元組 \* \***
@@ -83,8 +83,8 @@ _ppbData * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

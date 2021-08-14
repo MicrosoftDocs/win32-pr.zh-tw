@@ -8,12 +8,12 @@ keywords:
 - 物件 AD、讀取 attributeSchema 和 classSchema 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 910d387809f7be8af22d494974021e5e6a47d0ab
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4e310eae707dd8121384ccf7a74cc4cf6bf34b7d2337fc704d7ba5b1058c7458
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104092628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184777"
 ---
 # <a name="reading-attributeschema-and-classschema-objects"></a>讀取 attributeSchema 和 classSchema 物件
 
@@ -355,6 +355,6 @@ void ProcessClass(IADs *pChild)
 
 
 
- 
+ 
 
- 
+ 

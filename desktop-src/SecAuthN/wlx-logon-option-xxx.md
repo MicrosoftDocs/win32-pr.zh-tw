@@ -4,21 +4,21 @@ ms.assetid: a146427b-f3f1-4221-b2eb-ee7da451314a
 title: 'WLX_LOGON_OPTION_XXX (Winwlx) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fa8909f562b87eb3a8147b0684d9676b9ac55d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ae482fa7af757a18fc3a38f809befbee94e4d59753cde8e35e01d172bcc065d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118914757"
 ---
 # <a name="wlx_logon_option_xxx"></a>WLX \_ LOGON \_ 選項 \_ XXX
 
-\[WLX \_ LOGON \_ 選項 \_ XXX 常數不再適用于 windows Server 2008 和 windows Vista 的使用。\]
+\[WLX \_ LOGON \_ 選項 \_ XXX 常數不再適用于 Windows Server 2008 和 Windows Vista 的使用。\]
 
 **WLX \_ LOGON \_ 選項 \_ XXX** 值是由 [**WlxLoggedOutSAS**](/windows/desktop/api/Winwlx/nf-winwlx-wlxloggedoutsas)的 *>dwoptions* 參數使用。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 
@@ -38,8 +38,8 @@ ms.locfileid: "104319831"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                               |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                      |
 | 標頭<br/>                   | <dl> <dt>Winwlx。h</dt> </dl> |

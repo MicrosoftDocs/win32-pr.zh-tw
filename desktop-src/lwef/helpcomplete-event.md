@@ -4,16 +4,16 @@ description: HelpComplete 事件
 ms.assetid: d805f089-154f-4b39-9d78-a02b732f87ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc3984f4b67eaed6bc9226685e927c35e151c11e
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8a41b4dc0b1b6767b113220f2a922d1a512132a2cd7754891acb9c99b92d0039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106965839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478993"
 ---
 # <a name="helpcomplete-event"></a>HelpComplete 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

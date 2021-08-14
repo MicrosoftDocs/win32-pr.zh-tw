@@ -4,12 +4,12 @@ ms.assetid: 89efb1c7-cf77-465c-b6b3-5f89773c524b
 title: 'AVEncVideoOutputColorTransferFunction 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba86d9afa507804e631614936e941952f17797c8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 841cbdb85f9faf8e395c9cfd54a2ddd4bae831714a848b34c659d3153e0aefe6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342048"
 ---
 # <a name="avencvideooutputcolortransferfunction-property"></a>AVEncVideoOutputColorTransferFunction 屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "106972302"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

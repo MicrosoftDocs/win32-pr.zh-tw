@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 19587cbaa79e2b89633560a7b7889219172d0c25
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 79145936709e43fab9b87602233225567a0067528a31036aacc11c5b425c0dfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112010861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512890"
 ---
 # <a name="ps_3_0"></a>ps \_ 3 \_ 0
 
@@ -31,7 +31,7 @@ ms.locfileid: "112010861"
 
 新增臉部暫存器。 新增位置註冊。 色彩暫存器 (v \#) 現在是完全浮點數，而且已合併 (t) 的材質座標暫存器 \# 。 輸入宣告採用使用名稱，而指定暫存器的元件可以使用多個用法。
 
-## <a name="dynamic-flow-control"></a>動態流程式控制制
+## <a name="dynamic-flow-control"></a>動態 Flow 控制項
 
 [如果 bool-ps](if-bool---ps.md)、[斷路](break---ps.md)和[break \_ ](break-comp---ps.md)) ，則裝置支援動態流量控制 (。 嵌套的深度範圍從0到24。
 
@@ -39,7 +39,7 @@ ms.locfileid: "112010861"
 
 支援的臨時暫存器數目是32。
 
-## <a name="static-flow-control-nesting-depth"></a>靜態流程式控制制的嵌套深度
+## <a name="static-flow-control-nesting-depth"></a>靜態 Flow 控制項的嵌套深度
 
 [呼叫 ps](call---ps.md) / [callnz](callnz-bool---ps.md)  / [呼叫 \_ pred](callnz-pred---ps.md)可以嵌套到最大深度4。 獨立的[迴圈-ps](loop---ps.md) / [](rep---ps.md)指示可以嵌套到最大深度4。
 

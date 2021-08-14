@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: f9800f405c0002fb58ca68ebd2369eb068f6319a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a37876cd4f3d0fd7cab12fe55c9a6a152517a0c5530d3175b449f1e43770227c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384238"
 ---
 # <a name="cdrawimagescalesourcerect-method"></a>CDrawImage. ScaleSourceRect 方法
 

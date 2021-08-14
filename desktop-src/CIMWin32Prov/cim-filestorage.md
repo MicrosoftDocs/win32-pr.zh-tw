@@ -16,12 +16,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3630bdf3250ce93765809df17e9318d3cd44f393
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c59e8e128ce5e82549db745f32387b66be9d578dbe222f91c6a51b413c3f584a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970924"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119321031"
 ---
 # <a name="cim_filestorage-class"></a>CIM \_ FileStorage 類別
 

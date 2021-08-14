@@ -4,16 +4,16 @@ description: IAgentEx GetVersion
 ms.assetid: e5d55fcd-c1b4-4c9e-b3c7-4471af2f86af
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 359abb1d22e2cd34fb6b31d85012ac0110f14037
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ebec46a242dc18aa47dd1024c9a80856bdf7c000625d765a2a013af33b5ca2f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961538"
 ---
 # <a name="iagentexgetversion"></a>IAgentEx：： GetVersion
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetVersion(
@@ -42,9 +42,9 @@ HRESULT GetVersion(
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

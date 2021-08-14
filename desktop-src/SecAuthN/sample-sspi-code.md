@@ -4,12 +4,12 @@ ms.assetid: edd5c6ad-7103-4486-bd11-16ff02b68be4
 title: 範例 SSPI 程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1edd11fcddd8e5442f4b1f15cf5afc37409c5175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a63529c1eff25dcaee1eb9b70281adc188993fed167b5d6815cc33fb9f2b177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118918874"
 ---
 # <a name="sample-sspi-code"></a>範例 SSPI 程式碼
 

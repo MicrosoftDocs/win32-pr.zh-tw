@@ -4,12 +4,12 @@ ms.assetid: 0175940e-2de2-4e2b-a98e-8dcc59e7020f
 title: WPD_CONTENT_TYPE_UNSPECIFIED
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd955ee5ebf31b2348efd3f70c85ae9c004edb83
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 98e6f68cf5ee2a989bbef1554217c579eab77566ee0a3d3f894961d2ac08759f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193309"
 ---
 # <a name="wpd_content_type_unspecified"></a>\_ \_ 未指定 WPD 內容類型 \_
 
@@ -55,7 +55,7 @@ ms.locfileid: "110423678"
 
 
 
-| 資源名稱                                          | 必要或選擇性                             | 描述               |
+| 資源名稱                                          | 必要或選擇性                             | Description               |
 |--------------------------------------------------------|--------------------------------------------------|---------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md) | 如果物件是由二進位資料所支援，則為必要項。 | 包含二進位資料。 |
 

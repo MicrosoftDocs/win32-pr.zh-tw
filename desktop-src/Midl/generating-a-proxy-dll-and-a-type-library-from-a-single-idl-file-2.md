@@ -6,12 +6,12 @@ keywords:
 - Microsoft 介面定義語言 MIDL、工作、產生 proxy DLL 和型別程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a81001bba7aeff416e765291d3e6660b705919a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92e7bf2694b791007b0f1da303525217cf55d75d574e083c6d1756bc2784d0ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021822"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118384234"
 ---
 # <a name="generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file"></a>從單一 IDL 檔案產生 Proxy DLL 和型別程式庫
 
@@ -51,9 +51,9 @@ library KnownLibrary
 
 如需詳細資訊，請參閱 [封送處理 OLE 資料類型](marshaling-ole-data-types.md) 和 [產生類型程式庫所需的其他](additional-files-required-to-generate-a-type-library-2.md)檔案。
 
- 
+ 
 
- 
+ 
 
 
 

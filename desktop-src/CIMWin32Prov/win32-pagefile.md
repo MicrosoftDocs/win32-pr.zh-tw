@@ -50,12 +50,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: fb63c4242ae8fa3cca5133a25d2742d07210ca1c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: d7b144153d94ba1c28234e38e3983eb4a1ab165f4bda26b97eac00799cb3e9ab
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119972298"
 ---
 # <a name="win32_pagefile-class"></a>Win32 \_ 分頁檔類別
 
@@ -504,7 +504,7 @@ DOS 相容的檔案名。
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**

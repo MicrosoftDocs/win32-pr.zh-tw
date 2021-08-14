@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: dcca9a4006f8c8da1758a85d12d716b5ce1bba23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02ffc2aed2a5bf9a24ef086d244ae0917830ee9e0f3280d39fa78b18d11a4b06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966808"
 ---
 # <a name="windows8apijetresizedatabase-method"></a>Windows8Api. JetResizeDatabase 方法
 

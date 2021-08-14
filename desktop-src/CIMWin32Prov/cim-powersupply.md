@@ -45,12 +45,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 35a1eb73c258b800bb8b33ad7aa75ea86cd0ef4c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b7d11de3a0b43738338ec0b9fdbff25a0169d25b4e415b656764b2a10c15637f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421884"
 ---
 # <a name="cim_powersupply-class"></a>CIM \_ 電源供應類別
 

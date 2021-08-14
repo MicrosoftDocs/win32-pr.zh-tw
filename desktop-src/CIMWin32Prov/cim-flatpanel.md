@@ -40,12 +40,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0c399383223734d2f8ebe68528352c229a74bfbc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 691d1f19ae7da4ce4df5901c8d105ea6e39458eaa9f4a4dcaad44a13c7470833
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119320928"
 ---
 # <a name="cim_flatpanel-class"></a>CIM \_ FlatPanel 類別
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 2a206005a686d02891a593243bc0ef3a4ad7db23
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 42a22cfca32409fdfa02586bb90c76f8e8f2489b22cfe2769b50d928d2564af7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960287"
 ---
 # <a name="a_shafinal-function"></a>SHAFinal 函式 \_
 
@@ -60,7 +60,7 @@ SHA 內容。
 
 ## <a name="remarks"></a>備註
 
-此函式與 SHAFinal 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱 [Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
+此函式與 SHAFinal 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱[Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
 
 ## <a name="requirements"></a>規格需求
 

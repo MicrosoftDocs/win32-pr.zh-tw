@@ -10,12 +10,12 @@ keywords:
 - ADSI 資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7eecb54a23f796439143e6ba335e951675ce5a2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88ce0ee6d80e709d60f60a6440768e336ef61f9ea0607ee48199c4b9be12193c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180977"
 ---
 # <a name="adsi-data-types-and-constants"></a>ADSI 資料類型和常數
 
@@ -26,9 +26,9 @@ Active Directory 服務介面 (ADSI) 提供與 ADSI 結構和介面搭配使用�
 -   [**ADSI 列印工作狀態常數**](adsi-print-job-status-constants.md)
 -   [**ADSI 單一資料型別**](adsi-simple-data-types.md)
 
- 
+ 
 
- 
+ 
 
 
 

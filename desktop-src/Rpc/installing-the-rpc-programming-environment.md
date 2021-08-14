@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、描述的程式設計環境
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36e5ef0259f3e1ad34d734f2dcb6a65064767d85
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93e2519702131e344ad31cb49354c0b033326d805b3448427a4b0b95a678c485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928904"
 ---
 # <a name="installing-the-rpc-programming-environment"></a>安裝 RPC 程式設計環境
 
@@ -22,11 +22,11 @@ ms.locfileid: "104021956"
 > [!Note]  
 > 如需各種組建環境的詳細資訊，請參閱 [建立 RPC 應用程式](building-rpc-applications.md) 。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

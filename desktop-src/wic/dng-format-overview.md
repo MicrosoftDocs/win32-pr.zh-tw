@@ -4,12 +4,12 @@ ms.assetid: 6F87A47D-E54A-42D9-92DC-2411803278AA
 title: DNG 格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0815d6a24bb8e57e6c64b90f9e9068765838e148
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e32719e3fa9f45802058708e83635e52e287524496ae49f13f2168362358a7ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204375"
 ---
 # <a name="dng-format-overview"></a>DNG 格式總覽
 

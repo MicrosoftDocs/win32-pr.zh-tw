@@ -7,12 +7,12 @@ keywords:
 - user_marshal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f2bb3237b2d5df001dc94ede5fb03de72b5563eb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5d0501cfd3199d41a49da7f54919c86f9332ce976f33963f23c63a7938338da0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923528"
 ---
 # <a name="the-user_marshal-attribute"></a>使用者 \_ 封送處理屬性
 
@@ -33,7 +33,7 @@ ms.locfileid: "104463489"
 
 
 
- 
+ 
 
 這些使用者提供的常式是由用戶端或伺服器應用程式，以方向屬性為基礎來提供。
 
@@ -60,6 +60,6 @@ ms.locfileid: "104463489"
 [**NdrGetUserMarshalInfo**](/windows/desktop/api/Rpcndr/nf-rpcndr-ndrgetusermarshalinfo)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

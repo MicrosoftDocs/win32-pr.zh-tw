@@ -4,12 +4,12 @@ ms.assetid: 0a380854-f3a9-4077-a481-dda67737d4c8
 title: 執行 IAMErrorLog
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65eb968eb370d06fab6aca13af3215bb3b650257
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 446e193a6a28fc1cbd5515414b9914f2653e8bc27bb9b5a57e69d05dfc947d62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398078"
 ---
 # <a name="implementing-iamerrorlog"></a>執行 IAMErrorLog
 

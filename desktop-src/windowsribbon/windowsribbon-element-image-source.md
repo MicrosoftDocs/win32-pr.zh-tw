@@ -3,7 +3,7 @@ title: Image. Source 屬性
 description: 代表影像的目錄路徑。
 ms.assetid: 174a518a-e9a3-4461-a9a3-d61b62d2b718
 keywords:
-- 影像。來源屬性視窗功能區
+- 影像。來源屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ace2a907280a11c54452b54bfb6172539980e38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 20612f0d25f914cb4c80ae77bb001a678af79e4605c3e1358ed7e33f6b19d805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202403"
 ---
 # <a name="imagesource-property"></a>Image. Source 屬性
 
@@ -43,7 +43,7 @@ ms.locfileid: "103685782"
 
 | 元素                                                 |
 |---------------------------------------------------------|
-| [**Image**](windowsribbon-element-image.md)<br/> |
+| [**映像**](windowsribbon-element-image.md)<br/> |
 
 
 
@@ -90,8 +90,8 @@ ms.locfileid: "103685782"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

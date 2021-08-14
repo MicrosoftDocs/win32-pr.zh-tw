@@ -56,12 +56,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 22718802370995cc0515e3f63e731cc86d37eb0f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 55ee65b151778dbfbb4bb8e09fabfb3ae59392966344b951586cd9e08dd1f984
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119973033"
 ---
 # <a name="win32_networkadapter-class"></a>Win32 \_ NetworkAdapter 類別
 
@@ -632,7 +632,7 @@ class Win32_NetworkAdapter : CIM_NetworkAdapter
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1471,7 +1471,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](../wmisdk/standard-qualifiers.md) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1910,7 +1910,7 @@ IPAddress: Array of strings with length > 6
 
 ## <a name="examples"></a>範例
 
-TechNet 元件庫中的 [兩個 WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f) 函式 PowerShell 程式碼範例會使用 **Win32 \_ NetworkAdapter** 來重新建立 Windows [get-netadapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) Cmdlet。
+TechNet 元件庫中的 [兩個 WMI](https://Gallery.TechNet.Microsoft.Com/Two-WMI-Functions-94c31b5f)函式 PowerShell 程式碼範例會使用 **Win32 \_ NetworkAdapter** 來重新建立 Windows [get-netadapter](/powershell/module/netadapter/get-netadapter?view=win10-ps) Cmdlet。
 
 [本機/遠端電腦上的 Get-computerinfo 查詢電腦資訊（ (WMI)](https://Gallery.TechNet.Microsoft.Com/Get-ComputerInfo-Query-23dd6042) PowerShell 範例（英文）： TechNet 資源庫上的 PowerShell 範例會使用一些硬體和軟體的呼叫，包括 **Win32 \_ NetworkAdapter**，以顯示本機或遠端系統的相關資訊。
 

@@ -4,12 +4,12 @@ ms.assetid: f214385f-3e65-4175-925c-3d1dc4060185
 title: 智慧卡服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc60e9987912426fcca3f6605b9218e085e61ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 57cd16787985a1e8f92105ce61aed4b9532bff806aabb7d8ad4bdd407d807014
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118917382"
 ---
 # <a name="smart-card-service-providers"></a>智慧卡服務提供者
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: 0e9149e6c0dca6166df3cad179681a90e57aaa44
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06b46c0467468153400225415df1c26b675b81d6f2eac0e9c2cee8b1ef7107ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974963"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119957807"
 ---
 # <a name="imfsourcebuffernotifyonupdate-method"></a>IMFSourceBufferNotify：： OnUpdate 方法
 
@@ -47,8 +47,8 @@ void OnUpdate();
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
 | Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 

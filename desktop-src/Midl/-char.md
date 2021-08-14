@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2254db9d0f4efcd003362e4126c5c295ca532b2f
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: feb459f7c2d6ff98a35e139cf07d9d95c4bed575e52b3d20258f570f07297943
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963188"
 ---
 # <a name="char-switch"></a>/char 參數
 
@@ -91,7 +91,7 @@ midl /char { signed | unsigned | ascii7 }
 
 
 
- 
+ 
 
 **/Char** 帶正負號選項表示 C 編譯器字元和小型類型已簽署。 若要比對 **char** 的 midl 預設值，MIDL 編譯器必須將未伴隨正負號規格之 **char** 的所有用法轉換成不帶正負號的 **char**。 因為這個 C 編譯器預設值符合 **small** 的 MIDL 預設值，所以不會修改 [**small**](small.md)型別。
 
@@ -115,7 +115,7 @@ Ascii7 選項表示不會將明確的正負號規格新增至 [**char**](char-id
 
 <dl> <dt>
 
-[**字元**](char-idl.md)
+[**char**](char-idl.md)
 </dt> <dt>
 
 [一般 MIDL 命令列語法](general-midl-command-line-syntax.md)
@@ -127,9 +127,9 @@ Ascii7 選項表示不會將明確的正負號規格新增至 [**char**](char-id
 [**小**](small.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

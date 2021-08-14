@@ -45,12 +45,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c5c07213a2d2a3a1b64621dbc40f707b0900703
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4a795195af94e248f304747ba7edcf4f7a55e11e051e1cb66937242de1d732bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118427624"
 ---
 # <a name="iadssecuritydescriptor-property-methods"></a>IADsSecurityDescriptor 屬性方法
 
@@ -91,7 +91,7 @@ HRESULT put_Control(
 **DaclDefaulted**
 </dt> <dd> <dl>
 
-BOOL 類型的旗標，指出 DACL 是否衍生自預設的機制，而不是由安全描述項的原始提供者明確提供。 例如，如果物件的建立者未指定 DACL，則物件會從建立者的存取權杖接收預設的 DACL。 此旗標可能會影響對 ACE 繼承而言，系統處理 DACL 的方式。 如果 \_ 未設定 SE DACL 出現旗標，系統會忽略此旗標 \_ 。
+BOOL 類型的旗標，指出 DACL 是否衍生自預設的機制，而不是由安全描述項的原始提供者明確提供。 例如，如果物件的建立者未指定 DACL，則物件會從建立者的存取權杖接收預設的 DACL。 此旗標可能會影響對 ACE 繼承而言，系統處理 DACL 的方式。 如果 \_ 未設定 SE DACL 出現旗標，系統就會忽略此旗標 \_ 。
 
 <dt>
 

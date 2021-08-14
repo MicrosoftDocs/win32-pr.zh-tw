@@ -4,12 +4,12 @@ description: 針對傳統的 C 程式設計人員，通常會透過傳回值傳�
 ms.assetid: 85ee217d-6e0b-4160-9cec-a652c1daa9a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fafc97e4d9c9d76b965ab67bcd57f4f33100625
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 816f63f9378c3f2338c7bed6f6a9b5f785d3e138e4762c355aa1932887fd14c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928914"
 ---
 # <a name="indicate-errors-by-exceptions"></a>依例外狀況指出錯誤
 
@@ -42,6 +42,6 @@ long sample(...)
 [例外狀況處理](exception-handling.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

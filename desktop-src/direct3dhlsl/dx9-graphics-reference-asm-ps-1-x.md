@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 761721a4de64e8a9168bcfea49ce7adf567ea7ef
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e10e4eee48490e7ae998e39d71265aef74339c1979112e2fcf0e47e5b07cda7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512939"
 ---
 # <a name="ps_1_1-ps_1_2-ps_1_3-ps_1_4"></a>ps \_ 1 \_ 1、ps \_ 1 \_ 2、ps \_ 1 \_ 3、ps \_ 1 \_ 4
 
@@ -23,7 +23,7 @@ ms.locfileid: "104182972"
 > [!Note]  
 > 圖元著色器1.x 的 HLSL 支援已被取代。
 
- 
+ 
 
 ## <a name="instructions"></a>指示
 
@@ -59,9 +59,9 @@ Direct3D 9 需要中繼計算以針對所有表面格式維持至少8位的有�
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

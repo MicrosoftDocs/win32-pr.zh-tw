@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列 SMS 屬性。
+description: Windows可攜式裝置支援下列 SMS 屬性。
 ms.assetid: d821f378-522f-4f0a-825b-6b15295e7b12
 title: 'SMS 屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: c43917c8c26027713b4e5076e8eb3789b95f08e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12b68a962fc79dd75d6ff90635be5dbe99f36c3170f06cd7d79af2eb23317e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193579"
 ---
 # <a name="sms-properties"></a>SMS 屬性
 
-Windows 可攜式裝置支援下列 SMS 屬性。
+Windows可攜式裝置支援下列 SMS 屬性。
 
 
 

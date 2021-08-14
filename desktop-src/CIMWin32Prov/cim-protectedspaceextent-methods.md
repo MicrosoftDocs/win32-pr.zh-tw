@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_ProtectedSpaceExtent 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8704f8a45ce970749d9e9c248e4c8a998c9ee0b9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 27609c890c490ab94b311ac34cd0e3f396a8c360a365a742e6c9848401db5ad5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118421299"
 ---
 # <a name="cim_protectedspaceextent-methods"></a>CIM \_ ProtectedSpaceExtent 方法
 

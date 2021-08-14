@@ -9,18 +9,18 @@ keywords:
 - 類別 AD，修改物件類別的 defaultSecurityDescriptor
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efc3bd441cb19c43ee36550520d18ee38726b05e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be0d837530454e8e563718d3f5974be22e5b7d42dfa5e29b8424a51c7a5c993d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186323"
 ---
 # <a name="modifying-the-defaultsecuritydescriptor-for-an-object-class"></a>修改物件類別的 defaultSecurityDescriptor
 
 下列程式碼範例會抓取物件類別的預設安全描述項、將 ACE 新增至 DACL，然後在物件類別上設定修改過的安全描述項。
 
-請注意，在所有 Windows 2000 網域控制站上，架構修改預設為停用。 若要在特定 DC 上啟用架構修改，請 \_ 在下列登錄機碼下，設定名為「允許的架構更新」的 REG DWORD 值：
+請注意，預設會在所有 Windows 2000 網域控制站上停用架構修改。 若要在特定 DC 上啟用架構修改，請 \_ 在下列登錄機碼下，設定名為「允許的架構更新」的 REG DWORD 值：
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Services** \\ **NTDS** \\ **參數**
 
@@ -276,9 +276,9 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

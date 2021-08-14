@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割廣告，在樹系中列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8d42bbe28ef37932394721d0c234ba3970ac263b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2c4e8d48b2fc93ad7a879f76f2bbaa130186706ef957320612c866cb3b9f892c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191365"
 ---
 # <a name="enumerating-application-directory-partitions-in-a-forest"></a>列舉樹系中的應用程式目錄分割
 
@@ -31,6 +31,6 @@ ms.locfileid: "104023247"
 4.  藉由比較 [**交叉引用**](/windows/desktop/ADSchema/c-crossref)物件的 [**NCName**](/windows/desktop/ADSchema/a-ncname)屬性與 RootDSE 物件的 **configurationNamingCoNtext** 屬性，從結果集中排除設定磁碟分割。
 5.  結果集中其餘的 [**交叉引用**](/windows/desktop/ADSchema/c-crossref) 物件全都代表應用程式目錄分割。
 
- 
+ 
 
- 
+ 

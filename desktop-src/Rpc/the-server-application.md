@@ -4,12 +4,12 @@ description: 查看遠端程序呼叫的伺服器應用程式部分， (RPC) 範
 ms.assetid: 82ccfd67-6626-49c4-8974-86ebc5841444
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34b8a2bb66fd415a9b8f778134edb4903f88a717
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c393e16a4c26b39efb95d23a2745f75cbeb984cac466c869046f9775f94c80c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923987"
 ---
 # <a name="the-server-application"></a>伺服器應用程式
 

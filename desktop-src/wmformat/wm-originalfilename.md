@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0deaeb07498ac914d563c305c8a63dc6f9bacfbd
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: af99655cccdedb4be7300b9fa96b548bb64e2d05e0d65a8ce6a73b83b5fe43cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372904"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118195638"
 ---
 # <a name="wmoriginalfilename"></a>WM/OriginalFilename
 
@@ -38,9 +38,9 @@ g \_ wszWMOriginalFilename
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

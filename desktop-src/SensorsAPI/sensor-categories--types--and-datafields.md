@@ -4,12 +4,12 @@ ms.assetid: 38d87fb4-8f9f-412f-98e5-84651be2c759
 title: 感應器類別、類型和資料欄位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f6127cfe0229078ddef264dfd68636c92475069b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f5494aa39a4b771bdaa54dd3d46426e9177bf0486886250c163d2a0ca94333c1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959988"
 ---
 # <a name="sensor-categories-types-and-data-fields"></a>感應器類別、類型和資料欄位
 

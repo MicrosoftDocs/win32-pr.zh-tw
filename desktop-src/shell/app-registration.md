@@ -4,12 +4,12 @@ ms.assetid: F88AA3E6-6F7B-442d-935A-7D2CB4958E6B
 title: 應用程式註冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 857e96893d2fe717f1a4939d06c77af043ead318
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cecac1c72614ce3241cbac6b880b0d9f5f84f9fbf85c8ee022d83574df6d86e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118224940"
 ---
 # <a name="application-registration"></a>應用程式註冊
 
@@ -37,7 +37,7 @@ ms.locfileid: "103943273"
 檔案會在下列位置中尋找：
 
 -   目前的工作目錄。
--   只有 (不會) 搜尋任何子目錄的 **Windows** 目錄。
+-   **Windows** 目錄僅 (不會) 搜尋任何子目錄。
 -   **Windows \\ System32** 目錄。
 -   PATH 環境變數中所列的目錄。
 -   建議： **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **應用程式路徑**
@@ -48,7 +48,7 @@ ms.locfileid: "103943273"
 
 ### <a name="using-the-app-paths-subkey"></a>使用應用程式路徑子機碼
 
-在 Windows 7 和更新版本中，強烈建議您安裝每位使用者的應用程式，而不是每部電腦的應用程式。 針對每位使用者安裝的應用程式，可以在 **HKEY \_ CURRENT \_ user** \\ **Software** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **應用程式路徑** 下註冊。 針對電腦的所有使用者所安裝的應用程式，都可以在 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **應用程式路徑** 上註冊。
+在 Windows 7 和更新版本中，強烈建議您安裝每位使用者的應用程式，而不是每部電腦的應用程式。 針對每位使用者安裝的應用程式，可以在 **HKEY \_ 目前的 \_ 使用者** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **應用程式路徑** 下註冊。 針對電腦的所有使用者所安裝的應用程式，都可以在 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **CurrentVersion** \\ **應用程式路徑** 中進行註冊。
 
 在 **應用程式路徑** 下找到的專案主要用於下列用途：
 
@@ -104,7 +104,7 @@ ms.locfileid: "103943273"
     <tbody>
     <tr class="odd">
     <td>(預設值)</td>
-    <td>是應用程式的完整路徑。 在 (預設) 專案中提供的應用程式名稱可以使用或不含 .exe 副檔名來陳述。 如有必要， <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式會在搜尋 <strong>應用程式路徑</strong> 子機碼時新增擴充功能。 專案屬於 <strong>REG_SZ</strong> 類型。</td>
+    <td>是應用程式的完整路徑。  (預設) 專案中提供的應用程式名稱，可以使用或不使用其 .exe 延伸模組來陳述。 如有必要， <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a> 函式會在搜尋 <strong>應用程式路徑</strong> 子機碼時新增擴充功能。 專案屬於 <strong>REG_SZ</strong> 類型。</td>
     </tr>
     <tr class="even">
     <td>DontUseDesktopChangeRouter</td>
@@ -116,7 +116,7 @@ ms.locfileid: "103943273"
     </tr>
     <tr class="even">
     <td>路徑</td>
-    <td>藉由呼叫 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>來啟動應用程式時，以分號分隔的目錄清單格式提供字串 (，) 附加至 PATH 環境變數。 它是 .exe 的完整路徑。 這是 <strong>REG_SZ</strong>。 在 <strong>Windows 7 和更新版本</strong>中，可以 <strong>REG_EXPAND_SZ</strong>類型，而且通常 <strong>REG_EXPAND_SZ</strong> % ProgramFiles%。
+    <td>藉由呼叫 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa"><strong>ShellExecuteEx</strong></a>來啟動應用程式時，以分號分隔的目錄清單格式提供字串 (，) 附加至 PATH 環境變數。 它是 .exe 的完整路徑。 這是 <strong>REG_SZ</strong>。 在<strong>Windows 7 和更新版本</strong>中，類型可以<strong>REG_EXPAND_SZ</strong>，而且通常<strong>REG_EXPAND_SZ</strong> % ProgramFiles%。
     <blockquote>
     [!Note]<br />
 除了 Shell 辨識的 (預設) 、路徑和 DropTarget 專案之外，應用程式也可以將自訂值新增至其可執行檔的 <strong>應用程式路徑</strong> 子機碼。 我們鼓勵應用程式開發人員使用應用程式 <strong>路徑</strong> 子機碼，以提供應用程式特定路徑，而不是將新增至全域系統路徑。
@@ -154,7 +154,7 @@ ms.locfileid: "103943273"
 | IsHostApp                        | 指出程式是一種主機進程，例如 Rundll32.exe 或 Dllhost.exe，而且不應該被視為 [ **開始** ] 功能表釘選，或包含在最常使用的 (MFU) 清單中。 當使用包含非 null 引數清單的快捷方式啟動，或 [ (AppUserModelIDs) 的明確應用程式使用者模型識別碼 ](appids.md)啟動時，可以將該程式釘選 () 的快捷方式。 這類快速鍵是要包含在 最常使用清單中的候選項目。                                                                                                                                                                                                                                                  |
 | NoStartPage                      | 指出應該從 [ **開始** ] 功能表排除應用程式可執行檔和快捷方式，並將其釘選或包含在 最常使用清單中。 此專案通常用來排除系統工具、安裝程式和 uninstallers，以及讀我檔案。                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | UseExecutableForTaskbarGroupIcon | 如果沒有此應用程式的可釘選快捷方式，而不是第一次遇到的視窗圖示，則會讓工作列使用這個可執行檔的預設圖示。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
-| TaskbarGroupIcon                 | 指定用來覆寫工作列圖示的圖示。 視窗圖示通常用於工作列。 設定 TaskbarGroupIcon 專案會導致系統改為使用來自應用程式 .exe 的圖示。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| TaskbarGroupIcon                 | 指定用來覆寫工作列圖示的圖示。 視窗圖示通常用於工作列。 設定 TaskbarGroupIcon 專案時，系統會改為使用應用程式 .exe 中的圖示。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 
 
 
@@ -231,7 +231,7 @@ HKEY_CLASSES_ROOT
 
 若要主動處理變更為預設程式的結果，您可以使用 **HKEY \_ 類別 \_ 根** \\ **SystemFileAssociations** 來註冊動詞和其他關聯資訊。 因為它們在關聯陣列中的 ProgID 之後的位置，所以這些註冊的優先順序較低。 即使使用者變更預設程式，並提供位置來註冊將永遠可供特定檔案類型使用的次要動詞命令，這些 SystemFileAssociationsregistrations 仍是穩定的。 如需登錄範例，請參閱本主題稍後的 [註冊認知型](#registering-a-perceived-type) 別。
 
-下列登錄範例顯示當使用者在主控台中執行 **預設程式** 專案時所發生的情況，以將 mp3 檔的預設值變更為 App2ProgID。 變更預設值之後，Verb1 就無法再使用，Verb2 會成為預設值。
+下列登錄範例顯示當使用者在主控台中執行 **預設程式** 專案時所發生的情況，以將 .mp3 檔案的預設值變更為 App2ProgID。 變更預設值之後，Verb1 就無法再使用，Verb2 會成為預設值。
 
 ```
 HKEY_CLASSES_ROOT

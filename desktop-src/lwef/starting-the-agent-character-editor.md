@@ -4,16 +4,16 @@ description: 啟動代理程式字元編輯器
 ms.assetid: 981fea1d-e961-42c2-8839-e539361e549a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6668d47256b8ca01225ab0e8ea855c261b02fdb2
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: e8dbd07b1fc4bc25bd7e9bf8862e586323686fac096abb63ca19b81e20f2b0dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104195669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119960881"
 ---
 # <a name="starting-the-agent-character-editor"></a>啟動代理程式字元編輯器
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 若要執行代理程式字元編輯器，請從 Windows 工作列的 [**開始**] 功能表中選擇 [**代理程式字元編輯器**] 選項，或按兩下桌面上的 [Microsoft **代理程式字元編輯器**] 圖示。 編輯器的視窗隨即開啟，顯示其功能表、具有常用命令的工具列、列出組成字元定義之元件的樹狀結構，以及根據您在元件樹狀結構中所做的選擇而變更的一組索引標籤式頁面。
 

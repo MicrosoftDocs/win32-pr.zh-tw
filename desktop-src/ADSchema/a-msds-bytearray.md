@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 67d63b421d008fc277799df1e7b58362d1d8b480
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d69e27dda0808bd1f8f2db706f726d0d64fae205fd6a4c60aba11fc487e91e22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106991329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118426721"
 ---
 # <a name="ms-ds-byte-array-attribute"></a>ms DS 位元組陣列屬性
 

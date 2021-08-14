@@ -3,17 +3,17 @@ title: NavigateXmlExample
 description: 請參閱使用 Windows Web 服務 API (WWSAPI) 的 XML 導覽範例。 此範例會將 XML 寫入至 XML 緩衝區，然後將它讀回。
 ms.assetid: b37da839-de05-4fb6-b1aa-b00801e88e47
 keywords:
-- 適用于 Windows 的 NavigateXmlExample Web 服務
+- Windows 的 NavigateXmlExample Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d056a7931ed469bdb84c3b27cc947e463db4cad5
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 6315b163af28fd754bfb7d1dfdc8aa44c14058a7191002122e708571e26e4d82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192884"
 ---
 # <a name="navigatexmlexample"></a>NavigateXmlExample
 

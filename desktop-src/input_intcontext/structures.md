@@ -12,12 +12,12 @@ keywords:
 - 手寫筆
 ms.topic: article
 ms.date: 02/06/2020
-ms.openlocfilehash: 975b1342c681d4d154ba31d31348e13063c9fc88
-ms.sourcegitcommit: 6b8d5058d02daacad4d2ed7830da63b63a509586
+ms.openlocfilehash: b7e194e3b49e86025eed9c5ef3be28ff3796d086eab81fecbecda88f98641cc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "104374242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118483035"
 ---
 # <a name="interaction-context-structures"></a>互動內容結構
 

@@ -4,12 +4,12 @@ ms.assetid: b3568ed9-e359-4916-a83d-7553c021d197
 title: 'DrawString 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 275c256ec2c7284401d37794bccf368538cbdd80
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 11075500bc378a4c8a5b5a7d21fdab982a8a60bb597cecc4bba14825d25f2a53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964772"
 ---
 # <a name="graphicsdrawstring-methods"></a>DrawString 方法
 

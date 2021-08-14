@@ -11,12 +11,12 @@ api_name:
 - ProviderID
 api_type:
 - Schema
-ms.openlocfilehash: 750e6c3f4397f710bb1ccbcea0286be68a89e145
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b40ac5abab2abf850d927c21f0de66ad419987f594f28dffcd380ead7f982d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959788"
 ---
 # <a name="providerid-providertype-element"></a>ProviderID (providerType) 元素
 

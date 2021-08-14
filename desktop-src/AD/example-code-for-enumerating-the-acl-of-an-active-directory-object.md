@@ -7,12 +7,12 @@ keywords:
 - 列舉 Active Directory 物件 AD ACL 的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c30bdec125d0f7bbc40fe6903460165722a614
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 17ff3a28b66b0217e2b10037ec5a6ebb817aec33780a5ad1ba4efa6092a3cbe5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020850"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190626"
 ---
 # <a name="example-code-for-enumerating-the-acl-of-an-object-in-active-directory-domain-services"></a>列舉 Active Directory Domain Services 中物件之 ACL 的範例程式碼
 
@@ -202,9 +202,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

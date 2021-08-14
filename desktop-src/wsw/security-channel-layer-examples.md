@@ -9,12 +9,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b1283339b1a4af624e118e3f6c76a07449f9274
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4d130bc7e0e4250107c6e331a43f7d5a13786929c37bd998177ee587c2f29049
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192769"
 ---
 # <a name="security-channel-layer-examples"></a>安全性通道層範例
 
@@ -22,7 +22,7 @@ ms.locfileid: "106968437"
 
 透過 TCP 的 Windows 傳輸安全性：用戶端： [RequestReplyTcpClientWithWindowsTransportSecurityExample](requestreplytcpclientwithwindowstransportsecurityexample.md)，伺服器： [RequestReplyTcpServerWithWindowsTransportSecurityExample](requestreplytcpserverwithwindowstransportsecurityexample.md)。
 
-具名管道上的 Windows 傳輸安全性：用戶端： [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md)，伺服器： [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md)。
+透過具名管道 Windows 傳輸安全性：用戶端： [RequestReplyNamedPipesClientWithWindowsTransportSecurityExample](requestreplynamedpipesclientwithwindowstransportsecurityexample.md)，伺服器： [RequestReplyNamedPipesServerWithWindowsTransportSecurityExample](requestreplynamedpipesserverwithwindowstransportsecurityexample.md)。
 
 SSL 傳輸安全性：用戶端： [HttpClientWithSslExample](httpclientwithsslexample.md)，伺服器： [HttpServerWithSslExample](httpserverwithsslexample.md)。
 
@@ -36,9 +36,9 @@ SSL 傳輸安全性：用戶端： [HttpClientWithSslExample](httpclientwithssle
 
 若要執行 WWSAPI 安全性範例，您必須設定 SSL 的用戶端和伺服器憑證，以及用於 HTTP 標頭驗證的本機使用者帳戶。 開始之前，您需要下列工具：
 
--   MakeCert.exe (適用于 Windows 7 SDK。 ) 
--   從 Windows Server 2003 開始，Windows Sdk 中提供 CertUtil.exe 或 CertMgr.exe (CertUtil.exe。 CertMgr.exe 可在 Windows 7 SDK 中取得。 您只需要其中一個工具。 ) 
--   HttpCfg.exe： (只有在使用 Windows 2003 或 Windows XP 時才需要此。 這項工具適用于 Windows XP SP2 支援工具，也隨附于 Windows Server 2003 資源套件工具光碟。 ) 
+-   Windows 7 SDK 提供 MakeCert.exe (。 ) 
+-   從 Windows Server 2003 開始，Windows sdk 中提供 CertUtil.exe 或 CertMgr.exe (CertUtil.exe。 CertMgr.exe 可在 Windows 7 SDK 中取得。 您只需要其中一個工具。 ) 
+-   HttpCfg.exe： (只有在使用 Windows 2003 或 Windows XP 時，才需要這麼做。 這項工具可在 Windows XP SP2 支援工具中取得，也隨附于 Windows Server 2003 資源套件工具 CD。 ) 
 
 如果您藉由安裝 Windows 7 SDK 來取得 WWSAPI 的範例，您可以在% ProgramFiles% \\ Microsoft sdk Windows v2.0 bin 下找到 MakeCert.exe 和 CertMgr.exe \\ \\ \\ 。
 
@@ -63,9 +63,9 @@ SSL 傳輸安全性：用戶端： [HttpClientWithSslExample](httpclientwithssle
 
 請確定只有一個名為假-Test-CA 的根憑證。 如果您不確定，您可以使用上述的 [清除] 命令，一律安全地嘗試清除這些憑證 (並且在開始進行五個步驟的設定之前，先忽略錯誤) 。
 
- 
+ 
 
- 
+ 
 
 
 

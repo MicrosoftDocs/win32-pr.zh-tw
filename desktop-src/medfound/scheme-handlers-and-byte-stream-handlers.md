@@ -4,12 +4,12 @@ ms.assetid: b0113527-f22c-4519-b1cf-fea54bff4090
 title: 配置處理常式和 Byte-Stream 處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54976f45c7f07e12b6f095297231d306d0644704
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc7bde81a02762cd9c82e0a7d031582c856da6984ab231775580ddf249caca23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118058225"
 ---
 # <a name="scheme-handlers-and-byte-stream-handlers"></a>配置處理常式和 Byte-Stream 處理常式
 

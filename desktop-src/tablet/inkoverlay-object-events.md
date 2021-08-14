@@ -4,12 +4,12 @@ ms.assetid: 5d679e66-6ea1-491e-86a8-974c4ec61b96
 title: InkOverlay 物件事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6122709f043fa94f4c1b3d04fcd1c51bb3cd8982
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 531ee197a14edf3ce0aa8595bdbcdb3ea2937d9cf863dcc6e95690088ed8ee96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218961"
 ---
 # <a name="inkoverlay-object-events"></a>InkOverlay 物件事件
 

@@ -4,12 +4,12 @@ description: 從伺服器程式開發的觀點來看，內容控制碼是不具�
 ms.assetid: 6a1aabca-4cb9-401c-90c7-0cff7a69b7b6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f743a4a6aa4a2aa7b6987bb54dc56e55cffbc76
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: db05441f7314fba628d1ec07db5f99266c595c84e672ada976b38f7576ab5d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925334"
 ---
 # <a name="server-development-using-context-handles"></a>使用內容控制碼進行伺服器開發
 
@@ -115,11 +115,11 @@ void RemoteClose(PPCONTEXT_HANDLE_TYPE pphContext)
 > [!Note]  
 > 在預期的情況下，用戶端會將有效的內容控制碼傳遞給具有 \[ in、out \] 方向屬性的呼叫，但 RPC 不會拒絕此方向屬性組合的 **Null** 內容控制碼。 **Null** 內容控制碼會以 **null** 指標的形式傳遞至伺服器。 \[應撰寫包含 in、out \] 內容控制碼之呼叫的伺服器程式碼，以避免在收到 **Null** 指標時發生存取違規。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

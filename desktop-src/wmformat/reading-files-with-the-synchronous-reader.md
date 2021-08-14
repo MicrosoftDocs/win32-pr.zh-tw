@@ -3,8 +3,8 @@ title: 使用同步讀取器讀取檔案
 description: 使用同步讀取器讀取檔案
 ms.assetid: 18c6c0cd-478f-4325-b23e-571c33779a96
 keywords:
-- Windows Media Format SDK，讀取檔案
-- Windows Media Format SDK，同步讀取器
+- Windows媒體格式 SDK，讀取檔案
+- Windows媒體格式 SDK，同步讀取器
 - Advanced Systems Format (ASF) 、同步讀取器
 - ASF (Advanced Systems Format) ，同步讀取器
 - Advanced Systems Format (ASF) ，讀取檔案
@@ -14,12 +14,12 @@ keywords:
 - 同步讀取器，讀取檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 893a1bd324cdc91968e423f2084bfdba5ef57c8e
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: c30ed2f9af78c9643f269adb24f740f2fe9227bc2e5b8a36d5c9d29606564176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118197470"
 ---
 # <a name="reading-files-with-the-synchronous-reader"></a>使用同步讀取器讀取檔案
 
@@ -29,14 +29,14 @@ ms.locfileid: "104374402"
 
 同步讀取器可以使用 UNC 路徑名稱 (例如 " \\ \\ someshare \\ somedirectory \\ somefile.txt 之 .wmv" ) ，開啟本機檔案或網路上的檔案。 您無法將檔案串流至同步讀取器，或從網際網路位置開啟檔案。 同步讀取器也提供使用 **IStream** COM 介面作為來源的支援。
 
-同步讀取器提供比非同步讀取器更能從 ASF 檔案抓取樣本的更多功能。 同步讀取器可以依串流號碼和輸出來傳遞範例。 您可以壓縮或解壓縮串流號碼所傳遞的範例。 同步讀取器也可以在播放期間于壓縮和未壓縮的傳遞之間切換;這項功能稱為「快速編輯」。 這項功能可讓編輯應用程式讀取以 Windows Media 為基礎的內容，並將它直接傳遞至寫入器，直到到達所需的框架為止。 屆時，應用程式可以告訴讀者開始傳遞未壓縮的內容，讓應用程式可以修改並傳遞給 recompression 的寫入器。 當應用程式完成修改指定的框架時，它可以告訴讀者再次開始傳遞壓縮的框架。
+同步讀取器提供比非同步讀取器更能從 ASF 檔案抓取樣本的更多功能。 同步讀取器可以依串流號碼和輸出來傳遞範例。 您可以壓縮或解壓縮串流號碼所傳遞的範例。 同步讀取器也可以在播放期間于壓縮和未壓縮的傳遞之間切換;這項功能稱為「快速編輯」。 這項功能可讓編輯應用程式讀取 Windows 媒體內容，並將它直接傳遞至寫入器，直到到達所需的框架為止。 屆時，應用程式可以告訴讀者開始傳遞未壓縮的內容，讓應用程式可以修改並傳遞給 recompression 的寫入器。 當應用程式完成修改指定的框架時，它可以告訴讀者再次開始傳遞壓縮的框架。
 
-同步讀取器物件的最基本功能可以細分為下列步驟。 在這些步驟中，「應用程式」指的是您使用 Windows Media Format SDK 撰寫的程式。
+同步讀取器物件的最基本功能可以細分為下列步驟。 在這些步驟中，「應用程式」是指您使用 Windows 媒體格式 SDK 撰寫的程式。
 
 1.  應用程式會將要讀取的檔案名傳遞給同步讀取器。 當同步讀取器開啟檔案時，它會將輸出編號指派給每個資料流程。 如果檔案使用相互排除，讀取器會為所有互斥資料流程指派單一輸出。
 2.  應用程式會從讀取器取得各種輸出的設定相關資訊。 收集的資訊將可讓應用程式正確地轉譯媒體範例。
 3.  應用程式會一次從同步讀取器開始要求範例。 同步讀取器會以緩衝區物件傳遞 [**INSSBuffer**](/previous-versions/windows/desktop/api/wmsbuffer/nn-wmsbuffer-inssbuffer) 介面的每個範例。
-4.  應用程式會在讀取器傳遞之後，負責呈現資料。 Windows Media Format SDK 不提供任何轉譯常式。 一般而言，應用程式會使用其他 Sdk 來轉譯資料，例如 Microsoft Direct X SDK 或 Microsoft Windows Platform SDK 的多媒體功能。
+4.  應用程式會在讀取器傳遞之後，負責呈現資料。 Windows 媒體格式 SDK 不提供任何轉譯常式。 一般而言，應用程式會使用其他 sdk 來轉譯資料，例如 microsoft Direct X SDK 或 microsoft Windows Platform SDK 的多媒體功能。
 
 這些步驟說明于 WMSyncReader 範例應用程式中。 如需詳細資訊，請參閱 [範例應用程式](sample-applications.md)。
 
@@ -139,9 +139,9 @@ pSyncReader = NULL;
 [**同步讀取器物件**](synchronous-reader-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

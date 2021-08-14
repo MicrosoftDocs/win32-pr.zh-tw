@@ -4,12 +4,12 @@ ms.assetid: d7131299-ad4c-4f0a-8898-d6f53abee521
 title: XTL 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4859520a728d1699cf2bd1b88939bb8ccec13958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a22d5782f69d45438ad0bf1f30525e7f2d08a38653a90343ab14a151f1d4e4da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964178"
 ---
 # <a name="xtl-elements"></a>XTL 元素
 

@@ -4,12 +4,12 @@ ms.assetid: ef0b5b2c-7a43-41d5-8495-8bd1d44a04d1
 title: PhysicalMemory 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 68abaed9386ff16217b1b943448322ffe3ba63eb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 956d639edffe1f3053e0ea53a4dc7f2e9142f5f85d5475733147ec4d0b9eaa5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118377493"
 ---
 # <a name="physicalmemory-property"></a>PhysicalMemory 屬性
 
@@ -21,7 +21,7 @@ ms.locfileid: "106978627"
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer。 如需 Windows Installer 版本所需的最小 Windows service pack 相關資訊，請參閱 [Windows Installer Run-Time 需求](windows-installer-portal.md) 。<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式。 如需 Windows Installer 版本所需的最低 Windows service pack 相關資訊，請參閱[Windows Installer Run-Time 需求](windows-installer-portal.md)。<br/> |
 
 
 

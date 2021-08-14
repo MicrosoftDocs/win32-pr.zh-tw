@@ -8,12 +8,12 @@ keywords:
 - Active Directory，範例程式碼 Visual Basic，讀取物件的安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 68a232b559109ed45fad8060882768968156e4a7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 9288f7e3bed71dc5bbeefdd3cf1a48cebd86efd293b74b46dbaf7a44e7389f6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184821"
 ---
 # <a name="reading-an-objects-security-descriptor"></a>讀取物件的安全描述項
 
@@ -21,7 +21,7 @@ ms.locfileid: "103842032"
 
 下列程式碼範例會使用 [**IADs**](/windows/desktop/api/iads/nf-iads-iads-get) 方法來取出目錄物件的 **nTSecurityDescriptor** 屬性。 這個方法的 c + + 版本會傳回包含 [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch)指標的 **VARIANT** 。 然後，程式碼範例會在該 **IDispatch** 指標上呼叫 **QueryInterface** ，以取得物件安全描述項的 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor)介面。
 
-然後，程式碼範例會使用 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) 方法，從安全描述項中取出資料。 請注意，透過 **IADsSecurityDescriptor** 提供的資料，取決於呼叫端的存取權限。 如果呼叫端沒有物件的 **讀取 \_ 控制** 存取權，則 [**IADsSecurityDescriptor. Objdescriptor.discretionaryacl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods)和 **IADsSecurityDescriptor 的擁有** 者屬性將會失敗。 同樣地，如果呼叫者未啟用「 **SE \_ 安全性 \_ 名稱**」許可權，則呼叫 **get \_ SystemAcl** 方法會失敗。
+然後，程式碼範例會使用 [**IADsSecurityDescriptor**](/windows/desktop/api/iads/nn-iads-iadssecuritydescriptor) 方法，從安全描述項中取出資料。 請注意，透過 **IADsSecurityDescriptor** 提供的資料，取決於呼叫端的存取權限。 如果呼叫端沒有物件的 **讀取 \_ 控制** 存取權，則 [**IADsSecurityDescriptor. Objdescriptor.discretionaryacl**](/windows/desktop/ADSI/iadssecuritydescriptor-property-methods)和 **IADsSecurityDescriptor 的擁有** 者屬性將會失敗。 同樣地，如果呼叫端沒有啟用 **SE \_ 安全性 \_ 名稱** 許可權，呼叫 **get \_ SystemAcl** 方法會失敗。
 
 
 ```VB
@@ -454,6 +454,6 @@ return iReturn;
 
 
 
- 
+ 
 
- 
+ 
