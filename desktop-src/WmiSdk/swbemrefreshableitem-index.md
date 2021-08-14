@@ -17,12 +17,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 6ef1e7f4c646337f615d435587e0ae68286a8702
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: e3c2da7800b74c45c917936f1a1e1f4cbf7de92c0362e70b446b7918a0c76a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312927"
 ---
 # <a name="swbemrefreshableitemindex-property"></a>SWbemRefreshableItem 屬性
 
@@ -51,8 +51,8 @@ SWbemRefreshableItem.Index As Long
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemRefreshableItem<br/>                                                  |
 | IID<br/>                      | IID \_ ISWbemRefreshableItem<br/>                                                   |

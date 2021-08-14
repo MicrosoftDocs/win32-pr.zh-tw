@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: aa4204f2bd41d72a6d3ef67f633f8b64a58051b4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d808d7ac2ee3b6c1cbeddc39c730fc38b7032bde86ce726af03379d71241679c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118400784"
 ---
 # <a name="iamtimelineobjgetstartstop-method"></a>IAMTimelineObj：： GetStartStop 方法
 
@@ -68,7 +68,7 @@ HRESULT GetStartStop(
 
 組合、群組和曲目的開始時間一律為0。
 
-在轉譯期間，DES 會將物件的開始和停止時間四捨五入至最接近的框架界限。 不過，DES 不會覆寫物件的時間。 如果您變更群組畫面播放速率，則永遠會從原始時間計算舍入的時間。 如需詳細資訊，請查看 [DirectShow 編輯服務的時間](time-in-directshow-editing-services.md)。
+在轉譯期間，DES 會將物件的開始和停止時間四捨五入至最接近的框架界限。 不過，DES 不會覆寫物件的時間。 如果您變更群組畫面播放速率，則永遠會從原始時間計算舍入的時間。 如需詳細資訊，請[DirectShow 編輯服務的時間](time-in-directshow-editing-services.md)。
 
 若要判斷轉譯專案中的開始和停止時間，請將傳回的值傳遞 `GetStartStop` 給 [**IAMTimelineObj：： FixTimes**](iamtimelineobj-fixtimes.md) 方法。
 
@@ -78,7 +78,7 @@ HRESULT GetStartStop(
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

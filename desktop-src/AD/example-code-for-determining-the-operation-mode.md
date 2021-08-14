@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，判斷操作模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a059a750cf98efc066ac510c2c8acf58a65ab8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2bb4a7d00a61298ad8b9b29d9208a50023a6885360d31b14933f83a3102ab1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190771"
 ---
 # <a name="example-code-for-determining-the-operation-mode"></a>判斷作業模式的範例程式碼
 
@@ -142,7 +142,7 @@ End Sub
 
 
 
-下列 Visual Basic Scripting Edition 程式碼範例會讀取網域的 **ntMixedDomain** 屬性，並決定作業模式。
+下列 Visual Basic 腳本撰寫版程式碼範例會讀取網域的 **ntMixedDomain** 屬性，並決定作業模式。
 
 
 ```VB
@@ -217,9 +217,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

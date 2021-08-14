@@ -15,12 +15,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53464073dd59837ba8026bbec03118055fba20cd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 62edb05f401c5ed69092c432f20a7ee96c98afd369e4a4cb0a1acde30e166013
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413018"
 ---
 # <a name="cleanupcredentialcache-function"></a>CleanupCredentialCache 函式
 
@@ -59,7 +59,7 @@ BOOL WINAPI CleanupCredentialCache(void);
 如同 WinINet API 的所有其他層面，無法從 DllMain 或全域物件的函式和析構函式中，安全地呼叫這個函式。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

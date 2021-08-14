@@ -1,22 +1,22 @@
 ---
 title: 搭配顯示規範使用的屬性頁
-description: Active Directory Domain Services 提供一種機制，讓您可以從 Active Directory 系統管理嵌入式管理單元或 Windows shell，將頁面新增至針對目錄物件所顯示的屬性工作表。
+description: Active Directory Domain Services 提供一種機制，讓您可以從 Active Directory 系統管理嵌入式管理單元或 Windows shell，將頁面新增至顯示的屬性工作表。
 ms.assetid: c1dd84e2-50f9-4903-a4b5-4473515e4d0e
 ms.tgt_platform: multiple
 keywords:
 - 顯示指定名稱 AD、屬性頁以用於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c204f4d378e66cda5bc02684cb51cc707ba3d6f2
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 4f813223aa88dce3b8bba867139bab476416cba1932c583e2e9be591de03fc63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185182"
 ---
 # <a name="property-pages-for-use-with-display-specifiers"></a>搭配顯示規範使用的屬性頁
 
-Active Directory Domain Services 提供一種機制，讓您可以從 Active Directory 系統管理嵌入式管理單元或 Windows shell，將頁面新增至針對目錄物件所顯示的屬性工作表。 若要將頁面加入至屬性工作表，請執行屬性工作表延伸。
+Active Directory Domain Services 提供一種機制，讓您可以從 Active Directory 系統管理嵌入式管理單元或 Windows shell，將頁面新增至顯示的屬性工作表。 若要將頁面加入至屬性工作表，請執行屬性工作表延伸。
 
 ## <a name="developer-audience"></a>開發人員讀者
 
@@ -32,6 +32,6 @@ Active Directory Domain Services 提供一種機制，讓您可以從 Active Dir
 2.  在要使用屬性工作表擴充功能的電腦上安裝屬性工作表延伸模組。 若要這樣做，請為屬性工作表延伸 DLL 建立 Microsoft Windows Installer 套件，並使用群組原則適當地部署套件。 如需詳細資訊，請參閱散發 [消費者介面元件](distributing-user-interface-components.md)。
 3.  在 Windows 登錄和 Active Directory Domain Services 中註冊屬性工作表延伸模組。 如需詳細資訊，請參閱 [在顯示規範中註冊屬性頁 COM 物件](registering-the-property-page-com-object-in-a-display-specifier.md)。
 
- 
+ 
 
- 
+ 

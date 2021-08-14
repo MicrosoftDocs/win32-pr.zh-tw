@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 939d1aa5216085d701fb728ad5e5e9aa9e07e702
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9bfd1120382ea06f6046f4435d0143024422ff6345959099326ab4a5428d26d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117804026"
 ---
 # <a name="viewexecute-method"></a>View.Exe刻意的方法
 
-[**View**](view-object.md)物件的 **Execute** 方法會使用問號標記來代表 SQL 語句中的參數。 如需詳細資訊，請參閱 [SQL 語法](sql-syntax.md)。 這些參數的值會傳入做為參數記錄的對應欄位。
+[**View**](view-object.md)物件的 **Execute** 方法會使用問號標記來代表 SQL 語句中的參數。 如需詳細資訊，請參閱[SQL 語法](sql-syntax.md)。 這些參數的值會傳入做為參數記錄的對應欄位。
 
 ## <a name="syntax"></a>語法
 
@@ -42,7 +42,7 @@ View.Execute(
 *記錄* 
 </dt> <dd>
 
-選擇性 [**記錄**](record-object.md) 物件，其中包含在 SQL 查詢中 (？ ) 取代參數標記的值。
+選擇性 [**記錄**](record-object.md)物件，其中包含的值會取代 SQL 查詢中 (？ ) 的參數標記。
 
 </dd> </dl>
 
@@ -76,7 +76,7 @@ View.Execute(
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003 或 Windows XP 上的 Windows Installer<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003 或 Windows XP 上的安裝程式<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                      |
 | IID<br/>     | IID \_ IView 定義為 000C109C-0000-0000-C000-000000000046<br/>                                                                                                                                                                                |
 

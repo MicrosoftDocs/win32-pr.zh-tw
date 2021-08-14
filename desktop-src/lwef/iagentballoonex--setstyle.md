@@ -4,16 +4,16 @@ description: IAgentBalloonEx >setstyle
 ms.assetid: 5be569b7-8a2d-437b-b5db-401af343bc78
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d942cc8adaf454a7c5f1cd299581f917560c00a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3961bf5f32aad10c662d9dc2943f32b60fad485621b5adce32e2036e6d2d4275
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478538"
 ---
 # <a name="iagentballoonexsetstyle"></a>IAgentBalloonEx：： >setstyle
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetStyle(

@@ -4,12 +4,12 @@ ms.assetid: f3f455bb-7563-4920-a728-f75fa5854dc9
 title: '使用事件物件 (同步處理) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3c0c7ee5f58b8359e989b19ffc9c016dd1a6593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8466ca1104a4d8e6ddaaed3e0618bea3db68bd1954aaf3b859f66fb93a3aac79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765329"
 ---
 # <a name="using-event-objects-synchronization"></a>使用事件物件 (同步處理) 
 

@@ -4,12 +4,12 @@ ms.assetid: a26a592d-42ef-4690-95b4-48a5324be75a
 title: 執行 WIC-Enabled 的解碼器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ebd6d56258bf18e6cc914a40efa4cd3a57a92fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0aa2211c0b21e8f6fc921986406f7079b13c216f0bd7ada684e7748effb6c7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850647"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205701"
 ---
 # <a name="implementing-a-wic-enabled-decoder"></a>執行 WIC-Enabled 的解碼器
 
@@ -54,7 +54,7 @@ hr = m_pImagingFactory->QueryInterface(
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)

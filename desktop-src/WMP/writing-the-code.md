@@ -3,19 +3,19 @@ title: 撰寫程式碼
 description: 撰寫程式碼
 ms.assetid: dd760de6-1779-4526-ad3e-9e814da8d62e
 keywords:
-- Windows Media Player 行動面板，撰寫程式碼
+- Windows Media Player行動外觀，撰寫程式碼
 - 外觀，撰寫程式碼
 - 建立外觀，撰寫程式碼
 - 撰寫適用于面板的程式碼，Windows Media Player Mobile
 - 撰寫適用于面板的程式碼，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3834255bd8cb1da14c2712ab69e4da6d750c32e8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bac63a871be65dd4217d65a7d9353531bc9253e1881e8ba6fedb6da94fe113e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745514"
 ---
 # <a name="writing-the-code"></a>撰寫程式碼
 
@@ -40,9 +40,9 @@ ms.locfileid: "104372635"
 [**外觀指南**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

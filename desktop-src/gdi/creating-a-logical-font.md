@@ -4,12 +4,12 @@ ms.assetid: 317ea311-0592-432a-87b5-58296de003aa
 title: 建立邏輯字型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4398f426ae2dd0f18c21409422dfbcb53f0e6ee8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5fb491a1af055963053e8b0247ecaa212547a750a7bd0a35db0ae983695a2420
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117887468"
 ---
 # <a name="creating-a-logical-font"></a>建立邏輯字型
 

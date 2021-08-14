@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 174636364fc0c5e0805ed2d1bdd822ff97c63a1a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: bffea9aa34a614a720ac6e3293167a746cc31c628d9ed22389dab651d03bf715
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331125"
 ---
 # <a name="iwmpplaylistarraycount-property"></a>IWMPPlaylistArray：： count 屬性
 

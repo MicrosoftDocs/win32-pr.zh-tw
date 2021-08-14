@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101545
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3842f44fb688d466f366ad34fe9a40bf261c5634
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffe59159f75310d35cd27ef158a2de678e1582fada1cbdfa36f6e97ff861bd7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567335"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118780233"
 ---
 # <a name="esentdatabasesnotfromsamesnapshotexception-methods"></a>EsentDatabasesNotFromSameSnapshotException 方法
 

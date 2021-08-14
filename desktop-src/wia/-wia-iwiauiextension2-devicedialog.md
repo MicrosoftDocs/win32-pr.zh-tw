@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: 94e717184c936ae85ba1cf345a13b44f9bbdce4d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 582a2fe90e6a455b2c0d0119b749a9d86b912b58150d30f3804466ef5bea2a7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439882"
 ---
 # <a name="iwiauiextension2devicedialog-method"></a>IWiaUIExtension2：:D eviceDialog 方法
 
@@ -75,8 +75,8 @@ HRESULT DeviceDialog(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadevd。h</dt> </dl> |
 
 

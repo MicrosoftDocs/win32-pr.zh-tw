@@ -4,12 +4,12 @@ ms.assetid: 59bd5b6a-86fe-4d39-ab7c-9563ac1a8e94
 title: 編碼器範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dfa38e779a7751c22f2c463999619e77e05ef09b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9acf77224b71618068cb42e0b46e15b1063ae333cb1ed3f147ef1ee85e1b4207
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879432"
 ---
 # <a name="encoder-example-code"></a>編碼器範例程式碼
 

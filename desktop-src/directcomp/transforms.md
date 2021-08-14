@@ -4,17 +4,17 @@ description: 本主題討論 Microsoft DirectComposition 對二維 (2D) 仿射 (
 ms.assetid: a0f41cc6-e848-4831-8063-609e17d9b4c6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991e1205422864efdec82bbd4067b9c7662aaf29
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 6c8cc34975ab8304300a1523269808775107f4ce0554432da8c3c04a01f25881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113118653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504771"
 ---
 # <a name="transforms-directcomposition"></a>轉換 (DirectComposition) 
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題討論 Microsoft DirectComposition 對二維 (2D) 仿射 (線性) 轉換的支援，並說明 DirectComposition 支援的轉換類型。
 

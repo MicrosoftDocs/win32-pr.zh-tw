@@ -4,12 +4,12 @@ description: 執行本節所述的最佳作法有助於確保使用輔助技術�
 ms.assetid: ef694361-49b7-424c-a583-1eadc2519db7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38d9f70828610d04255b61ad3ee533d23c514867
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58f596378c55b5f99af5b24fa60a23d980407392298fe2ad656579730fbab709
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839811"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327868"
 ---
 # <a name="accessibility-best-practices"></a>協助工具最佳作法
 
@@ -44,7 +44,7 @@ ms.locfileid: "103839811"
 
 ### <a name="enable-programmatic-access-to-all-ui-elements-and-text"></a>啟用以程式設計方式存取所有 UI 項目和文字
 
-您應用程式的 UI 元素必須以程式設計方式存取輔助技術產品。 所有 UI 元素都必須有標籤，它們必須公開所有屬性值，而且必須引發所有適當的事件。 針對標準的 Windows 控制項，大部分的工作都是透過 Microsoft 消費者介面自動化和 Microsoft Active Accessibility proxy 物件來完成。 但是，自訂控制項需要額外的工作，以確保它們完全公開，讓輔助技術廠商可以識別和操作您應用程式 UI 的元素。
+您應用程式的 UI 元素必須以程式設計方式存取輔助技術產品。 所有 UI 元素都必須有標籤，它們必須公開所有屬性值，而且必須引發所有適當的事件。 在標準 Windows 控制項中，大部分的工作都已經透過 Microsoft 消費者介面自動化和 Microsoft Active Accessibility proxy 物件完成。 但是，自訂控制項需要額外的工作，以確保它們完全公開，讓輔助技術廠商可以識別和操作您應用程式 UI 的元素。
 
 遵循此最佳做法可讓輔助技術廠商識別和操作您產品 UI 的元素。
 
@@ -151,12 +151,12 @@ Tab 鍵停止，特別是在仔細規劃時，讓使用者可以用另一種方�
 
 <dl> <dt>
 
-[Windows Automation API 總覽](windows-automation-api-overview.md)
+[Windows自動化 API 總覽](windows-automation-api-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

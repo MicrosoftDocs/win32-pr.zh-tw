@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 8f11b70f7b4bfd05cbd5f7c29323f1dca00083a4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a3654cd78b3e337e07c8267a98a09e0dcabbbb5cb193238e3ca3ebe31c59b12b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118161812"
 ---
 # <a name="fsctl_srv_request_resume_key-control-code"></a>FSCTL \_ SRV \_ 要求 \_ 繼續 \_ 按鍵控制程式代碼
 

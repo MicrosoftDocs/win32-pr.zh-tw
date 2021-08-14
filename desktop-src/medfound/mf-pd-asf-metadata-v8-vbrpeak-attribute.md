@@ -4,12 +4,12 @@ ms.assetid: a31f447d-b718-4f8d-b0d5-643497339557
 title: 'MF_PD_ASF_METADATA_V8_VBRPEAK 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62d987815fea919bb46bbe5758e48d6eb22dad8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4bfe0784a9bd43ddb68ef2b8457205b389149a41011e46cb748cc7c6d4b7f4f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876232"
 ---
 # <a name="mf_pd_asf_metadata_v8_vbrpeak-attribute"></a>MF \_ PD \_ ASF \_ 中繼資料 \_ V8 \_ VBRPEAK 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "104513693"
 [**IMFASFContentInfo：： GeneratePresentationDescriptor**](/windows/desktop/api/wmcontainer/nf-wmcontainer-imfasfcontentinfo-generatepresentationdescriptor)方法會產生這個屬性。
 
 > [!Note]  
-> 這個屬性只適用于 Windows Media Format SDK 第8版所建立的檔案。 它會對應至 Windows Media 格式 SDK 中的 **VBRPeak** 屬性。
+> 這個屬性只適用于 Windows 媒體格式 SDK 第8版所建立的檔案。 它會對應至 Windows 媒體格式 SDK 中的 **VBRPeak** 屬性。
 
  
 
@@ -36,8 +36,8 @@ ms.locfileid: "104513693"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

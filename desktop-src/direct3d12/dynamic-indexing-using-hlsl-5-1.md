@@ -5,12 +5,12 @@ ms.assetid: 9821AEDF-E83D-4034-863A-2B820D9B7455
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e41892e7deff23c8d11f8be1c38dac3fcba1de9
-ms.sourcegitcommit: 4c00910ed754d7d0a68c9a833751d714c06e3b39
+ms.openlocfilehash: bc560a71ac602f7c78d41e4805d90cb404c2210790b462fb5353b9e5b3ad48f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/05/2021
-ms.locfileid: "104548391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118529285"
 ---
 # <a name="dynamic-indexing-using-hlsl-51"></a>使用 HLSL 5.1 的動態索引
 
@@ -19,7 +19,7 @@ ms.locfileid: "104548391"
 -   [設定圖元著色器](#set-up-the-pixel-shader)
 -   [設定根簽章](#set-up-the-root-signature)
 -   [建立紋理](#create-the-textures)
--   [上傳材質資料](#upload-the-texture-data)
+-   [Upload 材質資料](#upload-the-texture-data)
 -   [載入擴散材質](#load-the-diffuse-texture)
 -   [建立取樣器](#create-a-sampler)
 -   [動態變更根參數索引](#dynamically-change-the-root-parameter-index)
@@ -211,7 +211,7 @@ fxc /Zi /E"PSSceneMain" /Od /Fo"dynamic_indexing_pixel.cso" /ps"_5_1" /nologo /e
 
  
 
-## <a name="upload-the-texture-data"></a>上傳材質資料
+## <a name="upload-the-texture-data"></a>Upload 材質資料
 
 透過上傳堆積將材質資料上傳至 GPU，並為每個資料集建立 SRVs，並儲存在 SRV 描述元堆積中。
 

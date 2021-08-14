@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: e693985cf7d8d83bd5a00595c42cd4427b0ebd5b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: dd3696c5c07324c9a6827e5ac9521c51c9ff90d3622cc2249b0421c3bc9b4b88
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108100556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118221505"
 ---
 # <a name="ishelldispatchexplore-method"></a>IShellDispatch。流覽方法
 
@@ -74,9 +74,9 @@ IShellDispatch.Explore( _
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何在 JScript、VBScript 和 Visual Basic 中使用 **探索** 。
+下列範例示範如何在 JScript、VBScript 和 Visual Basic 中使用 **探索**。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -134,7 +134,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

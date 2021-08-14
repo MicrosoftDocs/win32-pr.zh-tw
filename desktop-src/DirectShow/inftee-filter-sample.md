@@ -4,18 +4,18 @@ ms.assetid: ba401528-9706-41fb-99d1-2bc3ffc05f1a
 title: InfTee 篩選範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3cd0fc5a1d550e0327da0d0d3dd47c8847ffafee
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2bd0bbbb4df30f549a8ea0ba15d33696dcb7c108cbeffa6658bbb1842291517d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118398016"
 ---
 # <a name="inftee-filter-sample"></a>InfTee 篩選範例
 
 ## <a name="description"></a>Description
 
-InfTee 篩選器提供了 DirectShow [無限釘](infinite-pin-tee-filter.md) 選篩選準則的範例執行。 篩選器具有一個輸入的 pin 和動態的輸出圖釘數目。 所有傳送至篩選器的媒體範例都會從所有輸出圖釘同時傳遞。
+InfTee 篩選器提供 DirectShow[無限 Pin 指標](infinite-pin-tee-filter.md)篩選準則的範例執行。 篩選器具有一個輸入的 pin 和動態的輸出圖釘數目。 所有傳送至篩選器的媒體範例都會從所有輸出圖釘同時傳遞。
 
 此篩選器會出現在 GraphEdit 的「範例無限 Pin 碼 t」名稱底下，以與 DirectShow 中提供的標準無限 Pin 指標篩選準則區別。
 
@@ -27,7 +27,7 @@ InfTee 篩選器提供了 DirectShow [無限釘](infinite-pin-tee-filter.md) 選
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-若要下載 DirectShow SDK 範例，請安裝最新版本的 [Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
+若要下載 DirectShow SDK 範例，請安裝最新版本的[Windows SDK](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。
 
 此範例安裝在下列路徑下： *\[ SDK \] 根* \\ 範例 \\ 多媒體 \\ DirectShow \\ 篩選 \\ InfTee。
 
@@ -35,7 +35,7 @@ InfTee 篩選器提供了 DirectShow [無限釘](infinite-pin-tee-filter.md) 選
 
 <dl> <dt>
 
-[DirectShow 範例](directshow-samples.md)
+[DirectShow樣品](directshow-samples.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGuids.lib
 - PortableDeviceGuids.dll
-ms.openlocfilehash: 10a356fbb8591568a9f99d9b92d681a46754a960
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8180cef03e0eb11a0e05fa52b8fdb20ed35d7e820873913b2ab00311282f1ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118430792"
 ---
 # <a name="ienumportabledeviceconnectorsreset-method"></a>IEnumPortableDeviceConnectors：： Reset 方法
 
@@ -44,7 +44,7 @@ HRESULT Reset();
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 
@@ -58,7 +58,7 @@ HRESULT Reset();
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                                                                                             |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                             |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                              |
 | 標頭<br/>                   | <dl> <dt>Devpkey .h;</dt><dt>Portabledeviceconnectapi .h</dt> </dl> |
 | Idl<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |

@@ -4,12 +4,12 @@ ms.assetid: c3117086-268e-4e52-acfb-2c8167adaa07
 title: 'RemoteBeginUnregisterPlatformWorkQueueWithMMCSS (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab364f041d6bc8d0f6275879c82a937e98f463b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceef3efa5eb4adb34326a2280401c9d43f5e24c84f639225ef10e9fc73521b4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878342"
 ---
 # <a name="remotebeginunregisterplatformworkqueuewithmmcss"></a>RemoteBeginUnregisterPlatformWorkQueueWithMMCSS
 
@@ -33,8 +33,8 @@ HRESULT RemoteBeginUnregisterPlatformWorkQueueWithMMCSS(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mfuuid .lib</dt> </dl>                    |
 

@@ -4,16 +4,16 @@ ms.assetid: 991eb86f-9e6f-4084-8b6f-f979e42104b5
 title: 4 gb 調整： BCDEdit 和 Boot.ini
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f997ae09748370d5ec8ec246da80b6440d7aaf45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c8cd7b824669abbe684af91d848f445fe287c333c04abc08c676f3e125d2b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386689"
 ---
 # <a name="4-gigabyte-tuning-bcdedit-and-bootini"></a>4 gb 調整： BCDEdit 和 Boot.ini
 
-在32位版本的 Windows 上，應用程式有 4 gb 的可用虛擬位址空間 (GB) 。 虛擬位址空間已分割，因此應用程式可以使用 2 GB，而其他 2 GB 僅供系統使用。 4 gb 調整 (4GT 或 4GT RAM 調整) 功能（使用 *BCDEdit/set increaseuserva* 命令啟用）會增加應用程式可用的虛擬位址空間（最多 3 GB），並將可供系統使用的空間減少為1到 2 gb。
+在 Windows 的32位版本中，應用程式有 4 gb 的可用虛擬位址空間 (GB) 。 虛擬位址空間已分割，因此應用程式可以使用 2 GB，而其他 2 GB 僅供系統使用。 4 gb 調整 (4GT 或 4GT RAM 調整) 功能（使用 *BCDEdit/set increaseuserva* 命令啟用）會增加應用程式可用的虛擬位址空間（最多 3 GB），並將可供系統使用的空間減少為1到 2 gb。
 
 對於需要海量儲存體的應用程式（例如 (DBMS) 的資料庫管理系統），使用較大的虛擬位址空間可提供可觀的效能和擴充性優勢。 不過，檔案快取、分頁集區和非分頁集區較小，可能會對具有大量網路或 i/o 的應用程式造成負面影響。 因此，您可能會想要在負載下測試您的應用程式，並檢查效能計數器，以判斷您的應用程式是否受益于較大的位址空間。
 
@@ -24,13 +24,13 @@ ms.locfileid: "104192658"
 -   Windows Server 2003
 -   Windows XP Professional
 
-**/3gb** 參數會為應用程式提供完整的 3 GB 虛擬位址空間，並將系統可用數量減少為 1 GB。 在 Windows Server 2003 上，可以調整應用程式可用的位址空間量，方法是將 Boot.ini 中的 **/USERVA** 參數設定為介於2048和3072之間的值，這樣會增加系統可用的位址空間量。 當應用程式需要 2 GB 以上的位址空間時，這有助於維護整體系統效能。
+**/3gb** 參數會為應用程式提供完整的 3 GB 虛擬位址空間，並將系統可用數量減少為 1 GB。 在 Windows Server 2003 上，可以調整應用程式可用的位址空間量，方法是將 Boot.ini 中的 **/USERVA** 參數設定為2048到3072之間的值，這樣會增加系統可用的位址空間量。 當應用程式需要 2 GB 以上的位址空間時，這有助於維護整體系統效能。
 
 若要讓應用程式使用較大的位址空間，請在映射標頭中設定 [**影像檔案的 \_ \_ 大型 \_ 位址 \_ 感知**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) 旗標。 Microsoft Visual C++ 隨附的連結器支援 **/LARGEADDRESSAWARE** 參數，以設定此旗標。 設定此旗標，然後在沒有4GT 支援的系統上執行應用程式時，應該不會影響應用程式。
 
-在64位版本的 Windows 中，以 [**圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image) 旗標標記的32位應用程式有 4 GB 的可用位址空間。
+在64位版本的 Windows 中，以 [**圖像 \_ 檔案 \_ 大型 \_ 位址 \_ 感知**](/windows/desktop/api/dbghelp/ns-dbghelp-loaded_image)旗標標記的32位應用程式有 4 GB 的可用位址空間。
 
-**Itanium 版本的 Windows Server 2003：** 在 SP1 之前，32位進程只有 2 GB 的位址空間可用。
+**Itanium 版的 Windows Server 2003：** 在 SP1 之前，32位進程只有 2 GB 的位址空間可用。
 
 使用下列指導方針來支援應用程式中的4GT：
 

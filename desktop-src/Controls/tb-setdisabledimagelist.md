@@ -3,7 +3,7 @@ title: 'TB_SETDISABLEDIMAGELIST 訊息 (Commctrl .h) '
 description: 設定工具列控制項將用來顯示停用按鈕的影像清單。
 ms.assetid: 1e76b3cf-2d06-48c8-8298-ef6caf3d85c3
 keywords:
-- TB_SETDISABLEDIMAGELIST message Windows 控制項
+- TB_SETDISABLEDIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a7cc8c9ec1fdc9658413da5991fa109e7bef27a6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9125c5e5ac742f4692fc5464cd51c89e111558c4d0004e08d7cef9c862d03cbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118167488"
 ---
 # <a name="tb_setdisabledimagelist-message"></a>TB \_ SETDISABLEDIMAGELIST 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104025329"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

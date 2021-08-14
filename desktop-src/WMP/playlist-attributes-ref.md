@@ -4,25 +4,25 @@ description: 播放清單屬性參考
 ms.assetid: d163b6fd-a64f-4160-95cb-6ac1153f011b
 keywords:
 - Windows Media Player，播放清單屬性
-- Windows Media Player 行動裝置、播放清單屬性
+- Windows Media Player行動裝置、播放清單屬性
 - Windows Media Player 物件模型、播放清單屬性
 - 物件模型、播放清單屬性
-- ActiveX 控制項、播放清單屬性
+- ActiveX 控制項，播放清單屬性
 - Windows Media Player ActiveX 控制項、播放清單屬性
-- Windows Media Player Mobile ActiveX 控制項、播放清單屬性
+- Windows Media PlayerMobile ActiveX 控制項、播放清單屬性
 - 物件模型的參考、播放清單屬性
 - 屬性、播放清單
 - 播放清單、屬性
 - 中繼檔播放清單，屬性
-- Windows Media 中繼檔播放清單，屬性
+- Windows媒體中繼檔播放清單，屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28bff94922356a18994f5750acd7e4201915360d
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 8e9d9706ed062035de3bdcde175497f0e22cd735409b6834040f3d325ef4b066
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106965686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337168"
 ---
 # <a name="playlist-attributes-reference"></a>播放清單屬性參考
 

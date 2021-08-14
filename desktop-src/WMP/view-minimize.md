@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 1e01c35ad5a77c5a78a705d0188f771e0466a761
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0351ad27e18750832151e8820dec8594319024791850f1ab92764e175d9582b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332960"
 ---
 # <a name="viewminimize"></a>VIEW. 最小化
 

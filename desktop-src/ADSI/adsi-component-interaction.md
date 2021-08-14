@@ -5,12 +5,12 @@ ms.assetid: d5438059-1d98-44af-aeac-a3d987990222
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61a9ca749e1083ab86335893bef9f4307faee410
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 7ec82573c23564c964ebe310cd7eceb917a4565ed2d6fa8aa40b4dc03d1db2d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181104"
 ---
 # <a name="adsi-component-interaction"></a>ADSI 元件互動
 
@@ -22,6 +22,6 @@ Active Directory 路由器元件從用戶端應用程式收到第一個要求時
 
 在上圖中，提供者元件會建立代表命名目錄元素的 Active Directory 物件。 ADSI 支援元件會在要求的介面識別碼上進行 **QueryInterface** 。 當該介面的指標被抓取 (4) 時，如同所有的 COM 用戶端/伺服器執行，系統會接著將它傳回給用戶端 (5) ，然後在用戶端應用程式上直接與提供者元件 (6) 一起運作。
 
- 
+ 
 
- 
+ 

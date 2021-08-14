@@ -7,12 +7,12 @@ keywords:
 - ADSI LDAP 提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8edbca53708a46c2f788c328a78bd2488973486
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2d9632f352bdfab9653de5c443d750be027c3dd74140c2a017e5d12a6dc0f673
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180592"
 ---
 # <a name="adsi-ldap-provider"></a>ADSI LDAP 提供者
 
@@ -23,11 +23,11 @@ ADSI LDAP 提供者會執行一組支援各種 ADSI 介面的 ADSI 物件。 若
 > [!Note]  
 > 預設的 ADSI LDAP 提供者無法假設為完全安全線程。 多執行緒應用程式的寫入器應該透過適當的同步處理物件（例如，信號、mutex、重要區段等等）來適當地協調執行緒之間的存取。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

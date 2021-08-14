@@ -8,12 +8,12 @@ keywords:
 - 屬性 AD、索引
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c280d5390d666b6b0f95f49972e4c569f046865b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cabd205fea66b198096a9a9427822eb4ba0ccb609fb3e6fef0854fa91848371c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106978575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187582"
 ---
 # <a name="indexed-attributes-ad-ds"></a>索引屬性 (AD DS) 
 
@@ -33,16 +33,16 @@ ms.locfileid: "106978575"
 
 ```
 HKEY_LOCAL_MACHINE
-   SYSTEM
-      Current Control Set
-         Services
-            NTDS
-               Diagnostics
-                  9 Internal Processing
+   SYSTEM
+      Current Control Set
+         Services
+            NTDS
+               Diagnostics
+                  9 Internal Processing
 ```
 
 如需 [**searchFlags**](/windows/desktop/ADSchema/a-searchflags) 屬性中其他位的詳細資訊，請參閱 [屬性的特性](characteristics-of-attributes.md)。
 
- 
+ 
 
- 
+ 

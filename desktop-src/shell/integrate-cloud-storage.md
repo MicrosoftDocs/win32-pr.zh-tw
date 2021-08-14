@@ -1,17 +1,17 @@
 ---
 description: 示範如何註冊為同步根提供者，並將雲端存放裝置提供者整合至流覽窗格的根層級。
 ms.assetid: BB177EDC-8C88-4540-B2F8-994C1C8BA91C
-title: 整合雲端存放裝置提供者
+title: 整合雲端儲存體提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21fdc5abfbf9881bfe23b00a924fce989aec7c95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1e218caa292e2b85e13e00374562c172158be8bb2f062f25b47979902046282c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118458198"
 ---
-# <a name="integrate-a-cloud-storage-provider"></a>整合雲端存放裝置提供者
+# <a name="integrate-a-cloud-storage-provider"></a>整合雲端儲存體提供者
 
 當您有雲端存放裝置提供者時，您必須採取幾個步驟，才能為使用者提供一致且慣用的體驗。 這兩個專案會註冊為同步根提供者，並將您的應用程式整合到流覽窗格的根層級中。
 
@@ -20,12 +20,12 @@ ms.locfileid: "104564631"
 
  
 
-第一件事是註冊為同步根提供者。 這可讓 Windows Shell 知道您的應用程式，而且您的應用程式會負責同步處理根的檔案。 這也可讓其他應用程式知道您要同步處理這些檔案，讓它們能夠適當地回應。 然後，其他應用程式就可以使用 [**StorageFile**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) 來取得應用程式的 [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) 和 [**Id**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) 。
+第一件事是註冊為同步根提供者。 這可讓 Windows Shell 知道您的應用程式，而且您的應用程式會負責同步處理根下的檔案。 這也可讓其他應用程式知道您要同步處理這些檔案，讓它們能夠適當地回應。 然後，其他應用程式就可以使用 [**StorageFile**](/uwp/api/Windows.Storage.StorageFile?view=winrt-19041) 來取得應用程式的 [**DisplayName**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) 和 [**Id**](/uwp/api/Windows.Storage.StorageProvider?view=winrt-19041) 。
 
 為了註冊為同步根提供者，您必須建立多個登錄專案。 在提供索引鍵/值組的清單之前，以下是一些您應該以自己的應用程式資料取代的預留位置。
 
--   *\[ 儲存提供者 \] 識別碼*：雲端儲存體提供者的名稱。 無論您的應用程式版本為何，此名稱都應該一致。 這是 OneDrive 的範例。
--   *\[ Windows sid \]*：識別使用者的唯一 Windows sid。 如果您的應用程式在單一電腦上支援多個使用者的多個安裝，則需要此部分。
+-   *\[ 儲存提供者 \] 識別碼*：雲端儲存體提供者的名稱。 無論您的應用程式版本為何，此名稱都應該一致。 OneDrive 的範例。
+-   *\[ Windows sid \]*：識別使用者的唯一 Windows SID。 如果您的應用程式在單一電腦上支援多個使用者的多個安裝，則需要此部分。
 -   *\[ 帳戶識別碼 \]*：此使用者目前帳戶的服務提供者識別碼。 有些提供者需要能夠為使用者提供多個同步處理根。 其中一個範例是工作和個人帳戶。 *帳戶識別碼* 可讓您為一位使用者註冊多個帳戶。 如果您的提供者支援每位使用者多個同步處理根，則需要此部分。
 
 這些預留位置會合並在一起，以形成同步根識別碼。您必須將 **！** 形成同步根識別碼時，每個預留位置之間的字元。以下是需要建立的機碼值組。
@@ -36,7 +36,7 @@ ms.locfileid: "104564631"
 
 除了註冊為同步根提供者之外，您也希望使用者能夠輕鬆存取您提供的資料。 檔案總管命名空間的設計目的，是為了提供可輕鬆存取的方法。 建立提供者的命名空間延伸模組並將其併入檔案總管視窗中，可讓使用者與服務的根層級互動，就像是與其他檔案總管專案搭配使用一樣。 本主題說明如何擴充檔案總管命名空間，讓您的提供者會出現在流覽窗格中的根層級。
 
-檔案總管視窗的導覽窗格是顯示在左側視窗的部分。 在下圖中，您可以看到此使用者的命名空間結構。 流覽窗格中的根層級包括 **OneDrive**、這部 **電腦** 和 **網路** 的物件。 遵循這些步驟會將您的延伸模組加入至相同的層級。
+檔案總管視窗的導覽窗格是顯示在左側視窗的部分。 在下圖中，您可以看到此使用者的命名空間結構。 流覽窗格中的根層級包含 **OneDrive**、這部 **電腦** 和 **網路** 的物件。 遵循這些步驟會將您的延伸模組加入至相同的層級。
 
 ![瀏覽窗格](images/navigationpane.png)
 

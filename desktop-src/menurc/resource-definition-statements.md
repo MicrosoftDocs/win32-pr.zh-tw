@@ -7,12 +7,12 @@ keywords:
 - TEXTINCLUDE 資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8887c002bc3564288eb99fdb373ac26c286d1bf7
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 4937eb9d5fb9bba7b174aa9543be8b3f2eb41c90c6bc20a72650114f57fb4fa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869904"
 ---
 # <a name="resource-definition-statements"></a>Resource-Definition 語句
 
@@ -51,11 +51,11 @@ ms.locfileid: "103933227"
 | **TYPELIB**                                   | 與 [/TLBID](/cpp/build/reference/tlbid-specify-resource-id-for-typelib?view=vs-2019) 和 [/TLBOUT](/cpp/build/reference/tlbout-name-dot-tlb-file?view=vs-2019) 連結器選項搭配使用的特殊資源。 |
 | [**使用者定義**](user-defined-resource.md) | 定義包含應用程式特定資料的資源。                                                                                                                     |
 | [**VERSIONINFO**](versioninfo-resource.md)   | 定義版本資訊資源。 包含版本號碼、預定作業系統等資訊。                                                  |
-| **Vxd**                                       | 已過時。                                                                                                                                                                       |
+| **VXD**                                       | 已過時。                                                                                                                                                                       |
 
 
 
- 
+ 
 
 如需預先定義之 MFC 資源的詳細資訊，請參閱 [TN023](/cpp/mfc/tn023-standard-mfc-resources?view=vs-2019) 和 [TN024](/cpp/mfc/tn024-mfc-defined-messages-and-resources?view=vs-2019)。
 
@@ -87,7 +87,7 @@ ms.locfileid: "103933227"
 
 
 
- 
+ 
 
 ## <a name="statements"></a>陳述式
 
@@ -108,8 +108,8 @@ ms.locfileid: "103933227"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

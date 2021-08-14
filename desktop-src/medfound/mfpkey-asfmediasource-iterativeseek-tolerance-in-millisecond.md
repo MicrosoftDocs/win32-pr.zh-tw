@@ -4,12 +4,12 @@ ms.assetid: 3ee4410f-857c-4978-a308-87decfba0e2f
 title: 'MFPKEY_ASFMediaSource_IterativeSeek_Tolerance_In_MilliSecond 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f4190d9f87d906a701908dfc17b61633204fe8a2
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: b8cfc1ef656e1cff3da4bb33f19a3c2176729035f94a194a4ede21354f5dbc54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874129"
 ---
 # <a name="mfpkey_asfmediasource_iterativeseek_tolerance_in_millisecond-property"></a>MFPKEY \_ ASFMediaSource \_ IterativeSeek \_ 容錯 \_ In \_ 毫秒屬性
 
@@ -46,7 +46,7 @@ VT \_ UI4
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

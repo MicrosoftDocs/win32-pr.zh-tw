@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 78a11f325b8682b0024ff281a48989b837d3073a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e4706f46c23e151d1a8a8a2bb24c7d35422de42697bd314a0e795c446b5cf0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172575"
 ---
 # <a name="shutdown-method-of-the-cim_operatingsystem-class"></a>CIM 作業系統類別的 Shutdown 方法 \_
 

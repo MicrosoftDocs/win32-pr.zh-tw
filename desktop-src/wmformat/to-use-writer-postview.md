@@ -11,12 +11,12 @@ keywords:
 - postviewing
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: abb3c1c83ebd38ff04c2022e529693d3d43b8b35
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 7800f3ba50f9f1d61793a0d2ada2db0c03d6b88551ac1147e17872aa8e428c39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104507836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118196402"
 ---
 # <a name="to-use-writer-postview"></a>使用寫入器 Postview
 
@@ -44,9 +44,9 @@ ms.locfileid: "104507836"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

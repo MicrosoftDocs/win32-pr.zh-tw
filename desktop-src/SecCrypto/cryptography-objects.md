@@ -4,12 +4,12 @@ ms.assetid: 4ab16355-1341-4c7a-b570-bd33f11dde00
 title: 加密物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ea3476e7edad1d32fe1e11635bd65622d2a8375
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ff5e9495d64c38272bac54ffac03d1d087b9286887b4e4e520c6a447765efac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768370"
 ---
 # <a name="cryptography-objects"></a>加密物件
 
@@ -41,7 +41,7 @@ ms.locfileid: "104386147"
 | [**延伸模組**](extensions.md)                   | 表示 [**擴充**](extension.md) 物件的集合。                                                      |
 | [**PrivateKey**](privatekey.md)                   | 代表私密金鑰。                                                                                               |
 | [**PublicKey**](publickey.md)                     | 代表 [**憑證**](certificate.md) 物件中的公開金鑰。                                                 |
-| [**市集**](store.md)                             | 提供屬性和方法，以選擇、管理及使用憑證存放區和這些存放區中的憑證。 |
+| [**儲存**](store.md)                             | 提供屬性和方法，以選擇、管理及使用憑證存放區和這些存放區中的憑證。 |
 | [**範本**](template.md)                       | 代表憑證的憑證延伸範本。                                                       |
 
 

@@ -4,12 +4,12 @@ description: CustomAccServer 範例
 ms.assetid: 8c3636ef-0993-4ded-a3c0-05cf2de777bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f7f8ee7d82361177af07aa7ad53a6137c39bc38
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 71ebf1ecde2821208d788b20b5cb0fc1a00403c1607fb4604eb92845daf49d41
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325987"
 ---
 # <a name="customaccserver-sample"></a>CustomAccServer 範例
 
@@ -28,7 +28,7 @@ ms.locfileid: "108088006"
 
 ## <a name="download-information"></a>下載資訊
 
-CustomAccServer 範例會安裝為 [Microsoft Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx) 的一部分，並可在下列位置中取得。
+CustomAccServer 範例會安裝為[Microsoft Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windowsvista/bb980924.aspx)的一部分，並可在下列位置中取得。
 
 
 
@@ -58,7 +58,7 @@ CustomAccServer 範例會安裝為 [Microsoft Windows 軟體開發套件 (SDK) ]
 
 若要使用 Visual Studio 2008 建立範例：
 
-1.  執行 SDK 隨附的 Microsoft Windows 軟體開發套件 (SDK) 設定工具，以將 SDK include 目錄新增至 Visual Studio。
+1.  執行 sdk 隨附的 Microsoft Windows 軟體開發套件 (sdk) 設定工具，以將 sdk include 目錄新增至 Visual Studio。
 2.  開啟 Windows 檔案總管並流覽至專案目錄。
 3.  按兩下 .sln (方案的圖示) 檔案，在 Visual Studio 中開啟專案。
 4.  在 [ **組建** ] 功能表上，選取 [ **建立方案** ] 來建立方案。 應用程式將會建立在預設的 \\ Debug 或 \\ Release 目錄中。

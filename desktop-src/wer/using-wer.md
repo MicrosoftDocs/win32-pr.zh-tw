@@ -3,21 +3,21 @@ title: 使用 WER
 description: 從 Windows Vista 開始，Windows 預設會提供損毀、非回應和核心錯誤報表，而不需要變更您的應用程式。
 ms.assetid: c096cd89-e3a7-4959-a35f-40e6168f277e
 keywords:
-- Windows 錯誤報告 Windows 錯誤報告，使用
+- 使用 < Windows 錯誤報告 Windows 錯誤報告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 655bed6d11757d7d4e08cd00ac47479e1246f96b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 17dfa8bc2235f43770cd177ad3e5d9a7d1aacde36034152b88cb06af3879e8c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442237"
 ---
 # <a name="using-wer"></a>使用 WER
 
 從 Windows Vista 開始，Windows 預設會提供損毀、非回應和核心錯誤報表，而不需要變更您的應用程式。 如有需要，報表將包含小型傾印和堆積傾印資訊。 應用程式改為使用 WER API 將應用程式特定的問題報告傳送給 Microsoft。
 
-因為 Windows 會自動報告未處理的例外狀況，所以應用程式不應該處理嚴重的例外狀況。 如果發生錯誤或無回應的程式是互動式的，則 WER 會顯示通知使用者問題的使用者介面。 如果應用程式在使用者嘗試與應用程式互動時，沒有回應 Windows 訊息的五秒，則會被視為沒有回應。
+因為 Windows 會自動報告未處理的例外狀況，所以應用程式不應該處理嚴重的例外狀況。 如果發生錯誤或無回應的程式是互動式的，則 WER 會顯示通知使用者問題的使用者介面。 如果應用程式未在使用者嘗試與應用程式互動時，回應五秒的 Windows 訊息，則會被視為沒有回應。
 
 ## <a name="windows-error-reporting-flow-for-crashes-non-response-and-kernel-faults"></a>損毀、非回應和核心錯誤的 Windows 錯誤報告流程
 
@@ -56,7 +56,7 @@ ms.locfileid: "104374949"
 
 ## <a name="excluding-an-application-from-windows-error-reporting"></a>從 Windows 錯誤報告排除應用程式
 
-若要從 Windows 錯誤報告中排除您的應用程式，請使用 [**WerAddExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-weraddexcludedapplication) 函數。 若要還原應用程式的錯誤報表，請使用 [**WerRemoveExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-werremoveexcludedapplication) 函數。
+若要將您的應用程式排除 Windows 錯誤報告，請使用 [**WerAddExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-weraddexcludedapplication)函數。 若要還原應用程式的錯誤報表，請使用 [**WerRemoveExcludedApplication**](/windows/desktop/api/Werapi/nf-werapi-werremoveexcludedapplication) 函數。
 
 ## <a name="automatically-recovering-data-and-restarting-a-faulted-application"></a>自動復原資料並重新啟動錯誤的應用程式
 
@@ -72,7 +72,7 @@ ms.locfileid: "104374949"
 
 
 
-| 作業模式          | Description                                                                                                                                                                                                                                                                                                                                  |
+| 作業模式          | 描述                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 共用記憶體報告 | 如果應用程式的安全性內容與已登入之使用者的安全性內容相同，則錯誤報表系統會使用共用記憶體區塊進行通訊。 此模式無法與資訊清單報告模式搭配使用。<br/>                                                                                               |
 | 資訊清單報告      | 如果應用程式的安全性內容與已登入之使用者的安全性內容不同，則錯誤報表系統會使用檔案進行通訊。 此模式也用於報告沒有回應的應用程式和核心錯誤。 此模式不能與共享記憶體報告模式搭配使用。<br/>                      |

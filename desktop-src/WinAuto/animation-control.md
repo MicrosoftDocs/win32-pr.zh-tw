@@ -4,12 +4,12 @@ description: 動畫控制項以無訊息模式顯示交錯 (AVI) 剪輯的音訊
 ms.assetid: 2a31d4ba-a1bd-478b-86a9-726fa93ab714
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43ca7cf7e4b8a2174dae81b1770b2d877f749502
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88c7f134d5acdd3496f76e3399e5aafd1fcb2664aed37e042bb7c2cfca60f922
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118326852"
 ---
 # <a name="animation-control-msaa-ui-element-reference"></a>動畫控制項 (MSAA UI 元素參考) 
 

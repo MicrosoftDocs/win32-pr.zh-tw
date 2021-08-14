@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f8c2a1d4b715bab34d33c12678dcd6808e119921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 858c5c3898b77907ed053849a489b43de7ad948560afae1fe85e9849929b6369
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117711719"
 ---
 # <a name="esentddlnotinheritableexception-class"></a>EsentDDLNotInheritableException 類別
 

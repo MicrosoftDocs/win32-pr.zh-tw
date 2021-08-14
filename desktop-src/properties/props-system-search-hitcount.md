@@ -4,18 +4,18 @@ ms.assetid: 2f0cddba-7535-451f-9bb5-846c06c426f8
 title: 擊中數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bb3954d891c1f7c913036449094c27f64cea7d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3836a6548197ee8a142e3a2db973808a9295a10aef119229d8d132dd8189aac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464913"
 ---
 # <a name="systemsearchhitcount"></a>擊中數
 
 在 Windows Search 索引上使用 CONTAINS 時，這是詞彙的相符專案數。 如果有多個包含，會計算最少的點擊次數，或計算最大的點擊次數。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,12 +4,12 @@ ms.assetid: d07dab5a-7c06-40c4-aa59-fa0baaaa77e7
 title: 建立低層級安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdafc99fe4d01c24e68a076aecc035843452205b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a6462dcd7672836df5f2c1f6b368723bc3a9488eff290dc22a071ce40279def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781481"
 ---
 # <a name="low-level-security-descriptor-creation"></a>建立低層級安全描述項
 

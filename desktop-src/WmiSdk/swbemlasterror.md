@@ -39,12 +39,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: a00d8e3421800acab7cc4958ddc1e6a75f101958
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a73312c38857b57f3ffeec8fcaf8a9ea5847001393d0a03d4916da76ffcb8c0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314457"
 ---
 # <a name="swbemlasterror-object"></a>SWbemLastError 物件
 
@@ -69,7 +69,7 @@ ms.locfileid: "106986839"
 |:---------------------------------------------------------|:---------------------------------------------------------------------------------------------|
 | **Associators of\_**                                        | 未使用。 [**SWbemObject**](swbemobject.md)物件提供相同的方法。<br/> |
 | **AssociatorsAsync\_**                                   | 未使用。 [**SWbemObject**](swbemobject.md)物件提供相同的方法。<br/> |
-| [**克隆\_**](swbemlasterror-clone-.md)                 | 建立目前物件的複本。<br/>                                               |
+| [**複製\_**](swbemlasterror-clone-.md)                 | 建立目前物件的複本。<br/>                                               |
 | [**CompareTo\_**](swbemlasterror-compareto-.md)         | 測試兩個物件是否相等。<br/>                                                   |
 | **刪除\_**                                             | 未使用。 [**SWbemObject**](swbemobject.md)物件提供相同的方法。<br/> |
 | **DeleteAsync\_**                                        | 未使用。 [**SWbemObject**](swbemobject.md)物件提供相同的方法。<br/> |
@@ -246,8 +246,8 @@ else
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemLastError<br/>                                                        |
 | IID<br/>                      | IID \_ ISWbemLastError<br/>                                                         |

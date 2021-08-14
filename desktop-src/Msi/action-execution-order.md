@@ -4,12 +4,12 @@ ms.assetid: f4666f49-4ea1-42fb-b32d-ce77de79b212
 title: 動作執行順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 954c44f6e2525deb3375cb9ea72d0320df3a5f02
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf28244d46ae5556d1b68cc3b7258297c69e11a8d526f3e7ca31a184e64c424e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381838"
 ---
 # <a name="action-execution-order"></a>動作執行順序
 

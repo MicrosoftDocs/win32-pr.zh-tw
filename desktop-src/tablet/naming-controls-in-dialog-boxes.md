@@ -4,12 +4,12 @@ ms.assetid: 3b01a4d2-9deb-413f-bab8-566df86b6af9
 title: 在對話方塊中命名控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f0f74ecb3737b422450388ee87ab4177e899aa6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c33720c08a7f5454b54d7d982b14c091fe6e1df4c18a49cd649f54690f2eb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104553522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118449823"
 ---
 # <a name="naming-controls-in-dialog-boxes"></a>在對話方塊中命名控制項
 

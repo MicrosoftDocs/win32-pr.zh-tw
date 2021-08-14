@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 900a29f9304f869712cd72fd51926fd15a030dca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 217942d9827a715858c76a704092259a5c3df25f98bf4eac7d5835450f502e3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484894"
 ---
 # <a name="systemparametersexceptionaction-property"></a>SystemParameters. ExceptionAction 屬性
 

@@ -7,12 +7,12 @@ keywords:
 - 設定 AD 屬性群組的許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3f2993a537b76b64c7e8e6323c850494b3ce306
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5a50fa74cd39353170089bc39940b7bc063e8c94454d46c50bf14a1fa0a9edee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183417"
 ---
 # <a name="setting-permissions-on-a-group-of-properties"></a>設定屬性群組的許可權
 
@@ -35,6 +35,6 @@ ms.locfileid: "103681635"
 
 如需可用於設定屬性集之 ACE 的詳細資訊和程式碼範例，請參閱 [在目錄物件上設定 ace 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 2ef2241b-5ec4-4694-a0c9-7db395321471
 title: 'AVEncAudioIntervalToEncode 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7847f203c73846c8c8ef0415d91cd09677f53d21
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: aeaf8b65469ba5d0df93b92fb7ef8b0b10d7fd783dfa3b481ddab2d4cf6a0548
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403984"
 ---
 # <a name="avencaudiointervaltoencode-property"></a>AVEncAudioIntervalToEncode 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "103846676"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

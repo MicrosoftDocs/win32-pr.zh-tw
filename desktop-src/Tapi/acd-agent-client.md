@@ -4,12 +4,12 @@ ms.assetid: 2dfd51b6-cdda-43cc-a30f-92ac41abf8d8
 title: ACD 代理程式用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70b4a315477829cca953676d6d2118f91cf23227
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec41203cd2cf37d67379c42911960950ffc106f4cdcaee87475f0de263193474
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949291"
 ---
 # <a name="acd-agent-client"></a>ACD 代理程式用戶端
 

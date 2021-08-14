@@ -6,12 +6,12 @@ keywords:
 - 對齊錯誤 64-位 Windows 程式設計
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 318a7a55010ac148354d000ece32c91a8652f821
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d813a47cb3428c57ee6235442491f26f8d126a997dd7fcfa6844d551e7958b92
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965034"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412908"
 ---
 # <a name="alignment-faults"></a>對齊錯誤
 
@@ -21,6 +21,6 @@ ms.locfileid: "106965034"
 
 在 x64 和 ARM64 系統上，任何對齊錯誤都是由硬體和軟體的組合來處理。 為了達到最佳效能，記憶體的所有存取都應該適當對齊。 此外，您應該避免在 ARM64 上使用未對齊的 [連鎖變數存取](/windows/desktop/Sync/interlocked-variable-access) ，因為這些作業不是不可部分完成的安全。
 
- 
+ 
 
- 
+ 

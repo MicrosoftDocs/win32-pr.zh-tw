@@ -4,17 +4,17 @@ description: 使用清單方塊時，使用者可以從一律可見清單中顯�
 ms.assetid: 620e9ff9-b367-446b-9e97-9c9d6d14f4bb
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 3db0bbb07ed6cea18b7d8fb29fd4e329840590d5
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 8d4f30394e9704ba01832c60e7b41e3453a5c7abe1715678ca84405e73724c7c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "104321420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118218102"
 ---
 # <a name="list-boxes"></a>清單方塊
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 使用清單方塊時，使用者可以從一律可見清單中顯示的一組值中進行選取。 使用單一選取清單方塊時，使用者會從互斥值清單中選取一個專案。 使用多重選取清單方塊時，使用者會從值清單中選取零個以上的專案。
 
@@ -147,7 +147,7 @@ ms.locfileid: "104321420"
 
 **正確：** ![依字母順序排列清單的螢幕擷取畫面 ](images/ctrl-list-boxes-image12.png)
 
-在此範例中，清單專案比較容易尋找，因為它們會依字母順序排序。 不過，「所有 Windows 產品」專案都是在清單的開頭，而不是它的排序次序。
+在此範例中，清單專案比較容易尋找，因為它們會依字母順序排序。 不過，「所有 Windows products」專案都位於清單的開頭，而不論其排序次序為何。
 
 -   無論其餘專案的排序次序為何，都 **可在清單的開頭放置代表 All 或 None 的選項**。
 -   **以括弧括住中繼選項。**

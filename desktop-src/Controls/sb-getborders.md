@@ -3,7 +3,7 @@ title: 'SB_GETBORDERS 訊息 (Commctrl .h) '
 description: 抓取狀態視窗水準和垂直框線的目前寬度。
 ms.assetid: 120c1e0d-6f42-424e-94e0-a080d216d39d
 keywords:
-- SB_GETBORDERS message Windows 控制項
+- SB_GETBORDERS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 854df2cd367a852a2e6a0e638b470187efabe58c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dafa7a8c27b5c274a981e43edc5c55ec0cade67cac08a1d09a898916d792795c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169051"
 ---
 # <a name="sb_getborders-message"></a>SB \_ GETBORDERS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104105083"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

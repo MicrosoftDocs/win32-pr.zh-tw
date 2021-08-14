@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2772c76868c741660486184e5ab51bd193d3667a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7602b4f0af35c8bc9aeb38cdcb613e30ded907ced75e2241c8ed9e23b57fd98f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359644"
 ---
 # <a name="glhint-function"></a>glHint 函式
 

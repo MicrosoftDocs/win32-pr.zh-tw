@@ -4,12 +4,12 @@ ms.assetid: e14fd472-1974-4ad2-b35a-3ab58ba0d707
 title: 支援的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3bfff5785a0b891e98e6d78d59b4688e2d5c11a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e8c7945113e764d835a685251adaec9149527b2d8f2d535a5dd24f26a5623bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774411"
 ---
 # <a name="supported-attributes"></a>支援的屬性
 
@@ -29,7 +29,7 @@ ms.locfileid: "106972439"
 
 
 
-| 分機              | Description                                                                                                                                                                                                                      |
+| 延伸模組              | Description                                                                                                                                                                                                                      |
 |------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | AlternativeNames       | 包含與憑證相關聯之簽發者的一或多個替代名稱形式。                                                                                                                                       |
 | AuthorityKeyIdentifier | 包含唯一的索引鍵識別碼，用來區分 [*憑證授權單位*](/windows/desktop/SecGloss/c-gly) 單位 (CA) 的多個憑證簽署金鑰。 |

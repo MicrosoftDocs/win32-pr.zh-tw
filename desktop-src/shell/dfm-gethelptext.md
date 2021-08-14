@@ -14,12 +14,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 2428fe6696ff5949a0b25487437c8f3408b95f65
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d1035ae82a8caf4c9ada5a859663d0d20286b433a9bf527831c29157d8dd6894
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860933"
 ---
 # <a name="dfm_gethelptext-message"></a>DFM \_ GETHELPTEXT 訊息
 
@@ -68,8 +68,8 @@ DFM_GETHELPTEXT
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **DFM \_GETHELPTEXT** (ANSI) <br/>                                              |
 

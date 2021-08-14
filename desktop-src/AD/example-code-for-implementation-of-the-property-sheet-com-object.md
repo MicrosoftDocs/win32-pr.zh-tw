@@ -7,12 +7,12 @@ keywords:
 - 屬性工作表 COM 物件廣告的執行範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01ea28b3c1de9fa69d14db3168db821d8b38cfc5
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a4eefc6cc047224caa22bfda1ab17fca4c3732e35c78b09c34d6b3c697b2947c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190599"
 ---
 # <a name="example-code-for-implementation-of-the-property-sheet-com-object"></a>屬性工作表 COM 物件的執行範例程式碼
 
@@ -424,6 +424,6 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 
 
- 
+ 
 
- 
+ 

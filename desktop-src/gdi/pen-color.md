@@ -4,12 +4,12 @@ ms.assetid: ce775359-65fc-40d0-8725-b392cc0464a6
 title: 畫筆色彩
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 92d831994ac444207832574dc104a9d5c2582db8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e88d73fc80f6fe02a6d9e1de1d33568c94e05768f113c8bee0754c5d8afb418
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117886203"
 ---
 # <a name="pen-color"></a>畫筆色彩
 

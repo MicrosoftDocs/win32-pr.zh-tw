@@ -4,12 +4,12 @@ description: IBitsPeerCacheRecord 介面會公開下列方法。
 ms.assetid: 504ED699-35FC-4893-B25E-6ADA246193F8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59c8bf1759be1ef509196c8ef31720283fbfc768
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d2b32602cabc9d242549047a73a9b35b38b8bf5e9672f84096d91280d624c3f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173520"
 ---
 # <a name="ibitspeercacherecord-methods"></a>IBitsPeerCacheRecord 方法
 
@@ -25,9 +25,9 @@ ms.locfileid: "104300220"
 -   [**GetOriginUrl 方法**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibitspeercacherecord-getoriginurl)
 -   [**IsFileValidated 方法**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibitspeercacherecord-isfilevalidated)
 
- 
+ 
 
- 
+ 
 
 
 

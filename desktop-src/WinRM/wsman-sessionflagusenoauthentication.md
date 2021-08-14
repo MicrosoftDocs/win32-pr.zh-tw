@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b9676d3baa9a18ae8a3feb5eb4092c63586a94b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1edb428a8c739c224e55bd4437dfdd6f544e9adf3039afb61df659b4969fb9ef
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466681"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119412398"
 ---
 # <a name="wsmansessionflagusenoauthentication-method"></a>WSMan. SessionFlagUseNoAuthentication 方法
 
@@ -78,7 +78,7 @@ WSMan.SessionFlagUseNoAuthentication( _
 [**WSMan**](wsman.md)
 </dt> <dt>
 
-[**工作階段**](session.md)
+[**會話**](session.md)
 </dt> </dl>
 
  

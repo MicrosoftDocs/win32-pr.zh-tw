@@ -4,12 +4,12 @@ ms.assetid: d951d1e8-0f88-49c4-8373-e6db0e18cd72
 title: 擴充快速鍵功能表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 895550ff050d559b3523676ddaa2a58099398a97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d046805ebc787f5cad2bfaa40538c51b826c3f0541f3ec1afad508202a4a25fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553698"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460645"
 ---
 # <a name="extending-shortcut-menus"></a>擴充快速鍵功能表
 
@@ -37,7 +37,7 @@ ms.locfileid: "104553698"
 
 ![檔案系統物件的預設快捷方式功能表的螢幕擷取畫面](images/context1.jpg)
 
-MyDocs4.xyz 顯示預設快捷方式功能表的原因是它不是已註冊 [檔案類型](fa-file-types.md)的成員。 另一方面，.txt 是已註冊的檔案類型。 如果您以滑鼠右鍵按一下其中一個 .txt 檔案，您將會看到一個快捷方式功能表，其中有兩個額外的命令在上方區段中： **開啟** 和 **列印**。
+MyDocs4.xyz 顯示預設快捷方式功能表的原因是它不是已註冊 [檔案類型](fa-file-types.md)的成員。 另一方面，.txt 是已註冊的檔案類型。 如果您以滑鼠右鍵按一下其中一個 .txt 檔案，則會改為在上方區段中看到有另外兩個命令的快捷方式功能表： [ **開啟** ] 和 [ **列印**]。
 
 ![檔案系統物件的自訂快捷方式功能表的螢幕擷取畫面](images/context2.jpg)
 
@@ -49,7 +49,7 @@ MyDocs4.xyz 顯示預設快捷方式功能表的原因是它不是已註冊 [檔
 
 快速鍵功能表上的每個命令都是由其 *動詞* 命令在登錄中識別。 這些動詞與 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 在以程式設計方式啟動應用程式時所使用的相同。 如需有關使用 **ShellExecuteEx** 的詳細資訊，請參閱 [啟動應用程式](launch.md)的討論。
 
-動詞是簡單的文字字串，可供 Shell 用來識別相關聯的命令。 每個動詞命令都對應至用來在主控台視窗或 batch ( .bat) 檔中啟動命令的 *命令字串* 。 例如， **open** 動詞通常會啟動程式來開啟檔案。 它的命令字串通常看起來像這樣：
+動詞是簡單的文字字串，可供 Shell 用來識別相關聯的命令。 每個動詞命令都對應至用來在主控台視窗或批次 (.bat) 檔中啟動命令的 *命令字串* 。 例如， **open** 動詞通常會啟動程式來開啟檔案。 它的命令字串通常看起來像這樣：
 
 ``` syntax
 "My Program.exe" "%1"
@@ -96,7 +96,7 @@ Printto 動詞也是標準的，但永遠不會顯示。 它可讓使用者將�
 
 擴充檔案類型之快捷方式功能表最簡單的方式就是使用登錄。 若要這樣做，請在與 [檔案類型](fa-file-types.md)相關聯的應用程式 ProgID 的索引鍵下方新增 **Shell** 子機碼。 （選擇性）您可以為檔案類型定義 *預設動詞* ，方法是將它設為 **Shell** 子機碼的預設值。
 
-預設動詞會先顯示在快捷方式功能表上。 其目的是在呼叫 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 時，提供 Shell 所能使用的動詞，但未指定任何動詞。 以這種方式使用 **ShellExecuteEx** 時，Shell 不一定會選取預設的動詞命令。 針對 Shell [版本 5.0](versions.md) 和更新版本，在 Windows 2000 和更新版本的系統上，shell 會使用下列清單中第一個可用的動詞。 如果沒有可用的，則作業會失敗。
+預設動詞會先顯示在快捷方式功能表上。 其目的是在呼叫 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 時，提供 Shell 所能使用的動詞，但未指定任何動詞。 以這種方式使用 **ShellExecuteEx** 時，Shell 不一定會選取預設的動詞命令。 針對 shell [5.0 版](versions.md)和更新版本，在 Windows 2000 和更新版本的系統上找到，shell 會使用下列清單中第一個可用的動詞命令。 如果沒有可用的，則作業會失敗。
 
 -   Open 動詞
 -   預設動詞
@@ -173,7 +173,7 @@ HKEY_CLASSES_ROOT
 
 ## <a name="extending-the-new-submenu"></a>擴充新的子功能表
 
-當使用者在 Windows 檔案總管中開啟 [檔案 **] 功能表時** ，第一個命令是 [ **新增**]。 選取此命令會顯示子功能表。 依預設，它包含兩個命令、 **資料夾** 和 **快捷方式**，可讓使用者建立子資料夾和快捷方式。 您可以擴充此子功能表，以包含任何檔案類型的檔案建立命令。
+當使用者在 Windows 檔案總管中開啟 [檔案 **] 功能表時**，第一個命令是 [**新增**]。 選取此命令會顯示子功能表。 依預設，它包含兩個命令、 **資料夾** 和 **快捷方式**，可讓使用者建立子資料夾和快捷方式。 您可以擴充此子功能表，以包含任何檔案類型的檔案建立命令。
 
 若要將檔案建立命令新增至 **新** 的子功能表，您的應用程式檔必須有相關聯的 [檔案類型](fa-file-types.md) 。 在副檔名的機碼底下包含 **ShellNew** 子機碼。 選取 [檔案] 功能表的 [**新** 命令] 時，Shell 會將它新增至 **新** 的 **子功能表。** 命令的顯示字串將會是指派給程式 ProgID 的描述性字串。
 

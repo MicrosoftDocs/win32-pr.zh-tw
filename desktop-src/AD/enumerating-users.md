@@ -1,6 +1,6 @@
 ---
 title: 列舉使用者
-description: 不同于 Windows NT 4.0 網域，Windows 2000 使用者可以放在任何容器或組織單位 (OU) 在網域中，也可以放在網域的根目錄中。
+description: 不同于 Windows NT 4.0 網域，Windows 2000 使用者可以放在任何容器或組織單位中， (OU) 網域以及網域的根目錄中。
 ms.assetid: 4a35af7a-f43b-4cf9-a030-77f6c2518ae7
 ms.tgt_platform: multiple
 keywords:
@@ -9,16 +9,16 @@ keywords:
 - Active Directory、使用、使用者、列舉使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e922d92f4313ed0238ff068f7ae1c0fbf693d497
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: aa43034c6c006c9c70531f25e2a838ecfc30520e9b42e0b9599e5714a29f225e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106967254"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191338"
 ---
 # <a name="enumerating-users"></a>列舉使用者
 
-不同于 Windows NT 4.0 網域，Windows 2000 使用者可以放在任何容器或組織單位 (OU) 在網域中，也可以放在網域的根目錄中。 這表示使用者可以位於目錄階層中的多個位置。 因此，您有兩個列舉使用者的選擇：
+不同于 Windows NT 4.0 網域，Windows 2000 使用者可以放在任何容器或組織單位中， (OU) 網域以及網域的根目錄中。 這表示使用者可以位於目錄階層中的多個位置。 因此，您有兩個列舉使用者的選擇：
 
 -   列舉直接包含在容器、OU 或網域根目錄中的使用者：
 
@@ -36,10 +36,10 @@ ms.locfileid: "106967254"
 
     您可以使用 ADS 範圍 ONELEVEL 的搜尋喜好設定來執行搜尋 \_ \_ ，以將搜尋限制為您所系結之容器物件的直接內容。
 
-    [**>idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 只會抓取使用者的特定屬性值。 若要取出值，請使用 **>idirectorysearch**。 若要操作從搜尋傳回的使用者物件，也就是您想要使用 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 或 [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) 方法，您必須明確地系結至這些方法。 若要這樣做，請將 **distinguishedName** 指定為要從搜尋傳回的其中一個屬性，並使用傳回的分辨名稱來系結至搜尋中傳回的每個使用者。
+    [**>Idirectorysearch**](/windows/desktop/api/iads/nn-iads-idirectorysearch) 只會抓取使用者的特定屬性值。 若要取出值，請使用 **>idirectorysearch**。 若要操作從搜尋傳回的使用者物件，也就是您想要使用 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 或 [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) 方法，您必須明確地系結至這些方法。 若要這樣做，請將 **distinguishedName** 指定為要從搜尋傳回的其中一個屬性，並使用傳回的分辨名稱來系結至搜尋中傳回的每個使用者。
 
     只會抓取特定屬性。 您無法在未明確指定使用者類別的每個可能屬性的情況下，取得所有屬性。
 
- 
+ 
 
- 
+ 

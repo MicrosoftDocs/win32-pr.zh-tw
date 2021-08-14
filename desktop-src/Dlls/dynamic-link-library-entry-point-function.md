@@ -4,12 +4,12 @@ ms.assetid: ec035fc6-0a6f-4e52-a4cc-8d7a25a94366
 title: Dynamic-Link 程式庫 Entry-Point 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62bff557bfa2aa792b420e8fe1856bbe0726921
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6289f705a11dad58eca8b047ba469ee07320dedef762024cbfa04046a0677f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815836"
 ---
 # <a name="dynamic-link-library-entry-point-function"></a>Dynamic-Link 程式庫 Entry-Point 函數
 
@@ -30,7 +30,7 @@ DLL 可以選擇性地指定進入點函數。 如果有的話，每當進程或
 
 一次只有一個執行緒可以呼叫進入點函數。
 
-系統會在造成呼叫函式的進程或執行緒內容中呼叫進入點函數。 這可讓 DLL 使用其進入點函式，在呼叫進程的虛擬位址空間中配置記憶體，或開啟進程可存取的控制碼。 進入點函式也可以使用執行緒區域儲存 (TLS) ，配置私用至新執行緒的記憶體。 如需執行緒區域儲存區的詳細資訊，請參閱 [執行緒區域儲存區](/windows/desktop/ProcThread/thread-local-storage)。
+系統會在造成呼叫函式的進程或執行緒內容中呼叫進入點函數。 這可讓 DLL 使用其進入點函式，在呼叫進程的虛擬位址空間中配置記憶體，或開啟進程可存取的控制碼。 進入點函式也可以使用執行緒區域儲存 (TLS) ，配置私用至新執行緒的記憶體。 如需執行緒區域儲存區的詳細資訊，請參閱[執行緒區域儲存體](/windows/desktop/ProcThread/thread-local-storage)。
 
 ## <a name="entry-point-function-definition"></a>Entry-Point 函式定義
 

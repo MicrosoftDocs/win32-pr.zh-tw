@@ -3,7 +3,7 @@ title: 'RB_GETRECT 訊息 (Commctrl .h) '
 description: 抓取 Rebar 控制項中指定範圍的周框。
 ms.assetid: e272b090-1e4d-4cff-87f0-557ad8116e7e
 keywords:
-- RB_GETRECT message Windows 控制項
+- RB_GETRECT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 76b9d5de00b638a3767df461595ff01316b23183
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 43d2f085fa7c6f413700156999f1325879f91affc2c8984fb33d08cb6cc90b66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169294"
 ---
 # <a name="rb_getrect-message"></a>RB \_ GETRECT 訊息
 
@@ -53,8 +53,8 @@ Rebar 控制項中的寬線索引（以零為基底）。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

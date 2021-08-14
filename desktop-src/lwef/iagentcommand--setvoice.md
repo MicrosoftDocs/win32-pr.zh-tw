@@ -4,16 +4,16 @@ description: IAgentCommand SetVoice
 ms.assetid: bee06616-26bf-4e1e-89da-6765dd77fb02
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36bed7e86cb93824fc26c770c1d01336077fda39
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e45af753dea18e9fda7b613e3b800ac886d949eb6494fd969cd8b7ceb488dfc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477238"
 ---
 # <a name="iagentcommandsetvoice"></a>IAgentCommand::SetVoice
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetVoice(
@@ -80,13 +80,13 @@ HRESULT SetVoice(
 > [!Note]  
 > 可用的文法功能可能取決於語音辨識引擎。 您可能會想要檢查引擎的廠商，以判斷支援哪些文法選項。 使用 [**IAgentCharacterEx：： SRModeID**](https://www.bing.com/search?q=**IAgentCharacterEx::SRModeID**) 來指定引擎。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**IAgentCommand：： GetVoice**](iagentcommand--getvoice.md)、 [**IAgentCommand：： SetCaption**](iagentcommand--setcaption.md)、 [**IAgentCommand：： SetEnabled**](iagentcommand--setenabled.md)、 [**IAgentCommands：： Add**](iagentcommands--add.md)、 [**IAgentCommands：： Insert**](iagentcommands--insert.md)
 
 
- 
+ 
 
- 
+ 

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: af0f56012c462ecb3b82a7b44006e93e0de4d3f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f34b0f45ff3b3b552b3272827a237e71d1c1eebe571a3d56b2a587bf24eaf45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118497324"
 ---
 # <a name="esentcannotmaterializeforwardonlysortexception-class"></a>EsentCannotMaterializeForwardOnlySortException 類別
 

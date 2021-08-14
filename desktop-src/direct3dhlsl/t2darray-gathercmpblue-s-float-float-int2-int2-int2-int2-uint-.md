@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 059c81d64520df98846b4b9397a5eb3ab0488991
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 1b24a4dfe46861f5081f4d5e1170983f2dcb6ae2e3e4bf2619c1662b044e7ebf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723826"
 ---
 # <a name="texture2darraygathercmpbluesfloatfloatint2int2int2int2uint-function"></a>Texture2DArray：： GatherCmpBlue (S、float、float、int2、int2、int2、int2、uint) 函數
 
@@ -132,7 +132,7 @@ TemplateType GatherCmpBlue(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

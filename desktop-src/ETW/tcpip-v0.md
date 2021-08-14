@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 20cbe5c03d686ae8a4b1558899362251ba219e0c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: a235cc28de75eb3c2150d4f6579305352fd92664f76f813b233b566f1740e0c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814444"
 ---
 # <a name="tcpip_v0-class"></a>TcpIp \_ V0 類別
 
@@ -44,7 +44,7 @@ class TcpIp_V0 : MSNT_SystemTrace
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/> |
 | 最低支援的伺服器<br/> | 都不支援<br/>                   |
 
 

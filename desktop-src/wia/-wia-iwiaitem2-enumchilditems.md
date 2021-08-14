@@ -1,5 +1,5 @@
 ---
-description: 建立列舉值物件，並將指標傳回到其 IEnumWiaItem2 介面，以取得 Windows 影像取得之 IWiaItem2 樹狀目錄中的專案（ (WIA) 2.0 裝置）的資料夾。
+description: 建立列舉值物件，並將指標傳回到其 IEnumWiaItem2 介面，以取得具有 Windows 影像取得 (WIA) 2.0 裝置之 IWiaItem2 樹狀目錄中專案的資料夾。
 ms.assetid: 0862bb6f-0464-491a-8cad-60b92d9609f1
 title: 'IWiaItem2：： EnumChildItems 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 2de76d9bf43d10e08e5a85cd2a32d6b377680d18
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 921a6b6e85f906ef62683038b2bb28dd484d58fd20600b2ff85ae594fafb3cd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118440416"
 ---
 # <a name="iwiaitem2enumchilditems-method"></a>IWiaItem2：： EnumChildItems 方法
 
-建立列舉值物件，並將指標傳回到其 [**IEnumWiaItem2**](-wia-ienumwiaitem2.md) 介面，以取得 Windows 影像取得之 [**IWiaItem2**](-wia-iwiaitem2.md) 樹狀目錄中的專案（ (WIA) 2.0 裝置）的資料夾。
+建立列舉值物件，並將指標傳回到其 [**IEnumWiaItem2**](-wia-ienumwiaitem2.md)介面，以取得具有 Windows 影像取得 (WIA) 2.0 裝置之 [**IWiaItem2**](-wia-iwiaitem2.md)樹狀目錄中專案的資料夾。
 
 ## <a name="syntax"></a>語法
 
@@ -43,9 +43,9 @@ HRESULT EnumChildItems(
 *pCategoryGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
-指定要列舉其子節點的分類指標。 如果 _ * Null * *，則會列舉所有的子節點。
+指定要列舉其子節點的分類指標。 如果是 **Null**，則會列舉所有的子節點。
 
 </dd> <dt>
 
@@ -78,8 +78,8 @@ WIA 2.0 執行時間系統會將每個 WIA 2.0 硬體裝置表示為 [**IWiaItem
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

@@ -4,12 +4,12 @@ description: DNS WMI 提供者範例—管理 DNS 資源記錄
 ms.assetid: 4b038c74-eec8-459c-9e3f-3be2a244d313
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c6b6494168ef6a5ee4aa035879468e2c1a92d4e6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 089cf567452666db54ad0e0d784b2bf3b2566e0e986ba94a9e9d498a387468c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163837"
 ---
 # <a name="dns-wmi-provider-samplesmanaging-dns-resource-records"></a>DNS WMI 提供者範例—管理 DNS 資源記錄
 
@@ -19,7 +19,7 @@ ms.locfileid: "103932142"
 -   [新增資源記錄](#add-a-resource-record)
 -   [刪除資源記錄](#delete-a-resource-record)
 -   [修改資源記錄](#modify-a-resource-record)
--   [連接到 DNS WMI 提供者](#connect-to-the-dns-wmi-provider)
+-   [連線至 DNS WMI 提供者](#connect-to-the-dns-wmi-provider)
 
 腳本的一般執行如下所示：
 
@@ -5183,7 +5183,7 @@ End Function
 
 
 
-## <a name="connect-to-the-dns-wmi-provider"></a>連接到 DNS WMI 提供者
+## <a name="connect-to-the-dns-wmi-provider"></a>連線至 DNS WMI 提供者
 
 這個程式碼範例會顯示與連接到 DNS WMI 提供者相關聯的工作。
 
@@ -5417,9 +5417,9 @@ End Function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

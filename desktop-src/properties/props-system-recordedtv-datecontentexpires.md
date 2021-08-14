@@ -4,16 +4,16 @@ ms.assetid: 01cdf99b-1c63-424b-b160-ee1ac5557ae7
 title: RecordedTV. DateContentExpires
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a604dad05ff47fe49817d1a01be588b6abd228de
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6b747338991973965fda9e975328b5809a7171f95f60f5335875b0e8512f3002
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118227947"
 ---
 # <a name="systemrecordedtvdatecontentexpires"></a>RecordedTV. DateContentExpires
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

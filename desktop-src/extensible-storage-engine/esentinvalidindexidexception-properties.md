@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101957
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 53d1840bc16d3f0f29fbe90ce0db108176f0e273
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8f70f68025656c9f38ba09782800c6d797340a8a3483f80612439e67ae9447
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118778162"
 ---
 # <a name="esentinvalidindexidexception-properties"></a>EsentInvalidIndexIdException 屬性
 

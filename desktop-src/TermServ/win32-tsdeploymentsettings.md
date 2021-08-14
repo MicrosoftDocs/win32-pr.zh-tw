@@ -39,12 +39,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f254363968099ab73c5f3f14f1f15ab8554f62a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5a3f5b5cde779cbd9b8120fa648138611236935080f3517a28a6f19dcee8864b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349306"
 ---
 # <a name="win32_tsdeploymentsettings-class"></a>Win32 \_ TSDeploymentSettings 類別
 
@@ -586,10 +586,10 @@ RD 閘道的驗證方法。 可能的值如下。
 
 如果 **RequireServerAuth** 設定為 **TRUE**，請考慮下列事項：
 
--   如果 RemoteApp 程式適用于內部網路，而且所有用戶端電腦都是執行 Windows Server 2008 或 Windows Vista，您就不需要設定 RD 工作階段主機伺服器來使用 SSL 憑證。 在此案例中，是使用網路層級驗證。
+-   如果 RemoteApp 程式適用于內部網路，且所有用戶端電腦都執行 Windows Server 2008 或 Windows Vista，您就不需要將 RD 工作階段主機伺服器設定為使用 SSL 憑證。 在此案例中，是使用網路層級驗證。
 -   您必須為 **FarmName** 屬性的值指定伺服器或伺服器陣列的 FQDN。
 
-若要連接到 "CIMV2 \\ microsoft-windows-terminalservices-gateway" 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic Scripting Edition (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
+若要連接到 "CIMV2 \\ microsoft-windows-terminalservices-gateway" 命名空間，驗證層級必須包含封包隱私權。 針對 C/c + + 呼叫，這是 **RPC \_ C \_ 驗證 \_ level \_ PKT \_ 隱私權** 的驗證層級，可以使用 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket) COM 函式來設定。 針對 Visual Basic 和腳本呼叫，這是 **WbemAuthenticationLevelPktPrivacy** 或 "pktPrivacy" 的驗證層級，其值為6。 下列 Visual Basic 腳本撰寫版 (VBScript) 範例示範如何連接到具有封包隱私權的遠端電腦。
 
 
 ```VB

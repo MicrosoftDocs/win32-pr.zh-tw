@@ -6,24 +6,24 @@ keywords:
 - Windows Media Player，c + +
 - Windows Media Player 物件模型，c + +
 - 物件模型，c + +
-- Windows Media Player Mobile，c + +
-- Windows Media Player 的 ActiveX 控制項，c + +
-- Windows Media Player 的行動 ActiveX 控制項，c + +
+- Windows Media PlayerMobile、c + +
+- Windows Media Player ActiveX 控制，c + +
+- Windows Media PlayerMobile ActiveX control、c + +
 - ActiveX 控制項，c + +
 - C + + 程式內嵌
 - 內嵌，c + + 程式
-- Windows Media Player 的 ActiveX 控制項，事件處理
-- Windows Media Player 的行動 ActiveX 控制項、事件處理
+- Windows Media Player ActiveX 控制項、事件處理
+- Windows Media PlayerMobile ActiveX 控制項，事件處理
 - ActiveX 控制項，事件處理
 - 事件，c + +
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16cbef547ab2604244c5c204707a08eb87a6b70a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf5d50be4622cee9ee455710f8b9d2e4cafc63d6560e08faf5c3deaddcdaccc2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748403"
 ---
 # <a name="handling-events-in-c"></a>在 c + + 中處理事件
 
@@ -184,9 +184,9 @@ Windows Media Player 安裝套件會安裝示範事件處理的範例。 如需�
 [**在 c + + 程式中使用 Windows Media Player 控制項**](using-the-windows-media-player-control-in-a-c---program.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

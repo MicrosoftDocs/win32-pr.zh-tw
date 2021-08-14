@@ -4,12 +4,12 @@ ms.assetid: 4670b09f-2586-4325-aaa7-c6c7d9966987
 title: COM + 開發人員總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40d0b18eac1221dbcace68852f6ed93ea56fc904
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4142c88c65d4b83dd4951e0820ff8896271f2f2cc5826a10cb9b8b2d64c07de0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308137"
 ---
 # <a name="com-developers-overview"></a>COM + 開發人員總覽
 

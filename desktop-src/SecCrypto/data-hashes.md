@@ -4,12 +4,12 @@ ms.assetid: e54d5a3b-cae1-47dd-a565-7bf1ccef7f52
 title: 資料雜湊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed785c79bef67f5a54b0d91c0c2686f8fd1b967f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2a998c2172f6bd3b48bb3cdc94f1ed2207384606950dd9d6e8b6f3152149eaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767766"
 ---
 # <a name="data-hashes"></a>資料雜湊
 

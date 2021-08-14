@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: b10aa4e9-05d9-420d-9d7d-20fd1c342c46
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b15d5c18efbfbc47ff20b532c976e56d86d615a8
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 6f0e78c312f5a143412c1afddb9108f23e7c46a6f0dfb406a6180e791f7044b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870640"
 ---
 # <a name="b-menus-and-other-resources"></a>B (功能表和其他資源) 
 

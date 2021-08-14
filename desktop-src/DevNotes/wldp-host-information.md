@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - wldp.h
-ms.openlocfilehash: ad20be7fa5887e42c09248d04e14f5ff8cffcd54
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cc1bed8fd104b4aa6abb83d3eb7e19faa37a0301429312c8f0799e256ce32ec6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404067"
 ---
 # <a name="wldp_host_information-structure"></a>WLDP \_ 主機 \_ 資訊結構
 
@@ -76,8 +76,8 @@ typedef struct _WLDP_HOST_INFORMATION {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Wldp。h</dt> </dl> |
 
 

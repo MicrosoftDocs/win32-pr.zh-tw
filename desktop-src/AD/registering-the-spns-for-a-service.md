@@ -7,12 +7,12 @@ keywords:
 - 註冊服務 AD 的 Spn
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f51e6e40113a76c4a85603aa88fbb2683945330
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: f1ff5d339ac9c2e51bceb15f29b7ad9cfd94e992ce826d596e2d81fcb25178ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184443"
 ---
 # <a name="registering-the-spns-for-a-service"></a>註冊服務的 Spn
 
@@ -112,6 +112,6 @@ DWORD SpnRegister(TCHAR *pszServiceAcctDN,
 
 
 
- 
+ 
 
- 
+ 

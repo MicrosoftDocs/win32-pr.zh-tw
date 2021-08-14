@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 959e0b8f03223eb23b7a7bec69ba9b2aeea66447
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0242700b2f22050741d9de175b7dae532cc5ef4bb2097fadb23799ce3b2f82b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118356340"
 ---
 # <a name="sendemailtype-complex-type"></a>sendEmailType 複雜類型
 
@@ -86,7 +86,7 @@ ms.locfileid: "106965331"
 | [**密件副本**](taskschedulerschema-bcc-sendemailtype-element.md)                   | **string**                                                                   | 指定電子郵件訊息的 [密件副本] 行上使用的電子郵件地址。<br/>               |
 | [**主體**](taskschedulerschema-body-sendemailtype-element.md)                 | **string**                                                                   | 指定電子郵件訊息主體中的文字。<br/>                                  |
 | [**Cc**](taskschedulerschema-cc-sendemailtype-element.md)                     | **string**                                                                   | 指定電子郵件訊息之 Cc 行上使用的電子郵件地址。<br/>                |
-| [**寄件者**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | 指定寄件者的電子郵件地址。<br/>                                            |
+| [**從**](taskschedulerschema-from-sendemailtype-element.md)                 | **string**                                                                   | 指定寄件者的電子郵件地址。<br/>                                            |
 | [**HeaderFields**](taskschedulerschema-headerfields-sendemailtype-element.md) | [**headerFieldsType**](taskschedulerschema-headerfieldstype-complextype.md) | 指定標頭欄位，以及在電子郵件訊息的標頭中使用的值。<br/> |
 | [**ReplyTo**](taskschedulerschema-replyto-sendemailtype-element.md)           | **string**                                                                   | 指定電子郵件訊息中要回復的電子郵件地址。<br/>               |
 | [**伺服器**](taskschedulerschema-server-sendemailtype-element.md)             | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md)      | 指定用來傳送電子郵件訊息的電子郵件伺服器。 <br/>                           |
@@ -101,8 +101,8 @@ ms.locfileid: "106965331"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

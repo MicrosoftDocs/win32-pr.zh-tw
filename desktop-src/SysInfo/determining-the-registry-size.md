@@ -4,12 +4,12 @@ ms.assetid: 87e7b9de-d571-41e4-817e-29023546e9bd
 title: 判斷登錄大小
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4434b519625cf21c9e0076dc7c21d71e27c01778
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88e26fbeedf13ea66c93f7a13426819fb84df6ffa3f75c908462dcef8f8dcb54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764500"
 ---
 # <a name="determining-the-registry-size"></a>判斷登錄大小
 

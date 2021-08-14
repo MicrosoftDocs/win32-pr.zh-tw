@@ -4,19 +4,19 @@ ms.assetid: 0ea1de35-34ea-4e94-b90d-0f89503cb3fb
 title: 動態記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bfcc54a1b85f4fc39bf6383e05a2e6e535edd1d4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 408e54aa1a1d238a98bb0eff8af2dd76862b32b77c26b3d3812d8707bc0099f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108088466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329850"
 ---
 # <a name="dynamic-memory"></a>動態記憶體
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
-**用戶端 () 的虛擬機器** 執行-windows Vista \| windows 7  
-**伺服器** -Windows Server 2008 R2 hyper-v SP1  
+**用戶端 (以虛擬機器的形式執行)** -Windows Vista \| Windows 7  
+**伺服器**-Windows Server 2008 R2 hyper-v SP1  
 
 
 ## <a name="feature-impact"></a>功能影響
@@ -31,7 +31,7 @@ ms.locfileid: "108088466"
 
 ## <a name="description"></a>Description
 
-概括而言，Hyper-v 動態記憶體是 Windows Server 2008 R2 SP1 內含之 Hyper-v 角色的記憶體管理增強功能。 它是專為生產環境使用而設計，可讓客戶達到更高的匯總/虛擬機器 (VM) 密度比例，同時優化實體機器中的記憶體使用率。 系統會減少靜態記憶體配置，並視需要配置額外的記憶體。 動態記憶體會影響需要確保其軟體在虛擬機器環境中正常運作的軟體發展人員。
+概括而言，hyper-v 動態記憶體是包含在 Windows Server 2008 R2 SP1 中之 hyper-v 角色的記憶體管理增強功能。 它是專為生產環境使用而設計，可讓客戶達到更高的匯總/虛擬機器 (VM) 密度比例，同時優化實體機器中的記憶體使用率。 系統會減少靜態記憶體配置，並視需要配置額外的記憶體。 動態記憶體會影響需要確保其軟體在虛擬機器環境中正常運作的軟體發展人員。
 
 ## <a name="usage-scenario"></a>使用案例
 
@@ -39,7 +39,7 @@ ms.locfileid: "108088466"
 
 **主機端應用程式 (管理工具)**
 
-管理新的 Windows Server 2008 R2 SP1 伺服器的舊版工具將無法存取新的動態記憶體設定。 已開發新的 WMI Api 和效能計數器，以管理 Hyper-v 虛擬機器的新動態記憶體設定。 處理管理工具的軟體發展人員應該利用這些 Api 和計數器，以搭配已安裝 Hyper-v 角色的 Windows Server 2008 R2 SP1 使用。 有關這些新 Api 的詳細資料，可透過 [MSDN 上的 HYPER-V WMI 提供者檔](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider)取得。
+管理新的 Windows Server 2008 R2 SP1 伺服器的舊工具將無法存取新的動態記憶體設定。 已開發新的 WMI Api 和效能計數器，以管理 Hyper-v 虛擬機器的新動態記憶體設定。 處理管理工具的軟體發展人員應該利用這些 api 和計數器，以搭配已安裝 hyper-v 角色的 Windows Server 2008 R2 SP1 使用。 有關這些新 Api 的詳細資料，可透過 [MSDN 上的 HYPER-V WMI 提供者檔](/previous-versions/windows/desktop/virtual/using-the-virtualization-wmi-provider)取得。
 
 **來賓端應用程式**
 
@@ -49,7 +49,7 @@ ms.locfileid: "108088466"
 
 ## <a name="solutions"></a>方案
 
-虛擬機器必須安裝更新的 integration services (SP1) ，才能利用動態記憶體。 確定 Hyper-v 虛擬機器管理中使用的所有電腦都使用最新的 Windows Server 2008 R2 SP1 位。
+虛擬機器必須安裝更新的 integration services (SP1) ，才能利用動態記憶體。 確定 hyper-v 虛擬機器管理中使用的所有電腦都使用最新的 Windows Server 2008 R2 SP1 位。
 
 ## <a name="links-to-other-resources"></a>其他資源的連結
 

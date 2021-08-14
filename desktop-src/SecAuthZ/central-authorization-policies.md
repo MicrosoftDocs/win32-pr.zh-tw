@@ -4,12 +4,12 @@ ms.assetid: E3E43D9F-6826-468A-86E9-AC8F9A381FD4
 title: 集中授權原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b890236b0dae0f8f8d51254def4e1607cc35894
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0617f6bddb606d3c3fb3e5ccb6692c79c62a60f90de591b6ec3e04988db46f63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783222"
 ---
 # <a name="central-authorization-policies"></a>集中授權原則
 
