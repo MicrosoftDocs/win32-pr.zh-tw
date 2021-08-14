@@ -7,12 +7,12 @@ keywords:
 - 使用 ADS_SEARCHPREF_DIRSYNC 的 Active Directory 範例 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03c9e7ea0ce262be9268ddc2e7a9c63af213c3b3
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5ff5cc1d3cd43d5b5d7149001f1e1a183d3a4239dfd7691bf6b1ebeca95dbd05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189681"
 ---
 # <a name="example-code-using-ads_searchpref_dirsync"></a>使用 ADS \_ SEARCHPREF DIRSYNC 的範例程式碼 \_
 
@@ -462,6 +462,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

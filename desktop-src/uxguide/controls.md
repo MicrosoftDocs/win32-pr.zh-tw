@@ -1,22 +1,22 @@
 ---
 title: '控制 (設計基本概念) '
-description: 控制項是使用者在應用程式主視窗區域上與使用者互動的 UI 元素。 查看以 Windows 為基礎的桌面應用程式中控制項的視覺範例，並取得每個控制項的指導方針連結。
+description: 控制項是使用者在應用程式主視窗區域上與使用者互動的 UI 元素。 請參閱以 Windows 為基礎的桌面應用程式中控制項的視覺效果範例，並取得每個控制項的指導方針連結。
 ms.assetid: 5c48728b-6d86-4827-9757-f06c23ca54d8
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: c44e7b5f3772984b1dc24b166b9fe8c03a395f8a
-ms.sourcegitcommit: 8ebcf6cd36f67f8bcf78e76ae8923d65b8995c8a
+ms.openlocfilehash: 7254608502145c0e64098941f923ac2051008aa2db2936fe8baf439455c0cfaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/05/2021
-ms.locfileid: "111524312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118040298"
 ---
 # <a name="controls-design-basics"></a>控制 (設計基本概念) 
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
-控制項是使用者在應用程式主視窗區域上與使用者互動的 UI 元素。 查看以 Windows 為基礎的桌面應用程式中控制項的視覺範例，並取得每個控制項的指導方針連結。
+控制項是使用者在應用程式主視窗區域上與使用者互動的 UI 元素。 請參閱以 Windows 為基礎的桌面應用程式中控制項的視覺效果範例，並取得每個控制項的指導方針連結。
 
 
 

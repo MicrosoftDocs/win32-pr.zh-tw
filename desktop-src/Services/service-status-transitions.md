@@ -4,12 +4,12 @@ ms.assetid: 74a85730-6667-46fe-ae12-26561ccedb73
 title: 服務狀態轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8df7684b1ebc04aa1116b09a3ae4321f2552d7b6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7039caf68ee7d9da93e86e1760e49df87667da8c16eb5ca6693cfdc7db7def2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556550"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117967307"
 ---
 # <a name="service-state-transitions"></a>服務狀態轉換
 
@@ -19,7 +19,7 @@ ms.locfileid: "104556550"
 
 SCM 只會將指定的控制項要求傳送到服務 (但服務 \_ 控制 \_ 詢問要求（一律會) 傳送）除外。 如需服務可以接受的控制項要求清單，請參閱 [**服務 \_ 狀態**](/windows/desktop/api/Winsvc/ns-winsvc-service_status)結構的 **dwControlsAccepted** 成員。 如需註冊接收裝置事件的詳細資訊，請參閱 [**RegisterDeviceNotification**](/windows/desktop/api/winuser/nf-winuser-registerdevicenotificationa) 函式。
 
-服務狀態通常會因處理控制項要求而變更。 控制導致服務狀態變更的要求包括服務 \_ 控制 \_ 停止、服務 \_ 控制 \_ 暫停和服務 \_ 控制 \_ 繼續。 如果服務必須花很長的處理方式來處理這些要求中的任何一項，則應該建立次要執行緒來執行冗長的處理，並將對應的擱置狀態回報給 SCM。  (若要在 Windows Vista 和更新版本的 Windows 上獲得最佳效能，此服務應該使用 [執行緒集](/windows/desktop/ProcThread/thread-pools) 區中的背景工作執行緒來達到此目的。 ) 此服務應該會在長時間處理完成時回報已完成的狀態轉換。 如需處理控制項要求的詳細資訊，請參閱 [服務控制處理常式函數](service-control-handler-function.md)。
+服務狀態通常會因處理控制項要求而變更。 控制導致服務狀態變更的要求包括服務 \_ 控制 \_ 停止、服務 \_ 控制 \_ 暫停和服務 \_ 控制 \_ 繼續。 如果服務必須花很長的處理方式來處理這些要求中的任何一項，則應該建立次要執行緒來執行冗長的處理，並將對應的擱置狀態回報給 SCM。  (若要在 Windows Vista 和更新版本的 Windows 上獲得最佳效能，服務應該使用[執行緒集](/windows/desktop/ProcThread/thread-pools)區中的背景工作執行緒來達到此目的 ) 。當冗長的處理完成時，該服務應該會報告已完成的狀態轉換。 如需處理控制項要求的詳細資訊，請參閱 [服務控制處理常式函數](service-control-handler-function.md)。
 
 只有特定的服務狀態轉換是有效的。 下圖顯示有效的轉換。
 

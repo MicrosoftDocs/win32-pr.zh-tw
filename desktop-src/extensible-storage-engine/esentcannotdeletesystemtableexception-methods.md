@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101139
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f10a87a9dd1e83d7d12732477728e7dd14dc20ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 104e64ed70a552fe85dd83a1dd1a9a4c9bcd299ab2f62fff524ee64d54019106
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104549990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118497788"
 ---
 # <a name="esentcannotdeletesystemtableexception-methods"></a>EsentCannotDeleteSystemTableException 方法
 

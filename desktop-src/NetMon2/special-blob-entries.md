@@ -4,12 +4,12 @@ ms.assetid: 4a921b0d-9934-48e2-8837-be0bd7b7fa7a
 title: 特殊 BLOB 專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cfc40029e0a0f88c2f7bd242881b0d750a5dfa1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0659fa05219dcc715c6c00b3d28635e2500f73e4e5bece72049ee43839a0820
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118363136"
 ---
 # <a name="special-blob-entries"></a>特殊 BLOB 專案
 

@@ -7,12 +7,12 @@ keywords:
 - WinNT 服務提供者 ADSI、ADSI 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d0c9e5c486d07e1e392a9f307ecd9af4509ed3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93332a2b0501c9c7c4140d83ff7358f18ae68adc50f9f9f3b689765d947ef01c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180582"
 ---
 # <a name="adsi-objects-of-winnt"></a>WinNT 的 ADSI 物件
 

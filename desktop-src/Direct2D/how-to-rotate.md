@@ -4,12 +4,12 @@ description: 顯示如何旋轉物件。
 ms.assetid: 468e29b6-941b-4cf8-8649-9e513326ccb2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b69cd900a78ba4d81919df91b85fd97723172eba
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: babc84c08af759d8484c8ba85db40780f68570d93a0a8b9442e93b960ecac39c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118003524"
 ---
 # <a name="how-to-rotate-an-object"></a>如何旋轉物件
 
@@ -65,6 +65,6 @@ ms.locfileid: "103933436"
 [Direct2D 轉換總覽](direct2d-transforms-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

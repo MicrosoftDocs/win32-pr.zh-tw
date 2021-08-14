@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Mergemod.dll
-ms.openlocfilehash: 4bcf2241cd278640b333bb9f08dc24e645990b4d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1cd5ce697057a04d611dcf7f2f0cd0757874a27f869b5b6aa450d9c6bcc85209
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378878"
 ---
 # <a name="dependencymodule-property"></a>相依性。 Module 屬性
 

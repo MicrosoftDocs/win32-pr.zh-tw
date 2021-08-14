@@ -4,12 +4,12 @@ ms.assetid: f969be42-d541-4e8d-aec4-eb9508bcc7cf
 title: 正確分析 Direct3D API 呼叫 (Direct3D 9)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdb6d60fcc1b3ace4112dbf7028d91e2c9c8b345
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6457e47da58a3614270f89eefa1cfa33fbf30cf26544c1013d010696a68e4602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118097462"
 ---
 # <a name="accurately-profiling-direct3d-api-calls-direct3d-9"></a>正確分析 Direct3D API 呼叫 (Direct3D 9)
 
@@ -141,7 +141,7 @@ IDirect3DDevice9 以外的所有呼叫 [**:D rawprimitive**](/windows/win32/api/
 
 Microsoft Windows 作業系統包含高解析度計時器，可用來測量高解析度的經過時間。 您可以使用 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來傳回其中一個這類計時器的目前值。 叫用 **QueryPerformanceCounter** 來傳回開始和停止值之後，這兩個值之間的差異可以轉換成實際經過的時間， (秒) 使用 **QueryPerformanceCounter**。
 
-使用 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 的優點是它可以在 Windows 中使用，而且很容易使用。 只要使用 **QueryPerformanceCounter** 呼叫來括住呼叫，並儲存開始和停止值即可。 因此，本文將示範如何使用 **QueryPerformanceCounter** 來分析執行時間，類似于檢測分析工具測量它的方式。 以下範例顯示如何在原始程式碼中內嵌 **QueryPerformanceCounter** ：
+使用 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的優點在於它可以在 Windows 中使用，而且很容易使用。 只要使用 **QueryPerformanceCounter** 呼叫來括住呼叫，並儲存開始和停止值即可。 因此，本文將示範如何使用 **QueryPerformanceCounter** 來分析執行時間，類似于檢測分析工具測量它的方式。 以下範例顯示如何在原始程式碼中內嵌 **QueryPerformanceCounter** ：
 
 
 ```
@@ -230,10 +230,10 @@ CPU 工作可以分為三個值區：應用程式工作、執行時間運作和�
 
 ![cpu 元件的圖表，包括命令緩衝區](images/microbenchmarkcommandbuffer2.png)
 
-每次應用程式進行另一個 API 呼叫時，執行時間都會重複此順序，並將另一個命令新增至命令緩衝區。 在某個時間點，執行時間會清空緩衝區 (將命令傳送至驅動程式) 。 在 Windows XP 中，清空命令緩衝區會導致模式轉換，因為作業系統會從執行時間 (以使用者模式執行，) 到以核心模式) 執行的驅動程式 (，如下圖所示。
+每次應用程式進行另一個 API 呼叫時，執行時間都會重複此順序，並將另一個命令新增至命令緩衝區。 在某個時間點，執行時間會清空緩衝區 (將命令傳送至驅動程式) 。 在 Windows XP 中，清空命令緩衝區會導致模式轉換，因為作業系統會在使用者) 模式中執行的 (切換至驅動程式 (以核心模式執行) ，如下圖所示。
 
 -   使用者模式-執行應用程式程式碼的非特殊許可權處理器模式。 使用者模式應用程式無法取得系統資料的存取權（透過系統服務）。
--   核心模式：以 Windows 為基礎的執行程式碼執行時的特殊許可權處理器模式。 在核心模式中執行的驅動程式或執行緒可以存取所有系統記憶體、直接存取硬體，以及使用硬體來執行 i/o 的 CPU 指示。
+-   核心模式-以 Windows 為基礎的執行程式碼執行時的特殊許可權處理器模式。 在核心模式中執行的驅動程式或執行緒可以存取所有系統記憶體、直接存取硬體，以及使用硬體來執行 i/o 的 CPU 指示。
 
 ![使用者模式和核心模式之間的轉換圖](images/microbenchmarkcommandbuffer3.png)
 
@@ -878,7 +878,7 @@ driver  work = 1 SetTexture + 1 DrawPrimitive
 
 有了這項功能，您就可以開始產生任意轉譯順序，並精確地測量相關聯的執行時間和驅動程式工作。 然後，您可以使用這些數位來回答預算問題，例如「在轉譯順序中有多少以上的呼叫」，同時仍維持合理的畫面播放速率（假設 CPU 有限的案例）。
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 本檔將示範如何控制命令緩衝區，以便能夠正確地分析個別呼叫。 程式碼剖析編號可以依滴答、迴圈或絕對時間產生。 它們代表與每個 API 呼叫相關聯的執行時間和驅動程式工作量。
 

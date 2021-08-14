@@ -1,26 +1,26 @@
 ---
-title: Windows 動畫總覽
+title: Windows動畫總覽
 description: 本總覽提供 Windows 動畫管理員的簡介，並著重于重要元件和概念。
 ms.assetid: de1380c9-6801-4178-9281-a23af7d71d77
 keywords:
-- Windows 動畫視窗動畫、總覽
-- 動畫管理員物件視窗動畫，說明
+- Windows動畫 Windows 動畫、總覽
+- 動畫管理員物件 Windows 動畫，說明
 - 動畫變數 Windows 動畫，說明
-- 動畫計時器物件視窗動畫，說明
-- 計時系統視窗動畫
-- 上下文相關持續時間 Windows 動畫
-- 符合 Windows 動畫的速度
-- 爭用管理視窗動畫
+- 動畫計時器物件 Windows 動畫，說明
+- 計時系統 Windows 動畫
+- 即時 Windows 動畫的持續時間
+- Windows 動畫的速度相符
+- 爭用管理 Windows 動畫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a60b02b29d8d434cc93420f36c3cdca4428f94c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7bc0892cffa3e79428e19cbe5b1a3c27d7abda62365c4ceb15731101aa857f0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347997"
 ---
-# <a name="windows-animation-overview"></a>Windows 動畫總覽
+# <a name="windows-animation-overview"></a>Windows動畫總覽
 
 本總覽提供 Windows 動畫管理員的簡介，並著重于重要元件和概念。 如需分鏡腳本和轉換的詳細資訊，請參閱分鏡腳本 [總覽](storyboard-construction.md)。
 
@@ -40,17 +40,17 @@ ms.locfileid: "104023575"
 
 *動畫* 是連續的靜止影像順序，會在播放時產生移動的假像。 在其使用者介面中使用互動式動畫可提供應用程式獨特的特性，以及改善使用者體驗。 動畫可協助您在使用者介面中傳達主要狀態變更，並協助管理使用者介面的複雜度。 動畫也可以新增到使用者對應用程式品質的認知。
 
-例如，工作列中使用 Windows 動畫來協助您管理和存取檔案和程式，以及放大鏡來放大螢幕的不同部分，讓使用者更容易看見。
+舉例而言，Windows 的動畫會在工作列中用來協助您管理和存取檔案和程式，以及放大鏡來放大螢幕的不同部分，讓使用者更容易看見。
 
 動畫的基礎單位是要進行動畫的視覺元素特性，以及該特性如何隨著時間而變更的描述。 應用程式可以建立各種特性的動畫，例如位置、色彩、大小、旋轉、對比和不透明度。
 
-在 Windows 動畫中， *動畫變數* 表示要進行動畫的特性。 *轉換* 會描述動畫變數的值如何隨著動畫而變更。 例如，視覺元素可能會有指定其不透明度的動畫變數，而使用者動作可能會產生將該不透明度從50值轉換為100的轉換，表示從半透明到完全不透明的動畫。
+在 Windows 動畫中，*動畫變數* 表示要進行動畫的特性。 *轉換* 會描述動畫變數的值如何隨著動畫而變更。 例如，視覺元素可能會有指定其不透明度的動畫變數，而使用者動作可能會產生將該不透明度從50值轉換為100的轉換，表示從半透明到完全不透明的動畫。
 
 分鏡 *腳本是一組在一* 段時間內套用至一或多個動畫變數的轉換。 應用程式會藉由建立和播放腳本，然後繪製離散框架的順序來顯示動畫，因為動畫變數的值會隨著時間而變更。
 
 ## <a name="components-of-windows-animation"></a>Windows 動畫的元件
 
-Windows 動畫包含下列元件：
+Windows動畫包含下列元件：
 
 <dl> <dt>
 
@@ -75,7 +75,7 @@ Windows 動畫包含下列元件：
 <span id="timing_system"></span><span id="TIMING_SYSTEM"></span>計時系統
 </dt> <dd>
 
-Windows 動畫包含時間系統，可協助確保動畫是以平滑且一致的畫面播放速率轉譯，同時也可減少系統資源忙碌時的系統資源使用方式。 *計時器* 會自動指出一小段時間（稱為 *滴答*），以協助管理動畫呈現。 計時系統會監視整體系統轉譯 *效能，並* 以動態方式增加或減少刻度的頻率來調整動畫。 應用程式可讓計時器驅動動畫管理員，並且可以註冊處理常式，以便在管理員更新每個刻度之前和之後收到通知。 應用程式可以為計時器指定可接受的最小動畫畫面播放速率，並且在動畫的實際畫面播放速率低於此速率時收到通知。
+Windows動畫包含時間系統，可協助確保動畫是以平滑且一致的畫面播放速率轉譯，同時也會在系統忙碌時減少系統資源的使用。 *計時器* 會自動指出一小段時間（稱為 *滴答*），以協助管理動畫呈現。 計時系統會監視整體系統轉譯 *效能，並* 以動態方式增加或減少刻度的頻率來調整動畫。 應用程式可讓計時器驅動動畫管理員，並且可以註冊處理常式，以便在管理員更新每個刻度之前和之後收到通知。 應用程式可以為計時器指定可接受的最小動畫畫面播放速率，並且在動畫的實際畫面播放速率低於此速率時收到通知。
 
 若要節省系統資源，您可以設定計時器，在沒有任何動畫發生時將其停用。
 
@@ -83,7 +83,7 @@ Windows 動畫包含時間系統，可協助確保動畫是以平滑且一致的
 
 ## <a name="the-windows-animation-api"></a>Windows 動畫 API
 
-Windows 動畫 API 是單一執行緒的 COM 型 API，可為開發人員提供下列功能：
+Windows 動畫 api 是單一執行緒的 COM 型 api，可為開發人員提供下列功能：
 
 -   動畫管理員物件 [**UIAnimationManager**](/previous-versions/windows/desktop/legacy/dd317019(v=vs.85))，用於建立動畫物件和控制動畫
 -   動畫變數和分鏡腳本
@@ -91,7 +91,7 @@ Windows 動畫 API 是單一執行緒的 COM 型 API，可為開發人員提供�
 -   計時器物件（ [**UIAnimationTimer**](/previous-versions/windows/desktop/legacy/dd317021(v=vs.85))），用來判斷目前的時間，以及選擇性地驅動動畫
 -   用於監視動畫狀態和進度的事件攔截
 
-如需完整的 API 參考，請參閱 [Windows 動畫參考](windows-animation-reference.md)。 如需範例程式碼，請參閱 [Windows 動畫](using-windows-animation.md) 工作和 [windows 動畫範例](windows-animation-samples.md)。
+如需完整的 API 參考，請參閱[Windows 動畫參考](windows-animation-reference.md)。 如需範例程式碼，請參閱[Windows 動畫](using-windows-animation.md)工作和[Windows 動畫範例](windows-animation-samples.md)。
 
 ## <a name="configurations"></a>設定
 
@@ -143,22 +143,22 @@ Windows 動畫 API 是單一執行緒的 COM 型 API，可為開發人員提供�
 <span id="contention_management"></span><span id="CONTENTION_MANAGEMENT"></span>*爭用管理*
 </dt> <dd>
 
-如果兩個分鏡腳本需要同時更新相同的動畫變數，則會發生排程衝突。 Windows 動畫可讓應用程式判斷任何兩個分鏡腳本的相對優先權，而不需要每個分鏡腳本有特定的數值優先順序。
+如果兩個分鏡腳本需要同時更新相同的動畫變數，則會發生排程衝突。 Windows 動畫可讓應用程式判斷任何兩個分鏡腳本的相對優先權，而不需要每個分鏡腳本的特定數值優先順序。
 
 </dd> </dl>
 
 ### <a name="contention-management"></a>爭用管理
 
-開發人員可以執行 *優先順序比較* 回呼，以比較已排程之分鏡腳本的優先順序以及已在排程中的分鏡腳本。 執行優先順序比較的應用程式可以使用任何慣用的邏輯來判斷分鏡腳本預先 empts 另一個的時間。 為了解決排程衝突，Windows 動畫會以下列順序要求應用程式執行下列動作：
+開發人員可以執行 *優先順序比較* 回呼，以比較已排程之分鏡腳本的優先順序以及已在排程中的分鏡腳本。 執行優先順序比較的應用程式可以使用任何慣用的邏輯來判斷分鏡腳本預先 empts 另一個的時間。 若要解決排程衝突，Windows 動畫會以下列順序要求應用程式可能採取下列其中一項動作：
 
 -   **取消已排程的分鏡腳本。** 如果排定的分鏡腳本尚未開始播放，它可能會取消並立即從排程中移除。
 -   **修剪排程的分鏡腳本。** 當新的分鏡腳本修剪排程的分鏡腳本時，排程的分鏡腳本會在新的腳本開始建立動畫時立即停止影響變數。 系統會比對速度，讓新的分鏡腳本能夠順暢地挑選前一個。
 -   **結束排程的分鏡腳本。** 只有當分鏡腳本包含了無限期重複的迴圈時，才會結束。 如果腳本在結束時為這類迴圈，則目前的重複項會完成，而腳本的其餘部分則會播放。 如果在分鏡腳本結束時，迴圈尚未開始，則會完全略過迴圈。
--   **壓縮已排程的分鏡腳本。** 如果無法選擇修剪或取消已排程的分鏡腳本，則可以完成腳本。 Windows 動畫引進了可將排程的分鏡腳本 (的時間以及在) 之前排定的任何分鏡腳本，讓變數更快達到其最終狀態的可能性。 套用壓縮時，會暫時加速受影響的分鏡腳本，讓它們的播放速度更快。
+-   **壓縮已排程的分鏡腳本。** 如果無法選擇修剪或取消已排程的分鏡腳本，則可以完成腳本。 Windows動畫導入了可能會將排程的分鏡腳本 (的可用時間，以及在) 之前排定的任何分鏡腳本，讓變數更快達到其最終狀態。 套用壓縮時，會暫時加速受影響的分鏡腳本，讓它們的播放速度更快。
 
 如果註冊的優先順序比較物件不允許上述任何動作，則嘗試排程新的分鏡腳本會失敗。 根據預設，所有的分鏡腳本都可以修剪、結束或壓縮以防止失敗，但無法取消任何。
 
-下圖顯示分鏡腳本的生命週期，使用 UI 動畫分鏡腳本 [**\_ \_ \_ 狀態**](/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status) 列舉所定義的狀態。 應用程式會使用 Windows 動畫 API 來建立分鏡腳本，並提交以進行排程。 動畫管理員會排定分鏡腳本並管理動畫。
+下圖顯示分鏡腳本的生命週期，使用 UI 動畫分鏡腳本 [**\_ \_ \_ 狀態**](/windows/win32/api/uianimation/ne-uianimation-ui_animation_storyboard_status) 列舉所定義的狀態。 應用程式會使用 Windows 的動畫 API 來建立分鏡腳本，並提交以進行排程。 動畫管理員會排定分鏡腳本並管理動畫。
 
 ![顯示動畫管理員如何排程腳本和管理動畫的圖表。](images/statediagram.png)
 
@@ -168,15 +168,15 @@ Windows 動畫 API 是單一執行緒的 COM 型 API，可為開發人員提供�
 
 <dl> <dt>
 
-[Windows 動畫參考](windows-animation-reference.md)
+[Windows動畫參考](windows-animation-reference.md)
 </dt> <dt>
 
-[Windows 動畫範例](windows-animation-samples.md)
+[Windows動畫範例](windows-animation-samples.md)
 </dt> <dt>
 
-[Windows 動畫工作](using-windows-animation.md)
+[Windows動畫工作](using-windows-animation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

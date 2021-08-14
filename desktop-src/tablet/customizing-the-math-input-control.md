@@ -4,12 +4,12 @@ ms.assetid: 922562be-4d5b-45b6-ad0b-49176f893c8e
 title: 自訂數學輸入控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c3cab7c6efe003738c46a89d07866fcc9302ec5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8adedc4ab5b655f4f753a1b83cabe28e322adaad3c73bcf9f25ea1dea6d0bc08
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118045621"
 ---
 # <a name="customizing-the-math-input-control"></a>自訂數學輸入控制項
 

@@ -4,12 +4,12 @@ ms.assetid: a3ed4d8a-170b-4708-afc2-03d2a5b665a3
 title: ControlShowRollbackCost 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7947777a356933ab74051163b6b9b023736dbb2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68a888df328062a81637b36dc3fcfbe178d6e49bd4aee01c65b2d2e3524fb321
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118379923"
 ---
 # <a name="controlshowrollbackcost-control-attribute"></a>ControlShowRollbackCost 控制項屬性
 

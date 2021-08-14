@@ -4,12 +4,12 @@ ms.assetid: 9534be9e-ab57-4c36-b1ae-ff12d632574c
 title: 系統。方向
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11f635cd020f9ae6bee8340f51bd17a337db04b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb2edb7f9323009af5fbc4cda553a9450bbb788484876ceb7d2abddc0f38847e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464013"
 ---
 # <a name="systemvideoorientation"></a>系統。方向
 

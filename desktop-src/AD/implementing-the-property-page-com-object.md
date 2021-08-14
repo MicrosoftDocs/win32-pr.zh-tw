@@ -8,12 +8,12 @@ keywords:
 - 屬性頁 COM 物件，執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55962002ca059ad6e9c137925d1ba21ba9adc513
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2504c27bcf4703bb49a3e8620c287c30ae9017ab6e65345d003f2acb6c9b544e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187609"
 ---
 # <a name="implementing-the-property-page-com-object"></a>執行屬性頁 COM 物件
 
@@ -129,7 +129,7 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 > [!Note]  
 > 不同于大部分的 COM 方法與函數， [**ADsPropGetInitInfo**](/windows/desktop/api/Adsprop/nf-adsprop-adspropgetinitinfo) 不會遞增 [**IDirectoryObject**](/windows/desktop/api/iads/nn-iads-idirectoryobject) 物件的參考計數。 除非先手動遞增參考計數，否則不得釋放 **IDirectoryObject** 。
 
- 
+ 
 
 當您第一次建立屬性頁時，擴充功能應該使用頁面的視窗控制碼呼叫 [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd) ，以向通知物件註冊頁面。
 
@@ -143,7 +143,7 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 ## <a name="multiple-selection-property-sheets"></a>Multiple-Selection 屬性工作表
 
-使用 Windows Server 2003 和更新版本的作業系統時，Active Directory 的管理 MMC 嵌入式管理單元，可支援多個目錄物件的屬性工作表延伸模組。 當您一次查看一個以上的專案的屬性時，就會顯示這些屬性工作表。 單一選取屬性工作表延伸和多重選取屬性工作表延伸模組之間的主要差異在於 [**IShellExtInit：： Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize)中的 [**CFSTR \_ DSOBJECTNAMES**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format)剪貼簿格式所提供的 [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames)結構將會包含一個以上的 [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject)結構。
+使用 Windows Server 2003 及更新版本的作業系統時，Active Directory 系統管理 MMC 嵌入式管理單元支援多個目錄物件的屬性工作表延伸模組。 當您一次查看一個以上的專案的屬性時，就會顯示這些屬性工作表。 單一選取屬性工作表延伸和多重選取屬性工作表延伸模組之間的主要差異在於 [**IShellExtInit：： Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize)中的 [**CFSTR \_ DSOBJECTNAMES**](/previous-versions/windows/desktop/mmc/cfstr-dsobjectnames-clipboard-format)剪貼簿格式所提供的 [**DSOBJECTNAMES**](/windows/desktop/api/Dsclient/ns-dsclient-dsobjectnames)結構將會包含一個以上的 [**DSOBJECT**](/windows/desktop/api/Dsclient/ns-dsclient-dsobject)結構。
 
 建立通知物件時，多重選取屬性工作表延伸模組必須傳遞嵌入式管理單元所提供的唯一名稱，而不是延伸模組所建立的名稱。 若要取得唯一的名稱，請從 [**IShellExtInit：： Initialize**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishellextinit-initialize)取得的 [**IDataObject**](/windows/win32/api/objidl/nn-objidl-idataobject)要求 [**CFSTR \_ DS \_ MULTISELECTPROPPAGE**](cfstr-ds-multiselectproppage.md)剪貼簿格式。 這項資料是包含以 null 終止之 Unicode 字串的 **HGLOBAL** ，此字串是唯一的名稱。 然後，這個唯一名稱會傳遞至 [**ADsPropCreateNotifyObj**](/windows/desktop/api/Adsprop/nf-adsprop-adspropcreatenotifyobj) 函式以建立通知物件。 [範例程式碼](example-code-for-implementation-of-the-property-sheet-com-object.md)中的 **CreateADsNotificationObject** 範例函式會示範如何正確地執行此作業，以及與不支援多重選取屬性工作表的舊版嵌入式管理單元相容。
 
@@ -153,11 +153,11 @@ UINT CALLBACK CPropSheetExt::PageCallbackProc(  HWND hWnd,
 
 ## <a name="new-with-windows-server-2003"></a>Windows Server 2003 的新
 
-以下是 Windows Server 2003 的新功能。
+以下是 Windows Server 2003 中的新功能。
 
 如果屬性頁遇到錯誤，則可以使用適當的錯誤資料來呼叫 [**ADsPropSendErrorMessage**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsenderrormessage) 。 **ADsPropSendErrorMessage** 會將所有錯誤訊息儲存在佇列中。 下次呼叫 [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) 時，就會顯示這些訊息。 當 **ADsPropShowErrorDialog** 傳回時，會刪除已排入佇列的訊息。
 
-Windows Server 2003 引進 [**ADsPropSetHwndWithTitle**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle) 函式。 此函式類似于 [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd)，但包含頁面標題。 這會啟用 [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) 所顯示的錯誤對話方塊，以提供更多有用的資料給使用者。 如果屬性工作表擴充功能使用 **ADsPropShowErrorDialog** 函式，則此延伸模組應使用 **ADsPropSetHwndWithTitle** 而不是 **ADsPropSetHwnd**。
+Windows伺服器2003引進 [**ADsPropSetHwndWithTitle**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwndwithtitle)函式。 此函式類似于 [**ADsPropSetHwnd**](/windows/desktop/api/Adsprop/nf-adsprop-adspropsethwnd)，但包含頁面標題。 這會啟用 [**ADsPropShowErrorDialog**](/windows/desktop/api/Adsprop/nf-adsprop-adspropshowerrordialog) 所顯示的錯誤對話方塊，以提供更多有用的資料給使用者。 如果屬性工作表擴充功能使用 **ADsPropShowErrorDialog** 函式，則此延伸模組應使用 **ADsPropSetHwndWithTitle** 而不是 **ADsPropSetHwnd**。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -166,6 +166,6 @@ Windows Server 2003 引進 [**ADsPropSetHwndWithTitle**](/windows/desktop/api/Ad
 [屬性工作表 COM 物件的執行範例程式碼](example-code-for-implementation-of-the-property-sheet-com-object.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

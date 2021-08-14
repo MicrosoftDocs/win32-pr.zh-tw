@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fc1693b3f84cd594bfeca81a8e854e49e28d955f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d2e040a9bda9a6e0d5f491190a41bda3e1f76f645fe5ec3870ab83aeb200965
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118497779"
 ---
 # <a name="apijettruncateloginstance-method"></a>JetTruncateLogInstance 方法
 

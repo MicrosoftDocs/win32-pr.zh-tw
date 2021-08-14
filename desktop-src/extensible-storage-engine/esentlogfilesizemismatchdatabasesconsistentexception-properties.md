@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102222
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 18f06738b99051ec9c1fea328c00e4f416c76b60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6fe330e40dcf8a5c4e8b9992084824b3ef76c562acf645433a4ffc9c793b0be3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117900082"
 ---
 # <a name="esentlogfilesizemismatchdatabasesconsistentexception-properties"></a>EsentLogFileSizeMismatchDatabasesConsistentException 屬性
 

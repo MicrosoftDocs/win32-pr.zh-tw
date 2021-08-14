@@ -7,12 +7,12 @@ keywords:
 - 搜尋 Active Directory 的安全性效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26feee840c0668b2ea9412932a27927bb1c00012
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 429150489f2ab4d00015744beff72ee2b90b0399afd3d43f9263d39cadbaecd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191618"
 ---
 # <a name="effects-of-security-on-searching"></a>搜尋安全性的影響
 
@@ -30,9 +30,9 @@ E \_ ADS \_ 不正確 \_ 網域 \_ 物件
 
 \_ \_ \_ \_ 找不到電子 ADS 屬性
 
- 
+ 
 
- 
+ 
 
 
 

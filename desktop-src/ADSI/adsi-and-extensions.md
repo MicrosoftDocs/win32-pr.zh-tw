@@ -8,12 +8,12 @@ keywords:
 - adsi 和延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 956a76954851ea54b4eae99bfa45102a3b2fefa5
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 6f1b5a806812fea1191ce5eb1b5a977fc430d9cbf15140b4b096dbf388c85315
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118181159"
 ---
 # <a name="how-adsi-integrates-extensions"></a>ADSI 如何整合延伸模組
 
@@ -28,6 +28,6 @@ ms.locfileid: "104024089"
 -   接下來，用戶端會呼叫 IYourExtension 的 **QueryInterface** \_ ，這是在不同的元件中。 這個元件會將這個 **QueryInterface** 呼叫委派給匯總工具的 [**IUnknown**](/windows/win32/api/unknwn/nn-unknwn-iunknown) 介面，這個介面剛好是 ADSI 本身。
 -   同樣地，ADSI 會搜尋介面並建立元件實例。
 
- 
+ 
 
- 
+ 

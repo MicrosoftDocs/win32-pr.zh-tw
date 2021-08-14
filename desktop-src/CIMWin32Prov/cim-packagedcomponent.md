@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 1b95cbbea60bfbd6bb352e53cfecb8819d99ec24
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: deda43cc153baf320f5c927438314114edf3ec2d92d9e96af95707d1b7805e56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847106"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422028"
 ---
 # <a name="cim_packagedcomponent-class"></a>CIM \_ PackagedComponent 類別
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27331eb3c768dba7b0c91026acca719921cc9474
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 297b52df30c7b17190e91e323f104f0e8df68bed751b28264603e9ca5135dbd9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118357465"
 ---
 # <a name="tasknamedvaluecollection-object"></a>TaskNamedValueCollection 物件
 
@@ -41,7 +41,7 @@ ms.locfileid: "104509119"
 
 | 方法                                            | 描述                                                        |
 |:--------------------------------------------------|:-------------------------------------------------------------------|
-| [**清楚**](tasknamedvaluecollection-clear.md)   | 清除整個名稱/值組的集合。<br/>       |
+| [**清除**](tasknamedvaluecollection-clear.md)   | 清除整個名稱/值組的集合。<br/>       |
 | [**建立**](tasknamedvaluecollection-create.md) | 在集合中建立成對的名稱/值。<br/>            |
 | [**移除**](tasknamedvaluecollection-remove.md) | 從集合中移除選取的名稱/值組。<br/> |
 
@@ -70,8 +70,8 @@ ms.locfileid: "104509119"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Taskschd.dll</dt> </dl> |
 

@@ -1,5 +1,5 @@
 ---
-description: 代表執行 Windows 的電腦系統上的 CD-ROM 光碟機。
+description: 代表執行 Windows 之電腦系統上的 CD-ROM 光碟機。
 ms.assetid: 08087976-ca88-4ac8-9456-0d8bd799e66c
 ms.tgt_platform: multiple
 title: Win32_CDROMDrive 類別
@@ -65,16 +65,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6c352d2ee717f5eb888b49d6e5e8ff456cc5a85f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1148cffe4e6a13aac1b873a95cd57233ae65addeb5aca15dfe8ccdab834d730c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118418249"
 ---
 # <a name="win32_cdromdrive-class"></a>Win32 \_ CDROMDrive 類別
 
-**Win32 \_ CDROMDrive** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 的電腦系統上的 cd-rom 光碟機。
+**Win32 \_ CDROMDrive** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)代表執行 Windows 之電腦系統上的 cd-rom 光碟機。
 
 > [!Note]  
 > 請注意，磁片磁碟機的名稱不會對應至指派給裝置的邏輯磁碟機代號。
@@ -381,7 +381,7 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能陣列。 例如，裝置可能支援隨機存取 (3) 、卸載式媒體 (7) ，以及自動清除 (9) 。
@@ -589,7 +589,7 @@ class Win32_CDROMDrive : CIM_CDROMDrive
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1136,7 +1136,7 @@ CD-ROM 光碟機的磁碟機號。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| File System 函數 \| [**GetVolumeInformation**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)" ) 
 </dt> </dl>
 
-與 Windows CD-ROM 光碟機相關聯的檔案系統旗標。 此參數可以是旗標的任意組合，但是 **fs \_ 檔 \_ 壓縮** 和 **fs 模式 \_ \_ 會 \_** 互相排斥。
+與 Windows cd-rom 光碟機相關聯的檔案系統旗標。 此參數可以是旗標的任意組合，但是 **fs \_ 檔 \_ 壓縮** 和 **fs 模式 \_ \_ 會 \_** 互相排斥。
 
 <dt>
 
@@ -1230,7 +1230,7 @@ CD-ROM 光碟機的磁碟機號。
 
 <span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>
 
-<span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>**支援遠端存放** (256) 
+<span id="Supports_Remote_Storage"></span><span id="supports_remote_storage"></span><span id="SUPPORTS_REMOTE_STORAGE"></span>**支援遠端儲存體** (256) 
 
 
 </dt> <dd>
@@ -1372,7 +1372,7 @@ CD-ROM 光碟機的磁碟機號。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32Registry" ) 
 </dt> </dl>
 
-Windows CD-ROM 光碟機的製造商。
+Windows cd-rom 光碟機的製造商。
 
 範例： "PLEXTOR"
 
@@ -1410,7 +1410,7 @@ Windows CD-ROM 光碟機的製造商。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| File System 函數 \| [**GetVolumeInformation**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)" ) 
 </dt> </dl>
 
-Windows CD-ROM 光碟機所支援的檔案名元件最大長度。 檔案名元件是在反斜線之間的檔案名部分。 此值可用來指出指定的檔案系統所支援的完整名稱。 例如，對於支援長名稱的 FAT 檔案系統，此函式會儲存值255，而不是先前的8.3 指標。 使用 NTFS 檔案系統的系統也可以支援完整名稱。
+Windows cd-rom 光碟機所支援的檔案名元件的最大長度。 檔案名元件是在反斜線之間的檔案名部分。 此值可用來指出指定的檔案系統所支援的完整名稱。 例如，對於支援長名稱的 FAT 檔案系統，此函式會儲存值255，而不是先前的8.3 指標。 使用 NTFS 檔案系統的系統也可以支援完整名稱。
 
 範例：255
 
@@ -1594,7 +1594,7 @@ Windows CD-ROM 光碟機所支援的檔案名元件最大長度。 檔案名元�
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。
+Windows隨插即用邏輯裝置的裝置識別碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1728,7 +1728,7 @@ Windows 隨插即用邏輯裝置的裝置識別碼。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32Registry \| RevisionLevel" ) 
 </dt> </dl>
 
-Windows DVD-ROM 磁片磁碟機的固件修訂層級。
+Windows cd-rom 光碟機的固件修訂層級。
 
 </dd> <dt>
 
@@ -1798,7 +1798,7 @@ Windows DVD-ROM 磁片磁碟機的固件修訂層級。
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| DeviceIoControl \| IOCTL \_ SCSI \_ GET \_ ADDRESS" ) 
 </dt> </dl>
 
-Windows DVD-ROM 磁片磁碟機的 SCSI 識別碼號碼。
+Windows cd-rom 光碟機的 SCSI 識別碼號碼。
 
 範例：0
 
@@ -2063,7 +2063,7 @@ CD-ROM 光碟機的傳送速率。 值為-1 表示無法判斷速率。 發生�
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32API \| File System 函數 \| [**GetVolumeInformation**](/windows/desktop/api/fileapi/nf-fileapi-getvolumeinformationa)" ) 
 </dt> </dl>
 
-Windows CD-ROM 光碟機的磁片區名稱。
+Windows cd-rom 光碟機的磁片區名稱。
 
 </dd> <dt>
 

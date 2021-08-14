@@ -13,16 +13,16 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 484fafed7e77fcd4d97c74c26acf8dfaf058dcf4
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 19b3ee6eb9f13171576cac1a0c656139cee83b7a689eadcb89a33f2807eb8b03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190751"
 ---
 # <a name="example-code-for-creating-an-external-crossref-object"></a>建立外部交互參照物件的範例程式碼
 
-下列 Visual Basic 程式碼範例示範如何建立外部 [**交叉引用**](/windows/desktop/ADSchema/c-crossref) 物件。
+下列 Visual Basic 程式碼範例示範如何建立外部 [**交叉引用**](/windows/desktop/ADSchema/c-crossref)物件。
 
 
 ```VB
@@ -75,6 +75,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

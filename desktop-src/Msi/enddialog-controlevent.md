@@ -4,12 +4,12 @@ ms.assetid: 74a28696-6387-4d62-8955-4708ba5872bb
 title: EndDialog ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f08449bffe29093e32066e92e1b8fc739efa02d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0f6e61ab12f072e31d6e4efc5f3d2b27ef8629c933baad65fb101b1078ca1f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378250"
 ---
 # <a name="enddialog-controlevent"></a>EndDialog ControlEvent
 

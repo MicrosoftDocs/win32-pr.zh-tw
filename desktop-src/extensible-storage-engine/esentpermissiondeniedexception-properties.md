@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102478
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: eb1e3c054059b0cd116b7e8673ee39a9bf7449a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 546bd28d2da124dc3217d1bdf9296e3c1cd838756d555f33536c6fa752c246f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104558739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117898300"
 ---
 # <a name="esentpermissiondeniedexception-properties"></a>EsentPermissionDeniedException 屬性
 

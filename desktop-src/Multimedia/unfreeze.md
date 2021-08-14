@@ -3,7 +3,7 @@ title: 解除凍結命令
 description: 當凍結命令停用 reenables 時，[解除凍結] 命令會將影片捕獲到框架緩衝區。 數位影片、VCR 和影片重迭裝置會辨識此命令。
 ms.assetid: ca90c299-2003-44cb-a879-4bc767480965
 keywords:
-- 解除凍結命令 Windows 多媒體
+- 將 Windows 多媒體的命令解除凍結
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 155ba6b65fb08411d8404920c8f3337d1bddbcb1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 88fe45b1346872483a4012c5f5d161dcd61020c64349fee254ae4bf337b4be8b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370808"
 ---
 # <a name="unfreeze-command"></a>解除凍結命令
 

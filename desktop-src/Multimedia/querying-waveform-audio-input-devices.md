@@ -9,12 +9,12 @@ keywords:
 - 查詢波形音訊輸入裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 91b915b3f39ad417a3d92396d887e5fb66092119
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8fd22a2b65746202a831d475fcde38b31259619dbc645a5cbca3b91d03ff6e0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371920"
 ---
 # <a name="querying-waveform-audio-input-devices"></a>查詢 Waveform-Audio 輸入裝置
 
@@ -27,6 +27,6 @@ ms.locfileid: "103933177"
 [錄製波形音訊](recording-waveform-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

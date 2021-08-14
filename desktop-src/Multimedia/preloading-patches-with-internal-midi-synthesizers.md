@@ -13,18 +13,18 @@ keywords:
 - 預先載入 MIDI 修補程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc54eccdaa0a0c9aa16f206e7e036f322b615d96
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: de389e058c015c38d05fb8ff2a960ca3ef75a662faa6a1ce519c26afe14f09b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372495"
 ---
 # <a name="preloading-patches-with-internal-midi-synthesizers"></a>使用內部 MIDI 合成程式預先載入修補程式
 
 某些內部的 MIDI 合成器裝置無法同時載入其所有修補程式。 這些裝置必須預先載入其修補程式資料。
 
-Windows 提供下列函式來要求合成器預先載入並快取指定的修補程式。
+Windows 提供下列函式，以要求合成器預先載入並快取指定的修補程式。
 
 
 
@@ -35,10 +35,10 @@ Windows 提供下列函式來要求合成器預先載入並快取指定的修補
 
 
 
- 
+ 
 
 如需如何判斷特定裝置是否支援預先載入修補程式的相關資訊，請參閱 [查詢 MIDI 輸出裝置](querying-midi-output-devices.md)。
 
- 
+ 
 
- 
+ 

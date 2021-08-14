@@ -4,12 +4,12 @@ description: 本節包含 D3DCSX 11 結構的相關資訊。
 ms.assetid: ED42B8D1-F4C9-489F-999B-A53BC96BA337
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d590b1310a5b57e52a9029e2de78acd7f7e5de9
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 399eab798158246328fbf9124348e1e667a774ba4262df09564f03063ed2dba2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104463937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300657"
 ---
 # <a name="d3dcsx-11-structures"></a>D3DCSX 11 結構
 

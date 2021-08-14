@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 6dd0d1159132e594b6d48ea6799da5846eeb626e
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8023b9db00834b10fcce84510df5ccbafec0c7a2f6654ef73d71754e7c563044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365578"
 ---
 # <a name="iespstart-method"></a>IESP：： Start 方法
 
@@ -59,8 +59,8 @@ HRESULT STDMETHODCALLTYPE Start(
 |-------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 此捕獲已暫停，必須先停止，才能重新開機。 呼叫 [IESP：： stop](iesp-stop.md) 以停止捕捉。<br/> |
 | <dl> <dt>**NMERR \_ 捕獲**</dt> </dl>       | 已啟動 capture。<br/>                                                                                             |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [IESP：： connect](iesp-connect.md) 以將 NPP 連接到網路。<br/>          |
-| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>        | NPP 已連接到網路，但不是使用 [IESP：： Connect](iesp-connect.md) 方法。<br/>                              |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫[IESP：：連線](iesp-connect.md)將 NPP 連接到網路。<br/>          |
+| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>        | NPP 是連接到網路，但不是使用[IESP：：連線](iesp-connect.md)方法。<br/>                              |
 
 
 
@@ -68,7 +68,7 @@ HRESULT STDMETHODCALLTYPE Start(
 
 ## <a name="remarks"></a>備註
 
-在 Windows 登錄中指定了 [*capture*](c.md) 檔案的位置，但您可以使用網路監視器來變更目錄位置。
+在 Windows 登錄中指定了 [*capture*](c.md)檔案的位置，但您可以使用網路監視器來變更目錄位置。
 
 當您使用 IESP：： Start 和 [IESP：： Stop](iesp-stop.md) 方法重新開機捕捉時，您必須呼叫 [IESP：： Configure](iesp-configure.md) 方法，以在每次呼叫 IESP：： start 重新開機捕獲資料時重新設定連接。 當您使用這三種方法來啟動和停止捕捉時，每次啟動捕獲時都會建立新的捕獲檔案。
 
@@ -100,7 +100,7 @@ HRESULT STDMETHODCALLTYPE Start(
 [IESP：： Configure](iesp-configure.md)
 </dt> <dt>
 
-[IESP：： Connect](iesp-connect.md)
+[IESP：：連線](iesp-connect.md)
 </dt> <dt>
 
 [IESP：:P ause](iesp-pause.md)

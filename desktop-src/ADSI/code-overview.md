@@ -7,12 +7,12 @@ keywords:
 - 程式碼總覽廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e99a4974ac97488fc051ea80dbde7a8a83fa329e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: dc23f4a3a51c33f24748347a2941bc09dbda8bc3bd99d133f99d0377eb0bda90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118017721"
 ---
 # <a name="code-overview"></a>程式碼總覽
 
@@ -37,6 +37,6 @@ ms.locfileid: "104024096"
 13. 作業系統特定的呼叫 (RegDSAPI .cpp) 。 這包括參考原生作業系統的所有呼叫。 在其他函式中，它們包含開啟、關閉、讀取和修改物件的功能，以及存取架構和屬性資料的函式。 範例提供者元件在使用登錄模擬目錄階層時發生。 只有對提供者寫入器而言，函式名稱應該很感興趣。
 14. [**IDispatch**](/windows/win32/api/oaidl/nn-oaidl-idispatch) (Cdispmgr .cpp) 。 這段程式碼會存取類型程式庫資料，以允許以自動化相容的方式叫用介面方法。
 
- 
+ 
 
- 
+ 

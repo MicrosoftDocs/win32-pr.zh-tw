@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: d065540eb036b26cdd19791dc393d32c5b45e3ee
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0a7ce5a4fe90e911faaf8927fe584004eec7a68eae7b5c75f1c3a92f017fd4bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118295783"
 ---
 # <a name="id3dxeffectstatemanagerlightenable-method"></a>ID3DXEffectStateManager：： LightEnable 方法
 

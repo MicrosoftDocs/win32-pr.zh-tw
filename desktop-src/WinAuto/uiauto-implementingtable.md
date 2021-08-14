@@ -15,12 +15,12 @@ keywords:
 - 介面，ITableProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9879d1589985df0257a1dd7805f474c013b93732
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb484245ee7c2f982ca6c5624ad108a0c75a4721ba7f6cbdf7a8af8ee2d91881
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104550397"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324127"
 ---
 # <a name="table-control-pattern"></a>Table 控制項模式
 
@@ -42,9 +42,9 @@ ms.locfileid: "104550397"
 -   資料行或資料列標頭可以包含在資料表物件中，也可以是與資料表物件建立關係的個別標頭物件。
 -   資料行和資料列標頭可同時包含主要標頭和任何支援的標頭。
     > [!Note]  
-    > 此概念在 Microsoft Excel 試算表中變得很明顯，其中使用者已定義 **名字** 資料行。 此資料行現在有兩個標頭，包括使用者所定義的 **名字** 標頭，以及該應用程式所指派之資料行的英數位元。
+    > 在使用者定義了 **First name** 資料行的 Microsoft Excel 試算表中，此概念會變得很明顯。 此資料行現在有兩個標頭，包括使用者所定義的 **名字** 標頭，以及該應用程式所指派之資料行的英數位元。
 
-     
+     
 
 -   請參閱 [方格控制項模式](uiauto-implementinggrid.md) 以取得相關格線功能。
 
@@ -62,7 +62,7 @@ ms.locfileid: "104550397"
 
 
 
-| 必要成員                                                   | 成員類型 | 備註 |
+| 必要成員                                                   | 成員類型 | 附註 |
 |--------------------------------------------------------------------|-------------|-------|
 | [**之 roworcolumnmajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | 屬性    | 無  |
 | [**GetColumnHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getcolumnheaders) | 方法      | 無  |
@@ -70,7 +70,7 @@ ms.locfileid: "104550397"
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的事件。
 
@@ -93,9 +93,9 @@ ms.locfileid: "104550397"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

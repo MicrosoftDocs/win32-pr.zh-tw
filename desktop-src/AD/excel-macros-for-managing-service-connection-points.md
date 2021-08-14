@@ -1,5 +1,5 @@
 ---
-title: 用於管理服務連接點的 Excel 宏
+title: Excel用來管理服務連接點的宏
 description: 您可以使用簡單的 Excel 宏來管理服務連接點。
 ms.assetid: da8a7363-6814-4c26-b259-53e6f6ba98cd
 ms.tgt_platform: multiple
@@ -10,14 +10,14 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 69bc3561962b063c9128d46934d3cb87b84e0a24
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f0f6d0897e7579fab45e5b952c3f03456f73a38183f07e87235f671f795763d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189612"
 ---
-# <a name="excel-macros-for-managing-service-connection-points"></a>用於管理服務連接點的 Excel 宏
+# <a name="excel-macros-for-managing-service-connection-points"></a>Excel用來管理服務連接點的宏
 
 您可以使用簡單的 Excel 宏來管理服務連接點。
 
@@ -78,9 +78,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

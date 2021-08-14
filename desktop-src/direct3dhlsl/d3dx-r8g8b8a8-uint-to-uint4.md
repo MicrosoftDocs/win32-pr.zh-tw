@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a371a36e797e1bff17aff457e11b140e4775894
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f97c46400f1ba08f1b9e72b867cb66fda37e7bb4cd3a2b2b871271a6858a4a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974517"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118286563"
 ---
 # <a name="d3dx_r8g8b8a8_uint_to_uint4-function"></a>D3DX \_ R8G8B8A8 \_ UINT \_ to \_ UINT4 function
 

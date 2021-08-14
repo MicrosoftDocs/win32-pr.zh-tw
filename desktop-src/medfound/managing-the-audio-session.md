@@ -4,12 +4,12 @@ ms.assetid: 4cf3dd0f-4c8a-4720-9eb3-d23352f3a85e
 title: 管理音訊會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5231ca02603279675fabaaac4b96a1cd001906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8573bd7145cc792d3178d51cead18c3a8694dde9281644b37439a377f18bec96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118062819"
 ---
 # <a name="managing-the-audio-session"></a>管理音訊會話
 

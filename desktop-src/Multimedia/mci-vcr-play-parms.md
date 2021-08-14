@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae15eedc69accc88ef7a58a6d7ad435e872de7ea
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6f2e725ca3dc04fa13dd89aff0a5fbd60ede66f83154740803c98679eb77aec1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374355"
 ---
 # <a name="mci_vcr_play_parms-structure"></a>MCI \_ VCR \_ 播放 \_ PARMS 結構
 

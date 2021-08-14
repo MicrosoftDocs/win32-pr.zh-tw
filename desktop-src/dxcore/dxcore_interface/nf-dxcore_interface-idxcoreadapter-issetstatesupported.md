@@ -4,12 +4,12 @@ description: 判斷這個 DXCore 介面卡物件和目前作業系統 (作業系
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 284e38a622c882fce04278d9134908f55c9a25cb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dc63b541a552f1b01792e9f503acc7aeee03ce5ac6cc92e7b70e271ae62a50ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118278976"
 ---
 # <a name="idxcoreadapterissetstatesupported-method"></a>IDXCoreAdapter：： IsSetStateSupported 方法
 
@@ -34,7 +34,7 @@ virtual bool STDMETHODCALLTYPE IsSetStateSupported(
 
 類型： **bool**
 
- `true`   如果這個 DXCore 介面卡物件和目前作業系統 (作業系統) 支援設定指定的介面卡狀態，則會傳回。 否則，會傳回  `false` 。
+`true`如果這個 DXCore 介面卡物件和目前作業系統 (作業系統) 支援設定指定的介面卡狀態，則會傳回。 否則傳回 `false`。
 
 ## <a name="see-also"></a>另請參閱
 

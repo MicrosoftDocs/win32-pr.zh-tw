@@ -4,12 +4,12 @@ ms.assetid: 0d7ce9ca-9f34-4842-bd49-9211ae4454de
 title: 關於 Sequencer 來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8de3e0ff46cab1e68b767294633ecd09ebc161
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09d81799a8bc1e46ade10989bbe485c69e839832fce0ded14220c536809e23e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065554"
 ---
 # <a name="about-the-sequencer-source"></a>關於 Sequencer 來源
 

@@ -8,12 +8,12 @@ keywords:
 - 內容功能表 COM 物件廣告，執行
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a34d6b487d130327b379ed845f2d0157f2b28056
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 53ac371ea64239c18de2a8f30c969eb6d920221f0a802f18ceeebfef2c3991e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106965228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187646"
 ---
 # <a name="implementing-the-context-menu-com-object"></a>執行內容功能表 COM 物件
 
@@ -39,6 +39,6 @@ ms.locfileid: "106965228"
 
 當選取內容功能表延伸模組所安裝的其中一個功能表項目時，就會呼叫 [**ICoNtextMenu：： InvokeCommand**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-icontextmenu-invokecommand) 。 內容功能表會執行或起始所需的動作，以回應這個方法。
 
- 
+ 
 
- 
+ 

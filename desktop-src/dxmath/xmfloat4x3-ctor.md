@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: a626dce72c8ebbd732d7c12fdde9b02554c5f4a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bce81fd2857e6e5eadd6c09e36016da4f394748003588b35de7e5e6ba0d15df4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500272"
 ---
 # <a name="xmfloat4x3-constructors"></a>XMFLOAT4X3 函式
 

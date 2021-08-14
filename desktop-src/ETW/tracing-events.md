@@ -4,12 +4,12 @@ ms.assetid: 21f62b5d-0a2d-468c-af88-2fab1512f0ec
 title: 撰寫 MOF (傳統) 事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29d081c48567851d2fb570dd7bfa5c75e687b524
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: c29b5d753c40bb2fca5313340638a63d2a5e55c5eaf6dcef14e8388906cb190a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393657"
 ---
 # <a name="writing-mof-classic-events"></a>撰寫 MOF (傳統) 事件
 
@@ -21,7 +21,7 @@ ms.locfileid: "112261840"
 
 如果提供者呼叫 [**TraceEvent**](/windows/win32/api/evntrace/nf-evntrace-traceevent)函式來記錄事件，您就不需要包含類別 guid 的陣列 (在呼叫 [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa)函式時，可以是 **Null**) 。 如果提供者呼叫 [**TraceEventInstance**](/windows/win32/api/evntrace/nf-evntrace-traceeventinstance) 函數來記錄事件，您只需要包含陣列。
 
-**WINDOWS XP 和 windows 2000：** 您一律需要包含類別 Guid 的陣列 (不能是 **Null**) 。
+**Windows XP 和 Windows 2000：** 您一律需要包含類別 Guid 的陣列 (不能是 **Null**) 。
 
 在提供者註冊本身並由控制器啟用之後，提供者就可以將事件記錄到控制器的追蹤會話。
 
@@ -44,7 +44,7 @@ ms.locfileid: "112261840"
 -   **大小** 成員必須包含要針對事件記錄的總位元組數 (包括 [**事件 \_ 追蹤 \_ 標頭**](/windows/win32/api/evntrace/ns-evntrace-event_trace_header)結構的大小，以及附加至標頭) 的任何事件特定資料。
 -   **Guid** 成員必須包含事件 (的類別 guid，否則 **GuidPtr** 成員必須包含) 類別 guid 的指標。
 
-    **WINDOWS XP 和 windows 2000：** 類別 GUID 先前必須使用 [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa) 函式註冊。
+    **Windows XP 和 Windows 2000：** 類別 GUID 先前必須使用 [**RegisterTraceGuids**](/windows/win32/api/evntrace/nf-evntrace-registertraceguidsa)函式註冊。
 
 -   **旗標** 成員必須包含 **WNODE \_ 旗標 \_ 追蹤 \_ GUID** 旗標。 如果您使用 **GuidPtr** 成員指定類別 GUID，也請新增 **WNODE 旗標 \_ \_ 使用 \_ GUID \_ PTR** 旗標。
 -   如果您使用 MOF 來發佈事件資料的版面配置，則 **類別** 成員必須包含事件種類。

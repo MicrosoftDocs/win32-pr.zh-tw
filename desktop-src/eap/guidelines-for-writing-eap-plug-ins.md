@@ -4,12 +4,12 @@ description: 您可以撰寫 EAP Dll 或外掛程式，以在不同的案例中�
 ms.assetid: 79b9bc54-6eb0-4e01-822e-af83fc475ec5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cdc2d437df61811e6fb24b3a9b4ff406ced4905
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: c786da1ca026039ffd052f1213b2904dbfa602ee67c6d74aed7a0fe11fd9d566
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106991096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499153"
 ---
 # <a name="guidelines-for-writing-eap-dlls"></a>撰寫 EAP Dll 的指導方針
 
@@ -28,11 +28,11 @@ ms.locfileid: "106991096"
     > [!Note]  
     > 如果您的 EAP 通訊協定不支援電腦驗證，則必須檢查 [**PPP \_ eap \_ 輸入**](/windows/desktop/api/Raseapif/ns-raseapif-ppp_eap_input)的 **fFlags** 欄位中是否已使用電腦驗證旗標、 **RAS \_ eap \_ 旗標 \_ 電腦 \_** 驗證，並傳回錯誤。
 
-     
+     
 
- 
+ 
 
- 
+ 
 
 
 

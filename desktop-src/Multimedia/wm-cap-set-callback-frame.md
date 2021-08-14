@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_FRAME 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 回呼 \_ 框架訊息會在應用程式中設定預覽回撥函式。 當捕捉視窗捕獲預覽畫面時，AVICap 會呼叫這個程式。 您可以使用 capSetCallbackOnFrame 宏明確地傳送此訊息。
 ms.assetid: 3882e6f6-c48c-4e50-9697-cbdf5b9342a5
 keywords:
-- WM_CAP_SET_CALLBACK_FRAME message Windows 多媒體
+- WM_CAP_SET_CALLBACK_FRAME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b91c2f30ac0875e2f45592d3aa7e0a3ce9c296b7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f85321483639135db31750cacf76cc5f0dc4ad42e96474efa1dc17ac84ba4a79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966320"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369506"
 ---
 # <a name="wm_cap_set_callback_frame-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ 框架訊息
 

@@ -1,36 +1,36 @@
 ---
 title: Windows 傳統型應用程式
-description: 您可以取得詳細的遙測資料和分析報告，讓您瞭解 Windows 桌面應用程式如何透過新的 Windows 傳統型應用程式計畫來執行。
+description: 您可以取得詳細的遙測資料和分析報告，讓您瞭解 Windows 桌面應用程式如何透過新的 Windows 傳統型應用程式計畫進行。
 ms.assetid: F1ED72A5-E1CD-4924-A81B-ED6FAF5E2AA3
 ms.topic: article
 ms.date: 11/02/2018
-ms.openlocfilehash: 63fd252f7d98c6b7a401f6626f30dcdcd6751def
-ms.sourcegitcommit: 78b64f3865e64768b5319d4f010032ee68924a98
+ms.openlocfilehash: 90483194654d5656060c57e3ad7593410a08660c2b8fc71bbbe9e42f08f17c45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "107314841"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118105718"
 ---
 # <a name="windows-desktop-application-program"></a>Windows 傳統型應用程式
 
-您可以取得詳細的遙測資料和分析報告，讓您瞭解 Windows 桌面應用程式如何透過新的 Windows 傳統型應用程式計畫來執行。
+您可以取得詳細的遙測資料和分析報告，讓您瞭解 Windows 桌面應用程式如何透過新的 Windows 傳統型應用程式計畫進行。
 
-存取這項資料並不需要付費，只要 [註冊](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3deJsPaLaK4fU55nKvN21CjU6FsdJ0aPGfhsjGAZ0HR9bE6rgwHHX4izvRt_w-0VUlIF0ClCya4cVY6Uv4qTAqDrH8LTwFpjFGWVW2BAIJmAAuxBLZGTPS_DYy0wwgvTh1orWTCMvBdlOu_kF8vwNe4mjtk9JRMvYaETyspKrJi-s5Z2K7lKIPqnlFkwSU-aoot-3NxTeQ0wu6_RJ1nf_kLFatEkVAqokDSYTKkpv7zF6gA3YYriMFoC9_f2uxuXpI-STckg&nonce=637177463062493881.YjhiOTZjYTMtOTVhZS00OGM1LWI4MDItNWE5MThjMjA1ZjZmMTAyZDRiMGQtMDJhNC00ZDJmLWFkM2QtM2FjZDJkNjcxYWQy&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) 並接受 [Windows 傳統型應用程式計畫合約](https://go.microsoft.com/fwlink/?linkid=853677)，然後使用您用來簽署應用程式可執行檔的相同憑證上傳已簽署的檔案即可。
+存取這項資料並不需要付費，只要[註冊](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3deJsPaLaK4fU55nKvN21CjU6FsdJ0aPGfhsjGAZ0HR9bE6rgwHHX4izvRt_w-0VUlIF0ClCya4cVY6Uv4qTAqDrH8LTwFpjFGWVW2BAIJmAAuxBLZGTPS_DYy0wwgvTh1orWTCMvBdlOu_kF8vwNe4mjtk9JRMvYaETyspKrJi-s5Z2K7lKIPqnlFkwSU-aoot-3NxTeQ0wu6_RJ1nf_kLFatEkVAqokDSYTKkpv7zF6gA3YYriMFoC9_f2uxuXpI-STckg&nonce=637177463062493881.YjhiOTZjYTMtOTVhZS00OGM1LWI4MDItNWE5MThjMjA1ZjZmMTAyZDRiMGQtMDJhNC00ZDJmLWFkM2QtM2FjZDJkNjcxYWQy&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US)並接受[Windows 傳統型應用程式計畫合約](https://go.microsoft.com/fwlink/?linkid=853677)，然後使用您用來簽署應用程式可執行檔的相同憑證上傳已簽署的檔案即可。
 
 ## <a name="join-the-windows-desktop-application-program"></a>加入 Windows 傳統型應用程式計畫
 
-**如果您的公司已經有合作夥伴中心帳戶**：請使用與帳戶擁有者) 相關聯的 Microsoft 帳戶來登入您的合作夥伴中心帳戶 (，然後流覽至 [ **程式** ] 頁面 ([ **帳戶設定** ] 或在左側導覽功能表中選取 [ **全部** ]) 。 在 [ **Windows 傳統型應用程式計畫**] 下，按一下 [ **開始** ] 來加入程式，而不需額外費用。 如果您有與合作夥伴中心帳戶相關聯的 Azure AD 租使用者，您新增的使用者將能夠存取 Windows 傳統型應用程式計畫。 即將推出，我們可以讓您為此程式設定更細微的存取權。
+**如果您的公司已經有合作夥伴中心帳戶**：請使用與帳戶擁有者) 相關聯的 Microsoft 帳戶來登入您的合作夥伴中心帳戶 (，然後流覽至 [ **程式** ] 頁面 ([ **帳戶設定** ] 或在左側導覽功能表中選取 [ **全部** ]) 。 在 [ **Windows 傳統型應用程式計畫**] 下，按一下 [**入門**] 來加入程式，而不需額外費用。 如果您有與合作夥伴中心帳戶相關聯的 Azure AD 租使用者，您新增的使用者將能夠存取 Windows 傳統型應用程式計畫。 即將推出，我們可以讓您為此程式設定更細微的存取權。
 
 > [!Tip]  
 > 如果您的公司有合作夥伴中心帳戶，但您沒有其存取權，請要求系統管理員 [將您新增為使用者](/windows/uwp/publish/add-users-groups-and-azure-ad-applications)。 請注意，只有帳戶擁有者可以聯結 Windows 傳統型應用程式計畫。
 
  
 
-**如果您的公司沒有合作夥伴中心帳戶**：您可以 [直接註冊 Windows 傳統型應用程式計畫](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dWc5R_wIKVD0EbOy2UUxS0_0GQJnIAbD-eisMn7Gb4cJL18fRdelvbtj5_R0zoGlsebcnAxIvwKS5kx4Ma4mLMbU4l9ULsE9ajiZU4wtchLJXyJGsPCjCBUNV7TY1SzwXAI-LepSoXkqa8xSywVb7JZ3Xed-Lcw-kwEShFOwt0SdSdc1nNevHbPOhotOeFQcqbo0HESVYXk6pZORJ_OYimG99onp_zSTyludOvvaTd9GYKUgX9exCU5IHReP7MzJDHOgqTg&nonce=637177463071243612.NDU4MjE2ZTMtNmVkMi00YWNiLWEzZGEtMjYyNDRkODI0M2FmOTM3MmE1NzgtMzQ1OC00M2ZkLWJhMDktYzI4YTNhNzdiYTk0&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US) 的免費帳戶。 即將推出，我們會提供選項，讓 [Azure AD 租使用者與您的帳戶產生關聯](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) ，讓公司中的其他人員也可以登入。
+**如果您的公司沒有合作夥伴中心帳戶**：您可以 [直接註冊 Windows 傳統型應用程式計畫](https://login.microsoftonline.com/common/oauth2/authorize?client_id=4990cffe-04e8-4e8b-808a-1175604b879f&response_mode=form_post&response_type=code+id_token&scope=openid+profile&state=OpenIdConnect.AuthenticationProperties%3dWc5R_wIKVD0EbOy2UUxS0_0GQJnIAbD-eisMn7Gb4cJL18fRdelvbtj5_R0zoGlsebcnAxIvwKS5kx4Ma4mLMbU4l9ULsE9ajiZU4wtchLJXyJGsPCjCBUNV7TY1SzwXAI-LepSoXkqa8xSywVb7JZ3Xed-Lcw-kwEShFOwt0SdSdc1nNevHbPOhotOeFQcqbo0HESVYXk6pZORJ_OYimG99onp_zSTyludOvvaTd9GYKUgX9exCU5IHReP7MzJDHOgqTg&nonce=637177463071243612.NDU4MjE2ZTMtNmVkMi00YWNiLWEzZGEtMjYyNDRkODI0M2FmOTM3MmE1NzgtMzQ1OC00M2ZkLWJhMDktYzI4YTNhNzdiYTk0&redirect_uri=https%3a%2f%2fpartner.microsoft.com%2faad%2fauthPostGateway&resource=797f4846-ba00-4fd7-ba43-dac1f8f63013&mkt=en-US)的免費帳戶。 即將推出，我們會提供選項，讓 [Azure AD 租使用者與您的帳戶產生關聯](/windows/uwp/publish/add-users-groups-and-azure-ad-applications) ，讓公司中的其他人員也可以登入。
 
 ## <a name="add-your-desktop-applications"></a>新增您的桌面應用程式
 
-加入程式之後，您必須將 Windows 桌面應用程式新增至儀表板，讓我們可以開始顯示您的分析報告。
+加入程式之後，您必須將 Windows desktop 應用程式新增至儀表板，讓我們可以開始顯示您的分析報告。
 
 我們會使用程式碼簽署來建立您公司的身分識別，並取得您所發佈之應用程式的分析。
 
@@ -45,23 +45,23 @@ ms.locfileid: "107314841"
 
 1.  從儀表板選取 [ **新增桌面應用程式**]。
 2.  在下一個頁面上，選取 [ **下載檔案**] 以下載可簽署的檔案，然後將檔案儲存到您的電腦。
-3.  使用您用來驗證桌面應用程式 () 的相同程式碼簽署憑證來簽署您剛剛下載的檔案。 您可以使用 Microsoft Visual Studio 所提供的 SignTool.exe (，以及做為 [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)) 的一部分來簽署此檔案。 有關此程式的詳細資料如下所述。
-4.  將您剛剛簽署的檔案拖曳至欄位 (上傳，或按一下以) 流覽您的檔案。
+3.  使用您用來驗證桌面應用程式 () 的相同程式碼簽署憑證來簽署您剛剛下載的檔案。 您可以使用 Microsoft Visual Studio 所提供的 SignTool.exe (，以及做為[Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)) 的一部分來簽署此檔案。 有關此程式的詳細資料如下所述。
+4.  Upload 您剛剛簽署的檔案，方法是將它拖曳到欄位 (或按一下以流覽您的檔案) 。
 5.  選取 [ **提交** ] 以完成流程。
 
 ![新增桌面應用程式的步驟](images/uploadcert.png)
 
 如果您使用一個以上的程式碼簽署憑證，您可以針對每個憑證重複上述步驟。 您可以針對用來簽署應用程式的每個目前憑證下載、簽署及上傳檔案。 不過，每個下載的檔案只能使用一個憑證。
 
-完成這些步驟之後，我們將識別哪些 Windows 傳統型應用程式是使用您用來簽署檔案的相同憑證來簽署。 在大部分情況下，我們會在48小時內開始顯示分析報表，但有時可能需要更長的時間。
+完成這些步驟之後，我們會找出哪些 Windows 的桌面應用程式是使用您用來簽署檔案的相同憑證來簽署。 在大部分情況下，我們會在48小時內開始顯示分析報表，但有時可能需要更長的時間。
 
 ## <a name="use-signtoolexe-to-sign-the-downloaded-file"></a>使用 signtool.exe 來簽署下載的檔案
 
-Microsoft 提供的工具可用來簽署檔案，SignTool.exe，Visual Studio 和 [Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)。 您可以使用此工具來執行和驗證程式代碼簽署程式。 您可以 [在這裡](/dotnet/framework/tools/signtool-exe)找到 SignTool.exe 的詳細資訊。
+Microsoft 提供的工具可用來簽署檔案，SignTool.exe，Visual Studio 和[Windows SDK](https://developer.microsoft.com/windows/downloads/windows-10-sdk)。 您可以使用此工具來執行和驗證程式代碼簽署程式。 您可以 [在這裡](/dotnet/framework/tools/signtool-exe)找到 SignTool.exe 的詳細資訊。
 
 以下是使用此工具簽署可簽署之檔案的兩個最常見方式。
 
--   如果您可以存取程式碼簽署憑證做為 [個人資訊交換， (PFX) ](/windows-hardware/drivers/install/personal-information-exchange---pfx--files) 檔：
+-   如果您可以存取程式碼簽署憑證作為[個人資訊 Exchange (PFX) ](/windows-hardware/drivers/install/personal-information-exchange---pfx--files)檔：
 
     ``` syntax
     signtool sign /f MyCert.pfx /p MyCertPassword /v SignableFile.bin
@@ -87,7 +87,7 @@ signtool verify /a SignableFile.bin
 
 上傳您的已簽署檔案並識別您的桌面應用程式之後，您的儀表板會顯示應用程式的總覽以及重要的計量。
 
-我們的遙測資料會顯示每個與您的憑證相關聯之應用程式的健康情況資訊，例如當機。 您的儀表板會顯示應用程式的總覽，以及重要的計量。 您可以選取任何應用程式，以在儀表板中查看其 [健康情況報告](#health-report)、 [安裝報表](#installs-report)和 [封鎖報表](#application-blocks-report) 。 您也可以 [使用 Microsoft Store 分析 API，以程式設計方式取得分析資料](#retrieve-analytic-data-using-the-microsoft-store-analytics-api)。
+我們的遙測資料會顯示每個與您的憑證相關聯之應用程式的健康情況資訊，例如當機。 您的儀表板會顯示應用程式的總覽，以及重要的計量。 您可以選取任何應用程式，以在儀表板中查看其 [健康情況報告](#health-report)、 [安裝報表](#installs-report)和 [封鎖報表](#application-blocks-report) 。 您也可以[使用 Microsoft Store 分析 API，以程式設計方式取得分析資料](#retrieve-analytic-data-using-the-microsoft-store-analytics-api)。
 
 > [!Note]  
 > 如果我們偵測到應用程式的中繼資料已更新為使用新的名稱，我們會開始以新的名稱報告新的資料。 與舊名稱相關聯的歷程記錄資料會保留30天。
@@ -107,10 +107,10 @@ signtool verify /a SignableFile.bin
 -   向下切入到特定的失敗，並下載堆疊追蹤，以更快速地將問題進行分析
 -   將您應用程式的新版本與舊版進行比較
 -   查看匯總或依區域的健康情況資料，讓您能夠隔離特定區域的問題
--   比較 Windows 版本或特定版本（例如最新的 Windows 10 版本）上的桌面應用程式效能
+-   比較您的桌面應用程式在 Windows 版本或特定版本（例如最新的 Windows 10 版本）的效能
 -   查看應用程式中包含的一個特定可執行檔的健全狀況資訊
 
-選取 [**失敗**] 表格頂端的 **[上傳符號**]，以上傳包含應用程式 [符號](/windows-hardware/drivers/debugger/symbols-and-symbol-files)檔的 .zip 檔案。 這些符號檔將會編制索引，用來產生更精確的堆疊追蹤。 .Zip 內的符號檔案類型應該是 .pdb、.dll 或 .exe。 順利上傳 .zip 檔案之後，您應該會看到較少的 **！** 在大約5天內，應用程式的失敗清單中有未知的新錯誤值。
+選取 [**失敗**] 資料表上方 **Upload 符號**，以上傳包含應用程式 [符號](/windows-hardware/drivers/debugger/symbols-and-symbol-files)檔的 .zip 檔案。 這些符號檔將會編制索引，用來產生更精確的堆疊追蹤。 .zip 內的符號檔案類型應該是 .pdb、.dll 或 .exe。 順利上傳 .zip 檔案之後，您應該會看到較少的 **！** 在大約5天內，應用程式的失敗清單中有未知的新錯誤值。
 
 ### <a name="installs-report"></a>安裝報告
 
@@ -121,24 +121,24 @@ signtool verify /a SignableFile.bin
 -   查看安裝的摘要（依熱門程度排序）
 -   將您應用程式的新版本與舊版進行比較
 -   查看匯總或依區域的安裝資料
--   比較 Windows 版本或特定版本的桌面應用程式效能，例如最新的 Windows 10 版本，或 Windows 測試人員快速和緩慢的版本
+-   比較您的桌面應用程式在 Windows 版本或特定版本的效能，例如最新的 Windows 10 版本，或 Windows 測試人員快速和緩慢的版本
 
 ### <a name="application-blocks-report"></a>應用程式區塊報表
 
-[ **應用程式封鎖** ] 報告可讓您查看應用程式影響 Windows 10 升級 Windows 10 裝置的相關資訊。 您可以查看在指定的一天內有多少裝置受到影響，以及過去30天內裝置的平均數目。
+[**應用程式封鎖**] 報告可讓您查看應用程式影響 Windows 10 升級 Windows 10 裝置的相關資訊。 您可以查看在指定的一天內有多少裝置受到影響，以及過去30天內裝置的平均數目。
 
 包含的升級區塊類型如下所示： 
 
 <table>
-<tr><th>類別</th><th>問題</th><th>描述</th><th>提供給使用者的指引</th></tr>
+<tr><th>類別</th><th>問題</th><th>Description</th><th>提供給使用者的指引</th></tr>
 <tr><td>可能的 sediment</td><td>將封鎖升級</td><td>應用程式將無法在新的 OS 發行版本上運作。 在安裝期間需要使用者動作，才能繼續進行升級。</td><td>升級前請先移除應用程式，並與開發人員確認應用程式的相容版本。</td></tr>
 <tr><td>暫存 sediment</td><td>可能會封鎖升級。 需要測試應用程式。</td><td>Microsoft 正在調查與此應用程式相關的升級問題。 升級將不會對可能受影響的使用者推出。</td><td>升級前請先移除應用程式，並與開發人員確認應用程式的相容版本。</td></tr>
 <tr><td>執行時間通知</td><td>可能無法在新的 OS 發行版本中正確運作，但不會封鎖升級</td><td>應用程式不會防止升級，但偵測到的問題可能會導致新的 OS 發行版本無法正常運作。</td><td>升級不需要採取任何動作，但請務必在新的 OS 發行版本上測試應用程式，並視需要向開發人員確認相容的版本。</td></tr>
 </table>
 
-### <a name="retrieve-analytic-data-using-the-microsoft-store-analytics-api"></a>使用 Microsoft Store 分析 API 取出分析資料
+### <a name="retrieve-analytic-data-using-the-microsoft-store-analytics-api"></a>使用 Microsoft Store 分析 API 取得分析資料
 
-此 Microsoft Store 分析 API 可讓您以程式設計方式，為您已新增至帳戶的應用程式取出分析資料。
+Microsoft Store 分析 API 可讓您以程式設計方式，為您已新增至帳戶的應用程式取出分析資料。
 
 此 API 提供下列 Windows 傳統型應用程式計畫特定的方法：
 
@@ -211,7 +211,7 @@ signtool verify /a SignableFile.bin
 
 為了新增和管理帳戶使用者，您必須先將您的帳戶與組織的 Azure Active Directory 建立關聯。 如果您的組織已經使用 Office 365 或其他 Microsoft 所提供的商務服務，您就已經具備 Azure AD。 否則，您可以建立新的 Azure AD 租使用者，而不需額外付費。
 
-如需詳細資訊，請參閱 [將 Azure Active Directory 與您的合作夥伴中心帳戶建立關聯](/windows/uwp/publish/associate-azure-ad-with-dev-center) 。 雖然本主題著重于 Windows 應用程式開發人員計畫，但讓租使用者與 Windows 傳統型應用程式計畫的運作方式相同。
+如需詳細資訊，請參閱[將 Azure Active Directory 與您的合作夥伴中心帳戶建立關聯](/windows/uwp/publish/associate-azure-ad-with-dev-center)。 雖然本主題著重于 Windows apps 開發人員計畫，但讓租使用者與 Windows 傳統型應用程式計畫的運作方式相同。
 
 ### <a name="add-users-groups-and-azure-ad-applications-to-your-account"></a>將使用者、群組和 Azure AD 應用程式新增至您的帳戶
 

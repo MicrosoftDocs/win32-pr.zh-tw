@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101634
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 76662c9971cf0a08005989c58347f1d2861a28ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2ce6e366f66e9c63a88b0217d4cf04fe1f4d23248b74430bed26fcf900148d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556644"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118497909"
 ---
 # <a name="esentdistributedtransactionalreadypreparedtocommitexception-members"></a>EsentDistributedTransactionAlreadyPreparedToCommitException 成員
 

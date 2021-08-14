@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3da42667b822b8aa18d5879f6c1707997327cce8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92cb26925a4ca99c8265de023fdea1874bc70fca9a5ef87acd595b3911b6f04b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118497638"
 ---
 # <a name="esentcannotdeletesystemtableexception-constructor"></a>EsentCannotDeleteSystemTableException 函式
 

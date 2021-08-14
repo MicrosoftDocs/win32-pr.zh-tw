@@ -7,12 +7,12 @@ keywords:
 - 選取服務登入帳戶 AD 的指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5bb8f5b4fe6a57863c09c9563454fc3ec09e75c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1a976927130a3585be2e6130dbb71b37fa0c69660b6ae953e28909fad3db570f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188672"
 ---
 # <a name="guidelines-for-selecting-a-service-logon-account"></a>選取服務登入帳戶的指導方針
 
@@ -26,9 +26,9 @@ ms.locfileid: "104020844"
 -   [網域使用者帳戶](domain-user-accounts.md)。
 -   [LocalSystem 帳戶](the-localsystem-account.md)。
 
- 
+ 
 
- 
+ 
 
 
 

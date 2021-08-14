@@ -4,12 +4,12 @@ ms.assetid: D5F5FE96-11D2-4fc5-A68B-6E594C09BE20
 title: 關於程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e577e7b5df0a1e072a07a096434af84ff8e2c26
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 14e63aef55513fb36f9a3cbfa71c1b7a79040fd7848468bd1216779cd034132d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563030"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118049321"
 ---
 # <a name="about-libraries"></a>關於程式庫
 
@@ -39,9 +39,9 @@ ms.locfileid: "104563030"
 
 將程式庫支援新增至您的程式，可為使用者提供下列優點：
 
--   **程式庫在 Windows 7 中提供一致的使用者介面**
+-   **程式庫會在 Windows 7 中提供一致的使用者介面**
 
-    [一般檔案] 對話方塊支援程式庫，並提供與 Windows 7 中的 Windows 檔案總管相同的使用者體驗。 當您在 Windows 7 中使用程式時，您程式中的支援程式庫將有助於為使用者提供更順暢的互動。
+    [一般檔案] 對話方塊支援程式庫，並在 Windows 7 中提供與 Windows 檔案總管相同的使用者體驗。 當您在 Windows 7 中使用程式時，您程式中的支援程式庫將有助於為使用者提供更順暢的互動。
 
 -   **使用者決定儲存內容的位置**
 
@@ -80,7 +80,7 @@ ms.locfileid: "104563030"
 | 固定和外部 NTFS 和 FAT32 硬碟。                                                                     | 抽取式磁碟機（例如 USB 快閃磁片磁碟機）或安全的數位 (SD) 記憶卡。               |
 | 由 Windows Search （例如部門伺服器、Windows 7 或 Windows Vista 家用電腦）編制索引的檔案共用。 | 卸載式媒體，例如 CD-ROM 或 DVD 媒體。                                                 |
 | 可離線使用的檔案共用，例如重新導向的 **我的檔** 資料夾或 Client-Side 快取。        | 無法離線使用或從遠端索引的網路共用，例如 NAS 磁片磁碟機。   |
-|                                                                                                                    | 其他資料來源，例如 Microsoft SharePoint、Microsoft Exchange 和 Microsoft OneDrive。 |
+|                                                                                                                    | 其他資料來源，例如 microsoft SharePoint、microsoft Exchange 和 Microsoft OneDrive。 |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 95b92f2a-614b-4fb1-b98e-6984de0a8377
 title: InLocalMachineContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0479a0f96e124ae63eff1a272fadd0e95d4bdb68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 23e4e4651439e83a468797a8d386a2096cf72028f894fa71314a0d3f4af06713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467630"
 ---
 # <a name="systemdevicesinlocalmachinecontainer"></a>InLocalMachineContainer
 

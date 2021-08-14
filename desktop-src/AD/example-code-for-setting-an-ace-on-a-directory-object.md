@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，在目錄物件上設定 ACE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e16180a2e1216c749c35d68ff607e81320a1482c
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 86bf938e113a9293bf13e2bbb5a910617e41cba0ee411a15598966ea7a54628a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106969897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190170"
 ---
 # <a name="example-code-for-setting-an-ace-on-a-directory-object"></a>在目錄物件上設定 ACE 的範例程式碼
 
@@ -249,7 +249,7 @@ return hr;
 
 ## <a name="grant-or-deny-access-to-the-entire-object"></a>授與或拒絕整個物件的存取權
 
-下列 Visual Basic 程式碼範例會建立 Users 容器的系結字串，然後呼叫 **SetRight** 函式在 users 容器上設定 ACE。 此範例會設定 ACE，授與信任者在物件上讀取或寫入任何屬性的許可權。
+下列 Visual Basic 程式碼範例會建立 users 容器的系結字串，然後呼叫 **SetRight** 函式在 users 容器上設定 ACE。 此範例會設定 ACE，授與信任者在物件上讀取或寫入任何屬性的許可權。
 
 
 ```VB
@@ -451,6 +451,6 @@ hr = SetRight(
 
 如需詳細資訊，以及預先定義的屬性或類別的 **schemaIDGUID** ，請參閱 [Active Directory 架構](/windows/desktop/ADSchema/active-directory-schema) 參考中的屬性或類別參考頁面。 如需詳細資訊，以及可用於以程式設計方式取得 **schemaIDGUID** 的程式碼範例，請參閱 [讀取 AttributeSchema 和 classSchema 物件](reading-attributeschema-and-classschema-objects.md)。
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - 架構 AD，系結至
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65bf246a4ea1ded5c7d80c52abb8ac9192182b3b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1492814bbce4b359a16c10f1d92340ae06d0f3c58177cd125a0b0c861f32f76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188682"
 ---
 # <a name="guidelines-for-binding-to-the-schema"></a>系結至架構的指導方針
 
@@ -36,6 +36,6 @@ ms.locfileid: "103842075"
 -   查詢 **attributeSchema** 和 **classSchema** 物件。 若要搜尋符合指定之篩選準則的類別或屬性，請系結至架構容器並執行一層級的搜尋。
 -   加入或修改屬性或類別。 抽象架構是唯讀的;您無法使用它來修改或擴充架構。 請注意，必須在架構主機的網域控制站上進行修改。 如需詳細資訊，請參閱 [安裝架構延伸模組的必要條件](prerequisites-for-installing-a-schema-extension.md)。
 
- 
+ 
 
- 
+ 

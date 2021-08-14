@@ -1,19 +1,19 @@
 ---
-description: 本主題說明在 Microsoft Windows 作業系統中，建議用來捕捉、處理及顯示影片的10和16位 YUV 格式。
+description: 本主題說明在 Microsoft Windows 作業系統中，用來捕捉、處理及顯示影片的10和16位 YUV 格式。
 ms.assetid: fcaaaa6f-f886-4f6e-9c3c-e513ccc90d37
 title: 10位和16位 YUV 影片格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bbc357653848cd51ce6f56ebd8a1da3e5f60403
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09652929257c071bd735e1d6c7ec36e1767d904da7d2364ac3e30c61c81f342f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113444"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065734"
 ---
 # <a name="10-bit-and-16-bit-yuv-video-formats"></a>10位和16位 YUV 影片格式
 
-本主題說明在 Microsoft Windows 作業系統中，建議用來捕捉、處理及顯示影片的10和16位 YUV 格式。
+本主題說明在 Microsoft Windows 作業系統中，用來捕捉、處理及顯示影片的10和16位 YUV 格式。
 
 本主題包含下列幾節：
 

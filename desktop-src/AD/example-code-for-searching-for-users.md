@@ -7,19 +7,19 @@ keywords:
 - Active Directory 範例 Active Directory，搜尋使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34d587cf6264017fccb35fc7a82ac1e2c68c1785
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: b974299416a508546fd8bc6108890579726c9dba6b01bb485f2160f04491923e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190160"
 ---
 # <a name="example-code-for-searching-for-users"></a>搜尋使用者的範例程式碼
 
 下列程式碼範例會在執行呼叫進程的使用者帳戶網域中搜尋使用者。
 
 -   [C + + 範例](#c-example)
--   [Visual Basic 範例](#visual-basic-example)
+-   [Visual Basic例子](#visual-basic-example)
 
 ## <a name="c-example"></a>C + + 範例
 
@@ -484,9 +484,9 @@ HRESULT FindUsers(IDirectorySearch *pContainerToSearch,  //  IDirectorySearch po
 
 
 
-## <a name="visual-basic-example"></a>Visual Basic 範例
+## <a name="visual-basic-example"></a>Visual Basic例子
 
-下列 Visual Basic 程式碼範例會在目前的網域中搜尋具有指定姓氏的使用者，並傳回所找到物件的 name 和 [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname) 屬性。 下列程式碼範例會使用 ADO 來執行搜尋。
+下列 Visual Basic 程式碼範例會在目前的網域中搜尋具有指定姓氏的使用者，並傳回所找到物件的 name 和 [**distinguishedName**](/windows/desktop/ADSchema/a-distinguishedname)屬性。 下列程式碼範例會使用 ADO 來執行搜尋。
 
 
 ```VB
@@ -619,6 +619,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

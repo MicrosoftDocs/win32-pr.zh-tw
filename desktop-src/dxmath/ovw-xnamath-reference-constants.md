@@ -4,12 +4,12 @@ ms.assetid: a206fe22-12c8-ac2b-ee37-20cfff35841a
 title: DirectXMath 程式庫常數
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4809c72fbd5cec27b549be29ebced81839c89723
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fb63bc687dd6bf3cc1dcc5e1801b500761480c7b8443b7a786a05211b9fb729d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500385"
 ---
 # <a name="directxmath-library-constants"></a>DirectXMath 程式庫常數
 

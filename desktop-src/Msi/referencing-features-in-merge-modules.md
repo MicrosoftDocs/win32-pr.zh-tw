@@ -4,12 +4,12 @@ ms.assetid: f2891457-efef-4319-bd09-5de7fcf32d21
 title: 參考合併模組中的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01640902912aae7d2ca3c6519c92bbdb563a9473
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2857b71fd651955319457092d9cf689ded954af758e7906b44a761dfa6ad782
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375948"
 ---
 # <a name="referencing-features-in-merge-modules"></a>參考合併模組中的功能
 

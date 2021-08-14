@@ -1,17 +1,17 @@
 ---
 description: 裁剪牽涉到將繪圖限制在特定區域。 下圖顯示字串 &\# 0034;Hello&\# 0034; 裁剪為心形的區域。
 ms.assetid: 58cc052d-31af-4410-81b9-defbad08a1dc
-title: '剪切 (GDI +) '
+title: '剪切 (GDI+) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 156ae2209a3b7135cde2804103531eaf7b519d73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a57534c5934270374af356956285ad13838630666795d9f06a2623cbd3b453ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118067632"
 ---
-# <a name="clipping-gdi"></a>剪切 (GDI +) 
+# <a name="clipping-gdi"></a>剪切 (GDI+) 
 
 裁剪牽涉到將繪圖限制在特定區域。 下圖顯示已裁剪至心形區域的字串 "Hello"。
 

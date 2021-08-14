@@ -4,12 +4,12 @@ ms.assetid: 94be5288-1a8e-4ef3-84f3-528a1307acbc
 title: XMVECTORU8 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fc240efae59dc7b93539edd088da03d67c4eab4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6803aa608cd4d27c2cb4699e806be8f892cc7e2afeafd0db9cc2bad315e49cdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500395"
 ---
 # <a name="xmvectoru8-extensions"></a>XMVECTORU8 延伸模組
 

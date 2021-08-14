@@ -4,12 +4,12 @@ ms.assetid: e964cb2b-ceaa-4122-bf54-cf1eeab4bc25
 title: DisablePatchUninstall
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2de1bc85a249b4377024f22a7cd0451421dcd060
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5531d5afd7fa98883a3e07dc7c47db625db9051fa223ea7cd6f70e4ceb5aee03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378566"
 ---
 # <a name="disablepatchuninstall"></a>DisablePatchUninstall
 
@@ -17,7 +17,7 @@ ms.locfileid: "103848253"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

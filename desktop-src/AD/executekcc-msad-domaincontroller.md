@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcce017f86042181d2e80ae3614e3fc1cbccc676
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 48295638f105b79ea24a55965ca3ec75ee0ad6b9982c74664f8bfecdd0681cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189614"
 ---
 # <a name="executekcc-method-of-the-msad_domaincontroller-class"></a>MSAD 控制器類別的 ExecuteKCC 方法 \_
 

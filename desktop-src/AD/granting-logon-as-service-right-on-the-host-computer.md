@@ -5,12 +5,12 @@ ms.assetid: 1b217650-4397-4e28-b53e-8b03f3caf903
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95ef2bb87c3cf461e67cb7da20f36d9ac07fb362
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ef53e68feb9312bb8efdca285716aa5b6ea077e2e85f6c5538eb13532b51a8ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188952"
 ---
 # <a name="granting-logon-as-service-right-on-the-host-computer"></a>將主機電腦上的 [以服務方式登入] 許可權授與許可權
 
@@ -18,9 +18,9 @@ ms.locfileid: "103671275"
 
 如需如何以程式設計方式授與登入服務許可權的詳細資訊，請參閱 [LSAPrivs 範例程式碼](https://www.google.com/#q=LSAPrivs)。
 
- 
+ 
 
- 
+ 
 
 
 

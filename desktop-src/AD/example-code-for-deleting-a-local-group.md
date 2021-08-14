@@ -1,18 +1,18 @@
 ---
 title: 刪除本機群組的範例程式碼
-description: 用來刪除成員伺服器上的本機群組或執行 Windows NT 工作站或 Windows 2000 Professional 之電腦的程式碼範例。
+description: 在成員伺服器或執行 Windows NT 工作站或 Windows 2000 Professional 的電腦上刪除本機群組的程式碼範例。
 ms.assetid: ff4fd148-2fa2-4355-bfaa-1f093d61aa00
 ms.tgt_platform: multiple
 keywords:
 - Active Directory 範例 Active Directory，刪除本機群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91588bf59ae7b276aecbaa1740b2510f652f5c8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c02f58958888f7540559cdf196f8f44f54c6c3d2ddd8039b05f82688be2e7f9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671304"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190761"
 ---
 # <a name="example-code-for-deleting-a-local-group"></a>刪除本機群組的範例程式碼
 
@@ -145,7 +145,7 @@ HRESULT DeleteADObject(LPOLESTR pwszAdsPath,
 
 
 
-下列 Visual Basic Scripting Edition 程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。
+下列 Visual Basic 腳本撰寫版程式碼範例會刪除成員伺服器上的本機群組，或是執行 Windows 2000 Professional 或 Windows NT 工作站的電腦。
 
 
 ```VB
@@ -210,9 +210,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

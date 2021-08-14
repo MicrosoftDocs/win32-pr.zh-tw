@@ -1,19 +1,19 @@
 ---
-description: 安裝套件的作者應該包含升級其 .msi 檔案中的資訊，以確保其安裝套件可以利用 Microsoft Windows Installer 所提供的完整升級功能。
+description: 安裝套件的作者應該包含升級 .msi 檔案中的資訊，以確保其安裝套件可以利用 Microsoft Windows Installer 所提供的完整升級功能。
 ms.assetid: 88bb2709-a1bf-4140-a145-ae6bee85dde1
 title: 準備應用程式以進行未來的主要升級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c1e0dc9ccbee10becc39274e91d2fedeb3707028
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c38adc97fce578b48bc721b4265696486351097771cf936efc1e667752a7a36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118377349"
 ---
 # <a name="preparing-an-application-for-future-major-upgrades"></a>準備應用程式以進行未來的主要升級
 
-安裝套件的作者應該包含升級其 .msi 檔案中的資訊，以確保其安裝套件可以利用 Microsoft Windows Installer 所提供的完整升級功能。
+安裝套件的作者應該包含升級 .msi 檔案中的資訊，以確保其安裝套件可以利用 Microsoft Windows Installer 所提供的完整升級功能。
 
 每個應用程式或應用程式套件都應該指派 [**UpgradeCode**](upgradecode.md) 屬性、 [**ProductVersion**](productversion.md) 屬性和 [**ProductLanguage**](productlanguage.md) 屬性。 [**UpgradeCode**](upgradecode.md)屬性指出由相同產品的不同版本和不同語言版本所組成的一系列相關應用程式。 如需使用 [**UpgradeCode**](upgradecode.md) 屬性的詳細資訊，請參閱 [使用 UpgradeCode](using-an-upgradecode.md)。
 

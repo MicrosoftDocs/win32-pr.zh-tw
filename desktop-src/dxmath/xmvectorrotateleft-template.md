@@ -4,12 +4,12 @@ ms.assetid: ba3698ed-212d-4ef0-846a-4099d0e1abec
 title: 'XMVectorRotateLeft template (DirectXMath) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e5b52fccebeb93803fdc33346fa4ee5e873c1d5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cbb3d2a06f775e99b275d7333816307f494c5b2a4a7cc0183eaddc4ee4cd8950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499401"
 ---
 # <a name="xmvectorrotateleft-template"></a>XMVectorRotateLeft 範本
 
@@ -51,7 +51,7 @@ template<uint32_t Elements> XMVECTOR XMVectorRotateLeft(
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.stri
 ms:contentKeyID: 55104040
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: aad09e22b1ee43d9f0cfb537a9067a63b7d3b739
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 68f0050acea5c838fba3b23b4dc3f4df65177bf72012932fe8f07e568ebedd15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118071248"
 ---
 # <a name="stringcolumnvalue-members"></a>StringColumnValue 成員
 

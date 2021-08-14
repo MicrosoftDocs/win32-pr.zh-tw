@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e072635c411c7a3e28977316c388a9b1597fcd1f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: c86699f3d1a897476b33d15aec857228c6293d9bd66e260528cdaf468d664252
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118359047"
 ---
 # <a name="glmap2d-function"></a>glMap2d 函式
 
@@ -109,7 +109,7 @@ void WINAPI glMap2d(
 
 </dd> <dt>
 
-*v2* 
+*2* 
 </dt> <dd>
 
 將 *v* 的線性對應（顯示為 [**glEvalCoord2**](glevalcoord-functions.md)）到 *v*^，這是由這個命令指定的方程式所評估的兩個變數之一。
@@ -147,7 +147,7 @@ void WINAPI glMap2d(
 
 
 
-| Name                                                                                                  | 意義                                                                                                                               |
+| 名稱                                                                                                  | 意義                                                                                                                               |
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**GL \_ 無效 \_ 列舉**</dt> </dl>      | *目標* 不是可接受的值。<br/>                                                                                        |
 | <dl> <dt>**GL \_ 無效 \_ 值**</dt> </dl>     | *u1* 等於 *u2*，或 *v1* 等於 *v2*。<br/>                                                                         |
@@ -185,7 +185,7 @@ void WINAPI glMap2d(
 
 ![顯示您 ^ 定義的方程式。](images/map09.png)
 
-及
+以及
 
 ![顯示 v ^ 定義的方程式。](images/map10.png)
 

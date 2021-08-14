@@ -8,12 +8,12 @@ keywords:
 - GL 函數 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5968a49c6774f4cf7fa1218ab1d8e7b27db7649
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 912dbba9f57f22fae3865a65d047e07bb4e64cfc3af9c4aaca860e1b6d9ac6bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361260"
 ---
 # <a name="gl-functions"></a>GL 函數
 
@@ -168,11 +168,11 @@ ms.locfileid: "106966207"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

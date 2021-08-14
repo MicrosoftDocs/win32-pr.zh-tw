@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: contperf-fy21q3
-ms.openlocfilehash: f482359eb8445cacef12c46716ecde662a95d46d
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 7c61816fa140a6126d020285d80a71fb59cc1808ae6888f12dc0e4340447060e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106988629"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192246"
 ---
 # <a name="using-a-domain-user-account-as-a-service-logon-account"></a>使用網域使用者帳戶做為服務登入帳戶
 

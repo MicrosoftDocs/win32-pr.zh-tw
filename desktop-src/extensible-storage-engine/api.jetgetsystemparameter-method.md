@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 8f4b4f72f5aaa1740751ce2079ecb0a7d5ffd26c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 919323164bd6db8c3dca9fd5d4dd8402c20142578f075034b1d1c79e08be4927
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104563186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117903076"
 ---
 # <a name="apijetgetsystemparameter-method"></a>JetGetSystemParameter 方法
 

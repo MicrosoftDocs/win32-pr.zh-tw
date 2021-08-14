@@ -4,16 +4,16 @@ ms.assetid: d1724219-1487-485b-9c52-5003069fe9e2
 title: 硬體提供者物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1aaebf61e97487b48a6b8bf0dbd91cc6aa3e0bd
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: d0c0050b6a9754b25b6a5027d9470cb2fc46911bf4ab3ef852454d1f0698a1d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106982786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125960"
 ---
 # <a name="hardware-provider-objects"></a>硬體提供者物件
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 VDS 物件模型包含一組用來查詢和設定硬體提供者實體的物件。  (請注意，雖然 VDS 包含軟體提供者，但您必須個別購買硬體提供者和相關聯的硬體，才能利用硬體提供者物件。 ) 這些硬體提供者物件代表實體裝置 (例如子系統、磁片磁碟機和控制器) 以及虛擬裝置 (例如 Lun 和 LUN plex) 。
 

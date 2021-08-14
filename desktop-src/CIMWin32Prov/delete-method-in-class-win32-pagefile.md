@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8b35751633387f3db1d7dccbf13694f56717a1d3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 76101812d3c74dd9d4769706d6b6e1bde9470d530c6d88f2a60331a8666bb3d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419448"
 ---
 # <a name="delete-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 Delete 方法
 
@@ -91,7 +91,7 @@ uint32 Delete();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

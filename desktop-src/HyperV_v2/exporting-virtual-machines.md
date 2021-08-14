@@ -1,19 +1,19 @@
 ---
-description: '下列 c # 和 Visual Basic Scripting Edition (VBScript) 範例會示範如何匯出虛擬機器的快照集。'
+description: '下列 c # 和 Visual Basic 腳本撰寫版 (VBScript) 範例會示範如何匯出虛擬機器的快照集。'
 ms.assetid: 4DEC4962-99E1-42BB-81B1-8530BF9C4B92
 title: 匯出虛擬機器的快照集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bef5cb0f86c1de1b82c294760f7e2a33539218b
-ms.sourcegitcommit: 3d9eb6638763fee8b87c378657458f814182e36c
+ms.openlocfilehash: 07b8ce51f8cddeb648b5d4a5c58166eda3fcd2841a55f2eeda9e4f42e3f3e8fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "107001461"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393352"
 ---
 # <a name="exporting-a-snapshot-of-a-virtual-machine"></a>匯出虛擬機器的快照集
 
-下列 c # 和 Visual Basic Scripting Edition (VBScript) 範例會示範如何匯出虛擬機器的快照集。 您可以在 [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) 主題中找到示範匯出虛擬機器的範例。
+下列 c # 和 Visual Basic 腳本撰寫版 (VBScript) 範例會示範如何匯出虛擬機器的快照集。 您可以在 [**ExportSystemDefinition**](exportsystemdefinition-msvm-virtualsystemmanagementservice.md) 主題中找到示範匯出虛擬機器的範例。
 
 您可以在 [虛擬化範例 (V2) 的一般公用程式 ](common-utilities-for-the-virtualization-samples-v2.md)中找到參考的 c # 公用程式。
 

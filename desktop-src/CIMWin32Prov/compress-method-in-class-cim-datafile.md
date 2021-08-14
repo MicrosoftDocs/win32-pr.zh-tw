@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3cc63ed3cafd676a0d865953c52a14e6247d4b70
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 61da18a85935c2c7e7b9ff246347c7a52059f78900b5a7b7b51c76f09780b955
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420318"
 ---
 # <a name="compress-method-of-the-cim_datafile-class"></a>壓縮 CIM \_ 資料檔案類別的方法
 
@@ -96,7 +96,7 @@ uint32 Compress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

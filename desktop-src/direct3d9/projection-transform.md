@@ -4,12 +4,12 @@ ms.assetid: 09e6e887-7657-4654-be19-2e83dcbc91cf
 title: " (Direct3D 9) 的投射轉換"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b518583dd534bec9784590150233847274ca71
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ad15ee0f4d23401563a9a51b8767be3da6e47dfee9dc76d580154ef1d524d02a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104187496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118092683"
 ---
 # <a name="projection-transform-direct3d-9"></a> (Direct3D 9) 的投射轉換
 

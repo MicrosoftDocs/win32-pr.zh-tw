@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 39510824
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9a4672518d3a7d29fa239a31a226c68d06fbd7ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29aabdc5c133c75be86001deaecacea7e6722c61c4d842d779929bd60df7f2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118073951"
 ---
 # <a name="jet_ossnapid-properties"></a>JET_OSSNAPID 屬性
 

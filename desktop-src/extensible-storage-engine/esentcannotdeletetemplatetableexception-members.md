@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101144
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 3946b4afb7e1ffa6993329968603d23fbb4bdf2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 649fd8948ab811536c9d05548753dc1cd7a50c90abd77183b3a73fe3854717bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498916"
 ---
 # <a name="esentcannotdeletetemplatetableexception-members"></a>EsentCannotDeleteTemplateTableException 成員
 

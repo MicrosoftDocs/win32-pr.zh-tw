@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_VolatileStorage 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d447a95c487bee4a0c8adb042fcd18343e97305f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c3cb63b07eab8eea1579ff8193cc6762c8780ce026d8ee854235cb73a3b62c8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118420331"
 ---
 # <a name="cim_volatilestorage-methods"></a>CIM \_ VolatileStorage 方法
 

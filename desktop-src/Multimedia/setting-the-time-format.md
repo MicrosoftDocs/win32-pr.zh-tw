@@ -6,12 +6,12 @@ keywords:
 - MCI_SET 命令訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6bc48faa36fea49b0aba749476c998572ebf400
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 59eb5a9194f3f2598cd8f88fbefb3ea741f51eb9c25210deb6db69c54259e189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103842187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370886"
 ---
 # <a name="setting-the-time-format"></a>設定時間格式
 
@@ -34,7 +34,7 @@ ms.locfileid: "103842187"
 
 
 
- 
+ 
 
 下列範例會使用 [**mciSendCommand**](/previous-versions//dd757160(v=vs.85)) 函數，將 wDeviceID 變數所指定裝置的時間格式設定為毫秒。
 
@@ -61,6 +61,6 @@ else
 
 
 
- 
+ 
 
- 
+ 

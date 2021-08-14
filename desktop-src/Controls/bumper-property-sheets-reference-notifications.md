@@ -4,12 +4,12 @@ description: 屬性工作表通知
 ms.assetid: f26973f0-edf7-4b17-a65f-db9025d1a3c2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4cefc06d715a368f1faa4621ad928b9ea18ff43
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 9ac6e3b722cc6e2c2d1ca5aa4c380627bfd1112d3b8b6a3fb2f2f16bde9bf36a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416172"
 ---
 # <a name="property-sheet-notifications"></a>屬性工作表通知
 

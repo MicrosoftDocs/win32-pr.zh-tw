@@ -4,16 +4,16 @@ description: 屬性工作表和屬性頁
 ms.assetid: 6bcd1c1c-9b66-4422-bb07-67a856b3295d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7cc61d1e1ed0cb833632b6b627a0c683a3cb0e4
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 7991ea650838e9980292257c14d26909e9476f0f35422fa21deab2b0b5ecbbdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "103853203"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118104929"
 ---
 # <a name="property-sheets-and-property-pages"></a>屬性工作表和屬性頁
 
-物件的屬性會透過 COM 介面或物件的 **IDispatch** 實作為方法公開給用戶端，讓呼叫這些方法的程式可變更屬性。 屬性頁的 OLE 技術提供方法，讓您根據 Windows 使用者介面標準來建立物件屬性的使用者介面。 因此，這些屬性會公開給終端使用者。 物件的屬性工作表是索引標籤式對話方塊，其中每個索引標籤都對應至特定的屬性頁。 使用屬性頁的 OLE 模型包含下列功能：
+物件的屬性會透過 COM 介面或物件的 **IDispatch** 實作為方法公開給用戶端，讓呼叫這些方法的程式可變更屬性。 屬性頁的 OLE 技術提供方法，根據 Windows 使用者介面標準來建立物件屬性的使用者介面。 因此，這些屬性會公開給終端使用者。 物件的屬性工作表是索引標籤式對話方塊，其中每個索引標籤都對應至特定的屬性頁。 使用屬性頁的 OLE 模型包含下列功能：
 
 -   每個屬性頁都是由執行 [**IPropertyPage**](/windows/desktop/api/OCIdl/nn-ocidl-ipropertypage) 或 [**IPropertyPage2**](/windows/desktop/api/OCIdl/nn-ocidl-ipropertypage2)的同進程物件所管理。 每一頁都是使用它自己的唯一 CLSID 來識別。
 -   物件會藉由執行 [**ISpecifyPropertyPages**](/windows/desktop/api/OCIdl/nn-ocidl-ispecifypropertypages)，指定其對屬性頁的支援。 透過這個介面，呼叫端可以取得用來識別物件所支援之特定屬性頁的 Clsid 清單。 如果物件指定屬性頁 CLSID，則物件必須能夠從屬性頁接收屬性變更。

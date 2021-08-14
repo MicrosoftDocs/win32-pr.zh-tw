@@ -8,12 +8,12 @@ keywords:
 - 消費者介面對應，群組物件廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe2277c24f621f8e32f46b9e9571d0d0d4de9cfc
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 308b3bafc24f8b8419b23c351d981f4f01961885cd535ac2d24b96cd62e17633
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188962"
 ---
 # <a name="group-object-user-interface-mapping"></a>群組物件消費者介面對應
 
@@ -32,7 +32,7 @@ ms.locfileid: "104023237"
 
 | UI 標籤                      | Active Directory Domain Services 中的屬性     |
 |-------------------------------|---------------------------------------------------|
-| 組名 (Windows 2000 之前的)  | [**SAM-帳戶-名稱**](/windows/desktop/ADSchema/a-samaccountname) |
+| 組名 (預先 Windows 2000)  | [**SAM-帳戶-名稱**](/windows/desktop/ADSchema/a-samaccountname) |
 | Description                   | [**描述**](/windows/desktop/ADSchema/a-description)         |
 | 電子郵件                        | [**電子郵件地址**](/windows/desktop/ADSchema/a-mail)           |
 | 群組領域                   | [**群組類型**](/windows/desktop/ADSchema/a-grouptype)            |
@@ -81,7 +81,7 @@ ms.locfileid: "104023237"
 |------------------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Name                               | [**管理者**](/windows/desktop/ADSchema/a-managedby)                                                                                          |
 | 管理員可以更新成員資格清單 | 無。 具有「允許寫入成員」許可權的 ACE 會新增至依 **名稱** 識別的帳戶。                        |
-| Office                             | 依 **名稱** 識別之帳戶的 [**實體傳遞-辦公室名稱**](/windows/desktop/ADSchema/a-physicaldeliveryofficename)屬性。 |
+| Office                             | 依 **名稱** 識別之帳戶的 [**實體傳遞 Office 名稱**](/windows/desktop/ADSchema/a-physicaldeliveryofficename)屬性。 |
 | Street                             | 依 **名稱** 識別的帳戶 [**街道位址**](/windows/desktop/ADSchema/a-street)屬性。                                    |
 | City                               | 依 **名稱** 識別之帳戶的 [**位置名稱**](/windows/desktop/ADSchema/a-l)屬性。                                          |
 | 州/省                     | 依 **名稱** 識別之帳戶的 [**州/省名稱**](/windows/desktop/ADSchema/a-st)屬性。                                |

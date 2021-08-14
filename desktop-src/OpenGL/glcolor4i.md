@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 29ae63d605565c85d46ba6926d18404762549179
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2e58863996141a6cb05832efad859dc60a4dc6ab2f12fb181f4b6f539ed68d6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360459"
 ---
 # <a name="glcolor4i-function"></a>glColor4i 函式
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_OperatingSystem 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9566fa7ae4a06a4748d1f59d7466ddc61e0575c5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 94dbc8fccc44906d52bcef1a8750a7039b8b45fe43f5776366100976f2b25c14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118422179"
 ---
 # <a name="cim_operatingsystem-methods"></a>CIM \_ 作業系統方法
 

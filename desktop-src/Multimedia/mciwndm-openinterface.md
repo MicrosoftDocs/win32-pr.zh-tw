@@ -3,7 +3,7 @@ title: 'MCIWNDM_OPENINTERFACE 訊息 (Vfw .h) '
 description: MCIWNDM \_ OPENINTERFACE 訊息會將與指定介面相關聯的資料流程或檔案附加至 MCIWnd 視窗。 您可以使用 MCIWndOpenInterface 宏明確地傳送此訊息。
 ms.assetid: 73cbd637-d315-4b39-a978-2b72aed1f303
 keywords:
-- MCIWNDM_OPENINTERFACE message Windows 多媒體
+- MCIWNDM_OPENINTERFACE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c40453f4d587429508a5aae19bc432fc46088ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83097ad6301dbfdb4636a8478c2df8e544207df334efd27fe9695f15e0693533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373488"
 ---
 # <a name="mciwndm_openinterface-message"></a>MCIWNDM \_ OPENINTERFACE 訊息
 

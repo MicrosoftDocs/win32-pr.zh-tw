@@ -4,12 +4,12 @@ description: 本文討論主要的移植問題。
 ms.assetid: 2df92ffe-1bfc-d682-2770-20cf0c831c9b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f576368674d05af74e3161d4251301ebc066a489
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: be992fe2346868eb3481482325297a2c9ec27ee61bdd2c65f83b0f916fc22308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118290235"
 ---
 # <a name="directx-graphics-infrastructure-dxgi-best-practices"></a>DirectX Graphic Infrastructure (DXGI) ：最佳作法
 
@@ -75,7 +75,7 @@ DXGI 藉由結合這兩種案例來嘗試簡化此方法。 例如，當視窗�
 
 ## <a name="dxgi-11"></a>DXGI 1。1
 
-Windows 7 中包含的 Direct3D 11 執行時間，並安裝到 Windows Vista (請參閱 [KB971644](https://support.microsoft.com/kb/971644)) 包含1.1 版的 DXGI。 這項更新會新增許多新格式的定義 (特別是 BGRA、10位 X2 偏差和 Direct3D 11 的 BC6H 和 BC7 材質壓縮) ，以及新版本的 DXGI factory 和介面卡介面 ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1)、 [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1)、 [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) 以列舉遠端桌面連線。
+Windows 7 中包含的 Direct3D 11 執行時間，並安裝到 Windows Vista (請參閱[KB971644](https://support.microsoft.com/kb/971644)) 包含1.1 版的 DXGI。 這項更新會新增許多新格式的定義 (特別是 BGRA、10位 X2 偏差和 Direct3D 11 的 BC6H 和 BC7 材質壓縮) ，以及新版本的 DXGI factory 和介面卡介面 ([**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1)、 [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1)、 [**IDXGIAdapter1**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter1)) 以列舉遠端桌面連線。
 
 使用 Direct3D 11 時，執行時間預設會在使用 Null [**IDXGIAdapter**](/windows/desktop/api/dxgi/nn-dxgi-idxgiadapter)指標呼叫 [**D3D11CreateDevice**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdevice)或 [**D3D11CreateDeviceAndSwapChain**](/windows/desktop/api/d3d11/nf-d3d11-d3d11createdeviceandswapchain)時，使用 DXGI 1.1。 不支援在相同的進程中混合使用 DXGI 1.0 和 DXGI 1.1。 也不支援在相同的進程中混合來自不同 factory 的 DXGI 物件實例。 因此，當您使用 DirectX 11 時，任何明確使用的 DXGI 介面都會使用「DXGI.DLL」中 [**CreateDXGIFactory1**](/windows/desktop/api/dxgi/nf-dxgi-createdxgifactory1)進入點所建立的 [**IDXGIFactory1**](/windows/desktop/api/dxgi/nn-dxgi-idxgifactory1) ，以確保應用程式一律使用 DXGI 1.1。
 
@@ -96,6 +96,6 @@ DXGI 1.2 會啟用下列功能：
 
 如需有關 DXGI 1.2 功能的詳細資訊，請參閱 [dxgi 1.2 增強](/windows/desktop/direct3ddxgi/dxgi-1-2-improvements)功能。
 
- 
+ 
 
- 
+ 

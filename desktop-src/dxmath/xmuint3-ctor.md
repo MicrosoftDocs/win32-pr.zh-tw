@@ -4,12 +4,12 @@ ms.assetid: f3737cb1-36a0-4dbc-94d5-237e7395670e
 title: 'XMUINT3 函式 (Directxmath) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e67bd4f9b86c3d8eddd998db61e0e4b7573852b5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 40dd1701cf984cab0e725b3b0fa5598c704cc28818756cc382e08ea2ead716fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118499592"
 ---
 # <a name="xmuint3-constructors"></a>XMUINT3 函式
 

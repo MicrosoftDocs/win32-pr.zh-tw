@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_CALLBACK_CAPCONTROL 訊息 (Vfw .h) '
 description: WM \_ CAP \_ SET \_ 回呼 \_ CAPCONTROL 訊息會在應用程式中設定回呼函式，以提供精確的錄製控制項。 您可以使用 capSetCallbackOnCapControl 宏明確地傳送此訊息。
 ms.assetid: 1e93ed7b-8205-45fe-bdcf-efe3f709f728
 keywords:
-- WM_CAP_SET_CALLBACK_CAPCONTROL message Windows 多媒體
+- WM_CAP_SET_CALLBACK_CAPCONTROL 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fda38bbc79461b7c5ccaf9b3a32c2c3a0f9e3e1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 70e5786ef67fe66c7ad0dac463824dcd49bfb34e4c8239ddca74ed60e3861bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369516"
 ---
 # <a name="wm_cap_set_callback_capcontrol-message"></a>WM \_ CAP \_ 設定 \_ 回呼 \_ CAPCONTROL 訊息
 

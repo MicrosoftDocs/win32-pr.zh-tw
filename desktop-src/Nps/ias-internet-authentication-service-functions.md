@@ -5,19 +5,19 @@ ms.assetid: ca217314-00f9-4f9d-a9fe-ed928b3c3b3d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5a20b424b8ef5109cea7f4d00b97f1a545b89ff
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: b7cecf8ead61e94287ba4846b82f922af40068a771a9bcadd8ccb51693709c17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "107001283"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362358"
 ---
 # <a name="nps-extensions-functions"></a>NPS 擴充功能函式
 
 > [!Note]  
-> 從 Windows Server 2008 開始， (IAS) 的網際網路驗證服務已重新命名為網路原則伺服器 (NPS) 。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
+> 網際網路驗證服務 (IAS) 已重新命名網路原則伺服器 (NPS) 從 Windows Server 2008 開始。 本主題的內容適用于 IAS 和 NPS。 在整個文字中，NPS 是用來參考服務的所有版本，包括原本稱為 IAS 的版本。
 
- 
+ 
 
 ## <a name="application-defined"></a>定義的應用程式
 
@@ -50,13 +50,13 @@ NPS 擴充功能 Dll 的架構支援下列匯出的函式：
 
 [**RADIUS \_ 屬性 \_ 陣列**](/windows/desktop/api/authif/ns-authif-radius_attribute_array)結構包含 NPS 所提供之下列函式的函式指標：
 
--   [**加入**](/previous-versions/ms688246(v=vs.85))
+-   [**加**](/previous-versions/ms688246(v=vs.85))
 -   [**AttributeAt**](/previous-versions/ms688253(v=vs.85))
 -   [**GetSize**](/previous-versions/ms688277(v=vs.85))
 -   [**InsertAt**](/previous-versions/ms688296(v=vs.85))
 -   [**RemoveAt**](/previous-versions/ms688452(v=vs.85))
 -   [**SetAt**](/previous-versions/ms688456(v=vs.85))
 
- 
+ 
 
- 
+ 

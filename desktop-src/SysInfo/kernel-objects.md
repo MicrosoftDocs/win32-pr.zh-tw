@@ -4,12 +4,12 @@ ms.assetid: 3e3288dd-155a-41d0-9d43-5f49ed4c4a9d
 title: 核心物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a7cf8c46e4754c46e81cfd959f62de052332594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f115229d11485ec14d530d87fb0e26451aaa1059752ae8d52cea40849256802b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117958208"
 ---
 # <a name="kernel-objects"></a>核心物件
 

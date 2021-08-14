@@ -7,16 +7,16 @@ keywords:
 - Active Directory 範例 Active Directory，將成員新增至群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a64a41fac871c6793ee4d0db1f4be79c9fbd0d1
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: f5cccccca0fa701b4f5bc1ce9b350ac1073c6da7614c7292724138b2d433ef2e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933720"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191291"
 ---
 # <a name="example-code-for-adding-a-member-to-a-group"></a>將成員新增至群組的範例程式碼
 
-本主題包含將成員新增至群組的程式碼範例。 Visual Basic Scripting Edition (VBScript) 和 c + + 範例加入成員，方法是將代表該成員的 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 物件新增至代表該群組的 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 物件。 Visual Basic .NET 和 c # 範例會修改代表群組之 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件的成員屬性。
+本主題包含將成員新增至群組的程式碼範例。 Visual Basic 的腳本撰寫版 (VBScript) 和 c + + 範例加入成員，方法是將代表該成員的 [**IADs**](/windows/desktop/api/iads/nn-iads-iads)物件新增至代表該群組的 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup)物件。 Visual Basic .net 和 c # 範例會修改代表群組之[DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry)物件的成員屬性。
 
 
 下列 c # 程式碼範例會將現有的成員新增至群組。 函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。 ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。 [PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。 然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。
@@ -66,7 +66,7 @@ private void AddMemberToGroup(
 
 
 
-下列 Visual Basic .NET 程式碼範例會將現有的成員新增至群組。 函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。 ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。 [PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。 然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。
+下列 Visual Basic .net 程式碼範例會將現有的成員新增至群組。 函數會採用群組容器的 ADsPath，以及要加入至群組之成員的分辨名稱。 ADsPath 用來建立代表群組的 [DirectoryEntry](/dotnet/api/system.directoryservices.directoryentry) 物件。 [PropertyValueCollection](/dotnet/api/system.directoryservices.propertyvaluecollection.add#System_DirectoryServices_PropertyValueCollection_Add_System_Object_)新增方法會將辨別名稱傳遞至函式的成員加入群組中。 然後，函數會使用 [CommitChanges](/dotnet/api/system.directoryservices.directoryentry.commitchanges#System_DirectoryServices_DirectoryEntry_CommitChanges) 方法，將新的成員資訊寫入資料庫。
 
 使用下列參數呼叫函數：
 

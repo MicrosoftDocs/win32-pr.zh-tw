@@ -4,12 +4,12 @@ ms.assetid: 011b8830-60a4-4c37-a7a7-4948f87bffcc
 title: LongitudeRef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64d554f44fbbb1afb343703f6c1509d7ce3488d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d303fff4ea76df12f4113e5a079bc168a9f6927fdf7a534f65f674fd50bb76c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118466514"
 ---
 # <a name="systemgpslongituderef"></a>LongitudeRef
 
@@ -30,7 +30,7 @@ propertyDescription
       type = String
 ```
 
-## <a name="windows-7-windows-vista"></a>Windows 7、Windows Vista
+## <a name="windows-7-windows-vista"></a>Windows 7，Windows Vista
 
 ```
 propertyDescription

@@ -9,16 +9,16 @@ keywords:
 - OpenGL 移植，轉譯內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43e72839d04838b3173d772fbbf29a903a295cfd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1f4fcb6a70f6858ac9c11258c681345ee88a8807c91230f8d3d35fc579ab3371
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372362"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358338"
 ---
 # <a name="porting-rendering-contexts"></a>移植轉譯內容
 
-X 視窗系統和 Windows 會透過轉譯內容呈現。 六個 GLX 函式會管理轉譯內容，其中有五個都有對等的 Windows 函數。
+X 視窗系統和 Windows 會透過轉譯內容呈現。 六個 GLX 函式會管理轉譯內容，其中有五個會有對等的 Windows 函式。
 
 下表列出 GLX 轉譯函數及其對等的 Windows 函數。
 
@@ -35,17 +35,17 @@ X 視窗系統和 Windows 會透過轉譯內容呈現。 六個 GLX 函式會管
 
 
 
- 
+ 
 
-傳回型別和其他類型在 X 視窗系統中的名稱與 Windows 中的名稱不同。 您可以搜尋 GLXCoNtext 的出現位置，以協助找出需要移植的程式碼部分。
+傳回型別和其他型別在 X 視窗系統中具有不同于 Windows 的名稱。 您可以搜尋 GLXCoNtext 的出現位置，以協助找出需要移植的程式碼部分。
 
-下列各節比較 X 視窗系統程式中的轉譯內容程式碼範例，以及將程式碼移植到 Windows 之後的相同程式碼。
+下列各節比較 X 視窗系統程式中的轉譯內容程式碼範例，以及將它移植到 Windows 之後的相同程式碼。
 
 如需呈現內容的詳細資訊， [請參閱轉譯](rendering-contexts.md)內容。
 
- 
+ 
 
- 
+ 
 
 
 

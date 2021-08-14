@@ -4,18 +4,18 @@ ms.assetid: a70d8cc8-af47-4472-aabc-97481d97080d
 title: 命令列選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 46fe56026c21e4120963c86b4de08decc85b2a58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 287b5711468217105846a13496a23794235bbcfdfcbd0e79278aaba17e7c0341
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380312"
 ---
 # <a name="command-line-options"></a>命令列選項
 
 解釋封裝和安裝產品的可執行程式是 Msiexec.exe。 請注意，Msiexec 也會在傳回時會設定對應至 [系統錯誤碼](/windows/desktop/Debug/system-error-codes)的錯誤層級。 命令列選項不區分大小寫。
 
-下表中的命令列選項適用于 Windows Installer 3.0 及更早版本。 從 Windows Installer 3.0 開始也提供 [標準安裝程式 Command-Line 選項](standard-installer-command-line-options.md) 。
+下表中的命令列選項適用于 Windows Installer 3.0 及更早版本。 從 Windows Installer 3.0 開始也提供[標準安裝程式 Command-Line 選項](standard-installer-command-line-options.md)。
 
 
 
@@ -61,7 +61,7 @@ ms.locfileid: "106979268"
 <tr class="even">
 <td><strong>/L</strong></td>
 <td>[i | w | e | a | r | u | c | m | o | p | v | x | + |！ |*] <em>Logfile</em></td>
-<td>將記錄資訊寫入指定之現有路徑的記錄檔。 記錄檔位置的路徑必須已經存在。 安裝程式不會建立記錄檔的目錄結構。 旗標會指出要記錄哪些資訊。 如果未指定旗標，則預設值為 ' iwearmo '。<br/> i-狀態訊息。<br/> w-非嚴重警告。<br/> e-所有錯誤訊息。<br/> 動作的啟動。<br/> r-動作特定的記錄。<br/> u-使用者要求。<br/> c-初始 UI 參數。<br/> m-記憶體不足或嚴重的離開資訊。<br/> o-磁碟空間不足的訊息。<br/> p-終端機屬性。<br/> v-Verbose 輸出。<br/> x-額外的調試資訊。 <strong>Windows Installer 2.0：</strong> 不支援。 X 選項可 Windows Installer 3.0.3790.2180 版和更新版本中使用。<br/> <br/> + - 附加至現有的檔案。<br/> ! -將每一行排清到記錄檔。<br/> &quot;*&quot; -萬用字元，記錄除了 v 和 x 選項以外的所有資訊。若要包含 v 和 x 選項，請指定 &quot; /l* vx &quot; 。<br/>
+<td>將記錄資訊寫入指定之現有路徑的記錄檔。 記錄檔位置的路徑必須已經存在。 安裝程式不會建立記錄檔的目錄結構。 旗標會指出要記錄哪些資訊。 如果未指定旗標，則預設值為 ' iwearmo '。<br/> i-狀態訊息。<br/> w-非嚴重警告。<br/> e-所有錯誤訊息。<br/> 動作的啟動。<br/> r-動作特定的記錄。<br/> u-使用者要求。<br/> c-初始 UI 參數。<br/> m-記憶體不足或嚴重的離開資訊。<br/> o-磁碟空間不足的訊息。<br/> p-終端機屬性。<br/> v-Verbose 輸出。<br/> x-額外的調試資訊。 <strong>Windows Installer 2.0：</strong>不支援。 x 選項可 Windows Installer 3.0.3790.2180 版和更新版本中使用。<br/> <br/> + - 附加至現有的檔案。<br/> ! -將每一行排清到記錄檔。<br/> &quot;*&quot; -萬用字元，記錄除了 v 和 x 選項以外的所有資訊。若要包含 v 和 x 選項，請指定 &quot; /l* vx &quot; 。<br/>
 <blockquote>
 [!Note]<br />
 如需可用於設定記錄模式之所有方法的詳細資訊，請參閱<a href="windows-installer-logging.md">Windows Installer 記錄</a>區段中的<a href="normal-logging.md">一般記錄</a>
@@ -96,22 +96,22 @@ ms.locfileid: "106979268"
 <tr class="odd">
 <td><strong>/y</strong></td>
 <td><em>模組</em></td>
-<td>呼叫系統函數 <strong>DllRegisterServer</strong> ，以在命令列上傳遞的自我註冊模組。 指定 DLL 的完整路徑。 例如，針對目前資料夾中的 MY_FILE.DLL，您可以使用：<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> 此選項只會用於無法使用 .msi 檔案的登錄資料表新增的登錄資訊。<br/></td>
+<td>呼叫系統函數 <strong>DllRegisterServer</strong> ，以在命令列上傳遞的自我註冊模組。 指定 DLL 的完整路徑。 例如，針對目前資料夾中的 MY_FILE.DLL，您可以使用：<br/> <strong>msiexec/y .\MY_FILE.DLL</strong><br/> 此選項只會用於無法使用 .msi 檔的登錄資料表新增的登錄資訊。<br/></td>
 </tr>
 <tr class="even">
 <td><strong>/z</strong></td>
 <td><em>模組</em></td>
-<td>呼叫系統函數 <strong>DllUnRegisterServer</strong> ，以取消註冊命令列上所傳入的模組。 指定 DLL 的完整路徑。 例如，針對目前資料夾中的 MY_FILE.DLL，您可以使用： <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> 此選項只會用於無法使用 .msi 檔案的登錄表移除的登錄資訊。<br/></td>
+<td>呼叫系統函數 <strong>DllUnRegisterServer</strong> ，以取消註冊命令列上所傳入的模組。 指定 DLL 的完整路徑。 例如，針對目前資料夾中的 MY_FILE.DLL，您可以使用： <br/> <strong>msiexec/z .\MY_FILE.DLL</strong><br/> 此選項只會用於無法使用 .msi 檔的登錄表移除的登錄資訊。<br/></td>
 </tr>
 <tr class="odd">
 <td><strong>/c</strong></td>
 
-<td>通告產品的新實例。 必須搭配/t 使用 從 Windows Server 2003 和 Windows XP Service Pack 1 隨附的 Windows Installer 版本開始提供 (SP1) 。<br/></td>
+<td>通告產品的新實例。 必須搭配/t 使用 從 Windows Server 2003 和 Windows XP Service Pack 1 (SP1) 隨附的 Windows Installer 版開始提供。<br/></td>
 </tr>
 <tr class="even">
 <td><strong>n</strong></td>
 <td><em>ProductCode</em></td>
-<td>指定產品的特定實例。 用來透過產品程式碼變更轉換，來識別使用多重實例支援所安裝的實例。 從隨附于 Windows Server 2003 和 Windows XP SP1 的 Windows Installer 版本開始提供。 <br/></td>
+<td>指定產品的特定實例。 用來透過產品程式碼變更轉換，來識別使用多重實例支援所安裝的實例。 從 Windows Server 2003 和 Windows XP SP1 隨附的 Windows Installer 版開始提供。 <br/></td>
 </tr>
 </tbody>
 </table>

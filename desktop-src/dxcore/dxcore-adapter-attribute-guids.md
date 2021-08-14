@@ -14,12 +14,12 @@ api_type:
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: a532552f144dfc21aa5d6a368aecd915d30b40c8
-ms.sourcegitcommit: 8737f32d64e5f01c1d38aab92736e4088d6c446e
+ms.openlocfilehash: 44b6be239286e13cecbf6eb501b333cba5541f6de1dfd8e217166d9620bdfbd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "106976306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118279658"
 ---
 # <a name="dxcore-adapter-attribute-guids"></a>DXCore 介面卡屬性 GUID
 

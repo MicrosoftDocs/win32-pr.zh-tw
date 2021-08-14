@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101683
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0afdcc7b8ae7cf794402a6f8ebcd67a9ebad8906
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b4b5faced77487ad5c4fb2deb02d086a4e2e0826e6a9f1406d23cd1eb3ef4504
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560087"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118496497"
 ---
 # <a name="esentfileinvalidtypeexception-properties"></a>EsentFileInvalidTypeException 屬性
 

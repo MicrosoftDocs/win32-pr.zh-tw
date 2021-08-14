@@ -1,5 +1,5 @@
 ---
-title: 如何延伸架構
+title: 如何延伸架構 (機器翻譯)
 description: 當現有的類別及/或屬性不符合您想要儲存的資料類型時，您可能會想要擴充架構。
 ms.assetid: 9a80ce29-8ff0-4324-8a2f-afd6c5d2272e
 ms.tgt_platform: multiple
@@ -9,14 +9,14 @@ keywords:
 - Active Directory，使用、架構、延伸架構、如何擴充
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 437b23229182e6ec6f94b500feb764b4bbcf06e7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0bc30f7292c1c1077cc4e44a9f022a430af87bc3efe876a5c197b3fe370d3b95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188156"
 ---
-# <a name="how-to-extend-the-schema"></a>如何延伸架構
+# <a name="how-to-extend-the-schema"></a>如何延伸架構 (機器翻譯)
 
 當現有的類別及/或屬性不符合您想要儲存的資料類型時，您可能會想要擴充架構。 如需有關如何決定何時延伸架構的詳細資訊，請參閱 [擴充架構](extending-the-schema.md)。 當您決定需要架構延伸時，請使用下列程式來擴充架構。
 
@@ -30,7 +30,7 @@ ms.locfileid: "103681656"
     > [!Note]  
     > 支援工具位於作業系統安裝媒體的 [支援 \\ 工具] 資料夾中。
 
-     
+     
 
 2.  開啟命令提示字元，然後將目錄變更為安裝 Windows 支援工具的資料夾。
 3.  在命令提示字元輸入以下命令，然後按下 ENTER：
@@ -48,9 +48,9 @@ ms.locfileid: "103681656"
 1.  決定擴充方法。 當您仔細設計架構變更之後，下一步是決定要使用哪一種方法來擴充架構。 您可以使用下列其中一種方法：
     -   使用匯入檔案手動進行。 請參閱 [使用 LDIFDE 工具](/previous-versions/office/developer/exchange-server-2003/ms870068(v=exchg.65))的檔。
         > [!Note]  
-        > 請勿使用 LDIFDE 匯入 Windows .Sch \* .ldf 檔案。 需要這些檔案才能延伸 Active Directory 的架構，以便安裝執行比目前架構主機上所執行之新版 Windows Server 的網域控制站。 當您需要擴充架構以便安裝新的網域控制站時，請使用 Adprep.exe。
+        > 請勿使用 LDIFDE 匯入 Windows .sch \* .ldf 檔案。 需要這些檔案才能延伸 Active Directory 的架構，以便安裝執行比目前架構主機上所執行之版本 Windows Server 更新的網域控制站。 當您需要擴充架構以便安裝新的網域控制站時，請使用 Adprep.exe。
 
-         
+         
 
     -   以程式設計方式使用安裝程式。 如需詳細資訊，請參閱程式 [設計延伸](programmatic-extension.md)
 2.  啟用架構變更。 如需詳細資訊，請參閱 [安裝架構延伸的必要條件](prerequisites-for-installing-a-schema-extension.md) ，以及 [在架構主機上啟用架構變更](enabling-schema-changes-at-the-schema-master.md)。
@@ -79,6 +79,6 @@ ms.locfileid: "103681656"
 [架構延伸的限制](restrictions-on-schema-extension.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

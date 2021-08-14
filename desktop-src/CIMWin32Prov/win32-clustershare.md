@@ -25,12 +25,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ccff6ad8d99692d066728c99dd74ab07640af4fa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 66be06bf3a8433a7dba1eb28e6123adb03d622803745838158aa80bda0e8e594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111237"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118417989"
 ---
 # <a name="win32_clustershare-class"></a>Win32 \_ ClusterShare 類別
 
@@ -75,7 +75,7 @@ class Win32_ClusterShare : Win32_Share
 
 | 方法                                                    | 描述                                                      |
 |:----------------------------------------------------------|:-----------------------------------------------------------------|
-| [**創建**](create-win32-clustershare.md)               | 建立新的 **Win32 \_ ClusterShare** 實例。<br/>       |
+| [**建立**](create-win32-clustershare.md)               | 建立新的 **Win32 \_ ClusterShare** 實例。<br/>       |
 | [**刪除**](delete-win32-clustershare.md)               | 刪除 **Win32 \_ ClusterShare** 實例。<br/>           |
 | [**GetAccessMask**](getaccessmask-win32-clustershare.md) | 傳回具有共用存取權限的點陣圖。<br/> |
 | [**SetShareInfo**](setshareinfo-win32-clustershare.md)   | 設定共用資源的參數。<br/>           |
@@ -212,7 +212,7 @@ class Win32_ClusterShare : Win32_Share
 
 在執行 Windows 的電腦系統上，提供給路徑的別名設定為共用。
 
-Windows 2008 範例： " \\ SERVER01 \\ public"-windows Server 2008 要求您將 UNC 放在名稱中。
+Windows 2008 範例： " \\ SERVER01 \\ public"-Windows Server 2008 要求您將 UNC 放在名稱中。
 
 這個屬性繼承自 [**Win32 \_ 共用**](win32-share.md)。
 
@@ -362,7 +362,7 @@ Windows 共用的本機路徑。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

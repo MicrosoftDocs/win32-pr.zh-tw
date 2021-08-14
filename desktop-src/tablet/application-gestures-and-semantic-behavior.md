@@ -1,19 +1,19 @@
 ---
-description: 應用程式手勢是以 Windows Vista SDK 的一部分來提供。
+description: 應用程式手勢是 Windows Vista SDK 的一部分來提供。
 ms.assetid: eefe140d-8da6-4ba3-81c6-3cd0cf559605
 title: 應用程式手勢和語義行為
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 200aa33bcdf15c46bed9d300cdbfce8358929136
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffbed50b780806a696d7b84014936c217165e86a01b36603dcd9e93a77600f9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118047848"
 ---
 # <a name="application-gestures-and-semantic-behavior"></a>應用程式手勢和語義行為
 
-應用程式手勢是以 Windows Vista SDK 的一部分來提供。 建立 Microsoft 手勢辨識器以辨識這些手勢。 依預設，不會啟用任何手勢。 應用程式必須選擇要啟用的手勢。 除了辨識手勢之外，Microsoft 手勢辨識器也會在辨識結果中提供替換值和信賴值。 若要在您的應用程式中使用這些筆勢，您必須使用 [TABLET PC API 參考](tablet-pc-api-reference.md)，從應用程式內訂閱它們。 Api 可讓您選擇這些筆勢的子集，並查詢特定的屬性，例如筆劃數目、作用點和其他屬性，以及替換值和其信賴值。
+應用程式手勢是 Windows Vista SDK 的一部分來提供。 建立 Microsoft 手勢辨識器以辨識這些手勢。 依預設，不會啟用任何手勢。 應用程式必須選擇要啟用的手勢。 除了辨識手勢之外，Microsoft 手勢辨識器也會在辨識結果中提供替換值和信賴值。 若要在您的應用程式中使用這些筆勢，您必須使用 [TABLET PC API 參考](tablet-pc-api-reference.md)，從應用程式內訂閱它們。 Api 可讓您選擇這些筆勢的子集，並查詢特定的屬性，例如筆劃數目、作用點和其他屬性，以及替換值和其信賴值。
 
 針對使用這些手勢的手寫筆感知應用程式，不會傳送滑鼠訊息。 相反地，會將手勢事件傳送至這些應用程式，以通知這些動作。 然後，應用程式會採取類似于滑鼠動作的動作，以回應這些手勢。
 

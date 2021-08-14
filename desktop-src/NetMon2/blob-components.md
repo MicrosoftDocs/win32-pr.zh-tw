@@ -4,12 +4,12 @@ ms.assetid: 757cd311-f834-4017-a0da-ff3f4bc49e7e
 title: BLOB 元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bfdb9c1f336ad0cddc1798cc98083890096dd39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33bd9ab8389cdd49a266855106891a91fcfbd0b4f69c7d22b5855143b34f376c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118367480"
 ---
 # <a name="blob-components"></a>BLOB 元件
 

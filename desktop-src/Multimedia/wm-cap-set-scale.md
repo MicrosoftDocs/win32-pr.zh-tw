@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_SCALE 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 設定 \_ 規模訊息可啟用或停用預覽版影片影像的縮放比例。
 ms.assetid: f15f1d18-2c5a-40c1-baa1-0d18549bee23
 keywords:
-- WM_CAP_SET_SCALE message Windows 多媒體
+- WM_CAP_SET_SCALE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd3bfc5dc463d84c935f994519060c33f89b8c0a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3293be6917917581957df0f5dae9456274f1d2cc3eeffff5ea971c3596209a62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369392"
 ---
 # <a name="wm_cap_set_scale-message"></a>WM \_ CAP \_ 設定 \_ 調整訊息
 

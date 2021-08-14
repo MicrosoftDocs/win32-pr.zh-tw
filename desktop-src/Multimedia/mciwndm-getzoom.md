@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETZOOM 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETZOOM 訊息會抓取 MCI 裝置所使用的目前縮放值。 您可以使用 MCIWndGetZoom 宏明確地傳送此訊息。
 ms.assetid: 92db8df2-515a-4616-a0f5-245d466ba379
 keywords:
-- MCIWNDM_GETZOOM message Windows 多媒體
+- MCIWNDM_GETZOOM 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fcb4ae1883787f1b86dcc17f2d4a3e0e0ee29ced
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 52c247230ffe6269f77b906d874a4cf82a21ed8d3388ffa18193417603e45fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118374139"
 ---
 # <a name="mciwndm_getzoom-message"></a>MCIWNDM \_ GETZOOM 訊息
 

@@ -36,12 +36,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 6e9f6a8c821aa327e8b810b634c85bb06459910f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f3add3a93cc974c2d6c5b20c360d099d46b688887f81cb646005568240a7cb52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118416714"
 ---
 # <a name="win32_thread-class"></a>Win32 \_ 執行緒類別
 
@@ -434,7 +434,7 @@ class Win32_Thread : CIM_Thread
 限定詞： [**MaxLen**](../wmisdk/standard-qualifiers.md) (256) ，覆 [**寫**](../wmisdk/standard-qualifiers.md) ( "ProcessHandle" ) ，[**傳播**](../wmisdk/standard-qualifiers.md) ( 「[**CIM \_ 進程**](cim-process.md)」。**處理**") ， [**MappingStrings**](../wmisdk/standard-qualifiers.md) (" Win32API \| Tool Help 結構 \| [**THREADENTRY32**](/windows/win32/api/tlhelp32/ns-tlhelp32-threadentry32) \| th32OwnerProcessID ") 
 </dt> </dl>
 
-建立執行緒的進程。 Windows 應用程式開發介面可以使用這個屬性的內容 (API) 元素。
+建立執行緒的進程。 您可以 Windows 應用程式開發介面 (API) 元素來使用這個屬性的內容。
 
 </dd> <dt>
 
@@ -867,7 +867,7 @@ FreePage
 
 如同上述語法區塊所暗示， **Win32 \_ 執行緒** 類別不會報告每個執行緒執行時所用的進程名稱。 相反地，它會報告執行緒執行時所用的進程識別碼。 若要傳回進程的名稱和其所有線程的清單，您的腳本必須：
 
-1.  連接至 [**Win32 \_ Process**](win32-process.md) 類別，並傳回進程及其處理序識別碼的清單。
+1.  連線至 [**Win32 \_ 進程**](win32-process.md)類別，並傳回進程及其處理序識別碼的清單。
 2.  將此資訊暫時儲存在陣列或字典物件中。
 3.  針對每個處理序識別碼，傳回該進程的執行緒清單，然後顯示進程名稱和執行緒清單。
 
