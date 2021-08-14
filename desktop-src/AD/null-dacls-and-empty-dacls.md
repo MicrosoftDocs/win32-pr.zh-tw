@@ -8,12 +8,12 @@ keywords:
 - Dacl AD、Null 和空白
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b841bb0253547fea291232fb4c9e6e0f3377d18
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a41e03917c1190b7926eca11db038e2143bcb91d142e0617d143d4d80bb6e601
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185793"
 ---
 # <a name="null-dacls-and-empty-dacls-ad-ds"></a>Null Dacl 和空白的 Dacl (AD DS) 
 
@@ -21,6 +21,6 @@ ms.locfileid: "103933052"
 
 如需詳細資訊，請參閱 [Null dacl 和空白的 dacl](/windows/desktop/SecAuthZ/null-dacls-and-empty-dacls)。
 
- 
+ 
 
- 
+ 

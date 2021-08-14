@@ -4,12 +4,12 @@ description: Active Accessibility 物件
 ms.assetid: 903a1cde-0164-4913-a14a-cae0c58e2692
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df530b24da485a8ef9d383429dc0d3f06bfeeb45
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4c519dd05cadf2df36d7da298e52ea58992df5c4e8035ea04d114a04b0e7dd6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327048"
 ---
 # <a name="active-accessibility-objects"></a>Active Accessibility 物件
 
@@ -24,9 +24,9 @@ ms.locfileid: "104300339"
 -   [雙重介面： IAccessible 和 IDispatch](dual-interfaces--iaccessible-and-idispatch.md)
 -   [系統提供的消費者介面元素](system-provided-user-interface-elements.md)
 
- 
+ 
 
- 
+ 
 
 
 

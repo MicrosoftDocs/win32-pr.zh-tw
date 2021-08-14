@@ -4,16 +4,16 @@ ms.assetid: 794b6369-665f-49a9-a263-7c736c5ce8ac
 title: 使用 Shell 擴充功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbb696f4536cdb0fb6869be073771d431bd8d2de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 804b121ccf633b44574ae956b367143eebdaf7a2a3a8a9cc8400995522b4cbef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452846"
 ---
 # <a name="working-with-shell-extensions"></a>使用 Shell 擴充功能
 
-您可以使用登錄專案和 .ini 檔案來擴充 Shell 的功能。 雖然這種擴充 Shell 的方法很簡單，且適用于許多用途，但有限。 例如，如果您使用登錄來指定檔案類型的自訂圖示，就會針對該類型的每個檔案顯示相同的圖示。 使用登錄延伸 Shell 不允許您變更檔案類型之不同成員的圖示。 Shell 的其他層面（例如，在檔案以滑鼠右鍵按一下時可顯示的 [ **屬性** ] 屬性工作表），無法透過登錄來修改。
+您可以使用登錄專案和 .ini 檔來擴充 Shell 的功能。 雖然這種擴充 Shell 的方法很簡單，且適用于許多用途，但有限。 例如，如果您使用登錄來指定檔案類型的自訂圖示，就會針對該類型的每個檔案顯示相同的圖示。 使用登錄延伸 Shell 不允許您變更檔案類型之不同成員的圖示。 Shell 的其他層面（例如，在檔案以滑鼠右鍵按一下時可顯示的 [ **屬性** ] 屬性工作表），無法透過登錄來修改。
 
 擴充 Shell 的一個更強大且靈活的方法，就是執行 *shell 擴充處理常式*。 您可以針對 Shell 可採用的各種動作，執行這些處理常式。 在採取動作之前，Shell 會查詢延伸模組處理常式，讓它有機會修改動作。 常見的範例是快捷方式功能表延伸模組處理常式。 如果是針對檔案類型所執行，則會在每次以滑鼠右鍵按一下其中一個檔案時進行查詢。 然後，處理常式可以依檔案逐一指定其他功能表項目，而不是針對該檔案類型的所有檔案設定相同的集合。
 
@@ -46,7 +46,7 @@ ms.locfileid: "104973697"
 | [複製勾點處理常式](how-to-create-copy-hook-handlers.md)          | 當資料夾或印表機物件即將移動、複製、刪除或重新命名時呼叫。 它可讓您核准或拒絕此作業。   |
 | [拖放功能處理常式](context-menu-handlers.md)                 | 在使用滑鼠右鍵拖曳檔案時呼叫。 它可讓您修改所顯示的快捷方式功能表。                     |
 | [圖示重迭處理常式](how-to-implement-icon-overlay-handlers.md) | 在顯示檔案的圖示之前呼叫。 它可讓您指定檔案圖示的覆迭。                                          |
-| [搜尋處理常式](../lwef/search-handlers.md)                             | 呼叫以啟動搜尋引擎。 它可讓您執行可從 [ **開始** ] 功能表或 Windows 檔案總管存取的自訂搜尋引擎。 |
+| [搜尋處理常式](../lwef/search-handlers.md)                             | 呼叫以啟動搜尋引擎。 它可讓您執行可從 [**開始**] 功能表或 Windows 檔案總管存取的自訂搜尋引擎。 |
 
 
 

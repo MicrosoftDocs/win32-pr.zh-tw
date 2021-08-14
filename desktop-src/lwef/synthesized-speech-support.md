@@ -4,16 +4,16 @@ description: 合成語音支援
 ms.assetid: 38172e04-a5b6-41e4-9d7c-539d9d4117be
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8a89610a912cf601724bc9a2153cba8343e6feb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c31fcb655ccb5a8fbb2ffbbb8d01d1da317209fbfa3e270a76d92208c06777df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118475320"
 ---
 # <a name="synthesized-speech-support"></a>合成語音支援
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 如果您使用合成的語音，則您的字元可以說出幾乎所有的功能，以提供最大的彈性。 有了錄製的音訊之後，您可以為字元提供特定或唯一的聲音。 若要指定輸出，請將說出的文字提供為 [**說話**](speak-method.md) 方法的參數。
 
@@ -25,9 +25,9 @@ ms.locfileid: "104021423"
 
 只有任何用戶端所使用的 TTS 引擎仍會繼續載入。 例如，如果某個字元具有特定引擎的定義喜好設定，但該引擎可供使用，但您的用戶端應用程式已指定不同的引擎 (，方法是設定不同于引擎的字元語言識別項，或指定不同的模式識別碼) ，只有應用程式所指定的引擎會保持載入。 除非有另一個用戶端使用字元的已編譯引擎設定) ，否則會卸載符合為 TTS 設定之字元定義喜好設定的引擎 (。
 
- 
+ 
 
- 
+ 
 
 
 

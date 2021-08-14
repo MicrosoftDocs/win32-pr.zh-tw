@@ -4,12 +4,12 @@ ms.assetid: df3b6ed7-830b-4635-9295-fff05cc35891
 title: 'Multiple-Monitor 作業 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04427db6c91ff85706040589a89f6fdcfb3761e3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: da4f175c136cd432223eeaaf32cf44bfbb08e724b54b8afe1dbb9717c2d79a4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106998428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117728208"
 ---
 # <a name="multiple-monitor-operations-direct3d-9"></a>Multiple-Monitor 作業 (Direct3D 9) 
 

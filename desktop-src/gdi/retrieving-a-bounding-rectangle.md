@@ -4,12 +4,12 @@ ms.assetid: 3851d0f4-33ec-44db-9cb8-c2afb03ffc25
 title: 正在抓取周框
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b214a3f2e8d4fcd81e7f03ecf6dddc72442e209b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9b7182d7c8f48fa8629855849710a601db9f93fd7e9180f9024d798b5ce2ebe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117886142"
 ---
 # <a name="retrieving-a-bounding-rectangle"></a>正在抓取周框
 

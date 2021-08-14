@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 037013a4b40984df41e52aa13be69c1247b1c05c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e6b2d7e71642ab0294f6e930eef40c5841aa5832fcc3a8d1c45aef2d7e80bbda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118611910"
 ---
 # <a name="principaltype-complex-type"></a>principalType 複雜類型
 
@@ -69,7 +69,7 @@ ms.locfileid: "104466276"
 
 
 
-| 元素                                                                                             | 類型                                                                                     | Description                                                                                                                 |
+| 元素                                                                                             | 類型                                                                                     | 描述                                                                                                                 |
 |-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
 | [**DisplayName**](taskschedulerschema-displayname-principaltype-element.md)                        | 字串                                                                                   | 指定工作排程器使用者介面中顯示的主體名稱 (UI) 。<br/>                 |
 | [**GroupId**](taskschedulerschema-groupid-principaltype-element.md)                                | [**nonEmptyString**](taskschedulerschema-nonemptystring-simpletype.md)                  | 指定執行與主體相關聯之工作所需之使用者群組的識別碼。<br/> |
@@ -97,8 +97,8 @@ ms.locfileid: "104466276"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

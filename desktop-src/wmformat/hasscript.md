@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45f8fdfe9576b2985ecfb80238635eea49d55c82
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 406f75bf780faf10488e54cddfe617b7f219478209171afa03491958957af266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678267"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847631"
 ---
 # <a name="hasscript"></a>HasScript
 
@@ -35,7 +35,7 @@ g \_ wszWMHasScript
 
 這是程式碼屬性。
 
-這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其一般意義傳遞給 Windows Media 格式 SDK 的物件。
+這個屬性不能在檔案層級複製。 如果此屬性用於個別的資料流程，它會被視為自訂中繼資料，而且不會將其正常意義傳遞給 Windows 媒體格式 SDK 的物件。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -44,9 +44,9 @@ g \_ wszWMHasScript
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

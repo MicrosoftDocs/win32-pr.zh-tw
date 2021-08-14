@@ -5,12 +5,12 @@ ms.assetid: 51c9aa05-ca30-4d61-b3e3-d2f17a02b28f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77b9f4fddfea6900fd8d7a06bee9979744eefd30
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 66394b7375779f50a97505128178ec35106187c076ca5d6741375a7f71b8ec46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118428997"
 ---
 # <a name="cpropscpp"></a>CPROPS.Cpp
 
@@ -36,11 +36,11 @@ ms.locfileid: "103839216"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

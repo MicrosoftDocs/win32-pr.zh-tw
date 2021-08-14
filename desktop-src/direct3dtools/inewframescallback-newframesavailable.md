@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 095a13d3cc2d7caf74a3949fdd82345f317e8ebe
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 4bd315c1a011ab2cdafcb2be2b9398166dc6dbf82e3a4451b038003a9981e3a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117721879"
 ---
 # <a name="span-idvspixengineinewframescallback_newframesavailablespaninewframescallbacknewframesavailable-method"></a><span id="vspixengine.inewframescallback_newframesavailable"></span>INewFramesCallback：： NewFramesAvailable 方法
 

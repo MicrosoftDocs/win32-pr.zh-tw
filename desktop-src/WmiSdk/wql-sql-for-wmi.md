@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: WQL (SQL for WMI)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87498b6e8e37ab900e21eedf2c15d5cdba9f9bd7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c9a1a3b0db3f383bd8ba44aeb1e433b5aab02b4e9b4773ea221e1a0254ae037
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738817"
 ---
 # <a name="wql-sql-for-wmi"></a>WQL (SQL for WMI)
 
-WMI 查詢語言 (WQL) 是美國國家標準局結構化查詢語言 (SQL)  (ANSI SQL) 的子集，其中包含次要語義變更。 下表列出 WQL 關鍵字。
+WMI 查詢語言 (WQL) 是美國國家標準局的子集，結構化查詢語言 (SQL) 具有次要語義變更的 (SQL ANSI) 。 下表列出 WQL 關鍵字。
 
 
 
@@ -44,7 +44,7 @@ WMI 查詢語言 (WQL) 是美國國家標準局結構化查詢語言 (SQL)  (ANS
 </tr>
 <tr class="even">
 <td>FROM<br/></td>
-<td>指定包含 SELECT 語句中所列屬性的類別。 Windows Management Instrumentation (WMI) 一次只支援一個類別的資料查詢。<br/></td>
+<td>指定包含 SELECT 語句中所列屬性的類別。 WindowsManagement Instrumentation (WMI) 一次只支援一個類別的資料查詢。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="group-clause.md">GROUP 子句</a></td>

@@ -4,12 +4,12 @@ description: 本主題提供2D 圖形的矩陣轉換數學總覽。
 ms.assetid: 8cc01f45-dd84-4f3e-a5f2-26edc5cbdfa1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a5a9b09f75b17e4baf8afe5e7fde8643c06982f
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 12d02976446824bba07829173bb326338a55732b39c640c93319630a209096b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104561986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389208"
 ---
 # <a name="appendix-matrix-transforms"></a>附錄：矩陣轉換
 

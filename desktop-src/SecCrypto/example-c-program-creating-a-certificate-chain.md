@@ -4,12 +4,12 @@ ms.assetid: 960f2bb9-130f-494f-9af0-0ab8ae3eb6e2
 title: 範例 C 程式：建立憑證鏈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1857540f16cddfa754a0765d273a944e9a4a9044
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59bbc8e447a23a950280cb4cb9b9f20e7a7d4d09bb2384de19ca510c403dedd0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765562"
 ---
 # <a name="example-c-program-creating-a-certificate-chain"></a>範例 C 程式：建立憑證鏈
 

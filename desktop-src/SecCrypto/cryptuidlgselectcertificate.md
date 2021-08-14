@@ -4,12 +4,12 @@ ms.assetid: 242c19a7-179b-4fc0-a050-a1b598566a6b
 title: CryptUIDlgSelectCertificate 函式
 ms.topic: reference
 ms.date: 05/29/2020
-ms.openlocfilehash: 8f015796671990491407d91cbd51761816c5434b
-ms.sourcegitcommit: 435ea8f5bf06808ffa7dce39afb0ee6de842ba2f
+ms.openlocfilehash: fb37eb664841331ce3f37e9ce37ca3ab9e5c0f92c254cff0896c6c682a9f2872
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "107925689"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768161"
 ---
 # <a name="cryptuidlgselectcertificate-function"></a>CryptUIDlgSelectCertificate 函式
 
@@ -55,9 +55,9 @@ PCCERT_CONTEXT WINAPI CryptUIDlgSelectCertificate(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                              |
-| 結束支援<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | 僅 Windows XP \[ desktop 應用程式\]<br/>                                                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                              |
+| 結束支援<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                       |
 | 程式庫<br/>                  | <dl> <dt>Cryptui .lib</dt> </dl>            |
 | DLL<br/>                      | <dl> <dt>Cryptui.dll</dt> </dl>            |
 | Unicode 與 ANSI 名稱<br/>   | **CryptUIDlgSelectCertificateW** (Unicode) 和 **CryptUIDlgSelectCertificateA** (ANSI) <br/> |

@@ -4,12 +4,12 @@ ms.assetid: 6943b405-0807-412b-a149-fc3a8ece1b48
 title: 音訊會話事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90ec5de18c883f817c2f650ccfc48ad0149ac84e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cf0c3441a7f6f6835070a530c4ebb8985354b2701f312f2f085c5e449f12cbf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936298"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118407222"
 ---
 # <a name="audio-session-events"></a>音訊會話事件
 

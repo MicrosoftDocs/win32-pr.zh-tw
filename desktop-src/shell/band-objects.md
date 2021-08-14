@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b4adeaaf089c22bd3e1db3d60d552ccc3252545a
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: 9a57cc5bc8afa3e973c6d4d99b8bcee186287a6c9278407b900f84500d7d0e51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104556943"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118461739"
 ---
 # <a name="creating-custom-explorer-bars-tool-bands-and-desk-bands"></a>建立自訂的瀏覽器列、工具區和書桌區
 
-Microsoft Internet Explorer 4.0 引進了 Explorer 列，以提供與瀏覽器窗格連續的顯示區域。 基本上它是 Windows Internet Explorer 視窗中的子視窗，它可以用來顯示資訊，並以許多相同的方式與使用者互動。 Explorer 橫條最常顯示為 [瀏覽器] 窗格左側的垂直窗格。 不過，您也可以在瀏覽器窗格下方，以水準方式顯示 Explorer 列。
+Microsoft Internet Explorer 4.0 引進了 Explorer 列，以提供與瀏覽器窗格連續的顯示區域。 基本上它是 Windows Internet Explorer 視窗中的子視窗，可用來顯示資訊，並以許多相同的方式與使用者互動。 Explorer 橫條最常顯示為 [瀏覽器] 窗格左側的垂直窗格。 不過，您也可以在瀏覽器窗格下方，以水準方式顯示 Explorer 列。
 
 ![顯示垂直和水準瀏覽器列的螢幕擷取畫面。](images/expl1.jpg)
 
@@ -32,7 +32,7 @@ Explorer 列有各式各樣的可能用途。 使用者可以透過數種不同�
 
 ## <a name="tool-bands"></a>工具區
 
-「 *工具區* 」是一種以 Microsoft Internet Explorer 5 引進的寬線物件，可支援 Windows 選項按鈕功能。 Internet Explorer 的工具列實際上是包含數個[工具列控制項](../controls/toolbar-control-reference.md)的[Rebar 控制項](../controls/rebar-controls.md)。 藉由建立工具區，您就可以在該 Rebar 控制項中加入一個頻外。 不過，如同 Explorer 橫條，工具區是一般用途的視窗。
+「*工具區*」是一種以 Microsoft Internet Explorer 5 引進的寬線物件，可支援 Windows 的選項按鈕功能。 Internet Explorer 的工具列實際上是包含數個[工具列控制項](../controls/toolbar-control-reference.md)的[Rebar 控制項](../controls/rebar-controls.md)。 藉由建立工具區，您就可以在該 Rebar 控制項中加入一個頻外。 不過，如同 Explorer 橫條，工具區是一般用途的視窗。
 
 ![工具區段的螢幕擷取畫面](images/toolband1.jpg)
 
@@ -88,7 +88,7 @@ Explorer 列有各式各樣的可能用途。 使用者可以透過數種不同�
 
 如果寬線物件是接受使用者輸入，則也必須執行 [**IInputObject**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-iinputobject)。 若要將專案加入至 Explorer 橫條圖或書桌群組的快捷方式功能表，必須將 [**ICoNtextMenu**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-icontextmenu)匯出。 工具區不支援快捷方式功能表。
 
-因為頻外物件會執行子視窗，所以它們也必須執行視窗程式來處理 Windows 訊息。
+因為頻外物件會執行子視窗，所以它們也必須執行視窗程式來處理 Windows 訊息處理。
 
 頻外物件可以透過容器的 [**IOleCommandTarget**](/windows/win32/api/docobj/nn-docobj-iolecommandtarget) 介面，將命令傳送到其容器。 若要取得介面指標，請呼叫容器的 [**IInputObjectSite：： QueryInterface**](/windows/win32/api/unknwn/nf-unknwn-iunknown-queryinterface(q)) 方法，並要求 IID \_ IOleCommandTarget。 然後，您可以使用 [**IOleCommandTarget：： Exec**](/windows/win32/api/docobj/nf-docobj-iolecommandtarget-exec)將命令傳送至容器。 命令群組為 CGID \_ DeskBand。 當呼叫帶狀物件的 [**IDeskBand：： GetBandInfo**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ideskband) 方法時，容器會使用 *dwBandID* 參數來指派用於三個命令的一個識別碼。 支援四個 **IOleCommandTarget：： Exec** 命令識別碼。
 
@@ -624,7 +624,7 @@ HRESULT RegisterComCat()
 
 ### <a name="the-window-procedure"></a>視窗程式
 
-因為寬線物件會使用子視窗來顯示它，所以它必須執行視窗程式來處理 Windows 訊息。 頻外範例有最基本的功能，因此其視窗程式只會處理五個訊息：
+因為寬線物件會使用子視窗來顯示它，所以它必須執行視窗程式來處理 Windows 訊息處理。 頻外範例有最基本的功能，因此其視窗程式只會處理五個訊息：
 
 -   [**WM \_ NCCREATE**](../winmsg/wm-nccreate.md)
 -   [**WM \_ 油漆**](../gdi/wm-paint.md)
@@ -774,7 +774,7 @@ void CDeskBand::OnFocus(const BOOL fFocus)
 
 
 
-頻外物件可透過建立自訂的瀏覽器列，提供有彈性且功能強大的方式來擴充 Internet Explorer 的功能。 執行服務台區可讓您延伸一般視窗的功能。 雖然需要一些 COM 程式設計，但最終還是會為您的使用者介面提供子視窗。 從該處，大部分的執行都可以使用熟悉的 Windows 程式設計技術。 雖然這裡所討論的範例僅具有有限的功能，但它也說明了一個頻外物件的所有必要功能，而且可以輕鬆擴充以建立獨特且功能強大的使用者介面。
+頻外物件可透過建立自訂的瀏覽器列，提供有彈性且功能強大的方式來擴充 Internet Explorer 的功能。 執行服務台區可讓您延伸一般視窗的功能。 雖然需要一些 COM 程式設計，但最終還是會為您的使用者介面提供子視窗。 從該處，大量的執行都可以使用熟悉的 Windows 程式設計技術。 雖然這裡所討論的範例僅具有有限的功能，但它也說明了一個頻外物件的所有必要功能，而且可以輕鬆擴充以建立獨特且功能強大的使用者介面。
 
  
 

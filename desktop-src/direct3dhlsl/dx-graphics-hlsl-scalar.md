@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 07/29/2020
-ms.openlocfilehash: 7198932c6edb91e6f797b232b6c980976f3696a7
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 39097dd358fcf9da1685be517742291ef96332f2307f255274445da70e4fc050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "103696546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725932"
 ---
 # <a name="scalar-types"></a>純量類型
 

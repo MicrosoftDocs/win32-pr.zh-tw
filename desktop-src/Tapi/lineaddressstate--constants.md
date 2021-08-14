@@ -4,12 +4,12 @@ ms.assetid: f06140d0-f41a-4228-93c5-21d609af5473
 title: 'LINEADDRESSSTATE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 483ac665c41989c65b43419442601dfb70667dc2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddf746d98328df51497374b990eb23f3885516ee1374d9cfdafb8799d016fb74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000984"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761850"
 ---
 # <a name="lineaddressstate_-constants"></a>LINEADDRESSSTATE \_ 常數
 

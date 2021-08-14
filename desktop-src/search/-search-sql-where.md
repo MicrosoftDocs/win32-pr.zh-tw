@@ -4,12 +4,12 @@ ms.assetid: e3b5ee92-e817-49b8-aa8b-5d68254bb819
 title: 'WHERE 子句 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b45a37334d656b0a321abdcdd4a5d045eb9d4985
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e711219ff8eea81e8c4f8fd8145baccc35f49389d412f0e4ac088aa06666643
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462400"
 ---
 # <a name="where-clause-windows-search"></a>WHERE 子句 (Windows Search) 
 
@@ -125,7 +125,7 @@ Windows Search 中有三個搜尋述詞群組：全文檢索、非全文檢索�
 [FROM 子句](-search-sql-from.md)
 </dt> <dt>
 
-[搜尋 SQL 語法總覽](-search-sql-ovwofsearchquery.md)
+[搜尋 SQL 語法的總覽](-search-sql-ovwofsearchquery.md)
 </dt> <dt>
 
 [WITH--AS Group Alias 述詞](-search-sql-with-as.md)

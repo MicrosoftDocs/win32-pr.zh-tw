@@ -4,12 +4,12 @@ description: '[跟蹤] 控制項通知'
 ms.assetid: 82c501b2-37a3-4e15-a9d9-e978f984a3ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a2d9d63887c08a3578f6268a39701f99695abd5
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d8a086f6d5502acaf1f8315e63236c7ac572e95c2d47227197c8d1e08784091d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321816"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414830"
 ---
 # <a name="trackbar-control-notifications"></a>[跟蹤] 控制項通知
 

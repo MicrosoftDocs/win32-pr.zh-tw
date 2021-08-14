@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: f4b2666f4006cd2a583809725749d16daf8e6e6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e92c3b0087935f57cba2774cc28347399d2557e140672805e93019cda227d786
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771084"
 ---
 # <a name="icertificate2template-method"></a>ICertificate2：： Template 方法
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509Certificate2 類別**](/previous-versions/windows/embedded/hh424017(v=msdn.10))。\]
 
 **範本** 方法會傳回與憑證相關聯的範本。 此方法是在 CAPICOM 2.0 中引進。
 

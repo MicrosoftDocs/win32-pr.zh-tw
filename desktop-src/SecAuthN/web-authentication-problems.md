@@ -4,12 +4,12 @@ ms.assetid: 25A024AA-9A70-40A5-BF5E-452FD148D0D2
 title: Web 驗證問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f996527c58b9620b8417ac3e6cdd6e0f61bd5217
-ms.sourcegitcommit: 6377cd944d1f09f2dfe5727170ca8b330c8235bf
+ms.openlocfilehash: 7c722aefa35849485d2c8958e17c654b5bb6477479ac1765e76e648fe15f9826
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "113353661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785862"
 ---
 # <a name="web-authentication-problems"></a>Web 驗證問題
 

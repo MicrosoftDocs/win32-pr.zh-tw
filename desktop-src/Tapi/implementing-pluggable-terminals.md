@@ -4,24 +4,24 @@ ms.assetid: 7cee19b1-ceea-494a-b576-4deede759905
 title: 執行可插入的終端機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 494b2f6bc5ccb214bc7101f570a4db3037fd8cae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a75dd7b085377c8474c9a89d74a297c3ca66c6740c01c7428e7b6f250e16c5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762900"
 ---
 # <a name="implementing-pluggable-terminals"></a>執行可插入的終端機
 
 插入式終端機實施的一般需求為：
 
 -   可插入的終端機基礎串流程式碼應符合所需 Msp 的功能。
--   終端機必須使用 DirectShow 篩選器來處理大部分的 Msp (這是在) 上假設。
+-   終端機必須使用 DirectShow 濾波器來處理大部分的 msp (這是在) 上假設。
 -   音訊終端機必須支援 8 kHz 16 位 mono 線性 PCM，才能進行大部分的 Msp。
 -   終端機應該藉由執行 [**IMarshal**](/windows/win32/api/objidlbase/nn-objidlbase-imarshal)來啟用自由執行緒封送處理。 終端機可以藉由呼叫 COM API [**CoCreateFreeThreadedMarshaler**](/windows/win32/api/combaseapi/nf-combaseapi-cocreatefreethreadedmarshaler) ，並將 **IMarshal** 匯總至傳回的指標來完成這項作業。 終端物件的函式應該呼叫 [**IMarshal >版本**](/windows/win32/api/unknwn/nf-unknwn-iunknown-release)。
 -   終端機應執行或匯總任何適當的其他終端機特定介面。
 -   終端機執行必須是安全線程。
--   終端機執行必須 \# 針對 [**ITTerminalControl**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalcontrol)定義包含 Termmgr。 這是 Windows 2000 SP1 下的 TAPI 3 或 TAPI 3 應用程式所需的一般包含和程式庫的補充。
+-   終端機執行必須 \# 針對 [**ITTerminalControl**](/windows/desktop/api/Termmgr/nn-termmgr-itterminalcontrol)定義包含 Termmgr。 這是 Windows 2000 SP1 下的 tapi 3 或 tapi 3 應用程式所需的一般包含和程式庫的補充。
 
 介面和方法的執行附注：
 

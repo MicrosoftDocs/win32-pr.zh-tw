@@ -6,12 +6,12 @@ keywords:
 - MIDL 編譯器 MIDL，驗證預處理器選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19a047980c9f2f9dc8deffdcf85de767e4dc8705
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: acb9f5055623a44e88ed57b5ed0cadd0034c6962e160a081c7a55a9a51ca9e13
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382759"
 ---
 # <a name="verifying-preprocessor-options"></a>驗證預處理器選項
 
@@ -58,9 +58,9 @@ E -nologo
                   Zp -  8
 ```
 
- 
+ 
 
- 
+ 
 
 
 

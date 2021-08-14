@@ -3,8 +3,8 @@ title: 列印對話方塊
 description: '[列印] 對話方塊可讓使用者選取特定列印工作的選項。'
 ms.assetid: 34f69b25-8a89-4322-af4c-a80b85a4a973
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面、通用對話方塊程式庫
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，通用對話方塊程式庫
 - 使用者輸入、通用對話方塊程式庫
 - 正在捕獲使用者輸入，通用對話方塊程式庫
 - 通用對話方塊程式庫
@@ -16,12 +16,12 @@ keywords:
 - 對話方塊、列印
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4fae1dd244391ea16478a0cb4f10803cf622dc64
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0afd8cfa31a83f664e859cd93acc9d28543b7ab00dcb8f130fdbac329cd1429e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720913"
 ---
 # <a name="print-dialog-box"></a>列印對話方塊
 
@@ -93,6 +93,6 @@ ms.locfileid: "104093256"
 -   **PD \_ ENABLESETUPTEMPLATE**
 -   **PD \_ ENABLESETUPTEMPLATEHANDLE**
 
- 
+ 
 
- 
+ 

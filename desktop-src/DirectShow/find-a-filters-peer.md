@@ -4,12 +4,12 @@ ms.assetid: 74d9fe65-f7f4-4971-9550-27884ac4146b
 title: 尋找篩選對等
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1717f6ad61ad7310fdaa11ea5baaab4dcb7f8011
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 60d2f20a7145d2365e7ee1ec261ea861ddc5fa1eb01d0c3b2503f6f53fa25815
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118401762"
 ---
 # <a name="find-a-filters-peer"></a>尋找篩選對等
 
@@ -95,7 +95,7 @@ if (SUCCEEDED(GetNextFilter(pF, PINDIR_INPUT, &pUpstream)))
 
 篩選器可能會連接到兩個或多個篩選準則。 例如，它可能是分隔器篩選，其中有數個來自它的下游篩選。 或者，它可能是 mux 篩選器，其中有多個來自它的篩選準則。 因此，您可能會想要將它們全部收集到清單中。
 
-下列程式碼顯示一種可能的方法來執行這類函數。 它會使用 DirectShow [**CGenericList**](cgenericlist.md) 類別;您可以使用其他資料結構來撰寫對等函數。
+下列程式碼顯示一種可能的方法來執行這類函數。 它會使用 DirectShow 的 [**CGenericList**](cgenericlist.md)類別;您可以使用其他資料結構來撰寫對等函數。
 
 
 ```C++

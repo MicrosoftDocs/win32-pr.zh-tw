@@ -4,12 +4,12 @@ ms.assetid: 53c95da0-1601-4945-83a1-e3266d251aee
 title: XPS OM 列印票證介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 646089455e7106b1be3716c0ccf0774be361f130
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: f629e716db7098f8f6999df758fd3b73e3f82b83308a3dd68d5f247d6cd709a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106982819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867754"
 ---
 # <a name="xps-om-print-ticket-interfaces"></a>XPS OM 列印票證介面
 

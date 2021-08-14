@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 撰寫方法提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8626e2e16fe5424a0b05df81e2444a72ecb8841f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea5121d4a9438744ad62b666e62d4ffa90c39428020d3e39c80a6de26e295959
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311927"
 ---
 # <a name="writing-a-method-provider"></a>撰寫方法提供者
 

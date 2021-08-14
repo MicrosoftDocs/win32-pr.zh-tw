@@ -4,12 +4,12 @@ ms.assetid: 5ce0f8a6-ab61-4091-809f-2e4a990f4886
 title: 使用對等基礎結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a6cbcaab4044aa1f0b3e3ca017c824bf304f634
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52e759eecf59eee04274db564e488bbf5778755f171da04967401d10f1ea3d24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983642"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794141"
 ---
 # <a name="using-the-peer-infrastructure"></a>使用對等基礎結構
 

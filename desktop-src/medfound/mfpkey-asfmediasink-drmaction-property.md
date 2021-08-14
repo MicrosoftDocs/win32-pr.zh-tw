@@ -1,19 +1,19 @@
 ---
-description: 指定 ASF 媒體接收器應該如何套用 Windows Media DRM。
+description: 指定如何將 ASF 媒體接收器套用 Windows 媒體 DRM。
 ms.assetid: 5f81294b-859a-4325-98dd-6267c736e1f1
 title: 'MFPKEY_ASFMEDIASINK_DRMACTION 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80906a5ac6e5d12bd59dd57445d33b100fee1aef
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 4ed62f62a5d03d7fe938101d9837bd8ed9bccefe69b2bf30e0566ea0b471e37f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103696274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117874342"
 ---
 # <a name="mfpkey_asfmediasink_drmaction-property"></a>MFPKEY \_ ASFMEDIASINK \_ DRMACTION 屬性
 
-指定 ASF 媒體接收器應該如何套用 Windows Media DRM。
+指定如何將 ASF 媒體接收器套用 Windows 媒體 DRM。
 
 
 
@@ -47,8 +47,8 @@ VT \_ UI4
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

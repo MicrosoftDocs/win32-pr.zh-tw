@@ -3,7 +3,7 @@ title: QuickAccessToolbar 屬性
 description: 代表快速存取工具列 (QAT) 的容器。
 ms.assetid: 8a873a48-4f8b-439d-acad-7da2081fbf40
 keywords:
-- QuickAccessToolbar 屬性視窗功能區
+- 功能區. QuickAccessToolbar 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad0e09b220bd60b60ccbb8ee05c2da9c4317ba78
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 83e1fa4cb5de43be2b7316d4ed1786c2a1325fa4468538e2ffea41d5d8c9ef0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104383938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202315"
 ---
 # <a name="ribbonquickaccesstoolbar-property"></a>QuickAccessToolbar 屬性
 
@@ -87,8 +87,8 @@ ms.locfileid: "104383938"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

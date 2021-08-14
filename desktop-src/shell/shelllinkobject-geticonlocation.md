@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: ef2f502d30116def68aa43269b3020d404ce177d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09ace233291d5eac285ac1115866a54cb9792c85aefbb8faa5a2d1f6c37393e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857579"
 ---
 # <a name="shelllinkobjectgeticonlocation-method"></a>ShellLinkObject. GetIconLocation 方法
 
@@ -42,7 +42,7 @@ iRetVal = ShellLinkObject.GetIconLocation(
 *sPath* \[擴展\]
 </dt> <dd>
 
-類型： **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+類型： **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 當此方法傳回時，它會保存包含圖示之檔案的完整路徑。
 
@@ -50,15 +50,15 @@ iRetVal = ShellLinkObject.GetIconLocation(
 
 ## <a name="return-value"></a>傳回值
 
-類型： _*整數 \**_
+類型：**整數 \***
 
-傳回 _sPath * 所指定檔案中的圖示索引。
+傳回 *sPath* 所指定檔案中的圖示索引。
 
 ## <a name="examples"></a>範例
 
-下列範例會示範如何適當地使用此方法來進行 JScript、VBScript 和 Visual Basic。
+下列範例會針對 JScript、VBScript 和 Visual Basic 顯示此方法的適當使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -175,10 +175,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows 2000 Professional 含 SP3 \[ desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | \[只有 SP3 desktop 應用程式 Windows 2000 Professional\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h \_ core .h (包括 Shldisp) </dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

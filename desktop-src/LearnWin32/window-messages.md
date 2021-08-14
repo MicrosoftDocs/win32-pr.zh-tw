@@ -1,26 +1,26 @@
 ---
-title: 使用 Win32 和 c + +) 開始的視窗訊息 (
-description: 使用 Win32 和 c + +) 開始的視窗訊息 (
+title: 使用 Win32 和 c + +) 入門的視窗訊息 (
+description: 使用 Win32 和 c + +) 入門的視窗訊息 (
 ms.assetid: 90c20456-44ed-4f0f-a6d3-b6c5660f0bc7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c00da564396e0f95947e33fb7d8db8b217ac5cdf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d0e3655ddbd053cf9f84b4298518c4616679e83fe1eb48fb60011e865ca8a605
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108103836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118387511"
 ---
-# <a name="window-messages-get-started-with-win32-and-c"></a>使用 Win32 和 c + +) 開始的視窗訊息 (
+# <a name="window-messages-get-started-with-win32-and-c"></a>使用 Win32 和 c + +) 入門的視窗訊息 (
 
 GUI 應用程式必須回應來自使用者和作業系統的事件。
 
 - **來自使用者的事件** 包括所有人都可以與您的程式互動的方式：按一下滑鼠、按鍵筆劃、觸控畫面手勢等等。
-- **作業系統中的事件** 包含程式的任何「外部」，可能會影響程式的運作方式。 例如，使用者可能會插入新的硬體裝置，或 Windows 可能會進入較低電源狀態 (睡眠或休眠) 。
+- **作業系統中的事件** 包含程式的任何「外部」，可能會影響程式的運作方式。 例如，使用者可能會插入新的硬體裝置，或 Windows 可能進入較低電源狀態 (睡眠或休眠) 。
 
 這些事件可能會在程式執行時的任何時間，以幾乎任何順序發生。 您如何建立程式，使其執行流程無法事先預測？
 
-為了解決這個問題，Windows 使用訊息傳遞模型。 作業系統會將訊息傳遞給應用程式視窗，以與您的應用程式視窗進行通訊。 訊息只是指定特定事件的數值代碼。 例如，如果使用者按下滑鼠左鍵，則視窗會收到具有下列訊息碼的訊息。
+若要解決這個問題，Windows 使用訊息傳遞模型。 作業系統會將訊息傳遞給應用程式視窗，以與您的應用程式視窗進行通訊。 訊息只是指定特定事件的數值代碼。 例如，如果使用者按下滑鼠左鍵，則視窗會收到具有下列訊息碼的訊息。
 
 ```C++
 #define WM_LBUTTONDOWN    0x0201

@@ -4,12 +4,12 @@ ms.assetid: cdc3629d-c4d8-4910-8838-3bdb601f7064
 title: 條件式 Ace 的安全描述項定義語言
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f65cb6ae0588ae197c84d3b13362721cc3e98b43
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0a746460c7582d95e0c95e2a2c179aac2eb29456418234cb52e842c8c56738
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780523"
 ---
 # <a name="security-descriptor-definition-language-for-conditional-aces"></a>條件式 Ace 的安全描述項定義語言
 
@@ -64,7 +64,7 @@ ms.locfileid: "104512004"
 | * ConditionalExpression * **\|\|** _ConditionalExpression_<br/> | 測試其中一個指定的條件運算式是否為 true。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 | *ConditionalExpression* **&&***ConditionalExpression*<br/> | 測試兩個指定的條件運算式是否為 true。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | **！ (** _ConditionalExpression_ *_)_*<br/>                     | 條件運算式的反向。<br/>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| {_SidArray_*_}_* **\_ 的成員**<br/>                         | 測試用戶端內容的 [**SID \_ 和 \_ 屬性**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes)陣列是否包含 (sid) 在 *SidArray* 所指定的逗點分隔清單中的所有 [安全識別碼](security-identifiers.md)。<br/> 若為允許 Ace，用戶端內容 SID 必須將 **SE \_ GROUP \_ ENABLED** 屬性設定為視為相符。<br/> 若為 Deny Ace，用戶端內容 SID 必須 **\_ \_ 啟用 SE 群組** ，否則 **se 群組會使用將「 \_ \_ \_ \_ \_ 僅限拒絕** 」屬性設定為視為相符。<br/> *SidArray* 陣列可以包含 sid 字串 (例如 "S-1-5-6" ) 或 sid 別名 (例如 "BA"<br/> |
+| {_SidArray_*_}_* **\_ 的成員**<br/>                         | 測試用戶端內容的 [**SID \_ 和 \_ 屬性**](/windows/desktop/api/Winnt/ns-winnt-sid_and_attributes)陣列是否包含 (sid) 在 *SidArray* 所指定的逗點分隔清單中的所有 [安全識別碼](security-identifiers.md)。<br/> 若為允許 ace，用戶端內容 SID 必須將 **\_ \_ 已啟用 SE 群組** 的屬性設定為視為相符。<br/> 若為 deny ace，用戶端內容 SID 必須 **\_ \_ 啟用 SE 群組**，否則 SE 群組會將 [僅限拒絕屬性] 設定為 [ **\_ \_ \_ \_ \_ 僅限拒絕**] 屬性設定為 [符合]。<br/> *SidArray* 陣列可以包含 sid 字串 (例如 "S-1-5-6" ) 或 sid 別名 (例如 "BA"<br/> |
 
 
 

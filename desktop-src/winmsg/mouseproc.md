@@ -32,12 +32,12 @@ api_name: ''
 targetos: Windows
 req.typenames: ''
 req.redist: ''
-ms.openlocfilehash: abdd74b5fed93e2c2ddbc8d037a657b779a62a05
-ms.sourcegitcommit: 61bde60d4c3bc09defc3dcdb64c0ddadf52b214e
+ms.openlocfilehash: fa1528ce2910e563e3fe930fe19960aa43b437b22c53c03d0febc51b98bcc55b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/11/2020
-ms.locfileid: "106969697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118200689"
 ---
 # <a name="mouseproc-function"></a>MouseProc 函式
 
@@ -115,6 +115,6 @@ LRESULT CALLBACK MouseProc(
 
 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw)
 
-[鉤](hooks.md)
+[勾點](hooks.md)
 
 [關於勾點](about-hooks.md)

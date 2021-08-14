@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: bf7f1b4db54cc5374214ff45b51579556dc22062
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf0a9752162c1593928e1bed270859ec4166230fe1f7e2d46d979c5c989ca237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118452993"
 ---
 # <a name="ischaralphanumericwrapw-function"></a>IsCharAlphaNumericWrapW 函式
 
-\[**IsCharAlphaNumericWrapW** 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 。\]
+\[**IsCharAlphaNumericWrapW** 可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 。\]
 
 判斷字元是否為字母或數位字元。 這項決定是根據使用者在安裝期間或透過主控台所選取之語言的語法。
 
@@ -65,7 +65,7 @@ BOOL IsCharAlphaNumericWrapW(
 
 ## <a name="remarks"></a>備註
 
-**IsCharAlphaNumericWrapW** 能讓您在 Windows XP 之前的作業系統中使用 Unicode 字串。 慣用的方法是使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
+**IsCharAlphaNumericWrapW** 能讓您在早于 Windows XP 的作業系統中使用 Unicode 字串。 慣用的方法是使用 [**IsCharAlphaNumericW**](/windows/win32/api/winuser/nf-winuser-ischaralphanumerica) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
 
 您必須使用序數28，直接從 Shlwapi.dll 呼叫 **IsCharAlphaNumericWrapW** 。
 
@@ -75,8 +75,8 @@ BOOL IsCharAlphaNumericWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 
 

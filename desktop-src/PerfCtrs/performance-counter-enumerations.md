@@ -4,12 +4,12 @@ ms.assetid: EF4B540A-E9F7-44F8-B5DC-027705C939FA
 title: 效能計數器列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0eff605ca256822509a983a39f0d4819efa2140f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91f86ba863f2774014b3505bf776ef763a80f9192bade922e72313238fca5ad5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793911"
 ---
 # <a name="performance-counter-enumerations"></a>效能計數器列舉
 

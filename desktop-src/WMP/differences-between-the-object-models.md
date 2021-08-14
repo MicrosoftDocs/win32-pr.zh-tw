@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，物件模型
 - Windows Media Player 物件模型，版本差異
 - 物件模型，版本差異
-- Windows Media Player ActiveX 控制項，版本差異
+- Windows Media Player ActiveX 控制，版本差異
 - ActiveX 控制項，版本差異
-- Windows Media Player 的行動 ActiveX 控制項，版本差異
-- Windows Media Player 行動裝置，物件模型
+- Windows Media PlayerMobile ActiveX 控制項，版本差異
+- Windows Media Player行動裝置，物件模型
 - 遷移指南，版本差異
 - Windows Media Player 的版本，物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9a5341067e2daad0f44fbdd7075f0f543bac2fd4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 49dd3b7862e2d9c5580950ad2eb718bd1c8125a5d22ec6a08533c140de545086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117749739"
 ---
 # <a name="differences-between-the-object-models"></a>物件模型之間的差異
 
@@ -35,9 +35,9 @@ Windows Media Player 6.4 物件模型和 Windows Media Player 7 或更新版本�
 [**物件模型遷移指南**](object-model-migration-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

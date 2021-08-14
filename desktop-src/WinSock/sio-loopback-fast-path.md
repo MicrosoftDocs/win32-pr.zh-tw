@@ -8,20 +8,20 @@ req.target-min-winverclnt: Windows Vista [desktop apps only]
 req.target-min-winversvr: Windows Server 2008 [desktop apps only]
 api_location:
 - mstcpip.h
-ms.openlocfilehash: f32cba8a081d2eb268a3e93a362ccec9bf414d8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8650cd267d321569aca584e7195fb1bdb79c83a33d931e59e8db37521b8933a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999920"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117740407"
 ---
 # <a name="sio_loopback_fast_path-control-code"></a>SIO_LOOPBACK_FAST_PATH 控制程式代碼
 
 ## <a name="description"></a>Description
 
-**SIO \_ 回送 \_ 快速 \_ 路徑** 控制程式代碼會設定 TCP 通訊端，以在回送介面上進行較低的延遲和更快速的作業。
+**SIO \_ 回送 \_ FAST \_ 路徑** 控制程式代碼會設定 TCP 通訊端，以在回送介面上進行較低的延遲和更快速的作業。
 
-**重要** **SIO \_ 回送 \_ 快速 \_ 路徑** 已被取代，不建議在您的程式碼中使用。
+**重要** **SIO \_ 回送 \_ FAST \_ 路徑** 已被取代，不建議在您的程式碼中使用。
 
 若要執行這項作業，請使用下列參數呼叫 [**WSAIoctl**](/windows/desktop/api/winsock2/nf-winsock2-wsaioctl) 或 **WSPIoctl** 函數。
 
@@ -64,7 +64,7 @@ int WSPIoctl(
 ### <a name="dwiocontrolcode"></a>dwIoControlCode
 
 作業的控制項程式碼。
-使用 **SIO \_ 回送 \_ 快速 \_ 路徑** 進行此作業。
+使用 **SIO \_ 回送 \_ FAST \_ 路徑** 進行此作業。
 
 ### <a name="lpvinbuffer"></a>lpvInBuffer
 
@@ -146,13 +146,13 @@ int WSPIoctl(
 | **WSAEINVAL** | 提供的引數無效。 如果 *dwIoControlCode* 參數不是有效的命令，或是無法接受指定的輸入參數，或命令不適用於指定的通訊端類型，就會傳回此錯誤。 |
 | **WSAENETDOWN** | 通訊端作業遇到停止的網路。 如果網路子系統失敗，就會傳回此錯誤。 |
 | **WSAENOTSOCK** | 嘗試對不是通訊端的某個作業進行作業。 如果 *描述項不是套* 接字，就會傳回此錯誤。 |
-| **WSAEOPNOTSUPP** | 所參考的物件類型不支援所嘗試的操作。 如果不支援指定的 IOCTL 命令，則會傳回此錯誤。 如果傳輸提供者不支援 **SIO \_ 回送 \_ 快速 \_ 路徑** IOCTL，也會傳回此錯誤。 |
+| **WSAEOPNOTSUPP** | 所參考的物件類型不支援所嘗試的操作。 如果不支援指定的 IOCTL 命令，則會傳回此錯誤。 如果傳輸提供者不支援 **SIO \_ 回送 \_ FAST \_ 路徑** IOCTL，也會傳回此錯誤。 |
 
 ## <a name="remarks"></a>備註
 
-應用程式可以使用 **SIO \_ 回送 \_ 快速 \_ 路徑** IOCTL 來降低延遲，並改善 TCP 通訊端上的回送作業效能。
+應用程式可以使用 **SIO \_ 回送 \_ FAST \_ 路徑** IOCTL 來降低延遲，並改善 TCP 通訊端上的回送作業效能。
 此 IOCTL 要求 TCP/IP 堆疊針對此通訊端上的回送作業使用特殊的快速路徑。
-**SIO \_ 回送 \_ 快速 \_ 路徑** IOCTL 只能用於 TCP 通訊端。
+**SIO \_ 回送 \_ FAST \_ 路徑** IOCTL 只能用於 TCP 通訊端。
 這個 IOCTL 必須用於回送會話的兩端。
 您可以使用 IPv4 或 IPv6 回送介面，來支援 TCP 回送快速路徑。
 
@@ -165,7 +165,7 @@ int WSPIoctl(
 
 當應用程式使用快速路徑在回送介面上建立連接時，連接存留期的所有封包都必須使用快速路徑。
 
-將 **SIO \_ 回送的 \_ 快速 \_ 路徑** 套用至將連接至非回送路徑的通訊端，將不會有任何作用。
+將 **SIO \_ 回送 \_ FAST \_ 路徑** 套用至將連接至非回送路徑的通訊端，將不會有任何作用。
 
 此 TCP 回送優化會導致封包流經傳輸層 (TL) ，而不是透過網路層進行傳統的回送。
 此優化可改善回送封包的延遲。
@@ -177,14 +177,14 @@ TCP 中的擁塞控制和可靠傳遞的概念不是必要的。
 TCP 優化回送路徑中的流程式控制制是藉由在佇列中放置傳送要求來維護的。
 當接收緩衝區已滿時，TCP/IP 堆疊保證傳送將不會完成，直到佇列維修維護流量控制為止。
 
-在 Windows 篩選平台 (WFP) 注標中，連接資料的 TCP 快速路徑回送連線，必須採用非優化的緩慢路徑進行回送。
+連接資料的 Windows 篩選平台 (WFP) 注標中的 TCP 快速路徑回送連線，必須採用非優化的緩慢路徑進行回送。
 因此，WFP 篩選器會防止使用這個新的回送快速路徑。
-啟用 WFP 篩選器時，系統會使用慢速路徑，即使已設定 **SIO \_ 回送 \_ 快速 \_ 路徑** IOCTL 也是如此。
+啟用 WFP 篩選器時，系統會使用慢速路徑，即使已設定 **SIO \_ 回送 \_ FAST \_ 路徑** IOCTL 也一樣。
 這可確保使用者模式應用程式具有完整的 WFP 安全性功能。
 
-預設會停用 **SIO \_ 回送 \_ 快速 \_ 路徑** 。
+預設會停用 **SIO \_ 回送 \_ FAST \_ 路徑**。
 
-當使用 **SIO \_ 回送 \_ 快速 \_ 路徑** IOCTL 來啟用通訊端上的回送快速路徑時，僅支援 tcp/ip 通訊端選項的子集。
+當使用 **SIO \_ 回送 \_ FAST \_ 路徑** IOCTL 來啟用通訊端上的回送快速路徑時，僅支援 tcp/ip 通訊端選項的子集。
 支援的選項清單包括下列各項：
 
 * **IP \_ TTL**

@@ -4,16 +4,16 @@ description: 卸載方法
 ms.assetid: 2ffaeea6-ff24-48b2-bc99-eba429434a30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41d19f5f29647ff01b5a52bd8978694aaef1c43a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f74f274f758e34416cc73d82963fa21fbd93b14e7b6492c693f24b763081b49f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682011"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474496"
 ---
 # <a name="unload-method"></a>卸載方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "103682011"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。字元。 Unload "*** CharacterID * * *"**
+*代理程式 ***。字元。卸載 "**_CharacterID_*_"_*
 
 </dd> </dl>
 
@@ -37,6 +37,6 @@ ms.locfileid: "103682011"
 
 這個方法不會傳回 [**Request**](/windows/desktop/lwef/the-request-object) 物件。
 
- 
+ 
 
- 
+ 

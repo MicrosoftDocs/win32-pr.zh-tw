@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 0283b839069464a1a059bd11ef52b522f7ec7072
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4d0d03b10aca45fadb5a0072eb94114103ab37d0c478c8a90241b5ab97ec36a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857167"
 ---
 # <a name="shelllinkobjectsave-method"></a>ShellLinkObject。 Save 方法
 
@@ -50,9 +50,9 @@ iRetVal = ShellLinkObject.Save(
 
 ## <a name="examples"></a>範例
 
-下列範例會示範如何適當地使用此方法來進行 JScript、VBScript 和 Visual Basic。
+下列範例會針對 JScript、VBScript 和 Visual Basic 顯示此方法的適當使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -172,10 +172,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows 2000 Professional 含 SP3 \[ desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | \[只有 SP3 desktop 應用程式 Windows 2000 Professional\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |
 
 

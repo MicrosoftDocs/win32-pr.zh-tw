@@ -4,12 +4,12 @@ ms.assetid: 4d4c768f-b76a-40ca-8736-2f592a4f4cc4
 title: H.264 影片編碼器
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5631239e9db0ddf078848bc3c4a04282e7e79990
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04d1c1c8af4487d02cbb8405ebf341458424074a3d8c3cae53bff4207f73490c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117879092"
 ---
 # <a name="h264-video-encoder"></a>H.264 影片編碼器
 
@@ -116,7 +116,7 @@ H.264 編碼器會實 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodec
 
 如需 HCK 編碼器認證的編解碼器需求，請參閱下面的「 **經認證的硬體編碼器** 」一節。
 
-以下是 Windows 7 中支援的屬性。
+Windows 7 支援下列屬性。
 
 
 
@@ -164,7 +164,7 @@ H.264 編碼器會實 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodec
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a></td>
-<td>設定編碼位資料流程的平均位元速率，以每秒位數為單位。 如果 <strong>eAVEncCommonRateControlMode_Quality</strong>的速率控制模式，則會忽略這個屬性。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 在 CBR 和未受限制的 VBR 模式中，平均位元速率會決定檔案的最終大小。 在 CBR 模式中，平均位元速率也是壓縮的位從有漏洞值區中排出的速率 &quot; 。 &quot; (如需詳細資訊，請參閱 <a href="the-leaky-bucket-buffer-model.md">有漏洞 bucket 緩衝區模型</a>。 )  <br/> 在 Windows 7 中，平均位元速率是由媒體類型上的 <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> 屬性所指定。 <br/> 在 Windows 8 中，您可以使用 <a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a> 屬性或 <a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a> 屬性來設定平均位元速率。 如果兩者都已設定，CODECAPI_AVEncCommonMeanBitRate 覆寫。 在 Windows 8 中，您可以設定編碼期間的平均位元速率。 如果位元速率有所變更，則編碼器會使用適應性編碼。<br/></td>
+<td>設定編碼位資料流程的平均位元速率，以每秒位數為單位。 如果 <strong>eAVEncCommonRateControlMode_Quality</strong>的速率控制模式，則會忽略這個屬性。 <br/> 有效範圍為 [1 .。。2³²-1]。 <br/> 在 CBR 和未受限制的 VBR 模式中，平均位元速率會決定檔案的最終大小。 在 CBR 模式中，平均位元速率也是壓縮的位從有漏洞值區中排出的速率 &quot; 。 &quot; (如需詳細資訊，請參閱 <a href="the-leaky-bucket-buffer-model.md">有漏洞 bucket 緩衝區模型</a>。 )  <br/> 在 Windows 7 中，平均位元速率是由媒體類型上的<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性所指定。 <br/> 在 Windows 8 中，您可以使用<a href="mf-mt-avg-bitrate-attribute.md">MF_MT_AVG_BITRATE</a>屬性或<a href="/windows/desktop/DirectShow/avenccommonmeanbitrate-property">CODECAPI_AVEncCommonMeanBitRate</a>屬性來設定平均位元速率。 如果兩者都已設定，CODECAPI_AVEncCommonMeanBitRate 覆寫。 在 Windows 8 中，您可以設定編碼期間的平均位元速率。 如果位元速率有所變更，則編碼器會使用適應性編碼。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/DirectShow/avenccommonqualityvsspeed-property">CODECAPI_AVEncCommonQualityVsSpeed</a></td>
@@ -235,7 +235,7 @@ H.264 編碼器會實 [**ICodecAPI**](/windows/win32/api/strmif/nn-strmif-icodec
 
 
 
-| 模式                                  | 常數                                            | 描述                                                                                                                                                                                                                                         |
+| [模式]                                  | 常數                                            | 描述                                                                                                                                                                                                                                         |
 |---------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 固定位元速率 (CBR)                | **eAVEncCommonRateControlMode_CBR**                | 編碼器會使用 "有漏洞 bucket" 模型，嘗試達到常數的位元速率。 目標位速率是由 [CODECAPI_AVEncCommonMeanBitRate](../directshow/avenccommonmeanbitrate-property.md) 屬性提供。 <br/> 需要 Windows 8。 <br/> |
 |  (VBR) 的限制變數位速率   | **eAVEncCommonRateControlMode_PeakConstrainedVBR** | 編碼器會使用具有尖峰位速率的「有漏洞 bucket」模型。 有漏洞 bucket 的清空率是由 [CODECAPI_AVEncCommonMaxBitRate](../directshow/avenccommonmaxbitrate-property.md) 屬性提供。 <br/> 需要 Windows 8。 <br/>     |
@@ -321,7 +321,7 @@ CBR 和受限的 VBR 模式需要 Windows 8。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                               |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                |
 | DLL<br/>                      | <dl> <dt>Mfh264enc.dll</dt> </dl> |
 
