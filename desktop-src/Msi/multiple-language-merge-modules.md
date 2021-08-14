@@ -4,12 +4,12 @@ ms.assetid: b3a0b635-49c7-4f95-b31f-6c8688466dd2
 title: 多個語言合併模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d414cce484022bf81647110ac032d0db270d383
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 17f32d219e1071cd431117919d3eb3f3361d30213f59a26f9ec2cdf2e81e591b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943419"
 ---
 # <a name="multiple-language-merge-modules"></a>多個語言合併模組
 

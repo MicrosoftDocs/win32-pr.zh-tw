@@ -4,12 +4,12 @@ ms.assetid: 402876b9-731e-4c30-b48f-bca67ed6dad1
 title: XMBYTE2 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 23d27dde34e06f1e8daffbbdb00f26eab2c71fc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a5a70b68c363638a60bfb84c05cb5f7ee79344f28a89d2f0b6ebcb5372467c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118501644"
 ---
 # <a name="xmbyte2-operators"></a>XMBYTE2 運算子
 

@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Rkeysvcc.h
-ms.openlocfilehash: 3a35362876c067de011ec69a858e20150308cbd4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c7a075cf4869e350d90e278d009098cf4716d6518b1970c15b8b8264c93cd22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900553"
 ---
 # <a name="rkeyclosekeyservice-function"></a>RKeyCloseKeyService 函式
 
 不支援 **RKeyCloseKeyService** 函數。
 
-**Windows Server 2003：****RKeyCloseKeyService** 函式會關閉先前呼叫 [**RKeyOpenKeyService**](rkeyopenkeyservice.md)函式所開啟的金鑰服務控制碼。 請注意，此行為已隨著 Windows Server 2003 Service Pack 1 (SP1) 而變更。
+**Windows Server 2003：****RKeyCloseKeyService** 函式會關閉先前呼叫 [**RKeyOpenKeyService**](rkeyopenkeyservice.md)函式所開啟的金鑰服務控制碼。 請注意，這種行為隨著 Windows Server 2003 Service Pack 1 (SP1) 而有所變更。
 
 ## <a name="syntax"></a>語法
 
@@ -69,7 +69,7 @@ ULONG RKeyCloseKeyService(
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Rkeysvcc。h</dt> </dl> |
 
 

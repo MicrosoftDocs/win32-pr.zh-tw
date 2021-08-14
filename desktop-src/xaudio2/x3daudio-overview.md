@@ -4,12 +4,12 @@ ms.assetid: 1638e848-4186-5dea-18e8-5369eee544ae
 title: X3DAudio 總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ff509b16556ee1932d2a2543ad5008ddcbaa5b92
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2eb39239027bf8c7387fbe4cb25b80cef88bb241b74facf0b7bd7ee35c77965b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962547"
 ---
 # <a name="x3daudio-overview"></a>X3DAudio 總覽
 

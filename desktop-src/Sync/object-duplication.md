@@ -4,12 +4,12 @@ ms.assetid: b79d2b8f-931e-4cab-9bbe-9ead1b102132
 title: 物件重複
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96f8e0948ce55f5d25d7567346ecdec97f04b24a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0927f9d3b60f358623e66a067e75992e71c76ca5fe072a9749c9bbc217bfa2ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886338"
 ---
 # <a name="object-duplication"></a>物件重複
 

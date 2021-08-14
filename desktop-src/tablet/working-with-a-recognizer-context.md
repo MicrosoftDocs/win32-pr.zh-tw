@@ -4,12 +4,12 @@ ms.assetid: 33d9abc4-151e-47b4-b66f-ff6adfe21222
 title: 使用辨識器內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fdea8c59bc894a6962e8bbe7e58f316327a548e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3d99020e97170f0b68b1459abdc4b85f81ebc3fbba426233c2c13b5e042f28ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026297"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715096"
 ---
 # <a name="working-with-a-recognizer-context"></a>使用辨識器內容
 

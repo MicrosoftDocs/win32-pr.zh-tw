@@ -1,16 +1,16 @@
 ---
 description: 瞭解 Windows 10 桌面 Win32 應用程式的新功能。
-title: Desktop Win32 應用程式開發人員 Windows 10 的新功能
+title: desktop Win32 應用程式開發人員 Windows 10 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 36a85d1be5c1a61087f31b084df59e0bc9c45bab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6441ec7e10aff37bd4463b20e1295765c1417b30c2f50dce81db62ee3a16af11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442182"
 ---
-# <a name="whats-new-in-windows-10-for-desktop-win32-app-developers"></a>Desktop Win32 應用程式開發人員 Windows 10 的新功能
+# <a name="whats-new-in-windows-10-for-desktop-win32-app-developers"></a>desktop Win32 應用程式開發人員 Windows 10 的新功能
 
 本文提供從 Windows 10 開始的桌面 Win32 應用程式開發人員新功能的相關資訊。 如需最新版本 Windows 10 的詳細資訊，請參閱下列資源：  
 
@@ -31,11 +31,11 @@ ms.locfileid: "104026775"
 * [原生 Wifi 的新功能](NativeWiFi/what-s-new-in-native-wifi.md)
 * [事件追蹤的新功能](ETW/what-s-new-in-event-tracing.md)
 * [工作排程器的新功能](TaskSchd/what-s-new-in-task-scheduler.md)
-* [Windows 影像處理元件 (WIC) 的新功能 ](wic/what-s-new-in-wic-for-windows-8-1.md)
+* [Windows 影像處理元件 (WIC) 的新功能](wic/what-s-new-in-wic-for-windows-8-1.md)
 
 ## <a name="related-topics"></a>相關主題
 
-* [Win32 desktop Windows 應用程式入門](desktop-programming.md)
+* [開始使用 Win32 desktop Windows apps](desktop-programming.md)
 * [Windows 10 中有哪些酷炫功能](https://developer.microsoft.com/windows/windows-10-for-developers)
-* [Windows API 參考](/windows/desktop/api/)
+* [WindowsAPI 參考](/windows/desktop/api/)
 * [Windows API 索引](/windows/desktop/apiindex/api-index-portal)

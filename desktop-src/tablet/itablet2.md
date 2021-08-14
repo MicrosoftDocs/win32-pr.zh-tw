@@ -14,12 +14,12 @@ api_type:
 api_location:
 - wisptis.exe
 - wisptis.exe.dll
-ms.openlocfilehash: b402695aa278105ad57209f3ff33e66ccaf8c746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0df1114f5808e5fd08a1a2dbe00ccfb451eaa7096c978d3f4d454e508c0a2fcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118717347"
 ---
 # <a name="itablet2-interface"></a>ITablet2 介面
 
@@ -47,7 +47,7 @@ ms.locfileid: "106980619"
 
 ## <a name="remarks"></a>備註
 
-此介面是在 Windows Vista 中引進的。
+此介面是在 Windows Vista 中引進。
 
 開發人員不應使用此介面。
 
@@ -73,7 +73,7 @@ interface ITablet2 : IUnknown
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                              |
 | 程式庫<br/>                  | <dl> <dt>Wisptis.exe</dt> </dl> |
 

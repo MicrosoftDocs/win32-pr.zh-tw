@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 285dfb6d5323ca3775f981aecbf5a0170392cd3b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6e565d4c48b048b4d72b11c939b644752cb14f1993c2810f127bb14f60bec929
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957297"
 ---
 # <a name="modify-method-of-the-microsoftdns_txttype-class"></a>Modify MicrosoftDNS \_ TXTType 類別的方法
 

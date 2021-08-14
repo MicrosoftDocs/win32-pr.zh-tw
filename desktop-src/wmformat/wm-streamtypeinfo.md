@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c410b470e9ddb4ec874325d9c1cca2839c00b1d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 6fb40926d5ecba3aea2c7f2db64850152c66a25861d4422fddf04670c76d8148
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104372942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118698270"
 ---
 # <a name="wmstreamtypeinfo"></a>WM/StreamTypeInfo
 
@@ -46,9 +46,9 @@ g \_ wszWMStreamTypeInfo
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

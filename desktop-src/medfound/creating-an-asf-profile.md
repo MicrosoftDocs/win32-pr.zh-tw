@@ -4,12 +4,12 @@ ms.assetid: 9633bc88-12bd-404a-b779-878eb1ee5699
 title: 建立 ASF 設定檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08ed9553811645b8589de7fb1805f1a307c4bdef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a0225a6ff17f68c5443fce15f9bdc196901313ccaaebdde2f7f34c49860538
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743245"
 ---
 # <a name="creating-an-asf-profile"></a>建立 ASF 設定檔
 

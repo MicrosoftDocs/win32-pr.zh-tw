@@ -4,12 +4,12 @@ description: 為了充分掌控系結程式，用戶端/伺服器應用程式可
 ms.assetid: e711ce37-92f0-4e60-a126-148c27662c26
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b391c339ac3747928e3394152e9c0de7c1c7aa0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 59a6e723d8559dc5e72783412eb6250f69431f31d08a92c4984fb2e2a19b761d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118930017"
 ---
 # <a name="explicit-binding-handles"></a>明確的系結控制碼
 
@@ -35,9 +35,9 @@ interface hello
 
 您可以在單一介面中結合明確和隱含控制碼。 如果函式在其參數清單中有明確的控制碼，則會使用該控制碼。 如果使用隱含控制碼之介面中的函式未指定明確的控制碼，則會使用預設的隱含控制碼。
 
- 
+ 
 
- 
+ 
 
 
 

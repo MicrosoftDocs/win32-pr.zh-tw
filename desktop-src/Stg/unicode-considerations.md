@@ -4,12 +4,12 @@ description: IPaper Save 方法中使用的 WriteFmtUserTypeStg 服務函數需�
 ms.assetid: 34a1d30e-4401-474e-999e-832b963064bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a7bef75ec88318f4a2af8c5c7b693f0fc7c877f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a06f8fa9592d3f29ccf82d42f38a48b2dc57d36bccf79b22b8fe159bad337cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886736"
 ---
 # <a name="unicode-considerations"></a>Unicode 考慮
 
@@ -72,9 +72,9 @@ STDAPI A_WriteFmtUserTypeStg(
   }
 ```
 
- 
+ 
 
- 
+ 
 
 
 

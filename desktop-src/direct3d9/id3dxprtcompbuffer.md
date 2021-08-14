@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 323ed6f2bbe9ce4caf495a00330c1b1e0e83e158
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a84f1bc7b25af0c900f5587ba0d1dd948cac39bc52f706ff389c0ca9d053ec0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106985726"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119985608"
 ---
 # <a name="id3dxprtcompbuffer-interface"></a>ID3DXPRTCompBuffer 介面
 

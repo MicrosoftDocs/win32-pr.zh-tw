@@ -4,12 +4,12 @@ ms.assetid: 15e4368b-4199-415a-9c2c-2c1351b717e6
 title: 憑證存放區功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d00ab4b7245f999e1131f41172b3c77af8b9c2aa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53a90a6fd2146517d4d70f653da42961274301a3058f8dbad9e72b8b90228bc1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902172"
 ---
 # <a name="certificate-store-functions"></a>憑證存放區功能
 

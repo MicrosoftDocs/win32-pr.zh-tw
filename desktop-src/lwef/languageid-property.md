@@ -4,16 +4,16 @@ description: LanguageID 屬性
 ms.assetid: f57b0fa1-b3b8-49c8-b441-2a40e564d6ea
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a7a10e6b16f9e35b223bada728871d253685538
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13af9f7a508732444be83fd56cce2fad6c7d7a5c148e196e2c466db102d2e6e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748696"
 ---
 # <a name="languageid-property"></a>LanguageID 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104301876"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*agent. * * * 字元* * **( "***CharacterID***" ) 。LanguageID** \[  =  *LanguageID*\]
+*agent. * * * 字元* * **( "**_CharacterID_*_" ) 。LanguageID_* \[  =  *LanguageID*\]
 
 
 
@@ -39,7 +39,7 @@ LanguageID
 
 指定字元語言識別項的長整數。 字元的語言識別項 (LANGID) 是由 Windows 定義的16位值，其中包含主要語言識別項和次要語言識別項。 下列範例是 Microsoft Agent 支援之語言的值。 若要判斷其他語言的值，請參閱 *PLATFORM SDK 檔*。
 
- 
+ 
 
 阿拉伯文
 
@@ -49,7 +49,7 @@ LanguageID
 
 &H0410
 
- 
+ 
 
 巴斯克文
 
@@ -59,7 +59,7 @@ LanguageID
 
 &H0411
 
- 
+ 
 
 簡體中文
 
@@ -69,7 +69,7 @@ LanguageID
 
 &H0412
 
- 
+ 
 
 繁體中文
 
@@ -79,7 +79,7 @@ LanguageID
 
 &H0414
 
- 
+ 
 
 克羅埃西亞文
 
@@ -89,7 +89,7 @@ LanguageID
 
 &H0415
 
- 
+ 
 
 捷克文
 
@@ -99,7 +99,7 @@ LanguageID
 
 &H0816
 
- 
+ 
 
 丹麥文
 
@@ -109,7 +109,7 @@ LanguageID
 
 &H0416
 
- 
+ 
 
 荷蘭文
 
@@ -119,7 +119,7 @@ LanguageID
 
 &H0418
 
- 
+ 
 
 英文 (英國)
 
@@ -129,7 +129,7 @@ LanguageID
 
 &H0419
 
- 
+ 
 
 英文 (美國)
 
@@ -139,7 +139,7 @@ LanguageID
 
 &H041B
 
- 
+ 
 
 芬蘭文
 
@@ -149,7 +149,7 @@ LanguageID
 
 &H0424
 
- 
+ 
 
 法文
 
@@ -159,7 +159,7 @@ LanguageID
 
 &H0C0A
 
- 
+ 
 
 德文
 
@@ -169,7 +169,7 @@ LanguageID
 
 &H041D
 
- 
+ 
 
 希臘文
 
@@ -179,7 +179,7 @@ LanguageID
 
 &H041E
 
- 
+ 
 
 Hebrew
 
@@ -189,19 +189,19 @@ Hebrew
 
 &H041F
 
- 
+ 
 
 匈牙利文
 
 &H040E
 
- 
+ 
 
- 
+ 
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -220,16 +220,16 @@ Hebrew
 > [!Note]  
 > 如果您將 **LanguageID** 設定為支援雙向文字 (例如阿拉伯文或希伯來文) 的語言，但是執行應用程式的系統沒有安裝雙向支援，則會以邏輯而非顯示順序來顯示文字。
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
 [**SRModeID 屬性**](srmodeid-property.md)， [ **TTSModeID 屬性**](ttsmodeid-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

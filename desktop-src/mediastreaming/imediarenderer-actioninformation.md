@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 346e43d6aaf3503c21f6a7586db5a731f0a7c478
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3caf251c080f218b99861d4a81920cd5c95c1f0e53bc6b006c84536f33f7f29c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735521"
 ---
 # <a name="imediarendereractioninformation-method"></a>IMediaRenderer：： Actioninformation .action 方法
 

@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1308fb1bc0818601a037e66b764e607c0a32532
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: b5bfc5acfd6239df6369829b5ec848c41c9bcc3b212d44a9e9267aa16db42022
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106970658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118684155"
 ---
 # <a name="ms-ds-never-reveal-group-attribute"></a>ms-DS-不顯示群組屬性
 

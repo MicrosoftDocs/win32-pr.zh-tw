@@ -3,12 +3,12 @@ title: 改善 Single-Finger 的移動體驗
 description: 如果您建立以 Windows Touch 為目標的應用程式，它會自動提供基本的移動流覽支援。 不過，您可以使用 WM \_ 手勢訊息來為單一手指移動提供增強的支援。
 ms.assetid: eb01a6df-9969-44d1-a657-4f83fb0b67cb
 keywords:
-- Windows Touch 的單指移動
-- Windows Touch，移動流覽
-- Windows Touch、捲軸
-- Windows Touch，筆觸
-- Windows Touch，軌跡平移訊息
-- Windows Touch，界限意見反應
+- Windows觸控、單鍵移動
+- Windows觸控、移動
+- Windows觸控、捲軸
+- Windows觸控、筆觸
+- Windows觸控、手勢平移訊息
+- Windows觸控、界限意見反應
 - 單一手指移動
 - 單向移動
 - 移動流覽、界限意見反應
@@ -21,12 +21,12 @@ keywords:
 - 界限意見反應，單一手指移動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9081903600918485f1e3241a02c01b5438c1aae
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf740d673e8bd2d2711238902d3de6c89d21a01fe330524b910db050011872f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435441"
 ---
 # <a name="improving-the-single-finger-panning-experience"></a>改善 Single-Finger 的移動體驗
 
@@ -224,7 +224,7 @@ static long yOverpan   = 0;
 
 <dl> <dt>
 
-[Windows Touch 手勢](guide-multi-touch-gestures.md)
+[Windows觸控手勢](guide-multi-touch-gestures.md)
 </dt> <dt>
 
 [**BeginPanningFeedback**](/windows/win32/api/uxtheme/nf-uxtheme-beginpanningfeedback)
@@ -236,6 +236,6 @@ static long yOverpan   = 0;
 [**UpdatePanningFeedback**](/windows/win32/api/uxtheme/nf-uxtheme-updatepanningfeedback)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

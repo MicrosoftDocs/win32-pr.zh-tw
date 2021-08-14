@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b378cd97bc9779951d62873d393009c98d32823
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0102716529471b3e867e17b0e9b635274cdfc28ec603f239d66c76ffb0fdaa19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119983208"
 ---
 # <a name="register"></a>註冊
 
@@ -26,12 +26,12 @@ ms.locfileid: "104375376"
 
 
 
-| ：註冊 ( *\[ 著色 \_ 器 \] 設定檔*， *輸入 \# \[ 子元件 \]* )  |
+| ：註冊 ( *\[ 著色 \_ 器 \] 設定檔*，*輸入 \# \[ 子元件 \]* )  |
 |----------------------------------------------------------------|
 
 
 
- 
+ 
 
 ## <a name="parameters"></a>參數
 
@@ -70,7 +70,7 @@ ms.locfileid: "104375376"
 
     
 
-     
+     
 
 -   *\#* 這是暫存器編號，也就是整數。
 -   *子元件* 是選擇性的整數數位。
@@ -120,6 +120,6 @@ sampler myVar : register( ps, s[2] )
 [ (DirectX HLSL) 的變數 ](dx-graphics-hlsl-variables.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

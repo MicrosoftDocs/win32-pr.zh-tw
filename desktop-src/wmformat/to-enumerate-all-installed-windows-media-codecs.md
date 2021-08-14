@@ -1,22 +1,22 @@
 ---
-title: 列舉所有已安裝的 Windows Media 編解碼器
-description: 列舉所有已安裝的 Windows Media 編解碼器
+title: 列舉所有安裝的 Windows 媒體編解碼器
+description: 列舉所有安裝的 Windows 媒體編解碼器
 ms.assetid: 651c8624-0b66-4d0e-a25f-6c4b1a94e849
 keywords:
-- 串流，列舉已安裝的 Windows Media 編解碼器
+- 串流，列舉已安裝的 Windows 媒體編解碼器
 - 編解碼器，列舉
 - 資料流程，編解碼器索引
 - 編解碼器，索引
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6db9a35913dde13f563ee57d54ee5e7de87d82cc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b63f58f94cf36e18fcbaa31bb9cff0dd8b5ab4717cc88e6f05657c7a2c72b429
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106996558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699810"
 ---
-# <a name="to-enumerate-all-installed-windows-media-codecs"></a>列舉所有已安裝的 Windows Media 編解碼器
+# <a name="to-enumerate-all-installed-windows-media-codecs"></a>列舉所有安裝的 Windows 媒體編解碼器
 
 編解碼器資訊介面都會使用編解碼器索引來識別個別的編解碼器。 編解碼器是針對音訊和影片獨立編制索引。 在一種類型的編解碼器中，索引的範圍是從0到小於該型別的編解碼器數目。
 
@@ -151,9 +151,9 @@ HRESULT GetCodecNames(IWMCodecInfo3* pCodecInfo)
 [**從編解碼器取得串流設定資訊**](getting-stream-configuration-information-from-codecs.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

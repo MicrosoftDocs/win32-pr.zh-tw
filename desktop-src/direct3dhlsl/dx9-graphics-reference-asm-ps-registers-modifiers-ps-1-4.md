@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: af2097ee682aec7da0ca36df9e4b465fb360f814
-ms.sourcegitcommit: b95a94ffffda33f9ebbdd41787c01866444b4cf4
+ms.openlocfilehash: 63a0cfd212767a0219af83d734d3562edacc84901098afcf77c786d8895f32d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "104092483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512874"
 ---
 # <a name="ps_1_4-source-register-modifiers-for-texld-texcrd"></a>\_ \_ 適用于 texld、texcrd 的 ps 1 4 來源登錄修飾詞
 
@@ -35,7 +35,7 @@ ms.locfileid: "104092483"
 
 
 
- 
+ 
 
 ### <a name="remarks"></a>備註
 
@@ -70,9 +70,9 @@ w' is undefined
 [圖元著色器來源登錄修飾詞](dx9-graphics-reference-asm-ps-registers-modifiers-source.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

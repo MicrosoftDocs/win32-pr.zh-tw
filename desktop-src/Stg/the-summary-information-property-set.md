@@ -4,16 +4,16 @@ description: COM 會定義標準的通用屬性集，以儲存檔的摘要資訊
 ms.assetid: ceed6d66-7327-4781-a5dc-9058e671138a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb318daba7e0ad03ff176853877fe416ddeda799
-ms.sourcegitcommit: fc240ac77d4c40a9f3a27714d7b852abbd234774
+ms.openlocfilehash: a54f942d0c7f6c7d1ebc37feda80d55420ea6c8aaf896f4df15df2a5b7e7c0ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/12/2019
-ms.locfileid: "104372716"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886824"
 ---
 # <a name="the-summary-information-property-set"></a>摘要資訊屬性集
 
-COM 會定義標準的通用屬性集，以儲存檔的摘要資訊。 摘要資訊屬性集必須儲存在資料流程物件中。 亦即，這個屬性集必須儲存為簡單的屬性集。 如需詳細資訊，請參閱 [屬性集的儲存和資料流程物件](storage-vs--stream-for-a-property-set.md)。
+COM 會定義標準的通用屬性集，以儲存檔的摘要資訊。 摘要資訊屬性集必須儲存在資料流程物件中。 亦即，這個屬性集必須儲存為簡單的屬性集。 如需詳細資訊，請參閱[儲存體和資料流程物件的屬性集](storage-vs--stream-for-a-property-set.md)。
 
 例如，若要建立 ANSI 簡單屬性集，您可以呼叫 [**IPropertySetStorage：： create**](/windows/desktop/api/Propidl/nf-propidl-ipropertysetstorage-create) 來建立屬性集，指定 **PROPSETFLAG \_ ANSI** (simple 是屬性集) 的預設型別，然後使用 [**IPropertyStorage：： WriteMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-writemultiple)的呼叫來寫入它。 若要讀取屬性集，您可以呼叫 [**IPropertyStorage：： ReadMultiple**](/windows/desktop/api/Propidl/nf-propidl-ipropertystorage-readmultiple)。
 
@@ -25,10 +25,10 @@ COM 會定義標準的通用屬性集，以儲存檔的摘要資訊。 摘要資
 
 下表列出摘要資訊屬性集的字串屬性名稱，以及各自的屬性識別碼和變數類型 (VT) 指標。 這些名稱通常不會儲存在屬性集中，而是從屬性識別碼值推斷而來。 此處所示的屬性識別碼字串專案對應至標頭檔中找到的定義。
 
-| Name | 屬性識別碼字串 | 屬性識別碼 | VT 類型 |
+| 名稱 | 屬性識別碼字串 | 屬性識別碼 | VT 類型 |
 |------|--------------------|-------------|---------|
-| 標題 | PIDSI \_ 標題 | 0x00000002 | VT \_ LPSTR  |
-| 主體 | PIDSI \_ 主旨 | 0x00000003 | VT \_ LPSTR |
+| Title | PIDSI \_ 標題 | 0x00000002 | VT \_ LPSTR  |
+| 主旨 | PIDSI \_ 主旨 | 0x00000003 | VT \_ LPSTR |
 | 作者 | PIDSI \_ 作者 | 0x00000004 | VT \_ LPSTR |
 | 關鍵字 | PIDSI \_ 關鍵字 | 0x00000005 | VT \_ LPSTR |
 | 註解 | PIDSI \_ 批註 | 0x00000006 | VT \_ LPSTR |
@@ -56,9 +56,9 @@ COM 會定義標準的通用屬性集，以儲存檔的摘要資訊。 摘要資
 [執行摘要資訊屬性集](implementing-the-summary-information-property-set.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

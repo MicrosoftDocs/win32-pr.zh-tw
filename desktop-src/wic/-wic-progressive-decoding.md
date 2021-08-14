@@ -4,12 +4,12 @@ ms.assetid: d22c2c59-0fa1-4452-93f1-dbf151033714
 title: 漸進式解碼總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 568b9708802b082a880f358b969d9dd4beb1e481
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a409a337ecd3852a50cb5ca1a410ebd32c7f3226c79aacca20b10733e214fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710037"
 ---
 # <a name="progressive-decoding-overview"></a>漸進式解碼總覽
 
@@ -32,7 +32,7 @@ ms.locfileid: "111443669"
 
 漸進式解碼能讓您在整個影像下載完成之前，以累加方式解碼和轉譯部分影像。 這項功能可大幅改善使用者在從網際網路觀看影像時的體驗，因為使用者不需要等待整個映射下載，就可以開始進行解碼。 在下載整個影像之前，使用者可以看到有可用資料的影像預覽。 這項功能對於任何用來從網際網路或受限頻寬的資料來源來查看影像的應用程式而言是不可或缺的。
 
-Windows 7 中的 Windows 影像處理元件 (WIC) 支援像是 JPEG、PNG 和 GIF 等常用影像格式的漸進式解碼。 WIC 也支援任何已啟用 WIC 的非 Microsoft 編解碼器，可執行漸進式解碼。 目前的 WIC 版本不支援漸進式編碼。 本主題概要說明 Windows 7 中的漸進解碼，以及在您的應用程式中啟用漸進式解碼的程式。
+Windows 7 中的 Windows 影像處理元件 (WIC) 支援 JPEG、PNG 和 GIF 等常用影像格式的漸進式解碼。 WIC 也支援任何已啟用 WIC 的非 Microsoft 編解碼器，可執行漸進式解碼。 目前的 WIC 版本不支援漸進式編碼。 本主題概述 Windows 7 中的漸進式解碼，以及在您的應用程式中啟用漸進式解碼的程式。
 
 ## <a name="what-is-progressive-decoding"></a>什麼是漸進式解碼？
 
@@ -46,9 +46,9 @@ Windows 7 中的 Windows 影像處理元件 (WIC) 支援像是 JPEG、PNG 和 GI
 
 ## <a name="progressive-decoding-support-in-windows-7"></a>Windows 7 中的漸進解碼支援
 
-Windows 7 提供內建的編解碼器，可支援 JPEG、PNG 和 GIF 影像格式的漸進式解碼。 上述每個 Windows 7 編解碼器都會在映射上執行多個解碼傳遞。 每個傳遞都會對應至特定層級和已解碼的影像部分，最後會到達完整解碼的影像。
+Windows 7 提供內建的編解碼器，可支援 JPEG、PNG 和 GIF 影像格式的漸進式解碼。 這兩個 Windows 7 編解碼器會在影像上執行多個解碼傳遞。 每個傳遞都會對應至特定層級和已解碼的影像部分，最後會到達完整解碼的影像。
 
-每個影像格式都會以不同的方式處理漸進解碼。 下表提供有關漸進層級數目的資訊，以及 Windows 7 漸進解碼格式所支援的解碼方法的相關資訊。 
+每個影像格式都會以不同的方式處理漸進解碼。 下表提供漸進層級數目的相關資訊，以及 Windows 7 漸進式解碼格式所支援的解碼方法。 
 
 | 映像格式 | 支援的漸進層級數目 | 漸進式解碼方法 |
 |--------------|----------------------------------------|-----------------------------|
@@ -97,9 +97,9 @@ PNG 影像檔提供七個漸進式層級進行解碼，如 PNG 規格中所述�
 
  
 
-從上表中，您可以判斷每次傳遞的解碼器都會解碼的圖元。 與 Windows 7 GIF 編解碼器不同的是，Windows 7 PNG 編解碼器會將掃描行上最左邊的可用圖元複製到空的圖元。
+從上表中，您可以判斷每次傳遞的解碼器都會解碼的圖元。 不同于 Windows 7 GIF 編解碼器，Windows 7 PNG 編解碼器會將掃描行上最左邊的可用圖元複製到空的圖元。
 
-下列影像顯示三個漸進式層級的 Windows 7 PNG 漸進解碼編解碼器範例。
+下列影像顯示三個漸進式層級的 Windows 7 PNG 漸進式解碼編解碼器範例。
 
 ![png 漸進式解碼範例](graphics/PNG_Progressive_Comparison.jpg)
 
@@ -176,7 +176,7 @@ if (pProgressive)
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 **其他資源**

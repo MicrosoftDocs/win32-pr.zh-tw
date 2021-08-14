@@ -1,23 +1,23 @@
 ---
-description: Windows SDK 包含實用的程式碼範例和工具，可協助您瞭解及使用 Windows 感應器和位置平台，以及相關的 Api。
+description: Windows SDK 包含實用的程式碼範例和工具，可協助您瞭解和使用 Windows 感應器和位置平台和相關的 api。
 ms.assetid: e31174f6-1c2b-4d97-b6b6-e54825ff47f5
 title: 關於範例和工具
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6126ec5e07829cfd17c2b07313bb104140c6fee6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b5eecd388323ae8a548fcfefbc116224125b4b137f85231c56ea66235b3233fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851503"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890315"
 ---
 # <a name="about-the-samples-and-tools"></a>關於範例和工具
 
-Windows SDK 包含實用的程式碼範例和工具，可協助您瞭解及使用 Windows 感應器和位置平台，以及相關的 Api。
+Windows SDK 包含實用的程式碼範例和工具，可協助您瞭解和使用 Windows 感應器和位置平台和相關的 api。
 
 ## <a name="samples"></a>範例
 
-Windows SDK 包含下列感應器 API 範例。 您可以在名為 samples winui 感應器的資料夾中 \\ \\ ，找到 \\ 您安裝 WINDOWS SDK 的感應器 API 範例。 例如，如果您將 Windows SDK 安裝在 C 磁片磁碟機上，您會在下列資料夾中找到範例： C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ winui \\ 感應器。
+Windows SDK 包含下列感應器 API 範例。 您可以在名為 samples winui 感應器的資料夾中 \\ \\ ，找到 \\ 您安裝 Windows SDK 的感應器 API 範例。 例如，如果您將 Windows SDK 安裝在 c 磁片磁碟機上，您會在下列資料夾中找到範例： C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ winui \\ 感應器。
 
 
 
@@ -37,7 +37,7 @@ Windows SDK 包含下列感應器 API 範例。 您可以在名為 samples winui
 
 Windows SDK 包含虛擬光線感應器，可用來模擬硬體型光線感應器裝置。 您可以使用此工具，將資料提供給 AmbientLightAware 範例，以查看範例中的程式碼如何運作。
 
-下表說明您必須用來執行虛擬光線感應器的檔案。 您可以在已安裝 Windows SDK 的名稱為 Bin 的資料夾中找到這些檔案。 例如，如果您在32位電腦上將 Windows SDK 安裝在 C 磁片磁碟機上，您會在下列資料夾中找到虛擬光線感應器檔案： C： \\ Program files \\ Microsoft sdk \\ Windows \\ v 7.0 \\ Bin。 在64位的電腦上，您必須使用64位版本的工具。 在 Windows SDK 中，64位工具位於名為 x64 的子資料夾中。
+下表說明您必須用來執行虛擬光線感應器的檔案。 您可以在已安裝 Windows SDK 的名稱為 Bin 的資料夾中找到這些檔案。 例如，如果您將 Windows SDK 安裝在32位電腦的 c 磁片磁碟機上，您會在下列資料夾中找到虛擬光線感應器檔案： C： \\ Program files \\ Microsoft sdk Windows v2.0 \\ \\ \\ Bin。 在64位的電腦上，您必須使用64位版本的工具。 在 Windows SDK 中，64位工具位於名為 x64 的子資料夾中。
 
 
 
@@ -63,7 +63,7 @@ Windows SDK 包含虛擬光線感應器，可用來模擬硬體型光線感應�
 
 ### <a name="running-the-virtual-light-sensor"></a>正在執行虛擬光線感應器
 
-若要執行虛擬光線感應器，只要按兩下 .exe 檔案。 當系統提示時，請務必啟用感應器。
+若要執行虛擬光線感應器，只要按兩下 .exe 的檔案即可。 當系統提示時，請務必啟用感應器。
 
 當您執行程式時，可能會注意到感應器變成可用之前會有延遲。 虛擬光線感應器使用者介面會在標題列中顯示「等待中」的訊息，而邏輯感應器管理員會為邏輯感應器建立裝置節點。 等候的訊息消失之後，您可以使用滑杆來設定虛擬光線感應器的 lux 輸出等級。
 

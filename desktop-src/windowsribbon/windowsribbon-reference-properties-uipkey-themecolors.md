@@ -4,12 +4,12 @@ description: 識別 UI \_ PKEY \_ ThemeColors 屬性。
 ms.assetid: d539cbaa-45dc-4f9e-830e-e81fb289b4ac
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f5991ce5058de5a6f49ca8929de02e19657a610
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ab5c4582561e3c86ba19b2821cf600d0a1da614cfc9fc7144b935665c8af7f14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118437793"
 ---
 # <a name="ui_pkey_themecolors"></a>UI \_ PKEY \_ ThemeColors
 
@@ -17,12 +17,12 @@ ms.locfileid: "104315358"
 
 ```
 propertyDescription
-   name = UI_PKEY_ThemeColors
-   shellPKey = UI_PKEY_ThemeColors
-   formatID = 00000409-7363-696e-8441798acf5aebb7
-   propID = 409
-   typeInfo
-      type = VT_VECTOR | VT_UI4
+   name = UI_PKEY_ThemeColors
+   shellPKey = UI_PKEY_ThemeColors
+   formatID = 00000409-7363-696e-8441798acf5aebb7
+   propID = 409
+   typeInfo
+      type = VT_VECTOR | VT_UI4
 ```
 
 ## <a name="remarks"></a>備註
@@ -40,6 +40,6 @@ propertyDescription
 [色彩選擇器屬性](windowsribbon-reference-properties-colorpicker.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

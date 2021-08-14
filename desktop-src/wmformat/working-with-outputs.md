@@ -3,7 +3,7 @@ title: 使用輸出
 description: 使用輸出
 ms.assetid: e2e14e88-dddc-496d-8087-1455da0821e3
 keywords:
-- Windows Media Format SDK，使用輸出
+- Windows媒體格式 SDK，使用輸出
 - Advanced Systems Format (ASF) ，使用輸出
 - ASF (Advanced Systems Format) ，使用輸出
 - Advanced Systems Format (ASF) 、output 數位和格式
@@ -11,12 +11,12 @@ keywords:
 - 輸出數位和格式，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d089a645838a295e07eb740927d75238473cc4f
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 274e5b4980ef14126006d3f19fe0717aa9eb6fd5c1a8f7baaf91e35084faeacb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681398"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118697722"
 ---
 # <a name="working-with-outputs"></a>使用輸出
 
@@ -44,9 +44,9 @@ ms.locfileid: "103681398"
 [**讀取 ASF 檔案**](reading-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

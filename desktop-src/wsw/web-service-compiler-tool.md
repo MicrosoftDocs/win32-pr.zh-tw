@@ -3,17 +3,17 @@ title: Web 服務編譯器工具
 description: 為了支援服務模型，wsutil.exe 會產生要用於用戶端和服務端的標頭。 它會視需要產生用戶端的 C proxy 檔案，以及服務端的 C 存根檔案。
 ms.assetid: 1c73297d-0d3d-421c-9e19-44a6012a5c65
 keywords:
-- 適用于 Windows 的 web 服務編譯器工具 Web 服務
+- Windows 的 web 服務編譯器工具 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9931f228a36832fc83d84d584a151de41f5868d
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: e92e1195cd9d3a8e8d9fa1b7be94421d68f3cbdf2242be6fa0d05be5cc3c743f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962837"
 ---
 # <a name="web-service-compiler-tool"></a>Web 服務編譯器工具
 

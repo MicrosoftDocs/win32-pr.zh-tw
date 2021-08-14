@@ -4,12 +4,12 @@ ms.assetid: a5d166f1-341b-496e-b63f-ecfae89032ff
 title: 解碼數位影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c1a5e83712d2163ce77f9f3b74ec3afedc46f85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7a48614218d1d32c4fe2795d3115e01aa7859d8938270eaa0c11dd3d3b481e87
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711323"
 ---
 # <a name="decoding-digital-images"></a>解碼數位影像
 

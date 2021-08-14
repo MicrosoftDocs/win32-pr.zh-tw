@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 73853250c581e460360f5490defc0c94e76e5be3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb2efe504e2d09b3fae2b6d6293772bf67a3f038a5f9c43330707f541e2ba8f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900964"
 ---
 # <a name="receiving-the-returned-certificate"></a>接收傳回的憑證
 
@@ -22,7 +22,7 @@ ms.locfileid: "106979352"
 
 接收應用程式會將訊息傳遞給憑證註冊控制項。 憑證註冊控制項接著會開啟訊息並將憑證解壓縮。 系統會以對話方塊提示使用者，詢問使用者是否會接受「根」存放區中的自我簽署憑證。 如果使用者接受根憑證，則憑證的其餘部分 (除了要求者的憑證) ，都會放在「CA」存放區中。 要求者的憑證會放在 [**MyStoreName**](/windows/win32/api/xenroll/nf-xenroll-icenroll-get_mystorename) 屬性中要求者所指定的憑證存放區中。
 
-下列範例示範如何在網頁中使用 Visual Basic Scripting Edition (VBScript) 和 HTML 來接收和儲存傳回的憑證。
+下列範例示範如何使用 Visual Basic 腳本 Edition (VBScript) 和網頁中的 HTML 來接收和儲存傳回的憑證。
 
 
 ```VB

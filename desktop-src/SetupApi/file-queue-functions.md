@@ -4,12 +4,12 @@ ms.assetid: f05e2abf-983f-4418-bf92-f5ca6502196e
 title: 檔案佇列函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9acaf1fb1fbd2dc4f020577a1ae68d6ec9b2e95c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a70087bfcc00f2c3d86c93cc62081adc9aa50705d248d79a524435c95f480562
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887077"
 ---
 # <a name="file-queue-functions"></a>檔案佇列函式
 

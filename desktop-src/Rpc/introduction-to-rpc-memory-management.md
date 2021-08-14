@@ -4,12 +4,12 @@ description: " (RPC) 記憶體管理的遠端程序呼叫簡介。"
 ms.assetid: 3474d79c-93ef-4221-b9ea-9173978e2929
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ac4b6aecb2fd78448ebe31c72587fafb8f6fde
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0a169f87bbd8a9747dd7a4983a26f1122cf575e95434ed0dd3be346bae12b9a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928926"
 ---
 # <a name="introduction-to-rpc-memory-management"></a>RPC 記憶體管理簡介
 
@@ -27,6 +27,6 @@ ms.locfileid: "104316063"
 
 在上圖所示的二進位樹狀結構中，將根節點的指標傳遞至遠端程式並不足夠。 程式或存根必須將整個樹狀結構傳遞到伺服器的位址空間，才能讓遠端程式進行操作。
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102124
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f0f253db6134c9090c7c2acd76e958f5fa6fe03d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d67e28d3a88f33e48a8b78fef3f0b55b9fc875037bb46c117b1870b89836ac2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118777200"
 ---
 # <a name="esentkeytoobigexception-properties"></a>EsentKeyTooBigException 屬性
 

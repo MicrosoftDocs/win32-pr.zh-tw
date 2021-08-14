@@ -4,29 +4,29 @@ ms.assetid: 35dff281-3b11-4954-85cf-a0f1c9ed346a
 title: 關於多重文件介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0397127d7ec343ebdb7696c2dd7d57204a5d5ae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 071d3bebad8e6aba48b69b66fd41f9f7933c1d9785ae38512003aaf1bd9a19e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118705996"
 ---
 # <a name="about-the-multiple-document-interface"></a>關於多重文件介面
 
 多重文件介面中的每份檔 (MDI) 應用程式會顯示在應用程式主視窗工作區的個別子視窗中。 一般的 MDI 應用程式包括文字處理應用程式，可讓使用者使用多個文字檔，以及允許使用者使用多個圖表和試算表的試算表應用程式。 如需詳細資訊，請參閱下列主題。
 
--   [框架、用戶端和子視窗](#frame-client-and-child-windows)
+-   [框架、用戶端和子 Windows](#frame-client-and-child-windows)
 -   [子視窗建立](#child-window-creation)
 -   [子視窗啟用](#child-window-activation)
 -   [多個檔功能表](#multiple-document-menus)
 -   [多個檔加速器](#multiple-document-accelerators)
 -   [子視窗大小和相片順序](#child-window-size-and-arrangement)
--   [圖示標題視窗](#icon-title-windows)
+-   [圖示標題 Windows](#icon-title-windows)
 -   [子視窗資料](#child-window-data)
     -   [視窗結構](#window-structure)
     -   [視窗屬性](#window-properties)
 
-## <a name="frame-client-and-child-windows"></a>框架、用戶端和子視窗
+## <a name="frame-client-and-child-windows"></a>框架、用戶端和子 Windows
 
 MDI 應用程式有三種視窗：框架視窗、MDI 用戶端視窗，以及許多子視窗。 *框架視窗* 就像是應用程式的主視窗：它具有調整大小框線、標題列、視窗功能表、最小化按鈕，以及最大化按鈕。 應用程式必須為框架視窗註冊視窗類別，並提供視窗程式來支援它。
 
@@ -77,7 +77,7 @@ MDI 應用程式的框架視窗應該包含具有視窗功能表的功能表列�
 
 每當建立子視窗時，系統會自動將新的功能表項目附加至 [視窗] 功能表。 功能表項目的文字與新子視窗的功能表列上的文字相同。 藉由按一下功能表項目，使用者可以啟動對應的子視窗。 當子視窗損毀時，系統會自動從 [視窗] 功能表中移除對應的功能表項目。
 
-系統最多可將十個功能表項目新增至 [視窗] 功能表。 當第十個子視窗建立時，系統會將 [ **其他視窗** ] 專案加入至 [視窗] 功能表。 按一下這個專案，就會顯示 [ **選取視窗** ] 對話方塊。 此對話方塊包含清單方塊，其中包含目前可用的所有 MDI 子視窗的標題。 使用者可以在清單方塊中按一下其標題，以啟用子視窗。
+系統最多可將十個功能表項目新增至 [視窗] 功能表。 當第十個子視窗建立時，系統會將 **更 Windows** 的專案加入至 [視窗] 功能表。 按一下這個專案，就會顯示 [ **選取視窗** ] 對話方塊。 此對話方塊包含清單方塊，其中包含目前可用的所有 MDI 子視窗的標題。 使用者可以在清單方塊中按一下其標題，以啟用子視窗。
 
 如果您的 MDI 應用程式支援數種類型的子視窗，請調整功能表列，以反映與使用中視窗相關聯的作業。 若要這樣做，請為應用程式支援的每個子視窗類型提供個別的功能表資源。 當啟用新的子視窗類型時，應用程式應該將 [**WM \_ MDISETMENU**](wm-mdisetmenu.md) 訊息傳送至用戶端視窗，並將控制碼傳遞至對應的功能表。
 
@@ -101,7 +101,7 @@ MDI 應用程式可以使用 cascade 或圖格格式來排列其子視窗。 當
 
 MDI 應用程式應該為其支援的每個子視窗類型提供不同的圖示。 應用程式會在註冊子視窗類別時，指定一個圖示。 當子視窗最小化時，系統會自動在用戶端視窗的下半部顯示子視窗的圖示。 MDI 應用程式會將 [**WM \_ MDIICONARRANGE**](wm-mdiiconarrange.md) 訊息傳送至用戶端視窗，以指示系統排列子視窗圖示。 一般情況下，應用程式會在使用者按一下 [視窗] 功能表上的 [ **排列圖示** ] 時傳送此訊息。
 
-## <a name="icon-title-windows"></a>圖示標題視窗
+## <a name="icon-title-windows"></a>圖示標題 Windows
 
 由於 MDI 子視窗可能會最小化，因此 MDI 應用程式必須避免將圖示標題視窗視為一般的 MDI 子視窗來操作。 當應用程式列舉 MDI 用戶端視窗的子視窗時，就會出現圖示標題視窗。 圖示標題視窗與其他子視窗不同，但它們是由 MDI 子視窗所擁有。
 

@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: c6ec322665b84b3ddad14b7032b8e49245377d40
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4c2a66c174538c128185b2e8d4939a76d50a4ba6d3aff4347e7a6e0af9b4f549
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956377"
 ---
 # <a name="ntgdiddgetavaildrivermemory-function"></a>NtGdiDdGetAvailDriverMemory 函式
 

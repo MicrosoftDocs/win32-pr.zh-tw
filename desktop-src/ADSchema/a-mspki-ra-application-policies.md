@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 01aab7c8da5c6267efe954cac71dc8c9c98c18f4
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: cd982f4568d8d148c64930a9a7099dc5a48da2b542e8cf08c53905ad86ee6733
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104187334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960347"
 ---
 # <a name="ms-pki-ra-application-policies-attribute"></a>ms-PKI-RA-應用程式原則屬性
 

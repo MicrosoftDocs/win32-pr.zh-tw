@@ -4,12 +4,12 @@ ms.assetid: 1ce56374-cfbf-4ee4-b942-8a7391911a38
 title: VSS 中繼資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e718d3fb0290f8610944180c079e4d615124eb8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4e69d0a40bbbce2d231573d187843c14bd83fea419a7024940d0fd618838500b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986578"
 ---
 # <a name="vss-metadata"></a>VSS 中繼資料
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: e30bae52cf5a7eba642354d002173291cb7d38b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 81e529493bfd892607748423bb1bab9016eb232aaeb3ed22287fa2c1c1917687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954800"
 ---
 # <a name="cbaserenderer-class"></a>CBaseRenderer 類別
 
@@ -82,7 +82,7 @@ ms.locfileid: "106987051"
 | [**OnDisplayChange**](cbaserenderer-ondisplaychange.md)                     | 將 [**EC \_ 顯示 \_ 變更**](ec-display-changed.md) 事件張貼至篩選圖形管理員。                                          |
 | [**PrepareReceive**](cbaserenderer-preparereceive.md)                       | 準備轉譯範例。 虛擬。                                                                                                   |
 | [**收到**](cbaserenderer-receive.md)                                     | 接收資料流程中的下一個媒體範例。 虛擬。                                                                                  |
-| [**轉譯**](cbaserenderer-render.md)                                       | 呈現範例。 虛擬。                                                                                                              |
+| [**呈現**](cbaserenderer-render.md)                                       | 呈現範例。 虛擬。                                                                                                              |
 | [**ScheduleSample**](cbaserenderer-schedulesample.md)                       | 排定轉譯的範例。 虛擬。                                                                                              |
 | [**SendNotifyWindow**](cbaserenderer-sendnotifywindow.md)                   | 通知影片視窗控制碼的上游篩選。                                                                                |
 | [**SendRepaint**](cbaserenderer-sendrepaint.md)                             | 將重新繪製事件傳送至篩選圖形管理員。                                                                                      |

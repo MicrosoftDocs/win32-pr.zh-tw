@@ -4,12 +4,12 @@ ms.assetid: 676a60ca-393e-4b5d-89d3-50cf4b771492
 title: OPM 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b62bc7cbc13b987a2cfdda5d210cddd2fd05b8fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b35d72c5a5301dbc07b990aa4076f14fc221a1fde6af9c81e1f4a37fb424e24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118737645"
 ---
 # <a name="opm-structures"></a>OPM 結構
 

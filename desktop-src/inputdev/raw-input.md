@@ -3,19 +3,19 @@ title: 原始輸入
 description: 本節說明系統如何提供原始輸入給您的應用程式，以及應用程式如何接收和處理該輸入。
 ms.assetid: vs|winui|~\winui\windowsuserinterface\userinput\rawinput.htm
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面，原始輸入
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，原始輸入
 - 使用者輸入，原始輸入
 - 捕獲使用者輸入，原始輸入
 - 原始輸入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e88de70dd2b635cf7dda90f23686b9916c99be4f
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e1e26d67f2b014ce22c2d01cb4738cca4e041c59e417a216f0d75ffef6e6e4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482754"
 ---
 # <a name="raw-input"></a>原始輸入
 

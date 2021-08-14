@@ -4,12 +4,12 @@ ms.assetid: fef9bab0-cd69-4812-869a-b43a10772d86
 title: 條件變數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 711fad7d80c1c5e06fc6e496198cd298b190daba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ed05d7ee98b4f5c5a65e633f7d1647b6c624840f9740efb639959c1500bec591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886358"
 ---
 # <a name="condition-variables"></a>條件變數
 
@@ -19,13 +19,13 @@ ms.locfileid: "106980408"
 
 請注意，呼叫端必須配置 **條件 \_ 變數** 結構，並將它初始化，方法是呼叫 [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) (，以動態方式初始化結構) 或將常數 **條件 \_ 變數 \_ INIT** 指派給結構變數 (以靜態方式) 初始化結構。
 
-**Windows Server 2003 和 WINDOWS XP：** 不支援條件變數。
+**Windows Server 2003 和 Windows XP：** 不支援條件變數。
 
 以下是條件變數函數。
 
 
 
-| Condition 變數函式                                        | Description                                                                                                    |
+| Condition 變數函式                                        | 描述                                                                                                    |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) | 初始化條件變數。                                                                              |
 | [**SleepConditionVariableCS**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs)       | 在指定的條件變數上進入睡眠狀態，並以不可部分完成的作業形式釋放指定的重要區段。 |

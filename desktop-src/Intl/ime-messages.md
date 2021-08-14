@@ -4,12 +4,12 @@ ms.assetid: 7eac1ab7-d04b-4e1b-9e2c-fa9a778756cd
 title: 輸入法訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0f30baa01081e0aca1423f3384926938e6fdc07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2aa34228f695a18187654707668067ac34562098b48aae185a8d66d777b6f507
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949259"
 ---
 # <a name="ime-messages"></a>輸入法訊息
 

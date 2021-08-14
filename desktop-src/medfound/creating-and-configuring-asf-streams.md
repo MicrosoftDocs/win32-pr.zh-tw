@@ -4,12 +4,12 @@ ms.assetid: cc89e8bc-58ff-48e2-9668-0dcd6cfd25e1
 title: 建立和設定 ASF 資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8eabce588022dd66947f34e4dcd9db61f26448b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58c780de3fa0abb5db29e3e5e5ed049b78aca7898966e8f7e8595b504804da91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999843"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743236"
 ---
 # <a name="creating-and-configuring-asf-streams"></a>建立和設定 ASF 資料流程
 

@@ -4,12 +4,12 @@ ms.assetid: b04227d5-5bd6-434a-860c-498d787a1f0a
 title: ICE72
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d9d8e1859ffd8123cc7aa3dc801c5484d28ccb2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f931e705dbca734348f62ba4b1ca106b43bb80a52c50f0e94ecab7139c624da2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946575"
 ---
 # <a name="ice72"></a>ICE72
 

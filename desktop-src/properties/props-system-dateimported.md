@@ -4,12 +4,12 @@ ms.assetid: b859c2c9-0985-451c-be05-e17101bc2f3c
 title: System. DateImported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b33e8a4a915eca0673913b5e6ab766067d1689
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3078bd3be9784ad0f170afae0901a3db058da77894a27ba21438b32b3da82c18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118728986"
 ---
 # <a name="systemdateimported"></a>System. DateImported
 

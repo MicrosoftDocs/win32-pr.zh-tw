@@ -4,12 +4,12 @@ ms.assetid: 7170b9db-7c6b-4a1d-a920-15b5b2eab8b0
 title: 效果介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a2fe64bb4a850d0f888e16a9500928084d2540c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ceb72d68dd3a6ef05ada06651786b45d8c15106bd88d3b716beb57e44e64eafa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119986018"
 ---
 # <a name="effect-interfaces"></a>效果介面
 

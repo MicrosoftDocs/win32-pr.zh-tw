@@ -4,12 +4,12 @@ description: 瞭解 EAP-TLS 連接屬性。 請參閱 eaptlsconnectionproperties
 ms.assetid: 7d8e7771-5263-4187-bb9d-ec0d6c154b17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbda4f345c0feedf6571f9f1c58f0193a876d2d1
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 8040c8860c99fa0a144a0903bde281045657425135545491f38958c34b3af05d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103684188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785265"
 ---
 # <a name="eap-tls-connection-properties"></a>EAP-TLS 連接屬性
 
@@ -54,9 +54,9 @@ ms.locfileid: "103684188"
 [EAPHost 和舊版架構](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

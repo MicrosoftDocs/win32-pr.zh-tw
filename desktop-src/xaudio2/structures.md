@@ -4,12 +4,12 @@ description: 本節包含 Microsoft XAudio2 API 所提供之結構的相關資�
 ms.assetid: 3656aaf9-7a3a-2a5b-50f5-d279ce8a9e6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b67e0312c5ac6b753881d895dff3972564f2c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59dcbdf454f282ca696a040aa7c1a3fe84c372ca4e0607c0a60f18b59d5f5e42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962587"
 ---
 # <a name="xaudio2-structures"></a>XAudio2 結構
 

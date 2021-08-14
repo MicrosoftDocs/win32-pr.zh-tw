@@ -4,12 +4,12 @@ ms.assetid: F4F9C95D-FDD4-4862-8399-30A8C2A4A3EC
 title: '系統 (Windows 影像處理元件) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbc070464a00ec7bb125313a51762250056c2efa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92824420fdbe18a9f0b8d6520ad07883181f8700a98ff718f1a331ac05383a01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118709225"
 ---
 # <a name="system-windows-imaging-component"></a>系統 (Windows 影像處理元件) 
 

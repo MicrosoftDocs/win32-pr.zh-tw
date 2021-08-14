@@ -3,7 +3,7 @@ title: 'WIM_DATA 訊息 (Mmsystem .h) '
 description: '\_當輸入緩衝區中有波形音訊資料，而且緩衝區傳回給應用程式時，會將 WIM 資料訊息傳送至指定的波形-音訊輸入回撥函式。'
 ms.assetid: 94cc02b8-61c4-44b9-9f8e-041fe989c1a6
 keywords:
-- WIM_DATA message Windows 多媒體
+- WIM_DATA 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 28bcfdd249dda5621d4914d75d3ffc7b13e4d767
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6956dacefa507c2c92f05afdd39bc9c803c630421c81620e0320f3b06648b13b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966529"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940746"
 ---
 # <a name="wim_data-message"></a>WIM \_ 資料訊息
 
@@ -68,7 +68,7 @@ dwParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

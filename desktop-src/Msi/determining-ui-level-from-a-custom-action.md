@@ -4,12 +4,12 @@ ms.assetid: d1ddadd5-b4ec-4c7c-aee4-b2d688a57eb4
 title: 從自訂動作判斷 UI 層級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2586cd03bfda2b22e721c0ae9c3393d4bbc525a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af88753b5ea44927ac58b13bcb4742e7992e50e1499aa04964b60b632d68ec53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947565"
 ---
 # <a name="determining-ui-level-from-a-custom-action"></a>從自訂動作判斷 UI 層級
 

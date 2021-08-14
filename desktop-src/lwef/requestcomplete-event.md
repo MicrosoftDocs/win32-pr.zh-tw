@@ -4,16 +4,16 @@ description: RequestComplete 事件
 ms.assetid: 543b79d1-f09d-4061-a1a8-8c8ab496bceb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 551aecdcfbeab76ab45e6211affef794ff37d876
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bcf5202cc6aee6e8727651279fd216d5f0e5676025584c9cb66c4c6ad958da54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746555"
 ---
 # <a name="requestcomplete-event"></a>RequestComplete 事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -37,7 +37,7 @@ ms.locfileid: "104463140"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -93,13 +93,13 @@ ms.locfileid: "104463140"
 > [!Note]  
 > 在 VBScript 1.0 中，即使您未定義 [**要求**](/windows/desktop/lwef/the-request-object) 物件的參考，也會引發此事件。 這項功能已在可從下載的 VBScript 2.0 中修正 <https://microsoft.com/msdownload/vbscript/scripting.asp> 。
 
- 
+ 
 
 ### <a name="see-also"></a>另請參閱
 
 [**RequestStart 事件**](requeststart-event.md)
 
 
- 
+ 
 
- 
+ 

@@ -7,12 +7,12 @@ keywords:
 - 轉譯內容 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e12b3e0184a606faef7792b990d674054c5ddf07
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 914bbed6e2d595d23cfcf8dc38820efc18153f4433a2a48446090ec16818b671
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300635"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937361"
 ---
 # <a name="making-a-rendering-context-not-current"></a>使轉譯內容不是最新的
 
@@ -23,9 +23,9 @@ ms.locfileid: "104300635"
 wglMakeCurrent(NULL, NULL);
 ```
 
- 
+ 
 
- 
+ 
 
 
 

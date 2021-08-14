@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0824d46f488625f57e30577801e31a39a8838db1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 35e41f1dfdc24af9a2442796461e987567e794b592d7428ce9bfcd44707f5b2f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318588"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118775570"
 ---
 # <a name="esentmultivaluedcolumnmustbetaggedexception-constructor"></a>EsentMultiValuedColumnMustBeTaggedException 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 37bda1e0-5dd2-455c-9627-4e7e1b0e04d3
 title: 金鑰匯入和匯出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8be59cc5f5c4b3d1a98fa30cf4e967d5469d2f1f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a4b6c26069911d771697bf06f7464aa14ab7f099e4a0e06991d2fd992efa44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907699"
 ---
 # <a name="key-import-and-export"></a>金鑰匯入和匯出
 
@@ -21,7 +21,7 @@ ms.locfileid: "106973996"
 
 ## <a name="asymmetric-keys"></a>非對稱金鑰
 
-若要匯入非對稱式 (或 [*公開/私*](/windows/desktop/SecGloss/p-gly) 用) 金鑰組，其中一個金鑰會用來加密，另一個則用來解密某些資料，您可以使用 [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) 或 [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) 函數的其中一個。 CNG 提供者必須使用支援的 [*金鑰 BLOB*](/windows/desktop/SecGloss/k-gly) 類型，對金鑰組進行編碼。 [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) 可以用來建立編碼的金鑰 BLOB。 [CNG 結構](cng-structures.md) 描述 Microsoft 金鑰儲存提供者所支援的主要 BLOB 類型和結構。
+若要匯入非對稱式 (或 [*公開/私*](/windows/desktop/SecGloss/p-gly) 用) 金鑰組，其中一個金鑰會用來加密，另一個則用來解密某些資料，您可以使用 [**BCryptImportKeyPair**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptimportkeypair) 或 [**NCryptImportKey**](/windows/desktop/api/Ncrypt/nf-ncrypt-ncryptimportkey) 函數的其中一個。 CNG 提供者必須使用支援的 [*金鑰 BLOB*](/windows/desktop/SecGloss/k-gly) 類型，對金鑰組進行編碼。 [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) 可以用來建立編碼的金鑰 BLOB。 [CNG 結構](cng-structures.md)描述 Microsoft key 儲存體 Provider 所支援的主要 BLOB 類型和結構。
 
 若要讓 [**BCryptExportKey**](/windows/desktop/api/Bcrypt/nf-bcrypt-bcryptexportkey) 建立保存的金鑰組，輸入金鑰 BLOB 必須包含 [*私密金鑰*](/windows/desktop/SecGloss/p-gly)。 [*公開金鑰*](/windows/desktop/SecGloss/p-gly) 不會保存。
 

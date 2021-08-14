@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101739
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: d98b28c341301883a11fdeb4be0c2ca171d8b59b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea61d112e92713288da1673bb529be4439a4e39cc3958d5fe1b888668ee08c1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118496117"
 ---
 # <a name="esentinconsistentexception-members"></a>EsentInconsistentException 成員
 

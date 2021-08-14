@@ -1,6 +1,6 @@
 ---
 title: IConfigAsfWriter GetCurrentProfileGuid 方法
-description: GetCurrentProfileGuid 方法會抓取目前的 Windows Media system 設定檔 GUID。
+description: GetCurrentProfileGuid 方法會抓取目前 Windows 媒體系統設定檔 GUID。
 ms.assetid: e7a2ecc0-48d4-446c-852a-0d7677cbbe71
 keywords:
 - GetCurrentProfileGuid 方法 windows Media 格式
@@ -15,23 +15,23 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 49282ed6ea33db8052e167568e5b5fa70cda9e01
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ae1c626658509d4260f814550c053de7389b0aed45c9c583e0e059e390a24f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433637"
 ---
 # <a name="iconfigasfwritergetcurrentprofileguid-method"></a>IConfigAsfWriter：： GetCurrentProfileGuid 方法
 
-**GetCurrentProfileGuid** 方法會抓取目前的 Windows Media system 設定檔 GUID。
+**GetCurrentProfileGuid** 方法會抓取目前 Windows 媒體系統設定檔 GUID。
 
 ## <a name="syntax"></a>語法
 
 
 ```C++
 HRESULT GetCurrentProfileGuid(
-  [out] GUID *pProfileGuid
+  [out] GUID *pProfileGuid
 );
 ```
 
@@ -63,6 +63,6 @@ HRESULT GetCurrentProfileGuid(
 [**IConfigAsfWriter 介面**](/previous-versions/windows/desktop/legacy/dd743205(v=vs.85))
 </dt> </dl>
 
- 
+ 
 
- 
+ 

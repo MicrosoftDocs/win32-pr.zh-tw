@@ -4,16 +4,16 @@ ms.assetid: cc2eb506-c1fc-4125-b98c-12221b918e23
 title: 列出可更新的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c15872cce902f5a9059d4256e9e5c30ecff213f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ad76355c97d62d9c3f1282b5ebd66f54c5fef0f6f7359a41a35f2ebaee9a2fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945903"
 ---
 # <a name="listing-the-files-that-can-be-updated"></a>列出可更新的檔案
 
-[**安裝程式物件**](installer-object.md)的 [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista)函式和 [**PatchFiles**](installer-patchfiles.md)屬性會取得 Windows Installer 修補程式 ( .msp 檔) 的清單，並傳回可由修補程式更新的檔案清單。 從 Windows Installer 4.0 開始，可以使用 [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista) 函數和 [**PatchFiles**](installer-patchfiles.md) 屬性。
+[**安裝程式物件**](installer-object.md)的 [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista)函式和 [**PatchFiles**](installer-patchfiles.md)屬性會取得 Windows Installer 修補程式 ( .msp 檔) 的清單，並傳回可由修補程式更新的檔案清單。 從 Windows Installer 4.0 開始，可以使用 [**MsiGetPatchFileList**](/windows/desktop/api/Msi/nf-msi-msigetpatchfilelista)函數和 [**PatchFiles**](installer-patchfiles.md)屬性。
 
 ## <a name="listing-files-that-can-be-updated"></a>列出可更新的檔案
 

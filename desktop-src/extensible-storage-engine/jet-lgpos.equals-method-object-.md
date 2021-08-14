@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0263e0c83c5d757c1b5eef92da0fb1e9bcca927a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6471b0c436389f3a45e492f5f73271dca7c74ecc23b805ccd670416b090168aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118765414"
 ---
 # <a name="jet_lgposequals-method-object"></a>JET_LGPOS。物件)  (Equals 方法
 

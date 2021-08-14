@@ -4,12 +4,12 @@ ms.assetid: 4cd48b69-6f7b-4b13-86f3-b38969025f70
 title: 'MF_SOURCE_READER_MEDIASOURCE_CHARACTERISTICS 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: de4d1ed026f7b74f290446af74a6cf9947612617
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f5ec5461bc289517490ae11bdd507895cd1ad434c53b1665ac5c6394907f15a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739963"
 ---
 # <a name="mf_source_reader_mediasource_characteristics-attribute"></a>MF \_ 來源 \_ 讀取器 \_ MEDIASOURCE \_ 特性屬性
 
@@ -66,7 +66,7 @@ HRESULT GetSourceFlags(IMFSourceReader *pReader, ULONG *pulFlags)
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

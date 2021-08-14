@@ -5,12 +5,12 @@ ms.assetid: 6e6b85cc-83bc-4468-b1cf-3480022a8f12
 title: 'F (網路監視器) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 605eb27b95526fa2f3839c06e6f259a2afec55c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a41f27541d6c7bdae3ec8e520780348edab75b7f040db01d0f08e2b6ff745bb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118938893"
 ---
 # <a name="f-network-monitor"></a>F (網路監視器) 
 

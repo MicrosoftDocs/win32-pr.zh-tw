@@ -4,12 +4,12 @@ ms.assetid: 28d5af8c-2b05-41e7-98ed-efc25466848c
 title: AccountPictureDynamicVideo
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3c85af272828f6f6affc2c26e2a5a77cd06e1e2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a91c8990cc9745694f3d405f8a6a6662d07c44ab0023241a1121079988ba755
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118730548"
 ---
 # <a name="systemcontactaccountpicturedynamicvideo"></a>AccountPictureDynamicVideo
 
