@@ -4,16 +4,16 @@ description: 使用容器的功能
 ms.assetid: c660e529-ba1e-4f8e-a86b-7580fa1f592b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3afb03ddef96125db184d6e8774997fccf99063b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 9923db1125b432ca3ccce1187adb8b3fb300750c905aa25e4682f10ce106bcb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024180"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308832"
 ---
 # <a name="using-the-containers-functionality"></a>使用容器的功能
 
-前幾節已說明 ActiveX 控制項必須具有才能存取其容器某些功能的一些必要呼叫端支援。 下表說明控制項使用容器端介面的方式，以及何時會發生這種情況。
+前幾節說明了 ActiveX 控制項必須具有才能存取其容器某些功能的一些必要呼叫端支援。 下表說明控制項使用容器端介面的方式，以及何時會發生這種情況。
 
 
 

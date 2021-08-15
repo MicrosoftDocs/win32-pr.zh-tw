@@ -4,12 +4,12 @@ ms.assetid: 04ffc178-0a76-4870-a075-a2ecd31937a1
 title: 'simpleLocation 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d12c17ace36314ceb180f14b6de0eb7a890a385b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82731c5a230f8dd12b9d73cafd75dfc7d3cdd66bf1e57120701ed3ca0ba54b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117862459"
 ---
 # <a name="simplelocation-element-search-connector-schema"></a>simpleLocation 元素 (搜尋連接器架構) 
 

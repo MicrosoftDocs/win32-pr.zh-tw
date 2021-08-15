@@ -4,12 +4,12 @@ ms.assetid: 5ee02af1-1dc9-4d21-868f-4c439970b1ba
 title: 測試篩選處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d2a2b0b6a6728051ab22590a481ad23a7197692
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62b77fe098c2413e4f582ebfd98985dd09bf0ab9b5fc2def85fc7e954804dc1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463090"
 ---
 # <a name="testing-filter-handlers"></a>測試篩選處理常式
 
@@ -41,7 +41,7 @@ ms.locfileid: "104112448"
 [**IFilter**](/windows/win32/api/filter/nn-filter-ifilter)測試套件包含三個命令列應用程式- [ifilttst.exe](#ifilttstexe)、 [filtdump.exe](#filtdumpexe)和 [filtreg.exe](#filtregexe) ，以及 [ifilttst.ini](#ifilttstini)的初始化檔。
 
 > [!IMPORTANT]
-> 在 Windows 7 和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選。 您必須以機器碼撰寫篩選器，因為可能的 common language runtime (CLR) 在中執行多個增益集的進程的版本控制問題。
+> 在 Windows 7 和更新版本中，會明確封鎖以 managed 程式碼撰寫的篩選準則。 您必須以機器碼撰寫篩選器，因為可能的 common language runtime (CLR) 在中執行多個增益集的進程的版本控制問題。
 
 ### <a name="ifilttstexe"></a>ifilttst.exe
 
@@ -218,7 +218,7 @@ ifilttst.ini 檔會組織成區段，並以方括弧括住區段名稱。 在此
 
 ## <a name="ifilter-test-procedure"></a>IFilter 測試程式
 
-在將 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) 初始化之後，ifilttst.exe 程式會在 **ifilter** 上進行一系列的測試。 除了將 **ifilter** 測試程式進行之後，請確定您的 **IFilter** 實行採用安全的程式碼作法。 請參閱 [Windows Search 中執行篩選處理常式](-search-ifilter-constructing-filters.md)的「Windows Search 的安全程式碼實務」。
+在將 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) 初始化之後，ifilttst.exe 程式會在 **ifilter** 上進行一系列的測試。 除了將 **ifilter** 測試程式進行之後，請確定您的 **IFilter** 實行採用安全的程式碼作法。 請參閱[Windows Search 中執行篩選處理常式](-search-ifilter-constructing-filters.md)的「Windows Search 的安全程式碼實務」。
 
 ### <a name="validation-test"></a>驗證測試
 
@@ -268,7 +268,7 @@ ifilttst.exe 程式會釋出 [**IFilter**](/windows/win32/api/filter/nn-filter-i
 
 您的 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter) 最終測試可確保您的 **ifilter** 已正確註冊，而且會叫用它來為您註冊用它的專案編制索引。 您可以使用目錄管理員來起始重新建立索引，或使用編目範圍管理員 (CSM) 來設定預設規則，指出您想要讓索引子編目的 Url。 完成索引之後，請使用 Windows Search UI 來搜尋專案內容或屬性中的字串。 如果專案已編制索引，這些專案會出現在搜尋結果中。
 
-如需重新編制索引的詳細資訊，請參閱 [使用目錄管理員](-search-3x-wds-mngidx-catalog-manager.md) 和 [使用編目範圍管理員](-search-3x-wds-extidx-csm.md)。 ReindexMatchingUrls 程式碼範例會示範如何指定要重新建立索引的檔案和方法。 CrawlScopeCommandLine 程式碼範例會示範如何定義編目範圍管理員 (CSM) 索引編制作業的命令列選項。 這兩個程式碼範例都可在 [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)上取得。
+如需重新編制索引的詳細資訊，請參閱 [使用目錄管理員](-search-3x-wds-mngidx-catalog-manager.md) 和 [使用編目範圍管理員](-search-3x-wds-extidx-csm.md)。 ReindexMatchingUrls 程式碼範例會示範如何指定要重新建立索引的檔案和方法。 CrawlScopeCommandLine 程式碼範例會示範如何定義編目範圍管理員 (CSM) 索引編制作業的命令列選項。 這兩個程式碼範例都可在[GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch)上取得。
 
 ### <a name="sample-log-file"></a>範例記錄檔
 
@@ -371,7 +371,7 @@ WARNING-First call to GetText() returned FILTER_E_NO_MORE_TEXT.
 
 ## <a name="additional-resources"></a>其他資源
 
-- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例會示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
+- [GitHub](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)上提供的 [IFilterSample](-search-sample-ifiltersample.md)程式碼範例，示範如何建立用來執行 [**ifilter**](/windows/win32/api/filter/nn-filter-ifilter)介面的 ifilter 基礎類別。
 - 如需索引編制程式的總覽，請參閱 [索引](-search-indexing-process-overview.md)程式。
 - 如需檔案類型的總覽，請參閱 [檔案類型](../shell/fa-file-types.md)。
 - 若要查詢檔案類型的檔案關聯屬性，請參閱 [PerceivedTypes、SystemFileAssociations 和應用程式註冊](/previous-versions/windows/desktop/legacy/cc144150(v=vs.85))。

@@ -4,12 +4,12 @@ ms.assetid: a6faa901-2966-4556-90ef-c113b1ba6c6d
 title: 頁面狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82a1e5d3170197cf977f0b1a91898ee150086ddd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33ec9c162220cd0c1accdb35e35309082a2e94c4af6023af7e7d9d7cd55be620
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386401"
 ---
 # <a name="page-state"></a>頁面狀態
 

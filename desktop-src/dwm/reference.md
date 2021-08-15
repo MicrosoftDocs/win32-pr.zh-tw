@@ -7,12 +7,12 @@ keywords:
 - DWM (桌面視窗管理員) ，參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dcbe8104ea8509c9617d59696de3e8da3646cc3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a03bf813b649c0cce38f865700069ea1cf20bd9dceb771a1c1c3904230959c6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720370"
 ---
 # <a name="dwm-reference"></a>DWM 參考
 

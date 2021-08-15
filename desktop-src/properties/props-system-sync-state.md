@@ -4,12 +4,12 @@ ms.assetid: e7659752-ba8c-4b3b-bd1e-2f5044a3ab47
 title: System. Sync. State
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e4b245490aec4aa7df0975e921f6a8b9ba0af28
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 939aabcfd52197b96acc752fbaef60b7dc495aec063f966782be52d965fdba09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117864271"
 ---
 # <a name="systemsyncstate"></a>System. Sync. State
 

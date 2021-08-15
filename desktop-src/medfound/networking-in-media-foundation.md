@@ -4,12 +4,12 @@ ms.assetid: 59eec612-3b6d-400c-8190-1ae8675a2e1b
 title: 媒體基礎中的網路功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3aff68ee1f9e124cda5dd01e82192078b41b0de
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 28e0bd2506da5dc347b4dbe63ce8f89b8ae7688163b7917710b42d5f9c17a0ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "103853311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117871844"
 ---
 # <a name="networking-in-media-foundation"></a>媒體基礎中的網路功能
 

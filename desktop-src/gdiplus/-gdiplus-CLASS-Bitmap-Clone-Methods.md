@@ -4,12 +4,12 @@ ms.assetid: f2cd46c1-914c-4b9e-a2e5-d31dceaa4826
 title: 點陣圖. 複製方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 07b76f169815c000e9a11c1e6eb9d68c907141a6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18d1d26078b385028ad96ff72831436e5a039631253c35994e43fbd8ee00e5d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117885565"
 ---
 # <a name="bitmapclone-methods"></a>點陣圖. 複製方法
 

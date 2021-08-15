@@ -3,7 +3,7 @@ title: CoNtextPopup. CoNtextmenu 屬性
 description: 代表 CoNtextMenu 元素的容器。
 ms.assetid: 92633689-a892-421e-a5fb-e494f4cd1ea8
 keywords:
-- CoNtextPopup. CoNtextmenu 屬性 Windows 功能區
+- CoNtextPopup. coNtextmenu 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12ef8ab053b9912f545c2aad931eb8ad9583ff62
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 45641f1431726ec75c60be48683f19fb3139cbd9159baaed9def3b293a48772d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106967754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851014"
 ---
 # <a name="contextpopupcontextmenus-property"></a>CoNtextPopup. CoNtextmenu 屬性
 
@@ -158,8 +158,8 @@ ms.locfileid: "106967754"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

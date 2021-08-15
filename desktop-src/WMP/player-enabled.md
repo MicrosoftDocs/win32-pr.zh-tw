@@ -1,6 +1,6 @@
 ---
 title: Player。已啟用
-description: Enabled 屬性會指定或抓取值，指出是否已啟用 Windows Media Player 控制項。
+description: enabled 屬性會指定或抓取值，指出是否已啟用 Windows Media Player 控制項。
 ms.assetid: 65fea4d2-3330-4cce-bdaf-fae00304271a
 keywords:
 - Player. 已啟用 Windows Media Player
@@ -14,16 +14,16 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d002d1f1420d17d4b1a0b7dd3028b0f2dc0f6f7b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 804baa0dbb887cd389214c1c90e7a438e3529d7b7609cf3162091d2bf52cb17d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747593"
 ---
 # <a name="playerenabled"></a>Player。已啟用
 
-**Enabled** 屬性會指定或抓取值，指出是否已啟用 Windows Media Player 控制項。
+**enabled** 屬性會指定或抓取值，指出是否已啟用 Windows Media Player 控制項。
 
 ## <a name="syntax"></a>Syntax
 

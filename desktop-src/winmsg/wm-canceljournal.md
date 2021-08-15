@@ -4,12 +4,12 @@ ms.assetid: 7515acb5-4526-40f7-abb7-822a073ac7dc
 title: 'WM_CANCELJOURNAL 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a5676472d12c8cef2a03e508eca6bb742596a36
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8672f86393275c46383c6eb27c7eb1884178b86635ea93bf758de16521e6d2c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994395"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849334"
 ---
 # <a name="wm_canceljournal-message"></a>WM \_ CANCELJOURNAL 訊息
 
@@ -66,7 +66,7 @@ ms.locfileid: "106994395"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -92,7 +92,7 @@ ms.locfileid: "106994395"
 **概念**
 </dt> <dt>
 
-[鉤](hooks.md)
+[勾點](hooks.md)
 </dt> </dl>
 
  

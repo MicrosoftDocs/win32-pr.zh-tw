@@ -4,12 +4,12 @@ ms.assetid: 0fe02acb-cdac-4b6c-8835-6e338727973f
 title: 'AVEncDDCopyright 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 43bea391d924483ff5a4c0c38dccb7ff6b2f6886
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 8b70258b75b302229c50ec6e093084e6bbedbfadd8867049d37b0f2a61c79e50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403760"
 ---
 # <a name="avencddcopyright-property"></a>AVEncDDCopyright 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "104467886"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -1,17 +1,17 @@
 ---
-description: 關於 DirectShow 中的數位視訊
+description: 關於 DirectShow 的數位視訊
 ms.assetid: 0570bf7c-c38d-4ada-9593-27b9be117893
-title: 關於 DirectShow 中的數位視訊
+title: 關於 DirectShow 的數位視訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a8f4ae0253754583bb89132289db87f0aad673d6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 061927618c1cb3340e0771376a7a1e232e078e043a554829f99580262ea29c58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104562618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118664806"
 ---
-# <a name="about-digital-video-in-directshow"></a>關於 DirectShow 中的數位視訊
+# <a name="about-digital-video-in-directshow"></a>關於 DirectShow 的數位視訊
 
 數位視訊 (DV) 可以從 DV 攝影機中捕捉、儲存在使用者電腦上的檔案中，或使用影片磁帶錄製器儲存在磁帶上 (VTR) 。 因此，應用程式可能會在 DV 串流上執行的作業包括：
 

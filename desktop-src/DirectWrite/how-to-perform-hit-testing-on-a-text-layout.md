@@ -1,19 +1,19 @@
 ---
 title: 如何針對文字版面配置執行點擊測試
-description: 提供簡短的教學課程，說明如何將點擊測試新增至 DirectWrite 應用程式，以使用 IDWriteTextLayout 介面來顯示文字。
+description: 提供簡短的教學課程，說明如何使用 IDWriteTextLayout 介面將點擊測試新增至顯示文字的 DirectWrite 應用程式。
 ms.assetid: ef30c931-10f6-4317-b2ea-b446990778b9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c2ca80ac641920c4e63c08f4cbb0fd9e24eb7b2d
-ms.sourcegitcommit: b7a1da2711221fa99072079bf52399cbdfc6bd9d
+ms.openlocfilehash: 3d42967b069a7a5008de75c1cecb453a6158857eb2b05d2dd0298584a67cef69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "103945730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117816565"
 ---
 # <a name="how-to-perform-hit-testing-on-a-text-layout"></a>如何針對文字版面配置執行點擊測試
 
-提供簡短的教學課程，說明如何將點擊測試新增至 [DirectWrite](direct-write-portal.md) 應用程式，以使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 介面來顯示文字。
+提供簡短的教學課程，說明如何使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout)介面將點擊測試新增至顯示文字的 [DirectWrite](direct-write-portal.md)應用程式。
 
 本教學課程的結果是應用程式，會將滑鼠左鍵按下滑鼠左鍵的字元，如下列螢幕擷取畫面所示。
 

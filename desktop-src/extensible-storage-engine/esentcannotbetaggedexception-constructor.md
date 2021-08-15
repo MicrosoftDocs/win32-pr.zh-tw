@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 18915404d62dcfb4a50059ea4df1f4913e794713
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7db2f60537b02e25f74686cba396443900f3c3fde2da154948e00956dbfeb3f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117715439"
 ---
 # <a name="esentcannotbetaggedexception-constructor"></a>EsentCannotBeTaggedException 函式
 

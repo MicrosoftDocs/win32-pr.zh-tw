@@ -9,18 +9,18 @@ keywords:
 - 查詢 MIDI 裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 066648d6e9ce89e03b26940cb27f3b62b6a03c07
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3546971a17a5a8002f0e6d4205ceee5ca796babeb2b27df911cfca5a5911371c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372313"
 ---
 # <a name="querying-midi-devices"></a>查詢 MIDI 裝置
 
 在播放或錄製 MIDI 資料之前，您必須先判斷出系統中的 MIDI 硬體有哪些功能。 MIDI 功能可能會因一部多媒體電腦而異;應用程式不應對指定系統中的硬體提出假設。
 
-Windows 提供下列功能，以判斷指定系統中有多少部 MIDI 裝置可供輸入或輸出。
+Windows 提供下列函式，以判斷指定的系統中有多少部 MIDI 裝置可供輸入或輸出。
 
 
 
@@ -31,7 +31,7 @@ Windows 提供下列功能，以判斷指定系統中有多少部 MIDI 裝置可
 
 
 
- 
+ 
 
 就像其他音訊裝置一樣，MIDI 裝置是由裝置識別碼來識別，而這是由指定系統中的裝置數目隱含決定。 裝置識別碼的範圍從零到已存在的裝置數目，減去一。 例如，如果系統中有兩個 MIDI 輸出裝置，則有效的裝置識別碼為0和1。
 
@@ -46,7 +46,7 @@ Windows 提供下列功能，以判斷指定系統中有多少部 MIDI 裝置可
 
 
 
- 
+ 
 
 這些函式中的每一個都有參數，可指定函式所填滿的結構位址，以及指定裝置功能的相關資訊。
 
@@ -57,6 +57,6 @@ Windows 提供下列功能，以判斷指定系統中有多少部 MIDI 裝置可
 [MIDI 服務](midi-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: f598c1cd-2b50-4ac6-a05e-4fd8eeb5e3e1
 title: 會話控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09250a90f978bde9be4f20aad6ee38f5e9766818
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7985bd468cdb006d50d21c5579073adf982117a2697c70fddcdba1ab2bbb1c30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760851"
 ---
 # <a name="session-control"></a>會話控制項
 

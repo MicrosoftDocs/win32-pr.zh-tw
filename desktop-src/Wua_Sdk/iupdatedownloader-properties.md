@@ -4,12 +4,12 @@ ms.assetid: b6a30356-f97d-408f-becd-a467e9f8e79f
 title: IUpdateDownloader 屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c16aa762bcc14dc1919ef91d162752652c327e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf66fbdad678ef6a78d0fa049ecb59c34be2ca9d08c873e24e82c35c9d1eb1c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738287"
 ---
 # <a name="iupdatedownloader-properties"></a>IUpdateDownloader 屬性
 

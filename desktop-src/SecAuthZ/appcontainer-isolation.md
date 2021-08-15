@@ -4,18 +4,18 @@ ms.assetid: 13C579F9-7F9F-4602-9B03-08CD820C3BBA
 title: AppContainer 隔離
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82fec44fd3d6eb9495370c42e52726ceb0f63806
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bfe42b12698983bc3a90af06be2bb45992013b52e16e6f7de37083d6c92b9422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194057"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784704"
 ---
 # <a name="appcontainer-isolation"></a>AppContainer 隔離
 
 隔離是 AppContainer 執行環境的主要目標。 藉由將應用程式與不需要的資源和其他應用程式隔離，可將惡意操作的機會降到最低。 根據最低許可權授與存取權，可防止應用程式和使用者存取其權利以外的資源。 控制資源的存取可保護進程、裝置和網路。
 
-Windows 中的大部分弱點都是從應用程式開始。 一些常見的範例包括從其瀏覽器中斷的應用程式，或是將錯誤檔傳送至 Internet Explorer 以及利用外掛程式（例如 flash）。 這些應用程式可以在 AppContainer 中隔離，而裝置和資源就越安全。 即使應用程式中的弱點遭到惡意探索，應用程式仍無法存取授與 AppContainer 以外的資源。 惡意應用程式無法接管電腦的其餘部分。
+Windows 的大部分弱點都是從應用程式開始。 一些常見的範例包括從其瀏覽器中斷的應用程式，或是將錯誤檔傳送至 Internet Explorer 以及利用外掛程式（例如 flash）。 這些應用程式可以在 AppContainer 中隔離，而裝置和資源就越安全。 即使應用程式中的弱點遭到惡意探索，應用程式仍無法存取授與 AppContainer 以外的資源。 惡意應用程式無法接管電腦的其餘部分。
 
 ## <a name="credential-isolation"></a>認證隔離
 

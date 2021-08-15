@@ -8,16 +8,16 @@ keywords:
 - LDIF 腳本 Active Directory、關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e228e48770e1190065a16c95b4011f794127fbdd
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 8ad45c51fc16b3c19c3e59f4cfba2e006d4df900c20ce7ddc1b801478a22982c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187082"
 ---
 # <a name="ldif-scripts"></a>LDIF 腳本
 
- (LDIF) 的 LDAP 資料交換格式是一種網際網路工程任務推動小組， (IETF) 標準，定義如何在使用 LDAP 服務提供者的目錄伺服器之間匯入和匯出目錄資料。 Windows 2000 和 Windows Server 2003 包含命令列公用程式 LDIFDE，可用來將目錄物件匯入 Active Directory Domain Services 使用 LDIF 檔案。 LDIFDE 可讓您將篩選準則設定為特定字串，以搜尋 Active Directory Domain Services 中的目錄物件，並將其列為可供架構系統管理員輕鬆讀取的 LDIF 檔案。
+ (LDIF) 的 LDAP 資料交換格式是一種網際網路工程任務推動小組， (IETF) 標準，定義如何在使用 LDAP 服務提供者的目錄伺服器之間匯入和匯出目錄資料。 Windows 2000 和 Windows Server 2003 都包含命令列公用程式 LDIFDE，可用來使用 LDIF 檔案將目錄物件匯入 Active Directory Domain Services。 LDIFDE 可讓您將篩選準則設定為特定字串，以搜尋 Active Directory Domain Services 中的目錄物件，並將其列為可供架構系統管理員輕鬆讀取的 LDIF 檔案。
 
 匯入 Unicode 檔案時，如果檔案的開頭包含 Unicode 識別碼，LDIFDE 會將該檔案匯入為 Unicode。 如果您想要在檔案開頭沒有包含 Unicode 識別碼時將檔案匯入為 Unicode，您可以使用-u 參數，強制將它匯入為 Unicode。
 

@@ -4,12 +4,12 @@ ms.assetid: a210bffc-fe71-4909-bc5c-d440890265c9
 title: 語言和 Unicode 考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6fa189f0772b65b0746e31bd90b89a4c62a4c42f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16d160d90c93d009af55bf8acb79a08a1963ea446018b8a920d27a8f3fe3ac60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462390"
 ---
 # <a name="linguistic-and-unicode-considerations"></a>語言和 Unicode 考慮
 
@@ -22,7 +22,7 @@ ms.locfileid: "104026111"
 
 ## <a name="additional-resources"></a>其他資源
 
--   如需斷詞工具所支援的 lanuages 清單，請參閱 [Windows Search 所支援的語言](-search-3x-wds-language-support.md)。
+-   如需斷詞工具所支援的 lanuages 清單，請參閱[Windows Search 所支援的語言](-search-3x-wds-language-support.md)。
 -   如果您需要識別某段文字的語言，您可以使用 Windows 7 和更新版本中提供的語言自動偵測 (LAD) 。 如需詳細資訊，請參閱 (ELS) 的 [擴充語言服務](../intl/extended-linguistic-services.md) 。
 -   如需適用的參考檔，請參閱 [資料增益集介面](-search-data-addins-interfaces-entry-page.md)。
 

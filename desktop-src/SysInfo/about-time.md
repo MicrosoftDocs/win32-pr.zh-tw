@@ -4,12 +4,12 @@ ms.assetid: 74feb158-ba45-4660-970b-3eb577b1ebf8
 title: 是時候了
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02a95571637bb480920f82e90011a72f6eba9e8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22cb2cd140ada7033ebe7bf672e654dbf7227385509c676176ee8e936ff590ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765029"
 ---
 # <a name="about-time"></a>是時候了
 
@@ -23,7 +23,7 @@ ms.locfileid: "104026866"
 | 本機           | [**SYSTEMTIME**](/windows/win32/api/minwinbase/ns-minwinbase-systemtime)或 [ **FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime) | 轉換成系統本地時區的系統時間或檔案時間。                                                               |
 | 檔案            | [**FILETIME**](/windows/win32/api/minwinbase/ns-minwinbase-filetime)                                         | 自1601年1月1日起的 100-毫微秒間隔數目。                                                                       |
 | MS-DOS          | **WORD**                                                                 | 日期的壓縮文字，另一個用於時間。                                                                                   |
-| Windows         | **DWORD** 或 **ULONGLONG**                                               | 自上次啟動系統之後的毫秒數。 以 DWORD 值形式取出時，Windows 時間會每隔49.7 天迴圈。 |
+| Windows         | **DWORD** 或 **ULONGLONG**                                               | 自上次啟動系統之後的毫秒數。 當抓取為 DWORD 值時，Windows 時間會每49.7 天迴圈。 |
 | 中斷計數 | **ULONGLONG**                                                            | 自系統上次啟動後的 100-毫微秒間隔數目。                                                           |
 
 

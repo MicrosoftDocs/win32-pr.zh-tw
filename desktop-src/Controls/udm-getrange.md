@@ -3,7 +3,7 @@ title: 'UDM_GETRANGE 訊息 (Commctrl .h) '
 description: 抓取上下按鈕 (範圍) 的最小和最大位置。
 ms.assetid: fd42538a-8d96-4a9c-a1db-07c3e9afef84
 keywords:
-- UDM_GETRANGE message Windows 控制項
+- UDM_GETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b6fd8467ad4494bea92a4c1f9a68d675ef1471f5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d13811f383886e0e4985eb3f2f5093eec53cb0745349a36ca133fa3de9656773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408098"
 ---
 # <a name="udm_getrange-message"></a>UDM \_ GETRANGE 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104187319"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

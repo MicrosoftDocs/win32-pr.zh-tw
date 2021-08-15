@@ -1,23 +1,23 @@
 ---
 title: Direct3D 9Ex 改善
-description: 本主題說明 Windows 7 新增的翻轉模式支援，以及其在 Direct3D 9Ex 和桌面視窗管理員中相關聯的現有統計資料。
+description: 本主題說明 Windows 7 在 Direct3D 9Ex 和桌面視窗管理員中新增了翻轉模式的支援和其相關聯的現有統計資料。
 ms.assetid: cb92a162-57eb-4aee-af7a-c8ece37075a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42eef10b6caaa959cb750f073c97a0f665384463
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f3221b805f07408b27e19a00a42ca0c4733ea725bd32a51b5b3e340b48d2070f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376229"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796975"
 ---
 # <a name="direct3d-9ex-improvements"></a>Direct3D 9Ex 改善
 
-本主題說明 Windows 7 新增的翻轉模式支援，以及其在 Direct3D 9Ex 和桌面視窗管理員中相關聯的現有統計資料。 目標應用程式包括以影片或畫面播放速率為基礎的展示應用程式。 使用 Direct3D 9Ex Flip 模式的應用程式，可以在啟用 DWM 時減少系統資源載入。 呈現與翻轉模式相關聯的統計資料增強功能，可讓 Direct3D 9Ex 應用程式藉由提供即時意見反應和修正機制，更有效地控制簡報的速率。 內含範例資源的詳細說明和指標。
+本主題說明 Windows 7 在 Direct3D 9Ex 和桌面視窗管理員中新增了翻轉模式的支援和其相關聯的現有統計資料。 目標應用程式包括以影片或畫面播放速率為基礎的展示應用程式。 使用 Direct3D 9Ex Flip 模式的應用程式，可以在啟用 DWM 時減少系統資源載入。 呈現與翻轉模式相關聯的統計資料增強功能，可讓 Direct3D 9Ex 應用程式藉由提供即時意見反應和修正機制，更有效地控制簡報的速率。 內含範例資源的詳細說明和指標。
 
 本主題包含下列各節。
 
--   [適用于 Windows 7 的 Direct3D 9Ex 改進功能](#whats-improved-about-direct3d-9ex-for-windows-7)
+-   [Windows 7 的 Direct3D 9Ex 有哪些改進](#whats-improved-about-direct3d-9ex-for-windows-7)
 -   [Direct3D 9EX 翻轉模式簡報](#direct3d-9ex-flip-mode-presentation)
 -   [程式設計模型和 Api](#programming-model-and-apis)
     -   [如何加入 Direct3D 9Ex Flip 模型](#how-to-opt-into-the-direct3d-9ex-flip-model)
@@ -30,15 +30,15 @@ ms.locfileid: "104376229"
 -   [呼叫動作](#call-to-action)
 -   [相關主題](#related-topics)
 
-## <a name="whats-improved-about-direct3d-9ex-for-windows-7"></a>適用于 Windows 7 的 Direct3D 9Ex 改進功能
+## <a name="whats-improved-about-direct3d-9ex-for-windows-7"></a>Windows 7 的 Direct3D 9Ex 有哪些改進
 
-Direct3D 9Ex 的翻轉模式展示是在 Direct3D 9Ex 中呈現影像的改良模式，可有效率地將轉譯的影像交給 Windows 7 桌面視窗管理員 (DWM) 以進行撰寫。 從 Windows Vista 開始，DWM 撰寫了整個桌面。 啟用 DWM 時，視窗模式應用程式會使用名為 Blt 模式的方法，將其內容顯示在桌面上， (或 Blt 模型) 。 使用 Blt 模型時，DWM 會針對桌面組合維護一份 Direct3D 9Ex 呈現的表面。 當應用程式更新時，新的內容會透過 blt 複製到 DWM 介面。 針對包含 Direct3D 和 GDI 內容的應用程式，GDI 資料也會複製到 DWM 介面上。
+direct3d 9Ex 的翻轉模式展示是在 direct3d 9Ex 中呈現影像的改進模式，可有效率地將轉譯的影像交給 Windows 7 桌面視窗管理員 (DWM) 進行撰寫。 從 Windows Vista 開始，DWM 會撰寫整個桌面。 啟用 DWM 時，視窗模式應用程式會使用名為 Blt 模式的方法，將其內容顯示在桌面上， (或 Blt 模型) 。 使用 Blt 模型時，DWM 會針對桌面組合維護一份 Direct3D 9Ex 呈現的表面。 當應用程式更新時，新的內容會透過 blt 複製到 DWM 介面。 針對包含 Direct3D 和 GDI 內容的應用程式，GDI 資料也會複製到 DWM 介面上。
 
-在 Windows 7 中提供、DWM 的翻轉模式 (或翻轉模型) 是一種新的表示方法，基本上可讓您在視窗模式應用程式和 DWM 之間傳遞應用程式介面的控制碼。 除了儲存資源，Flip 模型還支援增強的目前統計資料。
+適用于 Windows 7、DWM (或翻轉模型的翻轉模式) 是新的表示方法，基本上可讓您在視窗模式應用程式和 DWM 之間傳遞應用程式介面的控制碼。 除了儲存資源，Flip 模型還支援增強的目前統計資料。
 
-目前的統計資料是應用程式可用來同步處理影片和音訊串流以及從影片播放問題中復原的畫面格時間資訊。 [目前的統計資料] 中的畫面格時間資訊可讓應用程式調整其影片畫面的呈現率，以提供更流暢的簡報。 在 Windows Vista 中，如果 DWM 針對桌面電腦群組合維護了一個對應的框架介面複本，則應用程式可以使用 DWM 提供的統計資料。 在 Windows 7 中，針對現有的應用程式，這種取得目前統計資料的方法仍會提供。
+目前的統計資料是應用程式可用來同步處理影片和音訊串流以及從影片播放問題中復原的畫面格時間資訊。 [目前的統計資料] 中的畫面格時間資訊可讓應用程式調整其影片畫面的呈現率，以提供更流暢的簡報。 在 Windows Vista 中，如果 dwm 針對桌面電腦群組合維護了一個對應的框架介面複本，則應用程式可以使用 DWM 提供的呈現統計資料。 這種取得目前統計資料的方法仍將在 Windows 7 中提供給現有的應用程式使用。
 
-在 Windows 7 中，採用 Flip 模型的 Direct3D 9Ex 型應用程式應該使用 D3D9Ex Api 來取得目前的統計資料。 啟用 DWM 時，視窗模式和全螢幕獨佔模式 Direct3D 9Ex 應用程式在使用翻轉模型時，可能會預期出現相同的統計資料資訊。 Direct3D 9Ex Flip 模型目前的統計資料可讓應用程式即時查詢目前的統計資料，而不是在畫面上顯示畫面格之後：相同的現有統計資料資訊可供視窗模式 Flip-Model 啟用的應用程式作為全螢幕應用程式;D3D9Ex Api 中新增的旗標，可讓 Flip 模型應用程式有效地在呈現時捨棄延遲的畫面格。
+在 Windows 7 中，採用 Flip 模型的 Direct3D 9Ex 型應用程式應該使用 D3D9Ex api 來取得目前的統計資料。 啟用 DWM 時，視窗模式和全螢幕獨佔模式 Direct3D 9Ex 應用程式在使用翻轉模型時，可能會預期出現相同的統計資料資訊。 Direct3D 9Ex Flip 模型目前的統計資料可讓應用程式即時查詢目前的統計資料，而不是在畫面上顯示畫面格之後：相同的現有統計資料資訊可供視窗模式 Flip-Model 啟用的應用程式作為全螢幕應用程式;D3D9Ex Api 中新增的旗標，可讓 Flip 模型應用程式有效地在呈現時捨棄延遲的畫面格。
 
 以 Windows 7 為目標的新影片或以畫面播放速率為基礎的簡報應用程式應該使用 Direct3D 9Ex Flip 模型。 由於 DWM 與 Direct3D 9Ex 執行時間之間的同步處理，使用翻轉模型的應用程式應指定2到 4 backbuffers，以確保呈現順暢。 使用目前統計資料資訊的應用程式，將可受益于使用已啟用 Flip 模型的現有統計資料增強功能。
 
@@ -66,7 +66,7 @@ Flip 模式存在：減少由 DWM 針對視窗化框架組合所撰寫的讀取�
 
 ## <a name="programming-model-and-apis"></a>程式設計模型和 Api
 
-新的影片或畫面播放速率：在 Windows 7 上使用 Direct3D 9Ex Api 的測量應用程式，可以利用在 Windows 7 上執行時，由翻轉模式所提供的記憶體和省電以及改良的簡報。  (在舊版 Windows 上執行時，Direct3D 執行時間會將應用程式預設為目前的 Blt 模式。 ) 
+新的影片或畫面播放速率測量在 Windows 7 上使用 Direct3D 9Ex api 的應用程式，可以利用記憶體和省電，以及在 Windows 7 上執行時的翻轉模式所提供的改良簡報。  (在先前的 Windows 版本上執行時，Direct3D 執行時間會將應用程式預設為目前的 Blt 模式。 ) 
 
 目前的翻轉模式會要求應用程式在 DWM 開啟時，可以利用即時目前的統計資料意見反應和修正機制。 不過，使用「翻轉」模式的應用程式在使用並行 GDI API 轉譯時，應該要知道有何限制。
 
@@ -74,7 +74,7 @@ Flip 模式存在：減少由 DWM 針對視窗化框架組合所撰寫的讀取�
 
 ### <a name="how-to-opt-into-the-direct3d-9ex-flip-model"></a>如何加入 Direct3D 9Ex Flip 模型
 
-以 Windows 7 為目標的 Direct3D 9Ex 應用程式可以藉由建立具有 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) 列舉值的交換鏈，加入宣告 Flip 模型。 為了加入宣告 Flip 模型，應用程式會指定 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters) 結構，然後在呼叫 [**IDirect3D9Ex：： CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) API 時，傳遞此結構的指標。 本節說明以 Windows 7 為目標的應用程式如何使用 **IDirect3D9Ex：： CreateDeviceEx** 加入宣告 Flip 模型。 如需有關 **IDirect3D9Ex：： CreateDeviceEx** API 的詳細資訊，請參閱 **MSDN 上的 IDirect3D9Ex：： CreateDeviceEx**。
+以 Windows 7 為目標的 Direct3D 9Ex 應用程式可以藉由建立具有 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect)列舉值的交換鏈，加入宣告 Flip 模型。 為了加入宣告 Flip 模型，應用程式會指定 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters) 結構，然後在呼叫 [**IDirect3D9Ex：： CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) API 時，傳遞此結構的指標。 本節說明以 Windows 7 為目標的應用程式如何使用 **IDirect3D9Ex：： CreateDeviceEx** 加入宣告 Flip 模型。 如需有關 **IDirect3D9Ex：： CreateDeviceEx** API 的詳細資訊，請參閱 **MSDN 上的 IDirect3D9Ex：： CreateDeviceEx**。
 
 為了方便起見，這裡會重複 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters) 和 [**IDirect3D9Ex：： CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex) 的語法。
 
@@ -108,14 +108,14 @@ typedef struct D3DPRESENT_PARAMETERS {
 } D3DPRESENT_PARAMETERS, *LPD3DPRESENT_PARAMETERS;
 ```
 
-當您修改 Windows 7 的 Direct3D 9Ex 應用程式以加入宣告 Flip 模型時，您應該考慮下列有關 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters)之指定成員的專案：
+當您將 Windows 7 的 Direct3D 9Ex 應用程式修改為加入宣告 Flip 模型時，您應該考慮下列有關 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters)之指定成員的專案：
 
 <dl> <dt>
 
 **BackBufferCount**
 </dt> <dd>
 
-僅 (Windows 7) 
+ (僅 Windows 7) 
 
 當 **SwapEffect** 設定為新的 D3DSWAPEFFECT \_ FLIPEX 交換鏈效果類型時，背景緩衝區計數應等於或大於2，以防止應用程式效能受到 DWM 等候上一個現有緩衝區釋放的結果影響。
 
@@ -128,7 +128,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 **SwapEffect**
 </dt> <dd>
 
-僅 (Windows 7) 
+ (僅 Windows 7) 
 
 \_當應用程式採用具有 DWM 的翻轉模式時，新的 D3DSWAPEFFECT FLIPEX 交換鏈效果類型會指定。 它可讓應用程式更有效率地使用記憶體和電源，也可讓應用程式在視窗模式下利用全螢幕的顯示統計資料。 全螢幕應用程式行為不會受到影響。 如果視窗化設定為 **TRUE** ，且 **SWAPEFFECT** 設定為 D3DSWAPEFFECT \_ FLIPEX，則執行時間會建立一個額外的背景緩衝區，並將任何控制碼都旋轉為在呈現時成為前端緩衝區的緩衝區。
 
@@ -137,7 +137,7 @@ typedef struct D3DPRESENT_PARAMETERS {
 **旗標**
 </dt> <dd>
 
-僅 (Windows 7) 
+ (僅 Windows 7) 
 
 如果 **SwapEffect** 設定為新的 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect)交換鏈效果類型，則無法設定 [D3DPRESENTFLAG 可 \_ 鎖定 \_ 背景緩衝區](/windows/desktop/direct3d9/d3dpresentflag)旗標。
 
@@ -201,7 +201,7 @@ HRESULT PresentEx(
 );
 ```
 
-當您針對 Windows 7 修改 Direct3D 9Ex 應用程式時，您應該考慮下列有關指定 [D3DPRESENT](/windows/desktop/direct3d9/d3dpresent) 簡報旗標的資訊：
+當您修改 Windows 7 的 Direct3D 9Ex 應用程式時，您應該考慮下列有關指定[D3DPRESENT](/windows/desktop/direct3d9/d3dpresent)簡報旗標的資訊：
 
 <dl> <dt>
 
@@ -210,7 +210,7 @@ HRESULT PresentEx(
 
 此旗標僅適用于全螢幕模式或
 
-僅 (Windows 7) 
+ (僅 Windows 7) 
 
 當應用程式在 [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex)的呼叫中，將 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters)的 **SwapEffect** 成員設定為 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) 。
 
@@ -219,7 +219,7 @@ HRESULT PresentEx(
 [D3DPRESENT \_ FORCEIMMEDIATE](/windows/desktop/direct3d9/d3dpresent)
 </dt> <dd>
 
-僅 (Windows 7) 
+ (僅 Windows 7) 
 
 只有當應用程式在 [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex)的呼叫中將 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters)的 **SwapEffect** 成員設定為 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect)時，才能指定此旗標。 應用程式可以使用此旗標，立即在 DWM 目前的佇列中更新具有數個框架的介面，基本上會略過中繼框架。
 
@@ -257,7 +257,7 @@ HRESULT GetLastPresentCount(
 );
 ```
 
-當您針對 Windows 7 修改 Direct3D 9Ex 應用程式時，您應該考慮下列有關 [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats) 結構的資訊：
+當您修改 Windows 7 的 Direct3D 9Ex 應用程式時，您應該考慮下列有關 [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats)結構的資訊：
 
 -   [**GetLastPresentCount**](/windows/desktop/api/d3d9/nf-d3d9-idirect3dswapchain9ex-getlastpresentcount)傳回的 PresentCount 值不會在 [](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) \_ *DONOTWAIT* 參數中指定 D3DPRESENT dwFlags 的 PresentEx 呼叫傳回失敗時進行更新。
 -   使用 D3DPRESENT DONOTFLIP 呼叫 [**PresentEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3ddevice9ex-presentex) 時 \_ ， [**GetPresentStatistics**](/previous-versions/windows/desktop/legacy/bb205901(v=vs.85)) 呼叫會成功，但當應用程式處於視窗模式時，則不會傳回更新的 [**D3DPRESENTSTATS**](/windows/desktop/direct3d9/d3dpresentstats) 結構。
@@ -277,13 +277,13 @@ typedef struct _D3DPRESENTSTATS {
 
 ### <a name="frame-synchronization-for-windowed-applications-when-dwm-is-off"></a>當 DWM 關閉時，視窗化應用程式的框架同步處理
 
-當 DWM 為 off 時，視窗型應用程式會直接顯示到監視器畫面，而不會通過翻轉鏈。 在 Windows Vista 中，當 DWM 為 off 時，不支援取得視窗型應用程式的畫面格統計資訊。 為了維護應用程式不需要 DWM 感知的 API，當 DWM 為 off 時，Windows 7 會傳回視窗型應用程式的框架統計資訊。 當 DWM 為 off 時所傳回的框架統計資料只是估計。
+當 DWM 為 off 時，視窗型應用程式會直接顯示到監視器畫面，而不會通過翻轉鏈。 在 Windows Vista 中，當 DWM 為 off 時，不支援取得視窗型應用程式的畫面格統計資訊。 為了維護應用程式不需要 dwm 感知的 API，當 DWM 為 off 時，Windows 7 會傳回視窗型應用程式的畫面格統計資訊。 當 DWM 為 off 時所傳回的框架統計資料只是估計。
 
 ## <a name="walk-through-of-a-direct3d-9ex-flip-model-and-present-statistics-sample"></a>Direct3D 9Ex Flip 模型的 Walk-Through 和目前的統計資料範例
 
 **加入宣告 FlipEx presentation for Direct3D 9Ex 範例**
 
-1.  確定範例應用程式是在 Windows 7 或更新版本的作業系統版本上執行。
+1.  確定範例應用程式正在 Windows 7 或更新版本的作業系統上執行。
 2.  在 [**CreateDeviceEx**](/windows/desktop/api/d3d9/nf-d3d9-idirect3d9ex-createdeviceex)的呼叫中，將 [**D3DPRESENT \_ 參數**](/windows/desktop/direct3d9/d3dpresent-parameters)的 **SwapEffect** 成員設定為 [**D3DSWAPEFFECT \_ FLIPEX**](/windows/desktop/direct3d9/d3dswapeffect) 。
 
 
@@ -572,7 +572,7 @@ VOID Render()
 
 ## <a name="conclusion-about-direct3d-9ex-improvements"></a>Direct3D 9Ex 改進的結論
 
-在 Windows 7 上，在簡報期間顯示影片或量測計畫面播放速率的應用程式，可以選擇切換至 Flip 模型。 與 Flip 模型 Direct3D 9Ex 相關聯的目前統計資料改善，可讓應用程式受益于每個畫面播放速率的簡報，並提供即時意見反應來偵測和修復問題。 採用 Direct3D 9Ex Flip 模型的開發人員應該以不同的 HWND 作為目標，將 GDI 內容和畫面播放速率同步處理的目標設為帳戶。 請參閱本主題中的詳細資料和 MSDN 檔。 如需其他檔，請參閱 [MSDN 上的 DirectX 開發人員中心](/previous-versions/windows/apps/hh452744(v=win.10))。
+在 Windows 7 上，在簡報期間顯示影片或量測計畫面播放速率的應用程式，可以選擇切換模型。 與 Flip 模型 Direct3D 9Ex 相關聯的目前統計資料改善，可讓應用程式受益于每個畫面播放速率的簡報，並提供即時意見反應來偵測和修復問題。 採用 Direct3D 9Ex Flip 模型的開發人員應該以不同的 HWND 作為目標，將 GDI 內容和畫面播放速率同步處理的目標設為帳戶。 請參閱本主題中的詳細資料和 MSDN 檔。 如需其他檔，請參閱 [MSDN 上的 DirectX 開發人員中心](/previous-versions/windows/apps/hh452744(v=win.10))。
 
 ## <a name="call-to-action"></a>動作的呼叫
 

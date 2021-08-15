@@ -4,12 +4,12 @@ ms.assetid: 8710cd56-6bf3-4317-a1f6-1a159394ce2a
 title: 排程優先順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e80c8baf4ed066ec7034c97850248f81c298c65
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 359f86e6ef78ffe1e549045eebbe435674b50f25f25bd30598fce8581c06092a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793310"
 ---
 # <a name="scheduling-priorities"></a>排程優先順序
 

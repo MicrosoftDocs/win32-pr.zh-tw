@@ -4,12 +4,12 @@ ms.assetid: 8350c7c1-da61-4011-b588-444054eff850
 title: System. MediumKeywords
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b18dd3e14881f2f2b019b22b2d7c56c5eadcac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5d45b892b41b12ac54d4ba2d07d276cb3d16f9c2788ce5a0686f09de5d2f817
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983464"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865379"
 ---
 # <a name="systemmediumkeywords"></a>System. MediumKeywords
 

@@ -1,9 +1,9 @@
 ---
 title: 'WM_DDE_DATA 訊息 (的) '
-description: 動態資料交換 (DDE) server 應用程式將 WM \_ DDE 的 \_ 資料訊息張貼至 dde 用戶端應用程式，以將資料項目傳遞給用戶端，或通知用戶端資料項目目的可用性。
+description: 動態資料交換 (dde) server 應用程式將 WM \_ DDE 的 \_ 資料訊息張貼至 dde 用戶端應用程式，以將資料項目傳遞給用戶端，或通知用戶端資料項目目的可用性。
 ms.assetid: ed6a65d3-b2a3-45f2-9600-291ce2ec8c0a
 keywords:
-- WM_DDE_DATA 訊息資料交換
+- WM_DDE_DATA 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f045ff07e01023e6535eb00dcb78400e4c9519a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0200737a9b25a123954498941ad117e5465f58f5313daa8caf90674751355ed6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736275"
 ---
 # <a name="wm_dde_data-message"></a>WM \_ DDE \_ 資料訊息
 
-動態資料交換 (DDE) server 應用程式將 **WM \_ DDE 的 \_ 資料** 訊息張貼至 dde 用戶端應用程式，以將資料項目傳遞給用戶端，或通知用戶端資料項目目的可用性。
+動態資料交換 (dde) server 應用程式將 **WM \_ DDE 的 \_ 資料** 訊息張貼至 dde 用戶端應用程式，以將資料項目傳遞給用戶端，或通知用戶端資料項目目的可用性。
 
 若要張貼此訊息，請使用下列參數呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) 函數。
 
@@ -91,7 +91,7 @@ ms.locfileid: "106966307"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ description: 在複合影像上顯示 Application-Supplied 點陣圖
 ms.assetid: c51329d3-e814-4ef9-aad8-a3e60f9fa2a7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06ecd8ac931d0a0bb83eafba09d8ca7dc8263f0d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 90768cc9ba9ed3a7f53336c63b0112f297e1844ba9638799e8badf28588775eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118653512"
 ---
 # <a name="display-an-app-supplied-bitmap-on-the-composited-image"></a>在複合影像上顯示應用程式提供的點陣圖
 

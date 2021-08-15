@@ -9,12 +9,12 @@ keywords:
 - DWM (桌面視窗管理員) 、結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f212d248c0f70cfd51e6e47b2d37c89d24f630b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d8ca52ee3934664b0e09c58d49baf451495152d49205f3e02782b1e0918591c0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720333"
 ---
 # <a name="dwm-structures"></a>DWM 結構
 

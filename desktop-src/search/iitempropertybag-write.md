@@ -1,5 +1,5 @@
 ---
-description: 導致一或多個屬性儲存在屬性包中。 只有在 Windows XP 和 Windows Server 2003 上才支援 IItemPropertyBag 介面，且不應再使用。
+description: 導致一或多個屬性儲存在屬性包中。 只有 Windows XP 和 Windows Server 2003 才支援 IItemPropertyBag 介面，因此不應再使用。
 ms.assetid: 35491fbc-fb1c-4bad-86e8-9f19856ed7cb
 title: IItemPropertyBag：： Write 方法
 ms.topic: reference
@@ -12,16 +12,16 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: 7df66487bba0c2bbef40cf3642754dff56f65835
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8860653244cef53739c7d104405a176c1ec63d2de1d3434b1d25e3206c431aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863107"
 ---
 # <a name="iitempropertybagwrite-method"></a>IItemPropertyBag：： Write 方法
 
-導致一或多個屬性儲存在屬性包中。 只有在 Windows XP 和 Windows Server 2003 上才支援 [**IItemPropertyBag**](iitempropertybag.md) 介面，且不應再使用。
+導致一或多個屬性儲存在屬性包中。 只有 Windows XP 和 Windows Server 2003 才支援 [**IItemPropertyBag**](iitempropertybag.md)介面，因此不應再使用。
 
 ## <a name="syntax"></a>語法
 
@@ -67,9 +67,9 @@ VARIANT 的指標，該 **變數** 的類型取決於它所包含之屬性資訊
 
 ## <a name="remarks"></a>備註
 
-只有在 Windows XP 和 Windows Server 2003 上才支援 [**IItemPropertyBag**](iitempropertybag.md) 介面，且不應再使用。
+只有 Windows XP 和 Windows Server 2003 才支援 [**IItemPropertyBag**](iitempropertybag.md)介面，因此不應再使用。
 
-若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**IItemPropertyBag**](iitempropertybag.md) 介面和下列 Api： [**ISearchProtocolUI**](-search-isearchprotocolui.md)、 [**IItemPreviewerExt**](-search-iitempreviewerext.md) 和 [**ISearchItem**](-search-isearchitem.md) 介面、 [**LINKINFO**](-search-linkinfo.md) 和 [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop) 結構，以及 [**LINKTYPE**](-search-linktype.md) 列舉。
+若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 [**IItemPropertyBag**](iitempropertybag.md)介面和下列 api： [**ISearchProtocolUI**](-search-isearchprotocolui.md)、 [**IItemPreviewerExt**](-search-iitempreviewerext.md)和 [**ISearchItem**](-search-isearchitem.md)介面、 [**LINKINFO**](-search-linkinfo.md)和 [**ITEMPROP**](/windows/desktop/api/subsmgr/ns-subsmgr-itemprop)結構，以及 [**LINKTYPE**](-search-linktype.md)列舉。
 
 ## <a name="requirements"></a>規格需求
 
@@ -77,9 +77,9 @@ VARIANT 的指標，該 **變數** 的類型取決於它所包含之屬性資訊
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
-| 可轉散發套件<br/>          | Windows 桌面搜尋 (WDS) 3。0<br/>          |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
+| 可轉散發套件<br/>          | Windows (WDS 的桌面搜尋) 3。0<br/>          |
 
 
 

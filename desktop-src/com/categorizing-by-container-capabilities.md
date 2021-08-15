@@ -4,12 +4,12 @@ description: 元件通常需要容器中的特定功能，且不會使用不提�
 ms.assetid: 11002f3e-17de-4e05-a2df-0c9e6326846d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 987546c20ff77a40666bb74689466a15fab989a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67811a40c2c1bbffd4529b3f7c885a0d3e2bea19bda04035ffb80b601c266807
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104022016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310885"
 ---
 # <a name="categorizing-by-container-capabilities"></a>依容器功能分類
 
@@ -75,9 +75,9 @@ HKEY_CLASSES_ROOT\CLSID\{...CLSID_GroupBox...}\Required Categories\{...CATID_Sim
 [元件類別管理員](the-component-categories-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

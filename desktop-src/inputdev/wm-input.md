@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 04/17/2020
-ms.openlocfilehash: ffe64a5ca79bbe886ddae31661c06dae695259a7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5d317ba21c69b22ae9c6b7cb5be0be84cd15f561b34ec65f1f99e7335cd1badb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884285"
 ---
 # <a name="wm_input-message"></a>WM \_ 輸入訊息
 
@@ -71,9 +71,9 @@ ms.locfileid: "104384421"
 
 | 需求 | 值 |
 |--------------------------|-------------------------------------------|
-| 最低支援的用戶端 | \[僅限 WINDOWS XP desktop 應用程式\] |
-| 最低支援的伺服器 | 僅限 Windows Server 2003 \[ desktop 應用程式\] |
-| 標頭 | <dl> <dt>**Winuser (包含) 的 Windows .h**</dt> </dl> |
+| 最低支援的用戶端 | Windows\[僅限 XP desktop 應用程式\] |
+| 最低支援的伺服器 | Windows\[僅限 Server 2003 desktop 應用程式\] |
+| 標頭 | <dl> <dt>**Winuser (包含 Windows .h)**</dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱
 

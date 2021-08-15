@@ -7,12 +7,12 @@ keywords:
 - 登入帳戶維護工作 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa0f11f69d9a974fd666871833029eda0e059329
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 09d026f37ad81d71691ac418ea49b1b0fda5e1d09fb3e4b6e2259083eb80ada9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186630"
 ---
 # <a name="logon-account-maintenance-tasks"></a>登入帳戶維護工作
 
@@ -30,6 +30,6 @@ ms.locfileid: "104374925"
 
 其中一個方法是讓服務安裝程式為主電腦上登錄中的每個服務實例儲存註冊的 Spn。 您可以在 \_ \_ 用來儲存服務 SCP 之系結字串的 HKEY 本機電腦下使用相同的登錄機碼。 當服務啟動時，它會呼叫 [**QueryServiceConfig**](/windows/desktop/api/winsvc/nf-winsvc-queryserviceconfiga) 函式來判斷其登入帳戶，然後查詢 Active Directory 伺服器，以判斷 spn 是否已在該帳戶的目錄物件上註冊。 如果 Spn 未註冊，或已在錯誤的帳戶中註冊，則服務會拒絕啟動，並顯示一則訊息，指出網域系統管理員必須執行服務的設定程式來更新登入帳戶設定。 請注意，這項重新設定必須由系統管理員完成，因為服務帳戶不應該有存取權來更新自己的 SPN。 也請注意，必須從舊帳戶移除 Spn，否則 Spn 將無法用於驗證，因為它們在樹系中並不是唯一的。
 
- 
+ 
 
- 
+ 

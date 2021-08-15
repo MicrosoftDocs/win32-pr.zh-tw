@@ -4,12 +4,12 @@ description: 您可以在網頁中使用 COM 物件。 若要這樣做，請先�
 ms.assetid: 7e2c9da7-aeae-4206-8be9-1303240b2b1d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4762dd01d4bc07aab5c0b146c56cdb1aec3cb28f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5d13a92bd2de152e71ac4284ce37b977e8305f25dcb2aef5eb94d6019d115812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736889"
 ---
 # <a name="embedding-com-objects-in-web-pages"></a>在網頁中內嵌 COM 物件
 
@@ -17,7 +17,7 @@ ms.locfileid: "104300567"
 
 若要在網頁中建立 COM 物件實例，您可以使用物件標記。 或者，如果您的指令碼語言提供原生的方式來建立 COM 物件，您就可以使用腳本來建立物件實例。
 
-請注意，在網頁中內嵌 COM 物件只適用于支援 ActiveX 和 COM 的瀏覽器，例如 Internet Explorer。
+請注意，在網頁中內嵌 COM 物件僅適用于支援 ActiveX 和 COM 的瀏覽器，例如 Internet Explorer。
 
 下列範例說明如何使用物件標記，在網頁中內嵌 COM 物件：
 
@@ -36,7 +36,7 @@ ms.locfileid: "104300567"
  
 ```
 
-如果您的指令碼語言提供建立 COM 物件的方法，您也可以在腳本中建立 COM 物件實例。 例如，VBScript 提供 CreateObject 方法，而 JScript 則提供 ActiveXObject 物件。 下列範例說明如何在腳本中建立物件。
+如果您的指令碼語言提供建立 COM 物件的方法，您也可以在腳本中建立 COM 物件實例。 例如，VBScript 提供 CreateObject 方法，JScript 提供 ActiveXObject 物件。 下列範例說明如何在腳本中建立物件。
 
 ``` syntax
 <SCRIPT LANGUAGE = "VBScript">
@@ -70,9 +70,9 @@ ms.locfileid: "104300567"
 [使用 COM 物件編寫腳本](scripting-with-com-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

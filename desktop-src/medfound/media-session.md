@@ -4,12 +4,12 @@ ms.assetid: dac99908-be90-415d-8837-2f97d573feb5
 title: 媒體會話
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3df4597e5461788f990f620875bce946570ab97
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: fd54b08b6fda774ac08db46122569c1559dc23eb04d766e6e082b7d010663713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877903"
 ---
 # <a name="media-session"></a>媒體會話
 
@@ -27,7 +27,7 @@ ms.locfileid: "106981937"
 | [如何控制簡報狀態](how-to-control-presentation-states.md)                 | 描述媒體會話傳輸控制項：播放、暫停和停止。                                                                           |
 | [以媒體會話使用媒體來源](using-media-sources-with-the-media-session.md) | 如何搭配媒體會話使用媒體來源。                                                                                                 |
 | [速率控制](rate-control.md)                                                             | 說明如何控制播放速率。                                                                                                          |
-| [影片品質管制](video-quality-management.md)                                     | 說明 Windows 7 中視頻管線的增強功能。                                                                                       |
+| [影片品質管制](video-quality-management.md)                                     | 描述 Windows 7 中的影片管線改進。                                                                                       |
 | [PMP 媒體會話](pmp-media-session.md)                                                   | 說明如何在受保護的媒體路徑內建立媒體會話 (PMP) 進程。                                                           |
 
 

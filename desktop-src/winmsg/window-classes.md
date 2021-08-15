@@ -1,17 +1,17 @@
 ---
 description: 本主題說明視窗類別的類型、系統如何找出它們，以及定義屬於這些類別之 windows 預設行為的元素。
 ms.assetid: vs|winui|~\winui\windowsuserinterface\windowing\window_89windowclasse.htm
-title: '視窗類別 (視窗和訊息) '
+title: '視窗類別 (Windows 和訊息) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22da95fc54a9527bade0d925c1f993cf853b0ccd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6b570309ce6613f3adfe256faff9c30b66f9dbd5062de5f342b434be32dce89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849503"
 ---
-# <a name="window-classes-windows-and-messages"></a>視窗類別 (視窗和訊息) 
+# <a name="window-classes-windows-and-messages"></a>視窗類別 (Windows 和訊息) 
 
 本主題說明視窗類別的類型、系統如何找出它們，以及定義屬於這些類別之 windows 預設行為的元素。
 
@@ -85,7 +85,7 @@ ms.locfileid: "107001429"
 <td>針對指定之視窗所屬的視窗類別，將指定之位移的16位 (<strong>字</strong>) 值移入額外類別記憶體。
 <blockquote>
 [!Note]<br />
-<em>NIndex</em>設定為 GCW_ATOM 以外的任何使用，此函式已被取代。 函式僅提供給 Windows 的16位版本相容。 應用程式應該使用 <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> 函式。
+<em>NIndex</em>設定為 GCW_ATOM 以外的任何使用，此函式已被取代。 此函數僅提供給 Windows 之16位版本的相容性。 應用程式應該使用 <a href="/windows/desktop/api/winuser/nf-winuser-getclasslonga"><strong>GetClassLong</strong></a> 函式。
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -94,7 +94,7 @@ ms.locfileid: "107001429"
 <td>將指定之位移的指定32位 (<strong>long</strong>) 值取代為指定之視窗所屬類別的額外類別記憶體或 <a href="/windows/win32/api/winuser/ns-winuser-wndclassexa"><strong>WNDCLASSEX</strong></a> 結構。
 <blockquote>
 [!Note]<br />
-此函數已被 <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> 函數取代。 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用 <strong>SetClassLongPtr</strong>。
+此函數已被 <a href="/windows/desktop/api/winuser/nf-winuser-setclasslongptra"><strong>SetClassLongPtr</strong></a> 函數取代。 若要撰寫與32位和64位版本的 Windows 相容的程式碼，請使用<strong>SetClassLongPtr</strong>。
 </blockquote>
 <br/> <br/></td>
 </tr>

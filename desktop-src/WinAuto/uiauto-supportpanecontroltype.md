@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，窗格
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51b7f22e6fb302ebb160a174c27c61119b8f09fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15e4a7225869c0752e65aece7e4eca00a416614315c8d5af810bdeb57d29aae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104555122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118825522"
 ---
 # <a name="pane-control-type"></a>窗格控制項類型
 
@@ -76,7 +76,7 @@ ms.locfileid: "104555122"
 
 
 
- 
+ 
 
 窗格控制項一律會出現在控制項和內容視圖中。 如果物件只用于視覺呈現，請勿將版面設定物件公開為控制項或內容視圖中的窗格。
 
@@ -103,7 +103,7 @@ ms.locfileid: "104555122"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -120,7 +120,7 @@ ms.locfileid: "104555122"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -144,7 +144,7 @@ ms.locfileid: "104555122"
 
 
 
- 
+ 
 
 ## <a name="pane-control-type-example"></a>窗格控制項類型範例
 
@@ -201,7 +201,7 @@ ms.locfileid: "104555122"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -216,9 +216,9 @@ ms.locfileid: "104555122"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

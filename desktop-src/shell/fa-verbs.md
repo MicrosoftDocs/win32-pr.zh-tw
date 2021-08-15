@@ -4,12 +4,12 @@ ms.assetid: 4f46b8c3-1e12-447c-87f4-bbe2c305f77a
 title: 動詞和檔案關聯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b398b168afe66c3ddd1abe4c78863fbf67ffcbd8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a144051b04ef2d9a2c9877b53e1680d4274afc92d3fc87fbcb531b02a0f94946
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104550995"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860785"
 ---
 # <a name="verbs-and-file-associations"></a>動詞和檔案關聯
 
@@ -33,7 +33,7 @@ ms.locfileid: "104550995"
 
 ![預設快捷方式功能表的螢幕擷取畫面](images/context-menu/context-filesystemobjects.png)
 
-預設快捷方式功能表出現 **MyFile.xyz 毫秒** 的原因是因為 **xyz-ms** 不是已註冊檔案類型的成員。 相反地， **.txt** 是已註冊的檔案類型。 如果您以滑鼠右鍵按一下 **.txt** 檔案，就會在上方區段中看到包含三個額外命令的快捷方式功能表： [ **列印**]、[ **編輯** ] 和 [ **開啟檔案**]。
+預設快捷方式功能表出現 **MyFile.xyz 毫秒** 的原因是因為 **xyz-ms** 不是已註冊檔案類型的成員。 相反地， **.txt** 是已註冊的檔案類型。 如果您以滑鼠右鍵按一下 **.txt** 檔案，則您會在上方區段中看到包含三個額外命令的快捷方式功能表： [ **列印**]、[ **編輯** ] 和 [ **開啟檔案**]。
 
 ![具有已註冊之檔案類型之檔案的快捷方式功能表的螢幕擷取畫面](images/context-menu/context-registeredfiletype.png)
 
@@ -47,7 +47,7 @@ ms.locfileid: "104550995"
 
 快速鍵功能表上的每個命令都是由其動詞命令在登錄中識別。 這些動詞與 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 在以程式設計方式啟動應用程式時所使用的相同。
 
-動詞是簡單的文字字串，可供 Shell 用來識別相關聯的命令。 每個動詞命令都對應至用來在主控台視窗或 batch ( .bat) 檔中啟動命令的命令字串。
+動詞是簡單的文字字串，可供 Shell 用來識別相關聯的命令。 每個動詞命令都對應至用來在主控台視窗或批次 (.bat) 檔中啟動命令的命令字串。
 
 例如，open 動詞通常會啟動程式來開啟檔案。 命令字串通常如下所示：
 
@@ -64,9 +64,9 @@ ms.locfileid: "104550995"
 
 ## <a name="stream-non-file-system-items-and-opensearch-results"></a>串流非檔案系統專案和 OpenSearch 結果。
 
-在 Windows 7 （含）以後版本中，支援透過 [ [OpenSearch](http://www.opensearch.org/) ] 通訊協定，將外部來源連接到 Windows 用戶端。 這可讓使用者搜尋遠端資料存放區，並從 Windows 檔案總管內查看結果。 OpenSearch v1.1 標準定義了簡單的檔案格式，可用來描述用戶端應該如何查詢資料存放區的 web 服務，以及服務應該如何傳回結果以供用戶端轉譯。
+在 Windows 7 和更新版本中，支援透過[OpenSearch](http://www.opensearch.org/)通訊協定，將外部來源連線至 Windows 用戶端。 這可讓使用者搜尋遠端資料存放區，並從 Windows 檔案總管內查看結果。 OpenSearch v1.1 standard 定義了簡單的檔案格式，可用來描述用戶端應該如何查詢資料存放區的 web 服務，以及服務應該如何傳回結果以供用戶端轉譯。
 
-您可能需要串流處理非檔案系統專案，以避免在 [OpenSearch](http://www.opensearch.org/) 結果時下載專案。 同盟搜尋功能可讓您從支援 OpenSearch 的非檔案系統位置（例如 SharePoint 和其他 web 服務支援的網站）搜尋專案。 在這些專案上叫用動詞時，系統會下載專案的暫存版本，並將其傳遞至動詞執行。 建議使用動詞實作者，藉由註冊動詞支援的 URL 架構集合來串流專案，以避免下載檔案。 動詞命令是使用 **SupportedProtocols** 登錄機碼。
+您可能需要串流處理非檔案系統專案，以避免在[OpenSearch](http://www.opensearch.org/)結果時下載專案。 同盟搜尋功能可讓您從支援 OpenSearch 的非檔案系統位置（例如 SharePoint 和其他 web 服務支援的網站）搜尋專案。 在這些專案上叫用動詞時，系統會下載專案的暫存版本，並將其傳遞至動詞執行。 建議使用動詞實作者，藉由註冊動詞支援的 URL 架構集合來串流專案，以避免下載檔案。 動詞命令是使用 **SupportedProtocols** 登錄機碼。
 
 ## <a name="register-an-application-to-handle-arbitrary-file-types"></a>註冊應用程式以處理任意檔案類型
 

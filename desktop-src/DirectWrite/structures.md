@@ -1,21 +1,21 @@
 ---
 title: DirectWrite 結構
-description: DirectWrite 會定義下列結構。
+description: DirectWrite 定義下列結構。
 ms.assetid: 348dd001-bad9-4f1a-a5f5-84b118a5e2d4
 keywords:
 - DirectWrite，結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19f678be8e02c8afecd849673d97ae20f6b1a710
-ms.sourcegitcommit: 749dea42142dec076d41a8f26cb57ae8db46e848
+ms.openlocfilehash: eaa3d4d98588e3585022bb0887c6224e29d67e0c0d011437526b33ff0bcf1334
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "112587918"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815951"
 ---
 # <a name="directwrite-structures"></a>DirectWrite 結構
 
-DirectWrite 會定義下列結構。
+DirectWrite 定義下列結構。
 
 ## <a name="in-this-section"></a>本節內容
 

@@ -4,12 +4,12 @@ ms.assetid: b0dbc785-58a7-4f39-ab39-b96abece5b93
 title: 在 c + + 中尋找檔案物件的擁有者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5518617db099d3580ce0e82b5376df5f4f3eaf58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fa4b63de3f16629d3de2102521477ff8ed90e2ca5af8e858ebed63038be7cfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781663"
 ---
 # <a name="finding-the-owner-of-a-file-object-in-c"></a>在 c + + 中尋找檔案物件的擁有者
 

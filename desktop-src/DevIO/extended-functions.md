@@ -4,12 +4,12 @@ ms.assetid: 12b92d4b-04b5-4509-9fad-af23fcfd8857
 title: 擴充函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d0e57c316b521cbc246e5f31dcfb683238e216e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 913feb46f61777bcb07fda1639519c4ef04fcb4905075b1c67955a3e911b9d0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405333"
 ---
 # <a name="extended-functions"></a>擴充函數
 

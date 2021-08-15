@@ -4,12 +4,12 @@ ms.assetid: ba174e3c-bc2f-48bd-a1bf-fec491dc0ce3
 title: 編碼封包訊息的替代程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f974623c526603744bf2b0179352605ed783056
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e80c57b5de2191809e3e3ec9df439f6a30a4e17d1442ea6775394c210d1ada0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983767"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773692"
 ---
 # <a name="alternate-code-for-encoding-an-enveloped-message"></a>編碼封包訊息的替代程式碼
 

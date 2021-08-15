@@ -4,12 +4,12 @@ description: 系統會維護一組協助工具參數，指出使用者是否有�
 ms.assetid: efa289bb-5965-4002-93df-116ab2621efc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5f089b28d36ffa982ca6568996126a812263af9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a289162366f5d69c501ffbea55108167324c11a1c865184105afd587f36bcfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106966879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327786"
 ---
 # <a name="accessibility-parameters"></a>協助工具參數
 
@@ -32,7 +32,7 @@ Windows 支援下列協助工具參數。
 
 
 
- 
+ 
 
 下列系統參數適用于協助工具應用程式。 如需詳細資訊，請參閱 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函數。
 
@@ -47,7 +47,7 @@ Windows 支援下列協助工具參數。
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,6 +56,6 @@ Windows 支援下列協助工具參數。
 [關於 Windows 協助工具功能](about-windows-accessibility-features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

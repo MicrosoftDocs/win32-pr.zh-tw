@@ -4,17 +4,17 @@ ms.assetid: c6436f77-ca94-464f-9336-f485f5d5d199
 title: IsSubpictureStreamEnabled 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 818b4ff18dac87ea3346a1a503764b2e5e9cd02a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: bc982120b6a7a57d59d5213fc57b5ba3851d7d9d2f4c3e553fba97d3307d8bec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817045"
 ---
 # <a name="issubpicturestreamenabled-method"></a>IsSubpictureStreamEnabled 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

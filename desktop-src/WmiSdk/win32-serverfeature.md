@@ -17,12 +17,12 @@ api_type:
 - DllExport
 api_location:
 - ServerCompProv.dll
-ms.openlocfilehash: 1be8a2ea1d646e9d882febc7c8eba08b69bb69f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eddbd71108a5b6b65de329e1c110c965f437e4c24f7ba0a681935ba5075351fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312135"
 ---
 # <a name="win32_serverfeature-class"></a>Win32 \_ ServerFeature 類別
 
@@ -222,7 +222,7 @@ SMTP 伺服器
 
 52
 
-[San 存放管理員](/windows)
+[儲存體適用于 San 的管理員](/windows)
 
 53
 
@@ -334,7 +334,7 @@ WoW64 支援<br/>
 
 351
 
-[Windows PowerShell (ISE) 的整合式腳本環境 ](/windows)<br/>
+[Windows PowerShell整合式腳本環境 (ISE) ](/windows)<br/>
 
 352
 
@@ -472,7 +472,7 @@ DFS 複寫
 
 437
 
-[iSCSI 目標儲存提供者 (VDS 和 VSS 硬體提供者) ](/windows)
+[iSCSI 目標儲存體提供者 (VDS 和 VSS 硬體提供者) ](/windows)
 
 486
 
@@ -512,7 +512,7 @@ AD DS-角色服務 (10)
 
 120
 
-[Windows Media 伺服器](/windows)
+[Windows媒體伺服器](/windows)
 
 121
 
@@ -546,7 +546,7 @@ ADFS-角色服務 (8)
 
 129
 
-[Windows 權杖型代理程式](/windows)
+[Windows以權杖為基礎的代理程式](/windows)
 
 遠端桌面服務-角色服務 (18) 
 
@@ -912,7 +912,7 @@ Active Directory 憑證服務-角色服務 (16)
 
 [憑證註冊原則 Web 服務](/windows)<br/>
 
-網路原則與存取服務-角色服務 (14) 
+網路原則和 Access Services 角色服務 (14) 
 
 值
 
@@ -928,7 +928,7 @@ Active Directory 憑證服務-角色服務 (16)
 
 207
 
-[遠端存取服務](/windows)
+[遠端 Access Services](/windows)
 
 208
 
@@ -956,7 +956,7 @@ UDDI 服務-角色服務 (11)
 
 [UDDI 服務資料庫](/windows)<br/>
 
-Windows 處理常式啟用服務-角色服務 (41) 
+Windows進程啟用服務-角色服務 (41) 
 
 值
 
@@ -1076,7 +1076,7 @@ SNMP 服務-功能 (59)
 
 [適用于 .NET 4.0 的應用程式伺服器擴充功能](/windows)<br/>
 
-Windows 部署服務-Role (19) 
+Windows部署服務-角色 (19) 
 
 值
 
@@ -1276,11 +1276,11 @@ Active Directory 管理中心<br/>
 
 462
 
-[Active Directory Rights Management Services 工具](/windows)
+[Active Directory Rights Management Services工具](/windows)
 
 465
 
-[共用與存放管理工具](/windows)
+[共用和儲存體管理工具](/windows)
 
 471
 
@@ -1310,7 +1310,7 @@ Active Directory 管理中心<br/>
 
 [大量啟用工具](/windows)
 
-Windows Server Backup-功能 (39) 
+Windows伺服器備份-功能 (39) 
 
 值
 
@@ -1392,7 +1392,7 @@ Wow64 支援-功能 (340)
 
 349
 
-[以 UNIX 為基礎之應用程式子系統的 WoW64](/windows)<br/>
+[適用于 UNIX 應用程式之子系統的 WoW64](/windows)<br/>
 
 使用者介面和基礎結構-角色服務 (447) 
 
@@ -1420,7 +1420,7 @@ Windows Server Update Services-功能 (404)
 
 406
 
-[SQL Server 連線能力](/windows)
+[SQL Server連接](/windows)
 
 407
 
@@ -1508,7 +1508,7 @@ Windows PowerShell-功能 (417)
 
 [路由](#routing)
 
-檔案和存放服務-角色 (481) 
+檔案和儲存體服務-角色 (481) 
 
 值
 
@@ -1556,9 +1556,9 @@ Windows PowerShell-功能 (417)
 
 ## <a name="remarks"></a>備註
 
-閱讀 [Windows Server 2008 伺服器管理員技術總覽](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10)) ，以瞭解伺服器功能。
+閱讀[Windows server 2008 伺服器管理員技術總覽](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc753319(v=ws.10))，以瞭解伺服器功能。
 
-未使用管理軟體的企業（例如安裝的管理元件 System Center Operations Manager）可以藉由查詢 **Win32 \_ ServerFeature** 類別來取得該資訊。
+不使用管理軟體（例如安裝的管理元件 System Center Operations Manager）的企業，可以藉由查詢 **Win32 \_ ServerFeature** 類別來取得該資訊。
 
 您可以使用 WMI 或 WinRM 的遠端功能，從遠端伺服器取得伺服器功能資訊。 如需遠端 WMI DCOM 連接的詳細資訊，請參閱 [連接到遠端電腦上的 wmi](connecting-to-wmi-on-a-remote-computer.md)。 如需有關 WinRM 的詳細資訊，請參閱 Windows 遠端管理。
 
@@ -1575,7 +1575,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Streaming_Media_Services"></span><span id="streaming_media_services"></span><span id="STREAMING_MEDIA_SERVICES"></span>串流處理媒體服務
+<span id="Streaming_Media_Services"></span><span id="streaming_media_services"></span><span id="STREAMING_MEDIA_SERVICES"></span>串流媒體服務
 </dt> <dd>
 
 不再支援
@@ -1638,14 +1638,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows 系統 Resource Manager
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows系統 Resource Manager
 </dt> <dd>
 
 不再支援
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>Windows Server Backup 功能
+<span id="Windows_Server_Backup_Features"></span><span id="windows_server_backup_features"></span><span id="WINDOWS_SERVER_BACKUP_FEATURES"></span>Windows伺服器備份功能
 </dt> <dd>
 
 不再支援
@@ -1687,14 +1687,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>San 存放管理員
+<span id="Storage_Manager_For_SANs"></span><span id="storage_manager_for_sans"></span><span id="STORAGE_MANAGER_FOR_SANS"></span>儲存體適用于 San 的管理員
 </dt> <dd>
 
 不再支援
 
 </dd> <dt>
 
-<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>網際網路存放裝置名稱伺服器
+<span id="Internet_Storage_Name_Server"></span><span id="internet_storage_name_server"></span><span id="INTERNET_STORAGE_NAME_SERVER"></span>網際網路儲存體名稱伺服器
 </dt> <dd>
 
 不再支援
@@ -1736,7 +1736,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>高品質的 Windows 音訊影片體驗
+<span id="Quality_Windows_Audio_Video_Experience"></span><span id="quality_windows_audio_video_experience"></span><span id="QUALITY_WINDOWS_AUDIO_VIDEO_EXPERIENCE"></span>品質 Windows 音效影片體驗
 </dt> <dd>
 
 不再支援
@@ -1764,7 +1764,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>Windows Server 移轉工具
+<span id="Windows_Server_Migration_Tools"></span><span id="windows_server_migration_tools"></span><span id="WINDOWS_SERVER_MIGRATION_TOOLS"></span>Windows伺服器遷移工具
 </dt> <dd>
 
 不再支援
@@ -1827,7 +1827,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Search 服務
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows搜尋服務
 </dt> <dd>
 
 已新增
@@ -1883,14 +1883,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>檔案和存放服務
+<span id="File_and_Storage_Services"></span><span id="file_and_storage_services"></span><span id="FILE_AND_STORAGE_SERVICES"></span>檔案和儲存體服務
 </dt> <dd>
 
 已新增
 
 </dd> <dt>
 
-<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>Windows Server Essentials 體驗
+<span id="Windows_Server_Essentials_Experience"></span><span id="windows_server_essentials_experience"></span><span id="WINDOWS_SERVER_ESSENTIALS_EXPERIENCE"></span>WindowsServer Essentials 體驗
 </dt> <dd>
 
 已新增
@@ -1925,14 +1925,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>儲存單一版本
+<span id="Single_Instance_Storage"></span><span id="single_instance_storage"></span><span id="SINGLE_INSTANCE_STORAGE"></span>單一實例儲存體
 </dt> <dd>
 
 不再支援
 
 </dd> <dt>
 
-<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows Search 服務
+<span id="Windows_Search_Service"></span><span id="windows_search_service"></span><span id="WINDOWS_SEARCH_SERVICE"></span>Windows搜尋服務
 </dt> <dd>
 
 不再支援
@@ -1946,7 +1946,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>iSCSI 目標儲存提供者 (VDS 和 VSS 硬體提供者) 
+<span id="iSCSI_Target_Storage_Provider__VDS_and_VSS_hardware_providers_"></span><span id="iscsi_target_storage_provider__vds_and_vss_hardware_providers_"></span><span id="ISCSI_TARGET_STORAGE_PROVIDER__VDS_AND_VSS_HARDWARE_PROVIDERS_"></span>iSCSI 目標儲存體提供者 (VDS 和 VSS 硬體提供者) 
 </dt> <dd>
 
 已新增
@@ -1995,7 +1995,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Windows Media 伺服器
+<span id="Windows_Media_Server"></span><span id="windows_media_server"></span><span id="WINDOWS_MEDIA_SERVER"></span>Windows媒體伺服器
 </dt> <dd>
 
 不再支援。
@@ -2037,7 +2037,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Windows 權杖型代理程式
+<span id="Windows_Token-based_Agent"></span><span id="windows_token-based_agent"></span><span id="WINDOWS_TOKEN-BASED_AGENT"></span>Windows以權杖為基礎的代理程式
 </dt> <dd>
 
 不再支援
@@ -2065,7 +2065,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>遠端存取服務
+<span id="Remote_Access_Services"></span><span id="remote_access_services"></span><span id="REMOTE_ACCESS_SERVICES"></span>遠端 Access Services
 </dt> <dd>
 
 不再支援
@@ -2149,7 +2149,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Windows 處理常式啟用服務支援
+<span id="Windows_Process_Activation_Service_Support"></span><span id="windows_process_activation_service_support"></span><span id="WINDOWS_PROCESS_ACTIVATION_SERVICE_SUPPORT"></span>Windows處理常式啟用服務支援
 </dt> <dd>
 
 不再支援
@@ -2240,7 +2240,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>網路原則與存取服務
+<span id="Network_Policy_and_Access_Services"></span><span id="network_policy_and_access_services"></span><span id="NETWORK_POLICY_AND_ACCESS_SERVICES"></span>網路原則和 Access Services
 </dt> <dd>
 
 不再支援
@@ -2334,14 +2334,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 <span id="Hyper-V_Module_for_Windows_PowerShell"></span><span id="hyper-v_module_for_windows_powershell"></span><span id="HYPER-V_MODULE_FOR_WINDOWS_POWERSHELL"></span>Windows PowerShell 的 hyper-v 模組
 </dt> <dd></dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>Active Directory Rights Management Services 工具
+<span id="Active_Directory_Rights_Management_Services_Tool"></span><span id="active_directory_rights_management_services_tool"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOL"></span>Active Directory Rights Management Services工具
 </dt> <dd>
 
 已新增
 
 </dd> <dt>
 
-<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>共用與存放管理工具
+<span id="Share_and_Storage_Management_Tool"></span><span id="share_and_storage_management_tool"></span><span id="SHARE_AND_STORAGE_MANAGEMENT_TOOL"></span>共用和儲存體管理工具
 </dt> <dd>
 
 已新增
@@ -2369,7 +2369,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Windows Server Update Services 工具
+<span id="Windows_Server_Update_Services_Tools"></span><span id="windows_server_update_services_tools"></span><span id="WINDOWS_SERVER_UPDATE_SERVICES_TOOLS"></span>Windows Server Update Services工具
 </dt> <dd>
 
 已新增
@@ -2397,7 +2397,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>Windows Server Backup
+<span id="Windows_Server_Backup"></span><span id="windows_server_backup"></span><span id="WINDOWS_SERVER_BACKUP"></span>Windows伺服器備份
 </dt> <dd>
 
 不再支援
@@ -2488,7 +2488,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>以 UNIX 為基礎之應用程式子系統的 WoW64
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>適用于 UNIX 應用程式之子系統的 WoW64
 </dt> <dd>
 
 不再支援
@@ -2516,7 +2516,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>SQL Server 連線能力
+<span id="SQL_Server_Connectivity"></span><span id="sql_server_connectivity"></span><span id="SQL_SERVER_CONNECTIVITY"></span>SQL Server連接
 </dt> <dd>
 
 已新增
@@ -2558,7 +2558,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Windows PowerShell Web 存取
+<span id="Windows_PowerShell_Web_Access"></span><span id="windows_powershell_web_access"></span><span id="WINDOWS_POWERSHELL_WEB_ACCESS"></span>Windows PowerShellWeb 存取
 </dt> <dd>
 
 已新增
@@ -2659,7 +2659,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>Active Directory Rights Management Services 工具
+<span id="Active_Directory_Rights_Management_Services_Tools"></span><span id="active_directory_rights_management_services_tools"></span><span id="ACTIVE_DIRECTORY_RIGHTS_MANAGEMENT_SERVICES_TOOLS"></span>Active Directory Rights Management Services工具
 </dt> <dd>
 
 已新增
@@ -2793,14 +2793,14 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows 系統 Resource Manager
+<span id="Windows_System_Resource_Manager"></span><span id="windows_system_resource_manager"></span><span id="WINDOWS_SYSTEM_RESOURCE_MANAGER"></span>Windows系統 Resource Manager
 </dt> <dd>
 
 不再支援
 
 </dd> <dt>
 
-<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>卸除式存放裝置管理員
+<span id="Removable_Storage_Manager"></span><span id="removable_storage_manager"></span><span id="REMOVABLE_STORAGE_MANAGER"></span>可移動儲存體管理員
 </dt> <dd>
 
 不再支援
@@ -2849,7 +2849,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>Windows 生物特徵辨識架構
+<span id="Windows_Biometric_Framework"></span><span id="windows_biometric_framework"></span><span id="WINDOWS_BIOMETRIC_FRAMEWORK"></span>Windows生物特徵辨識架構
 </dt> <dd>
 
 已新增
@@ -2863,7 +2863,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Windows PowerShell (ISE) 的整合式腳本環境
+<span id="Windows_PowerShell_Integrated_Scripting_Environment__ISE_"></span><span id="windows_powershell_integrated_scripting_environment__ise_"></span><span id="WINDOWS_POWERSHELL_INTEGRATED_SCRIPTING_ENVIRONMENT__ISE_"></span>Windows PowerShell整合式腳本環境 (ISE) 
 </dt> <dd>
 
 已新增
@@ -3076,7 +3076,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>以 UNIX 為基礎之應用程式子系統的 WoW64
+<span id="WoW64_for_Subsystem_for_UNIX-based_Applications"></span><span id="wow64_for_subsystem_for_unix-based_applications"></span><span id="WOW64_FOR_SUBSYSTEM_FOR_UNIX-BASED_APPLICATIONS"></span>適用于 UNIX 應用程式之子系統的 WoW64
 </dt> <dd>
 
 已新增
@@ -3213,7 +3213,7 @@ Active Directory 網域控制站工具
 
 ## <a name="examples"></a>範例
 
-下列腳本會顯示名為 "FABRIKAM" 的電腦上所有伺服器功能的名稱。 請注意，目的電腦必須執行 Windows Server 2008 或更新版本的伺服器作業系統。
+下列腳本會顯示名為 "FABRIKAM" 的電腦上所有伺服器功能的名稱。 請注意，目的電腦必須執行 Windows server 2008 或更新版本的伺服器作業系統。
 
 
 ```VB

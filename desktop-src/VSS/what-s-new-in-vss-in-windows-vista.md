@@ -4,16 +4,16 @@ ms.assetid: 3b16744d-b9c2-4462-a409-de94d9103c39
 title: Windows Vista 中 VSS 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 122caa350ede984d5b05eb7eedd6039d82a76f1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc9e0780b092b2bed0235ba62377da9a4f7f0b53bded9e3f7feb5d412f5ab982
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751140"
 ---
 # <a name="whats-new-in-vss-in-windows-vista"></a>Windows Vista 中 VSS 的新功能
 
-Windows Vista 對磁碟區陰影複製服務引進了下列變更。
+WindowsVista 對磁碟區陰影複製服務引進了下列變更。
 
 請注意，Windows Vista 的所有變更也適用于 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 。
 
@@ -106,7 +106,7 @@ VSS \_ VOLSNAP \_ ATTR \_ 未 \_ 交易
 
 ## <a name="backup-and-restore-application-compatibility"></a>備份與還原應用程式相容性
 
-備份與還原應用程式的開發人員必須瞭解 Windows Vista 和 Windows Server 2008 中的某些新功能。 如需應用程式相容性檢查清單，請參閱 [備份和還原的應用程式相容性](application-compatibility-for-backup-and-restore.md)。
+備份與還原應用程式的開發人員必須留意 Windows Vista 和 Windows Server 2008 中的某些新功能。 如需應用程式相容性檢查清單，請參閱 [備份和還原的應用程式相容性](application-compatibility-for-backup-and-restore.md)。
 
  
 

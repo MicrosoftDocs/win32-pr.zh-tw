@@ -4,12 +4,12 @@ ms.assetid: 6017ef59-d2e9-4245-a406-8965024dbb35
 title: 處理工作集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aaded3d0b5f8c6ad552cc728c68ad0407391c343
-ms.sourcegitcommit: b01ad017c152c6756f3638623fe335877644d414
+ms.openlocfilehash: a345df46f4d36e8400112c54492d7844c7a46b5d5ae125a3d9103db9cbcc18c7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/06/2021
-ms.locfileid: "111549900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793506"
 ---
 # <a name="process-working-set"></a>處理工作集
 

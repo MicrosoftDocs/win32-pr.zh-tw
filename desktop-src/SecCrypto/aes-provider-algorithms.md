@@ -4,12 +4,12 @@ ms.assetid: 34d0479f-9d1e-41cd-87b0-6bc18c7a062b
 title: AES 提供者演算法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e5e197100060d53304bb5233560dcccae083756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a06381c3f7fcf3d410a9a9a90c70633cab17c1ffd2e3e967ba6f3e7c3787fbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117773773"
 ---
 # <a name="aes-provider-algorithms"></a>AES 提供者演算法
 
@@ -35,9 +35,9 @@ ms.locfileid: "106988826"
 | CALG \_ RSA \_ SIGN    | RSA 公開金鑰簽章演算法。                                                                                                                             | 金鑰長度：可以設定為8位遞增的384位到16384位。 預設金鑰長度：1024位。<br/> 簽章符合 PKCS \# 6。<br/> |
 | CALG \_ SHA          | SHA 雜湊演算法。                                                                                                                                          | 如需詳細資訊，請參閱 [*安全雜湊演算法*](../secgloss/s-gly.md)。               |
 | CALG \_ SHA1         | 與 **CALG \_ SHA** 相同。                                                                                                                                          | 如需詳細資訊，請參閱 [*安全雜湊演算法*](../secgloss/s-gly.md)。               |
-| CALG \_ SHA \_ 256     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：256位。**WINDOWS XP：** 不支援此演算法。<br/>                                                                           |
-| CALG \_ SHA \_ 384     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：384位。**WINDOWS XP：** 不支援此演算法。<br/>                                                                           |
-| CALG \_ SHA \_ 512     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：512位。**WINDOWS XP：** 不支援此演算法。<br/>                                                                           |
+| CALG \_ SHA \_ 256     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：256位。**Windows XP：** 不支援此演算法。<br/>                                                                           |
+| CALG \_ SHA \_ 384     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：384位。**Windows XP：** 不支援此演算法。<br/>                                                                           |
+| CALG \_ SHA \_ 512     | SHA 雜湊演算法。                                                                                                                                          | 金鑰長度：512位。**Windows XP：** 不支援此演算法。<br/>                                                                           |
 | CALG \_ SSL3 \_ SHAMD5 | SSL3 用戶端驗證演算法。                                                                                                                           | 如需詳細資訊，請參閱 [建立 CALG \_ SSL3 \_ SHAMD5 Hash](creating-a-calg-ssl3-shamd5-hash.md)。                                                      |
 
 

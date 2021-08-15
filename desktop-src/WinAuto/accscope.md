@@ -4,25 +4,25 @@ description: AccScope 工具可讓開發人員和測試人員在應用程式的�
 ms.assetid: 7C4D78CD-CDDA-8369-B747-6224C152A997
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d057e818a0fe01ef6f219f1a03d82190d21ac14
-ms.sourcegitcommit: 305298a7727a428310fa138b45a933bcd7ef2532
+ms.openlocfilehash: a4e55aa40822b786ee69185abe753bb0bacd65345d042526a126b4c8343a2639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/25/2020
-ms.locfileid: "104556024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118327717"
 ---
 # <a name="accessibility-tools---accscope"></a>協助工具工具-AccScope
 
 **AccScope** 工具可讓開發人員和測試人員在應用程式的開發和設計期間評估其應用程式的存取性，而不是在應用程式開發週期的晚期測試階段。 測試甚至可以在早期原型階段開始。 **AccScope** 可以視覺化螢幕閱讀程式如何公開應用程式所提供的消費者介面自動化資訊，而且可以顯示您可能想要將資訊或支援新增至應用程式以改善其存取範圍的區域。
 
 > [!NOTE]
-> **AccScope** 是一種舊版工具。 建議您改為使用 [協助工具深入](https://accessibilityinsights.io/) 解析。
+> **AccScope** 是一種舊版工具。 建議您改為使用[協助工具 Insights](https://accessibilityinsights.io/) 。
 
 ## <a name="about-accscope"></a>關於 AccScope
 
-**AccScope** 會隨 WINDOWS 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ <  > \\ < SDK 安裝路徑的 bin version *platform* > \\ AccScope 資料夾中。 執行程式 AccScope.exe。
+**AccScope** 會隨 Windows 軟體開發套件 (SDK) 安裝。 它位於 \\ \\ <  > \\ < SDK 安裝路徑的 bin version *platform* > \\ AccScope 資料夾中。 執行程式 AccScope.exe。
 
-**AccScope** 是桌面應用程式，而不是 Windows Store 應用程式。 您可以使用它來查看顯示為視窗的任何應用程式，包括桌面應用程式或 Windows Store 應用程式。
+**AccScope** 是桌面應用程式，而不是 Windows Store 應用程式。 您可以使用它來查看顯示為視窗的任何應用程式，包括桌面應用程式或 Windows 存放區應用程式。
 
 您可能需要在第一次使用 **AccScope** 時以系統管理員身分執行，以啟用「朗讀程式」模式。
 
@@ -40,7 +40,7 @@ ms.locfileid: "104556024"
     > [!Note]  
     > **AccScope** 及其目標應該在相同的顯示器上執行。
 
-     
+     
 
 - 選取 [ **自動焦點** ] 可讓 AccScope 在使用者使用滑鼠或鍵盤) 將焦點移至視窗 (時，變更目標視窗。
 - 選取 [ **自動** 重新整理] 可啟用 **AccScope** 模式，以便每隔5秒重新整理目標視窗的所有協助工具資料。 如果 Microsoft 消費者介面自動化的目標視窗資料不斷變更，這就很有用。
@@ -102,7 +102,7 @@ ms.locfileid: "104556024"
 - **元素順序：** 根據視覺效果中顯示的數位 (綠色圓圈) ，確認朗讀程式讀取控制項的順序是否正確。 如果專案不是依照您預期的讀取順序，請修改應用程式的 UI 結構和產生的消費者介面自動化樹狀結構，然後再次測試，直到您已確認專案是否為預期的讀取順序。
 - **說出的文字：** 將滑鼠移至視覺效果內，並將滑鼠停留在每個元素矩形上方，以顯示每個元素的工具提示。 在 [朗讀程式] 模式中，工具提示會顯示朗讀朗讀程式文字的 **朗讀程式文字** 專案。 此文字通常是由 **名稱** 和 **控制項類型** 所組成。 確認這是 UI 中每個控制項的正確資訊。 如果有任何資訊不正確，請透過您的特定 UI 架構所啟用的技巧來修改消費者介面自動化屬性，以進行這項操作。  (如果 **控制項類型** 是非預期的，您可能需要使用不同的控制項，因為這通常是由 UI 架構的控制項執行所獨佔控制。請 ) 再測試一次，並確認 **朗讀程式文字** 正確無誤。
 - **元素版面配置：** 檢查每個案例：
-    - 確認 [朗讀程式] 未公開多餘的元素。 一個重複專案的範例是每個 Windows Store 磚專案中的評等控制項。
+    - 確認 [朗讀程式] 未公開多餘的元素。 重複專案的範例是每個 Windows 存放區磚專案中的評等控制項。
     - 確認使用者在應用程式中完成重要工作所需的重要元素 (元素) 每個專案都出現在 [朗讀程式] 專案導覽中。
     - 如果您使用 **視覺化** 配置，且因為控制項彼此重迭而遺漏專案，請切換至 [ **清單** 配置] 以查看 [朗讀程式] 報表的順序。
     - 確認您的應用程式整體的消費者介面自動化樹狀結構是正確且預期的。

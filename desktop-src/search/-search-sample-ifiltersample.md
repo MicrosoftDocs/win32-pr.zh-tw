@@ -4,12 +4,12 @@ ms.assetid: 4c0df747-627d-4937-a117-d43137d5d081
 title: IFilterSample
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 10f66bf32c4abe25038aa6b2a3b6d879ba65cf7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f015166d0366152d07a5fb8d182edcb5422112c66f016219970fef9b889df3ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991990"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863731"
 ---
 # <a name="ifiltersample"></a>IFilterSample
 
@@ -39,7 +39,7 @@ IFilterSample 程式碼範例會示範如何建立用來執行 [**ifilter**](/wi
 | GitHub        | [IFilterSample](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/IFilterSample)          |
 
 > [!NOTE]  
-> 針對所有 Windows 版本（包括 Windows 7），建議您直接從 GitHub 下載最新版本的範例。
+> 針對所有版本的 Windows （包括 Windows 7），建議您直接從 GitHub 下載這些範例，以取得最新版本。
 
 ## <a name="building-the-sample"></a>建立範例
 
@@ -47,7 +47,7 @@ IFilterSample 程式碼範例會示範如何建立用來執行 [**ifilter**](/wi
 2. 按兩下 FilterBase .sln 檔案的圖示，在 Visual Studio 中開啟專案。
 
     > [!NOTE]  
-    > .Sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
+    > .sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
 
 3. 從 [ **組建** ] 功能表選取 [ **建立方案**]。
 

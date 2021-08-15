@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102657
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: be23e5cbb0cc3d63f1367a83c6c624f0ed81faae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f96dc4b08f128cac002d1e7cf17e3c0cfd26c9ca15975885bc37747b7b0d08d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104554714"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118773934"
 ---
 # <a name="esentrestoreofnonbackupdatabaseexception-properties"></a>EsentRestoreOfNonBackupDatabaseException 屬性
 

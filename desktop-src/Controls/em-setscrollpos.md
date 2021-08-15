@@ -3,7 +3,7 @@ title: 'EM_SETSCROLLPOS 訊息 (Richedit .h) '
 description: 將 rich edit 控制項的內容滾動至指定的點。
 ms.assetid: 9ec514a4-97b1-44ab-b2ca-973b1f6fc404
 keywords:
-- EM_SETSCROLLPOS message Windows 控制項
+- EM_SETSCROLLPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ec41ac5255059b8d40f3a4c2e9b666815b9094fc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4d1d86609c1b3f4b04ade24e5ea2f3343c367bbad0a52b8e07be7c18b2282536
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118412333"
 ---
 # <a name="em_setscrollpos-message"></a>EM \_ SETSCROLLPOS 訊息
 
@@ -55,8 +55,8 @@ Rich edit 控制項會檢查 x 和 y 座標，並視需要進行調整，以便�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Rich Edit 3。0<br/>                                                              |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
