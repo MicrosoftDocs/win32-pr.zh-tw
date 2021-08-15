@@ -4,12 +4,12 @@ ms.assetid: 2af6cea0-6d93-4aa5-a708-d305f11986ef
 title: 合併模組資料庫資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a58240c589297cf2540625bc12180252efa42d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 201b4af776ae0b68fd4330dca8240390e5731950fdaba5a734f48d887db5be84
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119580638"
 ---
 # <a name="merge-module-database-tables"></a>合併模組資料庫資料表
 
@@ -53,7 +53,7 @@ ms.locfileid: "106977086"
 | [ModuleAdminExecuteSequence](moduleadminexecutesequence-table.md)     | 將動作合併至 [AdminExecuteSequence 資料表](adminexecutesequence-table.md)。     |
 | [ModuleAdvtUISequence](moduleadvtuisequence-table.md)                 | 請勿使用此資料表。 如需詳細資訊，請參閱 [AdvtUISequence 資料表](advtuisequence-table.md)。 |
 | [ModuleAdvtExecuteSequence](moduleadvtexecutesequence-table.md)       | 將動作合併至 [AdvtExecuteSequence 資料表](advtexecutesequence-table.md)。       |
-| [ModuleIgnoreTable](moduleignoretable-table.md)                       | 列出模組中未合併至 .msi 檔案的資料表。                        |
+| [ModuleIgnoreTable](moduleignoretable-table.md)                       | 列出模組中未合併到 .msi 檔案中的資料表。                        |
 | [ModuleInstallUISequence](moduleinstalluisequence-table.md)           | 將動作合併至 [InstallUISequence 資料表](installuisequence-table.md)。           |
 | [ModuleInstallExecuteSequence](moduleinstallexecutesequence-table.md) | 將動作合併至 [InstallExecuteSequence 資料表](installexecutesequence-table.md)。 |
 
@@ -109,8 +109,8 @@ ms.locfileid: "106977086"
 -   [DuplicateFile](duplicatefile-table.md)
 -   [環境](environment-table.md)
 -   [EventMapping](eventmapping-table.md)
--   [分機](extension-table.md)
--   [字型](font-table.md)
+-   [延伸模組](extension-table.md)
+-   [Font](font-table.md)
 -   [圖示](icon-table.md)
 -   [IniFile](inifile-table.md)
 -   [IniLocator](inilocator-table.md)
@@ -143,7 +143,7 @@ ms.locfileid: "106977086"
 -   [文本](textstyle-table.md)
 -   [類型](typelib-table.md)
 -   [UIText](uitext-table.md)
--   [動詞](verb-table.md)
+-   [動詞命令](verb-table.md)
 
  
 

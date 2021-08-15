@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c4057beb37d5d1431bc1df68a54185bedd55f08
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a1939ed0607363c1786f09f96fef30c319aee67ed620ca9410cd69a9aabf272a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119076652"
 ---
 # <a name="pausezone-method-of-the-microsoftdns_zone-class"></a>MicrosoftDNS 區域類別的 PauseZone 方法 \_
 

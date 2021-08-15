@@ -1,7 +1,7 @@
-- name: Windows 多媒體
+- name: Windows多媒體
   href: windows-multimedia-start-page.md
   items:
-    - name: Mci
+    - name: MCI
       href: mci.md
       items:
         - name: 關於 MCI
@@ -304,12 +304,12 @@
             - name: 關於音訊 Mixers
               href: about-audio-mixers.md
               items:
-                - name: 混音器架構
+                - name: Mixer建築
                   href: mixer-architecture.md
                 - name: 控制項類型
                   href: control-types.md
                   items:
-                    - name: 音訊混音器自訂控制項
+                    - name: 音訊 Mixer 自訂控制項
                       href: audio-mixer-custom-controls.md
                     - name: 推子
                       href: faders.md
@@ -325,9 +325,9 @@
                       href: switches.md
                     - name: 時間控制項
                       href: time-controls.md
-                - name: 混音器裝置查詢
+                - name: Mixer裝置查詢
                   href: mixer-device-queries.md
-                - name: 開啟和關閉混音器裝置
+                - name: 開啟和關閉 Mixer 裝置
                   href: opening-and-closing-mixer-devices.md
                 - name: 視窗回呼服務
                   href: window-callback-services.md
@@ -335,14 +335,14 @@
                   href: audio-line-and-control-queries.md
                 - name: Windows Vista 中的音訊 Mixers
                   href: audio-mixers-in-windows-vista.md
-            - name: 音訊混音器參考
+            - name: 音訊 Mixer 參考
               href: audio-mixer-reference.md
               items:
-                - name: 音訊混音器函式
+                - name: 音訊 Mixer 函式
                   href: audio-mixer-functions.md
-                - name: 音訊混音器結構
+                - name: 音訊 Mixer 結構
                   href: audio-mixer-structures.md
-                - name: 音訊混音器訊息
+                - name: 音訊 Mixer 訊息
                   href: audio-mixer-messages.md
         - name: 樂器數位介面 (MIDI)
           href: musical-instrument-digital-interface--midi.md
@@ -359,11 +359,11 @@
                       href: the-midi-mapper-architecture.md
                     - name: 通道對應
                       href: the-channel-map.md
-                    - name: 修補程式對應
+                    - name: Patch 地圖
                       href: patch-maps.md
                     - name: 磁片區純量
                       href: the-volume-scalar.md
-                    - name: 金鑰組應
+                    - name: 金鑰地圖
                       href: key-maps.md
                     - name: 地圖和 MIDI 訊息的摘要
                       href: summary-of-maps-and-midi-messages.md
@@ -693,7 +693,7 @@
                   href: multimedia-timer-functions.md
                 - name: 多媒體計時器結構
                   href: multimedia-timer-structures.md
-    - name: 適用于 Windows 的影片
+    - name: Windows 的影片
       href: video-for-windows.md
       items:
         - name: AVIFile 函式和宏
@@ -848,7 +848,7 @@
                       href: keys-ending-capture.md
                     - name: 時間限制
                       href: time-limit.md
-                - name: 捕獲 Windows
+                - name: Capture Windows
                   href: capture-windows.md
                   items:
                     - name: 建立 AVICap Capture 視窗
@@ -2270,7 +2270,7 @@
               href: /windows/desktop/api/Vfw/nf-vfw-icqueryconfigure
             - name: ICSetState
               href: /windows/desktop/api/Vfw/nf-vfw-icsetstate
-            - name: max
+            - name: 最大值
               href: max.md
             - name: MCI_HMS_HOUR
               href: mci-hms-hour.md

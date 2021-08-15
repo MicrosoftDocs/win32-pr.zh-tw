@@ -769,7 +769,7 @@
               href: ime-window-class.md
             - name: 輸入內容
               href: input-context.md
-            - name: 狀態、撰寫和候選視窗
+            - name: 狀態、撰寫和候選 Windows
               href: status--composition--and-candidates-windows.md
         - name: 使用輸入方法管理員
           href: using-input-method-manager.md
@@ -1364,14 +1364,14 @@
               href: localizing-resources-and-building-the-application.md
             - name: MUI：系統設定應用程式範例
               href: mui-system-settings-application-sample.md
-            - name: MUI： (Windows Vista) 的 Application-Specific 設定範例
+            - name: 'MUI： Application-Specific 設定範例 (Windows Vista) '
               href: mui-application-specific-settings-sample-vista.md
-            - name: 'MUI： (Windows Vista 之前的 Application-Specific 設定範例) '
+            - name: 'MUI： Application-Specific 設定範例 (早 Windows Vista) '
               href: mui-application-specific-settings-sample-pre-vista.md
         - name: 多語系消費者介面參考
           href: multilingual-user-interface-reference.md
           items:
-            - name: 多語系消費者介面函式
+            - name: 多語系消費者介面功能
               href: multilingual-user-interface-functions.md
               items:
                 - name: EnumUILanguages

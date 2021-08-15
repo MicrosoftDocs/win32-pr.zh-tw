@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 635ae964966d8cb1145d8947e7e328f2b6035c4c
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 3610ec0977d76a679af8513c876340c2ddae5a7255074d169bd4e393f113cfbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932764"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042876"
 ---
 # <a name="boundingfrustumcontains-methods"></a>BoundingFrustum 包含方法
 

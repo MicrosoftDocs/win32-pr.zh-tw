@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ca3fd17940fccc285f208e96e591ba85da4a814
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8ae50f123b279335e13fd1ed9fbc249d9fa8deb1fd88579c1a466c12f3694379
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119021716"
 ---
 # <a name="abandon-replication-extended-right"></a>Abandon-Replication 擴充許可權
 

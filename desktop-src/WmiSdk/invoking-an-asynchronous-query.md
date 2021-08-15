@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 叫用非同步查詢
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 14a0e297c6a1955d0006d888fc95f5e827f5cb75
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 52ae188e3826562b1de68357db34dca6cea60a40e4be07c16946b13ed3eb3007
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993068"
 ---
 # <a name="invoking-an-asynchronous-query"></a>叫用非同步查詢
 

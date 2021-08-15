@@ -4,12 +4,12 @@ ms.assetid: 77f6e1b5-b60e-4e8d-b747-7eceae8b0611
 title: 接收來電
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6a78ebf5b77569f8468a8b2c0a30217f4f7430e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9e4ce02ec11a1373d16b9b9ebd0fba29313b1d532175894c6fd1b12a38e2bf3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985492"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060466"
 ---
 # <a name="receive-a-call"></a>接收來電
 

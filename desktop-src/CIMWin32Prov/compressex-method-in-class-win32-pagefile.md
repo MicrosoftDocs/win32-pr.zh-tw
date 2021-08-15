@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 2823d12fc474b5a5023890596a116062d94a045f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e24c4f8a34984c010a8a22fbad7cf94211698bc8de873fc004f6c813a443862f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080202"
 ---
 # <a name="compressex-method-of-the-win32_pagefile-class"></a>Win32 \_ 分頁檔類別的 CompressEx 方法
 
@@ -121,7 +121,7 @@ uint32 CompressEx(
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

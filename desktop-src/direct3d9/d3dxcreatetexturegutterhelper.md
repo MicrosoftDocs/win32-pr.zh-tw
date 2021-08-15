@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 8957649f3cef6ea67932579918163613160ee993
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e62f89911199497abfd905376f272121c6c5a9996ec5685e556453bc378e65e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106999008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119045136"
 ---
 # <a name="d3dxcreatetexturegutterhelper-function"></a>D3DXCreateTextureGutterHelper 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 7c1a0b67-5bb8-4436-8d47-335439d3ff59
 title: 操作點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f62da613f99577b59306e6fdeeb181d4c90b970b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 15454766d33d028ec1237db09f34b7313bdd6f2c6ba6584eaee5dbae43881a93
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191294"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119088359"
 ---
 # <a name="manipulating-bitmaps"></a>操作點陣圖
 

@@ -3,7 +3,7 @@ title: 'WM_CAP_DRIVER_GET_VERSION 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ 驅動程式 \_ 取得 \_ 版本] 訊息會傳回連接至 [捕獲] 視窗的捕獲驅動程式版本資訊。 您可以使用 capDriverGetVersion 宏明確地傳送此訊息。'
 ms.assetid: 762ebe7e-0d09-46ea-ab17-86061f0bd8f9
 keywords:
-- WM_CAP_DRIVER_GET_VERSION message Windows 多媒體
+- WM_CAP_DRIVER_GET_VERSION 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ced70f2d0159ef4bbad3f2d7a8027c30b2c71a5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 49f6bed4513383c5dd889639a78e9f00e409fe347bfd6b64b112ea830571ae55
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106970000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119687088"
 ---
 # <a name="wm_cap_driver_get_version-message"></a>WM \_ CAP \_ 驅動程式 \_ 取得 \_ 版本訊息
 

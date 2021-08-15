@@ -4,12 +4,12 @@ ms.assetid: 2488e70d-01dd-4d98-840e-35eca28ac10b
 title: XMUINT4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 818b836fa006b3c50b819073895ea1daf9a4f21d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c6082036d4146dc4651a697e0a6c92023a800fa5b37a058839d03ddf019fbe9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984858"
 ---
 # <a name="xmuint4-operators"></a>XMUINT4 運算子
 

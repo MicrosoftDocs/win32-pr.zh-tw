@@ -4,12 +4,12 @@ description: MIDL 編譯器會針對套用 \ 編碼 \ 或 \ 解碼 \ 屬性的�
 ms.assetid: 948f1dd7-c8b0-4fa0-88d8-9d122de52ba1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4674617bc98c92dbc684a29d1a3c91ac6a7429e1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 681d898a077ff55bb03a76fbd7579e28a8bcdf18c792330b32b1eb832c6b9058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011096"
 ---
 # <a name="type-serialization"></a>類型序列化
 
@@ -59,6 +59,6 @@ size_t MyType_AlignSize (handle_t Handle, MyType __RPC_FAR * pObject);
 
 請注意，具有隱含序列化控制碼之隱含系結控制碼和序列化型別的兩個遠端程式都會使用相同的全域控制碼變數。 因此，建議不要將型別序列化和遠端程式混合在具有隱含控制碼的介面中。 如需詳細資訊，請參閱 [隱含與明確的控制碼](implicit-versus-explicit-handles.md)。
 
- 
+ 
 
- 
+ 

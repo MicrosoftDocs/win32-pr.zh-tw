@@ -4,12 +4,12 @@ ms.assetid: 5eefdfcb-89a5-4885-bab0-6409ef3ce349
 title: Icon 控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e60c19674ac26f108109fad04e0836ed8dfeba6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2caeb407b86b888a5dd3b1c08f16d0893233f82cec29b92519c267b286ea121
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119315118"
 ---
 # <a name="icon-control-attribute"></a>Icon 控制項屬性
 

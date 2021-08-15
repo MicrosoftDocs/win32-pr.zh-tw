@@ -3,7 +3,7 @@ title: 'WM_COPY 訊息 (Winuser .h) '
 description: 應用程式會將 WM \_ 複製訊息傳送至編輯控制項或下拉式方塊，以 CF 文字格式將目前的選取範圍複製到剪貼簿 \_ 。
 ms.assetid: dcac3ad3-1e70-4b71-accd-261587224e60
 keywords:
-- WM_COPY 訊息資料交換
+- WM_COPY 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b298248d75b1d25d1bfef8347347fe2f1a6c7916
-ms.sourcegitcommit: 3d9dce1bd6c84e2b51759e940aa95aa9b459cd20
+ms.openlocfilehash: 2d7774b1e2d52cbe21b8636bcaa1c695f9f49b319280ebc89c74fd652533066b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "106986452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120096748"
 ---
 # <a name="wm_copy-message"></a>WM \_ 複製訊息
 
@@ -66,7 +66,7 @@ ms.locfileid: "106986452"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

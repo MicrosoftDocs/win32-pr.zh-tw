@@ -1,15 +1,15 @@
 ---
 title: DirectComposition 函式
-description: 本節說明 Microsoft DirectComposition \ 32 所提供的功能;Api。
+description: 本節說明 Microsoft DirectComposition \ 32 所提供的功能;API。
 ms.assetid: 750FDFD5-ADD5-43B3-A596-ECDB82C2EF73
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 934e0b7e32f22faaefdf625e0af2a42a03e469d5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c2cd517b412286619d8f1dfd7687934b5a14e4db34a8f1058ec1626174c462c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043336"
 ---
 # <a name="directcomposition-functions"></a>DirectComposition 函式
 

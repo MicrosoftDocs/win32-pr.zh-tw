@@ -4,12 +4,12 @@ description: 列出工具說明程式庫函數。
 ms.assetid: 83732bd6-f4cf-409d-ad17-86503d408dc3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54f9d95598f9b48343ea9731e1a826fb147a73a8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d73cc425f415c9cea8af9290743fb1afbb51182f8c03e7ec087ca95948fd2ebc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058216"
 ---
 # <a name="tool-help-functions"></a>工具說明函數
 
@@ -34,11 +34,11 @@ ms.locfileid: "104021953"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

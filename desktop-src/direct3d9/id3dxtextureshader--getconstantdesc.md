@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 22898880e5cef5669defae89cda4f7d9818f9f1f
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: f8c7f65c9f2096339e0131d5d54c2fd65fb7e52849219f06f6a60fd44c518751
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106990023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120095668"
 ---
 # <a name="id3dxtextureshadergetconstantdesc-method"></a>ID3DXTextureShader：： GetConstantDesc 方法
 

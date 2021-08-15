@@ -1,6 +1,6 @@
 ---
 title: oncRpcNumber 屬性
-description: 包含 RPC 對應的一部分，並儲存適用于 UNIX rpc 的 RPC 號碼。
+description: 包含 rpc 對應的一部分，並儲存 UNIX rpc 的 rpc 號碼。
 ms.assetid: c824d740-5c68-4fce-93f3-01ac52b47e5b
 ms.tgt_platform: multiple
 keywords:
@@ -13,16 +13,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b2394395f7be9a9f5f9dfe1fd312dcf4f8957c4d
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 0ea1416fb950a4b666be16f8848cc89d4c63bd4108e41a5e55a0450f8622d59e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119442168"
 ---
 # <a name="oncrpcnumber-attribute"></a>oncRpcNumber 屬性
 
-包含 RPC 對應的一部分，並儲存適用于 UNIX rpc 的 RPC 號碼。
+包含 rpc 對應的一部分，並儲存 UNIX rpc 的 rpc 號碼。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104107993"
 | 連結識別碼                | \-                                    |
 | MAPI-Id                | \-                                    |
 | System-Only            | 否                                 |
-| 是-單一值       | 對                                  |
+| 是-單一值       | 是                                  |
 | 已編制索引             | 否                                 |
 | 在通用類別目錄中      | 否                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                          |
@@ -76,7 +76,7 @@ ms.locfileid: "104107993"
 | 連結識別碼                | \-                                    |
 | MAPI-Id                | \-                                    |
 | System-Only            | 否                                 |
-| 是-單一值       | 對                                  |
+| 是-單一值       | 是                                  |
 | 已編制索引             | 否                                 |
 | 在通用類別目錄中      | 否                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                          |
@@ -97,7 +97,7 @@ ms.locfileid: "104107993"
 | 連結識別碼                | \-                                    |
 | MAPI-Id                | \-                                    |
 | System-Only            | 否                                 |
-| 是-單一值       | 對                                  |
+| 是-單一值       | 是                                  |
 | 已編制索引             | 否                                 |
 | 在通用類別目錄中      | 否                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                          |
@@ -118,7 +118,7 @@ ms.locfileid: "104107993"
 | 連結識別碼                | \-                                    |
 | MAPI-Id                | \-                                    |
 | System-Only            | 否                                 |
-| 是-單一值       | 對                                  |
+| 是-單一值       | 是                                  |
 | 已編制索引             | 否                                 |
 | 在通用類別目錄中      | 否                                 |
 | NT-Security-描述元 | O:BAG：不正確： S：                          |

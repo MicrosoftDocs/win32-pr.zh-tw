@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ceba632ad6b893c601b59b87f1e7da5fa53c69b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ed1b8c43b835b1996f2f6dcb512b741f130235b86905b90fc0886c9cc0f7fd9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017426"
 ---
 # <a name="cbasecontrolvideoput_destinationheight-method"></a>CBaseControlVideo. put \_ DestinationHeight 方法
 

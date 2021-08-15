@@ -4,12 +4,12 @@ ms.assetid: 7D14F8F4-5EE0-4522-AD48-1F5F7F88D193
 title: IAzApplication3 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ab74ae1d54010cd76c515a3a3d843a6a72bd89c0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e8968280df612a44e10bc3c4e9d7d4eaabb550a5266e008b59edbb47f1c6686c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119671928"
 ---
 # <a name="iazapplication3-properties"></a>IAzApplication3 屬性
 

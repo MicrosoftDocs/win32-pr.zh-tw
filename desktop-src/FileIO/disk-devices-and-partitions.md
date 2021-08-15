@@ -4,12 +4,12 @@ ms.assetid: daf45180-2cc3-433d-823e-395e85ce3410
 title: 磁片裝置和磁碟分割
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e063b943d33118a45cb6ab4c304569094af2c32e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 758454c9fc9e684e918646bf99869c7544b3b02c0201eb2ba507f8ffbdc303d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015369"
 ---
 # <a name="disk-devices-and-partitions"></a>磁片裝置和磁碟分割
 

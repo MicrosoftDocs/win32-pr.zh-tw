@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e586991b319e047957ae53362534c1bb0c90590
-ms.sourcegitcommit: 7ef31bf778e76ce4196205d4c4c632fbdc649805
+ms.openlocfilehash: a0147890cab18fc8e3c3f32fa44d0967bfb059bf952bc2019f471162dddef842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104321340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061720"
 ---
 # <a name="glevalcoord2f-function"></a>glEvalCoord2f 函式
 
@@ -48,7 +48,7 @@ void WINAPI glEvalCoord2f(
 
 </dd> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 值，這個值是在上一個 [**glMap2**](glmap2.md)函式中定義之基礎函數的域座標 *v* 。

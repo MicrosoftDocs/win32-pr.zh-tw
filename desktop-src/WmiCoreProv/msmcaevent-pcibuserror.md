@@ -33,12 +33,12 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: 7f2b800a07c0b979468a5df5a8be67e6adee39de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b3ae66c684ab6a0e2573e2c82d6087a3405ce3d8bef5704bb392337699daaea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119051276"
 ---
 # <a name="msmcaevent_pcibuserror-class"></a>MSMCAEvent \_ PCIBusError 類別
 
@@ -334,7 +334,7 @@ PCI 匯流排錯誤的類型。
 存取類型：唯讀
 </dt> </dl>
 
-位元組陣列，其中包含系統抽象層 (SAL) 呈現給 Windows 的原始錯誤記錄。 陣列中的元素數目是由 **Size** 屬性指定。
+位元組陣列，其中包含系統抽象層 Windows (SAL) 所顯示的原始錯誤記錄。 陣列中的元素數目是由 **Size** 屬性指定。
 
 </dd> <dt>
 
@@ -366,7 +366,7 @@ PCI 匯流排錯誤的類型。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**
@@ -375,7 +375,7 @@ PCI 匯流排錯誤的類型。
 存取類型：唯讀
 </dt> </dl>
 
-事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，當 Windows 事件記錄取用者提供者收到其中一個事件時，該訊息會用來插入事件記錄檔訊息。
+事件記錄檔訊息的類型。 這些訊息會對應到事件記錄檔訊息程式碼，而這些訊息是用來在接收到其中一個事件時，由 Windows 事件記錄取用者提供者插入事件記錄檔訊息。
 
 </dd> <dt>
 

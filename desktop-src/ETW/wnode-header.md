@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wmistr.h
-ms.openlocfilehash: 6a2ed615d2b67cbd47a817234a14b7cf1221f601
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: e8ad8bd5e1fd4917fa031e7553ed0e7e460244b8ab7c7da347a62d7430036cc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "104974789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015236"
 ---
 # <a name="wnode_header-structure"></a>WNODE \_ 標頭結構
 
@@ -164,7 +164,7 @@ typedef struct _WNODE_HEADER {
 </tr>
 <tr class="odd">
 <td><dl> <dt>3</dt> </dl></td>
-<td>CPU 週期計數器。 CPU 計數器提供最高的解析時間戳記，而且是要抓取的最不耗用資源。 不過，CPU 計數器不可靠，不應該用於生產環境。 例如，在某些電腦上，計時器將會因為溫度和電源變更而變更頻率，除了在某些狀態下停止。<br/> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>CpuSpeedInMHz</strong>成員。<br/> 如果您的硬體不支援此時鐘類型，ETW 會使用系統時間。<br/> <strong>Windows Server 2003、WINDOWS xp 加裝 SP1 和 WINDOWS xp：</strong> 此值不受支援，它是在 Windows Server 2003 SP1 和 Windows XP （含 SP2）中引進。<br/></td>
+<td>CPU 週期計數器。 CPU 計數器提供最高的解析時間戳記，而且是要抓取的最不耗用資源。 不過，CPU 計數器不可靠，不應該用於生產環境。 例如，在某些電腦上，計時器將會因為溫度和電源變更而變更頻率，除了在某些狀態下停止。<br/> 若要判斷解決方式，請在取用事件時使用<a href="/windows/win32/api/evntrace/ns-evntrace-trace_logfile_header"><strong>TRACE_LOGFILE_HEADER</strong></a>的<strong>CpuSpeedInMHz</strong>成員。<br/> 如果您的硬體不支援此時鐘類型，ETW 會使用系統時間。<br/> <strong>Windows Server 2003、Windows XP SP1 和 Windows xp：</strong>此值不受支援，它是在 Windows Server 2003 SP1 和 Windows XP SP2 中引進。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -205,8 +205,8 @@ c. 如果 ReservedFlags = = 3 (CPU 週期計數器) ： DOUBLE timeStampScale = 
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                   |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                   |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                         |
 | 標頭<br/>                   | <dl> <dt>Wmistr。h</dt> </dl> |
 
 

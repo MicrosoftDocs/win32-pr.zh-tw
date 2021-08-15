@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CWbemGlueFactory 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 52e3937275991b0ed4ffbf831a62655f78f22188
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3fa335cfc4eff3a8fd304b78aa42f37d22fa0b33f27c7c2a4edf9ee607ddc64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097308"
 ---
 # <a name="cwbemgluefactory-methods"></a>CWbemGlueFactory 方法
 

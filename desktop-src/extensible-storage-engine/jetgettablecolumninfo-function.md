@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f8c7b073ca9be90e89a1c6b99c010707e6405323
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 63e913e68a3aea8f220c713b07becdeecb785a619b73a833bb6a0e9c3c1d37a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104196483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979018"
 ---
 # <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetgettablecolumninfo-function"></a>JetGetTableColumnInfo 函式
 
@@ -122,25 +122,25 @@ JET_ERR JET_API JetGetTableColumnInfo(
 <tr class="even">
 <td><p>JET_ColInfoBaseByColId</p></td>
 <td><p>如同 JET_ColInfoBase， <em>pvResult</em> 會被視為 <a href="gg269194(v=exchg.10).md">JET_COLUMNBASE</a>，但此 <em>InfoLevel</em> 表示要求的資料行 (<em>szColumName</em>) 不是字串資料行名稱，而是指向 <a href="gg294104(v=exchg.10).md">JET_COLUMNID</a>的指標。</p>
-<p><strong>Windows Vista：  </strong>這可在 Windows Vista 和更新版本中使用。</p></td>
+<p><strong>Windows Vista：</strong>這可在 Windows Vista 和更新版本中使用。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitNonDerivedColumnsOnly</p></td>
 <td><p>只有當資料表衍生自範本) 時，才會傳回非衍生的資料行 (。</p>
 <p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：  </strong>此值是在 Windows Vista 中引進。</p></td>
+<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
 </tr>
 <tr class="even">
 <td><p>JET_ColInfoGrbitMinimalInfo</p></td>
 <td><p>只傳回資料行名稱和每個資料行的 columnid。</p>
 <p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：  </strong>此值是在 Windows Vista 中引進。</p></td>
+<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_ColInfoGrbitSortByColumnid</p></td>
 <td><p>依 columnid 排序傳回的資料行清單 (預設為依資料行名稱排序清單) 。</p>
 <p>當基底<em>InfoLevel</em> JET_ColInfoList 時，此值可以邏輯或進入<em>InfoLevel</em>。</p>
-<p><strong>Windows Vista：  </strong>此值是在 Windows Vista 中引進。</p></td>
+<p><strong>Windows Vista：</strong>此值會在 Windows Vista 中引進。</p></td>
 </tr>
 </tbody>
 </table>
@@ -148,7 +148,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -219,7 +219,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>
@@ -243,7 +243,7 @@ JET_ERR JET_API JetGetTableColumnInfo(
 
 #### <a name="see-also"></a>另請參閱
 
-[可擴充儲存引擎錯誤](./extensible-storage-engine-errors.md)  
+[可擴充的儲存體引擎錯誤](./extensible-storage-engine-errors.md)  
 [錯誤處理參數](./error-handling-parameters.md)  
 [JET_COLUMNBASE](./jet-columnbase-structure.md)  
 [JET_COLUMNDEF](./jet-columndef-structure.md)  

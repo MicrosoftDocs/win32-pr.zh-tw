@@ -3,7 +3,7 @@ title: 'NM_RELEASEDCAPTURE (清單視圖) 通知碼 (Commctrl) '
 description: 通知清單視圖控制項的父視窗，控制項正在放開滑鼠捕捉。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: a43879d9-1465-4c25-936f-cda9b8b8b465
 keywords:
-- NM_RELEASEDCAPTURE (清單視圖) 通知碼 Windows 控制項
+- NM_RELEASEDCAPTURE (清單視圖) 通知程式碼 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f42af9dddf6f9864251eff5e2f5a6aebbfa9cd20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d75717f937c94b4ba19cd78490b0cf9254394dfc7a6766352a9a535ee7405275
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466329"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119319068"
 ---
 # <a name="nm_releasedcapture-list-view-notification-code"></a>NM \_ RELEASEDCAPTURE (清單視圖) 通知碼
 
@@ -55,8 +55,8 @@ NM_RELEASEDCAPTURE
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

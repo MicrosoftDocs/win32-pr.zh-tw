@@ -3,7 +3,7 @@ title: index 命令
 description: Index 命令控制 VCR 的螢幕顯示。 VCR 裝置會辨識此命令。
 ms.assetid: 16066acf-37aa-4bff-b97e-5eb2420ac3c4
 keywords:
-- index 命令 Windows 多媒體
+- 索引命令 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da652b1a7a48dffd9850c435345fcfcb11c2e674
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e9044ce01db5f35354390fd8d09cc085416202f670c8378a2e1a10311b12ab94
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119690548"
 ---
 # <a name="index-command"></a>index 命令
 
@@ -90,7 +90,7 @@ MCI 裝置的識別碼。 開啟裝置時，會指派此識別碼或別名。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

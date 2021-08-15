@@ -4,12 +4,12 @@ ms.assetid: b8930211-82a1-4808-b042-1641e567cb6d
 title: " (Direct3D 9) 清除深度緩衝區"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45ad415b5c92e62da4f64eb590a0e202ffa3e0c0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ce150d729768321cb51abbea9f24ba8b490b7705f35945a4fd03e2a8ed58a039
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989308"
 ---
 # <a name="clearing-depth-buffers-direct3d-9"></a> (Direct3D 9) 清除深度緩衝區
 

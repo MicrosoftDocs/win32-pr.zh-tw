@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7ce15f75f424cb7796ef7db7a8b89bd5bcbfa9cf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ee1a8d45e847f7da785bd09b83e778d140cee68007add882066b508b38043550
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372401"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119119682"
 ---
 # <a name="destination-register-masking"></a>目的地註冊遮罩
 
@@ -35,7 +35,7 @@ ms.locfileid: "104372401"
 
 
 
- 
+ 
 
 -   一般來說，指定目的地登錄寫入遮罩是很好的編碼樣式。 它讓程式碼更容易讀取和維護。
 -   您可以指定任何元件組合 (包括 [無]) ，只要 x 在 y 之前、y 在 z 之前、y 到 z 之前，z 就會在 w 之前。
@@ -91,9 +91,9 @@ ms.locfileid: "104372401"
 [頂點著色器暫存器修飾詞](dx9-graphics-reference-asm-vs-registers-modifiers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

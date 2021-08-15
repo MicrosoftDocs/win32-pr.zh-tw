@@ -4,12 +4,12 @@ ms.assetid: 452f017c-81ce-4be4-9962-4b9c1a9ce849
 title: 'YUV 影片子類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 312a3d9d8e12953353ed0f61fff67a05bf87426b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d31afa11c855b865c7e524d393d1f86ae836e00119a3171b35a3c0c2549d184b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119632688"
 ---
 # <a name="yuv-video-subtypes"></a>YUV 影片子類型
 
@@ -48,7 +48,7 @@ ms.locfileid: "106994889"
 
  
 
-如需 Windows 上影片轉譯的這些 YUV 格式的說明，請參閱 [影片轉譯的建議8位 Yuv 格式](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md) 。
+如需 Windows 上的影片轉譯格式的說明，請參閱[適用于影片轉譯的建議8位 yuv 格式](../medfound/recommended-8-bit-yuv-formats-for-video-rendering.md)。
 
 **其他 YUV 格式類型**
 

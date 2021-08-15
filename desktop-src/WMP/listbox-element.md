@@ -10,12 +10,12 @@ keywords:
 - 元素，LISTBOX
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d9566d11586e995b289a0048dacb29a91921b4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5b9108d8e252260a8aa7a2d9f654118d62ff84f0d53a6f80bc934323a1107ffe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054766"
 ---
 # <a name="listbox-element"></a>LISTBOX 元素
 
@@ -44,7 +44,7 @@ ms.locfileid: "104021235"
 
 
 
- 
+ 
 
 **LISTBOX** 元素支援下列方法。
 
@@ -66,12 +66,12 @@ ms.locfileid: "104021235"
 
 
 
- 
+ 
 
 > [!Note]  
 > 此元素需要 Windows XP 或更新版本的 Windows Media Player。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -83,9 +83,9 @@ ms.locfileid: "104021235"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

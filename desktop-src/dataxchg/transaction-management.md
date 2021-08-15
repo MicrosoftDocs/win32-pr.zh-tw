@@ -1,13 +1,13 @@
 ---
-title: '交易管理 (資料交換) '
+title: '交易管理 (資料 Exchange) '
 description: 本主題討論用戶端如何傳送交易，以從伺服器取得資料和服務。
 ms.assetid: 2d08ffa3-cbd7-4806-b94f-979938322c38
 keywords:
-- 'Windows 消費者介面，動態資料交換 (DDE) '
+- 'Windows消費者介面，動態資料交換 (DDE) '
 - 動態資料交換 (DDE) ，交易
 - DDE (動態資料交換) ，交易
 - '資料交換、動態資料交換 (DDE) '
-- 'Windows 消費者介面、動態資料交換管理程式庫 (DDEML) '
+- 'Windows消費者介面，動態資料交換管理程式庫 (DDEML) '
 - 動態資料交換管理程式庫 (DDEML) ，交易
 - DDEML (動態資料交換管理程式庫) ，交易
 - '資料交換、動態資料交換管理程式庫 (DDEML) '
@@ -37,14 +37,14 @@ keywords:
 - DDEML (動態資料交換管理程式庫) 、非同步交易
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 570aa48b4dcdbb31855b3e1b15a091908feb2ba4
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5065c9e909a4589cd7d2d157fc1151c2efd42a4ddfc3c29d84fd26f0ea184dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128571"
 ---
-# <a name="transaction-management-data-exchange"></a>交易管理 (資料交換) 
+# <a name="transaction-management-data-exchange"></a>交易管理 (資料 Exchange) 
 
 建立與伺服器的對話之後，用戶端就可以傳送交易來取得伺服器的資料和服務。
 
@@ -63,7 +63,7 @@ ms.locfileid: "104023617"
 
 用戶端應用程式可以使用 [**XTYP \_ 要求**](xtyp-request.md) 交易來要求伺服器應用程式中的資料項目。 用戶端會呼叫 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) 函式，並將 **XTYP \_ 要求** 指定為交易類型並指定應用程式所需的資料項目。
 
-動態資料交換管理程式庫 (DDEML) 會將 [**XTYP \_ 要求**](xtyp-request.md) 交易傳遞至伺服器，並指定用戶端所要求的主題名稱、專案名稱和資料格式。 如果伺服器支援要求的主題、專案及格式，伺服器應該會傳回識別專案目前值的資料控制碼。 DDEML 會將這個控制碼傳遞給用戶端，做為 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)的傳回值。 如果伺服器不支援所要求的主題、專案或格式，則應該傳回 **Null** 。
+動態資料交換管理程式庫 (DDEML) 會將 [**XTYP \_ 要求**](xtyp-request.md)交易傳遞至伺服器，並指定用戶端所要求的主題名稱、專案名稱和資料格式。 如果伺服器支援要求的主題、專案及格式，伺服器應該會傳回識別專案目前值的資料控制碼。 DDEML 會將這個控制碼傳遞給用戶端，做為 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction)的傳回值。 如果伺服器不支援所要求的主題、專案或格式，則應該傳回 **Null** 。
 
 [**DdeClientTransaction**](/windows/desktop/api/Ddeml/nf-ddeml-ddeclienttransaction) 使用 *lpdwResult* 參數將交易狀態旗標傳回至用戶端。 如果伺服器未處理 [**XTYP \_ 要求**](xtyp-request.md) 交易， **DdeClientTransaction** 會傳回 **Null**，而 *lpdwResult* 會指向 dde \_ FNOTPROCESSED 或 dde \_ FBUSY 旗標。 如果傳回了 DDE \_ FNOTPROCESSED 旗標，用戶端就無法判斷伺服器為何無法處理交易。
 

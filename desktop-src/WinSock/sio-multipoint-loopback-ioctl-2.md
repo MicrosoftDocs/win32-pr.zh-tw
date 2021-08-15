@@ -4,12 +4,12 @@ ms.assetid: 7e11932b-ce9a-4500-888f-8a08ab67b46c
 title: SIO_MULTIPOINT_LOOPBACK Ioctl
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c9f0c7527c8c8b8b32b872eccbbbcdc9a3a2c35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b75c781aeeaa67327dd2eaa57efb1eaccaf5d1d62daf3ffa9de3ce63fedbe2a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120097508"
 ---
 # <a name="sio_multipoint_loopback-ioctl"></a>SIO \_ MULTIPOINT \_ 回送 Ioctl
 

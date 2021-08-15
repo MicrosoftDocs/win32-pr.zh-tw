@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 1b9ff5e503670d8cb4377ecbf41a7687f8d45677
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6339661461992eca53840e5f7c0664e0843504b4f787adcb65e6c5202b601729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984628"
 ---
 # <a name="xmmatrix-constructors"></a>XMMATRIX 函式
 

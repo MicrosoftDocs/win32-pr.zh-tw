@@ -3,7 +3,7 @@ title: 'TBM_SETPOS 訊息 (Commctrl .h) '
 description: TBM_SETPOS 訊息：設定捲軸中滑杆的目前邏輯位置。
 ms.assetid: df6c4e5d-2847-419d-82b5-334d53bb6ba1
 keywords:
-- TBM_SETPOS message Windows 控制項
+- TBM_SETPOS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f10e05a677119f18489d0eb9eebc4528d3ad115
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 3ccd1cb35f8cde672c51baafe5623291e5449f90aa118eb36cb12152fe155385
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078042"
 ---
 # <a name="tbm_setpos-message"></a>TBM \_ SETPOS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "108085866"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

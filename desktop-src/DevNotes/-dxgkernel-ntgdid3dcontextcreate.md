@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntgdi.h
-ms.openlocfilehash: f59a80d3efd5e077bc1eadea66255ff5e6ea7523
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a11ae1d1e9b9469f22971ec3fc7447d8552b6d263bb43f4a8fe336ccbbc37a69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017736"
 ---
 # <a name="ntgdid3dcontextcreate-function"></a>NtGdiD3DCoNtextCreate 函式
 

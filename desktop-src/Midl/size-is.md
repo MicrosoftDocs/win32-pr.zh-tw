@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f65a4c3ea93ea9ed55ce4f6f9ce846c81b60fa40
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 9bd57748d3ad92407fd65f3a6af7fc1ebb68321b576d57a50b6ba6f5546f8d63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681769"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119066698"
 ---
 # <a name="size_is-attribute"></a>大小 \_ 為屬性
 
@@ -136,12 +136,12 @@ HRESULT Proc6(
 [**最小值 \_ 為**](min-is.md)
 </dt> <dt>
 
-[**擴展**](out-idl.md)
+[**out**](out-idl.md)
 </dt> <dt>
 
-[**字串**](string.md)
+[**string**](string.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

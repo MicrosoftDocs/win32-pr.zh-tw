@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: f24fad2e74c3ec2a5b489d8f5dd57265ea6d21bf
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 37a4985754982b8b64246d8d0d0fac0d2c37f4a37f159d2e5087497442c97a75
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119712938"
 ---
 # <a name="ibasicdeviceserialnumber-method"></a>IBasicDevice：： SerialNumber 方法
 

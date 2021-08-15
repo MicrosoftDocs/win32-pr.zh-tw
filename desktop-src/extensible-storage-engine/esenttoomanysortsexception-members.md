@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103121
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: c4ae024fb75334cab047f3437e7facbffed1d44e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d02e875e4a0f4888e38892b0325e7a129f9d33e9212dd843f5353819ab5df09
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093815"
 ---
 # <a name="esenttoomanysortsexception-members"></a>EsentTooManySortsException 成員
 

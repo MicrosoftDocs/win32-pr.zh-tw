@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: a813453f9b5d1a89525e5b67cc22659281d04cb5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d7e5c937610b06a58309181a4dad2c95846d287b335c8ab6b2fed9008f338f3e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104317612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118985478"
 ---
 # <a name="span-idvspixengineremotingversionspanremotingversion-enumeration"></a><span id="vspixengine.remotingversion"></span>REMOTINGVERSION 列舉
 

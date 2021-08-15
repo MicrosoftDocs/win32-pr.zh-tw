@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 7142163b-ee2c-43e3-9c17-3e039abbeeaf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ebf5623b1ed0b1ea312625f6682a0f35e31c2578
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2877c4b9000adf15fbef4cd43c48ab292a7f418c20b8a896f9ed08ffa88078bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376121"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083772"
 ---
 # <a name="wmformat-glossary"></a>WMFormat 詞彙
 
@@ -51,7 +51,7 @@ ms.locfileid: "104376121"
 <span id="wmformat.clear_content"></span><span id="WMFORMAT.CLEAR_CONTENT"></span>**清除內容**
 </dt> <dd>
 
-未加密的 Windows Media 檔案。
+未加密 Windows 媒體檔案。
 
 </dd> <dt>
 
@@ -72,14 +72,14 @@ ms.locfileid: "104376121"
 <span id="wmformat.content_header"></span><span id="WMFORMAT.CONTENT_HEADER"></span>**內容標頭**
 </dt> <dd>
 
-Windows Media 檔案的檔案結構的一部分，其中包含用戶端電腦解壓縮和轉譯內容資料所需的資訊。 在封裝的檔案中，有其他內容標頭存在，並且包含金鑰識別碼、內容識別碼和授權取得 URL。 此內容標頭也可以包含必要的個人化版本號碼，以及內容提供者定義的屬性。
+Windows 媒體檔案的檔案結構的一部分，其中包含用戶端電腦解壓縮和轉譯內容資料所需的資訊。 在封裝的檔案中，有其他內容標頭存在，並且包含金鑰識別碼、內容識別碼和授權取得 URL。 此內容標頭也可以包含必要的個人化版本號碼，以及內容提供者定義的屬性。
 
 </dd> <dt>
 
 <span id="wmformat.content_owner"></span><span id="WMFORMAT.CONTENT_OWNER"></span>**內容擁有** 者
 </dt> <dd>
 
-建立 Windows Media 檔案的人員或組織，例如記錄標籤、movie studio 或演出者。
+建立 Windows 媒體檔案的人員或組織，例如記錄標籤、movie studio 或演出者。
 
 </dd> <dt>
 
@@ -132,17 +132,17 @@ Windows Media 檔案的檔案結構的一部分，其中包含用戶端電腦解
 
 </dd> <dt>
 
-<span id="wmformat.directx_media_object__dmo_"></span><span id="WMFORMAT.DIRECTX_MEDIA_OBJECT__DMO_"></span>**DirectX 媒體物件 (])**
+<span id="wmformat.directx_media_object__dmo_"></span><span id="WMFORMAT.DIRECTX_MEDIA_OBJECT__DMO_"></span>**DirectX 媒體物件 (DMO)**
 </dt> <dd>
 
 從用戶端配置的緩衝區處理多媒體資料流程的 COM 物件。
 
 </dd> <dt>
 
-<span id="wmformat.dmo"></span><span id="WMFORMAT.DMO"></span>**Sql-dmo**
+<span id="wmformat.dmo"></span><span id="WMFORMAT.DMO"></span>**DMO**
 </dt> <dd>
 
-請參閱： [ *DirectX 媒體物件 (* 的定義)](/windows)
+請參閱： [ *DirectX 媒體物件 (DMO)* 的定義](/windows)
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ Windows Media 檔案的檔案結構的一部分，其中包含用戶端電腦解
 <span id="wmformat.index"></span><span id="WMFORMAT.INDEX"></span>**索引**
 </dt> <dd>
 
-Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您在影片檔案中進行搜尋。
+Windows 媒體格式軟體發展工具組 () SDK 所產生的標記，可讓您在影片檔案中進行搜尋。
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您�
 <span id="wmformat.key"></span><span id="WMFORMAT.KEY"></span>**金鑰**
 </dt> <dd>
 
-將已封裝的 Windows Media 檔案解除鎖定所需的資料片段。 此金鑰包含在個別的授權中。
+解除鎖定封裝 Windows 媒體檔案所需的資料片段。 此金鑰包含在個別的授權中。
 
 </dd> <dt>
 
@@ -233,7 +233,7 @@ Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您�
 <span id="wmformat.key_id"></span><span id="WMFORMAT.KEY_ID"></span>**金鑰識別碼**
 </dt> <dd>
 
-值，識別受保護之 Windows Media 檔案的金鑰。
+值，識別受保護 Windows 媒體檔案的金鑰。
 
 </dd> <dt>
 
@@ -247,14 +247,14 @@ Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您�
 <span id="wmformat.license_acquisition"></span><span id="WMFORMAT.LICENSE_ACQUISITION"></span>取得 **授權**
 </dt> <dd>
 
-取得授權以播放封裝的 Windows Media 檔案的程式。 播放程式會嘗試從授權取得 URL 取得授權（在 Windows Media 檔案中指定）。
+取得授權以播放封裝 Windows 媒體檔案的程式。 播放程式會嘗試從授權取得 URL 取得授權（在 Windows 媒體檔案中指定）。
 
 </dd> <dt>
 
 <span id="wmformat.license_management_service"></span><span id="WMFORMAT.LICENSE_MANAGEMENT_SERVICE"></span>**授權管理服務**
 </dt> <dd>
 
-在 Windows Media Rights Manager 軟體發展工具組中執行授權管理程式的 Microsoft 服務 (SDK) 。
+在 Windows 媒體版權管理員軟體發展工具組 (SDK) 中執行授權管理程式的 Microsoft 服務。
 
 </dd> <dt>
 
@@ -289,14 +289,14 @@ Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您�
 <span id="wmformat.licensing_server"></span><span id="WMFORMAT.LICENSING_SERVER"></span>**授權伺服器**
 </dt> <dd>
 
-執行 Windows Media 授權服務併發出授權的電腦。
+執行 Windows 媒體授權服務併發出授權的電腦。
 
 </dd> <dt>
 
 <span id="wmformat.marker"></span><span id="WMFORMAT.MARKER"></span>**標記**
 </dt> <dd>
 
-與 Windows Media 內容中指定時間相關聯的文字字串。 標記通常表示開始播放的方便點，例如新場景的起點。
+Windows 媒體內容中，與指定時間相關聯的文字字串。 標記通常表示開始播放的方便點，例如新場景的起點。
 
 </dd> <dt>
 
@@ -335,17 +335,17 @@ Windows Media Format 軟體發展工具組 (SDK) 所產生的標記，可讓您�
 
 </dd> <dt>
 
-<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**封裝的 Windows Media** 檔案
+<span id="wmformat.packaged_windows_media_file"></span><span id="WMFORMAT.PACKAGED_WINDOWS_MEDIA_FILE"></span>**封裝 Windows 媒體** 檔案
 </dt> <dd>
 
-以金鑰加密的 Windows Media 檔案，除非使用者擁有授權所提供的金鑰，否則無法播放這些取用者。 封裝的 Windows Media 檔案是由使用 Windows Media Rights Manager 軟體發展工具組 (SDK) 或以 Microsoft Windows Media Format SDK 為基礎的程式，透過數位版權管理的實施而受到保護。
+以金鑰加密的 Windows 媒體檔案，除非使用者擁有授權所提供的金鑰，否則無法播放這些取用者。 封裝 Windows 媒體檔案是由使用 Windows 媒體版權管理員軟體發展工具組 (SDK) 或以 Microsoft Windows 媒體格式 sdk 為基礎的程式所產生，並受到保護。
 
 </dd> <dt>
 
 <span id="wmformat.packaging"></span><span id="WMFORMAT.PACKAGING"></span>**封裝**
 </dt> <dd>
 
-保護和簽署 Windows Media 檔案的程式，產生封裝的 Windows Media 檔案。 封裝套裝程式括產生或指定金鑰、產生和簽署內容標頭，然後使用這項資訊來加密 Windows Media 檔案。
+保護和簽署 Windows 媒體檔案的程式，產生封裝的 Windows 媒體檔案。 封裝套裝程式括產生或指定金鑰、產生和簽署內容標頭，然後使用這項資訊來加密 Windows 媒體檔案。
 
 </dd> <dt>
 
@@ -475,21 +475,21 @@ TCP/IP 通訊協定堆疊中沒有連線的傳輸通訊協定，它是用在可�
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Windows Media** 檔案
+<span id="wmformat.windows_media_file"></span><span id="WMFORMAT.WINDOWS_MEDIA_FILE"></span>**Windows 媒體** 檔案
 </dt> <dd>
 
-包含音訊、視訊或指令碼資料的檔案。 檔案的內容是以其中一種 Windows Media 編解碼器編碼。
+包含音訊、視訊或指令碼資料的檔案。 檔案的內容會使用其中一個 Windows 媒體編解碼器進行編碼。
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**Windows Media 格式**
+<span id="wmformat.windows_media_format"></span><span id="WMFORMAT.WINDOWS_MEDIA_FORMAT"></span>**Windows 媒體格式**
 </dt> <dd>
 
-以 Windows Media 編解碼器編碼的數位媒體檔案或資料流程的格式。
+使用 Windows 媒體編解碼器編碼的數位媒體檔案或資料流程的格式。
 
 </dd> <dt>
 
-<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**Windows Media 授權服務**
+<span id="wmformat.windows_media_license_service"></span><span id="WMFORMAT.WINDOWS_MEDIA_LICENSE_SERVICE"></span>**Windows 媒體授權服務**
 </dt> <dd>
 
 Windows Media Rights Manager SDK 的元件，可提供授權取得服務。
@@ -503,6 +503,6 @@ Windows Media Rights Manager SDK 的元件，可提供授權取得服務。
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

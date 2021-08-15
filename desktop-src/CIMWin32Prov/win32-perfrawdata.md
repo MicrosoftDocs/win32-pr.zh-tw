@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - WmiPerfInst.dll
-ms.openlocfilehash: db5b74ae7508d15a48d2f71c3a586ad7e40362f7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f6500706b7e2298ad98aa894e33436b0306e406e003562fcb6533265abd0b2be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020126"
 ---
 # <a name="win32_perfrawdata-class"></a>Win32 \_ PerfRawData 類別
 
@@ -138,7 +138,7 @@ class Win32_PerfRawData : Win32_Perf
 存取類型：唯讀
 </dt> </dl>
 
-**Frequency \_ PerfTime** 屬性每秒的頻率（以刻度為單位）。 您可以藉由呼叫 Windows 函式 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
+**Frequency \_ PerfTime** 屬性每秒的頻率（以刻度為單位）。 您可以藉由呼叫 Windows 函數 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/previous-versions//aa393262(v=vs.85))。
 
@@ -207,7 +207,7 @@ class Win32_PerfRawData : Win32_Perf
 存取類型：唯讀
 </dt> </dl>
 
-High 效能計數器時間戳記。 您可以藉由呼叫 Windows 函式 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
+High 效能計數器時間戳記。 您可以藉由呼叫 Windows 函數 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)來取得值。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/previous-versions//aa393262(v=vs.85))。
 

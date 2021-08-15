@@ -3,7 +3,7 @@ title: 'TVM_DELETEITEM 訊息 (Commctrl .h) '
 description: 從樹狀檢視控制項中移除專案及其所有子系。 您可以使用 TreeView DeleteItem 宏明確地傳送此訊息 \_ 。
 ms.assetid: 225420a5-6ded-4786-a080-2817aa5f66c9
 keywords:
-- TVM_DELETEITEM message Windows 控制項
+- TVM_DELETEITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8783fd5acdf7319699cdc67cbb3ea075e4dbbc28
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7ef0165ffaf1f0f04b32cda43e21c97fed012ad6d61b32f8919612f8924f7c66
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119018686"
 ---
 # <a name="tvm_deleteitem-message"></a>TVM \_ DELETEITEM 訊息
 
@@ -61,8 +61,8 @@ ms.locfileid: "104465465"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

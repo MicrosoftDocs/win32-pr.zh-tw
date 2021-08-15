@@ -4,17 +4,17 @@ ms.assetid: 0c4df76d-3991-4a6c-a8e5-5fd713eeffc2
 title: PlayPeriodInTitleAutoStop 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d05899b66b7f1a11f8f5b177d311b9634a52595b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93dbf0a5c157efcf4d22e7e5ba650bfdfebc57fe6a43d319e0be14958d732024
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119564058"
 ---
 # <a name="playperiodintitleautostop-method"></a>PlayPeriodInTitleAutoStop 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

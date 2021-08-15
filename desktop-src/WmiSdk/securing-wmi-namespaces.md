@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 保護 WMI 命名空間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f605a6cd1136e70d6c5243b9e143fdb167d41808
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b3cdf2b6e5c5cf035fed70e3e0dd949a812505f1f1ded8f1599043cdd75ba4c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992368"
 ---
 # <a name="securing-wmi-namespaces"></a>保護 WMI 命名空間
 
@@ -24,7 +24,7 @@ WMI 命名空間及其資料的存取權是由 [*安全描述項*](gloss-s.md)�
 <span id="Access_to_WMI_Namespaces"></span><span id="access_to_wmi_namespaces"></span><span id="ACCESS_TO_WMI_NAMESPACES"></span>[存取 WMI 命名空間](access-to-wmi-namespaces.md)
 </dt> <dd>
 
-WMI 命名空間安全性依賴標準的 Windows 使用者 [*安全識別碼*](/windows/desktop/SecGloss/s-gly) (sid) 和存取控制清單。 系統管理員和使用者有不同的預設許可權。
+WMI 命名空間安全性相依于標準 Windows 使用者 [*安全識別碼*](/windows/desktop/SecGloss/s-gly) (sid) 和存取控制清單。 系統管理員和使用者有不同的預設許可權。
 
 </dd> <dt>
 

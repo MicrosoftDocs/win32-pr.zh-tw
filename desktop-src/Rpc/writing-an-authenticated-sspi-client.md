@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、工作、撰寫已驗證的 SSPI 用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8476772a2ed652f6646b078c2876234cbcc0d6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 7445d5340b03f07805a9e2ab89deb8c915a76160db67b504259ae8de0bbabee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119010356"
 ---
 # <a name="writing-an-authenticated-sspi-client"></a>撰寫經過驗證的 SSPI 用戶端
 
@@ -70,9 +70,9 @@ rpcStatus = RpcBindingSetAuthInfo(
 從系結控制碼解壓縮用戶端認證的程式會如下所示：
 
 -   RPC 用戶端會呼叫 [**RpcBindingSetAuthInfo**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindingsetauthinfo) ，並在傳遞至伺服器的系結資訊中包含其驗證資訊。
--   通常，伺服器會呼叫 [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) ，以便如同用戶端一樣運作。 如果系結控制碼未經過驗證，則呼叫會失敗，而且 RPC \_ S \_ 沒有 \_ 內容 \_ 可用。 若要取得用戶端的使用者名稱，請在模擬時呼叫 [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) ，或是在 windows XP 或更新版本的 windows 上呼叫 [**RpcGetAuthorizationCoNtextForClient**](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient) 來取得授權內容，然後使用 Authz 函式來取得名稱。
+-   通常，伺服器會呼叫 [**RpcImpersonateClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcimpersonateclient) ，以便如同用戶端一樣運作。 如果系結控制碼未經過驗證，則呼叫會失敗，而且 RPC \_ S \_ 沒有 \_ 內容 \_ 可用。 若要取得用戶端的使用者名稱、在模擬時呼叫 [**RpcBindingInqAuthClient**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcbindinginqauthclient) ，或在 Windows XP 或更新版本的 Windows 上呼叫 RpcGetAuthorizationCoNtextForClient，請呼叫 [](/windows/desktop/api/Rpcasync/nf-rpcasync-rpcgetauthorizationcontextforclient)以取得授權內容，然後使用 Authz 函式來取得名稱。
 -   伺服器通常會呼叫 [**CreatePrivateObjectSecurity**](/windows/desktop/api/securitybaseapi/nf-securitybaseapi-createprivateobjectsecurity) 來建立具有 acl 的物件。 完成這項作業之後，稍後的安全性檢查就會變成自動。
 
- 
+ 
 
- 
+ 

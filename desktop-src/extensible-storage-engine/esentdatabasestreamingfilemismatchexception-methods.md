@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101448
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 77f86305c6671579be2ebadb453cf584da7e2195
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e99cf9cfe426aab28effa763bc1231debb1523b35a897fdad15abc4f41320d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982450"
 ---
 # <a name="esentdatabasestreamingfilemismatchexception-methods"></a>EsentDatabaseStreamingFileMismatchException 方法
 

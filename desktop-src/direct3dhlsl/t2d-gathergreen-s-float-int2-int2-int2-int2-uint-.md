@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e98bc8b34514cf2ac54e7fd96916c66c9f2a53d1
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 333c248490e4594829d92653ee1309e3046e3bf64818bc9592807cf333c41e3e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104974244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120094888"
 ---
 # <a name="texture2dgathergreensfloatint2int2int2int2uint-function"></a>Texture2D：： GatherGreen (S、float、int2、int2、int2、int2、uint) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherGreen(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

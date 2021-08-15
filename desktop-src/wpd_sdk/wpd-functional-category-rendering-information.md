@@ -4,12 +4,12 @@ ms.assetid: 84ec6f14-fe90-42a5-ba2b-6c4cc406935c
 title: WPD_FUNCTIONAL_CATEGORY_RENDERING_INFORMATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 41bf2a5b981b75820b566e3133faab22c2f35860
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0a0665d9918726495d72b318b60a39a4713c01c9ad3a80ab0dbe15be5fc87576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083242"
 ---
 # <a name="wpd_functional_category_rendering_information"></a>WPD \_ 功能 \_ 類別 \_ 轉譯 \_ 資訊
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別轉譯 \_ \_ 資訊功能物件描述裝置可轉譯的�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 | [WPD \_ 轉譯 \_ 資訊 \_ 設定檔](miscellaneous-properties.md)              | 必要。                                                                                                                                              |
 | [WPD \_ 轉譯 \_ 資訊 \_ 設定檔 \_ 專案 \_ 類型](miscellaneous-properties.md)                                     | 選擇性。                                                                                                                                              |
 | [WPD \_ 轉譯 \_ 資訊 \_ 設定檔 \_ 專案的 \_ \_ 資源](miscellaneous-properties.md)                      | 選擇性。                                                                                                                                              |

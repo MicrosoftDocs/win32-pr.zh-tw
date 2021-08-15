@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: HAVING 子句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f93fbe082fb2f655dfad59d7642e1d0ff9a33e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2662ea337c5664130eb9973c049431daedefe3c947c45eb397a950522fea6bcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993158"
 ---
 # <a name="having-clause"></a>HAVING 子句
 
