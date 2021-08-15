@@ -47,12 +47,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eb13ccb79a9cf2c309a32772a73b393756c7bdd
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 15e58618a59beb484e09967af42bd75c527a87693d7aed25cb86857e776c382d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106997608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117756915"
 ---
 # <a name="imstscnonscriptablebinarysalt-property"></a>IMsTscNonScriptable：： BinarySalt 屬性
 

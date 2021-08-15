@@ -4,9 +4,9 @@
     - name: 列印功能的新功能
       href: what-s-new-for-printing-in-windows-vnext.md
       items:
-        - name: 在 Windows 7 中列印的新功能
+        - name: Windows 7 中列印的新功能
           href: what-s-new-in-windows-7.md
-        - name: Windows Vista 中的列印功能新功能
+        - name: Windows Vista 中列印的新功能
           href: what-s-new-in-windows-vista.md
     - name: OpenXPS 列印的應用程式支援
       href: app-support-for-openxps-printing.md
@@ -164,7 +164,7 @@
                     - name: IXpsOMColorProfileResourceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomcolorprofileresourcecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcolorprofileresourcecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomcolorprofileresourcecollection-getat
@@ -252,7 +252,7 @@
                     - name: IXpsOMDashCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdashcollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdashcollection-getat
@@ -267,7 +267,7 @@
                     - name: IXpsOMDictionary
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdictionary
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdictionary-append
                         - name: 複製
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdictionary-clone
@@ -309,7 +309,7 @@
                     - name: IXpsOMDocumentCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomdocumentcollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentcollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomdocumentcollection-getat
@@ -353,7 +353,7 @@
                     - name: IXpsOMFontResourceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomfontresourcecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresourcecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomfontresourcecollection-getat
@@ -424,7 +424,7 @@
                     - name: IXpsOMGeometryFigureCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgeometryfigurecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigurecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgeometryfigurecollection-getat
@@ -573,7 +573,7 @@
                     - name: IXpsOMGradientStopCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomgradientstopcollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstopcollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomgradientstopcollection-getat
@@ -610,7 +610,7 @@
                     - name: IXpsOMImageResourceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomimageresourcecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomimageresourcecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomimageresourcecollection-getat
@@ -902,7 +902,7 @@
                     - name: IXpsOMPageReferenceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsompagereferencecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereferencecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsompagereferencecollection-getat
@@ -935,7 +935,7 @@
                     - name: IXpsOMPartUriCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomparturicollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomparturicollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomparturicollection-getat
@@ -1065,7 +1065,7 @@
                     - name: IXpsOMRemoteDictionaryResourceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomremotedictionaryresourcecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomremotedictionaryresourcecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomremotedictionaryresourcecollection-getat
@@ -1100,7 +1100,7 @@
                     - name: IXpsOMSignatureBlockResourceCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomsignatureblockresourcecollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomsignatureblockresourcecollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomsignatureblockresourcecollection-getat
@@ -1233,7 +1233,7 @@
                     - name: IXpsOMVisualCollection
                       href: /windows/desktop/api/xpsobjectmodel/nn-xpsobjectmodel-ixpsomvisualcollection
                       items:
-                        - name: Append
+                        - name: 附加
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisualcollection-append
                         - name: GetAt
                           href: /windows/desktop/api/xpsobjectmodel/nf-xpsobjectmodel-ixpsomvisualcollection-getat
@@ -2091,7 +2091,7 @@
             - name: 'Microsoft XPS Document Writer (MXDW) '
               href: microsoft-xps-document-writer.md
               items:
-                - name: MXDW 設定
+                - name: MXDW Configuration 設定
                   href: mxdw-configuration-settings.md
         - name: XPS 列印 API
           href: xps-printing.md

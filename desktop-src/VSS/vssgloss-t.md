@@ -5,12 +5,12 @@ ms.assetid: 84c00072-74d9-4629-980c-7308f9b641c0
 title: 'T (磁碟區陰影複製服務) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fae6d3f19d8501efc8c60332a029f4682a2e763
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cb1511a4b696d9aaeb70c9186cd2d5c79f1b8f23c107f985237d18aa109bfda9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511509"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751194"
 ---
 # <a name="t-volume-shadow-copy-service"></a>T (磁碟區陰影複製服務) 
 

@@ -4,12 +4,12 @@ ms.assetid: f46bd57d-7684-4a08-8ac7-de204aecb207
 title: 保留和認可記憶體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66ff5853d01561454265e1ee2102fbf6ebd9bb04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 615f3c4321dc432b5ef83a841cea12215563e7d103443512a4d3b2c553849540
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989065"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118386276"
 ---
 # <a name="reserving-and-committing-memory"></a>保留和認可記憶體
 

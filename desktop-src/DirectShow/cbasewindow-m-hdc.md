@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1e6bb2661af96ab4c32f97d56856c5420dab4c0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0cd5f994f43a1b96be2ce19b0e7d38b0416286e4d39b4f89a425e5468737de47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106974919"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822493"
 ---
 # <a name="cbasewindowm_hdc-member"></a>CBaseWindow：： m \_ hdc 成員
 

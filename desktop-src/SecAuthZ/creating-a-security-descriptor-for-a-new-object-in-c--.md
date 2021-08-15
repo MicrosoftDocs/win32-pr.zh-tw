@@ -4,12 +4,12 @@ ms.assetid: 866992a7-95c4-4094-87bb-e6d8eeb24317
 title: 在 c + + 中建立新物件的安全描述項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17687b60999bc4e6828c9769eec32ec4ce5afb54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb97acf8a2c7c35d42c54a10baeabaa193f880d11a505ac459e6c705be28dd8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848358"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782632"
 ---
 # <a name="creating-a-security-descriptor-for-a-new-object-in-c"></a>在 c + + 中建立新物件的安全描述項
 

@@ -3,12 +3,12 @@ description: 許多主控台應用程式會顯示內容內容表，讓使用者�
 title: 如何註冊和執行主控台應用程式的屬性工作表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47f7f8fe80bf5c7baceddac64d513d950378bcdf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6865e8e50aefdea3e3d25c29c9abd3bbbabf5c6af3b770537ed187f8b055bdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849190"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859587"
 ---
 # <a name="how-to-register-and-implement-a-property-sheet-handler-for-a-control-panel-application"></a>如何註冊和執行主控台應用程式的屬性工作表處理常式
 
@@ -25,7 +25,7 @@ ms.locfileid: "103849190"
 
 ### <a name="technologies"></a>技術
 
--   殼層
+-   Shell
 
 ### <a name="prerequisites"></a>必要條件
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 79d3abbed038e09f2e73c62e5e3d9b16545e8f60
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 481e64c00ced458be05255af451206a42d449c42d157794dfd1077cf2dda278a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721088"
 ---
 # <a name="ishelldispatch2-object"></a>IShellDispatch2 物件
 
@@ -59,7 +59,7 @@ ms.locfileid: "104972388"
 
 ## <a name="remarks"></a>備註
 
-如需 Windows 服務的討論，請參閱 [服務](../services/services.md) 檔。
+如需 Windows 服務的討論，請參閱[服務](../services/services.md)檔。
 
 ## <a name="requirements"></a>規格需求
 
@@ -67,8 +67,8 @@ ms.locfileid: "104972388"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (5.0 版或更新版本) </dt> </dl> |

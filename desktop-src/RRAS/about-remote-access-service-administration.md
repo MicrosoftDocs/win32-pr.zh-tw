@@ -9,12 +9,12 @@ keywords:
 - RAS 管理 RRAS，說明
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73bdb55049e99b6d3df9980fc35879341b488531
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 67939d142763f45bc2eb52e959d8448904559c98357544c6c858b46e8f87a917
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106980265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117792281"
 ---
 # <a name="about-remote-access-service-administration"></a>關於遠端存取服務管理
 
@@ -37,9 +37,9 @@ Windows 2000 和更新版本的作業系統提供一組功能，可在 RAS 伺�
 -   [RAS 系統管理 DLL](ras-administration-dll.md)
 -   [RAS 管理 DLL 登錄設定](ras-administration-dll-registry-setup.md)
 
- 
+ 
 
- 
+ 
 
 
 

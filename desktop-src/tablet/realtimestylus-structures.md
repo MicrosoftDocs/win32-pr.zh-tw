@@ -19,7 +19,7 @@ ms.locfileid: "118449318"
 
 
 
-| 結構                                        | 描述                                                           |
+| 結構                                        | Description                                                           |
 |--------------------------------------------------|-----------------------------------------------------------------------|
 | [**StylusInfo 結構**](/windows/desktop/api/RTSCom/ns-rtscom-stylusinfo)       | 提供定義手勢之筆觸的相關資訊。<br/> |
 | [**系統 \_ 事件 \_ 資料**](/windows/win32/api/tpcshrd/ns-tpcshrd-system_event_data) | 包含 tablet 系統事件的相關資訊。<br/>          |

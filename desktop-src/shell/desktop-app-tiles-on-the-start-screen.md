@@ -4,12 +4,12 @@ ms.assetid: EF5182A2-09B2-46F2-B55E-4BD212CC1F7F
 title: '[開始] 畫面上的桌面應用程式磚'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fcc5475732926300e2125ae9e97ea2d188bc468
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 44ed35bd5c8405301e872ef54774914d625e1fc06c6a9fc3c26965e130301eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104321368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861219"
 ---
 # <a name="desktop-app-tiles-on-the-start-screen"></a>[開始] 畫面上的桌面應用程式磚
 
@@ -38,9 +38,9 @@ DO：提供四個支援開始畫面縮放值的圖示，以確保您的圖示在
 
  
 
-DO：採用 Microsoft 設計原則。 圖示的新外觀和風格是平面的，因此，如果您想要為傳統型應用程式模仿 Windows Store 應用程式圖示，請考慮捨棄陰影等。
+DO：採用 Microsoft 設計原則。 圖示的新外觀和風格是平面的，因此，如果您想要模擬 Windows 儲存桌面應用程式的應用程式圖示，請考慮卸載陰影等。
 
-請勿：避免使用色彩。 雖然 Windows Store 應用程式圖示有時是單色的，但我們建議使用桌面應用程式的色彩圖示。 這有助於區分工作列上的桌面應用程式，以及從開始畫面中的其他桌面應用程式磚，因為無法自訂桌面磚的背景色彩。 請考慮使用更飽和的色彩。
+請勿：避免使用色彩。 雖然 Windows 存放區應用程式圖示有時會單色，但我們建議使用桌面應用程式的色彩圖示。 這有助於區分工作列上的桌面應用程式，以及從開始畫面中的其他桌面應用程式磚，因為無法自訂桌面磚的背景色彩。 請考慮使用更飽和的色彩。
 
 ## <a name="decide-the-right-entry-points-to-include-in-the-start-screen"></a>決定要包含在開始畫面中的正確進入點
 
@@ -48,7 +48,7 @@ DO：採用 Microsoft 設計原則。 圖示的新外觀和風格是平面的，
 
 ![顯示具有應用程式磚、維度和 ' Segoe U I Semilight 做 ' 之方格的圖表，以指出所使用的字型。](images/tiles-desktop-2.png)
 
-請勿：不提供相同應用程式的多個快捷方式。 例如，在兩個不同的模式下都沒有啟動應用程式的兩個快捷方式，例如一個用於 Windows Internet Explorer，另一個用於沒有附加元件的 Internet Explorer。
+請勿：不提供相同應用程式的多個快捷方式。 例如，在兩個不同的模式下都沒有啟動應用程式的兩個快捷方式，例如一個用於 Windows Internet Explorer，另一個用於不含附加元件的 Internet Explorer。
 
 DO：將在安裝過程中新增的磚數目降至最低。 請考慮將其他進入點公開給多餘的應用程式。 例如，您不需要在主控台應用程式中包含個別的設定應用程式，而是透過主控台應用程式中的功能來存取設定。
 
@@ -60,7 +60,7 @@ DO：將在安裝過程中新增的磚數目降至最低。 請考慮將其他�
 -   網站。 直接在您的應用程式中提供任何適當的資訊連結，例如說明和技術支援網站。
 -   嚮導。 您應該從應用程式內啟動嚮導和其他一次性設定工作。
 
-請勿：不要建立可從應用程式本身內啟動的功能或功能的快捷方式。 例如，您可以從任何 Microsoft Office 應用程式設定語言設定，因此在開始畫面上也不需要有個別的語言設定進入點。
+請勿：不要建立可從應用程式本身內啟動的功能或功能的快捷方式。 例如，您可以從任何 Microsoft Office 應用程式設定 language 設定，因此在開始畫面上也不需要有個別的語言設定進入點。
 
 不要：不要對不是可執行檔的專案建立快捷方式。 未對應到可執行檔的快捷方式（例如啟動網站或說明檔的快捷方式）會從開始畫面中篩選出來。
 

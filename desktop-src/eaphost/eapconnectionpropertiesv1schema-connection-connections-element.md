@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5aabc29a7fe5122a7f7571750b97ebccb38158d8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6948675f7910c46cb2b5db4285ce0df795fa057f275ce29b7f4c664b14c4ce1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498368"
 ---
 # <a name="connection-connections-element"></a>連接) 元素 (連接
 
@@ -50,7 +50,7 @@ ms.locfileid: "106966507"
 | 元素                                                                 | 類型   | Description                                                                                                             |
 |-------------------------------------------------------------------------|--------|-------------------------------------------------------------------------------------------------------------------------|
 | [**Eap**](baseeapconnectionpropertiesv1schema-eap-element.md)          |        | 識別 EAP 設定元素。<br/>                                                                    |
-| [**名稱**](eapconnectionpropertiesv1schema-name-connection-element.md) | 字串 | 會捕獲所定義之連接的名稱，以協助識別多個連接。 <br/> |
+| [**名稱**](eapconnectionpropertiesv1schema-name-connection-element.md) | string | 會捕獲所定義之連接的名稱，以協助識別多個連接。 <br/> |
 
 
 
@@ -60,8 +60,8 @@ ms.locfileid: "106966507"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

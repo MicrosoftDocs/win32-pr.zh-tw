@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 442facd9bec7c56e90738c95e1feb7fbc8f34b3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ceb80ee7778389e9dc79b732fba73d8c986483f160822492b05a6a26630a9fa5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117716102"
 ---
 # <a name="esentapiexception-constructor"></a>EsentApiException 函式
 

@@ -11,12 +11,12 @@ keywords:
 - CreateEvent 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5cbfeb95fcf0e5d83f9a54fc0cf3cd223ac6ce19
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 70c5bdbfe46fed9fa9124a031e90af3bfefb983caf6743415d90c645afc42c6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801198"
 ---
 # <a name="using-an-event-callback-to-process-driver-messages"></a>使用事件回呼處理驅動程式訊息
 
@@ -31,6 +31,6 @@ ms.locfileid: "103681886"
 [音訊資料區塊](audio-data-blocks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - ADSI、使用、驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad32b2f32f115b20c99e47578ad76b73ad72a123
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 19177153d8d66f3c27db5c0c2027faa2e02b213305d760d070f5af90b6ba1058
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104462724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840555"
 ---
 # <a name="authentication-adsi"></a>ADSI) 驗證 (
 
@@ -22,7 +22,7 @@ ms.locfileid: "104462724"
 > [!Note]  
 > [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject)函式和 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject)方法不應用來驗證使用者認證。 如需驗證使用者認證的詳細資訊，請參閱 Microsoft 知識庫文章 180548 [做法：驗證 Microsoft 作業系統上的使用者認證](https://support.microsoft.com/kb/180548)。
 
- 
+ 
 
 下列程式碼範例顯示如何使用 [**objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) 方法來驗證使用者。
 
@@ -50,9 +50,9 @@ CleanUp:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

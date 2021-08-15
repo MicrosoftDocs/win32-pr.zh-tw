@@ -4,12 +4,12 @@ ms.assetid: 5f710fd8-33de-47c0-a8b2-baf3008c4ed7
 title: Access-Token 物件的存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 469081d2caa4e5ff7c9b7c55b4c09c31cff1acac
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 5ac3145aef5fcf3a20f2569ac02df0de0638c2be1f42f5e1a74785d8ae1aedb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785469"
 ---
 # <a name="access-rights-for-access-token-objects"></a>Access-Token 物件的存取權限
 
@@ -30,8 +30,8 @@ ms.locfileid: "108327193"
     | 權杖 \_ 調整 \_ 預設值    | 變更存取權杖的預設擁有者、主要群組或 DACL 所需。                                                                                                                                                                                                  |
     | 權杖 \_ 調整 \_ 群組     | 需要調整存取權杖中群組的屬性。                                                                                                                                                                                                               |
     | 權杖 \_ 調整 \_ 許可權 | 必須啟用或停用存取權杖中的許可權。                                                                                                                                                                                                                  |
-    | 權杖 \_ 調整 \_ SESSIONID  | 需要調整存取權杖的會話識別碼。 需要「SE \_ TCB \_ 名稱」許可權。                                                                                                                                                                                    |
-    | 權杖 \_ 指派 \_ 主要    | 需要將 [*主要權杖*](/windows/desktop/SecGloss/p-gly) 附加至 [*進程*](/windows/desktop/SecGloss/p-gly)。 \_ \_ 若要完成這項工作，也需要 SE ASSIGNPRIMARYTOKEN 名稱許可權。 |
+    | 權杖 \_ 調整 \_ SESSIONID  | 需要調整存取權杖的會話識別碼。 需要 SE \_ TCB \_ 名稱許可權。                                                                                                                                                                                    |
+    | 權杖 \_ 指派 \_ 主要    | 需要將 [*主要權杖*](/windows/desktop/SecGloss/p-gly) 附加至 [*進程*](/windows/desktop/SecGloss/p-gly)。 \_ \_ 若要完成這項工作，也需要 SE 的 ASSIGNPRIMARYTOKEN 名稱許可權。 |
     | 標記 \_ 重複          | 需要複製存取權杖。                                                                                                                                                                                                                                            |
     | 權杖 \_ 執行            | 等同于標準 \_ 許可權 \_ 執行。                                                                                                                                                                                                                                                |
     | 標記 \_ 模擬        | 需要將模擬存取權杖附加至進程。                                                                                                                                                                                                                    |

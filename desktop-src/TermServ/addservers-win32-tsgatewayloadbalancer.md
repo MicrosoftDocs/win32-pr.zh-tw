@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a510fd6ecee12b5251ec84773327d6217463240f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 00bb232572c49b77f11de469f8e09fc536e73354f907d4070bc2281d42fc87fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117942266"
 ---
 # <a name="addservers-method-of-the-win32_tsgatewayloadbalancer-class"></a>Win32 TSGatewayLoadBalancer 類別的 AddServers 方法 \_
 

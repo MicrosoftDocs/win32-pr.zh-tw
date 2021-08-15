@@ -4,12 +4,12 @@ ms.assetid: b0f7e7ce-f981-4f3f-83a0-7792224ce0e3
 title: 憑證信任清單總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 55bdbd8b5fdfe4b2d81f3faddb052c16ecf32428
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7906f02e9af3534445c5b1d6a48c94653feb78b57c71a23acfd9af51477cd050
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771104"
 ---
 # <a name="certificate-trust-list-overview"></a>憑證信任清單總覽
 

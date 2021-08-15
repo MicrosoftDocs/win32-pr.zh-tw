@@ -4,12 +4,12 @@ ms.assetid: 44f7e6d5-c4d9-4b41-b6c6-15145abb7983
 title: ExposureTime
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5811a3d375f41883d1db8f392e714b7bbe0dfa8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2bc1c767344187efd0107d4efa7bcec23d6f099497d9a26f29b89153a73a2e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118723863"
 ---
 # <a name="systemphotoexposuretime"></a>ExposureTime
 
@@ -35,7 +35,7 @@ ms.locfileid: "104192500"
 -   1/1000
 -   1/2000
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

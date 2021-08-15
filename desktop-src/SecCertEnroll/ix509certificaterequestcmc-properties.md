@@ -4,12 +4,12 @@ ms.assetid: 3D084301-273C-490F-9946-BA8F6DE7ABFA
 title: IX509CertificateRequestCmc 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1cae99af5078a4cf3cd3365d1cdd614f4c54f997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2801c1f13f18f53025b2b72b2aa8c052ed610562d457418907e6d499cd620462
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117776618"
 ---
 # <a name="ix509certificaterequestcmc-properties"></a>IX509CertificateRequestCmc 屬性
 

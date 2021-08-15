@@ -4,12 +4,12 @@ description: 瞭解 EAPHost 對等方法 API 結構，例如 EapCertificateCrede
 ms.assetid: 546ef715-8f51-4f5a-a569-8bf64d52de85
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 73dab0d2bcd5bf1a6dc48ab01fa12c24785cd92a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 56582c920536cabd294680df265d16ae51d8b4bd951f8efcdb988de677a2a2ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968119"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118498617"
 ---
 # <a name="eaphost-peer-method-structures"></a>EAPHost 對等方法結構
 
@@ -29,11 +29,11 @@ EAPHost 對等方法 API 結構如下所示。
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

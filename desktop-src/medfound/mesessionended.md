@@ -4,12 +4,12 @@ ms.assetid: e593e51f-c239-49e9-bba8-c6d8238eff24
 title: 'MESessionEnded 事件 (Mfobjects) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 447b222be48dccc0f190329ab0bb6d56d09b266e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1610acdb8adbf99c354d9bf09170cf3e90c2e3bcce7715f9a0bd7d164ed989d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989299"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117877501"
 ---
 # <a name="mesessionended-event"></a>MESessionEnded 事件
 
@@ -33,8 +33,8 @@ ms.locfileid: "106989299"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
 | 標頭<br/>                   | <dl> <dt>Mfobjects (包含 Mfidl) </dt> </dl> |
 
 

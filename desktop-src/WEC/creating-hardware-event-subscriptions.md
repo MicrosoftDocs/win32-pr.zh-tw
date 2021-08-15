@@ -5,12 +5,12 @@ ms.assetid: 646ab546-500e-44ee-8b08-2f835e57e3e6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bc5f904e74d1f29b0666c9cb02b13689a0633bc
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 54ee32d590143ed8a1ffacec6f59ad3b3094c2d2a22d0df66b0cb0d3521f83e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117751110"
 ---
 # <a name="creating-hardware-event-subscriptions"></a>建立硬體事件訂閱
 
@@ -43,16 +43,16 @@ ms.locfileid: "104315916"
 
 2.  在命令提示字元視窗中執行下列命令，以建立事件訂用帳戶 (Wecutil.exe 程式位於% SYSTEMROOT% \\ System32 目錄中。 ) ：
 
-    **>wecutil cs** *<path> \\wsmanselrg.xml*
+    **>Wecutil cs** *<path> \\wsmanselrg.xml*
 
 3.  在命令提示字元視窗中執行下列命令，以確定訂用帳戶為使用中狀態：
 
-    **>wecutil gr** *wsmanselrg*
+    **>Wecutil gr** *wsmanselrg*
 
 BMC 是在本機與伺服器連接的微控制器。 Bmc 的感應器會監視伺服器的實體狀態，以及可透過網路通訊的個別網路連線（即使伺服器已離線）。 您可以透過智慧型平臺管理介面 (IPMI) WMI 提供者來存取 BMC 資料。 如需有關 IPMI 提供者的詳細資訊，請參閱 [Ipmi 提供者](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)。
 
-電腦必須安裝 BMC 和 IPMI 提供者，才能讓事件訂用帳戶運作。 針對在 Windows Server 2008 上執行的電腦，預設會安裝 IPMI 提供者。 如果無法使用 BMC，則無法安裝 IPMI 驅動程式，且訂用帳戶執行時間狀態一律會顯示錯誤 (0x8004001-WMI 一般失敗) 。
+電腦必須安裝 BMC 和 IPMI 提供者，才能讓事件訂用帳戶運作。 針對 Windows Server 2008 上執行的電腦，預設會安裝 IPMI 提供者。 如果無法使用 BMC，則無法安裝 IPMI 驅動程式，且訂用帳戶執行時間狀態一律會顯示錯誤 (0x8004001-WMI 一般失敗) 。
 
- 
+ 
 
- 
+ 

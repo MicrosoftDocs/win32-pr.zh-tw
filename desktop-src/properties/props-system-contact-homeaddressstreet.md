@@ -4,18 +4,18 @@ ms.assetid: 5cc2c55e-1c1b-4f1d-8d40-eb7cbae930db
 title: HomeAddressStreet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c29830bc16611ecf95b9797afc528986d6cba6c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4b640065d6de3b0ffc683e517a552c14c7f9d33d45ad135bc82048c22607d30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118468348"
 ---
 # <a name="systemcontacthomeaddressstreet"></a>HomeAddressStreet
 
 連絡人的首頁位址街道名稱。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

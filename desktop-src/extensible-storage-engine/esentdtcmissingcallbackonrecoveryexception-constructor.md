@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6e71c6a47dc708a4ba4404c67a53dcbfe1c59e1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d88cdf5126c97ba09724e3d5a3cc70ed78e40a31871c8a2ccb3017a2e93cd86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118496864"
 ---
 # <a name="esentdtcmissingcallbackonrecoveryexception-constructor"></a>EsentDTCMissingCallbackOnRecoveryException 函式
 

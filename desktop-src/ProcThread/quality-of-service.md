@@ -3,12 +3,12 @@ description: 服務品質表示執行緒的效能和電源效率，這可能會�
 title: 服務品質
 ms.topic: article
 ms.date: 07/09/2021
-ms.openlocfilehash: 98c8b8c4fc340eb49b13d7bdfd9b2a611a8f7244
-ms.sourcegitcommit: 5a78723ad484955ac91a23cf282cf9c176c1eab6
+ms.openlocfilehash: ec4e92360d23a427d526a36a81bfdb0667c1cb6fb5f60ddcefd578c4918ba5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "114436287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793462"
 ---
 # <a name="quality-of-service"></a>服務品質
 
@@ -20,7 +20,7 @@ ms.locfileid: "114436287"
 
 系統會維護多個 QoS 層級，而每個層級都有差異的效能和電源效率。 Windows 針對每個 QoS 層級提供排程和處理器電源管理的標準預設設定。 您可以透過 Windows 布建來修改每個 QoS 層級的處理器電源管理和異類排程的精確調整。 如需效能微調和布建的詳細資訊，請參閱 [處理器電源管理選項](/windows-hardware/customize/power-settings/configure-processor-power-management-options)。
 
-| QoS 層級 | 描述|效能和威力 | 版本 |
+| QoS 層級 | Description|效能和威力 | 版本 |
 | --- | --- | --- | --- |
 | 高 | 以視窗化的應用程式，這些應用程式位於前景和焦點，或可聽見，並使用[SetThreadInformation](/windows/win32/api/processthreadsapi/nf-processthreadsapi-setthreadinformation)以[SetProcessInformation](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-setprocessinformation)或執行緒明確標記處理常式 | 標準高效能。 |1709 |
 | 中 | 視窗化的應用程式，可能會對終端使用者顯示，但不在焦點內。 | 依平臺而異，介於高與低之間。 | 1709 |

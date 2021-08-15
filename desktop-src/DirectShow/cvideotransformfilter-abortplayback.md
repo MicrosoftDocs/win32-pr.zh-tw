@@ -1,5 +1,5 @@
 ---
-description: AbortPlayback 方法是用來發出串流錯誤的信號。 它會將 EC \_ ERRORABORT 事件傳送至篩選圖形管理員，並傳送下游的結束資料流程通知。
+description: AbortPlayback 方法是用來發出串流錯誤的信號。 它會將 EC \_ ERRORABORT 事件傳送至篩選 Graph 管理員，並傳送下游的資料流程結束通知。
 ms.assetid: b48ec72f-d220-4b27-98fc-88eaa4f663eb
 title: 'CVideoTransformFilter. AbortPlayback 方法 (Vtrans .h) '
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 952987dec315408920e92d79003480a01640d14e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6560e7ce704423bfecc519c709c2c08733fe90a2346324f9e1282571530293ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821933"
 ---
 # <a name="cvideotransformfilterabortplayback-method"></a>CVideoTransformFilter. AbortPlayback 方法
 
-`AbortPlayback`方法是用來發出串流錯誤的信號。 它會將 [**EC \_ ERRORABORT**](ec-errorabort.md) 事件傳送至篩選圖形管理員，並傳送下游的結束資料流程通知。
+`AbortPlayback`方法是用來發出串流錯誤的信號。 它會將 [**EC \_ ERRORABORT**](ec-errorabort.md)事件傳送至篩選 Graph 管理員，並傳送下游的資料流程結束通知。
 
 ## <a name="syntax"></a>語法
 

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e8c0c6137bcf0d967b4bfcacddfca17bd8455d06
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e3ad5b551f446d002037d9c3ecb41a492210ff70c876d2bfe1f8b811156f6f7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104025765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118001910"
 ---
 # <a name="amoviesetup_pin-structure"></a>AMOVIESETUP \_ 釘選結構
 
@@ -27,7 +27,7 @@ ms.locfileid: "104025765"
 
 <dl> <dt>
 
-[DirectShow 結構](directshow-structures.md)
+[DirectShow結構](directshow-structures.md)
 </dt> </dl>
 
  

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: cbc3decf125b8d3f3f1df7228852901cca90aae8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6650e643665cb9e271c75ba929c5d1723e029482ffe0f0added75166f1a7358
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784483"
 ---
 # <a name="apijetdelete-method"></a>JetDelete 方法
 

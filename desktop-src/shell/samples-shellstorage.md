@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: af4b1f13daf9cd0ec99dce542195d5e5e374a6d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3698a89566b65a8a263d39b3957285d4ffde07fda1ff754792b545959b987d85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858257"
 ---
 # <a name="shell-storage-sample"></a>Shell 儲存體範例
 

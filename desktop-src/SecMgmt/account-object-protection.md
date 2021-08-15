@@ -4,12 +4,12 @@ ms.assetid: a07ef46e-f4b6-4e21-bdd7-72d03e1c88b3
 title: 帳戶物件保護
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f495a3dc943ef73eef5074e0edc73247ceb02d09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c49610827c8f27b2ad1dd645faca1374534b9d4acb8353421fc55901da724dd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117969757"
 ---
 # <a name="account-object-protection"></a>帳戶物件保護
 

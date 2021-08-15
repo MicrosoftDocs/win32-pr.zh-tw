@@ -4,12 +4,12 @@ ms.assetid: 0DED867D-75FF-4343-BBB7-D71E7FF7D217
 title: 輸入來源識別列舉
 ms.topic: article
 ms.date: 02/05/2020
-ms.openlocfilehash: 84065a6e84bc812db47c429412489c6a765ebef7
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: 40e31b81a3c2e5fe3c86074a7645443fef2a651d6c0e2268b37fd27caa01a176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106999986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758113"
 ---
 # <a name="input-source-identification-enumerations"></a>輸入來源識別列舉
 

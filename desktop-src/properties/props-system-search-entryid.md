@@ -4,18 +4,18 @@ ms.assetid: 9162e92b-b738-4462-b346-68410f088e95
 title: System.servicemodel
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: acd647338102d17e215973c85ea0e5d84c9bbdf7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f5160e6c0dc51d9b4a3877acab3b923106eef2094f64a8636424731ddb2b113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117865159"
 ---
 # <a name="systemsearchentryid"></a>System.servicemodel
 
 Windows Search 索引中給定目錄內之專案的專案識別碼。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription
@@ -33,7 +33,7 @@ propertyDescription
 
 ## <a name="remarks"></a>備註
 
-系統會在產生用來查詢索引的 SQL 中使用[EntryID。]() 此值不會在一段時間內被視為唯一的，因為它可能會被回收。
+[系統]()會在產生用來查詢索引的 SQL 中使用 EntryID。 此值不會在一段時間內被視為唯一的，因為它可能會被回收。
 
 PKEY 值定義于 Propkey 中。
 

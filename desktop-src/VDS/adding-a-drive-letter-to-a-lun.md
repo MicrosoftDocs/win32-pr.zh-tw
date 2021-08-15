@@ -4,16 +4,16 @@ ms.assetid: 3f350312-3f1f-4020-90d0-85521ea9c7c8
 title: 將磁碟機號新增至 LUN
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 426a4f3bf720b21a02462edde4a381012d2084d2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 388c59a2e1b719e792855460f45fa0c04add7502f8e06aba56f0416a212a9aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117755497"
 ---
 # <a name="adding-a-drive-letter-to-a-lun"></a>將磁碟機號新增至 LUN
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 您可以直接將磁碟機號指派給磁片區物件;但是，如果您的磁片是 LUN 物件，您會有幾個額外的步驟。
 

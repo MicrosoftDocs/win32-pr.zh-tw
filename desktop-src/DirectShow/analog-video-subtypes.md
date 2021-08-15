@@ -4,12 +4,12 @@ ms.assetid: 67db7ee1-88ec-4e4f-be5e-8b4a7a652bca
 title: '類比影片子類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a45021badb630b071a57479cb74874fec6f77da
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cb40aec061f7ec59c03a425cc80b4e1ea7f568845fdd0769f4d32fdfc110caf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824724"
 ---
 # <a name="analog-video-subtypes"></a>類比影片子類型
 

@@ -4,17 +4,17 @@ ms.assetid: df6c69a7-6eb0-4662-a3aa-f3f895b42cbc
 title: IsAudioStreamEnabled 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c92df59479e5729c392eb25b6c6c075a52b4835b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a2131376346f2a0311fc5acd8e0051292a12fb0145b44226363c7d891a5ef3c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509760"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817473"
 ---
 # <a name="isaudiostreamenabled-method"></a>IsAudioStreamEnabled 方法
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

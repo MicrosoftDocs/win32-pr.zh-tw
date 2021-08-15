@@ -4,12 +4,12 @@ ms.assetid: 40004f07-0b8c-49cd-9e17-1f6ad7604fbb
 title: '設定音訊編碼 (Microsoft 媒體基礎) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e47595f440d10ad0d3c5695f117204f357035d4f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2344808decffd4b50d5926074dbf71d60445580adb4556703367369e1e146d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880363"
 ---
 # <a name="configuring-audio-encoding-microsoft-media-foundation"></a>設定音訊編碼 (Microsoft 媒體基礎) 
 
@@ -19,7 +19,7 @@ Windows Media 音訊編碼器會以其完整格式列舉所有支援的輸出類
 
 音訊編碼器支援雙通路和 VBR 模式，但其設定方式不同于影片。 如需詳細資訊，請參閱 [列舉特定編碼模式的音訊類型](enumeratingaudiotypesforspecificencodingmodes.md)。
 
-除非您設定輸出類型，否則無法使用音訊編碼器所支援的輸入類型。 如果您在設定輸出類型之前呼叫 **IMediaObject：： GetInputType** 或 **IMFTransform：： GetInputType** ，此方法會分別傳回 " \_ e \_ no no ITEMS" \_ \_ 或 MFT \_ e no 其他 \_ \_ \_ 類型。 設定輸出類型之後，編碼器會列舉針對所選取輸出類型所支援的輸入類型。
+除非您設定輸出類型，否則無法使用音訊編碼器所支援的輸入類型。 如果您在設定輸出型別之前呼叫 **IMediaObject：： GetInputType** 或 **IMFTransform：： GetInputType** ，此方法會傳回 DMO 不會再有其他 \_ \_ \_ \_ 專案或 MFT \_ e 的 \_ \_ 其他 \_ 類型。 設定輸出類型之後，編碼器會列舉針對所選取輸出類型所支援的輸入類型。
 
 Windows Media 音訊編碼器不會執行任何音訊重新取樣。 這表示編碼器輸出類型和編碼器輸入類型必須有相同數目的通道、每個樣本的位數，以及取樣率。 如需詳細資訊，請參閱 [尋找音訊編碼器輸出類型](findingaudioencoderoutputtypes.md)。
 

@@ -4,12 +4,12 @@ ms.assetid: df2a8e4c-7ad0-46ea-9643-1528a9ea1503
 title: 關於 Dynamic-Link 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bdb24048e17e9164aaf39d0ab337aea33576c95
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a62e6a6a23315e915bd4a5a7fe6e2dcb54a9a2ebfbd66bf5d4ba7a2519a04576
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848419"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815907"
 ---
 # <a name="about-dynamic-link-libraries"></a>關於 Dynamic-Link 程式庫
 

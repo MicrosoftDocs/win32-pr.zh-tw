@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9aa3aef828249b5c72f9e7cdd1bd3b69c96832
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6ce1bb82b34490f8a1f3734225cbde1e761c575a2019a30db7790bfc7fa3c169
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789582"
 ---
 # <a name="ras_ppp_projection_result-structure"></a>RAS \_ PPP \_ 投射 \_ 結果結構
 
@@ -62,7 +62,7 @@ typedef struct _RAS_PPP_PROJECTION_RESULT {
 **Ipx**
 </dt> <dd>
 
-[**RAS \_ ppp \_ IPXCP \_ 結果**](ras-ppp-ipxcp-result-str.md)結構，會報告 PPP 網際網路封包交換 (IPX) 投影作業的結果。
+[**RAS \_ ppp \_ IPXCP \_ 結果**](ras-ppp-ipxcp-result-str.md)結構，會報告 PPP 網路封包 Exchange (IPX) 投射作業的結果。
 
 </dd> <dt>
 

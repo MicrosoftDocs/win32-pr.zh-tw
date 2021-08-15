@@ -4,16 +4,16 @@ ms.assetid: 59ae22f6-aa6d-4b53-8a27-73e1e5c62755
 title: 收集和驗證憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0b160f373d5ade65679fcc4dd87e3c1c86dc4ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 60b793cf4aeca7d05d166a4b205b924db53faee09683cefcef7b0244a9eb0289
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769529"
 ---
 # <a name="collecting-and-verifying-certificates"></a>收集和驗證憑證
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 通常需要收集和驗證一組 [*憑證*](../secgloss/c-gly.md) 。 這通常是為了準備封包訊息的一組收件者所完成。 在接下來的範例中，會列舉並檢查本機存放區中的憑證是否有效。 接著會開啟 Active Directory 存放區，以抓取並新增至本機存放區新的憑證。 系統會檢查從 active directory 存放區取出的憑證是否有效，如果有效，則會新增至本機存放區。 這兩個存放區都會關閉。
 

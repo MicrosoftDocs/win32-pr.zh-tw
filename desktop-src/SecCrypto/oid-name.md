@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 42bd18c800bf53ca9edcf4cf72a4c7ac2cbb6933
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 49efa5c25b9c7c698f7239c139f7dd2fb9ac5ccebee503a5cd7e0f6f83a76d23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117980044"
 ---
 # <a name="oidname-property"></a>老。Name 屬性
 
@@ -83,9 +83,9 @@ OID.Name As CAPICOM_OID
 | <span id="CAPICOM_OID_SERVER_GATED_CRYPTO_EKU"></span><span id="capicom_oid_server_gated_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ 伺服器 \_ 閘道 \_ 加密 \_ EKU**</dt> </dl>                                                    | 物件是指定憑證可用於 [*伺服器閘道加密*](../secgloss/s-gly.md) (SGC) 的 [**EKU**](eku.md)物件。<br/> |
 | <span id="CAPICOM_OID_ENCRYPTING_FILE_SYSTEM_EKU"></span><span id="capicom_oid_encrypting_file_system_eku"></span><dl> <dt>**CAPICOM \_ OID \_ 加密 \_ 檔 \_ 系統 \_ EKU**</dt> </dl>                                           | 物件是 [**EKU**](eku.md) 物件，指定憑證可用於 [*加密檔案系統*](../secgloss/e-gly.md) (EFS) 。<br/>          |
 | <span id="CAPICOM_OID_EFS_RECOVERY_EKU"></span><span id="capicom_oid_efs_recovery_eku"></span><dl> <dt>**CAPICOM \_ OID \_ EFS \_ 復原 \_ EKU**</dt> </dl>                                                                          | 物件是 [**EKU**](eku.md) 物件，指定憑證可以用來復原 EFS。<br/>                                                                                                                 |
-| <span id="CAPICOM_OID_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_whql_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ WHQL \_ 加密 \_ EKU**</dt> </dl>                                                                             | 物件是 [**EKU**](eku.md) 物件，指定憑證可用於 WINDOWS 硬體品質實驗室 (WHQL) 密碼編譯。<br/>                                                                                   |
-| <span id="CAPICOM_OID_NT5_CRYPTO_EKU"></span><span id="capicom_oid_nt5_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ NT5 \_ 加密 \_ EKU**</dt> </dl>                                                                                | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於 windows Server 2003 和 windows XP 密碼編譯。<br/>                                                                                     |
-| <span id="CAPICOM_OID_OEM_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_oem_whql_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ OEM \_ WHQL \_ 加密 \_ EKU**</dt> </dl>                                                                | 物件是一個 [**EKU**](eku.md) 物件，指定憑證可用於原始設備製造商 (OEM) Windows 硬體品質實驗室 (WHQL) 密碼編譯。<br/>                                             |
+| <span id="CAPICOM_OID_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_whql_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ WHQL \_ 加密 \_ EKU**</dt> </dl>                                                                             | 物件是 [**EKU**](eku.md)物件，指定憑證可用於 Windows 硬體品質實驗室 (WHQL) 密碼編譯。<br/>                                                                                   |
+| <span id="CAPICOM_OID_NT5_CRYPTO_EKU"></span><span id="capicom_oid_nt5_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ NT5 \_ 加密 \_ EKU**</dt> </dl>                                                                                | 物件是 [**EKU**](eku.md)物件，指定憑證可用於 Windows Server 2003 和 Windows XP 密碼編譯。<br/>                                                                                     |
+| <span id="CAPICOM_OID_OEM_WHQL_CRYPTO_EKU"></span><span id="capicom_oid_oem_whql_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ OEM \_ WHQL \_ 加密 \_ EKU**</dt> </dl>                                                                | 物件是一個 [**EKU**](eku.md)物件，可指定憑證可用於原始設備製造商 (OEM) Windows 硬體品質實驗室 (WHQL) 加密。<br/>                                             |
 | <span id="CAPICOM_OID_EMBEDED_NT_CRYPTO_EKU"></span><span id="capicom_oid_embeded_nt_crypto_eku"></span><dl> <dt>**CAPICOM \_ OID \_ 內嵌 \_ NT \_ 加密 \_ EKU**</dt> </dl>                                                          | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於某些舊版作業系統中的內嵌密碼編譯。<br/>                                                                           |
 | <span id="CAPICOM_OID_ROOT_LIST_SIGNER_EKU"></span><span id="capicom_oid_root_list_signer_eku"></span><dl> <dt>**CAPICOM \_ OID \_ 根 \_ 清單 \_ 簽署者 \_ EKU**</dt> </dl>                                                             | 物件是指定憑證可以用來簽署根清單的 [**EKU**](eku.md) 物件。<br/>                                                                                                                     |
 | <span id="CAPICOM_OID_QUALIFIED_SUBORDINATION_EKU"></span><span id="capicom_oid_qualified_subordination_eku"></span><dl> <dt>**CAPICOM \_ OID \_ 限定的 \_ 從屬 \_ EKU**</dt> </dl>                                         | 物件是 [**EKU**](eku.md) 物件，可指定憑證可用於限定的從屬。<br/>                                                                                                             |

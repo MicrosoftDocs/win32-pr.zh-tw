@@ -1,4 +1,4 @@
-- name: Windows 功能區架構
+- name: Windows功能區架構
   href: '-uiplat-windowsribbon-entry.md'
   items:
     - name: 功能區架構概述
@@ -44,7 +44,7 @@
       items:
         - name: 應用程式功能表
           href: windowsribbon-controls-applicationmenu.md
-        - name: 按鈕
+        - name: Button
           href: windowsribbon-controls-button.md
         - name: 核取方塊
           href: windowsribbon-controls-checkbox.md
@@ -122,7 +122,7 @@
                       href: windowsribbon-element-command-tooltipdescription.md
                     - name: TooltipTitle
                       href: windowsribbon-element-command-tooltiptitle.md
-                - name: Image
+                - name: 映像
                   href: windowsribbon-element-image.md
                   items:
                     - name: 來源
@@ -171,9 +171,9 @@
                   items:
                     - name: RecentItems
                       href: windowsribbon-element-applicationmenu-recentitems.md
-                - name: 按鈕
+                - name: Button
                   href: windowsribbon-element-button.md
-                - name: 核取方塊
+                - name: CheckBox
                   href: windowsribbon-element-checkbox.md
                 - name: ComboBox
                   href: windowsribbon-element-combobox.md

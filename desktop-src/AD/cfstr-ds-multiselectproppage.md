@@ -11,12 +11,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 50c56927b615616bf9fab822cd96d5170237967e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3bd62a35d3feb105b08000ec131616ee7c811c86e90bd8cc27158a14c1f72e4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118023676"
 ---
 # <a name="cfstr_ds_multiselectproppage"></a>CFSTR \_ DS \_ MULTISELECTPROPPAGE
 
