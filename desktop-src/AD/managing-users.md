@@ -9,12 +9,12 @@ keywords:
 - 使用者 AD，管理使用者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8154dc9d062b86d10b0df6418b5b4cbb79b44d2
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 0aa4c780a943d45833c3af5418337fe4d27584e2c944e19ff247479f3b29513d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186684"
 ---
 # <a name="managing-users"></a>管理使用者
 
@@ -30,7 +30,7 @@ ms.locfileid: "112395313"
 -   [列舉使用者](enumerating-users.md)
 -   [查詢使用者](querying-for-users.md)
 -   移動使用者。 使用者與任何其他 Active Directory 物件的移動方式相同。 如需移動 Active Directory 物件的詳細資訊，請參閱 [移動物件](moving-objects.md)。
--   [管理成員伺服器與 Windows 2000 Professional 上的使用者](managing-users-on-member-servers-and-windows-2000-professional.md)
+-   [管理成員伺服器上的使用者和 Windows 2000 Professional](managing-users-on-member-servers-and-windows-2000-professional.md)
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: a71a564d-934a-46e8-b555-989a6fa82337
 title: 登錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44916618946f6541495186aa5843799c9b864fbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f3a5caa34a075e4bffe48a542d02eec896ab28dd93fbdc2745dbc5a08effb9d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763811"
 ---
 # <a name="registry-files"></a>登錄檔
 
@@ -19,9 +19,9 @@ ms.locfileid: "103944411"
 
 [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) 和 [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) 會使用封存屬性來建立檔案。 檔案會建立在本機密鑰之進程的目前的目錄中，以及遠端金鑰的% systemroot% \\ system32 目錄中。
 
-登錄檔具有下列兩種格式：標準和最新。 標準格式是 Windows 2000 所支援的唯一格式。 較新的 Windows 版本也支援此功能，以提供回溯相容性。 [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) 會以標準格式建立檔案。
+登錄檔具有下列兩種格式：標準和最新。 標準格式是 Windows 2000 所支援的唯一格式。 較新版本的 Windows 也支援，以提供回溯相容性。 [**RegSaveKey**](/windows/desktop/api/Winreg/nf-winreg-regsavekeya) 會以標準格式建立檔案。
 
-從 Windows XP 開始支援最新的格式。 以這種格式建立的登錄檔無法在 Windows 2000 上載入。 [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) 可以藉由指定 reg \_ 標準 \_ 格式或 reg \_ 最新格式，以任何一種格式儲存登錄檔 \_ 。 因此，它可以用來將使用標準格式的登錄檔轉換為最新的格式。
+從 Windows XP 開始支援最新的格式。 無法在 Windows 2000 上載入以此格式建立的登錄檔。 [**RegSaveKeyEx**](/windows/desktop/api/Winreg/nf-winreg-regsavekeyexa) 可以藉由指定 reg \_ 標準 \_ 格式或 reg \_ 最新格式，以任何一種格式儲存登錄檔 \_ 。 因此，它可以用來將使用標準格式的登錄檔轉換為最新的格式。
 
 若要將登錄檔寫回登錄，應用程式可以使用 [**RegLoadKey**](/windows/desktop/api/Winreg/nf-winreg-regloadkeya)、 [**RegReplaceKey**](/windows/desktop/api/Winreg/nf-winreg-regreplacekeya)或 [**RegRestoreKey**](/windows/desktop/api/Winreg/nf-winreg-regrestorekeya) 功能，如下所示。
 

@@ -4,12 +4,12 @@ ms.assetid: 9dd031a8-f1fa-4753-a86b-18051c624a00
 title: MeteringMode
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e90fff67abe04486504ecda67684f85cb5ac1a2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd6eb62320e8561e9c486ad34816647ac9176912d49200c56409913f4efa8e19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974421"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118228128"
 ---
 # <a name="systemphotometeringmode"></a>MeteringMode
 

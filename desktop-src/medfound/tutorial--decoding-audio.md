@@ -4,12 +4,12 @@ ms.assetid: ed40e201-c6ed-444f-bdaa-a5f33d1cc068
 title: 教學課程：解碼音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 539eb6d9f48419b62fa1c379c636abaf2bb0a63a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4ad5dbac47680c4d8faa73affa711b987edf220e05324d88cd0ffbda3bb93e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118237660"
 ---
 # <a name="tutorial-decoding-audio"></a>教學課程：解碼音訊
 
@@ -424,7 +424,7 @@ HRESULT WriteWaveHeader(
 
 
 
-函式 `WriteToFile` 是簡單的 helper 函式，它會包裝 Windows **WriteFile** 函式並傳回 **HRESULT** 值。
+函式 `WriteToFile` 是簡單的 helper 函式，可包裝 Windows 的 **WriteFile** 函式，並傳回 **HRESULT** 值。
 
 
 ```C++

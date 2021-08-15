@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 3ab89f00f254778a2417644d894f1e9e81eb43cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c703150069bc839f2d20024c0de8f3197fba09c5c3571e3de818dec3f3d6737c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860326"
 ---
 # <a name="foldergetdetailsof-method"></a>GetDetailsOf 方法
 
@@ -126,22 +126,22 @@ retVal = Folder.GetDetailsOf(
 
 ## <a name="return-value"></a>傳回值
 
-類型： **[**BSTR**](/previous-versions/windows/desktop/automat/bstr) \** _
+類型： **[ **BSTR**](/previous-versions/windows/desktop/automat/bstr)\***
 
 包含已抓取詳細資料的字串。
 
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> 並非所有的方法都會針對所有資料夾執行。 例如， [_ *ParseName* *](folder-parsename.md)方法不會針對主控台資料夾執行， (CSIDL \_ 控制項) 。 如果您嘗試呼叫未產生的方法，則會引發 0x800A01BD (decimal 445) 錯誤。
+> 並非所有的方法都會針對所有資料夾執行。 例如， [**ParseName**](folder-parsename.md) 方法不會針對主控台資料夾執行， (CSIDL \_ 控制項) 。 如果您嘗試呼叫未產生的方法，則會引發 0x800A01BD (decimal 445) 錯誤。
 
  
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **GetDetailsOf** 來取出名為 Clock.avi 之檔案的類型。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **GetDetailsOf** 來取出名為 Clock.avi 之檔案的類型。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -240,10 +240,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h \_ core .h (包括 Shldisp) </dt> </dl>  |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

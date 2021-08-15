@@ -11,12 +11,12 @@ keywords:
 - capPreviewScale 宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af4dc293587160d950856fccb15709a11e9533bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9359b1380c5d6efe049bc4bea52a08a92f880af5d35558f4e65e21070f20c0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372367"
 ---
 # <a name="preview-and-overlay-modes"></a>預覽和重迭模式
 
@@ -36,9 +36,9 @@ Capture 驅動程式可執行兩種方法來觀看內送影片串流：預覽模
 
 您也可以在 [預覽] 模式或 [覆迭模式] 的 [捕捉] 視窗的工作區中，將 [ [**capSetScrollPos**](/windows/desktop/api/Vfw/nf-vfw-capsetscrollpos)宏) 傳送至 [捕獲] 視窗，以設定影片框架的滾動 [**(條位置 \_ \_ \_**](wm-cap-set-scroll.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

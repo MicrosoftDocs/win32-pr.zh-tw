@@ -4,12 +4,12 @@ ms.assetid: 54171039-4cb9-4898-a656-b7a9df4b18f6
 title: GraphicsPath. AddArc 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b627fb0a5742d9e04be8be84b00ab958a6e31de8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b983eee111d1ee2eadefacbb154d7661d385d40f0a609342483bc82c16946ec3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482838"
 ---
 # <a name="graphicspathaddarc-methods"></a>GraphicsPath. AddArc 方法
 

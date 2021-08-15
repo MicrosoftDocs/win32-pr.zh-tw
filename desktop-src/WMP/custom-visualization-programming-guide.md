@@ -14,12 +14,12 @@ keywords:
 - 轉譯函數，程式設計手冊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e870915ec0052e8596708809c4151edc865fcb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a7481a34e09f2271a8bf9377ce7a92339198b985381b3fa2e277bcb6adbcab6a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117750364"
 ---
 # <a name="custom-visualization-programming-guide"></a>自訂視覺效果程式設計指南
 
@@ -35,18 +35,18 @@ ms.locfileid: "106968825"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 自訂視覺效果**](windows-media-player-custom-visualizations.md)
+[**Windows Media Player自訂視覺效果**](windows-media-player-custom-visualizations.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

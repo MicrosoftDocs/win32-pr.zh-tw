@@ -26,7 +26,7 @@
               href: implementing-firewall-filters-for-teredo.md
             - name: Teredo 的必要防火牆例外
               href: required-firewall-exceptions-for-teredo.md
-            - name: Teredo 的 Windows 篩選平台例外狀況
+            - name: Windows篩選 Teredo 的平臺例外狀況
               href: required-windows-filtering-platform-exceptions-for-teredo.md
         - name: 透過 Teredo 接收請求的流量
           href: receiving-solicited-traffic-over-teredo.md

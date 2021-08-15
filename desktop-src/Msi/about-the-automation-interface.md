@@ -4,12 +4,12 @@ ms.assetid: 113ed443-a866-43d4-86bd-fc3b244f2edb
 title: 關於 Automation 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 655a01a4daccb805bec4a858337c1dce48f0fb82
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c51469240ad684d6fd32ffbc5466007e73f4e4ff7a870b6878b18f25f54d32c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118382065"
 ---
 # <a name="about-the-automation-interface"></a>關於 Automation 介面
 
@@ -19,13 +19,13 @@ ms.locfileid: "104192476"
 
 如需使用 automation 和建立安裝程式物件的詳細資訊，請參閱 [使用 Automation 介面](using-the-automation-interface.md)。
 
-如需 Windows Installer 物件的參考資料，請參閱 [Automation 介面參考](automation-interface-reference.md)。
+如需 Windows Installer 物件的參考資料，請參閱[Automation 介面參考](automation-interface-reference.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Installer 腳本範例](windows-installer-scripting-examples.md)
+[Windows安裝程式腳本範例](windows-installer-scripting-examples.md)
 </dt> </dl>
 
  

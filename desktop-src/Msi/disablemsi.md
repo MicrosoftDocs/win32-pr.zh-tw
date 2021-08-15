@@ -4,12 +4,12 @@ ms.assetid: 7f941559-54c3-4802-b827-5954bd4669f8
 title: DisableMSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf8a784f5e8090bf6ba2007091c22cf4bc070c2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 846b8fb8c2c1127e59c82cce138a0956756d3447d6628cb61ef170a91e6290b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378556"
 ---
 # <a name="disablemsi"></a>DisableMSI
 
@@ -22,9 +22,9 @@ ms.locfileid: "104026883"
 | DisableMSI | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *預設值*  | 在 Windows Server 2003、Windows Server 2003 R2、Windows Server 2008 和 Windows Server 2008 R2 上，如果原則值為 Null、不存在，或1或2以外的任何數位，則會為受控應用程式啟用 Windows Installer。 系統會封鎖非受控應用程式安裝。<br/> 在 Windows XP、Windows Vista 和 Windows 7 上，會針對所有應用程式啟用 Windows Installer。 允許所有安裝作業。<br/> |
-| 0          | 所有應用程式都已啟用 Windows Installer。 允許所有安裝作業。                                                                                                                                                                                                                                                                                                                                                      |
+| 0          | Windows所有應用程式都已啟用安裝程式。 允許所有安裝作業。                                                                                                                                                                                                                                                                                                                                                      |
 | 1          | 未受管理的應用程式會停用 Windows Installer，但仍會為受控應用程式啟用。 系統會封鎖非提高許可權的每個使用者安裝。 允許每位使用者的提高許可權，以及每部電腦的安裝。                                                                                                                                                                                                                        |
-| 2          | 所有應用程式一律會停用 Windows Installer。 不允許安裝，包括修復、重新安裝或隨選安裝。                                                                                                                                                                                                                                                                                               |
+| 2          | Windows所有應用程式的安裝程式一律停用。 不允許安裝，包括修復、重新安裝或隨選安裝。                                                                                                                                                                                                                                                                                               |
 
 
 
@@ -32,7 +32,7 @@ ms.locfileid: "104026883"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

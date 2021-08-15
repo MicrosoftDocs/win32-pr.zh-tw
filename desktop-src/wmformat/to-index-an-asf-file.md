@@ -3,18 +3,18 @@ title: 為 ASF 檔案編制索引
 description: 為 ASF 檔案編制索引
 ms.assetid: 33175444-365c-4b94-8b91-07198431062f
 keywords:
-- Windows Media Format SDK，為 ASF 檔案編制索引
+- Windows媒體格式 SDK，為 ASF 檔案編制索引
 - Advanced Systems Format (ASF) 、編制檔案索引
 - ASF (Advanced 系統格式) 、編制檔案索引
 - 索引，為 ASF 檔案編制索引
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7206e1856abb9705e18e885ba06cb8253a93c84b
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 08c2e41ed60ecb8fcee39da35dbc79ec44cece8db62f3e040d42aee3374c5690
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106966021"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845576"
 ---
 # <a name="to-index-an-asf-file"></a>為 ASF 檔案編制索引
 
@@ -103,9 +103,9 @@ g_hEvent = NULL;
 [**使用索引**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 048071a08d1211d6091fb6c2c23f9cfe302f8872
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e40bde6191759e48e59f535f672d221331fc45956e5af7bfe709d90f4573b38a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193970"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484687"
 ---
 # <a name="transactioncommit-method-committransactiongrbit"></a>Transaction (CommitTransactionGrbit) 的 Commit 方法
 

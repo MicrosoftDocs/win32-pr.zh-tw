@@ -1,19 +1,19 @@
 ---
-description: 本主題說明如何在 DirectShow 解碼器篩選器中支援 (DXVA) 2.0 的 DirectX 影片加速。
+description: 本主題說明如何在 DirectShow 的解碼器篩選器中 (DXVA) 2.0 支援 DirectX Video 加速。
 ms.assetid: 40deaddb-bb17-4a34-8294-5c7dc8a8a457
-title: 支援 DirectShow 中的 DXVA 2。0
+title: DirectShow 中支援 DXVA 2。0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dda956b60d4905c2392e1a50bd62ee8421b944b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58631a407e42c0561ebee0ad2b3187e248fc2d25dc0bdf4e98ed0219d8dae916
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118238081"
 ---
-# <a name="supporting-dxva-20-in-directshow"></a>支援 DirectShow 中的 DXVA 2。0
+# <a name="supporting-dxva-20-in-directshow"></a>DirectShow 中支援 DXVA 2。0
 
-本主題說明如何在 DirectShow 解碼器篩選器中支援 (DXVA) 2.0 的 DirectX 影片加速。 具體而言，它會描述解碼器與影片轉譯器之間的通訊。 本主題不會說明如何執行 DXVA 解碼。
+本主題說明如何在 DirectShow 的解碼器篩選器中 (DXVA) 2.0 支援 DirectX Video 加速。 具體而言，它會描述解碼器與影片轉譯器之間的通訊。 本主題不會說明如何執行 DXVA 解碼。
 
 -   [先決條件](#prerequisites)
 -   [遷移注意事項](#migration-notes)
@@ -23,9 +23,9 @@ ms.locfileid: "103848435"
 -   [解碼](#decoding)
 -   [相關主題](#related-topics)
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>Prerequisites
 
-本主題假設您已熟悉撰寫 DirectShow 篩選。 如需詳細資訊，請參閱 DirectShow SDK 檔中的 [撰寫 Directshow 篩選器](../directshow/writing-directshow-filters.md) 主題。 本主題中的程式碼範例假設已使用下列類別定義衍生自 [**CTransformFilter**](../directshow/ctransformfilter.md) 類別的解碼器篩選準則：
+本主題假設您已熟悉撰寫 DirectShow 篩選準則。 如需詳細資訊，請參閱 DirectShow SDK 檔中的[撰寫 DirectShow 篩選](../directshow/writing-directshow-filters.md)的主題。 本主題中的程式碼範例假設已使用下列類別定義衍生自 [**CTransformFilter**](../directshow/ctransformfilter.md) 類別的解碼器篩選準則：
 
 
 ```C++
@@ -406,7 +406,7 @@ HRESULT CDecoder::SetEVRForDXVA2(IPin *pPin)
     -   覆寫 [**CBaseAllocator：：分配**](../directshow/cbaseallocator-alloc.md) 方法。 在這個方法中，呼叫 [**IDirectXVideoAccelerationService：： CreateSurface**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideoaccelerationservice-createsurface) 以建立表面。  ([**IDirectXVideoDecoderService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideodecoderservice) 介面從 [**IDirectXVideoAccelerationService**](/windows/desktop/api/dxva2api/nn-dxva2api-idirectxvideoaccelerationservice)繼承這個方法。 ) 
     -   覆寫 [**CBaseAllocator：： Free**](../directshow/cbaseallocator-free.md) 方法以釋放表面。
 3.  在篩選的輸出釘選中，覆寫 [**CBaseOutputPin：： InitAllocator**](../directshow/cbaseoutputpin-initallocator.md) 方法。 在這個方法內，建立自訂配置器的實例。
-4.  在篩選準則中，執行 [**CTransformFilter：:D ecidebuffersize**](../directshow/ctransformfilter-decidebuffersize.md) 方法。 *>pproperties* 參數會指出 EVR 需要的表面數目。 將您的解碼所需的介面數目加到這個值，並在配置器上呼叫 [**IMemAllocator：： SetProperties**](/windows/win32/api/strmif/nf-strmif-imemallocator-setproperties) 。
+4.  在篩選準則中，執行 [**CTransformFilter：:D ecidebuffersize**](../directshow/ctransformfilter-decidebuffersize.md) 方法。 *>Pproperties* 參數會指出 EVR 需要的表面數目。 將您的解碼所需的介面數目加到這個值，並在配置器上呼叫 [**IMemAllocator：： SetProperties**](/windows/win32/api/strmif/nf-strmif-imemallocator-setproperties) 。
 
 下列程式碼示範如何執行 media 範例類別：
 
@@ -623,7 +623,7 @@ void CDecoderAllocator::Free()
 
 
 
-如需有關如何執行自訂配置器的詳細資訊，請參閱 DirectShow SDK 檔中 [提供自訂](../directshow/providing-a-custom-allocator.md) 配置器的主題。
+如需有關如何執行自訂配置器的詳細資訊，請參閱 DirectShow SDK 檔中[提供自訂](../directshow/providing-a-custom-allocator.md)配置器的主題。
 
 ## <a name="decoding"></a>解碼
 
@@ -650,7 +650,7 @@ DXVA 2.0 使用與 DXVA 1.0 相同的資料結構來進行解碼作業。 針對
 
 在每對 [**BeginFrame**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-beginframe) / [**執行**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute)呼叫中，您可以多次呼叫 [**GetBuffer**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-getbuffer) ，但每種類型的 DXVA 緩衝區都只會呼叫一次。 如果您使用相同的緩衝區類型呼叫它兩次，則會覆寫資料。
 
-呼叫 [**Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute)之後，呼叫 [**IMemInputPin：： Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) 將框架傳遞給影片轉譯器，如同軟體解碼一樣。 **Receive** 方法是非同步;在傳回之後，可以繼續對下一個框架進行解碼。 當緩衝區正在使用中時，顯示驅動程式會防止任何解碼命令覆寫緩衝區。 除非轉譯器已釋放範例，否則，此解碼器不應重複使用介面將另一個框架解碼。 當轉譯器釋放範例時，配置器會將範例放回其可用範例的集區。 若要取得下一個可用的範例，請呼叫 [**CBaseOutputPin：： GetDeliveryBuffer**](../directshow/cbaseoutputpin-getdeliverybuffer.md)，它接著會呼叫 [**IMemAllocator：： GetBuffer**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer)。 如需詳細資訊，請參閱 DirectShow 檔中有關 [directshow 之資料流程](../directshow/overview-of-data-flow-in-directshow.md) 的主題總覽。
+呼叫 [**Execute**](/windows/desktop/api/dxva2api/nf-dxva2api-idirectxvideodecoder-execute)之後，呼叫 [**IMemInputPin：： Receive**](/windows/win32/api/strmif/nf-strmif-imeminputpin-receive) 將框架傳遞給影片轉譯器，如同軟體解碼一樣。 **Receive** 方法是非同步;在傳回之後，可以繼續對下一個框架進行解碼。 當緩衝區正在使用中時，顯示驅動程式會防止任何解碼命令覆寫緩衝區。 除非轉譯器已釋放範例，否則，此解碼器不應重複使用介面將另一個框架解碼。 當轉譯器釋放範例時，配置器會將範例放回其可用範例的集區。 若要取得下一個可用的範例，請呼叫 [**CBaseOutputPin：： GetDeliveryBuffer**](../directshow/cbaseoutputpin-getdeliverybuffer.md)，它接著會呼叫 [**IMemAllocator：： GetBuffer**](/windows/win32/api/strmif/nf-strmif-imemallocator-getbuffer)。 如需詳細資訊，請參閱 DirectShow 檔中[DirectShow 的資料 Flow](../directshow/overview-of-data-flow-in-directshow.md)的主題。
 
 ## <a name="related-topics"></a>相關主題
 

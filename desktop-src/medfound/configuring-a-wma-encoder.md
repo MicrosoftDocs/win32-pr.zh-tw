@@ -4,12 +4,12 @@ ms.assetid: 0a1a22bb-460f-4ac2-be76-4249997441de
 title: 設定 WMA 編碼器的輸出類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c6b078dc2426b062a90f706c5d113960f54ce32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48f2731a081138bda30ab3e81f01d353e0348f4d3586fd4c02878b62a7f04393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880569"
 ---
 # <a name="setting-an-output-type-for-a-wma-encoder"></a>設定 WMA 編碼器的輸出類型
 
@@ -18,9 +18,9 @@ ms.locfileid: "104111845"
 -   Repesents 編碼之 WMA 格式的音訊子類型。 請參閱 [音訊子類型 guid](audio-subtype-guids.md)。
 -   要在編碼器上設定的設定屬性。
 
-    設定屬性記載于 Windows Media 音訊和影片編解碼器和 DSP Api 檔中。 如需詳細資訊，請參閱 [編碼屬性](configuring-the-encoder.md)中的「音訊串流屬性」。
+    設定屬性記載于 Windows Media 音訊和影片編解碼器和 DSP api 檔中。 如需詳細資訊，請參閱 [編碼屬性](configuring-the-encoder.md)中的「音訊串流屬性」。
 
-### <a name="windows-vista-or-later"></a>Windows Vista 或更新版本
+### <a name="windows-vista-or-later"></a>WindowsVista 或更新版本
 
 若要取得編碼器的有效輸出型別，請執行下列步驟。
 
@@ -32,7 +32,7 @@ ms.locfileid: "104111845"
 
 ### <a name="windows-7"></a>Windows 7
 
-若要在 Windows 7 中取得編碼器的有效輸出類型，媒體基礎提供 [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes) 函數。 應用程式必須通過 repesents 編碼的 WMA 和編碼屬性所需的音訊子類型。 這些屬性是必要的，因為編碼器會根據設定的模式變更支援的輸出類型。
+若要在 Windows 7 中取得編碼器的有效輸出型別，媒體基礎提供 [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes)函數。 應用程式必須通過 repesents 編碼的 WMA 和編碼屬性所需的音訊子類型。 這些屬性是必要的，因為編碼器會根據設定的模式變更支援的輸出類型。
 
 > [!Note]  
 > [**MFTranscodeGetAudioOutputAvailableTypes**](/windows/desktop/api/mfidl/nf-mfidl-mftranscodegetaudiooutputavailabletypes)僅支援 [常數位速率編碼](constant-bit-rate-encoding.md)。
@@ -48,7 +48,7 @@ ms.locfileid: "104111845"
 [具現化編碼器 MFT](instantiating-the-encoder-mft.md)
 </dt> <dt>
 
-[Windows Media 編碼器](windows-media-encoders.md)
+[Windows媒體編碼器](windows-media-encoders.md)
 </dt> </dl>
 
  

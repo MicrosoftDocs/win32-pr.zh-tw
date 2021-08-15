@@ -7,16 +7,16 @@ keywords:
 - double 緩衝區 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbe52d427467b2a6e460ea56a9e72e580ea6f97d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 133a6e0794eb903215411016aeff14e3426854dcddc3a60bcfb2ba318481bee5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361388"
 ---
 # <a name="drawing-with-double-buffers"></a>使用雙緩衝區繪製
 
-雙緩衝區會讓一個影像和螢幕上的另一個影像之間的轉換變平滑。 交換緩衝區通常會出現在一連串的繪圖命令的結尾。 根據預設，Microsoft 在 Windows 中執行 OpenGL 會繪製到螢幕上的緩衝區;繪製完成時，您可以呼叫 [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) 函式，將螢幕緩衝複製到螢幕緩衝區。 下列程式碼範例會準備繪製、呼叫繪圖函式，然後將完成的影像複製到畫面上（如果有雙重緩衝處理）。
+雙緩衝區會讓一個影像和螢幕上的另一個影像之間的轉換變平滑。 交換緩衝區通常會出現在一連串的繪圖命令的結尾。 根據預設，在中，Microsoft 會在 Windows 中執行 OpenGL，以繪製至非螢幕的緩衝區;繪製完成時，您可以呼叫 [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers)函式，將螢幕緩衝複製到螢幕緩衝區。 下列程式碼範例會準備繪製、呼叫繪圖函式，然後將完成的影像複製到畫面上（如果有雙重緩衝處理）。
 
 
 ```C++
@@ -52,9 +52,9 @@ ReleaseDC(hWnd, hdc);
 
 
 
- 
+ 
 
- 
+ 
 
 
 

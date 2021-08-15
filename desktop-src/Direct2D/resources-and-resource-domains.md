@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: bf4eb807a25b592e32a2d83436532af17462d70c
-ms.sourcegitcommit: 7d0cc7eb398fee8f5be55cd654a12d29937d643c
+ms.openlocfilehash: 67dc8c34703c834dbf0f1b651e3c118831d88abe1676feaba68ac53ecb603565
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "104321376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825109"
 ---
 # <a name="resources-overview"></a>資源總覽
 

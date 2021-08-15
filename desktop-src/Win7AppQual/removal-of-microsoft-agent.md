@@ -4,19 +4,19 @@ ms.assetid: 863d30cc-24dd-4215-a4d5-25d51a725dcd
 title: 移除 Microsoft 代理程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 758b0508deb7ad54d84b3ee6290b7021fe93d47b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 983c6fd0d4084cf6b766c6d69f22db83222581c48e37879fe9e2f022604a17a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329461"
 ---
 # <a name="removal-of-microsoft-agent"></a>移除 Microsoft 代理程式
 
 ## <a name="platform"></a>平台
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -34,7 +34,7 @@ ms.locfileid: "108116346"
 
 ## <a name="description"></a>Description
 
-Microsoft 決定停止開發 Microsoft 代理程式技術。 從 Windows 7 開始，未來版本的 Microsoft Windows 作業系統將不會包含或支援 Microsoft 代理程式。 我們鼓勵 Microsoft 代理程式開發人員和 redistributors 評估他們在這項決策中的活動。
+Microsoft 決定停止開發 Microsoft 代理程式技術。 從 Windows 7 開始，未來的 microsoft Windows 作業系統版本將不會包含或支援 microsoft 代理程式。 我們鼓勵 Microsoft 代理程式開發人員和 redistributors 評估他們在這項決策中的活動。
 
 ## <a name="manifestation"></a>表現
 
@@ -48,9 +48,9 @@ Microsoft 決定停止開發 Microsoft 代理程式技術。 從 Windows 7 開�
 
 ## <a name="mitigation"></a>降低
 
-開發人員仍可針對舊版 Windows 使用下列資源：
+開發人員仍可針對舊版的 Windows 使用下列資源：
 
--   [Microsoft 代理程式核心元件 (僅適用于 Microsoft Windows 95、Windows 98 和 Windows NT 4.0) ](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
+-   [microsoft 代理程式核心元件 (僅適用于 microsoft Windows 95、Windows 98 和 Windows NT 4.0) ](https://www.microsoft.com/downloads/details.aspx?familyid=E11BF712-7862-45BA-826D-44AE3A11836F)
 -   [Merlin 字元檔](https://www.microsoft.com/downloads/details.aspx?FamilyID=fee1dadd-2f23-41d0-8a81-2affd74c0aa5)
 -   [Peedy 字元檔](https://www.microsoft.com/downloads/details.aspx?FamilyID=bd3c4655-79e4-4791-ab9d-abc7bbd133ef)
 -   [瓶精靈字元檔](https://www.microsoft.com/downloads/details.aspx?FamilyID=da86ba4e-bc2d-4c1d-b5a0-3183fe206414)

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72c2bbb724fc292a5e3942bf2b6de61b5631cdc0
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: f176b03f9d33ee1bbe1d0e805dfc109de477b7499f8fd624ba7732709dc61a10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385234"
 ---
 # <a name="broadcast-attribute"></a>廣播屬性
 
@@ -106,9 +106,9 @@ interface interface-name
 [**ncadg \_ ipx**](ncadg-ipx.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

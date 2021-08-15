@@ -1,21 +1,21 @@
 ---
 title: 對等快取
-description: 從背景智慧型傳送服務 (位) 4.0 開始，BITS 服務已擴充為允許使用 Windows BranchCache 下載的 URL 資料的子網層級對等快取。
+description: 從背景智慧型傳送服務 (位) 4.0 開始，bits 服務已擴充，以允許使用 Windows BranchCache 針對下載的 URL 資料進行子網層級的對等快取。
 ms.assetid: 4197eed3-1812-4440-99e7-9462635ef6ad
 ms.topic: article
 ms.date: 11/29/2018
-ms.openlocfilehash: 3c87e6013bb37610e934c13414bd2636407108ef
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf48a71c87aa27199578f5efe693cb941fbb3d7820a61c7e8766958b3d090952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173342"
 ---
 # <a name="peer-caching"></a>對等快取
 
-從背景智慧型傳送服務 (位) 4.0 開始，BITS 服務已擴充為允許使用 Windows BranchCache 下載的 URL 資料的子網層級對等快取。 BITS 用戶端可以從自己的子網中已下載資料的其他電腦抓取資料，而不是從遠端伺服器取得資料。 如需 Windows BranchCache 的詳細資訊，請參閱 [BranchCache 總覽](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))。
+從背景智慧型傳送服務 (位) 4.0 開始，bits 服務已擴充，以允許使用 Windows BranchCache 針對下載的 URL 資料進行子網層級的對等快取。 BITS 用戶端可以從自己的子網中已下載資料的其他電腦抓取資料，而不是從遠端伺服器取得資料。 如需有關 Windows branchcache 的詳細資訊，請參閱[branchcache 總覽](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))。
 
-如果系統管理員透過群組原則或本機設定設定，在組織中的用戶端和伺服器電腦上啟用 Windows BranchCache，BITS 將會使用 Windows BranchCache 進行資料傳輸。
+如果系統管理員透過群組原則或本機設定設定，在組織中的用戶端和伺服器電腦上啟用 Windows branchcache，BITS 將使用 Windows BranchCache 進行資料傳輸。
 
 -   [BITS 4.0 對等快取的設定](#configuration-for-bits-40-peer-caching)
 -   [停用 Windows BranchCache](#disabling-windows-branchcache)
@@ -26,39 +26,39 @@ ms.locfileid: "106965437"
 
 需要下列設定，BITS 4.0 中的對等快取才能運作：
 
--   您必須透過群組原則或本機設定，在用戶端上啟用 Windows BranchCache。 如需詳細資訊，請參閱 [BranchCache 用戶端](/previous-versions/windows/it-pro/windows-7/dd637820(v=ws.10))設定。
+-   Windows您必須透過群組原則或本機設定，在用戶端上啟用 BranchCache。 如需詳細資訊，請參閱 [BranchCache 用戶端](/previous-versions/windows/it-pro/windows-7/dd637820(v=ws.10))設定。
     > [!Note]  
-    > Windows BranchCache 功能預設為停用。
+    > 預設會停用 Windows BranchCache 功能。
 
-     
+     
 
 -   Windows BranchCache 功能是必須安裝在伺服器上的選擇性元件。 如需詳細資訊，請參閱 [BranchCache server configuration](/previous-versions/windows/it-pro/windows-7/dd637785(v=ws.10))。
 -   伺服器也必須透過群組原則或本機設定來啟用 Windows BranchCache 功能。 如需詳細資訊，請參閱 [BranchCache server configuration](/previous-versions/windows/it-pro/windows-7/dd637785(v=ws.10))。
     > [!Note]  
-    > Windows BranchCache 功能預設為停用。
+    > 預設會停用 Windows BranchCache 功能。
 
-     
+     
 
-預設的 BITS 群組原則允許對等快取。 如果電腦上的 Windows BranchCache 是全域啟用的，則也會啟用 BITS 傳送工作的這項功能。 如需有關 BITS 特定群組原則的詳細資訊，請參閱 [群組原則](group-policies.md)。
+預設的 BITS 群組原則允許對等快取。 如果在電腦上全域啟用 Windows BranchCache，則也會啟用 BITS 傳送工作的這項功能。 如需有關 BITS 特定群組原則的詳細資訊，請參閱 [群組原則](group-policies.md)。
 
 ## <a name="disabling-windows-branchcache"></a>停用 Windows BranchCache
 
-系統管理員可以使用群組原則來停用 Windows BranchCache。  (請參閱 [群組原則](group-policies.md)。 ) 如果已停用 Windows BRANCHCACHE，BITS 用戶端只會從遠端伺服器取出資料。
+系統管理員可以使用群組原則來停用 Windows BranchCache。  (請參閱[群組原則](group-policies.md)。 ) 如果 Windows BranchCache 已停用，BITS 用戶端只會從遠端伺服器取出資料。
 
-應用程式也可以藉由呼叫 [**IBackgroundCopyJob4：： SetPeerCachingFlags**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags) 方法並設定 **BG \_ 停用 \_ 分支 \_** 快取旗標，以每個作業為基礎停用 Windows BranchCache。
+應用程式也可以藉由呼叫 [**IBackgroundCopyJob4：： SetPeerCachingFlags**](/windows/desktop/api/Bits3_0/nf-bits3_0-ibackgroundcopyjob4-setpeercachingflags)方法並設定 **BG \_ 停用 \_ 分支 \_** 快取旗標，以每個作業為基礎停用 Windows BranchCache。
 
 > [!Note]  
-> 這些設定不會影響 BITS 以外的應用程式使用 Windows BranchCache。 這些設定不適用於透過 SMB 的 BITS 傳輸。 BITS 不會控制 Windows BranchCache 透過 SMB 傳送的任何設定。
+> 這些設定不會影響應用程式（位）以外的 Windows BranchCache 的使用方式。 這些設定不適用於透過 SMB 的 BITS 傳輸。 BITS 不會控制透過 SMB 進行 Windows BranchCache 傳送的任何設定。
 
- 
+ 
 
 ## <a name="verification-and-monitoring"></a>驗證和監視
 
 有幾種方式可以驗證和監視對等快取統計資料。 系統管理員可以呼叫 [**IBackgroundCopyFile4：： GetPeerDownloadStats**](/windows/desktop/api/Bits4_0/nf-bits4_0-ibackgroundcopyfile4-getpeerdownloadstats) 方法，以查詢從對等和源伺服器下載的資料量。 系統管理員也可以檢查事件記錄檔中的事件 [識別碼 60](/previous-versions/windows/it-pro/windows-server-2008-R2-and-2008/cc734635(v=ws.10))，以提供作業特定的資訊。
 
-Windows BranchCache 功能也提供一些機制來驗證和監視對等快取統計資料。 如需詳細資訊，請參閱 [驗證和監視](/previous-versions/windows/it-pro/windows-7/dd637782(v=ws.10)) 和 [效能計數器](/previous-versions/windows/it-pro/windows-7/dd637826(v=ws.10))。
+Windows BranchCache 功能也提供了一些機制，可驗證和監視對等快取統計資料。 如需詳細資訊，請參閱 [驗證和監視](/previous-versions/windows/it-pro/windows-7/dd637782(v=ws.10)) 和 [效能計數器](/previous-versions/windows/it-pro/windows-7/dd637826(v=ws.10))。
 
-使用 Windows BranchCache 的對等快取模型會取代 BITS 3.0 中使用的對等快取模型。 如需 Windows BranchCache 的詳細資訊，請參閱下列各項：
+使用 Windows BranchCache 的對等快取模型，會取代 BITS 3.0 中使用的對等快取模型。 如需有關 Windows BranchCache 的詳細資訊，請參閱下列內容：
 
 -   [BranchCache](/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/jj127252(v=ws.11))
 -   [BranchCache 概觀](/previous-versions/windows/it-pro/windows-7/dd755969(v=ws.10))
@@ -70,7 +70,7 @@ Windows BranchCache 功能也提供一些機制來驗證和監視對等快取統
 > [!Note]  
 > 從 Windows 7 開始，BITS 3.0 對等快取模型已被取代。 如果已安裝 BITS 4.0，BITS 3.0 對等快取模型就無法使用。
 
- 
+ 
 
 如果系統管理員啟用對等快取，而作業允許從對等下載內容，BITS 將會嘗試從一或多個對等電腦下載內容。 從對等下載比從網際網路下載內容快很多。 依預設會停用對等快取，且工作必須明確允許從對等下載內容。 系統管理員可以使用群組原則來啟用對等快取。 啟用對等快取之後，系統管理員可以停用從對等下載，或將內容提供給對等。
 
@@ -101,8 +101,8 @@ BITS 會從第一個經過驗證的對等下載內容，以回應要求。 如�
 > 只有網域網路才支援這項功能;工作組或家用網路不支援對等快取。
 
 另請參閱[管理對等](/windows/desktop/Bits/administering-the-peer-cache)快取
- 
+ 
 
- 
+ 
 
- 
+ 

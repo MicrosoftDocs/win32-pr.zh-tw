@@ -6,12 +6,12 @@ keywords:
 - EAP_CRED_RESP
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5c2176377dbde0f7c02d2a7d8083ad1bcff9e71
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d16b9bda55ed1b4aee9a9847740b25d46418c6ec3544dfdd6ba71b2c282042b2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "107000537"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117904635"
 ---
 # <a name="eap_cred_resp"></a>EAP \_ 認證 \_ RESP
 
@@ -45,8 +45,8 @@ Eap [**\_ 互動式 \_ ui \_ 資料 \_ 類型**](/windows/desktop/api/eaptypes/n
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Eaptypes。h</dt> </dl> |
 
 

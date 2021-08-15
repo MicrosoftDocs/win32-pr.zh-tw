@@ -4,12 +4,12 @@ ms.assetid: ffe663ce-3e9a-4dfc-8904-6f055332c119
 title: 播放清單範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f83d05762385d0de43a5d7f2bcd73cda2c6e2d51
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e5cad2ef96c76512947a5b74e7eac54e3ad5787218e625f30fea5b8e5164177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118239125"
 ---
 # <a name="playlist-sample"></a>播放清單範例
 
@@ -28,7 +28,7 @@ ms.locfileid: "106987427"
 -   [**IMFMediaSession**](/windows/desktop/api/mfidl/nn-mfidl-imfmediasession)
 -   [**IMFSequencerSource**](/windows/desktop/api/mfidl/nn-mfidl-imfsequencersource)
 
-## <a name="usage"></a>使用方式
+## <a name="usage"></a>使用量
 
 播放清單範例會建立 Windows 應用程式。
 

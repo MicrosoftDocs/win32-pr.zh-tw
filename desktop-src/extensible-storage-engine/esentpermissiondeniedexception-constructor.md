@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: f0587c195fb07f734b48d1e977b1b842e2dc13fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f6d0dd2728cecea5579dd10d9d87c1452ddc9d875da5b91d733dd7c98877cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118261024"
 ---
 # <a name="esentpermissiondeniedexception-constructor"></a>EsentPermissionDeniedException 函式
 

@@ -4,12 +4,12 @@ description: 控制項會回應鍵盤快速鍵，讓終端使用者可以起始�
 ms.assetid: 59aca5cb-f109-49ee-897d-43610501f7f8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cbe03058fdb0192a0f8f7b13032612288045775b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 26081d36c62b11163ceb8c41421ea0370d18b3ce9bf16be68e4e8a06a5f1a489
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117736555"
 ---
 # <a name="keyboard-handling-for-controls"></a>控制項的鍵盤處理
 
@@ -25,12 +25,12 @@ ms.locfileid: "104311402"
 
 <dl> <dt>
 
-[ActiveX 控制項](activex-controls.md)
+[ActiveX控制](activex-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

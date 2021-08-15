@@ -4,12 +4,12 @@ ms.assetid: 074ef4d5-3ac1-4bdb-90c5-9798d89a749f
 title: PathEdit 控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65d1237199f202e6c674ab4526ccd4747b02c09b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ed7655cc893c30f417c9a7ef374eb6d4ade10dfd618ca328e1be2fc7a0e0a9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118377611"
 ---
 # <a name="pathedit-control"></a>PathEdit 控制項
 

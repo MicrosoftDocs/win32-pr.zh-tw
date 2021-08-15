@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 956ec0e9311e789de867cca38098221a7291c6fd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c92b0f42924468ad9bb75766b4dd847902a363259519b466962e294d26fc23c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986567"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335674"
 ---
 # <a name="playliststatustextcolor"></a>播放清單。 statusTextColor
 

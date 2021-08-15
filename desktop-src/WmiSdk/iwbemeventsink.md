@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - Wbemsvc.dll
-ms.openlocfilehash: 22a3a15920d26f482cedfa3a596fd439ea70c2f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10c5fa56a96db3e46ce2c4c7941fd7a1d6fb27a1730dc3741890935782e4ace7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318094"
 ---
 # <a name="iwbemeventsink-interface"></a>IWbemEventSink 介面
 

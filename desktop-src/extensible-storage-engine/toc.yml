@@ -1,14 +1,14 @@
-- name: 可擴充儲存引擎
+- name: 可擴充的儲存體引擎
   href: extensible-storage-engine.md
   items:
-    - name: 關於可擴充儲存引擎
+    - name: 關於可擴充的儲存體引擎
       href: about-extensible-storage-engine.md
       items:
         - name: 資料庫總覽
           href: database-overview.md
         - name: ESE 控制碼
           href: ese-handles.md
-    - name: 使用可擴充儲存引擎
+    - name: 使用可擴充的儲存體引擎
       href: using-extensible-storage-engine.md
       items:
         - name: 資料行
@@ -46,14 +46,14 @@
               href: reading-data-from-the-database.md
         - name: 交易
           href: transactions.md
-        - name: 可擴充儲存引擎錯誤
+        - name: 可擴充的儲存體引擎錯誤
           href: extensible-storage-engine-errors.md
-        - name: 可擴充儲存引擎檔案
+        - name: 可擴充的儲存體引擎檔案
           href: extensible-storage-engine-files.md
-    - name: 可擴充儲存引擎參考
+    - name: 可擴充的儲存體引擎參考
       href: extensible-storage-engine-reference.md
       items:
-        - name: 可擴充儲存引擎回呼函式
+        - name: 可擴充的儲存體引擎回呼函數
           href: extensible-storage-engine-callback-functions.md
           items:
             - name: JET_CALLBACK 回呼函數
@@ -62,7 +62,7 @@
               href: jet-pfnrealloc-callback-function.md
             - name: JET_PFNSTATUS 回呼函數
               href: jet-pfnstatus-callback-function.md
-        - name: 可擴充儲存引擎常數
+        - name: 可擴充的儲存體引擎常數
           href: extensible-storage-engine-constants.md
           items:
             - name: JET_CBTYP
@@ -81,7 +81,7 @@
               href: error-handling-constants.md
             - name: 事件記錄常數
               href: event-logging-constants.md
-            - name: 可擴充儲存引擎系統參數
+            - name: 可擴充的儲存體引擎系統參數
               href: extensible-storage-engine-system-parameters.md
               items:
                 - name: 備份和還原參數
@@ -116,7 +116,7 @@
               href: maximum-settings-constants.md
             - name: 過時的常數
               href: obsolete-constants.md
-        - name: 可擴充儲存引擎資料類型
+        - name: 可擴充的儲存體引擎資料類型
           href: extensible-storage-engine-data-types.md
           items:
             - name: JET_API_PTR
@@ -153,9 +153,9 @@
               href: jet-tableid.md
             - name: WCHAR
               href: wchar.md
-        - name: 可擴充儲存引擎錯誤碼
+        - name: 可擴充的儲存體引擎錯誤碼
           href: extensible-storage-engine-error-codes.md
-        - name: 可擴充儲存引擎函式
+        - name: 可擴充的儲存體引擎函數
           href: extensible-storage-engine-functions.md
           items:
             - name: JetAddColumn 函式
@@ -476,7 +476,7 @@
               href: jetupdate-function.md
             - name: JetUpdate2 函式
               href: jetupdate2-function.md
-        - name: 可擴充儲存引擎結構
+        - name: 可擴充的儲存體引擎結構
           href: extensible-storage-engine-structures.md
           items:
             - name: JET_BKINFO 結構
@@ -579,7 +579,7 @@
               href: jet-unicodeindex-structure.md
             - name: JET_USERDEFINEDDEFAULT 結構
               href: jet-userdefineddefault-structure.md
-    - name: 可擴充儲存引擎管理的參考
+    - name: 可擴充的儲存體引擎受控參考
       href: extensible-storage-engine-managed-reference.md
       items:
         - name: Microsoft. Esent

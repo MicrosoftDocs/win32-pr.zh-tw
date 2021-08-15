@@ -7,12 +7,12 @@ keywords:
 - 從您的應用程式 AD 叫用建立嚮導
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa523d3b861d1d4a7588455b04c1a9633734253a
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: ba1d5f8c722e3f673d998d3baaf33b4110293c70875a68fd03e8117f667351bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462848"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187072"
 ---
 # <a name="invoking-creation-wizards-from-your-application"></a>從您的應用程式叫用建立嚮導
 
@@ -150,6 +150,6 @@ int main(void)
 
 
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: eae1d066-64af-45e2-b8bb-eddf9147ad8b
 title: 'MFT_MESSAGE_COMMAND_MARKER (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3802cb94c9183d4f392fbcedcf48c0c01071298e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc55a96ae9680b37d83ec776c66848ed04f4a30b62d1d0378035c88823d2c19d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872168"
 ---
 # <a name="mft_message_command_marker"></a>MFT \_ 訊息 \_ 命令 \_ 標記
 
@@ -40,8 +40,8 @@ MFT 會回應此 messageas，如下所示：
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

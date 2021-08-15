@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b78fe6f4ce7608ff02ecb5b125b00171610ec112
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 636995cd62c83f46f97ea7371257a5fdfc8f1c79fec1873b229f80d92be6335d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748936"
 ---
 # <a name="equalizersettingsbypass"></a>EQUALIZERSETTINGS，略過
 

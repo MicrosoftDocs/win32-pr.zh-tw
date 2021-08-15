@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103079
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 30669b706d12aaecd2969a5e3dcc2876aed9b72c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7079c813987aaaf4116564947153fffa6cf0e2120728d9e225504cfcfff3aa26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104555478"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118257453"
 ---
 # <a name="esenttoomanymempoolentriesexception-properties"></a>EsentTooManyMempoolEntriesException 屬性
 

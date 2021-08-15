@@ -7,12 +7,12 @@ keywords:
 - 執行物件建立延伸模組 COM 物件廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05c1a9da94caa300c1277cf6f6030357ca9d573d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a1c1d7eb9d3e2fe80e721068f39746e08f0ecf5a1db721658c02ec52aca39687
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104023235"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187636"
 ---
 # <a name="implementing-the-object-creation-extension-com-object"></a>執行物件建立延伸模組 COM 物件
 
@@ -44,6 +44,6 @@ ms.locfileid: "104023235"
 
 因為其他物件建立延伸模組可以將頁面加入至 wizard，所以主要物件建立延伸模組可能不知道在嚮導中是否有一個以上的頁面。 這並不是問題的原因有兩種：首先，如果系統執行「完成」頁面，主要物件建立延伸模組將會收到 [**PSN \_ WIZNEXT**](../controls/psn-wiznext.md) 通知，而不是 **PSN \_ WIZNEXT** 通知。 其次，如果 wizard 包含一個以上的頁面， [**Commit**](/windows/desktop/api/DSAdmin/nf-dsadmin-idsadminnewobjprimarysite-commit) 將會失敗 harmlessly。
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ description: IBackgroundCopyFile6 介面會公開下列方法。
 ms.assetid: 589EC0DA-95B1-4E5D-84C8-B273D838B0CB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 94ec4a2faecca1cb71a7659e652715911fb03b5d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7474a08a4d4427c9264abe65de9b7bad4357210e484b52b636a0234f90599cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118173530"
 ---
 # <a name="ibackgroundcopyfile6-methods"></a>IBackgroundCopyFile6 方法
 

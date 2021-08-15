@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 87fae83903eb314c0311a9bea0f45aa09ead8543
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 17bfbb670892db10e787f7877a74bd376500f34236121c7db0cc9a1c472f3513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510038"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905245"
 ---
 # <a name="span-idvspixenginepixenginechanneldescspanpixenginechanneldesc-structure"></a><span id="vspixengine.pixenginechanneldesc"></span>PixEngineChannelDesc 結構
 

@@ -5,12 +5,12 @@ ms.assetid: 8f454087-46cb-4fa6-b83a-65b2393029c3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ceecff05d031875178b6192e7c633f70e4c91c50
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 582371d387862e28414cb9b9c66623f2334b53f845117c9cd4bbddec19213dfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182789"
 ---
 # <a name="temporal-locality"></a>時態性位置
 
@@ -18,9 +18,9 @@ ms.locfileid: "104462004"
 
 時態性位置也可減少因物件不一致而導致衝突解決問題的機率。
 
- 
+ 
 
- 
+ 
 
 
 

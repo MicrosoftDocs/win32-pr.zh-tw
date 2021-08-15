@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bb63bce02a52aefcf1f3351fe34ab008996aa0b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3e6703481dc1d3608a8bf08ab2bbd216db4a9ecdc91bd4604d2b9de7d7de4fa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848531"
 ---
 # <a name="drm_license_state_data-structure-drmexternalsh"></a>DRM_LICENSE_STATE_DATA 結構 (Drmexternals .h) 
 
@@ -134,7 +134,7 @@ typedef struct DRM_LICENSE_STATE_DATA {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                      |
-| 版本<br/>                  | Windows Media Format 7 SDK 或更新版本的 SDK<br/>                       |
+| 版本<br/>                  | WindowsMedia Format 7 SDK 或更新版本的 SDK<br/>                       |
 | 標頭<br/>                   | <dl> <dt>Drmexternals。h</dt> </dl> |
 
 

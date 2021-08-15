@@ -5,12 +5,12 @@ ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: 0c35d8cd-0226-4161-bbb9-cb754785274c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ed45a6503e1856f41e892eb6bcad03f4263ddf6
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 243b9eb6d84b133a98d65f24e3486b79d78397f75c17f3ed5ceb52a3f2ff59ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373376"
 ---
 # <a name="multimedia"></a>多媒體
 
@@ -238,7 +238,7 @@ Circulates 樂譜數位介面相關資訊的非盈利性組織 (MIDI) 規格。
 <span id="_win32_midi_mapper_gloss"></span><span id="_WIN32_MIDI_MAPPER_GLOSS"></span>**MIDI** 對應程式
 </dt> <dd>
 
-Windows 系統軟體會修改音樂檢測數位介面 (MIDI) 輸出訊息，並使用儲存在 MIDI 安裝對應中的值，將它們重新導向至 MIDI 輸出裝置。 MIDI 對應工具可以變更訊息的目的地通道和輸出裝置，以及修改程式變更訊息、磁片區值和機碼值。
+Windows 系統軟體會修改音樂檢測數位介面 (MIDI) 輸出訊息，然後使用儲存在 midi 安裝對應中的值，將它們重新導向至 midi 輸出裝置。 MIDI 對應工具可以變更訊息的目的地通道和輸出裝置，以及修改程式變更訊息、磁片區值和機碼值。
 
 </dd> <dt>
 
@@ -266,7 +266,7 @@ Windows 系統軟體會修改音樂檢測數位介面 (MIDI) 輸出訊息，並�
 <span id="_win32_midi_sequencer_gloss"></span><span id="_WIN32_MIDI_SEQUENCER_GLOSS"></span>**MIDI sequencer**
 </dt> <dd>
 
-此程式會建立或播放儲存為音樂檢測數位介面 (MIDI) 檔案的歌曲。 當 sequencer 播放 MIDI 檔案時，它會將 MIDI 資料從檔案傳送至 MIDI 合成器，以產生聲音。 Windows 提供可透過媒體控制介面（可透過播放 MIDI 檔案的 (MCI) ）來存取的 MIDI sequencer。 另請參閱 [ (MCI) 的 Media Control 介面 ](/windows)。
+此程式會建立或播放儲存為音樂檢測數位介面 (MIDI) 檔案的歌曲。 當 sequencer 播放 MIDI 檔案時，它會將 MIDI 資料從檔案傳送至 MIDI 合成器，以產生聲音。 Windows 提供可透過媒體控制介面（可透過播放 MIDI 檔案的 (MCI) ）來存取的 midi sequencer。 另請參閱 [ (MCI) 的 Media Control 介面 ](/windows)。
 
 </dd> <dt>
 
@@ -543,6 +543,6 @@ Windows 系統軟體會修改音樂檢測數位介面 (MIDI) 輸出訊息，並�
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

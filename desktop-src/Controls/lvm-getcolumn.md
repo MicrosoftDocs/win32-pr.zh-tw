@@ -3,7 +3,7 @@ title: 'LVM_GETCOLUMN 訊息 (Commctrl .h) '
 description: 取得清單視圖控制項之資料行的屬性。 您可以明確地傳送此訊息，或使用 ListView \_ GetColumn 宏來傳送。
 ms.assetid: 59b4bbfc-6c38-4faa-8f2e-3ea5d24e55a6
 keywords:
-- LVM_GETCOLUMN message Windows 控制項
+- LVM_GETCOLUMN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3eebf57138d27c31c5594f271e5d36a052b81673
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b65478d1d249740c630499fd4837e31d4eba7b992cf3ef3682c4e7b72d0706cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118411734"
 ---
 # <a name="lvm_getcolumn-message"></a>LVM \_ GETCOLUMN 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104464280"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ description: 本章節包含與工具列控制項搭配使用之程式設計項�
 ms.assetid: vs|controls|~\controls\toolbar\reflist.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e0cadd2eb1560d3486073810e86a143b7fccca5
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: a22fd1b51ea1fab45061125654029951f4557472fab62847773e559647e12272
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "103683556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166496"
 ---
 # <a name="toolbar"></a>工具列
 

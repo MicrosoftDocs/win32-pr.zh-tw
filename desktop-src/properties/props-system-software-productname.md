@@ -4,16 +4,16 @@ ms.assetid: 6a2647c6-5996-4e83-b7b3-f727b9445dbc
 title: System. Software。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 350c6a2baedbd94f57bb4461ada0360db929b609
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 7c19ef6cbc1df104f9c711b02ff6ed85e279c35bbd4987f54bc78feff9d2a1d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117681879"
 ---
 # <a name="systemsoftwareproductname"></a>System. Software。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

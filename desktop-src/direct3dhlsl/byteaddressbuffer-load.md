@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 5fd7ef43f45340a1e8865564c7f81089d1828009
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 0335b63828423b258d3ffe741ede3cdca6c91ae2d596b2adce91f6f36b59f214
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104971525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118287571"
 ---
 # <a name="load-methods"></a>載入方法
 

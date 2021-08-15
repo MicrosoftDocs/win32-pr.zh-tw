@@ -15,9 +15,9 @@
               href: supplicant-api-call-sequence.md
             - name: 對等方法 API 呼叫順序
               href: peer-method-api-call-sequence.md
-            - name: 通道方法 API 呼叫順序
+            - name: Tunnel方法 API 呼叫順序
               href: tunnel-method-api-call-sequence1.md
-            - name: 驗證者方法 API 呼叫順序
+            - name: Authenticator方法 API 呼叫順序
               href: authenticator-method-api-call-sequence.md
         - name: EAPHost 要求者
           href: eaphost-supplicants.md
@@ -38,7 +38,7 @@
         - name: 設定 EAP 方法的登錄值
           href: registry-keys-for-eap-methods.md
           items:
-            - name: EAP 驗證器方法登錄機碼
+            - name: EAP Authenticator 方法登錄機碼
               href: eap-authenticator-method-registry-keys.md
             - name: EAP 對等方法登錄機碼
               href: eap-peer-method-registry-keys.md
@@ -101,7 +101,7 @@
     - name: EAPHost API 參考
       href: eaphost-api-reference.md
       items:
-        - name: EAPHost 登錄設定
+        - name: EAPHost Registry 設定
           href: eaphost-registry-settings.md
           items:
             - name: BypassNegotiation
@@ -696,10 +696,10 @@
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapsimcredential
                 - name: EapUsernamePasswordCredential
                   href: /windows/win32/api/eaptypes/ns-eaptypes-eapusernamepasswordcredential
-        - name: EAPHost 驗證器方法 Api
+        - name: EAPHost Authenticator 方法 api
           href: eaphost-authenticator-method-apis.md
           items:
-            - name: EAPHost 驗證器方法函數
+            - name: EAPHost Authenticator 方法函數
               href: eap-host-authenticator-method-functions.md
               items:
                 - name: EapMethodAuthenticatorBeginSession
@@ -730,14 +730,14 @@
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorshutdown
                 - name: EapMethodAuthenticatorUpdateInnerMethodParams
                   href: /windows/desktop/api/eapmethodauthenticatorapis/nf-eapmethodauthenticatorapis-eapmethodauthenticatorupdateinnermethodparams
-            - name: EAPHost 驗證器方法列舉
+            - name: EAPHost Authenticator 方法列舉
               href: eap-host-authenticator-method-enumerations.md
               items:
                 - name: EAP_AUTHENTICATOR_SEND_TIMEOUT
                   href: /windows/win32/api/eapAuthenticatorTypes/ne-eapauthenticatortypes-eap_authenticator_send_timeout
                 - name: EAP_METHOD_AUTHENTICATOR_RESPONSE_ACTION
                   href: /windows/win32/api/EapAuthenticatorActionDefine/ne-eapauthenticatoractiondefine-eap_method_authenticator_response_action
-            - name: EAPHost 驗證器方法結構
+            - name: EAPHost Authenticator 方法結構
               href: eap-host-authenticator-method-structures.md
               items:
                 - name: EAP_AUTHENTICATOR_METHOD_ROUTINES

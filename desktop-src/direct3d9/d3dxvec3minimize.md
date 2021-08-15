@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 532c3cfaddc63b0f358fa3ce88afeccc2f12e289
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: b3519d7a14c02356153ac9209437f488b14c363dc68fcf8b2225f1aef48d7f89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118297760"
 ---
 # <a name="d3dxvec3minimize-function"></a>D3DXVec3Minimize 函式
 

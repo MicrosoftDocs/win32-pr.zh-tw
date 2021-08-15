@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 82e100092dd7c59e9cc689aa8723365fae8bed29
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5079b740d268174715b6c944787bb687cd9b8b1ecb12a27c04eeb26c79811034
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784154"
 ---
 # <a name="authzaccesscheckcallback-callback-function"></a>AuthzAccessCheckCallback 回呼函式
 
@@ -89,9 +89,9 @@ BOOL CALLBACK AuthzAccessCheckCallback(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                   |
-| 可轉散發套件<br/>          | Windows XP 上的 windows Server 2003 管理工具套件<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                   |
+| 可轉散發套件<br/>          | WindowsWindows XP 上的 Server 2003 管理工具套件<br/> |
 
 
 

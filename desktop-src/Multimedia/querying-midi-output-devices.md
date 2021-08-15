@@ -13,12 +13,12 @@ keywords:
 - 查詢 MIDI 輸出裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 292fbacbb4acf182d566e8c98832dfb0f993ea2b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b493c0b3554a9a60cfc349d13a5404ec4d2b27915933c14b387df29a582406e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106978577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371910"
 ---
 # <a name="querying-midi-output-devices"></a>查詢 MIDI 輸出裝置
 
@@ -30,6 +30,6 @@ MIDI 輸出裝置可以是內部合成或外部 MIDI 輸出埠。 **MIDIOUTCAPS*
 
 **MIDIOUTCAPS** 結構的 **dwSupport** 成員會指出設備磁碟機是否支援磁片區變更、修補程式快取，以及串流處理。 只有內部合成裝置才支援磁片區變更。 外部 MIDI 輸出埠不支援磁片區變更。 如需變更磁片區的相關資訊，請參閱 [變更內部 MIDI 合成器磁片](changing-internal-midi-synthesizer-volume.md)區。
 
- 
+ 
 
- 
+ 

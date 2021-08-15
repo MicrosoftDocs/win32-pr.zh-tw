@@ -1,23 +1,23 @@
 ---
 title: WER 設定
-description: 自訂問題報告體驗的設定。 所有這些設定都可以使用群組原則來設定。 您也可以在 Windows 7 和 Windows 8 的 [行動中心] 中變更部分。 針對 Windows 10，請使用 [設定] 中的 [搜尋] 功能，找出 View advanced 系統設定。
+description: 設定來自訂問題報告體驗。 所有這些設定都可以使用群組原則來設定。 您也可以在 [行動中心] 中變更 Windows 7 和 Windows 8 的部分變更。 針對 Windows 10，請使用設定中的搜尋功能來尋找 View advanced 系統設定。
 ms.assetid: 031c5591-31b0-42f1-9a98-ecf10a5d5571
 keywords:
 - Windows 錯誤報告 Windows 錯誤報告，設定
 ms.topic: article
 ms.date: 03/12/2021
-ms.openlocfilehash: 28b6abbda7d851daddb75ec534b8128d1a831b3f
-ms.sourcegitcommit: 434d5437d4c31c47358598ea5275177c2698f557
+ms.openlocfilehash: 4586c4f282cbc5c4e2f683c0764eac048f6c05d22a1972cb0ceb84f9699c7925
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/13/2021
-ms.locfileid: "106992697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118442227"
 ---
 # <a name="wer-settings"></a>WER 設定
 
-Windows 錯誤報告 (WER) 提供許多設定來自訂問題報告體驗。 所有這些設定都可以使用群組原則來設定。 您也可以在 Windows 7 和 Windows 8 的 [ **行動中心** ] 中變更部分。 針對 Windows 10，請使用 [設定] 中的 [搜尋] 功能，找出 **View advanced 系統設定**。 WER 設定位於下列其中一個登錄子機碼中：
+Windows 錯誤報告 (WER) 提供許多設定來自訂問題報告體驗。 所有這些設定都可以使用群組原則來設定。 您也可以在 [**行動中心**] 中變更 Windows 7 和 Windows 8 的部分變更。 針對 Windows 10，請使用設定中的搜尋功能來尋找 **View advanced 系統設定**。 WER 設定位於下列其中一個登錄子機碼中：
 
--   **HKEY \_目前的 \_ 使用者** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **Windows 錯誤報告**
+-   **HKEY \_\_** \\  \\ **Microsoft** \\ **Windows** \\ **Windows 錯誤報告** 的目前使用者軟體
 -   **HKEY \_本機 \_ 電腦** \\ **軟體** \\ **Microsoft** \\ **Windows** \\ **Windows 錯誤報告**
 
 ## <a name="windows-error-reporting-subkey"></a>Windows 錯誤報告子機碼
@@ -48,7 +48,7 @@ Windows 錯誤報告 (WER) 提供許多設定來自訂問題報告體驗。 所�
 
 **REG \_ DWORD**
 
-可能的值：<dl> <dd>1-只有在 Windows 7) 上 (預設參數</dd> <dd>2-Windows Vista) 上的所有資料 (預設值</dd> </dl>
+可能的值：<dl> <dd>1-參數 (預設值 Windows 7) </dd> <dd>2-Windows Vista) 上的所有資料 (預設值</dd> </dl>
 
 是否只封存參數或所有資料
 
@@ -142,7 +142,7 @@ WER 外掛程式的同意選擇
 
 </dd> <dt>
 
-<span id="DebugApplications__ExeName___replace___ExeName___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="debugapplications__exename___replace___exename___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="DEBUGAPPLICATIONS__EXENAME___REPLACE___EXENAME___WITH_AN_ACTUAL_NAME_OF_AN_.EXE_FILE__FOR_EXAMPLE___NOTEPAD.EXE__"></span>**DebugApplications \\ \[ ExeName \] (\[ \] 以 .exe 檔案名的實際名稱取代 "ExeName"，例如 "notepad.exe" )**
+<span id="DebugApplications__ExeName___replace___ExeName___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="debugapplications__exename___replace___exename___with_an_actual_name_of_an_.exe_file__for_example___notepad.exe__"></span><span id="DEBUGAPPLICATIONS__EXENAME___REPLACE___EXENAME___WITH_AN_ACTUAL_NAME_OF_AN_.EXE_FILE__FOR_EXAMPLE___NOTEPAD.EXE__"></span>**DebugApplications \\ \[ ExeName \] (\[ 以 .exe 檔案的實際名稱取代 "ExeName \] "，例如 "notepad.exe" )**
 </dt> <dd>
 
 **REG \_ DWORD**
@@ -244,7 +244,7 @@ WER 外掛程式的同意選擇
 
 目錄路徑。 預設值為% LOCALAPPDATA% \\ CrashDumps。 如果未使用預設值，則應用程式必須確定資料夾有足夠的 ACL。
 
-**Windows Vista：** 不支援 **LocalDumps** 機碼下的登錄值。 請注意，此行為隨著 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 而變更。
+**Windows Vista：** 不支援 **LocalDumps** 機碼下的登錄值。 請注意，此行為隨 Windows Server 2008 和 Windows Vista Service Pack 1 (SP1) 變更。
 
 要儲存傾印檔案的路徑。
 
@@ -352,11 +352,11 @@ WER 外掛程式的同意選擇
 
 值的名稱是用來提取 pwszOutOfProcessCallbackDll 值。
 
-**Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援這個登錄值。
+**Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援這個登錄值。
 
 </dd> </dl>
 
-## <a name="wer-live-kernel-reports-settings"></a>WER 即時核心報告設定
+## <a name="wer-live-kernel-reports-settings"></a>WER 即時核心報表設定
 
 接下來會說明 WER 的即時核心報告設定，兩者都位於下列登錄子機碼底下：
 
@@ -412,7 +412,7 @@ WER 外掛程式的同意選擇
 **REG \_ SZ**
 
 
-即時核心報告的重新導向儲存位置。 預設位置為%systemroot%\LiveKernelReports。 此值必須是有效的路徑。 路徑必須是 NT 路徑格式。 例如， \? ？ \c： \LiveDumpsFolder。  如需路徑格式的詳細資訊，請參閱  [Windows 系統上的檔案路徑格式](/dotnet/standard/io/file-path-formats)。
+即時核心報告的重新導向儲存位置。 預設位置為%systemroot%\LiveKernelReports。 此值必須是有效的路徑。 路徑必須是 NT 路徑格式。 例如， \? ？ \c： \LiveDumpsFolder。  如需路徑格式的詳細資訊，請參閱[Windows 系統上的檔案路徑格式](/dotnet/standard/io/file-path-formats)。
 
 </dd> </dl>
 

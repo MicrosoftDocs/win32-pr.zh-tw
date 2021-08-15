@@ -1,6 +1,6 @@
 ---
 title: PlayerApplication. switchToControl 方法
-description: SwitchToControl 方法會將遠端 Windows Media Player 控制項切換至停駐的狀態。
+description: switchToControl 方法會將遠端 Windows Media Player 控制項切換至停駐的狀態。
 ms.assetid: 3c321b8f-8208-4c55-8872-38626d8ef9c9
 keywords:
 - switchToControl 方法 Windows Media Player
@@ -16,16 +16,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e175c586631bcdf4345a421270521595332c51d4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 759040ccb54d5dd32df83811f9878418dbe0a1108719eac4e3b7467b9b3c76f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747212"
 ---
 # <a name="playerapplicationswitchtocontrol-method"></a>PlayerApplication. switchToControl 方法
 
-**SwitchToControl** 方法會將遠端 Windows Media Player 控制項切換至停駐的狀態。
+**switchToControl** 方法會將遠端 Windows Media Player 控制項切換至停駐的狀態。
 
 ## <a name="syntax"></a>語法
 

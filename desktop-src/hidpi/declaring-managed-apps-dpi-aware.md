@@ -1,21 +1,21 @@
 ---
 title: 開發每個監視器 DPI 感知的 WPF 應用程式
-description: 請注意，本頁面涵蓋 Windows 8.1 的舊版 WPF 開發。 如果您正在開發 Windows 10 的 WPF 應用程式，請參閱 GitHub 上的最新檔。.
+description: 請注意，本頁面涵蓋 Windows 8.1 的舊版 WPF 開發。 如果您正在開發 Windows 10 的 WPF 應用程式，請參閱 GitHub 的最新檔。 .
 ms.assetid: 04a36dc7-684f-4846-aeba-970117070b4c
 keywords:
-- Windows 消費者介面、DPI 感知的應用程式
-- Windows 消費者介面，高 DPI
+- Windows消費者介面 DPI 感知的應用程式
+- Windows消費者介面，高 DPI
 - DPI 感知應用程式
 - 高 DPI
 - 撰寫 DPI 感知的 Win32 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8a32bfaf76271e61d0dc3791d5aaae9609be6d8c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1527412e3259efca7d81285c6ba7ed42dbaebf43d37307342de02f1d2ce9d339
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118249655"
 ---
 # <a name="developing-a-per-monitor-dpi-aware-wpf-application"></a>開發每個監視器 DPI 感知的 WPF 應用程式
 
@@ -26,9 +26,9 @@ ms.locfileid: "104092731"
 -   [**GetDpiForMonitor**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor)
 
 > [!Note]  
-> **本頁面涵蓋 Windows 8.1 的舊版 WPF 開發。** 如果您正在開發 Windows 10 的 WPF 應用程式，請參閱 <a href="https://github.com/microsoft/WPF-Samples/blob/master/PerMonitorDPI/readme.md">GitHub 上的最新檔。</a>
+> **本頁面涵蓋 Windows 8.1 的舊版 WPF 開發。** 如果您正在開發 Windows 10 的 WPF 應用程式，請參閱<a href="https://github.com/microsoft/WPF-Samples/blob/master/PerMonitorDPI/readme.md">GitHub 的最新檔。</a>
 
- 
+ 
 
 Windows 8.1 為開發人員提供新的功能，可讓您建立個別監視器 DPI 感知的桌面應用程式。 為了充分利用這項功能，每個監視器 DPI 感知應用程式必須執行下列動作：
 
@@ -39,12 +39,12 @@ Windows 8.1 為開發人員提供新的功能，可讓您建立個別監視器 D
 
 為了加速製作個別監視器 DPI 感知應用程式，Windows 8.1 提供下列 Microsoft Win32APIs：
 
--   [**SetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness) (或 DPI 資訊清單專案) 將進程設定為指定的 DPI 感知層級，然後決定 Windows 如何調整 UI。 這會取代 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware)。
+-   [**SetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-setprocessdpiawareness) (或 DPI 資訊清單專案) 會將程式設定為指定的 DPI 感知層級，然後決定 Windows 調整 UI 的方式。 這會取代 [**SetProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-setprocessdpiaware)。
 -   [**GetProcessDpiAwareness**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getprocessdpiawareness) 會傳回 DPI 感知層級。 這會取代 [**IsProcessDPIAware**](/windows/desktop/api/winuser/nf-winuser-isprocessdpiaware)。
 -   [**GetDpiForMonitor**](/windows/desktop/api/ShellScalingAPI/nf-shellscalingapi-getdpiformonitor) 會傳回監視器的 DPI。
 -   當視窗的位置變更時，會將 [**WM \_ DPICHANGED**](wm-dpichanged.md) 視窗通知傳送至每個監視器 DPI 感知的應用程式，使其大部分的區域與在位置變更之前或當使用者移動顯示滑杆時，與 DPI 不同的監視器相交。 若要建立應用程式，以在使用者將它移至不同的顯示器時調整大小並重新呈現，請使用此通知。
 
-如需 Windows 8.1 中桌面應用程式支援之各種 DPI 感知層級的詳細資訊，請參閱 [撰寫 DPI-Aware desktop 和 Win32 應用程式](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot))的主題。
+如需 Windows 8.1 中桌面應用程式支援之各種 DPI 感知層級的詳細資訊，請參閱[撰寫 DPI-Aware desktop 和 Win32 應用程式](https://msdn.microsoft.com/library/windows/desktop/mt843498(v=vs.85).aspx(d=robot))的主題。
 
 ## <a name="dpi-scaling-and-wpf"></a>DPI 縮放比例和 WPF
 
@@ -56,13 +56,13 @@ Windows Presentation Foundation (WPF) 應用程式預設會感知系統 DPI 感�
 
 -   NativeHelpers. .vcxproj：這是原生協助程式專案，它會執行核心功能，讓 WPF 應用程式依照上述 Win32APIs 的個別監視器 DPI 感知。 專案包含兩個類別：
     -   PerMonDPIHelpers：提供與 DPI 相關之作業的 helper 函式的類別，例如抓取作用中監視器的目前 DPI、將進程設定為個別監視器 DPI 感知等等。
-    -   PerMonitorDPIWindow：衍生自的基類，它會實作為個別監視器 DPI 感知之 WPF 應用程式 **視窗的功能** 。 根據監視器的 DPI 而非系統 DPI，調整視窗大小、圖形轉譯大小和字型大小。
+    -   PerMonitorDPIWindow：衍生自 **System. Windows 的基類。** 執行功能的視窗，讓 WPF 應用程式視窗成為個別監視器 DPI 感知。 根據監視器的 DPI 而非系統 DPI，調整視窗大小、圖形轉譯大小和字型大小。
 -   WPFApplication .csproj：使用 PerMonitorDPIWindow (PerMonitorDPIWindow) 的範例 WPF 應用程式，並展示當視窗移至具有不同 DPI 的監視器時，或在顯示控制台中的滑杆用來變更 DPI 時，應用程式視窗和轉譯的大小。
 
 若要執行範例，請遵循下列步驟：
 
 1.  下載並解壓縮 [每個監視器感知 WPF 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PerMonitorDPIAware)
-2.  開始 Microsoft Visual Studio，然後選取 [檔案] **> 開啟 > 專案/方案**
+2.  開始 Microsoft Visual Studio，然後選取 [檔案] **> 開啟 > Project/Solution**
 3.  流覽至包含解壓縮範例的目錄。 移至為範例命名的目錄，然後按兩下 Visual Studio 方案 ( .sln) 檔
 4.  按 F7 或使用 **組建 > 組建方案** 來建立範例
 5.  按 Ctrl + F5 或使用 **Debug > 啟動但不進行調試** ，以執行範例
@@ -74,15 +74,15 @@ Windows Presentation Foundation (WPF) 應用程式預設會感知系統 DPI 感�
 如果您有現有的 WPF 應用程式，並想要利用範例中的 DPI 協助程式專案，讓它成為 DPI 感知，請遵循下列步驟。
 
 1.  下載並解壓縮每個監視器感知 WPF 範例
-2.  開始 Visual Studio，然後選取 [檔案] **> 開啟 > 專案/方案**
+2.  開始 Visual Studio，然後選取 [檔案] **> 開啟 > Project/Solution**
 3.  流覽至包含現有 WPF 應用程式的目錄，然後按兩下 [Visual Studio 方案 ( .sln) 檔
-4.  以滑鼠右鍵按一下 [**方案 > 新增 > 現有專案**] ![ 螢幕擷取畫面，其中顯示 [新增：現有專案] 功能表選取專案](images/scrvs-image1.png)
+4.  以滑鼠右鍵按一下 **方案 > 新增 > 現有的 Project** ![ 顯示 [新增：現有專案] 功能表選項的螢幕擷取畫面](images/scrvs-image1.png)
 5.  在 [檔案選取] 對話方塊中，流覽至包含解壓縮範例的目錄。 開啟至範例中名為的目錄，流覽至 "NativeHelpers" 資料夾，選取 Visual C++ 專案檔 "NativeHelpers .vcxproj"，然後按一下 **[確定]** 。
 6.  以滑鼠右鍵按一下專案 NativeHelpers，然後選取 [ **建立**]。 這會產生 NativeHelpers.dll，在下一個步驟中將新增為 WPF 應用程式的參考，並在下一個步驟中示範 ![ 建立功能表選取專案](images/scrvs-image2.png)
 7.  從您的 WPF 應用程式新增 NativeHelpers.dll 的參考。 展開您的 WPF 應用程式專案，以滑鼠右鍵按一下 [**參考**]，然後按一下 [**加入參考**]。
 8.  在產生的對話方塊中，展開 [ **方案** ] 區段。 在 [**專案**] 底下，選取 [NativeHelpers]，然後按一下 **[確定]**， ![ 以螢幕擷取畫面說明資源管理員對話方塊](images/scrvs-image3.png)
 9.  展開您的 WPF 應用程式專案，展開 [ **屬性**]，然後開啟 [ **AssemblyInfo**]。 對 AssemblyInfo 進行下列新增專案
-    -   使用 System. Media (的參考區段中，新增對 system.string 的參考，) 
+    -   將參考新增至系統。Windows。參考區段中的媒體 (使用系統。Windows。媒體; ) 
     -   將 DisableDpiAwareness 屬性新增 (`[assembly: DisableDpiAwareness]`) 
 
     ![說明其他屬性的螢幕擷取畫面](images/scrvs-image4.png)
@@ -102,7 +102,7 @@ Windows Presentation Foundation (WPF) 應用程式預設會感知系統 DPI 感�
 
 [每個監視器感知 wpf 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/PerMonitorDPIAware)應用程式說明如何藉由回應 [**WM \_ DPICHANGED**](wm-dpichanged.md)視窗通知，將 wpf 應用程式更新為每個監視器 DPI 感知。 為了回應視窗通知，此範例會根據視窗所在的目前監視器 DPI，更新 WPF 所使用的縮放轉換。 視窗通知的 *wParam* 會在 *wParam* 中包含新的 DPI。 *LParam* 包含一個矩形，其具有新建議視窗的大小和位置，並針對新的 DPI 進行縮放。
 
-附註：
+注意:
 
 > [!Note]  
 > 由於此範例會覆寫 WPF 視窗之根節點的視窗大小和小數位數轉換，因此應用程式開發人員可能需要進一步的工作（如果有的話）：
@@ -110,7 +110,7 @@ Windows Presentation Foundation (WPF) 應用程式預設會感知系統 DPI 感�
 > -   視窗的大小會影響應用程式的其他部分，例如此 WPF 視窗裝載于另一個應用程式內。
 > -   擴充此類別的 WPF 應用程式是在根視覺效果上設定其他轉換;範例可能會覆寫 WPF 應用程式本身所套用的其他轉換。
 
- 
+ 
 
 ## <a name="overview-of-the-helper-project-in-the-wpf-sample"></a>WPF 範例中的 helper 專案總覽
 
@@ -240,8 +240,8 @@ Windows Presentation Foundation (WPF) 應用程式預設會感知系統 DPI 感�
 > [!Note]  
 > 在 **載入的 ()** WPF 視窗事件處理常式中，影像控制項也應該在應用程式啟動期間，選取正確的控制項。
 
- 
+ 
 
- 
+ 
 
- 
+ 

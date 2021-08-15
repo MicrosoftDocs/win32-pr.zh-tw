@@ -1,19 +1,19 @@
 ---
-description: 當您第一次使用 PATCH 屬性安裝應用程式時，可以套用 Windows Installer Patch (MSP) 。
+description: 當您第一次使用 patch 屬性安裝應用程式時，可以套用 Windows Installer patch (MSP) 。
 ms.assetid: 2c4b9d5a-34fb-4a0b-b530-30bf238468fd
 title: 修補初始安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa85e15da18f7342f38cf82228bc31b6e3085f09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ddf89c3a83a6000a5716b5317a9fc2965562c217b110b020a2795573f8175235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118377631"
 ---
 # <a name="patching-initial-installations"></a>修補初始安裝
 
-當您第一次使用 [**patch**](patch.md) 屬性安裝應用程式時，可以套用 Windows Installer PATCH (MSP) 。
+當您第一次使用 [**patch**](patch.md)屬性安裝應用程式時，可以套用 Windows Installer patch (MSP) 。
 
 若要在第一次安裝應用程式時套用修補程式，則必須在命令列上設定 [**patch**](patch.md) 屬性。 在命令列上，將修補程式的完整路徑指定為 "PATCH = {*patch to patch*}" 屬性-值配對。
 

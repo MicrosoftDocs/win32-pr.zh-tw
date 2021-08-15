@@ -4,12 +4,12 @@ ms.assetid: 65CCD658-869E-40C4-83AE-34CC2720B7CB
 title: 正在抓取其他事件追蹤資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef864de40b924e0210603646d5ba5430d5d9b643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: afbae65e516a63154fb76d3d558e02e9533e58e119e977f851c2404f0a218ec5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393896"
 ---
 # <a name="retrieving-additional-event-tracing-data"></a>正在抓取其他事件追蹤資料
 

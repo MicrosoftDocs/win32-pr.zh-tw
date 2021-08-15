@@ -7,12 +7,12 @@ keywords:
 - 動態物件廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d521dabda8f82cbdcd46c00b3041f150f390d60c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e74660728179365f6585bce2462cd22f2508e68318eb84312d039a431330329b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191716"
 ---
 # <a name="dynamic-objects"></a>動態物件
 
@@ -29,16 +29,16 @@ ms.locfileid: "103671339"
 所有動態物件都有下列限制：
 
 -   因為已刪除的動態物件的 TTL 即將到期，所以不會留下標記。
--   所有保存動態物件複本的 Dc 都必須在 Windows Server 2003 上執行。
+-   所有保存動態物件複本的 dc 都必須在 Windows Server 2003 上執行。
 -   除了設定分割區和架構分割之外，所有磁碟分割都支援具有 TTL 值的動態專案。
 -   Active Directory Domain Services 不會在根 DSE 物件中發佈選用 **dynamicSubtrees** 屬性，如 RFC 2589 中所述。
 -   處理搜尋、比較、加入、刪除、修改和 modifyDN 作業時，動態專案的處理方式類似非動態專案。
 -   沒有任何方法可將靜態專案變更為動態專案，反之亦然。
 -   非動態專案無法加入至動態專案。
 
- 
+ 
 
- 
+ 
 
 
 

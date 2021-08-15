@@ -4,12 +4,12 @@ ms.assetid: 36255598-C96B-428A-AB87-D0ED140FA6FD
 title: 修正 Web 應用程式和 Add-Ons 的相容性問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f612847491c64820c93f643dce86f9aa854f637
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 45e8ec69c11498f98a58cac4736bd60a0fcd86437392f2cb60c38959749ebe0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118329613"
 ---
 # <a name="fixing-compatibility-issues-in-web-applications-and-add-ons"></a>修正 Web 應用程式和 Add-Ons 的相容性問題
 
@@ -21,7 +21,7 @@ ms.locfileid: "108116435"
 |-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | [使用相容性檢視修正 Web 應用程式中的相容性問題](remediating-web-applications-with-compatibility-view.md) | 描述基本的風險降低步驟，以及如何在您立即解決任何問題時規劃未來的應用程式相容性。 |
 | [修正標準使用者的 ActiveX 安裝相容性問題](remediating-activex-installation-for-standard-users.md)          | 提供針對 ActiveX 安裝進行定址的建議。                                                                      |
-| [轉譯和版面配置變更](rendering-and-layout-changes.md)                                                                        | 描述在較新版本的 Windows Internet Explorer 中的轉譯和版面配置變更。                                         |
+| [轉譯和版面配置變更](rendering-and-layout-changes.md)                                                                        | 描述 Windows Internet Explorer 的較新版本中的轉譯和版面配置變更。                                         |
 | [版本向量](version-vectors.md)                                                                                                  | 描述 Internet Explorer 版本的版本向量。                                                                  |
 | [使用者代理程式字串](user-agent-string.md)                                                                                              | 描述 Internet Explorer 的使用者代理程式字串。                                                                         |
 | [DEP/NX 保護](dep-nx-protection.md)                                                                                              | 描述 (DEP) 或不執行 (NX) 的資料執行防止。                                                                   |

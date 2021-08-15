@@ -7,12 +7,12 @@ keywords:
 - 服務連接點 AD，用戶端如何尋找和使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: edf75a0002f9351903ed1c5eca79f498cb4a078d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 184034085ed673df873f346b1cee78051e05641931de3b770f9a17a3d0d8eba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462857"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188193"
 ---
 # <a name="how-clients-find-and-use-a-service-connection-point"></a>用戶端如何尋找和使用服務連接點
 
@@ -292,6 +292,6 @@ cleanup:
 
 
 
- 
+ 
 
- 
+ 

@@ -20,17 +20,17 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 087949817ac0bcbe2effe2ff136a6ce80084daa2
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 4844c14d6b60e5825b3b09f58b0d756e83b0f41c4e743684a29607a814d4f16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "106981866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118072819"
 ---
 # <a name="jetexternalrestore-function"></a>JetExternalRestore 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetexternalrestore-function"></a>JetExternalRestore 函式
 
@@ -85,7 +85,7 @@ JET_ERR JET_API JetExternalRestore(
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -137,11 +137,11 @@ JET_ERR JET_API JetExternalRestore(
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 只有在 Windows XP 和更新版本中才會傳回此錯誤。</p></td>
+<td><p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 只有在 Windows XP 和更新版本中才會傳回此錯誤。</p></td>
+<td><p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
 </tr>
 </tbody>
 </table>
@@ -179,7 +179,7 @@ JET_ERR JET_API JetExternalRestore(
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

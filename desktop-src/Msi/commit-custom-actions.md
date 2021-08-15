@@ -4,12 +4,12 @@ ms.assetid: ad766585-e8ac-44b6-9717-7979f803886c
 title: 認可自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 174af16a84f71ff90a1fc35c76054ee503449b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4226a126468df400e23c8eb59885b6e5a66c96d740c0c0e0959320697da293d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980968"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380303"
 ---
 # <a name="commit-custom-actions"></a>認可自訂動作
 

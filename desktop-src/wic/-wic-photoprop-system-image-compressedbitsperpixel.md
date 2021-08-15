@@ -4,12 +4,12 @@ ms.assetid: e97a5c68-6d4a-44af-8096-22680f8b16b8
 title: CompressedBitsPerPixel 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b45b3b1e8b29cdf992cd3b451a2e8a43947139a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a18cc76e22c5c409e19e08fc5a2e667ad374348bc753ffa85cd09003a8bdaf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118032707"
 ---
 # <a name="systemimagecompressedbitsperpixel-photo-metadata-policy"></a>CompressedBitsPerPixel 相片中繼資料原則
 

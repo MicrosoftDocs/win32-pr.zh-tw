@@ -3,18 +3,18 @@ title: 天棚字型
 description: 天棚字型
 ms.assetid: 037dce92-761a-4249-aca4-7d995cb15e7f
 keywords:
-- Windows Media Player 行動外觀、字幕
+- Windows Media Player行動外觀、字幕
 - 外觀、字幕
 - 外觀、字幕的參考
 - 外觀、字型中的字幕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9b912fdaa91c84b4b6ec38fcd6716f7f4b3102c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9ec6b0c6bc4b51a5158c967a4890a13a62108d341585d8e93443a15a636f9b1c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117934548"
 ---
 # <a name="marquee-font"></a>天棚字型
 
@@ -33,7 +33,7 @@ ms.locfileid: "106969883"
 
 
 
- 
+ 
 
 **大小值**
 
@@ -52,7 +52,7 @@ ms.locfileid: "106969883"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -61,9 +61,9 @@ ms.locfileid: "106969883"
 [**Marquee**](marquee.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f688a5175e7b50c33dd93d06a4f988a14c062c86
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a42046678ef0b44f011c8440cd3456dc9ff236ec0f7a280b4650b49aa53c10d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729582"
 ---
 # <a name="id3dxprtenginescalemeshchunk-method"></a>ID3DXPRTEngine：： ScaleMeshChunk 方法
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a1874e3d07afe1b8a2dbb57a118f258d70ae1a00
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 4a8645c68be441c95eb460585f903d6e7e0f1f550a66e663ed7b625937872546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104313179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118433914"
 ---
 # <a name="copyrighturl"></a>CopyrightURL
 
@@ -42,9 +42,9 @@ g \_ wszWMCopyrightURL
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

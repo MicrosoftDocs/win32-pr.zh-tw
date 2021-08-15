@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 5d1d4fa75c8a41528e9868bc94fa638042d01cff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ad04730c52bce38e462c2521dc7c34872bfcb69c3337ac6af18d09d865b9cfd3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191133"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118252512"
 ---
 # <a name="jet_snt"></a>JET_SNT
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_snt"></a>JET_SNT
 
@@ -39,7 +39,7 @@ _**適用于：** Windows |Windows Server_
 <thead>
 <tr class="header">
 <th><p>常數/值</p></th>
-<th><p>Description</p></th>
+<th><p>描述</p></th>
 </tr>
 </thead>
 <tbody>
@@ -52,7 +52,7 @@ _**適用于：** Windows |Windows Server_
 <td><p>JET_sntRequirements<br />
 7</p></td>
 <td><p>不支援。</p>
-<p><strong>Windows 2000 伺服器：</strong>  作業已啟動。 在此情況下，回呼函式的最後一個參數應該是指向 <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> 結構的有效指標，指出要執行的單位總數。</p></td>
+<p><strong>Windows 2000 伺服器：</strong> 作業已啟動。 在此情況下，回呼函式的最後一個參數應該是指向 <a href="gg269328(v=exchg.10).md">JET_SNPROG</a> 結構的有效指標，指出要執行的單位總數。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_sntProgress<br />
@@ -99,7 +99,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

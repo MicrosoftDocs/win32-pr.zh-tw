@@ -4,12 +4,12 @@ ms.assetid: 02a6ac18-ad69-4880-a267-8330d648c0d9
 title: System. 批註相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9d7526e05a72b073ac32bd8286a621b33ee62a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 45b3511e0a459a2b652b29828060be6f0a92a36639aef63d4fa087e54ec9d80b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205627"
 ---
 # <a name="systemcomment-photo-metadata-policy"></a>System. 批註相片中繼資料原則
 

@@ -4,12 +4,12 @@ ms.assetid: 52251A45-3603-41C7-A869-7F6319BD337F
 title: 'MF_DEVICESTREAM_IMAGE_STREAM 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 382ce587574d6ec46509a460dfb964e23dd416d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8a42ec0ea6ac8f89c7b35e5ae137c92aaf62006b9b06be689bb7203626f36b7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118244761"
 ---
 # <a name="mf_devicestream_image_stream-attribute"></a>MF \_ DEVICESTREAM \_ 影像 \_ 資料流程屬性
 
@@ -35,8 +35,8 @@ ms.locfileid: "103690900"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

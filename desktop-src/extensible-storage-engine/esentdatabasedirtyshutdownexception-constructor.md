@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: aa727db72623aaf158fd9265779c57e65db0759d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f7567f71b0d6f856f5a439b25f18734cdcd07802fe7dbcdad3662a50f4c66836
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117713144"
 ---
 # <a name="esentdatabasedirtyshutdownexception-constructor"></a>EsentDatabaseDirtyShutdownException 函式
 
