@@ -9,12 +9,12 @@ keywords:
 - 內嵌物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39e4f819e6f42cc4e8d2ed81e47c79efe5ff7407
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 3c45c14138df39142f503882c8d735ff1638618e028870af6aa67c25bc1a98b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104556833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879674"
 ---
 # <a name="embedded-objects-text-services-framework"></a>内嵌物件 (文字服務架構) 
 

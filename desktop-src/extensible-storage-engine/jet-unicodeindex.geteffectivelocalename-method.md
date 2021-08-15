@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 012ed93015705454efdf5e329d4b385924f1a343
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10932398e022701b76be19c3ea7949ce4cfd45b5a159ae5362e7f0e6a0e427bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979078"
 ---
 # <a name="jet_unicodeindexgeteffectivelocalename-method"></a>JET_UNICODEINDEX。GetEffectiveLocaleName 方法
 

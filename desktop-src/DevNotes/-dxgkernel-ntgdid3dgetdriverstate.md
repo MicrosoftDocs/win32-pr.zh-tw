@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntgdi.h
-ms.openlocfilehash: c88f2fde4d848aac5ecae3c60aef77d4c6b783cb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7cbb1291c06d844ebcf056ff288a18ca8bf92e5e211780204787cadc5ae4e00a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956747"
 ---
 # <a name="ntgdid3dgetdriverstate-function"></a>NtGdiD3DGetDriverState 函式
 

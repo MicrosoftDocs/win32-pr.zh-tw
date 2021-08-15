@@ -3,7 +3,7 @@ title: 'TB_ISBUTTONHIDDEN 訊息 (Commctrl .h) '
 description: 決定是否隱藏工具列中指定的按鈕。
 ms.assetid: 3372a64f-8209-4e3f-a6a9-8fe2e7e87ff2
 keywords:
-- TB_ISBUTTONHIDDEN message Windows 控制項
+- TB_ISBUTTONHIDDEN 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db36f289a05fecfb2a0795965820324a9ce68057
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a1fac4fa28daa876b273d71e4cf80bf5e76fce8fe01c0a5517dc63fb31b4273e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078232"
 ---
 # <a name="tb_isbuttonhidden-message"></a>TB \_ ISBUTTONHIDDEN 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "103935156"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 9ae139cf8edf677efe1e4011522823171ebf998f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1642adc959154159687d53e0246cbe557c148352f1fdee0ec2dae9b6c2495da8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979858"
 ---
 # <a name="jet_lsequals-method"></a>JET_LS。Equals 方法
 

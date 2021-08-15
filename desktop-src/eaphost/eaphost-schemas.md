@@ -4,12 +4,12 @@ description: 描述用於建立設定 XML 和認證 XML 的 EAPHost 架構和舊
 ms.assetid: d4572866-7e2b-4e7c-afe1-66394b549bc4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dbe40f447618a9ca0da89875521349101c1191f
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: c4eb9f09a0f1380ad0373ec1171b0b0ea9101af87335d25287969d9a5f7f2da9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "104373999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984228"
 ---
 # <a name="eaphost-and-legacy-schema"></a>EAPHost 和舊版架構
 
@@ -37,7 +37,7 @@ ms.locfileid: "104373999"
 
 
 
- 
+ 
 
 ## <a name="legacy-schema"></a>舊版架構
 
@@ -50,7 +50,7 @@ ms.locfileid: "104373999"
 | [eapconnectionpropertiesv1](eapconnectionpropertiesv1schema-schema.md)           | 包含一般設定架構元素。                                               |
 | [eapuserpropertiesv1](eapuserpropertiesv1schema-schema.md)                       | 包含一般的認證架構元素。                                                  |
 | [eaptlsconnectionpropertiesv1](eaptlsconnectionpropertiesv1schema-schema.md)     | 使用 EAP-TLS 來描述驗證設定資料。                          |
-| [eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)     | 使用 EAP-TLS 來描述從 Windows 7 開始的驗證設定資料。 |
+| [eaptlsconnectionpropertiesv2](eaptlsconnectionpropertiesv2schema-schema.md)     | 使用 eap-tls 來描述從 Windows 7 開始的驗證設定資料。 |
 | [eaptlsuserpropertiesv1](eaptlsuserpropertiesv1schema-schema.md)                 | 使用 EAP-TLS 來描述驗證認證和認證選項。          |
 | [mschapv2connectionpropertiesv1](mschapv2connectionpropertiesv1schema-schema.md) | 可搭配 MS-CHAPv2 用來描述驗證設定資料。                        |
 | [mschapv2userpropertiesv1](mschapv2userpropertiesv1schema-schema.md)             | 搭配 MS-CHAPv2 使用，以描述驗證認證和認證選項。        |
@@ -60,7 +60,7 @@ ms.locfileid: "104373999"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -69,9 +69,9 @@ ms.locfileid: "104373999"
 [查看 EAPHost 和舊版架構範例](eaphost-schemas.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

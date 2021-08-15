@@ -3,7 +3,7 @@ title: 'CB_FINDSTRINGEXACT 訊息 (Winuser .h) '
 description: 在下拉式方塊中尋找符合在 lParam 參數中指定之字串的第一個清單方塊字串。
 ms.assetid: 9065af9f-b18e-4fd5-a8cc-f780f8d0fb05
 keywords:
-- CB_FINDSTRINGEXACT message Windows 控制項
+- CB_FINDSTRINGEXACT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f99d85c7dddb95bdfb168443d6f977c22273a87
-ms.sourcegitcommit: dc2f43e0f23f4a4ce239118cf9a5180f3ff0dd1d
+ms.openlocfilehash: 95010548601350b666ee65da4bd048127917dc9c1e80ac26ead844d8597a7a18
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/30/2021
-ms.locfileid: "108327173"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079142"
 ---
 # <a name="cb_findstringexact-message"></a>CB \_ FINDSTRINGEXACT 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "108327173"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

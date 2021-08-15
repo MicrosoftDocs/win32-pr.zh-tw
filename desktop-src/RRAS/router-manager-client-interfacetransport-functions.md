@@ -4,12 +4,12 @@ description: 使用下列功能來管理特定介面上的用戶端，例如路�
 ms.assetid: f7aa1b3a-465b-4305-b85e-4246a092b8aa
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ea26224004c6cf80cc3df94496bc10747ab2255
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d834c6039cb44b5a998a0e6f5094c3777147362044fab5b3c718039b0309fefa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672928"
 ---
 # <a name="router-manager-client-interfacetransport-functions"></a>路由器管理員用戶端 (InterfaceTransport) 函數
 
@@ -28,11 +28,11 @@ ms.locfileid: "104311631"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

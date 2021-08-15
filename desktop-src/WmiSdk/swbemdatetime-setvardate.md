@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 8641bad2c59f100b689c74e23faf727bc80d2f49
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56d193bd2faffd51507ec4a913c7ee068b055dcf45ca756e801431659768c47d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119050096"
 ---
 # <a name="swbemdatetimesetvardate-method"></a>SWbemDateTime. SetVarDate 方法
 
@@ -97,8 +97,8 @@ SWbemDateTime.SetVarDate( _
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 標頭<br/>                   | <dl> <dt>>wbemdisp.tlb。h</dt> </dl>   |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>>Wbemdisp.tlb。h</dt> </dl>   |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemDateTime<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemDateTime<br/>                                                          |
@@ -115,7 +115,7 @@ SWbemDateTime.SetVarDate( _
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[**Datetime**](datetime.md)
+[**DATETIME**](datetime.md)
 </dt> </dl>
 
  

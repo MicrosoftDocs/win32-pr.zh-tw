@@ -7,12 +7,12 @@ keywords:
 - 工作排程器範例工作排程器，啟動可執行檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c0ce5a1be1586e12399f1dd5d6969170bffa92f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 62276568f7c626935d8c5c518d51f58ad0a58b5c313e780ec5651067af625068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119059956"
 ---
 # <a name="starting-an-executable-at-a-specific-time"></a>在特定時間啟動可執行檔
 
@@ -24,7 +24,7 @@ ms.locfileid: "103840384"
 
 ## <a name="time-trigger-examples"></a>時間觸發程式範例
 
-下列範例會在工作啟動後的30秒內啟動「記事本」：
+下列範例會在啟動工作記事本30秒後開始：
 
 -   [時間觸發程式範例 (c + +) ](time-trigger-example--c---.md)
 -   [腳本)  (時間觸發程式範例 ](time-trigger-example--scripting-.md)
@@ -37,9 +37,9 @@ ms.locfileid: "103840384"
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

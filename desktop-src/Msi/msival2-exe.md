@@ -4,18 +4,18 @@ ms.assetid: c48f4584-732a-468d-a651-2c09ce3c9ddd
 title: Msival2.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9b70ca2ccdeaf72c5191f292a8fa3f9b4de5dd9a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ed1228413d5b2fab0dfab79ea4546a9d15e74c8c62e9b1ca9751699f469854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943875"
 ---
 # <a name="msival2exe"></a>Msival2.exe
 
 Msival2.exe 是一種命令列公用程式，可執行一組 [內部一致性評估工具（面向）](internal-consistency-evaluators-ices.md)。
 
-此工具僅適用于 [Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
+此工具僅適用于[Windows Installer 開發人員的 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)。
 
 如需有關 Ices-003 和 .CUB 檔案的詳細資訊，請參閱 [使用內部一致性評估](using-internal-consistency-evaluators.md)工具。
 
@@ -43,7 +43,7 @@ Msival2.exe 會使用下列不區分大小寫的命令列選項。 斜線分隔�
 
 <dl> <dt>
 
-[Windows Installer 開發工具](windows-installer-development-tools.md)
+[Windows安裝程式開發工具](windows-installer-development-tools.md)
 </dt> <dt>
 
 [內部一致性評估工具-Ices-003](internal-consistency-evaluators-ices.md)

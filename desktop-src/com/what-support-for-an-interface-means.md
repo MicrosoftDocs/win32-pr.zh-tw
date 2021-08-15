@@ -4,16 +4,16 @@ description: 介面的支援代表
 ms.assetid: fa5eae0f-2252-43bc-b504-de00b213cb2a
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 13587bd5ff6391691c0f6bf6e38b59be019dfdb6
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 0a293ec9caa0112a20fcff27667efc3467ae5aea15c7acbc69845b4e1e2e6a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047696"
 ---
 # <a name="what-support-for-an-interface-means"></a>介面的支援代表
 
-除了 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) 介面，ActiveX 控制項或 COM 物件也會透過其他介面來表示它所支援的任何選用功能。 這就是說， **IUnknown** 上面不需要其他介面。 最後，下表列出 ActiveX 控制項可能支援的介面，以及支援該介面的意義。
+除了 [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown)介面，這一點的 ActiveX 控制項或 COM 物件會透過其他介面來表示它所支援的任何選擇性功能。 這就是說， **IUnknown** 上面不需要其他介面。 最後，下表列出 ActiveX 控制項可能支援的介面，以及支援該介面的意義。
 
 
 

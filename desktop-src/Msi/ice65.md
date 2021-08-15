@@ -4,12 +4,12 @@ ms.assetid: 95d4e618-9a19-40db-910a-daab105559ae
 title: ICE65
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6b3d2b7bcd844c970ccc7fddf376b27c2ec54f56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 543c75f3abe6cb44a405f41bcb788dc71adf85ae954f013244bfc1cded4e6d27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946585"
 ---
 # <a name="ice65"></a>ICE65
 

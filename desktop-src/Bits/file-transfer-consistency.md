@@ -4,12 +4,12 @@ description: BITS 保證根據檔案大小和時間戳記，它所傳輸的檔�
 ms.assetid: ba82f172-a3ac-49d6-bccd-7d0b68ba66de
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 533bc0c0db9708528d4ae919572d6e4c1d251ac8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 608566f6e9927fdcb39133c30720a46ead869f36d3084c950b9ed86379c4b749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959497"
 ---
 # <a name="file-transfer-consistency"></a>檔案傳輸一致性
 
@@ -23,9 +23,9 @@ BITS 保證根據檔案大小和時間戳記，它所傳輸的檔案版本是一
 
 當一或多個使用者要求相同的檔案傳送到相同的位置時，BITS 不會同步處理傳輸要求。 BITS 會分別傳送每個要求的檔案。
 
- 
+ 
 
- 
+ 
 
 
 

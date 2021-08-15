@@ -4,12 +4,12 @@ description: 關閉安全性
 ms.assetid: 31dbf140-474d-4304-bcbf-13d6a6ce9175
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 646dc97e0d74230f9a555fec96d8ce37d2c1a92d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1617c65cc3984f50d381e1f6fb90a708e89ac7d7727e9ba9083e7794868681d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118991368"
 ---
 # <a name="turning-off-security"></a>關閉安全性
 
@@ -30,9 +30,9 @@ ms.locfileid: "104020939"
 [COM 中的安全性](security-in-com.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

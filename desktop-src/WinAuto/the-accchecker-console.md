@@ -8,12 +8,12 @@ keywords:
 - 命令列、AccChecker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ef010b2079d364c43bf2a6e47b0e3b0f24bb37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0d370f1b4ba5c3d9752015425e12f48311c66dfd8928c6b9fe0f011c48ee6c8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994030"
 ---
 # <a name="the-accchecker-console"></a>AccChecker 主控台
 
@@ -67,7 +67,7 @@ AccChecker 主控台具有下列命令列語法。
 | <span id="2"></span>2<br/> | 錯誤與警告。<br/>          |
 | <span id="3"></span>3<br/> | 錯誤和警告。<br/>             |
 | <span id="4"></span>4<br/> | 警告但沒有錯誤。<br/>          |
-| <span id="5"></span>5<br/> | 不正確命令列。 <br/>           |
+| <span id="5"></span>.5<br/> | 不正確命令列。 <br/>           |
 
 
 

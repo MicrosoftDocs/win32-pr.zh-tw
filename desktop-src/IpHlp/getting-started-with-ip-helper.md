@@ -4,12 +4,12 @@ ms.assetid: 3280d6cf-2741-40fe-8aa5-9f5be96d9fb8
 title: 使用 IP Helper 的開始使用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 566ed4503c9bbafaee846aebf30c31993f7ce7e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 134ca2df12a7d2d2cbd2d0a64f1da07c8aeecd4980fea791bfc19ca018cd87be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119014156"
 ---
 # <a name="getting-started-with-ip-helper"></a>使用 IP Helper 的開始使用
 
@@ -38,9 +38,9 @@ ms.locfileid: "103852952"
 
 ## <a name="advanced-ip-helper-samples"></a>Advanced IP Helper 範例
 
-Microsoft Windows 軟體開發套件 (SDK) 包含數個更先進的 IP 協助程式範例。 根據預設，IP 協助程式範例原始程式碼是由下列目錄中針對 Windows 7 發行的 Windows SDK 所安裝：
+Microsoft Windows 軟體開發套件 (SDK) 包含數個更先進的 IP 協助程式範例。 根據預設，IP 協助程式範例的原始程式碼是由針對下列目錄中的 Windows 7 發行 Windows SDK 所安裝：
 
-*C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ NetDs \\ IPHelp*
+*C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ NetDs \\ IPHelp*
 
 以下是在下列目錄中找到的更先進範例：
 
@@ -74,7 +74,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含數個更先進的 IP 協助程
 
 -   Netinfo
 
-    此目錄包含一個範例程式，示範如何使用 Windows Vista 和更新版本上引進的新 IP 協助程式 Api 來顯示/變更 IPv4 和 IPv6 的位址和介面資訊。
+    此目錄包含一個範例程式，示範如何使用 Windows Vista 和更新版本引進的新 IP 協助程式 api 來顯示/變更 IPv4 和 IPv6 的位址和介面資訊。
 
  
 

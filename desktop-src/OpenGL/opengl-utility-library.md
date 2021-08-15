@@ -8,12 +8,12 @@ keywords:
 - X.GLU 隊程式庫 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d40d4a6fa51354204ee37bfc43e9217b742b882
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5fc677e959fef6f14e7eca7bcb5c6164604d7b9ba61518ebfe1f150f0b7a73e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118936703"
 ---
 # <a name="opengl-utility-library"></a>OpenGL 公用程式庫
 
@@ -22,11 +22,11 @@ OpenGL 公用程式 (X.GLU 隊) 程式庫包含數個函數群組，藉由提供
 > [!Note]  
 > 公用程式程式庫函數的前置詞為 "x.glu 隊"，而不是 "gl"。
 
- 
+ 
 
 這些函式有許多會在檔的前面幾節中描述。 以下列出這些函式的完整性。 先前章節中未討論的 X.GLU 隊函式如下所述。 如需這些函式的詳細說明，請參閱 *OpenGL 參考手冊*。 本節將相關的 X.GLU 隊函數分組，如下所示：
 
--   [初始 化](initializing.md)
+-   [正在初始化](initializing.md)
 -   [操作影像以用於紋理](manipulating-images-for-use-in-texturing.md)
 -   [轉換座標](transforming-coordinates.md)
 -   [鑲嵌多邊形](tessellating-polygons.md)
@@ -38,9 +38,9 @@ OpenGL 公用程式 (X.GLU 隊) 程式庫包含數個函數群組，藉由提供
 -   [使用 NURBS 曲線和表面](using-nurbs-curves-and-surfaces.md)
 -   [處理錯誤](handling-errors.md)
 
- 
+ 
 
- 
+ 
 
 
 

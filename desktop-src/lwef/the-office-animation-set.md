@@ -1,19 +1,19 @@
 ---
-title: Office 動畫組
-description: Office 動畫組
+title: Office 的動畫集合
+description: Office 的動畫集合
 ms.assetid: ea80d19b-bf4c-4f6e-bab0-424a9f78f457
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 491b0052b7eb11d34db09095bf891f92a0c8a65f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08cfe8ffbfb9d54ee956c36dd6eb1b3d567f26ad8dc55cd182282db6a685f3b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975548"
 ---
-# <a name="the-office-animation-set"></a>Office 動畫組
+# <a name="the-office-animation-set"></a>Office 的動畫集合
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 下表列出為 Microsoft Office 2000 個字元定義的動畫。 如果您想要在 Microsoft Office 中使用您的字元，則應該支援下表中的所有動畫。 此外，您還可以加入您所居住的其他任何動畫，但請記住，Microsoft Office 不會呼叫它們。 使用星號 () 的動畫 \* 應為100% 迴圈。 其他動畫應該很簡單。
 
@@ -24,7 +24,7 @@ ms.locfileid: "103840496"
 | **警示**               | 無           | 當字元想要警示使用者時                                                           | 字元看起來是向使用者。                                                                                                              |
 | **CheckingSomething\*** | 無           | 拼字檢查，文法檢查                                                                            | 字元在參考書中的內容                                                                                          |
 | **祝賀**        | 無           | 完成嚮導                                                                                    | 大型大笑、起伏的外觀、厭倦但滿意                                                                                                 |
-| **EmptyTrash**          | 無           | Outlook 中的垃圾桶已清空                                                                          | 在火災時可以進行字元燈垃圾桶                                                                                                        |
+| **EmptyTrash**          | 無           | 回收站在 Outlook 清空                                                                          | 在火災時可以進行字元燈垃圾桶                                                                                                        |
 | **說明**             | 無           | 當字元想要對使用者解釋某個內容時                                            | 看起來很簡單，但在使用者 attentively，然後看看                                                                                     |
 | **GestureDown**         | GesturingDown  | 字元指出畫面上的內容                                                         | 字元會查看使用者，然後指向畫面並查看                                                                           |
 | **GestureLeft**         | GesturingLeft  | 字元指出畫面上的某些內容，例如說明主題或 UI 的一部分                  | 字元會查看使用者，然後指向畫面並查看                                                                           |
@@ -63,11 +63,11 @@ ms.locfileid: "103840496"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

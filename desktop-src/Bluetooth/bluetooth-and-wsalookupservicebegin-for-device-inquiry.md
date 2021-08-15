@@ -1,21 +1,21 @@
 ---
-title: 適用于裝置查詢的藍牙和 WSALookupServiceBegin
-description: 本主題說明如何使用 WSALookupServiceBegin 函式來執行可見和幻影裝置的查詢。 如需詳細資訊，請參閱探索藍牙裝置和服務。
+title: 裝置查詢的藍牙和 WSALookupServiceBegin
+description: 本主題說明如何使用 WSALookupServiceBegin 函式來執行可見和幻影裝置的查詢。 如需詳細資訊，請參閱探索藍牙的裝置和服務。
 ms.assetid: 32fa710f-8645-4cf3-a882-cc032d66d979
 keywords:
-- 適用于裝置的藍牙與 WSALookupServiceBegin 查詢藍牙
+- 裝置查詢藍牙的藍牙和 WSALookupServiceBegin
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dfbcab2a3134289630b4b301390f85e83d1d3d0
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 8af56e1d75a66d21ea4eb94c827f6d37f77ae4336b8aeac5331665288bfeef49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104093432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959287"
 ---
-# <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>適用于裝置查詢的藍牙和 WSALookupServiceBegin
+# <a name="bluetooth-and-wsalookupservicebegin-for-device-inquiry"></a>裝置查詢的藍牙和 WSALookupServiceBegin
 
-本主題說明如何使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) 函式來執行可見和幻影裝置的查詢。 如需詳細資訊，請參閱 [探索藍牙裝置和服務](discovering-bluetooth-devices-and-services.md)。
+本主題說明如何使用 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina) 函式來執行可見和幻影裝置的查詢。 如需詳細資訊，請參閱[探索藍牙的裝置和服務](discovering-bluetooth-devices-and-services.md)。
 
 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函式會在其第一個參數（ *lpqsRestrictions*）中使用 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構，以定義搜尋準則。 藍牙提供使用 **WSALookupServiceBegin** 函式和 **WSAQUERYSET** 的特定指導方針。
 
@@ -44,7 +44,7 @@ ms.locfileid: "104093432"
 <td>此成員包含 <a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a> 結構的選擇性指標。 如果指定了這個成員， <strong>LUP_FLUSHCACHE</strong> 的有效裝置查詢參數如下所示：
 <ul>
 <li><a href="/windows/desktop/api/nspapi/ns-nspapi-blob"><strong>BLOB</strong></a>結構的<strong>cbSize</strong>成員必須是<strong>sizeof</strong> (<strong>BTH_QUERY_DEVICE</strong>) 。</li>
-<li><strong>PBlobData</strong>成員是<a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a>結構的指標，其<strong>膝上</strong>成員為藍牙查詢存取碼，而<strong>長度</strong>成員是查詢的長度（以秒為單位）。</li>
+<li><strong>PBlobData</strong>成員是<a href="/windows/desktop/api/Ws2bth/ns-ws2bth-bth_query_device"><strong>BTH_QUERY_DEVICE</strong></a>結構的指標，其中<strong>膝上</strong>成員是藍牙查詢存取碼，而<strong>長度</strong>成員是查詢的長度（以秒為單位）。</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -60,15 +60,15 @@ ms.locfileid: "104093432"
 
 
 
- 
+ 
 
 下表中所列的旗標是在 *dwControlFlags* 參數中用來控制查詢結果。 [**WSALookupServiceBegin**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicebegina)函式會使用 **LUP \_ 容器** 和 **LUP \_ FLUSHCACHE** 旗標; 其餘的旗標會用於 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函數的呼叫中。
 
 | 旗標               | 結果                                                                                                                                                                                                                                                                                                                                                                                                             |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| LUP \_ 容器    | 指定查詢用途是取得藍牙裝置清單，而不是服務清單。 必須設定這個旗標。                                                                                                                                                                                                                                                                                       |
+| LUP \_ 容器    | 指定查詢用途是取得藍牙的裝置清單，而不是服務清單。 必須設定這個旗標。                                                                                                                                                                                                                                                                                       |
 | LUP \_ FLUSHCACHE    | 觸發本機裝置的查詢，或導致傳回先前查詢的快取結果。                                                                                                                                                                                                                                                                                                                |
-| LUP \_ 傳回 \_ 類型  | 直接在 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構的 **lpServiceClassId** 成員中，傳回裝置位的 Bluetooth (類別) 。 此貨會對應到 GUID 的 **Data1** 成員。                                                                                                                                                                                                      |
+| LUP \_ 傳回 \_ 類型  | 直接在 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構的 **lpServiceClassId** 成員中，傳回裝置位的藍牙的 (類別類別) 。 此貨會對應到 GUID 的 **Data1** 成員。                                                                                                                                                                                                      |
 | LUP \_ RES \_ 服務  | 傳回本機藍牙位址的資訊。 只有在同時指定 **LUP 傳回 \_ \_ 位址** 時，此旗標才會有作用。                                                                                                                                                                                                                                                                                       |
 | LUP \_ 傳回 \_ 名稱  | 針對每個 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函式的呼叫，傳回 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構之 **lpszServiceInstanceName** 成員中裝置的顯示名稱。 指定 **LUP 傳回 \_ \_ BLOB** 旗標時，也必須指定此旗標，以抓取 [**BTH \_ 裝置 \_ 資訊**](/windows/desktop/api/Bthdef/ns-bthdef-bth_device_info)結構的 **名稱** 成員。 |
 | LUP \_ 傳回 \_ 位址  | 傳回 [**SOCKADDR \_ BTH**](/windows/desktop/api/Ws2bth/ns-ws2bth-sockaddr_bth)結構，其中包含每個 [**WSALookupServiceNext**](/windows/desktop/api/winsock2/nf-winsock2-wsalookupservicenexta)函式呼叫之 [**WSAQUERYSET**](/windows/desktop/api/winsock2/ns-winsock2-wsaquerysetw)結構的 **lpcsaBuffer** 成員中，對等的48位位址。 **SOCKADDR \_ BTH** 結構中的其他成員將會是空的。                                                            |
@@ -77,19 +77,19 @@ ms.locfileid: "104093432"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[適用于服務探索的藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-service-discovery.md)
+[服務探索藍牙和 WSALookupServiceBegin](bluetooth-and-wsalookupservicebegin-for-service-discovery.md)
 </dt> <dt>
 
 [藍牙和 WSALookupServiceNext](bluetooth-and-wsalookupservicenext.md)
 </dt> <dt>
 
-[適用于裝置查詢的藍牙和 WSAQUERYSET](bluetooth-and-wsaqueryset-for-device-inquiry.md)
+[裝置查詢的藍牙和 WSAQUERYSET](bluetooth-and-wsaqueryset-for-device-inquiry.md)
 </dt> <dt>
 
 [探索藍牙裝置和服務](discovering-bluetooth-devices-and-services.md)
@@ -119,6 +119,6 @@ ms.locfileid: "104093432"
 [Windows Sockets](/windows/desktop/WinSock/windows-sockets-start-page-2)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

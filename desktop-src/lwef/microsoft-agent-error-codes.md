@@ -4,16 +4,16 @@ description: Microsoft 代理程式錯誤碼
 ms.assetid: 39bc203a-c260-46f5-a30a-7324bae2e2cf
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70e675daa3167b72f711e2545e00c78633213ed5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48e483c053f1cfa4d3bb57606629885470fa28f73644c9a26cb35a76a3354b84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118747845"
 ---
 # <a name="microsoft-agent-error-codes"></a>Microsoft 代理程式錯誤碼
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 Microsoft Agent 會傳回下列錯誤資訊：
 
@@ -95,7 +95,7 @@ Microsoft Agent 會傳回下列錯誤資訊：
 
  
 
-\* 描述包含星號的錯誤是 Windows 系統錯誤。 此處提供它們，因為它們通常會發生在已啟用代理程式的應用程式中。 如需此處未包含之其他錯誤的詳細資訊，請參閱 Platform SDK 檔。
+\*描述包含星號的錯誤會 Windows 系統錯誤。 此處提供它們，因為它們通常會發生在已啟用代理程式的應用程式中。 如需此處未包含之其他錯誤的詳細資訊，請參閱 Platform SDK 檔。
 
  
 

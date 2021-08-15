@@ -4,12 +4,12 @@ ms.assetid: 868f5ed3-b179-404b-9462-1d3a179103f8
 title: 'P (Windows Installer) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8923359197916a1186fe28ab0d12e4118b989bc
-ms.sourcegitcommit: 8f0a1d212dd154e8d94ab4c0e4ced053fa16823a
+ms.openlocfilehash: 74af2780852bcb59124390042bfdbbc7bf2e7618cdb4167f58b15fc04ab1b15b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/11/2021
-ms.locfileid: "112011100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942758"
 ---
 # <a name="p-windows-installer"></a>P (Windows Installer) 
 

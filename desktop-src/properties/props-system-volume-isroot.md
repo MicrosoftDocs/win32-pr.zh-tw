@@ -4,12 +4,12 @@ ms.assetid: 995b0f92-686b-40fb-aed0-5fd500c226f0
 title: IsRoot
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a3ff7b089d2c1873c055ba60d6af95c8dbd6bd8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 374c1e877229ea8f80febcddc95543399488d731f32925a46c2776a97ef5dd9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095325"
 ---
 # <a name="systemvolumeisroot"></a>IsRoot
 

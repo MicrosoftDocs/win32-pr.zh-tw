@@ -4,12 +4,12 @@ description: 本主題將示範如何取得或設定快速鍵控制項的按鍵�
 ms.assetid: F3643196-F847-4EE4-97ED-75AF52D4FF8D
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d453433917c211bc787f70a5d9344f1a477858e
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: fac5d0bab71fea11fe3d2aba23405f6d7ee7fb1ed8c78f2578f034ae9c84cad8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106993738"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079492"
 ---
 # <a name="how-to-retrieve-and-set-a-hot-key"></a>如何取出和設定快速鍵
 
@@ -19,12 +19,12 @@ ms.locfileid: "106993738"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

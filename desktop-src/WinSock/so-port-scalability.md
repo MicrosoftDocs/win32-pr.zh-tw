@@ -4,12 +4,12 @@ ms.assetid: c5142baf-9e2d-4c06-8719-9090fd2d9487
 title: 'SO_PORT_SCALABILITY (Ws2def) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 565caeb472ac5cb15061d32b47a048a9a210885e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 925d6337bc5b9d4633117fc1d8e1b8db2657f31b91a9cce602702ceb67e7e92e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993368"
 ---
 # <a name="so_port_scalability"></a>因此， \_ 埠擴充 \_ 性
 
@@ -58,7 +58,7 @@ ms.locfileid: "104113004"
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Ws2def。h</dt> </dl> |
 
 

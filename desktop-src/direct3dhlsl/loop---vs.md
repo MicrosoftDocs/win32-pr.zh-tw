@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 6a96a1ce53b850ec8feeba282055e8111b275bfd
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 8a211014137f35c39a6b89cd16f0e27687b4daafd89841f752312f459531cab2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986438"
 ---
 # <a name="loop---vs"></a>迴圈-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104990778"
 
 
 
- 
+ 
 
 其中：
 
@@ -46,14 +46,14 @@ ms.locfileid: "104990778"
 
 
 
- 
+ 
 
 -   [迴圈計數器](dx9-graphics-reference-asm-vs-registers-loop-counter.md)暫存器 (aL) 保留目前的迴圈計數，並且可用於在迴圈區塊內 (o) 中的「[常數整數](dx9-graphics-reference-asm-vs-registers-constant-integer.md)暫存器」 (c \#) 或[輸出](dx9-graphics-reference-asm-vs-registers-vs-3-0.md)暫存器的相對定址 \# 。
 -   \#x.x.x.x 會指定反復專案計數。 合法範圍是 \[ 0，255 \] 。 請注意，此指令不會遞增或遞減 i \# . x 的值。
 -   i. \# 指定 [迴圈計數器 Register](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (aL) Register 的初始值。 合法範圍是 \[ 0，255 \] 。 請注意，此指令不會遞增或遞減 i \# . y 的值。
 -   i \# . z 指定步驟/stride 的大小。 合法範圍為 \[ -128、127 \] 。
 -   i. \# 未使用，且必須設定為0。
--   迴圈區塊可能會進行嵌套。 請參閱 [流程式控制制的嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)。
+-   迴圈區塊可能會進行嵌套。 請參閱[Flow 控制項嵌套限制](dx9-graphics-reference-asm-vs-instructions-flow-control.md)。
 -   當進行嵌套時， [迴圈計數器 Register](dx9-graphics-reference-asm-vs-registers-loop-counter.md) (aL) 是指立即封閉迴圈區塊。
 -   迴圈區塊可以完全在 if \* 區塊內或完全圍繞它。 不允許任何 straddling。
 
@@ -75,9 +75,9 @@ endloop
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

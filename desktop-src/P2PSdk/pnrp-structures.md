@@ -4,12 +4,12 @@ ms.assetid: 697fb99a-259f-429c-8818-0d725255bc86
 title: PNRP 結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a78e2ee85f3673395ade31417c79c010354f16b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ef2e275dff1b0c0986cfa998ed64cfb1ffad5b19af400f8719715d2106af353d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011526"
 ---
 # <a name="pnrp-structures"></a>PNRP 結構
 

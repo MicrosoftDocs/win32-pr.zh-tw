@@ -1,6 +1,6 @@
 ---
 title: IWMDRMDevice 介面
-description: 這個介面不是由服務提供者所執行，而是為了完成檔的目的而提供。IWMDRMDevice 介面可讓安全的內容提供者與針對可攜式裝置使用 Windows Media DRM 10 的裝置進行通訊。
+description: 這個介面不是由服務提供者所執行，而是為了完成檔的目的而提供。IWMDRMDevice 介面可讓安全的內容提供者與針對可攜式裝置使用 Windows 媒體 DRM 10 的裝置進行通訊。
 ms.assetid: ebad4acd-16cc-433f-a5e0-fcae59030f55
 keywords:
 - IWMDRMDevice 介面 windows Media 裝置管理員
@@ -14,18 +14,18 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ca240f01f552dfdedb0145e49f61f2ead1f18832
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fee40eb6fdada2374b0f571a201ff53fb38f41de7f3cac5eeaa2159475bfdb11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005118"
 ---
 # <a name="iwmdrmdevice-interface"></a>IWMDRMDevice 介面
 
 這個介面不是由服務提供者所執行，而是為了完成檔的目的而提供。
 
-**IWMDRMDevice** 介面可讓安全的內容提供者與針對可攜式裝置使用 WINDOWS Media DRM 10 的裝置進行通訊。
+**IWMDRMDevice** 介面可讓安全的內容提供者與針對可攜式裝置使用 Windows 媒體 DRM 10 的裝置進行通訊。
 
 ## <a name="members"></a>成員
 
@@ -47,7 +47,7 @@ ms.locfileid: "104315475"
 | [**GetSecureClock**](iwmdrmdevice-getsecureclock.md)                   | 抓取安全時鐘。<br/>                                                       |
 | [**GetSecureClockChallenge**](iwmdrmdevice-getsecureclockchallenge.md) | 捕獲安全的時鐘挑戰。<br/>                                             |
 | [**GetSyncList**](iwmdrmdevice-getsynclist.md)                         | 抓取授權同步處理清單。<br/>                                       |
-| [**IsWMDRMDevice**](iwmdrmdevice-iswmdrmdevice.md)                     | 判斷裝置是否支援可攜式裝置的 Windows Media DRM 10。<br/> |
+| [**IsWMDRMDevice**](iwmdrmdevice-iswmdrmdevice.md)                     | 判斷裝置是否支援可攜式裝置 Windows 媒體 DRM 10。<br/> |
 | [**SetLicenseResponse**](iwmdrmdevice-setlicenseresponse.md)           | 設定授權回應。<br/>                                                        |
 | [**SetMeterResponse**](iwmdrmdevice-setmeterresponse.md)               | 設定計量回應。<br/>                                                       |
 | [**SetSecureClockResponse**](iwmdrmdevice-setsecureclockresponse.md)   | 設定安全時鐘回應。<br/>                                                   |

@@ -9,12 +9,12 @@ keywords:
 - HTTP_URL_CONTEXT 類型 HTTP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 681e24c06334a9010287e2084d9d6a04428ca6a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 151ef975470ca21c6e82e5bc7bd7bd8b99a70573385375e8552b6660ce78f631
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950797"
 ---
 # <a name="http-server-api-version-10-data-types"></a>HTTP 伺服器 API 版本1.0 資料類型
 
@@ -27,9 +27,9 @@ HTTP 伺服器 API 會使用在 Http .h 標頭檔中宣告為64位不帶正負�
 
 應用程式不應該嘗試產生或修改屬於其中一種類型的任何識別碼。
 
- 
+ 
 
- 
+ 
 
 
 

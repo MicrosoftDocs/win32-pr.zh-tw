@@ -4,12 +4,12 @@ ms.assetid: faba5cb7-745e-4fdf-a3e0-62132da4a843
 title: 設定 COM + 應用程式共用值
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 98922699fff7af7146250bdb504a1f46be08718e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 25d3407cd644b68cfc3ef279a9e67603aa1dc2db85302b22dbf0c6ae7219fd3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128970"
 ---
 # <a name="configuring-com-application-pooling-values"></a>設定 COM + 應用程式共用值
 
@@ -28,11 +28,11 @@ ms.locfileid: "104187658"
 
 2.  在 [共用 **& 回收** ] 索引標籤的 [ **應用程式** 共用] 下，根據您想要執行的應用程式實例數目，輸入 [ **集區大小**] 的值。
 
-3.  按一下 [確定]  。
+3.  按一下 [確定]。
 
 ## <a name="visual-basic"></a>Visual Basic
 
-Visual Basic 中的下列函式示範如何針對您選擇的任何 COM + 伺服器應用程式，設定 COM + 應用程式共用值 (以其 ConcurrentApps 屬性) 表示。 若要從 Visual Basic 使用它，請將參考新增至 COM + 系統管理員類型程式庫。
+Visual Basic 中的下列函式示範如何針對您選擇的任何 com + 伺服器應用程式，設定 com + 應用程式共用值 (以其 ConcurrentApps 屬性) 表示。 若要從 Visual Basic 使用它，請將參考新增至 com + 系統管理員類型程式庫。
 
 
 ```VB

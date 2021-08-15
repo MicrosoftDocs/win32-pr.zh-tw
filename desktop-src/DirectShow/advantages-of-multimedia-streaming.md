@@ -4,17 +4,17 @@ ms.assetid: 01020ad5-430d-4b4d-8de3-bcc81270e132
 title: 多媒體串流的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd907d9b8e91cb61709479a2d600323d6d420958
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 06df23ce833462aee9b7d4b3840c1fae2d4f3b15c4ee6daee2e4a421259493a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104116041"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119537538"
 ---
 # <a name="advantages-of-multimedia-streaming"></a>多媒體串流的優點
 
 > [!Note]  
-> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md) 篩選器或執行自訂篩選，以從 DirectShow 篩選圖形取得資料。
+> 這些 Api 已被取代。 應用程式應該使用 [**範例捕獲**](sample-grabber-filter.md)篩選器或執行自訂篩選，以從 DirectShow 的篩選圖形取得資料。
 
  
 

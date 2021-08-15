@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 9f717c032358dd921be2df1c8a84d1aa02a7a93a
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: bc113788a8eb6b64accfcba8c58dd3a3512e17601ec02ce5dd33349628c69212
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987938"
 ---
 # <a name="id3dxanimationcontrollergeteventdesc-method"></a>ID3DXAnimationController：： GetEventDesc 方法
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2655924f5716e142832882441066d4772d0e63
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 46742831eaa0a014de0f6ae50271b28c922893133588758119cbf5bff7ba628b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104563230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119491788"
 ---
 # <a name="glscaled-function"></a>glScaled 函式
 
@@ -56,7 +56,7 @@ void WINAPI glScaled(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 沿著 *z* 軸的縮放因數。

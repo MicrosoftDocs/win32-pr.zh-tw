@@ -4,21 +4,21 @@ ms.assetid: 7d82d67f-aad8-4e5b-ac65-87d75774e613
 title: DirectSound 應用程式的裝置角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3829817f8b00c7288aceb8d0b6d418d5793ae580
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3037b767d7ddfb96d892c789608f23523efed465535258c336496f3f23d82f19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957327"
 ---
 # <a name="device-roles-for-directsound-applications"></a>DirectSound 應用程式的裝置角色
 
 > [!Note]  
-> [MMDEVICE API](mmdevice-api.md)支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱 [Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
+> [MMDEVICE API](mmdevice-api.md)支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱[Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
 
  
 
-DirectSound API 不提供應用程式選取使用者指派給特定[裝置角色](device-roles.md)之[音訊端點裝置](audio-endpoint-devices.md)的方法。 不過，在 Windows Vista 中，核心音訊 Api 可以搭配 DirectSound 應用程式使用，以根據裝置角色啟用裝置選取。 透過核心音訊 Api 的協助，應用程式可以識別指派給特定角色的音訊端點裝置、取得端點裝置的 DirectSound 裝置 GUID，以及呼叫 **DirectSoundCreate** 或 **DirectSoundCaptureCreate** 函式來建立封裝端點裝置的 **IDirectSound** 或 **IDirectSoundCapture** 介面實例。 如需 DirectSound 的詳細資訊，請參閱 Windows SDK 檔。
+DirectSound API 不提供應用程式選取使用者指派給特定[裝置角色](device-roles.md)之[音訊端點裝置](audio-endpoint-devices.md)的方法。 不過，在 Windows Vista 中，核心音訊 api 可搭配 DirectSound 應用程式使用，以根據裝置角色啟用裝置選取。 透過核心音訊 Api 的協助，應用程式可以識別指派給特定角色的音訊端點裝置、取得端點裝置的 DirectSound 裝置 GUID，以及呼叫 **DirectSoundCreate** 或 **DirectSoundCaptureCreate** 函式來建立封裝端點裝置的 **IDirectSound** 或 **IDirectSoundCapture** 介面實例。 如需 DirectSound 的詳細資訊，請參閱 Windows SDK 檔。
 
 下列程式碼範例示範如何取得目前指派給特定裝置角色之轉譯或捕獲裝置的 DirectSound 裝置 GUID：
 
@@ -101,7 +101,7 @@ Exit:
 
 從 GetDirectSoundGuid 函式取得裝置 GUID 之後，應用程式可以使用此 GUID 來呼叫 **DirectSoundCreate** 或 **DirectSoundCaptureCreate** ，以建立封裝音訊端點裝置的 DirectSound 轉譯或捕獲裝置。 當 DirectSound 以這種方式建立裝置時，它一律會將裝置的音訊串流指派給預設的會話，也就是由會話 GUID 值 GUID Null 所識別的進程特定音訊會話 \_ 。
 
-如果應用程式需要 DirectSound 將串流指派給跨進程音訊會話，或指派給具有非 **Null** 會話 GUID 的會話，則應該呼叫 [**IMMDevice：： Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) 方法來建立 **IDirectSound** 或 **IDirectSoundCapture** 物件，而不是使用上述程式碼範例中所示的技巧。 如需示範如何使用 **Activate** 方法來指定串流的跨進程音訊會話或非 **Null** 會話 GUID 的程式碼範例，請參閱 [DirectShow 應用程式的裝置角色](device-roles-for-directshow-applications.md)。 該章節中的程式碼範例會示範如何建立 DirectShow 篩選器，但若要進行輕微修改，可以調整程式碼以建立 DirectSound 裝置。
+如果應用程式需要 DirectSound 將串流指派給跨進程音訊會話，或指派給具有非 **Null** 會話 GUID 的會話，則應該呼叫 [**IMMDevice：： Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) 方法來建立 **IDirectSound** 或 **IDirectSoundCapture** 物件，而不是使用上述程式碼範例中所示的技巧。 如需示範如何使用 **Activate** 方法來指定串流的跨進程音訊會話或非 **Null** 會話 GUID 的程式碼範例，請參閱 [DirectShow 應用程式的裝置角色](device-roles-for-directshow-applications.md)。 該章節中的程式碼範例會示範如何建立 DirectShow 篩選器，但在進行輕微修改的情況下，可以調整程式碼以建立 DirectSound 裝置。
 
 上述程式碼範例中的 GetDirectSoundGuid 函式會呼叫 [**CoCreateInstance**](/windows/desktop/api/combaseapi/nf-combaseapi-cocreateinstance) 函數，以建立系統中音訊端點裝置的列舉值。 除非呼叫程式之前呼叫 [**CoInitialize**](/windows/desktop/api/objbase/nf-objbase-coinitialize) 或 [**CoInitializeEx**](/windows/desktop/api/combaseapi/nf-combaseapi-coinitializeex) 函式來初始化 COM 程式庫，否則 **CoCreateInstance** 呼叫會失敗。 如需有關 **CoCreateInstance**、 **CoInitialize** 和 **CoInitializeEx** 的詳細資訊，請參閱 Windows SDK 檔。
 

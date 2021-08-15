@@ -4,12 +4,12 @@ ms.assetid: 5e1d13a6-ae11-4729-b0fc-0a1620cf0738
 description: 深入瞭解： VListVW 範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7445f83d08641179f9ee0e5b3aeeee5a613f1f6b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fefcd39c44e79ab4eec23f7becf202d1a3cd3566f6be9496e9fd61b577c87f4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957557"
 ---
 # <a name="vlistvw-sample"></a>VListVW 範例
 
@@ -40,7 +40,7 @@ VListVW 範例示範如何在應用程式中執行簡單的虛擬清單視圖控
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-VListVW 範例可在 github 上的 [Windows 傳統範例存放庫](https://github.com/microsoft/Windows-classic-samples)中取得。 您可以在[這裡](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)找到清單視圖控制項專案範例
+VListVW 範例可在 github 的[Windows 傳統範例存放庫](https://github.com/microsoft/Windows-classic-samples)中取得。 您可以在[這裡](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/controls/common/vlistvw)找到清單視圖控制項專案範例
 
  
 

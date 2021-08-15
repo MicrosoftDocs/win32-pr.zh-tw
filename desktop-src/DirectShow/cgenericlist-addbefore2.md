@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b6aa6aa71b1738a815beee9cdc7c0f47118eb27f
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 6f05d67477bb7e6c89eddfe0a68ad47d83760762fc68cddf6f73c731886f88d1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "103696892"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119697448"
 ---
 # <a name="cgenericlistaddbefore-method-wxlisth---pos-plist-parameters"></a>CGenericList. AddBefore 方法 (Wxlist .h) -pos，pList 參數
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 4541c83e30ff1af932f449a53c57f23bbddf42e1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6906ec8cde9428b77fcf7497012363be4ee0d2619b1b9de5c9ce549f2dc6530a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949767"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticfcport-class"></a>Msvm SyntheticFcPort 類別的 RequestStateChange 方法 \_
 

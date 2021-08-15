@@ -231,7 +231,7 @@
                   href: deleteextractedfiles.md
                 - name: DllGetVersion
                   href: dllgetversion.md
-                - name: Extract
+                - name: 擷取
                   href: extract.md
                 - name: FCIAddFile
                   href: /windows/desktop/api/Fci/nf-fci-fciaddfile
@@ -955,7 +955,7 @@
       items:
         - name: 判斷 MSN 是否處於登入狀態
           href: determining-if-msn-is-in-the-signin-state.md
-    - name: 'MSXML 1.0 (淘汰) '
+    - name: 'MSXML 1.0 (淘汰的) '
       href: msxml-1-0.md
       items:
         - name: IXMLElementCollection
@@ -1268,7 +1268,7 @@
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-initialize
                     - name: Item 方法
                       href: /windows/desktop/api/Iwscapi/nf-iwscapi-iwscproductlist-get_item
-            - name: Windows 安全性中心函數
+            - name: Windows 安全性中間函數
               href: windows-security-center-functions.md
               items:
                 - name: WscGetSecurityProviderHealth
@@ -1623,7 +1623,7 @@
               href: iprovidepropertybuilder-executebuilder.md
             - name: MapPropertyToBuilder 方法
               href: iprovidepropertybuilder-mappropertytobuilder.md
-    - name: Windows 安全模式原則
+    - name: Windows安全模式原則
       href: windows-lockdown-policy.md
       items:
         - name: WLDP_HOST_ID

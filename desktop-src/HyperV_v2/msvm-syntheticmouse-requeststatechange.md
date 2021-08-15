@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 427dc0176856389f2eab2ae0c002c522f81048f4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1f153714df25829896f3fbc839f28c8150784d8724a115ca39b1040230478137
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118949690"
 ---
 # <a name="requeststatechange-method-of-the-msvm_syntheticmouse-class"></a>Msvm SyntheticMouse 類別的 RequestStateChange 方法 \_
 

@@ -4,12 +4,12 @@ ms.assetid: 02bfe923-9915-439e-ac7c-a570416d054a
 title: 電話語音應用程式設計介面版本2。2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e0dc158210350979105d765dc939f600f61d8bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ea4317fbf603c4b0185440d71db5861db59af9dd7c5ae1e8fe49664100bb329
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193074"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060266"
 ---
 # <a name="telephony-application-programming-interface-version-22"></a>電話語音應用程式設計介面版本2。2
 
@@ -35,7 +35,7 @@ TAPI/C 是設計來供 C/c + + 程式設計人員使用。 電信或其他電話
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-TAPI 2.2 版可讓您針對 Windows Server 2003 作業系統、Windows XP、Windows 2000、Windows NT、Windows Me、Windows 98 和 Windows 95 進行通訊應用程式的開發。 如需有關哪些作業系統支援特定函式的詳細資訊，請參閱該函式檔的需求一節。
+TAPI 2.2 版可讓 Windows Server 2003 作業系統、Windows XP、Windows 2000、Windows NT、Windows 我、Windows 98 和 Windows 95 進行通訊應用程式的開發。 如需有關哪些作業系統支援特定函式的詳細資訊，請參閱該函式檔的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 

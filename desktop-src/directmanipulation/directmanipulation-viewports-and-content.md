@@ -4,12 +4,12 @@ ms.assetid: 1564F6F2-844F-4392-9EB5-AA46059D514C
 title: 區和內容
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: 9cda367067ea860ce6a42a16e81d38393937276a
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a103df916e5880380064250d05806169ff4187e6a8be0b22d2dd72d92343f38f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104560604"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787077"
 ---
 # <a name="viewports-and-content"></a>區和內容
 

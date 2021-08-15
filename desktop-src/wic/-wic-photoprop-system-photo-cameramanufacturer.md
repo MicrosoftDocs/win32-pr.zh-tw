@@ -4,12 +4,12 @@ ms.assetid: 6710161c-4835-4385-9d4c-566acc000925
 title: CameraManufacturer 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fd1d2765b6c787b7d7ad421300f1c3492669830b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37744420babedf6b398cdf3ab9007c3895c09d33b9254221b5ba4760ab917a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119087084"
 ---
 # <a name="systemphotocameramanufacturer-photo-metadata-policy"></a>CameraManufacturer 相片中繼資料原則
 

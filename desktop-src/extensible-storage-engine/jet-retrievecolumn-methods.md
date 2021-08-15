@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103880
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 730b10b31ae27bfffa390a5514f898e768239442
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5221309739ad632e5654ed8c631252c651eaa9735785dc358cb5abba9dee2b91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113717"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118979468"
 ---
 # <a name="jet_retrievecolumn-methods"></a>JET_RETRIEVECOLUMN 方法
 

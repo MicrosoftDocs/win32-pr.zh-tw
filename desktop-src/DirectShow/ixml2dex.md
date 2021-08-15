@@ -1,5 +1,5 @@
 ---
-description: IXml2Dex 介面會將 DirectShow 編輯服務 (DES) 專案檔儲存並載入可延伸標記語言 (XML)  (XML) 。 此介面也提供讀取和寫入 DirectShow 圖形 ( grf) 檔案的方法。
+description: IXml2Dex 介面會在可延伸標記語言 (XML)  (XML) 中，儲存並載入 DirectShow 編輯服務 (DES) 專案檔。 這個介面也提供讀取和寫入 DirectShow graph ( grf) 檔案的方法。
 ms.assetid: a07b0cbe-1f1d-4ccd-a994-9bb1a49c78d8
 title: 'IXml2Dex 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ac15110aa1482c37a835ae874057a792e310fc2f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3bc12c2305a8b92110d4aa17522184e9a3c5ee83b60ccd5a989468fa0a8c6e7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952387"
 ---
 # <a name="ixml2dex-interface"></a>IXml2Dex 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106979565"
 
  
 
-`IXml2Dex`介面會在可延伸標記語言 (XML)  (XML) 中儲存及載入[DirectShow 編輯服務](directshow-editing-services.md) (DES) 專案檔。 此介面也提供讀取和寫入 DirectShow 圖形 ( grf) 檔案的方法。
+`IXml2Dex`介面會在可延伸標記語言 (XML)  (XML) 中儲存和載入[DirectShow 編輯服務](directshow-editing-services.md) (DES) 專案檔。 這個介面也提供讀取和寫入 DirectShow graph ( grf) 檔案的方法。
 
 ## <a name="members"></a>成員
 
@@ -69,7 +69,7 @@ ms.locfileid: "106979565"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

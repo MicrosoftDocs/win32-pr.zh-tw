@@ -4,16 +4,16 @@ ms.assetid: 13c94e17-760a-4656-886c-cb5fd4acf474
 title: IsMappedDrive
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb838d49514be686028e39d00cef49889e2b80e4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: cc9377d49c84f934bd777a7273c8865230aaa06632d4253999181cffc9026238
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119095355"
 ---
 # <a name="systemvolumeismappeddrive"></a>IsMappedDrive
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

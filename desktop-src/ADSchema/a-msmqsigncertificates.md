@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd7e81cf145ac249b78e0a3e20be657df68b4af
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 89ee82a5a2bf64acc315dfb535ca6897261ef0cb26f5e249a8c8593cc492b53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845080"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119081742"
 ---
 # <a name="msmq-sign-certificates-attribute"></a>MSMQ 簽署憑證屬性
 
@@ -58,15 +58,15 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |
 | Search-Flags           | 0x00000000                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -79,15 +79,15 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |
 | Search-Flags           | 0x00000000                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -100,15 +100,15 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |
 | Search-Flags           | 0x00000000                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -121,15 +121,15 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |
 | Search-Flags           | 0x00000000                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -142,15 +142,15 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |
 | Search-Flags           | 0x00000000                                                                                    |
 | System-Flags           | 0x00000010                                                                                    |
-| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**MSMQ 遷移-使用者**](c-msmqmigrateduser.md)<br/> [**使用者**](c-user.md)<br/> |
 
 
 
@@ -163,9 +163,9 @@ ms.locfileid: "103845080"
 | 連結識別碼                | \-                                                                                            |
 | MAPI-Id                | \-                                                                                            |
 | System-Only            | 否                                                                                         |
-| 是-單一值       | 對                                                                                          |
+| 是-單一值       | 是                                                                                          |
 | 已編制索引             | 否                                                                                         |
-| 在通用類別目錄中      | 對                                                                                          |
+| 在通用類別目錄中      | 是                                                                                          |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                                                  |
 | Range-Lower            | \-                                                                                            |
 | Range-Upper            | \-                                                                                            |

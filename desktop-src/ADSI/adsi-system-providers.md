@@ -8,12 +8,12 @@ keywords:
 - 服務提供者 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e44ba4ebc63338bfb38d2b9d5da1f46e51b31aa8
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: e66b90aad4e9fa1a6cf6a2229910257f018a411aa7b11b9accca6fcf96dce39b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106967288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962196"
 ---
 # <a name="adsi-service-providers"></a>ADSI 服務提供者
 
@@ -24,7 +24,7 @@ ADSI 包含下表列出的服務提供者。
 | 服務提供者 | 描述                                                                                | 取得詳細資訊                                      |
 |------------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | LDAP<br/>  | 與輕量型目錄存取協定相容的命名空間執行。<br/> | [ADSI LDAP 提供者](adsi-ldap-provider.md)<br/>   |
-| WinNT<br/> | 與 Windows 相容的命名空間實作為。<br/>                               | [ADSI WinNT 提供者](adsi-winnt-provider.md)<br/> |
+| WinNT<br/> | 命名空間的執行與 Windows 相容。<br/>                               | [ADSI WinNT 提供者](adsi-winnt-provider.md)<br/> |
 
 
 

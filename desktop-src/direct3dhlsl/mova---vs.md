@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 9ac29bf0d74b4eb2cb6cb86bdf6b070cf56823eb
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: dec849009ee47b4aaef1bc3766e2b141a8a6ccf5e17b16a370c6ea8284eaf957
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118986328"
 ---
 # <a name="mova---vs"></a>mova-vs
 
@@ -29,7 +29,7 @@ ms.locfileid: "104971609"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104971609"
 
 
 
- 
+ 
 
 將浮點數據移至整數暫存器。 這些值會使用四捨五入到最接近的位置從浮點轉換。
 
@@ -85,9 +85,9 @@ mova a0.xz, r0
 [頂點著色器指示](dx9-graphics-reference-asm-vs-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

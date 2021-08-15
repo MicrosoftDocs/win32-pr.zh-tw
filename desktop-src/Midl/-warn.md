@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ebb2effd65175bf7bf54cb74cb63a56af0278784
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2a51f57be780edeac4a91ea4f127d34d1c004ff700429f405eee4522dcb63ef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678332"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067450"
 ---
 # <a name="warn-switch"></a>/warn 參數
 
@@ -54,7 +54,7 @@ midl /warn level
 
 
 
- 
+ 
 
 警告與錯誤不同。 錯誤會導致 MIDL 編譯器終止 IDL 檔案的處理。 警告會導致 MIDL 編譯器發出參考用訊息，並繼續處理 IDL 檔案。
 
@@ -75,9 +75,9 @@ midl /warn level
 [一般 MIDL 命令列語法](general-midl-command-line-syntax.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

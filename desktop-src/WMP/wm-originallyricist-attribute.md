@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d43617c9ec7d079001c02a6c73f525baa6085c0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4c371219502cd2388d29b100c745235de47aeef3585a667a84201dd4ae03c2af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000918"
 ---
 # <a name="wmoriginallyricist-attribute"></a>WM/OriginalLyricist 屬性
 
@@ -31,7 +31,7 @@ ms.locfileid: "106983253"
 
 這個屬性只會儲存在不在文件庫中的音樂檔案中。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMOriginalLyricist。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMOriginalLyricist。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

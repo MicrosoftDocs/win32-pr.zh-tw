@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fa206902ae80e5218e1d5249da8a8fb1b9dfc04
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: dbca1ef3cb5f51e54fe8b95aa16326c6438903ff9717258edea9fac491eebafa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103681877"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119067048"
 ---
 # <a name="ncadg_ipx-attribute"></a>ncadg \_ ipx 屬性
 
@@ -52,7 +52,7 @@ endpoint("ncadg_ipx:link-address[port-name]")
 -   它們不支援回呼。 使用回呼屬性的任何函數 **\[** [](callback.md) **\]** 都會失敗。
 -   它們不支援使用 [**管道**](pipe.md) 類型的函式。
 
-使用 **ncadg \_ ipx** 傳輸時，伺服器名稱與32位 Windows server 名稱完全相同。 不過，因為名稱是使用 Novell 通訊協定來散發，所以它們必須符合 Novell 命名慣例。 如果伺服器名稱不是有效的 Novell 名稱，伺服器將無法使用 **ncadg 的 \_ ipx** 傳輸來建立端點。 以下是 Novell 伺服器名稱禁止的部分字元清單：
+使用 ncadg 的 **\_ ipx** 傳輸時，伺服器名稱與32位 Windows 伺服器名稱完全相同。 不過，因為名稱是使用 Novell 通訊協定來散發，所以它們必須符合 Novell 命名慣例。 如果伺服器名稱不是有效的 Novell 名稱，伺服器將無法使用 **ncadg 的 \_ ipx** 傳輸來建立端點。 以下是 Novell 伺服器名稱禁止的部分字元清單：
 
 " \* + . / : ;< = >？ \[ \] \\ \|
 
@@ -67,7 +67,7 @@ TCP/IP 傳輸埠字串的語法（像是所有的埠字串），會與 IDL 規�
 > [!Note]  
 > Windows XP 不支援此通訊協定系列。
 
- 
+ 
 
 ## <a name="examples"></a>範例
 
@@ -129,6 +129,6 @@ interface iface
 [字串系結](/windows/desktop/Rpc/string-binding)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

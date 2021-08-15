@@ -4,12 +4,12 @@ ms.assetid: f287c1cf-c464-42a3-985d-f892db5e1f5f
 title: ICE 參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53c249692150923ebd7752c2c69e306ebcc69d2c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 209054d9c278ef28e685131157cfe6fd0951154fec88ab5a876d5898c3bf1722
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946679"
 ---
 # <a name="ice-reference"></a>ICE 參考
 
@@ -58,7 +58,7 @@ ICE 用來驗證安裝套件。 本主題中的表格會識別每一冰。 如�
 | [ICE39](ice39.md)    | 驗證資料庫的摘要資訊資料流程。                                                                                                                                                                                               |
 | [ICE40](ice40.md)    | 執行各種其他檢查。                                                                                                                                                                                                                  |
 | [ICE41](ice41.md)    | 驗證延伸模組和類別資料表中的專案會參考屬於參考功能的元件。                                                                                                                                       |
-| [ICE42](ice42.md)    | 檢查類別資料表專案沒有將 .exe 檔案設定為 InProc 值，而且只有 LocalServer 的內容具有引數和 DefInProc 值。                                                                                                    |
+| [ICE42](ice42.md)    | 檢查類別資料表專案沒有設定為 InProc 值的 .exe 檔案，而且只有 LocalServer 的內容具有引數和 DefInProc 值。                                                                                                    |
 | [ICE43](ice43.md)    | 檢查非公告的快捷方式是否位於具有 HKCU 登錄機碼的元件中做為金鑰路徑。                                                                                                                                                        |
 | [ICE44](ice44.md)    | 檢查 ControlEvent 資料表中的對話方塊事件 (NewDialog、SpawnDialog、SpawnWaitDialog) 參考對話方塊資料表中的有效對話。                                                                                                              |
 | [ICE45](ice45.md)    | 檢查已設定的保留位。                                                                                                                                                                                                                  |
@@ -72,7 +72,7 @@ ICE 用來驗證安裝套件。 本主題中的表格會識別每一冰。 如�
 | [ICE53](ice53.md)    | 檢查是否有寫入私用安裝程式資訊或原則值的登錄專案。                                                                                                                                                                  |
 | [ICE54](ice54.md)    | 使用隨附的檔案做為金鑰路徑檔案來檢查元件。                                                                                                                                                                                     |
 | [ICE55](ice55.md)    | 檢查 LockPermission 物件是否存在且具有有效的許可權。                                                                                                                                                                                    |
-| [ICE56](ice56.md)    | 驗證 .msi 檔案的目錄結構是否具有單一有效的根目錄。                                                                                                                                                                        |
+| [ICE56](ice56.md)    | 驗證 .msi 檔的目錄結構是否具有單一有效的根目錄。                                                                                                                                                                        |
 | [ICE57](ice57.md)    | 驗證個別的元件不會混用每一電腦和每個使用者的資料。                                                                                                                                                                          |
 | [ICE58](ice58.md)    | 檢查您的 [媒體資料表](media-table.md) 是否沒有超過80個數據列。                                                                                                                                                                        |
 | [ICE59](ice59.md)    | 檢查公告的快捷方式是否屬於快捷方式的目標功能所安裝的元件。                                                                                                                                         |
@@ -107,7 +107,7 @@ ICE 用來驗證安裝套件。 本主題中的表格會識別每一冰。 如�
 | [ICE88](ice88.md)    | 驗證 [IniFile 資料表](inifile-table.md)的 DirProperty 資料行。                                                                                                                                                                                 |
 | [ICE89](ice89.md)    | 驗證 progid 資料表中 Progid 父資料行中的值， \_ 是否為 progid 資料表中 progid 資料行的有效外鍵。 [](progid-table.md)                                                                                                |
 | [ICE90](ice90.md)    | 如果發現快捷方式的目錄已指定為公用屬性，則會張貼警告。                                                                                                                                                        |
-| [ICE91](ice91.md)    | 如果檔案、.ini 檔案或快捷方式檔案已安裝到每個使用者設定檔目錄中，但不因 [**ALLUSERS**](allusers.md) 屬性而異，則會張貼警告。                                                                            |
+| [ICE91](ice91.md)    | 如果檔案、.ini 檔案或快捷方式檔案安裝到每個使用者設定檔目錄中，但不因 [**ALLUSERS**](allusers.md) 屬性而異，則會張貼警告。                                                                            |
 | [ICE92](ice92.md)    | 確認沒有元件識別碼 GUID 的元件也未指定為永久元件。 確認沒有任何元件同時具有 **msidbComponentAttributesPermanent** 和 **msidbComponentAttributesUninstallOnSupersedence** 屬性。 |
 | [ICE93](ice93.md)    | 如果自訂動作使用的名稱與標準動作相同，則會發出警告。                                                                                                                                                                            |
 | [ICE94](ice94.md)    | 如果有任何 unadvertised 快捷方式指向全域組件快取中的元件檔案，就會發出警告。                                                                                                                                     |
@@ -115,7 +115,7 @@ ICE 用來驗證安裝套件。 本主題中的表格會識別每一冰。 如�
 | [ICE96](ice96.md)    | 確認已在[AdvtExecuteSequence 資料表](advtexecutesequence-table.md)中輸入[PublishFeatures 動作](publishfeatures-action.md)和[PublishProduct 動作](publishproduct-action.md)。                                        |
 | [ICE97](ice97.md)    | 確認兩個元件沒有將共用元件隔離到相同的目錄。                                                                                                                                                                   |
 | [ICE98](ice98.md)    | 驗證 ODBC 資料來源的 [ODBCDataSource 資料表](odbcdatasource-table.md) 的描述欄位。                                                                                                                                         |
-| [ICE99](ice99.md)    | 確認 [目錄](directory-table.md) 資料表中未輸入的屬性名稱，重複了針對 Windows Installer 公開或私用所保留的名稱。                                                                                 |
+| [ICE99](ice99.md)    | 確認[目錄](directory-table.md)資料表中未輸入的屬性名稱，重複了針對 Windows Installer 公開或私用所保留的名稱。                                                                                 |
 | [ICE100](ice-100.md) | 檢查 [MsiEmbeddedUI](msiembeddedui-table.md) 和 [MsiEmbeddedChainer](msiembeddedchainer-table.md) 資料表的撰寫。                                                                                                                     |
 | [ICE101](ice-101.md) | 檢查 [功能](feature-table.md) 資料表的 [功能] 資料行中沒有任何值超過38個字元的最大長度。                                                                                                                         |
 | [ICE102](ice-102.md) | 驗證 [MsiServiceConfig](msiserviceconfig-table.md) 和 [MsiServiceConfigFailureActions](msiserviceconfigfailureactions-table.md) 資料表。                                                                                                     |

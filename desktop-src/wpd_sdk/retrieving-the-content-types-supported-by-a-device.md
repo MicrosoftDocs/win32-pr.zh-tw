@@ -4,16 +4,16 @@ ms.assetid: 1cedb8d9-2476-420c-bab4-c8a032af781b
 title: 正在抓取裝置支援的內容類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e1b37160065be3130fca687f5f3277d9108a6ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f85366374ec28ed44664a3b86edbee1e046e1a5ee4e331dbe041398bdc48a9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083462"
 ---
 # <a name="retrieving-the-content-types-supported-by-a-device"></a>正在抓取裝置支援的內容類型
 
-如「取得 [裝置所支援的功能分類](retrieving-the-functional-categories-supported-by-a-device.md) 」主題所述，Windows 可攜式裝置可支援一或多個功能類別。 任何指定的功能類別都可支援一或多個內容類型。 例如，儲存體類別目錄可能支援資料夾、音訊和影像的內容類型。
+如「取得[裝置所支援的功能分類](retrieving-the-functional-categories-supported-by-a-device.md)」主題所述，Windows 可攜式裝置可支援一或多個功能類別。 任何指定的功能類別都可支援一或多個內容類型。 例如，儲存體類別目錄可能支援資料夾、音訊和影像的內容類型。
 
 如需 WPD 所支援內容類型的描述，請參閱 [**WPD \_ 內容類型 \_ 的 \_ 所有**](wpd-content-type-all.md) 主題。
 

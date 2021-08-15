@@ -4,12 +4,12 @@ ms.assetid: ccc450fe-5b93-46f8-bfeb-b7b1aaf53f8e
 title: '影像檔案格式常數 (Gdiplusimaging) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0cd13a62f5b71680efc89ab8c65990302eedd328
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad71973c870f90844a033679cd2961d988def604343af06539db3450d65461a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117696503"
 ---
 # <a name="image-file-format-constants"></a>影像檔案格式常數
 
@@ -19,7 +19,7 @@ ms.locfileid: "104974829"
 
 | 常數                                                                                                                                                                                                                 | 描述                                                               |
 |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------|
-| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**ImageFormatBMP**</dt> </dl>                         | 表示 Windows BMP 格式。<br/>                             |
+| <span id="ImageFormatBMP"></span><span id="imageformatbmp"></span><span id="IMAGEFORMATBMP"></span><dl> <dt>**ImageFormatBMP**</dt> </dl>                         | 指出 Windows 的 BMP 格式。<br/>                             |
 | <span id="ImageFormatEMF"></span><span id="imageformatemf"></span><span id="IMAGEFORMATEMF"></span><dl> <dt>**ImageFormatEMF**</dt> </dl>                         | 指出 EMF 格式。<br/>                                      |
 | <span id="ImageFormatEXIF"></span><span id="imageformatexif"></span><span id="IMAGEFORMATEXIF"></span><dl> <dt>**ImageFormatEXIF**</dt> </dl>                     | 指出 Exif (交換影像檔案) 格式。<br/>           |
 | <span id="ImageFormatGIF"></span><span id="imageformatgif"></span><span id="IMAGEFORMATGIF"></span><dl> <dt>**ImageFormatGIF**</dt> </dl>                         | 指出 GIF 格式。<br/>                                      |
@@ -29,7 +29,7 @@ ms.locfileid: "104974829"
 | <span id="ImageFormatMemoryBMP"></span><span id="imageformatmemorybmp"></span><span id="IMAGEFORMATMEMORYBMP"></span><dl> <dt>**ImageFormatMemoryBMP**</dt> </dl> | 表示影像是從記憶體點陣圖所建立。<br/> |
 | <span id="ImageFormatPNG"></span><span id="imageformatpng"></span><span id="IMAGEFORMATPNG"></span><dl> <dt>**ImageFormatPNG**</dt> </dl>                         | 表示 PNG 格式。<br/>                                      |
 | <span id="ImageFormatTIFF"></span><span id="imageformattiff"></span><span id="IMAGEFORMATTIFF"></span><dl> <dt>**ImageFormatTIFF**</dt> </dl>                     | 指出 TIFF 格式。<br/>                                     |
-| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**ImageFormatUndefined**</dt> </dl> | 指出 GDI + 無法判斷格式。<br/>         |
+| <span id="ImageFormatUndefined"></span><span id="imageformatundefined"></span><span id="IMAGEFORMATUNDEFINED"></span><dl> <dt>**ImageFormatUndefined**</dt> </dl> | 指出 GDI+ 無法判斷格式。<br/>         |
 | <span id="ImageFormatWEBP"></span><span id="imageformatwebp"></span><span id="ImageFormatWEBP"></span><dl> <dt>**ImageFormatWEBP**</dt> </dl>                     | 指出 WebP 格式。<br/>                                     |
 | <span id="ImageFormatWMF"></span><span id="imageformatwmf"></span><span id="IMAGEFORMATWMF"></span><dl> <dt>**ImageFormatWMF**</dt> </dl>                         | 指出 WMF 格式。<br/>                                      |
 

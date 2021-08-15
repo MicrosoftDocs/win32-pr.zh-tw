@@ -4,12 +4,12 @@ ms.assetid: af734507-516c-43f1-9c5e-c77cde1b8008
 title: 透過 CoCreateActivity 使用 COM + 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f5b3296756b91d0f8ea29b1d67c11c78c431cfcd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 11b5452c99fa431e7c1927646eec7ad9b5e5fa930f3ba7d0bf242df7690325db
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128660"
 ---
 # <a name="using-com-services-through-cocreateactivity"></a>透過 CoCreateActivity 使用 COM + 服務
 

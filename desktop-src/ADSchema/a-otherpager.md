@@ -1,10 +1,10 @@
 ---
-title: Phone-傳呼-其他屬性
+title: 電話-呼機-其他屬性
 description: 替代的呼機號碼清單。
 ms.assetid: 4e01440f-782f-459f-8937-8c75b11fc271
 ms.tgt_platform: multiple
 keywords:
-- 手機-傳呼-其他屬性 AD 架構
+- 電話-呼機-其他屬性 AD 架構
 - otherPager 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2826b9b57e4349063abf8ccefd3ef4a69a307e5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 7e9865e3713d0591715aa4f3c975f3cbdd095192b81916ed27b48763ed418a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104385434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118960137"
 ---
-# <a name="phone-pager-other-attribute"></a>Phone-傳呼-其他屬性
+# <a name="phone-pager-other-attribute"></a>電話-呼機-其他屬性
 
 替代的呼機號碼清單。
 
@@ -29,7 +29,7 @@ ms.locfileid: "104385434"
 
 | 進入 | 值 |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | 手機-傳呼-其他                                                                |
+| CN                | 電話-呼機-其他                                                                |
 | Ldap-顯示名稱 | otherPager                                                                       |
 | 大小              | \-                                                                               |
 | 更新許可權  | 網域系統管理員或帳戶擁有者。                                           |

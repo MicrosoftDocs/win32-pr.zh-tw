@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 032d2b228800ffca654704c85a72d5ada76e65ef
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: abb3b714622550315a714b314772f7002872ee71863e12db234db4b6794aeadc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "104974761"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043436"
 ---
 # <a name="samplegradsamplegradsfloatfloatfloatintfloat-function-for-texture2darray"></a>Texture2DArray 的 SampleGrad：： SampleGrad (S、float、float、float、int、float) 函數
 

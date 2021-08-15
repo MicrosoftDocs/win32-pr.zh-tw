@@ -4,12 +4,12 @@ ms.assetid: a58c5884-3c2d-4699-8b19-277003912dfd
 title: 已編譯的 Visual Basic 元件的調試
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 07b32a39f0f1c50e1da4c9534b40658838361225
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2eac784808602d3554e4610e70a8d8a22ef2ca1594062599ec6acd43db68b98a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128780"
 ---
 # <a name="debugging-compiled-visual-basic-components"></a>已編譯的 Visual Basic 元件的調試
 
@@ -21,9 +21,9 @@ ms.locfileid: "104110641"
 
 2.  **在 [檔案**] 功能表上，按一下 [**進行 YourProject.dll**]。
 
-3.  在 [ **製作專案** ] 對話方塊中，按一下 [ **選項**]。
+3.  在 [**製作 Project** ] 對話方塊中，按一下 [**選項**]。
 
-4.  在 [ **專案屬性** ] 對話方塊的 [ **編譯** ] 索引標籤上，按一下 [ **編譯成機器碼** 而 **不優化** ]，然後選取 [ **建立符號偵錯工具資訊** ] 核取方塊。
+4.  在 [ **Project 屬性**] 對話方塊的 [**編譯**] 索引標籤上，按一下 [**編譯成機器碼** 而 **不優化**]，然後選取 [**建立符號偵錯工具資訊**] 核取方塊。
 
 5.  按一下 **[確定]**，然後再按一次 **[確定]** ，以編譯您的專案。
 
@@ -42,19 +42,19 @@ ms.locfileid: "104110641"
 
 10. **在 [檔案**] 功能表中，按一下 [**開啟** (未 **開啟工作區**]) ，然後開啟您想要進行偵錯工具的 Visual Basic 模組 (. bas) 、表單 (. keyfromnode.frm) 或類別 (。
 
-11. 在 [ **專案** ] 功能表上，按一下 [ **設定**]。
+11. 在 [ **Project** ] 功能表上，按一下 [**設定**]。
 
-12. 在 [**專案設定**] 對話方塊的 [**調試**] 索引標籤上，選取 [**類別目錄**] 方塊中的 **[一般**]。
+12. 在 [ **Project 設定**] 對話方塊的 [**調試**] 索引標籤上，選取 [**類別目錄**] 方塊中的 **[一般**]。
 
 13. 在 [ **用於偵錯工具的可執行檔** ] 方塊中，輸入 Dllhost.exe 的完整路徑，後面接著一個引數，指定包含元件的 com + 應用程式的處理序識別碼。 您會在 [COM + 應用程式的 **屬性**] 對話方塊的 [**一般**] 索引標籤上找到處理序識別碼。 以下是範例： C： \\ Winnt \\ System32 \\Dllhost.exe/ProcessID： { <processID> }。
 
-14. 按一下 [確定]  。
+14. 按一下 [確定]。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[COM + Visual Basic 支援與 MTS 對比](com--visual-basic-debugging-support-contrasted-with-mts.md)
+[com + Visual Basic 支援與 MTS 對比](com--visual-basic-debugging-support-contrasted-with-mts.md)
 </dt> <dt>
 
 [Visual Basic IDE 中的調試](debugging-in-the-visual-basic-ide.md)

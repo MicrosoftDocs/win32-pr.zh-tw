@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e3ea60249ea9326499de7eaa7422d9362e7f0b2d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 80d9294cfdc76ff9210ad080bf3079bdfdb70ffb64faf35e2ef3e4164064a2b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085939"
 ---
 # <a name="drm_sourceid"></a>DRM \_ SourceID
 
@@ -33,7 +33,7 @@ g \_ wszWMDRM \_ SourceID
 
 ## <a name="remarks"></a>備註
 
-來源識別碼是用來區分以非標準方式保護的內容，而不是使用標準 Windows Media DRM 保護的內容。
+來源識別碼是用來區分以非標準方式保護的內容，而不是使用標準 Windows 媒體 DRM 所保護的內容。
 
 ## <a name="see-also"></a>另請參閱
 
@@ -42,9 +42,9 @@ g \_ wszWMDRM \_ SourceID
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

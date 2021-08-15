@@ -1,7 +1,7 @@
 ---
 description: 時間軸元素定義時間軸。 此元素是 XML 檔案中的根節點。
 ms.assetid: db1da09f-d9b2-43fa-8dec-e3dc11cbfafa
-title: 時間軸元素 (]) 中，
+title: '時間軸元素 (Windows.. h h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - windows.ui.xaml.media.animation.h
-ms.openlocfilehash: 97e87dbbcfbcefb8968f6bbe43e9df94277e3d7a
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: f94dd76206aabbe39e443dac5ab277e499face91c94a6a69b3fe5ee29eb67c70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951667"
 ---
 # <a name="timeline-element"></a>時間軸元素
 
@@ -61,7 +61,7 @@ ms.locfileid: "107908796"
 
 | 需求 | 值 |
 |-------------------|--------------------------------------------------------------------------------------------------------------|
-| 標頭<br/> | <dl> <dt>（... H h）</dt> </dl> |
+| 標頭<br/> | <dl> <dt>Windows.. h h。</dt> </dl> |
 
 
 

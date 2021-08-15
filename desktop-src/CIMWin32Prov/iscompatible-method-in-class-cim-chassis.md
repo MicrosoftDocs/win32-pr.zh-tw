@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 8796582b153a7283429715569eeed91e4dd38fc7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a0bbaa063006d6c7829b3a38b0bc28be78c451b0f2302897a456e1be4cf9eb6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003288"
 ---
 # <a name="iscompatible-method-of-the-cim_chassis-class"></a>CIM 底座類別的 IsCompatible 方法 \_
 

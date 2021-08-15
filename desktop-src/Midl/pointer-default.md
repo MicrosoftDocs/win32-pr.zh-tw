@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08555358eb0abd42957d60527e18a4fd4f49165a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: d246da98db6d3f98aa8c64e1316ee56648016402d1070ae571284148b8caf390
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023330"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013766"
 ---
 # <a name="pointer_default-attribute"></a>指標 \_ 預設屬性
 
@@ -73,6 +73,6 @@ interface dictionary
 [預設指標類型](/windows/desktop/Rpc/default-pointer-types)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

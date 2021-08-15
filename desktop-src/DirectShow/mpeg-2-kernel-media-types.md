@@ -1,19 +1,19 @@
 ---
-description: 針對數個 MPEG-2 媒體類型 Guid，Windows DDK 會定義與 DirectShow 中使用的名稱不同的名稱。 下表顯示 (在 Ksuuids 中定義的 DirectShow 名稱) ，以及在 Ksmedia 中定義 (的對應核心模式名稱) 。
+description: 針對數個 mpeg-2 媒體類型 guid，Windows DDK 定義名稱與 DirectShow 中使用的名稱不同。 下表顯示在 Ksuuids 中定義的 DirectShow 名稱 () 以及 (在 Ksmedia 中定義的對應核心模式名稱) 。
 ms.assetid: ecf94552-5a0f-464c-9f9b-4861faa38d05
 title: 'MPEG-2 核心媒體類型 (Dshow .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b03e6d3cbc32c987110ceac98e6aeef6617d6d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 41cfbbd93bfb4d9c21a7ab2b496e69458e2754d95ae4427ad163c4f2a06e4165
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993442"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952257"
 ---
 # <a name="mpeg-2-kernel-media-types"></a>MPEG-2 核心媒體類型
 
-針對數個 MPEG-2 媒體類型 Guid，Windows DDK 會定義與 DirectShow 中使用的名稱不同的名稱。 下表顯示 (在 Ksuuids 中定義的 DirectShow 名稱) ，以及在 Ksmedia 中定義 (的對應核心模式名稱) 。
+針對數個 mpeg-2 媒體類型 guid，Windows DDK 定義名稱與 DirectShow 中使用的名稱不同。 下表顯示在 Ksuuids 中定義的 DirectShow 名稱 () 以及 (在 Ksmedia 中定義的對應核心模式名稱) 。
 
 
 

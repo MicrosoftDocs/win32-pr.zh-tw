@@ -4,12 +4,12 @@ ms.assetid: db77b8af-3c36-4e01-88e0-4c44ef8504ff
 title: 映射完整性函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a11678dbb12bcb9f29950589b60a84e00960b183
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 47a2311ccfc59fb228a8f71c380205dc754452ba4a9d0a7e1dcb3c9edcd92a14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025898"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957097"
 ---
 # <a name="image-integrity-functions"></a>映射完整性函式
 

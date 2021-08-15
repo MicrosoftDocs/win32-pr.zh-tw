@@ -4,12 +4,12 @@ ms.assetid: 66f6c9f4-93fa-4ee8-adf8-cde4e63f9fb7
 title: 處理移除裝置的要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03f6f1089cae0e4c9db964e3877cac8f8f8d8da4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6432ba2709dd05589acd5f8e0a2d1de6547216c9d24d4c9d742b9ad6dcc838e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956777"
 ---
 # <a name="processing-a-request-to-remove-a-device"></a>處理移除裝置的要求
 

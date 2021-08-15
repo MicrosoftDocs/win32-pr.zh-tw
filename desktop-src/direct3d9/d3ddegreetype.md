@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 773ef3a8dd8fc5f4657119c2021c5723e54a3bd7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 6daacc007438903d3f003a19038b4ea6909814e3a5d024d3df6daa95a0c60602
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000580"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989048"
 ---
 # <a name="d3ddegreetype-enumeration"></a>D3DDEGREETYPE 列舉
 

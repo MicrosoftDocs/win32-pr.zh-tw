@@ -1,5 +1,5 @@
 ---
-description: 瞭解 IShellDispatch RefreshMenu 方法，這會重新整理 [開始] 功能表的內容。 只能與 Windows XP 之前的系統搭配使用。
+description: 瞭解 IShellDispatch RefreshMenu 方法，這會重新整理 [開始] 功能表的內容。 只能搭配 Windows XP 之前的系統使用。
 ms.assetid: D36FA5A0-AF03-4627-86E0-869BF1440958
 title: 'IShellDispatch. RefreshMenu 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: d9e1a3c326cfa79c7b754cc8a364e649cf2c9931
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: ac5bb37f5880011fcabcfcc0e923196857694012a547b0391326a9fe5d8424f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969057"
 ---
 # <a name="ishelldispatchrefreshmenu-method"></a>IShellDispatch. RefreshMenu 方法
 
-重新整理 [ **開始** ] 功能表的內容。 只能與 Windows XP 之前的系統搭配使用。
+重新整理 [ **開始** ] 功能表的內容。 只能搭配 Windows XP 之前的系統使用。
 
 ## <a name="syntax"></a>語法
 
@@ -65,7 +65,7 @@ IShellDispatch.RefreshMenu()
 
 下列範例示範如何在 JScript、VBScript 和 Visual Basic 中使用 **RefreshMenu** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -121,7 +121,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |

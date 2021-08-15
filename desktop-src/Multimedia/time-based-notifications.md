@@ -9,12 +9,12 @@ keywords:
 - 以時間為基礎的搖桿通知
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15dff2a6140bd993157f20e92488afce1b646e20
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 80052d5e728a7a5b00e6177a36c30f470fe80daeafbe39a12aa4c9a883766534
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688248"
 ---
 # <a name="time-based-notifications"></a>Time-Based 通知
 
@@ -23,8 +23,8 @@ ms.locfileid: "103933096"
 > [!Note]  
 > Windows 會在每次呼叫 **joySetCapture** 時設定計時器事件。
 
- 
+ 
 
- 
+ 
 
- 
+ 

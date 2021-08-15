@@ -7,16 +7,16 @@ keywords:
 - 建立組織單位 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78ec0da1efe78d54eba8bc0dc05a998717aaf91f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf2db91c02836e2425cd25e72afe6e57ff6619948372a20d03079d65eee5c882
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931849"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961987"
 ---
 # <a name="creating-an-organizational-unit"></a>建立組織單位
 
-現在您已有網域物件，可以開始建立組織單位。 Fabrikam 有兩個部門：銷售和生產。 公司計畫雇用兩部 Windows 2000 系統管理員來管理每個部門。 Joe Worden 是企業系統管理員，將在 Fabrikam 網域下建立兩個新的組織單位。 藉由建立組織單位，Joe 可以將多個物件群組在一起，讓其他人管理這些物件。 下列程式碼範例會建立 (OU) 的銷售組織單位。
+現在您已有網域物件，可以開始建立組織單位。 Fabrikam 有兩個部門：銷售和生產。 公司計畫雇用兩個 Windows 2000 系統管理員來管理每個部門。 Joe Worden 是企業系統管理員，將在 Fabrikam 網域下建立兩個新的組織單位。 藉由建立組織單位，Joe 可以將多個物件群組在一起，讓其他人管理這些物件。 下列程式碼範例會建立 (OU) 的銷售組織單位。
 
 
 ```VB
@@ -73,9 +73,9 @@ Set east = salesOU.GetObject("organizationalUnit", "OU=East")
 [將現有的使用者移至組織單位](moving-existing-users-to-the-organizational-unit.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

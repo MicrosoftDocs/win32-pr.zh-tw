@@ -12,12 +12,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: c425fc53563e6dfc16d2040fb575f47f0f8fdf35
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 415e94d8ed19d3248beb31d8a5e6327e1adc11078483d4f60fcd42699e4dab89
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970518"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120001728"
 ---
 # <a name="ioctl_copychunk-control-code"></a>IOCTL \_ copychunk 可控制項程式碼
 

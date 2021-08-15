@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9e7ee574b10a9bb4579cd3ac0f9366aeb28ed5a1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 08d93d77253f9bb0e45ab40acdd91efecc286d94bb982cb350f99161a5f5fb1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106973730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118959507"
 ---
 # <a name="apply-group-policy-extended-right"></a>套用-群組-原則擴充許可權
 

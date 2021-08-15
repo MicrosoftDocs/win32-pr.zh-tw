@@ -7,12 +7,12 @@ keywords:
 - BC-VCM-LVM-HYPERV (視訊壓縮管理員) ，序列壓縮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8485c31361540ae0e0e9569453bc610d10d88d3d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5c930c1f2a3e73e21e63195129221aaa28017e5a8d59122be9d8cbf956b828bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932162"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119688868"
 ---
 # <a name="sequence-compression"></a>序列壓縮
 
@@ -22,9 +22,9 @@ ms.locfileid: "103932162"
 
 當應用程式完成序列的壓縮之後，它就可以使用 **ICSeqCompressFrameEnd** 來釋出配置給 **ICSeqCompressFrameStart** 的系統資源。 若要釋放配置給 **COMPVARS** 結構的資源，應用程式可以使用 [**ICCompressorFree**](/windows/desktop/api/Vfw/nf-vfw-iccompressorfree) 函數。
 
- 
+ 
 
- 
+ 
 
 
 
