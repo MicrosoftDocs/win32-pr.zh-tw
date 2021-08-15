@@ -4,12 +4,12 @@ ms.assetid: 95cdf345-e1bb-41d8-b1e0-2acf97e33110
 title: DirectoryListOpen ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bbeb3a570f49032adb0f5208514c26dd9cc16726
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8b1453ffd42e0763ec747f02f7030818eaba3d533e5dfcca4570c13596efdcb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195594"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118947322"
 ---
 # <a name="directorylistopen-controlevent"></a>DirectoryListOpen ControlEvent
 

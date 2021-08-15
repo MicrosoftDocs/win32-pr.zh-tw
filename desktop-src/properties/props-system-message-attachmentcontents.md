@@ -4,16 +4,16 @@ ms.assetid: abef2e61-6cbe-46cc-ba2a-a0bb42164c8c
 title: AttachmentContents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0a09aec258ea0c6798379057b04da4747c00862
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: b996e1bc4c24f81c2a1648da2c5685eb76cd2784a3e02134f100320de78d6def
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108114046"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970327"
 ---
 # <a name="systemmessageattachmentcontents"></a>AttachmentContents
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -4,12 +4,12 @@ description: 非同步呼叫完成時，伺服器會呼叫 RpcAsyncCompleteCall 
 ms.assetid: 458bc476-963e-4812-b4c2-9074ff0a8284
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06f861c3f2a1befdb85435f5275176c82e23bb06
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bdcaf4db4a27a49a8025596668893518c6b6c577a0d81d91189a44ec81df4de6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021899"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118925576"
 ---
 # <a name="sending-the-asynchronous-reply"></a>傳送非同步回復
 
@@ -20,7 +20,7 @@ ms.locfileid: "104021899"
 > [!Note]  
 > 伺服器必須在 \[ 呼叫 RpcAsyncCompleteCall 之前，先完成更新 in、out \] 和 \[ out \] 參數。  呼叫 **RpcAsyncCompleteCall** 之後，就不能對這些參數或非同步控制碼進行任何變更。 如果 **RpcAsyncCompleteCall** 函式呼叫失敗，RPC 執行時間就會釋出參數。
 
- 
+ 
 
 下列範例示範簡單的非同步程序呼叫。
 
@@ -93,7 +93,7 @@ void AsyncFunc(IN PRPC_ASYNC_STATE pAsync,
 > [!Note]  
 > **RpcAsyncCompleteCall** 函數可以在接收呼叫的執行緒上呼叫，或在進程中的任何其他執行緒上呼叫。 如果完成呼叫所需的所有資料都可立即使用，則伺服器可能會將它們填入相同的執行緒，並在相同的執行緒上呼叫 **RpcAsyncCompleteCall** 。 這種方法可節省一些內容切換，並提升效能。 這類呼叫稱為伺機非同步。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -111,9 +111,9 @@ void AsyncFunc(IN PRPC_ASYNC_STATE pAsync,
 [**RpcServerTestCancel**](/windows/desktop/api/Rpcdce/nf-rpcdce-rpcservertestcancel)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

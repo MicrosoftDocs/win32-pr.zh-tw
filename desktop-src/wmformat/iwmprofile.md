@@ -15,12 +15,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location:
 - wmsdkidl.h
-ms.openlocfilehash: f814df820bd50a36abf2ee8e453549f46c9c5c9e
-ms.sourcegitcommit: 52d79b29f3b9933c8bef43207ff80c668a81cb73
+ms.openlocfilehash: 525cdee41be011e373c65e508e91087082c17f2ec279195e2a9ab285b391fd54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "106966069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084715"
 ---
 # <a name="iwmprofile-interface"></a>IWMProfile 介面
 

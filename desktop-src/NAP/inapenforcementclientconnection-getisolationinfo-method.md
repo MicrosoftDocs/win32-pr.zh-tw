@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 890f7268801fda77a9794ed21c4d36e78a52dd5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 81f9fffc3f31b22e791b8f5dcff67bfc4b75c998f35158f99d5c558004a51f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939956"
 ---
 # <a name="inapenforcementclientconnectiongetisolationinfo-method"></a>INapEnforcementClientConnection：： GetIsolationInfo 方法
 
@@ -80,8 +80,8 @@ HRESULT GetIsolationInfo(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapEnforcementClient。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

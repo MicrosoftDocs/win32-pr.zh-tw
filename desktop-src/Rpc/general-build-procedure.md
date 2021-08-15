@@ -4,12 +4,12 @@ description: 使用遠端程序呼叫建立用戶端/伺服器應用程式之進
 ms.assetid: 77fa9f30-c370-4ec2-8c23-6037ec520dc3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b223bf7482cd7cbb65f5b737c90502a6b6dd3de
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8402a14ceac3b34114e7b40998038a4e09fb7ba1a915c173f2062f7fab9e63d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021323"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929628"
 ---
 # <a name="general-build-procedure"></a>一般組建程式
 
@@ -31,9 +31,9 @@ ms.locfileid: "104021323"
 -   [開發伺服器](developing-the-server.md)
 -   [開發用戶端](developing-the-client.md)
 
- 
+ 
 
- 
+ 
 
 
 

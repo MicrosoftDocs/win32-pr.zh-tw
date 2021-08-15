@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.esentexcepti
 ms:contentKeyID: 55107214
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 8edc1bc32b4a4a1f3b4036fcd53dc09ab53a5a54
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 48021c85ea523bb5dc5749b02cc326f81493e12f5e9524e67ba0450deef4c098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118779045"
 ---
 # <a name="esentexception-members"></a>EsentException 成員
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 85e3481c66925b667e8791328c84afeb18fe90e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fd6737b7317c5bd86e756bfbd45d9d69e461f92ecc007d739203519170ee57f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955037"
 ---
 # <a name="cbasepropertypagem_bdirty-member"></a>CBasePropertyPage：： m \_ bDirty 成員
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9cdf9342789d5603a3b64d778bd60364eebde50e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 422b52a339a83cbaf59a9d65c0ed0e4e7e41533dcbf0be962147327145588a7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013546"
 ---
 # <a name="switch-attribute"></a>切換屬性
 
@@ -87,9 +87,9 @@ typedef struct _S1_TYPE
 [**聯盟**](union.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

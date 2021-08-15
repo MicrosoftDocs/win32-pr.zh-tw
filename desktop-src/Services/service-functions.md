@@ -4,12 +4,12 @@ ms.assetid: 63666848-cbac-4853-8b91-89303f9854c0
 title: 服務功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0431a672e93c94e06a71812471aa3c74d0ac2f96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55553e29b2ae9fb8e60db2f421fd8aa68cee1c6b79542c7d3d61ef5bcef490f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118888960"
 ---
 # <a name="service-functions"></a>服務功能
 

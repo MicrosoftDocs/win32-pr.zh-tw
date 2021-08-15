@@ -1,5 +1,5 @@
 ---
-description: 保護串流狀態的重要區段。 如需詳細資訊，請參閱篩選開發人員的資料流程。
+description: 保護串流狀態的重要區段。 如需詳細資訊，請參閱篩選開發人員的資料 Flow。
 ms.assetid: f77c3129-ca25-47b8-8a6e-3a07169701af
 title: 'CTransformFilter：： m_csReceive 成員 (Transfrm .h) '
 ms.topic: reference
@@ -16,16 +16,16 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 542f108cee8dbe761040ef8474ae7cec565e0b52
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5166b91c62828718d34a0e8063098b1fc3b326adc115a9f78912961ec7ce3f47
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953557"
 ---
 # <a name="ctransformfilterm_csreceive-member"></a>CTransformFilter：： m \_ csReceive 成員
 
-保護串流狀態的重要區段。 如需詳細資訊，請參閱 [篩選開發人員的](data-flow-for-filter-developers.md)資料流程。
+保護串流狀態的重要區段。 如需詳細資訊，請參閱[篩選開發人員的資料 Flow](data-flow-for-filter-developers.md)。
 
 ## <a name="syntax"></a>Syntax
 

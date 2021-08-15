@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fa9749be304170ec7706b637429f577e77411ac5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1fdde438be329627645c7615453ff198e9c4f01f540684c27e8e3a5699e48499
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939649"
 ---
 # <a name="inapenforcementclientconnectionsetconnectionid-method"></a>INapEnforcementClientConnection：： SetConnectionId 方法
 
@@ -80,8 +80,8 @@ HRESULT SetConnectionId(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                |
 | 標頭<br/>                   | <dl> <dt>NapEnforcementClient。h</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>NapEnforcementClient .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qagent.dll</dt> </dl>               |

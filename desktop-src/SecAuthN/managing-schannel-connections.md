@@ -4,12 +4,12 @@ ms.assetid: 75524269-fb31-4980-a306-274493212246
 title: 管理 Schannel 連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef2b90c748f1f44c962545b9494e40f0cacfd2ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43a4de8abdc4b103e216666f69ed1097709534ef0e39f30137be517a5f897904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118921847"
 ---
 # <a name="managing-schannel-connections"></a>管理 Schannel 連接
 

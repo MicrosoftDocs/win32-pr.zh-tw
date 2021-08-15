@@ -4,12 +4,12 @@ ms.assetid: 53f71cab-9d5a-431b-92f8-a0172856a94f
 title: 軟體
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c124f925a1047dc7be6e8ba2882a039895801ebe
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c1d8cac8e45ee5c51ef8a49f7b212dfb4381adb760eaf3bc1d08b21b4f9c7464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113786"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463903"
 ---
 # <a name="software"></a>軟體
 

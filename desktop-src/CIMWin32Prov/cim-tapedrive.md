@@ -46,12 +46,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 184b855d5989c77292e51e8b477c5392893deccb
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 53802abf80e75aa86d8e48aca0c452cc75e5205d76f1f7369f8beeeaf0d2e749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020836"
 ---
 # <a name="cim_tapedrive-class-cimwin32-wmi-providers"></a>CIM_TapeDrive 類別 (CIMWin32 WMI 提供者) 
 
@@ -341,7 +341,7 @@ class CIM_TapeDrive : CIM_MediaAccessDevice
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存裝置 \| 001.9 "，" MIF。DMTF \| 儲存裝置 \| 001.11 "，" MIF。DMTF \| 儲存裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
+限定詞： [**ArrayType**](/windows/desktop/WmiSdk/standard-qualifiers) ( 「已編制索引」 ) ， [**MAPPINGSTRINGS**](/windows/desktop/WmiSdk/standard-qualifiers) (」 MIF。DMTF \| 儲存體裝置 \| 001.9 "，" MIF。DMTF \| 儲存體裝置 \| 001.11 "，" MIF。DMTF \| 儲存體裝置 \| 001.12 "，" MIF。DMTF \| 磁片 \| 003.7 ") ， [**ModelCorrespondence**](/windows/desktop/WmiSdk/standard-qualifiers) ("[**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。**CapabilityDescriptions**") 
 </dt> </dl>
 
 媒體存取裝置的功能。 這個屬性繼承自 [**CIM \_ MediaAccessDevice**](cim-mediaaccessdevice.md)。
@@ -355,7 +355,7 @@ class CIM_TapeDrive : CIM_MediaAccessDevice
 
 </dt> <dd>
 
-不明。
+未知。
 
 </dd> <dt>
 
@@ -591,7 +591,7 @@ class CIM_TapeDrive : CIM_MediaAccessDevice
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 設定管理員錯誤碼。
+Windows設定管理員錯誤碼。
 
 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
@@ -1274,7 +1274,7 @@ Windows 仍在設定裝置。
 限定詞： [**架構**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32" ) 
 </dt> </dl>
 
-Windows 隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
+Windows隨插即用邏輯裝置的裝置識別碼。 這個屬性繼承自 [**CIM \_ LogicalDevice**](cim-logicaldevice.md)。
 
 範例： " \* PNP030b"
 

@@ -4,12 +4,12 @@ ms.assetid: C2E62DD2-8316-407B-B879-2617873F8409
 title: 保護提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc2c262fcfbfa5ab0842f103849af3d67b20f8e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06fe4c688eec734a7c32d1a85eaec2d9ebf132834a5970802cecb2639240e7d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943930"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118907189"
 ---
 # <a name="protection-providers"></a>保護提供者
 

@@ -4,12 +4,12 @@ ms.assetid: c764bde5-e053-4124-b859-1d2839ada918
 title: 具名管道實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4b7d1ec591996e83853ae6faede899ecd4e4ea2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 188ec90912132e5cdd972ac2b0a4ab3f4c1f97ebbb7bc35e20b75b04eebbfa15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118481959"
 ---
 # <a name="named-pipe-instances"></a>具名管道實例
 

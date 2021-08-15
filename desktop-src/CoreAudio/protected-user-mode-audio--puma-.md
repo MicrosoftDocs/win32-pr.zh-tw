@@ -1,21 +1,21 @@
 ---
-description: Windows Vista 引進受保護的使用者模式音訊 (PUMA) 、受保護環境中的使用者模式音訊引擎 (PE) ，可提供更安全的音訊處理和轉譯環境。
+description: WindowsVista 引進了受保護的使用者模式音訊 (PUMA) ，受保護環境中的使用者模式音訊引擎 (PE) ，可為音訊處理和轉譯提供更安全的環境。
 ms.assetid: 27a50026-9e48-48b1-9249-7528a97333c9
 title: '受保護的使用者模式音訊 (PUMA) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 233dc82109feb66472e66e4235031696937d70d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f119094440297c90ae67c46d5a6b39b1ba6e2e9931b43b4bdda17393d0273dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847515"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077452"
 ---
 # <a name="protected-user-mode-audio-puma"></a>受保護的使用者模式音訊 (PUMA) 
 
-Windows Vista 引進受保護的使用者模式音訊 (PUMA) 、受保護環境中的使用者模式音訊引擎 (PE) ，可提供更安全的音訊處理和轉譯環境。 它只允許啟用可接受的音訊輸出，並確保能可靠地停用輸出。 如需 PUMA 的詳細資訊，請參閱 [內容保護和 Windows Vista 的輸出](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/output_protect.doc)。
+WindowsVista 引進了受保護的使用者模式音訊 (PUMA) ，受保護環境中的使用者模式音訊引擎 (PE) ，可為音訊處理和轉譯提供更安全的環境。 它只允許啟用可接受的音訊輸出，並確保能可靠地停用輸出。 如需 PUMA 的詳細資訊，請參閱[內容保護和 Windows Vista 的輸出](https://download.microsoft.com/download/5/D/6/5D6EAF2B-7DDF-476B-93DC-7CF0072878E6/output_protect.doc)。
 
-Windows 7 的 PUMA 已更新，可提供下列功能：
+PUMA 已更新為 Windows 7，以提供下列功能：
 
 -   在) 的多媒體介面 High-Definition HDMI (端點上，設定序號複製管理系統 (SCMS) 位於 S/PDIF 端點和高頻寬數位內容保護 (HDCP) 位。
 -   在受保護的環境以外啟用 SCMS 和 HDMI 保護控制項， (PE) 。
@@ -30,13 +30,13 @@ Windows 7 的 PUMA 已更新，可提供下列功能：
 
 ### <a name="copy-protection-rule"></a>禁止複製規則
 
-**禁止複製** 表示系統不允許直接數位複製。 對 WHQL 測試合約的展示 B 已更新，以反映在內容上設定 **禁止複製** 時，驅動程式的新期望和需求。 在 Windows 7 中，內建的 HD 音訊類別驅動程式符合最新的需求。
+**禁止複製** 表示系統不允許直接數位複製。 對 WHQL 測試合約的展示 B 已更新，以反映在內容上設定 **禁止複製** 時，驅動程式的新期望和需求。 針對 Windows 7，內建的 HD 音訊類別驅動程式符合最新的需求。
 
 除了確保不允許內容傳遞至另一個元件，或儲存在 DRM 系統未驗證的任何非靜態儲存媒體上，音訊驅動程式會在設定 **禁止複製** 時執行下列工作：
 
 -   驅動程式可讓您在 HDMI 端點上進行 HDCP。
 -   針對 S/PDIF 介面，驅動程式會驗證 L、Cp 和分類程式代碼位的組合是否表示「永遠不復制」的 SCMS 狀態，如 IEC 60958 中所定義。
--   L 位設定為0，而類別代碼會設定為「數位信號混音器」。
+-   L 位設定為0，而類別代碼會設定為「數位信號 Mixer」。
 
 受信任音訊驅動程式所使用的 **DRMRIGHTS** 結構，指定指派給 KS 音訊 pin 或埠類別驅動程式資料流程物件的 DRM 內容許可權。 **CopyProtect** 成員會指出是否已在音訊內容上設定 **禁止複製**。
 
@@ -50,11 +50,11 @@ Windows 7 的 PUMA 已更新，可提供下列功能：
 
 PUMA 位於受保護環境 (PE) 中的個別進程。 在 Windows Vista 中，若要使用 PUMA 所提供的音訊內容保護控制項，媒體應用程式必須在 PE 中。 因為只有媒體基礎 Api 可以與 PE 互動，所以內容保護控制項僅限於使用媒體基礎 Api 來串流音訊內容的應用程式。
 
-在 Windows 7 中，任何應用程式都可以存取 PUMA 輸出信任授權單位 (OTA) 所提供的內容保護控制項，不論它們是在 PE 中或使用媒體基礎 Api 來播放音訊。
+在 Windows 7 中，任何應用程式都可以存取 PUMA 輸出信任授權單位 (OTA) 所提供的內容保護控制項，不論它們是在 PE 中或使用媒體基礎 api 來播放音訊。
 
 ## <a name="implementation-instructions"></a>實作指示
 
-音訊應用程式需要執行下列步驟，才能控制音訊端點上的 SCMS 或 HDCP 內容保護。 支援的音訊 Api 包括 DirectShow、DirectSound 和 WASAPI。
+音訊應用程式需要執行下列步驟，才能控制音訊端點上的 SCMS 或 HDCP 內容保護。 支援的音訊 api 為 DirectShow、DirectSound 和 WASAPI。
 
 此範例程式碼會使用下列介面。
 
@@ -182,7 +182,7 @@ PUMA 位於受保護環境 (PE) 中的個別進程。 在 Windows Vista 中，�
 
 3.  使用列舉程式所傳回之端點的 [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) 指標，來啟用所需的音訊串流 API 並準備進行串流。 不同的音訊 Api 需要稍微不同的準備工作。
     -   針對 DShow 音訊應用程式：
-        1.  藉由呼叫 [**IMMDevice：： Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) 並指定 IID \_ IBaseFilter 作為介面識別碼，以建立 DirectShow COM 物件。
+        1.  藉由呼叫 [**IMMDevice：： Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate)並指定 IID \_ IBaseFilter 作為介面識別碼，建立 DirectShow COM 物件。
             ```cpp
             IUnknown *pDShowFilter = NULL;
             ...
@@ -194,7 +194,7 @@ PUMA 位於受保護環境 (PE) 中的個別進程。 在 Windows Vista 中，�
 
             
 
-        2.  使用由裝置啟用的這個 COM 物件來建立 DirectShow 篩選圖形。 如需此程式的詳細資訊，請參閱 DirectShow SDK 檔中的「建立篩選圖形」。
+        2.  使用裝置啟動的這個 COM 物件來建立 DirectShow 的篩選圖形。 如需此程式的詳細資訊，請參閱 DirectShow SDK 檔中的 < 建立篩選 Graph」。
     -   針對 DSound 音訊應用程式：
         1.  藉由呼叫 [**IMMDevice：： Activate**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdevice-activate) 並指定 IID \_ IDirectSound8 作為介面識別碼，來建立 DSound COM 物件。
             ```cpp

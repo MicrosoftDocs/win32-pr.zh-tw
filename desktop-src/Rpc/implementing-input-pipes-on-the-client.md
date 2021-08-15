@@ -4,12 +4,12 @@ description: 使用輸入管道將資料從用戶端傳送到伺服器時，您�
 ms.assetid: e941a6be-ca91-42b1-9323-ffc63d521f6c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2810caa31c4932294797a5ed502c6f93d8613ea0
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f0301fc7324a982db81b6c728131762361cfce185f3d432f238ca2cf8d715546
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929117"
 ---
 # <a name="implementing-input-pipes-on-the-client"></a>在用戶端上執行輸入管道
 
@@ -126,6 +126,6 @@ SendLongs 函式會宣告輸入管道，並為數據源變數 globalPipeData 配
 [**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

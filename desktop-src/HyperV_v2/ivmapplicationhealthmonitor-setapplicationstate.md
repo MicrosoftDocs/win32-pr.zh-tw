@@ -81,7 +81,7 @@ HRESULT SetApplicationState(
 | 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                      |
 | 版本<br/>                  | Windows 8 的整合元件<br/>                                                           |
-| Idl<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>VmApplicationHealthMonitor .idl</dt> </dl> |
 
 
 

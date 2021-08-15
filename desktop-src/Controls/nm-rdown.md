@@ -6,12 +6,12 @@ keywords:
 - NM_RDOWN 通知碼 Windows 控制項
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bd9b77f15fb1343f1ec2b332b1f3706008489d7c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: bd07540527da86fdb3b586cf3bbb27cbd8f10b4e99c2e69d9e4f33fae2da0802
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108112296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957977"
 ---
 # <a name="nm_rdown-notification-code"></a>NM \_ RDOWN 通知碼
 

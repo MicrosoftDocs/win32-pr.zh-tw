@@ -4,12 +4,12 @@ ms.assetid: b69b554d-afdc-48ea-a8a6-45e4000993ac
 title: XMHALF4 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e323621a5ca45c39f63ef8b1522f94e25de6d741
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90c30175f64b6ee66e29603dbc5d78305352a561e427a3337800ca87fd10c4e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118501026"
 ---
 # <a name="xmhalf4-operators"></a>XMHALF4 運算子
 

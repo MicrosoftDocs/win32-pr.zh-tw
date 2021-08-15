@@ -4,18 +4,18 @@ ms.assetid: a38a1132-43b4-449d-b134-f351ce370223
 title: 以 URL 為基礎的 Windows Installer 安裝範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 57a210eb1b93202930309223b49c737aa85b1812
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 9c25fb4f84ff3507505be7f16675b8da39afd349cb1b4c78520ee3de004df749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "107001475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013326"
 ---
 # <a name="a-url-based-windows-installer-installation-example"></a>以 URL 為基礎的 Windows Installer 安裝範例
 
-此範例說明如何建立 Windows Installer 套件的 URL 型安裝。 如需保護安裝和使用數位憑證的詳細資訊，請參閱 [撰寫安全安裝](guidelines-for-authoring-secure-installations.md) 和 [數位簽章和 Windows Installer](digital-signatures-and-windows-installer.md)的指導方針。
+此範例說明如何建立 Windows Installer 套件的 URL 型安裝。 如需保護安裝和使用數位憑證的詳細資訊，請參閱[撰寫安全安裝](guidelines-for-authoring-secure-installations.md)和[數位簽章和 Windows Installer](digital-signatures-and-windows-installer.md)的指導方針。
 
-若要重現此範例，您需要 [SignTool](../seccrypto/signtool.md) 公用程式。 如需詳細資訊，請參閱 Microsoft Windows 軟體開發套件 (SDK) 中的 [CryptoAPI 工具參考](../seccrypto/cryptoapi-tools-reference.md) 。 您也需要[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)的[Msistuff.exe](msistuff-exe.md)和 Setup.exe 公用程式。 如需詳細資訊，請參閱 [網際網路下載](internet-download-bootstrapping.md)啟動載入。
+若要重現此範例，您需要 [SignTool](../seccrypto/signtool.md) 公用程式。 如需詳細資訊，請參閱 Microsoft Windows 軟體開發套件 (SDK) 中的[CryptoAPI 工具參考](../seccrypto/cryptoapi-tools-reference.md)。 您也需要[Windows Installer 開發人員 Windows SDK 元件](platform-sdk-components-for-windows-installer-developers.md)的[Msistuff.exe](msistuff-exe.md)和 Setup.exe 公用程式。 如需詳細資訊，請參閱 [網際網路下載](internet-download-bootstrapping.md)啟動載入。
 
 此範例具有下列規格：
 

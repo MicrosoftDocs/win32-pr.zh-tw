@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: dd4b858924e4b042b3d7a0636d90eb582e9506df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d892fd3f676183864d72d905b72cea2f01643211314fc293b1cd76e5d70fc237
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092695"
 ---
 # <a name="iuseridentity2changepassword-method"></a>IUserIdentity2：： ChangePassword 方法
 
@@ -45,16 +45,16 @@ HRESULT ChangePassword(
 *szOldPass* \[在\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 寬字元字串，其中包含目前與身分識別相關聯的密碼。
 
 </dd> <dt>
 
-_szNewPass * \[ in\]
+*szNewPass* \[在\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 包含要與身分識別相關聯之新密碼的寬字元字串。
 
@@ -62,7 +62,7 @@ _szNewPass * \[ in\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果這個方法成功，它會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -81,7 +81,7 @@ _szNewPass * \[ in\]
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

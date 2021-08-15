@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: ab77505cb67a98c6911c9525f54d2ba811c074fa
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 01e00c7e6612b1d13587d7c06cb9413093b480ad85bc6608007c05582e512bd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092256"
 ---
 # <a name="iinkanalysisrecognizersetashighestpriorityinkanalysisrecognizer-method"></a>IInkAnalysisRecognizer：： SetAsHighestPriorityInkAnalysisRecognizer 方法
 
@@ -47,7 +47,7 @@ HRESULT SetAsHighestPriorityInkAnalysisRecognizer();
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |

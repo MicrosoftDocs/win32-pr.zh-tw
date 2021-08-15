@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2abd8d42da196caa804a8919c6425fda9fcb950c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: bdb5dc93c5bb927ffb25df20f37e5b2c30560153efb006f3c91bf7e97efec360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104187322"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119012566"
 ---
 # <a name="inapservermanagementregistersystemhealthvalidator-method"></a>INapServerManagement：： RegisterSystemHealthValidator 方法
 
@@ -86,9 +86,9 @@ COM 類別 CLSID 的指標，該類別會實 [**INapSystemHealthValidator**](ina
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                               |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                               |
 | 標頭<br/>                   | <dl> <dt>NapServerManagement。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapServerManagement .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Qsvrmgmt.dll</dt> </dl>            |
 
 

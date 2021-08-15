@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: e15f28af892e713f8bd6897b2d75b6b227886ad1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 6190f27e13771180564a2b943e9db4b8f1437c2a46c1626f1a028015a3fc7a69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108111346"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950188"
 ---
 # <a name="requeststatechange-method-of-the-msvm_storagejob-class"></a>Msvm Get-storagejob 類別的 RequestStateChange 方法 \_
 

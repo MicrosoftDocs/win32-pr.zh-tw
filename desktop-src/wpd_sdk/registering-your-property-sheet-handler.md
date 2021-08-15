@@ -4,12 +4,12 @@ ms.assetid: 6621529c-717b-4f36-8d9e-769d6b720b8a
 title: 註冊您的屬性工作表處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6a59a03ebd13f5a541674012da7b07045e0a510
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91f1642c03a068a24b37cd5647bcdef63222ed2dbe5d78832daeea31e8abd67d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083532"
 ---
 # <a name="registering-your-property-sheet-handler"></a>註冊您的屬性工作表處理常式
 
@@ -27,14 +27,14 @@ HKEY_CLASSES_ROOT
 
 
 
-上述範例會使用 WPD 命名空間來註冊自訂處理常式。 當使用者透過 Windows Shell 以滑鼠右鍵按一下裝置上的影像檔案，並選取 [ **屬性**] 時，它會叫用這個屬性工作表處理常式。 WPD 命名空間會使用 WPD \_ 內容 \_ 類型來決定要載入的屬性工作表處理常式。 如果內容類型並未提供有用的分類，則命名空間會將屬性工作表處理常式載入 **WPDPropSheet 一般** 登錄機碼底下。 下表列出可供內容功能表處理常式使用的所有檔案類別，以及它們所代表的內容類型和副檔名。
+上述範例會使用 WPD 命名空間來註冊自訂處理常式。 當使用者透過 Windows Shell 以滑鼠右鍵按一下裝置上的影像檔案，並選取 [**屬性**] 時，它會叫用這個屬性工作表處理常式。 WPD 命名空間會使用 WPD \_ 內容 \_ 類型來決定要載入的屬性工作表處理常式。 如果內容類型並未提供有用的分類，則命名空間會將屬性工作表處理常式載入 **WPDPropSheet 一般** 登錄機碼底下。 下表列出可供內容功能表處理常式使用的所有檔案類別，以及它們所代表的內容類型和副檔名。
 
 
 
 | 登錄金鑰                   | WPD 內容類型                                                                                                               |
 |--------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | **WPDCoNtextMenu 裝置**      | 在此機碼下註冊可在裝置層級啟用您的內容功能表處理常式。  (在裝置上按一下滑鼠右鍵。 )                    |
-| **WPDCoNtextMenu**     | 在此機碼下註冊可在儲存層級啟用您的內容功能表處理常式。  (以滑鼠右鍵按一下儲存體。 )                  |
+| **WPDCoNtextMenu.儲存體**     | 在此機碼下註冊可在儲存層級啟用您的內容功能表處理常式。  (以滑鼠右鍵按一下儲存體。 )                  |
 | **WPDCoNtextMenu 資料夾**      | WPD \_ 內容 \_ 類型 \_ 資料夾                                                                                                     |
 | **WPDCoNtextMenu 影像**       | WPD \_ 內容 \_ 類型 \_ 影像                                                                                                      |
 | **WPDCoNtextMenu 音訊**       | WPD \_ 內容 \_ 類型 \_ 音訊                                                                                                      |

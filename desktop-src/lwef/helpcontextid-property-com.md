@@ -1,19 +1,19 @@
 ---
 title: '內容屬性 (命令物件) '
-description: 瞭解 Command 物件的 [上下文] 屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 瞭解 Command 物件的 [上下文] 屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 9e30e3f7-1d12-4aa1-af0d-5a3b30f57e83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461c3c0ff5a6722dd6740c7df7e89bf2b9520053
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: d38d0f725c0c809c70fa77b89d3608f8e713fd968c33bfb0192c712f3613e91a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118478705"
 ---
 # <a name="helpcontextid-property-command-object"></a>內容屬性 (命令物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -43,12 +43,12 @@ ms.locfileid: "112068506"
 
 ## <a name="remarks"></a>備註
 
-如果您已建立應用程式的 Windows 說明檔，並將字元的 [ [**檔案説明] 屬性設定**](helpfile-property.md) 為檔案，則當 [**HelpModeOn**](helpmodeon-property.md) 設定為 **True** 且使用者選取命令時，代理程式會自動呼叫說明。 如果您在 [協助工具] 中設定內容編號，Agent 會呼叫 [說明 [**]，並**](helpcontextid-property.md)搜尋目前內容編號所識別的主題。 目前的內容編號是 **命令的值** 為的值。
+如果您已為您的應用程式建立 Windows 說明檔，並將字元的 [內容協助 [**] 屬性設定**](helpfile-property.md)為檔案，則當 [**HelpModeOn**](helpmodeon-property.md)設定為 **True** 且使用者選取命令時，代理程式會自動呼叫說明。 如果您在 [協助工具] 中設定內容編號，Agent 會呼叫 [說明 [**]，並**](helpcontextid-property.md)搜尋目前內容編號所識別的主題。 目前的內容編號是 **命令的值** 為的值。
 
 這個屬性只適用于您的用戶端應用程式使用的字元;此設定不會影響用戶端應用程式中其他字元或其他字元的用戶端。
 
 > [!Note]  
-> 建立說明檔需要 Microsoft Windows 說明編譯器。
+> 建立說明檔需要 Microsoft Windows help 編譯器。
 
  
 

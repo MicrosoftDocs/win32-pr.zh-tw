@@ -3,7 +3,7 @@ title: 'WM_CTLCOLORLISTBOX 訊息 (Winuser .h) '
 description: 在系統繪製清單方塊之前，傳送至清單方塊的父視窗。 藉由回應此訊息，父視窗可以使用指定的顯示裝置內容控制碼，來設定清單方塊的文字和背景色彩。
 ms.assetid: e128e77f-e966-44c4-9f0e-efcf421b6c82
 keywords:
-- WM_CTLCOLORLISTBOX message Windows 控制項
+- WM_CTLCOLORLISTBOX 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e949af76bd05aa9ad3a3e720c89be33cfe76ed8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 1713c7251dfe837d5796b708fa5b77f0aa5e372c031c251199cb871dbd7c5608
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119077662"
 ---
 # <a name="wm_ctlcolorlistbox-message"></a>WM \_ CTLCOLORLISTBOX 訊息
 
@@ -71,9 +71,9 @@ WM_CTLCOLORLISTBOX
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

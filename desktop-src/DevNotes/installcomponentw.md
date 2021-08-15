@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msoobci.dll
-ms.openlocfilehash: 4d262322be6084429f03d5725f61c0e0f7140871
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9deaa460ec58ad0aa07af38aa03f53971068b4a6a1d43131e5473a7e4def908c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955917"
 ---
 # <a name="installcomponentw-function"></a>InstallComponentW 函式
 
@@ -60,7 +60,7 @@ void InstallComponentW(
 
 </dd> <dt>
 
-*Flags* \[in\]
+*旗標* \[在\]
 </dt> <dd>
 
 用來控制安裝行為的旗標。 這個參數可以是下列值的組合。
@@ -74,7 +74,7 @@ void InstallComponentW(
 | <span id="COMP_FLAGS_NO_OVERWRITE"></span><span id="comp_flags_no_overwrite"></span><dl> <dt>**COMP \_旗標 \_ 無 \_ 覆寫**</dt><dt></dt> </dl>                 | 如果例外狀況元件版本與已安裝的元件相同，則略過備份檔案。 此旗標用於重新安裝案例中。<br/> |
 | <span id="COMP_FLAGS_NOUI"></span><span id="comp_flags_noui"></span><dl> <dt>**COMP \_旗標 \_ NOUI**</dt> <dt>0x00000002</dt> </dl>                                | 隱藏所有 UI。<br/>                                                                                                                               |
 | <span id="COMP_FLAGS_UPDATE_DLLCACHE"></span><span id="comp_flags_update_dllcache"></span><dl> <dt>**COMP \_旗標 \_ 更新 \_ DLLCACHE**</dt><dt></dt> </dl>        | 當更新系統檔案時，強制更新 DLLCACHE 目錄。<br/>                                                                       |
-| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**COMP \_旗 \_ 標 \_ 使用 \_ SVCPACK**</dt>快取 <dt></dt> </dl> | 使用 Windows service pack 安裝所快取的檔案來取代備份的檔案。<br/>                                                                |
+| <span id="COMP_FLAGS_USE_SVCPACK_CACHE"></span><span id="comp_flags_use_svcpack_cache"></span><dl> <dt>**COMP \_旗 \_ 標 \_ 使用 \_ SVCPACK**</dt>快取 <dt></dt> </dl> | 使用 Windows service pack 安裝快取的檔案來取代備份的檔案。<br/>                                                                |
 
 
 
@@ -82,14 +82,14 @@ void InstallComponentW(
 
 </dd> <dt>
 
-*>vermajor* \[在中，選擇性\]
+*>Vermajor* \[在中，選擇性\]
 </dt> <dd>
 
 例外狀況元件的主要版本。
 
 </dd> <dt>
 
-*>verminor* \[在中，選擇性\]
+*>Verminor* \[在中，選擇性\]
 </dt> <dd>
 
 例外狀況元件的次要版本。
@@ -113,7 +113,7 @@ void InstallComponentW(
 *名稱* \[在中，選擇性\]
 </dt> <dd>
 
-如果作業系統偵測到 Windows 檔案保護保護檔案已損毀、遭篡改或損毀，Windows 檔案保護對話方塊所顯示之元件的描述性字串。
+如果作業系統偵測到 Windows 檔案保護保護檔案已損毀、遭篡改或損毀，Windows 檔案保護] 對話方塊所顯示之元件的描述性字串。
 
 </dd> </dl>
 
@@ -123,9 +123,9 @@ void InstallComponentW(
 
 ## <a name="remarks"></a>備註
 
-例外狀況套件是 Windows 系統檔案，這些檔案是在完整套件 Windows 版本之外發行，而且會更新作業系統檔案。 例外狀況套件只是由已獲得授權更新 Windows 系統檔案的作業系統小組所撰寫。
+例外狀況套件是在完整封裝之外發行的 Windows 系統檔案 Windows 版本和更新作業系統檔案。 例外狀況套件只是由已獲得授權更新 Windows 系統檔案的作業系統小組所撰寫。
 
-若要安裝和卸載未受 Windows 檔案保護保護的檔案，請使用 [一般安裝](https://msdn.microsoft.com/library/ms794585.aspx)函式中記載的功能。 若要安裝設備磁碟機，venders 應該使用 [裝置安裝功能](https://msdn.microsoft.com/library/ms792954.aspx) 和 [PnP 設定管理員](https://msdn.microsoft.com/library/ms790838.aspx)函式中記載的功能。
+若要安裝和卸載未受 Windows 檔案保護保護的檔案，請使用[一般安裝](https://msdn.microsoft.com/library/ms794585.aspx)函式中記載的功能。 若要安裝設備磁碟機，venders 應該使用 [裝置安裝功能](https://msdn.microsoft.com/library/ms792954.aspx) 和 [PnP 設定管理員](https://msdn.microsoft.com/library/ms790838.aspx)函式中記載的功能。
 
 此函數沒有相關聯的匯入程式庫或標頭檔;您必須使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) 函數來呼叫它。
 

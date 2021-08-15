@@ -1,6 +1,6 @@
 ---
 title: '內建提供者識別碼 (Fwpmu .h) '
-description: 內建于 Windows 篩選平台 (WFP) 提供者的識別碼會以 GUID 表示。
+description: 內建于 Windows 篩選平台 (WFP) 的提供者識別碼，都是由 GUID 表示。
 ms.assetid: 61bc1e2d-f6ee-45db-892f-c49680d27072
 topic_type:
 - apiref
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 060f6d63d703d7c91e5538b7bfdd8758ee2e1cde
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c8982fe6ebbe3f4cf5135f2b67f07826ddf9d3f970ca0568c7095931c617cdce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951307"
 ---
 # <a name="built-in-provider-identifiers"></a>內建提供者識別碼
 
-內建于 Windows 篩選平台 (WFP) 提供者的識別碼會以 GUID 表示。
+內建于 Windows 篩選平台 (WFP) 的提供者識別碼，都是由 GUID 表示。
 
 這些識別碼的定義如下。
 
@@ -98,8 +98,8 @@ ms.locfileid: "106965512"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Fwpmu。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: D116798F-E381-46D4-8271-8BD8CADC9D27
 title: 直接操作列舉
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: c697f5d8467afb58537475453b08dacfa8867fb0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 540d3b953a368ae335972d61d13c5866ffc14b40e17e83acd6fb19d5c1e15aa1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504330"
 ---
 # <a name="direct-manipulation-enumerations"></a>直接操作列舉
 

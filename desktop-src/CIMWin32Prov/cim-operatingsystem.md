@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5b4af54a0f086bee4b743b083c27a67777786bc4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 76dc59331d3e4fed7c2b79dd95de4ecef02d67d26ab4c9aa66df5d9d7d5a7215
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020986"
 ---
 # <a name="cim_operatingsystem-class"></a>CIM \_ 作業系統類別
 
@@ -111,7 +111,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 | 方法                                                           | 描述                                                                                                                            |
 |:-----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | [**重新啟動**](reboot-method-in-class-cim-operatingsystem.md)     | 關閉電腦系統的類別方法，然後重新開機它。 不是由 WMI 所執行。<br/>                                 |
-| [**關閉**](shutdown-method-in-class-cim-operatingsystem.md) | 將程式和 Dll 卸載至安全關閉電腦之點的類別方法。 不是由 WMI 所執行。<br/> |
+| [**關機**](shutdown-method-in-class-cim-operatingsystem.md) | 將程式和 Dll 卸載至安全關閉電腦之點的類別方法。 不是由 WMI 所執行。<br/> |
 
 
 
@@ -263,7 +263,7 @@ class CIM_OperatingSystem : CIM_LogicalElement
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 系統記憶體設定 \| 001.4 ") ， [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) (" kb ") 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 系統記憶體設定 \| 001.4 ") ，[**單位**](/windows/desktop/WmiSdk/standard-qualifiers) (" kb ") 
 </dt> </dl>
 
 可以對應到作業系統分頁檔的 kb 數目，而不會造成其他頁面交換。值為0表示沒有分頁檔案。
@@ -582,7 +582,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 
@@ -990,7 +990,7 @@ Mac OS 9
 存取類型：唯讀
 </dt> <dt>
 
-限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 系統記憶體設定 \| 001.3 ") ， [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) (" kb ") 
+限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| 系統記憶體設定 \| 001.3 ") ，[**單位**](/windows/desktop/WmiSdk/standard-qualifiers) (" kb ") 
 </dt> </dl>
 
 可以儲存在作業系統分頁檔案中的 kb 數。 此數位不代表磁片上分頁檔案的實際實際大小。 值為 0 (零) 表示沒有分頁檔案。
@@ -1117,7 +1117,7 @@ Mac OS 9
 限定詞： [**單位**](/windows/desktop/WmiSdk/standard-qualifiers) ( "kb" ) 
 </dt> </dl>
 
-交換空間總計（以 kb 為單位）。 如果交換空間與分頁檔不區分，則這個值可以是 null (未指定的) 。 不過，有些作業系統會區分這些概念。 例如，當免費頁面清單落在低於指定的數量時，就可以在 UNIX 中「交換」整個進程。
+交換空間總計（以 kb 為單位）。 如果交換空間與分頁檔不區分，則這個值可以是 null (未指定的) 。 不過，有些作業系統會區分這些概念。 例如，當免費頁面清單落在低於指定的數量時，會在 UNIX 中「交換」整個進程。
 
 如需在腳本中使用 **uint64** 值的詳細資訊，請參閱 [WMI 中的腳本](/windows/desktop/WmiSdk/creating-a-wmi-script)。
 

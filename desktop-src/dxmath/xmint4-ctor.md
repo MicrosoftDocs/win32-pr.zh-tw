@@ -4,12 +4,12 @@ ms.assetid: 8b4084b1-513f-4de7-94ac-1bbafb5ba042
 title: 'XMINT4 函式 (Directxmath) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: d26084965b3825418a4ce8d76ac5396553b807e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b9c77e44ffced552af4592667813435200989cb52d322549031fd63620b24b28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500035"
 ---
 # <a name="xmint4-constructors"></a>XMINT4 函式
 

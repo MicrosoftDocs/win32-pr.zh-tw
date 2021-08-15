@@ -3,7 +3,7 @@ title: 'CB_SELECTSTRING 訊息 (Winuser .h) '
 description: 在下拉式方塊清單中搜尋以指定字串中的字元開頭的專案。 如果找到相符的專案，就會選取它，並將其複製到編輯控制項。
 ms.assetid: c08dff72-7e44-40ed-8b64-513359292829
 keywords:
-- CB_SELECTSTRING message Windows 控制項
+- CB_SELECTSTRING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2913b95c02cdfd3c7a9c96a8652038a04d8fde8f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4bedef20646664e37405c97a97f9e49147cad8acc08c05e33172e44a34298f5f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019966"
 ---
 # <a name="cb_selectstring-message"></a>CB \_ SELECTSTRING 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "104025081"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

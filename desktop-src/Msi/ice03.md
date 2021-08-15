@@ -4,12 +4,12 @@ ms.assetid: e9be1c09-8468-4956-9aa0-12383ade4718
 title: ICE03
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 017c13ee568a0efe4d88c28594fb568a7b4a0736
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4814bb8023b32c85e752201909f77bd851ec3545c907c03e1c2349a34117d4e3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946642"
 ---
 # <a name="ice03"></a>ICE03
 

@@ -38,7 +38,7 @@ ms.locfileid: "118886834"
 | 線條              | **PIDDSI \_ LINECOUNT**   | 0x00000005                | **VT \_ I4**                        |
 | 段落         | **PIDDSI \_ PARCOUNT**    | 0x00000006                | **VT \_ I4**                        |
 | 投影片             | **PIDDSI \_ SLIDECOUNT**  | 0x00000007                | **VT \_ I4**                        |
-| 附註              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_ I4**                        |
+| 備註              | **PIDDSI \_ NOTECOUNT**   | 0x00000008                | **VT \_ I4**                        |
 | HiddenSlides       | **PIDDSI \_ HIDDENCOUNT** | 0x00000009                | **VT \_ I4**                        |
 | MMClips            | **PIDDSI \_ MMCLIPCOUNT** | 0x0000000A                | **VT \_ I4**                        |
 | ScaleCrop          | **PIDDSI \_ SCALE**       | 0x0000000B                | **VT \_ BOOL**                      |

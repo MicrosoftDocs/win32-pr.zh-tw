@@ -1,19 +1,19 @@
 ---
-description: 本主題是在 DirectShow 中進行音訊/影片播放教學課程的步驟5。
+description: 本主題是 DirectShow 中音訊/影片播放教學課程的步驟5。
 ms.assetid: 9d7a40e0-4327-4ca3-b430-2be02f80c16f
 title: 步驟5：新增影片功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71f5ccf1ae3ca24a705506bc41620ac53a13d7e8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 968c35916f90f226305eb987058d14cc7891d250961e2b8a41a1756ec3794b1e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194226"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951777"
 ---
 # <a name="step-5-add-video-functionality"></a>步驟5：新增影片功能
 
-本主題是 [在 DirectShow 中進行音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟5。 完整的程式碼會顯示在「 [DirectShow 播放」範例](directshow-playback-example.md)中。
+本主題是[DirectShow 中音訊/影片播放](audio-video-playback-in-directshow.md)教學課程的步驟5。 完整的程式碼會顯示在[DirectShow 播放範例](directshow-playback-example.md)的主題中。
 
 為確保影片正確顯示，應用程式必須回應 [**wm \_ 油漆**](../gdi/wm-paint.md)、 [**WM \_ 大小**](../winmsg/wm-size.md)和 [**wm \_ DISPLAYCHANGE**](../gdi/wm-displaychange.md) 訊息，如下所示。
 
@@ -200,19 +200,19 @@ HRESULT CVMR7::DisplayModeChanged()
 
 當顯示模式變更時，不需要通知 EVR。
 
-下一 [步：步驟6：處理圖形事件](step-6--handle-graph-events.md)。
+下一[步：步驟6：處理 Graph 事件](step-6--handle-graph-events.md)。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> <dt>
 
-[使用 DirectShow EVR 篩選器](../medfound/using-the-directshow-evr-filter.md)
+[使用 DirectShow EVR 篩選](../medfound/using-the-directshow-evr-filter.md)
 </dt> <dt>
 
 [使用影片混合轉譯器](using-the-video-mixing-renderer.md)

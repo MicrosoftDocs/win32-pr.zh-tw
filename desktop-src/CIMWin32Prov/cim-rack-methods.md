@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Rack 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 994540d8dc337d712a0e33881a83f068a7b3c434
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a422ac043b9744cec9236e8337c2c519ba19d09080d0b248a3bdf47a8d45f64d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080302"
 ---
 # <a name="cim_rack-methods"></a>CIM \_ 機架方法
 

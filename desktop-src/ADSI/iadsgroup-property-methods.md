@@ -18,12 +18,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 665cb91a55298012e4e906c2972da5371e3960be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f15a55765a10afef10087e7b28d04304ab0cc2668915a6e6ffa71fc770eb54a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119082402"
 ---
 # <a name="iadsgroup-property-methods"></a>IADsGroup 屬性方法
 
@@ -67,7 +67,7 @@ HRESULT put_Description(
 
 ### <a name="using-iadsgroup-to-retrieve-descriptions-of-built-in-groups"></a>使用 IADsGroup 來取出內建組的描述
 
-下列範例示範如何依名稱抓取 Windows 群組物件的相關資訊。 在多國語言環境中，內建組有時候是由不同的當地語系化名稱所知道，這表示無法使用 "WinNT://Microsoft/Administrators" 之類的字串識別碼直接取出它們。 在這種情況下，使用者可以系結至該群組已知的 SID 物件、取出當地語系化的組名，然後將其提供給 GetObject 方法。 如需詳細資訊，請參閱 [知名的 sid](/windows/desktop/SecAuthZ/well-known-sids)。
+下列範例示範如何依名稱取得 Windows 群組物件的相關資訊。 在多國語言環境中，內建組有時候是由不同的當地語系化名稱所知道，這表示無法使用 "WinNT://Microsoft/Administrators" 之類的字串識別碼直接取出它們。 在這種情況下，使用者可以系結至該群組已知的 SID 物件、取出當地語系化的組名，然後將其提供給 GetObject 方法。 如需詳細資訊，請參閱 [知名的 sid](/windows/desktop/SecAuthZ/well-known-sids)。
 
 ## <a name="examples"></a>範例
 

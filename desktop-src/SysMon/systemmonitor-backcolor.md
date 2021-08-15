@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: eecbdf6ceaf9938a1b5a607a67410ddc6d05438b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: cb01c28b7e8eebe476416934a4d89dee461e0ed5c2ccf6e968b4db0c38178e1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464481"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882954"
 ---
 # <a name="systemmonitorbackcolor-property"></a>SystemMonitor 背景屬性
 

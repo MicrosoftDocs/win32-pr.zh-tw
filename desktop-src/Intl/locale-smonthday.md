@@ -4,12 +4,12 @@ ms.assetid: 24f548fd-20b6-4428-a840-900803399a5a
 title: LOCALE_SMONTHDAY
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bcb192184840925a86b4954fa6e3ec489880406
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ec985ed6d4dff22d33b885ccfb5b2db553f1f104d000a19c3d9dba297f9e908d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118948447"
 ---
 # <a name="locale_smonthday"></a>地區設定 \_ SMONTHDAY
 

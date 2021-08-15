@@ -4,12 +4,12 @@ description: 提供解決 SSO 密碼變更行為的逐步方法。
 ms.assetid: c52ffeb8-ecee-4398-a7df-388b523c737c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 005fe5191b3bdccf2bb1643be50817a3b0405336
-ms.sourcegitcommit: c20a43b333f03175ac23823c55f3204bfe8cd243
+ms.openlocfilehash: d438dd41466809805f159fde4a2db698d11b1f7899e48e1f96ccce2c811111cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "106967463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119042796"
 ---
 # <a name="sso-password-change-behavior"></a>SSO 密碼變更行為
 
@@ -29,7 +29,7 @@ ms.locfileid: "106967463"
     > [!Note]  
     > [**EAP \_ UI \_ 輸入 \_ 欄位 \_ .props \_ 唯讀 \_**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_config_input_field_data)旗標適用于需要變更的成員欄位 (s) 。
 
-     
+     
 
 -   在收集 UI 內容資訊之後，UI 程式會呈現 UI 來收集使用者的變更密碼資訊。 這項資訊會填入 [**EAP 認證 \_ \_ 到期 \_ 需求**](/windows/desktop/api/eaptypes/ns-eaptypes-eap_cred_expiry_req)結構的 *NewCreds* 參數中。
 -   UI 進程會透過 [**EapHostPeerQueryUIBlobFromInteractiveUIInputFields**](/previous-versions/windows/desktop/api/eaphostpeerconfigapis/nf-eaphostpeerconfigapis-eaphostpeerqueryuiblobfrominteractiveuiinputfields)將 [**EAP 認證 \_ \_ RESP**](eap-cred-resp.md)結構傳回 EAPHost。
@@ -45,9 +45,9 @@ ms.locfileid: "106967463"
 [SSO 和 PLAP](understanding-sso-and-plap.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

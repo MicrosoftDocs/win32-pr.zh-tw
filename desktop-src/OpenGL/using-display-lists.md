@@ -7,12 +7,12 @@ keywords:
 - 顯示清單 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 793ec78af0b19ac437e44f16e13b93db6eab32a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 322721868f3bf994382a7604aa2cb76802f268aec7a1298aaa14e3066d5f6cce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932798"
 ---
 # <a name="using-display-lists"></a>使用顯示清單
 
@@ -25,9 +25,9 @@ ms.locfileid: "103839700"
 [顯示清單參考](display-lists-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

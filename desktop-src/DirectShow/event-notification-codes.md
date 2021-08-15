@@ -4,26 +4,26 @@ ms.assetid: 339ffcd9-7724-4c92-b241-afbed81d9380
 title: 事件通知碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9c41abc3ffc7a93a39e7a97fb210b491ad4fc58
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 54792e433535ceefad416033d7758f4398b7777951173256c9be9b83913d61f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015786"
 ---
 # <a name="event-notification-codes"></a>事件通知碼
 
 這幾節列出並非 DVD 專用的 DirectShow 事件。 如需 DVD 的特定事件，請參閱 [Dvd 事件通知碼](dvd-notification-codes.md)。
 
-篩選準則會藉由呼叫 [**IMediaEventSink：： Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify) 方法，將事件傳送至篩選圖形管理員。 篩選圖形管理員會處理一些事件，並將應用程式的其他事件排在佇列中。 應用程式會藉由呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) 方法來抓取它們。
+篩選準則會藉由呼叫 [**IMediaEventSink：： Notify**](/windows/desktop/api/Strmif/nf-strmif-imediaeventsink-notify)方法，將事件傳送至篩選 Graph 管理員。 篩選 Graph 管理員會處理一些事件，並將應用程式的其他事件排在佇列中。 應用程式會藉由呼叫 [**IMediaEvent：： GetEvent**](/windows/desktop/api/Control/nf-control-imediaevent-getevent) 方法來抓取它們。
 
-在接下來的各節中，每個專案都會列出事件程式碼、事件參數的意義，以及事件的篩選圖形管理員的預設動作（如果有的話）。 若要覆寫預設動作，請呼叫 [**IMediaEvent：： CancelDefaultHandling**](/windows/desktop/api/Control/nf-control-imediaevent-canceldefaulthandling)。 事件代碼會定義在標頭檔 Evcode .h 和 Audevcod 中。 如果沒有預設動作，則篩選圖形管理員會透過事件佇列) ，自動將事件轉送至應用程式 (。
+在接下來的各節中，每個專案會列出事件程式碼、事件參數的意義，以及事件 Graph 管理員的預設動作（如果有的話）。 若要覆寫預設動作，請呼叫 [**IMediaEvent：： CancelDefaultHandling**](/windows/desktop/api/Control/nf-control-imediaevent-canceldefaulthandling)。 事件代碼會定義在標頭檔 Evcode .h 和 Audevcod 中。 如果沒有預設動作，則篩選 Graph 管理員會透過事件佇列) ，自動將事件轉送至應用程式 (。
 
 **自訂事件**
 
-篩選準則可以定義事件代碼範圍為 EC \_ 使用者及更高範圍的自訂事件。 篩選圖形管理員會將這些專案直接放在事件佇列中。 但是，下列注意事項適用：
+篩選準則可以定義事件代碼範圍為 EC \_ 使用者及更高範圍的自訂事件。 篩選 Graph 管理員會直接將這些專案放在事件佇列中。 但是，下列注意事項適用：
 
--   篩選圖形管理員無法使用一般 [**IMediaEvent：： FreeEventParams**](/windows/desktop/api/Control/nf-control-imediaevent-freeeventparams) 方法釋放事件參數。 應用程式必須釋放任何與事件參數相關聯的記憶體或參考計數。
+-   篩選 Graph 管理員無法使用一般 [**IMediaEvent：： FreeEventParams**](/windows/desktop/api/Control/nf-control-imediaevent-freeeventparams)方法釋放事件參數。 應用程式必須釋放任何與事件參數相關聯的記憶體或參考計數。
 -   篩選器只應從已準備處理事件的應用程式中傳送事件。  (可能的應用程式可以設定篩選器上的自訂屬性，以表示可以安全地傳送事件。 ) 
 
 

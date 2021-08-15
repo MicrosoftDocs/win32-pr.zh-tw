@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_DiskPartition 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ba7887f86f215634674b0bd5c5ae3a90658b5be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c26d2cd0baa54b63c07eb551cc2543c9c789ed3149361fc2bbbe1b8abe614dba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119080692"
 ---
 # <a name="cim_diskpartition-methods"></a>CIM \_ DiskPartition 方法
 

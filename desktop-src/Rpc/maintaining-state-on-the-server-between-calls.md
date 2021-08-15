@@ -6,12 +6,12 @@ keywords:
 - 遠端程序呼叫 RPC、最佳作法、維護呼叫之間的狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00090fb317cba8c33e7b60ac81762d7d21dd4dc9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e564acbb4748cd76988c1b064a58ede2169d3d20da4033774f3141883a7193bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118928583"
 ---
 # <a name="maintaining-state-on-the-server-between-calls"></a>在呼叫之間維護伺服器上的狀態
 
@@ -29,9 +29,9 @@ ms.locfileid: "103670991"
 
 如果用戶端失敗，伺服器將會收到通知，並使用執行下機制來清除其內容控制碼。
 
- 
+ 
 
- 
+ 
 
 
 

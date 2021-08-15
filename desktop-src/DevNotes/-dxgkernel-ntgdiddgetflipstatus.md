@@ -16,12 +16,12 @@ api_location:
 - Ext-MS-Win-GDI-Internal-Desktop-L1-1-0.dll
 - GDI32.dll
 - GDI32Full.dll
-ms.openlocfilehash: 49ef59fd110c315b3111252084a3c60ddf4cd598
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4e309d5bdda6e6c18145a36902bd8b4927fab7c11bf314f88571c4f0de4b7dc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118956337"
 ---
 # <a name="ntgdiddgetflipstatus-function"></a>NtGdiDdGetFlipStatus 函式
 

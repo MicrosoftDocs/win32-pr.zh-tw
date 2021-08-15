@@ -4,12 +4,12 @@ ms.assetid: 15edded0-207c-41e8-81fe-deb6335045eb
 title: 裝置傳輸狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 05f52ea846c79be6cb2d011b635da358f7ecd0a2
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 99ea7c3d6cba8363826c0fdab3cf411f0d68d6e284832a75c02cac3b1eefa770
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104385842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952947"
 ---
 # <a name="device-transport-state"></a>裝置傳輸狀態
 

@@ -28,7 +28,7 @@ ms.locfileid: "118719530"
 -   [建立範例](#building-the-sample)
 -   [執行範例](#running-the-sample)
 
-## <a name="description"></a>描述
+## <a name="description"></a>Description
 
 這個範例示範如何使用 DropTarget 方法來執行 Shell 動詞命令。 這是必須在 Windows XP 上運作的動詞執行的慣用方法。 此範例會將獨立本機伺服器元件物件模型 (COM) 物件中，但必須將動詞執行整合至現有的應用程式。 若要這樣做，您的主要應用程式物件會自行註冊 class factory。 該物件會針對您的應用程式動詞來實行 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) 。 請注意，如果您的應用程式尚未執行，COM 會啟動應用程式，但如果有的話，則會連接到應用程式的執行中實例。
 
@@ -36,7 +36,7 @@ ms.locfileid: "118719530"
 
 
 
-| Product                                | 最小產品版本 |
+| 產品                                | 最小產品版本 |
 |----------------------------------------|-------------------------|
 | Windows                                | Windows Vista           |
 | Windows Software Development Kit (SDK) | 7.0                     |

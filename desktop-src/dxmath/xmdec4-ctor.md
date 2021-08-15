@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 494036c2d0b42dbcc2938f7edcc1516608376766
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e2865b6b685d432cec4cd7f9e74d05b3579116881a4885f36edac9135691b82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984648"
 ---
 # <a name="xmdec4-constructors"></a>XMDEC4 函式
 

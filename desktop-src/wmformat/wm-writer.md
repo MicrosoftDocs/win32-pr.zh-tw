@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b06066a7c23fedefe9b81db137c8c5dbf22e459d
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 403c9bb29bce2317e9571819abe4288f261adbbec80685f9df40bf79ad54d005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083842"
 ---
 # <a name="wmwriter"></a>WM/Writer
 
@@ -38,9 +38,9 @@ g \_ wszWMWriter
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Qedit.h
-ms.openlocfilehash: 09923d6be01bdf4a213db645a34b038dda15d86f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 55d7c70dffbf57ae4d9788a10dfea02911a998e21ab5ea8e3d9ad7fffcf91624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106976171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952937"
 ---
 # <a name="dexterf_track_search_flags-enumeration"></a>DEXTERF \_ 追蹤 \_ 搜尋 \_ 旗標列舉
 

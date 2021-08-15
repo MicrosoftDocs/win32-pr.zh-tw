@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0ae0e48db8fe3ee4f014318ba48a26dc983124e2
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 45f8c4ba665de17d50169e5af6d4be6d530864978393ff5e6f2a606c30fb07f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118473440"
 ---
 # <a name="getstreampropertiesoperation-class"></a>GetStreamPropertiesOperation 類別
 
