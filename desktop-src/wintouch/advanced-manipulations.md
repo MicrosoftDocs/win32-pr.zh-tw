@@ -3,19 +3,19 @@ title: Advanced 操作
 description: 查看登陸頁面，以取得應用程式的 advanced 操作。 請參閱總覽、擴充、旋轉和轉譯頁面的連結。
 ms.assetid: 8a1cff27-b2c0-4e72-9f4c-df656059953f
 keywords:
-- Windows Touch，操作
-- Windows Touch，advanced 操作
-- Windows Touch，複雜的操作
+- Windows觸控、操作
+- WindowsTouch，advanced 操作
+- Windows觸控、複雜的操作
 - 操作，advanced
 - 操作，複雜
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 48c059ad30a338fe5d413ff6c7e6e7f2e9383dc9
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 2489e86247287331880d338ff1ddf9383656be07bf3834dfc23ef68e38c63ae8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406321"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118199641"
 ---
 # <a name="advanced-manipulations"></a>Advanced 操作
 

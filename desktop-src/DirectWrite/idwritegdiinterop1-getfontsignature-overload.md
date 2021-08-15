@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: c73ef32356de0ed5e1cf0b722368c674606f2058
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0ae65dc978fc6644248aa36dc72f215b4a39f2ad69fe167f08707bcb81f5636b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117816369"
 ---
 # <a name="idwritegdiinterop1getfontsignature-methods"></a>IDWriteGdiInterop1：： GetFontSignature 方法
 

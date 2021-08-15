@@ -4,12 +4,12 @@ description: 本文提供 Direct3D 應用程式開發人員如何藉由直接操
 ms.assetid: 48ae49f0-1162-c292-4bd4-34da5aadd2df
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2b97a87293a840ccd9641b1418c2005cf73a855
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: b6377e3b17cfb4ceb6eda1f4cf59a93c12fd3e6b2f7e43f29f622ed6ee12c271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "103853208"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118152332"
 ---
 # <a name="the-direct3d-transformation-pipeline"></a>Direct3D 轉換管線
 
@@ -17,7 +17,7 @@ ms.locfileid: "103853208"
 
 -   [概觀](#overview)
 -   [轉換管線](#the-transformation-pipeline)
--   [使用秘訣](#usage-tips)
+-   [使用量提示](#usage-tips)
 
 ## <a name="overview"></a>概觀
 
@@ -155,7 +155,7 @@ View 轉換控制從全局座標轉換成「相機空間」，以決定世界中
 
     ![計算並傳遞至轉譯器的螢幕座標](images/d3dxfrm69.gif)
 
-## <a name="usage-tips"></a>使用秘訣
+## <a name="usage-tips"></a>使用量提示
 
 以下是如何使用 Direct3D 轉換管線的一些秘訣：
 

@@ -7,12 +7,12 @@ keywords:
 - Active Directory 架構 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7965232dd756272eb016ca251aa29716a22a088a
-ms.sourcegitcommit: 8ea1a82717bd3dbb3457be0697329aa37fb13f08
+ms.openlocfilehash: 0a12d18012abf3e2cf9fc9fdd6831be34d62c88279ad78a0e351534d1899e062
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "103679456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183967"
 ---
 # <a name="schema-ad-ds"></a>架構 (AD DS) 
 
@@ -22,9 +22,9 @@ Active Directory 架構可以動態更新。 也就是說，應用程式可以�
 
 如需詳細資訊，請參閱 [Active Directory 架構](active-directory-schema.md)。
 
- 
+ 
 
- 
+ 
 
 
 

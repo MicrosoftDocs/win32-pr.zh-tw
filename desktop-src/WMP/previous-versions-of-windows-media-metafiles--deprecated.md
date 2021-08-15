@@ -1,13 +1,13 @@
 ---
-title: '舊版的 Windows Media 中繼檔 (已淘汰) '
-description: '舊版的 Windows Media 中繼檔 (已淘汰) '
+title: '舊版 Windows 媒體中繼檔 (已淘汰) '
+description: '舊版 Windows 媒體中繼檔 (已淘汰) '
 ms.assetid: f93b9735-6aa3-48ed-ae80-0485acea3167
 keywords:
-- Windows Media 中繼檔，版本
+- Windows媒體中繼檔，版本
 - 中繼檔，版本
-- Windows Media 中繼檔，舊版
+- Windows媒體中繼檔，之前的版本
 - 中繼檔，舊版
-- Windows Media 中繼檔的版本
+- Windows 媒體中繼檔的版本
 ms.topic: article
 ms.date: 05/31/2018
 topic_type:
@@ -15,18 +15,18 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 79020b282180f0e17b438cbc52f6ed2fe2a4f559
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 35e46d7fb6a896b9d2ca841ac0cc83cc4875d5ac863f7cd5be520460e0f492ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021098"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334491"
 ---
-# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>舊版的 Windows Media 中繼檔 (已淘汰) 
+# <a name="previous-versions-of-windows-media-metafiles-deprecated"></a>舊版 Windows 媒體中繼檔 (已淘汰) 
 
-本主題說明在目前版本的 Windows Media 中繼檔中不再使用的功能。
+本主題說明目前版本的 Windows 媒體中繼檔中不再使用的功能。
 
-本節說明第2版 Windows Media 中繼檔的一部分。 第2版不是 Windows Media 中繼檔的最新版本，但在某些情況下，Windows Media Services 會提供版本2格式的中繼檔給用戶端。 Windows Media 中繼檔也稱為 Advanced Stream 重新導向程式， (ASX) 檔。
+本節記載 Windows 媒體中繼檔第2版的一部分。 第2版不是 Windows 媒體中繼檔的最新版本，但在某些情況下，Windows Media Services 會提供版本2格式的中繼檔給用戶端。 Windows媒體中繼檔也稱為 Advanced Stream 重新導向程式， (ASX) 檔。
 
 本節記載下列專案。
 
@@ -39,18 +39,18 @@ ms.locfileid: "104021098"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media 中繼檔**](windows-media-metafiles.md)
+[**Windows媒體中繼檔**](windows-media-metafiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

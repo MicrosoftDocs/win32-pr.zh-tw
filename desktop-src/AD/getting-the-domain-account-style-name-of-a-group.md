@@ -7,12 +7,12 @@ keywords:
 - 群組廣告，取得網域帳戶樣式的群組名稱
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8758e61072b862f7c4cd1581b8d54dafb38915be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1cc1b5a076ab3e63059fb79fa784039a8fb2ffb0b1c6396392140b64fa36e16f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189087"
 ---
 # <a name="getting-the-domain-account-style-name-of-a-group"></a>取得群組的網域 Account-Style 名稱
 
@@ -27,7 +27,7 @@ ms.locfileid: "103839319"
 
 其中 " <domain> " 是包含使用者 Windows NT 網域的名稱，而 " <account> " 是指定使用者的 **samAccountName** 屬性。 例如： "Fabrikam \\ jeffsmith"。
 
-網域帳戶表單可以在安全描述項中指定 ACE 內的信任者。 它也會用於執行 Windows 版本 NT 4.0 及更早版本之電腦上的登入名稱。
+網域帳戶表單可以在安全描述項中指定 ACE 內的信任者。 它也會用於執行 Windows NT 4.0 版或更早版本之電腦上的登入名稱。
 
 
 ```C++
@@ -126,9 +126,9 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

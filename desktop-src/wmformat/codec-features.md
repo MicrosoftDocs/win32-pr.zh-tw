@@ -3,21 +3,21 @@ title: 編解碼器功能
 description: 編解碼器功能
 ms.assetid: e0bbdf75-2369-4080-ae8e-aabaa8401dcf
 keywords:
-- Windows Media Format SDK，編解碼器功能
-- Windows Media Format SDK，功能
+- Windows媒體格式 SDK，編解碼器功能
+- Windows媒體格式 SDK，功能
 - 編解碼器，功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02e3623bcb6f338fe11bef3089705801dc3ea047
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e7546573077134d23f2115ce09088bcbb1027d6125a86b87faadb615e27730c8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849159"
 ---
 # <a name="codec-features"></a>編解碼器功能
 
-Windows Media Format SDK 會以數個音訊和影片編解碼器傳遞。 您可以使用提供的編解碼器來壓縮和解壓縮內容，以符合各種需求。 寫入器用來壓縮資料的編解碼器是由設定檔中的串流設定資訊所指定。 然後，來自設定檔的資訊會儲存在寫入器所建立之檔案的標頭中。 然後，當讀取器或同步讀取器開啟檔案時，標頭中的設定檔資訊就會識別解壓縮資料所需的編解碼器。
+Windows 媒體格式 SDK 會以數個音訊和影片編解碼器傳遞。 您可以使用提供的編解碼器來壓縮和解壓縮內容，以符合各種需求。 寫入器用來壓縮資料的編解碼器是由設定檔中的串流設定資訊所指定。 然後，來自設定檔的資訊會儲存在寫入器所建立之檔案的標頭中。 然後，當讀取器或同步讀取器開啟檔案時，標頭中的設定檔資訊就會識別解壓縮資料所需的編解碼器。
 
 本節將討論下列功能。
 
@@ -40,9 +40,9 @@ Windows Media Format SDK 會以數個音訊和影片編解碼器傳遞。 您可
 [**特性**](features.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -21,12 +21,12 @@ keywords:
 - 預先定義的 UI 元素
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b7354a88fb28fd0d6bf5f4180ac23359a2117fe7
-ms.sourcegitcommit: ee06501cc29132927ade9813e0888aaa4decc487
+ms.openlocfilehash: fdac8e43cc8342c50a6d232b801af0c65315fd407b9f413f2b5fdcb7074282fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/28/2021
-ms.locfileid: "104556276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117949853"
 ---
 # <a name="uiless-mode-overview"></a>UILess 模式總覽
 

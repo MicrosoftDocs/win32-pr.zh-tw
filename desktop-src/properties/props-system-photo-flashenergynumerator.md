@@ -4,18 +4,18 @@ ms.assetid: 66d1f000-124a-4584-ae66-7d293333a7be
 title: FlashEnergyNumerator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 591dbf9e91246e9195ecfbfa227a0f06cc90a7cb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 049d35f96291dc82d09e4f275d97957eeaf4cd34f8dd93e59c60a7b48cdb1260
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513268"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229846"
 ---
 # <a name="systemphotoflashenergynumerator"></a>FlashEnergyNumerator
 
 PKEY \_ 相片 FlashEnergy 的分子 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

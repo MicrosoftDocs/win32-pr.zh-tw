@@ -4,16 +4,16 @@ ms.assetid: 78cd05a4-df33-42b5-91b9-826ebce04a1d
 title: 預設程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f8cd741794189e47888f4daa1d4585b2d8942cf
-ms.sourcegitcommit: 1a97e0e0f92d4dcc2fb68738b910ba3910508df3
+ms.openlocfilehash: 0f1cd54afe23291c191fdd045ca3cb42b68361aa8f7f3d8ef431042cfe9f5c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/19/2021
-ms.locfileid: "103853176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861355"
 ---
 # <a name="default-programs"></a>預設程式
 
-使用 **預設程式** 來設定預設的使用者體驗。 使用者可以從主控台或直接從 [**開始**] 功能表存取 **預設程式**。 [設定程式存取和電腦預設值 (SPAD)](cpl-setprogramaccess.md) 工具（Windows XP 中的使用者主要預設體驗）現在是 **預設程式** 的一部分。
+使用 **預設程式** 來設定預設的使用者體驗。 使用者可以從主控台或直接從 [**開始**] 功能表存取 **預設程式**。 [設定程式存取和電腦預設值 (SPAD)](cpl-setprogramaccess.md)工具（Windows XP 中的使用者主要預設體驗）現在是 **預設程式** 的一部分。
 
 > [!IMPORTANT]
 > 本主題不適用於 Windows 10。 預設檔案關聯在 Windows 10 中的運作方式有所變更。 如需詳細資訊，請參閱 [這篇文章](https://blogs.windows.com/windowsexperience/2015/05/20/announcing-windows-10-insider-preview-build-10122-for-pcs/)中有關 **Windows 10 如何處理預設應用程式的變更** 一節。
@@ -40,7 +40,7 @@ ms.locfileid: "103853176"
 
 ## <a name="introduction-to-default-programs-and-its-related-api-set"></a>預設程式及其相關的 API 集合簡介
 
-**預設程式** 主要是針對使用標準檔案類型的應用程式所設計，例如 mp3 或 .jpg 檔案或標準通訊協定，例如 HTTP 或 mailto。 使用專屬通訊協定和檔案關聯的應用程式通常不會使用 **預設的程式** 功能。
+**預設程式** 主要是針對使用標準檔案類型的應用程式所設計，例如 .mp3 或 .jpg 檔案或標準通訊協定，例如 HTTP 或 mailto。 使用專屬通訊協定和檔案關聯的應用程式通常不會使用 **預設的程式** 功能。
 
 針對 **預設程式** 功能註冊應用程式之後，您可以使用 API 集來使用下列選項和功能：
 
@@ -122,9 +122,9 @@ HKEY_LOCAL_MACHINE
 
 ### <a name="progids"></a>Progid
 
-應用程式必須提供特定的 [ProgID](fa-progids.md)。 請務必包含通常寫入延伸模組之一般預設子機碼中的所有資訊。 例如，虛構的 Litware media player 會提供應用程式特定的 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **類別** \\ **LitwarePlayer11.AssocFile.MP3** 子機碼。 該子機碼包含一般預設子 **機碼 HKEY \_ 本機 \_ 電腦** 軟體類別中的所有資訊 \\  \\  \\ **。 mp3** 加上您想要應用程式註冊的任何其他資訊。 如此可確保當使用者將 mp3 關聯還原到 Litware 播放程式時，Litware 播放程式的資訊不會完整，也不會被另一個應用程式覆寫。 如果預設子機碼是該資訊的唯一來源，則可能會發生 (覆寫。 ) 
+應用程式必須提供特定的 [ProgID](fa-progids.md)。 請務必包含通常寫入延伸模組之一般預設子機碼中的所有資訊。 例如，虛構的 Litware media player 會提供應用程式特定的 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **類別** \\ **LitwarePlayer11.AssocFile.MP3** 子機碼。 該子機碼包含一般預設子 **機碼 HKEY \_ 本機 \_ 電腦** 軟體類別中的所有資訊 \\  \\  \\ **.mp3** 以及您想要應用程式註冊的任何其他資訊。 如此可確保當使用者將 .mp3 關聯還原至 Litware 播放程式時，Litware 播放程式的資訊不會完整，也不會被另一個應用程式覆寫。 如果預設子機碼是該資訊的唯一來源，則可能會發生 (覆寫。 ) 
 
-當您將 ProgID 對應至副檔名或通訊協定時，應用程式可以對應到一或多個。 在 Contoso 範例中，ContosoHTML 會指向提供 .htm、.html、. >.shtml、xht 和 xhtml 副檔名 shellexecute 資訊的單一 ProgID。 因為每個通訊協定都有不同的 ProgID，所以當您使用通訊協定時，您可以讓每個通訊協定都有自己的執行字串。
+當您將 ProgID 對應至副檔名或通訊協定時，應用程式可以對應到一或多個。 在 Contoso 範例中，ContosoHTML 會指向提供 .htm、.html、>.shtml、xht 和 xhtml 副檔名之 shellexecute 資訊的單一 ProgID。 因為每個通訊協定都有不同的 ProgID，所以當您使用通訊協定時，您可以讓每個通訊協定都有自己的執行字串。
 
 當您的 MIME 類型可以內嵌在瀏覽器中時，MIME 型別的 ProgID 必須包含 **clsid** 子機碼，以使用對應應用程式 (clsid) 的類別識別碼。 此 clsid 用於查閱 mime 資料庫中儲存于 **HKEY \_ 本機 \_ 電腦** \\ **軟體** \\ **類別** \\ **mime** \\ **資料庫** \\ **內容類型** 的 CLSID。 如果您的 MIME 類型不是要在瀏覽器中以內嵌方式來流覽，則可以省略此步驟。
 
@@ -140,7 +140,7 @@ HKEY_LOCAL_MACHINE
 
 | 值                  | 類型                       | 意義                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |------------------------|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ApplicationDescription | REG \_ sz 或 reg \_ EXPAND \_ SZ | **必要**。 若要讓使用者能夠做出明智的預設指派選項，應用程式必須提供描述應用程式功能的字串。 雖然先前的 Contoso 範例會將描述直接指派給 ApplicationDescription 值，但應用程式通常會提供描述做為內嵌于 .dll 檔案中的資源，以利進行當地語系化。 如果未提供 ApplicationDescription，則應用程式不會出現在可能的預設程式的 UI 清單中。                                                            |
+| ApplicationDescription | REG \_ sz 或 reg \_ EXPAND \_ SZ | **必要**。 若要讓使用者能夠做出明智的預設指派選項，應用程式必須提供描述應用程式功能的字串。 雖然先前的 Contoso 範例會將描述直接指派給 ApplicationDescription 值，但應用程式通常會提供描述做為內嵌于 .dll 檔案中的資源，以協助進行當地語系化。 如果未提供 ApplicationDescription，則應用程式不會出現在可能的預設程式的 UI 清單中。                                                            |
 | ApplicationName        | REG \_ sz 或 reg \_ EXPAND \_ SZ | **選擇性。** 程式在 [預設程式] UI 中出現的名稱。 如果應用程式未提供此資料，則會在 UI 中使用與應用程式的第一個已註冊 ProgID 相關聯之可執行程式的名稱。 ApplicationName 必須一律符合在 [RegisteredApplications](#registeredapplications)中註冊的名稱。 如果您想要不同的應用程式類型（例如瀏覽器和電子郵件客戶程式）指向相同的可執行檔，但其顯示為不同的名稱，您可以使用 ApplicationName。<br/> |
 | Hidden                 | REG \_ DWORD                 | **選擇性。** 將此值設定為1，以在 [ **設定您的預設程式** ] 對話方塊中的程式清單中隱藏應用程式。 如果這個值為0或不存在，則應用程式會在清單中正常顯示。                                                                                                                                                                                                                                                                                                                                                              |
 
@@ -161,7 +161,7 @@ HKEY_LOCAL_MACHINE
 **Startmenu** 子機碼與 [**開始**] 功能表中使用者可指派的 **網際網路** 和 **電子郵件** 專案相關聯。 應用程式必須個別註冊為這些專案的競爭者。 如需詳細資訊，請參閱 [使用用戶端類型註冊程式](reg-middleware-apps.md)。
 
 > [!Note]  
-> 從 Windows 7 開始，[**開始**] 功能表中已不再有 **網際網路** 和 **電子郵件** 專案。 與 **電子郵件** 專案相關的登錄資料仍會用於預設的 MAPI 用戶端，但 Windows 完全不會使用與 **網際網路** 專案相關聯的登錄資料。
+> 從 Windows 7 開始，[**開始**] 功能表中已不再有 **網際網路** 和 **電子郵件** 專案。 與 **電子郵件** 專案相關聯的登錄資料仍會用於預設的 MAPI 用戶端，但 Windows 完全不會使用與 **網際網路** 專案相關聯的登錄資料。
 
  
 
@@ -212,7 +212,7 @@ HKEY_LOCAL_MACHINE
 
 此範例顯示用來註冊虛構 Litware 媒體播放機的子機碼和值。 此範例包含 ProgID 專案，以顯示其如何彼此搭配。
 
-下列子機碼顯示針對. mp3 MIME 類型的應用程式特定 ProgID：
+下列子機碼顯示 .mp3 MIME 類型的應用程式特定 ProgID：
 
 ```
 HKEY_LOCAL_MACHINE
@@ -223,7 +223,7 @@ HKEY_LOCAL_MACHINE
                (Default) = {CD3AFA76-B84F-48F0-9393-7EDC34128127}
 ```
 
-接下來是應用程式特定的 ProgID，會將 Litware 程式與. mp3 副檔名產生關聯。
+接下來是應用程式特定的 ProgID，會將 Litware 程式與 .mp3 副檔名產生關聯。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -239,7 +239,7 @@ HKEY_LOCAL_MACHINE
                      (Default) = %ProgramFiles%\Litware\litware.exe
 ```
 
-下一個專案顯示的是 mpeg-2 MIME 類型和副檔名的結合 ProgID。
+下一個專案顯示 .mpeg MIME 類型和副檔名的合併 ProgID。
 
 ```
 HKEY_LOCAL_MACHINE
@@ -342,7 +342,7 @@ void NotifySystemOfNewRegistration()
 
 ### <a name="during-installation"></a>在安裝期間
 
-除了通常會在 Windows XP 下執行的安裝程式之外，Windows Vista 或更新版本的應用程式必須向「 **預設程式** 」功能註冊，才能利用其功能。
+除了通常會在 Windows XP 下練習的安裝程式之外，Windows Vista 或更新版本的應用程式必須向「**預設程式**」功能註冊，才能利用其功能。
 
 在安裝期間，執行下列步驟順序。 步驟1-3 符合 Windows XP 中使用的步驟;步驟4是 Windows Vista 的新功能。
 

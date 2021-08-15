@@ -1,5 +1,5 @@
 ---
-description: WMI 以服務的形式執行，其顯示名稱為 &\# 0034;Windows Management Instrumentation&\# 0034; 以及服務名稱 &\# 0034; winmgmt&\# 0034;。
+description: WMI 以服務的形式執行，其顯示名稱為 &\# 0034; Windows Management Instrumentation&\# 0034; 以及服務名稱 &\# 0034; winmgmt&\# 0034;。
 ms.assetid: 8dff43bf-71d0-4d5a-91bc-6f474186d4ba
 ms.tgt_platform: multiple
 title: 啟動和停止 WMI 服務
@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 54b820283aac089ad6191ee587e6beadea6dc030
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b22524d356bad5f23f4ca1cc8a3e7c68e69fd83f0dc38e64eba70bc1812436f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315006"
 ---
 # <a name="starting-and-stopping-the-wmi-service"></a>啟動和停止 WMI 服務
 
@@ -33,7 +33,7 @@ WMI 會以服務的形式執行，其顯示名稱為 "Windows Management Instrum
 
     如需可用參數的詳細資訊，請參閱 [winmgmt](winmgmt.md)。 您可以使用內建的系統管理員帳戶，或以較高的許可權執行的 Administrators 群組中的帳戶，以啟動 WMI 服務。 如需詳細資訊，請參閱 [使用者帳戶控制和 WMI](user-account-control-and-wmi.md)。
 
-2.  其他相依于 WMI 服務的服務，例如 SMS Agent Host 或 Windows 防火牆，將不會自動重新開機。
+2.  其他相依于 WMI 服務的服務（例如 SMS Agent Host 或 Windows Firewall）將不會自動重新開機。
 
 ## <a name="stopping-winmgmt-service"></a>停止 Winmgmt 服務
 

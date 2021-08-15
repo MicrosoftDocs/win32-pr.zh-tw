@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 69b140a2b65d47d563fd88f49d6818efc13613f4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 392e0bb2940c36b541f63f55dac418312489f231d785f82014ade82c20602fbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343600"
 ---
 # <a name="metadatatype-complex-type"></a>MetadataType 複雜類型
 
@@ -129,7 +129,7 @@ ms.locfileid: "104025453"
 | mid     | xs:string                                                         | 未使用。<br/>                                                                               |
 | NAME    | anyURI                                                            | 中繼檔案的 URI。 <br/>                                                              |
 | 符號  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 您希望訊息編譯器為此訊息字串建立的符號名稱。<br/> |
-| value   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | 要用來做為此訊息之訊息識別碼的數位。<br/>                           |
+| 值   | [**UInt32Type**](eventmanifestschema-hexint32type-simpletype.md) | 要用來做為此訊息之訊息識別碼的數位。<br/>                           |
 
 
 
@@ -143,8 +143,8 @@ ms.locfileid: "104025453"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

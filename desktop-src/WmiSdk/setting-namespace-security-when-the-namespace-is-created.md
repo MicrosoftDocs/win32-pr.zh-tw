@@ -5,12 +5,12 @@ ms.assetid: eeda3351-11ec-4064-90dd-f67ccf5c8cb6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 461b23dbac3984ffdd49311cbe340ae2b0c5b022
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 004e1897553ef2ec0bd57067b17d714f6aaf8b17059c1078a2fc0da8a060a40f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315635"
 ---
 # <a name="setting-security-on-namespace-creation"></a>設定命名空間建立時的安全性
 

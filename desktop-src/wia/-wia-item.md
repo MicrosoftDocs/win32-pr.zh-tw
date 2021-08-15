@@ -1,5 +1,5 @@
 ---
-description: Windows 映像取得 (WIA) 硬體裝置會以專案物件的階層樹狀結構表示。 此樹狀結構中的根專案代表裝置本身，而子專案代表影像、資料夾或掃描張床。
+description: Windows影像取得 (WIA) 硬體裝置會表示為專案物件的階層樹狀結構。 此樹狀結構中的根專案代表裝置本身，而子專案代表影像、資料夾或掃描張床。
 ms.assetid: 240557d6-665e-4879-8c6e-f564ca61e031
 title: Item 物件
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 6af0642a47db9d3a7a1c30aea76be22ea5ce1d07
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b5b32603f334148fede3bc2866367817fd3dcd5ab33aaa40bab84fe3cf49624
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208931"
 ---
 # <a name="item-object"></a>Item 物件
 
-Windows 映像取得 (WIA) 硬體裝置會以 **專案** 物件的階層樹狀結構表示。 此樹狀結構中的根專案代表裝置本身，而子專案代表影像、資料夾或掃描張床。
+Windows影像取得 (WIA) 硬體裝置會表示為 **專案** 物件的階層樹狀結構。 此樹狀結構中的根專案代表裝置本身，而子專案代表影像、資料夾或掃描張床。
 
 使用 **Item** 物件將資料傳輸至檔案、流覽特定裝置的專案樹狀結構，或取得影像或裝置的相關資訊。
 
@@ -44,7 +44,7 @@ Windows 映像取得 (WIA) 硬體裝置會以 **專案** 物件的階層樹狀�
 | [**GetItemsFromUI**](-wia-iwiadispatchitem-getitemsfromui.md) | **Item** 物件的 [**GetItemsFromUI**](-wia-iwiadispatchitem-getitemsfromui.md)方法會顯示一個對話方塊，可讓使用者選取要從裝置傳送的影像和音訊。<br/>                                                                     |
 | [**GetPropById**](-wia-iwiadispatchitem-getpropbyid.md)       | **Item** 物件的 [**GetPropById**](-wia-iwiadispatchitem-getpropbyid.md)方法會使用 item 屬性的 ID 來傳回其值。<br/>                                                                                                                     |
 | [**TakePicture**](-wia-iwiadispatchitem-takepicture.md)       | **Item** 物件的 [**TakePicture**](-wia-iwiadispatchitem-takepicture.md)方法會讓數位相機裝置拍攝圖片，並傳回代表所產生影像的 **專案** 物件。 此方法僅適用于數位相機裝置。<br/> |
-| [**傳送**](-wia-iwiadispatchitem-transfer.md)             | **Item** 物件的 [**Transfer**](-wia-iwiadispatchitem-transfer.md)方法會將資料從裝置傳送到檔案。 此方法僅適用于裝置類型專案。<br/>                                                                                         |
+| [**傳輸**](-wia-iwiadispatchitem-transfer.md)             | **Item** 物件的 [**Transfer**](-wia-iwiadispatchitem-transfer.md)方法會將資料從裝置傳送到檔案。 此方法僅適用于裝置類型專案。<br/>                                                                                         |
 
 
 
@@ -101,8 +101,8 @@ Windows 映像取得 (WIA) 硬體裝置會以 **專案** 物件的階層樹狀�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

@@ -4,18 +4,18 @@ ms.assetid: 54aaf800-6685-4945-976f-a9f1c25aa523
 title: FocalPlaneXResolutionDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6337b3674edc3af3116a53d2674a2b4e2fee9fbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c9970cdee3d658edfbeda2c8e36e11e495ec8675570e1c64f80db1133a5819f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118229175"
 ---
 # <a name="systemphotofocalplanexresolutiondenominator"></a>FocalPlaneXResolutionDenominator
 
 PKEY \_ 相片 FocalPlaneXResolution 的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

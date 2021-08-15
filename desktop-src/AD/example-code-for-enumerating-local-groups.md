@@ -7,12 +7,12 @@ keywords:
 - Active Directory 範例 Active Directory，列舉本機群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62b830c1c3ec60d393606e282ff4408647ec8d62
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 241c89bfdb491c7bee0d0876a4b9bf17e6cc836c98a2f80e6734ad6cdc6420ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190653"
 ---
 # <a name="example-code-for-enumerating-local-groups"></a>列舉本機群組的範例程式碼
 
@@ -145,7 +145,7 @@ HRESULT ListMembersWithWinNtProvider(LPWSTR pwszComputer,LPWSTR pwszClass, LPWST
 
 
 
-下列 Visual Basic 程式碼範例會使用 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer) 和 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup) 介面來列舉本機群組。
+下列 Visual Basic 程式碼範例會使用 [**IADsContainer**](/windows/desktop/api/iads/nn-iads-iadscontainer)和 [**IADsGroup**](/windows/desktop/api/iads/nn-iads-iadsgroup)介面來列舉本機群組。
 
 
 ```VB
@@ -247,6 +247,6 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 

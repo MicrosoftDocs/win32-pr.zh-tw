@@ -4,12 +4,12 @@ ms.assetid: 20a30e87-e209-45ae-bf1b-722568758c47
 title: 步驟2：跨多個元件擴充交易
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99c6fc80016904a3ea51b7aea7fa0ec93edc47a6
-ms.sourcegitcommit: bf526e267d3991892733bdd229c66d5365cf244a
+ms.openlocfilehash: 96aa168eca7bfba29a4b00a6cd24b45d06c7610c76d47a4d6454e77295e57bc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104321351"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915803"
 ---
 # <a name="step-2-extending-a-transaction-across-components"></a>步驟2：跨元件擴充交易
 
@@ -22,7 +22,7 @@ ms.locfileid: "104321351"
 
 ## <a name="description"></a>Description
 
-[步驟1：建立交易元件](step-1--creating-a-transactional-component.md) 示範如何撰寫簡單的交易元件，以更新 Microsoft SQL Server Pubs 資料庫中的作者資訊。 步驟2顯示在多個元件之間擴充交易時所發生的情況。
+[步驟1：建立交易元件](step-1--creating-a-transactional-component.md)示範如何撰寫簡單的交易元件，以更新 Microsoft SQL Server Pubs 資料庫中的作者資訊。 步驟2顯示在多個元件之間擴充交易時所發生的情況。
 
 為了保持 COM + 程式設計模型，在 `UpdateAuthorAddress` 完成其工作的過程中，會呼叫另一個元件。 第二個元件會 `ValidateAuthorAddress` 驗證作者的位址，並將結果傳回給它的呼叫者 `UpdateAuthorAddress` 。
 
@@ -100,7 +100,7 @@ End Function
 
 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 -   將元件的交易屬性設定為 [ **支援** ] 可能會導致在呼叫物件的交易中建立新的物件。 COM + 會查看呼叫端的內容，以判斷新物件的交易狀態。 如果呼叫端是交易式的，COM + 會將交易流動至新的物件。
 -   參與相同交易的所有物件都會共用一般交易識別碼，而 COM + 會從物件的內容讀取此識別碼。

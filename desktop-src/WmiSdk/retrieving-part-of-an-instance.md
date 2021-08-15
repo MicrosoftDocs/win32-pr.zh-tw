@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 正在抓取 WMI 實例的一部分
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d9d547ec2bbb7e3b53e22177cc0c48794dff22a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f8cce9d809e5203b7c00f2b2297403f835d98f37ff86641e297673ee50e579f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118316212"
 ---
 # <a name="retrieving-part-of-a-wmi-instance"></a>正在抓取 WMI 實例的一部分
 

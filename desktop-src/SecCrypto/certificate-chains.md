@@ -4,12 +4,12 @@ ms.assetid: e6cb0280-f531-40dc-bbb1-d8115d026e03
 title: 憑證鏈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bea42b6788997a86aade6f89d0f35d92a74daafc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f6efdd49cbd66c74805cc560286e5f15a981ef200df5523c602c2bb4b395a04e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468932"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771937"
 ---
 # <a name="certificate-chains"></a>憑證鏈
 

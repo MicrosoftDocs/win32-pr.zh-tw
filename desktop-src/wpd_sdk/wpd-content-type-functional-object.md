@@ -4,12 +4,12 @@ ms.assetid: 112de70b-afcc-4fba-b74f-c33bd759d517
 title: WPD_CONTENT_TYPE_FUNCTIONAL_OBJECT
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8516d29bf08b4873dc80c72b9a23de19dc50d0e9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58121d351219c246117106d578ed3672ebf25eecf9e159f957494b5c5eae9280
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118193522"
 ---
 # <a name="wpd_content_type_functional_object"></a>WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件
 
@@ -44,7 +44,7 @@ ms.locfileid: "106990381"
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                             |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                             |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                             |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱下表，以瞭解 Windows 可攜式裝置所定義的類別。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱下表，以瞭解 Windows 可攜式裝置所定義的分類。 |
 
 
 
@@ -58,7 +58,7 @@ ms.locfileid: "106990381"
 
 您可以根據函式的功能，將功能物件分組為類別。 類別是由 WPD \_ 功能 \_ 物件 \_ 類別屬性描述， (GUID 值) 。 類別會決定支援哪些其他屬性。
 
-下表說明 Windows 可攜式裝置所定義的類別。 請參閱類別的描述，以瞭解物件所支援的其他屬性和資源。
+下表說明 Windows 可攜式裝置所定義的分類。 請參閱類別的描述，以瞭解物件所支援的其他屬性和資源。
 
 
 

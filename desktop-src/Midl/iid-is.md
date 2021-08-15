@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e94c6f46a6828e81817e45ff6eb6eb8245b00a61
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 74553fdb1e3020d49eca7dfdd219354a4690056c45126b3af208395117ade991
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383865"
 ---
 # <a name="iid_is-attribute"></a>iid \_ 為屬性
 
@@ -59,12 +59,12 @@ HRESULT    CreateInstance(
 [**物件**](object.md)
 </dt> <dt>
 
-[**uuid**](uuid.md)
+[**Uuid**](uuid.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

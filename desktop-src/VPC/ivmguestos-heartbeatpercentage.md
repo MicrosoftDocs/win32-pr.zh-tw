@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d568ed85281e8940b69afd1c72e76e2f208a5a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d1415b9d59e28e5658dc5b54a1a6d118e0b12a77b3208978448afb2b336f313e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117753445"
 ---
 # <a name="ivmguestosheartbeatpercentage-property"></a>IVMGuestOS：： HeartbeatPercentage 屬性
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 抓取過去一分鐘所收到的預期心跳量百分比。
 
@@ -64,7 +64,7 @@ HRESULT get_HeartbeatPercentage(
 
 ## <a name="remarks"></a>備註
 
-當客體作業系統正在執行時，整合元件會將週期性心跳傳送至 Windows Virtual PC。 如果虛擬作業系統的負載很高，Windows Virtual PC 可能會收到比預期更少的心跳。 如果心跳百分比降至零，表示客體作業系統可能沒有回應或損毀。 虛擬機器必須執行 (也就是，完全開機且未關閉) 而且必須在叫用這個屬性時安裝整合元件。
+當客體作業系統正在執行時，整合元件會傳送週期性心跳給 Windows Virtual PC。 如果系統負載過重，則 Windows Virtual PC 可能會收到比預期更少的心跳。 如果心跳百分比降至零，表示客體作業系統可能沒有回應或損毀。 虛擬機器必須執行 (也就是，完全開機且未關閉) 而且必須在叫用這個屬性時安裝整合元件。
 
 ## <a name="requirements"></a>規格需求
 
@@ -72,7 +72,7 @@ HRESULT get_HeartbeatPercentage(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

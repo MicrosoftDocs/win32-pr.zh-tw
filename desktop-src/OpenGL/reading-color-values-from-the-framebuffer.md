@@ -8,12 +8,12 @@ keywords:
 - framebuffers，讀取色彩值 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4df14690b68f7e93949d26ee50ac562ebd667be
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 65beb6dae04019637fc8683220ce12e671c4a52d4f015ae9f8d45e70db67bb36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794765"
 ---
 # <a name="reading-color-values-from-the-framebuffer"></a>從畫面格緩衝區讀取色彩值
 
@@ -29,9 +29,9 @@ ms.locfileid: "103672439"
 -   RGBA 值是從系統元件中的索引讀取的。 邏輯索引是從反向資料表中取得，而 RGBA 元件則會解壓縮。
 -   色彩索引值會從索引讀取至系統選擇區，而反向資料表則用來取得邏輯調色板索引。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Cabinet.dll
-ms.openlocfilehash: 4ab032864e59d8e7379fe347d241874d9336e431
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 500de4df41c82f1956f50abcc25dc84f11484b693dc8d1a5f8bc53ab556ade0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162089"
 ---
 # <a name="deleteextractedfiles-function"></a>DeleteExtractedFiles 函式
 
@@ -72,7 +72,7 @@ VOID WINAPI DeleteExtractedFiles(
 
 <dl> <dt>
 
-[**提取**](extract.md)
+[**擷取**](extract.md)
 </dt> <dt>
 
 [**會話**](session.md)

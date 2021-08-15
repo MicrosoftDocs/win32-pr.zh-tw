@@ -6,12 +6,12 @@ keywords:
 - DNS WMI 提供者範例 8212;管理 DNS 區域
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bb7f0468cd4550dc3c7c3ed0b2a7a585a3b17488
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 452c6ef3e9e072ffba6b1bf9ab58e9e15e15405b7bca418dc7619441ae43e125
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163847"
 ---
 # <a name="dns-wmi-provider-samplesmanaging-dns-zones"></a>DNS WMI 提供者範例—管理 DNS 區域
 
@@ -2907,9 +2907,9 @@ End Function
 
 
 
- 
+ 
 
- 
+ 
 
 
 

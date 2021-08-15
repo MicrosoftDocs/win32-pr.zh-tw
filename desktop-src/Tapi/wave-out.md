@@ -4,12 +4,12 @@ ms.assetid: 85894134-e8ad-43e2-8b97-09b80bfd36d5
 title: wave/out
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 975a3308b6f0b29e130ad07534494e1cb1d991a9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f3e8a82b8345e8f50e1ad18f527c82f4ece241e03c0ea7cd083dd2d2ae79282
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760173"
 ---
 # <a name="waveout"></a>wave/out
 

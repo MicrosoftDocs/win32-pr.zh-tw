@@ -8,12 +8,12 @@ keywords:
 - 函數 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c814cf4f59a391a3242fa748856eaacb35dbcc53
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c7245069ca427cbf6b1e4548749636a2c8448c2d4b9853bb27f7fa273f4a19a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300100"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180612"
 ---
 # <a name="adsi-functions"></a>ADSI 函數
 
@@ -42,7 +42,7 @@ Active Directory 服務介面會將下列 helper 函式公開給未使用 Automa
 
 
 
- 
+ 
 
 下列 ADSI 函數已淘汰。
 
@@ -61,11 +61,11 @@ Active Directory 服務介面會將下列 helper 函式公開給未使用 Automa
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

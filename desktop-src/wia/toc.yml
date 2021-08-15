@@ -243,7 +243,7 @@
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicecommand
                     - name: DeviceDlg
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-devicedlg
-                    - name: Diagnostic
+                    - name: 診斷
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-diagnostic
                     - name: DumpDrvItemData
                       href: /windows/desktop/api/wia_xp/nf-wia_xp-iwiaitem-dumpdrvitemdata
@@ -276,7 +276,7 @@
                       href: '-wia-iwiaitem2-devicecommand.md'
                     - name: DeviceDlg
                       href: '-wia-iwiaitem2-devicedlg.md'
-                    - name: Diagnostic
+                    - name: 診斷
                       href: '-wia-iwiaitem2-diagnostic.md'
                     - name: EnumChildItems
                       href: '-wia-iwiaitem2-enumchilditems.md'
@@ -516,7 +516,7 @@
             - name: 集合
               href: '-wia-collection.md'
               items:
-                - name: Count
+                - name: 計數
                   href: '-wia-icollection-count.md'
                 - name: 項目
                   href: '-wia-icollection-item.md'
@@ -572,7 +572,7 @@
                   href: '-wia-iwiadispatchitem-thumbnail.md'
                 - name: ThumbWidth
                   href: '-wia-iwiadispatchitem-thumbwidth.md'
-                - name: Time
+                - name: 時間
                   href: '-wia-iwiadispatchitem-time.md'
                 - name: 傳送
                   href: '-wia-iwiadispatchitem-transfer.md'
@@ -601,7 +601,7 @@
     - name: 概覽和教學課程
       href: bumper-wia-overviews-and-tutorials.md
       items:
-        - name: 關於 Windows 映像取得
+        - name: 關於取得 Windows 映像
           href: '-wia-about-windows-image-acquisition.md'
           items:
             - name: WIA 架構

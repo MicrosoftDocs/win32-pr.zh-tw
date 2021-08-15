@@ -4,18 +4,18 @@ ms.assetid: b091c250-66f2-47cc-a012-1526c0ed02c9
 title: PageMediaSizePSOrientation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb1b3aff1099199a98d6c8be899824dd1a1f17c
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: 9070be6fdbd5129ff3ea63be368763c7547982331ee47ebdad6e8b0e43f2f4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868183"
 ---
 # <a name="pagemediasizepsorientation"></a>PageMediaSizePSOrientation
 
 本主題並非最新的。 如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。
 
-指定相對於饋送方向方向的方向 (參考 [PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。
+指定相對於饋送方向方向的方向 (參考[PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。
 
 -   [項目資訊](#element-information)
 -   [結構內容](#structure-content)
@@ -89,7 +89,7 @@ ms.locfileid: "112395723"
 
 <dl> <dt>
 
-[PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

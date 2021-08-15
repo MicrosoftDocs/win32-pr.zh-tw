@@ -4,12 +4,12 @@ description: 網路管理功能可以依下列方式分組。
 ms.assetid: dd159e2e-f37e-46b2-b980-008b73d40b39
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5a169d097fbe86c95aa9aa3120c3f732a8edd2c0
-ms.sourcegitcommit: 89f99926f946dc6c5ea600fb7c41f6b19ceac516
+ms.openlocfilehash: b9e9aba93607e3609f0d20f7208184f169fb871ee67f5f2917445683f70e4f04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "106966897"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796959"
 ---
 # <a name="network-management-functions"></a>網路管理功能
 
@@ -43,7 +43,7 @@ ms.locfileid: "106966897"
 
  
 
-## <a name="azure-active-directory-join-information-functions"></a>Azure Active Directory 聯結資訊函數
+## <a name="azure-active-directory-join-information-functions"></a>Azure Active Directory聯結資訊函數
 
 
 
@@ -337,7 +337,7 @@ ms.locfileid: "106966897"
 
 <dl> <dt>
 
-[Windows 網路功能](/windows/desktop/WNet/windows-networking-functions)
+[Windows網路功能](/windows/desktop/WNet/windows-networking-functions)
 </dt> </dl>
 
  

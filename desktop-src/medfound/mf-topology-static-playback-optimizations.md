@@ -4,12 +4,12 @@ ms.assetid: 62fb3f0f-ab1f-4c61-8e7f-62908b947788
 title: 'MF_TOPOLOGY_STATIC_PLAYBACK_OPTIMIZATIONS 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f9f7d884c49078ca02571f8ba141f9a1e13589
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f01b22e5b7e972e9d1eb453f317e8db6a902e994e83d075cd791d9261aa6ed09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117691240"
 ---
 # <a name="mf_topology_static_playback_optimizations-attribute"></a>MF \_ 拓撲 \_ 靜態 \_ 播放 \_ 優化屬性
 
@@ -105,8 +105,8 @@ done:
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

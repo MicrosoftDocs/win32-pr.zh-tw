@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 42544992248143c95ae905db39fe854b27751862
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6a4b0daca8b6bd4147c1e36d921b58b3802d975e678e49a9b9153761e61820d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219878"
 ---
 # <a name="application-user-model-id-appid-window-property-sample"></a>應用程式使用者模型識別碼 (AppID) 視窗屬性範例
 

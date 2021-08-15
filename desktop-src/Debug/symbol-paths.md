@@ -4,12 +4,12 @@ ms.assetid: 3527f589-285b-4cdf-b024-17920971a904
 title: 符號路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 977772e45c345e1e990dc038fccd852d17d279dc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fddf01dfbb5aedfcdd2d96cdfd5d4fdd10e6d3f71b5c69024917ddac534d3824
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936202"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405898"
 ---
 # <a name="symbol-paths"></a>符號路徑
 

@@ -4,12 +4,12 @@ ms.assetid: 9ab19a56-4d31-471d-949e-a539751b62e3
 title: 說明的 MUI 基本概念
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82dbeedb246944bef6c23c739eafddff86423b35
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 88bd677d7a6b07bc4db78d733d81fc36624ddd06f9ad3014588b8e5fd0882aa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390882"
 ---
 # <a name="mui-fundamental-concepts-explained"></a>說明的 MUI 基本概念
 
@@ -23,7 +23,7 @@ ms.locfileid: "103943676"
 
 ## <a name="prerequisite-for-mui"></a>MUI 的先決條件
 
-建立適用于 Windows Vista 和以上的 MUI 相容應用程式的基本必要條件是根據 Windows [全球化指導方針](https://msdn.microsoft.com/goglobal/bb688110.aspx)來設計應用程式。
+針對 Windows Vista 和更高的元件建立符合 MUI 規範的應用程式，基本必要條件是根據 Windows 的[全球化指導方針](https://msdn.microsoft.com/goglobal/bb688110.aspx)來設計應用程式。
 
 ## <a name="separation-of-source-code-from-language-specific-resources"></a>分隔原始程式碼與特定語言的資源
 
@@ -82,7 +82,7 @@ MUI 技術的其中一個基本部署是將應用程式原始程式碼與特定�
 
 [從特定語言的資源中實際分隔原始程式碼](#physically-separating-code-and-resources)，以及為應用程式建立非語言相關核心二進位檔的 MUI 基本概念，基本上會設定採用遭利用的架構，以根據使用者和系統語言設定來執行特定語言資源的動態載入。
 
-內建在非語言相關核心二進位檔中的應用程式原始程式碼，可以利用 Windows 平臺中的 MUI Api，針對指定的內容，對適當的顯示使用者介面語言進行抽象化。 MUI 支援這種方式：
+內建在非語言相關核心二進位檔中的應用程式原始程式碼可利用 Windows 平臺中的 MUI api，針對指定的內容，將適當的顯示使用者介面語言的選擇抽象化。 MUI 支援這種方式：
 
 -   根據系統、使用者、應用層級、使用者層級和系統層級設定，來建立顯示使用者介面語言的優先順序清單。
 -   根據當地語系化資源的可用性，執行可根據已設定優先順序的語言清單選擇適當候選項的回溯機制。
@@ -95,11 +95,11 @@ MUI 技術的其中一個基本部署是將應用程式原始程式碼與特定�
 
 ## <a name="building-mui-applications"></a>建立 MUI 應用程式
 
-上述各節概述將原始程式碼與特定語言的資源分開的選項，以及能夠利用核心 Windows 平臺 Api 動態載入當地語系化資源的結果優點。 雖然這些都是指導方針，但也應該指出，沒有任何特定的規範方法可開發 Windows 平臺的 MUI 應用程式。
+上述各節概述了將原始程式碼與特定語言的資源分開的選項，以及能夠利用 core Windows 平臺 api 動態載入當地語系化資源的結果優點。 雖然這些都是指導方針，但也應該指出，沒有任何特定的規範方法可開發 Windows 平臺的 MUI 應用程式。
 
 應用程式開發人員可以完整選擇如何處理各種使用者介面語言設定、資源建立選項和資源載入方法。 開發人員可以評估這份檔中所提供的指導方針，並選擇符合其需求和開發環境的組合。
 
-下表摘要說明要為 Windows 平臺建立 MUI 應用程式的應用程式開發人員可使用的各種設計選項。
+下表摘要說明要為 Windows 平臺建立 MUI 應用程式之應用程式開發人員可用的各種設計選項。
 
 
 

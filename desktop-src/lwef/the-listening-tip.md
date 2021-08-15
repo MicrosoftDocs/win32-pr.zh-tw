@@ -4,18 +4,18 @@ description: 接聽秘訣
 ms.assetid: d363c1ac-53fc-4b93-b056-63eeee923380
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad9d9f3d0866d3f17854cb67f5e8c47e2fa44a2d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bbc93d5717a0f0de62ccffe9a0816a68c9b9a567a6cd3ce5e3e6f02e1dbb2e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183158"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118245587"
 ---
 # <a name="the-listening-tip"></a>接聽秘訣
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
-接聽秘訣是 Microsoft 代理程式所提供的另一個語音輸入服務。 當您安裝語音輸入時，Agent 會包含特殊的工具提示視窗，當使用者按下接聽的熱鍵或呼叫接聽方法時，就會出現此視窗。 只有當語音服務可供使用時，才會顯示接聽提示。 如果沒有任何用戶端撰寫語音命令或成功載入語音引擎，則不會出現接聽提示。 此外，您必須啟用 [Advanced Character] 選項中的 [語音輸入] 和 [顯示接聽秘訣] 選項，提示才會出現。
+接聽秘訣是 Microsoft 代理程式所提供的另一個語音輸入服務。 當您安裝語音輸入時，Agent 會包含特殊的工具提示視窗，當使用者按下接聽的熱鍵或呼叫接聽方法時，就會出現此視窗。 只有當語音服務可供使用時，才會顯示接聽提示。 如果沒有任何用戶端撰寫語音命令或成功載入語音引擎，則不會出現接聽提示。 此外，您必須啟用 [Advanced Character] 選項中的 [語音輸入] 和 [顯示接聽提示] 選項，提示才會出現。
 
 下表摘要說明啟用語音辨識時接聽提示的顯示。
 

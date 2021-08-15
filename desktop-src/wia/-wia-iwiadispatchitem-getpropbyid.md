@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: 54eb329d51005893b89a9fd28f160ff616e682df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c8d5f68114f74505fce11ca8872370a802e31400159146d7030ec34339c7d19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987548"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118208372"
 ---
 # <a name="itemgetpropbyid-method"></a>GetPropById 方法
 
@@ -58,7 +58,7 @@ retVal = Item.GetPropById(
 
 您可以使用這個方法，從識別碼中找出專案屬性的值。 如需屬性識別碼的清單，請參閱 [WIA 屬性常數定義](-wia-wia-property-constant-definitions.md)。 如需屬性本身的詳細資訊，請參閱 [WIA 屬性常數](-wia-wia-property-constants.md)。
 
-若為 Microsoft Visual Basic 的應用程式，請新增「Windows 映像取得1.01 類型程式庫」的參考。 在該檔案中定義的下列常數，只對 (裝置專案) 的根專案有效：
+針對 Microsoft Visual Basic 的應用程式，請新增「Windows 影像取得1.01 型別程式庫」的參考。 在該檔案中定義的下列常數，只對 (裝置專案) 的根專案有效：
 
 ``` syntax
 const FirmwareVersion = 1026
@@ -150,8 +150,8 @@ Next
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

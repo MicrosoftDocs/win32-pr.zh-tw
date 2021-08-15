@@ -4,12 +4,12 @@ ms.assetid: 2b779ff7-f410-4af0-899d-4432b015d526
 title: DrLocator 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78df5a5af83a18a14027b88033e977b2c63d2027
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fe1765c7b8f5c38d5701c4c401eb333c7db6a7c403689b8c3100d55b5e51e28e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378322"
 ---
 # <a name="drlocator-table"></a>DrLocator 資料表
 

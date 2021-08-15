@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: ac86aeafefc8057a1612c5007e55e7633c655c59
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be491c0bfefe77c2bf016789786212047d5ca8d00570c84057b8e8e346fb382e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317022"
 ---
 # <a name="postjoinfilter-qualifier"></a>PostJoinFilter 辨識符號
 

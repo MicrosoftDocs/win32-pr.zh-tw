@@ -3,7 +3,7 @@ title: 'TDM_UPDATE_ELEMENT_TEXT 訊息 (Commctrl .h) '
 description: TDM_UPDATE_ELEMENT_TEXT 訊息-更新工作對話方塊中的文字專案。
 ms.assetid: 2df446c8-db87-42b5-b5bd-40fadbf9d45b
 keywords:
-- TDM_UPDATE_ELEMENT_TEXT message Windows 控制項
+- TDM_UPDATE_ELEMENT_TEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c155b426b92645c0b9cdbabe00c44ffa722b89f3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5abf6eb91b3eadfea71d0c9a4b5386e44db100c3a548998d5113636ff7f8cc29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108085806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166911"
 ---
 # <a name="tdm_update_element_text-message"></a>TDM \_ UPDATE \_ 元素 \_ 文字訊息
 
@@ -74,8 +74,8 @@ ms.locfileid: "108085806"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

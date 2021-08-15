@@ -11,12 +11,12 @@ keywords:
 - Echo DSP 外掛程式範例，CEcho FinalConstruct 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 876db9f2479644800c42354a041ad3b1909b526b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bbeceeb9c0a7622ada62e98000ad4bfbc2e3faf08c22439039160810771cde8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748143"
 ---
 # <a name="implementing-cechofinalconstruct"></a>執行 CEcho：： FinalConstruct
 
@@ -66,9 +66,9 @@ return S_OK;
 [**修改 Echo 範例屬性頁**](modifying-the-echo-sample-property-page.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

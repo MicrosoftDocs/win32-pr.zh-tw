@@ -4,12 +4,12 @@ ms.assetid: d06690e4-f592-4b17-a5f1-baec2accc8dd
 title: 發出 GetNumObjects 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd68e571b6d7003262709050d442c64a4d2461fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3ece98e409ab4ee2774c4efdba0c84c06c60e373b5ed15aee77f5dee65d9101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980389"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194008"
 ---
 # <a name="issuing-the-getnumobjects-command"></a>發出 GetNumObjects 命令
 

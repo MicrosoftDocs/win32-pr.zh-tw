@@ -4,12 +4,12 @@ ms.assetid: 9a65f73d-6f8c-4271-a2d0-d91ad952f9c6
 title: 密碼編譯函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f91338c4a1cea62e2ecc4a2fa1f7254f303ef9b2
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: b65c04d3cb1ff619d03d7f0340fc4f94826722f8ed6c0457987b8ec432a66128
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104116089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768340"
 ---
 # <a name="cryptography-functions"></a>密碼編譯函式
 
@@ -19,7 +19,7 @@ ms.locfileid: "104116089"
 -   [簽署者函式](#signer-functions)
 -   [基礎密碼編譯功能](#base-cryptography-functions)
     -   [服務提供者函數](#service-provider-functions)
-    -   [金鑰產生和交換功能](#key-generation-and-exchange-functions)
+    -   [金鑰產生和 Exchange 函式](#key-generation-and-exchange-functions)
     -   [物件編碼和解碼函數](#object-encoding-and-decoding-functions)
     -   [資料加密和解密功能](#data-encryption-and-decryption-functions)
     -   [雜湊和數位簽章函式](#hash-and-digital-signature-functions)
@@ -136,7 +136,7 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 基底加密函式位於下列廣泛的群組中：
 
 -   服務提供者函數
--   金鑰產生和交換功能
+-   金鑰產生和 Exchange 函式
 -   物件編碼和解碼函數
 -   資料加密和解密功能
 -   雜湊和數位簽章函式
@@ -256,7 +256,7 @@ CSP 是執行所有密碼編譯作業的獨立模組。 每個使用密碼編譯
 
  
 
-### <a name="key-generation-and-exchange-functions"></a>金鑰產生和交換功能
+### <a name="key-generation-and-exchange-functions"></a>金鑰產生和 Exchange 函式
 
 金鑰產生和 exchange 功能會與其他使用者 [*交換金鑰*](../secgloss/e-gly.md) ，以及建立、設定和終結 [*密碼編譯金鑰*](../secgloss/c-gly.md)。
 
@@ -1246,7 +1246,7 @@ CryptoAPI 提供一組一般憑證和憑證存放區維護功能。
 
 ### <a name="pfx-functions"></a>PFX 函數
 
-下列功能支援 (PFX) 格式 [*blob*](../secgloss/b-gly.md)的個人資訊交換。
+下列函式支援 Exchange (PFX) 格式 [*blob*](../secgloss/b-gly.md)的個人資訊。
 
 | 函式                                             | 描述                                                                                                                                                                                                                                                                  |
 |------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -1401,7 +1401,7 @@ Certadm.dll 會匯出下列 Api。
 | [**CryptCATAdminEnumCatalogFromHash**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminenumcatalogfromhash)         | 列舉包含指定雜湊的目錄。                                                                                                                                                                                                                                                                             |
 | [**CryptCATAdminReleaseCatalogCoNtext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminreleasecatalogcontext)     | 釋放 [**CryptCATAdminAddCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminaddcatalog) 函式先前所傳回的目錄內容控制碼。                                                                                                                                                                                             |
 | [**CryptCATAdminReleaseCoNtext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminreleasecontext)                   | 釋放 [**CryptCATAdminAcquireCoNtext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminacquirecontext) 函式先前所指派的控制碼。                                                                                                                                                                                                        |
-| [**CryptCATAdminRemoveCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminremovecatalog)                     | 刪除類別目錄檔案，並從 Windows 目錄資料庫移除該目錄的專案。                                                                                                                                                                                                                                         |
+| [**CryptCATAdminRemoveCatalog**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminremovecatalog)                     | 刪除目錄檔案，並從 Windows 目錄資料庫中移除該目錄的專案。                                                                                                                                                                                                                                         |
 | [**CryptCATAdminResolveCatalogPath**](/windows/desktop/api/Mscat/nf-mscat-cryptcatadminresolvecatalogpath)           | 抓取指定之目錄的完整路徑。                                                                                                                                                                                                                                                                       |
 | [**CryptCATCatalogInfoFromCoNtext**](/windows/desktop/api/Mscat/nf-mscat-cryptcatcataloginfofromcontext)             | 從指定的目錄內容抓取目錄資訊。                                                                                                                                                                                                                                                                    |
 | [**CryptCATClose**](/windows/desktop/api/Mscat/nf-mscat-cryptcatclose)                                               | 關閉 [**CryptCATOpen**](/windows/desktop/api/Mscat/nf-mscat-cryptcatopen) 函數先前開啟的目錄控制碼。                                                                                                                                                                                                                                    |

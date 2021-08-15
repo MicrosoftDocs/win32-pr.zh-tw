@@ -5,12 +5,12 @@ ms.assetid: c215c793-5fad-4baa-97c0-c809040dda1e
 ms.topic: reference
 ms.date: 10/12/2020
 ms.reviewer: jsimmons
-ms.openlocfilehash: fab6df11be3bf719f787c40a41a50d948a865474
-ms.sourcegitcommit: 1e64562147b11f90de802c2431173582d066fae6
+ms.openlocfilehash: 757df1549d1bdb0a9a87ee22373a1903a034a1e267d087d51dac46bb6bc5a762
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "104383177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117796888"
 ---
 # <a name="op_blob-structure"></a>OP_BLOB 結構
 

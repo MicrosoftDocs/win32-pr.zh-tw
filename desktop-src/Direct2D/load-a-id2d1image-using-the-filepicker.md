@@ -1,22 +1,22 @@
 ---
 title: 如何使用 FilePicker 將影像載入 Direct2D 效果
-description: 示範如何使用 Windows 儲存體選擇器 FileOpenPicker 將影像載入 Direct2D 效果。
+description: 顯示如何使用 Windows 儲存體選擇器 FileOpenPicker，將影像載入 Direct2D 效果。
 ms.assetid: 42158EF0-2FC8-45F3-8C92-E12318D4724F
 keywords:
 - FileOpenPicker
 - FilePicker
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4346cc0e337374fa41313cb77debf4faca781669
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 05bb23faf2b9d50f12219f3b99c07ec835558addc55e67d4843dee049946a60d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118160529"
 ---
 # <a name="how-to-load-an-image-into-direct2d-effects-using-the-filepicker"></a>如何使用 FilePicker 將影像載入 Direct2D 效果
 
-顯示如何使用 [**Windows：： Storage：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker) 將影像載入 [Direct2D 效果](effects-overview.md)。 如果您想要讓使用者從 Windows Store 應用程式中的儲存體選取影像檔案，建議您使用 [**FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)。
+顯示如何使用 [**Windows：：儲存體：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)將影像載入 [Direct2D 效果](effects-overview.md)。 如果您想要讓使用者從 Windows Store 應用程式中的儲存體選取影像檔案，建議您使用 [**FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)。
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
@@ -24,7 +24,7 @@ ms.locfileid: "106969110"
 
 -   [Direct2D](./direct2d-portal.md)
 -   [Direct2D 效果](effects-overview.md)
--   [**Windows：： Storage：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
+-   [**Windows：：儲存體：:P ickers：： FileOpenPicker**](/uwp/api/Windows.Storage.Pickers.FileOpenPicker)
 
 ### <a name="prerequisites"></a>必要條件
 
@@ -82,7 +82,7 @@ ms.locfileid: "106969110"
 
 ### <a name="step-3-convert-the-file-stream"></a>步驟3：轉換檔案資料流程
 
-使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) 函式來轉換檔案資料流程。 Windows 執行階段 Api 代表 [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85))的資料流程，而 [WIC](/windows/desktop/wic/-wic-api) 會使用 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)。
+使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream) 函式來轉換檔案資料流程。 Windows執行時間 Api 表示具有 [**IRandomAccessStream**](/previous-versions//hh438400(v=vs.85))的資料流程，而 [WIC](/windows/desktop/wic/-wic-api)會使用 [**IStream**](/windows/desktop/api/objidl/nn-objidl-istream)。
 
 
 ```C++
@@ -100,7 +100,7 @@ ms.locfileid: "106969110"
 > [!Note]  
 > 若要使用 [**CreateStreamOverRandomAccessStream**](/windows/desktop/api/shcore/nf-shcore-createstreamoverrandomaccessstream)函式，您應該在專案中包含 *shcore。*
 
- 
+ 
 
 ### <a name="step-4-create-a-wic-decoder-and-get-the-frame"></a>步驟4：建立 WIC 解碼並取得框架
 
@@ -177,7 +177,7 @@ ms.locfileid: "106969110"
 > [!Note]  
 > [點陣圖來源](bitmap-source.md)效果不會採用 [**SetInput**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1effect-setinput)方法的輸入，例如許多 [Direct2D 效果](effects-overview.md)。 相反地， [**IWICBitmapSource**](/windows/desktop/api/wincodec/nn-wincodec-iwicbitmapsource) 物件會指定為屬性。
 
- 
+ 
 
 
 ```C++
@@ -291,6 +291,6 @@ void OpenFile(Windows::Storage::Streams::IRandomAccessStream^ fileStream)
 
 
 
- 
+ 
 
- 
+ 

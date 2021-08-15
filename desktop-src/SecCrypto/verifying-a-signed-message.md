@@ -4,12 +4,12 @@ ms.assetid: 18246cc1-d3c4-4426-a342-ce3864cc412e
 title: 驗證已簽署的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e8f85a5bcde56df7bb41bb92276123bcd26024e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de7bfdac1b16351d51197a84c15688b0724340af34681312b9cb9865900b8dfc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975894"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970974"
 ---
 # <a name="verifying-a-signed-message"></a>驗證已簽署的訊息
 

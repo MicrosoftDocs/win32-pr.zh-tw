@@ -7,16 +7,16 @@ keywords:
 - 註冊靜態內容功能表項目廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 89e3ee5336061ca296e2c94f8907ebd385610494
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 26e34d2ed02a4f30702ca91551b5b7f5c9dc3e2d1294faae043054be047031b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106968086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184507"
 ---
 # <a name="registering-a-static-context-menu-item"></a>註冊靜態內容功能表項目
 
-Active Directory Domain Services 和 Windows shell 的管理 MMC 嵌入式管理單元，提供一種機制，可將專案新增至 Active Directory Domain Services 中的物件所顯示的內容功能表。 內容功能表可以叫用任何可以使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) API 啟動的檔案，例如應用程式或網頁 URL。
+Active Directory Domain Services 的管理 MMC 嵌入式管理單元和 Windows shell 會提供一種機制，將專案新增至 Active Directory Domain Services 中物件所顯示的內容功能表。 內容功能表可以叫用任何可以使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) API 啟動的檔案，例如應用程式或網頁 URL。
 
 ## <a name="registering-with-active-directory-domain-services"></a>向 Active Directory Domain Services 註冊
 
@@ -26,7 +26,7 @@ Active Directory Domain Services 和 Windows shell 的管理 MMC 嵌入式管理
 
 [**AdminCoNtextMenu**](/windows/desktop/ADSchema/a-admincontextmenu)屬性會識別要在 Active Directory Domain Services 的系統管理嵌入式管理單元中顯示的系統管理內容功能表。 當使用者在其中一個 [系統管理] MMC 嵌入式管理單元中顯示適當類別的物件內容功能表時，就會顯示內容功能表。
 
-[**ShellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)屬性會識別要在 Windows shell 中顯示的使用者內容功能表。 當使用者在 Windows 檔案總管中，流覽適當類別的物件內容功能表時，就會顯示內容功能表。 從 Windows Server 2003 開始，Windows shell 不再顯示來自 Active Directory Domain Services 的物件。
+[**shellCoNtextMenu**](/windows/desktop/ADSchema/a-shellcontextmenu)屬性會識別要在 Windows shell 中顯示的使用者內容功能表。 當使用者在 Windows 檔案總管中，流覽適當類別的物件內容功能表時，就會顯示內容功能表。 從 Windows Server 2003 開始，Windows shell 不會再顯示來自 Active Directory Domain Services 的物件。
 
 所有這些屬性都是多重值。
 
@@ -43,17 +43,17 @@ Active Directory Domain Services 和 Windows shell 的管理 MMC 嵌入式管理
 
 「 &lt; 功能表文字」 &gt; 是顯示在內容功能表中的字串。 「 &lt; 功能表文字」 &gt; 可以在功能表項目的鍵盤快速鍵字元前面加上一個 "&" 字元。 這會導致前面的字元加上底線。 例如，如果「 &lt; 功能表文字」是「&檔案」 &gt; ，則功能表文字會顯示為「檔案」，"f" 將會加上底線，而 "f" 將是功能表項目的鍵盤快速鍵。
 
-「 &lt; 命令」 &gt; 是嵌入式管理單元所執行的程式或檔案。 必須指定完整路徑，或檔案必須存在於電腦路徑環境變數中。 使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) 函式來叫用檔案。 " &lt; Command &gt; " 不能包含其他參數，例如 Notepad.exe Myfile.txt。 由於使用 **ShellExecute** ，任何可傳遞至 **ShellExecute** 的檔案或位址都可以用於 " &lt; command &gt; "。 例如，如果 " &lt; command &gt; " 包含 "d： \\file.txt"，d： \\file.txt 將會使用與 .txt 副檔名相關聯的應用程式開啟。 同樣地，如果 " &lt; command &gt; " 包含 " https://www.fabrikam.com "，就會開啟預設的網頁瀏覽器，並顯示指定的網頁。 允許具有空格的路徑和應用程式名稱。 如果「 &lt; 命令」 &gt; 是應用程式，則會以命令列引數（以空格分隔）來傳遞所選物件的 ADsPath 和類別。
+「 &lt; 命令」 &gt; 是嵌入式管理單元所執行的程式或檔案。 必須指定完整路徑，或檔案必須存在於電腦路徑環境變數中。 使用 [**ShellExecute**](/windows/win32/api/shellapi/nf-shellapi-shellexecutea) 函式來叫用檔案。 " &lt; Command &gt; " 不能包含其他參數，例如 Notepad.exe Myfile.txt。 由於使用 **ShellExecute** ，任何可傳遞至 **ShellExecute** 的檔案或位址都可以用於 " &lt; command &gt; "。 例如，如果 " &lt; command &gt; " 包含 "d： \\file.txt"，d： \\file.txt 將會使用與 .txt 延伸模組相關聯的應用程式開啟。 同樣地，如果 " &lt; command &gt; " 包含 " https://www.fabrikam.com "，就會開啟預設的網頁瀏覽器，並顯示指定的網頁。 允許具有空格的路徑和應用程式名稱。 如果「 &lt; 命令」 &gt; 是應用程式，則會以命令列引數（以空格分隔）來傳遞所選物件的 ADsPath 和類別。
 
 在 Windows shell 中，支援多重選取的內容功能表項目。 在此情況下， &lt; &gt; 會針對每個選取的物件叫用「命令」。 在 Active Directory Domain Services 的「系統管理」嵌入式管理單元中，不支援多重選取的靜態內容功能表項目。
 
 > [!IMPORTANT]
 > 針對 Windows shell，會在使用者登入時抓取顯示規範資料，並為使用者的會話進行快取。 針對系統管理嵌入式管理單元，在載入嵌入式管理單元時，會抓取顯示規範資料，而且會在進程期間進行快取。 針對 Windows shell，這表示在使用者登出後重新登入後，顯示規範的變更會生效。 系統管理嵌入式管理單元的變更會在嵌入式管理單元或主控台檔案重載時生效;也就是說，如果您啟動新的主控台檔案實例或新的 Mmc.exe 實例，並加入嵌入式管理單元，則會抓取最新的顯示規範資料。
 
- 
+ 
 
 如需詳細資訊和程式碼範例，請參閱 [安裝靜態內容功能表項目的範例程式碼](example-code-for-installing-a-static-context-menu-item.md)。
 
- 
+ 
 
- 
+ 

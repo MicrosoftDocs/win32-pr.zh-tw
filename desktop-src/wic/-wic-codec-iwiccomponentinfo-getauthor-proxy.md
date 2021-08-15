@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: f181a567ae4089870d324c7a7e0d67a34b965b5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c83d42f499c8f821f5b342f08749a2167aac9cc61334fe2fc2d9e9134b5e2b49
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118206669"
 ---
 # <a name="iwiccomponentinfo_getauthor_proxy-function"></a>IWICComponentInfo \_ GetAuthor \_ Proxy 函式
 
@@ -46,9 +46,9 @@ HRESULT IWICComponentInfo_GetAuthor_Proxy(
 *這 \_* \[ 中的 PTR\]
 </dt> <dd>
 
-類型： **[**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) \** _
+類型： **[ **IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo)\***
 
-這個 [_ *IWICComponentInfo* *](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo)物件的指標。
+這個 [**IWICComponentInfo**](/windows/desktop/api/Wincodec/nn-wincodec-iwiccomponentinfo) 物件的指標。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ HRESULT IWICComponentInfo_GetAuthor_Proxy(
 *wzAuthor* \[in、out\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 接收元件作者名稱的指標。
 
@@ -72,10 +72,10 @@ HRESULT IWICComponentInfo_GetAuthor_Proxy(
 
 </dd> <dt>
 
-_pcchActual * \[ out\]
+*pcchActual* \[擴展\]
 </dt> <dd>
 
-類型： **UINT \** _
+類型： **UINT \***
 
 接收元件作者名稱實際長度的指標。
 
@@ -83,7 +83,7 @@ _pcchActual * \[ out\]
 
 ## <a name="return-value"></a>傳回值
 
-類型： _ *HRESULT**
+類型： **HRESULT**
 
 如果此函式成功，則會傳回 **S \_ OK**。 否則，它會傳回 **HRESULT** 錯誤碼。
 
@@ -95,8 +95,8 @@ _pcchActual * \[ out\]
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

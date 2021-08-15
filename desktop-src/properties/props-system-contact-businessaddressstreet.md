@@ -4,18 +4,18 @@ ms.assetid: f8f70268-a28d-4b6b-a87c-4bffc89f2b61
 title: BusinessAddressStreet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d9671865c819e378fcd716b8e8848808e8ef99d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 668bceeb1962dc41fffe36697c2c302805f6164120fda12c61fefc7c3cbbe8eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117867140"
 ---
 # <a name="systemcontactbusinessaddressstreet"></a>BusinessAddressStreet
 
 連絡人的公司位址街道。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

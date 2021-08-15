@@ -4,12 +4,12 @@ ms.assetid: ac6ea7a1-238e-42ae-9f10-e1db60381357
 title: 'EC_WMT_EVENT (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a8ce974cd83a404242fb51486f0889ac9b79e044
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ad2ae2659c26d170bef14a76c0528eb5159e92ef3598fb999215e1fbd848ea90
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819921"
 ---
 # <a name="ec_wmt_event-dshowh"></a>EC_WMT_EVENT (Dshow) 
 
@@ -49,7 +49,7 @@ ms.locfileid: "106982940"
 
 | lParam1                       | AM \_ WMT \_ 事件 \_ 資料。 .pdata                                                                                                                       |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-| WMT \_ 取得 \_ 授權         | [**WM \_ 取得 \_ 授權 \_ 資料**](/windows/desktop/wmformat/wm-get-license-data)結構的指標。 此結構記載于 Windows Media Format SDK 中。 |
+| WMT \_ 取得 \_ 授權         | [**WM \_ 取得 \_ 授權 \_ 資料**](/windows/desktop/wmformat/wm-get-license-data)結構的指標。 此結構記載于 Windows 媒體格式 SDK 中。 |
 | WMT \_ 賦予            | [**WM \_ 賦予 \_ 狀態**](/windows/desktop/wmformat/wm-individualize-status)結構的指標。                                                        |
 | WMT \_ 需要具有 \_ 個人化 | **Null**。                                                                                                                                        |
 | WMT \_ 無 \_ 許可權               | 包含挑戰 URL 的寬字元字串指標。                                                                                   |
@@ -65,7 +65,7 @@ ms.locfileid: "106982940"
 
 ## <a name="remarks"></a>備註
 
-如需啟用受 DRM 保護之檔案的播放詳細資訊，請參閱 Windows Media Format SDK 檔。
+如需啟用受 DRM 保護之檔案的播放詳細資訊，請參閱 Windows 媒體格式 SDK 檔。
 
 ## <a name="requirements"></a>規格需求
 

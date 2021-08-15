@@ -4,12 +4,12 @@ ms.assetid: 7c10f0cf-fdaf-41c4-ab0c-fc572a8337ed
 title: 關於授權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eaf0376a0e4fb85ab8b14d6df884497fc1c15d0e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 844c7f96e72d4c80f31c5bc517f17a1bb0cedf976b520d4686155792619f043d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785678"
 ---
 # <a name="about-authorization"></a>關於授權
 

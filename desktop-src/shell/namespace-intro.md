@@ -4,12 +4,12 @@ ms.assetid: 539c4455-e1c7-45a0-b3c3-781f2b7a1617
 title: Shell 命名空間簡介
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e1be0187094ffe7cf7b56b724c5990fe18321fa
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: c758f95934e70abdb525547fda3940cd75ebc9b455fbca2cfdbd38ff962c3b0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118219898"
 ---
 # <a name="introduction-to-the-shell-namespace"></a>Shell 命名空間簡介
 

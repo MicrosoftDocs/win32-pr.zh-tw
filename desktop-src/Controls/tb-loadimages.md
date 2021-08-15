@@ -3,7 +3,7 @@ title: 'TB_LOADIMAGES 訊息 (Commctrl .h) '
 description: 將系統定義的按鈕影像載入工具列控制項的影像清單。
 ms.assetid: 61146f43-9fd9-4fe3-b85c-cf465f2de769
 keywords:
-- TB_LOADIMAGES message Windows 控制項
+- TB_LOADIMAGES 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b0ba6bf75855a0b81ac56438489d7eced3d589
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: df2cfae5e1658dec2652eb68cae4283dd0df697ad055434f1290cc0da7c2b485
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118168194"
 ---
 # <a name="tb_loadimages-message"></a>TB \_ LOADIMAGES 訊息
 
@@ -38,16 +38,16 @@ ms.locfileid: "104466224"
 
 | 值                                                                                                                                                                                | 意義                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| <span id="IDB_HIST_LARGE_COLOR"></span><span id="idb_hist_large_color"></span><dl> <dt>**.IDB \_ >HIST \_ 大型 \_ 色彩**</dt> </dl> | 以大尺寸 Windows 檔案總管點陣圖。<br/>                                  |
-| <span id="IDB_HIST_SMALL_COLOR"></span><span id="idb_hist_small_color"></span><dl> <dt>**.IDB \_ >HIST \_ 小型 \_ 色彩**</dt> </dl> | 以小規模 Windows 檔案總管點陣圖。<br/>                                  |
+| <span id="IDB_HIST_LARGE_COLOR"></span><span id="idb_hist_large_color"></span><dl> <dt>**.IDB \_ >HIST \_ 大型 \_ 色彩**</dt> </dl> | WindowsExplorer 點陣圖大小很大。<br/>                                  |
+| <span id="IDB_HIST_SMALL_COLOR"></span><span id="idb_hist_small_color"></span><dl> <dt>**.IDB \_ >HIST \_ 小型 \_ 色彩**</dt> </dl> | WindowsExplorer 點陣圖的大小很小。<br/>                                  |
 | <span id="IDB_STD_LARGE_COLOR"></span><span id="idb_std_large_color"></span><dl> <dt>**.IDB \_ STD \_ 大型 \_ 色彩**</dt> </dl>    | 大小較大的標準點陣圖。<br/>                                          |
 | <span id="IDB_STD_SMALL_COLOR"></span><span id="idb_std_small_color"></span><dl> <dt>**.IDB \_ STD \_ SMALL \_ COLOR**</dt> </dl>    | 小型的標準點陣圖。<br/>                                          |
 | <span id="IDB_VIEW_LARGE_COLOR"></span><span id="idb_view_large_color"></span><dl> <dt>**.IDB \_ 視圖 \_ 大型 \_ 色彩**</dt> </dl> | 以大尺寸觀看點陣圖。<br/>                                              |
 | <span id="IDB_VIEW_SMALL_COLOR"></span><span id="idb_view_small_color"></span><dl> <dt>**.IDB \_ 視圖 \_ 小 \_ 色彩**</dt> </dl> | 以小尺寸觀看點陣圖。<br/>                                              |
-| <span id="IDB_HIST_NORMAL"></span><span id="idb_hist_normal"></span><dl> <dt>**\_>HIST \_ 一般的 .IDB**</dt> </dl>                 | Windows 檔案總管處於正常狀態的移動按鈕和我的最愛點陣圖。<br/>   |
-| <span id="IDB_HIST_HOT"></span><span id="idb_hist_hot"></span><dl> <dt>**\_>HIST \_ 熱的 .IDB**</dt> </dl>                          | 以作用中狀態 Windows 檔案總管行進按鈕和我的最愛點陣圖。<br/>      |
-| <span id="IDB_HIST_DISABLED"></span><span id="idb_hist_disabled"></span><dl> <dt>**\_ \_ 已停用 .IDB >HIST**</dt> </dl>           | Windows 檔案總管移動按鈕和 [我的最愛] 點陣圖處於停用狀態。<br/> |
-| <span id="IDB_HIST_PRESSED"></span><span id="idb_hist_pressed"></span><dl> <dt>**已 \_ 按下的 .IDB >HIST \_**</dt> </dl>              | Windows 檔案總管按下狀態下的移動按鈕和我的最愛點陣圖。<br/>  |
+| <span id="IDB_HIST_NORMAL"></span><span id="idb_hist_normal"></span><dl> <dt>**\_>HIST \_ 一般的 .IDB**</dt> </dl>                 | WindowsExplorer 行進按鈕和處於正常狀態的我的最愛點陣圖。<br/>   |
+| <span id="IDB_HIST_HOT"></span><span id="idb_hist_hot"></span><dl> <dt>**\_>HIST \_ 熱的 .IDB**</dt> </dl>                          | Windows處於作用中狀態的 Explorer 行進按鈕和我的最愛點陣圖。<br/>      |
+| <span id="IDB_HIST_DISABLED"></span><span id="idb_hist_disabled"></span><dl> <dt>**\_ \_ 已停用 .IDB >HIST**</dt> </dl>           | Windows已停用狀態的 Explorer 行進按鈕和我的最愛點陣圖。<br/> |
+| <span id="IDB_HIST_PRESSED"></span><span id="idb_hist_pressed"></span><dl> <dt>**已 \_ 按下的 .IDB >HIST \_**</dt> </dl>              | WindowsExplorer 行進按鈕和按下的我的最愛點陣圖。<br/>  |
 
 
 
@@ -88,8 +88,8 @@ SendMessage(hWndToolbar, TB_LOADIMAGES, (WPARAM)IDB_STD_SMALL_COLOR, (LPARAM)HIN
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

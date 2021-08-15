@@ -3,7 +3,7 @@ title: step 命令
 description: 步驟命令會逐步執行一或多個畫面的向前或反向播放。 預設動作是向前前進一個畫面格。 數位影片、VCR 和 CAV 格式的 videodisc 裝置都會辨識此命令。
 ms.assetid: 6017ace5-cde9-42a0-bb2f-f85d7847adc5
 keywords:
-- 步驟命令 Windows 多媒體
+- Windows 多媒體的步驟命令
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6203d0b2d5dea401e8197e1261946955cd28618a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7b804ac64c2641ba1eb43ba7019ae2668c04a7d8b07fbfd20ab7b8cb570d8fab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370828"
 ---
 # <a name="step-command"></a>step 命令
 

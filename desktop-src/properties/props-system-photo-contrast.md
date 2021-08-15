@@ -4,12 +4,12 @@ ms.assetid: 32f89149-b90d-4fe9-9d1a-b8bb966d62fe
 title: 對比
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4117f13d35a352971a5f9b9f8685816f8ffbd1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 847eadd54e82ebed60f947b5aac994ad8e2e69c44d82246c8e65ccb70adf0675
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118230368"
 ---
 # <a name="systemphotocontrast"></a>對比
 

@@ -4,12 +4,12 @@ ms.assetid: fdc9e138-2e98-4f01-ab7b-0c3dfad5a4dd
 title: 'simpleLocation url 元素 (搜尋連接器架構) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c40f45ccecb9a1fb81a64f6d749c5050ed1958a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fce95943017f4905414f65b75086d4babdf3750505fece0b73255e0e63623e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118226323"
 ---
 # <a name="simplelocation-url-element-search-connector-schema"></a>simpleLocation url 元素 (搜尋連接器架構) 
 
@@ -62,7 +62,7 @@ ms.locfileid: "106972383"
 
 
 
-下表顯示 Windows 7 的已知資料夾 Guid。
+下表顯示 Windows 7 的已知資料夾 guid。
 
 
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ae6d36c9077665a95512bc5374a35275e690f903
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8cbd1c1ad8d2e75e886252147f4675bfa9ff901fe042a3b49a28a2a96ab2955a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340039"
 ---
 # <a name="editboxborder"></a>編輯方塊。框線
 
@@ -41,7 +41,7 @@ ms.locfileid: "106978781"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

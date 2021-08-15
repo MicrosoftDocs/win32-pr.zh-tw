@@ -4,12 +4,12 @@ ms.assetid: e81f31bb-6314-4493-844a-65032e3cf90b
 title: C2 層級安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1653221b30d6556e4b0c6c1fd2eec194b46d7bf1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 55e6b3ec6070c681ab5b4db2214656dbf3e1f9bbd2a8798e0edc9d29cf72b9bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783614"
 ---
 # <a name="c2-level-security"></a>C2 層級安全性
 

@@ -13,12 +13,12 @@ keywords:
 - 外觀中的主要影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9ceb92a5a87c1fc03ec7336a7ca5dd7814e4a1c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b21483e9b39692ad9eee7eb2cd7958f2fa70ddb7c2926877b84f3f537156bd55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104553901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118341500"
 ---
 # <a name="creating-the-primary-art-file"></a>建立主要藝術檔
 
@@ -40,7 +40,7 @@ ms.locfileid: "104553901"
 
 建立圖層之前，您必須先建立將會保存您的圖層的檔案。 啟動 Photoshop 並建立100圖元高和200圖元寬的新檔案。 用來建立此範例之藝術的檔案稱為 tiny.psd，並且隨附于 SDK。
 
-所有指示都是以 Photoshop 為依據，但只要您可以儲存至 Windows Media Player (BMP、GIF、JPG 和 PNG) 所支援的其中一種檔案格式，就可以使用任何其他藝術程式來建立外觀。 如果您使用具有圖層（例如 Adobe Photoshop、Jasc 油漆店專業版或 Jedor Viscosity）的藝術節目，就可以更輕鬆地建立外觀。 圖層非常有説明，因為影像對應和替代影像的顯示必須適當地對齊影像。
+所有指示都是以 Photoshop 為依據，但只要您可以儲存至 Windows Media Player (BMP、GIF、JPG 和 PNG) 所支援的其中一種檔案格式，就可以使用任何其他藝術程式來建立外觀。 如果您使用具有圖層的美工圖案，例如 Adobe Photoshop、Jasc 小畫家店 Pro 或 Jedor Viscosity，就可以更輕鬆地建立外觀。 圖層非常有説明，因為影像對應和替代影像的顯示必須適當地對齊影像。
 
 ## <a name="skin-background-layer"></a>外觀背景圖層
 
@@ -115,9 +115,9 @@ ms.locfileid: "104553901"
 [**建立您的第一個外觀**](building-your-first-skin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: e43fea25a08969b2ae8169884d51ddc46f8c7136
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6aa28a7a8a6439f27a095033d35e8b066c1488af13d1ade921f16c4143843adf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194718"
 ---
 # <a name="iportabledevicekeycollectionadd-method"></a>IPortableDeviceKeyCollection：： Add 方法
 

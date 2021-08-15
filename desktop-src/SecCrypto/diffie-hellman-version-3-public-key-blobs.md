@@ -4,12 +4,12 @@ ms.assetid: ba29a71a-7509-49c7-93d2-f0a699532706
 title: Diffie-Hellman 第3版公開金鑰 Blob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df7228e4b4a786dc0eb25d1ba199b5c20923dd8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21515e370fba1c63ab3d852a88ad45b974683a3ca5ba3c3ad258733593fb6e5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767415"
 ---
 # <a name="diffie-hellman-version-3-public-key-blobs"></a>Diffie-Hellman 第3版公開金鑰 Blob
 

@@ -4,16 +4,16 @@ description: Play 方法
 ms.assetid: 7e89341a-b4d3-4bea-8e7f-31c649ff06b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1d06f4275d7b4c0959a59536c8b20a95c14ab1c
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 980c13cbf11e86a25485558fb3ff2ade703010eb180e86291f206ea152f3c0be
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "106967303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118247084"
 ---
 # <a name="play-method-legacy-windows-environment-features"></a> (舊版 Windows 環境功能的 Play 方法) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

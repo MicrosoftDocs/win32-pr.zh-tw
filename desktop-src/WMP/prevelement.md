@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c9c47a8351111d66677328da67a85f7b7fe9e255
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af51220b831e005a2930a781f56c9b7a2f802acf0e6e7501fb1854f23c34b416
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994213"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334461"
 ---
 # <a name="prevelement"></a>PREVELEMENT
 

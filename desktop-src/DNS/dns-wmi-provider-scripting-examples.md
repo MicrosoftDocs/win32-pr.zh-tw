@@ -6,12 +6,12 @@ keywords:
 - 網域名稱系統，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27cde2587276e66d4afb98842d6c85d7d2f92fe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 15ad037d7f1d395673924477f1a657e4003f4045179818af69f31ac7cb6549d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118163857"
 ---
 # <a name="dns-wmi-provider-scripting-examples"></a>DNS WMI 提供者腳本範例
 
@@ -29,11 +29,11 @@ ms.locfileid: "104462380"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

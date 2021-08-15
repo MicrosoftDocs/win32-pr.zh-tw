@@ -4,12 +4,12 @@ ms.assetid: vs|directx_sdk|~\texture_coordinates.htm
 title: " (Direct3D 9) 的材質座標"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dcf4c886c187aaa2218508a180e23644a544739
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 06ff2c2c86eebac77d910b5dc6c583df380f0bbb2ccb3dca2fc65b9e929e7abb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118519792"
 ---
 # <a name="texture-coordinates-direct3d-9"></a> (Direct3D 9) 的材質座標
 

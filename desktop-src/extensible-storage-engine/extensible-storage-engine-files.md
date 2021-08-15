@@ -1,27 +1,27 @@
 ---
-description: 深入瞭解：可擴充儲存引擎檔案
-title: 可擴充儲存引擎檔案
+description: 深入瞭解：可擴充的儲存體引擎檔案
+title: 可擴充的儲存體引擎檔案
 TOCTitle: Extensible Storage Engine Files
 ms:assetid: b89a8f78-f2c4-4cbf-a000-a95c34589033
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294069(v=EXCHG.10)
 ms:contentKeyID: 32765684
 ms.date: 09/22/2016
 ms.topic: article
-ms.openlocfilehash: c27bb0104c5923496c5dd7962ef4a9bacdc90af4
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: a955da455cb2a2397010fd7869f6320970ef9f85ac1e1602f4439239dc56b167
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106992662"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118256299"
 ---
-# <a name="extensible-storage-engine-files"></a>可擴充儲存引擎檔案
+# <a name="extensible-storage-engine-files"></a>可擴充的儲存體引擎檔案
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-files"></a>可擴充儲存引擎檔案
+## <a name="extensible-storage-engine-files"></a>可擴充的儲存體引擎檔案
 
-可擴充儲存引擎會使用下列類型的檔案：
+可擴充的儲存體引擎會使用下列類型的檔案：
 
 - [交易記錄檔](#transaction-log-files)
 
@@ -37,7 +37,7 @@ _**適用于：** Windows |Windows Server_
 
 - [清除對應檔](#flush-map-files)
 
-下表包含由 ESE 管理之資料檔案名稱的總覽。 若為 Windows Vista 和更新版本，JET_paramLegacyNames 設定會影響所使用的檔案名。
+下表包含由 ESE 管理之資料檔案名稱的總覽。 針對 Windows Vista 和更新版本，JET_paramLegacyNames 設定會影響所使用的檔案名。
 
 <table xmlns="https://www.w3.org/1999/xhtml">
   <tr>
@@ -45,17 +45,17 @@ _**適用于：** Windows |Windows Server_
       <p>作業系統</p>
     </th>
     <th>
-      <p>Windows Server 2003 及更早版本<br /><br /></p>
+      <p>WindowsServer 2003 及更早版本<br /><br /></p>
     </th>
     <th colspan="2">
       <p></p>
-      <p>Windows Vista 和更新版本 (用戶端)  <br />
-Windows Server 2008 和更新版本 (Server) 
+      <p>WindowsVista 和更新版本 (用戶端)  <br />
+WindowsServer 2008 和更新版本 (server) 
 </p>
     </th>
     <th>
-      <p>Windows 10 年度更新版和更新版本 (用戶端)  <br />
-Windows Server 2016 和更新版本 (Server) 
+      <p>Windows 10年度更新版和更新版本 (用戶端)  <br />
+Windows Server 2016 和更新版本 (伺服器) 
 </p>
     </th>
   </tr>
@@ -223,7 +223,7 @@ Windows Server 2016 和更新版本 (Server)
 
 交易記錄檔包含對資料庫檔案的作業。 它們包含足夠的資訊，可在非預期的進程終止或系統關機之後，讓資料庫保持邏輯一致的狀態。
 
-記錄檔的名稱相依于三個字母的基底名稱，可使用 [JET_paramBaseName](./transaction-log-parameters.md)設定。 下列範例會使用 "edb" 的基底名稱，因為這是預設的基底名稱。 交易記錄檔的副檔名會是 .log 或. jtx，視 JET_bitESE98FileNames 是否在 JET_paramLegacyFileNames 參數中設定而定。 如需詳細資訊，請參閱 [可擴充儲存引擎系統參數](./extensible-storage-engine-system-parameters.md)。
+記錄檔的名稱相依于三個字母的基底名稱，可使用 [JET_paramBaseName](./transaction-log-parameters.md)設定。 下列範例會使用 "edb" 的基底名稱，因為這是預設的基底名稱。 交易記錄檔的副檔名會是 .log 或. jtx，視 JET_bitESE98FileNames 是否在 JET_paramLegacyFileNames 參數中設定而定。 如需詳細資訊，請參閱[可擴展的儲存體引擎系統參數](./extensible-storage-engine-system-parameters.md)。
 
 交易記錄檔的名稱為 \<base\> \<generation-number\> .log，從1開始。 記錄產生編號採用十六進位格式。 例如，edb00001 是第一個記錄檔，而 edb000ff 則是255th 記錄。 記錄檔的記錄檔名稱中有五個十六進位數位，在1048576th 記錄檔之前，記錄檔的開頭是以11.3 格式命名 (例如 edb00100000) 。 \<base\>.log 一律是目前正在使用的記錄檔。 如果資料庫引擎不在使用中，則可以使用下列命令來識別世代的世代： **esentutl.exe-ml .edb**. a. log。
 
@@ -231,7 +231,7 @@ Windows Server 2016 和更新版本 (Server)
 
 記錄檔是固定大小，可透過 [JET_paramLogFileSize](./transaction-log-parameters.md)自訂。 當目前的記錄檔 (時，將會填入 .edb) ，它會重新命名為 \<base\> \<generation-number\> .log，而交易記錄資料流程中需要新的交易記錄檔。
 
-每個資料庫實例都有與其相關聯的單一記錄檔順序。 Windows XP 引進了 [JetCreateInstance](./jetcreateinstance-function.md)，可讓單一進程使用多個交易記錄檔順序。 但是，不能有多個交易記錄檔順序存在於相同的目錄中。
+每個資料庫實例都有與其相關聯的單一記錄檔順序。 WindowsXP 引進了[JetCreateInstance](./jetcreateinstance-function.md)，可讓單一進程使用多個交易記錄檔順序。 但是，不能有多個交易記錄檔順序存在於相同的目錄中。
 
 交易記錄檔幾乎不應手動操作、重新命名、移動或刪除，因為可能會導致資料損毀。
 
@@ -289,7 +289,7 @@ Windows Server 2016 和更新版本 (Server)
 
 Esentutl.exe 的程式可以使用 "-mh" 選項來偵測資料庫是否已完全關閉。 例如，"esentutl.exe mh sample" 將會讀取名為 sample 之資料庫的資料庫標頭，並印出範例 .edb 的狀態。 它可能會印出「狀態：乾淨關機」或「狀態：中途關機」。
 
-未完全關機的資料庫處於中途關機狀態。 在 Windows XP 之前，此狀態稱為「 *不一致*」。 不一致的 (不一致的) 資料庫可透過軟復原進入乾淨狀態。 損毀的資料庫與 ( 「不一致」的 ) 資料庫不同。
+未完全關機的資料庫處於中途關機狀態。 在 Windows XP 之前，此狀態稱為「*不一致*」。 不一致的 (不一致的) 資料庫可透過軟復原進入乾淨狀態。 損毀的資料庫與 ( 「不一致」的 ) 資料庫不同。
 
 損毀的資料庫指的是實體或邏輯損毀，而且無法使用軟修復來修正。 實體損毀可以是位翻轉，通常會由資料庫頁面上的總和檢查碼捕捉。 資料庫檔案中的總和檢查碼失敗，會將本身列為 JET_errReadVerifyFailure 錯誤。
 
@@ -307,7 +307,7 @@ Temptables 是使用 [JetOpenTempTable](./jetopentemptable-function.md)、 [JetO
 
 ## <a name="flush-map-files"></a>清除對應檔
 
-從 Windows 10 年度更新版 (用戶端) 和 Windows Server 2016 (Server) 開始，ESE 新增額外的保護層級，以防止遺失寫入 (或遺失排清) 1，讓它能夠偵測這類事件跨進程重新 initialization2。 這項功能需要將中繼資料保存到稱為「排清對應」檔案的個別檔案。
+從 Windows 10 周年更新 (用戶端) 和 Windows Server 2016 (伺服器) ，ESE 新增額外的保護層級，以防止遺失寫入 (或遺失排清) 1，讓它能夠偵測這類事件跨進程重新 initialization2。 這項功能需要將中繼資料保存到稱為「排清對應」檔案的個別檔案。
 
 為每個資料庫檔案建立一個排清對應檔案，而且位於相同的目錄中。 檔案的命名方式與資料庫檔案類似，但副檔名不同。 例如，如果用戶端應用程式建立具有完整路徑 C： \\ MyDirectory MyDabatase 的資料庫 \\ ，其對應的排清對應檔案為 c： \\ MyDirectory \\ MyDabatase. jfm。
 
@@ -333,4 +333,4 @@ Temptables 是使用 [JetOpenTempTable](./jetopentemptable-function.md)、 [JetO
 
 1遺失的寫入 (或遺失排清) 定義為寫入作業，該作業會從作業系統成功傳回至 ESE 資料庫引擎，但實際資料永遠不會保存到非暫時性媒體中的資料庫檔案。 這通常是因為存放裝置堆疊的故障或設定不正確所致 (軟體或硬體) 。 如果資料位於進行遺失寫入事件的區域中，用戶端應用程式可能會從需要從資料庫讀取資料的 ESE 函數收到 [JET_errReadLostFlushVerifyFailure](./extensible-storage-engine-error-codes.md) 錯誤。
 
-2在進程存留期內偵測遺失寫入的功能，在 Windows 8 (用戶端) 和 Windows Server 2012 (Server) 之後已經存在。
+2在進程存留期內偵測遺失寫入的功能已經存在，因為 Windows 8 (用戶端) 和 Windows Server 2012 (伺服器) 。

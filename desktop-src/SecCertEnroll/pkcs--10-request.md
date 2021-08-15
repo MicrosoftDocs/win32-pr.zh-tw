@@ -4,12 +4,12 @@ ms.assetid: a71cd259-e5b0-42ee-a26c-fd949386ff9d
 title: PKCS \# 10 要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86fafe438da6be82adf2c4669bce4838015beb6e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 931d8483391864cb2a47b527b71a2e392fcc1dd72eceea88de1f5112ccf09f5b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106992592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774637"
 ---
 # <a name="pkcs-10-request"></a>PKCS \# 10 要求
 

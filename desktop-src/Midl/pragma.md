@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 72f5e1c00c089bc8915adc2d9f3363305c677a96
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 0ca869acddf4b0a0a098707833e889efcfccc267a3abf1949921c550cf66c773
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383496"
 ---
 # <a name="pragma-attribute"></a>pragma 屬性
 
@@ -117,9 +117,9 @@ cpp_quote("#define __DELAYED_PREPROCESSING__ 1")
 [**/Zp**](-zp.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

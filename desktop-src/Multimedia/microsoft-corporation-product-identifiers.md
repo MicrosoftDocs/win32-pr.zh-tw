@@ -3,18 +3,18 @@ title: Microsoft Corporation 產品識別碼
 description: Microsoft Corporation 產品識別碼
 ms.assetid: ef5403ea-1aaf-4791-865a-49d9feb44a4f
 keywords:
-- Windows 多媒體，產品識別碼
+- Windows 多媒體、產品識別碼
 - 多媒體、產品識別碼
 - 產品識別碼
 - 多媒體產品識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e3bfd9c777281a07ebd25b6b0df3f0f4336ea638
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b0edba7b1c7cfb0716726ac15c4cf0154b7fe6d08d31667c1296f8fadcaefd48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117802828"
 ---
 # <a name="microsoft-corporation-product-identifiers"></a>Microsoft Corporation 產品識別碼
 
@@ -62,11 +62,11 @@ ms.locfileid: "104372148"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

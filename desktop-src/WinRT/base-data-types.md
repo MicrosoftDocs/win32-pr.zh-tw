@@ -1,17 +1,17 @@
 ---
 description: 下表列出 Windows 執行階段所支援的基底資料類型，並指出 C \# 、Visual Basic 和 c + + 中的對應類型。
 ms.assetid: B5735851-EC07-48C1-92B4-CA9F768096F6
-title: Windows 執行階段基底資料類型
+title: Windows執行時間基底資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9c9c75d257194d5684d66cdf9b96abebd2b51ac8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b9b7b088c99bf64cceff531882d5331d79e26a1d44ee0e33278ab5db7e606a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741652"
 ---
-# <a name="windows-runtime-base-data-types"></a>Windows 執行階段基底資料類型
+# <a name="windows-runtime-base-data-types"></a>Windows執行時間基底資料類型
 
 下表列出 Windows 執行階段所支援的基底資料類型，並指出 C \# 、Visual Basic 和 c + + 中的對應類型。
 
@@ -47,7 +47,7 @@ ms.locfileid: "106991998"
 
  
 
-下表指出對應至 Windows 執行階段資料類型的 .NET 類型。
+下表指出對應至 Windows 執行階段資料類型的 .net 類型。
 
 
 

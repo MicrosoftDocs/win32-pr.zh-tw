@@ -1,5 +1,5 @@
 ---
-description: 當您想要擴充 Windows 檔案總管（這是 Windows Shell UI 中許多擴充性選項的其中一個）時，請瞭解一般概念。
+description: 當您想要擴充 Windows 檔案總管（Windows Shell UI 中的許多擴充性選項之一）時，請瞭解一般概念。
 title: Common Explorer 概念
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: db9b46bf944992a16b6a1b8a9bcad581ec7d661b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5bd0c641e1e265b50180aa6ce4e98eeafbf3f6dc86f4f499dee5267161842e9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118050519"
 ---
 # <a name="common-explorer-concepts"></a>Common Explorer 概念
 

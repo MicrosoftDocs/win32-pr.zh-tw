@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 27faecf50381b098dfcbee34d1494e37c77a36ea
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: badb0678faa85b70dfa848bba7538319b905feea440339e24285f3d64b59d61c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823158"
 ---
 # <a name="cbasepropertypagegetpageinfo-method"></a>CBasePropertyPage. GetPageInfo 方法
 

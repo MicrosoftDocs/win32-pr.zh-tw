@@ -4,12 +4,12 @@ ms.assetid: f72e372a-0d23-47f4-8518-1296ec81ce55
 title: 協同作業 API 列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3504e36d96a920452aef1a8dfeb0724aea127c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34d7c48a4df10941eeef51e20c52e84a2a9ef94a61c381376000666cfb6c9648
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944289"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794586"
 ---
 # <a name="collaboration-api-enumerations"></a>協同作業 API 列舉
 

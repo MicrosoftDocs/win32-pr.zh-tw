@@ -4,12 +4,12 @@ ms.assetid: 1dc2fab9-b044-4ae3-8c16-fa450f9ef714
 title: 'PHONEPRIVILEGE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d6d04c074e03d6f0b7f7a6c58e4268e0bd5057a0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae9b3f3848af8c9858522bd924ccb77d7bf1682f09b66c0cfdcb5527b93416dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761290"
 ---
 # <a name="phoneprivilege_-constants"></a>PHONEPRIVILEGE \_ 常數
 
