@@ -4,12 +4,12 @@ ms.assetid: 00683d3f-3e3c-4ee4-9aec-a0d7fd9c8941
 title: " (Direct3D 9) 的材質換行"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7c0f8cb6d7793536999d5f3df128849572d3dd
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a6c29ebe78bcfa237f46eacb247432185adedd1e53ae0774e767807269bb3bb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119984723"
 ---
 # <a name="texture-wrapping-direct3d-9"></a> (Direct3D 9) 的材質換行
 

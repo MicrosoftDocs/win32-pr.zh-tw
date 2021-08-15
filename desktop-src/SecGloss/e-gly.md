@@ -25,14 +25,14 @@ ms.locfileid: "118895628"
 
 </dd> <dt>
 
-<span id="_security_ecc_gly"></span><span id="_SECURITY_ECC_GLY"></span>**Ecc**
+<span id="_security_ecc_gly"></span><span id="_SECURITY_ECC_GLY"></span>**ECC**
 </dt> <dd>
 
 請參閱 *橢圓曲線密碼* 編譯。
 
 </dd> <dt>
 
-<span id="_security_efs_gly"></span><span id="_SECURITY_EFS_GLY"></span>**Efs**
+<span id="_security_efs_gly"></span><span id="_SECURITY_EFS_GLY"></span>**EFS**
 </dt> <dd>
 
 請參閱 *加密檔案系統*。

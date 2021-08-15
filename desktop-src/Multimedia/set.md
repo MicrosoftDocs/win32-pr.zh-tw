@@ -578,7 +578,7 @@ set mysound time format ms bitspersample 8 channels 1 samplespersec 11025
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

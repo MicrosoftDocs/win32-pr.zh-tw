@@ -4,12 +4,12 @@ ms.assetid: D9AEDA9D-D6EB-4567-8C12-362DA0F17667
 title: 直接操作參考
 ms.topic: article
 ms.date: 02/03/2020
-ms.openlocfilehash: a9845d030fdb577b5c5f959207224c2636560263
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c0780677c213a57dcf3abac6dbfb2be8fb5aa7f6ad73eb334b82a93eedcea635
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106976997"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504303"
 ---
 # <a name="direct-manipulation-reference"></a>直接操作參考
 

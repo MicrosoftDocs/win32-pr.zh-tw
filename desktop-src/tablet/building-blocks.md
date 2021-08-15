@@ -4,12 +4,12 @@ ms.assetid: 76d42a3d-22f5-47f9-89e8-7c5c098ac62e
 title: 建置組塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b32e6121ddfaabfc860239019ce62df65bdc36c1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7dbf34cc0159bdf2efe9b68255292a8b644ab10e684f44c11fa60d484bd45516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971979"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119714288"
 ---
 # <a name="building-blocks"></a>建置組塊
 

@@ -4,16 +4,16 @@ description: IAgentNotifySink RequestComplete
 ms.assetid: 995bc961-f175-4429-94a4-91962161298b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0265a7111369dec687fd74b9c66c27275a40e164
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7c797232ca968261c5857bec8953c6c76375bafc849b17ebe21bc8f353698f02
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976168"
 ---
 # <a name="iagentnotifysinkrequestcomplete"></a>IAgentNotifySink::RequestComplete
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT RequestComplete(
@@ -49,9 +49,9 @@ HRESULT RequestComplete(
 [**IAgentNotifySink：： RequestStart**](iagentnotifysink--requeststart.md)、 [**IAgent：： Load**](iagent--load.md)、 [**IAgentCharacter：： GestureAt**](iagentcharacter--gestureat.md)、 [**IAgentCharacter：： Hide**](iagentcharacter--hide.md)、 [**IAgentCharacter：：中斷**](iagentcharacter--interrupt.md)、 [**IAgentCharacter：： MoveTo**](iagentcharacter--moveto.md)、 [**IAgentCharacter：:P 準備**](iagentcharacter--prepare.md)、 [**IAgentCharacter：:P**](iagentcharacter--play.md)配置、 [**IAgentCharacter：： Show**](iagentcharacter--show.md)、 [**IAgentCharacter：：說話**](iagentcharacter--speak.md)、 [**IAgentCharacter：： Wait**](iagentcharacter--wait.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

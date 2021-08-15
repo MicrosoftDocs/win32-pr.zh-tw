@@ -7,12 +7,12 @@ keywords:
 - 靜態連結的輔助類別 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d1ef6191834687fc2b7741f097f6bfe75b5ef31
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce00592052b1b52f82e2758fdfd7241c6bd24233ce6db6c11389165eeaa5e843
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024716"
 ---
 # <a name="statically-linked-auxiliary-classes"></a>靜態連結的輔助類別
 
@@ -22,9 +22,9 @@ ms.locfileid: "103671224"
 
 具有延伸架構所需許可權的特殊許可權使用者，可以從現有 **classSchema** 物件的 **systemAuxiliaryClass** 屬性新增或移除輔助類別。 這樣做會從物件類別的每個現有實例加入或移除輔助類別。 此時靜態連結的輔助類別可以有選擇性屬性，但不能有必要的屬性。 這是因為可能有物件類別的現有實例，在這種情況下，加入新的強制屬性會造成問題。 具有特殊許可權的使用者之後可以從 **classSchema** 物件的 **auxiliaryClass** 屬性中移除輔助類別。
 
- 
+ 
 
- 
+ 
 
 
 

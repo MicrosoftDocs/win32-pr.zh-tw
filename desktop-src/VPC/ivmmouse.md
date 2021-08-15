@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7041b8a28b924ffedc8ff23edd2b04afdaa78be2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 912365065b639f3c970390746c8e23ae1fc33648ecdf14278365290c503da26d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118998848"
 ---
 # <a name="ivmmouse-interface"></a>IVMMouse 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 控制虛擬機器 (VM) 內的滑鼠裝置。 您可以使用 [**IVMVirtualMachine：：滑鼠**](ivmvirtualmachine-mouse.md)屬性來抓取虛擬機器的 **IVMMouse** 。 滑鼠裝置的座標可以用絕對座標或 delta 座標表示。 您可以使用 [**UsingAbsoluteCoordinates**](ivmmouse-usingabsolutecoordinates.md) 屬性來區別兩個座標標記法。 請注意，只有在客體作業系統已安裝整合元件時，才支援抓取目前的資料指標位置和絕對座標的使用。
 
@@ -74,7 +74,7 @@ ms.locfileid: "103844148"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

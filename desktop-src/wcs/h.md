@@ -3,18 +3,18 @@ title: H
 description: H
 ms.assetid: ef592c79-52cd-4a61-a8f3-ca7f1433cf47
 keywords:
-- Windows Color System (WCS) ，詞彙
+- WindowsColor System (WCS) ，詞彙
 - WCS (Windows 色彩系統) ，詞彙
 - 影像色彩管理，詞彙
 - 色彩管理，詞彙
 - 色彩，詞彙
-- Windows Color System (WCS) ，定義
-- WCS (Windows 色彩系統) ，定義
+- Windows色彩系統 (WCS) 、定義
+- WCS (Windows 色彩系統) 、定義
 - 影像色彩管理、定義
 - 色彩管理，定義
 - 色彩、定義
-- Windows Color System (WCS) ，詞彙
-- WCS (Windows 色彩系統) ，詞彙
+- Windows色彩系統 (WCS) ，詞彙
+- WCS (Windows 色彩系統) 、詞彙
 - 影像色彩管理，詞彙
 - 色彩管理，詞彙
 - 色彩、詞彙
@@ -31,12 +31,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45c0b57b972f5cecfb26bc25c69a766a84b168bb
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 846b60e728396134c04328add7cd4930e806ff62af73f6b47c22d8b8afe4eb0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106991379"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119711008"
 ---
 # <a name="h"></a>H
 
@@ -48,7 +48,7 @@ ms.locfileid: "106991379"
 
 演出者常用的色彩空間。 其元件為色調、亮度和飽和度 (色度) 。
 
-## <a name="hsv"></a>Hsv
+## <a name="hsv"></a>HSV
 
 演出者常用的色彩空間。 它的元件包括色調、飽和度 (色度) 和值 (亮度) 。
 

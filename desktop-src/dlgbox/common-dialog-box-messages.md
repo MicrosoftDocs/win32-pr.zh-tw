@@ -4,12 +4,12 @@ description: . |一般對話方塊訊息
 ms.assetid: f08c19f8-c18d-4094-b8b6-161b0ceea239
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e724e48b199bcb98691ad4ae4eb7bb8029b565de
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 511f76d7da4f071e2f3a6766a10cf0486d3a969907f41959e8d617dbb51cb3c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103853903"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503595"
 ---
 # <a name="common-dialog-box-messages"></a>一般對話方塊訊息
 

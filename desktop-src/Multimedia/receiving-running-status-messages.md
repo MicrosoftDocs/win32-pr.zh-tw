@@ -8,12 +8,12 @@ keywords:
 - 正在錄製 MIDI 音訊，執行狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0a4d12a19f525a6fa673747063774bf4507d65b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8f4d782e1e25c718ddd177d1d9baf471d0715d70680b65920052e85d6fffc551
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118371343"
 ---
 # <a name="receiving-running-status-messages"></a>接收 Running-Status 訊息
 
@@ -26,9 +26,9 @@ ms.locfileid: "104371889"
 [錄製 MIDI 音訊](recording-midi-audio.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

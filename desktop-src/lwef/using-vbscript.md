@@ -4,16 +4,16 @@ description: 使用 VBScript
 ms.assetid: a078eb60-aa12-42ea-850c-7b845fc8037c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691ed6bf520c83e4b679bb174274abb984eaa2f8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7afa94bd5b3576e80cf8a0c17857bbb0902bd254e95113d87ae9d1d1fca1e38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183633"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118975498"
 ---
 # <a name="using-vbscript"></a>使用 VBScript
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 VBScript 是 Microsoft Internet Explorer 隨附的程式設計語言。 針對其他瀏覽器，請洽詢您的廠商以取得支援。 建議將 VBScript 2.0 (或更新版本的) 用於代理程式。 雖然舊版的 VBScript 可能可與 Agent 搭配使用，但卻缺少您可能想要使用的某些功能。 您可以從 Microsoft 下載網站和 Microsoft VBScript 網站下載 VBScript 2.0，並取得 VBScript 的進一步資訊。
 
@@ -77,9 +77,9 @@ End Function
 </SCRIPT>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

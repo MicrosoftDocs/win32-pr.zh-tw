@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2e693c8b17345d3ba7875d48b83b5e3e90d682dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c67f4321d85ec52babbc6f24c2cd9e3512f7c970eb3360ba2ddfd7ba53f82152
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996318"
 ---
 # <a name="media-element"></a>媒體元件
 
@@ -62,7 +62,7 @@ ms.locfileid: "106988234"
 
 ## <a name="remarks"></a>備註
 
-**Cid** 屬性 (內容識別碼) 是由 Windows Media Player 填入，以唯一識別媒體內容的一部分，即使其中繼資料屬性已變更也是一樣。 這可讓您在電腦上共用播放清單，因為內容可以在另一部電腦上識別，而 Windows Media 播放清單可以「自動修復」內容的路徑。 當檔案的名稱或位置變更時，) 使用 Windows 檔案系統來自動修復媒體的路徑，則 [ **tid** ] 屬性 (追蹤識別碼。
+**cid** 屬性 (內容識別碼) 是由 Windows Media Player 填入，以唯一識別媒體內容的一部分，即使其中繼資料屬性已變更也是一樣。 這可讓您在電腦上共用播放清單，因為內容可以在另一部電腦上識別，且 Windows 媒體播放清單可以「自動修復」的路徑。 當檔案的名稱或位置變更時，) 使用 Windows 檔案系統來自動修復媒體的路徑， (追蹤識別碼的 **tid** 屬性。
 
 ## <a name="examples"></a>範例
 
@@ -95,7 +95,7 @@ ms.locfileid: "106988234"
 [**seq 元素**](seq-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

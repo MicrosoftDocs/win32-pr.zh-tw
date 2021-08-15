@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 95f161143cf599dcfbc71b2e55764009ec5d4e67
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7d563ea49629c2ae4eee517c503f866672c3bd18d9d75bd4602e5bb70ed78a5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997088"
 ---
 # <a name="downloadcollectioncount"></a>DownloadCollection 計數
 

@@ -14,12 +14,12 @@ api_type:
 - IDLDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb4a9de34f358db96b468dbd3329483a8e09b6b7
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e96b7d3892d0344b166665426c66313da370aed1abbdb80c17037ea6aeb44e46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118472994"
 ---
 # <a name="transportstatus-enumeration"></a>TransportStatus 列舉
 
@@ -77,7 +77,7 @@ typedef enum TransportStatus {
 
 | 需求 | 值 |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| Idl<br/> | <dl> <dt> (參考) 的 windows...。 </dt> </dl> |
+| IDL<br/> | <dl> <dt>Windows。 (參考 Windows 的參考。) 的串流 .idl</dt> </dl> |
 
 
 

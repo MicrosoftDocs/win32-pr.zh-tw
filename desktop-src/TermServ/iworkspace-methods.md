@@ -5,12 +5,12 @@ ms.assetid: 10189F81-84BF-45EF-B43F-9F19A2DEF1AB
 ms.tgt_platform: multiple
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e83595b682e1737c236aa9e068491929518b33bf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b99fa1e7b0184e0e2aec871377e568d240b6822e67f6c8643c769d32269407b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119989598"
 ---
 # <a name="iworkspace-methods"></a>IWorkspace 方法
 
@@ -22,9 +22,9 @@ ms.locfileid: "106965391"
 -   [**GetWorkspaceNames 方法**](/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-getworkspacenames)
 -   [**StartRemoteApplication 方法**](/windows/desktop/api/workspaceruntime/nf-workspaceruntime-iworkspace-startremoteapplication)
 
- 
+ 
 
- 
+ 
 
 
 

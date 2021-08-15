@@ -10,12 +10,12 @@ keywords:
 - 元素、控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4bbb127bd5a9327d0752069b69470e31d719733b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b0d4cd5da8d29e84506899f14209d276d6c2bfda407fa45a2372cd81d0d7ee8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103675312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997508"
 ---
 # <a name="controls-element"></a>CONTROLS 元素
 
@@ -34,7 +34,7 @@ ms.locfileid: "103675312"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -46,9 +46,9 @@ ms.locfileid: "103675312"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

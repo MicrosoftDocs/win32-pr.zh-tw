@@ -4,12 +4,12 @@ ms.assetid: b5b97700-c98a-4394-a184-661852add0b4
 title: 'MF_MT_AUDIO_VALID_BITS_PER_SAMPLE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d4e5efb41bf3b79d4feded2872b601eea43723a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b6f84fa3938e4d74473da70bd28e5ccbb1bab71441c694b670cdb8b54bead31c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118973577"
 ---
 # <a name="mf_mt_audio_valid_bits_per_sample-attribute"></a>\_ \_ \_ \_ \_ 每個 \_ 樣本屬性的 MF MT 音訊有效位數
 
@@ -37,8 +37,8 @@ ms.locfileid: "104320944"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

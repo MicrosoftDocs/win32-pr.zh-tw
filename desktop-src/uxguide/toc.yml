@@ -104,7 +104,7 @@
           href: win-common-dlg.md
         - name: 精靈
           href: win-wizards.md
-        - name: 屬性視窗
+        - name: 屬性 Windows
           href: win-property-win.md
     - name: 視覺效果
       href: visuals.md
@@ -147,7 +147,7 @@
           href: winenv-notification.md
         - name: 控制台
           href: winenv-ctrl-panels.md
-        - name: Help
+        - name: 說明
           href: winenv-help.md
         - name: 使用者帳戶控制
           href: winenv-uac.md

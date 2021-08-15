@@ -59,7 +59,7 @@ ms.locfileid: "118883335"
 | 屬性                                   | 描述                                                                                         |
 |:-------------------------------------------|:----------------------------------------------------------------------------------------------------|
 | [**計數**](counters-count.md)<br/> | 抓取集合中 [**CounterItem**](counteritem.md) 實例的數目。<br/>  |
-| [**Item**](counters-item.md)<br/>   | 從集合中抓取指定的 [**CounterItem**](counteritem.md) 實例。<br/> |
+| [**項目**](counters-item.md)<br/>   | 從集合中抓取指定的 [**CounterItem**](counteritem.md) 實例。<br/> |
 
 
 

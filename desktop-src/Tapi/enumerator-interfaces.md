@@ -4,12 +4,12 @@ ms.assetid: 5281aaf8-9774-4332-8861-1f97cf378f42
 title: 列舉值介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e94845c2c3236e04bf1ab61e08f94fc351cac264
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5204e6e2c10f7dccb561188460cc3b55bc993360a1df78ce2ac7094315e17b3f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690488"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117945537"
 ---
 # <a name="enumerator-interfaces"></a>列舉值介面
 

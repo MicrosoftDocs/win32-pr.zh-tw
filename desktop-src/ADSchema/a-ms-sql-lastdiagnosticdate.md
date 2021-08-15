@@ -1,11 +1,11 @@
 ---
-title: LastDiagnosticDate 屬性
+title: LastDiagnosticDate 屬性的 MS SQL
 description: DBCC checkdb 上次執行的日期。
 ms.assetid: 7060e111-e4cb-4c5a-bce1-32712cbea00e
 ms.tgt_platform: multiple
 keywords:
-- LastDiagnosticDate 屬性 AD 架構
-- LastDiagnosticDate 屬性 AD 架構
+- LastDiagnosticDate 屬性 AD 架構的 MS SQL
+- LastDiagnosticDate 屬性 AD 架構的 mS SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f25b8322a9f83b96c0ab4883478e6c0ffa2f3b49
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d0a0f752673692be98e4033e7555653a2e1ac7376f63b26ff8c2c44ddccc8567
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103686836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961117"
 ---
-# <a name="ms-sql-lastdiagnosticdate-attribute"></a>LastDiagnosticDate 屬性
+# <a name="ms-sql-lastdiagnosticdate-attribute"></a>LastDiagnosticDate 屬性的 MS SQL
 
 DBCC checkdb 上次執行的日期。
 
@@ -29,8 +29,8 @@ DBCC checkdb 上次執行的日期。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | LastDiagnosticDate                   |
-| Ldap-顯示名稱 | LastDiagnosticDate                   |
+| CN                | 毫秒-SQL-LastDiagnosticDate                   |
+| Ldap-顯示名稱 | 毫秒-SQL-LastDiagnosticDate                   |
 | 大小              | \-                                          |
 | 更新許可權  | 此值是由系統所設定。            |
 | 更新頻率  | 當 DBCC checkdb 執行時。                   |
@@ -58,7 +58,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -66,7 +66,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -87,7 +87,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -108,7 +108,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -129,7 +129,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -150,7 +150,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ DBCC checkdb 上次執行的日期。
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -171,7 +171,7 @@ DBCC checkdb 上次執行的日期。
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 

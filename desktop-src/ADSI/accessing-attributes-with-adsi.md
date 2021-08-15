@@ -7,12 +7,12 @@ keywords:
 - 使用 ADSI 存取的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4ee6990483b45e335bb6b830cef85e482f30e00
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 3e37c63b61986a56e7b22f114b5956d9e047f1ae45b5dc2e653074ea35440f10
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106966887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024126"
 ---
 # <a name="accessing-attributes-with-adsi"></a>使用 ADSI 存取屬性
 
@@ -25,9 +25,9 @@ ms.locfileid: "106966887"
 [**IADs**](/windows/desktop/api/Iads/nf-iads-iads-get)所傳回的另一個資料類型為二進位 [**資料。**](/windows/desktop/api/Iads/nf-iads-iads-getex) 在此情況下，資料會以連續的位元組陣列形式提供，而 [**VARIANT**](/windows/win32/api/oaidl/ns-oaidl-variant)結構的 **vt** 成員將包含 **Vt \_ UI1/vbByte** 和 **vt \_ array/vbArray** 旗標。
 
 > [!Note]  
-> Microsoft Visual Basic，腳本撰寫版僅支援 [**variant**](/windows/win32/api/oaidl/ns-oaidl-variant) 和 **variant** 陣列。 因此，VBScript 無法用來讀取二進位屬性值。
+> Microsoft Visual Basic，腳本撰寫版僅支援 [**variant**](/windows/win32/api/oaidl/ns-oaidl-variant)和 **variant** 陣列。 因此，VBScript 無法用來讀取二進位屬性值。
 
- 
+ 
 
 許多 ADSI 介面會定義介面特定屬性。 例如， [**IADsComputer**](/windows/desktop/api/Iads/nn-iads-iadscomputer) 介面會定義 [**Location**](iadscomputer-property-methods.md) 屬性。 這些介面定義的屬性可能包含與其中一個已命名屬性相同的資料，但這些屬性是由介面所參考的物件類型所特有。 在支援自動化的語言中，您可以使用點標記法來存取這些介面定義的屬性，如下列程式碼範例所示。
 
@@ -92,6 +92,6 @@ if(SUCCEEDED(hr))
 -   [使用 IDirectoryObject 介面存取屬性](accessing-attributes-with-the-idirectoryobject-interface.md)
 -   [用於讀取屬性的範例程式碼](example-code-for-reading-attributes.md)
 
- 
+ 
 
- 
+ 

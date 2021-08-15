@@ -48,7 +48,7 @@
           items:
             - name: 登錄的結構
               href: structure-of-the-registry.md
-            - name: 登錄儲存空間
+            - name: 登錄儲存體空間
               href: registry-storage-space.md
             - name: 預先定義的金鑰
               href: predefined-keys.md
@@ -244,12 +244,12 @@
               href: detecting-a-product-suite.md
             - name: 取得硬體資訊
               href: getting-hardware-information.md
-            - name: 以適用于 Windows 的應用程式為目標
+            - name: 以 Windows 的應用程式為目標
               href: targeting-your-application-at-windows-8-1.md
         - name: 系統資訊參考
           href: system-information-reference.md
           items:
-            - name: 系統資訊函式
+            - name: 系統資訊功能
               href: system-information-functions.md
               items:
                 - name: ApiSetQueryApiSetPresence
@@ -394,7 +394,7 @@
                   href: /windows/win32/api/Winnt/ne-winnt-firmware_type
             - name: 影像檔案電腦常數
               href: image-file-machine-constants.md
-    - name: Time
+    - name: 時間
       href: time.md
       items:
         - name: 是時候了

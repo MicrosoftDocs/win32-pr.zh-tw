@@ -6,12 +6,12 @@ keywords:
 - 介面、Direct3D 11 著色器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d55e591d56442b641482a76a4ec93c0055029fc0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: eb6c3d628f83747831dae0e98bd604f88f9ee0946aeb56a38c9734df30ba0d67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104383649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119988478"
 ---
 # <a name="shader-interfaces-direct3d-11-graphics"></a>著色器介面 (Direct3D 11 圖形)
 

@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 api_location:
 - Cspdk.h
-ms.openlocfilehash: 99b9344c6951dc93972315d9b4f60752f1484d68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2815d12735023cd0f7ac60fc2ed9f60fc56e32d0f54610f295a2e6b0544e589c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103694947"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117970864"
 ---
 # <a name="vtableprovstruc-structure"></a>VTableProvStruc 結構
 
@@ -129,8 +129,8 @@ typedef struct VTableProvStruc {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Cspdk。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **VTableProvStrucW** (Unicode) <br/>                                          |
 

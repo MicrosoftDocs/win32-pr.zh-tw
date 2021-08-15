@@ -8,7 +8,7 @@
           href: cng-features.md
         - name: 密碼編譯基本類型
           href: cryptographic-primitives.md
-        - name: 金鑰儲存和抓取
+        - name: 金鑰儲存體和抓取
           href: key-storage-and-retrieval.md
         - name: 金鑰匯入和匯出
           href: key-import-and-export.md
@@ -53,7 +53,7 @@
               href: cng-interface-identifiers.md
             - name: 加密基本屬性識別碼
               href: cng-property-identifiers.md
-            - name: 金鑰儲存區屬性識別碼
+            - name: 索引鍵儲存體屬性識別碼
               href: key-storage-property-identifiers.md
         - name: CNG 密碼編譯設定函數
           href: cng-cryptographic-configuration-functions.md
@@ -207,7 +207,7 @@
               href: /windows/desktop/api/Bcrypt/nf-bcrypt-bcrypt_init_auth_mode_info
             - name: SystemPrng
               href: systemprng.md
-        - name: CNG 金鑰儲存功能
+        - name: CNG 金鑰儲存體函式
           href: cng-key-storage-functions.md
           items:
             - name: NCryptCreateClaim

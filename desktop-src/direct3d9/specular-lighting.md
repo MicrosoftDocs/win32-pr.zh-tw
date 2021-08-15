@@ -4,12 +4,12 @@ ms.assetid: 35da0ac3-4e68-4d37-a987-405fc15d0cbf
 title: " (Direct3D 9) 的反射光源"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b16d71bd8d814e104cf8a90d1d1fe9b15ba10f3
-ms.sourcegitcommit: b40a986d5ded926ae7617119cdd35d99b533bad9
+ms.openlocfilehash: 84597b63ebd064fbe27ae90b673e9c91166be96f6f45b039ba29a16de9011054
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/24/2021
-ms.locfileid: "110343673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118520151"
 ---
 # <a name="specular-lighting-direct3d-9"></a> (Direct3D 9) 的反射光源
 

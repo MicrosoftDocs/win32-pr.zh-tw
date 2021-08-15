@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: b634d4dad2e024c3c995216b5af7de23b14b7da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee0729deab566717457f03af27a7e31de8cdf8f1b78f9a5f97b3c3ff406641fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117795791"
 ---
 # <a name="expertstatusenumeration-enumeration"></a>EXPERTSTATUSENUMERATION 列舉
 

@@ -3,19 +3,19 @@ title: 範例文字區段
 description: 範例文字區段
 ms.assetid: 7e59ec56-dedc-46c5-8302-11a7d7c38911
 keywords:
-- Windows Media Player 行動外觀、文字
+- Windows Media Player行動外觀、文字
 - 外觀，文字
 - 外觀的參考、文字
 - 外觀、文字區段中的文字
 - 外觀定義檔，文字區段
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac87e65b4eb909b16a8a200a5f5f6d6cadc5df8
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 182fa28f774f023ccccd7234fd4e8d4eb6a6c4cf22841efbd800ae313a15b50d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995468"
 ---
 # <a name="sample-text-section"></a>範例文字區段
 
@@ -46,9 +46,9 @@ ms.locfileid: "104183940"
 [**Text**](text.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

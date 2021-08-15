@@ -1,18 +1,18 @@
 ---
-title: CGENOBJ.Cpp
+title: CGENOBJ.CPP
 description: 在範例提供者元件中，在 cgenobj 中支援的泛型 Active Directory 物件方法，如下表所示。
 ms.assetid: 72ccdc6e-1f3e-4633-92b3-500309433337
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe769dcfa6e4ab607188728115bcba16e40c0e56
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 2c0667d44bfb3861989a58ac3764a113b4eb23a87ce3722709a5ca959a0fe4da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962097"
 ---
-# <a name="cgenobjcpp"></a>CGENOBJ.Cpp
+# <a name="cgenobjcpp"></a>CGENOBJ.CPP
 
 在範例提供者元件中，在 cgenobj 中支援的泛型 Active Directory 物件方法，如下表所示。
 

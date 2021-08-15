@@ -9,24 +9,24 @@ keywords:
 - 建立外觀，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7214accedf24bd80449bf8952bc9268f9b9bf49d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: cf24520bf76bd3e78803b05de90bb3aba4c6663c4648224124ad9a76f82a00c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118995270"
 ---
 # <a name="skin-creation-guide"></a>外觀建立指南
 
-本指南是如何建立不同類型之外觀的一系列詳細說明。 如需有關面板的一般資訊，請參閱 [關於外觀](about-skins.md)。 如需有關面板中所使用之每個屬性、方法和事件的特定詳細資料，請參閱面板程式 [設計參考](skin-programming-reference.md)。 當您在面板的程式設計方面有更多的相關資訊時，您可能會想要閱讀此 SDK 中涵蓋 [Windows Media Player 物件模型](windows-media-player-object-model.md)的部分。
+本指南是如何建立不同類型之外觀的一系列詳細說明。 如需有關面板的一般資訊，請參閱 [關於外觀](about-skins.md)。 如需有關面板中所使用之每個屬性、方法和事件的特定詳細資料，請參閱面板程式 [設計參考](skin-programming-reference.md)。 當您在面板的程式設計方面有更多的相關資訊時，您可能會想要閱讀此 SDK 中涵蓋[Windows Media Player 物件模型](windows-media-player-object-model.md)的部分。
 
-在本指南中，會為 Adobe Photoshop 5.5 （熱門的藝術操作程式）提供建立藝術的相關指示。 如果您有類似的藝術節目，例如 Jasc 油漆店 Pro 或 Sonic Foundry Viscosity，則特定的指示可能會有所不同，但概念會相同。 因為有兩個原因，所以選擇了 Photoshop：它是適用于商業演出者的熱門程式，且適用于圖層。 您將在教學課程中看到，圖層在建立面板時非常有用。
+在本指南中，會為 Adobe Photoshop 5.5 （熱門的藝術操作程式）提供建立藝術的相關指示。 如果您有類似的尖端程式，例如 Jasc 小畫家店 Pro 或 Sonic Foundry Viscosity，則特定的指示可能會有所不同，但概念會相同。 因為有兩個原因，所以選擇了 Photoshop：它是適用于商業演出者的熱門程式，且適用于圖層。 您將在教學課程中看到，圖層在建立面板時非常有用。
 
 本指南將涵蓋下列工作。
 
 
 
-| Task                                                     | Description                                                                                     |
+| 工作                                                     | Description                                                                                     |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | [建立您的第一個外觀](building-your-first-skin.md) | 啟動和停止 Windows Media Player 的簡單面板逐步解說。                     |
 | [新增播放清單](adding-a-playlist.md)               | 如何使用簡單的播放清單。                                                                   |
@@ -39,18 +39,18 @@ ms.locfileid: "106968029"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**Windows Media Player 的外觀**](windows-media-player-skins.md)
+[**Windows Media Player皮膚**](windows-media-player-skins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

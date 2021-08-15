@@ -4,12 +4,12 @@ ms.assetid: 5a633a04-1de4-43f5-a898-d30245567e5d
 title: 'GraphicsPath. AddClosedCurve 方法 (Gdipluspath .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: e12be7b1710cca983e74c388f31123f8ae77b1a4
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe369bed82ff58ad50084a836b13b720736f7dae9402a2b19f87216484e2ad09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104974873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482774"
 ---
 # <a name="graphicspathaddclosedcurve-methods"></a>GraphicsPath. AddClosedCurve 方法
 
