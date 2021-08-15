@@ -4,12 +4,12 @@ ms.assetid: 606619aa-2995-4024-99ee-64de9f2109b0
 title: System. LowKeywords
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac4e194c146ce1b6820eb862ed08e83dec224028
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f26a41347b0ced944a00dd5cd89033b430ace8ee5f6b425329303526c3479bda
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513281"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726312"
 ---
 # <a name="systemlowkeywords"></a>System. LowKeywords
 

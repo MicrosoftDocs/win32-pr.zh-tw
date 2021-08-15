@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d26de431f66fd9106ac37ed4f09bf3ce14dbad2d
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: eef45fe0dad34073824696e7d00dfbd59104922d621574baf95f40a98f3a5866
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104035242"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118507542"
 ---
 # <a name="texture2dgatherredsfloatint2int2int2int2uint-function"></a>Texture2D：： GatherRed (S、float、int2、int2、int2、int2、uint) 函數
 
@@ -122,7 +122,7 @@ TemplateType GatherRed(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 

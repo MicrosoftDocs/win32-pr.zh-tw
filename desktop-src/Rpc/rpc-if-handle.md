@@ -6,12 +6,12 @@ keywords:
 - RPC_IF_HANDLE
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d9590973d5ae1e82d89d6151e224b771d9f55ecc
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4652fbd08c583ad0a33638e52face9569e6ff701cb6dc2b775c7060134b60437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118926437"
 ---
 # <a name="rpc_if_handle"></a>RPC \_ IF \_ 控制碼
 

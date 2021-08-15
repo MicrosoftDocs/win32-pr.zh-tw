@@ -61,12 +61,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 25da1bddfa029ca5a6892006283e322d91a328a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d71755b9aa9bb341b5b4a9feb864c20a16ccaf28bc2ab2ede96a713307adaf82
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118147757"
 ---
 # <a name="msvm_idecontroller-class"></a>Msvm \_ IDEController 類別
 
@@ -757,8 +757,8 @@ class Msvm_IDEController : CIM_IDEController
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -775,7 +775,7 @@ class Msvm_IDEController : CIM_IDEController
 [**CIM \_ IDEController**](/previous-versions//cc136863(v=vs.85))
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

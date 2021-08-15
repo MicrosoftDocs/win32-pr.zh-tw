@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 665c73caf5cf636ab7f0a0162f488ff073917984
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 93f13e18abd7ea452b84043dfef3d6bf6b18be6c476c0dfff9a34e42e45dbc14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104507931"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323725"
 ---
 # <a name="resource-uris"></a>資源 URI
 
@@ -27,15 +27,15 @@ URI 是由前置詞和資源路徑所組成，如下列範例所示：
 
 "http://schemas.microsoft.com/wbem/wsman/1/wmi/root/cimv2/Win32\_LogicalDisk"
 
-此架構規格指出 URI 是以正式 WS-Management 通訊協定的第1版為基礎，而且資源是 WMI 儲存機制的「根 cimv2」命名空間中的 [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) \\ 。 URI 首碼包含架構規格，例如 "schemas.microsoft.com/wbem/wsman/1/wmi" 和特定類型的資源，例如 **Win32 \_ LogicalDisk**。 如需識別 WMI 類別之特定實例的詳細資訊，請參閱 [Windows 遠端管理和 wmi](windows-remote-management-and-wmi.md)。
+此架構規格指出 URI 是以正式 WS-Management 通訊協定的第1版為基礎，而且資源是 WMI 儲存機制的「根 cimv2」命名空間中的 [**Win32 \_ LogicalDisk**](/windows/desktop/CIMWin32Prov/win32-logicaldisk) \\ 。 URI 首碼包含架構規格，例如 "schemas.microsoft.com/wbem/wsman/1/wmi" 和特定類型的資源，例如 **Win32 \_ LogicalDisk**。 如需識別 wmi 類別之特定實例的詳細資訊，請參閱[Windows 遠端管理和 wmi](windows-remote-management-and-wmi.md)。
 
 如需詳細資訊，請參閱 [URI 首碼](uri-prefixes.md)。
 
 ## <a name="types-of-resource-uris"></a>資源 Uri 的類型
 
-雖然 [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md) 是 Windows 作業系統之管理資料的主要來源，但也存在其他的管理架構來源。
+雖然 [*Windows Management Instrumentation (WMI)*](windows-remote-management-glossary.md)是 Windows 型作業系統管理資料的主要來源，但也存在其他管理架構來源。
 
-下列清單描述 Windows 遠端管理所使用的幾種資源 Uri 類型：
+下列清單描述 Windows 遠端管理所使用的幾種資源 uri 類型：
 
 -   WMI Uri
 
@@ -68,7 +68,7 @@ URI 是由前置詞和資源路徑所組成，如下列範例所示：
 
 [*WMI 外掛程式*](windows-remote-management-glossary.md)會保留在要求中收到的資源 URI 大小寫。 不過，為了確保與其他 WS-Management 通訊協定的執行互通性，請在資源 URI 中針對要求的資源使用正確的大小寫。 正確的大小寫是資源提供者所定義的拼寫。
 
-雖然資源 Uri 不需要區分大小寫，但 [*片段*](windows-remote-management-glossary.md) XML 會有。 片段只會指定一個屬性，而不會指定資源的整個屬性集。 在 WMI 資源的案例中，片段語法會從資源實例取得一個屬性。 例如，從 [**Win32 \_ 作業系統**](/windows/desktop/CIMWin32Prov/win32-operatingsystem)取得 **版本** 屬性需要使用片段。 如需片段的詳細資訊，請參閱 [Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)中的「將選取器新增至 ResourceLocator 或 IWSManResourceLocator 物件」。
+雖然資源 Uri 不需要區分大小寫，但 [*片段*](windows-remote-management-glossary.md) XML 會有。 片段只會指定一個屬性，而不會指定資源的整個屬性集。 在 WMI 資源的案例中，片段語法會從資源實例取得一個屬性。 例如，從 [**Win32 \_ 作業系統**](/windows/desktop/CIMWin32Prov/win32-operatingsystem)取得 **版本** 屬性需要使用片段。 如需片段的詳細資訊，請參閱[Windows 遠端管理和 WMI](windows-remote-management-and-wmi.md)中的「將選取器新增至 ResourceLocator 或 IWSManResourceLocator 物件」。
 
 依照 XML 和 [*XPath*](windows-remote-management-glossary.md) 標準， [*WMI 外掛程式*](windows-remote-management-glossary.md) 會針對定義方法之輸入參數的片段和 XML 強制區分大小寫。 必須區分大小寫，才能支援 XPath 1.0/層級1標準。 若要透過 WinRM 取得 WMI 資料，區分大小寫表示 WMI 類別、屬性和方法的名稱必須符合 WMI 儲存機制中找到之名稱的大小寫。
 
@@ -120,6 +120,6 @@ WScript.Echo xml
 [**ResourceLocator**](resourcelocator.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -4,12 +4,12 @@ ms.assetid: 9513AE28-2AF4-45EC-AC19-C0718540E26F
 title: 'MF_READWRITE_MMCSS_PRIORITY 屬性 (Mfreadwrite) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ad7b83485b49e6ae584a38024e180f37c878d27d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 56f108b7cce9f1c9d6226803bf2a2cc32b62ac94077f7f84cbc78e632cb25ea8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740600"
 ---
 # <a name="mf_readwrite_mmcss_priority-attribute"></a>MF \_ READWRITE \_ MMCSS \_ PRIORITY 屬性
 
@@ -37,8 +37,8 @@ ms.locfileid: "104027427"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mfreadwrite。h</dt> </dl> |
 
 

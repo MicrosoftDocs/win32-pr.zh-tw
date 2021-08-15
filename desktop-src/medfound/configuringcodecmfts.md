@@ -4,12 +4,12 @@ ms.assetid: 0de0cb2e-67bc-4db5-879a-95879f16b98d
 title: 設定編解碼器 MFTs
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0065f05d10eae367b13ef6f7caf3fe2ab322163a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: beb4a9ae53c0aee61e30fb5d61b2ad78fd4fe8e624df394f462dd01618272476
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468636"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118743330"
 ---
 # <a name="configuring-codec-mfts"></a>設定編解碼器 MFTs
 

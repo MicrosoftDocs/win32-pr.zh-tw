@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f15594a3fc612625e38bf92b443cb5c5e7d2d17
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ddcab2e970ab45a0479f5cafc38580b8db2f7f39d3b0350734a485be2c9b3059
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118335487"
 ---
 # <a name="playlistarraycount"></a>PlaylistArray 計數
 

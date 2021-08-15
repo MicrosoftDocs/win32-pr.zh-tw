@@ -266,7 +266,7 @@
                     - name: AppendStructuredBuffer
                       href: sm5-object-appendstructuredbuffer.md
                       items:
-                        - name: Append
+                        - name: 附加
                           href: sm5-object-appendstructuredbuffer-append.md
                         - name: GetDimensions
                           href: sm5-object-appendstructuredbuffer-getdimensions.md
@@ -397,7 +397,7 @@
                               href: sm5-object-rwbyteaddressbuffer-load4.md
                             - name: 'Load4 (uint，uint) '
                               href: rwbyteaddressbuffer-load4-float-uint-.md
-                        - name: 市集
+                        - name: 儲存
                           href: sm5-object-rwbyteaddressbuffer-store.md
                         - name: Store2
                           href: sm5-object-rwbyteaddressbuffer-store2.md
@@ -1413,7 +1413,7 @@
               href: dx-graphics-hlsl-log2.md
             - name: 瘋狂
               href: mad.md
-            - name: max
+            - name: 最大值
               href: dx-graphics-hlsl-max.md
             - name: 分鐘
               href: dx-graphics-hlsl-min.md
@@ -1564,7 +1564,7 @@
                       href: dx9-graphics-reference-asm-vs-instructions-vs-2-x.md
                     - name: 指示-vs_3_0
                       href: dx9-graphics-reference-asm-vs-instructions-vs-3-0.md
-                    - name: 流程式控制制的嵌套限制
+                    - name: Flow控制項嵌套限制
                       href: dx9-graphics-reference-asm-vs-instructions-flow-control.md
                     - name: 指令修飾詞
                       href: dx9-graphics-reference-asm-vs-instructions-modifiers.md
@@ -1768,7 +1768,7 @@
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-1-x.md
                     - name: Ps_2_0 和更新版本的修飾詞
                       href: dx9-graphics-reference-asm-ps-instructions-modifiers-ps-2-0.md
-                    - name: 流程式控制制限制
+                    - name: Flow控制項限制
                       href: dx9-graphics-reference-asm-ps-instructions-flow-control.md
                     - name: abs-ps
                       href: abs---ps.md

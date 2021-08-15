@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 08648c8b941874a6d1e1ed97d49f510694b998b8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e119a639af7cb6459e8e6ec8ae6416f9d067c56e8f81560fedc385abd518b840
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118899337"
 ---
 # <a name="signedcode-object"></a>SignedCode 物件
 
@@ -67,7 +67,7 @@ ms.locfileid: "106984861"
 
 
 
-| 屬性                                                       | 存取類型           | Description                                                                                                                                |
+| 屬性                                                       | 存取類型           | 描述                                                                                                                                |
 |:---------------------------------------------------------------|:----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------|
 | [**憑證**](signedcode-certificates.md)<br/>     | 唯讀<br/>  | [**憑證**](certificates.md)集合，其中包含已簽署之可執行檔中的所有憑證。<br/>             |
 | [**描述**](signedcode-description.md)<br/>       | 讀取/寫入<br/> | 字串，其中包含已簽署之可執行檔的描述。<br/>                                                             |
@@ -84,7 +84,7 @@ ms.locfileid: "106984861"
 
 您可以建立 **SignedCode** 物件，而且對腳本而言並不安全。 **SignedCode** 物件的 PROGID 是 CAPICOM。SignedCode。1。
 
-可執行檔的類型應為可使用 Authenticode 技術簽署的型別，例如副檔名為 .cab、.cat、.exe、.dll、.vbs 或 .ocx 的檔案。
+可執行檔的類型應為可使用 Authenticode 技術簽署的型別，例如，副檔名為 .cab、.cat、.exe、.dll、.vbs 或 .ocx 的檔案。
 
 ## <a name="requirements"></a>規格需求
 

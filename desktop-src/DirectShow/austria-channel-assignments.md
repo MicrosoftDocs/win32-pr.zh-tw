@@ -4,12 +4,12 @@ ms.assetid: 200355f8-e472-4497-8d36-c77f6b2cf5c7
 title: 奧地利通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 12f7ca86799e733f989c0de01faba23cb5eb581d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3324e47aea4fc9ef5326a6f96d784b36ebf30f9b0bb4419b312480d580aa90f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824258"
 ---
 # <a name="austria-channel-assignments"></a>奧地利通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "104510024"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

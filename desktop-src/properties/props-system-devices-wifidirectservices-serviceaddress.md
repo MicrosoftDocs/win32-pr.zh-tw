@@ -4,12 +4,12 @@ ms.assetid: 6b29c244-685f-4eb7-9c80-d6b4fc591efc
 title: WiFiDirectServices. Serviceaddress.uri
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 375c4bfceca7e7563a2b0bc37f3885f0335e5ba0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bbd7ded4af427b4ac15b62ffeca1856ca31984121f14600b5fc08d24da04304
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727876"
 ---
 # <a name="systemdeviceswifidirectservicesserviceaddress"></a>WiFiDirectServices. Serviceaddress.uri
 

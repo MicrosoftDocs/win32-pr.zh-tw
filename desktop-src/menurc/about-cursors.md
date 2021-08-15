@@ -25,12 +25,12 @@ keywords:
 - 資料指標，將
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f2d0b91ba4670d2510413240efd742b2e0ba69b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bc8d987eb12857779ac85d34cb7e4ff7f3f5ce59ed8a750764c433c88abbccea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735374"
 ---
 # <a name="about-cursors"></a>關於資料指標
 
@@ -87,7 +87,7 @@ Windows 提供一組標準資料指標，可供任何應用程式在任何時間
 
 應用程式應該將自訂資料指標實作為資源，並使用 [**LoadCursor**](/windows/desktop/api/Winuser/nf-winuser-loadcursora)、 [**LoadCursorFromFile**](/windows/desktop/api/Winuser/nf-winuser-loadcursorfromfilea)或 [**LoadImage**](/windows/desktop/api/Winuser/nf-winuser-loadimagea) ，而不是在執行時間建立資料指標。 使用資料指標資源可避免裝置的相依性、簡化當地語系化，以及讓應用程式共用資料指標設計。
 
-[**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex)函式可讓應用程式根據資源資料建立圖示和資料指標。 **CreateIconFromResourceEx** 會根據二進位資源資料，從其他可執行檔的 ( .exe) 檔案或 dll 來建立資料指標。 它之前必須先呼叫 [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) 函式，以及數個資源函數。 **LookupIconIdFromDirectoryEx** 會識別目前顯示裝置最適當的資料指標資料。 如需資源函式的詳細資訊，請參閱 [資源](resources.md)。
+[**CreateIconFromResourceEx**](/windows/desktop/api/Winuser/nf-winuser-createiconfromresourceex)函式可讓應用程式根據資源資料建立圖示和資料指標。 **CreateIconFromResourceEx** 會根據二進位資源資料，從其他可執行檔 (.exe) 檔案或 dll 中建立資料指標。 它之前必須先呼叫 [**LookupIconIdFromDirectoryEx**](/windows/desktop/api/Winuser/nf-winuser-lookupiconidfromdirectoryex) 函式，以及數個資源函數。 **LookupIconIdFromDirectoryEx** 會識別目前顯示裝置最適當的資料指標資料。 如需資源函式的詳細資訊，請參閱 [資源](resources.md)。
 
 ## <a name="cursor-location-and-appearance"></a>游標位置和外觀
 
@@ -130,6 +130,6 @@ Windows 提供一組標準資料指標，可供任何應用程式在任何時間
 
 若要覆寫類別資料指標，請處理 [**WM \_ SETCURSOR**](wm-setcursor.md) 訊息。 您也可以使用 [**SetClassLong**](/windows/desktop/api/winuser/nf-winuser-setclasslonga) 函數來取代類別資料指標。 此函式會變更指定類別之所有視窗的預設視窗設定。 如需詳細資訊，請參閱 [類別游標](/windows/desktop/winmsg/about-window-classes)。
 
- 
+ 
 
- 
+ 

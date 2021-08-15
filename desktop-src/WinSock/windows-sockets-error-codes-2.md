@@ -1,19 +1,19 @@
 ---
-description: Windows 通訊端 (Winsock) WSAGetLastError 函數所傳回的錯誤碼。
+description: WindowsWSAGetLastError 函式所傳回的通訊端 (Winsock) 錯誤碼。
 ms.assetid: 50b924f3-2c88-443b-8a90-4293fe5c3048
-title: 'Windows 通訊端錯誤碼 (Winsock2. h) '
+title: 'Windows通訊端錯誤碼 (Winsock2. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 81c251d63872c05623a6d1c9e3820edd2d8f670e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ece53093e7aca31d9d883680005f92ca8b30a76120209affb4dba42d6826d0bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322001"
 ---
-# <a name="windows-sockets-error-codes"></a>Windows 通訊端錯誤碼
+# <a name="windows-sockets-error-codes"></a>Windows通訊端錯誤碼
 
-大部分的 Windows 通訊端2函式在函式傳回時，不會傳回錯誤的特定原因。 如需詳細資訊，請參閱 [處理 Winsock 錯誤](handling-winsock-errors.md) 主題。
+當函式傳回時，大部分的 Windows 通訊端2函式不會傳回錯誤的特定原因。 如需詳細資訊，請參閱 [處理 Winsock 錯誤](handling-winsock-errors.md) 主題。
 
 [**WSAGetLastError**](/windows/desktop/api/winsock/nf-winsock-wsagetlasterror)函式會傳回呼叫執行緒所發生的最後一個錯誤。 當特定的 Windows 通訊端函式指出發生錯誤時，應該立即呼叫這個函式，以取得失敗函式呼叫的擴充錯誤碼。 這些錯誤碼和與錯誤碼相關聯的簡短文字描述會定義在 *winerror.h .h* 標頭檔中。 [**FormatMessage**](/windows/win32/api/winbase/nf-winbase-formatmessage)函數可用來取得傳回錯誤的訊息字串。
 
@@ -39,11 +39,11 @@ ms.locfileid: "106981658"
 </tr>
 <tr class="even">
 <td><span id="WSA_NOT_ENOUGH_MEMORY"></span><span id="wsa_not_enough_memory"></span><dl> <dt><strong>WSA_NOT_ENOUGH_MEMORY</strong></dt> <dt>8</dt> </dl></td>
-<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>可用的記憶體不足。</dt> <dd> 應用程式使用的 Windows 通訊端函式會直接對應至 Windows 函式。 Windows 函數指出缺少必要的記憶體資源。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Insufficient_memory_available."></span><span id="insufficient_memory_available."></span><span id="INSUFFICIENT_MEMORY_AVAILABLE."></span>可用的記憶體不足。</dt> <dd> 應用程式使用 Windows 通訊端函式，直接對應至 Windows 函數。 Windows 函數指出缺少必要的記憶體資源。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSA_INVALID_PARAMETER"></span><span id="wsa_invalid_parameter"></span><dl> <dt><strong>WSA_INVALID_PARAMETER</strong></dt> <dt>87</dt> </dl></td>
-<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>一或多個參數無效。</dt> <dd> 應用程式使用的 Windows 通訊端函式會直接對應至 Windows 函式。 Windows 函數指出有一或多個參數發生問題。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="One_or_more_parameters_are_invalid."></span><span id="one_or_more_parameters_are_invalid."></span><span id="ONE_OR_MORE_PARAMETERS_ARE_INVALID."></span>一或多個參數無效。</dt> <dd> 應用程式使用 Windows 通訊端函式，直接對應至 Windows 函式。 Windows 函數指出一或多個參數有問題。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSA_OPERATION_ABORTED"></span><span id="wsa_operation_aborted"></span><dl> <dt><strong>WSA_OPERATION_ABORTED</strong></dt> <dt>995</dt> </dl></td>
@@ -67,7 +67,7 @@ ms.locfileid: "106981658"
 </tr>
 <tr class="odd">
 <td><span id="WSAEACCES"></span><span id="wsaeacces"></span><dl> <dt><strong>WSAEACCES</strong></dt> <dt>10013</dt> </dl></td>
-<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>許可權被拒。</dt> <dd> 嘗試以存取權限禁止的方式存取通訊端。 例如，在未使用<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt"><strong>setsockopt</strong></a> (SO_BROADCAST) 設定廣播許可權的<a href="/windows/desktop/api/winsock/nf-winsock-sendto"><strong>sendto</strong></a>中使用廣播位址。 <br/> WSAEACCES <a href="/windows/desktop/api/winsock/nf-winsock-bind"><strong>錯誤的另</strong></a> 一個可能原因是呼叫系結函式時， (在 Windows NT 4.0 加裝 SP4 和更新) 版本時，其他應用程式、服務或核心模式驅動程式都會系結至具有獨佔存取權的相同位址。 這種獨佔存取是 Windows NT 4.0 加裝 SP4 和更新版本的新功能，並使用 <a href="/windows/desktop/winsock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a> 選項來執行。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Permission_denied."></span><span id="permission_denied."></span><span id="PERMISSION_DENIED."></span>許可權被拒。</dt> <dd> 嘗試以存取權限禁止的方式存取通訊端。 例如，在未使用<a href="/windows/desktop/api/winsock/nf-winsock-setsockopt"><strong>setsockopt</strong></a> (SO_BROADCAST) 設定廣播許可權的<a href="/windows/desktop/api/winsock/nf-winsock-sendto"><strong>sendto</strong></a>中使用廣播位址。 <br/> WSAEACCES<a href="/windows/desktop/api/winsock/nf-winsock-bind"><strong>錯誤的另</strong></a>一個可能原因是呼叫系結函式時， (在 Windows NT 4.0 加裝 SP4 和更新) 版本時，其他應用程式、服務或核心模式驅動程式都會系結至具有獨佔存取權的相同位址。 這種獨佔存取是 Windows NT 4.0 加裝 SP4 和更新版本的新功能，並使用<a href="/windows/desktop/winsock/so-exclusiveaddruse">SO_EXCLUSIVEADDRUSE</a>選項來執行。<br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><span id="WSAEFAULT"></span><span id="wsaefault"></span><dl> <dt><strong>WSAEFAULT</strong></dt> <dt>10014</dt> </dl></td>
@@ -87,7 +87,7 @@ ms.locfileid: "106981658"
 </tr>
 <tr class="even">
 <td><span id="WSAEINPROGRESS"></span><span id="wsaeinprogress"></span><dl> <dt><strong>WSAEINPROGRESS</strong></dt> <dt>10036</dt> </dl></td>
-<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>作業正在進行中。</dt> <dd> 正在執行封鎖作業。 Windows 通訊端只允許一項封鎖作業（每個工作或執行緒）處於未處理狀態，而且如果 (任何其他函式呼叫，則不論是否參考該函式或任何其他通訊端) 函數都會失敗並出現 WSAEINPROGRESS 錯誤。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Operation_now_in_progress."></span><span id="operation_now_in_progress."></span><span id="OPERATION_NOW_IN_PROGRESS."></span>作業正在進行中。</dt> <dd> 正在執行封鎖作業。 Windows通訊端只允許一項封鎖作業（每個工作或執行緒）處於未處理狀態，而且如果 (任何其他函式呼叫，則不論是否參考該函式或任何其他通訊端) 函數都會失敗並出現 WSAEINPROGRESS 錯誤。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEALREADY"></span><span id="wsaealready"></span><dl> <dt><strong>WSAEALREADY</strong></dt> <dt>10037</dt> </dl></td>
@@ -127,7 +127,7 @@ ms.locfileid: "106981658"
 </tr>
 <tr class="even">
 <td><span id="WSAEPFNOSUPPORT"></span><span id="wsaepfnosupport"></span><dl> <dt><strong>WSAEPFNOSUPPORT</strong></dt> <dt>10046</dt> </dl></td>
-<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>不支援通訊協定系列。</dt> <dd> 通訊協定系列尚未設定為系統，或其不存在。 這則訊息與 WSAEAFNOSUPPORT 有稍微不同的意義。 不過，在大部分情況下，它是可互換的，而傳回其中一個訊息的所有 Windows 通訊端函數也會指定 WSAEAFNOSUPPORT。<br/> </dd> </dl></td>
+<td><dl> <dt><span id="Protocol_family_not_supported."></span><span id="protocol_family_not_supported."></span><span id="PROTOCOL_FAMILY_NOT_SUPPORTED."></span>不支援通訊協定系列。</dt> <dd> 通訊協定系列尚未設定為系統，或其不存在。 這則訊息與 WSAEAFNOSUPPORT 有稍微不同的意義。 不過，在大部分的情況下，它是可互換的，而傳回其中一個訊息的所有 Windows 通訊端函數也會指定 WSAEAFNOSUPPORT。<br/> </dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><span id="WSAEAFNOSUPPORT"></span><span id="wsaeafnosupport"></span><dl> <dt><strong>WSAEAFNOSUPPORT</strong></dt> <dt>10047</dt> </dl></td>
@@ -231,11 +231,11 @@ ms.locfileid: "106981658"
 </tr>
 <tr class="even">
 <td><span id="WSASYSNOTREADY"></span><span id="wsasysnotready"></span><dl> <dt><strong>WSASYSNOTREADY</strong></dt> <dt>10091</dt> </dl></td>
-<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>網路子系統無法使用。</dt> <dd> 此錯誤是由 <a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a> 傳回，如果 Windows 通訊端執行目前無法運作，因為它用來提供網路服務的基礎系統目前無法使用。 使用者應該檢查：<br/> </dd> </dl>
+<td><dl> <dt><span id="Network_subsystem_is_unavailable."></span><span id="network_subsystem_is_unavailable."></span><span id="NETWORK_SUBSYSTEM_IS_UNAVAILABLE."></span>網路子系統無法使用。</dt> <dd> 如果 Windows 通訊端執行目前無法運作，因為它用來提供網路服務的基礎系統目前無法使用，所以<a href="/windows/desktop/api/winsock/nf-winsock-wsastartup"><strong>WSAStartup</strong></a>會傳回這個錯誤。 使用者應該檢查：<br/> </dd> </dl>
 <ul>
-<li>適當的 Windows 通訊端 DLL 檔案位於目前的路徑中。</li>
+<li>適當的 Windows 通訊端 DLL 檔是在目前的路徑中。</li>
 <li>他們不會嘗試同時使用一個以上的 Windows 通訊端執行。 如果您的系統上有一個以上的 Winsock DLL，請確定路徑中的第一個 DLL 適用于目前載入的網路子系統。</li>
-<li>Windows 通訊端執行檔，以確定目前已正確安裝及設定所有必要元件。</li>
+<li>Windows 通訊端執行檔，以確定目前已正確安裝及設定所有必要的元件。</li>
 </ul></td>
 </tr>
 <tr class="odd">

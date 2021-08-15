@@ -4,12 +4,12 @@ ms.assetid: A9F4D4AF-BB47-48E2-B40A-D0245FD61FAF
 title: 'MF_SA_D3D11_SHARED_WITHOUT_MUTEX 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9139328c9d272007be6e5cd9434614cb1de8c9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8495d0c2033f6ffbc1a212c9768af3157697eb588c968cb3fbd62959fa3515f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973686"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740299"
 ---
 # <a name="mf_sa_d3d11_shared_without_mutex-attribute"></a>\_未搭配 \_ \_ \_ \_ MUTEX 屬性共用的 MF SA D3D11
 
@@ -31,8 +31,8 @@ ms.locfileid: "106973686"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

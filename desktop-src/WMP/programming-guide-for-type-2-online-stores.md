@@ -9,19 +9,19 @@ keywords:
 - 程式設計指南，輸入2個線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7368398d66abfc9e658306073bf2b87562156a5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fe37650a85557e10d0e2847ec57b386a48d534ba5a8b6833f31690ad3c31ae9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118333879"
 ---
 # <a name="programming-guide-for-type-2-online-stores"></a>Type 2 線上商店的程式設計指南
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 本章節包含下列主題，可協助您建立第2型的線上商店。
 
@@ -36,7 +36,7 @@ ms.locfileid: "104021680"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -45,9 +45,9 @@ ms.locfileid: "104021680"
 [**輸入2個線上商店**](type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'E (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd162feb3936712b396db016de036f78aea35a09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ffbd1ce4685ee9901dfedca2a4b3a1b948d91c8f5b56def28494eb6c4c63e726
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319217"
 ---
 # <a name="e-wmi"></a>E (WMI) 
 
@@ -43,7 +43,7 @@ ms.locfileid: "106998536"
 <span id="wmi.gloss_event_filter"></span><span id="WMI.GLOSS_EVENT_FILTER"></span>**事件篩選器**
 </dt> <dd>
 
-[**\_ \_ >eventfilter**](--eventfilter.md)系統類別的實例，描述事件種類和傳遞通知的條件。 取用者會使用事件篩選器來註冊，以接收特定事件種類的通知。
+[**\_ \_ >Eventfilter**](--eventfilter.md)系統類別的實例，描述事件種類和傳遞通知的條件。 取用者會使用事件篩選器來註冊，以接收特定事件種類的通知。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ WMI 提供者，可監視事件的來源，並在事件發生時通知 WMI。 �
 <span id="wmi.gloss_extension_schema"></span><span id="WMI.GLOSS_EXTENSION_SCHEMA"></span>**延伸模組架構**
 </dt> <dd>
 
-[*Cim 架構*](gloss-c.md)的第三層，包含 cim 架構的平臺專屬延伸模組，例如 WINDOWS、UNIX 和 Exchange Server。 另請參閱 [*常見的模型*](gloss-c.md) 和核心模型。
+[*cim 架構*](gloss-c.md)的第三層，包括 cim 架構的平臺專屬延伸模組，例如 Windows、UNIX 和 Exchange Server。 另請參閱 [*常見的模型*](gloss-c.md) 和核心模型。
 
 </dd> <dt>
 

@@ -31,12 +31,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c8b3902840b24bc49ae3bda0510c8355afb67810
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: e2ff06e60f125590154a17cb7467deae3611a617b684e9068439c9e15609d8fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351248"
 ---
 # <a name="itssbtargetipaddresses-property"></a>ITsSbTarget：： IpAddresses 屬性
 
@@ -69,7 +69,7 @@ HRESULT get_IpAddresses(
 
 ## <a name="remarks"></a>備註
 
-此屬性在 Windows Server 2008 R2 中先前稱為 **TargetExternalIpAddresses** 。
+在 Windows Server 2008 R2 中，這個屬性先前稱為 **TargetExternalIpAddresses** 。
 
 如果外部 IP 位址的數目未知，您可以呼叫這個方法，並將 *sockaddr* 設定為 **Null**。 方法接著會在 *numAddresses* 參數中傳回接收所有外部 IP 位址所需的 [**TSSD \_ ConnectionPoint**](/windows/win32/api/sessdirpublictypes/ns-sessdirpublictypes-tssd_connectionpoint) 結構數目。 根據此數位配置 *sockaddr* 的陣列，然後再次呼叫方法，將 *sockaddr* 設定為新配置的陣列，並 *numAddresses* 至第一個呼叫傳回的數位。
 

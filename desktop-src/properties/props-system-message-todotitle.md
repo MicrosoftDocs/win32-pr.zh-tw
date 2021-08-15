@@ -4,16 +4,16 @@ ms.assetid: 3b32eeaf-e605-4d8f-a63a-51cde818aa5e
 title: ToDoTitle
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8cb1af3ec18b36242d94e0337deda691d4431c3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1e2910ce75ca6036959d3c7be20df86959787d7713bd0f80ddfadacd3af202b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113966"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724533"
 ---
 # <a name="systemmessagetodotitle"></a>ToDoTitle
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

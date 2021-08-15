@@ -4,12 +4,12 @@ ms.assetid: e418ef57-90de-4374-b607-52823bbdd429
 title: CMC 金鑰封存要求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b20cc72a213cc844c0ab6fac6a963e72f01b6b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7209a0f286b70691f1d4f275e002dcb31437308cd7bdd59f9cfe1db35ce9a29d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901615"
 ---
 # <a name="cmc-key-archival-request"></a>CMC 金鑰封存要求
 

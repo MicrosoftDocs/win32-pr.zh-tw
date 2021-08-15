@@ -4,12 +4,12 @@ ms.assetid: 91d2389b-1238-49d3-9fef-f1017a8072df
 title: SSPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9898cad4017debd58d213a2f969207880a85044
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaaa5e5deb328a37d57895e767861ee1390efd893915d666611a8907d4918cb1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916687"
 ---
 # <a name="sspi"></a>SSPI
 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 6a4345812925849831a6f0064c608f0c4be052c7
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ec31516f88dc9b79169a0272cfca735080e28aaebc81ac49cc7a8b083bc9377e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118720852"
 ---
 # <a name="ishelldispatch4getsetting-method"></a>IShellDispatch4. GetSetting 方法
 
@@ -65,7 +65,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-**Windows Vista**（含）以後版本。 [ **使用核取方塊來選取專案** ] 選項的狀態。 當系統已設定畫筆輸入裝置時，會自動啟用此選項。
+**Windows Vista 和更新版本**。 [ **使用核取方塊來選取專案** ] 選項的狀態。 當系統已設定畫筆輸入裝置時，會自動啟用此選項。
 
 </dd> <dt>
 
@@ -142,7 +142,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-**Windows Vista**（含）以後版本。 顯示名稱的狀態會顯示在 Windows 檔案總管清單視圖中。 如果此選項為 [使用中]，圖示就會顯示在清單視圖中，但不會顯示名稱。
+**Windows Vista 和更新版本**。 顯示名稱的狀態會顯示在 Windows 檔案總管清單視圖中。 如果此選項為 [使用中]，圖示就會顯示在清單視圖中，但不會顯示名稱。
 
 </dd> <dt>
 
@@ -153,7 +153,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-[ **顯示對應網路磁碟機機] 按鈕在工具列選項中** 的狀態。 在 Windows Vista 中，此選項已無法再使用。
+[ **顯示對應網路磁碟機機] 按鈕在工具列選項中** 的狀態。 從 Windows Vista，此選項已無法再使用。
 
 </dd> <dt>
 
@@ -175,7 +175,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-**自動搜尋網路資料夾和印表機** 選項的狀態。 在 Windows Vista 中，此選項已無法再使用。
+**自動搜尋網路資料夾和印表機** 選項的狀態。 從 Windows Vista，此選項已無法再使用。
 
 </dd> <dt>
 
@@ -219,7 +219,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-**詳細資料檢視選項中顯示檔案屬性** 的狀態。 在 Windows Vista 中，此選項已無法再使用。
+**詳細資料檢視選項中顯示檔案屬性** 的狀態。 從 Windows Vista，此選項已無法再使用。
 
 </dd> <dt>
 
@@ -285,7 +285,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-[隱藏的檔案 **和資料夾** ] 選項的狀態。 在 Windows Vista 和更新版本中，這相當於 SSF \_ SHOWALLOBJECTS。 在 Windows Vista 之前的 Windows 版本中，此值指的是 [ **不要顯示隱藏的檔案和資料夾** ] 選項的狀態。
+[隱藏的檔案 **和資料夾** ] 選項的狀態。 在 Windows Vista 和更新版本中，這相當於 SSF \_ SHOWALLOBJECTS。 在 Windows Vista 之前的 Windows 版本中，此值指的是 [**不要顯示隱藏的檔案和資料夾**] 選項的狀態。
 
 </dd> <dt>
 
@@ -296,7 +296,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-**Windows Vista**（含）以後版本。 **縮圖選項上顯示檔案圖示** 的狀態。 如果此選項為 [使用中]，當檔案提供縮圖表示時，會套用檔案類型重迭。
+**Windows Vista 和更新版本**。 **縮圖選項上顯示檔案圖示** 的狀態。 如果此選項為 [使用中]，當檔案提供縮圖表示時，會套用檔案類型重迭。
 
 </dd> <dt>
 
@@ -318,7 +318,7 @@ IShellDispatch4.GetSetting( _
 
 </dt> <dd>
 
-Windows XP 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間進行選取。 在 Windows Vista 中，此選項已無法再使用。
+Windows xp 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間進行選取。 從 Windows Vista，此選項已無法再使用。
 
 </dd> <dt>
 
@@ -329,7 +329,7 @@ Windows XP 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間
 
 </dt> <dd>
 
-**顯示為 web view 選項** 的狀態。 在 Windows Vista 中，此選項已無法再使用。
+**顯示為 web view 選項** 的狀態。 從 Windows Vista，此選項已無法再使用。
 
 </dd> <dt>
 
@@ -340,7 +340,7 @@ Windows XP 顯示選項的狀態，會在 Windows XP 樣式和傳統樣式之間
 
 </dt> <dd>
 
-**傳統樣式** 選項的狀態。 在 Windows Vista 中，此選項已無法再使用。
+**傳統樣式** 選項的狀態。 從 Windows Vista，此選項已無法再使用。
 
 </dd> </dl> </dd> </dl>
 
@@ -360,9 +360,9 @@ Type： **VARIANT \_ BOOL \***
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何使用 JScript、VBScript 和 Visual Basic 的 **GetSetting** 。
+下列範例顯示 JScript、VBScript 和 Visual Basic 的 **GetSetting** 用法。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -433,8 +433,8 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
 | Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |

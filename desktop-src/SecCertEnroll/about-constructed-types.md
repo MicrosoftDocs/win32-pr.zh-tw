@@ -4,12 +4,12 @@ ms.assetid: 90c52d71-5d5b-479c-8e29-06c9f0f6da4a
 title: 結構化類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a515e6e03ebf3c95ff1cabc1bf7f12eb423df27d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85ed62c4a59bfc0944ad5e31673ab0ea9031c0175014c8fc1c6b6f2cc071b153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118904487"
 ---
 # <a name="constructed-types"></a>結構化類型
 

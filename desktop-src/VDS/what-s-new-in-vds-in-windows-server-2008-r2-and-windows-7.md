@@ -4,18 +4,18 @@ ms.assetid: 4ab37529-8d56-47a3-ad3d-0197cabd4f87
 title: Windows Server 2008 R2 和 Windows 7 中 VDS 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9050b157e9ce3c78550fdcffbd688988b7eacf90
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: b7461a4389a8b276bba33ceacb812f0990344e32a47d848f5d5bce461c3f89f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119653"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347519"
 ---
 # <a name="whats-new-in-vds-in-windows-server-2008-r2-and-windows-7"></a>Windows Server 2008 R2 和 Windows 7 中 VDS 的新功能
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
-Windows Server 2008 R2 和 Windows 7 對虛擬磁碟服務引進下列變更 (VDS) ：
+WindowsServer 2008 R2 和 Windows 7 會將下列對虛擬磁碟服務所做的變更引入 (的 VDS) ：
 
 - [新的 VDS 介面](#new-vds-interfaces)
 - [新的 VDS 列舉](#new-vds-enumerations)

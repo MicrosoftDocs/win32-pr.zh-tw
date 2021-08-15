@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 858646a446266f94fd218a418d94222493ea923b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34c609727063c0f0470b9b3c9055ed7c9d06e9c0a7aadee20edb00e4e73c8f54
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118770351"
 ---
 # <a name="esentspavailextcacheoutofsyncexception-class"></a>EsentSPAvailExtCacheOutOfSyncException 類別
 

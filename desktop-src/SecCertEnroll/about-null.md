@@ -4,12 +4,12 @@ ms.assetid: f712f84a-c4d3-41bb-b151-62b0f86046af
 title: "NULL"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6dec81fb2024899121ad4e2eb78aa54372a1b71
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: 9be83b4e57640fdee783214186a8a2135f3d7d14325a4b3235f80d729ef4b6e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106998957"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118903803"
 ---
 # <a name="null"></a>NULL
 

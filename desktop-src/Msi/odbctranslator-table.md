@@ -4,12 +4,12 @@ ms.assetid: fecb7454-29bb-4ddf-b4d5-2e56c20ff2dc
 title: ODBCTranslator 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9fdf85f73b649e18c0980508e234bf7599e69c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd59c535963b3c42e94c8c904d448540072913b56bedb58c3e0bddc72dd6c6c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001447"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942889"
 ---
 # <a name="odbctranslator-table"></a>ODBCTranslator 資料表
 
@@ -35,7 +35,7 @@ ODBCTranslator 資料表具有下列資料行。
 
 <dl> <dt>
 
-<span id="Translator"></span><span id="translator"></span><span id="TRANSLATOR"></span>線上翻譯
+<span id="Translator"></span><span id="translator"></span><span id="TRANSLATOR"></span>翻譯工具
 </dt> <dd>
 
 Translator 的內部權杖名稱。 資料表的主鍵。
@@ -59,14 +59,14 @@ Translator 的內部權杖名稱。 資料表的主鍵。
 <span id="File_"></span><span id="file_"></span><span id="FILE_"></span>檔\_
 </dt> <dd>
 
-轉譯器資料行中所列的傳送之 DLL 檔。 File 資料 \_ 行是檔案 [資料表](file-table.md)中的外部金鑰。 在該檔資料表記錄的 Filename 資料行中輸入的檔案名必須是簡短的檔案名格式。 \|無法使用 SFN LFN 語法。
+翻譯工具資料行中所列的傳送之 DLL 檔。 File 資料 \_ 行是檔案 [資料表](file-table.md)中的外部金鑰。 在該檔資料表記錄的 Filename 資料行中輸入的檔案名必須是簡短的檔案名格式。 \|無法使用 SFN LFN 語法。
 
 </dd> <dt>
 
 <span id="File_Setup"></span><span id="file_setup"></span><span id="FILE_SETUP"></span>檔案 \_ 設定
 </dt> <dd>
 
-Translator 的安裝程式 DLL 檔（如果它與 Translator 資料行不同）。 File 資料 \_ 行是檔案 [資料表](file-table.md)中的外部金鑰。 在該檔資料表記錄的 Filename 資料行中輸入的檔案名必須是簡短的檔案名格式。 \|無法使用 SFN LFN 語法。
+如果是與翻譯工具資料行不同，則為 translator 的安裝程式 DLL 檔。 File 資料 \_ 行是檔案 [資料表](file-table.md)中的外部金鑰。 在該檔資料表記錄的 Filename 資料行中輸入的檔案名必須是簡短的檔案名格式。 \|無法使用 SFN LFN 語法。
 
 </dd> </dl>
 

@@ -12,12 +12,12 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 12ab8fcf61d30b47fc809fb05e1ffa524bb2488e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d27a89d51840e70563854b3cc7f9084b6bd42cb5707630755e771d610c64a91
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118901345"
 ---
 # <a name="publickey-object"></a>PublicKey 物件
 
@@ -41,7 +41,7 @@ ms.locfileid: "106978507"
 
 
 
-| 屬性                                                            | 存取類型          | Description                                                                                                                            |
+| 屬性                                                            | 存取類型          | 描述                                                                                                                            |
 |:--------------------------------------------------------------------|:---------------------|:---------------------------------------------------------------------------------------------------------------------------------------|
 | [**演算法**](publickey-algorithm.md)<br/>                 | 唯讀<br/> | 抓取標識公開金鑰所使用之演算法的 [**OID**](oid.md) 物件。 這是預設屬性。<br/> |
 | [**EncodedKey**](publickey-encodedkey.md)<br/>               | 唯讀<br/> | 抓取可存取公開金鑰值的 [**EncodedData**](encodeddata.md) 物件。<br/>                 |

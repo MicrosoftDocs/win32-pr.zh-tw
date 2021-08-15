@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e00b1a0e43de379a0a125b80304150b451c3b881
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c0749c8f719557c97bb165f091e54729fd8dd198fb3737ff9f49f6152bf61e84
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339142"
 ---
 # <a name="framerate-attribute"></a>畫面播放速率屬性
 

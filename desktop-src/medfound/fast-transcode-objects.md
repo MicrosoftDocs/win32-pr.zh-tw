@@ -4,12 +4,12 @@ ms.assetid: 52b27359-b319-41a0-88e8-d23567420e92
 title: 使用轉碼 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb97dd61ef75e71a82b522b65b682f861022bcf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 72e32ea24ebd4803319713be5fe7789cf41c3a99733338bdfe5ad69baf7396bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111772"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118742476"
 ---
 # <a name="using-the-transcode-api"></a>使用轉碼 API
 

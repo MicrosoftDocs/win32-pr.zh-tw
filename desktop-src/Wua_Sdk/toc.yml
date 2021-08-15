@@ -1,10 +1,10 @@
-- name: Windows Update 代理程式 API
+- name: Windows更新代理程式 API
   href: portal-client.md
   items:
     - name: 使用 Windows Update 代理程式 API
       href: using-the-windows-update-agent-api.md
       items:
-        - name: Windows Update 代理程式物件模型
+        - name: Windows更新代理程式物件模型
           href: windows-update-agent-object-model.md
         - name: 判斷 WUA 的目前版本
           href: determining-the-current-version-of-wua.md
@@ -34,7 +34,7 @@
           href: wua-networking-error-codes-.md
     - name: Windows Update 代理程式資訊的其他來源
       href: other-sources-of-windows-update-agent-information.md
-    - name: Windows Update 代理程式 (WUA) API 參考
+    - name: Windows更新代理程式 (WUA) API 參考
       href: windows-update-agent--wua--api-reference.md
       items:
         - name: 列舉
@@ -110,7 +110,7 @@
                   items:
                     - name: ServiceEnabled 屬性
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_serviceenabled
-                    - name: Settings 屬性
+                    - name: 設定財產
                       href: /windows/desktop/api/Wuapi/nf-wuapi-iautomaticupdates-get_settings
             - name: IAutomaticUpdates2
               href: /windows/desktop/api/Wuapi/nn-wuapi-iautomaticupdates2

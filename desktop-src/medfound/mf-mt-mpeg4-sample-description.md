@@ -4,12 +4,12 @@ ms.assetid: ea157988-bd15-465c-bd6a-6d33cc1a0323
 title: 'MF_MT_MPEG4_SAMPLE_DESCRIPTION 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4620ae0b50a2c6f2dae7663aab0c49f13bc5a162
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c59827fa5d2ba6c6621c7e251cf319478fd621d24639e105dcd44863495b364
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741785"
 ---
 # <a name="mf_mt_mpeg4_sample_description-attribute"></a>MF \_ MT \_ MPEG4 \_ 範例 \_ DESCRIPTION 屬性
 
@@ -46,7 +46,7 @@ MPEG 4 檔案來源會在每個資料流程的媒體類型上設定此屬性。 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

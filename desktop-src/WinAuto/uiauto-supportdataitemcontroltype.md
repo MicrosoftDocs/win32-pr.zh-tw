@@ -24,12 +24,12 @@ keywords:
 - 控制項類型，DataItem
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0902cc593ec7f9104ed27031caa2785b7cb9756
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f5ec4612b43855578256d52bf6647b105ea666882cfe2f72dcdbf355559a7e5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118826311"
 ---
 # <a name="dataitem-control-type"></a>DataItem 控制項類型
 
@@ -86,7 +86,7 @@ ms.locfileid: "104021343"
 
 
 
- 
+ 
 
 資料格中資料項目 (Item) 的項目 (Element) 可裝載各種不同的物件，包括另一層資料項目，或是特定資料格項目 (Element) 如文字、影像或編輯控制項。 如果資料項目專案具有特定的物件角色，則元素應該公開為特定的控制項類型;例如，方格中可選取 [資料項目的專案類型控制項類型](uiauto-supportlistitemcontroltype.md) 。
 
@@ -113,7 +113,7 @@ ms.locfileid: "104021343"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -133,13 +133,13 @@ ms.locfileid: "104021343"
 
 
 
- 
+ 
 
 ## <a name="working-with-dataitems-in-large-lists"></a>在大型清單中使用 Dataitem
 
 由於大型清單通常會在 UI 架構內虛擬化以協助效能，因此消費者介面自動化用戶端無法使用消費者介面自動化查詢功能來搜尋完整樹狀結構的內容，其方式與其他專案容器中的相同。 用戶端應該將專案滾動至 view (或展開控制項，以顯示所有可用的選項) ，然後再從資料項目存取完整的資訊集。
 
-在資料項目的消費者介面自動化專案上呼叫 [**SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus) 時，Microsoft Windows 檔案總管會成功傳回，而且會將焦點設為數據項子樹中的編輯控制項。
+在資料項目的消費者介面自動化專案上呼叫 [**SetFocus**](/windows/desktop/api/UIAutomationClient/nf-uiautomationclient-iuiautomationelement-setfocus)時，Microsoft Windows 檔案總管會成功傳回，而且會將焦點設為數據項子樹中的編輯控制項。
 
 ## <a name="required-events"></a>必要的事件
 
@@ -166,7 +166,7 @@ ms.locfileid: "104021343"
 
 
 
- 
+ 
 
 ## <a name="dataitem-control-type-example"></a>DataItem 控制項類型範例
 
@@ -229,7 +229,7 @@ ms.locfileid: "104021343"
 
 
 
- 
+ 
 
 如果方格代表可選取專案的清單，則可以使用 [專案類型 [] 控制項類型](uiauto-supportlistitemcontroltype.md) 來公開對應的可選取 UI 元素，而不是 DataItem 控制項類型。 在上述範例中， **DataItem** 元素 ( 群組 ( "Contoso" ) 下的「帳戶 Receivable.doc」和「帳戶 ) Payable.doc」，可以藉由將它們公開為專案 **組合** 控制項類型來獲得改善，因為該類型已支援 [SelectionItem](uiauto-implementingselectionitem.md) 控制項模式。
 
@@ -246,9 +246,9 @@ ms.locfileid: "104021343"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

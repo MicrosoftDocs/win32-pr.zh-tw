@@ -4,12 +4,12 @@ ms.assetid: e04175c4-bb43-4f76-8ceb-50282a1ebed0
 title: Winlogon 狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4d2e4ec690d6bdda15fb8e350969b36e01d5c68
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fef22cdd172572b1d5032990abae929712dc0be29a926524520c7ce6f9bbfe69
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915049"
 ---
 # <a name="winlogon-states"></a>Winlogon 狀態
 

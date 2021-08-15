@@ -4,18 +4,18 @@ ms.assetid: ff10ed8a-d73b-4d9b-b224-9ecfcc37d5af
 title: ResolutionUnit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd8b148b074d7e033fe21ab50b1fdbd000fd0a2f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 702351e001c52c03a7610f73cc1f92c7e3da0afc57652a7344271dd1263dc869
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118726496"
 ---
 # <a name="systemimageresolutionunit"></a>ResolutionUnit
 
 指出解決單位。 用於具有非方形外觀比例，但沒有有意義的絕對維度的影像。 1 = 沒有任何絕對測量單位。 2 = 英寸。 3 = 公分。 預設值為 2 (英寸) 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

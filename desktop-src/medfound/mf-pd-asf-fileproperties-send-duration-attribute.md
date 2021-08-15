@@ -4,12 +4,12 @@ ms.assetid: 2bd427e2-106d-4997-86aa-fae221e429eb
 title: 'MF_PD_ASF_FILEPROPERTIES_SEND_DURATION 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: deed3f78208a0f0c7e555e8113f05ac0800cdb97
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce635cd02766a3c9ca8b0a0d327db93a4bcaaca76bccd6ae54fda726684ec641
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740940"
 ---
 # <a name="mf_pd_asf_fileproperties_send_duration-attribute"></a>MF \_ PD \_ ASF \_ FILEPROPERTIES \_ 傳送 \_ 持續時間屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106978247"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

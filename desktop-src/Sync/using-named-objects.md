@@ -4,12 +4,12 @@ ms.assetid: 06199f83-8fe0-42b9-9db1-58fe1443db4e
 title: 使用命名物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a349e3e26f661ca988bc5c5ebbc7b3c6ea622956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24e31d21af713a28d5bee501349e818327750cba15a961ebd0f6a5295be91e0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986956"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117765127"
 ---
 # <a name="using-named-objects"></a>使用命名物件
 

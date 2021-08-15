@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 74a0ccf722715896743129b6666609bd8a88df3f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73622161629f6d3746c153fb9e2df32ee120fd748defc60d0d02ef6ea4378b14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118843895"
 ---
 # <a name="ivmnetworkadapter-interface"></a>IVMNetworkAdapter 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 作為虛擬網路介面卡的介面 (NIC) 。 它是用來設定虛擬機器的網路連線方式。 您可以使用 [**IVMVirtualMachine：： AddNetworkAdapter**](ivmvirtualmachine-addnetworkadapter.md) 和 [**IVMVirtualMachine：： RemoveNetworkAdapter**](ivmvirtualmachine-removenetworkadapter.md)來新增和移除網路介面卡。 您也可以從 [**IVMVirtualMachine：： NetworkAdapters**](ivmvirtualmachine-networkadapters.md)或 [**IVMVirtualNetwork：： NetworkAdapters**](ivmvirtualnetwork-networkadapters.md)屬性傳回的 [**IVMNetworkAdapterCollection**](ivmnetworkadaptercollection.md)集合中取出 **IVMNetworkAdapter** 物件。
 
@@ -93,7 +93,7 @@ ms.locfileid: "104384749"
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                     |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                          |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                 |

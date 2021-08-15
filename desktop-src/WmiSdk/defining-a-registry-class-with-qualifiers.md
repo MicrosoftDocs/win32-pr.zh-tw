@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 使用限定詞定義登錄類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f45fdff611814eadbf57eabedf7444d098666918
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f42e3c383a5d71d66c88f388aa1745f8a8324568a7fd85ac0f48e5e2cff30e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848745"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925224"
 ---
 # <a name="defining-a-registry-class-with-qualifiers"></a>使用限定詞定義登錄類別
 

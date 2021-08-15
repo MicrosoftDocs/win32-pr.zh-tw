@@ -4,12 +4,12 @@ description: '使用指定之取樣器所識別的指定位址和篩選模式，
 ms.assetid: 9CF57C4A-C0D1-4D57-A5EE-62BBBB291438
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: abe2d3ad310c18ff2bb10e101c95e0267d534fed
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d7b3e1e45c0ea41834ad258fc5a2f900f25be9a0394a5e33be5e170222b88cf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992042"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117906247"
 ---
 # <a name="sample_d-sm4---asm"></a>範例 \_ d (sm4-asm) 
 
@@ -81,9 +81,9 @@ ms.locfileid: "104992042"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

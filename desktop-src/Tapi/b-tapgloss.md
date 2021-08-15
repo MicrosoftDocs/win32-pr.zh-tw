@@ -5,12 +5,12 @@ ms.assetid: fa94cbaf-8772-4cc6-ad20-f48cbe79a20a
 title: 'B (電話語音 API) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d97debd1c11e6cc70e164e080d4e292eee8ac83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cc5b4c746232c0236d94a2f857ab1851a2a4d3b7f8f2937c9927f142825140d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948753"
 ---
 # <a name="b-telephony-api"></a>B (電話語音 API) 
 

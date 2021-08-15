@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 952a94378a0570d5bb7bc4f08959074bc8a4da4d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fd8c10212a2dd91e4ecbe7fd48a427e4019b2cd79b3d56457635ab9ef9d9262a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118508248"
 ---
 # <a name="sv_groupindex"></a>SV \_ GroupIndex
 
@@ -34,7 +34,7 @@ ms.locfileid: "103682577"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -59,13 +59,13 @@ SV_GroupIndex = SV_GroupThreadID.z*dimx*dimy +
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          |       | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -77,6 +77,6 @@ SV_GroupIndex = SV_GroupThreadID.z*dimx*dimy +
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

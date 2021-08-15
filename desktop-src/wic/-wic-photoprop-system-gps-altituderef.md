@@ -4,12 +4,12 @@ ms.assetid: abbb2441-25ca-484b-a744-620ff2794221
 title: AltitudeRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db600d218d72014c49fd3f0a8b5eb11dd4c467d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ca49213754f605dcf6df40dfa3ff00e2b7aeaf765008037c23da21e35ab9ddee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980502"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710695"
 ---
 # <a name="systemgpsaltituderef-photo-metadata-policy"></a>AltitudeRef 相片中繼資料原則
 
@@ -19,7 +19,7 @@ ms.locfileid: "106980502"
 
 PKEY \_ GPS \_ AltitudeRef
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 表示用來做為參考高度的高度。 值為0表示海拔超過海平面。 值為1時，表示低於海平面的高度。
 
@@ -29,7 +29,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-No
+否
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

@@ -7,12 +7,12 @@ keywords:
 - Windows 通訊端服務如何驗證用戶端 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cad096ddfb9569d6289c1e775465232431c20ad6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: c2975d356de011818514d6999f03d1998e066a4b8bdadd6eaba8835541e4b8e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188520"
 ---
 # <a name="how-a-windows-sockets-service-authenticates-a-client"></a>Windows 通訊端服務如何驗證用戶端
 
@@ -206,6 +206,6 @@ return TRUE;
 
 
 
- 
+ 
 
- 
+ 

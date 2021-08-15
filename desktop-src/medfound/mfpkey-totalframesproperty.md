@@ -4,12 +4,12 @@ ms.assetid: 33009587-6fb2-4331-88d7-21886125467e
 title: 'MFPKEY_TOTALFRAMES 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dfbdd02de8ae37918bb81691ad545b0cc3ebbca7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0a45c67bd457fc792af2f2f3d99f6cc346fe01dbebe735b9340c79ccc54fe27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115108"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117872972"
 ---
 # <a name="mfpkey_totalframes-property"></a>MFPKEY \_ TOTALFRAMES 屬性
 
@@ -33,8 +33,8 @@ VT \_ I4
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                             |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

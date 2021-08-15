@@ -4,12 +4,12 @@ ms.assetid: 8668d0f1-9d54-4c56-bb19-09498252bec4
 title: 'MF_TOPONODE_WORKQUEUE_MMCSS_CLASS 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 824c9dbdc9b12bbc8fead9ab6ae722fca1e6643a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6630cf22d3afe270b2a032304fd9de3118e73e75e28da4116418894271237a71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739842"
 ---
 # <a name="mf_toponode_workqueue_mmcss_class-attribute"></a>MF \_ TOPONODE \_ WORKQUEUE \_ MMCSS \_ 類別屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106999863"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

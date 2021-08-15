@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d970160c07c90e84585c87ed1abf740fbe3c6318
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e69c990b01ed885b80c96e3e36ad28c2793baf618fea68b0e20006390c2adeed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331638"
 ---
 # <a name="iwmpnetworkgetproxysettings-method"></a>IWMPNetwork：： getProxySettings 方法
 

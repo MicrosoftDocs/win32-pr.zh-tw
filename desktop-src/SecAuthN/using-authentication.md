@@ -4,12 +4,12 @@ ms.assetid: eace4146-e1d4-491c-8dfc-a15d99de45cc
 title: 使用驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a07961741c31f60fbc097653f9b713330ecc2e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 680b49328ba8f313c509b072adc7f7a26bd1af3030a316d854883586b5d8c84c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194059"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915306"
 ---
 # <a name="using-authentication"></a>使用驗證
 

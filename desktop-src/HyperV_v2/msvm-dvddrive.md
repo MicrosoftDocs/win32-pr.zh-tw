@@ -81,12 +81,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: e4b3c9006babb2c7e18b6aed6e85cbee47299429
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aaea74f4ebf7a44605429110fcb5c3a6ab115a6963388dcb1d41536990ceb98a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117994620"
 ---
 # <a name="msvm_dvddrive-class"></a>Msvm \_ DVDDrive 類別
 
@@ -1124,8 +1124,8 @@ class Msvm_DVDDrive : CIM_DVDDrive
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |
@@ -1142,7 +1142,7 @@ class Msvm_DVDDrive : CIM_DVDDrive
 [**CIM \_ DVDDrive**](/previous-versions//cc136812(v=vs.85))
 </dt> <dt>
 
-[儲存類別](storage-classes.md)
+[儲存體類](storage-classes.md)
 </dt> </dl>
 
  

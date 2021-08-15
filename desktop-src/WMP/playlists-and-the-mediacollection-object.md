@@ -6,22 +6,22 @@ keywords:
 - Windows Media Player，播放清單
 - Windows Media Player 物件模型，播放清單
 - 物件模型，播放清單
-- Windows Media Player 行動裝置、播放清單
-- Windows Media Player ActiveX 控制項，播放清單
-- Windows Media Player 的行動 ActiveX 控制項、播放清單
+- Windows Media Player行動裝置、播放清單
+- Windows Media Player ActiveX 控制項、播放清單
+- Windows Media Player行動 ActiveX 控制項、播放清單
 - ActiveX 控制項，播放清單
 - 播放清單，MediaCollection 物件
 - 中繼檔播放清單，MediaCollection 物件
-- Windows Media 中繼檔播放清單，MediaCollection 物件
+- Windows媒體中繼檔播放清單，MediaCollection 物件
 - MediaCollection 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 334b693046e6c78e92a4af901816b57bb9c4cddc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9b1a0bba2e966e51523dc24965c2f2a066767b059f26a08fde9ee5856a1694df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334451"
 ---
 # <a name="playlists-and-the-mediacollection-object"></a>播放清單和 MediaCollection 物件
 
@@ -135,9 +135,9 @@ IWMPMedia Media = Player.mediaCollection.add("c:\\testPlayList.asx");
 [**靜態和自動播放清單**](static-and-auto-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

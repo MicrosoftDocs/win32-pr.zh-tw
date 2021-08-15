@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f00163605cda5b79bb5fc13966496ff192d6d6eb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e04b7d11d0177c2ee91e4b1c2c536ba2f029489c0f1aee3b0a3475cccb66291c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465313"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118350305"
 ---
 # <a name="msrdpclient10notsafeforscripting-class"></a>MsRdpClient10NotSafeForScripting 類別
 
@@ -65,23 +65,23 @@ Microsoft RDP 用戶端控制-第11版
 | 方法                                                                                      | 描述                                                                                                                                                                                                                                                                                   |
 |:--------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**attachEvent**](imsrdpclient9-attachevent.md)                                            | 附加事件。 <br/>                                                                                                                                                                                                                                                                |
-| [**連接**](imstscax-connect.md)                                                         | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                                                                                                                          |
+| [**連線**](imstscax-connect.md)                                                         | 使用目前在控制項上設定的屬性起始連接。<br/>                                                                                                                                                                                                          |
 | [**CreateVirtualChannels**](imstscax-createvirtualchannels.md)                             | 針對每個指定的虛擬通道名稱建立用戶端虛擬通道物件。<br/>                                                                                                                                                                                              |
 | [**Vemap.detachevent**](imsrdpclient9-detachevent.md)                                            | 卸離事件。 <br/>                                                                                                                                                                                                                                                                |
 | [**中斷連線**](imstscax-disconnect.md)                                                   | 中斷使用中連接。<br/>                                                                                                                                                                                                                                                 |
 | [**GetErrorDescription**](imsrdpclient5-geterrordescription.md)                            | 捕獲錯誤碼和錯誤訊息。<br/>                                                                                                                                                                                                                                      |
 | [**GetStatusText**](imsrdpclient7-getstatustext.md)                                        | 抓取指定狀態碼的狀態文字。<br/>                                                                                                                                                                                                                           |
 | [**GetVirtualChannelOptions**](imsrdpclient-getvirtualchanneloptions.md)                   | 抓取為虛擬通道設定的選項。<br/>                                                                                                                                                                                                                                   |
-| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | 通知遠端桌面 ActiveX 控制項的裝置重新導向模組，表示系統上已發生裝置變更。 這個方法會將 [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) 通知傳遞給控制項。<br/>                                                        |
+| [**NotifyRedirectDeviceChange**](imsrdpclientnonscriptable-notifyredirectdevicechange.md)  | 通知遠端桌面的裝置重新導向模組，ActiveX 控制系統上的裝置變更已發生。 這個方法會將 [**WM \_ DEVICECHANGE**](/windows/desktop/DevIO/wm-devicechange) 通知傳遞給控制項。<br/>                                                        |
 | [**OnAuthenticationWarningDismissed**](imstscaxevents-onauthenticationwarningdismissed.md) | 在 ActiveX 控制項顯示驗證對話方塊之後呼叫 (例如，[憑證錯誤] 對話方塊) 。<br/>                                                                                                                                                             |
-| [**OnAuthenticationWarningDisplayed**](imstscaxevents-onauthenticationwarningdisplayed.md) | 在 ActiveX 控制項顯示驗證對話方塊之前呼叫 (例如，) [憑證錯誤] 對話方塊。<br/>                                                                                                                                                            |
+| [**OnAuthenticationWarningDisplayed**](imstscaxevents-onauthenticationwarningdisplayed.md) | 在 ActiveX 控制項顯示驗證對話方塊之前呼叫 (例如，[憑證錯誤] 對話方塊) 。<br/>                                                                                                                                                            |
 | [**OnAutoReconnected**](imstscaxevents-onautoreconnected.md)                               | 當用戶端控制項自動重新連接到遠端會話時呼叫。<br/>                                                                                                                                                                                                  |
 | [**OnAutoReconnecting**](-imstscaxevents--onautoreconnecting.md)                           | 當用戶端在自動重新連接會話與 RD 工作階段主機伺服器時呼叫。<br/>                                                                                                                                                                      |
 | [**OnAutoReconnecting2**](imstscaxevents-onautoreconnecting2.md)                           | 當用戶端在自動重新連接會話與 RD 工作階段主機伺服器時呼叫。<br/>                                                                                                                                                                      |
 | [**OnChannelReceivedData**](imstscaxevents-onchannelreceiveddata.md)                       | 當用戶端在可編寫腳本的虛擬通道上接收資料時呼叫。<br/>                                                                                                                                                                                                              |
 | [**OnConfirmClose**](imstscaxevents-onconfirmclose.md)                                     | 當用戶端呼叫 [**IMsRdpClient：： RequestClose**](imsrdpclient-requestclose.md) 方法時呼叫。<br/>                                                                                                                                                                           |
 | [**OnConnected**](imstscaxevents-onconnected.md)                                           | 當用戶端控制項正在建立與 RD 工作階段主機 server 的連接時呼叫。<br/>                                                                                                                                                                       |
-| [**OnConnecting**](imstscaxevents-onconnecting.md)                                         | 當用戶端控制項開始連接到伺服器以回應 [**IMsTscAx：： Connect**](imstscax-connect.md)的呼叫時呼叫。<br/>                                                                                                                                               |
+| [**OnConnecting**](imstscaxevents-onconnecting.md)                                         | 當用戶端控制項開始連接到伺服器以回應 [**IMsTscAx：：連線**](imstscax-connect.md)的呼叫時呼叫。<br/>                                                                                                                                               |
 | [**OnConnectionBarPullDown**](imstscaxevents-onconnectionbarpulldown.md)                   | 當使用者在連接列上向下拖曳時呼叫。<br/>                                                                                                                                                                                                                       |
 | [**OnDevicesButtonPressed**](imstscaxevents-ondevicesbuttonpressed.md)                     | 當按下連接列中的 [裝置] 按鈕時呼叫。<br/>                                                                                                                                                                                                             |
 | [**OnDisconnected**](imstscaxevents-ondisconnected.md)                                     | 當用戶端控制項與 RD 工作階段主機伺服器中斷連線時呼叫。<br/>                                                                                                                                                                                              |
@@ -90,7 +90,7 @@ Microsoft RDP 用戶端控制-第11版
 | [**OnFocusReleased**](imstscaxevents-onfocusreleased.md)                                   | 在按下放開焦點按鍵組合時呼叫。 例如，當使用者按下 CTRL + ALT + 向左鍵或 CTRL + ALT + 向右鍵按鍵組合時，就會呼叫此事件。<br/>                                                                                             |
 | [**OnIdleTimeoutNotification**](imstscaxevents-onidletimeoutnotification.md)               | 當使用者在 [**IMsRdpClientAdvancedSettings：:p 長 \_ MinutesToIdleTimeout**](imsrdpclientadvancedsettings-minutestoidletimeout.md) 方法設定期間沒有滑鼠或鍵盤輸入時呼叫。<br/>                                                |
 | [**OnLeaveFullScreenMode**](imstscaxevents-onleavefullscreenmode.md)                       | 當用戶端離開全螢幕模式時呼叫。 例如，當使用者按下全螢幕模式 [快速鍵](terminal-services-shortcut-keys.md) 組合 (CTRL + ALT + BREAK) 時，就會呼叫此事件。<br/>                                                                     |
-| [**OnLoginComplete**](imstscaxevents-onlogincomplete.md)                                   | 當用戶端控制項成功登入 RD 工作階段主機伺服器時呼叫，並遵循 Windows 登入對話方塊的顯示。<br/>                                                                                                                                      |
+| [**OnLoginComplete**](imstscaxevents-onlogincomplete.md)                                   | 當用戶端控制項成功登入 RD 工作階段主機伺服器時呼叫，並遵循 [Windows 登入] 對話方塊的顯示。<br/>                                                                                                                                      |
 | [**OnLogonError**](imstscaxevents-onlogonerror.md)                                         | 發生登入錯誤或其他登入事件時呼叫。<br/>                                                                                                                                                                                                                             |
 | [**OnMouseInputModeChanged**](imstscaxevents-onmouseinputmodechanged.md)                   | 當滑鼠輸入模式變更時呼叫。<br/>                                                                                                                                                                                                                                      |
 | [**OnNetworkStatusChanged**](imstscaxevents-onnetworkstatuschanged.md)                     | 在網路狀態變更時呼叫。<br/>                                                                                                                                                                                                                                        |
@@ -212,7 +212,7 @@ Microsoft RDP 用戶端控制-第11版
 <tr class="odd">
 <td style="text-align: left;"><a href="imstscnonscriptable-cleartextpassword.md"><strong>ClearTextPassword</strong></a><br/></td>
 <td style="text-align: left;">唯寫<br/></td>
-<td style="text-align: left;">以純文字格式的遠端桌面 ActiveX 控制項密碼。<br/></td>
+<td style="text-align: left;">以純文字格式 ActiveX 控制密碼的遠端桌面。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="imsrdpclient-colordepth.md"><strong>ColorDepth</strong></a><br/></td>
@@ -527,7 +527,7 @@ Microsoft RDP 用戶端控制-第11版
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                           |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                           |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                        |
 | 類型程式庫<br/>             | <dl> <dt>MsTscAx.dll</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>MsTscAx.dll</dt> </dl>                |

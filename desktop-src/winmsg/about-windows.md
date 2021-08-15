@@ -4,12 +4,12 @@ ms.assetid: e325f8dc-004f-44a9-9122-3be5e44764d6
 title: 關於 Windows
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e2df510deea689d70bd1ebf5e59cafc92b0389d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24b085ed246ef6f13627d678e3ede68fa6349a780a74c0c89ee7cbafb24c501f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849884"
 ---
 # <a name="about-windows"></a>關於 Windows
 
@@ -18,7 +18,7 @@ ms.locfileid: "104192826"
 此總覽包含下列主題。
 
 -   [桌面視窗](#desktop-window)
--   [應用程式視窗](#application-windows)
+-   [應用程式 Windows](#application-windows)
     -   [工作區](#client-area)
     -   [非工作區](#nonclient-area)
 -   [控制項和對話方塊](#controls-and-dialog-boxes)
@@ -43,15 +43,15 @@ ms.locfileid: "104192826"
 
 當您啟動系統時，它會自動建立桌面視窗。 *桌面視窗* 是系統定義的視窗，會繪製畫面的背景，並做為所有應用程式所顯示所有視窗的基底。
 
-桌面視窗使用點陣圖來繪製畫面的背景。 點陣圖建立的模式稱為 *桌面壁紙*。 根據預設，桌面視窗會使用登錄中指定的 .bmp 檔中的點陣圖作為桌面壁紙。
+桌面視窗使用點陣圖來繪製畫面的背景。 點陣圖建立的模式稱為 *桌面壁紙*。 根據預設，桌面視窗會使用登錄中指定的 .bmp 檔案中的點陣圖作為桌面壁紙。
 
 [**GetDesktopWindow**](/windows/win32/api/winuser/nf-winuser-getdesktopwindow)函式會將控制碼傳回至桌面視窗。
 
 系統設定應用程式（例如主控台專案）會藉由使用 [**SystemParametersInfo**](/windows/desktop/api/winuser/nf-winuser-systemparametersinfoa) 函式，將 *wAction* 參數設定為 **SPI \_ SETDESKWALLPAPER** ，以及指定點陣圖檔案名的 *lpvParam* 參數，來變更桌面背景圖樣。 然後， **SystemParametersInfo** 會從指定的檔案載入點陣圖、使用點陣圖來繪製畫面的背景，並在登錄中輸入新的檔案名。
 
-## <a name="application-windows"></a>應用程式視窗
+## <a name="application-windows"></a>應用程式 Windows
 
-每個以圖形為基礎的應用程式會建立至少一個視窗（稱為 *主視窗*），作為使用者和應用程式之間的主要介面。 大部分的應用程式也會直接或間接地建立其他視窗，以執行與主視窗相關的工作。 每個視窗會在顯示輸出和接收來自使用者的輸入時播放一個部分。
+每個以圖形 Windows 為基礎的應用程式會建立至少一個視窗（稱為 *主視窗*），作為使用者和應用程式之間的主要介面。 大部分的應用程式也會直接或間接地建立其他視窗，以執行與主視窗相關的工作。 每個視窗會在顯示輸出和接收來自使用者的輸入時播放一個部分。
 
 當您啟動應用程式時，系統也會將工作列按鈕與應用程式產生關聯。 *工作列按鈕* 包含程式圖示和標題。 當應用程式在作用中時，其工作列按鈕會顯示為 [已推送] 狀態。
 
@@ -83,7 +83,7 @@ ms.locfileid: "104192826"
 
 應用程式除了主視窗（包括控制項和對話方塊）之外，還可以建立數種類型的視窗。
 
-*控制項* 是應用程式用來從使用者取得特定資訊片段的視窗，例如要開啟的檔案名或文字選取範圍的所需位置。 應用程式也會使用控制項來取得控制應用程式特定功能所需的資訊。 例如，文字處理應用程式通常會提供一個控制項，讓使用者開啟和關閉自動換行。 如需詳細資訊，請參閱 [Windows 控制項](/windows/desktop/Controls/window-controls)。
+*控制項* 是應用程式用來從使用者取得特定資訊片段的視窗，例如要開啟的檔案名或文字選取範圍的所需位置。 應用程式也會使用控制項來取得控制應用程式特定功能所需的資訊。 例如，文字處理應用程式通常會提供一個控制項，讓使用者開啟和關閉自動換行。 如需詳細資訊，請參閱[Windows 控制項](/windows/desktop/Controls/window-controls)。
 
 控制項一律會與另一個視窗（通常是對話方塊）一起使用。 *對話方塊* 是包含一或多個控制項的視窗。 應用程式會使用對話方塊來提示使用者完成命令所需的輸入。 例如，包含開啟檔案之命令的應用程式會顯示一個對話方塊，其中包含使用者指定路徑和檔案名的控制項。 對話方塊通常不會使用與主視窗相同的一組視窗元件。 大部分的標題列、視窗功能表、框線 (非調整大小) 和工作區，但它們通常沒有功能表列、最小化和最大化按鈕或捲軸。 如需詳細資訊，請參閱 [對話方塊](/windows/desktop/dlgbox/dialog-boxes)。
 
@@ -162,7 +162,7 @@ ms.locfileid: "104192826"
 
 沒有父系或其父系為桌面視窗的視窗，稱為 *最上層視窗*。 應用程式可以使用 [**EnumWindows**](/windows/win32/api/winuser/nf-winuser-enumwindows) 函式來取得畫面上每個最上層視窗的控制碼。 **EnumWindows** 會將每個最上層視窗的控制碼傳遞至應用程式定義的回呼函數 [**EnumWindowsProc**](/previous-versions/windows/desktop/legacy/ms633498(v=vs.85))。
 
-最上層視窗可擁有或由另一個視窗擁有。 *擁有的視窗* 一律會出現在其擁有者視窗前方，當其擁有者視窗最小化時，就會隱藏起來，而且當其擁有者視窗損毀時，會加以終結。 如需詳細資訊，請參閱 [擁有的視窗](window-features.md#owned-windows)。
+最上層視窗可擁有或由另一個視窗擁有。 *擁有的視窗* 一律會出現在其擁有者視窗前方，當其擁有者視窗最小化時，就會隱藏起來，而且當其擁有者視窗損毀時，會加以終結。 如需詳細資訊，請參閱[擁有的 Windows](window-features.md#owned-windows)。
 
 ### <a name="menu-handle-or-child-window-identifier"></a>功能表控制碼或 Child-Window 識別碼
 
@@ -203,7 +203,7 @@ ms.locfileid: "104192826"
 
 ### <a name="main-window-creation"></a>建立主視窗
 
-每個以 Windows 為基礎的應用程式都必須有 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) 作為其進入點函式。 **WinMain** 會執行一些工作，包括註冊主視窗的視窗類別和建立主視窗。 **WinMain** 會藉由呼叫 [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassa) 函數來註冊主視窗類別，並藉由呼叫 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函式來建立主視窗。
+每個以 Windows 為基礎的應用程式都必須有 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain)作為其進入點函數。 **WinMain** 會執行一些工作，包括註冊主視窗的視窗類別和建立主視窗。 **WinMain** 會藉由呼叫 [**RegisterClass**](/windows/win32/api/winuser/nf-winuser-registerclassa) 函數來註冊主視窗類別，並藉由呼叫 [**CreateWindowEx**](/windows/win32/api/winuser/nf-winuser-createwindowexa) 函式來建立主視窗。
 
 您的 [**WinMain**](/windows/win32/api/winbase/nf-winbase-winmain) 函式也可以將應用程式限制為單一實例。 使用 [**CreateMutex**](/windows/desktop/api/synchapi/nf-synchapi-createmutexa) 函式建立命名 mutex。 如果 [**GetLastError**](/windows/desktop/api/errhandlingapi/nf-errhandlingapi-getlasterror) 傳回 **錯誤 \_ 已經 \_ 存在**，則應用程式的另一個實例 (它建立了 Mutex) ，您應該結束 **WinMain**。
 
@@ -219,7 +219,7 @@ ms.locfileid: "104192826"
 
 ### <a name="multithread-applications"></a>多執行緒應用程式
 
-以 Windows 為基礎的應用程式可以有多個執行緒執行，而且每個執行緒都可以建立視窗。 建立視窗的執行緒必須包含其視窗程式的程式碼。
+以 Windows 為基礎的應用程式可以有多個執行緒，而且每個執行緒都可以建立視窗。 建立視窗的執行緒必須包含其視窗程式的程式碼。
 
 應用程式可以使用 [**EnumThreadWindows**](/windows/win32/api/winuser/nf-winuser-enumthreadwindows) 函式來列舉特定執行緒所建立的視窗。 此函式會將控制碼傳遞至每個執行緒視窗，然後再傳遞至應用程式定義的回呼函式 [**EnumThreadWndProc**](/previous-versions/windows/desktop/legacy/ms633496(v=vs.85))。
 

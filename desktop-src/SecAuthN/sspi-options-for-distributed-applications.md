@@ -4,12 +4,12 @@ ms.assetid: e67cc054-7e48-43e7-a4b0-d1d90e9511f2
 title: 分散式應用程式的 SSPI 選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed7729b3c479c69b674120fe1fc9827f5edfd878
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdfeef5cb52494c50b8b16911f70de238a7a86493297ec59bf6d46637810bf26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916788"
 ---
 # <a name="sspi-options-for-distributed-applications"></a>分散式應用程式的 SSPI 選項
 
@@ -23,11 +23,11 @@ ms.locfileid: "103847673"
 
     這些應用程式不會直接呼叫 SSPI 函數。
 
--   使用 [Windows 通訊端 2](../winsock/windows-sockets-start-page-2.md) (WinSock) 搭配擴充的 WinSock 介面，以允許傳輸提供者使用安全性功能。
+-   使用[Windows 通訊端 2](../winsock/windows-sockets-start-page-2.md) (WinSock) 搭配擴充的 WinSock 介面，以允許傳輸提供者使用安全性功能。
 
     這種方法會將 [*安全性支援提供者*](../secgloss/s-gly.md) (SSP) 整合到網路堆疊中，並透過通用介面提供安全性與傳輸服務。
 
--   使用 [Windows 網際網路延伸模組 API](../wininet/portal.md) (WinInet) 以及設計來支援網際網路安全性通訊協定（例如 [*安全通訊端層*](../secgloss/s-gly.md) (SSL) 通訊協定）的介面。
+-   使用 [Windows 的網際網路擴充 API](../wininet/portal.md) (WinInet) 以及設計來支援網際網路安全性通訊協定（例如 [*安全通訊端層*](../secgloss/s-gly.md) (SSL) 通訊協定）的介面。
 
     應用程式會將 SSPI 介面用於 [安全通道](secure-channel.md) (Schannel) 安全性提供者來實行 WinInet 安全性。 Schannel 是 Microsoft 的 SSL 執行。
 

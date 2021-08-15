@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Msoe.dll
-ms.openlocfilehash: 4a217b2cfb046bfb9ae5546e015264f74d00b1d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4419f55b2fe4561a22035d962da5e3c271108d06fa417cfbed1b603c883e5b32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192675"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118721906"
 ---
 # <a name="iidentitychangenotify-interface"></a>IIdentityChangeNotify 介面
 
-\[**IIdentityChangeNotify** 介面可用於 Windows 2000。 在 Windows XP 中，這項功能已由 [使用者帳戶取代為快速使用者切換和遠端桌面](fastuserswitching.md)，而且可能會在後續版本中變更或無法使用。\]
+\[**IIdentityChangeNotify** 介面可用於 Windows 2000。 在 Windows XP 中，這項功能已由[使用者帳戶取代為快速使用者切換和遠端桌面](fastuserswitching.md)，而且可能會在後續版本中變更或無法使用。\]
 
 已取代。 提供對系統上使用者身分識別的修改通知，以及切換目前使用者身分識別的使用者要求。
 

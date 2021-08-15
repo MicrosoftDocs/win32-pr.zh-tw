@@ -5,21 +5,21 @@ ms.assetid: 46a5d166-ca8d-42df-9455-145332437153
 keywords:
 - Windows Media Player、裝置 i/o 控制碼
 - Windows Media Player，控制代碼
-- Windows Media 裝置管理員
+- Windows媒體裝置管理員
 - 裝置 i/o 控制碼
 - 控制代碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69c00e235ce0f0e68e98f4f0e37221eac0903682
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 63d610b396125cf190764b53106ca6535a214e2c8166f4e69de884c113fd77ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117935847"
 ---
 # <a name="device-io-control-codes"></a>裝置 i/o 控制碼
 
-Windows Media Player 10 或更新版本會定義 Windows Media 裝置管理員裝置 i/o 控制碼。 下表包含控制碼及其描述。
+Windows Media Player 10 或更新版本會定義 Windows 媒體裝置管理員裝置 i/o 控制碼。 下表包含控制碼及其描述。
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: f4180fd6-23a2-4cd9-b309-016f7333e381
 title: Mergemod.dll 版本1.0 的物件模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c7fb8e1fc923e1fd6433e196ba4ff3f8714ca9b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a53c3bc1cae79d1280172265fe0c1bce665a488a89a00f3367cf69455a68d210
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943338"
 ---
 # <a name="object-model-for-mergemoddll-version-10"></a>Mergemod.dll 版本1.0 的物件模型
 

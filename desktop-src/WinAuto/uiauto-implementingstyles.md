@@ -15,12 +15,12 @@ keywords:
 - 介面，IStylesProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 611e2f1979aaa4744ce3ff39965053f63399b2b9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: a66e52a6829e592cc659d5ce47b51a09b6d8910d4bd2c41a1e03c9b661d027fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324086"
 ---
 # <a name="styles-control-pattern"></a>樣式控制項模式
 
@@ -59,13 +59,13 @@ ms.locfileid: "103682933"
 | [**FillColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillcolor)                       | 屬性    | 無  |
 | [**FillPatternColor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatterncolor)         | 屬性    | 無  |
 | [**FillPatternStyle**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_fillpatternstyle)         | 屬性    | 無  |
-| [**形狀**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | 屬性    | 無  |
+| [**圖形**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_shape)                               | 屬性    | 無  |
 | [**StyleId**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_styleid)                           | 屬性    | 無  |
 | [**StyleName**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-istylesprovider-get_stylename)                       | 屬性    | 無  |
 
 
 
- 
+ 
 
 此控制項模式沒有任何相關聯的方法或事件。
 
@@ -82,6 +82,6 @@ ms.locfileid: "103682933"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

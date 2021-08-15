@@ -4,12 +4,12 @@ ms.assetid: de9c1204-6a51-4e0b-a42e-6dcb3be9c3b2
 title: 憑證註冊 Factory 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8d19a868577bb53c9315651318964d8e5d36238
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64f96c3c6150202f780b89a0e117b3d9e8be00f3c439aa7c3805c055090f6ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026234"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902719"
 ---
 # <a name="certificate-enrollment-factory-interfaces"></a>憑證註冊 Factory 介面
 

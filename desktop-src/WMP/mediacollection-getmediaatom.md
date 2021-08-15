@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 16728b20c26b90c10f144f278f7dec24195b536a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 8f537b759516d5fa0f382d0c72aabbc0edb836ad8e4ae6d7f210d012fa19ea60
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118837201"
 ---
 # <a name="mediacollectiongetmediaatom-method"></a>MediaCollection. getMediaAtom 方法
 
@@ -45,7 +45,7 @@ retVal = MediaCollection.getMediaAtom(
 *屬性* \[在\]
 </dt> <dd>
 
-包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> </dl>
 

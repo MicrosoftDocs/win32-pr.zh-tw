@@ -4,16 +4,16 @@ ms.assetid: 14291b2a-87d1-4acf-9f31-d4014e941cbb
 title: SenderAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc42eafec0a66241955f9b8bce81c5c457c95fe1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: d93e15cc13a03d835aebc110895b39a6051e1d0b1d83db36eed1a320d01a550d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108113976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118724686"
 ---
 # <a name="systemmessagesenderaddress"></a>SenderAddress
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -1,4 +1,4 @@
-- name: 適用于 Windows 的相容性操作手冊
+- name: Windows 的相容性操作手冊
   href: windows-8-and-windows-server-8-compatibility-cookbook-portal.md
   items:
     - name: 簡介
@@ -6,7 +6,7 @@
     - name: Windows 10
       href: windows-10.md
       items:
-        - name: 自 Windows 7 起的重要變更，以確保相容性
+        - name: Windows 7 之後的重要變更，以確保相容性
           href: key-changes-since-windows-7-to-ensure-compatibility.md
         - name: 如何確保合併生態系統的相容性
           href: how-we-can-ensure-compatibility-of-the-combined-ecosystem.md
@@ -41,15 +41,15 @@
           items:
             - name: Windows 8.1 中的作業系統版本變更
               href: operating-system-version-changes-in-windows-8-1.md
-            - name: 隨選安裝的 Windows 元件
+            - name: Windows 隨選安裝的元件
               href: windows-components-installed-on-demand.md
             - name: HTML 字型回溯行為
               href: html-font-fallback-behavior.md
-            - name: Windows 8.1 只允許 HTTPs Uri，而非 HTTP Uri
+            - name: Windows 8.1 只允許 HTTPs uri，而非 HTTP uri
               href: windows-8-1-allows-only-https-uris--not-http-uris.md
             - name: Windows 8.1 的滑鼠滾輪輸入
               href: mousewheel-input-for-windows-8-1.md
-            - name: Windows 精確的觸控板裝置
+            - name: Windows 精確度的觸控板裝置
               href: windows-precision-touchpad-devices.md
             - name: 適用于桌面應用程式的高 DPI Windows 8。1
               href: high-dpi-for-desktop-apps-in-windows-8-1.md
@@ -66,7 +66,7 @@
         - name: 新功能和增強功能
           href: new-features-and-enhancement-in-windows-8-1-and-windows-server-2012-r2.md
           items:
-            - name: 'Windows 映像檔案開機 (的 WimBoot) '
+            - name: Windows (WimBoot) 的影像檔開機
               href: windows-image-file-boot--wimboot-.md
             - name: Web 應用程式 Proxy
               href: web-application-proxy.md
@@ -103,7 +103,7 @@
               href: desktop-activity-moderator.md
             - name: .NET Framework 4.5 是預設值，.NET Framework 3.5 是選擇性的
               href: '-net-framework-4-5-is-default-and--net-framework-3-5-is-optional.md'
-            - name: 啟動預設的網頁瀏覽器或 Windows Store 應用程式之後，可能看不到桌面應用程式
+            - name: 啟動預設網頁瀏覽器或 Windows 存放區應用程式之後，可能看不到桌面應用程式
               href: desktop-apps-may-not-be-visible-after-launching-the-default-web-browser.md
             - name: 高對比模式
               href: high-contrast-mode.md
@@ -121,13 +121,13 @@
               href: thin-provisioning-of-luns.md
             - name: 適用于 WINPE 和伺服器 SKU 的增強的存放區現在是選擇性的
               href: enhanced-storage-is-now-optional-for-winpe-and-server-sku.md
-            - name: VDS 轉換至 Windows 儲存體管理 API
+            - name: VDS 轉換成 Windows 的儲存體管理 API
               href: vds-is-transitioning-to-wmiv2-based-windows-storage-management-api.md
             - name: 已移除本機磁片區的舊版 UI
               href: volume-shadow-copy-service-ui-removed.md
             - name: StorAHCI 取代 MSAHCI
               href: storahci-replaces-msahci.md
-            - name: Windows 7 備份及還原已淘汰
+            - name: Windows 7 備份和還原已淘汰
               href: windows-7-backup-and-restore-deprecated.md
             - name: 卸載資料傳輸
               href: offloaded-data-transfers.md
@@ -137,7 +137,7 @@
               href: direct2d-does-not-support-rendering-to-rich-metafiles-in-internet-explorer-9.md
             - name: DX9 舊版硬體支援的變更
               href: changes-in-dx9-legacy-hardware-support.md
-            - name: MSAA 無法供 Windows Store 應用程式使用
+            - name: 無法 Windows Store 應用程式使用 MSAA
               href: msaa-is-not-available-to-appcontainer-apps.md
             - name: NDIS 6.30 驅動程式的埠3已淘汰
               href: port-3-is-deprecated-for-ndis-6-30-drivers.md
@@ -156,7 +156,7 @@
               href: automatic-maintenance.md
             - name: 協力廠商輸入方法編輯器
               href: third-party-input-method-editors.md
-            - name: 新的 API 可讓應用程式將 &quot; 修剪和取消對應 &quot; 提示傳送至存放裝置媒體
+            - name: 新的 API 可讓應用程式將 &quot; 修剪和取消對應 &quot; 提示傳送至儲存體媒體
               href: new-api-allows-apps-to-send--trim-and-unmap--hints-to-storage-media.md
             - name: 多重路徑 i/o 現在支援擴充 SRBs
               href: multipath-i-o-now-supports-extended-srbs.md

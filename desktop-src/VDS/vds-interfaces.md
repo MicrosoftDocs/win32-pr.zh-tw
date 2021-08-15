@@ -4,16 +4,16 @@ ms.assetid: 0bddfd62-881d-4fda-b303-ed38d434af55
 title: VDS 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06e6bbc6d471c89fd2f01e0875a5e786795813bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9715fabdcebbb9869df8e98103b45d8369a0e6d3f75fd634a6102b3d5d69c2e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106977365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118347499"
 ---
 # <a name="vds-interfaces"></a>VDS 介面
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 虛擬磁碟服務 (VDS) 物件提供介面來公開查詢、設定和維護存放裝置的方法。
 

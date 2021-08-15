@@ -382,7 +382,7 @@
                   items:
                     - name: 查詢類別1或2個架構物件
                       href: querying-for-category-1-or-2-schema-objects.md
-            - name: 如何延伸架構
+            - name: 如何延伸架構 (機器翻譯)
               href: how-to-extend-the-schema.md
               items:
                 - name: 命名屬性和類別
@@ -555,23 +555,23 @@
               items:
                 - name: 使用通用類別目錄在樹系中尋找使用者的範例程式碼
                   href: example-code-for-using-the-global-catalog-to-find-users-in-a-forest.md
-            - name: 管理成員伺服器與 Windows 2000 Professional 上的使用者
+            - name: 管理成員伺服器上的使用者和 Windows 2000 Professional
               href: managing-users-on-member-servers-and-windows-2000-professional.md
               items:
-                - name: 列舉成員伺服器與 Windows 2000 Professional 上的使用者
+                - name: 列舉成員伺服器上的使用者和 Windows 2000 Professional
                   href: enumerating-users-on-member-servers-and-windows-2000-professional.md
                   items:
                     - name: 列舉成員伺服器使用者的範例程式碼
                       href: example-code-for-enumerating-users-on-a-member-server.md
-                - name: 在成員伺服器與 Windows 2000 Professional 上建立使用者
+                - name: 在成員伺服器和 Windows 2000 Professional 上建立使用者
                   href: creating-users-on-member-servers-and-windows-2000-professional.md
                   items:
                     - name: 在成員伺服器或 Windows 2000 Professional 上建立使用者的範例程式碼
                       href: example-code-for-creating-users-on-a-member-server-or-windows-2000-professional.md
-                - name: 刪除成員伺服器與 Windows 2000 Professional 上的使用者
+                - name: 刪除成員伺服器上的使用者和 Windows 2000 Professional
                   href: deleting-users-on-member-servers-and-windows-2000-professional.md
                   items:
-                    - name: 在成員伺服器或 Windows 2000 Professional 上刪除使用者的範例程式碼
+                    - name: 在成員伺服器上刪除使用者或 Windows 2000 Professional 的範例程式碼
                       href: example-code-for-deleting-users-on-a-member-server-or-windows-2000-professional.md
             - name: CountryCode 和 c 屬性的值
               href: values-for-the-countrycode-and-c-properties.md
@@ -639,7 +639,7 @@
                   href: example-code-for-changing-the-scope-of-a-group.md
             - name: 取得群組的網域 Account-Style 名稱
               href: getting-the-domain-account-style-name-of-a-group.md
-            - name: 成員伺服器與 Windows 2000 Professional 上的群組
+            - name: 成員伺服器和 Windows 2000 Professional 上的群組
               href: groups-on-member-servers-and-windows-2000-professional.md
               items:
                 - name: 列舉本機群組
@@ -714,9 +714,9 @@
                     - name: 管理服務連接點的腳本範例
                       href: script-samples-for-managing-service-connection-points.md
                       items:
-                        - name: 用於管理服務連接點的 Excel 宏
+                        - name: Excel用來管理服務連接點的宏
                           href: excel-macros-for-managing-service-connection-points.md
-                        - name: 列出所有服務連接點的 VB 腳本
+                        - name: VB列出所有服務連接點的腳本
                           href: vb-script-listing-all-service-connection-points.md
                     - name: 管理服務連接點的程式碼範例
                       href: code-samples-for-managing-service-connection-points.md
@@ -729,7 +729,7 @@
                           href: how-clients-find-and-use-a-service-connection-point.md
             - name: '使用 RPC 名稱服務發行 (RpcNs) '
               href: publishing-with-the-rpc-name-service-rpcns.md
-            - name: 使用 Windows 通訊端註冊和解決方式發佈
+            - name: 使用 Windows 通訊端註冊和解析發行
               href: publishing-with-windows-sockets-registration-and-resolution.md
               items:
                 - name: 安裝 RnR 服務類別的範例程式碼
@@ -804,12 +804,12 @@
                   href: how-a-service-registers-its-spns.md
                 - name: 用戶端如何撰寫服務的 SPN
                   href: how-clients-compose-a-serviceampaposs-spn.md
-            - name: 具有 SCP 的 Windows 通訊端服務中的相互驗證
+            - name: 使用 SCP 在 Windows 通訊端服務中進行相互驗證
               href: mutual-authentication-in-a-windows-sockets-service-with-an-scp.md
               items:
-                - name: 用戶端如何驗證 SCP 型 Windows 通訊端服務
+                - name: 用戶端如何驗證以 SCP 為基礎的 Windows 通訊端服務
                   href: how-a-client-authenticates-an-scp-based-windows-sockets-service.md
-                - name: 針對 SCP 型 Windows 通訊端服務撰寫和註冊 Spn
+                - name: 針對 SCP 型 Windows 通訊端服務撰寫和註冊 spn
                   href: composing-and-registering-spns-for-an-scp-based-windows-sockets-service.md
                   items:
                     - name: 使用 SCP 撰寫服務的 Spn

@@ -346,13 +346,13 @@
                     - name: 使用紋理的燈光對應
                       href: light-mapping-with-textures.md
                       items:
-                        - name: 單色燈光地圖
+                        - name: 單色 Light 地圖
                           href: monochrome-light-maps.md
                         - name: 色彩淺色地圖
                           href: color-light-maps.md
-                        - name: 反射光源地圖
+                        - name: 反光地圖
                           href: specular-light-maps.md
-                        - name: 擴散燈光地圖
+                        - name: 擴散 Light 地圖
                           href: diffuse-light-maps.md
                 - name: 自動產生 Mipmap
                   href: automatic-generation-of-mipmaps.md
@@ -559,7 +559,7 @@
               href: presenting-multiple-views-in-windowed-mode.md
             - name: 疑難排解
               href: troubleshooting.md
-            - name: 使用裝置視窗
+            - name: 使用裝置 Windows
               href: working-with-device-windows.md
             - name: 使用先前的驅動程式
               href: working-with-earlier-drivers.md
@@ -3656,5 +3656,5 @@
                       href: vertexelement.md
                     - name: XSkinMeshHeader
                       href: xskinmeshheader.md
-    - name: Windows Vista) 的功能摘要 (Direct3D 9
+    - name: Windows Vista) 的 (Direct3D 9 功能摘要
       href: dx9lh.md

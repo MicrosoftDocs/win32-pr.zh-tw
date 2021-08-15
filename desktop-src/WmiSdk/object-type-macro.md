@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: OBJECT 類型宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c605a414c402f2cf2d18be2d966db6408f23cdc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0ef71bcdd915dfaa59ace008c28a5d63a323c2cd1d0f119b9d91e5a0720e192e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111961"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118818004"
 ---
 # <a name="object-type-macro"></a>OBJECT 類型宏
 

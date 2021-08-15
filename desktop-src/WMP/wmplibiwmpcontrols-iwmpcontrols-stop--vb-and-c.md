@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a73271098340ea0cf0a645472b5ef6333ae0f4b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f941ac90fa86cdd16dedf5349c0a6d614c57f49bc91009f5d62c56bb83144bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332072"
 ---
 # <a name="iwmpcontrolsstop-method"></a>IWMPControls：： stop 方法
 
@@ -121,7 +121,7 @@ End Sub
 [**IWMPControls 介面 (VB 和 c # )**](iwmpcontrols--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls：接下來 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md)
+[**IWMPControls 下 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-next--vb-and-c.md)
 </dt> <dt>
 
 [**IWMPControls： pause (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-pause--vb-and-c.md)
@@ -130,7 +130,7 @@ End Sub
 [**IWMPControls (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-play--vb-and-c.md)
 </dt> <dt>
 
-[**IWMPControls 之前 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md)
+[**IWMPControls 以前的 (VB 和 c # )**](wmplibiwmpcontrols-iwmpcontrols-previous--vb-and-c.md)
 </dt> </dl>
 
  

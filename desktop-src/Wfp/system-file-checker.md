@@ -4,18 +4,18 @@ ms.assetid: 72f69ad2-15d9-4191-a8aa-4c23a2392006
 title: 系統檔案檢查程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da4e0d67f6de6aba62fe262969d7f30db0c45335
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2c2f751aa30c06dbff90b8d5221974236b45edf9f0f278c144f755568a0040f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981218"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330280"
 ---
 # <a name="system-file-checker"></a>系統檔案檢查程式
 
 系統檔案檢查程式的 Sfc.exe，可讓系統管理員掃描所有受保護的資源，以驗證其版本。
 
-重新開機不符合預期 Windows 版本之 Windows 的重要檔案，可能會以正確的版本取代。 如果檔案已修復，則也會修復對應的登錄資料。 未修復受保護的檔案不是重新開機 Windows 的關鍵。
+重新開機不符合預期 Windows 版本 Windows 的檔案可能會以正確的版本取代。 如果檔案已修復，則也會修復對應的登錄資料。 未修復受保護的檔案不是重新開機 Windows 的關鍵。
 
 ## <a name="syntax"></a>Syntax
 
@@ -32,7 +32,7 @@ ms.locfileid: "106981218"
 
 不支援這個值。
 
-**Windows Server 2003 和 WINDOWS XP：** 設定檔案快取大小。 快取的預設大小為 0x32 (50 MB) 。
+**Windows Server 2003 和 Windows XP：** 設定檔案快取大小。 快取的預設大小為 0x32 (50 MB) 。
 
 </dd> <dt>
 
@@ -55,7 +55,7 @@ ms.locfileid: "106981218"
 
 確認或只修復檔案。 請勿確認或修復登錄機碼。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> <dt>
 
@@ -64,7 +64,7 @@ ms.locfileid: "106981218"
 
 使用此選項可進行離線修復。 指定離線開機目錄的位置。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> <dt>
 
@@ -73,7 +73,7 @@ ms.locfileid: "106981218"
 
 使用此選項可進行離線修復。 指定離線 Windows 目錄的位置。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> <dt>
 
@@ -82,7 +82,7 @@ ms.locfileid: "106981218"
 
 不支援這個值。
 
-**Windows Server 2003 和 WINDOWS XP：** 清空檔案快取，並掃描所有受保護的系統檔案。
+**Windows Server 2003 和 Windows XP：** 清空檔案快取，並掃描所有受保護的系統檔案。
 
 </dd> <dt>
 
@@ -107,7 +107,7 @@ ms.locfileid: "106981218"
 
 不支援這個值。
 
-**Windows Server 2003 和 WINDOWS XP：** 每次開機時掃描所有受保護的系統檔案。
+**Windows Server 2003 和 Windows XP：** 每次開機時掃描所有受保護的系統檔案。
 
 </dd> <dt>
 
@@ -116,7 +116,7 @@ ms.locfileid: "106981218"
 
 掃描並修復位於指定完整路徑的檔案。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> <dt>
 
@@ -132,7 +132,7 @@ ms.locfileid: "106981218"
 
 不支援這個值。
 
-**Windows Server 2003 和 WINDOWS XP：** 在下一次開機時掃描所有受保護的系統檔案。
+**Windows Server 2003 和 Windows XP：** 在下一次開機時掃描所有受保護的系統檔案。
 
 </dd> <dt>
 
@@ -141,7 +141,7 @@ ms.locfileid: "106981218"
 
 驗證位於指定完整路徑的檔案。 此選項不會修復檔案。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> <dt>
 
@@ -150,7 +150,7 @@ ms.locfileid: "106981218"
 
 掃描所有受保護的系統檔案，但不修復檔案。
 
-**WINDOWS XP：** 不支援。
+**Windows XP：** 不支援。
 
 </dd> </dl>
 
@@ -162,7 +162,7 @@ Sfc 會設定下列登錄值：
 
 ## <a name="remarks"></a>備註
 
-在 Windows Vista 中，您可以將 **windows \_ 追蹤 \_** 記錄檔環境變數設為有效目錄的位置，以接收記錄檔。
+在 Windows Vista 中，您可以將 **Windows \_ 追蹤 \_** 記錄檔環境變數設為有效目錄的位置，以接收記錄檔。
 
 ## <a name="examples"></a>範例
 

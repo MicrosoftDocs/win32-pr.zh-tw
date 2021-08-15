@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 60ec24f264b8fe0424f17fc32deaf803e55c3346
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 344b13ec05e6f1d06011b3555e5b455202e5848b5000e799540d9f7c3160653b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441233"
 ---
 # <a name="iwiadevmgr2selectdevicedlg-method"></a>IWiaDevMgr2：： SelectDeviceDlg 方法
 
@@ -118,7 +118,7 @@ HRESULT SelectDeviceDlg(
 
 
 
-| 傳回碼                                                                                                  | Description                                                                                            |
+| 傳回碼                                                                                                  | 描述                                                                                            |
 |--------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                         | 已成功選取裝置。 <br/>                                                          |
 | <dl> <dt>**S \_ FALSE**</dt> </dl>                      | 使用者已取消對話方塊。 <br/>                                                              |
@@ -147,8 +147,8 @@ HRESULT SelectDeviceDlg(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

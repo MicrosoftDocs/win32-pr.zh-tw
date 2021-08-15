@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 在64位電腦上取得和提供資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe7d8ff5430a7c47b652bfbcca05d2f53ba857d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46163290d1212fd66bef48dba177034769360e8d7c6249dfdf40327ce2adc32c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104559845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118819374"
 ---
 # <a name="getting-and-providing-data-on-a-64-bit-computer"></a>在64位電腦上取得和提供資料
 

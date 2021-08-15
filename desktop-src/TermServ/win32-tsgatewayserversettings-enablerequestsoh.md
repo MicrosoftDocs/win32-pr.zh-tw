@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a90ed6a3929b50d13a27ec559aab534f9e06f738
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10e1a3e4b6cf1312dde4dfc23105a32f6667667496a9a7162ad1b34cf34b2aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966340"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349152"
 ---
 # <a name="enablerequestsoh-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 EnableRequestSOH 方法 \_
 
-\[從 Windows Server 2016 無法再使用 **EnableRequestSOH** 方法。\]
+\[Windows Server 2016 無法再使用 **EnableRequestSOH** 方法。\]
 
 啟用或停用健康狀態聲明 (SoH) 的要求。
 

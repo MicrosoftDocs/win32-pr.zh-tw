@@ -4,12 +4,12 @@ ms.assetid: A26E09EF-6C7A-4F75-89A7-76086F63F3B1
 title: 驗證網頁的教學課程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1c6fc6482c5e6dfaf89a9fc9732783f5f088b4d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c43e9caf6e08683fc375a7a0dc37ff711f19387b7de0cd68cb71cdf916702084
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998522"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915570"
 ---
 # <a name="tutorial-for-authenticating-web-pages"></a>驗證網頁的教學課程
 
@@ -22,7 +22,7 @@ ms.locfileid: "106998522"
 若要使用 web 驗證訊息代理程式 Api，您需要：
 
 -   Windows 8 只 (x86 或 amd64) 
--   您應從 [程式和功能] 下的主控台安裝 Microsoft Internet Information Services (IIS) ，並使用 [開啟或關閉 Windows 功能] 選項。
+-   Microsoft Internet Information Services (IIS) 應該從 [程式和功能] 下的主控台安裝，然後使用 [開啟或關閉 Windows 功能] 選項。
 
 **完成的總時間：** 2 分鐘。
 

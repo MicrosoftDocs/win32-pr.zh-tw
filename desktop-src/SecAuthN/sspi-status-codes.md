@@ -4,12 +4,12 @@ ms.assetid: b5f8ed5c-797a-46fa-8a73-a054ecc50265
 title: SSPI 狀態碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b74172334c98188ad8f90733c1e84fd276a32648
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d8481edff75f062a218763ca194cacf324eb2f361e003ce0179295d8f38fdf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118916734"
 ---
 # <a name="sspi-status-codes"></a>SSPI 狀態碼
 

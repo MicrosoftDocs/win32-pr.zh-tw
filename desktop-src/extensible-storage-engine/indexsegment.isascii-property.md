@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 646499b2d36ed9b8e011a689588e1aed3a672496
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 522ba8ec37c07c9a46298beeb0c8827ddab296dfb5addbcbb489d8bdeabf14dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117896032"
 ---
 # <a name="indexsegmentisascii-property"></a>IndexSegment. IsASCII 屬性
 

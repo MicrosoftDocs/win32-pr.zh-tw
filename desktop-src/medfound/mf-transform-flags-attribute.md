@@ -4,12 +4,12 @@ ms.assetid: de377132-19b0-4c8c-882e-193c31420739
 title: 'MF_TRANSFORM_FLAGS_Attribute 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c2f3e334b83bbe8ce50f8770eb33e1e7a4c799c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d54d8775cb58980e0b5b4a8557ae4a3e8082b045eb3e87330841f75dfd057774
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739226"
 ---
 # <a name="mf_transform_flags_attribute-attribute"></a>MF \_ 轉換 \_ 旗標 \_ 屬性屬性
 
@@ -38,7 +38,7 @@ ms.locfileid: "103943640"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 7 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的伺服器<br/> | WindowsServer 2008 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 74ea0384-3b1f-4d5e-8713-7b3936813a3a
 title: 系統 GPS。狀態相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dac08139a267052f8d6dd3dc463e2a2768309a41
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a99237b9fe14d9adbc97dd5de95158a8aa714caaa4a0a8440d9f3798a2155d20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118710513"
 ---
 # <a name="systemgpsstatus-photo-metadata-policy"></a>系統 GPS。狀態相片中繼資料原則
 
@@ -25,7 +25,7 @@ JPEG、TIFF
 
 ### <a name="read-only"></a>唯讀
 
-No
+否
 
 ### <a name="output-propvariant-type"></a>輸出 PROPVARIANT 類型
 

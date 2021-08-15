@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: ec2b2edfa3a98dfdbbdd1d236acb6e1f1433f141
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 35084fafb92b3716208aa6062f065cc4e25a45d2d1a412083076b9e355d2ce43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103678576"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735608"
 ---
 # <a name="ibasicdevicefriendlyname-method"></a>IBasicDevice：： FriendlyName 方法
 

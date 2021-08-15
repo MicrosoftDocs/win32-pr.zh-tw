@@ -1,10 +1,10 @@
-- name: Windows 執行階段 c + + 參考
+- name: Windows執行時間 c + + 參考
   href: reference.md
   items:
     - name: 資料類型
       href: data-types.md
       items:
-        - name: Windows 執行階段基底資料類型
+        - name: Windows執行時間基底資料類型
           href: base-data-types.md
         - name: HSTRING
           href: hstring.md

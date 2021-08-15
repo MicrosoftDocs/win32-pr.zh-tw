@@ -17,12 +17,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2948af2ed84a70c9f37efbc4aae985e9b1ab5804
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 389d7b281c10458e854407f9ce02bd2656fe6d4b16574408d75ae06ccc06d7f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106991103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118735781"
 ---
 # <a name="gettransportinformationoperationcompleted-property"></a>GetTransportInformationOperation：： Completed 屬性
 
@@ -35,11 +35,11 @@ ms.locfileid: "106991103"
 
 ```C++
 HRESULT put_Completed(
-  [in]  GetTransportInformationCompletedHandler *value
+  [in]  GetTransportInformationCompletedHandler *value
 );
 
 HRESULT get_Completed(
-  [out] GetTransportInformationCompletedHandler **value
+  [out] GetTransportInformationCompletedHandler **value
 );
 ```
 
@@ -56,6 +56,6 @@ HRESULT get_Completed(
 [**GetTransportInformationOperation**](gettransportinformationoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

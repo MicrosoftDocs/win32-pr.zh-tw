@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 22ec7271026ba7557fcbe3fe17cd890d62eadbca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 10557e3fc605fc86b1cfa1c7b44fd1e4d40ac399476c5b2c573f46db5c4103b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503313"
 ---
 # <a name="wm_psd_minmarginrect-message"></a>WM \_ PSD \_ MINMARGINRECT 訊息
 
@@ -69,7 +69,7 @@ ms.locfileid: "104508948"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Commdlg (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Commdlg (包含 Windows .h) </dt> </dl> |
 
 
 

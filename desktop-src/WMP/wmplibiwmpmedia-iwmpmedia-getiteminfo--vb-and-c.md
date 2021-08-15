@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 523e57e68d13df55395cd4deca6e09904723bbaf
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ce8fa8b55074781dd835e116b0403391fe9343af30d5236610219dca8aba810b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118331988"
 ---
 # <a name="iwmpmediagetiteminfo-method"></a>IWMPMedia：： getItemInfo 方法
 
@@ -56,7 +56,7 @@ Implements IWMPMedia.getItemInfo
 *bstrItemName* \[在\]
 </dt> <dd>
 
-**System.string** ，它是屬性的名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 [屬性參考](attribute-reference.md)。
+**System.string** ，它是屬性的名稱。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱[屬性參考](attribute-reference.md)。
 
 </dd> </dl>
 

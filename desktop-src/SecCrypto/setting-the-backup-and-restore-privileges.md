@@ -4,12 +4,12 @@ ms.assetid: 409a9fad-7141-4ba8-ab3d-fb590366001e
 title: 設定備份和還原許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dd70c3726c435efa1f000add101bbf50b725bb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 990f1009ec5b57d6dcc9f11ef505e705fb483362518d6e54f5d0c9a0167cc211
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106966658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900308"
 ---
 # <a name="setting-the-backup-and-restore-privileges"></a>設定備份和還原許可權
 

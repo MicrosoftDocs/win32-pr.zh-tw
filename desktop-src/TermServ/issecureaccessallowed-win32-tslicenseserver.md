@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: cf35fd8b38139027955fde51a209000435744f5f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6109eb363459432d50d54eb8521f0f23bb54a0836c82f92af20a5b83b64f1d86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508551"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351357"
 ---
 # <a name="issecureaccessallowed-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsSecureAccessAllowed 方法 \_
 

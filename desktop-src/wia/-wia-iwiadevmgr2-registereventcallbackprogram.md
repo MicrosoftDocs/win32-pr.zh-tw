@@ -1,5 +1,5 @@
 ---
-description: IWiaDevMgr2：： RegisterEventCallbackProgram 方法會註冊應用程式以接收裝置事件。 它主要是為了提供與未針對 Windows 映像取得所撰寫之應用程式的回溯相容性， (WIA) 2.0。
+description: IWiaDevMgr2：： RegisterEventCallbackProgram 方法會註冊應用程式以接收裝置事件。 這主要是為了提供回溯相容性，而不是針對 Windows 映像取得 (WIA) 2.0 所撰寫的應用程式提供回溯相容性。
 ms.assetid: 6b427f19-719b-44ce-8e2c-3c44672345c8
 title: 'IWiaDevMgr2：： RegisterEventCallbackProgram 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 9b18b5833b7616493c24f0128caa7c910b685e37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6ebc99e61bf038c8db2ea537a1f8a5933ad512d21ec05cf51f6f8b7af5ede2b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118441296"
 ---
 # <a name="iwiadevmgr2registereventcallbackprogram-method"></a>IWiaDevMgr2：： RegisterEventCallbackProgram 方法
 
-**IWiaDevMgr2：： RegisterEventCallbackProgram** 方法會註冊應用程式以接收裝置事件。 它主要是為了提供與未針對 Windows 映像取得所撰寫之應用程式的回溯相容性， (WIA) 2.0。
+**IWiaDevMgr2：： RegisterEventCallbackProgram** 方法會註冊應用程式以接收裝置事件。 這主要是為了提供回溯相容性，而不是針對 Windows 映像取得 (WIA) 2.0 所撰寫的應用程式提供回溯相容性。
 
 ## <a name="syntax"></a>語法
 
@@ -79,13 +79,13 @@ HRESULT RegisterEventCallbackProgram(
 *pEventGUID* \[在\]
 </dt> <dd>
 
-類型： **CONST GUID \** _
+類型： **CONST GUID \***
 
 應用程式正在註冊的事件。 如需有效的事件 Guid 清單，請參閱 [WIA 事件識別碼](-wia-wia-event-identifiers.md)。
 
 </dd> <dt>
 
-_bstrFullAppName * \[ in\]
+*bstrFullAppName* \[在\]
 </dt> <dd>
 
 類型： **BSTR**
@@ -152,8 +152,8 @@ _bstrFullAppName * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                             |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                             |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl> |
 
 
