@@ -1,23 +1,23 @@
 ---
 title: WsUtil 編譯器工具
-description: WsUtil.exe 的 Windows Web 服務編譯器工具支援服務模型和資料類型的序列化。 它會處理 WSDL、XML 架構和原則檔，並產生 C 標頭和原始程式檔。
+description: Windows Web 服務編譯器工具 WsUtil.exe，支援資料類型的服務模型和序列化。 它會處理 WSDL、XML 架構和原則檔，並產生 C 標頭和原始程式檔。
 ms.assetid: 7fc3f1bd-ead2-4095-9592-d2ad88d56e7a
 keywords:
-- 適用于 Windows 的 WsUtil 編譯器工具 Web 服務
+- WsUtil 編譯器工具的 Web 服務 Windows
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa83da50888fcf2d66fac7fb00b3a31ae2919738
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 6a9a4e5761a068e991463451595c410c01f868d4d3e6c9df6ab25a7cb232d678
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119324898"
 ---
 # <a name="wsutil-compiler-tool"></a>WsUtil 編譯器工具
 
-WsUtil.exe 的 Windows Web 服務編譯器工具支援 [服務模型](service-model-layer-overview.md) 和資料類型的 [序列化](serialization.md) 。 它會處理 WSDL、XML 架構和原則檔，並產生 C 標頭和原始程式檔。 這項工具與適用于 managed 程式碼的 WSDL 編譯器工具類似，但其目的是改為原生程式碼。
+Windows Web 服務編譯器工具 WsUtil.exe，支援資料類型的[服務模型](service-model-layer-overview.md)和[序列化](serialization.md)。 它會處理 WSDL、XML 架構和原則檔，並產生 C 標頭和原始程式檔。 這項工具與適用于 managed 程式碼的 WSDL 編譯器工具類似，但其目的是改為原生程式碼。
 
 為了支援 [服務模型](service-model-layer-overview.md)，WsUtil.exe 會產生用於用戶端和服務的標頭。 它會視需要產生用戶端的 C proxy 檔案，以及服務端的 C 存根檔案。
 

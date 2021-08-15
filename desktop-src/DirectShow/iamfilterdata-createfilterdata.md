@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Quartz.dll
-ms.openlocfilehash: 0a0126266fc33dca030abad65ccf9f0d35f6e195
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 81c2ba3a56ba9c09a2ce7b23bcad1a83880e61256402c291b5aebde9988218c1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119428668"
 ---
 # <a name="iamfilterdatacreatefilterdata-method"></a>IAMFilterData：： CreateFilterData 方法
 
@@ -29,7 +29,7 @@ ms.locfileid: "111989453"
 
 `CreateFilterData`方法會建立篩選的二進位登錄資料。 您可以 \_ 在篩選器的 CLSID 機碼底下，將此資料寫入登錄中作為名為 FilterData 的 REG 二進位子機碼。
 
-應用程式通常不會呼叫這個方法。 [**IFilterMapper2：： RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter)方法會自動建立二進位資料，並將它新增至登錄中的正確位置。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+應用程式通常不會呼叫這個方法。 [**IFilterMapper2：： RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter)方法會自動建立二進位資料，並將它新增至登錄中的正確位置。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
 ## <a name="syntax"></a>語法
 
@@ -76,7 +76,7 @@ HRESULT CreateFilterData(
 ## <a name="remarks"></a>備註
 
 > [!Note]  
-> 標頭 Fil \_ data .h 位於 Windows SDK 的對應工具 [範例](mapper-sample.md) 目錄中。
+> 標頭 Fil \_ data .h 位於 Windows SDK 的對應工具[範例](mapper-sample.md)目錄中。
 
  
 

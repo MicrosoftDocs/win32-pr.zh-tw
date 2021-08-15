@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4c789e507b2cc56281dc61750d4fe0748bee8841
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 673a73babc04050092f41c92eb660ec0c61096aab735507947b9d31dabb7e4a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118874535"
 ---
 # <a name="tf_floatinglangbar_-constants"></a>TF \_ FLOATINGLANGBAR \_ \* 常數
 
@@ -49,7 +49,7 @@ ms.locfileid: "106968348"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 可轉散發套件<br/>          | Windows 2000 Professional 上的 TSF 1。0<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>Ctfutb。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Ctfutb .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Ctfutb .idl</dt> </dl> |
 
 
 

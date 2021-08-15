@@ -4,16 +4,16 @@ ms.assetid: 825972c9-5303-4c5a-9475-dc67c185af91
 title: 'IEnumMedia：： Skip 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d8c600a201d6800fcb04dba5f208fd5cb810078
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4e17dadb1db502dfa76645d0142b98da3a030efb9e391a029985460c89526d37
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108084186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118865772"
 ---
 # <a name="ienummediaskip-method"></a>IEnumMedia：： Skip 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Skip** 方法會略過列舉順序中的下一個指定元素數目。
 

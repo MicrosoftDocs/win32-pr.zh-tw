@@ -1,19 +1,19 @@
 ---
-description: Windows 映像取得 (WIA) 介面是 (DDI) 的 API 和設備磁碟機介面。
+description: Windows 影像取得 (WIA) 介面都是 API 和設備磁碟機介面 (DDI) 。
 ms.assetid: 725543f8-6e33-4e22-904c-95cbec0388c8
-title: 關於 Windows 映像取得
+title: 關於取得 Windows 映像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80eed6289f7a30476ea6889c947577ad003b656e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d73662083e568a109760a052994bfcbebdfcbe53f858e50a89728a01bba344d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119451298"
 ---
-# <a name="about-windows-image-acquisition"></a>關於 Windows 映像取得
+# <a name="about-windows-image-acquisition"></a>關於取得 Windows 映像
 
-Windows 映像取得 (WIA) 介面是 (DDI) 的 API 和設備磁碟機介面。 WIA API 的設計目的是要讓應用程式能夠：
+Windows 影像取得 (WIA) 介面都是 API 和設備磁碟機介面 (DDI) 。 WIA API 的設計目的是要讓應用程式能夠：
 
 -   在穩固且穩定的環境中執行。
 -   將互通性問題降至最低。

@@ -4,12 +4,12 @@ ms.assetid: 45918739-de36-4b92-824f-ad7c23995ec2
 title: 家長監護問題陳述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 137a328efe96b38873af53377583ec76f24f381b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ed1ceec99e97bc5d566c1d50b18ae90008945da5788365dc7ed19dc26205c40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971830"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971667"
 ---
 # <a name="parental-controls-problem-statement"></a>家長監護問題陳述
 

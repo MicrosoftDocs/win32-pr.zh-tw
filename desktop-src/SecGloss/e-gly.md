@@ -5,12 +5,12 @@ ms.assetid: f1caccd2-3453-448e-b194-bf899eff8091
 title: '電子 (安全性詞彙) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed30465ef5764d4553ceb03e1094b73d940f85f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf2807dc99754fd424898c3df8d89634c7b940a7ab2fa9399ca85cd8cbc14d1d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895628"
 ---
 # <a name="e-security-glossary"></a>電子 (安全性詞彙) 
 
@@ -91,7 +91,7 @@ ms.locfileid: "104513705"
 <span id="_security_encrypting_file_system_gly"></span><span id="_SECURITY_ENCRYPTING_FILE_SYSTEM_GLY"></span>**加密檔案系統**
 </dt> <dd>
 
- (EFS) Windows 作業系統中的一項功能，可讓使用者對 NTFS 磁片區磁片上的檔案和資料夾進行加密，以防止入侵者存取這些檔案和資料夾。
+ (EFS) Windows 作業系統中的一項功能，可讓使用者加密 NTFS 磁片區磁片上的檔案和資料夾，以防止入侵者存取檔案和資料夾。
 
 </dd> <dt>
 
@@ -135,7 +135,7 @@ PKCS \# 7 增強的內容，其中包含) 的加密內容 (，以及一或多個
 <span id="_security_exchange_key_pair_gly"></span><span id="_SECURITY_EXCHANGE_KEY_PAIR_GLY"></span>**交換金鑰組**
 </dt> <dd>
 
-公開/私密金鑰組，可用來加密工作階段金鑰，使其能安全地儲存並與其他使用者交換。 交換金鑰組是藉由呼叫 **CryptGenKey** 函式來建立。
+公開/私密金鑰組，可用來加密工作階段金鑰，使其能安全地儲存並與其他使用者交換。 藉由呼叫 **CryptGenKey** 函式來建立 Exchange 金鑰組。
 
 比較簽章 [*金鑰*](s-gly.md)組。
 

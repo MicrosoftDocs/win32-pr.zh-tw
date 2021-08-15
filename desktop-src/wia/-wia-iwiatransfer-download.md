@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 2863915b850588d4db018693d9081ed2907d644a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 039b7dd4579419bac744a07bbc6ddd55c4b0b2e2e713340bf256fdb95d8fc071
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511632"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450208"
 ---
 # <a name="iwiatransferdownload-method"></a>IWiaTransfer：:D 下載 o) 方法
 
@@ -53,9 +53,9 @@ HRESULT Download(
 *pIWiaTransferCallback* \[在\]
 </dt> <dd>
 
-類型： **[**IWiaTransferCallback**](-wia-iwiatransfercallback.md) \** _
+類型： **[ **IWiaTransferCallback**](-wia-iwiatransfercallback.md)\***
 
-指定呼叫端 [_ *IWiaTransferCallback* *](-wia-iwiatransfercallback.md)介面的指標。
+指定呼叫端之 [**IWiaTransferCallback**](-wia-iwiatransfercallback.md) 介面的指標。
 
 </dd> </dl>
 
@@ -75,8 +75,8 @@ HRESULT Download(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |

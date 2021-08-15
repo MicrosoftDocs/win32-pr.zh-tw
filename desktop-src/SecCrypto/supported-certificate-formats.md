@@ -4,12 +4,12 @@ ms.assetid: e6a324d0-9b62-4625-a604-cb1eeca22aae
 title: 支援的憑證格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 912f37f3e4c29ae765f68484aecf0bf9d9b8aea9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 85ae0c4d638e957df5ddcf251ca64578a67a58b98890401c68593dd7a12c3952
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118897629"
 ---
 # <a name="supported-certificate-formats"></a>支援的憑證格式
 
@@ -34,7 +34,7 @@ ms.locfileid: "106989439"
 
  
 
-此外，憑證服務還包含 Microsoft 企業憑證授權單位單位設定中的憑證範本。 請參閱 Windows 說明文件中的憑證範本，以瞭解它們如何定義憑證用途。
+此外，憑證服務還包含 Microsoft 企業憑證授權單位單位設定中的憑證範本。 請參閱 Windows 的憑證範本說明文件，以瞭解它們如何定義憑證用途。
 
  
 

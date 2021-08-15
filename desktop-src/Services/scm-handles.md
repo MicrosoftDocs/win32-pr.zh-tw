@@ -4,12 +4,12 @@ ms.assetid: 5ffdd1a9-1a66-4fc4-b35d-4f744bae4897
 title: SCM 控制碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c8a84fb09dbc95f3e1b5f5cee432de616f5ff6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a6830063e57b2135c32bf01b4fdc0b4cf6207de32198d9f88d97667f4b403fe2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889186"
 ---
 # <a name="scm-handles"></a>SCM 控制碼
 

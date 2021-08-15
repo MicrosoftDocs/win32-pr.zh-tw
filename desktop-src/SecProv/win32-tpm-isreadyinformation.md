@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Win32_tpm.dll
-ms.openlocfilehash: 23f3b2f38ea12bac19230f1871d30c84098eb1ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 319152da3604044500c107520cf1afd1d04e16fc2c7f54f0ecebf7b49d81f0f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118890835"
 ---
 # <a name="win32_tpmisreadyinformation-method"></a>Win32 \_ Tpm：： IsReadyInformation 方法
 
@@ -68,15 +68,15 @@ uint32 IsReadyInformation(
 | <span id="INFORMATION_TPM_TAKE_OWNERSHIP"></span><span id="information_tpm_take_ownership"></span><dl> <dt>**資訊 \_TPM \_ 取得 \_ 擁有權**</dt> <dt>0x00000040</dt> </dl>                 | 已取得 TPM 擁有權。<br/>                                                                                                                                                                                                |
 | <span id="INFORMATION_TPM_CREATE_EK"></span><span id="information_tpm_create_ek"></span><dl> <dt>**資訊 \_TPM \_ 建立 \_ EK**</dt> <dt>0x00000080</dt> </dl>                                | TPM 中有 (EK) 的簽署金鑰。 <br/>                                                                                                                                                                                 |
 | <span id="INFORMATION_TPM_OWNERAUTH"></span><span id="information_tpm_ownerauth"></span><dl> <dt>**資訊 \_TPM \_ OWNERAUTH**</dt> <dt>0x00000100</dt> </dl>                                 | TPM 擁有者授權未正確儲存在登錄中。<br/>                                                                                                                                                         |
-| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**資訊 \_TPM \_ SRK \_ 驗證**</dt> <dt>0x00000200</dt> </dl>                                  | 儲存體根金鑰 (SRK) 授權值並非全部為零。<br/>                                                                                                                                                            |
+| <span id="INFORMATION_TPM_SRK_AUTH"></span><span id="information_tpm_srk_auth"></span><dl> <dt>**資訊 \_TPM \_ SRK \_ 驗證**</dt> <dt>0x00000200</dt> </dl>                                  |  (SRK) 授權值的儲存體根金鑰並非全部為零。<br/>                                                                                                                                                            |
 | <span id="INFORMATION_TPM_DISABLE_OWNER_CLEAR"></span><span id="information_tpm_disable_owner_clear"></span><dl> <dt>**資訊 \_TPM \_ 停用 \_ 擁有者 \_ 清除**</dt> <dt>0x00000400</dt> </dl> | 如果作業系統設定為停用 tpm 擁有者授權值的 TPM 清除，但 TPM 尚未設定為防止以 TPM 擁有者授權值清除 TPM。<br/> |
-| <span id="INFORMATION_TPM_SRKPUB"></span><span id="information_tpm_srkpub"></span><dl> <dt>**資訊 \_TPM \_ SRKPUB**</dt> <dt>0x00000800</dt> </dl>                                          | 與 tpm 儲存根金鑰相關的作業系統登錄資訊不符合 TPM 儲存根金鑰。<br/>                                                                                                       |
+| <span id="INFORMATION_TPM_SRKPUB"></span><span id="information_tpm_srkpub"></span><dl> <dt>**資訊 \_TPM \_ SRKPUB**</dt> <dt>0x00000800</dt> </dl>                                          | 作業系統與 TPM 儲存體根金鑰相關的登錄資訊，與 TPM 儲存體根金鑰不符。<br/>                                                                                                       |
 | <span id="INFORMATION_TPM_READ_SRKPUB"></span><span id="information_tpm_read_srkpub"></span><dl> <dt>**資訊 \_TPM \_ READ \_ SRKPUB**</dt> <dt>0x00001000</dt> </dl>                          | TPM 永久旗標允許讀取儲存體根金鑰公用值未設定。<br/>                                                                                                                                    |
 | <span id="INFORMATION_TPM_BOOT_COUNTER"></span><span id="information_tpm_boot_counter"></span><dl> <dt>**資訊 \_TPM \_ 開機 \_ 計數器**</dt> <dt>0x00002000</dt> </dl>                       | 未建立開機期間遞增的單純計數器。<br/>                                                                                                                                                         |
 | <span id="INFORMATION_TPM_AD_BACKUP"></span><span id="information_tpm_ad_backup"></span><dl> <dt>**資訊 \_TPM \_ AD \_ 備份**</dt> <dt>0x00004000</dt> </dl>                                | TPM 的擁有者授權尚未備份至 Active Directory。<br/>                                                                                                                                                   |
 | <span id="INFORMATION_TPM_AD_BACKUP_PHASE_I"></span><span id="information_tpm_ad_backup_phase_i"></span><dl> <dt>**資訊 \_TPM \_ AD \_ 備份 \_ 階段 \_ I**</dt> <dt>0x00008000</dt> </dl>      | Active Directory 中 TPM 擁有者授權資訊儲存區的第一個部分正在進行中。<br/>                                                                                                                    |
 | <span id="INFORMATION_TPM_AD_BACKUP_PHASE_II"></span><span id="information_tpm_ad_backup_phase_ii"></span><dl> <dt>**資訊 \_TPM \_ AD \_ 備份 \_ 第 \_ 二階段**</dt> <dt>0x00010000</dt> </dl>   | Active Directory 中 TPM 擁有者授權資訊儲存的第二個部分正在進行中。<br/>                                                                                                                   |
-| <span id="INFORMATION_LEGACY_CONFIGURATION"></span><span id="information_legacy_configuration"></span><dl> <dt>**資訊 \_舊版 \_**</dt>設定 <dt>0x00020000</dt> </dl>            | Windows 群組原則設定為不儲存任何 TPM 擁有者授權，因此 TPM 無法完全就緒。<br/>                                                                                                               |
+| <span id="INFORMATION_LEGACY_CONFIGURATION"></span><span id="information_legacy_configuration"></span><dl> <dt>**資訊 \_舊版 \_**</dt>設定 <dt>0x00020000</dt> </dl>            | Windows群組原則設定為不儲存任何 TPM 擁有者授權，因此 TPM 無法完全就緒。<br/>                                                                                                               |
 | <span id="INFORMATION_EK_CERTIFICATE"></span><span id="information_ek_certificate"></span><dl> <dt>**資訊 \_EK \_ 憑證**</dt> <dt>0x00040000</dt> </dl>                              | 未從 TPM NV Ram 讀取 EK 憑證，並將其儲存在登錄中。 <br/>                                                                                                                                            |
 | <span id="INFORMATION_TCG_EVENT_LOG"></span><span id="information_tcg_event_log"></span><dl> <dt>**資訊 \_TCG \_ 事件 \_ 記錄**</dt>檔 <dt>0x00080000</dt> </dl>                                | TCG 事件記錄檔是空的或無法讀取。 <br/>                                                                                                                                                                              |
 | <span id="INFORMATION_NOT_REDUCED"></span><span id="information_not_reduced"></span><dl> <dt>**資訊 \_未 \_ 減少**</dt> <dt>0x00100000</dt> </dl>                                       | 未擁有 TPM。<br/>                                                                                                                                                                                                       |
@@ -98,7 +98,7 @@ uint32 IsReadyInformation(
 
 
 
-| 傳回碼/值                                                                                                                                 | Description                           |
+| 傳回碼/值                                                                                                                                 | 描述                           |
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl> | 此方法成功。<br/> |
 
@@ -116,8 +116,8 @@ uint32 IsReadyInformation(
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                      |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                      |
 | 命名空間<br/>                | \\\\.\\根 \\ CIMV2 \\ 安全性 \\ MicrosoftTpm<br/>                                     |
 | MOF<br/>                      | <dl> <dt>Win32 \_ tpm。 mof</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Win32 \_tpm.dll</dt> </dl> |

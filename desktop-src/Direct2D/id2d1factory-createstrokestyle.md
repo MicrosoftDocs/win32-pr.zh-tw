@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
-ms.openlocfilehash: 09a578cafe6795bbf742d9dac114365d6e850586
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7e0cd14de6197a13bf74e987de3a1d70a7d952b274025d0f8801c55aa80369ed
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342908"
 ---
 # <a name="id2d1factorycreatestrokestyle-methods"></a>ID2D1Factory：： CreateStrokeStyle 方法
 

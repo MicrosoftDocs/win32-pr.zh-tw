@@ -4,12 +4,12 @@ ms.assetid: 36afaabc-1334-42d1-8004-7952ce3c119e
 title: 關於點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53dbba516734dc255ce33005a7a9073865765785
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eb155a2d96b32303c38438663cb7cc9b893a1560e8f33956ff894d309f055010
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119355508"
 ---
 # <a name="about-bitmaps"></a>關於點陣圖
 
@@ -17,7 +17,7 @@ ms.locfileid: "104512465"
 
 
 
-| 繪圖物件                         | Description                                                                                                                                                                                          |
+| 繪圖物件                         | 描述                                                                                                                                                                                          |
 |----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [點陣圖](bitmaps.md)                 | 建立、操控 (縮放、滾動、旋轉和繪製) ，並將影像儲存為磁片上的檔案。                                                                                                       |
 | [筆刷](brushes.md)                 | 繪製多邊形、橢圓形和路徑的內部。                                                                                                                                                |
@@ -67,7 +67,7 @@ ms.locfileid: "104512465"
 -   [點陣圖壓縮](bitmap-compression.md)
 -   [Alpha 混色](alpha-blending.md)
 -   [平滑陰影](smooth-shading.md)
--   [具備 ICM 功能的點陣圖函式](icm-enabled-bitmap-functions.md)
+-   [啟用 ICM 的點陣圖函數](icm-enabled-bitmap-functions.md)
 
  
 

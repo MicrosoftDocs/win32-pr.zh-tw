@@ -4,12 +4,12 @@ ms.assetid: f2090018-489f-400c-ae44-a6ad60710196
 title: 辨識器筆觸重新排序支援
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9a563d5962ef80a0f3978a985684f8f85b68eae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e113ac3d32cf731fecd6a22339088883a5e44cd092b752dae3273a719b3b1f6e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966837"
 ---
 # <a name="recognizer-stroke-reordering-support"></a>辨識器筆觸重新排序支援
 

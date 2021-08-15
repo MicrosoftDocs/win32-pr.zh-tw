@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 325617524478973b15f2633141770732aa3941cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0c736e7a42374780c4b9c75bd88585329aef0b72f63d55c6c053aebe132dba5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106982107"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119401448"
 ---
 # <a name="jet_lgposhasvalue-property"></a>JET_LGPOS。601.Hasvalue 屬性
 

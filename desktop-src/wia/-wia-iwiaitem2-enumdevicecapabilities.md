@@ -1,5 +1,5 @@
 ---
-description: 建立枚舉器，用來確定 Windows 映像取得 (WIA) 2.0 裝置支援的命令和事件。
+description: 建立用來確定命令和事件的列舉值， (WIA) 2.0 裝置支援的 Windows 映像。
 ms.assetid: 9efb758d-a5d6-41c7-b318-2897274ccbc0
 title: 'IWiaItem2：： EnumDeviceCapabilities 方法 (Wia .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Wia.h
-ms.openlocfilehash: 3e771aa636b42d9cd7e4024a1684ebe3edf02eeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6748966beaa3bf16f668c4b8b0de60a4302ebcf514f06a3d588999d5faebaf3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119450458"
 ---
 # <a name="iwiaitem2enumdevicecapabilities-method"></a>IWiaItem2：： EnumDeviceCapabilities 方法
 
-建立枚舉器，用來確定 Windows 映像取得 (WIA) 2.0 裝置支援的命令和事件。
+建立用來確定命令和事件的列舉值， (WIA) 2.0 裝置支援的 Windows 映像。
 
 ## <a name="syntax"></a>語法
 
@@ -100,8 +100,8 @@ HRESULT EnumDeviceCapabilities(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>   |
 | Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl> |
 

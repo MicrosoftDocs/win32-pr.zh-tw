@@ -4,12 +4,12 @@ ms.assetid: 37f8f5f6-ddcb-44ab-a727-632b78e6f599
 title: 'AVEncVideoHeaderDropFrame 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 741911c400256f02f917e143dbc83bfa0eca04bc
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 3ffd9cdcfee05a52803c19216e62f7d51d52248bcc2bdc4ad0ad7d2b45293989
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342478"
 ---
 # <a name="avencvideoheaderdropframe-property"></a>AVEncVideoHeaderDropFrame 屬性
 
@@ -39,8 +39,8 @@ NTSC 影片中會使用放置畫面格模式來修正影片之間的差異，也
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: a6c1ac32-e3d6-49a1-8dc8-59124b3e5f74
 title: enabletrans 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d7496eba669e535ad27e8212c4cb272f4d02882
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d46c49cfcf4593a97cecf73313072621c73c0f9c81b267212de9b8bb5a3b6f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106971933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119389248"
 ---
 # <a name="enabletrans-attribute"></a>enabletrans 屬性
 

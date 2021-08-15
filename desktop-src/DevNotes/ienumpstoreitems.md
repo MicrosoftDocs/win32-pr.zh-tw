@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Pstorec.dll
-ms.openlocfilehash: 11ca255cb13d998d16596bc7cc54d28d2415b227
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f5952dbaff2560ae4c2fc59af73246c2cd5c1d050bb53bc3c7b9091c8a39822f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119542238"
 ---
 # <a name="ienumpstoreitems-interface"></a>IEnumPStoreItems 介面
 
-\[受保護的存放裝置 (Pstore) 可用於 Windows Server 2003 和 Windows XP。 它僅適用于 Windows Server 2008 和 Windows Vista 中的唯讀操作，但在後續版本中可能無法使用。 Pstore 會使用較舊的資料保護執行。 強烈建議您使用 [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) 和 [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) 函數所提供的更強資料保護。\]
+\[受保護的儲存體 (Pstore) 可在 Windows 伺服器2003和 Windows XP 中使用。 它僅適用于 Windows Server 2008 和 Windows Vista 中的唯讀作業，但在後續版本中可能無法使用。 Pstore 會使用較舊的資料保護執行。 強烈建議您使用 [**CryptProtectData**](/windows/win32/api/dpapi/nf-dpapi-cryptprotectdata) 和 [**CryptUnprotectData**](/windows/win32/api/dpapi/nf-dpapi-cryptunprotectdata) 函數所提供的更強資料保護。\]
 
 提供 [**IPStore**](ipstore.md) 介面的 COM 標準列舉方法。
 
@@ -40,7 +40,7 @@ ms.locfileid: "106998391"
 
 | 方法                                  | 描述                                                                                        |
 |:----------------------------------------|:---------------------------------------------------------------------------------------------------|
-| [**克隆**](ienumpstoreitems-clone.md) | 建立另一個列舉值，其包含與目前列舉值相同的列舉型別狀態。<br/> |
+| [**複製**](ienumpstoreitems-clone.md) | 建立另一個列舉值，其包含與目前列舉值相同的列舉型別狀態。<br/> |
 | [**下一步**](ienumpstoreitems-next.md)   | 取得列舉順序中的下一個指定資料項目。<br/>                          |
 | [**重設**](ienumpstoreitems-reset.md) | 重設為列舉序列的開頭。<br/>                                    |
 | [**跳過**](ienumpstoreitems-skip.md)   | 略過列舉序列中指定的資料項目。<br/>                              |

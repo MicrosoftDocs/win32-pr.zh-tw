@@ -4,12 +4,12 @@ ms.assetid: ae152dbf-44f0-417f-a85e-09bf60dcfcb0
 title: " (授權) 的模擬層級"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b91654f42a86e5c47069197bed084df56f5445dd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fdf80f4f6b84499a94659c137c629d66a041752e5171cb3fa7220506586f36e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119414588"
 ---
 # <a name="impersonation-levels-authorization"></a> (授權) 的模擬層級
 
@@ -17,7 +17,7 @@ ms.locfileid: "106984680"
 
 
 
-| 模擬等級    | Description                                                                                      |
+| 模擬等級    | 描述                                                                                      |
 |------------------------|--------------------------------------------------------------------------------------------------|
 | SecurityAnonymous      | 伺服器無法模擬或識別用戶端。                                            |
 | SecurityIdentification | 伺服器可以取得用戶端的身分識別和許可權，但無法模擬用戶端。 |
@@ -39,8 +39,8 @@ DDE 用戶端會使用 [**DdeSetQualityOfService**](/windows/win32/api/dde/nf-dd
 不過，在下列情況下，系統會使用進程的主要權杖，而不是呼叫執行緒的模擬權杖：
 
 -   如果模擬執行緒呼叫 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 函數，則新的進程一律會繼承進程的主要 token。
--   對於需要 SE TCB 名稱許可權的函式（ \_ \_ 例如 [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera) 函數），系統一律會檢查進程主要權杖中的許可權。
--   對於需要 SE AUDIT NAME 許可權的函式（ \_ \_ 例如 [**ObjectOpenAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma) 函式），系統一律會檢查進程主要權杖中的許可權。
+-   針對需要 SE \_ TCB 名稱許可權的函式 \_ ，例如 [**LogonUser**](/windows/desktop/api/winbase/nf-winbase-logonusera)函式，系統一律會檢查進程主要權杖中的許可權。
+-   針對需要 SE AUDIT NAME 許可權的函式（ \_ \_ 例如 [**ObjectOpenAuditAlarm**](/windows/desktop/api/Winbase/nf-winbase-objectopenauditalarma)函式），系統一律會檢查進程主要權杖中的許可權。
 -   在 [**OpenThreadToken**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-openthreadtoken) 函式的呼叫中，執行緒可以指定函式是否使用模擬權杖或主要權杖來判斷是否要授與要求的存取權。
 
  

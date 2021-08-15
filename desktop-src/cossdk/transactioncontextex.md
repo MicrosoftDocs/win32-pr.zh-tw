@@ -11,12 +11,12 @@ api_name:
 - TransactionContextEx
 api_type:
 - COM
-ms.openlocfilehash: 8cf5c3aaa7ffe126124a909498a7c54cfb012c65
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 1293445e559e7ae1ddfda5cba10b17ee3f70082760d275a06a93c4f602cfac5a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119409988"
 ---
 # <a name="transactioncontextex-class"></a>TransactionCoNtextEx 類別
 

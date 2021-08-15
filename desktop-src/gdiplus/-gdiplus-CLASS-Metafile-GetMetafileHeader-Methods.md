@@ -4,12 +4,12 @@ ms.assetid: 8ad423a9-5557-41e6-b634-9d9dfe604b09
 title: GetMetafileHeader 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: cfef68a421311120a23d5c170dee4d4bf19dd143
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36323f0ea5c8f6c324fd6a3a9d60b99b0e9c68fd7f8dee4086235387eb9a39e9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119557568"
 ---
 # <a name="metafilegetmetafileheader-methods"></a>GetMetafileHeader 方法
 

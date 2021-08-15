@@ -4,12 +4,12 @@ ms.assetid: 3ee279ea-20cc-4089-b1a5-13bf1c7c4942
 title: 貝茲曲線
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dd725e64f9ba0035849d2d1d6fbc03d5efa0b17
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 87bcc9c56baa9cd1b3e93187ef00f9d6a2c8c1d218262c946028ed70429de18d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115269"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119399568"
 ---
 # <a name="bezier-splines"></a>貝茲曲線
 

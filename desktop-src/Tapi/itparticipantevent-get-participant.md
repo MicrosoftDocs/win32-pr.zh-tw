@@ -4,16 +4,16 @@ ms.assetid: 3c650715-b1c3-4f84-976a-2cb0f7f19f52
 title: 'ITParticipantEvent：： get_Participant 方法 (Confpriv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc5e9ee84bac69bd77237f1a50b9a008b2830258
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 0d53b5269b0940888ca5a849e4ecc8cc98d053bbe80340dcfa1a858eabd6ceed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118864512"
 ---
 # <a name="itparticipanteventget_participant-method"></a>ITParticipantEvent：： get \_ 參與者方法
 
-\[**取得 \_參與者** 無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**取得 \_參與者** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Get \_ 參與者** 方法會取得 [**ITParticipant**](itparticipant.md)介面陣列的指標，代表牽涉到事件的參與者。
 

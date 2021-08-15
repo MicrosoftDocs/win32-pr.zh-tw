@@ -1,19 +1,19 @@
 ---
-description: 無論您選擇手動將 MTS 套件轉換為 COM + 應用程式，或讓 Microsoft Windows 安裝程式自動為您進行，您應該留意轉換的結果以及問題。
+description: 無論您選擇手動將 MTS 套件轉換為 com + 應用程式，或讓 Microsoft Windows 安裝程式自動為您進行，您應該留意轉換的結果以及問題。
 ms.assetid: 5b85aa5c-0409-4802-9335-04217ef5ddb9
 title: COM + 轉換結果和問題
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ded68e8e81d2c59c90607747c5f343dac364424
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a347df5f0ad0b16aee509c9c1b2c2c848372d0df2ccbc376814b0d14eb61d138
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129210"
 ---
 # <a name="com-conversion-results-and-issues"></a>COM + 轉換結果和問題
 
-無論您選擇手動將 MTS 套件轉換為 COM + 應用程式，或讓 Microsoft Windows 安裝程式自動為您進行，您應該留意轉換的結果以及問題。
+無論您選擇手動將 MTS 套件轉換為 com + 應用程式，或讓 Microsoft Windows 安裝程式自動為您進行，您應該留意轉換的結果以及問題。
 
 ## <a name="what-is-converted"></a>轉換的內容
 
@@ -31,7 +31,7 @@ ms.locfileid: "104386012"
 
 -   如果您目前使用的是 MTS 1.0，則會自動將 MTS 升級至 COM +。 不過，使用者定義的封裝將會遺失，因此您必須重新建立它們。
 -   如果您目前使用的是 MTS 2.0，則會自動將 MTS 升級至 COM +。 所有使用者定義的封裝將會升級至 COM + 應用程式。 所有元件的運作方式應該與在 MTS 2.0 下的元件相同。
--   如果您使用的是 MTS 1.0 和 MTS 2.0 並已安裝 SDK 選項，將會移除 SDK 檔案。 您可以透過 Microsoft Windows SDK 安裝最新的 COM + SDK。
+-   如果您使用的是 MTS 1.0 和 MTS 2.0 並已安裝 SDK 選項，將會移除 SDK 檔案。 您可以透過 Microsoft Windows SDK 安裝最新的 com + SDK。
 -   您無法從 COM + 電腦管理遠端 MTS 電腦。
 
 ## <a name="related-topics"></a>相關主題

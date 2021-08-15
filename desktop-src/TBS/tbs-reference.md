@@ -6,12 +6,12 @@ keywords:
 - TPM 基礎服務 TB、參考
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed6a091a75a67a1ef5eb2803dccc8bd3a2f15a8e
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: eaccce85c46706c60c3d95467ce264efd5bb28d091b6aa7c22bd0c689e953337
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103841391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118880654"
 ---
 # <a name="tbs-reference"></a>TB 參考
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: b8e1d400541a2654657c1a462c38494d20af13e6
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: 95bef050d335ba261e08852a7d4b9a1acbcda271b91778b7241d5de9f4a6d9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119369398"
 ---
 # <a name="waveactiveproduct-function"></a>WaveActiveProduct 函式
 

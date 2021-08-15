@@ -4,12 +4,12 @@ ms.assetid: a20570ea-e3eb-4d65-b8fa-9a27ce1a3e74
 title: 備份的簡易陰影複製建立
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c11e030c0531c96eee40e9cd5bb7cc9366284985
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f9cda7a2d2679979879a2333b30621fb7f73a449f4a15b55b42c603cd913713
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119394168"
 ---
 # <a name="simple-shadow-copy-creation-for-backup"></a>備份的簡易陰影複製建立
 

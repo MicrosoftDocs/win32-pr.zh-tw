@@ -13,16 +13,16 @@ keywords:
 - RenderWindow 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99db0a96a07c361d18de579fb0235befa11838c8
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 5af44299c8a8e34c8f63844dc7d2c143f1d85e0b622c50dd246ea12571d94af8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023047"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390688"
 ---
 # <a name="implementing-render"></a>執行轉譯
 
-要考慮視覺化程式設計，最簡單的方式就是建立計時事件的處理常式。 在特定間隔中，Windows Media Player 會取得所播放音訊資料的快照集，並將快照集資料提供給目前載入的視覺效果。 這類似于事件驅動程式設計，而且是 Microsoft Windows 的程式設計模型的一部分。 您會撰寫程式碼，並等候特定事件呼叫它。
+要考慮視覺化程式設計，最簡單的方式就是建立計時事件的處理常式。 在特定間隔中，Windows Media Player 會取得所播放音訊資料的快照集，並將快照集資料提供給目前載入的視覺效果。 這類似于事件驅動程式設計，而且是 Microsoft Windows 程式設計模型的一部分。 您會撰寫程式碼，並等候特定事件呼叫它。
 
 如果您的程式碼是 [IWMPEffects：： Render](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects-render) 函式的執行，以便在無視窗模式中轉譯，則會收到下列參數：
 
@@ -32,7 +32,7 @@ ms.locfileid: "104023047"
 
 *HDC*
 
-這是 Microsoft Windows 的裝置內容控制碼。 這會提供一種方式來識別 Windows 的繪圖介面。 您不需要加以建立，只需要將它用於特定的繪圖函式呼叫。
+這是 Microsoft Windows 的裝置內容控制碼。 這會提供一種方式來識別要 Windows 的繪圖介面。 您不需要加以建立，只需要將它用於特定的繪圖函式呼叫。
 
 *矩形*
 
@@ -48,7 +48,7 @@ ms.locfileid: "104023047"
 
 *FRequiredRender* 參數會通知您，您的視覺效果必須自行重新繪製，例如，當另一個視窗拖曳至另一個視窗時。 當此值為 false 時，如果目前的媒體專案已停止或暫停，您可以放心地跳過轉譯程式碼。 這可讓您避免不必要地耗用 CPU 迴圈。
 
-外掛程式 Wizard 所產生的範例外掛程式不會提供 **RenderWindowed** 的自訂執行。 相反地，範例外掛程式程式碼會從 [IWMPEffects2：： Create](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects2-create)中 Windows Media Player 所提供的父視窗抓取裝置內容，然後以 RECT 結構的形式抓取父視窗的維度，然後呼叫 **，以使用** 來自 **RENDERWINDOWED** 的裝置內容、RECT 和計時層級指標進行轉譯。
+外掛程式 Wizard 所產生的範例外掛程式不會提供 **RenderWindowed** 的自訂執行。 相反地，範例外掛程式程式碼會從 [IWMPEffects2：： Create](/previous-versions/windows/desktop/api/effects/nf-effects-iwmpeffects2-create)中 Windows Media Player 所提供的父視窗抓取裝置內容，然後以 RECT 結構的形式抓取父視窗的維度，然後呼叫 **，以使用** 來自 **RenderWindowed** 的裝置內容、RECT 和計時層級指標進行轉譯。
 
 下列各節提供 **有關執行轉譯** 的詳細資訊：
 
@@ -64,9 +64,9 @@ ms.locfileid: "104023047"
 [**執行您的程式碼**](implementing-your-code.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

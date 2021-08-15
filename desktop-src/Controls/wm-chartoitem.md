@@ -3,7 +3,7 @@ title: 'WM_CHARTOITEM 訊息 (Winuser .h) '
 description: 由具有磅 WANTKEYBOARDINPUT 樣式的清單方塊傳送 \_ 給其擁有者，以回應 WM \_ 字元訊息。
 ms.assetid: f941c00b-b836-4f1b-b8cf-8ac2b0704af3
 keywords:
-- WM_CHARTOITEM message Windows 控制項
+- WM_CHARTOITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2dc9df55dcf9f507cb57e91fe0214eab94c53f22
-ms.sourcegitcommit: ac62be2f60f757f61ea647a95c168c9841ffabac
+ms.openlocfilehash: 4f3809ae800cfc753925e7c27d87f970ce56c10d90ace7c23e87b46f3e0067fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104322543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957527"
 ---
 # <a name="wm_chartoitem-message"></a>WM \_ CHARTOITEM 訊息
 
@@ -71,9 +71,9 @@ WM_CHARTOITEM
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

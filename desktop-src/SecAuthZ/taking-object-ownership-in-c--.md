@@ -4,16 +4,16 @@ ms.assetid: 0b309ac9-177d-425f-8b78-71fe73e41979
 title: 以 c + + 取得物件擁有權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae43c28cb55193d43a15ed08f5905defded3dc2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0fba581c449309dcfbfaeba6ca207b58f26f966088e43b99717bbd4fb89323f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972457"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119413298"
 ---
 # <a name="taking-object-ownership-in-c"></a>以 c + + 取得物件擁有權
 
-下列範例會嘗試取得該物件的擁有權，以變更檔案物件的 DACL。 只有當呼叫端具有物件的寫入 \_ DAC 存取權，或者是物件的擁有者時，才會成功。 如果初次嘗試變更 DACL 失敗，系統管理員可以取得物件的擁有權。 為了提供系統管理員擁有權，此範例 \_ 會 \_ \_ 在呼叫者的 [*存取權杖*](/windows/desktop/SecGloss/a-gly)中啟用「SE 取得擁有權名稱」許可權，並讓本機系統的系統管理員群組成為物件的擁有者。 如果呼叫端是 Administrators 群組的成員，程式碼就可以變更物件的 DACL。
+下列範例會嘗試取得該物件的擁有權，以變更檔案物件的 DACL。 只有當呼叫端具有物件的寫入 \_ DAC 存取權，或者是物件的擁有者時，才會成功。 如果初次嘗試變更 DACL 失敗，系統管理員可以取得物件的擁有權。 為了提供系統管理員擁有權，此範例可讓 \_ SE \_ \_ 在呼叫端的 [*存取權杖*](/windows/desktop/SecGloss/a-gly)中取得擁有權名稱許可權，並讓本機系統的系統管理員群組成為物件的擁有者。 如果呼叫端是 Administrators 群組的成員，程式碼就可以變更物件的 DACL。
 
 若要啟用和停用許可權，此範例會使用在 [c + + 中啟用和停用許可權](enabling-and-disabling-privileges-in-c--.md)中所述的 SetPrivilege 範例函式。
 

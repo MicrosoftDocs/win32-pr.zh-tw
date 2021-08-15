@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 022712ff45f213992bf3d40bd0149959e4864faa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 72c8c3a452e3115e66e4f0f6e75999cad9bce7e1eadf14b4cadd24fae640a327
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118879214"
 ---
 # <a name="flags-for-conversion-mode"></a>轉換模式的旗標
 
@@ -71,7 +71,7 @@ ms.locfileid: "104104123"
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                   |
 | 可轉散發套件<br/>          | TSF 1.0 于 windows NT 4.0、Windows 2000 ProfessionalandWindows MeWindows 98<br/>   |
 | 標頭<br/>                   | <dl> <dt>Ctffunc。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Ctffunc .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Ctffunc .idl</dt> </dl> |
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: " (XML) 的開機觸發程式範例"
-description: 此範例中的 XML 會定義在系統啟動時啟動「記事本」的工作。
+description: 此範例中的 XML 會定義啟動系統時啟動記事本的工作。
 ms.assetid: 6dd7155c-6163-4408-9cef-c313134beeb0
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,22 +9,22 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: a8f9f5ea10f92979b0798b12a6225f8ba74a38ee
-ms.sourcegitcommit: 40dd8501397fc79a643deb528c6c57ac2e9726ce
+ms.openlocfilehash: 75b4c9628da5ef56ec006faf9d7301661dfd0f76894ebb4f5f37cc1035d40f75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "104314060"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118860317"
 ---
 # <a name="boot-trigger-example-xml"></a> (XML) 的開機觸發程式範例
 
-此範例中的 XML 會定義在系統啟動時啟動「記事本」的工作。
+此範例中的 XML 會定義啟動系統時啟動記事本的工作。
 
 若要註冊 XML 中定義的工作，您可以使用 [**ITaskFolder：： RegisterTask**](/windows/desktop/api/taskschd/nf-taskschd-itaskfolder-registertask) 函數 ([**TaskFolder. RegisterTask**](taskfolder-registertask.md) 來撰寫腳本) 或 Schtasks.exe 命令列工具。 如果您使用位於 C： \\ Windows System32 目錄) 的 Schtasks.exe 工具 (\\ ，則可以使用下列命令來註冊工作： **schtasks.exe/create/xml** *<path to the XML file containing the task definition>* **/tn** *<task name>* 。
 
-## <a name="to-define-a-task-to-start-notepad-on-system-boot"></a>定義在系統開機時啟動「記事本」的工作
+## <a name="to-define-a-task-to-start-notepad-on-system-boot"></a>定義啟動系統開機記事本的工作
 
-下列 XML 範例顯示如何使用單一執行動作來定義工作 (啟動 [記事本]) 、啟動系統時啟動工作的單一開機觸發程式，以及其他會影響工作排程器處理工作的其他工作設定。
+下列 XML 範例示範如何使用單一執行動作來定義工作 (啟動記事本) 、啟動系統時啟動工作的單一啟動觸發程式，以及其他會影響工作排程器如何處理工作的其他工作設定。
 
 
 ```XML
@@ -78,7 +78,7 @@ the system is booted.
 -   [**BootTrigger**](taskschedulerschema-boottrigger-triggergroup-element.md)：定義開機觸發程式。 在此情況下，只會使用兩個子項目：指定啟動和停用觸發程式的時間和結束界限。
 -   [**Principal**](taskschedulerschema-principal-principaltype-element.md)：定義工作執行所在的安全性內容。
 -   [**設定**](taskschedulerschema-settings-tasktype-element.md)：定義工作排程器用來執行工作的工作設定。
--   [**動作**](taskschedulerschema-actions-tasktype-element.md)：定義工作執行的動作。 在此情況下，執行「記事本」。
+-   [**動作**](taskschedulerschema-actions-tasktype-element.md)：定義工作執行的動作。 在此情況下，執行記事本。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -87,9 +87,9 @@ the system is booted.
 [使用工作排程器](using-the-task-scheduler.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

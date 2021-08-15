@@ -19,12 +19,12 @@ api_type:
 - HeaderDef
 api_location:
 - dxva.h
-ms.openlocfilehash: 57e9ccc9420659ac09c19f2bbb7a18db519c07bc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 75038b22a30be41389311fd1a7cfb830f870859b01ba48fd9a791a42cee86dc6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996102"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119214048"
 ---
 # <a name="copp-protection-type-flags"></a>COPP 保護類型旗標
 
@@ -32,7 +32,7 @@ ms.locfileid: "106996102"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                                             | Description                                                     |
+| 常數/值                                                                                                                                                                                                                                                                                                             | 描述                                                     |
 |:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------|
 | <span id="COPP_ProtectionType_Unknown"></span><span id="copp_protectiontype_unknown"></span><span id="COPP_PROTECTIONTYPE_UNKNOWN"></span><dl> <dt>**COPP \_Set-protectiontype \_ 不明**</dt>的 <dt>0x80000000</dt> </dl>     | 未知的保護機制。<br/>                        |
 | <span id="COPP_ProtectionType_None"></span><span id="copp_protectiontype_none"></span><span id="COPP_PROTECTIONTYPE_NONE"></span><dl> <dt>**COPP \_Set-protectiontype \_ 無**</dt> <dt>0x00000000</dt> </dl>                 | 沒有防護機制。<br/>                            |

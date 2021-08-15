@@ -3,15 +3,15 @@ title: 取得面板上的線上音樂商店
 description: 取得面板上的線上音樂商店
 ms.assetid: f7eff687-9832-41bc-8f3d-a2ab11917eb0
 keywords:
-- Windows Media Player 線上商店
+- Windows Media Player線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e50c5d13e14e95e88e83d42fd7d5cd00551bb507
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08e618f1eddca3389801d2b6c2d5de1e7a6ee67f7aef593478f4999f69bbd148
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932423"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119390878"
 ---
 # <a name="getting-an-online-music-store-on-board"></a>取得面板上的線上音樂商店
 
@@ -27,7 +27,7 @@ ms.locfileid: "103932423"
 <thead>
 <tr class="header">
 <th>階段</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -72,15 +72,15 @@ ms.locfileid: "103932423"
 
 ## <a name="contact-information"></a>連絡資訊
 
-下表顯示 Microsoft 針對您的線上商店所需的連絡人資訊。 填寫 [ [連絡人資訊] 表單](contact-information-form-for-an-online-music-store.md) ，並將它傳送給 Windows Media Player Services 虛擬團隊 mpsvctm@microsoft.com 。
+下表顯示 Microsoft 針對您的線上商店所需的連絡人資訊。 填寫 [[連絡人資訊] 表單](contact-information-form-for-an-online-music-store.md)，並將它傳送給 Windows Media Player Services 虛擬團隊 mpsvctm@microsoft.com 。
 
 
 
-| 項目                     | 描述                                                                               |
+| Item                     | 描述                                                                               |
 |--------------------------|-------------------------------------------------------------------------------------------|
 | 商店名稱               | 您存放區的品牌名稱                                                            |
 | Provider Name            | 提供者/白卷標公司的名稱 (如果不同)                                |
-| 商店地區設定             | 您的存放區)  (的 Windows 使用者地區設定必須顯示在                                |
+| 商店地區設定             | Windows 的使用者地區設定 (s) 您的商店必須顯示在                                |
 | 商店類別           | 音樂、廣播、電影、電視、體育、新聞、音訊娛樂及/或其他 (請說明)  |
 | 購買模型           | 購買、出租、訂用帳戶及/或其他 (請說明)                             |
 | 商店語言           |                                                                                           |
@@ -110,14 +110,14 @@ ms.locfileid: "103932423"
 
 
 
-| 項目                                                                                                     | 描述                                                                                                                                                                                                                                   |
+| Item                                                                                                     | 描述                                                                                                                                                                                                                                   |
 |----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 服務資訊 XML URL (2048-字元限制)                                                               | Windows Media Player 取得 [SERVICEINFO XML 檔](serviceinfo-document.md)的 URL。                                                                                                                                         |
+| 服務資訊 XML URL (2048-字元限制)                                                               | Windows Media Player 取得[ServiceInfo XML 檔](serviceinfo-document.md)的 URL。                                                                                                                                         |
 | 服務金鑰 (唯一識別碼)                                                                                   | 可唯一識別您的線上商店的字串。 您應該建立一個用於生產環境，另一個用於測試 (例如，"MyStore" 和 "MyStoreTest" ) 。 請注意，服務金鑰與測試金鑰的內容不同。                        |
 | 易記名稱 (30 個字元的限制)                                                                        | 顯示在 Windows Media Player 服務選取器中的商店名稱。                                                                                                                                                        |
 | 功能表影像 URL (2048-字元限制)                                                                     | Windows Media Player 抓取在服務選取器中顯示的 15 x 15 圖元標誌的 URL。                                                                                                                                 |
 | 購買音樂 URL (2048-字元限制) <br/>  (整合式音樂存放區) <br/>                | 播放程式的「購買 CD」和「購物音樂線上」連結所使用的 URL。                                                                                                                                                              |
-| 10 ft UI 購買 URL (2048-字元限制) <br/> 僅 (整合式音樂存放區--選擇性) <br/> | 在 windows XP Media Center Edition 和 windows Media Center 的 windows Vista 中，播放程式的「購買 CD」和「在線上購物音樂」連結所使用的 URL。                                                                              |
+| 10 ft UI 購買 URL (2048-字元限制) <br/> 僅 (整合式音樂存放區--選擇性) <br/> | 播放程式在 Windows XP Media center Edition 和 Windows Vista 的 Windows Media center 中使用的「購買 CD」和「在線上購物音樂」連結所使用的 URL。                                                                              |
 | 商店標誌 (130w x 共30小時) <br/>  (分別附加 PNG 檔案。 ) <br/>                              | 當滑鼠停留在流覽所有影像上時，顯示在工具提示中的商店標誌。 這個標誌必須是 PNG 格式的檔案，且最好是使用 Alpha 混合的檔案，才能調整 Windows Media Player 中的色彩變更。 |
 | 流覽-所有影像 (108w x 108h) <br/>  (分別附加 PNG 檔案。 ) <br/>                       | 當滑鼠停留在流覽所有影像上時，出現在工具提示中的簡短描述。                                                                                                                                               |
 | 商店描述文字 (110-字元限制)                                                              | 出現在工具提示中的文字會顯示在商店描述文字下方。                                                                                                                                                                        |
@@ -173,7 +173,7 @@ ms.locfileid: "103932423"
 -   立即播放區域中的 [購買] 連結 (或 [商店] 連結) 無效。 這可能會導致您的存放區驗證失敗，即使所有其他專案都在運作中也一樣。
 -   Microsoft 的驗證小組將會測試數個購買案例，範圍從小型購買到非常大量的購買。 您必須提供充電方式，讓它們作為商店內的取用者。 如果驗證小組沒有足夠的購買點數可驗證所有案例，就無法驗證您的存放區。
 
-如需常見的上線問題以及 Windows Media Player Services 虛擬小組所編譯常見問題的完整清單，請參閱 [線上音樂商店的常見內部問題](common-on-boarding-problems-for-online-music-stores.md)。
+如需常見的上線問題以及 Windows Media Player Services 虛擬小組所編譯常見問題的完整清單，請參閱[線上音樂商店的常見內部問題](common-on-boarding-problems-for-online-music-stores.md)。
 
 ## <a name="related-topics"></a>相關主題
 

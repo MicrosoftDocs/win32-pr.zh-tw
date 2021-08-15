@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETSPEED 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETSPEED 訊息會捕獲 MCI 裝置的播放速度。 您可以使用 MCIWndGetSpeed 宏明確地傳送此訊息。
 ms.assetid: d10a8f88-e85e-449b-8655-bb0832031d59
 keywords:
-- MCIWNDM_GETSPEED message Windows 多媒體
+- MCIWNDM_GETSPEED 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c84a8ebb3e97d4543f68f3a237add8eed7706ae2
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 42749fb2f99c446dbd45bc6e2497287ab3b0ce987c9343ed4580735c760cc892
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429248"
 ---
 # <a name="mciwndm_getspeed-message"></a>MCIWNDM \_ GETSPEED 訊息
 

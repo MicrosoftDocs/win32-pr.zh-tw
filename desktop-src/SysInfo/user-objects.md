@@ -4,12 +4,12 @@ ms.assetid: 07edc049-26d9-4f42-a5e7-e1f4c8435a6c
 title: 使用者物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5ed8afcf0f1d0e4c232cf503bc2c7ba86dca42d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 368c3cdb5c0927a5773bad818064442f654159fefba2b2dfa4d0cb4c08d17ff8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104553179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884319"
 ---
 # <a name="user-objects"></a>使用者物件
 

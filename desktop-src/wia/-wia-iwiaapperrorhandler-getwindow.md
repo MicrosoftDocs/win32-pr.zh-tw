@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Wiaguid.lib
 - Wiaguid.dll
-ms.openlocfilehash: 89a3b2bf87d99c767ab3bea46a27c8a53fab7825
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1bac7ba2f2f9d394218d851f9bbe7939168c2abbc7df5fb8c57a52f29fa6e2b1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979163"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118965757"
 ---
 # <a name="iwiaapperrorhandlergetwindow-method"></a>IWiaAppErrorHandler：： GetWindow 方法
 
@@ -43,9 +43,9 @@ HRESULT GetWindow(
 *phwnd* \[擴展\]
 </dt> <dd>
 
-類型： **HWND \** _
+類型： **HWND \***
 
-應用程式錯誤處理常式所使用的 HWND、驅動程式錯誤處理常式，以及裝置訊息對話方塊的預設錯誤處理常式 (錯誤和資訊性) 。 輸出值可能是 _ * Null * *。
+應用程式錯誤處理常式所使用的 HWND、驅動程式錯誤處理常式，以及裝置訊息對話方塊的預設錯誤處理常式 (錯誤和資訊性) 。 輸出值可能是 **Null**。
 
 </dd> </dl>
 
@@ -57,7 +57,7 @@ HRESULT GetWindow(
 
 ## <a name="remarks"></a>備註
 
-*phwnd* 指向 Windows 映像取得 (WIA) 2.0 Proxy 傳遞至 [**ReportStatus**](-wia-iwiaerrorhandler-reportstatus.md) 的視窗。 此視窗在資料傳輸期間必須保持有效。
+*phwnd* 會指向由 Windows 影像取得傳遞至 [**ReportStatus**](-wia-iwiaerrorhandler-reportstatus.md)的視窗， (WIA) 2.0 Proxy。 此視窗在資料傳輸期間必須保持有效。
 
 ## <a name="requirements"></a>規格需求
 
@@ -65,10 +65,10 @@ HRESULT GetWindow(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Wia</dt> </dl>       |
-| Idl<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
+| IDL<br/>                      | <dl> <dt>Wia .idl</dt> </dl>     |
 | 程式庫<br/>                  | <dl> <dt>Wiaguid .lib</dt> </dl> |
 
 

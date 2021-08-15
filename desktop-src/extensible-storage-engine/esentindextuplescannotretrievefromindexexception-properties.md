@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101776
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: db1eef992f7f6cc8d17cb9455157cc54226b1d04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6bf63d39865152bc9f897622ef978475ec35beb19f224f7a372c848befdb2b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104514124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119236440"
 ---
 # <a name="esentindextuplescannotretrievefromindexexception-properties"></a>EsentIndexTuplesCannotRetrieveFromIndexException 屬性
 

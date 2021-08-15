@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dffac6c3a912cd85d1a23ef43cb348e0231d6309
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ac579b1e1be1cf54a26c5a8628fb73390d3d4c1138d4f928fa716650d5ddabbb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118880996"
 ---
 # <a name="systemmonitoryaxislabel-property"></a>SystemMonitor. YAxisLabel 屬性
 
@@ -42,7 +42,7 @@ Property YAxisLabel As String
 
 圖形垂直 (Y) 軸的標籤。 標題的長度上限為128個字元。 如果標題超過128個字元，則會截斷標題。
 
-**WINDOWS XP 和 windows 2000：** 標題的長度沒有限制。
+**Windows XP 和 Windows 2000：** 標題的長度沒有限制。
 
 ## <a name="requirements"></a>規格需求
 

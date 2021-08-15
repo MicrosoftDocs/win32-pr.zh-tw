@@ -3,19 +3,19 @@ title: 寫入器物件
 description: 寫入器物件
 ms.assetid: 8058b7fe-7d02-4572-ad43-6867d4ceb7e9
 keywords:
-- Windows Media Format SDK，寫入器物件
+- Windows媒體格式 SDK，寫入器物件
 - Advanced Systems Format (ASF) 、writer 物件
 - ASF (Advanced Systems Format) 、writer 物件
 - 物件、寫入器物件
 - 寫入器物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42d4783a8330ac1f0f16bc2ca2de4e843cbacc06
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 8f76ad82cb56317cef9b70b0412fb79662ef89eacace8668b08a06f4cc5bf420
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103681563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119392318"
 ---
 # <a name="writer-object"></a>寫入器物件
 
@@ -32,7 +32,7 @@ ms.locfileid: "103681563"
 | 介面                                          | 描述                                                                                                                                                                                               |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**IWMDRMWriter**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter)               | 提供產生 [*DRM*](wmformat-glossary.md) 金鑰的方法。                                                                                                |
-| [**IWMDRMWriter2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2)             | 設定寫入器物件寫入檔案，其中包含符合網路裝置通訊協定之 Windows Media DRM 10 的預先加密資料流。                                                    |
+| [**IWMDRMWriter2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmdrmwriter2)             | 設定寫入器物件，以寫入檔案，其中包含符合網路裝置通訊協定 Windows 媒體 DRM 10 的預先加密資料流。                                                    |
 | [**IWMHeaderInfo**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo)             | 管理標頭資訊的規格和抓取，例如中繼資料、 [*標記*](wmformat-glossary.md)等等。                                                           |
 | [**IWMHeaderInfo2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo2)           | 管理列舉可用的編解碼器資訊。 繼承 **IWMHeaderInfo** 的所有方法。                                                                                            |
 | [**IWMHeaderInfo3**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmheaderinfo3)           | 管理列舉可用的編解碼器資訊。 繼承 **IWMHeaderInfo** 和 **IWMHeaderInfo2** 的所有方法。                                                                     |
@@ -46,7 +46,7 @@ ms.locfileid: "103681563"
 
 
 
- 
+ 
 
 應用程式必須執行下列回呼介面，才能追蹤 postviewing 的進度。
 
@@ -58,7 +58,7 @@ ms.locfileid: "103681563"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -70,9 +70,9 @@ ms.locfileid: "103681563"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

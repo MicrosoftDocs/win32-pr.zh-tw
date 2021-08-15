@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: fb3b58c58c6a0bd71924fb207170a177797b9f84
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 2eeec6fa26504d30588c5e148c07c6c628cc3ce752a2964d2dbefb3059040236
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106992134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118987978"
 ---
 # <a name="id3dxanimationcallbackhandler-interface"></a>ID3DXAnimationCallbackHandler 介面
 

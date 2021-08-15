@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 6769e8a4a480becc5a5584826f60cdb85f8b90e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 721676b0aa135903e0e139bf719e072c3af8b6af33118f168453880fb7329413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943326"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891038"
 ---
 # <a name="upgradevolume-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 UpgradeVolume 方法 \_
 
-[**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md)類別的 **UpgradeVolume** 方法會將磁片區從 Windows Vista 格式升級為 windows 7 格式。 這是不可反轉操作。
+[**Win32 \_ EncryptableVolume**](win32-encryptablevolume.md)類別的 **UpgradeVolume** 方法會將磁片區從 Windows Vista 格式升級為 Windows 7 格式。 這是不可反轉操作。
 
 ## <a name="syntax"></a>語法
 
@@ -47,7 +47,7 @@ uint32 UpgradeVolume();
 
 
 
-| 傳回碼/值                                                                                                                                                                  | Description                                                                                  |
+| 傳回碼/值                                                                                                                                                                  | 描述                                                                                  |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> <dt>0 (0x0)</dt> </dl>                                  | 此方法成功。<br/>                                                        |
 | <dl> <dt>**E \_INVALIDARG**</dt> <dt>214794287 (0xCCD802F)</dt> </dl>            | 一或多個引數無效。<br/>                                       |
@@ -68,8 +68,8 @@ uint32 UpgradeVolume();
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7 企業版，僅限 Windows 7 旗艦版傳統型 \[ 應用程式\]<br/>                               |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 7 企業版， \[ 僅 Windows 7 旗艦版桌面應用程式\]<br/>                               |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

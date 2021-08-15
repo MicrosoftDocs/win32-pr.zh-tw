@@ -4,12 +4,12 @@ ms.assetid: 54509a35-fa6a-4ee6-90f8-36c9ef55e1bc
 title: 正在抓取 Last-Write 時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2332a55744eda1ea93853e6967f0cf1b4d45046d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 92bc6176a622ae2c2ef89b4b0b3ca4e900cb85a9e630d66c6080e35d5eb9e2e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193889"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884975"
 ---
 # <a name="retrieving-the-last-write-time"></a>正在抓取 Last-Write 時間
 

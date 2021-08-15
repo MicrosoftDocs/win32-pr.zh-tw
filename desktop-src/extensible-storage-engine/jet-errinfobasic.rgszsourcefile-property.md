@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e3504112ed6c3d4de360e7da027e700237e5dbcd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8da5ff9beca9b0e9f9d485391de5ab5e952e5386d15de22fc4754fe73c3e9439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996762"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119362338"
 ---
 # <a name="jet_errinfobasicrgszsourcefile-property"></a>JET_ERRINFOBASIC rgszSourceFile 屬性
 

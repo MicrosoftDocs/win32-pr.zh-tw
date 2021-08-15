@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 4465c2aa1f05ff2da3c2fb007f9b345a82ed3c24
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 00d7e7bf726219a80fa3d72ef0a539a917899a6fb4e6ed7f98487315becb7f9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023933"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119342708"
 ---
 # <a name="id2d1propertiesgetpropertynamelength-methods"></a>ID2D1Properties：： GetPropertyNameLength 方法
 

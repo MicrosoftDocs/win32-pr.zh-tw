@@ -4,12 +4,12 @@ ms.assetid: 7aa9371d-676c-4633-9831-edf0e74d15f0
 title: 撰寫 ServiceMain 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ad3e947c356bad6c6d54395a671aa192c93de1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ca28b09efdc228457ae85d8a3343f334a26f246b6e48e49208d7416551e7f85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106997082"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887971"
 ---
 # <a name="writing-a-servicemain-function"></a>撰寫 ServiceMain 函式
 

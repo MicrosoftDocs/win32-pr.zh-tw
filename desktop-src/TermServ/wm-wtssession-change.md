@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: db8f1dc421aa160824a194588711e84f961ea4dd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f29bef7eb7778602a256f80cb04e47eae905a245783906c3388b576aecedee18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119419838"
 ---
 # <a name="wm_wtssession_change-message"></a>WM \_ WTSSESSION \_ 變更訊息
 
@@ -72,7 +72,7 @@ LRESULT CALLBACK WindowProc(
 
 </dt> <dd>
 
-*LParam* 所識別的會話已連線到主控台終端機或 RemoteFX 會話。
+*lParam* 識別的會話已連線到主控台終端機或 RemoteFX 會話。
 
 </dd> <dt>
 
@@ -83,7 +83,7 @@ LRESULT CALLBACK WindowProc(
 
 </dt> <dd>
 
-*LParam* 識別的會話已從主控台終端機或 RemoteFX 會話中斷連線。
+*lParam* 識別的會話已從主控台終端機或 RemoteFX 會話中斷連線。
 
 </dd> <dt>
 
@@ -211,7 +211,7 @@ LRESULT CALLBACK WindowProc(
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                 |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                           |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

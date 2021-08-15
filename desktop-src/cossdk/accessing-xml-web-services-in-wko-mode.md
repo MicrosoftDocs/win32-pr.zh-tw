@@ -1,19 +1,19 @@
 ---
-description: 您可以存取及使用任何 XML web service，即使該 XML web service 不是使用 COM + 或甚至 Microsoft Windows 建立的，只要 XML Web Service 發行其語法的 WSDL 描述即可。
+description: 您可以存取及使用任何 xml web service，即使該 xml web service 不是使用 com + 或甚至 Microsoft Windows 建立的，只要 xml web service 發佈其語法的 WSDL 描述即可。
 ms.assetid: 5b21ff0c-f3a5-464b-b927-a7872ac54fe2
 title: 在 WKO 模式中存取 XML Web Service
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e726f430c47b3202932796455e1cf997e370a022
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9f412a1ec6493e713d2635136b2c4e82063cde56c30358653e476f300ffd2ae4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129400"
 ---
 # <a name="accessing-xml-web-services-in-wko-mode"></a>在 WKO 模式中存取 XML Web Service
 
-您可以存取及使用任何 XML web service，即使該 XML web service 不是使用 COM + 或甚至 Microsoft Windows 建立的，只要 XML Web Service 發行其語法的 WSDL 描述即可。 只要使用 soap： wsdl = URL 標記建立元件的實例，其中 URL 是您想要存取之 XML web service 的 WSDL 描述 URL。 這是已知的物件 (存取 XML web service 的 WKO) 模式。
+您可以存取及使用任何 xml web service，即使該 xml web service 不是使用 com + 或甚至 Microsoft Windows 建立的，只要 xml web service 發佈其語法的 WSDL 描述即可。 只要使用 soap： wsdl = URL 標記建立元件的實例，其中 URL 是您想要存取之 XML web service 的 WSDL 描述 URL。 這是已知的物件 (存取 XML web service 的 WKO) 模式。
 
 您可以呼叫物件的方法，而不需要任何特殊考慮。 XML web service 可透過 SOAP 查詢來存取，並以透明的方式解讀回應。
 

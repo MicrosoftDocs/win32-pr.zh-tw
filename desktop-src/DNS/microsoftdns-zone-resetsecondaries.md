@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a78d65b2153782c38d6d91d34f642860e896ed1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5ab3737bc8143f712560e5ea253237c97da4e2401b98886428642210805ca586
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957287"
 ---
 # <a name="resetsecondaries-method-of-the-microsoftdns_zone-class"></a>MicrosoftDNS 區域類別的 ResetSecondaries 方法 \_
 

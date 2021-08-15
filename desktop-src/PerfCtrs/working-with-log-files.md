@@ -4,12 +4,12 @@ ms.assetid: 1d8f8662-df1f-4f84-8b65-c152f79cc5c6
 title: 使用記錄檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba2032b90036f8f58c07d8c7e80e7e7ac2b2701c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 82281694b72a2c28bb0e65ee4db16bd9ba33b8ed9c6e5e74dbf6c6cbf559507a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119143741"
 ---
 # <a name="working-with-log-files"></a>使用記錄檔
 
@@ -27,7 +27,7 @@ ms.locfileid: "106993134"
 
 如果您使用 [**PdhExpandWildCardPath**](/windows/desktop/api/Pdh/nf-pdh-pdhexpandwildcardpatha)，您可以建立包含實例名稱和計數器萬用字元的路徑，例如， \\ 物件 (\*) \\ \* 。 如果物件不包含實例，此函數會傳回 PDH \_ 無效 \_ 路徑。 在此情況下，請使用僅限計數器的萬用字元（例如物件）來呼叫 **PdhExpandWildCardPath** \\ \\ \* 。
 
-較新的作業系統可以讀取舊版作業系統上產生的記錄檔;不過，在 Windows Vista 和更新版本的作業系統上建立的記錄檔無法在舊版作業系統上讀取。
+較新的作業系統可以讀取舊版作業系統上產生的記錄檔;不過，在舊版作業系統上，無法讀取在 Windows Vista 和更新版本的作業系統上建立的記錄檔。
 
 如需從記錄檔讀取資料的範例，請參閱 [從記錄檔讀取效能資料](reading-performance-data-from-a-log-file.md)。
 
@@ -41,7 +41,7 @@ ms.locfileid: "106993134"
 
 若要開啟目的地檔案，請呼叫 [**PdhOpenLog**](/windows/desktop/api/Pdh/nf-pdh-pdhopenloga)。 當您開啟記錄檔時，請指定查詢。 若要收集效能資料，並將其寫入記錄檔中，請呼叫 [**PdhUpdateLog**](/windows/desktop/api/Pdh/nf-pdh-pdhupdateloga)。
 
-如果將計數器資料寫入至以逗號分隔的 ( .csv) 或以 tab 分隔的 ( tsv) 記錄檔和路徑包含萬用字元實例，則路徑會展開，而且只有在展開路徑時存在的實例才會包含在記錄檔中。 但是，如果是 binary ( .blg) 或 SQL 記錄檔，則不會展開萬用字元，讓記錄檔包含記錄期間所建立的實例。
+如果將計數器資料寫入至以逗號分隔的 (.csv) 或 tab 分隔的 ( tsv) 記錄檔，而且路徑包含萬用字元實例，則路徑會展開，而且只有在展開路徑時存在的實例才會包含在記錄檔中。 但是，如果是 binary ( .blg) 或 SQL 記錄檔，則不會展開萬用字元，讓記錄檔包含在記錄期間建立的實例。
 
 如需將資料寫入記錄檔的範例，請參閱將 [效能資料寫入至記錄](writing-performance-data-to-a-log-file.md)檔。
 

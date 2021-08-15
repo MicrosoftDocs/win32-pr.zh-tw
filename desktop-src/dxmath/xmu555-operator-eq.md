@@ -11,12 +11,12 @@ api_name: ''
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 84a0f96c56c7c7748e87b52bb54f5e512dbbb23e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ec53b3c49c7ade0f8be22f507768bd1c2e084de40d4812168b7ff760bf349b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992427"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984608"
 ---
 # <a name="xmu555-operator--operators"></a>XMU555 運算子 = 運算子
 

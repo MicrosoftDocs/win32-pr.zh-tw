@@ -4,12 +4,12 @@ description: 列出來自 Direct2D Debug 層的 debug 訊息。
 ms.assetid: ea7bfed8-370f-4aca-a483-a4a81890da17
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8db7e4b5766b5839757eda7264ad9b1129b38b5
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: df9c079604cfd30e6c426c6fa376221e94a9993f040d1b78580bc615751985d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183126"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119260468"
 ---
 # <a name="debug-messages"></a>Debug 訊息
 
@@ -75,7 +75,7 @@ ms.locfileid: "104183126"
 | [D1155： Fillopacitymask 反鋸齒](d1155.md)                                             | FillOpacityMask 需要將消除鋸齒模式設定為 D2D1 的鋸齒 \_ 消除 \_ 模式 \_ 。                                                                                                                                                                               | 資訊 |
 | [D1158：列印中的 Setunitmode](d1158.md)                                                    | Direct2D Print：傳送給列印的命令清單中出現不支援的 SetUnitMode (圖元) 命令。                                                                                                                                                                   | 資訊 |
 | [D1159：不正確 Commandlist 拓撲](d1159.md)                                            | 命令清單無法參考屬於效果圖形（使用命令清單）的效果。                                                                                                                                                                   | 資訊 |
-| [D1160：圖形中的迴圈](d1160.md)                                                          | 嘗試繪製具有迴圈的影像圖形。                                                                                                                                                                                                           | 錯誤       |
+| [D1160：迴圈 Graph](d1160.md)                                                          | 嘗試繪製具有迴圈的影像圖形。                                                                                                                                                                                                           | 錯誤       |
 | [D1161：從 Cpu 點陣圖複製](d1161.md)                                                    | 使用 D2D1 \_ 點陣圖 \_ 選項 \_ CPU READ 建立的點陣圖上不允許使用這個方法 \_ 。                                                                                                                                                                                    | 錯誤       |
 | [D1162： Fillmesh 反鋸齒](d1162.md)                                                    | FillMesh 需要將消除鋸齒模式設定為 D2D1 的鋸齒 \_ 消除 \_ 模式 \_ 。                                                                                                                                                                                      | 錯誤       |
 | [D1163：列印點陣圖太大](d1163.md)                                                    | 點陣圖太大而無法列印，請考慮將它分割成較小的磚。                                                                                                                                                                                              | 錯誤       |
@@ -177,11 +177,11 @@ ms.locfileid: "104183126"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

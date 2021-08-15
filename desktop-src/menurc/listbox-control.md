@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f9f062387463917438a988c3b023ca656beef722
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 676ea07f7d66a0d84997f0b2b22b9973c326db0fb603caedcc631caeffffaf98
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119226346"
 ---
 # <a name="listbox-control"></a>LISTBOX 控制項
 
@@ -60,6 +60,6 @@ LISTBOX 101, 10, 10, 100, 100
 [清單方塊](../controls/about-list-boxes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

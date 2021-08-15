@@ -1,17 +1,17 @@
 ---
-description: 深入瞭解藍牙服務 GUID。 本參考頁面描述 DeviceInterface 的 ServiceGuid 屬性。
+description: 瞭解藍牙服務 GUID。 本參考頁面描述 DeviceInterface。藍牙。ServiceGuid 屬性。
 ms.assetid: a6df61fa-5e6d-45cb-9012-e550fb1d08d4
-title: DeviceInterface 藍牙. ServiceGuid
+title: DeviceInterface。藍牙。ServiceGuid
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c8a8eea07a06e615dd5f0adbbf35a8074094ffc
-ms.sourcegitcommit: d0eb44d0a95f5e5efbfec3d3e9c143f5cba25bc3
+ms.openlocfilehash: 2d3583688ebf1bd63be42ace44e5446a8f43229fbcd68345be21171235c781af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2021
-ms.locfileid: "112261950"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970437"
 ---
-# <a name="systemdeviceinterfacebluetoothserviceguid"></a>DeviceInterface 藍牙. ServiceGuid
+# <a name="systemdeviceinterfacebluetoothserviceguid"></a>DeviceInterface。藍牙。ServiceGuid
 
 藍牙服務 GUID。
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2a15e7328140c8b7ce34e3ed79b257f697e3f1b9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 439fb176fef423bcb38947bbfc068bce6ebccd47e6dc0e70e7a0cf2cd0cb3b7d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970987"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119453978"
 ---
 # <a name="jet_dbinfomiscfshadowingdisabled-property"></a>JET_DBINFOMISC fShadowingDisabled 屬性
 

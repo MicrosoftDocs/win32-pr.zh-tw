@@ -4,12 +4,12 @@ ms.assetid: d70a3c2b-2f0e-4e29-9a8f-84a50d9f1682
 title: 建立轉換節點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f39eed9f49e10501fadc00f47b57cf95705a7cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc6cc0aff2d429cee2d9d3b175c57dacd773dc865f702e043386127b9104833d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510814"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119346898"
 ---
 # <a name="creating-transform-nodes"></a>建立轉換節點
 
@@ -128,7 +128,7 @@ HRESULT AddTransformNode(
 
 ## <a name="creating-a-transform-node-from-an-activation-object"></a>從啟用物件建立轉換節點
 
-有些 MFTs 會提供啟用物件。 例如， [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate) 函式會傳回 WINDOWS MEDIA 音訊 (WMA) 編碼器的啟用物件。 確切的函式取決於 MFT。 並非所有的 MFT 都提供啟用物件。 如需詳細資訊，請參閱 [啟用物件](activation-objects.md)。
+有些 MFTs 會提供啟用物件。 例如， [**MFCreateWMAEncoderActivate**](/windows/desktop/api/wmcontainer/nf-wmcontainer-mfcreatewmaencoderactivate)函式會傳回 Windows Media 音訊 (WMA) 編碼器的啟用物件。 確切的函式取決於 MFT。 並非所有的 MFT 都提供啟用物件。 如需詳細資訊，請參閱 [啟用物件](activation-objects.md)。
 
 您也可以藉由呼叫 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex) 函數來取得 MFT 啟用物件。
 

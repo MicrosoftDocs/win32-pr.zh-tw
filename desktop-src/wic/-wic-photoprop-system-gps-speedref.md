@@ -4,12 +4,12 @@ ms.assetid: 45fea6be-1e63-4244-a93d-d446e315ddd4
 title: SpeedRef 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c454a016dd77345c0a85e0ca3df1ae52694bd81
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c7b60a0c8decaf5ecc30f9017a0aadc61bb9fe4814240fb7ab2e022d6a2873f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119549488"
 ---
 # <a name="systemgpsspeedref-photo-metadata-policy"></a>SpeedRef 相片中繼資料原則
 

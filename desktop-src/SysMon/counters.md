@@ -15,12 +15,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbcbf8da93f13dce2ce2a290adeab9394ee8addb
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8349c1425450491c3fc658f6ac1ac3c5fcf75d3e617a92f6e34b91f2f5802e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883335"
 ---
 # <a name="counters-collection"></a>計數器集合
 
@@ -59,7 +59,7 @@ ms.locfileid: "106966944"
 | 屬性                                   | 描述                                                                                         |
 |:-------------------------------------------|:----------------------------------------------------------------------------------------------------|
 | [**計數**](counters-count.md)<br/> | 抓取集合中 [**CounterItem**](counteritem.md) 實例的數目。<br/>  |
-| [**項目**](counters-item.md)<br/>   | 從集合中抓取指定的 [**CounterItem**](counteritem.md) 實例。<br/> |
+| [**Item**](counters-item.md)<br/>   | 從集合中抓取指定的 [**CounterItem**](counteritem.md) 實例。<br/> |
 
 
 

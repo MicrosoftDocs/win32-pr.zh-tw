@@ -4,16 +4,16 @@ ms.assetid: 3aa1daa6-a63b-4e91-9fce-f1deb131fb45
 title: ConflictFirstLocation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f19ebd689904c41a4fa73b8acb368dbc18fde5a1
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 8de28306bf95771fbbfd696a42d50cb8da7a65ef0e590e4848b919f9b0395f39
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091536"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119396623"
 ---
 # <a name="systemsyncconflictfirstlocation"></a>ConflictFirstLocation
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

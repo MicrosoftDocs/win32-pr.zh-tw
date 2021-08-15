@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 9d9f85def6ba487163f7c4c7d7441a89e0747ed6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: de2554422ca9df16a1a1df98a5f4888e4914909885c6661818b0692b33b66763
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983055"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118963587"
 ---
 # <a name="iportabledevicevaluessetguidvalue-method"></a>IPortableDeviceValues：： SetGuidValue 方法
 

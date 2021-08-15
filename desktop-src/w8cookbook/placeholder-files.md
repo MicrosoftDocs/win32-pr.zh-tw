@@ -4,23 +4,23 @@ description: 預留位置檔案
 ms.assetid: E14655DA-CEA0-4106-B882-C9E9116FC234
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93c15037b0daec7a6521a299b6c4587c956e0be3
-ms.sourcegitcommit: 46376be61d3fa308f9b1a06d7e2fa122a39755af
+ms.openlocfilehash: a8891fef6c7fc54a66c093507b1831ab7cc6525ea96d685d06cf6fa8d9ded1e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/10/2020
-ms.locfileid: "106966895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119452498"
 ---
 # <a name="placeholder-files"></a>預留位置檔案
 
 ## <a name="platform"></a>平台
 
-**用戶端-** Windows 8.1  
+**用戶端-** Windows 8。1  
 **伺服器-** Windows Server 2012 R2  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-預留位置檔案可讓使用者不論連線能力，都能看到及管理 Microsoft OneDrive 檔案。 預留位置檔案代表 OneDrive 命名空間，即使檔案不是在本機快取。 它們包含相片的檔案中繼資料和縮圖影像。
+預留位置檔案可讓使用者不論連線能力，都能查看和管理 Microsoft OneDrive 檔案。 預留位置檔案代表 OneDrive 命名空間，即使檔案不是在本機快取。 它們包含相片的檔案中繼資料和縮圖影像。
 
 ## <a name="manifestation"></a>表現
 
@@ -30,7 +30,7 @@ ms.locfileid: "106966895"
 
 如果您的應用程式直接存取檔案系統，則您的應用程式可以使用下列指導方針來利用預留位置檔案。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 -   根據屬性，根據慣例隱藏預留位置
 -   使用重新分析標記識別項 IO 重新 \_ 分析 \_ 標記 \_ 檔案 \_ 預留位置來識別預留位置
@@ -69,9 +69,9 @@ bool IsFilePlaceholder(_In_PCWSTR filePath)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 提供者架構公用程式類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cab09c99fe2597cacd81e55a4ed18bd4e286ff16
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 254a1321ab835c86e7b4bf0e5cb14048be0352290707a61aaf993a9a6cc6e8dd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130980"
 ---
 # <a name="provider-framework-utility-classes"></a>提供者架構公用程式類別
 
@@ -34,7 +34,7 @@ ms.locfileid: "106985376"
  
 
 > [!Caution]  
-> Framedyd.dll 的提供者 debug 與 Framedyd 程式庫連結。 Framedyd.dll 位於 \\ 不包含在系統路徑中的 Microsoft Windows 軟體開發套件 (SDK) bin 目錄。 當提供者的偵錯工具組建經過 Windows 管理服務測試時，架構提供者將無法載入，因為不會有 Framedyd.dll 或其中一個相依性。 因此，您必須將 Framedyd.dll 從 Windows SDK \\ bin 目錄複寫到 \\ system32 \\ wbem 目錄，或將 Windows SDK \\ bin 目錄新增至系統搜尋路徑。
+> Framedyd.dll 的提供者 debug 與 Framedyd 程式庫連結。 Framedyd.dll 位於 \\ 不包含在系統路徑中的 Microsoft Windows 軟體開發套件 (SDK) bin 目錄。 當提供者的偵錯工具使用 Windows 管理服務進行測試時，架構提供者將無法載入，因為找不到 Framedyd.dll 或其中一個相依性。 因此，您必須將 Framedyd.dll 從 Windows SDK \\ bin 目錄複寫到 \\ system32 \\ wbem 目錄，或將 Windows SDK \\ bin 目錄新增至系統搜尋路徑。
 
  
 

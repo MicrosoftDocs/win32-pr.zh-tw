@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b3a88f0c1dae54cb5d9be1e4e9ad3e9677bdd958
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9057d1ff733c30da3b3b0d7e960607eadd033dcee0b26994478c6da9156a183e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954787"
 ---
 # <a name="cbaserenderersendrepaint-method"></a>CBaseRenderer. SendRepaint 方法
 

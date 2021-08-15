@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 850953b210ea11b9dd1000326d6793e3651ce538
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 012229ccb8cd259db6ec649717aaea5ef6c4ba94880dd01b24b6be91d7b9bfc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108090656"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119422178"
 ---
 # <a name="interrogateservice-method-of-the-win32_service-class-remote-desktop-services"></a>Win32_Service 類別的 InterrogateService 方法 (遠端桌面服務) 
 

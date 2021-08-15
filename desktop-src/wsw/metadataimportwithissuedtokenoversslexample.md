@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7922c8145489841543a7f69cac0abac06c95c78c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6ae41d6c957abeeb17cf0ee26be1dfe44cf0380559b0a8d9b527b5bb8bb90e98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119325738"
 ---
 # <a name="metadataimportwithissuedtokenoversslexample"></a>MetadataImportWithIssuedTokenOverSslExample
 
@@ -643,9 +643,9 @@ Exit:
 [同盟](federation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

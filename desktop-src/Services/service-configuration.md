@@ -4,12 +4,12 @@ ms.assetid: fc8c631e-076c-4745-8db0-90f46a202e6a
 title: 服務組態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5019469e17fdd0807aa101c7d1e4d6f6019da783
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 34f64b5cef835e1c7efef10c12555c81c132e707c8d1fb2814a7fcb95cf6d71c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118889078"
 ---
 # <a name="service-configuration"></a>服務組態
 

@@ -4,12 +4,12 @@ ms.assetid: 15d6b1ba-303d-4c56-a875-30edc8c343ab
 title: " (Direct3D 10 圖形) 的資源函式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 959c51498cc536805b0064392d1640f5feafc1ce
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6a0a9365d81ce49aaf7bc0343e8390108e381553b88534dcf1d736e5c8d5d626
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847154"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119379528"
 ---
 # <a name="resource-functions-direct3d-10-graphics"></a> (Direct3D 10 圖形) 的資源函式
 

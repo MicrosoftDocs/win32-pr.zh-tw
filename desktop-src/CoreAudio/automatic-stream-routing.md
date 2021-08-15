@@ -4,12 +4,12 @@ ms.assetid: 718CBEB9-A7A0-4898-81B7-CBD76AFA3A06
 title: 自動串流路由
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 87a9848c5fd764ee49e485fc112c35c347a0f84d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bd152db35c580d93cf76ccfaffd66b37225f2be7fae11f217a6895b289a58e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957387"
 ---
 # <a name="automatic-stream-routing"></a>自動串流路由
 
@@ -19,7 +19,7 @@ ms.locfileid: "103936495"
 
 從 Windows 10 版本1607開始，使用 WASAPI 的應用程式可以利用自動串流路由。 如果您的應用程式使用 WASAPI，強烈建議您使用下列步驟來更新應用程式，以利用這項新功能：
 
-1.  Windows 10 1607 版中，定義了兩個新的 Guid，可用來啟用具有自動串流路由的音訊轉譯或捕捉介面 [， \_ DEVINTERFACE \_ 音訊](/windows/desktop/CoreAudio/devinterface-xxx-guids) 轉譯和 [DEVINTERFACE \_ 音訊 \_ 捕獲](/windows/desktop/CoreAudio/devinterface-xxx-guids)。 藉由呼叫 [**StringFromIID**](/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid)來取得這些 guid 的字串表示。 下列範例顯示音訊轉譯 GUID 的這個呼叫。
+1.  Windows 10 1607 版中，定義了兩個新的 guid，可用來啟用具有自動串流路由的音訊轉譯或捕捉介面[， \_ DEVINTERFACE \_ 音訊](/windows/desktop/CoreAudio/devinterface-xxx-guids)轉譯和[DEVINTERFACE \_ 音訊 \_ 捕獲](/windows/desktop/CoreAudio/devinterface-xxx-guids)。 藉由呼叫 [**StringFromIID**](/windows/desktop/api/combaseapi/nf-combaseapi-stringfromiid)來取得這些 guid 的字串表示。 下列範例顯示音訊轉譯 GUID 的這個呼叫。
 
     ```C++
     PWSTR audioRenderGuidString;

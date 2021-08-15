@@ -11,7 +11,7 @@
               href: embedding-the-remote-desktop-activex-control-in-a-web-page.md
             - name: 使用遠端桌面網頁連線來執行可編寫腳本的虛擬通道
               href: implementing-scriptable-virtual-channels-using-remote-desktop-web-connection.md
-            - name: 使用具有虛擬通道的遠端桌面 ActiveX 控制項
+            - name: 使用遠端桌面 ActiveX 控制項搭配虛擬通道
               href: using-the-remote-desktop-activex-control-with-virtual-channels.md
             - name: 遠端桌面 ActiveX 控制項隨附的範例網頁
               href: sample-web-page-included-with-the-remote-desktop-activex-control.md
@@ -22,7 +22,7 @@
         - name: 遠端桌面 ActiveX 控制項參考
           href: remote-desktop-activex-control-reference.md
           items:
-            - name: 遠端桌面 ActiveX 控制項介面
+            - name: 遠端桌面 ActiveX 控制介面
               href: remote-desktop-web-connection-reference.md
               items:
                 - name: IMsRdpCameraRedirConfig
@@ -806,7 +806,7 @@
                     - name: IMsTscAx 方法
                       href: imstscax-methods.md
                       items:
-                        - name: Connect 方法
+                        - name: 連線方法
                           href: imstscax-connect.md
                         - name: CreateVirtualChannels 方法
                           href: imstscax-createvirtualchannels.md
@@ -962,7 +962,7 @@
                       items:
                         - name: attachEvent 方法
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-attachevent
-                        - name: Connect 方法
+                        - name: 連線方法
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-connect
                         - name: DeleteSavedCredentials 方法
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-deletesavedcredentials
@@ -979,7 +979,7 @@
                       items:
                         - name: 動作屬性
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_actions
-                        - name: Settings 屬性
+                        - name: 設定屬性
                           href: iremotedesktopclient-settings.md
                         - name: TouchPointer 屬性
                           href: /windows/desktop/api/rdpappcontainerclient/nf-rdpappcontainerclient-iremotedesktopclient-get_touchpointer
@@ -1737,18 +1737,18 @@
               items:
                 - name: WRdsGraphicsChannelType
                   href: /windows/win32/api/wrdsgraphicschannels/ne-wrdsgraphicschannels-wrdsgraphicschanneltype
-    - name: RemoteFX 媒體重新導向 API
+    - name: RemoteFX媒體重新導向 API
       href: remotefx-api.md
       items:
-        - name: RemoteFX 媒體重新導向 API 參考
+        - name: RemoteFX媒體重新導向 API 參考
           href: remotefx-media-redirection-api-reference.md
           items:
-            - name: RemoteFX 媒體重新導向 API 函式
+            - name: RemoteFX媒體重新導向 API 函式
               href: remotefx-media-redirection-api-functions.md
               items:
                 - name: WTSSetRenderHint
                   href: /windows/desktop/api/WtsHintApi/nf-wtshintapi-wtssetrenderhint
-            - name: RemoteFX 媒體重新導向 API 介面
+            - name: RemoteFX媒體重新導向 API 介面
               href: remotefx-media-redirection-api-interfaces.md
               items:
                 - name: IWTSBitmapRenderer
@@ -1775,7 +1775,7 @@
                   items:
                     - name: GetService 方法
                       href: /windows/desktop/api/tsvirtualchannels/nf-tsvirtualchannels-iwtspluginserviceprovider-getservice
-            - name: RemoteFX 媒體重新導向 API 結構
+            - name: RemoteFX媒體重新導向 API 結構
               href: remotefx-media-redirection-api-structures.md
               items:
                 - name: BITMAP_RENDERER_STATISTICS
@@ -1936,9 +1936,9 @@
               href: terminal-services-is-now-remote-desktop-services.md
             - name: Windows 7 的新功能
               href: what-s-new-in-windows-7.md
-            - name: Windows Server 2008 R2 的新功能
+            - name: Windows Server 2008 R2 中的新功能
               href: what-s-new-in-windows-server-2008-r2.md
-            - name: Windows Server 2008 的新功能
+            - name: Windows Server 2008 中的新功能
               href: what-s-new-in-windows-server-2008.md
             - name: Windows Vista 的新功能
               href: what-s-new-in-windows-vista.md

@@ -4,12 +4,12 @@ description: COM 中的錯誤處理
 ms.assetid: 15f3ae3e-1794-4948-a7aa-6309a703364b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19af496eabf50833c99d462ff074254bc39bb7a0
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 7953a970e470f5ae2c04b6a22c07f1de4fe663b100485732050b13c12a00b559
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104464169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119381908"
 ---
 # <a name="error-handling-in-com-com"></a>COM (COM) 中的錯誤處理
 

@@ -4,12 +4,12 @@ ms.assetid: 1fb6ac67-55bf-48f9-9571-cad14545cdfa
 title: 系統資訊宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1abb22deff840b9c5591fa469455890751728d12
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e773d88e299ec9e8d7faea292097d3018a6e69032c614a014af853efb363c1dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118884803"
 ---
 # <a name="system-information-macros"></a>系統資訊宏
 

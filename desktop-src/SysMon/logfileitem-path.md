@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d503df9f3c992e66ee822690bf417ee54fdda3f6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fca514cb88f60aef7b04605e6d6c2177c7fd3f89ce354cb2e530ec57398a6bd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968373"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883227"
 ---
 # <a name="logfileitempath-property"></a>LogFileItem：:P 路徑 a) 屬性
 
@@ -49,8 +49,8 @@ Property Path As String
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | DLL<br/>                      | <dl> <dt>Sysmon .ocx</dt> </dl> |
 
 

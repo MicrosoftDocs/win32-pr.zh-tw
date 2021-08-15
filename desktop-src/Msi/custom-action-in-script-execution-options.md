@@ -4,12 +4,12 @@ ms.assetid: 6c608151-cdbe-4424-9b16-6dbff28190ab
 title: 自訂動作 In-Script 執行選項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39f779d117196164a1c0738a6cee3aa48b3b0a96
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2a267571af50c14ab2b2c9133f7397e3f223e29db0c6e94944907a86b7296800
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119388238"
 ---
 # <a name="custom-action-in-script-execution-options"></a>自訂動作 In-Script 執行選項
 

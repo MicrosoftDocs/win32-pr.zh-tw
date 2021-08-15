@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef7e7348e73e3550ed668f6694ccfe9ed615215b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab885a8505f3637d21f4a406e5a7c324ee6b9ec90e5ad0434a385e321072ccaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135151"
 ---
 # <a name="mediagetiteminfo-method"></a>GetItemInfo 方法
 
@@ -45,7 +45,7 @@ strRetVal = Media.getItemInfo(
 *名稱* \[在\]
 </dt> <dd>
 
-包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player [屬性參考](attribute-reference.md)。
+包含屬性名稱的 **字串**。 如需 Windows Media Player 所支援之屬性的詳細資訊，請參閱 Windows Media Player[屬性參考](attribute-reference.md)。
 
 </dd> </dl>
 
@@ -63,15 +63,15 @@ strRetVal = Media.getItemInfo(
 
 若要使用此方法，需要有程式庫的讀取權限。 如需詳細資訊，請參閱連結 [庫存取](library-access.md)。
 
-若要透過 UPnP 共用 Windows media library，Windows Media Player 建立內容目錄服務 (透過 UPnP 公開的 CD) 。 其他裝置則可以流覽和流覽程式庫。
+為了透過 upnp 共用 Windows 媒體程式庫，Windows Media Player 會建立內容目錄服務， (透過 upnp 公開的 cd) 。 其他裝置則可以流覽和流覽程式庫。
 
-在 Windows 7 中，應用程式可以使用 Windows Media Player [**TrackingID**](trackingid-attribute.md) 和 [**媒體**](mediatype-attribute.md) 型屬性來為 cd 中的每個專案建立物件識別碼。 請注意，在未來的 Windows 版本中，此結構可能會變更。 應用程式會在 **getItemInfo** 的呼叫中，傳遞 *name* 參數中的每個屬性字串。 **getItemInfo** 會傳回傳回值中每個屬性的值。 然後，應用程式會使用下列語法來建立每個物件識別碼：
+在 Windows 7 中，應用程式可以使用 Windows Media Player [**TrackingID**](trackingid-attribute.md)和 [**媒體**](mediatype-attribute.md)型屬性來為 cd 中的每個專案建立物件識別碼。 請注意，在未來的 Windows 版本中，此結構可能會變更。 應用程式會在 **getItemInfo** 的呼叫中，傳遞 *name* 參數中的每個屬性字串。 **getItemInfo** 會傳回傳回值中每個屬性的值。 然後，應用程式會使用下列語法來建立每個物件識別碼：
 
 *TrackingID*。0。*MediaTypeID*
 
 此語法具有下列意義：
 
--   *TrackingID* 是儲存在媒體專案的 Windows Media Player [**TrackingID**](trackingid-attribute.md) 屬性中的字串。
+-   *TrackingID* 是儲存在媒體專案的 Windows Media Player [**TrackingID**](trackingid-attribute.md)屬性中的字串。
 -   *MediaTypeID* 取決於 [ [**媒體**](mediatype-attribute.md) ] 屬性的值，如下表所示：
 
     | 媒體屬性                      | MediaTypeID |

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 InParameters 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fbf9a351caec1ca7af3113bead4078670c88a5f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0bc13a51687954331a050337fe785bab29b23ee9c72785ffde78d4f8a8e0d198
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131580"
 ---
 # <a name="constructing-inparameters-objects"></a>建立 InParameters 物件
 
@@ -20,7 +20,7 @@ ms.locfileid: "103848749"
 
 **若要建立 *objwbemInParams* 參數**
 
-1.  連接到 WMI。
+1.  連線至 WMI。
 2.  取得 WMI 類別的定義，以定義您想要執行的方法。
 3.  取得您想要執行之 WMI 類別方法特定的 [**InParameters**](swbemmethod-inparameters.md) 物件。
 

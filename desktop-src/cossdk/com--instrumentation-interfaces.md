@@ -4,12 +4,12 @@ ms.assetid: 009aa503-3fcd-4046-9a74-23a1a9c23e6a
 title: COM + 檢測介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250e44e0283ccd44bbaa421d22ff1612fa5fb1c1
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: e83e8f81fd2d8ea2c092a974e842c900506bb4b637eb94a07b5be48afbb68bea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129200"
 ---
 # <a name="com-instrumentation-interfaces"></a>COM + 檢測介面
 
@@ -26,7 +26,7 @@ COM + 檢測計量會使用 [Com + 事件](com--events.md)、鬆散結合的事�
 | [**IComApp2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events)<br/>                                                                               | 使用者會執行 [**IComApp2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomapp2events) ，以便在 com + 伺服器應用程式載入、關閉或暫停時收到通知。 如果應用程式標示為回收，也會通知訂閱者。<br/>                                                                                          |
 | [**IComCRMEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents)<br/>                                                                                 | 使用者會執行 [**IComCRMEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomcrmevents) ，以在補償 RESOURCE MANAGER (CRM) 復原開始或完成時收到通知。 <br/>                                                                                                                                                          |
 | [**IComExceptionEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents)<br/>                                                                     | 使用者會執行 [**IComExceptionEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomexceptionevents) ，以便在交易元件中發生使用者例外狀況時收到通知。 <br/>                                                                                                                                                        |
-| [**IComIdentityEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)<br/>                                                                       | [**IComIdentityEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)介面會將屬於 INTERNET INFORMATION SERVICES (IIS) Active Server PAGES (ASP) 頁面的活動通知訂閱者。<br/>                                                                                                                   |
+| [**IComIdentityEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)<br/>                                                                       | [**IComIdentityEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomidentityevents)介面會將屬於 Internet Information Services (IIS) Active Server Pages (ASP) 頁面的活動通知訂閱者。<br/>                                                                                                                   |
 | [**IComInstanceEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents) <br/> [**IComInstance2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events)<br/>        | [**IComInstanceEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstanceevents)或 [**IComInstance2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icominstance2events)介面會通知訂閱者物件的建立或發行。<br/>                                                                                                                               |
 | [**IComMethodEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethodevents) <br/> [**IComMethod2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethod2events)<br/>                | 使用者會執行 [**IComMethodEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethodevents) 或 [**IComMethod2Events**](/windows/desktop/api/ComSvcs/nn-comsvcs-icommethod2events) ，以在物件的方法被呼叫、傳回或產生例外狀況時收到通知。<br/>                                                                                                      |
 | [**IComObjectConstructionEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstructionevents)<br/>                                                   | 如果已在物件集區中建立結構化物件， [**IComObjectConstructionEvents**](/windows/desktop/api/ComSvcs/nn-comsvcs-icomobjectconstructionevents) 介面會通知訂閱者。<br/>                                                                                                                                               |

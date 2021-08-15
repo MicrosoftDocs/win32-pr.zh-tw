@@ -4,12 +4,12 @@ ms.assetid: 42c19920-c7f7-4a4d-9de3-3de9a34fbe0c
 title: 低層級訊息函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22654f19dfe5178dfb98006c17c2d0536f78cd46
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9ee5aaf91fe52a727404ecd3417922e239642c6d445a6674044cc95ebd286a5e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119408398"
 ---
 # <a name="low-level-message-functions"></a>低層級訊息函數
 

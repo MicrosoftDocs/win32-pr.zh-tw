@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 提供者事件疑難排解類別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 62ed8c02cf70078ae3b6f42d1c45e2d40efeabe2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6530543abd63d656c13b77fdf5138b64079886fd7e1906dd9a8692f705659343
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975309"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131010"
 ---
 # <a name="provider-event-troubleshooting-classes"></a>提供者事件疑難排解類別
 

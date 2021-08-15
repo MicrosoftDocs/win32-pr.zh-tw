@@ -3,7 +3,7 @@ title: 'MCIWNDM_GET_SOURCE 訊息 (Vfw .h) '
 description: MCIWNDM \_ 取得 \_ 來源訊息會抓取來源矩形的座標，此來源矩形用於在播放期間裁剪 AVI 檔案的影像。 您可以使用 MCIWndGetSource 宏明確地傳送此訊息。
 ms.assetid: d5f25926-5a3d-412e-8248-fbf307583757
 keywords:
-- MCIWNDM_GET_SOURCE message Windows 多媒體
+- MCIWNDM_GET_SOURCE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 85147182d06386efed73229fcdd6c75372244fd6
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4ef8bcbaf0909adeae5345448769c68e726456a4bbf4375f08d874e3502ab6a2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119429398"
 ---
 # <a name="mciwndm_get_source-message"></a>MCIWNDM \_ 取得 \_ 來源訊息
 

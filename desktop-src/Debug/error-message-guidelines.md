@@ -4,12 +4,12 @@ ms.assetid: 361833e4-b94f-4ef9-a8f5-adf543534a67
 title: 錯誤訊息指導方針
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1787eabd43d660322577ac766880d76854c574e7
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 14ceb2c89826ce45f39fdce2d0102e847c00245ba62ec3522e83725944b7f421
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119343488"
 ---
 # <a name="error-message-guidelines"></a>錯誤訊息指導方針
 

@@ -3,7 +3,7 @@ title: 'LVM_SETOUTLINECOLOR 訊息 (Commctrl .h) '
 description: 如果 \_ \_ 已設定 lvs) EX BORDERSELECT 擴充視窗樣式，則設定清單視圖控制項框線的色彩。
 ms.assetid: c2b606fa-8d47-4192-94b7-d01c3cfdc514
 keywords:
-- LVM_SETOUTLINECOLOR message Windows 控制項
+- LVM_SETOUTLINECOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 776cb13479e4d091d394941844691c117a4ebbef
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 5db9f5d53339ecec19fd6f06fcabd3a0471b1c3a569e8856571a98a99675a232
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119217388"
 ---
 # <a name="lvm_setoutlinecolor-message"></a>LVM \_ SETOUTLINECOLOR 訊息
 
@@ -52,8 +52,8 @@ ms.locfileid: "103843091"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

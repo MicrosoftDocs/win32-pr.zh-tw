@@ -4,12 +4,12 @@ ms.assetid: 90dbbd70-3609-4c12-bdc1-7fa222c96f67
 title: Windows 應用程式的國際化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83f6e4952c94af3b14dc0e8f4f135c1cc0cebafc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f78f4831390ffc31a5f3290f0784d32c3aa1044863c708e6e0329225519c2cae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119147541"
 ---
 # <a name="internationalization-for-windows-applications"></a>Windows 應用程式的國際化
 
@@ -17,16 +17,16 @@ ms.locfileid: "103690844"
 
 本節說明 Windows 中的技術，可讓您在 C 或 c + + 型 Microsoft Win32 應用程式中支援國際市場的許多文化特性和書寫語言。
 
-Windows 已成為全球客戶的基本平臺。 國際使用者期待的解決方案是針對其在世界各地的語言和區域進行調整。 在本節中，您將找到開發多語系、多重文化和多網站解決方案所需的資訊。 Windows 內建的國際支援可讓您以比以往更少的工程額外負荷來實行許多案例。
+Windows 已成為全球客戶的必要平臺。 國際使用者期待的解決方案是針對其在世界各地的語言和區域進行調整。 在本節中，您將找到開發多語系、多重文化和多網站解決方案所需的資訊。 Windows 內建的國際化支援，可讓您以比以往更少的工程額外負荷來實行許多案例。
 
-開發全球化應用程式需要使用許多服務和工具。 Windows 包含的功能可讓您開發下列解決方案：
+開發全球化應用程式需要使用許多服務和工具。 Windows 包含可讓您開發解決方案的功能：
 
 - 支援世界各地使用者的不同語言特定和地區設定特有的需求 (包括特製化文字支援、排序行為、日期和時間格式，以及鍵盤配置) 。  (需詳細資訊，請參閱 [國家語言支援知識中心](./national-language-support-reference.md)。 ) 
-- 全球化 (可從單一二進位影像部署) ，而且可以當地語系化 (可以針對特定的當地市場) 進行調整。  (需詳細資訊，請參閱 [多語系消費者介面](./multilingual-user-interface.md)。 ) 
-- 顯示國際字型和文字，並允許使用者指定所需的字型。  (需詳細資訊，請參閱 [Windows 中的腳本與字型支援](/globalization/input/font-support)) 。
+- 全球化 (可從單一二進位影像部署) ，而且可以當地語系化 (可以針對特定的當地市場) 進行調整。  (需詳細資訊，請參閱[多語系消費者介面](./multilingual-user-interface.md)。 ) 
+- 顯示國際字型和文字，並允許使用者指定所需的字型。  (需詳細資訊，請參閱[Windows 中的腳本與字型支援](/globalization/input/font-support)。 ) 
 - 允許使用者使用標準鍵盤輸入複雜的字元和符號。
 - 透過 Unicode 和傳統字元集，提供許多不同書寫語言的支援。
-- 探索使用者的語言輸入，並量身打造您的應用程式所提供的使用者體驗。  (需詳細資訊，請參閱 [在 windows 中撰寫可供世界用的應用程式： windows 中的擴充語言服務](./using-extended-linguistic-services.md)。 ) 
+- 探索使用者的語言輸入，並量身打造您的應用程式所提供的使用者體驗。  (需詳細資訊，請參閱[在 Windows 中撰寫可供世界的應用程式： Windows 中的擴充語言服務](./using-extended-linguistic-services.md)) 
 
 ## <a name="in-this-section"></a>本章節內容
 
@@ -64,7 +64,7 @@ Windows 已成為全球客戶的基本平臺。 國際使用者期待的解決�
 
 - [國際字型和文字顯示](international-fonts-and-text-display.md)
 
-    描述 Windows 平臺針對國際字型提供的支援、國際文字，以及精細的印刷樣式。
+    描述 Windows 平臺提供的國際字型、國際文字和精細的印刷支援。
 
     常見案例：
 

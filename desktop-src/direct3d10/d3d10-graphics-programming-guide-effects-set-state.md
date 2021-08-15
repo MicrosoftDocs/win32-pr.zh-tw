@@ -4,12 +4,12 @@ ms.assetid: 743261a8-fdd8-492e-be8a-4faeb9b6f986
 title: '設定效果狀態 (Direct3D 10) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6df7133276b6392abca8d75eed16de896fb58f84
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 7cfdaa20ca2bc8f206b550a9d1554989fe45b9cead06315a7b4bb7369adecaa6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404721"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119380418"
 ---
 # <a name="set-effect-state-direct3d-10"></a>設定效果狀態 (Direct3D 10) 
 

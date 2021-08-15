@@ -1,7 +1,7 @@
 ---
 description: 通知系統應用程式已儲存其資料，並已準備好暫停。
 ms.assetid: 5C79AFBA-34E6-4C0B-95A0-731E10D8A17A
-title: 'ISuspendingDeferral：： Complete 方法 (ApplicationModel .h) '
+title: 'ISuspendingDeferral：： Complete 方法 (Windows。ApplicationModel .h) '
 ms.topic: reference
 ms.date: 05/31/2018
 topic_type:
@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Windows.ApplicationModel.h
-ms.openlocfilehash: 62febd5fac6aab4a0c5ddd7e6a70fa0e3c3f78ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8fb16ae67ad5dcd9324c176a39a0dc9e566638ed960443496a0d556990bd8717
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970608"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119464398"
 ---
 # <a name="isuspendingdeferralcomplete-method"></a>ISuspendingDeferral：： Complete 方法
 
@@ -49,8 +49,8 @@ HRESULT Complete();
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 8<br/>                                                                                    |
 | 最低支援的伺服器<br/> | Windows Server 2012<br/>                                                                          |
-| 標頭<br/>                   | <dl> <dt>ApplicationModel。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>ApplicationModel .idl</dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Windows。ApplicationModel。h</dt> </dl>   |
+| Idl<br/>                      | <dl> <dt>Windows。ApplicationModel .idl</dt> </dl> |
 
 
 

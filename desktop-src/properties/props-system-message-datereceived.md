@@ -4,12 +4,12 @@ ms.assetid: de222d2f-1825-45a5-b899-45b4c2ab6f2c
 title: DateReceived
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c87f45974dcf474926241dd6d1dbe239a07b575
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eaaf947ca7643ff96a2a27d001405f335a8be3d17fce9c46df4e90185b23b5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192519"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118970297"
 ---
 # <a name="systemmessagedatereceived"></a>DateReceived
 

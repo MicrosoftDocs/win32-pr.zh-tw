@@ -49,12 +49,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5f761d7ef18ef7e27a46d6b5e8a5a00442752561
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 2066d2f592d4d1d2dac50aee868da233bd41dd71b635b17744d4d3abe9a76595
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972795"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119547828"
 ---
 # <a name="cim_tachometer-class"></a>CIM \_ 轉速計類別
 
@@ -139,7 +139,7 @@ class CIM_Tachometer : CIM_NumericSensor
 
 <dl> <dt>
 
-**精確度**
+**精度**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: ea50cb6bf8c3f5b08d408539eba6c9f7cb09efc1
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e72c02ed1bc8f29ed8809a7a4733914860a6c9c058795f8a02661f29b9607f69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119459958"
 ---
 # <a name="id3dxbaseeffectgetvector-method"></a>ID3DXBaseEffect：： GetVector 方法
 

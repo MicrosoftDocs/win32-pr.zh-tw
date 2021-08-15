@@ -22,12 +22,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 3b7267e3ac03c14cfc6ad6ca73ede42cc8478b41
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 5d7237d83c298916045b4bd0443eadc3048c94dc7ad028a1bd7bfa993c4ce764
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119391748"
 ---
 # <a name="win32_environment-class"></a>Win32 \_ 環境類別
 
@@ -35,7 +35,7 @@ ms.locfileid: "103847589"
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **Sessionmanager** \\ **環境**
 
-及
+以及
 
 **HKEY \_使用者** \\ **< 使用者 >** \\ **環境**
 
@@ -278,7 +278,7 @@ class Win32_Environment : CIM_SystemResource
 限定詞： [**key**](/windows/desktop/WmiSdk/key-qualifier)、 [**MaxLen**](/windows/desktop/WmiSdk/standard-qualifiers) (260) 、 [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "Win32Registry \| System \\ \\ CurrentControlSet \\ \\ Control \\ \\ Session Manager \\ \\ 環境" ) 
 </dt> </dl>
 
-環境設定的擁有者名稱。 它會設定為，以 <SYSTEM> 針對 Windows 系統 (特定的設定，而不是特定使用者) 和 <DEFAULT> 預設使用者設定。
+環境設定的擁有者名稱。 它會設定為，以 <SYSTEM> 針對 Windows 型系統 (的設定，而不是特定使用者) 和 <DEFAULT> 預設使用者設定的設定。
 
 範例： "JSmith"
 
@@ -308,11 +308,11 @@ class Win32_Environment : CIM_SystemResource
 
 **HKEY \_本機 \_ 電腦** \\ **System** \\ **CurrentControlSet** \\ **Control** \\ **Sessionmanager** \\ **環境**
 
-及
+以及
 
 **HKEY \_使用者** \\ **< 使用者 >** \\ **環境**
 
-使用這個類別的呼叫進程必須在登錄所在的電腦上具有「 **SE \_ 還原 \_ 名稱** 」許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
+使用這個類別的呼叫進程必須在登錄所在的電腦上具有 **SE \_ RESTORE \_ NAME** 許可權。 例如，如果您在本機電腦上列舉此類別，您的應用程式執行所在的帳戶必須具有此許可權。 如需詳細資訊，請參閱 [執行特殊許可權作業](/windows/desktop/WmiSdk/executing-privileged-operations)。
 
 ## <a name="examples"></a>範例
 

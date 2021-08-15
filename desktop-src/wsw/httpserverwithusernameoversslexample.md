@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f29a74f8ce41a48a91310b3990619be7eec7619e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3f0b8cff8203816280f36246400047ee046f82ff4d7d4eab97ea86f9e3e8a08a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119344878"
 ---
 # <a name="httpserverwithusernameoversslexample"></a>HttpServerWithUsernameOverSslExample
 
@@ -680,9 +680,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

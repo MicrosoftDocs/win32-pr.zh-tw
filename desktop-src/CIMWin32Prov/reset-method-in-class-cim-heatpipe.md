@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: eaabc17e1d96362ce565a96062da893b2bd83274
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 19bb88066f9422903a139c2641df05cd01a79f0478dbb38775827f9154c13d61
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119218058"
 ---
 # <a name="reset-method-of-the-cim_heatpipe-class"></a>CIM HeatPipe 類別的 Reset 方法 \_
 

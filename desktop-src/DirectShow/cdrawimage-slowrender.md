@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: b736bf6c44d4ada6e0a28408c449c9f8b2f1e1cb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: db138093695787ce0cfb2d37133581bfc10ba3a729b924f8e380be170b54bc9e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119384108"
 ---
 # <a name="cdrawimageslowrender-method"></a>CDrawImage. SlowRender 方法
 

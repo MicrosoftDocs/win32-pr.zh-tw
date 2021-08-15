@@ -4,12 +4,12 @@ ms.assetid: f84978a8-8315-4626-be68-f00f3a72e5ac
 title: '範本 (X 檔案格式，文字編碼) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fccec46e72a73bb5ed4434fd252595e1b072ad4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: a719278893c771818df029e13b2d7221c6ca0ccdcb0869b9966a737793981176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687372"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119373508"
 ---
 # <a name="templates-x-file-format-text-encoding"></a>範本 (X 檔案格式，文字編碼) 
 

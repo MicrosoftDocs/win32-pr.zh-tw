@@ -4,12 +4,12 @@ ms.assetid: 2d616b56-4b6a-4c3b-bbd8-d5ca03c4911f
 title: COM + 服務入門
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9fd9d256b0213d3b1c58cae7d9670f87e4f4423
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: faa10e1fe951c883149f5870515839cfbece1b3cf919ecd043971d70a99d6e9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317912"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129030"
 ---
 # <a name="com-services-primer"></a>COM + 服務入門
 
