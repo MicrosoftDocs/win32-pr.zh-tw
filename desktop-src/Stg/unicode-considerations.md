@@ -46,7 +46,7 @@ WriteFmtUserTypeStg(pIStorage, m_ClipBdFmt, TEXT(CLIPBDFMT_STR));
 
 配置會使用代理服務呼叫函式。 ANSI 版本的呼叫以 A 為開頭 \_ 。 這些代理的 ANSI 函數會在 Apputil 中執行。 當針對 ANSI 字串編譯器代碼範例時，會使用這些值， (makefile) 中的預設值。 代理程式所取代的服務函式只支援 Unicode 字串參數。 這會強制將某些字串從 ANSI 轉換成 Unicode，然後才在代理內進行實際的 COM/OLE 服務呼叫。
 
-例如，如果在編譯期間未定義 UNICODE，則宏實際上會將範例中的任何呼叫 **WriteFmtUserTypeStg** COM 服務函式變更為 WriteFmtUserTypeStg 函式 \_ 的呼叫，該函數會在 APPUTIL 中執行。Cpp。 此函式會接受輸入 ANSI 字串指標、將其轉換為 Unicode 複本，並在實際 **WriteFmtUserTypeStg** 函式的呼叫中，將該 Unicode 複本傳遞為字串參數。
+例如，如果在編譯期間未定義 UNICODE，則宏實際上會將範例中的任何呼叫 **WriteFmtUserTypeStg** COM 服務函式變更為 WriteFmtUserTypeStg 函式 \_ 的呼叫，該函數會在 APPUTIL 中執行。CPP。 此函式會接受輸入 ANSI 字串指標、將其轉換為 Unicode 複本，並在實際 **WriteFmtUserTypeStg** 函式的呼叫中，將該 Unicode 複本傳遞為字串參數。
 
 以下是 \_ Apputil 中的 WriteFmtUserTypeStg。
 

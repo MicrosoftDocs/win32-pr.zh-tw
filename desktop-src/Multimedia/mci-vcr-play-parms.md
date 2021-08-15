@@ -93,7 +93,7 @@ typedef struct tagMCI_VCR_PLAY_PARMS {
 
 <dl> <dt>
 
-[**Mci**](mci.md)
+[**MCI**](mci.md)
 </dt> <dt>
 
 [**MCI 結構**](mci-structures.md)

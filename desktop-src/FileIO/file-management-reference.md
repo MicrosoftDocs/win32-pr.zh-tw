@@ -4,12 +4,12 @@ ms.assetid: 7a274843-f02c-436c-a220-c9e504620877
 title: 檔案管理參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c7c58906bc95237f33d4b48643acaecde6c9ca8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e1f09c3d229a8ede0fa6db72be0cf7231c833a28d0792a44099e083efc5c642
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848673"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117997252"
 ---
 # <a name="file-management-reference"></a>檔案管理參考
 

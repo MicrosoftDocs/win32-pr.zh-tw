@@ -4,16 +4,16 @@ description: IAgentCommandsEx SetFontSize
 ms.assetid: 095f78d2-ef91-4880-ad49-dd9a94f02891
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19bb9a638141dc3cebe683748500510ea848a664
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: b92319178f2fbceb7b2e0cad9bdb35b740ebeaf108f864edb84b4413353e85e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104463016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477200"
 ---
 # <a name="iagentcommandsexsetfontsize"></a>IAgentCommandsEx::SetFontSize
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT SetFontSize(
@@ -43,6 +43,6 @@ HRESULT SetFontSize(
 [**IAgentCommandsEx：： GetFontSize**](iagentcommandsex--getfontsize.md)、 [**IAgentCommandsEx：： GetFontName**](iagentcommandsex--getfontname.md)、 [**IAgentCommandsEx：： SetFontName**](iagentcommandsex--setfontname.md)
 
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 39cea5692e29ead74ba20c4a35ab8d43a1b19d42
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 11573dc84c46149073ca3a7e192ed8541d9cfd4a78494a43f6130a7999534880
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118508674"
 ---
 # <a name="texture1darray"></a>Texture1DArray
 
@@ -41,7 +41,7 @@ Texture1DArray 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -55,19 +55,19 @@ Texture1DArray 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)
 
 
 
- 
+ 
 
 下列著色器類型支援此物件：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -76,9 +76,9 @@ Texture1DArray 類型 ([存在於著色器模型 4](dx-graphics-hlsl-to-type.md)
 [著色器模型5物件](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

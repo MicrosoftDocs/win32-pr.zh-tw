@@ -4,12 +4,12 @@ ms.assetid: 3e235f9e-e91a-4f4b-b564-a13e46b435fc
 title: 輔助電話語音功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e038a2b49d29dfb6c8b800041e399635d85c7c31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 926b89910a1f656cdb415c3840d493cc2f3447297a04b94c60913b5fd8d8737b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967174"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117948958"
 ---
 # <a name="assisted-telephony-functions"></a>輔助電話語音功能
 

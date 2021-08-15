@@ -1,5 +1,5 @@
 ---
-title: CPROPS.Cpp
+title: CPROPS.CPP
 description: 在範例提供者元件中，可以在 cprops 中找到屬性快取執行的範例。 下表列出支援的方法。
 ms.assetid: 51c9aa05-ca30-4d61-b3e3-d2f17a02b28f
 ms.tgt_platform: multiple
@@ -12,7 +12,7 @@ ms.contentlocale: zh-TW
 ms.lasthandoff: 08/11/2021
 ms.locfileid: "118428997"
 ---
-# <a name="cpropscpp"></a>CPROPS.Cpp
+# <a name="cpropscpp"></a>CPROPS.CPP
 
 在範例提供者元件中，可以在 cprops 中找到屬性快取執行的範例。 下表列出支援的方法。
 

@@ -4,12 +4,12 @@ ms.assetid: dc5859b9-f4b4-4ed7-93d5-369a3d2b9805
 title: DirectoryListNew ControlEvent
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2c99ce9398cb2780ab6042acb6ad6eaeeff83f6c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 281835954c947e4bcaaf6e4e2019cbd422151e6cca39b83fa84a0abe0db010cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980101"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378898"
 ---
 # <a name="directorylistnew-controlevent"></a>DirectoryListNew ControlEvent
 

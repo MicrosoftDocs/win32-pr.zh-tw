@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3fbf038d16d05933fe889fc7d4088708765173dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 881fa5f6428e85a089fb914e4a4b7dadf36415d1c2c67a0c58ce6d66974853e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118385466"
 ---
 # <a name="i-switch"></a>/i 參數
 

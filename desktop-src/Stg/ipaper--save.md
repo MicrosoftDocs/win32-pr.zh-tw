@@ -4,12 +4,12 @@ description: 此範例程式碼中的主要焦點是 COPaper 可以如何載入�
 ms.assetid: 62154658-ff47-425f-94da-ee2806de5318
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96ea49f194e64ab3f0cfd78569b1e6ff9ddee577
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 52772002fe8f0ed234a4f430eaff4328f96f9d1ef151e83da3f4aa3e255dba09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961368"
 ---
 # <a name="ipapersave"></a>IPaper：： Save
 
@@ -130,9 +130,9 @@ STGM \_ CREATE \| STGM \_ WRITE \| STGM \_ DIRECT \| STGM \_ SHARE \_ EXCLUSIVE
 
 **Save** 方法也會在 COPaper 內部 NotifySinks 方法中呼叫用戶端 [**IPaperSink**](ipapersink-methods.md) (，) 通知用戶端儲存作業已完成。 此時 **Save** 方法會傳回呼叫用戶端，這通常會釋放 [**IStorage**](/windows/desktop/api/Objidl/nn-objidl-istorage) 指標。
 
- 
+ 
 
- 
+ 
 
 
 

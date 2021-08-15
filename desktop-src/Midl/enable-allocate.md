@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f43e8c10592fcf99ea294327c400c579ce45bf6b
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 58f44b3a2f11094c37edf24f5fc00bbd8229d65dc2a54292acd2ca3221472e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104092664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979618"
 ---
 # <a name="enable_allocate-attribute"></a>啟用 \_ 配置屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "104092664"
 > [!Note]  
 > **\[ 啟用 \_ 配置 \]** 屬性已淘汰，不再支援。
 
- 
+ 
 
 ``` syntax
 [
@@ -88,6 +88,6 @@ interface interface-name
 [RpcSmFree](/windows/desktop/api/rpcndr/nf-rpcndr-rpcsmfree)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

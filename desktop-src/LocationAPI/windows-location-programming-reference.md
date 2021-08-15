@@ -4,16 +4,16 @@ ms.assetid: 98b89224-fa5f-4d7a-952a-fa63ca36493d
 title: 位置 API c + + 程式設計參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bffccfc2d5ad3ac8df5b15db1145fce8e021945
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd2ef64cf9935e5f5f37c685d79b2816486b96c7b4ea9c4d8250a9c03740beae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120129768"
 ---
 # <a name="location-api-c-programming-reference"></a>位置 API c + + 程式設計參考
 
-\[Win32 位置 API 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 相反地，請使用 [**Windows. 地理位置**](/uwp/api/Windows.Devices.Geolocation) API。 \]
+\[Win32 位置 API 可用於 [需求] 區段中指定的作業系統。 它在後續版本中可能會變更或無法使用。 請改用 [**Windows。裝置。地理位置**](/uwp/api/Windows.Devices.Geolocation)API。 \]
 
 本節說明適用于位置程式設計的 COM 介面和其他 c + + 結構。
 

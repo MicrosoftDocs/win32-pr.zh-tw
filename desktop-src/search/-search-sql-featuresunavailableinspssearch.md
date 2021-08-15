@@ -1,19 +1,19 @@
 ---
-description: Microsoft Windows Search 查詢語言是以 (SQL) 的結構化查詢語言 (SQL) 為基礎。但是，它不會在具有使用者定義資料表或索引的關係資料庫中搜尋。
+description: Microsoft Windows Search 查詢語言是根據結構化查詢語言 (SQL)  (SQL) ;但是，它不會在具有使用者定義資料表或索引的關係資料庫中搜尋。
 ms.assetid: e81c436e-3a33-4b00-9860-9a54bc0eebbf
-title: Microsoft Windows Search 中無法使用 SQL 功能
+title: SQLMicrosoft Windows Search 中無法使用的功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 20cf0e082a10a7775ca2d880be6153b7d99b6bc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66adb175aa7fae799e0ad9b69916415f12c94ee984d276b5a2238ebb19ec2f06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119716118"
 ---
-# <a name="sql-features-unavailable-in-microsoft-windows-search"></a>Microsoft Windows Search 中無法使用 SQL 功能
+# <a name="sql-features-unavailable-in-microsoft-windows-search"></a>SQLMicrosoft Windows Search 中無法使用的功能
 
-Microsoft Windows Search 查詢語言是以 (SQL) 的結構化查詢語言 (SQL) 為基礎。但是，它不會在具有使用者定義資料表或索引的關係資料庫中搜尋。 因此，許多標準 SQL 語句和語法功能都不適用。 以下是 Windows Search 中不支援之更重要 SQL 功能的清單。
+Microsoft Windows Search 查詢語言是根據結構化查詢語言 (SQL)  (SQL) ;但是，它不會在具有使用者定義資料表或索引的關係資料庫中搜尋。 因此，許多標準 SQL 語句和語法功能都不適用。 以下是 Windows Search 中不支援的更重要 SQL 功能的清單。
 
 
 -   批次語句
@@ -28,7 +28,7 @@ Microsoft Windows Search 查詢語言是以 (SQL) 的結構化查詢語言 (SQL)
 -   資訊架構
 -   INSERT 陳述式
 -   OLE DB 資料類型
--   SQL-標準正則運算式 (使用 CONTAINS 或 LIKE 取代) 
+-   SQL 標準正則運算式 (使用 CONTAINS 或 LIKE) 
 -   SQL 查詢的參數
 -   關聯式資料行比較
 -   修訂識別碼標頭
@@ -41,7 +41,7 @@ Microsoft Windows Search 查詢語言是以 (SQL) 的結構化查詢語言 (SQL)
 -   未知的關鍵字
 -   UPDATE 陳述式
 
-Windows Search 不支援同義字和非搜尋字。
+Windows搜尋不支援同義字和非搜尋字。
 
  
 

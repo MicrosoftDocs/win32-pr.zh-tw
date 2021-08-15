@@ -4,12 +4,12 @@ ms.assetid: 1412b2eb-c97d-4415-998c-5f21eaadcc66
 title: 資料庫匯入和匯出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b48fc09259c06e6ebaf537d26c7288d0ad09c501
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: acc047e6f58c7aeab07f6d13f8f7364f3f2f1191e50320513bc153e34c4c042c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119979058"
 ---
 # <a name="database-import-and-export"></a>資料庫匯入和匯出
 

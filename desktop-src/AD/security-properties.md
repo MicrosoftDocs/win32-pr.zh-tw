@@ -8,12 +8,12 @@ keywords:
 - 使用者安全性屬性 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c51000aefdf9ec0f26406607bd781ac4d87b6106
-ms.sourcegitcommit: 25bf66769c2087b1a87d6db5930b604cb57e0f98
+ms.openlocfilehash: 5dfe23252002f2ffbbba3f8e8a8faf5a2d36ce348bdbd7503c0d99a816a81902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "103933694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024886"
 ---
 # <a name="user-security-attributes"></a>使用者安全性屬性
 
@@ -180,7 +180,7 @@ Z:
 <span id="ntPwdHistory"></span><span id="ntpwdhistory"></span><span id="NTPWDHISTORY"></span>[**ntPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory)
 </dt> <dd>
 
-[**NtPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory)屬性是使用者的密碼歷程記錄，以 Windows NT 的單向格式 (OWF) 。 Windows 2000 使用 Windows NT OWF。 這個屬性僅供作業系統使用。 請注意，您無法從密碼的 OWF 形式衍生純文字密碼。
+[**ntPwdHistory**](/windows/desktop/ADSchema/a-ntpwdhistory)屬性是使用者的密碼歷程記錄，以 Windows NT 的單向格式 (OWF) 。 Windows 2000 使用 Windows NT OWF。 這個屬性僅供作業系統使用。 請注意，您無法從密碼的 OWF 形式衍生純文字密碼。
 
 </dd> <dt>
 
@@ -269,7 +269,7 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 
 
 
- 
+ 
 
 下列旗標描述帳戶類型。 只能設定一個值。 您無法變更帳戶類型。
 
@@ -279,13 +279,13 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 |---------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | UF \_ 一般 \_ 帳戶             | 這是代表一般使用者的預設帳戶類型。                                                                                                                                                                                  |
 | UF \_ 暫存 \_ 重複 \_ 帳戶    | 這是主要帳戶位於另一個網域的使用者帳戶。 此帳戶可讓使用者存取此網域，但不提供任何信任此網域的網域。 使用者管理員會將此帳戶類型稱為本機使用者帳戶。 |
-| UF \_ 工作站 \_ 信任 \_ 帳戶 | 這是 Windows NT 工作站/Windows 2000 Professional 或 Windows NT Server/Windows 2000 伺服器（此網域的成員）的電腦帳戶。                                                                                     |
+| UF \_ 工作站 \_ 信任 \_ 帳戶 | 這是 Windows NT 工作站/Windows 2000 Professional 的電腦帳戶，或屬於此網域成員 Windows NT server/Windows 2000 伺服器的電腦帳戶。                                                                                     |
 | UF \_ 伺服器 \_ 信任 \_ 帳戶      | 這是屬於此網域成員 Windows NT 備份網域控制站的電腦帳戶。                                                                                                                                           |
 | 每個 UF \_ 域 \_ 信任 \_ 帳戶 | 這是允許信任其他網域的 Windows NT 網域的帳戶。                                                                                                                                                            |
 
 
 
- 
+ 
 
 </dd> <dt>
 
@@ -312,6 +312,6 @@ Windows NT 單向格式的使用者密碼 (OWF) 。 Windows 2000 使用 Windows 
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

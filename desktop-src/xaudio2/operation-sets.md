@@ -4,12 +4,12 @@ ms.assetid: eec13a06-7364-dc0a-03e1-4aa6bd2aeb09
 title: 操作集
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39f9a1178ffeeb0c9bca6cfcef0ce4b1213e3497
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5726a61bbad8cd06aa4c5b020dc003bc7c30e2d3eeab24750a950421a130d87e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025966"
 ---
 # <a name="operation-sets"></a>操作集
 

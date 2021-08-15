@@ -8,12 +8,12 @@ keywords:
 - 服務主體名稱 AD、名稱格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bda13cf5a095f8f2fd7ef1a209c6f3aeebd6654
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ce939d642180192500790253158eaa03dc41c8d173aed2d96d5175f07e39c101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183002"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119025716"
 ---
 # <a name="name-formats-for-unique-spns"></a>唯一 Spn 的名稱格式
 
@@ -66,7 +66,7 @@ SPN 在註冊的樹系中必須是唯一的。 如果不是唯一的，驗證將
 
 
 
- 
+ 
 
 存在於服務 Spn 中的元件，取決於服務的識別和複寫方式。 有兩個基本案例：以主機為基礎的服務和可複製服務。
 
@@ -127,9 +127,9 @@ MyDBService/host3/CN=hrdb,OU=mktg,DC=example,DC=com
 
 請注意，如果電腦的 DNS 名稱有所變更，系統 &lt; &gt; 就會為樹系中該主機的所有已註冊 spn 更新 "host" 元素。
 
- 
+ 
 
- 
+ 
 
 
 

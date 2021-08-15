@@ -4,12 +4,12 @@ ms.assetid: 4a6be647-3e73-47a1-acfa-7d6d0a2fb2f4
 title: PublishComponent 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bb0edfd811873242629c36257fdce5a80fe9d91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9c0abd7567e8327aa36a120fd5a13115cb191e1660566e9d480446295dca53cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989392"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118376381"
 ---
 # <a name="publishcomponent-table"></a>PublishComponent 資料表
 
@@ -25,7 +25,7 @@ PublishComponent 資料表具有下列資料行。
 | Qualifier   | [Text](text.md)             | Y   | N        |
 | 元件\_ | [識別碼](identifier.md) | Y   | N        |
 | AppData     | [Text](text.md)             | N   | Y        |
-| 功能\_   | [識別碼](identifier.md) | N   | N        |
+| 特徵\_   | [識別碼](identifier.md) | N   | N        |
 
 
 

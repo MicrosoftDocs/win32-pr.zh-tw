@@ -62,7 +62,7 @@ ms.locfileid: "118324127"
 
 
 
-| 必要成員                                                   | 成員類型 | 附註 |
+| 必要成員                                                   | 成員類型 | 備註 |
 |--------------------------------------------------------------------|-------------|-------|
 | [**之 roworcolumnmajor**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-get_roworcolumnmajor) | 屬性    | 無  |
 | [**GetColumnHeaders**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-itableprovider-getcolumnheaders) | 方法      | 無  |

@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 37576e39d83270dcac3333e4d1f78fce32bb2669
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d439bc8fe9823a69748d61b2b2c327b0f15a8c7114f7b7a7311e0a7e16f35d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118484487"
 ---
 # <a name="vistaapijetgetrecordsize-method"></a>VistaApi. JetGetRecordSize 方法
 

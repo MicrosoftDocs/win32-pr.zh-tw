@@ -7,12 +7,12 @@ keywords:
 - 多個目錄服務 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ccc2e174fc1b07564f1cca6c12093a289a0c865a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 852888a6d3c0d8be9dbb8309efc57f4d29a60d83a21463a13c435e840fb96acc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839438"
 ---
 # <a name="multiple-directory-services"></a>多個目錄服務
 
@@ -22,9 +22,9 @@ ms.locfileid: "104300084"
 
 這些問題是在 ADSI 中解決，因為提供了單一、一致、開放的介面集，可用來管理和使用具有 ADSI 提供者的任何目錄服務。
 
- 
+ 
 
- 
+ 
 
 
 

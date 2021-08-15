@@ -25,7 +25,7 @@ ms.locfileid: "118886358"
 
 
 
-| Condition 變數函式                                        | 描述                                                                                                    |
+| Condition 變數函式                                        | Description                                                                                                    |
 |--------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
 | [**InitializeConditionVariable**](/windows/win32/api/synchapi/nf-synchapi-initializeconditionvariable) | 初始化條件變數。                                                                              |
 | [**SleepConditionVariableCS**](/windows/win32/api/synchapi/nf-synchapi-sleepconditionvariablecs)       | 在指定的條件變數上進入睡眠狀態，並以不可部分完成的作業形式釋放指定的重要區段。 |

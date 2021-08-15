@@ -16,12 +16,12 @@ keywords:
 - 傳送 MIDI 訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c8c120504a4a25ddcf01474db341a367a2e9854
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: cbc0acb39090a640d60539542a439111287faef246adf64aef7ee12ced3ae09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117801252"
 ---
 # <a name="using-a-window-or-thread-to-manage-buffered-playback"></a>使用視窗或執行緒管理緩衝播放
 
@@ -37,12 +37,12 @@ ms.locfileid: "104315013"
 
 
 
- 
+ 
 
 *WParam* 參數和 *lParam* 參數會與這些訊息相關聯。 *WParam* 參數一律會指定開啟之 MIDI 裝置的控制碼。 若是 [**\_ MOM \_ 完成**](mm-mom-done.md)， *lParam* 會指定識別已完成資料區塊之 [**MIDIHDR**](/windows/win32/api/mmeapi/ns-mmeapi-midihdr) 結構的位址。 *LParam* 參數未用於 [**mm \_ mom \_ CLOSE**](mm-mom-close.md)和 [**mm \_ \_ OPEN**](mm-mom-open.md)。
 
 最有用的訊息可能是 \_ MOM \_ 完成。 除非您需要配置記憶體或初始化變數，否則您可能不需要處理 MM \_ mom \_ OPEN 和 mm \_ mom \_ CLOSE。 當資料區塊的播放完成時，您可以清除並釋放資料區塊。
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.assetid: 95b49db5-ba3c-4638-9087-6ee3972d8972
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d465c658e64959eb1bfd61cf3c43f6ffd2cc6b1d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 31b0e83daa98f59390408fa43f5c5f83ff547e3d0cad665d29922f4244913361
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106965243"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353879"
 ---
 # <a name="general-programming-guidelines"></a>一般程式設計指導方針
 
@@ -55,6 +55,6 @@ ms.locfileid: "106965243"
 
 </dd> </dl>
 
- 
+ 
 
- 
+ 

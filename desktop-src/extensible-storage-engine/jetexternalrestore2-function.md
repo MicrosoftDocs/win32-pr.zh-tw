@@ -20,23 +20,23 @@ api_type:
 api_location:
 - ESENT.DLL
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c96314e401a81271f5a71bc056faa95fc1ae0dbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d2cbd4a13555d754cdbc1f9c02011b5891d6d6fcfae3fea822ddf6ad9953b78
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119719188"
 ---
 # <a name="jetexternalrestore2-function"></a>JetExternalRestore2 函式
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jetexternalrestore2-function"></a>JetExternalRestore2 函式
 
 **JetExternalRestore2** 函式會還原使用外部備份 api 所建立的外部備份，並提供用於迴圈記錄作業的檢查點。 這稱為「硬復原」，這類似于 [JetInit](./jetinit-function.md) 函式所執行的軟復原。
 
-**Windows xp： JetExternalRestore2** 是在 windows xp 中引進的。
+**Windows xp： JetExternalRestore2** 是在 Windows xp 引進。
 
 ```cpp
     JET_ERR JET_API JetExternalRestore2(
@@ -97,7 +97,7 @@ _**適用于：** Windows |Windows Server_
 
 ### <a name="return-value"></a>傳回值
 
-此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸 [儲存引擎錯誤](./extensible-storage-engine-errors.md) 和 [錯誤處理參數](./error-handling-parameters.md)。
+此函數會傳回具有下列其中一個傳回碼的 [JET_ERR](./jet-err.md) 資料類型。 如需可能 ESE 錯誤的詳細資訊，請參閱可延伸的[儲存體引擎錯誤](./extensible-storage-engine-errors.md)和[錯誤處理參數](./error-handling-parameters.md)。
 
 <table>
 <colgroup>
@@ -117,7 +117,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errBadRestoreTargetInstance</p></td>
-<td><p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 只有在 Windows XP 和更新版本中才會傳回此錯誤。</p></td>
+<td><p>指定的 <em>szTargetInstanceLogPath</em> 不屬於初始化的實例。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errDatabaseCorrupted</p></td>
@@ -149,7 +149,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p>JET_errRunningInOneInstanceMode</p></td>
-<td><p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 只有在 Windows XP 和更新版本中才會傳回此錯誤。</p></td>
+<td><p>資料庫引擎無法在單一實例模式中執行外部還原或硬復原。 此錯誤只會在 Windows XP 及更新版本中傳回。</p></td>
 </tr>
 <tr class="odd">
 <td><p>JET_errStartingRestoreLogTooHigh</p></td>
@@ -181,7 +181,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008 或 Windows Server 2003。</p></td>
+<td><p>需要 Windows server 2008 或 Windows server 2003。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

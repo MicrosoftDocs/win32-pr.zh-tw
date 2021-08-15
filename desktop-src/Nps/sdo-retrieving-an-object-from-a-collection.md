@@ -5,12 +5,12 @@ ms.assetid: df7cbff5-2d09-4031-8f41-3f4eea51598f
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fe8d5bfcba8a1671c7824a4b1356e9c8e1dd7567
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 936cde1b897be9fc9fd7855401fdcef16b0754a59ae726a561acebd4ccd93283
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120128558"
 ---
 # <a name="retrieving-an-object-from-a-collection"></a>從集合中取出物件
 
@@ -73,6 +73,6 @@ ms.locfileid: "104508012"
 [**變異**](/windows/win32/api/oaidl/ns-oaidl-variant)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

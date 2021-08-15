@@ -4,12 +4,12 @@ ms.assetid: 0a117f9f-91c8-414e-b07b-68a95af22f28
 title: AllowedEnterpriseDataProtectionIdentities
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9f43a42ed8bc7ba180f0f127f3e04a5797e685
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 69d6d29ba2bde0bb91c0a79453f65ea501d0de334d60261c2363a3abdf1995c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319739"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464758"
 ---
 # <a name="systemsecurityallowedenterprisedataprotectionidentities"></a>AllowedEnterpriseDataProtectionIdentities
 

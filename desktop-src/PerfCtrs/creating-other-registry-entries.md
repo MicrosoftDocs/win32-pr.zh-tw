@@ -4,12 +4,12 @@ ms.assetid: 8ec0ea45-5789-4801-b486-555779a7303e
 title: 正在建立其他登錄專案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9dfc3b46ce642069210df5112eb41cac9a038797
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e5ad9fe960713a481ba5a9b8f4b73e11bdbdd4d9fe9474b04b994e373ce8e1bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119683968"
 ---
 # <a name="creating-other-registry-entries"></a>正在建立其他登錄專案
 

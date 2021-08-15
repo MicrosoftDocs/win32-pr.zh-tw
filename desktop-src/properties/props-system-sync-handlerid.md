@@ -4,16 +4,16 @@ ms.assetid: 5a007335-9366-4333-a3d2-39ca70c11eaa
 title: HandlerID
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 081c11244805d54860cbd2bdb97d7c4de0f4c029
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fa366fecb9643332c08b764e5cc9c5c8576c602dcd59f775e82718f0d1a4b457
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108091516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118464667"
 ---
 # <a name="systemsynchandlerid"></a>HandlerID
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5eb9076b55e5fa8b8749ed310afb1f51ca5bd259
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: caa384d8fdb17cdc4389f18430faab6758b188057a1de71e78f7bc90f4740b64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024146"
 ---
 # <a name="wmi-provider-reference-for-active-directory-domain-services"></a>Active Directory Domain Services 的 WMI 提供者參考
 
@@ -23,9 +23,9 @@ ms.locfileid: "106967601"
 
 -   [類別](wmi-provider-classes-in-active-directory-domain-services.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -6,12 +6,12 @@ keywords:
 - 磁帶初始化備份
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 64f77b5c4d52641d2a3f195d517e575c9e2f780f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 2aeba729feb9351b5af15d26f6366b455c5ce74a9cc6300c9ab8d25047b4760b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463425"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835401"
 ---
 # <a name="tape-initialization"></a>磁帶初始化
 
@@ -29,6 +29,6 @@ ms.locfileid: "104463425"
 
 [**GetTapeStatus**](/windows/desktop/api/Winbase/nf-winbase-gettapestatus) 指出磁帶機是否已準備好處理磁帶命令。
 
- 
+ 
 
- 
+ 
