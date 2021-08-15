@@ -7,12 +7,12 @@ keywords:
 - MCIAVI 播放視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f73d8b6539e842a1ffa632ed1efae5c2c8d3cda1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: af9efc06b3d5f33dfb798aa4c47bf7d5a7a8bab45842de1da170c860d2a4a5f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933238"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118372639"
 ---
 # <a name="playing-a-device"></a>播放裝置
 
@@ -28,16 +28,16 @@ mciSendString("play cdaudio from 0", lpszReturnString,
 
 
 
-某些裝置類型會擴充此命令，以利用特定裝置的功能。 例如， **videodisc** 裝置類型的 [**play**](play.md)命令包含「快速」 (MCI \_ VD \_ \_ 快速) 、「慢」 (mci \_ VD \_ 播放 \_ 慢) 和「掃描」 (mci \_ VD \_ play \_ 掃描) 旗標。
+某些裝置類型會擴充此命令，以利用特定裝置的功能。 例如， **videodisc** 裝置類型的 [**play**](play.md)命令包含「快速」 (mci \_ VD \_ play \_ FAST) 、「慢」 (mci \_ VD \_ 播放 \_ 慢) ，以及「掃描」 (mci \_ VD \_ play \_ 掃描) 旗標。
 
 > [!Note]  
 > 指派給位置值的單位取決於裝置所使用的時間格式。 每個裝置都有預設的時間格式，但您應該先使用 [**set**](set.md) ([**MCI \_ set**](mci-set.md)) 命令來指定時間格式，然後再發出使用位置值的任何命令。
 
- 
+ 
 
 ## <a name="playing-an-avi-file"></a>播放 AVI 檔案
 
-Windows 中的影片檔案是由至少兩個交錯資料流程所組成：影片 (圖形) 串流和音訊串流。 您可以使用 MCI 命令輕鬆地播放這些 (AVI) 檔案的音訊影片。 下列各節討論如何播放 AVI 檔案。
+Windows 中的影片檔案是由至少兩個交錯的資料流程所組成：影片 (圖形化) 串流和音訊串流。 您可以使用 MCI 命令輕鬆地播放這些 (AVI) 檔案的音訊影片。 下列各節討論如何播放 AVI 檔案。
 
 ## <a name="setting-up-an-mciavi-playback-window"></a>設定 MCIAVI 播放視窗
 
@@ -90,6 +90,6 @@ MCIAVI 驅動程式具有對話方塊，可控制其一些播放選項。 使用
 
 AVI 檔案中的資料會被視為一連串的資料流程。 AVI 檔案通常包含音訊和影片串流，也可能有包含文字或某些其他自訂資料的自訂資料流程。 MCIAVI 驅動程式可以針對這些資料流程使用不同的處理常式。 如需自訂 AVI 檔案的詳細資訊，請參閱 [自訂檔案和資料流程處理常式](custom-file-and-stream-handlers.md)。
 
- 
+ 
 
- 
+ 

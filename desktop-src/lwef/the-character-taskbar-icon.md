@@ -4,16 +4,16 @@ description: 字元工作列圖示
 ms.assetid: b1db7151-b367-4708-897e-0695988163e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3769e6ce04886ce763d967eb14af4f0cd77628f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: af64413b0ecfee182902c6db376ce1857b8b1cf59e2d1a93274b70366ad5ee4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300271"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474979"
 ---
 # <a name="the-character-taskbar-icon"></a>字元工作列圖示
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 如果已撰寫字元以包含圖示，則當 Microsoft Agent 執行時，圖示會出現在工作列的通知區域中。 此圖示提供存取字元的快顯功能表，可讓您存取代理程式的全域命令，例如隱藏和顯示字元的。
 
@@ -23,9 +23,9 @@ ms.locfileid: "104300271"
 
 以滑鼠右鍵按一下圖示會顯示快顯功能表。 當字元可見時，快顯功能表會顯示與以滑鼠右鍵按一下字元時所顯示的相同命令。 如果隱藏字元，則只會顯示 [開啟 (] 或 [關閉]) [語音命令] 視窗並顯示命令。
 
- 
+ 
 
- 
+ 
 
 
 

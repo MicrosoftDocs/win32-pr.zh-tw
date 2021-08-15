@@ -190,7 +190,7 @@
                   href: band-objects.md
                 - name: 擴充快速鍵功能表
                   href: context.md
-                - name: 整合雲端存放裝置提供者
+                - name: 整合雲端儲存體提供者
                   href: integrate-cloud-storage.md
                 - name: 如何定義擴充動詞
                   href: how-to-define-extended-verbs.md
@@ -294,7 +294,7 @@
               href: assigning-control-panel-categories.md
             - name: 建立主控台專案的可搜尋工作連結
               href: creating-searchable-task-links.md
-            - name: 以安全模式存取主控台
+            - name: 以保管庫模式存取主控台
               href: accessing-the-cp-in-safe-mode-under-vista.md
             - name: 主控台專案的正式名稱
               href: controlpanel-canonical-names.md
@@ -1517,14 +1517,14 @@
             - name: IExtractIcon
               href: /windows/desktop/api/shlobj_core/nn-shlobj_core-iextracticona
               items:
-                - name: Extract
+                - name: 擷取
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-extract
                 - name: GetIconLocation
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iextracticona-geticonlocation
             - name: IExtractImage
               href: /windows/desktop/api/shobjidl_core/nn-shobjidl_core-iextractimage
               items:
-                - name: Extract
+                - name: 擷取
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-extract
                 - name: GetLocation
                   href: /windows/desktop/api/shobjidl_core/nf-shobjidl_core-iextractimage-getlocation
@@ -2477,7 +2477,7 @@
             - name: IObjMgr
               href: /windows/desktop/api/shlobj_core/nn-shlobj_core-iobjmgr
               items:
-                - name: Append
+                - name: 附加
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-append
                 - name: 移除
                   href: /windows/desktop/api/shlobj_core/nf-shlobj_core-iobjmgr-remove
@@ -6200,7 +6200,7 @@
                   href: folderitem-islink.md
                 - name: ModifyDate
                   href: folderitem-modifydate.md
-                - name: 名稱
+                - name: Name
                   href: folderitem-name.md
                 - name: 父代
                   href: folderitem-parent.md
@@ -6244,7 +6244,7 @@
                   href: folderitemverb-application.md
                 - name: Doit r
                   href: folderitemverb-doit.md
-                - name: 名稱
+                - name: Name
                   href: folderitemverb-name.md
                 - name: 父代
                   href: folderitemverb-parent.md
@@ -6282,7 +6282,7 @@
                   href: ishelldispatch-findcomputer.md
                 - name: Findfiles.ps1
                   href: ishelldispatch-findfiles.md
-                - name: Help
+                - name: 說明
                   href: ishelldispatch-help.md
                 - name: MinimizeAll
                   href: ishelldispatch-minimizeall.md
@@ -6367,7 +6367,7 @@
               items:
                 - name: PassportAuthenticate
                   href: inewwdevents-passportauthenticate.md
-            - name: 殼層
+            - name: Shell
               href: shell.md
               items:
                 - name: AddToRecent
@@ -6400,7 +6400,7 @@
                   href: shell-getsetting.md
                 - name: GetSystemInformation
                   href: shell-getsysteminformation.md
-                - name: Help
+                - name: 說明
                   href: shell-help.md
                 - name: IsRestricted
                   href: shell-isrestricted.md
@@ -6526,7 +6526,7 @@
               items:
                 - name: _NewEnum
                   href: shellwindows--newenum-method-7ral.md
-                - name: Count
+                - name: 計數
                   href: shellwindows-count.md
                 - name: 項目
                   href: shellwindows-item.md

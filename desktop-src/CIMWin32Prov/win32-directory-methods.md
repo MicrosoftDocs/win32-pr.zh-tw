@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: Win32_Directory 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 437a563a1c93888ec3d0c981974e16f5f6bf536c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: eebb4c5c59a5c2b9cbd331376f972385dcfc4f7dddcbc7c23622c0367311e8c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120002818"
 ---
 # <a name="win32_directory-methods"></a>Win32 \_ 目錄方法
 

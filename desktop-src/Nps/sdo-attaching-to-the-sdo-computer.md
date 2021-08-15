@@ -5,12 +5,12 @@ ms.assetid: b28691ef-4054-4cd1-92aa-72ad9902fba3
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1d35b9088fc1848dcf581bf69db036dce57cdd2b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5863302da3f213c1360c254782a31c0dfc4fcb9a946f5827155862bca01405cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362186"
 ---
 # <a name="attaching-to-the-sdo-computer"></a>附加到 SDO 電腦
 
@@ -20,6 +20,6 @@ ms.locfileid: "103933314"
 
 請參閱 [附加至 SDO-Enabled 電腦](/windows/desktop/Nps/sdo-attaching-to-an-sdo-enabled-computer) ，取得示範如何連接到本機電腦的範例程式碼。
 
- 
+ 
 
- 
+ 

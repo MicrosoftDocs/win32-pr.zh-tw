@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbf7dd5104ce7a47b0d1215221c115a7191f4548
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: ac1603d87004e9b97e635e5fa6a52efa97c5e760ccd9010aa6f86fc62eb3ee7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106989149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360306"
 ---
 # <a name="glgetmapdv-function"></a>glGetMapdv 函式
 
@@ -68,7 +68,7 @@ void WINAPI glGetMapdv(
 
 </dd> <dt>
 
-*V* 
+*v* 
 </dt> <dd>
 
 傳回要求的資料。

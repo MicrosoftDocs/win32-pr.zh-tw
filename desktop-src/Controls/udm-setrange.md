@@ -3,7 +3,7 @@ title: 'UDM_SETRANGE 訊息 (Commctrl .h) '
 description: 設定上下按鈕 (範圍) 的最小和最大位置。
 ms.assetid: 81875528-86cc-419a-a07c-f4f98baf1462
 keywords:
-- UDM_SETRANGE message Windows 控制項
+- UDM_SETRANGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fb32a72ca8ca5182e87e2c0346cbc44ab25300e8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 60499c960b7f2e496dc4317229865a8838013fc5d78c194072bee27e761ba4d3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408053"
 ---
 # <a name="udm_setrange-message"></a>UDM \_ SETRANGE 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104025275"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

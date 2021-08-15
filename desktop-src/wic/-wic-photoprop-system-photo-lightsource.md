@@ -4,12 +4,12 @@ ms.assetid: 051a49ad-bb4c-459f-ae52-dc359a03a14a
 title: LightSource 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ec9b3d31f01cdd2bea8d3fabbbc730a41f1fb0da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 195d165a6a929c8e0b4bf2dd165a5f22068a8b75e8ea4dfcddb5b8979900b035
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204720"
 ---
 # <a name="systemphotolightsource-photo-metadata-policy"></a>LightSource 相片中繼資料原則
 

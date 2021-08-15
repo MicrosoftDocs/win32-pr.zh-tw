@@ -4,12 +4,12 @@ ms.assetid: 6fa79584-f009-41c5-8257-df3c186dcf72
 title: Account 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d44a4d4931220a97fde51c4bbd7f1ddcef6fef8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e9ed4d89f680965371e2ccb0156cd3401c87a695d4dd3844e18e469e2917efd5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118895069"
 ---
 # <a name="account-object"></a>Account 物件
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e9bb60fdd843fb3f45b6e4e3aff444a8a915fa0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c236d03cad0612d8306b8ccde370136cb9b31acca82e0aa52761ed56fb4b9bb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118330912"
 ---
 # <a name="iwmpstringcollection2getattributecountbytype-method"></a>IWMPStringCollection2：： getAttributeCountByType 方法
 

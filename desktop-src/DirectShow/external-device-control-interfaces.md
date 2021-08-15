@@ -4,12 +4,12 @@ ms.assetid: edc10466-7852-4530-9ce7-b9dd36726745
 title: 外部裝置控制介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5324cc99b71c5339d4969cbda2b653088fab1a98
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: fdc9fab4b2b1bd7f6a2d2cd3c5607552f81faf09316edaa7e5146c93e3ce3c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103846883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819570"
 ---
 # <a name="external-device-control-interfaces"></a>外部裝置控制介面
 

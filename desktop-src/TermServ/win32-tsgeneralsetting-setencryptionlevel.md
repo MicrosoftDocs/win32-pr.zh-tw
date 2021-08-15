@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1fbe727c75851bb13252d196e1fe7d599f881c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a54aacf931a66d6d4bdd4daa24a6432e4caa7fb01695aebbe4324b17ab5f2bed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104597"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118348840"
 ---
 # <a name="setencryptionlevel-method-of-the-win32_tsgeneralsetting-class"></a>Win32 TSGeneralSetting 類別的 SetEncryptionLevel 方法 \_
 

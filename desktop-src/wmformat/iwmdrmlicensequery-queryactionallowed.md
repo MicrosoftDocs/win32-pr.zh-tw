@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6564062fc9f76a840b37f6e134e960480d67a2ee
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9f6974a04f92852ef9e56b473126eb8e0cc2d92a9bdcf5192e10abe800978bcd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846872"
 ---
 # <a name="iwmdrmlicensequeryqueryactionallowed-method"></a>IWMDRMLicenseQuery：： QueryActionAllowed 方法
 

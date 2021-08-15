@@ -3,8 +3,8 @@ title: 取得非無訊息授權
 description: 取得非無訊息授權
 ms.assetid: 3b3fce53-9202-4e55-82d5-7c70ea833087
 keywords:
-- Windows Media Format SDK，非無訊息授權取得
-- Windows Media Format SDK，授權
+- Windows媒體格式 SDK，非無訊息授權取得
+- Windows媒體格式 SDK，授權
 - 數位版權管理 (DRM) 、非無訊息授權取得
 - DRM (數位版權管理) 、非無訊息授權取得
 - 數位版權管理 (DRM) 、授權
@@ -15,12 +15,12 @@ keywords:
 - 授權，非無訊息授權取得
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: adb8d7c4865e74fd5ce383cff8317de905828afe
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e92c9350e429a1fe4b6218878d2211b355c1569b39284161f9f3abceac1afc6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104507428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846429"
 ---
 # <a name="non-silent-license-acquisition"></a>取得非無訊息授權
 
@@ -44,9 +44,9 @@ ms.locfileid: "104507428"
 [**使用媒體基礎事件模型**](using-the-media-foundation-model.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Secpkg.h
-ms.openlocfilehash: 08719fb2b7e4a775df890f20cd640d059cb44475
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dc00dc01d3acd996257ebc4056be573335a1fd209e9d38abbdcb6bab33124b4c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118894771"
 ---
 # <a name="getserviceaccountpassword-function"></a>GetServiceAccountPassword 函式
 
@@ -116,7 +116,7 @@ GMSA 先前的密碼。
 
 如果函式失敗，則傳回值為 NTSTATUS 程式碼。 如需詳細資訊，請參閱 [LSA 原則函數傳回值](management-return-values.md)。
 
-您可以使用 [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror) 函數，將 NTSTATUS 程式碼轉換為 Windows 錯誤碼。
+您可以使用 [**LsaNtStatusToWinError**](/windows/desktop/api/Ntsecapi/nf-ntsecapi-lsantstatustowinerror)函數，將 NTSTATUS 程式碼轉換成 Windows 錯誤碼。
 
 當您完成使用 *CurrentPassword* 和 *PreviousPassword* 參數中所傳回的緩衝區時，請呼叫 [**FreeLsaHeap**](/windows/desktop/api/ntlsa/nc-ntlsa-lsa_free_lsa_heap) 函式釋放它們。
 
@@ -134,8 +134,8 @@ GMSA 先前的密碼。
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Secpkg。h</dt> </dl> |
 
 

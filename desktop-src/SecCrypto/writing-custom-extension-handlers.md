@@ -4,12 +4,12 @@ ms.assetid: a33ac417-b5f9-4ad7-a26e-13cdb1e4ac1b
 title: 撰寫自訂延伸模組處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c8c4380b11fd0b0b1a5484ba0a7ab80f69c967
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47f5eb5272fa34bfd0e10c2fcbe80dd9e225d6ab2ff02d54cf238e9ebbaa7e99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118896057"
 ---
 # <a name="writing-custom-extension-handlers"></a>撰寫自訂延伸模組處理常式
 

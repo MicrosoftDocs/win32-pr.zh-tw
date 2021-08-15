@@ -12,12 +12,12 @@ keywords:
 - 串流，尋找數位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef4bdf10eaeb95f981ab2972ba56ad09b867cd99
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 4349bc98214d61a1529fe4a64dd142a9695d909f9e2a650162a8e4f8ac618177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681400"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118699586"
 ---
 # <a name="to-find-stream-numbers-and-output-numbers"></a>尋找資料流程號碼和輸出編號
 
@@ -40,9 +40,9 @@ ms.locfileid: "103681400"
 [**使用同步讀取器讀取檔案**](reading-files-with-the-synchronous-reader.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

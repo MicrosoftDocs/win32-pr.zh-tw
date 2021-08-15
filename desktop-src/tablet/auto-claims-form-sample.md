@@ -4,20 +4,20 @@ ms.assetid: bec4333a-62ca-4254-a39b-04bc2c556992
 title: 自動宣告表單範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 71c5ff78a3c38036ef9352660b4d7959e2ad87e5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2fe22545d60ad4116e2607f3fcf01feb94dbfecaa74bc591288e4d91b6d3d465
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857116"
 ---
 # <a name="auto-claims-form-sample"></a>自動宣告表單範例
 
 自動宣告範例可解決保險評估者的假設案例。 評估者的工作需要他或她造訪家裡或公司的用戶端，並將其宣告資訊輸入表單中。 為了提高評估者的生產力，他的 IT 部門開發了一個 tablet 應用程式，可讓他或她透過兩個筆墨控制項快速且準確地輸入理賠資訊： [InkEdit](/previous-versions/ms835842(v=msdn.10)) 和 [InkPicture](/previous-versions/ms583740(v=vs.100)) 控制項。
 
-在此範例中，會針對每一個文字輸入欄位使用 [InkEdit](/previous-versions/ms835842(v=msdn.10)) 控制項。 使用者可使用畫筆，在這些欄位中輸入保險政策和車輛的相關資訊。 [InkPicture](/previous-versions/ms583740(v=vs.100))控制項是用來將筆墨新增至汽車影像，以反白顯示受損的汽車區域。 自動宣告範例適用于 C \# 和 Microsoft Visual Basic .net。 本主題說明 Visual Basic .NET。
+在此範例中，會針對每一個文字輸入欄位使用 [InkEdit](/previous-versions/ms835842(v=msdn.10)) 控制項。 使用者可使用畫筆，在這些欄位中輸入保險政策和車輛的相關資訊。 [InkPicture](/previous-versions/ms583740(v=vs.100))控制項是用來將筆墨新增至汽車影像，以反白顯示受損的汽車區域。 自動宣告範例適用于 C \# 和 Microsoft Visual Basic .net。 本主題說明 Visual Basic .net。
 
-AutoClaims 類別會定義為 system.string 的子類別 [，並](/dotnet/api/system.windows.forms.form?view=netcore-3.1) 定義一個嵌套類別來建立和管理不同類型之損毀的筆墨層。 定義四個事件處理常式來執行下列工作：
+AutoClaims 類別定義為[System. Windows 的子類別。Form](/dotnet/api/system.windows.forms.form?view=netcore-3.1)和 nested 類別的定義，是為了針對不同類型的損毀而建立和管理筆墨層。 定義四個事件處理常式來執行下列工作：
 
 -   初始化表單和筆墨圖層。
 -   重繪 [InkPicture](/previous-versions/ms583740(v=vs.100)) 控制項。
@@ -25,7 +25,7 @@ AutoClaims 類別會定義為 system.string 的子類別 [，並](/dotnet/api/sy
 -   變更筆墨圖層的可見度。
 
 > [!Note]  
-> 此範例的版本可在 C \# 和 Visual Basic .net 中取得。 本節中所討論的版本是 Visual Basic .NET。 版本之間的概念相同。
+> 此範例的版本可在 C \# 和 Visual Basic .net 中取得。 本節中所討論的版本是 Visual Basic .net。 版本之間的概念相同。
 
  
 
@@ -160,7 +160,7 @@ inkPictVehicle.DefaultDrawingAttributes.Color = inkLayers[lstAnnotationLayer.Sel
 
 ## <a name="redrawing-the-inkpicture-control"></a>重繪 InkPicture 控制項
 
-在 [InkPicture](/previous-versions/ms583740(v=vs.100)) 控制項的繼承 [油漆](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1) 事件處理常式中，會檢查筆墨圖層以判斷哪些是隱藏的。 如果未隱藏圖層，事件程式會使用轉譯 [器屬性的](/previous-versions/ms582196(v=vs.100)) [Draw](/previous-versions/ms828488(v=msdn.10)) 方法來顯示它。 如果您在 [物件瀏覽器] 中查看，就會看到 InkPicture 轉譯器屬性已定義為「 [Microsoft ink](/previous-versions/ms828481(v=msdn.10)) 轉譯器」物件：
+在[InkPicture](/previous-versions/ms583740(v=vs.100))控制項繼承的[小畫家](/dotnet/api/system.windows.forms.control.paint?view=netcore-3.1)事件處理常式中，會檢查筆墨圖層以判斷哪些是隱藏的。 如果未隱藏圖層，事件程式會使用轉譯 [器屬性的](/previous-versions/ms582196(v=vs.100)) [Draw](/previous-versions/ms828488(v=msdn.10)) 方法來顯示它。 如果您在 [物件瀏覽器] 中查看，就會看到 InkPicture 轉譯器屬性已定義為「 [Microsoft ink](/previous-versions/ms828481(v=msdn.10)) 轉譯器」物件：
 
 
 ```VB
@@ -373,7 +373,7 @@ private void chHideLayer_CheckedChanged(object sender, System.EventArgs e)
 
 ## <a name="closing-the-form"></a>關閉表單
 
-在 Windows Form 設計工具產生的程式碼中，會在表單初始化時，將 [InkEdit](/previous-versions/ms835842(v=msdn.10)) 和 [InkPicture](/previous-versions/ms583740(v=vs.100)) 控制項加入表單的元件清單中。 當表單關閉時，會以表單的 [Dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) 方法處置 InkEdit 和 InkPicture 控制項，以及表單的其他元件。 表單的 Dispose 方法也會處置為表單建立的 [筆墨](/previous-versions/ms583670(v=vs.100)) 物件。
+在 Windows 表單設計工具產生的程式碼中，會在表單初始化時，將[InkEdit](/previous-versions/ms835842(v=msdn.10))和[InkPicture](/previous-versions/ms583740(v=vs.100))控制項加入表單的元件清單中。 當表單關閉時，會以表單的 [Dispose](/previous-versions/dotnet/netframework-3.5/ms571303(v=vs.90)) 方法處置 InkEdit 和 InkPicture 控制項，以及表單的其他元件。 表單的 Dispose 方法也會處置為表單建立的 [筆墨](/previous-versions/ms583670(v=vs.100)) 物件。
 
 ## <a name="related-topics"></a>相關主題
 

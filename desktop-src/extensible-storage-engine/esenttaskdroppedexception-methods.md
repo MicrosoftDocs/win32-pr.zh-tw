@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103025
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 142fdb02ce0f91f0f74ef2af48c7223e9f66d1ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5aa56548ac4fbe56a8ed9f55fd504c5d6f9c6a195dc0981f98585f2adc4edf92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118488680"
 ---
 # <a name="esenttaskdroppedexception-methods"></a>EsentTaskDroppedException 方法
 

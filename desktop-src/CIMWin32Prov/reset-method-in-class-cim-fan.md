@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 4ae819960183b644e7dc8dddd93050c316e60eef
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 084d11c975b80b376ffa4125dc3760e38aa83b59ddcf25fab6f26443f3769d42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118419131"
 ---
 # <a name="reset-method-of-the-cim_fan-class"></a>CIM 風扇類別的 Reset 方法 \_
 

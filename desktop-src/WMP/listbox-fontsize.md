@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ca230736c5ef2ff34c1a5e7c3c75c7105a61ae44
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7cc017c52d086d7c6a63e8a5fbf5d3f5b55cd6382034bfb36e291078418abf32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120003408"
 ---
 # <a name="listboxfontsize"></a>LISTBOX. fontSize
 
@@ -37,7 +37,7 @@ ms.locfileid: "107001887"
 
 | 需求 | 值 |
 |--------------------|---------------------------------------------------------|
-| 版本<br/> | 適用于 Windows XP 或更新版本的 Windows Media Player<br/> |
+| 版本<br/> | Windows XP 或更新版本的 Windows Media Player<br/> |
 
 
 

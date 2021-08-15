@@ -4,12 +4,12 @@ ms.assetid: 628d6629-3ec3-447e-8b60-a2db5b23e780
 title: 憑證簽章和金鑰介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e35d2f3b1404397b1e6f2e436ef27fb740bbb594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7bdfd4c76b0e73f2954780d797e092e6d8b7570ebaee082ef93319f74abc24e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850555"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902304"
 ---
 # <a name="certificate-signature-and-key-interfaces"></a>憑證簽章和金鑰介面
 

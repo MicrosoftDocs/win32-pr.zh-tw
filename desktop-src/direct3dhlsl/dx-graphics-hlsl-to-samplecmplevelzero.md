@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 82150ce0331e3942ec84506b8f74a33236a71a3b
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: fbfe0ca4785f0f623e95b32dc98193532305116c3d301b2d64a83999094e9a0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118513022"
 ---
 # <a name="samplecmplevelzero-directx-hlsl-texture-object"></a>SampleCmpLevelZero (DirectX HLSL 材質物件) 
 
@@ -27,9 +27,9 @@ ms.locfileid: "104990723"
 [材質物件](dx-graphics-hlsl-to-type.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

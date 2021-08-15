@@ -4,27 +4,27 @@ ms.assetid: 3b2cb1fe-0f11-4509-a6f3-513d2755cd29
 title: 使用裝置角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c21ea667a6974634c1f9f0657dd02c13a621641c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: dcc7e3d0d2612415ddc3f72571774f11a2d62c911290b156be7efb543c48546e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936051"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406891"
 ---
 # <a name="working-with-device-roles"></a>使用裝置角色
 
 [MMDEVICE API](mmdevice-api.md)支援裝置角色。 [**ERole**](/windows/win32/api/mmdeviceapi/ne-mmdeviceapi-erole)列舉會定義 MMDevice API 所支援的裝置角色。
 
 > [!Note]  
-> 雖然 [MMDEVICE API](mmdevice-api.md) 支援裝置角色，但 Windows Vista 中的使用者介面並不支援此功能。
+> 雖然[MMDevice API](mmdevice-api.md)支援裝置角色，但 Windows Vista 中的使用者介面並不會支援此功能。
 
  
 
 應用程式可以透過 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint)和 [**IMMNotificationClient：： OnDefaultDeviceChanged**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immnotificationclient-ondefaultdevicechanged)方法，使用 MMDevice API 來支援 [裝置角色](device-roles.md)。 不過，Windows Vista 中的使用者介面不支援將個別角色指派給不同的裝置。 在 Windows Vista 中，使用者介面可讓使用者選取用於轉譯的預設音訊裝置，以及用於捕捉的預設音訊裝置。 當使用者選取預設轉譯或捕獲裝置時，系統會將這三個裝置角色 (eConsole、eMultimedia 和 eCommunications) 指派給該裝置。 應用程式無法變更指派給音訊端點裝置的角色。 作業系統只允許使用者指派裝置角色。
 
-用戶端可以註冊自己，以在每次將角色指派給音訊端點裝置時，收到來自 MMDevice API 的通知。 當角色從某個裝置移到另一個裝置時，用戶端可以選擇是否要繼續播放 (或透過相同裝置錄製) 的串流，或將串流切換到其他裝置。 根據預設，資料流程會繼續播放 (或透過原始裝置記錄) 。 在 Windows Vista 中，若要將串流切換至另一個裝置，用戶端必須刪除原始裝置上的資料流程，並在新裝置上建立替代串流。 在 Windows 7 中，用戶端可以接聽新的通知，以在不中斷播放或捕捉會話的情況下，執行無縫切換。 如需詳細資訊，請參閱 [資料流程路由](stream-routing.md)。
+用戶端可以註冊自己，以在每次將角色指派給音訊端點裝置時，收到來自 MMDevice API 的通知。 當角色從某個裝置移到另一個裝置時，用戶端可以選擇是否要繼續播放 (或透過相同裝置錄製) 的串流，或將串流切換到其他裝置。 根據預設，資料流程會繼續播放 (或透過原始裝置記錄) 。 在 Windows Vista 中，若要將串流切換至其他裝置，用戶端必須刪除原始裝置上的資料流程，並在新裝置上建立替代串流。 在 Windows 7 中，用戶端可以接聽新的通知，以在不中斷播放或捕捉會話的情況下，執行無縫切換。 如需詳細資訊，請參閱 [資料流程路由](stream-routing.md)。
 
-如果您打算使用 Windows Vista 來測試您的應用程式，您可以設定測試環境，以確認當使用者可以將個別裝置角色指派給不同的裝置時，應用程式會如預期般運作。 如需詳細資訊，請傳送電子郵件至：uaa@microsoft.com。
+如果您打算使用 Windows Vista 測試您的應用程式，您可以設定測試環境，以確認當使用者可以將個別裝置角色指派給不同的裝置時，應用程式會如預期般運作。 如需詳細資訊，請傳送電子郵件至：uaa@microsoft.com。
 
 ## <a name="communication-devices"></a>通訊裝置
 

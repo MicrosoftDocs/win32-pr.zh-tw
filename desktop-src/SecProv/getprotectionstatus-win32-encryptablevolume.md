@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Root\CIMV2\Security\MicrosoftVolumeEncryption
-ms.openlocfilehash: 5f3fa2aaa019097a01a6e6d1628d7c4fe9b82710
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44fde17ee8e7d4d7bacd5c63743af045f89e16f840c193df8d883a5c80111659
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118891870"
 ---
 # <a name="getprotectionstatus-method-of-the-win32_encryptablevolume-class"></a>Win32 EncryptableVolume 類別的 GetProtectionStatus 方法 \_
 
@@ -84,7 +84,7 @@ uint32 GetProtectionStatus(
 </tr>
 <tr class="odd">
 <td><span id="Unknown"></span><span id="unknown"></span><span id="UNKNOWN"></span><dl> <dt><strong>未知</strong></dt>的 <dt>2</dt> </dl></td>
-<td>無法判斷磁片區保護狀態。 這可能是因為磁片區處於鎖定狀態。<br/> <strong>Windows Vista 旗艦版、Windows Vista Enterprise 和 Windows Server 2008：</strong> 不支援這個值。 從 Windows 7 和 Windows Server 2008 R2 開始支援此值。<br/></td>
+<td>無法判斷磁片區保護狀態。 這可能是因為磁片區處於鎖定狀態。<br/> <strong>Windows vista 旗艦版、Windows vista Enterprise 和 Windows Server 2008：</strong>不支援這個值。 從 Windows 7 和 Windows Server 2008 R2 開始支援此值。<br/></td>
 </tr>
 </tbody>
 </table>
@@ -137,8 +137,8 @@ uint32 GetProtectionStatus(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows Vista Enterprise、Windows Vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windowsvista Enterprise，僅 Windows vista 旗艦版傳統型 \[ 應用程式\]<br/>                       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ CIMV2 \\ 安全性 \\ MicrosoftVolumeEncryption<br/>                                             |
 | MOF<br/>                      | <dl> <dt>Win32 \_ encryptablevolume mof</dt> </dl> |
 

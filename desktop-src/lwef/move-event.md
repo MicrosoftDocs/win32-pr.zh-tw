@@ -4,16 +4,16 @@ description: 移動事件
 ms.assetid: 973e9e68-edbb-4741-b50e-57db96712df8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31facb1d57b807fb0322783a291b77ef5a7c1487
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9938f79a0c23340c5ed34be52019afe5f9f3fa6caefb6920941cb17dc13c0fc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118476346"
 ---
 # <a name="move-event"></a>移動事件
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

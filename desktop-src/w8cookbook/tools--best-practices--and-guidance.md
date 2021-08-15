@@ -4,12 +4,12 @@ description: 工具、最佳作法和指導方針
 ms.assetid: 2C71D81A-570E-431E-9DF6-BD337D859E12
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d02aa52389a03ec8625fe97a9f0c0633ee28532
-ms.sourcegitcommit: 477b1efe7d9c2f91d5f2ac588a20edf348b1c734
+ms.openlocfilehash: 8c3bc5c451959dc29a510f26647ec8ee3fe92ad78ee70dcabcd9c8a79d9bef7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "104313880"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117852015"
 ---
 # <a name="best-practices-for-windows-8-compatibility"></a>Windows 8 相容性的最佳作法
 
@@ -18,6 +18,6 @@ ms.locfileid: "104313880"
 -   Windows 評定工具組
 -   Windows 硬體認證套件
 
- 
+ 
 
- 
+ 

@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 370fddc1428c8f77edb77cdac2dc04123fc5211f
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 40ff2dbed37aa8ceb80072870c78cee4e63cba3656550081be2c655cb6f6ddf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857707"
 ---
 # <a name="shellfolderviewfolder-property"></a>ShellFolderView 資料夾屬性
 
@@ -45,7 +45,7 @@ Folder = ShellFolderView.Folder
 
 ## <a name="examples"></a>範例
 
-下列範例會針對內嵌于 HTML 的 JScript，顯示此屬性的適當用法。
+下列範例示範如何適當地使用此屬性，以供 HTML 中內嵌 JScript。
 
 
 ```JScript
@@ -99,10 +99,10 @@ Folder = ShellFolderView.Folder
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

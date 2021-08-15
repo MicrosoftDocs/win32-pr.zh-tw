@@ -4,12 +4,12 @@ ms.assetid: 16337b77-23c5-4b7a-a344-66a02ee0e8a8
 title: 低層級存取控制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b10ae3187348e395372030dfe9add31b7690c534
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e45a0a2e64055a249c1b743ae4159ee3de7f7dbd5a1cfce63dad4289b27bf941
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781552"
 ---
 # <a name="low-level-access-control"></a>低層級存取控制
 

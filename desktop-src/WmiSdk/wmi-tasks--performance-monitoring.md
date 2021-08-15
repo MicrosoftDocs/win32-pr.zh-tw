@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: bbb254e14280bec5a928bdc32aaa9a3e03c7a4f4
-ms.sourcegitcommit: 168d11879cb9fd89d26f826482725c0a626be00f
+ms.openlocfilehash: 91302b0d6c6e13f86f275d755c5f4b6150de6a59dd400e47ed877d01f3fe876e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/16/2021
-ms.locfileid: "107000641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312054"
 ---
 # <a name="wmi-tasks-performance-monitoring"></a>WMI 工作：效能監視
 
@@ -28,7 +28,7 @@ ms.locfileid: "107000641"
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。
@@ -131,7 +131,7 @@ Wend</code></pre></td>
 </div></td>
 </tr>
 <tr class="even">
-<td>...取得和計算 Windows 2000 上進程的效能資料嗎？</td>
+<td>...取得和計算 Windows 2000 上進程的效能資料？</td>
 <td><p>使用 &quot; Win32_PerfRawData &quot; 類別，例如 <a href="/windows/desktop/WmiSdk/retrieving-raw-and-formatted-performance-data"><strong>Win32_PerfRawData_PerfProc_Process</strong></a>。 取得特定進程的屬性資料，例如 <strong>PercentProcessorTime</strong>、兩次。 查閱 <a href="countertype-qualifier.md"><strong>CounterType</strong></a> 限定詞中針對屬性指定的公式，然後計算。 範例中的 CounterType 是 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc785636(v=ws.10)">PERF_100NSEC_TIMER_INV</a>。 如需詳細資訊，請參閱 <a href="monitoring-performance-data.md">監視效能資料</a>。</p>
 <p>下列腳本會無限期地執行，直到電腦重新開機、WMI 已停止或腳本停止。 若要手動停止腳本，請使用工作管理員停止進程。 若要以程式設計方式停止它，請使用<a href="/windows/desktop/CIMWin32Prov/win32-process"><strong>Win32_Process</strong></a>類別中的<a href="/windows/desktop/CIMWin32Prov/terminate-method-in-class-win32-process"><strong>Terminate</strong></a>方法。</p>
 <div class="code">

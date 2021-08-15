@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: e6c5e9508185124673ca7464b31d741cdf8035c8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: cda5b92170ef21f7bb66233f0748afe0c780837bbcb0eee9ef3c970880070422
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106998367"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118527292"
 ---
 # <a name="d3dvertexelement9-structure"></a>D3DVERTEXELEMENT9 結構
 
@@ -66,7 +66,7 @@ typedef struct D3DVERTEXELEMENT9 {
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[**位元組**](../winprog/windows-data-types.md)**

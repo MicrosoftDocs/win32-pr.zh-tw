@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0b3bc997d51b48ac51f6171ef5fda7ed3b1eb7b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 98bac821bed9938e2bbbea2aa613823e2c0672ec0153adfaebe300aa4db92a46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118491333"
 ---
 # <a name="esentrecordformatconversionfailedexception-constructor"></a>EsentRecordFormatConversionFailedException 函式
 

@@ -1,5 +1,5 @@
 ---
-description: IAMTimelineSrc 介面會提供方法，在 (DES) 的 DirectShow 編輯服務中操作和設定來源物件上的屬性。
+description: IAMTimelineSrc 介面會提供方法，在 DirectShow 編輯服務 (DES) 中操作和設定來源物件上的屬性。
 ms.assetid: 39a64718-1fac-4d90-8340-b712d3bad2ec
 title: 'IAMTimelineSrc 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 25733b1353bc0cbd92c40335a8d342473b03a806
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5d2ad5684df6298bde458e87ff322b21622139930fa9aaf994fda0e7ba7e987e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978611"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118399195"
 ---
 # <a name="iamtimelinesrc-interface"></a>IAMTimelineSrc 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106978611"
 
  
 
-`IAMTimelineSrc`介面會提供方法，在 (DES) 的[DirectShow 編輯服務](directshow-editing-services.md)中操作和設定來源物件上的屬性。 來源物件代表來自媒體來源的一個資料流程。
+`IAMTimelineSrc`介面會提供方法，在[DirectShow 編輯服務](directshow-editing-services.md) (DES) 中操作和設定來源物件上的屬性。 來源物件代表來自媒體來源的一個資料流程。
 
 您可以設定媒體開始和媒體停止時間，以在原始程式檔中使用部分資料。 這些值會指定來源物件的開頭和結尾，相對於原始媒體來源。 媒體時間可能與物件在時間軸上的開始和停止時間不同，可進行快速或緩慢的播放動作。 使用音訊來源 (時，會發生音調變化。 ) 
 
@@ -83,7 +83,7 @@ ms.locfileid: "106978611"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

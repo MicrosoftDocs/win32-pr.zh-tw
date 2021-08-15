@@ -4,12 +4,12 @@ ms.assetid: ee2b1bc7-6623-4144-b8fb-2ab9fbe28f59
 title: 'ExcludeClip 方法 (Gdiplusgraphics .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 70011bfe1aba7ef8e7c14b58f61bfcbd9549c8fb
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: c71375cb9567aec66f64d233a2c490cd8f8f12e343195570f78d00605caaa413
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "104992458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118482911"
 ---
 # <a name="graphicsexcludeclip-methods"></a>ExcludeClip 方法
 

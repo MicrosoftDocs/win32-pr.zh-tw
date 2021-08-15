@@ -54,12 +54,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56070e2ba395c4b89dc9caa9e6e5181bb03d81ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3318c794ca5df5126337dabd9398c67d5bdb0082e36b6c7d25c02b7a4b302ce0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384306"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118352963"
 ---
 # <a name="imsrdpclientadvancedsettingsmininputsendinterval-property"></a>IMsRdpClientAdvancedSettings：： minInputSendInterval 屬性
 

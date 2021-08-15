@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8fc5cb32ce9e9644d7d5b62868bfa99f150cc94
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 17198c076d200631142207189059ada425e9ec1ddf6e3c8a8d40499e40aa21a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104974620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118535054"
 ---
 # <a name="id3dx11effectpasscomputestateblockmask-method"></a>ID3DX11EffectPass：： ComputeStateBlockMask 方法
 

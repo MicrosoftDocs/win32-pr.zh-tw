@@ -4,12 +4,12 @@ ms.assetid: 1c15dc2b-0e69-4d16-af02-8056a1eb2c5c
 title: '色彩轉換器 DSP (Wmcodecdsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 73a8418d6eeeffcf83a38452b19f18a6baa60bcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e97db9f3131ed7cea9076255005149544363ba8d6b548736a211973cda3999d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468640"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117880660"
 ---
 # <a name="color-converter-dsp"></a>色彩轉換器 DSP
 
@@ -81,9 +81,9 @@ CLSID \_ CColorConvertDMO
 
 ## <a name="remarks"></a>備註
 
-色彩轉換器 DSP 會實作為 COM 物件，此物件可做為 DirectXMedia 物件 (的) 或媒體基礎轉換 (MFT) 。 此物件具有單一類別識別碼 (CLSID) ，不論它是否可作為一或一個 MFT。 如需有關 DSP 作為一或是 MFT 之時機的詳細資訊，請參閱 [數位訊號處理器](windowsmediadigitalsignalprocessors.md)。
+色彩轉換器 DSP 會實作為 COM 物件，此物件可作為 DirectXMedia 物件 (DMO) 或媒體基礎轉換 (MFT) 。 物件具有單一類別識別碼 (CLSID) ，不論它是否作為 DMO 或 MFT。 如需有關 DSP 作為 DMO 或 MFT 之時機的詳細資訊，請參閱[數位訊號處理器](windowsmediadigitalsignalprocessors.md)。
 
-針對 RGB 媒體子類型 (Guid) 的全域唯一識別碼，會根據 DSP 是以 SQL-DMO 或 MFT 的方式而有所不同。 非 RGB 媒體子類型的 Guid 是相同的，不論 DSP 是以 SQL-DMO 或 MFT 作為的。 如需表示媒體子類型之 Guid 的詳細資訊，請參閱 [影片子類型 guid](video-subtype-guids.md)。
+RGB 媒體子類型 (guid) 的全域唯一識別碼，會根據 DSP 是否做為 DMO 或 MFT 而有所不同。 非 RGB 媒體子類型的 guid 相同，無論 DSP 是否做為 DMO 或 MFT。 如需表示媒體子類型之 Guid 的詳細資訊，請參閱 [影片子類型 guid](video-subtype-guids.md)。
 
 根據預設，這個 DSP 會將整個來源影像複製到輸出緩衝區。 （選擇性）您可以指定來源和目的地矩形。 DSP 會複製來源矩形所定義之來源影像的部分，並將它寫入輸出緩衝區的目的地矩形。 DSP 不會執行任何調整;來源和目的地矩形的大小必須相同。 來源和目的地矩形不能超過影片框架的界限。
 
@@ -97,8 +97,8 @@ CLSID \_ CColorConvertDMO
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Colorcnv.dll</dt> </dl> |
 

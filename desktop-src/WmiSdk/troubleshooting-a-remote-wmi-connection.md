@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 疑難排解遠端 WMI 連接
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae475f91836b9e99b1c7faaf149c452e00a66722
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10603f713fecf861750d70c4166da91e081dc273a0d6d6134ed916a7f84f2bd4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312414"
 ---
 # <a name="troubleshooting-a-remote-wmi-connection"></a>疑難排解遠端 WMI 連接
 
@@ -19,7 +19,7 @@ ms.locfileid: "106993048"
 本主題將討論下列各節：
 
 -   [DCOM 拒絕存取](#dcom-access-denied)
--   [連接失敗](#failure-to-connect)
+-   [無法連線](#failure-to-connect)
 -   [WMI 連接逾時](#wmi-connection-timed-out)
 -   [相關主題](#related-topics)
 
@@ -50,7 +50,7 @@ DCOM 可能未設定為允許 WMI 連接。
 
 </dd> </dl>
 
-## <a name="failure-to-connect"></a>連接失敗
+## <a name="failure-to-connect"></a>無法連線
 
 <dl> <dt>
 

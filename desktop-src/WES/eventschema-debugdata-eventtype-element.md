@@ -1,6 +1,6 @@
 ---
 title: DebugData (的事件) 元素
-description: 包含可針對 Windows 軟體追蹤預處理器 (WPP) 事件記錄的資料。
+description: 包含可記錄 Windows 軟體追蹤預處理器 (WPP) 事件的資料。
 ms.assetid: df7b1a84-95a3-4e56-9be8-3123366c4932
 keywords:
 - DebugData 元素 EventLog
@@ -13,16 +13,16 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d8c04874c67ff496997d36e7fd614eee1a6dbfa1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8c11d9e7d900c62e9dea59934058de9019cc31b6fa0e414f1310eff43c410858
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969751"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005538"
 ---
 # <a name="debugdata-eventtype-element"></a>DebugData (的事件) 元素
 
-包含可針對 Windows 軟體追蹤預處理器 (WPP) 事件記錄的資料。
+包含可記錄 Windows 軟體追蹤預處理器 (WPP) 事件的資料。
 
 ``` syntax
 <xs:element name="DebugData"
@@ -38,8 +38,8 @@ ms.locfileid: "106969751"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

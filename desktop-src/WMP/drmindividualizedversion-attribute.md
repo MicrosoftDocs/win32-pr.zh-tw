@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1cb825a58c284c44a83e79285905e08efed9b6a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e001d350b47b4762c79d78e8d54c49b91976a9255bfa2c49a99945aca7c67861
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340205"
 ---
 # <a name="drmindividualizedversion-attribute"></a>DRMIndividualizedVersion 屬性
 

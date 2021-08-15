@@ -4,12 +4,12 @@ ms.assetid: 57a08471-04b2-4c1e-9212-b76f6ca631f8
 title: System.Doc>ument。DatePrinted
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c900a78782899c9e8b7497b8578d5bbdcab3898
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ecb71e38416e845eff7283bfa44fc1ae8a75b7b9babe8927cb30a233ef9065c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118466695"
 ---
 # <a name="systemdocumentdateprinted"></a>System.Doc>ument。DatePrinted
 

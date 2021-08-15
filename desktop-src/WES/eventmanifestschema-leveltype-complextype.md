@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 237b38890283769e9aac20c9b3a3703ff4b72d3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b80e034f6b77f869207ecb785edbb935841eed2dba6bde73ad88c441dabf15cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119055936"
 ---
 # <a name="leveltype-complex-type"></a>LevelType 複雜類型
 
@@ -62,7 +62,7 @@ ms.locfileid: "104093883"
 | message | [**strTableRef**](eventmanifestschema-strtableref-simpletype.md) | 層級的當地語系化顯示名稱。 訊息字串會參考資訊清單之 [**stringTable**](eventmanifestschema-stringtable-resources-element.md) 區段中的當地語系化字串。 <br/>                                                                                                    |
 | NAME    | **QName**                                                         | 要指派給這個層級的名稱。 這個名稱在提供者的範圍內必須是唯一的。<br/>                                                                                                                                                                                                            |
 | 符號  | [**CSymbolType**](eventmanifestschema-csymboltype-simpletype.md) | 用來參考應用程式中之層級的符號。 [**訊息編譯器 (MC.exe)**](message-compiler--mc-exe-.md)會使用符號，在編譯器產生的標頭檔中建立層級的常數。 如果您未指定符號，編譯器會為您產生一個符號。<br/> |
-| value   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | 層級值。 您可以指定範圍16到255之間的值。 如需預先定義的層級值，請參閱備註。<br/>                                                                                                                                                                                               |
+| 值   | [**UInt8Type**](eventmanifestschema-hexint8type-simpletype.md)   | 層級值。 您可以指定範圍16到255之間的值。 如需預先定義的層級值，請參閱備註。<br/>                                                                                                                                                                                               |
 
 
 
@@ -92,8 +92,8 @@ ms.locfileid: "104093883"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

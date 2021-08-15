@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103024
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 74dc3b9729789fc6c808ed1694995245b1fbbfe1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cf535edd929a4496058e8315c3d8de11067ee1f3d77b5a9390c0e30a52a8e650
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564837"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118488770"
 ---
 # <a name="esenttaggednotnullexception-methods"></a>EsentTaggedNotNULLException 方法
 

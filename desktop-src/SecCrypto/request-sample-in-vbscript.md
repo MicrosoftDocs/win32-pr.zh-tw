@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 12e14507f0bb27e7bc8caba605158a70f5e08ac4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 039d771e7d07e0c86ed0b5b18842aaa3f6a3ec96c31341697857c586bae5e28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985103"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118900583"
 ---
 # <a name="request-sample-in-vbscript"></a>VBScript 中的要求範例
 

@@ -15,12 +15,12 @@ api_type:
 - COM
 api_location:
 - Wbemdisp.dll
-ms.openlocfilehash: 63ae9e529de010e0a0ca7b8bc1da7dc8dc4891b3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0cbb765241fabb86a14a5d74f7a839d5d81b017856b6da349b9ec04fd8535a4a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318860"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118312712"
 ---
 # <a name="swbemsecurityauthenticationlevel-property"></a>SWbemSecurity. AuthenticationLevel 屬性
 
@@ -43,7 +43,7 @@ SWbemSecurity.AuthenticationLevel As Integer
 
 ## <a name="remarks"></a>備註
 
-AuthenticationLevel 設定可讓您要求在整個連接中使用的 DCOM 驗證和隱私權層級。 設定的範圍從無驗證到每個封包加密驗證。
+AuthenticationLevel 設定可讓您要求在整個連接中使用的 DCOM 驗證和隱私權層級。 設定範圍從無驗證到每個封包加密驗證。
 
 
 
@@ -89,7 +89,7 @@ Set objinst = GetObject("WinMgmts:{impersonationLevel=impersonate,authentication
 |-------------------------------------|-----------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                |
 | 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                          |
-| 類型程式庫<br/>             | <dl> <dt>>wbemdisp.tlb .tlb</dt> </dl> |
+| 類型程式庫<br/>             | <dl> <dt>>Wbemdisp.tlb .tlb</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Wbemdisp.dll</dt> </dl> |
 | CLSID<br/>                    | CLSID \_ SWbemSecurity<br/>                                                         |
 | IID<br/>                      | IID \_ ISWbemSecurity<br/>                                                          |

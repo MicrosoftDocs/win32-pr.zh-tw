@@ -4,12 +4,12 @@ ms.assetid: 35b991b8-d291-44ef-b1c0-8128bed3c3c8
 title: 流覽對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f6d3c3d95caec7e9a439621f6741b0dceb0c83
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e7caceb8e10bc99a9edd8fa5b828efa2e5cbc8b4ed7164d40e2235e19c098199
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118380709"
 ---
 # <a name="browse-dialog"></a>流覽對話方塊
 

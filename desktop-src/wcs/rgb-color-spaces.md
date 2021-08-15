@@ -3,7 +3,7 @@ title: RGB 色彩空間
 description: RGB 色彩空間的建立方式是將紅色、綠色和藍色色彩對應到立體笛卡兒座標系統。
 ms.assetid: fbe00c2a-700f-4905-a67a-47e3fd2bfa5c
 keywords:
-- Windows Color System (WCS) 、RGB 色彩空間
+- Windows色彩系統 (WCS) 、RGB 色彩空間
 - WCS (Windows 色彩系統) 、RGB 色彩空間
 - 影像色彩管理、RGB 色彩空間
 - 色彩管理、RGB 色彩空間
@@ -15,12 +15,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a73ac8b87847dda92332a3dd1041043e093590
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: 1d6fabb2bc9cee5abf79b3c875814fccbdd649e0b8400b91ee0e8c0e07d86877
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106976610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444784"
 ---
 # <a name="rgb-color-spaces"></a>RGB 色彩空間
 

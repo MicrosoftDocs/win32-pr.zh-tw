@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 82041b36592f00bf71dc7e2d744fcf94b7a666c6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7becb86f19c245488d779e1b26ab5321ba3f2aa0ac3c7811d96f9d1cb8a5dbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320099"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117995690"
 ---
 # <a name="quiescedevice-method-of-the-cim_logicaldevice-class"></a>CIM LogicalDevice 類別的 QuiesceDevice 方法 \_
 

@@ -4,12 +4,12 @@ description: 本主題將示範處理樹狀檢視專案的拖放程式碼。
 ms.assetid: 989BBC27-C025-4C54-9972-4725F04A5E95
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 80cedc5f7ec750270ec5d9fb6f567bf473f8c13b
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 23ee7cfc9d4fa7a6e73abd042df583ae9175de8583b050ff9621b7d2789e0d73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413112"
 ---
 # <a name="how-to-drag-a-tree-view-item"></a>如何拖曳 Tree-View 專案
 
@@ -18,18 +18,18 @@ ms.locfileid: "104463825"
 > [!Note]  
 > 拖曳樹狀檢視專案通常牽涉到處理 [izdebski \_ BEGINDRAG](tvn-begindrag.md) (或 [izdebski \_ BEGINRDRAG](tvn-beginrdrag.md)) 通知碼、 [**wm \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) 訊息，以及 [**wm \_ LBUTTONUP**](/windows/desktop/inputdev/wm-lbuttonup) (或 [**wm \_ RBUTTONUP**](/windows/desktop/inputdev/wm-rbuttonup)) 訊息。 此外，它也會牽涉到使用 [影像清單](image-lists.md) 函式來繪製正在拖曳的專案。
 
- 
+ 
 
 ## <a name="what-you-need-to-know"></a>您必須知道的事項
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -192,6 +192,6 @@ void Main_OnLButtonUp(HWND hwndTV)
 [CustDTv 範例說明 Tree-View 控制項中的自訂繪圖](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

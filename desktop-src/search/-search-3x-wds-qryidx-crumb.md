@@ -4,16 +4,16 @@ ms.assetid: b0b974ae-0573-45e4-888e-07138604b62e
 title: '連結引數 (Windows Search) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f56287c7182c0cf370250d53075a1c951ddf28b
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 5ec64fdcf9b15e0b7c87ea2ff0b122e22a8f8917bbacb9d9c3c3da274123f607
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112403731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463240"
 ---
 # <a name="crumb-argument-windows-search"></a>連結引數 (Windows Search) 
 
-`crumb`引數支援 (AQS) 語句的完整先進查詢語法，特別適用于控制搜尋範圍的方法。 除了 AQS ements 之外， `crumb` 引數也可以 `location` 在 Windows Vista 上採用特殊參數， `kind` 並使用 `store` XP 上的參數，如本主題稍後所述。
+`crumb`引數支援 (AQS) 語句的完整先進查詢語法，特別適用于控制搜尋範圍的方法。 除了 AQS ements 之外， `crumb` 引數也可以 `location` 在 Windows Vista 和 XP 上的參數上採用特殊參數 `kind` `store` ，如本主題稍後所述。
 
 本主題的組織方式如下：
 
@@ -22,7 +22,7 @@ ms.locfileid: "112403731"
 -   [使用連結搭配 Vista (位置) ](#using-crumb-with-vista-location)
     -   [Vista 範例](#vista-examples)
     -   [一般資料夾的常數](#constants-for-common-folders)
--   [使用連結搭配 Windows XP (種類和存放區) ](#using-crumb-with-windows-xp-kind-and-store)
+-   [使用連結搭配 Windows XP (種類和 store) ](#using-crumb-with-windows-xp-kind-and-store)
     -   [XP 範例](#xp-examples)
 -   [相關主題](#related-topics)
 
@@ -56,9 +56,9 @@ crumb=location:c%3a%5cMyVacationPix,Vacation&
 
 ## <a name="using-crumb-with-vista-location"></a>使用連結搭配 Vista (位置) 
 
-在連結參數中，Windows Vista 支援完整 AQS 和 `location` 屬性，只有在 Windows vista 上才有提供特殊的執行功能。 您可以在 `location` 單一連結參數中使用 AQS 字串或屬性，但不能同時使用兩者。 如果連結參數包含 AQS，則會忽略該連結參數中的其他專案。
+在連結參數中，Windows vista 支援完整 AQS 和 `location` 屬性，此屬性只有 Windows Vista 才有提供特殊的執行功能。 您可以在 `location` 單一連結參數中使用 AQS 字串或屬性，但不能同時使用兩者。 如果連結參數包含 AQS，則會忽略該連結參數中的其他專案。
 
-`location`屬性可讓您指定要搜尋的路徑。 如果位置是在索引子的編目範圍之外，Windows Vista 可以略過索引子並直接進行目錄。 因此，這些搜尋可能會比使用索引子的搜尋更慢。
+`location`屬性可讓您指定要搜尋的路徑。 Windows如果位置是在索引子的編目範圍之外，Vista 可以略過索引子並直接進行目錄。 因此，這些搜尋可能會比使用索引子的搜尋更慢。
 
 當您指定 `location` 屬性時，支援兩個額外的參數和選擇性參數：
 
@@ -66,7 +66,7 @@ crumb=location:c%3a%5cMyVacationPix,Vacation&
 
 | 參數 | 值                  | 描述                                                                                                                                                                       |
 |-----------|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 包含 | 包含、排除        | 指定查詢是否應包含或排除該路徑的專案。 "Include" 是預設值。 Windows Vista 不支援排除專案，不含任何專案。  (請參閱範例)  |
+| 包含 | 包含、排除        | 指定查詢是否應包含或排除該路徑的專案。 "Include" 是預設值。 WindowsVista 不支援排除專案（不含）。  (請參閱範例)  |
 | 遞迴 | 遞迴、非遞迴 | 指定搜尋是否應從位置中定義的值開始遞迴所有子資料夾：<value>. 「遞迴」是預設值。                             |
 
 
@@ -110,7 +110,7 @@ search-ms:crumb=location:c%3a%5cDocuments&crumb=kind:pics&
 
 ### <a name="constants-for-common-folders"></a>一般資料夾的常數
 
-Windows Vista 可讓您使用 [KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85)) 值，以提供獨特的系統獨立方式來識別應用程式經常使用的特殊資料夾，但在任何指定的系統上可能不會有相同的名稱或位置。 例如，系統資料夾在一個系統上可能是 "C： \\ Windows"，另一個則為 "c： \\ Winnt"。 在 Windows Vista 之前，使用 [CSIDLs](/windows/desktop/shell/csidl) 。
+WindowsVista 可讓您使用[KNOWNFOLDERID](/previous-versions//bb762584(v=vs.85))值，以提供獨特的系統獨立方式來識別應用程式經常使用的特殊資料夾，但在任何指定的系統上可能不會有相同的名稱或位置。 例如，系統資料夾可能是一個系統上的 "c： \\ Windows"，另一個則是 "c： \\ Winnt"。 在 Windows Vista 之前，使用[CSIDLs](/windows/desktop/shell/csidl) 。
 
 使用下列語法來使用這些位置：
 
@@ -123,9 +123,9 @@ crumb=location:shell%3a<LocationName>&
 
  
 
-## <a name="using-crumb-with-windows-xp-kind-and-store"></a>使用連結搭配 Windows XP (種類和存放區) 
+## <a name="using-crumb-with-windows-xp-kind-and-store"></a>使用連結搭配 Windows XP (種類和 store) 
 
-針對 Windows XP (WDS 3.x) 上的 Windows Search，AQS 條款「kind」和「store」具有特殊的實作為。 「種類」值與 [WDS 2.x 中使用的值](../lwef/-search-2x-wds-perceivedtype.md)相同。 "Store" 值包括下列各項：
+針對 Windows XP (WDS 3.x) 上的 Windows Search，AQS 條款 "kind" 和 "store" 具有特殊的實作為。 「種類」值與 [WDS 2.x 中使用的值](../lwef/-search-2x-wds-perceivedtype.md)相同。 "Store" 值包括下列各項：
 
 -   Mapi
 -   file
@@ -142,7 +142,7 @@ search-ms:query=from:john&crumb=kind:communications&
 
 
 
-第一個範例會從 John 傳回具有自訂標籤 "OE Mail" 的 Microsoft Outlook Express 電子郵件。 第二個範例會執行搜尋來自 John 的任何通訊。
+第一個範例會從 John 傳回 Microsoft Outlook Express 電子郵件，其中包含自訂標籤「OE 郵件」。 第二個範例會執行搜尋來自 John 的任何通訊。
 
 ## <a name="related-topics"></a>相關主題
 

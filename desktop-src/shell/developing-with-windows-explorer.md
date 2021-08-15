@@ -1,22 +1,22 @@
 ---
-description: Windows 檔案總管是功能強大的資源流覽和管理應用程式。
+description: WindowsExplorer 是功能強大的資源流覽和管理應用程式。
 ms.assetid: 879CE652-EDC0-4a14-925E-C83763133BE5
 title: 使用 Windows 檔案總管開發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b7b68d48f2d1becea23311847a5ce41b3776321
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22d00b513b3ee73c30b100cb4236d2c9fb327e1f9557d12ba86738ee9e910ca2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118460181"
 ---
 # <a name="developing-with-windows-explorer"></a>使用 Windows 檔案總管開發
 
-Windows 檔案總管是功能強大的資源流覽和管理應用程式。 Windows 檔案總管可以透過 Explorer.exe 或 [**IExplorerBrowser**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) 介面，以整合的方式來存取。 Windows 檔案總管 (Explorer.exe) 可以使用 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa) 或類似的函式，產生為個別的進程。
+WindowsExplorer 是功能強大的資源流覽和管理應用程式。 Windows您可以透過 Explorer.exe 或 [**IExplorerBrowser**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser)介面，將 Explorer 當作整合的整體來存取。 Windows您可以使用 [**ShellExecuteEx**](/windows/desktop/api/Shellapi/nf-shellapi-shellexecuteexa)或類似的函數，將 Explorer (Explorer.exe) 產生為個別的進程。
 
 > [!Note]  
-> Explorer.exe 的命令列選項記載于 Microsoft Windows 支援網站上的 [Windows 檔案總管 Command-Line 選項](https://support.microsoft.com/kb/152457)。
+> Explorer.exe 的命令列選項記載于 Microsoft Windows 支援網站上[Windows 檔案總管 Command-Line 選項](https://support.microsoft.com/kb/152457)的文章中。
 
  
 
@@ -225,7 +225,7 @@ int WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
 
 
 
-您可以使用 [IExplorerBrowser](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser) 介面來裝載 Windows 檔案總管的工作區。 Windows 檔案總管用戶端和命名空間樹狀目錄控制項是 Windows Vista 和更新版本的標準元件。 開發人員可以重複使用介面做為建立元件。 這些控制項的其中一種常見用法是建立適用于問題領域的自訂瀏覽器。
+您可以使用[IExplorerBrowser](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorerbrowser)介面來裝載 Windows 檔案總管的工作區。 Windows 檔案總管用戶端和命名空間樹狀目錄控制項是 Windows Vista 和更新版本的標準元件。 開發人員可以重複使用介面做為建立元件。 這些控制項的其中一種常見用法是建立適用于問題領域的自訂瀏覽器。
 
 Windows 檔案總管中的控制項分類為下列功能類別：
 
@@ -239,7 +239,7 @@ Windows 檔案總管中的控制項分類為下列功能類別：
 
 導覽控制項協助使用者判斷內容和流覽相關聯的邏輯網域空間，稱為 pagespace。 例如，Windows 檔案總管的 pagespace 是 Shell 命名空間。 Pagespaces 包含零或多個頁面。
 
-下表列出並描述 Windows Vista 和更新版本作業系統 Windows 檔案總管中可用的導覽控制項。
+下表列出並描述 Windows Vista 和更新版本作業系統的 Windows 檔案總管中可用的導覽控制項。
 
 
 
@@ -308,7 +308,7 @@ Windows 檔案總管中的控制項分類為下列功能類別：
 Listview 控制項可用來以四種視圖模式之一來查看一組專案：詳細資料、磚、圖示或全景。 Listview 控制項也可讓使用者選取和啟用一或多個專案。
 
 > [!Caution]  
-> 雖然其中有些控制項的名稱和（或）功能類似于標準 Windows Presentation Foundation (WPF) 控制項命名空間中找到的控制項，但它們是不同的類別。
+> 雖然這些控制項有一些類似于標準 Windows Presentation Foundation 的名稱和（或）功能， (在系統中找到的 WPF) 控制項。Windows。控制項命名空間是不同的類別。
 
  
 

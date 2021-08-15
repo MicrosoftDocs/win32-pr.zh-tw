@@ -4,12 +4,12 @@ description: 本主題說明如何設定您的應用程式，以確保通用控�
 ms.assetid: eb6c2469-25b9-43c4-a6ca-391a7b2859b3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a4673d0a47f42f557e09f4afe46131cd48bad1b0
-ms.sourcegitcommit: 967ba3a2a618e6088cb607164a2a924530278645
+ms.openlocfilehash: f259be6165bd3a4f9f5a655aaecf0fe6837de3dce057848ba92ac737e608fbc0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113102167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118413364"
 ---
 # <a name="enabling-visual-styles"></a>啟用視覺化樣式
 
@@ -29,7 +29,7 @@ ms.locfileid: "113102167"
 
 ## <a name="using-manifests-or-directives-to-ensure-that-visual-styles-can-be-applied-to-applications"></a>使用資訊清單或指示詞，以確保視覺效果樣式可以套用至應用程式
 
-若要讓您的應用程式使用視覺化樣式，您必須使用 ComCtl32.dll 6 版或更新版本。 因為第6版無法轉散發套件，只有當您的應用程式是在包含它的 Windows 版本上執行時才可使用。 Windows 隨附第5版和第6版。 ComCtl32.dll 第6版包含使用者控制項和通用控制項。 根據預設，應用程式會使用 User32.dll 中定義的使用者控制項，以及 ComCtl32.dll 第5版中所定義的通用控制項。 如需 DLL 版本及其散發平臺清單，請參閱 [通用控制項版本](common-control-versions.md)。
+若要讓您的應用程式使用視覺化樣式，您必須使用 ComCtl32.dll 6 版或更新版本。 因為第6版無法轉散發套件，只有當您的應用程式是在包含它的 Windows 版本上執行時才可使用。 Windows 隨附于第5版和第6版。 ComCtl32.dll 第6版包含使用者控制項和通用控制項。 根據預設，應用程式會使用 User32.dll 中定義的使用者控制項，以及 ComCtl32.dll 第5版中所定義的通用控制項。 如需 DLL 版本及其散發平臺清單，請參閱 [通用控制項版本](common-control-versions.md)。
 
 如果您想要讓應用程式使用視覺化樣式，則必須加入應用程式資訊清單或編譯器指示詞，指出如果有的話，應使用 ComCtl32.dll 第6版。
 
@@ -44,7 +44,7 @@ ms.locfileid: "113102167"
 | version               | 資訊清單的版本。 版本的格式必須是 (主要的.. n n n n. n n n n. n n n n. n n n <= 65535) 。 |
 | processorArchitecture | 開發應用程式的處理器。                                                                          |
 | NAME                  | 包括公司名稱、產品名稱和應用程式名稱。                                                                   |
-| type                  | 應用程式的類型，例如 Win32。                                                                                    |
+| 類型                  | 應用程式的類型，例如 Win32。                                                                                    |
 
 
 
@@ -70,7 +70,7 @@ ms.locfileid: "113102167"
 以下是資訊清單檔案的範例。
 
 > [!IMPORTANT]
-> 如果您的應用程式是以32位 Windows 平臺為目標，請將 **processorArchitecture** 專案設定為 **"X86"** ，如果您的應用程式是以64位 windows 平臺為目標，則設定為 **"amd64"** 。 您也可以指定 **" \* "**，以確保所有平臺皆為目標，如下列範例所示。
+> 如果您的應用程式以32位 Windows 平臺為目標，請將 **processorArchitecture** 專案設定為 **"X86"** ，如果您的應用程式以64位 Windows 平臺為目標，則設定為 **"amd64"** 。 您也可以指定 **" \* "**，以確保所有平臺皆為目標，如下列範例所示。
 
  
 
@@ -120,10 +120,10 @@ processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
 以下是未使用協力廠商擴充功能的應用程式範例。
 
 -   Calculator
--   Windows Vista 和 Windows 7) 的空當接龍 (
--   Windows Vista 和 Windows 7) 的 < a0/&gt; 掃雷 (
+-   Windows Vista 和 Windows 7 的空當接龍 () 
+-   Windows Vista 和 Windows 7 中的掃雷 () 
 -   [記事本]
--   Windows Vista 和 Windows 7) 的紙牌 (
+-   Windows Vista 和 Windows 7 中的紙牌 () 
 
 **建立資訊清單，並讓您的應用程式使用視覺化樣式。**
 
@@ -304,9 +304,9 @@ SetWindowTheme(hwnd, L" ", L" ");
 
 ## <a name="making-your-application-compatible-with-earlier-versions-of-windows"></a>讓您的應用程式與舊版 Windows 相容
 
-許多視覺化樣式架構的設計目的，是為了讓您在不支援變更控制面板的舊版 Windows 上繼續交付您的產品。 當您為一個以上的作業系統傳送應用程式時，請注意下列事項：
+許多視覺化樣式架構的設計目的，是為了讓您可以輕鬆地在不支援變更控制面板的舊版 Windows 上，繼續交付您的產品。 當您為一個以上的作業系統傳送應用程式時，請注意下列事項：
 
--   在 Windows 8 之前的 Windows 版本中，當高對比開啟時，視覺化樣式會關閉。 為了支援高對比，支援視覺效果樣式的繼承應用程式必須提供個別的程式碼路徑，才能適當地以高對比繪製 UI 元素。 在 Windows 8 中，高對比是視覺化樣式的一部分;不過，Windows 8 的應用程式 (其中一個應用程式資訊清單的 [相容性] 區段中包含 Windows 8 GUID) 仍然需要提供個別的程式碼路徑，以便在先前的 Windows 7 上正確呈現。
+-   在 Windows 8 之前的 Windows 版本中，當高對比開啟時，視覺效果樣式會關閉。 為了支援高對比，支援視覺效果樣式的繼承應用程式必須提供個別的程式碼路徑，才能適當地以高對比繪製 UI 元素。 在 Windows 8 中，高對比是視覺化樣式的一部分;不過，Windows 8 的應用程式 (其中一個應用程式資訊清單的 [相容性] 區段中包含 Windows 8 GUID) 仍然需要提供個別的程式碼路徑，以便在先前的 Windows 7 上正確呈現。
 -   如果您使用 ComCtl32.dll 第6版中的功能（例如圖格視圖或連結控制項），就必須處理使用者電腦上無法使用這些控制項的情況。 ComCtl32.dll 第6版無法轉散發。
 -   測試您的應用程式，以確定您未先檢查目前的版本，而不依賴 ComCtl32.dll 版本6的功能。
 -   請勿連結至 UxTheme .lib。

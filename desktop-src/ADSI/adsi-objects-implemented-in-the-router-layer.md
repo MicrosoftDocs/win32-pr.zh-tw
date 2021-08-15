@@ -5,12 +5,12 @@ ms.assetid: bd446e05-a15d-4354-9204-1df4e360497c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af1fad496bbfea220dca0046cac40daf41120675
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99cc96eac8a2d680cb83622e01d94f8ef7a1d236726ab6b6fef9b2e6c5c40f50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118692815"
 ---
 # <a name="adsi-objects-implemented-in-the-router-layer"></a>在路由器層中執行的 ADSI 物件
 
@@ -18,7 +18,7 @@ ms.locfileid: "104371851"
 
 
 
-| ADSI 物件            | Description                                                         | 支援的介面                                                                                                                                                                                                                                                                      |
+| ADSI 物件            | 描述                                                         | 支援的介面                                                                                                                                                                                                                                                                      |
 |------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **AccessControlEntry** | ADSI 物件，代表 (ACE) 的存取控制專案。       | [**IADsAccessControlEntry**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrolentry)                                                                                                                                                                                                                                  |
 | **AccessControlList**  | ADSI 物件，代表 (ACL) 的存取控制清單。        | [**IADsAccessControlList**](/windows/desktop/api/Iads/nn-iads-iadsaccesscontrollist)                                                                                                                                                                                                                                    |
@@ -31,11 +31,11 @@ ms.locfileid: "104371851"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

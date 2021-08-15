@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ddcb1cfe28a72e390cedbcc35fa299dddbfb8634
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e415e6aea75dcf78d19d776e4df0a6edf704db473eacf0c8ddbb366ffbf65947
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104103998"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789592"
 ---
 # <a name="ras_ppp_nbfcp_result-structure"></a>RAS \_ PPP \_ NBFCP \_ 結果結構
 

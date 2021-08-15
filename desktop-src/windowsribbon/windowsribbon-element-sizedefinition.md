@@ -3,7 +3,7 @@ title: SizeDefinition 元素
 description: 代表功能區控制項的自訂版面配置範本。
 ms.assetid: f90bb469-aee2-4bba-9efe-142a39a8c1ae
 keywords:
-- SizeDefinition 元素視窗功能區
+- SizeDefinition 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cc68ac032459bed77d402ebd860886398748c874
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 982825649afb7640f87cb7032b000d837915c4bc9d970444da3c5cd3a5a98375
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118439533"
 ---
 # <a name="sizedefinition-element"></a>SizeDefinition 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "111444799"
 <tr class="odd">
 <td><strong>名稱</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string 或 xs： token<br/></td>
-<td>是<br/></td>
+<td>Yes<br/></td>
 <td>當 <a href="windowsribbon-element-ribbon-sizedefinitions.md"><strong>SizeDefinitions</strong></a> 是父系時，則為選擇性。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string 或 xs： token) <br/> </dt> <dd> 介於2與59999（含）之間的字串或整數值，以及十六進位（含）之間的0xea5f。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
@@ -82,7 +82,7 @@ ms.locfileid: "111444799"
 
 | 元素                                                                                   |
 |-------------------------------------------------------------------------------------------|
-| [**群組**](windowsribbon-element-group.md)<br/>                                   |
+| [**Group**](windowsribbon-element-group.md)<br/>                                   |
 | [**功能區. SizeDefinitions**](windowsribbon-element-ribbon-sizedefinitions.md)<br/> |
 
 

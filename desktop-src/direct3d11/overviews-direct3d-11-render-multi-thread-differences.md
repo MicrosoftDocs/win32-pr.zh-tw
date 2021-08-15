@@ -4,12 +4,12 @@ description: 許多多執行緒程式設計模型會使用同步處理原始物�
 ms.assetid: 0c4f984e-4dd0-4714-b911-592ca86d5dc0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0e99c68dbdba1d6f0cdd789f6ccac8b81d4ac03
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 9e9b53e53ad10dc662bfb57dc880c6423b3df0f320d109f212e54c10f3b9f314
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117913055"
 ---
 # <a name="threading-differences-between-direct3d-versions"></a>Direct3D 版本之間的執行緒差異
 

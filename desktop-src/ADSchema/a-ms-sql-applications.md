@@ -1,11 +1,11 @@
 ---
-title: MS-SQL-Applications 屬性
+title: MS SQL-應用程式屬性
 description: 未使用。 預設值是設定為、Appl.exe 1、Appl.exe 2、Appl.exe 3、Appl.exe 4 和 Appl.exe 5。
 ms.assetid: 4907439e-8b1d-4e9e-8fce-6f4845f29c90
 ms.tgt_platform: multiple
 keywords:
-- MS-SQL-Applications 屬性 AD 架構
-- mS-SQL-Applications 屬性 AD 架構
+- MS SQL-應用程式屬性 AD 架構
+- mS SQL-應用程式屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 763f55b1e1adbe9b3fd23b43eb49948a487b18c9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 75c7ebd61f3ef75d80e22b26bb060010bd6012b57e3435b7fba0161f7d9ad4b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104509724"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118686738"
 ---
-# <a name="ms-sql-applications-attribute"></a>MS-SQL-Applications 屬性
+# <a name="ms-sql-applications-attribute"></a>MS SQL-應用程式屬性
 
 未使用。 預設值是設定為、Appl.exe 1、Appl.exe 2、Appl.exe 3、Appl.exe 4 和 Appl.exe 5。
 
@@ -29,8 +29,8 @@ ms.locfileid: "104509724"
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-SQL-應用程式                         |
-| Ldap-顯示名稱 | mS-SQL-應用程式                         |
+| CN                | MS SQL-應用程式                         |
+| Ldap-顯示名稱 | mS SQL-應用程式                         |
 | 大小              | \-                                          |
 | 更新許可權  | \-                                          |
 | 更新頻率  | \-                                          |
@@ -66,7 +66,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -87,7 +87,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -108,7 +108,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -129,7 +129,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -150,7 +150,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 
@@ -171,7 +171,7 @@ ms.locfileid: "104509724"
 | Range-Upper            | \-                                                                                                                            |
 | Search-Flags           | 0x00000000                                                                                                                    |
 | System-Flags           | 0x00000010                                                                                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> [**毫秒-SQL-OLAPDatabase**](c-ms-sql-olapdatabase.md)<br/> |
 
 
 

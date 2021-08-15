@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86c9428a39cfaebbce150583d47a344c4a36ca66
-ms.sourcegitcommit: 476861130ea63675206d1f06e517059705b930ed
+ms.openlocfilehash: 479e03e6e18c0ec7421bd225744c5181029fc2b2e220f35c7bae7a3b02d42b07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "106967871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120004888"
 ---
 # <a name="ping"></a>Ping
 
@@ -62,9 +62,9 @@ BITS-Packet-Type: Ping
 [**建立-會話**](create-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

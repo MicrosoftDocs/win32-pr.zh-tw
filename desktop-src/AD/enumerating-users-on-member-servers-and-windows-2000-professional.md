@@ -1,22 +1,22 @@
 ---
-title: 列舉成員伺服器與 Windows 2000 Professional 上的使用者
+title: 列舉成員伺服器上的使用者和 Windows 2000 Professional
 description: 本主題說明如何列舉本機安全性資料庫中，在 Windows 2000 Professional 上執行的成員伺服器和電腦上的所有使用者。
 ms.assetid: 56c20e8a-2861-4cd9-8058-271c89db7ec9
 ms.tgt_platform: multiple
 keywords:
-- 列舉成員伺服器與 Windows 2000 Professional AD 的使用者
-- 使用者廣告，列舉成員伺服器與 Windows 2000 Professional 上的使用者
-- Active Directory、使用、使用者、列舉成員伺服器與 Windows 2000 Professional 的使用者
+- 列舉成員伺服器和 Windows 2000 Professional AD 的使用者
+- 使用者廣告，列舉成員伺服器上的使用者和 Windows 2000 Professional
+- Active Directory、使用、使用者、列舉成員伺服器上的使用者和 Windows 2000 Professional
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 664af51b7feb2e0b9a683664659eefda11c9cb9d
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: a7f72e38a00e0fcc4310f7b8498b0dda28d71231df7e65fcf2de9945f5feef2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681670"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118694875"
 ---
-# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>列舉成員伺服器與 Windows 2000 Professional 上的使用者
+# <a name="enumerating-users-on-member-servers-and-windows-2000-professional"></a>列舉成員伺服器上的使用者和 Windows 2000 Professional
 
 本主題說明如何列舉本機安全性資料庫中，在 Windows 2000 Professional 上執行的成員伺服器和電腦上的所有使用者。
 
@@ -29,6 +29,6 @@ ms.locfileid: "103681670"
 2.  將 "user" 新增至 [**IADsContainer. Filter**](/windows/desktop/ADSI/iadscontainer-property-methods) 屬性。 這會使列舉只包含具有 "user" 物件類別的物件。
 3.  列舉物件。 針對每個使用者物件，使用 [**IADs**](/windows/desktop/api/iads/nn-iads-iads) 或 [**IADsUser**](/windows/desktop/api/iads/nn-iads-iadsuser) 介面方法來讀取使用者屬性。
 
- 
+ 
 
- 
+ 

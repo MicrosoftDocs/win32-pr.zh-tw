@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a1521738af4411baa2c11f3d20722e09e2d22a83
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: f427dc67695ebaca3e3e7502f2f1961b738a8f775ace394948ef445f3ad9a64e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508072"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118703084"
 ---
 # <a name="iconfigasfwriterconfigurefilterusingprofileguid-method"></a>IConfigAsfWriter：： ConfigureFilterUsingProfileGuid 方法
 
@@ -44,7 +44,7 @@ HRESULT ConfigureFilterUsingProfileGuid(
 *guidProfile* \[在\]
 </dt> <dd>
 
-識別設定檔的 **GUID** ，如 Windows MEDIA Format SDK 標頭檔 Wmsysprf 中所定義。
+識別設定檔的 **GUID** ，如 Windows 媒體格式 SDK 標頭檔 Wmsysprf. h 中所定義。
 
 </dd> </dl>
 
@@ -54,7 +54,7 @@ HRESULT ConfigureFilterUsingProfileGuid(
 
 
 
-| 傳回碼                                                                                         | Description                             |
+| 傳回碼                                                                                         | 描述                             |
 |-----------------------------------------------------------------------------------------------------|-----------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>                | 此方法已成功。<br/>        |
 | <dl> <dt>**E \_ 失敗**</dt> </dl>              | 設定檔無效。<br/>    |
@@ -66,7 +66,7 @@ HRESULT ConfigureFilterUsingProfileGuid(
 
 ## <a name="remarks"></a>備註
 
-從 Windows Media Format 9 系列 SDK 開始，尚未定義任何新的系統設定檔。 只有第8版 (或較早的) 系統設定檔 Guid 可搭配此方法使用。
+從 Windows 媒體格式9系列 SDK 開始，尚未定義任何新的系統設定檔。 只有第8版 (或較早的) 系統設定檔 Guid 可搭配此方法使用。
 
 ## <a name="see-also"></a>另請參閱
 

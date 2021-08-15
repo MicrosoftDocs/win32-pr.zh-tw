@@ -4,12 +4,12 @@ ms.assetid: 45d8b729-1e9d-40c0-8306-9a475262ac40
 title: 檔案類型和檔案關聯
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf84bbf44475d32768d2359d3723952ada843c7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd096aa81970ee1baff27ae87368d26827fd8d0b46f6bdd7c69190d5ddfc56f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118459191"
 ---
 # <a name="file-types-and-file-associations"></a>檔案類型和檔案關聯
 
@@ -34,7 +34,7 @@ ms.locfileid: "104192703"
 
 ## <a name="additional-resources"></a>其他資源
 
--   設定程式存取和電腦預設值 (SPAD) 是 Windows 主控台，可讓具有系統管理許可權的使用者設定電腦預設值，以及隱藏或顯示應用程式。 媒體、郵件、瀏覽器、Messenger 和 JAVA 應用程式都是在 SPAD 中註冊之應用程式的範例。 設定您的預設程式 (SYDP) 是一種 Windows 主控台，它只適用于有限的許可權，並允許使用者設定使用者預設值。 任何應用程式都可以在 SYDP 中註冊。 如需 SPAD 和 SYDP 應用程式註冊的相關資訊，請參閱檔案 [關聯和預設程式的指導方針](appguide-fa-defpro.md)，以及 [設定程式存取和電腦預設值 (SPAD) ](cpl-setprogramaccess.md)。
+-   設定程式存取和電腦預設值 (SPAD) 是 Windows 主控台，可讓具有系統管理許可權的使用者設定電腦預設值，以及隱藏或顯示應用程式。 媒體、郵件、瀏覽器、Messenger 和 JAVA 應用程式都是在 SPAD 中註冊之應用程式的範例。 設定您的預設程式 (SYDP) 是一種 Windows 的主控台，它只適用于有限的許可權，並允許使用者設定使用者預設值。 任何應用程式都可以在 SYDP 中註冊。 如需 SPAD 和 SYDP 應用程式註冊的相關資訊，請參閱檔案 [關聯和預設程式的指導方針](appguide-fa-defpro.md)，以及 [設定程式存取和電腦預設值 (SPAD) ](cpl-setprogramaccess.md)。
 -   如需相關的概念背景，請參閱 [動詞和檔案關聯的總覽](fa-verbs.md)。
 -   若要建立 Shell 資料存放區，請參閱 [執行基本資料夾物件介面](nse-implement.md)。
 

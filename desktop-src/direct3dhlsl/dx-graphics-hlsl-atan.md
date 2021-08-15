@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 290ced1e5100e3bbc780fab6ab984deaca38528f
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 69c3b51381318627dd5c3ce7b64fe405968c669418bdf743b5c56eaae535b0a4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682499"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726398"
 ---
 # <a name="atan"></a>atan
 

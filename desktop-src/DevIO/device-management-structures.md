@@ -4,12 +4,12 @@ ms.assetid: 85ebbdca-94a0-4467-8d15-ee3a850e1cd9
 title: 裝置管理結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 677f4768678d1dfdfd0a4cc102eafb01b84eb49d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a8118150ac6a3f145a49e59ed23f310c8b54adb78f8b23ba8f11c94db9e1c6e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847473"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118405323"
 ---
 # <a name="device-management-structures"></a>裝置管理結構
 

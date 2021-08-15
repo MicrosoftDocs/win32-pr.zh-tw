@@ -4,12 +4,12 @@ description: 事件可以包含當地語系化的訊息字串，您可以針對�
 ms.assetid: 31dd8276-1925-4a0e-9e2a-6966e8086238
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 314742838e5a756787385930e5122117b3a012c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 119f7467ab36a46039c32c6ffb6f347ca4450966da5b69c1531ac1a966e0b7f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120005288"
 ---
 # <a name="formatting-event-messages"></a>格式化事件訊息
 
@@ -218,9 +218,9 @@ LPWSTR GetMessageString(EVT_HANDLE hMetadata, EVT_HANDLE hEvent, EVT_FORMAT_MESS
 
 
 
- 
+ 
 
- 
+ 
 
 
 

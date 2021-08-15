@@ -4,12 +4,12 @@ ms.assetid: d98d5273-7827-4d77-8a4a-cc93dcf9a497
 title: 使用輸入方法管理員
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f10d4bf2f166352a9b783efe03748ef480d01b7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 89ee284ae9ad41ba5637ad1e02538ff7f1b269cb4f161d57b51b24e8419c5d0c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118389532"
 ---
 # <a name="using-input-method-manager"></a>使用輸入方法管理員
 

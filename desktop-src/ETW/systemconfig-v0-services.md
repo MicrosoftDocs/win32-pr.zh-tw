@@ -16,12 +16,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: b69ca7cf4ee4e16a5fbcb6a5f10c659f713ab458
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 5cfe3bfd4509a02eeafcb014f9265f810e4cb942e87b67390dbd1cbf841f7295
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105926"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118393787"
 ---
 # <a name="systemconfig_v0_services-class"></a>SystemConfig \_ V0 \_ 服務類別
 
@@ -125,7 +125,7 @@ class SystemConfig_V0_Services : SystemConfig_V0
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

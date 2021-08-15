@@ -13,18 +13,18 @@ api_type:
 - HeaderDef
 api_location:
 - Netmon.h
-ms.openlocfilehash: 7c04c7bc90fdd0f36beb6aed26a6b84c077eff5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 692b9e925442920a67434f74c9e8a8ebd225fc417cbbf419b6eb568aa9eee2df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117981411"
 ---
 # <a name="handoffentry-structure"></a>HANDOFFENTRY 結構
 
 **HANDOFFENTRY** 結構會在 **HANDOFFTABLE** 結構中定義特定的通訊協定專案。
 
-根據使用者在呼叫 [**CreateHandoffTable**](createhandofftable.md) 函式時提供的 .ini 檔中的資訊，網路監視器填入此結構。 應用程式絕對不應明確修改此結構。
+根據使用者在呼叫 [**CreateHandoffTable**](createhandofftable.md) 函式時提供的 .ini 檔案中提供的資訊，網路監視器填入此結構。 應用程式絕對不應明確修改此結構。
 
 ## <a name="syntax"></a>語法
 
@@ -61,14 +61,14 @@ typedef struct _SESSIONSTATS {
 **hoe \_ ProtocolHandle**
 </dt> <dd>
 
-使用由使用者提供的 .ini 檔案提供的通訊協定名稱建立的通訊協定控制碼。
+使用使用者提供的 .ini 檔案所提供的通訊協定名稱所建立的通訊協定控制碼。
 
 </dd> <dt>
 
 **hoe \_ ProtocolData**
 </dt> <dd>
 
-使用者提供的 .ini 檔案所提供的通訊協定實例資料。
+使用者提供的通訊協定實例資料 .ini 檔。
 
 </dd> </dl>
 

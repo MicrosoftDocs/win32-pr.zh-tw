@@ -4,12 +4,12 @@ ms.assetid: 1c1a201c-4b55-4b86-a08f-d06c1a7db29d
 title: 'MF_SD_PROTECTED 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c97320d15353b8e23a43fa4efac2e5883a7366f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22ae6cf92b3ada6309de7e92a722db38c88ce94a8af88aa6cc0176f738ff194b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989017"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118474047"
 ---
 # <a name="mf_sd_protected-attribute"></a>MF \_ SD \_ PROTECTED 屬性
 
@@ -54,8 +54,8 @@ BOOL StreamHasProtectedContent(IMFStreamDescriptor *pSD)
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows Vista \[ 桌面應用程式 \| UWP 應用程式\]<br/>                              |
-| 最低支援的伺服器<br/> | Windows Server 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | WindowsVista \[ desktop apps \| UWP 應用程式\]<br/>                              |
+| 最低支援的伺服器<br/> | WindowsServer 2008 \[ desktop app \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 
