@@ -4,12 +4,12 @@ ms.assetid: cd928266-889a-494c-a94b-4ea7b1dcc241
 title: 維護連接間的安全性內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb450dde789f17f46397cb56fe74b94adcf8ea6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d36b28d1db96efd6c41b3532b8021db7e6f8cf206e0df0bedf62b5775d2ba7de
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319835"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787045"
 ---
 # <a name="maintaining-the-security-context-between-connections"></a>維護連接間的安全性內容
 

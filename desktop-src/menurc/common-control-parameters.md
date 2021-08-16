@@ -4,12 +4,12 @@ description: 以下描述 control 資源定義語句的一般語法。
 ms.assetid: e7a49a9f-93b5-4221-8006-3d1864b7a6a1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 261c71163276ed39841d6f6d7e125d4eb5420072
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: abbdbf707e1ee72f62c7c08cb7065f4d1a4b8f2f4c000d52f3a28c9806a21a0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104314914"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117870559"
 ---
 # <a name="common-control-parameters"></a>通用控制項參數
 
@@ -102,6 +102,6 @@ control [[text,]] id, x, y, width, height[[, style[[, extended-style]]]][, helpI
 
 水準對話單位是對話方塊基底寬度單位的1/4。 垂直單位是對話方塊基底高度單位的1/8。 目前的對話方塊基礎單位是從目前系統字型的高度和寬度計算。 [**GetDialogBaseUnits**](/windows/win32/api/winuser/nf-winuser-getdialogbaseunits)函式會傳回對話方塊基礎單位（以圖元為單位）。 座標相對於對話方塊的原點。
 
- 
+ 
 
- 
+ 

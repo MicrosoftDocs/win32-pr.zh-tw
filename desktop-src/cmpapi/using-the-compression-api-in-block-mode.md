@@ -4,12 +4,12 @@ ms.assetid: 7483BCE4-3B85-4659-98E3-670D2F7EE52D
 title: 在區塊模式中使用壓縮 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1ddd1ecaec03d332262ffb24462e73a9fcb789d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b4b739c1496b43f64f8ceab4312602e9b98f7faebbb29317998a93e8f27b6883
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111456"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117737453"
 ---
 # <a name="using-the-compression-api-in-block-mode"></a>在區塊模式中使用壓縮 API
 
@@ -21,7 +21,7 @@ ms.locfileid: "104111456"
 
 使用緩衝區或區塊模式的應用程式，可以選擇在其對 [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) 或 [**CreateDecompressor**](/windows/desktop/api/compressapi/nf-compressapi-createdecompressor)的呼叫中指定自訂記憶體配置常式。
 
-**Windows 8 和 Windows Server 2012：** 若要使用下列範例程式碼，您必須執行 Windows 8 或 Windows Server 2012，並使用 "compressapi" 和 "cabinet.dll" 並連結至 ".Cab"。
+**Windows 8 和 Windows Server 2012：** 若要使用下列範例程式碼，您必須執行 Windows 8 或 Windows Server 2012，並具有 "compressapi .h" 和 "cabinet.dll" 並連結至 ".cab"。
 
 下列範例將示範如何在區塊模式中使用壓縮 API，以使用 LZMS 壓縮演算法和自訂的記憶體配置常式壓縮檔案。 您的應用程式必須包含 **壓縮 \_ 原始** 旗標，才能在區塊模式中使用壓縮 API。 首先，應用程式會呼叫 [**CreateCompressor**](/windows/desktop/api/compressapi/nf-compressapi-createcompressor) with **壓縮 \_ 演算法 \_ LZMS** \| **壓縮 \_ RAW** 以產生壓縮程式。 *AllocationRoutines* 參數會指定記憶體配置常式。 然後，應用程式會使用 [**SetCompressorInformation**](/windows/desktop/api/compressapi/nf-compressapi-setcompressorinformation)設定壓縮程式的區塊大小。
 

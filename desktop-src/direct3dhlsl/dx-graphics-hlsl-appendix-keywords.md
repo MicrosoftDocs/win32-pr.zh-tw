@@ -90,12 +90,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 017647104d7cb7a71b400390a307a633666bc100
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: b6c3e52f03ac283af0dd89a67caeb46d884f47c7587917966cc3a89869fc5e8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726658"
 ---
 # <a name="keywords"></a>關鍵字
 
@@ -157,7 +157,7 @@ Microsoft 高階著色器語言 (HLSL) 將本節中的單字視為關鍵字。 �
 
 使用 [ **匯出** ] 將封裝的函式標示為程式庫。
 
-請看以下範例：
+以下是範例：
 
 ``` syntax
 export float identity(float x)

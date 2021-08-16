@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割 Active Directory，用於建立的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d82b2c440547a28ffa585ea3a68a3127a5dc3942
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 923a1891b4980674df01463b4139ec24e771b3697c3648593b3499f3eb5f3838
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681668"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118190791"
 ---
 # <a name="example-code-for-creating-an-application-directory-partition"></a>建立應用程式目錄分割的範例程式碼
 
@@ -128,7 +128,7 @@ HRESULT CreateApplicationPartitionIADs(LPCWSTR pwszDCADsPath,
 
 
 
-下列 Visual Basic Scripting Edition 程式碼範例顯示如何使用 ADSI 建立新的應用程式目錄分割。
+下列 Visual Basic 腳本撰寫版程式碼範例示範如何使用 ADSI 建立新的應用程式目錄分割。
 
 
 ```VB
@@ -215,7 +215,7 @@ End Sub
 
 
 
-下列 Visual Basic .NET 程式碼範例顯示如何使用 [DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。
+下列 Visual Basic .net 程式碼範例顯示如何使用[DirectoryServices](/dotnet/api/system.directoryservices)建立新的應用程式目錄分割。
 
 
 ```VB
@@ -358,6 +358,6 @@ static void CreateApplicationPartitionCS(string DCADsPath,
 
 
 
- 
+ 
 
- 
+ 

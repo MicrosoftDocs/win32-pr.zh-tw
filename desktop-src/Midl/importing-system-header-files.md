@@ -6,12 +6,12 @@ keywords:
 - 匯入 MIDL、系統標頭檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c26df7ca983fa21ae8e604446f0221c302c73099
-ms.sourcegitcommit: 70f39ec77d19d3c32c376ee2831753d2cafae41a
+ms.openlocfilehash: 070351ecd47b24d16d3baa2dde33b0199b02f4bf12e8ccc8f5628564a88dd6a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103696342"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383875"
 ---
 # <a name="importing-system-header-files"></a>匯入系統標頭檔
 

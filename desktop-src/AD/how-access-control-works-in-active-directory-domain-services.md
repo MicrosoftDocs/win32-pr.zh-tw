@@ -7,18 +7,18 @@ keywords:
 - Active Directory Domain Services、安全性、描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2893c068e5a841ed609808964f203211309eaf4f
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 0f53cdd7b958313b3cb16bc538addc73b42bd0dc917160176422b85c959c8c05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933063"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188284"
 ---
 # <a name="how-access-control-works-in-active-directory-domain-services"></a>存取控制在 Active Directory Domain Services 中的運作方式
 
 Active Directory Domain Services 中物件的存取控制是以 Windows NT 和 Windows 2000 存取控制模型為基礎。 如需此模型及其元件（如安全描述項、存取權杖、Sid、Acl 和 Ace）的詳細資訊和詳細說明，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
 
-Active Directory Domain Services 中資源的存取權限通常會透過使用 (ACE) 的存取控制專案來授與。 ACE 會定義特定使用者或群組之物件的存取權或審核許可權。  (ACL) 的存取控制清單，是針對物件所定義之存取控制專案的已排序集合。 安全描述項支援可建立和管理 Acl 的屬性和方法。 如需安全性模型的詳細資訊，請參閱 [安全性](/windows/desktop/SecAuthZ/access-control) 或 *Windows 2000 伺服器資源套件*。  (此資源可能無法在某些語言及國家或地區使用。 ) 
+Active Directory Domain Services 中資源的存取權限通常會透過使用 (ACE) 的存取控制專案來授與。 ACE 會定義特定使用者或群組之物件的存取權或審核許可權。  (ACL) 的存取控制清單，是針對物件所定義之存取控制專案的已排序集合。 安全描述項支援可建立和管理 Acl 的屬性和方法。 如需安全性模型的詳細資訊，請參閱 [安全性](/windows/desktop/SecAuthZ/access-control)或 *Windows 2000 伺服器資源套件*。  (此資源可能無法在某些語言及國家或地區使用。 ) 
 
 安全性模型的基本大綱是：
 
@@ -38,8 +38,8 @@ Active Directory Domain Services 中資源的存取權限通常會透過使用 (
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

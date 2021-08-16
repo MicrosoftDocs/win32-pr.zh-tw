@@ -3,7 +3,7 @@ title: 'MCIWNDM_GETTIMEFORMAT 訊息 (Vfw .h) '
 description: MCIWNDM \_ GETTIMEFORMAT 訊息會以兩種形式，以數值和字串形式抓取 MCI 裝置目前的時間格式。 您可以使用 MCIWndGetTimeFormat 宏明確地傳送此訊息。
 ms.assetid: 01844872-5444-4f3b-92a3-64f80b94d3a0
 keywords:
-- MCIWNDM_GETTIMEFORMAT message Windows 多媒體
+- MCIWNDM_GETTIMEFORMAT 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a09f969c009ff23bc0951ed2efbc0dbf7aa95dda
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3badb7c7722db6444d3bd928535790876e0a128e69e50323cea3fe39c2dd987a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117985906"
 ---
 # <a name="mciwndm_gettimeformat-message"></a>MCIWNDM \_ GETTIMEFORMAT 訊息
 

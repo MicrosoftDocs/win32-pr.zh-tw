@@ -44,12 +44,12 @@ api_type:
 - HeaderDef
 api_location:
 - wiadef.h
-ms.openlocfilehash: d36a390256c6a9d183caa0f9231d2a92035d83da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6cf9c102e5ba9732369604bea21876af66ca525b596736521e92e59e52ddf9e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106967142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118207525"
 ---
 # <a name="common-wia-item-property-constants"></a>常見的 WIA 專案屬性常數
 
@@ -156,7 +156,7 @@ ms.locfileid: "106967142"
 <td style="text-align: left;"><p>包含目前使用的壓縮類型。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會讀取這個屬性，以判斷影像壓縮類型，或設定這個屬性來設定壓縮設定。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>下表包含對此屬性有效的常數。 <strong>V</strong>符號表示只有在 Windows Vista 和更新版本中才支援常數。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
+<p>下表包含對此屬性有效的常數。 <strong>V</strong>符號表示只有 Windows Vista 和更新版本才支援常數。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
 
 <table>
 <thead>
@@ -228,7 +228,7 @@ ms.locfileid: "106967142"
 <td style="text-align: left;"><p>包含裝置目前的資料類型設定。 迷你驅動程式會建立並維護此屬性。</p>
 <p>應用程式會讀取這個屬性，以判斷影像的資料類型。 應用程式會寫入這個屬性，以設定即將傳送之影像的目前資料類型。</p>
 <p>所有 WIA 2.0 專案都需要這個屬性。 它必須針對所有啟用 WIA 2.0 的已啟用專案進行讀取/寫入，並唯讀取 WIA 2.0 儲存體專案。</p>
-<p>類型： <strong>VT_I4</strong>;Windows Vista 前版作業系統的存取權：此屬性是唯讀的，適用于相機和讀取/寫入掃描器;Windows Vista 和更新版本的存取：此屬性是唯讀的，適用于 WIA_CATEGORY_FOLDER 和 WIA_CATEGORY_FINISHED_FILE 專案，以及所有其他 WIA 2.0 專案類別目錄的讀取/寫入;有效的值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>類型： <strong>VT_I4</strong>;適用于預先 Windows Vista 作業系統的存取：此屬性只會針對攝影機讀取，並可讀取/寫入掃描器;Windows Vista 和更新版本的存取：針對 WIA_CATEGORY_FOLDER 和 WIA_CATEGORY_FINISHED_FILE 專案，這個屬性是唯讀的，以及所有其他 WIA 2.0 專案類別目錄的讀取/寫入;有效的值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>下表具有六個在 <strong>WIA_IPA_FORMAT</strong> 未設定為 WiaImgFmt_RAW 時有效的常數。</p>
 
 <table>
@@ -322,7 +322,7 @@ ms.locfileid: "106967142"
 <td style="text-align: left;"><p>WIA_IPA_DEPTH 包含影像的位深度設定。 迷你驅動程式會建立並維護此屬性。應用程式會讀取這個屬性，以判斷影像的位深度設定。 此應用程式也可以將此值設定為所需的位深度。</p>
 <p>如果裝置只能設定為單一值，請建立 <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> 類型，並在其中放置有效的值。</p>
 <p>所有 WIA 2.0 專案都需要這個屬性。 它必須針對所有啟用 WIA 2.0 的已啟用專案進行讀取/寫入，並唯讀取 WIA 2.0 儲存體專案。</p>
-<p>類型： <strong>VT_I4</strong>;Windows Vista 前版作業系統的存取權：讀取/寫入;Windows Vista 和更新版本的存取：此屬性是唯讀的，適用于 WIA_CATEGORY_FOLDER 和 WIA_CATEGORY_FINISHED_FILE 專案，以及所有其他 WIA 2.0 專案類別目錄的讀取/寫入;有效的值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
+<p>類型： <strong>VT_I4</strong>;適用于預先 Windows Vista 作業系統的存取：讀取/寫入;Windows Vista 和更新版本的存取：針對 WIA_CATEGORY_FOLDER 和 WIA_CATEGORY_FINISHED_FILE 專案，這個屬性是唯讀的，以及所有其他 WIA 2.0 專案類別目錄的讀取/寫入;有效的值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
 <p>WIA_DEPTH_AUTO 定義為每圖元0位，而且是為 WIA_IPA_DEPTH 定義的新屬性值。 此值適用于所有可程式化的影像資料來源專案，包括平板和送紙器。 當 WIA 迷你驅動程式支援 WIA_DEPTH_AUTO 時，WIA 應用程式用戶端可以將 WIA_IPA_DEPTH 設定為此值，以在裝置上啟用自動色彩偵測。 當 WIA_DEPTH_AUTO 設定時，如果裝置支援自動色彩) ，則 WIA 迷你驅動程式必須將相同專案上的 WIA_IPA_DATATYPE 更新為 WIA_DATA_AUTO (必須是支援的值。</p>
 <p>WIA_DEPTH_AUTO 是選擇性的值，但是當 WIA_IPA_DATATYPE 支援 WIA_DATA_AUTO 時，就會變成必要值。</p></td>
 </tr>
@@ -350,7 +350,7 @@ ms.locfileid: "106967142"
 <p>應用程式會讀取此屬性，以判斷其即將接收的影像格式。 應用程式會寫入這個屬性來設定格式。 這個屬性相依于 <a href="https://msdn.microsoft.com/library/ms795488.aspx">WIA_IPA_TYMED</a> 屬性。 迷你驅動程式會建立並維護此屬性。</p>
 <p>如果裝置只能設定為單一值，請建立 <a href="-wia-property-attributes.md">WIA_PROP_LIST</a> 類型，並在其中放置有效的值。</p>
 <p>類型： <strong>CLSID</strong>，存取：讀取/寫入，有效值： <a href="-wia-property-attributes.md">WIA_PROP_LIST</a></p>
-<p>下表列出對此屬性有效的常數。 星號 * 表示 Windows Vista 中不支援常數。  (只能透過 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> 介面使用。 ) 雙星號 * * 表示 windows Server 2003 或 windows Vista 中不支援該常數。 <strong>V</strong>符號表示只有在 Windows Vista 和更新版本中才支援常數。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
+<p>下表列出對此屬性有效的常數。 星號 * 表示 Windows Vista 中不支援常數。  (只能透過<a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a>介面使用。 ) 雙星號 * * 表示 Windows Server 2003 或 Windows Vista 中不支援常數。 <strong>V</strong>符號表示只有 Windows Vista 和更新版本才支援常數。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
 
 <table>
 <thead>
@@ -386,7 +386,7 @@ ms.locfileid: "106967142"
 </tr>
 <tr class="odd">
 <td>WiaImgFmt_BMP</td>
-<td>具有標頭檔的 Windows 點陣圖</td>
+<td>使用標頭檔 Windows 點陣圖</td>
 </tr>
 <tr class="even">
 <td>WiaImgFmt_CIFF *</td>
@@ -531,12 +531,12 @@ ms.locfileid: "106967142"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ICM_PROFILE_NAME"></span><span id="wia_ipa_icm_profile_name"></span><dl> <dt><strong>WIA_IPA_ICM_PROFILE_NAME</strong></dt> <dt>PictureIcmProfileName</dt> </dl></td>
-<td style="text-align: left;"><p>包含正確解碼映射所需的 ICM 設定檔名稱。 應用程式會讀取此屬性，以判斷處理映射時所要使用的 ICM 設定檔。 WIA 服務會根據驅動程式安裝檔案中的 ICMProfiles 專案，建立及維護此屬性。</p>
+<td style="text-align: left;"><p>包含正確解碼映射所需的 ICM 設定檔名稱。 應用程式會讀取此屬性，以決定處理影像時要使用的 ICM 設定檔。 WIA 服務會根據驅動程式安裝檔案中的 ICMProfiles 專案，建立及維護此屬性。</p>
 <p>類型： <strong>VT_BSTR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_ITEM_CATEGORY"></span><span id="wia_ipa_item_category"></span><dl> <dt><strong>WIA_IPA_ITEM_CATEGORY</strong></dt> <dt>PictureItemCategory</dt> </dl></td>
-<td style="text-align: left;"><p>只有在 Windows Vista 和更新版本中才支援。</p>
+<td style="text-align: left;"><p>只有 Windows Vista 和更新版本才支援。</p>
 <p>WIA 2.0 專案會分組為類別，以定義如何處理或使用 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 。 例如，如果專案代表送紙器，則應用程式應該會預期它包含所需的檔送紙器屬性，並如同檔輸送器般運作。 如果專案代表已完成的檔案，則 WIA 2.0 應用程式應該以這種方式處理，並假設資料是靜態的，而且位於裝置上。  (每個專案的規則都會在其個別規格檔中定義。 ) </p>
 <p>所有 WIA 2.0 專案的必要專案。</p>
 <p>類型： <strong>VT_CLSID</strong>、存取：唯讀、有效的值： <a href="-wia-wia2-itemcategoryguids.md"><strong>專案分類 guid</strong></a></p></td>
@@ -546,7 +546,7 @@ ms.locfileid: "106967142"
 <td style="text-align: left;"><p>包含 WIA 專案的描述性旗標。 專案旗標與<a href="https://msdn.microsoft.com/library/ms794649.aspx">wiasCreateDrvItem</a>服務公用程式函式的<em>lObjectFlags</em>參數中的旗標相同。 WIA 服務會建立並維護此屬性。</p>
 <p>應用程式會讀取這個屬性，以判斷專案的描述性旗標值。</p>
 <p>類型： <strong>VT_I4</strong> 存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
-<p>下表包含對此屬性有效的旗標。 星號 * 表示 Windows Vista 或更新版本中不支援此旗標。  (只能透過 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> 介面使用。 ) 雙星號 * * 表示 windows Server 2003 或 windows Vista 或更新版本不支援此旗標。 <strong>V</strong>符號表示只有在 Windows Vista 和更新版本中才支援旗標。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
+<p>下表包含對此屬性有效的旗標。 星號 * 表示 Windows Vista 或更新版本中不支援此旗標。  (只能透過<a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a>介面使用。 ) 雙星號 * * 表示 Windows Server 2003 或 Windows Vista 或更新版本中不支援此旗標。 <strong>V</strong>符號表示只有 Windows Vista 和更新版本才支援旗標。  (只能透過 <a href="-wia-iwiaitem2.md"><strong>IWiaItem2</strong></a> 介面使用。 ) </p>
 
 <table>
 <thead>
@@ -716,7 +716,7 @@ ms.locfileid: "106967142"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><span id="WIA_IPA_ITEMS_STORED"></span><span id="wia_ipa_items_stored"></span><dl> <dt><strong>WIA_IPA_ITEMS_STORED</strong></dt> <dt>PictureItemItemsStored</dt> </dl></td>
-<td style="text-align: left;"><p>只有在 Windows Vista 和更新版本中才支援。</p>
+<td style="text-align: left;"><p>只有 Windows Vista 和更新版本才支援。</p>
 <p>指定 WIA_CATEGORY_FOLDER 專案中儲存的專案數。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -842,7 +842,7 @@ ms.locfileid: "106967142"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_RAW_BITS_PER_CHANNEL"></span><span id="wia_ipa_raw_bits_per_channel"></span><dl> <dt><strong>WIA_IPA_RAW_BITS_PER_CHANNEL</strong></dt> <dt>PictureRawBitsPerChannel</dt> </dl></td>
-<td style="text-align: left;"><p>只有在 Windows Vista 和更新版本中才支援。</p>
+<td style="text-align: left;"><p>只有 Windows Vista 和更新版本才支援。</p>
 <p>包含每個通道中的位數。 這個屬性應該回報為多個位元組值的向量（如同通道的數目），其中第一個位元組會對應到第一個通道中的位數，第二個位元組會對應到第二個通道中的位數，依此類推。 根據 WIA_IPA_CHANNELS_PER_PIXEL，每個頻道都必須有任意數量的專案。 當應用程式切換為 WiaImgFmt_RAW 時，驅動程式會設定該屬性。 針對已知的子類型，WIA_IPA_RAW_SUBTYPE 的表格中所列的專案數目如下。</p>
 <p>類型： <strong>VT_UI1</strong> | <strong>VT_VECTOR</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -854,7 +854,7 @@ ms.locfileid: "106967142"
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_SUPPRESS_PROPERTY_PAGE"></span><span id="wia_ipa_suppress_property_page"></span><dl> <dt><strong>WIA_IPA_SUPPRESS_PROPERTY_PAGE</strong></dt> <dt>PictureSuppressPropertyPage</dt> </dl></td>
 <td style="text-align: left;"><p>指定是否要隱藏裝置上專案的一般屬性頁。</p>
-<p>這個屬性可在 Windows XP 和更新版本上使用。</p>
+<p>這個屬性可在 Windows XP 及更新版本上使用。</p>
 <p>類型： <strong>VT_I4</strong>、存取：唯讀、有效的值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p>
 <p>下表包含對此屬性有效的常數。 星號 * 表示常數在 Windows Vista 和更新版本中是不正確。  (只能透過 <a href="/windows/desktop/api/wia_xp/nn-wia_xp-iwiaitem"><strong>IWiaItem</strong></a> 介面使用。 ) </p>
 
@@ -918,7 +918,7 @@ ms.locfileid: "106967142"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><span id="WIA_IPA_UPLOAD_ITEM_SIZE"></span><span id="wia_ipa_upload_item_size"></span><dl> <dt><strong>WIA_IPA_UPLOAD_ITEM_SIZE</strong></dt> <dt>PictureItemUploadItemSize</dt> </dl></td>
-<td style="text-align: left;"><p>只有在 Windows Vista 和更新版本中才支援。</p>
+<td style="text-align: left;"><p>只有 Windows Vista 和更新版本才支援。</p>
 <p>指定要為專案上傳的位元組數目。</p>
 <p>Type： <strong>VT_I4</strong>、Access： Read/Write、Valid 值： <a href="-wia-property-attributes.md">WIA_PROP_NONE</a></p></td>
 </tr>
@@ -933,8 +933,8 @@ ms.locfileid: "106967142"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Wiadef。h</dt> </dl> |
 
 

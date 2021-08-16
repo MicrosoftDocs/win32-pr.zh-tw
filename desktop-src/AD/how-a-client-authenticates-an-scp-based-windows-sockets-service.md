@@ -1,22 +1,22 @@
 ---
-title: 用戶端如何驗證 SCP 型 Windows 通訊端服務
+title: 用戶端如何驗證以 SCP 為基礎的 Windows 通訊端服務
 description: 本主題顯示用戶端應用程式用來撰寫服務之 SPN 的程式碼。
 ms.assetid: b5ef79c6-e321-435c-b3de-817fdea8836a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 38471f48d8c80d0795b7176b95df0029d42325ac
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40d35ad62e05ab925d2dedc10506ddb339c2aafd188487f2e1591713189f451a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118188662"
 ---
-# <a name="how-a-client-authenticates-an-scp-based-windows-sockets-service"></a>用戶端如何驗證 SCP 型 Windows 通訊端服務
+# <a name="how-a-client-authenticates-an-scp-based-windows-sockets-service"></a>用戶端如何驗證以 SCP 為基礎的 Windows 通訊端服務
 
 本主題顯示用戶端應用程式用來撰寫服務之 SPN 的程式碼。 用戶端會系結至服務的服務連接點 (SCP) 來取得連接到服務所需的資料。 SCP 也包含用戶端可以用來撰寫服務 SPN 的資料。 如需系結至 SCP 並抓取必要屬性的詳細資訊和程式碼範例，請參閱 [用戶端如何尋找和使用服務連接點](how-clients-find-and-use-a-service-connection-point.md)。
 
-本主題也會示範用戶端如何使用 SSPI 安全性封裝和服務的 SPN 來建立與 Windows 通訊端服務的相互驗證連線。 請注意，此程式碼與 Microsoft Windows NT 4.0 及更早版本中所需的程式碼幾乎完全相同，只是向伺服器驗證用戶端。 唯一的差別在於用戶端必須提供 SPN，並指定 ISC 要求的 \_ \_ 相互 \_ 驗證旗標。
+本主題也會說明用戶端如何使用 SSPI 安全性封裝和服務的 SPN，來建立與 Windows 通訊端服務的相互驗證連線。 請注意，此程式碼與 Microsoft Windows NT 4.0 及更早版本中所需的程式碼幾乎完全相同，只是向伺服器驗證用戶端。 唯一的差別在於用戶端必須提供 SPN，並指定 ISC 要求的 \_ \_ 相互 \_ 驗證旗標。
 
 ## <a name="client-code-to-make-an-spn-for-a-service"></a>用來建立服務 SPN 的用戶端程式代碼
 
@@ -266,9 +266,9 @@ return TRUE;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

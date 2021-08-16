@@ -1,5 +1,5 @@
 ---
-description: ExplorerPolicy 方法-取得指定之 Windows Internet Explorer 原則的值。
+description: ExplorerPolicy 方法-取得指定 Windows Internet Explorer 原則的值。
 ms.assetid: 47E17F6A-ED43-44cd-AF77-A6E49865E1B5
 title: 'ExplorerPolicy 方法 (Shldisp .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 765e1dc46edbe5a27292c5d8ff940e29b269f8dc
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 78a0e601e8093358ef05f259586726e840982d1a97d428b8453f26ecb878a4c6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083696"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857930"
 ---
 # <a name="shellexplorerpolicy-method"></a>ExplorerPolicy 方法
 
-取得指定之 Windows Internet Explorer 原則的值。
+取得指定 Windows Internet Explorer 原則的值。
 
 ## <a name="syntax"></a>語法
 
@@ -82,7 +82,7 @@ Shell.ExplorerPolicy( _
 
 下列範例示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **ExplorerPolicy** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -142,10 +142,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                   |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                          |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                        |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (6.0 版或更新版本) </dt> </dl> |
 
 

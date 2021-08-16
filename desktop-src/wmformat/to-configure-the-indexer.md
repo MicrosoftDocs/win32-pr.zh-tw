@@ -3,18 +3,18 @@ title: 設定索引子
 description: 設定索引子
 ms.assetid: 0e28e8dd-1586-45e6-8a08-5245d465d068
 keywords:
-- Windows Media Format SDK，設定索引子
+- Windows媒體格式 SDK，設定索引子
 - Advanced Systems Format (ASF) 、設定索引子
 - ASF (Advanced Systems Format) ，設定索引子
 - 索引，設定索引子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 618316e22b13ca05ff0fc1bbfb6b4583e79ca858
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: da5a624a4ed9ae749559a1908e3809500bf8aece2b29b8ad406769c5f639e547
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104374506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845623"
 ---
 # <a name="to-configure-the-indexer"></a>設定索引子
 
@@ -67,7 +67,7 @@ pMyIndexer = NULL;
 > [!Note]  
 > 預設索引類型 WMT \_ 它最近的 \_ \_ 清除 \_ 點。 雖然您可以將索引類型設定為其他值，但是這樣做會降低搜尋效能。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -85,9 +85,9 @@ pMyIndexer = NULL;
 [**使用索引**](working-with-indexes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

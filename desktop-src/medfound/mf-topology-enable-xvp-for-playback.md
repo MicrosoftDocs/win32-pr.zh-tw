@@ -3,12 +3,12 @@ description: 指定拓撲載入器是否會啟用轉碼視頻處理器 (XVP) 。
 title: 'MF_TOPOLOGY_ENABLE_XVP_FOR_PLAYBACK 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 02/22/2021
-ms.openlocfilehash: e36841db57e8343248ef5e369915d4bc357815bb
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 3f315463ce1719617c5a48066401219f4b971f0a555cadf2af43b055a2b0e9a1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117875724"
 ---
 # <a name="mf_topology_enable_xvp_for_playback-attribute"></a>MF \_ 拓撲 \_ 啟用 \_ XVP \_ 的 \_ 播放屬性
 
@@ -38,8 +38,8 @@ ms.locfileid: "106981972"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: c8517d04be1d63159a2548935f3e09c12e646775
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: aa945be7b01c928a5dc8f5e44a6a31e8cb6d879be102145d25e03e7bef73f3b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117729612"
 ---
 # <a name="id3dxprtengineresamplebuffer-method"></a>ID3DXPRTEngine：： ResampleBuffer 方法
 

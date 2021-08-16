@@ -110,7 +110,7 @@ vdate = .GetVarDate( _
 [**SWbemDateTime**](swbemdatetime.md)
 </dt> <dt>
 
-[Datetime](datetime.md)
+[DATETIME](datetime.md)
 </dt> </dl>
 
  

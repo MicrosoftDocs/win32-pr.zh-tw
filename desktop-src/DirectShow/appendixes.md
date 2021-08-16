@@ -4,12 +4,12 @@ ms.assetid: 94cfa199-5be7-4dc2-a78e-a9d1313a26ad
 title: DirectShow：附錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35f29034d5b35e5706270b82724df9ef811e597d
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 5a1b7429a3771a667a632e32bc351619a810ebc4ffdbae14339b38aa19876936
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824687"
 ---
 # <a name="directshow-appendix"></a>DirectShow：附錄
 

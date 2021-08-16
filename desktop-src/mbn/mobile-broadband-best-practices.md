@@ -4,12 +4,12 @@ ms.assetid: 523e3ea4-1d4e-45d1-bc24-93aa2fb14390
 title: 行動寬頻 API 最佳作法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 399c2ebc40a357eac9686bc3c2c9f471e3b853f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e3a6c1e236a61dd2a5321be2edb7a68156f904605bd8a1da5fc169ea8b70e464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191445"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881652"
 ---
 # <a name="mobile-broadband-api-best-practices"></a>行動寬頻 API 最佳作法
 

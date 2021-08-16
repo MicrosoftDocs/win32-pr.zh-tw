@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5545df50fce05ff5a10a5f870d1ec07648434fe9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5e9fbd9f402a659af27db42c34cb0c58e2097270b73eb0eeff382544979dc0a9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339693"
 ---
 # <a name="erroritem-method"></a>Error。 item 方法
 
@@ -57,7 +57,7 @@ retVal = Error.item(
 
 Windows Media Player 可能會產生一些錯誤，以回應錯誤狀況。 這個方法可讓您使用索引編號來抓取佇列中的特定錯誤。 錯誤佇列的索引編號開頭為零。
 
-您 *應該設定設定。* 如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
+您應該設定 *設定*。如果您選擇顯示自訂錯誤訊息，請 **enableErrorDialogs** 為 false。
 
 ## <a name="examples"></a>範例
 

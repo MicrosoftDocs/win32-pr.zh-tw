@@ -4,12 +4,12 @@ ms.assetid: ef09ef04-8925-4d66-97ad-70b4d7cf78b9
 title: enrollCustomCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2910e6a6ca784aaeb9ca97dc8de106932bd64c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799cd70d8f3b70ae32a95b7720a879ddd611fba5e35064d1794d39bdcd7ab9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780057"
 ---
 # <a name="enrollcustomcmc"></a>enrollCustomCMC
 
@@ -17,7 +17,7 @@ EnrollCustomCMC 範例會建立 CMC 憑證要求，並在憑證階層中註冊�
 
 ## <a name="location"></a>Location
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomCMC 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomCMC 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

@@ -7,12 +7,12 @@ keywords:
 - 在物件的 ACL 中檢查控制項存取權的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2b95054a7f21f1b9e96a7e6e0b723718598e8012
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d67428c9ff0c4558c71c39e53d411cea35958a8b8e6f1cc1207b7e4efae90d59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118191210"
 ---
 # <a name="example-code-for-checking-a-control-access-right-in-an-objects-acl"></a>在物件的 ACL 中檢查控制項存取權的範例程式碼
 
@@ -224,9 +224,9 @@ return hr;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

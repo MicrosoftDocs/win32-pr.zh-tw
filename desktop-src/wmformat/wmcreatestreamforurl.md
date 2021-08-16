@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 05fddd6d5359f1eada6a2691b51a692217d4a9dd
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9c32302147eeb814c211a77555ab1c9bb3614eddf3d8001015479461e05d40ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104373137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117653451"
 ---
 # <a name="wmcreatestreamforurl-function"></a>WMCreateStreamForURL 函式
 
@@ -29,9 +29,9 @@ ms.locfileid: "104373137"
 
 ```C++
 HRESULT WMCreateStreamForURL(
-  _In_  LPCWSTR pwszURL,
-  _Out_ BOOL    *pfCorrectSource,
-  _Out_ IStream **ppStream
+  _In_  LPCWSTR pwszURL,
+  _Out_ BOOL    *pfCorrectSource,
+  _Out_ IStream **ppStream
 );
 ```
 
@@ -73,9 +73,9 @@ HRESULT WMCreateStreamForURL(
 [**來源外掛程式**](source-plug-ins.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

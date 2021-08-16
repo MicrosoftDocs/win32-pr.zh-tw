@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101636
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 92c416b06fa0ab3e28e0e15309de8ed2a243145a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7ef5da7ac490b1111a7c0db3ff3fe2df02b21d4336aa8842ad9c17cec6b0f23c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104550485"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117901385"
 ---
 # <a name="esentdtccallbackunexpectederrorexception-properties"></a>EsentDTCCallbackUnexpectedErrorException 屬性
 

@@ -12,20 +12,20 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c48778d3ff54ddfb3dc8c07bc606a0d9cac5acb
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 2c8d9f59cff23c1dfc7a258658f2a9839b8b6d135b44b40c49f81e44b478de76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967863"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118383702"
 ---
 # <a name="in_line-attribute"></a>在 \_ 行屬性中
 
 Microsoft RPC 不支援 **\_ 行中** 的 DCE IDL 關鍵字。
 
- 
+ 
 
- 
+ 
 
 
 

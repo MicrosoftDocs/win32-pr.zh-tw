@@ -4,12 +4,12 @@ ms.assetid: dfc21263-dbb6-424c-9e1f-56bd4dda1314
 title: " (授權) 的集合"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 904c257dd777698d880c15a1f8e6c881217ac60d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d4c73b2c03b6732aa86567d1bcb072bb1d1f877482862c7629a7880570d4a1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848361"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782691"
 ---
 # <a name="collections-authorization"></a> (授權) 的集合
 

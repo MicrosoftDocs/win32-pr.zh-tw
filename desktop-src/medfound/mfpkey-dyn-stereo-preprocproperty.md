@@ -4,12 +4,12 @@ ms.assetid: d1c787ee-787b-4efa-8d96-5cb4ffff0ed2
 title: 'MFPKEY_DYN_STEREO_PREPROC 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 492f49fd372304bedbe88c0c95fb3eb652eb0773
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98cf644dbef028bb8bbc0208b5cabb48d5138372f259e451de4902ec0a2057ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984483"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117873515"
 ---
 # <a name="mfpkey_dyn_stereo_preproc-property"></a>MFPKEY \_ DYN \_ 身歷聲 \_ PREPROC 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: e2f22838-102e-432c-9c82-06a3e0741374
 title: 授權列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9363ca8039c326a81ad2e08a9136f5f65363146
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6dade6bad12da6decb352e127f279b0f573ae16b6031089dcf92b51fde3813da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193661"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784326"
 ---
 # <a name="authorization-enumerations"></a>授權列舉
 
@@ -32,7 +32,7 @@ ms.locfileid: "104193661"
 | [**強制 \_ 等級**](/windows/desktop/api/Winnt/ne-winnt-mandatory_level)<br/>                                         | 列出可能的安全性層級。<br/>                                                                                                                                                                                                                                        |
 | [**多個 \_ 信任者 \_ 操作**](/windows/desktop/api/AccCtrl/ne-accctrl-multiple_trustee_operation)<br/>                  | 包含值，指出 [**受信任**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) 結構是否為模擬信任者。<br/>                                                                                                                                                                  |
 | [**進程 \_ 調用 \_ 設定**](/windows/win32/api/accctrl/ne-accctrl-prog_invoke_setting)<br/>                                | 指出用來追蹤呼叫 [**TreeSetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-treesetnamedsecurityinfoa) 或 [**TreeResetNamedSecurityInfo**](/windows/desktop/api/Aclapi/nf-aclapi-treeresetnamedsecurityinfoa) 函式之函數的初始設定。<br/>                                       |
-| [**SE \_ 物件 \_ 類型**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | 包含值，這些值會對應至支援安全性的 Windows 物件類型。<br/>                                                                                                                                                                                     |
+| [**SE \_物件 \_ 類型**](/windows/desktop/api/AccCtrl/ne-accctrl-se_object_type)<br/>                                          | 包含值，這些值會對應至支援安全性的 Windows 物件類型。<br/>                                                                                                                                                                                     |
 | [**安全性 \_ 模擬 \_ 等級**](/windows/desktop/api/Winnt/ne-winnt-security_impersonation_level)<br/>              | 包含指定安全性模擬層級的值。 安全性模擬等級會控管伺服器進程可代表用戶端 [進程](/windows/desktop/SecGloss/p-gly)採取的程度。<br/>                                 |
 | [**SI \_ 頁面 \_ 類型**](/windows/desktop/api/Aclui/ne-aclui-si_page_type)<br/>                                              | 包含值，這些值表示存取控制編輯器屬性工作表中的屬性頁類型。<br/>                                                                                                                                                                      |
 | [**SID \_ 名稱 \_ 使用**](/windows/desktop/api/Winnt/ne-winnt-sid_name_use)<br/>                                              | 包含值，這些值會指定 [安全識別碼](/windows/desktop/SecGloss/s-gly) (SID) 的類型。<br/>                                                                                                                |

@@ -4,12 +4,12 @@ description: 如果應用程式的安全性需求與電腦上其他應用程式�
 ms.assetid: 04a7f688-78a3-490a-bcfa-862824a05422
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 03174dd66e83a88724ff5d421d7b0dcb0c17699e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: c5ace37c685748983d36b8a1e27a406fb8a81034d82ab793e77c4def960dfa2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309103"
 ---
 # <a name="setting-process-wide-security-using-dcomcnfg"></a>使用 DCOMCNFG 設定 Process-Wide 安全性
 
@@ -124,7 +124,7 @@ ms.locfileid: "104311613"
 
 ## <a name="dcomcnfgexe-and-64-bit-applications"></a>Dcomcnfg.exe 和64位應用程式
 
-在 x64 作業系統上，從 Windows XP 到 Windows Server 2008，64位版本的 DCOMCNFG.EXE 不會正確設定32位的 DCOM 應用程式以進行遠端啟用。 這種行為會導致以遠端方式啟動的元件，而不是在本機啟用。 在 Windows 7 和 Windows Server 2008 R2 和更新版本中不會發生此行為。
+在 x64 作業系統上 Windows XP 到 Windows Server 2008，64位版本的 DCOMCNFG.EXE 不會正確地設定32位的 DCOM 應用程式以進行遠端啟用。 這種行為會導致以遠端方式啟動的元件，而不是在本機啟用。 Windows 7 和 Windows Server 2008 R2 和更新版本中不會發生這種行為。
 
 解決方法是使用32位版本的 DCOMCNFG。 執行 mmc.exe 的32位版本，並使用下列命令列載入32位版本的元件服務嵌入式管理單元。
 
@@ -139,9 +139,9 @@ C： \\ WINDOWS \\ SysWOW64>**mmc comexp.msc services.msc/32**
 [設定 Process-Wide 安全性](setting-processwide-security.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

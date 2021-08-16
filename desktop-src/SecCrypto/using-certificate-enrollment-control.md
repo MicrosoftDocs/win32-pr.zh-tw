@@ -4,12 +4,12 @@ ms.assetid: 4ca3d6cb-6ce7-4408-9258-6e40c8219dc0
 title: 使用憑證註冊控制項
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ac3da319571b164fe66eb5bb3ac647c2978fff7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d489edb7ed288ffc0b51d039c6c32df90631b833d491567729f075c1cee9cae0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993005"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117971755"
 ---
 # <a name="using-certificate-enrollment-control"></a>使用憑證註冊控制項
 

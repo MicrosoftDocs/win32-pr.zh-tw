@@ -7,18 +7,18 @@ keywords:
 - 類別顯示名稱廣告，圖示
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 691d4ef22babeded12ec9b951f92247df99521b6
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: efe3548daa223cdfa05dee8ec3df8f2f8bc800c5ba7449920744de1a67ac8745
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118022599"
 ---
 # <a name="class-icons"></a>類別圖示
 
 用來代表類別物件的圖示可以在 DisplaySpecifiers 容器的 **>iconpath** 屬性中指定。 此外，每個類別都可以儲存多個圖示狀態。 例如，資料夾類別可以有開啟、關閉和停用狀態的圖示。 目前的執行最多接受每個類別16個不同的圖示狀態。
 
-**>iconpath** 屬性可以用兩種方式之一來指定。
+**>Iconpath** 屬性可以用兩種方式之一來指定。
 
 
 ```C++
@@ -51,6 +51,6 @@ ms.locfileid: "103933086"
 3.  若要加入新的值，請使用 [**IADs：:P utex**](/windows/desktop/api/iads/nf-iads-iads-putex) 方法，並將 *lnControlCode* 參數設定為 [ **ADS] 屬性 [ \_ \_ 附加**]。
 4.  若要認可目錄的變更，請呼叫 [**IADs：： SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo)。
 
- 
+ 
 
- 
+ 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a449a7b00516f4fee613722d1cc126eb74227948
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 456f7598b9e1f1d2c2a6e76e58a0b06142980835c3c6d71d9ab10c2230ac386f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987952"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337972"
 ---
 # <a name="playerplaylistcollectionplaylistremoved-event"></a>PlaylistCollectionPlaylistRemoved 事件
 
@@ -55,7 +55,7 @@ Player.PlaylistCollectionPlaylistRemoved(
 
 ## <a name="remarks"></a>備註
 
-事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入之 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
+事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
 
 **Windows Media Player 10** 行動裝置版：不支援這個事件。
 

@@ -4,12 +4,12 @@ description: 在目前迴圈的開頭有條件地繼續執行。
 ms.assetid: 1A5B1951-CE1E-479C-AE0F-FC5FB93E0DE9
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d480d8828f8f68af1f6a2ff4f52224041d5241df
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
-ms.translationtype: HT
+ms.openlocfilehash: d909c199dc0ceaa4e5498429f1ac3a136d3fb75d930e392d7f6fd8230e5b49b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117909055"
 ---
 # <a name="continuec-sm4---asm"></a>continuec (sm4-asm) 
 
@@ -84,9 +84,9 @@ Token 格式包含著色器中對應迴圈指令的位移，以方便使用。
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

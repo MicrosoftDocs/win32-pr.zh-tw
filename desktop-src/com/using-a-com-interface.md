@@ -4,12 +4,12 @@ description: 使用 COM 介面
 ms.assetid: 44e1aeac-585c-4856-8c4d-1adb5b307b74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 78b5d402079debf5e0a565c6b91136605cec50fb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 40ddf507be3a71d3b00f99574b2153dafd21a6558ee20fa5c3f2108675bf9b24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300199"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308924"
 ---
 # <a name="using-a-com-interface"></a>使用 COM 介面
 
@@ -93,9 +93,9 @@ void CustomRpt(char *pszObject)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

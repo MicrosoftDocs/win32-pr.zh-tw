@@ -1,9 +1,9 @@
 ---
 title: 'WM_DDE_UNADVISE 訊息 (的) '
-description: 動態資料交換 (DDE) 用戶端應用程式張貼一個 WM \_ dde \_ UNADVISE 訊息，通知 DDE 伺服器應用程式，該專案的指定專案或特定剪貼簿格式不應再更新。
+description: 動態資料交換 (dde) 用戶端應用程式張貼一個 WM \_ dde \_ UNADVISE 訊息，通知 DDE 伺服器應用程式，該專案的指定專案或特定剪貼簿格式不應再更新。
 ms.assetid: 9a5f9a86-e6fa-450e-b8bf-f20042c7e6d1
 keywords:
-- WM_DDE_UNADVISE 訊息資料交換
+- WM_DDE_UNADVISE 訊息資料 Exchange
 topic_type:
 - apiref
 api_name:
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dba83badcb689789d2654d99780bcb8cc503511d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bbd0ac8e056cc43be764e745f824b50fc90b3cb2f0c50c9061d111fb3bc178d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915102"
 ---
 # <a name="wm_dde_unadvise-message"></a>WM \_ DDE \_ UNADVISE 訊息
 
-動態資料交換 (DDE) 用戶端應用程式張貼一個 **WM \_ dde \_ UNADVISE** 訊息，通知 DDE 伺服器應用程式，該專案的指定專案或特定剪貼簿格式不應再更新。 這會終止指定專案的暖或經常性存取資料連結。
+動態資料交換 (dde) 用戶端應用程式張貼一個 **WM \_ dde \_ UNADVISE** 訊息，通知 DDE 伺服器應用程式，該專案的指定專案或特定剪貼簿格式不應再更新。 這會終止指定專案的暖或經常性存取資料連結。
 
 若要張貼此訊息，請使用下列參數呼叫 [**PostMessage**](/windows/desktop/api/winuser/nf-winuser-postmessagea) 函數。
 
@@ -68,7 +68,7 @@ ms.locfileid: "104466368"
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                 |
-| 標頭<br/>                   | <dl> <dt> (包含 Windows. h) </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Dde. h (包含 Windows .h) </dt> </dl> |
 
 
 

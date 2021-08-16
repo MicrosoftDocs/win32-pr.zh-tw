@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 6a6bd7219ba57c5c885e8123b181f899dc96e5d3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c9b6bb746c97a754f25e6cf15c705c7ad21ce8a3a78ec854857426aaf5ee891c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823367"
 ---
 # <a name="cbasepincbasepin-destructor"></a>CBasePin. ~ CBasePin 的函式
 

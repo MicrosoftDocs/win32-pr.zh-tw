@@ -5,12 +5,12 @@ ms.assetid: 434e2e0c-075e-48a9-9617-bbe75716380d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 729d8c5609691f1d51598701953c795225c08e4b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 45dcf64c087155054e46a5ec22e2b6f01e4db247ac485b1a056cf50e265af414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118362196"
 ---
 # <a name="attaching-to-an-sdo-enabled-computer"></a>附加至 SDO-Enabled 電腦
 
@@ -57,6 +57,6 @@ ms.locfileid: "104375465"
 
 如需詳細資訊，請參閱 [**ISdoMachine**](/windows/desktop/api/sdoias/nn-sdoias-isdomachine)、 [**ISdoMachine：： Attach**](/windows/desktop/api/sdoias/nf-sdoias-isdomachine-attach)。
 
- 
+ 
 
- 
+ 

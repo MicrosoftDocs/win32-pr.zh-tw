@@ -4,19 +4,19 @@ ms.assetid: cd2ce7b7-6167-4451-9f6e-881676a2145c
 title: MSGina.dll 功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51833ab92e47dad01c13df004797e3ab3552b09a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2acf5d1e7e9dccf9581b27ea2fef3deb1c2c8aa218a1b0a711b7015134e1d2d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117786747"
 ---
 # <a name="msginadll-features"></a>MSGina.dll 功能
 
 如果您要撰寫 [*GINA*](../secgloss/g-gly.md) 來取代 MICROSOFT STANDARD GINA DLL (MSGina.dll) ，您可能會想要提供部分或所有標準 GINA 功能。 以下是標準功能的清單，以及如何控制這些功能的簡短描述。
 
 > [!Note]  
-> 在 Windows Vista 中會忽略 GINA Dll。
+> Windows Vista 會忽略 GINA dll。
 
  
 
@@ -62,7 +62,7 @@ ms.locfileid: "103851139"
 
      
 
-    如果 **AutoAdminLogon** 索引鍵值存在且包含一個，而且 **AutoLogonCount** 索引鍵值不存在，則每次目前使用者登出或系統重新開機時，就會發生自動登入。 要登入的帳戶是使用 **DefaultUserName** 和 **DefaultDomainName** 索引鍵值指定的。 您可以用兩種方式之一來指定帳戶的密碼。 若為執行其中一個 Windows Server 2003 或 Windows XP 作業系統的電腦，則應使用 [**LsaStorePrivateData**](/windows/win32/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata) 函式將密碼儲存為秘密。 如需詳細資訊，請參閱 [保護自動登入密碼](protecting-the-automatic-logon-password.md)。 另一種儲存密碼的方式，是以純文字形式儲存在 Winlogon 金鑰的 **DefaultPassword** 專案中;基於安全性考慮，應避免使用此技術。 如果您使用 **LsaStorePrivateData** 函式來儲存密碼，則請勿在 Winlogon 金鑰中提供 **DefaultPassword** 專案。
+    如果 **AutoAdminLogon** 索引鍵值存在且包含一個，而且 **AutoLogonCount** 索引鍵值不存在，則每次目前使用者登出或系統重新開機時，就會發生自動登入。 要登入的帳戶是使用 **DefaultUserName** 和 **DefaultDomainName** 索引鍵值指定的。 您可以用兩種方式之一來指定帳戶的密碼。 如果電腦執行的是 Windows Server 2003 或 Windows XP 作業系統之一，則應該使用 [**LsaStorePrivateData**](/windows/win32/api/ntsecapi/nf-ntsecapi-lsastoreprivatedata)函式，將密碼儲存為秘密。 如需詳細資訊，請參閱 [保護自動登入密碼](protecting-the-automatic-logon-password.md)。 另一種儲存密碼的方式，是以純文字形式儲存在 Winlogon 金鑰的 **DefaultPassword** 專案中;基於安全性考慮，應避免使用此技術。 如果您使用 **LsaStorePrivateData** 函式來儲存密碼，則請勿在 Winlogon 金鑰中提供 **DefaultPassword** 專案。
 
     如果 **AutoAdminLogon** 索引鍵值存在且包含一個值，而且如果 **AutoLogonCount** 索引鍵值存在且不是零，則 **AutoLogonCount** 將會決定所發生的自動登入次數。 每次重新開機系統時， **AutoLogonCount** 的值就會遞減1，直到達到零為止。 當 **AutoLogonCount** 到達零時，系統將不會自動登入任何帳戶， **AutoLogonCount** 索引鍵值和 **DefaultPassword** 索引鍵值（如果有使用的話）將會從登錄中刪除，而且 **AutoAdminLogon** 會設定為零。
 
@@ -86,7 +86,7 @@ ms.locfileid: "103851139"
 
     Userinit.exe 是由使用者登入 MSGina.dll 所執行的應用程式。 它會在新登入的使用者 [*內容*](../secgloss/c-gly.md) 和應用程式桌面上執行。 其目的是要設定使用者的環境，包括還原網路使用、建立字型和螢幕色彩等設定檔設定，以及執行登入腳本。 完成這些工作之後，Userinit.exe 會執行使用者 shell 程式。 Shell 程式會繼承 Userinit.exe 設定的環境。 Userinit.exe 執行的特定 shell 程式會儲存在 Winlogon 登錄機碼下的 **shell** 索引鍵值中。
 
-    **Shell** 金鑰值可以包含要執行的程式清單（以逗號分隔）。 Windows 檔案總管是預設的 shell 程式，且如果 **shell** 索引鍵值為 null 或不存在，就會執行此程式。 預設會列出 Windows 檔案總管。
+    **Shell** 金鑰值可以包含要執行的程式清單（以逗號分隔）。 WindowsExplorer 是預設的 shell 程式，如果 **shell** 索引鍵值為 null 或不存在，就會執行此程式。 預設會列出 Windows 檔案總管。
 
 -   **登入的安全性選項**
 

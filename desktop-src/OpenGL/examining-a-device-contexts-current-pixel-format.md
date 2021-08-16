@@ -6,12 +6,12 @@ keywords:
 - Windows 上的 OpenGL，圖元
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea36f0f25b2cf76a6fb2ffb3159a4f2763a95af3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1b76dd8db71356b16a5a258669ffe2938d0982ab5e1417389840610c57a0fcdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118361368"
 ---
 # <a name="examining-a-device-contexts-current-pixel-format"></a>檢查裝置內容目前的像素格式
 
@@ -34,9 +34,9 @@ if (iPixelFormat = GetPixelFormat(hdc)) {
 
 
 
- 
+ 
 
- 
+ 
 
 
 

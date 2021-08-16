@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - combase.h
-ms.openlocfilehash: 55a225185733a822591d8f93c2eca3674d51a340
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fe50295f87e2932d3eb0fe53aac4896343a31441f8fa832bbaa69d5256846414
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106980175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824788"
 ---
 # <a name="amoviesetup_filter-structure"></a>AMOVIESETUP \_ 篩選結構
 
@@ -80,10 +80,10 @@ typedef struct _AMOVIESETUP_FILTER {
 
 ## <a name="remarks"></a>備註
 
-如需使用此結構的詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 此結構僅適用于在預設篩選準則分類 (CLSID LegacyAmFilterCategory) 中註冊的篩選準則 \_ 。 若要在不同類別中註冊篩選準則，請使用 [**IFilterMapper2：： RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) 方法，如實 [DllRegisterServer](implementing-dllregisterserver.md)中所述。
+如需使用此結構的詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。 此結構僅適用于在預設篩選準則分類 (CLSID LegacyAmFilterCategory) 中註冊的篩選準則 \_ 。 若要在不同類別中註冊篩選準則，請使用 [**IFilterMapper2：： RegisterFilter**](/windows/desktop/api/Strmif/nf-strmif-ifiltermapper2-registerfilter) 方法，如實 [DllRegisterServer](implementing-dllregisterserver.md)中所述。
 
 > [!Note]  
-> Combase 標頭檔隨附于 [DirectShow 基類](directshow-base-classes.md)。
+> 標頭檔 combase 是隨[DirectShow 的基類](directshow-base-classes.md)提供。
 
  
 
@@ -101,7 +101,7 @@ typedef struct _AMOVIESETUP_FILTER {
 
 <dl> <dt>
 
-[DirectShow 結構](directshow-structures.md)
+[DirectShow結構](directshow-structures.md)
 </dt> </dl>
 
  

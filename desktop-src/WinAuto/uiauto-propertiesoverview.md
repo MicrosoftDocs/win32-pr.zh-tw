@@ -15,12 +15,12 @@ keywords:
 - 動態屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0f4e5e1b29ae516059a531b17d50d0631282f82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 58267fae50fe71c320b334c35b8da7831657e00bdd1b222db596addd40f3afef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104182938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745028"
 ---
 # <a name="ui-automation-properties-overview"></a>UI 自動化屬性概觀
 
@@ -88,9 +88,9 @@ Microsoft 消費者介面自動化提供者會公開消費者介面自動化元�
 [UI 自動化事件概觀](uiauto-eventsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

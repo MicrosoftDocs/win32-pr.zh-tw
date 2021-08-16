@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f92b181d68fc9d80f581699ea0d886753e219c2a
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 597c2cd6975c6614c43a07b72308f24f369e96223bfb4dcf77be1397515aeac1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945823"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118358298"
 ---
 # <a name="glrasterpos3i-function"></a>glRasterPos3i 函式
 
@@ -56,7 +56,7 @@ void WINAPI glRasterPos3i(
 
 </dd> <dt>
 
-*Z* 
+*z* 
 </dt> <dd>
 
 指定目前點陣位置的 z 座標。

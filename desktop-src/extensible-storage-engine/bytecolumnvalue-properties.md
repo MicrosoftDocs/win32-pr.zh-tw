@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.byte
 ms:contentKeyID: 55100961
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 164eed167771ccc1bd6a23181ceaafc3049fd367
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d1c0a861cbc7adf7b1c0b9ea6f036b9ced6d14f7e8688e89d48c81c25b26554c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104564741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117902114"
 ---
 # <a name="bytecolumnvalue-properties"></a>ByteColumnValue 屬性
 

@@ -3,17 +3,17 @@ title: 錯誤
 description: 錯誤訊息是用來傳達有關遠端端點失敗的錯誤資訊。
 ms.assetid: d2bada50-2ddd-4f7f-9b25-7bbec77b431b
 keywords:
-- 適用于 Windows 的 Web 服務錯誤
+- Windows 的錯誤 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b2ecad1b63335b7f2bfc81c099b4f920d9de21c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 55cd9e28e9ec9ce2f3068643d44306f542eebabb9b0b0c8860b15e9e986b49b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106966787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841768"
 ---
 # <a name="faults"></a>錯誤
 
@@ -50,7 +50,7 @@ ms.locfileid: "106966787"
 
 ## <a name="handling-faults-on-a-client"></a>處理用戶端上的錯誤
 
-如果用戶端在使用 [服務 Proxy](service-proxy.md) 或透過 [**WsRequestReply**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) 或 [**WsReceiveMessage**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage)時收到錯誤，則會傳回 **WS \_ E 端點錯誤 \_ \_ \_ 接收** 錯誤。  (需詳細資訊，請參閱 [Windows Web 服務傳回值](windows-web-services-return-values.md)。 ) 這些函式也會以收到的錯誤相關資訊，填入提供給呼叫的 [WS \_ ERROR](ws-error.md) 物件。
+如果用戶端在使用 [服務 Proxy](service-proxy.md) 或透過 [**WsRequestReply**](/windows/desktop/api/WebServices/nf-webservices-wsrequestreply) 或 [**WsReceiveMessage**](/windows/desktop/api/WebServices/nf-webservices-wsreceivemessage)時收到錯誤，則會傳回 **WS \_ E 端點錯誤 \_ \_ \_ 接收** 錯誤。  (如需詳細資訊，請參閱[Windows Web 服務傳回值](windows-web-services-return-values.md)。 ) 這些函式也會以收到的錯誤相關資訊，填入提供給呼叫的[WS \_ ERROR](ws-error.md)物件。
 
 您可以使用 [**WsGetFaultErrorProperty**](/windows/desktop/api/WebServices/nf-webservices-wsgetfaulterrorproperty)來查詢 [WS \_ ERROR](ws-error.md)物件的下列屬性，以取得所收到之錯誤的相關資訊：
 
@@ -107,9 +107,9 @@ hr = WsReadBody(message, &faultDescription, WS_READ_REQUIRED_VALUE, &fault, size
 -   [**WS \_ 錯誤 \_ 詳細資料 \_ 描述**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_detail_description)
 -   [**WS \_ 錯誤 \_ 原因**](/windows/desktop/api/WebServices/ns-webservices-ws_fault_reason)
 
- 
+ 
 
- 
+ 
 
 
 
