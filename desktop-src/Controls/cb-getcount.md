@@ -3,7 +3,7 @@ title: 'CB_GETCOUNT 訊息 (Winuser .h) '
 description: 取得下拉式方塊清單方塊中的專案數。
 ms.assetid: 69667724-5452-4fcc-afc3-0d98d3beedc8
 keywords:
-- CB_GETCOUNT message Windows 控制項
+- CB_GETCOUNT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7900aadf3ba87cc7603a3fe15f4974911c9f9a37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8215046ae9558fd03388b2b0637233c2f69832ea07a7f20fd24ddc0a5eb3c177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832276"
 ---
 # <a name="cb_getcount-message"></a>CB \_ GETCOUNT 訊息
 
@@ -57,9 +57,9 @@ ms.locfileid: "103686687"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 048d67c9-1f57-4b05-b262-7d04ede69267
 title: GraphicsPath. AddString 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 63be3bf20a6b44413307ca85bad966af93c9d603
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d6470821a409a87b3c9d16131ed8c97657a1e148013d40fab54530f566bcc1a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115277"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964488"
 ---
 # <a name="graphicspathaddstring-methods"></a>GraphicsPath. AddString 方法
 

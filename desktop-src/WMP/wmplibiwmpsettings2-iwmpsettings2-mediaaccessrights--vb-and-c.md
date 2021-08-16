@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 96cca06b9618767e7748b4b1308ed97860c7c80b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 797e45c62b505033afd2126f79d5830de5bc9847a4de36199a6c919a4978f112
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122488"
 ---
 # <a name="iwmpsettings2mediaaccessrights-property"></a>IWMPSettings2：： mediaAccessRights 屬性
 

@@ -6,12 +6,12 @@ keywords:
 - Direct2D，繪製矩形程式碼範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 43442e57ed0949bdf39fc05ce1a69fded42b4b3d
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: a3fd732d1d18cd731f6e6caa46f456f4896f47f778f8edc824442dfee5f6ac4f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112406141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825429"
 ---
 # <a name="direct2d-quickstart-for-windows-8"></a>Windows 8 的 Direct2D 快速入門
 
@@ -200,9 +200,9 @@ DX::ThrowIfFailed(
 
 筆刷是繪製區域的物件，例如形狀的筆觸或幾何的填滿。 此範例中的筆刷繪製具有預先定義之純色的區域（黑色）。
 
-Direct2D 也提供其他類型的筆刷：繪製線性和星形漸層的漸層筆刷、使用點陣圖和模式繪製的 [**點陣圖筆刷**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush) ，以及從 Windows 8 開始，以轉譯影像繪製的 [**影像筆刷**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush) 。
+Direct2D 也提供其他類型的筆刷：繪製線性和星形漸層的漸層筆刷、使用點陣圖和模式繪製的 [**點陣圖筆刷**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmapbrush)，以及從 Windows 8 開始，以轉譯影像繪製的 [**影像筆刷**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1imagebrush)。
 
-某些繪圖 Api 提供畫筆來繪製填滿圖案的外框和筆刷。 Direct2D 不同：它不會提供畫筆物件，而是會使用筆刷繪製外框和填滿圖案。 繪製外框時，請使用 [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle) 介面，或從 Windows 8 [**ID2D1StrokeStyle1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1) 介面開始，並使用筆刷來控制路徑的筆劃作業。
+某些繪圖 Api 提供畫筆來繪製填滿圖案的外框和筆刷。 Direct2D 不同：它不會提供畫筆物件，而是會使用筆刷繪製外框和填滿圖案。 繪製外框時，請使用 [**ID2D1StrokeStyle**](/windows/win32/api/d2d1/nn-d2d1-id2d1strokestyle)介面，或從 Windows 8 [**ID2D1StrokeStyle1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1strokestyle1)介面開始，並使用筆刷來控制路徑的筆劃作業。
 
 筆刷只能搭配建立它的轉譯目標和相同資源網域中的其他轉譯目標使用。 一般情況下，您應該建立筆刷一次，並將其保留在建立它們的呈現目標的存留期內。 [**ID2D1SolidColorBrush**](/windows/win32/api/d2d1/nn-d2d1-id2d1solidcolorbrush) 是獨立的例外狀況;由於建立的成本相對較小，因此您可以在每次繪製框架時建立 **ID2D1SolidColorBrush** ，而不會影響任何明顯的效能。 您也可以使用單一 **ID2D1SolidColorBrush** ，只要在每次使用時都變更其色彩或不透明度。
 

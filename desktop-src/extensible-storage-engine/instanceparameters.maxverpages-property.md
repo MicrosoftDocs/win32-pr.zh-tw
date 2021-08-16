@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fd6a561a4005ab0992f6d32dbe6c65a241f517d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2ce33867409725a017ee5e80a936e40ecdb0c280f37d92718412d97502002452
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119039376"
 ---
 # <a name="instanceparametersmaxverpages-property"></a>InstanceParameters. MaxVerPages 屬性
 

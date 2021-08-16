@@ -4,12 +4,12 @@ ms.assetid: 529a8b7a-08b4-47de-8ed3-28e8fff0ede2
 title: 處理來自裝置的事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74692b73e39aa83286604408f3c556f5fbeb3f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efb972e0de232ce281923ae2f763e264ef7120f363981778dcab7a8cb254fbfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106986619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843240"
 ---
 # <a name="handling-events-from-the-device"></a>處理來自裝置的事件
 

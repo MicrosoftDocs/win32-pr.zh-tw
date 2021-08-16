@@ -1,5 +1,5 @@
 ---
-description: 您可以使用 WMI 腳本類型程式庫，從 Microsoft Visual Studio 和 Windows Script Host W2KMIGUSER.WSF 檔中呼叫 WMI 腳本 API 方法。
+description: 您可以使用 wmi 腳本類型程式庫，從 Microsoft Visual Studio 和 Windows 腳本主機 w2kmiguser.wsf 檔中呼叫 wmi 腳本 API 方法。
 ms.assetid: 6ef4e210-0733-4f2a-89c1-1a7aca5a19d9
 ms.tgt_platform: multiple
 title: 使用 WMI 腳本型別程式庫
@@ -10,21 +10,21 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8ba419d9a9b676d798b97e3b1a57f4e038d97814
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d53f74db0ff4b744077c4e208be52dd749c2f4f150d867c3cfc7214c0e66ae2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120768"
 ---
 # <a name="using-the-wmi-scripting-type-library"></a>使用 WMI 腳本型別程式庫
 
-您可以使用 WMI 腳本類型程式庫，從 Microsoft Visual Studio 和 Windows Script Host W2KMIGUSER.WSF 檔中呼叫 WMI 腳本 API 方法。
+您可以使用 wmi 腳本類型程式庫，從 Microsoft Visual Studio 和 Windows 腳本主機 w2kmiguser.wsf 檔中呼叫 wmi 腳本 API 方法。
 
 ## <a name="using-the-wmi-scripting-type-library-with-microsoft-visual-studio"></a>使用 WMI 腳本類型程式庫搭配 Microsoft Visual Studio
 
 > [!Note]  
-> Visual InterDev 6.0 功能已整合至 [Microsoft Visual Studio .net](https://msdn.microsoft.com/vstudio/default.aspx)中。
+> Visual InterDev 6.0 功能已整合至[Microsoft Visual Studio .net](https://msdn.microsoft.com/vstudio/default.aspx)中。
 
  
 
@@ -32,7 +32,7 @@ ms.locfileid: "106987694"
 
 **將 WMI 腳本類型程式庫加入至專案參考**
 
-1.  從 [**專案**] 功能表選取 [**加入參考**]。
+1.  選取 [ **Project** ] 功能表中的 [**加入參考**]。
 2.  在 [ **加入參考** ] 方塊的 [COM] 索引標籤中，選取 [Microsoft WMI 腳本1.2 程式庫]。
 3.  如果 [參考] 清單中沒有出現適當的選項，請使用 [**參考**] 方塊中的 **[流覽]** 將它加入。 **流覽** 會開啟 [**新增參考**] 方塊，讓您找出 WbemScripting 型別程式庫。
 
@@ -40,15 +40,15 @@ ms.locfileid: "106987694"
 
 4.  選取檔案，然後按一下 [開啟]。 [參考] 清單中會顯示 Microsoft WMI 腳本1.2 程式庫。 確定您在清單中選取此專案旁的方塊。
 
-## <a name="using-the-wmi-scripting-type-library-with-windows-script-host-20"></a>使用 WMI 腳本類型程式庫搭配 Windows Script Host 2。0
+## <a name="using-the-wmi-scripting-type-library-with-windows-script-host-20"></a>使用 WMI 腳本類型程式庫搭配 Windows 腳本主機2。0
 
-您可以在 Windows Script Host W2KMIGUSER.WSF 檔中包含 WbemScripting 的參考，而不像撰寫 Visual Basic、腳本撰寫版或其他指令碼語言的腳本 **。** 這可讓您使用常數名稱，而不是值。 例如，在設定驗證時，請使用 **WbemAuthenticationLevelPktPrivacy** ，而不是值6。
+您可以在 Windows 腳本主機 w2kmiguser.wsf 檔中包含 **WbemScripting. wbemscripting.swbemlocator** 的參考，而不像撰寫 Visual Basic、腳本撰寫版或其他指令碼語言的腳本。 這可讓您使用常數名稱，而不是值。 例如，在設定驗證時，請使用 **WbemAuthenticationLevelPktPrivacy** ，而不是值6。
 
 腳本可以使用下列方法，與 WMI 類型程式庫的腳本 API 連接：
 
 -   在 VBScript 方法 [CreateObject](/previous-versions//xzysf6hc(v=vs.85)) 和 [**GetObject**](https://msdn.microsoft.com/library/e9waz863(v=VS.71).aspx)中指定 WbemScripting GUID。
 
-    這會警示 Windows Script Host 以連接至 WMI 物件集。
+    這會警示 Windows 腳本主機，以連接至 WMI 物件集。
 
     下列 VBScript 程式碼範例會建立新的 [**SWbemDateTime**](swbemdatetime.md) 物件。
 

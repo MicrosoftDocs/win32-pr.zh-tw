@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 927dd6b2664c92ff07e94407fdc59fdd917363dd
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b9faf923cf6c771e95a7dfb4f0b04f896c54d79c6b5548e97850d867057b065b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847495"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834645"
 ---
 # <a name="joindomainorworkgroup-method-of-the-win32_computersystem-class"></a>Win32 JoinDomainOrWorkgroup 類別的方法 \_
 
@@ -151,7 +151,7 @@ uint32 JoinDomainOrWorkgroup(
 
 此選項會向預先建立的帳戶要求加入網域，而不需使用網域使用者認證進行驗證。 此選項可與 **NETSETUP \_ MACHINE \_ PWD \_ 傳遞** 的選項搭配使用。 在此情況下， *password* 是預先建立之電腦帳戶的密碼。
 
-在 Windows Vista （含 SP1）和 Windows Server 2008 之前，不安全的聯結不會驗證網域控制站。 所有通訊都是使用 null (未經驗證的) 會話來執行。 從 Windows Vista SP1 和 Windows Server 2008 開始，電腦帳戶名稱和密碼會用來驗證網域控制站。
+在 Windows Vista SP1 和 Windows Server 2008 之前，不安全的聯結不會驗證網域控制站。 所有通訊都是使用 null (未經驗證的) 會話來執行。 從 Windows Vista SP1 和 Windows Server 2008 開始，電腦帳戶名稱和密碼會用來驗證網域控制站。
 
 </dd> <dt>
 
@@ -191,7 +191,7 @@ uint32 JoinDomainOrWorkgroup(
 如果現有的帳戶是網域控制站，則允許加入網域。
 
 > [!Note]  
-> Windows Vista 及更新版本支援此旗標。
+> Windows Vista 和更新版本支援此旗標。
 
  
 
@@ -400,7 +400,7 @@ uint32 JoinDomainOrWorkgroup(
 
 當您將電腦從網域移到工作組時，必須先呼叫 [**UnjoinDomainOrWorkgroup**](unjoindomainorworkgroup-method-in-class-win32-computersystem.md)) ，將電腦從網域 (移除，然後再呼叫這個方法，將工作組 (與 **JoinDomainOrWorkgroup**) 的呼叫聯結。 呼叫此方法之後，請重新開機受影響的電腦以套用變更。
 
-使用者 *名稱* 和 *密碼* 可以保留 **null**。 不過，在 Visual Basic 的腳本或 **WbemAuthenticationLevelPktPrivacy** 中，對 WMI 的連線驗證必須是6，而且可以使用 [wbemdisp.dll](/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library) 程式庫的其他語言。 如需詳細資訊，請參閱 [使用 VBScript 設定預設進程安全性層級](/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript)。
+使用者 *名稱* 和 *密碼* 可以保留 **null**。 不過，在 Visual Basic 的腳本或 **WbemAuthenticationLevelPktPrivacy** 中，對 WMI 的連線驗證必須是6，而且可以使用 [wbemdisp.dll](/windows/desktop/WmiSdk/using-the-wmi-scripting-type-library)程式庫的其他語言。 如需詳細資訊，請參閱 [使用 VBScript 設定預設進程安全性層級](/windows/desktop/WmiSdk/setting-the-default-process-security-level-using-vbscript)。
 
 在 c + + 中，在 [**CoInitializeSecurity**](/windows/win32/api/combaseapi/nf-combaseapi-coinitializesecurity)、整個進程或 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket)中，針對 [**IWbemServices**](/windows/desktop/api/wbemcli/nn-wbemcli-iwbemservices) proxy 的連接，設定 **RPC \_ C \_ 驗證 \_ 層級 \_ PKT \_ 隱私權** 的驗證。 如需詳細資訊，請參閱 [使用 c + + 設定驗證](/windows/desktop/WmiSdk/setting-authentication-using-c-) 和 [設定 IWbemServices 和其他 proxy 的安全性](/windows/desktop/WmiSdk/setting-the-security-on-iwbemservices-and-other-proxies)。
 

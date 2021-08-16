@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d4c88b9046a89e37c4e9b588ff52ed937ee80e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f35f6b131fc41258dcce4490c731fde61ef8823cac164523b9b912c7d9586d9c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999196"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120122638"
 ---
 # <a name="wmlyrics-attribute"></a>WM/歌詞屬性
 
@@ -27,7 +27,7 @@ ms.locfileid: "106999196"
 
 -   [音訊專案](audio-item-attributes.md)
 -   [CD 曲目](cd-track-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 
 ## <a name="remarks"></a>備註
 
@@ -35,7 +35,7 @@ ms.locfileid: "106999196"
 
 **歌詞** 是這個屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMLyrics。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMLyrics。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

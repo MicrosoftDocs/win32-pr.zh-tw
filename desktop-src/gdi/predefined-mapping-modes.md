@@ -4,12 +4,12 @@ ms.assetid: 722df020-edf2-4763-b58c-3e29fa7007db
 title: 預先定義的對應模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f252f587e98a739306a84450a1d9669ed21873cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 72c0eecce6196672db11d61326c82364c1fde1d1b494e48ff77e214e79df91e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972564"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037676"
 ---
 # <a name="predefined-mapping-modes"></a>預先定義的對應模式
 

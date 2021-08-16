@@ -4,12 +4,12 @@ ms.assetid: 56052a82-d3a6-4749-9010-6796558dcb17
 title: 疑難排解網路總管
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 09afe7acbcb20d706c8645d84c68014b0e33d799
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 51a7c8e270fa3f1e07ce9b44fb9ce619d9fe5225e2c4d3ae87896d5e7cf20a2f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943415"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120120578"
 ---
 # <a name="troubleshooting-the-network-explorer"></a>疑難排解網路總管
 

@@ -13,12 +13,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 89ff01cbd407326f4970add38e091eb67e3ef20e
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 41dc3953268f2d8cfc0d76794a1ceff079b41751dd61fb94e24e2cb8d6521101
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196118"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963538"
 ---
 # <a name="isearchresultloadstate-method"></a>ISearchResult：： LoadState 方法
 

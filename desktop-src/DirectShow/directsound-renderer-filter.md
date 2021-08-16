@@ -4,18 +4,18 @@ ms.assetid: ec6cc790-8c1f-4de4-a7ca-a7073894380e
 title: DirectSound 轉譯器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae932340ea22213e0f9d7234599742d74208f632
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7e754c81ba9ac6d22141735ac1488218461d9ea63ef81f7bb947cb3e72fd81d6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104108504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119966318"
 ---
 # <a name="directsound-renderer-filter"></a>DirectSound 轉譯器篩選
 
 此篩選器會使用 DirectSound 來呈現音訊。 此篩選器目前為波形音效的預設音訊轉譯器。
 
-除了其基本的音效轉譯功能之外，此篩選器還可以處理 DirectSound API 呼叫。 您可以使用 [**IAMDirectSound**](/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound) 方法來設定和取出將處理音效播放的視窗。 DirectSound 音訊轉譯器是適用于 DirectShow 的預設音訊轉譯篩選器。
+除了其基本的音效轉譯功能之外，此篩選器還可以處理 DirectSound API 呼叫。 您可以使用 [**IAMDirectSound**](/previous-versions/windows/desktop/api/Amaudio/nn-amaudio-iamdirectsound) 方法來設定和取出將處理音效播放的視窗。 DirectSound 音訊轉譯器是 DirectShow 的預設音訊轉譯篩選。
 
 
 
@@ -96,7 +96,7 @@ ms.locfileid: "104108504"
 
 如果使用者選取裝置 A 作為預設裝置，則「預設 DirectSound 裝置」相當於「DirectSound：裝置 A」和「預設 WaveOut 裝置」相當於「裝置 A」。 如果使用者選取裝置 B 作為預設裝置，這些對應將會變更。
 
-「預設 DirectSound 裝置」已獲派慣用的業績 \_ 。 其他人則不會使用您的業績 \_ \_ \_ 。 因此，智慧型 Connect 一律會選擇預設的 DirectSound 裝置。
+「預設 DirectSound 裝置」已獲派慣用的業績 \_ 。 其他人則不會使用您的業績 \_ \_ \_ 。 因此，智慧型連線一律會選擇預設的 DirectSound 裝置。
 
 DirectSound 轉譯器篩選器可透過 DirectSound **IDirectSound3DBuffer** 和 **IDirectSound3dListener** 介面支援3d 音效。 您也可以查詢這些介面的目前版本（ **IDirectSound3DBuffer8** 和 **IDirectSound3dListener8**）的篩選準則。 在這些介面上呼叫方法之前，請先執行圖形。
 
@@ -104,7 +104,7 @@ DirectSound 轉譯器篩選器可透過 DirectSound **IDirectSound3DBuffer** 和
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

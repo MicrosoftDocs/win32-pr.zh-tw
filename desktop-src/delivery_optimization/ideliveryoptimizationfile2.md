@@ -48,7 +48,7 @@ ms.locfileid: "118542043"
 | 最低支援的用戶端      | Windows 10， \[ 僅限1803版桌面應用程式\]                                    |
 | 最低支援的伺服器      | WindowsServer， \[ 僅限1709版桌面應用程式\]                                |
 | 標頭                        | >Deliveryoptimization。h                                                            |
-| Idl                           | >deliveryoptimization .idl                                                          |
+| IDL                           | >deliveryoptimization .idl                                                          |
 | 程式庫                       | Dosvc .lib                                                                         |
 | DLL                           | Dosvc.dll                                                                         |
 | IID                           | IID_IDeliveryOptimizationFile2 定義為3A87296F-6EC2-4126-AB29-E3F8DC4CC390 |

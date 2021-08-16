@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 278de1a2e034fe4d003a1266f83cfb6812a30f1b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9973ea52a2140d02fb611cf79991c3e18196b3cc33df5edd52f9be3229faa94f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860859"
 ---
 # <a name="extending-the-desktop"></a>擴充桌面
 

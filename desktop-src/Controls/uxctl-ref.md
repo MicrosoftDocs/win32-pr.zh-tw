@@ -4,12 +4,12 @@ description: 本節說明搭配視覺化樣式使用的下列 API 元素。
 ms.assetid: f1d01045-a296-4b39-bd42-1262ba4ad3d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97868a924abadaddec66d53f58e039f280abb35e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: cac237e8951e2aec3e6521c6918d13f216b0dbd7b11a9eba03c074910fbaea17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828519"
 ---
 # <a name="visual-styles-reference"></a>視覺化樣式參考
 
@@ -139,7 +139,7 @@ ms.locfileid: "104024125"
 
 | 主題                                                                            | 目錄                                                                                                                                                                                  |
 |----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Aero 樣式類別、元件和狀態](aero-style-classes-parts-and-states.md) | 描述 Aero 主題所支援的類別、元件和狀態，以定義 Windows Vista 預設使用的視覺效果樣式<br/>                                       |
+| [Aero 樣式類別、元件和狀態](aero-style-classes-parts-and-states.md) | 描述 Aero 主題所支援的類別、元件和狀態，以定義預設 Windows Vista 使用的視覺效果樣式<br/>                                       |
 | [主題檔案格式](themesfileformat-overview.md)                               | 討論主題 ( 的格式。主題) 檔。 <br/>                                                                                                                                 |
 | [格式值](theme-format-values.md)                                         | 列出與 [**DrawThemeText**](/windows/desktop/api/Uxtheme/nf-uxtheme-drawthemetext)和 [**GetThemeTextExtent**](/windows/desktop/api/Uxtheme/nf-uxtheme-getthemetextextent)函數的 *dwTextFlags* 參數搭配使用的值。 <br/> |
 | [點擊測試選項](theme-hit-test-options.md)                                   | 列出與 [**HitTestThemeBackground**](/windows/desktop/api/Uxtheme/nf-uxtheme-hittestthemebackground)函數的 *>dwoptions* 參數搭配使用的選項值。 <br/>                                |

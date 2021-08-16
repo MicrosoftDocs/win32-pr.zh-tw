@@ -3,9 +3,9 @@ title: 備份和還原授權
 description: 備份和還原授權
 ms.assetid: 59be02fe-f207-4161-8765-9a88a8050248
 keywords:
-- Windows Media Format SDK，備份授權
-- Windows Media Format SDK，還原授權
-- Windows Media Format SDK、授權備份和還原
+- Windows媒體格式 SDK，備份授權
+- Windows媒體格式 SDK，還原授權
+- Windows媒體格式 SDK、授權備份和還原
 - Advanced Systems Format (ASF) ，備份授權
 - ASF (Advanced Systems Format) ，備份授權
 - Advanced Systems Format (ASF) ，還原授權
@@ -20,12 +20,12 @@ keywords:
 - DRM (數位版權管理) 、授權備份和還原
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d10d8e76c191225288a1021e08e4c77e7e14f3c6
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 378a41d975e8f19d38c637d585759d0038f5b86550769ae49d6a6490844f223e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028136"
 ---
 # <a name="backing-up-and-restoring-licenses"></a>備份和還原授權
 
@@ -61,7 +61,7 @@ ms.locfileid: "103681416"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -79,9 +79,9 @@ ms.locfileid: "103681416"
 [**IWMLicenseRestore 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmlicenserestore)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

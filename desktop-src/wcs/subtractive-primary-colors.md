@@ -3,7 +3,7 @@ title: Subtractive 主要色彩
 description: 色彩混合的 subtractive 方法是根據以白色開頭的假設。
 ms.assetid: 6493497c-6de4-4f09-9e88-5948bd93c3b8
 keywords:
-- Windows Color System (WCS) ，subtractive 主要色彩
+- Windows色彩系統 (WCS) ，subtractive 主要色彩
 - WCS (Windows 色彩系統) ，subtractive 主要色彩
 - 影像色彩管理，subtractive 主要色彩
 - 色彩管理，subtractive 主要色彩
@@ -13,12 +13,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b129ab34dc7eecc29860c2f3085b1c438ca5dd1f
-ms.sourcegitcommit: 38954f8f0d70f44bff4a943784f468ebd7ef691a
+ms.openlocfilehash: a3aaa8a177a38dc5e9970ff573327bb9c1aa3fc26c77b65910570c61f3235279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/26/2021
-ms.locfileid: "106988506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851398"
 ---
 # <a name="subtractive-primary-colors"></a>Subtractive 主要色彩
 

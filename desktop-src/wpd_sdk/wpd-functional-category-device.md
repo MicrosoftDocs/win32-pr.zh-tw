@@ -4,12 +4,12 @@ ms.assetid: 64b34490-1cb5-4915-ae1c-77bd4ab79ad7
 title: WPD_FUNCTIONAL_CATEGORY_DEVICE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb179311af5fb3c3eef063157e3615b21eeb66a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 499f39cf60e247c0abbbcc66f7fad52099a2a83a93f348b1ac9636bb790b9354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975838"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842214"
 ---
 # <a name="wpd_functional_category_device"></a>WPD \_ 功能 \_ 類別 \_ 裝置
 

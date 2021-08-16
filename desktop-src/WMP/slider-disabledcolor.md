@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b8887ca510eb9b3d668a79eda9cf1ec8f387eb91
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1623c1c22493722deb67d30db2c4d59ed0a28430968c989d145cbe6105d35030
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981343"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120123058"
 ---
 # <a name="sliderdisabledcolor"></a>滑杆. disabledColor
 

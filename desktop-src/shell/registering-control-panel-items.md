@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 05c2a652314babc212e17b48198e9441f4d3465d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: daa86bfd9975df5cd057dd3e577f443bafa6c363061e267e67adad69b590e678
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115728"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661078"
 ---
 # <a name="registering-control-panel-items"></a>註冊主控台專案
 
@@ -53,7 +53,7 @@ ms.locfileid: "104115728"
 [建立主控台專案的可搜尋工作連結](creating-searchable-task-links.md)
 </dt> <dt>
 
-[在 Windows Vista 下存取安全模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
+[在 Windows Vista 下存取保管庫模式下的主控台](accessing-the-cp-in-safe-mode-under-vista.md)
 </dt> </dl>
 
  

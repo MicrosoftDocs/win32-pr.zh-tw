@@ -4,12 +4,12 @@ ms.assetid: 76c4c444-cd6f-43ff-8ab7-96469d4505b9
 title: Graphics 函數
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 48c9a6181138b2c0a1caccb707ca30c3c4fedf5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 02b0b01e59227fba47a35a9c7cf7741d3dcb67b1c0feb5347d2b689dcd230529
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964798"
 ---
 # <a name="graphicsgraphics-constructors"></a>Graphics 函數
 

@@ -4,12 +4,12 @@ ms.assetid: 3b77cc23-c104-4adc-868c-3aa2b5794bc7
 title: ModuleConfiguration 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa187c10b5d3376a9bec78eb897b4982445ff01f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c499e313633d1668db81c91654800d1d5824192839329316f55040fd3bc7bad2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193310"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963058"
 ---
 # <a name="moduleconfiguration-table"></a>ModuleConfiguration 資料表
 

@@ -3,7 +3,7 @@ title: ScalingPolicy 屬性
 description: 表示索引標籤調整規格的容器。
 ms.assetid: cc1e4a35-9348-459b-a2f1-25c34d49e5e8
 keywords:
-- ScalingPolicy 屬性視窗功能區
+- ScalingPolicy 屬性 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46528e7b5957415db55f1a51dd6dafed7e1da98
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 11b98174ff5c3426a4805905f0aa7ada86d63a644f4245135bcede5c71d11e75
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850792"
 ---
 # <a name="tabscalingpolicy-property"></a>ScalingPolicy 屬性
 
@@ -51,7 +51,7 @@ ms.locfileid: "104466568"
 
 | 元素                                             |
 |-----------------------------------------------------|
-| [**索引標籤**](windowsribbon-element-tab.md)<br/> |
+| [**Tab**](windowsribbon-element-tab.md)<br/> |
 
 
 
@@ -137,8 +137,8 @@ ms.locfileid: "104466568"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>              |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/> |
 
 
 

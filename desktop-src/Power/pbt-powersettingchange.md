@@ -4,12 +4,12 @@ ms.assetid: 0bcadb85-47c5-48a9-b3f9-f0a1ca60b503
 title: 'PBT_POWERSETTINGCHANGE (WinUser 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0f38486d2e5cce1cfe541468e548e92353c9837
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e50a793e22cce7b0720fa7a020fb3d2d1b6e464ef619a0cf5c43ca256748d69
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119961688"
 ---
 # <a name="pbt_powersettingchange-event"></a>PBT \_ POWERSETTINGCHANGE 事件
 
@@ -75,9 +75,9 @@ WindowProc( HWND hwnd,      // handle to window
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>WinUser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>WinUser (包含 Windows .h) </dt> </dl> |
 
 
 

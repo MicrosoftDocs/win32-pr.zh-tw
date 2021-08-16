@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 8825d192dcb874ce8b148c4ade5c579a55857311
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eae44bbdb93ab2b3ffa0d09385c56b463192cc68c17e0454f9edd3326f722d29
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672558"
 ---
 # <a name="interface-usage-restrictions"></a>介面使用限制
 
@@ -145,9 +145,9 @@ float main() : wicked
 [動態連結](overviews-direct3d-11-hlsl-dynamic-linking.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

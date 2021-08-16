@@ -4,12 +4,12 @@ ms.assetid: 78274e3f-4846-45c5-a2fd-323dcedf84bf
 title: 設定應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52914a7fc48bff5bf12880b8c9eb7702c2eac4ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 58be6e69fc9d1915c985c21ec67e0bcf5d20ea01509ddab868845483ba070f5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119665178"
 ---
 # <a name="setup-applications"></a>設定應用程式
 

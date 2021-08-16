@@ -4,12 +4,12 @@ ms.assetid: bef63c68-cf41-4367-8101-35fb9ca2af17
 title: LayoutPattern
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 94fa7025007197f4d523fa0ad1b715b80f2faca1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: deac4397c60e499e84f8996b341332396fb6574cb222f753a0aa4ece77e81942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104192845"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033726"
 ---
 # <a name="layoutpattern"></a>LayoutPattern
 

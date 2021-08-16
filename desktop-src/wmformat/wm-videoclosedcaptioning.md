@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2470b3b46ca33256b6e727a8c77e92037f8bb1f6
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 5bd9d6227c127a0e8e7ed1765d13c0c2d9f40d79f6e864a1c982e6678ae617d4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022584"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844084"
 ---
 # <a name="wmvideoclosedcaptioning"></a>WM/VideoClosedCaptioning
 
@@ -42,9 +42,9 @@ g \_ wszWMVideoClosedCaptioning
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

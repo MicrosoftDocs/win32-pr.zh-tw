@@ -4,12 +4,12 @@ ms.assetid: A263C3F7-357B-426D-B38C-533F9F6A1262
 title: 'MF_MT_ALPHA_MODE 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06b81da14bc0a9e089a5af4815e5bf97359a9cb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4c658cae64c68aa89c49230164707d75369c021767c6aa0b46818516ffa26513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035316"
 ---
 # <a name="mf_mt_alpha_mode-attribute"></a>MF \_ MT \_ ALPHA \_ 模式屬性
 
@@ -32,7 +32,7 @@ ms.locfileid: "104026827"
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server，版本 1709 \[ 桌面應用程式\]<br/>                      |
+| 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                      |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

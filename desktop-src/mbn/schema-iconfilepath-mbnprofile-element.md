@@ -11,12 +11,12 @@ api_name:
 - ICONFilePath
 api_type:
 - Schema
-ms.openlocfilehash: 6b1e98f76fe2f83ce214076223b5a1439bd0ea45
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ea662a7519a8705818ef502f5b797f437b0f89bee649d0bde18ce6f71b099d74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998458"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035816"
 ---
 # <a name="iconfilepath-mbnprofile-element"></a>ICONFilePath (MBNProfile) 元素
 
@@ -26,7 +26,7 @@ ms.locfileid: "106998458"
 
 在 [**IMbnConnectionProfileManager**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofilemanager)介面的 [**CreateConnectionProfile**](/windows/desktop/api/mbnapi/nf-mbnapi-imbnconnectionprofilemanager-createconnectionprofile)方法中傳遞用來建立設定檔的 XML 時，此路徑應指向圖示檔的來源位置。 在成功建立 [**IMbnConnectionProfile**](/windows/desktop/api/mbnapi/nn-mbnapi-imbnconnectionprofile) 物件時，行動寬頻服務會複製其內部存放區中的圖示檔，並且會修改設定檔路徑以反映此情況。
 
-圖示檔的格式應為具有32X32 圖元維度的 .bmp 格式。
+圖示檔的格式應為32X32 圖元維度的 .bmp 格式。
 
 此元素是長度最多為1024個字元的字串，其中包含絕對檔案路徑。
 

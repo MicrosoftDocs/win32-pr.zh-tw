@@ -4,12 +4,12 @@ ms.assetid: fd16bd46-32e3-4896-ac5c-03c1bf6ad515
 title: JobAccountingSheet
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 499d78db7a967e256ee79cd6e0c35d2f7d59dff4
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 678a2c0cb39fd29dcf46779b306e380dd7535a6fadc762d89a3cb92f4db24c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112409092"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119034156"
 ---
 # <a name="jobaccountingsheet"></a>JobAccountingSheet
 
@@ -58,7 +58,7 @@ ms.locfileid: "112409092"
 
 
 
-| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 總結                                                                      |
+| Name                               | 資料類型         | 單位                  | 支援的值                                                                                                                                                                      | 摘要                                                                      |
 |------------------------------------|-------------------|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|
 | \_選項名稱\_<br/>          | string<br/> | 字元<br/> | 以 [XML 命名空間](https://www.w3.org/TR/1999/REC-xml-names-19990114/)所定義的有效完整名稱。 如果未指定命名空間，則會假設為預設命名空間。<br/> | 選項的名稱。<br/>                                           |
 | \_IdentityOptionValue\_<br/> | string<br/> | n/a<br/>        | True、False。<br/>                                                                                                                                                               | 定義選項，當選取此選項時，會停用此功能。<br/> |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 193bf35b9e16e19b08de100044ba994ed5c60050
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b4012569c392406470a7e53e7e4a4cb9c1aa010b5c30ebf98a3f88d3f3b5396b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104312993"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027096"
 ---
 # <a name="wmconductor"></a>WM/導體
 
@@ -38,9 +38,9 @@ g \_ wszWMConductor
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

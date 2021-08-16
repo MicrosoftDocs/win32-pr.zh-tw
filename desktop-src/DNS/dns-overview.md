@@ -4,12 +4,12 @@ description: DNS 是一種業界標準的服務，用來在網際網路通訊協
 ms.assetid: 98ecf24b-8bd5-4a75-a487-8af3080e8987
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 470807a5775b022834a3ca2f0ee3f91db8bdd5de
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: d5a47874606491c1baf5c52ca7934d7e0c3156a6ab99f9726e6c000d9eb3cb65
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104196157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967468"
 ---
 # <a name="dns-overview"></a>DNS 概觀
 

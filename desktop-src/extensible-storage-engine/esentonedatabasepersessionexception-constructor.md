@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6a04dfb618ff02ac081b0c1d707e2cbcd02181ac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36f81655dec18e933044265d2659f750388bf51fba3fdaf89157d9bae9e97a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040116"
 ---
 # <a name="esentonedatabasepersessionexception-constructor"></a>EsentOneDatabasePerSessionException 函式
 

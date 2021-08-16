@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea66f3bc4cf01d194dc44bcdf7b7cc838e1f3799
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 86ce3c1572515b320a62b1b3c76aac72e44101e21f3b0f89d7c3356046ea95f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118997448"
 ---
 # <a name="controlsplay-method"></a>控制項. play 方法
 
@@ -46,7 +46,7 @@ Controls.play()
 
 ## <a name="remarks"></a>備註
 
-如果在快速轉送或倒轉時呼叫這個方法，則 *設定* 的值。**速率** 設定為1.0。
+如果在快速轉送或倒轉時呼叫這個方法，*設定* 的值。**速率** 設定為1.0。
 
 ## <a name="examples"></a>範例
 

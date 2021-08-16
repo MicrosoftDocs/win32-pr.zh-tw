@@ -3,7 +3,7 @@ title: 'EM_GETPASSWORDCHAR 訊息 (Winuser .h) '
 description: 取得當使用者輸入文字時，編輯控制項所顯示的密碼字元。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 874336f6-701b-466a-afa6-0cb3e787ba4c
 keywords:
-- EM_GETPASSWORDCHAR message Windows 控制項
+- EM_GETPASSWORDCHAR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6285f002554e22c89896711d3d1d355a95c6bb7a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b8c4e7ac576f18d0ab28fcf8c2288d2bee7966866a71180a81c34896c2396f56
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831204"
 ---
 # <a name="em_getpasswordchar-message"></a>EM \_ GETPASSWORDCHAR 訊息
 
@@ -61,9 +61,9 @@ ms.locfileid: "103844135"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

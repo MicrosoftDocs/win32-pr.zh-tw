@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 303030a5674f39c160804ae2dad5b91050d82f37
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 96444f0e50cbb79074c6fc6d8b041d91c0751616ec5afe7024704709a2240947
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934610"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119964008"
 ---
 # <a name="idwritetextlayout3getlinespacing-method"></a>IDWriteTextLayout3：： GetLineSpacing 方法
 
@@ -59,8 +59,8 @@ HRESULT GetLineSpacing(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                 |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/> |
 | 程式庫<br/>                  | <dl> <dt>Dwrite .lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

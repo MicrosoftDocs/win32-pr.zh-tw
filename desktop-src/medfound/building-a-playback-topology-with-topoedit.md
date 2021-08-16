@@ -4,12 +4,12 @@ ms.assetid: 4d4c4ff9-dad1-4c79-a44a-2ad20f1bbca0
 title: 使用 TopoEdit 建立播放拓撲
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f942984b3ba56ef1288566cee80e7d30026de155
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 80a71ae353c11108fe7c844d8ddd6441e652e007646b91f44c6fe2b480a22a8a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "106981719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119035426"
 ---
 # <a name="building-a-playback-topology-with-topoedit"></a>使用 TopoEdit 建立播放拓撲
 

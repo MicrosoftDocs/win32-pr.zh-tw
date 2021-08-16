@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: bb9507f6a15c24f83846ed2b9a8e3f59e17c5b06
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6930e689a3a1809ccc4d464ad734fd7caf0ffdd4889a04660bc7ff2e5cbe400b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119040342"
 ---
 # <a name="esentntsystemcallfailedexception-constructor"></a>EsentNTSystemCallFailedException 函式
 

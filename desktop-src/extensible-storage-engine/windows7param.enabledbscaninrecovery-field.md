@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: fa04ac765e44deb1b624f4adede2d2c3610bf64a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d971b6848f757503c28430dcc92ff8d398e3156eda54068cbea4da13da9e21b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119967038"
 ---
 # <a name="windows7paramenabledbscaninrecovery-field"></a>Windows7Param. EnableDbScanInRecovery 欄位
 

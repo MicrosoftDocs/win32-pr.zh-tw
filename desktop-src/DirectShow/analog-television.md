@@ -4,12 +4,12 @@ ms.assetid: 9f2c18ec-3684-42a8-a3df-5f8827b27642
 title: 類比電視
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33af8ba94831afed59d783598dbf6bc0eaee0ec6
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 886c2b3f93ca70fb4a533f131611431c4a15df51169f70ed49f321c0ccfc8c2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109001"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824754"
 ---
 # <a name="analog-television"></a>類比電視
 
@@ -28,7 +28,7 @@ ms.locfileid: "104109001"
 -   如果調諧器卡有一個以上的實體輸入，則 [類比視頻縱橫](analog-video-crossbar-filter.md) 條篩選器可讓應用程式選取已解碼和轉譯的輸入。
 -   [WDM 影片捕獲](wdm-video-capture-filter.md)篩選器會傳遞數位化的影片串流。
 
-「捕獲圖形產生器」會自動從「捕捉」篩選器中插入任何需要上游的篩選。
+capture Graph Builder 會自動從 capture 篩選器插入任何需要上游的篩選。
 
 本節包含下列主題：
 

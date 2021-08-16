@@ -4,12 +4,12 @@ ms.assetid: 66aa07d8-6756-4d5b-9f0a-24b902da6fa2
 title: Advanced 拓朴建築
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b4cc061d4e557dda4ccbb81eabc55e8e1b3e33b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49d7f2bba412a698d688bc9d88e9935ed0988cc909931634633a0d75b88c2fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664868"
 ---
 # <a name="advanced-topology-building"></a>Advanced 拓朴建築
 

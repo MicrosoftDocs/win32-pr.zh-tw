@@ -4,16 +4,16 @@ description: Emp 標記
 ms.assetid: b0ba1315-cb7c-403f-ad32-65b899eb37bb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c28a6e34952c62fe698d9851a7f24d49e94c8cf1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7669544bf20e8ad734276fbd55b3770d5a05ca59cb6d5ad45d6103ace9e0ca71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183586"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119963048"
 ---
 # <a name="emp-tag"></a>Emp 標記
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -35,9 +35,9 @@ ms.locfileid: "104183586"
 
 只有 TTS 產生的輸出才支援此標記。 參數的值範圍可能會根據已安裝的 TTS 引擎而有所不同。
 
- 
+ 
 
- 
+ 
 
 
 

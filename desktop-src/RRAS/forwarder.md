@@ -4,12 +4,12 @@ description: 轉寄站是路由器的核心模式元件，負責將資料從一�
 ms.assetid: 69cdbefa-9137-48cb-940a-badfb3f4f231
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52885000a9f1fcc117cd1fefc207531b9b524e74
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 5011d340b444c9d0be5b26ee5449f041bb7419fd4a52f8a983ce2b85d9b106f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021496"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119674018"
 ---
 # <a name="forwarder"></a>轉寄站
 
@@ -21,9 +21,9 @@ ms.locfileid: "104021496"
 
 多播群組管理員會使用路由表的多播視圖中的資訊，將多播轉送專案新增至多播轉寄站。
 
- 
+ 
 
- 
+ 
 
 
 

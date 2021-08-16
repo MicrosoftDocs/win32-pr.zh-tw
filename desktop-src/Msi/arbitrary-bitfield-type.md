@@ -4,12 +4,12 @@ ms.assetid: 28e1bdb9-a42d-46ce-ad24-71bc22e2d92a
 title: 任意位欄位類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6571b8585c94577927df8cfedaded802a67d125
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 842c9d1725b2bfe9ef0585cafd085ac1ceba33554899909ae3317af38fd7caac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381382"
 ---
 # <a name="arbitrary-bitfield-type"></a>任意位欄位類型
 

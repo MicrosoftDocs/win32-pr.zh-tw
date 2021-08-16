@@ -4,12 +4,12 @@ ms.assetid: 3a2796c8-1a39-49eb-98e1-c9e06c61f397
 title: 叫用服務方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 15b9540cf7378e13d56af2611d6216897c6750f6
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 0553e1490a6f8d0903756767397c30c2e1137a16a80609ed3a22da69188f799e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110424198"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843105"
 ---
 # <a name="invoking-service-methods"></a>叫用服務方法
 

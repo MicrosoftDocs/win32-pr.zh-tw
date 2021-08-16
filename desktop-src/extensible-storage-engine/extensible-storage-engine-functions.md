@@ -1,6 +1,6 @@
 ---
-description: 深入瞭解：可擴充儲存引擎函數
-title: 可擴充儲存引擎函式
+description: 深入瞭解：可擴充的儲存體引擎函數
+title: 可擴充的儲存體引擎函數
 TOCTitle: Extensible Storage Engine Functions
 ms:assetid: c105fa69-e558-4e11-995c-dcf1e5cfbe7e
 ms:mtpsurl: https://msdn.microsoft.com/library/Gg294078(v=EXCHG.10)
@@ -14,21 +14,21 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: ae151bacca3c542f0d1632f077c73f537a071bc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 690167c88ce092aac078da53b559c6f72b41abd4658dba196c1e54124a2e7eed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026405"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119969038"
 ---
-# <a name="extensible-storage-engine-functions"></a>可擴充儲存引擎函式
+# <a name="extensible-storage-engine-functions"></a>可擴充的儲存體引擎函數
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
-## <a name="extensible-storage-engine-functions"></a>可擴充儲存引擎函式
+## <a name="extensible-storage-engine-functions"></a>可擴充的儲存體引擎函數
 
-可延伸儲存引擎 API 有下列功能：
+可擴充的儲存體引擎 API 有下列功能：
 
   - [JetAddColumn](./jetaddcolumn-function.md)
 

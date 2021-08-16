@@ -4,12 +4,12 @@ description: 統一資源定位器 (URL) 是網際網路上資源的位置和存
 ms.assetid: bb59ada6-f49f-412c-a32c-4fb9495b1222
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 08157738d99e78ff4d458a3bdd1b1e2e661ce538
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 419433c8a06b6243bf048896664a67da31a3c58d1d79eb6fea65f9fc99dbe63a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "104560312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120121868"
 ---
 # <a name="handling-uniform-resource-locators"></a>處理統一資源定位器
 
@@ -310,7 +310,7 @@ BOOL listURLpart( HWND hDlg, int nListBoxId,
 如需詳細資訊，請參閱 [**HINTERNET 控制碼**](appendix-a-hinternet-handles.md)。
 
 > [!Note]  
-> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 針對伺服器執行或服務，請使用 [Microsoft WINDOWS HTTP services (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
+> WinINet 不支援伺服器實施。 此外，它不應該從服務使用。 若為伺服器執行或服務，請使用[Microsoft Windows HTTP 服務 (WinHTTP) ](/windows/desktop/WinHttp/winhttp-start-page)。
 
  
 

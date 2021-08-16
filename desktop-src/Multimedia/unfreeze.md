@@ -113,7 +113,7 @@ unfreeze vboard at 10 20 90 165
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)
