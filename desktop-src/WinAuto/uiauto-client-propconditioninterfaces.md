@@ -4,12 +4,12 @@ description: 本節說明適用于 Microsoft Win32 應用程式之消費者介�
 ms.assetid: cea34e47-03a9-4ff9-9019-427a2a3e13d6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00f840706d4f9e340cae86813a4992400791dccd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 447c2bf9a67a5fc9cbd303e86599502e2b6154f53485af5a57bf13a6268fa930
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133481"
 ---
 # <a name="property-condition-interfaces-for-clients"></a>用戶端的屬性條件介面
 

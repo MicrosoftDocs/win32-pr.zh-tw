@@ -3,13 +3,13 @@ title: 備份與還原 DRM 授權
 description: 備份與還原 DRM 授權
 ms.assetid: ec2777e9-76af-43fe-8bd5-4d7532d2fb32
 keywords:
-- Windows Media Format SDK，備份 DRM 授權
-- Windows Media Format SDK，還原 DRM 授權
-- Windows Media Format SDK，DRM 授權
-- Windows Media Format SDK，DRM 的授權
-- Windows Media Format SDK，備份還原功能
-- Windows Media Format SDK，授權管理服務
-- Windows Media Format SDK，詐騙偵測
+- Windows媒體格式 SDK，備份 DRM 授權
+- Windows媒體格式 SDK，還原 DRM 授權
+- Windows媒體格式 SDK，DRM 授權
+- Windows媒體格式 SDK，DRM 的授權
+- Windows媒體格式 SDK，備份還原功能
+- Windows媒體格式 SDK，授權管理服務
+- Windows媒體格式 SDK，詐騙偵測
 - 數位版權管理 (DRM) ，備份授權
 - DRM (數位版權管理) ，備份授權
 - 數位版權管理 (DRM) ，還原授權
@@ -32,12 +32,12 @@ keywords:
 - 詐騙偵測
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7718f03170077f7db624f8a99b8262239a79ca9
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: 019163a42312b14b7d7b7e15cea68be1996a976e42b31491f62486a43d37b8bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "104316651"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028146"
 ---
 # <a name="backing-up-and-restoring-of-drm-licenses"></a>備份與還原 DRM 授權
 
@@ -66,7 +66,7 @@ ms.locfileid: "104316651"
 > [!Note]  
 > 當使用者將授權還原至不同的電腦，而且授權需要使用個人化時，終端使用者必須授權 DRM 元件更新。 您必須在播放程式應用程式中執行程式，以支援這項功能。
 
- 
+ 
 
 ## <a name="detecting-fraud"></a>偵測詐騙
 
@@ -77,7 +77,7 @@ ms.locfileid: "104316651"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -89,9 +89,9 @@ ms.locfileid: "104316651"
 [**備份和還原授權**](backing-up-and-restoring-licenses.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

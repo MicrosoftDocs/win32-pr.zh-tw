@@ -15,12 +15,12 @@ keywords:
 - 線上商店的線上安裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd342d3fc79cf3012d5bc290561a9b63167e044f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 801dd9fbee8bff2660a39f6b40e8a5a9e703df00f82be54a7b93c0d200d2ccea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135551"
 ---
 # <a name="installing-from-the-web-while-online"></a>在線上時從 Web 安裝
 
@@ -30,13 +30,13 @@ ms.locfileid: "106967627"
 
 https://go.microsoft.com/fwlink/p/?linkid=32981&SV=*版本*&UserLocale =*localID*&Service =*key*
 
-在上述 URL 中，將 *金鑰* 設定為線上商店的金鑰名稱，並將 *localeID* 設定為存放區提供服務的地區設定識別碼。 在 Windows XP 上將 Windows Media Player 11 的 *版本* 設定為2，或針對 Windows Media Player 10 設定為1。 此 URL 會安裝 Windows Media Player，並將初始使用中的存放區設定為索引 *鍵* 所指定的存放區。
+在上述 URL 中，將 *金鑰* 設定為線上商店的金鑰名稱，並將 *localeID* 設定為存放區提供服務的地區設定識別碼。 將 Windows XP 或1上 Windows Media Player 11 的 *版本* 設定為2，Windows Media Player 10。 此 URL 會安裝 Windows Media Player，並將初始使用中的存放區設定為索引 *鍵* 所指定的存放區。
 
 下列範例會顯示安裝 Windows Media Player 11 的 URL，並將 Proseware 設定為初始使用中存放區。 適用于 *localeID* 的409值表示 Proseware 提供美國的服務。
 
 https://go.microsoft.com/fwlink/p/?linkid=32981&SV=2&UserLocale=409&Service=Proseware
 
-如果線上商店的 ServiceInfo 檔包含 Install 元素，Windows Media Player 安裝程式將會自訂安裝程式。 安裝程式會使用屬性值， (EULA) 和您的隱私權聲明中顯示您的使用者授權合約，也會將您的 .cab 檔案取出並安裝到使用者的電腦上。 例如，您可以使用這項功能來安裝您的線上商店所需的最新 COM 物件版本。
+如果線上商店的 ServiceInfo 檔包含 Install 元素，Windows Media Player 安裝程式將會自訂安裝程式。 使用屬性值時，安裝程式會顯示您的使用者授權合約 (EULA) 和您的隱私權聲明，並同時抓取 .cab 檔案並安裝到使用者的電腦上。 例如，您可以使用這項功能來安裝您的線上商店所需的最新 COM 物件版本。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -54,9 +54,9 @@ https://go.microsoft.com/fwlink/p/?linkid=32981&SV=2&UserLocale=409&Service=Pros
 [**設定初始線上商店**](setting-the-initial-online-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

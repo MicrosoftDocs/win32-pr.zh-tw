@@ -4,12 +4,12 @@ description: 「多重傳遞轉譯」是一種程式，應用程式在此程式�
 ms.assetid: 9a11686a-fd99-4d40-8b02-6f8ec18346e8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70fcf7f3f04bd641fdf82c9cf317e8a2ec99e85c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 242573dea2982f3525082187aad536a407e446c4ce59f116f53b8fa0d40fc582
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301280"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124206"
 ---
 # <a name="multiple-pass-rendering"></a>Multiple-Pass 轉譯
 
@@ -48,7 +48,7 @@ ms.locfileid: "104301280"
 > [!Note]  
 > 立即內容會修改資源，此資源系結至立即內容，做為轉譯目標視圖 (RTV) ;相反地，每個延遲的內容只會使用資源，此資源會系結至延遲的內容，做為著色器資源檢視 (SRV) 。 如需立即和延後內容的詳細資訊，請參閱 [立即和延](overviews-direct3d-11-render-multi-thread-render.md)後轉譯。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -57,9 +57,9 @@ ms.locfileid: "104301280"
 [轉譯](overviews-direct3d-11-render.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -31,7 +31,7 @@ ms.locfileid: "118955010"
 
 
 
-| 受保護的成員變數                                             | Description                                                                                                                       |
+| 受保護的成員變數                                             | 描述                                                                                                                       |
 |------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
 | [**m \_ bDirty**](cbasepropertypage-m-bdirty.md)                        | 指出是否有任何屬性變更。                                                                             |
 | [**m \_ DialogId**](cbasepropertypage-m-dialogid.md)                    | 對話方塊的資源識別碼。                                                                                               |
@@ -39,7 +39,7 @@ ms.locfileid: "118955010"
 | [**m \_ hwnd**](cbasepropertypage-m-hwnd.md)                            | 對話方塊視窗的控制碼。                                                                                                      |
 | [**m \_ pPageSite**](cbasepropertypage-m-ppagesite.md)                  | 屬性頁網站之 **IPropertyPageSite** 介面的指標。                                                         |
 | [**m \_ TitleId**](cbasepropertypage-m-titleid.md)                      | 包含對話方塊標題之字串的資源識別碼。                                                                  |
-| 公用方法                                                         | Description                                                                                                                       |
+| 公用方法                                                         | 描述                                                                                                                       |
 | [**CBasePropertyPage**](cbasepropertypage-cbasepropertypage.md)       | 函式方法。                                                                                                               |
 | [**~ CBasePropertyPage**](cbasepropertypage--cbasepropertypage.md)     | 函式方法。 虛擬。                                                                                                       |
 | [**OnActivate**](cbasepropertypage-onactivate.md)                     | 在屬性頁啟用時呼叫。 虛擬。                                                                              |
@@ -48,7 +48,7 @@ ms.locfileid: "118955010"
 | [**OnDeactivate**](cbasepropertypage-ondeactivate.md)                 | 當對話方塊視窗終結時呼叫。 虛擬。                                                                          |
 | [**OnDisconnect**](cbasepropertypage-ondisconnect.md)                 | 當屬性頁應該釋放相關聯的物件時呼叫。 虛擬。                                                      |
 | [**OnReceiveMessage**](cbasepropertypage-onreceivemessage.md)         | 當對話方塊收到訊息時呼叫。 虛擬。                                                                           |
-| IPropertyPage 方法                                                  | Description                                                                                                                       |
+| IPropertyPage 方法                                                  | 描述                                                                                                                       |
 | [**啟用**](cbasepropertypage-activate.md)                         | 建立對話方塊視窗。                                                                                                    |
 | [**套用**](cbasepropertypage-apply.md)                               | 將目前的屬性頁值套用至與屬性頁面相關聯的物件                                          |
 | [**停用**](cbasepropertypage-deactivate.md)                     | 終結對話方塊視窗。                                                                                                       |

@@ -4,12 +4,12 @@ ms.assetid: bdba41b5-63e6-4534-83ac-90a799365419
 title: 系統。狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 485df9fef86758fffc7a84cdadd5737c3d14ddd2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 824ada27c313103e3b5d7e2db230bfd19a38020b938602fc1d519580b9553d2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106991870"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097137"
 ---
 # <a name="systemdevicesstatus"></a>系統。狀態
 

@@ -19,12 +19,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: db5f1dc4331bd50e2fc61899f9d45fe2cdb0eca0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: c53254b51b228efb2c1f14b7fb5f07475fb275d20c7df6444dc88e048bb1d30f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110756"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020906"
 ---
 # <a name="cim_supportaccess-class"></a>CIM \_ SupportAccess 類別
 
@@ -75,7 +75,7 @@ class CIM_SupportAccess
 限定詞： [**MappingStrings**](/windows/desktop/WmiSdk/standard-qualifiers) ( "MIF。DMTF \| FRU \| 002.11 "，" MIF。DMTF \| FRU \| 002.12」 ) 
 </dt> </dl>
 
-通訊模式的詳細資料。 例如，如果 **CommunicationMode** 屬性是 "Phone"，則此屬性會指定要呼叫的電話號碼。
+通訊模式的詳細資料。 例如，如果 **CommunicationMode** 屬性是 "電話"，則此屬性會指定要呼叫的電話號碼。
 
 </dd> <dt>
 
@@ -104,7 +104,7 @@ class CIM_SupportAccess
 
 <span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>
 
-<span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**Phone** (2) 
+<span id="Phone"></span><span id="phone"></span><span id="PHONE"></span>**電話** (2) 
 
 
 </dt> <dd></dd> <dt>

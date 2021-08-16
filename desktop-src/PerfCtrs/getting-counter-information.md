@@ -4,12 +4,12 @@ ms.assetid: 55e7b905-da9e-4c59-84b0-e5b4c662fbd9
 title: 取得計數器資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4cf18efd91498c66185ec30a823ceff8acf4cef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7eb3e605ab4bccbceca18faf02f5632ef6e2a59db569fe80cce67c8c915d4a99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974680"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119061176"
 ---
 # <a name="getting-counter-information"></a>取得計數器資訊
 

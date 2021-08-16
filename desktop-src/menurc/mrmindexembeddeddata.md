@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 308d08e0e125e7919ad3eb32e6cba2184356fce5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d7897df30506b66e74122c238e25a5b20fa5e1635e299c8a08db2519c842bdf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966907"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118971997"
 ---
 # <a name="mrmindexembeddeddata-function"></a>MrmIndexEmbeddedData 函式
 
@@ -67,13 +67,13 @@ HRESULT HRESULT MrmIndexEmbeddedData(
 *embeddedData* \[在\]
 </dt> <dd>
 
-類型： **CONST BYTE \** _
+類型： **CONST BYTE \***
 
 您想要編制索引之資源的資料指標。
 
 </dd> <dt>
 
-_embeddedDataSize * \[ in\]
+*embeddedDataSize* \[在\]
 </dt> <dd>
 
 類型： **ULONG**
@@ -110,7 +110,7 @@ _embeddedDataSize * \[ in\]
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Mrmsupport .lib</dt> </dl>       |
 | DLL<br/>                      | <dl> <dt>Mrmsupport.dll</dt> </dl>       |

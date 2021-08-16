@@ -4,12 +4,12 @@ ms.assetid: 6298fa7b-ddc8-4924-9616-6eed67ec48db
 title: 設定專家
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 152d728de1dc5a40836a9a2cc2c822a389e3f973
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 103ea457e63f8584a9c7970382b999e5128286ae66ff3e09eddb45dd2870d63c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104564159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119144264"
 ---
 # <a name="configuring-experts"></a>設定專家
 

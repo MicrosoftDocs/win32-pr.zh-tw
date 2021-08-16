@@ -4,12 +4,12 @@ ms.assetid: 1ee2ad6f-5e84-45ba-9849-cd3bd8e7eb29
 title: 影片範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 239fecd0947271627abc7fc50ed16f6a7c682b84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3883b3a62cd907c89dd46d14681e28ad9a4d4d94653a9f04a9097707d22cff9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848694"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972597"
 ---
 # <a name="video-samples"></a>影片範例
 

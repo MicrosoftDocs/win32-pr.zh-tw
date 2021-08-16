@@ -5,12 +5,12 @@ title: '選項旗標 (WinHTTP. h) '
 ms.topic: reference
 ms.custom: snippet-project
 ms.date: 02/25/2020
-ms.openlocfilehash: 25049ee11c59c6b320b794c07bd65e5ec9b930c9
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: ecc3d27bd8d168c276ccac2544dbc648fbdfee5732e87892624903285b3a2fcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117744059"
 ---
 # <a name="option-flags"></a>選項旗標
 
@@ -131,7 +131,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-設定或抓取不帶正負號的長整數值，其中包含連接到主機的 timesWinHTTP 嘗試次數。 Microsoft Windows HTTP Services (WinHTTP) 只會在每個網際網路通訊協定 (IP) 位址嘗試一次。 例如，如果您嘗試連線到有10個 IP 位址的多重主目錄主機，而 **winHTTP \_ 選項連線 \_ \_ 重試** 設定為7，則 winHTTP 只會嘗試連線到前七個 ip 位址。 假設有一組相同的10個 IP 位址，則當 **winHTTP \_ 選項 \_ 連接 \_ 重試** 設定為20時，winHTTP 只會嘗試10次。 如果連接嘗試在指定的嘗試次數之後仍失敗，或連接逾時之前已過期，則會取消要求。 **WINHTTP \_ 選項 \_ 連接 \_ 重試** 的預設值為五次嘗試。
+設定或抓取不帶正負號的長整數值，其中包含連接到主機的 timesWinHTTP 嘗試次數。 Microsoft Windows HTTP Services (WinHTTP) 每個網際網路通訊協定只會嘗試一次 (IP) 位址。 例如，如果您嘗試連線到有10個 IP 位址的多重主目錄主機，而 **winHTTP \_ 選項連線 \_ \_ 重試** 設定為7，則 winHTTP 只會嘗試連線到前七個 ip 位址。 假設有一組相同的10個 IP 位址，則當 **winHTTP \_ 選項 \_ 連接 \_ 重試** 設定為20時，winHTTP 只會嘗試10次。 如果連接嘗試在指定的嘗試次數之後仍失敗，或連接逾時之前已過期，則會取消要求。 **WINHTTP \_ 選項 \_ 連接 \_ 重試** 的預設值為五次嘗試。
 
 
 </dt> </dl> </dd> <dt>
@@ -155,7 +155,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 抓取 [**WinHttpReceiveResponse**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpreceiveresponse) 傳回時產生回應之要求的來源和目的地 IP 位址和埠。 應用程式會使用 **WINHTTP \_ 選項 \_ 連接 \_ 資訊** 選項來呼叫 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption) ，並在 *lpBuffer* 參數中提供 [**winHTTP \_ 連接 \_ 資訊**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info)結構。 如需詳細資訊，請參閱 **WINHTTP \_ 連接 \_ 資訊**。
 
-**Windows Server 2003 SP1 和 WINDOWS XP 含 SP2：** 此旗標已淘汰。
+**Windows Server 2003 （含 SP1）和 Windows XP SP2：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -338,7 +338,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-抓取不帶正負號的長整數值，其中包含 Microsoft Windows 通訊端錯誤碼，該錯誤碼已對應到 \_ \_ \* 此執行緒內容中最後傳回的錯誤 WINHTTP 錯誤訊息。 您可以傳遞 **Null** 做為控制碼值。
+抓取不帶正負號的長整數值，其中包含與 \_ \_ \* 此執行緒內容中最後傳回的錯誤 WINHTTP 錯誤訊息對應的 Microsoft Windows 通訊端錯誤碼。 您可以傳遞 **Null** 做為控制碼值。
 
 
 </dt> </dl> </dd> <dt>
@@ -357,7 +357,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-將 *hInternet* 函式參數設定為 **Null** 的 [**WINHTTP 認證 \_ \_ EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex)結構的指標。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Settings！ShareCredsWithWinHttp**。 如果未設定此登錄機碼，WinHTTP 將會傳回錯誤： **\_ winHTTP \_ 無效 \_ 選項** 的錯誤。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。 為了共用 proxy 認證以外的伺服器認證，使用者必須設定 **WINHTTP \_ 選項 [ \_ 使用 \_ 全域 \_ 伺服器 \_ 認證** ]。
+將 *hInternet* 函式參數設定為 **Null** 的 [**WINHTTP 認證 \_ \_ EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex)結構的指標。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet 設定！ShareCredsWithWinHttp**。 如果未設定此登錄機碼，WinHTTP 將會傳回錯誤： **\_ winHTTP \_ 無效 \_ 選項** 的錯誤。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。 為了共用 proxy 認證以外的伺服器認證，使用者必須設定 **WINHTTP \_ 選項 [ \_ 使用 \_ 全域 \_ 伺服器 \_ 認證** ]。
 
 
 </dt> </dl> </dd> <dt>
@@ -367,7 +367,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-將 *hInternet* 函式參數設定為 **Null** 的 [**WINHTTP 認證 \_ \_ EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex)結構的指標。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Settings！ShareCredsWithWinHttp**。 如果未設定此登錄機碼，WinHTTP 將會傳回錯誤： **\_ winHTTP \_ 無效 \_ 選項** 的錯誤。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。 為了共用 proxy 認證以外的伺服器認證，使用者必須設定 **WINHTTP \_ 選項 [ \_ 使用 \_ 全域 \_ 伺服器 \_ 認證** ]。
+將 *hInternet* 函式參數設定為 **Null** 的 [**WINHTTP 認證 \_ \_ EX**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex)結構的指標。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet 設定！ShareCredsWithWinHttp**。 如果未設定此登錄機碼，WinHTTP 將會傳回錯誤： **\_ winHTTP \_ 無效 \_ 選項** 的錯誤。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。 為了共用 proxy 認證以外的伺服器認證，使用者必須設定 **WINHTTP \_ 選項 [ \_ 使用 \_ 全域 \_ 伺服器 \_ 認證** ]。
 
 
 </dt> </dl> </dd> <dt>
@@ -448,7 +448,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_IPV6_FAST_FALLBACK"></span><span id="winhttp_option_ipv6_fast_fallback"></span>**WINHTTP \_ OPTION \_ IPV6 \_ FAST \_ FALLBACK**
+<span id="WINHTTP_OPTION_IPV6_FAST_FALLBACK"></span><span id="winhttp_option_ipv6_fast_fallback"></span>**WINHTTP \_ 選項 \_ IPV6 \_ FAST \_ FALLBACK**
 </dt> <dd> <dl> <dt>
 
 
@@ -467,7 +467,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-取得是否可以取出 Proxy 傳回 Connect 回應。
+取得是否可以取得 Proxy 傳回連線回應。
 
 
 </dt> </dl> </dd> <dt>
@@ -479,7 +479,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 設定或抓取不帶正負號的長整數值，其中包含每個 HTTP/1.0 伺服器允許的最大連接數目。 預設值為 [ **無限**]。
 
-**Windows VISTA SP1 和 Windows Server 2008：** 此旗標已淘汰。
+**Windows Vista SP1 和 Windows Server 2008：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -503,7 +503,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 設定 WinHTTP 遵循的重新導向數目上限;預設值為10。 這項限制可防止未經授權的網站使 WinHTTP 用戶端在大量重新導向之後暫停。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 此旗標已淘汰。
+**Windows XP SP1 和 Windows 2000 SP3：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -515,7 +515,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 將最終狀態代碼傳回至 WinHTTP 用戶端之前，已忽略參考最大的資訊100-199 狀態碼回應數目。 資訊100-199 狀態碼可由伺服器在最終狀態代碼之前傳送，如需詳細資訊，請參閱 HTTP/1.1 的規格 (如需詳細資訊，請參閱 [RFC 2616](https://www.ietf.org/rfc/rfc2616.txt)) 。 預設值為 10。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 此旗標已淘汰。
+**Windows XP SP1 和 Windows 2000 SP3：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -527,7 +527,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 系結至從回應中清空的資料量，以重複使用連接（以位元組指定）。 預設值為1MB。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 此旗標已淘汰。
+**Windows XP SP1 和 Windows 2000 SP3：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -539,7 +539,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 伺服器回應的標頭部分大小上限的系結集，以位元組為單位來指定。 這項系結會透過傳送無限標頭資料的回應，來保護用戶端免于嘗試停止用戶端的未經授權伺服器。 預設值是64KB。
 
-**WINDOWS XP 加裝 SP1 和 windows 2000 SP3：** 此旗標已淘汰。
+**Windows XP SP1 和 Windows 2000 SP3：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -777,7 +777,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-設定不帶正負號的長整數值，指定可接受哪些安全通訊協定。 依預設，只有 SSL3 和 TLS1 會在 Windows 7 和 Windows 8 中啟用。 依預設，只有 SSL3、TLS 1.0、TLS 1.1 和 TLS 1.2 會在 Windows 8.1 和 Windows 10 中啟用。 值可以是下列一或多個值的組合。
+設定不帶正負號的長整數值，指定可接受哪些安全通訊協定。 依預設，只有 SSL3 和 TLS1 會在 Windows 7 和 Windows 8 中啟用。 依預設，只有 SSL3、tls 1.0、tls 1.1 和 tls 1.2 會在 Windows 8.1 和 Windows 10 中啟用。 值可以是下列一或多個值的組合。
 
 | 詞彙 | 描述 |
 |-|-|
@@ -814,7 +814,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | <span id="SECURITY_FLAG_IGNORE_CERT_DATE_INVALID"></span><span id="security_flag_ignore_cert_date_invalid"></span>安全性 \_ 旗標 \_ 忽略憑證 \_ \_ 日期 \_ 無效 |允許不正確憑證日期，也就是過期或尚未有效的憑證。 如果設定此旗標，則應用程式不會收到 **WINHTTP \_ 回呼 \_ 狀態 \_ 旗標憑證 \_ \_ 日期 \_ 無效** 的回呼。 |
 | <span id="SECURITY_FLAG_IGNORE_UNKNOWN_CA"></span><span id="security_flag_ignore_unknown_ca"></span>安全性 \_ 旗標 \_ 忽略 \_ 未知的 \_ CA | 允許不正確憑證授權單位單位。 如果設定此旗標，則應用程式不會收到 **WINHTTP \_ 回呼 \_ 狀態 \_ 旗標 \_ 不正確 \_ CA** 回呼。 |
 | <span id="SECURITY_FLAG_IGNORE_CERT_WRONG_USAGE"></span><span id="security_flag_ignore_cert_wrong_usage"></span>安全性 \_ 旗標 \_ 忽略憑證錯誤的 \_ \_ \_ 使用方式 | 允許以非伺服器憑證建立伺服器的身分識別 (例如，) 的用戶端憑證。 |
-| <span id="SECURITY_FLAG_IGNORE_WEAK_SIGNATURE"></span><span id="security_flag_ignore_weak_signature"></span>安全性 \_ 旗標 \_ 忽略 \_ 弱 \_ 式簽章 | 允許忽略弱式簽章。<br/>從 Windows 7 和 Windows Server 2008 R2 開始，每個 OS 的匯總套件更新中都有提供此旗標。 |
+| <span id="SECURITY_FLAG_IGNORE_WEAK_SIGNATURE"></span><span id="security_flag_ignore_weak_signature"></span>安全性 \_ 旗標 \_ 忽略 \_ 弱 \_ 式簽章 | 允許忽略弱式簽章。<br/>從 Windows 7 和 Windows Server 2008 R2 開始，每個 OS 的匯總套件更新中都可以使用此旗標。 |
 | <span id="SECURITY_FLAG_SECURE"></span><span id="security_flag_secure"></span>安全性 \_ 旗標 \_ 安全 | 使用安全傳輸。 這只會在呼叫 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)時傳回。 |
 | <span id="SECURITY_FLAG_STRENGTH_MEDIUM"></span><span id="security_flag_strength_medium"></span>安全性 \_ 旗標 \_ 強度 \_ 中 | 使用中型 (56 位) 加密。 這只會在呼叫 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)時傳回。 |
 | <span id="SECURITY_FLAG_STRENGTH_STRONG"></span><span id="security_flag_strength_strong"></span>安全性 \_ 旗標 \_ 強度 \_ 強 | 使用強式 (128 位) 加密。 這只會在呼叫 [**WinHttpQueryOption**](/windows/desktop/api/Winhttp/nf-winhttp-winhttpqueryoption)時傳回。 |
@@ -923,7 +923,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 </dt> </dl> </dd> <dt>
 
-<span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**WINHTTP \_ 選項 \_ TCP \_ 快速 \_ 開啟**
+<span id="WINHTTP_OPTION_TCP_FAST_OPEN"></span><span id="winhttp_option_tcp_fast_open"></span>**WINHTTP \_ 選項 \_ TCP \_ FAST \_ 開啟**
 </dt> <dd> <dl> <dt>
 
 
@@ -1008,7 +1008,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 
 
-採用 **BOOL** ，而且只能設定會話控制碼。 它只會在設定選項之後，向下傳播至從會話控制碼建立的控制碼。 若 **為 TRUE**，則此選項會導致最後使用從 WinInet 推入的全域伺服器認證。 此選項的預設值為 **FALSE**。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet Settings！ShareCredsWithWinHttp**。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。
+採用 **BOOL** ，而且只能設定會話控制碼。 它只會在設定選項之後，向下傳播至從會話控制碼建立的控制碼。 若 **為 TRUE**，則此選項會導致最後使用從 WinInet 推入的全域伺服器認證。 此選項的預設值為 **FALSE**。 此選項需要登錄機碼 **HKLM \\ Software \\ Microsoft \\ Windows \\ CurrentVersion \\ Internet 設定！ShareCredsWithWinHttp**。 依預設，此登錄機碼不存在。 當設定時，WinINet 會將認證傳送至 WinHTTP。 每當 WinHttp 收到驗證挑戰，而且目前的控制碼上沒有設定任何認證時，就會使用 WinINet 提供的認證。
 
 
 </dt> </dl> </dd> <dt>
@@ -1083,7 +1083,7 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 設定不帶正負號的長整數值，指定執行緒集區應用於非同步完成的背景工作執行緒數目。 此選項的預設值為零，表示工作者執行緒的數目等於系統上的 Cpu 數目。 此選項只能在發生非同步作業之前，在 **Null**  [HINTERNET](hinternet-handles-in-winhttp.md) 控制碼上設定。 此選項只能設定一次。
 
-**Windows Server 2008 R2 和 windows 7：** 此旗標已淘汰。
+**Windows Server 2008 R2 和 Windows 7：** 此旗標已淘汰。
 
 
 </dt> </dl> </dd> <dt>
@@ -1104,52 +1104,52 @@ BOOL fRet = WinHttpSetOption(hRequest,
 
 如果您嘗試在不支援的 Windows 版本上設定或查詢選項旗標，將會導致 **錯誤 \_ WINHTTP \_ 不正確 \_ 選項**。
 
-| 選項旗標和資料類型 | 會話控制碼 | 要求控制碼 | 查詢選項 | Set 選項 | 最低 Windows 版本 |
+| 選項旗標和資料類型 | 會話控制碼 | 要求控制碼 | 查詢選項 | Set 選項 | 最小 Windows 版本 |
 |-|-|-|-|-|-|
-| WINHTTP \_ 選項有 \_ 保證 \_ 非 \_ 封鎖 \_ 回呼<br/>**Bool** | X | \- | \- | X | \- |
-| WINHTTP \_ 選項 \_ 自動登入 \_ 原則<br/>**Dword** | \- | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 背景 \_ 連接<br/>**Dword** | X | \- | \- | X | Windows 10 版本21H1 |
+| WINHTTP \_ 選項有 \_ 保證 \_ 非 \_ 封鎖 \_ 回呼<br/>**BOOL** | X | \- | \- | X | \- |
+| WINHTTP \_ 選項 \_ 自動登入 \_ 原則<br/>**DWORD** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 背景 \_ 連接<br/>**DWORD** | X | \- | \- | X | Windows 10版本21H1 |
 | WINHTTP \_ 選項 \_ 回呼<br/>**LPVOID** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 內容<br/>[**憑證 \_ 內容**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | \- | X | Windows Vista |
 | WINHTTP \_ 選項 \_ 用戶端憑證 \_ \_ 簽發者 \_ 清單<br/>[**SecPkgCoNtext \_ IssuerListInfoEx**](/windows/desktop/api/schannel/ns-schannel-secpkgcontext_issuerlistinfoex) | \- | X | X | \- | Windows Vista |
-| WINHTTP \_ 選項 \_ 字碼頁<br/>**Dword** | X | \- | \- | X | \- |
-| WINHTTP \_ 選項 \_ 設定 \_ PASSPORT \_ 驗證<br/>**Dword** | X | \- | \- | X | \- |
-| WINHTTP \_ 選項 \_ 連接 \_ 重試<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 連接 \_ 超時<br/>**Dword** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 字碼頁<br/>**DWORD** | X | \- | \- | X | \- |
+| WINHTTP \_ 選項 \_ 設定 \_ PASSPORT \_ 驗證<br/>**DWORD** | X | \- | \- | X | \- |
+| WINHTTP \_ 選項 \_ 連接 \_ 重試<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 連接 \_ 超時<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 連接 \_ 資訊<br/>[**WINHTTP \_ 連接 \_ 資訊**](/windows/desktop/api/Winhttp/ns-winhttp-winhttp_connection_info) | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ 連接 \_ 統計資料 \_ V0<br/>[**TCP \_ 資訊 \_ v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) | \- | X | X | \- | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 連接 \_ 統計資料 \_ V1<br/>[**TCP \_ 資訊 \_ v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10 版本2004 |
+| WINHTTP \_ 選項 \_ 連接 \_ 統計資料 \_ V0<br/>[**TCP \_ 資訊 \_ v0**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v0) | \- | X | X | \- | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 連接 \_ 統計資料 \_ V1<br/>[**TCP \_ 資訊 \_ v1**](/windows/win32/api/mstcpip/ns-mstcpip-tcp_info_v1) | \- | X | X | \- | Windows 10版本2004 |
 | WINHTTP \_ 選項 \_ 內容 \_ 值<br/>**DWORD \_ PTR** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 解壓縮<br/>**Dword** | X | X | \- | X | Windows 8.1 |
-| WINHTTP \_ 選項 \_ 停用 \_ CERT \_ 鏈 \_ 建立<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ 停用 \_ 功能<br/>**Dword** | \- | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 停用 \_ 安全 \_ 通訊協定 \_ 回復<br/>**Bool** | X | \- | \- | X | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 停用 \_ 串流 \_ 佇列<br/>**Bool** | X | X | \- | X | Windows 10 版本1809 |
-| WINHTTP \_ 選項 \_ 啟用 \_ 功能<br/>**Dword** | \* | \* | \- | X | \- |
-| WINHTTP \_ 選項 \_ 啟用 \_ HTTP \_ 通訊協定<br/>**Dword** | X | X | \- | X | Windows 10 版本 1607 |
-| WINHTTP \_ 選項 \_ ENABLE \_ HTTP2 \_ PLUS \_ CLIENT \_ CERT \_ CONTEXT<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ ENABLETRACING<br/>**Dword** | \- | \- | X | X | \- |
-| WINHTTP \_ 選項 \_ 編碼 \_ 額外<br/>**Bool** | X | X | \- | X | Windows 10 版本1803 |
-| WINHTTP \_ 選項 \_ 到期 \_ 連接<br/>N/A | \- | X | \- | X | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 延伸 \_ 錯誤<br/>**Dword** | X | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ FIRST \_ 可用 \_ 連接<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
+| WINHTTP \_ 選項 \_ 解壓縮<br/>**DWORD** | X | X | \- | X | Windows 8.1 |
+| WINHTTP \_ 選項 \_ 停用 \_ CERT \_ 鏈 \_ 建立<br/>**BOOL** | X | \- | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ 停用 \_ 功能<br/>**DWORD** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 停用 \_ 安全 \_ 通訊協定 \_ 回復<br/>**BOOL** | X | \- | \- | X | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 停用 \_ 串流 \_ 佇列<br/>**BOOL** | X | X | \- | X | Windows 10版本1809 |
+| WINHTTP \_ 選項 \_ 啟用 \_ 功能<br/>**DWORD** | \* | \* | \- | X | \- |
+| WINHTTP \_ 選項 \_ 啟用 \_ HTTP \_ 通訊協定<br/>**DWORD** | X | X | \- | X | Windows 10 版本 1607 |
+| WINHTTP \_ 選項 \_ ENABLE \_ HTTP2 \_ PLUS \_ CLIENT \_ CERT \_ CONTEXT<br/>**BOOL** | X | \- | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ ENABLETRACING<br/>**DWORD** | \- | \- | X | X | \- |
+| WINHTTP \_ 選項 \_ 編碼 \_ 額外<br/>**BOOL** | X | X | \- | X | Windows 10版本1803 |
+| WINHTTP \_ 選項 \_ 到期 \_ 連接<br/>N/A | \- | X | \- | X | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 延伸 \_ 錯誤<br/>**DWORD** | X | X | X | \- | \- |
+| WINHTTP \_ 選項 \_ FIRST \_ 可用 \_ 連接<br/>**BOOL** | X | \- | \- | X | Windows 10版本21H1 |
 | WINHTTP \_ 選項 \_ 全域 \_ PROXY \_ 認證<br/>[**WINHTTP \_ 認證**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds) | X | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 全域 \_ 伺服器 \_ 認證<br/>[**WINHTTP \_ 認證 \_ 例如**](/windows/win32/api/winhttp/ns-winhttp-winhttp_creds_ex) | X | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 控制碼 \_ 類型<br/>**Dword** | X | X | X | \- | \- |
-| \_需要 WINHTTP 選項 \_ HTTP \_ 通訊協定 \_<br/>**Bool** | X | X | \- | X | Windows 10 版本1903 |
-| 使用的 WINHTTP \_ 選項 \_ HTTP \_ 通訊協定 \_<br/>**Dword** | \- | X | X | \- | Windows 10 版本 1607 |
+| WINHTTP \_ 選項 \_ 控制碼 \_ 類型<br/>**DWORD** | X | X | X | \- | \- |
+| \_需要 WINHTTP 選項 \_ HTTP \_ 通訊協定 \_<br/>**BOOL** | X | X | \- | X | Windows 10版本1903 |
+| 使用的 WINHTTP \_ 選項 \_ HTTP \_ 通訊協定 \_<br/>**DWORD** | \- | X | X | \- | Windows 10 版本 1607 |
 | WINHTTP \_ 選項 \_ HTTP \_ 版本<br/>[**HTTP \_ 版本 \_ 資訊**](/windows/win32/api/winhttp/ns-winhttp-http_version_info) | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ HTTP2 \_ KEEPALIVE<br/>**Dword** | X | \- | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ HTTP2 \_ PLUS \_ 傳輸 \_ 編碼<br/>**Bool** | X | X | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項會 \_ 離線略過憑證 \_ \_ 撤銷 \_<br/>**Bool** | \- | X | \- | X | Windows 10 版本2004 |
-| WINHTTP \_ OPTION \_ IPV6 \_ FAST \_ FALLBACK<br/>**Bool** | X | \- | \- | X | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 為 \_ PROXY \_ CONNECT \_ 回應<br/>**Bool** | X | X | X | \- | \- |
-| \_ \_ \_ \_ 每 \_ 1 \_ 0 部 \_ 伺服器的 WINHTTP 選項 MAX CONNS<br/>**Dword** | X | \- | X | X | \- |
-| 每一伺服器的 WINHTTP \_ 選項 \_ MAX \_ CONNS \_ \_<br/>**Dword** | X | \- | X | X | \- |
-| WINHTTP \_ 選項 \_ 最大 \_ HTTP \_ 自動重新 \_ 導向<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 最大 \_ HTTP \_ 狀態 \_ 繼續<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ \_ 回應 \_ 清空最 \_ 大值<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 的 \_ 回應 \_ 標頭 \_ 大小上限<br/>**Dword** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ HTTP2 \_ KEEPALIVE<br/>**DWORD** | X | \- | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ HTTP2 \_ PLUS \_ 傳輸 \_ 編碼<br/>**BOOL** | X | X | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項會 \_ 離線略過憑證 \_ \_ 撤銷 \_<br/>**BOOL** | \- | X | \- | X | Windows 10版本2004 |
+| WINHTTP \_ 選項 \_ IPV6 \_ FAST \_ FALLBACK<br/>**BOOL** | X | \- | \- | X | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 為 \_ PROXY \_ CONNECT \_ 回應<br/>**BOOL** | X | X | X | \- | \- |
+| \_ \_ \_ \_ 每 \_ 1 \_ 0 部 \_ 伺服器的 WINHTTP 選項 MAX CONNS<br/>**DWORD** | X | \- | X | X | \- |
+| 每一伺服器的 WINHTTP \_ 選項 \_ MAX \_ CONNS \_ \_<br/>**DWORD** | X | \- | X | X | \- |
+| WINHTTP \_ 選項 \_ 最大 \_ HTTP \_ 自動重新 \_ 導向<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 最大 \_ HTTP \_ 狀態 \_ 繼續<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ \_ 回應 \_ 清空最 \_ 大值<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 的 \_ 回應 \_ 標頭 \_ 大小上限<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 父 \_ 控制碼<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ PASSPORT \_ COBRANDING \_ 文字<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ PASSPORT \_ COBRANDING \_ URL<br/>**LPWSTR** | \- | X | X | \- | \- |
@@ -1160,57 +1160,57 @@ BOOL fRet = WinHttpSetOption(hRequest,
 | WINHTTP \_ 選項 \_ PROXY \_ 密碼<br/>**LPWSTR** | \- | X | X | X | \- |
 | 已 \_ 使用 WINHTTP 選項 \_ PROXY \_ SPN \_<br/>**LPWSTR** | \- | X | X | \- | \- |
 | WINHTTP \_ 選項 \_ PROXY 使用者 \_ 名稱<br/>**LPWSTR** | \- | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 讀取 \_ 緩衝區 \_ 大小<br/>**Dword** | \- | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 接收 \_ PROXY \_ CONNECT \_ 回應<br/>**Bool** | X | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 接收 \_ 回應 \_ 超時<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 接收 \_ 超時<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項重新 \_ 導向 \_ 原則<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 拒絕 \_ \_ URL 中的 USERPWD \_<br/>**Bool** | \- | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 要求 \_ 優先順序<br/>**Dword** | \- | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 要求 \_ 統計資料<br/>[**WINHTTP \_ 要求 \_ 統計資料**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 要求 \_ 時間<br/>[**WINHTTP \_ 要求 \_ 時間**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10 版本1903 |
-| WINHTTP \_ 選項 \_ 需要 \_ STREAM \_ END<br/>**Bool** | X | X | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ 解析 \_ 主機名稱<br/>**LPWSTR** | \- | X | \- | X | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ 解析 \_ 超時<br/>**Dword** | X | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 安全 \_ 通訊協定<br/>**Dword** | X | \- | \- | X | \- |
+| WINHTTP \_ 選項 \_ 讀取 \_ 緩衝區 \_ 大小<br/>**DWORD** | \- | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 接收 \_ PROXY \_ CONNECT \_ 回應<br/>**BOOL** | X | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 接收 \_ 回應 \_ 超時<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 接收 \_ 超時<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項重新 \_ 導向 \_ 原則<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 拒絕 \_ \_ URL 中的 USERPWD \_<br/>**BOOL** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 要求 \_ 優先順序<br/>**DWORD** | \- | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 要求 \_ 統計資料<br/>[**WINHTTP \_ 要求 \_ 統計資料**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_stats) | \- | X | X | \- | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 要求 \_ 時間<br/>[**WINHTTP \_ 要求 \_ 時間**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_request_times) | \- | X | X | \- | Windows 10版本1903 |
+| WINHTTP \_ 選項 \_ 需要 \_ STREAM \_ END<br/>**BOOL** | X | X | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ 解析 \_ 主機名稱<br/>**LPWSTR** | \- | X | \- | X | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ 解析 \_ 超時<br/>**DWORD** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 安全 \_ 通訊協定<br/>**DWORD** | X | \- | \- | X | \- |
 | WINHTTP \_ 選項 \_ 安全性 \_ 憑證 \_ 結構<br/>[**WINHTTP \_ 憑證 \_ 資訊**](/windows/win32/api/winhttp/ns-winhttp-winhttp_certificate_info) | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ 安全性 \_ 旗標<br/>**Dword** | \- | X | X | X | \- |
-| WINHTTP \_ 選項 \_ 安全性 \_ 資訊<br/>[**WINHTTP_SECURITY_INFO**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_security_info) | \- | X | X | \- | Windows 10 版本2004 |
-| WINHTTP \_ 選項 \_ 安全性 \_ 金鑰 \_ 位<br/>**Dword** | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ 傳送 \_ 超時<br/>**Dword** | X | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 安全性 \_ 旗標<br/>**DWORD** | \- | X | X | X | \- |
+| WINHTTP \_ 選項 \_ 安全性 \_ 資訊<br/>[**WINHTTP_SECURITY_INFO**](/windows/desktop/api/winhttp/ns-winhttp-winhttp_security_info) | \- | X | X | \- | Windows 10版本2004 |
+| WINHTTP \_ 選項 \_ 安全性 \_ 金鑰 \_ 位<br/>**DWORD** | \- | X | X | \- | \- |
+| WINHTTP \_ 選項 \_ 傳送 \_ 超時<br/>**DWORD** | X | X | X | X | \- |
 | WINHTTP \_ 選項 \_ 伺服器 \_ CBT<br/>[**SecPkgCoNtext \_ 系結**](/windows/desktop/api/sspi/ns-sspi-secpkgcontext_bindings)\* | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ 伺服器 \_ 證書 \_ 鏈 \_ 內容<br/>[**CERT_CHAIN_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_chain_context) | \- | X | X | \- | Windows 10 版本2004 |
+| WINHTTP \_ 選項 \_ 伺服器 \_ 證書 \_ 鏈 \_ 內容<br/>[**CERT_CHAIN_CONTEXT**](/windows/win32/api/wincrypt/ns-wincrypt-cert_chain_context) | \- | X | X | \- | Windows 10版本2004 |
 | WINHTTP \_ 選項 \_ 伺服器 \_ 證書 \_ 內容<br/>[**憑證內容**](/windows/desktop/api/wincrypt/ns-wincrypt-cert_context) | \- | X | X | \- | \- |
 | 已 \_ 使用 WINHTTP 選項 \_ 伺服器 \_ SPN \_<br/>**LPWSTR** | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ SPN<br/>**Dword** | \- | X | \- | X | \- |
-| WINHTTP \_ 選項 \_ 資料流程 \_ 錯誤碼 \_<br/>**Dword** | \- | X | X | \- | Windows 10 版本21H1 |
-| WINHTTP \_ 選項 \_ TCP \_ 快速 \_ 開啟<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
-| WINHTTP \_ 選項 \_ TCP \_ KEEPALIVE<br/>[**tcp \_ keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10 版本2004 |
-| WINHTTP \_ 選項 \_ TLS \_ FALSE \_ START<br/>**Bool** | X | \- | \- | X | Windows 10 版本2004 |
-| WINHTTP \_ 選項 \_ TLS \_ 通訊協定不 \_ 安全 \_ 的回復<br/>**Bool** | X | \- | \- | X | Windows 10 版本21H1 |
+| WINHTTP \_ 選項 \_ SPN<br/>**DWORD** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 資料流程 \_ 錯誤碼 \_<br/>**DWORD** | \- | X | X | \- | Windows 10版本21H1 |
+| WINHTTP \_ 選項 \_ TCP \_ FAST \_ 開啟<br/>**BOOL** | X | \- | \- | X | Windows 10版本2004 |
+| WINHTTP \_ 選項 \_ TCP \_ KEEPALIVE<br/>[**tcp \_ keepalive**](/windows/win32/winsock/sio-keepalive-vals) | X | \- | \- | X | Windows 10版本2004 |
+| WINHTTP \_ 選項 \_ TLS \_ FALSE \_ START<br/>**BOOL** | X | \- | \- | X | Windows 10版本2004 |
+| WINHTTP \_ 選項 \_ TLS \_ 通訊協定不 \_ 安全 \_ 的回復<br/>**BOOL** | X | \- | \- | X | Windows 10版本21H1 |
 | WINHTTP \_ 選項 \_ UNLOAD \_ 通知 \_ 事件<br/>[HINTERNET](hinternet-handles-in-winhttp.md) | X | \- | \- | X | \- |
-| WINHTTP \_ 選項 \_ UNSAFE \_ 標頭 \_ 剖析<br/>**Dword** | \- | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ UNSAFE \_ 標頭 \_ 剖析<br/>**DWORD** | \- | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 升級 \_ 至 \_ WEB \_ 通訊端<br/>N/A | \- | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ URL<br/>**LPWSTR** | \- | X | X | \- | \- |
-| WINHTTP \_ 選項 \_ 使用 \_ 全域 \_ 伺服器 \_ 認證<br/>**Bool** | X | X | \- | X | \- |
+| WINHTTP \_ 選項 \_ 使用 \_ 全域 \_ 伺服器 \_ 認證<br/>**BOOL** | X | X | \- | X | \- |
 | WINHTTP \_ 選項 \_ 使用者 \_ 代理程式<br/>**LPWSTR** | X | \- | X | X | \- |
 | WINHTTP \_ 選項使用者 \_ 名稱<br/>**LPWSTR** | \- | X | X | X | \- |
-| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 關閉 \_ 超時<br/>**Dword** | \- | \- | X | X | \- |
-| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ KEEPALIVE \_ 間隔<br/>**Dword** | \- | \- | X | X | \- |
-| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 接收 \_ 緩衝區 \_ 大小<br/>**Dword** | X | X | X | X | Windows 8.1 |
-| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 傳送 \_ 緩衝區 \_ 大小<br/>**Dword** | X | X | X | X | Windows 8.1 |
-| WINHTTP \_ 選項背景 \_ 工作 \_ 執行緒 \_ 計數<br/>**Dword** | \- | \- | \- | X | \- |
-| WINHTTP \_ 選項 \_ 寫入 \_ 緩衝區 \_ 大小<br/>**Dword** | \- | X | X | X | \- |
+| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 關閉 \_ 超時<br/>**DWORD** | \- | \- | X | X | \- |
+| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ KEEPALIVE \_ 間隔<br/>**DWORD** | \- | \- | X | X | \- |
+| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 接收 \_ 緩衝區 \_ 大小<br/>**DWORD** | X | X | X | X | Windows 8.1 |
+| WINHTTP \_ 選項 \_ WEB \_ 通訊端 \_ 傳送 \_ 緩衝區 \_ 大小<br/>**DWORD** | X | X | X | X | Windows 8.1 |
+| WINHTTP \_ 選項背景 \_ 工作 \_ 執行緒 \_ 計數<br/>**DWORD** | \- | \- | \- | X | \- |
+| WINHTTP \_ 選項 \_ 寫入 \_ 緩衝區 \_ 大小<br/>**DWORD** | \- | X | X | X | \- |
 
 > [!Note]
-> 針對 Windows XP 和 Windows 2000，請參閱 [執行時間需求](winhttp-start-page.md)。
+> 如 Windows XP 和 Windows 2000，請參閱[執行時間需求](winhttp-start-page.md)。
 
 ## <a name="requirements"></a>規格需求
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------------------------------------|
-| 最低支援的用戶端 | Windows XP、Windows 2000 專業版（含 SP3） \[ 桌面應用程式\]            |
-| 最低支援的伺服器 | Windows Server 2003、Windows 2000 Server （僅含 SP3 \[ desktop 應用程式）\]         |
+| 最低支援的用戶端 | WindowsXP、Windows 2000 Professional 搭配 SP3 \[ desktop 應用程式\]            |
+| 最低支援的伺服器 | Windows伺服器2003、Windows 2000 伺服器（僅含 SP3 \[ desktop 應用程式）\]         |
 | 可轉散發套件          | Windows XP 和 Windows 2000 上的 WinHTTP 5.0 和 Internet Explorer 5.01 或更新版本。 |
 | 標頭                   | WinHTTP. h                                                                       |
 

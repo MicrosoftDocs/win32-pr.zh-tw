@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0aae4c86dc3f5282be7a16207923e1238e217a9e
-ms.sourcegitcommit: 6f7576b297d54c0b8f9c79e02c912b83041aa4fb
+ms.openlocfilehash: c8e5b7627db2c55eb41a267f6c8d3a7a779e2f20190ca3061a49a41eb8577adb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "106969891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117748467"
 ---
 # <a name="error-object"></a>Error 物件
 
@@ -34,7 +34,7 @@ ms.locfileid: "106969891"
 
 
 
- 
+ 
 
 **Error** 物件支援下列方法。
 
@@ -48,7 +48,7 @@ ms.locfileid: "106969891"
 
 
 
- 
+ 
 
 您可以透過下列屬性來存取 **Error** 物件。
 
@@ -60,7 +60,7 @@ ms.locfileid: "106969891"
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -69,9 +69,9 @@ ms.locfileid: "106969891"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

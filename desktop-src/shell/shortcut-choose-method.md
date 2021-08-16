@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: dfd73ee052594e1136fe2885ce92b682f229096b
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: c910407dbd9de9f12853973f9891fe092a0603ca50a03e59183697b0f92b07e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112394773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118968317"
 ---
 # <a name="choosing-a-static-or-dynamic-shortcut-menu-method"></a>選擇靜態或動態快捷方式功能表方法
 
@@ -81,7 +81,7 @@ ms.locfileid: "112394773"
  
 
 > [!Note]  
-> [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) 是靜態和動態動詞之間的混合式。 **IExplorerCommand** 是在 windows Vista 中宣告，但它在快捷方式功能表中執行動詞的能力是 windows 7 的新功能。
+> [**IExplorerCommand**](/windows/desktop/api/shobjidl_core/nn-shobjidl_core-iexplorercommand) 是靜態和動態動詞之間的混合式。 **IExplorerCommand** 是在 Windows Vista 中宣告，但它在快捷方式功能表中執行動詞的能力是 Windows 7 的新功能。
 
  
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 建立 WMI 別名
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0fdd538e113f227eac4980855ea0035e839b92fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 39a4709cba6ba1fa1790c80ac8d8f52f5fa2105207f0094ec3168f62ba0fcc43
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975031"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117925619"
 ---
 # <a name="creating-a-wmi-alias"></a>建立 WMI 別名
 

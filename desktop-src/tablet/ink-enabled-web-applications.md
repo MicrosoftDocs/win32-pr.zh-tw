@@ -4,12 +4,12 @@ ms.assetid: 4a5a453d-e3c1-40e6-b0eb-99009f0024dd
 title: Ink-Enabled Web 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b14e368c1d2e97e35afa6d72a0fe082f304c5fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bf8097bd55c34abbcb4469d74642e9dbc9a5f29e3b0b7110a76543fd40f5b1ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118043489"
 ---
 # <a name="ink-enabled-web-applications"></a>Ink-Enabled Web 應用程式
 
@@ -17,7 +17,7 @@ ms.locfileid: "106971390"
 
 ## <a name="testing-ink-enablement"></a>測試筆墨啟用
 
-測試用戶端電腦是否可以顯示啟用筆墨的控制項可能很有用。 這可讓您在用戶端為 Tablet PC 或不同的電腦時，thewebpageshow 一個控制項。 測試這項作業的其中一種方式，是嘗試建立一個物件， [例如，您](/previous-versions/ms833057(v=msdn.10))只能在已安裝 windows Vista、Windows XP Tablet pc edition 作業系統或 Windows XP Tablet Pc Edition 軟體發展工具組 (SDK) 的電腦上建立該物件。 如果您在 try/catch 區塊中建立物件，並攔截任何擲回的例外狀況 (通常會擲回 [FileNotFoundException](/previous-versions/windows/) ，表示找不到具有此控制項的元件) ，您可以偵測用戶端電腦是否可以支援啟用筆墨的控制項。 在此範例中，您可以在類別的函式中找到此程式碼 `InkArea` 。
+測試用戶端電腦是否可以顯示啟用筆墨的控制項可能很有用。 這可讓您在用戶端為 Tablet PC 或不同的電腦時，thewebpageshow 一個控制項。 測試這項作業的其中一種方式是嘗試[建立一個物件，例如](/previous-versions/ms833057(v=msdn.10))，您只能在已安裝 Windows Vista、Windows xp tablet pc edition 作業系統或 Windows xp tablet pc edition 軟體發展工具組 () SDK 的電腦上建立該物件。 如果您在 try/catch 區塊中建立物件，並攔截任何擲回的例外狀況 (通常會擲回 [FileNotFoundException](/previous-versions/windows/) ，表示找不到具有此控制項的元件) ，您可以偵測用戶端電腦是否可以支援啟用筆墨的控制項。 在此範例中，您可以在類別的函式中找到此程式碼 `InkArea` 。
 
 ## <a name="submitting-ink-data"></a>提交筆墨資料
 

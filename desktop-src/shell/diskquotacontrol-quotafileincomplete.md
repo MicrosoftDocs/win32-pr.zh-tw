@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: feb9365a6aa541ed8461bbe6d58c77ebc3684b91
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9556b6a2cca3aa2ab040a3cfb81b29c8578d4d544c8d51af6ad70a0d601d63cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991826"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119032776"
 ---
 # <a name="diskquotacontrolquotafileincomplete-property"></a>DiskQuotaControl. QuotaFileIncomplete 屬性
 

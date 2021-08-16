@@ -9,12 +9,12 @@ keywords:
 - NURBS (非統一有理數 B 曲線) OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f85e9a2045c417007c34d714ae6635ebfaf1180
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 7c1b366571be7a9210576e78540c77970667aca2f37ec8a092de07edb97493d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118932768"
 ---
 # <a name="using-nurbs-curves-and-surfaces"></a>使用 NURBS 曲線和表面
 
@@ -55,9 +55,9 @@ ms.locfileid: "104300479"
 
 使用 [**gluNurbsProperty**](glunurbsproperty.md) 來設定這些屬性，或使用預設值。 您可以使用 [**gluGetNurbsProperty**](glugetnurbsproperty.md)查詢其轉譯樣式的 NURBS 物件。
 
- 
+ 
 
- 
+ 
 
 
 

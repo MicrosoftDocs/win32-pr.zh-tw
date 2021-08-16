@@ -4,16 +4,16 @@ description: Windows NT/Windows 2000 RAS 伺服器會呼叫安全性 DLL 的 Ras
 ms.assetid: e6549812-d906-4163-b9c8-86f8f1cb1ad3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 109f6ad5cd3d7b76e30db099a478ffaf562feb32
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: fea463c56d96cad13fb55a2b6e0bbdfc154518ba012e4c71c6ab8bdd3213cd3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508084"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117789474"
 ---
 # <a name="ras-security-dll-authentication-transaction"></a>RAS 安全性 DLL 驗證交易
 
-Windows NT/Windows 2000 RAS 伺服器會呼叫安全性 DLL 的 [**RasSecurityDialogBegin**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin) 函式，以開始驗證遠端使用者。 RAS 伺服器被封鎖，而且在 **RasSecurityDialogBegin** 傳回之前無法接受任何其他呼叫。 基於這個理由， **RasSecurityDialogBegin** 應該複製輸入參數、建立執行緒以執行驗證，並儘快傳回。
+Windows NT/Windows 2000 RAS 伺服器會呼叫安全性 DLL 的 [**RasSecurityDialogBegin**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogbegin)函式，以開始驗證遠端使用者。 RAS 伺服器被封鎖，而且在 **RasSecurityDialogBegin** 傳回之前無法接受任何其他呼叫。 基於這個理由， **RasSecurityDialogBegin** 應該複製輸入參數、建立執行緒以執行驗證，並儘快傳回。
 
 安全性 DLL 所建立的執行緒會使用 [**RasSecurityDialogSend**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogsend) 和 [**RasSecurityDialogReceive**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) 函數來與遠端電腦通訊。 這些函數無法從任何程式庫進行靜態匯入。 相反地，安全性 DLL 必須使用 [**LoadLibrary**](/windows/win32/api/libloaderapi/nf-libloaderapi-loadlibrarya) 和 [**GetProcAddress**](/windows/win32/api/libloaderapi/nf-libloaderapi-getprocaddress) 函式，以動態方式連結至 RASMAN.DLL 中的這些函數。
 
@@ -23,6 +23,6 @@ Windows NT/Windows 2000 RAS 伺服器會呼叫安全性 DLL 的 [**RasSecurityDi
 
 安全性 DLL 可以呼叫 [**RasSecurityDialogGetInfo**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialoggetinfo) 函數，以抓取與驗證交易相關聯之埠的相關資訊。 **RasSecurityDialogGetInfo** 會填入 [**RAS \_ 安全性 \_ 資訊**](/windows/desktop/api/Rasshost/ns-rasshost-ras_security_info) 結構，指出埠的最後一個 [**RasSecurityDialogReceive**](/windows/desktop/api/Rasshost/nf-rasshost-rassecuritydialogreceive) 呼叫的狀態。
 
- 
+ 
 
- 
+ 

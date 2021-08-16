@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: d591d4c23b626eaf2e2bfb10b528ff7c054507df
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 754b72d47e4fecbc5de3697cbec255251714885835a2ec429210c9ce5f489c77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117793752"
 ---
 # <a name="counter-complex-type"></a>計數器複雜類型
 
@@ -281,7 +281,7 @@ ms.locfileid: "106993136"
 
 
 
-| 元素               | 類型                                                                                 | Description                                                                                                      |
+| 元素               | 類型                                                                                 | 描述                                                                                                      |
 |-----------------------|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
 | **counterAttributes** | [**男人： counterAttributes**](performance-counters-counterattributes-complex-type.md) | 列出指定如何在取用者應用程式中顯示計數器資料的唯一屬性。<br/> |
 
@@ -301,7 +301,7 @@ ms.locfileid: "106993136"
 <tr class="header">
 <th>名稱</th>
 <th>類型</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>
@@ -391,7 +391,7 @@ ms.locfileid: "106993136"
 <tr class="even">
 <td>類型</td>
 
-<td>計數器類型的名稱。 如需可能的值，請參閱上述語法區塊。 如需每種類型的詳細資訊，請參閱《 Windows 2003 部署指南》中的 <a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">計數器類型</a> 。 名稱區分大小寫，請使用小寫。 <br/></td>
+<td>計數器類型的名稱。 如需可能的值，請參閱上述語法區塊。 如需每種類型的詳細資訊，請參閱《 Windows 2003 部署指南》中的<a href="/previous-versions/windows/it-pro/windows-server-2003/cc776490(v=ws.10)">計數器類型</a>。 名稱區分大小寫，請使用小寫。 <br/></td>
 </tr>
 <tr class="odd">
 <td>uri</td>
@@ -413,8 +413,8 @@ ms.locfileid: "106993136"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

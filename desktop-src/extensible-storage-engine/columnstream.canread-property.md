@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 0f38621d96cc3401c16108078a8e0093e2392066
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2d2b22c201a32a8b9edd591ca96a88b7ddf2206cccf7f9ffbdad62c1c3d46da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117717049"
 ---
 # <a name="columnstreamcanread-property"></a>ColumnStream. CanRead 屬性
 

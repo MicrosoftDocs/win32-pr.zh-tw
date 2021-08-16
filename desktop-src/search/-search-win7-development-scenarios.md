@@ -1,19 +1,19 @@
 ---
 description: 概述 Windows 7 的程式庫簡介。
 ms.assetid: 83c47963-4c8e-45ee-b707-bd45cfe048cd
-title: Windows 7 中的 windows Shell 程式庫
+title: WindowsWindows 7 中的 Shell 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb94551d80d0230966626f1bd6499801aff889c4
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 28f120f1bc4e4208a7e6bbf35bbcfc4717ed05dfb7344658a80b1ea1d9a3ba50
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106986004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118969597"
 ---
-# <a name="windows-shell-libraries-in-windows"></a>Windows 中的 windows Shell 程式庫
+# <a name="windows-shell-libraries-in-windows"></a>WindowsWindows 中的 Shell 程式庫
 
-本主題概述 Windows 7 和更新版本的程式庫簡介。 程式庫是 Windows Shell 的功能。 若要存取 Windows Shell 功能，例如程式庫，Windows Search 應用程式的協力廠商開發人員必須先執行 Shell 資料存放區。 如需詳細資訊，請參閱 [執行基本資料夾物件介面](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85))。
+本主題概述 Windows 7 和更新版本的程式庫簡介。 程式庫是 Windows Shell 功能。 若要存取 Windows shell 功能，例如程式庫，Windows Search 應用程式的協力廠商開發人員必須先執行 shell 資料存放區。 如需詳細資訊，請參閱 [執行基本資料夾物件介面](/previous-versions/windows/desktop/legacy/cc144093(v=vs.85))。
 
 本主題的組織方式如下：
 
@@ -36,22 +36,22 @@ ms.locfileid: "106986004"
 
 ### <a name="collections-of-folders"></a>資料夾集合
 
-程式庫是使用者定義的內容集合。 Windows Search 在程式庫中包含資料夾時，將支援的資料夾編制索引。 這可讓您立即搜尋，以及程式庫中以屬性為基礎的堆疊排列檢視。
+程式庫是使用者定義的內容集合。 Windows搜尋索引包含在程式庫中時，支援的資料夾。 這可讓您立即搜尋，以及程式庫中以屬性為基礎的堆疊排列檢視。
 
 ### <a name="supported-folders-in-libraries"></a>程式庫中支援的資料夾
 
-針對程式庫中支援的資料夾，這些檔案必須可在本機電腦上編制索引，並在遠端 Windows 電腦上編制索引，或在伺服器上以 Windows Search 索引的檔案編制索引。
+針對程式庫中支援的資料夾，這些檔案必須可在本機電腦上編制索引，並在遠端 Windows 機上編制索引，或在伺服器上索引，並以 Windows Search 編制索引的檔案。
 
-使用者無法在 [Windows 程式庫管理] 對話方塊中新增不支援的資料夾。 如果使用 [IShellLibrary](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllibrary) API 將非索引的遠端資料夾新增至程式庫，則程式庫使用者體驗會還原為程式庫 **安全模式**。 在 **安全模式** 功能（例如屬性型堆疊排列檢視、篩選建議和 [ **開始] 功能表** 搜尋支援）會從受影響的程式庫中移除。
+在 [Windows 程式庫管理] 對話方塊中，使用者無法新增不支援的資料夾。 如果使用 [IShellLibrary](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ishelllibrary) API 將非索引的遠端資料夾新增至程式庫，則程式庫使用者體驗將會還原至媒體櫃 **保管庫模式**。 在 **保管庫模式** 功能（例如以屬性為基礎的堆疊排列檢視、篩選建議和 [**開始] 功能表** 搜尋支援）會從受影響的程式庫中移除。
 
-下表列出使用 Windows 檔案總管程式庫管理對話方塊所包含的程式庫中的資料夾，以及 **安全模式** 中不支援的資料夾：
+下表列出使用 Windows 檔案總管程式庫管理對話方塊所包含的程式庫中的資料夾，以及在 **保管庫模式下** 不支援的資料夾：
 
 | 支援的資料夾                                                                                                                            | 不支援的資料夾                                                                                     |
 |----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | 固定和外部 NTFS 和 FAT32 硬碟                                                                                                | 抽取式磁碟機 (例如 thumbdrives 和 SD 卡)                                                      |
-| 由 Windows Search (編制索引的共用，例如部門伺服器，以及執行 Windows 10 的電腦和 Windows 7 Home edition)  | 卸除式媒體 (例如 Cd 和 Dvd)                                                                   |
+| 由 Windows Search (（例如部門伺服器），以及執行 Windows 10 的電腦和 Windows 7 Home edition 進行編制索引的共用)  | 卸除式媒體 (例如 Cd 和 Dvd)                                                                   |
 | 可離線 (的共用，例如重新 **導向我的檔**、 **用戶端** 快取)                                                | 無法離線使用或遠端索引的網路共用 (例如 NAS 磁片磁碟機)              |
-| n/a                                                                                                                                          | 其他資料來源 (例如 Microsoft SharePoint、Microsoft Exchange、Microsoft OneDrive 等)  |
+| n/a                                                                                                                                          | 其他資料來源 (例如 microsoft SharePoint、microsoft Exchange、Microsoft OneDrive 等)  |
 
 ### <a name="storage-backed"></a>Storage-Backed
 
@@ -63,7 +63,7 @@ ms.locfileid: "106986004"
 
 ### <a name="library-descriptions"></a>程式庫描述
 
-程式庫描述會以 XML 檔案的形式儲存在% appdata% Microsoft \\ Windows library \\ 資料夾 (中，而且可能會以 **FOLDERID 連結 \_ 庫** 的形式儲存在磁片上。 如需 FOLDERID 連結 **\_ 庫** 的詳細資訊，請參閱 [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid)。
+程式庫描述會以 XML 檔案的形式儲存在% appdata% Microsoft \\ Windows library \\ 資料夾 (，而且可能會以 **FOLDERID 連結 \_ 庫** 的形式儲存在磁片上。 如需 FOLDERID 連結 **\_ 庫** 的詳細資訊，請參閱 [KNOWNFOLDERID](/windows/desktop/shell/knownfolderid)。
 
 程式庫說明檔是副檔名為 library-ms 的 XML 檔。 應用程式永遠不能存取或編輯這些檔案。 保存在程式庫描述檔案中的資料夾路徑文字不一定是最新的。 程式庫資料夾會以序列化的二進位 [Shell 連結](/windows/desktop/shell/links) 格式保存在程式庫描述檔案中。 如需程式庫和程式庫描述架構的詳細資訊，請參閱連結 [庫描述架構](../shell/library-schema-entry.md)。 如需同盟搜尋連接器和搜尋連接器描述架構的詳細資訊，請 [搜尋連接器描述架構](search-sconn-desc-schema-entry.md)。
 
@@ -74,6 +74,6 @@ ms.locfileid: "106986004"
 
 [Windows 7 搜尋](./-search-3x-wds-overview.md)
 
-[適用于 Windows 7 搜尋的新](new-for-windows-7-search.md)
+[Windows 7 搜尋的新](new-for-windows-7-search.md)
 
 [在 Windows 7 中編制優先順序和資料列集事件的索引](indexing-prioritization-and-rowset-events.md)

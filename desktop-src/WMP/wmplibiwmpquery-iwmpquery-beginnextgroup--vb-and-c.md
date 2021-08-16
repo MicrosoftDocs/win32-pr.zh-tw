@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 866727f821fb40b6bf09f3ee2cf0231c4ffc3005
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 56a5e0622140aacd2668b1ea145e6a36f7fb2b0ecd243adacc313301d5fb7220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745723"
 ---
 # <a name="iwmpquerybeginnextgroup-method"></a>IWMPQuery：： beginNextGroup 方法
 

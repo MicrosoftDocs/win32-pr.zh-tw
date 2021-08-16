@@ -4,16 +4,16 @@ ms.assetid: b1b42e03-7a05-46d4-9c42-b87906535adb
 title: _SummaryInformation
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 803b89223db8b6fc8074336109221a8300f7c1ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3824ceb9b3ad12338d84dfeea016a3c7e4404c274543cc691dc6ea0fb121bd32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106976851"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117805734"
 ---
 # <a name="_summaryinformation"></a>\_SummaryInformation
 
-\_SummaryInformation 資料表是與[摘要資訊資料流程](summary-information-stream.md)搭配使用的特殊資料表。 您可以藉由匯出或匯入名為 SummaryInformation. idt 的 [文字保存](text-archive-files.md) 盤案，來取得或設定 Windows Installer 資料庫的摘要資訊串流 \_ 。
+\_SummaryInformation 資料表是與[摘要資訊資料流程](summary-information-stream.md)搭配使用的特殊資料表。 您可以藉由匯出或匯入名為 SummaryInformation. idt 的[文字保存](text-archive-files.md)盤案，來取得或設定 Windows Installer 資料庫的摘要資訊串流 \_ 。
 
 匯出之 SummaryInformation 資料表的 idt 檔案 \_ 具有下列格式。
 

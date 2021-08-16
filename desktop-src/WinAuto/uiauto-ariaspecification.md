@@ -4,12 +4,12 @@ description: 網站透過非同步 JavaScript 和 XML (AJAX) 、DHTML 和 JavaSc
 ms.assetid: f400ad09-d15e-415b-b072-c28e728e27a0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c31d6380c93506263c59855a9f2069890ab07df
-ms.sourcegitcommit: cb87082135319cbdc5df541e3071eebb83a58972
+ms.openlocfilehash: a8f5a6c0efe4a2ff2ae1ec7ca76c54d19c8c351b77ef1bf3d0c4357721bdf5a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111387684"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119133491"
 ---
 # <a name="ui-automation-for-w3c-accessible-rich-internet-applications-specification"></a>W3C 可存取的豐富網際網路應用程式規格消費者介面自動化
 
@@ -52,7 +52,7 @@ W3C ARIA 角色可對應至 Microsoft Active Accessibility 角色或消費者介
 | 表單                            | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportdocumentcontroltype.md)          | 表單                            |
 | 方格                            | [**角色 \_ 系統 \_ 資料表**](object-roles.md)               | [DataGrid](uiauto-supportdatagridcontroltype.md)       | 方格                            |
 | gridcell                        | [**角色 \_ 系統 \_ 儲存格**](object-roles.md)                 | [DataItem](uiauto-supportdataitemcontroltype.md)       | gridcell                        |
-| 群組                           | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportgroupcontroltype.md)             | 群組                           |
+| group                           | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportgroupcontroltype.md)             | group                           |
 | 標題                         | [**角色 \_ 系統 \_ 文字**](object-roles.md)                 | [Text](uiauto-supporttextcontroltype.md)               | 標題                         |
 | img                             | [**角色 \_ 系統 \_ 圖形**](object-roles.md)           | [映像](uiauto-supportimagecontroltype.md)             | img                             |
 | link                            | [**角色 \_ 系統 \_ 連結**](object-roles.md)                 | [超連結](uiauto-supporthyperlinkcontroltype.md)     | link                            |
@@ -71,10 +71,10 @@ W3C ARIA 角色可對應至 Microsoft Active Accessibility 角色或消費者介
 | 注意                            | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportdocumentcontroltype.md)          | 注意                            |
 | 選項                          | [**角色 \_ 系統 \_**](object-roles.md)         | [ListItem](uiauto-supportlistitemcontroltype.md)       | 選項                          |
 | 簡報                    | [**角色 \_ 系統 \_ 窗格**](object-roles.md)                 | [窗格](uiauto-supportpanecontroltype.md)               | 簡報                    |
-| progressbar                     | [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | [進度列](uiauto-supportprogressbarcontroltype.md) | progressbar                     |
+| progressbar                     | [**角色 \_ 系統 \_ PROGRESSBAR**](object-roles.md)   | [ProgressBar](uiauto-supportprogressbarcontroltype.md) | progressbar                     |
 | radio                           | [**角色 \_ 系統 \_ 選項按鈕**](object-roles.md)   | [RadioButton](uiauto-supportradiobuttoncontroltype.md) | radio                           |
 | radiogroup                      | [**角色 \_ 系統 \_ 群組**](object-roles.md)         | [群組](uiauto-supportgroupcontroltype.md)             | radiogroup                      |
-| region                          | [**角色 \_ 系統 \_ 窗格**](object-roles.md)                 | [窗格](uiauto-supportpanecontroltype.md)               | region                          |
+| 區域                          | [**角色 \_ 系統 \_ 窗格**](object-roles.md)                 | [窗格](uiauto-supportpanecontroltype.md)               | 區域                          |
 | 列                             | [**角色 \_ 系統資料 \_ 列**](object-roles.md)                   | [DataItem](uiauto-supportdataitemcontroltype.md)       | 列                             |
 | rowheader                       | [**角色 \_ 系統 \_ ROWHEADER**](object-roles.md)       | [DataItem](uiauto-supportdataitemcontroltype.md)       | rowheader                       |
 | 狀態列                       | [**角色 \_ 系統 \_ 捲軸**](object-roles.md)       | [ScrollBar](uiauto-supportscrollbarcontroltype.md)     | 狀態列                       |

@@ -4,12 +4,12 @@ ms.assetid: 6fdaccb0-45bc-48f2-8f63-3df0bdf1dca4
 title: 將計數器名稱和描述新增至登錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e9d2c97ebe80a8ef2a8396ca42583cbad874859
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e58333e9694b9aa74ff1d5ade6a399aaa813e7735ea315be529587e813fec0fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992044"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117794053"
 ---
 # <a name="adding-counter-names-and-descriptions-to-the-registry"></a>將計數器名稱和描述新增至登錄
 
@@ -19,7 +19,7 @@ ms.locfileid: "106992044"
 所有 V1 效能物件及其計數器的名稱和描述都必須安裝在系統上。 若要從 [V1 提供者](providing-counter-data.md)儲存物件和計數器的名稱和描述：
 
 - [建立 .h 標頭檔](#creating-a-symbolic-constants-h-file) ，其中包含物件和計數器之位移的符號常數。
-- [建立初始化 (。](#creating-an-initialization-ini-file) 包含字串的 INI) 檔案。
+- 建立包含字串之) 檔案的[初始化 (.INI](#creating-an-initialization-ini-file) 。
 - 安裝元件時，請 [執行 **lodctr** 工具](#running-the-lodctr-tool) ，將名稱和描述安裝到登錄中。
 - 卸載元件時，請執行 unlodctr 工具，以從登錄中移除名稱和描述。
 
@@ -57,11 +57,11 @@ ms.locfileid: "106992044"
 #endif // OFFSETS_H
 ```
 
-## <a name="creating-an-initialization-ini-file"></a>建立初始化 (。INI) 檔案
+## <a name="creating-an-initialization-ini-file"></a>) 檔案建立初始化 (.INI
 
-初始化 (。INI) 檔案包含符號檔中所定義之每個物件和計數器的名稱和說明字串。 ，.在安裝提供者期間，使用 INI 檔案作為 **lodctr** 的輸入。
+初始化 (.INI) 檔包含符號檔中所定義之每個物件和計數器的名稱和說明字串。 在安裝提供者期間，會使用 .INI 檔案作為 **lodctr** 的輸入。
 
-，.INI 檔案應編碼為 UTF-16LE (，並以位元組順序標記) ，而且應該具有下列區段和索引鍵：
+.INI 檔案應編碼為具有位元組順序標記) 的 UTF-16LE (，而且應該具有下列區段和索引鍵：
 
 ```ini
 [info]
@@ -87,7 +87,7 @@ trusted=(Unused)
 |Key|描述
 |---|-----------
 |**DriverName**| 在登錄中，指定位於登錄機碼下的提供者效能金鑰的名稱 `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services` 。 如需建立此金鑰的詳細資訊，請參閱 [建立應用程式的效能金鑰](creating-the-applications-performance-key.md)。
-|**SymbolFile**| 指定 .h 標頭檔，其中包含提供者物件和計數器的符號值。 在安裝期間 (叫用 **lodctr**) 時，標頭檔必須與相同的目錄。INI 檔案。
+|**SymbolFile**| 指定 .h 標頭檔，其中包含提供者物件和計數器的符號值。 在安裝期間 (叫用 **lodctr**) 時，標頭檔必須與 .INI 檔位於相同的目錄中。
 |**信任**| 如果您在一節中包含此金鑰 `[info]` ， **lodctr** 會將程式庫驗證程式代碼登錄值新增至您的效能金鑰，以及效能 DLL 的二進位簽章。 當 PERFLIB 呼叫您的 DLL 時，它會比較簽章與您的 DLL，以判斷 DLL 是否已修改。 **受信任** 金鑰的值會被忽略。
 
 `DriverName`和索引 `SymbolFile` 鍵是必要的。
@@ -99,7 +99,7 @@ trusted=(Unused)
 針對您的提供者支援的每個物件 (counterset) ，將一個名為的索引鍵加入 `<symbol>_<langid>_NAME=` `[objects]` 區段中，其中 `<symbol>` 是物件的名稱，而 `<langid>` 是其中一個支援語言的語言識別項。 值會被忽略。
 
 > [!IMPORTANT]
-> `[objects]`區段可改善系統的效能。 雖然 objects 區段是選擇性的，但您應該一律將此區段包含在中。INI 檔案。 如果您包含此區段，只有當您支援要求的物件時，才會呼叫您的效能 DLL。 如果您未包含物件區段，則會針對每個查詢呼叫您的 DLL，因為系統不知道您的提供者所支援的物件。 如果未包含物件區段， **lodctr** 會在應用程式事件記錄檔中產生訊息，指出。INI 檔案未包含物件區段。 此訊息的事件識別碼為2000。
+> `[objects]`區段可改善系統的效能。 雖然 objects 區段是選擇性的，但您應該一律將此區段包含在 .INI 檔案中。 如果您包含此區段，只有當您支援要求的物件時，才會呼叫您的效能 DLL。 如果您未包含物件區段，則會針對每個查詢呼叫您的 DLL，因為系統不知道您的提供者所支援的物件。 如果未包含物件區段， **lodctr** 會在應用程式事件記錄檔中產生訊息，指出 .INI 檔案未包含物件區段。 此訊息的事件識別碼為2000。
 
 ### <a name="languages-section"></a>[語言] 區段
 
@@ -183,7 +183,7 @@ BYTES_SERVED_00C_HELP=Le nombre d'octets servis du cache.
 
 ## <a name="running-the-lodctr-tool"></a>執行 Lodctr 工具
 
-載入中定義的名稱和說明字串。INI 檔案 (在提供者安裝期間) ，請從包含的資料夾執行 **lodctr** 工具。INI 檔案和標頭檔。 此工具組含在電腦中。 您必須以較高的許可權執行 **lodctr** 。 **Lodctr** 的參數是的路徑。INI 檔案。 例如： `lodctr "C:\Program Files\MyCompany\MyProvider\MyProvider.ini"` 。
+若要載入 .INI 檔中定義的名稱和說明字串 () 安裝提供者時，請從包含 .INI 檔案和標頭檔的資料夾執行 **lodctr** 工具。 此工具組含在電腦中。 您必須以較高的許可權執行 **lodctr** 。 **Lodctr** 的參數是 .INI 檔的路徑。 例如： `lodctr "C:\Program Files\MyCompany\MyProvider\MyProvider.ini"` 。
 
 若要在卸載) 期間卸載名稱和協助字串 (，請執行 **unlodctr** 工具。 您必須以較高的許可權執行 **unlodctr** 。 **Unlodctr** 的參數是提供者的 DriverName， (提供者的效能金鑰) 的名稱。 例如： `unlodctr "MyProvider"` 。
 
@@ -191,7 +191,7 @@ BYTES_SERVED_00C_HELP=Le nombre d'octets servis du cache.
 
 除了執行 **lodctr** 之外，您還可以從安裝程式呼叫) Loadperf 中定義的 [**LoadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-loadperfcountertextstringsw) (，以載入您的計數器名稱描述。 然後，您可以在卸載期間呼叫 [**UnloadPerfCounterTextStrings**](/windows/win32/api/loadperf/nf-loadperf-unloadperfcountertextstringsw) 。
 
-**Lodctr** 公用程式會複製中的字串。將 INI 檔案寫入 **計數器**，**並在** 適當的語言子機碼下說明登錄值。 如果對應的語言子機碼不存在，則不會複製該語言的字串。 此公用程式也會更新 **最後一個計數器** 和 **最後一個** 說明值。 效能計數器名稱和描述會儲存在登錄中的下列位置。
+**Lodctr** 公用程式會將 .INI 檔案中的字串複製到 **計數器**，**並在** 適當的語言子機碼下說明登錄值。 如果對應的語言子機碼不存在，則不會複製該語言的字串。 此公用程式也會更新 **最後一個計數器** 和 **最後一個** 說明值。 效能計數器名稱和描述會儲存在登錄中的下列位置。
 
 ```
 HKEY_LOCAL_MACHINE

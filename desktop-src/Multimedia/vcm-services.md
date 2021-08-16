@@ -3,16 +3,16 @@ title: BC-VCM-LVM-HYPERV 服務
 description: BC-VCM-LVM-HYPERV 服務
 ms.assetid: ca35cf56-b823-450d-a218-e386bafbe872
 keywords:
-- 適用于 Windows (VFW) ，BC-VCM-LVM-HYPERV services 的影片
-- 適用于 Windows) 、BC-VCM-LVM-HYPERV 服務的 VFW (影片
+- 適用于 Windows (VFW) 、bc-vcm-lvm-hyperv services 的影片
+- 適用于 Windows) 、bc-vcm-lvm-hyperv 服務的 VFW (影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ac723ee2d135cde9b57cababa76db9fefbb9a23
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 13d32d4a81005b6545b205d14612e9e8de06a82d436619fd5bb3a2ea9286f6ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800830"
 ---
 # <a name="vcm-services"></a>BC-VCM-LVM-HYPERV 服務
 
@@ -39,9 +39,9 @@ DrawDib 程式庫的函式和宏會隱含地執行這些工作，而且可能會
 -   [監視壓縮機和 Decompressors 的進度](monitoring-the-progress-of-compressors-and-decompressors.md)
 -   [硬體繪圖功能](hardware-drawing-capabilities.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -1,19 +1,19 @@
 ---
-title: Windows 遠端管理詞彙
+title: Windows遠端系統管理詞彙
 description: 詞彙頁面
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: bbda0db7-f473-444b-85ab-f3c5240c4b18
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3b6d7411063fbb117c68e211181142ac773f924
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 532562a45090040cebbefae2bfff601727efb8bca794a9d9833e61a53ad63a8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "106992245"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117743261"
 ---
-# <a name="windows-remote-management-glossary"></a>Windows 遠端管理詞彙
+# <a name="windows-remote-management-glossary"></a>Windows遠端系統管理詞彙
 
 
 <dl> <dt>
@@ -54,7 +54,7 @@ wsman： Items * * * *
 
 <dl> <dt>
 
-**Cim**
+**CIM**
 </dt> <dd>
 
 請參閱 [*通用訊息模型 (CIM)*](windows-remote-management-glossary.md)。
@@ -142,7 +142,7 @@ WS-Addressing 和 WS-Management 的組合，可同時描述 message SOAP 標頭�
 **事件轉送**
 </dt> <dd>
 
-遠端電腦上發生的事件通知可以傳送至訂閱應用程式。 事件轉送不是 WinRM 的功能，而是 [Windows 事件記錄](/windows/desktop/WES/windows-event-log)檔的功能。 在 Windows Vista 中，第一次可以使用事件轉送。 管理應用程式，例如 Microsoft Operations Manager (MOM) 使用事件轉送。
+遠端電腦上發生的事件通知可以傳送至訂閱應用程式。 事件轉送不是 WinRM 的功能，但[Windows 事件記錄](/windows/desktop/WES/windows-event-log)檔中。 在 Windows Vista 中，第一次可以使用事件轉送。 管理應用程式，例如 Microsoft Operations Manager (MOM) 使用事件轉送。
 
 </dd> </dl>
 
@@ -192,7 +192,7 @@ XML 字串，可識別資源實例的一部分，而不是整個資源。 在 [*
 **智慧型平臺管理介面 (IPMI)**
 </dt> <dd>
 
-適用于基礎板 [*管理控制器 (BMC)*](windows-remote-management-glossary.md)的 IT 產業標準。 Windows 硬體管理功能提供了一種 [*IPMI 驅動程式*](windows-remote-management-glossary.md) 和 WMI [*IPMI 提供者*](windows-remote-management-glossary.md) ，可讓管理腳本、命令列工具和應用程式取得 BMC 資料。 IPMI 提供者具有 WMI [類別](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)。
+適用于基礎板 [*管理控制器 (BMC)*](windows-remote-management-glossary.md)的 IT 產業標準。 Windows 硬體管理功能提供了一種 [*IPMI 驅動程式*](windows-remote-management-glossary.md)和 WMI [*IPMI 提供者*](windows-remote-management-glossary.md)，可讓管理腳本、命令列工具和應用程式取得 BMC 資料。 IPMI 提供者具有 WMI [類別](/previous-versions/windows/desktop/ipmiprv/ipmi-provider)。
 
 </dd> <dt>
 
@@ -231,7 +231,7 @@ XML 字串，可識別資源實例的一部分，而不是整個資源。 在 [*
 **Kerberos 驗證**
 </dt> <dd>
 
-使用加密金鑰的用戶端和伺服器之間的相互驗證方法。 針對在 Windows 作業系統上執行的電腦，用戶端帳戶必須是與伺服器位於相同網域的網域帳戶。 當用戶端使用預設認證時，如果連接字串不是下列其中一項，則 Kerberos 是驗證方法： localhost、127.0.0.1 或 \[ ：： 1 \] 。
+使用加密金鑰的用戶端和伺服器之間的相互驗證方法。 如果電腦是在以 Windows 為基礎的作業系統上執行，用戶端帳戶必須是與伺服器位於相同網域的網域帳戶。 當用戶端使用預設認證時，如果連接字串不是下列其中一項，則 Kerberos 是驗證方法： localhost、127.0.0.1 或 \[ ：： 1 \] 。
 
 </dd> <dt>
 
@@ -278,7 +278,7 @@ XML 字串，可識別資源實例的一部分，而不是整個資源。 在 [*
 **協商驗證**
 </dt> <dd>
 
-一種經過協商、單一登入的驗證類型，也就是 [*簡單且受保護的 GSSAPI 協商機制*](windows-remote-management-glossary.md)的 Windows 實作為 (SPNEGO) 。 SPNEGO 協商可判斷驗證是否由 Kerberos 或 NTLM 處理。 Kerberos 是慣用的機制。 以 Windows 為基礎的系統上的 Negotiate 驗證也稱為「Windows 整合式驗證」。
+一種經過協商、單一登入的驗證類型，也就是 [*(SPNEGO) 的簡單、受保護 GSSAPI 協調機制*](windows-remote-management-glossary.md)的 Windows 實行。 SPNEGO 協商可判斷驗證是否由 Kerberos 或 NTLM 處理。 Kerberos 是慣用的機制。 以 Windows 為基礎的系統上的 Negotiate 驗證也稱為 Windows 整合式驗證。
 
 </dd> <dt>
 
@@ -378,14 +378,14 @@ XML 字串，可識別資源實例的一部分，而不是整個資源。 在 [*
 **會話**
 </dt> <dd>
 
-Windows 遠端管理 [*用戶端*](windows-remote-management-glossary.md) 與本機或 [*遠端 WinRM 接聽*](windows-remote-management-glossary.md)程式或服務之間的連接。 此連接類似于 WMI 用戶端腳本與遠端伺服器上的 WMI 之間的連接。 會話作業（例如列舉資源 (列舉) 、取得資源的實例 (取得) ，或執行資源方法 (叫用) 是 **會話** 物件的方法。 **Session** 物件是由 [**WSMan. CreateSession**](wsman-createsession.md)所建立。
+Windows 遠端管理 [*用戶端*](windows-remote-management-glossary.md)與本機或 [*遠端 WinRM 接聽*](windows-remote-management-glossary.md)程式或服務之間的連接。 此連接類似于 WMI 用戶端腳本與遠端伺服器上的 WMI 之間的連接。 會話作業（例如列舉資源 (列舉) 、取得資源的實例 (取得) ，或執行資源方法 (叫用) 是 **會話** 物件的方法。 **Session** 物件是由 [**WSMan. CreateSession**](wsman-createsession.md)所建立。
 
 </dd> <dt>
 
 **簡單且受保護的 GSS-API 協商機制 (SPNEGO)**
 </dt> <dd>
 
-用戶端或伺服器在 Active Directory 內容中透過 WinRM 接收資料要求所使用的驗證機制。 SPNEGO 是以網際網路工程任務推動力 (IETF) 所產生的 (RFC) 通訊協定為基礎。 SPNEGO 也稱為「 [*Windows 整合式驗證*](windows-remote-management-glossary.md)」，這是 Windows 遠端管理說明主題中所使用的詞彙。
+用戶端或伺服器在 Active Directory 內容中透過 WinRM 接收資料要求所使用的驗證機制。 SPNEGO 是以網際網路工程任務推動力 (IETF) 所產生的 (RFC) 通訊協定為基礎。 SPNEGO 也稱為 [*Windows 整合式驗證*](windows-remote-management-glossary.md)，這是 Windows 遠端管理說明主題中所使用的詞彙。
 
 </dd> <dt>
 
@@ -463,7 +463,7 @@ Web 服務使用的 XML 架構通訊協定。
 **Windows Management Instrumentation (WMI)**
 </dt> <dd>
 
-Microsoft 對 Web-Based Enterprise Management (WBEM) 標準的實施是由 [*分散式管理工作強制 (的 DMTF)*](windows-remote-management-glossary.md)所發行。 WMI 可讓您使用 [*通用訊息模型 (CIM)*](windows-remote-management-glossary.md) 標準的延伸模組，來管理本機和遠端電腦，並將電腦和網路物件模型。
+Microsoft 對 Web-Based Enterprise Management (WBEM) 標準（由 [*分散式管理工作強制 (DMTF)*](windows-remote-management-glossary.md)發行）的實施。 WMI 可讓您使用 [*通用訊息模型 (CIM)*](windows-remote-management-glossary.md) 標準的延伸模組，來管理本機和遠端電腦，並將電腦和網路物件模型。
 
 </dd> <dt>
 
@@ -474,10 +474,10 @@ Microsoft 會根據公用標準 [*ws-management*](windows-remote-management-glos
 
 </dd> <dt>
 
-**Windows 遠端 Shell (WinRS)**
+**Windows遠端 Shell (WinRS)**
 </dt> <dd>
 
-依賴 [*Windows 遠端管理*](windows-remote-management-glossary.md) 執行遠端命令的 shell 工具，特別是針對無周邊伺服器。 命令列工具為 Winrs。
+依賴 [*Windows 遠端管理*](windows-remote-management-glossary.md)執行遠端命令的 shell 工具，特別是針對無周邊伺服器。 命令列工具為 Winrs。
 
 </dd> <dt>
 

@@ -4,12 +4,12 @@ description: 某些用戶端（例如 RIP 和 DVMRP 等距離向量通訊協定�
 ms.assetid: 2a86c092-d8a6-4fd4-8b2e-451c160f743f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af10832452a3a0b9ca851c209d240c97998ef519
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 833f41da08c45d8f9bbe9419360f4d1857b2a52fb92ee0be341b56bc8362536e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932307"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117790486"
 ---
 # <a name="marking-routes-for-the-hold-down-state"></a>標示 Hold-Down 狀態的路由
 
@@ -23,9 +23,9 @@ ms.locfileid: "103932307"
 
 如需顯示如何使用這些函式的範例程式碼，請參閱 [使用路由 Hold-Down 狀態](use-the-route-hold-down-state.md)。
 
- 
+ 
 
- 
+ 
 
 
 

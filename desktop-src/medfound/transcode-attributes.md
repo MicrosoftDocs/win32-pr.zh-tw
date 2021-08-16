@@ -4,12 +4,12 @@ ms.assetid: 6cddb5b9-75da-4640-9810-35a8203fc4bc
 title: 轉碼屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cf5322904cc70c7d2888621095d1381f029c06d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 22d62a02f83a799e51648e25740aaca01318a3d3c44f239715970ab1ee840308
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972837"
 ---
 # <a name="transcode-attributes"></a>轉碼屬性
 

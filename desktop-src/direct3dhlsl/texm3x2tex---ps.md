@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 62206bc4ef1e1b64ec760a240a087ec13526d896
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 9653325098b05959fcbd9e7a838801652a532d936bdaebc829055b717a49096f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104990770"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117723016"
 ---
 # <a name="texm3x2tex---ps"></a>texm3x2tex-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104990770"
 
 
 
- 
+ 
 
 其中
 
@@ -46,7 +46,7 @@ ms.locfileid: "104990770"
 
 
 
- 
+ 
 
 指令會用來做為兩個表示3x2 矩陣乘法運算的指示之一。 此指令必須搭配 [texm3x2pad ps](texm3x2pad---ps.md) 指令使用。
 
@@ -109,9 +109,9 @@ mov r0, t2            // Output result
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

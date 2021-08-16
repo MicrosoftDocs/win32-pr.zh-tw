@@ -1,19 +1,19 @@
 ---
-description: 本文包含在 DirectShow 中播放教學課程音訊/影片的主要 .cpp 檔案程式碼。
+description: 本文包含 DirectShow 中教學課程音訊/影片播放的主要 .cpp 檔案程式碼。
 ms.assetid: d1a4ee7d-b05d-4050-b0a5-25c28157646f
 title: 主要 .cpp
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db91ab89ff7c79811fc649072c91d626701239a3
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: eae95293e5f9f3f6511834ff030898c770c673d60ea761353f4637cb583e5c15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112407871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119073102"
 ---
 # <a name="maincpp"></a>主要 .cpp
 
-本主題包含 [在 DirectShow 中播放教學課程音訊/影片](audio-video-playback-in-directshow.md)的程式碼。
+本主題包含 DirectShow 中的教學課程[音訊/影片播放](audio-video-playback-in-directshow.md)程式碼。
 
 
 ```C++
@@ -244,10 +244,10 @@ void NotifyError(HWND hwnd, PCWSTR pszMessage)
 
 <dl> <dt>
 
-[在 DirectShow 播放音訊/影片](audio-video-playback-in-directshow.md)
+[DirectShow 中的音訊/影片播放](audio-video-playback-in-directshow.md)
 </dt> <dt>
 
-[DirectShow 播放範例](directshow-playback-example.md)
+[DirectShow播放範例](directshow-playback-example.md)
 </dt> </dl>
 
  

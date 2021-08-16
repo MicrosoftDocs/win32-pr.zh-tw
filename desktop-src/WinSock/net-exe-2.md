@@ -4,12 +4,12 @@ ms.assetid: faa555d9-eb20-4b7a-94eb-b67a48ee630e
 title: Net.exe
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5074696b71ce000ef330f2c88fceef0f60b0222e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 29ab08a69590d6cf53a42096bf12d2e8657c571fd27b637feca4c51c61354225
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117741075"
 ---
 # <a name="netexe"></a>Net.exe
 

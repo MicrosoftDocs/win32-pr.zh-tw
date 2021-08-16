@@ -3,8 +3,8 @@ title: 使用對話方塊
 description: 您可以使用對話方塊來顯示資訊，並提示使用者輸入。
 ms.assetid: 8a5b6bdd-4429-4f48-b846-6bd617a87abf
 keywords:
-- Windows 消費者介面、視窗化
-- Windows 消費者介面，對話方塊
+- Windows消費者介面、視窗化
+- Windows消費者介面，對話方塊
 - 視窗化，對話方塊
 - 對話方塊，關於
 - 對話方塊，顯示
@@ -17,12 +17,12 @@ keywords:
 - 對話方塊、範本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21da47d7d59f4cadc21314566bce41a9ef3456a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 32ec5e97060697388224ac92f60b6043a188d4259520aaf151fb188c43f6bb64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117720789"
 ---
 # <a name="using-dialog-boxes"></a>使用對話方塊
 
@@ -433,6 +433,6 @@ LRESULT DisplayMyMessage(HINSTANCE hinst, HWND hwndOwner, LPSTR lpszMessage)
 
 
 
- 
+ 
 
- 
+ 

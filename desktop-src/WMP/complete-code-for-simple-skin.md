@@ -13,12 +13,12 @@ keywords:
 - 外觀定義檔，範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3682e6143c751d1c72cd8799f849fef7c9c27adb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6a3b4d4380c6d7fb44290e8faff26bf5cb84dae552d09fe13594402dbe434ab0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840327"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135791"
 ---
 # <a name="complete-code-for-simple-skin"></a>簡單面板的完整程式碼
 
@@ -67,9 +67,9 @@ ms.locfileid: "103840327"
 [**建立外觀定義檔**](creating-the-skin-definition-file.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

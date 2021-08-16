@@ -4,16 +4,16 @@ ms.assetid: 02d1b3b5-3639-4864-9b72-623bf94acf69
 title: 'ITFormatControl：： GetCurrentFormat 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1b711b539ea9a92af6bd345c5a1f48b212b640b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 50d261cd88a9aac4998f15d871a20408aecb367b793b78b7f9fcaeff452273a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119140331"
 ---
 # <a name="itformatcontrolgetcurrentformat-method"></a>ITFormatControl：： GetCurrentFormat 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **GetCurrentFormat** 方法會抓取目前資料流程的媒體格式。
 
@@ -45,7 +45,7 @@ HRESULT GetCurrentFormat(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ OUTOFMEMORY**</dt> </dl> | 記憶體不足，無法執行操作。<br/> |

@@ -4,12 +4,12 @@ ms.assetid: 27b87f0f-7118-4252-b6e8-6ea18a9399e4
 title: '疑難排解 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6726e761dd8c15e2da18e6c370472a73e82cef0b
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 637ac4b43e8947a6011e35ae9a36db7829ed47fd4d5740f93778116e4ee8f9ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106999827"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119044076"
 ---
 # <a name="troubleshooting-direct3d-9"></a>疑難排解 (Direct3D 9) 
 
@@ -96,7 +96,7 @@ int _matherr(struct _exception  *e)
 
 <dl> <dt>
 
-[程式設計秘訣](programming-tips.md)
+[程式設計提示](programming-tips.md)
 </dt> </dl>
 
  

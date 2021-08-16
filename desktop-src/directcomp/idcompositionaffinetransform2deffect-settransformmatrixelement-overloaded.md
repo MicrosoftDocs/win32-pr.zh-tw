@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3656b00938a39f7556849d97887886477434ecf5
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 65c0f1998e3b00e295fe44c864d68b11f1e3f3acceb157f3f35641854ea74464
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000692"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118088701"
 ---
 # <a name="idcompositionaffinetransform2deffectsettransformmatrixelement-methods"></a>idcompositionaffinetransform2deffect：： SetTransformMatrixElement 方法
 

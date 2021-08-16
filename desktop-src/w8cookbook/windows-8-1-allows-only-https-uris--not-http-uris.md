@@ -1,17 +1,17 @@
 ---
 title: Windows 8.1 中的 Uri
-description: Windows 8.1 只允許 HTTPs Uri，而非 HTTP Uri
+description: Windows 8.1 只允許 HTTPs uri，而非 HTTP uri
 ms.assetid: 06BDD3A3-67B7-4085-83DA-F322F718C876
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 994780798bfe7ada0d7dc49794deb284e30f1605
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c3246cad0fb6114a3a01d781ed990e0c277547e2b9ee489572c8124a23e7e81b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104382545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119028806"
 ---
-# <a name="windows-81-allows-only-https-uris-not-http-uris"></a>Windows 8.1 只允許 HTTPs Uri，而非 HTTP Uri
+# <a name="windows-81-allows-only-https-uris-not-http-uris"></a>Windows 8.1 只允許 HTTPs uri，而非 HTTP uri
 
 ## <a name="platforms"></a>平台
 
@@ -19,11 +19,11 @@ ms.locfileid: "104382545"
 伺服器-Windows Server 2012 R2  
 </dl>
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
-針對 Windows 8 所建立的應用程式可以在其應用程式內容 Uri 中包含 HTTP 和 HTTPs Uri，針對 Windows 8.1 所建立的應用程式可能只包含 HTTPs Uri。
+針對 Windows 8 所建立的應用程式可以在其應用程式內容 uri 中包含 HTTP 和 HTTPs uri，針對 Windows 8.1 所建立的應用程式可能只包含 HTTPs uri。
 
-唯一的例外是應用程式 AppxManifest.xml 檔中所指定的動態 ContentUriRules。 使用動態 ContentUriRules，應用程式可以存取系統管理員提供的其他網域或網路資源，例如群組原則的 Uri。 不過，只有在符合下列條件的情況下，Windows Store 應用程式才能使用動態 ContentUriRules：
+唯一的例外是應用程式 AppxManifest.xml 檔中所指定的動態 ContentUriRules。 使用動態 ContentUriRules，應用程式可以存取系統管理員提供的其他網域或網路資源，例如群組原則的 Uri。 不過，只有在符合下列條件的情況下，才可 Windows 儲存應用程式使用動態 ContentUriRules：
 
 -   群組原則已啟用
 -   封裝指定了 enterpriseAuthentication 功能
@@ -33,7 +33,7 @@ Windows 8.1 的新限制是增強式安全性限制的一部分，可進一步�
 
 ## <a name="manifestations"></a>表現
 
-在 Windows 8.1 上執行針對 Windows 8 所建立的應用程式時，允許在 [s](/uwp/schemas/appxpackage/appxmanifestschema/element-applicationcontenturirules) 中使用 HTTP uri。
+在 Windows 8.1 上執行針對 Windows 8 所建立的應用程式時，允許在[s](/uwp/schemas/appxpackage/appxmanifestschema/element-applicationcontenturirules)中使用 HTTP uri。
 
 ## <a name="mitigations"></a>風險降低
 
@@ -65,6 +65,6 @@ Windows 8.1 的新限制是增強式安全性限制的一部分，可進一步�
 -   [Web 類型類別](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041)
 -   [ScriptNotify 事件](/uwp/api/Windows.UI.Xaml.Controls.WebView?view=winrt-19041)
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ keywords:
 - 語言列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ef227b29c8b481bfaefc4a218305ba8974fe54e2
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: ea2f0adeacdfe105700efba761b0622432f4ac382d147bd82145242be9fdd71a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103843020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117952106"
 ---
 # <a name="language-bar-tsf-applications"></a>Language Bar (TSF 應用程式) 
 

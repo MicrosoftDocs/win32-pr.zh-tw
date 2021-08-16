@@ -4,12 +4,12 @@ ms.assetid: 092e8411-8ca4-4535-99d1-3db4bec5b03b
 title: 芬蘭通道指派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 362bce3ac8ba93d0b2cc6984e685d050988ad7a1
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ef8ed5d6b341a379ae6cdd4b838b4797ed7dcb4e20966cb46930cabd60f90501
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509798"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119330448"
 ---
 # <a name="finland-channel-assignments"></a>芬蘭通道指派
 
@@ -17,7 +17,7 @@ ms.locfileid: "104509798"
 
 如需下列資料表的說明，請參閱 [資料表和指派](tables-and-assignments.md)。
 
-在 Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
+Windows 7 中引進了下列通道指派。 先前使用的是 [Unicable Frequency 資料表](unicable-frequency-table.md) 。
 
 ## <a name="cable-assignments"></a>纜線指派
 

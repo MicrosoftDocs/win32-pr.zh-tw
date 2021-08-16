@@ -4,17 +4,17 @@ description: UX 指南中所討論的許多使用者介面元素的視覺範例�
 ms.assetid: be99bf83-dcd7-44df-be0d-b1b17305a2d6
 ms.topic: article
 ms.date: 10/20/2020
-ms.openlocfilehash: 2dc56707564115b612cc008d66697a2543191859
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: e240cd30b022fa8acab654c80189239852e5bf906c9cfcbeb03963e1b541763c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815883"
 ---
 # <a name="visual-index"></a>視覺索引
 
 > [!NOTE]
-> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新版本的 Windows 更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
+> 此設計指南是針對 Windows 7 所建立，而且尚未針對較新的 Windows 版本進行更新。 大部分的指引仍然適用于準則，但展示和範例不會反映我們目前的 [設計指引](/windows/uwp/design/)。
 
 以下是 UX 指南中所討論的許多使用者介面元素的視覺範例。
 

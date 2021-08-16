@@ -1,23 +1,23 @@
 ---
-description: DirectShow 列舉類型
+description: DirectShow列舉類型
 ms.assetid: 74467006-b077-49c0-8573-f939ac3d3444
-title: DirectShow 列舉類型
+title: DirectShow列舉類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 309059f9d8ef1c78c1acbcab32720b3a05c1cb89
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ddd835f9cb235ee9bde357cf553fc87671a7acebfc2e4ed4693fdbdad0f7b7fb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510111"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119292028"
 ---
-# <a name="directshow-enumerated-types"></a>DirectShow 列舉類型
+# <a name="directshow-enumerated-types"></a>DirectShow列舉類型
 
 本節說明 DirectShow 列舉類型。
 
 
 
-| 列舉型別                                                                | Description                                                                                                                                                                                                                                                     |
+| 列舉型別                                                                | 描述                                                                                                                                                                                                                                                     |
 |--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**\_AM \_ ASFWRITERCONFIG \_ PARAM**](/previous-versions/windows/desktop/api/dshowasf/ne-dshowasf-_am_asfwriterconfig_param)              | 定義 WM ASF 寫入器篩選器的設定參數。                                                                                                                                                                                                  |
 | [**\_AM \_ 音訊轉譯器 \_ \_ STAT \_ 參數**](/windows/desktop/api/strmif/ne-strmif-_am_audio_renderer_stat_param)    | 指定要從音訊轉譯器取出哪些效能資訊。                                                                                                                                                                                    |
@@ -53,7 +53,7 @@ ms.locfileid: "104510111"
 | [**AMVP \_ 選取 \_ 格式 \_ 依據**](/previous-versions/windows/desktop/api/vptype/ne-vptype-amvp_select_format_by)                      | 指定 VP 混音器應該用來選取影片格式的準則。                                                                                                                                                                                 |
 | [**AnalogVideoStandard**](/windows/win32/api/strmif/ne-strmif-analogvideostandard)                             | 指定基帶類比視訊訊號的格式。                                                                                                                                                                                                       |
 | [**CameraControlFlags**](/windows/win32/api/strmif/ne-strmif-cameracontrolflags)                               | 指定是否自動或手動設定特定的相機功能。                                                                                                                                                                                |
-| [**CameraControlProperty**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | 指定相機 DirectShow 控制的部分。                                                                                                                                                                                                    |
+| [**CameraControlProperty**](/windows/win32/api/strmif/ne-strmif-cameracontrolproperty)                         | 指定要控制相機 DirectShow 的哪個部分。                                                                                                                                                                                                    |
 | [**CompressionCaps**](/windows/desktop/api/strmif/ne-strmif-compressioncaps)                                     | 表示視訊壓縮功能。                                                                                                                                                                                                                       |
 | [**COPP \_ ACP \_ 保護 \_ 等級**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_acp_protection_level)              | 指定 ACP 保護層級。                                                                                                                                                                                                                             |
 | [**COPP \_ BusType**](/windows/desktop/api/dxva9typ/ne-dxva9typ-copp_bustype)                                          | 指定圖形介面卡所使用的 i/o 匯流排類型。                                                                                                                                                                                                     |
@@ -108,8 +108,8 @@ ms.locfileid: "104510111"
 | [**TunerInputType**](/windows/win32/api/strmif/ne-strmif-tunerinputtype)                                       | 指定電視調諧器 (纜線或天線) 的頻率。                                                                                                                                                                                                       |
 | [**TVAudioMode**](/windows/win32/api/strmif/ne-strmif-tvaudiomode)                                             | 指定電視音訊控制項的模式。                                                                                                                                                                                                                       |
 | [**有效的 \_ UOP \_ 旗標**](/windows/win32/api/strmif/ne-strmif-valid_uop_flag)                                     | 指出 DVD 目前允許 (UOP) 命令的使用者操作。                                                                                                                                                                                 |
-| [**VfwCaptureDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | 指定適用于 Windows capture 驅動程式之 Microsoft 影片的對話方塊。                                                                                                                                                                                        |
-| [**VfwCompressDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | 為 Windows 編解碼器的影片指定對話方塊。                                                                                                                                                                                                           |
+| [**VfwCaptureDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcapturedialogs)                                 | 針對 Windows capture 驅動程式的 Microsoft 影片指定對話方塊。                                                                                                                                                                                        |
+| [**VfwCompressDialogs**](/windows/desktop/api/strmif/ne-strmif-vfwcompressdialogs)                               | 針對 Windows 編解碼器的影片指定對話方塊。                                                                                                                                                                                                           |
 | [**VideoControlFlags**](/windows/win32/api/strmif/ne-strmif-videocontrolflags)                                 | 指定影片裝置的操作模式，例如水準或垂直翻轉、外部觸發程式啟用和觸發程式模擬。                                                                                                                           |
 | [**VIDEOENCODER \_ 位元速率 \_ 模式**](/windows/desktop/api/strmif/ne-strmif-videoencoder_bitrate_mode)               | 定義 [**IEncoderAPI**](/windows/win32/api/strmif/nn-strmif-iencoderapi) 介面方法支援的三種類型的位速度。                                                                                                                                                    |
 | [**VideoProcAmpFlags**](/windows/win32/api/strmif/ne-strmif-videoprocampflags)                                 | 指定如何設定影片屬性。                                                                                                                                                                                                                          |
@@ -142,7 +142,7 @@ ms.locfileid: "104510111"
 
 <dl> <dt>
 
-[DirectShow 參考](directshow-reference.md)
+[DirectShow參考](directshow-reference.md)
 </dt> </dl>
 
  
