@@ -5,12 +5,12 @@ ms.assetid: 16f605ae-7f6c-4429-a379-47686618b15d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e4e6b7f3bfd9c853d9ff262365d49c1f3a8d5c
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: d8620706db56124b83c8cd8151c067a548d5a73d557fa6523ed82167647450b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "103932953"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840288"
 ---
 # <a name="creating-a-heterogeneous-join-between-sql-server--active-directory"></a>在 SQL Server & Active Directory 之間建立異類聯結
 
@@ -44,7 +44,7 @@ INSERT EMP_REVIEW VALUES('Chris Gray', '7/15/1999', 4 )
 
 現在 Joe 可以將 Active Directory 的使用者物件加入 SQL Server 資料表中。
 
-在此範例中， [SELECT](https://msdn.microsoft.com/library/Aa259187.aspx) 語句包含將從目錄服務取得並 SQL Server 的資料清單。 [From](https://msdn.microsoft.com/library/Aa258869.aspx)語句包含連結目錄伺服器的名稱，此資訊將從中取得，在此案例中為 viewADUsers。 [WHERE](https://msdn.microsoft.com/library/Aa260674.aspx)語句會提供搜尋條件。 在此範例中，它會依目錄服務中的名稱進行搜尋，此服務會設定為上一個工作中所輸入的 SQL 使用者名稱。
+在此範例中， [SELECT](https://msdn.microsoft.com/library/Aa259187.aspx)語句包含將從目錄服務取得並 SQL Server 的資料清單。 [From](https://msdn.microsoft.com/library/Aa258869.aspx)語句包含連結目錄伺服器的名稱，此資訊將從中取得，在此案例中為 viewADUsers。 [WHERE](https://msdn.microsoft.com/library/Aa260674.aspx)語句會提供搜尋條件。 在此範例中，它會依目錄服務中的名稱進行搜尋，此服務會設定為在上一個工作中輸入的 SQL 使用者名稱。
 
 
 ```sql
@@ -70,9 +70,9 @@ SELECT * FROM reviewReport
 
 
 
- 
+ 
 
- 
+ 
 
 
 

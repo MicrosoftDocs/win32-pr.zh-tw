@@ -4,12 +4,12 @@ description: 以下是搭配磁帶備份使用的結構。
 ms.assetid: 4f9ae7c8-2e81-4570-a3f8-1e938cfc6a0d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0fb8141fecaaeba5de9105c32094544388c8093
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 971a4d44b9a240a094bbf2c066bebd4ffe6a8c20b4beed8c4ff577cdb93aca42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020776"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835583"
 ---
 # <a name="backup-structures"></a>備份結構
 
@@ -29,9 +29,9 @@ ms.locfileid: "104020776"
 [**WIN32 \_ 資料流程 \_ 識別碼**](/windows/desktop/api/Winbase/ns-winbase-win32_stream_id)  
 </dl>
 
- 
+ 
 
- 
+ 
 
 
 

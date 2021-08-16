@@ -1,20 +1,20 @@
 ---
-title: 物件。Cpp
+title: 物件。CPP
 description: 在範例提供者元件中，物件清單的程式碼範例（包括使用篩選）是在物件 .cpp 中。 下表列出支援的方法。
 ms.assetid: cb59ab96-c58e-47cb-9031-5432e83771bd
 ms.tgt_platform: multiple
 keywords:
-- 物件。Cpp
+- 物件。CPP
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 400cce3ec4be4e7597a87aac2fe9d70fc29957dd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d0051fc69b5bf5ca4375ad30349abd518db1326dee04178c839d7ac0df7dd920
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092193"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839376"
 ---
-# <a name="objectcpp"></a>物件。Cpp
+# <a name="objectcpp"></a>物件。CPP
 
 在範例提供者元件中，物件清單的程式碼範例（包括使用篩選）是在物件 .cpp 中。 下表列出支援的方法。
 
@@ -33,11 +33,11 @@ ms.locfileid: "104092193"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

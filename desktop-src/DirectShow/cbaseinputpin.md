@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: ba55006438a8484b0bf10b95ac8b9d8bbdb56e0f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ab98a2dcb1503e7593912df0e5dff51539855611311d4704e4045816fd6380e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823880"
 ---
 # <a name="cbaseinputpin-class"></a>CBaseInputPin 類別
 
@@ -41,13 +41,13 @@ ms.locfileid: "106994315"
 
 
 
-| 受保護的成員變數                                                 | Description                                                                                                 |
+| 受保護的成員變數                                                 | 描述                                                                                                 |
 |----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|
 | [**m \_ pAllocator**](cbaseinputpin-m-pallocator.md)                        | 記憶體配置器的指標。                                                                            |
 | [**m \_ bReadOnly**](cbaseinputpin-m-breadonly.md)                          | 指出配置器是否會產生唯讀媒體範例的旗標。                                 |
 | [**m \_ bFlushing**](cbaseinputpin-m-bflushing.md)                          | 指出釘選是否正在排清的旗標。                                                  |
 | [**m \_ SampleProps**](cbaseinputpin-m-sampleprops.md)                      | 最新範例的屬性。                                                                       |
-| 公用方法                                                             | Description                                                                                                 |
+| 公用方法                                                             | 描述                                                                                                 |
 | [**CBaseInputPin**](cbaseinputpin-cbaseinputpin.md)                       | 函式方法。                                                                                         |
 | [**~ CBaseInputPin**](cbaseinputpin--cbaseinputpin.md)                     | 函式方法。                                                                                          |
 | [**BreakConnect**](cbaseinputpin-breakconnect.md)                         | 釋放連接的 pin。                                                                         |
@@ -57,18 +57,18 @@ ms.locfileid: "106994315"
 | [**PassNotify**](cbaseinputpin-passnotify.md)                             | 將品質控制訊息傳遞至適當的物件。                                                 |
 | [**非使用中**](cbaseinputpin-inactive.md)                                 | 通知 pin 此篩選已不再有效。 虛擬。                                              |
 | [**SampleProps**](cbaseinputpin-sampleprops.md)                           | 抓取最新範例的屬性。                                                         |
-| IPin 方法                                                               | Description                                                                                                 |
+| IPin 方法                                                               | 描述                                                                                                 |
 | [**BeginFlush**](cbaseinputpin-beginflush.md)                             | 開始清除作業。                                                                                   |
 | [**EndFlush**](cbaseinputpin-endflush.md)                                 | 結束清除操作。                                                                                     |
-| IMemInputPin 方法                                                       | Description                                                                                                 |
+| IMemInputPin 方法                                                       | 描述                                                                                                 |
 | [**GetAllocator**](cbaseinputpin-getallocator.md)                         | 抓取此 pin 提議的記憶體配置器。                                                        |
 | [**NotifyAllocator**](cbaseinputpin-notifyallocator.md)                   | 指定連接的配置器。                                                                  |
 | [**GetAllocatorRequirements**](cbaseinputpin-getallocatorrequirements.md) | 抓取輸入 pin 所要求的配置器屬性。                                              |
 | [**收到**](cbaseinputpin-receive.md)                                   | 接收資料流程中的下一個媒體範例。                                                               |
 | [**ReceiveMultiple**](cbaseinputpin-receivemultiple.md)                   | 接收資料流程中的多個範例。                                                                    |
 | [**ReceiveCanBlock**](cbaseinputpin-receivecanblock.md)                   | 判斷 [**CBaseInputPin：： Receive**](cbaseinputpin-receive.md) 方法的呼叫是否可能封鎖。 |
-| IQualityControl 方法                                                    | Description                                                                                                 |
-| [**Notify**](cbaseinputpin-notify.md)                                     | 接收品質控制訊息。                                                                         |
+| IQualityControl 方法                                                    | 描述                                                                                                 |
+| [**通知**](cbaseinputpin-notify.md)                                     | 接收品質控制訊息。                                                                         |
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: d42af1912365a4237889e4e46d0fb3343377c772
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1ad7ce342c1e0053622bfb77161ecd1e5d81c25d09af179108065b445dd4dc35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365073"
 ---
 # <a name="irtcpause-method"></a>IRTC：:P ause 方法
 
@@ -50,8 +50,8 @@ HRESULT STDMETHODCALLTYPE Pause();
 |-------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ CAPTURE 已 \_ 暫停**</dt> </dl> | 此 capture 已經暫停。<br/>                                                                                     |
 | <dl> <dt>**NMERR \_ 未 \_ 捕獲**</dt> </dl>  | NPP 不會捕捉資料。 呼叫 [IRTC：： start](irtc-start.md) 以開始捕獲。<br/>                            |
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫 [IRTC：： connect](irtc-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>   | NPP 已連接到網路，但不是使用 [IRTC：： Connect](irtc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>  | NPP 未連接到網路。 呼叫[IRTC：：連線](irtc-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 無法 \_ 即時**</dt> </dl>   | NPP 是連接到網路，但不是使用[IRTC：：連線](irtc-connect.md)方法。<br/>                     |
 
 
 
@@ -85,7 +85,7 @@ HRESULT STDMETHODCALLTYPE Pause();
 [IRTC](irtc.md)
 </dt> <dt>
 
-[IRTC：： Connect](irtc-connect.md)
+[IRTC：：連線](irtc-connect.md)
 </dt> <dt>
 
 [IRTC：： Resume](irtc-resume.md)

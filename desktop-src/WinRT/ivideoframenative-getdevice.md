@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - windows.media.core.interop.h
-ms.openlocfilehash: d012ae79b1cb2c83e916dc74113cc3d0560da4c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7f204cc0d44690a2b80c8642d590ef38510cebedbc00332720ec51529fe34ad2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386153"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323107"
 ---
 # <a name="ivideoframenativegetdevice-method"></a>IVideoFrameNative：： GetDevice 方法
 

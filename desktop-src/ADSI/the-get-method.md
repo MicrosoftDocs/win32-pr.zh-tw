@@ -8,12 +8,12 @@ keywords:
 - ADSI ADSI，使用 IADs Get 方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 11590fda2cfd207315453323fa3d0999f298103d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 386c3fe6e50a9f7357ec161b1e6bd8731cf8d0a74eed4b4a765adc3315c1045d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106980260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838628"
 ---
 # <a name="the-get-method"></a>Get 方法
 
@@ -71,9 +71,9 @@ Cleanup:
 
 如果未在物件上設定值， [**IADs：： Get**](/windows/desktop/api/Iads/nf-iads-iads-get) 方法會傳回「在快取中找不到屬性」錯誤。
 
- 
+ 
 
- 
+ 
 
 
 

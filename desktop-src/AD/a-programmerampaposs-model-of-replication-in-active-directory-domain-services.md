@@ -8,12 +8,12 @@ keywords:
 - 程式設計人員在 Active Directory Domain Services 中的複寫模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ada20bc07411528eaea4b7ff8c773c50ae8b6ec
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b758a31913d0c306105d0d3ce51e72607530e314d79601e8e5230495458d9793
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020755"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841228"
 ---
 # <a name="a-programmers-model-of-replication-in-active-directory-domain-services"></a>程式設計人員在 Active Directory Domain Services 中的複寫模型
 
@@ -39,9 +39,9 @@ Active Directory 網網域控制站 (DC) 的所有更新都會使用 LDAP 要求
 
 這種模型與現實的不同之處在于，它只會影響效能。 例如，Active Directory 伺服器會將包含變更的複寫訊息傳送至多個物件，但會處理這類多物件訊息的內容，就像是一系列的單一物件訊息一樣。 Active Directory 伺服器不會執行模型中所述的點對點複寫，而是會執行功能相當於模型的更複雜且更有效率的可轉移複寫。
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,16 +4,16 @@ ms.assetid: c00ff132-fee1-47b5-8a8a-df7cb920ad89
 title: DirectShow 中的 DVD 解碼開發
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a3de64b3c1d91dbf5f22ba3e4b4ae8fe78edda5
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 40e868cc21dd95d9cb962dddac7f2adccfbc7894a40dc775eec2ea7003b8f62d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820562"
 ---
 # <a name="dvd-decoder-development-in-directshow"></a>DirectShow 中的 DVD 解碼開發
 
-本節包含所有 DirectShow 屬性集的參考頁指標，以及 dvd 解碼中廣泛使用的介面。 除了此處所列的內容之外，解碼器及其 pin 也必須支援一般的 DirectShow 篩選介面，如 [撰寫 DirectShow 篩選器](writing-directshow-filters.md)中所述。
+本節包含所有 DirectShow 屬性集的參考頁指標，以及 dvd 解碼中廣泛使用的介面。 除了此處所列的內容之外，解碼器和其釘選也必須支援一般 DirectShow 篩選介面，如[撰寫 DirectShow 篩選器](writing-directshow-filters.md)中所述。
 
 此章節包含下列主題。
 

@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7293514d798fe65c82863a83549039b05ec8eb3e
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a787283f933ae4ccd2d8100c39e6118b40c545c030bb236a27a2f1598417742e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835546"
 ---
 # <a name="sisfreerestorestructure-function"></a>SisFreeRestoreStructure 函式
 
@@ -63,8 +63,8 @@ BOOL SisFreeRestoreStructure(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Sisbkup。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Sisbkup .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

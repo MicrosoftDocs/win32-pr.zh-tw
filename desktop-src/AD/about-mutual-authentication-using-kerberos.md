@@ -7,12 +7,12 @@ keywords:
 - 關於使用 Kerberos AD 的相互驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9685dad0bd20f233b8dcb0ecf12af338f318646f
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b020b2d808cee96319cf411b4199bb4ff78f357cfdf8379f01c7d07bc1c5c1c5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020753"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841008"
 ---
 # <a name="about-mutual-authentication-using-kerberos"></a>關於使用 Kerberos 進行相互驗證
 
@@ -27,12 +27,12 @@ ms.locfileid: "104020753"
 用戶端用來驗證服務的 Kerberos 機制如下所示：當安裝服務時，以系統管理員許可權執行的服務安裝程式會為每個服務實例註冊一或多個唯一的 Spn。 這些名稱會在服務實例將用來登入之使用者或電腦帳戶物件的 Active Directory 網網域控制站 (DC) 中註冊。 當用戶端要求服務的連接時，它會使用已知的資料或使用者提供的資料來撰寫服務實例的 SPN。 接著，用戶端會使用 SSPI negotiate 套件，將 SPN 呈現給用戶端網域帳戶的金鑰發佈中心 (KDC) 。 KDC 會在樹系中搜尋已註冊 SPN 的使用者或電腦帳戶。 如果 SPN 註冊在一個以上的帳戶上，驗證就會失敗。 否則，KDC 會使用註冊 SPN 之帳戶的密碼來加密訊息。 KDC 會將這個加密的訊息傳遞給用戶端，然後再將它傳遞給服務實例。 服務會使用 SSPI 協商套件來解密訊息，然後將訊息傳回用戶端，並傳送給用戶端的 KDC。 KDC 會在解密的訊息符合其原始訊息時驗證服務。
 
 -   如需撰寫和註冊 Spn 的詳細資訊，請參閱。[服務主體名稱](service-principal-names.md)
--   如需撰寫 Windows 通訊端服務之 SPN 的詳細資訊和程式碼範例，以服務連接點發佈本身，請參閱 [使用 SCP 撰寫服務的 spn](composing-the-spns-for-a-service-with-an-scp.md)。
+-   如需詳細資訊和程式碼範例，以針對以服務連接點發佈本身的 Windows 通訊端服務撰寫 spn，請參閱[使用 SCP 撰寫服務的 spn](composing-the-spns-for-a-service-with-an-scp.md)。
 -   如需撰寫 RPC 服務之 SPN 的詳細資訊和程式碼範例，請參閱 [撰寫 RpcNs 服務的 spn](composing-spns-for-an-rpcns-service.md)。
 
- 
+ 
 
- 
+ 
 
 
 

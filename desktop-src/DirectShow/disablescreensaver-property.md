@@ -4,17 +4,17 @@ ms.assetid: 78a0512f-456a-45b6-8717-13593461a765
 title: DisableScreenSaver 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d651026f2bf09f872655a0ef58accb3a6173dcb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 9bc714dbbdc3e9b144f2d49cb54871cdf09baad5df39f8e18b962d7fc415d44a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103845807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117821126"
 ---
 # <a name="disablescreensaver-property"></a>DisableScreenSaver 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

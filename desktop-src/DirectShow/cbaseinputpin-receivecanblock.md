@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 93c80d6c8f834b45381b89e80d2e0acc392bf25a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ece7243c145d34ed06e29b2a29ae9847e682981337b96a47976c20eb76272d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823850"
 ---
 # <a name="cbaseinputpinreceivecanblock-method"></a>CBaseInputPin. ReceiveCanBlock 方法
 
@@ -46,7 +46,7 @@ HRESULT ReceiveCanBlock();
 
 
 
-| 傳回碼                                                                             | Description                                                 |
+| 傳回碼                                                                             | 描述                                                 |
 |-----------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | Pin 不會封鎖 **接聽** 的呼叫。<br/> |
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | Pin 可能會封鎖 **接聽** 的呼叫。<br/>    |

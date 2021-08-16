@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fc1970f27d18d760ab3a45fae389809a40a2a89
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9063a05bdb6f04681f012f1e6317b3343833c79c8f6a5af39a1a7865eccbab63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020754"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841028"
 ---
 # <a name="about-application-directory-partitions"></a>關於應用程式目錄分割
 
@@ -23,7 +23,7 @@ ms.locfileid: "104020754"
 
 應用程式目錄分割提供控制複寫範圍的能力，並可讓您以更適合動態資料的方式放置複本。 因此，應用程式目錄分割提供在 Active Directory 伺服器中裝載動態資料的功能，因此允許 ADSI/LDAP 存取它，而不會大幅影響網路效能。
 
-Windows 2000 DNS 服務是可利用應用程式目錄分割的服務範例。 在 Windows 2000 中，如果 DNS 服務是選擇性地設定為使用 Active Directory Domain Services，則 DNS 區域資料會儲存在 Active Directory 伺服器的網域分割區中。 也就是說，無論 DNS 伺服器是否設定為在網域控制站上執行，資料都會複寫到網域中的所有網域控制站。 這是不需要完整全網域複寫的實例。 藉由將 DNS 區域資料儲存在應用程式目錄分割中，服務只能將複寫的範圍重新定義為網域中實際執行 DNS 伺服器之網域控制站的子集。
+Windows 2000 DNS 服務是可利用應用程式目錄分割的服務範例。 在 Windows 2000 中，如果 dns 服務是選擇性地設定為使用 Active Directory Domain Services，則 dns 區域資料會儲存在 Active Directory 伺服器的網域分割區中。 也就是說，無論 DNS 伺服器是否設定為在網域控制站上執行，資料都會複寫到網域中的所有網域控制站。 這是不需要完整全網域複寫的實例。 藉由將 DNS 區域資料儲存在應用程式目錄分割中，服務只能將複寫的範圍重新定義為網域中實際執行 DNS 伺服器之網域控制站的子集。
 
 請考慮下列案例來裝載應用程式目錄分割的複本：
 
@@ -41,19 +41,19 @@ Windows 2000 DNS 服務是可利用應用程式目錄分割的服務範例。 �
 
 -   應用程式目錄分割中的物件無法維護其他應用程式目錄分割或網域分割區中物件的 *DN 值參考* 。  (DN-值的參考是對辨別名稱值的持續性參考，例如 "CN = someuser，DC = corp，DC = Fabrikam，DC = com" ) 。 同樣地，網域、設定和架構磁碟分割中的物件無法維護應用程式目錄分割中物件的 DN 值參考。 您可以將 DN 值參考保留給命名內容標頭。 () ) 
 -   應用程式目錄分割中的物件不會複寫到通用類別目錄。 如同任何網域控制站，通用類別目錄伺服器也可以設定為包含應用程式目錄分割的完整複本，但應用程式目錄分割資料與通用類別目錄資料完全不同。
--   建立應用程式目錄分割複本時，Domain-Naming FSMO 角色必須在其中一個 Windows Server 2003 和更新版本的作業系統網域控制站上。 建立應用程式目錄分割複本之後，可以將網域命名 FSMO 角色指派回 Windows 2000 網域控制站。
+-   建立應用程式目錄分割複本時，Domain-Naming FSMO 角色必須位於其中一個 Windows Server 2003 和更新版本的作業系統網域控制站。 建立應用程式目錄分割複本之後，可以將網域命名 FSMO 角色指派回 Windows 2000 網域控制站。
 -   應用程式目錄分割物件無法移至其建立所在之分割區以外的其他 Active Directory 資料分割。
 
 其他應用程式目錄分割功能包括：
 
 -   應用程式目錄分割的安全性與存取控制模型與 Active Directory Domain Services 中其他分割區的相同。
 -   您可以針對每個應用程式目錄分割，分別設定時間間隔，以控制對網站內的複寫夥伴起始起始變更通知的延遲。
--   應用程式目錄分割的命名方式就像一般網域一樣，在網域可 Active Directory 命名空間中的任何位置附加，也可以在舊版 Windows 2000 系統中使用 DNS 探索。
+-   應用程式目錄分割的命名方式就像一般網域一樣，在網域可 Active Directory 命名空間中的任何位置附加，也可以使用 DNS 探索，即使是由下層 Windows 2000 系統。
 -   您可以建立應用程式目錄分割、定義其複寫範圍，以及使用標準 LDAP 和 ADSI Api 以程式設計方式調整其可設定的設定。 如需以程式設計方式操作應用程式目錄分割的詳細資訊，請參閱 [應用程式目錄](application-directory-partitions.md)分割。
 
- 
+ 
 
- 
+ 
 
 
 

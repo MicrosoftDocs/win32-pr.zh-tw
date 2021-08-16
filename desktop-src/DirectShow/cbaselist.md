@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: c6aa4a3c80cd583bd3cc83a2a0adedecb6caaf7c
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5616edd16921bb2ae4d1a0b7ad67f5bbec3fba560594d4710512bd2cec6f275f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983985"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823701"
 ---
 # <a name="cbaselist-class"></a>CBaseList 類別
 
@@ -37,12 +37,12 @@ ms.locfileid: "106983985"
 
 
 
-| 受保護的成員變數                             | Description                                                               |
+| 受保護的成員變數                             | 描述                                                               |
 |--------------------------------------------------------|---------------------------------------------------------------------------|
 | [**m \_ 計數**](cbaselist-m-count.md)                  | 清單中的專案數。                                              |
 | [**m \_ pFirst**](cbaselist-m-pfirst.md)                | 清單中第一個節點的指標。                                    |
 | [**m \_ pLast**](cbaselist-m-plast.md)                  | 清單中最後一個節點的指標。                                     |
-| 保護方法                                      | Description                                                               |
+| 保護方法                                      | 描述                                                               |
 | [**GetNextI**](cbaselist-getnexti.md)                 | 抓取指定位置的專案，並將位置往前移。  |
 | [**GetI**](cbaselist-geti.md)                         | 在指定位置抓取專案。                             |
 | [**FindI**](cbaselist-findi.md)                       | 抓取保留指定專案的第一個位置。               |
@@ -53,7 +53,7 @@ ms.locfileid: "106983985"
 | [**AddHeadI**](cbaselist-addheadi.md)                 | 將專案加入至清單的前方。                                    |
 | [**AddAfterI**](cbaselist-addafteri.md)               | 將專案插入指定的位置之後。                             |
 | [**AddBeforeI**](cbaselist-addbeforei.md)             | 在指定的位置之前插入專案。                            |
-| 公用方法                                         | Description                                                               |
+| 公用方法                                         | 描述                                                               |
 | [**CBaseList**](cbaselist-cbaselist.md)               | 函式方法。                                                       |
 | [**~ CBaseList**](cbaselist--cbaselist.md)            | 函式方法。                                                        |
 | [**RemoveAll**](cbaselist-removeall.md)               | 從清單中移除所有節點。                                          |
@@ -68,7 +68,7 @@ ms.locfileid: "106983985"
 | [**AddBefore**](cbaselist-addbefore.md)               | 在指定的位置之前插入清單。                             |
 | [**MoveToTail**](cbaselist-movetotail.md)             | 分割清單，並將標頭部分附加至另一個清單的結尾。 |
 | [**MoveToHead**](cbaselist-movetohead.md)             | 分割清單，並將結尾部分插入另一個清單的開頭。 |
-| [**反向**](cbaselist-reverse.md)                   | 反轉清單的順序。                                           |
+| [**Reverse**](cbaselist-reverse.md)                   | 反轉清單的順序。                                           |
 
 
 
@@ -89,7 +89,7 @@ ms.locfileid: "106983985"
 
 <dl> <dt>
 
-[DirectShow 基類](directshow-base-classes.md)
+[DirectShow基類](directshow-base-classes.md)
 </dt> </dl>
 
  

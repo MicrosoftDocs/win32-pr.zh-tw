@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27d4f52728d662f43efed85d662874bd4b008947
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2e39d4370e68b67a5c05c1f259c52190be3b931dd02164da191bacf879cd6cb0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969571"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835556"
 ---
 # <a name="siscsfilestobackupforlink-function"></a>SisCSFilesToBackupForLink 函式
 
@@ -119,8 +119,8 @@ SIS 重新分析點內容的指標。 此重新分析點包含描述 SIS 連結�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Sisbkup。h</dt> </dl>   |
 | 程式庫<br/>                  | <dl> <dt>Sisbkup .lib</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Sisbkup.dll</dt> </dl> |

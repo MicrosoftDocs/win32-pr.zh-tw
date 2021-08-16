@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 825112ec9a33ef176d5a69765837214249e33102
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 34302215cf0e773d7713f56233d38462071f1dde725a85478688cfb9ca2a4f45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108110766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365891"
 ---
 # <a name="idelaydcgetcontrolstate-method"></a>IDelaydC：： GetControlState 方法
 
@@ -65,8 +65,8 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 
 | 傳回碼                                                                                          | Description                                                                                                                           |
 |------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
-| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫 [IDelaydC：： connect](idelaydc-connect.md) 以將 NPP 連接到網路。<br/> |
-| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>   | NPP 已連接到網路，但不是使用 [IDelaydC：： Connect](idelaydc-connect.md) 方法。<br/>                     |
+| <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl> | NPP 未連接到網路。 呼叫[IDelaydC：：連線](idelaydc-connect.md)將 NPP 連接到網路。<br/> |
+| <dl> <dt>**NMERR \_ 未 \_ 延遲**</dt> </dl>   | NPP 是連接到網路，但不是使用[IDelaydC：：連線](idelaydc-connect.md)方法。<br/>                     |
 
 
 
@@ -98,7 +98,7 @@ HRESULT STDMETHODCALLTYPE GetControlState(
 [IDelaydC](idelaydc.md)
 </dt> <dt>
 
-[IDelaydC：： Connect](idelaydc-connect.md)
+[IDelaydC：：連線](idelaydc-connect.md)
 </dt> <dt>
 
 [IDelaydC：:P ause](idelaydc-pause.md)

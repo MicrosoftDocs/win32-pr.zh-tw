@@ -4,12 +4,12 @@ ms.assetid: 6180e54e-4bd9-4692-83fd-f3f7f1d8f8d7
 title: 使用者環境變數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf4f898c7a9135c0421fdd67a7bed1d97655556f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 41bbe37cdbe7dd82268b2166ed625a9baf1d2502df4c26208bca51a89cd782df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857040"
 ---
 # <a name="user-environment-variables"></a>使用者環境變數
 

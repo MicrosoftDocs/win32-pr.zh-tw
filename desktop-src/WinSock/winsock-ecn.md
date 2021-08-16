@@ -3,12 +3,12 @@ title: 'Winsock 明確擁塞通知 (ECN) '
 description: 某些以使用者資料包協定為基礎的應用程式和/或通訊協定 (UDP)  (例如，QUIC) 試圖利用明確的擁塞通知 (ECN) 字碼指標，以改善擁塞網路中的延遲和抖動。
 ms.topic: article
 ms.date: 11/13/2020
-ms.openlocfilehash: 090ac9b0575cb491aa6d726e7507223156460ace
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 79b38611cd0301d0b5d301592eec02b68c02353246c67a6c94528417623834f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110559944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322021"
 ---
 # <a name="winsock-explicit-congestion-notification-ecn"></a>Winsock 明確擁塞通知 (ECN) 
 

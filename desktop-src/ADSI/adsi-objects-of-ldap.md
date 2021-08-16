@@ -9,12 +9,12 @@ keywords:
 - 物件，LDAP ADSI 的 ADSI 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e764388746039b5849f1de4c81c554fa194180b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3d91242f0f60ff4e7d07bd22f6e064f6a091a75228876e29139bbedbd2327857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839236"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840778"
 ---
 # <a name="adsi-objects-of-ldap"></a>LDAP 的 ADSI 物件
 
@@ -22,7 +22,7 @@ ms.locfileid: "103839236"
 
 
 
-| ADSI 物件            | Description                                                                                                                           | 支援的介面                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ADSI 物件            | 描述                                                                                                                           | 支援的介面                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **類別**              | 表示架構中之類別定義的 ADSI 物件。                                                                      | <dl> <dt>[**IADs**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt> [**得到 iadsclass**](/windows/desktop/api/Iads/nn-iads-iadsclass)</dt> </dl>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **GenObject**          | ADSI 物件，代表的一般功能，並為 LDAP 提供者提供其他大部分 ADSI 物件的泛型服務。 | <dl> <dt>[**IADs**](/windows/desktop/api/Iads/nn-iads-iads)</dt> <dt>[**IADsContainer**](/windows/desktop/api/Iads/nn-iads-iadscontainer)</dt> <dt>[**IDirectoryObject**](/windows/desktop/api/Iads/nn-iads-idirectoryobject)</dt> <dt></dt> <dt>[**>idirectorysearch**](/windows/desktop/api/Iads/nn-iads-idirectorysearch)</dt> <dt>[**IADsPropertyList**](/windows/desktop/api/Iads/nn-iads-iadspropertylist)</dt> <dt>[**IADsObjectOptions**](/windows/desktop/api/Iads/nn-iads-iadsobjectoptions)</dt> <dt>[**IADsDeleteOps**](/windows/desktop/api/Iads/nn-iads-iadsdeleteops)</dt> </dl> |
@@ -44,11 +44,11 @@ ms.locfileid: "103839236"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

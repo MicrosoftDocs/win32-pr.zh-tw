@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 1d3111b74c876cc7ffedb959eca7f46812ed92e1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a4e988f26b64d0d8bd4a23f853b7bf9dc92f2610936239b4363439d5c7d70170
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975272"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320805"
 ---
 # <a name="__instanceoperationevent-class"></a>\_\_InstanceOperationEvent 類別
 

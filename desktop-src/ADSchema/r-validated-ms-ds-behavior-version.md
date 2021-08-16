@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3175c2ec3a1dd589a4b75654cb134cb853d954ee
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 1584fd9aa773aa8bd51e32b21f971f31cdb9792dd52d26e9bea58c8d624da5b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467170"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835735"
 ---
 # <a name="validated-ms-ds-behavior-version-validated-writes"></a>已驗證-DS-行為-版本驗證的寫入
 

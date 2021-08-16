@@ -4,12 +4,12 @@ ms.assetid: 65d2f40e-c42c-4d71-b9b3-7662a8be0953
 title: 'EC_NOTIFY_WINDOW (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b3165247f05e2fb945f02fee43149b84480bd4b2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 355d4ec8b5b6bea55a2f32f01cc2f83aabeab84443b28e431e5b0d6155acc6d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820110"
 ---
 # <a name="ec_notify_window"></a>EC \_ 通知 \_ 視窗
 
@@ -35,7 +35,7 @@ ms.locfileid: "106998672"
 
 ## <a name="default-action"></a>預設動作
 
-此事件是由 DirectShow 在內部使用。 篩選圖形管理員不會將此事件傳遞至應用程式。 應用程式無法覆寫此事件的預設動作。
+DirectShow 會在內部使用此事件。 篩選圖形管理員不會將此事件傳遞至應用程式。 應用程式無法覆寫此事件的預設動作。
 
 ## <a name="remarks"></a>備註
 

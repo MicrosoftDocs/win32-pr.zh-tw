@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ef1d2a0dc13d25f6fa428f5558132ebaf81f94b5
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 52539ccbb0625383546e4ec53223404c04e36044ee78a7931ab5303261d163c4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103935380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837345"
 ---
 # <a name="ms-wmi-intvalidvalues-attribute"></a>intValidValues 屬性
 

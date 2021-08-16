@@ -6,12 +6,12 @@ keywords:
 - BITS IIS 擴充功能屬性位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c09412f6aa0be1ab76e6e45ea0920e1caf1054d7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 37c81d57114a23a07c5f952a9cb33399644f5cbed8bbf67cccf802a1c996b72b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104508036"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835167"
 ---
 # <a name="bits-iis-extension-properties"></a>BITS IIS 擴充功能屬性
 
@@ -103,7 +103,7 @@ ms.locfileid: "104508036"
 
  
 
-下列範例示範如何使用 Windows Script Host 設定 BITS IIS 延伸模組屬性。 如果虛擬目錄指向遠端共用，也請設定 **UNCUserName** 和 **UNCPassword** IIS 屬性。
+下列範例示範如何使用 Windows 腳本主機來設定 BITS IIS 延伸模組屬性。 如果虛擬目錄指向遠端共用，也請設定 **UNCUserName** 和 **UNCPassword** IIS 屬性。
 
 
 ```JScript

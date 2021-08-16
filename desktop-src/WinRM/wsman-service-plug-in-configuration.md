@@ -1,20 +1,20 @@
 ---
 title: WinRM 服務外掛程式設定
-description: Windows 遠端管理 (WinRM) 外掛程式必須在 WinRM 類別目錄中註冊，才能讓基礎結構動態地判斷可用的外掛程式集合，以及它們所支援的資源 Uri。
+description: Windows 遠端管理 (winrm) 外掛程式必須在 winrm 類別目錄中註冊，才能讓基礎結構動態地判斷可用的外掛程式集合，以及它們所支援的資源 uri。
 ms.assetid: d71cd244-3f10-40e3-a756-36cdf41b9cad
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 60bf618d71e55c6afd28de918198725895088559
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 08b82b24b8631cd6a47a879a6fa0684b9b2ac9c542699396d0f0997afe14cac8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104316735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118323716"
 ---
 # <a name="winrm-service-plug-in-configuration"></a>WinRM 服務外掛程式設定
 
-Windows 遠端管理 (WinRM) 外掛程式必須在 WinRM 類別目錄中註冊，才能讓基礎結構動態地判斷可用的外掛程式集合，以及它們所支援的 [*資源 uri*](windows-remote-management-glossary.md) 。 WinRM 外掛程式的所有 [*資源 uri*](windows-remote-management-glossary.md) 都應符合 RFC 3986 () 中所定義的格式 [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) 。 設定是透過主要 WinRM 服務完成。
+Windows 遠端管理 (winrm) 外掛程式必須在 winrm 類別目錄中註冊，才能讓基礎結構動態地判斷可用的外掛程式集合，以及它們所支援的 [*資源 uri*](windows-remote-management-glossary.md) 。 WinRM 外掛程式的所有 [*資源 uri*](windows-remote-management-glossary.md) 都應符合 RFC 3986 () 中所定義的格式 [https://www.ietf.org/rfc/rfc3986.txt](https://www.ietf.org/rfc/rfc3986.txt) 。 設定是透過主要 WinRM 服務完成。
 
 下列命令會向 WinRM 服務註冊外掛程式設定：
 
@@ -130,7 +130,7 @@ winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlug
 > [!Note]  
 > **SupportsOptions** 屬性可以設定為 false。 如果 **SupportsOptions** 設定為 false，則列舉資源時，不會列出此屬性。
 
- 
+ 
 
 </dd> <dt>
 
@@ -306,9 +306,9 @@ winrm create http://schemas.microsoft.com/wbem/wsman/1/config/plugin?name=MyPlug
 </xs:schema>
 ```
 
- 
+ 
 
- 
+ 
 
 
 

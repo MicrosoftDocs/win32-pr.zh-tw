@@ -8,12 +8,12 @@ keywords:
 - WinNT 提供者 ADSI、使用者物件、自訂屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95230de6f7bb5bd848d7a8a047c0ec1966e5a67e
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 607e12fc58ff4829f425302c1d13997f2e6c085646b1ace2c3e8ae2ebfb7df6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838387"
 ---
 # <a name="winnt-custom-user-properties"></a>WinNT 自訂使用者屬性
 
@@ -21,19 +21,19 @@ WinNT 提供者可提供下列使用者類別的自訂屬性。 您可以透過 
 
 
 
-| 屬性            | 類型         | Description                                                                                                                                                                                                                                                                                                                                                   |
+| 屬性            | 類型         | 描述                                                                                                                                                                                                                                                                                                                                                   |
 |---------------------|--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **HomeDirDrive**    | String       | 使用者的主目錄磁片磁碟機。 這是指定主目錄路徑的 Unicode 字串指標。 字串可以是 **null**。 請參閱本主題中的範例。                                                                                                                                                                                 |
 | **ObjectSID**       | 八位字串 | 使用者的物件 SID。 如需如何使用 WinNT 提供者來取得物件 SID 的範例，請參閱 [ (WinNT 提供者的物件 sid) ](object-sid.md)                                                                                                                                                                                                          |
 | **參數**      | String       | 使用者的參數。 指向保留給應用程式使用的 Unicode 字串。 這個字串可以是 null 字串，也可以在終止的 null 字元之前有任意數目的字元。 Microsoft 產品會使用這個成員來儲存使用者設定資料。 這個屬性只能由應用程式在安裝期間修改。 |
-| **PasswordAge**     | Time         | 使用中密碼的時間長度。 這個屬性工作表示自上次變更密碼以來經過的秒數。                                                                                                                                                                                                                    |
+| **PasswordAge**     | 時間         | 使用中密碼的時間長度。 這個屬性工作表示自上次變更密碼以來經過的秒數。                                                                                                                                                                                                                    |
 | **PasswordExpired** | 整數      | 告知密碼到期的時間。 當您使用 Get 時，它會傳回零，也就是密碼已過期，或非零。 請參閱本主題中的範例。                                                                                                                                                                                          |
 | **PrimaryGroupID**  | 整數      | 使用者的主要群組識別碼，例如網域使用者群組識別碼。 請參閱本主題中的範例。                                                                                                                                                                                                                                                                        |
 | **UserFlags**       | 整數      | 在 [**ADS \_ 使用者 \_ 旗標 \_ 列舉**](/windows/win32/api/iads/ne-iads-ads_user_flag_enum)中定義的使用者旗標。 如需如何使用 UserFlags 的範例，請參閱 [密碼永遠不會過期 (WinNT 提供者) ](winnt-password-never-expires.md)                                                                                                                                                             |
 
 
 
- 
+ 
 
 此範例顯示如何設定使用者的主要磁碟磁碟機目錄。
 
@@ -80,6 +80,6 @@ grpPrimaryID = usr.Get("PrimaryGroupID")
 
 
 
- 
+ 
 
- 
+ 

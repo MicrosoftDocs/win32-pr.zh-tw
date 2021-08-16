@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33ef1db92b908ef8474dfb125aca678d3c22d09f
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: f7f623f15510d38243822420925f628d427d2adc975f2b140b78dc191a91200a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838398"
 ---
 # <a name="acs-identity-name-attribute"></a>ACS-Identity-Name 屬性
 

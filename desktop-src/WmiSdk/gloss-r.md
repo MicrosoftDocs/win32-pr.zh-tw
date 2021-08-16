@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'R (WMI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f5cbebf767ce014303e16776d1af8b4fe1924c4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 190af798341d7a452508e5805ce6b185a593f944ea072f569d1fdb8d9625e935
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987386"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318984"
 ---
 # <a name="r-wmi"></a>R (WMI) 
 

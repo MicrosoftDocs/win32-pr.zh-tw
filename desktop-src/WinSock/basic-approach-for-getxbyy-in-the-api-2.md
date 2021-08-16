@@ -4,12 +4,12 @@ ms.assetid: c64db095-bd7c-489a-871a-fb887624967c
 title: API 中的 GetXbyY 基本方法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f4c038c87d6eb6e7ab2a4476271662d5b9567ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd9e6dd0e5569bd11de813e28eaec1ee04f6b5f206277f695cdb9aaab05ec4a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322622"
 ---
 # <a name="basic-approach-for-getxbyy-in-the-api"></a>API 中的 GetXbyY 基本方法
 
@@ -19,7 +19,7 @@ ms.locfileid: "104511465"
 
 <dl> <dt>
 
-[Windows 通訊端 1.1 API 中 TCP/IP 的相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
+[Windows 通訊端 1.1 API 中的 tcp/ip 相容名稱解析](compatible-name-resolution-for-tcp-ip-in-the-windows-sockets-1-1-api-2.md)
 </dt> <dt>
 
 [通訊協定獨立名稱解析](protocol-independent-name-resolution-2.md)

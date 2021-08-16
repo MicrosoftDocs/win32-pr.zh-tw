@@ -4,22 +4,22 @@ ms.assetid: 1204c73e-c3de-4488-8ee3-e76edbf72da0
 title: DVD 命令
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d5bf06127ab3829ed6cdcbbb70c3b2c1d1b41cf0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: d02f9c0b6a50b6d7eb67832286ee980b0faf69460621a46caf98089efc24b19c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820582"
 ---
 # <a name="dvd-commands"></a>DVD 命令
 
-DVD 流覽和播放命令會定義在名為附錄 J 的 DVD 規格區段中，因此，DirectShow 檔通常會參考「附錄 J 命令」。 附錄 J 中提供的名稱不一定很直覺，因此，DirectShow 會使用可能更容易瞭解的名稱。
+dvd 流覽和播放命令會定義在名為附錄 j 的 dvd 規格區段中，這就是為什麼 DirectShow 檔通常會參考「附錄 j 命令」的原因。 附錄 J 中提供的名稱不一定是很直覺，因此 DirectShow 使用可能更容易瞭解的名稱。
 
-下表列出附錄 J 命令及其 DirectShow 對等專案。
+下表列出附錄 J 命令及其 DirectShow 的對應專案。
 
 
 
-| 附錄 J 命令                                                                           | Description                                                                  | IDvdControl2 方法                                                                           |
+| 附錄 J 命令                                                                           | 描述                                                                  | IDvdControl2 方法                                                                           |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
 | 標題 \_ 播放                                                                               | 播放標題。                                                                | [**PlayTitle**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playtitle)                                                   |
 | PLATFORM PTT \_ Play                                                                                 | 在標題中播放章節。                                                   | [**PlayChapterInTitle**](/windows/desktop/api/Strmif/nf-strmif-idvdcontrol2-playchapterintitle)                                 |

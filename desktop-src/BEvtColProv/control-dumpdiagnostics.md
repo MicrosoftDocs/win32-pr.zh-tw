@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - BEvtCol.exe
-ms.openlocfilehash: fa435f3282615a06544776cb7966d6839cc3aee4
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 99f39b1fd90b72172f5a50012da50e9b6e26f8bf1a2c77905829e64f2e036bf4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835620"
 ---
 # <a name="dumpdiagnostics-method-of-the-control-class"></a>Control 類別的 DumpDiagnostics 方法
 
@@ -48,7 +48,7 @@ void DumpDiagnostics();
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                          |
 | 最低支援的伺服器<br/> | Windows Server 2016<br/>                                                                       |
 | 命名空間<br/>                | 根 \\ Microsoft \\ Windows \\ BootEventCollector<br/>                                              |
 | MOF<br/>                      | <dl> <dt>BootEventCollectorWMI mof</dt> </dl> |

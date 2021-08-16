@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 5e8b0c5548d3089a6e619f88db5e4eed19b12be8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ffc07a15f7c34744be52c5e2c7b5233e1885b58c5b9b7d078871277f8fc0efd1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823330"
 ---
 # <a name="cbasepinm_bruntimeerror-member"></a>CBasePin：： m \_ bRunTimeError 成員
 
