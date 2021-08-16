@@ -4,12 +4,12 @@ ms.assetid: 7f4b963d-3442-4c04-b3d4-f7c8eb1ed15b
 title: 使用 LSA 原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 240a59c9009b91d03c1e0904861f815773c95af2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8920e8dcc86bd35339092809f5d5e6081a79c8f64e45a56a0509002c94896572
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194732"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119004746"
 ---
 # <a name="using-lsa-policy"></a>使用 LSA 原則
 

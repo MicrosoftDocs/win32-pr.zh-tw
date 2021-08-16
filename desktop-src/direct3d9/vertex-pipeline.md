@@ -4,12 +4,12 @@ ms.assetid: d0a559ff-4470-42a5-878b-125e1cdc1b9a
 title: " (Direct3D 9) 的頂點管線"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f71a1f25545e8aae2b9e4e9b295f1862045a03e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 392748dcaec1e4d1ddf4685d6903d200ff6e3d4320fe7adcb73e2156f134a081
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103688083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796897"
 ---
 # <a name="vertex-pipeline-direct3d-9"></a> (Direct3D 9) 的頂點管線
 

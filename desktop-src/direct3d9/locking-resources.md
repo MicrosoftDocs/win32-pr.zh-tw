@@ -4,12 +4,12 @@ ms.assetid: b17d8262-e514-4b9c-9237-653a4258a14e
 title: " (Direct3D 9) 的鎖定資源"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70d66a7a420a33cb908d0974f9d942597019aded
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: c6cdb7cde646bd5073bc0c5b574694be69f05f1bf15d8c5c08e00b7182cfe044
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106973350"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118799491"
 ---
 # <a name="locking-resources-direct3d-9"></a> (Direct3D 9) 的鎖定資源
 

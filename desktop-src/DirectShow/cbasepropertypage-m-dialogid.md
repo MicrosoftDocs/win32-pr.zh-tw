@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: db8862562922f302ced419d4e827a79b8ca12476
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a41ff722385117c62fe93628e99a2f8260814c86fe749c2550b519d06ce3a220
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955027"
 ---
 # <a name="cbasepropertypagem_dialogid-member"></a>CBasePropertyPage：： m \_ DialogId 成員
 

@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 809694cacf0c30acf88ddf7d14c7f5ea1f654436
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d23df592abd125fd64362af89b6f81c5e9dcc20f0aa6cc998974a8fd2d4d87f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953737"
 ---
 # <a name="csourcestreamdobufferprocessingloop-method"></a>CSourceStream. DoBufferProcessingLoop 方法
 

@@ -4,12 +4,12 @@ ms.assetid: dda4048e-bc4c-40ac-a6bd-34984f3717e0
 title: 使用 MFT 媒體緩衝區和範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6373f6d75b4122409b54649eed6f90e95c2f50c7
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: d964f1c2f2a5fd5f92d5af87213c6977fc51bee76caf3a281861788e2a2fb922
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104321511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736449"
 ---
 # <a name="working-with-mft-media-buffers-and-samples"></a>使用 MFT 媒體緩衝區和範例
 

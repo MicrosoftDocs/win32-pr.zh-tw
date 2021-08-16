@@ -4,12 +4,12 @@ ms.assetid: 84B12B5C-C179-4124-A1FC-B90D120336BF
 title: 如何註冊裝置事件的處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34ef15071b349afa3f863e7c57b64c280c2aef8f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 66a13abe8917d93ac6a4801e0c11cb7223da25e362923df229180b8c8e6211ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859597"
 ---
 # <a name="how-to-register-a-handler-for-a-device-event"></a>如何註冊裝置事件的處理常式
 
@@ -20,7 +20,7 @@ ms.locfileid: "103849191"
 
 處理常式及其相關聯的值會定義在 **AutoplayHandlers** \\ **處理常式** 索引鍵下。 子機碼會因系統是否可以直接讀取裝置內容，或裝置是否透過專屬介面提供內容給系統而有所不同。
 
-下列範例顯示用於裝置的子機碼和值，例如數位攝影機或 mp3 播放程式，可透過專屬介面提供其內容給系統。 範例處理常式稱為 **MyHandler**。
+下列範例顯示裝置所使用的子機碼和值，例如數位攝影機或 .mp3 播放機，可透過專屬介面提供其內容給系統。 範例處理常式稱為 **MyHandler**。
 
 ```
 HKEY_LOCAL_MACHINE or HKEY_CURRENT_USER

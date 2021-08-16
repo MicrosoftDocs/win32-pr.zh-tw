@@ -3,7 +3,7 @@ title: 'EM_SETMODIFY 訊息 (Winuser .h) '
 description: 設定或清除編輯控制項的修改旗標。 修改旗標會指出是否已修改編輯控制項內的文字。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 9393f03e-0719-458b-8122-616df738c417
 keywords:
-- EM_SETMODIFY message Windows 控制項
+- EM_SETMODIFY 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 591b57dbc5441e96c1c6d3963172864713ed939f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fcd367a828e7f431b6177a2ec99fe508fec3e48c4743d492277f00ed4965e001
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843808"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831160"
 ---
 # <a name="em_setmodify-message"></a>EM \_ SETMODIFY 訊息
 
@@ -61,9 +61,9 @@ ms.locfileid: "103843808"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

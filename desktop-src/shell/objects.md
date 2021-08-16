@@ -1,5 +1,5 @@
 ---
-description: 本節說明 Shell 所執行的 Windows 物件。
+description: 本節描述 Shell 所執行的 Windows 物件。
 title: 腳本和 Microsoft Visual Basic 的 Shell 物件
 ms.topic: article
 ms.date: 05/31/2018
@@ -9,16 +9,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 52958c68edfd81771267c7a7ed29e42ab8ed1d5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd2c924d9b66194c8f016fc8b1c16bed8a7e3c62f82e3673837e0e31c8563fc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513609"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858797"
 ---
 # <a name="shell-objects-for-scripting-and-microsoft-visual-basic"></a>腳本和 Microsoft Visual Basic 的 Shell 物件
 
-本節說明 Shell 所執行的 Windows 物件。
+本節描述 Shell 所執行的 Windows 物件。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -38,7 +38,7 @@ ms.locfileid: "104513609"
 <tbody>
 <tr class="odd">
 <td><a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a><br/></td>
-<td>允許用戶端管理 NTFS 磁片區的全域磁片配額設定。 這個物件讓 <a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a> 介面的基本功能可供腳本和 Microsoft Visual Basic 應用程式使用。<br/></td>
+<td>允許用戶端管理 NTFS 磁片區的全域磁片配額設定。 這個物件讓<a href="didiskquotauser-object.md"><strong>DIDiskQuotaUser</strong></a>介面的基本功能可供腳本和 Microsoft Visual Basic 應用程式使用。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="diskquotacontrol-object.md"><strong>DiskQuotaControl</strong></a><br/></td>
@@ -143,7 +143,7 @@ ms.locfileid: "104513609"
 <td>藉由啟用在 wizard 中裝載的伺服器端頁面，來擴充 <a href="webwizardhost.md"><strong>WebWizardHost</strong></a> 物件，以確認使用者已通過 Microsoft 帳戶驗證。<br/></td>
 </tr>
 <tr class="even">
-<td><a href="shell.md"><strong>殼層</strong></a><br/></td>
+<td><a href="shell.md"><strong>Shell</strong></a><br/></td>
 <td>表示 Shell 中的物件。 系統會提供方法來控制 Shell，並在 Shell 中執行命令。 也有方法可以取得其他與 Shell 相關的物件。<br/></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ ms.locfileid: "104513609"
 </tr>
 <tr class="odd">
 <td><a href="shelluihelper.md"><strong>ShellUIHelper</strong></a><br/></td>
-<td>由 Shell 所執行，以協助編寫腳本和 Visual Basic 開發人員使用 Shell 中提供的一些功能。 <a href="shelluihelper.md"><strong>ShellUIHelper</strong></a>物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。<br/></td>
+<td>由 shell 所執行，以協助編寫腳本和 Visual Basic 開發人員使用 shell 中提供的一些功能。 <a href="shelluihelper.md"><strong>ShellUIHelper</strong></a>物件沒有任何屬性或事件。 提供方法以將專案新增至 Shell。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="shellwindows.md"><strong>ShellWindows</strong></a><br/></td>

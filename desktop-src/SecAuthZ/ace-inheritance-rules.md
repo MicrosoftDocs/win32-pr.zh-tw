@@ -4,12 +4,12 @@ ms.assetid: 08f76aaa-8379-4ba8-9735-7568001bcd53
 title: ACE 繼承規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a1e8c786ebcc8450e8e5da1833f34fc85c37ea9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba77e5d9fcbef9125108e8f0be76cd5b7c79a2f99ba524c81f3fd1da84336f04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692775"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785360"
 ---
 # <a name="ace-inheritance-rules"></a>ACE 繼承規則
 

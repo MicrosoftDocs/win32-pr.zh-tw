@@ -3,7 +3,7 @@ title: 'MMIOM_CLOSE 訊息 (Mmsystem .h) '
 description: MmioClose 函 \_ 式會將 MMIOM CLOSE 訊息傳送至 i/o 程式，以要求關閉檔案。
 ms.assetid: 9d0dad5b-fd0a-4948-a4cf-9d138e353c76
 keywords:
-- MMIOM_CLOSE message Windows 多媒體
+- MMIOM_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c7863698b99bcead8bc22e6194d213bbc663d5ae
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 17a26b8b2ffa80c7c522fa5cdcbfc5da3334e0d2b5e258e090932147bf85438c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509486"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065388"
 ---
 # <a name="mmiom_close-message"></a>MMIOM \_ 關閉訊息
 
@@ -57,7 +57,7 @@ lParam2 = reserved
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

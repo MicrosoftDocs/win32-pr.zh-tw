@@ -4,16 +4,16 @@ description: 載入方法
 ms.assetid: 72a37471-f69b-49a5-a6eb-d65bff970c0f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0927fc8e49e55c2bdfcd7b1109bb8604540c199c
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: e201053bf3eb9fbd7a3c5c7eb94f9b032cde13087f76e1fcfa176d068655137a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "106966854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118748649"
 ---
 # <a name="load-method"></a>載入方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "106966854"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。字元。 Load "*** CharacterID * * *"，* *  *提供者*
+*代理程式 ***。字元。 Load "**_CharacterID_*_"，_ *  *Provider*
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "106966854"
 
 ## <a name="remarks"></a>備註
 
-您可以從代理程式子目錄中指定相對路徑來載入字元， (不含冒號或開頭斜線字元) 。 這會在當地語系化的 Windows msagent 目錄) 中，使用代理程式的字元目錄 (路徑 \\ 。 例如，指定下列內容會從代理程式的字元目錄載入瓶精靈。
+您可以從代理程式子目錄中指定相對路徑來載入字元， (不含冒號或開頭斜線字元) 。 這個前置詞會將代理程式字元目錄的路徑 (位於當地語系化的 Windows \\ msagent directory) 中。 例如，指定下列內容會從代理程式的字元目錄載入瓶精靈。
 
 
 ```

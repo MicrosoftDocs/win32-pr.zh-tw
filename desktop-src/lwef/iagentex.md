@@ -4,16 +4,16 @@ description: IAgentEx
 ms.assetid: 6d9d67c6-26f6-435a-9ddf-f1f0a667f963
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a4b88f494c74546e4510bc3197034f8c8b955c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1abbf625a14d4fbfa94924a24b70e761ecbd65770c8b20af8f6d44a4c10e925e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969663"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118976208"
 ---
 # <a name="iagentex"></a>IAgentEx
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 **IAgentEx** 衍生自 [**IAgent**](iagent.md) 介面。 它包含所有的 **IAgent** 方法，以及提供其他函式的存取權。
 
@@ -28,11 +28,11 @@ ms.locfileid: "106969663"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

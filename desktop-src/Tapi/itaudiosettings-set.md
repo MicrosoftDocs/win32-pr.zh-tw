@@ -4,16 +4,16 @@ ms.assetid: 3132e004-5543-4b21-878d-35197f7077d6
 title: 'ITAudioSettings：： Set 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bf947c28d3b5270b3c5dabd4196d0e6b71f57911
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abf26b35e3d5be18721abb6d8dd109946503cb11cb30d5c7db869d92e88adfcc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119003396"
 ---
 # <a name="itaudiosettingsset-method"></a>ITAudioSettings：： Set 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **Set** 方法會設定指定之 [**音訊設定屬性**](audiosettingsproperty.md)的值。
 

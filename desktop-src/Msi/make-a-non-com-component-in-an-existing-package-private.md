@@ -4,12 +4,12 @@ ms.assetid: e10d7942-b13c-46a3-a8ca-cb7bc021c76b
 title: 將現有封裝中的非 COM 元件設為私用
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d87a74a4f9fe7c3770100f78dd0fcd154772943
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0082d89ca6e921213bb462d1b858154419bef416ffa263b8b63ca6d98660fe7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972265"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118945612"
 ---
 # <a name="make-a-non-com-component-in-an-existing-package-private"></a>將現有封裝中的非 COM 元件設為私用
 

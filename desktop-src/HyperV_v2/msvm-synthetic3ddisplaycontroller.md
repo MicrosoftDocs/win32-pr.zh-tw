@@ -73,16 +73,16 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 0cd102fe29cf34aa0930ca264c8820868da7daf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83094be6dfa7642f64fcf436e3aa5ab514c9c772b116eede0906efbcf73fc747
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977833"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950047"
 ---
 # <a name="msvm_synthetic3ddisplaycontroller-class"></a>Msvm \_ Synthetic3DDisplayController 類別
 
-代表指派給虛擬機器的綜合立體顯示控制器。 此類別只會與使用 RemoteFX 的虛擬機器搭配使用。
+代表指派給虛擬機器的綜合立體顯示控制器。 此類別僅適用于使用 RemoteFX 的虛擬機器。
 
 > [!IMPORTANT]
 > 當您將綜合3d 顯示控制器新增至虛擬機器時，您必須停用任何附加至該虛擬機器的綜合顯示控制器 ([**Msvm \_ SyntheticDisplayController**](msvm-syntheticdisplaycontroller.md)) 。
@@ -1049,8 +1049,8 @@ class Msvm_Synthetic3DDisplayController : CIM_DisplayController
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

@@ -55,12 +55,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 817d025551ae10002b008a181edd8a7dfd2ec68c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4af759cf621f5afbaef90924351ad24a232889b1d81048f0e1372630c74f98f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950087"
 ---
 # <a name="msvm_summaryinformation-class"></a>Msvm \_ SummaryInformation 類別
 
@@ -976,7 +976,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -990,7 +990,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1004,7 +1004,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1018,7 +1018,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1032,7 +1032,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1046,7 +1046,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1060,7 +1060,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 </dt> <dd>
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1080,7 +1080,7 @@ Where <OrgID> 和 <LocalID> 會以冒號分隔 (： ) ，其中 <OrgID> 必須�
 指出是否已為虛擬機器設定防護。
 
 > [!Note]  
-> 已在 Windows 10、1703版和 Windows Server 2016 中新增。
+> 在 Windows 10、1703版和 Windows Server 2016 中新增。
 
  
 
@@ -1292,8 +1292,8 @@ ThumbnailImage 屬性中影像的寬度（以圖元為單位）。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

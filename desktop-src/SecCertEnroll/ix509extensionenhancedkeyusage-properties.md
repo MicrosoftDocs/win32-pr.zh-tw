@@ -4,12 +4,12 @@ ms.assetid: 5AAA76A7-A93B-401A-A69B-E6FE3223BC39
 title: IX509ExtensionEnhancedKeyUsage 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 06b5e6fcac3b8af5616ee5169c7a92040d4e79e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2faeed4ab588bb385d06e575911ccf51409e17b7f05f77e361301ff5f1b8e454
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117775646"
 ---
 # <a name="ix509extensionenhancedkeyusage-properties"></a>IX509ExtensionEnhancedKeyUsage 屬性
 

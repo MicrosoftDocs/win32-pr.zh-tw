@@ -4,12 +4,12 @@ description: 有數種類型的按鈕，以及一或多個按鈕樣式來區別�
 ms.assetid: bfc8b88b-0da2-46f6-b8c2-72f693ee1e7b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 682cc39ed2f88ce88f499757fbc4f902bfdceeea
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b5c3614f90c36d5a81603153ec7c8612d61e73e2e98c7f668cb53a6ad2bb584b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117832491"
 ---
 # <a name="button-types"></a>按鈕類型
 
@@ -62,13 +62,13 @@ ms.locfileid: "103683182"
 
 當使用者按一下 [按下] 按鈕時，它會收到鍵盤焦點。 系統會傳送包含 [BN \_ 點擊](bn-clicked.md)通知碼的 [**WM \_ 命令**](/windows/desktop/menurc/wm-command)訊息給按鈕的父視窗。
 
-[ *分割] 按鈕* 是 Windows Vista 和 [6.00 版](common-control-versions.md)中引進的一種特殊的推播按鈕。 分割按鈕分為兩個部分。 主要部分的功能就像一般或預設的推播按鈕。 第二個部分的箭號指向向下。 按一下箭號時，通常會顯示功能表。
+[*分割] 按鈕* 是 Windows Vista 和 [6.00 版](common-control-versions.md)引進的一種特殊的推播按鈕。 分割按鈕分為兩個部分。 主要部分的功能就像一般或預設的推播按鈕。 第二個部分的箭號指向向下。 按一下箭號時，通常會顯示功能表。
 
 [分割] 按鈕具有 [ [**BS] \_ SPLITBUTTON**](button-styles.md) 樣式，或 [ [**BS \_ DEFSPLITBUTTON**](button-styles.md) ] 樣式（如果它是對話方塊中的 [預設值] 按鈕）。 您可以使用 [ [**BCM \_ SETSPLITINFO**](bcm-setsplitinfo.md) ] 訊息或對應的 [**按鈕 \_ SETSPLITINFO**](/windows/desktop/api/Commctrl/nf-commctrl-button_setsplitinfo) 宏來修改按鈕的外觀。
 
 當使用者按一下 [分割] 按鈕的主要部分時，它會傳送 [BN 按 \_ ](bn-clicked.md) 下通知，就像一般的推播按鈕一樣。 但是，當使用者按一下向下箭號時，就會傳送 [BCN 的 \_ 下拉式清單](bcn-dropdown.md) 通知。 應用程式必須負責顯示功能表以回應 BCN \_ 下拉式清單。
 
-Windows Vista 和 [6.00 版](common-control-versions.md) 也引進了另一種推播按鈕，也就是 *命令連結*。 命令連結會以視覺化方式與一般的 [推送] 按鈕不同，但具有相同的功能。 命令連結通常會以較小的字型顯示箭號圖示、文字行和其他文字。
+WindowsVista 和 [6.00 版](common-control-versions.md)也引進了另一種推播按鈕，也就是 *命令連結*。 命令連結會以視覺化方式與一般的 [推送] 按鈕不同，但具有相同的功能。 命令連結通常會以較小的字型顯示箭號圖示、文字行和其他文字。
 
 ## <a name="radio-buttons"></a>選項按鈕
 
@@ -98,6 +98,6 @@ Windows Vista 和 [6.00 版](common-control-versions.md) 也引進了另一種�
 [使用按鈕](using-buttons.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

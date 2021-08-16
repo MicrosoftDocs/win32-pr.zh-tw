@@ -1,11 +1,11 @@
 ---
-title: CreationDate 屬性
+title: CreationDate 屬性的 MS SQL
 description: 資料庫的建立日期。
 ms.assetid: c3b098f0-2575-4a7d-9a1d-a6189b9af2c8
 ms.tgt_platform: multiple
 keywords:
-- CreationDate 屬性 AD 架構
-- CreationDate 屬性 AD 架構
+- CreationDate 屬性 AD 架構的 MS SQL
+- CreationDate 屬性 AD 架構的 mS SQL
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c499a65ef8beee485bab647d8649559b74cfbd1
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: d9be6df5b67da26b9f5691e26c8b8a915f0e717f47d123455421a1fa9606b816
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106976992"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118961137"
 ---
-# <a name="ms-sql-creationdate-attribute"></a>CreationDate 屬性
+# <a name="ms-sql-creationdate-attribute"></a>CreationDate 屬性的 MS SQL
 
 資料庫的建立日期。
 
@@ -29,8 +29,8 @@ ms.locfileid: "106976992"
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | CreationDate                         |
-| Ldap-顯示名稱 | CreationDate                         |
+| CN                | 毫秒-SQL-CreationDate                         |
+| Ldap-顯示名稱 | 毫秒-SQL-CreationDate                         |
 | 大小              | \-                                          |
 | 更新許可權  | 此值是由系統所設定。            |
 | 更新頻率  | 建立新的資料庫時。             |
@@ -58,7 +58,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -66,7 +66,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -87,7 +87,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -108,7 +108,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -129,7 +129,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -150,7 +150,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ ms.locfileid: "106976992"
 | 連結識別碼                | \-                                                            |
 | MAPI-Id                | \-                                                            |
 | System-Only            | 否                                                         |
-| 是-單一值       | 對                                                          |
+| 是-單一值       | 是                                                          |
 | 已編制索引             | 否                                                         |
 | 在通用類別目錄中      | 否                                                         |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                  |
@@ -171,7 +171,7 @@ ms.locfileid: "106976992"
 | Range-Upper            | \-                                                            |
 | Search-Flags           | 0x00000000                                                    |
 | System-Flags           | 0x00000010                                                    |
-| 中使用的類別        | [**SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-SQLDatabase**](c-ms-sql-sqldatabase.md)<br/> |
 
 
 

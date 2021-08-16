@@ -4,12 +4,12 @@ ms.assetid: 9d54fe11-b1ad-4723-a42a-00bc6dc64072
 title: 鎖定和解除鎖定檔案中的位元組範圍
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7789c56cea100d00168494fac97bdb46e036953c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4ccd18fc8a5e2f143cb58717f72abbc135421ee802ff93b651dad0916ed8a953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320391"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951157"
 ---
 # <a name="locking-and-unlocking-byte-ranges-in-files"></a>鎖定和解除鎖定檔案中的位元組範圍
 
@@ -1028,7 +1028,7 @@ int __cdecl wmain(int argc, LPCWSTR argv[])
 
 
 
-這個範例是 Windows 主控台應用程式，它會執行多個平行存取檔案，並使用簡單的資料庫（由固定大小的數筆記錄組成），以位元組範圍鎖定進行協調。 請注意，實際的並行取決於主機系統上有多少處理器核心。
+此範例是一個 Windows 主控台應用程式，它會執行多個平行存取檔案，並使用簡單的資料庫（由固定大小的數筆記錄組成），以位元組範圍鎖定進行協調。 請注意，實際的並行取決於主機系統上有多少處理器核心。
 
 所有記錄都有前兩個共通的欄位：類型代碼和序號。 型別程式碼是兩個程式碼的其中一個： "Mstr" 程式碼是指 **主要 \_ 記錄** 類型，而「資料」程式碼則是指 **資料 \_ 記錄** 類型。 只能有一個 **主要 \_ 記錄** 和零或多個 **資料 \_ 記錄** s。 在此範例中，資料記錄中包含的資料會隨機產生。 第二個欄位（序號）會在每次修改記錄時遞增。
 

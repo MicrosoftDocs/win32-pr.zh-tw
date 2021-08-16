@@ -4,12 +4,12 @@ ms.assetid: e94da591-49ab-4932-8621-0a62b8a55dd6
 title: 'PHONESTATUSFLAGS_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 969c2553274037797bdf9abea3e8bdbc1cd8d018
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: b42f8e13adfae54c56e44244d04b3961216edb87e29730fec6f689f315380a7e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999331"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119060646"
 ---
 # <a name="phonestatusflags_-constants"></a>PHONESTATUSFLAGS \_ 常數
 

@@ -4,16 +4,16 @@ description: 從舊版更新
 ms.assetid: a3f0c0bb-8c12-4907-8e49-49b098449c38
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7860e2cf49fbe21c2522226ec61ab57c93d9df27
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9de894f220db7ee09847a8fa767e1f99c38cee8014cb86b65c1251e0579eaabc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969438"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118745721"
 ---
 # <a name="updating-from-previous-version"></a>從舊版更新
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 使用1.5 舊版 Microsoft 代理程式建立和編譯的應用程式，應該在新的2.0 版本下執行，而不需要修改。 [**連接**](connected-property.md)的屬性不能再設為 **False**;已取代的 SpeechInput 物件的某些屬性仍存在，但不再開啟任何值，而且伺服器不會再引發 [**重新開機**](https://www.bing.com/search?q=**Restart**)和 [**關閉**](https://www.bing.com/search?q=**Shutdown**)事件。
 
@@ -23,9 +23,9 @@ ms.locfileid: "106969438"
 
 安裝代理程式2.0 版之後，您應該能夠在系統上卸載代理程式1.5 版本。 不過，如果代理程式1.5 是透過2.0 版安裝，您可能必須重新安裝2.0。
 
- 
+ 
 
- 
+ 
 
 
 

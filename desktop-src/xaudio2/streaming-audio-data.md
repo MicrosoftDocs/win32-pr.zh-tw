@@ -4,12 +4,12 @@ ms.assetid: 778a5ffa-8c24-d97d-a53c-88b30887eb4b
 title: 串流音訊資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1848353e96c73ad04e28dc4a06516745e331347
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f0879d01fb9ea0de2c5d2d9236f3634f55d1501bb19d86a85f574395fa14fb65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999945"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962637"
 ---
 # <a name="streaming-audio-data"></a>串流音訊資料
 

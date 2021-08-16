@@ -142,7 +142,7 @@ void MainWindow::OnLButtonDown(int pixelX, int pixelY, DWORD flags)
 
 
 
-滑鼠座標會以圖元傳遞給這個方法，然後轉換為 Dip。 請務必不要混淆這兩個單元。 例如， [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) 函式使用圖元，但繪製和點擊測試使用 dip。 一般規則是 windows 或滑鼠輸入的相關函式使用圖元，而 Direct2D 和 DirectWrite 則使用 Dip。 一律以高 DPI 設定測試程式，並記得將您的程式標示為 DPI 感知。 如需詳細資訊，請參閱 [DPI 和 Device-Independent 圖元](dpi-and-device-independent-pixels.md)。
+滑鼠座標會以圖元傳遞給這個方法，然後轉換為 Dip。 請務必不要混淆這兩個單元。 例如， [**DragDetect**](/windows/desktop/api/winuser/nf-winuser-dragdetect) 函式使用圖元，但繪製和點擊測試使用 dip。 一般規則是 windows 或滑鼠輸入的相關函式使用圖元，Direct2D 和 DirectWrite 使用 dip。 一律以高 DPI 設定測試程式，並記得將您的程式標示為 DPI 感知。 如需詳細資訊，請參閱 [DPI 和 Device-Independent 圖元](dpi-and-device-independent-pixels.md)。
 
 以下是處理 [**WM \_ MOUSEMOVE**](/windows/desktop/inputdev/wm-mousemove) 訊息的程式碼。
 
@@ -248,7 +248,7 @@ void MainWindow::SetMode(Mode m)
 
 
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 在本課程模組中，您已瞭解如何處理滑鼠和鍵盤輸入;如何定義鍵盤快速鍵;以及如何更新游標影像，以反映程式的目前狀態。
 

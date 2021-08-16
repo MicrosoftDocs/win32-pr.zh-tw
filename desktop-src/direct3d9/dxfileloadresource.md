@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - DXFile.h
-ms.openlocfilehash: 233fe6acb13a6ae654a714028a316d7d6f6871ee
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 54d0072d7c87f6d26483faf8c591ea7651eff29b411643eb9848de11ff50d899
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803035"
 ---
 # <a name="dxfileloadresource-structure"></a>DXFILELOADRESOURCE 結構
 

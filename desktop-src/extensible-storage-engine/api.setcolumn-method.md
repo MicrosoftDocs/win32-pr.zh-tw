@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: bf93c18e3a390015ab26da8856905b418ad75593
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9d6026caeb0730675b446c3dccb98f563e3598b6a54b9cc46882e2aec731975
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562168"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982938"
 ---
 # <a name="apisetcolumn-method"></a>SetColumn 方法
 

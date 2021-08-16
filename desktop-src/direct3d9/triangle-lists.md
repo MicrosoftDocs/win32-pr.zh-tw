@@ -4,12 +4,12 @@ ms.assetid: e5c3470f-361c-458a-a42a-3549c51d8794
 title: 三角形清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 230cac9b4120d31821d70db022ab50d311d7b73e
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 1d0f9df4d9a0a6d883abd2ccf6b4f3e86c03bb54bcc404901b3c3fa6d10ede03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106967026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797433"
 ---
 # <a name="triangle-lists"></a>三角形清單
 

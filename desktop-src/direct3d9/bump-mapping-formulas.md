@@ -4,12 +4,12 @@ ms.assetid: ae1de432-d1cc-45a5-b25f-b669cd30af3b
 title: " (Direct3D 9) 的凹凸對應公式"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 436aee9689d78b8b706bb98d908f2e3fbc05ca6a
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 86035a28966c841f7d593cb46c7c7d969f7b2addaacb6cf43e25ceebdca83ff2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118805849"
 ---
 # <a name="bump-mapping-formulas-direct3d-9"></a> (Direct3D 9) 的凹凸對應公式
 

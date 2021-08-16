@@ -1,28 +1,28 @@
 ---
-title: Windows Media 格式 SDK 列舉類型
-description: 瞭解 Windows Media 格式 SDK 所執行的列舉類型，例如 DRM_HTTP_STATUS 和 DRM_LICENSE_STATE_CATEGORY。
+title: Windows媒體格式 SDK 列舉類型
+description: 瞭解 Windows 媒體格式 SDK 所實行的列舉類型，例如 DRM_HTTP_STATUS 和 DRM_LICENSE_STATE_CATEGORY。
 ms.assetid: cd28f608-25ba-44a7-868b-b1cd4dfcfa45
 keywords:
-- Windows Media Format SDK，列舉類型
+- Windows媒體格式 SDK，列舉類型
 - Advanced Systems Format (ASF) 、列舉類型
 - ASF (Advanced 系統格式) 、列舉類型
 - 列舉型別
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45a6fcb6d433079cce9d570a7eb6e28f31691985
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 16b3a53688e21e58b0d9509cc901a72399f26b9d758cac89511e66a76d740db1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112067994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848157"
 ---
-# <a name="windows-media-format-sdk-enumeration-types"></a>Windows Media 格式 SDK 列舉類型
+# <a name="windows-media-format-sdk-enumeration-types"></a>Windows媒體格式 SDK 列舉類型
 
-Windows Media 格式 SDK 會執行下列列舉類型。
+Windows 媒體格式 SDK 會執行下列列舉類型。
 
 
 
-| 列舉類型                                                               | Description                                                                                                                      |
+| 列舉類型                                                               | 描述                                                                                                                      |
 |--------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
 | [**DRM \_ HTTP \_ 狀態**](drm-http-status.md)                                   | 定義 DRM 要求的狀態範圍。                                                                                     |
 | [**DRM \_ 授權 \_ 狀態 \_ 類別**](drm-license-state-category.md)            | 定義 DRM 授權字串的分類。                                                                                  |
@@ -48,7 +48,7 @@ Windows Media 格式 SDK 會執行下列列舉類型。
 | [**WMT \_ 儲存體 \_ 格式**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_storage_format)                             | 定義可以使用此 SDK 操作的檔案類型。                                                                    |
 | [**WMT \_ 資料流程 \_ 選取專案**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_stream_selection)                         | 定義資料流程的狀態。                                                                                                  |
 | [**WMT \_ 傳輸 \_ 類型**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_transport_type)                             | 定義此 SDK 所支援的傳輸類型。                                                                               |
-| [**WMT \_ 版本**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | 定義 Windows Media 格式 SDK 的版本號碼。                                                                     |
+| [**WMT \_ 版本**](/previous-versions/windows/desktop/api/Wmsdkidl/ne-wmsdkidl-wmt_version)                                            | 定義 Windows 媒體格式 SDK 的版本號碼。                                                                     |
 | [**WMT \_ 水位線 \_ 專案 \_ 類型**](/previous-versions/windows/desktop/api/wmsdkidl/ne-wmsdkidl-wmt_watermark_entry_type)                | 定義支援的浮水印類型。                                                                                       |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 1AA41DE3-C37C-41BA-9549-5F12373DDB3B
 title: 'MF_VIDEO_MAX_MB_PER_SEC 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bbee009b50daee074241c11750e9d25240cda153
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c76e6a44a6e0993f9cf6410a0092708da767f92815fc98020dd2f4d88359370
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118739236"
 ---
 # <a name="mf_video_max_mb_per_sec-attribute"></a>MF \_ VIDEO \_ 最 \_ 大 \_ 每 \_ 秒 MB 數屬性
 
@@ -45,8 +45,8 @@ ms.locfileid: "106971052"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                     |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

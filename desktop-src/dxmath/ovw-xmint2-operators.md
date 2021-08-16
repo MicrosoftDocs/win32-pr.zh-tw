@@ -4,12 +4,12 @@ ms.assetid: 98822959-f4ef-4f73-8011-f9eba201dcc0
 title: XMINT2 運算子
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7081d2df2f1996061cab1cd9bf5d352b5aac532e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9d95b4f8c0d22f33caa402a3a3e523d660b66ea9bdb089711624868403fb955b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318788"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118984908"
 ---
 # <a name="xmint2-operators"></a>XMINT2 運算子
 

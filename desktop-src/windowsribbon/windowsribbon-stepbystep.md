@@ -1,26 +1,26 @@
 ---
 title: 建立功能區應用程式
-description: Windows 功能區架構是由兩個不同但相依的開發平臺所組成，以 Extensible Application Markup Language (XAML) 來宣告控制項和其視覺化配置，以及 c + + 元件物件模型 (COM) 型介面集，以定義命令功能和應用程式攔截。 在功能區架構架構中的這一項工作，需要使用架構所提供之豐富 UI 功能的開發人員，必須設計和描述標記中的 UI，然後使用功能區架構 COM 介面將架構連接到主應用程式。
+description: Windows 功能區架構是由兩個不同但相依的開發平臺所組成，其標記語言是根據 Extensible Application Markup Language (XAML) 來宣告控制項和其視覺化配置，以及 c + + 元件物件模型 (COM) 型介面集，用來定義命令功能和應用程式勾點。 在功能區架構架構中的這一項工作，需要使用架構所提供之豐富 UI 功能的開發人員，必須設計和描述標記中的 UI，然後使用功能區架構 COM 介面將架構連接到主應用程式。
 ms.assetid: 1bd3dbb5-822b-4551-8330-8b202a4cecdf
 keywords:
-- Windows 功能區，建立應用程式
+- Windows功能區，建立應用程式
 - 功能區，建立應用程式
-- Windows 功能區，藍圖
+- Windows功能區，藍圖
 - 功能區，藍圖
-- Windows 功能區，標記
+- Windows功能區，標記
 - 功能區，標記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a10f683c7fbb07b9992e418a4c09dc9aecba280
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ee3cc3395b2fe53759152f5d0244c6546c08832bda190035a918af6049a99811
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849987"
 ---
 # <a name="creating-a-ribbon-application"></a>建立功能區應用程式
 
-Windows 功能區架構是由兩個不同但相依的開發平臺所組成：根據 Extensible Application Markup Language 的標記語言 (XAML) 來宣告控制項及其視覺配置，以及 c + + 元件物件模型 (COM) 型介面集，以定義命令功能和應用程式勾點。 在功能區架構架構中的這一項工作，需要使用架構所提供之豐富 UI 功能的開發人員，必須設計和描述標記中的 UI，然後使用功能區架構 COM 介面將架構連接到主應用程式。
+Windows 功能區架構是由兩個不同但相依的開發平臺所組成：根據 Extensible Application Markup Language (XAML) 來宣告控制項及其視覺配置的標記語言，以及 c + + 元件物件模型 (COM) 型介面集，以定義命令功能和應用程式勾點。 在功能區架構架構中的這一項工作，需要使用架構所提供之豐富 UI 功能的開發人員，必須設計和描述標記中的 UI，然後使用功能區架構 COM 介面將架構連接到主應用程式。
 
 -   [功能區藍圖](#ribbon-roadmap)
 -   [寫入標記](#write-the-markup)
@@ -50,9 +50,9 @@ Windows 功能區架構是由兩個不同但相依的開發平臺所組成：根
 設計功能區 UI 之後，應用程式開發人員的第一個工作就是使用功能區標記來描述 UI。
 
 > [!IMPORTANT]
-> 功能區架構標記架構檔案（UICC .xsd）是與適用于 Windows 7 和 .NET Framework 4.0 的 Microsoft Windows 軟體開發套件 (SDK) 一併安裝。 使用標準安裝路徑時，檔案位於% ProgramFiles% \\ Microsoft sdk \\ Windows \\ \[ 版本號碼 Bin 資料夾中， \] \\ 可供許多 XML 編輯器參考，以提供提示和自動完成。
+> 功能區架構標記架構檔案（UICC .xsd）會隨 Windows 7 和 .NET Framework 4.0 的 Microsoft Windows 軟體開發套件 (SDK) 一起安裝。 使用標準安裝路徑時，檔案位於% ProgramFiles% \\ Microsoft sdk \\ Windows \\ \[ 版本號碼 Bin 資料夾中， \] \\ 可供許多 XML 編輯器參考，以提供提示和自動完成。
 
- 
+ 
 
 功能區控制項、功能區命令 (控制項獨立的元素，這些專案會提供功能區控制項) 的基本功能，而且所有控制項版面配置和視覺關聯性都會在標記中宣告。 功能區標記的結構強調功能區控制項和命令與兩個主要節點階層之間的差異： [命令和資源](windowsribbon-reference-elements-command.md) 樹狀結構，以及 [視圖](windowsribbon-reference-elements-view.md) 樹狀結構。
 
@@ -87,13 +87,13 @@ Windows 功能區架構是由兩個不同但相依的開發平臺所組成：根
 
 
 > [!TIP]
-> 雖然您可以針對功能區標記檔案使用任何副檔名，但在檔中使用的是建議的副檔名。
+> 雖然您可以針對功能區標記檔案使用任何副檔名，但 .xml 是檔中使用的建議延伸模組。
 
- 
+ 
 
 ### <a name="compile-the-markup"></a>編譯標記
 
-建立功能區標記檔案之後，必須將它編譯成二進位格式，方法是使用 Windows 軟體發展工具組 (SDK) 隨附的功能區標記編譯器、UI 命令編譯器 (UICC) 。 主機應用程式在功能區架構初始化期間，會將這個二進位檔案的參考傳遞給 [**IUIFramework：： LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) 方法。
+建立功能區標記檔案之後，必須使用 Windows 軟體發展工具組 (SDK) 隨附的功能區標記編譯器、UI 命令編譯器 (UICC) ，將它編譯成二進位格式。 主機應用程式在功能區架構初始化期間，會將這個二進位檔案的參考傳遞給 [**IUIFramework：： LoadUI**](/windows/desktop/api/uiribbon/nf-uiribbon-iuiframework-loadui) 方法。
 
 UICC 可以直接從命令列視窗執行，或新增為 Visual Studio 中的「自訂群組建步驟」。
 
@@ -119,9 +119,9 @@ UICC 會產生三個檔案：標記的二進位版本 (. bml) 、識別碼定義
 >
 > 如果 Iid 是由應用程式定義，則必須使用 UIRibbon 中指定的 Guid。
 >
-> UIRibbon 隨附于 [Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx) 的一部分，可在% ProgramFiles% \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 包含的標準安裝路徑中找到。
+> UIRibbon 隨附于[Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)的一部分，可在% ProgramFiles% \\ Microsoft sdk \\ Windows \\ 7.0 版包含的標準安裝路徑中找到 \\ 。
 
- 
+ 
 
 ### <a name="initialize-the-ribbon"></a>初始化功能區
 
@@ -157,7 +157,7 @@ UICC 會產生三個檔案：標記的二進位版本 (. bml) 、識別碼定義
     > \[!重要\]  
     > 功能區架構會初始化為單一執行緒的單元 (STA) 。
 
-     
+     
 
     ```
     hr = pFramework->Initialize(hWndHost, pApplication);
@@ -192,7 +192,7 @@ UICC 會產生三個檔案：標記的二進位版本 (. bml) 、識別碼定義
     > [!Note]  
     > [**IUICommandHandler**](/windows/desktop/api/uiribbon/nn-uiribbon-iuicommandhandler)介面允許將命令處理常式系結至一或多個命令。
 
-     
+     
 
 若要執行 [**IUIApplication**](/windows/desktop/api/uiribbon/nn-uiribbon-iuiapplication) 方法 stub （可傳回 E >notimpl），至少需要應用程式， \_ 如下列範例所示。
 
@@ -260,7 +260,7 @@ STDMETHOD(OnDestroyUICommand)(UINT32 commandId,
 > [!Note]  
 > 最初在應用程式中顯示功能區時，不需要執行 [**IUICommandHandler：： UpdateProperty**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-updateproperty) 和 [**IUICommandHandler：： Execute**](/windows/desktop/api/uiribbon/nf-uiribbon-iuicommandhandler-execute) 函式。 不過，若要確保應用程式在使用者執行命令時正確運作，就必須使用這些方法。
 
- 
+ 
 
 ## <a name="ole-support"></a>OLE 支援
 
@@ -285,9 +285,9 @@ STDMETHOD(OnDestroyUICommand)(UINT32 commandId,
 [功能區設計流程](https://msdn.microsoft.com/library/cc872781.aspx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

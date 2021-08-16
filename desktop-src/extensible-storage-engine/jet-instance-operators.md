@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Hh564749(v=EXCHG.10)
 ms:contentKeyID: 39511660
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 83311ab33e2f5ee3a6a7d48b0fff1a2a52a66243
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: abb9eebf8cfff67a50519f7aa7dcab726387af17a859d734cdf73afb88a3cb8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118980058"
 ---
 # <a name="jet_instance-operators"></a>JET_INSTANCE 運算子
 

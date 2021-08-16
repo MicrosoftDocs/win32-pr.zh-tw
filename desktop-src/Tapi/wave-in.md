@@ -4,12 +4,12 @@ ms.assetid: b2f32019-088f-4805-af7e-559a8179b1e6
 title: wave/in
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3465a575937538c6a4113ec544b1d246fec3a598
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24cc80d41f402abf1886e063563f272abf7992768dd62f03e64b327a7e199360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194494"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119002526"
 ---
 # <a name="wavein"></a>wave/in
 

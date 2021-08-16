@@ -1,4 +1,4 @@
-- name: Windows Web 服務
+- name: WindowsWeb 服務
   href: portal.md
   items:
     - name: 關於 Windows Web 服務
@@ -25,7 +25,7 @@
               items:
                 - name: 服務 Proxy 和會話
                   href: service-proxy-and-sessions.md
-            - name: Context
+            - name: 內容
               href: context.md
             - name: 合約
               href: contract.md
@@ -144,7 +144,7 @@
           href: manually-creating-a-service-proxy-for-a-wcf-service.md
         - name: 建立服務
           href: creating-a-service.md
-        - name: Windows Web 服務範例
+        - name: WindowsWeb 服務範例
           href: windows-web-services-examples.md
           items:
             - name: 服務模型範例
@@ -375,10 +375,10 @@
                   href: filereptoolexample.md
                 - name: FileRepServiceExample
                   href: filerepserviceexample.md
-    - name: Windows Web 服務參考
+    - name: WindowsWeb 服務參考
       href: windows-web-services-reference.md
       items:
-        - name: Windows Web 服務回呼函數
+        - name: WindowsWeb 服務回呼函數
           href: web-services-for-windows-callback-functions.md
           items:
             - name: WS_ABANDON_MESSAGE_CALLBACK
@@ -724,7 +724,7 @@
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_output_type
             - name: WS_XML_WRITER_PROPERTY_ID
               href: /windows/desktop/api/WebServices/ne-webservices-ws_xml_writer_property_id
-        - name: Windows Web 服務功能
+        - name: WindowsWeb 服務函數
           href: web-services-for-windows-functions.md
           items:
             - name: WsAbandonCall
@@ -1119,7 +1119,7 @@
               href: /windows/desktop/api/WebServices/nf-webservices-wswritexmlnsattribute
             - name: WsXmlStringEquals
               href: /windows/desktop/api/WebServices/nf-webservices-wsxmlstringequals
-        - name: Windows Web 服務控制碼
+        - name: WindowsWeb 服務控制碼
           href: web-services-for-windows-handles.md
           items:
             - name: WS_CHANNEL
@@ -1152,7 +1152,7 @@
               href: ws-xml-reader.md
             - name: WS_XML_WRITER
               href: ws-xml-writer.md
-        - name: Windows Web 服務宏
+        - name: WindowsWeb 服務宏
           href: web-services-for-windows-macros.md
           items:
             - name: WS_STRING_EMPTY
@@ -1167,9 +1167,9 @@
               href: /windows/desktop/api/WebServices/nf-webservices-ws_xml_string_value
             - name: WsCountOf
               href: /windows/desktop/api/WebServices/nf-webservices-wscountof
-        - name: Windows Web 服務傳回值
+        - name: WindowsWeb 服務傳回值
           href: windows-web-services-return-values.md
-        - name: Windows Web 服務結構
+        - name: WindowsWeb 服務結構
           href: web-services-for-windows-structures.md
           items:
             - name: WS_ANY_ATTRIBUTE
@@ -1682,7 +1682,7 @@
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_stream_output
             - name: WS_XML_WRITER_TEXT_ENCODING
               href: /windows/win32/api/WebServices/ns-webservices-ws_xml_writer_text_encoding
-- name: 適用于 Windows Store 應用程式的預先提取偵錯工具 Api
+- name: Windows Store 應用程式的預先提取 debug api
   href: windows-runtime-prefetch-debug-apis.md
   items:
     - name: IContentPrefetcherTaskTrigger

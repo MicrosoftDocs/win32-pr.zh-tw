@@ -4,12 +4,12 @@ ms.assetid: cbc86a5d-c53a-44a0-aa81-5c41527a8f67
 title: 建立 Kernel-Mode 篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c915a08312e33f0e35245325fd8bce7e55e486c
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 473565046c462e8992350c3662360e4c22b3b5b75e10f0e79e1399885355056e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118953937"
 ---
 # <a name="creating-kernel-mode-filters"></a>建立 Kernel-Mode 篩選
 
