@@ -4,18 +4,18 @@ ms.assetid: f4247d92-d343-4946-8b5a-99f98f239616
 title: PrimaryEmailAddress
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0ca86435948004bd14b7cb65e03105e159c7289
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ac9769caf0264529bd7f984f57a3edecd1c833a367ff41fb801e2c1414876c74
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091548"
 ---
 # <a name="systemcontactprimaryemailaddress"></a>PrimaryEmailAddress
 
 連絡人的主要電子郵件地址
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

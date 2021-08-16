@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 20edef2aca2c6948984f5195b16711b78112354a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd90794fe4c6f41f8704cb626ddfcf9487c89da01afb8a2f8b1fddfe0efea43a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120092068"
 ---
 # <a name="driver_info_6-structure"></a>驅動程式 \_ 資訊 \_ 6 結構
 
@@ -74,7 +74,7 @@ typedef struct _DRIVER_INFO_6 {
 **pEnvironment**
 </dt> <dd>
 
-以 null 結束的字串指標，指定寫入驅動程式的環境 (例如 Windows NT x86、Windows IA64 和 Windows x64。
+指標，指向以 null 終止的字串，這個字串會指定撰寫驅動程式的環境 (例如 Windows NT x86、Windows IA64 和 Windows x64。
 
 </dd> <dt>
 
@@ -190,7 +190,7 @@ MultiSZ 緩衝區的指標，其中包含以 null 終止之字串的序列。 �
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ 驅動程式 \_ 資訊 \_ 6W** (Unicode) 和 **\_ 驅動程式 \_ 資訊 \_ 6a** (ANSI) <br/>                             |
 
 

@@ -4,12 +4,12 @@ ms.assetid: 6722a74a-1ec1-4c71-84c6-fb103aca149f
 title: C + + 中的憑證註冊控制項屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76525f26f318178f122cc0feee6221bbd948bba0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0941967b7b4be0bfa6d7db2f9b31e2971f8ca1d0deb9d9f92540a1ae5300791a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117771917"
 ---
 # <a name="certificate-enrollment-control-properties-in-c"></a>C + + 中的憑證註冊控制項屬性
 

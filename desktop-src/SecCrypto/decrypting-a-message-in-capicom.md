@@ -4,16 +4,16 @@ ms.assetid: 70f23d93-2bca-419b-9de7-e52ce4fb1350
 title: 在 CAPICOM 中解密訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ba984bad7d9289eaf89725e9598a4330f16b49ab
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 744878378fbe2791e66151e451029be8adde2435b451d540196a1082c4e005f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983489"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767756"
 ---
 # <a name="decrypting-a-message-in-capicom"></a>在 CAPICOM 中解密訊息
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 這個副程式會採用密碼字串來產生會話加密金鑰，以及要從中讀取加密訊息的檔案名。 所有參數都會依值傳遞至副程式。
 

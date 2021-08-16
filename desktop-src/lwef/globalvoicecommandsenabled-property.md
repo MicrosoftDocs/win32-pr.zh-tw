@@ -4,16 +4,16 @@ description: GlobalVoiceCommandsEnabled 屬性
 ms.assetid: d4f74019-fa33-41fc-abe7-01791ff188f0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8f523171187c9956a7741afc0fabcc7ec794071
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: f889d242afca406ba443fd3d9a19afb837fbed0390f5c0c3d2bbd2ac2ccbccb9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103933249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751442"
 ---
 # <a name="globalvoicecommandsenabled-property"></a>GlobalVoiceCommandsEnabled 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "103933249"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理。***字元 (*** 」CharacterID * * * ") GlobalVoiceCommandsEnabled**
+*agent. ***字元 ( "**_CharacterID_*_" ) . GlobalVoiceCommandsEnabled_*
 
 \[ = *布林*\]
 

@@ -8,12 +8,12 @@ keywords:
 - 應用程式目錄分割廣告，用於尋找分割區容器的範例程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f3f10156894a71a3308b58d125c16782497e5f29
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 5757e638e046089d828ee1c681d04ec210986181cb74ec3b1253c05515eda2fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "106967469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962306"
 ---
 # <a name="example-code-for-locating-the-partitions-container"></a>用於尋找資料分割容器的範例程式碼
 
@@ -150,7 +150,7 @@ HRESULT GetPartitionsDNSearch(LPWSTR *ppwszPartitionsDN)
 
 
 
-下列 Visual Basic Scripting Edition 程式碼範例會藉由搜尋 [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) 物件的設定容器來取得分割區容器的分辨名稱。
+下列 Visual Basic 腳本撰寫版程式碼範例會藉由搜尋 [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer)物件的設定容器來取得分割區容器的分辨名稱。
 
 
 ```VB
@@ -317,7 +317,7 @@ static string GetPartitionsDN()
 
 
 
-下列 Visual Basic .NET 程式碼範例會藉由搜尋 [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer) 物件的設定容器來取得分割容器的分辨名稱。 此範例使用 Visual Basic .NET 搭配 DirectoryServices。
+下列 Visual Basic .net 程式碼範例會藉由搜尋 [**crossRefContainer**](/windows/desktop/ADSchema/c-crossrefcontainer)物件的設定容器來取得分割容器的分辨名稱。 此範例使用 Visual Basic .net 搭配 DirectoryServices。
 
 
 ```VB
@@ -352,6 +352,6 @@ End Function
 
 
 
- 
+ 
 
- 
+ 

@@ -5,12 +5,12 @@ ms.assetid: 22d6a220-7712-4b07-a6d9-67dd748358a6
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33a8b6eb65706ad3adc9fd4c10b4c60f96a72848
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a16e4ff9890aa73b1107fe511c3e41480b5db7f1bb68a8a264a990cf58a94ea4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462024"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118962317"
 ---
 # <a name="example-code-for-installing-a-static-context-menu-item"></a>安裝靜態內容功能表項目的範例程式碼
 
@@ -18,8 +18,8 @@ ms.locfileid: "104462024"
 
 執行範例程式碼
 
-1.  複製下列 Frommenu.vbs 程式碼，開啟 [記事本]，將程式碼貼到 [記事本]，將檔案儲存為 C： \\frommenu.vbs，然後關閉 [記事本]。
-2.  複製下列 Addmenu.vbs 程式碼，開啟 [記事本]，將程式碼貼到 [記事本]，將檔案儲存為 C： \\addmenu.vbs，然後關閉 [記事本]。
+1.  複製下列 Frommenu.vbs 程式碼，開啟記事本，將程式碼貼入記事本，將檔案儲存為 C： \\frommenu.vbs，然後關閉記事本。
+2.  複製下列 Addmenu.vbs 程式碼，開啟記事本，將程式碼貼入記事本，將檔案儲存為 C： \\addmenu.vbs，然後關閉記事本。
 3.  執行 Addmenu.vbs。
 4.  啟動 Active Directory 消費者和電腦嵌入式管理單元。
 
@@ -126,9 +126,9 @@ End Sub
 
 
 
- 
+ 
 
- 
+ 
 
 
 

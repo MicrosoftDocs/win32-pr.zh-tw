@@ -4,20 +4,20 @@ ms.assetid: dcb69d7e-457e-457b-9eea-15676ed710aa
 title: enrollCustomPKCS10
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86ad95f483d4bc82136865e94a70ad46e90e1c24
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 937b1e955ecd369794e832f16afff1594ed1df1271494d7172832132d4cb7863
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972261"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780027"
 ---
 # <a name="enrollcustompkcs10"></a>enrollCustomPKCS10
 
 EnrollCustomPKCS10 範例會建立自訂 PKCS \# 10 要求、將它提交給 (CA) 的獨立憑證授權單位單位，並在憑證存放區中安裝已發行的憑證。 獨立 CA 不需要 Active Directory，也不會使用範本。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomPKCS10 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollCustomPKCS10 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

@@ -4,12 +4,12 @@ ms.assetid: d9aaf5ea-4c74-45af-84a5-7fbf542cae1d
 title: DeviceInterface。
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 143b3f3d38e79ea87c4620bb5b2deb665d893fa9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 098f532bdadfc5f86f8444720bbe5420f97b53734ab9b7c19fef889ab006cab3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091498"
 ---
 # <a name="systemdeviceinterfacehidvendorid"></a>DeviceInterface。
 

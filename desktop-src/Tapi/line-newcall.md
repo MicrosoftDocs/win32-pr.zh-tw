@@ -4,12 +4,12 @@ ms.assetid: 36122dfb-1ed6-459d-aa2b-69c86daaddd8
 title: 'LINE_NEWCALL 訊息 (Tspi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ed3e7380b2f328283e5f5cad9e84f5a1d0c450dc
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f541f7535e9b41dc66a83b8d033d3ff7adf4d51f6e78f275d2695cb5ae7a35b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106979433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761904"
 ---
 # <a name="line_newcall-message"></a>行 \_ NEWCALL 訊息
 

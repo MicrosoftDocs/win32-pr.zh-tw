@@ -3,7 +3,7 @@ title: 'PSM_ISDIALOGMESSAGE 訊息 (Prsht.idl .h) '
 description: 將訊息傳遞至屬性工作表對話方塊，並指出對話方塊是否已處理訊息。 您可以使用 PropSheet IsDialogMessage 宏明確地傳送此訊息 \_ 。
 ms.assetid: 7629c3f8-0b10-4585-8a95-9309c75b3ebb
 keywords:
-- PSM_ISDIALOGMESSAGE message Windows 控制項
+- PSM_ISDIALOGMESSAGE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b753fc849d76e3ac5071dd85bdd94950460fbb10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 12f28d63e5586d3b083282db4e029551ce4e61d0ef997e36e3e874e9f032095b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088678"
 ---
 # <a name="psm_isdialogmessage-message"></a>PSM \_ ISDIALOGMESSAGE 訊息
 
@@ -64,8 +64,8 @@ ms.locfileid: "103843660"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

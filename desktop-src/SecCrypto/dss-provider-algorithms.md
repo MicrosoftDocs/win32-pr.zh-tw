@@ -4,12 +4,12 @@ ms.assetid: 2a7aecf8-e242-4087-83ee-aaa637a9ec71
 title: DSS 提供者演算法
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fb0bd9346da7a9ab1490e2646d9d2559c07359b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09a39b29ee38b929f9ee5495d04cf663a1458fee0921fe48b24569038a69f0ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767216"
 ---
 # <a name="dss-provider-algorithms"></a>DSS 提供者演算法
 

@@ -4,12 +4,12 @@ ms.assetid: 41b7a587-01e0-4eee-b750-2f6be06c3227
 title: WPD_CONTENT_TYPE_AUDIO_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50821a513233b7cded458fe9dc2d2caad2a8e290
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4fb360a447f7e39a81c4649eb484b64d36bd248a3ae70faea8b09bc02da379dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971534"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120089578"
 ---
 # <a name="wpd_content_type_audio_album"></a>WPD \_ 內容 \_ 類型 \_ 音訊 \_ 專輯
 

@@ -4,18 +4,18 @@ ms.assetid: 1eb4395b-2df7-42d1-bc34-83a8593916c2
 title: LongitudeDenominator
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1467c81af9a89e45ca001fef4ad3144be8ecf471
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c6ee1a16f71f4b95dd97bdab07d693f6ff27b8a229b56dcad40e1f3374316409
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104192535"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091128"
 ---
 # <a name="systemgpslongitudedenominator"></a>LongitudeDenominator
 
 PKEY \_ GPS 經度的分母 \_ 。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

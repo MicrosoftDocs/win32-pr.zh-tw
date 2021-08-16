@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: f15c2471f749748f7928a45aa03037d955c75d4a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 963581431c35e2c63cbe9af4f5b37ef6d0709d01146a223253247ad2b8c37dda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111725"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090598"
 ---
 # <a name="folderitemverbs-method"></a>FolderItem 動詞方法
 
@@ -45,9 +45,9 @@ retVal = FolderItem.Verbs()
 
 ## <a name="examples"></a>範例
 
-下列範例會使用 **動詞** 來抓取 [**FolderItemVerbs**](folderitemverbs.md) 物件，此物件代表可在 Windows 資料夾上執行的一組動詞。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例會使用 **動詞** 來抓取 [**FolderItemVerbs**](folderitemverbs.md)物件，此物件代表可在 Windows 資料夾上執行的一組動詞。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -164,10 +164,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

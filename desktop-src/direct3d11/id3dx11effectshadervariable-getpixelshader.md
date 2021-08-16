@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6588fd9afb7e58308f0fbc120705d4a22d9f2ea
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ddf94d3e4686bcbc0206601938e8cf8ab5d0d81a1925aaf7bb814eb30a82ba4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104514676"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118533254"
 ---
 # <a name="id3dx11effectshadervariablegetpixelshader-method"></a>ID3DX11EffectShaderVariable：： GetPixelShader 方法
 

@@ -6,24 +6,24 @@ keywords:
 - Windows Media Player，同步播放清單
 - Windows Media Player 物件模型，同步播放清單
 - 物件模型，同步處理播放清單
-- Windows Media Player 行動裝置、同步播放清單
-- Windows Media Player ActiveX 控制項，同步播放清單
-- Windows Media Player 的行動 ActiveX 控制項、同步播放清單
+- Windows Media Player行動裝置，同步播放清單
+- Windows Media Player ActiveX 控制項、同步播放清單
+- Windows Media Player行動 ActiveX 控制項、同步播放清單
 - ActiveX 控制項，同步播放清單
 - 播放清單，同步處理
 - 中繼檔播放清單，同步處理
-- Windows Media 中繼檔播放清單，同步處理
+- Windows媒體中繼檔播放清單，同步處理
 - 同步播放清單，列舉
 - 可攜式裝置，列舉
 - 列舉，同步播放清單
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e8e07148ed6978355056febfb2ad920e4b1380a3
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 96f6afd6c209f96edd011b6b5829af07583057bd9220c61015d8e8ffa9fe4bfa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "106965217"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650908"
 ---
 # <a name="enumerating-the-media-items"></a>列舉媒體專案
 
@@ -162,9 +162,9 @@ STDMETHODIMP CSyncSettings::ShowMedia(long lIndex)
 [**管理同步播放清單**](managing-synchronization-playlists.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

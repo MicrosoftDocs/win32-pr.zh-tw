@@ -4,12 +4,12 @@ ms.assetid: 305038c0-754d-4406-9689-716d11964700
 title: 密碼編譯列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 47202d4c9763b4da686b71dacad057798d1bb52c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 59d15a98b32ded83f15b9742dc2cf5270d7141e9d834ab5440abc5cf90e9c694
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972018"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768360"
 ---
 # <a name="cryptography-enumerations"></a>密碼編譯列舉
 

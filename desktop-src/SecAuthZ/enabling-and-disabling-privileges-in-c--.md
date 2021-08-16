@@ -4,12 +4,12 @@ ms.assetid: aa2d3fe7-01ee-4243-b72c-3e8b90068e22
 title: 在 c + + 中啟用和停用許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 354f3ac2b27a7c027bd7c48e753263c43b676dd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dbc36e3db162b1a7a7f12f1849ab7708bda19d90991e58a65135d0eb4c0abd04
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781724"
 ---
 # <a name="enabling-and-disabling-privileges-in-c"></a>在 c + + 中啟用和停用許可權
 
@@ -19,11 +19,11 @@ ms.locfileid: "104027247"
 
 | 許可權常數           | 字串值                  | 顯示名稱                        |
 |------------------------------|-------------------------------|-------------------------------------|
-| SE \_ ASSIGNPRIMARYTOKEN \_ 名稱 | SeAssignPrimaryTokenPrivilege | 取代處理序層級權杖       |
-| SE \_ 備份 \_ 名稱             | SeBackupPrivilege             | 備份檔案及目錄       |
-| SE \_ DEBUG \_ 名稱              | SeDebugPrivilege              | 偵錯程式                      |
-| SE \_ 增加 \_ 配額 \_ 名稱    | SeIncreaseQuotaPrivilege      | 調整處理程序的記憶體配額  |
-| SE \_ TCB \_ 名稱                | SeTcbPrivilege                | 作為作業系統的一部分 |
+| SE \_ASSIGNPRIMARYTOKEN \_ 名稱 | SeAssignPrimaryTokenPrivilege | 取代處理序層級權杖       |
+| SE \_備份 \_ 名稱             | SeBackupPrivilege             | 備份檔案及目錄       |
+| SE \_DEBUG \_ 名稱              | SeDebugPrivilege              | 偵錯程式                      |
+| SE \_增加 \_ 配額 \_ 名稱    | SeIncreaseQuotaPrivilege      | 調整處理程序的記憶體配額  |
+| SE \_TCB \_ 名稱                | SeTcbPrivilege                | 作為作業系統的一部分 |
 
 
 

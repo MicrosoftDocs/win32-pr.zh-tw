@@ -47,7 +47,7 @@
                   href: portal-object.md
                 - name: 入口網站群組物件
                   href: portal-group-object.md
-                - name: 存放集區物件
+                - name: 儲存體集區物件
                   href: storage-pool-object.md
         - name: 設定總覽
           href: configuration.md

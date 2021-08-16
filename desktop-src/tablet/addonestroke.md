@@ -14,12 +14,12 @@ api_type:
 api_location:
 - InkDiv.dll
 - InkDiv.dll.dll
-ms.openlocfilehash: 0af3913f2579363afbb0c3985ad0f40f58051eac
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 431043b261b3e6fa67e8c6c9e45df27bb6c252dfd92b18e0e4127d4795533c0f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857127"
 ---
 # <a name="addonestroke-function"></a>AddOneStroke 函式
 
@@ -79,7 +79,7 @@ HRESULT WINAPI AddOneStroke(
 
 
 
-| 傳回碼                                                                                  | Description                                     |
+| 傳回碼                                                                                  | 描述                                     |
 |----------------------------------------------------------------------------------------------|-------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此函數已成功。<br/>              |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | *HDivider* 參數無效。<br/> |
@@ -94,7 +94,7 @@ HRESULT WINAPI AddOneStroke(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 程式庫<br/>                  | <dl> <dt>InkDiv.dll</dt> </dl> |
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c264b5652287676d0792027f4f0ea8921bdb92f0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 84f38e55762996324b6d8fc53a093cef7759f136243faec7d78e5b568977a0f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104196333"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118532099"
 ---
 # <a name="id3dx11effectunorderedaccessviewvariablegetunorderedaccessviewarray-method"></a>ID3DX11EffectUnorderedAccessViewVariable：： GetUnorderedAccessViewArray 方法
 

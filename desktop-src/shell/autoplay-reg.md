@@ -4,12 +4,12 @@ ms.assetid: 5e65a3d8-04b9-46ba-b4e5-a976e1923bfd
 title: 啟用和停用自動啟動
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a567f50db75cd129346e193e66ba0ae5f74fa955
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbd14a1dfd3aadb94f3586dec783ea6d394f717f500b5ac103c65fcb813baf14
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090778"
 ---
 # <a name="enabling-and-disabling-autorun"></a>啟用和停用自動啟動
 
@@ -30,7 +30,7 @@ ms.locfileid: "104386122"
 
 使用者可以在插入 cd-rom 時按住 SHIFT 鍵，以手動隱藏自動安裝。 不過，通常最好是以程式設計方式處理這項作業，而不是根據使用者。
 
-使用具有 Shell [4.70 版](versions.md) 和更新版本的系統，Windows 會將 "QueryCancelAutoPlay" 訊息傳送到前景視窗。 您的應用程式可以回應此訊息以抑制自動運行。 這種方法是由系統公用程式（例如 [ [開啟](../dlgbox/open-and-save-as-dialog-boxes.md) 一般] 對話方塊）用來停用自動運行。
+使用具有 Shell [4.70 版](versions.md)和更新版本的系統，Windows 將 "QueryCancelAutoPlay" 訊息傳送到前景視窗。 您的應用程式可以回應此訊息以抑制自動運行。 這種方法是由系統公用程式（例如 [ [開啟](../dlgbox/open-and-save-as-dialog-boxes.md) 一般] 對話方塊）用來停用自動運行。
 
 下列程式碼片段說明如何設定和處理此訊息。 您的應用程式必須在前景視窗中執行。 首先，將 "QueryCancelAutoPlay" 註冊為 Windows 訊息：
 
@@ -95,7 +95,7 @@ BOOL DialogProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 
 ## <a name="using-the-registry-to-disable-autorun"></a>使用登錄來停用自動播放
 
-有兩個可用來持續停用自動執行的登錄值： NoDriveAutoRun 和 NoDriveTypeAutoRun。 第一個值會停用指定磁碟機號的自動運行，而第二個值會停用磁片磁碟機類別的自動運行。 如果其中一個值設定為停用特定裝置的自動安裝，則會停用。 如需停用自動播放功能的詳細資訊，請參閱知識庫文章 [如何停用 Windows 中的自動播放功能](https://support.microsoft.com/kb/967715) 。 本文列出您必須安裝才能正確停用自動播放功能的不同更新。
+有兩個可用來持續停用自動執行的登錄值： NoDriveAutoRun 和 NoDriveTypeAutoRun。 第一個值會停用指定磁碟機號的自動運行，而第二個值會停用磁片磁碟機類別的自動運行。 如果其中一個值設定為停用特定裝置的自動安裝，則會停用。 如需停用自動播放功能的詳細資訊，請參閱知識庫文章[如何停用 Windows 中的自動運行功能](https://support.microsoft.com/kb/967715)。 本文列出您必須安裝才能正確停用自動播放功能的不同更新。
 
 > [!Note]  
 > NoDriveAutoRun 和 NoDriveTypeAutoRun 值只能由系統管理員修改，以變更整個系統的值，以供測試或管理之用。 應用程式不應該修改這些值，因為無法將它們可靠地還原為其原始值。
@@ -162,7 +162,7 @@ HKEY_CURRENT_USER
 
 通常，自動啟動會自動啟動，但也可以手動啟動。 如果裝置符合上面所列的條件，磁碟機號的快捷方式功能表就會包含 [ **自動播放** ] 命令。 若要手動執行自動執行，請在磁片磁碟機圖示上按一下滑鼠右鍵，然後從快捷方式功能表選取 [ **自動播放** ]，或按兩下磁片磁碟機圖示。 如果驅動程式不相容，則快捷方式功能表將不會有 [ **自動播放** ] 專案，而且無法啟動自動啟動。
 
-自動運行時相容的驅動程式會隨附于一些卸載式磁片磁碟機，以及一些其他類型的卸載式媒體，例如 CompactFlash 卡。 自動播放也適用于對應至磁碟機號 Windows 檔案總管的網路磁碟機機，或透過 [Microsoft Management Console (MMC) ](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page)掛接。 如同掛接的硬體一樣，掛接的網路磁碟機機在其根目錄中必須有執行中的 .inf 檔案，而且不得透過登錄來停[用。](#using-the-registry-to-disable-autorun)
+自動運行時相容的驅動程式會隨附于一些卸載式磁片磁碟機，以及一些其他類型的卸載式媒體，例如 CompactFlash 卡。 自動播放也適用于對應至磁碟機號 Windows 檔案總管的網路磁碟機機，或透過[Microsoft Management Console (MMC) ](/previous-versions/windows/desktop/mmc/microsoft-management-console-start-page)掛接。 如同掛接的硬體一樣，掛接的網路磁碟機機在其根目錄中必須有執行中的 .inf 檔案，而且不得透過登錄來停[用。](#using-the-registry-to-disable-autorun)
 
  
 
