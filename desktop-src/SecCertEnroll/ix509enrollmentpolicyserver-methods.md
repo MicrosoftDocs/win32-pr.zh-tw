@@ -4,12 +4,12 @@ ms.assetid: 69D9FFFF-856F-46F4-BF4D-9FF03D82986D
 title: IX509EnrollmentPolicyServer 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f6d2a7c8824d92c9dcba2baa30dc010b7bac4b63
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c4bac32aa32bde02f5c96b1f116ef169935000b7b4b5a51e17dd242d2cebc85
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117776014"
 ---
 # <a name="ix509enrollmentpolicyserver-methods"></a>IX509EnrollmentPolicyServer 方法
 

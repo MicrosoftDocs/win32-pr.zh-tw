@@ -11,12 +11,12 @@ api_name:
 - SecurityCallers
 api_type:
 - COM
-ms.openlocfilehash: c757b11bba6a30e8951915e1eace0811b6b6f732
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a494e1421e443d2a6c3663bd7fa7c15eda898079477592e8df9958a2d5b87990
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317852"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117915892"
 ---
 # <a name="securitycallers-class"></a>SecurityCallers 類別
 
@@ -46,7 +46,7 @@ ms.locfileid: "104317852"
 
 您無法直接建立 **SecurityCallers** 物件。 若要使用 [**ISecurityCallersColl**](/windows/desktop/api/ComSvcs/nn-comsvcs-isecuritycallerscoll)的方法，您必須藉由呼叫 [**CoGetCallCoNtext**](/windows/desktop/api/combaseapi/nf-combaseapi-cogetcallcontext)（ \_ 為 *riid* 參數提供 IID ISecurityCallCoNtext）來取得其實址的參考。 接下來，呼叫 [**ISecurityCallCoNtext：： get \_ Item**](/windows/desktop/api/ComSvcs/nf-comsvcs-isecuritycallcontext-get_item) ，要求 (安全性識別集合的安全性呼叫內容專案，例如 "DirectCaller" 或 "OriginalCaller" ) 。
 
-若要從 Microsoft Visual Basic 使用這個類別，請新增 COM + 服務類型程式庫的參考。 您無法直接建立 SecurityCallers 物件。 若要使用其屬性，您必須使用 [**GetSecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext)來取得其執行的參考。 接下來，取得物件的 Item 屬性，要求安全性識別集合 (的安全性呼叫內容專案，例如 "DirectCaller" 或 "OriginalCaller" ) 。
+若要從 Microsoft Visual Basic 使用這個類別，請新增 com + 服務類型程式庫的參考。 您無法直接建立 SecurityCallers 物件。 若要使用其屬性，您必須使用 [**GetSecurityCallCoNtext**](/windows/desktop/api/ComSvcs/nf-comsvcs-igetsecuritycallcontext-getsecuritycallcontext)來取得其執行的參考。 接下來，取得物件的 Item 屬性，要求安全性識別集合 (的安全性呼叫內容專案，例如 "DirectCaller" 或 "OriginalCaller" ) 。
 
 ## <a name="requirements"></a>規格需求
 

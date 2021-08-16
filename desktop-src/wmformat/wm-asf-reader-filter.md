@@ -1,29 +1,29 @@
 ---
-title: 'WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) '
-description: 瞭解適用于 Windows Media Format 11 SDK 的 WM ASF 讀取器篩選器。 查看篩選資訊並查看相關主題。
+title: 'WM ASF 讀取器篩選器 (Windows 媒體格式 11 SDK) '
+description: 瞭解 Windows 媒體格式 11 SDK 的 WM ASF 讀取器篩選器。 查看篩選資訊並查看相關主題。
 ms.assetid: 3d5ca88a-86bd-4d84-b4f4-782564ced58d
 keywords:
-- Windows Media Format SDK，WM ASF 讀取器
-- DirectShow、WM ASF 讀取器
+- Windows媒體格式 SDK，WM ASF 讀取器
+- DirectShow，WM ASF 讀取器
 - QASF 篩選，WM ASF 讀取器
 - WM ASF 讀取器
 - Advanced Systems Format (ASF) 、WM ASF 讀取器
 - ASF (Advanced Systems Format) 、WM ASF 讀取器
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26bde36b1b2cfa7644d6e75d8d1ff96260b2e457
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: c825835e6d838a8a5d9b058f8bcf6ef52bd2a3d6a645787e0cf44da0f7573c78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119643"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844921"
 ---
-# <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>WM ASF 讀取器篩選器 (Windows Media Format 11 SDK) 
+# <a name="wm-asf-reader-filter-windows-media-format-11-sdk"></a>WM ASF 讀取器篩選器 (Windows 媒體格式 11 SDK) 
 
-當提供 ASF 檔案或 URL 的名稱時，WM ASF 讀取器會讀取壓縮的內容、剖析資料流程，並公開每一個的輸出圖釘。 此篩選器會將下游連接到 Windows Media 音訊或 Windows Media 視訊 DMOs，以進行解壓縮。 如果 ASF 檔案是可搜尋的，則支援搜尋。 WM ASF 讀取器會根據 ASF 檔案中的時間戳記，將時間戳記套用至媒體範例，但不會以任何方式修改時間戳記。 就內部而言，此篩選器會使用 Windows Media Format reader 物件來讀取 Windows Media 格式的內容。
+當提供 ASF 檔案或 URL 的名稱時，WM ASF 讀取器會讀取壓縮的內容、剖析資料流程，並公開每一個的輸出圖釘。 此篩選器會將下游連接到 Windows Media 音訊或 Windows Media 視訊 DMOs，以進行解壓縮。 如果 ASF 檔案是可搜尋的，則支援搜尋。 WM ASF 讀取器會根據 ASF 檔案中的時間戳記，將時間戳記套用至媒體範例，但不會以任何方式修改時間戳記。 篩選器會在內部使用 Windows 媒體格式讀取器物件來讀取 Windows 媒體內容。
 
 > [!Note]  
-> 在 DirectX SDK 中，此篩選器不是 ASF 檔案的預設來源篩選，因此使用該 SDK 時，您不能使用此篩選搭配 **RenderFile** 方法;您必須使用 (CLSID) 的類別識別碼，明確地將它新增至篩選圖形。 此行為與 Windows Media Format SDK 不同。 當您安裝 Windows Media Format SDK 執行時間程式庫時，會將 WM ASF 讀取器註冊為 ASF 檔案的預設篩選。
+> 在 DirectX SDK 中，此篩選器不是 ASF 檔案的預設來源篩選，因此使用該 SDK 時，您不能使用此篩選搭配 **RenderFile** 方法;您必須使用 (CLSID) 的類別識別碼，明確地將它新增至篩選圖形。 這種行為與 Windows 媒體格式 SDK 不同。 當您安裝 Windows 媒體格式 SDK 執行時間程式庫時，會將 WM asf 讀取器註冊為 ASF 檔案的預設篩選器。
 
  
 
@@ -66,7 +66,7 @@ WM ASF 讀取器會部分執行 **IWMReaderAdvanced** 和 **IWMReaderAdvanced2**
 
 <dl> <dt>
 
-[**DirectShow QASF 參考**](directshow-qasf-reference.md)
+[**DirectShowQASF 參考**](directshow-qasf-reference.md)
 </dt> <dt>
 
 [**在 DirectShow 中讀取 ASF 檔案**](reading-asf-files-in-directshow.md)

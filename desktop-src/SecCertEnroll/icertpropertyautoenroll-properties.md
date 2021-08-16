@@ -4,12 +4,12 @@ ms.assetid: 99426DAE-BB12-4E5B-A955-50C96297D475
 title: ICertPropertyAutoEnroll 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c9bf314dde0ef8e53647de6a15839ec65a3efc9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efc4c5109e6f72749922ed2a40a817ec4aeba961ef02a1b2495c68db96ee827a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194050"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117778977"
 ---
 # <a name="icertpropertyautoenroll-properties"></a>ICertPropertyAutoEnroll 屬性
 

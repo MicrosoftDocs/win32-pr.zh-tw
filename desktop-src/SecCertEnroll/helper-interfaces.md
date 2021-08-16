@@ -4,12 +4,12 @@ ms.assetid: 6b9d9761-6131-4408-8177-5418abd5e406
 title: Helper 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9a0c6948e9b0fe09aee0b983d230f53bc8e76b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aec54f9e092bb7675f18a28e7af8599a4e870b5aec1d88d0c5d3332c33c2bef4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779537"
 ---
 # <a name="helper-interfaces"></a>Helper 介面
 

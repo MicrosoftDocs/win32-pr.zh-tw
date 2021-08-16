@@ -1,17 +1,17 @@
 ---
 description: 設計良好的關鍵是規劃。 如果您不熟悉如何設計三層式應用程式，請參閱使用 UML 設計 COM + 應用程式一節。
 ms.assetid: 463f4154-92f6-46c3-95ff-8513963dcadd
-title: 使用 COM + 的一般設計秘訣
+title: 使用 COM + 的一般設計提示
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5765259f170b1a98f1abb2d097dfdaec2e09d47
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f54ade55331c0b3e2c5ea4b45465ca0bcdc007036b2e919441ccb2ebfbe95ef1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118306993"
 ---
-# <a name="general-design-tips-for-using-com"></a>使用 COM + 的一般設計秘訣
+# <a name="general-design-tips-for-using-com"></a>使用 COM + 的一般設計提示
 
 設計良好的關鍵是規劃。 如果您不熟悉如何設計三層式應用程式，請參閱 [使用 UML 設計 COM + 應用程式](designing-the-com--application-using-uml.md)一節。
 

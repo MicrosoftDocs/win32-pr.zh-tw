@@ -4,12 +4,12 @@ ms.assetid: 51436332-F06A-4929-B3C1-AD2F66C3273B
 title: 集中授權原則規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cda6279b2bf28f80f99a0e2608b5bf209855a76a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5638633f655794464a9d603e1bb6a0380d2224170b9afe0f6314b1f8fee945b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027598"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783202"
 ---
 # <a name="central-authorization-policy-rule"></a>集中授權原則規則
 
@@ -21,9 +21,9 @@ CAPR 具有下列屬性：
 -   描述-定義 CAPR 的用途，以及 CAPR 取用者可能需要的任何資訊。
 -   適用性運算式–定義將套用原則的資源或狀況。
 -   ID –用於審核 CAPR 變更的識別碼。
--   有效存取控制原則– Windows 安全描述項，其中包含定義有效授權原則的 DACL。
+-   有效存取控制原則– Windows 的安全描述項，其中包含定義有效授權原則的 DACL。
 -   例外狀況運算式–一或多個運算式，提供覆寫原則的方法，並根據運算式的評估來授與主體的存取權。
--   暫存原則：選用的 Windows 安全描述項，其中包含的 DACL 會定義建議的授權原則， (存取控制專案的清單，) 這些存取控制專案會針對有效的原則進行測試，但不會加以強制執行。 如果有效原則的結果和暫存原則之間有差異，則會在 audit 事件記錄檔中記錄差異。
+-   暫存原則：選擇性的 Windows 安全描述項，其中包含的 DACL 會定義建議的授權原則， (存取控制專案的清單，而這些存取控制專案) 會針對有效的原則進行測試，但不會強制執行。 如果有效原則的結果和暫存原則之間有差異，則會在 audit 事件記錄檔中記錄差異。
     -   因為暫存可能會對系統效能造成無法預期的影響，所以群組原則系統管理員必須能夠選取預備環境生效的特定電腦。 這可讓現有的原則位於 OU 中的大部分電腦上，而預備環境則是在部分的電腦上進行。
     -   P2 –特定電腦上的本機系統管理員應該能夠停用暫存，如果該機器上的預備環境造成效能降低的情況過高。
 -   Backlink 至 CAP –可參考此 CAPR 之任何 Cap 的 backlinks 清單。
@@ -53,7 +53,7 @@ description="Department: Only employees of the finance department should be able
 
 ## <a name="deny-aces-in-capes"></a>CAPEs 中的 Deny Ace
 
-在 Windows 8 拒絕 Ace 將不會在 CAPR 中受到支援。 CAPR 撰寫 UX 將不允許建立拒絕 ACE。 此外，當 LSA 從 Active Directory 抓取端點時，LSA 會驗證沒有任何 CAPRs 具有拒絕 Ace。 如果在 CAPR 中找到 deny ACE，則會將端點視為無效，而不會複製到登錄或 SRM。
+在 Windows 8 拒絕 ace 將不會在 CAPR 中受到支援。 CAPR 撰寫 UX 將不允許建立拒絕 ACE。 此外，當 LSA 從 Active Directory 抓取端點時，LSA 會驗證沒有任何 CAPRs 具有拒絕 Ace。 如果在 CAPR 中找到 deny ACE，則會將端點視為無效，而不會複製到登錄或 SRM。
 
 > [!Note]  
 > 存取檢查不會強制出現任何拒絕 Ace。 將會套用 CAPR 中的 Deny Ace。 撰寫工具預期會導致無法進行此程式。

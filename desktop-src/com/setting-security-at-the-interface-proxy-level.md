@@ -4,12 +4,12 @@ description: 有時候，用戶端需要對特定介面的呼叫安全性進行�
 ms.assetid: 72925ca2-78c9-47d9-8760-63f6379326d2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1b38fe83e8ce8841cc9029808a6947ec67d4eaf4
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: f8ef969039dcfdc12449b7a8d0a3d63729ab5f84061ade1a743d21a1b6b34331
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968935"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309093"
 ---
 # <a name="setting-security-at-the-interface-proxy-level"></a>在介面 Proxy 層級設定安全性
 
@@ -32,6 +32,6 @@ Proxy 管理員會為用戶端在本機執行 [**IClientSecurity**](/windows/des
 [設定 COM 應用程式的安全性](setting-security-for-com-applications.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

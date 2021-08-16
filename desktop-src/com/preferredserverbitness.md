@@ -6,12 +6,12 @@ keywords:
 - PreferredServerBitness 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 107a8c5b1504c5a59ca2ab178cd46236335d44ca
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 4b003fd4bdd861cbfd82e249123831e4e017eaeef1ad76b95121244fd415ae0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309983"
 ---
 # <a name="preferredserverbitness"></a>PreferredServerBitness
 
@@ -21,8 +21,8 @@ ms.locfileid: "104316546"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      PreferredServerBitness = value
+   {AppID_GUID}
+      PreferredServerBitness = value
 ```
 
 ## <a name="remarks"></a>備註
@@ -39,12 +39,12 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 
 
- 
+ 
 
 如果此值不存在，則：
 
--   如果裝載伺服器的電腦執行的是 Windows XP 或 Windows Server 2003 （未安裝 SP1 或更新版本），則 COM 會偏好使用64位版本的伺服器（如果有的話）：否則，它會啟用32位版本的伺服器。
--   如果裝載伺服器的電腦執行的是 Windows Server 2003 SP1 或更新版本，則 COM 會嘗試將伺服器架構與用戶端架構比對。 換句話說，對於32位用戶端，COM 會啟用32位伺服器（如果有的話）。否則，它會啟用64位版本的伺服器。 若為64位用戶端，COM 會啟用64位伺服器（如果有的話）。否則會啟動32位伺服器。
+-   如果裝載伺服器的電腦執行 Windows XP 或 Windows server 2003 （未安裝 SP1 或更新版本），則 COM 會偏好使用64位版本的伺服器（如果有的話）：否則，它會啟用32位版本的伺服器。
+-   如果裝載伺服器的電腦正在安裝 Windows server 2003 SP1 或更新版本，則 COM 會嘗試將伺服器架構與用戶端架構比對。 換句話說，對於32位用戶端，COM 會啟用32位伺服器（如果有的話）。否則，它會啟用64位版本的伺服器。 若為64位用戶端，COM 會啟用64位伺服器（如果有的話）。否則會啟動32位伺服器。
 
 用戶端也可以透過 CLSCTX \_ activate \_ 32 \_ 位 \_ 伺服器和 CLSCTX activate 64 bit 伺服器旗標來指定自己的架構喜好設定 \_ \_ \_ \_ ，這些將覆寫伺服器的喜好設定。 如需詳細資訊，以及用戶端與伺服器架構喜好設定之間可能互動的圖表，請參閱 [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)。
 
@@ -55,6 +55,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [**CLSCTX**](/windows/win32/api/wtypesbase/ne-wtypesbase-clsctx)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -669,7 +669,7 @@
                   href: /windows/desktop/api/Winuser/nf-winuser-framerect
                 - name: InvertRect
                   href: /windows/desktop/api/Winuser/nf-winuser-invertrect
-                - name: 圓形圖
+                - name: Pie
                   href: /windows/desktop/api/Wingdi/nf-wingdi-pie
                 - name: Polygon
                   href: /windows/desktop/api/Wingdi/nf-wingdi-polygon
@@ -1398,9 +1398,9 @@
               href: window-regions.md
             - name: 視窗背景
               href: window-background.md
-            - name: 最小化視窗
+            - name: 最小化 Windows
               href: minimized-windows.md
-            - name: 調整視窗大小
+            - name: 調整大小 Windows
               href: resized-windows.md
             - name: 非工作區
               href: nonclient-area.md

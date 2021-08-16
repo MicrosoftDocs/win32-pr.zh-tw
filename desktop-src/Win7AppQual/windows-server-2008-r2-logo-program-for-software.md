@@ -17,7 +17,7 @@ ms.locfileid: "118328090"
 
  **伺服器-** Windows Server 2008 R2  
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 Windows Server 2008 R2 標誌程式已淘汰。
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b17e42e75072033f952c7ef790365d6a363a5b5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d08b15eb2b8112afcef6c98a841a249672df2ae3fbb7f36ceea513d53a5b0478
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466749"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351620"
 ---
 # <a name="iremotedesktopclienteventsonstatuschanged-method"></a>IRemoteDesktopClientEvents：： OnStatusChanged 方法
 

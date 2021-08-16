@@ -1,24 +1,24 @@
 ---
 title: 從 ADO 修改 ADSI 物件
-description: 適用于 Windows 2000 和 DS 用戶端的 ADSI 包含唯讀的 OLE DB 提供者。 這表示您目前無法在 SQL 方言中發出 UPDATE 語句。
+description: ADSI for Windows 2000 和 DS 用戶端包含唯讀 OLE DB 提供者。 這表示您目前無法在 SQL 方言中發出 UPDATE 語句。
 ms.assetid: b0a107ed-0271-45ab-b971-f589f34472e2
 ms.tgt_platform: multiple
 keywords:
 - 從 ADO ADSI 修改 ADSI 物件
-- ActiveX 資料物件 ADSI，從 ADO 修改 ADSI 物件
+- ActiveX 資料物件 adsi，從 ADO 修改 adsi 物件
 - ADSI ADSI，範例程式碼 C/c + +，修改 ADSI 物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 53e7291088915a537231077e1d75161b57684caa
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e4562e67043ea168a0b158088ffe3c2772f3ae28a0a2fa8881e102574cf2eb97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671139"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839448"
 ---
 # <a name="modifying-an-adsi-object-from-ado"></a>從 ADO 修改 ADSI 物件
 
-適用于 Windows 2000 和 DS 用戶端的 ADSI 包含唯讀的 OLE DB 提供者。 這表示您目前無法在 SQL 方言中發出 UPDATE 語句。
+ADSI for Windows 2000 和 DS 用戶端包含唯讀 OLE DB 提供者。 這表示您目前無法在 SQL 方言中發出 UPDATE 語句。
 
 **修改從 ADO 查詢傳回的物件**
 
@@ -56,9 +56,9 @@ Wend
 
 
 
- 
+ 
 
- 
+ 
 
 
 

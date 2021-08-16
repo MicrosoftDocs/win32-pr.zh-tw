@@ -4,12 +4,12 @@ ms.assetid: c2d20233-93c6-4d2d-946d-8abccbeb3c5e
 title: 模擬的 Client-Side 需求
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32c3c188f3c03e46a0e6e414efc66c5fdd2366d2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bceb47c2ffb5f3b8e443d2dc50add83a39b5dfc1ee31a6909c34b0170a85db11
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317940"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308527"
 ---
 # <a name="client-side-requirements-for-impersonation"></a>模擬的 Client-Side 需求
 

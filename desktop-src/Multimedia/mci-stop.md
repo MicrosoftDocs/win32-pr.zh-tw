@@ -90,7 +90,7 @@ MCI \_ STOP 和 [mci \_ PAUSE](mci-pause.md) 命令之間的差異取決於裝�
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

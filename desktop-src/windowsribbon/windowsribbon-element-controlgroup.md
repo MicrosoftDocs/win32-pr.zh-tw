@@ -3,7 +3,7 @@ title: ControlGroup 元素
 description: 代表 SizeDefinition 版面配置範本中的一組控制項。
 ms.assetid: 688f3fa5-f305-4554-b16a-590983cf23b9
 keywords:
-- ControlGroup 元素視窗功能區
+- ControlGroup 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7d2b49612102d03003c2f61395a56647aaef4475
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: a1777bd469b6bf07530881f9c20888d69fe98117ecbdeba4f3f5557f01ced172
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111442939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851024"
 ---
 # <a name="controlgroup-element"></a>ControlGroup 元素
 
@@ -56,7 +56,7 @@ ms.locfileid: "111442939"
 <tr class="odd">
 <td><strong>SequenceNumber</strong><br/></td>
 <td>xs:positiveInteger<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>只有當 <a href="windowsribbon-element-group.md"><strong>群組</strong></a> 是父元素時才有效。<br/> 每個 <em>SequenceNumber</em> 在 <a href="windowsribbon-element-group.md"><strong>Group</strong></a> 元素內都必須是唯一的。 <em>SequenceNumber</em>的值應該會增加每個<strong>群組</strong>元素，但不需要是連續的。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger) <br/> </dt> <dd> 介於1000和59999之間的任何正整數值（含）。<br/> </dd> </dl></td>
 </tr>
@@ -72,7 +72,7 @@ ms.locfileid: "111442939"
 | 元素                                                                                 | 描述                                        |
 |-----------------------------------------------------------------------------------------|----------------------------------------------------|
 | [**Button**](windowsribbon-element-button.md)<br/>                               | 可能會發生一次或多次<br/> <br/> |
-| [**相應**](windowsribbon-element-checkbox.md)<br/>                           | 可能會發生一次或多次<br/> <br/> |
+| [**CheckBox**](windowsribbon-element-checkbox.md)<br/>                           | 可能會發生一次或多次<br/> <br/> |
 | [**ComboBox**](windowsribbon-element-combobox.md)<br/>                           | 可能會發生一次或多次<br/> <br/> |
 | [**ControlSizeDefinition**](windowsribbon-element-controlsizedefinition.md)<br/> | 可能會發生一次或多次<br/> <br/> |
 | [**DropDownButton**](windowsribbon-element-dropdownbutton.md)<br/>               | 可能會發生一次或多次<br/> <br/> |
@@ -94,9 +94,9 @@ ms.locfileid: "111442939"
 | 元素                                                                             |
 |-------------------------------------------------------------------------------------|
 | **ControlGroup**<br/>                                                         |
-| [**群組**](windowsribbon-element-group.md)<br/>                             |
+| [**Group**](windowsribbon-element-group.md)<br/>                             |
 | [**GroupSizeDefinition**](windowsribbon-element-groupsizedefinition.md)<br/> |
-| [**資料列**](windowsribbon-element-row.md)<br/>                                 |
+| [**行**](windowsribbon-element-row.md)<br/>                                 |
 
 
 

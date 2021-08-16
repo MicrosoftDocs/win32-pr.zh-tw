@@ -4,12 +4,12 @@ ms.assetid: 3b7f7f5f-9cb7-450a-ad4c-ae1688cb7878
 title: WPD_FUNCTIONAL_CATEGORY_VIDEO_CAPTURE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0f311340079f44a82f966f81a7bd4e738298eb7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c1fc5879c7bf7644a785c93281eb73ffcaeba12256bb86a88b9bd41c443a674
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971554"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842136"
 ---
 # <a name="wpd_functional_category_video_capture"></a>WPD \_ 功能 \_ 類別 \_ 影片 \_ 捕獲
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別的 \_ 影片捕獲功能物件會將 \_ 影片捕獲功�
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 
 
 

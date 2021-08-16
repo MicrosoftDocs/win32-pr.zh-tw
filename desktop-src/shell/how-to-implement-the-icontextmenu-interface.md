@@ -4,12 +4,12 @@ ms.assetid: F0C1D60E-7A5A-4609-9136-F4E535E9F6F1
 title: 如何執行 ICoNtextMenu 介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f251b9a64c3f401239eeb7c88286c016f399cc39
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f44ec65d95a4f6d67a9f15e10f5720be21c3b6c57fba5d0cf920bd12be54f662
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944187"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118223465"
 ---
 # <a name="how-to-implement-the-icontextmenu-interface"></a>如何執行 ICoNtextMenu 介面
 
@@ -30,13 +30,13 @@ ms.locfileid: "103944187"
 
 ### <a name="icontextmenugetcommandstring-method"></a>ICoNtextMenu：： GetCommandString 方法
 
-處理常式的 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) 方法是用來傳回動詞的標準名稱。 這個方法是一個選擇項目。 在 Windows XP 和舊版的 Windows 中，當 Windows 檔案總管有狀態列時，就會使用這個方法來取得顯示在功能表項目狀態列中的解說文字。
+處理常式的 [**ICoNtextMenu：： GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring) 方法是用來傳回動詞的標準名稱。 這個方法是一個選擇項目。 在 Windows XP 和舊版的 Windows 中，當 Windows 檔案總管具有狀態列時，就會使用這個方法來取得顯示在功能表項目狀態列中的解說文字。
 
 *IdCmd* 參數會保存呼叫 [**ICoNtextMenu：： QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu)時所定義命令的識別碼位移。 如果要求了說明字串，則 *uFlags* 會設定為 **gc \_ HELPTEXTW**。 將說明字串複製到 *pszName* 緩衝區，並將其轉換成 **PWSTR**。 將 *uFlags* 設定為 **gc \_ VERBW**，即可要求動詞字串。 將適當的字串複製到 *pszName*，就像使用說明字串一樣。 快速鍵功能表處理常式不會使用 **gc \_ VALIDATEA** 和 **gc \_ VALIDATEW** 旗標。
 
 下列範例顯示 [**GetCommandString**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-getcommandstring)的簡單執行，其對應至本主題的 [ICoNtextMenu：： QueryCoNtextMenu 方法](shortcut-menu-using-dynamic-verbs.md)一節中所提供的 [**QueryCoNtextMenu**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-icontextmenu-querycontextmenu)範例。 因為處理常式只會新增一個功能表項目，所以只能傳回一組字串。 方法會測試 *idCmd* 是否有效，如果是，則會傳回要求的字串。
 
-[**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya)函式可用來將要求的字串複製到 *pszName* ，以確保複製的字串不會超過 *cchName* 所指定的緩衝區大小。 這個範例只會針對 *uFlags* 的 Unicode 值執行支援，因為只有在 Windows 2000 之後 Windows 檔案總管使用這些值。
+[**StringCchCopy**](/windows/win32/api/strsafe/nf-strsafe-stringcchcopya)函式可用來將要求的字串複製到 *pszName* ，以確保複製的字串不會超過 *cchName* 所指定的緩衝區大小。 這個範例只會針對 *uFlags* 的 Unicode 值執行支援，因為 Windows 2000 之後 Windows 檔案總管中只會使用這些值。
 
 
 ```

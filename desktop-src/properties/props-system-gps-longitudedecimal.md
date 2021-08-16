@@ -4,12 +4,12 @@ ms.assetid: 3b5b421f-efdc-4a23-a6dd-58a4fe80431a
 title: LongitudeDecimal
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 66381171ae338345dbc08ffdeedf246925769594
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4cd7b4a25520547075859cd850f49320cf5de821c8dc08c3b62b4121d9cbd8d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118466504"
 ---
 # <a name="systemgpslongitudedecimal"></a>LongitudeDecimal
 

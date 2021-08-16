@@ -4,12 +4,12 @@ ms.assetid: ddd9a6e4-dc14-4ffc-aef0-6aab9e7c9442
 title: System.Devices.Manufacturer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f0651282c60e2c5917cc7779d9ff83188f303b5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 035674ddf46529c895d7c952b7e3a94697f5797e39817ac78cf5690f387546c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467539"
 ---
 # <a name="systemdevicesmanufacturer"></a>System.Devices.Manufacturer
 

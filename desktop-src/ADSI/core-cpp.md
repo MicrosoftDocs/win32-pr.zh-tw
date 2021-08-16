@@ -1,18 +1,18 @@
 ---
-title: 核心。Cpp
+title: 核心。CPP
 description: 在範例提供者元件中，用來初始化泛型物件核心屬性的程式碼範例位於 core .cpp 中。 下表列出支援的方法。
 ms.assetid: 32b195b6-6cc3-4c41-96a9-327b81fdf61a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cfc5d1362a9fe77245c09ca2f568c8024388cac2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 08f19a465c36847d9435be8d9595a2b69856c6a77406c196ee573afd1591ad6f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103671172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117840461"
 ---
-# <a name="corecpp"></a>核心。Cpp
+# <a name="corecpp"></a>核心。CPP
 
 在範例提供者元件中，用來初始化泛型物件核心屬性的程式碼範例位於 core .cpp 中。 下表列出支援的方法。
 
@@ -26,11 +26,11 @@ ms.locfileid: "103671172"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

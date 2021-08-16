@@ -4,12 +4,12 @@ description: Rich Edit 通知
 ms.assetid: 00c01680-e6f3-4f67-97dd-8b4919c426f4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24cbc0a2788674dcad49e503a048821c0f4d00ef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 18fa888100a98be1ec73245348158426a5adc50154911f42566a9379e0c5b87d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104322136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833044"
 ---
 # <a name="rich-edit-notifications"></a>Rich Edit 通知
 

@@ -3,7 +3,7 @@ title: 'EM_GETLIMITTEXT 訊息 (Winuser .h) '
 description: 取得編輯控制項的目前文字限制。 您可以將此訊息傳送至編輯控制項或 rich edit 控制項。
 ms.assetid: 778967f0-c090-46a2-9f27-194b17bbb1be
 keywords:
-- EM_GETLIMITTEXT message Windows 控制項
+- EM_GETLIMITTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53da76f43716fd7934011a96d449ffa37c254cfa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: de2066bf03fd8ea05851a9cef58f4e308db49f82bdee94c2d503cadf1c20a2c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831679"
 ---
 # <a name="em_getlimittext-message"></a>EM \_ GETLIMITTEXT 訊息
 
@@ -61,9 +61,9 @@ ms.locfileid: "103843160"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

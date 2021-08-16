@@ -4,21 +4,21 @@ description: 早期啟動反惡意程式碼
 ms.assetid: 4064CD44-FC50-48DE-8490-F592ED21CB7E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34c3e51d7fb009ffa0e85a59990b321fb38ad196
-ms.sourcegitcommit: a93d3abaf4d6d45a6f0b87faed3f576b222b1745
+ms.openlocfilehash: 0f1ca8e52f9d2465038e68b6b585bed70b974432566b3b67d080c97bb998103f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/05/2021
-ms.locfileid: "104027618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117852194"
 ---
 # <a name="early-launch-antimalware"></a>早期啟動反惡意程式碼
 
 ## <a name="platforms"></a>平台
 
  **客戶** 端-Windows 8  
-**伺服器** -Windows Server 2012  
+**伺服器**-Windows Server 2012  
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 由於反惡意程式碼 (AM) 軟體在偵測到執行時間惡意程式碼時變得更好且更好，攻擊者也會在建立可隱藏偵測的 rootkit 時變得更好。 偵測開機週期初期啟動的惡意程式碼，是大部分的廠商都能處理的挑戰。 一般情況下，它們會建立主機作業系統不支援的系統駭客，而且實際上會導致電腦處於不穩定的狀態。 到目前為止，Windows 尚未提供良好的方式來偵測並解決這些早期開機的威脅。
 
@@ -32,7 +32,7 @@ Windows 8 引進稱為「安全開機」的新功能，可保護 Windows 開機�
 
 開機驅動程式會根據根據初始化原則從 ELAM 驅動程式傳回的分類進行初始化。 依預設，此原則會初始化已知的良好和未知驅動程式，但不會初始化已知的不良驅動程式。 系統管理員可以透過群組原則來指定自訂原則，以防止未知的驅動程式初始化，或可啟用開機程式不可或缺的驅動程式，但已遭篡改、開機以進行初始化。
 
-## <a name="solution"></a>解決方法
+## <a name="solution"></a>解決方案
 
 ELAM 驅動程式必須註冊核心回呼，以取得每個開機啟動驅動程式初始化時的相關資訊。 然後，ELAM 驅動程式就可以針對每個驅動程式傳回分類。 這些是必要的功能：
 
@@ -48,7 +48,7 @@ ELAM 驅動程式也可以註冊登錄回呼。 這麼做可讓 ELAM 驅動程�
 
 ## <a name="tests"></a>測試
 
-ELAM 驅動程式必須由 Microsoft 特別簽署，以確保在開機過程中，Windows 核心會儘早啟動這些驅動程式。 若要取得簽章，ELAM 驅動程式必須通過一組認證測試，以驗證效能和其他行為。 這些測試都包含在 Windows 硬體認證套件中。
+ELAM 驅動程式必須由 Microsoft 特別簽署，以確保在開機程式初期由 Windows 核心啟動。 若要取得簽章，ELAM 驅動程式必須通過一組認證測試，以驗證效能和其他行為。 這些測試都包含在 Windows 硬體認證套件中。
 
 ## <a name="resources"></a>資源
 

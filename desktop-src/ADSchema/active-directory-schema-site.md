@@ -5,12 +5,12 @@ ms.assetid: 22c5756f-d663-4cb7-aab0-956b22a01e9d
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: efca7057a79d87c45cc3e3da4b604e842143fedd
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: b2b48256d1df8f9c344fe0acceb2fb6a70ed3033260baea4db7df44dd71e1c3c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106968727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836434"
 ---
 # <a name="active-directory-schema-terminology"></a>Active Directory 架構術語
 
@@ -94,7 +94,7 @@ ms.locfileid: "106968727"
 
 </dd> <dt>
 
-<span id="LDAP"></span><span id="ldap"></span>Ldap
+<span id="LDAP"></span><span id="ldap"></span>LDAP
 </dt> <dd>
 
 請參閱 *輕量型目錄存取協定*。
@@ -134,7 +134,7 @@ NTDS 中的 Oid 包括由 ISO 針對 X. 500 類別和屬性簽發的部分，以
 | 值  | 描述                                                                                  |
 |--------|----------------------------------------------------------------------------------------------|
 | 1      | ISO-「根授權單位」，發行了 "1.2" 至 ANSI，後者接著 .。。                           |
-| 2      | Ansi。。。發給美國的 "1.2.840"，也就是 .。。                                            |
+| 2      | ANSI。。。發給美國的 "1.2.840"，也就是 .。。                                            |
 | 840    | 美國。。。已向 Microsoft 發出 "1.2.840.113556" .。。                                               |
 | 113556 | 微軟。。。其中 Microsoft 會在 "1.2.840.113556" 下管理數個 OID 分支。 |
 | 1      | Microsoft DS                                                                                 |

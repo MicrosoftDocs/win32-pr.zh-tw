@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e5309061c6ab315a089a1e1d8b9488556cae9f31
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af88fd9b4be0c7ddd9fe5dfc204558c1a36cab418166f73c8de0ec0c06c0a8dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983003"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766109"
 ---
 # <a name="envelopeddata-object"></a>EnvelopedData 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 [**EnvelopedCms 類別**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1&preserve-view=true)，以使用 [**system.servicemodel 命名空間。**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true)\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 [**EnvelopedCms 類別**](/dotnet/api/system.security.cryptography.pkcs.envelopedcms?view=dotnet-plat-ext-3.1&preserve-view=true)，以使用 [**system.servicemodel 命名空間。**](/dotnet/api/system.security.cryptography.pkcs?view=dotnet-plat-ext-3.1&preserve-view=true)\]
 
 **EnvelopedData** 物件提供屬性和方法，以透過加密波封隱私權的資料。 若要波封資料，會產生會話密碼編譯金鑰。 接著，會針對每個預定的收件者，使用來自收件者憑證之收件者的 [*公開金鑰*](../secgloss/p-gly.md)來加密該 [*工作階段金鑰*](../secgloss/s-gly.md)。 加密的資料和加密的工作階段金鑰集可以傳送給所有預定的收件者。 產生的訊息是 PKCS \# 7 格式。
 
@@ -54,7 +54,7 @@ ms.locfileid: "106983003"
 
 
 
-| 屬性                                                  | 存取類型           | Description                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| 屬性                                                  | 存取類型           | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                        |
 |:----------------------------------------------------------|:----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**演算法**](envelopeddata-algorithm.md)<br/>   | 讀取/寫入<br/> | 加密演算法和 [*金鑰長度*](../secgloss/k-gly.md)。<br/>                                                                                                                                                                                                                                                                                                                              |
 | [**內容**](envelopeddata-content.md)<br/>       | 讀取/寫入<br/> | 要封裝之訊息的純文字內容。 設定此屬性必須在呼叫 [**加密**](envelopeddata-encrypt.md) 方法之前完成。<br/> 當這個屬性的值是直接或間接重設時，會重設物件的整個 [*狀態*](../secgloss/s-gly.md) ，而且會遺失物件中任何加密的內容。<br/> 這是預設屬性。<br/> |

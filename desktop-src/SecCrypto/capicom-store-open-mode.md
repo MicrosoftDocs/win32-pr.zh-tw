@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 61fe8be0bdf75db5204066563ca07f8225678f7d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ebd46b751f4a098361618f3b6e992e4333425f501bf6afdedfca047e921ad7ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995402"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772055"
 ---
 # <a name="capicom_store_open_mode-enumeration"></a>CAPICOM \_ 存放區 \_ 開啟 \_ 模式列舉
 

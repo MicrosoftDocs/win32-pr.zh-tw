@@ -4,12 +4,12 @@ description: 微調項是由遞增按鈕、遞減按鈕和編輯控制項所組�
 ms.assetid: 63689ed3-7326-4f7a-b700-d89e9b501ef1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0875fb31d0dac73c88f3bd502746c473dc1c2b1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: 30c4a6544c10634783b1671f586108a795d67d90c808943b08a2cfcbf6a476da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "106969944"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117851379"
 ---
 # <a name="spinner"></a>Spinner
 
@@ -301,7 +301,7 @@ STDMETHODIMP CCommandHandler::Execute(
 
 <dl> <dt>
 
-[Windows 功能區架構控制項程式庫](windowsribbon-controls-entry.md)
+[Windows功能區架構控制項程式庫](windowsribbon-controls-entry.md)
 </dt> <dt>
 
 [**微調標記元素**](windowsribbon-element-spinner.md)

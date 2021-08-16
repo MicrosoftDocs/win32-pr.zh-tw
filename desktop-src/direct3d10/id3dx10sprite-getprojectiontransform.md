@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3DX10.lib
 - D3DX10.dll
-ms.openlocfilehash: eefd526fbe32158505db1edc73b9bbf527ad99be
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 5c3f5b0a0dc60316398575855c79bdb8ac9b7113f953af75489d5b65d9ff8fb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103696864"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118301964"
 ---
 # <a name="id3dx10spritegetprojectiontransform-method"></a>ID3DX10Sprite：： GetProjectionTransform 方法
 

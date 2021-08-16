@@ -138,7 +138,7 @@ put vboard video 120 120 200 200 frame 0 0 200 200 source 0 0 200 200
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

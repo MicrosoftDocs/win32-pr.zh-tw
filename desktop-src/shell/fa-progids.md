@@ -4,12 +4,12 @@ ms.assetid: f2b666d6-bf22-47b5-87e1-8de5ff51c152
 title: 程式設計識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 67720fed1ad4b8401d11f6532cdc79836911e7cc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7cdc29a3981461a178bdf528768bb12b1840ac5dbed46f310c10718fa9429153
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860805"
 ---
 # <a name="programmatic-identifiers"></a>程式設計識別碼
 
@@ -45,14 +45,14 @@ ProgID 子機碼應包含下列元素。 請注意，此機碼中的某些字串
 <tbody>
 <tr class="odd">
 <td><strong> (預設) </strong></td>
-<td>將 ProgID 子機碼的預設專案設定為該 ProgID 的易記名稱，適合顯示給使用者。 在執行 Windows 2000 或更新版本的系統上，FriendlyTypeName 專案會取代使用此專案來保存易記名稱。 不過，您應該將此值設定為回溯相容性。<br/></td>
+<td>將 ProgID 子機碼的預設專案設定為該 ProgID 的易記名稱，適合顯示給使用者。 執行 Windows 2000 或更新版本的系統上的 FriendlyTypeName 專案會取代使用此專案來保存易記名稱。 不過，您應該將此值設定為回溯相容性。<br/></td>
 </tr>
 <tr class="even">
 <td><strong>AllowSilentDefaultTakeOver</strong> (Windows 8) 引進</td>
-<td>設定此選用專案，以指出當您決定公用檔案類型的預設處理常式時，Windows 應忽略此 ProgID。 不論是否已設定此值，ProgID 都會繼續出現在 OpenWith 快捷方式功能表和對話方塊中。 這是 REG_NONE 的值。</td>
+<td>設定此選擇性專案，以指出當您決定公用檔案類型的預設處理常式時，Windows 應忽略此 ProgID。 不論是否已設定此值，ProgID 都會繼續出現在 OpenWith 快捷方式功能表和對話方塊中。 這是 REG_NONE 的值。</td>
 </tr>
 <tr class="odd">
-<td> (在 Windows 7) 引進的<strong>AppUserModelID</strong></td>
+<td>Windows 7) 推出的<strong>AppUserModelID</strong> (</td>
 <td>將此選擇性專案設定為應用程式的明確應用程式使用者模型識別碼 (AppUserModelID) 如果應用程式使用明確的 AppUserModelID，並使用系統自動產生的 <strong>最新</strong> 或 <strong>經常</strong> 跳躍的快捷方式清單，或提供自訂捷徑清單。 如果應用程式使用明確的 AppUserModelID 但未設定此值，則專案不會出現在該應用程式的快捷方式清單中。 這是 REG_SZ 字串。 如需詳細資訊，請參閱 <a href="appids.md">應用程式使用者模型識別碼 (AppUserModelIDs) </a>。<br/></td>
 </tr>
 <tr class="even">

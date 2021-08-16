@@ -1,6 +1,6 @@
 ---
 title: Win32_TSLicenseServer 類別的 IsTSCGroupPresent 方法
-description: IsTSCGroupPresent 不再適用于 Windows Server 2012。
+description: IsTSCGroupPresent 不再提供 Windows Server 2012 使用。
 ms.assetid: 2bbb00ff-4fb3-4a7a-a0e7-3daabf97d70a
 ms.tgt_platform: multiple
 keywords:
@@ -17,16 +17,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a16683b10bbfdd08812454d67ebc8ffc169b0ca0
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 4711236541999264a5a6f96066050f709cdcc087a751e0e56ddd6dea1b9103da
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118351337"
 ---
 # <a name="istscgrouppresent-method-of-the-win32_tslicenseserver-class"></a>Win32 TSLicenseServer 類別的 IsTSCGroupPresent 方法 \_
 
-\[**IsTSCGroupPresent** 不再適用于 Windows Server 2012。\]
+\[**IsTSCGroupPresent** 不再提供 Windows Server 2012 使用。\]
 
 不支援這個方法。
 

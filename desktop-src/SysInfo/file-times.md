@@ -4,12 +4,12 @@ ms.assetid: 52d80b82-9ab0-4631-9e70-85df21da4946
 title: 檔案時間
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5919a2378e08798e4cd64d8f8357cb55692bd22e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1492597b4e71775974ed8b19f6109c5900a8a28720b769c1c10dcf2f70166b7d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764490"
 ---
 # <a name="file-times"></a>檔案時間
 

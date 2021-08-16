@@ -3,9 +3,9 @@ title: 列舉本機授權存放區中的授權
 description: 列舉本機授權存放區中的授權
 ms.assetid: 1f380b9e-85e4-4190-a809-65dfd4658b7c
 keywords:
-- Windows Media Format SDK，列舉授權
-- Windows Media Format SDK，授權
-- Windows Media Format SDK，本機授權存放
+- Windows媒體格式 SDK，列舉授權
+- Windows媒體格式 SDK，授權
+- Windows媒體格式 SDK，本機授權存放
 - 數位版權管理 (DRM) ，列舉授權
 - DRM (數位版權管理) ，列舉授權
 - 數位版權管理 (DRM) 、授權
@@ -21,12 +21,12 @@ keywords:
 - 授權，列舉
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29b1384e08a6789fedca9704f36ad8da1e31b4ad
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d27913a5a35ce9af1f5a4d6fa3cbae808bc2abe89afd5edb05aa927fe4c39227
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848194"
 ---
 # <a name="enumerating-licenses-in-the-local-license-store"></a>列舉本機授權存放區中的授權
 
@@ -47,9 +47,9 @@ ms.locfileid: "104372008"
 [**從本機授權存放中的授權取得資訊**](getting-information-from-licenses-in-the-local-license-store.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 
