@@ -4,12 +4,12 @@ description: 下列範例程式碼使用 EnumProcesses 函式來列舉系統中�
 ms.assetid: 0ed81548-4936-40e9-bfc8-baa71492310e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bf03fd9ad06bfb15924f3f5ec92d8f8858fbff60
-ms.sourcegitcommit: 07ba02719c9779e082b108ae74f9699fb0236c34
+ms.openlocfilehash: 89798ed3d2d7e44f014d95833302edb5d5be078daf557eed32d3496c863539e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/06/2021
-ms.locfileid: "108644110"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117681005"
 ---
 # <a name="enumerating-all-processes"></a>列舉所有進程
 

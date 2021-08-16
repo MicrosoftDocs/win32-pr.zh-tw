@@ -12,12 +12,12 @@ api_name:
 api_type:
 - UserDefined
 api_location: ''
-ms.openlocfilehash: 7d8942acbc67f122ea79f0b9e98793628b5f21f8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cce78e261892fede79fb8fc76bc5b0d009342db3e0bf672be2854cb8492bcec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103695859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783762"
 ---
 # <a name="authzfreegroupscallback-callback-function"></a>AuthzFreeGroupsCallback 回呼函式
 
@@ -59,9 +59,9 @@ void CALLBACK AuthzFreeGroupsCallback(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                   |
-| 可轉散發套件<br/>          | Windows XP 上的 windows Server 2003 管理工具套件<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                   |
+| 可轉散發套件<br/>          | WindowsWindows XP 上的 Server 2003 管理工具套件<br/> |
 
 
 

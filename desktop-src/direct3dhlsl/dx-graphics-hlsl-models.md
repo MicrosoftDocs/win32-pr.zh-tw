@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 963e68d5875c3ee512e7e0d6ee7c243db72f4400
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: d7f6a37b1d37225425a60cc42887d5e587d9522929bc78a28dbb5bf5854493f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119613"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726148"
 ---
 # <a name="shader-models-vs-shader-profiles"></a>著色器模型與著色器設定檔
 
@@ -22,7 +22,7 @@ ms.locfileid: "113119613"
 
 著色器模型1以 DirectX 8 開始，並包含元件層級和類似 C 的指令。 此模型有許多由早期可程式化著色器硬體所造成的限制。 著色器模型2和3會大幅擴充指令數目，而常數著色器可以使用。 它們比著色器模型1強大許多，但仍會提供第一個著色器模型的一些現有限制。
 
-從 Windows Vista 開始，著色器模型4是完整的重新設計。 它可讓您在電腦) 的硬體限制內 (無限制的指令和常數、具有樣板化的物件，讓紋理取樣更簡潔且更有效率，而且具有任何著色器模型的最少限制。 但是，它只需要 Windows Driver Model，才能在 Windows Vista (或更新版本) 作業系統上使用。
+從 Windows Vista 開始，著色器模型4是完整的重新設計。 它可讓您在電腦) 的硬體限制內 (無限制的指令和常數、具有樣板化的物件，讓紋理取樣更簡潔且更有效率，而且具有任何著色器模型的最少限制。 但是，它只需要 Windows Vista (或更新版本) 作業系統提供的 Windows Driver Model。
 
 ## <a name="shader-profiles"></a>著色器設定檔
 

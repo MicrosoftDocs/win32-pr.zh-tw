@@ -1,5 +1,5 @@
 ---
-title: 'IWMPCdromRip (VB 和 C ) 介面 (h.264. h) '
+title: 'IWMPCdromRip (VB 和 C ) 介面 (Wmp. h) '
 description: 提供屬性和方法來管理從音訊 CD 複製或翻錄的追蹤。使用 IWMPCdromRip 介面來翻錄 CD，其效果與使用 Windows Media Player 使用者介面來將音樂翻錄的效果相同。
 ms.assetid: d7fbfc68-61b5-45bf-8df5-e3125a51a4d8
 keywords:
@@ -15,18 +15,18 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7d069fd8bd727d6a2a380c2ef29ce7c086db88d0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98a418f71ad8605e81115fa9ef1a45488a6830db94c260ef60aa0d991724d80a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747934"
 ---
 # <a name="iwmpcdromrip-vb-and-c-interface"></a>IWMPCdromRip (VB 和 c # ) 介面
 
 提供屬性和方法來管理從音訊 CD 複製或 *翻錄* 的曲目。
 
-使用 **IWMPCdromRip** 介面來將 CD 翻錄，與使用 Windows Media Player 使用者介面來將音樂翻錄的效果相同。 已翻錄的內容會根據使用者的喜好設定自動新增至程式庫。 如需 CD 翻錄使用者喜好設定的詳細資訊，請參閱 Windows Media Player 說明中的「從 Cd 翻錄音樂」。
+使用 **IWMPCdromRip** 介面來將 CD 翻錄，與使用 Windows Media Player 使用者介面來將音樂翻錄的效果相同。 已翻錄的內容會根據使用者的喜好設定自動新增至程式庫。 如需 CD 翻錄使用者喜好設定的詳細資訊，請參閱 Windows Media Player 說明中的「從 cd 翻錄音樂」。
 
 **IWMPCdromRip** 介面會公開下列屬性。
 
@@ -58,7 +58,7 @@ ms.locfileid: "106995747"
 
 
 
-| 屬性                                                                                | 存取類型          | Description                                                                                   |
+| 屬性                                                                                | 存取類型          | 描述                                                                                   |
 |:----------------------------------------------------------------------------------------|:---------------------|:----------------------------------------------------------------------------------------------|
 | [**ripProgress**](wmplibiwmpcdromrip-iwmpcdromrip-ripprogress--vb-and-c.md)<br/> | 唯讀<br/> | 取得完成百分比的 CD 翻錄進度。<br/>                                  |
 | [**ripState**](wmplibiwmpcdromrip-iwmpcdromrip-ripstate--vb-and-c.md)<br/>       | 唯讀<br/> | 取得列舉值，這個值表示目前的翻錄進程狀態。<br/> |
@@ -83,7 +83,7 @@ ms.locfileid: "106995747"
 
 <dl> <dt>
 
-[**適用于 Visual Basic .NET 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
+[**適用于 Visual Basic .net 和 C 的介面#**](interfaces-for-visual-basic--net-and-c.md)
 </dt> <dt>
 
 [**將 CD 翻錄**](ripping-a-cd.md)

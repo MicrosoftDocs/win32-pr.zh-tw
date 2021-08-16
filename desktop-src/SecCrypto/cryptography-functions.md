@@ -745,7 +745,7 @@ CryptoAPI 提供一組一般憑證和憑證存放區維護功能。
 
 建立憑證鏈，以提供有關個別憑證的信任資訊。
 
-| 函數名稱                                                                                                    | Description                                                                                                                                                                                                         |
+| 函數名稱                                                                                                    | 描述                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**CertCreateCertificateChainEngine**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatecertificatechainengine)                                     | 為應用程式建立新的非預設的鏈引擎。                                                                                                                                                          |
 | [**CertCreateCTLEntryFromCertificateCoNtextProperties**](/windows/desktop/api/Wincrypt/nf-wincrypt-certcreatectlentryfromcertificatecontextproperties) | 建立 CTL 專案，其屬性為憑證內容的屬性。                                                                                                                                      |

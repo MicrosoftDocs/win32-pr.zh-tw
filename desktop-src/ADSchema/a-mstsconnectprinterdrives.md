@@ -1,10 +1,10 @@
 ---
-title: ms-chap-連接-印表機-磁片磁碟機屬性
-description: 終端機服務會話連線印表機磁片磁碟機會指定是否要在登入時重新連線到對應的用戶端印表機。
+title: ms-TS-連線-印表機-磁片磁碟機屬性
+description: 終端機服務會話連線印表機磁片磁碟機指定登入時是否重新連線到對應的用戶端印表機。
 ms.assetid: 80bf0ace-5c63-49f8-b689-23a55bb09577
 ms.tgt_platform: multiple
 keywords:
-- ms-TS-連接-印表機-磁片磁碟機屬性 AD 架構
+- ms-TS-連線-印表機-磁片磁碟機屬性 AD 架構
 - msTSConnectPrinterDrives 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,16 +14,16 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d905207bf101c3077b2242311b69c5a61a5378c
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: e4ff7e2e754acd33103ee6df29d2fe3e688e2760f2b31cd65a7200d1ef54df79
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837858"
 ---
-# <a name="ms-ts-connect-printer-drives-attribute"></a>ms-chap-連接-印表機-磁片磁碟機屬性
+# <a name="ms-ts-connect-printer-drives-attribute"></a>ms-TS-連線-印表機-磁片磁碟機屬性
 
-終端機服務會話連線印表機磁片磁碟機會指定是否要在登入時重新連線到對應的用戶端印表機。
+終端機服務會話連線印表機磁片磁碟機指定登入時是否重新連線到對應的用戶端印表機。
 
 
 
@@ -55,7 +55,7 @@ ms.locfileid: "104108052"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -63,7 +63,7 @@ ms.locfileid: "104108052"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -76,7 +76,7 @@ ms.locfileid: "104108052"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |
@@ -84,7 +84,7 @@ ms.locfileid: "104108052"
 | Range-Upper            | \-                                |
 | Search-Flags           | 0x00000000                        |
 | System-Flags           | 0x00000010                        |
-| 中使用的類別        | [**User**](c-user.md)<br/> |
+| 中使用的類別        | [**使用者**](c-user.md)<br/> |
 
 
 
@@ -97,7 +97,7 @@ ms.locfileid: "104108052"
 | 連結識別碼                | \-                                |
 | MAPI-Id                | \-                                |
 | System-Only            | 否                             |
-| 是-單一值       | 對                              |
+| 是-單一值       | 是                              |
 | 已編制索引             | 否                             |
 | 在通用類別目錄中      | 否                             |
 | NT-Security-描述元 | O:BAG：不正確： S：                      |

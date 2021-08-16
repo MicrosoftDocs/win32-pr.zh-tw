@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Nddeapi.dll
-ms.openlocfilehash: caa3f7c20b95243e03c0c6025d1ff32d60443ab2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fc8eefd335ad9c54e7dc4aefa5a1027785de1b9c33cd3346c8bb1c8a4872b939
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695040"
 ---
 # <a name="nddetrustedshareenum-function"></a>NDdeTrustedShareEnum 函式
 
-\[不再支援網路 DDE。 Windows Vista 上有 Nddeapi.dll，但是所有的函式呼叫都會傳回 NDDE \_ 未 \_ 執行。\]
+\[不再支援網路 DDE。 Nddeapi.dll 存在於 Windows Vista 中，但所有的函式呼叫會傳回 NDDE \_ 未 \_ 執行。\]
 
 抓取呼叫進程內容中受信任之所有網路 DDE 共用的名稱。
 

@@ -1,19 +1,19 @@
 ---
 title: 大量多人連線遊戲的安裝最佳做法
-description: 本文說明如何為大量多人的線上遊戲建立一環信任設計， (MMOG) 用戶端安裝和自訂遊戲更新系統，以搭配 windows 和 windows Vista 和 Windows 7 的安全性模型運作。
+description: 本文說明如何為大量多人的線上遊戲建立一環信任設計， (MMOG) 用戶端安裝和自訂遊戲更新系統，以搭配 Windows Vista 和 Windows 7 的 Windows 和安全性模型一起運作。
 ms.assetid: b719cff7-97e8-5e0a-9c91-3bd8178da7c8
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e81003a434b830f046c29d606355104fe618d1f5
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 6b574bdf2ae98b28fabed97340d6aa38b1a864c24519bb6532d0aa4069882efe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117815431"
 ---
 # <a name="installation-best-practices-for-massively-multiplayer-online-games"></a>大量多人連線遊戲的安裝最佳做法
 
-本文說明如何為大量多人的線上遊戲建立一環信任設計， (MMOG) 用戶端安裝和自訂遊戲更新系統，以搭配 windows 和 windows Vista 和 Windows 7 的安全性模型運作。 此方法的設計目的是要在支援標準使用者帳戶（其對硬碟機和系統登錄的存取受到限制）時，啟用 MMOG 標題的修補。
+本文說明如何為大量多人的線上遊戲建立一環信任設計， (MMOG) 用戶端安裝和自訂遊戲更新系統，以搭配 Windows Vista 和 Windows 7 的 Windows 和安全性模型一起運作。 此方法的設計目的是要在支援標準使用者帳戶（其對硬碟機和系統登錄的存取受到限制）時，啟用 MMOG 標題的修補。
 
 -   [為什麼 MMOG 用戶端對傳統零售版遊戲有不同的需求](#why-mmog-clients-have-different-requirements-to-traditional-retail-purchased-games)
 -   [一環信任方法的總覽](#overview-of-a-chain-of-trust-approach)
@@ -29,9 +29,9 @@ ms.locfileid: "104023710"
 
 ## <a name="why-mmog-clients-have-different-requirements-to-traditional-retail-purchased-games"></a>為什麼 MMOG 用戶端對傳統零售版遊戲有不同的需求
 
-Mmog 持續連線和演進的本質，讓它能夠提供用戶端程式代碼和內容的定期更新，以修正安全性弱點並擴充遊戲體驗。 有了幾乎每日更新的可能性，MMOG 案例需要謹慎的管理，以確保使用者易懂的體驗。 這與傳統零售購買模型不同，可能會在產品的零售出貨日期附近提供少量的修補程式。 作業系統提供的 Windows Installer 有限使用者修補技術的設計目的，是要處理少量的應用程式修補程式，而不是 Mmog 所需的大量和高頻率。 因此，通常需要開發自訂修補系統來解決 Mmog 的需求，包括所開發之特定 MMOG 特定的任何特殊需求。
+Mmog 持續連線和演進的本質，讓它能夠提供用戶端程式代碼和內容的定期更新，以修正安全性弱點並擴充遊戲體驗。 有了幾乎每日更新的可能性，MMOG 案例需要謹慎的管理，以確保使用者易懂的體驗。 這與傳統零售購買模型不同，可能會在產品的零售出貨日期附近提供少量的修補程式。 作業系統提供的 Windows Installer 有限使用者修補技術的設計目的，是要處理少量的應用程式修補程式，而不是 mmog 所需的大量和高頻率。 因此，通常需要開發自訂修補系統來解決 Mmog 的需求，包括所開發之特定 MMOG 特定的任何特殊需求。
 
-因為許多電腦都連接到網際網路，所以 Windows Vista 和 Windows 7 對使用者有難上加難的安全性限制和保護，這會限制應用程式對硬碟的不同區域所擁有的存取權。 不同于 Windows XP，這些限制會針對使用者帳戶的預設模式啟用。 設計遊戲的配置、可執行檔和資料，以及其相關聯的修補系統時，必須考慮這些限制。 如需作業系統所提供之安全性措施的詳細資訊，請參閱 [遊戲開發人員的使用者帳戶控制](/windows/desktop/DxTechArts/user-account-control-for-game-developers)。
+因為許多電腦都連接到網際網路，Windows Vista 和 Windows 7 都有難上加難的安全性限制和保護，可限制應用程式對硬碟的不同區域的存取權。 不同于 Windows XP，這些限制會針對使用者帳戶的預設模式啟用。 設計遊戲的配置、可執行檔和資料，以及其相關聯的修補系統時，必須考慮這些限制。 如需作業系統所提供之安全性措施的詳細資訊，請參閱 [遊戲開發人員的使用者帳戶控制](/windows/desktop/DxTechArts/user-account-control-for-game-developers)。
 
 ## <a name="overview-of-a-chain-of-trust-approach"></a>一環信任方法的總覽
 
@@ -75,7 +75,7 @@ MSDN 上的[SignTool](/windows/desktop/SecCrypto/signtool)
 
 受信任的載入器和 patcher 公用程式的基底版本應該安裝在 HDD 上的 [受保護的程式檔案] 資料夾底下，就像傳統安裝一樣。 安裝和修補載入器應用程式需要系統管理員許可權，因此請務必將載入器的更新頻率降到最低，以確保使用者不需要經常提高許可權，但 Windows Installer 限制的使用者修補可用來避免提高載入器修補程式的許可權。
 
-請參閱文章修補 Windows XP、Windows Vista 和 Windows 7 中的遊戲軟體。
+請參閱 Windows XP、Windows Vista 和 Windows 7 中修補遊戲軟體的文章。
 
 ### <a name="installation-of-the-game-executables-dlls-and-data"></a>安裝遊戲可執行檔、Dll 和資料
 
@@ -85,7 +85,7 @@ MSDN 上的[SignTool](/windows/desktop/SecCrypto/signtool)
 
 ### <a name="access-control-list-modification-code"></a>存取控制清單修改程式碼
 
-若為 Windows XP，您將需要執行程式碼，以手動方式變更 (ACL) 的存取控制清單，以下是示範如何執行這項作業的範例函式：
+針對 Windows XP，您將需要執行程式碼，以手動方式 (ACL) 變更存取控制清單，以下是示範如何執行這項作業的範例函數：
 
 ``` syntax
 HRESULT ChangeACLtoAllowUserRW( WCHAR* strDir )
@@ -132,7 +132,7 @@ icacls "C:\Users\All Users\Game" /grant Rex:(D,WDAC)
 
 ### <a name="the-loaders-verification-of-trust"></a>載入器的信任驗證
 
-Windows 提供 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) 功能來檢查已簽署程式碼的有效性，並以作業系統中的密碼編譯服務為基礎。 此函式完整記載于 MSDN： **WinVerifyTrust** 函數。
+Windows 提供檢查已簽署程式碼有效性的 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust)函式，並以作業系統中的密碼編譯服務為基礎。 此函式完整記載于 MSDN： **WinVerifyTrust** 函數。
 
 下列 MSDN 上的範例程式詳細說明如何使用函式來判斷程式可執行檔是否使用有效的憑證簽署： [範例 C 程式：驗證 PE](/windows/desktop/SecCrypto/example-c-program--verifying-the-signature-of-a-pe-file)檔案的簽章。
 
@@ -162,12 +162,12 @@ WINTRUST \_ 動作 \_ 一般 \_ 驗證 \_ V2
 
 ### <a name="data-validation"></a>資料驗證
 
-Codesigning 機制只支援簽署一些特定類型的檔案，包括可執行檔、Dll、Windows Installer 套件 ( .msi 檔案) 以及封包 ( .cab) 檔。 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) API 不應用來確認大型資料檔案 ( .cab 檔（例如) 尚未遭篡改），因為在驗證非常大型的檔案時，有一些效能和穩定性問題。 程式可執行檔通常很小，可使用 WinTrust 提供者進行完全信任檢查，但是遊戲的資料檔案通常是大小的 gb 範圍。 載入器用來驗證遊戲資料的方法，應該是在遊戲的執行時間測試資料集的小型樣本。 這種方法可將驗證測試的成本散佈在遊戲播放體驗的存留期內，並可提供順暢的使用者體驗，而不需要長時間等候。 為了達成此目的，您可能需要謹慎地組織資料。 有些 Mmog 採用資料庫方法來協助管理、維護及驗證一段時間的遊戲資產是否正確。
+codesigning 機制只支援簽署一些特定類型的檔案，包括可執行檔、dll、Windows Installer 套件 (.msi 檔案) 以及封包 (.cab) 檔。 [**WinVerifyTrust**](/windows/desktop/api/wintrust/nf-wintrust-winverifytrust) API 不應用來確認大型資料檔案 (.cab 檔案（例如) 尚未遭篡改），因為在驗證非常大型的檔案時，有一些效能和穩定性問題。 程式可執行檔通常很小，可使用 WinTrust 提供者進行完全信任檢查，但是遊戲的資料檔案通常是大小的 gb 範圍。 載入器用來驗證遊戲資料的方法，應該是在遊戲的執行時間測試資料集的小型樣本。 這種方法可將驗證測試的成本散佈在遊戲播放體驗的存留期內，並可提供順暢的使用者體驗，而不需要長時間等候。 為了達成此目的，您可能需要謹慎地組織資料。 有些 Mmog 採用資料庫方法來協助管理、維護及驗證一段時間的遊戲資產是否正確。
 
 從安全性的觀點來看，用戶端程式代碼應該設計為不信任資料檔案，即使使用某種類型的基本資料驗證與受信任的載入器也一樣。 應該採用標頭檢查、雜湊和其他傳統的完整性檢查。 強化用戶端 i/o 程式碼的工作也應該使用模糊測試之類的技術來完成，以及利用自動靜態程式碼分析工具（例如 Visual Studio 2005 中的 **/analyze** 參數），以及 Windows SDK) 隨附的免費編譯器中的 Visual Studio 2008 Visual Studio (。
 
 如需軟體安全性的詳細資訊，請參閱 [遊戲開發的最佳安全性作法](/windows/desktop/DxTechArts/best-security-practices-in-game-development)。
 
- 
+ 
 
- 
+ 

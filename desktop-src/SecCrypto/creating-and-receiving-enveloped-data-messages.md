@@ -4,12 +4,12 @@ ms.assetid: caf86ec8-48b6-4017-95ad-7a21fcaed4cf
 title: 建立和接收封包的資料訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 81d973ded4656966d1b61ac0ae9779acf35eb578
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a63abf31d582ae9ae184dc15d85d827a3741d317e3bad75c8b07cce25e457bc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768903"
 ---
 # <a name="creating-and-receiving-enveloped-data-messages"></a>建立和接收封包的資料訊息
 

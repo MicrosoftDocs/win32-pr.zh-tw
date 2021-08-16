@@ -16,16 +16,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: e0e28a8816d7e4c4f44e3cd1ec0dc479372d66d1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca1564b943874ec086dd5e4459e69543cbdc90ebde2a11a2084c3054e3727dea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106987879"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767226"
 ---
 # <a name="iekuname-property"></a>IEKU：： Name 屬性
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509EnhancedKeyUsageExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509EnhancedKeyUsageExtension 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509enhancedkeyusageextension?view=netcore-3.1)。\]
 
 **Name** 屬性會設定或抓取指定 EKU 之 CAPICOM 名稱的列舉值。 這是預設屬性。
 

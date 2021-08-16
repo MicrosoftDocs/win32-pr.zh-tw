@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 4c77a30a2ff23bdc292d45df6514ef00fab53463
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: ea806da8fe9b4219490c26b84e5b77f6f92b324a72850c79080de6ca363ef4e7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725237"
 ---
 # <a name="outputpatch"></a>OutputPatch
 
@@ -32,19 +32,19 @@ ms.locfileid: "104022318"
 
 
 
- 
+ 
 
 此外，InputPatch 類別支援下列屬性：
 
 
 
-| 屬性 | 類型 | Description                   |
+| 屬性 | 類型 | 描述                   |
 |------------|------|-------------------------------|
 | 長度     | uint | 控制點的數目。 |
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -58,19 +58,19 @@ ms.locfileid: "104022318"
 
 
 
- 
+ 
 
 下列著色器類型支援此物件：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        | x    | x      |          |       |         |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -79,9 +79,9 @@ ms.locfileid: "104022318"
 [著色器模型5物件](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 8acf790a135a41e4eabb4a67c2498f1ed914c4c8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: d697bb09b4871f6debb1a41a7ecc3e795307ee544ec30bfaf4b5b44ba0328578
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106988646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671384"
 ---
 # <a name="icmprogressproccallback-callback-function"></a>ICMProgressProcCallback 回呼函式
 

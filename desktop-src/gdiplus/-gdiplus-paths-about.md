@@ -4,12 +4,12 @@ ms.assetid: 88fea2ec-7b53-44bb-841d-486c5c879c68
 title: 路徑 (GDI+)
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 768d01d2d945c8252125a43ee2dc79f985703da1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f54dae290138314cac3dae8d259591939490764d371e9a2caf9423801e985ec2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104562882"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695474"
 ---
 # <a name="paths-gdi"></a>路徑 (GDI+)
 
@@ -23,7 +23,7 @@ ms.locfileid: "104562882"
 -   基本曲線
 -   貝茲曲線
 
-在 Windows GDI + 中， [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath) 物件可讓您將這些建築物區塊的一連串收集到單一單位。 然後，您可以使用圖形類別 [**:D rawpath**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath) [**方法，繪製**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 線條、矩形、多邊形和曲線的整個序列。 下圖顯示藉由結合直線、弧線、貝茲曲線和基線曲線所建立的路徑。
+在 Windows GDI+ 中， [**GraphicsPath**](/windows/win32/api/gdipluspath/nl-gdipluspath-graphicspath)物件可讓您將這些建築物區塊的一連串收集到單一單位。 然後，您可以使用圖形類別 [**:D rawpath**](/windows/win32/api/Gdiplusgraphics/nf-gdiplusgraphics-graphics-drawpath) [**方法，繪製**](/windows/win32/api/gdiplusgraphics/nl-gdiplusgraphics-graphics) 線條、矩形、多邊形和曲線的整個序列。 下圖顯示藉由結合直線、弧線、貝茲曲線和基線曲線所建立的路徑。
 
 ![結合線條、弧線、貝茲曲線和基線曲線的路徑圖例](images/aboutgdip02-art14.png)
 

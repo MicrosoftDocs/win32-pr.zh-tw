@@ -4,12 +4,12 @@ ms.assetid: 380bd1c6-6a07-46ea-b9ad-16540306e40f
 title: System. DateAccessed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 932b4a1e61211586ca63b6d6eb383e8374d4c05f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a9940fab02294e6672158bfb3a34e90784117cf9463adb9ea031c03e8f53380c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117684405"
 ---
 # <a name="systemdateaccessed"></a>System. DateAccessed
 

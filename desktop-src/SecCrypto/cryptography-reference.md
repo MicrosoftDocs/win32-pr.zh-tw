@@ -4,12 +4,12 @@ ms.assetid: 9ccce1b6-4a53-41fd-92f0-c1ed48320781
 title: 密碼編譯參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f8664c6ac0b12966849f1f21cead5820b55ddf9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 37ebb3a86b52a51dfdbd625aaa197de14555fd938fed027e41723c8d76d0c2df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847888"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768269"
 ---
 # <a name="cryptography-reference"></a>密碼編譯參考
 

@@ -4,20 +4,20 @@ ms.assetid: e7df1a2e-5674-4cc6-874b-45bcc7e25127
 title: enrollPKCS7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34bc7f9d7b7d5ae9fa88db0dd70c177c3aa69da0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0635fdf4daacc9c7a04db98c7e34e9d3495c6f18ca3e145b166f19e3cd49610a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779949"
 ---
 # <a name="enrollpkcs7"></a>enrollPKCS7
 
 EnrollPKCS7 範例會透過 \# 繼承公開金鑰和私密金鑰和憑證範本，從現有的憑證建立 PKCS 7 要求。 現有的憑證會用來簽署要求。 此範例會在憑證階層中註冊使用者，並安裝憑證回應。 此範例會使用現有的憑證來註冊並安裝新的憑證。 如需更新現有憑證的詳細資訊，請參閱 [enrollRenewalPKCS7](enrollrenewalpkcs7.md)。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollPKCS7 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollPKCS7 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

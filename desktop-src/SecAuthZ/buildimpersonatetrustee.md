@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 789e743aa0778b209af614a73ff92fe3c1149f08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a61b494da963bc9c4d524dabc453dd3d6998f70bd0912dd1314cb9ba7722ef5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783634"
 ---
 # <a name="buildimpersonatetrustee-function"></a>BuildImpersonateTrustee 函式
 

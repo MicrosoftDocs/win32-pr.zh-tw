@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 3f1964eaf84e9b0a2669f59357f54d16b1b4cbd3
-ms.sourcegitcommit: 927b9c371f75f52b8011483edf3a4ba37d11ebe4
-ms.translationtype: HT
+ms.openlocfilehash: d90444aff674ce876f19f02f21104dd7e42143de5926ba068bbe2c49f427fdde
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "104374266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725885"
 ---
 # <a name="shader-model-4"></a>著色器模型4
 
@@ -68,7 +68,7 @@ ms.locfileid: "104374266"
 
 
 
- 
+ 
 
 \*\_ \_ \_ \_ \_ \_ \_ \_ 在 Direct3D 10.1 或更高版本上，支援 gs 4 1、ps 4 1、vs 4 1 和 fx 4 1。
 
@@ -91,9 +91,9 @@ ms.locfileid: "104374266"
 [著色器模型與著色器設定檔](dx-graphics-hlsl-models.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

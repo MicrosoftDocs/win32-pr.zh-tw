@@ -4,12 +4,12 @@ ms.assetid: 997600C9-5264-44EC-BAEC-CB5CEEA0BD14
 title: 如何註冊新應用程式的檔案類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 728cc48075ab1c2631f0a950059da65ae326ae79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9de165d378d27c6891b681f95da7242b026844bd7734709ebd272c06edf40e3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859658"
 ---
 # <a name="how-to-register-a-file-type-for-a-new-application"></a>如何註冊新應用程式的檔案類型
 

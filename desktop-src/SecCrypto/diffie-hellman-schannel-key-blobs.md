@@ -4,12 +4,12 @@ ms.assetid: ebb85b7c-204d-4b1c-86dc-5a03c8eda47b
 title: Diffie-hellman/Schannel 金鑰 Blob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 65a76869c6c6239e17a5ae14921805a076c9381c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03c653e26f53611e8b00a1dae4e49df7084e6dc655d67f11550a430860fab12d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692999"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767692"
 ---
 # <a name="diffie-hellmanschannel-key-blobs"></a>Diffie-hellman/Schannel 金鑰 Blob
 

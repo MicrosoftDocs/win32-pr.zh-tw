@@ -4,12 +4,12 @@ ms.assetid: 5ffa0a69-b53d-4be3-b802-deaaa743e6bd
 title: 中繼資料查詢語言總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee4b55bdc7079565f98411e28977d3d8c41e191f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1c69effefd288f13c72239a41c5ace1a518775337cc496a2defa864d179cd6cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104567275"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668228"
 ---
 # <a name="metadata-query-language-overview"></a>中繼資料查詢語言總覽
 
@@ -17,7 +17,7 @@ ms.locfileid: "104567275"
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [簡介](#introduction)
 -   [路徑運算式的剖析](#anatomy-of-a-path-expression)
     -   [區塊選取](#block-selection)
@@ -234,7 +234,7 @@ Escape 字元是由語言剖析器取用，而後面的下列字元則是直接�
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [WIC 中繼資料總覽](-wic-about-metadata.md)

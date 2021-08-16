@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8b8a60706ea2752109cdda9907ffe7c654efe531
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 382ac1e436eff4108a2179aeefd4395fbc52c7af304bb719cbadf87a3c1f3d3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117724869"
 ---
 # <a name="texture1d"></a>Texture1D
 
@@ -41,7 +41,7 @@ ms.locfileid: "103932743"
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -55,19 +55,19 @@ ms.locfileid: "103932743"
 
 
 
- 
+ 
 
 下列著色器類型支援此物件：
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 | x      | x    | x      | x        | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -76,9 +76,9 @@ ms.locfileid: "103932743"
 [著色器模型5物件](d3d11-graphics-reference-sm5-objects.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

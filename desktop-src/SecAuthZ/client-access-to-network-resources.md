@@ -4,12 +4,12 @@ ms.assetid: d55b3204-430d-4fa4-b7a7-1e279beed8e3
 title: 用戶端對網路資源的存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0873a10c708f9aab2e9c250375a63e8a2167873
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b0a8886f474876080703d190efb3419d099027f24af17dd735736957452318e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977184"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783074"
 ---
 # <a name="client-access-to-network-resources"></a>用戶端對網路資源的存取
 

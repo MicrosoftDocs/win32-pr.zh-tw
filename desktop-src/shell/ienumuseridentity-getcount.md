@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 43355a9585fc4099c8649f7df506ff3495a53944
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4848ec183096b37adbc04521fab04fd800d3783377d1e14b3abd068819648ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104319131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678935"
 ---
 # <a name="ienumuseridentitygetcount-method"></a>IEnumUserIdentity：： GetCount 方法
 
@@ -44,9 +44,9 @@ HRESULT GetCount(
 *pnCount* \[擴展\]
 </dt> <dd>
 
-類型： **ULONG \** _
+類型： **ULONG \***
 
-接收計數的 _ *ULONG** 指標。
+接收計數之 **ULONG** 的指標。
 
 </dd> </dl>
 
@@ -66,12 +66,12 @@ HRESULT GetCount(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

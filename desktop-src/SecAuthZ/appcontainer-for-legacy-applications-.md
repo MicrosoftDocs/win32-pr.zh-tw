@@ -4,12 +4,12 @@ ms.assetid: 28498D4E-DCA4-4A85-B474-C3C328BD3022
 title: 繼承應用程式的 AppContainer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 269b25ea292bdb8935375e50f669d17deb7efaef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18e0cdf21fc4008f1da0d55edb17abaf71978f4a5384843ecff60793b3d5b19a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990487"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784731"
 ---
 # <a name="appcontainer-for-legacy-applications"></a>繼承應用程式的 AppContainer
 

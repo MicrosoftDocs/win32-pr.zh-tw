@@ -4,12 +4,12 @@ ms.assetid: 38c73501-6376-41bb-8ad0-8f94ad42dfc9
 title: 系統連結。狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df9b4a6b398ba022f9f62a0860262028ced49a55
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e9e227582049a719b13849f178b7f4afa1e63ca74576b68b526d5c2e39935e0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106975061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117683561"
 ---
 # <a name="systemlinkstatus"></a>系統連結。狀態
 

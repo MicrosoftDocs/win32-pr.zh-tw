@@ -9,19 +9,19 @@ keywords:
 - 類型1線上商店的參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 475f7dee43f2f6152c3b3ebd0e6090a1efb33a72
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: d4d23bf2df0ff761af4a6b212d3e5139e3ee42205f7618fb62cb8ea42094e005
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374792"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746503"
 ---
 # <a name="reference-for-type-1-online-stores"></a>類型 1 線上商店的參考
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 Windows Media Player 11 提供目錄編譯器、物件，以及數個支援類型1線上商店的介面。 下列各節將詳細說明這些詳細資料。
 
@@ -40,7 +40,7 @@ Windows Media Player 11 提供目錄編譯器、物件，以及數個支援類�
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ Windows Media Player 11 提供目錄編譯器、物件，以及數個支援類�
 [**輸入1個線上商店**](type-1-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

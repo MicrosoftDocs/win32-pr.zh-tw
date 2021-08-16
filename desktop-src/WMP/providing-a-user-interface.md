@@ -12,12 +12,12 @@ keywords:
 - 屬性頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22d708d1256faf7096d15a7596a9635a33173d22
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fb80525fa4b32845608eebb32752871a038aa6e01088baeebce5bc5f8c84b4bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183913"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746736"
 ---
 # <a name="providing-a-user-interface"></a>提供消費者介面
 
@@ -35,7 +35,7 @@ Microsoft Windows 點陣圖影像未壓縮。
 
 **JPEG**
 
-通常用於網頁的壓縮影像格式。 JPEG 格式檔案的副檔名通常為 .jpg。
+通常用於網頁的壓縮影像格式。 JPEG 格式檔案通常會有 .jpg 的副檔名。
 
 **GIF**
 
@@ -56,9 +56,9 @@ DSP 外掛程式圖形的大小上限為38圖元寬和14圖元高。
 [**DSP 外掛程式開發人員總覽**](dsp-plug-in-developer-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

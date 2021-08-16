@@ -12,16 +12,16 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bb77fd3ff1510f9b18fd5632e64bf499bacbc3e3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 545ed92345a1b9dfce2072e8a0917660bc36afe2c89e47cb6c0f2f1e50520bf0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746317"
 ---
 # <a name="requeststate-attribute"></a>>webrequest.begingetresponse 屬性
 
-**>webrequest.begingetresponse** 屬性是媒體資訊要求狀態。
+**>Webrequest.begingetresponse** 屬性是媒體資訊要求狀態。
 
 ## <a name="applies-to"></a>套用至
 

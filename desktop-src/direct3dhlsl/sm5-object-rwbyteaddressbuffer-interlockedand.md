@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a389da886b193815c7d4b2c1fe0a86db1f068fc7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8117729543d13b8c5578fd38a829cc0dba2a4d2d77885d32de006f4afad59f24
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375677"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117725163"
 ---
 # <a name="interlockedand-function"></a>InterlockedAnd 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "104375677"
 
 ``` syntax
 void InterlockedAnd(
-  in  UINT dest,
-  in  UINT value,
-  out UINT original_value
+  in  UINT dest,
+  in  UINT value,
+  out UINT original_value
 );
 ```
 
@@ -83,7 +83,7 @@ void InterlockedAnd(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,6 +95,6 @@ void InterlockedAnd(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

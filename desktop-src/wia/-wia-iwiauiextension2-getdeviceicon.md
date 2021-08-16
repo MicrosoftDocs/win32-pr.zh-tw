@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiadevd.h
-ms.openlocfilehash: fe1498a804de5adeeea459464e95640b3b81ef06
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 236a12bdf37a3d4c73a4601dd35667e946442bab3fc8dc66340d5f889b165f20
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108116616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117669380"
 ---
 # <a name="iwiauiextension2getdeviceicon-method"></a>IWiaUIExtension2：： GetDeviceIcon 方法
 
@@ -92,8 +92,8 @@ HRESULT GetDeviceIcon(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Wiadevd。h</dt> </dl> |
 
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 4ef70e6da6e59b0fcff0ba488a26d5e2cf43509a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0aea9f50522c71dc36f2a9fa457de66a3cdc05a37d06c590f9fe9cdbe3042b76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677578"
 ---
 # <a name="file-operations-sample"></a>檔案作業範例
 
@@ -44,7 +44,7 @@ ms.locfileid: "104513552"
 
 ## <a name="downloading-the-sample"></a>下載範例
 
-| Location      | 路徑 URL                                                                                             |
+| 位置      | 路徑 URL                                                                                             |
 |---------------|------------------------------------------------------------------------------------------------------|
 | GitHub  | [FileOperations 範例](https://github.com/microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/shell/appplatform/fileoperations) |
 

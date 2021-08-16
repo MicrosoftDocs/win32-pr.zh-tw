@@ -27,12 +27,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 6be82e0bc9012a5e12ca10a3154fcbcffb97c723
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f650347da516f999955576532e5e7a82eb907596d90459c6d60cfde77ab1bba6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117781076"
 ---
 # <a name="microsoftinteropsecurityazrolesiazbizruleparameters-interface"></a>AzRoles. IAzBizRuleParameters 介面
 
@@ -69,7 +69,7 @@ ms.locfileid: "106992365"
 
 
 
-| 屬性                                                                     | 存取類型          | Description                                                                                    |
+| 屬性                                                                     | 存取類型          | 描述                                                                                    |
 |:-----------------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------------------|
 | **Azroles. IAzBizRuleParameters. Count**<br/> | 唯讀<br/> | [**IAzBizRuleParameters 的 Count 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazbizruleparameters-get_count)<br/> |
 

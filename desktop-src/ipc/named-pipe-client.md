@@ -4,12 +4,12 @@ ms.assetid: 0779242c-45f4-4cd9-9c9f-36cff54c8dee
 title: 具名管道用戶端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6318edd7d5b41c701e3112188a896c0529338805
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4d00a3fec3e3d7df80468822d2e147cbae38f440e39fd55dafc9ed3ea2442cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847693"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117695171"
 ---
 # <a name="named-pipe-client"></a>具名管道用戶端
 

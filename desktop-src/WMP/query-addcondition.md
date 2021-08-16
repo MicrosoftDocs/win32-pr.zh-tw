@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4035d2877cf0081e9153277c88feb545a529568d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 53a3eed0a7923b93861eabc30d115a7726046d0595b7c57625d9a9afaf9c7523
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994212"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746587"
 ---
 # <a name="queryaddcondition-method"></a>AddCondition 方法
 

@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: 5bbda4cd81c3db2dff664b9d16d2db60aa8f12f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fa046223ba3aa6a6e98d6e74f623aeaad9e85d3a10148bb688eb385c0e7c22fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973773"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117675801"
 ---
 # <a name="shell-structures"></a>Shell 結構
 
@@ -219,7 +219,7 @@ ms.locfileid: "104973773"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filedescriptora"><strong>FILEDESCRIPTOR</strong></a><br/></td>
-<td>描述在 Microsoft ActiveX <a href="dragdrop.md">拖放</a> 作業期間，透過剪貼簿所複製之檔案的屬性。<br/></td>
+<td>描述 Microsoft ActiveX<a href="dragdrop.md">拖放</a>作業期間，剪貼簿所複製之檔案的屬性。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/shlobj_core/ns-shlobj_core-filegroupdescriptora"><strong>FILEGROUPDESCRIPTOR</strong></a><br/></td>
@@ -263,7 +263,7 @@ ms.locfileid: "104973773"
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/shlobj_core/ns-shlobj_core-ie4component"><strong>IE4COMPONENT</strong></a><br/></td>
-<td>由 Microsoft Internet Explorer 4.0 與 Microsoft Internet Explorer 4.01 用來保存元件的相關資訊。 在 Windows 2000 中，它會被 <a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>元件</strong></a> 結構取代。<br/></td>
+<td>由 Microsoft Internet Explorer 4.0 與 Microsoft Internet Explorer 4.01 用來保存元件的相關資訊。 在 Windows 2000 中，它會被<a href="/windows/win32/api/shlobj_core/ns-shlobj_core-component"><strong>元件</strong></a>結構取代。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Shtypes/ns-shtypes-itemidlist"><strong>ITEMIDLIST</strong></a><br/></td>
@@ -287,7 +287,7 @@ ms.locfileid: "104973773"
 </tr>
 <tr class="even">
 <td><a href="/windows/win32/api/winuser/ns-winuser-multikeyhelpw"><strong>MULTIKEYHELP</strong></a><br/></td>
-<td>指定要搜尋的關鍵字，以及要在 Windows 說明中搜尋的關鍵字資料表。<br/></td>
+<td>指定要搜尋的關鍵字，以及要搜尋的關鍵字資料表（Windows 說明）。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/win32/api/shellapi/ns-shellapi-nc_address"><strong>NC_ADDRESS</strong></a><br/></td>
@@ -410,7 +410,7 @@ ms.locfileid: "104973773"
 <td>指定 Windows 檔案總管詳細資料檢視將顯示之資料行的 FMTID/PID 識別碼。 <br/>
 <blockquote>
 [!Note]<br />
-在 Windows Vista 中， <a href="/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a> 被視為舊版的表單，不應該使用。 在其位置中，使用 <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> 結構。
+從 Windows Vista， <a href="/windows/desktop/shell/objects"><strong>SHCOLUMNID</strong></a>被視為舊版表單，不應該使用。 在其位置中，使用 <a href="/windows/desktop/api/wtypes/ns-wtypes-propertykey"><strong>PROPERTYKEY</strong></a> 結構。
 </blockquote>
 <br/></td>
 </tr>
@@ -459,7 +459,7 @@ ms.locfileid: "104973773"
 <td>包含 <a href="/windows/desktop/api/Shellapi/nf-shellapi-shfileoperationa"><strong>SHFileOperation</strong></a> 函數用來執行檔案作業的資訊。 <br/>
 <blockquote>
 [!Note]<br />
-從 Windows Vista 起，建議使用 <a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a> 介面，而不是這個函式。
+從 Windows Vista 起，建議使用<a href="/windows/desktop/api/shobjidl_core/nn-shobjidl_core-ifileoperation"><strong>IFileOperation</strong></a>介面，而不是這個函式。
 </blockquote>
 <br/></td>
 </tr>

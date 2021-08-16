@@ -4,12 +4,12 @@ ms.assetid: 6cdfb7d3-f849-432c-960f-912e5024c583
 title: 在 Windows 7 中編制優先順序和資料列集事件的索引
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6610500a3c2fcd359f346e5239507fb15ad896d
-ms.sourcegitcommit: 3bdf30edb314e0fcd17dc4ddbc70e4ec7d3596e6
+ms.openlocfilehash: 92491300127c60ebdf2a265583fca77e77a09907b7f42b471f6d3d047a7f6aa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "106999958"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680499"
 ---
 # <a name="indexing-prioritization-and-rowset-events-in-windows-7"></a>在 Windows 7 中編制優先順序和資料列集事件的索引
 
@@ -25,7 +25,7 @@ ms.locfileid: "106999958"
 
 ## <a name="indexing-prioritization-and-rowset-events"></a>編制優先順序和資料列集事件的索引
 
-在 Windows 7？和更新版本中，有一個優先順序堆疊，在此堆疊中，用戶端可以要求在該查詢中使用的範圍優先于一般專案的上方。
+在 Windows 7？（含）以後版本中，有一個優先順序堆疊，在此堆疊中，用戶端可以要求在該查詢中使用的範圍優先于一般專案的上方。
 
 此優先順序堆疊具有下列特性：
 
@@ -144,10 +144,10 @@ interface IRowsetPrioritization : IUnknown
 [Windows 7 搜尋](./-search-3x-wds-overview.md)
 </dt> <dt>
 
-[適用于 Windows 7 搜尋的新](new-for-windows-7-search.md)
+[Windows 7 搜尋的新](new-for-windows-7-search.md)
 </dt> <dt>
 
-[Windows 7 中的 windows Shell 程式庫](-search-win7-development-scenarios.md)
+[WindowsWindows 7 中的 Shell 程式庫](-search-win7-development-scenarios.md)
 </dt> </dl>
 
  

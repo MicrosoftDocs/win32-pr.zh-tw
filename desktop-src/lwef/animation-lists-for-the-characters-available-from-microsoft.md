@@ -6,16 +6,16 @@ keywords:
 - Microsoft 代理程式，Microsoft 字元的動畫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f88d0e38ef30517732c637eb73b512e3b5361fc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 27f2223516bf231aea32ef8a953bf8a54f32a506e8eda023a9418140e040f41d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117694213"
 ---
 # <a name="animation-lists-for-the-characters-available-from-microsoft"></a>Microsoft 可用字元的動畫清單
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 下列各節列出 Microsoft 所提供四個字元的每個可用動畫。
 
@@ -24,9 +24,9 @@ ms.locfileid: "104021763"
 -   [適用于 Robby 字元的 Microsoft Agent 動畫](microsoft-agent-animations-for-robby-character.md)
 -   [適用于 Peedy 字元的 Microsoft Agent 動畫](microsoft-agent-animations-for-peedy-character.md)
 
- 
+ 
 
- 
+ 
 
 
 

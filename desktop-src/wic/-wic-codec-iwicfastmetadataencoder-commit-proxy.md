@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Windowscodecs.dll
 - Wincodec.lib
-ms.openlocfilehash: 848ed74ec9c9bb490065935bd94cae7a35d02db2
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 69f94853761affe09472a18ca27585a74f398846dd06ef54abb88fe3c9b7ce71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108097186"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117668401"
 ---
 # <a name="iwicfastmetadataencoder_commit_proxy-function"></a>IWICFastMetadataEncoder \_ Commit \_ Proxy 函式
 
@@ -63,8 +63,8 @@ HRESULT IWICFastMetadataEncoder_Commit_Proxy(
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows XP （含 SP2）、 \[ 僅限 Windows Vista 桌面應用程式\]<br/>                                                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                             |
+| 最低支援的用戶端<br/> | WindowsXP SP2，僅 Windows Vista \[ 桌面應用程式\]<br/>                                                                                              |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                             |
 | DLL<br/>                      | <dl> <dt>Windowscodecs.dll;</dt><dt>Wincodec .lib</dt> </dl> |
 
 

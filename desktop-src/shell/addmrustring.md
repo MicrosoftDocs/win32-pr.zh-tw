@@ -14,16 +14,16 @@ api_type:
 api_location:
 - Comctl32.dll
 ms.assetid: ad94a442-8492-412c-a4f2-ac6e7c5327d7
-ms.openlocfilehash: b62e23cd0604273559e36e561970dd62f117c11d
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 4ac72c44b670466f10cd708b81b1a84f93a349afcb0d81473ed5e6578c20617a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861590"
 ---
 # <a name="addmrustringw-function"></a>AddMRUStringW 函式
 
-\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在後續版本的 Windows 中改變或無法使用。 \]
+\[您可以透過 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 來取得此函式。 它可能會在 Windows 的後續版本中變更或無法使用。 \]
 
 將字串加入最近使用的 (MRU) 清單的最上方。
 

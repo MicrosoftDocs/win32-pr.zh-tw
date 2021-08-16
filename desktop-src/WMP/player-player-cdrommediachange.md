@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3c3125235d5f8d19963b85284e7dbe40c7af408d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ca5e7301c1fb697f4dbbceea2d4dc46af1d884fe4b3e06166b5c24aa43502a73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995697"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747384"
 ---
 # <a name="playercdrommediachange-event"></a>CdromMediaChange 事件
 
@@ -57,7 +57,7 @@ Player.CdromMediaChange(
 
 CD 光碟機的索引會對應到 **CdromCollection** 中之 **Cdrom** 物件的索引。
 
-事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入之 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
+事件參數的值是由 Windows Media Player 指定，而且可以使用指定的參數名稱，存取或傳遞至匯入 JScript 檔案中的方法。 此參數名稱的類型必須完全如所示，包括大小寫。
 
 **Windows Media Player 10** 行動裝置版：不支援這個事件。
 

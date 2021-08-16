@@ -4,12 +4,12 @@ description: 隨著時間使用電腦，系統會在資料封存中收集還原�
 ms.assetid: 9581eff5-44d0-407e-b7cb-d3e13910a936
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c5ff4aef88ec9eca591ee3c1afb1ad570689a1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 99d7e54fd12bbb05dacd0c388c1867319189924d761a43d90c6f2a9f718f26e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857518"
 ---
 # <a name="restoring-the-system"></a>還原系統
 
@@ -21,11 +21,11 @@ ms.locfileid: "106967200"
 
 -   請勿將資訊儲存在登錄中，以防止使用者在系統還原時存取個人資料檔或應用程式。 否則，您必須提供一種機制，讓使用者可以下載並重新安裝應用程式，而不需要再次支付它們的費用。
 -   使用 [系統還原 API](system-restore-api.md) ，在安裝和卸載時建立有意義的還原點。
--   在 Windows XP 中，要保護的主要應用程式二進位檔必須使用與 Filelist.xml 中使用的擴充功能一致的延伸模組。 如需詳細資訊，請參閱 [監視](monitored-file-extensions.md)的副檔名。 Windows 7 和 Windows Vista 都不會使用此檔案。 請勿將受監視的擴充功能類型用於使用者可編輯的檔案。 例如，如果您使用 .ini 副檔名來命名使用者的個人資料檔，則使用者可能會因為系統還原而遺失工作。
+-   在 Windows XP 中，要保護的主要應用程式二進位檔必須使用與 Filelist.xml 中所使用的擴充功能一致的延伸模組。 如需詳細資訊，請參閱 [監視](monitored-file-extensions.md)的副檔名。 Windows 7 和 Windows Vista 不會使用此檔案。 請勿將受監視的擴充功能類型用於使用者可編輯的檔案。 例如，如果您使用延伸模組 .ini 來命名使用者的個人資料檔，則使用者可能會因為系統還原而遺失工作。
 
- 
+ 
 
- 
+ 
 
 
 

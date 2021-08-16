@@ -4,12 +4,12 @@ ms.assetid: 880DF017-5841-4C0A-82AF-F092DEF5406B
 title: 'MF_MT_VIDEO_3D_FORMAT 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 66f2b12f907edb2875b3b121607509288787c8e3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e4100a605ecc7e8fe1c171b02341822972061363e7cd1b322162291dbd75b2c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979303"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117692067"
 ---
 # <a name="mf_mt_video_3d_format-attribute"></a>MF \_ MT \_ VIDEO \_ 3d \_ 格式屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106979303"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

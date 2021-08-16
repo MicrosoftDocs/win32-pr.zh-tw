@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 99e9dbe89989ddd8f02d67ac8f14532b9b1fbf15
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4a615549c25b57ed9693843a09433200f73c8e4ffad131c2a4e4057932c5e92b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982078"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747071"
 ---
 # <a name="playlisthueshift"></a>播放清單。 hueShift
 

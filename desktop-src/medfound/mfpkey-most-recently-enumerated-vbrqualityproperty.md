@@ -4,12 +4,12 @@ ms.assetid: 7d67e41f-060b-49a1-9e17-5db081ef4210
 title: 'MFPKEY_MOST_RECENT_ENUMERATED_VBRQUALITY 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ccd3b5f3aae6dc5347672cf6697c3431163dcbd1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 68e609f8dc7b95eb9cfd4bf537af47d1a11cb4ba625f0bbc65897b008ff03a31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689792"
 ---
 # <a name="mfpkey_most_recent_enumerated_vbrquality-property"></a>MFPKEY \_ 最 \_ 新的 \_ 列舉 \_ VBRQUALITY 屬性
 

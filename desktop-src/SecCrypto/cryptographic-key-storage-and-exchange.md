@@ -1,17 +1,17 @@
 ---
 description: 在某些情況下，金鑰必須從密碼編譯服務提供者的安全環境中匯出 (CSP) 到應用程式的資料空間。 已匯出的金鑰會儲存在加密的金鑰 BLOB 結構中。
 ms.assetid: 859b1bfe-6182-4728-a721-1f34cc98f66f
-title: 密碼編譯金鑰儲存和交換
+title: 密碼編譯金鑰儲存體和 Exchange
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: be7e789a736f0fcd5208bc16d73b43c6a9232e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3028efb449b59deb24a7097369d8894d0876907f3555c836e95e14d8c4bf5cfe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768755"
 ---
-# <a name="cryptographic-key-storage-and-exchange"></a>密碼編譯金鑰儲存和交換
+# <a name="cryptographic-key-storage-and-exchange"></a>密碼編譯金鑰儲存體和 Exchange
 
 在某些情況下，金鑰必須從 [*密碼編譯服務提供者*](../secgloss/c-gly.md) 的安全環境中匯出 (CSP) 到應用程式的資料空間。 已匯出的金鑰會儲存在加密的 [*金鑰 BLOB*](../secgloss/k-gly.md) 結構中。
 

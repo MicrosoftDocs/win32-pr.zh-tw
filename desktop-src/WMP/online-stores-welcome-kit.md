@@ -4,12 +4,12 @@ description: 線上商店歡迎套件
 ms.assetid: 0684f705-62c4-4b90-bd0e-b33ab8fec6ef
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa42f51400aedba55682f87d0dc8734b438755ae
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 6271a7dfda3bfe16e27071b39c6610b4b99e844f5d7a5270fb7286c3f1ae3798
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964959"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747846"
 ---
 # <a name="online-stores-welcome-kit"></a>線上商店歡迎套件
 
@@ -30,18 +30,18 @@ ms.locfileid: "106964959"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[Windows Media Player 線上商店](windows-media-player-online-stores.md)
+[Windows Media Player線上商店](windows-media-player-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

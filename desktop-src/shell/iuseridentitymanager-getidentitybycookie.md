@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: eb4e5ad5bda349a5b1650b090abc44a9fd1e6332
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a077f3e6a65a04e4c018198dde39b80c5a6e5acbee282c9e2cc282642526894b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510771"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117678152"
 ---
 # <a name="iuseridentitymanagergetidentitybycookie-method"></a>IUserIdentityManager：： GetIdentityByCookie 方法
 
@@ -45,9 +45,9 @@ HRESULT GetIdentityByCookie(
 *uidCookie* \[在\]
 </dt> <dd>
 
-類型： **GUID \** _
+類型： **GUID \***
 
-_ *GUID** 值的位址，代表您要取得之身分識別的 cookie。
+**GUID** 值的位址，代表您要取得之身分識別的 cookie。
 
 </dd> <dt>
 
@@ -68,7 +68,7 @@ _ *GUID** 值的位址，代表您要取得之身分識別的 cookie。
 
 
 
-| 傳回碼                                                                                            | Description                                               |
+| 傳回碼                                                                                            | 描述                                               |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | <dl> <dt>**E \_ \_ 找不 \_ 到身分識別**</dt> </dl> | 找不到要求的身分識別。<br/>     |
 | <dl> <dt>**E 身分識別 \_ \_ 已停用**</dt> </dl> | 系統上的身分識別管理已停用。<br/> |
@@ -88,7 +88,7 @@ _ *GUID** 值的位址，代表您要取得之身分識別的 cookie。
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

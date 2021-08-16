@@ -4,12 +4,12 @@ ms.assetid: de2e86ae-0469-471f-9105-0bb38a59b428
 title: 'MFPKEY_WMAAECMA_QUALITY_METRICS 屬性 (Wmcodecdsp) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a3740630bc23c4e3e0e824e55b4e34bcd8b1347f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2186876279ee45e34444866c206a7729c0674c8dff1bc57c255ca205e911edae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117689263"
 ---
 # <a name="mfpkey_wmaaecma_quality_metrics-property"></a>MFPKEY \_ WMAAECMA \_ 品質 \_ 計量屬性
 
@@ -33,8 +33,8 @@ VT \_ BLOB
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>Wmcodecdsp。h</dt> </dl> |
 
 

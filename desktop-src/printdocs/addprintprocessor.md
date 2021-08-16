@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - Winspool.drv
-ms.openlocfilehash: 871df9fee211ae13e1552978ce651840d7f542f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83de05dd6aa0ef6541322a45894dcf24cffa3cc6bebcbbd3b42e6c48941360b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117868743"
 ---
 # <a name="addprintprocessor-function"></a>AddPrintProcessor 函式
 
@@ -54,7 +54,7 @@ BOOL AddPrintProcessor(
 *pEnvironment* \[在\]
 </dt> <dd>
 
-以 null 結束的字串指標，指定環境 (例如，Windows x86、Windows IA64 或 Windows x64) 。 如果這個參數是 **Null**，則會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。
+以 null 結束的字串指標，指定環境 (例如 Windows x86、Windows IA64 或 Windows x64) 。 如果這個參數是 **Null**，則會使用目前的呼叫端/用戶端環境 (不是目的地/伺服器) 。
 
 </dd> <dt>
 
@@ -99,7 +99,7 @@ BOOL AddPrintProcessor(
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **AddPrintProcessorW** (Unicode) 和 **AddPrintProcessorA** (ANSI) <br/>                             |

@@ -14,12 +14,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 3db7e59006e964b7335a4a246fb63d7ca7b80577
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f8cc80f740e26ac2d067705c9aac9aee387b91e28cb057366587375c874ae0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768232"
 ---
 # <a name="cryptui_selectcertificate_struct-structure"></a>CRYPTUI \_ SELECTCERTIFICATE \_ 結構結構
 
@@ -203,8 +203,8 @@ typedef struct _CRYPTUI_SELECTCERTIFICATE_STRUCT {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                            |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                            |
 | Unicode 與 ANSI 名稱<br/>   | **CRYPTUI \_SELECTCERTIFICATE \_ STRUCTW** (Unicode) 和 **CRYPTUI \_ SELECTCERTIFICATE \_ STRUCTA** (ANSI) <br/> |
 
 

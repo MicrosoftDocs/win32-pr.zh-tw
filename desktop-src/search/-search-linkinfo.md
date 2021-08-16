@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: de74f7aefb61f12bf85a457e4478aa76f2156410
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 97c106a5a819ac1068501c77555f3eae238c935e2262894c6c250dfc6782188f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191205"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863941"
 ---
 # <a name="linkinfo-structure"></a>LINKINFO 結構
 
-\[只有在 Windows XP 和 Windows Server 2003 上才支援 **LINKINFO** 和 [**IItemPreviewerExt**](-search-iitempreviewerext.md) ，而且不應再使用。\]
+\[只有 Windows XP 和 Windows Server 2003 支援 **LINKINFO** 和 [**IItemPreviewerExt**](-search-iitempreviewerext.md) ，而且不應該再使用。\]
 
 儲存連結類型的相關資訊，並由 [**IItemPreviewerExt**](-search-iitempreviewerext.md) 介面使用。
 
@@ -137,7 +137,7 @@ typedef struct _LINKINFO {
 
 ## <a name="remarks"></a>備註
 
-若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 **LINKINFO** 結構和下列 Api： [**IItemPreviewerExt：： GetLinkedContent**](-search-iitempreviewerext-getlinkedcontent.md) 和 [**IItemPreviewerExt：： GetRelatedPart**](-search-iitempreviewerext-getrelatedpart.md) 方法和 [**LINKTYPE**](-search-linktype.md) 列舉。
+若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能需要使用 **LINKINFO** 結構和下列 api： [**IItemPreviewerExt：： GetLinkedContent**](-search-iitempreviewerext-getlinkedcontent.md)和 [**IItemPreviewerExt：： GetRelatedPart**](-search-iitempreviewerext-getrelatedpart.md)方法和 [**LINKTYPE**](-search-linktype.md)列舉。
 
 ## <a name="requirements"></a>規格需求
 
@@ -145,9 +145,9 @@ typedef struct _LINKINFO {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
-| 可轉散發套件<br/>          | Windows 桌面搜尋 (WDS) 3。0<br/>          |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
+| 可轉散發套件<br/>          | Windows (WDS 的桌面搜尋) 3。0<br/>          |
 
 
 

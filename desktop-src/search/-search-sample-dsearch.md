@@ -4,12 +4,12 @@ ms.assetid: 9c09b1fe-c63e-4c6e-9c8b-f5e29cf0fe9e
 title: DSearch
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4285596a8109361accd6b3adecf80ea98074e55e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d2505a8482a698f3147ae9c13ddb135c1da1c584f16cf52a5a05ca469efbc968
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972181"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117680707"
 ---
 # <a name="dsearch"></a>DSearch
 
@@ -34,12 +34,12 @@ DSearch 程式碼範例示範如何建立靜態主控台應用程式的類別，
 
 下列位置提供此範例。
 
-| Location      | 路徑 URL                                                                  |
+| 位置      | 路徑 URL                                                                  |
 |---------------|---------------------------------------------------------------------------|
 | GitHub        | [DSearch 範例](https://github.com/Microsoft/Windows-classic-samples/tree/master/Samples/Win7Samples/winui/WindowsSearch/DSearch)         |
 
 > [!NOTE]  
-> 針對所有 Windows 版本（包括 Windows 7），建議您直接從 GitHub 下載最新版本的範例。
+> 針對所有版本的 Windows （包括 Windows 7），建議您直接從 GitHub 下載這些範例，以取得最新版本。
 
 ## <a name="building-the-sample"></a>建立範例
 
@@ -47,7 +47,7 @@ DSearch 程式碼範例示範如何建立靜態主控台應用程式的類別，
 2. 按兩下 DSearch .sln 檔案的圖示，在 Visual Studio 中開啟專案。
   
     > [!NOTE]  
-    > .Sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
+    > .sln 檔案是在舊版 Visual Studio 下建立的，因此，如果您執行 Visual Studio 2012 或更新版本，則需要進行升級。 這不會影響範例的行為。
 
 3. 從 [ **組建** ] 功能表選取 [ **建立方案**]。
 

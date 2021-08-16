@@ -4,19 +4,19 @@ description: 轉散發 Windows Media Player 11
 ms.assetid: 3348821f-6d72-40c2-954b-0046ce502401
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 674da0298196f0749a549670bf9bd7c4095b6e7a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec17042165ed891370d1543fad303150c4b21d1f1db7f9da38de9f75d02876a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021222"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117746557"
 ---
 # <a name="redistributing-windows-media-player-11"></a>轉散發 Windows Media Player 11
 
 您可以使用下列其中一個安裝程式，在 Windows XP 上安裝 Windows Media Player 11，其中 *localeId* 是地區設定識別碼。
 
 -   wmp11-windowsxp-x86-*localeId*.exe
--   wmp11-windowsxp-x64-*localeId*
+-   wmp11-windowsxp-x64-*localeId*.exe
 
 以下是安裝時不含 UI 的命令列範例，且不會重新開機或重新開機提示。
 
@@ -31,7 +31,7 @@ wmp11-windowsxp-x86-enu.exe /q:A /c:"setup_wm.exe /Q /R:N"
 
 
 
-| 參數              | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| 參數              | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | /NoMigrate             | 防止程式庫遷移。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | /NestedRestore         | 建立嵌套的系統還原點。 如果您的應用程式會建立系統還原點，以將 Windows Media Player 還原點嵌入應用程式還原點內，請使用此程式。                                                                                                                                                                                                                                                                                                                             |
@@ -40,7 +40,7 @@ wmp11-windowsxp-x86-enu.exe /q:A /c:"setup_wm.exe /Q /R:N"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ wmp11-windowsxp-x86-enu.exe /q:A /c:"setup_wm.exe /Q /R:N"
 [**轉散發 Windows Media Player 軟體**](redistributing-windows-media-player-software.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

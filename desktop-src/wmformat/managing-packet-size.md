@@ -3,8 +3,8 @@ title: 管理封包大小
 description: 管理封包大小
 ms.assetid: 75ccda39-255a-4213-824e-1ca778a741dc
 keywords:
-- Windows Media Format SDK，管理封包大小
-- Windows Media Format SDK，封包大小
+- Windows媒體格式 SDK，管理封包大小
+- Windows媒體格式 SDK，封包大小
 - 設定檔，封包大小
 - 設定檔，管理封包大小
 - 封包，大小
@@ -12,16 +12,16 @@ keywords:
 - IWMPacketSize
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22e5bb0720d54338a754838e3d44c4479e55af9d
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: c4b8755eccdcc0042532be4359cd51fce2ef379b51882e6cc4585c48c8769a55
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104374800"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117846710"
 ---
 # <a name="managing-packet-size"></a>管理封包大小
 
-寫入器是設計用來管理內部的封包大小。 不過，您可能會有應用程式的特定需求，而這些需求會以手動方式控制您所撰寫之 ASF 檔案中的封包大小。 Windows Media Format SDK 提供兩種介面： [**IWMPacketSize**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize) 和 [**IWMPacketSize2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2) ，可讓您控制封包大小的最大值和最小值。
+寫入器是設計用來管理內部的封包大小。 不過，您可能會有應用程式的特定需求，而這些需求會以手動方式控制您所撰寫之 ASF 檔案中的封包大小。 Windows 媒體格式 SDK 提供兩種介面： [**IWMPacketSize**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize)和 [**IWMPacketSize2**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmpacketsize2) ，可讓您控制封包的大小上限和最小值。
 
 這兩個封包大小介面都會公開于設定檔物件中。 讀取器物件也可以使用它們。 如同其他設定檔相關的介面，讀取器只能存取讀取方法。
 
@@ -40,9 +40,9 @@ ms.locfileid: "104374800"
 [**使用設定檔**](working-with-profiles.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

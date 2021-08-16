@@ -4,12 +4,12 @@ ms.assetid: aa47010e-8510-475d-836a-cb63deeb3a7b
 title: DV 影片解碼篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6baab43d4a369cb16d92974a0e6e469c914961bb
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 0f00d63c92da4c16697d7cc9ff173f4c50e822a10da429a586f8eaa688e9eb96
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104509777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820680"
 ---
 # <a name="dv-video-decoder-filter"></a>DV 影片解碼篩選
 
@@ -96,7 +96,7 @@ ms.locfileid: "104509777"
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [DirectShow 中的數位視訊](digital-video-in-directshow.md)

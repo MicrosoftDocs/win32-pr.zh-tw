@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c580706a2ddae3e4a94c138a1ca0f6932457732a
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: b9e6b98309c760a3da4d1e9c488e4aed049aa34f0b449042e8f00a02426cc513
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "104022258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726168"
 ---
 # <a name="matrix-type"></a>矩陣類型
 
@@ -76,7 +76,7 @@ matrix <Type, Number> VariableName
 
 矩陣類型會使用角括弧來指定類型、資料列數目和資料行數目。 這個範例會建立具有兩個數據列和兩個數據行的浮點數矩陣。 您可以使用任何純量資料類型。
 
-請看以下範例：
+以下是範例：
 
 
 ```

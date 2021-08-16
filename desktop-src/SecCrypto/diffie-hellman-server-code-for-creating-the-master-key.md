@@ -4,12 +4,12 @@ ms.assetid: 1ef0a2ea-8684-425c-abfe-9f65d8df7bbd
 title: 用來建立主要金鑰的 Diffie-Hellman 伺服器程式碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31dd93f06e4675123e3bb1a6981c0135cc229513
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1f8b074c0069e325d7bd2b0e383fa2fe44beff2b3d10429b3af5aa396205270a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982416"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767621"
 ---
 # <a name="diffie-hellman-server-code-for-creating-the-master-key"></a>用來建立主要金鑰的 Diffie-Hellman 伺服器程式碼
 

@@ -1,17 +1,17 @@
 ---
-title: Windows Connect Now 列舉
+title: Windows Connect Now枚舉
 description: Windows Connect Now 定義下列列舉類型。
 ms.assetid: 6ef37f4c-f4f1-4f02-ad73-031d9ce163f2
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: baeb8481edd189cdf2880ee8cacf42483f8894eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 41c30dc5e64ea2f79160667c49694f3f6c0069db29d127c35a054a559ac70789
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117671533"
 ---
-# <a name="windows-connect-now-enumerations"></a>Windows Connect Now 列舉
+# <a name="windows-connect-now-enumerations"></a>Windows Connect Now枚舉
 
 Windows Connect Now 定義下列列舉類型。
 
@@ -41,7 +41,7 @@ Windows Connect Now 定義下列列舉類型。
 
 <dl> <dt>
 
-[Windows Connect Now 參考](windows-connect-now-reference.md)
+[Windows Connect Now參考](windows-connect-now-reference.md)
 </dt> </dl>
 
  

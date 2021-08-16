@@ -1,19 +1,19 @@
 ---
-description: Shell 連結是資料物件，其中包含用來存取 Shell 命名空間中另一個物件&\# 郵件的資訊，也就是透過 Windows 檔案總管可見的任何物件。
+description: shell 連結是資料物件，其中包含用來存取 Shell 命名空間中另一個物件&\# 郵件的資訊，也就是透過 Windows 檔案總管可見的任何物件。
 ms.assetid: 32ad306d-54bd-4130-ad30-08db50ef106e
 title: Shell 連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 327bcb425f998bcc2a4c0714118d4461ded253ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f9f5e639cfa3619d5c79b011ab101af7c25ed1813db1c96b9f5422504f8c1a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859020"
 ---
 # <a name="shell-links"></a>Shell 連結
 
-*Shell 連結* 是資料物件，其中包含用來存取 Shell 命名空間中另一個物件的資訊，也就是透過 Windows 檔案總管可見的任何物件。 可以透過 Shell 連結存取的物件類型包括檔案、資料夾、磁片磁碟機和印表機。 Shell 連結可讓使用者或應用程式從命名空間中的任何位置存取物件。 使用者或應用程式不需要知道物件目前的名稱和位置。
+*shell 連結* 是資料物件，其中包含用來存取 Shell 命名空間中另一個物件的資訊，也就是透過 Windows 檔案總管可見的任何物件。 可以透過 Shell 連結存取的物件類型包括檔案、資料夾、磁片磁碟機和印表機。 Shell 連結可讓使用者或應用程式從命名空間中的任何位置存取物件。 使用者或應用程式不需要知道物件目前的名稱和位置。
 
 -   [關於 Shell 連結](#about-shell-links)
     -   [連結解析](#link-resolution)
@@ -26,7 +26,7 @@ ms.locfileid: "104193354"
 
 ## <a name="about-shell-links"></a>關於 Shell 連結
 
-使用者可從物件的快捷方式功能表選擇 [ **建立快捷方式** ] 命令，以建立 Shell 連結。 系統會自動建立 Shell 連結的圖示，方法是將物件的圖示與一個小箭號結合 (也就是顯示在圖示左下角的系統定義連結重迭圖示) 。 具有圖示的 Shell 連結稱為快捷方式;不過，詞彙 Shell 連結和快速鍵通常會交替使用。 一般而言，使用者會建立快捷方式，以快速存取儲存在子資料夾或其他電腦之共用資料夾中的物件。 例如，使用者可以建立子資料夾中的 Microsoft Word 檔的快捷方式，並將快捷方式圖示放置在桌面上。 然後，使用者就可以按兩下快捷方式圖示來開啟檔。 如果在建立快捷方式之後移動或重新命名檔，系統將會嘗試在使用者下次選取時，更新快捷方式。
+使用者可從物件的快捷方式功能表選擇 [ **建立快捷方式** ] 命令，以建立 Shell 連結。 系統會自動建立 Shell 連結的圖示，方法是將物件的圖示與一個小箭號結合 (也就是顯示在圖示左下角的系統定義連結重迭圖示) 。 具有圖示的 Shell 連結稱為快捷方式;不過，詞彙 Shell 連結和快速鍵通常會交替使用。 一般而言，使用者會建立快捷方式，以快速存取儲存在子資料夾或其他電腦之共用資料夾中的物件。 例如，使用者可以建立位於子資料夾中 Microsoft Word 檔的快捷方式，並將快捷方式圖示放置在桌面上。 然後，使用者就可以按兩下快捷方式圖示來開啟檔。 如果在建立快捷方式之後移動或重新命名檔，系統將會嘗試在使用者下次選取時，更新快捷方式。
 
 應用程式也可以建立和使用 Shell 連結和快捷方式。 例如，文字處理應用程式可能會建立 Shell 連結，以執行最近使用的檔案清單。 應用程式會使用 [**IShellLink**](/windows/desktop/api/Shobjidl_core/nn-shobjidl_core-ishelllinka) 介面來建立 shell 連結化物件，以建立 shell 連結。 應用程式會使用 [**IPersistFile**](/windows/win32/api/objidl/nn-objidl-ipersistfile) 或 [**IPersistStream**](/windows/win32/api/objidl/nn-objidl-ipersiststream) 介面將物件儲存在檔案或資料流程中。
 
@@ -55,7 +55,7 @@ ms.locfileid: "104193354"
 
 ### <a name="link-files"></a>連結檔案
 
-當使用者從物件的快捷方式功能表中選擇 [ **建立快捷方式** ] 命令來建立物件的快捷方式時，Windows 會將存取該物件所需的資訊儲存在連結檔案中，此二進位檔案的副檔名為 .lnk。 連結檔案包含下列資訊：
+當使用者從物件的快捷方式功能表選擇 [**建立快捷方式**] 命令來建立物件的快捷方式時，Windows 會儲存存取連結檔中的物件所需的資訊，也就是副檔名為 .lnk 的二進位檔案。 連結檔案包含下列資訊：
 
 -   快速鍵 (所參考之物件的位置 (路徑) ，稱為對應的物件) 。
 -   對應物件的工作目錄。

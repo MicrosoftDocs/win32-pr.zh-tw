@@ -12,12 +12,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 06d3bb806e98e489020aa1755ef2a6c952459d86
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9bc707f88fcc731146fcd3a5bbca641e6f0515a728b07af0863894d249c16a98
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021836"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117726138"
 ---
 # <a name="optimizing-hlsl-shaders"></a>優化 HLSL 著色器
 
@@ -61,7 +61,7 @@ ms.locfileid: "104021836"
 
 
 
- 
+ 
 
 ## <a name="pack-variables-and-interpolants"></a>套件變數和 Interpolants
 
@@ -83,9 +83,9 @@ ms.locfileid: "104021836"
 [HLSL 的程式設計指南](dx-graphics-hlsl-pguide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

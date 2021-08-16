@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 200d8f8c931bd81015f52226bed5a4e584951e20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4d812d127884ca1c76533992a4ee4d8c527d151891239d715f5e3a7f8a5f0ba0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860265"
 ---
 # <a name="folderparentfolder-property"></a>ParentFolder 屬性
 
@@ -48,9 +48,9 @@ ParentFolder 物件的物件參考。
 
 ## <a name="examples"></a>範例
 
-下列範例示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **ParentFolder** 。
+下列範例會示範如何適當地使用 JScript、VBScript 和 Visual Basic 的 **ParentFolder** 。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -145,10 +145,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

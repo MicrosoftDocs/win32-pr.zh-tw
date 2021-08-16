@@ -4,12 +4,12 @@ ms.assetid: CD27774F-0B70-4D97-96C9-B247536CC88E
 title: '功能 SID 常數 (Winnt. h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55809cbb341bcbe60578043778bc824e09b8a295
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e37a06c0bd0115c4f7d05753825477b5de4948d1ddb9576aea46933a63cbf409
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195573"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783212"
 ---
 # <a name="capability-sid-constants"></a>功能 SID 常數
 
@@ -157,8 +157,8 @@ ms.locfileid: "104195573"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Winnt。h</dt> </dl> |
 
 

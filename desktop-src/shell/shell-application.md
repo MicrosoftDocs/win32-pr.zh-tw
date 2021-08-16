@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: 5a90b3953ed54b8a3652d6c9c26533d433ffb600
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: abab6e19611b927d69746d9b218da73e543f5d592f43baad8362d3406e521f7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858129"
 ---
 # <a name="shellapplication-property"></a>Shell. 應用程式屬性
 
@@ -59,10 +59,10 @@ Property Application As Object
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

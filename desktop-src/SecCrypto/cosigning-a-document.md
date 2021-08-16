@@ -4,20 +4,20 @@ ms.assetid: f81cbf7b-317d-4fab-9b30-88b6c6576db8
 title: Cosigning 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aa06cbbc95dc0fe558c6e704bd18102e80221dbc
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: eb384ef47001f1df85810ac37595988da96a356ff3b36b1b140d1a6f54d0d698
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "106974781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769383"
 ---
 # <a name="cosigning-a-document"></a>Cosigning 檔
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 檔可由一個以上的簽署者簽署。 例如，當兩個或更多方簽署合約或支出報表時，就會發生這種情況。 在下列範例中，已簽署的檔是由第二位簽署者所接收。 這個簽署者會使用 [**CoSign**](signeddata-cosign.md) 方法，將其他簽章附加至檔。
 
-如果發生任何 CAPICOM 錯誤，則會在 **Err** 屬性中傳回負數值。 如需有關 CAPICOM 錯誤碼的詳細資訊，請參閱 [**capicom \_ 錯誤碼 \_**](capicom-error-code.md)。 如果 **Err** 屬性中的錯誤碼是正值，則錯誤是 Windows 錯誤。 如需 Windows 錯誤碼的詳細資訊，請參閱 Winerror.h。
+如果發生任何 CAPICOM 錯誤，則會在 **Err** 屬性中傳回負數值。 如需有關 CAPICOM 錯誤碼的詳細資訊，請參閱 [**capicom \_ 錯誤碼 \_**](capicom-error-code.md)。 如果 **Err** 屬性中的錯誤碼是正值，則錯誤是 Windows 錯誤。 如需 Windows 錯誤碼的詳細資訊，請參閱 winerror.h。
 
 > [!Note]
 > Cosigning 檔時，也需要 cosigner 擁有具有 [*私密金鑰*](../secgloss/p-gly.md)的可用 [*憑證*](../secgloss/c-gly.md)，才能建立簽章。 如果未在 [**Sign**](signeddata-sign.md) 方法的呼叫中指定簽署者，且在 \_ 具有相關私密金鑰的 CAPICOM MY 存放區中沒有憑證 \_ ，則方法會失敗。 如果在具有相關私密金鑰的 CAPICOM MY STORE 中只有一個憑證 \_ \_ ，則會使用該金鑰和憑證。 如果有一個以上的可用憑證，則會顯示提示，讓使用者選擇所需的憑證。

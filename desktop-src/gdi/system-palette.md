@@ -4,12 +4,12 @@ ms.assetid: 4c93ce8c-6b3a-4016-bb47-786c25b93374
 title: 系統元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d8738cf63eef0b77f2d184f2cf95b6550b81053
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e540bd4068989a3c457568c2451dbc91f77755065f3bc70af03f9577fcebee9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991511"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117698130"
 ---
 # <a name="system-palette"></a>系統元件
 

@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 5d5effa69a23a61a602efaf1172de09a09889e32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 27f5beec56a0125d26cc359f40b5033eda1f035f2dec7666725264ec6fd59ba7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117677966"
 ---
 # <a name="ncm_getaddress-message"></a>NCM \_ GETADDRESS 訊息
 
@@ -53,7 +53,7 @@ NCM_GETADDRESS
 
 
 
-| 傳回碼                                                                                                | Description                                                                                          |
+| 傳回碼                                                                                                | 描述                                                                                          |
 |------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>               | 呼叫應用程式無法配置 [**NC \_ 位址**](/windows/win32/api/shellapi/ns-shellapi-nc_address) 結構。<br/> |
 | <dl> <dt>**\_緩衝區不足的錯誤 \_**</dt> </dl> | 輸出緩衝區太小，無法容納已剖析的網路位址。<br/>                           |
@@ -81,8 +81,8 @@ NCM_GETADDRESS
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 
 

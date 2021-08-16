@@ -21,12 +21,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 9d20f80eb840283600f5d106f89c6cf8032ee746
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a69643602a59fa7be8cd844f3f2908c92e2e08545f7444d1002ec1542b36730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511905"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117814974"
 ---
 # <a name="diskio_typegroup1-class"></a>DiskIo \_ TypeGroup1 類別
 
@@ -126,9 +126,9 @@ class DiskIo_TypeGroup1 : DiskIo
 
 [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/ntifs/nf-ntifs-kequeryperformancecounter)滴答單位) 中，資料分割管理員 (所測量的 i/o 初始和完成之間的時間。
 
-**Windows Server 2003：** 這個屬性的 [**WmiDataId**](event-tracing-mof-qualifiers.md) 值為7。
+**Windows Server 2003：** 這個屬性的 [**WmiDataId**](event-tracing-mof-qualifiers.md)值為7。
 
-**Windows 2000 Server 和 windows 2000 Professional：** 不支援這個屬性。
+**Windows 2000 伺服器和 Windows 2000 Professional：** 不支援這個屬性。
 
 </dd> <dt>
 
@@ -146,7 +146,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 用來識別 i/o 活動的 i/o 要求封包。
 
-**Windows Server 2003、windows 2000 伺服器和 windows 2000 Professional：** 不支援這個屬性。
+**Windows server 2003、Windows 2000 伺服器和 Windows 2000 Professional：** 不支援這個屬性。
 
 </dd> <dt>
 
@@ -224,7 +224,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 發行執行緒的識別碼。
 
-**Windows server 2008 R2、Windows server 2008、windows 7、Windows Vista、Windows server 2003 SP1、Windows Server 2003、windows 2000 Server 及 Windows 2000 Professional：** 不支援這個屬性。
+**Windows server 2008 R2、Windows Server 2008、Windows 7、Windows Vista、Windows server 2003 SP1、Windows server 2003、Windows 2000 Server 和 Windows 2000 Professional：** 不支援這個屬性。
 
 </dd> <dt>
 
@@ -242,9 +242,9 @@ class DiskIo_TypeGroup1 : DiskIo
 
 保留的。
 
-**Windows server 2008 R2、Windows server 2008 和 windows 7：** 屬性的名稱是 **[queuedepth**，其中包含從作業開始到作業結束的 CPU 滴答計數。 請注意，這個值可能溢位。
+**Windows server 2008 R2、Windows Server 2008 和 Windows 7：** 屬性的名稱是 **[queuedepth**，其中包含從作業開始到作業結束的 CPU 滴答計數。 請注意，這個值可能溢位。
 
-**Windows Vista、Windows server 2003 （含 SP1）、Windows server 2003、windows 2000 Server 及 windows 2000 Professional：** 屬性的名稱是 **ResponseTime**，其中包含從作業開始到作業結束的 CPU 滴答計數。 請注意，這個值可能溢位。
+**Windows Vista、Windows Server 2003 SP1、Windows Server 2003、Windows 2000 Server 和 Windows 2000 Professional：** 屬性的名稱是 **ResponseTime**，其中包含從作業開始到作業結束的 CPU 滴答計數。 請注意，這個值可能溢位。
 
 </dd> <dt>
 
@@ -266,7 +266,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 ## <a name="remarks"></a>備註
 
-Windows Server 2003 使用 **DiskIo \_ TypeGroup1** 事件種類類別的下列定義。
+Windows伺服器2003針對 **DiskIo \_ TypeGroup1** 事件種類類別使用下列定義。
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]
@@ -286,7 +286,7 @@ class DiskIo_TypeGroup1 : DiskIo
 
 不支援 **HighResResponseTime** 屬性。
 
-Windows Server 2003 SP1 和 Windows Vista 針對 **DiskIo \_ TypeGroup1** 事件種類類別使用下列定義。
+WindowsServer 2003 SP1 和 Windows Vista 針對 **DiskIo \_ TypeGroup1** 事件種類類別使用下列定義。
 
 ``` syntax
 [EventType{10, 11}, EventTypeName{"Read", "Write"}]

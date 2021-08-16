@@ -3,17 +3,17 @@ title: 安裝您的面板
 description: 安裝您的面板
 ms.assetid: ed2dad6c-a84d-4244-b766-ca37e9a3574f
 keywords:
-- Windows Media Player 行動裝置外觀，安裝
+- Windows Media Player行動外觀，安裝
 - 外觀，安裝
 - 安裝 Windows Media Player 行動面板
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9684e78cae2486acda6bad7c4816f3d9363ffd2
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 833db89aa902c88f0e6394c31e722dd7a35044a7f6b08b2c48f6ff0f8b71c261
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104092264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117747944"
 ---
 # <a name="installing-your-skin"></a>安裝您的面板
 
@@ -33,9 +33,9 @@ ms.locfileid: "104092264"
 [**外觀指南**](skin-guide.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

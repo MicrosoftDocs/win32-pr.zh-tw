@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - WinSpool.drv
-ms.openlocfilehash: 9ac4dd4b0db9a59cc0140872ff04f89adaf8b6c5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 10b0b36333e51dfb5c831f6c74e00c6930ccbb9d1ce31646fed0d689abc7f639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117686691"
 ---
 # <a name="getspoolfilehandle-function"></a>GetSpoolFileHandle 函式
 
@@ -68,9 +68,9 @@ HANDLE GetSpoolFileHandle(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                      |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Winspool.drv .lib</dt> </dl>                   |
 | DLL<br/>                      | <dl> <dt>Winspool.drv. winspool.drv</dt> </dl>                   |
 | Unicode 與 ANSI 名稱<br/>   | **GetSpoolFileHandleW** (Unicode) 和 **GetSpoolFileHandleA** (ANSI) <br/>                           |

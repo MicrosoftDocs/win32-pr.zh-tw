@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: fc4b562ca3b0b032324b3f3bb9b7ccdd7d01fd85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 26a51c12899fb4779c515359a0bbf1afa03c36826d599abded4f6c21c04d60a6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991703"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857050"
 ---
 # <a name="temporary-user-profiles"></a>暫存使用者設定檔
 

@@ -3,8 +3,8 @@ title: 將音訊解碼為 S/PDIF
 description: 將音訊解碼為 S/PDIF
 ms.assetid: b56c2d0a-a7c6-44f8-832a-bbbe7ae053e6
 keywords:
-- Windows Media Format SDK，將音訊解碼為 S/PDIF
-- 'Windows Media Format SDK、索尼/Philips 數位互連格式 (S/PDIF) '
+- Windows媒體格式 SDK，將音訊解碼為 S/PDIF
+- 'Windows媒體格式 SDK、索尼/Philips 數位互連格式 (S/PDIF) '
 - Advanced Systems Format (ASF) ，將音訊解碼為 S/PDIF
 - ASF (Advanced Systems Format) ，將音訊解碼成 S/PDIF
 - 'Advanced Systems Format (ASF) 、索尼/Philips 數位互連格式 (S/PDIF) '
@@ -14,18 +14,18 @@ keywords:
 - 解碼音訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 33fa063baa8e9a88c2fb7a4d9c67375965282167
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: 84bd4fdbafd5685882f34b698c0745b998b6cee2e63514041db17fed2195346c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "103681558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117845586"
 ---
 # <a name="to-decode-audio-to-spdif"></a>將音訊解碼為 S/PDIF
 
 使用 Windows Media 音訊 9 Professional 編解碼器編碼的音訊可以解碼成索尼/Philips 數位互連格式 (S/PDIF) 。 若要產生 S/PDIF 輸出，請執行下列步驟：
 
-1.  藉由呼叫 [**IWMReader：： open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open) 方法，開啟包含 Windows Media 音訊 9 Professional 串流的檔案。
+1.  藉由呼叫 [**IWMReader：： open**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-open)方法，開啟包含 Windows Media 音訊 9 Professional 串流的檔案。
 2.  識別您想要的資料流程輸出編號。 如需詳細資訊，請參閱 [識別輸出數目](to-identify-output-numbers.md)。
 3.  呼叫 [**IWMReaderAdvanced2：： SetOutputSetting**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreaderadvanced2-setoutputsetting) 方法來設定 S/PDIF 輸出。 請使用 g \_ wszEnableWMAProSPDIFOutput 作為設定名稱。 資料類型為 **WMT \_ 類型 \_ BOOL**; 將值設定為 **TRUE** 以啟用 S/PDIF 輸出。
 4.  藉由呼叫 [**IWMReader：： GetOutputFormat**](/previous-versions/windows/desktop/api/Wmsdkidl/nf-wmsdkidl-iwmreader-getoutputformat)方法，取得所需輸出格式的輸出屬性介面 ([**IWMOutputMediaProps**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmoutputmediaprops)) 。 如需列舉輸出格式的詳細資訊，請參閱 [指派輸出格式](assigning-output-formats.md)。
@@ -35,7 +35,7 @@ ms.locfileid: "103681558"
 > [!Note]  
 > 您可以使用 [**IWMSyncReader**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader) 介面的對應方法，在同步讀取器上執行上述步驟。
 
- 
+ 
 
 下列範例程式碼示範如何設定音訊串流，以將音訊輸出為 S/PDIF 資料。 此函式會假設已在讀取器中載入檔案，且已識別出輸出編號。 如需使用此程式碼的詳細資訊，請參閱 [使用程式碼範例](using-the-code-examples.md)。
 
@@ -102,9 +102,9 @@ Exit:
 [**IWMSyncReader 介面**](/previous-versions/windows/desktop/api/wmsdkidl/nn-wmsdkidl-iwmsyncreader)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

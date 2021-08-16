@@ -4,16 +4,16 @@ ms.assetid: 9ad3199a-bca1-4990-80da-80744e349047
 title: 在 CAPICOM 中加密訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8039586736c09673644cacc90759e8d5f25b6e1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1a3ef531fa75fc4d99a423ffbb6c0edd591caf6b1939f12fea439e7f9fbc80dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766190"
 ---
 # <a name="encrypting-a-message-in-capicom"></a>在 CAPICOM 中加密訊息
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 這個副程式會取得要加密的字串、要用來產生加密金鑰的密碼字串，以及將寫入加密訊息的檔案名。 所有參數都會依值傳遞至副程式。 若要解密訊息，必須使用相同的密碼字串。 如果遺失密碼，則無法將文字解密。 如果非預期的收件者取得密碼存取權，則會遺失訊息的隱私權。
 
