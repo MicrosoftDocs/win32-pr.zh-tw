@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: feb02c80408210b663524e2aa914852a853e80ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 409a22df52d2914cd205700afccfc7a59f19031d924a921b5f2e5101621a895a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782193"
 ---
 # <a name="creating-an-authorization-policy-store-object-in-script"></a>在腳本中建立授權原則存放區物件
 
@@ -55,11 +55,11 @@ authStore.Submit
 如果 SQL Server 實例不包含指定的授權管理員資料庫，授權管理員會以該名稱建立新的資料庫。
 
 > [!Note]  
-> 除非您明確設定連接的 SQL 加密，或設定使用網際網路通訊協定安全性 (IPsec) 之網路流量的加密，否則不會加密與 SQL Server 存放區的連接。
+> 除非您明確設定連接的 SQL 加密，或設定使用網際網路通訊協定安全性 (IPsec) 的網路流量加密，否則不會加密與 SQL Server 存放區的連線。
 
  
 
-下列範例示範如何建立 [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) 物件，該物件代表 SQL Server 資料庫中的授權原則存放區。
+下列範例示範如何建立 [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore)物件，該物件代表 SQL Server 資料庫中的授權原則存放區。
 
 
 ```VB

@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wfext.h
-ms.openlocfilehash: de7a950e3f17c9b2cee2b66a047d289ca29b6b56
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8001ca861b77755ea7f5ee829a9af490c2f426dcd6179f2fe84831c624bb4ef5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973225"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860653"
 ---
 # <a name="fmevent_load-message"></a>FMEVENT \_ 載入訊息
 

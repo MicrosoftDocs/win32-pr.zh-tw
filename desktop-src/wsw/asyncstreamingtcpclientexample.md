@@ -8,12 +8,12 @@ keywords:
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a01a5d7c95f5f84d697f6e5f4db10cee67c58195
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b21205c71fc800dbfc08d4d76cdb8b80ac66bb584e205f2c0dea62ec63a5cca5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841815"
 ---
 # <a name="asyncstreamingtcpclientexample"></a>AsyncStreamingTcpClientExample
 
@@ -621,9 +621,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

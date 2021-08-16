@@ -15,17 +15,17 @@ api_type:
 - COM
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 6c4849c23e742657d8f5eaba8a030426f7a2a440
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9f391d711c6d10c50cfdb26314be6ee709ff481bda0ce370faa28d514422444c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194614"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487863"
 ---
 # <a name="jet_bkinfo-structure"></a>JET_BKINFO 結構
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="jet_bkinfo-structure"></a>JET_BKINFO 結構
 
@@ -57,7 +57,7 @@ _**適用于：** Windows |Windows Server_
 
 此備份事件的時間，以及表示快照集備份的其他位。
 
-**Windows vista： bklogtimeMark** 是在 windows vista 中引進的。
+**Windows vista： bklogtimeMark** 是 Windows vista 引進。
 
 **genLow**
 
@@ -85,7 +85,7 @@ _**適用于：** Windows |Windows Server_
 </tr>
 <tr class="even">
 <td><p><strong>伺服器</strong></p></td>
-<td><p>需要 Windows Server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
+<td><p>需要 Windows server 2008、Windows Server 2003 或 Windows 2000 Server。</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>標頭</strong></p></td>

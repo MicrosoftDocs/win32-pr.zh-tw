@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27141d23ce3759bff4811a86389ddf6f002a70e9
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 752946a6ebb2e06018c97560de7c69abd9449642f686405f6f3c81ec9ec540f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104108256"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117836167"
 ---
 # <a name="do-garbage-collection-extended-right"></a>Do-垃圾收集擴充許可權
 

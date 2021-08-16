@@ -4,12 +4,12 @@ ms.assetid: 1e198bc8-c712-4d0f-9e3a-35a295445acf
 title: 自訂憑證服務網頁註冊頁面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4eb2fbf421eceb1ebf0b15379aca5d0788a992ba
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0132ce4e5e1fef588ffc429597717433dd1b780d2f7f35f9c886f1978b5b318a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852312"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767793"
 ---
 # <a name="customizing-certificate-services-web-enrollment-pages"></a>自訂憑證服務網頁註冊頁面
 
@@ -45,7 +45,7 @@ sDefaultOrgUnit="Marketing"
 
 此外，您可以編輯 Certrqtp 檔案，以新增、變更或移除使用者可用的 [*憑證範本*](../secgloss/c-gly.md) 或類型。 這些範本和類型以及相關資訊都包含在名為 rgAvailReqTypes (*m*，5) 的維度陣列中。
 
-這個陣列（如同所有 Visual Basic Scripting Edition 陣列）是以零為基礎，因此陣列的第一個維度 *m* 會配置 *m*+ 1 個專案的記憶體。 因此，如果在自訂網頁時，您需要修改 rgAvailReqTypes 陣列中的專案數，請將 *m* 維度設定為小於所需專案總數的1。 例如，如果您將有七個憑證範本，請變更 rgAvailReqTypes 的宣告，如下列範例所示。
+這個陣列（如同所有 Visual Basic 腳本版本的陣列）是以零為基礎，因此，陣列的第一個維度 *m* 會配置 *m*+ 1 專案的記憶體。 因此，如果在自訂網頁時，您需要修改 rgAvailReqTypes 陣列中的專案數，請將 *m* 維度設定為小於所需專案總數的1。 例如，如果您將有七個憑證範本，請變更 rgAvailReqTypes 的宣告，如下列範例所示。
 
 
 ```VB

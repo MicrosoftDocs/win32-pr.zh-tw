@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: abaa390ba74657e42b54a5147a7bc4006564a5fb
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: dcb19358f98c1280ddb180b7381fb7714d28cc7db145ca36577f5f97f70c9f1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103842559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118509687"
 ---
 # <a name="interlockedcomparestore-function"></a>InterlockedCompareStore 函式
 
@@ -28,9 +28,9 @@ ms.locfileid: "103842559"
 
 ``` syntax
 void InterlockedCompareStore(
-  in UINT dest,
-  in UINT compare_value,
-  in UINT value
+  in UINT dest,
+  in UINT compare_value,
+  in UINT value
 );
 ```
 
@@ -83,7 +83,7 @@ void InterlockedCompareStore(
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -95,6 +95,6 @@ void InterlockedCompareStore(
 [著色器模型5](d3d11-graphics-reference-sm5.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

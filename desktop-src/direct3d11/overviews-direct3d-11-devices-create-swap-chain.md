@@ -4,12 +4,12 @@ description: 本主題說明如何建立交換鏈，以封裝兩個或多個用�
 ms.assetid: 0e290b37-0807-42c7-9e50-fd2db6affb14
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8355eafff6e233b89be82fd9e58ca53224248e84
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 71ef97b261d9831c451c8a81bfc1f4d9d13b1cd423ac28f38de4b90c1d4ae100
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118530570"
 ---
 # <a name="how-to-create-a-swap-chain"></a>如何：建立交換鏈
 
@@ -42,6 +42,6 @@ ms.locfileid: "104375981"
 [如何使用 Direct3D 11](how-to-use-direct3d-11.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

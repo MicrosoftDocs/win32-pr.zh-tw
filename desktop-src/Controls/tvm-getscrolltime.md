@@ -3,7 +3,7 @@ title: 'TVM_GETSCROLLTIME 訊息 (Commctrl .h) '
 description: 抓取樹狀檢視控制項的最大滾動時間。 您可以使用 TreeView GetScrollTime 宏明確地傳送此訊息 \_ 。
 ms.assetid: 992d1906-cda3-4ac7-ba90-c681c551ac2e
 keywords:
-- TVM_GETSCROLLTIME message Windows 控制項
+- TVM_GETSCROLLTIME 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e6f0bacc6c12dd7f54f20d882faf738c11848d59
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e026a463476d5625f7632d7b6679ce94ca2c8ab6d8c6a050d8938bd46d9858b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094159"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118408495"
 ---
 # <a name="tvm_getscrolltime-message"></a>TVM \_ GETSCROLLTIME 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104094159"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

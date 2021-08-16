@@ -4,12 +4,12 @@ ms.assetid: 5c17aba1-98f7-4d6c-a5d2-2b4623a65255
 title: WPD_CONTENT_TYPE_NETWORK_ASSOCIATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d3c92f76080db4167a12578c58e9d85c9506c28b
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 63c383ac251d410e03fc5d26dd969d4161ae555ebf2cdd3802ca7228b1739ff0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842288"
 ---
 # <a name="wpd_content_type_network_association"></a>WPD \_ 內容 \_ 類型 \_ 網路 \_ 關聯
 

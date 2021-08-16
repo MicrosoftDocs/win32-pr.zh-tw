@@ -17,7 +17,7 @@ ms.locfileid: "117824724"
 
 
 
-| GUID                                                                                                                                                                                                                                                                            | Description           |
+| GUID                                                                                                                                                                                                                                                                            | 描述           |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:----------------------|
 | <span id="MEDIASUBTYPE_AnalogVideo_NTSC_M"></span><span id="mediasubtype_analogvideo_ntsc_m"></span><span id="MEDIASUBTYPE_ANALOGVIDEO_NTSC_M"></span><dl> <dt>**MEDIASUBTYPE \_ AnalogVideo \_ NTSC \_ M**</dt> </dl>         |  (M) NTSC<br/>   |
 | <span id="MEDIASUBTYPE_AnalogVideo_PAL_B"></span><span id="mediasubtype_analogvideo_pal_b"></span><span id="MEDIASUBTYPE_ANALOGVIDEO_PAL_B"></span><dl> <dt>**MEDIASUBTYPE \_ AnalogVideo \_ PAL \_ B**</dt> </dl>             |  (B) PAL<br/>    |

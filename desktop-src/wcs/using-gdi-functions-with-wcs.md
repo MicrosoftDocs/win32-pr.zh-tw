@@ -3,7 +3,7 @@ title: 使用 GDI 函數搭配 WCS
 description: 圖形裝置介面中有各種不同的函式 (使用或操作色彩資料的 GDI) 。
 ms.assetid: a19ec8b9-11c9-4fde-a99a-7f4a112b49e7
 keywords:
-- 'Windows Color System (WCS) 、圖形裝置介面 (GDI) '
+- 'Windows色彩系統 (WCS) 、圖形裝置介面 (GDI) '
 - 'WCS (Windows 色彩系統) 、圖形裝置介面 (GDI) '
 - '影像色彩管理、圖形裝置介面 (GDI) '
 - '色彩管理、圖形裝置介面 (GDI) '
@@ -13,16 +13,16 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2fad8445623efb8854e81e7e1569beab9ed4169b
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 8a104378ae46e6b9519d6f795d280d45c28c8fa3fdc7d1e34aae609bcdbd195d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443649"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118444675"
 ---
 # <a name="using-gdi-functions-with-wcs"></a>使用 GDI 函數搭配 WCS
 
-圖形裝置介面中有各種不同的函式 (使用或操作色彩資料的 GDI) 。 有些會啟用以搭配 WCS 使用，有些則否。 下列 GDI 函數與 ICM 相關：
+圖形裝置介面中有各種不同的函式 (使用或操作色彩資料的 GDI) 。 有些會啟用以搭配 WCS 使用，有些則否。 下列 GDI 函數與 ICM 有關：
 
 -   [使用 WCS 的裝置內容函式](#device-context-functions-with-wcs)
 -   [使用 WCS 的畫筆和筆刷函數](#pen-and-brush-functions-with-wcs)
@@ -35,8 +35,8 @@ ms.locfileid: "111443649"
 
 |    函式                |   描述                                                                                                                                                                                                                              |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CreateCompatibleDC | 如果透過其 hdc 參數透過其 hdc 參數傳遞到此函式 (DC) 的裝置內容已啟用 ICM，則函式所建立的 DC 也會啟用 ICM。 來源和目的色彩空間會在 DC 中指定。 |
-| CreateDC           | 您可以藉由將 pInitData 參數所指向之 DEVMODE 結構的 dmICMMethod 成員設定為適當的值，來啟用 ICM。 如需詳細資訊，請參閱 DEVMODE 結構上 Platform SDK 中的檔。  |
+| CreateCompatibleDC | 如果已針對 ICM 啟用透過其 hdc 參數傳遞給此函式的裝置內容 (dc) ，則函式所建立的 dc 也會 ICM 啟用。 來源和目的色彩空間會在 DC 中指定。 |
+| CreateDC           | 藉由將 pInitData 參數所指向的 DEVMODE 結構 dmICMMethod 成員設定為適當的值，就可以啟用 ICM。 如需詳細資訊，請參閱 DEVMODE 結構上 Platform SDK 中的檔。  |
 | ResetDC            | 根據 lpInitData 參數所指定的 DEVMODE 結構中的資訊，將會重設 hdc 參數所指定之裝置內容的色彩設定檔。                                                   |
 
 
@@ -49,9 +49,9 @@ ms.locfileid: "111443649"
 
 |    函式                |   描述                                                                                                                                                                                                                              |
 |-----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| 筆刷函數 | 建立筆刷時，不會進行任何色彩管理。 不過，在將筆刷選取到啟用 ICM 的 DC 時，將會執行色彩管理。 |
-| CreatePen       | 建立畫筆時，不會進行任何色彩管理。 不過，在將筆刷選取到啟用 ICM 的 DC 時，將會執行色彩管理。   |
-| ExtCreatePen    | 建立畫筆時，不會進行任何色彩管理。 不過，在將筆刷選取到啟用 ICM 的 DC 時，將會執行色彩管理。   |
+| 筆刷函數 | 建立筆刷時，不會進行任何色彩管理。 不過，在將筆刷選取到已啟用 ICM 的 DC 中時，將會執行色彩管理。 |
+| CreatePen       | 建立畫筆時，不會進行任何色彩管理。 不過，在將筆刷選取到已啟用 ICM 的 DC 中時，將會執行色彩管理。   |
+| ExtCreatePen    | 建立畫筆時，不會進行任何色彩管理。 不過，在將筆刷選取到已啟用 ICM 的 DC 中時，將會執行色彩管理。   |
 | SelectObject    | 如果選取的物件是筆刷或畫筆，則會執行色彩管理。                                                              |
 | SetDCBrushColor | 如果啟用 WCS，則會執行色彩管理。                                                                                              |
 | SetDCPenColor   | 如果啟用 WCS，則會執行色彩管理。                                                                                              |

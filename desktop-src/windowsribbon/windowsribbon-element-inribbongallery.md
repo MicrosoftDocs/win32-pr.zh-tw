@@ -3,7 +3,7 @@ title: InRibbonGallery 元素
 description: 代表 In-Ribbon 資源庫，此為資源庫型控制項，可直接在功能區中公開專案的預設子集。 按一下下拉式功能表按鈕時，會顯示任何剩餘的專案。
 ms.assetid: 07d035e2-e6db-49fa-b786-a37cbceb58f6
 keywords:
-- InRibbonGallery 元素視窗功能區
+- InRibbonGallery 元素 Windows 功能區
 topic_type:
 - apiref
 api_name:
@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a25b2ebb937d954adce58231fd8c6b3347a031a7
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 1156c7a3b625496b0a4d50b750a3db5cda51a6b77745aaf26d4282de1be3443d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443369"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117850825"
 ---
 # <a name="inribbongallery-element"></a>InRibbonGallery 元素
 
@@ -66,14 +66,14 @@ ms.locfileid: "111443369"
 <tr class="odd">
 <td><strong>CommandName</strong><br/></td>
 <td>xs： positiveInteger 或 xs： string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>將元素與 <a href="windowsribbon-element-command.md"><strong>命令</strong></a>產生關聯。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： positiveInteger 或 xs： string) <br/> </dt> <dd> 字串、介於2與59999（含）之間的整數值，或介於0x2 與0xea5f （含）之間的十六進位值。 <br/> 值在功能區 XML 檔中必須是唯一的。 <br/> 最大長度：100個字元。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>HasLargeItems</strong><br/></td>
 <td>Boolean<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>決定是否要在資源庫控制項中顯示命令的大型或小型影像資源。 <br/>
 <blockquote>
 [!Note]<br />
@@ -85,7 +85,7 @@ ms.locfileid: "111443369"
 <tr class="odd">
 <td><strong>ItemHeight</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>搭配 <em>ItemWidth</em>，可決定在資源庫控制項中顯示之專案影像的大小。 <br/>
 <blockquote>
 [!Note]<br />
@@ -97,7 +97,7 @@ ms.locfileid: "111443369"
 <tr class="even">
 <td><strong>ItemWidth</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>搭配 <em>ItemHeight</em>，可決定在資源庫控制項中顯示之專案影像的大小。 <br/>
 <blockquote>
 [!Note]<br />
@@ -109,49 +109,49 @@ ms.locfileid: "111443369"
 <tr class="odd">
 <td><strong>MaxColumns</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定 <strong>InRibbonGallery</strong> 所顯示的最大資料行數目，例如，在 [ <em>大型</em> 群組版面配置] 下拉式清單中。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MaxColumnsMedium</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定在切換至<em>大型</em>版面配置之前， <strong>InRibbonGallery</strong>顯示在<em>中等</em>群組配置中的最大資料行數目。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MaxRows</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定 <strong>InRibbonGallery</strong> 專案版面配置的最大資料列數。 <br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd> 預設值是 1。 <br/> </dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>MinColumnsLarge</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>在切換至<em>媒體</em>之前，指定<strong>InRibbonGallery</strong>在<em>大型</em>群組配置中顯示的最小資料行數目。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>MinColumnsMedium</strong><br/></td>
 <td>xs:integer<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定 <strong>InRibbonGallery</strong> 在 <em>中等</em> 群組配置中顯示的最小資料行數目，然後切換為 <em>小型</em>。<br/> <br/>
 <dt><span></span><span></span><strong></strong> (xs： integer) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="even">
 <td><strong>TextPosition</strong><br/></td>
 <td>TextPositionType<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>指定專案標籤顯示的位置（相對於影像）。 <br/> 限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (底部) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (隱藏) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (左) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (重迭) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (右) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (Top) <br/> </dt> <dd></dd> </dl></td>
 </tr>
 <tr class="odd">
 <td><strong>類型</strong><br/></td>
 <td>xs:string<br/></td>
-<td>否<br/></td>
+<td>No<br/></td>
 <td>限制為下列其中一個值：<br/> <br/>
 <dt><span></span><span></span><strong></strong> (專案) <br/> </dt> <dd></dd> <dt><span></span><span></span><strong></strong> (命令) <br/> </dt> <dd></dd> </dl></td>
 </tr>
@@ -196,7 +196,7 @@ ms.locfileid: "111443369"
 
 </tr>
 <tr class="even">
-<td><a href="windowsribbon-element-group.md"><strong>群組</strong></a><br/></td>
+<td><a href="windowsribbon-element-group.md"><strong>Group</strong></a><br/></td>
 
 </tr>
 <tr class="odd">
@@ -218,7 +218,7 @@ Windows 8 和更新版本。
 
 每個 [**ControlGroup**](windowsribbon-element-controlgroup.md) 或 [**群組**](windowsribbon-element-group.md) 元素最多可能會發生一次。
 
-下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中功能區元件 [庫](windowsribbon-controls-inribbongallery.md) 控制項的功能區。
+下列螢幕擷取畫面說明 Windows 7 Microsoft 小畫家中功能區元件[庫](windowsribbon-controls-inribbongallery.md)控制項的功能區。
 
 ![microsoft 油漆功能區中功能區資源庫控制項的螢幕擷取畫面。](images/controls/inribbongallery.png)
 

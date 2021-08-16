@@ -4,12 +4,12 @@ description: 本主題將示範如何建立包含單行編輯控制項的對話�
 ms.assetid: 742DF606-9998-46D0-8D0A-F79508AAFFC0
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0d5d39a4c9fbc806de6ca151606e770eb0cea9b
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 597c3e611f53af56a42f837c4d85a43f97ff846e371314b130d72c568aaf860e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104024339"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829111"
 ---
 # <a name="how-to-create-a-single-line-edit-control"></a>如何建立單一行編輯控制項
 
@@ -28,12 +28,12 @@ ms.locfileid: "104024339"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

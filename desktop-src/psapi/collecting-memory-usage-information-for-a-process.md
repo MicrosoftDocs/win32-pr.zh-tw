@@ -4,12 +4,12 @@ description: 若要判斷應用程式的效率，您可能會想要檢查其記�
 ms.assetid: 23641bf8-3653-4cb9-8008-cd99137ca268
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ead17b8308424be8b959c4043eec606b18292708
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: cf9c2217f01c2c0f3a3ee1d2516b2e531cc243f5ac71c4022632d1b1c4dd4983
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375664"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462976"
 ---
 # <a name="collecting-memory-usage-information-for-a-process"></a>收集處理常式的記憶體使用量資訊
 
@@ -94,6 +94,6 @@ int main( void )
 
 Main 函式會使用 [**EnumProcesses**](/windows/desktop/api/Psapi/nf-psapi-enumprocesses) 函數取得處理常式清單。 Main 會針對每個進程呼叫 PrintMemoryInfo 函式，並傳遞處理序識別碼。 接著，PrintMemoryInfo 會呼叫 [**OpenProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-openprocess) 函式，以取得處理控制碼。 如果 **OpenProcess** 失敗，輸出只會顯示處理序識別碼。 例如，閒置和 CSRSS 程式的 **OpenProcess** 會失敗，因為其存取限制會防止使用者層級的程式碼開啟這些處理常式。 最後，PrintMemoryInfo 會呼叫 [**GetProcessMemoryInfo**](/windows/desktop/api/Psapi/nf-psapi-getprocessmemoryinfo) 函數來取得記憶體使用量資訊。
 
- 
+ 
 
- 
+ 

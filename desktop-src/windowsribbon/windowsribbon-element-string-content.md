@@ -23,7 +23,7 @@ ms.locfileid: "118439503"
 
 表示字串資源的內容。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <String.Content/>

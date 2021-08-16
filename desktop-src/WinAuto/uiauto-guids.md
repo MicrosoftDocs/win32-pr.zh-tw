@@ -4,12 +4,12 @@ description: 本主題說明與 UiaLookupId 函數搭配使用的 Guid。
 ms.assetid: b8e9e33c-9781-4f50-bbb7-a9950409f2e6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0c5203f63fa3f05e1d25e5623815101cd48ada34
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 361341b7a2c58d8e2ee2842bd0d9d7f50ed0680aa9845f84b7b70b905976f5d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839376"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324719"
 ---
 # <a name="deprecated-guids"></a>已淘汰的 Guid
 
@@ -18,7 +18,7 @@ ms.locfileid: "103839376"
 > [!Note]  
 > 本主題中所述的 [**UiaLookupId**](/windows/desktop/api/UIAutomationCoreApi/nf-uiautomationcoreapi-uialookupid) 函式和 guid 已淘汰。 相反地，應用程式應該使用下列各節所述的識別碼：
 
- 
+ 
 
 -   [控制項模式識別碼](uiauto-controlpattern-ids.md)
 -   [控制項類型識別碼](uiauto-controltype-ids.md)
@@ -76,7 +76,7 @@ ms.locfileid: "103839376"
 
 
 
- 
+ 
 
 ## <a name="controltypeid-guids"></a>CONTROLTYPEID Guid
 
@@ -128,7 +128,7 @@ ms.locfileid: "103839376"
 
 
 
- 
+ 
 
 ## <a name="eventid-guids"></a>EVENTID Guid
 
@@ -173,7 +173,7 @@ ms.locfileid: "103839376"
 
 
 
- 
+ 
 
 ## <a name="propertyid-guids"></a>PROPERTYID Guid
 
@@ -334,7 +334,7 @@ ms.locfileid: "103839376"
 
 
 
- 
+ 
 
 ## <a name="textattributeid-guids"></a>TEXTATTRIBUTEID Guid
 
@@ -387,11 +387,11 @@ ms.locfileid: "103839376"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

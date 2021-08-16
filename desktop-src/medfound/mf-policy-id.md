@@ -4,12 +4,12 @@ ms.assetid: 89da33c8-97af-4c56-8bdb-2ac588810d77
 title: MF_POLICY_ID (Mfidl.h)
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 787195b20980164d7534bccc267781cdbb7510e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1702f990dc1c88f7632bf74a40ca4671a70350450c723d4d9392af6e47dac038
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027466"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118740664"
 ---
 # <a name="mf_policy_id-attribute"></a>MF \_ 原則 \_ 識別碼屬性
 
@@ -30,8 +30,8 @@ ms.locfileid: "104027466"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 10 2020 年4月更新   <br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows 102020年4月更新   <br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

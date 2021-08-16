@@ -4,12 +4,12 @@ ms.assetid: 1b8306da-7577-40b8-b77c-5762c1962f00
 title: 授權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c939a4dd8747b7219fe99650ab7a078239b5f643
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b0eb421a351c2f68667fd86925957fae5cf61569a229eaf9c4fe32eb1123abd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195585"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784200"
 ---
 # <a name="authorization"></a>授權
 
@@ -21,7 +21,7 @@ Microsoft 授權技術包括授權管理員和 Authz API。
 
 ## <a name="developer-audience"></a>開發人員對象
 
-Microsoft 授權技術適用于以控制資源存取權的 Windows Server 和 Windows 作業系統為基礎的應用程式開發人員使用。 開發人員應該熟悉以 Windows 為基礎的程式設計。 雖然並非必要，但建議您瞭解授權或安全性相關的主題。
+Microsoft 授權技術適用于應用程式開發人員，這些應用程式是以控制資源存取權的 Windows 伺服器和 Windows 作業系統為基礎。 開發人員應該熟悉以 Windows 為基礎的程式設計。 雖然並非必要，但建議您瞭解授權或安全性相關的主題。
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 

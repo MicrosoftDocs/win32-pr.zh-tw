@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c7bf8da47b64ea65965d02d99f15ab181c5bafcc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f43b10805f98e12796cbc192d925d2c53ae0dae4b6a32366d10263e71d624e3a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985192"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118494823"
 ---
 # <a name="esentinternalerrorexception-class"></a>EsentInternalErrorException 類別
 

@@ -4,16 +4,16 @@ ms.assetid: dee50454-8358-4898-b098-2de51505b658
 title: 'ITTimeCollection：： Create 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: df62bbc8f1ad2a24a9b80a7f5d0a25bc01f713d8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 12a65949d0584f6ed41d3e1611c790b6b94dfa88a4e11ba18818974af5d38cef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106982986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762370"
 ---
 # <a name="ittimecollectioncreate-method"></a>ITTimeCollection：： Create 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Create** 方法會建立新的 [**ITTime**](ittime.md)元件。
 

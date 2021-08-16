@@ -4,12 +4,12 @@ ms.assetid: 7a817997-bfa8-41f9-8a07-c3884b9a48b0
 title: TAPI 快速函數參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f49d37b11e286b0bf4f02840cbe33438285bc175
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d7783c13b8c03b6ae5a0d6fa496c0d941599d95ea5d4505a6a54d595c3d2896c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760712"
 ---
 # <a name="tapi-quick-function-reference"></a>TAPI 快速函數參考
 
@@ -17,7 +17,7 @@ ms.locfileid: "106988317"
 
 
 
-| 參考區段                                                                            | Description                                                                                         |
+| 參考區段                                                                            | 描述                                                                                         |
 |----------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [基本電話語音服務參考](basic-telephony-services-reference.md)                 | 與 POTS 層級電話語音工作（例如 [**lineMakeCall**](/windows/desktop/api/Tapi/nf-tapi-linemakecall)）相關聯的函式。 |
 | [補充電話語音服務參考](supplementary-telephony-services-reference.md) | 具有更先進功能的函式，例如呼叫重新導向。                                       |

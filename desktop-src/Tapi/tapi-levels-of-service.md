@@ -4,12 +4,12 @@ ms.assetid: f4aa8000-e3fb-4d62-b463-650aae6926fe
 title: 服務的 TAPI 等級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 252af19b711ff638d31e26fac6aa1cbfce991a38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a37d651b632561d00d2797b8287f936a226d04f127dcaa520a126503be458785
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760763"
 ---
 # <a name="tapi-levels-of-service"></a>服務的 TAPI 等級
 

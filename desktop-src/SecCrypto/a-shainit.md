@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: 831c86b02c946896014fa9eec02270f2e963e484
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a0081311988a5da0ae5ca21e924305918bb1e713a6cde3be1b77821c9b458cb8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774263"
 ---
 # <a name="a_shainit-function"></a>SHAInit 函式 \_
 
@@ -52,7 +52,7 @@ SHA 內容。
 
 ## <a name="remarks"></a>備註
 
-此函式與 SHAInit 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱 [Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
+此函式與 SHAInit 非常類似，但會直接從程式庫呼叫，而不是透過密碼編譯基礎結構來路由傳送。 如需詳細資訊，請參閱[Windows NTCryptographic 提供者](/previous-versions/tn-archive/cc723484(v=technet.10))。
 
 ## <a name="requirements"></a>規格需求
 

@@ -69,7 +69,7 @@ HKEY_LOCAL_MACHINE
 
 當主控台應用程式即將顯示其屬性工作表時，它會針對每個可取代的頁面呼叫屬性工作表處理常式的 [**IShellPropSheetExt：： ReplacePage**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellpropsheetext-replacepage) 方法一次。 *UPageID* 參數會設定為頁面的識別碼。 可用頁面的識別碼定義于 Cplext 中。 下表列出目前可用的識別碼。 
 
-| 頁面識別碼                      | Description         | 主控台應用程式 |
+| 頁面識別碼                      | 描述         | 主控台應用程式 |
 |------------------------------|---------------------|---------------------------|
 | CPLPAGE \_ 滑鼠 \_ 按鈕      | 按鈕頁面    | 滑鼠                     |
 | CPLPAGE \_ 滑鼠 \_ PTRMOTION    | [動作] 頁面     | 滑鼠                     |

@@ -57,7 +57,7 @@ ms.locfileid: "117781056"
 
 
 
-| 屬性                                                               | 存取類型          | Description                                                                        |
+| 屬性                                                               | 存取類型          | 描述                                                                        |
 |:-----------------------------------------------------------------------|:---------------------|:-----------------------------------------------------------------------------------|
 | **Microsoft.Interop.Security.Azroles.IAzObjectPicker.Name**<br/> | 唯讀<br/> | [**IAzObjectPicker 的 Name 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazobjectpicker-get_name)<br/> |
 

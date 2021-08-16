@@ -4,16 +4,16 @@ ms.assetid: 7bbd5fe3-85f1-4f0a-9d3e-22746bd23aae
 title: MTP/藍牙連接介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 97e5194b8a6ababc05c36590ef30ae19ab185efe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0c0f32717afe14be05cae6e43d097e67fc9790729e5be4ce9c2dfa6f901a126a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843365"
 ---
 # <a name="mtpbluetooth-connection-interfaces"></a>MTP/藍牙連接介面
 
-下列介面可讓應用程式僅列舉支援媒體傳輸通訊協定的裝置，並將其連線到透過藍牙 (MTP/藍牙)  (MTP) 。 WPD 驅動程式（、集合和用戶端介面）不受 MTP/Bluetooth 通訊協定限制。
+下列介面可讓應用程式僅列舉支援媒體傳輸通訊協定的裝置，並將其連線至藍牙 (MTP/藍牙) 的 (MTP) 。 WPD 驅動程式（、集合和用戶端介面）不受 MTP/藍牙通訊協定限制。
 
 
 

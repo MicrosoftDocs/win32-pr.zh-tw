@@ -4,12 +4,12 @@ ms.assetid: 34cfd3a8-20b2-4a57-bc43-8da410cf9ae9
 title: MUI：系統設定應用程式範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d27871f3878c695b85b2131916185c62bc4a3dc1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 32669faf81276bf1605dcbed93615c874fcaf9cc82f90a29bb42653bf4fbace2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106983354"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118390828"
 ---
 # <a name="mui-system-settings-application-sample"></a>MUI：系統設定應用程式範例
 

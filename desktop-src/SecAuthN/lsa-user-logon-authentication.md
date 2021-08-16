@@ -4,12 +4,12 @@ ms.assetid: 62606687-05f1-4757-9fcd-c1932412dcc4
 title: LSA 使用者登入驗證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f57371a1c9f4c3269822fa98475bc0b426b854a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1e077de9273491cef3fa3d63f67c8171b3f40fa27bef6c902e7a2cbcdfeb904
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194069"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117787071"
 ---
 # <a name="lsa-user-logon-authentication"></a>LSA 使用者登入驗證
 

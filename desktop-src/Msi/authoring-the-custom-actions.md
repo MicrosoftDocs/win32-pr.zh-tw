@@ -4,12 +4,12 @@ ms.assetid: 389ec652-243e-4392-aec9-3a7eb90e6c68
 title: 撰寫自訂動作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e09525490304762b98635bcbbe6c238ce3fe413f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bb6880f95b0468a495653057a9a5802af671c55b18b025c38a3191a4792e7558
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944006"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381173"
 ---
 # <a name="authoring-the-custom-actions"></a>撰寫自訂動作
 

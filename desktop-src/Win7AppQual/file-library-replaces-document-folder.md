@@ -41,7 +41,7 @@ ms.locfileid: "118329668"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 程式庫提供集中的類似資料夾體驗，可跨多個位置（本機和遠端）進行檔案儲存、搜尋和存取。
 
