@@ -4,12 +4,12 @@ description: 使用輸出管道將資料從伺服器傳送至用戶端時，您�
 ms.assetid: ab544daf-fbf7-4b00-95a8-55c149a86c27
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ff274491e2b665d86b550853d07c3ff6a4b2a83
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: e959db9e505bb7dfe570552fe0385251485591fecb1f818ab4d5de402c2297b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929127"
 ---
 # <a name="implementing-output-pipes-on-the-client"></a>在用戶端上執行輸出管道
 
@@ -117,6 +117,6 @@ ReceiveLongs 函式會宣告管道並配置全域資料接收變數的記憶體�
 [**/Oi**](/windows/desktop/Midl/-oi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

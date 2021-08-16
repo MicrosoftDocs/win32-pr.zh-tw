@@ -4,12 +4,12 @@ ms.assetid: 9e316bdd-803a-47af-b004-7675478eb829
 title: 執行 IWICBitmapDecoder
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b31bca377828606fe1beb68d6f1d95d290e01407
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0088b756a7a30134224e32fa67ee891f2c48339f9af70447cb760915ad420619
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104026819"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118711145"
 ---
 # <a name="implementing-iwicbitmapdecoder"></a>執行 IWICBitmapDecoder
 
@@ -158,7 +158,7 @@ hr = pPreviewFrame->QueryInterface(IID_IWICBitmapSource, (void**)&pPreview);
 [如何撰寫 WIC-Enabled 編解碼器](-wic-howtowriteacodec.md)
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
  

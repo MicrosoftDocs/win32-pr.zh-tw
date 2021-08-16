@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: INDEX 子句
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 915cbe1c4bf1da5ccd7fbab881770722b70bc53c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aca4478164839412238f59d9771aa9c96417c4055390cb4599edbb40b0e6b4a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104115805"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318740"
 ---
 # <a name="index-clause"></a>INDEX 子句
 

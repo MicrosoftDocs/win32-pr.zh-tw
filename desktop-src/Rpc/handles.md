@@ -4,12 +4,12 @@ description: 程式位址控制碼的格式字串描述中最多有兩個部分�
 ms.assetid: 11c6742c-b2f5-4201-8b1c-7e31ae52e0da
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d1c1ce68b74440fc9339fb9cf9170bfdd1fdfcd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1bb31dcf075b7b07b65d2a976a37386e164d8cadc11903a33c22172c433a3a51
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118929535"
 ---
 # <a name="handles"></a>處理
 
@@ -67,7 +67,7 @@ Offset<2> 提供從堆疊開頭到基本控制碼的位移。
 > [!Note]  
 > 類型格式字串中的基本控制碼描述會縮減為單一 FC \_ 略過。
 
- 
+ 
 
 泛型
 
@@ -84,9 +84,9 @@ Offset<2> 欄位提供從指標堆疊開頭到指定大小資料的位移。
 > [!Note]  
 > 類型格式的泛型控制碼描述僅為相關資料類型的描述。
 
- 
+ 
 
-Context
+內容
 
 ``` syntax
 FC_BIND_CONTEXT flags<1> offset<2> context_rundown_routine_index<1> param_num<1>
@@ -109,9 +109,9 @@ FC_BIND_CONTEXT flags<1> offset<2> context_rundown_routine_index<1> param_num<1>
 
 
 
- 
+ 
 
-前四個旗標一直都存在，最後四個旗標已新增到 Windows 2000 中。
+前四個旗標一直都存在，最後四個旗標已新增至 Windows 2000。
 
 Offset<2> 欄位提供從堆疊開頭到內容控制碼的位移。
 
@@ -124,7 +124,7 @@ Offset<2> 欄位提供從堆疊開頭到內容控制碼的位移。
 > [!Note]  
 > 在 [描述] 中，類型格式字串中的內容控制碼描述不會有<2> 的位移。
 
- 
+ 
 
 ## <a name="the-new-oif-header"></a>New – Oif 標頭
 
@@ -180,6 +180,6 @@ typedef struct
 
 HasAsyncHandle 位一開始是用於不同的非同步支援 DCOM 實，因此無法用於 DCOM 中目前的樣式非同步支援。 HasAsyncUuid 位目前表示這一點。
 
- 
+ 
 
- 
+ 

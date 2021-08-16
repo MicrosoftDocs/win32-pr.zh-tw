@@ -4,12 +4,12 @@ ms.assetid: 1f49ea1b-d65f-4166-a238-a9941b99735b
 title: COM + 佇列的元件工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d4bac31111a3690383b7c65871c1adfd86678abc
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0b309b35f73823a194c3bcd1d6508c6b74261e5ed157c1e3f0efd4c05a8bd9fb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104025873"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118307975"
 ---
 # <a name="com-queued-components-tasks"></a>COM + 佇列的元件工作
 

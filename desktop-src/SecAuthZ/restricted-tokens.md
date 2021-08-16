@@ -4,12 +4,12 @@ ms.assetid: 06580ab9-ff58-4aa9-bf88-9536a2e1981d
 title: 受限的權杖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fee8e6c89915e3edd0a9206f84a0d3d5697a3cb9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53f63402997d9e1304ca75ca117554ce52c3aa727f44b3b8316c28e1ecfcea45
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113796"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912006"
 ---
 # <a name="restricted-tokens"></a>受限的權杖
 
@@ -21,7 +21,7 @@ ms.locfileid: "104113796"
 
 當系統檢查安全物件的權杖存取權時，系統會使用限制 Sid 的清單。 當受限制的進程或執行緒嘗試存取安全物件時，系統會執行兩項存取檢查：一個使用權杖啟用的 Sid，另一個使用限制 Sid 的清單。 只有在這兩個存取檢查都允許要求的存取權限時，才會授與存取權。 如需有關存取檢查的詳細資訊，請參閱 [Dacl 如何控制物件的存取權](how-dacls-control-access-to-an-object.md)。
 
-在 [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera)函式的呼叫中，您可以使用受限制的 [*主要權杖*](/windows/desktop/SecGloss/p-gly)。 一般而言，呼叫 **CreateProcessAsUser** 的程式必須擁有 SE \_ ASSIGNPRIMARYTOKEN \_ NAME 許可權，這通常只會由系統程式碼或在 LocalSystem 帳戶中執行的服務所保存。 但是，如果 **CreateProcessAsUser** 呼叫指定受限制版本的呼叫端主要權杖，則不需要此許可權。 這可讓一般的應用程式建立受限的進程。
+在 [**CreateProcessAsUser**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessasusera)函式的呼叫中，您可以使用受限制的 [*主要權杖*](/windows/desktop/SecGloss/p-gly)。 一般而言，呼叫 **CreateProcessAsUser** 的程式必須具有 SE \_ ASSIGNPRIMARYTOKEN \_ NAME 許可權，這通常只會由系統程式碼或 LocalSystem 帳戶中執行的服務所持有。 但是，如果 **CreateProcessAsUser** 呼叫指定受限制版本的呼叫端主要權杖，則不需要此許可權。 這可讓一般的應用程式建立受限的進程。
 
 您也可以在 [**ImpersonateLoggedOnUser**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-impersonateloggedonuser)函數中使用受限制的主要或模擬 [*權杖*](/windows/desktop/SecGloss/i-gly)。
 

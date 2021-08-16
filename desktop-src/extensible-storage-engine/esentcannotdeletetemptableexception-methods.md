@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101262
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2432224818a33629542548085c477a9cee94a07a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bad8d1d77162c01b5eaead026b3e52dfaa7e2142e520abc4ca9f4a5716123679
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118783420"
 ---
 # <a name="esentcannotdeletetemptableexception-methods"></a>EsentCannotDeleteTempTableException 方法
 

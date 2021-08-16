@@ -4,12 +4,12 @@ ms.assetid: d62901dd-c897-4f5e-8049-f69375bb7d8e
 title: 同步處理宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8dae10856ada5bcdb75c5bb2876e828382b77478
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a857ae4b2ca4ffdd1bd41d67412fafee213258176ac3cf329c5ef97565b5208
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106974469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885960"
 ---
 # <a name="synchronization-macros"></a>同步處理宏
 

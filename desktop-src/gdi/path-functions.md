@@ -4,12 +4,12 @@ ms.assetid: 68390601-1542-41dc-bea0-78f6c3318806
 title: '路徑函式 (Windows GDI) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9ab85e52392b3e600877f8f5adac08d5de77e873
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 700298056ac595b0e9208c0b8535d7a3d2e822e048e4c656d0b4501947764533
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118759424"
 ---
 # <a name="path-functions-windows-gdi"></a>路徑函式 (Windows GDI) 
 

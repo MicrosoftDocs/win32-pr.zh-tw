@@ -6,12 +6,12 @@ keywords:
 - MCIWndCreate 函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 198ae0bb72a5da82042b5448d2a9213358f0174d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a62d4e4af43be9877ec5bf3fae452e44ae415bc47047448cb65b64ad3446e0b6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106999574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941816"
 ---
 # <a name="adding-user-controlled-playback"></a>新增 User-Controlled 播放
 
@@ -35,9 +35,9 @@ MCIWndCreate(hwndParent, hInstModule, NULL, "filename.typ");
 5.  顯示裝置控制項。
 6.  如有需要，顯示視窗的播放區域。
 
- 
+ 
 
- 
+ 
 
 
 

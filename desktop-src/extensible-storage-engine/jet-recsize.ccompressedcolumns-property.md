@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 448a18afc5a986fb34128dc4113fddef4448486a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80a058cc12174b9247524ccd88060a9aa17ba561a95b036010040a4786d0d47c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112093"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118763743"
 ---
 # <a name="jet_recsizeccompressedcolumns-property"></a>JET_RECSIZE cCompressedColumns 屬性
 

@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Advapi32.dll
-ms.openlocfilehash: 35ec65e7899f45a5222ae12b08992e77ea67f306
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8e6b7c5b377ffa7b517ccd19d1dfbffa08d26191af3822f9d9b17cc02c33d055
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027253"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118922333"
 ---
 # <a name="logonuserexexw-function"></a>LogonUserExExW 函式
 
@@ -121,7 +121,7 @@ BOOL WINAPI LogonUserExExW(
 
 [**權杖 \_ 群組**](/windows/win32/api/winnt/ns-winnt-token_groups)結構的指標，指定新增至權杖的群組 sid 清單，此函式會在登入成功時收到此清單。 新增至權杖的任何 Sid 也會影響群組擴充。 例如，如果新增的 Sid 是本機群組的成員，這些群組也會新增至接收的存取權杖。
 
-如果這個參數不是 **Null**，則此函式的呼叫者必須授與並啟用 **SE \_ TCB \_ 許可權** 許可權。
+如果此參數不是 **Null**，則此函式的呼叫者必須授與並啟用 **SE \_ TCB \_ 許可權** 許可權。
 
 </dd> <dt>
 
@@ -181,7 +181,7 @@ SID 指標的指標，此 SID 會接收使用者登入的 SID。
 -   函數會傳回模擬 [*權杖*](../secgloss/i-gly.md)，而不是主要權杖。 您無法直接在 [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) 函式中使用此 token。 不過，您可以呼叫 [**DuplicateTokenEx**](/windows/win32/api/securitybaseapi/nf-securitybaseapi-duplicatetokenex) 函式，將權杖轉換為主要權杖，然後在 **CreateProcessAsUser** 中使用它。
 -   如果您將權杖轉換為主要權杖，並在 [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) 中使用它來啟動處理常式，則新的進程無法透過重新導向器存取其他網路資源，例如遠端伺服器或印表機。 例外狀況是，如果網路資源不受存取控制，則新的進程將可以存取它。
 
-*LpszUsername* 所指定的帳號必須具有必要的帳戶許可權。 例如，若要使用 **LOGON32 \_ 登入 \_ 互動式** 旗標登入使用者，使用者 (或使用者所屬的群組) 必須有「 **SE \_ 互動式 \_ 登錄 \_ 名稱** 」帳戶許可權。 如需影響各種登入作業的帳戶許可權清單，請參閱 [帳戶物件存取權限](../secmgmt/account-object-access-rights.md)。
+*LpszUsername* 所指定的帳號必須具有必要的帳戶許可權。 例如，若要使用 **LOGON32 \_ 登入 \_ 互動式** 旗標登入使用者，使用者 (或使用者所屬的群組) 必須具有 **SE \_ 互動式 \_ 登錄 \_ 名稱** 帳戶許可權。 如需影響各種登入作業的帳戶許可權清單，請參閱 [帳戶物件存取權限](../secmgmt/account-object-access-rights.md)。
 
 如果至少有一個權杖存在，則會將使用者視為已登入。 如果您呼叫 [**CreateProcessAsUser**](/windows/win32/api/processthreadsapi/nf-processthreadsapi-createprocessasusera) ，然後關閉權杖，使用者仍會登入，直到處理程式 (和所有子進程) 結束為止。
 
@@ -193,8 +193,8 @@ SID 指標的指標，此 SID 會接收使用者登入的 SID。
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                  |
 | 版本<br/>                  | LogonUserExExW 也提供于 windows Server 2003 或 Windows XPwith 一般發行版本。<br/> |
 | 標頭<br/>                   | <dl> <dt>Winbasep。h</dt> </dl>                                 |
 | DLL<br/>                      | <dl> <dt>Advapi32.dll</dt> </dl>                               |

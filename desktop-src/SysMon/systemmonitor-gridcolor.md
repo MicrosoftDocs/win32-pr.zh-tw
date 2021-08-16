@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8054ba81dfb0db6be311933d0a7d006435694257
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2681b9c0e7d07a6bc7ba4fd6860d9295c660672815c6e9090780f16bb5d03103
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118882404"
 ---
 # <a name="systemmonitorgridcolor-property"></a>SystemMonitor. GridColor 屬性
 

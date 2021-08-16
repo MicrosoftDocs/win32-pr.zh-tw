@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Ntddstor.h
-ms.openlocfilehash: e57a9f4420b977598e15f9aae219c060665c9d0d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3a138f6594e241c96526ebf6955c61374aa0f48a5aa66f364ef82c1591b64594
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118404969"
 ---
 # <a name="storage_read_capacity-structure"></a>儲存體 \_ 讀取 \_ 容量結構
 
@@ -89,7 +89,7 @@ typedef struct _STORAGE_READ_CAPACITY {
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                              |
-| 最低支援的伺服器<br/> | Windows Server 2008、Windows Server 2003 SP1<br/>                          |
+| 最低支援的伺服器<br/> | Windowsserver 2008、Windows server 2003 SP1<br/>                          |
 | 標頭<br/>                   | <dl> <dt>Ntddstor。h</dt> </dl> |
 
 

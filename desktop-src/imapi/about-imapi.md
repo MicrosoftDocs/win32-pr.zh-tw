@@ -4,12 +4,12 @@ description: IMAPI.EXE 可讓您使用各種檔案系統建立光學媒體。
 ms.assetid: 12e99e39-8503-4f50-899a-d1ae69d5106d
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88994cd0e79cf65e4e743a8a83bcb58000fab1a0
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d669c23899c1610cdb14d8d01e722defd794b1842b64017cc45523d1fd514300
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103670939"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118758898"
 ---
 # <a name="about-imapi"></a>關於 IMAPI.EXE
 
@@ -51,9 +51,9 @@ IMAPI.EXE 支援下列媒體裝置。
 [光碟格式](disc-formats.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

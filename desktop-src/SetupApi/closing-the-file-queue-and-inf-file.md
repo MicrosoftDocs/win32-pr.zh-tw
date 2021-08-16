@@ -4,12 +4,12 @@ ms.assetid: 4cb21699-e476-4832-9678-2bf36f3bda08
 title: 關閉檔案佇列和 INF 檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35b4005e3ce9d084d759612d70cd9fd256fe9ba4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ce5c81c75f7515acfb346b4277e416b0cb2c2a9be6e40464dcfdfc21c3b23bba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997260"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118887573"
 ---
 # <a name="closing-the-file-queue-and-inf-file"></a>關閉檔案佇列和 INF 檔案
 

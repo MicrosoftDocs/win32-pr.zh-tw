@@ -6,12 +6,12 @@ keywords:
 - type_from_xmit
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e594e8586522dd3697f5ae62c95851917741f73c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b1a38e372467208c76111728080037c65f5dca2856304a49f06e7e33426277eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021891"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923697"
 ---
 # <a name="the-type_from_xmit-function"></a>Xmit 函式中的型別 \_ \_
 
@@ -63,9 +63,9 @@ void __RPC_USER DOUBLE_LINK_TYPE_from_xmit(
 
 
 
- 
+ 
 
- 
+ 
 
 
 

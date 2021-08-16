@@ -9,12 +9,12 @@ keywords:
 - DWM (桌面視窗管理員) ，函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 067f836e7fa8b5b84be02a402a3e0b3d0f78d1c1
-ms.sourcegitcommit: ae73f4dd3cf5a3c6a1ea7d191ca32a5b01f6686b
+ms.openlocfilehash: fe8c1db28571fde16cf0fe0f9068f5bd650d31f637776c7bcc00717ab3043997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/08/2020
-ms.locfileid: "104316603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503303"
 ---
 # <a name="dwm-functions"></a>DWM 函數
 
@@ -51,7 +51,7 @@ ms.locfileid: "104316603"
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenableblurbehindwindow"><strong>DwmEnableBlurBehindWindow</strong></a><br/></td>
 <td>啟用指定之視窗的模糊效果。<br/></td>
-<b>注意</b> 從 Windows 8 開始，呼叫此函式並不會造成模糊效果，因為轉譯視窗的方式中的樣式變更。
+<b>注意</b>從 Windows 8 開始，呼叫此函式並不會造成模糊效果，因為轉譯視窗的方式中的樣式變更。
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmenablecomposition"><strong>DwmEnableComposition</strong></a><br/></td>
@@ -97,7 +97,7 @@ ms.locfileid: "104316603"
 <tr class="even">
 <td><a href="/windows/desktop/api/dwmapi/nf-dwmapi-dwmgetunmettabrequirements"><strong>DwmGetUnmetTabRequirements</strong></a><br/></td>
 <td><blockquote>
-<strong>注意</strong>  這個函式是公開可用的，但無法正常運作，Windows 10 版本1803。
+<strong>注意</strong> 這個函式是公開可用的，但無法正常運作，Windows 10 版本1803。
 </blockquote>
 檢查在指定的視窗的應用程式標題列中取得索引標籤所需的需求。<br/></td>
 </tr>
@@ -111,11 +111,11 @@ ms.locfileid: "104316603"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmiscompositionenabled"><strong>DwmIsCompositionEnabled</strong></a><br/></td>
-<td>取得值，這個值會指出是否已啟用 DWM 組合。 執行 Windows 7 或更早版本之電腦上的應用程式，可以藉由處理 <a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a> 通知，來接聽撰寫狀態變更。<br/></td>
+<td>取得值，這個值會指出是否已啟用 DWM 組合。 執行 Windows 7 或更早版本之電腦上的應用程式，可以藉由處理<a href="wm-dwmcompositionchanged.md"><strong>WM_DWMCOMPOSITIONCHANGED</strong></a>通知來接聽撰寫狀態變更。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a><br/></td>
-<td>變更將顯示上一個畫面格的監視器重新整理次數。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a> 。 從 Windows 8.1 開始，對 <strong>DwmModifyPreviousDxFrameDuration</strong> 的呼叫一律會傳回 E_NOTIMPL。<br/></td>
+<td>變更將顯示上一個畫面格的監視器重新整理次數。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmmodifypreviousdxframeduration"><strong>DwmModifyPreviousDxFrameDuration</strong></a> 。 從 Windows 8.1 開始，對<strong>DwmModifyPreviousDxFrameDuration</strong>的呼叫一律會傳回 E_NOTIMPL。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmquerythumbnailsourcesize"><strong>DwmQueryThumbnailSourceSize</strong></a><br/></td>
@@ -131,7 +131,7 @@ ms.locfileid: "104316603"
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a><br/></td>
-<td>設定用來顯示所呈現畫面格的監視器重新整理數目。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a> 。 從 Windows 8.1 開始，對 <strong>DwmSetDxFrameDuration</strong> 的呼叫一律會傳回 E_NOTIMPL。<br/></td>
+<td>設定用來顯示所呈現畫面格的監視器重新整理數目。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetdxframeduration"><strong>DwmSetDxFrameDuration</strong></a> 。 從 Windows 8.1 開始，對<strong>DwmSetDxFrameDuration</strong>的呼叫一律會傳回 E_NOTIMPL。<br/></td>
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmseticoniclivepreviewbitmap"><strong>DwmSetIconicLivePreviewBitmap</strong></a><br/></td>
@@ -143,7 +143,7 @@ ms.locfileid: "104316603"
 </tr>
 <tr class="odd">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a><br/></td>
-<td>設定框架組合的目前參數。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a> 。 從 Windows 8.1 開始，對 <strong>DwmSetPresentParameters</strong> 的呼叫一律會傳回 E_NOTIMPL。<br/></td>
+<td>設定框架組合的目前參數。 <br/> 不再支援<a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetpresentparameters"><strong>DwmSetPresentParameters</strong></a> 。 從 Windows 8.1 開始，對<strong>DwmSetPresentParameters</strong>的呼叫一律會傳回 E_NOTIMPL。<br/></td>
 </tr>
 <tr class="even">
 <td><a href="/windows/desktop/api/Dwmapi/nf-dwmapi-dwmsetwindowattribute"><strong>DwmSetWindowAttribute</strong></a><br/></td>

@@ -4,16 +4,16 @@ ms.assetid: c6ddf5fc-a7c5-49c1-899b-ff9fdff9c028
 title: 排序多個語言合併模組 CAB 中的檔案順序
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01bdd00d8b09c0605b7ddcf656d87d41e3f53776
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 96e0d7d5efc3c4599f7a3f0eecce2101d1a7db034be6e0f80eda30245a95204d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195273"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118942805"
 ---
 # <a name="ordering-the-file-sequence-in-the-cab-of-a-multiple-language-merge-module"></a>排序多個語言合併模組 CAB 中的檔案順序
 
-您必須撰寫多語言合併模組、語言轉換和封包檔，使 .cab 中的檔案順序符合 [File 資料表](file-table.md)中指定的檔案安裝順序，即使是在語言轉換的應用程式之後也一樣。 如果模組和 .cab 中的順序不相符，就無法使用合併模組。
+多語言合併模組、語言轉換和封包檔必須撰寫成使 .cab 中的檔案順序符合 [File 資料表](file-table.md)中指定之檔案的安裝順序，即使是在語言轉換的應用程式之後也一樣。 如果模組和 .cab 中的順序不相符，就無法使用合併模組。
 
 指派給模組中的每個檔案，這是與語言無關的唯一序號，然後一律使用該檔案的序號。 建立封包檔和撰寫語言轉換時，請使用相同的順序。
 

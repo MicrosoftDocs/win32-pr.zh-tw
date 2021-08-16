@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102771
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 0d9ea508b5996279796706d8e4a152c4386b1a9e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d65bc71f6b512f8a17360cac46946034618d153d23b6e82d7aa272070eca13f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104562840"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118773180"
 ---
 # <a name="esentslvfilestaleexception-members"></a>EsentSLVFileStaleException 成員
 

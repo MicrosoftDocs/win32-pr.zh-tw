@@ -4,12 +4,12 @@ ms.assetid: 82c24d0e-12c4-436b-8a1d-452819412954
 title: WinPhone8CameraFlags
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d17762a72d8e57bafabb0778920a15161d3fe5d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f15cf0b79e60d7d5681a9999f4fe5a174bf590d1d5de04d646ad8dab087ddf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118727648"
 ---
 # <a name="systemdeviceswinphone8cameraflags"></a>WinPhone8CameraFlags
 

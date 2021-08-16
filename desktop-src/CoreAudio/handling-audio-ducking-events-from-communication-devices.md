@@ -4,12 +4,12 @@ ms.assetid: 1b92574e-7cde-49c0-a68e-223492412361
 title: 回避通知的執行考慮
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3de07ea23b7cdc8d726ab68a5a6554bf1713a921
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f61d7e67bd456e962442f62f59c3119c756258aadd75334e7736cbc69fba0867
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110937"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118957317"
 ---
 # <a name="implementation-considerations-for-ducking-notifications"></a>回避通知的執行考慮
 

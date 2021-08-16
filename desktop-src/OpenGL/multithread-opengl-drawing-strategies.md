@@ -3,16 +3,16 @@ title: 多執行緒 OpenGL 繪圖策略
 description: GDI 不支援多個執行緒。
 ms.assetid: 3930029d-b2d9-4beb-bad6-4962f952d7ee
 keywords:
-- Windows 上的 OpenGL，多執行緒繪圖
+- Windows、多執行緒繪圖上的 OpenGL
 - 多執行緒 OpenGL 繪圖 OpenGL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3bccb08d48bd8ccb62584f15911a1eb65080c4a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 05d928a481e4334f97cad2f7009f008c899ad8378f3fd15cf9e117e6b9599393
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300631"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118937253"
 ---
 # <a name="multithread-opengl-drawing-strategies"></a>多執行緒 OpenGL 繪圖策略
 
@@ -22,9 +22,9 @@ GDI 不支援多個執行緒。 您必須針對每個執行緒使用不同的裝
 
 執行緒只能有一個目前的現用轉譯內容。 當您使用多個執行緒和多個轉譯內容時，必須小心同步處理其使用方式。 例如，在所有線程完成繪製之後，只能使用一個執行緒來呼叫 [**SwapBuffers**](/windows/desktop/api/wingdi/nf-wingdi-swapbuffers) 。
 
- 
+ 
 
- 
+ 
 
 
 

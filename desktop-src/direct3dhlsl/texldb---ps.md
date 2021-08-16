@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 912c4c61f6c1f2b6bef46c7c5b6ea17223df5eb8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ddf340840e377ee03641ae33c0731f27e90ce4760cad4ddb6c636c1831fa80ea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505791"
 ---
 # <a name="texldb---ps"></a>texldb-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104092803"
 
 
 
- 
+ 
 
 其中：
 
@@ -68,7 +68,7 @@ src1 必須是 [ (Direct3D 9 asm-ps) ](dx9-graphics-reference-asm-ps-registers-s
 
 
 
- 
+ 
 
 texldb 會偏差 mipmap 的詳細層級，並以 src0 中 (簽署的) 值做為範例進程的一部分來計算。 正偏差值會導致選取較小的 mipmap，反之亦然。 針對 ps \_ 2 \_ 0 和 ps \_ 2 \_ x，偏差值可以在 \[ -3.0、+ 3.0 範圍內 \] 。 針對 ps \_ 3 \_ 0，偏差值可以在 \[ -16.0、+ 15.0 範圍內 \] 。 這些範圍之外的偏差值會產生未定義的結果。 仍會接受取樣器狀態 D3DSAMP \_ MIPMAPLODBIAS，並將 texldb 偏差新增至此，但以每圖元為基礎。 計算出偏高的詳細資料層級之後， \_ 仍會接受 D3DSAMP MAXMIPLEVEL，並產生紋理範例。 Texldb 之後，除非 dst 是相同的註冊) ，否則 src0 的內容不會受到 (的影響。
 
@@ -88,7 +88,7 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -97,6 +97,6 @@ Src0 執行材質範例所需的座標數目取決於 src1 的宣告方式，以
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

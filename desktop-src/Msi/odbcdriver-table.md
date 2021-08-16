@@ -4,12 +4,12 @@ ms.assetid: 3518b370-0652-4b54-8057-9871365d5e8c
 title: ODBCDriver 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3257f3eec5b60191df727d156572293489aa1956
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a1eb0da3217d7466fc0beef90933c8a6af32e3d0551ecc6975a31ac55ed2730
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511189"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118943119"
 ---
 # <a name="odbcdriver-table"></a>ODBCDriver 資料表
 

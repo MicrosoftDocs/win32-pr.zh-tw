@@ -4,12 +4,12 @@ ms.assetid: 3815d487-2d58-4ba8-85d2-cae6a642a791
 title: HKEY_CLASSES_ROOT 的合併視圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b8597db976922db9ca348488b0092c41ba7c7489
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a52b48be32ec524cdac42808d7f4efddfc78854b56133e647d6f5a9b06ae88bc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118885416"
 ---
 # <a name="merged-view-of-hkey_classes_root"></a>HKEY \_ 類別根目錄的合併 \_ 視圖
 
@@ -23,7 +23,7 @@ ms.locfileid: "106984704"
 
 如果使用系統管理員許可權來執行應用程式，且已停用 [使用者帳戶控制]，則 COM 執行時間會忽略個別使用者的 COM 設定，並只存取每一電腦的 COM 設定。 需要系統管理員許可權的應用程式應該在安裝期間，將相依的 COM 物件註冊到個別電腦的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別**) 。 如需詳細資訊，請參閱 [AC： UAC： COM Per-User](/previous-versions/bb756926(v=msdn.10))設定。
 
-**Windows Server 2003 和 WINDOWS XP/2000：** 應用程式可以將相依的 COM 物件註冊到個別電腦或個別使用者的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 或 **HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ 類別**) 。
+**Windows Server 2003 和 Windows XP/2000：** 應用程式可以將相依的 COM 物件註冊到個別電腦或個別使用者的 COM 設定存放區 (**HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 或 **HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ 類別**) 。
 
 下列範例顯示 **HKEY \_ 本機 \_ 電腦** 底下的一組子機碼，並 **HKEY \_ 目前的 \_ 使用者** 金鑰，以及 **HKEY \_ 類別 \_ 根目錄** 的結果合併觀點。
 
@@ -35,7 +35,8 @@ ms.locfileid: "106984704"
 
 下列子機碼可在 **HKEY \_ 本機 \_ 電腦 \\ 軟體 \\ 類別** 和 **HKEY 目前的 \_ \_ 使用者 \\ 軟體 \\ 類別** 中找到。 從 **HKEY \_ 本機 \_ 電腦** 樹狀目錄中，只有當這些金鑰與 **HKEY \_ 目前 \_ 使用者** 樹狀結構中的立即子機碼不重複時，才會將這些機碼的立即子機碼包含在合併的視圖中。 合併的視圖不包含重複子 **機碼的 HKEY \_ 本機 \_ 電腦** 內容。
 
-**\**_ _*\*\\shellex**  
+**\***  
+**\*\\shellex**  
 **\*\\shellex \\ CoNtextMenuHandlers**  
 **\*\\shellex \\ PropertySheetHandlers**  
 **AppID**  

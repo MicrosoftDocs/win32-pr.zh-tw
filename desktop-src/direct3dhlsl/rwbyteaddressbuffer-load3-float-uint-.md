@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 8451abe17c3ff74a1906828b3570dc6ee98782f1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 91d4a90094d93705e17c9087583974ef8f9d76e1878cb0c5aa8dab21dc82e073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315973"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118791220"
 ---
 # <a name="load3uintuint-function"></a>Load3 (uint，uint) 函數
 
@@ -29,8 +29,8 @@ ms.locfileid: "104315973"
 
 ``` syntax
 uint3 Load3(
-  in  uint Location,
-  out uint Status
+  in  uint Location,
+  out uint Status
 );
 ```
 
@@ -70,13 +70,13 @@ uint3 Load3(
 
 
 
-| 頂點 | 船體 | 網域 | 幾何 | 像素 | 計算 |
+| 頂點 | 船體 | 網域 | 幾何形狀 | 像素 | 計算 |
 |--------|------|--------|----------|-------|---------|
 |        |      |        |          | x     | x       |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -85,6 +85,6 @@ uint3 Load3(
 [Load3 方法](rwbyteaddressbuffer-load3.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

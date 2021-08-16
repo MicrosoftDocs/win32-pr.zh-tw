@@ -3,8 +3,8 @@ title: 字型對話方塊
 description: '[字型] 對話方塊可讓使用者選擇邏輯字型的屬性，例如字型系列和相關聯的字型樣式、點大小、效果 (底線、刪除線和文字色彩) ，以及腳本 (或字元集) 。'
 ms.assetid: e8a996aa-4e34-45d0-a325-9c20b1a6ce07
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面、通用對話方塊程式庫
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，通用對話方塊程式庫
 - 使用者輸入、通用對話方塊程式庫
 - 正在捕獲使用者輸入，通用對話方塊程式庫
 - 通用對話方塊程式庫
@@ -17,12 +17,12 @@ keywords:
 - 對話方塊、字型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f9a752ce53ecf496c58efb0c346a8c3d67c4f1b1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8544fcb60e499a360f60d1701863a11138d3f16fb06a770a9a2763800d908e12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104024029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118785881"
 ---
 # <a name="font-dialog-box"></a>字型對話方塊
 
@@ -50,7 +50,7 @@ ms.locfileid: "104024029"
 
 如果已設定 **cf \_ PRINTERFONTS** 或 **cf \_ 兩個** 旗標，字型類型描述標籤會出現在 [ **字型** ] 對話方塊的底部。
 
-從 Windows 7 開始，適用于字型列舉的 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)函式不再使用 **cf \_ PRINTERFONTS**、 **cf \_ SCREENFONTS**、 **cf \_** 和 **cf \_ WYSIWYG** 旗標。 它們在 Windows 7 中已淘汰。 不過， **CF \_ PRINTERFONTS** 旗標會保留一個函式：在 [ **字型** ] 對話方塊底部顯示 [字型類型描述] 標籤。
+從 Windows 7 開始，適用于字型列舉的 [**ChooseFont**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)函式不再使用 **cf \_ PRINTERFONTS**、 **cf \_ SCREENFONTS**、 **cf \_** 和 **cf \_ WYSIWYG** 旗標。 Windows 7 已淘汰。 不過， **CF \_ PRINTERFONTS** 旗標會保留一個函式：在 [ **字型** ] 對話方塊底部顯示 [字型類型描述] 標籤。
 
 您可以使用 **旗標** 成員來啟用或停用某些 **字型** 對話方塊控制項，而且您可以搭配其他 [**CHOOSEFONT**](/windows/win32/api/commdlg/ns-commdlg-choosefonta)成員使用 **旗標** 成員來控制某些控制項的初始值。
 
@@ -71,7 +71,7 @@ ms.locfileid: "104024029"
 > [!Note]  
 > 若要全球化您的應用程式，請使用 **lpLogFont** 所指向之 [**LOGFONT**](/windows/win32/api/wingdi/ns-wingdi-logfonta)結構的 **lfWeight** 和 **lfItalic** 成員來指定樣式。 樣式名稱可能會隨著系統使用者介面語言而變更。
 
- 
+ 
 
 **若要顯示 [套用] 按鈕**
 
@@ -124,7 +124,7 @@ ms.locfileid: "104024029"
 
 ![顯示 [字型 dialob] 方塊的螢幕擷取畫面](images/fontdialogboxwin7.png)
 
-在舊版的 Windows 中，font-family 範本檔案包含一個預設 ChooseFont 範本。 Windows 7 上的 font-size 範本檔包含兩個預設範本：舊版 Windows 的預設範本和新的 Windows 7 ChooseFont 範本。 因此，當您在 Windows 7 上自訂 [ **字型** ] 對話方塊時，您必須考慮下列問題。
+在先前的 Windows 版本中，font-family 範本檔案包含一個預設 ChooseFont 範本。 Windows 7 上的 font-size 範本檔包含兩個預設範本： Windows 舊版的預設範本，以及新的 Windows 7 ChooseFont 範本。 因此，當您在 Windows 7 上自訂 [**字型**] 對話方塊時，您必須考慮下列問題。
 
 1.  當您針對在 Windows 7 上執行的應用程式建立自訂範本時，請使用新的範本。 這個新範本包含連結控制項，可讓使用者按一下以啟動字型 **主控台** 視窗，如下列螢幕擷取畫面所示。
 
@@ -144,13 +144,13 @@ ms.locfileid: "104024029"
 
     -   為確保您的應用程式使用自訂範本，您必須使用 **CF \_ ENABLETEMPLATE** 旗標來指定自訂範本、根據 Windows 7 ChooseFont 範本建立自訂範本，然後選擇性地啟用攔截程式。
 
-        如果您在未建立自訂範本的情況下啟用攔截程式，將會載入舊版 Windows 的預設 ChooseFont 範本。
+        如果您在未建立自訂範本的情況下啟用攔截程式，將會載入較早 Windows 版本的預設 ChooseFont 範本。
 
 > [!Note]  
-> 您必須根據應用程式所編譯的 COMMCTL.DLL 版本，在新的範本中指定 **控制項** 或 **按鈕** 控制項類型。 另請注意，當您的應用程式在舊版 Windows 作業系統上執行時，就無法使用 Windows 7 特有的功能，例如，字型清單和延伸系列的 WYSIWYG 顯示。
+> 您必須根據應用程式所編譯的 COMMCTL.DLL 版本，在新的範本中指定 **控制項** 或 **按鈕** 控制項類型。 另請注意，當您的應用程式在舊版 Windows 作業系統上執行時，就無法使用 Windows 7 特定功能（例如，字型清單和延伸系列的 WYSIWYG 顯示）。
 
- 
+ 
 
- 
+ 
 
- 
+ 

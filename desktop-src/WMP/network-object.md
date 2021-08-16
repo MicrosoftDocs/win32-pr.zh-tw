@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: d439679636bce773c43f5610060c4744ef4d5d7c
-ms.sourcegitcommit: 4f5016b1fbfd703dbf769c508db464c2518c0fa5
+ms.openlocfilehash: 6bf91c23d6a5c581430b17a370e66027a5f9174d0511a2647fba33834ec6c4b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "104373463"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118996108"
 ---
 # <a name="network-object"></a>Network 物件
 
@@ -49,7 +49,7 @@ ms.locfileid: "104373463"
 
 
 
- 
+ 
 
 **Network** 物件支援下列方法。
 
@@ -70,7 +70,7 @@ ms.locfileid: "104373463"
 
 
 
- 
+ 
 
 **網路** 物件是透過下列屬性來存取。
 
@@ -78,11 +78,11 @@ ms.locfileid: "104373463"
 
 | Object                      | 屬性                      |
 |-----------------------------|-------------------------------|
-| [球員](player-object.md) | [network](player-network.md) |
+| [球員](player-object.md) | [網路](player-network.md) |
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -91,9 +91,9 @@ ms.locfileid: "104373463"
 [**腳本的物件模型參考**](object-model-reference-for-scripting.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

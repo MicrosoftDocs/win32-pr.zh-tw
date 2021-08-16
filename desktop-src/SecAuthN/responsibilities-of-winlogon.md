@@ -4,12 +4,12 @@ ms.assetid: 5aef4164-11bd-4acc-b851-de982e35d2b5
 title: Winlogon 的責任
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7842df1d4194dc7086f658a13f6725af8fa0d88
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6561bea11c48eb474c0ff56c5c0aa5ebfa0c22d9d6689aa55a6a208bbbc683e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919026"
 ---
 # <a name="responsibilities-of-winlogon"></a>Winlogon 的責任
 
@@ -41,7 +41,7 @@ ms.locfileid: "103944136"
 
 -   多個網路提供者支援
 
-    在 Windows 系統上安裝的多個網路可以包含在驗證程式和密碼更新作業中。 這項包含可讓其他網路在正常登入期間，使用 Winlogon 的安全桌面，同時收集識別和驗證資訊。 Gina 可供您明確支援這些額外網路提供者的 Winlogon 服務中所需的某些參數。
+    安裝在 Windows 系統上的多個網路可以包含在驗證程式和密碼更新作業中。 這項包含可讓其他網路在正常登入期間，使用 Winlogon 的安全桌面，同時收集識別和驗證資訊。 Gina 可供您明確支援這些額外網路提供者的 Winlogon 服務中所需的某些參數。
 
  
 

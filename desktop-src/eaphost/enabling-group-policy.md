@@ -4,12 +4,12 @@ description: 瞭解如何藉由啟用群組原則來設定要求者。 查看要
 ms.assetid: ac04b83b-1322-41d4-85e0-93687f10a7f6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af7b57e736bf078068156f6aff10d294621749a2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 4b2a388bf8dba155e42d5542c1379f7b0cc34d44579b92809387541d7e20cf65
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382901"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118784997"
 ---
 # <a name="enabling-group-policy"></a>啟用群組原則
 
@@ -51,9 +51,9 @@ ms.locfileid: "104382901"
 [EAPHost 要求者](eaphost-supplicants.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

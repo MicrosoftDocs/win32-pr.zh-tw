@@ -4,12 +4,12 @@ ms.assetid: 4b816598-a2dc-4db2-a79a-0c327320fd86
 title: 責任和功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d45a98bf06af7d41a0f55d5705d0a74763bf900f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7685752aaa1d768bf5ea1b1b23941474ebb125075d3eaad01ffed31fe9ee282e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849124"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118919100"
 ---
 # <a name="responsibilities-and-features"></a>責任和功能
 

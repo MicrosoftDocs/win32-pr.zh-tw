@@ -4,12 +4,12 @@ ms.assetid: 3c462000-4f65-43d0-8937-059081a8c417
 title: 字型系列
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5dfda200967b5efbf773fadc17d5093a856d0317
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4752ef9811065e5fbc0bd1aa97cf458410d8ead341f68af6ff9431952cdc3ce7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104991231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118761091"
 ---
 # <a name="font-families"></a>字型系列
 
@@ -17,7 +17,7 @@ ms.locfileid: "104991231"
 
 
 
-| 字型家族 | Description                                                                                                                                   |
+| 字型家族 | 描述                                                                                                                                   |
 |-------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 | 裝飾  | 指定新奇字型。 例如，舊的英文。                                                                                          |
 | Dontcare    | 指定泛型系列名稱。 當字型的相關資訊不存在或不重要時，就會使用此名稱。 使用預設字型。 |

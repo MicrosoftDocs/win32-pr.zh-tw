@@ -17,12 +17,12 @@ keywords:
 - WinEvents
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 93e6973356fe6be922e73eef70e5107b6dcabe0a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: de5b95d7daa3570e8b4b9b1d61c7c5f5590c6456d83190195e57af66811f1672
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324796"
 ---
 # <a name="design-custom-properties-events-and-control-patterns"></a>設計自訂屬性、事件和控制項模式
 
@@ -75,7 +75,7 @@ ms.locfileid: "104375432"
 
 ### <a name="custom-ui-automation-events-and-winevents"></a>自訂消費者介面自動化事件和 WinEvents
 
-[WinEvents](winevents-infrastructure.md) 在 Microsoft Windows 平臺中是一個有用的處理序間通訊和事件機制。 不過，引入新的 New-winevent 識別碼會有風險，因為這可能會導致與其他應用程式或作業系統發生衝突，導致系統變得不穩定。 為了避免衝突，Microsoft 定義了數種不同的 WinEvents 類別，每個類別目錄都定義了一或多個範圍的值，以做為 New-winevent 識別碼使用。 如需詳細資訊，請參閱 [配置 New-winevent 識別碼](allocation-of-winevent-ids.md)。
+在 Microsoft Windows 平臺中， [WinEvents](winevents-infrastructure.md)是很有用的處理序間通訊和事件機制。 不過，引入新的 New-winevent 識別碼會有風險，因為這可能會導致與其他應用程式或作業系統發生衝突，導致系統變得不穩定。 為了避免衝突，Microsoft 定義了數種不同的 WinEvents 類別，每個類別目錄都定義了一或多個範圍的值，以做為 New-winevent 識別碼使用。 如需詳細資訊，請參閱 [配置 New-winevent 識別碼](allocation-of-winevent-ids.md)。
 
 自訂消費者介面自動化事件會藉由在消費者介面自動化架構內部配置事件識別碼，來避免發生衝突。
 
@@ -112,6 +112,6 @@ ms.locfileid: "104375432"
 [UI 自動化控制項模式概觀](uiauto-controlpatternsoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

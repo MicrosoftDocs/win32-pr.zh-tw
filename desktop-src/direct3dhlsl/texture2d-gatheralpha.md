@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 5124246b573cd8e8a1e381b68622cbe4d2c8f528
-ms.sourcegitcommit: 5724b38883e518ac565e1b266defa85ad0941bb2
+ms.openlocfilehash: 5814a192e9d6572c438382fe6f3bf9ada9c3af8b5c2404caf2216336c0cf4f0a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/14/2021
-ms.locfileid: "104973876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118787530"
 ---
 # <a name="texture2dgatheralpha-methods"></a>Texture2D：： GatherAlpha 方法
 

@@ -4,12 +4,12 @@ ms.assetid: f791f847-c31e-4a06-93cb-49117d8f0cb8
 title: Per-User DEVMODE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dee5a79d314e0f9ab89210ba4d2644d2b8ec99c9
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b5e9fd2872d055dba6d04f060e6d2e581e461fd20ddc418f643d09170cda31d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106969347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118731921"
 ---
 # <a name="per-user-devmode"></a>Per-User DEVMODE
 

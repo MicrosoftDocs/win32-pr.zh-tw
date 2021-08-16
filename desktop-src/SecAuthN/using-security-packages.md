@@ -4,12 +4,12 @@ ms.assetid: f5999d41-b334-49be-8883-d9b9042d20dc
 title: 使用安全性封裝
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df24bba0f910ba74a633e8a43f961cee4fb505db
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d9253ee2ac4cec98e3c68a1f3dab80a71b216e6235af78722864ee0e0958897c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980581"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915190"
 ---
 # <a name="using-security-packages"></a>使用安全性封裝
 
@@ -18,7 +18,7 @@ ms.locfileid: "106980581"
 -   [Kerberos 安全性套件](#kerberos-security-package)
 -   [NTLM 安全性封裝](#ntlm-security-package)
 
-[*Kerberos*](../secgloss/k-gly.md)和 NTLM 通訊協定會實作為作業系統提供的 Secur32.dll [*安全性支援提供者*](../secgloss/s-gly.md) (SSP) 的安全性套件。 根據預設，在系統啟動時，電腦上的 [*本機安全機構*](../secgloss/l-gly.md) 會將 KERBEROS 和 NTLM 驗證的支援載入 (LSA) 。 在 Windows Server 或 Windows 網域中，可以使用這兩種套件來驗證網路登入和用戶端/伺服器連接。 使用哪一種取決於連接另一端的電腦功能。 Kerberos 通訊協定一律是慣用的（如果有的話）。
+[*Kerberos*](../secgloss/k-gly.md)和 NTLM 通訊協定會實作為作業系統提供的 Secur32.dll [*安全性支援提供者*](../secgloss/s-gly.md) (SSP) 的安全性套件。 根據預設，在系統啟動時，電腦上的 [*本機安全機構*](../secgloss/l-gly.md) 會將 KERBEROS 和 NTLM 驗證的支援載入 (LSA) 。 在 Windows 伺服器或 Windows 網域中，您可以使用這兩種套件來驗證網路登入和用戶端/伺服器連接。 使用哪一種取決於連接另一端的電腦功能。 Kerberos 通訊協定一律是慣用的（如果有的話）。
 
 建立互動式使用者的安全性內容之後，就可以在使用者的安全性內容中執行的進程載入 Kerberos 或 NTLM 封裝的另一個實例，以支援交換、簽署、驗證、加密和解密訊息。 不過，除了 LSA 以外的任何程式都不允許存取認證快取中的 [*工作階段金鑰*](../secgloss/s-gly.md) 或票證。
 

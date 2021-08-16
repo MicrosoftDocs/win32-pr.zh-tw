@@ -4,12 +4,12 @@ ms.assetid: 8f28177f-335a-4fa2-bf66-2ec1698bebec
 title: 使用者模式初始化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 473b06daf2e1c3612b02583d203ce4cd9afebabd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09be7c4c00937473e2ecc3d6b01bb7c59a2842085a133f381b5a8a10bd9b215f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944828"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118915580"
 ---
 # <a name="user-mode-initialization"></a>使用者模式初始化
 

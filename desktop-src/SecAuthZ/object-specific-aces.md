@@ -4,12 +4,12 @@ ms.assetid: 37d353c0-ac22-430f-b5f3-15deb69be24b
 title: 物件特定的 Ace
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 40760e5cd06af97e93f74c6ff8daff89cd5962f1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e322344730f303cd479e4772563aa7b2dc798a154d54828ebd71d92caad111ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118912413"
 ---
 # <a name="object-specific-aces"></a>物件特定的 Ace
 

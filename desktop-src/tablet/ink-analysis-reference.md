@@ -4,12 +4,12 @@ ms.assetid: c53fc913-66e4-4b50-8f61-7d4e57093d4f
 title: 筆跡分析參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea24c845a011b4009b0f30e7e9ee0b6670e39929
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: be698cbf39549cd6ef69bfbc10bae3bc919029e8cd817effdb3e40cfa4639e03
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191166"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118718718"
 ---
 # <a name="ink-analysis-reference"></a>筆跡分析參考
 

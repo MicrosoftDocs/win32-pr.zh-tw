@@ -7,12 +7,12 @@ keywords:
 - represent_as
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7121925f1407cb3390c3ef1e7e5f2f6430506071
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 3bbf217260f3d23f7390a2295d7db5a36174ae01a94f7368f8e7d2085d19ae0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118923997"
 ---
 # <a name="the-represent_as-attribute"></a>表示 \_ 為屬性
 
@@ -39,7 +39,7 @@ typedef [represent_as(repr_type) [, type_attribute_list] named_type;
 
 
 
- 
+ 
 
 除了這四個由程式設計人員提供的常式之外，應用程式也不會操作命名的型別。 應用程式可見的唯一類型是表示的類型。 應用程式會使用所表示的型別名稱，而不是編譯器所產生之原型和存根中的傳送型別名稱。 您必須為雙方提供一組常式。
 
@@ -48,9 +48,9 @@ typedef [represent_as(repr_type) [, type_attribute_list] named_type;
 如果表示的類型是指標或包含指標，則在本機常式的 **命名 \_ 型 \_ \_** 別必須配置記憶體給指標指向 (表示型別物件本身的資料，而存根會以) 的一般方式操作。 若為 \[ [out](/windows/desktop/Midl/out-idl) \] 和 \[ [in](/windows/desktop/Midl/in)、out 的型別（ \] 包含 **\[ 代表 \_** 或其中一個元件的型別），就會針對包含屬性的資料物件，自動呼叫 **指名的型別 \_ \_ free \_ local** 常式。 針對 **\[ in \]** 參數，只有當 **\[ 表示 \_ as \]** 屬性已套用至參數時，才會呼叫 **指名 \_ 型別 \_ free \_ local** 常式。 如果屬性已套用至參數的元件，則不會呼叫 *\* *** \_ 免費的 \_ 本機** 常式。 針對內嵌資料和最多一次的呼叫，不會呼叫釋出的常式， (與最上層屬性) **\[ \] （僅限** 參數）相關。
 
 > [!Note]  
-> 您可以將 **\[ 傳輸 \_ as \]** 和 **\[ 表示為屬性（attribute \_ ） \]** 套用至相同的型別。 封送處理資料時，會先套用 **\[ 表示 \_ 為 \]** 類型轉換，然後套用 **\[ 傳輸 \_ 作為 \]** 轉換。 封送資料時，會反轉順序。 因此，當封送處理時， \* **\_ 從 \_ local** 會配置命名型別的實例，並將它從區欄位型別物件轉譯為暫時命名的型別物件。 此物件是用於 \* **\_ \_ xmit** 常式的呈現型別物件。 然後， \* **\_ \_ xmit** 常式會配置傳送的型別物件，並將其從名為) 物件的呈現 (轉譯為傳輸的物件。
+> 您可以將 **\[ 傳輸 \_ as \]** 和 **\[ 表示為屬性（attribute \_ ） \]** 套用至相同的型別。 封送處理資料時，會先套用 **\[ 表示 \_ 為 \]** 類型轉換，然後套用 **\[ 傳輸 \_ 作為 \]** 轉換。 封送資料時，會反轉順序。 因此，當封送處理時， \* *_\_ 從 \_ local_* 會配置命名型別的實例，並將它從區欄位型別物件轉譯為暫時命名的型別物件。 此物件是用於 \* *_\_ \_ xmit_* 常式的呈現型別物件。 然後， \* *_\_ \_ xmit_* 常式會配置傳送的型別物件，並將其從名為) 物件的呈現 (轉譯為傳輸的物件。
 
- 
+ 
 
 長整數陣列可以用來表示連結的清單。 如此一來，應用程式就會操作此清單，而當傳輸此類型的清單時，傳輸會使用長整數陣列。 您可以從陣列開始，但使用具有 long 整數的開放式陣列的結構比較方便。 下列範例示範如何執行。
 
@@ -111,11 +111,11 @@ LONGARR_free_local(
 
 以上所示的常式會執行下列動作：
 
--   **\_ \_ 本機** 常式的 LONGARR 會計算清單的節點、配置具有 **Sizeof** (**LONGARR**) + Count \* **Sizeof** (**long**) 、將 **Size** 欄位設定為 Count 的 LONGARR 物件，以及將資料複製到 **DataArr** 欄位。
+-   **\_ \_ 本機** 常式的 LONGARR 會計算清單的節點、配置具有 **Sizeof** (**LONGARR**) + Count \* *_Sizeof_* (**long**) 、將 **Size** 欄位設定為 Count 的 LONGARR 物件，以及將資料複製到 **DataArr** 欄位。
 -   **LONGARR \_ 至 \_ local** 常式會建立具有大小節點的清單，並將陣列傳送至適當的節點。
 -   **LONGARR \_ free \_ inst** 常式在這種情況下不會釋出任何東西。
 -   **LONGARR \_ free \_ local** 常式會釋出列表中的所有節點。
 
- 
+ 
 
- 
+ 

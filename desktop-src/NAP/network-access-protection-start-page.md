@@ -7,12 +7,12 @@ keywords:
 - 網路存取保護，起始頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b99348428a867be5bf846fd40b030b844460cdc
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: fc1e5b5121566c3626ee7a9f2ba5d85efc1bf6cff17b412cd99874ae9b346780
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672735"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118939126"
 ---
 # <a name="network-access-protection"></a>網路存取保護
 
@@ -43,7 +43,7 @@ NAP API 是針對 C/c + + 開發人員所設計。 針對 NAP 強制方法，程
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-NAP 平臺需要執行 Windows Server 2008 或更新版本的 nap 基礎結構伺服器，以及執行 Windows XP Service Pack 3 (SP3) 、Windows Vista 或更新版本作業系統的 NAP 用戶端。 如需哪些作業系統支援特定程式設計專案的特定資訊，請參閱 NAP 參考檔中 NAP Api 的需求章節。
+nap 平臺需要執行 Windows Server 2008 或更新版本的 nap 基礎結構伺服器，以及執行 Windows XP Service Pack 3 (SP3) 、Windows Vista 或更新版本作業系統的 nap 用戶端。 如需哪些作業系統支援特定程式設計專案的特定資訊，請參閱 NAP 參考檔中 NAP Api 的需求章節。
 
 ## <a name="in-this-section"></a>本節內容
 

@@ -1,15 +1,15 @@
 ---
-description: "下表列出西班牙文中使用之每個 FactoidDefinitionExamplesCurrencyCurrency 的可用格式，以西班牙文撰寫。1.234 四捨五入€1.234 四捨五入、50€236、50€123€0、25€22 pta、Pta、ptas、Ptas 或 PTADateDates （以西班牙文撰寫）。 lunes、19 octubre、200119 de octubre de 200119 de octubre de 0119 de 20016 de diciembre19 十月. 09/05 (dd/mm) 9/5 (d/m) 09/05/2002 (dd/mm/yyyy) 09/05/02 (dd/mm/yy) 9/5/2002 (d/m/yyyy) 9/5/02 (d/m/yy) 9-5 (d-m) 09-05-2002 (dd-mm) 09-05-02 (dd-mm-yy) 9-5-2002 (d-m-yyyy) 9-5-02 (d-m-yy) 2002-05-09 (yyyy-mm-dd) NumberAll 數位，包括 mm 和公斤等一般尾碼和數學符號。 日期、時間、電話和貨幣的模擬字格式也會包含在此標記中。 820-6，5-123.4569，02% 5.825 m1340 mm25 Km300 kg5300 + 20 = 32012/4 = 325% (1 + 3) /51 + 1 = 2OneCharA 單一美國國家標準局 (ANSI) 字元。！ &\\#0034; \\# $% & ' ( ) \\* +、-。 /0 1 2 3 4 5 6 7 8 9：;< = >？ @ A B C D E F G H I J K L M N O P Q R S T U V W x Y Z \\[ \\\\ \\]  ^  \\_ A B C D E F G H I J G H H t N O P Q R S T U H W X Y Z { \\| } ~ € $ ×¿× &\\# 233;Í-ÚÜ×日Í-ÚÜ，number $ PercentA number 後面接著 percent 符號。 87% 5，9% PostalCodePostal 代碼（以西班牙文撰寫）。 58802TelephoneTelephone 12345987 123456987 1234567987 12 34 56987 123 456798 1234598 12345698 123456798 123 987 這些格式的前面都可以是下列其中一個國際國家/地區代碼和一個空格。 00 100 11TimeTime （以西班牙文撰寫）。19：4406：05：306：2422：222：125： 427.00 h08： 03 h 5.13 h17 h3： 45 a. 6： 49 p. 3： 45 A. 6： 49 P. M. UpperCharA 單一大寫字元。A B C D E F G H I J K L M N O P Q R S T W X Y ZÁ&\\# 233;ÍÑÓÚÜ "
+description: "下表列出西班牙文中使用之每個 FactoidDefinitionExamplesCurrencyCurrency 的可用格式，以西班牙文撰寫。1.234 四捨五入€1.234 四捨五入、50€236、50€123€0、25€22 pta、Pta、ptas、Ptas 或 PTADateDates （以西班牙文撰寫）。 lunes、19 octubre、200119 de octubre de 200119 de octubre de 0119 de 20016 de diciembre19 十月. 09/05 (dd/mm) 9/5 (d/m) 09/05/2002 (dd/mm/yyyy) 09/05/02 (dd/mm/yy) 9/5/2002 (d/m/yyyy) 9/5/02 (d/m/yy) 9-5 (d-m) 09-05-2002 (dd-yyyy) 09-05-02 (dd-mm-yy) 9-5-2002 (d-m-yyyy) 9-5-02 (d-m-yy)  (NumberAll 數位， 包括一般尾碼，例如 mm 和公斤，以及數學符號。 日期、時間、電話和貨幣的模擬字格式也會包含在此標記中。 820-6，5-123.4569，02% 5.825 m1340 mm25 Km300 kg5300 + 20 = 32012/4 = 325% (1 + 3) /51 + 1 = 2OneCharA 單一美國國家標準局 (ANSI) 字元。！ &\\#0034; \\# $% & ' ( ) \\* +、-。 /0 1 2 3 4 5 6 7 8 9：;< = >？ @ A B C D E F G H I J K L M N O P Q R S T U V W x Y Z \\[ \\\\ \\]  ^  \\_ A B C D E F G H I J G H H t N O P Q R S T U H W X Y Z { \\| } ~ € $ ×¿× &\\# 233;Í-ÚÜ×日Í-ÚÜ，number $ PercentA number 後面接著 percent 符號。 87% 5，9% PostalCodePostal 代碼（以西班牙文撰寫）。 58802TelephoneTelephone 12345987 123456987 1234567987 12 34 56987 123 456798 1234598 12345698 123456798 123 987 這些格式的前面都可以是下列其中一個國際國家/地區代碼和一個空格。 00 100 11TimeTime （以西班牙文撰寫）。19：4406：05：306：2422：222：125： 427.00 h08： 03 h 5.13 h17 h3： 45 a. 6： 49 p. 3： 45 A. 6： 49 P. M. UpperCharA 單一大寫字元。A B C D E F G H I J K L M N O P Q R S T W X Y ZÁ&\\# 233;ÍÑÓÚÜ "
 ms.assetid: ab607429-d845-4ca6-9aa2-b68c66c58738
 title: 西班牙文 Factoids
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8b7c1cbd11dd76d12bd1aea860089c2a41ab9e08
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6c09490ddb9b3dee6ae55d50bc21968ab15be2e201842370b7d46f91a857f544
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118715508"
 ---
 # <a name="spanish-factoids"></a>西班牙文 Factoids
 

@@ -1,15 +1,15 @@
 ---
 title: '樹狀檢視控制項 (MSAA UI 元素參考) '
-description: 樹狀檢視控制項會使用線條來連接階層中的相關專案，以顯示專案的階層式清單。 每個專案都包含一個標籤和一個選擇性點陣圖。 Windows 檔案總管使用樹狀檢視控制項來顯示目錄。
+description: 樹狀檢視控制項會使用線條來連接階層中的相關專案，以顯示專案的階層式清單。 每個專案都包含一個標籤和一個選擇性點陣圖。 WindowsExplorer 使用樹狀檢視控制項來顯示目錄。
 ms.assetid: 5b104a77-71e5-4555-acde-1e63ac7ea5c1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0781f5cb20038fb0b23d816153ab59411bf93dc7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 20986197b9075443ee5186cc68445b6bea55930493a4d6e43d0ce9c539f4d185
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324908"
 ---
 # <a name="tree-view-control-msaa-ui-element-reference"></a>樹狀檢視控制項 (MSAA UI 元素參考) 
 
@@ -18,7 +18,7 @@ ms.locfileid: "104021408"
 
  
 
-樹狀檢視控制項會使用線條來連接階層中的相關專案，以顯示專案的階層式清單。 每個專案都包含一個標籤和一個選擇性點陣圖。 Windows 檔案總管使用樹狀檢視控制項來顯示目錄。
+樹狀檢視控制項會使用線條來連接階層中的相關專案，以顯示專案的階層式清單。 每個專案都包含一個標籤和一個選擇性點陣圖。 WindowsExplorer 使用樹狀檢視控制項來顯示目錄。
 
 樹狀檢視控制項的視窗類別名稱是 WC \_ TREEVIEW，在 Commctrl 中定義為 "SysTreeView"。
 

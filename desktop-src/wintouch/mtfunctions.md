@@ -3,15 +3,15 @@ title: '函數 (Windows Touch 輸入) '
 description: 本節包含 Windows Touch 輸入的功能。
 ms.assetid: 6c64ed75-37ac-47ae-b39e-bdf10d2b5211
 keywords:
-- Windows Touch，函數
+- Windows觸控功能，函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a18ba246ab8b1d228d257d32982e9afc2c418eb
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: af2aae5f0e355a6fdb809b70c2d5fad629434b62c802f6ff0f5ad180facba82d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118435324"
 ---
 # <a name="functions-windows-touch-input"></a>函數 (Windows Touch 輸入) 
 
@@ -38,10 +38,10 @@ ms.locfileid: "104024506"
 
 <dl> <dt>
 
-[Windows Touch 輸入](multi-touch-input.md)
+[Windows觸控輸入](multi-touch-input.md)
 </dt> <dt>
 
-[Windows Touch 輸入程式設計指南](guide-multi-touch-input.md)
+[Windows觸控輸入程式設計指南](guide-multi-touch-input.md)
 </dt> </dl>
 
  
