@@ -3,7 +3,7 @@ title: 'TB_SETBUTTONINFO 訊息 (Commctrl .h) '
 description: 設定工具列中現有按鈕的資訊。
 ms.assetid: ac9b88b9-d0d0-4669-a342-708924d97c8b
 keywords:
-- TB_SETBUTTONINFO message Windows 控制項
+- TB_SETBUTTONINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 70612a90f245a25dde5a487917d7c3b669424ea8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e9fa1da0f9556c025b83ac2b3345680fe11dac0dd15e202ed7336cacfe511e1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844263"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829622"
 ---
 # <a name="tb_setbuttoninfo-message"></a>TB \_ SETBUTTONINFO 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103844263"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_SETBUTTONINFOW** (Unicode) 和 **TB \_ SETBUTTONINFOA** (ANSI) <br/>         |
 

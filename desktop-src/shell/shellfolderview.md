@@ -68,7 +68,7 @@ ms.locfileid: "118452125"
 
 
 
-| 屬性                                                      | 存取類型          | 描述                                                                                                  |
+| 屬性                                                      | 存取類型          | Description                                                                                                  |
 |:--------------------------------------------------------------|:---------------------|:-------------------------------------------------------------------------------------------------------------|
 | [**Application**](shellfolderview-application.md)<br/> | 唯讀<br/> | 包含物件的應用程式物件。<br/>                                                         |
 | [**FocusedItem**](shellfolderview-focuseditem.md)<br/> | 唯讀<br/> | 取得代表具有輸入焦點之專案的 [**FolderItem**](folderitem.md) 物件。<br/> |
@@ -90,7 +90,7 @@ ms.locfileid: "118452125"
 | 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 | IID<br/>                      | CLSID \_ ShellFolderView<br/>                                                                              |
 

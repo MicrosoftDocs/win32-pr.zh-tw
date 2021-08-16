@@ -4,12 +4,12 @@ ms.assetid: 58f17338-dd60-4b77-80d3-b6b6a76af9b2
 title: 'EC_NEED_RESTART (Dshow) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9651ae51b8dd8969a95b4f5e9d5093ec2e879f0a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fae3426048229c19b1d35a061d67d3d1d0a3149a8f820e891987c88405b76f7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975727"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820140"
 ---
 # <a name="ec_need_restart"></a>EC \_ 需要 \_ 重新開機
 

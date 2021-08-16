@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: SWbemObject 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e4061782aa586bb3d628a7dd3b81254288da03d7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 691356d5112a0634c97813ef305408ea36dd286428eb148465d0002e38c91805
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848621"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118313853"
 ---
 # <a name="swbemobject-methods"></a>SWbemObject 方法
 

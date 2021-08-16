@@ -4,12 +4,12 @@ ms.assetid: 32638e85-7c24-4756-99f2-478316b5a326
 title: 通知介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 06581e5326fc8a3bc42f073d1ddce3efcc509c7d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: ace742d00d6acf780f1ca37086850df297b67b6fb0e557fa0ef3c9592dd30316
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108104596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462966"
 ---
 # <a name="notifications-interfaces"></a>通知介面
 

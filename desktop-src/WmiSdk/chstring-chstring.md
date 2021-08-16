@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString：： CHString (ChString .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 711d2f28680a9f273ff808876e30e92f66336b89
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 80ce10988fc335c5a16eff8507346dbcdffd6fa70f75d74fb48d3f84b0e2332b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320046"
 ---
 # <a name="chstringchstring-constructors"></a>CHString：： CHString 的函式
 
@@ -42,7 +42,7 @@ ms.locfileid: "104193064"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>ChString (包含 FwCommon) </dt> </dl>                                                    |
 | 程式庫<br/>                  | <dl> <dt>FrameDyn .lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |

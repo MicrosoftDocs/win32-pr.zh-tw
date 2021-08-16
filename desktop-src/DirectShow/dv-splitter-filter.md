@@ -4,12 +4,12 @@ ms.assetid: 099d1cc7-f0c5-4c50-a1d5-f2defde7e104
 title: DV 分隔器篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74ca8e856f1a49ff22ee05f7dc0ae341fad6aa91
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 323593fd5b55fdbd65cb05e83d1097d0d764c94c30141125dcc1cc6fc5ed60d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107908406"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117820670"
 ---
 # <a name="dv-splitter-filter"></a>DV 分隔器篩選
 
@@ -44,13 +44,13 @@ DV 分隔器篩選器可以接受音訊資料流程中的動態格式變更。 �
 
 如果 DV 來源是即時攝影機，則通常不會有變更音訊格式的原因。 但是，如果您從包含數個異類來源的 VTR 磁帶進行傳輸，格式可能會變更。
 
-除了音訊和影片資料之外，每個 DV 框架還包含中繼資料。 此中繼資料可以從框架變更為框架。 應用程式可以藉由檢查輸入範例或影片輸出範例來剖析中繼資料。 但是，DirectShow 並不提供任何直接支援來剖析 DV 中繼資料。 如需詳細資訊，請參閱 IEC 61834-4。
+除了音訊和影片資料之外，每個 DV 框架還包含中繼資料。 此中繼資料可以從框架變更為框架。 應用程式可以藉由檢查輸入範例或影片輸出範例來剖析中繼資料。 不過，DirectShow 不會提供剖析 DV 中繼資料的任何直接支援。 如需詳細資訊，請參閱 IEC 61834-4。
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> <dt>
 
 [DirectShow 中的數位視訊](digital-video-in-directshow.md)

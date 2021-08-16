@@ -4,12 +4,12 @@ description: 分類 DCOM proxy 和存根
 ms.assetid: f5d117d6-6c2c-4beb-8869-1581a5b1846f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 31685cd1318856b9e305246cfebc2cebb3a7874e
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5f45f61d89e31316975685d3e603a93d30559546c86abc3b63e8e7e8a0c83ff1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106968936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118310865"
 ---
 # <a name="categorizing-dcom-proxies-and-stubs"></a>分類 DCOM proxy 和存根
 
@@ -24,6 +24,6 @@ CATID \_ 封送處理器是元件類別目錄 GUID，可以與已自訂封送處
 [元件類別](component-categories.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

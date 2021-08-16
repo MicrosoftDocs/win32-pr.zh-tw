@@ -3,7 +3,7 @@ title: 'TCM_INSERTITEM 訊息 (Commctrl .h) '
 description: 在索引標籤控制項中插入新的索引標籤。 您可以使用 TabCtrl InsertItem 宏明確地傳送此訊息 \_ 。
 ms.assetid: e547c49a-699c-4137-8680-20391d138d54
 keywords:
-- TCM_INSERTITEM message Windows 控制項
+- TCM_INSERTITEM 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58002006944a221571e37c37d25259d0aaa74fc4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a7c3c17714218562d7ddc82497a7ef27e131e30a2ff04daf36970dfbcf5cc354
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968375"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829099"
 ---
 # <a name="tcm_insertitem-message"></a>TCM \_ INSERTITEM 訊息
 
@@ -55,8 +55,8 @@ ms.locfileid: "106968375"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TCM \_INSERTITEMW** (Unicode) 和 **TCM \_ INSERTITEMA** (ANSI) <br/>             |
 

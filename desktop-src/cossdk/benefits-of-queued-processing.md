@@ -4,12 +4,12 @@ ms.assetid: dc1fc03f-1e2c-481c-95a7-f8d7b1e06bb0
 title: 佇列處理的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e7a0d2068d70ecf611ec334632c8b8f819319ef3
-ms.sourcegitcommit: d39e82e232f6510f843fdb8d55d25b4e9e02e880
+ms.openlocfilehash: 02c41d902d9e72af40b70ccc95efe33e2857c8ef07953c70ef1fc0879ba676ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/03/2021
-ms.locfileid: "104568262"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308780"
 ---
 # <a name="benefits-of-queued-processing"></a>佇列處理的優點
 

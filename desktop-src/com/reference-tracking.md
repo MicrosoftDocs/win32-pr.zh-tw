@@ -4,12 +4,12 @@ description: 參考追蹤
 ms.assetid: 1e2cf555-3b96-42d5-a0bb-abb720c93520
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f45607a495e973ec33acde6d97cb1f83259a27c
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 1321c922cc0a7493e3e4792f7c0f925618330c2e42665296fb06792635a4ea70
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104463741"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118309761"
 ---
 # <a name="reference-tracking"></a>參考追蹤
 
@@ -21,6 +21,6 @@ ms.locfileid: "104463741"
 
 如果已啟用參考追蹤， [**IUnknown**](/windows/desktop/api/Unknwn/nn-unknwn-iunknown) 一律會使用預設安全性設定。 在此情況下，對 **IUnknown** 的 [**CoSetProxyBlanket**](/windows/desktop/api/combaseapi/nf-combaseapi-cosetproxyblanket)呼叫會失敗。
 
- 
+ 
 
- 
+ 

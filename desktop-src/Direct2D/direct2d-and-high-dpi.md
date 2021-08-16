@@ -7,12 +7,12 @@ keywords:
 - 高 DPI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6548849416268f31b8b0c4a4261347c818ffa24c
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ec5c48f9a1b3552115ebbec8a54a6878716ef34675e41193ae08fb9cb8e55bc8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933558"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825980"
 ---
 # <a name="direct2d-and-high-dpi"></a>Direct2D 和高 DPI
 
@@ -57,9 +57,9 @@ Direct2D 圖形管線的設計目的是要從 96 DPI 調整為1200DPI。
 
 > [!Note]
 >
-> 從 Windows 8 開始，您可以使用 [**ID2D1DeviceCoNtext：： SetUnitMode**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode) 方法，將單元模式切換成圖元而不是 dip。
+> 從 Windows 8 開始，您可以使用 [**ID2D1DeviceCoNtext：： SetUnitMode**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1devicecontext-setunitmode)方法，將單元模式切換成圖元而不是 dip。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -68,6 +68,6 @@ Direct2D 圖形管線的設計目的是要從 96 DPI 調整為1200DPI。
 [如何確保您的應用程式在高 DPI 顯示器上正確顯示](how-to--size-a-window-properly-for-high-dpi-displays.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

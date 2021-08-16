@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: LIKE 運算子
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9091f44dd131d5d2c30d2d46aa4fc109dcdf02b7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c2e5df500091fac8b15bcdcb448b7a97fc00dc62807ba854757e447f07e6f4e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317867"
 ---
 # <a name="like-operator"></a>LIKE 運算子
 

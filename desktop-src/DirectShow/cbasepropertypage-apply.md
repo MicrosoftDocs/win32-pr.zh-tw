@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 21d1208979cca167b059cb720c492ac51c362c39
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9350aa7aaa4e2bfdcb72385d26b09b9d7a9bdf33deb05e273b0663485da1a5bd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117823228"
 ---
 # <a name="cbasepropertypageapply-method"></a>CBasePropertyPage. Apply 方法
 
@@ -46,7 +46,7 @@ HRESULT Apply();
 
 
 
-| 傳回碼                                                                                  | Description                    |
+| 傳回碼                                                                                  | 描述                    |
 |----------------------------------------------------------------------------------------------|--------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 成功。<br/>            |
 | <dl> <dt>**E 未 \_ 預期**</dt> </dl> | 發生非預期的失敗。<br/> |

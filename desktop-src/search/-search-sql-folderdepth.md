@@ -4,12 +4,12 @@ ms.assetid: 8eadbd42-3538-412e-9bf8-b2355d23437e
 title: 範圍和目錄述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2418b2149a5bf05bd000460c787b7f967856c5c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f221ba4048f1ab7f5096321cc00aed209acb5ca3e5616e6e6a4fbbc516dfc28b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112432"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118462467"
 ---
 # <a name="scope-and-directory-predicates"></a>範圍和目錄述詞
 

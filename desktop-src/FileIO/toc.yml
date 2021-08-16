@@ -619,7 +619,7 @@
                           href: microsoft-smb-protocol-dialects.md
                         - name: Microsoft SMB 通訊協定驗證
                           href: microsoft-smb-protocol-authentication.md
-                        - name: Microsoft SMB 通訊協定封包交換案例
+                        - name: Microsoft SMB 通訊協定封包 Exchange 案例
                           href: microsoft-smb-protocol-packet-exchange-scenario.md
                     - name: 隨機鎖定
                       href: opportunistic-locks.md

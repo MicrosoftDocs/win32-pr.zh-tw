@@ -20,12 +20,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: 90cc4f9d88afa9f4ec566ff4733995bce8160eb1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c44270429dc81c64d26b5e2512686bde97ac7851235eab01ebd545aae762e0ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510866"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118317327"
 ---
 # <a name="cimmofdeserializerdeserializeinstances-method-byteuint32"></a>CimMofDeserializer. DeserializeInstances 方法 (Byte \[ \] ，UInt32) 
 

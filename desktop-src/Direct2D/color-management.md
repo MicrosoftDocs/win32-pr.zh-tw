@@ -6,12 +6,12 @@ keywords:
 - 色彩管理效果
 ms.topic: article
 ms.date: 02/05/2019
-ms.openlocfilehash: 5f3783132e0e2af511a99fd8c44d5f899e577a3a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 274591312ab110a24fb315d01f72d23a22a938ad41f380620d94a865602e82a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384498"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826696"
 ---
 # <a name="color-management-effect"></a>色彩管理效果
 
@@ -31,7 +31,7 @@ ms.locfileid: "104384498"
 
 ## <a name="effect-properties"></a>效果屬性
 
-| 顯示名稱和索引列舉 | Description |
+| 顯示名稱和索引列舉 | 描述 |
 |-|-|
 | SourceContext<br/> D2D1 \_ COLORMANAGEMENT \_ 的 \_ \_ 內容來源色彩 \_ 內容<br/> | 來源色彩空間資訊。 此類型為 [**ID2D1ColorCoNtext**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1colorcontext)。<br/> 預設值是 NULL。<br/> |
 | SourceIntent<br/> D2D1 \_ COLORMANAGEMENT \_ 的 \_ 版本 \_ 轉譯 \_ 意圖<br/> | 要使用哪一種 ICC 轉譯意圖。 此類型為 D2D1 \_ COLORMANAGEMENT \_ 轉譯 \_ 意圖。<br/> 預設值為 D2D1 \_ COLORMANAGEMENT 轉譯 \_ 意圖 \_ 可 \_ 感知。<br/> |
@@ -189,8 +189,8 @@ ms.locfileid: "104384498"
 
 | 需求 | 值 |
 |-|-|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭 | d2d1effects。h |
 | 程式庫 | d2d1 .lib，dxguid .lib |
 

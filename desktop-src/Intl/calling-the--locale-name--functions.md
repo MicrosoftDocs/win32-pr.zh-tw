@@ -1,22 +1,22 @@
 ---
-description: Windows Vista 引進了大量的函式，這些函式會使用地區設定名稱，而非地區設定識別碼。
+description: WindowsVista 引進了大量的函式，這些函式會使用地區設定名稱，而非地區設定識別碼。
 ms.assetid: e88c31b2-b1da-40ae-b512-67b8ad409b95
 title: 呼叫「地區設定名稱」函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c58c15d2d9fe7721eb162f8c7cf96084bd4afa2e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bc97490f21c54a187f2db31c6ee5c7eaa6c45e64069f9be9594c99e2376ef04e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690252"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119754888"
 ---
 # <a name="calling-the-locale-name-functions"></a>呼叫「地區設定名稱」函數
 
-Windows Vista 引進了大量的函式，這些函式會使用 [地區設定名稱](locale-names.md) ，而非 [地區設定識別碼](locale-identifiers.md)。 這些新函式為 [補充地區](custom-locales.md)設定提供良好的支援，而其中有幾個可提供較舊的 NLS 函式中未提供的額外功能。 其中一些（例如新的列舉函式）也表示設計改進。
+WindowsVista 引進了大量的函式，這些函式會使用[地區設定名稱](locale-names.md)，而非[地區設定識別碼](locale-identifiers.md)。 這些新函式為 [補充地區](custom-locales.md)設定提供良好的支援，而其中有幾個可提供較舊的 NLS 函式中未提供的額外功能。 其中一些（例如新的列舉函式）也表示設計改進。
 
 > [!Note]  
-> 只在 Windows Vista 和更新版本上執行的應用程式應該使用「地區設定名稱」功能，以喜好設定使用地區設定識別碼的 NLS 函數。
+> 要在 Windows Vista 和更新版本上執行的應用程式，應該針對使用地區設定識別碼的 NLS 函式，使用「地區設定名稱」功能的喜好設定。
 
  
 

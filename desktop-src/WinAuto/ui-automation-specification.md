@@ -4,12 +4,12 @@ description: 本主題提供 Microsoft 消費者介面自動化規格的總覽�
 ms.assetid: 45160767-09b0-4fd1-bd73-bc5ac0e6f75e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5d3cbb7ed2caa49e855b25f749820de8cf24f1e9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0fc07b70128a401d48813ded68c31dfcfca5bb5a49d2ca46683e9a902af003ad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325092"
 ---
 # <a name="ui-automation-specification"></a>消費者介面自動化規格
 
@@ -28,7 +28,7 @@ ms.locfileid: "104023719"
 
 ## <a name="introducton"></a>Introducton
 
-消費者介面自動化規格可讓您以程式設計方式存取 Windows 桌面上的 UI 元素，讓輔助技術產品（例如螢幕讀取器）提供使用者介面的相關資訊，以及透過標準輸入以外的方式操作 UI。
+消費者介面自動化規格提供彈性的程式設計方式，讓您能夠以程式設計方式存取 Windows 桌面上的 ui 元素，讓輔助技術產品（例如螢幕讀取器）提供 UI 的相關資訊給使用者，以及透過標準輸入以外的方式操作 ui。
 
 消費者介面自動化在範圍內的範圍更廣，只限于介面定義。 它提供：
 
@@ -74,7 +74,7 @@ Automation 元素會公開其所代表之 UI 元素的通用屬性。 其中一�
 
 
 
- 
+ 
 
 如需詳細資訊，請參閱 [消費者介面自動化樹狀結構總覽](uiauto-treeoverview.md)。
 
@@ -90,7 +90,7 @@ Automation 元素會公開其所代表之 UI 元素的通用屬性。 其中一�
 
 控制項模式描述 automation 元素功能的特定層面。 例如，簡單的「可點擊式」控制項（例如按鈕或超連結）應該支援叫用控制項模式，以代表「按一下」動作。
 
-每個控制項模式都是可能的 UI 功能和函數的標準標記法。 消費者介面自動化的目前執行會定義22個控制項模式。 Windows 自動化 API 也可以支援自訂控制項模式。 不同于 Microsoft Active Accessibility 角色或狀態屬性，一個 automation 元素可以支援多個消費者介面自動化控制項模式。
+每個控制項模式都是可能的 UI 功能和函數的標準標記法。 消費者介面自動化的目前執行會定義22個控制項模式。 Windows Automation API 也可以支援自訂控制項模式。 不同于 Microsoft Active Accessibility 角色或狀態屬性，一個 automation 元素可以支援多個消費者介面自動化控制項模式。
 
 如需詳細資訊，請參閱 [UI Automation Control Patterns Overview](uiauto-controlpatternsoverview.md)。
 
@@ -106,7 +106,7 @@ Automation 元素會公開其所代表之 UI 元素的通用屬性。 其中一�
 
 ## <a name="ui-automation-events"></a>消費者介面自動化事件
 
-消費者介面自動化事件會通知應用程式變更和自動化元素所採取的動作。 有四種不同類型的消費者介面自動化事件，而且不一定表示 UI 的視覺狀態已變更。 消費者介面自動化事件模型與 Windows 中的 [new-winevent](winevents-infrastructure.md) framework 無關，不過 WINDOWS Automation API 使消費者介面自動化事件與 Microsoft Active Accessibility framework 互通。
+消費者介面自動化事件會通知應用程式變更和自動化元素所採取的動作。 有四種不同類型的消費者介面自動化事件，而且不一定表示 UI 的視覺狀態已變更。 消費者介面自動化事件模型與 Windows 中的[new-winevent](winevents-infrastructure.md)架構無關，不過 Windows Automation API 可讓消費者介面自動化事件與 Microsoft Active Accessibility framework 互通。
 
 如需詳細資訊，請參閱 [UI Automation Events Overview](uiauto-eventsoverview.md)。
 

@@ -9,12 +9,12 @@ keywords:
 - 完成作業位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeb5cd6a33cf8cefa8749a1802c922dc80518722
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 348ee7c4ad4b9a38350e6a1f25d8d05d206b299518cf25197b643dbcb15cb4a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104462076"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835053"
 ---
 # <a name="completing-and-canceling-a-job"></a>完成和取消作業
 
@@ -28,9 +28,9 @@ ms.locfileid: "104462076"
 
 如果您未在90天內呼叫 [**Complete**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-complete) 方法或 [**IBackgroundCopyJob：： Cancel**](/windows/desktop/api/Bits/nf-bits-ibackgroundcopyjob-cancel) 方法 (預設 [JobInactivityTimeout](group-policies.md) 群組原則) ，服務就會取消作業。 如果服務取消此作業，則不會將下載的檔案和回復檔案提供給用戶端;作業取消不會影響已成功上傳的檔案。 您應該一律呼叫 **Complete** 或 **Cancel** 方法，而不是依賴 JobInactivityTimeout 原則來清除您的工作。 如果達到 MaxJobsPerUser 或 MaxJobsPerMachine 原則限制，佇列中剩餘的作業可能會讓使用者無法建立其他作業。
 
- 
+ 
 
- 
+ 
 
 
 

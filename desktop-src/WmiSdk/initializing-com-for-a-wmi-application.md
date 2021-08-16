@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 初始化 WMI 應用程式的 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa6c2e590ddb64914f5aab723a56dee2385a49bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 723188602e440cd3ba49d78d8efb3c28ddae30f35dd0d4361a4fdb5ced026ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945293"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318572"
 ---
 # <a name="initializing-com-for-a-wmi-application"></a>初始化 WMI 應用程式的 COM
 

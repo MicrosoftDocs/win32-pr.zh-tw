@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 414caa48ddfdd492389f63739bfbf23bfc7d1f4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 03631ae43c65d2bfc8e5afc7b18b9654d122709d5eb2e67e060990579a158f5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118487601"
 ---
 # <a name="jet_bklogtimeisutc-property"></a>JET_BKLOGTIME。IsUtc 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: a56f3059-d6e5-42eb-8ba2-16071fffafa5
 title: 所有路由廣播
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 15830ad4f82a3cc5d93e84762c8c17ed0cfd85bd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d0a5f0ba1e900dd390610a3bd3af2f779d523ae4a08973596e7da6b8331acc31
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469068"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322717"
 ---
 # <a name="all-routes-broadcast"></a>所有路由廣播
 

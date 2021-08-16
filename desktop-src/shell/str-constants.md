@@ -255,7 +255,7 @@ ms.locfileid: "118452045"
 
 
 
-| 屬性名稱                                 | 類型     | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| 屬性名稱                                 | 類型     | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------------------------|----------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | STR \_ 列舉 \_ 專案 \_ 旗標                       | VT \_ UI4  | **Windows 8 引進**。 當您呼叫 [**IShellItem：： BindToHandler**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellitem-bindtohandler)與 **BHID \_ EnumItems** 時，指定要傳遞至 [**IShellFolder：： EnumObjects**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-enumobjects)的 [**SHCONTF**](/windows/win32/api/shobjidl_core/ne-shobjidl_core-_shcontf)值。                                                                                                                                                                                                                         |
 | STR \_ 剖析 \_ 明確 \_ 關聯 \_ 成功 | VT \_ BOOL | **Windows 7 中引進**。 [**IShellFolder：:P arsedisplayname**](/windows/desktop/api/shobjidl_core/nf-shobjidl_core-ishellfolder-parsedisplayname)方法會設定這個屬性，告知呼叫端所傳回的 idlist.txt 已系結至使用 str parse 指定的 [progid](fa-progids.md) （具有 **明確的 \_ \_ \_ \_ ProgID** ），或使用以 str parse 指定的應用程式搭配 **\_ \_ \_ 明確的 \_ ASSOCAPP**。 當 **STR \_ 剖析 \_ 明確 \_ 關聯 \_ 成功** 時，ProgID 或應用程式未系結至 idlist.txt。 |
@@ -277,7 +277,7 @@ ms.locfileid: "118452045"
 | 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                             |
 | 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Shobjidl.h。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shobjidl.h .idl</dt> </dl> |
 
 
 

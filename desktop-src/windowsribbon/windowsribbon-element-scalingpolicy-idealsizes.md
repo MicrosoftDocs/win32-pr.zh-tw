@@ -23,7 +23,7 @@ ms.locfileid: "118439523"
 
 代表慣用 [**SizeDefinition**](windowsribbon-element-sizedefinition.md) 範本的縮放規格容器（以功能區大小為基礎）。
 
-## <a name="usage"></a>使用量
+## <a name="usage"></a>使用方式
 
 ``` syntax
 <ScalingPolicy.IdealSizes>

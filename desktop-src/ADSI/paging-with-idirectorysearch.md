@@ -8,12 +8,12 @@ keywords:
 - ADSI、搜尋、>idirectorysearch、其他搜尋選項、分頁
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e9fdf001f5908f6c3fc7321c8c94cda09f1b96
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 48494c01831e6b69931fc6b6f779ed9b042b7fecaaf17fa62286c094a926ba73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931834"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838938"
 ---
 # <a name="paging-with-idirectorysearch"></a>使用 >idirectorysearch 進行分頁
 
@@ -28,7 +28,7 @@ ms.locfileid: "103931834"
 
 
 
- 
+ 
 
 如果未設定這些搜尋喜好設定，則預設為不分頁。 在不使用分頁的情況下搜尋 Active Directory，只會傳回前1000筆記錄的最大值，因此，如果結果集有可能包含1000個以上的專案，您就必須使用分頁式搜尋。
 
@@ -72,9 +72,9 @@ SearchPref.vValue.Integer = 60;
 
 
 
- 
+ 
 
- 
+ 
 
 
 

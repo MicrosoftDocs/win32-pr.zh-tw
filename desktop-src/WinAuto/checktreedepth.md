@@ -4,12 +4,12 @@ description: CheckTreeDepth
 ms.assetid: 6387D1E1-63AF-442C-A049-DEAB09A0A949
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0a24a4a28d0f4484da3e74c8ab76d680a7d61ba1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 34f323533bbec85f158b48a409350b5bddfd553a862abb6268fcca024c1f8a19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104376137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325967"
 ---
 # <a name="checktreedepth"></a>CheckTreeDepth
 
@@ -32,9 +32,9 @@ ms.locfileid: "104376137"
 [鍵盤使用者介面設計指導方針](/previous-versions/windows/desktop/dnacc/guidelines-for-keyboard-user-interface-design)
 </dt> <dt>
 
-[Windows 使用者經驗互動指導方針-鍵盤](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
+[Windows使用者體驗互動指導方針-鍵盤](https://msdn.microsoft.com/library/bb545460.aspx#guidelines)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

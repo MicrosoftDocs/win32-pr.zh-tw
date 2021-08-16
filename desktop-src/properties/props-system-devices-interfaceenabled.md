@@ -4,12 +4,12 @@ ms.assetid: 5596ddcb-2361-49fa-98e0-684c0f7f0bd4
 title: System.Devices.InterfaceEnabled
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2ebb18c01d74aa02d900f6728e4508220147e9a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c14e8acedfce9cad56561819d5e4771a95fdfc2e62d8a4b1bcb340b374c17dec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118467640"
 ---
 # <a name="systemdevicesinterfaceenabled"></a>System.Devices.InterfaceEnabled
 

@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 設定 WMI 連接的安全性層級
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc58b4bbbe1a01d927d8f5977c21003cdae2e315
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e2c2c4a492d4b40410b42fd9a94f22d346617a84d3baaa0679db325452a69c19
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998336"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118315322"
 ---
 # <a name="setting-the-security-levels-on-a-wmi-connection"></a>設定 WMI 連接的安全性層級
 

@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 統計計數器類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb97224b06881cbc3c8b1375c04a4df5be1095f4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1289bae423305bac863afefaba8e5700268d98e594fe767d597c8470aa4f1ac0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118314817"
 ---
 # <a name="statistical-counter-types"></a>統計計數器類型
 
-WMI 高效能格式化的 [效能 Data Provider](formatted-performance-data-provider.md) 會計算指定之原始計數器資料樣本數目的統計計數器類型。 計數器類型的演算法不需要繼承 timestamp 或 frequency 屬性 (例如 **timestamp \_ PerfTime** 或其他計數器類型所需的 **frequency \_ PerfTime**) 。
+WMI 高效能格式化的[效能 Data Provider](formatted-performance-data-provider.md)會計算指定之原始計數器資料樣本數目的統計計數器類型。 計數器類型的演算法不需要繼承 timestamp 或 frequency 屬性 (例如 **timestamp \_ PerfTime** 或其他計數器類型所需的 **frequency \_ PerfTime**) 。
 
 相反地，統計計數器類型支援識別要使用之樣本數的辨識 **符號** 。 針對效能物件呼叫 [**Refresh**](/windows/desktop/api/Wbemcli/nf-wbemcli-iwbemrefresher-refresh) 方法時，會收集範例。 針對腳本，請使用 [**SWbemRefresher**](swbemrefresher-refresh.md) 方法。 計算的資料包含從原始資料屬性對樣本 **SampleWindow** 數目執行的計算結果。 計算的原始資料會 keyfromnode.frm 在 **計數器** 辨識符號中指定的屬性名稱。
 

@@ -7,11 +7,11 @@
         - name: 支援的作業系統
           href: supported-operating-systems.md
           items:
-            - name: Windows 7 和 Windows Vista 中的支援
+            - name: Windows 7 和 Windows Vista 的支援
               href: support-in-windows-vista.md
             - name: Windows XP 中的支援
               href: support-in-windows-xp.md
-    - name: Windows Media DRM-Enabled 應用程式的需求
+    - name: Windows 媒體 DRM-Enabled 應用程式的需求
       href: requirements-for-windows-media-drm-enabled-applications.md
     - name: 範例
       href: sample.md
@@ -42,7 +42,7 @@
           items:
             - name: 裝置物件
               href: device-object.md
-        - name: Windows 可攜式裝置中的 PROPERTYKEYs 和 Guid
+        - name: Windows 可攜式裝置中的 PROPERTYKEYs 和 guid
           href: propertykeys-and-guids-in-windows-portable-devices.md
     - name: 程式設計手冊
       href: programming-guide.md
