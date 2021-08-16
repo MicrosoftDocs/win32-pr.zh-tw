@@ -4,12 +4,12 @@ description: 這個程式碼範例會示範在 Windows 功能區應用程式內�
 ms.assetid: 8fb84bd1-5e63-447c-b7a0-b3d7cb8c3be7
 ms.topic: article
 ms.date: 07/13/2021
-ms.openlocfilehash: 52a81a1a1950305437a7bbc68aab95876b3a6374
-ms.sourcegitcommit: 63c93e0ad0b48d60b11008767196718feb475cb0
+ms.openlocfilehash: 99e7ad587820ac18ce83d673efaa972f0f3b75c4547ddc7e8b4889a0e17e3bcb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/13/2021
-ms.locfileid: "113691757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118202171"
 ---
 # <a name="fontcontrol-sample"></a>FontControl 範例
 

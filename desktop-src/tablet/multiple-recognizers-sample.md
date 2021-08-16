@@ -4,12 +4,12 @@ ms.assetid: c9e6613c-5797-44c3-8ce1-92d4d1459ecf
 title: 多個辨識器範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a21d24001e3544be16dde4d288a8adc7ea0081f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a2d687f1bddd1f3c57cc482070b8e5826126b6e5b0f716fa3649df01ad6eab30
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106999917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856547"
 ---
 # <a name="multiple-recognizers-sample"></a>多個辨識器範例
 

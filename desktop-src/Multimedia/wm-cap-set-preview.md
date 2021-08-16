@@ -3,7 +3,7 @@ title: 'WM_CAP_SET_PREVIEW 訊息 (Vfw .h) '
 description: WM \_ CAP \_ 集 \_ 預覽訊息會啟用或停用預覽模式。
 ms.assetid: ef6218d6-4fff-469f-b2e0-d7990998a3e5
 keywords:
-- WM_CAP_SET_PREVIEW message Windows 多媒體
+- WM_CAP_SET_PREVIEW 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b4a7e490809efa2e2d9f1ad27bca697c6333e682
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: a25bf7f1ce2a61cb104c1e1764f9bca9c82d3aa40d44cc8a1eef9ce435584271
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104106115"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369382"
 ---
 # <a name="wm_cap_set_preview-message"></a>WM \_ CAP \_ 設定 \_ 預覽訊息
 

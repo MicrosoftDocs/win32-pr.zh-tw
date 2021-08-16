@@ -36,12 +36,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 27384ec3a5f17c3e41fe0ceccf0ee1f7f9d08044
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9bfaefb0a3062db27622afe90023928507c6d127c64edb60041347f73c1b261c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103843460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118349243"
 ---
 # <a name="win32_tsgatewayconnectionauthorizationpolicy-class"></a>Win32 \_ TSGatewayConnectionAuthorizationPolicy 類別
 
@@ -139,7 +139,7 @@ class Win32_TSGatewayConnectionAuthorizationPolicy
 
 指出連接是否只允許安全的裝置重新導向 (SDR) RDS 伺服器。 您可以使用 [**EnableAllowOnlySDRServers**](win32-tsgatewayconnectionauthorizationpolicy-enableallowonlysdrservers.md) 方法來設定這個屬性。
 
-**Windows Server 2008：** 此屬性在 Windows Server 2008 R2 之前無法使用。
+**Windows Server 2008：** Windows Server 2008 R2 之前，無法使用此屬性。
 
 </dd> <dt>
 

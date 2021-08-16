@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: af432cc7d91530fd3d37176592f7f457b31b6314
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 324d013c46777ac48af32e6c91f557b7feda3a03fbdf0c21a7c79e8cf5e3d9dc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686328"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117883363"
 ---
 # <a name="mpmanageropen-function"></a>MpManagerOpen 函式
 
@@ -73,8 +73,8 @@ HRESULT WINAPI MpManagerOpen(
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                    |
 | 標頭<br/>                   | <dl> <dt>MpClient。h</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>MpClient.dll</dt> </dl> |
 

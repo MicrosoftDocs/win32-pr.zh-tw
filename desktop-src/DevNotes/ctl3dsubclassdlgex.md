@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Ctl3d32.dll
-ms.openlocfilehash: 6e29f65d5ddc3d0d9a7de05eef88b7a662e0e43f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: aeacdf75e20e2d3521405c20b52d29a466c5fe9a063d70e5acb3c0597934ab9f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001167"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118162129"
 ---
 # <a name="ctl3dsubclassdlgex-function"></a>Ctl3dSubclassDlgEx 函式
 

@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 260cc45961720ae8d175d4df3e84edc7a0c15c13
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: faf1cb1d4f597e734ac66456cd515193afed5ad31b7b6543d4e52c09717346a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104317160"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118353849"
 ---
 # <a name="getipandport-method-of-the-win32_tsgatewayserversettings-class"></a>Win32 TSGatewayServerSettings 類別的 GetIPAndPort 方法 \_
 

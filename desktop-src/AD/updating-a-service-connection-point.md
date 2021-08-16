@@ -5,12 +5,12 @@ ms.assetid: 315fb2b5-d071-4420-95fb-ab680296b3cf
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 77558f9ac10b2c2a908266f1b4e021862af0c629
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e1b1df142c92ada4afbbe20ce23f4f6c8f9495e401f47406a5d104cda1f926b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103842019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118182809"
 ---
 # <a name="updating-a-service-connection-point"></a>更新服務連接點
 
@@ -165,6 +165,6 @@ return dwStat;
 
 
 
- 
+ 
 
- 
+ 

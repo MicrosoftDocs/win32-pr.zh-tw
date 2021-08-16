@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ac8d31f1806a9c12f764c679548564aa053c3041
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d2e585a44c19093fa0d20ab4870f579c67cd568c3a693523242b84910e6589d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685890"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373267"
 ---
 # <a name="open-command"></a>開啟命令
 
@@ -149,7 +149,7 @@ MCIWAVE 驅動程式需要非同步波形音訊裝置。
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令字串](mci-command-strings.md)

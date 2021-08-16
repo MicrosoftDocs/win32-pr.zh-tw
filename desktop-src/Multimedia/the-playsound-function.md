@@ -11,12 +11,12 @@ keywords:
 - PlaySound 函式，相較于 sndPlaySound 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5723b1937c974e6c622c1f2010e8d2129e787cdd
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 1921ec4ef91f6266b48ee80d7f42be4540124c0b5c98dc18438ce0d16c398c2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104185612"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118370848"
 ---
 # <a name="the-playsound-function"></a>PlaySound 函式
 
@@ -40,6 +40,6 @@ ms.locfileid: "104185612"
 
 如需有關如何在 Win32 應用程式中使用 **PlaySound** 的更多範例，請參閱 [播放 WAVE 資源](playing-wave-resources.md)。
 
- 
+ 
 
- 
+ 

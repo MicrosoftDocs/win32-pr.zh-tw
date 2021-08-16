@@ -7,12 +7,12 @@ keywords:
 - 透過使用者介面傳達的訊息
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ab0d01717129db284f05b2361b2a067d611a33e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b20b2706ae9f03109064c459ce494fb38da3f4579ca8f5b03ade970fcb0391f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020842"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186570"
 ---
 # <a name="messages-communicated-through-user-interfaces"></a>透過使用者介面傳達的訊息
 
@@ -46,11 +46,11 @@ ms.locfileid: "104020842"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

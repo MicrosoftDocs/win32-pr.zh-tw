@@ -7,12 +7,12 @@ keywords:
 - 通用類別目錄 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4496804d21e53cf2d87947288179e7f96ca75c8
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e81abf04ab3e4d95819f91b5db8753a265e49ca79b2f405a32665dc46a8f2db5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103681660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118189111"
 ---
 # <a name="global-catalog"></a>通用類別目錄
 
@@ -22,6 +22,6 @@ Active Directory Domain Services 所執行的網域可包含許多分割區或�
 
 通用類別目錄是由 Active Directory Domain Services 複寫系統自動建立。 系統會自動產生通用類別目錄的複寫拓撲。 複寫到通用類別目錄的屬性包含由 Microsoft 定義的基底集合。 系統管理員可以指定其他屬性，以符合其安裝的需求。
 
- 
+ 
 
- 
+ 

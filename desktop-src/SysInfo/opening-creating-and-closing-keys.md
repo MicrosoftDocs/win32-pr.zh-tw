@@ -4,12 +4,12 @@ ms.assetid: 7b0b24d2-b54f-4243-95d0-2adbd87cb4df
 title: 開啟、建立和關閉索引鍵
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c3260c255240ce2c7fb5d13fe28126a1a3f5527
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 605d53a00506122c6350abd7f06e9166ed487de98c7910a3b7c3a913978492f5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970641"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763960"
 ---
 # <a name="opening-creating-and-closing-keys"></a>開啟、建立和關閉索引鍵
 

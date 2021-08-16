@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d251f2bbf0c8839ab9a0005c69e1869c47af16ef
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 973b0757eca4251e74180d829205ee6c7080ca821db2eeada3abc825bb4b5073
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992962"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117930321"
 ---
 # <a name="iwmpclosedcaptionsamifilename-property"></a>IWMPClosedCaption：： SAMIFileName 屬性
 

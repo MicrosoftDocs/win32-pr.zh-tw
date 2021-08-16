@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2f8fd18f4524ec0bf61a609d21a361668ed295b6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 703037aae6644300c596070ffe6585b5452decb8ea1d65a75c5ea2d24e219a6c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "106967779"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118177524"
 ---
 # <a name="dns-property-attribute"></a>DNS-Property 屬性
 

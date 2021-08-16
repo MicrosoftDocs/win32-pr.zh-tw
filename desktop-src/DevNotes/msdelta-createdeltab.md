@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - msdelta.dll
-ms.openlocfilehash: a2142f26499514c24967e5334d782c2dee559cd9
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ae13dfb82d4699bbb8cc222b4cd1aaa2615e8efaa578de60483f00552faf2086
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977403"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826922"
 ---
 # <a name="createdeltab-function"></a>CreateDeltaB 函式
 

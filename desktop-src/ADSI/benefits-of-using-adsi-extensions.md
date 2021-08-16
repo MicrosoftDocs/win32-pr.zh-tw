@@ -5,12 +5,12 @@ ms.assetid: dbd1a203-b94c-4739-8c9d-aed1c9b43426
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e27e80e6c095fcc02ca02c57b0987d1e6ed410ff
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 11a680e1eefbc05dac84b3420bee23287eda2bd02325274532109544b04ff73a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020809"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118018141"
 ---
 # <a name="benefits-of-using-adsi-extensions"></a>使用 ADSI 擴充功能的優點
 
@@ -66,9 +66,9 @@ Next
 
 **LastBackUp** 是一個屬性，而 **BackUpNow** 是延伸模組寫入器所提供的方法。 此程式碼會顯示擴充取用者和提供者的優點。 延伸模組寫入器不需要建立新的方式來篩選、搜尋及存取目錄。 擴充取用者不需要破解新的程式設計範例。 延伸模組寫入器所提供的新方法和屬性會視為 ADSI 的一部分。
 
- 
+ 
 
- 
+ 
 
 
 

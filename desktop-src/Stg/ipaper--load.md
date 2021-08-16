@@ -6,12 +6,12 @@ keywords:
 - IPaper 載入
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 16b5f16b8fe649d08226b2cff5a4b1a5234bddb6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0b592573f016018d359b5e3e35911d92371892b98ebea70338844b7f8ef4b1f2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932450"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117961378"
 ---
 # <a name="ipaperload"></a>IPaper：： Load
 
@@ -136,9 +136,9 @@ STDMETHODIMP COPaper::CImpIPaper::Load(
 
 如果 **載入** 結束時沒有錯誤，則會在 COPaper 內部 NotifySinks 方法中呼叫 client [**IPaperSink：：**](ipapersink-methods.md) load 方法，以通知用戶端載入作業已完成。 這是用戶端的重要通知，因為它必須顯示這項新載入的筆墨資料。 此通知會大量使用 COPaper 中的可連線物件功能。
 
- 
+ 
 
- 
+ 
 
 
 

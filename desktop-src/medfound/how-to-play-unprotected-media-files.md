@@ -4,12 +4,12 @@ ms.assetid: cdd67082-8153-4f48-abc5-278be82ae082
 title: 如何使用媒體基礎播放媒體檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 163dba2f9f67139ce7477470889e13a54e2c8b5d
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 65ba44212227be87e78d29c60a76bc3acdc2b1483b1029c62dd288bb7434b2a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "104560230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878855"
 ---
 # <a name="how-to-play-media-files-with-media-foundation"></a>如何使用媒體基礎播放媒體檔案
 

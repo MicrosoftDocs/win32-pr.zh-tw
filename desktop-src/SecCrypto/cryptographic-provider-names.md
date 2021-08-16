@@ -4,12 +4,12 @@ ms.assetid: 97e9a708-83b5-48b3-9d16-f7b54367dc4e
 title: '密碼編譯提供者名稱 (Wincrypt .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 58a5cbe497e56144a9948dab96be0c03dd5a99f3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c4c9b41aaeacb0b03df4b2fc0c608ae1f98e59ac0a581a395eb9904d0ec8e235
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768684"
 ---
 # <a name="cryptographic-provider-names"></a>密碼編譯提供者名稱
 
@@ -17,7 +17,7 @@ ms.locfileid: "103943338"
 
 
 
-| 常數/值                                                                                                                                                                                                                                                                                          | Description                                                                                                                                                                                      |
+| 常數/值                                                                                                                                                                                                                                                                                          | 描述                                                                                                                                                                                      |
 |:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="MS_DEF_DH_SCHANNEL_PROV"></span><span id="ms_def_dh_schannel_prov"></span><dl> <dt>**MS \_DEF \_ DH \_ schannel \_ >PROV**</dt> <dt>"Microsoft DH schannel 密碼編譯提供者"</dt> </dl>      | [MICROSOFT DSS 和 diffie-hellman/Schannel 密碼編譯提供者](microsoft-dss-and-diffie-hellman-schannel-cryptographic-provider.md)。<br/>                                         |
 | <span id="MS_DEF_DSS_DH_PROV"></span><span id="ms_def_dss_dh_prov"></span><dl> <dt>**MS \_DEF \_ dss \_ DH \_ >prov**</dt> <dt>"Microsoft Base DSS And Diffie-Hellman 密碼編譯提供者"</dt> </dl>     | [Microsoft 基底 DSS 和 Diffie-Hellman 密碼編譯提供者](microsoft-base-dss-and-diffie-hellman-cryptographic-provider.md)。<br/>                                                 |
@@ -39,8 +39,8 @@ ms.locfileid: "103943338"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Wincrypt。h</dt> </dl> |
 
 

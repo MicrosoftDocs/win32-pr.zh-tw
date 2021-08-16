@@ -4,12 +4,12 @@ ms.assetid: 951d20c8-7908-40d8-a9d5-d321340c97f3
 title: 應用程式設計限制
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b1c4307a979866e3df9f019e69b858e8347c295b
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 16b98e7b7d8dddf1cd74224573d355e1f42d75c8ae6122d20977bbc1b38ffb99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106992390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117917542"
 ---
 # <a name="application-design-restrictions"></a>應用程式設計限制
 

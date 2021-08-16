@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86bd87c72d689d668be2432e746787bd1b483a1b
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: 9f9e97dfe0b0a1ca04b502561df26cac7160412baa0b5824bf532b328d9df279
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "103932678"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844428"
 ---
 # <a name="wmperiod"></a>WM/句號
 
@@ -41,7 +41,7 @@ g \_ wszWMPeriod
 
 
 
- 
+ 
 
 ## <a name="see-also"></a>另請參閱
 
@@ -50,9 +50,9 @@ g \_ wszWMPeriod
 [**屬性清單**](attribute-list.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

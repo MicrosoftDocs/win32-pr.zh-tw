@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 5520a6b2d0960c1d4258b19f8cd4d600c9b8fe34
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 23fc89761d3a240d41a87bce70e07fb8d35259ac243fb504898789d80936fa12
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972784"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118172943"
 ---
 # <a name="releasedhcplease-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 ReleaseDHCPLease 方法 \_
 

@@ -8,12 +8,12 @@ keywords:
 - 架構 AD，變更架構的影響
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45aa43ed208b6eca5889220e09c78e8ada4a50a6
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: afa9cc0ee4cdcd0da3581d6bf009837799387949e43dc68989612442352df591
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967806"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187717"
 ---
 # <a name="impact-of-schema-changes"></a>架構變更的影響
 
@@ -31,9 +31,9 @@ ms.locfileid: "106967806"
 
     預先定義 (類別 1) 類別或屬性的 **lDAPDisplayName** 無法變更。 如需類別1和2架構物件的詳細資訊，請參閱 [架構延伸的限制](restrictions-on-schema-extension.md)。
 
- 
+ 
 
- 
+ 
 
 
 

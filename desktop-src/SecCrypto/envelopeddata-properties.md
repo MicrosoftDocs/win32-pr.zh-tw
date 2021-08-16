@@ -4,12 +4,12 @@ ms.assetid: AD61EA84-1526-4C09-BB62-2B25B099FF5A
 title: EnvelopedData 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bb860107bc25fca3ee085a83206ce34ef309a7a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 44599e7dcf83cd176369d6d088327a62cbefb4b77b98a6833e3968cda1a51fb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104115172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117766081"
 ---
 # <a name="envelopeddata-properties"></a>EnvelopedData 屬性
 

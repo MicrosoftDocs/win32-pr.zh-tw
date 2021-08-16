@@ -1,18 +1,18 @@
 ---
-title: 記憶。Cpp
+title: 記憶。CPP
 description: 在範例提供者元件中，顯示記憶體配置和釋出的程式碼範例位於記憶體 .cpp 中。 下表列出支援的常式。
 ms.assetid: dc5b3559-02fc-45e8-bbd0-482e4e3a7f8a
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9add77dcdbbfc0ddab547cd537b352c9a68bdaf
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 25449e9b9185c5708a1488feb5576d5e3b0cf240a836dd510fd5aa6542936fdc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968616"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839488"
 ---
-# <a name="memorycpp"></a>記憶。Cpp
+# <a name="memorycpp"></a>記憶。CPP
 
 在範例提供者元件中，顯示記憶體配置和釋出的程式碼範例位於記憶體 .cpp 中。 下表列出支援的常式。
 
@@ -30,11 +30,11 @@ ms.locfileid: "106968616"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

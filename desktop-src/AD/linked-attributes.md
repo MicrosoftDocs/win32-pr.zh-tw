@@ -8,12 +8,12 @@ keywords:
 - 屬性 AD、連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee0e3f6706c797497fb1bb25ea82805385f9897e
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2167169d6a9d2f8eabe69323054767ae66823d8e1fe954a232ed63fd31a9b845
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104374928"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186991"
 ---
 # <a name="linked-attributes-ad-ds"></a>連結屬性 (AD DS) 
 
@@ -30,6 +30,6 @@ ms.locfileid: "104374928"
 -   後置連結的 [**attributeSchema**](/windows/desktop/ADSchema/c-attributeschema) 值必須是2.5.5.1，也就是 [**(DS-DN)**](/windows/desktop/ADSchema/s-object-ds-dn) 語法的物件。
 -   依照慣例，會將後置連結屬性新增至 [**最上層**](/windows/desktop/ADSchema/c-top)抽象類別的 [**mayContain**](/windows/desktop/ADSchema/a-maycontain)值。 這可讓您從任何類別的物件讀取後置連結屬性，因為它們不會實際與物件一起儲存，而是根據轉寄連結值來計算。
 
- 
+ 
 
- 
+ 

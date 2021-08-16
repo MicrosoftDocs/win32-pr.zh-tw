@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: b5b782a56324faf19dd1527d2cd363d26f0e337c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a816ee16e128b992b18be274d814fe3369e1a59c0204201a9c6bd4a6cbc23857
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104317951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859236"
 ---
 # <a name="iuseridentitymanagermanageidentities-method"></a>IUserIdentityManager：： ManageIdentities 方法
 
@@ -68,7 +68,7 @@ HRESULT ManageIdentities(
 
 
 
-| 傳回碼                                                                                            | Description                                               |
+| 傳回碼                                                                                            | 描述                                               |
 |--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------|
 | <dl> <dt>**E 身分識別 \_ \_ 已停用**</dt> </dl> | 系統上的身分識別管理已停用。<br/> |
 | <dl> <dt>**E \_ 使用者已 \_ 取消**</dt> </dl>      | 使用者已取消對話方塊。<br/>                  |
@@ -88,7 +88,7 @@ HRESULT ManageIdentities(
 | 用戶端支援結束<br/>    | Windows 2000 Professional<br/>                                                   |
 | 伺服器支援結束<br/>    | Windows 2000 Server<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

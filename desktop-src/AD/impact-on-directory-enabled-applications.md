@@ -5,12 +5,12 @@ ms.assetid: 0aec6fe3-7757-4472-bc18-add2327d4e1b
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 061818fc791e1c75d440d0c477a321b8c4e5edfb
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 601a5bbffda08f0789875176193977cbecfc34596a9900c870f81cfd677b9ef7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933061"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187673"
 ---
 # <a name="impact-on-directory-enabled-applications"></a>對 Directory-Enabled 應用程式的影響
 
@@ -31,7 +31,7 @@ ms.locfileid: "103933061"
 > [!Note]  
 > 部分更新會對應用程式造成影響的視窗很小：當輸入複寫正在進行時，應用程式必須開始讀取物件，但在收到一或多個相關的已變更物件之後，但在收到全部之前。 來源複本上的更新之間的時間會直接影響此視窗的大小，同時會在一段時間內關閉更新。 當應用程式使用一組相關物件時，部分更新可能會產生問題。
 
- 
+ 
 
 例如，遠端存取服務可以使用目錄來儲存原則和設定檔資料。 原則資料會儲存在一組物件中，而設定檔則儲存在另一個集合中。 當使用者連線到遠端存取服務時，遠端存取服務會讀取原則以判斷是否允許使用者連線，以及要將哪個設定檔套用至使用者會話。 部分更新會以數種方式影響遠端存取服務：
 
@@ -55,6 +55,6 @@ ms.locfileid: "103933061"
 
 如果有問題的屬性在發生更新時具有相同的版本號碼，則物件的最大頻寬可能是最大的，但如果應用程式以個別的寫入作業來執行更新，則物件的最大頻寬可能會有最大的最大頻寬和1百萬的使用者可保留。 應用程式一律會在單一作業中更新這兩個屬性。
 
- 
+ 
 
- 
+ 

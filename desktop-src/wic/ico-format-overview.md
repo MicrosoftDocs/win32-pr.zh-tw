@@ -1,19 +1,19 @@
 ---
-description: 本主題提供可透過 Windows 影像處理元件 (WIC) 取得之原生 .ICO 編解碼器的相關資訊。
+description: 本主題提供可透過 Windows 影像處理元件 (WIC) 取得之原生 .ico 編解碼器的相關資訊。
 ms.assetid: EF28956E-7156-4BAE-8805-C64B8C8ADE50
 title: .ICO 格式總覽
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 329a53a3b5d386c5e5386141162c608dc9db1ec0
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: caf90f0a31beb2d004dcb43e08cb0b6b1539021071ff2cb3302b3076033bc833
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111444468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118204068"
 ---
 # <a name="ico-format-overview"></a>.ICO 格式總覽
 
-本主題提供可透過 Windows 影像處理元件 (WIC) 取得之原生 .ICO 編解碼器的相關資訊。
+本主題提供可透過 Windows 影像處理元件 (WIC) 取得之原生 .ico 編解碼器的相關資訊。
 
 ## <a name="codec-identity"></a>編解碼器身分識別
 

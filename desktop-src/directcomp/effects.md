@@ -4,17 +4,17 @@ description: 本主題討論 Microsoft DirectComposition 效果的基本概念�
 ms.assetid: 805B17D2-2F6B-4C25-8C6D-41FFA5DFC774
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4cfd1ca154dcbc7e55ca65cc34d04cfa7d73ccee
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c9c5119367a35725a85efe20b8ba4d0f9f9887ff91b4d9618e2215bedfbfef67
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104375672"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117905046"
 ---
 # <a name="effects-directcomposition"></a>效果 (DirectComposition) 
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題討論 Microsoft DirectComposition 效果的基本概念，並說明 DirectComposition 支援的效果類型。
 
@@ -49,12 +49,12 @@ DirectComposition 支援下列類型的效果。
 
 
 
- 
+ 
 
 > [!Note]  
 > 將效果套用至3D 身歷聲內容時，DirectComposition 不會執行任何特殊處理。 這表示在套用效果時，3D 內容可能會失真。
 
- 
+ 
 
 ## <a name="opacity"></a>不透明度
 
@@ -76,7 +76,7 @@ DirectComposition 支援下列類型的效果。
 > [!Note]  
 > 在 DirectComposition 中，將3D 效果套用至視覺化樹狀結構中的多個層級，其運作方式與使用完整3D 引擎（例如 Microsoft Direct3D）時的方式相同。 例如，假設有一個具有單一子視覺效果的父視覺效果。 如果子視覺效果在 z 方向向前旋轉 (圍繞90度的 y 軸) ，則子視覺效果邊緣的邊緣會顯示檢視器，因此我們預期視覺效果將不會顯示 (因為點陣圖沒有真正的深度) 。 如果父視覺效果接著以負 z 方向向前旋轉 (y 軸) 90 度，則可能會預期子視覺效果會變成完全可見的 (，因為轉換會將每個) 都否定。 不過，在 DirectComposition 中不是這樣。 子視覺效果將不會顯示，因為它已「壓平合併為」父點陣圖。
 
- 
+ 
 
 ### <a name="the-directcomposition-3d-coordinate-space"></a>DirectComposition 3D 座標空間
 
@@ -138,6 +138,6 @@ DirectComposition 支援下列類型的效果。
 [DirectComposition 概念](directcomposition-concepts.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

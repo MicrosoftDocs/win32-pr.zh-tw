@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Shell32.dll
-ms.openlocfilehash: fab501912c55aaaf6cab832bf76763672e830d33
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 41542f133961104180257b9c15b1843f3458bf6d9d2dd156fa3d97ea7b9ca87d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108083706"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857737"
 ---
 # <a name="shellnamespace-method"></a>Shell. NameSpace 方法
 
@@ -74,9 +74,9 @@ Shell.NameSpace( _
 
 ## <a name="examples"></a>範例
 
-下列範例顯示使用中的 **命名空間** 。 JScript、VBScript 和 Visual Basic 會顯示適當的使用方式。
+下列範例顯示使用中的 **命名空間** 。 JScript、VBScript 和 Visual Basic 都會顯示適當的使用方式。
 
-Jscript：
+JScript：
 
 
 ```JScript
@@ -150,10 +150,10 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

@@ -7,12 +7,12 @@ keywords:
 - 在組織單位中建立新的使用者 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c45f9dc91f1c36493a4ae8e1c9bb1a69268c9987
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b76d62c8d95e7d5e421fc562e38716477ff2dfb8f4097d4652710e2c50715487
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104461989"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118180113"
 ---
 # <a name="creating-new-users-in-the-organizational-unit"></a>在組織單位中建立新的使用者
 
@@ -56,7 +56,7 @@ usr.SetInfo
 
 
 
-您可能會想要知道 Terry 變更他的姓名、移至不同的組織或離開公司時，會發生什麼事。 誰負責維護此管理員-直接報告連結？ 如需詳細資訊，以及此問題的解決方法，請參閱 [重組](reorganization.md)。 因為 Active Directory 架構是可擴充的，所以您可以建立物件的模型，以包含類似的管理員直接報表樣式關聯性。
+您可能會想要知道 Terry 變更他的姓名、移至不同的組織或離開公司時，會發生什麼事。 神秘維護此管理員-直接報告連結？ 如需詳細資訊，以及此問題的解決方法，請參閱 [重組](reorganization.md)。 因為 Active Directory 架構是可擴充的，所以您可以建立物件的模型，以包含類似的管理員直接報表樣式關聯性。
 
 在繼續進行下一項工作之前，請先查看程式碼範例，其中顯示 Joe 如何審視 Terry 的直屬員工。
 
@@ -85,9 +85,9 @@ Active Directory 消費者和電腦嵌入式管理單元可讓您在使用者的
 [將使用者新增至群組](adding-users-to-a-group.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 159070a2-2db4-4297-bc89-66933a2541eb
 title: XMVECTORF32 延伸模組
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c3bd3d3543d637c37639c8e4eaf571b36d713c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 38b07f4e0ce71713f37c712d49987b643706e0c9bcc9c7cc2874071bda270017
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318783"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118500468"
 ---
 # <a name="xmvectorf32-extensions"></a>XMVECTORF32 延伸模組
 

@@ -3,17 +3,17 @@ title: 安全性認證
 description: 安全性認證是通訊物件所擁有的一項辨識項，可用來建立或取得安全性權杖。
 ms.assetid: 70e260ce-9e45-436f-b6d1-b650a5c9c0e9
 keywords:
-- 適用于 Windows 的安全性認證 Web 服務
+- Windows 的安全性認證 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0611e6e54fd83e09f811ffddcda4785cef162685
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 41f5703d9f58e7fee57f1ce8465e0413a7ca3c246590b816e84f7419e80f6efb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106969125"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118192759"
 ---
 # <a name="security-credentials"></a>安全性認證
 
@@ -39,7 +39,7 @@ ms.locfileid: "106969125"
 |-------------------------------------------------------------------------------------------------------|---------------------------------------------------------------|
 | [**WS \_ CERT \_ 認證 \_ 類型**](/windows/desktop/api/WebServices/ne-webservices-ws_cert_credential_type)                                         | 憑證認證的類型。                       |
 | [**WS 使用者 \_ 名稱 \_ 認證 \_ 類型**](/windows/desktop/api/WebServices/ne-webservices-ws_username_credential_type)                                 | 使用者名稱/密碼認證的類型。                 |
-| [**WS \_ WINDOWS \_ 整合式 \_ 驗證 \_ 認證 \_ 類型**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | 「Windows 整合式驗證」認證的類型。 |
+| [**WS \_ WINDOWS \_ 整合式 \_ 驗證 \_ 認證 \_ 類型**](/windows/desktop/api/WebServices/ne-webservices-ws_windows_integrated_auth_credential_type) | Windows 整合式驗證認證的類型。 |
 
 
 

@@ -3,7 +3,7 @@ title: 'PBM_SETRANGE32 訊息 (Commctrl .h) '
 description: 將進度列的最小值和最大值設定為32位值，並重新繪製橫條以反映新的範圍。
 ms.assetid: 7958ea14-17b4-4c0e-97ec-b09fa0d36e8b
 keywords:
-- PBM_SETRANGE32 message Windows 控制項
+- PBM_SETRANGE32 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 55fcf91c794ec9ae3880d67f8df947f87fec413d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f8e29022b4b3cb1c42c8e661e8366324ac10ae9853f104f31722dae8852edf71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686165"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118169854"
 ---
 # <a name="pbm_setrange32-message"></a>PBM \_ SETRANGE32 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "103686165"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

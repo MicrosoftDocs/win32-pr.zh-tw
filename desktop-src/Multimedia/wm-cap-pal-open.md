@@ -3,7 +3,7 @@ title: 'WM_CAP_PAL_OPEN 訊息 (Vfw .h) '
 description: WM \_ CAP \_ PAL 開啟的 \_ 訊息會從調色板檔案載入新的元件，並將它傳遞至 capture 驅動程式。
 ms.assetid: e77b518e-ff03-4622-978f-d9ebaa49c6a4
 keywords:
-- WM_CAP_PAL_OPEN message Windows 多媒體
+- WM_CAP_PAL_OPEN 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e949bab50294251543c50d72c8d8b169cfc5514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 29cb831ca0128b0562d6ee53b8e66309d2e1dbd91803dab13202dc4a6723bfa2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117800577"
 ---
 # <a name="wm_cap_pal_open-message"></a>WM \_ CAP \_ PAL \_ 開啟訊息
 

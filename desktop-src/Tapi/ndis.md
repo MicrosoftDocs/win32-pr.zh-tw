@@ -4,12 +4,12 @@ ms.assetid: 98cdd929-0bd7-4509-b2f5-4edd8d6a8080
 title: Ndis
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a0be1a69f98f9a4ff8cdc2f8ea173b208c0011d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4dda773591a3e3766a77b00925b9c15eacc5f45188900b12d6b9744c52f238ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998257"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761337"
 ---
 # <a name="ndis"></a>Ndis
 

@@ -15,16 +15,16 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dbde67f226c5b2d8cb86a8764c6dd61c24c2a468
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 997cbe915e7e4addac60c639a7ee6c260f07271ff5981939b25dbefd49fcba1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464185"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118345702"
 ---
 # <a name="ivmharddiskconnectioncollection-interface"></a>IVMHardDiskConnectionCollection 介面
 
-\[Windows 8 不能再使用 Windows Virtual PC。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
+\[WindowsVirtual PC 不再適用于 Windows 8。 請改為使用 [HYPER-V WMI 提供者 (V2) ](/windows/desktop/HyperV_v2/windows-virtualization-portal)。\]
 
 定義虛擬機器內的硬碟連接集合。 若要取得 **IVMHardDiskConnectionCollection** 物件，請使用 [**IVMVirtualMachine：： HardDiskConnections**](ivmvirtualmachine-harddiskconnections.md) 屬性。
 
@@ -56,7 +56,7 @@ ms.locfileid: "104464185"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                                         |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                         |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                          |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                               |
 | 產品<br/>                  | Windows Virtual PC<br/>                                                                      |

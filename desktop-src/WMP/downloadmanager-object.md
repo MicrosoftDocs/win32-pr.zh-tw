@@ -14,19 +14,19 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: f3555ee7b99c97e85ce856766bd9f670aac4229b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 500061e414d7321ed6fe4c46cafc79cd6795935847bb3d8c527364497722ecf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840231"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340522"
 ---
 # <a name="downloadmanager-object"></a>DownloadManager 物件
 
 > [!Note]  
 > 本章節描述專為線上商店使用而設計的功能。 不支援在線上商店的內容之外使用這項功能。
 
- 
+ 
 
 **DownloadManager** 物件是 Windows Media Player 下載管理員的根物件。 它可供裝載于線上商店服務工作窗格的網頁使用。
 
@@ -41,7 +41,7 @@ ms.locfileid: "103840231"
 
 
 
- 
+ 
 
 **DownloadManager** 物件是使用 external 來存取的 **。DownloadManager**。 為了方便說明，我們假設這個值已指派給名為 "DownloadManager" 的變數，此變數將用來識別參考語法區段中的這個物件。
 
@@ -54,9 +54,9 @@ ms.locfileid: "103840231"
 [**類型 2 線上商店的參考**](reference-for-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

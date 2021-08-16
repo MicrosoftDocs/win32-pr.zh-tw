@@ -4,12 +4,12 @@ ms.assetid: e8920cca-d944-437f-bf6a-7ce8d518746a
 title: 使用 Selectability 和邏輯路徑
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 42bc29d629df86562bc9b764b1d83bb8bb511d50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f008b086ea50a1695a76f8b7beecab473b767fb1e2835fd5686197bb1b583175
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344251"
 ---
 # <a name="working-with-selectability-and-logical-paths"></a>使用 Selectability 和邏輯路徑
 

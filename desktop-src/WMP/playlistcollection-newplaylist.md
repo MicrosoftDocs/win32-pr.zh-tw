@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d94c25a8dfe6f1eb7c4dac40dd644433a5f0d7e6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: af40d4de424997cb943711d84bf62805f2036afeb551c5d397ce82ae0975e812
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991156"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334592"
 ---
 # <a name="playlistcollectionnewplaylist-method"></a>PlaylistCollection. [] 方法
 

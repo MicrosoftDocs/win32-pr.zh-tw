@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: 8617d1c86f655cc9b44ea6619931f73888ae2a67
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1c64ae2256ae132fccdca6e483fae3f79d28b0cda66d7701acbe95abb1222d14
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977723"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117824427"
 ---
 # <a name="assert-macro"></a>ASSERT 巨集
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: 5c39d11e6560bc5e50a4c8a9b42a1cbb095b4b71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 822eef97ebd2ff169631f0e4d83cdfe3417388389e112851f5e77dcd7216acfd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117817500"
 ---
 # <a name="isamplegrabbercb-interface"></a>ISampleGrabberCB 介面
 
@@ -59,7 +59,7 @@ ms.locfileid: "106994223"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

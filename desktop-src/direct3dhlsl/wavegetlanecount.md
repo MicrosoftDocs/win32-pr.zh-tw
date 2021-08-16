@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 0bfdb3ce2dfde84b070fee57e7fc587a71d5f948
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
-ms.translationtype: HT
+ms.openlocfilehash: 6a177e50ee3c4c9c715ea109faaed72c24e174e4e942059a4dee0dcd0de91a9e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383285"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118504736"
 ---
 # <a name="wavegetlanecount-function"></a>WaveGetLaneCount 函式
 

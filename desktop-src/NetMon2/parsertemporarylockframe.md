@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: 48fa646e709982d88093e0cbeb5e60375643351d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47a8c02a29007084161897e34bd3ba6fbe3b5f53460aaced2acaf8e4924d67f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107001424"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364384"
 ---
 # <a name="parsertemporarylockframe-function"></a>ParserTemporaryLockFrame 函式
 

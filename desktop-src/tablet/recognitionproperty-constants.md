@@ -4,12 +4,12 @@ ms.assetid: 2bfb0cbf-73a3-4e83-a4e9-f0803bd3dee8
 title: 'RecognitionProperty 常數 (Msinkaut) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 62971276b6348af3d8ac971851d70b03f7b003c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cd18aeae50e0ae08337dd89a494292a7accbb389e6d02f0b990035fbf9644879
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117856419"
 ---
 # <a name="recognitionproperty-constants"></a>RecognitionProperty 常數
 
@@ -27,7 +27,7 @@ ms.locfileid: "104320431"
 <thead>
 <tr class="header">
 <th style="text-align: left;">常數名稱</th>
-<th style="text-align: left;">Description</th>
+<th style="text-align: left;">描述</th>
 </tr>
 </thead>
 <tbody>
@@ -76,7 +76,7 @@ ms.locfileid: "104320431"
 <td style="text-align: left;">GUID，可識別辨識器在辨識結果中的信賴層級的屬性。<br/>
 <blockquote>
 [!Note]<br />
-信賴評估版僅適用于 Microsoft Windows XP Tablet PC Edition 和 Windows Vista 中的美國英文和所有手勢辨識器。 為任何其他辨識器提供信賴屬性的方法會傳回 E_NOTIMPL。
+信賴評估僅適用于美國英文以及 Microsoft Windows XP Tablet PC Edition 和 Windows Vista 中的所有手勢辨識器。 為任何其他辨識器提供信賴屬性的方法會傳回 E_NOTIMPL。
 </blockquote>
 <br/></td>
 </tr>
@@ -91,7 +91,7 @@ ms.locfileid: "104320431"
 
 ## <a name="remarks"></a>備註
 
-在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， <systemdrive> \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，該檔案位於： Program Files Microsoft sdk Windows 6.0 Include 目錄。
+在 c + + 中，您可以在 Msinkaut .h 標頭檔中存取這些常數， <systemdrive> \\ \\ \\ \\ \\ 如果您將 SDK 安裝在預設位置，則該檔案位於： Program Files Microsoft sdk Windows 6.0 版包含目錄。
 
 > [!Note]  
 > 在 c + + 中，這些常數是 WCHARs，而不是 Bstr。 使用之前，請先將它們轉換成 Bstr。 如需 BSTR 資料類型的詳細資訊，請參閱 [使用 COM 程式庫](using-the-com-library.md)。
@@ -104,7 +104,7 @@ ms.locfileid: "104320431"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 

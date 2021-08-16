@@ -1,11 +1,11 @@
 ---
-title: ms-PKI-Enterprise-Oid 類別
+title: ms-chap-Enterprise Oid 類別
 description: 在憑證 UI 顯示憑證範本的顯示名稱、增強金鑰使用方法、應用程式原則和發佈原則時使用。 UI 元件會嘗試在符合預設語言地區設定的屬性中找出字串。
 ms.assetid: 519dc8f0-031d-4dc0-acc2-739302e03837
 ms.tgt_platform: multiple
 keywords:
-- ms-PKI-Enterprise-Oid 類別 AD 架構
-- Mspki-certificate-name-flag-Enterprise-Oid 類別 AD 架構
+- ms-PKI-Enterprise Oid 類別 AD 架構
+- mspki-certificate-name-flag-Enterprise Oid 類別 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 38c67c96a2ee672a0b275ea33811596b65ae4729
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8675b9ef905b28f4c37bdc090e14cab9b79ef501e51d84c08b5a2dd292b0b10b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118175181"
 ---
-# <a name="ms-pki-enterprise-oid-class"></a>ms-PKI-Enterprise-Oid 類別
+# <a name="ms-pki-enterprise-oid-class"></a>ms-chap-Enterprise Oid 類別
 
 在憑證 UI 顯示憑證範本的顯示名稱、增強金鑰使用方法、應用程式原則和發佈原則時使用。 UI 元件會嘗試在符合預設語言地區設定的屬性中找出字串。
 
@@ -29,8 +29,8 @@ ms.locfileid: "103844831"
 
 | 進入 | 值 |
 |-------------------|----------------------------------------------------------------------------------------------|
-| CN                | ms-PKI-企業-Oid                                                                        |
-| Ldap-顯示名稱 | Mspki-certificate-name-flag-企業-Oid                                                                         |
+| CN                | ms-chap-Enterprise-Oid                                                                        |
+| Ldap-顯示名稱 | mspki-certificate-name-flag-Enterprise-Oid                                                                         |
 | 更新許可權  | 網域系統管理員                                                                         |
 | 更新頻率  | 當系統管理員執行 certutil.exe 來儲存每個 oid 的當地語系化名稱時，會更新它。 |
 | 架構識別碼-Guid    | 37cfd85c-6719-4ad8-8f9e-8678ba627563                                                         |
@@ -60,7 +60,7 @@ ms.locfileid: "103844831"
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>                                                              |
-| 可能的 Superiors          | [**容器**](c-container.md)**ms-PKI-企業-Oid**                                    |
+| 可能的 Superiors          | [**容器**](c-container.md)**ms-chap-Enterprise-Oid**                                    |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
 | 預設安全描述項 | D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU) |
@@ -68,7 +68,7 @@ ms.locfileid: "103844831"
 
 
 
-## <a name="windows-server-2003-attributes"></a>Windows Server 2003 屬性
+## <a name="windows-server-2003-attributes"></a>Windows伺服器2003屬性
 
 此類別包含 Windows Server 2003 的下列屬性：
 
@@ -97,7 +97,7 @@ ms.locfileid: "103844831"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -125,17 +125,17 @@ ms.locfileid: "103844831"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)               | 否     | **ms-PKI-企業-Oid**       |
-| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                       | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                   | 否     | **ms-PKI-企業-Oid**       |
+| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)               | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                       | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                   | 否     | **ms-chap-Enterprise-Oid**       |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -190,7 +190,7 @@ ms.locfileid: "103844831"
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>                                                              |
-| 可能的 Superiors          | [**容器**](c-container.md)**ms-PKI-企業-Oid**                                    |
+| 可能的 Superiors          | [**容器**](c-container.md)**ms-chap-Enterprise-Oid**                                    |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
 | 預設安全描述項 | D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU) |
@@ -198,7 +198,7 @@ ms.locfileid: "103844831"
 
 
 
-## <a name="windows-server-2003-r2-attributes"></a>Windows Server 2003 R2 屬性
+## <a name="windows-server-2003-r2-attributes"></a>WindowsServer 2003 R2 屬性
 
 此類別包含 Windows Server 2003 R2 的下列屬性：
 
@@ -227,7 +227,7 @@ ms.locfileid: "103844831"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -257,18 +257,18 @@ ms.locfileid: "103844831"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)               | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)               | 否     | **ms-PKI-企業-Oid**       |
-| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                       | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                   | 否     | **ms-PKI-企業-Oid**       |
+| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)               | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                       | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                   | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                   | 否     | **ms-chap-Enterprise-Oid**       |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                    | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                 | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                 | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                 | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -323,7 +323,7 @@ ms.locfileid: "103844831"
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>                                                              |
-| 可能的 Superiors          | [**容器**](c-container.md)**ms-PKI-企業-Oid**                                    |
+| 可能的 Superiors          | [**容器**](c-container.md)**ms-chap-Enterprise-Oid**                                    |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
 | 預設安全描述項 | D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU) |
@@ -331,7 +331,7 @@ ms.locfileid: "103844831"
 
 
 
-## <a name="windows-server-2008-attributes"></a>Windows Server 2008 屬性
+## <a name="windows-server-2008-attributes"></a>Windows伺服器2008屬性
 
 此類別包含 Windows Server 2008 的下列屬性：
 
@@ -360,7 +360,7 @@ ms.locfileid: "103844831"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -401,18 +401,18 @@ ms.locfileid: "103844831"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                  | 否     | **ms-PKI-企業-Oid**       |
-| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                          | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                      | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                   | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                      | 否     | **ms-PKI-企業-Oid**       |
+| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                  | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                          | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                      | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                   | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                      | 否     | **ms-chap-Enterprise-Oid**       |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                       | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                    | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                    | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -467,7 +467,7 @@ ms.locfileid: "103844831"
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>                                                              |
-| 可能的 Superiors          | [**容器**](c-container.md)**ms-PKI-企業-Oid**                                    |
+| 可能的 Superiors          | [**容器**](c-container.md)**ms-chap-Enterprise-Oid**                                    |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
 | 預設安全描述項 | D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU) |
@@ -475,7 +475,7 @@ ms.locfileid: "103844831"
 
 
 
-## <a name="windows-server-2008-r2-attributes"></a>Windows Server 2008 R2 屬性
+## <a name="windows-server-2008-r2-attributes"></a>WindowsServer 2008 R2 屬性
 
 此類別包含 Windows Server 2008 R2 的下列屬性：
 
@@ -504,7 +504,7 @@ ms.locfileid: "103844831"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                       | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                          | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                          | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -540,7 +540,7 @@ ms.locfileid: "103844831"
 | [**ms-DS-NC 類型**](a-msds-nctype.md)                                           | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-非成員-BL**](a-msds-nonmembersbl.md)                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------物件參考**](a-msds-objectreferencebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**OIDToGroup-連結**](a-msds-oidtogrouplink.md)                           | 否     | **ms-PKI-企業-Oid**       |
+| [**OIDToGroup-連結**](a-msds-oidtogrouplink.md)                           | 否     | **ms-chap-Enterprise-Oid**       |
 | [**OIDToGroup-連結-BL**](a-msds-oidtogrouplinkbl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------------**](a-msds-operationsforazrolebl.md)          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------工作-**](a-msds-operationsforaztaskbl.md)          | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -553,18 +553,18 @@ ms.locfileid: "103844831"
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                    | 否     | **ms-PKI-企業-Oid**       |
-| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                            | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                        | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                     | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                        | 否     | **ms-PKI-企業-Oid**       |
+| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                    | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                            | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                        | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                     | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                        | 否     | **ms-chap-Enterprise-Oid**       |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                          | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                         | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                     | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                      | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                            | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                      | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                            | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                              | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                        | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -619,7 +619,7 @@ ms.locfileid: "103844831"
 | 預設值-隱藏-值        | 1                                                                                            |
 | Rdn-Att-Id                  | [**一般名稱**](a-cn.md)<br/>                                                       |
 | 的子類別                 | [**返回頁首**](c-top.md)<br/>                                                              |
-| 可能的 Superiors          | [**容器**](c-container.md)**ms-PKI-企業-Oid**                                    |
+| 可能的 Superiors          | [**容器**](c-container.md)**ms-chap-Enterprise-Oid**                                    |
 | 輔助類別           | \-                                                                                           |
 | NT-Security-描述元      | O:BAG：不正確： S：                                                                                 |
 | 預設安全描述項 | D:(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;DA)(A;;RPWPCRCCDCLCLORCWOWDSDDTSW;;;SY)(A;;RPLCLORC;;;AU) |
@@ -627,9 +627,9 @@ ms.locfileid: "103844831"
 
 
 
-## <a name="windows-server-2012-attributes"></a>Windows Server 2012 屬性
+## <a name="windows-server-2012-attributes"></a>Windows Server 2012屬性
 
-此類別包含 Windows Server 2012 的下列屬性：
+這個類別包含 Windows Server 2012 的下列屬性：
 
 
 
@@ -656,7 +656,7 @@ ms.locfileid: "103844831"
 | [**Frs-電腦-參考-BL**](a-frscomputerreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FRS-成員參考-BL**](a-frsmemberreferencebl.md)                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**FSMO 角色-擁有者**](a-fsmoroleowner.md)                                                   | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**實例類型**](a-instancetype.md)                                                      | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**實例類型**](a-instancetype.md)                                                      | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**為關鍵-系統物件**](a-iscriticalsystemobject.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**已刪除**](a-isdeleted.md)                                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**是-DL 的成員**](a-memberof.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -695,7 +695,7 @@ ms.locfileid: "103844831"
 | [**ms-DS-NC 類型**](a-msds-nctype.md)                                                       | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-非成員-BL**](a-msds-nonmembersbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------物件參考**](a-msds-objectreferencebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**OIDToGroup-連結**](a-msds-oidtogrouplink.md)                                       | 否     | **ms-PKI-企業-Oid**       |
+| [**OIDToGroup-連結**](a-msds-oidtogrouplink.md)                                       | 否     | **ms-chap-Enterprise-Oid**       |
 | [**OIDToGroup-連結-BL**](a-msds-oidtogrouplinkbl.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------------**](a-msds-operationsforazrolebl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**BL-------------工作-**](a-msds-operationsforaztaskbl.md)                      | 否     | [**返回頁首**](c-top.md)<br/> |
@@ -707,22 +707,22 @@ ms.locfileid: "103844831"
 | [**ms-DS-Revealed-List-BL**](a-msds-revealedlistbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap---------BL**](a-msds-tasksforazrolebl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms DS-工作--Az-Task-BL**](a-msds-tasksforaztaskbl.md)                                | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms DS-TDO-出口-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
+| [**ms-chap-Egress-BL**](a-msds-tdoegressbl.md)                                            | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-DS-TDO-輸入-BL**](a-msds-tdoingressbl.md)                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**ms-chap-------Reference-BL**](a-msds-valuetypereferencebl.md)                         | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**Ms-exch-assistant-name-擁有者-BL**](a-ownerbl.md)                                                        | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                                | 否     | **ms-PKI-企業-Oid**       |
-| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                                        | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                                    | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                                 | 否     | **ms-PKI-企業-Oid**       |
-| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                                    | 否     | **ms-PKI-企業-Oid**       |
+| [**ms-PKI-Cert-Template-OID**](a-mspki-cert-template-oid.md)                                | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms PKI-OID-Attribute**](a-mspki-oid-attribute.md)                                        | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-CPS**](a-mspki-oid-cps.md)                                                    | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-LocalizedName**](a-mspki-oidlocalizedname.md)                                 | 否     | **ms-chap-Enterprise-Oid**       |
+| [**ms-PKI-OID-使用者-注意事項**](a-mspki-oid-user-notice.md)                                    | 否     | **ms-chap-Enterprise-Oid**       |
 | [**msSFU-30-Posix-成員**](a-mssfu30posixmemberof.md)                                   | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**netboot-SCP-BL**](a-netbootscpbl.md)                                                     | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**非安全性成員-BL**](a-nonsecuritymemberbl.md)                                      | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**NT-Security-描述元**](a-ntsecuritydescriptor.md)                                     | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**Obj-Dist 名稱**](a-distinguishedname.md)                                                 | 否     | [**返回頁首**](c-top.md)<br/> |
-| [**物件-類別**](a-objectcategory.md)                                                  | 對      | [**返回頁首**](c-top.md)<br/> |
-| [**物件類別**](a-objectclass.md)                                                        | 對      | [**返回頁首**](c-top.md)<br/> |
+| [**物件-類別**](a-objectcategory.md)                                                  | 是      | [**返回頁首**](c-top.md)<br/> |
+| [**物件類別**](a-objectclass.md)                                                        | 是      | [**返回頁首**](c-top.md)<br/> |
 | [**物件-Guid**](a-objectguid.md)                                                          | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**物件版本**](a-objectversion.md)                                                    | 否     | [**返回頁首**](c-top.md)<br/> |
 | [**其他知名物件**](a-otherwellknownobjects.md)                                  | 否     | [**返回頁首**](c-top.md)<br/> |

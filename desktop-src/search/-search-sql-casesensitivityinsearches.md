@@ -4,12 +4,12 @@ ms.assetid: 45a3305c-1cfe-4e11-a476-1a2a64f31de6
 title: 搜尋中的區分大小寫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 70b099ba146e2b91edbd9e772ee306b299e071a7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 768edd161f1fa5f53b93c5a6e94ffa7e5040aa53cf0d5f3c57340ab466825ed7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863691"
 ---
 # <a name="case-sensitivity-in-searches"></a>搜尋中的區分大小寫
 

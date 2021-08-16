@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: c15092d7a7eafd625e9c2026965af053d38fe4b9
-ms.sourcegitcommit: 7b8f6151ebe247536304866459b2973276271d4d
+ms.openlocfilehash: 7dac9ab8c8aa2a6caeacf43023c4995be69f293affd5dd5a904d7fb96d710266
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/06/2021
-ms.locfileid: "104195831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118343714"
 ---
 # <a name="instrumentationmanifest-element"></a>instrumentationManifest 元素
 
@@ -162,8 +162,8 @@ xmlns： xs = " https://www.w3.org/2001/XMLSchema "
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

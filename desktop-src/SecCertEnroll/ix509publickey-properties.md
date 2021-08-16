@@ -4,12 +4,12 @@ ms.assetid: E8FE3D48-A103-4DD3-B2A8-20B57FB8A654
 title: IX509PublicKey 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 623692e38396c47e83f348fbfb18e87a9fb5839e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 686682a51bbd40ef251a5a1903ac00e39b20f9c246ae1dc1a766a3735c8fea3b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106984572"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774944"
 ---
 # <a name="ix509publickey-properties"></a>IX509PublicKey 屬性
 

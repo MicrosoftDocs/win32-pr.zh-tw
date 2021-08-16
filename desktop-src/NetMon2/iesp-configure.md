@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 53efbe7eb2887165dacc4cb904822de953b84017
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5ae0fba6885db46d987e59517cdc30dab484974869c67c85a257044e5eec58b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999847"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365667"
 ---
 # <a name="iespconfigure-method"></a>IESP：： Configure 方法
 
@@ -66,7 +66,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 | 傳回碼                                                                                                         | Description                                                                                                                                                                                                       |
 |---------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <dl> <dt>**NMERR \_ 未 \_ 連接**</dt> </dl>                | NPP 未連接到網路。<br/>                                                                                                                                                               |
-| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>                      | NPP 已連接到網路，但不是使用 [IESP：： Connect](iesp-connect.md) 方法。<br/>                                                                                                         |
+| <dl> <dt>**NMERR \_ 非 \_ ESP**</dt> </dl>                      | NPP 是連接到網路，但不是使用[IESP：：連線](iesp-connect.md)方法。<br/>                                                                                                         |
 | <dl> <dt>**NMERR \_ 捕獲**</dt> </dl>                     | NPP 會報告 capture 會話已啟動。<br/>                                                                                                                                                  |
 | <dl> <dt>**NMERR 不 \_ 合法的 \_ 觸發程式**</dt> </dl>              | 設定 BLOB 的觸發程式部分已損毀。<br/>                                                                                                                                              |
 | <dl> <dt>**NMERR \_ BLOB \_ 專案 \_ 不 \_ \_ 存在**</dt> </dl> | *HConfigurationBlob* 所指定的設定 BLOB 缺少執行這項作業所需的專案。 查看 *hErrorBlob* 傳回的錯誤 BLOB，以判斷找不到哪個專案。<br/> |

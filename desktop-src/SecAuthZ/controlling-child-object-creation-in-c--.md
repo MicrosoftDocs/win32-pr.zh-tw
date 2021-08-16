@@ -4,12 +4,12 @@ ms.assetid: 95f2f058-f847-4f58-b469-090bf599ae98
 title: 控制在 c + + 中建立子物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 598b2fd9a9889fbb77d2b3a4ecd004efcd823b8b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2820f6d1bd9aae335e018e15b3b298b5b907f51a47d78e517b8ad798d0aba442
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104512420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782713"
 ---
 # <a name="controlling-child-object-creation-in-c"></a>控制在 c + + 中建立子物件
 

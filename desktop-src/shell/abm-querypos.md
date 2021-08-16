@@ -4,16 +4,16 @@ ms.assetid: 061a30fb-a68a-464e-ad8c-0bda672b57d9
 title: 'ABM_QUERYPOS 訊息 (Shellapi .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 08f25ef636b2c55d8442df49f86a59b537694c31
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 24f7a5e78b6b040904144a64e1068fea3a3e56c7b42fdfcf314f2ced4bfff9e8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318123"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118225029"
 ---
 # <a name="abm_querypos-message"></a>ABM \_ QUERYPOS 訊息
 
-要求 appbar 的大小和螢幕位置。 提出要求時，訊息會提出 appbar 的螢幕邊緣和周框。 系統會調整周框，讓 appbar 不會干擾 Windows 工作列或任何其他透過像 appbars。
+要求 appbar 的大小和螢幕位置。 提出要求時，訊息會提出 appbar 的螢幕邊緣和周框。 系統會調整周框，讓 appbar 不會干擾 Windows 的工作列或其他任何透過像 appbars。
 
 
 ```C++
@@ -47,7 +47,7 @@ Appbar 應該會在傳送 [**ABM \_ SETPOS**](abm-setpos.md) 訊息之前傳送�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                           |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Shellapi。h</dt> </dl> |
 

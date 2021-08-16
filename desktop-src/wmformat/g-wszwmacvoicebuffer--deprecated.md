@@ -1,6 +1,6 @@
 ---
 title: 'g_wszWMACVoiceBuffer (Wmcodecdsp) '
-description: '如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP Api。 |g_wszWMACVoiceBuffer (Wmcodecdsp) '
+description: '如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱 Windows Media 音訊和影片編解碼器和 DSP api。 |g_wszWMACVoiceBuffer (Wmcodecdsp) '
 ms.assetid: 0e31688f-cb7e-4b78-9780-aa14c2ffd874
 keywords:
 - g_wszWMACVoiceBuffer windows Media 格式
@@ -14,16 +14,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1bde714a08fe516cb11daf3ca66fd588f847a7a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 98dc5cef86168fbe15925d146032a88fc1d5370d791cef6f11ed7c1d5143f8ec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986579"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848056"
 ---
 # <a name="g_wszwmacvoicebuffer"></a>g \_ wszWMACVoiceBuffer
 
-如需 Windows Media 編解碼器和數位訊號處理器的最新檔，請參閱 [Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
+如需 Windows 媒體編解碼器和數位訊號處理器的最新檔，請參閱[Windows Media 音訊和影片編解碼器和 DSP api。](/previous-versions//dd464626(v=vs.85))
 
 ## <a name="requirements"></a>規格需求
 

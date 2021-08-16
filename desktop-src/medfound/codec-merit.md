@@ -4,16 +4,16 @@ ms.assetid: 4ed594a0-2cc2-40d2-9b5c-dee59916fa1b
 title: 編解碼器的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ecd177c3c32084a030ce75c15cecd5d4c04fc3f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b56112942aa8378b2016616d0e090e17eb7225ca27b363c96e37eb7cccb6286e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104567802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118065119"
 ---
 # <a name="codec-merit"></a>編解碼器的優點
 
-從 Windows 7 開始，您可以為媒體基礎的編解碼器指派一個 *「值」* 。 列舉編解碼器時，較高的編解碼器偏好較低的編解碼器。 具有任何慣用值的編解碼器，在沒有指派的業績的情況下優先于編解碼器。 如需編解碼器列舉的詳細資訊，請參閱 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex)。
+從 Windows 7 開始，您可以為媒體基礎編解碼器指派一個 *「值」* 。 列舉編解碼器時，較高的編解碼器偏好較低的編解碼器。 具有任何慣用值的編解碼器，在沒有指派的業績的情況下優先于編解碼器。 如需編解碼器列舉的詳細資訊，請參閱 [**MFTEnumEx**](/windows/desktop/api/mfapi/nf-mfapi-mftenumex)。
 
 這些值是由 Microsoft 所指派。 目前，只有硬體編解碼器才有資格獲得相關價值。 編解碼器廠商也會發出數位憑證，用來驗證編解碼器的業績值。 若要取得憑證，請傳送電子郵件要求至 wmla@microsoft.com 。 取得憑證的套裝程式括簽署授權，以及提供一組資訊檔給 Microsoft。
 

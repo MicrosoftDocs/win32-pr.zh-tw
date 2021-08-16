@@ -1,10 +1,10 @@
 ---
-title: 將 DRM-Protected 檔案轉換為網路裝置串流的 Windows Media DRM 10
-description: 將 DRM-Protected 檔案轉換為網路裝置串流的 Windows Media DRM 10
+title: 將 DRM-Protected 檔案轉換成網路裝置串流的 Windows 媒體 DRM 10
+description: 將 DRM-Protected 檔案轉換成網路裝置串流的 Windows 媒體 DRM 10
 ms.assetid: 11aa0cfd-6d87-4ec4-82d8-db2507402911
 keywords:
-- Windows Media Format SDK，轉換受 DRM 保護的檔案
-- Windows Media Format SDK，受 DRM 保護的檔案
+- Windows媒體格式 SDK，轉換受 DRM 保護的檔案
+- Windows媒體格式 SDK，受 DRM 保護的檔案
 - Advanced Systems Format (ASF) ，轉換受 DRM 保護的檔案
 - ASF (Advanced Systems 格式) ，轉換受 DRM 保護的檔案
 - Advanced Systems Format (ASF) 、受 DRM 保護的檔案
@@ -13,28 +13,28 @@ keywords:
 - DRM (數位版權管理) ，轉換受 DRM 保護的檔案
 - 數位版權管理 (DRM) 、受 DRM 保護的檔案
 - DRM (數位版權管理) 、受 DRM 保護的檔案
-- Windows Media Format SDK，適用于網路裝置的 Windows Media DRM 10
-- 適用于網路裝置的 Windows Media Format SDK、DRM 10
-- Advanced Systems Format (ASF) 、適用于網路裝置的 Windows Media DRM 10
-- ASF (Advanced Systems Format) ，適用于網路裝置的 Windows Media DRM 10
+- Windows媒體格式 SDK，適用于網路裝置 Windows 媒體 DRM 10
+- Windows媒體格式 SDK，DRM 10 用於網路裝置
+- 適用于網路裝置的 Advanced Systems Format (ASF) 、Windows Media DRM 10
+- ASF (Advanced Systems Format) 、Windows Media DRM 10 用於網路裝置
 - 適用于網路裝置的 Advanced Systems Format (ASF) ，DRM 10
 - ASF (Advanced Systems Format) ，DRM 10 用於網路裝置
-- 數位版權管理 (DRM) ，適用于網路裝置的 Windows Media DRM 10
-- DRM (數位版權管理) 、適用于網路裝置的 Windows Media DRM 10
+- 數位版權管理 (DRM) ，適用于網路裝置 Windows Media DRM 10
+- DRM (數位版權管理) ，Windows 適用于網路裝置的媒體 DRM 10
 - 適用于網路裝置的數位版權管理 (DRM) ，DRM 10
 - DRM (數位版權管理) ，DRM 10 用於網路裝置
-- 適用于網路裝置的 Windows Media DRM 10，轉換受 DRM 保護的檔案
+- Windows網路裝置的媒體 DRM 10，轉換受 DRM 保護的檔案
 - 適用于網路裝置的 DRM 10，轉換受 DRM 保護的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 644c1b4f7ede688434fbb1dde11b7051c6f644a5
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: ebe5aa16b13f41c0376da84237a846612b7ae6e730e630be6ec4a45ce48ff4fd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117848909"
 ---
-# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>將 DRM-Protected 檔案轉換為網路裝置串流的 Windows Media DRM 10
+# <a name="converting-a-drm-protected-file-to-a-windows-media-drm-10-for-network-devices-stream"></a>將 DRM-Protected 檔案轉換成網路裝置串流的 Windows 媒體 DRM 10
 
 註冊並驗證裝置之後，您就可以開始處理授權要求訊息。 當需要應用程式的動作時，裝置會傳送授權要求訊息。 目前唯一支援的動作是「播放」，這是保護資料以進行播放的要求。
 
@@ -56,18 +56,18 @@ ms.locfileid: "103681434"
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
 <dl> <dt>
 
-[**使用 Windows Media DRM 10 進行網路裝置通訊協定**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
+[**使用 Windows 媒體 DRM 10 進行網路裝置通訊協定**](using-the-windows-media-drm-10-for-network-devices-protocol.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

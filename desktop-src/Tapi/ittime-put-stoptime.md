@@ -4,16 +4,16 @@ ms.assetid: 6f07054c-5fb2-4ee4-9025-3acf9b51ddbd
 title: 'ITTime：:p ut_StopTime 方法 (Sdpblb .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 53446ea1d7ee93589987c42b005d7a84e7e728ae
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3e3aa32615988e52ccaa845a8fb7ec52f2e863c7193ee393d7d184e2b3002f59
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978660"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762380"
 ---
 # <a name="ittimeput_stoptime-method"></a>ITTime：:p 的 \_ StopTime 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續版本的作業系統中，無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
+\[Windows Vista、Windows Server 2008 及後續版本的作業系統無法使用會合 IP 電話語音會議控制項和介面。 RTC 用戶端 API 提供類似的功能。\]
 
 **Put \_ StopTime** 方法會將 NTP (網路時間通訊協定) 結束時間值。 如果結束時間為零，則不會限制會話。
 
@@ -45,7 +45,7 @@ HRESULT put_StopTime(
 
 
 
-| 傳回碼                                                                                   | Description                                                     |
+| 傳回碼                                                                                   | 描述                                                     |
 |-----------------------------------------------------------------------------------------------|-----------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>          | 方法成功。<br/>                                    |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl>  | *Time* 參數無效。<br/>                   |

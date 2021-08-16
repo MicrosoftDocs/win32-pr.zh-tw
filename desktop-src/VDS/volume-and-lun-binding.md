@@ -4,16 +4,16 @@ ms.assetid: ae32b354-799e-4f9b-8989-02bd95968210
 title: 磁片區和 LUN 系結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8c9f62e599f5b5e457a1ce6dbf6a52524d1b80d1
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 91014241014793b601c15c64ec19e5a2b1d153c71ba617cead54a5d68cf978b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104195652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118125549"
 ---
 # <a name="volume-and-lun-binding"></a>磁片區和 LUN 系結
 
-\[從 Windows 8 和 Windows Server 2012 開始， [虛擬磁碟服務](virtual-disk-service-portal.md) COM 介面會被 [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)取代。\]
+\[從 Windows 8 和 Windows Server 2012 開始， [Windows 儲存體管理 API](/previous-versions/windows/desktop/stormgmt/windows-storage-management-api-portal)會取代[虛擬磁碟服務](virtual-disk-service-portal.md)COM 介面。\]
 
 系結是指建立磁片區或 Lun。 磁片區是由磁片區和 Lun 組成，由磁片區所組成。 系結會針對實體資源的一組對應進行選取，並且在子系統內、在元件內或同時發生。 所有提供者程式都支援部分導向的系結模型，在此模型中，呼叫端僅指定特定興趣的系結屬性，並允許提供者選擇其餘部分。 在 VDS 中系結磁片區和 Lun 的作業很類似，但不完全相同。 例如，硬體提供者可以提供其他的系結選項。
 

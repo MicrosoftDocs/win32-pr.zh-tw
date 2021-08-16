@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: ad2d482e0be93a1abec80fc710a1a43d7873dd99
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 43d69f8a04fd937591675fe13fefd9499fe4c0dd59f70da02077cb97f7b06fee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104468337"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118010100"
 ---
 # <a name="changesecuritypermissions-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的 ChangeSecurityPermissions 方法 \_
 
@@ -172,7 +172,7 @@ uint32 ChangeSecurityPermissions(
 
 12
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 

@@ -11,12 +11,12 @@ api_name:
 - AutoConnectOnInternet
 api_type:
 - Schema
-ms.openlocfilehash: fd08e93572d7d0af8b490ac079e3057413c469ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a10804e91ee34125c25c320a49b5f7251f720ed9ce6c770c2aa4af5167a8511
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191443"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117881473"
 ---
 # <a name="autoconnectoninternet-mbnprofile-element"></a>AutoConnectOnInternet (MBNProfile) 元素
 

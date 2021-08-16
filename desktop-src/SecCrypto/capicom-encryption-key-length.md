@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Capicom.h
-ms.openlocfilehash: 4f3e64df1e706ef20a83f4da5c81cda2a08ed331
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2957bd644fdf405fec7e82a487bf83af2cbae35ae305f10b9b168628a30b0749
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117772473"
 ---
 # <a name="capicom_encryption_key_length-enumeration"></a>CAPICOM \_ 加密 \_ 金鑰 \_ 長度列舉
 

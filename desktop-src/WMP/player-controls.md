@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bcd4ede5b89be590172092423b3390a52e8d2db0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 237bdfc778400be6eaa3e469715d1bfcbae9bdd7ff45694df7e14a63ed5f9e0b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984803"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118338342"
 ---
 # <a name="playercontrols"></a>Player. 控制項
 

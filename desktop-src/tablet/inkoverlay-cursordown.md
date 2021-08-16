@@ -4,12 +4,12 @@ ms.assetid: 753aa733-8d62-4983-b76d-d58844b79c35
 title: 'CursorDown 事件 (Msinkaut .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 56ed26c672aadc9fa19f6a6426fed7339752448d
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 231af581edb8e01c397219b3c18e275436643c846110c5a1eaa2c83754ee0e73
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108117056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118220859"
 ---
 # <a name="inkoverlaycursordown-event"></a>CursorDown 事件
 
@@ -61,7 +61,7 @@ void CursorDown(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                       |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                           |
 | 標頭<br/>                   | <dl> <dt>Msinkaut (也需要 Msinkaut \_ c) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>InkObj.dll</dt> </dl>                               |

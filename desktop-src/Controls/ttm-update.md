@@ -3,7 +3,7 @@ title: 'TTM_UPDATE 訊息 (Commctrl .h) '
 description: 強制重新繪製目前的工具提示。
 ms.assetid: b3879cca-489f-4811-92f1-a2d61e2e09aa
 keywords:
-- TTM_UPDATE message Windows 控制項
+- TTM_UPDATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 36943b333691588df5b159d1922719eda1fb0a1f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 571f167b67b41164c451aeadfb55edda61b21b13ef5311d5172cdc49bec4fa32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465853"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118166121"
 ---
 # <a name="ttm_update-message"></a>TTM \_ 更新訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "104465853"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

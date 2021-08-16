@@ -4,12 +4,12 @@ ms.assetid: 5001d641-a121-421a-90bf-f2e6e5f88dc8
 title: PKCS \# 10 編碼的 ASN. 1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3e1699ce6b73fb22a38e74f570f848db70fabf38
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 21da0b55a9494bde480f00aea9d2b36f1ea0ecc6aebfa47d7d0268a90024c1cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195407"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117774691"
 ---
 # <a name="pkcs-10-encoded-asn1"></a>PKCS \# 10 編碼的 ASN. 1
 

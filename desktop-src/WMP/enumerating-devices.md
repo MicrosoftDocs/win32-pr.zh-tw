@@ -6,20 +6,20 @@ keywords:
 - Windows Media Player，可攜式裝置
 - Windows Media Player 物件模型，可攜式裝置
 - 物件模型，可攜式裝置
-- Windows Media Player 的 ActiveX 控制項、可攜式裝置
-- ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile ActiveX 控制項、可攜式裝置
-- Windows Media Player Mobile、可攜式裝置
+- Windows Media Player ActiveX 控制、可攜式裝置
+- ActiveX 控制，可攜式裝置
+- Windows Media PlayerMobile ActiveX control、可攜式裝置
+- Windows Media Player行動裝置、可攜式裝置
 - 可攜式裝置，列舉
 - 列舉，可攜式裝置
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d44f71fa26f40983424ced70280d9c03e0892a00
-ms.sourcegitcommit: 51ef825fb48f15e1aa30e8795988f10dc2b2155c
+ms.openlocfilehash: 64f62ecc599e8a9610bf01b5f8a1651b330c9f8ed6abb4197fac89daeb751c4d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/14/2021
-ms.locfileid: "112068435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118339856"
 ---
 # <a name="enumerating-devices"></a>列舉裝置
 

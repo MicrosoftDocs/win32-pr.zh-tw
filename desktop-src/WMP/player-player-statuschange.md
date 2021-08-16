@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c11aaa81c8bfe45c986ba3b3c5dd2524130694e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a4643db91003418c8523de31e73c1a4ec8c9f0efa181c16d705ccd4a4db96ff5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994274"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118337908"
 ---
 # <a name="playerstatuschange-event"></a>StatusChange 事件
 

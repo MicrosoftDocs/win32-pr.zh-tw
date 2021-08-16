@@ -11,12 +11,12 @@ keywords:
 - 播放清單物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7fd9c6301e33307fc49e50b8aa9042752e020e32
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 0f2acb01de41b753a85fee1c69e0bf015c687da04f50a10531ee5c67b0a13cc7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340917"
 ---
 # <a name="device-extensions-for-playlist-object-preferences"></a>播放清單物件喜好設定的裝置擴充功能
 
@@ -40,7 +40,7 @@ ms.locfileid: "103674688"
 
 
 
- 
+ 
 
 下表提供有關播放清單物件喜好設定的 MTP 作業詳細資料。
 
@@ -65,7 +65,7 @@ ms.locfileid: "103674688"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -78,9 +78,9 @@ ms.locfileid: "103674688"
 [**Windows Media Player**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

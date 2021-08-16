@@ -4,12 +4,12 @@ description: 使用 COM 物件編寫腳本
 ms.assetid: d99a561b-67dc-4fc9-adfa-cd7350eb16ba
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8f2b00380a14db2d254675a5826b61f262e8cfe8
-ms.sourcegitcommit: 8c981a2f4149b4a9d605ffb71fefda8d82bc696e
+ms.openlocfilehash: 7c40d94ddd0316d3a921d5d1ecd4591775700c967008ad801cdd8439a341dd9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "103677976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117918379"
 ---
 # <a name="scripting-with-com-objects"></a>使用 COM 物件編寫腳本
 
@@ -23,22 +23,22 @@ ms.locfileid: "103677976"
 
 -   [在網頁中內嵌 COM 物件](embedding-com-objects-in-web-pages.md)
 -   [使用 Active Server Pages 中的 COM 物件](using-com-objects-in-active-server-pages.md)
--   [在 Windows Script Host 中使用 COM 物件](using-com-objects-in-windows-script-host.md)
+-   [在 Windows 腳本主機中使用 COM 物件](using-com-objects-in-windows-script-host.md)
 -   [在自訂應用程式中編寫 COM 物件的腳本](scripting-com-objects-in-custom-applications.md)
 
 在前面提到的每個主機環境中，腳本引擎會剖析並執行腳本。 因為每個指令碼語言的引擎都是個別的元件，所以您可以藉由加入新的引擎，將新的指令碼語言新增至環境。
 
 最常使用的指令碼語言為：
 
--   Microsoft Visual Basic Scripting Edition (VBScript) ，Visual Basic 的子集。
+-   Microsoft Visual Basic 腳本撰寫版 (VBScript) ，Visual Basic 的子集。
 -   JavaScript 是 Netscape 指令碼語言，先前稱為 LiveScript。
--   Microsoft JScript 開發軟體，這是 Microsoft 在 ECMA 262 語言規格中的實作為。
+-   microsoft JScript 開發軟體，這是 microsoft 在 ECMA 262 語言規格中的實作為。
 
-Microsoft 提供適用于 JScript 和 VBScript 的腳本引擎。 其他軟體公司則提供 ActiveX 腳本引擎，適用于 PerlScript、PScript、Python 等語言。
+Microsoft 提供適用于 JScript 和 VBScript 的腳本引擎。 其他軟體公司則為 PerlScript、PScript、Python 等語言提供 ActiveX 的腳本引擎。
 
 如需詳細資訊，請參閱 [ECMA 262 語言規格](https://www.ecma-international.org/publications/standards/Ecma-262.htm)。
 
-請注意，大部分的指令碼語言（如 VBScript 和 JScript）無法存取或修改檔案。 這無法防止腳本變更用戶端電腦上的資料。 不過，COM 物件沒有這類限制。 在用戶端電腦上下載並安裝這些電腦之後，就可以執行任何標準的應用程式動作。 因此，使用者只能從受信任的來源下載並執行 ActiveX 控制項。
+請注意，大部分的指令碼語言（如 VBScript 和 JScript）都無法存取或修改檔案。 這無法防止腳本變更用戶端電腦上的資料。 不過，COM 物件沒有這類限制。 在用戶端電腦上下載並安裝這些電腦之後，就可以執行任何標準的應用程式動作。 因此，使用者只能從受信任的來源下載並執行 ActiveX 控制項。
 
 如需在指令碼語言之間轉換的詳細資訊，請參閱下列主題：
 
@@ -46,9 +46,9 @@ Microsoft 提供適用于 JScript 和 VBScript 的腳本引擎。 其他軟體�
 -   [翻譯為 JScript](translating-to-jscript.md)
 -   [翻譯為 JavaScript](translating-to-javascript.md)
 
- 
+ 
 
- 
+ 
 
 
 

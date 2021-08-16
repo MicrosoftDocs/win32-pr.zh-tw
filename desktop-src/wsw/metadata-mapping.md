@@ -3,17 +3,17 @@ title: 中繼資料對應
 description: 元資料檔案的內容會以下列各節所述的方式對應至中繼資料 API。
 ms.assetid: 266f8319-b7ac-497f-8eb7-8e2c7bcede33
 keywords:
-- 適用于 Windows 的中繼資料對應 Web 服務
+- Windows 的中繼資料對應 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb9da067768569e78ba6bb98ee219e11917d3201
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 57e6577e05f1d51ec13cc917465c306b94c403827149b086f252a38964997ab6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "106983308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841488"
 ---
 # <a name="metadata-mapping"></a>中繼資料對應
 

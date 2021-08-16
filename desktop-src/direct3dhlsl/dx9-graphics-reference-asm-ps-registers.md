@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5a13c771a4c1f136c500c324de4f5b458f31bc8d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3a9c26ae1b3b763388e2ea1b85c728c480f9131f8c64f3098233f775bad4732c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311475"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512848"
 ---
 # <a name="registers"></a>暫存器
 
@@ -30,9 +30,9 @@ ms.locfileid: "104311475"
 [圖元著色器](dx9-graphics-reference-asm-ps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

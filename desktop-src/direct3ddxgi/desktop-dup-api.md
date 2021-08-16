@@ -4,12 +4,12 @@ ms.assetid: 523FBFAD-5D78-4EE3-A3B7-8FD5BA39DC46
 title: 桌面複製 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ad27f545318254404beb6372344d8dd0cdfdf604
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 93c1960d064d7fd1e34748dcc2efb3c86459b498df91b52c1384ef8698a37c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104467531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118518466"
 ---
 # <a name="desktop-duplication-api"></a>桌面複製 API
 

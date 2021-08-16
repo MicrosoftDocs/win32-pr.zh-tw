@@ -10,12 +10,12 @@ keywords:
 - 影片 DSP 外掛程式，處理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3a8d21aaa3999d05ea3628ff341c74379b07a6dd
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ea168199270cfe8029b7b9303a7745db2c255f4268252a5bd80472a73c6f2f29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023658"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118334021"
 ---
 # <a name="processing-the-video"></a>處理影片
 
@@ -106,6 +106,6 @@ while( dwHeight-- )
 [**執行 Video DSP 外掛程式**](implementing-a-video-dsp-plug-in.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

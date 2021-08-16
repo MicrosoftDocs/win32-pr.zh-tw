@@ -4,12 +4,12 @@ ms.assetid: ce4be388-5506-4d01-a73c-33372ef4ccd7
 title: 從登錄中取出資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 45d8dd6f6e4d667cf2760c7cba441200755fb6c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8bedbe0631015188a8a9fe280ba17d929c83663e995f440f4528c0913fc69cb5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117763477"
 ---
 # <a name="retrieving-data-from-the-registry"></a>從登錄中取出資料
 

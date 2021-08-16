@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 38ee29ebafd9e7374fa868c6d84ad45f6c07dedf
-ms.sourcegitcommit: 3f366316c02c411c4c5e14620a699f6f30608634
-ms.translationtype: HT
+ms.openlocfilehash: b19850985002ad9c36a6a6366f744106cb041db858f9df9b755996e114fdf6c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104321324"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512284"
 ---
 # <a name="color-register"></a>色彩註冊
 

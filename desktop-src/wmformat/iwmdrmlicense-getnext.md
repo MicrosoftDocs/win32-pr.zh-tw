@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: da1dd1f8ce41648c7a67730d909058d10d616e7a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: dc0905bc695d1317cc7e4a6a1933292ad68afa8f3e3aadb9572e7a7185f4089c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992856"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117847135"
 ---
 # <a name="iwmdrmlicensegetnext-method"></a>IWMDRMLicense：： GetNext 方法
 
@@ -47,7 +47,7 @@ HRESULT GetNext();
 
 
 
-| 傳回碼                                                                                                | Description                                              |
+| 傳回碼                                                                                                | 描述                                              |
 |------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
 | <dl> <dt>**NS \_ E \_ DRM \_ RIV \_ 太 \_ 小**</dt> </dl> | 需要更新的內容撤銷清單。<br/> |
 | <dl> <dt>**\_沒有 \_ 其他 \_ 專案的錯誤**</dt> </dl>      | 清單中沒有其他項目了。<br/>          |

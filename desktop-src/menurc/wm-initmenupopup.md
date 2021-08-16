@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d850547d57596dd36b36b941d1782c2aee1f5b3
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 2ba23607dcb8da7fb282e380e87fe6a2cbb9a26a50850845a5877d036983665f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108092516"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869597"
 ---
 # <a name="wm_initmenupopup-message"></a>WM \_ INITMENUPOPUP 訊息
 
@@ -64,7 +64,7 @@ ms.locfileid: "108092516"
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                               |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -1,32 +1,32 @@
 ---
 title: 註冊物件建立延伸模組
-description: 建立 Active Directory Domain Services 中的物件建立延伸模組 DLL 時，必須向 Windows 登錄註冊，並 Active Directory Domain Services，讓 COM 和 Active Directory 的系統管理 MMC 嵌入式管理單元知道此延伸模組。
+description: 建立 Active Directory Domain Services 中的物件建立延伸模組 DLL 時，必須向 Windows 登錄登錄，並且 Active Directory Domain Services 以使 COM 和 Active Directory 系統管理 MMC 嵌入式管理單元知道此延伸模組。
 ms.assetid: 6e950c6c-1a4f-4de0-9be1-004c31d4734c
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c27d8e2a50c2340d678fd43e546d68525afbc8a7
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 2d99e83d718f98255a3f06e1a8de1c09fb88ae8582c107fce70a6963bdf5c38b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933048"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118184463"
 ---
 # <a name="registering-the-object-creation-extension"></a>註冊物件建立延伸模組
 
-建立 Active Directory Domain Services 中的物件建立延伸模組 DLL 時，必須向 Windows 登錄註冊，並 Active Directory Domain Services，讓 COM 和 Active Directory 的系統管理 MMC 嵌入式管理單元知道此延伸模組。
+建立 Active Directory Domain Services 中的物件建立延伸模組 DLL 時，必須向 Windows 登錄登錄，並且 Active Directory Domain Services 以使 COM 和 Active Directory 系統管理 MMC 嵌入式管理單元知道此延伸模組。
 
 ## <a name="registering-in-the-windows-registry"></a>在 Windows 登錄中註冊
 
-和所有 COM 伺服器一樣，必須在 Windows 登錄中註冊物件建立延伸模組。 此擴充功能會在下列機碼下註冊：
+就像所有的 COM 伺服器一樣，必須在 Windows 登錄中註冊物件建立延伸模組。 此擴充功能會在下列機碼下註冊：
 
 ```
 HKEY_CLASSES_ROOT
-   CLSID
-      <extension CLSID>
-         InProcServer32
-            (Default) = <extension path>
-            ThreadingModel = Apartment
+   CLSID
+      <extension CLSID>
+         InProcServer32
+            (Default) = <extension path>
+            ThreadingModel = Apartment
 ```
 
 " &lt; EXTENSION CLSID &gt; " 是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函式所產生之 CLSID 的字串表示。 「 &lt; 擴充路徑」 &gt; 包含擴充 DLL 的路徑和檔案名。 所有物件建立延伸模組的 **>threadingmodel** 值都必須是 "公寓"。
@@ -61,6 +61,6 @@ HKEY_CLASSES_ROOT
 
 " &lt; CLSID &gt; " 是 [**StringFromCLSID**](/windows/win32/api/combaseapi/nf-combaseapi-stringfromclsid) 函式所產生之 COM 物件 CLSID 的字串表示。
 
- 
+ 
 
- 
+ 

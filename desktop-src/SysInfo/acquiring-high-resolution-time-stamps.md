@@ -1,19 +1,19 @@
 ---
-description: Windows 提供的 Api 可讓您用來取得高解析度的時間戳記或測量時間間隔。
+description: Windows 提供 api，可讓您用來取得高解析度的時間戳記或測量時間間隔。
 ms.assetid: D66E0FC2-3AF2-489B-B4B5-78648905B77B
 title: 取得高解析度時間戳記
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9a1300967738b717ab8d8c822bf2af3f6a4a7ed
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9e25c50cb602dd7e5c53c967c12321ec02a6ea68613767f4019b2def7f5793b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764628"
 ---
 # <a name="acquiring-high-resolution-time-stamps"></a>取得高解析度時間戳記
 
-Windows 提供的 Api 可讓您用來取得高解析度的時間戳記或測量時間間隔。 原生程式碼的主要 API 是 [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)。 若為設備磁碟機，則會 [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter)核心模式 API。 針對 managed 程式碼， [**system.object**](/previous-versions/windows/) 類別會使用 **QPC** 做為精確的時間。
+Windows 提供 api，可讓您用來取得高解析度的時間戳記或測量時間間隔。 原生程式碼的主要 API 是 [**QueryPerformanceCounter (QPC)**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)。 若為設備磁碟機，則會 [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter)核心模式 API。 針對 managed 程式碼， [**system.object**](/previous-versions/windows/) 類別會使用 **QPC** 做為精確的時間。
 
 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 與無關，且不會同步處理至任何外部時間參考。 若要取出可同步處理至外部時間參考的時間戳記，例如，國際標準時間 (UTC) 以用於高解析度的當日時間測量，請使用 [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime)。
 
@@ -35,19 +35,19 @@ Windows 提供的 Api 可讓您用來取得高解析度的時間戳記或測量�
 
 ## <a name="qpc-support-in-windows-versions"></a>Windows 版本中的 QPC 支援
 
-[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 是在 windows 2000 和 windows XP 中引進，並已發展成可利用硬體平臺和處理器的增強功能。 我們在此說明不同 Windows 版本的 **QPC** 特性，以協助您維護在這些 windows 版本上執行的軟體。
+[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)是在 Windows 2000 和 Windows XP 中引進，並已發展成可充分利用硬體平臺和處理器的增強功能。 在這裡，我們將說明不同 Windows 版本的 **QPC** 特性，以協助您維護在這些 Windows 版本上執行的軟體。
 
-### <a name="windows-xp-and-windows-2000"></a>Windows XP 和 Windows 2000
+### <a name="windows-xp-and-windows-2000"></a>WindowsXP 和 Windows 2000
 
-[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 可在 windows XP 與 windows 2000 上取得，並且在大部分的系統上都能順利運作。 不過，某些硬體系統的 BIOS 並未正確指出硬體 CPU 特性 (非不變異的 TSC) ，而某些多核心或多處理器系統使用的處理器與 TSCs 無法跨核心進行同步處理。 如果系統具有執行這些 Windows 版本之有瑕疵的固件，執行這些版本的 Windows 可能不會在不同的核心上提供相同的 **QPC** 讀取，如果它們使用了 TSC 作為 **QPC** 的基礎。
+[**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)可在 Windows XP 和 Windows 2000 上取得，並且在大部分系統上都能順利運作。 不過，某些硬體系統的 BIOS 並未正確指出硬體 CPU 特性 (非不變異的 TSC) ，而某些多核心或多處理器系統使用的處理器與 TSCs 無法跨核心進行同步處理。 如果系統具有執行這些版本的 Windows 有瑕疵的系統，則在使用 TSC 作為 **QPC** 的基礎時，可能不會在不同的核心上提供相同的 **QPC** 讀取。
 
 ### <a name="windows-vista-and-windows-server-2008"></a>Windows Vista 與 Windows Server 2008
 
-Windows Vista 和 Windows Server 2008 隨附的所有電腦都使用 platform 計數器 (高精確度的事件計時器 (HPET) ) 或 ACPI 電源管理計時器 (PM 計時器) 作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 這類平臺計時器具有比 TSC 更高的存取延遲，而且會在多個處理器之間共用。 如果是從多個處理器同時呼叫，這會限制 **QPC** 的擴充性。
+隨附于 Windows Vista 和 Windows Server 2008 的所有電腦都使用平臺計數器 (高精確度事件計時器 (HPET) ) 或 ACPI 電源管理計時器 (PM 計時器) 作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 這類平臺計時器具有比 TSC 更高的存取延遲，而且會在多個處理器之間共用。 如果是從多個處理器同時呼叫，這會限制 **QPC** 的擴充性。
 
 ### <a name="windows-7-and-windows-server-2008-r2"></a>Windows 7 與 Windows Server 2008 R2
 
-大部分的 Windows 7 和 Windows Server 2008 R2 電腦都有具有固定速率 TSCs 的處理器，並使用這些計數器作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 TSCs 是高解析度的每個處理器硬體計數器，可利用非常低的延遲和額外負荷 (，視10s 或數百部機器週期的順序而定，這取決於處理器類型) 。 Windows 7 和 Windows Server 2008 R2 使用 TSCs 做為單一時鐘網域系統上的 **QPC** 基礎，其中作業系統 (或執行程式) 能夠在系統初始化期間，在所有處理器之間緊密地同步處理個別 TSCs。 在這類系統上，相較于使用 platform 計數器的系統，讀取效能計數器的成本明顯較低。 此外，並行呼叫也不會有額外的負荷，而且使用者模式查詢通常會略過系統呼叫，進而減少額外負荷。 在不適合 timekeeping 的系統上，Windows 會自動選取平臺計數器， (HPET 計時器或 ACPI PM 計時器) 作為 **QPC** 的基礎。
+大部分的 Windows 7 和 Windows Server 2008 R2 電腦都有具有固定速率 TSCs 的處理器，並使用這些計數器作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 TSCs 是高解析度的每個處理器硬體計數器，可利用非常低的延遲和額外負荷 (，視10s 或數百部機器週期的順序而定，這取決於處理器類型) 。 Windows 7 和 Windows Server 2008 R2 使用 TSCs 做為單一時鐘網域系統上的 **QPC** 基礎，其中作業系統 (或基礎程式) 能夠在系統初始化期間，在所有處理器之間緊密地同步處理個別 TSCs。 在這類系統上，相較于使用 platform 計數器的系統，讀取效能計數器的成本明顯較低。 此外，並行呼叫也不會有額外的負荷，而且使用者模式查詢通常會略過系統呼叫，進而減少額外負荷。 在未適用于 timekeeping 的系統上，Windows 會自動選取平臺計數器 (HPET 計時器或 ACPI PM 計時器) 做為 **QPC** 的基礎。
 
 ### <a name="windows-8-windows-81-windows-server-2012-and-windows-server-2012-r2"></a>Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2
 
@@ -55,20 +55,20 @@ Windows 8、Windows 8.1、Windows Server 2012 和 Windows Server 2012 R2 使用 
 
 ## <a name="guidance-for-acquiring-time-stamps"></a>取得時間戳記的指引
 
-Windows 具有並將繼續投資提供可靠且有效率的效能計數器。 當您需要以1微秒或更高解析度的時間戳記，而不需要將時間戳記同步處理至外部時間參考時，請選擇 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)、 [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter)或 [**KeQueryInterruptTimePrecise**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise)。 當您需要解析為1微秒或更高的 UTC 同步處理時間戳記時，請選擇 [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime) 或 [**KeQuerySystemTimePrecise**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtimeprecise)。
+Windows，並將繼續投資提供可靠且有效率的效能計數器。 當您需要以1微秒或更高解析度的時間戳記，而不需要將時間戳記同步處理至外部時間參考時，請選擇 [**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)、 [**KeQueryPerformanceCounter**](/windows-hardware/drivers/ddi/content/ntifs/nf-ntifs-kequeryperformancecounter)或 [**KeQueryInterruptTimePrecise**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise)。 當您需要解析為1微秒或更高的 UTC 同步處理時間戳記時，請選擇 [**GetSystemTimePreciseAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimepreciseasfiletime) 或 [**KeQuerySystemTimePrecise**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequerysystemtimeprecise)。
 
 在相對較少的平臺上，無法使用 TSC 註冊作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 基礎，例如，基於 [硬體計時器資訊](#hardware-timer-info)中所述的原因，取得高解析度的時間戳記可能會比取得較低解析度的時間戳記更昂貴。 如果10到16毫秒的解析已足夠，您可以使用 [**GetTickCount64**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-gettickcount64)、 [**QueryInterruptTime**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttime)、 [**QueryUnbiasedInterruptTime**](/windows/win32/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttime)、 [**KeQueryInterruptTime**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttime)或 [**KeQueryUnbiasedInterruptTime**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryunbiasedinterrupttime) 來取得未同步處理至外部時間參考的時間戳記。 針對 UTC 同步處理的時間戳記，請使用 [**GetSystemTimeAsFileTime**](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemtimeasfiletime) 或 [**KeQuerySystemTime**](/windows-hardware/drivers/ddi/wdm/nf-wdm-kequerysystemtime~r1)。 如果需要較高的解析度，您可以使用 [**QueryInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryinterrupttimeprecise)、 [**QueryUnbiasedInterruptTimePrecise**](/windows/desktop/api/realtimeapiset/nf-realtimeapiset-queryunbiasedinterrupttimeprecise)或 [**KeQueryInterruptTimePrecise**](/windows-hardware/drivers/ddi/content/wdm/nf-wdm-kequeryinterrupttimeprecise) 來改為取得時間戳記。
 
 一般來說，即使是在不同的執行緒或進程上測量，效能計數器的結果仍會在多核心和多處理器系統中的所有處理器之間保持一致。 以下是此規則的一些例外狀況：
 
--   基於下列其中一個原因，在特定處理器上執行的 Windows Vista 作業系統可能會違反此一致性：
+-   基於下列其中一個原因，在特定處理器上執行的預先 Windows Vista 作業系統可能會違反此一致性：
 
     -   硬體處理器具有不具變異的 TSC，BIOS 未正確指出此狀況。
     -   使用的 TSC 同步處理演算法不適用於具有大量處理器的系統。
 
 -   當您比較從不同的執行緒取得的效能計數器結果時，請考慮±1刻度的不同值會有不明確的順序。 如果從相同的執行緒取得時間戳記，則不會套用此±1滴答不確定性。 在此內容中，「期限」一詞是指等於1÷的一段時間， (從 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency)) 取得之效能計數器的頻率。
 
-當您在具有多個時鐘網域的大型伺服器系統上使用效能計數器（這些系統未在硬體中同步處理）時，Windows 會判斷該 TSC 無法用於時間用途，並選取平臺計數器作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 雖然此案例仍會產生可靠的時間戳記，但存取延遲和擴充性會受到負面影響。 因此，如先前的使用指導方針所述，只有在需要這類解決方案時，才使用可提供1微秒或更佳解析度的 Api。 您可以使用 TSC 作為 **QPC** 在多時鐘網域系統上的基礎，包括所有處理器時鐘網域的硬體同步處理，因為這樣可有效地將它們當做單一時鐘網域系統運作。
+當您在具有多個時鐘網域的大型伺服器系統上使用效能計數器（這些系統未在硬體中同步處理）時，Windows 判斷該 TSC 無法用於時間用途，並選取平臺計數器作為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)的基礎。 雖然此案例仍會產生可靠的時間戳記，但存取延遲和擴充性會受到負面影響。 因此，如先前的使用指導方針所述，只有在需要這類解決方案時，才使用可提供1微秒或更佳解析度的 Api。 您可以使用 TSC 作為 **QPC** 在多時鐘網域系統上的基礎，包括所有處理器時鐘網域的硬體同步處理，因為這樣可有效地將它們當做單一時鐘網域系統運作。
 
 效能計數器的頻率是在系統開機時固定的，且在所有處理器都是一致的，因此您只需要在應用程式初始化時從 [**QueryPerformanceFrequency**](/windows/win32/api/profileapi/nf-profileapi-queryperformancefrequency) 查詢頻率，然後快取結果。
 
@@ -78,7 +78,7 @@ Windows 具有並將繼續投資提供可靠且有效率的效能計數器。 �
 
 ### <a name="direct-tsc-usage"></a>直接的 TSC 使用方式
 
-我們強烈建議使用 **RDTSC** 或 **RDTSCP** 處理器指令來直接查詢 TSC，因為您不會在某些 Windows 版本、跨虛擬機器的即時移轉，以及不具變異或緊密同步 TSCs 的硬體系統上取得可靠的結果。 相反地，我們鼓勵您使用 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 來利用它所提供的抽象概念、一致性和可攜性。
+我們強烈建議使用 **RDTSC** 或 **RDTSCP** 處理器指令來直接查詢 TSC，因為您不會在某些版本的 Windows、跨虛擬機器的即時移轉，以及不具變異或緊密同步的 TSCs 的硬體系統上取得可靠的結果。 相反地，我們鼓勵您使用 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 來利用它所提供的抽象概念、一致性和可攜性。
 
 ### <a name="examples-for-acquiring-time-stamps"></a>取得時間戳記的範例
 
@@ -225,7 +225,7 @@ Yes
 -   檢查與 TSC 特性相關的 CPUID 指令所傳回的值
 -   處理器製造商的檔
 
-以下顯示 Windows Sysinternals Coreinfo.exe 公用程式 ([www.sysinternals.com](https://www.sysinternals.com)) 所提供的 TSC 非變異資訊。 星號表示 "True"。
+以下顯示 Windows Sysinternals Coreinfo.exe 公用程式 ([www.sysinternals.com](https://www.sysinternals.com)) 提供的 TSC 非變異資訊。 星號表示 "True"。
 
 ``` syntax
 > Coreinfo.exe 
@@ -336,7 +336,7 @@ Yes
 <span id="Under_what_circumstances_does_QueryPerformanceFrequency_return_FALSE__or_________QueryPerformanceCounter_return_zero_"></span><span id="under_what_circumstances_does_queryperformancefrequency_return_false__or_________queryperformancecounter_return_zero_"></span><span id="UNDER_WHAT_CIRCUMSTANCES_DOES_QUERYPERFORMANCEFREQUENCY_RETURN_FALSE__OR_________QUERYPERFORMANCECOUNTER_RETURN_ZERO_"></span>**在何種情況下，QueryPerformanceFrequency 會傳回 FALSE，或 QueryPerformanceCounter 會傳回零？**
 </dt> <dd>
 
-這不會發生在任何執行 Windows XP 或更新版本的系統上。
+這不會發生在 Windows XP 或更新版本執行的任何系統上。
 
 </dd> <dt>
 
@@ -382,7 +382,7 @@ Yes
 
  
 
-[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 會讀取效能計數器，並傳回自 Windows 作業系統啟動以來發生的總滴答數，包括電腦處於睡眠狀態的時間，例如待命、休眠或連線待命。
+[**QueryPerformanceCounter**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)會讀取效能計數器，並傳回啟動 Windows 作業系統之後發生的總滴答數，包括電腦處於睡眠狀態的時間，例如待命、休眠或連線待命。
 
 這些範例示範如何計算滴答間隔和解決方式，以及如何將滴答計數轉換成時間值。
 
@@ -434,7 +434,7 @@ Precision = MAX \[ 800 ns，100 ns \] = 800 ns
 
 
 
-| 時鐘來源                                                      | 名義時鐘頻率 | 時鐘解析    | 存取時間 (一般)  | 準確率       |
+| 時鐘來源                                                      | 名義時鐘頻率 | 時鐘解析    | 存取時間 (一般)  | 精確度       |
 |-------------------------------------------------------------------|-------------------------|---------------------|-----------------------|-----------------|
 | 電腦 RTC                                                            | 64 Hz                   | 15.625 毫秒 | N/A                   | N/A             |
 | 使用具有 3 GHz 處理器時鐘的 TSC 的查詢效能計數器  | 3 MHz                   | 333毫微秒     | 30毫微秒        | 333毫微秒 |
@@ -460,7 +460,7 @@ Crystals 的震盪頻率是在製造過程中設定的，製造商會以指定�
 
 
 
-| 時間間隔持續時間 | 因具有 +/-10 PPM 頻率容忍性的累積錯誤而造成的測量不確定性 |
+| 時間間隔持續時間 | 因具有 +/-10 PPM 頻率容錯之累積錯誤的測量不確定性 |
 |------------------------|--------------------------------------------------------------------------------------|
 | 1微秒          | ± 10 picoseconds (10-12)                                                              |
 | 1毫秒          | ±10毫微秒 (10-9)                                                               |
@@ -477,7 +477,7 @@ Crystals 的震盪頻率是在製造過程中設定的，製造商會以指定�
 
 在個人電腦和伺服器中使用的 Crystal 聲音振盪器通常會以±30到50個部分的頻率承受度製造，而且很少 crystals 可以離 500 ppm。 雖然 crystals 具有更緊密的頻率位移容限，但它們較昂貴，因此不會在大部分的電腦中使用。
 
-若要降低此頻率位移錯誤的負面影響，最新的 Windows 版本（特別是 Windows 8）會使用多個硬體計時器來偵測頻率位移，並將其補償到可能的程度。 此校正程式是在 Windows 啟動時執行。
+若要降低此頻率位移錯誤的負面影響，最新版本的 Windows，特別是 Windows 8，請使用多個硬體計時器來偵測頻率位移，並將其補償到可能的程度。 當 Windows 啟動時，就會執行此校正程式。
 
 如下列範例所示，硬體時鐘的頻率位移錯誤會影響可達成的精確度，而且時鐘的解析度可能較不重要。
 
@@ -543,7 +543,7 @@ Crystals 的震盪頻率是在製造過程中設定的，製造商會以指定�
 
 雖然 TSC 登錄看起來像是理想的時間戳記機制，但在此情況下，它無法針對 timekeeping 用途可靠地運作：
 
--   並非所有處理器都有 TSC 登錄，因此使用軟體中的 TSC 註冊可直接建立可攜性問題。 在此情況下， (Windows 將會為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter) 選取替代的時間來源，以避免可攜性問題。 ) 
+-   並非所有處理器都有 TSC 登錄，因此使用軟體中的 TSC 註冊可直接建立可攜性問題。 在此情況下， (Windows 會為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)選取替代的時間來源，以避免可攜性問題。 ) 
 -   有些處理器可能會改變 TSC 時鐘的頻率，或停止 TSC 登錄的進展，讓 TSC 不適合這些處理器上的時間用途。 這些處理器稱為具有非不變的 TSC 登錄。  (Windows 會自動偵測到此情況，並為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)) 選取替代的時間來源。
 -   在多處理器或多核心系統上，有些處理器和系統無法將每個核心上的時鐘同步處理為相同的值。  (Windows 會自動偵測到此情況，並為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)) 選取替代的時間來源。
 -   在某些大型的多處理器系統上，即使處理器具有不變的 TSC，您可能還是無法將處理器時鐘同步處理為相同的值。  (Windows 會自動偵測到此情況，並為 [**QPC**](/windows/win32/api/profileapi/nf-profileapi-queryperformancecounter)) 選取替代的時間來源。
@@ -565,7 +565,7 @@ ACPI 計時器（也稱為 PM 時鐘）已新增至系統架構，以提供可�
 <span id="HPET_Timer"></span><span id="hpet_timer"></span><span id="HPET_TIMER"></span>**HPET 計時器**
 </dt> <dd>
 
-高精確度事件計時器 (HPET) 是由 Intel 和 Microsoft 共同開發，以符合多媒體和其他時效性應用程式的時間需求。 Windows Vista、Windows 7 和 Windows 8 硬體標誌認證在 Windows 中一直以來都有 HPET 支援，需要硬體平臺的 HPET 支援。
+高精確度事件計時器 (HPET) 是由 Intel 和 Microsoft 共同開發，以符合多媒體和其他時效性應用程式的時間需求。 HPET 支援自 Windows Vista 起 Windows，Windows 7 和 Windows 8 硬體標誌認證需要硬體平臺的 HPET 支援。
 
 </dd> </dl>
 

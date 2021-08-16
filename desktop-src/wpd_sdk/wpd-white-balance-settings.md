@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 06e607acc06ed00cc9fe91670650caee44c30430
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1b596dd6d8fbcc2b2a875b70d80e8eb4040c966590642a004c551ec159c9f5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842045"
 ---
 # <a name="wpd_white_balance_settings-enumeration"></a>WPD \_ 白色 \_ 餘額 \_ 設定列舉
 

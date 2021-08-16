@@ -15,12 +15,12 @@ keywords:
 - " (人體介面裝置) 的 HID"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b3535e5601ec63a254c76060611999a1a2f08aeb
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 6fed3772406cc85df57b95c4b11dbcfeaf60804e94da5602059ec790e87e0439
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104023469"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117884325"
 ---
 # <a name="about-raw-input"></a>關於原始輸入
 

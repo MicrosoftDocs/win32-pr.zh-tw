@@ -17,12 +17,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3dcf8197379f5b1ff69433baa845af2cd53bb9e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 57e31ba381fe9a3ba3ab14a3c3775faaec007c5d541faef81b0dc2cf680d4e35
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118164184"
 ---
 # <a name="mdm_vpnv2_proxy02-class"></a>MDM \_ >vpnv2 \_ Proxy02 類別
 
@@ -105,7 +105,7 @@ class MDM_VPNv2_Proxy02
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

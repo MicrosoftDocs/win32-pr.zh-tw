@@ -3,8 +3,8 @@ title: 尋找和取代對話方塊
 description: 顯示非強制回應對話方塊，可讓使用者指定要搜尋的字串，以及搜尋檔中的文字時要使用的選項。
 ms.assetid: c8c035bf-795d-42a7-abc6-168dea43e6e9
 keywords:
-- Windows 消費者介面，使用者輸入
-- Windows 消費者介面、通用對話方塊程式庫
+- Windows消費者介面，使用者輸入
+- Windows消費者介面，通用對話方塊程式庫
 - 使用者輸入、通用對話方塊程式庫
 - 正在捕獲使用者輸入，通用對話方塊程式庫
 - 通用對話方塊程式庫
@@ -18,12 +18,12 @@ keywords:
 - 對話方塊、取代
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e3cf2c5217d586c0a5ada74fb7dd72aaca5f804
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 59bc5da5a8780a4f08bbf4bf757e1703d8d9120fdefe9d1730e515ffc6feae40
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104553831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118503481"
 ---
 # <a name="find-and-replace-dialog-boxes"></a>尋找和取代對話方塊
 
@@ -65,7 +65,7 @@ ms.locfileid: "104553831"
 
 
 
- 
+ 
 
 如果是 [ **尋找下一個]** 或 [ **取代全部** ] 訊息， **旗標** 成員可以包含下列旗標的任何組合，以表示搜尋選項。
 
@@ -79,7 +79,7 @@ ms.locfileid: "104553831"
 
 
 
- 
+ 
 
 ## <a name="customizing-the-find-or-replace-dialog-box"></a>自訂 [尋找或取代] 對話方塊
 
@@ -125,6 +125,6 @@ UpdateWindow(hDlg);
 
 
 
- 
+ 
 
- 
+ 

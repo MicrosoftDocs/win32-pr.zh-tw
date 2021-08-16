@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6dd4d426c335a30853085a2501206ccd6e7efc7e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6f77cd2782bad6e4f83b5a4d1e719b0c21d704fefd2d4cccacfc0690a4fb0fa4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992383"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843949"
 ---
 # <a name="wmt_videoimage_transition_bow_tie"></a>WMT \_ VIDEOIMAGE \_ 轉換 \_ 凸起 \_ 系結
 
@@ -41,7 +41,7 @@ ms.locfileid: "106992383"
 <tr class="header">
 <th>參數</th>
 <th>結構成員</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

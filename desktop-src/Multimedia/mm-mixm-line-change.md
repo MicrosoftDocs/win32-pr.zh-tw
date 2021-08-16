@@ -3,7 +3,7 @@ title: 'MM_MIXM_LINE_CHANGE 訊息 (Mmsystem .h) '
 description: '\_MIXM \_ 線路 \_ 變更訊息會由混音器裝置傳送，以通知應用程式，指定裝置上的音訊行狀態已變更。 應用程式應該針對指定的音訊行重新整理其顯示和快取的值。'
 ms.assetid: 68ada0be-9dc5-4edf-b924-ef0d10a1b79a
 keywords:
-- MM_MIXM_LINE_CHANGE message Windows 多媒體
+- MM_MIXM_LINE_CHANGE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 92c4aa10d9934f8cf5f5747ecb4e4eb736af2655
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: ed3bd1c122d5e0cf62aa39266da547cd3701e43e6afbf01b853c7d24040504d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106968975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118373575"
 ---
 # <a name="mm_mixm_line_change-message"></a>MM \_ MIXM \_ 行 \_ 變更訊息
 
@@ -64,7 +64,7 @@ lParam = (LPARAM) dwLineID
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 
@@ -75,7 +75,7 @@ lParam = (LPARAM) dwLineID
 [音訊 Mixers](audio-mixers.md)
 </dt> <dt>
 
-[音訊混音器訊息](audio-mixer-messages.md)
+[音訊 Mixer 訊息](audio-mixer-messages.md)
 </dt> </dl>
 
  

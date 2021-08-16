@@ -4,12 +4,12 @@ ms.assetid: 8afc95d1-25cd-4448-8bee-d132c2da22b3
 title: FREETEXT 述詞
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc78be4d5ac75f892c82c6dad390e4583876856f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 91f9fb3d65c1b9dc72ef74c8c6862ccfb778ebbd4149b9e5bf5aca4d36674045
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117863404"
 ---
 # <a name="freetext-predicate"></a>FREETEXT 述詞
 
@@ -27,7 +27,7 @@ FREETEXT
 
 全文檢索資料行參考是選擇性的。 您可以使用它來指定單一資料行，或針對 FREETEXT 述詞進行測試的資料 [行群組別名](-search-sql-with-as.md) 。 當全文檢索資料行指定為 "ALL" 或 " \* " 時，就會搜尋所有已編制索引的 text 屬性。 雖然資料行不需要是文字屬性，但如果資料行是其他資料類型，則結果可能沒有意義。 資料行名稱可以是一般或分隔的 [識別碼](-search-sql-identifiers.md)，而且您必須將它與條件分隔（以逗號分隔）。 如果未提供任何全文檢索條件，則會使用 [內容] 資料行，也就是檔的主體。
 
-您可以指定搜尋地區設定，以識別搜尋查詢的適當斷詞工具和字形變化表單。 有效的地區設定值是 (LCID) 的 Windows standard 語言代碼識別碼。 例如，1033是美國的 LCID （英文）。 將 LCID 放在 FREETEXT 子句括弧內的最後一個專案。 如需搜尋和語言的重要資訊，請參閱 [使用當地語系化的搜尋](-search-sql-usinglocsearches.md)。
+您可以指定搜尋地區設定，以識別搜尋查詢的適當斷詞工具和字形變化表單。 有效的地區設定值是 Windows 的標準語言代碼識別碼 (LCID) 。 例如，1033是美國的 LCID （英文）。 將 LCID 放在 FREETEXT 子句括弧內的最後一個專案。 如需搜尋和語言的重要資訊，請參閱 [使用當地語系化的搜尋](-search-sql-usinglocsearches.md)。
 
 > [!Note]  
 > 預設搜尋地區設定是系統預設的地區設定。

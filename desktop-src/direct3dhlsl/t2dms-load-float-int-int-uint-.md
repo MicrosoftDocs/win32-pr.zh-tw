@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: e967d69929c0b20317ffb74fc97c4e60e36c2854
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: cb15f420699a9b581a6ac6f498c5e7ff07437ea4371bf1c59b004af1f5a963cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104321804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118506880"
 ---
 # <a name="texture2dmsloadintintintuint-function"></a>Texture2DMS：： Load (int，int，int，uint) 函數
 

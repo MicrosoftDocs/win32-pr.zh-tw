@@ -4,20 +4,20 @@ ms.assetid: 0231da3b-a183-4443-8735-5affd24b145a
 title: enrollFromPublicKey
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 21b336d04727f4bb4b90674bad6bb6c429465a0f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a0346e2966dc9109ed9413022ead4eda487c37c2ac66ad9da42d2dcee2445032
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691040"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780047"
 ---
 # <a name="enrollfrompublickey"></a>enrollFromPublicKey
 
 EnrollFromPublicKey 範例會初始化 PKCS \# 10 憑證要求物件、將它包裝在 CMC 要求物件中、將 CMC 要求提交給企業憑證授權單位單位 (CA) ，然後將 CA 傳回的憑證儲存在檔案中。
 
-## <a name="location"></a>Location
+## <a name="location"></a>位置
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollFromPublicKey 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ 安全性 \\ X509 憑證註冊 \\ VC \\ enrollFromPublicKey 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

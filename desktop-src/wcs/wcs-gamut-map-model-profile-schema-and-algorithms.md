@@ -3,13 +3,13 @@ title: WCS Gamut 地圖模型設定檔架構和演算法
 description: WCS Gamut 地圖模型設定檔架構和演算法
 ms.assetid: 64b9871a-1b4f-4e9a-be4d-4c25b3198b91
 keywords:
-- 'Windows Color System (WCS) 、gamut 對應模型設定檔 (GMMP) '
-- 'WCS (Windows Color System) 、gamut 地圖模型設定檔 (GMMP) '
+- 'Windows色彩系統 (WCS) 、gamut 對應模型設定檔 (GMMP) '
+- 'WCS (Windows 色彩系統) 、gamut 地圖模型設定檔 (GMMP) '
 - '影像色彩管理、gamut 地圖模型設定檔 (GMMP) '
 - '色彩管理、gamut 地圖模型設定檔 (GMMP) '
 - '色彩、gamut 地圖模型設定檔 (GMMP) '
-- Windows Color System (WCS) ，設定檔
-- WCS (Windows 色彩系統) ，設定檔
+- Windows色彩系統 (WCS) ，設定檔
+- WCS (Windows 色彩系統) 、設定檔
 - 影像色彩管理，設定檔
 - 色彩管理，設定檔
 - 色彩，設定檔
@@ -21,12 +21,12 @@ keywords:
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3714e5d7592cb1fbbbfa98e238642a2fcb38bafd
-ms.sourcegitcommit: de72a1294df274b0a71dc0fdc42d757e5f6df0f3
+ms.openlocfilehash: e7db5b7a26fe5832fe33095c5785e90ad0a6938649878ff279e101a7e5817cc4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "104554539"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118037209"
 ---
 # <a name="wcs-gamut-map-model-profile-schema-and-algorithms"></a>WCS Gamut 地圖模型設定檔架構和演算法
 
@@ -191,9 +191,9 @@ targetNamespace = " http://schemas.microsoft.com/windows/2005/02/color/GamutMapM
 
 ### <a name="version"></a>版本
 
-第一版的 Windows Vista 版本為 "1.0"。
+第一版的 Windows Vista 版本 "1.0"。
 
-**驗證條件** ： Windows Vista 中的1.0。 版本 &lt; 2.0 也是有效的，以便支援格式的非重大變更。
+**驗證條件**： Windows Vista 中的1.0。 版本 &lt; 2.0 也是有效的，以便支援格式的非重大變更。
 
 ### <a name="documentation"></a>文件
 
@@ -897,7 +897,7 @@ w <sub>J</sub> = k ₂-k ₁ (C-c m ₐₓ ) n
 
 如此一來，當色度為零時，就會在 J 詞彙上放置0.25 的權數，而當色度為100時，則權數為1。 當色度很小時，在 J 上放置較少權數的趨勢，以及當色度很大時，J 上的更多權數，會遵循 CMC 和 CIEDE2000 的建議使用方式。
 
-![此圖表顯示度量的 J 元件上的加權函數。](images/gmmp-image119.png)
+![Graph，顯示度量的 J 元件上的加權函數。](images/gmmp-image119.png)
 
 **圖 31** ：度量的 J 元件上的權數函數
 
@@ -939,7 +939,7 @@ n = (J-n ₀/w <sub>j</sub>的元件，n ₀的 a 元件，b-n ₀的元件 )
 
 ProjectPointToBoundary 常式一開始會重設頂點和邊緣的「處理歷程記錄」。 這些是布林值旗標的表格，可追蹤是否已造訪頂點或邊緣。 它也會將變數 ShortestDistance 重設為「無限大」，這是使用的浮點數系統中的最大編碼值。 然後，它會在迴圈中執行，並使用 ProcessTriangle 呼叫來搜尋每個三角形中最接近的點。 ProcessTriangle 是更新 ShortestDistance 變數並清楚地在關鍵迴圈中的常式。 其中一個優化是在結果夠好時停止。 每次呼叫 ProcessTriangle 之後，都會檢查變數 ShortestDistance。 如果它符合預先定義的閾值，您可以停止。 預先定義的閾值取決於所使用的色彩空間，以及色彩影像系統所需的精確度。 若為一般應用程式，如果色彩差異小於人為視覺組合的色彩差異，您就不會想要執行不必要的工作。 若為 CIECAM02，此色彩差異為1。 不過，在實值中使用臨界值0.005，以保留計算的精確度，因為這可能只是轉換鏈中的中繼步驟。
 
-ProcessTriangle 會實施上述的策略 II。 從預先計算的單位正常向量到與標準點乘積相關的三角形取得一般向量，它會藉由構成單位法線向量和 queryVector 的點乘積（從三角形 vertex1 的其中一個頂點到查詢點的向量），來計算查詢點與包含三角形的無限平面之間的距離, queryPoint.
+ProcessTriangle 會實施上述的策略 II。 從預先計算的單位法線向量取得標準點乘積的一般向量，它會藉由構成單位法線向量和 queryVector 的點乘積（三角形的其中一個頂點的向量），來計算查詢點到包含三角形的無限平面之間的距離。 vertex1 至查詢點，queryPoint。
 
 queryVector = queryPoint-vertex1
 
@@ -1000,7 +1000,7 @@ HueMap 和相對 MinCD gamut 的對應方法會使用裝置中性軸來進行伸
 [基本色彩管理概念](basic-color-management-concepts.md)
 </dt> <dt>
 
-[Windows 色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
+[Windows色彩系統架構和演算法](windows-color-system-schemas-and-algorithms.md)
 </dt> </dl>
 
  

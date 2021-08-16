@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 835c8c1091941437c226427ddb3ef53e8c577b5d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 90b8e468bc57bb40d990c0b2aeaffc23e184ef2ffa04ab85c9f60cf0d6bced57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994763"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118332062"
 ---
 # <a name="iwmpcdromburnburnprogress-property"></a>IWMPCdromBurn：： burnProgress 屬性
 

@@ -4,12 +4,12 @@ description: '算術右移 (sign 擴充) 。 |ishr (sm4-asm) '
 ms.assetid: AFE46BBA-A6B2-4691-A3F4-A4141F1578DB
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7516543c5501ed886c5c1fa98d093062e3099a0f
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2d2ec191320561b05ba736b7da5630fb50a610e739d0e74f9def3eaa10bb4e17
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104992094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118511133"
 ---
 # <a name="ishr-sm4---asm"></a>ishr (sm4-asm) 
 
@@ -63,9 +63,9 @@ ms.locfileid: "104992094"
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 

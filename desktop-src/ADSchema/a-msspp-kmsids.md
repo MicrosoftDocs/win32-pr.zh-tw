@@ -1,10 +1,10 @@
 ---
-title: SPP-KMS-Id 屬性
-description: 啟用物件啟用的 KMS 識別碼
+title: SPP KMS 識別碼屬性
+description: KMS啟用物件啟用的識別碼
 ms.assetid: b5e11081-202e-4b9a-bf23-8552475f01f0
 ms.tgt_platform: multiple
 keywords:
-- SPP-KMS-Id 屬性 AD 架構
+- SPP KMS 識別碼屬性 AD 架構
 - msSPP-KMSIds 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,22 +14,22 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77e47103137a52fa2dbcc9cf4eb04ae073191115
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 4fd8296adf05a697f92abc70247681fea4776513c15d1c39c6592a2d15363889
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104467264"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838071"
 ---
-# <a name="ms-spp-kms-ids-attribute"></a>SPP-KMS-Id 屬性
+# <a name="ms-spp-kms-ids-attribute"></a>SPP KMS 識別碼屬性
 
-啟用物件啟用的 KMS 識別碼
+KMS啟用物件啟用的識別碼
 
 
 
 | 進入 | 值 |
 |-------------------|-------------------------------------------------------|
-| CN                | SPP-KMS-識別碼                                        |
+| CN                | SPP-KMS 識別碼                                        |
 | Ldap-顯示名稱 | msSPP-KMSIds                                          |
 | 大小              | \-                                                    |
 | 更新許可權  | \-                                                    |
@@ -54,7 +54,7 @@ ms.locfileid: "104467264"
 | MAPI-Id                | \-                                                                      |
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
-| 已編制索引             | 對                                                                    |
+| 已編制索引             | 是                                                                    |
 | 在通用類別目錄中      | 否                                                                   |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | 16                                                                      |

@@ -4,12 +4,12 @@ ms.assetid: b8bea667-b9ea-476d-942f-281cb2e9636c
 title: 執行內容功能表延伸模組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c65918f385984355490456cccb626ba297bd3368
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 090f37b4cf77f9508e8c149ef6389297c561e1a4e574ef767f3a5e5c7e07fe05
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997530"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118194681"
 ---
 # <a name="implementing-context-menu-extensions"></a>執行內容功能表延伸模組
 

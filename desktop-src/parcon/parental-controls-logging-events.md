@@ -4,12 +4,12 @@ ms.assetid: 1381372c-1a60-4fb9-8d71-7518db76af04
 title: 家長監護記錄事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6cf083f5a9d47b45e0bb1257acd724a7a76b598b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: faefab5be8d303730b40cd7304c6ba07d1758d89727b0d9ac580f85204c567b0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117869263"
 ---
 # <a name="parental-controls-logging-events"></a>家長監護記錄事件
 

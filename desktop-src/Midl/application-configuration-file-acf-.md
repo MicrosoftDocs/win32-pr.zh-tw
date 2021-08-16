@@ -8,12 +8,12 @@ keywords:
 - 應用程式佈建檔 MIDL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7f9066e5641d6b71e68ba670984765661f1b9f6c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 56158267a11125a825442b4db98224d292fdfc309f79cb1562818dee9c08aa23
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117808340"
 ---
 # <a name="application-configuration-file-acf"></a>應用程式佈建檔 (ACF) 
 
@@ -31,9 +31,9 @@ ACF 介面定義的結構和語法與 IDL 定義相同：
 
 根據預設，ACF 介面名稱必須與 IDL 定義中的名稱相符。 但是，當您使用 MIDL 編譯器選項/ [**acf**](-acf.md) 明確指定 acf 檔案名時，介面名稱不一定要相符。 這項功能可讓數個介面共用單一 ACF 規格。
 
- 
+ 
 
- 
+ 
 
 
 

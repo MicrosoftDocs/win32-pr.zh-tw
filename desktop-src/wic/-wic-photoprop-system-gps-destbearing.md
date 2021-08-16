@@ -4,12 +4,12 @@ ms.assetid: ccc31b3d-27fd-4a8c-a304-852cf6114ec5
 title: DestBearing 相片中繼資料原則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 01a084a0633579afe646403fb4dcad0ca8a1b9ff
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 598ef1e759f75dfb4851f2f3f435b53db1f875421c3d21446ae3de33f688cefd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104320411"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118205509"
 ---
 # <a name="systemgpsdestbearing-photo-metadata-policy"></a>DestBearing 相片中繼資料原則
 

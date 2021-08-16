@@ -4,12 +4,12 @@ description: 本主題將示範如何藉由將多行編輯控制項新增至視�
 ms.assetid: B955CC42-F89F-48EB-A19A-ADA6E5273EF6
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d05133707e9a47a632a70807177c6ec1b63bc842
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: d11100d4d6f82c7a352d4ddacaa7fc05694b4d54125febc766a6d3f1c68376e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103933730"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829069"
 ---
 # <a name="how-to-create-a-multiline-edit-control"></a>如何建立多行編輯控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103933730"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -36,7 +36,7 @@ ms.locfileid: "103933730"
 使用者編輯命令會透過 [**WM \_ 命令**](/windows/desktop/menurc/wm-command) 通知訊息傳送至視窗進程。
 
 > [!Note]  
-> 如果視窗包含 Windows 功能區，則必須調整編輯控制項的大小，以容納功能區的高度。 如需詳細資訊，請參閱 [Windows 功能區架構](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry)。
+> 如果視窗包含 Windows 功能區，則必須調整編輯控制項的大小，以容納功能區的高度。 如需詳細資訊，請參閱[Windows 功能區架構](/windows/desktop/windowsribbon/-uiplat-windowsribbon-entry)。
 
  
 

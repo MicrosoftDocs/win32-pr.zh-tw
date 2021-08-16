@@ -4,12 +4,12 @@ ms.assetid: f1949904-ceb2-4650-847f-01f597ff3620
 title: 執行 AttachProperties
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b9cc032826a8749630c4951b46d456ca807fd37
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bbb3571cf655e07b2879513f826192711992fb49a02cc7a4954d5322a948caf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107001347"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118365345"
 ---
 # <a name="implementing-attachproperties"></a>執行 AttachProperties
 

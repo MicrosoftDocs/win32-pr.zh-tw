@@ -3,7 +3,7 @@ title: 'TB_GETBUTTONTEXT 訊息 (Commctrl .h) '
 description: 抓取工具列上按鈕的顯示文字。
 ms.assetid: 16dd7181-a404-4056-b084-05f49f5a4b14
 keywords:
-- TB_GETBUTTONTEXT message Windows 控制項
+- TB_GETBUTTONTEXT 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -16,12 +16,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ac0b238574cc136f41959b57f3f0e1ec13e3ea1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2ec63815886ecc32f8f0b0759b9f6a8cf847bfe56e6c898fd6e3a3ae8e0f40ac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104104183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829764"
 ---
 # <a name="tb_getbuttontext-message"></a>TB \_ GETBUTTONTEXT 訊息
 
@@ -51,7 +51,7 @@ ms.locfileid: "104104183"
 
 ## <a name="remarks"></a>備註
 
-**安全性警告：** 不當使用此訊息可能會危及程式的安全性。 此訊息不會提供您知道緩衝區大小的方法。 如果您使用此訊息，請先呼叫在 *lParam* 中傳遞 **null** 的訊息，這會傳回字元數，但不包括需要的 **null** 。 然後第二次呼叫訊息以抓取字串。 您應該先複習 [安全性考慮： Microsoft Windows 控制項](sec-comctls.md) ，再繼續進行。
+**安全性警告：** 不當使用此訊息可能會危及程式的安全性。 此訊息不會提供您知道緩衝區大小的方法。 如果您使用此訊息，請先呼叫在 *lParam* 中傳遞 **null** 的訊息，這會傳回字元數，但不包括需要的 **null** 。 然後第二次呼叫訊息以抓取字串。 您應該先複習[安全性考慮： Microsoft Windows 控制項](sec-comctls.md)，再繼續進行。
 
 傳回的字串會對應至按鈕目前所顯示的文字。
 
@@ -61,8 +61,8 @@ ms.locfileid: "104104183"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **TB \_GETBUTTONTEXTW** (Unicode) 和 **TB \_ GETBUTTONTEXTA** (ANSI) <br/>         |
 

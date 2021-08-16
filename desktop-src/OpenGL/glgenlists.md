@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc556e789da9c768a7ed1aef6880ad48022a1ee4
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a916b163f2ec04e51da06263aed0f76f5e4dd6b51b7eca9fdbca8965644fdd7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685652"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118360395"
 ---
 # <a name="glgenlists-function"></a>glGenLists 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 4D185319-C093-4B1B-A182-E845E72FEA5D
 title: 從通用 Windows 應用程式存取 SMBIOS 資訊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 76791622ad4bcba15ddd889f36a6f0feeb5e3dfe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 936d30a653059b3573e962b2e52770aa2bd000180ee0612c1855de3d6a1a9778
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117764952"
 ---
 # <a name="access-smbios-information-from-a-universal-windows-app"></a>從通用 Windows 應用程式存取 SMBIOS 資訊
 
@@ -19,7 +19,7 @@ ms.locfileid: "104513540"
 
 ## <a name="access-smbios-information-from-a-universal-windows-platform-app"></a>從通用 Windows 平臺應用程式存取 SMBIOS 資訊
 
-從 Windows 10 開始，1803版的通用 Windows 應用程式可以使用 [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable) 和 [EnumSystemFirmwareTables](/windows/win32/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables) ，藉由在應用程式資訊清單中宣告 **SMBIOS** 限制功能來存取 SMBIOS 資訊。
+從 1803 Windows 10 開始，通用 Windows 應用程式可使用 [GetSystemFirmwareTable](/windows/win32/api/sysinfoapi/nf-sysinfoapi-getsystemfirmwaretable)和 [EnumSystemFirmwareTables](/windows/win32/api/sysinfoapi/nf-sysinfoapi-enumsystemfirmwaretables) ，藉由在應用程式資訊清單中宣告 **smbios** 限制功能來存取 SMBIOS 資訊。
 
 > [!IMPORTANT]
 > 通用 Windows 應用程式只支援存取原始 SMBIOS (RSMB) 固件資料表。 **存取 \_** 如果您嘗試從通用 Windows 應用程式存取其他固件資料表類型，則會傳回拒絕。

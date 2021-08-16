@@ -20,12 +20,12 @@ keywords:
 - ServiceInfo 檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 90159e72046536cf6b69521586a0640935478eb1
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e3883487d072af57174a1f40f2fcef05d3290917b473a95bf723c34d793c5ba5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103931925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340988"
 ---
 # <a name="creating-the-serviceinfo-document-dynamically"></a>動態建立 ServiceInfo 檔
 
@@ -88,9 +88,9 @@ ms.locfileid: "103931925"
 [**ServiceInfo 檔**](serviceinfo-document.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

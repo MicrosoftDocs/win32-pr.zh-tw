@@ -4,12 +4,12 @@ ms.assetid: f0662a35-0c8c-4d9b-8a40-832df78c753f
 title: CryptXML
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e64918e1242432962d27e94eb0c7f9ae63910c7e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 75650540066c83e7fb8c2b0edc449badecf4119dcf1087491a5e95003aee108f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767935"
 ---
 # <a name="cryptxml"></a>CryptXML
 
