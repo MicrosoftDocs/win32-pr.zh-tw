@@ -4,19 +4,19 @@ description: VML Eqn 屬性
 ms.assetid: b2c41bad-2f83-4280-9441-33206d8dc1b7
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8da00084a825147c6f8a05f503e5ee2679f40e8
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: ae5872c29064f24a10b4a12c0d0e2a4ca4a200f79e295d60713fe56355f23aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104316414"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655448"
 ---
 # <a name="vml-eqn-attribute"></a>VML Eqn 屬性
 
 本主題說明 VML，這是 Windows Internet Explorer 9 淘汰的功能。 依賴 VML 的網頁和應用程式應該遷移至 SVG 或其他廣泛支援的標準。
 
 > [!Note]  
-> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需目前 Windows Internet Explorer 版本的相關資訊、建議和指引，請參閱 [Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
+> 從2011年12月起，本主題已封存。 因此，它不會再主動維護。 如需詳細資訊，請參閱封存的 [內容](/previous-versions/windows/internet-explorer/ie-developer/)。 如需有關 Windows Internet Explorer 目前版本的資訊、建議和指引，請參閱[Internet Explorer 開發人員中心](https://msdn.microsoft.com/ie/)。
 
  
 
@@ -59,18 +59,18 @@ ms.locfileid: "104316414"
 | mid       | 2      |  (c)     |  (v + p1) /2               | 平均。                                                                       |
 | abs       | 1      | 是    | abs (v)                     | 絕對值。                                                                |
 | 分鐘       | 2      | 是    | min (v，p1)                  | V 和 p1 的較小值。                                                  |
-| max       | 2      | 是    | max (v，p1)                  | V 和 p1 的值愈大。                                                 |
+| 最大值       | 2      | 是    | max (v，p1)                  | V 和 p1 的值愈大。                                                 |
 | if        | 3      | 是    | v > 0？ p1： p2        | 條件式測試。                                                           |
-| mod       | 3      | 不可以     | sqrt (v ^ 2 + p1 ^ 2 + p2 ^ 2)    | 模數值。                                                                 |
-| atan2     | 2      | 不可以     | atan2 (p1，v)                | 以度為單位 \* 2 ^ 16 (fd 單位) 的極值。                                     |
-| sin       | 2      | 不可以     | v \* sin (p1)               | Sin，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。     |
-| cos       | 2      | 不可以     | v \* cos (p1)               | Cos，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。     |
-| cosatan2  | 3      | 不可以     | v \* cos (atan2 (p2，p1) )     | 在中繼計算中保留完整的精確度。                           |
-| sinatan2  | 3      | 不可以     | v \* sin (atan2 (p2，p1) )     | 在中繼計算中保留完整的精確度。                           |
-| sqrt      | 1      | 不可以     | sqrt (v)                    | 結果為正向下四捨五入。                                            |
+| mod       | 3      | 否     | sqrt (v ^ 2 + p1 ^ 2 + p2 ^ 2)    | 模數值。                                                                 |
+| atan2     | 2      | 否     | atan2 (p1，v)                | 以度為單位 \* 2 ^ 16 (fd 單位) 的極值。                                     |
+| sin       | 2      | 否     | v \* sin (p1)               | Sin，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。     |
+| cos       | 2      | 否     | v \* cos (p1)               | Cos，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。     |
+| cosatan2  | 3      | 否     | v \* cos (atan2 (p2，p1) )     | 在中繼計算中保留完整的精確度。                           |
+| sinatan2  | 3      | 否     | v \* sin (atan2 (p2，p1) )     | 在中繼計算中保留完整的精確度。                           |
+| sqrt      | 1      | 否     | sqrt (v)                    | 結果為正向下四捨五入。                                            |
 | sumangle  | 3      | 是    | v + p1 \* 2 ^ 16 + p2 \* 2 ^ 16 | 依 2 ^ 16 比例的 vp1 和 p2 是度。<br/>                            |
-| ellipse   | 3      | 不可以     | p2 \* sqrt (1- (v/p1) ^ 2)     | 橢圓。                                                                       |
-| tan       | 2      | 不可以     | v \* tan (p1)               | 正切函數，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。 |
+| ellipse   | 3      | 否     | p2 \* sqrt (1- (v/p1) ^ 2)     | 橢圓。                                                                       |
+| tan       | 2      | 否     | v \* tan (p1)               | 正切函數，以度數 \* 2 ^ 16 (fd [單位](msdn-online-vml-units.md) ) 的引數。 |
 
 
 
@@ -84,7 +84,7 @@ eqn = "sum 5 9 3"
 
 5 + 9-3
 
-傳回的值為11。 如果遺漏了運算元，就不會使用此值。 例如，
+傳回的值為11。 如果遺漏了運算元，就不會使用此值。 例如
 
 eqn = "sum 5 9"
 

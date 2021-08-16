@@ -9,12 +9,12 @@ keywords:
 - 使用 SetSearchPreference 查詢 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 29c357fd331ae8589bffdd3ff7a834a7bc9e0430
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3e7f40d7af4069c9b67d9cd2634f6b7f58f51aafce95af9d4f9275b0e55fc1b4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104020778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119637478"
 ---
 # <a name="using-the-setsearchpreference-method"></a>使用 SetSearchPreference 方法
 
@@ -55,9 +55,9 @@ hr = pDSearch->SetSearchPreference(&arSearchPrefs, 2);
 
 此範例會將頁面大小設定為100個數據列，並將範圍設定為 ADS \_ 範圍 \_ 子樹類型。 [頁面大小] 設定會導致伺服器在計算出100個數據列之後，立即將資料傳回給用戶端。 [ADS \_ 領域] \_ 子樹設定會讓搜尋將樹狀結構中的所有分支都包含在執行搜尋的點下。
 
- 
+ 
 
- 
+ 
 
 
 

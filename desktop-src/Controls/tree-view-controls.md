@@ -4,12 +4,12 @@ description: 樹狀檢視控制項是一種顯示專案階層式清單的視窗�
 ms.assetid: 10cc7949-dd77-412d-bad1-db8d8a049582
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df70a2d3c2f841b022930a07ee2f140ee5bfc8e3
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 5ea08743a7ac138a6cea5f766dd91aee2ec714acc2d4c8b98e1f2bee26c42ff9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103933671"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119769784"
 ---
 # <a name="about-tree-view-controls"></a>關於 Tree-View 控制項
 
@@ -93,7 +93,7 @@ ms.locfileid: "103933671"
 
 當標籤編輯遭到取消或完成時，樹狀檢視控制項會將 [izdebski \_ ENDLABELEDIT](tvn-endlabeledit.md) 通知訊息傳送至其父視窗。 *LParam* 參數是 [**NMTVDISPINFO**](/windows/win32/api/commctrl/ns-commctrl-nmtvdispinfoa)結構的位址。 *Item* 參數是一種 [**TVITEM**](/windows/win32/api/commctrl/ns-commctrl-tvitema)結構，用來識別專案並包含已編輯的文字。 如果要保留新的標籤，父視窗會負責更新專案的標籤。 如果取消編輯，則 **TVITEM** 的 **pszText** 成員為零。
 
-在標籤編輯期間（通常是為了回應 [izdebski \_ BEGINLABELEDIT](tvn-beginlabeledit.md) 通知訊息），您可以使用 [**TVM \_ GETEDITCONTROL**](tvm-geteditcontrol.md) 訊息來取得編輯標籤所使用之編輯控制項的控制碼。 您可以傳送 [**EM \_ SETLIMITTEXT**](em-setlimittext.md) 訊息給編輯控制項，以限制使用者可以輸入或子類別化編輯控制項來攔截和捨棄無效字元的文字數量。 不過請注意，只有 *在*   傳送 izdebski BEGINLABELEDIT 之後，才會顯示編輯控制項 \_ 。
+在標籤編輯期間（通常是為了回應 [izdebski \_ BEGINLABELEDIT](tvn-beginlabeledit.md) 通知訊息），您可以使用 [**TVM \_ GETEDITCONTROL**](tvm-geteditcontrol.md) 訊息來取得編輯標籤所使用之編輯控制項的控制碼。 您可以傳送 [**EM \_ SETLIMITTEXT**](em-setlimittext.md) 訊息給編輯控制項，以限制使用者可以輸入或子類別化編輯控制項來攔截和捨棄無效字元的文字數量。 不過請注意，只有在傳送 izdebski BEGINLABELEDIT *之後* ，才會顯示編輯控制項 \_ 。
 
 ## <a name="tree-view-item-position"></a>Tree-View 專案位置
 
@@ -179,7 +179,7 @@ ms.locfileid: "103933671"
 | 通知                                    | Description                                                                            |
 |-------------------------------------------------|----------------------------------------------------------------------------------------|
 | [IZDEBSKI \_ BEGINDRAG](tvn-begindrag.md)             | 表示拖放作業開始的信號。                                        |
-| [IZDEBSKI \_ BEGINLABELEDIT](tvn-beginlabeledit.md)   | 表示就地標籤編輯的開始位置。                                           |
+| [IZDEBSKI \_ BEGINLABELEDIT](tvn-beginlabeledit.md)   | 表示就地標籤編輯的開始位置。                                           |
 | [IZDEBSKI \_ BEGINRDRAG](tvn-beginrdrag.md)           | 表示滑鼠右鍵已啟動拖放操作。             |
 | [IZDEBSKI \_ DELETEITEM](tvn-deleteitem.md)           | 指出刪除特定專案的信號。                                               |
 | [IZDEBSKI \_ ENDLABELEDIT](tvn-endlabeledit.md)       | 表示標籤編輯結束的信號。                                                      |
@@ -193,7 +193,7 @@ ms.locfileid: "103933671"
 
 
 
- 
+ 
 
 ## <a name="default-tree-view-control-message-processing"></a>預設 Tree-View 控制訊息處理
 
@@ -228,7 +228,7 @@ ms.locfileid: "103933671"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -237,6 +237,6 @@ ms.locfileid: "103933671"
 [範例： CustDTv 說明 TreeView 中的自訂繪製 (Q248496) ](https://support.microsoft.com/default.aspx?scid=kb;EN-US;q248496)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

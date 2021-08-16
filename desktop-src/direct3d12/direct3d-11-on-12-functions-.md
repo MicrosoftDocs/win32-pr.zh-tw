@@ -5,12 +5,12 @@ ms.assetid: 99DDA586-ACFD-4326-B25E-EF8875901690
 ms.localizationpriority: low
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ab4fdf9e0ca40370fd76633785a377153b32b8c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 152b5826bf39884dd8de2bb9c7eac51dba6c1b116b443b84a6b8b4acbc58d2af
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "74105230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124186"
 ---
 # <a name="11on12-functions"></a>11on12 函式
 

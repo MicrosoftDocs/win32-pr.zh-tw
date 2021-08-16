@@ -1,19 +1,19 @@
 ---
 title: '左邊的屬性 (CommandsWindow 物件) '
-description: 深入瞭解 Left CommandsWindow 物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 深入瞭解 Left CommandsWindow 物件屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: 03786379-42c2-4f54-99cc-1dc120c45858
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fdcbb8cb39b2c07120ecab2b4da5da99d55b78f
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: 348a695e69320abd340fd06789603ff6e1f2b3fe8671fa583ed2f253970cdf5d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111989043"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105024"
 ---
 # <a name="left-property-commandswindow-object"></a>左邊的屬性 (CommandsWindow 物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

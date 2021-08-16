@@ -4,12 +4,12 @@ description: 本節將示範如何使用 Microsoft Direct3D 11 API 來完成數�
 ms.assetid: 9BDEDB68-3484-4683-85AF-B583971382C8
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 45bc4dad63c5fc12f2077481172061fc317135a7
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5613a2ea9a4b8c472c7483e9e29d5ce2d5d2ffccbd3b4ee7d8c65a1621e88c92
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633048"
 ---
 # <a name="how-to-use-direct3d-11"></a>如何使用 Direct3D 11
 

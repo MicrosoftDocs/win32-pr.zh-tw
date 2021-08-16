@@ -4,12 +4,12 @@ ms.assetid: c41aa3a8-c8d8-4bf2-9bbb-d6a6a556c5e4
 title: 變更日誌記錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 56580a28c01ca164af4598cb290a37c8e36828f5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2313dde6a71b36ed046a7086d39ce8e1a86b909cc7c815f295bb8a45c82ab92f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106988408"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119765988"
 ---
 # <a name="change-journal-records"></a>變更日誌記錄
 

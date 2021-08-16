@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 773231ffd89a0998f6073f844a3f974920625987
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d62011697b21171f8de326689ca35195ad4057e2e6edd01a5159fcf89c32d0f8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106988147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959238"
 ---
 # <a name="imsrdpdevicecollectionrescandevices-method"></a>IMsRdpDeviceCollection：： RescanDevices 方法
 

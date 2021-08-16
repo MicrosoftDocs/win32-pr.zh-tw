@@ -4,12 +4,12 @@ ms.assetid: 28cf2805-f1ce-46b4-bf08-a329f67f4d99
 title: 檔案系統功能比較
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7547e48ff68a8fdab195087904a47a535aa3464
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5af85dbacfd04920d8eb0a9558e0d57cc6e4020da35ffac57f7bdc703e6ef15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119790688"
 ---
 # <a name="file-system-functionality-comparison"></a>檔案系統功能比較
 
@@ -50,7 +50,7 @@ ms.locfileid: "103691460"
 
  
 
-**Windows Server 2003 和 WINDOWS XP：** [NTFS 上次存取時間戳] 欄位已更新。
+**Windows Server 2003 和 Windows XP：**[NTFS 上次存取時間戳] 欄位已更新。
 
 ## <a name="limits"></a>限制
 
@@ -149,7 +149,7 @@ ms.locfileid: "103691460"
 
  
 
-**注意**  NTFS 的單一實例存放區可作為 Windows Server 的單一實例儲存功能的一部分。
+**注意** NTFS 的單一實例存放區可作為 Windows Server 的單一實例儲存體功能的一部分。
 
 ## <a name="related-topics"></a>相關主題
 

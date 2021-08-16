@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 0f239cbae38c09f2718aff4cf6fcbb2234ae60f8
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 7f576616dc342c6ee8b7d822f15f9245e541d86ce39ee3935e7a5e6c2933faea
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119121790"
 ---
 # <a name="id3dxbasemeshgetnumvertices-method"></a>ID3DXBaseMesh：： GetNumVertices 方法
 

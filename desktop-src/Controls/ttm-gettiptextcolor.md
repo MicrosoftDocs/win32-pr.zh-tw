@@ -3,7 +3,7 @@ title: 'TTM_GETTIPTEXTCOLOR 訊息 (Commctrl .h) '
 description: 抓取工具提示視窗中的文字色彩。
 ms.assetid: dede991e-35e6-4bd0-9654-656c96135298
 keywords:
-- TTM_GETTIPTEXTCOLOR message Windows 控制項
+- TTM_GETTIPTEXTCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a302e72e727fe5eb95a2a39e657dc4dcd05514
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: af123827a0a07ab34b7013ef9d4fb751d4f259245105e6df40566f508e828112
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965719"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119797448"
 ---
 # <a name="ttm_gettiptextcolor-message"></a>TTM \_ GETTIPTEXTCOLOR 訊息
 
@@ -45,8 +45,8 @@ ms.locfileid: "106965719"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: f5bded0f-5f55-4512-9c00-9a9eb08c39f0
 title: 色彩宏
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b9a2d65cc2e0601888f7e36c8531f7c08ff8b32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6739b05c5261495b720ee7d3dec346acf92adb44190af3ef66fac9d729977d4e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972748"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105737"
 ---
 # <a name="color-macros"></a>色彩宏
 

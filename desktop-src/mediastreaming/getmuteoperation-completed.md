@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 40c360dc3597d8cf04d1a8c505e479a38136f592
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: bb27715f284b96af4ba9e6cf8ff825a7237ba027d46d30d77859018d4d8b5574
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100672"
 ---
 # <a name="getmuteoperationcompleted-property"></a>GetMuteOperation。 Completed 屬性
 
@@ -33,11 +33,11 @@ ms.locfileid: "103682177"
 
 ```C++
 HRESULT put_Completed(
-  [in]  GetMuteCompletedHandler *value
+  [in]  GetMuteCompletedHandler *value
 );
 
 HRESULT get_Completed(
-  [out] GetMuteCompletedHandler **value
+  [out] GetMuteCompletedHandler **value
 );
 ```
 
@@ -54,6 +54,6 @@ HRESULT get_Completed(
 [**GetMuteOperation**](getmuteoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

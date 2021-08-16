@@ -4,12 +4,12 @@ ms.assetid: 1ed8b831-df74-4612-aeef-009160325248
 title: System.Devices.AudioDevice.SpeechProcessingSupported
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 097b3961e19fa9fe0e76f5c68c13e2e685be585f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 71b2b9339b04a2eb3510847ee45db3d321460d57979d679a47fd3c8bc1108911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106977883"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097839"
 ---
 # <a name="systemdevicesaudiodevicespeechprocessingsupported"></a>System.Devices.AudioDevice.SpeechProcessingSupported
 

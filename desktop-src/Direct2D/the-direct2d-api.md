@@ -25,12 +25,12 @@ keywords:
 - Direct2D，基本
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 858d03f626fe337b174f074d7725dcb1a636b463
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 54f318e3542d54ee92817193ef6b749a3ba1cf4678407ca7a12f28c6c187ae86
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106967679"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119074992"
 ---
 # <a name="direct2d-api-overview"></a>Direct2D API 概觀
 
@@ -77,11 +77,11 @@ Direct2D API 是由下列標頭檔所定義。
 
 
 
- 
+ 
 
 若要使用 Direct2D，您的應用程式應該包含 d2d1 .h 標頭檔。
 
-若要編譯 Direct2D 應用程式，請將 d2d1 新增至程式庫清單。 您可以在 [適用于 Windows 7 的 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)中找到 d2d1 .h 和 d2d1。
+若要編譯 Direct2D 應用程式，請將 d2d1 新增至程式庫清單。 您可以在[Windows 7 的 Windows 軟體開發套件 (SDK) ](https://msdn.microsoft.com/windows/bb980924.aspx)中找到 d2d1 .h 和 d2d1。
 
 下列各節說明 Direct2D API 所提供的一些通用介面。
 
@@ -169,7 +169,7 @@ Direct2D 使用左方座標系統：正 X 軸的值會繼續往右，y 軸的正
 
 除了基本繪圖基本專案，例如點、矩形和省略號之外，Direct2D 還提供 [**ID2D1Geometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometry) 介面來描述簡單和複雜的圖形。 繼承自 **ID2D1Geometry** 的介面會定義不同類型的圖形，例如代表矩形的 [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry) 、代表圓角矩形的 [**ID2D1RoundedRectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1roundedrectanglegeometry) ，以及代表省略號的 [**ID2D1EllipseGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1ellipsegeometry) 。
 
-您可以使用 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) 介面來指定以線條、曲線和弧形組成的一連串圖表，以建立更複雜的圖形。 **ID2D1GeometrySink** 會傳遞至 [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry)的 Open 方法，以產生複雜的幾何。 [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink) 也可以與 DirectWrite API 搭配使用，以解壓縮適用于藝術轉譯的格式化文字路徑大綱。
+您可以使用 [**ID2D1GeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1geometrysink) 介面來指定以線條、曲線和弧形組成的一連串圖表，以建立更複雜的圖形。 **ID2D1GeometrySink** 會傳遞至 [**ID2D1PathGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1pathgeometry)的 Open 方法，以產生複雜的幾何。 [**ID2D1SimplifiedGeometrySink**](/windows/win32/api/d2d1/nn-d2d1-id2d1simplifiedgeometrysink)也可以與 DirectWrite API 搭配使用，以將格式化文字的路徑大綱解壓縮以進行藝術呈現。
 
 Geometry 介面提供的方法可透過擴展或簡化現有的幾何，或產生多個幾何的交集或等位，來操作圖形。 它們也提供方法來判斷幾何是否為交集或重迭、抓取界限資訊、計算幾何的區域或長度，以及沿著幾何插上位置。 Direct2D 也可讓您建立從幾何鑲嵌的三角形網格。
 
@@ -181,7 +181,7 @@ Geometry 介面提供的方法可透過擴展或簡化現有的幾何，或產�
 
 ### <a name="bitmaps"></a>點陣圖
 
-Direct2D 不提供載入或儲存點陣圖的方法;相反地，它可讓您使用 [Windows 影像處理元件 (WIC) ](../wic/-wic-about-windows-imaging-codec.md)建立點陣圖。 點陣圖資源可以使用 WIC 載入，然後用來透過 [**ID2D1RenderTarget：： CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap))方法建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 。
+Direct2D 不提供載入或儲存點陣圖的方法;相反地，它可讓您使用[Windows 影像處理元件 (WIC) ](../wic/-wic-about-windows-imaging-codec.md)建立點陣圖。 點陣圖資源可以使用 WIC 載入，然後用來透過 [**ID2D1RenderTarget：： CreateBitmapFromWicBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-createbitmapfromwicbitmap(iwicbitmapsource_constd2d1_bitmap_properties_id2d1bitmap))方法建立 [**ID2D1Bitmap**](/windows/win32/api/d2d1/nn-d2d1-id2d1bitmap) 。
 
 點陣圖也可以從以其他方式設定的記憶體內部資料中建立。 點陣圖建立之後，就可以由轉譯目標 [**DrawBitmap**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawbitmap(id2d1bitmap_constd2d1_rect_f__float_d2d1_bitmap_interpolation_mode_constd2d1_rect_f_)) 方法或點陣圖筆刷繪製。
 
@@ -189,15 +189,15 @@ Direct2D 不提供載入或儲存點陣圖的方法;相反地，它可讓您使�
 
 ## <a name="drawing-text"></a>繪製文字
 
-Direct2D 的設計目的是要與新文字 API DirectWrite 的文字作業搭配使用。 為了讓您更輕鬆地使用 DirectWrite API，轉譯目標提供三種轉譯 DirectWrite 文字資源的方法： [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))、 [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)和 [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun)。 由於 Direct2D 會使用 GPU 進行 ClearType 文字轉譯程式，因此，Direct2D 提供的 CPU 使用率低於文字作業的 GDI 和更佳的擴充性，因為有更多的 GPU 處理能力可用。
+Direct2D 的設計目的是要使用新文字 API 的文字作業，DirectWrite。 為了更簡單地使用 DirectWrite API，轉譯目標提供三種轉譯 DirectWrite 文字資源的方法： [**DrawText**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))、 [**DrawTextLayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout)和 [**DrawGlyphRun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun)。 由於 Direct2D 會使用 GPU 進行 ClearType 文字轉譯程式，因此，Direct2D 提供的 CPU 使用率低於文字作業的 GDI 和更佳的擴充性，因為有更多的 GPU 處理能力可用。
 
 [**ID2D1RenderTarget：:D rawtext**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))是針對最簡單的案例所設計，其中包含以最少量的格式轉譯 Unicode 文字字串。 透過 [**ID2D1RenderTarget：:D rawtextlayout**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtextlayout) 方法可提供更複雜的版面配置和印刷樣式彈性，它會使用 [**IDWriteTextLayout**](/windows/win32/api/dwrite/nn-dwrite-idwritetextlayout) 物件來指定要轉譯的內容和格式。 **IDWriteTextLayout** 可讓您為文字的子字串和其他先進的印刷樣式選項指定個別的格式。
 
-針對需要精確控制圖像層級配置的案例， [**ID2D1RenderTarget：:D rawglyphrun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun) 方法可以搭配 [DirectWrite](../directwrite/direct-write-portal.md)所提供的測量設備一起使用。
+針對需要精確控制圖像層級配置的案例， [**ID2D1RenderTarget：:D rawglyphrun**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawglyphrun)方法可以搭配 [DirectWrite](../directwrite/direct-write-portal.md)所提供的測量設備使用。
 
-若要使用 DirectWrite API，請包含 dwrite 的標頭。 如同 Direct2D，DirectWrite 會使用 factory [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory) 來建立文字物件。 使用 [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory) 函式來建立 factory，然後使用其 create 方法來建立 DirectWrite 資源 (例如 [**IDWriteTextFormat**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))) 。
+若要使用 DirectWrite API，請包含 dwrite .h 標頭。 如同 Direct2D，DirectWrite 會使用 factory [**IDWriteFactory**](/windows/win32/api/dwrite/nn-dwrite-idwritefactory)來建立文字物件。 使用 [**DWriteCreateFactory**](/windows/win32/api/dwrite/nf-dwrite-dwritecreatefactory)函式來建立 factory，然後使用其 create 方法來建立 DirectWrite 資源 (例如 [**IDWriteTextFormat**](/windows/win32/api/d2d1/nf-d2d1-id2d1rendertarget-drawtext(constwchar_uint32_idwritetextformat_constd2d1_rect_f__id2d1brush_d2d1_draw_text_options_dwrite_measuring_mode))) 。
 
-For more information about DirectWrite, see the [Introducing DirectWrite](../directwrite/introducing-directwrite.md) topic.
+如需 DirectWrite 的詳細資訊，請參閱 DirectWrite 主題的[簡介](../directwrite/introducing-directwrite.md)。
 
 ## <a name="direct2d-primitives"></a>Direct2D 基本專案
 
@@ -212,7 +212,7 @@ Direct2D 會定義一組基本類型，類似于其他繪圖 Api 所提供的基
 [Direct2D 參考](reference.md)
 </dt> <dt>
 
-[DirectWrite Hello World 範例](/samples/browse/?redirectedfrom=MSDN-samples)
+[DirectWriteHello World 範例](/samples/browse/?redirectedfrom=MSDN-samples)
 </dt> <dt>
 
 [DirectWrite 簡介](../directwrite/introducing-directwrite.md)
@@ -224,6 +224,6 @@ Direct2D 會定義一組基本類型，類似于其他繪圖 Api 所提供的基
 [Windows 影像處理元件 (WIC)](../wic/-wic-about-windows-imaging-codec.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

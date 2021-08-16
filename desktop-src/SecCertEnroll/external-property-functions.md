@@ -4,12 +4,12 @@ ms.assetid: a6433416-fe77-4bb0-bd8e-9410a49ab861
 title: 外部屬性函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 26c8148022bf604aa90780787c068b330c469ae6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 40196f4f42823ad44debeccc0fa85dc4615d58d1a0ccf521b2dd796e72574db3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117779628"
 ---
 # <a name="external-property-functions"></a>外部屬性函式
 

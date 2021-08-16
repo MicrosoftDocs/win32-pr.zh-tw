@@ -4,12 +4,12 @@ ms.assetid: ba73e7c3-a9d7-4cc3-b5ce-2483a594fcc0
 title: 並存元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: da0493b9d16d3943053b32a8a06eaa371cfd1d79
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 04f9a16d7002a107376f525dc73dea9f6df3e2f182cc84207d92bdbf0f37ce81
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119628278"
 ---
 # <a name="side-by-side-assemblies"></a>並存元件
 
@@ -22,7 +22,7 @@ ms.locfileid: "106990315"
 
 並存元件可以安裝為 [共用元件](shared-assemblies.md) 或 [私用元件](private-assemblies.md)。
 
-在 Windows XP 之前的系統上無法使用並存元件。
+Windows XP 之前的系統無法使用並存元件。
 
  
 

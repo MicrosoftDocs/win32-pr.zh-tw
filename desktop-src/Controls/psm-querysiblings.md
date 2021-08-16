@@ -3,7 +3,7 @@ title: 'PSM_QUERYSIBLINGS 訊息 (Prsht.idl .h) '
 description: 傳送至屬性工作表，然後將訊息轉送到其每個頁面。 您可以使用 PropSheet QuerySiblings 宏明確地傳送此訊息 \_ 。
 ms.assetid: 96f48847-b7b8-4d6f-8bde-ada915b7c962
 keywords:
-- PSM_QUERYSIBLINGS message Windows 控制項
+- PSM_QUERYSIBLINGS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ea5943fefa906475e34d1cc7acc7f8a86cd99252
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c270a3c7a667894f7821f6c0c169115846b6ddc2492648f5f9d75a0c85d21d04
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508700"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120088648"
 ---
 # <a name="psm_querysiblings-message"></a>PSM \_ QUERYSIBLINGS 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104508700"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                               |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                               |
 | 標頭<br/>                   | <dl> <dt>Prsht.idl。h</dt> </dl> |
 
 

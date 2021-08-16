@@ -7,17 +7,17 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Gg269197(v=EXCHG.10)
 ms:contentKeyID: 32765500
 ms.date: 04/11/2016
 ms.topic: article
-ms.openlocfilehash: 90b5b566f5ff961ce7b0ae3725f580e1f39c041d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e223c95d7f8af5a4350786891d58b72c508443e459990d413d5b46bc2e12a2d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107053"
 ---
 # <a name="transactions-windows-events"></a>交易 (Windows 事件)
 
 
-_**適用于：** Windows |Windows Server_
+_**適用于：** Windows |Windows伺服器_
 
 ## <a name="transactions"></a>交易
 

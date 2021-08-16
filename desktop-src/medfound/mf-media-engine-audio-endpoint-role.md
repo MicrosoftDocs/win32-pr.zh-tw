@@ -4,12 +4,12 @@ ms.assetid: E4B7660D-5F41-495A-B77D-94B7981F4C2C
 title: MF_MEDIA_ENGINE_AUDIO_ENDPOINT_ROLE 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0b1b00115a28592140e41463cf296acf54ad7cde
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: 53a15a973aef342e3d37cde3e6d9f3dd7d61c553fecaa943215dbcc77a319950
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106982140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104774"
 ---
 # <a name="mf_media_engine_audio_endpoint_role-attribute"></a>MF \_ 媒體 \_ 引擎 \_ 音訊 \_ 端點 \_ 角色屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106982140"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 

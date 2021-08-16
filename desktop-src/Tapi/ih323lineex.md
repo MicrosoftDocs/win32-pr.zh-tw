@@ -4,16 +4,16 @@ ms.assetid: 2ab57343-8cf5-4af2-91f7-46926cfce6dd
 title: 'IH323LineEx 介面 (H323priv .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 41888b16f645a3af1eefd9df61623cb28684bfdd
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 856deae92568acd2eb9f9394e949dc2d5ea6a4bbde9c2c28f0b998c99098eef3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106992991"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013108"
 ---
 # <a name="ih323lineex-interface"></a>IH323LineEx 介面
 
-\[**IH323LineEx** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**IH323LineEx** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **IH323LineEx** 介面是由 [H323 MSP](h323-msp.md)所執行，而且僅適用于 .h 位址物件。 此介面會公開方法，以啟用 H323 和 SDP 用戶端間通訊的終端機建立和操作。
 

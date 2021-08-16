@@ -4,12 +4,12 @@ ms.assetid: de865481-2a08-4d25-967c-8e68b7affe8d
 title: '將 FVF 碼對應至 direct3d 9 宣告 (Direct3D 9) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 85442cf1c92c78aa1a37f4d4a4ec3de154f5b8d3
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ff8ef4d5e8e29c4c7f6af8d82b650b4898c57d900b92b8dd45ca2368bb9eacce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "103687360"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118799074"
 ---
 # <a name="mapping-fvf-codes-to-a-direct3d-9-declaration-direct3d-9"></a>將 FVF 碼對應至 direct3d 9 宣告 (Direct3D 9) 
 

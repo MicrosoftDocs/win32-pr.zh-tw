@@ -4,16 +4,16 @@ ms.assetid: c6e2724c-1802-4bc4-a0e4-3cb85427a445
 title: 檢查憑證撤銷狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ada134bbca88b1a875ff27add7566116cf7334bb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbf1ce98e392da94fd800316fe63c5b79c8572a319c6db4246e7907eb80966d7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194035"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117769537"
 ---
 # <a name="checking-certificate-revocation-status"></a>檢查憑證撤銷狀態
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 相反地，請使用 .NET Framework 來執行安全性功能。 如需詳細資訊，請參閱 [使用 CAPICOM 的替代方案](alternatives-to-using-capicom.md)。\]
 
 根據預設，CAPICOM 不會啟用憑證撤銷檢查。 不過，您可以透過憑證物件的 **IsValid. CheckFlag** 屬性，以程式設計的方式為特定的憑證啟用憑證撤銷檢查。 設定適當的 **CheckFlag** 值之後，存取憑證物件的 **IsValid. Result** 屬性，或使用連鎖物件的組建方法建立憑證的驗證路徑，會強制執行撤銷檢查。
 

@@ -4,12 +4,12 @@ ms.assetid: 3b7faefd-30be-4f74-b0f7-621d65130286
 title: " (Direct3D 9) 的材質混合作業和引數"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ae65386e01bfff7d4bfc2ebc0cafd242e25c4265
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 7d242092de5919267d30a9b8ff4e7bd2324f0bc3120649d3bb1a423b3462be77
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106966617"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118797770"
 ---
 # <a name="texture-blending-operations-and-arguments-direct3d-9"></a> (Direct3D 9) 的材質混合作業和引數
 

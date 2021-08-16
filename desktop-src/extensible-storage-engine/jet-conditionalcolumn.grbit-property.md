@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 57d65a2593b9ba805b56cee56e6fa8bf6fa48cf0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36eb423590826dae54ceeef76c7cb813b8058c55f753d48e40ac69f65fba1b5c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103853032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112247"
 ---
 # <a name="jet_conditionalcolumngrbit-property"></a>JET_CONDITIONALCOLUMN grbit 屬性
 

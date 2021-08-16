@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 9a0fcd5d1edba1a0c3d05fe2b1778741626832d1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5512a41505d9af0a995e0f2dcf16662bfd6abe4e9ba1cf79c21a1265d95bce48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107680"
 ---
 # <a name="jet_ossnapidequality-operator"></a>JET_OSSNAPID。等號比較運算子
 

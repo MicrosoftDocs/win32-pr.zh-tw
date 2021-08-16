@@ -13,16 +13,16 @@ api_type:
 - COM
 api_location:
 - Capicom.dll
-ms.openlocfilehash: 56fd6eaeb5a00549cbb4ee659b99ece391e0ebed
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 5258a37ac32e663b45bb2a82f8b0691cca3e1e76c303e8d4f9b7156e4f5a423e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997729"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117767081"
 ---
 # <a name="ekus-object"></a>Eku 物件
 
-\[CAPICOM 是僅限32位的元件，可用於下列作業系統： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509ExtensionCollection 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection?view=netcore-3.1)。\]
+\[CAPICOM 是僅限32位的元件，可供下列作業系統使用： Windows Server 2008、Windows Vista 和 Windows XP。 請改為使用 [**system.security.cryptography.x509certificates.x509certificate2**](/dotnet/api/system.security.cryptography.x509certificates.publickey.-ctor?view=netcore-3.1)命名空間中的 [**X509ExtensionCollection 類別**](/dotnet/api/system.security.cryptography.x509certificates.x509extensioncollection?view=netcore-3.1)。\]
 
 Eku **物件代表** [**EKU**](eku.md) 物件的集合。 每個 [**EKU**](eku.md) 物件都代表憑證 (EKU) 屬性的單一擴充金鑰使用方式。
 
@@ -46,9 +46,9 @@ Eku **物件代表** [**EKU**](eku.md) 物件的集合。 每個 [**EKU**](eku.m
 
 
 
-| 屬性                                     | 存取類型          | Description                                                                                                                                                                                                                     |
+| 屬性                                     | 存取類型          | 描述                                                                                                                                                                                                                     |
 |:---------------------------------------------|:---------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**\_NewEnum**](ekus-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic Scripting Edition (VBScript) 中隱藏。<br/> |
+| [**\_NewEnum**](ekus-newenum.md)<br/> | 唯讀<br/> | 在可以用來列舉集合的物件上，抓取 [**IEnumVARIANT**](/windows/win32/api/oaidl/nn-oaidl-ienumvariant) 介面。 這個屬性會在 Visual Basic 腳本版本 (VBScript) 中隱藏。<br/> |
 | [**計數**](ekus-count.md)<br/>       | 唯讀<br/> | 抓取集合中的 [**EKU**](eku.md) 物件數目。<br/>                                                                                                                                                |
 | [**項目**](ekus-item.md)<br/>         | 唯讀<br/> | 抓取表示已編制索引之 EKU 屬性的 [**eku**](eku.md) 物件。 這是預設屬性。<br/>                                                                                                      |
 

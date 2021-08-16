@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101116
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 45357561b5b6a889e7ae4bb52039bbb411823897
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b8fd69ffd72b4dd76596f7b21bdcab4712e14aa210382fb5271e2a4506c4093
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104560468"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119117178"
 ---
 # <a name="esentcallbackfailedexception-methods"></a>EsentCallbackFailedException 方法
 

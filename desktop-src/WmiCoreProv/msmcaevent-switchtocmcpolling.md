@@ -1,5 +1,5 @@
 ---
-description: 代表已更正的電腦檢查 (CMC) 處理，以從插斷驅動程式切換至輪詢。 此類別僅適用于64位的 Windows 系統。
+description: 代表已更正的電腦檢查 (CMC) 處理，以從插斷驅動程式切換至輪詢。 此類別僅適用于64位 Windows 系統。
 ms.assetid: c5e99e13-0f65-40bc-8863-b2ca7ea221df
 title: MSMCAEvent_SwitchToCMCPolling 類別
 ms.topic: reference
@@ -15,16 +15,16 @@ api_type:
 - DllExport
 api_location:
 - Wmiprov.dll
-ms.openlocfilehash: f7d0d543dc36054550d4ddf6cc1a77ce80cf1647
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a8192dc83a50063b2aaabba2bf708053fadb8e094bfa1cab82b11b084f722a76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119640938"
 ---
 # <a name="msmcaevent_switchtocmcpolling-class"></a>MSMCAEvent \_ SwitchToCMCPolling 類別
 
-**MSMCAEvent \_ SwitchToCMCPolling** 類別代表已更正的電腦檢查 (CMC) 處理，以從插斷驅動程式切換至輪詢。 在某些情況下，核心會輪詢系統抽象層 (SAL) 是否有任何 CMC 或已更正的平臺錯誤 (CPE) 發生在先前輪詢間隔內。 此類別僅適用于64位的 Windows 系統。
+**MSMCAEvent \_ SwitchToCMCPolling** 類別代表已更正的電腦檢查 (CMC) 處理，以從插斷驅動程式切換至輪詢。 在某些情況下，核心會輪詢系統抽象層 (SAL) 是否有任何 CMC 或已更正的平臺錯誤 (CPE) 發生在先前輪詢間隔內。 此類別僅適用于64位 Windows 系統。
 
 下列語法已從受控物件格式的 (MOF) 程式碼簡化，並包含其所有繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 

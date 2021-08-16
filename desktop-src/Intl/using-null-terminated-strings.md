@@ -4,12 +4,12 @@ ms.assetid: 43bbf0ab-9b69-4f7d-acda-d0f8b6caf4b5
 title: 使用以 Null 結尾的字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce12079fa3d0c5a88af369a347f1cd655136ee09
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7d0a5f27048bde2af75eca28626a562473ceffcc66f3f2f23509beca4fba06ba
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195431"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119631778"
 ---
 # <a name="using-null-terminated-strings"></a>使用以 Null 結尾的字串
 

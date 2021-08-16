@@ -4,12 +4,12 @@ ms.assetid: 24b400a4-f4c7-4b59-a9e3-8a20144cd52e
 title: '[攝影相片中繼資料] 原則'
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0302e0f310d2f9a6a4390b0d4856578cc2f43e93
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ba32a7b4dfcde564f6b0c0c9e175aa56786e1324080264c7c928398fe97e6a34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971480"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811728"
 ---
 # <a name="systemphotoflash-photo-metadata-policy"></a>[攝影相片中繼資料] 原則
 

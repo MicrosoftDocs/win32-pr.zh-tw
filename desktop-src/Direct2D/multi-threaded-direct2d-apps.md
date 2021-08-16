@@ -4,12 +4,12 @@ description: 描述建立多執行緒 Direct2D 應用程式的最佳做法。
 ms.assetid: FDD770D4-817F-44D9-86C4-15DD04D214AE
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6be979b867edd6d36583959c4a595dbd507ca94f
-ms.sourcegitcommit: c3243ec4ada05b7faf9d563853cb667ecef825e8
+ms.openlocfilehash: 5710435f263e7b0f735581e03416f1d01733711429ad95b3ed25e473aca6d936
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "103684230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636390"
 ---
 # <a name="multithreaded-direct2d-apps"></a>多執行緒 Direct2D 應用程式
 
@@ -116,6 +116,6 @@ void MyApp::DrawFromThread2()
 -   您應該共用大量資源 (例如點陣圖和複雜效果圖形) ，這些會初始化一次，然後不會線上程之間修改來提高效能。
 -   您可以共用輕量資源 (例如純色筆刷和文字格式) 這些會初始化一次，然後不會線上程之間修改
 
-## <a name="summary"></a>總結
+## <a name="summary"></a>摘要
 
 當您開發多執行緒 [Direct2D](./direct2d-portal.md) 應用程式時，您必須建立多執行緒 Direct2D factory，然後從該 factory 衍生所有 Direct2D 資源。 如果執行緒會進行 [direct3d](/windows/desktop/direct3d11/atoc-dx-graphics-direct3d-11) 或 dxgi 呼叫，您也必須明確取得，然後套用 Direct2D 鎖定來保護這些 DIRECT3D 或 dxgi 呼叫。 此外，您必須針對每個執行緒擁有可變動資源的複本，以確保內容完整性。

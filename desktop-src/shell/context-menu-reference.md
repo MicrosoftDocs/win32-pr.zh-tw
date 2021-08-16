@@ -4,12 +4,12 @@ ms.assetid: efd96a52-6455-40bc-9c21-65f89728e771
 title: 快速鍵功能表參考
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8cb1552c8f2f383b08984e9142e464b6831a3c8e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 25f80b62b88750200456da76c22017b3f18fbba584272dc028809771c807ad85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191182"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090768"
 ---
 # <a name="shortcut-menu-reference"></a>快速鍵功能表參考
 
@@ -20,7 +20,7 @@ ms.locfileid: "104191182"
 強烈建議您使用其中一個靜態動詞方法來執行快捷方式功能表。 請參閱下列指示：
 
 -   若要使用靜態動詞方法來執行快捷方式功能表，請參閱 [建立快捷方式功能表處理常式](context-menu-handlers.md)的「使用靜態動詞自訂快捷方式功能表」一節。
--   若要在 Windows 7 及更新版本中取得靜態動詞命令的動態行為，請參閱 [建立快捷方式功能表處理常式](context-menu-handlers.md)中的「取得靜態動詞的動態行為」。
+-   若要在 Windows 7 和更新版本中取得靜態動詞命令的動態行為，請參閱[建立快捷方式功能表處理常式](context-menu-handlers.md)中的「取得靜態動詞的動態行為」。
 -   如需靜態動詞命令的執行，以及要避免哪些動態動詞的詳細資訊，請參閱 [為您的快捷方式功能表選擇靜態或動態動詞](shortcut-choose-method.md)。
 -   如果您必須註冊檔案類型的動態動詞命令以擴充檔案類型的快捷方式功能表，請依照 [使用動態動詞自訂快捷方式功能表](shortcut-menu-using-dynamic-verbs.md)中提供的指示進行。
 

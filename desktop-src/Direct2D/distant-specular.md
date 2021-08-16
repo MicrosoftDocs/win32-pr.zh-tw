@@ -6,12 +6,12 @@ keywords:
 - 遠處反射光源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32fa21553e36839f854b4567b2aa2a3805406380
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 7a02bbf6e928691f88de3adc41fc3ae84cbc1e7df69b3b5998ca903a7556d29d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104385117"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768820"
 ---
 # <a name="distant-specular-lighting-effect"></a>遠距反射光源效果
 
@@ -101,8 +101,8 @@ Light？、Light<sub>y</sub>和 Light<sub>z</sub> 是輸入光源位置值。
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

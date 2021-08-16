@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102153
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 9d26a3a957acad23d67e232886e6da0c7ffa8dc0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0dfdabcab9ff08e63bd2d98d5b704125e7bedd60395189b69291fa1554587427
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556504"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119782858"
 ---
 # <a name="esentlogsectorsizemismatchexception-members"></a>EsentLogSectorSizeMismatchException 成員
 

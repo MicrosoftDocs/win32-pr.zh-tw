@@ -4,12 +4,12 @@ ms.assetid: F5A628DE-CC75-4462-A8EB-D79C6DA40739
 title: ICertPropertyArchivedKeyHash 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c46da0cb151294b87a02b34354ae0ef061eb9a64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7fb51c9e116fc2ce4bc42ce3a4fcd218f17b2494f3c7e054b3bbe07d5745d43c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117778987"
 ---
 # <a name="icertpropertyarchivedkeyhash-properties"></a>ICertPropertyArchivedKeyHash 屬性
 

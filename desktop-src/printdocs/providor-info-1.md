@@ -15,12 +15,12 @@ api_type:
 - HeaderDef
 api_location:
 - Winspool.h
-ms.openlocfilehash: 2eabc00009b76247af71b06ea877ca0bf738c1d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f9e7015382ef34f4582c4772e148059c4ed01de9e81da5af71bc0849df26f15
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120091698"
 ---
 # <a name="providor_info_1-structure"></a>PROVIDOR \_ INFO \_ 1 結構
 
@@ -60,7 +60,7 @@ typedef struct _PROVIDOR_INFO_1 {
 **pDLLName**
 </dt> <dd>
 
-以 null 結束的字串指標，該字串是 provider .dll 的名稱。
+以 null 結束的字串指標，這是提供者 .dll 的名稱。
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ typedef struct _PROVIDOR_INFO_1 {
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Winspool.drv (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>winspool.drv (包含 Windows .h) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **\_ PROVIDOR \_ Info \_ 1W** (Unicode) 和 **\_ PROVIDOR \_ info \_ 1a** (ANSI) <br/>                         |
 
 

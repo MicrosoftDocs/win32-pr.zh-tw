@@ -4,12 +4,12 @@ ms.assetid: 0A905D55-CEE5-44FC-97A5-9474872D5724
 title: 'MF_CAPTURE_ENGINE_USE_AUDIO_DEVICE_ONLY 屬性 (Mfcaptureengine) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f02e0b8f1002bcfff12f8a2bea93612456b6072
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c248923ae2dce7d5153f8e88cb8eef88d29ea3dbf6ce5c94e4a8ee355af16c42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013348"
 ---
 # <a name="mf_capture_engine_use_audio_device_only-attribute"></a>MF \_ 捕獲 \_ 引擎 \_ 使用 \_ \_ \_ 僅限音訊裝置屬性
 
@@ -29,8 +29,8 @@ ms.locfileid: "103943546"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                   |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                   |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                         |
 | 標頭<br/>                   | <dl> <dt>Mfcaptureengine. h</dt> </dl> |
 
 

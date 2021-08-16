@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 872aa06734ae818ef248b03fbc14dcd1c33fe815
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 3f8bc555e3ea4f4fbb895c42f5c7a407cea88aedeacb9604ad1e78c7003bdf34
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118801288"
 ---
 # <a name="id3dxrendertoenvmapbeginsphere-method"></a>ID3DXRenderToEnvMap：： BeginSphere 方法
 

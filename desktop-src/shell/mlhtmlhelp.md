@@ -15,16 +15,16 @@ api_type:
 api_location:
 - Shlwapi.dll
 ms.assetid: 1108614d-7034-48da-a4a5-544f8d9af3ca
-ms.openlocfilehash: 38d331d57b9484ab6d7a505d929508f30d510ad8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: c38e84df2ca6f379e7d479125f1f454a10426406ba40ad21721fe01f67cce6f2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841209"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090208"
 ---
 # <a name="mlhtmlhelp-function"></a>MLHtmlHelp 函式
 
-\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在後續版本的 Windows 中改變或無法使用。\]
+\[這項功能可透過 Windows XP 和 Windows Server 2003 取得。 它可能會在 Windows 的後續版本中變更或無法使用。\]
 
 顯示對應于目前 UI 語言設定的說明視窗。
 
@@ -132,8 +132,8 @@ HWND hwnd = HtmlHelp(GetDesktopWindow(),
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>None</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 | Unicode 與 ANSI 名稱<br/>   | **MLHtmlHelpW** (Unicode) 和 **MLHtmlHelpA** (ANSI) <br/>                                               |

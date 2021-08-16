@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: dda2886bc497064308c6b824c8f8db6587df70b3
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: c3bd5dd141d8ae6f4de2d1333b3d772098c788478da46fb6c2d02c6c1c5d75e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103844752"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119656667"
 ---
 # <a name="drink-attribute"></a>飲料屬性
 

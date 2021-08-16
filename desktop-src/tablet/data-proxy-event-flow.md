@@ -1,21 +1,21 @@
 ---
 description: 本主題討論使用筆墨分析資料 proxy 功能時的事件詳細資料。
 ms.assetid: 837867a4-7cda-41b0-b20d-eec9a3a7fb86
-title: 資料 Proxy 事件流程
+title: Data Proxy 事件 Flow
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b88fbb43e54b19486a6413bc44319fa2dd737486
-ms.sourcegitcommit: c3f669dc1d52278432bf75ad9fddba3257d26aa2
+ms.openlocfilehash: c1ae6eab209466094ec79c0ed96923a28751b86c585d9ef750f9d12ef892036c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111432540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119092802"
 ---
-# <a name="data-proxy-event-flow"></a>資料 Proxy 事件流程
+# <a name="data-proxy-event-flow"></a>Data Proxy 事件 Flow
 
 本主題討論使用筆墨分析資料 proxy 功能時的事件詳細資料。
 
-## <a name="data-proxy-event-flow-overview"></a>資料 Proxy 事件流程總覽
+## <a name="data-proxy-event-flow-overview"></a>Data Proxy 事件 Flow 總覽
 
 在 [**InkAnalyzer**](inkanalyzer.md)的資料 proxy 使用方式中，假設整合 InkAnalyzer 的應用程式已經有現有的檔模型，其想要將分析的結果 proxy。 也假設應用程式將會有來自任何先前分析作業的結果，而這些結果是在儲存于其檔模型時所要建立的。 可能也會有可能以 **ImageNode** 或 **TextWordNode**[**CoNtextNode**](icontextnode.md)形式新增至 **InkAnalyzer** 的非筆墨內容，可能會以筆墨標注。
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a084aa2a9df0e34741c8bf5f39ae00933d49cfe7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0b6496ac9ef9bdfa574cc2c4710ed4620fd855dbf5eff2b22885b32bf343d141
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384921"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119650438"
 ---
 # <a name="idwritefontfallbackbuilderaddmapping-method"></a>IDWriteFontFallbackBuilder：： AddMapping 方法
 
@@ -52,13 +52,13 @@ HRESULT AddMapping(
 *範圍* 
 </dt> <dd>
 
-類型： **[**DWRITE \_ UNICODE \_ 範圍**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range) \** _
+類型： **[ **DWRITE \_ UNICODE \_ 範圍**](/windows/win32/api/Dwrite_1/ns-dwrite_1-dwrite_unicode_range)\***
 
 適用于此對應的 Unicode 範圍。
 
 </dd> <dt>
 
-_rangesCount * 
+*rangesCount* 
 </dt> <dd>
 
 類型： **UINT32**
@@ -97,22 +97,22 @@ Type： **CONST WCHAR \* \***
 *>localename* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **CONST WCHAR \** _
+Type： **CONST WCHAR \***
 
 內容的地區設定。
 
 </dd> <dt>
 
-_baseFamilyName * \[ in，選擇性\]
+*baseFamilyName* \[在中，選擇性\]
 </dt> <dd>
 
-類型： **CONST WCHAR \** _
+Type： **CONST WCHAR \***
 
 要符合的基底系列名稱（如果適用）。
 
 </dd> <dt>
 
-_scale * 
+*scale* 
 </dt> <dd>
 
 類型： **FLOAT**
@@ -133,8 +133,8 @@ _scale *
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8.1 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                     |
-| 最低支援的伺服器<br/> | Windows Server 2012 R2 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                          |
+| 最低支援的用戶端<br/> | Windows 8.1 \[桌面應用程式 \| UWP 應用程式\]<br/>                                     |
+| 最低支援的伺服器<br/> | Windows Server 2012R2 \[ desktop apps \| UWP 應用程式\]<br/>                          |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/> |
 | 程式庫<br/>                  | <dl> <dt>Dwrite .lib</dt> </dl>   |
 | DLL<br/>                      | <dl> <dt>Dwrite.dll</dt> </dl>   |

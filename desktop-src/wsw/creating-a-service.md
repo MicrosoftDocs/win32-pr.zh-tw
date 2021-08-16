@@ -4,12 +4,12 @@ description: 服務模型 API 和 WsUtil.exe 工具在 WWSAPI 中大幅簡化了
 ms.assetid: 3536d1c6-6179-4f69-9cc8-27fe6ae30826
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f4700324a84962047f403ca7ad090adc3e9f4e99
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 93f6daadbfcd1d06f76bf5bef97559214e36015d3f72ff440e77f4293a47ea57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119805738"
 ---
 # <a name="creating-a-service"></a>建立服務
 
@@ -83,9 +83,9 @@ if (FAILED (hr = WsOpenServiceHost (host, NULL, error)))
 
 請參閱 [HttpCalculatorServiceExample](httpcalculatorserviceexample.md) 的程式碼範例，以取得計算機服務的完整執行。
 
- 
+ 
 
- 
+ 
 
 
 

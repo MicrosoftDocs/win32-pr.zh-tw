@@ -4,12 +4,12 @@ description: 一般使用者控制點 (UCP) 應用程式可讓您探索裝置、
 ms.assetid: 18ac23df-9d69-4a28-91e5-991eb4f3e6ed
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ee56710cc1fafcc8551b34cb53df531f1f8cb601
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: bc0bbf454da2bf36becb3c8b0aff2babc87925df7ac658fc9dc7963ba9182fad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104555859"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655730"
 ---
 # <a name="generic-user-control-point-application"></a>一般使用者控制點應用程式
 
@@ -43,11 +43,11 @@ ms.locfileid: "104555859"
 > [!Note]  
 > **View Presentation** 和 **view Service Desc。** 功能不會在 c + + 範例程式碼中執行。
 
- 
+ 
 
- 
+ 
 
- 
+ 
 
 
 

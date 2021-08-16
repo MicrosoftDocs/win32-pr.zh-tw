@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.jet_
 ms:contentKeyID: 55103425
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 432738cc39b6005bf3f919540b32969438541810
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e447c5144bae400c44801d8c86359070673b6b8433dfbf5bc328f6fff3dc375d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104554602"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112407"
 ---
 # <a name="jet_columnlist-properties"></a>JET_COLUMNLIST 屬性
 

@@ -4,12 +4,12 @@ ms.assetid: 09ee4568-348b-4cf9-bb38-dada291cdef9
 title: 使用視窗模式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95309f5546ce4f00a8dde029390b2edf48544f1d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fd5f71bfa58e46ade8c779e562278f908c8b8fd593989ed4007e6b98cb7916da
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106987665"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633088"
 ---
 # <a name="using-windowed-mode"></a>使用視窗模式
 
@@ -28,7 +28,7 @@ ms.locfileid: "106987665"
 
 **IVideoWindow 的查詢**
 
-開始播放之前，請查詢 **IVideoWindow** 介面的篩選圖形管理員：
+開始播放之前，請查詢 **IVideoWindow** 介面的篩選 Graph 管理員：
 
 
 ```C++
@@ -75,7 +75,7 @@ pVidWin->SetWindowPosition(0, 0, rc.right, rc.bottom);
 
 
 
-若要取得影片的原生大小，請在篩選圖形管理員上呼叫 [**IBasicVideo：： GetVideoSize**](/windows/desktop/api/Control/nf-control-ibasicvideo-getvideosize) 方法。 您可以使用該資訊來調整影片，並保持正確的外觀比例。
+若要取得影片的原生大小，請在篩選 Graph 管理員上呼叫 [**IBasicVideo：： GetVideoSize**](/windows/desktop/api/Control/nf-control-ibasicvideo-getvideosize)方法。 您可以使用該資訊來調整影片，並保持正確的外觀比例。
 
 **回應 WM \_ 移動訊息**
 
@@ -107,7 +107,7 @@ pVidWin->put_Owner(NULL);
 
 
 > [!Note]  
-> 如果影片視窗的父系是主應用程式視窗的子系 (換句話說，如果影片視窗是子) 的子系，您應該使用 **CoCreateInstance** 建立影片視窗並將它新增至圖形，而不是讓篩選圖形管理員在 [智慧型連接](intelligent-connect.md)期間新增影片轉譯器。 這可確保同時重新繪製影片視窗和子視窗。 否則，子視窗可能會在影片視窗中繪製。
+> 如果影片視窗的父系是主應用程式視窗的子系 (換句話說，如果影片視窗是子) 的子系，您應該使用 **CoCreateInstance** 建立影片視窗，並將它新增至圖形，而不是讓篩選 Graph 管理員在 [智慧型連線](intelligent-connect.md)期間新增影片轉譯器。 這可確保同時重新繪製影片視窗和子視窗。 否則，子視窗可能會在影片視窗中繪製。
 
  
 

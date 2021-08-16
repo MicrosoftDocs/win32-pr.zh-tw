@@ -4,12 +4,12 @@ ms.assetid: 50a6df8e-1055-4964-a3d1-8e0ee8a74edc
 title: DeviceInterface. PrinterEnumerationFlag
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 228a5c91088ce1ff2e94a6081f772f56e8f0d366
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a5d9fd2b02244d7421aea8d8cfaf4ef2a46a6ba4554cf3af09c7e7a1d10c841f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000288"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119098019"
 ---
 # <a name="systemdeviceinterfaceprinterenumerationflag"></a>DeviceInterface. PrinterEnumerationFlag
 

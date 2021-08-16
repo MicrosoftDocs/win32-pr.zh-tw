@@ -4,12 +4,12 @@ description: 2個向量的元件取向加入。
 ms.assetid: 405A513C-B2DD-43B9-A86D-1D173B084C51
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5e34f0a95ad9ee9ae4bdeed317eef133e3773311
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 79a6a0fbec409f7184c0af3b305603fcf468ef867234e8b6791bff0d1d527ad3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107994975"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118795397"
 ---
 # <a name="add-sm4---asm"></a>新增 (sm4-asm) 
 

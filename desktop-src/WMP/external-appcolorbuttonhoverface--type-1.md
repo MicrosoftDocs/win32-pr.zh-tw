@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d965875b4818e0674c118ff52a32b8da5252515
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 400a526fa82ed1a4009482e5cfa1683b2d56fb807044be2fbd8225c41d8c1437
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107001541"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649948"
 ---
 # <a name="externalappcolorbuttonhoverface-type-1"></a>AppColorButtonHoverFace (類型 1) 
 
@@ -28,7 +28,7 @@ ms.locfileid: "107001541"
 
  
 
-**AppColorButtonHoverFace** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕停留色彩。 當使用者將滑鼠指標移至按鈕上方時，就會顯示此色彩。
+**appColorButtonHoverFace** 屬性會抓取 Windows Media Player 使用者介面目前的按鈕停留色彩。 當使用者將滑鼠指標移至按鈕上方時，就會顯示此色彩。
 
 ``` syntax
 window.external.appColorButtonHoverFace

@@ -4,12 +4,12 @@ description: . |DDEML 函式
 ms.assetid: daaa18e6-2948-4058-9943-e5212c835d54
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bc466c21d28822ca5c3c2849bd88523efb5ebc00
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 2155c08bb022af99352ed9b60b5ad2a63094a5b11e889a536c41f008dcfaa0ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104195994"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119636608"
 ---
 # <a name="ddeml-functions"></a>DDEML 函式
 

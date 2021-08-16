@@ -4,12 +4,12 @@ ms.assetid: 83aab060-0629-48e3-a2db-9ba96a8631e5
 title: AppUserModel. RelaunchCommand
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 84049f605896ba5e99a98f33557e6ee4dea37df5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1cc2ce3783aa9ab3d76124b8d62f9d9d9ad2e1f5d4b92622716df111456dbabd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106980777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119554518"
 ---
 # <a name="systemappusermodelrelaunchcommand"></a>AppUserModel. RelaunchCommand
 

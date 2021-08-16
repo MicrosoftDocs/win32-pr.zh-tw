@@ -4,12 +4,12 @@ ms.assetid: 03d1512f-35a6-4b3a-9a0e-97e17bd9b126
 title: 尋找重新導向的字串
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f11600ad57c04de54d914c2c876b67967dfa1467
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b9c4e1a46b2c12af839e4c5b562eba18a80c8e814e5a6071dca925a14a46d0ef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993007"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788478"
 ---
 # <a name="locating-redirected-strings"></a>尋找重新導向的字串
 
@@ -40,13 +40,13 @@ HKCR,"CLSID\%CLSID_AntiSpyware%","InfoTip",,"@%ProgramFiles%\Windows AntiSpyware
 
 
 
-第一行提供反向和回溯相容性的未當地語系化常值字串。 第二行顯示符合 MUI 規範的方式來註冊顯示名稱。 這一行指出儲存在 Windows XP) 的 Msascui.exe (中的字串識別碼104，或適用于 Windows Vista) 的相關特定語言檔案 (。 此字串識別碼對應至「我的網路位置」。 範例中的第三行會處理提示註冊。 % CLSID \_ 反間諜軟體% 指定的環境變數代表符合這個元件之類別識別碼的 GUID。
+第一行提供反向和回溯相容性的未當地語系化常值字串。 第二行顯示符合 MUI 規範的方式來註冊顯示名稱。 這一行指出 Msascui.exe (中儲存的字串識別碼104，適用于 Windows XP) 或其相關聯的語言特定檔案 (Windows Vista) 。 此字串識別碼對應至「我的網路位置」。 範例中的第三行會處理提示註冊。 % CLSID \_ 反間諜軟體% 指定的環境變數代表符合這個元件之類別識別碼的 GUID。
 
-在上述範例中，應用程式會呼叫 [**SHSetLocalizedName**](/windows/win32/api/shellapi/nf-shellapi-shsetlocalizedname) 來指定前兩個參數的可執行檔路徑，並將 *idsRes* 指定為 "@% ProgramFiles% \\ Windows 反間諜軟體 \\MSASCui.exe，104"。 呼叫 [**IShellLink：： SetDescription**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription)，將內容提示的路徑指定為 "@% ProgramFiles% \\ Windows 反間諜軟體 \\MSASCui.exe，208"。
+在上述範例中，應用程式會呼叫 [**SHSetLocalizedName**](/windows/win32/api/shellapi/nf-shellapi-shsetlocalizedname)來指定前兩個參數的可執行檔路徑，並將 *idsRes* 指定為 "@% ProgramFiles% \\ Windows 反間諜功能 \\MSASCui.exe，104"。 呼叫 [**IShellLink：： SetDescription**](/windows/win32/api/shobjidl_core/nf-shobjidl_core-ishelllinka-setdescription)，將內容提示的路徑指定為 "@% ProgramFiles% \\ Windows 反間諜功能 \\MSASCui.exe，208"。
 
 ## <a name="query-friendly-document-type-names-in-the-registry"></a>在登錄中查詢易記的檔案類型名稱
 
-[使用登錄字串](using-registry-string-redirection.md)重新導向建立方便使用的檔案類型名稱資源時，會在建立易記檔案類型名稱的資源中討論。 若要查詢易記的檔案名稱，應用程式應該使用 [**IQueryAssociations：： Init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init)，然後呼叫 [**IQueryAssociations：： GetString**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-getstring)。 **IQueryAssociations：： Init** 的呼叫會指定檔案類型，例如 ".txt"。 **IQueryAssociations：： GetString** 的呼叫必須將 ASSOCSTR \_ FRIENDLYDOCNAME 指定為字串識別碼。
+[使用登錄字串](using-registry-string-redirection.md)重新導向建立方便使用的檔案類型名稱資源時，會在建立易記檔案類型名稱的資源中討論。 若要查詢易記的檔案名稱，應用程式應該使用 [**IQueryAssociations：： Init**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-init)，然後呼叫 [**IQueryAssociations：： GetString**](/windows/win32/api/shlwapi/nf-shlwapi-iqueryassociations-getstring)。 **IQueryAssociations：： Init** 的呼叫會指定檔案類型，例如「.txt」。 **IQueryAssociations：： GetString** 的呼叫必須將 ASSOCSTR \_ FRIENDLYDOCNAME 指定為字串識別碼。
 
 ## <a name="register-microsoft-management-console-snap-in-strings-not-read-from-the-registry"></a>登錄未從登錄讀取的 Microsoft Management Console 嵌入式管理單元字串
 
@@ -54,9 +54,9 @@ HKCR,"CLSID\%CLSID_AntiSpyware%","InfoTip",,"@%ProgramFiles%\Windows AntiSpyware
 
 ## <a name="set-the-display-name-and-description-for-a-windows-service-from-the-registry"></a>從登錄設定 Windows 服務的顯示名稱和描述
 
-如果您的 MUI 應用程式使用 Windows 服務，它必須顯示服務顯示名稱和描述。 相關聯的資源將在 [使用登錄字串](using-registry-string-redirection.md)重新導向的「建立 Windows 服務的字串資源」中討論。
+如果您的 MUI 應用程式使用 Windows 服務，則必須顯示服務顯示名稱和描述。 相關聯的資源將在[使用登錄字串](using-registry-string-redirection.md)重新導向的「建立 Windows 服務的字串資源」中討論。
 
-為了設定服務顯示名稱，MUI 應用程式會呼叫 [**CreateService**](/windows/win32/api/winsvc/nf-winsvc-createservicea) 或 [**ChangeServiceConfig**](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfiga)。 名稱是格式為 "" 的字串 `@<PE-path>,-<stringID>[;<comment>]` 。 例如，如果您的服務是由路徑為% ProgramFiles%%MyDll.dll 的 .dll 檔案所執行 \\ \\ ，而且語言特定顯示名稱的字串識別碼為347，則參數會指定為 " `@%ProgramFiles%\\%MyPath%\\MyDll.dll,-347` "。  () 的雙反斜線 \\ \\ 是必要的，因為 c/c + + 會使用反斜線做為字串中的 escape 字元。
+為了設定服務顯示名稱，MUI 應用程式會呼叫 [**CreateService**](/windows/win32/api/winsvc/nf-winsvc-createservicea) 或 [**ChangeServiceConfig**](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfiga)。 名稱是格式為 "" 的字串 `@<PE-path>,-<stringID>[;<comment>]` 。 例如，如果您的服務是由路徑為% ProgramFiles%%%MyDll.dll 的 .dll 檔案所執行 \\ \\ ，而且語言特定顯示名稱的字串識別碼為347，則會將參數指定為 " `@%ProgramFiles%\\%MyPath%\\MyDll.dll,-347` "。  () 的雙反斜線 \\ \\ 是必要的，因為 c/c + + 會使用反斜線做為字串中的 escape 字元。
 
 若要設定語言特定的服務描述，MUI 應用程式應讓 [**服務 \_ 描述**](/windows/win32/api/winsvc/ns-winsvc-service_descriptiona)結構的 **lpDescription** 成員表示 "" 格式的字串，並 `@<PE-path>,-<stringID>[;<comment>]` 參考適當的字串識別碼。 然後，應用程式會呼叫 [**ChangeServiceConfig2**](/windows/win32/api/winsvc/nf-winsvc-changeserviceconfig2a) ，並將參數 *DWINFOLEVEL* 指定為服務設定 \_ \_ 描述，並將參數 *lpInfo* 指定為 **服務 \_ 描述** 結構。
 

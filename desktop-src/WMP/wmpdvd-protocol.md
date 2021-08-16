@@ -6,21 +6,21 @@ keywords:
 - Windows Media Player，通訊協定
 - Windows Media Player 物件模型，通訊協定
 - 物件模型，通訊協定
-- Windows Media Player ActiveX 控制項，物件模型的通訊協定
+- Windows Media Player ActiveX 控制項、物件模型的通訊協定
 - ActiveX 控制項，物件模型的通訊協定
-- Windows Media Player 的行動 ActiveX 控制項、物件模型的通訊協定
-- Windows Media Player 行動裝置、物件模型的通訊協定
+- Windows Media Player行動 ActiveX 控制項，物件模型的通訊協定
+- Windows Media Player行動裝置，物件模型的通訊協定
 - 通訊協定，Windows Media Player 物件模型
 - 通訊協定，WMPDVD
 - WMPDVD 通訊協定
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bc4d3949c18a268ea6a2fffc196081ba466b5758
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8ca67f3cdee6f040aeb266e02493425ca76715ade2e3269f4377ba340af89cc9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119761288"
 ---
 # <a name="wmpdvd-protocol"></a>WMPDVD 通訊協定
 
@@ -86,9 +86,9 @@ player.url = "wmpdvd://Z/2/4?contentdir="d:\sample1\video_ts";
 [**支援的通訊協定和檔案類型**](supported-protocols-and-file-types.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

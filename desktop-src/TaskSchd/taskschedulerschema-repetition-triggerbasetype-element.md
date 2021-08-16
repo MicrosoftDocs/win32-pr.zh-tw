@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 7ebd6f9f77998e5e975e24ff752a475e3880c0aa
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dfcce3e008a9959ca279f64c83a898eb2239d007d8fc32dfb5da5942395055bd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104466016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119959538"
 ---
 # <a name="repetition-triggerbasetype-element"></a>重複 (triggerBaseType) 元素
 
@@ -72,9 +72,9 @@ ms.locfileid: "104466016"
 4.  下一項工作會從第三分鐘的結尾開始。
 5.  下一項工作會在第四分鐘結束時啟動。
 
-**Windows Server 2003、WINDOWS XP 和 windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
+**Windows Server 2003、Windows XP 和 Windows 2000：** 如果您註冊的工作包含重複間隔等於1分鐘的觸發程式，且重複持續時間等於四分鐘，則工作會啟動四次。
 
-**Windows Vista、windows 7、Windows server 2008、Windows 8 和 Windows server 2012：** 通常，將重複期間設定為間隔的確切倍數，會產生上面所述的數位。 不過，在某些繁重的負載狀況下，可能會在 TaskScheduler 可以啟動最後工作間隔之前，讓持續時間超時。
+**Windows Vista、Windows 7、Windows Server 2008、Windows 8 和 Windows Server 2012：** 通常，將重複期間設定為間隔的確切倍數，會產生上面所述的數位。 不過，在某些繁重的負載狀況下，可能會在 TaskScheduler 可以啟動最後工作間隔之前，讓持續時間超時。
 
 針對開發腳本，會使用觸發程式來指定重複模式。所有觸發程式物件都會繼承 [**重複**](trigger-repetition.md) 的屬性。
 
@@ -108,8 +108,8 @@ ms.locfileid: "104466016"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

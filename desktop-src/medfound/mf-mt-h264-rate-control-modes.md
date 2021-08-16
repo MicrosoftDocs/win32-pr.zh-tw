@@ -4,12 +4,12 @@ ms.assetid: EA8EFEFA-9292-4D7B-BF5D-DE5239BB1D2C
 title: 'MF_MT_H264_RATE_CONTROL_MODES 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e3fc19070cd3b45aa25a1307a216f611dce1fd3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d34fac6f047b8454ea6ddd79dfd26659fa7751fd1a6a14e01c7ea9457a5f7dc5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104434"
 ---
 # <a name="mf_mt_h264_rate_control_modes-attribute"></a>MF \_ MT \_ H264 \_ 速率 \_ 控制 \_ 模式屬性
 
@@ -39,8 +39,8 @@ ms.locfileid: "106971019"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

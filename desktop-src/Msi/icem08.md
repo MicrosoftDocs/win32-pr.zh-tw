@@ -4,12 +4,12 @@ ms.assetid: 56d115b4-7410-4db2-a9af-bc6716f3358d
 title: ICEM08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6a9767c6748f5a21d83bddb3b5fe93a0a8d7ea67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 43f5d0076de382889e5fd3df8a03dddb51c6a73eb5a4f825068f6cd66ad24d07
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193687"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119811008"
 ---
 # <a name="icem08"></a>ICEM08
 

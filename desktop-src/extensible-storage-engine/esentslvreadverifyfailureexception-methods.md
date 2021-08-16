@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102813
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: edafed98f7c2195820d3dbc0e6c0ba6da43b035c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b0fa2c58cb47cffd6b067e7dc029127985b622711f74f4f1e2f4d888f557cb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104561941"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119113691"
 ---
 # <a name="esentslvreadverifyfailureexception-methods"></a>EsentSLVReadVerifyFailureException 方法
 
