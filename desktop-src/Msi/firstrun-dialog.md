@@ -4,12 +4,12 @@ ms.assetid: bb77296f-705a-4409-b2ca-a76bbaf7ea57
 title: Firstrun.cmd 對話方塊
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4b2024683d7a10395340a18ddd2015b94e1207bf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: de44417014aefb84d2d381166d5a2fceb7f956c4212e9dba31556053c583fef6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191868"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119828888"
 ---
 # <a name="firstrun-dialog"></a>Firstrun.cmd 對話方塊
 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 33a84328c95feda50bb7a3b4b04bb9b61eb86632
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cecc11f578253392c4b4fcec9bd5247b918bb3f38e1e1856c8c093e40c86f95
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107252"
 ---
 # <a name="setcolumndefaultvaluegrbit-enumeration"></a>SetColumnDefaultValueGrbit 列舉
 

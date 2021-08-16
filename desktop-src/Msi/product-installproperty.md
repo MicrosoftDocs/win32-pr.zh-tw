@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msi.dll
-ms.openlocfilehash: 12949997363fce8073c15f7ca6b7312c211fa0f1
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3beb67ccdd4a50cdbb52e41846f46fcb4f2545dd833d30098e29c4d5887f8fae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990546"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926068"
 ---
 # <a name="productinstallproperty-method"></a>InstallProperty 方法
 
@@ -89,7 +89,7 @@ Product.InstallProperty(
 
 | 值        | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| InstanceType | 遺漏值或0值表示正常的產品安裝。 值為1時，表示使用多個實例轉換和 [**MSINEWINSTANCE**](msinewinstance.md) 屬性安裝的產品。 適用于執行 Windows Server 2003 或 Windows XP 含 SP1 的安裝程式。 如需詳細資訊，請參閱 [安裝多個產品和修補程式實例](installing-multiple-instances-of-products-and-patches.md)。 |
+| InstanceType | 遺漏值或0值表示正常的產品安裝。 值為1時，表示使用多個實例轉換和 [**MSINEWINSTANCE**](msinewinstance.md) 屬性安裝的產品。 適用于執行 Windows Server 2003 或 Windows XP SP1 的安裝程式。 如需詳細資訊，請參閱 [安裝多個產品和修補程式實例](installing-multiple-instances-of-products-and-patches.md)。 |
 
 
 
@@ -131,7 +131,7 @@ Product.InstallProperty(
 
 | 需求 | 值 |
 |--------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 版本<br/> | Windows Server 2012、Windows 8、Windows Server 2008 R2 或 Windows 7 上的 Windows Installer 5.0。 Windows Server 2008 或 Windows Vista 上的 Windows Installer 4.0 或 Windows Installer 4.5。 Windows Server 2003、Windows XP 及 Windows 2000 上的 Windows Installer 3.0 或更新版本<br/> |
+| 版本<br/> | WindowsWindows Server 2012、Windows 8 Windows Server 2008 R2 或 Windows 7 上的安裝程式5.0。 WindowsWindows Server 2008 或 Windows Vista 上的安裝程式4.0 或 Windows Installer 4.5。 WindowsWindows Server 2003、Windows XP 和 Windows 2000 上的安裝程式3.0 或更新版本<br/> |
 | DLL<br/>     | <dl> <dt>Msi.dll</dt> </dl>                                                                                                                                                                                                   |
 | IID<br/>     | IID \_ IProduct 定義為000C10A0-0000-0000-C000-000000000046<br/>                                                                                                                                                                                                          |
 

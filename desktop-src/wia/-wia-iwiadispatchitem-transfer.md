@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Wiascr.dll
-ms.openlocfilehash: a476f9653b7deced48394af0ecaa0ea0c8ae51e0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: efef054a324244553748b75659820f582100a01ed6f56f9a2f80b0ef0c08f105
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986385"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119706318"
 ---
 # <a name="itemtransfer-method"></a>Item. Transfer 方法
 
@@ -79,7 +79,7 @@ Type： **VARIANT \_ BOOL**
 
 使用 "剪貼簿" 作為 *Filename* 參數，將專案傳送至剪貼簿。
 
-將 *AsyncTransfer* 值設定為 **false** ，以在任何在腳本結束時終止進程的環境中執行的應用程式或腳本內進行傳輸，例如 WINDOWS script Host (WSH) 。 否則，腳本可能會結束，且進程會在傳送完成之前終止。
+將 *AsyncTransfer* 值設定為 **false** ，以在任何應用程式或腳本內執行的任何應用程式或腳本中執行，而該環境會在腳本結束時終止進程，例如 Windows 腳本主機 (WSH) 。 否則，腳本可能會結束，且進程會在傳送完成之前終止。
 
 傳送方法沒有 **傳回** 值。 完成傳送時，此方法會將 [**OnTransferComplete**](-wia--iwiaevents-ontransfercomplete.md) 事件傳送至腳本或應用程式。
 
@@ -119,8 +119,8 @@ Next
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | DLL<br/>                      | <dl> <dt>Wiascr.dll (4.90 版或更新版本) </dt> </dl> |
 
 

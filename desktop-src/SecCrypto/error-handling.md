@@ -4,12 +4,12 @@ ms.assetid: b18a69c0-76b1-41dd-9598-062e57aeab17
 title: " (密碼編譯) 處理錯誤"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d0a0d0586cebd72c151431209c2444e98af6b10
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 933784c24f5b63e4375f4e96a6733ce14f36bc414c81156ab281d3c6fa3b023f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874058"
 ---
 # <a name="error-handling-cryptography"></a> (密碼編譯) 處理錯誤
 

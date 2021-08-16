@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: c2c548f23aaf37a79e32a655c0e0993ccddc3d04
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49daaa63806c8004946e416308ef617da4429ef987f3aaba323864b5bd8ef4a0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112980"
 ---
 # <a name="esenttoomanysplitsexception-constructor"></a>EsentTooManySplitsException 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 1a84790a-8f46-4e1b-8e45-5036830e8fee
 title: 寫入器元資料檔案內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f222977f1c8d785e6f69613f219545dc3402af7f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fbdb8cf4c2313d17cfd9059626f97356f27ba9168f9e19e4a796fae8797728d5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026228"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119905048"
 ---
 # <a name="writer-metadata-document-contents"></a>寫入器元資料檔案內容
 

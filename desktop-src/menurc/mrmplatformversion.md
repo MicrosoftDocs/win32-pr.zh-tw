@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8127d3e6e99d974315327cf89ae9e82add7bc628
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c41eec2f3839de5a8de6bcfd2f3a12910d146a0c2327286024ba36a52526d0a9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935019"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119662978"
 ---
 # <a name="mrmplatformversion-enumeration"></a>MrmPlatformVersion 列舉
 
@@ -54,14 +54,14 @@ typedef enum _MrmPlatformVersion {
 <span id="MrmPlatformVersion_Windows10_0_0_0"></span><span id="mrmplatformversion_windows10_0_0_0"></span><span id="MRMPLATFORMVERSION_WINDOWS10_0_0_0"></span>**MrmPlatformVersion \_ Windows10 \_ 0 \_ 0 \_ 0**
 </dt> <dd>
 
-指定 Windows 10.0.0.0 的平臺版本。
+指定 Windows 10 0.0.0 的平臺版本。
 
 </dd> <dt>
 
 <span id="MrmPlatformVersion_Windows10_0_0_5"></span><span id="mrmplatformversion_windows10_0_0_5"></span><span id="MRMPLATFORMVERSION_WINDOWS10_0_0_5"></span>**MrmPlatformVersion \_ Windows10 \_ 0 \_ 0 \_ 5**
 </dt> <dd>
 
-指定 Windows 10.0.0.5 的平臺版本。
+指定 Windows 10 0.0.5 的平臺版本。
 
 </dd> </dl>
 
@@ -72,7 +72,7 @@ typedef enum _MrmPlatformVersion {
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>MrmResourceIndexer。h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 2b8d8fed4c1cc91c2090b957894b4f6641adad32
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6eb7ba32049dc3ef70085a489b499d90b92ec6155323b650df0e2b2f839bbdf9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106966533"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098658"
 ---
 # <a name="pxeproviderinitialize-callback-function"></a>PxeProviderInitialize 回呼函式
 
@@ -65,7 +65,7 @@ DWORD PXEAPI PxeProviderInitialize(
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | 都不支援<br/>                                                          |
-| 最低支援的伺服器<br/> | 僅限 windows Server 2008、Windows Server 2003 SP2 \[ desktop 應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows伺服器2008、Windows server 2003 （ \[ 僅限 SP2 桌面應用程式）\]<br/> |
 
 
 
@@ -73,7 +73,7 @@ DWORD PXEAPI PxeProviderInitialize(
 
 <dl> <dt>
 
-[Windows 部署服務伺服器函數](windows-deployment-services-server-functions.md)
+[Windows部署服務伺服器函式](windows-deployment-services-server-functions.md)
 </dt> <dt>
 
 [*PxeProviderShutdown*](pxeprovidershutdown.md)

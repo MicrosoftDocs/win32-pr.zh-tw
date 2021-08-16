@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4c03c9dcb0cb9b0362a7c9efa348ba4c479f16cf
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a656a537b4f5bff9547d4e5f94971c304d2bf524c6f077a6e2f170eb3a52741a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093388"
 ---
 # <a name="jet_rstmapcontentequals-method"></a>JET_RSTMAP。ContentEquals 方法
 

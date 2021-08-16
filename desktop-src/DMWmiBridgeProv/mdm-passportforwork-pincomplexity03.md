@@ -1,6 +1,6 @@
 ---
 title: MDM_PassportForWork_PINComplexity03 類別
-description: MDM \_ PassportForWork \_ PINComplexity03 類別會針對 Windows Hello 企業版的登入認證定義 PIN 複雜性。
+description: MDM \_ PassportForWork \_ PINComplexity03 類別會針對商務用 Windows Hello 定義登入認證的 PIN 複雜性。
 ms.assetid: 83dcf859-03da-4508-b809-bafd24dc8bd4
 keywords:
 - MDM_PassportForWork_PINComplexity03 類別
@@ -17,18 +17,18 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1a9d01cd152935a1daa0a9b0721ea27129e21934
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 360e7bf11de79b1f81135e4fa92572bde84050176e726e37c00374fed53791a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934183"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120084918"
 ---
 # <a name="mdm_passportforwork_pincomplexity03-class"></a>MDM \_ PassportForWork \_ PINComplexity03 類別
 
 \[某些資訊與預先發行的產品有關，在正式發行之前可能會經過大幅修改。 Microsoft 對此處提供的資訊，不做任何明確或隱含的瑕疵擔保。\]
 
-**MDM \_ PassportForWork \_ PINComplexity03** 類別會針對 Windows Hello 企業版的登入認證定義 PIN 複雜性。
+**MDM \_ PassportForWork \_ PINComplexity03** 類別會針對商務用 Windows Hello 定義登入認證的 PIN 複雜性。
 
 下列語法是簡化自 MOF 程式碼，且包含所有繼承的屬性。
 
@@ -189,7 +189,7 @@ PIN 原則的根節點。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 10 桌面應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 10 \[僅限桌面應用程式\]<br/>                                                    |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                      |
 | 命名空間<br/>                | 根 \\ cimv2 \\ mdm \\ dmmap<br/>                                                             |
 | MOF<br/>                      | <dl> <dt>DMWmiBridgeProv mof</dt> </dl> |

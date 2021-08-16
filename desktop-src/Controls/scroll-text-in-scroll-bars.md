@@ -4,12 +4,12 @@ description: 本節說明您可以對應用程式的主視窗程式進行的變�
 ms.assetid: ACB4FF34-38EF-4F3D-9395-D48D58A72C0B
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b9ef9a2eea9490beac7b6ff5048b70de61eb635f
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: d2139ac1bff3d197d63011e6a6e76c861b984c5e20b5c54ceab8871678d31a52
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103842747"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119914218"
 ---
 # <a name="how-to-scroll-text"></a>如何滾動文字
 
@@ -19,12 +19,12 @@ ms.locfileid: "103842747"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -329,6 +329,6 @@ switch (uMsg)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

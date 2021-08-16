@@ -4,12 +4,12 @@ ms.assetid: 9d8f73d7-d6ea-44d4-be5c-a003f6eba508
 title: FontFamily. FontFamily 函數
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: b1b7bbee5fedffa117d51b3ea97bea9b0c0599ca
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6d45135c6960e0b3b88d8faecf83e1ce62575e1e7d8073eaf7eec47436622a42
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991782"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888858"
 ---
 # <a name="fontfamilyfontfamily-constructors"></a>FontFamily. FontFamily 函數
 

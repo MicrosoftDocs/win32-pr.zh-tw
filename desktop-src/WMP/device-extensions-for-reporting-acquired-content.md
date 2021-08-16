@@ -11,12 +11,12 @@ keywords:
 - 報告取得的內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 831312457427cc9fe4ceed004772f3b174f77989
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 3389f5b35cedc853d66e6f450836195497628972ea6ae15642d75155d8b83b6c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965384"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902058"
 ---
 # <a name="device-extensions-for-reporting-acquired-content"></a>用於報告取得內容的裝置擴充功能
 
@@ -40,7 +40,7 @@ Windows Media Player 11 引進了新功能，可讓可攜式裝置通知玩家�
 
 
 
- 
+ 
 
 下表提供報告所取得內容的 MTP 作業詳細資料。
 
@@ -65,7 +65,7 @@ Windows Media Player 11 引進了新功能，可讓可攜式裝置通知玩家�
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -79,7 +79,7 @@ Windows Media Player 11 引進了新功能，可讓可攜式裝置通知玩家�
 
 
 
- 
+ 
 
 位1到31的保留供日後使用。 這些位應設定為零。
 
@@ -90,9 +90,9 @@ Windows Media Player 11 引進了新功能，可讓可攜式裝置通知玩家�
 [**Windows Media Player**](windows-media-player.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b65721f46beb8dae4c05756a66d954646c9d5336
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1eb4dc77590f774623ed905a22941a68af5971e7b9c8a639794687d83a95fd41
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994142"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861938"
 ---
 # <a name="iwmpcdromburnstopburn-method"></a>IWMPCdromBurn：： stopBurn 方法
 

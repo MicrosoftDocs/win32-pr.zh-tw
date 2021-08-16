@@ -1,11 +1,11 @@
 ---
-title: MS-CHAP-Language 屬性
+title: MS SQL 語言屬性
 description: SQL Server 目前實例的語言。
 ms.assetid: 70ab1e8f-aff0-4a1e-ab2c-676a77b0c229
 ms.tgt_platform: multiple
 keywords:
-- MS-CHAP-Language 屬性 AD 架構
-- Ms-chap-Language 屬性 AD 架構
+- MS SQL 語言屬性 AD 架構
+- mS SQL 語言屬性 AD 架構
 topic_type:
 - apiref
 api_name:
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9fd9a4fb6ede4e656b7cebbfe7c5c920e19d9123
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: badc9f8a59df2727bcff304044666f2f6751dbcd7797d3178813a1dd5f289319
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104107171"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119705446"
 ---
-# <a name="ms-sql-language-attribute"></a>MS-CHAP-Language 屬性
+# <a name="ms-sql-language-attribute"></a>MS SQL 語言屬性
 
 SQL Server 目前實例的語言。
 
@@ -29,8 +29,8 @@ SQL Server 目前實例的語言。
 
 | 進入 | 值 |
 |-------------------|---------------------------------------------|
-| CN                | MS-CHAP-語言                             |
-| Ldap-顯示名稱 | Ms-chap-語言                             |
+| CN                | MS SQL 語言                             |
+| Ldap-顯示名稱 | mS SQL 語言                             |
 | 大小              | \-                                          |
 | 更新許可權  | 網域系統管理員                        |
 | 更新頻率  | 在系統設定時。                            |
@@ -58,7 +58,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -66,7 +66,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 
@@ -79,7 +79,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -87,7 +87,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 
@@ -100,7 +100,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -108,7 +108,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 
@@ -121,7 +121,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -129,7 +129,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 
@@ -142,7 +142,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -150,7 +150,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 
@@ -163,7 +163,7 @@ SQL Server 目前實例的語言。
 | 連結識別碼                | \-                                                          |
 | MAPI-Id                | \-                                                          |
 | System-Only            | 否                                                       |
-| 是-單一值       | 對                                                        |
+| 是-單一值       | 是                                                        |
 | 已編制索引             | 否                                                       |
 | 在通用類別目錄中      | 否                                                       |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                |
@@ -171,7 +171,7 @@ SQL Server 目前實例的語言。
 | Range-Upper            | \-                                                          |
 | Search-Flags           | 0x00000000                                                  |
 | System-Flags           | 0x00000010                                                  |
-| 中使用的類別        | [**Olapserver.server**](c-ms-sql-olapserver.md)<br/> |
+| 中使用的類別        | [**毫秒-SQL-olapserver.server**](c-ms-sql-olapserver.md)<br/> |
 
 
 

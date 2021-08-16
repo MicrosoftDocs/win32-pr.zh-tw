@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 8db0243ecfecd47655f547d40390e602c04d5b88
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: eb57004935a85392057120c0ec369d19217148780079ab4be83088dd3de3ea8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000388"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119872188"
 ---
 # <a name="ccritsec-class"></a>CCritSec 類別
 
@@ -64,7 +64,7 @@ ms.locfileid: "107000388"
 [重要區段物件](/windows/desktop/Sync/critical-section-objects)
 </dt> <dt>
 
-[DirectShow 基類參考](base-class-reference.md)
+[DirectShow基類參考](base-class-reference.md)
 </dt> </dl>
 
  

@@ -4,12 +4,12 @@ ms.assetid: 86c0c553-af35-4ad1-8918-63d9e4577c73
 title: 查看隱藏式輔助字幕
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 82ff2d6d213259ccce6e9b02272d0c9db3ad7b71
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f52288b1c4fa5c43f7e0419d81bd9727a4db86848d368b600e1d713c53dc1593
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104551023"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903424"
 ---
 # <a name="viewing-closed-captions"></a>查看隱藏式輔助字幕
 
@@ -40,9 +40,9 @@ if (FAILED(hr))
 
 -   [T/接收到接收的轉換器](tee-sink-to-sink-converter.md)。 接受 capture 篩選器中的 VBI 資訊，並將其分割為信號上的每個資料服務的個別資料流程。 Microsoft 針對隱藏式標題、NABTS 和全球標準 Teletext 提供 VBI 編解碼器 (WST) 。
 -   [CC 解碼器](cc-decoder-filter.md)。 從 capture 篩選器所提供的取樣 VBI 波形中解碼 CC 資料。
--   [第21行的解碼器](line-21-decoder-filter.md)。 轉譯副本的位元組配對，並將標題文字繪製到點陣圖。 下游篩選 (在此案例中，重迭混音器) 將點陣圖重迭到影片。
+-   [第21行的解碼器](line-21-decoder-filter.md)。 轉譯副本的位元組配對，並將標題文字繪製到點陣圖。 下游篩選 (在此案例中，重迭 Mixer) 將點陣圖重迭到影片。
 
-[Capture Graph Builder] 的 [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream) 方法會自動加入這些篩選。 如果捕捉篩選具有 CC pin，而不是 VBI pin，則副本 pin 會直接連接到第21行的解碼篩選器。
+Capture Graph Builder 的 [**RenderStream**](/windows/desktop/api/Strmif/nf-strmif-icapturegraphbuilder2-renderstream)方法會自動加入這些篩選器。 如果捕捉篩選具有 CC pin，而不是 VBI pin，則副本 pin 會直接連接到第21行的解碼篩選器。
 
 > [!Note]  
 > 如果您使用影片混合轉譯器 (VMR) 篩選器進行轉譯，請使用第21行的解碼器篩選器2。 此篩選器的功能與第21行的解碼器相同，但 CLSID 是 CLSID \_ Line21Decoder2。
@@ -50,7 +50,7 @@ if (FAILED(hr))
  
 
 > [!Note]  
-> 在 Windows Vista 中已移除 CC 解碼器篩選。 新的應用程式應該使用 VBICodec 篩選器，其記載于 Microsoft 電視技術檔中。
+> Windows Vista 中已移除 CC 解碼器篩選。 新的應用程式應該使用 VBICodec 篩選器，其記載于 Microsoft 電視技術檔中。
 
  
 

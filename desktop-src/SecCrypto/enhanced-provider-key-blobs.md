@@ -4,12 +4,12 @@ ms.assetid: f1bd347b-33bd-40bc-9a9b-c06f264f1af4
 title: 增強的提供者金鑰 Blob
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f693fd469a1df2e76078e61bb69c90ea5d5041d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1098ec45f73183f31cb91d15e2957dcc5964591bd8c6de4e30616df0808ade6b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978081"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119874438"
 ---
 # <a name="enhanced-provider-key-blobs"></a>增強的提供者金鑰 Blob
 

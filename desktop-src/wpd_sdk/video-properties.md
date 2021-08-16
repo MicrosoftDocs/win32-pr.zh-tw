@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列影片內容。
+description: Windows可攜式裝置支援下列影片內容。
 ms.assetid: e6df5b2d-ceb8-4de0-b60b-9102c77143fe
 title: '影片屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 1f44f32ab19c5ad10cc9c8dd5bdb8816ccc944f6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 6e7bbab3416f50a95d2ae29e2be0ef5ecdcad6eed0112f940e5c34b593f2b79a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984008"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119083382"
 ---
 # <a name="video-properties"></a>影片屬性
 
-Windows 可攜式裝置支援下列影片內容。
+Windows可攜式裝置支援下列影片內容。
 
 
 
-| 屬性                                         | VarType        | Description                                                                                                                                                                                                                                             |
+| 屬性                                         | VarType        | 描述                                                                                                                                                                                                                                             |
 |--------------------------------------------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **WPD \_ 影片 \_ 作者**                           | **VT \_ LPWSTR** | 影片檔案的作者。                                                                                                                                                                                                                           |
 | **WPD \_ 影片 \_ 位元速率**                          | **VT \_ UI4**    | 影片檔案的位元速率。                                                                                                                                                                                                                         |

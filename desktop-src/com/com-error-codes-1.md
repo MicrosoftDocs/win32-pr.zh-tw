@@ -207,12 +207,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0bf140f012adbf80b1ce38c9d5017a528b7368a6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3d03cc44142e85c174bbb5a19318eea7626b170f59044811f841e7009ba35ba8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000815"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120071056"
 ---
 # <a name="com-error-codes-generic"></a>COM 錯誤碼 (一般) 
 
@@ -362,10 +362,10 @@ ms.locfileid: "107000815"
 | <span id="CONVERT10_E_OLESTREAM_GET"></span><span id="convert10_e_olestream_get"></span><dl> <dt>**CONVERT10 \_E \_ OLESTREAM \_ 取得**</dt> <dt>0x800401C0</dt> </dl>                                                                             | OLESTREAM Get 方法失敗<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_PUT"></span><span id="convert10_e_olestream_put"></span><dl> <dt>**CONVERT10 \_E \_ OLESTREAM \_ PUT**</dt> <dt>0x800401C1</dt> </dl>                                                                             | OLESTREAM Put 方法失敗<br/>                                                                                             |
 | <span id="CONVERT10_E_OLESTREAM_FMT"></span><span id="convert10_e_olestream_fmt"></span><dl> <dt>**CONVERT10 \_E \_ OLESTREAM \_ bcp.fmt**</dt> <dt>0x800401C2</dt> </dl>                                                                             | OLESTREAM 的內容格式不正確<br/>                                                                         |
-| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_E \_ OLESTREAM \_ 點陣圖 \_ 到 \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | 將點陣圖轉換成 DIB 時，Windows GDI 呼叫中發生錯誤<br/>                                           |
+| <span id="CONVERT10_E_OLESTREAM_BITMAP_TO_DIB"></span><span id="convert10_e_olestream_bitmap_to_dib"></span><dl> <dt>**CONVERT10 \_E \_ OLESTREAM \_ 點陣圖 \_ 到 \_ DIB**</dt> <dt>0x800401C3</dt> </dl>                                             | 將點陣圖轉換為 DIB 時，Windows GDI 呼叫中發生錯誤<br/>                                           |
 | <span id="CONVERT10_E_STG_FMT"></span><span id="convert10_e_stg_fmt"></span><dl> <dt>**CONVERT10 \_E \_ Stg. \_ bcp.fmt**</dt> <dt>0x800401C4</dt> </dl>                                                                                               | IStorage 的內容格式不正確<br/>                                                                          |
 | <span id="CONVERT10_E_STG_NO_STD_STREAM"></span><span id="convert10_e_stg_no_std_stream"></span><dl> <dt>**CONVERT10 \_E \_ Stg. \_ 沒有 \_ STD \_ STREAM**</dt> <dt>0x800401C5</dt> </dl>                                                               | IStorage 的內容遺漏其中一個標準資料流程<br/>                                                             |
-| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_E \_ Stg. \_ DIB \_ 至 \_ BITMAP**</dt> <dt>0x800401C6</dt> </dl>                                                               | 將 DIB 轉換成點陣圖時，Windows GDI 呼叫中發生錯誤。<br/>                                          |
+| <span id="CONVERT10_E_STG_DIB_TO_BITMAP"></span><span id="convert10_e_stg_dib_to_bitmap"></span><dl> <dt>**CONVERT10 \_E \_ Stg. \_ DIB \_ 至 \_ BITMAP**</dt> <dt>0x800401C6</dt> </dl>                                                               | 將 DIB 轉換成點陣圖時，Windows 的 GDI 呼叫中發生錯誤。<br/>                                          |
 | <span id="CLIPBRD_E_CANT_OPEN"></span><span id="clipbrd_e_cant_open"></span><dl> <dt>**CLIPBRD \_E \_ 無法 \_ 開啟**</dt> <dt>0x800401D0</dt> </dl>                                                                                               | OpenClipboard 失敗<br/>                                                                                                    |
 | <span id="CLIPBRD_E_CANT_EMPTY"></span><span id="clipbrd_e_cant_empty"></span><dl> <dt>**CLIPBRD \_E \_ 無法 \_ 空白**</dt> <dt>0x800401D1</dt> </dl>                                                                                            | EmptyClipboard 失敗<br/>                                                                                                   |
 | <span id="CLIPBRD_E_CANT_SET"></span><span id="clipbrd_e_cant_set"></span><dl> <dt>**CLIPBRD \_E \_ 無法 \_ 設定**</dt> <dt>0x800401D2</dt> </dl>                                                                                                  | SetClipboard 失敗<br/>                                                                                                     |

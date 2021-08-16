@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: afb93a0513bef7de1b0815b8b1f50179e2cba41d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 0d7bfeddb5cb34bb9b5d0372f424c40248f06e55fa7263e1e884e71fb82dafcb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106993871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119727758"
 ---
 # <a name="id3dxskininfo-interface"></a>ID3DXSkinInfo 介面
 
@@ -39,7 +39,7 @@ ms.locfileid: "106993871"
 
 | 方法                                                                              | 描述                                                                                                                                                                                    |
 |:------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**克隆**](id3dxskininfo--clone.md)                                               | 複製面板資訊物件。<br/>                                                                                                                                                          |
+| [**複製**](id3dxskininfo--clone.md)                                               | 複製面板資訊物件。<br/>                                                                                                                                                          |
 | [**ConvertToBlendedMesh**](id3dxskininfo--converttoblendedmesh.md)                 | 使用網格，並傳回具有個別頂點 blend 加權和骨骼組合表的新網格。 此表描述哪些骨骼會影響網格的哪些子集。<br/>                   |
 | [**ConvertToIndexedBlendedMesh**](id3dxskininfo--converttoindexedblendedmesh.md)   | 使用網格，並傳回具有個別頂點 blend 加權、索引和骨骼組合表的新網格。 表格描述哪些骨骼調色板會影響網格的哪些子集。<br/> |
 | [**FindBoneVertexInfluenceIndex**](id3dxskininfo--findbonevertexinfluenceindex.md) | 捕獲影響單一頂點之骨骼影響的索引。<br/>                                                                                                                |

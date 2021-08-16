@@ -4,12 +4,12 @@ description: ACF 檔案可讓您自訂用戶端和/或伺服器應用程式的 R
 ms.assetid: 7d3fef5c-b645-4e10-b08d-b339025718b4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a9e803201004cd73a4be507aaba2affd20f1ea3d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: d234b30c25870dd7a21cb790cc4839236ab69093291285b64c870cf7c05cb11f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933568"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120080838"
 ---
 # <a name="the-acf-file"></a>ACF 檔案
 
@@ -29,6 +29,6 @@ interface hello
 
 MIDL 編譯器有一個選項 [**/app \_ config**](/windows/desktop/Midl/-app-config)，可讓您在 IDL 檔案中包含某些 ACF 屬性，例如 **隱含 \_ 控制碼**，而不是建立個別的 ACF 檔案。 如果您的應用程式不需要太多特殊設定，且嚴格憑證相容性不是問題，請考慮使用此選項。
 
- 
+ 
 
- 
+ 

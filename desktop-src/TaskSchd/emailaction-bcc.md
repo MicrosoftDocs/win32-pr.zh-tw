@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8bded5e88c236123832956ce42413352348ea535
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 268aece8d6433d07b06d856c266d1e26c096104f0456856ac383253faaf4e976
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106976356"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120100388"
 ---
 # <a name="emailactionbcc-property"></a>EmailAction 密件副本屬性
 
@@ -50,8 +50,8 @@ EmailAction.Bcc As String
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                          |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                    |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                          |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                    |
 | 用戶端支援結束<br/>    | Windows 7<br/>                                                                    |
 | 伺服器支援結束<br/>    | Windows Server 2008 R2<br/>                                                       |
 | 類型程式庫<br/>             | <dl> <dt>Taskschd.msc .tlb</dt> </dl> |

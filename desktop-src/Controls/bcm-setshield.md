@@ -3,7 +3,7 @@ title: 'BCM_SETSHIELD 訊息 (Commctrl .h) '
 description: 設定指定之按鈕或命令連結的「提高許可權」狀態，以顯示提高許可權的圖示。 明確地傳送此訊息，或使用按鈕 \_ SetElevationRequiredState 宏。
 ms.assetid: 2ce2a006-7136-415b-824b-46b282b100f4
 keywords:
-- BCM_SETSHIELD message Windows 控制項
+- BCM_SETSHIELD 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2149e2945f2876309459c287961b7b0a4a1f9acf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 67ab7ab495e713d9f2c8d58c6723489f0099a7c2cba9df93d4f08870d521a0cb
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119921488"
 ---
 # <a name="bcm_setshield-message"></a>BCM \_ SETSHIELD 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104094439"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

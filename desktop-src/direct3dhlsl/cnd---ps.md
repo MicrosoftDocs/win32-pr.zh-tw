@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 1fd3a14e2ac4bd283a4e67724fbb42ac965ea707
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: cb31c873bf3a4e38048f57d75a30cec70021716d2aab43b683cb29aef25f7f23
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104092453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119726958"
 ---
 # <a name="cnd---ps"></a>cnd-ps
 
@@ -29,7 +29,7 @@ ms.locfileid: "104092453"
 
 
 
- 
+ 
 
 其中
 
@@ -48,7 +48,7 @@ ms.locfileid: "104092453"
 
 
 
- 
+ 
 
 若為 1 \_ 1 到 1 \_ 3 的版本，src0 必須是 r0。
 
@@ -131,9 +131,9 @@ cnd r0, r0.a, c0, c1  // r0 = ( A > B ? c0 : c1 )
 [圖元著色器指示](dx9-graphics-reference-asm-ps-instructions.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

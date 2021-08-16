@@ -3,7 +3,7 @@ title: 'LB_INSERTSTRING 訊息 (Winuser .h) '
 description: 將字串或專案資料插入清單方塊中。 與 LB ADDSTRING 訊息不同的是 \_ ，lb \_ INSERTSTRING 訊息並不會造成具有磅排序樣式的清單進行 \_ 排序。
 ms.assetid: dfaa742d-2f42-4485-aed5-cda8ca9ba66c
 keywords:
-- LB_INSERTSTRING message Windows 控制項
+- LB_INSERTSTRING 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5858af0e0229f90a5ed9928e7478d0ac9a71c8f3
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: dd47d08ef78c590ecb3b5900143b29bc49676b86d8facdcc91b05bb34c8f4aa1
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105545"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085388"
 ---
 # <a name="lb_insertstring-message"></a>LB \_ INSERTSTRING 訊息
 
@@ -53,7 +53,7 @@ ms.locfileid: "104105545"
 
 如果清單方塊具有 [**WS \_ HSCROLL**](/windows/desktop/winmsg/window-styles) 樣式，而且您插入的字串範圍超出清單方塊，請傳送 [**LB \_ SETHORIZONTALEXTENT**](lb-sethorizontalextent.md) 訊息以確保水準捲軸出現。
 
-若為 ANSI 應用程式，系統會使用 CP ACP 將清單方塊中的文字轉換成 Unicode \_ 。 這可能會造成問題。 例如，在日文視窗的非 Unicode 清單方塊中，重音的羅馬字元將會出現模糊。 若要修正此問題，請將應用程式編譯為 Unicode 或使用主控描繪清單方塊。
+若為 ANSI 應用程式，系統會使用 CP ACP 將清單方塊中的文字轉換成 Unicode \_ 。 這可能會造成問題。 例如，日文 Windows 的非 Unicode 清單方塊中有重音的羅馬字元，將會出現混亂。 若要修正此問題，請將應用程式編譯為 Unicode 或使用主控描繪清單方塊。
 
 ## <a name="requirements"></a>規格需求
 
@@ -61,9 +61,9 @@ ms.locfileid: "104105545"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

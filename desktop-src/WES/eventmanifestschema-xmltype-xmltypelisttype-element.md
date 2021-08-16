@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 5aa37214c5efc0dee9e788ad10ed2f437e3df19f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 119ebe7f09f86aa46d9e80380670309fe8734fa818b48049d5dffc29e6a2ebb0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106969780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863278"
 ---
 # <a name="xmltype-xmltypelisttype-element"></a>xmlType (XmlTypeListType) 元素
 
@@ -58,7 +58,7 @@ ms.locfileid: "106969780"
 | 名稱   | 類型      | 描述                                                                                                                                                                                                                                                |
 |--------|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | NAME   | **QName** | 輸出類型的名稱。<br/>                                                                                                                                                                                                                    |
-| 符號 | 字串    | 用來參考應用程式中輸出類型的符號。 [**訊息編譯器 (MC.exe)**](message-compiler--mc-exe-.md)會使用符號，在編譯器產生的標頭檔中建立輸出類型的常數。<br/> |
+| 符號 | string    | 用來參考應用程式中輸出類型的符號。 [**訊息編譯器 (MC.exe)**](message-compiler--mc-exe-.md)會使用符號，在編譯器產生的標頭檔中建立輸出類型的常數。<br/> |
 | value  | 字串    | 整數值，可唯一識別您定義之輸出類型清單中的輸出類型。<br/>                                                                                                                                          |
 
 
@@ -69,8 +69,8 @@ ms.locfileid: "106969780"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

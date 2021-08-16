@@ -4,12 +4,12 @@ ms.assetid: a5a426ec-25e8-4fe1-985c-d078227e8aba
 title: 路徑的轉換
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1eb2c033b5769a4edff29beba6cccbd80cfd26de
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7561cc1544a49555eaad4d58cf06d29a4763b6cd40528452c68cea551c99af34
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119888998"
 ---
 # <a name="transformations-of-paths"></a>路徑的轉換
 

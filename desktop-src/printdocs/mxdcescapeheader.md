@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mxdc.h
-ms.openlocfilehash: a16e0d5bb1a8ce48e071fe1b32543610d8433e86
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 53dd83e362ab21938121a986ee2402076d72f870460bc9db608b9a048cee0f28
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852412"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119099072"
 ---
 # <a name="mxdc_escape_header_t-structure"></a>MXDC \_ ESCAPE \_ HEADER \_ T 結構
 
@@ -62,7 +62,7 @@ typedef struct tagMxdcEscapeHeader {
 
 
 
-| 作業碼                      | Description                                                                                                                                                                                                            |
+| 作業碼                      | 描述                                                                                                                                                                                                            |
 |--------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | MXDCOP \_ 取得 \_ 檔案名                | 在 [**ExtEscape**](/windows/desktop/api/Wingdi/nf-wingdi-extescape)函式的 *lpszOutData* 參數中，傳回輸出檔案的完整路徑（以零終止的字串或該字串的大小）。 請參閱＜備註＞。                   |
 | MXDCOP \_ PRINTTICKET \_ FIXED \_ DOC \_ SEQ | 將列印票證與 XPS 固定檔順序產生關聯。                                                                                                                                                         |
@@ -125,8 +125,8 @@ typedef struct tagMxdcEscapeHeader {
 
 | 需求 | 值 |
 |-------------------------------------|-----------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                    |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                    |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mxdc。h</dt> </dl> |
 
 

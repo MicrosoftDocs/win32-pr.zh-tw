@@ -1,19 +1,19 @@
 ---
 title: 使用 Windows 篩選平台
-description: 下列程式碼範例示範基本的 Windows 篩選平台 (WFP) 作業。
+description: 下列程式碼範例示範基本 Windows 篩選平台 (WFP) 作業。
 ms.assetid: 39a757cb-bf82-4435-9854-7fa124d4040f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fc724d85b563e6a2197118254d78fa78a258c939
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: f033f38dd7caa69f2cd268a5a79c0a6f644f27a16ee8a9c9ba63f12ecb6475be
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "107001287"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120083228"
 ---
 # <a name="using-windows-filtering-platform"></a>使用 Windows 篩選平台
 
-下列程式碼範例示範基本的 Windows 篩選平台 (WFP) 作業。
+下列程式碼範例示範基本 Windows 篩選平台 (WFP) 作業。
 
 ## <a name="getting-started"></a>開始使用
 
@@ -52,7 +52,7 @@ ms.locfileid: "107001287"
 如何設定網際網路通訊協定安全性 (IPsec) 。
 
 -   [使用傳輸模式](using-transport-mode.md)
--   [使用通道模式](using-tunnel-mode.md)
+-   [使用 Tunnel 模式](using-tunnel-mode.md)
 -   [手動 SA 金鑰](manual-sa-keying.md)
 
 ## <a name="related-topics"></a>相關主題
@@ -68,6 +68,6 @@ ms.locfileid: "107001287"
 [WFP 討論論壇](https://social.msdn.microsoft.com/forums/wfp/threads/)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

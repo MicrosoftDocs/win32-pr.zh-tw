@@ -32,7 +32,7 @@
               href: /windows/win32/api/winuser/ne-winuser-pointer_button_change_type
             - name: POINTER_INPUT_TYPE
               href: /windows/win32/api/winuser/ne-winuser-tagpointer_input_type
-        - name: 函數
+        - name: 函式
           href: functions.md
           items:
             - name: EnableMouseInPointer

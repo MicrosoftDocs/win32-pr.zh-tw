@@ -17,18 +17,18 @@ keywords:
 - 公開内嵌物件
 ms.topic: article
 ms.date: 08/31/2019
-ms.openlocfilehash: 8e9e0a8b9f70677778238908f8faf04e21ed9619
-ms.sourcegitcommit: 099ecdda1e83618b844387405da0db0ebda93a65
+ms.openlocfilehash: 2cb5a571d61353d2c8458b42fb65eac19eab0fb228f1e157539470075e392b8d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/04/2021
-ms.locfileid: "111443319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119899315"
 ---
 # <a name="how-ui-automation-exposes-embedded-objects"></a>消費者介面自動化如何公開内嵌物件
 
 本主題說明 Microsoft 消費者介面自動化如何使用 Text 和 TextRange 控制項模式，在文字檔或容器中) 的子系/子代元素 (公開内嵌物件。
 
-針對消費者介面自動化，内嵌物件是任何具有非文字界限的元素，例如影像、超連結、表格或檔案類型 (Microsoft Excel 試算表、Microsoft Windows Media 檔案等) 。
+針對消費者介面自動化，内嵌物件是任何具有非文字界限的元素，例如影像、超連結、表格或檔案類型 (Microsoft Excel 試算表、Microsoft Windows 媒體檔案，依此類推) 。
 
 > [!NOTE]
 > 這與元件物件模型不同 (COM) OLE 定義 (請參閱 [内嵌物件](../com/embedded-objects.md)) ，也就是在一個應用程式中建立專案，並在另一個應用程式中內嵌或連結的專案。 是否可以在它的原始應用程式中編輯物件，與消費者介面自動化的內容無關。
@@ -59,7 +59,7 @@ ms.locfileid: "111443319"
 - DataGrid
 - 文件
 - 編輯
-- 群組
+- Group
 - 標頭
 - HeaderItem
 - List
@@ -83,7 +83,7 @@ ms.locfileid: "111443319"
 
 - 連結
 - Cpl
-- 按鈕
+- Button
 
   :::column-end:::
 :::row-end:::

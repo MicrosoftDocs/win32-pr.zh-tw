@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - mfmediaengine.h
-ms.openlocfilehash: bff2155a2cb2cb21d4c25d868f95472f47f15b1a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28f476c32abbffa8faadd8a7c527f07d81632eee10f1c6cfc54eacc926b4f4e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849524"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104574"
 ---
 # <a name="mf_mse_ready-enumeration"></a>MF \_ MSE \_ 就緒列舉
 
@@ -68,9 +68,9 @@ typedef enum _MF_MSE_READY {
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

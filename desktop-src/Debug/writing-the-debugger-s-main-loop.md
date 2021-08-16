@@ -4,12 +4,12 @@ ms.assetid: 5a45854e-2711-49d5-982b-6b85248ec632
 title: 撰寫偵錯工具的主要迴圈
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f21c56364c314c676c5fd5dbb1cd6e9d1acd63e6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6695488e6391fa83a7d8aea999487beaae30360786872e3c345d52c201494cc9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936278"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120103888"
 ---
 # <a name="writing-the-debuggers-main-loop"></a>撰寫偵錯工具的主要迴圈
 

@@ -4,12 +4,12 @@ ms.assetid: 39260882-dc02-4f08-9d9b-f170c1e391df
 title: 將使用者新增至加密的檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0e211b0b2052e9f170d1392773d65091a0625815
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f697fbbc16c9f05516229120f8ed41c7e732b519ddfdeeab0ce192cd28a41cf8
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985618"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766288"
 ---
 # <a name="adding-users-to-an-encrypted-file"></a>將使用者新增至加密的檔案
 

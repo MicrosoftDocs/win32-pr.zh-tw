@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Tex.h
-ms.openlocfilehash: d3a689bb2104ee4cb419eb1483619d1fcf71d7e7
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 144475b4b4967ff0a1fd130a658b8276af5d8897cc043000d150417aa01b227e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986105"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119753468"
 ---
 # <a name="d3dx10_texture_load_info-structure"></a>D3DX10 \_ 材質 \_ 載入 \_ 資訊結構
 

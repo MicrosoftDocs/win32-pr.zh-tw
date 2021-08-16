@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 204a5d4fb736a88cf615577f4c740cde15d75829
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b28275bef054b26c2145ab9779ec776297ac7838d0313769123fb1be904a3bd3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934988"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119625228"
 ---
 # <a name="glgentextures-function"></a>glGenTextures 函式
 

@@ -4,12 +4,12 @@ ms.assetid: 3d71c24c-77f4-4344-91c3-439052402fae
 title: 色彩基本知識
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 992953bef75b2bab1f33dbd044a9c80387b5ccd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a29bcae40ee6771a9c46b892af6e6a8bceb4dcbc6498fb863353d39f92d4c2cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191955"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105747"
 ---
 # <a name="color-basics"></a>色彩基本知識
 

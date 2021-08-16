@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 77393f06ad251a6cc4503c5eff27c4a885b311da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3615a6c3c113849c1314ca8c541a36a85668297e6e631c6da210812276eaacf7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106983781"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107717"
 ---
 # <a name="jet_objectinfocrecord-property"></a>JET_OBJECTINFO cRecord 屬性
 

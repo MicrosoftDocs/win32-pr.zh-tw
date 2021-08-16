@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 17a1df57e95072329eb3420189297e83821f1501
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 2575286ebc912f3bde6489d43b411dd48b2faef640784bd64c52ab47c3950042
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984341"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902818"
 ---
 # <a name="ambientattributesright"></a>AmbientAttributes。 right
 

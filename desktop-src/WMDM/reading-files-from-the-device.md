@@ -3,20 +3,20 @@ title: 從裝置讀取檔案
 description: 從裝置讀取檔案
 ms.assetid: adb87b53-39e2-4f83-ab6d-7e2f7c0bd5d3
 keywords:
-- Windows Media 裝置管理員，從裝置讀取檔案
+- Windows媒體裝置管理員，從裝置讀取檔案
 - 裝置管理員，從裝置讀取檔案
 - 程式設計指南，從裝置讀取檔案
 - 桌面應用程式，從裝置讀取檔案
-- 建立 Windows Media 裝置管理員應用程式，從裝置讀取檔案
+- 建立 Windows 媒體裝置管理員應用程式、從裝置讀取檔案
 - 從裝置讀取檔案
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b0b80cf820e889b29e612206f90b07e1cb02c4c7
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4352be59a335461f46bfc722146e4c51d31f72c1559e9ad8631e80cb6752c241
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104183147"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119903998"
 ---
 # <a name="reading-files-from-the-device"></a>從裝置讀取檔案
 
@@ -34,7 +34,7 @@ ms.locfileid: "104183147"
 2.  準備任何檔案控制代碼或其他必要的控制碼，以保存接收的資料。
 3.  查詢儲存體的 **IWMDMStorageControl** 介面
 4.  呼叫 **IWMDMStorageControl：： read** 以開始讀取作業，並傳入您所執行的 **IWMDMOperation** 介面。
-5.  Windows Media 裝置管理員將依區塊將資料區區塊轉送至您的裝置，如 [手動處理檔案傳輸](handling-file-transfers-manually.md)中所述。
+5.  Windows媒體裝置管理員將依區塊將資料區區塊轉送至您的裝置，如[手動處理檔案傳輸](handling-file-transfers-manually.md)中所述。
 
 下列 c + + 範例函數會從裝置讀取儲存物件。 函數會接受選擇性的 **IWMDMOperation** 介面指標;如果已提交，函式將會明確建立檔案，並在其 **IWMDMOperation：： TransferObjectData**; 的執行時，處理將資料寫入檔案的程式。如果沒有，則會讀取檔案，並儲存至 *pwszDestName* 所指定的目的地。
 
@@ -121,12 +121,12 @@ HRESULT myFileRead(IWMDMStorage pStorage, LPWSTR pwszDestName, IWMDMOperation* p
 
 <dl> <dt>
 
-[**建立 Windows Media 裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
+[**建立 Windows 媒體裝置管理員應用程式**](creating-a-windows-media-device-manager-application.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

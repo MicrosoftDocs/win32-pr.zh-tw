@@ -4,12 +4,12 @@ ms.assetid: 68da1d13-9067-47c8-96a0-22c55984088a
 title: IdentityProvider。圖片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ce9e38a35909324940bd92c3ac20815da4359aeb
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7450a09fcdf508a7cf4b5579b1082803715c5e293a9559292ee31c3e46b6c47c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106996768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119844718"
 ---
 # <a name="systemidentityproviderpicture"></a>IdentityProvider。圖片
 

@@ -15,12 +15,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: cb60ad137c8dafa42a58394d58a105267dabda3a
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: c6fc6982866ed97f70467d13cb5e899d94a1459266ca0149d12400d154aad784
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119100662"
 ---
 # <a name="getstreampropertiesoperationcompleted-property"></a>GetStreamPropertiesOperation。 Completed 屬性
 
@@ -33,11 +33,11 @@ ms.locfileid: "104375113"
 
 ```C++
 HRESULT put_Completed(
-  [in]  IGetStreamPropertiesCompletedHandler *value
+  [in]  IGetStreamPropertiesCompletedHandler *value
 );
 
 HRESULT get_Completed(
-  [out] IGetStreamPropertiesCompletedHandler **value
+  [out] IGetStreamPropertiesCompletedHandler **value
 );
 ```
 
@@ -54,6 +54,6 @@ HRESULT get_Completed(
 [**GetStreamPropertiesOperation**](getstreampropertiesoperation.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

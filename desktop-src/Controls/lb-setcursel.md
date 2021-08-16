@@ -3,7 +3,7 @@ title: 'LB_SETCURSEL 訊息 (Winuser .h) '
 description: 視需要選取字串並將它滾動至 view。 選取新的字串時，清單方塊會從先前選取的字串中移除反白顯示。
 ms.assetid: 28d81f9d-a926-400c-8803-dcdb0e8f193d
 keywords:
-- LB_SETCURSEL message Windows 控制項
+- LB_SETCURSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77d1305ccece9c220d6a20e72e0ee54a428f8b13
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b33964d98717ab84a325b5070eec6c4e1cacf334ba2272d4691d340a15af78a0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106978599"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085338"
 ---
 # <a name="lb_setcursel-message"></a>LB \_ SETCURSEL 訊息
 
@@ -59,9 +59,9 @@ Windows 95/Windows 98/Windows Millennium Edition (Windows Me) ： *wParam* 參�
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

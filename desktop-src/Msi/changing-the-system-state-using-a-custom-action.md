@@ -4,12 +4,12 @@ ms.assetid: 48707ae1-9488-4bbb-8447-b24e383affb7
 title: 使用自訂動作變更系統狀態
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ace5dc323bcf809c76eeb55cfa859a8621312df7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4f3ec2fafdc6f57041c087903da0c912327c967b3b188127ee1f2ff71db7c1af
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106993095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120086238"
 ---
 # <a name="changing-the-system-state-using-a-custom-action"></a>使用自訂動作變更系統狀態
 

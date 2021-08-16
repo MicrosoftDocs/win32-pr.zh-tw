@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a9a2427e41c7d9f4bdec61d3c351d6921d445650
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 077402cc8d0b15de598f7a731bd2f4e3bf0c9cd9d6765d6480a5e2fad0297bf5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981302"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863388"
 ---
 # <a name="drmkeyid-attribute"></a>DRMKeyID 屬性
 

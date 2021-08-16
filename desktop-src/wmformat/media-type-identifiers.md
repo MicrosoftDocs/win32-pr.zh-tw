@@ -1,24 +1,24 @@
 ---
-title: Windows Media 格式 SDK 的媒體類型識別碼
-description: 瞭解用來定義 Windows Media Format SDK 所使用媒體格式的媒體類型識別碼。
+title: Windows 媒體格式 SDK 的媒體類型識別碼
+description: 瞭解用來定義搭配 Windows 媒體格式 SDK 使用之媒體格式的媒體類型識別碼。
 ms.assetid: 5d903953-cd6b-4fba-b877-8c7ad3aeb87d
 keywords:
-- Windows Media Format SDK，媒體類型識別碼
+- Windows媒體格式 SDK，媒體類型識別碼
 - Advanced Systems Format (ASF) 、媒體類型識別碼
 - ASF (Advanced 系統格式) 、媒體類型識別碼
 - 媒體類型、識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f8e4c01ba134dec4d4474a1949310fd5217cf7e6
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: a38d25a48e0cbee8925da64e8470ff1723656a6f11cd5ac57e1479108df52852
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106993255"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084685"
 ---
-# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a>Windows Media 格式 SDK 的媒體類型識別碼
+# <a name="media-type-identifiers-for-the-windows-media-format-sdk"></a>Windows 媒體格式 SDK 的媒體類型識別碼
 
-您必須使用媒體類型來定義 Windows Media Format SDK 所使用的媒體格式。 如需各種媒體類型的說明，請參閱 [媒體類型](media-types.md)。
+您必須使用媒體類型來定義搭配 Windows 媒體格式 SDK 使用的媒體格式。 如需各種媒體類型的說明，請參閱 [媒體類型](media-types.md)。
 
 下表列出所有支援的媒體類型及其對應 GUID 值的全域識別碼。
 

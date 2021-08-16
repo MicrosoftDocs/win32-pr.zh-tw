@@ -4,12 +4,12 @@ ms.assetid: 6a08a769-1acf-49eb-ba95-beaf56a374bf
 title: 系統關機功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dd457c86129b3e5f80d6359018c1474f837b9e33
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 36b1304a2333d817be7cbb51ee599f37cda8b3e185f56cfc5959f1646e9ab639
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119664338"
 ---
 # <a name="system-shutdown-functions"></a>系統關機功能
 

@@ -4,12 +4,12 @@ ms.assetid: 44af5e03-5f0a-4564-b9d6-b8c935df35b2
 title: 媒體基礎中的屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a6e7893586aa1e966b95c1af5d04246bbb0c82ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6f46cc919f426ff7b0862de73d8852291d25b7e31f2b5d67d7a4955369be6d17
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119943298"
 ---
 # <a name="attributes-in-media-foundation"></a>媒體基礎中的屬性
 

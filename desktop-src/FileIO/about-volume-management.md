@@ -4,12 +4,12 @@ ms.assetid: 424ddbd9-5692-45ef-95fb-7b00b09e3205
 title: 關於磁片區管理
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0767d137eeecaa4ded060382b689b5ea3780dcbc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5446726b7caf448eef74884e8b6afc9d27dc4d4fdc6ffadd4572e667aaeb2cf5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994514"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119766308"
 ---
 # <a name="about-volume-management"></a>關於磁片區管理
 
@@ -21,7 +21,7 @@ ms.locfileid: "106994514"
 
 | 主題                                                                       | 描述                                                                                                                                                                                                                                                                             |
 |-----------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [檔案系統識別](file-system-recognition.md)<br/>           | 檔案系統辨識的目標是要讓 Windows 作業系統擁有一個額外的選項，以供有效但無法辨識的檔案系統（非「原始」）使用。<br/>                                                                                                         |
+| [檔案系統識別](file-system-recognition.md)<br/>           | 檔案系統辨識的目標是要讓 Windows 作業系統能夠針對有效但無法辨識的檔案系統提供額外的選項，而非「原始」。<br/>                                                                                                         |
 | [命名磁片區](naming-a-volume.md)<br/>                           | 標籤是指派給磁片區（通常是由使用者使用）的易記名稱，可讓您更容易辨識。 磁片區可以有標籤、磁碟機號、兩者或兩者皆有。 若要設定磁片區的標籤，請使用 [**SetVolumeLabel**](/windows/desktop/api/WinBase/nf-winbase-setvolumelabela) 函數。<br/> |
 | [列舉磁片區](enumerating-volumes.md)<br/>                   | 若要在電腦上建立磁片區的完整清單，或輪流操作每個磁片區，您可以列舉磁片區。<br/>                                                                                                                                                       |
 | [取得磁片區資訊](obtaining-volume-information.md)<br/> | 存取指定磁片區上的檔案和目錄之前，您應該使用 [**GetVolumeInformation**](/windows/desktop/api/FileAPI/nf-fileapi-getvolumeinformationa) 函式來判斷檔案系統的功能。<br/>                                                                              |

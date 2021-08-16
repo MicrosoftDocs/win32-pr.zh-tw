@@ -13,12 +13,12 @@ keywords:
 - 在面板中將滑鼠暫留影像
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d7f5bbb8b57820c2805b9b9d6ea79762933035
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 88eff91123a28dae94425d7ea6e7591462545a2d7da0372b088eeec6bd67ed60
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300135"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902278"
 ---
 # <a name="creating-the-hover-image"></a>建立停留影像
 
@@ -60,9 +60,9 @@ ms.locfileid: "104300135"
 [**建立您的第一個外觀**](building-your-first-skin.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

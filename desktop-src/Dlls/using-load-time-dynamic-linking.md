@@ -4,12 +4,12 @@ ms.assetid: d67000c2-21ca-49c2-86f1-708f33003d1e
 title: 使用 Load-Time 動態連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e31e5d14ba2190528c44d892b957d22b273fd4c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 106d9d73808b56c664e44d8dcd71b74a65431316fd3daf47dd0736596c5aa5d0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119902368"
 ---
 # <a name="using-load-time-dynamic-linking"></a>使用 Load-Time 動態連結
 

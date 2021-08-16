@@ -4,16 +4,16 @@ ms.assetid: 17813ce1-b3f6-408f-9c55-5caa7eda6738
 title: 匿名管道安全性和存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 02935a3b2bc5ea31d88aab3f23f23c348c054e5b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7b54869584a70bfbe886740e979c44864d852de0df23e311eb4aad89c321662c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978150"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118756355"
 ---
 # <a name="anonymous-pipe-security-and-access-rights"></a>匿名管道安全性和存取權限
 
-Windows 安全性可讓您控制匿名管道的存取。 如需安全性的詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
+Windows 的安全性可讓您控制匿名管道的存取。 如需安全性的詳細資訊，請參閱 [存取控制模型](/windows/desktop/SecAuthZ/access-control-model)。
 
 當您呼叫 [**CreatePipe**](/windows/win32/api/namedpipeapi/nf-namedpipeapi-createpipe)函式時，可以指定管道的 [安全描述項](/windows/desktop/SecAuthZ/security-descriptors)。 安全描述項可控制對管道的讀取和寫入端的存取。 如果您指定 **Null**，管道會取得預設安全描述項。 管道之預設安全描述項中的 Acl 來自于建立者的主要或模擬權杖。
 

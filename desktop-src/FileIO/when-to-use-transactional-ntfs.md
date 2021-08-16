@@ -4,12 +4,12 @@ ms.assetid: 886d6075-57e8-47db-aec5-77660d0a53f9
 title: 使用交易式 NTFS 的時機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 28c0a134a8cb5824337022fedf14fe3db3c6f76c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 022f7a67fe6960a8754f768956457afbd04a509bbf9a3c18360b4651e4d9ccda
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119830128"
 ---
 # <a name="when-to-use-transactional-ntfs"></a>使用交易式 NTFS 的時機
 
@@ -40,7 +40,7 @@ TxF 會隔離並行交易。 如果應用程式在另一個應用程式開啟交
 
 交易式檔案系統所使用的交易也可以搭配交易登錄使用。 檔案和登錄的更新會與單一交易協調。
 
-藉由使用 [分散式交易協調器](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) 交易或系統交易，對 SQL、MSMQ 和其他交易式資源所做的更新，可以與交易檔案更新協調。 如需詳細資訊，請參閱 DTC 的 [IKernelTransaction](/previous-versions/windows/desktop/aa344210(v=vs.85))。
+藉由使用[分散式交易協調器](/previous-versions/windows/desktop/mscs/distributed-transaction-coordinator) (DTC) 交易或 system.string，對 SQL、MSMQ 和其他交易式資源進行的更新可以與交易檔案更新協調。 如需詳細資訊，請參閱 DTC 的 [IKernelTransaction](/previous-versions/windows/desktop/aa344210(v=vs.85))。
 
 ## <a name="unsupported-scenarios"></a>不支援的案例
 

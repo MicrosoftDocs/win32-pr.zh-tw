@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: f7521f60f819829fc72ba907b57d4e4eb13682a0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 54da854fff0aeb2001e674218a7e7868971a6cf43af7bc00606b124c3f082b9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106986525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800416"
 ---
 # <a name="id3dxspritesetworldviewrh-method"></a>ID3DXSprite：： SetWorldViewRH 方法
 

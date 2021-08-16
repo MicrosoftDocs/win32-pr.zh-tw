@@ -4,12 +4,12 @@ ms.assetid: 09a06de4-0713-4e92-ab29-f34f6c94b677
 title: 'PatchMetadata 資料表 (PATCHWIZ.DLL) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7e2521684714b91d8d172f8eb56bab984ffea87d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5845bc279094a4a0280aa1e5e46d161c2d82b4e4037903f502230f6c6d54dca9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106990471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119926148"
 ---
 # <a name="patchmetadata-table-patchwizdll"></a>PatchMetadata 資料表 (PATCHWIZ.DLL) 
 
@@ -74,7 +74,7 @@ PatchMetadata 資料表具有下列資料行。
 <td>表示修補程式以產品的 RTM 版本或最新的主要升級修補程式為目標。 在包含順序資訊的次要升級修補程式中撰寫此選用屬性，以指出修補程式會移除產品 RTM 版本的所有修補程式，或最新的主要升級修補程式。 從 Windows Installer 3.1 開始，可以使用這個屬性。
 <blockquote>
 [!Note]<br />
-若要要求安裝 Windows Installer 3.1 以套用修補程式，請在 pcp 檔案的 <a href="properties-table-patchwiz-dll-.md">Properties 資料表</a> 中，將 MinimumRequiredMsiVersion 屬性設定為310。
+若要要求安裝 Windows Installer 3.1 以套用修補程式，請在 pcp 檔案的<a href="properties-table-patchwiz-dll-.md">Properties 資料表</a>中，將 MinimumRequiredMsiVersion 屬性設定為310。
 </blockquote>
 <br/> <br/></td>
 </tr>
@@ -84,7 +84,7 @@ PatchMetadata 資料表具有下列資料行。
 </tr>
 <tr class="odd">
 <td>MoreInfoURL</td>
-<td>字串值，包含指向此修補程式資訊的 URL。 這個必要屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 開始 (SP2) ，此值可以是 [新增/移除程式] 中顯示之修補程式的支援連結。<br/></td>
+<td>字串值，包含指向此修補程式資訊的 URL。 這個必要屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP Service Pack 2 (SP2) 開始，此值可以是 [新增/移除程式] 中顯示之修補程式的支援連結。<br/></td>
 </tr>
 <tr class="even">
 <td>CreationTimeUTC</td>
@@ -92,7 +92,7 @@ PatchMetadata 資料表具有下列資料行。
 </tr>
 <tr class="odd">
 <td>DisplayName</td>
-<td>字串值，包含適用于公開顯示之修補程式的標題。 這是必要屬性。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 Windows XP 加裝 SP2 開頭的 [新增/移除程式] 中顯示的修補程式名稱。<br/></td>
+<td>字串值，包含適用于公開顯示之修補程式的標題。 這是必要屬性。 這個屬性已註冊，而且可以使用 <a href="/windows/desktop/api/Msi/nf-msi-msigetpatchinfoexa"><strong>MsiGetPatchInfoEx</strong></a> 函數來取得其值。 從 Windows XP SP2 開始，此值是在 Windows XP sp2 開頭的 [新增/移除程式] 中顯示的修補程式名稱。<br/></td>
 </tr>
 <tr class="even">
 <td>Description</td>

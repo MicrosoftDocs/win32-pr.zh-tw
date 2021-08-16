@@ -4,12 +4,12 @@ description: 視窗可以顯示大於視窗工作區的資料物件，例如，�
 ms.assetid: 9cb3afad-79ef-4817-950a-c8c1de39401b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9d410e98ea1fe722d6dc1c4869010df30f99bddb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b93b3088df389753123e2a267ef3bc15eccb1b54626085ee90af7a20978107dc
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119922364"
 ---
 # <a name="about-scroll-bars"></a>關於捲軸
 
@@ -34,7 +34,7 @@ ms.locfileid: "104024120"
 
 使用者可以按一下其中一個箭號按鈕、按一下陰影捲軸軸中的區域，或拖曳捲動方塊，來滾動視窗的內容。 當使用者按一下箭號按鈕時，應用程式會以一個單位將內容滾動 (通常是一行或欄) 。 當使用者按一下陰影區域時，應用程式會將內容滾動一個視窗。 當使用者拖曳捲動方塊時所發生的滾動量，取決於使用者拖曳捲動方塊的距離，以及捲軸的滾動範圍。 如需滾動範圍的詳細資訊，請參閱 [捲動方塊位置和滾動範圍](#scroll-box-position-and-scrolling-range)。
 
-下列螢幕擷取畫面顯示具有垂直和水準捲軸的 rich edit 控制項，因為它們可能出現在 Windows Vista 中。 垂直捲動條目前為「熱」，因為在拍攝螢幕擷取畫面時，滑鼠指標停留在其上方。
+下列螢幕擷取畫面顯示具有垂直和水準捲軸的 rich edit 控制項，因為它們可能會出現在 Windows Vista 中。 垂直捲動條目前為「熱」，因為在拍攝螢幕擷取畫面時，滑鼠指標停留在其上方。
 
 ![具有捲軸之 rich edit 控制項的螢幕擷取畫面](images/sbvista.png)
 
@@ -57,7 +57,7 @@ ms.locfileid: "104024120"
 > [!Note]  
 > 若要使用具有捲軸的視覺化樣式，應用程式必須包含資訊清單，而且必須在程式的開頭呼叫 [**InitCommonControls**](/windows/desktop/api/Commctrl/nf-commctrl-initcommoncontrols) 。 如需視覺化樣式的詳細資訊，請參閱 [視覺化樣式](themes-overview.md)。 如需資訊清單的詳細資訊，請參閱 [啟用視覺化樣式](cookbook-overview.md)。
 
- 
+ 
 
 ## <a name="scroll-box-position-and-scrolling-range"></a>捲動方塊位置和滾動範圍
 
@@ -84,7 +84,7 @@ MaxScrollPos = MaxRangeValue - (PageSize - 1)
 
 ## <a name="scroll-bar-visibility"></a>捲軸可見度
 
-當指定了相等的最小值和最大值時，系統會隱藏和停用標準捲軸。 如果您指定的頁面大小包含捲軸的整個捲軸範圍，則系統也會隱藏和停用標準捲軸。 這是在工作區內容不需要捲軸時，暫時隱藏捲軸的方式。 在隱藏時，不需要在捲軸上進行滾動要求。 當您將最小值和最大值設定為不相等的值，或未包含整個捲軸範圍的頁面大小時，系統會啟用捲軸並再次顯示。 [**ShowScrollBar**](/windows/desktop/api/Winuser/nf-winuser-showscrollbar)函數也可以用來隱藏或顯示捲軸。 它不會影響捲軸的範圍、頁面大小或捲動方塊位置。
+當指定了相等的最小值和最大值時，系統會隱藏和停用標準捲軸。 如果您指定的頁面大小包含捲軸的整個捲軸範圍，則系統也會隱藏和停用標準捲軸。 這是在工作區內容不需要捲軸時，暫時隱藏捲軸的方式。 在隱藏時，不需要在捲軸上進行滾動要求。 當您將最小值和最大值設定為不相等的值，且頁面大小未包含整個捲軸範圍時，系統會啟用捲軸，並再次顯示。 [**ShowScrollBar**](/windows/desktop/api/Winuser/nf-winuser-showscrollbar)函數也可以用來隱藏或顯示捲軸。 它不會影響捲軸的範圍、頁面大小或捲動方塊位置。
 
 [**EnableScrollBar**](/windows/desktop/api/Winuser/nf-winuser-enablescrollbar)函式可用來停用捲軸的一或兩個箭號。 應用程式會以灰色顯示已停用的箭號，而不會回應使用者輸入。
 
@@ -116,7 +116,7 @@ SB \_ 值會指定使用者所採取的動作。 應用程式會檢查與 [**wm 
 
 
 
- 
+ 
 
 \_當使用者按一下並拖曳捲動方塊時，捲軸會產生 sb THUMBPOSITION 和 sb \_ THUMBTRACK 要求碼。 應用程式應該以程式設計的方式處理 SB \_ THUMBTRACK 或 sb \_ THUMBPOSITION 的要求碼。
 
@@ -143,14 +143,14 @@ SB \_ 值會指定使用者所採取的動作。 應用程式會檢查與 [**wm 
 
 
 
- 
+ 
 
- 
+ 
 
 > [!Note]  
 > 捲軸控制項的鍵盤介面會傳送 SB \_ TOP 和 sb 底部的 \_ 要求碼。 SB \_ top 要求碼表示使用者已到達滾動範圍的最上方值。 應用程式會向下滾動視窗內容，以便顯示資料物件的頂端。 SB \_ 底部要求碼表示使用者已到達滾動範圍的底部值。 如果應用程式處理 SB 最 \_ 下方的要求碼，它會向上滾動視窗內容，以便顯示資料物件的底部。
 
- 
+ 
 
 如果您想要標準捲軸的鍵盤介面，您可以在視窗程式中處理 [**WM \_ KEYDOWN**](/windows/desktop/inputdev/wm-keydown) 訊息，然後根據伴隨于訊息的虛擬機器碼來執行適當的滾動動作，藉此建立一個。 如需如何為捲軸建立鍵盤介面的詳細資訊，請參閱 [建立標準捲軸的鍵盤介面](using-scroll-bars.md)。
 
@@ -185,8 +185,8 @@ SB \_ 值會指定使用者所採取的動作。 應用程式會檢查與 [**wm 
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

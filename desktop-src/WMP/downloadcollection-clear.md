@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 570612206408e607b286317c308525345e990c3f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 92722bd08ce761a705d1de144757d09afb0af74cfb8ba61570bca87069f33afd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863478"
 ---
 # <a name="downloadcollectionclear-method"></a>DownloadCollection Clear 方法
 

@@ -4,12 +4,12 @@ ms.assetid: 35425397-49b2-4388-a99f-a80b0b2027dc
 title: IsVisible 方法
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 80830242edc8978744047ba7c7a9589800f453ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e51ee295d775ebb86d57ccaa183a03c7aee1fb3a500c323f7d5c56563ae43b42
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469284"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119037216"
 ---
 # <a name="graphicsisvisible-methods"></a>IsVisible 方法
 

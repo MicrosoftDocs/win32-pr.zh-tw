@@ -4,12 +4,12 @@ description: 提供者管理
 ms.assetid: C628647C-FDFD-4E6D-9F2F-EF64AC4CFD80
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2616e4fc78ed08f172cc1ac0077157cd1d6d8283
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 7ac18275f19ac0a8a72a89f623f462b27a77691bbf9c10dda7bb0fca2cb23878
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104375141"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900758"
 ---
 # <a name="provider-management"></a>提供者管理
 
@@ -28,6 +28,6 @@ ms.locfileid: "104375141"
 -   [**FwpmProviderSubscriptionsGet0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmprovidersubscriptionsget0)
 -   [**FwpmProviderUnsubscribeChanges0**](/windows/desktop/api/Fwpmu/nf-fwpmu-fwpmproviderunsubscribechanges0)
 
- 
+ 
 
- 
+ 

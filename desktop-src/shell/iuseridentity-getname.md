@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Msident.dll
-ms.openlocfilehash: 88c0a3d08ff917c2cc9fd59f15e4c23fc22fc79d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: 035f7c61290fb60e70821f0a43676c41dca0fc92cebc8ecfb963bb757ab47a5c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973116"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119661188"
 ---
 # <a name="iuseridentitygetname-method"></a>IUserIdentity：： GetName 方法
 
@@ -45,13 +45,13 @@ HRESULT GetName(
 *pszName* \[在\]
 </dt> <dd>
 
-類型： **WCHAR \** _
+類型： **WCHAR \***
 
 寬字元字串的指標，此字串會接收此使用者識別的名稱。
 
 </dd> <dt>
 
-_ulBuffSize * \[ in\]
+*ulBuffSize* \[在\]
 </dt> <dd>
 
 類型： **ULONG**
@@ -72,12 +72,12 @@ _ulBuffSize * \[ in\]
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 用戶端支援結束<br/>    | Windows XP<br/>                                                                  |
 | 伺服器支援結束<br/>    | Windows Server 2003<br/>                                                         |
 | 標頭<br/>                   | <dl> <dt>Msident。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Msident .idl</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Msident.dll</dt> </dl> |
 
 

@@ -15,12 +15,12 @@ keywords:
 - 介面，ISelectionProvider
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4ad6950302373494f307c91c0aadaeab1db0132a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a2d0578dcdcfa9d381272afaa474338a54caa1f4b17989f2461f9aec5086bc18
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021507"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098318"
 ---
 # <a name="selection-control-pattern"></a>選取控制項模式
 
@@ -40,11 +40,11 @@ ms.locfileid: "104021507"
 
 -   執行 [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider) 的控制項允許選取單一或多個子專案。 例如，清單方塊、清單視圖和樹狀檢視支援多重選取，而下拉式方塊、滑杆和選項按鈕群組則支援單一選取。
 -   具有最小值、最大值和連續範圍的控制項（例如媒體播放機的 **音量** 滑杆控制項）應該執行 [**system.windows.automation.provider.irangevalueprovider>**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irangevalueprovider) ，而不是 [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider)。
--   單一選取控制項，可管理執行 [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)的子控制項，例如 Windows 的 [**顯示內容**] 對話方塊中的 [**螢幕解析度**] 滑杆，或 Microsoft Word (的 **色彩選擇器** 選取控制項，請參閱下列影像) ，應執行 [**ISelectionProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider);其子系應同時執行 [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment)和 [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider)。
+-   單一選取控制項，可 [**管理執行**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionprovider) [**IRawElementProviderFragmentRoot**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragmentroot)的子控制項，例如 Windows 的 [**顯示內容**] 對話方塊中的 [**螢幕解析度**] 滑杆，或 Microsoft Word)  (的 **色彩選擇器** 選取控制項其子系應同時執行 [**IRawElementProviderFragment**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-irawelementproviderfragment)和 [**ISelectionItemProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-iselectionitemprovider)。
 
     ![顯示色樣字串對應範例的影像](images/uia-valuepattern-colorpicker.jpg)
 
--   功能表不支援 **選取** 控制項模式。 如果您使用的功能表項目包括圖形和文字 (例如 Microsoft Outlook 的 [ **View** ] 功能表中的 [**預覽] 窗格** 專案) 而且需要傳達狀態，則您應該執行 [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider)。
+-   功能表不支援 **選取** 控制項模式。 如果您使用的功能表項目包括圖形和文字 (例如 Microsoft Outlook) 的 [ **View** ] 功能表中的 [**預覽] 窗格** 專案，而且需要傳達狀態，則您應該執行 [**IToggleProvider**](/windows/desktop/api/UIAutomationCore/nn-uiautomationcore-itoggleprovider)。
 
 ## <a name="required-members-for-iselectionprovider"></a>**ISelectionProvider** 的必要成員
 
@@ -61,7 +61,7 @@ ms.locfileid: "104021507"
 
 
 
- 
+ 
 
 [**ISelectionProvider：： IsSelectionRequired**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_isselectionrequired)和 [**CanSelectMultiple**](/windows/desktop/api/UIAutomationCore/nf-uiautomationcore-iselectionprovider-get_canselectmultiple)屬性可以是動態的。 例如，控制項的初始狀態可能沒有任何預設選取的專案，表示 **IsSelectionRequired** 為 false。 不過，在選取項目之後，控制項就必須至少有一個項目一律保持為選取。 同樣地，在極少數的情況下，控制項可能會允許最初選取多個項目，但之後就只允許單一選取。
 
@@ -81,9 +81,9 @@ ms.locfileid: "104021507"
 [UI 自動化樹狀目錄概觀](uiauto-treeoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

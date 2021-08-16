@@ -107,7 +107,7 @@ Windows 10 1511 版或更新版本的預設值為： 6 (XTS \_ AES \_ 128) 。
 <thead>
 <tr class="header">
 <th>傳回碼/值</th>
-<th>描述</th>
+<th>Description</th>
 </tr>
 </thead>
 <tbody>

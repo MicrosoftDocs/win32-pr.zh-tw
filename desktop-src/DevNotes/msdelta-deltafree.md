@@ -15,12 +15,12 @@ api_type:
 - DllExport
 api_location:
 - msdelta.dll
-ms.openlocfilehash: 15885cfa3e879ed6a1e85b2f9553af92d436ca71
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 606b8d91d20c74f7dd56ff4e09986abec3eef547989990a38bd8b4e3a27382c2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990239"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120079728"
 ---
 # <a name="deltafree-function"></a>DeltaFree 函式
 

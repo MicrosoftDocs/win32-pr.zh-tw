@@ -4,12 +4,12 @@ ms.assetid: 6af7dd28-325e-431a-9cdb-109d93af6302
 title: 解密資料
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 970f16862bb8c6693b2ff11f519af3f7c412024b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 600903d7a3060c83cd7cd0a85e92f96efe4fb0cfa30c2936c5546f71138b6854
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321039"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119875688"
 ---
 # <a name="decrypting-data"></a>解密資料
 

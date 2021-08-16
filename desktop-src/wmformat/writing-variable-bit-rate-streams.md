@@ -10,12 +10,12 @@ keywords:
 - 資料流程，撰寫 VBR
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6981cbae04085c4bf4f771d9dd29e30752427cdc
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 694774613ada8b4be05eab55be3213898d423d3b6ac4438204d149a0bd606c90
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "103681382"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119930253"
 ---
 # <a name="writing-variable-bit-rate-streams"></a>寫入變數位元速率資料流程
 
@@ -33,9 +33,9 @@ ms.locfileid: "103681382"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

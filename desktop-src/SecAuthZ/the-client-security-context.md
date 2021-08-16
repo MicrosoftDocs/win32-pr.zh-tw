@@ -4,12 +4,12 @@ ms.assetid: 4e6393b2-4a71-49e4-b1e7-f34bf317d60d
 title: 用戶端安全性內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb3d3b4522aa90ade89e2130742346956a396f15
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: af57c11c7b0452003498b88b0be24c880e2875fec459fb80e3cd87ef01bdd493
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943559"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907118"
 ---
 # <a name="the-client-security-context"></a>用戶端安全性內容
 

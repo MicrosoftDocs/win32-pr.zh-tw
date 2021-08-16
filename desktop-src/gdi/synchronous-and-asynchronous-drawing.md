@@ -4,12 +4,12 @@ ms.assetid: c4eac615-6526-4ca6-854b-b4a598da13a4
 title: 同步和非同步繪圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a80dd5d5d63cbe10d19ec98e9f5dc9ae9163c18a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 86e22b49a61d021c886da6253a2575c0e7f1c7a8c01eb2c3b550e04acda5daf9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945088"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119613388"
 ---
 # <a name="synchronous-and-asynchronous-drawing"></a>同步和非同步繪圖
 

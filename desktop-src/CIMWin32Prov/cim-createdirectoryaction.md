@@ -24,12 +24,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: f7d0c2fb8d255a02d6df6f6677a31fa3366dfa6f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0075d881c688fd80dfdc1f74af37e4a61a5c71faaddc4893254ec0a36455a416
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847371"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924718"
 ---
 # <a name="cim_createdirectoryaction-class"></a>CIM \_ CreateDirectoryAction 類別
 
@@ -434,7 +434,7 @@ HP-UX
 
 </dt> <dd>
 
-Windows 3。x
+Windows3.x
 
 </dd> <dt>
 

@@ -16,12 +16,12 @@ keywords:
 - MessageId
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f5780d73701354a12b244c5e5ea6167c2cfba70d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 550baa14779ccefaec14605938edb6076e7cc332aa9d1a2390ab430f7568e844
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934874"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119802618"
 ---
 # <a name="nap-datatypes"></a>NAP 資料類型
 
@@ -134,8 +134,8 @@ Sha、Shv 和強制用戶端用來識別本身的唯一4位元組識別碼。 �
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                                                                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                                                                                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                                                                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>NapTypes .h;</dt><dt>NapEnforcementClient .h</dt> </dl> |
 
 

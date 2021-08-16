@@ -4,12 +4,12 @@ ms.assetid: 38EE42D8-9487-4297-BE8F-F42EBD5D5D73
 title: Aux 程式庫
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88cf6e36d5c67bfe6c2ed76b782c7bc5601032df
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bebd44b15f79566d6dd68901c3848b62199089f1bade8ec3d51e9b5dea61be62
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110316"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119768768"
 ---
 # <a name="aux-library"></a>Aux 程式庫
 

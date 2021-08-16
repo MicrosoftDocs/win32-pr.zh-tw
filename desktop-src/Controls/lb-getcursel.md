@@ -3,7 +3,7 @@ title: 'LB_GETCURSEL 訊息 (Winuser .h) '
 description: 取得單一選取清單方塊中目前選取之專案的索引（如果有的話）。
 ms.assetid: 39ab7f77-6c8e-45a4-aad4-47eba0a11a11
 keywords:
-- LB_GETCURSEL message Windows 控制項
+- LB_GETCURSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a6209f1f5b67e059f9a2b8a224e6f96ec671e38
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d67a060669d48a9ab020540c78ece395504c9f0b7e36807e3ac59daf216ea395
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104025441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120085518"
 ---
 # <a name="lb_getcursel-message"></a>LB \_ GETCURSEL 訊息
 
@@ -59,9 +59,9 @@ ms.locfileid: "104025441"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                     |
-| 標頭<br/>                   | <dl> <dt>Winuser (包含) 的 Windows。h </dt> </dl> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                     |
+| 標頭<br/>                   | <dl> <dt>Winuser (包含 Windows .h) </dt> </dl> |
 
 
 

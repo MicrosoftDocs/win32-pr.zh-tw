@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: a5a9abcb54c883d74bde831570b9df0b40fedfae
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 1bb0d7b962dd4595ec9246c036d4ff9e459e062f366b6e62f46cce1a5a3ebab9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108115646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803810"
 ---
 # <a name="d3dxvec3project-function-d3dx9mathh"></a>D3DXVec3Project 函式 (D3dx9math) 
 

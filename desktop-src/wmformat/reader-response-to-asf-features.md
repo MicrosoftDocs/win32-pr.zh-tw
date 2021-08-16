@@ -3,18 +3,18 @@ title: ASF 功能的讀取器回應
 description: ASF 功能的讀取器回應
 ms.assetid: 0cf800ca-63e8-47e2-a2fc-7ba6789fb4bb
 keywords:
-- Windows Media 格式 SDK，讀取器回應 ASF 功能
+- Windows媒體格式 SDK，讀取器對 ASF 功能的回應
 - Advanced Systems Format (ASF) ，讀取器對功能的回應
 - ASF (Advanced 系統格式) ，讀取器回應功能
 - 對 ASF 功能的讀取器回應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 291752d2d011fbc8b0a3e5211c5d8926f94b1cbd
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 8b8b8b64649388af6186155009f2a47b0f2b2c96cc42645e64dbb04f3054d7c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106967420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084495"
 ---
 # <a name="reader-response-to-asf-features"></a>ASF 功能的讀取器回應
 
@@ -39,9 +39,9 @@ ms.locfileid: "106967420"
 [**資料流程優先順序**](stream-prioritization.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

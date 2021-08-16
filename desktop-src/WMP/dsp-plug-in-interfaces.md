@@ -15,12 +15,12 @@ keywords:
 - ISpecifyPropertyPage
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5458ab945b24f8646d986ab7d5d44e12ef3249d
-ms.sourcegitcommit: b04e152a7f51618fc174ffa872654623fe088db2
+ms.openlocfilehash: c3bd030b09377adfe965698d6c411f1a39a745979f2db2eae9f0c613cad843d2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "104374765"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863368"
 ---
 # <a name="dsp-plug-in-interfaces"></a>DSP 外掛程式介面
 
@@ -40,7 +40,7 @@ ms.locfileid: "104374765"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -49,9 +49,9 @@ ms.locfileid: "104374765"
 [**DSP 外掛程式程式設計參考**](dsp-plug-ins-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 32828d4d-aa98-4e6a-b7de-2ec832024517
 title: 建立 COM + 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e42a4b7ad18dab3f7163f527626322e05671e7be
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 200333f752f4137dfcba90e6924cce16eaa82cbd2ddf719376711ce90cf8f65b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106995807"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119678248"
 ---
 # <a name="creating-com-applications"></a>建立 COM + 應用程式
 

@@ -4,16 +4,16 @@ ms.assetid: 8c3edfc1-3165-48b7-9d83-8892c192498b
 title: 'ITParticipant 介面 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e8b7aa9d845d8d2489be0850bcc3fcf3f93ccdac
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: fab4ff4c496616804efc1a65a728bbb658fba5bb1278939bdfb2185705684c64
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991149"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119682648"
 ---
 # <a name="itparticipant-interface"></a>ITParticipant 介面
 
-\[**ITParticipant** 無法在 windows Vista、windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
+\[**ITParticipant** 無法在 Windows Vista、Windows Server 2008 及後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **ITParticipant** 介面是由 [IPConf MSP](ipconf-msp.md)所執行。 它可讓應用程式取得會議參與者的相關資訊，並取得與這些參與者相關聯之資料流程的指標。
 

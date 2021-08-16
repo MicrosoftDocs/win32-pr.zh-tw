@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3D9Types.h
-ms.openlocfilehash: 0a0bf63e732541f9394231cd82c23ff71a584b1e
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: a7a25e56ccb9877fad6b370f9ed81c6c7dcf0744a96734b1e17d6dc3abbc0535
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "103946128"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118804929"
 ---
 # <a name="d3dindexbuffer_desc-structure"></a>D3DINDEXBUFFER \_ DESC 結構
 
@@ -54,7 +54,7 @@ typedef struct D3DINDEXBUFFER_DESC {
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd>
 
 類型： **[ **D3DRESOURCETYPE**](./d3dresourcetype.md)**

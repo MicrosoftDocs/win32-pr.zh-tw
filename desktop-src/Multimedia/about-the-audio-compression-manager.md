@@ -17,12 +17,12 @@ keywords:
 - 波形-音訊資料篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 34055e62f13e3bc60ec538e6c2ba41edab5e0c37
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 92d4d29d51462e486d206694a1d0628af91e15c2f60b7c1addc6ee6dd2574130
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673531"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119065648"
 ---
 # <a name="about-the-audio-compression-manager"></a>關於音訊壓縮管理員
 
@@ -34,9 +34,9 @@ ms.locfileid: "103673531"
 -   波形-音訊資料格式轉換
 -   波形-音訊資料篩選
 
- 
+ 
 
- 
+ 
 
 
 

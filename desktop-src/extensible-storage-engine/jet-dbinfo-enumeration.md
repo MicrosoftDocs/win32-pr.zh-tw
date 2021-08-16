@@ -48,12 +48,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 39c6c3175c08e4f7644ad4f0b41137e12e84f71d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c364b89ccb50542130c988a643fed594a34e370e5adb5e9d0a13f77eab5b04d8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972628"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112227"
 ---
 # <a name="jet_dbinfo-enumeration"></a>JET_DbInfo 列舉
 

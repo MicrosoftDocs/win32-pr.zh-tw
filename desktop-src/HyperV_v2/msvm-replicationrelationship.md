@@ -21,12 +21,12 @@ api_type:
 - DllExport
 api_location:
 - vmms.exe
-ms.openlocfilehash: 04665f96f4ec77501ee0b161d816c84943ca2c98
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c8ff905475863df11c6fb6529f030f73a4f1b785792be4c5fe8c7ce1142096c3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980881"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119068478"
 ---
 # <a name="msvm_replicationrelationship-class"></a>Msvm \_ ReplicationRelationship 類別
 
@@ -475,9 +475,9 @@ class Msvm_ReplicationRelationship : CIM_ManagedSystemElement
 
 ### <a name="extended-replication"></a>延伸複寫
 
-Windows 8 中的 Hyper-v 複寫功能可讓您在主要網站上的 Hyper-v 伺服器上執行的虛擬機器，有效率地複寫至次要網站上的另一部 Hyper-v 伺服器。
+Windows 8 中的 hyper-v 複寫功能可讓您在主要網站上的 hyper-v 伺服器上執行的虛擬機器，有效率地複寫至次要網站上的另一部 hyper-v 伺服器。
 
-Windows 8.1 中的 Hyper-v 複寫功能可讓使用者將複寫關聯性從次要網站延伸至第三個網站。 第三個網站可以是預先布建為復原伺服器或外部複寫提供者的 Hyper-v 主機。
+Windows 8.1 中的 hyper-v 複寫功能可讓使用者將複寫關聯性從次要網站延伸至第三個網站。 第三個網站可以是預先布建為復原伺服器或外部複寫提供者的 Hyper-v 主機。
 
 ## <a name="requirements"></a>規格需求
 
@@ -485,8 +485,8 @@ Windows 8.1 中的 Hyper-v 複寫功能可讓使用者將複寫關聯性從次�
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                                 |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

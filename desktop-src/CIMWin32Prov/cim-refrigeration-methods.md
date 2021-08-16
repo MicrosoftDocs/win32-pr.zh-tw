@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM_Refrigeration 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f0777bf0ed5963549d21e36058c338b54e4b6dc9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: fccec7246c9252ce8c1a305f20a9315de09575b5138993bd8ea196be13f52911
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972122"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119920748"
 ---
 # <a name="cim_refrigeration-methods"></a>CIM \_ 冷藏庫取出方法
 

@@ -4,12 +4,12 @@ ms.assetid: 68AA3D7A-787F-4F0A-A6C6-A1C7E5D99719
 title: 'MF_VIDEO_PROCESSOR_ALGORITHM 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: a37c588b798f0f61c70a84c479a987f9e63e1c9d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7317f1e472ca3e919c5323211d2a74c67e811c1276c05ba27a4a7426a20884ac
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114013"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119599988"
 ---
 # <a name="mf_video_processor_algorithm-attribute"></a>MF \_ 視頻 \_ 處理器 \_ 演算法屬性
 
@@ -29,10 +29,10 @@ ms.locfileid: "104114013"
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Mfidl .idl</dt> </dl> |
 
 
 

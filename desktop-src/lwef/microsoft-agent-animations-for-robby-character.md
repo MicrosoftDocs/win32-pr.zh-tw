@@ -4,16 +4,16 @@ description: 適用于 Robby 字元的 Microsoft Agent 動畫
 ms.assetid: 05baf1ab-3217-4da4-9562-6719c58cd744
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 347c95fd6a29af72041d3b9e1192167d34602260
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 8ef6cf0fc3d44f9783fe3d22f9f0d2b291e6acc51bd5bb72890af793ffe55156
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "103682012"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119609098"
 ---
 # <a name="microsoft-agent-animations-for-robby-character"></a>適用于 Robby 字元的 Microsoft Agent 動畫
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 [Microsoft Agent Robby 字元](https://www.microsoft.com/downloads/details.aspx?FamilyID=fa36d1d5-d828-494a-ad0a-7b571db5bd2e)是 Microsoft Corporation 的受版權保護工作。
 

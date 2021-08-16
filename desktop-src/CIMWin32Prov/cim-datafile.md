@@ -47,12 +47,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 0badba05eafa5cba06e48b8494ca893936af360e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 6bbc73534914f1b6dc1bfd9f620a436bbcea2056a70cb50757afccf60beea04c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847368"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924648"
 ---
 # <a name="cim_datafile-class"></a>CIM \_ 資料檔案類別
 
@@ -508,7 +508,7 @@ DOS 相容的檔案名。
 
 </dd> <dt>
 
-**分機**
+**延伸模組**
 </dt> <dd> <dl> <dt>
 
 資料類型： **字串**
@@ -742,7 +742,7 @@ DOS 相容的檔案名。
 
 Name 屬性是一個字串，代表繼承的名稱，做為檔案系統內的邏輯檔案實例的索引鍵。 應提供完整路徑名稱。
 
-範例： C： \\ Windows \\ system \\win.ini
+範例： C： \\ Windows \\ 系統 \\win.ini
 
 這個屬性繼承自 [**CIM \_ LogicalFile**](cim-logicalfile.md)。
 

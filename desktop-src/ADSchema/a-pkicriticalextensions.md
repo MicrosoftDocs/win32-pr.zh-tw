@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e5e0df9015182702a2be5d42eca172d4ef0c0b7b
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 3688ffb92e53c068541fd1579a6857ea66610eafb37aa175a5bbdecf33c147e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845348"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117837011"
 ---
 # <a name="pki-critical-extensions-attribute"></a>PKI-重大-延伸模組屬性
 
@@ -60,7 +60,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -81,7 +81,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -102,7 +102,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -123,7 +123,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -144,7 +144,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |
@@ -165,7 +165,7 @@ ms.locfileid: "103845348"
 | System-Only            | 否                                                                   |
 | 是-單一值       | 否                                                                   |
 | 已編制索引             | 否                                                                   |
-| 在通用類別目錄中      | 對                                                                    |
+| 在通用類別目錄中      | 是                                                                    |
 | NT-Security-描述元 | O:BAG：不正確： S：                                                            |
 | Range-Lower            | \-                                                                      |
 | Range-Upper            | \-                                                                      |

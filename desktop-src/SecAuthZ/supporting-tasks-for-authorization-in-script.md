@@ -4,12 +4,12 @@ ms.assetid: e3e29168-37f1-468a-a6f1-9a9d1cd8cf38
 title: 在腳本中支援授權的工作
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0136bb3d8a60991eee323e657764319de8a8557
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f2510092aaa51665862317e4feca27a68d78ad770a9a3ed246f35baa16738a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113780"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119907128"
 ---
 # <a name="supporting-tasks-for-authorization-in-script"></a>在腳本中支援授權的工作
 

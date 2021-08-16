@@ -21,12 +21,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b24c214e66e26bf957f8c0a8012246f86499d6f1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 6af1b4bd4d6e22e37303b7bb3eaa6e7d65b27598f25ae96b0977be9d7ee8227a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119861258"
 ---
 # <a name="heading-level-identifiers"></a>標題層級識別碼
 
@@ -173,7 +173,7 @@ ms.locfileid: "106965906"
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1803版桌面應用程式\]<br/>                                       |
-| 最低支援的伺服器<br/> | \[僅限 Windows Server desktop 應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows\[僅限伺服器桌面應用程式\]<br/>                                                 |
 | 標頭<br/>                   | <dl> <dt>Uiautomationclient.dll。h</dt> </dl> |
 
 

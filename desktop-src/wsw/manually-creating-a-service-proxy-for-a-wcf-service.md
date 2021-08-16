@@ -4,16 +4,16 @@ description: 針對 Windows Communication Foundation (WCF) 服務建立用戶端
 ms.assetid: ef545090-382b-44bd-b7ab-f5a285b6e202
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e061fda95298986ee6336dee0662d80c89a0a5a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 33133ae48dee89e72871712d445453e237116f6f1fa08cf66a76381ea8d3d424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106965381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119927248"
 ---
 # <a name="manually-creating-a-service-proxy-for-a-wcf-service"></a>手動建立 WCF 服務的服務 Proxy
 
-針對 Windows Communication Foundation (WCF) 服務建立用戶端服務 proxy 的最簡單方式，就是在 [服務模型](service-model-layer-overview.md) 層與 WsUtil 工具（如 [建立用戶端](creating-a-client.md) 主題所述）。 不過，如有必要，您也可以手動建立服務 proxy。 此 API 包含用於建立服務 proxy 以及結構、列舉等的 [**WsCreateServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscreateserviceproxy) 函式，以設定與 WCF 交互操作所需的屬性。
+針對 Windows Communication Foundation (WCF) 服務建立用戶端服務 proxy 的最簡單方式，就是在[服務模型](service-model-layer-overview.md)層與 WsUtil 工具（如[建立用戶端](creating-a-client.md)主題所述）。 不過，如有必要，您也可以手動建立服務 proxy。 此 API 包含用於建立服務 proxy 以及結構、列舉等的 [**WsCreateServiceProxy**](/windows/desktop/api/WebServices/nf-webservices-wscreateserviceproxy) 函式，以設定與 WCF 交互操作所需的屬性。
 
 WCF 提供數個標準系結，每個都以特定使用案例為目標。 這會將您嘗試連接的服務系結至，進而決定您需要自訂哪些通道屬性，以便服務 proxy 與服務通訊。
 
@@ -95,11 +95,11 @@ hr = WsCreateServiceProxy(
 
 ## <a name="other-bindings"></a>其他系結
 
-此外，WWSAPI 提供了使用其他系結（例如 NetTcpBinding 和 WSFederationHttpBinding）來建立服務 proxy 以與 WCF 服務進行通訊的機制。 其中許多系結都需要設定其他通道屬性，例如安全描述項。 如需說明如何使用其他系結的範例，請參閱 [Windows Web 服務範例](windows-web-services-examples.md)，特別是 [TCP 通道層範例](tcp-channel-layer-examples.md)、 [HTTP 通道層範例](http-channel-layer-examples.md)和 [安全性通道層範例](security-channel-layer-examples.md) 小節。
+此外，WWSAPI 提供了使用其他系結（例如 NetTcpBinding 和 WSFederationHttpBinding）來建立服務 proxy 以與 WCF 服務進行通訊的機制。 其中許多系結都需要設定其他通道屬性，例如安全描述項。 如需說明如何使用其他系結的範例，請參閱[Windows Web 服務範例](windows-web-services-examples.md)（尤其是[TCP 通道層範例](tcp-channel-layer-examples.md)、 [HTTP 通道層級範例](http-channel-layer-examples.md)和[安全性通道層範例](security-channel-layer-examples.md)小節）。
 
- 
+ 
 
- 
+ 
 
 
 

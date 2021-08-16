@@ -4,12 +4,12 @@ ms.assetid: 386e9601-ce21-4ef0-b225-0c4249d1942d
 title: 當地語系化資源和建立應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 74262499b20836ee4860f1c0fc1a1bf80e19d58d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 490fde8e0b6d9381b346409efad1501331be71d2d4e958be050274dc0428fe62
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119788498"
 ---
 # <a name="localizing-resources-and-building-the-application"></a>當地語系化資源和建立應用程式
 
@@ -20,7 +20,7 @@ ms.locfileid: "106979025"
 
  
 
-應用程式檔會針對每種語言分別建立。 每個組建都會建立與語言無關的相同 .exe 和特定語言的 .exe 檔案。 此外，會將不同的其他檔案複製到適當的發行資料夾。
+應用程式檔會針對每種語言分別建立。 每個組建都會建立相同的語言中性 .exe 以及特定語言的 .exe mui 檔案。 此外，會將不同的其他檔案複製到適當的發行資料夾。
 
 應用程式組建取決於您所使用的資源類型和當地語系化類型。 針對預先組建當地語系化，您有一份針對每個支援語言當地語系化的基礎語言檔案。 針對組建後當地語系化，您可以複製可執行檔和資源模組的組建所產生的 mui 檔案，並將這些複本提供給當地語系化人員。
 

@@ -3,7 +3,7 @@ title: 'TDM_SET_BUTTON_ELE加值稅ION_REQUIRED_STATE 訊息 (Commctrl .h) '
 description: 指定指定的工作對話方塊按鈕或命令連結是否應該有 (UAC) 盾牌圖示的使用者帳戶控制;亦即，按鈕叫用的動作是否需要提高許可權。
 ms.assetid: c4321fdb-3ea9-49bf-b53d-eb73d5b11084
 keywords:
-- TDM_SET_BUTTON_ELE加值稅ION_REQUIRED_STATE message Windows 控制項
+- TDM_SET_BUTTON_ELE加值稅ION_REQUIRED_STATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7ef5f8479e88a3b63cbd5fab6a5686913864fd9c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2c69998da085a74b144179a0a4244c787cd3a871d63eca1e5df9c4e555b1a7e5
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104105972"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120104618"
 ---
 # <a name="tdm_set_button_elevation_required_state-message"></a>TDM \_ 設定 \_ 按鈕提高 \_ 許可權的 \_ 必要 \_ 狀態訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104105972"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

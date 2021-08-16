@@ -195,7 +195,7 @@
         - name: 可擴充的 Helper 類別
           href: extensible-helper-classes.md
           items:
-            - name: Windows 篩選平台可擴充 Helper 類別
+            - name: Windows篩選平臺可擴充 Helper 類別
               href: windows-filtering-platform-extensible-helper-class.md
             - name: 802.11 無線診斷可延伸的 Helper 類別
               href: 802-11-wireless-diagnostics-extensible-helper-classes.md

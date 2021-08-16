@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 9bf7fe91c57b9c69934f093cdd504b5e6d35efb8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 167fc0aa050765700805b4339e68142fa5d1eb7fc99e010c7393095dd9aa5c0e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106978623"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119084838"
 ---
 # <a name="iwmdrmlicensegetlicenseproperty-method"></a>IWMDRMLicense：： GetLicenseProperty 方法
 
@@ -53,7 +53,7 @@ HRESULT GetLicenseProperty(
 
 | 常數                   | 描述                                                                                                          |
 |----------------------------|----------------------------------------------------------------------------------------------------------------------|
-| g \_ wszWMDRMNet \_ 撤銷 | 用來取得目前授權的 Windows Media DRM for Network 裝置撤銷清單。                        |
+| g \_ wszWMDRMNet \_ 撤銷 | 用來取得目前授權的網路裝置撤銷清單 Windows 媒體 DRM。                        |
 | g \_ wszWMDRM \_ SAPLEVEL      | 使用可取得 (SAP) 層級所需的安全音訊路徑，以播放目前授權所涵蓋的內容。                |
 | g \_ wszWMDRM \_ SAPRequired   | 使用來確定目前的授權是否需要使用 SAP 來播放內容。                               |
 | g \_ wszWMDRM \_ SOURCEID      | 用來取得目前授權的來源識別碼。                                                            |
@@ -79,7 +79,7 @@ HRESULT GetLicenseProperty(
 
 
 
-| 傳回碼                                                                          | Description                      |
+| 傳回碼                                                                          | 描述                      |
 |--------------------------------------------------------------------------------------|----------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl> | 此方法已成功。<br/> |
 

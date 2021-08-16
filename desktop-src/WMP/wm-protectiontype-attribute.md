@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7bf2b9c4700cb45ca5daf2c7d9290456beefbf1b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7888273aaca38a4fb87c5a19fc7c7bc8d47b13a8b6a03a578354b1a8bcd2b3dd
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993440"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119900348"
 ---
 # <a name="wmprotectiontype-attribute"></a>WM/Set-protectiontype 屬性
 
@@ -26,7 +26,7 @@ ms.locfileid: "106993440"
 ## <a name="applies-to"></a>套用至
 
 -   [音訊專案](audio-item-attributes.md)
--   [常用的 Windows Media 檔案屬性](commonly-used-windows-media-file-attributes.md)
+-   [常用 Windows 媒體檔案屬性](commonly-used-windows-media-file-attributes.md)
 -   [影片專案](video-item-attributes.md)
 
 ## <a name="remarks"></a>備註
@@ -35,7 +35,7 @@ ms.locfileid: "106993440"
 
 **Set-protectiontype** 是此屬性的別名。
 
-這個屬性的 Windows Media Format SDK 常數是 g \_ wszWMProtectionType。
+這個屬性的 Windows 媒體格式 SDK 常數是 g \_ wszWMProtectionType。
 
 若要判斷是否可以變更這個屬性的值，請使用 [isReadOnlyItem](media-isreadonlyitem.md) 方法。
 

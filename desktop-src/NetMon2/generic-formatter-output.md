@@ -4,12 +4,12 @@ ms.assetid: cf3dc6cd-7b24-464a-9d2b-5e35c4e8825e
 title: 一般格式器輸出
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ecf4b334dd717c7ff332c3b730afb57d4be611ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0d76a67fadbed3bde5eb3e5534c8f104e918ac870df27c767b98575058a0a188
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119743968"
 ---
 # <a name="generic-formatter-output"></a>一般格式器輸出
 

@@ -1,10 +1,10 @@
 ---
-title: 電話-傳真-其他屬性
+title: 電話-Fax-其他屬性
 description: 替代傳真號碼的清單。
 ms.assetid: b5e4ef38-ce91-4943-bad5-c299f83387d3
 ms.tgt_platform: multiple
 keywords:
-- 電話-傳真-其他屬性 AD 架構
+- 電話-Fax-其他屬性 AD 架構
 - otherFacsimileTelephoneNumber 屬性 AD 架構
 topic_type:
 - apiref
@@ -14,14 +14,14 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 12e765ce2c3f9b74b894714b99ae87deadd760d6
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 99fd2e8a720299c903210f891df83e5f144882d5816fd647042190610814547d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103845363"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119924038"
 ---
-# <a name="phone-fax-other-attribute"></a>電話-傳真-其他屬性
+# <a name="phone-fax-other-attribute"></a>電話-Fax-其他屬性
 
 替代傳真號碼的清單。
 
@@ -29,7 +29,7 @@ ms.locfileid: "103845363"
 
 | 進入 | 值 |
 |-------------------|----------------------------------------------------------------------------------|
-| CN                | 電話-傳真-其他                                                                  |
+| CN                | 電話-Fax-其他                                                                  |
 | Ldap-顯示名稱 | otherFacsimileTelephoneNumber                                                    |
 | 大小              | \-                                                                               |
 | 更新許可權  | 網域系統管理員或帳戶擁有者。                                           |

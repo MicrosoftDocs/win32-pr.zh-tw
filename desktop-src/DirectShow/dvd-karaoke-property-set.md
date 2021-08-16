@@ -4,12 +4,12 @@ ms.assetid: 78b2998b-d8b3-424d-85bc-872e64eb4a4f
 title: 'DVD 卡拉 Dvdmedia 屬性集 (.h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2918513de06a657436ed99e67f672fe74a113b78
-ms.sourcegitcommit: 63753fcfb0afbbe5ec283fb8316e62c2dc950f66
+ms.openlocfilehash: 1f3f7674b240934ae7440858b7317fd1abaf9b7833e36f80d7edc6cc185bc932
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "107909066"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016016"
 ---
 # <a name="dvd-karaoke-property-set"></a>DVD 卡拉卡拉屬性集
 

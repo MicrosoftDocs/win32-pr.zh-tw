@@ -4,12 +4,12 @@ ms.assetid: acda4cf3-39a6-4bd2-91a0-db1f191b57b5
 title: 'AcquireCredentialsHandle (一般) 函數 (Sspi. h) '
 ms.topic: reference
 ms.date: 07/25/2019
-ms.openlocfilehash: 9c1202d8b482eee45697cec35ff6a7e8ba6ef354
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0fcac88d1dcf31da19a15ab8a4834ae628d4e98e45ab777ec3da0db14092c75d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120101458"
 ---
 # <a name="acquirecredentialshandle-general-function"></a>AcquireCredentialsHandle (一般) 函數
 
@@ -96,11 +96,11 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 
 | 值                                                                                                                                                                                                                                                                                    | 意義                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span id="SECPKG_CRED_AUTOLOGON_RESTRICTED"></span><span id="secpkg_cred_autologon_restricted"></span><dl> <dt>**SECPKG \_認證 \_ 自動 \_**</dt>登入限制的 <dt>0x00000010</dt> </dl> | 安全性不會使用預設的登入認證或 [認證管理員](credential-manager.md)的認證。<br/> 只有 Negotiate [*限制委派*](../secgloss/s-gly.md)才支援此值。<br/> **Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援這個值。<br/>                                                                                                                                 |
+| <span id="SECPKG_CRED_AUTOLOGON_RESTRICTED"></span><span id="secpkg_cred_autologon_restricted"></span><dl> <dt>**SECPKG \_認證 \_ 自動 \_**</dt>登入限制的 <dt>0x00000010</dt> </dl> | 安全性不會使用預設的登入認證或 [認證管理員](credential-manager.md)的認證。<br/> 只有 Negotiate [*限制委派*](../secgloss/s-gly.md)才支援此值。<br/> **Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援這個值。<br/>                                                                                                                                 |
 | <span id="SECPKG_CRED_BOTH"></span><span id="secpkg_cred_both"></span><dl> <dt>**SECPKG \_ 認證 \_ 兩者**</dt> </dl>                                                                                                                  | 驗證傳入的認證或使用本機認證來準備傳出權杖。 此旗標可啟用兩個其他旗標。 此旗標對 Digest 和 Schannel Ssp 而言無效。<br/>                                                                                                                                                                                                                                                                |
 | <span id="SECPKG_CRED_INBOUND"></span><span id="secpkg_cred_inbound"></span><dl> <dt>**SECPKG \_ 認證 \_ 輸入**</dt> </dl>                                                                                                         | 驗證傳入的伺服器認證。 當呼叫 [**InitializeSecurityCoNtext (一般)**](initializesecuritycontext--general.md) 或 [**AcceptSecurityCoNtext (一般)**](acceptsecuritycontext--general.md) 時，可能會使用驗證授權單位來驗證輸入認證。 如果無法使用這類授權單位，此函式將會失敗，並傳回 SEC \_ E \_ NO \_ 驗證 \_ 授權單位。 驗證是套件特定的。<br/> |
 | <span id="SECPKG_CRED_OUTBOUND"></span><span id="secpkg_cred_outbound"></span><dl> <dt>**SECPKG \_ 認證 \_ 輸出**</dt> </dl>                                                                                                      | 允許本機用戶端認證準備傳出權杖。<br/>                                                                                                                                                                                                                                                                                                                                                                                        |
-| <span id="SECPKG_CRED_PROCESS_POLICY_ONLY"></span><span id="secpkg_cred_process_policy_only"></span><dl> <dt>**SECPKG \_\_ \_ \_ 僅限認證進程原則**</dt> <dt>0x00000020</dt> </dl>   | 此函式會處理伺服器原則，並傳回 **SEC \_ E \_ NO \_ 認證**，表示應用程式應該提示輸入認證。<br/> 只有 Negotiate [*限制委派*](../secgloss/s-gly.md)才支援此值。<br/> **Windows server 2008、Windows Vista、Windows server 2003 和 WINDOWS XP：** 不支援這個值。<br/>                                                                                                          |
+| <span id="SECPKG_CRED_PROCESS_POLICY_ONLY"></span><span id="secpkg_cred_process_policy_only"></span><dl> <dt>**SECPKG \_\_ \_ \_ 僅限認證進程原則**</dt> <dt>0x00000020</dt> </dl>   | 此函式會處理伺服器原則，並傳回 **SEC \_ E \_ NO \_ 認證**，表示應用程式應該提示輸入認證。<br/> 只有 Negotiate [*限制委派*](../secgloss/s-gly.md)才支援此值。<br/> **Windows server 2008、Windows Vista Windows server 2003 和 Windows XP：** 不支援這個值。<br/>                                                                                                          |
 
 
 
@@ -204,8 +204,8 @@ SECURITY_STATUS SEC_Entry AcquireCredentialsHandle(
 
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                   |
 | 標頭<br/>                   | <dl> <dt>Sspi (包含 Security .h) </dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Secur32 .lib</dt> </dl>                 |
 | DLL<br/>                      | <dl> <dt>Secur32.dll</dt> </dl>                 |

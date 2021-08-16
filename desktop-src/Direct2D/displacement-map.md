@@ -6,12 +6,12 @@ keywords:
 - 置換地圖效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd0ad2deb0c584ccc9c55faebd60f803d66efa42
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 73888d8168e411bf0f8daee1f2e04801353ee8358d27ba4d5cc9b1f71630a762
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093900"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119833010"
 ---
 # <a name="displacement-map-effect"></a>置換地圖效果
 
@@ -80,7 +80,7 @@ C ' (x，y) = C (x + 縮放 \* (XChannelSelector (置換點陣圖 (x、y) ) -0.5
 
 
 
-| 顯示名稱和索引列舉                                                   | 類型和預設值                                                   | Description                                                                                                                                                                               |
+| 顯示名稱和索引列舉                                                   | 類型和預設值                                                   | 描述                                                                                                                                                                               |
 |--------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 調整<br/> D2D1 \_ DISPLACEMENTMAP \_ 的 \_ 範圍調整<br/>                       | FLOAT<br/> 0.0f<br/>                                         | 將所選通道的強度與置換影像相乘。 您設定此屬性的愈高，效果越多取代圖元<br/>                       |
 | XChannelSelect<br/> D2D1 \_ DISPLACEMENTMAP \_ 精選 \_ X \_ CHANNEL \_ SELECT<br/> | D2D1 \_ 通道 \_ 選取器<br/> D2D1 \_ 通道 \_ 選取器 \_ A<br/> | 效果會從這個色頻中取出濃度，並用它來以 X 方向取代影像。 如需詳細資訊，請參閱 [色彩通道](#color-channels) 。<br/> |
@@ -119,8 +119,8 @@ C ' (x，y) = C (x + 縮放 \* (XChannelSelector (置換點陣圖 (x、y) ) -0.5
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

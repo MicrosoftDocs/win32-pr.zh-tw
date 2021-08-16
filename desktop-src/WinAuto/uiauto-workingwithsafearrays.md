@@ -1,5 +1,5 @@
 ---
-title: 使用安全陣列的最佳作法
+title: 使用保管庫陣列的最佳作法
 description: Microsoft 消費者介面自動化的許多介面方法 \ 32;API 會將 SAFEARRAY 資料類型的引數稱為安全陣列。 本主題說明在消費者介面自動化應用程式中使用安全陣列的最佳作法。
 ms.assetid: 07e87cfd-d565-41b5-a68d-b99dd191fa95
 keywords:
@@ -13,14 +13,14 @@ keywords:
 - 資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b12ade30398f8fbeb43336707f66a0709dfab83d
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 39ea76358f3a547b4364d01f56e850d0cbb523fc35dfbaa2870448f70c6ad5ae
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "106969114"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120098118"
 ---
-# <a name="best-practices-for-using-safe-arrays"></a>使用安全陣列的最佳作法
+# <a name="best-practices-for-using-safe-arrays"></a>使用保管庫陣列的最佳作法
 
 Microsoft 消費者介面自動化 API 的許多介面方法都採用 [**SAFEARRAY**](/windows/win32/api/oaidl/ns-oaidl-safearray) 資料類型的引數（稱為安全陣列）。 本主題說明在消費者介面自動化應用程式中使用安全陣列的最佳作法。
 
@@ -42,7 +42,7 @@ Microsoft 消費者介面自動化 API 的許多介面方法都採用 [**SAFEARR
 
 
 
- 
+ 
 
 ## <a name="providers"></a>提供者
 
@@ -61,6 +61,6 @@ Microsoft 消費者介面自動化 API 的許多介面方法都採用 [**SAFEARR
 [UI 自動化基礎](entry-uiautocore-overview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

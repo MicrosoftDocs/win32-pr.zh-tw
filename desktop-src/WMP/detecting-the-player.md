@@ -15,12 +15,12 @@ keywords:
 - 偵測播放玩家
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb919e790b07ccf5d8df587abd63d2344534b16b
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d511fc8c14a901c6823715293c5eb621b45762cd5e9fae78d8c4df503a03bf38
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932291"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119863508"
 ---
 # <a name="detecting-the-player"></a>偵測播放玩家
 
@@ -61,9 +61,9 @@ ms.locfileid: "103932291"
 [**Type 1 和 Type 2 線上商店的一般資訊**](information-common-to-type-1-and-type-2-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

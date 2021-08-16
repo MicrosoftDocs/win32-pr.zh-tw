@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - IACom.dll
-ms.openlocfilehash: fb069ddb461ab4422f8cbbc8990fb6d735808e62
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 13bd514396c738f2e5367528dc62833bd3a4dcc195aecf30ee723ea9c09b5bcf
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971420"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119596788"
 ---
 # <a name="ianalysisregionclone-method"></a>IAnalysisRegion：： Clone 方法
 
@@ -52,7 +52,7 @@ HRESULT Clone(
 
 ## <a name="remarks"></a>備註
 
-在 .NET Framework 中，此方法會 eqivalent 至 AnalysisCore. AnalysisRegionBase。
+此方法會 eqivalent 至程式。Windows。.NET Framework 中的 AnalysisCore. AnalysisRegionBase 方法。
 
 > [!Caution]  
 > 若要避免記憶體流失，請在 pClonedRegion 上呼叫 [**IUnknown：： Release**](/windows/desktop/api/unknwn/nf-unknwn-iunknown-release) （ \* 當您不再需要使用複製的分析區域時）。
@@ -65,7 +65,7 @@ HRESULT Clone(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
+| 最低支援的用戶端<br/> | Windows僅限 XP Tablet PC Edition \[ 桌面應用程式\]<br/>                                                 |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                     |
 | 標頭<br/>                   | <dl> <dt>IACom (也需要 IACom \_ c) </dt> </dl> |
 | DLL<br/>                      | <dl> <dt>IACom.dll</dt> </dl>                          |
