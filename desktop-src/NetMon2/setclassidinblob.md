@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Npptools.dll
-ms.openlocfilehash: b617c39767038bac51d749a640ebcf2301e0c63f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 70e68d3a0d9d105b765ee6cd0ae1a6422f48e3dd6776cf144b302c9e1c5ff951
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106979085"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364157"
 ---
 # <a name="setclassidinblob-function"></a>SetClassIDInBlob 函式
 

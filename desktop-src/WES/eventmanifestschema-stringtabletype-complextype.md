@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: a9964c51524f7401afdfdd8a2da10cf43326bcae
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: f5d52f19ca01a926c82fcc1e13cc7191866722ba5e0e6eef81e916e244744783
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106981787"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118342982"
 ---
 # <a name="stringtabletype-complex-type"></a>StringTableType 複雜類型
 
@@ -73,7 +73,7 @@ ms.locfileid: "106981787"
 | 名稱       | 類型   | 描述                                                                                                              |
 |------------|--------|--------------------------------------------------------------------------------------------------------------------------|
 | id         | 字串 | 唯一識別字串資料表內之字串的識別碼。 例如，「印表機連接」。<br/> |
-| stringType | 字串 | 未使用。<br/>                                                                                                     |
+| stringType | string | 未使用。<br/>                                                                                                     |
 | value      | 字串 | 當地語系化字串。<br/>                                                                                         |
 
 
@@ -88,8 +88,8 @@ ms.locfileid: "106981787"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

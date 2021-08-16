@@ -5,12 +5,12 @@ ms.assetid: 67C6B1D4-BF76-45A9-BADC-7C9520C900EB
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9f4271055f88e38484041c225b6b17c6d75f0d98
-ms.sourcegitcommit: d6102d9e2b26368142fe5b006c65acb50c98be65
+ms.openlocfilehash: 31e1bc0826651334d3d137466cc34d194fb79ae4900075b9a145859c5fd37fbf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "74104113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118300809"
 ---
 # <a name="shared-heaps"></a>共用堆積
 
@@ -74,9 +74,9 @@ ms.locfileid: "74104113"
 [堆積中的子分配](suballocation-within-heaps.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

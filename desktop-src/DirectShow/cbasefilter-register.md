@@ -16,19 +16,19 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 1bd7ba5a57d670ef28ffda022c95c7dc5b12df77
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 168d84d3bfc90fb710ae65a3b887eeb5575db407361a256c48161f0f7968a53c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106993223"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403521"
 ---
 # <a name="cbasefilterregister-method"></a>CBaseFilter 註冊方法
 
 `Register`方法會將篩選準則新增至登錄。
 
 > [!Note]  
-> 這個方法已過時。 您應使用 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 函式來註冊新的篩選準則。 如需詳細資訊，請參閱 [如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
+> 這個方法已過時。 您應使用 [**AMovieDllRegisterServer2**](amoviedllregisterserver2.md) 函式來註冊新的篩選準則。 如需詳細資訊，請參閱[如何註冊 DirectShow 篩選](how-to-register-directshow-filters.md)。
 
  
 

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e56159f18f4011b934f8ab2c611f703450268f13
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 3881cab3f5e818a4d6c244b9b2e951711202f38cdb86ee9ce5856747defeacc6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106999472"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118340907"
 ---
 # <a name="customslidertooltip"></a>CUSTOMSLIDER 工具提示
 

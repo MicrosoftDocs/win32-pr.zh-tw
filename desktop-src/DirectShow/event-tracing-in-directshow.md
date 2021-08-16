@@ -4,16 +4,16 @@ ms.assetid: e78c4514-25f4-441d-bfd0-6dac4f7567fd
 title: DirectShow 中的事件追蹤
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c567d8a2e75d838570323d8ad6be04f11502c9c4
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 6afdeabfb13608453fc6b84bbefb36cca79265739c049cc0e5d35e997ebaf902
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972757"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117819580"
 ---
 # <a name="event-tracing-in-directshow"></a>DirectShow 中的事件追蹤
 
-DirectShow 支援 Windows (ETW) 的事件追蹤，可用來建立用於檢測或偵錯工具的事件記錄檔。 如需 ETW 的詳細資訊，請參閱 Windows SDK 檔。 若要在 DirectShow 應用程式中使用 ETW 事件，您必須啟用追蹤，然後處理追蹤事件。 使用下列步驟。
+DirectShow 支援 Windows (ETW) 的事件追蹤，可用來建立用於檢測或偵錯工具的事件記錄檔。 如需 ETW 的詳細資訊，請參閱 Windows SDK 檔。 若要在 DirectShow 的應用程式中使用 ETW 事件，您必須啟用追蹤，然後處理追蹤事件。 使用下列步驟。
 
 **設定必要的登錄機碼**
 
@@ -36,7 +36,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\DEBUG\Quartz.dll
 若要在您的應用程式中啟用追蹤，請執行下列步驟：
 
 1.  呼叫 **StartTrace** 以啟動新的追蹤會話。
-2.  呼叫 **EnableTrace** 以啟用追蹤。 適用于 DirectShow 的提供者 GUID 是 GUID \_ DSHOW \_ CTL。
+2.  呼叫 **EnableTrace** 以啟用追蹤。 DirectShow 的提供者 guid 是 GUID \_ DSHOW \_ CTL。
 3.  在應用程式結束之前，呼叫 **StopTrace** 以關閉追蹤會話。
 
 **處理事件**
@@ -234,7 +234,7 @@ void ProcessTraceEvents(WCHAR *wszLogFile)
 
 <dl> <dt>
 
-[在 DirectShow 中進行調試](debugging-in-directshow.md)
+[DirectShow 中的調試](debugging-in-directshow.md)
 </dt> </dl>
 
  

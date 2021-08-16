@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: de58363119dc08c21d2cab0070b438ad6b4331e0
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: ac9eba5337fa43e43e3b7a45a7a92263fd4e6d69388185a2096c1a270590e482
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106990799"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403437"
 ---
 # <a name="cbasereferenceclocksettimedelta-method"></a>CBaseReferenceClock. SetTimeDelta 方法
 

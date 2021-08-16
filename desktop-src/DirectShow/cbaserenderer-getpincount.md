@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 569a8dd4352edb0c4660fecd3e77fdfaec0ec4c4
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: fdd646458bb10287e1a76ffed897f1ea039e1b047ccf14d10aeb990ebfc74622
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095886"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118403447"
 ---
 # <a name="cbaserenderergetpincount-method"></a>CBaseRenderer. GetPinCount 方法
 

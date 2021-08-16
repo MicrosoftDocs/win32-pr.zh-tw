@@ -4,12 +4,12 @@ ms.assetid: e9820e53-8891-4bff-a333-00ad2dbb03a4
 title: 在多層式應用程式中保護資料的基本案例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7929bcfeba96b43b7ec91513b42ffb7f46266613
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 4f9c4bafb0334bb9e5f124eb184f6ebf2d17f4f0dc40ef04421162dc6604f531
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972563"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118308740"
 ---
 # <a name="basic-scenarios-for-securing-data-in-multi-tier-applications"></a>在多層式應用程式中保護資料的基本案例
 
@@ -41,7 +41,7 @@ ms.locfileid: "106972563"
 
 ## <a name="trusted-scenario-using-microsoft-sql-server-roles"></a>使用 Microsoft SQL Server 角色的信任案例
 
--   Microsoft SQL Server 7.0 和更新版本可以使用角色來授與特定資料列的存取權，但信任 COM + 應用程式來驗證和授權使用者，以及將它們對應到資料庫中的正確角色。
+-   Microsoft SQL Server 7.0 和更新版本可以使用角色來授與特定資料列的存取權，但信任 com + 應用程式來驗證和授權使用者，以及將它們對應到資料庫中的正確角色。
 -   COM + 應用程式會使用以角色為基礎的安全性來授與使用者，而且應用程式角色也適合資料庫角色。
 -   您可以開啟特定資料庫角色的特定連接。 如果在 COM + 應用程式中的集區物件持有這些連線，就可以重複使用這些連接。 如需如何進行此作業的詳細資訊，請參閱 [Com + 物件](com--object-pooling.md)共用。
 -   您可以透過 COM + 應用程式來完成審核和記錄，也可以由應用程式將這項資訊傳遞給資料庫。

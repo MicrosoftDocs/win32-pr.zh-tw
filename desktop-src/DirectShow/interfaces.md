@@ -1,15 +1,15 @@
 ---
 description: DirectShow 介面
 ms.assetid: 5efd174f-2eb1-44e6-97e3-b73c7c52fef1
-title: " (DirectShow) 介面"
+title: '介面 (DirectShow) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e0b66237ee106423cc8a5cd824b88d7a7af6ac8
-ms.sourcegitcommit: 4570ac533e129ff88b23f2c2b69e0140ead3a4a4
+ms.openlocfilehash: 5ceef5feb53c4c393b7cf80733a55242d6209b2c9022e12d22c3989ee99323d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/26/2021
-ms.locfileid: "106980247"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818813"
 ---
 # <a name="directshow-interfaces"></a>DirectShow 介面
 
@@ -17,12 +17,12 @@ ms.locfileid: "106980247"
 
 下列主題包含所有程式碼 DirectShow 介面的字母順序清單。
 
--   [DirectShow 介面的字母順序清單](alphabetical-list-of-directshow-interfaces.md)
+-   [依字母順序排列的 DirectShow 介面清單](alphabetical-list-of-directshow-interfaces.md)
 
 任何特定的應用程式只會使用這些介面的一小部分。 下列主題依功能類別目錄列出介面。 並非每個介面都會列在這些頁面上，而且某些介面會出現在一個以上的頁面上。
 
 -   [建立篩選圖形的介面](interfaces-for-building-filter-graphs.md)
--   [控制篩選圖形的介面](interfaces-for-controlling-a-filter-graph.md)
+-   [用來控制篩選 Graph 的介面](interfaces-for-controlling-a-filter-graph.md)
 -   [音訊捕捉和呈現介面](audio-capture-and-rendering-interfaces.md)
 -   [DVD 介面](dvd-interfaces.md)
 -   [影片捕獲介面](video-capture-interfaces.md)
@@ -34,10 +34,10 @@ ms.locfileid: "106980247"
 
 <dl> <dt>
 
-[DirectShow 物件](directshow-objects.md)
+[DirectShow物件](directshow-objects.md)
 </dt> <dt>
 
-[DirectShow 篩選](directshow-filters.md)
+[DirectShow過濾 器](directshow-filters.md)
 </dt> </dl>
 
  

@@ -12,12 +12,12 @@ api_name:
 api_type:
 - COM
 api_location: ''
-ms.openlocfilehash: b1016ae932d6841a5db590f2d24496113d3cefc8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3badf52755a77557c200569c25610b5918cf8dd599d17a83bdebb5c4ddfa6801
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689216"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118305871"
 ---
 # <a name="partitions-collection"></a>分割區集合
 
@@ -41,7 +41,7 @@ ms.locfileid: "103689216"
 
 您可以從下列集合流覽至這個集合：
 
--   [**根**](root.md)
+-   [**Root**](root.md)
 
 ## <a name="properties"></a>屬性
 
@@ -62,7 +62,7 @@ ms.locfileid: "103689216"
 | 描述    | 判斷此分割區是否可變更。 |
 | Access         | 讀寫                                        |
 | 類型           | Bool                                             |
-| 預設        | 對                                             |
+| 預設        | 是                                             |
 | 最小系統 | Windows Server 2003                              |
 
 
@@ -78,14 +78,14 @@ ms.locfileid: "103689216"
 | 描述    | 判斷此分割區是否可刪除。 |
 | Access         | 讀寫                                         |
 | 類型           | Bool                                              |
-| 預設        | 對                                              |
+| 預設        | 是                                              |
 | 最小系統 | Windows Server 2003                               |
 
 
 
  
 
-### <a name="description"></a>Description
+### <a name="description"></a>描述
 
 
 
@@ -117,7 +117,7 @@ ms.locfileid: "103689216"
 
  
 
-### <a name="name"></a>Name
+### <a name="name"></a>名稱
 
 
 
