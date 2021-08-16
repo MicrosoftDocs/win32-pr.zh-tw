@@ -4,12 +4,12 @@ ms.assetid: 4584a3da-6c92-4ecd-8cf2-e4afc1b8321d
 title: 'DFM_WM_MEASUREITEM 訊息 (Shlobj.h .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 61c4ad79acf221ecaabf9060940ad2514422bef1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e7ad0d39a56f598a8ef4773c70f4f438388e91a2154b3083fdf85a1ebebec22
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104386113"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117860896"
 ---
 # <a name="dfm_wm_measureitem-message"></a>DFM \_ WM \_ MEASUREITEM 訊息
 
@@ -56,8 +56,8 @@ DFM_WM_MEASUREITEM
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Shlobj.h。h</dt> </dl> |
 
 

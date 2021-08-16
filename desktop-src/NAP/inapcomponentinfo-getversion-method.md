@@ -60,7 +60,7 @@ HRESULT GetVersion(
 
 
 
-| 傳回碼                                                                                     | Description                                                        |
+| 傳回碼                                                                                     | 描述                                                        |
 |-------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
 | <dl> <dt>**S \_確定**</dt> </dl>           | 作業成功。<br/>                            |
 | <dl> <dt>**E \_ACCESSDENIED**</dt> </dl> | 許可權錯誤，拒絕存取。<br/>                       |
@@ -79,7 +79,7 @@ HRESULT GetVersion(
 | 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>NapCommon。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>NapCommon .idl</dt> </dl> |
 
 
 

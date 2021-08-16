@@ -4,18 +4,18 @@ description: Direct2D
 ms.assetid: 03b3b91c-9751-4f8d-af24-85067f06930b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8223ec5e98db3e45b0087073b4eb68baeae81280
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c4d685c62819fe97e7ca52a566a0e2d442f5e4be14d6b7ae0a252b2778c0bae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108089176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825419"
 ---
 # <a name="direct2d"></a>Direct2D
 
 ## <a name="purpose"></a>目的
 
-Direct2D 是一種硬體加速的即時模式 2D 圖形 API，能夠以高效能和高品質來呈現 2D 幾何、點陣圖和文字。 Direct2D API 的設計目的是要與 GDI、GDI + 和 Direct3D 順利互通。
+Direct2D 是一種硬體加速的即時模式 2D 圖形 API，能夠以高效能和高品質來呈現 2D 幾何、點陣圖和文字。 Direct2D API 的設計目的是要與 GDI、GDI+ 和 Direct3D 妥善地交互操作。
 
 ## <a name="developer-audience"></a>開發人員對象
 
@@ -28,12 +28,12 @@ Direct2D 主要是設計來供下列開發人員類別使用：
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
--   Windows 7 或 Windows Vista Service Pack 2 (SP2) 和 Windows Vista 和更新版本的平臺更新。
--   Windows Server 2008 R2 或 Windows Server 2008 Service Pack 2 (SP2) 和 Windows Server 2008 和更新版本的平臺更新。
+-   Windows 7 或 Windows vista （含 Service Pack 2） (SP2) 和 Windows vista 和更新版本的平臺更新。
+-   Windowsserver 2008 R2 或 Windows server 2008 Service Pack 2 (SP2) 以及 Windows Server 2008 和更新版本的平臺更新。
 
 > [!Note]
 >
-> Windows Vista 的平臺更新和 Windows Server 2008 的平臺更新是一組執行時間程式庫，可讓開發人員將應用程式的目標設為 Windows 7、Windows Vista、Windows Server 2008 R2 和 Windows Server 2008。 所有 Windows Vista 和 Windows Server 2008 客戶都可以透過 Windows Update 取得這些更新。 需要適用于 Windows Vista 或 Windows Server 2008 平臺更新的協力廠商應用程式，可以 Windows Update 偵測是否已安裝必要的更新;如果不是，Windows Update 會在背景中下載並安裝它。 如需這兩項更新的詳細資訊，請參閱 [Windows Vista 的平臺更新](https://support.microsoft.com/kb/971644)。
+> 適用于 Windows Server 2008 Windows Vista 和平臺更新的平臺更新是一組執行時間程式庫，可讓開發人員將應用程式的目標設為 Windows 7、Windows Vista、Windows server 2008 R2 和 Windows server 2008。 所有 Windows Vista 和 Windows Server 2008 客戶都可以透過 Windows Update 取得這些更新。 需要適用于 Windows Server 2008 Windows Vista 或平臺更新的協力廠商應用程式，可以讓 Windows Update 偵測是否已安裝必要的更新;如果不是，Windows Update 會在背景中下載並安裝它。 如需這兩項更新的詳細資訊，請參閱[Windows Vista 的平臺更新](https://support.microsoft.com/kb/971644)。
 
  
 

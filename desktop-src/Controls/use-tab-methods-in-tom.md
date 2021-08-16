@@ -4,12 +4,12 @@ description: 下列範例提供的 C 函式說明如何使用 Text 物件模型�
 ms.assetid: C74B4E43-615D-48B9-9884-F626BAF31F74
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 9851b30fdf58c0d4200600c0c4c83c7f9a00a555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 654b4a101c2deb3c22993f41b11ee94df6ac738da41963046f02a072f3eaa6a8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103841996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828610"
 ---
 # <a name="how-to-use-tab-methods-in-tom"></a>如何在 TOM 中使用 Tab 方法
 
@@ -19,12 +19,12 @@ ms.locfileid: "103841996"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -107,9 +107,9 @@ HRESULT CopyOnlyTabs(ITextPara *pParaFrom, ITextPara *pParaTo)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

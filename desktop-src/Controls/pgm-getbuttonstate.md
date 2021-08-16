@@ -3,7 +3,7 @@ title: 'PGM_GETBUTTONSTATE 訊息 (Commctrl .h) '
 description: 抓取頁面導航控制項中指定之按鈕的狀態。 您可以明確地傳送此訊息，或使用呼叫器 \_ GetButtonState 宏。
 ms.assetid: 58f99b67-fef7-4695-86e2-0579a2f6de2f
 keywords:
-- PGM_GETBUTTONSTATE message Windows 控制項
+- PGM_GETBUTTONSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3d8c9eebbc0aa91651a01de1fe193544f0c8afcf
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2014b6e36a0ab883155d786760ef54f02c89ee0d17192d6082d40ad19eec95a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934715"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830189"
 ---
 # <a name="pgm_getbuttonstate-message"></a>PGM \_ GETBUTTONSTATE 訊息
 
@@ -56,7 +56,7 @@ ms.locfileid: "103934715"
 
 
 
-| 傳回碼                                                                                   | Description                                 |
+| 傳回碼                                                                                   | 描述                                 |
 |-----------------------------------------------------------------------------------------------|---------------------------------------------|
 | <dl> <dt>**PGF \_ 不可見**</dt> </dl> | 看不到此按鈕。 <br/>      |
 | <dl> <dt>**PGF \_ 正常**</dt> </dl>    | 按鈕處於正常狀態。 <br/>  |
@@ -74,8 +74,8 @@ ms.locfileid: "103934715"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

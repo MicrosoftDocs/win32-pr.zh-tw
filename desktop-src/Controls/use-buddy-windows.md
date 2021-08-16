@@ -1,17 +1,17 @@
 ---
-title: 如何使用好友視窗
+title: 如何使用好友 Windows
 description: 藉由將其他控制項設定為標題的合作者視窗，您就可以將這些控制項以標籤的形式自動放置在這些標題的結尾。
 ms.assetid: 5797AA55-BD8D-407A-8896-08EE0DDC7E30
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8eca9a4e3b3049f8d4cf7515879d91a096f5a9e3
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d6819e0f37f07a90ae08a623f14c6c26d1d67f55ea81143834dfd10816f74396
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021282"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829051"
 ---
-# <a name="how-to-use-buddy-windows"></a>如何使用好友視窗
+# <a name="how-to-use-buddy-windows"></a>如何使用好友 Windows
 
 藉由將其他控制項設定為標題的合作者視窗，您就可以將這些控制項以標籤的形式自動放置在這些標題的結尾。
 
@@ -23,16 +23,16 @@ ms.locfileid: "104021282"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
-### <a name="use-buddy-windows"></a>使用好友視窗
+### <a name="use-buddy-windows"></a>使用好友 Windows
 
 下列程式碼範例會建立如圖所示的好友視窗。
 
@@ -95,9 +95,9 @@ void LabelTrackbarsWithBuddies(HWND hDlg)
 [使用 [使用] 控制項](using-trackbar-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -3,17 +3,17 @@ title: HttpCalculatorClientExample
 description: 此範例示範如何使用服務 proxy 來與 HTTP 型計算機服務交談。
 ms.assetid: dd97613d-3bb7-427c-a292-220d1efed96c
 keywords:
-- 適用于 Windows 的 HttpCalculatorClientExample Web 服務
+- Windows 的 HttpCalculatorClientExample Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0362c2a1bf2149e2cc0c0cb2b574b3e8e7fe1c4d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae1cc1a9c1d54291b1bbe65a335c19e624b892d3585d1a7998e1581a2e2537a2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106995557"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841728"
 ---
 # <a name="httpcalculatorclientexample"></a>HttpCalculatorClientExample
 
@@ -323,9 +323,9 @@ clean:
     $(CLEANUP)
 ```
 
- 
+ 
 
- 
+ 
 
 
 

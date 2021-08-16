@@ -4,12 +4,12 @@ description: Microsoft Rich Edit 3.0 會根據其內容將字元集指派為純�
 ms.assetid: 975B9C33-6766-4FF1-A93E-2169C140CEE9
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ea17c2f8e0e8c1b57611839a5bbf992f9af6bf65
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: 3086f9f74469bc535700f28b6eeb45c204024beb34c21663139fd3d63746d4ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103842000"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829022"
 ---
 # <a name="how-to-use-font-binding-in-rich-edit-controls"></a>如何在 Rich Edit 控制項中使用字型系結
 
@@ -23,7 +23,7 @@ Microsoft Rich Edit 3.0 會根據其內容將字元集指派為純文字字元�
 > [!Note]  
 > Rich edit 控制項會在內部使用 Unicode，因此這種字元集的使用方式與字型規格中使用的原始字元集不同。 但是 [**CHARFORMAT**](/windows/win32/api/richedit/ns-richedit-charformata) 結構具有妥善定義的字元集位置。
 
- 
+ 
 
 空白和數位等中性字元會根據其內容指派一個字元集。 例如，以相同字元集的字元括住的空白會取得該字元集。 雙向文字所使用的 Neutrals 和位數，是以 Unicode 雙向演算法為基礎的指定字元集。
 
@@ -31,12 +31,12 @@ Microsoft Rich Edit 3.0 會根據其內容將字元集指派為純文字字元�
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -61,7 +61,7 @@ Microsoft Rich Edit 3.0 會根據其內容將字元集指派為純文字字元�
 
 
 
- 
+ 
 
 因此，在預設的字型系結表中 (專案具有字元集、字型名稱和大小) ，Rich Edit 可讓 ANSI \_ 字元集符合數個字元集，而適當的字元集則符合其他字型的一對一基礎。 更精確地說， \_ 如果找不到其他替代方案，rich edit 會使用 ANSI 字元集選擇。 您將能指定比這個更細微的資料細微性;例如，指派阿拉伯文執行的特定阿拉伯文 \_ 字元集、希臘文執行的特定希臘文字型等等。 如果在字型系結的區域之前，在檔的某處找到具有所需字元集戳記的字型，也會使用這個更細微的資料細微性。
 
@@ -81,9 +81,9 @@ Microsoft Rich Edit 3.0 會根據其內容將字元集指派為純文字字元�
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

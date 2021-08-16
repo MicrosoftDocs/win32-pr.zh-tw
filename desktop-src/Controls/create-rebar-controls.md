@@ -4,12 +4,12 @@ description: 應用程式會藉由呼叫 CreateWindowEx 函式來建立 Rebar �
 ms.assetid: F17CC2A4-BDC6-48A6-9AF5-19FCF65CC39A
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 19b38cd49e8e6016dafad5ec07c77be570a5a430
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0ebd6063f8921453a5c71e1c2467bf803c67c0a1b4f66e98006b9118e6a588b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683143"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831770"
 ---
 # <a name="how-to-create-rebar-controls"></a>如何建立 Rebar 控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "103683143"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -126,6 +126,6 @@ HWND CreateRebar(HWND hwndOwner, HWND hwndToolbar, HWND hwndCombo)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

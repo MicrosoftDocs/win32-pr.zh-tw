@@ -4,12 +4,12 @@ ms.assetid: 4223970d-8c37-4326-a2df-bec558f8ac5e
 title: WPD_CONTENT_TYPE_PLAYLIST
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de97169b4858b48b9bf8e8a0dc7fc365961cc519
-ms.sourcegitcommit: 0f7a8198bacd5493ab1e78a9583c7a3578794765
+ms.openlocfilehash: 032f4cb1aeca4614efe5ad3b6b9634262a257a4391c299d90839cbc6ad9eacac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2021
-ms.locfileid: "110423758"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842298"
 ---
 # <a name="wpd_content_type_playlist"></a>WPD \_ 內容 \_ 類型 \_ 播放清單
 

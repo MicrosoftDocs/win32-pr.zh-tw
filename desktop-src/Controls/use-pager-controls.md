@@ -4,12 +4,12 @@ description: 本節說明如何在您的應用程式中執行呼機控制項。
 ms.assetid: 5703FE4B-987E-49DA-9741-F8B45AD26467
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 586bfff0c8d8097c4b0e861506bb73f55467b711
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: b917943f5f86498bb3cbea2c58842049c4618caf64a66a6b8db1cb2ab86a315b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104024176"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828639"
 ---
 # <a name="how-to-use-pager-controls"></a>如何使用呼機控制項
 
@@ -19,12 +19,12 @@ ms.locfileid: "104024176"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -78,6 +78,6 @@ return 0;
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

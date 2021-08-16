@@ -16,12 +16,12 @@ keywords:
 - 控制項模式，快取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f75a7dc9491565fdfdc0ecc73808c2fb6a9d82
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ae14fb607dd66ab1a4ea99cd9836f2f74e5c863afef8465843d3ea174186ef29
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372004"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118324972"
 ---
 # <a name="caching-ui-automation-properties-and-control-patterns"></a>快取消費者介面自動化屬性和控制項模式
 
@@ -75,7 +75,7 @@ ms.locfileid: "104372004"
 > [!Note]  
 > 您無法快取要求之根項目的父代或祖系。
 
- 
+ 
 
 ## <a name="retrieving-a-new-snapshot-of-the-cache"></a>正在抓取快取的新快照集
 
@@ -105,9 +105,9 @@ ms.locfileid: "104372004"
 [UI 自動化屬性概觀](uiauto-propertiesoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

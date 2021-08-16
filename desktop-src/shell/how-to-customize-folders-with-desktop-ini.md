@@ -4,12 +4,12 @@ ms.assetid: 0361b7da-bfb3-4880-b982-85d2fe419805
 title: 如何使用 Desktop.ini 自訂資料夾
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4a671b169c4b025683cdd220ee3a920b4d592488
-ms.sourcegitcommit: 822413efb4a70dd464e5db4d9e8693ef74f8132f
+ms.openlocfilehash: 23ec216bedfdee16e26f87070a0196d77a8db12c802d97b1449cd78001f51a16
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/09/2021
-ms.locfileid: "113581746"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859830"
 ---
 # <a name="how-to-customize-folders-with-desktopini"></a>如何使用 Desktop.ini 自訂資料夾
 

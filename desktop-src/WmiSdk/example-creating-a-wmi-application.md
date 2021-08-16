@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 範例：建立 WMI 應用程式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6e76836090d09ecee413da34d9a15381b9d0a891
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 49e7633c666beb900da4cdbe41909880d9766c903be0fc8b6aa1d4e45be8d90f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998091"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319307"
 ---
 # <a name="example-creating-a-wmi-application"></a>範例：建立 WMI 應用程式
 

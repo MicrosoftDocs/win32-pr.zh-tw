@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 017097bea656309aabf3d773f34152805fd6a579
-ms.sourcegitcommit: 57758ecb246c84d65e6e0e4bd5570d9176fa39cd
+ms.openlocfilehash: d570a49d1a5ba632fbbb453b6397338af70d29b0dc837db12193d2889c867eaf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/25/2019
-ms.locfileid: "106967861"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835107"
 ---
 # <a name="cancel-session"></a>Cancel-Session
 
@@ -74,9 +74,9 @@ BITS 用戶端會在使用者取消作業時傳送此封包。
 [**關閉會話**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

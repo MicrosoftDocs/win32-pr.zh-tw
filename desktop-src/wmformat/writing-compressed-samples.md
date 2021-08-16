@@ -9,12 +9,12 @@ keywords:
 - ASF (Advanced Systems Format) ，傳遞壓縮的範例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c0c43fed30aa89e83c157479257e78fbab4acd98
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 0eaa6bf5298e465716fe7a60eb5de2459f09be405611ac7322b534804bbbc997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104462712"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843652"
 ---
 # <a name="writing-compressed-samples"></a>撰寫壓縮的範例
 
@@ -31,9 +31,9 @@ ms.locfileid: "104462712"
 [**寫入 ASF 檔案**](writing-asf-files.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -11,12 +11,12 @@ keywords:
 - 資料單位延伸模組，檔案傳輸資料流程
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75fac7d2270da82f1f9e82ed9123611ae608dd3c
-ms.sourcegitcommit: 48d1c892045445bcbd0f22bafa2fd3861ffaa6e7
+ms.openlocfilehash: 9c0be95c9760a02275e223f56785149f6867d4aaf2462d07d158991b3cd21c01
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "104023079"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117849061"
 ---
 # <a name="configuring-file-transfer-streams"></a>設定檔案傳輸資料流程
 
@@ -46,9 +46,9 @@ ms.locfileid: "104023079"
 [**檔案資料流程**](file-streams.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

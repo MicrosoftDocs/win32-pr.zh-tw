@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 127801850ed008d65015d277ad3e1dbdfdb5c1bf
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 4461d6d2be35522fabf630af31e608f1b7fe8358dd1730bd6f3a79e6674eb288
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108095766"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117822100"
 ---
 # <a name="cdrawimagem_pmediatype-member"></a>CDrawImage：： m \_ pMediaType 成員
 

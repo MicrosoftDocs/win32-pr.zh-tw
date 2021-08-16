@@ -14,12 +14,12 @@ api_type:
 - DllExport
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c03400cec8c838ba561a7eb504674e074d7b3199
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: af5635a6f996ea6cd3af2c3b3022efa054cd27605430c8230143980e00b9abbd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106976448"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826467"
 ---
 # <a name="d2d1createfactoryfactoryd2d1_factory_typefactory-function"></a>D2D1CreateFactory <Factory> (D2D1 \_ factory \_ 類型，factory \* \*) 函數
 
@@ -37,7 +37,7 @@ HRESULT D2D1CreateFactory(
 
 
 
-| 參數 | Description                                                 |
+| 參數 | 描述                                                 |
 |-----------|-------------------------------------------------------------|
 | *廠* | 要建立之 [**ID2D1Factory**](/windows/win32/api/d2d1/nn-d2d1-id2d1factory) 的類型。 |
 
@@ -49,7 +49,7 @@ HRESULT D2D1CreateFactory(
 
 
 
-| 參數     | Description                                                                     |
+| 參數     | 描述                                                                     |
 |---------------|---------------------------------------------------------------------------------|
 | *factoryType* | Factory 的執行緒模型和它所建立的資源。                |
 | *工廠*     | 當此方法傳回時，會包含指向新 factory 之指標的位址。 |
@@ -87,8 +87,8 @@ HRESULT DemoApp::CreateDeviceIndependentResources()
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 7、windows Vista （含 SP2）和平臺更新（適用于 Windows Vista \[ 桌面應用程式 \| UWP 應用程式）\]<br/>                          |
-| 最低支援的伺服器<br/> | Windows server 2008 R2、Windows Server 2008 SP2 和 Windows Server 的平臺更新 2008 \[ 桌面應用程式 \| UWP 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows 7、Windows vista （含 SP2），以及適用于 Windows Vista \[ desktop apps \| UWP 應用程式的平臺更新\]<br/>                          |
+| 最低支援的伺服器<br/> | Windowsserver 2008 R2、Windows server 2008 SP2 和 Windows Server 的平臺更新 2008 \[ 桌面應用程式 \| UWP 應用程式\]<br/> |
 | 支援的最小電話<br/>  | Windows Phone 8.1 \[ Windows Phone Silverlight 8.1 和 Windows 執行階段應用程式\]<br/>                                                  |
 | 標頭<br/>                   | <dl> <dt>D2d1。h</dt> </dl>                                                        |
 | 程式庫<br/>                  | <dl> <dt>D2d1 .lib</dt> </dl>                                                      |

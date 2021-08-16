@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 75fc151e-5b9e-476b-b4e5-b848917357a8
-ms.openlocfilehash: 55f8062b71e553ec5ceefa413b45f439874744b8
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: fe2fbaa1bad61ac9c22d36919e49cf493a26a778a8e97d69d1b200c0c62205e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841759"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857717"
 ---
 # <a name="shell-object"></a>Shell 物件
 
@@ -63,11 +63,11 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-cascadewindows.md"><strong>CascadeWindows</strong></a></td>
-<td style="text-align: left;">將桌面上的所有視窗都串聯在一起。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [串聯 <strong>視窗</strong>] 相同。<br/></td>
+<td style="text-align: left;">將桌面上的所有視窗都串聯在一起。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [ <strong>Cascade Windows</strong>] 相同。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-controlpanelitem.md"><strong>ControlPanelItem</strong></a></td>
-<td style="text-align: left;">執行指定的主控台 ( * cpl) 應用程式。 如果應用程式已經開啟，則會啟動執行中的實例。 <br/>
+<td style="text-align: left;">執行指定的主控台 ( * .cpl) 應用程式。 如果應用程式已經開啟，則會啟動執行中的實例。 <br/>
 <blockquote>
 <p>[!Note]<br />
 從 Windows Vista 開始，大部分的主控台應用程式都是 Shell 專案，無法使用此功能開啟。 若要開啟這些主控台的應用程式，請將正式名稱傳遞給 control.exe。 例如：</p>
@@ -80,7 +80,7 @@ ms.locfileid: "109841759"
 <td style="text-align: left;">從其銜接站彈出電腦。 這與按一下 [ <strong>開始</strong> ] 功能表並選取 [ <strong>退出</strong>電腦] 的方式相同，如果您的電腦支援此命令。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-explore.md"><strong>探討</strong></a></td>
+<td style="text-align: left;"><a href="shell-explore.md"><strong>探索</strong></a></td>
 <td style="text-align: left;">在 Windows 檔案總管視窗中開啟指定的資料夾。<br/></td>
 </tr>
 <tr class="even">
@@ -97,7 +97,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-findfiles.md"><strong>Findfiles.ps1</strong></a></td>
-<td style="text-align: left;">顯示 [ <strong>尋找：所有</strong> 檔案] 對話方塊。 這等同于按一下 [ <strong>開始</strong> ] 功能表，然後選取 [ <strong>搜尋</strong> (] 或其對等專案（在 Windows XP 之前的系統下）。<br/></td>
+<td style="text-align: left;">顯示 [ <strong>尋找：所有</strong> 檔案] 對話方塊。 這等同于按一下 [<strong>開始</strong>] 功能表，然後選取 [<strong>搜尋</strong> (] 或其對等專案（在 Windows XP 之前的系統）。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="/windows/desktop/shell/shell-findprinter"><strong>FindPrinter</strong></a></td>
@@ -112,7 +112,7 @@ ms.locfileid: "109841759"
 <td style="text-align: left;">捕獲系統資訊。<br/></td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;"><a href="shell-help.md"><strong>Help</strong></a></td>
+<td style="text-align: left;"><a href="shell-help.md"><strong>説明</strong></a></td>
 <td style="text-align: left;">顯示 Windows 說明及支援中心。 這個方法與按一下 [ <strong>開始</strong> ] 功能表並選取 [說明 <strong>及支援</strong>] 的效果相同。<br/></td>
 </tr>
 <tr class="even">
@@ -125,7 +125,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a></td>
-<td style="text-align: left;">最小化桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，並選取 [將舊版系統上的 <strong>所有視窗最小化</strong> ]，或在 windows 2000 或 windows XP 的工作列快速啟動區域中按一下 [ <strong>顯示桌面</strong> ] 圖示。<br/></td>
+<td style="text-align: left;">最小化桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [<strong>最小化</strong>舊系統上的所有 Windows] 或 [Windows 2000 或 Windows XP 中工作列快速啟動區域中的 [<strong>顯示桌面</strong>] 圖示相同。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-namespace.md"><strong>命名 空間</strong></a></td>
@@ -137,7 +137,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-refreshmenu.md"><strong>RefreshMenu</strong></a></td>
-<td style="text-align: left;">重新整理 [ <strong>開始</strong> ] 功能表的內容。 只能與 Windows XP 之前的系統搭配使用。<br/></td>
+<td style="text-align: left;">重新整理 [ <strong>開始</strong> ] 功能表的內容。 只能搭配 Windows XP 之前的系統使用。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-searchcommand.md"><strong>SearchCommand</strong></a></td>
@@ -165,7 +165,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-shutdownwindows.md"><strong>ShutdownWindows</strong></a></td>
-<td style="text-align: left;">顯示 <strong>關機 Windows</strong> ] 對話方塊。 這等同于按一下 [ <strong>開始</strong> ] 功能表，然後選取 [ <strong>關機</strong>]。<br/></td>
+<td style="text-align: left;">顯示<strong>關機 Windows</strong> ] 對話方塊。 這等同于按一下 [ <strong>開始</strong> ] 功能表，然後選取 [ <strong>關機</strong>]。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-suspend.md"><strong>暫止</strong></a></td>
@@ -173,11 +173,11 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-tilehorizontally.md"><strong>TileHorizontally</strong></a></td>
-<td style="text-align: left;">以水準方式並排顯示桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [ <strong>水準並排顯示視窗</strong>] 效果相同。<br/></td>
+<td style="text-align: left;">以水準方式並排顯示桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [<strong>並排 Windows</strong>]。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-tilevertically.md"><strong>TileVertically</strong></a></td>
-<td style="text-align: left;">垂直並排顯示桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後垂直選取 [ <strong>並排顯示視窗</strong>] 效果相同。<br/></td>
+<td style="text-align: left;">垂直並排顯示桌面上的所有視窗。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [<strong>並排 Windows</strong>]。<br/></td>
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-toggledesktop.md"><strong>ToggleDesktop</strong></a></td>
@@ -189,7 +189,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-undominimizeall.md"><strong>UndoMinimizeALL</strong></a></td>
-<td style="text-align: left;">將所有桌面視窗還原到最後一個 <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> 命令之前的相同狀態。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [復原]，將舊版系統上的 <strong>所有視窗最小化</strong> ，或第二次按一下 windows 2000 或 windows XP 中工作列的 [快速啟動] 區域中的 [ <strong>顯示桌面</strong> ] 圖示。<br/></td>
+<td style="text-align: left;">將所有桌面視窗還原到最後一個 <a href="shell-minimizeall.md"><strong>MinimizeAll</strong></a> 命令之前的相同狀態。 這個方法的效果與在工作列上按一下滑鼠右鍵，然後選取 [復原]，將舊版系統上的<strong>所有 Windows</strong> ，或第二次按一下 Windows 2000 或 Windows XP 中工作列快速啟動區域中的 [<strong>顯示桌面</strong>] 圖示。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windows.md"><strong>Windows</strong></a></td>
@@ -197,7 +197,7 @@ ms.locfileid: "109841759"
 </tr>
 <tr class="even">
 <td style="text-align: left;"><a href="shell-windowssecurity.md"><strong>WindowsSecurity</strong></a></td>
-<td style="text-align: left;">顯示 [ <strong>Windows 安全性</strong> ] 對話方塊。<br/></td>
+<td style="text-align: left;">顯示 [ <strong>Windows 安全性</strong>] 對話方塊。<br/></td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;"><a href="shell-windowswitcher.md"><strong>WindowSwitcher</strong></a></td>
@@ -231,10 +231,10 @@ ms.locfileid: "109841759"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>                           |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |
 
 

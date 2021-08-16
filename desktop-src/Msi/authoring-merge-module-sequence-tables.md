@@ -1,19 +1,19 @@
 ---
-description: 如果合併模組必須修改目標 .msi 檔案的動作順序資料表，請在 .msm 檔案中包含 MergeModuleSequence 資料表。 合併不會將這些資料表加入至 .msi 檔案。 這些資料表只會出現在合併模組中。
+description: 如果合併模組必須修改目標 .msi 檔的動作順序資料表，請在 .msm 檔案中包含 MergeModuleSequence 資料表。 合併並不會將這些資料表加入 .msi 檔案中。 這些資料表只會出現在合併模組中。
 ms.assetid: 9efb75d2-43f9-404c-8e7f-918d056190cf
 title: 撰寫合併模組順序資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 24b21780601e626c006967cefa0dcff5700bdec4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5f45e4cf86c846030854054d7ab700e34210d4e27367cd31d606c78c24f2a9a7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103944010"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118381183"
 ---
 # <a name="authoring-merge-module-sequence-tables"></a>撰寫合併模組順序資料表
 
-如果合併模組必須修改目標 .msi 檔案的動作 [*順序資料表*](s-gly.md) ，請在 .msm 檔案中包含 MergeModuleSequence 資料表。 合併不會將這些資料表加入至 .msi 檔案。 這些資料表只會出現在合併模組中。
+如果合併模組必須修改目標 .msi 檔的動作 [*順序資料表*](s-gly.md) ，請在 .msm 檔案中包含 MergeModuleSequence 資料表。 合併並不會將這些資料表加入 .msi 檔案中。 這些資料表只會出現在合併模組中。
 
 如果有任何 ModuleSequence 資料表存在於 .msm 檔案中，則您也必須將對應的安裝程式順序資料表的空白複本撰寫至合併模組。 例如，如果 merge 模組包含 ModuleAdminExecuteSequence 資料表，則合併模組也必須包含空的 AdminExecuteSequence 資料表。 在合併期間，這些空白資料表會以必要的架構指導方針提供合併工具。
 

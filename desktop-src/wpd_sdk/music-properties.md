@@ -1,5 +1,5 @@
 ---
-description: Windows 可攜式裝置支援下列音樂屬性。
+description: Windows可攜式裝置支援下列音樂屬性。
 ms.assetid: a1688c95-af5a-4061-80d4-61f08787d49e
 title: '音樂屬性 (PortableDevice .h) '
 ms.topic: reference
@@ -13,20 +13,20 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: 3b33c2219dc9da43474f28b4b807727bdd1d90a8
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9231ad4a3c15aac893cc51105e764d7bb6bbd4866dae6e11164b9418db557c9a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106994858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842879"
 ---
 # <a name="music-properties"></a>音樂屬性
 
-Windows 可攜式裝置支援下列音樂屬性。
+Windows可攜式裝置支援下列音樂屬性。
 
 
 
-| 屬性               | VarType        | Description                                |
+| 屬性               | VarType        | 描述                                |
 |------------------------|----------------|--------------------------------------------|
 | **WPD \_ 音樂 \_ 專輯**  | **VT \_ LPWSTR** | 曲目所屬的專輯。            |
 | **WPD \_ 音樂 \_ 歌詞** | **VT \_ LPWSTR** | 音樂的歌詞。                  |

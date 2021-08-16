@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - Vsp.dll
-ms.openlocfilehash: c37c2a4ca1003bd701ea141f1723f4ca16aa69c3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 9aef31629cac755d5689de929c02fbc8d9b816bf868a48bd59df3d08c911d9b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106975974"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827218"
 ---
 # <a name="iprovidepropertybuilderexecutebuilder-method"></a>IProvidePropertyBuilder：： ExecuteBuilder 方法
 

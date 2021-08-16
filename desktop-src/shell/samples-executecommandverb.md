@@ -28,7 +28,7 @@ ms.locfileid: "117858267"
 -   [建立範例](#building-the-sample)
 -   [執行範例](#running-the-sample)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這是動詞命令的慣用方法，因為它提供最大的彈性、很簡單，而且支援跨進程啟用。 這個範例會將獨立的本機伺服器元件物件模型 (COM) 物件中，但必須將動詞執行整合到現有的應用程式中。 若要這樣做，您的主要應用程式物件必須自行註冊 class factory。 該物件會針對您的應用程式動詞來實行 [**IDropTarget**](/windows/win32/api/oleidl/nn-oleidl-idroptarget) 。 請注意，如果您的應用程式尚未執行，COM 會啟動應用程式，但如果有的話，則會連接到應用程式的執行中實例。
 

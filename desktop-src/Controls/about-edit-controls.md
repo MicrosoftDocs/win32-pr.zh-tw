@@ -4,12 +4,12 @@ description: 編輯控制項是一個矩形控制項視窗，通常是在對話�
 ms.assetid: 43baa58a-bc00-47c0-a3fe-413d50f08c29
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e4bbc116d3cf96ec3f5349680cc4f4b3df673cfb
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 0506666f3b47ae85386fe995e66cd41c4ae252452bcd40ea7ebfeb089fa1ffad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382942"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833919"
 ---
 # <a name="about-edit-controls"></a>關於編輯控制項
 
@@ -89,7 +89,7 @@ ms.locfileid: "104382942"
 
 如果編輯控制項來自 Comctl32.dll 第6版，則會有黑色圓圈是 [**ES \_ 密碼**](edit-control-styles.md) 樣式的預設字元。 在舊版通用控制項的編輯控制項中，預設字元是星號。
 
-[**ES \_ OEMCONVERT**](edit-control-styles.md)樣式會讓輸入至編輯控制項的文字從設定為 OEM 字元集的 windows 字元轉換，再轉換回 windows 字元集。 這可確保當應用程式呼叫 [**CharToOem**](/windows/desktop/api/winuser/nf-winuser-chartooema) 函式將編輯控制項中的 Windows 字串轉換成 OEM 字元時，會進行適當的字元轉換。 **ES \_OEMCONVERT** 最適合用於編輯控制項，其包含將在不支援 Unicode 的檔案系統上使用的檔案名。
+[**ES \_ OEMCONVERT**](edit-control-styles.md)樣式會導致從設定為 OEM 字元集的 Windows 字元轉換輸入編輯控制項中的文字，然後再轉換回 Windows 個字元集。 這可確保當應用程式呼叫 [**CharToOem**](/windows/desktop/api/winuser/nf-winuser-chartooema)函式將編輯控制項中的 Windows 字串轉換為 OEM 字元時，會進行適當的字元轉換。 **ES \_OEMCONVERT** 最適合用於編輯控制項，其包含將在不支援 Unicode 的檔案系統上使用的檔案名。
 
 針對對話方塊中的多行編輯控制項， [**ES \_ WANTRETURN**](edit-control-styles.md) 樣式會讓控制項在使用者按下 ENTER 鍵同時輸入文字時，插入一個換行字元。 如果未指定此樣式，按下 ENTER 鍵的效果就會與按下對話方塊中的預設推送按鈕相同。 如果沒有 **ES \_ WANTRETURN**，使用者必須按 CTRL + ENTER 來插入換行字元。 如需 Wordwrap 和分行符號的詳細資訊，請參閱 [處理 Wordwrap 和分行符號](edit-controls-text-operations.md)。
 

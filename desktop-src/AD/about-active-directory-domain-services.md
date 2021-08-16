@@ -8,12 +8,12 @@ keywords:
 - Active Directory Domain Services Active Directory，關於
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d8dafb89533d796f0651ad08b913eacda1d0fe9
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 8e4ef886409b435e1687d8ca6cf530b940852f3569818bb3afab69f57ab6b97c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023520"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841072"
 ---
 # <a name="about-active-directory-domain-services"></a>關於 Active Directory Domain Services
 
@@ -78,7 +78,7 @@ Active Directory Domain Services 提供下表所列的功能。
 <li>選擇驗證套件。 Kerberos、安全通訊端層 (SSL) 或組合;例如，建立用於加密的 SSL 通道，然後使用 Kerberos 進行驗證。</li>
 <li>使用 Active Directory Domain Services 中的使用者和群組，集中管理服務和資源存取。</li>
 <li>管理委派，讓中央系統管理員可以委派系統管理工作，例如密碼變更或特定物件的建立和刪除。</li>
-<li>Active Directory 伺服器在 Windows 作業系統的檔案系統上使用相同的存取控制機制。 因此，在檔案系統上管理存取控制的相同工具也適用于 Active Directory Domain Services。</li>
+<li>Active Directory 伺服器使用 Windows 作業系統中檔案系統所使用的相同存取控制機制。 因此，在檔案系統上管理存取控制的相同工具也適用于 Active Directory Domain Services。</li>
 <li>全方位的公開金鑰基礎結構。 Microsoft 憑證伺服器和智慧卡支援已與 Active Directory Domain Services 整合，以提供智慧卡登入和憑證管理。</li>
 </ul></td>
 </tr>

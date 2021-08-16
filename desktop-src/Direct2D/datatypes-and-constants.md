@@ -7,12 +7,12 @@ keywords:
 - Direct2D，常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a8566bd44d851b516e291f919e1deeddc06b696
-ms.sourcegitcommit: 66ba6a8d2fe79e55c46f6003b9b4abd127c76d8a
+ms.openlocfilehash: 5cea50069fcf860efa12d68c318657a896cd27d24fdf4c81b7c82a28e1f6567e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "106978569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825961"
 ---
 # <a name="direct2d-datatypes-and-constants"></a>Direct2D 資料類型和常數
 

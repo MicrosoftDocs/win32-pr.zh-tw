@@ -104,7 +104,7 @@ MCI \_ 通知、mci \_ 等候或 mci \_ 測試。 如需這些旗標的詳細資
 
 <dl> <dt>
 
-[Mci](mci.md)
+[MCI](mci.md)
 </dt> <dt>
 
 [MCI 命令](mci-commands.md)

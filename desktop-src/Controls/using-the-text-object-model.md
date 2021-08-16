@@ -4,12 +4,12 @@ description: 本章節包含的主題會示範使用 Text 物件模型 (TOM) 的
 ms.assetid: VS|Controls|~\controls\richedit\textobjectmodel\usingthetextobjectmodel.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 30addcd10ac521a0c4fd8771eb6c938f7649ab40
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 125b9bc17993449abffb7bb7cbc7f749652696bcd2555fbb2d8aeca3a0aa7736
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828539"
 ---
 # <a name="using-the-text-object-model"></a>使用 Text 物件模型
 

@@ -1,5 +1,5 @@
 ---
-description: IRenderEngine2 介面可讓應用程式取代 (DES) 的 DirectShow 編輯服務所使用的預設影片調整大小篩選。 基本轉譯引擎和智慧型轉譯引擎都支援此介面。
+description: IRenderEngine2 介面可讓應用程式取代 DirectShow 編輯服務 (DES) 所使用的預設影片調整大小篩選。 基本轉譯引擎和智慧型轉譯引擎都支援此介面。
 ms.assetid: 37603c73-e199-431a-9a1e-a40c77755c70
 title: 'IRenderEngine2 介面 (Qedit .h) '
 ms.topic: reference
@@ -14,12 +14,12 @@ api_type:
 api_location:
 - strmiids.lib
 - strmiids.dll
-ms.openlocfilehash: ed7802cf3d47d745b4e4733bb1fb60c61130b44a
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39f1bc68fc6cd76e87d1998047cb211b3a8aa8e263c90e0494c7eaf15d52f75f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106991215"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117818506"
 ---
 # <a name="irenderengine2-interface"></a>IRenderEngine2 介面
 
@@ -28,7 +28,7 @@ ms.locfileid: "106991215"
 
  
 
-`IRenderEngine2`介面可讓應用程式取代 (DES) 的 DirectShow 編輯服務所使用的預設影片調整大小篩選。 [基本轉譯引擎](basic-render-engine.md)和智慧型轉譯[引擎](smart-render-engine.md)都支援此介面。
+`IRenderEngine2`介面可讓應用程式取代 DirectShow 編輯服務 (DES) 所使用的預設影片調整大小篩選。 [基本轉譯引擎](basic-render-engine.md)和智慧型轉譯[引擎](smart-render-engine.md)都支援此介面。
 
 ## <a name="members"></a>成員
 
@@ -58,7 +58,7 @@ ms.locfileid: "106991215"
  
 
 > [!Note]  
-> 若要取得 Qedit，請下載 [適用于 Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 在 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
+> 若要取得 Qedit，請下載[Windows Vista 和 .NET Framework 3.0 的 Microsoft Windows SDK 更新](https://msdn.microsoft.com/windowsvista/bb980924.aspx)。 Windows 7 和 .NET Framework 3.5 Service Pack 1 的 Microsoft Windows SDK 中無法使用 Qedit。
 
  
 

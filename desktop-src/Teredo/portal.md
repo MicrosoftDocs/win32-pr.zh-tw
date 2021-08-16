@@ -4,12 +4,12 @@ description: Teredo
 ms.assetid: fc213675-dbdb-42a1-a09f-dda598b95b94
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e1a2717f3732c32f2c1fe4104c8edd2f802ea0
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 946932d7a699a4e9b993ed93e8d48faafbd75fbb0ec54e61b260b8a25e634ae5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108105646"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118354461"
 ---
 # <a name="teredo"></a>Teredo
 
@@ -23,7 +23,7 @@ Teredo 的設計目的是要讓具有 IPv6 網路程式設計經驗的 C/c + + �
 
 ## <a name="run-time-requirements"></a>執行階段需求求
 
-Teredo 介面主要支援 Windows Vista 和 Windows Server 2008。 Windows XP Service Pack 2 (SP2) 和 Windows Server 2003 所支援的 Teredo 介面功能有限，在透過 [Teredo 接收請求的流量](receiving-solicited-traffic-over-teredo.md)中有詳細的說明。
+Teredo 介面主要受到 Windows Vista 和 Windows Server 2008 的支援。 Windows XP （含 Service Pack 2） (SP2) 和 Windows Server 2003 所支援的 teredo 介面功能有限，在透過[Teredo 接收請求的流量](receiving-solicited-traffic-over-teredo.md)中有詳細的說明。
 
 ## <a name="in-this-section"></a>本節內容
 

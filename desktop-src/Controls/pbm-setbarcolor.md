@@ -3,7 +3,7 @@ title: 'PBM_SETBARCOLOR 訊息 (Commctrl .h) '
 description: 在進度列控制項中設定進度指標列的色彩。
 ms.assetid: 4b512420-04ec-4884-ab13-4c58304b95f6
 keywords:
-- PBM_SETBARCOLOR message Windows 控制項
+- PBM_SETBARCOLOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1387e69622e84990a197dc5a374d1c3449393408
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: babff5ad74d943d64f5ad61354447498e91e1325c99c82b32183fbc62eabafdd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104508915"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830199"
 ---
 # <a name="pbm_setbarcolor-message"></a>PBM \_ SETBARCOLOR 訊息
 
@@ -57,8 +57,8 @@ ms.locfileid: "104508915"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

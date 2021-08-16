@@ -1,5 +1,5 @@
 ---
-description: Win32 \_ 共用類別代表執行 Windows 的電腦系統上的共用資源。 這可能是磁片磁碟機、印表機、處理序間通訊或其他可共用的裝置。 如需有關如何抓取 WMI 類別的詳細資訊，請參閱取出類別。
+description: Win32 \_ 共用類別代表執行 Windows 之電腦系統上的共用資源。 這可能是磁片磁碟機、印表機、處理序間通訊或其他可共用的裝置。 如需有關如何抓取 WMI 類別的詳細資訊，請參閱取出類別。
 ms.assetid: 2d47b726-a0fe-47f3-9e96-d1d507655e56
 ms.tgt_platform: multiple
 title: Win32_Share 類別
@@ -24,16 +24,16 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: e871880da5aa9819de4a9eaaf3c6f074bd198d23
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 258116c3d6f01db938033056069aa036a3eaad23e44b31d80838ad26f570faa7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111204"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834149"
 ---
 # <a name="win32_share-class"></a>Win32 \_ 共用類別
 
-**Win32 \_ 共用** 類別代表執行 Windows 的電腦系統上的共用資源。 這可能是磁片磁碟機、印表機、處理序間通訊或其他可共用的裝置。 如需有關如何抓取 WMI 類別的詳細資訊，請參閱 [取出類別](../wmisdk/retrieving-a-class.md)。
+**Win32 \_ 共用** 類別代表執行 Windows 之電腦系統上的共用資源。 這可能是磁片磁碟機、印表機、處理序間通訊或其他可共用的裝置。 如需有關如何抓取 WMI 類別的詳細資訊，請參閱 [取出類別](../wmisdk/retrieving-a-class.md)。
 
 下列語法已經過受管理物件格式 (MOF) 程式碼簡化，並包含所有已繼承的屬性。 屬性和方法是以字母順序排列，而不是 MOF 順序。
 
@@ -71,7 +71,7 @@ class Win32_Share : CIM_LogicalElement
 
 | 方法                                                             | 描述                                                                                                                                                                                                         |
 |:-------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [**創建**](create-method-in-class-win32-share.md)               | 起始伺服器資源之共用的類別方法。<br/>                                                                                                                                               |
+| [**建立**](create-method-in-class-win32-share.md)               | 起始伺服器資源之共用的類別方法。<br/>                                                                                                                                               |
 | [**刪除**](delete-method-in-class-win32-share.md)               | 類別方法，會從伺服器的共用資源清單中刪除共用名稱，中斷與共用資源的連接。<br/>                                                                       |
 | [**GetAccessMask**](getaccessmask-method-in-class-win32-share.md) | 傳回使用者或群組所持有的共用的存取權限，該共用會傳回該實例。 您應該使用這個方法來取代 **AccessMask** 屬性，此屬性一律為 **Null**。<br/> |
 | [**SetShareInfo**](setshareinfo-method-in-class-win32-share.md)   | 設定共用資源的參數的類別方法。<br/>                                                                                                                                              |
@@ -202,7 +202,7 @@ class Win32_Share : CIM_LogicalElement
 
 在執行 Windows 的電腦系統上，提供給路徑的別名設定為共用。
 
-Windows 2008 範例： " \\ SERVER01 \\ public"-windows Server 2008 要求您將 UNC 放在名稱中。
+Windows 2008 範例： " \\ SERVER01 \\ public"-Windows Server 2008 要求您將 UNC 放在名稱中。
 
 </dd> <dt>
 
@@ -332,7 +332,7 @@ Windows 共用的本機路徑。
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

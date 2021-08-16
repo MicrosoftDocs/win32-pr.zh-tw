@@ -4,12 +4,12 @@ description: Rich edit 控制項的父視窗可以處理通知碼來監視影響
 ms.assetid: E045EADE-CB37-492A-85EC-6CF236677F08
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e68e510bf7c5abe6109862a01d8926c8956736f9
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: e6bc730c648e76137db480f14895d540a9142ae6a80ffa58533e38ef513653ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "103933029"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828630"
 ---
 # <a name="how-to-use-rich-edit-control-notification-codes"></a>如何使用 Rich Edit 控制項通知碼
 
@@ -19,12 +19,12 @@ Rich edit 控制項的父視窗可以處理通知碼來監視影響控制項的�
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -48,9 +48,9 @@ Rich edit 控制項的父視窗可以藉由處理 [ \_ MSGFILTER](en-msgfilter.m
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

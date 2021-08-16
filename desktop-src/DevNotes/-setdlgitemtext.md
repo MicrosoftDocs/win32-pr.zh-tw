@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Sqlunirl.dll
-ms.openlocfilehash: 5c5b42281c127f2fe7c7935387f804a9e58b794d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: cccdf846fc2058eb7be74ede5e2fe60197d6528a8481e3cbf81586838b14f3c2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106981319"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828009"
 ---
 # <a name="_setdlgitemtext-function"></a>\_SetDlgItemText 函式
 

@@ -4,16 +4,16 @@ ms.assetid: 709ad912-6b03-4ad3-bc47-ad8b6bd6de45
 title: 取得回避事件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e45557c25570a89452a39683a0b6732b9632129
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: a4a5869aa02a64ef3b7d035743b9bee3c91d295448c4d89d659862c5efc81d89
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828259"
 ---
 # <a name="getting-ducking-events"></a>取得回避事件
 
-如果媒體應用程式想要提供可定制的回避體驗，則必須在系統中開啟或關閉通訊資料流程時接聽事件通知。 您可以使用 MediaFoundation、DirectShow 或 DirectSound （使用核心音訊 Api）來提供自訂執行。 直接 WASAPI 用戶端也可以覆寫通訊會話開始和結束時的預設處理。
+如果媒體應用程式想要提供可定制的回避體驗，則必須在系統中開啟或關閉通訊資料流程時接聽事件通知。 您可以使用 MediaFoundation、DirectShow 或 DirectSound （使用核心音訊 api）來提供自訂執行。 直接 WASAPI 用戶端也可以覆寫通訊會話開始和結束時的預設處理。
 
 若要提供自訂的執行，媒體應用程式必須在通訊應用程式啟動或結束通訊串流時，從系統取得通知。 媒體應用程式必須執行 [**IAudioVolumeDuckNotification**](/windows/desktop/api/AudioPolicy/nn-audiopolicy-iaudiovolumeducknotification) 介面，並向音訊系統註冊執行。 成功註冊之後，媒體應用程式會透過介面中的方法，以回呼的形式接收事件通知。 如需詳細資訊，請參閱 [回避通知的執行考慮](handling-audio-ducking-events-from-communication-devices.md)。
 

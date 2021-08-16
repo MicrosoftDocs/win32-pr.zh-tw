@@ -3,7 +3,7 @@ title: 'LVM_SETWORKAREAS 訊息 (Commctrl .h) '
 description: 設定清單視圖控制項內的工作區域。 您可以明確地傳送此訊息，或使用 ListView \_ SetWorkAreas 宏。
 ms.assetid: 87ac192d-f481-43ac-b8a5-c754cf33e487
 keywords:
-- LVM_SETWORKAREAS message Windows 控制項
+- LVM_SETWORKAREAS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4166238c97b5766a5f2bbb19e0de853526d83385
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8f1060377fd9aec9014d18d206444355b052f4aafb796403e3e47fa92a0a7aaa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934887"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117830659"
 ---
 # <a name="lvm_setworkareas-message"></a>LVM \_ SETWORKAREAS 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "103934887"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

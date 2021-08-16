@@ -4,12 +4,12 @@ description: 清單視圖控制項會顯示專案的集合，每個專案都包�
 ms.assetid: 412a029f-fb64-4365-aa64-26cbdf3a50d5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bc6ff108140408662cf36e46738cb79548ece9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: eceba4b5b85c170e72f7beea783e1f423bb060dec081d951500008cef8a6af07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325405"
 ---
 # <a name="list-view-control-msaa-ui-element-reference"></a>List-View 控制項 (MSAA UI 元素參考) 
 
@@ -18,7 +18,7 @@ ms.locfileid: "104021410"
 
  
 
-清單視圖控制項會顯示專案的集合，每個專案都包含一個圖示和一個標籤，並提供數種方式來顯示及排列專案。 例如，每個專案的其他資訊會顯示在圖示和標籤右邊的資料行中。 Windows 檔案總管使用清單視圖控制項來顯示檔案。
+清單視圖控制項會顯示專案的集合，每個專案都包含一個圖示和一個標籤，並提供數種方式來顯示及排列專案。 例如，每個專案的其他資訊會顯示在圖示和標籤右邊的資料行中。 WindowsExplorer 會使用清單視圖控制項來顯示檔案。
 
 清單視圖控制項的視窗類別名稱是 WC \_ LISTVIEW，在 Commctrl 中定義為 "SysListView"。
 

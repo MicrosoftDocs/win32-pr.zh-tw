@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString：： Find 方法 (ChString .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 5996ca5c06e2101fad834ce2e37df31ee435fbb3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a7f326b202d107dc192683517508446b3c785266c675e5cf27d92577311d453a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997258"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319992"
 ---
 # <a name="chstringfind-methods"></a>CHString：： Find 方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "106997258"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>ChString (包含 FwCommon) </dt> </dl>                                                    |
 | 程式庫<br/>                  | <dl> <dt>FrameDyn .lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |

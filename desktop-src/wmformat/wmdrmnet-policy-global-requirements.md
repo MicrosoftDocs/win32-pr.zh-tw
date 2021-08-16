@@ -1,6 +1,6 @@
 ---
 title: 'WMDRMNET_POLICY_GLOBAL_REQUIREMENTS 結構 (Wmdrmsdk .h) '
-description: WMDRMNET \_ 原則的 \_ 全域 \_ 需求結構具有適用于網路裝置之 Windows Media DRM 的全域需求。
+description: WMDRMNET \_ 原則的 \_ 全域 \_ 需求結構具有針對網路裝置 Windows 媒體 DRM 的全域需求。
 ms.assetid: 140b3a6f-ccba-4735-b48a-2e990f5ec570
 keywords:
 - WMDRMNET_POLICY_GLOBAL_REQUIREMENTS 結構 windows 媒體格式
@@ -15,16 +15,16 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 0ccf13c881c9696d970a00ac902f3f8d08f13c58
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e2a8dc7be95638e171126eb4a55c50744ee3e5126d3e0b49eb8f229ec0257e9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000695"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843969"
 ---
 # <a name="wmdrmnet_policy_global_requirements-structure"></a>WMDRMNET \_ 原則的 \_ 全域 \_ 需求結構
 
-**WMDRMNET \_ 原則的 \_ 全域 \_ 需求** 結構具有適用于網路裝置之 Windows Media DRM 的全域需求。
+**WMDRMNET \_ 原則的 \_ 全域 \_ 需求** 結構具有針對網路裝置 Windows 媒體 DRM 的全域需求。
 
 ## <a name="syntax"></a>語法
 
@@ -44,7 +44,7 @@ typedef struct WMDRMNET_POLICY_GLOBAL_REQUIREMENTS {
 **MinimumEnvironment**
 </dt> <dd>
 
-[**WMDRMNET \_原則 \_ 最小 \_ 環境**](wmdrmnet-policy-minimum-environment.md) 結構，其中包含網路裝置的 Windows Media DRM 的最低安全性需求。
+[**WMDRMNET \_原則的 \_ 最小 \_ 環境**](wmdrmnet-policy-minimum-environment.md)結構，其中包含網路裝置 Windows 媒體 DRM 的最低安全性需求。
 
 </dd> </dl>
 

@@ -13,12 +13,12 @@ keywords:
 - 對等
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0d365b0a69ecd94a07811b24762aa4bffdc8c9f1
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 29729fa19e67fb4695d8e6eca986488735d9b4529d9479615665a9ba2b5f3360
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104507871"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375795"
 ---
 # <a name="audio-compression-manager-reference"></a>音訊壓縮管理員參考
 
@@ -38,7 +38,7 @@ ms.locfileid: "104507871"
 -   [**acmDriverProc**](/windows/desktop/api/Msacm/nc-msacm-acmdriverproc)
 -   [**acmDriverRemove**](/windows/desktop/api/Msacm/nf-msacm-acmdriverremove)
 
-## <a name="filters"></a>篩選器
+## <a name="filters"></a>篩選
 
 -   [**ACMFILTERCHOOSE**](/windows/win32/api/msacm/ns-msacm-acmfilterchoose)
 -   [**acmFilterChooseHookProc**](/windows/desktop/api/Msacm/nc-msacm-acmfilterchoosehookproc)
@@ -91,6 +91,6 @@ ms.locfileid: "104507871"
 [音訊壓縮管理員](audio-compression-manager.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

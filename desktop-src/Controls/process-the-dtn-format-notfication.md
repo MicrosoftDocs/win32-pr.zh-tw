@@ -4,12 +4,12 @@ description: 本主題示範如何處理日期和時間選擇器所傳送的格�
 ms.assetid: 7B559846-FE52-4181-B25D-888BE90EB038
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 25271ff33ee6978ebcb0bc474492f884ed7faaa2
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 070d1234dbd9d09159335539309deec86e2d3e1e05547d933cd18f16b9d7162d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "103842895"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829909"
 ---
 # <a name="how-to-process-the-dtn_format-notification"></a>如何處理 DTN \_ 格式通知
 
@@ -19,12 +19,12 @@ ms.locfileid: "103842895"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 

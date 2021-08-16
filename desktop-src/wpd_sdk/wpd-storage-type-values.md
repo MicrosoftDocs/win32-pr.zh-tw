@@ -1,5 +1,5 @@
 ---
-description: WPD \_ 儲存體 \_ 類型 \_ 值列舉類型會描述不同的 Windows 可攜式裝置儲存類型。
+description: WPD \_ 儲存體 \_ 類型 \_ 值列舉型別描述不同的 Windows 可攜式裝置儲存體類型。
 ms.assetid: 52c34458-e64e-4355-9231-7457a6dff5c5
 title: 'WPD_STORAGE_TYPE_VALUES 列舉 (PortableDevice .h) '
 ms.topic: reference
@@ -13,16 +13,16 @@ api_type:
 - HeaderDef
 api_location:
 - PortableDevice.h
-ms.openlocfilehash: b741feb1cb9a834e16a35627fe98718ac8acf30f
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 1aad78833f9e5baa0d3c7da3ab37d39f4159672b85d5c01c54ae8b034c5b43d1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106989639"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842074"
 ---
 # <a name="wpd_storage_type_values-enumeration"></a>WPD \_ 儲存體 \_ 類型 \_ 值列舉
 
-**WPD \_ 儲存體 \_ 類型 \_ 值** 列舉類型會描述不同的 Windows 可攜式裝置儲存類型。
+**WPD \_ 儲存體 \_ 類型 \_ 值** 列舉型別描述不同的 Windows 可攜式裝置儲存體類型。
 
 ## <a name="syntax"></a>Syntax
 

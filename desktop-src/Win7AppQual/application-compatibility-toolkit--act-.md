@@ -24,7 +24,7 @@ ms.locfileid: "118330091"
 **伺服器：** Windows server 2003 \| Windows server 2008 \| Windows server 2008 R2  
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Microsoft 應用程式相容性工具組 (ACT) 是一種生命週期管理工具，可協助您識別和管理整體應用程式組合、減少解決應用程式相容性問題所需的成本和時間，並協助您快速部署 Windows 和 Windows 更新。
 

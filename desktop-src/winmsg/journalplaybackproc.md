@@ -41,7 +41,7 @@ ms.locfileid: "118437125"
 ---
 # <a name="journalplaybackproc-function"></a>JournalPlaybackProc 函式
 
-## <a name="description"></a>描述
+## <a name="description"></a>Description
 
 搭配 [SetWindowsHookEx](/windows/desktop/api/winuser/nf-winuser-setwindowshookexw) 函式使用的應用程式定義或程式庫定義的回呼函數。
 一般而言，應用程式會使用此函式來播放一系列 **JournalRecordProc** 攔截程式先前錄製的滑鼠和鍵盤訊息。

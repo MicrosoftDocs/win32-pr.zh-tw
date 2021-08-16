@@ -4,21 +4,21 @@ ms.assetid: 54dcaa0e-2652-406d-ba24-c8885924acc6
 title: 舊版 Windows 多媒體應用程式的裝置角色
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 44a4ad6728659e4c865aed773575268844fe330e
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: f6b0c1c8b61da896ca8877a913ba14d5013de71ac6fd7c14bcdebfe21c4ffcb7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106981936"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118406918"
 ---
 # <a name="device-roles-for-legacy-windows-multimedia-applications"></a>舊版 Windows 多媒體應用程式的裝置角色
 
 > [!Note]  
-> MMDevice API 支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱 [Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
+> MMDevice API 支援裝置角色。 不過，Windows Vista 中的使用者介面並不支援這項功能。 裝置角色的使用者介面支援可能會在未來的 Windows 版本中執行。 如需詳細資訊，請參閱[Windows Vista 中的裝置角色](device-roles-in-windows-vista.md)。
 
  
 
-舊版 Windows 多媒體 **waveOutXxx** 和 **waveInXxx** 函式不提供任何方法，讓應用程式選取使用者指派給特定 [裝置角色](device-roles.md)的 [音訊端點裝置](audio-endpoint-devices.md)。 不過，在 Windows Vista 中，核心音訊 Api 可以與 Windows 多媒體應用程式搭配使用，以根據裝置角色啟用裝置選取。 例如，在 [MMDEVICE API](mmdevice-api.md)的協助下， **waveOutXxx** 應用程式可以識別指派給角色的音訊端點裝置、識別對應的波形輸出裝置，以及呼叫 **waveOutOpen** 函式來開啟裝置的實例。 如需 **waveOutXxx** 和 **waveInXxx** 的詳細資訊，請參閱 Windows SDK 檔。
+舊版 Windows 多媒體 **waveOutXxx** 和 **waveInXxx** 函式不提供任何方法，讓應用程式選取使用者指派給特定 [裝置角色](device-roles.md)的 [音訊端點裝置](audio-endpoint-devices.md)。 不過，在 Windows Vista 中，核心音訊 api 可與 Windows 多媒體應用程式搭配使用，以根據裝置角色啟用裝置選取。 例如，在 [MMDEVICE API](mmdevice-api.md)的協助下， **waveOutXxx** 應用程式可以識別指派給角色的音訊端點裝置、識別對應的波形輸出裝置，以及呼叫 **waveOutOpen** 函式來開啟裝置的實例。 如需 **waveOutXxx** 和 **waveInXxx** 的詳細資訊，請參閱 Windows SDK 檔。
 
 下列程式碼範例顯示如何取得指派給特定裝置角色之轉譯端點裝置的波形裝置識別碼：
 
@@ -153,7 +153,7 @@ Exit:
 
 **WaveOutMessage** 的第二個呼叫會傳送 winspool.drv \_ QUERYFUNCTIONINSTANCEID 訊息，以抓取波形輸出裝置的裝置識別碼字串。 範例程式碼會將此字串與具有指定裝置角色之音訊端點裝置的裝置識別碼字串進行比較。 如果字串相符，則函式會將波形裝置識別碼寫入至參數 *pWaveOutId* 所指向的位置。 呼叫端可以使用此識別碼來開啟具有指定裝置角色的波形輸出裝置。
 
-Windows Vista 支援 WINSPOOL.DRV \_ QUERYFUNCTIONINSTANCEIDSIZE 和 Winspool.drv \_ QUERYFUNCTIONINSTANCEID 訊息。 舊版 Windows 不支援這些功能，包括 Windows Server 2003、Windows XP 及 Windows 2000。
+WindowsVista 支援 WINSPOOL.DRV \_ QUERYFUNCTIONINSTANCEIDSIZE 和 Winspool.drv \_ QUERYFUNCTIONINSTANCEID 訊息。 舊版的 Windows 不支援這些版本，包括 Windows Server 2003、Windows XP 和 Windows 2000。
 
 上述程式碼範例中的函式會取得轉譯裝置的波形裝置識別碼，但是只要進行一些修改，您就可以調整它以取得捕獲裝置的波形裝置識別碼。 然後，應用程式可以使用此識別碼呼叫 **waveInOpen** 來開啟裝置。 若要變更上述的程式碼範例，以取得指派給特定角色之音訊捕獲端點裝置的波形裝置識別碼，請執行下列動作：
 

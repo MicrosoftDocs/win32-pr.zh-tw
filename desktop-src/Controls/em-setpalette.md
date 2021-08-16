@@ -3,7 +3,7 @@ title: 'EM_SETPALETTE 訊息 (Richedit .h) '
 description: 變更 rich edit 控制項用於顯示視窗的調色板。
 ms.assetid: c1dc0c24-eaf2-47a8-9bb1-59f37b206feb
 keywords:
-- EM_SETPALETTE message Windows 控制項
+- EM_SETPALETTE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 026a0a85001818b6f69366e8dba80ef56a7a8f20
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 93225a7a550f86bb8b32bf5939a8c7b7aa862ac96c8459bd6bcceb4c6b76e516
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117831149"
 ---
 # <a name="em_setpalette-message"></a>EM \_ SETPALETTE 訊息
 
@@ -57,8 +57,8 @@ Rich edit 控制項不會檢查新的調色板是否有效。
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

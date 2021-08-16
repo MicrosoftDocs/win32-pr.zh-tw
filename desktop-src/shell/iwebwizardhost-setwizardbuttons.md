@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shldisp.h
 ms.assetid: 863aa667-454c-40cd-8091-9bb456047b6c
-ms.openlocfilehash: a1b2a79c7ea323c36371e08d3519e71e4c537935
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 36b40d0831c18a7931f3f29492dd4c7769440a76ddcec2aa33ba3e840e97950d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109842619"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859121"
 ---
 # <a name="webwizardhostsetwizardbuttons-method"></a>WebWizardHost. SetWizardButtons 方法
 
@@ -78,10 +78,10 @@ iRetVal = WebWizardHost.SetWizardButtons(
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 WINDOWS XP desktop 應用程式\]<br/>                                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                   |
+| 最低支援的用戶端<br/> | Windows\[僅限 XP desktop 應用程式\]<br/>                                            |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                   |
 | 標頭<br/>                   | <dl> <dt>Shldisp。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>Shldisp .idl</dt> </dl> |
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: c1335aa5-a6c5-44a7-bd5d-a8969467578b
 title: 操作裝置內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aeca215e9de9beeb6557ae8d04e427951d387291
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e346af0d3bb75a45faa01aaef7a7a512e1a8189f0c809ec21f1d18456bd4e2f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193544"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842889"
 ---
 # <a name="operating-on-device-content"></a>操作裝置內容
 

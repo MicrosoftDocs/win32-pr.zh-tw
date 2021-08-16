@@ -4,12 +4,12 @@ ms.assetid: ADF27BFD-CC96-43F9-9EBB-DEBE0DEA7B92
 title: 如何實行圖示重迭處理常式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e22c1057f65c50b31c6627846ec77103827a0283
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8745d0d5c0cf9c69f28f0235ecc82acb07a14f1e3408d7fa7d65cf729e01403f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973140"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859695"
 ---
 # <a name="how-to-implement-icon-overlay-handlers"></a>如何實行圖示重迭處理常式
 

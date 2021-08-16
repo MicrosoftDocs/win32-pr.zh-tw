@@ -4,12 +4,12 @@ ms.assetid: E1A7B1B0-2879-452E-9EBB-73F02B932200
 title: 如何手動啟用自動完成
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: aee4b327c6ccdd62fd921c56cfb046edb8527bc2
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c7df686e4c5a4a6e96b1faf82e4926dffc73398b360e3e6235d6a61451eae189
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104973157"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117859705"
 ---
 # <a name="how-to-enable-autocomplete-manually"></a>如何手動啟用自動完成
 
@@ -126,7 +126,7 @@ ms.locfileid: "104973157"
 
 ### <a name="creating-a-compound-autocomplete-object"></a>建立複合自動完成物件
 
-複合自動完成物件會與多個來源的字串相符。 例如，Windows Internet Explorer 網址列會使用複合自動完成物件，因為使用者可能會開始輸入檔案或 URL 的名稱。 建立複合自動完成物件所涉及的大部分步驟，與「建立簡單的自動完成物件」中的步驟相同。 這些步驟會以這樣的方式表示。
+複合自動完成物件會與多個來源的字串相符。 例如，Windows Internet Explorer Address bar 會使用複合自動完成物件，因為使用者可能會開始輸入檔案或 URL 的名稱。 建立複合自動完成物件所涉及的大部分步驟，與「建立簡單的自動完成物件」中的步驟相同。 這些步驟會以這樣的方式表示。
 
 1.  建立自動完成物件。 這與上述步驟1相同。
 

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: 0731182f5c01ad56db722972628d2cbe39373835
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9fe05c354aaa901d87c77ba04eecd5dc4efd925d77bdeaf5387a137d85b27348
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104972064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117861509"
 ---
 # <a name="comparestringwrapw-function"></a>CompareStringWrapW 函式
 
-\[**CompareStringWrapW** 可用於 Windows XP。 在後續版本中將無法使用。 您應該在其位置使用 [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 。\]
+\[**CompareStringWrapW** 可在 Windows XP 中使用。 在後續版本中將無法使用。 您應該在其位置使用 [**CompareStringW**](/windows/win32/api/stringapiset/nf-stringapiset-comparestringw) 。\]
 
 使用指定的地區設定，比較兩個 Unicode 字元字串。
 
@@ -228,8 +228,8 @@ int CompareStringWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>None</dt> </dl>                               |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 

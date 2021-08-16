@@ -3,17 +3,17 @@ title: 字典
 description: 字典允許 token 化通用節點資料，例如二進位 XML 格式內的元素/屬性名稱、命名空間和一般文字。
 ms.assetid: 6f25366c-0e81-479b-930e-ff088d425562
 keywords:
-- 適用于 Windows 的詞典 Web 服務
+- Windows 的字典 Web 服務
 - WWSAPI
 - WWS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75ba13760a1ff1a1cef61ff6015c5630ab0e134c
-ms.sourcegitcommit: a716ca2a6a22a400f02c6b31699cf4da83ee3619
+ms.openlocfilehash: 8ea9ac022ab88f70b304b65581fbcdf294e9aee45c52e3ffd888138b82815230
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383314"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117841758"
 ---
 # <a name="dictionaries"></a>字典
 

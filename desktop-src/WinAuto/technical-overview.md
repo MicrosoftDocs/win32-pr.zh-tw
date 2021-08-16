@@ -1,19 +1,19 @@
 ---
 title: 技術概觀
-description: Microsoft Active Accessibility 改善協助工具輔助的方式 (特殊程式，協助殘障人士更有效地使用電腦) 使用在 Microsoft Windows 上執行的應用程式。
+description: Microsoft Active Accessibility 改善協助工具輔助的方式 (特殊程式，協助殘障人士更有效地使用電腦) 在 Microsoft Windows 上執行的應用程式。
 ms.assetid: d71ef40e-4c58-4ee6-8909-04ff4f8d20d3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69f3931c6a69e9b8caed849942424039178a7884
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f4e2bfd984dce863a2bdcdbd41d7b3d72b521861177bc4086a93eb578eb71c5a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103674831"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118325148"
 ---
 # <a name="technical-overview"></a>技術概觀
 
-Microsoft Active Accessibility 改善協助工具輔助的方式 (特殊程式，協助殘障人士更有效地使用電腦) 使用在 Microsoft Windows 上執行的應用程式。
+Microsoft Active Accessibility 改善協助工具輔助的方式 (特殊程式，協助殘障人士更有效地使用電腦) 在 Microsoft Windows 上執行的應用程式。
 
 Microsoft Active Accessibility 是以元件物件模型為基礎， (COM) （由 Microsoft 開發），它是一種業界標準，可定義應用程式和作業系統進行通訊的常見方式。 Microsoft Active Accessibility 是由下列元件所組成：
 
@@ -37,9 +37,9 @@ Oleacc.dll Microsoft Active Accessibility DLL 包含下列元件：
 -   [用戶端指導方針](client-guidelines.md)
 -   [COM 和 Unicode 指導方針](com-and-unicode-guidelines.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -13,12 +13,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e2417c6bea1338031b27c8debc3ed257ea6e8d58
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 8f6508f4c75b07a095cb3fb12f5d422975396a38cc2aff0476e2b008336bd7e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "104025512"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835708"
 ---
 # <a name="validated-spn-validated-writes"></a>已驗證-SPN 驗證的寫入
 
