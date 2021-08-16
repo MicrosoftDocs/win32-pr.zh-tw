@@ -1,19 +1,19 @@
 ---
-title: '描述屬性 (舊版 Windows 環境功能) '
+title: 'Description 屬性 (舊版 Windows 環境功能) '
 description: Description 屬性
 ms.assetid: 81ac4bc7-ef0c-4e7c-b57e-acc4ad315515
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b4fb60b20a57f56a914c7e44ced957d91bf7085
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: da7ff293af98303fa0dab97aca76ed169123ea229c1fc70c156ef2c099472157
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "104024428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118751990"
 ---
-# <a name="description-property-legacy-windows-environment-features"></a>描述屬性 (舊版 Windows 環境功能) 
+# <a name="description-property-legacy-windows-environment-features"></a>Description 屬性 (舊版 Windows 環境功能) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

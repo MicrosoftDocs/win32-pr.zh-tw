@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - windows.media.core.interop.h
-ms.openlocfilehash: c612d2d34e23b393921f83f7dbe9e189aa366b30
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 832b2e300887699b926362ce9cbfc6f334c181805bacb3546532920c684251d5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943429"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993768"
 ---
 # <a name="ivideoframenativegetdata-method"></a>IVideoFrameNative：：：：的方法
 

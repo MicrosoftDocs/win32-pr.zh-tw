@@ -17,12 +17,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 1e982e2475fe20a2aa12bef9c52095eed228bf44
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
-ms.translationtype: HT
+ms.openlocfilehash: a095323244cd46526c0df9da23b45a6b0d1e3bdc5e4492a620c734f8745570aa
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322688"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118534082"
 ---
 # <a name="id3dx11effectscalarvariablesetboolarray-method"></a>ID3DX11EffectScalarVariable：： SetBoolArray 方法
 

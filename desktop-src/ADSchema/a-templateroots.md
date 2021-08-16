@@ -14,12 +14,12 @@ api_type:
 - Schema
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 761c6d3d79bbf45e9a4d391b612956d6893cd314
-ms.sourcegitcommit: b77ace27b0432e7cd3863191b11926be032fbe2f
+ms.openlocfilehash: 06b037afe0e2489a2979e7d7b873e37cfc365643cb4728ab0411e4c56827a019
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/14/2020
-ms.locfileid: "103687127"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119923038"
 ---
 # <a name="template-roots-attribute"></a>Template-Roots 屬性
 

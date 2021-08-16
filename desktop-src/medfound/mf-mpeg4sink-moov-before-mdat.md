@@ -4,12 +4,12 @@ ms.assetid: 97B68B0A-8266-4FCF-8CD9-35890E1AC774
 title: 'MF_MPEG4SINK_MOOV_BEFORE_MDAT 屬性 (Mfidl) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5b5d345dc027c457ceb6123ce3854fff4b74f987
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e98614484beee5187364570e3c5517ba0f61e0d77161484b59af93a9f5a6512c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106993179"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104734"
 ---
 # <a name="mf_mpeg4sink_moov_before_mdat-attribute"></a>\_ \_ \_ MDAT 屬性之前的 MF MPEG4SINK MOOV \_
 
@@ -33,8 +33,8 @@ Mpeg4 媒體接收器的預設行為是在 [mdat] 方塊後面寫入 ' moov '。
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                        |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                        |
 | 標頭<br/>                   | <dl> <dt>Mfidl。h</dt> </dl> |
 
 

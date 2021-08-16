@@ -4,12 +4,12 @@ ms.assetid: 255162c5-ad12-4236-81df-7ed43d75854d
 title: D3DX 常數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fff5757b020c14a6b371c4acfdb8ec075ca028c8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: e1204016132da7ef7ccd61213e60c90e8e31122a3a87895ec7475f42e6202fef
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106970493"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118803223"
 ---
 # <a name="d3dx-constants"></a>D3DX 常數
 

@@ -4,12 +4,12 @@ ms.assetid: 7bc26f7b-c355-448a-9f23-4ccfffea2fef
 title: 廠商包裝函式服務提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37b7d22fea8e450111e1611f2ec069697c229a32
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: aeec4a8a5125e8fe19201a6c810eb87705eb7b5614b49fb455e8a96af63c8d26
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112789"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785840"
 ---
 # <a name="vendor-wrapper-service-provider"></a>廠商包裝函式服務提供者
 
@@ -35,7 +35,7 @@ Microsoft SCardCOM 範例包裝函式會使用 ATL COM 程式庫來執行簡單�
 
 
 
-| 介面或物件                                     | Description                         |
+| 介面或物件                                     | 描述                         |
 |---------------------------------------------------------|-------------------------------------|
 | [**ISCardAuth**](iscardauth.md)<br/>             | 驗證服務。<br/> |
 | [**ISCardFileAccess**](iscardfileaccess.md)<br/> | 檔案系統服務。<br/>    |

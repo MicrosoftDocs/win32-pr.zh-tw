@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55103010
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 2b272c05c30fd2efc5554fa8a27eaf9a11512909
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2b798c20e831de2c02f44dd159945fc79f948007103caf2cd675be5bd6fe26eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119113714"
 ---
 # <a name="esenttablenotemptyexception-members"></a>EsentTableNotEmptyException 成員
 

@@ -4,12 +4,12 @@ ms.assetid: 22e5725d-de55-4a0c-a6cc-1ed9f20e7663
 title: 'MF_ASFPROFILE_MINPACKETSIZE 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2d8e1aaea4fe1dfc2c6e01e969bc8b588ac21e50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0eb233492308865b5f4044765c6323e113d73a6680ce05e629f7e1fe3b4076b6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106971484"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120013428"
 ---
 # <a name="mf_asfprofile_minpacketsize-attribute"></a>MF \_ ASFPROFILE \_ MINPACKETSIZE 屬性
 
@@ -31,8 +31,8 @@ ms.locfileid: "106971484"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

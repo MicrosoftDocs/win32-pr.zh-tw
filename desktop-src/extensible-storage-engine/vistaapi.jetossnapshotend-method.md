@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 291d83929940a9f66f4e16c5088e6ec08187f908
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8aa385dbba241a631bc7bc29c5ca7905c4a609f6eb2231a984b4c0e9d1db8eb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103690804"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119106815"
 ---
 # <a name="vistaapijetossnapshotend-method"></a>VistaApi. JetOSSnapshotEnd 方法
 

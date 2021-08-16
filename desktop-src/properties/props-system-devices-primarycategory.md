@@ -4,12 +4,12 @@ ms.assetid: d9cb507a-3179-4cc0-83e6-9792f7e93d54
 title: PrimaryCategory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dff7e58a39b39e5aee28865ca17e90bbe581ce9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c0fc58f0b3899ed423faeb1d9d8753f0fbdac6e3c8a94205d9237cb87866747b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106997201"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119097247"
 ---
 # <a name="systemdevicesprimarycategory"></a>PrimaryCategory
 

@@ -19,7 +19,7 @@ ms.locfileid: "119373568"
 
 | 屬性                                                   | 描述                                      |
 |------------------------------------------------------------|--------------------------------------------------|
-| [**Product**](/windows/desktop/api/Wuapi/nf-wuapi-iinvalidproductlicenseexception-get_product) | 取得產品的語言非變異名稱。 |
+| [**產品**](/windows/desktop/api/Wuapi/nf-wuapi-iinvalidproductlicenseexception-get_product) | 取得產品的語言非變異名稱。 |
 
 
 

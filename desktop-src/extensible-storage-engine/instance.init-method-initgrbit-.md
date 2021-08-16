@@ -20,12 +20,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3f87247a77cb89e6e5e9e20048b04f8d9fae36ea
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b2ce0ba3edd115802c07a0df2a3cc454f9953f7548692bce7aab7734da2a17fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193844"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112547"
 ---
 # <a name="instanceinit-method-initgrbit"></a>Instance.Init 方法 (InitGrbit) 
 

@@ -4,12 +4,12 @@ description: 本主題討論一般控制項，這是由通用控制項程式庫�
 ms.assetid: c0d3eff4-c5b5-4b59-b980-96e0e4d6a595
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: de0e83f5a2d63ada530f3fec15d5ea5803bcabf9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: ec57117aa125da853f710ddcc48705eb7400a669ae8555568c8b023ad8a4c8ee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021028"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119698808"
 ---
 # <a name="about-common-controls"></a>關於通用控制項
 
@@ -30,12 +30,12 @@ ms.locfileid: "104021028"
 [一般控制項參考](common-control-reference.md)
 </dt> <dt>
 
-[Windows 控制項](window-controls.md)
+[Windows控制](window-controls.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1ba5afa238107d60620291b50b8f184eb4e5d361
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: afb625c0f8db9d04737420ab386095bbe70b3e0f23e375f75c212da71e59b0cc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106988606"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118801946"
 ---
 # <a name="id3dxprtbufferattachgh-method"></a>ID3DXPRTBuffer：： AttachGH 方法
 

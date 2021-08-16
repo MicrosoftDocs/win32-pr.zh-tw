@@ -4,12 +4,12 @@ description: Direct3D 會實行用來儲存未壓縮或壓縮 (DXTn) 材質的 D
 ms.assetid: 39f9847e-3b1c-4401-a253-74c183ffcc83
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4940db5ec40e6ec0b907aa4ee7ce725cd585e961
-ms.sourcegitcommit: f01bc6744cea55ad1aeeace7981a30b567e6fe60
+ms.openlocfilehash: c8fc1f8b9b84c2dc1f9236c79c320ae75848834ef2183db55b189f6b9d340d06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "104383290"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118796718"
 ---
 # <a name="programming-guide-for-dds"></a>DDS 程式設計指南
 
@@ -193,7 +193,7 @@ for (int iArrayElement = 0; iArrayElement < header10.arraySize; iArrayElement++)
 
 <dl> <dt>
 
-[Dds](dx-graphics-dds.md)
+[DDS](dx-graphics-dds.md)
 </dt> </dl>
 
  

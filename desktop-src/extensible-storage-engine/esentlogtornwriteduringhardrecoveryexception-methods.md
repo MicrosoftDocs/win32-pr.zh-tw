@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102172
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: fcb8a0de1c179bbdcf3a8306be69e090979a0634
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: fcd2eb9843cb15b09fde2493198aa9df1a9e9b21a885f4bbbd765d96e62dd3ae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104558396"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119115648"
 ---
 # <a name="esentlogtornwriteduringhardrecoveryexception-methods"></a>EsentLogTornWriteDuringHardRecoveryException 方法
 

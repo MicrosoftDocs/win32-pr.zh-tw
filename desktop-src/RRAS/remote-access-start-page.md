@@ -9,18 +9,18 @@ keywords:
 - RAS RAS，請參閱遠端存取
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 95a4b1c06656b51395c8c4fc666e59d6115bd839
-ms.sourcegitcommit: 3e70ae762629e244028b437420ed50b5850db4e3
+ms.openlocfilehash: 7e300061c328751f288634faf2f36ab0391ba41d7079e4f42c842d31b3e29397
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "104092560"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117788283"
 ---
 # <a name="remote-access"></a>遠端存取
 
 ## <a name="purpose"></a>目的
 
-使用遠端存取服務 (RAS) 來建立用戶端應用程式。 這些應用程式會顯示 RAS 通用對話方塊、管理遠端存取連線和裝置，以及操作電話簿專案。 RAS 也為遠端存取服務提供新一代的伺服器功能， (RAS) for Windows。 RRAS 伺服器功能遵循，並以遠端存取服務 (RAS) 為基礎。
+使用遠端存取服務 (RAS) 來建立用戶端應用程式。 這些應用程式會顯示 RAS 通用對話方塊、管理遠端存取連線和裝置，以及操作電話簿專案。 RAS 也為遠端存取服務提供新一代的伺服器功能， (RAS) 用於 Windows。 RRAS 伺服器功能遵循，並以遠端存取服務 (RAS) 為基礎。
 
 ## <a name="where-applicable"></a>適用時
 
@@ -34,7 +34,7 @@ RAS API 是設計來供 C/c + + 程式設計人員使用。 Microsoft Visual Bas
 
 只有網路伺服器上才支援 RAS API 中的部分功能，而只有網路用戶端支援其他功能。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
 
-您可以藉由安裝[rras](https://www.microsoft.com/ntserver/nts/downloads/winfeatures/rras/rrasdown.asp)可轉散發套件，將 rras 的[增強 RAS 功能](function-comparison-windows-2000-versus-rras-redistributable.md)提供給 Windows NT Server 4.0。 RRAS 的所有功能都整合到 Windows 2000 Server、Windows Server 2003 和 Windows Server 2008 中。 RRAS 應用程式無法在 Windows NT 工作站4.0 或用戶端作業系統（例如 Windows 95）上執行。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
+您可以藉由安裝[rras](https://www.microsoft.com/ntserver/nts/downloads/winfeatures/rras/rrasdown.asp)可轉散發套件，將 rras 的[增強 RAS 功能](function-comparison-windows-2000-versus-rras-redistributable.md)提供給 Windows NT Server 4.0。 RRAS 的所有功能都併入 Windows 2000 server、Windows server 2003 和 Windows Server 2008 中。 RRAS 應用程式無法在 Windows NT 工作站4.0 或用戶端作業系統上執行，例如 Windows 95。 如需有關哪些作業系統支援特定功能的詳細資訊，請參閱檔中的需求一節。
 
 ## <a name="in-this-section"></a>本節內容
 
@@ -42,7 +42,7 @@ RAS API 是設計來供 C/c + + 程式設計人員使用。 Microsoft Visual Bas
 
 | 主題                                                                                             | 描述                                                                                                                                                                                                              |
 |---------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [遠端存取服務](about-remote-access-service.md)<br/>                               | 遠端存取服務 (RAS) 為執行 Windows 的電腦上的用戶端應用程式提供遠端存取功能。<br/>                                                                                          |
+| [遠端存取服務](about-remote-access-service.md)<br/>                               | 遠端存取服務 (RAS) 在執行 Windows 的電腦上提供遠端存取功能給用戶端應用程式。<br/>                                                                                          |
 | [遠端存取服務管理](about-remote-access-service-administration.md)<br/> | 遠端存取服務管理提供一組功能，可在 RAS 伺服器上管理使用者權限和埠。 您可以使用這些函數開發 RAS 伺服器管理應用程式。<br/> |
 
 

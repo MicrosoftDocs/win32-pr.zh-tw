@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: af401eaa98ac4255b15961477b1ba2316e29edf0
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 321f5075bdfde3a5a3d707089867356b3f702230dd81d2a1c29b513a8cf8e1ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104322976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118800371"
 ---
 # <a name="id3dxtexturegutterhelpergettexelmap-method"></a>ID3DXTextureGutterHelper：： GetTexelMap 方法
 

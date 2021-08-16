@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 770ac27596b4385d0012cb65847754b4deb7e9fc
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4a85673979a3b65d8c78ca06fae4496c11f8d2b31c810d411142e6c40bfd62cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974144"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119107240"
 ---
 # <a name="server2003paramalternatedatabaserecoverypath-field"></a>Server2003Param. AlternateDatabaseRecoveryPath 欄位
 

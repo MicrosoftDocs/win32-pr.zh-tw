@@ -4,12 +4,12 @@ ms.assetid: 9A68B650-97C0-4323-ACBF-5C8E496E8566
 title: MF_MSE_BUFFERLIST_CALLBACK 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 503b4850656a85385c8b58dc3949feb4b0234c9c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 64a9e17625789a8318a37128fa80ec71e4255c20988919c57a38843b9e0ecde9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106989296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119104614"
 ---
 # <a name="mf_mse_bufferlist_callback-attribute"></a>MF \_ MSE \_ BUFFERLIST \_ 回呼屬性
 
@@ -25,9 +25,9 @@ ms.locfileid: "106989296"
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8.1 桌面應用程式\]<br/>                                                 |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 R2 \[ desktop 應用程式\]<br/>                                      |
-| Idl<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
+| 最低支援的用戶端<br/> | Windows 8.1 \[僅限桌面應用程式\]<br/>                                                 |
+| 最低支援的伺服器<br/> | Windows Server 2012\[僅限 R2 desktop 應用程式\]<br/>                                      |
+| IDL<br/>                      | <dl> <dt>Mfmediaengine .idl</dt> </dl> |
 
 
 

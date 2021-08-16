@@ -69,7 +69,7 @@ HRESULT Next(
 
 
 
-| 傳回碼                                                                             | 描述                                                      |
+| 傳回碼                                                                             | Description                                                      |
 |-----------------------------------------------------------------------------------------|------------------------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>    | 此方法已成功。<br/>                                 |
 | <dl> <dt>**S \_ FALSE**</dt> </dl> | 沒有其他 MTP 藍牙裝置可列舉。<br/> |
@@ -125,7 +125,7 @@ IEnumPortableDeviceConnectors* pEnum = NULL;
 | 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                                                                                                             |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                                                                                                              |
 | 標頭<br/>                   | <dl> <dt>Devpkey .h;</dt><dt>Portabledeviceconnectapi .h</dt> </dl> |
-| Idl<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
+| IDL<br/>                      | <dl> <dt>Portabledeviceconnectapi .idl</dt> </dl>                                                                |
 | 程式庫<br/>                  | <dl> <dt>PortableDeviceGuids .lib</dt> </dl>                                                                     |
 
 

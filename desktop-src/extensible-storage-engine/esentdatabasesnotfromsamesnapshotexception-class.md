@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e6d26ecdab73517d1634bc6beb79dfc1249a2756
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f4a10d8a04c1b6d67ce7e388908ff996ca7db48a174998cd1c68da82c770315c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106986829"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119116138"
 ---
 # <a name="esentdatabasesnotfromsamesnapshotexception-class"></a>EsentDatabasesNotFromSameSnapshotException 類別
 

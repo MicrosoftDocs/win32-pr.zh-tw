@@ -26,12 +26,12 @@ ms.locfileid: "118703023"
 | 屬性                      | ID3v1. x | ID3v 2。2 | ID3v 2.3/2.4 版 |
 |--------------------------------|---------|---------|--------------|
 | **Author** (作者)                     | 演出者  | TP1     | TPE1         |
-| **Copyright** (著作權)                  |         | Tcr     | TCOP         |
+| **Copyright** (著作權)                  |         | TCR     | TCOP         |
 | **CopyrightURL**               |         | WCP     | WCOP         |
 | **說明**                | 註解 | COM     | COMM         |
 | **有效期間**                   |         | TLE     | TLEN         |
 | **FileSize**                   |         |         | TSIZ         |
-| **標題**                      | Title   | TT2     | TIT2         |
+| **標題**                      | 標題   | TT2     | TIT2         |
 | **WM/AlbumArtist**             |         | TP2     | TPE2         |
 | **WM/AlbumSortOrder**          |         |         | TSOA         |
 | **WM/AlbumTitle**              | 專輯   | 塔爾     | TALB         |
@@ -46,7 +46,7 @@ ms.locfileid: "118703023"
 | **WM/導體**               |         | TP3     | TPE3         |
 | **WM/ContentGroupDescription** |         | TT1     | TIT1         |
 | **WM/EncodedBy**               |         | 十     | TENC         |
-| **WM/EncodingSettings**        |         | Tss     | TSSE         |
+| **WM/EncodingSettings**        |         | TSS     | TSSE         |
 | **WM/EncodingTime**            |         |         | TDEN         |
 | **WM/GenreID**                 | GenreID | TCO     | TCON         |
 | **WM/InitialKey**              |         |         | TKEY         |
@@ -56,12 +56,12 @@ ms.locfileid: "118703023"
 | **WM/MCDI**                    |         |         | MCDI         |
 | **WM/ModifiedBy**              |         |         | TPE4         |
 | **WM/情緒**                    |         |         | TMOO         |
-| **WM/OriginalAlbumTitle**      |         | Tot     | 總數         |
+| **WM/OriginalAlbumTitle**      |         | TOT     | 總數         |
 | **WM/OriginalArtist**          |         | 守護 神     | 頂端         |
-| **WM/OriginalFilename**        |         | Tof     | TOFN         |
+| **WM/OriginalFilename**        |         | TOF     | TOFN         |
 | **WM/OriginalLyricist**        |         | TOL     | TOLY         |
-| **WM/OriginalReleaseYear**     |         | Tor     | 保守黨         |
-| **WM/PartOfSet**               |         | Tpa     | TPOS         |
+| **WM/OriginalReleaseYear**     |         | TOR     | 保守黨         |
+| **WM/PartOfSet**               |         | TPA     | TPOS         |
 | **WM/圖片**                 |         | PIC     | APIC         |
 | **WM/PlaylistDelay**           |         |         | TDLY         |
 | **WM/Publisher**               |         | 城 規 會     | TPUB         |

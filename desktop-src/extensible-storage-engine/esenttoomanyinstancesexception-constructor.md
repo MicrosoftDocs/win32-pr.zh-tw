@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 647f3c6bd09c614355d3642fa5f2915b3fd0d12e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f2c429fda421ddf67061780772e5969082b72ed713ad64cfc0c3a32934aab7a6
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104469325"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120093798"
 ---
 # <a name="esenttoomanyinstancesexception-constructor"></a>EsentTooManyInstancesException 函式
 

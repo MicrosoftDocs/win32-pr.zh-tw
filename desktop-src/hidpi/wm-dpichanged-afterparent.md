@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 10cc76602662cefba42f62bd3ed85913ade40f15
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: d47f303db19438f1e7e2cd77df60ddace76bec791bb1789bed47e3f09d8a197c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "106989172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118759361"
 ---
 # <a name="wm_dpichanged_afterparent-message"></a>WM \_ DPICHANGED \_ AFTERPARENT 訊息
 
@@ -67,7 +67,7 @@ ms.locfileid: "106989172"
 | 需求 | 值 |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1703版桌面應用程式\]<br/>                            |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2016 \[ desktop 應用程式\]<br/>                                 |
+| 最低支援的伺服器<br/> | Windows Server 2016 \[僅限桌面應用程式\]<br/>                                 |
 | 標頭<br/>                   | <dl> <dt>Winuser。h</dt> </dl> |
 
 

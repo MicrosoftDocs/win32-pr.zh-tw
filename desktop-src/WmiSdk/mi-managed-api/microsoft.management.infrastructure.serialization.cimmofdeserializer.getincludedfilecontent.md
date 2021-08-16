@@ -27,12 +27,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: cb922d785da7d01de93adec56cefee29785210d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f8b34b9c96f418bc0facf615c86a69ea1a958726407a93bf97e7421a1582f997
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973699"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992868"
 ---
 # <a name="cimmofdeserializergetincludedfilecontent-delegate-string"></a>CimMofDeserializer. GetIncludedFileContent 委派 (字串) 
 

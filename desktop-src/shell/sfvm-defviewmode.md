@@ -13,12 +13,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: 8d57bb61b2b938947d0290345215e3735d9d8763
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 28958fd992f70924ebbd51c06090d3a55c0ef8e6418d1ee055c5eb534acb9d3d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991778"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120090158"
 ---
 # <a name="sfvm_defviewmode-message"></a>SFVM \_ DEFVIEWMODE 訊息
 

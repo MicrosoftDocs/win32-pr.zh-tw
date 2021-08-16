@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 註冊事件取用者提供者
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df6bf47e11b1b9df072f9efbca0ba0f620e96d78
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1922970838b99e2a4a371ed7b00ae0f506a0381f0018509bfd6874074e0dd8f8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692200"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992539"
 ---
 # <a name="registering-an-event-consumer-provider"></a>註冊事件取用者提供者
 

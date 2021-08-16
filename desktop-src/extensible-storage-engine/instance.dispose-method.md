@@ -14,12 +14,12 @@ dev_langs:
 - JScript
 - VB
 - other
-ms.openlocfilehash: 0136d03aa492667e0464f8c02113fe3c4ae8de3e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e1962a466ddb394f9863368bfc2ff1f4f508727ceef3ad9124c9dd3bceb93fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104571802"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119112587"
 ---
 # <a name="instancedispose-method"></a>Instance. Dispose 方法
 
@@ -32,7 +32,7 @@ ms.locfileid: "104571802"
 <thead>
 <tr class="header">
 <th> </th>
-<th>Name</th>
+<th>名稱</th>
 <th>描述</th>
 </tr>
 </thead>

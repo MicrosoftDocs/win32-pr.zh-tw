@@ -4,12 +4,12 @@ ms.assetid: C3B475B1-9A44-47EA-BCE7-D3D0FB56DDAC
 title: 'MF_SA_D3D11_BINDFLAGS 屬性 (Mftransform) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6bb5ae4161a6782a3ea7a69b471044e43c5ee7a4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 65f0fbc607ccdc8f878e25109fcadfdf8956007d99909d9a21c0e668951106d9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319311"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119102461"
 ---
 # <a name="mf_sa_d3d11_bindflags-attribute"></a>MF \_ SA \_ D3D11 \_ BINDFLAGS 屬性
 
@@ -49,8 +49,8 @@ ms.locfileid: "104319311"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 8 \[ 桌面應用程式 \| UWP 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | Windows Server 2012 \[ desktop app \| UWP 應用程式\]<br/>                              |
+| 最低支援的用戶端<br/> | Windows 8 \[桌面應用程式 \| UWP 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[桌面應用程式 \| UWP 應用程式\]<br/>                              |
 | 標頭<br/>                   | <dl> <dt>Mftransform。h</dt> </dl> |
 
 

@@ -4,12 +4,12 @@ ms.assetid: e7b12b9e-8caa-4dad-b81f-b609ccb92c9f
 title: 使用 SecBufferDesc 和之 secbuffer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ca7d8155a610263838d2baf2a7d1c8fc96ec874
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 06ad12120414a1e0acb7a6b1cfe211b0ed1787d9e676e8329df1e16ecfef17cd
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851120"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117785908"
 ---
 # <a name="using-secbufferdesc-and-secbuffer"></a>使用 SecBufferDesc 和之 secbuffer
 

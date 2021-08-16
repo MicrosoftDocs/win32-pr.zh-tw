@@ -4,12 +4,12 @@ ms.assetid: bcd49aaf-b0e3-4c31-be95-986b8ad843a8
 title: 跨越進程界限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 046bc6f53d609ec22ed37edd08d6967cc4ae73e6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e0f8ba4c2d7a0a80ad97e62487421b5b4a0a6f8deda9d8edb550c2d8fcddab15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106970589"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117768869"
 ---
 # <a name="crossing-process-boundaries"></a>跨越進程界限
 
