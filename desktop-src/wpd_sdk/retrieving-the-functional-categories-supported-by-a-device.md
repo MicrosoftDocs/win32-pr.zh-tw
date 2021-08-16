@@ -4,16 +4,16 @@ ms.assetid: 7748e111-9987-4685-8fc8-10c5d4631080
 title: 正在抓取裝置支援的功能分類
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6514c6255fa089dc235b5edd8a25b5ef581aee84
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d410788616cc20563b914a293afcd8e2bbbd87099f738ae21463d2092c620597
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850627"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842690"
 ---
 # <a name="retrieving-the-functional-categories-supported-by-a-device"></a>正在抓取裝置支援的功能分類
 
-Windows 可攜式裝置可支援一或多個功能類別。 下表將說明這些類別。
+Windows可攜式裝置可支援一或多個功能類別。 下表將說明這些類別。
 
 
 

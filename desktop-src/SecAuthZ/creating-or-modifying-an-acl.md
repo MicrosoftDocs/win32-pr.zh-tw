@@ -1,19 +1,19 @@
 ---
-description: Windows 支援一組函式來建立存取控制清單 (ACL) 或修改現有 ACL (Ace) 的存取控制專案。
+description: Windows 支援一組函式，這些函式會建立存取控制清單 (acl) 或修改現有 acl 中 (ace) 的存取控制專案。
 ms.assetid: 71301aab-1040-4f61-855f-2b891c8b6077
 title: 建立或修改 ACL
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0deb72bcd1a1c805dd8524027601952dda0eac1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 120b445d37f8c4b82c2b0b2a775a06d68faa46ab5752cc25e913d43676e9a72e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848355"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782163"
 ---
 # <a name="creating-or-modifying-an-acl"></a>建立或修改 ACL
 
-Windows 支援一組函式來建立 [*存取控制清單*](/windows/desktop/SecGloss/a-gly) (ACL) 或修改現有 Acl (ace) 的 [*存取控制專案*](/windows/desktop/SecGloss/a-gly) 。
+Windows 支援一組函式，這些函式會建立 [*存取控制清單*](/windows/desktop/SecGloss/a-gly) (acl) 或修改現有 acl 中 (ace) 的 [*存取控制專案*](/windows/desktop/SecGloss/a-gly)。
 
 [**SetEntriesInAcl**](/windows/desktop/api/Aclapi/nf-aclapi-setentriesinacla)函式會建立新的 ACL。 **SetEntriesInAcl** 可以為 ACL 指定一組全新的 ace，也可以使用現有 ACL 的 ace 來合併一或多個新的 ace。 **SetEntriesInAcl** 函數會使用 [**明確 \_ 存取**](/windows/desktop/api/AccCtrl/ns-accctrl-explicit_access_a)結構的陣列來指定新 ace 的資訊。 每個 **明確的 \_ 存取** 結構都會包含描述單一 ACE 的資訊。 這項資訊包括存取權限、ACE 類型、控制 ACE 繼承的旗標，以及識別信任者的 [**信任**](/windows/desktop/api/AccCtrl/ns-accctrl-trustee_a) 結構。
 

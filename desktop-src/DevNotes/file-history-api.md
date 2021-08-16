@@ -4,12 +4,12 @@ ms.assetid: 7488BA36-DEBE-42F1-8A12-A2DB1DE8B827
 title: 檔案歷程記錄 API
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cb612a0bbbbd28b703a82bc65c5cd4d33640f760
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 375ebdac6f80c8a3e7faad357ce0f05a0d2123400b91a3271b4fd45e8fef53f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103936194"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117827469"
 ---
 # <a name="file-history-api"></a>檔案歷程記錄 API
 

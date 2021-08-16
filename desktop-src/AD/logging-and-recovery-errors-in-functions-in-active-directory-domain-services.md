@@ -7,12 +7,12 @@ keywords:
 - Active Directory 記錄和復原錯誤廣告
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e6fba921a63eb399d6ed4f44ef8569ed05370403
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 4b267b359b5244fddc0e8a9b2ddfbfb5d6e5f9ab0a7e647683d44759f8a7261b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106969433"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118186589"
 ---
 # <a name="logging-and-recovery-errors-in-functions-in-active-directory-domain-services"></a>Active Directory Domain Services 中函式的記錄和復原錯誤
 
@@ -181,7 +181,7 @@ ms.locfileid: "106969433"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -202,9 +202,9 @@ ms.locfileid: "106969433"
 [Active Directory Domain Services 中函數的傳回值](return-values-for-functions-in-active-directory-domain-services.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

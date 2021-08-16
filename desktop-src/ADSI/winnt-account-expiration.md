@@ -8,12 +8,12 @@ keywords:
 - WinNT 提供者 ADSI，使用者管理範例，帳戶到期日
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4936004cbd68c853f5e6d5c76a405f2a8340d22a
-ms.sourcegitcommit: 6515eef99ca0d1bbe3e27d4575e9986f5255f277
+ms.openlocfilehash: 4fd23973a4de31fed629428be9f4df1b6cade34e77f78680a5f87c9d55c42234
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/10/2021
-ms.locfileid: "106974825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838408"
 ---
 # <a name="account-expiration-winnt-provider"></a> (WinNT 提供者的帳戶到期) 
 

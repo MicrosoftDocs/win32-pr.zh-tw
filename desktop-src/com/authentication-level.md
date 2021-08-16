@@ -4,12 +4,12 @@ description: 驗證層級會控制用戶端或伺服器希望其 SSP 有多少�
 ms.assetid: 0bad2bfd-6930-42fc-beb0-bce32440b0b5
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 250661e4a8da42ffd91f37e282a39fbb52b6328a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a8c468408a22f1ea0c0fae67d7ce3d5f5b40f8a6342538614c1619acd40574ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104311510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118311148"
 ---
 # <a name="authentication-level"></a>驗證等級
 
@@ -33,7 +33,7 @@ COM 會使用其一般安全性整體協商來選擇驗證等級。 它永遠不
 
 </dd> <dt>
 
-<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>Connect (RPC \_ C \_ 驗證 \_ LEVEL \_ connect) 
+<span id="Connect__RPC_C_AUTHN_LEVEL_CONNECT_"></span><span id="connect__rpc_c_authn_level_connect_"></span><span id="CONNECT__RPC_C_AUTHN_LEVEL_CONNECT_"></span>連線 (RPC \_ C \_ 驗證 \_ LEVEL \_ Connect) 
 </dt> <dd>
 
 一般驗證交握會在用戶端與伺服器之間進行，並建立工作階段金鑰，但永遠不會將該金鑰用於用戶端與伺服器之間的通訊。 交握之後的所有通訊都不是安全的。
@@ -78,9 +78,9 @@ COM 會使用其一般安全性整體協商來選擇驗證等級。 它永遠不
 [LegacyAuthenticationLevel](legacyauthenticationlevel.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

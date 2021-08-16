@@ -4,12 +4,12 @@ ms.assetid: 2f3a7cab-3296-41ec-ac7e-224655b92a7c
 title: 建立伺服器的通訊端
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: bd3fb00cb8b1155f4d26d94c9a88328256effe23
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3e71d6ee0117153b00a9ab77c53bd7555aa031b3fa9d1f7a425ea9aaf0e358f7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104113089"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322198"
 ---
 # <a name="creating-a-socket-for-the-server"></a>建立伺服器的通訊端
 
@@ -60,7 +60,7 @@ ms.locfileid: "104113089"
 
     如果伺服器應用程式想要接聽 IPv6，則必須 \_ 在 *提示* 參數中將位址家族設定為 AF INET6。 如果伺服器想要同時接聽 IPv6 和 IPv4，則必須建立兩個接聽通訊端，一個用於 IPv6，另一個用於 IPv4。 這兩個通訊端必須由應用程式分開處理。
 
-    Windows Vista 和更新版本可讓您建立單一 IPv6 通訊端，以雙重堆疊模式來接聽 IPv6 和 IPv4。 如需這項功能的詳細資訊，請參閱 [雙重堆疊通訊端](dual-stack-sockets.md)。
+    WindowsVista 和更新版本可讓您建立單一 IPv6 通訊端，以在 IPv6 和 IPv4 上以雙重堆疊模式接聽。 如需這項功能的詳細資訊，請參閱 [雙重堆疊通訊端](dual-stack-sockets.md)。
 
     ```C++
     // Create a SOCKET for the server to listen for client connections

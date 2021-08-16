@@ -4,12 +4,12 @@ ms.assetid: d79a5683-6c67-487f-b9a6-4e80da38b827
 title: 快取存取檢查
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 967e0a5398d93c1715d7d08e5c7c75695e4120ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 83659c35fb9334e55bd7dfcd2368275dc16eb0d4836b8d6fa69a6ed8d713d953
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321211"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783553"
 ---
 # <a name="caching-access-checks"></a>快取存取檢查
 

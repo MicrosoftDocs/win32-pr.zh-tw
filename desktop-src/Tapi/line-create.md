@@ -4,12 +4,12 @@ ms.assetid: d4735eab-392f-49d9-a1d9-5895d9232624
 title: 'LINE_CREATE 訊息 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fd9973849c3942b5427dfb6b3fe7c47bc4d2a716
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4ab18245dc151f074588216d272c305c3a4cbd6aaa85c650ec9854710f5b9eac
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995744"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762272"
 ---
 # <a name="line_create-message"></a>行 \_ 建立訊息
 

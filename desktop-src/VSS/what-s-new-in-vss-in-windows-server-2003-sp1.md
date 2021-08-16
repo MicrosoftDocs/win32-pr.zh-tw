@@ -4,12 +4,12 @@ ms.assetid: 9e0dba98-5d23-444d-bd2f-cb72de8fb2d2
 title: Windows Server 2003 SP1 中 VSS 的新功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 559b51d5b019d9d57aa154c4728ef5c8f4bb19d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: baed6cde05eb1aabe1bc43f48aa035146e020f23d215e7902d3544414619b4e2
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104469096"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118344193"
 ---
 # <a name="whats-new-in-vss-in-windows-server-2003-sp1"></a>Windows Server 2003 SP1 中 VSS 的新功能
 

@@ -4,12 +4,12 @@ ms.assetid: 478a5570-9cf6-4f4a-b42a-bbfffd313187
 title: 授權資料類型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 54a9177389acb55d52f8bbdd331fd7659fe8a8a3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5cac46f6dd75126a0eada6034097074b66622fcc1bac6195ae044c551c01cbec
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106998130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784356"
 ---
 # <a name="authorization-data-types"></a>授權資料類型
 

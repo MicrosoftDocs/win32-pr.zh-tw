@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: c0cb35e8e998f95e99193d1dc5e8a74838b7efc7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cbe8bf5457f36cdb71577ae13c2cc226115d4c968436c84b72ca8e90a3446be9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782534"
 ---
 # <a name="creating-an-authorization-policy-store-in-script"></a>在腳本中建立授權原則存放區
 

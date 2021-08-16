@@ -4,12 +4,12 @@ ms.assetid: ce978913-47a1-4387-bd1b-1795aaf82dd7
 title: INITIALIZE_NEGOTIATION
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 51a55879a0952d3f8b5e268ec6a01a666bdbf5ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d24763b9214dcffab99c83f24028e451a33d70dd7e4210f4eff64b0c39306d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691387"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117762775"
 ---
 # <a name="initialize_negotiation"></a>初始化 \_ 協商
 

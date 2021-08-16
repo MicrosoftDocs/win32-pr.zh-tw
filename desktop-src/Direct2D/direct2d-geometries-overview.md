@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 05/31/2018
 ms.custom: seodec18
-ms.openlocfilehash: cb97b0737bfad391fb9ba2501793a970fcbd9886
-ms.sourcegitcommit: 773fa6257ead6c74154ad3cf46d21e49adc900aa
+ms.openlocfilehash: d3f8cd7420325fd876897d538ea9e01a5c0adb64b2d0c55437514773904d6013
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "103684175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117825845"
 ---
 # <a name="geometries-overview"></a>幾何概觀
 
@@ -126,7 +126,7 @@ if (SUCCEEDED(hr))
 > [!Note]  
 > 從 Windows 8 開始，世界轉換並不會影響筆觸粗細的筆觸粗細 [**D2D1 \_ 筆觸 \_ 轉換 \_ 類型 \_ 固定**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)或 [**D2D1 \_ 筆觸 \_ 轉換 \_ 類型 \_**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_stroke_transform_type)的最細效果。 您應使用這些轉換類型來達成轉換的獨立筆劃
 
- 
+ 
 
 下列範例會建立 [**ID2D1RectangleGeometry**](/windows/win32/api/d2d1/nn-d2d1-id2d1rectanglegeometry)，然後在不轉換的情況下繪製。 它會產生下圖中顯示的輸出。
 
@@ -225,12 +225,12 @@ m_pRenderTarget->DrawGeometry(m_pTransformedGeometry, m_pBlackBrush, 1);
 
 
 
- 
+ 
 
 > [!Note]  
 > 從 Windows 8 開始，您可以在 [**ID2D1PathGeometry1**](/windows/win32/api/d2d1_1/nn-d2d1_1-id2d1pathgeometry1)上使用 [**ComputePointAndSegmentAtLength**](/windows/win32/api/d2d1_1/nf-d2d1_1-id2d1pathgeometry1-computepointandsegmentatlength(float_uint32_constd2d1_matrix_3x2_f_float_d2d1_point_description))方法來計算幾何的區域或長度。
 
- 
+ 
 
 ### <a name="combining-geometries"></a>結合幾何
 
@@ -706,6 +706,6 @@ hr = m_pCircleGeometry1->ComputePointAtLength(
 [Direct2D 參考](reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

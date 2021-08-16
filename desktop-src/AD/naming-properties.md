@@ -7,12 +7,12 @@ keywords:
 - 使用者命名屬性 AD
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a504070cf2e78cf5647072ff740d137b4a6e6056
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: e8548178bba8012231a803d476699e8ebb386b6fa9a29015f3721e7b32d94158
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "103933053"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118185928"
 ---
 # <a name="user-naming-attributes"></a>使用者命名屬性
 
@@ -27,11 +27,11 @@ ms.locfileid: "103933053"
 > [!Note]  
 > 您可以使用 [Active Directory 使用者和電腦] MMC 嵌入式管理單元來查看和管理這些屬性，該嵌入式管理單元可在 [遠端伺服器管理工具 (RSAT) ](https://www.microsoft.com/download/details.aspx?id=45520)中取得。
 
- 
+ 
 
 ## <a name="userprincipalname"></a>userPrincipalName
 
-**UserPrincipalName** 屬性是使用者的登入名稱。 屬性是由 (UPN) 的使用者主體名稱所組成，這是最常見的 Windows 使用者登入名稱。 使用者通常會使用其 UPN 來登入網域。 這個屬性是單一值的索引字串。
+**UserPrincipalName** 屬性是使用者的登入名稱。 屬性是由 (UPN) 的使用者主體名稱所組成，這是 Windows 使用者最常使用的登入名稱。 使用者通常會使用其 UPN 來登入網域。 這個屬性是單一值的索引字串。
 
 UPN 是使用者的網際網路樣式登入名稱，以網際網路標準 RFC 822 為基礎。 UPN 比分辨名稱短，而且更容易記住。 依照慣例，這應該對應到使用者的電子郵件名稱。 UPN 的點是合併電子郵件和登入命名空間，讓使用者只需要記住單一名稱。
 
@@ -58,11 +58,11 @@ UPN 尾碼具有下列限制：
 
 ## <a name="samaccountname"></a>sAMAccountName
 
-**SAMAccountName** 屬性是用來支援舊版 Windows 用戶端和伺服器的登入名稱，例如 Windows NT 4.0、windows 95、windows 98 和 LAN Manager。 登入名稱必須少於或等於20個字元，而且在網域內的所有安全性主體物件中都是唯一的。
+**sAMAccountName** 屬性是用來支援舊版 Windows 的用戶端和伺服器的登入名稱，例如 Windows NT 4.0、Windows 95、Windows 98 和 LAN Manager。 登入名稱必須少於或等於20個字元，而且在網域內的所有安全性主體物件中都是唯一的。
 
 ## <a name="objectsid"></a>objectSid
 
-**ObjectSid** 屬性是使用者 (SID) 的安全識別碼。 在與 Windows 安全性互動期間，系統會使用 SID 來識別使用者及其群組成員資格。 屬性是單一值。 SID 是唯一的二進位值，用來將使用者識別為安全性主體。
+**ObjectSid** 屬性是使用者 (SID) 的安全識別碼。 系統會在與 Windows 安全性的互動期間，使用 SID 來識別使用者及其群組成員資格。 屬性是單一值。 SID 是唯一的二進位值，用來將使用者識別為安全性主體。
 
 建立使用者時，系統會設定 SID。 每個使用者都有一個由 Windows 網域發出的唯一 SID，並儲存在目錄中使用者物件的 **objectSid** 屬性中。 每次使用者登入時，系統會從目錄抓取使用者的 SID，並將其放在使用者的存取權杖中。 使用者的 SID 也會用來取得使用者所屬群組的 Sid，並將其放在使用者的存取權杖中。 使用 SID 做為使用者或群組的唯一識別碼時，無法再次使用它來識別另一個使用者或群組。
 
@@ -77,6 +77,6 @@ UPN 尾碼具有下列限制：
 [User 物件屬性](user-object-attributes.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

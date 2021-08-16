@@ -4,12 +4,12 @@ ms.assetid: a3f74372-bdc9-43eb-b72f-7d00a43e78a8
 title: " (授權) 的用戶端模擬"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 32e72abb17c9f5f6271f55fbfc77da4f6b93ca2d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 454e943b53cffbc4430c71b31e2b172095b999e2201c4cafc08b081bf1782e64
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943666"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117783064"
 ---
 # <a name="client-impersonation-authorization"></a> (授權) 的用戶端模擬
 

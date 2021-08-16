@@ -4,12 +4,12 @@ ms.assetid: 667c8751-1d17-4b59-8ced-ed5f0c333ae9
 title: DuckingMediaPlayer
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f86952f1aa7b81c9a7dc711f0c4f36fc8531bd63
-ms.sourcegitcommit: c16214e53680dc71d1c07111b51f72b82a4512d8
+ms.openlocfilehash: aab5a469ec2a7fb1551980d0a08a758e8e8e8f522831dc2148b2d8fb222ecdfb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "106992230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828279"
 ---
 # <a name="duckingmediaplayer"></a>DuckingMediaPlayer
 
@@ -24,7 +24,7 @@ ms.locfileid: "106992230"
 -   [執行範例](#running-the-sample)
 -   [相關主題](#related-topics)
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 這個範例會示範下列功能。
 
@@ -63,7 +63,7 @@ ms.locfileid: "106992230"
 若要建立 DuckingMediaPlayer 範例，請使用下列步驟：
 
 1.  在 Visual Studio 2008 中開啟 DuckingMediaPlayer .sln。
-2.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 SDK 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 SDK 組建環境。 在此情況下，除非您明確設定在專案檔 DuckingMediaPlayer 中使用的環境變數 MSSdk，否則此範例不會建立。
+2.  從視窗內選取 [ **Debug** ] 或 [ **發行** ] 方案設定，從功能表列選取 [ **組建** ] 功能表，然後選取 [ **建立** ] 選項。 如果您未從 sdk 的 CMD shell 開啟 Visual Studio，Visual Studio 將無法存取 sdk 組建環境。 在此情況下，除非您明確設定在專案檔 DuckingMediaPlayer 中使用的環境變數 MSSdk，否則此範例不會建立。
 
 ## <a name="running-the-sample"></a>執行範例
 

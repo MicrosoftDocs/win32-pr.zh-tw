@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: CIM 架構相容性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: df559469ef6a8284b51951dc365bad6c302ca865
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c3d87f1e40a52998f3a53a9b06f0572d8916b4a53663354ca5ffde67beaeed0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981197"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319784"
 ---
 # <a name="cim-schema-compatibility"></a>CIM 架構相容性
 

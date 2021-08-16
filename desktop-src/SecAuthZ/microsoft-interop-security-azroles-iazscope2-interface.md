@@ -200,7 +200,7 @@ ms.locfileid: "117780580"
 
 
 
-| 屬性                                                                             | 存取類型           | Description                                                                                           |
+| 屬性                                                                             | 存取類型           | 描述                                                                                           |
 |:-------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------|
 | **Azroles. IAzScope2. ApplicationData**<br/>          | 讀取/寫入<br/> | [**IAzScope 的 ApplicationData 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_applicationdata)<br/>                   |
 | **Azroles. IAzScope2. ApplicationGroups**<br/>        | 唯讀<br/>  | [**IAzScope 的 ApplicationGroups 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazscope-get_applicationgroups)<br/>               |

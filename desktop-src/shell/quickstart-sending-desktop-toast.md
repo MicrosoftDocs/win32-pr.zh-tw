@@ -9,12 +9,12 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbSyntax
-ms.openlocfilehash: 36f9da25c20d99da74be30046fc5f9f4789dfd73
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 79f8f65b18fd6774f318541b15d1649b7c25526f46bf3ab57f02edc4788687c9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858652"
 ---
 # <a name="quickstart-sending-a-toast-notification-from-the-desktop"></a>快速入門：從桌面傳送快顯通知
 
@@ -24,7 +24,7 @@ ms.locfileid: "103850032"
 
 -   程式庫
     -   C + +：執行時間 .lib
-    -   C \# ： Windows. Winmd
+    -   C \# ： Windows。.Winmd
 -   您必須將應用程式的快捷方式（具有 [System.AppUserModel.ID](../properties/props-system-appusermodel-id.md)）安裝至開始畫面。 不過請注意，它不需要釘選到開始畫面。 如需詳細資訊，請參閱 [如何透過 AppUserModelID 啟用桌面](enable-desktop-toast-with-appusermodelid.md)快顯通知。
 -   至少支援 Windows 8 的 Microsoft Visual Studio 版本
 

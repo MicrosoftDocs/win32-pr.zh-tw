@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CInstance：： SetWBEMINT64 方法 (實例 .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 3f83e39170125a07f28a25d594ad7203f44750a5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: dd13f10fb42c7b93ab7b86d6c8d940ee07b332b12667058006a5868f8fd21fe7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944722"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319694"
 ---
 # <a name="cinstancesetwbemint64-methods"></a>CInstance：： SetWBEMINT64 方法
 
@@ -38,7 +38,7 @@ ms.locfileid: "103944722"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>實例 .h (包含 FwCommon .h) </dt> </dl>                                                    |
 | 程式庫<br/>                  | <dl> <dt>FrameDyn .lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |

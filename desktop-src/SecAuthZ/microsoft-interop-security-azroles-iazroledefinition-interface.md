@@ -165,7 +165,7 @@ ms.locfileid: "117780627"
 
 
 
-| 屬性                                                                            | 存取類型           | Description                                                                                           |
+| 屬性                                                                            | 存取類型           | 描述                                                                                           |
 |:------------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------------------|
 | **Azroles. IAzRoleDefinition. ApplicationData**<br/> | 讀取/寫入<br/> | [**IAzRole 的 ApplicationData 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazrole-get_applicationdata)<br/>                     |
 | **Azroles. IAzRoleDefinition. AppMembers**<br/>      | 唯讀<br/>  | [**IAzRole 的 AppMembers 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazrole-get_appmembers)<br/>                               |

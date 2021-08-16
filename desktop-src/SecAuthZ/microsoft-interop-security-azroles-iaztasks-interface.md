@@ -23,12 +23,12 @@ api_type:
 - COM
 api_location:
 - Microsoft.Interop.Security.Azroles.dll
-ms.openlocfilehash: 093902bdabffd789701dc95a57f7f91a7fe2a594
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 16c8162ab4e82e0b6df27379375a3549324e5948f6da7d9021b7419c46b6566d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106998603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780570"
 ---
 # <a name="microsoftinteropsecurityazrolesiaztasks-interface"></a>AzRoles. IAzTasks 介面
 
@@ -61,7 +61,7 @@ ms.locfileid: "106998603"
 
 
 
-| 屬性                                                         | 存取類型          | Description                                                     |
+| 屬性                                                         | 存取類型          | 描述                                                     |
 |:-----------------------------------------------------------------|:---------------------|:----------------------------------------------------------------|
 | **Azroles. IAzTasks. Count**<br/> | 唯讀<br/> | [**IAzTasks 的 Count 屬性**](/windows/desktop/api/Azroles/nf-azroles-iaztasks-get_count)<br/> |
 | **Azroles. IAzTasks. Item**<br/>  | 唯讀<br/> | [**IAzTasks 的 Item 屬性**](/windows/desktop/api/Azroles/nf-azroles-iaztasks-get_item)<br/>   |

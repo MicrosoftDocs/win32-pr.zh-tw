@@ -4,12 +4,12 @@ ms.assetid: a3d84878-489b-489a-a67e-0e4d25ddd3f7
 title: WPD_CONTENT_TYPE_AUDIO
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b83d43fcef539579fc0a687a97ba51e52278e4da
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: bd4aa78b7fa546fab9fe186265ca721e441860a2fc55c2ba0b384df377e1344b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981026"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842352"
 ---
 # <a name="wpd_content_type_audio"></a>WPD \_ 內容 \_ 類型 \_ 音訊
 
@@ -94,7 +94,7 @@ ms.locfileid: "106981026"
 
 
 
-| 資源名稱                                               | 必要或選擇性       | Description                                        |
+| 資源名稱                                               | 必要或選擇性       | 描述                                        |
 |-------------------------------------------------------------|----------------------------|----------------------------------------------------|
 | [**WPD \_ 資源 \_ 預設**](wpd-resource-default.md)      | 選擇性。                  | 包含完整的音訊檔案。                  |
 | [**WPD \_ 資源 \_ 專輯 \_ 封面**](wpd-resource-album-art.md) | 建議使用（如果有的話）。 | 包含專輯的圖片。                |

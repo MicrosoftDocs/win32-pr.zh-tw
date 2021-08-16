@@ -3,7 +3,7 @@ title: 'TBM_SETSEL 訊息 (Commctrl .h) '
 description: 設定在 [選取區] 中可用選取範圍的開始和結束位置。
 ms.assetid: 71f5b9f8-4850-44a8-8acf-adca9bda84c3
 keywords:
-- TBM_SETSEL message Windows 控制項
+- TBM_SETSEL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2edebc6b6dcf3b0b93e3047a39aac74c34d121bd
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: d055b317cc6db5e17edbe57bc57e6dbfe287274788718e8e2a920e1f25d9316b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103685508"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117829323"
 ---
 # <a name="tbm_setsel-message"></a>TBM \_ SETSEL 訊息
 
@@ -59,8 +59,8 @@ ms.locfileid: "103685508"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

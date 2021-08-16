@@ -13,12 +13,12 @@ api_type:
 api_location:
 - Shell32.dll
 ms.assetid: 85e84c13-62aa-4502-b642-ca55273a800d
-ms.openlocfilehash: 944da80196db12d0bfa5d64767c5e6c2e8ff733e
-ms.sourcegitcommit: 3caaa3c92dcb1ef12f84464d14ce6262e65e988e
+ms.openlocfilehash: 696767844e2cc5dbe17aa44c2f76a8b0550b86115437e0d5f3e1f1f2543dbb2d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "109841249"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117857097"
 ---
 # <a name="shellwindows_newenum-method"></a>ShellWindows。 \_NewEnum 方法
 
@@ -45,7 +45,7 @@ retVal = ShellWindows._NewEnum()
 
 ## <a name="examples"></a>範例
 
-下列範例顯示使用中的 **\_ NewEnum** 。 VBScript 和 Visual Basic 會顯示適當的使用方式。 這個方法不能與 JScript 一起使用。
+下列範例顯示使用中的 **\_ NewEnum** 。 VBScript 和 Visual Basic 會顯示適當的使用方式。 這個方法不能搭配 JScript 使用。
 
 VBScript
 
@@ -107,7 +107,7 @@ End Sub
 
 | 需求 | 值 |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                         |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                         |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                           |
 | 標頭<br/>                   | <dl> <dt>Exdisp。h</dt> </dl>                            |
 | DLL<br/>                      | <dl> <dt>Shell32.dll (4.71 版或更新版本) </dt> </dl> |

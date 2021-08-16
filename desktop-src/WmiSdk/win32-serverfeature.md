@@ -2058,7 +2058,7 @@ Windows Server 2012： **Win32 \_ ServerFeature** 已被取代。 若要以程�
 
 </dd> <dt>
 
-<span id="VPN"></span><span id="vpn"></span>Vpn
+<span id="VPN"></span><span id="vpn"></span>VPN
 </dt> <dd>
 
 不再支援

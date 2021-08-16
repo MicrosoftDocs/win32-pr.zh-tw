@@ -10,12 +10,12 @@ keywords:
 - Active Directory Domain Services 的介面 Active Directory
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6ddb7ab4cfbafc6bdceaf09ba4a1f1c08f502d92
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 93ca8501758c841babde516c6d615811a1f59337bd8176342ab238e25a7ed942
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104314626"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118187092"
 ---
 # <a name="interfaces-for-active-directory-domain-services"></a>Active Directory Domain Services 的介面
 
@@ -25,6 +25,6 @@ ms.locfileid: "104314626"
 -   [在 Active Directory Domain Services 中顯示介面](display-interfaces-in-active-directory-domain-services.md)
 -   [物件選擇器對話方塊介面](object-picker-dialog-box-interfaces.md)
 
- 
+ 
 
- 
+ 

@@ -8,12 +8,12 @@ keywords:
 - 物件 AD，設定物件的存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2bcf54de381dab2af1dab4ea44654fb0a5682f06
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: 7b6d0983246b0f7a39225d11ef5d919b3b26230699209e86812ad68928d072e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118183427"
 ---
 # <a name="setting-access-rights-on-an-object"></a>設定物件的存取權限
 
@@ -47,6 +47,6 @@ ms.locfileid: "104462820"
 9.  使用 [**IADs**](/windows/desktop/api/iads/nf-iads-iads-put) 方法，將安全描述項寫入物件的 **nTSecurityDescriptor** 屬性至屬性快取。
 10. 使用 [**IADs. SetInfo**](/windows/desktop/api/iads/nf-iads-iads-setinfo) 方法來更新目錄中物件的屬性。
 
- 
+ 
 
- 
+ 

@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI，範例程式碼 C/c + +，使用 IADsDeleteOps 來刪除整個群組
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6332dd28e903996e8688d6c6fc672df080822595
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 192411e53f54de2a5f73cc043f35cea6787f4b879972b6a69ada4760c175292a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106964949"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839941"
 ---
 # <a name="iadsdeleteops-interface"></a>IADsDeleteOps 介面
 
@@ -79,9 +79,9 @@ DeleteOps.DeleteObject (0)
 
 
 
- 
+ 
 
- 
+ 
 
 
 

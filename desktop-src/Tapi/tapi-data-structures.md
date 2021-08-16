@@ -4,12 +4,12 @@ ms.assetid: 4ee04848-0968-49ea-b55d-1ff6dec8cfd3
 title: TAPI 資料結構
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ffb40b1077e4d783d084293e0676838eba16a90a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c14d150ea1a7d72c2fd4ba9ffdaf20e71bf0bc3df1a64a88c80a0c6890da38f0
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104027590"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760740"
 ---
 # <a name="tapi-data-structures"></a>TAPI 資料結構
 

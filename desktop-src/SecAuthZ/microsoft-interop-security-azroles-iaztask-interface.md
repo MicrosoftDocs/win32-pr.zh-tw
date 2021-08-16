@@ -131,7 +131,7 @@ ms.locfileid: "117780591"
 
 
 
-| 屬性                                                                      | 存取類型           | Description                                                                               |
+| 屬性                                                                      | 存取類型           | 描述                                                                               |
 |:------------------------------------------------------------------------------|:----------------------|:------------------------------------------------------------------------------------------|
 | **Azroles. IAzTask. ApplicationData**<br/>     | 讀取/寫入<br/> | [**IAzTask 的 ApplicationData 屬性**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_applicationdata)<br/>         |
 | **Azroles. IAzTask. BizRule**<br/>             | 讀取/寫入<br/> | [**IAzTask 的 BizRule 屬性**](/windows/desktop/api/Azroles/nf-azroles-iaztask-get_bizrule)<br/>                         |

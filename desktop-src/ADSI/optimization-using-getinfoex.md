@@ -9,12 +9,12 @@ keywords:
 - ADSI ADSI，使用，使用 IADs GetInfoEx 方法優化
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b522093fff00700cf35b864edde2a6ae7f8f9922
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: d4daf75fa3961a57996d6ae51d237d27835213a25a20c52452b5896c6224964a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104316453"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838992"
 ---
 # <a name="optimization-using-getinfoex"></a>使用 GetInfoEx 的優化
 
@@ -76,6 +76,6 @@ Cleanup:
 
 如需詳細資訊和示範如何取出所有屬性值的程式碼範例，請參閱 [讀取已建立之屬性的範例程式碼](example-code-for-reading-a-constructed-attribute.md)。
 
- 
+ 
 
- 
+ 

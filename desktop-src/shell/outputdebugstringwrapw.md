@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Shlwapi.dll
-ms.openlocfilehash: e8213aee48a90a816e2968aac115159472ed7b8a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
-ms.translationtype: HT
+ms.openlocfilehash: cce8754b01ddf156951964b7189b4a7189759c52cdcd08e08091ca62b2e950bb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
+ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104991634"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858787"
 ---
 # <a name="outputdebugstringwrapw-function"></a>OutputDebugStringWrapW 函式
 
@@ -61,7 +61,7 @@ void OutputDebugStringWrapW(
 
 ## <a name="remarks"></a>備註
 
-**OutputDebugStringWrapW** 能讓您在 Windows XP 之前的作業系統中使用 Unicode 字串。 慣用的方法是使用 [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
+**OutputDebugStringWrapW** 提供在 Windows XP 之前，在作業系統中使用 Unicode 字串的能力。 慣用的方法是使用 [**OutputDebugStringW**](/windows/win32/api/debugapi/nf-debugapi-outputdebugstringa) 搭配適用于 UNICODE (MSLU) 的 Microsoft 層。
 
 您必須使用序數115，直接從 Shlwapi.dll 呼叫 **OutputDebugStringWrapW** 。
 
@@ -73,8 +73,8 @@ void OutputDebugStringWrapW(
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 windows 2000 Professional、Windows XP \[ desktop 應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                                          |
+| 最低支援的用戶端<br/> | Windows 2000 Professional，僅 Windows XP \[ desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                                          |
 | 標頭<br/>                   | <dl> <dt>Shlwapip。h</dt> </dl>                         |
 | DLL<br/>                      | <dl> <dt>Shlwapi.dll (5.0 版或更新版本) </dt> </dl> |
 

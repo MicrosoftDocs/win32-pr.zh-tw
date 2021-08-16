@@ -14,12 +14,12 @@ api_type:
 api_location:
 - Ndisnpp.dll
 - Rmtnpp.dll
-ms.openlocfilehash: 9f2dddea3132ce81a57f16737c0f90c6277d4efd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 357d0dd9dbb6e0f57a7ecd3dffcec4c0d1e546ce0bc058ce0144796ca8836113
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194543"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118364965"
 ---
 # <a name="istatsconfigure-method"></a>IStats：： Configure 方法
 
@@ -109,7 +109,7 @@ HRESULT STDMETHODCALLTYPE Configure(
 [IStats](istats.md)
 </dt> <dt>
 
-[ISTATS：： Connect](istats-connect.md)
+[ISTATS：：連線](istats-connect.md)
 </dt> <dt>
 
 [網路監視器 BLOB](network-monitor-blobs.md)

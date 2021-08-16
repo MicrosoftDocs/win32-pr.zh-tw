@@ -4,15 +4,15 @@ description: 本主題討論如何在 Visual Studio 中設定 Visual Basic，以
 ms.assetid: 167e89d7-80a3-4cc2-b79c-3744c1b184d6
 ms.tgt_platform: multiple
 keywords:
-- 設定 ADSI 開發 ADSI 的 Visual Basic
+- 設定 adsi 開發 adsi 的 Visual Basic
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a0e6b1f39ec06d3716beab750dbf2a522d4c18cb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e8ed2e0f4cd0b56ee0167deda2e998314bb313d1a98cd0c43a9f06b495a4324f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103839131"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117838678"
 ---
 # <a name="setting-up-visual-basic-60-for-adsi-development"></a>設定 ADSI 開發的 Visual Basic 6。0
 
@@ -24,9 +24,9 @@ ms.locfileid: "103839131"
     > [!Note]  
     > 如果您不需要早期的 COM 物件系結，請略過此步驟。
 
-     
+     
 
-    1.  選取 [ **專案 \| 加入參考**]。
+    1.  選取 **Project \| 加入參考**]。
     2.  選取 [ **COM** ] 索引標籤。
     3.  選取 [ **ACTIVE DS 類型程式庫**]。
 
@@ -55,11 +55,11 @@ ms.locfileid: "103839131"
     
 
 3.  按下 **<F5>** 以執行程式。
-4.  若要確認變更，請使用 Active Directory 消費者和電腦管理工具。 如需使用 ADSI 和 Visual Basic 的詳細資訊，請參閱 [使用 Visual Basic 存取 Active Directory](accessing-active-directory-using-visual-basic.md)。
+4.  若要確認變更，請使用 Active Directory 消費者和電腦管理工具。 如需使用 ADSI 和 Visual Basic 的詳細資訊，請參閱[使用 Visual Basic 存取 Active Directory](accessing-active-directory-using-visual-basic.md)。
 
- 
+ 
 
- 
+ 
 
 
 

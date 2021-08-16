@@ -8,12 +8,12 @@ keywords:
 - ADsPath、LDAP、描述
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1728d2531bb2043f95e5896e67ec054095f2595a
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: a1850c30ff8a5a086fbd697080ac32b5e55549496739d9388a6d5e7ab251403d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "103683109"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839468"
 ---
 # <a name="ldap-adspath"></a>LDAP ADsPath
 
@@ -29,7 +29,7 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 > [!Note]  
 > 左和右方括弧字元 (\[ \]) 表示選擇性參數，而不是系結字串的常值部分。
 
- 
+ 
 
 「主機名稱」可以是電腦名稱稱、IP 位址或功能變數名稱。 您也可以在系結字串中指定伺服器名稱。 大部分的 LDAP 提供者都遵循需要指定伺服器名稱的模型。
 
@@ -41,9 +41,9 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 
 
 
-| LDAP ADsPath 範例                                      | Description                                                |
+| LDAP ADsPath 範例                                      | 描述                                                |
 |-----------------------------------------------------------|------------------------------------------------------------|
-| Ldap：                                                     | 系結至 LDAP 命名空間的根目錄。                    |
+| LDAP：                                                     | 系結至 LDAP 命名空間的根目錄。                    |
 | LDAP://server01                                           | 系結至特定的伺服器。                                 |
 | LDAP://server01:390                                       | 使用指定的埠號碼系結至特定的伺服器。 |
 | LDAP：//CN = Jeff Smith，CN = users，DC = fabrikam，DC = com          | 系結至特定物件。                                 |
@@ -51,13 +51,13 @@ LDAP://HostName[:PortNumber][/DistinguishedName]
 
 
 
- 
+ 
 
 如果成功完成特定目錄要求時需要 Kerberos 驗證，系結字串必須使用無伺服器 ADsPath，例如 LDAP：//CN = Jeff Smith，CN = users，DC = fabrikam，DC = com，或者必須使用具有完整 DNS 伺服器名稱的 ADsPath，例如 LDAP://server01.fabrikam.com/CN=Jeff Smith、CN = users，DC = fabrikam，DC = com。 使用一般 NETBIOS 名稱或簡短 DNS 名稱（例如，使用名稱 server01 而非 server01.fabrikam.com）系結至伺服器，並不保證會產生 Kerberos 驗證。
 
 如需 LDAP 系結字串的詳細資訊和範例，以及可在 LDAP 系結字串中使用之特殊字元的描述，請參閱 LDAP ADsPath。
 
-**Windows 2000 SP1 和更新版本：** 使用 LDAP 提供者時，如果系結字串包含伺服器名稱，您可以使用 **ADS \_ 伺服器 \_** 系結旗標搭配 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject) 函式或 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject) 方法來提高效能。 **ADS \_ 伺服器 \_** 系結旗標表示指定了伺服器名稱，可讓 ADSI 避開其他不必要的網路流量。
+**Windows 2000 SP1 和更新版本：** 使用 LDAP 提供者時，如果系結字串包含伺服器名稱，您可以使用 **ADS \_ 伺服器 \_** 系結旗標搭配 [**ADsOpenObject**](/windows/desktop/api/Adshlp/nf-adshlp-adsopenobject)函式或 [**IADsOpenDSObject：： objdso.opendsobject**](/windows/desktop/api/Iads/nf-iads-iadsopendsobject-opendsobject)方法來提高效能。 **ADS \_ 伺服器 \_** 系結旗標表示指定了伺服器名稱，可讓 ADSI 避開其他不必要的網路流量。
 
 ## <a name="ldap-special-characters"></a>LDAP 特殊字元
 
@@ -92,6 +92,6 @@ LDAP://CN=Line\0AFeed,CN=users,DC=fabrikam,DC=com
 
 如需符合 LDAP 標準之目錄服務所使用之辨別名稱標記法的詳細資訊，請參閱 [https://www.ietf.org/rfc/rfc1779.txt](https://www.ietf.org/rfc/rfc1779.txt) 。
 
- 
+ 
 
- 
+ 

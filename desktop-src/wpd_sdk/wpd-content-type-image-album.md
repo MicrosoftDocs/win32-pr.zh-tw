@@ -4,12 +4,12 @@ ms.assetid: e2ae9f89-5a71-4443-b0c1-81e4c650e1bb
 title: WPD_CONTENT_TYPE_IMAGE_ALBUM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d67a20f6a6628008e31b23a0ceb05fee4931793a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2cd4ebd352060ec68598d00e62dae29dc0a0e35a0d8e5d69bb84b20c5f695809
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842325"
 ---
 # <a name="wpd_content_type_image_album"></a>WPD \_ 內容 \_ 類型 \_ 影像 \_ 專輯
 

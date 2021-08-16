@@ -14,12 +14,12 @@ api_type:
 api_location:
 - PortableDeviceGUIDs.lib
 - PortableDeviceGUIDs.dll
-ms.openlocfilehash: 44126b69dc4e8720fde687d47dc70dd97e104c72
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 4e234d0fe24eec947b388b5da798c55e7478ffa6bda69a9b9fe57c279af6d96e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843021"
 ---
 # <a name="iportabledevicevaluesgetat-method"></a>IPortableDeviceValues：： GetAt 方法
 
@@ -69,7 +69,7 @@ HRESULT GetAt(
 
 
 
-| 傳回碼                                                                                  | Description                                       |
+| 傳回碼                                                                                  | 描述                                       |
 |----------------------------------------------------------------------------------------------|---------------------------------------------------|
 | <dl> <dt>**S \_ 確定**</dt> </dl>         | 此方法已成功。<br/>                  |
 | <dl> <dt>**E \_ INVALIDARG**</dt> </dl> | 指定了不正確索引編號。<br/> |
@@ -80,7 +80,7 @@ HRESULT GetAt(
 
 ## <a name="remarks"></a>備註
 
-如果屬性指出 [VT 不明] 類型的 \_ 值，則此屬性將會是其中一個 Windows 可攜式裝置 [**(IPortableDeviceKeyCollection**](iportabledevicekeycollection.md)、 [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md)、 [**IPortableDeviceValues**](iportabledevicevalues.md) 或 [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)) 。 Windows 可攜式裝置不能傳回其他介面。
+如果屬性工作表示 VT 不明類型的值 \_ ，則此屬性會是 Windows 的可攜式裝置之一 ([**IPortableDeviceKeyCollection**](iportabledevicekeycollection.md)、 [**IPortableDeviceValuesCollection**](iportabledevicevaluescollection.md)、 [**IPortableDeviceValues**](iportabledevicevalues.md)或 [**IPortableDevicePropVariantCollection**](iportabledevicepropvariantcollection.md)) 。 Windows 可攜式裝置無法傳回其他介面。
 
 ## <a name="requirements"></a>規格需求
 

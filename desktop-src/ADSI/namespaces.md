@@ -7,12 +7,12 @@ keywords:
 - 命名空間 ADSI
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d29d93963b2fc2b3fa6ea0eb486fe95b46ba0e9e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: d416782f2a96ca716f6e803ad9d0b4200c82cff6ad0ad033751a89a5d2c8af1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104371839"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839377"
 ---
 # <a name="namespaces"></a>命名空間
 
@@ -51,11 +51,11 @@ ADSI 定義可以在異類環境中唯一識別物件的命名慣例。 這些�
 
 
 
-其他的 ADsPath 格式可由不同的 ADSI 提供者引進 (例如 Internet Information Services server 的 ADSI 提供者，它支援 "IIS://" ADsPaths) 。
+其他的 ADsPath 格式可由不同的 adsi 提供者引進 (例如 Internet Information Services server 的 ADSI 提供者，它支援 "IIS://" ADsPaths) 。
 
- 
+ 
 
- 
+ 
 
 
 

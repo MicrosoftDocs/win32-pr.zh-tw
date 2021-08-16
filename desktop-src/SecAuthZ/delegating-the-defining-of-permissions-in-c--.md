@@ -4,12 +4,12 @@ ms.assetid: ccad4c19-7a16-4599-9a42-23cae7084418
 title: 委派 c + + 中的許可權定義
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cc299e3506300da1f0db2b4a9bacfce60def1c40
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2f79202a3f8ee21934f890d3c5a66a19be4466fa2b1ecdfe31672a4edfc2319e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782052"
 ---
 # <a name="delegating-the-defining-of-permissions-in-c"></a>委派 c + + 中的許可權定義
 

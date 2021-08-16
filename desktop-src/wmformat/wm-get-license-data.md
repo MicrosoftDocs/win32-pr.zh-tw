@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4f238bea29ab7271896dc7516b6424e4cc298f5c
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: f5f53b6ddfd532710e712637c57785d8893d8f977807bfb45cac0fc787ccbf58
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104384645"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117844472"
 ---
 # <a name="wm_get_license_data-structure"></a>WM \_ 取得 \_ 授權 \_ 資料結構
 
@@ -103,7 +103,7 @@ typedef struct _WMGetLicenseData {
 |-------------------------------------|-------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                      |
-| 版本<br/>                  | Windows Media Format 7 SDK 或更新版本的 SDK<br/>                       |
+| 版本<br/>                  | WindowsMedia Format 7 SDK 或更新版本的 SDK<br/>                       |
 | 標頭<br/>                   | <dl> <dt>Drmexternals。h</dt> </dl> |
 
 

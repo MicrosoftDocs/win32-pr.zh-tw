@@ -4,12 +4,12 @@ ms.assetid: 166a4001-d237-44a4-a457-e320e995639c
 title: 預覽處理常式和 Shell 預覽主機
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 993c6c8e7b15d9bfc24b5dd42352407a3a53c45b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c5ccc6c2a519b4f9646e76a0a0ef4d0d26348e08d114eb9a080aaee09a75b9f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104973352"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117858760"
 ---
 # <a name="preview-handlers-and-shell-preview-host"></a>預覽處理常式和 Shell 預覽主機
 
@@ -20,14 +20,14 @@ ms.locfileid: "104973352"
 -   [預覽處理常式架構](#preview-handler-architecture)
 -   [伺服器模型選項](#server-model-options)
 -   [初始 化](#initialization)
--   [預覽處理常式資料流程](#preview-handler-data-flow)
+-   [預覽處理常式資料 Flow](#preview-handler-data-flow)
 -   [對預覽處理常式進行偵錯工具](#debugging-a-preview-handler)
 -   [提供您自己的預覽處理常式流程](#providing-your-own-process-for-a-preview-handler)
 -   [相關主題](#related-topics)
 
 ## <a name="preview-handler-architecture"></a>預覽處理常式架構
 
-預覽處理常式是託管應用程式。 主機包含 Windows Vista 或 Microsoft Outlook 2007 中的 Windows 檔案總管。 主機會將 [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) 實作為預覽處理常式和主機之間的通訊方法。
+預覽處理常式是託管應用程式。 主機包括 Windows Vista 或 Microsoft Outlook 2007 中的 Windows 檔案總管。 主機會將 [**IPreviewHandlerFrame**](/windows/win32/api/shobjidl_core/nn-shobjidl_core-ipreviewhandlerframe) 實作為預覽處理常式和主機之間的通訊方法。
 
 預覽處理常式本身會執行這些介面：
 
@@ -65,7 +65,7 @@ HKEY_CLASSES_ROOT
 
 一般情況下，初始化不應執行任何繁重的工作，例如撰寫和儲存預覽影像。 為了達到最佳效率，在呼叫預覽之前，不應執行這類處理。
 
-## <a name="preview-handler-data-flow"></a>預覽處理常式資料流程
+## <a name="preview-handler-data-flow"></a>預覽處理常式資料 Flow
 
 預覽程式中的資料流程會遵循此處顯示的一般路徑。 您可以將主機視為 Windows Vista 或 Outlook 2007 中的 Windows 檔案總管。
 

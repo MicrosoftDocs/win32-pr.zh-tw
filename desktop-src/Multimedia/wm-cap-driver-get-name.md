@@ -3,7 +3,7 @@ title: 'WM_CAP_DRIVER_GET_NAME 訊息 (Vfw .h) '
 description: '[WM \_ CAP \_ 驅動程式 \_ 取得 \_ 名稱] 訊息會傳回連接至 [捕獲] 視窗的捕獲驅動程式名稱。 您可以使用 capDriverGetName 宏明確地傳送此訊息。'
 ms.assetid: 84cecaf1-e0ff-424f-8c10-8bfe5cc2e7ea
 keywords:
-- WM_CAP_DRIVER_GET_NAME message Windows 多媒體
+- WM_CAP_DRIVER_GET_NAME 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 256b5f7913c83ddd278f3f3a05552b3d81070c73
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 0dc44efae992f2967cb069c0866fbb7f9febed51ea73f94853a1b017bc57a068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118369679"
 ---
 # <a name="wm_cap_driver_get_name-message"></a>WM \_ CAP \_ 驅動程式 \_ 取得 \_ 名稱訊息
 
@@ -41,7 +41,7 @@ lParam = (LPARAM) (LPVOID) (LPSTR) (szName);
 <span id="wSize"></span><span id="wsize"></span><span id="WSIZE"></span>*wSize*
 </dt> <dd>
 
-**>szname** 所參考的緩衝區大小（以位元組為單位）。
+**>Szname** 所參考的緩衝區大小（以位元組為單位）。
 
 </dd> <dt>
 

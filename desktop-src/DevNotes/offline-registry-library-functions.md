@@ -4,12 +4,12 @@ ms.assetid: 378811d2-064c-4d81-979e-392097d55baa
 title: 離線登錄庫函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f0c36afac0b8f5f0aed17b12a7e0562cce75ea69
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 400aeddf652948fac135b73b0512d157d17b1d71e83b5a5399c5c34618872323
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104385884"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826706"
 ---
 # <a name="offline-registry-library-functions"></a>離線登錄庫函數
 

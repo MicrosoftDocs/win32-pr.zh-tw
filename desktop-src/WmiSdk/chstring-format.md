@@ -6,12 +6,12 @@ ms.tgt_platform: multiple
 title: 'CHString：： Format 方法 (ChString .h) '
 ms.date: 07/02/2019
 ms.topic: reference
-ms.openlocfilehash: 7187d2c691c6efb2054d766ae432c55be893cd05
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5432ac16b3e59b3f5e56d862a5bf66f5b23f732f74d586066584b6b937327830
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976938"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319937"
 ---
 # <a name="chstringformat-methods"></a>CHString：： Format 方法
 
@@ -37,7 +37,7 @@ ms.locfileid: "106976938"
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows Vista<br/>                                                                                                                                      |
-| 最低支援的伺服器<br/> | Windows Server 2008<br/>                                                                                                                                |
+| 最低支援的伺服器<br/> | Windows伺服器2008<br/>                                                                                                                                |
 | 標頭<br/>                   | <dl> <dt>ChString (包含 FwCommon) </dt> </dl>                                                    |
 | 程式庫<br/>                  | <dl> <dt>FrameDyn .lib</dt> </dl>                                                                       |
 | DLL<br/>                      | <dl> <dt>FrameDynOS.dll;</dt><dt>FrameDyn.dll</dt> </dl> |

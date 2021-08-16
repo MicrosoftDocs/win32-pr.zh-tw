@@ -4,12 +4,12 @@ description: 您可以使用資料流程將資料傳入或傳出 rich edit 控�
 ms.assetid: A7ED47F1-968C-4E41-B1E2-4449072D2FC4
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b89a9cc2a8caa157f9c65220fc5cead7564bc555
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: ae620d123ad983cd150bf78d27d99de137ec61eea8c5a32c9fcc9698cb262a63
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104092603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828620"
 ---
 # <a name="how-to-use-streams"></a>如何使用資料流程
 
@@ -23,12 +23,12 @@ ms.locfileid: "104092603"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -93,9 +93,9 @@ BOOL FillRichEditFromFile(HWND hwnd, LPCTSTR pszFile)
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

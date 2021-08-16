@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Nmapi.dll
-ms.openlocfilehash: f7310c0ac2c6f402c37537100cc8060fef9eedd1
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5c8c2315b53d336a06a73e63019daee842439f65aa53e3fb7d34d4944dcab9cf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193917"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118366092"
 ---
 # <a name="getframesrcaddressoffset-function"></a>GetFrameSrcAddressOffset 函式
 

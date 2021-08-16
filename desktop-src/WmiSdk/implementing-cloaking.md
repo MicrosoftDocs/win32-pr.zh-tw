@@ -5,12 +5,12 @@ ms.tgt_platform: multiple
 title: 實施掩蓋
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ac73d7aacf32a2168dc3651b82ae1ce3a977cf5c
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: d8d32333250bc37d8ccbfdb17421fed635f0da77e6394229220b2b36a1ce57f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104193869"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118318893"
 ---
 # <a name="implementing-cloaking"></a>實施掩蓋
 
@@ -18,7 +18,7 @@ ms.locfileid: "104193869"
 
 COM 提供下列形式的掩蓋：
 
--   Static
+-   靜態
 
     在第一次呼叫 proxy 時，COM 會依據執行緒或進程 token 來建立權杖識別。 如果您對 [**CoSetProxyBlanket**](/windows/win32/api/combaseapi/nf-combaseapi-cosetproxyblanket)使用靜態掩蓋，請在 proxy 的存留期間設定 proxy 的身分識別。
 

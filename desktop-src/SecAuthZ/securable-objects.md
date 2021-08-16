@@ -4,18 +4,18 @@ ms.assetid: 32f2ec06-822f-4d1e-bf51-5ae1d7355e60
 title: 安全物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 867a40e781d9d7f97302ed6e592a7fc26d61b939
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 93af0153082a5e94577e96e3b3f85c30ced8775aa8617bff84db37c96904d814
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103691052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117780503"
 ---
 # <a name="securable-objects"></a>安全物件
 
-安全物件是可以有 [安全描述項](security-descriptors.md)的物件。 所有命名的 Windows 物件都是安全的。 某些未命名的物件（例如 [*處理*](/windows/desktop/SecGloss/p-gly) 程式和執行緒物件）也可以有安全描述項。 對於大部分的安全物件而言，您可以在建立物件的函式呼叫中指定物件的 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 。 例如，您可以在 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) 和 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 函數中指定安全描述項。
+安全物件是可以有 [安全描述項](security-descriptors.md)的物件。 所有命名 Windows 物件都是安全的。 某些未命名的物件（例如 [*處理*](/windows/desktop/SecGloss/p-gly) 程式和執行緒物件）也可以有安全描述項。 對於大部分的安全物件而言，您可以在建立物件的函式呼叫中指定物件的 [*安全描述項*](/windows/desktop/SecGloss/s-gly) 。 例如，您可以在 [**CreateFile**](/windows/desktop/api/fileapi/nf-fileapi-createfilea) 和 [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 函數中指定安全描述項。
 
-此外，Windows 安全性功能可讓您取得及設定在 Windows 以外的作業系統上建立的安全物件安全性資訊。 Windows 安全性函式也支援使用安全描述項搭配私用應用程式定義的物件。 如需私用安全物件的詳細資訊，請參閱 [用戶端/伺服器存取控制](client-server-access-control.md)。
+此外，Windows 安全性函式可讓您取得及設定在非 Windows 的作業系統上建立之安全物件的安全性資訊。 Windows 安全性函式也支援使用安全描述項搭配私用應用程式定義的物件。 如需私用安全物件的詳細資訊，請參閱 [用戶端/伺服器存取控制](client-server-access-control.md)。
 
 每種安全物件類型都會定義自己的一組特定 [存取權限](access-rights-and-access-masks.md) ，以及自己 [的一般存取權限對應](generic-access-rights.md)。 如需每一種安全物件類型的特定和一般存取權限的相關資訊，請參閱該物件類型的總覽。
 

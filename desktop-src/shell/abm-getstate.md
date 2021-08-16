@@ -56,7 +56,7 @@ uState = (UINT) SHAppBarMessage(ABM_GETSTATE, pabd);
 <thead>
 <tr class="header">
 <th>傳回碼</th>
-<th>Description</th>
+<th>描述</th>
 </tr>
 </thead>
 <tbody>

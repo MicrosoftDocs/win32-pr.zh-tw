@@ -3,19 +3,19 @@ title: 寫入器網路接收物件
 description: 寫入器網路接收物件
 ms.assetid: f7765b42-693a-4f48-b750-17579e860b6d
 keywords:
-- Windows Media Format SDK，寫入器網路接收物件
+- Windows媒體格式 SDK，寫入器網路接收物件
 - Advanced Systems Format (ASF) 、writer 網路接收物件
 - ASF (Advanced 系統格式) 、寫入器網路接收物件
 - 物件，寫入器網路接收物件
 - 寫入器網路接收物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c85af356c1d326ddaaf3703ca87c3b7bdd1628b9
-ms.sourcegitcommit: ad672d3a10192c5ccac619ad2524407109266e93
+ms.openlocfilehash: c2011fd161fc4ac5e1cd03d955f06259e6499e343970cc309b1e8c41db051a32
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/25/2020
-ms.locfileid: "104092587"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117843723"
 ---
 # <a name="writer-network-sink-object"></a>寫入器網路接收物件
 
@@ -35,7 +35,7 @@ ms.locfileid: "104092587"
 
 
 
- 
+ 
 
 下列回呼介面可以由應用程式執行，以追蹤寫入器網路接收物件的進度。
 
@@ -47,7 +47,7 @@ ms.locfileid: "104092587"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -62,9 +62,9 @@ ms.locfileid: "104092587"
 [**使用寫入器接收器**](working-with-writer-sinks.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

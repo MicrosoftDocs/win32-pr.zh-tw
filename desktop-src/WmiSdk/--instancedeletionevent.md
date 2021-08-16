@@ -17,12 +17,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 018bac665aa95393fc1a9c7e51ad42038e8b27c3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a210f67e7e71d9980a3eeb88ae54fad7fee3ec62597b81ae7253a2893a437a7f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975801"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320882"
 ---
 # <a name="__instancedeletionevent-class"></a>\_\_InstanceDeletionEvent 類別
 

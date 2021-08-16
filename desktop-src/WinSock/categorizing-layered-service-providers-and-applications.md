@@ -4,17 +4,17 @@ description: Winsock 2 容納多層通訊協定。
 ms.assetid: 1c5efd2e-1b42-4c20-a4da-b81a5fc4243c
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a966d54da0be26f75a074de18abe1b9e080c0c9f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0993b7a4003b87cf902b9daccbea4742a0bcd0760642429db79b1f1bb0a22600
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "107000071"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118322389"
 ---
 # <a name="categorizing-layered-service-providers-and-apps"></a>將多層式服務提供者和應用程式分類
 
 > [!Note]  
-> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用 [Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
+> 已淘汰分層服務提供者。 從 Windows 8 和 Windows Server 2012 開始，請使用[Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)。
 
  
 
@@ -26,7 +26,7 @@ LSP 的範例是安裝在 Internet Secutity 和 Authentication Server 中的 Mic
 
 您可以根據 LSP 所實行的 SPI 函式子集，以及針對每個函式執行的額外處理的本質，來定義 LSP 類別。 藉由將 Lsp 分類，以及分類使用 Winsock 通訊端的應用程式，您可以選擇性地判斷在執行時間是否應該在指定的進程中包含 LSP。
 
-在 Windows Vista 和更新版本上，會提供新的方法，以分類 Winsock 多層式服務提供者和應用程式，因此只會載入特定的 Lsp。 新增這些功能有幾個原因。
+在 Windows Vista 和更新版本上，提供了一種新方法來分類 Winsock 分層服務提供者和應用程式，因此只會載入特定的 lsp。 新增這些功能有幾個原因。
 
 其中一個主要原因是某些系統重要的處理常式（例如 winlogon 和 lsass）會建立通訊端，但這些程式並不會使用這些通訊端來傳送網路上的任何流量。 因此大部分的 Lsp 都不應該載入到這些進程中。 許多案例也記載在錯誤 Lsp 可能導致 *lsass.exe* 損毀的情況。 如果 lsass 當機，系統會強制關機。 這些系統進程載入 Lsp 的副作用是，這些程式永遠不會結束，因此當 LSP 已安裝或移除時，需要重新開機。
 
@@ -34,11 +34,11 @@ LSP 的範例是安裝在 Internet Secutity 和 Authentication Server 中的 Mic
 
 最後，其他 Lsp 可以使用 LSP 類別來判斷 Winsock 通訊協定鏈中應自行安裝的位置。 多年來，不同的 LSP 開發人員都想知道 LSP 的表現方式。 例如，檢查資料流程的 LSP 可能會想要在加密資料的 LSP 上方。 當然，這種 LSP 類別的方法並不是欺騙證明，因為它依賴協力廠商 Lsp 來適當地分類。
 
-Windows Vista 和更新版本中的 LSP 分類和其他安全性增強功能是設計來協助防止使用者不慎安裝惡意 Lsp。
+Windows Vista 和更新版本中的 LSP 分類和其他安全性增強功能是設計來協助防止使用者不慎安裝惡意 lsp。
 
 ## <a name="lsp-categories"></a>LSP 類別
 
-在 Windows Vista 和更新版本上，LSP 可根據其與 Windows 通訊端呼叫和資料互動的方式進行分類。 LSP 類別是 Winsock SPI 函式子集上可辨識的行為群組。 例如，HTTP 內容篩選器會分類為 (LSP 偵測器類別) 的資料偵測器 \_ 。 LSP 偵測 \_ 器類別會檢查 (，但不會將) 參數變更為資料傳輸 SPI 函數。 應用程式可以查詢 LSP 的類別，並選擇不要根據 LSP 類別和應用程式所允許的 LSP 類別組合來載入 LSP。
+在 Windows Vista 和更新版本上，LSP 可以根據它與 Windows 通訊端呼叫和資料互動的方式進行分類。 LSP 類別是 Winsock SPI 函式子集上可辨識的行為群組。 例如，HTTP 內容篩選器會分類為 (LSP 偵測器類別) 的資料偵測器 \_ 。 LSP 偵測 \_ 器類別會檢查 (，但不會將) 參數變更為資料傳輸 SPI 函數。 應用程式可以查詢 LSP 的類別，並選擇不要根據 LSP 類別和應用程式所允許的 LSP 類別組合來載入 LSP。
 
 下表列出 LSP 可分類的類別。
 
@@ -77,7 +77,7 @@ Windows Vista 和更新版本提供數個新功能來分類 LSP：
 
 ## <a name="categorizing-applications"></a>將應用程式分類
 
-Windows Vista 和更新版本提供數個新的功能，可將應用程式分類：
+Windows Vista 和更新版本提供數個新功能來分類應用程式：
 
 -   [**WSCGetApplicationCategory**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscgetapplicationcategory)
 -   [**WSCSetApplicationCategory**](/windows/desktop/api/Ws2spi/nf-ws2spi-wscsetapplicationcategory)
@@ -114,9 +114,9 @@ LSP 分類的最後一個部分是決定哪些 Lsp 將會載入至哪些處理�
 
 ## <a name="determining-winsock-providers-installed"></a>判斷已安裝 Winsock 提供者
 
-Microsoft Windows 軟體開發套件 (SDK) 包含範例 Winsock 程式，可用來判斷本機電腦上安裝的 Winsock 傳輸提供者。 根據預設，此 Winsock 範例的原始程式碼會安裝在 Windows 7 Windows SDK 的下列目錄中：
+Microsoft Windows 軟體開發套件 (SDK) 包含範例 Winsock 程式，可用來判斷本機電腦上安裝的 winsock 傳輸提供者。 根據預設，此 Winsock 範例的原始程式碼會安裝在 Windows 7 的 Windows SDK 的下列目錄中：
 
-*C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 \\ 範例 \\ NetDs \\ winsock \\ LSP*
+*C： \\ Program Files \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ NetDs \\ winsock \\ LSP*
 
 此範例是安裝和測試多層式服務提供者的公用程式。 但是它也可以用來以程式設計的方式，從本機電腦上的 Winsock 類別目錄收集詳細資訊。 若要列出所有目前的 Winsock 提供者（包括基底提供者和層級服務提供者），請建立此 Winsock 範例，然後執行下列主控台命令：
 
@@ -139,7 +139,7 @@ Microsoft Windows 軟體開發套件 (SDK) 包含範例 Winsock 程式，可用�
 **instlsp-m**
 
 > [!Note]  
-> TDI 功能已被取代，並將在未來的 Microsoft Windows 版本中移除。 根據您使用 TDI 的方式，使用 Winsock Kernel (WSK) 或 Windows 篩選平台 (WFP) 。 如需有關 WFP 和 WSK 的詳細資訊，請參閱 [Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md) 和 [Winsock 核心](/windows-hardware/drivers/ddi/_netvista/)。 如需有關 WSK 和 TDI 的 Windows 核心網路功能 blog 專案，請參閱 [Winsock 核心 (WSK 簡介) ](/archive/blogs/wndp/)。
+> TDI 功能已被取代，並將在未來版本的 Microsoft Windows 中移除。 視您使用 TDI 的方式而定，請使用 Winsock 核心 (WSK) 或 Windows 篩選平台 (WFP) 。 如需有關 WFP 和 WSK 的詳細資訊，請參閱[Windows 篩選平台](../fwp/windows-filtering-platform-start-page.md)和[Winsock 核心](/windows-hardware/drivers/ddi/_netvista/)。 如需 WSK 和 TDI 的 Windows 核心網路 blog 專案，請參閱[Winsock 核心 (WSK 簡介) ](/archive/blogs/wndp/)。
 
  
 

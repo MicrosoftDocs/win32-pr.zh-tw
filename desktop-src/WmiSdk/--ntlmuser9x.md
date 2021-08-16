@@ -1,5 +1,5 @@
 ---
-description: 控制對不支援之 Windows 版本的遠端存取。
+description: 控制 Windows 不受支援版本的遠端存取。
 ms.assetid: eb326bba-a011-4b9c-b4ee-fc08ae364f6f
 ms.tgt_platform: multiple
 title: __NTLMUser9X 類別
@@ -19,16 +19,16 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 79aa5153869c7337b6849e8c465dbbf8b36a0f58
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2d05920b0936e8ff4de3eb338938e03e92edb4596efbf01f1064b6952a7df661
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "107000177"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320576"
 ---
 # <a name="__ntlmuser9x-class"></a>\_\_NTLMUser9X 類別
 
-**\_ \_ NTLMUser9X** 系統類別可控制遠端存取不受支援的 Windows 版本。 下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
+**\_ \_ NTLMUser9X** 系統類別可控制 Windows 不受支援版本的遠端存取。 下列語法已從受管理物件格式 (MOF) 程式碼加以簡化，並包含所有繼承的屬性。 屬性會依字母順序列出，而不是依 MOF 順序列出。
 
 ## <a name="syntax"></a>語法
 
@@ -123,7 +123,7 @@ class __NTLMUser9X : __SecurityRelatedClass
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **sint32**

@@ -13,16 +13,16 @@ api_type:
 - DllExport
 api_location:
 - ntdll.dll
-ms.openlocfilehash: a1d6d2ff20539f5ef65c0886ba51a0dbabafb44d
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e6b1ecdc7cc7f0a5c18afc3eeb613c3f9cd9a38aa22a876ad156c3d1c6b1bc97
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826804"
 ---
 # <a name="ntqueryattributesfile-function"></a>NtQueryAttributesFile 函式
 
-\[您可以在不另行通知的情況下，從 Windows 變更或移除此功能。\]
+\[您可以從 Windows 中變更或移除此函式，而不需另行通知。\]
 
 抓取所指定檔案物件的基本屬性。
 

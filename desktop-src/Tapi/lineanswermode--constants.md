@@ -4,12 +4,12 @@ ms.assetid: 35f63d92-970f-4fb8-aba9-179fc7de70f4
 title: 'LINEANSWERMODE_ 的常數 (Tapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 658d5b1265d28f8cb719719e4303fde97d3fff3e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: abfb9d6491864f5be8788575d718e42cc5f5c7c337fd046c110bd5bd82eae110
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106984439"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117761840"
 ---
 # <a name="lineanswermode_-constants"></a>LINEANSWERMODE \_ 常數
 

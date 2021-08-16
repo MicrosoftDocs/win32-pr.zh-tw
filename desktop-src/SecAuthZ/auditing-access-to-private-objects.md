@@ -4,12 +4,12 @@ ms.assetid: 4edee246-4fa7-4947-9737-34198f36e3ab
 title: 審核私用物件的存取權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3669841714fe9c24f6346404bc8634222bc4557e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: eac3a38a9f0af292a77a539491e0cea5f1faf40b570f34a35371ad43a7abe757
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103945410"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784589"
 ---
 # <a name="auditing-access-to-private-objects"></a>審核私用物件的存取權
 

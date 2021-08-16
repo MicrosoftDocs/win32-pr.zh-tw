@@ -4,18 +4,18 @@ ms.assetid: db85ff3b-dbb1-4ed0-b663-21ca9eb66352
 title: 音訊端點屬性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 4d6ce4ed9b853c2b73b73de014f3a4c8a90072a9
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: bf76ef70afaed98ed04ad2ee56e83c38c14ffde1bb6e4d43b557d25769afb2f6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104187743"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828499"
 ---
 # <a name="audio-endpoint-properties"></a>音訊端點屬性
 
-標頭檔 Mmdeviceapi 會在 Windows Vista 和更新版本中定義 [音訊端點裝置](audio-endpoint-devices.md) 的數個屬性。 Windows 音訊服務會設定這些屬性的值。 用戶端可以讀取這些屬性，但是不應該設定它們。 屬性值會儲存為 **PROPVARIANT** 結構。
+標頭檔 Mmdeviceapi 會定義 Windows Vista 和更新版本中的數個[音訊端點裝置](audio-endpoint-devices.md)屬性。 Windows 的音訊服務會設定這些屬性的值。 用戶端可以讀取這些屬性，但是不應該設定它們。 屬性值會儲存為 **PROPVARIANT** 結構。
 
-讀取音訊輸入裝置屬性的建議方式是使用 Windows 中的 Api。 [**列舉**](/uwp/api/Windows.Devices.Enumeration) 命名空間。 Windows Store 應用程式和桌面應用程式支援這些 Api。 針對使用 [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) 介面讀取裝置屬性的現有桌面應用程式，請參閱 [裝置屬性](device-properties.md)。 **IMMDevice** 不支援 Windows Store 應用程式。
+讀取音訊輸入裝置屬性的建議方式是使用 Windows 中的 Api [**。Devices。列舉**](/uwp/api/Windows.Devices.Enumeration)命名空間。 Windows Store 應用程式和桌面應用程式都支援這些 api。 針對使用 [**IMMDevice**](/windows/desktop/api/Mmdeviceapi/nn-mmdeviceapi-immdevice) 介面讀取裝置屬性的現有桌面應用程式，請參閱 [裝置屬性](device-properties.md)。 Windows Store 應用程式不支援 **IMMDevice** 。
 
 如需示範如何存取音訊端點裝置屬性的程式碼範例，請參閱下列主題：
 

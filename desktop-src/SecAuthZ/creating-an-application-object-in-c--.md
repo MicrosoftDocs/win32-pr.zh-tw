@@ -4,12 +4,12 @@ ms.assetid: 2bba1068-ae03-4388-be4d-9865e42e440e
 title: 在 c + + 中建立應用程式物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 86885124e2fff52bc5cce2260e3d7fb727b58eb5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a434bb87d064a7fe19698e78565577238f75051fbf233e36ddf2da1725987c06
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103848359"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782622"
 ---
 # <a name="creating-an-application-object-in-c"></a>在 c + + 中建立應用程式物件
 

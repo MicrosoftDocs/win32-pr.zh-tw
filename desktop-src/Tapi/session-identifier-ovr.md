@@ -4,12 +4,12 @@ ms.assetid: 711a9bc6-ffc6-499b-8653-ba230028c146
 title: 工作階段識別碼
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e135beb439d1c5fb2fdd46d4986cd35dc5ae49b0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 527706159328b3919e47c39bc5fb160615ed2c202d33c1ce39c711b6921235a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104386296"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117760780"
 ---
 # <a name="session-identifier"></a>工作階段識別碼
 

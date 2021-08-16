@@ -4,12 +4,12 @@ ms.assetid: dc1c510d-f0d4-4d04-ba79-3aac1aaaf5d4
 title: 在 c + + 中使用 Acl 定義許可權
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 69d9129e448f62998eb685c6607bc2e6ed29c035
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3a5657acb1d96661c8cc4dd7afdd9c04180a6c6eb90d4160db85f9a68f359740
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944825"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782072"
 ---
 # <a name="defining-permissions-with-acls-in-c"></a>在 c + + 中使用 Acl 定義許可權
 

@@ -90,7 +90,7 @@ ms.locfileid: "117781029"
 
 
 
-| 屬性                                                                        | 存取類型           | Description                                                                                 |
+| 屬性                                                                        | 存取類型           | 描述                                                                                 |
 |:--------------------------------------------------------------------------------|:----------------------|:--------------------------------------------------------------------------------------------|
 | **Azroles. IAzOperation2. ApplicationData**<br/> | 讀取/寫入<br/> | [**IAzOperation 的 ApplicationData 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazoperation-get_applicationdata)<br/> |
 | **Azroles. IAzOperation2. Description**<br/>     | 讀取/寫入<br/> | [**IAzOperation 的 Description 屬性**](/windows/desktop/api/Azroles/nf-azroles-iazoperation-get_description)<br/>         |

@@ -4,12 +4,12 @@ ms.assetid: 6fc84944-8050-4000-8856-36558d94e2fd
 title: 在 c + + 中建立授權原則存放區物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 58b50bfa4234f5adaf162b1499f85785a7d65f5a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4be0b39633eb773b84ad16098f24b59cb23e5d9cc234afdfca414e9cba7a640b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103943711"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782463"
 ---
 # <a name="creating-an-authorization-policy-store-object-in-c"></a>在 c + + 中建立授權原則存放區物件
 
@@ -110,11 +110,11 @@ void MyHandleError(char *s)
 如果 SQL Server 實例不包含指定的授權管理員資料庫，授權管理員會以該名稱建立新的資料庫。
 
 > [!Note]  
-> 除非您明確設定連接的 SQL 加密，或設定使用網際網路通訊協定安全性 (IPsec) 之網路流量的加密，否則不會加密與 SQL Server 存放區的連接。
+> 除非您明確設定連接的 SQL 加密，或設定使用網際網路通訊協定安全性 (IPsec) 的網路流量加密，否則不會加密與 SQL Server 存放區的連線。
 
  
 
-下列範例示範如何建立 [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore) 物件，該物件代表 SQL Server 資料庫中的授權原則存放區。
+下列範例示範如何建立 [**AzAuthorizationStore**](/windows/desktop/api/Azroles/nn-azroles-iazauthorizationstore)物件，該物件代表 SQL Server 資料庫中的授權原則存放區。
 
 
 ```C++
