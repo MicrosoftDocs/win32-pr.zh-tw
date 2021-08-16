@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 954d9e8abb310f962f7188720cb32035baf50d3d
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: ea422a6e0b0ecfda6b4eb03a0636eb013d8c840c96cec6f1c482589de29f3c76
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104035428"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119563928"
 ---
 # <a name="id3dxfontpreloadglyphs-method"></a>ID3DXFont：:P reloadGlyphs 方法
 

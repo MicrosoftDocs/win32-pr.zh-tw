@@ -13,12 +13,12 @@ api_type:
 - DllExport
 api_location:
 - Msjter40.dll
-ms.openlocfilehash: 8a904a99577a6fa0fd6955f4c78906b470ea96b3
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 39bd07b3ac75bed85ff26dd7f014420ebaca8be16d6f0195d40e9161c0905496
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106997737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118955757"
 ---
 # <a name="jeterridarawmessage-function"></a>JetErrIDARawMessage 函式
 

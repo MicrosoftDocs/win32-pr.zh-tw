@@ -4,12 +4,12 @@ ms.assetid: 3aed8c13-4dc0-4242-b3de-8817ff2f4018
 title: 對等網路的優點
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f836d8e60cb249b5a0e603f0a295a55686bc5ef
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 84c9e6ab5eedd130735f4c352712e0445d29e6333b033113dfa2f90130b28c33
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849318"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119011766"
 ---
 # <a name="benefits-of-peer-networking"></a>對等網路的優點
 
@@ -23,7 +23,7 @@ ms.locfileid: "103849318"
 |--------------------|------------------------------------------------------|
 | **安全**         | 如果發生失敗或有導向的攻擊，就會有穩定性 |
 | **可調整**       | 從簡單 Lan 到整個網際網路的擴充性  |
-| **無**     | 沒有中央點失敗                          |
+| **無伺服器**     | 沒有中央點失敗                          |
 | **自動調整**    | 適應基礎結構內的變更          |
 | **自我修復** | 自動修復和修正本身            |
 | **共用**        | 啟用從邊緣網路端點共用       |

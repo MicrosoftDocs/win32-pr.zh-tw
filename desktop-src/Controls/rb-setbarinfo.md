@@ -3,7 +3,7 @@ title: 'RB_SETBARINFO 訊息 (Commctrl .h) '
 description: 設定 Rebar 控制項的特性。
 ms.assetid: e4413d46-574f-4ccd-b5fd-3ba6c1e3924b
 keywords:
-- RB_SETBARINFO message Windows 控制項
+- RB_SETBARINFO 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b360bc0b4d14963619aad8f769634d7dd0ad17e5
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: b4297d73a8bca6abac1a4b99abc4a91147ad237548a67e325a9efb2f1a1f1c46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104024650"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119696608"
 ---
 # <a name="rb_setbarinfo-message"></a>RB \_ SETBARINFO 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104024650"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

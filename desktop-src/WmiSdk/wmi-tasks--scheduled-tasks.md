@@ -10,12 +10,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 4051df4348ee47710b5d2d1f5dcc3f59f607d997
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: ee4fcf193296d5c474987a3a99877b3bfb43868f79527200893303df351920cb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106987471"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738837"
 ---
 # <a name="wmi-tasks-scheduled-tasks"></a>WMI 工作：已排程的工作
 
@@ -28,7 +28,7 @@ WMI 排程工作會建立並取得已排程工作的相關資訊。 如需其他
 
 **執行指令碼**
 
-1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會將 .txt 副檔名新增至檔案。
+1.  複製程式碼，並將它儲存在副檔名為 .vbs 的檔案中，例如 *filename.vbs*。 確定您的文字編輯器不會在檔案中加入 .txt 延伸模組。
 2.  開啟 [命令提示字元] 視窗，並流覽至您儲存檔案的目錄。
 3.  在命令提示字元中，輸入 **cscript filename.vbs** 。
 4.  如果您無法存取事件記錄檔，請檢查是否從提高許可權的命令提示字元執行。 某些事件記錄檔，例如安全性事件記錄檔，可能會受到使用者存取控制 (UAC) 的保護。
@@ -56,7 +56,7 @@ WMI 排程工作會建立並取得已排程工作的相關資訊。 如需其他
 <tbody>
 <tr class="odd">
 <td>...使用腳本建立排定的工作？</td>
-<td>使用 <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> 類別和 <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> 方法。 如果您在 Windows 7 或更新版本上進行這項工作時遇到困難，請參閱 <strong>Win32_ScheduledJob</strong> 備註一節。您的設定可能會導致您無法使用類別。<br/> <span data-codelanguage="VisualBasic"></span>
+<td>使用 <a href="/windows/desktop/CIMWin32Prov/win32-scheduledjob"><strong>Win32_ScheduledJob</strong></a> 類別和 <a href="/windows/desktop/CIMWin32Prov/create-method-in-class-win32-scheduledjob"><strong>Create</strong></a> 方法。 如果您在 Windows 7 或更新版本上執行此工作時遇到困難，請參閱<strong>Win32_ScheduledJob</strong>備註區段;您的設定可能會導致您無法使用類別。<br/> <span data-codelanguage="VisualBasic"></span>
 <table>
 <colgroup>
 <col style="width: 100%" />

@@ -12,12 +12,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_name: ''
 api_location: ''
-ms.openlocfilehash: 6aed2a554c0051d2ce78ffaf13f6d41205011a95
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 50d2c900ed8845fdf294c2e228db6da55ceff61bb49c9a962ffe1ca0dcbacfbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104092736"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119043306"
 ---
 # <a name="idcompositionaffinetransform2deffectsetsharpness-methods"></a>idcompositionaffinetransform2deffect：： SetSharpness 方法
 

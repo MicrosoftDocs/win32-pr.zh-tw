@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6eb3c1437bc4b4d2f442c61e54f238f176adf66b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 7be82ec976da39103698b93a09b3d5235c8c8ee712783ca8284dc7b18c6a8a27
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106986577"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119027745"
 ---
 # <a name="iwmdrmdecryptdecrypt-method"></a>IWMDRMDecrypt：:D ecrypt 方法
 

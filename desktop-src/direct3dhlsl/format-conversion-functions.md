@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 355fb59aa6a94e144daf05942b40d3f685daff51
-ms.sourcegitcommit: 556bf3a984f2fc4d18e370329c3043bf3329c93f
+ms.openlocfilehash: f1158a45ce2fc5df0bdc762a5d422492522886b8025c940e807c80707be173e4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "107222876"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672918"
 ---
 # <a name="format-conversion-functions-hlsl-reference"></a>格式轉換函數 (HLSL 參考) 
 
@@ -23,7 +23,7 @@ ms.locfileid: "107222876"
 -   [轉換器函式](#converter-functions)
 -   [相關主題](#related-topics)
 
-> .Inl 標頭隨附于舊版 DirectX SDK，並依賴 XNAMath 來支援 c + + 支援。 D3DX_DXGIFormatConvert 它也包含在 [DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中。 最新版本使用 DirectXMath 進行 c + + 支援，而所有函式都定義于 **DirectX** c + + 命名空間中。
+> .Inl 標頭隨附于舊版 DirectX SDK，並依賴 XNAMath 來支援 c + + 支援。 D3DX_DXGIFormatConvert 它也包含在[DXSDK. D3DX](https://www.nuget.org/packages/Microsoft.DXSDK.D3DX) NuGet 套件中。 最新版本使用 DirectXMath 進行 c + + 支援，而所有函式都定義于 **DirectX** c + + 命名空間中。
 
 ## <a name="converter-functions"></a>轉換器函式
 

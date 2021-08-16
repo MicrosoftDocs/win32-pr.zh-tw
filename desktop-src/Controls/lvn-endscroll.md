@@ -3,7 +3,7 @@ title: 'LVN_ENDSCROLL 訊息 (Commctrl .h) '
 description: 當滾動操作結束時，通知清單視圖控制項的父視窗。 此通知碼會以 WM 通知訊息的形式傳送 \_ 。
 ms.assetid: 2838dcd0-ac0f-48c7-94ba-dc36febedb94
 keywords:
-- LVN_ENDSCROLL message Windows 控制項
+- LVN_ENDSCROLL 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 3b9dcdcff2d0bcfc28e1818d5add6d37838e5f9b
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 308d0abc3c12170dbc14f5e8a67329ed226610baa7b00fd042a24ed67193e6df
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103844479"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119915138"
 ---
 # <a name="lvn_endscroll-message"></a>LVN \_ ENDSCROLL 訊息
 
@@ -62,8 +62,8 @@ LVN_ENDSCROLL
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

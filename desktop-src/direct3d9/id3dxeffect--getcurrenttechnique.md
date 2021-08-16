@@ -14,12 +14,12 @@ api_type:
 api_location:
 - D3dx9.lib
 - D3dx9.dll
-ms.openlocfilehash: e865b0e45faf82cf2827a56a4092058a8c237278
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: 51387fae68d6be94aa1bdd82b99a40c1a4336ff63d6baf5b29b9e6c1dd3e0fee
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "107000574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119748598"
 ---
 # <a name="id3dxeffectgetcurrenttechnique-method"></a>ID3DXEffect：： GetCurrentTechnique 方法
 

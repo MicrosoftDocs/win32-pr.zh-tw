@@ -4,12 +4,12 @@ ms.assetid: b1a9161d-1f9a-4c5b-acd2-6058dc65a258
 title: enrollNestedCMC
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0f1df25a1bc7f6ce16a67f66ff58dc371a526813
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b55c2957fc04e8bd9a088d3a07ed10c639c29d27dd1262b34709a9215c6c8b15
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119882938"
 ---
 # <a name="enrollnestedcmc"></a>enrollNestedCMC
 
@@ -17,7 +17,7 @@ EnrollNestedCMC 範例會從檔案讀取現有的 CMC 憑證要求、將其包�
 
 ## <a name="location"></a>Location
 
-當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，此範例預設會安裝在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ X509 憑證註冊 \\ VC \\ enrollNestedCMC 資料夾中。
+當您安裝 Microsoft Windows 軟體開發套件 (SDK) 時，預設會在 *% ProgramFiles%* \\ Microsoft sdk \\ Windows \\ 7.0 版 \\ 範例 \\ X509 憑證註冊 \\ VC \\ enrollNestedCMC 資料夾中安裝範例。
 
 ## <a name="discussion"></a>討論
 

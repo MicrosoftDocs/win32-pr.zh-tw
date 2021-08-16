@@ -4,12 +4,12 @@ ms.assetid: 9cfc7fd9-27a3-4208-b42c-48369890a74b
 title: UseCustomPalette 對話方塊樣式位
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 507ed1c900c564e3e791f4d0bbc5f8658798fdb4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c9863f9b20ad85caf3712c3cfa00fd88de72f82b947a329d367d06f02ba06163
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985130"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119809478"
 ---
 # <a name="usecustompalette-dialog-style-bit"></a>UseCustomPalette 對話方塊樣式位
 

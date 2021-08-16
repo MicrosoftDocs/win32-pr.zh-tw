@@ -13,16 +13,16 @@ api_type: ''
 api_location: ''
 topic_type:
 - kbArticle
-ms.openlocfilehash: b10d2ea3e327f54c6a8100f0758d652675b9d4a8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3fd9b2d5a28abd4c445198d58c589c60f9dba9de786b989c6d97cd74dd461aa3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106999855"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118744199"
 ---
 # <a name="span-idwwan_profile_v4schema_rootspanmobile-broadband-profile-schema-v4"></a><span id="WWAN_profile_v4.Schema_Root"></span>Mobile 寬頻設定檔架構 v4
 
-Windows 10Mobile 寬頻設定檔架構 v4 可在命名空間中使用 `https://www.microsoft.com/networking/WWAN/profile/v4` 。
+Windows 的10Mobile 寬頻設定檔架構 v4 可在命名空間中使用 `https://www.microsoft.com/networking/WWAN/profile/v4` 。
 
 -   [行動寬頻設定檔架構 v4 元素](root-elements.md)
 -   [Mobile 寬頻設定檔架構 v4 簡單類型](simple-types.md)

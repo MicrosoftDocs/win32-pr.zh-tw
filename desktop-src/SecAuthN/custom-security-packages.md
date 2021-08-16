@@ -4,16 +4,16 @@ ms.assetid: 915ef590-c427-4ac2-a2f7-aed328776cb7
 title: 自訂安全性套件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a4c447f1a24a3edc2f25a55f83d82c174094c50
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3799edb3eb8e0551afe7d7f7bcdc54924228445d6ffb28cb4773af843b5c2d9c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998075"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119008666"
 ---
 # <a name="custom-security-packages"></a>自訂安全性套件
 
-若要執行與 Windows Server 和 Windows 作業系統整合的新安全性通訊協定，請使用自訂安全性封裝 API 和 [*本地安全機構*](/windows/desktop/SecGloss/l-gly) (LSA) 函數。
+若要執行與 Windows Server 和 Windows 作業系統整合的新安全性通訊協定，請使用自訂安全性封裝 API 和 [*本地安全機構*](/windows/desktop/SecGloss/l-gly) (LSA) 函式。
 
 自訂安全性封裝 API 支援自訂 [*安全性支援提供者*](/windows/desktop/SecGloss/s-gly) 的合併開發 (ssp) ，其提供 [非互動式驗證](noninteractive-authentication.md) 服務和安全訊息交換給用戶端/伺服器應用程式，並開發自訂 [*驗證套件*](/windows/desktop/SecGloss/a-gly)，以提供服務給執行 [互動式驗證](interactive-authentication.md)的應用程式。 這些服務在組合成單一套件時，稱為安全性支援提供者/驗證套件 (SSP/AP) 。
 
@@ -29,7 +29,7 @@ ms.locfileid: "106998075"
 |-------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
 | [SSP/Ap 與 Ssp](ssp-aps-versus-ssps.md)<br/>                                                                                                | 有關如何判斷安全性封裝是否應該位於 SSP/AP 或 SSP 中的資訊。<br/> |
 | [LSA 模式與使用者模式的比較](lsa-mode-versus-user-mode.md)<br/>                                                                                    | LSA 模式和使用者模式不同的詳細資料。<br/>                                      |
-| [註冊和安裝安全性套件的限制](restrictions-around-registering-and-installing-a-security-package.md)<br/> | Windows 不支援之安全性封裝的動作。<br/>                              |
+| [註冊和安裝安全性套件的限制](restrictions-around-registering-and-installing-a-security-package.md)<br/> | Windows 中不支援之安全性封裝的動作。<br/>                              |
 
 
 

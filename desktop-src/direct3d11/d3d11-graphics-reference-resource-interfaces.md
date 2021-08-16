@@ -6,12 +6,12 @@ keywords:
 - 介面，Direct3D 11 資源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b4d8f01e8d485fcdf575e8aea1a5beeb2184946b
-ms.sourcegitcommit: 8fa6614b715bddf14648cce36d2df22e5232801a
+ms.openlocfilehash: 0896bd04a51a989e502676ee314e17d1bf94a110df8a5af9dfe82210dd1b6b71
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "103685436"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119125342"
 ---
 # <a name="resource-interfaces-direct3d-11-graphics"></a> (Direct3D 11 圖形) 的資源介面
 

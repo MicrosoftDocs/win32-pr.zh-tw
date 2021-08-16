@@ -4,20 +4,20 @@ ms.assetid: d3a97325-2136-4745-8a7d-57e4d6b9d27e
 title: MsiPackageCertificate 資料表
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5fd39ac93ff24da2fa8334a6e4865172471080b4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 62abfa23f5e86949d6254ab89f7d70f01a8a4a8fe138a4eba114d2a45559390f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104195276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118944516"
 ---
 # <a name="msipackagecertificate-table"></a>MsiPackageCertificate 資料表
 
 MsiPackageCertificate 資料表會列出用來驗證安裝封裝之身分識別的數位簽章憑證，以進行 [多套件安裝](multiple-package-installations.md)。
 
-您可以使用此資料表，針對包含多個 Windows Installer 套件的產品，撰寫 [多套件安裝](multiple-package-installations.md) 。 如果第一個封裝經過數位簽署，而包含的 MsiPackageCertificate 資料表指定產品中所有其餘套件的數位憑證，則系統管理員只需要針對第一個套件顯示 (UAC) 提示字元，接受 [*使用者帳戶控制*](u-gly.md) 。 在接受 UAC 的第一個封裝提示之後， [MsiEmbeddedChainer 資料表](msiembeddedchainer-table.md) 中的使用者定義函數接著可以將其餘套件加入多套件安裝，而不需要顯示 UAC 提示字元，而且需要每個套件的系統管理員回應。
+您可以使用此資料表，針對包含多個 Windows Installer 套件的產品，撰寫[多套件安裝](multiple-package-installations.md)。 如果第一個封裝經過數位簽署，而包含的 MsiPackageCertificate 資料表指定產品中所有其餘套件的數位憑證，則系統管理員只需要針對第一個套件顯示 (UAC) 提示字元，接受 [*使用者帳戶控制*](u-gly.md) 。 在接受 UAC 的第一個封裝提示之後， [MsiEmbeddedChainer 資料表](msiembeddedchainer-table.md) 中的使用者定義函數接著可以將其餘套件加入多套件安裝，而不需要顯示 UAC 提示字元，而且需要每個套件的系統管理員回應。
 
-如果 [MsiEmbeddedChainer 資料表](msiembeddedchainer-table.md) 中的一或多個函式要求未簽署的封裝，則會針對每個未簽署的套件顯示另一個需要系統管理員互動的 UAC 提示。 如果系統管理員接受此 UAC 提示，則會繼續執行多套件安裝。 系統管理員為套件提供認證之後，在此多套件安裝期間不會再顯示該套件的任何 UAC 提示。 如果系統管理員拒絕封裝的 UAC 提示，Windows installer 會在認可安裝任何屬於產品的封裝之前，回復多套件安裝。
+如果 [MsiEmbeddedChainer 資料表](msiembeddedchainer-table.md) 中的一或多個函式要求未簽署的封裝，則會針對每個未簽署的套件顯示另一個需要系統管理員互動的 UAC 提示。 如果系統管理員接受此 UAC 提示，則會繼續執行多套件安裝。 系統管理員為套件提供認證之後，在此多套件安裝期間不會再顯示該套件的任何 UAC 提示。 如果系統管理員拒絕封裝的 UAC 提示，Windows 安裝程式會在認可安裝任何屬於產品的封裝之前，回復多套件安裝。
 
 **[Windows Installer 4.0 或更早版本](not-supported-in-windows-installer-4-0.md)：** 不支援。 從 Windows Installer 4.5 開始，可以使用此資料表。
 

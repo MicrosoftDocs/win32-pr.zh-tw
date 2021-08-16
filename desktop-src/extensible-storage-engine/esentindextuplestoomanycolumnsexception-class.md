@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 3b1b74c423c3d4c42e773cae63496786b7b50d67
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 1b93a297e0f8978d55a6930480e42767e2c454dfc26e2cd4616471249ebd860c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103692731"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837948"
 ---
 # <a name="esentindextuplestoomanycolumnsexception-class"></a>EsentIndexTuplesTooManyColumnsException 類別
 

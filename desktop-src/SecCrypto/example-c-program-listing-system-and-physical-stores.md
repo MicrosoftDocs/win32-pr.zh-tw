@@ -4,12 +4,12 @@ ms.assetid: bc4268ea-f657-4789-9d0a-6e5354508f86
 title: 範例 C 程式：列出系統和實體存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a94fb8d4a6b7d20735b6918d78119796379e16d0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: f98242d6ae5fd1c7af8732646786a8370a45108c446b051d0e7e7513c7faecae
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106989964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007636"
 ---
 # <a name="example-c-program-listing-system-and-physical-stores"></a>範例 C 程式：列出系統和實體存放區
 

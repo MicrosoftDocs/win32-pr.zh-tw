@@ -3,7 +3,7 @@ title: 'TBM_GETLINESIZE 訊息 (Commctrl .h) '
 description: 抓取捲軸滑動軸移動以回應鍵盤輸入的邏輯位置數目，例如，或索引鍵。 邏輯位置是捲軸的最小值與最大滑杆位置之間的整數增量。
 ms.assetid: b596060a-5bac-4b31-82f3-ee4744a9779c
 keywords:
-- TBM_GETLINESIZE message Windows 控制項
+- TBM_GETLINESIZE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 86eb103f34461e545f5a9f56148c48364d880dbe
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 8e6db69efda8a6836f8c366092871cbb6b54261021a69c80e2bb14abcd88d967
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103935152"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046558"
 ---
 # <a name="tbm_getlinesize-message"></a>TBM \_ GETLINESIZE 訊息
 
@@ -51,8 +51,8 @@ ms.locfileid: "103935152"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

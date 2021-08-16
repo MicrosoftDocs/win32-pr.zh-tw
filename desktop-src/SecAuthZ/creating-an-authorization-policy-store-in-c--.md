@@ -4,12 +4,12 @@ ms.assetid: a350f25a-7cda-4879-82d1-151a3da7d8ec
 title: 在 c + + 中建立授權原則存放區
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1fdff3ba26457510440c8d0e603bc993a4878281
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 90eeb30fd1e66bc69760f8bf3d714419fe818dbda06c1b8e2eb059aeb579ca74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104114137"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117782524"
 ---
 # <a name="creating-an-authorization-policy-store-in-c"></a>在 c + + 中建立授權原則存放區
 

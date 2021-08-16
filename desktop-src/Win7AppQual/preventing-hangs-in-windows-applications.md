@@ -1,22 +1,22 @@
 ---
-description: 瞭解如何防止 windows 7 和 Windows Server 2008 R2 平臺的 Windows 應用程式停止回應。
+description: 瞭解如何避免 Windows 7 和 Windows Server 2008 R2 平臺 Windows 的應用程式停止回應。
 ms.assetid: 698a046b-1934-49cd-a717-d61e7e1ec534
-title: 防止 Windows 應用程式停止回應
+title: 防止 Windows 的應用程式停止回應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35a2d8fac95039f20c8c684c50138933c54750c3
-ms.sourcegitcommit: af9983bab40fe0b042f177ce7ca79f2eb0f9d0e8
+ms.openlocfilehash: 5509b8733e45b105694a8bfdadddae0d67096b92c390ed98b3dd937817823b39
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/06/2021
-ms.locfileid: "104027624"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118994814"
 ---
-# <a name="preventing-hangs-in-windows-applications"></a>防止 Windows 應用程式停止回應
+# <a name="preventing-hangs-in-windows-applications"></a>防止 Windows 的應用程式停止回應
 
 ## <a name="affected-platforms"></a>受影響的平臺
 
 **客戶** 端-Windows 7  
-**伺服器** -Windows Server 2008 R2  
+**伺服器**-Windows Server 2008 R2  
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "104027624"
 
 整個 ghost 體驗看起來像這樣：
 
-![顯示 [記事本未回應] 對話方塊的螢幕擷取畫面。](images/preventinghangs-ghostwindow.gif)
+![顯示 [記事本沒有回應] 對話方塊的螢幕擷取畫面。](images/preventinghangs-ghostwindow.gif)
 
 桌面視窗管理員會進行最後一件事;它會與 Windows 錯誤報告整合，讓使用者不僅能關閉並選擇性地重新開機應用程式，還可以將寶貴的調試資料傳送回 Microsoft。 您可以在 Winqual 網站上註冊，為自己的應用程式取得這項停止回應資料。
 
@@ -71,9 +71,9 @@ Windows 7 在此體驗中新增了一項新功能。 作業系統會分析無回
 -   讓 UI 執行緒的程式碼保持簡單;盡可能移除最多封鎖的 API 呼叫
 -   只有在已就緒且可完全運作時，才會顯示視窗和對話方塊。 如果對話方塊需要顯示太過資源而無法計算的資訊，請先顯示一些一般資訊，並且在有更多資料可供使用時，即時更新它。 Windows 檔案總管的 [資料夾屬性] 對話方塊就是一個很好的例子。 它必須顯示資料夾的總大小，也就是檔案系統中未提供的資訊。 對話方塊會立即顯示，而 [大小] 欄位則會從背景工作執行緒更新：
 
-![螢幕擷取畫面，顯示 [大小]、[磁片大小] 和 [包含] 文字的 Windows 屬性 [一般] 頁面。](images/preventinghangs-updatingdialog.gif)
+![顯示 [一般] 頁面的螢幕擷取畫面，其中顯示 [大小]、[磁片大小] 和 [包含] 文字的 Windows 屬性。](images/preventinghangs-updatingdialog.gif)
 
-可惜的是，沒有簡單的方法可以設計及撰寫回應式應用程式。 Windows 未提供簡單的非同步架構，可讓您輕鬆地排程封鎖或長時間執行的作業。 下列各節介紹一些預防停止回應的最佳作法，並強調一些常見的陷阱。
+可惜的是，沒有簡單的方法可以設計及撰寫回應式應用程式。 Windows 不提供簡單的非同步架構，可讓您輕鬆地排程封鎖或長時間執行的作業。 下列各節介紹一些預防停止回應的最佳作法，並強調一些常見的陷阱。
 
 ## <a name="best-practices"></a>最佳做法
 
@@ -91,7 +91,7 @@ UI 執行緒的主要責任是取得和分派訊息。 任何其他類型的工�
 **請勿：**
 
 -   等候任何核心物件 (例如事件或 Mutex) 超過一段非常短的時間;如果您必須等待，請考慮使用 MsgWaitForMultipleObjects () ，這會在新訊息抵達時解除封鎖
--   使用 AttachThreadInput () 函式，與另一個執行緒共用執行緒的視窗訊息佇列。 若要正確地同步處理佇列的存取權並不容易，也可以防止 Windows 作業系統正確地偵測到無回應視窗
+-   使用 AttachThreadInput () 函式，與另一個執行緒共用執行緒的視窗訊息佇列。 正確地同步處理佇列的存取並不容易，也可以防止 Windows 作業系統正確地偵測到無回應視窗
 -   在任何背景工作執行緒上使用 TerminateThread () 。 以這種方式終止執行緒將不會允許它釋放鎖定或發出訊號事件，並可輕鬆地產生孤立的同步處理物件。
 -   從 UI 執行緒呼叫任何「未知的」程式碼。 如果您的應用程式具有擴充性模型，則更是如此。不保證協力廠商程式碼遵循您的回應性指導方針
 -   進行任何種類的封鎖廣播通話;SendMessage (HWND \_ 廣播) 可讓您 mercy 目前執行的每個未撰寫錯誤的應用程式

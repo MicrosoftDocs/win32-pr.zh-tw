@@ -6,12 +6,12 @@ keywords:
 - AppIDFlags 登錄值 COM
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cdad2b80625d6a60460d43f242d7897e0ae7eb40
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: 44ecf7d0d112d2ceff913f3de6250c130e16455c1810cc6234db63a6aaf463fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "106966062"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048866"
 ---
 # <a name="appidflags"></a>AppIDFlags
 
@@ -21,8 +21,8 @@ ms.locfileid: "106966062"
 
 ```
 HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
-   {AppID_GUID}
-      AppIDFlags = flags
+   {AppID_GUID}
+      AppIDFlags = flags
 ```
 
 ## <a name="remarks"></a>備註
@@ -39,7 +39,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 
 
- 
+ 
 
 ### <a name="appidregflags_activate_iuserver_indesktop-description"></a>APPIDREGFLAGS \_ 啟用 \_ IUSERVER \_ INDESKTOP 描述
 
@@ -57,7 +57,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 如果在 **AppIDFlags** 中設定 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標，則設定為 RunAs 「此使用者」的 COM 伺服器將會以進程安全描述項啟動，以允許處理常式權杖的 LogonID SID 中的 [ \_ 所有 \_ 存取](/windows/desktop/ProcThread/process-security-and-access-rights)。 此外，安全描述項的擁有者將會設定為進程權杖的 LogonID SID。 此外，COM 服務控制管理員 (SCM) 修改 COM 伺服器進程的權杖，如下所示：
 
--   它會將 APPID SID 新增至權杖。 它會在權杖預設任意存取控制清單 (DACL) 中，授與 APPID SID 的完整存取權。 在 Windows Vista 和更新版本的 Windows 中，它會授與 \_ 權杖預設 DACL 中的 OWNERRIGHTS SID 讀取控制許可權。 在 windows Vista 之前版本的 Windows 中，它會將權杖擁有者設定為 APPID SID。
+-   它會將 APPID SID 新增至權杖。 它會在權杖預設任意存取控制清單 (DACL) 中，授與 APPID SID 的完整存取權。 在 Windows Vista 和更新版本的 Windows 中，它會授與 \_ 權杖預設 DACL 中的 OwnerRights SID 讀取控制許可權。 在 Windows 的預先 Windows Vista 版本中，它會將權杖擁有者設定為 APPID SID。
 
 使用 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標時，必須考慮下列安全性考慮：
 
@@ -65,7 +65,7 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 -   設定 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標時，com 會在 RunAs "Activator" COM 伺服器的情況下強化進程物件的安全描述項。 針對這類伺服器，COM 用戶端必須強化它用於 COM 啟用的權杖。
 -   設定 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標時，COM 會在 RunAs 「此使用者」 COM 伺服器的情況下強化處理常式物件的安全描述項。 它也會強化 COM 伺服器的進程 token，因為 COM SCM 是建立權杖的實體。
 
-只有在套用 MSRC8322 patch (資訊 [安全佈告欄 MS09-012](https://support.microsoft.com/kb/959454)) 時，windows XP、windows server 2003、windows Vista 和 windows SERVER 2008 才支援 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ AND \_ BIND** 旗標。 Windows 7 和更新版本的 Windows 原本就支援此功能。
+只有在套用 MSRC8322 patch (資訊 [安全佈告欄 MS09-012](https://support.microsoft.com/kb/959454)) 時，Windows XP、Windows SERVER 2003、Windows Vista 和 Windows SERVER 2008 中才支援 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標。 Windows 7 和更新版本的 Windows 原本就支援此功能。
 
 **APPIDREGFLAGS \_ SECURE \_ SERVER \_ PROCESS \_ SD \_ 和 \_ BIND** 旗標只適用于設定為 RunAs "ACTI加值稅OR" 或 "This User" 的 COM 伺服器。 它並不適用于 NT 服務的 COM 伺服器。
 
@@ -77,9 +77,9 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 
 在識別旗標 **上使用 APPIDREGFLAGS \_ ISSUE \_ 啟用 \_ RPC \_ \_** 時，必須考慮下列安全性考慮：
 
--   **APPIDREGFLAGS \_ ISSUE \_ \_ \_ 在 \_ 識別** 旗標上的啟動 RPC 是為了讓未代表用戶端在物件啟動要求中執行工作的 COM 伺服器使用。 針對這類伺服器，在 [RPC \_ C \_ IMP \_ 層級 \_](impersonation-levels.md) 使用 COM SCM 發出物件啟動要求，可讓程式中出現具有 [**SE \_ 模擬 \_ 名稱**](/windows/desktop/SecAuthZ/privilege-constants) 層級的特殊許可權權杖機率降到最低。
+-   **APPIDREGFLAGS \_ ISSUE \_ \_ \_ 在 \_ 識別** 旗標上的啟動 RPC 是為了讓未代表用戶端在物件啟動要求中執行工作的 COM 伺服器使用。 針對這類伺服器，在 [RPC \_ C \_ IMP \_ 層級 \_](impersonation-levels.md)使用 COM SCM 發出物件啟動要求，可將具有 [**SE 模擬 \_ \_ 名稱**](/windows/desktop/SecAuthZ/privilege-constants)層級的特殊許可權權杖出現在進程中的機會降到最低。
 
-在 Windows 7 和更新版本的 Windows 中，支援 **在識別旗標上的 APPIDREGFLAGS \_ 問題 \_ 啟用 \_ RPC \_ \_** 。
+Windows 7 和更新版本的 Windows 支援在識別旗標 **上的 APPIDREGFLAGS \_ 問題 \_ 啟用 \_ RPC \_ \_** 。
 
 ## <a name="related-topics"></a>相關主題
 
@@ -100,6 +100,6 @@ HKEY_LOCAL_MACHINE\SOFTWARE\Classes\AppID
 [視窗工作站](/windows/desktop/winstation/window-stations)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

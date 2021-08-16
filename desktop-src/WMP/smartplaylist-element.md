@@ -13,12 +13,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 511294af2de4343cb7f63db4312d530aadf57da6
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: a21d685759e9e8b27c881ceaec6595535b3c4b799eb28ecd94dd96a3a571ec99
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106983169"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119763468"
 ---
 # <a name="smartplaylist-element"></a>smartPlaylist 元素
 
@@ -116,7 +116,7 @@ ms.locfileid: "106983169"
 [**seq 元素**](seq-element.md)
 </dt> <dt>
 
-[**Windows Media 播放清單元素參考**](windows-media-playlist-elements-reference.md)
+[**WindowsMedia 播放清單元素參考**](windows-media-playlist-elements-reference.md)
 </dt> </dl>
 
  

@@ -14,12 +14,12 @@ keywords:
 - 離線時安裝線上商店
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cad7048926f218ea7be74a2522eb32c58241a017
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: b3051aca9634bc2c53950baa783bcf62fc6861c616facd9dc563d70d011c2459
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840248"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119135501"
 ---
 # <a name="installing-while-offline"></a>離線時安裝
 
@@ -66,9 +66,9 @@ ms.locfileid: "103840248"
 [**安裝線上商店的命令列參數**](setup-command-line-parameters-for-online-stores.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

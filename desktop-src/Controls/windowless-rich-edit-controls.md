@@ -4,12 +4,12 @@ description: 本章節包含與無視窗 rich edit 控制項搭配使用之程�
 ms.assetid: vs|controls|~\controls\richedit\windowlessricheditcontrols.htm
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 0431c5cb513aff003098e3d022fe73c6b6d83e9a
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 54d03cbc4c694ce8e10a5b877298f148cd9ac47bd24c364aa3cde7fc19bc994e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104021052"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119655788"
 ---
 # <a name="windowless-rich-edit-controls"></a>無視窗的 Rich Edit 控制項
 

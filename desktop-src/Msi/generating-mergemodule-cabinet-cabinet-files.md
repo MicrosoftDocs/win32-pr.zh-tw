@@ -4,12 +4,12 @@ ms.assetid: 884df249-977e-4e8e-8978-15331a7c1d8a
 title: 產生 MergeModule.CABinet 封包檔
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2a26eb9bb3daf92d81e21267b2f56706b74d9179
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 962cf46b95db1fe186878d23a7cc7fcd1b91d3b2d202a85741eee7ef1c2bc7e7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106975161"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119649646"
 ---
 # <a name="generating-mergemodulecabinet-cabinet-files"></a>產生 MergeModule.CABinet 封包檔
 

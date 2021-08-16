@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: b77f1050beaee2b269d12e69704018e3c5abee6e
-ms.sourcegitcommit: 7e4322a6ec1f964d5ad26e2e5e06cc8ce840030e
+ms.openlocfilehash: 86549f441752e72fd11a741a061fcaf839eca0140f4766b0932094d74dc78085
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 07/01/2021
-ms.locfileid: "113129846"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119855068"
 ---
 # <a name="grammar"></a>文法
 
@@ -35,7 +35,7 @@ HLSL 語句會使用下列文法規則來建立。
 
 - SPACE
 - TAB
-- Eol
+- EOL
 - C 樣式批註 (/ \* \* /) 
 - C + + 樣式批註 (//) 
 

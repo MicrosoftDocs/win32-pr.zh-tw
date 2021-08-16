@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 368c764ed0f20d8da0e4f08d53e788592809e29d
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: ce6dbece016b219e89e6bc193540c0d44a00736658c258707455b69ae06ba640
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510462"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700878"
 ---
 # <a name="reset-method-of-the-cim_tachometer-class"></a>CIM 流速值類別的 Reset 方法 \_
 

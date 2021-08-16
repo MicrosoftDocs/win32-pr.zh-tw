@@ -1,19 +1,19 @@
 ---
-description: 某些應用程式（例如 Microsoft Active Directory、Microsoft Exchange 和 Microsoft Access）會維護依 (名稱編制索引的地區設定和語言字串的可排序資料庫) 以及其相關聯的排序加權。
+description: 某些應用程式（例如 microsoft Active Directory、microsoft Exchange 和 microsoft Access）會維護依 (名稱編制索引的地區設定和語言字串的可排序資料庫) 以及其相關聯的排序加權。
 ms.assetid: c8fc32bd-02bd-4a40-a836-d9ad9f69c209
 title: 處理應用程式中的排序
 ms.topic: article
 ms.date: 03/04/2020
-ms.openlocfilehash: c0bba3d78a5219781226ecf58292ed461c902090
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73c7ca897cb5f83e5a073205341f8b0d0f96ff2d0a9d4c7144a914cd5c96c44d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852964"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822688"
 ---
 # <a name="handling-sorting-in-your-applications"></a>處理應用程式中的排序
 
-某些應用程式（例如 Microsoft Active Directory、Microsoft Exchange 和 Microsoft Access）會維護依 (名稱編制索引的地區設定和語言字串的可排序資料庫) 以及其相關聯的排序加權。
+某些應用程式（例如 microsoft Active Directory、microsoft Exchange 和 microsoft Access）會維護依 (名稱編制索引的地區設定和語言字串的可排序資料庫) 以及其相關聯的排序加權。
 
 [排序](sorting.md) 對於自己的地區設定中的使用者來說通常是直覺的。 但是，應用程式開發人員可能不太直覺化。 本主題討論在應用程式中處理排序的考慮。 排序可以是語言或序數 (非語言) 。
 
@@ -68,7 +68,7 @@ ms.locfileid: "103852964"
 
 函式會嘗試嚴格驗證 Unicode 標準中定義的程式碼點是否標準方式等於相等的程式碼點字串。 例如，代表小寫 "u" 的程式碼點， (ü) ，其標準方式等於小寫 "u"，並結合了分字元 (▆) 。 不過請注意，這種標準的等價不一定可行。
 
-幾乎所有使用 Windows 鍵盤和輸入方法編輯器輸入的資料都 (Ime) 符合 Unicode 標準中所定義的 C 格式，使用 NLS Unicode 正規化函式從其他平臺轉換傳入資料會提供最一致的結果，特別是針對使用藏文腳本的地區設定或新式韓文的韓文腳本。 如需 Windows Vista 和更新版本中 Unicode 正規化支援的詳細資訊，請參閱 [使用 unicode 正規化來代表字串](using-unicode-normalization-to-represent-strings.md)。
+幾乎所有使用 Windows 鍵盤和輸入方法編輯器輸入的資料都 (ime) 符合 Unicode 標準中所定義的 C 格式，使用 NLS unicode 正規化函式從其他平臺轉換傳入資料會提供最一致的結果，特別是針對使用藏文腳本的地區設定或新式韓文的韓文腳本。 如需 Windows Vista 和更新版本中的 unicode 正規化支援的詳細資訊，請參閱[使用 unicode 正規化來代表字串](using-unicode-normalization-to-represent-strings.md)。
 
 當字串比較遵循使用者的語言喜好設定時，例如，當排序的 ListView 控制項的專案排序時，應用程式可以執行下列其中一項動作：
 
@@ -120,14 +120,14 @@ int iReturn = CompareString(lcid, NORM_IGNORECASE, mystr, -1, _T("InLap"), -1);
 
 ## <a name="sort-code-points"></a>排序程式代碼點
 
-某些 Unicode 程式碼點沒有權數，例如零寬度的非加入點、U + 200c。 排序函式會刻意將不加權的程式碼點評估為相等，因為它們沒有任何權數可進行排序。 在 Windows Vista 和更新版本中，應用程式可以藉由呼叫 NLS 字串比較函式（特別是 [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal)），以評估常值中的所有程式碼點（例如，在密碼驗證中），來排序這些程式碼點。 在 Windows Vista 之前的作業系統上，應用程式應該使用 C 執行時間函數 **strcmp** 或 **wcscmp**。
+某些 Unicode 程式碼點沒有權數，例如零寬度的非加入點、U + 200c。 排序函式會刻意將不加權的程式碼點評估為相等，因為它們沒有任何權數可進行排序。 在 Windows Vista 和更新版本中，應用程式可以藉由呼叫 NLS 字串比較函式（特別是 [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal)），以評估常值中的所有程式碼點（例如，在密碼驗證中），來排序這些程式碼點。 在預先 Windows 的 Vista 作業系統上，應用程式應該使用 C 執行時間函數 **strcmp** 或 **wcscmp**。
 
-當應用程式指定 hlink NONSPACE 旗標時，排序函式會忽略變音符號，例如非間距的短音符號、U + 0306 \_ 。 同樣地，當指定 hlink 符號旗標時，這些函式會忽略符號，例如等號、U + 003d \_ 。 在 Windows Vista 和更新版本中，應用程式會呼叫 [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal) 來評估常值（二元）中的變音符號和符號代碼點。 在 Windows Vista 之前的作業系統上，應用程式應該使用 **strcmp** 或 **wcscmp**。
+當應用程式指定 hlink NONSPACE 旗標時，排序函式會忽略變音符號，例如非間距的短音符號、U + 0306 \_ 。 同樣地，當指定 hlink 符號旗標時，這些函式會忽略符號，例如等號、U + 003d \_ 。 在 Windows Vista 和更新版本中，應用程式會呼叫 [**CompareStringOrdinal**](/windows/desktop/api/Stringapiset/nf-stringapiset-comparestringordinal)來評估常值（二進位）中的變音符號和符號代碼點。 在預先 Windows 的 Vista 作業系統上，應用程式應該使用 **strcmp** 或 **wcscmp**。
 
 某些程式碼點（例如0xFFFF 和0x058b）目前不會以 Unicode 指派。 這些程式碼點不會在排序中收到任何權數，而且永遠不會傳遞至排序函數。 應用程式應該使用 [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring) 來偵測資料流程中的非 Unicode 程式碼點。
 
 > [!Note]  
-> [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring)的結果可能會根據 unicode 版本而有所不同，如果在較新版本中將字元加入至 unicode，然後再將它加入 Windows 排序表中。 如需詳細資訊，請參閱 [使用排序版本](#use-sort-versioning)設定。
+> [**IsNLSDefinedString**](/windows/desktop/api/Winnls/nf-winnls-isnlsdefinedstring)的結果可能會根據在較新版本中將字元加入至 unicode 時傳遞的 unicode 版本而有所不同，之後再加入 Windows 排序表中。 如需詳細資訊，請參閱 [使用排序版本](#use-sort-versioning)設定。
 
  
 

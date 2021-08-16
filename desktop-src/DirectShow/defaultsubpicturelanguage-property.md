@@ -4,17 +4,17 @@ ms.assetid: 75451c01-2cd3-484a-b864-6681896b9796
 title: DefaultSubpictureLanguage 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b24f8b3cd91530d005e428dc5679b9b89c4c21e0
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 77ae061e8a752c17f9bbb111b3399b576eda55d0bd1ce1dd6a0c5084e66e5d00
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104510266"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118952999"
 ---
 # <a name="defaultsubpicturelanguage-property"></a>DefaultSubpictureLanguage 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

@@ -4,12 +4,12 @@ ms.assetid: f54eaa09-7ce8-4948-a0c5-edf2d054f6d5
 title: AppSequence 驗證規則
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3ea44c1ee2d157608ddd1756e71d7183f310df87
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 73f2acec9d9d3858b5d68b0240499d95dba059ac1bcac745f1dc69bebc2056a3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104513056"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117738641"
 ---
 # <a name="appsequence-validation-rules"></a>AppSequence 驗證規則
 
@@ -34,7 +34,7 @@ WSDAPI 會忽略重複的 WS-Discovery 訊息。 如果有兩個相同的 WS-Dis
 
 <dl> <dt>
 
-[探索和中繼資料交換訊息模式](discovery-and-metadata-exchange-message-patterns.md)
+[探索和中繼資料 Exchange 訊息模式](discovery-and-metadata-exchange-message-patterns.md)
 </dt> </dl>
 
  

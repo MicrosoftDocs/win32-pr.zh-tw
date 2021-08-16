@@ -4,12 +4,12 @@ ms.assetid: e8c66bad-f594-4926-b3b4-c8b245dcfa83
 title: 管理安裝來源
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d7fc45253af20ae5f9792ee3a5ec7dd318c80295
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7e7555bc9595ba10d9ce569c15c2a8138a05348e503d86a025f0cfe1783843fc
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106979390"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119013066"
 ---
 # <a name="managing-installation-sources"></a>管理安裝來源
 

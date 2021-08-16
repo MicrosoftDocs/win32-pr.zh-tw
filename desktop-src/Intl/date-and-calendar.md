@@ -4,12 +4,12 @@ ms.assetid: 32772cba-eb30-4cd3-adaf-57fb8425a6d5
 title: 日期和行事曆
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 96a3c21965bfbf8c4215b478e5c3b4adbae579ec
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5a3f200ccd60a5a5d121a8774c01808794e744b98d8611210fcc98b0f8e5e1f3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851820"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119822808"
 ---
 # <a name="date-and-calendar"></a>日期和行事曆
 

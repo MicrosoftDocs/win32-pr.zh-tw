@@ -10,12 +10,12 @@ keywords:
 - 閃爍的點陣圖
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 50cb99dfc324aa039924fa26683ab0a7674706ea
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 4ed77a9d7fe315f5cef1be501c6392cce5fcfc3e79c5994f197a9fe6e254d8f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104386308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118734851"
 ---
 # <a name="carets"></a>游標
 

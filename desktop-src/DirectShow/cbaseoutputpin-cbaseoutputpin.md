@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 9901591be32d431ebe53a2098456446a0126d26b
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 53f875ffc016a68b6cf714174f4aa39ab57565a73900a0d00ec4d2900722103c
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108099566"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119652478"
 ---
 # <a name="cbaseoutputpincbaseoutputpin-constructor"></a>CBaseOutputPin. CBaseOutputPin 函數
 

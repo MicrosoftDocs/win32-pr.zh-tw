@@ -4,16 +4,16 @@ description: OriginalHeight 屬性
 ms.assetid: 632de2d1-a809-4539-9bd3-e97c9046357e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c131fada99f540343ffa2867ece9d2e96fbfc198
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 9162706de9877d65a3886f7541184acfcc7e062e78bbfacc5f655a9b9b2831bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372175"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118746630"
 ---
 # <a name="originalheight-property"></a>OriginalHeight 屬性
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104372175"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理。***字元 (*** 」CharacterID * * * ) 。OriginalHeight**
+*agent. ***字元 ( "**_CharacterID_*_" ) 。OriginalHeight_*
 
 </dd> </dl>
 
@@ -40,9 +40,9 @@ ms.locfileid: "104372175"
 [**Height 屬性**](height-property.md)， [ **OriginalWidth 屬性**](originalwidth-property.md)
 
 
- 
+ 
 
- 
+ 
 
 
 

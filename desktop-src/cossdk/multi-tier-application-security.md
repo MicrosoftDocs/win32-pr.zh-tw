@@ -4,12 +4,12 @@ ms.assetid: ff84eeed-ddfd-40e8-8f42-625b4d49ecd5
 title: 多層式應用程式安全性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 150f7894c7d11e832786e31ab028f9dbac35f6e2
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 69ba43970c2af5ff6c7abb733767b721091f6a3d3407178d5360e5f96db11d99
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972553"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070467"
 ---
 # <a name="multi-tier-application-security"></a>多層式應用程式安全性
 

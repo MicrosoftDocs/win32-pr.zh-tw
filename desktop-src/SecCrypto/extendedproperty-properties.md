@@ -4,12 +4,12 @@ ms.assetid: 206778ED-ECC7-4BE8-A56F-1988D60AD677
 title: ExtendedProperty 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 59ec0d7d0eb001f760da37870766897c41895ba3
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: e1f2e1a4ffd29cba3d457801d13c2db01cda0a047799ad785964d435d235d71c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106985338"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007146"
 ---
 # <a name="extendedproperty-properties"></a>ExtendedProperty 屬性
 

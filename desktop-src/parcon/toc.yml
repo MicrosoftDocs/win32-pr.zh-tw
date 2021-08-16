@@ -10,7 +10,7 @@
       items:
         - name: 家長監護問題陳述
           href: parental-controls-problem-statement.md
-        - name: Windows 系列安全性解決方案
+        - name: Windows系列安全性解決方案
           href: windows-family-safety-solution.md
         - name: 家長監護主要設計決策
           href: parental-controls-key-design-decisions.md
@@ -43,7 +43,7 @@
         - name: 使用家長監護 Api
           href: using-parental-controls-apis.md
           items:
-            - name: 使用家長監護設定 Api
+            - name: 使用家長監護設定 api
               href: using-parental-controls-settings-apis.md
             - name: 使用適用于家長監護的記錄 Api
               href: using-logging-apis-for-parental-controls.md

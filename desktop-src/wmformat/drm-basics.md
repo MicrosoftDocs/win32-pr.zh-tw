@@ -3,7 +3,7 @@ title: DRM 基本概念
 description: DRM 基本概念
 ms.assetid: f36da29d-5f9d-441d-8061-eb50331a8e7a
 keywords:
-- Windows Media Format SDK，DRM 基本概念
+- Windows媒體格式 SDK，DRM 基本概念
 - 數位版權管理 (DRM) ，關於
 - DRM (數位版權管理) ，關於
 - 數位版權管理 (DRM) ，保護內容
@@ -16,16 +16,16 @@ keywords:
 - 封裝內容
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c210fceb69174147dcb36a3e97b5591c2654a566
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: e5ef4439308868b0d77db1e9cefac7381fb8fd9ee78be50cccbf2a8dc26e4176
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104372625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086138"
 ---
 # <a name="drm-basics"></a>DRM 基本概念
 
-Windows Media DRM 技術從 Windows Media Format SDK 的觀點來看相當簡單。 SDK 的元件可以用來保護內容，以及播放受保護的內容。
+Windows 媒體 DRM 技術從 Windows 媒體格式 SDK 的觀點來看相當簡單。 SDK 的元件可以用來保護內容，以及播放受保護的內容。
 
 ## <a name="protecting-content"></a>保護內容
 
@@ -37,14 +37,14 @@ Windows Media DRM 技術從 Windows Media Format SDK 的觀點來看相當簡單
 
 ## <a name="reading-protected-content"></a>讀取受保護的內容
 
-若要讀取受保護的內容，內容的授權必須位於用戶端電腦上。 某些授許可權制是由 Windows Media Format SDK 的 DRM 元件在內部檢查，有些則必須由您的應用程式強制執行。
+若要讀取受保護的內容，內容的授權必須位於用戶端電腦上。 某些授許可權制是由 Windows 媒體格式 SDK 的 DRM 元件在內部檢查，有些則必須由您的應用程式強制執行。
 
-您可以使用 Windows Media Format SDK 的物件來協助使用者取得內容的授權，以及執行其他系統管理工作，例如更新 DRM 元件和備份授權。
+您可以使用 Windows 媒體格式 SDK 的物件來協助使用者取得內容的授權，以及執行其他系統管理工作，例如更新 DRM 元件和備份授權。
 
 > [!Note]  
 > 此 SDK 的 x64 版本不支援 DRM。
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -56,9 +56,9 @@ Windows Media DRM 技術從 Windows Media Format SDK 的觀點來看相當簡單
 [**啟用 DRM 支援**](enabling-drm-support.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: a24d7a184ce8e4f201b78c7aafb9eb2f88d10786
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9a7862f380ece2d39913b6ce9a65c99ff01ceefcc91b1f892b7cba819772b06e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689188"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701208"
 ---
 # <a name="reset-method-of-the-cim_processor-class"></a>CIM 處理器類別的 Reset 方法 \_
 

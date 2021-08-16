@@ -8,12 +8,12 @@ keywords:
 - 多個驅動程式實例
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 37148dcb12fbfa2984d4e55424102b5985165d9d
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: deea546ffb7cd848993f8aac569d3624f87988b583ea47cab7bb16451cc6ed1f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103672592"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118941195"
 ---
 # <a name="driver-instances"></a>驅動程式實例
 
@@ -35,9 +35,9 @@ Windows 允許可安裝驅動程式的倍數實例。 系統會在每次開啟�
 
 不需要可安裝的驅動程式，就能支援多個實例。 驅動程式可以針對 [**Winspool.drv \_ 開啟**](drv-open.md) 的訊息傳回零，以防止建立任何實例。
 
- 
+ 
 
- 
+ 
 
 
 

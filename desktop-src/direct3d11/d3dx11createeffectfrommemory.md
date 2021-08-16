@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 467d2094a7124b96a08c7bab6d7a4209deee9996
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: c99cdef28acae9419a5b597d5be1703ea9e866d521d7f94bb330b151abc74842
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "104992279"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119124803"
 ---
 # <a name="d3dx11createeffectfrommemory-function"></a>D3DX11CreateEffectFromMemory 函式
 

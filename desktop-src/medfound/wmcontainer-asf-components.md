@@ -4,12 +4,12 @@ ms.assetid: 258ea139-581f-4b94-9655-43ecf1e77f10
 title: WMContainer ASF 元件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6d7d1c1b76683cfe01dc0970ab1c077580215d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3c4d39edd9241a856d5ef854d91bc1198cb090ddf653960b19905407c28279a5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103944381"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118736738"
 ---
 # <a name="wmcontainer-asf-components"></a>WMContainer ASF 元件
 

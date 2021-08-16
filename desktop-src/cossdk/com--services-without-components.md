@@ -4,12 +4,12 @@ ms.assetid: 5ef67411-334b-476e-b9b7-3677b24ab7df
 title: 沒有元件的 COM + 服務
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: d1eeed5a9af96e241d137714d151cc632dd0f20e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: b395186875c37fb42e5011ee0486aa6de86ffe62b73c8ea1a54c09e82a27c588
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110925"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119638448"
 ---
 # <a name="com-services-without-components"></a>沒有元件的 COM + 服務
 

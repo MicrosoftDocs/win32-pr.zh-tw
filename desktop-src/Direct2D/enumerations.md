@@ -7,12 +7,12 @@ keywords:
 ms.topic: article
 ms.date: 01/31/2019
 ms.custom: seodec18
-ms.openlocfilehash: 317233bc170cfb3064d1c076ed1031a577c0186a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 5ee52a02341d992be7bb930caf0f7d69682ce1bef9dd4e8a3cec5aec3393145e
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120108848"
 ---
 # <a name="direct2d-enumerations"></a>Direct2D 列舉
 
@@ -68,8 +68,8 @@ Direct2D 會定義下列列舉。
 |[**D2D1_COMPOSITE_MODE**](/windows/desktop/api/D2d1_1/ne-d2d1_1-d2d1_composite_mode)。 用來指定所有 [Direct2D](direct2d-portal.md) 混色作業的 blend 模式。|
 |[**D2D1_COMPOSITE_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_composite_prop)。 [複合效果](composite.md)的屬性識別碼。|
 |[**D2D1_CONTRAST_PROP**](/windows/desktop/api/d2d1effects_2/ne-d2d1effects_2-d2d1_contrast_prop)。 [對比效果](contrast-effect.md)的屬性識別碼。|
-|[**D2D1_CONVOLVEMATRIX_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_prop)。 [>convolve 矩陣效果](convolve-matrix.md)的屬性識別碼。|
-|[**D2D1_CONVOLVEMATRIX_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode)。 [>convolve 矩陣效果](convolve-matrix.md)用來將影像調整為對應核心單位長度的插補模式。 有六個調整模式，其品質和速度都有其範圍。|
+|[**D2D1_CONVOLVEMATRIX_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_prop)。 [>Convolve 矩陣效果](convolve-matrix.md)的屬性識別碼。|
+|[**D2D1_CONVOLVEMATRIX_SCALE_MODE**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_convolvematrix_scale_mode)。 [>Convolve 矩陣效果](convolve-matrix.md)用來將影像調整為對應核心單位長度的插補模式。 有六個調整模式，其品質和速度都有其範圍。|
 |[**D2D1_CROP_PROP**](/windows/desktop/api/d2d1effects/ne-d2d1effects-d2d1_crop_prop)。 [裁剪效果](crop.md)的屬性識別碼。|
 |[**D2D1_DASH_STYLE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dash_style)。 描述筆劃中的虛線和間距順序。|
 |[**D2D1_DC_INITIALIZE_MODE**](/windows/desktop/api/d2d1/ne-d2d1-d2d1_dc_initialize_mode)。 指定從轉譯目標抓取時，如何將裝置內容初始化以進行 GDI 轉譯。|

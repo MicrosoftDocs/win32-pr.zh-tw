@@ -17,12 +17,12 @@ api_location:
 topic_type:
 - APIRef
 - kbSyntax
-ms.openlocfilehash: eb41908bd23fcd1c719b692f2680fd7d1dda3e77
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: c2fa76770e09b72b327a03b7b4af9098dbfbfdb84b002b9f0c9611eede2e56ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108087906"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119845158"
 ---
 # <a name="span-idvspixengineiserverconnectioncallbackspaniserverconnectioncallback-interface"></a><span id="vspixengine.iserverconnectioncallback"></span>IServerConnectionCallback 介面
 
@@ -38,7 +38,7 @@ ms.locfileid: "108087906"
 
 **IServerConnectionCallback** 介面具有這些方法。
 
-<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>ConnectToEngine</strong></a></td><td style="text-align: left;"><p>連接到本機電腦上遠端引擎的另一個實例。</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>等候指定引擎的關機 (封鎖呼叫) 。</p></td></tr></tbody></table>
+<table><colgroup><col style="width: 50%" /><col style="width: 50%" /></colgroup><thead><tr class="header"><th style="text-align: left;">方法</th><th style="text-align: left;">描述</th></tr></thead><tbody><tr class="odd"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-connecttoengine-bool-bstr-ipixengine-ptr-ptr"><strong>ConnectToEngine</strong></a></td><td style="text-align: left;"><p>連線至本機電腦上遠端引擎的另一個實例。</p></td></tr><tr class="even"><td style="text-align: left;"><a href="/windows/desktop/direct3dtools/iserverconnectioncallback-waitforshutdown-ipixengine-ptr"><strong>WaitForShutdown</strong></a></td><td style="text-align: left;"><p>等候指定引擎的關機 (封鎖呼叫) 。</p></td></tr></tbody></table>
 
  
 

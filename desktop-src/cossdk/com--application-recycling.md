@@ -4,12 +4,12 @@ ms.assetid: b0ae1b52-b0c5-4f1c-94c6-628d39ef40e3
 title: COM + 應用程式回收
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fa1fc162a58a0cbec2898765af2d35e06d73eda0
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 73cf0237f10602ab48080a54bedd33a9a2d580f8f951d5d9241b60bbca416e2a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847510"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129230"
 ---
 # <a name="com-application-recycling"></a>COM + 應用程式回收
 

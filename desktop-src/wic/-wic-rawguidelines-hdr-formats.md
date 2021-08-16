@@ -4,12 +4,12 @@ ms.assetid: 037b6bde-a3e0-401d-9be7-b58c5f74c30a
 title: 高動態範圍像素格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8405a01fa5397dd5681077ac1ac9acc28e7d1003
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 9a544d2331cc32943e3bc74400e1751111aac69e0a1448103e7651cb51da9353
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103851207"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119086911"
 ---
 # <a name="high-dynamic-range-pixel-formats"></a>高動態範圍像素格式
 
@@ -26,7 +26,7 @@ ms.locfileid: "103851207"
 **概念**
 </dt> <dt>
 
-[Windows 影像處理元件總覽](-wic-about-windows-imaging-codec.md)
+[Windows映射處理元件總覽](-wic-about-windows-imaging-codec.md)
 </dt> <dt>
 
 [相機原始影像格式的 WIC 指導方針](-wic-rawguidelines.md)

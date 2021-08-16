@@ -4,12 +4,12 @@ ms.assetid: 960b5fc2-3074-4e51-b3de-5ed370379b01
 title: " (Direct3D 9) 的衰減和焦點因素"
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 623bb3cb2b1c2a3ee9e0e5d9419ff71dd9a303b6
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: cb80fff287749e2979a89f2e20c830fdad3961d90ec05bf90a4ee2f6a51f8bcf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104569705"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119850611"
 ---
 # <a name="attenuation-and-spotlight-factor-direct3d-9"></a> (Direct3D 9) 的衰減和焦點因素
 

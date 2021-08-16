@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: cd37ac842ab46c0d46fb3db1567d42274a026c47
-ms.sourcegitcommit: 11f52354f570aacaf1ba2a266b2e507abd73352a
+ms.openlocfilehash: d856589146103e599a1cf67d2090dd64af7107d1c221c46b9c93852f989ade9b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/19/2021
-ms.locfileid: "106986556"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119015726"
 ---
 # <a name="fourccmapfourccmap-constructor-fourcch---no-parameters"></a>FOURCCMap：： FOURCCMap (Fourcc .h) -沒有參數
 

@@ -4,16 +4,16 @@ description: Remove 方法
 ms.assetid: b50d47b2-a425-4545-8d85-efeae460d2b1
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 52f7fc80954a1ffe218ba38405a551e5f000dc76
-ms.sourcegitcommit: ebd3ce6908ff865f1ef66f2fc96769be0aad82e1
+ms.openlocfilehash: 3337fb25db49f1d6c8ccd6d94f2817340db226e14718cfa7943940fbfb069b07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/19/2020
-ms.locfileid: "104315136"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117882779"
 ---
 # <a name="remove-method"></a>Remove 方法
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 
@@ -27,7 +27,7 @@ ms.locfileid: "104315136"
 <span id="Syntax"></span><span id="syntax"></span><span id="SYNTAX"></span>**語法**
 </dt> <dd>
 
-*代理程式 ***。 ( "*** CharacterID" 的字元 ***) 命令。移除*** 名稱*
+*代理程式 ***。 ( "**_CharacterID_*" 的字元 _) 命令。移除_ * _名稱_
 
 
 
@@ -37,7 +37,7 @@ ms.locfileid: "104315136"
 
 
 
- 
+ 
 
 </dd> </dl>
 
@@ -50,6 +50,6 @@ ms.locfileid: "104315136"
 [**RemoveAll 方法**](removeall-method.md)
 
 
- 
+ 
 
- 
+ 

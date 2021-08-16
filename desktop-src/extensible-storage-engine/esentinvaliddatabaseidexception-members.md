@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101918
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: f52ac0e9e39683d57bb121fbb5af412aefaa6e2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 0e1ecc1ac945ea43bd1ab1b1ff859de8379ebfa86c5c019efda54302321b40f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563648"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119837544"
 ---
 # <a name="esentinvaliddatabaseidexception-members"></a>EsentInvalidDatabaseIdException 成員
 

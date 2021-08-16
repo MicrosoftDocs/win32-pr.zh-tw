@@ -4,12 +4,12 @@ ms.assetid: 240ef2b3-ed72-45bb-b653-441c4e5540b5
 title: subscriptionIdlFunctionDeclarations 元素
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6f4d738dd06ccbf034702cbb7d6494a28a229d07
-ms.sourcegitcommit: b6fe9acffad983c14864b8fe0296f6025cb1f961
+ms.openlocfilehash: 3998103d04250206ef382f822e329210b83471c69dcc51b401fcfbc241460729
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2021
-ms.locfileid: "107995365"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119130610"
 ---
 # <a name="subscriptionidlfunctiondeclarations-element"></a>subscriptionIdlFunctionDeclarations 元素
 

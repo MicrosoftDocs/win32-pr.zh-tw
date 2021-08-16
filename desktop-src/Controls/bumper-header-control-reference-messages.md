@@ -4,12 +4,12 @@ description: 標題控制項訊息
 ms.assetid: 77743235-fba5-472c-8a86-065e280c6eeb
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 35ab0845e3287ca20b0a91dbf3258d9660d7a796
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: 6d9b33a3981465d7d100a0df6a920d16a21cd2d9b7478468fd30254b5c0a8fb3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "104196094"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119916798"
 ---
 # <a name="header-control-messages"></a>標題控制項訊息
 

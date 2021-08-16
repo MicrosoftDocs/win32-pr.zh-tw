@@ -3,7 +3,7 @@ title: 'MM_MOM_CLOSE 訊息 (Mmsystem .h) '
 description: '\_ \_ 當 MIDI 輸出裝置關閉時，會將 MM MOM 關閉訊息傳送至視窗。'
 ms.assetid: 4829bbe5-5103-4354-88a7-37def22e926e
 keywords:
-- MM_MOM_CLOSE message Windows 多媒體
+- MM_MOM_CLOSE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8ae55cbca7c5effc146dee0c5ef9be67469a9201
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: e8e8c9af8f6a5fb454a2f7759b5e64804e82c568b15549d01f7478a3d7c6041d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464497"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119807147"
 ---
 # <a name="mm_mom_close-message"></a>MM \_ MOM \_ 關閉訊息
 
@@ -68,7 +68,7 @@ MIDI 輸出裝置的控制碼。
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端<br/> | Windows 2000 Professional \[僅限傳統型應用程式\]<br/>                                                |
 | 最低支援的伺服器<br/> | Windows 2000 Server \[僅限傳統型應用程式\]<br/>                                                      |
-| 標頭<br/>                   | <dl> <dt>Mmsystem (包含) 的 Windows。h </dt> </dl> |
+| 標頭<br/>                   | <dl> <dt>Mmsystem (包含 Windows .h) </dt> </dl> |
 
 
 

@@ -3,7 +3,7 @@ title: 'TVM_GETIMAGELIST 訊息 (Commctrl .h) '
 description: 抓取與樹狀檢視控制項相關聯之一般或狀態影像清單的控制碼。 您可以使用 TreeView GetImageList 宏明確地傳送此訊息 \_ 。
 ms.assetid: bcf5eac8-cb07-4cf8-ad93-47319fc915a5
 keywords:
-- TVM_GETIMAGELIST message Windows 控制項
+- TVM_GETIMAGELIST 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 4e4e2503d9c6d57743059ee1da3049a36ed17f2d
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 2b7536f21757d5ad03446654d9eed17444e4e07570c3f4bf032b7d32f0009208
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686380"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119293278"
 ---
 # <a name="tvm_getimagelist-message"></a>TVM \_ GETIMAGELIST 訊息
 
@@ -60,8 +60,8 @@ ms.locfileid: "103686380"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

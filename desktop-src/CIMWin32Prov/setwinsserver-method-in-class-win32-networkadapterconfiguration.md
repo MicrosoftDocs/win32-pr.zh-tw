@@ -1,5 +1,5 @@
 ---
-description: SetWINSServer WMI 類別方法會在此 TCP/IP 系結的網路介面卡上，將主要和次要 Windows 網際網路命名服務設定 (WINS) 伺服器。 此方法會獨立套用到網路介面卡。
+description: SetWINSServer WMI 類別方法會在此 tcp/ip 系結的網路介面卡上，將主要和次要 Windows 網際網路命名服務 (WINS) 伺服器。 此方法會獨立套用到網路介面卡。
 ms.assetid: fa8ce436-b67e-4975-a5c5-1a7d6aab4c8e
 ms.tgt_platform: multiple
 title: Win32_NetworkAdapterConfiguration 類別的 SetWINSServer 方法
@@ -14,16 +14,16 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 49bfb0103a7d9cbbd6ea3faa0e1a868bac7b0196
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9471684b3ca6032c846684bdf4a50dffbd0e2f455e4a887498fdcfe1f2a051ca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106984148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020386"
 ---
 # <a name="setwinsserver-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetWINSServer 方法 \_
 
-**SetWINSServer** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會在此 tcp/ip 系結的網路介面卡上，將主要和次要 Windows 網際網路命名服務設定 (WINS) 伺服器。 此方法會獨立套用到網路介面卡。
+**SetWINSServer** [WMI 類別](/windows/desktop/WmiSdk/retrieving-a-class)方法會在此 tcp/ip 系結的網路介面卡上，將主要和次要 Windows 網際網路命名服務 (WINS) 伺服器。 此方法會獨立套用到網路介面卡。
 
 本主題使用受控物件格式 (MOF) 語法。 如需使用此方法的詳細資訊，請參閱 [呼叫方法](/windows/desktop/WmiSdk/calling-a-method)。
 

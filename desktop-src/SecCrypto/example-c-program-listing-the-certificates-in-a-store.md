@@ -4,12 +4,12 @@ ms.assetid: 4b5361f5-79b1-4b05-a133-1a394da7d6ee
 title: 範例 C 程式：列出存放區中的憑證
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e504fe54bea81663957274844c4896b53a25217
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 47545d2a4c5b13df57dc4bae5490123c9423a9127f6f5e6dbe0b3a885651d9f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103850540"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119007596"
 ---
 # <a name="example-c-program-listing-the-certificates-in-a-store"></a>範例 C 程式：列出存放區中的憑證
 

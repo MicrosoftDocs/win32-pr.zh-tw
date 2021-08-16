@@ -4,12 +4,12 @@ description: 以下是 HTTP 版本2.0 列舉類型 HTTP \_ 503 \_ RESPONSE \_ VE
 ms.assetid: 849b88a1-e60b-4a1d-a660-cc3fe429d39f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 208c2f648208b04a1eb29634d883f2d41b08017d
-ms.sourcegitcommit: f848119a8faa29b27585f4df53f6e50ee9666684
+ms.openlocfilehash: 544318c419b215a49b070219175dd9c2d4fa44c6238fd4a5564135d56f47f9ce
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 05/27/2021
-ms.locfileid: "110549083"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118950757"
 ---
 # <a name="http-server-api-version-20-enumeration-types"></a>HTTP 伺服器 API 2.0 版列舉類型
 

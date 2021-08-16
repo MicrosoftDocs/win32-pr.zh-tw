@@ -4,12 +4,12 @@ ms.assetid: 9750ddc6-de8d-48e9-a984-892f0cf4ac3b
 title: 查看兩個資料庫之間的差異
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7b0c97afc0bd7145170209ed87497b6af90e64d6
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3cbb04ad6ed1ecaa9d4d5be73708c5edc7dc8c84c9fe230a3725f971d949d335
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104511244"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118375911"
 ---
 # <a name="view-differences-between-two-databases"></a>查看兩個資料庫之間的差異
 
@@ -29,13 +29,13 @@ ms.locfileid: "104511244"
 -   [](record-stringdata.md) [ **Record 物件** 的至 convertfrom-stringdata 屬性](record-object.md)
 -   [\_TransformView 資料表](-transformview-table.md)
 
-使用此範例需要 CScript.exe 版本的 Windows Script Host。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
+使用此範例需要 Windows 腳本主機的 CScript.exe 版本。 若要使用 CScript.exe 執行此範例，請使用下列語法在命令提示字元中輸入命令。 如果第一個引數是/？，則會顯示說明 或者，如果指定的引數太少。 若要將輸出重新導向至檔案，請以 VBS > 路徑結束命令列 \[  \] 。 此範例會傳回值0表示成功，如果叫用說明，則傳回 1; 如果腳本失敗，則傳回2。
 
 **cscript WiDiffDb.vbs** *\[ 原始資料庫 \] \[ 路徑的軌跡，以修改 \] 資料庫*
 
 指定原始 Windows Installer 資料庫的路徑。 指定已修改之資料庫的路徑。 範例腳本會顯示轉換。
 
-如需其他腳本範例，請參閱 [Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows Script Host 的範例公用程式，請參閱 [Windows Installer 開發工具](windows-installer-development-tools.md)。
+如需其他腳本範例，請參閱[Windows Installer 腳本範例](windows-installer-scripting-examples.md)。 如需不需要 Windows 腳本主機的範例公用程式，請參閱[Windows Installer 開發工具](windows-installer-development-tools.md)。
 
  
 

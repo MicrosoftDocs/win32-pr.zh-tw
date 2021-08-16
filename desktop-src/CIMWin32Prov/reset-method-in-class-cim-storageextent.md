@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 518100f96dbbf187e8aa0c4c0895059b0f2b4629
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: f899885e29bcbbbd5d4272da538bd0ba2e29c9cb6d3a317bad138fd72e5d76fa
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971971"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119701008"
 ---
 # <a name="reset-method-of-the-cim_storageextent-class"></a>CIM StorageExtent 類別的 Reset 方法 \_
 

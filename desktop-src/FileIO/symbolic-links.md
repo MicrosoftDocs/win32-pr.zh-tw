@@ -4,12 +4,12 @@ ms.assetid: d6bf5df7-bc12-4dec-b116-95d9109f5eb4
 title: 符號連結
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: f051beb7de0280ba42df782264cef385f8d01a20
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 126897dc230b36f504ef17653daea32b1076d10870a3a22015462f3abec05448
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994465"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951027"
 ---
 # <a name="symbolic-links"></a>符號連結
 
@@ -17,7 +17,7 @@ ms.locfileid: "106994465"
 
 符號連結對使用者而言是透明的;這些連結會顯示為一般檔案或目錄，並可由使用者或應用程式以完全相同的方式處理。
 
-符號連結是設計來協助與 UNIX 作業系統進行遷移和應用程式相容性。 Microsoft 已實作為其符號連結的運作方式，就像 UNIX 連結一樣。
+符號連結的設計目的是要協助與 UNIX 作業系統進行遷移和應用程式相容性。 Microsoft 已實作為其符號連結的運作方式，就像 UNIX 連結一樣。
 
 如需詳細資訊，請參閱下列主題。
 

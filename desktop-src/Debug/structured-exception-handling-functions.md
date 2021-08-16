@@ -4,12 +4,12 @@ ms.assetid: 61cf055b-eb9a-4e56-9d36-21fc95adea77
 title: 結構化例外狀況處理函式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c70b431be2961a55bba28bdfe07723e93b95ac69
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 947cde636051e6d51428b1d75b7d299ce196b0f4335e096f99d6da6a277ae259
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972334"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119815498"
 ---
 # <a name="structured-exception-handling-functions"></a>結構化例外狀況處理函式
 

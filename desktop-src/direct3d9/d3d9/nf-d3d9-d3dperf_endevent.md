@@ -16,12 +16,12 @@ api_location:
 api_name:
 - D3DPERF_EndEvent
 targetos: Windows
-ms.openlocfilehash: 91c2a6a19b926cd9f5549fae084ce8973432b0f2
-ms.sourcegitcommit: 517a888e0370b9ec64c451635f12d60245ff5ae3
+ms.openlocfilehash: bd12780dfdfcb86e83495ae877d8debf1e768517826329ccee8d40ffaa88fbbe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "104374707"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118989248"
 ---
 # <a name="d3dperf_endevent-function"></a>D3DPERF_EndEvent 函式
 

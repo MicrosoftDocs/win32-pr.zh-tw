@@ -4,12 +4,12 @@ ms.assetid: 2b30a1c2-4a42-4b09-acb6-b76267cc7ed0
 title: 'MF_MT_ORIGINAL_WAVE_FORMAT_TAG 屬性 (Mfapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: ba89171f9ae2bf3ab99df05bd3ae64b7d52be6d5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a89f05086858f54c619e3896f5978cf81005e9b1e80e858bc89c71e951ab48b8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106976574"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118741663"
 ---
 # <a name="mf_mt_original_wave_format_tag-attribute"></a>MF \_ MT \_ 原始 \_ WAVE \_ 格式 \_ 標記屬性
 
@@ -49,8 +49,8 @@ AVI 檔案包含檔案中每個資料流程的資料流程標頭。 AVI 媒體�
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows 7 桌面應用程式\]<br/>                                         |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
+| 最低支援的用戶端<br/> | 僅 Windows 7 \[ 桌面應用程式\]<br/>                                         |
+| 最低支援的伺服器<br/> | Windows僅限 Server 2008 R2 \[ desktop 應用程式\]<br/>                            |
 | 標頭<br/>                   | <dl> <dt>Mfapi。h</dt> </dl> |
 
 

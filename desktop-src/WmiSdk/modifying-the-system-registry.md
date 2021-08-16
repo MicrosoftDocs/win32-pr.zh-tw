@@ -5,16 +5,16 @@ ms.tgt_platform: multiple
 title: 修改系統登錄
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: eb274163999996267b5f1df62fb9352831763d4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 33562e2747d63d8531ff2b23d07eadac33d830ef3ecf3b8613f22170c0b735ed
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106971986"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118992838"
 ---
 # <a name="modifying-the-system-registry"></a>修改系統登錄
 
-系統登錄包含作業系統、服務和應用程式所使用的設定資料。 Windows Management Instrumentation (WMI) 具有 [系統登錄提供者](/previous-versions/windows/desktop/regprov/system-registry-provider) 和 [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov) 類別，其具有可用來監視或修改本機電腦或遠端電腦上登錄的方法。 [Win32 提供者](/windows/desktop/CIMWin32Prov/win32-provider)支援 [**win32 \_ 登錄類別**](/windows/desktop/CIMWin32Prov/win32-registry)，其中包含有關登錄大小的靜態資料。
+系統登錄包含作業系統、服務和應用程式所使用的設定資料。 WindowsManagement Instrumentation (WMI) 具有 [系統登錄提供者](/previous-versions/windows/desktop/regprov/system-registry-provider)和 [**StdRegProv**](/previous-versions/windows/desktop/regprov/stdregprov)類別，以及用來監視或修改本機電腦或遠端電腦上登錄的方法。 [Win32 提供者](/windows/desktop/CIMWin32Prov/win32-provider)支援 [**win32 \_ 登錄類別**](/windows/desktop/CIMWin32Prov/win32-registry)，其中包含有關登錄大小的靜態資料。
 
 系統登錄提供者是與系統登錄介面互動的實例、屬性和事件提供者。 System Registry Provider 是具有 [**IWbemServices**](/windows/desktop/api/WbemCli/nn-wbemcli-iwbemservices) 介面的標準提供者。 您可以使用系統登錄提供者來存取本機和遠端系統上的登錄機碼和資訊。 如需詳細資訊，請參閱 [System Registry Provider](/previous-versions/windows/desktop/regprov/system-registry-provider)。
 

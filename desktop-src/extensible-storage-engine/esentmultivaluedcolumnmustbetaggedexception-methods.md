@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102258
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: bbf4cffbab80f786de5f7653a37cc5602ed0bdbe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 408f6cee627f7e616047d13b0185889b7e025035efbe7bf21aff4b4c8cf8d09e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104555437"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119836379"
 ---
 # <a name="esentmultivaluedcolumnmustbetaggedexception-methods"></a>EsentMultiValuedColumnMustBeTaggedException 方法
 

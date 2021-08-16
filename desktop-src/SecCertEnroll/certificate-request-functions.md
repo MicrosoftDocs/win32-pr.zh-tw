@@ -4,12 +4,12 @@ ms.assetid: f4630095-6ba2-46f7-8825-e7a5b1cb185a
 title: 憑證要求功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 04191f49949f662a9b9d780726f7ac7a40b370ee
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 5e07fb348b335562863f04226a2fb729bfbcbdaba27cb574a04c87075a64653a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026317"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902567"
 ---
 # <a name="certificate-request-functions"></a>憑證要求功能
 

@@ -4,12 +4,12 @@ ms.assetid: 636b0ce8-cf08-4536-9b41-79512b02a066
 title: 'WPCEVENT_WEB_URLVISIT (Wpcevent 的事件) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b1075ae930cdaa9ee539dbc17a8c13d5c2a41add
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4b9524909ee78d14395e2f208fe265b3abc31240d2036788b8b84c4fea05aac9
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104026704"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120112698"
 ---
 # <a name="wpcevent_web_urlvisit-event"></a>WPCEVENT \_ WEB \_ URLVISIT 事件
 
@@ -81,7 +81,7 @@ const EVENT_DESCRIPTOR WPCEVENT_WEB_URLVISIT = {0x3, 0x0, 0x10, 0x4, 0x18, 0x3, 
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
 | 最低支援的伺服器<br/> | 都不支援<br/>                                                             |
 | 標頭<br/>                   | <dl> <dt>Wpcevent。h</dt> </dl> |
 

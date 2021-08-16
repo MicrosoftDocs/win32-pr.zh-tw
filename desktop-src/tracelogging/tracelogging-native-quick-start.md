@@ -4,12 +4,12 @@ description: 下一節說明將 TraceLogging 新增至原生使用者模式程�
 ms.assetid: 444DA34B-7949-457D-A3EC-2F0CFBEDD1E2
 ms.topic: article
 ms.date: 02/20/2020
-ms.openlocfilehash: 7be18feb7f372922b7e3b811cd0c9941240e18e3
-ms.sourcegitcommit: 0aa1dd7577961438a1b3172f3a92fb11cbf359f1
+ms.openlocfilehash: cb3734e3f314270e3d8082f5c9d25d38ce065829b94c659023950e5e2709047b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "103932981"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118966497"
 ---
 # <a name="tracelogging-cc-quick-start"></a>TraceLogging C/c + + 快速入門
 
@@ -19,8 +19,8 @@ ms.locfileid: "103932981"
 
 -   Windows 10
 -   Microsoft Visual Studio 2013
--   需要 Windows 10 軟體發展工具組 (SDK) 才能撰寫使用者模式提供者
--   需要 Windows 10 的 Windows 驅動程式套件 (WDK) 才能撰寫核心模式提供者
+-   Windows 10需要 (SDK) 軟體發展工具組才能撰寫使用者模式提供者
+-   Windows需要 Windows 10 的 (WDK) 的驅動程式套件才能撰寫核心模式提供者
 
 > [!IMPORTANT]
 > 連結 advapi32.dll，以便編譯這些範例。
@@ -135,21 +135,21 @@ void main()
 
 ## <a name="compatibility"></a>相容性
 
-根據其設定，TraceLoggingProvider 可以回溯相容 (相容于 Windows Vista 或更新版本的) ，或可針對較新的作業系統版本進行優化。 TraceLoggingProvider 使用 WINVER (使用者模式) 和 NTDDI_VERSION (核心模式) 來判斷它是否應該與舊版作業系統相容，或針對較新的作業系統版本進行優化。
+根據其設定，TraceLoggingProvider 可以回溯相容 (與 Windows Vista 或更新版本) 相容，或可針對較新的作業系統版本進行優化。 TraceLoggingProvider 使用 WINVER (使用者模式) 和 NTDDI_VERSION (核心模式) 來判斷它是否應該與舊版作業系統相容，或針對較新的作業系統版本進行優化。
 
-在使用者模式中，如果您在設定 WINVER 之前包含 <的 windows .h>，<windows .h> 將 WINVER 設定為 SDK 的預設目標 OS 版本。 如果 WINVER 設定為0x602 或更高版本，則 TraceLoggingProvider 會為 Windows 8 優化其行為， (您的應用程式將不會在舊版 Windows) 上執行。 如果您的程式需要在 Vista 或 Windows 7 上執行，請務必先將 WINVER 設定為適當的值，然後再包含 <的 windows .h>。
+在使用者模式中，如果您在設定 WINVER 之前包含 <的 windows .h>，<windows .h> 將 WINVER 設定為 SDK 的預設目標 OS 版本。 如果 WINVER 設定為0x602 或更高版本，則 TraceLoggingProvider 會為 Windows 8 優化其行為， (您的應用程式將不會在舊版 Windows) 上執行。 如果您需要在 Vista 或 Windows 7 上執行程式，請務必先將 WINVER 設定為適當的值，然後再包含 <的 Windows .h>。
 
-同樣地，如果您在設定 NTDDI_VERSION 之前包含 <的 wdm>，<wdm> 會將 NTDDI_VERSION 設定為預設值。 如果 NTDDI_VERSION 設定為0x06040000 或更高版本，則 TraceLoggingProvider 會針對 Windows 10 優化其行為， (您的驅動程式在舊版 Windows) 上無法運作。
+同樣地，如果您在設定 NTDDI_VERSION 之前包含 <的 wdm>，<wdm> 會將 NTDDI_VERSION 設定為預設值。 如果 NTDDI_VERSION 設定為0x06040000 或更高版本，則 TraceLoggingProvider 會針對 Windows 10 優化其行為， (您的驅動程式將無法在舊版 Windows) 上運作。
 
 ## <a name="summary-and-next-steps"></a>摘要和後續步驟
 
-若要瞭解如何使用 Windows 效能工具的最新內部版本 (WPT) 來捕捉和查看 TraceLogging 資料，請參閱 [記錄和顯示 TraceLogging 事件](tracelogging-record-and-display-tracelogging-events.md)。
+若要瞭解如何使用 Windows 效能工具 (WPT) 的最新內部版本來捕捉和查看 TraceLogging 資料，請參閱[記錄和顯示 TraceLogging 事件](tracelogging-record-and-display-tracelogging-events.md)。
 
 如需更多 c + + TraceLogging 範例，請參閱 [c/c + + Tracelogging 範例](tracelogging-c-cpp-tracelogging-examples.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

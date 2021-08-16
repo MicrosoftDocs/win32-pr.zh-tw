@@ -4,16 +4,16 @@ ms.assetid: 8c5e4652-1a40-4d7d-aa89-606e979dc03d
 title: 'ITStreamQualityControl：： GetRange 方法 (Ipmsp .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: bea8b20c2617eb0fe54ccc4603997464fca25f48
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: e13d07b848ef3be744f40ec1ba4bb4a73514f88204fa1918db661e00d36019ba
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977742"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119774468"
 ---
 # <a name="itstreamqualitycontrolgetrange-method"></a>ITStreamQualityControl：： GetRange 方法
 
-\[ 在 Windows Vista、Windows Server 2008 和後續的作業系統版本中，無法使用這個方法。 RTC 用戶端 API 提供類似的功能。\]
+\[此方法無法在 Windows Vista、Windows Server 2008 和後續版本的作業系統中使用。 RTC 用戶端 API 提供類似的功能。\]
 
 **GetRange** 方法會取得指定之 [**資料流程品質屬性**](streamqualityproperty.md)的有效值範圍。
 

@@ -4,12 +4,12 @@ ms.assetid: c64fca58-fb2f-412f-b7c0-5db1979d051b
 title: 憑證屬性介面
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 00d0052675436a28438d5f1600a5b0097f8e177a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6e3d0ab8d9f8e9bb73d47b7e112dfa0ff6fb11f70031c64405b660ee5096dd78
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689467"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118902604"
 ---
 # <a name="certificate-property-interfaces"></a>憑證屬性介面
 

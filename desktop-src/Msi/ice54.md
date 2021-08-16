@@ -4,12 +4,12 @@ ms.assetid: 94fcabfe-4500-42f2-acea-13b9a6681ca6
 title: ICE54
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 99df2ba90ccb44e33b67aaf8ecdcadc723e8d2fe
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 00658bb62b5c29b25f9fb653e216920fc776ba6df0e3fc2f8b47bbdf715040b4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103849470"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118946605"
 ---
 # <a name="ice54"></a>ICE54
 

@@ -4,12 +4,12 @@ ms.assetid: cd05d4da-ca65-471b-bb97-82885f22e6f9
 title: 圖形 API 函數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e343f3f5ff1e53180cced98cbebbd66af1d28e64
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b26c40770e8fcbc18b08ccb73dcfea5f1f6c4eab65be615ed76d8088ddc90954
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103849315"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119776218"
 ---
 # <a name="graphing-api-functions"></a>圖形 API 函數
 
@@ -28,7 +28,7 @@ ms.locfileid: "103849315"
 
  
 
-## <a name="graph-creation-and-access-functions"></a>圖表建立和存取函式
+## <a name="graph-creation-and-access-functions"></a>Graph建立和存取函式
 
 
 
@@ -44,7 +44,7 @@ ms.locfileid: "103849315"
 
  
 
-## <a name="graph-and-node-information-functions"></a>圖形和節點資訊函數
+## <a name="graph-and-node-information-functions"></a>Graph 和節點資訊函數
 
 
 

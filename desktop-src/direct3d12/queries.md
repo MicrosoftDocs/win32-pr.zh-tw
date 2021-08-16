@@ -5,12 +5,12 @@ ms.assetid: d7403b5d-7e1b-4dd2-ae45-52e1153233c6
 ms.localizationpriority: high
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 22c4db895eb0d4a727db2e32757f7ab0f1f9b1e2
-ms.sourcegitcommit: 5b98bf8c68922f8f03c14f793fbe17504900559c
+ms.openlocfilehash: 71279c09b59b417535f3155683747ac4c153d7d0fd9f668f79cab9b63ca79805
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/12/2021
-ms.locfileid: "104548435"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119241948"
 ---
 # <a name="queries"></a>查詢
 

@@ -4,12 +4,12 @@ description: Data-Pull 模型和 Data-Push 模型
 ms.assetid: ba0e8532-9c7b-4e15-9c27-8205d738fc4b
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 88f6607e9b466c439859a99b857e7ce3fe6d8acd
-ms.sourcegitcommit: 5f33645661bf8c825a7a2e73950b1f4ea0f1cd82
+ms.openlocfilehash: ab89f61301f9116a7e826f1965bd54f75004a3a90af8c9d1a1bc13acb1fc9c46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104383014"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119048446"
 ---
 # <a name="data-pull-model-and-data-push-model"></a>Data-Pull 模型和 Data-Push 模型
 
@@ -33,6 +33,6 @@ ms.locfileid: "104383014"
 [非同步名字](asynchronous-monikers.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

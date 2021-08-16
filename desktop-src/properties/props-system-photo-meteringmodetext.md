@@ -4,18 +4,18 @@ ms.assetid: f0209d5c-a7ca-4cee-ad0d-7a09c31cad3a
 title: MeteringModeText
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: c9eab313a8aa6dd255cd56f1cdcb5babf69e2d2b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3567855948306499fba14a1bc2d13944634eb871b97e680630af71a9b5f16f74
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106978929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119033326"
 ---
 # <a name="systemphotometeringmodetext"></a>MeteringModeText
 
 [MeteringMode](./props-system-photo-meteringmode.md)的使用者易記形式。 不打算以程式設計方式剖析。
 
-## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、1507、Windows 8.1、Windows 8、Windows 7、Windows Vista 版本
+## <a name="windows-10-version-1703-windows-10-version-1607-windows-10-version-1511-windows-10-version-1507-windows-81-windows-8-windows-7-windows-vista"></a>Windows 10，1703、Windows 10、1607版、Windows 10、1511版、Windows 10、version 1507、Windows 8.1、Windows 8、Windows 7、Windows Vista
 
 ```
 propertyDescription

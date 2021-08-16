@@ -4,12 +4,12 @@ ms.assetid: 9099f9df-b620-4623-826e-c541202ebc4a
 title: 部署以加快通訊速度
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a2594a7dbd34813013257350e2deb9d93db6bae5
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 201185878a6d3fc041512b41fd3f51975ae5e0988f853dbbbcb77b716ea4cebe
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106972797"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120070778"
 ---
 # <a name="deploying-for-faster-communication"></a>部署以加快通訊速度
 

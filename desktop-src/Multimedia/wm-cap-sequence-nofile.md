@@ -3,7 +3,7 @@ title: 'WM_CAP_SEQUENCE_NOFILE 訊息 (Vfw .h) '
 description: '\_若未將資料寫入檔案，則 [WM CAP \_ 序列 \_ NOFILE] 訊息會起始串流影片捕獲。 您可以使用 capCaptureSequenceNoFile 宏明確地傳送此訊息。'
 ms.assetid: 60cbcb62-3bfa-4182-a049-1e3cb2ede423
 keywords:
-- WM_CAP_SEQUENCE_NOFILE message Windows 多媒體
+- WM_CAP_SEQUENCE_NOFILE 訊息 Windows 多媒體
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: e0a08f470989b8000e9757c1cb81924b875b5303
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 3d9344b53a52caa2e536483a339439a6d942ff1fea0313767d0e1be520c09b48
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104093976"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118940726"
 ---
 # <a name="wm_cap_sequence_nofile-message"></a>WM \_ CAP \_ 序列 \_ NOFILE 訊息
 

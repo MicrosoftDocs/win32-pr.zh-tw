@@ -4,16 +4,16 @@ ms.assetid: C99C342E-0BD9-486A-92AA-F8DCB72C1B00
 title: 使用空間音訊物件呈現空間音效
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: cd541026aa3e144ec8333c8ac045a17970735f17
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 0a9498b1792ed884624afef859f3f8c70d6001d91be5dff15211717651dc4767
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103688951"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119642498"
 ---
 # <a name="render-spatial-sound-using-spatial-audio-objects"></a>使用空間音訊物件呈現空間音效
 
-本文提供一些簡單的範例，說明如何使用靜態空間音訊物件、動態空間音訊物件，以及使用 Microsoft 前端相對傳送函式的空間音訊物件 (HRTF) 來執行空間音效。 上述三項技術的執行步驟都非常類似，而且本文針對每個技術提供類似的結構化程式碼範例。 如需真實世界空間音訊實作為的完整端對端範例，請參閱 [Microsoft 空間音效範例 github 存放庫](https://github.com/Microsoft/Xbox-ATG-Samples/tree/master/UWPSamples/Audio)。 如需 Windows Sonic 的總覽，請參閱適用于 Xbox 和 Windows 上空間音效支援的 Microsoft 平台層級解決方案，請參閱 [空間音效](spatial-sound.md)。
+本文提供一些簡單的範例，說明如何使用靜態空間音訊物件、動態空間音訊物件，以及使用 Microsoft 前端相對傳送函式的空間音訊物件 (HRTF) 來執行空間音效。 上述三項技術的執行步驟都非常類似，而且本文針對每個技術提供類似的結構化程式碼範例。 如需真實世界空間音訊實作為的完整端對端範例，請參閱 [Microsoft 空間音效範例 github 存放庫](https://github.com/Microsoft/Xbox-ATG-Samples/tree/master/UWPSamples/Audio)。 如需 Windows Sonic 的總覽，請參閱適用于 Xbox 和 Windows 上的空間音效支援的 Microsoft 平台層級解決方案，請參閱[空間音效](spatial-sound.md)。
 
 ## <a name="render-audio-using-static-spatial-audio-objects"></a>使用靜態空間音訊物件呈現音訊
 
@@ -113,7 +113,7 @@ hr = spatialAudioClient->ActivateSpatialAudioStream(&activationParams, __uuidof(
 
 
 > [!Note]  
-> 在 Xbox One 開發工具組上使用 [**ISpatialAudioClient**](/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient) 介面時 (XDK) 標題，您必須先呼叫 **EnableSpatialAudio** ，然後再呼叫 [**IMMDeviceEnumerator：： EnumAudioEndpoints**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints) 或 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint)。 若未這麼做，將會導致 \_ 從啟動的呼叫傳回電子 NOINTERFACE 錯誤。 **EnableSpatialAudio** 僅適用于 XDK 標題，不需要針對 Xbox One 上執行的通用 Windows 平臺應用程式，或任何非 Xbox One 裝置呼叫。
+> 在 Xbox One 開發工具組上使用 [**ISpatialAudioClient**](/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient)介面時 (XDK) 標題，您必須先呼叫 **EnableSpatialAudio** ，然後再呼叫 [**IMMDeviceEnumerator：： EnumAudioEndpoints**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-enumaudioendpoints)或 [**IMMDeviceEnumerator：： GetDefaultAudioEndpoint**](/windows/desktop/api/Mmdeviceapi/nf-mmdeviceapi-immdeviceenumerator-getdefaultaudioendpoint)。 若未這麼做，將會導致 \_ 從啟動的呼叫傳回電子 NOINTERFACE 錯誤。 **EnableSpatialAudio** 僅適用于 XDK 標題，不需要針對 Xbox One 上執行的通用 Windows 平臺應用程式，或任何非 Xbox One 裝置呼叫。
 
  
 
@@ -475,9 +475,9 @@ CloseHandle(bufferCompletionEvent);
 
 ## <a name="render-audio-using-dynamic-spatial-audio-objects-for-hrtf"></a>針對 HRTF 使用動態空間音訊物件呈現音訊
 
-另一組 Api、 [**ISpatialAudioRenderStreamForHrtf**](/windows/win32/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf) 和 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf)，可讓您使用 Microsoft 的前端相對傳送函式的空間音訊， (HRTF) 來 attenuate 音效，以模擬發射器在空間中的位置（相對於一段時間可以變更）。 除了定位之外，HRTF 音訊物件還可讓您指定空間的方向、發出音效的 directivity （例如錐形或 cardioid 圖形），以及物件隨著虛擬接聽程式移近和更近的衰減模型。 請注意，只有當使用者選取耳機用 Windows Sonic 作為裝置的空間音訊引擎時，才能使用這些 HRTF 介面。 如需設定裝置以使用耳機用 Windows Sonic 的詳細資訊，請參閱 [空間音效](spatial-sound.md)。
+另一組 Api、 [**ISpatialAudioRenderStreamForHrtf**](/windows/win32/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf) 和 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf)，可讓您使用 Microsoft 的前端相對傳送函式的空間音訊， (HRTF) 來 attenuate 音效，以模擬發射器在空間中的位置（相對於一段時間可以變更）。 除了定位之外，HRTF 音訊物件還可讓您指定空間的方向、發出音效的 directivity （例如錐形或 cardioid 圖形），以及物件隨著虛擬接聽程式移近和更近的衰減模型。 請注意，只有當使用者選取耳機用 Windows Sonic 作為裝置的空間音訊引擎時，才能使用這些 HRTF 介面。 如需設定裝置以使用耳機用 Windows Sonic 的詳細資訊，請參閱[空間音效](spatial-sound.md)。
 
-[**ISpatialAudioRenderStreamForHrtf**](/windows/win32/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf)和 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf) api 可讓應用程式直接明確地使用耳機用 Windows Sonic 轉譯路徑。 這些 Api 不支援空間音效格式，例如 Dolby Atmos for Home Theater 或 Dolby Atmos for Headphones，也不支援透過 **音效** 控制台切換取用者控制的輸出格式，也不支援透過喇叭播放。 這些介面適用于想要使用耳機用 Windows Sonic 特定功能的 Windows Mixed Reality 應用程式 (例如，以程式設計方式指定的環境預設值和以距離為基礎的 rolloff，) 的一般內容撰寫管線之外。 大部分的遊戲和虛擬實境案例都偏好改用 [**ISpatialAudioClient**](/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient) 。 這兩個 API 集合的執行步驟幾乎相同，因此您可以在執行時間執行這兩種技術和切換，視目前裝置上可用的功能而定。
+[**ISpatialAudioRenderStreamForHrtf**](/windows/win32/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectrenderstreamforhrtf)和 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf) api 可讓應用程式直接明確地使用耳機用 Windows Sonic 轉譯路徑。 這些 api 不支援空間音效格式，例如 Dolby Atmos for Home Theater 或 Dolby Atmos for Headphones，也不支援透過 **音效** 控制台切換取用者控制的輸出格式，也不支援透過喇叭播放。 這些介面適用于想要使用耳機用 Windows Sonic 特定功能的 Windows Mixed Reality 應用程式 (例如，以程式設計方式指定的環境預設值和以距離為基礎的 rolloff，) 的一般內容撰寫管線之外。 大部分的遊戲和虛擬實境案例都偏好改用 [**ISpatialAudioClient**](/windows/desktop/api/spatialaudioclient/nn-spatialaudioclient-ispatialaudioclient) 。 這兩個 API 集合的執行步驟幾乎相同，因此您可以在執行時間執行這兩種技術和切換，視目前裝置上可用的功能而定。
 
 混合現實應用程式通常會使用虛擬世界中3D 物件的位置，來指定與其相關聯之動態音訊物件的位置。 下列範例會使用簡單結構 **My3dObjectForHrtf**，來儲存代表物件所需的最少資料集。 這項資料包括 [**ISpatialAudioObjectForHrtf**](/windows/desktop/api/spatialaudiohrtf/nn-spatialaudiohrtf-ispatialaudioobjectforhrtf)的指標、物件的位置、方向、速度和音調頻率，以及儲存物件呈現音效的框架總數的值。
 

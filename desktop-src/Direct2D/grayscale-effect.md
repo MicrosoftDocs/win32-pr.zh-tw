@@ -4,12 +4,12 @@ description: 將影像轉換為灰色。
 ms.assetid: 4e0b26ed-ba71-5f8f-db1e-f1b4e28fbd11
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e0dc3cb6a807d282649a2826713cdf48fa966d9f
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 03b74e553074b3ee0c9ad4e0d5121b9b084884ddb030c75308eb9964531fc6b7
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103686025"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119075327"
 ---
 # <a name="grayscale-effect"></a>灰階效果
 
@@ -40,8 +40,8 @@ ms.locfileid: "103686025"
 
 | 需求 | 值 |
 |--------------------------|---------------------------------------------------|
-| 最低支援的用戶端 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
-| 最低支援的伺服器 | Windows 10 \[ 桌面應用程式 \| Windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 10 \[桌面應用程式 \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects \_ 2。h                                  |
 | 程式庫                  | d2d1 .lib，dxguid .lib                              |
 

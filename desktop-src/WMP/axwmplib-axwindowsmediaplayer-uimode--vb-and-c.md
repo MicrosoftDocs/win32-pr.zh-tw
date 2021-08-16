@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 33edcf6bdff9e1587269df9eb49c3729099d091e
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 51f1d716d36aafbd3625ae1144e0adde1abf0898bee4cbe6831d627cea97bb9b
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106996224"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119618768"
 ---
 # <a name="axwindowsmediaplayeruimode-property"></a>AxWindowsMediaPlayer. uiMode 屬性
 
@@ -62,28 +62,28 @@ System.string，這是下列其中一個值。
 
  
 
-## <a name="remarks&quot;></a>備註
+## <a name="remarks"></a>備註
 
 這個屬性會指定內嵌 Windows Media Player 的外觀。 當 **uiMode** 設定為「無」、「迷你」或「完整」時，顯示影片剪輯和音訊視覺效果的視窗就會出現。 您可以將 **物件** 標記的 **height** 屬性設為40（從底部測量），並將使用者介面的控制項部分保持可見，以將此視窗隱藏在迷你或完整模式中。 如果沒有想要的內嵌介面，請將 [ **寬度** ] 和 [ **高度** ] 屬性都設定為零。
 
 如果 **uiMode** 設為「隱藏」，則不會顯示任何使用者介面，但在頁面上的空間仍會保留在 **寬度** 和 **高度** 所指定的位置。 這適用于在 **uiMode** 可以變更時保留頁面配置。 此外，保留的空間是透明的，因此會顯示控制項背後的任何元素。
 
-如果 **uiMode** 設定為「完整」或「迷你」，Windows Media Player 會以全螢幕模式顯示傳輸控制項。 如果 **uiMode** 設為 &quot;none&quot;，就不會在全螢幕模式中顯示任何控制項。
+如果 **uiMode** 設定為「完整」或「迷你」，Windows Media Player 會以全螢幕模式顯示傳輸控制項。 如果 **uiMode** 設為 "none"，就不會在全螢幕模式中顯示任何控制項。
 
 如果視窗顯示並播放音訊內容，顯示的視覺效果將會是最近在 Windows Media Player 中使用的視覺效果。
 
-如果在執行 **IWMPRemoteMediaServices** 的 c + + 程式中， **uiMode** 設為 &quot;custom&quot;，則會顯示 **IWMPRemoteMediaServices** 所指出的面板檔案。
+如果在執行 **IWMPRemoteMediaServices** 的 c + + 程式中， **uiMode** 設為 "custom"，則會顯示 **IWMPRemoteMediaServices** 所指出的面板檔案。
 
-在全螢幕播放期間，Windows Media Player 會在 **enableCoNtextMenu** 等於 False 且 **uiMode** 等於 &quot;none&quot; 時隱藏滑鼠游標。
+在全螢幕播放期間，Windows Media Player 會在 **enableCoNtextMenu** 等於 false 且 **uiMode** 等於 "none" 時隱藏滑鼠游標。
 
-## <a name=&quot;examples&quot;></a>範例
+## <a name="examples"></a>範例
 
 下列範例會建立一個清單方塊，讓使用者變更內嵌 Windows Media Player 物件的使用者介面模式。 AxWMPLib. AxWindowsMediaPlayer 物件是以名為 player 的變數來表示。
 
 
 ```CSharp
 // Load the list box with the four UI mode options.
-uiModeOptions.Items.Add(&quot;invisible");
+uiModeOptions.Items.Add("invisible");
 uiModeOptions.Items.Add("none");
 uiModeOptions.Items.Add("mini");
 uiModeOptions.Items.Add("full");

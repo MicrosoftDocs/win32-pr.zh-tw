@@ -4,12 +4,12 @@ ms.assetid: 247bdd95-c432-462f-a57a-b5ab8a2e3c70
 title: 'AVEncDDOriginalBitstream 屬性 (Codecapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 191bab3a6d6eea9d12def8f7eee4f1c0baac8347
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 2d64669411f4ad8f340ab6a4203dc970938b3196f900aadefc780d510b3961d2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106998430"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120000018"
 ---
 # <a name="avencddoriginalbitstream-property"></a>AVEncDDOriginalBitstream 屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106998430"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | Windows 2000 專業版傳統型 \[ 應用程式 \| UWP 應用程式\]<br/>                     |
-| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop 應用程式 \| UWP 應用程式\]<br/>                           |
+| 最低支援的用戶端<br/> | Windows 2000 Professional \[ 桌面應用程式 \| UWP 應用程式\]<br/>                     |
+| 最低支援的伺服器<br/> | Windows 2000 Server \[ desktop apps \| UWP 應用程式\]<br/>                           |
 | 標頭<br/>                   | <dl> <dt>Codecapi。h</dt> </dl> |
 
 

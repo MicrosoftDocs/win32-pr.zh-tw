@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 4770f405ff7ca8875e3e2a960dea846e2f34ff6a
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: b81d04ace73775fdbcf268ac740e131f279d3b6d52bd077c149467ef51b3cd8a
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104513452"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119721508"
 ---
 # <a name="esenttaskdroppedexception-class"></a>EsentTaskDroppedException 類別
 

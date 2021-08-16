@@ -4,12 +4,12 @@ ms.assetid: dbb536a6-9c12-459d-8098-ebe4fc4c8f2f
 title: WPD_FUNCTIONAL_CATEGORY_SMS
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: af3a08cb3df6bd74de843efaa3d0feed88ad86fd
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 273807900639f7c220bbb1828233bd717a8b814160167df3be87bda904d5a3e2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104194230"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119838928"
 ---
 # <a name="wpd_functional_category_sms"></a>WPD \_ 功能 \_ 類別 \_ SMS
 
@@ -42,7 +42,7 @@ WPD \_ 功能 \_ 類別的 \_ SMS 功能物件會封裝短訊息服務功能， 
 | [WPD \_ 物件 \_ \_ \_ 從資源產生縮圖 \_](object-properties.md) | 選擇性。                                                                                                                                              |
 | [WPD \_ 物件 \_ 可以 \_ 刪除](object-properties.md)                                                                     | 如果無法刪除物件，則為必要。                                                                                                              |
 | [WPD \_ 物件 \_ 語言 \_ 地區設定](object-properties.md)                                                                | 選擇性。                                                                                                                                              |
-| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 請參閱 Windows 可攜式裝置所定義分類的 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md) 。 |
+| [WPD \_ 功能 \_ 物件 \_ 類別](miscellaneous-properties.md)                      | 必要。 如需 Windows 可攜式裝置所定義的分類，請參閱 [**WPD \_ 內容 \_ 類型 \_ 功能 \_ 物件**](wpd-content-type-functional-object.md)。 |
 | [WPD \_ SMS \_ 提供者](sms-properties.md)                                                             | 必要。                                                                                                                                              |
 | [WPD \_ SMS \_ TIMEOUT](sms-properties.md)                                                               | 必要。                                                                                                                                              |
 | [WPD \_ SMS \_ 最大承載 \_](sms-properties.md)                                                      | 必要。                                                                                                                                              |

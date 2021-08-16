@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 57dd61a399176f70b66b46b6180d0e10756780f7
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 16ec34087b7bb6e943029cb6051a91b30d1ba5e40f01f6cb620735ceb0d14e46
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "106965086"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119058896"
 ---
 # <a name="imsrdpextendedsettings-interface"></a>IMsRdpExtendedSettings 介面
 

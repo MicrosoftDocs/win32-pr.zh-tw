@@ -13,12 +13,12 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: 883ee7aa2f230756d62294d46e6402fe7f962d4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7795633355eccdc19da235a56d211f4913ac532e9df51f6d30f33635f9b2d39a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106982353"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131439"
 ---
 # <a name="countertype-qualifier"></a>CounterType 辨識符號
 

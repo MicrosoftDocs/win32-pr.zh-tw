@@ -4,17 +4,17 @@ ms.assetid: 6a6d9d15-2f56-47fc-a7bb-2cf33f384f41
 title: SubpictureStreamsAvailable 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e34f780a726966580a72d87b6f7900bb73c1a85
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 2349cb696c1f6d363fefb6a6e90a662fa7c3233b3b0aefcb57d381a604f41832
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106978145"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119633438"
 ---
 # <a name="subpicturestreamsavailable-property"></a>SubpictureStreamsAvailable 屬性
 
 > [!Note]  
-> 此元件可用於 Microsoft Windows 2000、Windows XP 及 Windows Server 2003 作業系統。 它在後續版本中可能會變更或無法使用。
+> 此元件可在 Microsoft Windows 2000、Windows XP 和 Windows Server 2003 作業系統中使用。 它在後續版本中可能會變更或無法使用。
 
  
 

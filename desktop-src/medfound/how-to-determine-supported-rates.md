@@ -4,12 +4,12 @@ ms.assetid: 7f2b64e1-1062-4f77-b8e0-62b6d962ae8b
 title: 如何判斷支援的費率
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1f67e9753604f51e85c641e616e8b69944b96618
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8aadbf0f9a0ce9608b58019d64ddb18a2227bbeb2941540086a6f998e40ebc3d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191708"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117878940"
 ---
 # <a name="how-to-determine-supported-rates"></a>如何判斷支援的費率
 

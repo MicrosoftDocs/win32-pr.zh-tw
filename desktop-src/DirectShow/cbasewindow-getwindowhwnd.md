@@ -16,12 +16,12 @@ api_location:
 - Strmbase.dll
 - Strmbasd.lib
 - Strmbasd.dll
-ms.openlocfilehash: 50776155adca0ea22c02010123612cffa2a60426
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 26a7e0adb03ef0b9ca10fcf8257647c8bd7f038f18e242d840fd7ca7c18c4e7a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "107000016"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119016596"
 ---
 # <a name="cbasewindowgetwindowhwnd-method"></a>CBaseWindow. GetWindowHWND 方法
 

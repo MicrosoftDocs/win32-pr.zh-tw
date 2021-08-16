@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: d8e07974477bf7f265eef9a488e2bbfd8ddd0027
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 1c2fda8dc1c857bea9e217ac5e4a2b6cde0b6ccb199c60204121aa62e900ee8f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104023490"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119085983"
 ---
 # <a name="drm_licensestate_copytosdmidevice"></a>DRM \_ LicenseState \_ CopyToSDMIDevice
 
@@ -42,6 +42,6 @@ g \_ wszWMDRM \_ LicenseState \_ CopyToSDMIDevice
 [**DRM 屬性**](drm-properties.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -41,12 +41,12 @@ api_type:
 - DllExport
 api_location:
 - Wbemcore.dll
-ms.openlocfilehash: 8f94524d18074e3a35c7bcad09e9b9fba80e8470
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 39c976a6a8b4c25fbc42561b7d0a8db52b9029f679ad72993f931efa596d2d6d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103847073"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119079572"
 ---
 # <a name="win32_wmisetting-class"></a>Win32 \_ WMISetting 類別
 
@@ -673,13 +673,13 @@ WMI 服務所產生之記錄檔的大小上限。
 
 ## <a name="examples"></a>範例
 
-TechNet 資源庫上的 [修改 Wmi 設定](https://Gallery.TechNet.Microsoft.Com/aa80d174-3592-4fed-9c50-11f34e541445) VBScript 程式碼範例會 **使用 \_ Win32 WMISETTING** 類別來設定 WMI 備份間隔和記錄層級。
+TechNet 資源庫上的 [修改 wmi 設定](https://Gallery.TechNet.Microsoft.Com/aa80d174-3592-4fed-9c50-11f34e541445)VBScript 程式碼範例會 **使用 \_ Win32 WMISetting** 類別來設定 WMI 備份間隔和記錄層級。
 
 TechNet 資源庫上 [預設命名空間](https://Gallery.TechNet.Microsoft.Com/3fc69acd-ead0-4dd1-9ea1-e15a7331cfa0) VBScript 程式碼範例的清單，會使用 **Win32 \_ WMISetting** 類別來抓取和顯示目前的 WMI 「腳本的預設命名空間」設定。
 
 TechNet 資源庫上的 [修改預設 Wmi 命名空間](https://Gallery.TechNet.Microsoft.Com/6dbb20e6-036d-43a2-ad6d-58325ada6a19) VBScript 程式碼範例會使用 **ASPScriptDefaultNamespace** 屬性，將 WMI 「腳本的預設命名空間」設定設為「根 \\ cimv2」。
 
-清單中的 [所有 Wmi 設定](https://Gallery.TechNet.Microsoft.Com/29c04301-e9b2-46d1-8714-2dbb51014c92) VBSCript 程式碼範例會使用 **Win32 \_ WMISetting** 上的許多屬性來傳回電腦上所設定的 wmi 設定清單。
+[列出所有 WMI 設定](https://Gallery.TechNet.Microsoft.Com/29c04301-e9b2-46d1-8714-2dbb51014c92)VBSCript 程式碼範例會在 **Win32 \_ WMISetting** 上使用許多屬性，以傳回電腦上所設定的 wmi 設定清單。
 
 [清單 Wmi 設定資訊](https://Gallery.TechNet.Microsoft.Com/0427cfde-4cd9-4a3d-9140-3bb622a1df5d)JavaScript 程式碼範例會在 **Win32 \_ WMISetting** 上使用一些屬性，以傳回電腦上所設定的 wmi 設定清單。
 

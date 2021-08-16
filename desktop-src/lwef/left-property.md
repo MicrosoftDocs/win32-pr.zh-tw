@@ -1,19 +1,19 @@
 ---
 title: 'Left 屬性 (字元物件) '
-description: 深入瞭解 [左字元] 物件屬性。 Microsoft Agent 已于 Windows 7 淘汰。
+description: 深入瞭解 [左字元] 物件屬性。 Microsoft 代理程式已于 Windows 7 淘汰。
 ms.assetid: f496f075-6430-4806-a237-1c7b626d355e
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e2f860e6827a9c96c42014456e43b791ab70ed4
-ms.sourcegitcommit: 6fc8a7419bd01787cf6a1c52c355a4a2d1aec471
+ms.openlocfilehash: e546dc662dc535889eb6c3a476a54b839c5d9577a7e2ff525eeadf79f727fbf1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/10/2021
-ms.locfileid: "111988934"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119105014"
 ---
 # <a name="left-property-characters-object"></a>Left 屬性 (字元物件) 
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 <dl> <dt>
 

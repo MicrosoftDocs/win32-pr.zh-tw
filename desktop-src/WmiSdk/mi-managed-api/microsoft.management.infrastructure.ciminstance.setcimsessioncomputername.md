@@ -23,12 +23,12 @@ topic_type:
 - apiref
 product_family_name: VS
 ms.topic: reference
-ms.openlocfilehash: b9f4cd9d308617a2369eaa542705e4ad7f854fa4
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: c3f3c3cbe93710f5f9a796463539ad754c1f2e50ce5524c90a5f639021e716bf
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104319575"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119131110"
 ---
 # <a name="ciminstancesetcimsessioncomputername-method-string"></a>CimInstance. SetCimSessionComputerName 方法 (字串) 
 

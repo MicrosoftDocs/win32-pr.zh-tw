@@ -21,12 +21,12 @@ keywords:
 - 控制項類型，視窗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 422742381cd501d295e4cb7e354ca07e10c13360
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: a70ae728ded97bb68f3984b6fba323710d3582e984610ad6dec248d8509ea97f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104301655"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118824573"
 ---
 # <a name="window-control-type"></a>Window 控制項類型
 
@@ -75,7 +75,7 @@ ms.locfileid: "104301655"
 
 
 
- 
+ 
 
 ## <a name="relevant-properties"></a>相關屬性
 
@@ -98,7 +98,7 @@ ms.locfileid: "104301655"
 
 
 
- 
+ 
 
 ## <a name="required-control-patterns"></a>必要的控制項模式
 
@@ -114,7 +114,7 @@ ms.locfileid: "104301655"
 
 
 
- 
+ 
 
 ## <a name="required-events"></a>必要的事件
 
@@ -144,7 +144,7 @@ ms.locfileid: "104301655"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -159,9 +159,9 @@ ms.locfileid: "104301655"
 [UI 自動化概觀](uiauto-uiautomationoverview.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

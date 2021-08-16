@@ -4,12 +4,12 @@ description: 針對路由通訊協定 DLL 執行下列功能
 ms.assetid: fd780458-ef23-4ef2-8fe8-29b32100917f
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b696d516cf0fc0b13d66fdc53b384a28fac8696a
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 46f050c27bbfd498b1ffd36d90a1e5792fdf9283a6eb47e86a35747df6b8cb8e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103933570"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119672748"
 ---
 # <a name="routing-protocol-interface-functions"></a>路由通訊協定介面函式
 
@@ -77,6 +77,6 @@ ms.locfileid: "103933570"
 
 [**DoUpdateServices**](/previous-versions/windows/desktop/legacy/aa374005(v=vs.85))
 
- 
+ 
 
- 
+ 

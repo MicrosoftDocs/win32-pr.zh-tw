@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55102964
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: b34ebcffe9215dc15cb7ccf84c985fec62948969
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 3f9133dabc0643e0370b173fa4192d491a3ff5540738369b15a4811b6460c57b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104563434"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118771126"
 ---
 # <a name="esentsoftrecoveryonbackupdatabaseexception-members"></a>EsentSoftRecoveryOnBackupDatabaseException 成員
 

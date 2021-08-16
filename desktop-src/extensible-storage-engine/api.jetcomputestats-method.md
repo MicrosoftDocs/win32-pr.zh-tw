@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 2b102aca5971656232fae02684aeab30322d208b
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 878265cb51614e8b3f56974882773de13fc8389fe8aa8522b018a6e50f3af433
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191104"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118983448"
 ---
 # <a name="apijetcomputestats-method"></a>JetComputeStats 方法
 

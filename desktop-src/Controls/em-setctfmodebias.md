@@ -3,7 +3,7 @@ title: 'EM_SETCTFMODEBIAS 訊息 (Richedit .h) '
 description: 設定 rich edit 控制項的文字服務架構 (TSF) 模式偏差。
 ms.assetid: 17e3aac8-2ba8-4c06-bfd6-e118cfb82529
 keywords:
-- EM_SETCTFMODEBIAS message Windows 控制項
+- EM_SETCTFMODEBIAS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b872fa5489c898ec4482ecdc094de7df6e3180be
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: fd6aa0f10b07092d9637d9e5a993848671ab6aa7e7eb610eca48c3df353c4a0d
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104509172"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119019506"
 ---
 # <a name="em_setctfmodebias-message"></a>EM \_ SETCTFMODEBIAS 訊息
 
@@ -81,8 +81,8 @@ ms.locfileid: "104509172"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows僅限 XP （含 SP1） \[ 桌面應用程式\]<br/>                                  |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Richedit。h</dt> </dl> |
 
 

@@ -6,12 +6,12 @@ keywords:
 - WGL 函式，像素格式
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 39e219fc6a2aafecdcda43708cdb4c77553c88f9
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 46c4b82a2b6cd91dd007cecf78065fa0c01204ecf468017ec7e121bd764c9ff2
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103840768"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119486328"
 ---
 # <a name="pixel-format-functions"></a>像素格式函數
 
@@ -19,7 +19,7 @@ ms.locfileid: "103840768"
 
 
 
-| Windows 函數                                               | Description                                                                                                                                                           |
+| Windows功能                                               | Description                                                                                                                                                           |
 |----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)                 | 取得裝置內容的像素格式，此格式最符合指定的像素格式。                                                                      |
 | [**SetPixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-setpixelformat)                       | 將裝置內容的目前像素格式設定為像素格式索引所指定的像素格式。                                                                   |
@@ -29,7 +29,7 @@ ms.locfileid: "103840768"
 
 
 
- 
+ 
 
 [**ChoosePixelFormat**](/windows/desktop/api/wingdi/nf-wingdi-choosepixelformat)函式會傳回以一為基礎的像素格式索引，以識別最符合裝置內容支援的像素格式。
 
@@ -49,9 +49,9 @@ ms.locfileid: "103840768"
 
 **GetEnhMetaFilePixelFormat** 函式會傳回中繼檔的像素格式大小，並抓取中繼檔的像素格式資訊。
 
- 
+ 
 
- 
+ 
 
 
 

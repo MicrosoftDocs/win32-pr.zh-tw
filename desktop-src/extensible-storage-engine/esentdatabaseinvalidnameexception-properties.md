@@ -7,12 +7,12 @@ ms:mtpsurl: https://msdn.microsoft.com/library/microsoft.isam.esent.interop.esen
 ms:contentKeyID: 55101387
 ms.date: 07/30/2014
 ms.topic: article
-ms.openlocfilehash: 7649cdfac0606af9dc2956cc4531be0af7a9ab70
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 6925dcf52552cf43672a02811d1944d3f414f1e84530390f7ea26d79670290c3
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104556596"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120066058"
 ---
 # <a name="esentdatabaseinvalidnameexception-properties"></a>EsentDatabaseInvalidNameException 屬性
 

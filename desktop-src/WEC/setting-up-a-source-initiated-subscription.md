@@ -5,12 +5,12 @@ ms.assetid: c02b5075-d685-44cf-937f-a1edfd2550ca
 ms.tgt_platform: multiple
 ms.topic: article
 ms.date: 12/17/2018
-ms.openlocfilehash: de31b23821fb1315a690612e5b337c5bb47a016d
-ms.sourcegitcommit: 39a48585ed40e1cb466dcbf085847d0eb10f0da7
+ms.openlocfilehash: f9d0ade037c0332f390bbea4c9f126f78f4172879fc50465fcf9e329e89fa23d
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "104374916"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119620648"
 ---
 # <a name="setting-up-a-source-initiated-subscription"></a>設定來源起始的訂用帳戶
 
@@ -26,7 +26,7 @@ ms.locfileid: "104374916"
 事件來源電腦與事件收集器電腦都必須設定為設定來源起始的訂用帳戶。
 
 > [!Note]  
-> 這些指示假設您擁有 Windows Server 網域控制站的系統管理員存取權，而該網域服務將設定遠端電腦或電腦來收集事件。
+> 這些指示假設您具有系統管理員存取權，以提供網域給將設定遠端電腦或電腦的網域以收集事件的 Windows 伺服器網域控制站。
 
 ### <a name="configuring-the-event-source-computer"></a>設定事件來源電腦
 
@@ -38,7 +38,7 @@ ms.locfileid: "104374916"
 
     **% SYSTEMROOT% \\ System32 \\ gpedit.msc**
 
-3. 在 [ **電腦** 設定] 節點底下，展開 [ **系統管理範本** ] 節點，然後展開 [ **Windows 元件** ] 節點，然後選取 [ **事件轉送** ] 節點。
+3. 在 [**電腦** 設定] 節點底下，展開 [**系統管理範本**] 節點，然後展開 [ **Windows 元件**] 節點，然後選取 [**事件轉送**] 節點。
 
 4. 以滑鼠右鍵按一下 [ **SubscriptionManager** ] 設定，然後選取 [ **屬性**]。 啟用 [ **SubscriptionManager** ] 設定，然後按一下 [ **顯示** ] 按鈕，將伺服器位址新增至設定。 至少新增一個指定事件收集器電腦的設定。 [ **SubscriptionManager 屬性** ] 視窗包含說明設定語法的 [ **說明** ] 索引標籤。
 
@@ -112,7 +112,7 @@ ms.locfileid: "104374916"
 
 1. 在事件收集器電腦上，完成下列步驟：
 
-    1. 請在 Windows Server 網域控制站上，從提高許可權的命令提示字元執行下列命令，以取得訂用帳戶的執行時間狀態：
+    1. 在 Windows 伺服器網域控制站上，從提高許可權的命令提示字元執行下列命令，以取得訂用帳戶的執行時間狀態：
 
         **>wecutil gr** *&lt; subscriptionID &gt;*
 
@@ -133,7 +133,7 @@ ms.locfileid: "104374916"
 ## <a name="setting-up-a-source-initiated-subscription-where-the-event-sources-are-not-in-the-same-domain-as-the-event-collector-computer"></a>設定來源起始的訂用帳戶，其中事件來源不在與事件收集器電腦相同的網域中
 
 > [!Note]  
-> 這些指示假設您擁有 Windows Server 網域控制站的系統管理員存取權。 在此情況下，由於遠端事件收集器電腦或電腦 (s) 不在網域控制站所提供的網域中，因此必須使用 Services (services.msc) 將 Windows 遠端管理設定為 [自動]，以啟動個別用戶端。 或者，您可以在每個遠端用戶端上執行 "winrm quickconfig"。
+> 這些指示假設您有 Windows Server 網域控制站的系統管理員存取權。 在此情況下，由於遠端事件收集器電腦或電腦 (s) 不在網域控制站所提供的網域中，因此必須使用 services (services.msc) 將 Windows 遠端管理設定為 [自動]，以啟動個別用戶端。 或者，您可以在每個遠端用戶端上執行 "winrm quickconfig"。
 
 必須符合下列必要條件，才能建立訂用帳戶。
 
@@ -213,7 +213,7 @@ ms.locfileid: "104374916"
 ### <a name="event-source-computer-configuration"></a>事件來源電腦設定
 
 1. 使用系統管理員帳戶登入，並開啟本機群組原則編輯器 (gpedit.msc) 
-2. 流覽至本機電腦原則設定 [管理 \ 系統管理範本] Components\Event 轉送。
+2. 流覽至 [本機電腦原則設定] \ （管理 \）範本 \ Windows Components\Event 轉送。
 3. 開啟 [設定目標訂用帳戶管理員的伺服器位址、重新整理間隔和簽發者憑證授權單位單位] 原則。
 4. 啟用原則，然後按一下 [顯示 ...] SubscriptionManagers按鈕。
 5. 在 [SubscriptionManagers] 視窗中，輸入下列字串：
@@ -221,7 +221,7 @@ ms.locfileid: "104374916"
     **伺服器 = HTTPS：//** &lt;_事件收集器伺服器_ &gt; 的 FQDN **： 5986/wsman/SubscriptionManager/WEC，Refresh =** &lt;重新整理 _間隔（秒）_ &gt;**、IssuerCA =** &lt;_發行 CA 憑證的指紋_&gt;
 
 6. 執行下列命令列，以重新整理本機群組原則設定： Gpupdate/force
-7. 這些步驟應該會在來源電腦事件檢視器應用程式和服務 Logs\Microsoft\Windows\Eventlog-ForwardingPlugin\Operational 記錄檔中產生事件104，並顯示下列訊息：
+7. 這些步驟應該會在來源電腦中產生事件104，事件檢視器應用程式和服務 Logs\Microsoft\ Windows \Eventlog-ForwardingPlugin\Operational 記錄檔，並顯示下列訊息：
 
     「轉寄站已成功連接到位於位址 FQDN 的訂用帳戶管理員， &lt; &gt; 後面接著事件100，並顯示下列訊息：「 &lt; 已成功建立訂用帳戶 sub_name &gt; 。」
 

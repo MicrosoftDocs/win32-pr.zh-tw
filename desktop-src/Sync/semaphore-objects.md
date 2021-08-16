@@ -4,12 +4,12 @@ ms.assetid: d9da1d98-a306-4e2d-a149-1eef6a724751
 title: 信號物件
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a77f36313d76c5d98c786a76f10ad8439965f180
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 7c814be0ab2fafe7fbabfdeca5b640cfb550172a09e465dddc71629dfa5b0068
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981206"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118886257"
 ---
 # <a name="semaphore-objects"></a>信號物件
 

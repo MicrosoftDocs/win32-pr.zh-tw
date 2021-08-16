@@ -23,12 +23,12 @@ api_type:
 - DllExport
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 681e5e11de525e535f7965b72adb8ac0e316f7aa
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 7dbabaa1ddaba8e557d745318a775f906aae7036379bfcf39f42d09d569e650f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104510532"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119919638"
 ---
 # <a name="cim_serviceaccesspoint-class-cimwin32-wmi-providers"></a>CIM_ServiceAccessPoint 類別 (CIMWin32 WMI 提供者) 
 
@@ -297,7 +297,7 @@ class CIM_ServiceAccessPoint : CIM_LogicalElement
 
 </dd> <dt>
 
-**型別**
+**類型**
 </dt> <dd> <dl> <dt>
 
 資料類型： **uint32**

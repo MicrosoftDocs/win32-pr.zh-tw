@@ -4,12 +4,12 @@ ms.assetid: c6d37b2e-b149-43e2-8155-cb2f669e421c
 title: 授權管理員模型
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3455c9577f24b260bd02f947d0af99ec85570bd5
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 20973b8b3e1b35780cc771c04302430b44352a112745842dcbdb66e92b948aad
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "104321220"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117784191"
 ---
 # <a name="authorization-manager-model"></a>授權管理員模型
 

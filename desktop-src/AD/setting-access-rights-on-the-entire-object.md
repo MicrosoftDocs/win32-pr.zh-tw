@@ -8,12 +8,12 @@ keywords:
 - 物件 AD，設定存取權限
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e9a965b646de1ee3eba40757386fd243839cb35b
-ms.sourcegitcommit: 803f3ccd65bdefe36bd851b9c6e7280be9489016
+ms.openlocfilehash: cde06726b7333865fe2f4b87b87bec4383a3aeb1799ad6b8772142d5b9fd6eeb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "104462817"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024776"
 ---
 # <a name="setting-access-rights-on-the-entire-object"></a>設定整個物件的存取權限
 
@@ -30,6 +30,6 @@ ms.locfileid: "104462817"
 
 如需可用於設定 ACE 的詳細資訊和程式碼範例，請參閱 [在目錄物件上設定 ace 的範例程式碼](example-code-for-setting-an-ace-on-a-directory-object.md)。
 
- 
+ 
 
- 
+ 

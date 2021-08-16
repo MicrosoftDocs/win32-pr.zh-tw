@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 80fbaa25ec3b6a52aae06f99ed02d50430745dca
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: be64eb494eb72ace437aeade8d7d01a6675f99b2b44c4fa461a8e60c8ed3de1b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464525"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119692278"
 ---
 # <a name="modify-method-of-the-microsoftdns_sigtype-class"></a>Modify MicrosoftDNS \_ SIGType 類別的方法
 

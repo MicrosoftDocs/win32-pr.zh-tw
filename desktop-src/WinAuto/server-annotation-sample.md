@@ -4,12 +4,12 @@ description: 伺服器批註範例
 ms.assetid: 8e87a2ca-236c-4082-acf5-dc3807dde6bc
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 75fb36fe7f196b44d2e43429168d5b65126c53eb
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 219269a911b0848c62bc138ab0114a5d7178294688f86024146caf8acb9a87e4
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "106968210"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117745109"
 ---
 # <a name="server-annotation-sample"></a>伺服器批註範例
 
@@ -205,9 +205,9 @@ public:
 
 
 
- 
+ 
 
- 
+ 
 
 
 

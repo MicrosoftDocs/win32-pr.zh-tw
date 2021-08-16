@@ -14,12 +14,12 @@ api_type:
 ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
-ms.openlocfilehash: 89fce7764b755231812c761778131c159ddd860b
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: c953588cb457e8afb21cca38e9daed08b2387ab9fb7871ecd6b17dae9dca152f
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682710"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120110348"
 ---
 # <a name="iwmdrmnonsilentlicenseaquisition-interface"></a>IWMDRMNonSilentLicenseAquisition 介面
 

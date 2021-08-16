@@ -4,12 +4,12 @@ ms.assetid: b64a3983-ee75-4199-9778-1e5b7cec59e4
 title: 'WM_DEVICECHANGE 訊息 (Winuser .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 91cc45d7a7978d5501e51cc1355c43afcf12b956
-ms.sourcegitcommit: 8c1942ac6731488abbeae46a7dbe3da166fee2d6
+ms.openlocfilehash: b32936d36e01a34acc9ace512703db7584768e8b51a9fe06a791b2a285ee2add
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2021
-ms.locfileid: "107581500"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119017796"
 ---
 # <a name="wm_devicechange-message"></a>WM \_ DEVICECHANGE 訊息
 
@@ -87,7 +87,7 @@ LRESULT CALLBACK WindowProc(HWND   hwnd,     // handle to window
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------------|
 | 最低支援的用戶端 | Windows XP |
 | 最低支援的伺服器 | Windows Server 2003|
-| 標頭 | <dl> <dt>Winuser (包含 Windows .h 或 Dbt) </dt> </dl> |
+| 標頭 | <dl> <dt>Winuser (包含 Windows .h 或 Dbt .h) </dt> </dl> |
 
 ## <a name="see-also"></a>另請參閱
 

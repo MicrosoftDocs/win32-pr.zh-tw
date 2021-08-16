@@ -4,12 +4,12 @@ ms.assetid: 50E9516C-6078-4466-A593-3F29E4783740
 title: 'RIO_RQ (Mswsockdef) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c25abebbe40842532f3cca180868b5b3786e756d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 162b87d1ae320bfa0e74f08e5a0ef7493c053f39573249246e8b2884e74f599c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104318872"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118993578"
 ---
 # <a name="rio_rq"></a>RIO \_ RQ
 
@@ -50,8 +50,8 @@ Winsock 註冊的 i/o 擴充功能主要是在 **RIO \_ RQ** 物件上運作，�
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                                  |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                        |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                                  |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                        |
 | 標頭<br/>                   | <dl> <dt>Mswsockdef (包含 Mswsock) </dt> </dl> |
 
 

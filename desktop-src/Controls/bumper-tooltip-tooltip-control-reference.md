@@ -4,12 +4,12 @@ description: Tooltip 控制項參考
 ms.assetid: a6e5dc44-7878-462f-b2cb-4c3213f6b924
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 83c8610643734ed2b432b73b16d38277b2fe48ef
-ms.sourcegitcommit: 92e74c99f8f4d097676959d0c317f533c2400a80
+ms.openlocfilehash: a709630a2bff60ca52cd1ddc2e5d8fb8cad8dfb3767a405f8d7f5782821bac07
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/09/2021
-ms.locfileid: "103945996"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118414960"
 ---
 # <a name="tooltip-control-reference"></a>Tooltip 控制項參考
 

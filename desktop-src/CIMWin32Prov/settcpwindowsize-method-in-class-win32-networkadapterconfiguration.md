@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: d4a77acdc81c06d1f78da8bbc0160bd0d21bcfd8
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9bad1974233dade51f9c49d8508d3ad65f3dfc3f3a1bbb27a55bf4ea0828cc09
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104110737"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119020426"
 ---
 # <a name="settcpwindowsize-method-of-the-win32_networkadapterconfiguration-class"></a>Win32 >networkadapterconfiguration 類別的 SetTcpWindowSize 方法 \_
 
@@ -409,7 +409,7 @@ IP 位址無效。
 接收視窗指定傳送者不需收到通知就可傳送的位元組數目。 一般而言，較大的接收視窗會透過高延遲和高頻寬的網路改善效能。 為了提高效率，接收視窗應該是 (MSS) 的 TCP 最大區段大小的倍數。
 
 > [!Note]  
-> Windows Vista：此方法會存取 `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` 登錄專案，此專案不會用於目前的作業系統執行。
+> WindowsVista：此方法會存取 `"CurrentControlSet\\Services\\Tcpip\\Parameters|TcpWindowSize"` 登錄專案，此專案不會用於目前的作業系統執行。
 
  
 

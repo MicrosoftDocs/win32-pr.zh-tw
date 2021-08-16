@@ -73,7 +73,7 @@
               href: odl-language-features-in-midl.md
             - name: 從單一 IDL 檔案產生 Proxy DLL 和型別程式庫
               href: generating-a-proxy-dll-and-a-type-library-from-a-single-idl-file-2.md
-        - name: MIDLRT.EXE 根據和 Windows 執行階段元件
+        - name: midlrt.exe 根據和 Windows 執行階段元件
           href: midlrt-and-windows-runtime-components.md
           items:
             - name: MDMERGE 和中繼資料檔案
@@ -473,7 +473,7 @@
           href: helpstringdll.md
         - name: 隱藏
           href: hidden.md
-        - name: 超
+        - name: Hyper
           href: hyper.md
         - name: id
           href: id.md
@@ -665,7 +665,7 @@
           href: source.md
         - name: strict_coNtext_handle
           href: strict-context-handle.md
-        - name: 字串
+        - name: string
           href: string.md
         - name: struct
           href: struct.md

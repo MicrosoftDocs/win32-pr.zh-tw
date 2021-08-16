@@ -13,12 +13,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 77f08424e7b39449861ec654f1ff7891c6e9c60a
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: c51fc850504eb4455a41b881aed1109554d0482a8f889fafa2eaf7050488e450
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "103934454"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119024186"
 ---
 # <a name="wm_dsa_sheet_create_notify-message"></a>WM \_ DSA \_ 工作表 \_ 建立 \_ 通知訊息
 

@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 186740abe4299f59c5ed730fc0e88ecd06e90b1f
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 9e3bc92619eff35732c5978cf7fb3bd95344fefcc5f5e4ca6f2a2603252f6e85
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111625"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119700388"
 ---
 # <a name="setpowerstate-method-of-the-cim_physicalextent-class"></a>CIM PhysicalExtent 類別的 SetPowerState 方法 \_
 
@@ -46,7 +46,7 @@ uint32 SetPowerState(
 
 <dl> <dt>
 
-*>powerstate* \[在\]
+*>Powerstate* \[在\]
 </dt> <dd>
 
 指定此邏輯裝置所需電源狀態的 **ValueMap** 值。

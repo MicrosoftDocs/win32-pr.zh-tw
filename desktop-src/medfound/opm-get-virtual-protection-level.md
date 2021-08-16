@@ -4,12 +4,12 @@ ms.assetid: 635d54de-2735-4390-8bac-ba63b9503909
 title: 'OPM_GET_VIRTUAL_PROTECTION_LEVEL (Opmapi) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 5c7ac36abd0a043a74a18401205bbb5e661ac17d
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09fb4130b4ad700de2328114dbf900ff7d122045b277c8a5ae812332c730a5d6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985620"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118972917"
 ---
 # <a name="opm_get_virtual_protection_level"></a>OPM \_ 取得 \_ 虛擬 \_ 保護 \_ 層級
 
@@ -54,8 +54,8 @@ ms.locfileid: "106985620"
 
 | 需求 | 值 |
 |-------------------------------------|-------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                      |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                      |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                |
 | 標頭<br/>                   | <dl> <dt>Opmapi。h</dt> </dl> |
 
 

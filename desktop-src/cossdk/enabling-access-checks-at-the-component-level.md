@@ -4,12 +4,12 @@ ms.assetid: b9ff5296-9076-4492-833c-7402b7090f8f
 title: 在元件層級啟用存取檢查
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: e5da2de5f9d2f4f2d39f43330c8320c0bb0218bf
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3063873923d3d4c491312ca4efccd9bcd665b46bf1bdfc882b69dbe4942757f1
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106991630"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119047466"
 ---
 # <a name="enabling-access-checks-at-the-component-level"></a>在元件層級啟用存取檢查
 
@@ -27,12 +27,12 @@ ms.locfileid: "106991630"
 
 4.  選取 [ **強制執行元件層級存取檢查** ] 以強制執行元件層級的檢查。
 
-5.  按一下 [確定]  。
+5.  按一下 [確定]。
 
 新設定將會在應用程式下次啟動時生效。
 
 > [!Note]  
-> 從 Windows Server 2003，建立 COM + 應用程式時，預設會停用元件層級的存取檢查。 預設會在應用層級啟用存取檢查，並且在元件層級預設為停用。 先前，在應用層級依預設會停用存取檢查，而且在元件層級預設為啟用。
+> 從 Windows Server 2003 中，建立 com + 應用程式時，預設會停用元件層級的存取檢查。 預設會在應用層級啟用存取檢查，並且在元件層級預設為停用。 先前，在應用層級依預設會停用存取檢查，而且在元件層級預設為啟用。
 
  
 

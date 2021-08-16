@@ -10,12 +10,12 @@ keywords:
 - 元素、影片
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: dbd8ab6bd014d2968483120fd1dd98804905faa4
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f7b72df7472829fe9979c9f7a30558e340a69aeb2f7024641623ba6be1a46424
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103673603"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119054196"
 ---
 # <a name="video-element"></a>影片元素
 
@@ -39,7 +39,7 @@ ms.locfileid: "103673603"
 
 
 
- 
+ 
 
 **影片** 元素可以執行下列事件處理常式。
 
@@ -52,7 +52,7 @@ ms.locfileid: "103673603"
 
 
 
- 
+ 
 
 **VIDEO** 元素支援環境屬性，而且可以執行環境事件處理常式（除非有注明）。 如需詳細資訊，請參閱 [環境屬性](ambient-attributes.md) 和 [環境事件處理常式](ambient-event-handlers.md)。
 
@@ -66,7 +66,7 @@ ms.locfileid: "103673603"
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -75,9 +75,9 @@ ms.locfileid: "103673603"
 [**外觀程式設計參考**](skin-programming-reference.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

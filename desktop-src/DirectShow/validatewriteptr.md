@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - Wxdebug.h
-ms.openlocfilehash: e7c955f31cf9e0bf1050c52b680dfc9b32741bb2
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: f20739093692977b2560de465b916cac12aeb67e2dbf9a6b9488ef8cd61f544f
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995506"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119072122"
 ---
 # <a name="validatewriteptr-macro"></a>ValidateWritePtr 宏
 
@@ -45,7 +45,7 @@ void ValidateWritePtr(
 
 <dl> <dt>
 
-*P* 
+*p* 
 </dt> <dd>
 
 記憶體區塊的指標。
@@ -65,7 +65,7 @@ void ValidateWritePtr(
 
 ## <a name="remarks"></a>備註
 
-除非包含了 DirectShow 基類標頭檔，否則會忽略這個宏，除非已定義 DEBUG、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
+除非包含了 DirectShow 的基類標頭檔，否則會忽略這個宏，除非已定義 debug、 \_ debug 或 VFWROBUST。 此宏可能會有顯著的效能成本。
 
 ## <a name="requirements"></a>規格需求
 

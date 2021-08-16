@@ -13,12 +13,12 @@ api_type:
 - HeaderDef
 api_location:
 - D3DX10Async.h
-ms.openlocfilehash: e6222febd378b262d9fb9e87a6224968c2d04038
-ms.sourcegitcommit: 14010c34b35fa268046c7683f021f86de08ddd0a
+ms.openlocfilehash: e227ebf001e1af6beac21403d93201c758a63acf96aa5e1daa78b1c8fa506654
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/15/2021
-ms.locfileid: "106974875"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119128352"
 ---
 # <a name="d3dx10preprocessshaderfromfile-function"></a>D3DX10PreprocessShaderFromFile 函式
 

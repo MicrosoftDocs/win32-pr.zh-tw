@@ -3,7 +3,7 @@ title: 'TBM_CLEARTICS 訊息 (Commctrl .h) '
 description: 從跟蹤條中移除目前的刻度標記。 此訊息不會移除第一個和最後一個刻度，這些刻度會由 [並排顯示] 自動建立。
 ms.assetid: 2830497c-2cf0-4068-810c-c05d4e0abb8b
 keywords:
-- TBM_CLEARTICS message Windows 控制項
+- TBM_CLEARTICS 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7a1ecb4f9f931c976b2542a1f263fc069f1eca10
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 9390fc45c5b96a7b85d3b1b366e34d24c3b4bf0bc60ec066ead28357bcec1439
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104464777"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "120046768"
 ---
 # <a name="tbm_cleartics-message"></a>TBM \_ CLEARTICS 訊息
 
@@ -49,8 +49,8 @@ ms.locfileid: "104464777"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

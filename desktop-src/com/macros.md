@@ -4,12 +4,12 @@ ms.assetid: b9f8eb09-a8d9-42b4-8053-fa53701c9c5e
 description: '深入瞭解：宏 (COM) '
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 8e35ce0fac9a48281a07976cecaed07f30b2fc7e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 934caa40ef4f95ce10e45c6df465b138541517f87d4d921cd4aa15befc74d188
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106981129"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119854218"
 ---
 # <a name="macros-com"></a>宏 (COM) 
 

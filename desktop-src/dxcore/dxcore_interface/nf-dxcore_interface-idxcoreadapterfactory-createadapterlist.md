@@ -4,12 +4,12 @@ description: 產生介面卡物件的清單，表示系統目前的介面卡狀�
 ms.localizationpriority: low
 ms.topic: reference
 ms.date: 06/20/2019
-ms.openlocfilehash: 0a35d4dd9a481880d66988b6ade079534d1297c1
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 0d00cba3236bf63a1691473098b1f94438b790a93a75215e36690745ee7977fe
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104463460"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119842518"
 ---
 # <a name="idxcoreadapterfactorycreateadapterlist-method"></a>IDXCoreAdapterFactory：： CreateAdapterList 方法
 

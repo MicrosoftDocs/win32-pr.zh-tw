@@ -9,12 +9,12 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 7108dfc094f3183950dd94e5398263f4bf7cfd5c
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: be29e4a1bd6721b8f53dbe2394be3552ca4845143cf948f130ef55e11881b518
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "104300667"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119589238"
 ---
 # <a name="tracelogging-managed-quick-start"></a>TraceLogging 受控快速入門
 
@@ -115,13 +115,13 @@ namespace SimpleTraceLoggingExample
 
 ## <a name="summary-and-next-steps"></a>摘要和後續步驟
 
-如需有關如何使用 Windows 效能工具 (WPT) 的最新內部版本來捕捉和查看 TraceLogging 資料的詳細資訊，請參閱 [記錄和顯示 TraceLogging 事件](tracelogging-record-and-display-tracelogging-events.md) 。
+如需如何使用 Windows 效能工具 (WPT) 的最新內部版本來捕捉和查看 TraceLogging 資料的相關資訊，請參閱[記錄和顯示 TraceLogging 事件](tracelogging-record-and-display-tracelogging-events.md)。
 
 如需更多受控 TraceLogging 範例，請參閱 [.Net Tracelogging 範例](tracelogging-net-examples.md) 。
 
- 
+ 
 
- 
+ 
 
 
 

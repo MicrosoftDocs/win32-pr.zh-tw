@@ -6,12 +6,12 @@ keywords:
 - turbulence 效果
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 61f67f615ec5b68ca285a048b68bc7bc8eab6e24
-ms.sourcegitcommit: 37f276b5d887a3aad04b1ba86e390dea9d87e591
+ms.openlocfilehash: 2c4eb8f57f98c8e69591b7772d710d6deb7a78c801f3ca027175c55460c2d529
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/04/2021
-ms.locfileid: "104551134"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119824486"
 ---
 # <a name="turbulence-effect"></a>Turbulence 效果
 
@@ -139,8 +139,8 @@ Turbulence 效果會計算一或多個 Perlin 雜訊函數 octaves 的總和。 
 
 | 需求 | 值 |
 |--------------------------|------------------------------------------------------------------------------------|
-| 最低支援的用戶端 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
-| 最低支援的伺服器 | 適用于 Windows 7 desktop app 的 Windows 8 和平臺更新 \[ \| windows Store 應用程式\] |
+| 最低支援的用戶端 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
+| 最低支援的伺服器 | Windows 7 傳統型應用程式的 Windows 8 和平臺更新 \[ \| Windows 儲存應用程式\] |
 | 標頭                   | d2d1effects。h                                                                      |
 | 程式庫                  | d2d1 .lib，dxguid .lib                                                               |
 

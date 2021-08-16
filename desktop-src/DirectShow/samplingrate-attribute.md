@@ -4,12 +4,12 @@ ms.assetid: d053285c-bf94-465a-99d3-bed7c2d09b1a
 title: samplingrate 屬性
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: f2daa2751b0c41f5bf2eb030841dad638d8672a8
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: 91b62484e6f24acf50ccfabbb0785440aed1b966ce8f398deae6d999456a646e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "106972929"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118951987"
 ---
 # <a name="samplingrate-attribute"></a>samplingrate 屬性
 

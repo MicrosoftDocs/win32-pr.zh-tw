@@ -3,7 +3,7 @@ title: 'TB_HASACCELERATOR 訊息 (Commctrl .h) '
 description: 抓取具有指定快速鍵的工具列按鈕計數。
 ms.assetid: 41167815-fb64-4203-a32c-b2a88ce7bce1
 keywords:
-- TB_HASACCELERATOR message Windows 控制項
+- TB_HASACCELERATOR 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2544eae629876e4527ea4e47477b50ea59b796c8
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 420f06e71c6920c266c96d8b2580549fa0eaace2bd3abdd37524502d4039aa7b
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104465565"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119078282"
 ---
 # <a name="tb_hasaccelerator-message"></a>TB \_ HASACCELERATOR 訊息
 
@@ -63,8 +63,8 @@ ms.locfileid: "104465565"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

@@ -13,12 +13,12 @@ keywords:
 - Direct3D、Direct2D 互通性
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 991d94b4460e9130b3353be38d5f749511434eb6
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 951bebc9ea7ca63496a9cdc93fa33ddb74817661e7f5bc072b55d207bfcbdeb7
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "103682948"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119918234"
 ---
 # <a name="direct2d-and-gdi-interoperability-overview"></a>Direct2D 和 GDI 互通性總覽
 
@@ -26,7 +26,7 @@ ms.locfileid: "103682948"
 
 本主題包含下列各節。
 
--   [先決條件](#prerequisites)
+-   [必要條件](#prerequisites)
 -   [將 Direct2D 內容繪製至 GDI 裝置內容](#draw-direct2d-content-to-a-gdi-device-context)
 -   [Windows 的 ID2D1DCRenderTargets、GDI 轉換和由右至左語言組建](#id2d1dcrendertargets-gdi-transforms-and-right-to-left-language-builds-of-windows)
 -   [將 GDI 內容繪製至 Direct2D GDI-Compatible 呈現目標](#draw-gdi-content-to-a-direct2d-gdi-compatible-render-target)
@@ -246,7 +246,7 @@ GDI 可能會透過 [**SetWorldTransform**](/windows/desktop/api/wingdi/nf-wingd
 
 例如，假設您使用呈現目標來繪製包含反鋸齒幾何和文字的場景。 如果您使用 GDI 轉換將刻度轉換套用至 DC，並調整場景的大小，使其大於10倍，您將會看到 pixelization 和鋸齒狀邊緣。  (如果您使用 Direct2D 來套用類似的轉換，場景的視覺品質將不會降級。 ) 
 
-在某些情況下，GDI 可能無法明顯地執行可能會降低 Direct2D 內容品質的額外處理。 例如，從右至左 (RTL) 的視窗組建， [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget) 轉譯的內容可能會在 GDI 複製到其目的地時以水準方式反轉。 內容是否真的反轉，取決於 DC 目前的設定。
+在某些情況下，GDI 可能無法明顯地執行可能會降低 Direct2D 內容品質的額外處理。 例如，從右至左 (RTL) 的 Windows 組建， [**ID2D1DCRenderTarget**](/windows/win32/api/d2d1/nn-d2d1-id2d1dcrendertarget)轉譯的內容可能會在 GDI 複製到其目的地時水準反轉。 內容是否真的反轉，取決於 DC 目前的設定。
 
 視轉譯的內容類型而定，您可能會想要避免反轉。 如果 Direct2D 內容包含 ClearType 文字，此反轉將會降低文字品質。
 
@@ -373,6 +373,6 @@ SetLayout(m_hwnd, LAYOUT_BITMAPORIENTATIONPRESERVED);
 [GDI SDK](/windows/desktop/gdi/windows-gdi)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

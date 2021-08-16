@@ -25,12 +25,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: 11caba5a289000972f73a643e9c432659fd23414
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 18649e660079c3e5a8bd4501eb249846c4bebad0b69899871e3969bb487512f3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104191669"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118982648"
 ---
 # <a name="columnstreamlength-property"></a>ColumnStream. Length 屬性
 

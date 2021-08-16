@@ -1,23 +1,23 @@
 ---
-description: 本主題說明用來連接 DirectShow 篩選器的一些協助程式函式。
+description: 本主題說明用來連接 DirectShow 篩選準則的一些 helper 函數。
 ms.assetid: cfd85944-7ae7-49e6-948f-9e190cdeed12
-title: 連接兩個篩選器
+title: 連線兩個篩選
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a7e70e607c510490e7ed841ea44303153a94e83f
-ms.sourcegitcommit: a47bd86f517de76374e4fff33cfeb613eb259a7e
+ms.openlocfilehash: ab83e8608c088fde6d06c0a44621f1c066f177ecf76cbc8ba3f55d31218b49ab
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "104109413"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118954207"
 ---
-# <a name="connect-two-filters"></a>連接兩個篩選器
+# <a name="connect-two-filters"></a>連線兩個篩選
 
-本主題說明用來連接 DirectShow 篩選器的一些協助程式函式。
+本主題說明用來連接 DirectShow 篩選準則的一些 helper 函數。
 
 若要連接兩個篩選器，您必須在上游篩選器上找到未連接的輸出 pin，以及下游篩選器上未連接的輸入 pin。
 
-如果您已經有兩個釘選的指標，請呼叫 [**IGraphBuilder：： connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) 方法來連接它們。 如果 pin 無法直接連接到彼此， **IGraphBuilder：： connect** 方法可能會插入其他篩選器，以完成連線。 如需詳細資訊，請參閱 [智慧型 Connect](intelligent-connect.md)。
+如果您已經有兩個釘選的指標，請呼叫 [**IGraphBuilder：：連線**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)方法來連接它們。 如果 pin 無法直接連接到彼此， **IGraphBuilder：：連線** 方法可能會插入其他篩選器來完成連接。 如需詳細資訊，請參閱[智慧型連線](intelligent-connect.md)。
 
 如果您有指向篩選準則的指標，而不是釘選，您必須使用 [**IBaseFilter：： EnumPins**](/windows/desktop/api/Strmif/nf-strmif-ibasefilter-enumpins) 方法來尋找釘選。  (參閱 [列舉釘](enumerating-pins.md)選。 ) 本主題中的 helper 函式會示範這項技巧。
 
@@ -53,7 +53,7 @@ HRESULT ConnectFilters(
 此函式會執行下列工作：
 
 1.  呼叫函 `FindUnconnectedPin` 式以取得未連接的輸入 pin。 此函式會顯示在 [篩選器的 [尋找未](find-an-unconnected-pin-on-a-filter.md)連接的 Pin] 主題中。
-2.  呼叫 [**IGraphBuilder：： connect**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect) 來連接兩個圖釘。
+2.  呼叫 [**IGraphBuilder：：連線**](/windows/desktop/api/Strmif/nf-strmif-igraphbuilder-connect)來連接兩個圖釘。
 
 ### <a name="filter-to-input-pin"></a>篩選至輸入釘選
 

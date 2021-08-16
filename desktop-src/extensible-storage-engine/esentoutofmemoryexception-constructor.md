@@ -24,12 +24,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: d5b047ce116ce40ef7c3d9becbffe8962e796eae
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 8c7c4b0d080f335bcb0606ec3bce81460ce542a84ce39a928eaa02c4a25dc1f9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106981032"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119619888"
 ---
 # <a name="esentoutofmemoryexception-constructor"></a>EsentOutOfMemoryException 函式
 

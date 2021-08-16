@@ -4,12 +4,12 @@ ms.assetid: fd75eb54-eefe-411f-a7aa-0bc8628f8778
 title: 用戶端模擬和委派
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 7557dcde4cadf559dd8e116cf4e7bece4221aaae
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 3f8b0262f3d8dd6736d183fa76eb5d3f0946d50b2724e76bcea73843644aaefb
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106973394"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119129370"
 ---
 # <a name="client-impersonation-and-delegation"></a>用戶端模擬和委派
 

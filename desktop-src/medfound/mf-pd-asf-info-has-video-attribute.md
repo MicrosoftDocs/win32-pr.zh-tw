@@ -4,12 +4,12 @@ ms.assetid: 98411c75-519f-4ace-999f-1ea22457ed4a
 title: 'MF_PD_ASF_INFO_HAS_VIDEO 屬性 (Wmcontainer) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 6c1a11f672ec4063d14131946ef4e1a820cc3ee7
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 46b5012a7fc20628cf8b50a4fc72242c02779623beb8126525a51501f51e412a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106995854"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117876269"
 ---
 # <a name="mf_pd_asf_info_has_video-attribute"></a>MF \_ PD \_ ASF \_ 資訊 \_ 有 \_ 影片屬性
 
@@ -33,8 +33,8 @@ ms.locfileid: "106995854"
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                           |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                     |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                           |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                     |
 | 標頭<br/>                   | <dl> <dt>Wmcontainer。h</dt> </dl> |
 
 

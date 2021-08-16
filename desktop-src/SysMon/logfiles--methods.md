@@ -9,23 +9,23 @@ topic_type:
 api_name: ''
 api_type: ''
 api_location: ''
-ms.openlocfilehash: 5d9eea11af9b302dc6efb0db3121af2aaa9c031e
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: f929d96a9b6ebd9f3569989b5e94a382729f315387c96477a2c375cd4be7bb8c
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932241"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118883136"
 ---
 # <a name="logfiles-methods"></a>記錄檔方法
 
 記錄 [**檔類別具有**](logfiles.md) 下列方法：
 
--   [**加入**](systemmonitor-logfiles-add.md)
+-   [**加**](systemmonitor-logfiles-add.md)
 -   [**移除**](systemmonitor-logfiles-remove.md)
 
- 
+ 
 
- 
+ 
 
 
 

@@ -4,12 +4,12 @@ ms.assetid: 10BE79D8-A99B-469F-BB91-C31571E80D5C
 title: IX509Enrollment 方法
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 7c3bb4c9765fac756d968caeec36c1e6502211b8
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: a87cd525233a97ad4bef33ed2d54672ddac73cfc11c008305cb045db1fb129e6
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106994547"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119881718"
 ---
 # <a name="ix509enrollment-methods"></a>IX509Enrollment 方法
 
