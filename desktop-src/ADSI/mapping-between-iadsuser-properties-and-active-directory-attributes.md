@@ -8,12 +8,12 @@ keywords:
 - LDAP 提供者 ADSI、user 物件、IADsUser 屬性與 Active Directory 屬性之間的對應
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 17b817a8c56e2c74c846e1343e0ed7803427f4a2
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 8e659c6325457b2654ad5cfeef964975949150232c4ae3376fac640c51c41aa8
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104382858"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117839478"
 ---
 # <a name="mapping-between-iadsuser-properties-and-active-directory-attributes"></a>IADsUser 屬性與 Active Directory 屬性之間的對應
 
@@ -32,10 +32,10 @@ ms.locfileid: "104382858"
 | [**部門**](iadsuser-property-methods.md)             | [**department**](/windows/desktop/ADSchema/a-department)                                                                     |
 | [**描述**](iadsuser-property-methods.md)            | [**描述**](/windows/desktop/ADSchema/a-description)                                                                   |
 | [**部門**](iadsuser-property-methods.md)               | [**劃分**](/windows/desktop/ADSchema/a-division)                                                                         |
-| [**EmailAddress**](iadsuser-property-methods.md)           | [**郵件**](/windows/desktop/ADSchema/a-mail)                                                                                 |
+| [**EmailAddress**](iadsuser-property-methods.md)           | [**mail**](/windows/desktop/ADSchema/a-mail)                                                                                 |
 | [**EmployeeID**](iadsuser-property-methods.md)             | [**employeeID**](/windows/desktop/ADSchema/a-employeeid)                                                                     |
 | [**FaxNumber**](iadsuser-property-methods.md)              | [**facsimileTelephoneNumber**](/windows/desktop/ADSchema/a-facsimiletelephonenumber)                                         |
-| [**名字**](iadsuser-property-methods.md)              | [**givenName**](/windows/desktop/ADSchema/a-givenname)                                                                       |
+| [**FirstName**](iadsuser-property-methods.md)              | [**givenName**](/windows/desktop/ADSchema/a-givenname)                                                                       |
 | [**FullName**](iadsuser-property-methods.md)               | [**displayName**](/windows/desktop/ADSchema/a-displayname)                                                                   |
 | [**GraceLoginsAllowed**](iadsuser-property-methods.md)     | 不支援。                                                                                              |
 | [**GraceLoginsRemaining**](iadsuser-property-methods.md)   | 不支援。                                                                                              |
@@ -46,11 +46,11 @@ ms.locfileid: "104382858"
 | [**LastFailedLogin**](iadsuser-property-methods.md)        | [**badPasswordTime**](/windows/desktop/ADSchema/a-badpasswordtime)                                                           |
 | [**LastLogin**](iadsuser-property-methods.md)              | [**lastLogon**](/windows/desktop/ADSchema/a-lastlogon)                                                                       |
 | [**LastLogoff**](iadsuser-property-methods.md)             | [**lastLogoff**](/windows/desktop/ADSchema/a-lastlogoff)                                                                     |
-| [**姓氏**](iadsuser-property-methods.md)               | [**sn**](/windows/desktop/ADSchema/a-sn)                                                                                     |
+| [**LastName**](iadsuser-property-methods.md)               | [**錫**](/windows/desktop/ADSchema/a-sn)                                                                                     |
 | [**LoginHours**](iadsuser-property-methods.md)             | [**logonHours**](/windows/desktop/ADSchema/a-logonhours)                                                                     |
 | [**LoginScript**](iadsuser-property-methods.md)            | [**scriptPath**](/windows/desktop/ADSchema/a-scriptpath)                                                                     |
 | [**LoginWorkstations**](iadsuser-property-methods.md)      | [**userWorkstations**](/windows/desktop/ADSchema/a-userworkstations)                                                         |
-| [**經理**](iadsuser-property-methods.md)                | [**manager**](/windows/desktop/ADSchema/a-manager)                                                                           |
+| [**Manager**](iadsuser-property-methods.md)                | [**經理**](/windows/desktop/ADSchema/a-manager)                                                                           |
 | [**MaxLogins**](iadsuser-property-methods.md)              | 不支援。                                                                                              |
 | [**MaxStorage**](iadsuser-property-methods.md)             | [**maxStorage**](/windows/desktop/ADSchema/a-maxstorage)                                                                     |
 | [**NamePrefix**](iadsuser-property-methods.md)             | [**personalTitle**](/windows/desktop/ADSchema/a-personaltitle)                                                               |
@@ -75,8 +75,8 @@ ms.locfileid: "104382858"
 
 
 
- 
+ 
 
- 
+ 
 
- 
+ 

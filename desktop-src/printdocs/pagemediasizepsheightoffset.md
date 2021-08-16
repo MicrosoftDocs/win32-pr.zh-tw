@@ -4,18 +4,18 @@ ms.assetid: e86d6a5d-484d-4c80-8c86-7d12d287ee21
 title: PageMediaSizePSHeightOffset
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: b5e2c0e3802a6c461fe2f9eec68b28677c254be9
-ms.sourcegitcommit: 91530c19d26ba4c57a6af1f37b57f211f580464e
+ms.openlocfilehash: a904b8e1d1ef9f917dae96d863563eff2b5bc8e6dd7b43a0e1d24783eb87077e
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112395733"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118471041"
 ---
 # <a name="pagemediasizepsheightoffset"></a>PageMediaSizePSHeightOffset
 
 本主題並非最新的。 如需最新資訊，請參閱 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)。
 
-指定位移，與饋送方向方向 (參考 [PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。
+指定相對於饋送方向方向的位移 (參考[PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)) 。
 
 -   [項目資訊](#element-information)
 -   [結構內容](#structure-content)
@@ -89,7 +89,7 @@ ms.locfileid: "112395733"
 
 <dl> <dt>
 
-[PostScript 印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
+[PostScript印表機描述檔案格式規格](https://www.adobe.com/products/postscript/pdfs/PLRM.pdf)
 </dt> <dt>
 
 [列印架構規格](https://download.microsoft.com/download/D/E/C/DECA6E6B-3E81-48E7-B7EF-6D92A547D03C/print-schema-spec-2-0.zip)

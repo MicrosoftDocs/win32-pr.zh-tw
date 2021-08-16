@@ -4,17 +4,17 @@ description: 本主題將示範如何建立和初始化建立簡單撰寫所需�
 ms.assetid: F2BF9CE2-05EF-4345-A00E-F5C8A8660B24
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3f8d248c3036bd0c901ee318ae0274809dafdf20
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: 58c915bded416d7359c32558a00feaa1d058c02f28882b73caa5dc010d8bb5b5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104093064"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118505149"
 ---
 # <a name="how-to-initialize-directcomposition"></a>如何初始化 DirectComposition
 
 > [!NOTE]
-> 針對 Windows 10 上的應用程式，我們建議使用 DirectComposition，而不是使用。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
+> 針對 Windows 10 上的應用程式，我們建議使用 Windows 的撰寫 api，而不是 DirectComposition。 如需詳細資訊，請參閱 [使用視覺分層將您的桌面應用程式現代化](/windows/uwp/composition/visual-layer-in-desktop-apps)。
 
 本主題將示範如何建立和初始化建立簡單撰寫所需的最小一組 Microsoft DirectComposition 物件。
 
@@ -988,6 +988,6 @@ HRESULT DemoApp::MyCreateGDIRenderedDCompSurface(HBITMAP hBitmap,
 [**SafeRelease**](/windows/desktop/medfound/saferelease)
 </dt> </dl>
 
- 
+ 
 
- 
+ 

@@ -26,12 +26,12 @@ api_type:
 api_location:
 - Microsoft.Isam.Esent.Interop.dll
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: e9e8b7bd9c148ffce5bc92d6908aa6b5bf4f7f66
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: cdac3c7196ed2931aa49e3c91ea3bc01d8014bdc58145f65965546e9f2a73177
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106974095"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118486862"
 ---
 # <a name="jet_conditionalcolumnszcolumnname-property"></a>JET_CONDITIONALCOLUMN szColumnName 屬性
 

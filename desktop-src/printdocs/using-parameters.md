@@ -4,12 +4,12 @@ ms.assetid: 4a596604-8a0d-4971-96f3-643727312cfc
 title: 使用參數
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 6417a6d30716cf19d22773c28dbf471e75f967d6
-ms.sourcegitcommit: b32433cc0394159c7263809ae67615ab5792d40d
+ms.openlocfilehash: 9dc19b6c2b6deb269c0d3a34140bc0e9816febc86d33adfdb6ed0c91fe38f666
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "113119393"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118469323"
 ---
 # <a name="using-parameters"></a>使用參數
 

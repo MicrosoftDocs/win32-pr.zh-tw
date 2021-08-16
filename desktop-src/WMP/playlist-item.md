@@ -16,12 +16,12 @@ api_type:
 - COM
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 79c69386871aeec33dbc36a066ce3f75e80d7514
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 72987feb8438edc50c28bb6349b44c4f43736549c92a293794a6bc728ed7853a
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106995476"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119862228"
 ---
 # <a name="playlistitem-method"></a>播放清單. item 方法
 
@@ -59,7 +59,7 @@ retVal = Playlist.item(
 
 ## <a name="examples"></a>範例
 
-下列 JScript 範例會使用 *播放清單*。用來根據使用者選取專案從目前播放清單取出媒體專案的 **專案** 。 使用名稱 "weblist" 建立的 HTML SELECT 元素，並填入目前播放清單中的標題。 使用 ID = "Player" 建立 **player** 物件。
+下列 JScript 範例會使用 *播放清單*。用來根據使用者選取專案從目前播放清單取出媒體專案的 **專案**。 使用名稱 "weblist" 建立的 HTML SELECT 元素，並填入目前播放清單中的標題。 使用 ID = "Player" 建立 **player** 物件。
 
 
 ```JScript

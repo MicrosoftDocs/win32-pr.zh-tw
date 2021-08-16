@@ -26,7 +26,7 @@ ms.locfileid: "118396522"
 -   [UAC 與舊版遊戲的相容性](#uac-compatibility-with-older-games)
 -   [舊版案例和資訊清單](#legacy-scenarios-and-manifests)
 -   [結論](#conclusion)
--   [進一步閱讀](#further-reading)
+-   [深入閱讀](#further-reading)
 
 ## <a name="overview-of-user-account-control"></a>使用者帳戶控制的總覽
 

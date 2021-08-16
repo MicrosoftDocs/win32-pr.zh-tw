@@ -47,7 +47,7 @@ HRESULT Suspend();
 
 
 
-| 傳回碼                                                                                          | 描述                                                                                          |
+| 傳回碼                                                                                          | Description                                                                                          |
 |------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
 | <dl> <dt>S_OK * * * *</dt> </dl>             | 已成功暫止作業。<br/>                                                           |
 | <dl> <dt>**DO_E_INVALID_STATE**</dt> </dl> | 無法 BG_JOB_STATE_CANCELLED 或 BG_JOB_STATE_ACKNOWLEDGED 作業的狀態。<br/> |
@@ -65,7 +65,7 @@ HRESULT Suspend();
 | 最低支援的用戶端<br/> | Windows 10， \[ 僅限1709版桌面應用程式\]<br/>                                           |
 | 最低支援的伺服器<br/> | WindowsServer， \[ 僅限1709版桌面應用程式\]<br/>                                       |
 | 標頭<br/>                   | <dl> <dt>>Deliveryoptimization。h</dt> </dl>   |
-| Idl<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
+| IDL<br/>                      | <dl> <dt>>deliveryoptimization .idl</dt> </dl> |
 | 程式庫<br/>                  | <dl> <dt>Dosvc .lib</dt> </dl>                |
 | DLL<br/>                      | <dl> <dt>Dosvc.dll</dt> </dl>                |
 | IID<br/>                      | IID_IBackgroundCopyJob 定義為37668D37-507E-4160-9316-26306D150B12<br/>               |

@@ -12,12 +12,12 @@ api_type:
 - NA
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: b7142bfd8d1d5d65d1f669a328c75a2c8cdfb036
-ms.sourcegitcommit: 73417d55867c804274a55abe5ca71bcba7006119
+ms.openlocfilehash: 289f2cfc2ca9f1e879e0aa592af28d86ae433f6e06d007aa71e00581baba2af5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "104093491"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117835411"
 ---
 # <a name="ack-for-close-session"></a>Close-Session 的 Ack
 
@@ -99,9 +99,9 @@ BITS-Error-Context: error-context
 [**關閉會話**](close-session.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

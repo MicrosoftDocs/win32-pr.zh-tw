@@ -4,16 +4,16 @@ description: IAgentCharacterEx GetGUID
 ms.assetid: 25fb2531-a81c-4add-8134-77b1cd57cfe3
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 1c9e0e14d0931774bf6ab5e1c8599bbebaadd0ed
-ms.sourcegitcommit: 2d531328b6ed82d4ad971a45a5131b430c5866f7
+ms.openlocfilehash: 1e43a98617b1e2d25a25167ad5b95462eeb462f40f5a353b5a5ec45ffb3a9cca
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "103932417"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118477966"
 ---
 # <a name="iagentcharacterexgetguid"></a>IAgentCharacterEx：： GetGUID
 
-\[Microsoft Agent 已于 Windows 7 淘汰，在後續的 Windows 版本中可能無法使用。\]
+\[Microsoft Agent 已于 Windows 7 淘汰，在後續版本的 Windows 中可能無法使用。\]
 
 ``` syntax
 HRESULT GetGUID(
@@ -36,9 +36,9 @@ HRESULT GetGUID(
 
 屬性會傳回 GUID 的字串表示， (以大括弧和連字號) 格式化，以供伺服器用來唯一識別該字元。 使用 Microsoft 代理程式字元編輯器來編譯時，會設定字元識別碼。 此為唯讀屬性。
 
- 
+ 
 
- 
+ 
 
 
 

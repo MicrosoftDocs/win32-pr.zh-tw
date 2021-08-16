@@ -110,7 +110,7 @@ ms.locfileid: "118479889"
 | String       | 目的                                                                            | 初始化                                                                           | InitializeEx                                                                                     |
 |--------------|------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
 | 顯示名稱 | 處理常式的名稱會顯示在 [磁片清理管理員] 清單方塊中。               | 如果 *ppwszDisplayName* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDisplayName* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
-| 描述  | 選取處理常式的名稱時，顯示于清單方塊下方的描述性文字。 | 如果 *ppwszDescription* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDescription* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
+| Description  | 選取處理常式的名稱時，顯示于清單方塊下方的描述性文字。 | 如果 *ppwszDescription* 為 **Null**，則會從登錄取出預設值。 | 您必須在 *ppwszDescription* 中指定正確的當地語系化字串，而不會使用任何登錄值。 |
 | 按鈕文字  | 選擇性按鈕的文字，可讓使用者顯示處理常式的 UI。        | 沒有任何可用的參數。 必須在登錄中指定。                           | 您必須在 *ppwszBtnText* 中指定正確的當地語系化字串，而不會使用任何登錄值。     |
 
 
@@ -262,7 +262,7 @@ HKEY_LOCAL_MACHINE
 該案例的結果是磁片清理處理常式會搜尋 c:\documents and 和設定 \ 使用者<em>名稱</em>\My Music\Jazz\Singers 資料夾。 請注意，如果資料夾值前面沒有斜線，則會加以新增。<br/></td>
 </tr>
 <tr class="odd">
-<td>描述</td>
+<td>Description</td>
 <td>REG_SZ</td>
 <td>選取處理常式的名稱時，顯示在 [磁片清理管理員] 清單方塊下方的描述性文字。 您可以在這裡說明處理常式的功能、其關注的檔案，以及 elucidatory 給使用者的任何其他資訊。 如果<a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache2-initializeex"><strong>IEmptyVolumeCache2：： InitializeEx</strong></a>不是由處理常式公開，則在呼叫方法時，可以在<em>ppwszDescription</em>參數中指定替代字串，藉此覆寫此文字。 <a href="/windows/desktop/api/Emptyvc/nf-emptyvc-iemptyvolumecache-initialize"><strong></strong></a></td>
 </tr>

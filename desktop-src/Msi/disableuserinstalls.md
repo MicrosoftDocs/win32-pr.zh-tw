@@ -4,12 +4,12 @@ ms.assetid: 3afa1d89-b76b-4184-b0d7-25cbf6749c7f
 title: DisableUserInstalls
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: a5ee8275567c62fc383c0488d6ad3ef8dfc928f0
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 171c003dbe739c890bf15e5c372e40840fee0aabc9159a837c0b5572a8741b76
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104112276"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118378511"
 ---
 # <a name="disableuserinstalls"></a>DisableUserInstalls
 
@@ -21,7 +21,7 @@ ms.locfileid: "104112276"
 
 ## <a name="registry-key"></a>登錄金鑰
 
-**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **Installer**
+**HKEY \_本機 \_ 電腦** \\ **軟體** \\ **原則** \\ **Microsoft** \\ **Windows** \\ **安裝程式**
 
 ## <a name="data-type"></a>資料類型
 

@@ -28,7 +28,7 @@ ms.locfileid: "118329812"
 
 
 
-## <a name="description"></a>Description
+## <a name="description"></a>描述
 
 Intel<sup>？</sup> Advanced Vector Extensions (AVX) <sup>？</sup> 是 Intel 架構的256位 SIMD 浮點數向量延伸。 它包含指令和註冊集合的延伸。
 

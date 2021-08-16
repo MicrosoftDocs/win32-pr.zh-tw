@@ -14,12 +14,12 @@ api_type:
 api_location:
 - d3dx9.lib
 - d3dx9.dll
-ms.openlocfilehash: 1dcaa90380ec703b4b56458906ab8bd965d7568c
-ms.sourcegitcommit: 95685061d5b0333bbf9e6ebd208dde8190f97005
+ms.openlocfilehash: 07c0604a8d083fe66d580c2d1536408ac276f921d4c0ab9879b6e2a8415852c0
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "108093946"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119407878"
 ---
 # <a name="d3dxquaternionsquadsetup-function-d3dx9mathh"></a>D3DXQuaternionSquadSetup 函式 (D3dx9math) 
 

@@ -4,12 +4,12 @@ ms.assetid: 66aa839f-6280-4788-8e48-947e4d27ffbd
 title: 'BoundingFrustum. TopSlope (DirectXCollision .h) '
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: c4c334de36d26fe81397cd8f8510036c75dcdc8b
-ms.sourcegitcommit: c8ec1ded1ffffc364d3c4f560bb2171da0dc5040
+ms.openlocfilehash: 66a8007ebe3980a9536a538d2ba2796d670e03882d4458e585034334932e23b9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/22/2021
-ms.locfileid: "106977441"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118502249"
 ---
 # <a name="boundingfrustumtopslope"></a>BoundingFrustum.TopSlope
 
@@ -27,7 +27,7 @@ public:
 
 ### <a name="platform-requirements"></a>平台需求
 
-Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 Win32 桌面應用程式、Windows Store 應用程式和 Windows Phone 8 應用程式均可支援。
+Microsoft Visual Studio 2010 或 Microsoft Visual Studio 2012 搭配 Windows 8 的 Windows SDK。 支援 Win32 傳統型應用程式、Windows 儲存應用程式，以及 Windows Phone 8 個應用程式。
 
 ## <a name="requirements"></a>規格需求
 

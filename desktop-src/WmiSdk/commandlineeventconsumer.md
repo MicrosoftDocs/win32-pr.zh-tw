@@ -42,19 +42,19 @@ api_type:
 - DllExport
 api_location:
 - Wbemcons.dll
-ms.openlocfilehash: 1784ba116417f6ed94aed2249a797cf8de4b3527
-ms.sourcegitcommit: 0e611cdff84ff9f897c59e4e1d2b2d134bc4e133
+ms.openlocfilehash: dce5100ba83a04ef2f6252421ec49068e84730141830e7b01f177c81bbac21b3
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/02/2021
-ms.locfileid: "106976308"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118319587"
 ---
 # <a name="commandlineeventconsumer-class"></a>CommandLineEventConsumer 類別
 
 當事件傳遞給它時， **CommandLineEventConsumer** 類別會在本機系統中啟動任意進程。 此類別是 WMI 提供的其中一個標準事件取用者。 如需詳細資訊，請參閱 [使用標準取用者監視及回應事件](monitoring-and-responding-to-events-with-standard-consumers.md)。
 
 > [!Note]  
-> 使用 **CommandLineEventConsumer** 類別時，請保護您想要啟動的可執行檔。 如果可執行檔不在安全的位置，或使用強式存取控制清單來保護 (ACL) ，未經授權的使用者就可以使用惡意可執行檔來取代您的可執行檔。 如需 Acl 的詳細資訊，請造訪 Microsoft Windows 軟體開發套件 (SDK) 的安全性一節，並參閱 [建立新物件的安全描述項](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--)。
+> 使用 **CommandLineEventConsumer** 類別時，請保護您想要啟動的可執行檔。 如果可執行檔不在安全的位置，或使用強式存取控制清單來保護 (ACL) ，未經授權的使用者就可以使用惡意可執行檔來取代您的可執行檔。 如需 acl 的詳細資訊，請造訪 Microsoft Windows 軟體開發套件 (SDK) 的安全性一節，並參閱[建立新物件的安全描述項](/windows/desktop/SecAuthZ/creating-a-security-descriptor-for-a-new-object-in-c--)。
 
  
 
@@ -155,7 +155,7 @@ class CommandLineEventConsumer : __EventConsumer
 存取類型：唯讀
 </dt> </dl>
 
-若 **為 True**，新的進程會在 (VDM) 的私人虛擬 DOS 機器上執行。 這只有在啟動在16位 Windows 作業系統上執行的應用程式時才有效。 如果設定為 **False**，在16位 Windows 作業系統上執行的所有應用程式都會在單一共用的 VDM 中以執行緒的形式執行。 如需詳細資訊，請參閱本主題的「備註」一節。
+若 **為 True**，新的進程會在 (VDM) 的私人虛擬 DOS 機器上執行。 只有在啟動在16位 Windows 作業系統上執行的應用程式時，這才有效。 如果設定為 **False**，在16位 Windows 作業系統上執行的所有應用程式都會在單一共用的 VDM 中以執行緒的形式執行。 如需詳細資訊，請參閱本主題的「備註」一節。
 
 </dd> <dt>
 
@@ -168,7 +168,7 @@ class CommandLineEventConsumer : __EventConsumer
 存取類型：唯讀
 </dt> </dl>
 
-若 **為 True**， [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 方法會在共用虛擬 DOS 機器 (VDM) 中執行新的進程。 如果設定為 **True**，此屬性可以覆寫 Win.ini 的 Windows 區段中的 DefaultSeparateVDM 參數。 如需詳細資訊，請參閱本主題的「備註」一節。
+若 **為 True**， [**CreateProcess**](/windows/desktop/api/processthreadsapi/nf-processthreadsapi-createprocessa) 方法會在共用虛擬 DOS 機器 (VDM) 中執行新的進程。 如果設定為 **True**，此屬性可以覆寫 Win.ini Windows 區段中的 DefaultSeparateVDM 參數。 如需詳細資訊，請參閱本主題的「備註」一節。
 
 </dd> <dt>
 
@@ -461,7 +461,7 @@ Windows Management Instrumentation (WMI) 傳送事件的電腦名稱稱。
 
 若 **為 True**，則會在互動式 WinStation 中啟動進程。 如果 **為 False**，則會在預設服務 WinStation 中啟動進程。 這個屬性會覆寫 **DesktopName** 屬性。 這個屬性只會在本機使用，而且只有在互動式使用者是設定取用者的相同使用者時才會使用。
 
-從 Windows Vista 開始，執行 **CommandLineEventConsumer** 實例的進程會在 **LocalSystem** 帳戶下啟動，而且會在會話0中。 在會話0中執行的服務無法與使用者會話互動。
+從 Windows Vista 開始，執行 **CommandLineEventConsumer** 實例的進程會在 **LocalSystem** 帳戶下啟動，而且會在會話0中啟動。 在會話0中執行的服務無法與使用者會話互動。
 
 </dd> <dt>
 

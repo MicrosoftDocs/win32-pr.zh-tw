@@ -4,12 +4,12 @@ description: 啟動其他區塊。
 ms.assetid: CFF25E78-D986-4EC5-B542-B3396EFF88E1
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: 2e283a2621c916ac254daab9f055be0ffe1ba67d
-ms.sourcegitcommit: fe03c5d92ca6a0d66a114b2303e99c0a19241ffb
+ms.openlocfilehash: 36f676a1a14f23923e8cebe44a0539a8ba5f382c010fc87a292e77afe1470c57
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "104971601"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118512158"
 ---
 # <a name="else-sm4---asm"></a>否則 (sm4-asm) 
 
@@ -22,7 +22,7 @@ ms.locfileid: "104971601"
 
 
 
- 
+ 
 
 ## <a name="remarks"></a>備註
 
@@ -48,7 +48,7 @@ Token 格式會在著色器中包含對應的 [endif](endif--sm4---asm-.md) 指�
 
 
 
- 
+ 
 
 ## <a name="minimum-shader-model"></a>最小著色器模型
 
@@ -61,13 +61,13 @@ Token 格式會在著色器中包含對應的 [endif](endif--sm4---asm-.md) 指�
 | [著色器模型5](d3d11-graphics-reference-sm5.md)        | 是       |
 | [著色器模型4。1](dx-graphics-hlsl-sm4.md)              | 是       |
 | [著色器模型4](dx-graphics-hlsl-sm4.md)                | 是       |
-| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 不可以        |
-| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 不可以        |
-| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 不可以        |
+| [著色器模型 3 (DirectX HLSL) ](dx-graphics-hlsl-sm3.md) | 否        |
+| [著色器模型 2 (DirectX HLSL) ](dx-graphics-hlsl-sm2.md) | 否        |
+| [著色器模型 1 (DirectX HLSL) ](dx-graphics-hlsl-sm1.md) | 否        |
 
 
 
- 
+ 
 
 ## <a name="related-topics"></a>相關主題
 
@@ -76,9 +76,9 @@ Token 格式會在著色器中包含對應的 [endif](endif--sm4---asm-.md) 指�
 [著色器模型4元件 (DirectX HLSL) ](dx-graphics-hlsl-sm4-asm.md)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

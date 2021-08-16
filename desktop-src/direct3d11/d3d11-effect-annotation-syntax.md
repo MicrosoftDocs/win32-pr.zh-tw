@@ -28,7 +28,7 @@ ms.locfileid: "118538562"
 
 
 
-| Item                                                                                                   | 描述                                                                                                                                                                      |
+| 項目                                                                                                   | 描述                                                                                                                                                                      |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span id="DataType"></span><span id="datatype"></span><span id="DATATYPE"></span>*資料類型*<br/> | \[在 \] 資料類型中，包含任何純量 [HLSL](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar) 類型以及 [字串類型](/windows/desktop/direct3dhlsl/dx-graphics-hlsl-scalar)。<br/> |
 | <span id="Name"></span><span id="name"></span><span id="NAME"></span>*名字*<br/>                 | \[\]表示批註名稱的 ASCII 字串。<br/>                                                                                                          |

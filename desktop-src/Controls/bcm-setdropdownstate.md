@@ -3,7 +3,7 @@ title: 'BCM_SETDROPDOWNSTATE 訊息 (Commctrl .h) '
 description: 設定具有樣式 TBSTYLE 下拉式清單之按鈕的下拉式狀態 \_ 。 明確地傳送此訊息，或使用按鈕 \_ SetDropDownState 宏。
 ms.assetid: 725deff4-0bcb-497d-a6cf-e9c98b05f16e
 keywords:
-- BCM_SETDROPDOWNSTATE message Windows 控制項
+- BCM_SETDROPDOWNSTATE 訊息 Windows 控制項
 topic_type:
 - apiref
 api_name:
@@ -14,12 +14,12 @@ api_type:
 - HeaderDef
 ms.topic: reference
 ms.date: 05/31/2018
-ms.openlocfilehash: fc44ec58d40e047708591121f81c84f327ca47c1
-ms.sourcegitcommit: a1494c819bc5200050696e66057f1020f5b142cb
+ms.openlocfilehash: 989b4a04502a730c06a906be28a6915a4e604ff22c4b4e5ae9a4b85c8b464f81
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/12/2020
-ms.locfileid: "104094583"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117833629"
 ---
 # <a name="bcm_setdropdownstate-message"></a>BCM \_ SETDROPDOWNSTATE 訊息
 
@@ -53,8 +53,8 @@ ms.locfileid: "104094583"
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>                                        |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/>                                  |
+| 最低支援的用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>                                        |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/>                                  |
 | 標頭<br/>                   | <dl> <dt>Commctrl。h</dt> </dl> |
 
 

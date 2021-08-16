@@ -14,12 +14,12 @@ ms.topic: reference
 ms.date: 05/31/2018
 api_location: ''
 ROBOTS: INDEX,FOLLOW
-ms.openlocfilehash: be63845f389936656172b4cbb4e42de659bbf0e1
-ms.sourcegitcommit: b0ebdefc3dcd5c04bede94091833aa1015a2f95c
+ms.openlocfilehash: 372163b39ea788b5c03bd25aedcc44aee172d58080fb94e3333a029a514962a4
+ms.sourcegitcommit: e6600f550f79bddfe58bd4696ac50dd52cb03d7e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/21/2020
-ms.locfileid: "104093292"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119404588"
 ---
 # <a name="innereapoptional-eaptype-element"></a>InnerEapOptional (EapType) 元素
 
@@ -43,8 +43,8 @@ ms.locfileid: "104093292"
 
 | 角色 | 最低支援作業系統版本 |
 |------|------------------------------|
-| 用戶端<br/> | \[僅限 Windows Vista 桌面應用程式\]<br/>       |
-| 伺服器<br/> | 僅限 Windows Server 2008 \[ desktop 應用程式\]<br/> |
+| 用戶端<br/> | Windows\[僅限 Vista desktop 應用程式\]<br/>       |
+| 伺服器<br/> | Windows\[僅限 Server 2008 desktop 應用程式\]<br/> |
 
 
 

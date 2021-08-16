@@ -4,12 +4,12 @@ description: Direct2D 和 GDI 都是立即模式2D 轉譯 Api，兩者都提供�
 ms.assetid: 0028a0c3-445d-46b7-b55b-46dff3bce9ae
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 5f05dce8719f4d07d3160c65b88570391c3eb736
-ms.sourcegitcommit: 592c9bbd22ba69802dc353bcb5eb30699f9e9403
+ms.openlocfilehash: daa5fcb0f186915570d220a2807f816eae7a20fb393fbcd3113f6abf686fcd44
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "104315259"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117826537"
 ---
 # <a name="comparing-direct2d-and-gdi-hardware-acceleration"></a>比較 Direct2D 和 GDI 硬體加速
 
@@ -38,9 +38,9 @@ ms.locfileid: "104315259"
 
 [Direct2D](./direct2d-portal.md) 會轉譯不透明、透明、別名和消除鋸齒的基本專案。 新式 Ui 通常會利用透明度和動畫。 Direct2D 可讓您更輕鬆地建立新式 UI，因為它對於它接受和轉譯透明內容的方式有嚴格的保證，而且其所有基本專案都是使用硬體加速來呈現。 Direct2D 不是 [GDI](/windows/desktop/gdi/windows-gdi)的純超集合：在 GPU 上執行的 GPU 不存在於 Direct2D 時，可能會過長慢的基本專案。 因為 Direct2D 是以這種方式來強調3D 加速，所以也很容易與 Direct3D 搭配使用。
 
-自 Windows NT 4 起， [GDI](/windows/desktop/gdi/windows-gdi) 已在核心模式中執行。 應用程式會呼叫 GDI，然後呼叫其核心模式對應專案，其會將基本專案傳遞至其本身的驅動程式模型。 然後，此驅動程式會將結果傳送至全域核心模式顯示驅動程式。
+自 Windows NT 4 起， [GDI](/windows/desktop/gdi/windows-gdi)已在核心模式中執行。 應用程式會呼叫 GDI，然後呼叫其核心模式對應專案，其會將基本專案傳遞至其本身的驅動程式模型。 然後，此驅動程式會將結果傳送至全域核心模式顯示驅動程式。
 
-從 Windows 2000 開始， [gdi](/windows/desktop/gdi/windows-gdi) 和 gdi 驅動程式已在核心的獨立空間中執行，稱為「會話空間」。 每個登入會話都會建立一個會話位址空間，而每個 GDI 實例會在此相異核心模式位址空間中獨立執行。 不過，Direct2D 會在使用者模式中執行，並透過使用者模式 Direct3D 驅動程式，將繪製命令傳遞至核心模式驅動程式。
+從 Windows 2000 開始， [gdi](/windows/desktop/gdi/windows-gdi)和 gdi 驅動程式都在稱為「會話空間」的核心中，于獨立的空間內執行。 每個登入會話都會建立一個會話位址空間，而每個 GDI 實例會在此相異核心模式位址空間中獨立執行。 不過，Direct2D 會在使用者模式中執行，並透過使用者模式 Direct3D 驅動程式，將繪製命令傳遞至核心模式驅動程式。
 
 ![圖 1-相較于 gdi 的 direct2d](images/direct2d-vs-gdi1.png)
 
@@ -64,15 +64,15 @@ ms.locfileid: "104315259"
 
 ### <a name="composited-window-management"></a>複合視窗管理
 
-桌面視窗管理員 (DWM) （在 Windows 7 中引進的組合視窗管理員）會將所有視窗轉譯成非螢幕表面，然後將它們組合在一起，以顯示在畫面上。 這需要 [GDI](/windows/desktop/gdi/windows-gdi) 才能轉譯成介面，然後 Direct3D 會將其轉譯為顯示。 這會造成 XP 驅動程式模型發生問題，因為 GDI 和 Direct3D 是平行驅動程式堆疊。
+桌面視窗管理員 (DWM) 是 Windows 7 中引進的組合視窗管理員，會將所有視窗轉譯成全螢幕表面，然後將它們組合在一起，以顯示在畫面上。 這需要 [GDI](/windows/desktop/gdi/windows-gdi) 才能轉譯成介面，然後 Direct3D 會將其轉譯為顯示。 這會造成 XP 驅動程式模型發生問題，因為 GDI 和 Direct3D 是平行驅動程式堆疊。
 
-如此一來，在 Windows Vista 中， [GDI](/windows/desktop/gdi/windows-gdi) DDI 顯示驅動程式會實作為 Microsoft 提供的標準顯示驅動程式 (CDD) 將 GDI 內容轉譯成系統記憶體點陣圖以組成螢幕。
+如此一來，在 Windows Vista 中，會將[gdi](/windows/desktop/gdi/windows-gdi) DDI 顯示驅動程式實作為 Microsoft 提供的標準顯示驅動程式 (CDD) 將 gdi 內容轉譯成系統記憶體點陣圖以組成螢幕。
 
 ## <a name="gdi-rendering-in-windows-7"></a>Windows 7 中的 GDI 轉譯
 
-在 Windows Vista 中使用的驅動程式模型需要影片記憶體介面和系統記憶體介面都支援每個 [GDI](/windows/desktop/gdi/windows-gdi) 視窗。 這會導致系統記憶體用於每個 GDI 視窗。
+Windows Vista 中使用的驅動程式模型需要影片記憶體介面和系統記憶體介面都支援每個[GDI](/windows/desktop/gdi/windows-gdi)視窗。 這會導致系統記憶體用於每個 GDI 視窗。
 
-因此，Windows 7 中的 [GDI](/windows/desktop/gdi/windows-gdi) 已再次變更。 . GDI 不會轉譯成系統記憶體介面，而是為了轉譯成光圈記憶體區段而不會呈現。 您可以從包含視窗內容的視訊記憶體介面更新口徑記憶體。 GDI 可以轉譯回光圈記憶體，然後將結果傳回視窗介面。 由於記憶體區段是由 GPU 定址，因此 GPU 可以加速這些更新至視訊記憶體介面。 例如，在這些情況下，文字轉譯、BitBlts、AlphaBlend、TransparentBlt 和 StretchBlt 全都加速。
+基於這個理由，Windows 7 中的[GDI](/windows/desktop/gdi/windows-gdi)已再次變更。 . GDI 不會轉譯成系統記憶體介面，而是為了轉譯成光圈記憶體區段而不會呈現。 您可以從包含視窗內容的視訊記憶體介面更新口徑記憶體。 GDI 可以轉譯回光圈記憶體，然後將結果傳回視窗介面。 由於記憶體區段是由 GPU 定址，因此 GPU 可以加速這些更新至視訊記憶體介面。 例如，在這些情況下，文字轉譯、BitBlts、AlphaBlend、TransparentBlt 和 StretchBlt 全都加速。
 
 ## <a name="contrasting-direct2d-and-gdi-acceleration-in-windows-7"></a>Windows 7 中的對比 Direct2D 和 GDI 加速
 
@@ -96,16 +96,16 @@ ms.locfileid: "104315259"
 
 ### <a name="availability-of-hardware-acceleration"></a>硬體加速的可用性
 
-[GDI](/windows/desktop/gdi/windows-gdi) 是 windows XP 上的硬體加速功能，當桌面視窗管理員正在執行，且有 WDDM 1.1 驅動程式正在使用中時，會在 windows 7 上加速。 [Direct2D](./direct2d-portal.md) 是幾乎任何 WDDM 驅動程式的硬體加速，以及 DWM 是否正在使用中。 在 Vista 上，GDI 一律會在 CPU 上呈現。
+[GDI](/windows/desktop/gdi/windows-gdi)是 Windows XP 上的硬體加速，當桌面視窗管理員正在執行且使用 WDDM 1.1 驅動程式時，在 Windows 7 上加速。 [Direct2D](./direct2d-portal.md) 是幾乎任何 WDDM 驅動程式的硬體加速，以及 DWM 是否正在使用中。 在 Vista 上，GDI 一律會在 CPU 上呈現。
 
 ### <a name="presentation-model"></a>展示模型
 
-當您第一次設計 Windows 時，記憶體不足，無法讓每個視窗都儲存在自己的點陣圖中。 如此一來， [GDI](/windows/desktop/gdi/windows-gdi) 一律會以邏輯方式直接轉譯至螢幕，並套用各種裁剪區域，以確保應用程式不會在其視窗之外轉譯。 在 [Direct2D](./direct2d-portal.md) 模型中，應用程式會轉譯為背景緩衝區，並在應用程式完成繪製時顯示結果。 如此一來，Direct2D 就可以處理動畫案例，比 GDI 更流暢地。
+第一次設計 Windows 時，記憶體不足，無法讓每個視窗都儲存在自己的點陣圖中。 如此一來， [GDI](/windows/desktop/gdi/windows-gdi) 一律會以邏輯方式直接轉譯至螢幕，並套用各種裁剪區域，以確保應用程式不會在其視窗之外轉譯。 在 [Direct2D](./direct2d-portal.md) 模型中，應用程式會轉譯為背景緩衝區，並在應用程式完成繪製時顯示結果。 如此一來，Direct2D 就可以處理動畫案例，比 GDI 更流暢地。
 
 ## <a name="conclusion"></a>結論
 
-現有的 [GDI](/windows/desktop/gdi/windows-gdi) 程式碼在 Windows 7 下將繼續正常運作。 不過，在撰寫新的圖形轉譯程式碼時，應該考慮 [Direct2D](./direct2d-portal.md) ，因為它會更充分利用新式 gpu。
+現有的[GDI](/windows/desktop/gdi/windows-gdi)程式碼將繼續在 Windows 7 下正常運作。 不過，在撰寫新的圖形轉譯程式碼時，應該考慮 [Direct2D](./direct2d-portal.md) ，因為它會更充分利用新式 gpu。
 
- 
+ 
 
- 
+ 

@@ -1,19 +1,19 @@
 ---
-description: 使用者可以使用 [Windows 多媒體] 控制台的 [通訊] 索引標籤上可用的選項，來停用系統提供的預設回避體驗，Mmsys.cpl。
+description: 使用者可以使用 [Windows 多媒體] 控制台的 [通訊] 索引標籤上可用的選項，來停用系統所提供的預設回避體驗，Mmsys.cpl。
 ms.assetid: 5604b927-99f8-450f-a48c-b38d782584de
 title: 停用預設的回避體驗
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: ed33fa7d9473cb5c68a018b98bff8a826612387e
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 473b0bab8c3575d416cc72b7e931b4c85160bdaacc6031611ad80394f44b9098
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "104111552"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828549"
 ---
 # <a name="disabling-the-default-ducking-experience"></a>停用預設的回避體驗
 
-使用者可以使用 [Windows 多媒體] 控制台的 [**通訊**] 索引標籤上可用的選項，來停用系統提供的 [預設回避體驗](stream-attenuation.md)，Mmsys.cpl。
+使用者可以使用 [Windows 多媒體] 控制台的 [**通訊**] 索引標籤上可用的選項，來停用系統所提供的 [預設回避體驗](stream-attenuation.md)，Mmsys.cpl。
 
 套用回避時，淡出和淡入效果的使用時間為1秒。 遊戲應用程式可能不希望通訊串流干擾遊戲音訊。 有些媒體應用程式可能會發現播放體驗會在音樂淡入時 jarring。 這些類型的應用程式可以選擇不參與回避體驗。
 

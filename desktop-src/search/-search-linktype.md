@@ -12,16 +12,16 @@ api_name:
 api_type:
 - NA
 api_location: ''
-ms.openlocfilehash: e5b2105e8d56a9c8042f341ffc3f24a4d7995f4e
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 16c61f8d92a6f90be0fa4b64ddd9d582987ac0bdf52ca1c596c7db3a7fa4b669
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106998227"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118463041"
 ---
 # <a name="linktype-enumeration"></a>LINKTYPE 列舉
 
-\[只有在 Windows XP 和 Windows Server 2003 上才支援 **LINKTYPE** 列舉，因此不應再使用。\]
+\[只有 Windows XP 和 Windows Server 2003 才支援 **LINKTYPE** 列舉，因此不應再使用。\]
 
 指定編目或編制索引時的連結類型。
 
@@ -65,7 +65,7 @@ typedef enum _LINKTYPE {
 
 ## <a name="remarks"></a>備註
 
-若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能必須使用 **LINKTYPE** 旗標和下列其他 Api： [**IItemPreviewerExt：： GetLinkedContent**](-search-iitempreviewerext-getlinkedcontent.md) 和 [**IItemPreviewerExt：： GetRelatedPart**](-search-iitempreviewerext-getrelatedpart.md) 方法，以及 [**LINKINFO**](-search-linkinfo.md) 結構。
+若要在執行 Windows XP 或 Windows Server 2003 的電腦上使用協力廠商通訊協定處理常式來預覽附件，可能必須使用 **LINKTYPE** 旗標和下列其他 api： [**IItemPreviewerExt：： GetLinkedContent**](-search-iitempreviewerext-getlinkedcontent.md)和 [**IItemPreviewerExt：： GetRelatedPart**](-search-iitempreviewerext-getrelatedpart.md)方法和 [**LINKINFO**](-search-linkinfo.md)結構。
 
 ## <a name="requirements"></a>規格需求
 
@@ -73,8 +73,8 @@ typedef enum _LINKTYPE {
 
 | 需求 | 值 |
 |-------------------------------------|------------------------------------------------------|
-| 最低支援的用戶端<br/> | 僅限 Windows XP （含 SP2） \[ 桌面應用程式\]<br/> |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2003 \[ desktop 應用程式\]<br/> |
+| 最低支援的用戶端<br/> | Windows只有 XP （含 SP2） \[ 桌面應用程式\]<br/> |
+| 最低支援的伺服器<br/> | Windows\[僅限 Server 2003 desktop 應用程式\]<br/> |
 
 
 

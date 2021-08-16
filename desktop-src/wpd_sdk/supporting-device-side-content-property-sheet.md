@@ -1,19 +1,19 @@
 ---
 title: '支援裝置端內容 (PropertySheet) '
-description: 瞭解如何使用 Windows Shell API 或 WPD API 來取得裝置物件的資料，而這些物件無法透過 Windows Vista 中的檔案系統存取。
+description: 瞭解如何使用 Windows Shell api 或 WPD API 來取得裝置物件的資料，這些物件無法透過 Windows Vista 中的檔案系統存取。
 ms.assetid: ea11f8e6-fb53-46e4-b210-2dae33cdc056
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: 3aeade3745c37296b334c54af9edcc768fb8c93e
-ms.sourcegitcommit: 5d4e99f4c8f42f5f543e52cb9beb9fb13ec56c5f
+ms.openlocfilehash: 451bf63c1270b121cf909fa5ee07aff62cc3b83aa0e0d031cae61005f725c197
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/19/2021
-ms.locfileid: "112404191"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117842565"
 ---
 # <a name="supporting-device-side-content"></a>支援裝置端內容
 
-因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell API 或 WPD API 來取得裝置物件的資料。 這是一般屬性工作表處理常式和 WPD 屬性工作表處理常式之間的主要差異。 下列範例程式碼示範如何使用 Windows Shell API 抓取裝置端內容。
+因為無法透過 Windows Vista 中的檔案系統存取裝置端內容，所以您必須使用 Windows Shell api 或 WPD API 來取得裝置物件的資料。 這是一般屬性工作表處理常式和 WPD 屬性工作表處理常式之間的主要差異。 下列範例程式碼示範如何使用 Windows Shell API 來抓取裝置端內容。
 
 第一個步驟是專案識別碼清單或 PIDL 的初始化。  (此清單包含指定裝置物件的唯一識別碼。 ) 
 
@@ -164,7 +164,7 @@ Exit:
 
 
 
-除了初始化和處理專案識別碼清單之外，您的應用程式還必須執行 IShellPropSheetExt：： ReplacePage 方法，並插入適當的取代處理常式。 Windows Shell 會在每次要顯示可取代的屬性工作表時呼叫這個方法，讓您的應用程式有機會叫用對應的取代處理常式。 ReplacePage 方法之第一個參數的低字組是要顯示的特定屬性工作表的識別碼。 第一個參數的低字組中傳遞的值會對應至檔案 WpdShellExtension 中定義的值。 這些值及其描述會顯示在下表中。
+除了初始化和處理專案識別碼清單之外，您的應用程式還必須執行 IShellPropSheetExt：： ReplacePage 方法，並插入適當的取代處理常式。 Windows Shell 會在每次要顯示可取代的屬性工作表時呼叫這個方法，讓您的應用程式有機會叫用對應的取代處理常式。 ReplacePage 方法之第一個參數的低字是 Windows 即將顯示之指定屬性工作表的識別碼。 第一個參數的低字組中傳遞的值會對應至檔案 WpdShellExtension 中定義的值。 這些值及其描述會顯示在下表中。
 
 
 

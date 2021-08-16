@@ -13,12 +13,12 @@ api_type:
 - COM
 api_location:
 - vmms.exe
-ms.openlocfilehash: 6269e1a7794b6f04de606d13c90ef8dac1777369
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 508e92e4311824633fca5dce479790eea20b7aaf77d4c6eaf2058a98b4a878e5
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "106980569"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118392066"
 ---
 # <a name="modifykvpitems-method-of-the-msvm_virtualsystemmanagementservice-class"></a>Msvm VirtualSystemManagementService 類別的 ModifyKvpItems 方法 \_
 
@@ -201,7 +201,7 @@ namespace HyperVSamples
 
 
 
-下列 Visual Basic Scripting Edition (VBScript) 範例會修改虛擬機器上的機碼值組。
+下列 Visual Basic 腳本撰寫版 (VBScript) 範例修改虛擬機器的機碼值組。
 
 > [!IMPORTANT]
 > 若要正常運作，必須在虛擬機器主機伺服器上執行下列程式碼，且必須以系統管理員許可權執行。
@@ -379,8 +379,8 @@ End Function
 
 | 需求 | 值 |
 |-------------------------------------|---------------------------------------------------------------------------------------------------------|
-| 最低支援的用戶端<br/> | \[僅 Windows 8 桌面應用程式\]<br/>                                                              |
-| 最低支援的伺服器<br/> | 僅限 Windows Server 2012 \[ desktop 應用程式\]<br/>                                                    |
+| 最低支援的用戶端<br/> | Windows 8 \[僅限桌面應用程式\]<br/>                                                              |
+| 最低支援的伺服器<br/> | Windows Server 2012 \[僅限桌面應用程式\]<br/>                                                    |
 | 命名空間<br/>                | 根 \\ 虛擬化 \\ V2<br/>                                                                     |
 | MOF<br/>                      | <dl> <dt>WindowsVirtualization。</dt> </dl> |
 | DLL<br/>                      | <dl> <dt>Vmms.exe</dt> </dl>                     |

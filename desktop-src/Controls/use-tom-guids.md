@@ -4,12 +4,12 @@ description: 在 MIDL 介面語句內的 Tom 中，會提供文字物件模型 (
 ms.assetid: 48FF98C9-D42E-4E7F-874F-8E56F730E24E
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: db9c937d8b3c3612a3a49f27f18ac7c392b7a596
-ms.sourcegitcommit: f0ca63c18dc52c357d3398af7be766d2bdd40be7
+ms.openlocfilehash: f7c5c892ecac4b13a6e74aedad6c2a373908d2173c105ab0dbb0ec49c1439c36
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/17/2020
-ms.locfileid: "104462812"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117828529"
 ---
 # <a name="how-to-use-tom-guids"></a>如何使用 TOM Guid
 
@@ -19,12 +19,12 @@ ms.locfileid: "104462812"
 
 ### <a name="technologies"></a>技術
 
--   [Windows 控制項](window-controls.md)
+-   [Windows控制](window-controls.md)
 
 ### <a name="prerequisites"></a>必要條件
 
 -   C/C++
--   Windows 消費者介面程式設計
+-   Windows消費者介面程式設計
 
 ## <a name="instructions"></a>指示
 
@@ -57,9 +57,9 @@ DEFINE_GUIDXXX(IID_ITextDocument,0x8CC497C0,0xA1DF,0x11CE,0x80,0x98,
 [Windows 通用控制項示範 (CppWindowsCommonControls) ](https://github.com/microsoftarchive/msdn-code-gallery-microsoft/tree/master/OneCodeTeam/Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/%5BC++%5D-Windows%20common%20controls%20demo%20(CppWindowsCommonControls)/C++/CppWindowsCommonControls)
 </dt> </dl>
 
- 
+ 
 
- 
+ 
 
 
 

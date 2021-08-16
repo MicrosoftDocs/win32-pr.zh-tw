@@ -15,12 +15,12 @@ api_type:
 - Schema
 api_location:
 - All
-ms.openlocfilehash: 9f396b588f372f26a808e97593ffcc30eac9b3ad
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 4640570dd834b42652d04262b70ec84fac106d99f463ca22144e28ad388a0937
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "103852020"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "118320766"
 ---
 # <a name="__namespace-class"></a>\_\_Namespace 類別
 

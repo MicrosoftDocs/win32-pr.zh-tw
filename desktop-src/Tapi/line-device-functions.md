@@ -4,12 +4,12 @@ ms.assetid: 74e6300f-0d72-4b0f-8b95-fc1c8d0d0293
 title: 線路裝置功能
 ms.topic: article
 ms.date: 05/31/2018
-ms.openlocfilehash: fcaa65f996d31514b6fdd7ecfd8e50115fc43a5f
-ms.sourcegitcommit: 831e8f3db78ab820e1710cede244553c70e50500
+ms.openlocfilehash: 09d7b45a6cc25ede14da6b105cd0ce3da00adbade49e19f8ed2e44fb1d1baac9
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "106985615"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "119405258"
 ---
 # <a name="line-device-functions"></a>線路裝置功能
 

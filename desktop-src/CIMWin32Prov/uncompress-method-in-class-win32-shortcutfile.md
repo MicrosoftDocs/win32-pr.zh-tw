@@ -14,12 +14,12 @@ api_type:
 - COM
 api_location:
 - CIMWin32.dll
-ms.openlocfilehash: 48267f519dce9ae5d78581050255bd8e8b02222c
-ms.sourcegitcommit: c7add10d695482e1ceb72d62b8a4ebd84ea050f7
+ms.openlocfilehash: 05ce0f0a9bf8956a5c4841c18b098d86a5dff57fc66ac45f0a4e3fefecb3ef53
+ms.sourcegitcommit: e858bbe701567d4583c50a11326e42d7ea51804b
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/07/2021
-ms.locfileid: "103689148"
+ms.lasthandoff: 08/11/2021
+ms.locfileid: "117834513"
 ---
 # <a name="uncompress-method-of-the-win32_shortcutfile-class"></a>Win32 ShortcutFile 類別的解壓縮方法 \_
 
@@ -91,7 +91,7 @@ uint32 Uncompress();
 **12**
 </dt> <dd>
 
-平臺不是 Windows。
+平臺未 Windows。
 
 </dd> <dt>
 
